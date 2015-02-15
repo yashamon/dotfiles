@@ -1,0 +1,35 @@
+--langdef=tex
+--langmap=tex:.bib
+--regex-tex=/\\emph\{([^}]*)\}/\1/e,emph/
+--regex-tex=/\$([^}]*) \$/ \1/m, math/
+--regex-tex=/\$\$([^}]*)\$\$/ \1/m,math/ 
+
+--regex-tex=/\\begin\{equation\}([^}]*) \\end\{equation\}/\1/b,begin/
+--regex-tex=/\\label[ \t]*\*?\{[ \t]*([^}]*)\}/\1/l,label/
+--regex-tex=/\\begin\{equation\*\}\{([^}]*) \\end\{equation\*\}/\1/b,begin/
+--regex-tex=/^\\part[[:space:]]*(\[[^]]*\])?[[:space:]]*\{([^}]+)\}/PART \2/s,part/
+--regex-tex=/^\\part[[:space:]]*\*[[:space:]]*\{([^}]+)\}/PART \1/s,part/
+--regex-tex=/^\\chapter[[:space:]]*(\[[^]]*\])?[[:space:]]*\{([^}]+)\}/CHAP \2/s,chapter/
+--regex-tex=/^\\chapter[[:space:]]*\*[[:space:]]*\{([^}]+)\}/CHAP \1/s,chapter/
+--regex-tex=/^\\section[[:space:]]*(\[[^]]*\])?[[:space:]]*\{([^}]+)\}/\. \2/s,section/
+--regex-tex=/^\\section[[:space:]]*\*[[:space:]]*\{([^}]+)\}/\. \1/s,section/
+--regex-tex=/^\\subsection[[:space:]]*(\[[^]]*\])?[[:space:]]*\{([^}]+)\}/\.\. \2/s,subsection/
+--regex-tex=/^\\subsection[[:space:]]*\*[[:space:]]*\{([^}]+)\}/\.\. \1/s,subsection/
+--regex-tex=/^\\subsubsection[[:space:]]*(\[[^]]*\])?[[:space:]]*\{([^}]+)\}/\.\.\. \2/s,subsubsection/
+--regex-tex=/^\\subsubsection[[:space:]]*\*[[:space:]]*\{([^}]+)\}/\.\.\. \1/s,subsubsection/
+--regex-tex=/^\\includegraphics[[:space:]]*(\[[^]]*\])?[[:space:]]*(\[[^]]*\])?[[:space:]]*\{([^}]+)\}/\3/g,graphic+listing/
+--regex-tex=/^\\lstinputlisting[[:space:]]*(\[[^]]*\])?[[:space:]]*(\[[^]]*\])?[[:space:]]*\{([^}]+)\}/\3/g,graphic+listing/
+--regex-tex=/\\label[[:space:]]*\{([^}]+)\}/\1/l,label/
+--regex-tex=/\\ref[[:space:]]*\{([^}]+)\}/\1/r,ref/
+--regex-tex=/\\pageref[[:space:]]*\{([^}]+)\}/\1/p,pageref/
+--regex-make=/^([^:# \t]+)[ \t]*[:]{1,2}/\1/t,targets/
+--regex-tex=/label\{([^}]*)\}/\1/l,label/
+
+--regex-tex=/ARTICLE\{([^}]*)\,/\1/A,ARTICLE/
+--regex-tex=/BOOK\{([^}]*)\,/\1/B,BOOK/
+/*--langdef=tex*/
+/*--langmap=tex:.bib*/
+/**/
+/*--regex-bib=/ARTICLE\{([^}]*)\,/\1/A,ARTICLE/*/
+/*--regex-bib=/BOOK\{([^}]*)\,/\1/B,BOOK/*/
+--fields=+l
