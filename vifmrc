@@ -11,7 +11,8 @@ command Q :execute '!echo %d > ~/.vifm/lastdir' | quit
 map f /
 map F ?
 windo normal zo
-
+map H <C-w>h
+map L <C-w>l
 " This is the actual command used to start vi.  The default is vim.
 " If you would like to use another vi clone such Elvis or Vile
 " you will need to change this setting.

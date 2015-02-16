@@ -49,7 +49,7 @@ plugins=(git vi-mode command-not-found github history-substring-search)
 
 # User configuration
 
-export PATH="/root/.linuxbrew/bin:/usr/local/sbin:/usr/bin:/usr/local/bin:/usr/sbin:/sbin:/bin:/usr/games:/usr/local/games"
+export PATH="bin:/usr/local/sbin:/usr/bin:/usr/local/bin:/usr/sbin:/sbin:/bin:/usr/games:/usr/local/games"
 # export MANPATH="/usr/local/man:$MANPATH"
 source $ZSH/oh-my-zsh.sh
 
@@ -79,10 +79,10 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 # Path to your oh-my-zsh installation.
 eval "$(fasd --init auto)"
-
-export PATH="$HOME/.linuxbrew/bin:$PATH"
-export MANPATH="$HOME/.linuxbrew/share/man:$MANPATH"
-export INFOPATH="$HOME/.linuxbrew/share/info:$INFOPATH"
+#
+# export PATH="$HOME/.linuxbrew/bin:$PATH"
+# export MANPATH="$HOME/.linuxbrew/share/man:$MANPATH"
+# export INFOPATH="$HOME/.linuxbrew/share/info:$INFOPATH"
 
 if [ "$TERM" = "xterm" ]; then
          # No it isn't, it's gnome-terminal
@@ -104,8 +104,12 @@ alias j="z"
 alias pcm="sudo pacman"
 alias spcm="sudo pacman"
 alias zrc="vim ~/.zshrc"
-alias yao="sudo yaourt"
+alias pac="sudo packer"
 alias cprc="cp /root/.zshrc /home/yasha/.zshrc"
+alias pacup="packer -Syu --devel -aur"
+alias vifm='source ~/bin/vf'
+alias vrc="vim ~/.vimrc"
+alias src="source ~/.zshrc"
 # export ZSH=$HOME/.oh-my-zsh
 # # Set name of the theme to load.
 # # Look in ~/.oh-my-zsh/themes/
@@ -168,7 +172,6 @@ alias cprc="cp /root/.zshrc /home/yasha/.zshrc"
 # #          zle -N zle-line-init
 # #          zle -N zle-keymap-select
 # #     export KEYTIMEOUT=1
-# alias vifm='source ~/bin/vf'
 # source $ZSH/oh-my-zsh.sh
 #
 # # User configuration
