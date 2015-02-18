@@ -6,8 +6,10 @@ set-option -g default-shell /bin/zsh
 unbind r
 bind r source-file ~/.tmux.conf
 
-
+bind -n S-Right next-window
+bind -n S-Left previous-window
 # quick pane cycling
+
 unbind ^A
 bind ^A select-pane -t :.+
 set -g default-terminal "screen-256color"

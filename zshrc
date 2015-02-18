@@ -78,6 +78,22 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 # Path to your oh-my-zsh installation.
+
+
+
+# bind UP and DOWN arrow keys
+ zmodload zsh/terminfo
+bindkey "$terminfo[kcuu1]" history-substring-search-up
+bindkey "$terminfo[kcud1]" history-substring-search-down
+#
+# # bind P and N for EMACS mode
+# bindkey -M emacs '^P' history-substring-search-up
+# bindkey -M emacs '^N' history-substring-search-down
+#
+# # bind k and j for VI mode
+bindkey -M vicmd 'k' history-substring-search-up
+bindkey -M vicmd 'j' history-substring-search-down
+
 eval "$(fasd --init auto)"
 #
 # export PATH="$HOME/.linuxbrew/bin:$PATH"
@@ -97,7 +113,7 @@ alias pushgh="git add .; git commit -m -a; git push origin gh-pages"
 alias pandocd="pandoc index.md > index.html"
 alias attach="tmux attach -t"
 alias pdf="xpdf -fullscreen"
-alias vnc="vncserver -geometry 2560x1600 :1"
+alias vnc="vncserver -kill :1; vncserver -geometry 2560x1600 :1"
 alias drop="python2 ~/dropbox.py"
 alias ls="ls -a"
 alias j="z"
@@ -106,10 +122,15 @@ alias spcm="sudo pacman"
 alias zrc="vim ~/.zshrc"
 alias pac="sudo packer"
 alias cprc="cp /root/.zshrc /home/yasha/.zshrc"
-alias pacup="packer -Syu --devel -aur"
+alias pacup="packer -Syu --devel"
 alias vifm='source ~/bin/vf'
 alias vrc="vim ~/.vimrc"
 alias src="source ~/.zshrc"
+alias mux="tmux -f ~/.tmux-conf"
+alias bib="vim ~/Dropbox/linkfeb2015.bib"
+alias suya="su yasha; a"
+alias suru="su root; a"
+alias rec="recoll -q"
 # export ZSH=$HOME/.oh-my-zsh
 # # Set name of the theme to load.
 # # Look in ~/.oh-my-zsh/themes/
@@ -204,3 +225,4 @@ alias src="source ~/.zshrc"
 # # Example aliases
 # # alias zshconfig="mate ~/.zshrc"
 # # alias ohmyzsh="mate ~/.oh-my-zsh"
+
