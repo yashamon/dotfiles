@@ -131,6 +131,7 @@ alias bib="vim ~/Dropbox/linkfeb2015.bib"
 alias suya="su yasha; a"
 alias suru="su root; a"
 alias rec="recoll -q"
+alias vi="nvim"
 # export ZSH=$HOME/.oh-my-zsh
 # # Set name of the theme to load.
 # # Look in ~/.oh-my-zsh/themes/
