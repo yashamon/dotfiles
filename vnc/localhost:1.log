@@ -1,43 +1,21 @@
 
-Xvnc TigerVNC 1.4.1 - built Jan 23 2015 14:41:38
-Copyright (C) 1999-2013 TigerVNC Team and many others (see README.txt)
+Xvnc TigerVNC 1.4.3 - built Mar  6 2015 13:50:36
+Copyright (C) 1999-2015 TigerVNC Team and many others (see README.txt)
 See http://www.tigervnc.org for information on TigerVNC.
-Underlying X server release 11602901, The X.Org Foundation
+Underlying X server release 11701000, The X.Org Foundation
 
 
-Sun Feb 15 12:46:20 2015
+Thu Mar 19 17:17:35 2015
  vncext:      VNC extension running!
  vncext:      Listening for VNC connections on all interface(s), port 5901
  vncext:      created VNC server for screen 0
-/root/.vnc/xstartup: line 12: /urs/bin/fluxbox: No such file or directory
-xterm: cannot load font '-misc-fixed-medium-r-semicondensed--13-120-75-75-c-60-iso10646-1'
+/root/.vnc/xstartup: line 22: xrdb: command not found
 
-Sun Feb 15 12:46:29 2015
- Connections: accepted: 95.123.211.185::33181
+Thu Mar 19 17:17:55 2015
+ Connections: accepted: 81.32.99.253::59388
+
+Thu Mar 19 17:17:56 2015
  SConnection: Client needs protocol version 3.8
  SConnection: Client requests security type VncAuth(2)
  VNCSConnST:  Server default pixel format depth 24 (32bpp) little-endian rgb888
  VNCSConnST:  Client pixel format depth 24 (32bpp) little-endian rgb888
-
-Sun Feb 15 17:29:35 2015
- Connections: accepted: 31.4.183.26::4970
- SConnection: Client needs protocol version 3.8
- SConnection: Client requests security type VncAuth(2)
- VNCSConnST:  Server default pixel format depth 24 (32bpp) little-endian rgb888
-
-Sun Feb 15 17:29:36 2015
- VNCSConnST:  Client pixel format depth 24 (32bpp) little-endian rgb888
-
-Sun Feb 15 17:29:41 2015
- Connections: closed: 31.4.183.26::4970 (Clean disconnection)
- SMsgWriter:  framebuffer updates 2
- SMsgWriter:    RRE rects 50, bytes 1000
- SMsgWriter:    ZRLE rects 52, bytes 315871
- SMsgWriter:    raw bytes equivalent 16387272, compression ratio 51.715910
-
-Sun Feb 15 17:45:45 2015
- Connections: closed: 95.123.211.185::33181 (read: Connection timed out (110))
- SMsgWriter:  framebuffer updates 69
- SMsgWriter:    RRE rects 278, bytes 5560
- SMsgWriter:    ZRLE rects 318, bytes 2969056
- SMsgWriter:    raw bytes equivalent 101810320, compression ratio 34.226374

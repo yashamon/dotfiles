@@ -1,13 +1,26 @@
 #!/bin/sh
 
-# Uncomment the following two lines for normal desktop:
- #unset SESSION_MANAGER
- #exec /etc/X11/xinit/xinitrc
-
-[ -x /etc/vnc/xstartup ] && exec /etc/vnc/xstartup
+unset SESSION_MANAGER
+unset DBUS_SESSION_BUS_ADDRESS
+OS=`uname -s`
+if [ $OS = 'Linux' ]; then
+  case "$WINDOWMANAGER" in
+    *gnome*)
+      if [ -e /etc/SuSE-release ]; then
+        PATH=$PATH:/opt/gnome/bin
+        export PATH
+      fi
+      ;;
+  esac
+fi
+if [ -x /etc/X11/xinit/xinitrc ]; then
+  exec /etc/X11/xinit/xinitrc
+fi
+if [ -f /etc/X11/xinit/xinitrc ]; then
+  exec sh /etc/X11/xinit/xinitrc
+fi
 [ -r $HOME/.Xresources ] && xrdb $HOME/.Xresources
 xsetroot -solid grey
-vncconfig -iconic &
-xterm -geometry 100x80+10+10 -ls -title "$VNCDESKTOP Desktop" &
-/urs/bin/fluxbox &
-
+  xterm -geometry 1600x2560+0+0 -fa SourceCodePro-Regular -fs 25 -ls -title "$VNCDESKTOP Desktop" &
+#  xterm -maximized -fa SourceCodePro-Regular -fs 20 -ls -title "$VNCDESKTOP Desktop" &
+# fluxbox &
