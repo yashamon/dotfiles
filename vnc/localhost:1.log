@@ -5,17 +5,204 @@ See http://www.tigervnc.org for information on TigerVNC.
 Underlying X server release 11701000, The X.Org Foundation
 
 
-Thu Mar 19 17:17:35 2015
+Mon Mar 30 14:16:46 2015
  vncext:      VNC extension running!
  vncext:      Listening for VNC connections on all interface(s), port 5901
  vncext:      created VNC server for screen 0
 /root/.vnc/xstartup: line 22: xrdb: command not found
 
-Thu Mar 19 17:17:55 2015
- Connections: accepted: 81.32.99.253::59388
-
-Thu Mar 19 17:17:56 2015
+Mon Mar 30 14:16:49 2015
+ Connections: accepted: 31.4.179.22::52961
  SConnection: Client needs protocol version 3.8
  SConnection: Client requests security type VncAuth(2)
  VNCSConnST:  Server default pixel format depth 24 (32bpp) little-endian rgb888
  VNCSConnST:  Client pixel format depth 24 (32bpp) little-endian rgb888
+
+Mon Mar 30 15:18:09 2015
+ Connections: closed: 31.4.179.22::52961 (read: Connection reset by peer (104))
+ SMsgWriter:  framebuffer updates 85
+ SMsgWriter:    RRE rects 348, bytes 6960
+ SMsgWriter:    ZRLE rects 876, bytes 9404911
+ SMsgWriter:    raw bytes equivalent 293864036, compression ratio 31.222701
+
+Mon Mar 30 16:33:11 2015
+ Connections: accepted: 31.4.179.22::53004
+ SConnection: Client needs protocol version 3.8
+ SConnection: Client requests security type VncAuth(2)
+
+Mon Mar 30 16:33:48 2015
+ VNCSConnST:  Server default pixel format depth 24 (32bpp) little-endian rgb888
+ VNCSConnST:  Client pixel format depth 24 (32bpp) little-endian rgb888
+
+Mon Mar 30 17:29:52 2015
+ Connections: closed: 31.4.179.22::53004 (read: Connection reset by peer (104))
+ SMsgWriter:  framebuffer updates 74
+ SMsgWriter:    RRE rects 154, bytes 3080
+ SMsgWriter:    ZRLE rects 875, bytes 10540154
+ SMsgWriter:    raw bytes equivalent 230862908, compression ratio 21.896783
+
+Mon Mar 30 22:56:43 2015
+ Connections: accepted: 63.216.146.50::9208
+ SConnection: Client needs protocol version 3.3
+
+Mon Mar 30 22:56:44 2015
+ SConnection: AuthFailureException: Authentication failure
+ Connections: closed: 63.216.146.50::9208 (Authentication failure)
+
+Tue Mar 31 08:46:53 2015
+ Connections: accepted: 222.186.21.208::3926
+ SConnection: Client needs protocol version 3.4
+ SConnection: Client uses unofficial protocol version 3.4
+ SConnection: Assuming compatibility with version 3.3
+
+Tue Mar 31 08:46:54 2015
+ SConnection: AuthFailureException: Authentication failure
+ Connections: closed: 222.186.21.208::3926 (Authentication failure)
+
+Tue Mar 31 08:46:55 2015
+ Connections: accepted: 222.186.21.208::3079
+ SConnection: Client needs protocol version 3.4
+ SConnection: Client uses unofficial protocol version 3.4
+ SConnection: Assuming compatibility with version 3.3
+
+Tue Mar 31 08:46:56 2015
+ SConnection: AuthFailureException: Authentication failure
+ Connections: closed: 222.186.21.208::3079 (Authentication failure)
+
+Tue Mar 31 08:46:57 2015
+ Connections: accepted: 222.186.21.208::2762
+ SConnection: Client needs protocol version 3.4
+ SConnection: Client uses unofficial protocol version 3.4
+ SConnection: Assuming compatibility with version 3.3
+
+Tue Mar 31 08:46:58 2015
+ SConnection: AuthFailureException: Authentication failure
+ Connections: closed: 222.186.21.208::2762 (Authentication failure)
+
+Tue Mar 31 08:46:59 2015
+ Connections: accepted: 222.186.21.208::1480
+
+Tue Mar 31 08:47:02 2015
+ SConnection: Client needs protocol version 3.4
+ SConnection: Client uses unofficial protocol version 3.4
+ SConnection: Assuming compatibility with version 3.3
+
+Tue Mar 31 08:47:03 2015
+ SConnection: AuthFailureException: Authentication failure
+ Connections: closed: 222.186.21.208::1480 (Authentication failure)
+
+Tue Mar 31 08:47:05 2015
+ Connections: accepted: 222.186.21.208::2390
+
+Tue Mar 31 08:47:06 2015
+ SConnection: Client needs protocol version 3.4
+ SConnection: Client uses unofficial protocol version 3.4
+ SConnection: Assuming compatibility with version 3.3
+ SConnection: AuthFailureException: Authentication failure
+ Connections: closed: 222.186.21.208::2390 (Authentication failure)
+
+Tue Mar 31 08:47:10 2015
+ Connections: blacklisted: 222.186.21.208
+
+Tue Mar 31 08:47:11 2015
+ Connections: blacklisted: 222.186.21.208
+
+Tue Mar 31 10:01:00 2015
+ Connections: accepted: 63.216.146.50::35490
+
+Tue Mar 31 10:01:01 2015
+ SConnection: Client needs protocol version 3.3
+ SConnection: AuthFailureException: Authentication failure
+ Connections: closed: 63.216.146.50::35490 (Authentication failure)
+
+Tue Mar 31 14:13:35 2015
+ Connections: accepted: 222.186.21.208::3546
+
+Tue Mar 31 14:13:36 2015
+ SConnection: Client needs protocol version 3.4
+ SConnection: Client uses unofficial protocol version 3.4
+ SConnection: Assuming compatibility with version 3.3
+
+Tue Mar 31 14:13:37 2015
+ SConnection: AuthFailureException: Authentication failure
+ Connections: closed: 222.186.21.208::3546 (Authentication failure)
+
+Tue Mar 31 14:13:39 2015
+ Connections: blacklisted: 222.186.21.208
+
+Tue Mar 31 14:13:40 2015
+ Connections: blacklisted: 222.186.21.208
+
+Tue Mar 31 18:51:56 2015
+ Connections: accepted: 222.186.21.208::1493
+
+Tue Mar 31 18:51:57 2015
+ SConnection: Client needs protocol version 3.4
+ SConnection: Client uses unofficial protocol version 3.4
+ SConnection: Assuming compatibility with version 3.3
+
+Tue Mar 31 18:52:00 2015
+ SConnection: AuthFailureException: Authentication failure
+ Connections: closed: 222.186.21.208::1493 (Authentication failure)
+
+Tue Mar 31 18:52:01 2015
+ Connections: blacklisted: 222.186.21.208
+
+Tue Mar 31 18:52:02 2015
+ Connections: blacklisted: 222.186.21.208
+
+Tue Mar 31 21:07:56 2015
+ Connections: accepted: 63.216.146.50::61840
+ SConnection: Client needs protocol version 3.3
+
+Tue Mar 31 21:07:57 2015
+ SConnection: AuthFailureException: Authentication failure
+ Connections: closed: 63.216.146.50::61840 (Authentication failure)
+
+Tue Mar 31 21:47:02 2015
+ Connections: accepted: 222.186.21.208::4793
+
+Tue Mar 31 21:47:03 2015
+ SConnection: Client needs protocol version 3.4
+ SConnection: Client uses unofficial protocol version 3.4
+ SConnection: Assuming compatibility with version 3.3
+ SConnection: AuthFailureException: Authentication failure
+ Connections: closed: 222.186.21.208::4793 (Authentication failure)
+
+Tue Mar 31 21:47:04 2015
+ Connections: blacklisted: 222.186.21.208
+
+Tue Mar 31 21:47:05 2015
+ Connections: blacklisted: 222.186.21.208
+
+Tue Mar 31 21:49:34 2015
+ Connections: accepted: 222.186.21.208::3932
+
+Tue Mar 31 21:49:35 2015
+ SConnection: Client needs protocol version 3.4
+ SConnection: Client uses unofficial protocol version 3.4
+ SConnection: Assuming compatibility with version 3.3
+
+Tue Mar 31 21:49:38 2015
+ SConnection: AuthFailureException: Authentication failure
+ Connections: closed: 222.186.21.208::3932 (Authentication failure)
+
+Tue Mar 31 21:49:42 2015
+ Connections: blacklisted: 222.186.21.208
+
+Tue Mar 31 21:49:43 2015
+ Connections: blacklisted: 222.186.21.208
+
+Tue Mar 31 21:51:11 2015
+ Connections: blacklisted: 222.186.21.208
+
+Tue Mar 31 21:52:00 2015
+ Connections: blacklisted: 222.186.21.208
+
+Wed Apr  1 08:08:47 2015
+ Connections: accepted: 63.216.146.50::31617
+
+Wed Apr  1 08:08:48 2015
+ SConnection: Client needs protocol version 3.3
+ SConnection: AuthFailureException: Authentication failure
+ Connections: closed: 63.216.146.50::31617 (Authentication failure)

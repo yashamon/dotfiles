@@ -23,4 +23,4 @@ fi
 xsetroot -solid grey
   xterm -geometry 1600x2560+0+0 -fa SourceCodePro-Regular -fs 25 -ls -title "$VNCDESKTOP Desktop" &
 #  xterm -maximized -fa SourceCodePro-Regular -fs 20 -ls -title "$VNCDESKTOP Desktop" &
-# fluxbox &
+# xmonad &
