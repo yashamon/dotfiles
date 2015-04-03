@@ -15,7 +15,7 @@ bind C-v run "tmux set-buffer -- \"$(xclip -o -selection clipboard)\"; tmux past
 bind -n S-Right next-window
 bind -n S-Left previous-window
 # quick pane cycling
-set -g escape-time 10
+set -g escape-time 1
 unbind ^A
 bind ^A select-pane -t :.+
 set -g default-terminal "screen-256color"

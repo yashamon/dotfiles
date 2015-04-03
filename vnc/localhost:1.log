@@ -5,24 +5,89 @@ See http://www.tigervnc.org for information on TigerVNC.
 Underlying X server release 11701000, The X.Org Foundation
 
 
-Thu Apr  2 12:51:49 2015
+Thu Apr  2 13:52:55 2015
  vncext:      VNC extension running!
  vncext:      Listening for VNC connections on all interface(s), port 5901
  vncext:      created VNC server for screen 0
 /root/.vnc/xstartup: line 22: xrdb: command not found
 
-Thu Apr  2 12:53:38 2015
- Connections: accepted: 47.60.38.28::16120
+Thu Apr  2 13:53:19 2015
+ Connections: accepted: 47.60.38.28::9823
+ SConnection: Client needs protocol version 3.8
+ SConnection: Client requests security type VncAuth(2)
+
+Thu Apr  2 13:53:20 2015
+ VNCSConnST:  Server default pixel format depth 24 (32bpp) little-endian rgb888
+ VNCSConnST:  Client pixel format depth 24 (32bpp) little-endian rgb888
+
+Thu Apr  2 14:25:03 2015
+ Connections: accepted: 47.60.38.28::9864
+ SConnection: Client needs protocol version 3.8
+ SConnection: Client requests security type VncAuth(2)
+
+Thu Apr  2 14:25:15 2015
+ VNCSConnST:  Server default pixel format depth 24 (32bpp) little-endian rgb888
+ VNCSConnST:  Client pixel format depth 24 (32bpp) little-endian rgb888
+
+Thu Apr  2 14:26:30 2015
+ Input:       Added unknown keysym 0x10001f9 to keycode 255
+
+Thu Apr  2 14:29:04 2015
+ Connections: closed: 47.60.38.28::9823 (read: Connection reset by peer (104))
+ SMsgWriter:  framebuffer updates 66
+ SMsgWriter:    RRE rects 159, bytes 3180
+ SMsgWriter:    ZRLE rects 745, bytes 8061914
+ SMsgWriter:    raw bytes equivalent 195771816, compression ratio 24.273966
+
+Thu Apr  2 14:30:47 2015
+ Connections: accepted: 47.60.38.28::9824
+
+Thu Apr  2 14:30:48 2015
+ SConnection: Client needs protocol version 3.8
+ SConnection: Client requests security type VncAuth(2)
+ VNCSConnST:  Server default pixel format depth 24 (32bpp) little-endian rgb888
+ VNCSConnST:  Client pixel format depth 24 (32bpp) little-endian rgb888
+ Connections: closed: 47.60.38.28::9864 (read: Connection reset by peer (104))
+ SMsgWriter:  framebuffer updates 14
+ SMsgWriter:    RRE rects 69, bytes 1380
+ SMsgWriter:    ZRLE rects 186, bytes 1557563
+ SMsgWriter:    raw bytes equivalent 61449204, compression ratio 39.417223
+
+Thu Apr  2 15:29:34 2015
+ Connections: closed: 47.60.38.28::9824 (read: Connection reset by peer (104))
+ SMsgWriter:  framebuffer updates 14
+ SMsgWriter:    RRE rects 115, bytes 2300
+ SMsgWriter:    ZRLE rects 293, bytes 2322704
+ SMsgWriter:    raw bytes equivalent 100045600, compression ratio 43.030292
+
+Thu Apr  2 15:46:08 2015
+ Connections: accepted: 47.60.38.28::9869
  SConnection: Client needs protocol version 3.8
  SConnection: Client requests security type VncAuth(2)
  VNCSConnST:  Server default pixel format depth 24 (32bpp) little-endian rgb888
 
-Thu Apr  2 12:53:39 2015
+Thu Apr  2 15:46:09 2015
  VNCSConnST:  Client pixel format depth 24 (32bpp) little-endian rgb888
 
-Thu Apr  2 13:23:45 2015
- Connections: closed: 47.60.38.28::16120 (read: Connection reset by peer (104))
- SMsgWriter:  framebuffer updates 2
- SMsgWriter:    RRE rects 1, bytes 20
- SMsgWriter:    ZRLE rects 65, bytes 10247
- SMsgWriter:    raw bytes equivalent 16386552, compression ratio 1596.040908
+Thu Apr  2 17:08:25 2015
+ Connections: closed: 47.60.38.28::9869 (read: Connection reset by peer (104))
+ SMsgWriter:  framebuffer updates 53
+ SMsgWriter:    RRE rects 414, bytes 8280
+ SMsgWriter:    ZRLE rects 1000, bytes 7240603
+ SMsgWriter:    raw bytes equivalent 345131592, compression ratio 47.611693
+
+Thu Apr  2 17:34:42 2015
+ Connections: accepted: 47.60.38.28::44153
+ SConnection: Client needs protocol version 3.8
+ SConnection: Client requests security type VncAuth(2)
+ VNCSConnST:  Server default pixel format depth 24 (32bpp) little-endian rgb888
+
+Thu Apr  2 17:34:43 2015
+ VNCSConnST:  Client pixel format depth 24 (32bpp) little-endian rgb888
+
+Thu Apr  2 18:14:23 2015
+ Connections: closed: 47.60.38.28::44153 (read: Connection reset by peer (104))
+ SMsgWriter:  framebuffer updates 8
+ SMsgWriter:    RRE rects 154, bytes 3080
+ SMsgWriter:    ZRLE rects 296, bytes 1823474
+ SMsgWriter:    raw bytes equivalent 114695448, compression ratio 62.793352
