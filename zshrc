@@ -1,5 +1,8 @@
 # Path to your oh-my-zsh installation.
-export ZSH=/root/.oh-my-zsh
+export ZSH=/home/yashamon/.oh-my-zsh
+
+#StartX automatically
+#[[ $(tty) = "/dev/tty1" ]] && exec startx
 
 # Set name of the theme to load.
 # Look in ~/.oh-my-zsh/themes/
@@ -119,12 +122,13 @@ alias ls="ls -a"
 alias j="z"
 alias pcm="sudo pacman"
 alias spcm="sudo pacman"
-alias zrc="vim ~/.zshrc"
-alias pac="sudo packer"
+alias zrc="vi ~/.zshrc"
+# alias pac="sudo packer"
 alias cprc="cp /root/.zshrc /home/yasha/.zshrc"
-alias pacup="packer -Syu --devel"
+alias pac="yaourt"
+alias pacup="yaourt -Syu --devel"
 alias vifm='source ~/bin/vf'
-alias vrc="vim ~/.vimrc"
+alias vrc="vi ~/dotfiles/vim/vimrc"
 alias src="source ~/.zshrc"
 alias mux="tmux -f ~/.tmux-conf"
 alias bib="vim ~/Dropbox/linkfeb2015.bib"
@@ -132,6 +136,9 @@ alias suya="su yasha; a"
 alias suru="su root; a"
 alias rec="recoll -q"
 alias vi="nvim"
+alias music="ncxmms2"
+alias setup="xrdb ~/.Xresources; xmodmap ~/.swapper"
+
 # export ZSH=$HOME/.oh-my-zsh
 # # Set name of the theme to load.
 # # Look in ~/.oh-my-zsh/themes/
@@ -227,3 +234,4 @@ alias vi="nvim"
 # # alias zshconfig="mate ~/.zshrc"
 # # alias ohmyzsh="mate ~/.oh-my-zsh"
 
+export PATH=$PATH:~/.cabal/bin:~/.xmonad/bin
