@@ -85,7 +85,7 @@ source $ZSH/oh-my-zsh.sh
 
 
 # bind UP and DOWN arrow keys
- zmodload zsh/terminfo
+zmodload zsh/terminfo
 bindkey "$terminfo[kcuu1]" history-substring-search-up
 bindkey "$terminfo[kcud1]" history-substring-search-down
 #
@@ -117,7 +117,7 @@ alias pandocd="pandoc index.md > index.html"
 alias attach="tmux attach -t"
 alias pdf="xpdf -fullscreen"
 alias vnc="vncserver -kill :1; vncserver -geometry 1600x2560 :1"
-alias drop="python2 ~/dropbox.py"
+alias drop="dropbox-cli"
 alias ls="ls -a"
 alias j="z"
 alias pcm="sudo pacman"
@@ -136,9 +136,9 @@ alias suya="su yasha; a"
 alias suru="su root; a"
 alias rec="recoll -q"
 alias vi="nvim"
-alias music="ncxmms2"
+alias music="vimpc"
 alias setup="xrdb ~/.Xresources; xmodmap ~/.swapper"
-
+alias pmpd="pasuspender -- mpd ~/.mpd/mpd.conf"
 # export ZSH=$HOME/.oh-my-zsh
 # # Set name of the theme to load.
 # # Look in ~/.oh-my-zsh/themes/
