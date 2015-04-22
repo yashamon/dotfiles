@@ -1,8 +1,0 @@
-2015/04/11 10:52:01 [error @ call_set_error:723] 22317 - msgpack-rpc: Channel was closed by the client
-2015/04/11 10:52:02 [error @ job_err:335] 23808 - Channel 1 stderr: Traceback (most recent call last):
-  File "<string>", line 1, in <module>
-ImportError: No module named 'neovim'
-
-2015/04/11 10:52:02 [error @ call_set_error:723] 23808 - msgpack-rpc: Channel was closed by the client
-2015/04/11 10:52:03 [info @ main_loop:519] 23808 - Starting Neovim main loop.
-2015/04/11 10:52:20 [error @ call_set_error:723] 23808 - msgpack-rpc: Channel was closed by the client

@@ -1,1 +1,0 @@
-/home/yashamon/.xmonad/bin/xsession
