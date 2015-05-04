@@ -1,0 +1,5 @@
+
+xmonad.hs:21:14:
+    Illegal type signature: ‘X () myLogHook’
+      Perhaps you intended to use ScopedTypeVariables
+    In a pattern type-signature

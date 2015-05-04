@@ -1,0 +1,11 @@
+# defaults.pcm.card 2
+# defaults.pcm.device 0
+pcm.!default {
+    type hw
+    card B10
+}
+
+ctl.!default {
+    type hw
+    card PCH
+}

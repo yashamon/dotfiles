@@ -1,0 +1,13 @@
+# .xsession
+# xrdb ~/.Xresources &
+setxkbmap -option caps:escape &
+# xmobar
+# feh --bg-scale /home/yashamon/Dropbox/Photos/more.mass/P1000051.JPG &
+feh --bg-scale --randomize /home/yashamon/backgrounds &
+urxvtd -q -f -o &
+xrdb -load ~/.Xresources &
+urxvtc & 
+chromium &
+transmission-gtk &
+xcompmgr &
+urxvtc & 

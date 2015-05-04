@@ -1,6 +1,6 @@
 # Path to your oh-my-zsh installation.
 export ZSH=/home/yashamon/.oh-my-zsh
-
+export KEYTIMEOUT=1
 #StartX automatically
 #[[ $(tty) = "/dev/tty1" ]] && exec startx
 
@@ -48,7 +48,7 @@ ZSH_THEME="sorin"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git vi-mode command-not-found github history-substring-search)
+plugins=(git vi-mode vim-interaction command-not-found github history-substring-search)
 
 # User configuration
 
@@ -127,7 +127,7 @@ alias zrc="vi ~/.zshrc"
 alias cprc="cp /root/.zshrc /home/yasha/.zshrc"
 alias pac="yaourt"
 alias pacup="yaourt -Syu --devel"
-alias vifm='source ~/bin/vf'
+# alias vifm='source ~/bin/vf'
 alias vrc="vi ~/dotfiles/vim/vimrc"
 alias src="source ~/.zshrc"
 alias mux="tmux -f ~/.tmux-conf"
@@ -136,9 +136,10 @@ alias suya="su yasha; a"
 alias suru="su root; a"
 alias rec="recoll -q"
 alias vi="nvim"
-alias music="vimpc"
+alias music="pasuspender -- mpd ~/.mpd/mpd.conf; vimpc"
 alias setup="xrdb ~/.Xresources; xmodmap ~/.swapper"
 alias pmpd="pasuspender -- mpd ~/.mpd/mpd.conf"
+alias fehbg="feh --bg-scale"
 # export ZSH=$HOME/.oh-my-zsh
 # # Set name of the theme to load.
 # # Look in ~/.oh-my-zsh/themes/

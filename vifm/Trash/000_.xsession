@@ -1,0 +1,1 @@
+/home/yashamon/dotfiles/xsession
