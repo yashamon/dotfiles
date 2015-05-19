@@ -7,7 +7,7 @@ import XMonad.Layout.NoBorders
 import XMonad.Hooks.UrgencyHook
 import XMonad.Util.EZConfig(additionalKeysP, additionalKeys)
 myWorkspaces :: [String]
-myWorkspaces = [ "shell", "web", "steam-music", "torrent", "shell-misc", "6", "7", "8"
+myWorkspaces = [ "shell", "web", "media", "torrent", "shell-misc", "6", "7", "8"
                , "mail" ]
 
 -- layoutHook = avoidStruts $ smartBorders (tall ||| Full)
@@ -16,7 +16,9 @@ mylayoutHook = avoidStruts $ smartBorders (tall ||| Full)
 myManageHook = composeAll
    [ className =? "Chromium" --> doShift "web"
    , className =? "Transmission-gtk" --> doShift "torrent"
-   , className =? "Steam" --> doShift "music-steam"
+   , className =? "Steam" --> doShift "media"
+   , className =? "Vlc" --> doShift "media"
+   , className =? "vlc" --> doShift "media"
    , manageDocks
    ]
 myLogHook :: X ()

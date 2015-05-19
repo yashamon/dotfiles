@@ -8,6 +8,9 @@
 " ------------------------------------------------------------------------------
 
 command Q :execute '!echo %d > ~/.vifm/lastdir' | quit
+command sacd sacd_extract -2 -s -c -i %f 
+command diff nvim -d %f %F
+command sacddir for f in */*.iso ; do sacd_extract -2 -s -c -i "$f" ; done
 map f /
 map F ?
 map J <C-d>
@@ -18,7 +21,10 @@ map L <C-w>l
 filextype *.jpg,*.jpeg,*.png,*.gif
        \ {View in feh}
        \ feh -FZ %d --start-at %d/%c 2>/dev/null
-
+filextype *.pdf,*.dvi
+       \ mupdf %f 
+filextype *.djvu
+       \ evince %f 
 command link ln -s %d/%f %D
 
 filetype *.jpg,*.jpeg,*.png,*.gif feh %f 2>/dev/null &

@@ -10,7 +10,7 @@ bind r source-file ~/.tmux.conf
 ##Copy tmux paste buffer to CLIPBOARD
 bind C-c run "tmux save-buffer - | xclip -i -selection clipboard"
 ##Copy CLIPBOARD to tmux paste buffer and paste tmux paste buffer
-bind C-v run "tmux set-buffer -- \"$(xclip -o -selection clipboard)\"; tmux paste-buffer"
+# bind C-v run "tmux set-buffer -- \"$(xclip -o -selection clipboard)\"; tmux paste-buffer"
 
 bind -n S-Right next-window
 bind -n S-Left previous-window

@@ -140,6 +140,7 @@ alias music="pasuspender -- mpd ~/.mpd/mpd.conf; vimpc"
 alias setup="xrdb ~/.Xresources; xmodmap ~/.swapper"
 alias pmpd="pasuspender -- mpd ~/.mpd/mpd.conf"
 alias fehbg="feh --bg-scale"
+alias killcomp="killall xcompmgr"
 # export ZSH=$HOME/.oh-my-zsh
 # # Set name of the theme to load.
 # # Look in ~/.oh-my-zsh/themes/
