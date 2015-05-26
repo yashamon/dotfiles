@@ -8,4 +8,6 @@ fi
 [ -f /etc/xprofile ] && source /etc/xprofile
 [ -f ~/.xprofile ] && source ~/.xprofile
 xsetroot -cursor_name left_ptr &
-exec xmonad
+exec xmonad &
+urxvtc &
+redshift

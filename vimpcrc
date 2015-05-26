@@ -7,3 +7,5 @@ map <A-d> 15j
 map <A-u> 15k
 map J 15j
 map K 15k
+set ignorecase
+set smartcase

@@ -6,8 +6,6 @@ setxkbmap -option caps:escape &
 feh --bg-scale --randomize /home/yashamon/backgrounds &
 urxvtd -q -f -o &
 xrdb -load ~/.Xresources &
-urxvtc & 
 chromium &
 transmission-gtk &
 xcompmgr &
-urxvtc & 
