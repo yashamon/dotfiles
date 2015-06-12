@@ -32,4 +32,5 @@
 /**/
 /*--regex-bib=/ARTICLE\{([^}]*)\,/\1/A,ARTICLE/*/
 /*--regex-bib=/BOOK\{([^}]*)\,/\1/B,BOOK/*/
+/*--regex-bib=/misc\{([^}]*)\,/\1/m,misc/*/
 --fields=+l

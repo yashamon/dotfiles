@@ -9,3 +9,4 @@ map J 15j
 map K 15k
 set ignorecase
 set smartcase
+set incsearch
