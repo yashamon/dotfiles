@@ -1,2 +1,6 @@
 *.log
+<<<<<<< HEAD
 passwd
+=======
+*passwd*
+>>>>>>> f16525df374fdbcf56a17dcbfbcd855cb9f15d8e
