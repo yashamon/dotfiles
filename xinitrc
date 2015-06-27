@@ -9,5 +9,4 @@ fi
 [ -f ~/.xprofile ] && source ~/.xprofile
 xsetroot -cursor_name left_ptr &
 exec xmonad &
-urxvtc &
-redshift
+redshift &
