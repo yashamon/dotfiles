@@ -1,5 +1,5 @@
 # Path to your oh-my-zsh installation.
-export ZSH=/home/yashamon/.oh-my-zsh
+export ZSH=~/.oh-my-zsh
 export KEYTIMEOUT=1
 #StartX automatically
 #[[ $(tty) = "/dev/tty1" ]] && exec startx
