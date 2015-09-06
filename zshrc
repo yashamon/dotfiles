@@ -1,5 +1,5 @@
 # Path to your oh-my-zsh installation.
-export ZSH=/root/.oh-my-zsh
+export ZSH=/home/yasha/.oh-my-zsh
 
 # Set name of the theme to load.
 # Look in ~/.oh-my-zsh/themes/
@@ -120,7 +120,7 @@ alias j="z"
 alias pcm="sudo pacman"
 alias spcm="sudo pacman"
 alias zrc="vim ~/.zshrc"
-alias pac="sudo packer"
+alias pac="yaourt"
 alias cprc="cp /root/.zshrc /home/yasha/.zshrc"
 alias pacup="packer -Syu --devel"
 alias vifm='source ~/bin/vf'
