@@ -49,7 +49,7 @@ plugins=(git vi-mode command-not-found github history-substring-search)
 
 # User configuration
 
-export PATH="bin:/usr/local/sbin:/usr/bin:/usr/local/bin:/usr/sbin:/sbin:/bin:/usr/games:/usr/local/games"
+export PATH="bin:/usr/local/sbin:/usr/bin:/usr/local/bin:/usr/sbin:/sbin:/bin:/usr/games:/root/.cabal/bin:/usr/local/games"
 # export MANPATH="/usr/local/man:$MANPATH"
 source $ZSH/oh-my-zsh.sh
 
@@ -105,26 +105,27 @@ if [ "$TERM" = "xterm" ]; then
              export TERM=xterm-256color
              fi
 alias tmux d="tmux detach"
-alias texi="latexmk -pdf -g -file-line-error -synctex=1  -interaction=nonstopmode -recorder document.tex" 
-alias latexi="latexmk -pdf -file-line-error -synctex=1  -interaction=nonstopmode -recorder"
-alias pvc="latexmk -pdf -pvc -file-line-error -synctex=1  -interaction=nonstopmode -recorder"
+alias texi="pdflatex -file-line-error -synctex=1  -interaction=nonstopmode -recorder" 
+alias latexi="latexmk -g -pdf -file-line-error -synctex=1  -interaction=nonstopmode -recorder -f"
+alias pvc="latexmk -pdf -pvc -file-line-error -synctex=1  -interaction=nonstopmode -recorder -f"
 alias push="git add .; git commit -m -a; git push origin master"
 alias pushgh="git add .; git commit -m -a; git push origin gh-pages"
 alias pandocd="pandoc index.md > index.html"
 alias attach="tmux attach -t"
-alias pdf="xpdf -fullscreen"
-alias vnc="vncserver -kill :1; vncserver -geometry 1600x2560 :1"
+alias pdf="xpdf -geometry 1920x1080 -fullscreen"
+# alias vnc="vncserver -kill :1; vncserver -geometry 1600x2560 :1"
+alias vnc="vncserver -kill :1; vncserver -geometry 1920x1080"
 alias drop="dropbox-cli"
 alias ls="ls -a"
 alias j="z"
 alias pcm="sudo pacman"
 alias spcm="sudo pacman"
-alias zrc="vim ~/.zshrc"
+alias zrc="vi ~/.zshrc"
 alias pac="sudo packer"
 alias cprc="cp /root/.zshrc /home/yasha/.zshrc"
 alias pacup="packer -Syu --devel"
 alias vifm='source ~/bin/vf'
-alias vrc="vim ~/.vimrc"
+alias vrc="vi ~/.nvimrc"
 alias src="source ~/.zshrc"
 alias mux="tmux -f ~/.tmux-conf"
 alias bib="vim ~/Dropbox/linkfeb2015.bib"

@@ -33,6 +33,10 @@ done
     echo "Moving vimrc"
     mv ~/.vimrc  ~/dotfiles_old/
 ln -s ~/dotfiles/vim/vimrc ~/.vimrc
+
+    echo "Moving nvimrc"
+    mv ~/.nvimrc  ~/dotfiles_old/
+ln -s ~/dotfiles/vim/nvimrc ~/.nvimrc
 install_zsh () {
 # Test to see if zshell is installed.  If it is:
 if [ -f /bin/zsh -o -f /usr/bin/zsh ]; then
