@@ -130,6 +130,7 @@ alias src="source ~/.zshrc"
 alias mux="tmux -f ~/.tmux-conf"
 alias bib="vim ~/Dropbox/linkfeb2015.bib"
 alias suya="su yasha; a"
+# alias go= pslatex document.tex; dvips document.dvi; ps2pdf document.ps
 alias suru="su root; a"
 alias rec="recoll -q"
 alias vi="nvim"
