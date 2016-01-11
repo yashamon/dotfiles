@@ -1,0 +1,24 @@
+
+xmonad.hs:2:8:
+    Could not find module ‘XMonad.Hooks.DynamicLog’
+    Use -v to see a list of the files searched for.
+
+xmonad.hs:4:8:
+    Could not find module ‘XMonad.Hooks.FadeInactive’
+    Use -v to see a list of the files searched for.
+
+xmonad.hs:5:8:
+    Could not find module ‘XMonad.Hooks.ManageDocks’
+    Use -v to see a list of the files searched for.
+
+xmonad.hs:6:8:
+    Could not find module ‘XMonad.Layout.NoBorders’
+    Use -v to see a list of the files searched for.
+
+xmonad.hs:7:8:
+    Could not find module ‘XMonad.Hooks.UrgencyHook’
+    Use -v to see a list of the files searched for.
+
+xmonad.hs:8:8:
+    Could not find module ‘XMonad.Util.EZConfig’
+    Use -v to see a list of the files searched for.

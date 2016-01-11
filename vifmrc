@@ -8,7 +8,7 @@
 " ------------------------------------------------------------------------------
 
 command Q :execute '!echo %d > ~/.vifm/lastdir' | quit
-map <A-q> :wq
+map <A-q> :wq<CR>
 map f /
 map F ?
 windo normal zo
