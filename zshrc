@@ -109,7 +109,7 @@ alias texi="pdflatex -file-line-error -synctex=1  -interaction=nonstopmode -reco
 alias latexi="latexmk -g -pdf -file-line-error -synctex=1  -interaction=nonstopmode -recorder -f"
 alias pvc="latexmk -pdf -pvc -file-line-error -synctex=1  -interaction=nonstopmode -recorder -f"
 alias push="git add .; git commit -m -a; git push origin master"
-alias pushgh="git add .; git commit -m -a; git push origin gh-pages"
+alias pushgh="pandoc index.md > index.html ; git add .; git commit -m -a; git push origin gh-pages"
 alias pandocd="pandoc index.md > index.html"
 alias attach="tmux attach -t"
 alias pdf="xpdf -geometry 1920x1080 -fullscreen"
