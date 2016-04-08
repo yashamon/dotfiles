@@ -126,6 +126,7 @@ alias cprc="cp /root/.zshrc /home/yasha/.zshrc"
 alias pacup="packer -Syu --devel"
 alias vifm='source ~/bin/vf'
 alias vrc="vi ~/.nvimrc"
+alias snips="vi /root/dotfiles/vim/bundle/vim-snippets/UltiSnips/tex.snippets"
 alias src="source ~/.zshrc"
 alias mux="tmux -f ~/.tmux-conf"
 alias bib="vim ~/Dropbox/linkfeb2015.bib"
@@ -134,6 +135,7 @@ alias suya="su yasha; a"
 alias suru="su root; a"
 alias rec="recoll -q"
 alias vi="nvim"
+alias update="git submodule update --init --recursive ; git pull origin master"
 # export ZSH=$HOME/.oh-my-zsh
 # # Set name of the theme to load.
 # # Look in ~/.oh-my-zsh/themes/
