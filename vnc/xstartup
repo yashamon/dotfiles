@@ -27,6 +27,7 @@ xsetroot -solid grey
   # xterm -geometry 1600x2560+0+0 -fa SourceCodePro-Regular -fs 25 -ls -title "$VNCDESKTOP Desktop" &
 urxvtd &
 urxvtc &
-  # xterm -geometry 1920x1080+0+0 -fa SourceCodePro-Regular -fs 25 -ls -title "$VNCDESKTOP Desktop" &
-#  xterm -maximized -fa SourceCodePro-Regular -fs 20 -ls -title "$VNCDESKTOP Desktop" &
- xmonad 
+xmonad 
+# #   xterm -geometry 1920x1080+0+0 -fa SourceCodePro-Regular -fs 25 -ls -title "$VNCDESKTOP Desktop" &
+# #  xterm -maximized -fa SourceCodePro-Regular -fs 20 -ls -title "$VNCDESKTOP Desktop" 
+#  &

@@ -8,6 +8,7 @@
 " ------------------------------------------------------------------------------
 
 command Q :execute '!echo %d > ~/.vifm/lastdir' | quit
+command ln ln -s %d\%f %D
 map <A-q> :wq<CR>
 map f /
 map F ?
