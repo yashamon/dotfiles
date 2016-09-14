@@ -112,7 +112,8 @@ alias push="git add .; git commit -m -a; git push origin master"
 alias pushgh="pandoc index.md > index.html ; git add .; git commit -m -a; git push origin gh-pages"
 alias pandocd="pandoc index.md > index.html"
 alias attach="tmux attach -t"
-alias pdf="xpdf -geometry 1920x1080 -fullscreen"
+# alias pdf="xpdf -geometry 1920x1080 -fullscreen"
+alias pdf="mupdf"
 alias vnc="vncserver -kill :1; vncserver -geometry 1920x1080 :1"
 # alias vnc="vncserver -kill :1; vncserver -geometry 1600x2560 :1"
 alias drop="dropbox-cli"
@@ -125,7 +126,7 @@ alias pac="sudo packer"
 alias cprc="cp /root/.zshrc /home/yasha/.zshrc"
 alias pacup="packer -Syu --devel"
 alias vifm='source ~/bin/vf'
-alias vrc="nvim ~/.vimrc"
+alias vrc="nvim ~/dotfiles/vim/nvimrclinode"
 alias snips="vi /root/dotfiles/vim/bundle/vim-snippets/UltiSnips/tex.snippets"
 alias src="source ~/.zshrc"
 alias mux="tmux -f ~/.tmux-conf"
@@ -136,6 +137,7 @@ alias suru="su root; a"
 alias rec="recoll -q"
 alias vi="nvim"
 alias update="git submodule update --init --recursive ; git pull origin master"
+alias chrome="chromium --user-data-dir /root"
 # export ZSH=$HOME/.oh-my-zsh
 # # Set name of the theme to load.
 # # Look in ~/.oh-my-zsh/themes/
@@ -231,3 +233,5 @@ alias update="git submodule update --init --recursive ; git pull origin master"
 # # alias zshconfig="mate ~/.zshrc"
 # # alias ohmyzsh="mate ~/.oh-my-zsh"
 
+
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
