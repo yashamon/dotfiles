@@ -8,7 +8,8 @@
 
 dir=~/dotfiles                    # dotfiles directory
 olddir=~/dotfiles_old             # old dotfiles backup directory
-files="bashrc xmonad vnc fasd ctags tmux-conf vimrc vim zshrc oh-my-zsh vifm/colors private scrotwm.conf Xresources"    # list of files/folders to symlink in homedir
+files="bashrc xmonad vnc fasd ctags tmux-conf vimrc vim zshrc oh-my-zsh
+vifm  private scrotwm.conf Xresources"    # list of files/folders to symlink in homedir
 
 ##########
 
@@ -36,7 +37,10 @@ ln -s ~/dotfiles/vim/vimrc ~/.vimrc
 
     echo "Moving nvimrc"
     mv ~/.nvimrc  ~/dotfiles_old/
-ln -s ~/dotfiles/vim/nvimrc ~/.nvimrc
+ln -s ~/dotfiles/vim/nvimrclinode ~/.config/nvim/init.vim
+ln -s ~/dotfiles/vim/colors ~/.config/nvim/colors
+ln -s ~/dotfiles/vim/spell ~/.config/nvim/spell
+ln -s ~/dotfiles/vim/autoload ~/.config/nvim/autoload
 install_zsh () {
 # Test to see if zshell is installed.  If it is:
 if [ -f /bin/zsh -o -f /usr/bin/zsh ]; then
