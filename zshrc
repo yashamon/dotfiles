@@ -1,5 +1,5 @@
 # Path to your oh-my-zsh installation.
-export ZSH=/root/.oh-my-zsh
+export ZSH=~/.oh-my-zsh
 export ANDROID_HOME=/root/android-sdk-linux
 # Set name of the theme to load.
 # Look in ~/.oh-my-zsh/themes/
@@ -128,12 +128,13 @@ alias pac="sudo packer"
 alias cprc="cp /root/.zshrc /home/yasha/.zshrc"
 alias pacup="packer -Syu --devel"
 alias vifm='source ~/bin/vf'
-alias vrc="nvim ~/dotfiles/vim/nvimrclinode"
+alias vrc="nvim ~/.config/nvim/init.vim"
 alias snips="vi /root/dotfiles/vim/bundle/vim-snippets/UltiSnips/tex.snippets"
 alias src="source ~/.zshrc"
 alias mux="tmux -f ~/.tmux-conf"
 alias bib="j bib ; vi link.bib"
 alias suya="su yasha; a"
+alias vis="NVIM_LISTEN_ADDRESS=/tmp/nvimsocket nvim" 
 # alias go= pslatex document.tex; dvips document.dvi; ps2pdf document.ps
 alias suru="su root; a"
 alias rec="recoll -q"
