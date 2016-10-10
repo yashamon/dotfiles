@@ -31,11 +31,14 @@ for file in $files; do
     ln -s $dir/$file ~/.$file
 done
 
-    echo "Moving vimrc"
-    mv ~/.vimrc  ~/dotfiles_old/
-ln -s ~/dotfiles/vim/vimrc ~/.vimrc
+    echo "Moving vifm"
+mkdir ~/bin
+cp ~/dotfiles/bin/vf ~/bin/vf
+
 
     echo "Moving nvimrc"
+mkdir ~/.config
+mkdir ~/.config/nvim
     mv ~/.nvimrc  ~/dotfiles_old/
 ln -s ~/dotfiles/vim/nvimrclinode ~/.config/nvim/init.vim
 ln -s ~/dotfiles/vim/colors ~/.config/nvim/colors
