@@ -5,7 +5,7 @@ import XMonad.Hooks.FadeInactive
 import XMonad.Hooks.ManageDocks
 import XMonad.Layout.NoBorders
 import XMonad.Hooks.UrgencyHook
-import XMonad.Util.EZConfig(additionalKeysP, additionalKeys)
+import XMonad.Util.EZConfig(additionalKeysP, additionalKeys, removeMouseBindings)
 myWorkspaces :: [String]
 myWorkspaces = [ "shell", "web", "media", "torrent", "shell-misc", "6", "7", "8"
                , "mail" ]
@@ -44,3 +44,6 @@ myConfig = defaultConfig
         `additionalKeysP`
         [ ("M-b", sendMessage ToggleStruts)
         ]
+        -- `removeMouseBindings` 
+        -- [(modMask, button1)
+        -- ] 

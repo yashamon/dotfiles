@@ -1,11 +1,12 @@
 # Path to your oh-my-zsh installation.
 export ZSH=~/.oh-my-zsh
 export ANDROID_HOME=/root/android-sdk-linux
+export LANG=en_US.UTF-8
 # Set name of the theme to load.
 # Look in ~/.oh-my-zsh/themes/
 # Optionally, if you set this to "random", it'll load a random theme each
 # time that oh-my-zsh is loaded.
-ZSH_THEME="sorin"
+ZSH_THEME="robbyrussell"
 
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
@@ -116,8 +117,8 @@ alias attach="tmux attach -t"
 # alias pdf="mupdf"
  alias pdf="zathura"
 alias vnc="vncserver -kill :1; vncserver -geometry 1920x1080 :1"
-# alias vnc="vncserver -kill :1; vncserver -geometry 1600x2560 :1"
-alias drop="dropbox-cli"
+# alias vnc="vncserver -kill :3; vncserver -geometry 1600x2560 :1"
+alias drop="python ~/download?dl=packages%2Fdropbox.py"
 alias ls="ls -a"
 alias j="z"
 # alias fzf="/root/dotfiles\vim\bundle\fzf"
@@ -141,6 +142,9 @@ alias rec="recoll -q"
 alias vi="nvim"
 alias update="git submodule update --init --recursive ; git pull origin master"
 alias chrome="chromium --user-data-dir /root"
+alias xsid="sudo enter-chroot -n sid -X xiwi xinit"
+alias apt="sudo apt-get install"
+alias vim="nvim"
 # export ZSH=$HOME/.oh-my-zsh
 # # Set name of the theme to load.
 # # Look in ~/.oh-my-zsh/themes/
