@@ -1,0 +1,669 @@
+" init.vim
+" call pathogen#infect()  
+call plug#begin('~/.vim/plugged')
+
+" Make sure you use single quotes
+
+" Shorthand notation; fetches https://github.com/junegunn/vim-easy-align
+" Plug 'junegunn/vim-easy-align'
+
+" Any valid git URL is allowed
+" Plug 'https://github.com/junegunn/vim-github-dashboard.git'
+
+" Group dependencies, vim-snippets depends on ultisnips
+Plug 'SirVer/ultisnips' 
+" | Plug 'honza/vim-snippets'
+
+" On-demand loading
+Plug 'junegunn/goyo.vim'
+
+Plug 'vim-pandoc/vim-pandoc'
+
+Plug 'vim-pandoc/vim-pandoc-syntax' 
+
+Plug 'scrooloose/nerdtree', { 'on': 'NERDTreeFind' }
+
+" Plugin outside ~/.vim/plugged with post-update hook
+Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
+
+Plug 'junegunn/fzf.vim'
+
+Plug 'Valloric/YouCompleteMe', {'do': './install.py' }
+
+Plug 'ervandew/supertab'
+
+Plug 'vim-scripts/tComment'
+
+" Plug 'Shougo/vimproc.vim'
+
+Plug 'Lokaltog/vim-easymotion'
+
+Plug 'mbbill/undotree', { 'on': 'UndotreeToggle' }
+'}
+
+Plug 'lifepillar/vim-solarized8'
+
+Plug 'vim-scripts/AutoTag'
+
+Plug 'vim-scripts/vim-auto-save'
+
+Plug 'scrooloose/nerdcommenter'
+
+Plug 'vim-pandoc/vim-pandoc'
+
+Plug 'yashamon/vim-snippets'
+
+Plug 'lervag/vimtex'
+
+Plug 'altercation/vim-colors-solarized'
+" Unmanaged plugin (manually installed and updated)
+" Plug '~/my-prototype-plugin'
+
+" Add plugins to &runtimepath
+call plug#end()
+
+syntax on  
+filetype plugin indent on
+"  General Settings  
+  au GUIEnter * set fullscreen
+if has("gui_running")
+  set fuoptions=maxvert,maxhorz
+  au GUIEnter * set fullscreen
+   set foldcolumn=10
+   set formatoptions=ant
+  set wrapmargin=0
+  set nohlsearch
+  " set tags= ~/.tags
+  highlight SignColumn guibg=bg
+      endif    
+if has("autocmd")
+  au BufReadPost * if line("'\"") > 1 && line("'\"") <= line("$") | exe "normal! g'\"" | endif
+endif
+  " autocmd BufWinLeave *.* mkview
+  " autocmd BufWinEnter *.* silent loadview
+   " set foldcolumn=2
+"  highlight foldcolumn ctermfg=256 ctermbg=bg
+autocmd Colorscheme * highlight FoldColumn guifg=black guibg=bg
+au VIMEnter set spell
+ set timeout
+   set timeoutlen=0
+     set ttimeoutlen=0
+
+       "NeoVim handles ESC keys as alt+key set this to solve the
+       "problem
+         if has('nvim')
+              set ttimeout
+                   set ttimeoutlen=0
+                     endif
+  au VIMEnter * let g:surround_108 = {
+     \'q':  " ``\r''"
+     \ }
+  let $NVIM_TUI_ENABLE_TRUE_COLOR=1
+ let $NVIM_TUI_ENABLE_CURSOR_SHAPE=1
+
+let g:tex_flavor = "latex"
+let g:tex_isk = '@,48-57,58,_,192-255'
+set tags+=~/texmf/bibtex/bib/tags
+set tags+=~/Dropbox/workspace/tags
+  " set formatoptions=ant
+  " set wrapmargin=1
+set tw=80
+set autochdir
+set guioptions-=r 
+set guioptions-=l
+set mouse-=a
+set bs=2		" allow backspacing over everything in insert mode
+set undofile                " Save undo's after file closes
+set undodir=~/Dropbox/undo " where to save undo histories
+set undolevels=100000         " How many undos
+set undoreload=10000		
+set ruler		" show the cursor position all the time
+set autoread		" auto read when file is changed from outside
+set nohlsearch
+set showmatch		" Cursor shows matching ) and }
+set nocursorline
+set showmode		" Show current mode
+set wildchar=<TAB>	" start wild expansion in the command line using <TAB>
+set wildmenu            " wild char completion menu
+let maplocalleader = "\\"
+" ignore these files while expanding wild chars
+set wildignore=*.o,*.class,*.pyc
+
+"set autoindent		" auto indentation
+set incsearch		" incremental search
+set nobackup		" no *~ backup files
+set copyindent		" copy the previous indentation on autoindenting
+set ignorecase		" ignore case when searching
+set smartcase		" ignore case if search pattern is all lowercase,case-sensitive otherwise
+"set smarttab		" insert tabs on the start of a line according to context
+
+" disable sound on errors
+set noerrorbells
+set novisualbell
+set tm=500
+" set macmeta
+let g:yankstack_map_keys = 0
+nmap <leader>p <Plug>yankstack_substitute_older_paste
+  nmap <leader>P <Plug>yankstack_substitute_newer_paste
+" auto reload vimrc when editing it
+" autocmd! bufwritepost .vimrc source ~/.vimrc
+syntax on		" syntax highlight
+" set hlsearch		" search highlighting
+if has("gui_running")	" GUI color and font settings
+  set guifont=Source\ Code\ Pro:h18
+  set background=dark 
+  "set vimroom_background=dark
+"  set cursorline        " highlight current line
+ colorscheme 3 
+  highlight CursorLine  guibg=#003853 ctermbg=24  gui=none cterm=none
+else
+" terminal color settings
+  set background=dark
+  " set t_Co=256          " 256 color mode
+  colorscheme solarized8_dark_flat 
+  " highlight Normal ctermbg=none
+highlight clear SpellBad
+highlight SpellBad cterm=underline
+hi MatchParen cterm=underline ctermbg=none ctermfg=magenta
+endif
+
+" FUNCTIONS
+
+" " Change Color when entering Insert Mode
+"  augroup CursorLine
+"    au!
+"  if has("gui_running")
+"  else
+"      au InsertEnter * setlocal cursorline
+"        au InsertLeave * setlocal nocursorline
+"     endif
+"        augroup END
+
+
+" function! DelTagOfFile(file)
+"   let fullpath = a:file
+"   let cwd = getcwd()
+"   let tagfilename = cwd . "/tags"
+"   let f = substitute(fullpath, cwd . "/", "", "")
+"   let f = escape(f, './')
+"   let cmd = 'sed -i "/' . f . '/d" "' . tagfilename . '"'
+"   let resp = system(cmd)
+" endfunction
+
+
+
+" function! UpdateTags()
+"   let f = expand("%:p")
+"   let cwd = getcwd()
+"   let tagfilename = cwd . "/tags"
+"   let cmd = '/usr/local/bin/ctags -a -f ' . tagfilename . ' --fields=+iaS --extra=+q ' . '"' . f . '"'
+"   call DelTagOfFile(f)
+"   let resp = system(cmd)
+" endfunction
+" autocmd BufWritePost * call UpdateTags()
+"  function! RestoreRegister()
+"    let @" = s:restore_reg
+"    return ''
+"  endfunction
+
+ function! s:Repl()
+     let s:restore_reg = @"
+     return "p@=RestoreRegister()\<cr>"
+ endfunction
+function! RestoreRegister()
+    let @" = s:restore_reg
+    if &clipboard == "unnamed"
+        let @* = s:restore_reg
+    endif
+    return ''
+endfunction
+function! CurDir()
+    let curdir = substitute(getcwd(), $HOME, "~", "")
+    return curdir
+endfunction
+
+function! HasPaste()
+    if &paste
+        return '[PASTE]'
+    else
+        return ''
+    endif
+endfunction
+function Light()
+   set background=light
+   colorscheme solarized3
+  highlight Normal ctermbg=none
+highlight  CursorLine cterm=NONE ctermbg=black ctermfg=none
+hi MatchParen cterm=underline ctermbg=none ctermfg=magenta
+endfunction
+
+function Dark()
+   set background=dark
+   colorscheme solarized3
+highlight  CursorLine cterm=NONE ctermbg=black ctermfg=none
+highlight clear SpellBad
+highlight SpellBad cterm=underline
+hi MatchParen cterm=underline ctermbg=none ctermfg=magenta
+  highlight Normal ctermbg=none
+endfunction
+
+function! SearchMultiLine(bang, ...)
+  if a:0 > 0
+    let sep = (a:bang) ? '\_W\+' : '\_s\+'
+    let @/ = join(a:000, sep)
+  endif
+endfunction
+command! -bang -nargs=* -complete=tag S call SearchMultiLine(<bang>0, <f-args>)|normal! /<C-R>/<CR>
+
+inoremap <expr> <CR> pumvisible() ? "\<C-y>" : "\<C-g>u\<CR>"
+" Default Colors for CursorLine_
+highlight  CursorLine cterm=NONE ctermbg=black ctermfg=none
+" autocmd InsertEnter * set cursorline * 
+
+" " Revert Color to default when leaving Insert Mode
+"  autocmd InsertLeave * highlight  CursorLine ctermbg=none ctermfg=None
+" if &term =~ "xterm\\|rxvt"
+"   " use an orange cursor in insert mode
+"      let &t_SI = "\<Esc>]12;orange\x7"
+"   "     " use a red cursor otherwise
+"          let &t_EI = "\<Esc>]12;white\x7"
+"            silent !echo -ne "\033]12;red\007"
+"   "           " reset cursor when vim exits
+"                autocmd VimLeave * silent !echo -ne "\033]112\007"
+"   "               " use \003]12;gray\007 for gnome-terminal
+"                  endif
+" function! ClipboardYank()
+"      call system('xclip -i -selection clipboard', @@)
+"   endfunction
+"   function! ClipboardPaste()
+"        let @@ = system('xclip -o -selection clipboard')
+"     endfunction
+"
+"     vnoremap <silent> y y:call ClipboardYank()<cr>
+"     vnoremap <silent> d d:call ClipboardYank()<cr>
+"     nnoremap <silent> p :call ClipboardPaste()<cr>p
+" set clipboard=unnamedplus	" yank to the system register (*) by default
+
+" TAB setting{
+   set expandtab        "replace <TAB> with spaces
+   set softtabstop=3 
+   set shiftwidth=3 
+
+   au FileType Makefile set noexpandtab
+"}      							
+
+" status line {
+set laststatus=1
+set statusline=\ %{HasPaste()}%<%-15.25(%f%)%m%r%h\ %w\ \ 
+set statusline+=\ \ \ [%{&ff}/%Y] 
+set statusline+=\ \ \ %<%20.30(%{hostname()}:%{CurDir()}%)\ 
+set statusline+=%=%-10.(%l,%c%V%)\ %p%%/%L
+
+
+"}
+
+
+
+
+"--------------------------------------------------------------------------- 
+" USEFUL SHORTCUTS
+"--------------------------------------------------------------------------- 
+" set leader to ; 
+let mapleader=';'
+let g:mapleader=';'
+
+"replace the current word in all opened buffers
+map <leader>r :call Replace()<CR>
+
+" open the error console
+map <leader>cc :botright cope<CR> 
+" move to next error
+map <leader>] :cn<CR>
+" move to the prev error
+map <leader>[ :cp<CR>
+
+" --- move around splits {
+" move to and maximize the below split 
+map <C-J> <C-W>j<C-W>_
+" move to and maximize the above split 
+map <C-K> <C-W>k<C-W>_
+" move to and maximize the left split 
+nmap <c-h> <c-w>h<c-w><bar>
+" move to and maximize the right split  
+nmap <c-l> <c-w>l<c-w><bar>
+set wmw=0                     " set the min width of a window to 0 so we can maximize others 
+set wmh=0                     " set the min height of a window to 0 so we can maximize others
+" }
+
+" move around tabs. conflict with the original screen top/bottom
+" comment them out if you want the original H/L
+" go to prev tab 
+"map <S-H> gT
+" go to next tab
+"map <S-L> gt
+
+" new tab
+" map <leader>t :tabnew<CR>
+" close tab
+" map <leader>c :tabclose<CR> 
+
+" ,/ turn off search highlighting
+"nmap <leader>/ :nohl<CR>
+
+" Bash like keys for the command line
+cnoremap <C-A>      <Home>
+cnoremap <C-E>      <End>
+cnoremap <C-K>      <C-U>
+
+" ,p toggles paste mode
+nmap <leader>p :set paste!<BAR>set paste?<CR>
+
+" allow multiple indentation/deindentation in visual mode
+vnoremap < <gv
+vnoremap > >gv
+
+" :cd. change working directory to that of the current file
+cmap cd. lcd %:p:h
+
+
+
+
+" Enable omni completion. (Ctrl-X Ctrl-O)
+autocmd FileType html,markdown setlocal omnifunc=htmlcomplete#CompleteTags
+autocmd FileType javascript setlocal omnifunc=javascriptcomplete#CompleteJS
+autocmd FileType python setlocal omnifunc=pythoncomplete#Complete
+autocmd FileType xml setlocal omnifunc=xmlcomplete#CompleteTags
+autocmd FileType css set omnifunc=csscomplete#CompleteCSS
+autocmd FileType c set omnifunc=ccomplete#Complete
+autocmd FileType java set omnifunc=javacomplete#Complete
+autocmd Filetype tex setlocal fo=nt
+autocmd Filetype tex setlocal wrapmargin=0
+" use syntax complete if nothing else available
+if has("autocmd") && exists("+omnifunc")
+  autocmd Filetype *
+              \	if &omnifunc == "" |
+              \		setlocal omnifunc=syntaxcomplete#Complete |
+              \	endif
+endif
+
+set cot-=preview "disable doc preview in omnicomplete
+
+" make CSS omnicompletion work for SASS and SCSS
+autocmd BufNewFile,BufRead *.scss             set ft=scss.css
+autocmd BufNewFile,BufRead *.sass             set ft=sass.css
+
+"--------------------------------------------------------------------------- 
+" ENCODING SETTINGS
+"--------------------------------------------------------------------------- 
+set encoding=utf-8                                  
+set termencoding=utf-8
+set fileencoding=utf-8
+set fileencodings=ucs-bom,utf-8,big5,gb2312,latin1
+
+fun! ViewUTF8()
+	set encoding=utf-8                                  
+	set termencoding=big5
+endfun
+
+fun! UTF8()
+	set encoding=utf-8                                  
+	set termencoding=big5
+	set fileencoding=utf-8
+	set fileencodings=ucs-bom,big5,utf-8,latin1
+endfun
+
+fun! Big5()
+	set encoding=big5
+	set fileencoding=big5
+endfun
+
+
+"--------------------------------------------------------------------------- 
+" PLUGIN SETTINGS
+"--------------------------------------------------------------------------- 
+
+         "Easy Motion
+" change the default EasyMotion shading to something more readable with Solarized
+" hi link EasyMotionTarget ErrorMsg
+" hi link EasyMotionShade  Comment
+" easymotion highlight colors
+hi link EasyMotionTarget Search
+hi link EasyMotionTarget2First Search
+hi link EasyMotionTarget2Second Search
+hi link EasyMotionShade Comment
+
+
+
+" --- AutoClose - Inserts matching bracket, paren, brace or quote 
+" fixed the arrow key problems caused by AutoClose
+"if !has("gui_running")	
+   "set term=linux
+   "imap OA <ESC>ki
+   "imap OB <ESC>ji
+   "imap OC <ESC>li
+   "imap OD <ESC>hi
+
+   "nmap OA k
+   "nmap OB j
+   "nmap OC l
+   "nmap OD 
+
+" --- Command-T
+let g:CommandTMaxHeight = 15
+
+" --- SuperTab
+let g:SuperTabDefaultCompletionType = "context"
+let g:SuperTabCompletionContexts = ['s:ContextText', 's:ContextDiscover']
+let g:SuperTabContextDiscoverDiscovery= ["&completefunc:<c-x><c-u>", "&omnifunc:<c-x><c-o>"]
+  
+"--NerdTree
+let g:NERDTreeMapUpdir="<S-h>"
+" 
+" I find default   register behavior uncomfortable 
+inoremap \ /
+inoremap / \
+noremap p "0p
+" vnoremap d "dd
+" noremap D "dD
+noremap c "_c
+noremap C "_C
+noremap s "_x
+noremap x "0x
+noremap X "0D
+
+" Softwrap 
+nmap D "_dg$
+nmap V 0vg$
+nmap A g$a
+nnoremap dd 0"_dg$i<backspace><ESC><CR>
+" nmap dd 0dg$
+
+vmap q xi<CR><CR><CR><CR><ESC>kkpvip<leader>c
+nnoremap <Left> :bnext<CR>
+nnoremap <Right> :bprevious<CR>
+" tnoremap <Esc> <C-\> 
+nnoremap < :tabp<CR>
+nnoremap > :tabn<CR>
+nnoremap <leader>n :tabedit %<CR>
+imap <A-j> <C-j>
+imap <M-j> <C-j>
+map <C-q> <Esc>:q!<CR>
+map <A-q> <C-q>
+noremap f /
+noremap F ?
+" noremap S :S 
+ map t <leader><leader>f
+ map T <leader><leader>F
+noremap 9 $
+noremap $ /\$<CR>hv?\$<CR>l
+noremap # /\$<CR>v?\$<CR>
+noremap @ /)<CR>v?(<CR>
+ nmap j gj
+ nmap k gk
+ noremap <Space> .
+ noremap <S-Space> ?<Space><enter>
+nmap <S-h> <C-w>h
+nmap <S-l> <C-w>l
+noremap <leader>r <C-r>
+noremap <S-k> <C-u>
+noremap <S-j> <C-d>
+nnoremap <leader>j J
+nnoremap <leader>k K
+nnoremap . `
+map ' "
+" nnoremap <Backspace> i<Backspace><Esc> 
+map <leader>c <Leader>__
+map <A-/> <Leader>__
+map <A-r>  <C-r>
+map <C-c> gc
+nmap gc gcc
+nnoremap ` ~
+nnoremap . `
+nmap 1 <C-o>
+nmap 2 <C-i>
+nmap <S-CR> k$
+noremap <Leader>1 :buffer 1<CR>
+nnoremap <silent> <Leader>b :Buffer<CR>
+ noremap <Leader>2 :buffer 2<CR>
+ noremap <Leader>3 :buffer 3<CR>
+noremap <Leader>4 :buffer 4<CR>
+noremap <Leader>5 :buffer 5<CR>
+noremap <Leader>7 :buffer 7<CR>
+noremap <Leader>6 :buffer 6<CR>
+noremap <Leader>8 :buffer 8<CR>
+noremap <Leader>9 :buffer 9<CR>
+noremap <D-d> <C-d>
+map ;s <Esc>:w<CR>
+noremap <A-d> <C-d>
+noremap <D-u> <C-u>
+noremap <A-u> <C-u>
+
+nnoremap <silent> <Leader>y :YRGetElem<CR>
+map ' "
+inoremap <D-]> <C-x><C-]>
+inoremap <C-]> <C-x><C-]>
+
+
+" vimtex mappings
+"
+"
+"
+" let g:vimtex_view_general_viewer
+"          \ = '/Applications/Skim.app/Contents/SharedSupport/displayline'
+" let g:vimtex_view_general_options = '-r @line @pdf @tex'
+let g:latex_view_general_viewer = 'zathura'
+let g:vimtex_view_method = "zathura"
+" let g:vimtex_latexmk_callback_hooks = ['UpdateSkim']
+"    function! UpdateSkim(status)
+"      if !a:status | return | endif
+"
+"      let l:out = b:vimtex.out()
+"      let l:tex = expand('%:p')
+"      let l:cmd = [g:vimtex_view_general_viewer, '-r']
+"      if !empty(system('pgrep Skim'))
+"        call extend(l:cmd, ['-g'])
+"      endif
+"      if has('nvim')
+"        call jobstart(l:cmd + [line('.'), l:out, l:tex])
+"      elseif has('job')
+"        call job_start(l:cmd + [line('.'), l:out, l:tex])
+"      else
+"        call system(join(l:cmd + [line('.'), shellescape(l:out), shellescape(l:tex)], ' '))
+"      endif
+"    endfunction
+let g:vimtex_latexmk_build_dir = './build'
+let g:vimtex_latexmk_progname = 'nvr'
+nmap  <leader>v <Esc>:VimtexView<CR>
+let g:vimtex_quickfix_mode = 0
+let g:vimtex_fold_enabled =0
+nmap <leader>l <Esc>:VimtexCompileToggle<CR>
+nmap <leader>s <Esc>:VimtexErrors<CR>
+
+"Neovim mappings
+:tnoremap <S-h> <C-\><C-n><C-w>h
+:tnoremap <S-j> <C-\><C-n><C-w>j
+:tnoremap <S-k> <C-\><C-n><C-w>k
+:tnoremap <S-l> <C-\><C-n><C-w>l
+tnoremap <Left> :tbnext<CR>
+tnoremap <Right> :tbprevious<CR>
+tnoremap <Leader>e <C-\><C-n> 
+" imap <Backspace> \
+
+" NB: this supports "rp that replaces the selection by the contents of @r
+vnoremap <silent> <expr> p <sid>Repl()
+" Auto updating Ctags
+" autocmd VimLeave * exe ":silent ! /usr/local/bin/ctags -R"
+map :tags  exe ":silent ! /usr/local/bin/ctags -R"
+
+"Nerd Tree
+map <leader>e :NERDTreeFind<CR>
+" map <C-e> :NERDTreeToggle<CR>:NERDTreeMirror<CR>
+"
+"
+"
+"Vifm
+let g:vifmLiveCwd=1
+let g:vifmUseCurrent=1
+"Autosave
+let g:auto_save = 1
+ let g:auto_save_in_insert_mode = 0
+ let g:auto_save_silent = 1
+"Highlight
+hi MatchParen cterm=underline ctermbg=none ctermfg=none
+hi MatchParen guibg=NONE guifg=green gui=NONE
+    "
+    "
+    "
+    " UndoTree {
+        noremap <Leader>u :UndotreeToggle<CR>
+        " If undotree is opened, it is likely one wants to interact with it.
+        let g:undotree_SetFocusWhenToggle=1
+        noremap <D-z> u
+        noremap <S-C-z> <C-r>
+        " noremap <C-z> u
+    " }
+nnoremap <C-e> :let g:ctrlp_match_window =
+         \ 'bottom,order:btt,min:1,max:1000,results:1000'<CR>:CtrlPTag<CR>
+
+" FZF
+"
+"
+
+noremap <C-t> <Esc>:FZF ~/Dropbox/workspace<CR>
+noremap <A-t> <Esc>:FZF ~/Dropbox/workspace<CR>
+noremap S <Esc>:BLines<CR>
+map <A-e> :FZF ~<CR>
+
+
+" YouCompleteMe  usage is tied to Supertab, this is a little weird but 
+" seems necessary for full interoperability with ultisnipps
+let g:ycm_auto_trigger = 0
+let g:ycm_collect_identifiers_from_tags_files = 1
+let g:ycm_key_invoke_completion = '<C-n>'
+ let g:ycm_key_list_select_completion = ['<C-n>', '<Down>']
+ let g:ycm_key_list_previous_completion = ['<C-p>', '<Up>']
+ let g:SuperTabDefaultCompletionType = '<C-n>'
+let g:UltiSnipsJumpForwardTrigger="<D-j>"
+let g:UltiSnipsJumpForwardTrigger="<A-j>" 
+let g:UltiSnipsJumpForwardTrigger="<C-j>"
+let g:UltiSnipsListSnippets="<D-e>"
+let g:UltiSnipsListSnippets="<C-e>"
+
+" this mapping Enter key to <C-y> to chose the current highlight item 
+" and close the selection list, same as other IDEs.
+" CONFLICT with some plugins like tpope/Endwise
+inoremap <expr> <CR> pumvisible() ? "\<C-y>" : "\<C-g>u\<CR>"
+
+
+   " Latex shortcuts
+
+    
+   "Latex compile. 
+   "them to an external terminal and run there.
+" map <Leader>l :tabe %<CR><Esc>:term ; latexmk -pvc -pdf -file-line-error -synctex=1 -interaction=nonstopmode -recorder %<CR><leader>e
+map <Leader>tt :term ; ctags -R
+"source ~/.anyname  
+
+
+
+
