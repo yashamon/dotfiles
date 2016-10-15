@@ -40,10 +40,10 @@ cp ~/dotfiles/bin/vf ~/bin/vf
 mkdir ~/.config
 mkdir ~/.config/nvim
     mv ~/.nvimrc  ~/dotfiles_old/
-ln -s ~/dotfiles/vim/nvimrclinode ~/.config/nvim/init.vim
-ln -s ~/dotfiles/vim/colors ~/.config/nvim/colors
-ln -s ~/dotfiles/vim/spell ~/.config/nvim/spell
-ln -s ~/dotfiles/vim/autoload ~/.config/nvim/autoload
+ln -s ~/dotfiles/nvimrc ~/.config/nvim/init.vim
+ln -s ~/dotfiles/colors ~/.config/nvim/colors
+ln -s ~/dotfiles/spell ~/.config/nvim/spell
+cp -r ~/dotfiles/autoload ~/.config/nvim/autoload
 install_zsh () {
 # Test to see if zshell is installed.  If it is:
 if [ -f /bin/zsh -o -f /usr/bin/zsh ]; then

@@ -167,6 +167,11 @@ highlight SpellBad cterm=underline
 hi MatchParen cterm=underline ctermbg=none ctermfg=magenta
 endif
 
+"Autocommands
+"
+au FileType Makefile set noexpandtab
+au FileType tex :Goyo
+
 " FUNCTIONS
 
 " " Change Color when entering Insert Mode
@@ -289,8 +294,7 @@ highlight  CursorLine cterm=NONE ctermbg=black ctermfg=none
    set softtabstop=3 
    set shiftwidth=3 
 
-   au FileType Makefile set noexpandtab
-"}      							
+   "}      							
 
 " status line {
 set laststatus=1
@@ -473,10 +477,12 @@ noremap X "0D
 
 " Softwrap 
 nmap D "_dg$
-nmap V 0vg$
+nmap V g^vg$
 nmap A g$a
-nnoremap dd 0"_dg$i<backspace><ESC><CR>
+nnoremap dd g^"_dg$i<backspace><ESC><CR>
 " nmap dd 0dg$
+map 0 g^
+map 9 g$
 
 vmap q xi<CR><CR><CR><CR><ESC>kkpvip<leader>c
 nnoremap <Left> :bnext<CR>
@@ -494,7 +500,6 @@ noremap F ?
 " noremap S :S 
  map t <leader><leader>f
  map T <leader><leader>F
-noremap 9 $
 noremap $ /\$<CR>hv?\$<CR>l
 noremap # /\$<CR>v?\$<CR>
 noremap @ /)<CR>v?(<CR>
