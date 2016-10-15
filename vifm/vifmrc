@@ -9,6 +9,7 @@ command diff nvim -d %f %F
 command nautilus nautilus %f 
 command sacddir for f in */*.iso ; do sacd_extract -2 -s -c -i "$f" ; done
 map f /
+map <A-q> <ESC>:q<CR>
 map F ?
 map J <C-d>
 map K <C-u>
@@ -18,7 +19,7 @@ map L <C-w>l
 filextype *.jpg,*.jpeg,*.png,*.gif
        \ {View in feh}
        \ feh -FZ %d --start-at %d/%c 2>/dev/null
-filextype *.pdf,*.dvi
+filextype *.pdf,*.dvi, *.ps
        \ zathura %f 
 filextype *.djvu
        \ zathura %f 

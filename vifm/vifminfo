@@ -77,3 +77,13 @@ t/home/yasha/.local/share/vifm/Trash/000_autoload
 	/home/yasha/.config/nvim/autoload
 t/home/yasha/.local/share/vifm/Trash/000_spell
 	/home/yasha/.config/nvim/spell
+t/home/yasha/.local/share/vifm/Trash/001_init.vim
+	/home/yasha/.config/nvim/init.vim
+t/home/yasha/.local/share/vifm/Trash/000_.scrotwm.conf
+	/home/yasha/.scrotwm.conf
+t/home/yasha/.local/share/vifm/Trash/000_.private
+	/home/yasha/.private
+t/home/yasha/.local/share/vifm/Trash/001_.vimrc
+	/home/yasha/dotfiles/.vimrc
+t/home/yasha/.local/share/vifm/Trash/000_.xpdfrc
+	/home/yasha/dotfiles/.xpdfrc
