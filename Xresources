@@ -1,4 +1,4 @@
-! xterm*font:     *-fixed-*-*-*-18-*
+/* ! */ xterm*font:     *-fixed-*-*-*-18-*
 xterm*faceName: xft: Source Code Pro Light:size=15:antialias=true
 xterm*saveLines: 16384
 xterm*loginShell: true

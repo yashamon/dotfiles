@@ -17,6 +17,8 @@ Plug 'SirVer/ultisnips'
 " On-demand loading
 Plug 'junegunn/goyo.vim'
 
+Plug 'morhetz/gruvbox'
+
 Plug 'vim-pandoc/vim-pandoc'
 
 Plug 'vim-pandoc/vim-pandoc-syntax' 
@@ -63,7 +65,7 @@ Plug 'altercation/vim-colors-solarized'
 call plug#end()
 
 syntax on  
-filetype plugin indent on
+" filetype plugin indent on
 "  General Settings  
   au GUIEnter * set fullscreen
 if has("gui_running")
@@ -160,7 +162,8 @@ else
 " terminal color settings
   set background=dark
   " set t_Co=256          " 256 color mode
-  colorscheme solarized8_dark_flat 
+   colorscheme solarized8_dark_flat 
+  " colorscheme gruvbox
   " highlight Normal ctermbg=none
 highlight clear SpellBad
 highlight SpellBad cterm=underline
@@ -491,10 +494,9 @@ nnoremap <Right> :bprevious<CR>
 nnoremap < :tabp<CR>
 nnoremap > :tabn<CR>
 nnoremap <leader>n :tabedit %<CR>
-imap <A-j> <C-j>
 imap <M-j> <C-j>
 map <C-q> <Esc>:q!<CR>
-map <A-q> <C-q>
+map <M-q> <C-q>
 noremap f /
 noremap F ?
 " noremap S :S 
@@ -540,6 +542,7 @@ noremap <Leader>9 :buffer 9<CR>
 noremap <D-d> <C-d>
 map ;s <Esc>:w<CR>
 noremap <A-d> <C-d>
+noremap <M-d> <C-d>
 noremap <D-u> <C-u>
 noremap <A-u> <C-u>
 
@@ -549,7 +552,7 @@ inoremap <D-]> <C-x><C-]>
 inoremap <C-]> <C-x><C-]>
 
 
-" vimtex mappings
+" vimtex settings
 "
 "
 "
@@ -558,6 +561,7 @@ inoremap <C-]> <C-x><C-]>
 " let g:vimtex_view_general_options = '-r @line @pdf @tex'
 let g:latex_view_general_viewer = 'zathura'
 let g:vimtex_view_method = "zathura"
+let g:vimtex_indent_enabled =0
 " let g:vimtex_latexmk_callback_hooks = ['UpdateSkim']
 "    function! UpdateSkim(status)
 "      if !a:status | return | endif
@@ -583,6 +587,7 @@ let g:vimtex_quickfix_mode = 0
 let g:vimtex_fold_enabled =0
 nmap <leader>l <Esc>:VimtexCompileToggle<CR>
 nmap <leader>s <Esc>:VimtexErrors<CR>
+nmap <leader>x <Esc>:VimtexErrors<CR>:Goyo<CR>:Goyo<CR>
 
 "Neovim mappings
 :tnoremap <S-h> <C-\><C-n><C-w>h
@@ -649,7 +654,7 @@ let g:ycm_key_invoke_completion = '<C-n>'
  let g:ycm_key_list_previous_completion = ['<C-p>', '<Up>']
  let g:SuperTabDefaultCompletionType = '<C-n>'
 let g:UltiSnipsJumpForwardTrigger="<D-j>"
-let g:UltiSnipsJumpForwardTrigger="<A-j>" 
+let g:UltiSnipsJumpForwardTrigger="<M-j>" 
 let g:UltiSnipsJumpForwardTrigger="<C-j>"
 let g:UltiSnipsListSnippets="<D-e>"
 let g:UltiSnipsListSnippets="<C-e>"
@@ -668,7 +673,7 @@ inoremap <expr> <CR> pumvisible() ? "\<C-y>" : "\<C-g>u\<CR>"
 " map <Leader>l :tabe %<CR><Esc>:term ; latexmk -pvc -pdf -file-line-error -synctex=1 -interaction=nonstopmode -recorder %<CR><leader>e
 map <Leader>tt :term ; ctags -R
 "source ~/.anyname  
-
+au filetype tex filetype indent off
 
 
 
