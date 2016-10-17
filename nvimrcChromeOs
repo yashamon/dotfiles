@@ -239,10 +239,10 @@ function! HasPaste()
 endfunction
 function Light()
    set background=light
-   colorscheme solarized3
-  highlight Normal ctermbg=none
-highlight  CursorLine cterm=NONE ctermbg=black ctermfg=none
-hi MatchParen cterm=underline ctermbg=none ctermfg=magenta
+   colorscheme solarized8_light
+   highlight Normal ctermfg=black
+" highlight  CursorLine cterm=NONE ctermbg=black ctermfg=none
+" hi MatchParen cterm=underline ctermbg=none ctermfg=magenta
 endfunction
 
 function Dark()

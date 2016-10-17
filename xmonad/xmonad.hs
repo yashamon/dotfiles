@@ -29,7 +29,8 @@ myNormalBorderColor, myFocusedBorderColor :: String
 myNormalBorderColor  = "black"
 myFocusedBorderColor = "blue"
 
-main = xmonad =<< xmobar myConfig
+-- main = xmonad =<< xmobar myConfig
+main = xmonad  myConfig
 myConfig = defaultConfig
         { 
          modMask = mod3Mask -- Use control instead of Alt
