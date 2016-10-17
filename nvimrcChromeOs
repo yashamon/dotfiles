@@ -247,12 +247,10 @@ endfunction
 
 function Dark()
    set background=dark
-   colorscheme solarized3
-highlight  CursorLine cterm=NONE ctermbg=black ctermfg=none
-highlight clear SpellBad
-highlight SpellBad cterm=underline
-hi MatchParen cterm=underline ctermbg=none ctermfg=magenta
-  highlight Normal ctermbg=none
+   colorscheme solarized8_dark_flat
+" highlight SpellBad cterm=underline
+" hi MatchParen cterm=underline ctermbg=none ctermfg=magenta
+"   highlight Normal ctermbg=none
 endfunction
 
 function! SearchMultiLine(bang, ...)
