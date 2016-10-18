@@ -34,7 +34,7 @@ done
     echo "Moving vifm"
 mkdir ~/bin
 cp ~/dotfiles/bin/vf ~/bin/vf
-
+ 
 
     echo "Moving nvimrc"
 mkdir ~/.config
@@ -44,6 +44,10 @@ ln -s ~/dotfiles/nvimrcChromeOs ~/.config/nvim/init.vim
 ln -s ~/dotfiles/colors ~/.config/nvim/colors
 ln -s ~/dotfiles/spell ~/.config/nvim/spell
 cp -r ~/dotfiles/autoload ~/.config/nvim/autoload
+
+# zathura
+ln -s ~/dotfiles/zathurarc  ~/.config/zathura/zathurarc
+
 
 echo "Moving zshrc"
 ln -s ~/dotfiles/zshrcChromeOs ~/.zshrc

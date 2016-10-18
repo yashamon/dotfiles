@@ -1,3 +1,12 @@
 [submodule "vifm/colors"]
 	path = vifm/colors
 	url = https://github.com/vifm/vifm-colors.git
+[submodule "neovim-remote"]
+	path = neovim-remote
+	url = https://github.com/mhinz/neovim-remote.git
+[submodule "fasd"]
+	path = fasd
+	url = https://github.com/clvv/fasd.git
+[submodule "neovim"]
+	path = neovim
+	url = https://github.com/neovim/neovim.git
