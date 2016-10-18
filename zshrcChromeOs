@@ -50,7 +50,7 @@ plugins=(git vi-mode command-not-found github history-substring-search)
 
 # User configuration
 
-export PATH="bin:/usr/local/sbin:/usr/bin:/usr/local/bin:/usr/sbin:/sbin:/bin:/usr/games:/root/.cabal/bin:/usr/local/games"
+export PATH="bin:/usr/local/sbin:/usr/bin:/usr/local/bin:/usr/sbin:/sbin:/bin:.local/bin:/usr/games:/root/.cabal/bin:/usr/local/games"
 # export MANPATH="/usr/local/man:$MANPATH"
 source $ZSH/oh-my-zsh.sh
 
@@ -135,7 +135,7 @@ alias src="source ~/.zshrc"
 alias mux="tmux -f ~/.tmux-conf"
 alias bib="j bib ; vi link.bib"
 alias suya="su yasha; a"
-alias vis="NVIM_LISTEN_ADDRESS=/tmp/nvimsocket nvim" 
+alias vis="NVIM_LISTEN_ADDRESS=/tmp/tempsocket nvim" 
 # alias go= pslatex document.tex; dvips document.dvi; ps2pdf document.ps
 alias suru="su root; a"
 alias rec="recoll -q"

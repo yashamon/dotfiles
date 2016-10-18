@@ -17,7 +17,7 @@ URxvt.scrollBar: false
 ! Urxvt.termName: rxvt-256color
 URxvt.intensityStyles: false
 URxvt.depth: 32
-Xft.dpi: 269
+Xft.dpi: 280
 Xft.autohint: 0
 Xft.lcdfilter: lcddefault
 Xft.hintstyle: hintslight
