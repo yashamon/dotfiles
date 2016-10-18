@@ -6,6 +6,6 @@
 
 # map  <A-Button1> inverse_search
 set synctex true
-set synctex-editor-command "nvr --servername /tmp/tempsocket -c %{line} %{input}"
+set synctex-editor-command "nvr --servername /tmp/nvimsocket -c %{line} %{input}"
 # set synctex-editor-command "nvr --servername /tmp/tempsocket -c %line %file"
 
