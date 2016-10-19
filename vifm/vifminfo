@@ -7,3 +7,9 @@
 # Trash content:
 t/home/yasha/Downloads/.vifm-Trash-1000/000_red_foliage_fall-wallpaper-5120x2880.jpg
 	/home/yasha/Downloads/backgrounds/red_foliage_fall-wallpaper-5120x2880.jpg
+t/home/yasha/.local/share/vifm/Trash/000_.scrotwm.conf
+	/home/yasha/.scrotwm.conf
+t/home/yasha/.local/share/vifm/Trash/000_.private
+	/home/yasha/.private
+t/home/yasha/.local/share/vifm/Trash/000_--force
+	/home/yasha/dotfiles/--force
