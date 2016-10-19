@@ -142,7 +142,6 @@ alias rec="recoll -q"
 alias vi="nvim"
 alias update="git submodule update --init --recursive ; git pull origin master"
 alias chrome="chromium --user-data-dir /root"
-alias xsid="sudo enter-chroot -n sid -X xiwi xinit"
 alias apt="sudo apt-get install"
 myfunction() {
     #do things with parameters like $1 such as
