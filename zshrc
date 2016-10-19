@@ -150,7 +150,7 @@ myfunction() {
     git commit -m "$1"
     git push origin master
     }
-alias commitmessage=myfunction
+alias message=myfunction
 # alias vim="nvim"
 # export ZSH=$HOME/.oh-my-zsh
 # # Set name of the theme to load.
