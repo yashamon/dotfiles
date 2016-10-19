@@ -23,7 +23,7 @@ myManageHook = composeAll
    ]
 myLogHook :: X ()
 myLogHook = fadeInactiveLogHook fadeAmount
-      where fadeAmount = 0.7
+      where fadeAmount = 0.85
 
 myNormalBorderColor, myFocusedBorderColor :: String
 myNormalBorderColor  = "black"
