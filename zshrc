@@ -144,6 +144,13 @@ alias update="git submodule update --init --recursive ; git pull origin master"
 alias chrome="chromium --user-data-dir /root"
 alias xsid="sudo enter-chroot -n sid -X xiwi xinit"
 alias apt="sudo apt-get install"
+myfunction() {
+    #do things with parameters like $1 such as
+    git add .
+    git commit -m "$1"
+    git push origin master
+    }
+alias commitmessage=myfunction
 # alias vim="nvim"
 # export ZSH=$HOME/.oh-my-zsh
 # # Set name of the theme to load.
