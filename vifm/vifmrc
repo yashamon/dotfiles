@@ -23,6 +23,10 @@ filextype *.pdf,*.dvi, *.ps
        \ zathura %f 
 filextype *.djvu
        \ zathura %f 
+filextype *.fb2
+       \ fbreader %f 
+filextype *.epub
+       \ fbreader %f
 command link ln -s %d/%f %D
 
 filetype *.jpg,*.jpeg,*.png,*.gif feh %f 2>/dev/null &

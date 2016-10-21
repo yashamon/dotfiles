@@ -67,6 +67,20 @@ call plug#end()
 syntax on  
 " filetype plugin indent on
 "  General Settings  
+"
+set clipboard=unnamedplus	" yank to the system register (*) by default
+" TAB setting{
+   set expandtab        "replace <TAB> with spaces
+   set softtabstop=3 
+   set shiftwidth=3 
+   " status line {
+set laststatus=1
+set statusline=\ %{HasPaste()}%<%-15.25(%f%)%m%r%h\ %w\ \ 
+set statusline+=\ \ \ [%{&ff}/%Y] 
+set statusline+=\ \ \ %<%20.30(%{hostname()}:%{CurDir()}%)\ 
+set statusline+=%=%-10.(%l,%c%V%)\ %p%%/%L
+
+
   au GUIEnter * set fullscreen
 if has("gui_running")
   set fuoptions=maxvert,maxhorz
@@ -289,7 +303,7 @@ highlight  CursorLine cterm=NONE ctermbg=black ctermfg=none
 "     vnoremap <silent> y y:call ClipboardYank()<cr>
 "     vnoremap <silent> d d:call ClipboardYank()<cr>
 "     nnoremap <silent> p :call ClipboardPaste()<cr>p
-" set clipboard=unnamedplus	" yank to the system register (*) by default
+set clipboard=unnamedplus	" yank to the system register (*) by default
 
 " TAB setting{
    set expandtab        "replace <TAB> with spaces

@@ -13,3 +13,13 @@ t/home/yasha/.local/share/vifm/Trash/000_.private
 	/home/yasha/.private
 t/home/yasha/.local/share/vifm/Trash/000_--force
 	/home/yasha/dotfiles/--force
+t/home/yasha/.local/share/vifm/Trash/000_%home%yasha%.xinitrc
+	/home/yasha/workspace/undo/%home%yasha%.xinitrc
+t/home/yasha/.local/share/vifm/Trash/000_%home%yasha%dotfiles%nvimrcChromeOs
+	/home/yasha/workspace/undo/%home%yasha%dotfiles%nvimrcChromeOs
+t/home/yasha/.local/share/vifm/Trash/000_%home%yasha%dotfiles%xinitrc
+	/home/yasha/workspace/undo/%home%yasha%dotfiles%xinitrc
+t/home/yasha/.local/share/vifm/Trash/000_%home%yasha%dotfiles%xmonad%xmonad.hs
+	/home/yasha/workspace/undo/%home%yasha%dotfiles%xmonad%xmonad.hs
+t/home/yasha/.local/share/vifm/Trash/000_%home%yasha%dotfiles%zshrcChromeOs
+	/home/yasha/workspace/undo/%home%yasha%dotfiles%zshrcChromeOs
