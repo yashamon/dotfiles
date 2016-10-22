@@ -17,6 +17,8 @@ Plug 'SirVer/ultisnips'
 " On-demand loading
 Plug 'junegunn/goyo.vim'
 
+Plug 'equalsraf/neovim-gui-shim'
+
 Plug 'morhetz/gruvbox'
 
 Plug 'vim-pandoc/vim-pandoc'
@@ -73,25 +75,20 @@ set clipboard=unnamedplus	" yank to the system register (*) by default
    set expandtab        "replace <TAB> with spaces
    set softtabstop=3 
    set shiftwidth=3 
-   " status line {
-set laststatus=1
-set statusline=\ %{HasPaste()}%<%-15.25(%f%)%m%r%h\ %w\ \ 
-set statusline+=\ \ \ [%{&ff}/%Y] 
-set statusline+=\ \ \ %<%20.30(%{hostname()}:%{CurDir()}%)\ 
-set statusline+=%=%-10.(%l,%c%V%)\ %p%%/%L
+ 
+  
 
-
-  au GUIEnter * set fullscreen
-if has("gui_running")
-  set fuoptions=maxvert,maxhorz
-  au GUIEnter * set fullscreen
-   set foldcolumn=10
-   set formatoptions=ant
-  set wrapmargin=0
-  set nohlsearch
-  " set tags= ~/.tags
-  highlight SignColumn guibg=bg
-      endif    
+" au GUIEnter * set fullscreen
+" if has("gui_running")
+  " set fuoptions=maxvert,maxhorz
+  " au GUIEnter * set fullscreen
+   " set foldcolumn=10
+   " set formatoptions=ant
+" set wrapmargin=0
+" set nohlsearch
+" " set tags= ~/.tags
+" highlight SignColumn guibg=bg
+"       endif    
 if has("autocmd")
   au BufReadPost * if line("'\"") > 1 && line("'\"") <= line("$") | exe "normal! g'\"" | endif
 endif
@@ -165,12 +162,12 @@ nmap <leader>p <Plug>yankstack_substitute_older_paste
 " autocmd! bufwritepost .vimrc source ~/.vimrc
 syntax on		" syntax highlight
 " set hlsearch		" search highlighting
+"
 if has("gui_running")	" GUI color and font settings
-  set guifont=Source\ Code\ Pro:h18
+  set guifont=Source\ Code\ Pro \Regular:h12
   set background=dark 
-  "set vimroom_background=dark
 "  set cursorline        " highlight current line
- colorscheme 3 
+  colorscheme solarized8_light_flat 
   highlight CursorLine  guibg=#003853 ctermbg=24  gui=none cterm=none
 else
 " terminal color settings
@@ -262,6 +259,7 @@ endfunction
 
 function Dark()
    set background=dark
+   set guifont=Source\ Code\ Pro \Regular:h12
    colorscheme solarized8_dark_flat
 " highlight SpellBad cterm=underline
 " hi MatchParen cterm=underline ctermbg=none ctermfg=magenta
@@ -679,14 +677,16 @@ inoremap <expr> <CR> pumvisible() ? "\<C-y>" : "\<C-g>u\<CR>"
 
 
    " Latex shortcuts
-
-    
    "Latex compile. 
    "them to an external terminal and run there.
 " map <Leader>l :tabe %<CR><Esc>:term ; latexmk -pvc -pdf -file-line-error -synctex=1 -interaction=nonstopmode -recorder %<CR><leader>e
+
 map <Leader>tt :term ; ctags -R
 "source ~/.anyname  
 au filetype tex filetype indent off
+
+"       GUI Stuff   
+command -nargs=? Guifont call rpcnotify(0, 'Gui', 'SetFont', "\<args\>") | let g:Guifont="<args>"
 
 
 
