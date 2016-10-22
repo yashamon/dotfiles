@@ -259,7 +259,6 @@ endfunction
 
 function Dark()
    set background=dark
-   set guifont=Source\ Code\ Pro \Regular:h12
    colorscheme solarized8_dark_flat
 " highlight SpellBad cterm=underline
 " hi MatchParen cterm=underline ctermbg=none ctermfg=magenta
