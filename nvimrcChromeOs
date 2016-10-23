@@ -58,8 +58,13 @@ Plug 'vim-pandoc/vim-pandoc'
 Plug 'yashamon/vim-snippets'
 
 Plug 'lervag/vimtex'
-
+" colorschemes
+"
 Plug 'altercation/vim-colors-solarized'
+
+Plug 'reedes/vim-colors-pencil'
+
+Plug 'vim-scripts/oceanlight'
 " Unmanaged plugin (manually installed and updated)
 " Plug '~/my-prototype-plugin'
 
