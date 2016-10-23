@@ -139,11 +139,12 @@ alias vis="NVIM_LISTEN_ADDRESS=/tmp/nvimsocket nvim"
 # alias go= pslatex document.tex; dvips document.dvi; ps2pdf document.ps
 alias suru="su root; a"
 alias rec="recoll -q"
+alias viqt="nvim-qt"
 alias vi="nvim"
 alias update="git submodule update --init --recursive ; git pull origin master"
 alias chrome="chromium --user-data-dir /root"
 alias apt="sudo apt-get install"
-alias vim="nvim"
+# alias vim="nvim"
 myfunction() {
     #do things with parameters like $1 such as
     git add .
