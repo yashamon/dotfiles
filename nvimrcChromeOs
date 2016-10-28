@@ -65,6 +65,15 @@ Plug 'altercation/vim-colors-solarized'
 Plug 'reedes/vim-colors-pencil'
 
 Plug 'vim-scripts/oceanlight'
+
+Plug 'gosukiwi/vim-atom-dark'
+
+Plug 'dracula/vim'
+
+Plug 'flazz/vim-colorschemes'
+
+Plug 'NLKNguyen/papercolor-theme'
+
 " Unmanaged plugin (manually installed and updated)
 " Plug '~/my-prototype-plugin'
 
@@ -256,18 +265,27 @@ function! HasPaste()
 endfunction
 function Light()
    set background=light
-   colorscheme solarized8_light
+   colorscheme pencil
    highlight Normal ctermfg=black
 " highlight  CursorLine cterm=NONE ctermbg=black ctermfg=none
 " hi MatchParen cterm=underline ctermbg=none ctermfg=magenta
 endfunction
+function Pencil()
+   set background=light
+   colorscheme pencil
+   " highlight Normal ctermfg=black
+" highlight  CursorLine cterm=NONE ctermbg=black ctermfg=none
+" hi MatchParen cterm=underline ctermbg=none ctermfg=magenta
+endfunction
+
 
 function Dark()
-   set background=dark
-   colorscheme solarized8_dark_flat
+   set background=light
+   colorscheme PaperColor
 " highlight SpellBad cterm=underline
 " hi MatchParen cterm=underline ctermbg=none ctermfg=magenta
-"   highlight Normal ctermbg=none
+   highlight Normal guibg=#848484
+   " highlight normal guifg=grey
 endfunction
 
 function! SearchMultiLine(bang, ...)
@@ -495,7 +513,7 @@ noremap X "0D
 
 " Softwrap 
 nmap D "_dg$
-nmap V g$vg^
+" nmap V g$vg^
 nmap A g$a
 nnoremap dd g^"_dg$i<backspace><ESC><CR>
 " nmap dd 0dg$
@@ -520,8 +538,8 @@ noremap F ?
 noremap $ /\$<CR>hv?\$<CR>l
 noremap # /\$<CR>v?\$<CR>
 noremap @ /)<CR>v?(<CR>
- nmap j gj
- nmap k gk
+ map j gj
+ map k gk
  noremap <Space> .
  noremap <S-Space> ?<Space><enter>
 nmap <S-h> <C-w>h
