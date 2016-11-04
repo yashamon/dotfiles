@@ -13,6 +13,10 @@ xrdb ~/.Xresources &
 xrdb -load ~/.Xresources &
 xsetroot -cursor_name left_ptr &
 urxvtd -q -f -o  &
-# xmodmap ~/.Xmodmap &
+xmodmap -e "keycode 133 = Escape"
 xmodmap -e "remove control = Control_R" -e "add Mod3 = Control_R" &
+xcompmgr -c &
+feh --bg-scale /home/yasha/Downloads/backgrounds/jN5a1bi.jpg &
 exec xmonad 
+
+
