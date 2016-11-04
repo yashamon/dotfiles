@@ -185,9 +185,9 @@ if has("gui_running")	" GUI color and font settings
   highlight CursorLine  guibg=#003853 ctermbg=24  gui=none cterm=none
 else
 " terminal color settings
-  set background=dark
+  set background=light
   " set t_Co=256          " 256 color mode
-   colorscheme solarized8_dark_flat 
+   colorscheme pencil 
   " colorscheme gruvbox
   " highlight Normal ctermbg=none
 highlight clear SpellBad

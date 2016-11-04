@@ -145,6 +145,7 @@ alias vi="nvim"
 alias update="git submodule update --init --recursive ; git pull origin master"
 alias chrome="chromium --user-data-dir /root"
 alias apt="sudo apt-get install"
+alias pull="git pull origin master"
 # alias vim="nvim"
 myfunction() {
     #do things with parameters like $1 such as
