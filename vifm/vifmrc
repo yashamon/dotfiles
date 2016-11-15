@@ -24,9 +24,9 @@ filextype *.pdf,*.dvi, *.ps
 filextype *.djvu
        \ zathura %f 
 filextype *.fb2
-       \ calibre %f 
+       \ fbreader %f 
 filextype *.epub
-       \ calibre %f
+       \ fbreader %f
 command link ln -s %d/%f %D
 
 filetype *.jpg,*.jpeg,*.png,*.gif feh %f 2>/dev/null &
