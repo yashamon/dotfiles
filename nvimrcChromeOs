@@ -135,6 +135,7 @@ set tags+=~/Dropbox/workspace/tags
   " set formatoptions=ant
   " set wrapmargin=1
 set tw=80
+set foldmethod=expr foldexpr=getline(v:lnum)=~'^\s*'.&commentstring[0]
 set autochdir
 set guioptions-=r 
 set guioptions-=l
@@ -199,8 +200,7 @@ endif
 "
 au FileType Makefile set noexpandtab
 au FileType tex :Goyo
-set foldmethod=expr foldexpr=getline(v:lnum)=~'^\s*'.&commentstring[0]
-
+" autocmd bufwritepost * :term ; git add . ; git commit -m -a ; git push origin master
 " FUNCTIONS
 
 " " Change Color when entering Insert Mode
