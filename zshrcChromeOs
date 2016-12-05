@@ -146,6 +146,7 @@ alias update="git submodule update --init --recursive ; git pull origin master"
 alias chrome="chromium --user-data-dir /root"
 alias apt="sudo apt-get install"
 alias pull="git pull origin master"
+alias watch="sh ~/dotfiles/gitwatch/gitwatch.sh -r origin -b master ~/workspace"
 # alias gitwatch
 # alias vim="nvim"
 myfunction() {
