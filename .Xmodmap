@@ -246,7 +246,7 @@ keycode 252 =
 keycode 253 =
 keycode 254 =
 keycode 255 =
-clear Mod1
+clear Super_L
 clear Mod3
 add Mod1 = Alt_L
 add Mod3 = Alt_R

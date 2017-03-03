@@ -10,3 +10,6 @@
 [submodule "gitwatch"]
 	path = gitwatch
 	url = https://github.com/nevik/gitwatch.git
+[submodule "neovim"]
+	path = neovim
+	url = https://github.com/neovim/neovim.git
