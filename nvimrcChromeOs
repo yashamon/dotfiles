@@ -11,11 +11,14 @@ call plug#begin('~/.vim/plugged')
 " Plug 'https://github.com/junegunn/vim-github-dashboard.git'
 
 " Group dependencies, vim-snippets depends on ultisnips
+Plug 'bfredl/nvim-miniyank'
 Plug 'SirVer/ultisnips' 
 " | Plug 'honza/vim-snippets'
 
 " On-demand loading
 Plug 'junegunn/goyo.vim'
+
+Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
 
 Plug 'equalsraf/neovim-gui-shim'
 
@@ -32,7 +35,7 @@ Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
 
 Plug 'junegunn/fzf.vim'
 
-Plug 'Valloric/YouCompleteMe', {'do': './install.py' }
+" Plug 'Valloric/YouCompleteMe', {'do': './install.py' }
 
 Plug 'ervandew/supertab'
 
@@ -189,7 +192,7 @@ else
 " terminal color settings
   set background=light
   " set t_Co=256          " 256 color mode
-   colorscheme pencil 
+   colorscheme solarized8_light_flat
   " colorscheme gruvbox
   " highlight Normal ctermbg=none
 highlight clear SpellBad
@@ -488,6 +491,12 @@ hi link EasyMotionShade Comment
    "nmap OB j
    "nmap OC l
    "nmap OD 
+"YankRing
+
+map p <Plug>(miniyank-autoput)
+map P <Plug>(miniyank-autoPut)
+map <Leader>n <Plug>(miniyank-cycle)
+
 
 " --- Command-T
 let g:CommandTMaxHeight = 15
@@ -527,7 +536,7 @@ nnoremap <Right> :bprevious<CR>
 " tnoremap <Esc> <C-\> 
 nnoremap < :tabp<CR>
 nnoremap > :tabn<CR>
-nnoremap <leader>n :tabedit %<CR>
+" nnoremap <leader>n :tabedit %<CR>
 imap <M-j> <C-j>
 map <C-q> <Esc>:q!<CR>
 map <M-q> <C-q>
