@@ -87,7 +87,7 @@ syntax on
 " filetype plugin indent on
 "  General Settings  
 "
-set clipboard=unnamedplus	" yank to the system register (*) by default
+set clipboard+=unnamedplus	" yank to the system register (*) by default
 " TAB setting{
    set expandtab        "replace <TAB> with spaces
    set softtabstop=3 
@@ -327,7 +327,7 @@ highlight  CursorLine cterm=NONE ctermbg=black ctermfg=none
 "     vnoremap <silent> y y:call ClipboardYank()<cr>
 "     vnoremap <silent> d d:call ClipboardYank()<cr>
 "     nnoremap <silent> p :call ClipboardPaste()<cr>p
-set clipboard=unnamedplus	" yank to the system register (*) by default
+" set clipboard=unnamedplus	" yank to the system register (*) by default
 
 " TAB setting{
    set expandtab        "replace <TAB> with spaces
@@ -512,7 +512,7 @@ let g:NERDTreeMapUpdir="<S-h>"
 " I find default   register behavior uncomfortable 
 inoremap \ /
 inoremap / \
-noremap p "0p
+" noremap  "0p 
 " vnoremap d "dd
 " noremap D "dD
 noremap c "_c
@@ -538,7 +538,8 @@ nnoremap < :tabp<CR>
 nnoremap > :tabn<CR>
 " nnoremap <leader>n :tabedit %<CR>
 imap <M-j> <C-j>
-map <C-q> <Esc>:q!<CR>
+map <C-q> <Esc>:wq<CR>
+map <M-S-q> <Esc>:q!<CR>
 map <M-q> <C-q>
 noremap f /
 noremap F ?
@@ -625,7 +626,7 @@ let g:vimtex_indent_enabled =0
 "    endfunction
 let g:vimtex_latexmk_build_dir = './build'
 let g:vimtex_latexmk_progname = 'nvr'
-nmap  <leader>v <Esc>:VimtexView<CR>
+nmap  <leader>v <Esc>:w<CR>:VimtexView<CR>
 let g:vimtex_quickfix_mode = 0
 let g:vimtex_fold_enabled =0
 nmap <leader>l <Esc>:VimtexCompileToggle<CR>
@@ -658,7 +659,7 @@ map <leader>e :NERDTreeFind<CR>
 let g:vifmLiveCwd=1
 let g:vifmUseCurrent=1
 "Autosave
-let g:auto_save = 1
+let g:auto_save = 0
  let g:auto_save_in_insert_mode = 0
  let g:auto_save_silent = 1
 "Highlight

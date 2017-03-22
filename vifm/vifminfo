@@ -5,13 +5,3 @@
 # Bookmarks:
 
 # Trash content:
-t/home/yasha/.local/share/vifm/Trash/000_.scrotwm.conf
-	/home/yasha/.scrotwm.conf
-t/home/yasha/.local/share/vifm/Trash/000_.private
-	/home/yasha/.private
-t/home/yasha/.local/share/vifm/Trash/000_vifmrc
-	/home/yasha/dotfiles/vifmrc
-t/home/yasha/.local/share/vifm/Trash/000_plug.vim
-	/home/yasha/.config/nvim/autoload/plug.vim
-t/home/yasha/.local/share/vifm/Trash/000_index.lock
-	/home/yasha/workspace/.git/index.lock
