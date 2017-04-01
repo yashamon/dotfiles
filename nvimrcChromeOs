@@ -561,7 +561,7 @@ noremap # /\$<CR>v?\$<CR>
 noremap @ /)<CR>v?(<CR>
  map j gj
  map k gk
- map <Space> .
+ noremap <Space> .
  noremap <S-Space> ?<Space><enter>
 nmap <S-h> <C-w>h
 nmap <S-l> <C-w>l
@@ -570,7 +570,6 @@ noremap <S-k> <C-u>
 noremap <S-j> <C-d>
 nnoremap <leader>j J
 nnoremap <leader>k K
-nnoremap . `
 map ' "
 " nnoremap <Backspace> i<Backspace><Esc> 
 map <leader>c <Leader>__
@@ -737,4 +736,6 @@ function! MyFormatExpr(start, end)
 endfunction
 
 set formatexpr=MyFormatExpr(v:lnum,v:lnum+v:count-1)
+inoremap <Esc> <Esc>gq
+nnoremap <Esc> <Esc>gq
 
