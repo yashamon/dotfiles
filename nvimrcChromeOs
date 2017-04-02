@@ -448,22 +448,6 @@ set termencoding=utf-8
 set fileencoding=utf-8
 set fileencodings=ucs-bom,utf-8,big5,gb2312,latin1
 
-fun! ViewUTF8()
-	set encoding=utf-8                                  
-	set termencoding=big5
-endfun
-
-fun! UTF8()
-	set encoding=utf-8                                  
-	set termencoding=big5
-	set fileencoding=utf-8
-	set fileencodings=ucs-bom,big5,utf-8,latin1
-endfun
-
-fun! Big5()
-	set encoding=big5
-	set fileencoding=big5
-endfun
 
 
 "--------------------------------------------------------------------------- 
@@ -638,7 +622,7 @@ let g:vimtex_latexmk_progname = 'nvr'
 nmap  <leader>v <Esc>:w<CR>:VimtexView<CR>
 let g:vimtex_quickfix_mode = 0
 let g:vimtex_fold_enabled =0
-nmap <leader>l <Esc>:VimtexCompileToggle<CR>
+nmap <leader>l <Esc>:VimtexCompile<CR>
 nmap <leader>s <Esc>:VimtexErrors<CR>
 nmap <leader>x <Esc>:VimtexErrors<CR>:Goyo<CR>:Goyo<CR>
 
