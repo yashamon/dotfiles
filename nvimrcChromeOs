@@ -622,7 +622,7 @@ let g:vimtex_latexmk_progname = 'nvr'
 nmap  <leader>v <Esc>:w<CR>:VimtexView<CR>
 let g:vimtex_quickfix_mode = 0
 let g:vimtex_fold_enabled =0
-nmap <leader>l <Esc>:VimtexCompile<CR>
+nmap <leader>l <Esc>:VimtexCompileToggle<CR>
 nmap <leader>s <Esc>:VimtexErrors<CR>
 nmap <leader>x <Esc>:VimtexErrors<CR>:Goyo<CR>:Goyo<CR>
 
