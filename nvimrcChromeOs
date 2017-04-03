@@ -11,10 +11,10 @@ call plug#begin('~/.vim/plugged')
 " Plug 'https://github.com/junegunn/vim-github-dashboard.git'
 
 " Group dependencies, vim-snippets depends on ultisnips 
-Plug 'Shougo/denite.nvim'
 Plug 'justinmk/vim-sneak'
 Plug 'bfredl/nvim-miniyank'
 Plug 'SirVer/ultisnips' 
+Plug 'tpope/vim-fugitive'
 " | Plug 'honza/vim-snippets'
 
 " On-demand loading
