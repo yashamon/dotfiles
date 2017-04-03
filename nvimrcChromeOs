@@ -208,8 +208,24 @@ endif
 "
 au FileType Makefile set noexpandtab
 " au FileType tex :Goyo
-" autocmd bufwritepost * :term ; git add . ; git commit -m -a ; git push origin master
+"
+"
 " FUNCTIONS
+
+
+" function to create new line at periods, useful for text documents.
+" remove tw setting for best results 
+
+function! MyFormatExpr(start, end)
+    silent execute a:start.','.a:end.'s/[.!?]\zs /\r/g'
+endfunction
+
+set formatexpr=MyFormatExpr(v:lnum,v:lnum+v:count-1)
+" inoremap .<Esc> <Esc>gqqA.<Esc>
+" inoremap .<Space> <Esc>gqqA.<Space>
+
+inoremap .<Esc> .<CR><Esc>
+inoremap .<Space> .<CR>
 
 " " Change Color when entering Insert Mode
 "  augroup CursorLine
@@ -273,8 +289,8 @@ function! HasPaste()
 endfunction
 function Light()
    set background=light
-   colorscheme pencil
-   highlight Normal ctermfg=black
+   colorscheme PaperColor
+   " highlight Normal ctermfg=black
 " highlight  CursorLine cterm=NONE ctermbg=black ctermfg=none
 " hi MatchParen cterm=underline ctermbg=none ctermfg=magenta
 endfunction
@@ -288,11 +304,11 @@ endfunction
 
 
 function Dark()
-   set background=light
-   colorscheme PaperColor
+   set background=dark
+   colorscheme coffee
 " highlight SpellBad cterm=underline
 " hi MatchParen cterm=underline ctermbg=none ctermfg=magenta
-   highlight Normal guibg=#848484
+   " highlight Normal guibg=#848484
    " highlight normal guifg=grey
 endfunction
 
@@ -617,7 +633,7 @@ let g:vimtex_indent_enabled =0
 "        call system(join(l:cmd + [line('.'), shellescape(l:out), shellescape(l:tex)], ' '))
 "      endif
 "    endfunction
-let g:vimtex_latexmk_build_dir = './build'
+" let g:vimtex_latexmk_build_dir = './build'
 let g:vimtex_latexmk_progname = 'nvr'
 nmap  <leader>v <Esc>:w<CR>:VimtexView<CR>
 let g:vimtex_quickfix_mode = 0
@@ -715,11 +731,10 @@ au filetype tex filetype indent off
 "       GUI Stuff   
 command -nargs=? Guifont call rpcnotify(0, 'Gui', 'SetFont', "\<args\>") | let g:Guifont="<args>"
 
-function! MyFormatExpr(start, end)
-    silent execute a:start.','.a:end.'s/[.!?]\zs /\r/g'
-endfunction
 
-set formatexpr=MyFormatExpr(v:lnum,v:lnum+v:count-1)
-inoremap <Esc> <Esc>gq
-nnoremap <Esc> <Esc>gq
+
+
+
+
+
 
