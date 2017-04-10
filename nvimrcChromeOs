@@ -11,6 +11,7 @@ call plug#begin('~/.vim/plugged')
 " Plug 'https://github.com/junegunn/vim-github-dashboard.git'
 
 " Group dependencies, vim-snippets depends on ultisnips 
+Plug 'tpope/vim-surround'
 Plug 'justinmk/vim-sneak'
 Plug 'bfredl/nvim-miniyank'
 Plug 'SirVer/ultisnips' 
@@ -215,12 +216,10 @@ au FileType Makefile set noexpandtab
 
 " function to create new line at periods, useful for text documents.
 " remove tw setting for best results 
-
-function! MyFormatExpr(start, end)
-    silent execute a:start.','.a:end.'s/[.!?]\zs /\r/g'
-endfunction
-
-set formatexpr=MyFormatExpr(v:lnum,v:lnum+v:count-1)
+" function! MyFormatExpr(start, end)
+"     silent execute a:start.','.a:end.'s/[.!?]\zs /\r/g'
+" endfunction
+" set formatexpr=MyFormatExpr(v:lnum,v:lnum+v:count-1)
 " inoremap .<Esc> <Esc>gqqA.<Esc>
 " inoremap .<Space> <Esc>gqqA.<Space>
 
@@ -512,7 +511,8 @@ let g:SuperTabContextDiscoverDiscovery= ["&completefunc:<c-x><c-u>", "&omnifunc:
   
 "--NerdTree
 let g:NERDTreeMapUpdir="<S-h>"
-" 
+
+" Remaps 
 " I find default   register behavior uncomfortable 
 inoremap \ /
 inoremap / \
@@ -524,7 +524,6 @@ noremap C "_C
 noremap s "_x
 noremap x "0x
 noremap X "0D
-
 " Softwrap 
 nmap D "_dg$
 " nmap V g$vg^
@@ -634,6 +633,20 @@ let g:vimtex_indent_enabled =0
 "      endif
 "    endfunction
 " let g:vimtex_latexmk_build_dir = './build'
+
+    let g:vimtex_compiler_latexmk = {
+    \ 'background' : 0,
+    \ 'build_dir' : './build',
+    \ 'callback' : 1,
+    \ 'continuous' : 1,
+    \ 'options' : [
+    \   '-pdf',
+    \   '-verbose',
+    \   '-file-line-error',
+    \   '-synctex=1',
+    \   '-interaction=nonstopmode',
+    \ ],
+    \}
 let g:vimtex_latexmk_progname = 'nvr'
 nmap  <leader>v <Esc>:w<CR>:VimtexView<CR>
 let g:vimtex_quickfix_mode = 0
