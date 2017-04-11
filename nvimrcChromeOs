@@ -680,10 +680,12 @@ map <leader>e :NERDTreeFind<CR>
 "Vifm
 let g:vifmLiveCwd=1
 let g:vifmUseCurrent=1
-"Autosave
+"Autosave and autocommit
 let g:auto_save = 0
  let g:auto_save_in_insert_mode = 0
  let g:auto_save_silent = 1
+" autocmd BufWritePost * silent execute '! if [ -d .git ] || git rev-parse --git-dir > /dev/null 2>&1 ; then git add % ; git commit -m %; fi'
+
 "Highlight
 hi MatchParen cterm=underline ctermbg=none ctermfg=none
 hi MatchParen guibg=NONE guifg=green gui=NONE
@@ -743,9 +745,9 @@ au filetype tex filetype indent off
 
 "       GUI Stuff   
 command -nargs=? Guifont call rpcnotify(0, 'Gui', 'SetFont', "\<args\>") | let g:Guifont="<args>"
+" Deoplete
 
-
-
+let g:deoplete#enable_at_startup = 1
 
 
 

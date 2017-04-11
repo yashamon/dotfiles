@@ -147,6 +147,7 @@ alias chrome="chromium --user-data-dir /root"
 alias apt="sudo apt-get install"
 alias pull="git pull origin master"
 alias watch="~/dotfiles/gitwatch/gitwatch.sh -r origin -b master ~/workspace"
+alias update="sudo apt-get update ; sudo apt-get upgrade"
 # alias gitwatch
 # alias vim="nvim"
 myfunction() {
