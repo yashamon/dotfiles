@@ -11,16 +11,15 @@ call plug#begin('~/.vim/plugged')
 " Plug 'https://github.com/junegunn/vim-github-dashboard.git'
 
 " Group dependencies, vim-snippets depends on ultisnips 
-Plug 'tpope/vim-surround'
+" Plug 'tpope/vim-surround'
 Plug 'justinmk/vim-sneak'
 Plug 'bfredl/nvim-miniyank'
 Plug 'SirVer/ultisnips' 
-Plug 'tpope/vim-fugitive'
+Plug 'tpope/vim-fugitive', { 'on': 'Gdiff' }
 " | Plug 'honza/vim-snippets'
 
 " On-demand loading
 Plug 'junegunn/goyo.vim'
-
 " Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
 
 
@@ -40,7 +39,7 @@ Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
 
 Plug 'junegunn/fzf.vim'
 
-Plug 'Valloric/YouCompleteMe', {'do': './install.py' }
+" Plug 'Valloric/YouCompleteMe', {'do': './install.py' }
 
 Plug 'ervandew/supertab'
 
@@ -48,7 +47,7 @@ Plug 'vim-scripts/tComment'
 
 " Plug 'Shougo/vimproc.vim'
 
-Plug 'Lokaltog/vim-easymotion'
+" Plug 'Lokaltog/vim-easymotion'
 
 Plug 'mbbill/undotree', { 'on': 'UndotreeToggle' }
 '}
@@ -738,8 +737,9 @@ inoremap <expr> <CR> pumvisible() ? "\<C-y>" : "\<C-g>u\<CR>"
    "Latex compile. 
    "them to an external terminal and run there.
 " map <Leader>l :tabe %<CR><Esc>:term ; latexmk -pvc -pdf -file-line-error -synctex=1 -interaction=nonstopmode -recorder %<CR><leader>e
-
-map <Leader>tt :term ; ctags -R
+"Zathura forward search
+" map <Leader>v <Esc>:silent !zathura --synctex-forward <Ctrl+R>=line('.'):1:%:p %:p:h/build/%:r.pdf<CR><CR>
+map <Leader>tt :term CR; ctags -R
 "source ~/.anyname  
 au filetype tex filetype indent off
 
@@ -748,7 +748,6 @@ command -nargs=? Guifont call rpcnotify(0, 'Gui', 'SetFont', "\<args\>") | let g
 " Deoplete
 
 " let g:deoplete#enable_at_startup = 1
-
 
 
 
