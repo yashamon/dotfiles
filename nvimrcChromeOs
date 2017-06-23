@@ -15,7 +15,7 @@ call plug#begin('~/.vim/plugged')
 Plug 'justinmk/vim-sneak'
 Plug 'bfredl/nvim-miniyank'
 Plug 'SirVer/ultisnips' 
-Plug 'tpope/vim-fugitive', { 'on': 'Gdiff' }
+Plug 'tpope/vim-fugitive'
 " | Plug 'honza/vim-snippets'
 
 " On-demand loading
@@ -147,7 +147,7 @@ set autochdir
 set guioptions-=r 
 set guioptions-=l
 set inccommand=split
-set mouse-=a
+set mouse=a
 set bs=2		" allow backspacing over everything in insert mode 
 set undofile                " Save undo's after file closes
 set undodir=~/workspace/undo " where to save undo histories
@@ -495,9 +495,6 @@ hi link EasyMotionShade Comment
    "nmap OD 
 "YankRing
 
-map p <Plug>(miniyank-autoput)
-map P <Plug>(miniyank-autoPut)
-map <Leader>n <Plug>(miniyank-cycle)
 
 
 " --- Command-T
@@ -510,14 +507,13 @@ let g:SuperTabContextDiscoverDiscovery= ["&completefunc:<c-x><c-u>", "&omnifunc:
   
 "--NerdTree
 let g:NERDTreeMapUpdir="<S-h>"
-
 " Remaps 
 " I find default   register behavior uncomfortable 
 inoremap \ /
 inoremap / \
-" noremap  "0p 
-" vnoremap d "dd
-" noremap D "dD
+noremap p "0p 
+noremap d "dd
+noremap D "dD
 noremap c "_c
 noremap C "_C
 noremap s "_x
@@ -532,6 +528,9 @@ nnoremap dd g^"_dg$i<backspace><ESC><CR>
 map 0 g^
 map 9 g$
 
+" map p <Plug>(miniyank-autoput)
+" map P <Plug>(miniyank-autoPut)
+map <Leader>n <Plug>(miniyank-cycle)
 vmap q xi<CR><CR><CR><CR><ESC>kkpvip<leader>c
 nnoremap <Left> :bnext<CR>
 nnoremap <Right> :bprevious<CR>
@@ -549,7 +548,7 @@ noremap F ?
   " map t <Plug>(easymotion)
   " map T <Plug>(easymotion)
 map t <Plug>Sneak_s
-    map T <Plug>Sneak_S
+map T <Plug>Sneak_S
     " xmap t <Plug>Sneak_s
     " xmap T <Plug>Sneak_S
     " omap t <Plug>Sneak_s
@@ -652,7 +651,7 @@ let g:vimtex_quickfix_mode = 0
 let g:vimtex_fold_enabled =0
 nmap <leader>l <Esc>:VimtexCompile<CR>
 nmap <leader>s <Esc>:VimtexErrors<CR>
-nmap <leader>x <Esc>:VimtexErrors<CR>:Goyo<CR>:Goyo<CR>
+nmap <leader>x <Esc>:VimtexErrors<CR>
 
 "Neovim mappings
 :tnoremap <S-h> <C-\><C-n><C-w>h
@@ -748,7 +747,4 @@ command -nargs=? Guifont call rpcnotify(0, 'Gui', 'SetFont', "\<args\>") | let g
 " Deoplete
 
 " let g:deoplete#enable_at_startup = 1
-
-
-
 
