@@ -95,9 +95,7 @@ set clipboard+=unnamedplus	" yank to the system register (*) by default
 " TAB setting{
    set expandtab        "replace <TAB> with spaces
    set softtabstop=3 
-   set shiftwidth=3 
- 
-  
+   set shiftwidth=3  
 
 " au GUIEnter * set fullscreen
 " if has("gui_running")
@@ -211,7 +209,20 @@ au FileType Makefile set noexpandtab
 "
 "
 " FUNCTIONS
-
+"
+" I haven't found how to hide this function (yet)
+" function! RestoreRegister()
+"   let @" = s:restore_reg
+"   return ''
+" endfunction
+"
+" function! s:Repl()
+"     let s:restore_reg = @"
+"     return "p@=RestoreRegister()\<cr>"
+" endfunction
+"
+" " NB: this supports "rp that replaces the selection by the contents of @r
+" vnoremap <silent> <expr> p <sid>Repl()
 
 " function to create new line at periods, useful for text documents.
 " remove tw setting for best results 
@@ -262,17 +273,6 @@ inoremap .<Space> .<CR>
 "    return ''
 "  endfunction
 
- function! s:Repl()
-     let s:restore_reg = @"
-     return "p@=RestoreRegister()\<cr>"
- endfunction
-function! RestoreRegister()
-    let @" = s:restore_reg
-    if &clipboard == "unnamed"
-        let @* = s:restore_reg
-    endif
-    return ''
-endfunction
 function! CurDir()
     let curdir = substitute(getcwd(), $HOME, "~", "")
     return curdir
@@ -512,6 +512,7 @@ let g:NERDTreeMapUpdir="<S-h>"
 inoremap \ /
 inoremap / \
 noremap p "0p 
+vnoremap p "0p 
 noremap d "dd
 noremap D "dD
 noremap c "_c
@@ -528,9 +529,13 @@ nnoremap dd g^"_dg$i<backspace><ESC><CR>
 map 0 g^
 map 9 g$
 
-" map p <Plug>(miniyank-autoput)
-" map P <Plug>(miniyank-autoPut)
-map <Leader>n <Plug>(miniyank-cycle)
+" map p <Plug>(miniyank-startput)
+" map P <Plug>(miniyank-startPut)
+" nmap p <Plug>(miniyank-autoput)
+" nmap P <Plug>(miniyank-autoPut)
+" vmap p <Plug>(miniyank-autoput)
+" vmap P <Plug>(miniyank-autoPut)
+" map <Leader>n <Plug>(miniyank-cycle)
 vmap q xi<CR><CR><CR><CR><ESC>kkpvip<leader>c
 nnoremap <Left> :bnext<CR>
 nnoremap <Right> :bprevious<CR>
@@ -664,7 +669,6 @@ tnoremap <Leader>e <C-\><C-n>
 " imap <Backspace> \
 
 " NB: this supports "rp that replaces the selection by the contents of @r
-vnoremap <silent> <expr> p <sid>Repl()
 " Auto updating Ctags
 " autocmd VimLeave * exe ":silent ! /usr/local/bin/ctags -R"
 map :tags  exe ":silent ! /usr/local/bin/ctags -R"
