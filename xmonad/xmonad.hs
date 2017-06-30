@@ -4,6 +4,7 @@ import qualified Data.Map as M
 import XMonad.Hooks.FadeInactive
 import XMonad.Hooks.ManageDocks
 import XMonad.Layout.NoBorders
+import XMonad.Layout.Spacing
 import XMonad.Hooks.UrgencyHook
 import XMonad.Util.EZConfig(additionalKeysP, additionalKeys, removeMouseBindings)
 myWorkspaces :: [String]
@@ -11,7 +12,7 @@ myWorkspaces = [ "shell", "zathura", "chrome", "media", "shell-misc", "torrent",
                , "mail" ]
 
 -- layoutHook = avoidStruts $ smartBorders (tall ||| Full)
-mylayoutHook = avoidStruts $ smartBorders (tall ||| Full)
+mylayoutHook = spacing 2 $ avoidStruts $ smartBorders (tall ||| Full)
                    where  tall = Tall 1 (3/100) (1/2)
 myManageHook = composeAll
    [ 
