@@ -3,6 +3,7 @@ import XMonad.Hooks.DynamicLog
 import qualified Data.Map as M
 import XMonad.Hooks.FadeInactive
 import XMonad.Hooks.ManageDocks
+import XMonad.Actions.FloatKeys
 import XMonad.Layout.NoBorders
 import XMonad.Layout.Spacing
 import XMonad.Hooks.UrgencyHook
@@ -12,7 +13,7 @@ myWorkspaces = [ "shell", "zathura", "chrome", "media", "shell-misc", "torrent",
                , "mail" ]
 
 -- layoutHook = avoidStruts $ smartBorders (tall ||| Full)
-mylayoutHook = spacing 2 $ avoidStruts $ smartBorders (tall ||| Full)
+mylayoutHook = spacing 3 $ avoidStruts $ smartBorders (tall ||| Full)
                    where  tall = Tall 1 (3/100) (1/2)
 myManageHook = composeAll
    [ 
@@ -26,18 +27,27 @@ myManageHook = composeAll
    ]
 myLogHook :: X ()
 myLogHook = fadeInactiveLogHook fadeAmount
-      where fadeAmount = 0.85
+      where fadeAmount = 0.70
 
 myNormalBorderColor, myFocusedBorderColor :: String
 myNormalBorderColor  = "black"
-myFocusedBorderColor = "blue"
+myFocusedBorderColor = "black"
 
+myKeys conf@(XConfig {XMonad.modMask = modm}) = M.fromList
+            [
+                  ((modm,               xK_d     ), withFocused (keysAbsResizeWindow (-10,-10) (1024,752)))
+                , ((modm,               xK_s     ), withFocused (keysAbsResizeWindow (10,10) (1024,752)))
+                , ((modm .|. shiftMask, xK_d     ), withFocused (keysAbsResizeWindow (10,10) (1024,752)))
+                , ((modm .|. shiftMask, xK_s     ), withFocused (keysAbsResizeWindow (10,10) (1024,752)))
+                -- , ((modm,               xK_a     ), withFocused (keysMoveWindowTo (512,384) (1%2,1%2)))
+            ]
 -- main = xmonad =<< xmobar myConfig
 main = xmonad  myConfig
 myConfig = defaultConfig
         { 
           modMask = mod3Mask -- Use control instead of Alt
         , terminal = "urxvtc"
+        , keys          = \c -> myKeys c `M.union` keys defaultConfig c
         , manageHook = myManageHook
         , layoutHook = mylayoutHook
         , logHook = myLogHook
