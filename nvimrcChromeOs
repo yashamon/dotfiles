@@ -543,6 +543,7 @@ imap <M-j> <C-j>
 map <C-q> <Esc>:q<CR>
 map <M-S-q> <Esc>:q!<CR>
 map <M-q> <C-q>
+map <M-d> <Esc>:bdelete<CR>
 noremap f /
 noremap F ?
 " noremap S :S 
