@@ -1,9 +1,7 @@
 " init.vim
 " call pathogen#infect()  
 call plug#begin('~/.vim/plugged')
-
 " Make sure you use single quotes
-
 " Shorthand notation; fetches https://github.com/junegunn/vim-easy-align
 " Plug 'junegunn/vim-easy-align'
 
@@ -13,7 +11,7 @@ call plug#begin('~/.vim/plugged')
 " Group dependencies, vim-snippets depends on ultisnips 
 " Plug 'tpope/vim-surround'
 Plug 'justinmk/vim-sneak'
-Plug 'bfredl/nvim-miniyank'
+" Plug 'bfredl/nvim-miniyank'
 Plug 'SirVer/ultisnips' 
 Plug 'tpope/vim-fugitive'
 " | Plug 'honza/vim-snippets'
@@ -140,6 +138,7 @@ set tags+=~/Dropbox/workspace/tags
   " set formatoptions=ant
   " set wrapmargin=1
 set tw=80
+set hid
 set foldmethod=expr foldexpr=getline(v:lnum)=~'^\s*'.&commentstring[0]
 set autochdir
 set guioptions-=r 
@@ -176,11 +175,8 @@ set noerrorbells
 set novisualbell
 set tm=500
 " set macmeta
-let g:yankstack_map_keys = 0
-nmap <leader>p <Plug>yankstack_substitute_older_paste
-  nmap <leader>P <Plug>yankstack_substitute_newer_paste
 " auto reload vimrc when editing it
-" autocmd! bufwritepost .vimrc source ~/.vimrc
+autocmd! bufwritepost .vimrc source ~/.vimrc
 syntax on		" syntax highlight
 " set hlsearch		" search highlighting
 "
@@ -355,7 +351,7 @@ highlight  CursorLine cterm=NONE ctermbg=black ctermfg=none
    "}      							
 
 " status line {
-set laststatus=1
+set laststatus=2
 set statusline=\ %{HasPaste()}%<%-15.25(%f%)%m%r%h\ %w\ \ 
 set statusline+=\ \ \ [%{&ff}/%Y] 
 set statusline+=\ \ \ %<%20.30(%{hostname()}:%{CurDir()}%)\ 
@@ -683,7 +679,7 @@ map <leader>e :NERDTreeFind<CR>
 let g:vifmLiveCwd=1
 let g:vifmUseCurrent=1
 "Autosave and autocommit
-let g:auto_save = 0
+let g:auto_save = 1
  let g:auto_save_in_insert_mode = 0
  let g:auto_save_silent = 1
 " autocmd BufWritePost * silent execute '! if [ -d .git ] || git rev-parse --git-dir > /dev/null 2>&1 ; then git add % ; git commit -m %; fi'
