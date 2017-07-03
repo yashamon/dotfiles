@@ -1,17 +1,17 @@
 # You can edit this file by hand, but it's recommended not to do that.
 
 # Marks:
+'v
+	/root/.config/nvim
+	init.vim
+1498920266
 
 # Bookmarks:
 
 # Trash content:
-t/home/yasha/Downloads/.vifm-Trash-1000/000_fullerArxiv.pdf
-	/home/yasha/Downloads/fullerArxiv.pdf
-t/home/yasha/Downloads/.vifm-Trash-1000/000_fullerArxiv2.tex
-	/home/yasha/Downloads/fullerArxiv2.tex
-t/home/yasha/.local/share/vifm/Trash/000_%home%yasha%workspace%Fuller%fuller5.tex.swp
-	/home/yasha/.local/share/nvim/swap/%home%yasha%workspace%Fuller%fuller5.tex.swp
-t/home/yasha/.local/share/vifm/Trash/000_runtime
-	/home/yasha/neovim/build/runtime
-t/home/yasha/.local/share/vifm/Trash/000_.swp
-	/home/yasha/workspace/GFCII/.swp
+t/.vifm-Trash-0/000_xmonad.errors
+	/root/.xmonad/xmonad.errors
+t/.vifm-Trash-0/000_xmonad.hi
+	/root/.xmonad/xmonad.hi
+t/.vifm-Trash-0/000_xmonad.o
+	/root/.xmonad/xmonad.o

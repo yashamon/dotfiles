@@ -13,3 +13,6 @@
 [submodule "neovim"]
 	path = neovim
 	url = https://github.com/neovim/neovim.git
+[submodule "vim-plug"]
+	path = vim-plug
+	url = https://github.com/junegunn/vim-plug.git
