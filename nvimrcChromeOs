@@ -12,7 +12,7 @@ call plug#begin('~/.vim/plugged')
 " Plug 'tpope/vim-surround'
 Plug 'justinmk/vim-sneak'
 " Plug 'bfredl/nvim-miniyank'
-Plug 'SirVer/ultisnips' 
+" Plug 'SirVer/ultisnips' 
 Plug 'tpope/vim-fugitive'
 " | Plug 'honza/vim-snippets'
 
@@ -52,7 +52,7 @@ Plug 'mbbill/undotree', { 'on': 'UndotreeToggle' }
 
 Plug 'lifepillar/vim-solarized8'
 
-Plug 'vim-scripts/AutoTag'
+"  Plug 'vim-scripts/AutoTag'
 
 Plug 'vim-scripts/vim-auto-save'
 
@@ -62,7 +62,7 @@ Plug 'vim-pandoc/vim-pandoc'
 
 Plug 'yashamon/vim-snippets'
 
-Plug 'lervag/vimtex'
+" Plug 'lervag/vimtex'
 " colorschemes
 "
 Plug 'altercation/vim-colors-solarized'
@@ -138,6 +138,7 @@ set tags+=~/Dropbox/workspace/tags
   " set formatoptions=ant
   " set wrapmargin=1
 set tw=80
+set shada="NONE"
 set hid
 set foldmethod=expr foldexpr=getline(v:lnum)=~'^\s*'.&commentstring[0]
 set autochdir
@@ -229,11 +230,11 @@ au FileType Makefile set noexpandtab
 " inoremap .<Esc> <Esc>gqqA.<Esc>
 " inoremap .<Space> <Esc>gqqA.<Space>
 
-inoremap .<Esc> .<CR><Esc>
-inoremap .<Space> .<CR>
+inoremap .<Esc> .<CR><Esc>J
+inoremap .<Space> .<CR><Esc>J
 
-" " Change Color when entering Insert Mode
-"  augroup CursorLine
+" " Change Color when entering
+" Insert Mode augroup CursorLine
 "    au!
 "  if has("gui_running")
 "  else

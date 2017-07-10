@@ -13,7 +13,7 @@ map <A-q> <ESC>:q<CR>
 map F ?
 map JW :cd ~/workspace<CR>
 map JD :cd ~/dotfiles<CR>
-map JO :cd ~/downloads<CR>
+map JO :cd ~/Downloads<CR>
 map JM :cd /media/removable/USB\ Drive<CR>
 map J <C-d>
 map K <C-u>
