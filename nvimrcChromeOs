@@ -10,59 +10,57 @@ call plug#begin('~/.vim/plugged')
 
 " Group dependencies, vim-snippets depends on ultisnips 
 " Plug 'tpope/vim-surround'
-Plug 'justinmk/vim-sneak'
+ Plug 'justinmk/vim-sneak'
 " Plug 'bfredl/nvim-miniyank'
-" Plug 'SirVer/ultisnips' 
-Plug 'tpope/vim-fugitive'
-" | Plug 'honza/vim-snippets'
+ Plug 'SirVer/ultisnips' 
+ Plug 'tpope/vim-fugitive'
+ " | Plug 'honza/vim-snippets'
+"
+" " On-demand loading
+ Plug 'junegunn/goyo.vim'
+" " Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
+"
+"
 
-" On-demand loading
-Plug 'junegunn/goyo.vim'
-" Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
+ Plug 'equalsraf/neovim-gui-shim'
 
+ Plug 'morhetz/gruvbox'
 
+ Plug 'vim-pandoc/vim-pandoc'
 
-Plug 'equalsraf/neovim-gui-shim'
+ Plug 'vim-pandoc/vim-pandoc-syntax' 
 
-Plug 'morhetz/gruvbox'
+ Plug 'scrooloose/nerdtree', { 'on': 'NERDTreeFind' }
 
-Plug 'vim-pandoc/vim-pandoc'
+ " Plugin outside ~/.vim/plugged with post-update hook
+ Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
 
-Plug 'vim-pandoc/vim-pandoc-syntax' 
+ Plug 'junegunn/fzf.vim'
+"
+" " Plug 'Valloric/YouCompleteMe', {'do': './install.py' }
+"
+ Plug 'ervandew/supertab'
 
-Plug 'scrooloose/nerdtree', { 'on': 'NERDTreeFind' }
+ Plug 'vim-scripts/tComment'
 
-" Plugin outside ~/.vim/plugged with post-update hook
-Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
-
-Plug 'junegunn/fzf.vim'
-
-" Plug 'Valloric/YouCompleteMe', {'do': './install.py' }
-
-Plug 'ervandew/supertab'
-
-Plug 'vim-scripts/tComment'
-
-" Plug 'Shougo/vimproc.vim'
+ " Plug 'Shougo/vimproc.vim'
 
 " Plug 'Lokaltog/vim-easymotion'
 
 Plug 'mbbill/undotree', { 'on': 'UndotreeToggle' }
-'}
+ '}
 
-Plug 'lifepillar/vim-solarized8'
+ Plug 'lifepillar/vim-solarized8'
 
-"  Plug 'vim-scripts/AutoTag'
+Plug 'vim-scripts/AutoTag'
 
 Plug 'vim-scripts/vim-auto-save'
-
-Plug 'scrooloose/nerdcommenter'
 
 Plug 'vim-pandoc/vim-pandoc'
 
 Plug 'yashamon/vim-snippets'
 
-" Plug 'lervag/vimtex'
+Plug 'lervag/vimtex'
 " colorschemes
 "
 Plug 'altercation/vim-colors-solarized'
@@ -81,10 +79,8 @@ Plug 'NLKNguyen/papercolor-theme'
 
 " Unmanaged plugin (manually installed and updated)
 " Plug '~/my-prototype-plugin'
-
 " Add plugins to &runtimepath
 call plug#end()
-
 syntax on  
 " filetype plugin indent on
 "  General Settings  
@@ -106,14 +102,14 @@ set clipboard+=unnamedplus	" yank to the system register (*) by default
 " " set tags= ~/.tags
 " highlight SignColumn guibg=bg
 "       endif    
-if has("autocmd")
-  au BufReadPost * if line("'\"") > 1 && line("'\"") <= line("$") | exe "normal! g'\"" | endif
-endif
+" if has("autocmd")
+"   au BufReadPost * if line("'\"") > 1 && line("'\"") <= line("$") | exe "normal! g'\"" | endif
+" endif
   " autocmd BufWinLeave *.* mkview
   " autocmd BufWinEnter *.* silent loadview
    " set foldcolumn=2
 "  highlight foldcolumn ctermfg=256 ctermbg=bg
-autocmd Colorscheme * highlight FoldColumn guifg=black guibg=bg
+" autocmd Colorscheme * highlight FoldColumn guifg=black guibg=bg
 au VIMEnter set spell
  set timeout
    set timeoutlen=0
@@ -128,9 +124,8 @@ au VIMEnter set spell
   au VIMEnter * let g:surround_108 = {
      \'q':  " ``\r''"
      \ }
-  let $NVIM_TUI_ENABLE_TRUE_COLOR=1
- let $NVIM_TUI_ENABLE_CURSOR_SHAPE=1
-
+"  let $NVIM_TUI_ENABLE_TRUE_COLOR=1
+"  let $NVIM_TUI_ENABLE_CURSOR_SHAPE=1
 let g:tex_flavor = "latex"
 let g:tex_isk = '@,48-57,58,_,192-255'
 set tags+=~/texmf/bibtex/bib/tags
@@ -138,7 +133,7 @@ set tags+=~/Dropbox/workspace/tags
   " set formatoptions=ant
   " set wrapmargin=1
 set tw=80
-set shada="NONE"
+" set shada="NONE"
 set hid
 set foldmethod=expr foldexpr=getline(v:lnum)=~'^\s*'.&commentstring[0]
 set autochdir
@@ -221,18 +216,6 @@ au FileType Makefile set noexpandtab
 " " NB: this supports "rp that replaces the selection by the contents of @r
 " vnoremap <silent> <expr> p <sid>Repl()
 
-" function to create new line at periods, useful for text documents.
-" remove tw setting for best results 
-" function! MyFormatExpr(start, end)
-"     silent execute a:start.','.a:end.'s/[.!?]\zs /\r/g'
-" endfunction
-" set formatexpr=MyFormatExpr(v:lnum,v:lnum+v:count-1)
-" inoremap .<Esc> <Esc>gqqA.<Esc>
-" inoremap .<Space> <Esc>gqqA.<Space>
-
-inoremap .<Esc> .<CR><Esc>J
-inoremap .<Space> .<CR><Esc>J
-
 " " Change Color when entering
 " Insert Mode augroup CursorLine
 "    au!
@@ -242,8 +225,6 @@ inoremap .<Space> .<CR><Esc>J
 "        au InsertLeave * setlocal nocursorline
 "     endif
 "        augroup END
-
-
 " function! DelTagOfFile(file)
 "   let fullpath = a:file
 "   let cwd = getcwd()
@@ -255,33 +236,6 @@ inoremap .<Space> .<CR><Esc>J
 " endfunction
 
 
-
-" function! UpdateTags()
-"   let f = expand("%:p")
-"   let cwd = getcwd()
-"   let tagfilename = cwd . "/tags"
-"   let cmd = '/usr/local/bin/ctags -a -f ' . tagfilename . ' --fields=+iaS --extra=+q ' . '"' . f . '"'
-"   call DelTagOfFile(f)
-"   let resp = system(cmd)
-" endfunction
-" autocmd BufWritePost * call UpdateTags()
-"  function! RestoreRegister()
-"    let @" = s:restore_reg
-"    return ''
-"  endfunction
-
-function! CurDir()
-    let curdir = substitute(getcwd(), $HOME, "~", "")
-    return curdir
-endfunction
-
-function! HasPaste()
-    if &paste
-        return '[PASTE]'
-    else
-        return ''
-    endif
-endfunction
 function Light()
    set background=light
    colorscheme PaperColor
@@ -307,15 +261,7 @@ function Dark()
    " highlight normal guifg=grey
 endfunction
 
-function! SearchMultiLine(bang, ...)
-  if a:0 > 0
-    let sep = (a:bang) ? '\_W\+' : '\_s\+'
-    let @/ = join(a:000, sep)
-  endif
-endfunction
-command! -bang -nargs=* -complete=tag S call SearchMultiLine(<bang>0, <f-args>)|normal! /<C-R>/<CR>
-
-inoremap <expr> <CR> pumvisible() ? "\<C-y>" : "\<C-g>u\<CR>"
+" inoremap <expr> <CR> pumvisible() ? "\<C-y>" : "\<C-g>u\<CR>"
 " Default Colors for CursorLine_
 highlight  CursorLine cterm=NONE ctermbg=black ctermfg=none
 " autocmd InsertEnter * set cursorline * 
@@ -332,18 +278,6 @@ highlight  CursorLine cterm=NONE ctermbg=black ctermfg=none
 "                autocmd VimLeave * silent !echo -ne "\033]112\007"
 "   "               " use \003]12;gray\007 for gnome-terminal
 "                  endif
-" function! ClipboardYank()
-"      call system('xclip -i -selection clipboard', @@)
-"   endfunction
-"   function! ClipboardPaste()
-"        let @@ = system('xclip -o -selection clipboard')
-"     endfunction
-"
-"     vnoremap <silent> y y:call ClipboardYank()<cr>
-"     vnoremap <silent> d d:call ClipboardYank()<cr>
-"     nnoremap <silent> p :call ClipboardPaste()<cr>p
-" set clipboard=unnamedplus	" yank to the system register (*) by default
-
 " TAB setting{
    set expandtab        "replace <TAB> with spaces
    set softtabstop=3 
@@ -351,6 +285,18 @@ highlight  CursorLine cterm=NONE ctermbg=black ctermfg=none
 
    "}      							
 
+function! CurDir()
+    let curdir = substitute(getcwd(), $HOME, "~", "")
+    return curdir
+endfunction
+
+function! HasPaste()
+    if &paste
+        return '[PASTE]'
+    else
+        return ''
+    endif
+endfunction
 " status line {
 set laststatus=2
 set statusline=\ %{HasPaste()}%<%-15.25(%f%)%m%r%h\ %w\ \ 
@@ -547,6 +493,8 @@ map <M-q> <C-q>
 map <M-d> <Esc>:bdelete<CR>
 noremap f /
 noremap F ?
+inoremap .<Esc> .<CR><Esc>J
+inoremap .<Space> .<CR><Esc>J
 " noremap S :S 
   " map t <Plug>(easymotion)
   " map T <Plug>(easymotion)
@@ -598,7 +546,11 @@ noremap <A-d> <C-d>
 noremap <M-d> <C-d>
 noremap <D-u> <C-u>
 noremap <A-u> <C-u>
-
+map <Leader>tt :term CR; ctags -R
+" this mapping Enter key to <C-y> to chose the current highlight item 
+" and close the selection list, same as other IDEs.
+" CONFLICT with some plugins like tpope/Endwise
+inoremap <expr> <CR> pumvisible() ? "\<C-y>" : "\<C-g>u\<CR>"
 nnoremap <silent> <Leader>y :YRGetElem<CR>
 map ' "
 inoremap <D-]> <C-x><C-]>
@@ -728,11 +680,6 @@ let g:UltiSnipsListSnippets="<D-e>"
 let g:UltiSnipsListSnippets="<C-e>"
 let g:sneak#s_next = 1
  let g:sneak#label = 1
-" this mapping Enter key to <C-y> to chose the current highlight item 
-" and close the selection list, same as other IDEs.
-" CONFLICT with some plugins like tpope/Endwise
-inoremap <expr> <CR> pumvisible() ? "\<C-y>" : "\<C-g>u\<CR>"
-
 
    " Latex shortcuts
    "Latex compile. 
@@ -740,7 +687,6 @@ inoremap <expr> <CR> pumvisible() ? "\<C-y>" : "\<C-g>u\<CR>"
 " map <Leader>l :tabe %<CR><Esc>:term ; latexmk -pvc -pdf -file-line-error -synctex=1 -interaction=nonstopmode -recorder %<CR><leader>e
 "Zathura forward search
 " map <Leader>v <Esc>:silent !zathura --synctex-forward <Ctrl+R>=line('.'):1:%:p %:p:h/build/%:r.pdf<CR><CR>
-map <Leader>tt :term CR; ctags -R
 "source ~/.anyname  
 au filetype tex filetype indent off
 
