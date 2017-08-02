@@ -20,17 +20,19 @@ map K <C-u>
 windo normal zo
 map H <C-w>h
 map L <C-w>l
-filextype *.jpg,*.jpeg,*.png,*.gif
+filetype *.jpg,*.jpeg,*.png,*.gif
        \ {View in feh}
        \ feh -FZ %d --start-at %d/%c 2>/dev/null
-filextype *.pdf,*.dvi, *.ps
+filetype *.pdf,*.dvi, *.ps
        \ zathura %f 
-filextype *.djvu
+filetype *.djvu
        \ zathura %f 
-filextype *.fb2
+filetype *.fb2
        \ fbreader %f 
-filextype *.epub
+filetype *.epub
        \ fbreader %f
+filetype *.avi,*.mkv
+       \ vlc %f
 command link ln -s %d/%f %D
 
 filetype *.jpg,*.jpeg,*.png,*.gif feh %f 2>/dev/null &
