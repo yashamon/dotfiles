@@ -177,7 +177,7 @@ syntax on		" syntax highlight
 " set hlsearch		" search highlighting
 "
 if has("gui_running")	" GUI color and font settings
-  set guifont=Source\ Code\ Pro \Regular:h12
+  set guifont=Source\ Code\ Pro \Regular:h16
   set background=dark 
 "  set cursorline        " highlight current line
   colorscheme solarized8_light_flat 
@@ -692,6 +692,8 @@ au filetype tex filetype indent off
 
 "       GUI Stuff   
 command -nargs=? Guifont call rpcnotify(0, 'Gui', 'SetFont', "\<args\>") | let g:Guifont="<args>"
+let g:Guifont="Source Code Pro Light:h16"
+
 " Deoplete
 
 " let g:deoplete#enable_at_startup = 1

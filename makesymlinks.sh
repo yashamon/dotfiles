@@ -40,6 +40,7 @@ cp ~/dotfiles/bin/vf ~/bin/vf
 mkdir ~/.config
 mkdir ~/.config/nvim
     mv ~/.nvimrc  ~/dotfiles_old/
+ln -s ~/dotfiles/ginit ~/.config/nvim/ginit.vim
 ln -s ~/dotfiles/nvimrc ~/.config/nvim/init.vim
 ln -s ~/dotfiles/colors ~/.config/nvim/colors
 ln -s ~/dotfiles/spell ~/.config/nvim/spell
@@ -70,4 +71,3 @@ else
 fi
 }
 
-install_zsh
