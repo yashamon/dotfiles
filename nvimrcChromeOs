@@ -197,6 +197,7 @@ endif
 "Autocommands
 "
 au FileType Makefile set noexpandtab
+au FileType tex set spell
 " au FileType tex :Goyo
 "
 "
