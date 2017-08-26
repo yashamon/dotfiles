@@ -8,9 +8,9 @@
 Config {
 
    -- appearance
-     font =         "xft:Source Code Pro Light:size=25:bold:antialias=true"
+     font =         "xft:Source Code Pro Regular:size=13:antialias=true"
    , bgColor =      "black"
-   , fgColor =      "#646464"
+   , fgColor =      "white"
    , position =     Top
    , border =       BottomB
    , borderColor =  "#646464"
@@ -18,7 +18,7 @@ Config {
    -- layout
    , sepChar =  "%"   -- delineator between plugin names and straight text
    , alignSep = "}{"  -- separator between left-right alignment
-   , template = "%battery% | %multicpu% | %coretemp% | %memory% | %dynnetwork% }{ %KPIT% | %date% || %kbd% "
+   , template = "%battery% | %multicpu% | %coretemp% | %memory% }{ %KPIT% | %date% || %kbd% "
 
    -- general behavior
    , lowerOnStart =     True    -- send to bottom of window stack on start

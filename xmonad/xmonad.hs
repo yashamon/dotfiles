@@ -5,6 +5,7 @@ import XMonad.Hooks.FadeInactive
 import XMonad.Hooks.ManageDocks
 import XMonad.Actions.FloatKeys
 import XMonad.Layout.NoBorders
+import XMonad.Hooks.ManageHelpers
 import XMonad.Layout.Spacing
 import XMonad.Hooks.UrgencyHook
 import XMonad.Util.EZConfig(additionalKeysP, additionalKeys, removeMouseBindings)
@@ -13,7 +14,7 @@ myWorkspaces = [ "shell", "zathura", "chrome", "media", "shell-misc", "torrent",
                , "mail" ]
 
 -- layoutHook = avoidStruts $ smartBorders (tall ||| Full)
-mylayoutHook = spacing 3 $ avoidStruts $ smartBorders (tall ||| Full)
+mylayoutHook =  avoidStruts $ noBorders (spacing 2 tall ||| Full)
                    where  tall = Tall 1 (3/100) (1/2)
 myManageHook = composeAll
    [ 
@@ -24,6 +25,8 @@ myManageHook = composeAll
    , className =? "Vlc" --> doShift "media"
    , className =? "vlc" --> doShift "media"
    , manageDocks
+   -- , className =? "Vlc" --> doFloat
+   -- , isFullscreen --> doFullFloat
    ]
 myLogHook :: X ()
 myLogHook = fadeInactiveLogHook fadeAmount

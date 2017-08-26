@@ -34,8 +34,8 @@ done
     echo "Moving vifm"
 mkdir ~/bin
 cp ~/dotfiles/bin/vf ~/bin/vf
- 
-
+    echo "Moving xmobarrc" 
+ln -s ~/dotfiles/xmonad/xmobar.hs ~/.xmobarrc
     echo "Moving nvimrc"
 mkdir ~/.config
 mkdir ~/.config/nvim
