@@ -23,7 +23,7 @@ Config {
    -- general behavior
    , lowerOnStart =     True    -- send to bottom of window stack on start
    , hideOnStart =      False   -- start with window unmapped (hidden)
-   , allDesktops =      True    -- show on all desktops
+   , allDesktops =      False    -- show on all desktops
    , overrideRedirect = True    -- set the Override Redirect flag (Xlib)
    , pickBroadest =     False   -- choose widest display (multi-monitor)
    , persistent =       True    -- enable/disable hiding (True = disabled)
@@ -61,7 +61,7 @@ Config {
         , Run MultiCpu       [ "--template" , "Cpu: <total0>%|<total1>%"
                              , "--Low"      , "50"
                              , "--High"     , "85"
-                             , "--low"      , "darkgreen"
+                             , "--low"      , "green"
                              , "--normal"   , "darkorange"
                              , "--high"     , "darkred"
                              ] 10
@@ -70,7 +70,7 @@ Config {
         , Run CoreTemp       [ "--template" , "Temp: <core0>°C|<core1>°C"
                              , "--Low"      , "70"
                              , "--High"     , "80"
-                             , "--low"      , "darkgreen"
+                             , "--low"      , "green"
                              , "--normal"   , "darkorange"
                              , "--high"     , "darkred"
                              ] 50
@@ -79,7 +79,7 @@ Config {
         , Run Memory         [ "--template" ,"Mem: <usedratio>%"
                              , "--Low"      , "20"
                              , "--High"     , "90"
-                             , "--low"      , "darkgreen"
+                             , "--low"      , "green"
                              , "--normal"   , "darkorange"
                              , "--high"     , "darkred"
                              ] 10
@@ -90,7 +90,7 @@ Config {
                              , "--High"     , "80"
                              , "--low"      , "darkred"
                              , "--normal"   , "darkorange"
-                             , "--high"     , "darkgreen"
+                             , "--high"     , "green"
 
                              , "--" -- battery specific options
                                        -- discharging status
