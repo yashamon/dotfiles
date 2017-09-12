@@ -8,7 +8,7 @@
 Config {
 
    -- appearance
-     font =         "xft:Source Code Pro Regular:size=13:antialias=true"
+     font =         "xft:Source Code Pro Regular:size=14:antialias=true"
    , bgColor =      "black"
    , fgColor =      "white"
    , position =     Top
