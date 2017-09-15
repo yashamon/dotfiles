@@ -36,8 +36,8 @@ myFocusedBorderColor = "blue"
 main = xmonad  myConfig
 myConfig = defaultConfig
         { 
-          modMask = mod1Mask -- Use control instead of Alt
-        , terminal = "urxvtc"
+          -- modMask = mod1Mask -- Use control instead of Alt
+         terminal = "urxvtc"
         , manageHook = myManageHook
         , layoutHook = mylayoutHook
         , logHook = myLogHook

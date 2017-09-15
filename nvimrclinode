@@ -660,7 +660,7 @@ map <leader>e :NERDTreeFind<CR>
 let g:vifmLiveCwd=1
 let g:vifmUseCurrent=1
 "Autosave and autocommit
-let g:auto_save = 0
+let g:auto_save = 1
  let g:auto_save_in_insert_mode = 0
  let g:auto_save_silent = 1
 " autocmd BufWritePost * silent execute '! if [ -d .git ] || git rev-parse --git-dir > /dev/null 2>&1 ; then git add % ; git commit -m %; fi'

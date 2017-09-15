@@ -3,36 +3,3 @@ xmonad.hs:37:12: warning: [-Wdeprecations]
     In the use of ‘defaultConfig’
     (imported from XMonad, but defined in XMonad.Config):
     Deprecated: "Use def (from Data.Default, and re-exported by XMonad and XMonad.Config) instead."
-/usr/bin/ld: cannot find -lHSxmonad-contrib-0.13-6UHIJXZaKuVFboVRPuYhVc
-/usr/bin/ld: cannot find -lHSrandom-1.1-9tceXaeYIMZ4JrKq20Egog
-/usr/bin/ld: cannot find -lHSold-time-1.1.0.3-EZzkBJ4NQxX4hHavrKxgaT
-/usr/bin/ld: cannot find -lHSxmonad-0.13-Af7bQx8hsH9GnqpiN7wFIA
-/usr/bin/ld: cannot find -lHSsetlocale-1.0.0.4-JWZDTvXDEj0A24mpOycDUl
-/usr/bin/ld: cannot find -lHSprocess-1.4.3.0
-/usr/bin/ld: cannot find -lHSmtl-2.2.1-BLKBelFsPB3BoFeSWSOYj6
-/usr/bin/ld: cannot find -lHStransformers-0.5.2.0
-/usr/bin/ld: cannot find -lHSextensible-exceptions-0.1.1.4-IyAM3ARTqH7BVZ5oHMMtXH
-/usr/bin/ld: cannot find -lHSdirectory-1.3.0.0
-/usr/bin/ld: cannot find -lHSunix-2.7.2.1
-/usr/bin/ld: cannot find -lHStime-1.6.0.1
-/usr/bin/ld: cannot find -lHSfilepath-1.4.1.1
-/usr/bin/ld: cannot find -lHSX11-xft-0.3.1-9gsq5TJAa1kBpFPKp9H8PH
-/usr/bin/ld: cannot find -lHSutf8-string-1.0.1.1-1DpjxLeTvGg7ttZZojxJR5
-/usr/bin/ld: cannot find -lHSbytestring-0.10.8.1
-/usr/bin/ld: cannot find -lHSX11-1.8-Bxxi20LIDTqDkuL1yl4ckV
-/usr/bin/ld: cannot find -lHSdata-default-0.7.1.1-CyM3k1XLfwb41mPgt03rCT
-/usr/bin/ld: cannot find -lHSdata-default-instances-old-locale-0.0.1-GWOeXPsy1OVFfzERubJA69
-/usr/bin/ld: cannot find -lHSold-locale-1.0.0.7-KGBP1BSKxH5GCm0LnZP04j
-/usr/bin/ld: cannot find -lHSdata-default-instances-dlist-0.0.1-JZbzfpFsLXE57SNfhZeRts
-/usr/bin/ld: cannot find -lHSdlist-0.8.0.2-6Wnps4GD7EFnRucVzXIFD
-/usr/bin/ld: cannot find -lHSdata-default-instances-containers-0.0.1-7wbZULVPSeD7FpjcGQFrJl
-/usr/bin/ld: cannot find -lHScontainers-0.5.7.1
-/usr/bin/ld: cannot find -lHSdeepseq-1.4.2.0
-/usr/bin/ld: cannot find -lHSarray-0.5.1.1
-/usr/bin/ld: cannot find -lHSdata-default-class-0.1.2.0-N42RtcTZUUAlapzICmPz4
-/usr/bin/ld: cannot find -lHSbase-4.9.1.0
-/usr/bin/ld: cannot find -lHSinteger-gmp-1.0.0.1
-/usr/bin/ld: cannot find -lHSghc-prim-0.5.0.0
-/usr/bin/ld: cannot find -lHSrts
-collect2: error: ld returned 1 exit status
-`gcc' failed in phase `Linker'. (Exit code: 1)
