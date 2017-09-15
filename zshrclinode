@@ -109,7 +109,7 @@ alias tmux d="tmux detach"
 alias texi="pdflatex -file-line-error -synctex=1  -interaction=nonstopmode -recorder" 
 alias latexi="latexmk -g -pdf -file-line-error -synctex=1  -interaction=nonstopmode -recorder -f"
 alias pvc="latexmk -pdf -pvc -file-line-error -synctex=1  -interaction=nonstopmode -recorder -f"
-alias push="git add .; git commit -m -a; git push origin master"
+alias push="git add .; git commit -m -a; git push --all"
 alias pushgh="pandoc index.md > index.html ; git add .; git commit -m -a; git push origin gh-pages"
 alias pandocd="pandoc index.md > index.html"
 alias attach="tmux attach -t"
@@ -144,6 +144,22 @@ alias update="git submodule update --init --recursive ; git pull origin master"
 alias chrome="chromium --user-data-dir /root"
 alias xsid="sudo enter-chroot -n sid -X xiwi xinit"
 alias apt="sudo apt-get install"
+alias pull="git pull origin master"
+alias watch="~/dotfiles/gitwatch/gitwatch.sh -r origin -b master ~/workspace"
+alias update="sudo apt-get update ; sudo apt-get upgrade"
+# alias gitwatch
+# alias vim="nvim"
+myfunction() {
+    #do things with parameters like $1 such as
+    git add .
+    git commit -m "$1"
+    git push origin master
+    }
+alias message=myfunction
+alias back="feh --bg-scale /home/yasha/Downloads/backgrounds/jN5a1bi.jpg"
+alias rmtmp="rm -rf /tmp/nvimsocket"
+# alias vim="nvim"
+backup () {  rsync -r --partial --progress --rsh=ssh "$@" root@104.237.136.100:/root/backups/; }
 # export ZSH=$HOME/.oh-my-zsh
 # # Set name of the theme to load.
 # # Look in ~/.oh-my-zsh/themes/
