@@ -1,84 +1,114 @@
 " init.vim
 " call pathogen#infect()  
 call plug#begin('~/.vim/plugged')
-
 " Make sure you use single quotes
-
 " Shorthand notation; fetches https://github.com/junegunn/vim-easy-align
-Plug 'junegunn/vim-easy-align'
+" Plug 'junegunn/vim-easy-align'
 
 " Any valid git URL is allowed
 " Plug 'https://github.com/junegunn/vim-github-dashboard.git'
 
-" Group dependencies, vim-snippets depends on ultisnips
-Plug 'SirVer/ultisnips' 
-" | Plug 'honza/vim-snippets'
+" Group dependencies, vim-snippets depends on ultisnips 
+" Plug 'tpope/vim-surround'
+ Plug 'justinmk/vim-sneak'
+" Plug 'bfredl/nvim-miniyank'
+ Plug 'SirVer/ultisnips' 
+ Plug 'tpope/vim-fugitive'
+ " | Plug 'honza/vim-snippets'
+"
+" " On-demand loading
+ Plug 'junegunn/goyo.vim'
+" " Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
+"
+"
 
-" On-demand loading
-Plug 'junegunn/goyo.vim'
+ Plug 'equalsraf/neovim-gui-shim'
 
-Plug 'scrooloose/nerdtree', { 'on': 'NERDTreeFind' }
+ Plug 'morhetz/gruvbox'
 
-" Plugin outside ~/.vim/plugged with post-update hook
-Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
+ Plug 'vim-pandoc/vim-pandoc'
 
-Plug 'junegunn/fzf.vim'
+ Plug 'vim-pandoc/vim-pandoc-syntax' 
 
-Plug 'Valloric/YouCompleteMe', {'do': './install.py' }
+ Plug 'scrooloose/nerdtree', { 'on': 'NERDTreeFind' }
 
-Plug 'ervandew/supertab'
+ " Plugin outside ~/.vim/plugged with post-update hook
+ Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
 
-Plug 'vim-scripts/tComment'
+ Plug 'junegunn/fzf.vim'
+"
+" " Plug 'Valloric/YouCompleteMe', {'do': './install.py' }
+"
+ Plug 'ervandew/supertab'
 
-Plug 'Shougo/vimproc.vim'
+ Plug 'vim-scripts/tComment'
 
-Plug 'Lokaltog/vim-easymotion'
+ " Plug 'Shougo/vimproc.vim'
+
+" Plug 'Lokaltog/vim-easymotion'
 
 Plug 'mbbill/undotree', { 'on': 'UndotreeToggle' }
+ '}
 
+ Plug 'lifepillar/vim-solarized8'
 
-Plug 'lifepillar/vim-solarized8'
 Plug 'vim-scripts/AutoTag'
 
 Plug 'vim-scripts/vim-auto-save'
-
-Plug 'scrooloose/nerdcommenter'
 
 Plug 'vim-pandoc/vim-pandoc'
 
 Plug 'yashamon/vim-snippets'
 
 Plug 'lervag/vimtex'
-
+" colorschemes
+"
 Plug 'altercation/vim-colors-solarized'
+
+Plug 'reedes/vim-colors-pencil'
+
+Plug 'vim-scripts/oceanlight'
+
+Plug 'gosukiwi/vim-atom-dark'
+
+Plug 'dracula/vim'
+
+Plug 'flazz/vim-colorschemes'
+
+Plug 'NLKNguyen/papercolor-theme'
+
 " Unmanaged plugin (manually installed and updated)
 " Plug '~/my-prototype-plugin'
-
 " Add plugins to &runtimepath
 call plug#end()
-
 syntax on  
-filetype plugin indent on
+" filetype plugin indent on
 "  General Settings  
-  au GUIEnter * set fullscreen
-if has("gui_running")
-  set fuoptions=maxvert,maxhorz
-  au GUIEnter * set fullscreen
-   set foldcolumn=10
-   set formatoptions=ant
-  set wrapmargin=0
-  set nohlsearch
-  " set tags= ~/.tags
-  highlight SignColumn guibg=bg
-      endif    
-if has("autocmd")
-  au BufReadPost * if line("'\"") > 1 && line("'\"") <= line("$") | exe "normal! g'\"" | endif
-endif
+"
+set clipboard+=unnamedplus	" yank to the system register (*) by default
+" TAB setting{
+   set expandtab        "replace <TAB> with spaces
+   set softtabstop=3 
+   set shiftwidth=3  
+" au GUIEnter * set fullscreen
+" if has("gui_running")
+  " set fuoptions=maxvert,maxhorz
+  " au GUIEnter * set fullscreen
+   " set foldcolumn=10
+   " set formatoptions=ant
+" set wrapmargin=0
+" set nohlsearch
+" " set tags= ~/.tags
+" highlight SignColumn guibg=bg
+"       endif    
+" if has("autocmd")
+"   au BufReadPost * if line("'\"") > 1 && line("'\"") <= line("$") | exe "normal! g'\"" | endif
+" endif
   " autocmd BufWinLeave *.* mkview
   " autocmd BufWinEnter *.* silent loadview
    " set foldcolumn=2
 "  highlight foldcolumn ctermfg=256 ctermbg=bg
-autocmd Colorscheme * highlight FoldColumn guifg=black guibg=bg
+" autocmd Colorscheme * highlight FoldColumn guifg=black guibg=bg
 au VIMEnter set spell
  set timeout
    set timeoutlen=0
@@ -93,9 +123,8 @@ au VIMEnter set spell
   au VIMEnter * let g:surround_108 = {
      \'q':  " ``\r''"
      \ }
-let $NVIM_TUI_ENABLE_TRUE_COLOR=1
-let $NVIM_TUI_ENABLE_CURSOR_SHAPE=0
-
+"  let $NVIM_TUI_ENABLE_TRUE_COLOR=1
+"  let $NVIM_TUI_ENABLE_CURSOR_SHAPE=1
 let g:tex_flavor = "latex"
 let g:tex_isk = '@,48-57,58,_,192-255'
 set tags+=~/texmf/bibtex/bib/tags
@@ -103,23 +132,29 @@ set tags+=~/Dropbox/workspace/tags
   " set formatoptions=ant
   " set wrapmargin=1
 set tw=80
+" set shada="NONE"
+set hid
+set foldmethod=expr foldexpr=getline(v:lnum)=~'^\s*'.&commentstring[0]
 set autochdir
 set guioptions-=r 
 set guioptions-=l
-set mouse-=a
-set bs=2		" allow backspacing over everything in insert mode
+set inccommand=split
+set mouse=a
+set bs=2		" allow backspacing over everything in insert mode 
 set undofile                " Save undo's after file closes
-set undodir=~/Dropbox/undo " where to save undo histories
+set undodir=~/workspace/undo " where to save undo histories
 set undolevels=100000         " How many undos
 set undoreload=10000		
 set ruler		" show the cursor position all the time
 set autoread		" auto read when file is changed from outside
 set nohlsearch
+set noswapfile
 set showmatch		" Cursor shows matching ) and }
+set nocursorline
 set showmode		" Show current mode
 set wildchar=<TAB>	" start wild expansion in the command line using <TAB>
 set wildmenu            " wild char completion menu
-" let maplocalleader = "\\"
+let maplocalleader = "\\"
 " ignore these files while expanding wild chars
 set wildignore=*.o,*.class,*.pyc
 
@@ -134,117 +169,56 @@ set smartcase		" ignore case if search pattern is all lowercase,case-sensitive o
 " disable sound on errors
 set noerrorbells
 set novisualbell
-set t_vb=
 set tm=500
 " set macmeta
-let g:yankstack_map_keys = 0
-nmap <leader>p <Plug>yankstack_substitute_older_paste
-  nmap <leader>P <Plug>yankstack_substitute_newer_paste
 " auto reload vimrc when editing it
 autocmd! bufwritepost .vimrc source ~/.vimrc
 syntax on		" syntax highlight
 " set hlsearch		" search highlighting
+"
 if has("gui_running")	" GUI color and font settings
-  set guifont=Source\ Code\ Pro:h18
+  set guifont=Source\ Code\ Pro \Regular:h16
   set background=dark 
-  "set vimroom_background=dark
 "  set cursorline        " highlight current line
- colorscheme solarized8_dark_flat
+  colorscheme solarized8_light_flat 
   highlight CursorLine  guibg=#003853 ctermbg=24  gui=none cterm=none
 else
 " terminal color settings
-  set background=dark
-  set t_Co=256          " 256 color mode
-    " let g:solarized_termcolors=256
-  colorscheme solarized8_dark_flat
+  set background=light
+  " set t_Co=256          " 256 color mode
+   colorscheme solarized8_light_flat
+  " colorscheme gruvbox
+  " highlight Normal ctermbg=none
 highlight clear SpellBad
 highlight SpellBad cterm=underline
 hi MatchParen cterm=underline ctermbg=none ctermfg=magenta
 endif
 
+"Autocommands
+"
+au FileType Makefile set noexpandtab
+au FileType tex set spell
+" au FileType tex :Goyo
+"
+"
 " FUNCTIONS
-" 
 "
+" I haven't found how to hide this function (yet)
+" function! RestoreRegister()
+"   let @" = s:restore_reg
+"   return ''
+" endfunction
 "
+" function! s:Repl()
+"     let s:restore_reg = @"
+"     return "p@=RestoreRegister()\<cr>"
+" endfunction
+"
+" " NB: this supports "rp that replaces the selection by the contents of @r
+" vnoremap <silent> <expr> p <sid>Repl()
 
-function! DelTagOfFile(file)
-  let fullpath = a:file
-  let cwd = getcwd()
-  let tagfilename = cwd . "/tags"
-  let f = substitute(fullpath, cwd . "/", "", "")
-  let f = escape(f, './')
-  let cmd = 'sed -i "/' . f . '/d" "' . tagfilename . '"'
-  let resp = system(cmd)
-endfunction
-
-
-
-function! UpdateTags()
-  let f = expand("%:p")
-  let cwd = getcwd()
-  let tagfilename = cwd . "/tags"
-  let cmd = '/usr/local/bin/ctags -a -f ' . tagfilename . ' --fields=+iaS --extra=+q ' . '"' . f . '"'
-  call DelTagOfFile(f)
-  let resp = system(cmd)
-endfunction
-autocmd BufWritePost * call UpdateTags()
- function! RestoreRegister()
-   let @" = s:restore_reg
-   return ''
- endfunction
-
- function! s:Repl()
-     let s:restore_reg = @"
-     return "p@=RestoreRegister()\<cr>"
- endfunction
-function! RestoreRegister()
-    let @" = s:restore_reg
-    if &clipboard == "unnamed"
-        let @* = s:restore_reg
-    endif
-    return ''
-endfunction
-function! CurDir()
-    let curdir = substitute(getcwd(), $HOME, "~", "")
-    return curdir
-endfunction
-
-function! HasPaste()
-    if &paste
-        return '[PASTE]'
-    else
-        return ''
-    endif
-endfunction
-function Light()
-   set background=light
-   colorscheme solarized8_light_flat
-" highlight  CursorLine cterm=NONE ctermbg=blue ctermfg=white
-" hi MatchParen cterm=underline ctermbg=none ctermfg=magenta
-endfunction
-
-function Dark()
-   set background=dark
-   colorscheme solarized8_dark_flat
-" highlight  CursorLine cterm=NONE ctermbg=250 ctermfg=black
-" highlight clear SpellBad
-" highlight SpellBad cterm=underline
-" hi MatchParen cterm=underline ctermbg=none ctermfg=magenta
-endfunction
-
-function! SearchMultiLine(bang, ...)
-  if a:0 > 0
-    let sep = (a:bang) ? '\_W\+' : '\_s\+'
-    let @/ = join(a:000, sep)
-  endif
-endfunction
-command! -bang -nargs=* -complete=tag S call SearchMultiLine(<bang>0, <f-args>)|normal! /<C-R>/<CR>
-
-inoremap <expr> <CR> pumvisible() ? "\<C-y>" : "\<C-g>u\<CR>"
-" Default Colors for CursorLine
-highlight  CursorLine cterm=NONE ctermbg=grey ctermfg=black
-" Change Color when entering Insert Mode
-"  augroup CursorLine
+" " Change Color when entering
+" Insert Mode augroup CursorLine
 "    au!
 "  if has("gui_running")
 "  else
@@ -252,6 +226,45 @@ highlight  CursorLine cterm=NONE ctermbg=grey ctermfg=black
 "        au InsertLeave * setlocal nocursorline
 "     endif
 "        augroup END
+" function! DelTagOfFile(file)
+"   let fullpath = a:file
+"   let cwd = getcwd()
+"   let tagfilename = cwd . "/tags"
+"   let f = substitute(fullpath, cwd . "/", "", "")
+"   let f = escape(f, './')
+"   let cmd = 'sed -i "/' . f . '/d" "' . tagfilename . '"'
+"   let resp = system(cmd)
+" endfunction
+
+
+function Light()
+   set background=light
+   colorscheme PaperColor
+   " highlight Normal ctermfg=black
+" highlight  CursorLine cterm=NONE ctermbg=black ctermfg=none
+" hi MatchParen cterm=underline ctermbg=none ctermfg=magenta
+endfunction
+function Pencil()
+   set background=light
+   colorscheme pencil
+   " highlight Normal ctermfg=black
+" highlight  CursorLine cterm=NONE ctermbg=black ctermfg=none
+" hi MatchParen cterm=underline ctermbg=none ctermfg=magenta
+endfunction
+
+
+function Dark()
+   set background=dark
+   colorscheme coffee
+" highlight SpellBad cterm=underline
+" hi MatchParen cterm=underline ctermbg=none ctermfg=magenta
+   " highlight Normal guibg=#848484
+   " highlight normal guifg=grey
+endfunction
+
+" inoremap <expr> <CR> pumvisible() ? "\<C-y>" : "\<C-g>u\<CR>"
+" Default Colors for CursorLine_
+highlight  CursorLine cterm=NONE ctermbg=black ctermfg=none
 " autocmd InsertEnter * set cursorline * 
 
 " " Revert Color to default when leaving Insert Mode
@@ -266,28 +279,27 @@ highlight  CursorLine cterm=NONE ctermbg=grey ctermfg=black
 "                autocmd VimLeave * silent !echo -ne "\033]112\007"
 "   "               " use \003]12;gray\007 for gnome-terminal
 "                  endif
-" function! ClipboardYank()
-"      call system('xclip -i -selection clipboard', @@)
-"   endfunction
-"   function! ClipboardPaste()
-"        let @@ = system('xclip -o -selection clipboard')
-"     endfunction
-"
-"     vnoremap <silent> y y:call ClipboardYank()<cr>
-"     vnoremap <silent> d d:call ClipboardYank()<cr>
-"     nnoremap <silent> p :call ClipboardPaste()<cr>p
-set clipboard=unnamedplus	" yank to the system register (*) by default
-
 " TAB setting{
    set expandtab        "replace <TAB> with spaces
    set softtabstop=3 
    set shiftwidth=3 
 
-   au FileType Makefile set noexpandtab
-"}      							
+   "}      							
 
+function! CurDir()
+    let curdir = substitute(getcwd(), $HOME, "~", "")
+    return curdir
+endfunction
+
+function! HasPaste()
+    if &paste
+        return '[PASTE]'
+    else
+        return ''
+    endif
+endfunction
 " status line {
-set laststatus=1
+set laststatus=2
 set statusline=\ %{HasPaste()}%<%-15.25(%f%)%m%r%h\ %w\ \ 
 set statusline+=\ \ \ [%{&ff}/%Y] 
 set statusline+=\ \ \ %<%20.30(%{hostname()}:%{CurDir()}%)\ 
@@ -367,7 +379,6 @@ autocmd FileType html,markdown setlocal omnifunc=htmlcomplete#CompleteTags
 autocmd FileType javascript setlocal omnifunc=javascriptcomplete#CompleteJS
 autocmd FileType python setlocal omnifunc=pythoncomplete#Complete
 autocmd FileType xml setlocal omnifunc=xmlcomplete#CompleteTags
-autocmd FileType tex :Goyo
 autocmd FileType css set omnifunc=csscomplete#CompleteCSS
 autocmd FileType c set omnifunc=ccomplete#Complete
 autocmd FileType java set omnifunc=javacomplete#Complete
@@ -395,22 +406,6 @@ set termencoding=utf-8
 set fileencoding=utf-8
 set fileencodings=ucs-bom,utf-8,big5,gb2312,latin1
 
-fun! ViewUTF8()
-	set encoding=utf-8                                  
-	set termencoding=big5
-endfun
-
-fun! UTF8()
-	set encoding=utf-8                                  
-	set termencoding=big5
-	set fileencoding=utf-8
-	set fileencodings=ucs-bom,big5,utf-8,latin1
-endfun
-
-fun! Big5()
-	set encoding=big5
-	set fileencoding=big5
-endfun
 
 
 "--------------------------------------------------------------------------- 
@@ -442,6 +437,9 @@ hi link EasyMotionShade Comment
    "nmap OB j
    "nmap OC l
    "nmap OD 
+"YankRing
+
+
 
 " --- Command-T
 let g:CommandTMaxHeight = 15
@@ -449,45 +447,69 @@ let g:CommandTMaxHeight = 15
 " --- SuperTab
 let g:SuperTabDefaultCompletionType = "context"
 let g:SuperTabCompletionContexts = ['s:ContextText', 's:ContextDiscover']
-let g:SuperTabContextDiscoverDiscovery = ["&completefunc:<c-x><c-u>", "&omnifunc:<c-x><c-o>"]
+let g:SuperTabContextDiscoverDiscovery= ["&completefunc:<c-x><c-u>", "&omnifunc:<c-x><c-o>"]
   
 "--NerdTree
 let g:NERDTreeMapUpdir="<S-h>"
-" Remaps
+" Remaps 
 " I find default   register behavior uncomfortable 
 inoremap \ /
 inoremap / \
-noremap p "0p
-" vnoremap d "dd
-" noremap D "dD
+noremap p "0p 
+vnoremap p "0p 
+noremap d "dd
+noremap D "dD
 noremap c "_c
 noremap C "_C
-noremap dd "_dd
 noremap s "_x
 noremap x "0x
 noremap X "0D
+" Softwrap 
+nmap D "_dg$
+" nmap V g$vg^
+nmap A g$a
+nnoremap dd g^"_dg$i<backspace><ESC><CR>
+" nmap dd 0dg$
+map 0 g^
+map 9 g$
 
+" map p <Plug>(miniyank-startput)
+" map P <Plug>(miniyank-startPut)
+" nmap p <Plug>(miniyank-autoput)
+" nmap P <Plug>(miniyank-autoPut)
+" vmap p <Plug>(miniyank-autoput)
+" vmap P <Plug>(miniyank-autoPut)
+" map <Leader>n <Plug>(miniyank-cycle)
+vmap q xi<CR><CR><CR><CR><ESC>kkpvip<leader>c
 nnoremap <Left> :bnext<CR>
 nnoremap <Right> :bprevious<CR>
 " tnoremap <Esc> <C-\> 
 nnoremap < :tabp<CR>
 nnoremap > :tabn<CR>
-nnoremap <leader>n :tabedit %<CR>
-imap <A-j> <C-j>
+" nnoremap <leader>n :tabedit %<CR>
 imap <M-j> <C-j>
-map <C-q> <Esc>:q!<CR>
-map <A-q> <C-q>
+map <C-q> <Esc>:q<CR>
+map <M-S-q> <Esc>:q!<CR>
+map <M-q> <C-q>
+map <M-d> <Esc>:bdelete<CR>
 noremap f /
 noremap F ?
+inoremap .<Esc> .<CR><Esc>J
+inoremap .<Space> .<CR><Esc>J
 " noremap S :S 
- map t <leader><leader>f
- map T <leader><leader>F
-noremap 9 $
+  " map t <Plug>(easymotion)
+  " map T <Plug>(easymotion)
+map t <Plug>Sneak_s
+map T <Plug>Sneak_S
+    " xmap t <Plug>Sneak_s
+    " xmap T <Plug>Sneak_S
+    " omap t <Plug>Sneak_s
+    " omap T <Plug>Sneak_S
 noremap $ /\$<CR>hv?\$<CR>l
 noremap # /\$<CR>v?\$<CR>
 noremap @ /)<CR>v?(<CR>
- nmap j gj
- nmap k gk
+ map j gj
+ map k gk
  noremap <Space> .
  noremap <S-Space> ?<Space><enter>
 nmap <S-h> <C-w>h
@@ -497,7 +519,6 @@ noremap <S-k> <C-u>
 noremap <S-j> <C-d>
 nnoremap <leader>j J
 nnoremap <leader>k K
-nnoremap . `
 map ' "
 " nnoremap <Backspace> i<Backspace><Esc> 
 map <leader>c <Leader>__
@@ -523,22 +544,30 @@ noremap <Leader>9 :buffer 9<CR>
 noremap <D-d> <C-d>
 map ;s <Esc>:w<CR>
 noremap <A-d> <C-d>
+noremap <M-d> <C-d>
 noremap <D-u> <C-u>
 noremap <A-u> <C-u>
-
+map <Leader>tt :term CR; ctags -R
+" this mapping Enter key to <C-y> to chose the current highlight item 
+" and close the selection list, same as other IDEs.
+" CONFLICT with some plugins like tpope/Endwise
+inoremap <expr> <CR> pumvisible() ? "\<C-y>" : "\<C-g>u\<CR>"
 nnoremap <silent> <Leader>y :YRGetElem<CR>
 map ' "
 inoremap <D-]> <C-x><C-]>
 inoremap <C-]> <C-x><C-]>
 
 
-" vimtex mappings
+" vimtex settings
 "
 "
 "
-let g:vimtex_view_general_viewer
-         \ = '/Applications/Skim.app/Contents/SharedSupport/displayline'
-let g:vimtex_view_general_options = '-r @line @pdf @tex'
+ let g:vimtex_view_general_viewer
+          \ = '/Applications/Skim.app/Contents/SharedSupport/displayline'
+ let g:vimtex_view_general_options = '-r @line @pdf @tex'
+"let g:latex_view_general_viewer = 'zathura'
+"let g:vimtex_view_method = "zathura"
+let g:vimtex_indent_enabled =0
 let g:vimtex_latexmk_callback_hooks = ['UpdateSkim']
    function! UpdateSkim(status)
      if !a:status | return | endif
@@ -558,11 +587,27 @@ let g:vimtex_latexmk_callback_hooks = ['UpdateSkim']
      endif
    endfunction
 let g:vimtex_latexmk_build_dir = './build'
+
+    let g:vimtex_compiler_latexmk = {
+    \ 'background' : 0,
+    \ 'build_dir' : './build',
+    \ 'callback' : 1,
+    \ 'continuous' : 1,
+    \ 'options' : [
+    \   '-pdf',
+    \   '-verbose',
+    \   '-file-line-error',
+    \   '-synctex=1',
+    \   '-interaction=nonstopmode',
+    \ ],
+    \}
 let g:vimtex_latexmk_progname = 'nvr'
+nmap  <leader>v <Esc>:w<CR>:VimtexView<CR>
 let g:vimtex_quickfix_mode = 0
-nmap  <leader>v  <Esc>:VimtexView<CR>
-nmap <leader>l <Esc>:VimtexCompileToggle<CR>
+let g:vimtex_fold_enabled =0
+nmap <leader>l <Esc>:VimtexCompile<CR>
 nmap <leader>s <Esc>:VimtexErrors<CR>
+nmap <leader>x <Esc>:VimtexErrors<CR>
 
 "Neovim mappings
 :tnoremap <S-h> <C-\><C-n><C-w>h
@@ -574,28 +619,26 @@ tnoremap <Right> :tbprevious<CR>
 tnoremap <Leader>e <C-\><C-n> 
 " imap <Backspace> \
 
-
 " NB: this supports "rp that replaces the selection by the contents of @r
-vnoremap <silent> <expr> p <sid>Repl()
-
-
 " Auto updating Ctags
 " autocmd VimLeave * exe ":silent ! /usr/local/bin/ctags -R"
 map :tags  exe ":silent ! /usr/local/bin/ctags -R"
 
 "Nerd Tree
- map <leader>e :NERDTreeFind<CR>
+map <leader>e :NERDTreeFind<CR>
 " map <C-e> :NERDTreeToggle<CR>:NERDTreeMirror<CR>
 "
-" 
 "
-"Vifm 
+"
+"Vifm
 let g:vifmLiveCwd=1
 let g:vifmUseCurrent=1
-"Autosave
+"Autosave and autocommit
 let g:auto_save = 1
-let g:auto_save_in_insert_mode = 0
-let g:auto_save_silent = 1
+ let g:auto_save_in_insert_mode = 1
+ let g:auto_save_silent = 1
+" autocmd BufWritePost * silent execute '! if [ -d .git ] || git rev-parse --git-dir > /dev/null 2>&1 ; then git add % ; git commit -m %; fi'
+
 "Highlight
 hi MatchParen cterm=underline ctermbg=none ctermfg=none
 hi MatchParen guibg=NONE guifg=green gui=NONE
@@ -632,28 +675,27 @@ let g:ycm_key_invoke_completion = '<C-n>'
  let g:ycm_key_list_previous_completion = ['<C-p>', '<Up>']
  let g:SuperTabDefaultCompletionType = '<C-n>'
 let g:UltiSnipsJumpForwardTrigger="<D-j>"
-let g:UltiSnipsJumpForwardTrigger="<A-j>" 
+let g:UltiSnipsJumpForwardTrigger="<M-j>" 
 let g:UltiSnipsJumpForwardTrigger="<C-j>"
 let g:UltiSnipsListSnippets="<D-e>"
 let g:UltiSnipsListSnippets="<C-e>"
-" this mapping Enter key to <C-y> to chose the current highlight item 
-" and close the selection list, same as other IDEs.
-" CONFLICT with some plugins like tpope/Endwise
-inoremap <expr> <CR> pumvisible() ? "\<C-y>" : "\<C-g>u\<CR>"
-   " set tags+=/usr/local/texlive/texmf-local/bibtex/bib/local/tags
-   "let g:ycm_key_invoke_completion = '<D-5>'
-   " Latex shortcuts
+let g:sneak#s_next = 1
+ let g:sneak#label = 1
 
-    
+   " Latex shortcuts
    "Latex compile. 
    "them to an external terminal and run there.
 " map <Leader>l :tabe %<CR><Esc>:term ; latexmk -pvc -pdf -file-line-error -synctex=1 -interaction=nonstopmode -recorder %<CR><leader>e
-map <Leader>tt :term ; ctags -R
-"
-
-"
+"Zathura forward search
+" map <Leader>v <Esc>:silent !zathura --synctex-forward <Ctrl+R>=line('.'):1:%:p %:p:h/build/%:r.pdf<CR><CR>
 "source ~/.anyname  
+au filetype tex filetype indent off
 
+"       GUI Stuff   
+command -nargs=? Guifont call rpcnotify(0, 'Gui', 'SetFont', "\<args\>") | let g:Guifont="<args>"
+let g:Guifont="Source Code Pro Light:h16"
 
+" Deoplete
 
+" let g:deoplete#enable_at_startup = 1
 

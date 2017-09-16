@@ -13,3 +13,6 @@
 [submodule "gitwatch"]
 	path = gitwatch
 	url = https://github.com/gitwatch/gitwatch.git
+[submodule "vim-plug2"]
+	path = vim-plug2
+	url = https://github.com/junegunn/vim-plug.git
