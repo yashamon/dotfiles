@@ -16,3 +16,6 @@
 [submodule "vim-plug2"]
 	path = vim-plug2
 	url = https://github.com/junegunn/vim-plug.git
+[submodule "PDFViewer"]
+	path = PDFViewer
+	url = https://github.com/larki/PDFViewer.git
