@@ -236,7 +236,9 @@ au FileType tex set spell
 "   let resp = system(cmd)
 " endfunction
 
-
+function Gitview()
+   cd /root/web2 ; git add . ; git commit -m -a ; git push origin gh-pages
+endfunction
 function Light()
    set background=light
    colorscheme PaperColor
@@ -678,7 +680,7 @@ let g:UltiSnipsJumpForwardTrigger="<D-j>"
 let g:UltiSnipsJumpForwardTrigger="<M-j>" 
 let g:UltiSnipsJumpForwardTrigger="<C-j>"
 let g:UltiSnipsListSnippets="<D-e>"
-let g:UltiSnipsListSnippets="<C-e>"
+let g:UltiSnipsListSnippets="<-e>"
 let g:sneak#s_next = 1
  let g:sneak#label = 1
 
@@ -697,5 +699,10 @@ let g:Guifont="Source Code Pro Light:h16"
 
 " Deoplete
 
+map <silent> <leader>g :silent execute "!(cd /root/web2 ; git add . ; git commit -m -a ; git push origin gh-pages) > /dev/null"<CR>
+
+" map <silent> <leader>g :silent !cd /root/web2<CR>:silent !git add .<CR>:silent !git commit -m -a<CR>:silent !git push origin gh-pages<CR>
 " let g:deoplete#enable_at_startup = 1
 
+" map <silent> <leader>g :silent call Gitview()
+" map <silent> <leader>g :silent !cd /root/web2 ; git add .<CR>:silent git commit -m -a ; silent !git push origin gh-pages<CR>
