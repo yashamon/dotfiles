@@ -139,7 +139,6 @@ set foldmethod=expr foldexpr=getline(v:lnum)=~'^\s*'.&commentstring[0]
 set autochdir
 set guioptions-=r 
 set guioptions-=l
-set inccommand=split
 set mouse=a
 set bs=2		" allow backspacing over everything in insert mode 
 set undofile                " Save undo's after file closes
@@ -622,7 +621,7 @@ nmap <leader>x <Esc>:VimtexErrors<CR>
 " tnoremap <Right> :tbprevious<CR>
 " tnoremap <Leader>e <C-\><C-n> 
 " imap <Backspace> \
-
+"set inccommand=split
 " NB: this supports "rp that replaces the selection by the contents of @r
 " Auto updating Ctags
 " autocmd VimLeave * exe ":silent ! /usr/local/bin/ctags -R"
