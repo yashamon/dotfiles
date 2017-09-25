@@ -109,7 +109,7 @@ alias tmux d="tmux detach"
 alias texi="pdflatex -file-line-error -synctex=1  -interaction=nonstopmode -recorder" 
 alias latexi="latexmk -g -pdf -file-line-error -synctex=1  -interaction=nonstopmode -recorder -f"
 alias pvc="latexmk -pdf -pvc -file-line-error -synctex=1  -interaction=nonstopmode -recorder -f"
-alias push="git add .; git commit -m -a; git push origin master"
+alias push="sudo git add .; sudo git commit -m -a; sudo git push origin master"
 alias pushgh="pandoc index.md > index.html ; git add .; git commit -m -a; git push origin gh-pages"
 alias pandocd="pandoc index.md > index.html"
 alias attach="tmux attach -t"
@@ -246,5 +246,7 @@ alias message=myfunction
 # # alias zshconfig="mate ~/.zshrc"
 # # alias ohmyzsh="mate ~/.oh-my-zsh"
 
+alias sudo='sudo '
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+alias chmodWork sudo chmod -R ~/workspacemodules
