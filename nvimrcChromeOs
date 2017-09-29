@@ -140,7 +140,7 @@ set autochdir
 set guioptions-=r 
 set guioptions-=l
 set inccommand=split
-set mouse=a
+set mouse=
 set bs=2		" allow backspacing over everything in insert mode 
 set undofile                " Save undo's after file closes
 set undodir=~/workspace/undo " where to save undo histories
