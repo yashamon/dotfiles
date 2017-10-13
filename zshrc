@@ -252,3 +252,4 @@ alias sudo='sudo '
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 alias chmodWork sudo chmod -R ~/workspacemodules
+
