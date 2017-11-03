@@ -511,7 +511,7 @@ map T <Plug>Sneak_S
     " omap T <Plug>Sneak_S
 noremap $ /\$<CR>hv?\$<CR>l
 noremap # /\$<CR>v?\$<CR>
-noremap @ /)<CR>v?(<CR>
+noremap @ /}<CR>v?{<CR>
  map j gj
  map k gk
  noremap <Space> .
