@@ -459,8 +459,8 @@ let g:SuperTabContextDiscoverDiscovery= ["&completefunc:<c-x><c-u>", "&omnifunc:
   
 "--NerdTree
 let g:NERDTreeMapUpdir="<S-h>"
-" Remaps 
-" I find default   register behavior uncomfortable 
+" General mappings
+" register 
 inoremap \ /
 inoremap / \
 noremap p "0p 
@@ -502,9 +502,8 @@ map <M-q> <C-q>
 map <M-d> <Esc>:bdelete<CR>
 noremap f /
 noremap F ?
-inoremap .<Esc> .<CR><Esc>J
-inoremap .<Space> .<CR><Esc>J
-imap <CR> <Esc><CR>
+" inoremap .<Esc> .<CR><Esc><leader>j
+" inoremap .<Space> .<CR><Esc><leader>j
 " noremap S :S 
   " map t <Plug>(easymotion)
   " map T <Plug>(easymotion)
@@ -567,6 +566,35 @@ inoremap <D-]> <C-x><C-]>
 inoremap <C-]> <C-x><C-]>
 
 
+" text editting mappings
+
+
+au FileType tex,text,md inoremap <A-i> <CR>
+au FileType tex,text,md nnoremap <A-i> i<CR>
+au FileType tex,text,md inoremap <CR> <Esc><CR>i
+au FileType tex,text,md inoremap . .<CR>
+
+
+"Neovim mappings
+:tnoremap <S-h> <C-\><C-n><C-w>h
+:tnoremap <S-j> <C-\><C-n><C-w>j
+:tnoremap <S-k> <C-\><C-n><C-w>k
+:tnoremap <S-l> <C-\><C-n><C-w>l
+tnoremap <Left> :tbnext<CR>
+tnoremap <Right> :tbprevious<CR>
+tnoremap <Leader>e <C-\><C-n> 
+" imap <Backspace> \
+
+
+" FZF
+"
+"
+
+noremap <C-t> <Esc>:FZF ~/Dropbox/workspace<CR>
+noremap <A-t> <Esc>:FZF ~/Dropbox/workspace<CR>
+noremap S <Esc>:BLines<CR>
+map <A-e> :FZF ~<CR>
+
 " vimtex settings
 "
 "
@@ -618,16 +646,6 @@ nmap <leader>l <Esc>:VimtexCompile<CR>
 nmap <leader>s <Esc>:VimtexErrors<CR><Goyo><Goyo>
 nmap <leader>x <Esc>:VimtexErrors<CR>
 
-"Neovim mappings
-:tnoremap <S-h> <C-\><C-n><C-w>h
-:tnoremap <S-j> <C-\><C-n><C-w>j
-:tnoremap <S-k> <C-\><C-n><C-w>k
-:tnoremap <S-l> <C-\><C-n><C-w>l
-tnoremap <Left> :tbnext<CR>
-tnoremap <Right> :tbprevious<CR>
-tnoremap <Leader>e <C-\><C-n> 
-" imap <Backspace> \
-
 " NB: this supports "rp that replaces the selection by the contents of @r
 " Auto updating Ctags
 " autocmd VimLeave * exe ":silent ! /usr/local/bin/ctags -R"
@@ -665,14 +683,6 @@ hi MatchParen guibg=NONE guifg=green gui=NONE
 nnoremap <C-e> :let g:ctrlp_match_window =
          \ 'bottom,order:btt,min:1,max:1000,results:1000'<CR>:CtrlPTag<CR>
 
-" FZF
-"
-"
-
-noremap <C-t> <Esc>:FZF ~/Dropbox/workspace<CR>
-noremap <A-t> <Esc>:FZF ~/Dropbox/workspace<CR>
-noremap S <Esc>:BLines<CR>
-map <A-e> :FZF ~<CR>
 
 
 " YouCompleteMe  usage is tied to Supertab, this is a little weird but 
@@ -707,10 +717,6 @@ let g:Guifont="Source Code Pro Light:h16"
 
 map <silent> <leader>g :silent execute "!(cd /root/web2 ; git add . ; git commit -m -a ; git push origin gh-pages) > /dev/null"<CR>
 
-au FileType tex,text,md inoremap <A-i> <CR>
-au FileType tex,text,md nnoremap <A-i> i<CR>
-au FileType tex,text,md inoremap <CR> <Esc><CR>i
-
 
 " map <silent> <leader>g :silent !cd /root/web2<CR>:silent !git add .<CR>:silent !git commit -m -a<CR>:silent !git push origin gh-pages<CR>
 " let g:deoplete#enable_at_startup = 1
@@ -719,4 +725,3 @@ au FileType tex,text,md inoremap <CR> <Esc><CR>i
 " This is how I use PDFViewer with Neovim and LaTexBox. 
 "
 "Load some useful plugins with vundle
-
