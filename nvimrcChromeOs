@@ -132,8 +132,13 @@ set tags+=~/texmf/bibtex/bib/tags
 set tags+=~/Dropbox/workspace/tags
   " set formatoptions=ant
   " set wrapmargin=1
-set tw=80
+" set tw=80
 " set shada="NONE"
+set wrap
+set linebreak
+set nolist  " list disables linebreak
+set textwidth=0
+set wrapmargin=0
 set hid
 set foldmethod=expr foldexpr=getline(v:lnum)=~'^\s*'.&commentstring[0]
 set autochdir
