@@ -702,9 +702,10 @@ let g:Guifont="Source Code Pro Light:h16"
 
 map <silent> <leader>g :silent execute "!(cd /root/web2 ; git add . ; git commit -m -a ; git push origin gh-pages) > /dev/null"<CR>
 
-"  au FileType tex inoremap <C-i> <CR>
-"  au FileType tex nnoremap <C-i> i<CR>
-"  au FileType tex inoremap <CR> <Esc><CR>
+au FileType tex,text,md inoremap <A-i> <CR>
+au FileType tex,text,md nnoremap <A-i> i<CR>
+au FileType tex,text,md inoremap <CR> <Esc><CR>i
+
 
 " map <silent> <leader>g :silent !cd /root/web2<CR>:silent !git add .<CR>:silent !git commit -m -a<CR>:silent !git push origin gh-pages<CR>
 " let g:deoplete#enable_at_startup = 1
