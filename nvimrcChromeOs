@@ -572,7 +572,7 @@ inoremap <C-]> <C-x><C-]>
 au FileType tex,text,md inoremap <A-i> <CR>
 au FileType tex,text,md nnoremap <A-i> i<CR>
 au FileType tex,text,md inoremap <CR> <Esc><CR>i
-au FileType tex,text,md inoremap . .<CR>
+au FileType tex,text,md inoremap . .<CR><Esc>Ji
 
 
 "Neovim mappings
