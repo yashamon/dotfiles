@@ -11,10 +11,15 @@ call plug#begin('~/.vim/plugged')
 " Group dependencies, vim-snippets depends on ultisnips 
 " Plug 'tpope/vim-surround'
 Plug 'neovim/node-host'
-Plug 'justinmk/vim-sneak'
+" Plug 'justinmk/vim-sneak'
 " Plug 'bfredl/nvim-miniyank'
 Plug 'SirVer/ultisnips' 
 Plug 'tpope/vim-fugitive'
+Plug 'eugen0329/vim-esearch'
+Plug 'haya14busa/incsearch.vim'
+Plug 'haya14busa/incsearch-fuzzy.vim'
+
+
 "  | Plug 'honza/vim-snippets'
 
 " " On-demand loading
@@ -46,7 +51,7 @@ Plug 'tpope/vim-fugitive'
 
  " Plug 'Shougo/vimproc.vim'
 
-" Plug 'Lokaltog/vim-easymotion'
+ Plug 'Lokaltog/vim-easymotion'
 
 Plug 'mbbill/undotree', { 'on': 'UndotreeToggle' }
  '}
@@ -178,7 +183,7 @@ set novisualbell
 set tm=500
 " set macmeta
 " auto reload vimrc when editing it
-autocmd! bufwritepost .vimrc source ~/.vimrc
+" autocmd! bufwritepost ~/.config/nvim/init.vim source ~/.config/nvim/init.vim
 syntax on		" syntax highlight
 " set hlsearch		" search highlighting
 "
@@ -505,10 +510,10 @@ noremap F ?
 " inoremap .<Esc> .<CR><Esc><leader>j
 " inoremap .<Space> .<CR><Esc><leader>j
 " noremap S :S 
-  " map t <Plug>(easymotion)
-  " map T <Plug>(easymotion)
-map t <Plug>Sneak_s
-map T <Plug>Sneak_S
+  map t <Plug>(easymotion)
+  map T <Plug>(easymotion)
+" map t <Plug>Sneak_s
+" map T <Plug>Sneak_S
     " xmap t <Plug>Sneak_s
     " xmap T <Plug>Sneak_S
     " omap t <Plug>Sneak_s
@@ -717,7 +722,22 @@ let g:Guifont="Source Code Pro Light:h16"
 
 map <silent> <leader>g :silent execute "!(cd /root/web2 ; git add . ; git commit -m -a ; git push origin gh-pages) > /dev/null"<CR>
 
+" fuzzy search
+" function! s:config_fuzzyall(...) abort
+"   return extend(copy({
+"   \   'converters': [
+"   \     incsearch#config#fuzzy#converter(),
+"   \     incsearch#config#fuzzyspell#converter()
+"   \   ],
+"   \ }), get(a:, 1, {}))
+" endfunction
 
+" noremap <silent><expr> f incsearch#go(<SID>config_fuzzyall())
+" noremap <silent><expr> F  incsearch#go(<SID>config_fuzzyall({'command': '?'}))
+" noremap <silent><expr> gF incsearch#go(<SID>config_fuzzyall({'is_stay': 1}))
+map f <Plug>(incsearch-fuzzyspell-/)
+map F <Plug>(incsearch-fuzzyspell-?)
+map gF <Plug>(incsearch-fuzzyspell-stay)
 " map <silent> <leader>g :silent !cd /root/web2<CR>:silent !git add .<CR>:silent !git commit -m -a<CR>:silent !git push origin gh-pages<CR>
 " let g:deoplete#enable_at_startup = 1
 " map <silent> <leader>g :silent call Gitview()
@@ -725,3 +745,6 @@ map <silent> <leader>g :silent execute "!(cd /root/web2 ; git add . ; git commit
 " This is how I use PDFViewer with Neovim and LaTexBox. 
 "
 "Load some useful plugins with vundle
+"
+"
+
