@@ -160,7 +160,7 @@ else
 " terminal color settings
   set background=dark
   " set t_Co=256          " 256 color mode
-  colorscheme solarized8_dark_flat 
+  colorscheme ir_black
   " highlight Normal ctermbg=none
 highlight clear SpellBad
 highlight SpellBad cterm=underline

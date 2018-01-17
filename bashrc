@@ -100,3 +100,4 @@ fi
 
 
 [ -f ~/.fzf.bash ] && source ~/.fzf.bash
+export DISPLAY=:0.0

@@ -19,3 +19,6 @@
 [submodule "PDFViewer"]
 	path = PDFViewer
 	url = https://github.com/larki/PDFViewer.git
+[submodule "neovim-qt"]
+	path = neovim-qt
+	url = https://github.com/equalsraf/neovim-qt.git
