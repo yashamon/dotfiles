@@ -51,7 +51,7 @@ Plug 'haya14busa/incsearch-fuzzy.vim'
 
  " Plug 'Shougo/vimproc.vim'
 
- Plug 'Lokaltog/vim-easymotion'
+Plug 'Lokaltog/vim-easymotion'
 
 Plug 'mbbill/undotree', { 'on': 'UndotreeToggle' }
  '}
@@ -510,8 +510,8 @@ noremap F ?
 " inoremap .<Esc> .<CR><Esc><leader>j
 " inoremap .<Space> .<CR><Esc><leader>j
 " noremap S :S 
-  map t <Plug>(easymotion)
-  map T <Plug>(easymotion)
+  map t <leader><leader>f
+  map T <leader><leader>F
 " map t <Plug>Sneak_s
 " map T <Plug>Sneak_S
     " xmap t <Plug>Sneak_s
@@ -731,13 +731,12 @@ map <silent> <leader>g :silent execute "!(cd /root/web2 ; git add . ; git commit
 "   \   ],
 "   \ }), get(a:, 1, {}))
 " endfunction
-
 " noremap <silent><expr> f incsearch#go(<SID>config_fuzzyall())
 " noremap <silent><expr> F  incsearch#go(<SID>config_fuzzyall({'command': '?'}))
 " noremap <silent><expr> gF incsearch#go(<SID>config_fuzzyall({'is_stay': 1}))
-map f <Plug>(incsearch-fuzzyspell-/)
-map F <Plug>(incsearch-fuzzyspell-?)
-map gF <Plug>(incsearch-fuzzyspell-stay)
+" map f <Plug>(incsearch-fuzzyspell-/)
+" map F <Plug>(incsearch-fuzzyspell-?)
+" map gF <Plug>(incsearch-fuzzyspell-stay)
 " map <silent> <leader>g :silent !cd /root/web2<CR>:silent !git add .<CR>:silent !git commit -m -a<CR>:silent !git push origin gh-pages<CR>
 " let g:deoplete#enable_at_startup = 1
 " map <silent> <leader>g :silent call Gitview()
