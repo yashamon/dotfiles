@@ -253,3 +253,4 @@ alias sudo='sudo '
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 alias chmodWork sudo chmod -R ~/workspacemodules
 
+export DISPLAY=:0.0
