@@ -110,7 +110,7 @@ alias texi="pdflatex -file-line-error -synctex=1  -interaction=nonstopmode -reco
 alias latexi="latexmk -g -pdf -file-line-error -synctex=1  -interaction=nonstopmode -recorder -f"
 alias pvc="latexmk -pdf -pvc -file-line-error -synctex=1  -interaction=nonstopmode -recorder -f"
 alias pushmod="git submodule foreach git add .; git submodule foreach git commit -m -a; 
-sudo git submodule foreach git push origin master; git add .; git commit -m -a; sudo git push origin master"
+git submodule foreach git push origin master; git add .; git commit -m -a; git push origin master"
 alias push="git add .; git commit -m -a; git push origin master"
 alias pushgh="pandoc index.md > index.html ; git add .; git commit -m -a; git push origin gh-pages"
 alias pandocd="pandoc index.md > index.html"
