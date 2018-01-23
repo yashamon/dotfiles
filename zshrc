@@ -111,7 +111,7 @@ alias latexi="latexmk -g -pdf -file-line-error -synctex=1  -interaction=nonstopm
 alias pvc="latexmk -pdf -pvc -file-line-error -synctex=1  -interaction=nonstopmode -recorder -f"
 alias pushmod="git submodule foreach git add .; git submodule foreach git commit -m -a; 
 sudo git submodule foreach git push origin master; git add .; git commit -m -a; sudo git push origin master"
-alias push="sudo git add .; sudo git commit -m -a; sudo git push origin master"
+alias push="git add .; git commit -m -a; git push origin master"
 alias pushgh="pandoc index.md > index.html ; git add .; git commit -m -a; git push origin gh-pages"
 alias pandocd="pandoc index.md > index.html"
 alias attach="tmux attach -t"
@@ -137,7 +137,7 @@ alias src="source ~/.zshrc"
 alias mux="tmux -f ~/.tmux-conf"
 alias bib="j bib ; vi link.bib"
 alias suya="su yasha; a"
-alias vis="NVIM_LISTEN_ADDRESS=/tmp/tempsocket nvim" 
+alias vis="NVIM_LISTEN_ADDRESS=/tmp/nvimsocket nvim" 
 # alias go= pslatex document.tex; dvips document.dvi; ps2pdf document.ps
 alias suru="su root; a"
 alias rec="recoll -q"

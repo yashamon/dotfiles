@@ -39,8 +39,7 @@ Plug 'haya14busa/incsearch-fuzzy.vim'
  Plug 'scrooloose/nerdtree', { 'on': 'NERDTreeFind' }
 
  " Plugin outside ~/.vim/plugged with post-update hook
- Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
-
+ Plug 'junegunn/fzf', { 'do': './install --all' }
  Plug 'junegunn/fzf.vim'
 "
 " " Plug 'Valloric/YouCompleteMe', {'do': './install.py' }
@@ -597,7 +596,7 @@ tnoremap <Leader>e <C-\><C-n>
 
 noremap <C-t> <Esc>:FZF ~/Dropbox/workspace<CR>
 noremap <A-t> <Esc>:FZF ~/Dropbox/workspace<CR>
-noremap S <Esc>:BLines<CR>
+" noremap S <Esc>:BLines<CR>
 map <A-e> :FZF ~<CR>
 
 " vimtex settings

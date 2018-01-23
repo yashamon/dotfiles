@@ -1,5 +1,19 @@
 # You can edit this file by hand, but it's recommended not to do that.
 
+# Marks:
+
 # Bookmarks:
 
 # Trash content:
+t/home/yasha/.vifm/Trash/001_.private
+	/home/yasha/.private
+t/home/yasha/.vifm/Trash/001_.scrotwm.conf
+	/home/yasha/.scrotwm.conf
+t/home/yasha/.vifm/Trash/000_.vimrc
+	/home/yasha/.vimrc
+t/home/yasha/.vifm/Trash/000_plug.vim
+	/home/yasha/.config/nvim/autoload/plug.vim
+t/home/yasha/.vifm/Trash/000_init.vim
+	/home/yasha/.config/nvim/init.vim
+t/home/yasha/.vifm/Trash/000_conformalsymplectic21.toc
+	/home/yasha/conformalsymplectic/conformalsymplectic21.toc
