@@ -95,6 +95,7 @@ set clipboard+=unnamedplus	" yank to the system register (*) by default
    set expandtab        "replace <TAB> with spaces
    set softtabstop=3 
    set shiftwidth=3  
+set termguicolors
 " au GUIEnter * set fullscreen
 " if has("gui_running")
   " set fuoptions=maxvert,maxhorz
@@ -128,8 +129,6 @@ au VIMEnter set spell
   au VIMEnter * let g:surround_108 = {
      \'q':  " ``\r''"
      \ }
-"  let $NVIM_TUI_ENABLE_TRUE_COLOR=1
-"  let $NVIM_TUI_ENABLE_CURSOR_SHAPE=1
 let g:tex_flavor = "latex"
 let g:tex_isk = '@,48-57,58,_,192-255'
 set tags+=~/texmf/bibtex/bib/tags
@@ -196,7 +195,7 @@ else
 " terminal color settings
   set background=light
   " set t_Co=256          " 256 color mode
-   colorscheme solarized8_light_flat
+   colorscheme PaperColor
   " colorscheme gruvbox
   " highlight Normal ctermbg=none
 highlight clear SpellBad

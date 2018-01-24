@@ -254,3 +254,5 @@ alias sudo='sudo '
 alias chmodWork sudo chmod -R ~/workspacemodules
 
 export DISPLAY=:0.0
+alias wq='wmctrl -r 'Alacritty' -b toggle,fullscreen'
+
