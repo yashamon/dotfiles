@@ -1,7 +1,6 @@
 " init.vim
 " call pathogen#infect()  
 call plug#begin('~/.vim/plugged')
-
 " Make sure you use single quotes
 " Shorthand notation; fetches https://github.com/junegunn/vim-easy-align
 " Plug 'junegunn/vim-easy-align'
@@ -11,85 +10,80 @@ call plug#begin('~/.vim/plugged')
 
 " Group dependencies, vim-snippets depends on ultisnips 
 " Plug 'tpope/vim-surround'
-"
-
-Plug 'LaTeX-Box-Team/LaTeX-Box' "required!
-Plug 'vim-airline/vim-airline'
-
- Plug 'justinmk/vim-sneak'
+Plug 'neovim/node-host'
+" Plug 'justinmk/vim-sneak'
 " Plug 'bfredl/nvim-miniyank'
-"  Plug 'SirVer/ultisnips' 
-Plug 'Shougo/neosnippet.vim'
-" Plug 'Shougo/deoplete.nvim'
-Plug 'Shougo/neosnippet-snippets'
+Plug 'SirVer/ultisnips' 
 Plug 'tpope/vim-fugitive'
-" Plug 'honza/vim-snippets'
-" "
-" " " On-demand loading
+Plug 'eugen0329/vim-esearch'
+Plug 'haya14busa/incsearch.vim'
+Plug 'haya14busa/incsearch-fuzzy.vim'
+
+
+"  | Plug 'honza/vim-snippets'
+
+" " On-demand loading
  Plug 'junegunn/goyo.vim'
-" " " Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
-" "
-" "
-" "
-" " " Plug 'equalsraf/neovim-gui-shim'
-" "
-  Plug 'morhetz/gruvbox'
-
-  Plug 'vim-pandoc/vim-pandoc'
-
-  Plug 'vim-pandoc/vim-pandoc-syntax' 
-
-  Plug 'scrooloose/nerdtree', { 'on': 'NERDTreeFind' }
-
-  " Plugin outside ~/.vim/plugged with post-update hook
-  Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
-
-  Plug 'junegunn/fzf.vim'
-
-  " Plug 'Valloric/YouCompleteMe', {'do': './install.py' }
-
-  " Plug 'ervandew/supertab'
-
-  Plug 'vim-scripts/tComment'
-
-"  Plug 'Shougo/vimproc.vim'
+" " Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
 "
-"  Plug 'Lokaltog/vim-easymotion'
 "
-  Plug 'mbbill/undotree', { 'on': 'UndotreeToggle' } 
+
+ Plug 'equalsraf/neovim-gui-shim'
+
+ Plug 'morhetz/gruvbox'
+
+ Plug 'vim-pandoc/vim-pandoc'
+
+ Plug 'vim-pandoc/vim-pandoc-syntax' 
+
+ Plug 'scrooloose/nerdtree', { 'on': 'NERDTreeFind' }
+
+ " Plugin outside ~/.vim/plugged with post-update hook
+ Plug 'junegunn/fzf', { 'do': './install --all' }
+ Plug 'junegunn/fzf.vim'
 "
-"  " Plug 'lifepillar/vim-solarized8'
+" " Plug 'Valloric/YouCompleteMe', {'do': './install.py' }
 "
-  Plug 'vim-scripts/AutoTag'
+ Plug 'ervandew/supertab'
+
+ Plug 'vim-scripts/tComment'
+
+ " Plug 'Shougo/vimproc.vim'
+
+Plug 'Lokaltog/vim-easymotion'
+
+Plug 'mbbill/undotree', { 'on': 'UndotreeToggle' }
+ '}
+
+ Plug 'lifepillar/vim-solarized8'
+
+Plug 'vim-scripts/AutoTag'
+
+Plug 'vim-scripts/vim-auto-save'
+
+Plug 'vim-pandoc/vim-pandoc'
+
+Plug 'yashamon/vim-snippets'
+
+Plug 'lervag/vimtex'
+" colorschemes
 "
-  Plug 'vim-scripts/vim-auto-save'
+Plug 'altercation/vim-colors-solarized'
 
-" Plug 'scrooloose/nerdcommenter'
+Plug 'reedes/vim-colors-pencil'
 
-  Plug 'vim-pandoc/vim-pandoc'
+Plug 'vim-scripts/oceanlight'
 
-  Plug 'yashamon/vim-snippets'
+Plug 'gosukiwi/vim-atom-dark'
 
-"  Plug 'lervag/vimtex'
-" " colorschemes
-" " "
-"  Plug 'altercation/vim-colors-solarized'
-"
-  Plug 'reedes/vim-colors-pencil'
+Plug 'dracula/vim'
 
-  Plug 'vim-scripts/oceanlight'
+Plug 'flazz/vim-colorschemes'
 
-  Plug 'gosukiwi/vim-atom-dark'
-
-  Plug 'dracula/vim'
-"
-  Plug 'flazz/vim-colorschemes'
-"
-  Plug 'NLKNguyen/papercolor-theme'
+Plug 'NLKNguyen/papercolor-theme'
 
 " Unmanaged plugin (manually installed and updated)
 " Plug '~/my-prototype-plugin'
-
 " Add plugins to &runtimepath
 call plug#end()
 syntax on  
@@ -101,7 +95,7 @@ set clipboard+=unnamedplus	" yank to the system register (*) by default
    set expandtab        "replace <TAB> with spaces
    set softtabstop=3 
    set shiftwidth=3  
-set hid
+" set termguicolors
 " au GUIEnter * set fullscreen
 " if has("gui_running")
   " set fuoptions=maxvert,maxhorz
@@ -113,9 +107,14 @@ set hid
 " " set tags= ~/.tags
 " highlight SignColumn guibg=bg
 "       endif    
-if has("autocmd")
-  au BufReadPost * if line("'\"") > 1 && line("'\"") <= line("$") | exe "normal! g'\"" | endif
-endif
+" if has("autocmd")
+"   au BufReadPost * if line("'\"") > 1 && line("'\"") <= line("$") | exe "normal! g'\"" | endif
+" endif
+  " autocmd BufWinLeave *.* mkview
+  " autocmd BufWinEnter *.* silent loadview
+   " set foldcolumn=2
+"  highlight foldcolumn ctermfg=256 ctermbg=bg
+" autocmd Colorscheme * highlight FoldColumn guifg=black guibg=bg
 au VIMEnter set spell
  set timeout
    set timeoutlen=0
@@ -130,22 +129,26 @@ au VIMEnter set spell
   au VIMEnter * let g:surround_108 = {
      \'q':  " ``\r''"
      \ }
-  let $NVIM_TUI_ENABLE_TRUE_COLOR=1
- let $NVIM_TUI_ENABLE_CURSOR_SHAPE=1
-
 let g:tex_flavor = "latex"
 let g:tex_isk = '@,48-57,58,_,192-255'
 set tags+=~/texmf/bibtex/bib/tags
 set tags+=~/Dropbox/workspace/tags
   " set formatoptions=ant
   " set wrapmargin=1
-set tw=80
+" set tw=80
+" set shada="NONE"
+set wrap
+set linebreak
+set nolist  " list disables linebreak
+set textwidth=0
+set wrapmargin=0
+set hid
 set foldmethod=expr foldexpr=getline(v:lnum)=~'^\s*'.&commentstring[0]
 set autochdir
 set guioptions-=r 
 set guioptions-=l
 set inccommand=split
-set mouse=a
+set mouse=
 set bs=2		" allow backspacing over everything in insert mode 
 set undofile                " Save undo's after file closes
 set undodir=~/workspace/undo " where to save undo histories
@@ -154,6 +157,7 @@ set undoreload=10000
 set ruler		" show the cursor position all the time
 set autoread		" auto read when file is changed from outside
 set nohlsearch
+set noswapfile
 set showmatch		" Cursor shows matching ) and }
 set nocursorline
 set showmode		" Show current mode
@@ -175,12 +179,14 @@ set smartcase		" ignore case if search pattern is all lowercase,case-sensitive o
 set noerrorbells
 set novisualbell
 set tm=500
+" set macmeta
 " auto reload vimrc when editing it
-" autocmd! bufwritepost .vimrc source ~/.vimrc
+" autocmd! bufwritepost ~/.config/nvim/init.vim source ~/.config/nvim/init.vim
+syntax on		" syntax highlight
 " set hlsearch		" search highlighting
 "
 if has("gui_running")	" GUI color and font settings
-  set guifont=Source\ Code\ Pro \Regular:h12
+  set guifont=Source\ Code\ Pro \Regular:h16
   set background=dark 
 "  set cursorline        " highlight current line
   colorscheme solarized8_light_flat 
@@ -199,7 +205,9 @@ endif
 
 "Autocommands
 "
+autocmd BufReadPost * if @% !~# '\.git[\/\\]COMMIT_EDITMSG$' && line("'\"") > 1 && line("'\"") <= line("$") | exe "normal! g`\"" | endif 
 au FileType Makefile set noexpandtab
+au FileType tex set spell
 " au FileType tex :Goyo
 "
 "
@@ -219,20 +227,8 @@ au FileType Makefile set noexpandtab
 " " NB: this supports "rp that replaces the selection by the contents of @r
 " vnoremap <silent> <expr> p <sid>Repl()
 
-" function to create new line at periods, useful for text documents.
-" remove tw setting for best results 
-" function! MyFormatExpr(start, end)
-"     silent execute a:start.','.a:end.'s/[.!?]\zs /\r/g'
-" endfunction
-" set formatexpr=MyFormatExpr(v:lnum,v:lnum+v:count-1)
-" inoremap .<Esc> <Esc>gqqA.<Esc>
-" inoremap .<Space> <Esc>gqqA.<Space>
-
-inoremap .<Esc> .<CR><Esc>
-inoremap .<Space> .<CR>
-
-" " Change Color when entering Insert Mode
-"  augroup CursorLine
+" " Change Color when entering
+" Insert Mode augroup CursorLine
 "    au!
 "  if has("gui_running")
 "  else
@@ -240,8 +236,6 @@ inoremap .<Space> .<CR>
 "        au InsertLeave * setlocal nocursorline
 "     endif
 "        augroup END
-
-
 " function! DelTagOfFile(file)
 "   let fullpath = a:file
 "   let cwd = getcwd()
@@ -252,33 +246,8 @@ inoremap .<Space> .<CR>
 "   let resp = system(cmd)
 " endfunction
 
-
-
-" function! UpdateTags()
-"   let f = expand("%:p")
-"   let cwd = getcwd()
-"   let tagfilename = cwd . "/tags"
-"   let cmd = '/usr/local/bin/ctags -a -f ' . tagfilename . ' --fields=+iaS --extra=+q ' . '"' . f . '"'
-"   call DelTagOfFile(f)
-"   let resp = system(cmd)
-" endfunction
-" autocmd BufWritePost * call UpdateTags()
-"  function! RestoreRegister()
-"    let @" = s:restore_reg
-"    return ''
-"  endfunction
-
-function! CurDir()
-    let curdir = substitute(getcwd(), $HOME, "~", "")
-    return curdir
-endfunction
-
-function! HasPaste()
-    if &paste
-        return '[PASTE]'
-    else
-        return ''
-    endif
+function Gitview()
+   cd /root/web2 ; git add . ; git commit -m -a ; git push origin gh-pages
 endfunction
 function Light()
    set background=light
@@ -305,15 +274,6 @@ function Dark()
    " highlight normal guifg=grey
 endfunction
 
-function! SearchMultiLine(bang, ...)
-  if a:0 > 0
-    let sep = (a:bang) ? '\_W\+' : '\_s\+'
-    let @/ = join(a:000, sep)
-  endif
-endfunction
-command! -bang -nargs=* -complete=tag S call SearchMultiLine(<bang>0, <f-args>)|normal! /<C-R>/<CR>
-
-inoremap <expr> <CR> pumvisible() ? "\<C-y>" : "\<C-g>u\<CR>"
 " Default Colors for CursorLine_
 highlight  CursorLine cterm=NONE ctermbg=black ctermfg=none
 " autocmd InsertEnter * set cursorline * 
@@ -330,18 +290,6 @@ highlight  CursorLine cterm=NONE ctermbg=black ctermfg=none
 "                autocmd VimLeave * silent !echo -ne "\033]112\007"
 "   "               " use \003]12;gray\007 for gnome-terminal
 "                  endif
-" function! ClipboardYank()
-"      call system('xclip -i -selection clipboard', @@)
-"   endfunction
-"   function! ClipboardPaste()
-"        let @@ = system('xclip -o -selection clipboard')
-"     endfunction
-"
-"     vnoremap <silent> y y:call ClipboardYank()<cr>
-"     vnoremap <silent> d d:call ClipboardYank()<cr>
-"     nnoremap <silent> p :call ClipboardPaste()<cr>p
-" set clipboard=unnamedplus	" yank to the system register (*) by default
-
 " TAB setting{
    set expandtab        "replace <TAB> with spaces
    set softtabstop=3 
@@ -349,8 +297,20 @@ highlight  CursorLine cterm=NONE ctermbg=black ctermfg=none
 
    "}      							
 
+function! CurDir()
+    let curdir = substitute(getcwd(), $HOME, "~", "")
+    return curdir
+endfunction
+
+function! HasPaste()
+    if &paste
+        return '[PASTE]'
+    else
+        return ''
+    endif
+endfunction
 " status line {
-set laststatus=1
+set laststatus=2
 set statusline=\ %{HasPaste()}%<%-15.25(%f%)%m%r%h\ %w\ \ 
 set statusline+=\ \ \ [%{&ff}/%Y] 
 set statusline+=\ \ \ %<%20.30(%{hostname()}:%{CurDir()}%)\ 
@@ -406,6 +366,14 @@ set wmh=0                     " set the min height of a window to 0 so we can ma
 
 " ,/ turn off search highlighting
 "nmap <leader>/ :nohl<CR>
+
+" Bash like keys for the command line
+cnoremap <C-A>      <Home>
+cnoremap <C-E>      <End>
+cnoremap <C-K>      <C-U>
+
+" ,p toggles paste mode
+nmap <leader>p :set paste!<BAR>set paste?<CR>
 
 " allow multiple indentation/deindentation in visual mode
 vnoremap < <gv
@@ -480,9 +448,12 @@ hi link EasyMotionShade Comment
    "nmap OB j
    "nmap OC l
    "nmap OD 
+"YankRing
 
 
 
+" --- Command-T
+let g:CommandTMaxHeight = 15
 
 " --- SuperTab
 let g:SuperTabDefaultCompletionType = "context"
@@ -491,8 +462,8 @@ let g:SuperTabContextDiscoverDiscovery= ["&completefunc:<c-x><c-u>", "&omnifunc:
   
 "--NerdTree
 let g:NERDTreeMapUpdir="<S-h>"
-" Remaps 
-" I find default   register behavior uncomfortable 
+" General mappings
+" register 
 inoremap \ /
 inoremap / \
 noremap p "0p 
@@ -531,20 +502,23 @@ imap <M-j> <C-j>
 map <C-q> <Esc>:q<CR>
 map <M-S-q> <Esc>:q!<CR>
 map <M-q> <C-q>
+map <M-d> <Esc>:bdelete<CR>
 noremap f /
 noremap F ?
+" inoremap .<Esc> .<CR><Esc><leader>j
+" inoremap .<Space> .<CR><Esc><leader>j
 " noremap S :S 
-  " map t <Plug>(easymotion)
-  " map T <Plug>(easymotion)
-map t <Plug>Sneak_s
-map T <Plug>Sneak_S
+  map t <leader><leader>f
+  map T <leader><leader>F
+" map t <Plug>Sneak_s
+" map T <Plug>Sneak_S
     " xmap t <Plug>Sneak_s
     " xmap T <Plug>Sneak_S
     " omap t <Plug>Sneak_s
     " omap T <Plug>Sneak_S
 noremap $ /\$<CR>hv?\$<CR>l
 noremap # /\$<CR>v?\$<CR>
-noremap @ /)<CR>v?(<CR>
+noremap @ /}<CR>v?{<CR>
  map j gj
  map k gk
  noremap <Space> .
@@ -584,10 +558,45 @@ noremap <A-d> <C-d>
 noremap <M-d> <C-d>
 noremap <D-u> <C-u>
 noremap <A-u> <C-u>
+map <Leader>tt :term CR; ctags -R
+" this mapping Enter key to <C-y> to chose the current highlight item 
+" and close the selection list, same as other IDEs.
+" CONFLICT with some plugins like tpope/Endwise
+inoremap <expr> <CR> pumvisible() ? "\<C-y>" : "\<C-g>u\<CR>"
+nnoremap <silent> <Leader>y :YRGetElem<CR>
 map ' "
 inoremap <D-]> <C-x><C-]>
 inoremap <C-]> <C-x><C-]>
 
+
+" text editting mappings
+
+
+au FileType tex,text,md inoremap <A-i> <CR>
+au FileType tex,text,md nnoremap <A-i> i<CR>
+au FileType tex,text,md inoremap <CR> <Esc><CR>i
+au FileType tex,text,md inoremap . .<CR><Esc>Ji
+
+
+"Neovim mappings
+:tnoremap <S-h> <C-\><C-n><C-w>h
+:tnoremap <S-j> <C-\><C-n><C-w>j
+:tnoremap <S-k> <C-\><C-n><C-w>k
+:tnoremap <S-l> <C-\><C-n><C-w>l
+tnoremap <Left> :tbnext<CR>
+tnoremap <Right> :tbprevious<CR>
+tnoremap <Leader>e <C-\><C-n> 
+" imap <Backspace> \
+
+
+" FZF
+"
+"
+
+noremap <C-t> <Esc>:FZF ~/Dropbox/workspace<CR>
+noremap <A-t> <Esc>:FZF ~/Dropbox/workspace<CR>
+noremap S <Esc>:BLines<CR>
+map <A-e> :FZF ~<CR>
 
 " vimtex settings
 "
@@ -637,18 +646,8 @@ nmap  <leader>v <Esc>:w<CR>:VimtexView<CR>
 let g:vimtex_quickfix_mode = 0
 let g:vimtex_fold_enabled =0
 nmap <leader>l <Esc>:VimtexCompile<CR>
-nmap <leader>s <Esc>:VimtexErrors<CR>
+nmap <leader>s <Esc>:VimtexErrors<CR><Goyo><Goyo>
 nmap <leader>x <Esc>:VimtexErrors<CR>
-
-"Neovim mappings
-:tnoremap <S-h> <C-\><C-n><C-w>h
-:tnoremap <S-j> <C-\><C-n><C-w>j
-:tnoremap <S-k> <C-\><C-n><C-w>k
-:tnoremap <S-l> <C-\><C-n><C-w>l
-tnoremap <Left> :tbnext<CR>
-tnoremap <Right> :tbprevious<CR>
-tnoremap <Leader>e <C-\><C-n> 
-" imap <Backspace> \
 
 " NB: this supports "rp that replaces the selection by the contents of @r
 " Auto updating Ctags
@@ -666,8 +665,8 @@ let g:vifmLiveCwd=1
 let g:vifmUseCurrent=1
 "Autosave and autocommit
 let g:auto_save = 1
- let g:auto_save_in_insert_mode = 0
- let g:auto_save_silent = 1
+ let g:auto_save_in_insert_mode = 1
+ let g:auto_save_silent = 0
 " autocmd BufWritePost * silent execute '! if [ -d .git ] || git rev-parse --git-dir > /dev/null 2>&1 ; then git add % ; git commit -m %; fi'
 
 "Highlight
@@ -687,15 +686,6 @@ hi MatchParen guibg=NONE guifg=green gui=NONE
 nnoremap <C-e> :let g:ctrlp_match_window =
          \ 'bottom,order:btt,min:1,max:1000,results:1000'<CR>:CtrlPTag<CR>
 
-" FZF
-"
-"
-
-noremap <C-t> <Esc>:FZF ~/Dropbox/workspace<CR>
-noremap <A-t> <Esc>:FZF ~/Dropbox/workspace<CR>
-noremap S <Esc>:BLines<CR>
-map <A-e> :FZF ~<CR>
-map <C-e> :FZF ~<CR>
 
 
 " YouCompleteMe  usage is tied to Supertab, this is a little weird but 
@@ -710,14 +700,9 @@ let g:UltiSnipsJumpForwardTrigger="<D-j>"
 let g:UltiSnipsJumpForwardTrigger="<M-j>" 
 let g:UltiSnipsJumpForwardTrigger="<C-j>"
 let g:UltiSnipsListSnippets="<D-e>"
-let g:UltiSnipsListSnippets="<C-e>"
+let g:UltiSnipsListSnippets="<-e>"
 let g:sneak#s_next = 1
  let g:sneak#label = 1
-" this mapping Enter key to <C-y> to chose the current highlight item 
-" and close the selection list, same as other IDEs.
-" CONFLICT with some plugins like tpope/Endwise
-inoremap <expr> <CR> pumvisible() ? "\<C-y>" : "\<C-g>u\<CR>"
-
 
    " Latex shortcuts
    "Latex compile. 
@@ -725,119 +710,38 @@ inoremap <expr> <CR> pumvisible() ? "\<C-y>" : "\<C-g>u\<CR>"
 " map <Leader>l :tabe %<CR><Esc>:term ; latexmk -pvc -pdf -file-line-error -synctex=1 -interaction=nonstopmode -recorder %<CR><leader>e
 "Zathura forward search
 " map <Leader>v <Esc>:silent !zathura --synctex-forward <Ctrl+R>=line('.'):1:%:p %:p:h/build/%:r.pdf<CR><CR>
-map <Leader>tt :term CR; ctags -R
 "source ~/.anyname  
 au filetype tex filetype indent off
-
 "       GUI Stuff   
 command -nargs=? Guifont call rpcnotify(0, 'Gui', 'SetFont', "\<args\>") | let g:Guifont="<args>"
+let g:Guifont="Source Code Pro Light:h16"
+
 " Deoplete
 
+map <silent> <leader>g :silent execute "!(cd /root/web2 ; git add . ; git commit -m -a ; git push origin gh-pages) > /dev/null"<CR>
+
+" fuzzy search
+" function! s:config_fuzzyall(...) abort
+"   return extend(copy({
+"   \   'converters': [
+"   \     incsearch#config#fuzzy#converter(),
+"   \     incsearch#config#fuzzyspell#converter()
+"   \   ],
+"   \ }), get(a:, 1, {}))
+" endfunction
+" noremap <silent><expr> f incsearch#go(<SID>config_fuzzyall())
+" noremap <silent><expr> F  incsearch#go(<SID>config_fuzzyall({'command': '?'}))
+" noremap <silent><expr> gF incsearch#go(<SID>config_fuzzyall({'is_stay': 1}))
+" map f <Plug>(incsearch-fuzzyspell-/)
+" map F <Plug>(incsearch-fuzzyspell-?)
+" map gF <Plug>(incsearch-fuzzyspell-stay)
+" map <silent> <leader>g :silent !cd /root/web2<CR>:silent !git add .<CR>:silent !git commit -m -a<CR>:silent !git push origin gh-pages<CR>
 " let g:deoplete#enable_at_startup = 1
-" Neosnippets
-
-let g:neosnippet#snippets_directory='~/.vim/plugged/neosnippet-snippets/neosnippets'
-" let g:neosnippet#snippets_directory='~/.vim/plugged/vim-snippets/UltiSnips'
-" Plugin key-mappings.
-" Note: It must be "imap" and "smap".  It uses <Plug> mappings.
-" imap <C-k>     <Plug>(neosnippet_expand_or_jump)
-" smap <C-j>     <Plug>(neosnippet_expand_or_jump)
-" xmap <Tab>     <Plug>(neosnippet_expand_target)
-"
-"  SuperTab like snippets behavior.
-" Note: It must be "imap" and "smap".  It uses <Plug> mappings.
-imap <C-j>     <Plug>(neosnippet_expand_or_jump)
-vmap <C-j>     <Plug>(neosnippet_expand_or_jump)
-" imap <expr><TAB>
-" \ pumvisible() ? "\<C-n>" :
-" \ neosnippet#expandable_or_jumpable() ?
-" \    "\<Plug>(neosnippet_expand_or_jump)" : "\<TAB>"
-imap <expr><TAB> neosnippet#expandable_or_jumpable() ?
-\ "\<Plug>(neosnippet_expand_or_jump)" : "\<TAB>"
-
-" deoplete + neosnippet + autopairs
-" let g:AutoPairsMapCR=0
-" " let g:deoplete#enable_at_startup = 1
-" let g:deoplete#disable_auto_complete =0
-" let g:deoplete#enable_smart_case = 1
-" imap <expr><TAB> pumvisible() ? "\<C-n>" : neosnippet#expandable_or_jumpable() ? "\<Plug>(neosnippet_expand_or_jump)" : "\<TAB>"
-" imap <expr><S-TAB> pumvisible() ? "\<C-p>" : "\<S-TAB>"
-" inoremap <expr><CR> pumvisible() ? deoplete#mappings#close_popup() : "\<CR>"
-" inoremap <silent><expr> <TAB>
-" 		\ pumvisible() ? "\<C-n>" :
-" 		\ <SID>check_back_space() ? "\<TAB>" :
-" 		\ deoplete#mappings#manual_complete()
-" 		function! s:check_back_space() abort "{{{
-" 		let col = col('.') - 1
-" 		return !col || getline('.')[col - 1]  =~ '\s'
-" 		endfunction"}}}
-let g:neosnippet#expand_word_boundary=1
-
-
-
-
+" map <silent> <leader>g :silent call Gitview()
+" map <silent> <leader>g :silent !cd /root/web2 ; git add .<CR>:silent git commit -m -a ; silent !git push origin gh-pages<CR>
 " This is how I use PDFViewer with Neovim and LaTexBox. 
 "
 "Load some useful plugins with vundle
-
-
-
-command! RegisterWithNode :silent !curl -d socket=$NVIM_LISTEN_ADDRESS http://localhost:4000/registerNeovim
-command! WatchPDFWithNode :execute "call rpcnotify(0, 'watchPDF',split('"LatexBox_GetOutputFile()"'))"
-
-let g:LatexBox_latexmk_options="-pv -pdf -e '$pdf_previewer=q/curl http:\\/\\/localhost:4000\\/doRerender/;'"
-let g:LatexBox_viewer="curl http://localhost:4000/doRerender"
-
-nnoremap <silent><Leader>ls :<C-u>silent !synctex view -i <C-R>=line('.')<CR>:<C-R>=col('.')<CR>:%:p  -o <C-R>=LatexBox_GetOutputFile()<CR> -d <C-R>=LatexBox_GetTexRoot()<CR> -x "curl -d  'p=\%{page+1}&x=\%{h}&y=\%{v}&w=\%{width}&h=\%{height}' http://localhost:4000/forward"<CR><C-l>
-
-"Examples for mappings
-nnoremap <silent> <leader>f :call rpcnotify(0,'doScroll', 500)<CR>
-nnoremap <silent> <leader>b :call rpcnotify(0,'doScroll', -500)<CR>
-nnoremap <silent> <leader>c :call rpcnotify(0,'toggleCrop')<CR>
-nnoremap <leader>j :silent call rpcnotify(0,'nextPage')<CR>
-nnoremap <leader>k :silent call rpcnotify(0,'previousPage')<CR>
-
-
-"Example for a 'PDF Control Mode'. PDF Control mode is indicated by statusline
-nnoremap <leader><leader> :call PDFControlMappings()<CR>
-function! PDFControlMappings()
-	let i = 1
-	while i <= 150
-		execute "nnoremap ". i."gg :silent call rpcnotify(0,'scrollToPage',".i.")<CR>"
-		let i = i + 1
-	endwhile   
-	nnoremap gg :silent call rpcnotify(0,'scrollToTop')<CR>
-	nnoremap G :silent call rpcnotify(0,'scrollToBottom')<CR>
-	nnoremap j :silent call rpcnotify(0,'nextPage')<CR>
-	nnoremap k :silent call rpcnotify(0,'previousPage')<CR>
-	nnoremap  e :silent  call rpcnotify(0,'doScroll', 200)<CR>
-	nnoremap  y :silent  call rpcnotify(0,'doScroll', -200)<CR>
-	nnoremap  f :silent  call rpcnotify(0,'doScroll', 600)<CR>
-	nnoremap  b :silent  call rpcnotify(0,'doScroll', -600)<CR>
-	nnoremap  c :silent  call rpcnotify(0,'toggleCrop')<CR>
-	nnoremap  r :silent  call rpcnotify(0,'doRerender')<CR>
-	nnoremap <silent> <leader><leader> :call NoPDFControlMappings()<CR>
-	execute 'AirlineToggle'
-	set statusline=PDFCONTROL
-endfunction
-function! NoPDFControlMappings()
-	let i=1
-	while i <= 150
-		execute 'unmap '.i.'gg'
-		let i = i + 1
-	endwhile   
-	unmap e
-	unmap y
-	unmap f
-	unmap b
-	unmap j
-	unmap k
-	unmap c
-	unmap G
-	unmap gg
-	unmap r
-	nnoremap <silent> <leader><leader> :call PDFControlMappings()<CR>
-	execute 'AirlineToggle'
-endfunction
-
+"
+"
 
