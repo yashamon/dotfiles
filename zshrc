@@ -112,7 +112,7 @@ alias pvc="latexmk -pdf -pvc -file-line-error -synctex=1  -interaction=nonstopmo
 alias pushmod="git submodule foreach git add .; git submodule foreach git commit -m -a; 
 git submodule foreach git push origin master; git add .; git commit -m -a; git push origin master"
 alias push="git add .; git commit -m -a; git push origin master"
-alias pull="git pull --recurse-submodules"
+alias pull="git pull --recurse-submodules; git submodule update --recursive --remote"
 alias pushgh="pandoc index.md > index.html ; git add .; git commit -m -a; git push origin gh-pages"
 alias pandocd="pandoc index.md > index.html"
 alias attach="tmux attach -t"
