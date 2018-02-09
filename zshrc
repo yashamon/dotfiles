@@ -113,6 +113,8 @@ alias pushmod="git submodule foreach git add .; git submodule foreach git commit
 git submodule foreach git push origin master; git add .; git commit -m -a; git push origin master"
 alias push="git add .; git commit -m -a; git push origin master"
 alias pull="git pull --recurse-submodules; git submodule update --recursive --remote"
+alias pullmaster="git pull --recurse-submodules; git submodule update --recursive --remote; git submodule foreach git checkout master; git submodule foreach git pull origin master"
+
 alias pushgh="pandoc index.md > index.html ; git add .; git commit -m -a; git push origin gh-pages"
 alias pandocd="pandoc index.md > index.html"
 alias attach="tmux attach -t"
