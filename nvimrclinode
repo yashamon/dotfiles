@@ -95,7 +95,6 @@ set clipboard+=unnamedplus	" yank to the system register (*) by default
    set expandtab        "replace <TAB> with spaces
    set softtabstop=3 
    set shiftwidth=3  
-" set termguicolors
 " au GUIEnter * set fullscreen
 " if has("gui_running")
   " set fuoptions=maxvert,maxhorz
