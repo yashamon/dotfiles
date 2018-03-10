@@ -156,10 +156,6 @@ myfunction() {
     git push origin master
     }
 alias message=myfunction
-alias back="feh --bg-scale /home/yasha/Downloads/backgrounds/jN5a1bi.jpg"
-alias rmtmp="rm -rf /tmp/nvimsocket"
-# alias vim="nvim"
-backup () {  rsync -r --partial --progress --rsh=ssh "$@" root@104.237.136.100:/root/backup
 # alias vim="nvim"
 # export ZSH=$HOME/.oh-my-zsh
 # # Set name of the theme to load.
