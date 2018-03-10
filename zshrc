@@ -116,8 +116,8 @@ alias pull="git pull --recurse-submodules; git submodule update --recursive --re
 alias pullmaster="git pull --recurse-submodules; git submodule update --recursive --remote; git submodule foreach git checkout master; git submodule foreach git pull origin master"
 
 alias pushgh="pandoc index.md > index.html ; git add .; git commit -m -a; git push origin gh-pages"
-alias hw="pandoc ~/web2/calcIV/index.md > ~/web2/calcIV/index.html; pandoc ~/web2/AlgTop/in
 alias pandocd="pandoc index.md > index.html"
+alias hw="pandoc ~/web/calcIV/index.md > ~/web/calcIV/index.html; pandoc ~/web/AlgTop/index.md > ~/web/AlgTop/index.html; git add .; git commit -m -a; git push origin gh-pages"
 alias attach="tmux attach -t"
 # alias pdf="xpdf -geometry 1920x1080 -fullscreen"
 # alias pdf="mupdf"
@@ -156,6 +156,10 @@ myfunction() {
     git push origin master
     }
 alias message=myfunction
+alias back="feh --bg-scale /home/yasha/Downloads/backgrounds/jN5a1bi.jpg"
+alias rmtmp="rm -rf /tmp/nvimsocket"
+# alias vim="nvim"
+backup () {  rsync -r --partial --progress --rsh=ssh "$@" root@104.237.136.100:/root/backup
 # alias vim="nvim"
 # export ZSH=$HOME/.oh-my-zsh
 # # Set name of the theme to load.
