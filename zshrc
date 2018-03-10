@@ -116,6 +116,7 @@ alias pull="git pull --recurse-submodules; git submodule update --recursive --re
 alias pullmaster="git pull --recurse-submodules; git submodule update --recursive --remote; git submodule foreach git checkout master; git submodule foreach git pull origin master"
 
 alias pushgh="pandoc index.md > index.html ; git add .; git commit -m -a; git push origin gh-pages"
+alias hw="pandoc ~/web2/calcIV/index.md > ~/web2/calcIV/index.html; pandoc ~/web2/AlgTop/in
 alias pandocd="pandoc index.md > index.html"
 alias attach="tmux attach -t"
 # alias pdf="xpdf -geometry 1920x1080 -fullscreen"
@@ -258,4 +259,4 @@ alias chmodWork sudo chmod -R ~/workspacemodules
 
 export DISPLAY=:0.0
 alias wq='wmctrl -r 'Alacritty' -b toggle,fullscreen'
-
+alias ubuntu="sudo apt-get update; sudo apt-get upgrade"
