@@ -37,13 +37,15 @@ cp ~/dotfiles/bin/vf ~/bin/vf
     echo "Moving xmobarrc" 
 ln -s ~/dotfiles/xmonad/xmobar.hs ~/.xmobarrc
     echo "Moving nvimrc"
-mkdir ~/.config
-mkdir ~/.config/nvim
-    mv ~/.nvimrc  ~/dotfiles_old/
+rm ~/.config/nvim/init.vim
 ln -s ~/dotfiles/nvimrcChromeOs ~/.config/nvim/init.vim
+rm ~/.config/nvim/colors
 ln -s ~/dotfiles/colors ~/.config/nvim/colors
+rm ~/.config/nvim/spell 
 ln -s ~/dotfiles/spell ~/.config/nvim/spell
+mkdir ~/config/nvim/autoload
 ln -s ~/dotfiles/vim-plug/plug.vim ~/.config/nvim/autoload/plug.vim
+
 
 # zathura
 ln -s ~/dotfiles/zathurarc  ~/.config/zathura/zathurarc
