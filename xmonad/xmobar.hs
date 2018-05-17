@@ -1,14 +1,9 @@
--- https://wiki.archlinux.org/index.php/Xmobar
 
---TODO
---import Data.List
---let cpuTotalList = map (\ x -> "<total" ++ show (x) ++ "%>") [0 .. 7]
---let cpuTotalStr = intercalate "|" cpuTotalList
 
 Config {
 
    -- appearance
-     font =         "xft:Source Code Pro Regular:size=14:antialias=true"
+     font =         "xft:Source Code Pro Regular:size=8:antialias=true"
    , bgColor =      "black"
    , fgColor =      "white"
    , position =     Top
@@ -18,7 +13,7 @@ Config {
    -- layout
    , sepChar =  "%"   -- delineator between plugin names and straight text
    , alignSep = "}{"  -- separator between left-right alignment
-   , template = "%battery% | %multicpu% | %coretemp% | %memory% }{ %KPIT% | %date% || %kbd% "
+   , template = " %StdinReader% }{ %battery% | %KPIT% | %date% "
 
    -- general behavior
    , lowerOnStart =     True    -- send to bottom of window stack on start
@@ -48,42 +43,7 @@ Config {
         [ Run Weather "KPIT" [ "--template", "<skyCondition> | <fc=#4682B4><tempF></fc>°F | <fc=#4682B4><rh></fc>% | <fc=#4682B4><pressure></fc>hPa"
                              ] 36000
 
-        -- network activity monitor (dynamic interface resolution)
-        , Run DynNetwork     [ "--template" , "<dev>: <tx>kB/s|<rx>kB/s"
-                             , "--Low"      , "1000"       -- units: kB/s
-                             , "--High"     , "5000"       -- units: kB/s
-                             , "--low"      , "darkgreen"
-                             , "--normal"   , "darkorange"
-                             , "--high"     , "darkred"
-                             ] 10
-
-        -- cpu activity monitor
-        , Run MultiCpu       [ "--template" , "Cpu: <total0>%|<total1>%"
-                             , "--Low"      , "50"
-                             , "--High"     , "85"
-                             , "--low"      , "green"
-                             , "--normal"   , "darkorange"
-                             , "--high"     , "darkred"
-                             ] 10
-
-        -- cpu core temperature monitor
-        , Run CoreTemp       [ "--template" , "Temp: <core0>°C|<core1>°C"
-                             , "--Low"      , "70"
-                             , "--High"     , "80"
-                             , "--low"      , "green"
-                             , "--normal"   , "darkorange"
-                             , "--high"     , "darkred"
-                             ] 50
-
-        -- memory usage monitor
-        , Run Memory         [ "--template" ,"Mem: <usedratio>%"
-                             , "--Low"      , "20"
-                             , "--High"     , "90"
-                             , "--low"      , "green"
-                             , "--normal"   , "darkorange"
-                             , "--high"     , "darkred"
-                             ] 10
-
+        
         -- battery monitor
         , Run Battery        [ "--template" , "Batt: <acstatus>"
                              , "--Low"      , "10"
@@ -104,10 +64,7 @@ Config {
         -- time and date indicator
         --   (%F = y-m-d date, %a = day of week, %T = h:m:s time)
         , Run Date           "<fc=#ABABAB>%F (%a) %T</fc>" "date" 10
+        , Run StdinReader
+]
+           }
 
-        -- keyboard layout indicator
-        , Run Kbd            [ ("us(dvorak)" , "<fc=#4682B4>DV</fc>")
-                             , ("us"         , "<fc=#8B0000>US</fc>")
-                             ]
-        ]
-   }
