@@ -111,7 +111,7 @@ alias latexi="latexmk -g -pdf -file-line-error -synctex=1  -interaction=nonstopm
 alias pvc="latexmk -pdf -pvc -file-line-error -synctex=1  -interaction=nonstopmode -recorder -f"
 alias pushmod="git submodule foreach git add .; git submodule foreach git commit -m -a; 
 git submodule foreach git push origin master; git add .; git commit -m -a; git push origin master"
-alias push="git add .; git commit -m -a; git push origin master"
+alias push="git add .; git commit -m -a; git push --all origin"
 alias pull="git pull --recurse-submodules; git submodule update --recursive --remote"
 alias pullmaster="git pull --recurse-submodules; git submodule update --recursive --remote; git submodule foreach git checkout master; git submodule foreach git pull origin master"
 
