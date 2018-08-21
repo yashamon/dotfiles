@@ -19,7 +19,7 @@ mylayoutHook =  avoidStruts $ noBorders (spacing 2 tall ||| Full)
 myManageHook = composeAll
    [ 
      className =? "Zathura" --> doShift "zathura"
-   , className =? "Chromium" --> doShift "web"
+   , className =? "Chromium" --> doShift "chrome"
    , className =? "Transmission-gtk" --> doShift "torrent"
    , className =? "Steam" --> doShift "media"
    , className =? "Vlc" --> doShift "media"
@@ -60,7 +60,13 @@ myConfig = defaultConfig
         , focusedBorderColor = myFocusedBorderColor }
         `additionalKeysP`
         [ ("M-b", sendMessage ToggleStruts)
-        ]
+        ]`additionalKeys`
+    [ ((mod4Mask .|. shiftMask, xK_z), spawn "xscreensaver-command -lock"),
+      ((0                     , 0x1008FF11), spawn "amixer -q sset Master 2%-"),
+      ((0                     , 0x1008FF13), spawn "amixer -q sset Master 2%+")
+      -- ((0                     , 0x1008FF12), spawn "amixer set Master toggle")
+    ]
         -- `removeMouseBindings` 
         -- [(modMask, button1)
         -- ] 
+

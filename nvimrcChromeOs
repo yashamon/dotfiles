@@ -189,14 +189,14 @@ if has("gui_running")	" GUI color and font settings
   set guifont=Source\ Code\ Pro \Regular:h16
   set background=dark 
 "  set cursorline        " highlight current line
-  colorscheme solarized8_light_flat 
+  colorscheme grubvox 
   highlight CursorLine  guibg=#003853 ctermbg=24  gui=none cterm=none
 else
 " terminal color settings
-  set background=light
+  set background=dark
   " set t_Co=256          " 256 color mode
    colorscheme gruvbox
-  " colorscheme gruvbox
+  " colorscheme gruvbox 
   " highlight Normal ctermbg=none
 highlight clear SpellBad
 highlight SpellBad cterm=underline
@@ -206,7 +206,7 @@ endif
 "Autocommands
 "
 autocmd BufReadPost * if @% !~# '\.git[\/\\]COMMIT_EDITMSG$' && line("'\"") > 1 && line("'\"") <= line("$") | exe "normal! g`\"" | endif 
-au FileType Makefile set noexpandtab
+au FileType Makefile set noexpandtab 
 au FileType tex set spell
 " au FileType tex :Goyo
 "

@@ -117,7 +117,7 @@ alias pullmaster="git pull --recurse-submodules; git submodule update --recursiv
 
 alias pushgh="pandoc index.md > index.html ; git add .; git commit -m -a; git push origin gh-pages"
 alias pandocd="pandoc index.md > index.html"
-alias hw="pandoc ~/web/calcIV/index.md > ~/web/calcIV/index.html; pandoc ~/web/AlgTop/index.md > ~/web/AlgTop/index.html; git add .; git commit -m -a; git push origin gh-pages"
+alias hw="pandoc ~/web/topology/topology.md > ~/web/topology/topology.html; pandoc ~/web/analysis/analysis.md > ~/web/analysis/analysis.html; git add .; git commit -m -a; git push origin gh-pages"
 alias attach="tmux attach -t"
 # alias pdf="xpdf -geometry 1920x1080 -fullscreen"
 # alias pdf="mupdf"
