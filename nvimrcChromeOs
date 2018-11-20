@@ -189,13 +189,14 @@ if has("gui_running")	" GUI color and font settings
   set guifont=Source\ Code\ Pro \Regular:h16
   set background=dark 
 "  set cursorline        " highlight current line
-  colorscheme grubvox 
+  colorscheme gruvbox 
   highlight CursorLine  guibg=#003853 ctermbg=24  gui=none cterm=none
 else
 " terminal color settings
   set background=dark
   " set t_Co=256          " 256 color mode
-   colorscheme gruvbox
+   colorscheme pencil
+   set background=dark
   " colorscheme gruvbox 
   " highlight Normal ctermbg=none
 highlight clear SpellBad
@@ -464,6 +465,18 @@ let g:SuperTabContextDiscoverDiscovery= ["&completefunc:<c-x><c-u>", "&omnifunc:
 let g:NERDTreeMapUpdir="<S-h>"
 " General mappings
 " register 
+noremap <ScrollWheelUp>      <nop>
+noremap <S-ScrollWheelUp>    <nop>
+noremap <C-ScrollWheelUp>    <nop>
+noremap <ScrollWheelDown>    <nop>
+noremap <S-ScrollWheelDown>  <nop>
+noremap <C-ScrollWheelDown>  <nop>
+noremap <ScrollWheelLeft>    <nop>
+noremap <S-ScrollWheelLeft>  <nop>
+noremap <C-ScrollWheelLeft>  <nop>
+noremap <ScrollWheelRight>   <nop>
+noremap <S-ScrollWheelRight> <nop>
+noremap <C-ScrollWheelRight> <nop>
 inoremap \ /
 inoremap / \
 noremap p "0p 
@@ -570,6 +583,7 @@ inoremap <C-]> <C-x><C-]>
 
 
 " text editting mappings
+
 
 
 au FileType tex,text,md inoremap <A-i> <CR>
