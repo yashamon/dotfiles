@@ -20,6 +20,9 @@ myManageHook = composeAll
    [ 
      className =? "Zathura" --> doShift "zathura"
    , className =? "Chromium" --> doShift "chrome"
+   , className =? "google-chrome" --> doShift "chrome"
+   , className =? "Google-chrome" --> doShift "chrome"
+   , className =? "Google-Chrome" --> doShift "chrome"
    , className =? "Transmission-gtk" --> doShift "torrent"
    , className =? "Steam" --> doShift "media"
    , className =? "Vlc" --> doShift "media"

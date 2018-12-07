@@ -110,7 +110,7 @@ alias texi="pdflatex -file-line-error -synctex=1  -interaction=nonstopmode -reco
 alias latexi="latexmk -g -pdf -file-line-error -synctex=1  -interaction=nonstopmode -recorder -f"
 alias pvc="latexmk -pdf -pvc -file-line-error -synctex=1  -interaction=nonstopmode -recorder -f"
 alias pushmod="git submodule foreach git add .; git submodule foreach git commit -m -a; 
-git submodule foreach git push origin master; git add .; git commit -m -a; git push origin master"
+git submodule foreach git push origin master; git add .; git commit -m -a; git push --all origin "
 alias push="git add .; git commit -m -a; git push --all origin"
 alias pull="git pull --recurse-submodules; git submodule update --recursive --remote"
 alias pullmaster="git pull --recurse-submodules; git submodule update --recursive --remote; git submodule foreach git checkout master; git submodule foreach git pull origin master"
@@ -145,7 +145,7 @@ alias vis="NVIM_LISTEN_ADDRESS=/tmp/nvimsocket nvim"
 # alias go= pslatex document.tex; dvips document.dvi; ps2pdf document.ps
 alias suru="su root; a"
 alias rec="recoll -q"
-alias vi="nvim-qt"
+alias vi="nvim"
 alias update="git submodule update --init --recursive ; git pull origin master"
 alias chrome="chromium --user-data-dir /root"
 # alias apt="sudo apt-get install"
