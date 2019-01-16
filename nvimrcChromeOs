@@ -466,6 +466,8 @@ let g:SuperTabContextDiscoverDiscovery= ["&completefunc:<c-x><c-u>", "&omnifunc:
 let g:NERDTreeMapUpdir="<S-h>"
 " General mappings
 " register 
+map <up> <nop>
+map <down> <nop>
 noremap <ScrollWheelUp>      <nop>
 noremap <S-ScrollWheelUp>    <nop>
 noremap <C-ScrollWheelUp>    <nop>

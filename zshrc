@@ -156,6 +156,9 @@ myfunction() {
     git push origin master
     }
 alias message=myfunction
+alias tff="xinput disable 13"
+alias ton="xinput enable 13"
+
 # alias vim="nvim"
 # export ZSH=$HOME/.oh-my-zsh
 # # Set name of the theme to load.
