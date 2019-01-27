@@ -141,7 +141,7 @@ alias src="source ~/.zshrc"
 alias mux="tmux -f ~/.tmux-conf"
 alias bib="j bib ; vi link.bib"
 alias suya="su yasha; a"
-alias vis="NVIM_LISTEN_ADDRESS=/tmp/nvimsocket nvim" 
+alias vis="rm /tmp/nvimsocket ; NVIM_LISTEN_ADDRESS=/tmp/nvimsocket nvim" 
 # alias go= pslatex document.tex; dvips document.dvi; ps2pdf document.ps
 alias suru="su root; a"
 alias rec="recoll -q"

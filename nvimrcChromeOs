@@ -11,9 +11,10 @@ call plug#begin('~/.vim/plugged')
 " Group dependencies, vim-snippets depends on ultisnips 
 " Plug 'tpope/vim-surround'
 Plug 'neovim/node-host'
+Plug 't9md/vim-smalls'
 Plug 'skywind3000/asyncrun.vim'
-" Plug 'justinmk/vim-sneak'
-" Plug 'bfredl/nvim-miniyank'
+Plug 'justinmk/vim-sneak'
+Plug 'bfredl/nvim-miniyank'
 Plug 'SirVer/ultisnips' 
 Plug 'tpope/vim-fugitive'
 Plug 'eugen0329/vim-esearch'
@@ -47,11 +48,11 @@ Plug 'terryma/vim-multiple-cursors'
 "
  Plug 'ervandew/supertab'
 
- Plug 'vim-scripts/tComment'
+Plug 'vim-scripts/tComment'
 
  " Plug 'Shougo/vimproc.vim'
 
-Plug 'Lokaltog/vim-easymotion'
+Plug 'easymotion/vim-easymotion'
 
 Plug 'mbbill/undotree', { 'on': 'UndotreeToggle' }
  '}
@@ -207,9 +208,16 @@ endif
 
 "Autocommands
 "
+" autocmd User SneakEnter set syntax=text
+" autocmd User SneakLeave set sytax=tex
+
+
 autocmd BufReadPost * if @% !~# '\.git[\/\\]COMMIT_EDITMSG$' && line("'\"") > 1 && line("'\"") <= line("$") | exe "normal! g`\"" | endif 
 au FileType Makefile set noexpandtab 
 au FileType tex set spell
+au FileType tex autocmd User SneakLeave set syntax=tex
+au FileType tex autocmd User SneakEnter set syntax=text
+
 " au FileType tex :Goyo
 "
 "
@@ -465,8 +473,9 @@ let g:SuperTabContextDiscoverDiscovery= ["&completefunc:<c-x><c-u>", "&omnifunc:
 "--NerdTree
 let g:NERDTreeMapUpdir="<S-h>"
 " General mappings
-" register 
 map <up> <nop>
+imap <up> <nop>
+imap <down> <nop>
 map <down> <nop>
 noremap <ScrollWheelUp>      <nop>
 noremap <S-ScrollWheelUp>    <nop>
@@ -526,10 +535,40 @@ noremap F ?
 " inoremap .<Esc> .<CR><Esc><leader>j
 " inoremap .<Space> .<CR><Esc><leader>j
 " noremap S :S 
-  map t <leader><leader>f
-  map T <leader><leader>F
-" map t <Plug>Sneak_s
-" map T <Plug>Sneak_S
+"
+"
+" function! Sneak()
+"     syntax off
+"     hi! link Sneak Normal
+"     hi! link SneakScope Normal
+"     execute 'normal! \<Plug>Sneak_s'
+"     syntax on
+" endfunction
+
+
+
+
+
+
+
+" nmap <leader>SS  <Plug>Sneak_s
+" function! Sneak()
+"     syntax off
+"     execute "normal! \<Plug>Sneak_s "
+"     syntax on
+"  endfunction
+map t <Plug>Sneak_s
+" map t <ESC>:syntax off <CR>t: syntax on<CR>
+"  map t :syntaxoff <Plug>Sneak_s
+map T <Plug>Sneak_S
+" map n <Plug>Sneak_;
+" map N <Plug>Sneak_,
+" map t <Plug>(smalls-excursion)
+" let g:smalls_auto_jump=1
+" let g:smalls_auto_jump_timeout=0
+
+
+
     " xmap t <Plug>Sneak_s
     " xmap T <Plug>Sneak_S
     " omap t <Plug>Sneak_s
@@ -593,8 +632,8 @@ inoremap <C-]> <C-x><C-]>
 
 au FileType tex,text,md inoremap <A-i> <CR>
 au FileType tex,text,md nnoremap <A-i> i<CR>
-au FileType tex,text,md inoremap <CR> <Esc><CR>i
-au FileType tex,text,md inoremap . .<CR>
+au FileType tex,text,md inoremap <CR> <Esc><CR>
+au FileType tex,text,md inoremap . .<CR><ESC>J0
 
 
 "Neovim mappings
@@ -766,4 +805,6 @@ map <silent> <leader>g :silent execute "!(cd /root/web2 ; git add . ; git commit
 "Load some useful plugins with vundle
 "
 "
+" hi! link Sneak Normal
+" hi! link SneakScope Normal
 
