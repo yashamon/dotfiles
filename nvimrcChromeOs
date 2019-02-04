@@ -11,15 +11,15 @@ call plug#begin('~/.vim/plugged')
 " Group dependencies, vim-snippets depends on ultisnips 
 " Plug 'tpope/vim-surround'
 Plug 'neovim/node-host'
-Plug 't9md/vim-smalls'
+" Plug 't9md/vim-smalls'
 Plug 'skywind3000/asyncrun.vim'
 Plug 'justinmk/vim-sneak'
 Plug 'bfredl/nvim-miniyank'
 Plug 'SirVer/ultisnips' 
 Plug 'tpope/vim-fugitive'
 Plug 'eugen0329/vim-esearch'
-Plug 'haya14busa/incsearch.vim'
-Plug 'haya14busa/incsearch-fuzzy.vim'
+" Plug 'haya14busa/incsearch.vim'
+" Plug 'haya14busa/incsearch-fuzzy.vim'
 Plug 'Raimondi/vim_search_objects'
 Plug 'terryma/vim-multiple-cursors'
 "  | Plug 'honza/vim-snippets'
@@ -133,6 +133,8 @@ au VIMEnter set spell
      \ }
 let g:tex_flavor = "latex"
 let g:tex_isk = '@,48-57,58,_,192-255'
+let g:tex_conceal = ""
+
 set tags+=~/texmf/bibtex/bib/tags
 set tags+=~/Dropbox/workspace/tags
   " set formatoptions=ant
@@ -191,15 +193,15 @@ if has("gui_running")	" GUI color and font settings
   set guifont=Source\ Code\ Pro \Regular:h16
   set background=dark 
 "  set cursorline        " highlight current line
-  colorscheme gruvbox 
+  " colorscheme gruvbox 
   highlight CursorLine  guibg=#003853 ctermbg=24  gui=none cterm=none
 else
 " terminal color settings
   set background=dark
   " set t_Co=256          " 256 color mode
-   colorscheme pencil
-   set background=dark
-  " colorscheme gruvbox 
+ set background=dark
+  colorscheme pencil
+     " colorscheme gruvbox 
   " highlight Normal ctermbg=none
 highlight clear SpellBad
 highlight SpellBad cterm=underline
@@ -208,15 +210,15 @@ endif
 
 "Autocommands
 "
-" autocmd User SneakEnter set syntax=text
-" autocmd User SneakLeave set sytax=tex
 
 
 autocmd BufReadPost * if @% !~# '\.git[\/\\]COMMIT_EDITMSG$' && line("'\"") > 1 && line("'\"") <= line("$") | exe "normal! g`\"" | endif 
 au FileType Makefile set noexpandtab 
 au FileType tex set spell
-au FileType tex autocmd User SneakLeave set syntax=tex
-au FileType tex autocmd User SneakEnter set syntax=text
+au FileType tex set background=dark
+
+" au FileType tex autocmd User SneakLeave set syntax=tex
+" au FileType tex autocmd User SneakEnter set syntax=text
 
 " au FileType tex :Goyo
 "
@@ -504,6 +506,7 @@ noremap X "0D
 nmap D "_dg$
 nmap V vg$
 nmap A g$a
+map o gj0i<CR><ESC>gki
 nnoremap dd g^"_dg$i<backspace><ESC><CR>
 " nmap dd 0dg$
 map 0 g^
@@ -551,16 +554,8 @@ noremap F ?
 
 
 
-" nmap <leader>SS  <Plug>Sneak_s
-" function! Sneak()
-"     syntax off
-"     execute "normal! \<Plug>Sneak_s "
-"     syntax on
-"  endfunction
-map t <Plug>Sneak_s
-" map t <ESC>:syntax off <CR>t: syntax on<CR>
-"  map t :syntaxoff <Plug>Sneak_s
-map T <Plug>Sneak_S
+
+
 " map n <Plug>Sneak_;
 " map N <Plug>Sneak_,
 " map t <Plug>(smalls-excursion)
@@ -576,10 +571,10 @@ map T <Plug>Sneak_S
 noremap $ /\$<CR>hv?\$<CR>l
 noremap # /\$<CR>v?\$<CR>
 noremap @ /}<CR>v?{<CR>
- map j gj
- map k gk
- noremap <Space> .
- noremap <S-Space> ?<Space><enter>
+map j gj
+map k gk
+noremap <Space> .
+noremap <S-Space> ?<Space><enter>
 nmap <S-h> <C-w>h
 nmap <S-l> <C-w>l
 noremap <leader>r <C-r>
@@ -631,10 +626,14 @@ inoremap <C-]> <C-x><C-]>
 
 
 au FileType tex,text,md inoremap <A-i> <CR>
-au FileType tex,text,md nnoremap <A-i> i<CR>
+au FileType tex,text,md inoremap <A-i> i<CR>
 au FileType tex,text,md inoremap <CR> <Esc><CR>
-au FileType tex,text,md inoremap . .<CR><ESC>J0
-
+au FileType tex,text,md inoremap .<CR> .<CR><ESC>J0
+au FileType tex,text,md inoremap .<Space> .<CR><ESC>J0
+au FileType tex,text,md inoremap .<ESC> .<CR><ESC>J0
+au FileType tex,text,md inoremap <leader>cr <CR>
+au FileType tex,text,md noremap map o gj0i<CR><ESC>gki 
+nnoremap <C-j> a<CR><Esc>k$ 
 
 "Neovim mappings
 :tnoremap <S-h> <C-\><C-n><C-w>h
@@ -646,6 +645,15 @@ tnoremap <Right> :tbprevious<CR>
 tnoremap <Leader>e <C-\><C-n> 
 " imap <Backspace> \
 
+"  Sneak
+let g:sneak#use_ic_scs = 1
+
+map t <Plug>Sneak_s
+" map t <ESC>:syntax off <CR>t: syntax on<CR>
+"  map t :syntaxoff <Plug>Sneak_s
+map T <Plug>Sneak_S
+let g:sneak#s_next = 1
+ let g:sneak#label = 1
 
 " FZF
 "
@@ -762,8 +770,6 @@ let g:UltiSnipsJumpForwardTrigger="<M-j>"
 let g:UltiSnipsJumpForwardTrigger="<C-j>"
 let g:UltiSnipsListSnippets="<D-e>"
 let g:UltiSnipsListSnippets="<-e>"
-let g:sneak#s_next = 1
- let g:sneak#label = 1
 
    " Latex shortcuts
    "Latex compile. 
