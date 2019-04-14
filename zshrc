@@ -159,10 +159,12 @@ alias message=myfunction
 
 sendFunction() {
 cp "$1" /home/yasha/web/papers
+cwdb=$(pwd)
 cd /home/yasha/web
 git add .
 git commit -m -a
 git push origin gh-pages
+cd $cwdb
 }
 alias send=sendFunction
 alias tff="xinput disable 13"
