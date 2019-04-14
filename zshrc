@@ -117,7 +117,7 @@ alias pullmaster="git pull --recurse-submodules; git submodule update --recursiv
 
 alias pushgh="pandoc index.md > index.html ; git add .; git commit -m -a; git push origin gh-pages"
 alias pandocd="pandoc index.md > index.html"
-alias hw="pandoc ~/web/topology/topology.md > ~/web/topology/topology.html; pandoc ~/web/analysis/analysis.md > ~/web/analysis/analysis.html; git add .; git commit -m -a; git push origin gh-pages"
+alias hw="pandoc ~/web/discreet/discreet.md > ~/web/discreet/discreet.html; pandoc ~/web/Spivak/spivak.md > ~/web/Spivak/spivak.html; git add .; git commit -m -a; git push origin gh-pages"
 alias attach="tmux attach -t"
 # alias pdf="xpdf -geometry 1920x1080 -fullscreen"
 # alias pdf="mupdf"
@@ -156,6 +156,15 @@ myfunction() {
     git push origin master
     }
 alias message=myfunction
+
+sendFunction() {
+cp "$1" /home/yasha/web/papers
+cd /home/yasha/web
+git add .
+git commit -m -a
+git push origin gh-pages
+}
+alias send=sendFunction
 alias tff="xinput disable 13"
 alias ton="xinput enable 13"
 
