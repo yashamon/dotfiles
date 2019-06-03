@@ -215,6 +215,7 @@ endif
 autocmd BufReadPost * if @% !~# '\.git[\/\\]COMMIT_EDITMSG$' && line("'\"") > 1 && line("'\"") <= line("$") | exe "normal! g`\"" | endif 
 au FileType Makefile set noexpandtab 
 au FileType tex set spell
+au FileType tex set background=dark
 
 " au FileType tex autocmd User SneakLeave set syntax=tex
 " au FileType tex autocmd User SneakEnter set syntax=text
