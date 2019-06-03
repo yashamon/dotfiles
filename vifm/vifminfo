@@ -53,3 +53,11 @@ t/home/yasha/.vifm/Trash/000_workspacemodules
 	/home/yasha/workspacemodules
 t/.vifm-Trash-0/000_conformalsymplectic21.toc
 	/root/workspacemodules/conformalsymplectic/conformalsymplectic21.toc
+t/.vifm-Trash-0/000_nvim.init.vim
+	/root/.config/nvim.init.vim
+t/.vifm-Trash-0/000_.zcompdump-archlinux-5.4.2
+	/home/yasha/.zcompdump-archlinux-5.4.2
+t/.vifm-Trash-0/000_.zsh-update
+	/home/yasha/.zsh-update
+t/.vifm-Trash-0/000_.zsh_history
+	/home/yasha/.zsh_history
