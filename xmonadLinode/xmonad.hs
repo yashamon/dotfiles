@@ -29,7 +29,7 @@ myLogHook = fadeInactiveLogHook fadeAmount
       where fadeAmount = 0.85
 
 myNormalBorderColor, myFocusedBorderColor :: String
-myNormalBorderColor  = "black"
+-- myNormalBorderColor  = "black"
 myFocusedBorderColor = "blue"
 
 -- main = xmonad =<< xmobar myConfig
