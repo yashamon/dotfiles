@@ -155,7 +155,15 @@ myfunction() {
     git commit -m "$1"
     git push origin master
     }
+
 alias message=myfunction
+brightnessfunction()
+{
+    #do things with parameters like $1 such as
+xrandr --output eDP-1 --brightness $1 
+    }
+alias bright=brightnessfunction
+
 
 sendFunction() {
 cp "$1" /home/yasha/web/papers
@@ -169,6 +177,16 @@ cd $cwdb
 alias send=sendFunction
 alias tff="xinput disable 13"
 alias ton="xinput enable 13"
+
+# set dual monitors
+dual () {
+    xrandr --output eDP-1 --primary --left-of HDMI-1 --output HDMI-1 --auto
+}
+
+# set single monitor
+single () {
+    xrandr --output HDMI-1 --off
+}
 
 # alias vim="nvim"
 # export ZSH=$HOME/.oh-my-zsh
