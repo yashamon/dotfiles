@@ -1,4 +1,5 @@
 #!/bin/bash
+
 ############################
 # .make.sh
 # This script creates symlinks from the home directory to any desired dotfiles in ~/dotfiles
@@ -34,21 +35,25 @@ done
     echo "Moving vifm"
 mkdir ~/bin
 cp ~/dotfiles/bin/vf ~/bin/vf
+mkdir ~/.config
 ln -s ~/dotfiles/vifm/colors ~/.config/vifm
     echo "Moving xmobarrc" 
 ln -s ~/dotfiles/xmonad/xmobar.hs ~/.xmobarrc
     echo "Moving nvimrc"
+mkdir ~/.config/nvim
 rm ~/.config/nvim/init.vim
 ln -s ~/dotfiles/nvimrcChromeOs ~/.config/nvim/init.vim
 rm ~/.config/nvim/colors
 ln -s ~/dotfiles/colors ~/.config/nvim/colors
 rm ~/.config/nvim/spell 
 ln -s ~/dotfiles/spell ~/.config/nvim/spell
-mkdir ~/config/nvim/autoload
+mkdir ~/.config/nvim/autoload
 ln -s ~/dotfiles/vim-plug/plug.vim ~/.config/nvim/autoload/plug.vim
 
 
 # zathura
+mkdir ~/.config/zathura
+mkdir ~/.config/termite
 ln -s ~/dotfiles/zathurarc  ~/.config/zathura/zathurarc
 ln -s ~/dotfiles/termiterc ~/.config/termite/conf
 
@@ -80,4 +85,4 @@ else
     fi
 fi
 }
-
+git config --global credential.helper cache
