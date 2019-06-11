@@ -292,3 +292,4 @@ alias chmodWork sudo chmod -R ~/workspacemodules
 export DISPLAY=:0.0
 alias wq='wmctrl -r 'Alacritty' -b toggle,fullscreen'
 alias ubuntu="sudo apt-get update; sudo apt-get upgrade"
+VBoxClient --clipboard
