@@ -86,5 +86,5 @@ else
 fi
 }
 git config --global credential.helper store
-git config --global user.name "Mona Lisa"
+git config --global user.name "yashamon"
 pip3 install neovim
