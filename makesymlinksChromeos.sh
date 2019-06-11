@@ -85,5 +85,6 @@ else
     fi
 fi
 }
-git config --global credential.helper cache
+git config --global credential.helper store
+
 pip3 install neovim
