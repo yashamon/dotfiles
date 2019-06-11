@@ -11,5 +11,4 @@ exec xmonad
 /* xrandr -s 1920x1080 */
 /* /* feh --bg-scale /home/yasha/Downloads/backgrounds/jN5a1bi.jpg & */ */
 
->>>>>>> b78772bde62e55528f3cafe93df50fc07ac54e12
 
