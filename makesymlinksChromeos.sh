@@ -86,5 +86,4 @@ else
 fi
 }
 git config --global credential.helper store
-git config user.name yashamon
 pip3 install neovim
