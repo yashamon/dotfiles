@@ -85,6 +85,7 @@ else
     fi
 fi
 }
+mkdir ~/.ctags.d
 ln -s ~/dotfiles/ctags ~/.ctags.d/latex.ctags
 git config --global credential.helper store
 git config --global user.name "yashamon"
