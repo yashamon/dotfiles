@@ -30,12 +30,12 @@
 /* --regex-tex=/\\ref[[:space:]]*\{([^}]+)\}/\1/r,ref/ */
 --regex-tex=/\\pageref[[:space:]]*\{([^}]+)\}/\1/p,pageref/
 --regex-make=/^([^:# \t]+)[ \t]*[:]{1,2}/\1/t,targets/
-/* --regex-tex=/label\{([^}]*)\}/\1/l,label/ */
-/* --regex-tex=/ARTICLE\{([^}]*)\,/\1/A,ARTICLE/ */
-/* --regex-tex=/BOOK\{([^}]*)\,/\1/B,BOOK/ */
-/*--langdef=tex*/
-/*--langmap=tex:.bib*/
-/**/
-/*--regex-bib=/ARTICLE\{([^}]*)\,/\1/A,ARTICLE/*/
-/*--regex-bib=/BOOK\{([^}]*)\,/\1/B,BOOK/*/
+--regex-tex=/label\{([^}]*)\}/\1/l,label/
+--regex-tex=/ARTICLE\{([^}]*)\,/\1/A,ARTICLE/
+--regex-tex=/BOOK\{([^}]*)\,/\1/B,BOOK/
+--langdef=tex
+--langmap=tex:.bib
+
+--regex-bib=/ARTICLE\{([^}]*)\,/\1/A,ARTICLE/
+--regex-bib=/BOOK\{([^}]*)\,/\1/B,BOOK/
 --fields=+l
