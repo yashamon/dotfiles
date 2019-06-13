@@ -10,7 +10,7 @@
 dir=~/dotfiles                    # dotfiles directory
 olddir=~/dotfiles_old             # old dotfiles backup directory
 files="bashrc xmonad/xmonad.hs xmonad/xmobar.hs vnc ctags tmux-conf  oh-my-zsh
-vifm/vifmrc zshrc  Xresources xinitrc"    # list of files/folders to symlink in homedir
+vifm/vifmrc zshrc  Xresources xinitrc latexmkrc"    # list of files/folders to symlink in homedir
 
 ##########
 
