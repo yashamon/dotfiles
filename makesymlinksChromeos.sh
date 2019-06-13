@@ -90,4 +90,4 @@ git config --global user.name "yashamon"
 git config --global user.email "yasha.savelyev@gmail.com"
 pip3 install neovim
 pip3 install neovim-remote
-$pdflatex=q/xelatex -synctex=1 %O %S/
+pip3 
