@@ -54,7 +54,7 @@ mkdir ~/.config/nvim/autoload
 ln -s ~/dotfiles/vim-plug/plug.vim ~/.config/nvim/autoload/plug.vim
 
 
-# zathura
+# zathura, termitie
 mkdir ~/.config/zathura
 mkdir ~/.config/termite
 ln -s ~/dotfiles/zathurarc  ~/.config/zathura/zathurarc
