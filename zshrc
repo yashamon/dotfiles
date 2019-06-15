@@ -95,7 +95,7 @@ bindkey "$terminfo[kcud1]" history-substring-search-down
 bindkey -M vicmd 'k' history-substring-search-up
 bindkey -M vicmd 'j' history-substring-search-down
 
-eval "$(fasd --init auto)"
+# eval "$(fasd --init auto)"
 #
 # export PATH="$HOME/.linuxbrew/bin:$PATH"
 # export MANPATH="$HOME/.linuxbrew/share/man:$MANPATH"
@@ -134,7 +134,7 @@ alias zrc="nvim ~/.zshrc"
 alias pac="sudo packer"
 alias cprc="cp /root/.zshrc /home/yasha/.zshrc"
 alias pacup="packer -Syu --devel"
-alias vifm='source ~/bin/vf'
+# alias vifm='source ~/bin/vf'
 alias vrc="nvim ~/.config/nvim/init.vim"
 alias snips="vi /root/dotfiles/vim/bundle/vim-snippets/UltiSnips/tex.snippets"
 alias src="source ~/.zshrc"
