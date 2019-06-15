@@ -95,7 +95,7 @@ bindkey "$terminfo[kcud1]" history-substring-search-down
 bindkey -M vicmd 'k' history-substring-search-up
 bindkey -M vicmd 'j' history-substring-search-down
 
-# eval "$(fasd --init auto)"
+eval "$(fasd --init auto)"
 #
 # export PATH="$HOME/.linuxbrew/bin:$PATH"
 # export MANPATH="$HOME/.linuxbrew/share/man:$MANPATH"
@@ -126,7 +126,7 @@ alias vnc="vncserver -kill :1; vncserver -geometry 1920x1080 :1"
 # alias vnc="vncserver -kill :3; vncserver -geometry 1600x2560 :1"
 alias drop="python ~/download?dl=packages%2Fdropbox.py"
 alias ls="ls -a"
-alias j="z"
+alias j="fasd"
 # alias fzf="/root/dotfiles\vim\bundle\fzf"
 alias pcm="sudo pacman"
 alias spcm="sudo pacman"
