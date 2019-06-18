@@ -1,4 +1,5 @@
-#!/bin/bash
+#!tex/bin/bash
+
 ############################
 # .make.sh
 # This script creates symlinks from the home directory to any desired dotfiles in ~/dotfiles
@@ -9,7 +10,7 @@
 dir=~/dotfiles                    # dotfiles directory
 olddir=~/dotfiles_old             # old dotfiles backup directory
 files="bashrc xmonad/xmonad.hs xmonad/xmobar.hs vnc ctags tmux-conf  oh-my-zsh
-vifm/vifmrc zshrc  Xresources xinitrc"    # list of files/folders to symlink in homedir
+vifm/vifmrc zshrc Xresources xprofile xinitrc latexmkrc"    # list of files/folders to symlink in homedir
 
 ##########
 
@@ -22,7 +23,8 @@ echo "done"
 echo -n "Changing to the $dir directory ..."
 cd $dir
 echo "done"
-
+mkdir ~/.vifm
+mkdir ~/.xmonad
 # move any existing dotfiles in homedir to dotfiles_old directory, then create symlinks from the homedir to any files in the ~/dotfiles directory specified in $files
 for file in $files; do
     echo "Moving any existing dotfiles from ~ to $olddir"
@@ -34,23 +36,29 @@ done
     echo "Moving vifm"
 mkdir ~/bin
 cp ~/dotfiles/bin/vf ~/bin/vf
+mkdir ~/.config
+mkdir ~/.config/vifm
 ln -s ~/dotfiles/vifm/colors ~/.config/vifm
+ln -s ~/dotfiles/vifm/vifmrc ~/.config/vifm
     echo "Moving xmobarrc" 
 ln -s ~/dotfiles/xmonad/xmobar.hs ~/.xmobarrc
     echo "Moving nvimrc"
+mkdir ~/.config/nvim
 rm ~/.config/nvim/init.vim
 ln -s ~/dotfiles/nvimrcChromeOs ~/.config/nvim/init.vim
 rm ~/.config/nvim/colors
 ln -s ~/dotfiles/colors ~/.config/nvim/colors
 rm ~/.config/nvim/spell 
 ln -s ~/dotfiles/spell ~/.config/nvim/spell
-mkdir ~/config/nvim/autoload
+mkdir ~/.config/nvim/autoload
 ln -s ~/dotfiles/vim-plug/plug.vim ~/.config/nvim/autoload/plug.vim
 
 
-# zathura
+# zathura, termite
+mkdir ~/.config/zathura
+mkdir ~/.config/termite
 ln -s ~/dotfiles/zathurarc  ~/.config/zathura/zathurarc
-ln -s ~/dotfiles/termiterc ~/.config/termite/conf
+ln -s ~/dotfiles/termiterc ~/.config/termite/config
 
 
 echo "Moving zshrc"
@@ -80,4 +88,10 @@ else
     fi
 fi
 }
-
+mkdir ~/.ctags.d
+ln -s ~/dotfiles/ctags ~/.ctags.d/latex.ctags
+git config --global credential.helper store
+git config --global user.name "yashamon"
+git config --global user.email "yasha.savelyev@gmail.com"
+pip3 install neovim
+pip3 install neovim-remote

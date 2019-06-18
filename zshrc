@@ -50,7 +50,7 @@ plugins=(git vi-mode command-not-found github history-substring-search)
 
 # User configuration
 
-export PATH="/data/data/com.termux/files/usr/bin/applets:/data/data/com.termux/files/usr/bin:bin:/usr/local/sbin:/usr/bin:/usr/local/bin:/usr/sbin:/sbin:/bin:/home/yasha/.local/bin:/root/.cabal/bin"
+export PATH="/data/data/com.termux/files/usr/bin/applets:/data/data/com.termux/files/usr/bin:bin:/usr/local/sbin:/usr/bin:/usr/local/bin:/usr/sbin:/sbin:/bin:/home/yasha/.local/bin:/root/.cabal/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl" 
 # export MANPATH="/usr/local/man:$MANPATH"
 source $ZSH/oh-my-zsh.sh
 
@@ -95,7 +95,7 @@ bindkey "$terminfo[kcud1]" history-substring-search-down
 bindkey -M vicmd 'k' history-substring-search-up
 bindkey -M vicmd 'j' history-substring-search-down
 
-eval "$(fasd --init auto)"
+# eval "$(fasd --init auto)"
 #
 # export PATH="$HOME/.linuxbrew/bin:$PATH"
 # export MANPATH="$HOME/.linuxbrew/share/man:$MANPATH"
@@ -134,7 +134,7 @@ alias zrc="nvim ~/.zshrc"
 alias pac="sudo packer"
 alias cprc="cp /root/.zshrc /home/yasha/.zshrc"
 alias pacup="packer -Syu --devel"
-alias vifm='source ~/bin/vf'
+# alias vifm='source ~/bin/vf'
 alias vrc="nvim ~/.config/nvim/init.vim"
 alias snips="vi /root/dotfiles/vim/bundle/vim-snippets/UltiSnips/tex.snippets"
 alias src="source ~/.zshrc"
@@ -148,19 +148,32 @@ alias rec="recoll -q"
 alias vi="nvim"
 alias update="git submodule update --init --recursive ; git pull origin master"
 alias chrome="chromium --user-data-dir /root"
+alias res="xrandr --newmode "1920x1080_60.00"  173.00  1920 2048 2248 2576  1080 1083 1088 1120; xrandr --addmode Virtual-1 "1920x1080_60.00";
+xrandr -s 1920x1080
+"
+alias config="cd ~/dotfiles/; push; cd ~/workspacemodules; pushmod; cd ~/workspace; push; cd web pushgh"
 # alias apt="sudo apt-get install"
+# functions
 myfunction() {
     #do things with parameters like $1 such as
     git add .
     git commit -m "$1"
     git push origin master
     }
+
 alias message=myfunction
+brightnessfunction()
+{
+    #do things with parameters like $1 such as
+xrandr --output eDP-1 --brightness $1 
+    }
+alias bright=brightnessfunction
+
 
 sendFunction() {
-cp "$1" /home/yasha/web/papers
+cp "$1" ~/web/papers
 cwdb=$(pwd)
-cd /home/yasha/web
+cd ~/web
 git add .
 git commit -m -a
 git push origin gh-pages
@@ -169,6 +182,16 @@ cd $cwdb
 alias send=sendFunction
 alias tff="xinput disable 13"
 alias ton="xinput enable 13"
+
+# set dual monitors
+dual () {
+    xrandr --output eDP-1 --primary --left-of HDMI-1 --output HDMI-1 --auto
+}
+
+# set single monitor
+single () {
+    xrandr --output HDMI-1 --off
+}
 
 # alias vim="nvim"
 # export ZSH=$HOME/.oh-my-zsh
@@ -274,3 +297,5 @@ alias chmodWork sudo chmod -R ~/workspacemodules
 export DISPLAY=:0.0
 alias wq='wmctrl -r 'Alacritty' -b toggle,fullscreen'
 alias ubuntu="sudo apt-get update; sudo apt-get upgrade"
+VBoxClient --clipboard
+

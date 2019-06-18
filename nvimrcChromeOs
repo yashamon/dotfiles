@@ -161,7 +161,7 @@ set undoreload=10000
 set ruler		" show the cursor position all the time
 set autoread		" auto read when file is changed from outside
 set nohlsearch
-set noswapfile
+" set noswapfile
 set showmatch		" Cursor shows matching ) and }
 set nocursorline
 set showmode		" Show current mode
@@ -713,7 +713,7 @@ nmap  <leader>v <Esc>:w<CR>:VimtexView<CR>
 let g:vimtex_quickfix_mode = 0
 let g:vimtex_fold_enabled =0
 nmap <leader>l <Esc>:VimtexCompile<CR>
-nmap <leader>s <Esc>:VimtexErrors<CR><Goyo><Goyo>
+nmap <leader>s <Esc>:VimtexErrors<CR>:Goyo<CR>
 nmap <leader>x <Esc>:VimtexErrors<CR>
 
 " NB: this supports "rp that replaces the selection by the contents of @r
