@@ -126,7 +126,7 @@ alias vnc="vncserver -kill :1; vncserver -geometry 1920x1080 :1"
 # alias vnc="vncserver -kill :3; vncserver -geometry 1600x2560 :1"
 alias drop="python ~/download?dl=packages%2Fdropbox.py"
 alias ls="ls -a"
-alias j="fasd"
+alias j="z"
 # alias fzf="/root/dotfiles\vim\bundle\fzf"
 alias pcm="sudo pacman"
 alias spcm="sudo pacman"
@@ -151,7 +151,7 @@ alias chrome="chromium --user-data-dir /root"
 alias res="xrandr --newmode "1920x1080_60.00"  173.00  1920 2048 2248 2576  1080 1083 1088 1120; xrandr --addmode Virtual-1 "1920x1080_60.00";
 xrandr -s 1920x1080
 "
-alias config="cd ~/dotfiles/; push; cd ~/workspacemodules; pushmod; cd ~/workspace; push; cd web pushgh"
+alias config="cd ~/dotfiles/; push; cd ~/workspacemodules; pushmod; cd ~/workspace; push; cd web pushgh; pacman -Qqe > pkglist.txt"
 # alias apt="sudo apt-get install"
 # functions
 myfunction() {
