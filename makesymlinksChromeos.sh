@@ -39,7 +39,7 @@ cp ~/dotfiles/bin/vf ~/bin/vf
 mkdir ~/.config
 mkdir ~/.config/vifm
 ln -s ~/dotfiles/vifm ~/.config/vifm
-ln -s ~/dotfiles/vifm/vifmrc ~/.config/vifm
+ln -s ~/dotfiles/vifm ~/.config/vifm
     echo "Moving xmobarrc" 
 ln -s ~/dotfiles/xmonad/xmobar.hs ~/.xmobarrc
     echo "Moving nvimrc"
