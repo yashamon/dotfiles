@@ -95,7 +95,7 @@ bindkey "$terminfo[kcud1]" history-substring-search-down
 bindkey -M vicmd 'k' history-substring-search-up
 bindkey -M vicmd 'j' history-substring-search-down
 
-# eval "$(fasd --init auto)"
+eval "$(fasd --init auto)"
 #
 # export PATH="$HOME/.linuxbrew/bin:$PATH"
 # export MANPATH="$HOME/.linuxbrew/share/man:$MANPATH"
