@@ -37,6 +37,8 @@
 --langmap=tex:.bib
 
 --regex-bib=/ARTICLE\{([^}]*)\,/\1/A,ARTICLE/
+--regex-bib=/Article\{([^}]*)\,/\1/A,Article/
+--regex-bib=/Book\{([^}]*)\,/\1/B,Book/
 --regex-bib=/BOOK\{([^}]*)\,/\1/B,BOOK/
 
     --langdef=bib
