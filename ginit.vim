@@ -1,4 +1,4 @@
-colorscheme coffee
+colorscheme Gruvbox
 Guifont Source Code Pro Light:h16
 set mouse = 
 noremap <ScrollWheelUp> <nop>
