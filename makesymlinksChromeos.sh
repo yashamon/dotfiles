@@ -46,8 +46,7 @@ ln -s ~/dotfiles/xmonad/xmobar.hs ~/.xmobarrc
 mkdir ~/.config/nvim
 rm ~/.config/nvim/init.vim
 ln -s ~/dotfiles/nvimrcChromeOs ~/.config/nvim/init.vim
-ln -s ~/dotfiles/ginit.vim ~/.config/nvim/init.vim
-
+ln -s ~/dotfiles/ginit.vim ~/.config/nvim/ginit.vim
 rm ~/.config/nvim/colors
 ln -s ~/dotfiles/colors ~/.config/nvim/colors
 rm ~/.config/nvim/spell 
