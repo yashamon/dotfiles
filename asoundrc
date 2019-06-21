@@ -1,0 +1,12 @@
+# ALSA library configuration file
+
+# Include settings that are under the control of asoundconf(1).
+# (To disable these settings, comment out this line.)
+</home/yasha/.asoundrc.asoundconf>
+pcm.pulse {
+    type pulse
+}
+
+ctl.pulse {
+    type pulse
+}
