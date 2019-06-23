@@ -20,6 +20,8 @@ myManageHook = composeAll
    [ 
      className =? "Zathura" --> doShift "zathura"
    , className =? "Chromium" --> doShift "chrome"
+   , className =? "Firefox" --> doShift "chrome"
+   , className =? "google-chrome-beta" --> doShift "chrome"
    , className =? "google-chrome" --> doShift "chrome"
    , className =? "Google-chrome" --> doShift "chrome"
    , className =? "Google-Chrome" --> doShift "chrome"
@@ -47,8 +49,8 @@ myKeys conf@(XConfig {XMonad.modMask = modm}) = M.fromList
                 , ((modm .|. shiftMask, xK_s     ), withFocused (keysAbsResizeWindow (10,10) (1024,752)))
                 -- , ((modm,               xK_a     ), withFocused (keysMoveWindowTo (512,384) (1%2,1%2)))
             ]
-main = xmonad =<< xmobar myConfig
--- main = xmonad  myConfig
+-- main = xmonad =<< xmobar myConfig
+main = xmonad  myConfig
 myConfig = defaultConfig
         { 
           modMask = mod3Mask -- Use control instead of Alt
