@@ -92,6 +92,8 @@ syntax on
 " filetype plugin indent on
 "  General Settings  
 "
+set switchbuf=newtab
+
 set clipboard+=unnamedplus	" yank to the system register (*) by default
 " TAB setting{
    set expandtab        "replace <TAB> with spaces
@@ -713,8 +715,8 @@ nmap  <leader>v <Esc>:w<CR>:VimtexView<CR>
 let g:vimtex_quickfix_mode = 0
 let g:vimtex_fold_enabled =0
 nmap <leader>l <Esc>:VimtexCompile<CR>
-nmap <leader>s <Esc>:VimtexErrors<CR>:Goyo<CR>
-nmap <leader>x <Esc>:VimtexErrors<CR>
+nmap <leader>s <Esc>:VimtexErrors<CR>:Goyo x<CR>
+nmap <leader>x <Esc>:VimtexErrors<CR>:Goyo x<CR>
 
 " NB: this supports "rp that replaces the selection by the contents of @r
 " Auto updating Ctags
@@ -771,6 +773,8 @@ let g:UltiSnipsJumpForwardTrigger="<M-j>"
 let g:UltiSnipsJumpForwardTrigger="<C-j>"
 let g:UltiSnipsListSnippets="<D-e>"
 let g:UltiSnipsListSnippets="<-e>"
+autocmd FileType qf nnoremap <buffer> <Enter> <C-W><Enter><C-W>T:Goyo x<CR>
+autocmd FileType qf nnoremap  <buffer> <A>-q :q:Goyo x<CR>
 
    " Latex shortcuts
    "Latex compile. 
