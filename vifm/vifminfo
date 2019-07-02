@@ -63,3 +63,5 @@ t/.vifm-Trash-0/000_.zsh_history
 	/home/yasha/.zsh_history
 t/.vifm-Trash-0/000_.zshrc
 	/root/.zshrc
+t/.vifm-Trash-0/000_.zplug
+	/root/.oh-my-zsh/plugins/.zplug
