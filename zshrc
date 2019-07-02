@@ -153,9 +153,6 @@ xrandr -s 1920x1080"
 
 alias res2="xrandr --newmode "1920x1080_144.00"  452.50  1920 2088 2296 2672  1080 1083 1088 1177; xrandr --addmode Virtual-1 "1920x1080_144.00";
 xrandr -s 1920x1080"
-
-
-
 alias res3="xrandr --newmode "3440x1440_100.00"  728.00  3440 3728 4104 4768  1440 1443 1453 1527 -hsync +vsync; xrandr --addmode HDMI-1 "3440x1440.100.00";
 xrandr -s 3440x1440
 "
