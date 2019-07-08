@@ -46,7 +46,7 @@ ZSH_THEME="af-magic"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git vi-mode command-not-found github history-substring-search)
+plugins=(git vi-mode command-not-found github history-substring-search fzf-fasd)
 
 # User configuration
 
