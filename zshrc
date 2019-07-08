@@ -151,6 +151,9 @@ alias chrome="chromium --user-data-dir /root"
 alias res="xrandr --newmode "1920x1080_60.00"  173.00  1920 2048 2248 2576  1080 1083 1088 1120; xrandr --addmode Virtual-1 "1920x1080_60.00";
 xrandr -s 1920x1080
 "
+alias res3="xrandr --newmode "3440x1440_100.00"  728.00  3440 3728 4104 4768  1440 1443 1453 1527 -hsync +vsync; xrandr --addmode HDMI-1 "3440x1440.100.00";
+xrandr -s 3440x1440
+"
 alias config="cd ~/dotfiles/; push; cd ~/workspacemodules; pushmod; cd ~/workspace; push; cd web pushgh; pacman -Qqe > pkglist.txt"
 # alias apt="sudo apt-get install"
 # functions
