@@ -20,6 +20,8 @@ myManageHook = composeAll
    [ 
      className =? "Zathura" --> doShift "zathura"
    , className =? "Chromium" --> doShift "chrome"
+   , className =? "Firefox" --> doShift "chrome"
+   , className =? "google-chrome-beta" --> doShift "chrome"
    , className =? "google-chrome" --> doShift "chrome"
    , className =? "Google-chrome" --> doShift "chrome"
    , className =? "Google-Chrome" --> doShift "chrome"

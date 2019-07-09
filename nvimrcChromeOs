@@ -92,6 +92,8 @@ syntax on
 " filetype plugin indent on
 "  General Settings  
 "
+set switchbuf=newtab
+
 set clipboard+=unnamedplus	" yank to the system register (*) by default
 " TAB setting{
    set expandtab        "replace <TAB> with spaces
@@ -143,6 +145,7 @@ set tags+=~/Dropbox/workspace/tags
 " set shada="NONE"
 set wrap
 set linebreak
+" set breakat="!.?"
 set nolist  " list disables linebreak
 set textwidth=0
 set wrapmargin=0
@@ -257,6 +260,12 @@ au FileType tex set background=dark
 "   let cmd = 'sed -i "/' . f . '/d" "' . tagfilename . '"'
 "   let resp = system(cmd)
 " endfunction
+function! Break()
+ let n=130-virtcol('.')
+ <Esc>ni <Esc><Esc>
+endfunction
+
+
 
 function Gitview()
    cd /root/web2 ; git add . ; git commit -m -a ; git push origin gh-pages
@@ -476,6 +485,9 @@ let g:SuperTabContextDiscoverDiscovery= ["&completefunc:<c-x><c-u>", "&omnifunc:
 "--NerdTree
 let g:NERDTreeMapUpdir="<S-h>"
 " General mappings
+"
+"
+"
 map <up> <nop>
 imap <up> <nop>
 imap <down> <nop>
@@ -548,15 +560,6 @@ noremap F ?
 "     execute 'normal! \<Plug>Sneak_s'
 "     syntax on
 " endfunction
-
-
-
-
-
-
-
-
-
 " map n <Plug>Sneak_;
 " map N <Plug>Sneak_,
 " map t <Plug>(smalls-excursion)
@@ -620,15 +623,20 @@ nnoremap <silent> <Leader>y :YRGetElem<CR>
 map ' "
 inoremap <D-]> <C-x><C-]>
 inoremap <C-]> <C-x><C-]>
-
-
 " text editting mappings
 
+au FileType tex,text,md noremap <CR> <Esc>a<Space><Esc>130i <Esc><Esc>g0i
+au FileType tex,text,md inoremap <CR> <Space><Space><Esc>130i <Esc><Esc>g0i
 
-
+au FileType tex,text,md nmap 0 g0
+au FileType tex,text,md nmap 9 g_
+au FileType tex,text,md nmap A g_a
+au FileType tex,text,md nnoremap dd "_g^dg$g^
 au FileType tex,text,md inoremap <A-i> <CR>
-au FileType tex,text,md inoremap <A-i> i<CR>
-au FileType tex,text,md inoremap <CR> <Esc><CR>
+au FileType tex,text,md nnoremap <A-i> a<CR>
+
+au FileType tex,text,md inoremap <A><CR> <CR>
+" au FileType tex,text,md inoremap <CR> <Esc><CR>
 au FileType tex,text,md inoremap .<CR> .<CR><ESC>J0
 au FileType tex,text,md inoremap .<Space> .<CR><ESC>J0
 au FileType tex,text,md inoremap .<ESC> .<CR><ESC>J0
@@ -713,8 +721,8 @@ nmap  <leader>v <Esc>:w<CR>:VimtexView<CR>
 let g:vimtex_quickfix_mode = 0
 let g:vimtex_fold_enabled =0
 nmap <leader>l <Esc>:VimtexCompile<CR>
-nmap <leader>s <Esc>:VimtexErrors<CR>:Goyo<CR>
-nmap <leader>x <Esc>:VimtexErrors<CR>
+nmap <leader>s <Esc>:VimtexErrors<CR>:Goyo x<CR>
+nmap <leader>x <Esc>:VimtexErrors<CR>:Goyo x<CR>
 
 " NB: this supports "rp that replaces the selection by the contents of @r
 " Auto updating Ctags
@@ -771,6 +779,8 @@ let g:UltiSnipsJumpForwardTrigger="<M-j>"
 let g:UltiSnipsJumpForwardTrigger="<C-j>"
 let g:UltiSnipsListSnippets="<D-e>"
 let g:UltiSnipsListSnippets="<-e>"
+autocmd FileType qf nnoremap <buffer> <Enter> <C-W><Enter><C-W>T:Goyo x<CR>
+autocmd FileType qf nnoremap  <buffer> <A>-q :q:Goyo x<CR>
 
    " Latex shortcuts
    "Latex compile. 

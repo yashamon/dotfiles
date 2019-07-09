@@ -9,7 +9,7 @@
 
 dir=~/dotfiles                    # dotfiles directory
 olddir=~/dotfiles_old             # old dotfiles backup directory
-files="bashrc xmonad/xmonad.hs xmonad/xmobar.hs vnc ctags tmux-conf  oh-my-zsh
+files="bashrc asoundrc xmonad/xmonad.hs xmonad/xmobar.hs vnc ctags tmux-conf  oh-my-zsh
 vifm/vifmrc zshrc Xresources xprofile xinitrc latexmkrc"    # list of files/folders to symlink in homedir
 
 ##########
@@ -46,6 +46,7 @@ ln -s ~/dotfiles/xmonad/xmobar.hs ~/.xmobarrc
 mkdir ~/.config/nvim
 rm ~/.config/nvim/init.vim
 ln -s ~/dotfiles/nvimrcChromeOs ~/.config/nvim/init.vim
+ln -s ~/dotfiles/ginit.vim ~/.config/nvim/ginit.vim
 rm ~/.config/nvim/colors
 ln -s ~/dotfiles/colors ~/.config/nvim/colors
 rm ~/.config/nvim/spell 
@@ -58,7 +59,7 @@ ln -s ~/dotfiles/vim-plug/plug.vim ~/.config/nvim/autoload/plug.vim
 mkdir ~/.config/zathura
 mkdir ~/.config/termite
 ln -s ~/dotfiles/zathurarc  ~/.config/zathura/zathurarc
-ln -s ~/dotfiles/termiterc ~/.config/termite/config
+ln -s ~/dotfiles/termiteconfig ~/.config/termite/config
 
 
 echo "Moving zshrc"

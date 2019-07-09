@@ -22,3 +22,6 @@
 [submodule "neovim-qt"]
 	path = neovim-qt
 	url = https://github.com/equalsraf/neovim-qt.git
+[submodule "fzf-z"]
+	path = fzf-z
+	url = https://github.com/andrewferrier/fzf-z.git
