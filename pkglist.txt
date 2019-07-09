@@ -1,6 +1,5 @@
 a2ps
 adobe-source-code-pro-fonts
-
 alsa-utils
 asciidoc
 asoundconf
