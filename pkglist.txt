@@ -55,6 +55,7 @@ iotop
 iproute2
 iputils
 jfsutils
+kitty
 less
 libtool
 licenses
@@ -99,6 +100,7 @@ s-nail
 sed
 shadow
 sudo
+sway
 sysfsutils
 sysstat
 systemd
