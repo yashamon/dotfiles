@@ -145,7 +145,7 @@ set tags+=~/Dropbox/workspace/tags
 " set shada="NONE"
 set wrap
 set linebreak
-" set breakat="!.?"
+set breakat=" "
 set nolist  " list disables linebreak
 set textwidth=0
 set wrapmargin=0
@@ -625,12 +625,12 @@ inoremap <D-]> <C-x><C-]>
 inoremap <C-]> <C-x><C-]>
 " text editting mappings
 
-au FileType tex,text,md noremap <CR> <Esc>a<Space><Esc>130i <Esc><Esc>g0i
-au FileType tex,text,md inoremap <CR> <Space><Space><Esc>130i <Esc><Esc>g0i
+au FileType tex,text,md noremap <CR> <Esc>a<Space><Esc>130i <Esc><Esc>vg0di
+ au FileType tex,text,md inoremap <CR> <Space><Space><Esc>130i <Esc><Esc>vg0di
 
 au FileType tex,text,md nmap 0 g0
-au FileType tex,text,md nmap 9 g_
-au FileType tex,text,md nmap A g_a
+au FileType tex,text,md noremap 9 g$
+" au FileType tex,text,md nmap A g_a
 au FileType tex,text,md nnoremap dd "_g^dg$g^
 au FileType tex,text,md inoremap <A-i> <CR>
 au FileType tex,text,md nnoremap <A-i> a<CR>
