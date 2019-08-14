@@ -144,9 +144,9 @@ set tags+=~/Dropbox/workspace/tags
 " set tw=80
 " set shada="NONE"
 set wrap
-set linebreak
-" set breakat="!.?"
-set nolist  " list disables linebreak
+" set linebreak
+" set breakat=" "
+set list  " list disables linebreak
 set textwidth=0
 set wrapmargin=0
 set hid
@@ -484,7 +484,7 @@ let g:SuperTabContextDiscoverDiscovery= ["&completefunc:<c-x><c-u>", "&omnifunc:
   
 "--NerdTree
 let g:NERDTreeMapUpdir="<S-h>"
-" General mappings
+" General mappings, remaps, maps
 "
 "
 "
@@ -625,21 +625,25 @@ inoremap <D-]> <C-x><C-]>
 inoremap <C-]> <C-x><C-]>
 " text editting mappings
 
-au FileType tex,text,md noremap <CR> <Esc>a<Space><Esc>130i <Esc><Esc>g0i
-au FileType tex,text,md inoremap <CR> <Space><Space><Esc>130i <Esc><Esc>g0i
+" au FileType tex,text,md noremap <CR> <Esc>a<Space><Esc>80i <Esc><Esc>vg0di
+au FileType tex,text,md inoremap <CR> <Space><Space><Esc>80i <Esc><Esc>vg0di
+>>>>>>> d22b2c348b4b6d81ae82ab76e13fcdf25f0fb07c
 
-au FileType tex,text,md nmap 0 g0
-au FileType tex,text,md nmap 9 g_
-au FileType tex,text,md nmap A g_a
+au FileType tex,text,md nmap 0 g^
+au FileType tex,text,md noremap 9 g$
+" au FileType tex,text,md nmap A g_a
 au FileType tex,text,md nnoremap dd "_g^dg$g^
 au FileType tex,text,md inoremap <A-i> <CR>
 au FileType tex,text,md nnoremap <A-i> a<CR>
+au FileType tex,text,md nnoremap <CR> J0
 
 au FileType tex,text,md inoremap <A><CR> <CR>
 " au FileType tex,text,md inoremap <CR> <Esc><CR>
-au FileType tex,text,md inoremap .<CR> .<CR><ESC>J0
-au FileType tex,text,md inoremap .<Space> .<CR><ESC>J0
-au FileType tex,text,md inoremap .<ESC> .<CR><ESC>J0
+au FileType tex,text,md inoremap . .<CR><ESC>J0i
+au FileType tex,text,md inoremap " .
+" au FileType tex,text,md inoremap .<CR> .<CR><ESC>J0
+" au FileType tex,text,md inoremap .<Space> .<CR><ESC>J0
+" au FileType tex,text,md inoremap .<ESC> .<CR><ESC>J0
 au FileType tex,text,md inoremap <leader>cr <CR>
 au FileType tex,text,md noremap map o gj0i<CR><ESC>gki 
 nnoremap <C-j> a<CR><Esc>k$ 
