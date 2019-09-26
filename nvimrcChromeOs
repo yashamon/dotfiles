@@ -628,12 +628,16 @@ inoremap <C-]> <C-x><C-]>
 
 
 
-" au FileType tex,text,md noremap <CR> <Esc>a<Space><Esc>80i <Esc><Esc>vg0di
-
-"  au FileType tex,text,md inoremap <CR> <Space><Space><Esc>80i <Esc><Esc>vg0di
-
+" " au FileType tex,text,md noremap <CR> <Esc>a<Space><Esc>80i <Esc><Esc>vg0di
+" <<<<<<< HEAD
 " au FileType tex,text,md inoremap <CR> <Space><Space><Esc>80i <Esc><Esc>vg0di
-
+" =======
+"
+" "  au FileType tex,text,md inoremap <CR> <Space><Space><Esc>80i <Esc><Esc>vg0di
+"
+" " au FileType tex,text,md inoremap <CR> <Space><Space><Esc>80i <Esc><Esc>vg0di
+"
+" >>>>>>> d28191cda0221ed8f5d2a044c7f97c403c6ed642
 
 au FileType tex,text,md nmap 0 g^
 au FileType tex,text,md noremap 9 g$
@@ -732,7 +736,7 @@ let g:vimtex_quickfix_mode = 0
 let g:vimtex_fold_enabled =0
 nmap <leader>l <Esc>:VimtexCompile<CR>
 nmap <leader>s <Esc>:VimtexErrors<CR>:Goyo x<CR>
-nmap <leader>x <Esc>:VimtexErrors<CR>:Goyo x<CR>
+nmap <leader>x <C-w><up><Esc>:VimtexErrors<CR>:Goyo x<CR>
 nmap <leader>g :Goyo x<CR>
 
 " NB: this supports "rp that replaces the selection by the contents of @r
