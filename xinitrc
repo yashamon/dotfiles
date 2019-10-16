@@ -1,5 +1,5 @@
 setxkbmap -option caps:escape &
-termite &
+kitty &
 xrdb -merge ~/.Xresources &
 xsetroot -cursor_name left_ptr &
 /* xmodmap -e "keycode 133 = Escape" & */
