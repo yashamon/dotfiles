@@ -11,6 +11,7 @@ call plug#begin('~/.vim/plugged')
 " Group dependencies, vim-snippets depends on ultisnips 
 " Plug 'tpope/vim-surround'
 Plug 'neovim/node-host'
+Plug 'gioele/vim-autoswap'
 " Plug 't9md/vim-smalls'
 Plug 'skywind3000/asyncrun.vim'
 Plug 'justinmk/vim-sneak'
@@ -811,6 +812,7 @@ let g:Guifont="Source Code Pro Light:h16"
 " Deoplete
 
 map <silent> <leader>g :silent execute "!(cd /root/web2 ; git add . ; git commit -m -a ; git push origin gh-pages) > /dev/null"<CR>
+set directory=$HOME/Downloads
 
 " fuzzy search
 " function! s:config_fuzzyall(...) abort
