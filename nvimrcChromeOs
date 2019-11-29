@@ -651,8 +651,7 @@ au FileType tex,text,md inoremap <A><CR> <CR>
 " au FileType tex,text,md inoremap <CR> <Esc><CR>
 au FileType tex,text,md inoremap . .<CR><ESC>J0i
 au FileType tex,text,md inoremap <leader>. . 
-au FileType tex,text,md inoremap  . 
->>>>>>> 38114fb4226ad8a0643f0e5fa6820b99c75299c5
+
 " au FileType tex,text,md inoremap .<CR> .<CR><ESC>J0
 " au FileType tex,text,md inoremap .<Space> .<CR><ESC>J0
 " au FileType tex,text,md inoremap .<ESC> .<CR><ESC>J0
