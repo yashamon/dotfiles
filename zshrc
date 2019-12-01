@@ -157,6 +157,7 @@ alias res3="xrandr --newmode "3440x1440_100.00"  728.00  3440 3728 4104 4768  14
 xrandr -s 3440x1440
 "
 alias config="cd ~/dotfiles/; push; cd ~/workspacemodules; pushmod; cd ~/workspace; push; cd web pushgh; pacman -Qqe > pkglist.txt"
+alias lat="latexmk -pvc -pdf -file-line-error -synctex=1 -interaction=nonstopmode -recorder "
 # alias apt="sudo apt-get install"
 # functions
 myfunction() {

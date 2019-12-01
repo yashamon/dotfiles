@@ -145,9 +145,9 @@ set tags+=~/Dropbox/workspace/tags
 " set tw=80
 " set shada="NONE"
 set wrap
-" set linebreak
+set linebreak
 " set breakat=" "
-set list  " list disables linebreak
+" set list  " list disables linebreak
 set textwidth=0
 set wrapmargin=0
 set hid
@@ -735,7 +735,7 @@ let g:vimtex_latexmk_progname = 'nvr'
 nmap  <leader>v <Esc>:w<CR>:VimtexView<CR>
 let g:vimtex_quickfix_mode = 0
 let g:vimtex_fold_enabled =0
-nmap <leader>l :silent execute "AsyncRun latexmk -pvc -pdf -file-line-error -synctex=1 -interaction=nonstopmode -recorder %"<CR>
+" nmap <leader>l :silent execute "AsyncRun latexmk -pvc -pdf -file-line-error -synctex=1 -interaction=nonstopmode -recorder %"<CR>
 
 " VimtexCompile<CR>
 nmap <leader>s <Esc>:VimtexErrors<CR>:Goyo x<CR>
