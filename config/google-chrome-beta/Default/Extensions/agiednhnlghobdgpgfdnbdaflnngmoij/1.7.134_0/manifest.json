@@ -1,0 +1,36 @@
+{
+   "app": {
+      "background": {
+         "scripts": [ "background.js", "installer.js" ]
+      }
+   },
+   "description": "Fork of Caret Editor that has full Tern integration (Intellisense for Javascript)",
+   "file_handlers": {
+      "text": {
+         "extensions": [ "as", "as3", "asm", "bat", "c", "caret-project", "cc", "cfc", "cfm", "cgi", "coffee", "conf", "cpp", "cs", "csh", "css", "csv", "dart", "diff", "do", "ejs", "el", "erb", "glsl", "go", "h", "haml", "handlebars", "haxe", "hs", "htm", "html", "htmls", "ini", "jade", "java", "js", "json", "ksh", "less", "log", "love", "lua", "m", "make", "man", "manifest", "markdown", "mat", "md", "mdoc", "me", "micro", "obc", "patch", "php", "pkb", "pkg", "pks", "pl", "pls", "pm", "ps", "py", "r", "rake", "rb", "sass", "scala", "scss", "sh", "shtml", "sql", "styl", "svg", "tex", "text", "ts", "tsv", "txt", "vbs", "vcf", "xml", "yaml", "yml", "zsh" ],
+         "types": [ "application/javascript", "application/json", "application/x-shellscript", "application/xml", "text/*" ]
+      }
+   },
+   "icons": {
+      "128": "icon-128-inverted.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAg+QKroH3lqJIRdF5ownmrcypL6mF/S5UWPRP48Xq4mV11c3ccKpybK0+s+pOOhSWF/TuGadqhbz2hMQCsDiOTxqnM2j1U3zK0gQ8D3t6d/0rVj8ODqwTi7pRJEseRd3Vpz0j7ze14xXcmYpRVjIVaV7K+aEB5mW6Yk6nOgiVF1OJseGoq2TPXf24/p0ocj1p3e2ekm6VNAw8dpaAY8vckZb6POuDowlR8lrRskduizRByCLCeUPEplIlFMMSh5cgwJnIT3PHNyB9zhDT6FQyJKutjOZcGdIZBI6YpJLYNo6KZk+jDLdhN+Y2FOItGYRud08SP7e3mnRkeKjltzVNBwIDAQAB",
+   "kiosk_enabled": false,
+   "manifest_version": 2,
+   "name": "Caret-T",
+   "offline_enabled": true,
+   "permissions": [ "webview", "clipboardRead", "clipboardWrite", "contextMenus", "storage", "notifications", "syncFileSystem", {
+      "fileSystem": [ "write", "retainEntries", "directory" ]
+   }, "*://*/*" ],
+   "sandbox": {
+      "pages": [ "sandbox.html" ]
+   },
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.7.134",
+   "webview": {
+      "partitions": [ {
+         "accessible_resources": [ "*.js", "*.html" ],
+         "name": "sandbox"
+      } ]
+   }
+}

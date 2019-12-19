@@ -54,7 +54,7 @@ main = xmonad =<< xmobar myConfig
 myConfig = defaultConfig
         { 
           modMask = mod3Mask -- Use control instead of Alt
-        , terminal = "kitty"
+        , terminal = "termite"
         , keys          = \c -> myKeys c `M.union` keys defaultConfig c
         , manageHook = myManageHook
         , layoutHook = mylayoutHook

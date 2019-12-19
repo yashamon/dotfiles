@@ -1,0 +1,26 @@
+{
+   "app": {
+      "launch": {
+         "web_url": "https://calendar.google.com/calendar/render?pli=1#main_7%7Cweek-2+23865+23873+23869"
+      },
+      "linked_icons": [  ]
+   },
+   "description": "",
+   "icons": {
+      "128": "icons/128.png",
+      "256": "icons/256.png",
+      "32": "icons/32.png",
+      "48": "icons/48.png",
+      "64": "icons/64.png",
+      "96": "icons/96.png"
+   },
+   "key": "9KL8ZuUHx9BULLRAviaZdFu1nA+Cwz1+cYqDPFA5i2w=",
+   "name": "Google Calendar - Week of Sep 25, 2016",
+   "url_handlers": {
+      "scope": {
+         "matches": [ "https://calendar.google.com/calendar/render*" ],
+         "title": "Google Calendar - Week of Sep 25, 2016"
+      }
+   },
+   "version": "2019.6.15.19506"
+}

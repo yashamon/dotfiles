@@ -1,0 +1,14 @@
+{
+   "chrome_url_overrides": {
+      "newtab": "redirect.html"
+   },
+   "description": "Redirect new tabs to a given URL.",
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAmsNRfJYHM0XcLKn8ABuZ7moM55ftjhewrwOSKnbpog1R4YYqEDYWMA4CCC3SekSQgNeiMvackRXYIYiNe+WamWbhbbl0q113I2+OoaHyfqzHy08jzzKUJDurBfBRefNYgijMXv2IlRHIOFYtBg9HRph7bA5ErE4zZmsx7g/8aDYui0x+tDP3qErpIF3zUHRE+KhTyH6Ne2FBycqDCSF/YIQkoGK9EhH8K15I5KxPMh+Gw0E+ivrSaEBAIJLl+drZ8ttz2OGWkqcqNFhEx/mirQZdI+m/f+HxOyhO+8DvZ3unhhH82BVBxrHyXGGFeXHpW7Dkm8CQbCpCoEO6Zf7wYwIDAQAB",
+   "manifest_version": 2,
+   "name": "New tab URL",
+   "options_page": "options.html",
+   "permissions": [ "storage", "file:///*" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.0.2",
+   "web_accessible_resources": [ "blank.html" ]
+}

@@ -1,0 +1,110 @@
+{
+   "appClose": {
+      "description": "",
+      "message": "Close"
+   },
+   "appDescription": {
+      "description": "",
+      "message": "Simple tool for generating strong and secure passwords"
+   },
+   "btnCopyAll": {
+      "description": "",
+      "message": "Copy All"
+   },
+   "btnCopyResult": {
+      "description": "",
+      "message": "Copy to clipboard"
+   },
+   "btnCopySelected": {
+      "description": "",
+      "message": "Copy Selected"
+   },
+   "btnGenerate": {
+      "description": "",
+      "message": "Generate"
+   },
+   "historyClearList": {
+      "description": "",
+      "message": "Clear list"
+   },
+   "historyClearListConfirm": {
+      "description": "",
+      "message": "Are you sure?"
+   },
+   "historyClearListConfirmNo": {
+      "description": "",
+      "message": "No"
+   },
+   "historyClearListConfirmYes": {
+      "description": "",
+      "message": "Yes"
+   },
+   "historySelectAll": {
+      "description": "",
+      "message": "all"
+   },
+   "historySelectInvert": {
+      "description": "",
+      "message": "invert"
+   },
+   "historySelectLabel": {
+      "description": "",
+      "message": "Select"
+   },
+   "historySelectNone": {
+      "description": "",
+      "message": "none"
+   },
+   "noItems": {
+      "description": "",
+      "message": "No items found..."
+   },
+   "optLength": {
+      "description": "",
+      "message": "length:"
+   },
+   "optLengthRandom": {
+      "description": "",
+      "message": "random"
+   },
+   "optUse": {
+      "description": "",
+      "message": "use:"
+   },
+   "optUseCustom": {
+      "description": "",
+      "message": "Custom"
+   },
+   "optUseLowercase": {
+      "description": "",
+      "message": "Lowercase letters"
+   },
+   "optUseNumber": {
+      "description": "",
+      "message": "Numbers"
+   },
+   "optUseUppercase": {
+      "description": "",
+      "message": "Uppercase letters"
+   },
+   "optionsRememberHistory": {
+      "description": "",
+      "message": "Remember history of passwords"
+   },
+   "rememberPassWarning": {
+      "description": "",
+      "message": "If you use remembering of password history, don't forget to clear list manualy to prevent stealing of your passwords."
+   },
+   "tabGenerator": {
+      "description": "",
+      "message": "Generator"
+   },
+   "tabHistory": {
+      "description": "",
+      "message": "History"
+   },
+   "tabOptions": {
+      "description": "",
+      "message": "Options"
+   }
+}

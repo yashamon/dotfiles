@@ -1,0 +1,61 @@
+<!doctype html>
+<html>
+    
+    <head>
+        <title>Caret-T</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" type="text/css" href="css/caret.css" id="theme">
+        <link rel="stylesheet" type="text/css" href="css/caret-tern.css" id="ternExtraCss">
+    </head>
+    
+    <body>
+        <div class="titlebar">
+            <b class="app-name">Caret-T</b>
+            <ul class="toolbar"></ul>
+            <div class="window-controls">
+                <a command="app:minimize" title="Minimize">-</a>
+                <a command="app:maximize" title="Maximize">+</a>
+                <a class="close" command="app:exit" title="Close">~</a>
+            </div>
+        </div>
+        <div class="central">
+            <div class="project">
+                <div class="tree"></div>
+                <div class="load-ui">loading
+                    <div class="progress"></div>
+                </div>
+            </div>
+            <div class="editing">
+                <div class="tabs"></div>
+                <div id="editor"></div>
+            </div>
+        </div>
+        <div class="bottom-bar">
+            <div class="status-text"></div>
+            <div class="mode-theme">
+                <select class="syntax" command="session:syntax" tabindex=-1 title="Select syntax"></select>
+                <select class="theme" command="editor:theme" tabindex=-1 title="Select editor theme"></select>
+            </div>
+        </div>
+        <div class="command-line">
+            <input type="text" placeholder="caret:command arguments">
+            <a command="app:hide-prompt" class="close" title="Hide prompt">&times;</a>
+        </div>
+        <div class="palette enter">
+            <div class="main">
+                <h1 class="mode"></h1>
+                <h2 style="display:none; font-size:10px; color:blue; cursor:pointer;" class="searchAll">Search in all Javascript files (quick hack)</h2>
+                <h2 style="display:none; font-size:10px; color:grey; " class="searchAllStatus"></h2>
+                <input class="request" />
+            </div>
+            <ul class="results"></ul>
+        </div>
+        <script src="js/helpers.js"></script>
+        <script charset="UTF-8" src="js/ace/ace.js"></script>
+        <script charset="UTF-8" data-main="./js/main.js" src="require.js"></script>
+        <!-- sandbox -->
+        <!--<iframe id="sandboxFrame" style="display:none;" src="sandbox.html"></iframe>-->
+        <webview partition="sandbox" id="sandboxFrame" name="sandbox" style="display:none;" src="sandbox.html"></webview>
+    </body>
+
+</html>

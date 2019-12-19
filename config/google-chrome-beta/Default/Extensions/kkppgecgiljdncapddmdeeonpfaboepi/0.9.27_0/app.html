@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8" />
+  <title>Bing Wallpaper App</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <style>
+    body {display: block; margin-top: 20px; margin-bottom: 40px; margin-left: 3%; margin-right: 10%; font-family:"Open Sans",Helvetica,Arial,sans-serif; color: #444; font-size: 18px;}
+    #header {margin-bottom: 20px; color: #ef5350;}
+    #page {margin: 0 auto; max-width: 960px; padding: 0 20px;}
+    #title {}
+    html {overflow-y:scroll;}
+    h1 {margin: 10px; font-size: 30px;}
+    .content {margin-top: 20px; margin-bottom: 20px; margin-left: 3%; margin-right: 5%;}
+    a {text-decoration: none; color: #ef5350;}
+    p {text-align: justify;}
+    @media all and (max-width: 480px) {
+      h1 {font-size: 22px;}
+      body {font-size: 15px;}
+    }
+  </style>
+</head>
+<body>
+  <div id="page">
+    <div id="header">
+      <h1 id="title">Bing Wallpaper App for Chromebooks</h1>
+    </div>
+    <div class="content">
+      <p>This app works only on the Chromebooks and other ChromeOS devices. <strong>Doesn't</strong> work on Windows or macOS.</p>
+    </div>
+    <div class="content">
+      <p>It automatically sets Bing.com's <em>Image of the day</em> as the desktop wallpaper on Chromebooks and other ChromeOS devices. Checks periodically for new wallpapers in background. Please note that the Bing wallpapers are restricted to wallpaper use only.</p>
+      <p>App by <a href="https://browsernative.com/bing-wallpaper-chromebook-app/" target="_blank">BrowserNative</a>. Have any feedback or suggestion? Visit <a href="https://browsernative.com/bing-wallpaper-chromebook-app/" target="_blank">our home page</a>, or e-mail at browsernative.apps@gmail.com.</p>
+      <p><a href="http://browsernative.com/extensions/" target="_blank">Check our other apps and extensions</a> available for Chrome and other browsers.</p>
+      <p>If you have a Windows or macOS device, please try our <a href="https://chrome.google.com/webstore/detail/bokmlcmaphhoepkmfjbjbamplloaibnj" target="_blank">this extension</a> which sends notifications for new Bing wallpapers, and provides an easy option to download them.</p>
+      <hr/>
+      <p><a id="reload">&#x27F3; Manually refresh wallpaper ...</a></p>
+    </div>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>

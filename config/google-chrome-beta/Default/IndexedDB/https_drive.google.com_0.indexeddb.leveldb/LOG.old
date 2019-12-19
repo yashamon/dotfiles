@@ -1,0 +1,6 @@
+2019/09/30-09:05:23.839 69c1 Reusing MANIFEST /root/.config/google-chrome-beta/Default/IndexedDB/https_drive.google.com_0.indexeddb.leveldb/MANIFEST-000001
+2019/09/30-09:05:23.839 69c1 Recovering log #4
+2019/09/30-09:05:23.843 69c1 Reusing old log /root/.config/google-chrome-beta/Default/IndexedDB/https_drive.google.com_0.indexeddb.leveldb/000004.log 
+2019/09/30-09:05:24.895 43e7 Level-0 table #8: started
+2019/09/30-09:05:24.906 43e7 Level-0 table #8: 666505 bytes OK
+2019/09/30-09:05:24.911 43e7 Delete type=0 #4

@@ -1,0 +1,110 @@
+{
+   "appClose": {
+      "description": "",
+      "message": "Zavřít"
+   },
+   "appDescription": {
+      "description": "",
+      "message": "Jednoduchý nástroj pro generování silných a bezpečných hesel"
+   },
+   "btnCopyAll": {
+      "description": "",
+      "message": "Kopírovat vše"
+   },
+   "btnCopyResult": {
+      "description": "",
+      "message": "Kopírovat do schránky"
+   },
+   "btnCopySelected": {
+      "description": "",
+      "message": "Kopírovat vybrané"
+   },
+   "btnGenerate": {
+      "description": "",
+      "message": "Vygenerovat"
+   },
+   "historyClearList": {
+      "description": "",
+      "message": "Smazat"
+   },
+   "historyClearListConfirm": {
+      "description": "",
+      "message": "Jste si jistí?"
+   },
+   "historyClearListConfirmNo": {
+      "description": "",
+      "message": "Ne"
+   },
+   "historyClearListConfirmYes": {
+      "description": "",
+      "message": "Ano"
+   },
+   "historySelectAll": {
+      "description": "",
+      "message": "vše"
+   },
+   "historySelectInvert": {
+      "description": "",
+      "message": "invertovat"
+   },
+   "historySelectLabel": {
+      "description": "",
+      "message": "Vybrat"
+   },
+   "historySelectNone": {
+      "description": "",
+      "message": "nic"
+   },
+   "noItems": {
+      "description": "",
+      "message": "Nebyly nalezeny žádné položky..."
+   },
+   "optLength": {
+      "description": "",
+      "message": "délka:"
+   },
+   "optLengthRandom": {
+      "description": "",
+      "message": "náhodná"
+   },
+   "optUse": {
+      "description": "",
+      "message": "použít:"
+   },
+   "optUseCustom": {
+      "description": "",
+      "message": "Vlastní"
+   },
+   "optUseLowercase": {
+      "description": "",
+      "message": "Malá písmena"
+   },
+   "optUseNumber": {
+      "description": "",
+      "message": "Čísla"
+   },
+   "optUseUppercase": {
+      "description": "",
+      "message": "Velká písmena"
+   },
+   "optionsRememberHistory": {
+      "description": "",
+      "message": "Pamatovat historii hesel"
+   },
+   "rememberPassWarning": {
+      "description": "",
+      "message": "Pokud použijete zapamatování historie hesel, nezapomeňte historii mazat ručně, abyste předešli případnému zcizení hesel."
+   },
+   "tabGenerator": {
+      "description": "",
+      "message": "Generátor"
+   },
+   "tabHistory": {
+      "description": "",
+      "message": "Historie"
+   },
+   "tabOptions": {
+      "description": "",
+      "message": "Možnosti"
+   }
+}

@@ -1,0 +1,22 @@
+{
+   "app": {
+      "background": {
+         "scripts": [ "main.js" ]
+      }
+   },
+   "author": "Akmal Razali",
+   "default_locale": "en",
+   "description": "__MSG_appDesc__",
+   "icons": {
+      "128": "icon_128.png",
+      "16": "icon_16.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAlg261kBntfu9JzGeFjcfVsmhDnJKq1TFhqrelfq/kuDxkiok0E2E0FqaURFL9zSgKrc5LRTRI2s5HDKP0qrYsRIqBQ9w+imYCJitnkVKNX8iWU6rmE+uxlXImOr9NAxxM5Yuk+2Px+7gUWROYW8t0dcEhKxUNZ8AnOgzbgOuoMogJAjZ5mFf8LFjk85WMX2kt1w484gbUpvzTVEz6yFc6+EN1upWtNzMb/26NSIAHkLHM250oVFGaoEU/p3+Ip/PyAc+hgnEoCevF42MjqxG6UHmOi2J61G4rUnkAWhgrDoOby2RZ9SIEutt7mQFeST57lBSW0BPSput4Z0KNyy7OQIDAQAB",
+   "manifest_version": 2,
+   "minimum_chrome_version": "36.0",
+   "name": "Google Contacts Launcher",
+   "permissions": [ "audio", "audioCapture", "notifications", "videoCapture", "webview", "tabs", "storage", "notifications" ],
+   "short_name": "Contacts",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.0"
+}

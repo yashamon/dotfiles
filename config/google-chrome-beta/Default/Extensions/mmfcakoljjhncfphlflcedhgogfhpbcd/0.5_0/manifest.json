@@ -1,0 +1,32 @@
+{
+   "api_console_project_id": "824911851129",
+   "app": {
+      "launch": {
+         "web_url": "https://zip-extractor.appspot.com/"
+      }
+   },
+   "container": "GOOGLE_DRIVE",
+   "description": "Decompress ZIP files to Google Drive",
+   "gdrive_mime_types": {
+      "http://drive.google.com/intents/opendrivedoc": [ {
+         "disposition": "window",
+         "href": "https://zip-extractor.appspot.com/",
+         "title": "Open",
+         "type": [ "application/zip", "application/x-zip", "application/x-zip-compressed", "application/vnd.google.drive.ext-type.zip" ]
+      } ]
+   },
+   "icons": {
+      "128": "zip-extractor-icon-128.png",
+      "16": "zip-extractor-icon-16.png",
+      "24": "zip-extractor-icon-24.png",
+      "256": "zip-extractor-icon-256.png",
+      "32": "zip-extractor-icon-32.png",
+      "48": "zip-extractor-icon-48.png",
+      "64": "zip-extractor-icon-64.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAkYJmRw9qQOwEtDNcuGOhtBHPfkv8zKS5Qh4FnALqXj1mhd2rpZkVmZ7QDnmZ/lhSZ8Pmhvy8RioaxHfFe9bBMLE91w/Pha9TCAP+jvz3ahYt4NamoNECz87GF1AhgdXYNcteOuvq2rzJEzwo+xe/pvyA9cjOcyPtHXIC6Fya95MCWs4n+xm7eNNekvSLV8PqyW7nil58eNuvvBiHXUyyrul2y2txYRrzGOoRV1vrpR9yKCPGHb9drBuaAOfJQHC5uZ2JxSrCNNMG0SW6BE7AqggV4qRY+XjpyQ479RpvIMWDd/PDVlnnl6zenuhnCyR8tLEzAOyscvPwh9tUEmEj1wIDAQAB",
+   "manifest_version": 2,
+   "name": "ZIP Extractor",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "0.5"
+}

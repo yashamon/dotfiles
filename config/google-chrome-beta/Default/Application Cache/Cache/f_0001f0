@@ -1,0 +1,326 @@
+CACHE MANIFEST
+# v 433.2004716897
+# 0
+
+CACHE:
+//ssl.gstatic.com/inputtools/images/ita_sprite2.png
+//ssl.gstatic.com/inputtools/js/kbd/3/ar.js
+//ssl.gstatic.com/inputtools/js/kbd/3/be.js
+//ssl.gstatic.com/inputtools/js/kbd/3/bn_inscript.js
+//ssl.gstatic.com/inputtools/js/kbd/3/bn_phone.js
+//ssl.gstatic.com/inputtools/js/kbd/3/ethi.js
+//ssl.gstatic.com/inputtools/js/kbd/3/bg.js
+//ssl.gstatic.com/inputtools/js/kbd/3/bg_phone.js
+//ssl.gstatic.com/inputtools/js/kbd/3/el.js
+//ssl.gstatic.com/inputtools/js/kbd/3/fa.js
+//ssl.gstatic.com/inputtools/js/kbd/3/gu_inscript.js
+//ssl.gstatic.com/inputtools/js/kbd/3/gu_phone.js
+//ssl.gstatic.com/inputtools/js/kbd/3/he.js
+//ssl.gstatic.com/inputtools/js/kbd/3/hi.js
+//ssl.gstatic.com/inputtools/js/kbd/3/deva_phone.js
+//ssl.gstatic.com/inputtools/js/kbd/3/iw.js
+//ssl.gstatic.com/inputtools/js/kbd/3/kn_inscript.js
+//ssl.gstatic.com/inputtools/js/kbd/3/kn_phone.js
+//ssl.gstatic.com/inputtools/js/kbd/3/ml_inscript.js
+//ssl.gstatic.com/inputtools/js/kbd/3/ml_phone.js
+//ssl.gstatic.com/inputtools/js/kbd/3/or_inscript.js
+//ssl.gstatic.com/inputtools/js/kbd/3/or_phone.js
+//ssl.gstatic.com/inputtools/js/kbd/3/guru_inscript.js
+//ssl.gstatic.com/inputtools/js/kbd/3/guru_phone.js
+//ssl.gstatic.com/inputtools/js/kbd/3/ru.js
+//ssl.gstatic.com/inputtools/js/kbd/3/sa_phone.js
+//ssl.gstatic.com/inputtools/js/kbd/3/si.js
+//ssl.gstatic.com/inputtools/js/kbd/3/sr_cyrl.js
+//ssl.gstatic.com/inputtools/js/kbd/3/sr_latn.js
+//ssl.gstatic.com/inputtools/js/kbd/3/ta_inscript.js
+//ssl.gstatic.com/inputtools/js/kbd/3/ta_phone.js
+//ssl.gstatic.com/inputtools/js/kbd/3/te_inscript.js
+//ssl.gstatic.com/inputtools/js/kbd/3/te_phone.js
+//ssl.gstatic.com/inputtools/js/kbd/3/uk_101.js
+//ssl.gstatic.com/inputtools/js/kbd/3/ur.js
+//ssl.gstatic.com/inputtools/js/kbd/3/vi_telex.js
+//ssl.gstatic.com/inputtools/js/kbd/3/vi_viqr.js
+//ssl.gstatic.com/inputtools/js/kbd/3/vi_tcvn.js
+/static/document/client/js/2543941217-snapshot_bin.js
+/static/document/client/js/2715391854-snapshot_bin_debug.js
+//fonts.gstatic.com/s/roboto/v18/KFOjCnqEu92Fr1Mu51S7ACc3CsTKlA.woff2
+//fonts.gstatic.com/s/roboto/v18/KFOjCnqEu92Fr1Mu51S7ACc2CsTKlA.woff2
+//fonts.gstatic.com/s/roboto/v18/KFOjCnqEu92Fr1Mu51S7ACc6CsQ.woff2
+//fonts.gstatic.com/s/roboto/v18/KFOjCnqEu92Fr1Mu51S7ACc-CsTKlA.woff2
+//fonts.gstatic.com/s/roboto/v18/KFOjCnqEu92Fr1Mu51S7ACc5CsTKlA.woff2
+//fonts.gstatic.com/s/roboto/v18/KFOjCnqEu92Fr1Mu51S7ACc1CsTKlA.woff2
+//fonts.gstatic.com/s/roboto/v18/KFOjCnqEu92Fr1Mu51S7ACc0CsTKlA.woff2
+//fonts.gstatic.com/s/roboto/v18/KFOjCnqEu92Fr1Mu51TzBic1CsTKlA.woff2
+//fonts.gstatic.com/s/roboto/v18/KFOjCnqEu92Fr1Mu51TzBic6CsQ.woff2
+//fonts.gstatic.com/s/roboto/v18/KFOjCnqEu92Fr1Mu51TzBic2CsTKlA.woff2
+//fonts.gstatic.com/s/roboto/v18/KFOjCnqEu92Fr1Mu51TzBic5CsTKlA.woff2
+//fonts.gstatic.com/s/roboto/v18/KFOjCnqEu92Fr1Mu51TzBic-CsTKlA.woff2
+//fonts.gstatic.com/s/roboto/v18/KFOjCnqEu92Fr1Mu51TzBic3CsTKlA.woff2
+//fonts.gstatic.com/s/roboto/v18/KFOjCnqEu92Fr1Mu51TzBic0CsTKlA.woff2
+//fonts.gstatic.com/s/roboto/v18/KFOmCnqEu92Fr1Mu5mxKOzY.woff2
+//fonts.gstatic.com/s/roboto/v18/KFOmCnqEu92Fr1Mu7GxKOzY.woff2
+//fonts.gstatic.com/s/roboto/v18/KFOmCnqEu92Fr1Mu72xKOzY.woff2
+//fonts.gstatic.com/s/roboto/v18/KFOmCnqEu92Fr1Mu7mxKOzY.woff2
+//fonts.gstatic.com/s/roboto/v18/KFOmCnqEu92Fr1Mu4WxKOzY.woff2
+//fonts.gstatic.com/s/roboto/v18/KFOmCnqEu92Fr1Mu7WxKOzY.woff2
+//fonts.gstatic.com/s/roboto/v18/KFOmCnqEu92Fr1Mu4mxK.woff2
+//fonts.gstatic.com/s/roboto/v18/KFOlCnqEu92Fr1MmWUlfCxc4EsA.woff2
+//fonts.gstatic.com/s/roboto/v18/KFOlCnqEu92Fr1MmWUlfCBc4EsA.woff2
+//fonts.gstatic.com/s/roboto/v18/KFOlCnqEu92Fr1MmWUlfBxc4EsA.woff2
+//fonts.gstatic.com/s/roboto/v18/KFOlCnqEu92Fr1MmWUlfBBc4.woff2
+//fonts.gstatic.com/s/roboto/v18/KFOlCnqEu92Fr1MmWUlfCRc4EsA.woff2
+//fonts.gstatic.com/s/roboto/v18/KFOlCnqEu92Fr1MmWUlfABc4EsA.woff2
+//fonts.gstatic.com/s/roboto/v18/KFOlCnqEu92Fr1MmWUlfChc4EsA.woff2
+//fonts.gstatic.com/s/roboto/v18/KFOlCnqEu92Fr1MmEU9fCBc4EsA.woff2
+//fonts.gstatic.com/s/roboto/v18/KFOlCnqEu92Fr1MmEU9fCxc4EsA.woff2
+//fonts.gstatic.com/s/roboto/v18/KFOlCnqEu92Fr1MmEU9fBxc4EsA.woff2
+//fonts.gstatic.com/s/roboto/v18/KFOlCnqEu92Fr1MmEU9fBBc4.woff2
+//fonts.gstatic.com/s/roboto/v18/KFOlCnqEu92Fr1MmEU9fCRc4EsA.woff2
+//fonts.gstatic.com/s/roboto/v18/KFOlCnqEu92Fr1MmEU9fABc4EsA.woff2
+//fonts.gstatic.com/s/roboto/v18/KFOlCnqEu92Fr1MmEU9fChc4EsA.woff2
+//fonts.gstatic.com/s/roboto/v18/KFOkCnqEu92Fr1Mu51xLIzIFKw.woff2
+//fonts.gstatic.com/s/roboto/v18/KFOkCnqEu92Fr1Mu51xMIzIFKw.woff2
+//fonts.gstatic.com/s/roboto/v18/KFOkCnqEu92Fr1Mu51xEIzIFKw.woff2
+//fonts.gstatic.com/s/roboto/v18/KFOkCnqEu92Fr1Mu51xIIzI.woff2
+//fonts.gstatic.com/s/roboto/v18/KFOkCnqEu92Fr1Mu51xHIzIFKw.woff2
+//fonts.gstatic.com/s/roboto/v18/KFOkCnqEu92Fr1Mu51xFIzIFKw.woff2
+//fonts.gstatic.com/s/roboto/v18/KFOkCnqEu92Fr1Mu51xGIzIFKw.woff2
+//fonts.gstatic.com/s/googlesans/v14/4UaGrENHsxJlGDuGo1OIlL3Nwp5MKg.woff2
+//fonts.gstatic.com/s/googlesans/v14/4UaGrENHsxJlGDuGo1OIlL3Awp5MKg.woff2
+//fonts.gstatic.com/s/googlesans/v14/4UaGrENHsxJlGDuGo1OIlL3Kwp5MKg.woff2
+//fonts.gstatic.com/s/googlesans/v14/4UaGrENHsxJlGDuGo1OIlL3Bwp5MKg.woff2
+//fonts.gstatic.com/s/googlesans/v14/4UaGrENHsxJlGDuGo1OIlL3Owp4.woff2
+//fonts.gstatic.com/s/googlesans/v14/4UabrENHsxJlGDuGo1OIlLU94Yt3CwZ-Pw.woff2
+//fonts.gstatic.com/s/googlesans/v14/4UabrENHsxJlGDuGo1OIlLU94YtzCwY.woff2
+//fonts.gstatic.com/s/googlesans/v14/4UabrENHsxJlGDuGo1OIlLU94YtwCwZ-Pw.woff2
+//fonts.gstatic.com/s/googlesans/v14/4UabrENHsxJlGDuGo1OIlLU94Yt8CwZ-Pw.woff2
+//fonts.gstatic.com/s/googlesans/v14/4UabrENHsxJlGDuGo1OIlLU94Yt9CwZ-Pw.woff2
+//fonts.gstatic.com/s/googlesans/v14/4UaErENHsxJlGDuGo1OIlL3L8p9ULjtH.woff2
+//fonts.gstatic.com/s/googlesans/v14/4UaErENHsxJlGDuGo1OIlL3L8pxULg.woff2
+//fonts.gstatic.com/s/googlesans/v14/4UaErENHsxJlGDuGo1OIlL3L8phULjtH.woff2
+//fonts.gstatic.com/s/googlesans/v14/4UaErENHsxJlGDuGo1OIlL3L8pNULjtH.woff2
+//fonts.gstatic.com/s/googlesans/v14/4UaErENHsxJlGDuGo1OIlL3L8pJULjtH.woff2
+//fonts.gstatic.com/s/googlesans/v14/4UaZrENHsxJlGDuGo1OIlL3L-m93OwpmO24p.woff2
+//fonts.gstatic.com/s/googlesans/v14/4UaZrENHsxJlGDuGo1OIlL3L-m93OwBmO24p.woff2
+//fonts.gstatic.com/s/googlesans/v14/4UaZrENHsxJlGDuGo1OIlL3L-m93OwtmO24p.woff2
+//fonts.gstatic.com/s/googlesans/v14/4UaZrENHsxJlGDuGo1OIlL3L-m93OwRmOw.woff2
+//fonts.gstatic.com/s/googlesans/v14/4UaZrENHsxJlGDuGo1OIlL3L-m93OwdmO24p.woff2
+//fonts.gstatic.com/s/googlesans/v14/4UabrENHsxJlGDuGo1OIlLV154t9CwZ-Pw.woff2
+//fonts.gstatic.com/s/googlesans/v14/4UabrENHsxJlGDuGo1OIlLV154t3CwZ-Pw.woff2
+//fonts.gstatic.com/s/googlesans/v14/4UabrENHsxJlGDuGo1OIlLV154twCwZ-Pw.woff2
+//fonts.gstatic.com/s/googlesans/v14/4UabrENHsxJlGDuGo1OIlLV154t8CwZ-Pw.woff2
+//fonts.gstatic.com/s/googlesans/v14/4UabrENHsxJlGDuGo1OIlLV154tzCwY.woff2
+//fonts.gstatic.com/s/googlesans/v14/4UaZrENHsxJlGDuGo1OIlL3L-idxOwBmO24p.woff2
+//fonts.gstatic.com/s/googlesans/v14/4UaZrENHsxJlGDuGo1OIlL3L-idxOwpmO24p.woff2
+//fonts.gstatic.com/s/googlesans/v14/4UaZrENHsxJlGDuGo1OIlL3L-idxOwtmO24p.woff2
+//fonts.gstatic.com/s/googlesans/v14/4UaZrENHsxJlGDuGo1OIlL3L-idxOwdmO24p.woff2
+//fonts.gstatic.com/s/googlesans/v14/4UaZrENHsxJlGDuGo1OIlL3L-idxOwRmOw.woff2
+# ca7698b6ae9b17990cd94fb52920ee2c3c4ce68f
+/static/document/client/js/4025268615-client_js_prod_integrated_kix_core.js
+# 6b743635a66cc5cae362b7cfbddb01628d23195e
+/static/document/client/js/3825801602-client_js_prod_integrated_kix_app.js
+# 46b4724ee259c95c6264dd2544abf56a2710693e
+/static/document/client/js/1011575067-client_js_prod_integrated_kix_canvas.js
+# 0a16f9312294280be143301420b7c91734cb8d43
+/static/document/client/js/2140835837-client_js_prod_integrated_kix_a11y.js
+# c81ea77c34749c796926edcc83557f1883b78ade
+/static/document/client/js/1529510635-client_js_prod_integrated_kix_jstex.js
+# 9530a01279225273d6a1613eee21833f65a200ee
+/static/document/client/js/1358373580-client_js_prod_integrated_kix_tertiary.js
+# 6fb4bb99ea0e4eebb5a19370af1ff0bd4d69b2de
+/static/document/client/js/470605992-client_js_prod_integrated_add_ons_app_finder_populator.js
+# 5df931fcad4fb3dafbc23ec29652a6c424a19a4e
+/static/document/client/js/3132843680-client_js_prod_integrated_add_ons_host_content_factory.js
+# 200b8a451a3b4468d27e6053c0cfee68c70ece08
+/static/document/client/js/1353012058-client_js_prod_integrated_datetimesymbols.js
+# 813beed3e3fee76cf9f5e0da8a2713fbb22642cd
+/static/document/client/js/60294265-client_js_prod_integrated_kix_add_ons.js
+# 4c3a45436af8b34902d6cc2f833b3dff10885fb8
+/static/document/client/js/1058014075-client_js_prod_integrated_kix_analytics.js
+# 3154dad80bac769a5b50b5b6ef20f9d78dc88be8
+/static/document/client/js/2360132854-client_js_prod_integrated_kix_approvals.js
+# d08e6e09e04410639ca1e725cbc463157918be94
+/static/document/client/js/921153231-client_js_prod_integrated_kix_companion.js
+# f2a0d1096e6cb031295eaa87ef1ea4a06842905b
+/static/document/client/js/834875399-client_js_prod_integrated_kix_cse.js
+# f5b1e9fa4beee7ac88f6800cfd9dcbcfa809fc0e
+/static/document/client/js/2382554898-client_js_prod_integrated_kix_ita.js
+# b59683faa8435f2a717b8280009b40a3557e7240
+/static/document/client/js/2494008004-client_js_prod_integrated_viewer.js
+# d058e041e3618eca150342b844751e072a425836
+/static/document/client/js/886316925-client_js_prod_integrated_analytics_gviz.js
+# 0d878a886f3d2e938384773886e2ce2fa766f2a4
+/static/document/client/css/2372933518-v4-KixCss_ltr.css
+https://ssl.gstatic.com/docs/common/h_sprite52.svg
+https://ssl.gstatic.com/docs/common/h_sprite52_grey_medium.svg
+https://ssl.gstatic.com/docs/common/material_common_sprite137.svg
+https://ssl.gstatic.com/docs/common/material_common_sprite137_grey_medium.svg
+https://ssl.gstatic.com/docs/clipboard/icons3.png
+https://ssl.gstatic.com/docs/common/addon_docs_promo.svg
+https://ssl.gstatic.com/docs/common/addon_forms_promo.svg
+https://ssl.gstatic.com/docs/common/addon_sheets_promo.svg
+https://ssl.gstatic.com/docs/common/arrow_spinner.svg
+https://ssl.gstatic.com/docs/common/branding_sprite1.svg
+https://ssl.gstatic.com/docs/common/checkboard.png
+https://ssl.gstatic.com/docs/common/jfk_sprite186.png
+https://ssl.gstatic.com/docs/common/jfk_sprite_hdpi124.png
+https://ssl.gstatic.com/docs/common/loading_animation.gif
+https://ssl.gstatic.com/docs/common/material_offline_sprite2.svg
+https://ssl.gstatic.com/docs/common/mobileweb_sprite1.png
+https://ssl.gstatic.com/docs/common/mobileweb_sprite_hdpi1.png
+https://ssl.gstatic.com/docs/common/menu_feature_sprite7.svg
+https://ssl.gstatic.com/docs/common/profile/endangered/promo/orangutan3.jpg
+https://ssl.gstatic.com/docs/common/promo_arrows-0.png
+https://ssl.gstatic.com/docs/common/promo_close-0.png
+https://ssl.gstatic.com/docs/common/revisions_sprite1.svg
+https://ssl.gstatic.com/docs/common/shortcut_sprite1.png
+https://ssl.gstatic.com/docs/picker/images/loading_spinner.svg
+https://ssl.gstatic.com/docs/picker/images/loading_spinner_small.svg
+https://ssl.gstatic.com/docs/picker/images/no_search.png
+https://ssl.gstatic.com/docs/presentations/images/punch_viewer_sprite8.png
+https://ssl.gstatic.com/docs/presentations/images/punch_viewer_sprite_hdpi8.png
+https://ssl.gstatic.com/docs/script/images/spin-wait.gif
+https://ssl.gstatic.com/editor/button-bg.png
+https://ssl.gstatic.com/editor/editortoolbar.png
+https://ssl.gstatic.com/gb/images/i1_61143e6d.png
+https://ssl.gstatic.com/images/icons/material/system/1x/arrow_drop_down_black_24dp.png
+https://ssl.gstatic.com/images/icons/material/system/2x/arrow_drop_down_black_24dp.png
+https://ssl.gstatic.com/images/icons/material/system/svg/close_18px.svg
+https://ssl.gstatic.com/images/icons/material/system/svg/keyboard_arrow_left_24px.svg
+https://ssl.gstatic.com/images/icons/material/system/svg/keyboard_arrow_right_24px.svg
+https://ssl.gstatic.com/images/icons/material/system/svg/search_24px.svg
+https://ssl.gstatic.com/inputtools/images/lens.svg
+https://ssl.gstatic.com/inputtools/images/ita_sprite6.png
+https://ssl.gstatic.com/inputtools/images/reset.png
+https://ssl.gstatic.com/ui/v1/activityindicator/offline.png
+https://ssl.gstatic.com/ui/v1/activityindicator/offline_16.png
+https://ssl.gstatic.com/ui/v1/bubble/close-x.png
+https://ssl.gstatic.com/ui/v1/button/search-white.png
+https://ssl.gstatic.com/ui/v1/colorpicker/checkmark.png
+https://ssl.gstatic.com/ui/v1/dialog/close-x.png
+https://ssl.gstatic.com/ui/v1/disclosure/grey-disclosure-arrow.png
+https://ssl.gstatic.com/ui/v1/disclosure/grey-disclosure-arrow-up-down.png
+https://ssl.gstatic.com/ui/v1/disclosure/light-grey-disclosure-arrow-down.png
+https://ssl.gstatic.com/ui/v1/disclosure/small-grey-disclosure-arrow-down.png
+https://ssl.gstatic.com/ui/v1/icons/common/down_arrow.png
+https://ssl.gstatic.com/ui/v1/icons/common/settings.png
+https://ssl.gstatic.com/ui/v1/icons/common/x_8px.png
+https://ssl.gstatic.com/ui/v1/icons/common/info_black2.svg
+https://ssl.gstatic.com/ui/v1/icons/common/info_blue.svg
+https://ssl.gstatic.com/ui/v1/icons/common/info_white2.svg
+https://ssl.gstatic.com/ui/v1/menu/checkmark-partial.png
+https://ssl.gstatic.com/ui/v1/menu/checkmark-partial_2x.png
+https://ssl.gstatic.com/ui/v1/menu/checkmark.png
+https://ssl.gstatic.com/ui/v1/menu/checkmark_2x.png
+https://ssl.gstatic.com/ui/v1/radiobutton/checked.png
+https://ssl.gstatic.com/ui/v1/radiobutton/checked-disabled.png
+https://ssl.gstatic.com/ui/v1/radiobutton/checked_focused.png
+https://ssl.gstatic.com/ui/v1/radiobutton/unchecked.png
+https://ssl.gstatic.com/ui/v1/radiobutton/unchecked-disabled.png
+https://ssl.gstatic.com/ui/v1/radiobutton/unchecked_focused.png
+https://ssl.gstatic.com/ui/v1/star/star4.png
+https://ssl.gstatic.com/ui/v1/star/star4_2x.png
+https://ssl.gstatic.com/ui/v1/star/star-hover4.png
+https://ssl.gstatic.com/ui/v1/star/star-hover4_2x.png
+https://ssl.gstatic.com/ui/v1/star/star-active4.png
+https://ssl.gstatic.com/ui/v1/star/star-active4_2x.png
+https://ssl.gstatic.com/ui/v1/star/star-lit4.png
+https://ssl.gstatic.com/ui/v1/star/star-lit4_2x.png
+https://ssl.gstatic.com/ui/v1/star/star-lit-active4.png
+https://ssl.gstatic.com/ui/v1/star/star-lit-active4_2x.png
+https://ssl.gstatic.com/ui/v1/star/star-lit-hover4.png
+https://ssl.gstatic.com/ui/v1/star/star-lit-hover4_2x.png
+https://ssl.gstatic.com/docs/common/d-icons30.png
+https://ssl.gstatic.com/s2/profiles/images/silhouette96.png
+https://ssl.gstatic.com/docs/documents/share/images/ess-icons-4.png
+https://ssl.gstatic.com/docs/documents/share/images/icons-9.png
+https://ssl.gstatic.com/docs/documents/share/images/spinner-1.gif
+https://ssl.gstatic.com/docs/documents/share/images/sprite-22.svg
+https://ssl.gstatic.com/docs/common/h_sprite52_blue.svg
+https://ssl.gstatic.com/docs/common/material_common_sprite137_blue.svg
+https://ssl.gstatic.com/closure/check-sprite.gif
+https://ssl.gstatic.com/docs/common/icons9.png
+https://ssl.gstatic.com/docs/common/product/docs_lockup1.png
+https://ssl.gstatic.com/docs/documents/images/icons-25.png
+https://ssl.gstatic.com/docs/documents/images/dimension-highlighted.png
+https://ssl.gstatic.com/docs/documents/images/dimension-unhighlighted.png
+https://ssl.gstatic.com/docs/documents/images/kix-favicon7.ico
+https://ssl.gstatic.com/docs/drawings/images/hsva-sprite-sm.gif
+https://ssl.gstatic.com/docs/drawings/images/hsva-sprite-sm.png
+https://ssl.gstatic.com/docs/presentations/images/icons-8.png
+https://ssl.gstatic.com/docs/common/ee-palettes-2.gif
+https://ssl.gstatic.com/editor/toolbar-bg.png
+https://ssl.gstatic.com/s2/profiles/images/Close.gif
+/static/document/client/js/1005579871-homescreen_binary_i18n_core.js
+/static/document/client/js/1959589952-homescreen_binary_i18n_app.js
+/static/document/client/js/2170716481-homescreen_binary_i18n_offline.js
+/static/document/client/js/4012715288-homescreen_binary_i18n_wiz.js
+# 7a011953e0f420ff9fd54b589581b1d7dbec34fc
+/static/document/client/css/1408574381-homescreen_kix_css_ltr.css
+# 6b9759c3d10050f61bf42c8ab9605398d58f5d2f
+/static/document/client/css/3344767928-homescreen_quantum_css_gecko_ltr.css
+# 13a44c1c3107dc2f201a6b8eaf32891867b34fc6
+/static/document/client/css/1519488314-homescreen_quantum_css_ie_ltr.css
+# 9a4d4ddcc91bd324da5ee83e6cf8694074f9d698
+/static/document/client/css/3437209868-homescreen_quantum_css_webkit_ltr.css
+
+FALLBACK:
+
+CHROMIUM-INTERCEPT:
+https://docs.google.com/document/snapshot.js?ouid=u63175c2975462092&uc=en&jobset=prod&ftrack=1 return https://docs.google.com/document/snapshot.js?ouid=u63175c2975462092&uc=en&jobset=prod&ftrack=1&releaseData=-1787703755
+https://docs.google.com/document/offline/hs?ouid=u63175c2975462092&uc=en&jobset=prod&ftrack=1 return https://docs.google.com/document/offline/hs?ouid=u63175c2975462092&uc=en&jobset=prod&ftrack=1&releaseData=-1787703755
+https://docs.google.com/document/offline/edit?ouid=u63175c2975462092&uc=en&jobset=prod&ftrack=1 return https://docs.google.com/document/offline/edit?ouid=u63175c2975462092&uc=en&jobset=prod&ftrack=1&releaseData=-1787703755
+https://docs.google.com/document/offline/view?ouid=u63175c2975462092&uc=en&jobset=prod&ftrack=1 return https://docs.google.com/document/offline/view?ouid=u63175c2975462092&uc=en&jobset=prod&ftrack=1&releaseData=-1787703755
+https://docs.google.com/document/offline/comment?ouid=u63175c2975462092&uc=en&jobset=prod&ftrack=1 return https://docs.google.com/document/offline/comment?ouid=u63175c2975462092&uc=en&jobset=prod&ftrack=1&releaseData=-1787703755
+https://docs.google.com/document/offline/viewcomments?ouid=u63175c2975462092&uc=en&jobset=prod&ftrack=1 return https://docs.google.com/document/offline/viewcomments?ouid=u63175c2975462092&uc=en&jobset=prod&ftrack=1&releaseData=-1787703755
+
+NETWORK:
+//ssl.gstatic.com/inputtools
+//www.google.com/inputtools
+https://ssl.gstatic.com/docs/common/netcheck.gif
+//ssl.gstatic.com/gb/
+//static.corp.google.com/gb/
+https://docs.google.com/document/font/getmetadata
+//themes.googleusercontent.com
+//fonts.gstatic.com
+//www-kixfonts-opensocial.googleusercontent.com
+//lh3.googleusercontent.com
+//lh4.googleusercontent.com
+//lh5.googleusercontent.com
+//lh6.googleusercontent.com
+https://docs.google.com/document/onegoogle
+https://docs.google.com/document/prefs
+https://www.googleapis.com/scribe/v1/
+https://docs.google.com/document/scripts/config
+https://docs.google.com/document/scripts/cancel
+https://docs.google.com/document/scripts/invoke
+https://docs.google.com/document/scripts/resume
+https://docs.google.com/document/scripts/disableitem
+https://docs.google.com/document/scripts/enableitem
+https://docs.google.com/document/scripts/getitems
+https://docs.google.com/document/scripts/lookupstoreitem
+https://docs.google.com/document/scripts/installitem
+https://docs.google.com/document/scripts/oauthurl
+https://docs.google.com/document/scripts/sendissuereport
+https://docs.google.com/document/scripts/uninstallitem
+https://docs.google.com/document/scripts/libraries
+https://docs.google.com/document/scripts/uiready
+https://docs.google.com/document/save
+https://docs.google.com/document/active
+https://docs.google.com/document/chat
+https://docs.google.com/document/leave
+https://docs.google.com/document/revisions
+https://docs.google.com/document/lastviewed
+https://docs.google.com/document/hibernatestat
+https://docs.google.com/document/bind
+https://docs.google.com/document/test
+https://docs.google.com/document/drawing
+https://docs.google.com/drawings
+https://docs.google.com/document/publishsettings
+https://docs.google.com/document/docos/p/sync
+https://docs.google.com/document/jsdeobfuscate
+https://docs.google.com/document/jserror
+//www-kix-opensocial.googleusercontent.com
+//www.google.com/dictionary/
+//csi.gstatic.com/csi
+*

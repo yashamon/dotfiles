@@ -1,0 +1,110 @@
+{
+   "appClose": {
+      "description": "",
+      "message": "Schließen"
+   },
+   "appDescription": {
+      "description": "",
+      "message": "Einfache Anwendung, um starke, sichere Passwörter zu generieren"
+   },
+   "btnCopyAll": {
+      "description": "",
+      "message": "Alle kopieren"
+   },
+   "btnCopyResult": {
+      "description": "",
+      "message": "In die Zwischenablage kopieren"
+   },
+   "btnCopySelected": {
+      "description": "",
+      "message": "Markierte kopieren"
+   },
+   "btnGenerate": {
+      "description": "",
+      "message": "Generieren"
+   },
+   "historyClearList": {
+      "description": "",
+      "message": "Löschen"
+   },
+   "historyClearListConfirm": {
+      "description": "",
+      "message": "Sind Sie sicher?"
+   },
+   "historyClearListConfirmNo": {
+      "description": "",
+      "message": "Nein"
+   },
+   "historyClearListConfirmYes": {
+      "description": "",
+      "message": "Ja"
+   },
+   "historySelectAll": {
+      "description": "",
+      "message": "Alle"
+   },
+   "historySelectInvert": {
+      "description": "",
+      "message": "Umkehren"
+   },
+   "historySelectLabel": {
+      "description": "",
+      "message": "Markieren"
+   },
+   "historySelectNone": {
+      "description": "",
+      "message": "Keins"
+   },
+   "noItems": {
+      "description": "",
+      "message": "Keine Ergebnisse gefunden"
+   },
+   "optLength": {
+      "description": "",
+      "message": "Länge:"
+   },
+   "optLengthRandom": {
+      "description": "",
+      "message": "Zufällig"
+   },
+   "optUse": {
+      "description": "",
+      "message": "Verwenden:"
+   },
+   "optUseCustom": {
+      "description": "",
+      "message": "Benutzerdefiniert"
+   },
+   "optUseLowercase": {
+      "description": "",
+      "message": "Kleinbuchstaben"
+   },
+   "optUseNumber": {
+      "description": "",
+      "message": "Zahlen"
+   },
+   "optUseUppercase": {
+      "description": "",
+      "message": "Großbuchstaben"
+   },
+   "optionsRememberHistory": {
+      "description": "",
+      "message": "Verlauf der Passwörter speichern"
+   },
+   "rememberPassWarning": {
+      "description": "",
+      "message": "Wenn Sie den Verlauf Ihrer Passwörter speichern, sollten Sie nicht vergessen, Ihren Verlauf manuell zu löschen, um Ihre Passwörter vor Diebstahl zu schützen."
+   },
+   "tabGenerator": {
+      "description": "",
+      "message": "Generator"
+   },
+   "tabHistory": {
+      "description": "",
+      "message": "Verlauf"
+   },
+   "tabOptions": {
+      "description": "",
+      "message": "Einstellungen"
+   }
+}

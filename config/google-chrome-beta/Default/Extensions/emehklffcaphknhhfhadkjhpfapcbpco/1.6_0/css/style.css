@@ -1,0 +1,432 @@
+body {
+	margin: 0px;
+	padding: 5px;
+	background-color: #fff;
+	cursor: default;
+	-webkit-user-select: none;
+}
+
+body, input, select {
+	font-family: 'Segoe UI', Segoe, Helvetica, Tahoma, Arial;
+	font-size: 9pt;
+	color: #333;
+}
+
+label, input {
+	vertical-align: middle;
+}
+
+/********* app layout *********/
+
+#appClose {
+	display: block;
+	position: absolute;
+	right: 10px;
+	top: 7px;
+	height: 10px;
+	width: 10px;
+	background-image: url('../img/btnClose.png');
+	background-repeat: no-repeat;
+	background-position: top;
+	cursor: default;
+}
+
+#appClose:hover {
+	background-position: center;
+}
+
+#appClose:active {
+	background-position: bottom;
+}
+
+#appMain {
+	width: 250px;
+}
+
+#appTabs {
+	height: 21px;
+}
+
+#appTabs .tab {
+	font-size: 9pt;
+	font-weight: bold;
+	float: left;
+	display: block;
+	height: 17px;
+	padding: 3px 7px 0px 7px;
+	margin: 0px 2px 0px 0px;
+	color: #666;
+	text-decoration: none;
+	border-top: 1px solid #b2b2b2;
+	border-left: 1px solid #b2b2b2;
+	border-right: 1px solid #b2b2b2;
+	background-color: #f8f8f8;
+	cursor: default;
+	-webkit-border-top-left-radius: 3px;
+	-webkit-border-top-right-radius: 3px;
+}
+
+#appTabs .tab.selected {
+	height: 18px;
+	background-color: #fff;
+	background-image: url('../img/tabBackground.png');
+	background-position: top;
+	background-repeat: repeat-x;
+	color: #333;
+}
+
+#appTabs #tabOptions span {
+	display: block;
+	height: 16px;
+	width: 16px;
+	background-image: url('../img/iconOptions.png');
+	background-repeat: no-repeat;
+	background-position: center center;
+	
+}
+
+#appContents {
+	
+}
+
+#appContents .content {
+	display: none;
+	padding: 10px;
+	border: 1px solid #b2b2b2;
+	-webkit-border-top-right-radius: 3px;
+	-webkit-border-bottom-left-radius: 3px;
+	-webkit-border-bottom-right-radius: 3px;
+}
+
+#appContents .content.selected {
+	display: block;
+}
+
+/********* content:generator *********/
+
+#tblOptions {
+	border-collapse: collapse;
+}
+
+#tblOptions .label {
+	padding: 3px 5px 2px 0px;
+	text-align: right;
+	width: 60px;
+	vertical-align: top;
+}
+
+#tblOptions .option {
+	padding-bottom: 2px;
+}
+
+#tblOptions #optionLowercase, #tblOptions #optionUppercase, #tblOptions #optionNumber, #tblOptions #optionCustom {
+	margin: 2px 3px 2px 0px;
+}
+
+#optionCustomBox {
+	font-family: 'Consolas', Menlo, 'Courier New', Courier, Monospace;
+	width: 152px;
+	height: 12px;
+	border: 1px solid #b2b2b2;
+	padding: 2px 3px;
+	outline: none;
+	display: none;
+}
+
+#tblOptions #optionLengthWrapper {
+	display: block;
+	float: left;
+	width: 36px;
+	height: 19px;
+	position: relative;
+	padding: 0px;
+	margin: 0px;
+	vertical-align: top;
+}
+
+#tblOptions #optionLengthWrapper #optionLength {
+	padding: 1px 11px 1px 2px;
+	margin: 0px;
+	width: 21px;
+	height: 15px;
+	text-align: right;
+	border: 1px solid #8f8f8f;
+	vertical-align: top;
+	outline: none;
+}
+
+#tblOptions #optionLengthWrapper.disabled #optionLength {
+	color: #999;
+	background-color: #eee;
+	cursor: default;
+}
+
+#tblOptions #optionLengthWrapper #optionLengthUp, #tblOptions #optionLengthWrapper #optionLengthDown {
+	position: absolute;
+	display: block;
+	right: 0px;
+	width: 9px;
+	height: 8px;
+	border: 1px solid #8f8f8f;
+	padding: 0px;
+	margin: 0px;
+	font-size: 0.1px;
+	cursor: default;
+	background-color: #f2f2f2;
+	background-position: center center;
+	background-repeat: no-repeat;
+}
+
+#tblOptions #optionLengthWrapper #optionLengthUp:hover, #tblOptions #optionLengthWrapper #optionLengthDown:hover {
+	background-color: #ddd;
+}
+
+#tblOptions #optionLengthWrapper #optionLengthUp:active, #tblOptions #optionLengthWrapper #optionLengthDown:active {
+	background-color: #999;
+}
+
+#tblOptions #optionLengthWrapper.disabled #optionLengthUp, #tblOptions #optionLengthWrapper.disabled #optionLengthDown {
+	background-color: #f2f2f2;
+}
+
+#tblOptions #optionLengthWrapper #optionLengthUp {
+	top: 0px;
+	background-image: url('../img/btnUp.png');
+}
+
+#tblOptions #optionLengthWrapper #optionLengthDown {
+	bottom: 0px;
+	background-image: url('../img/btnDown.png');
+}
+
+#resultWrapper {
+	position: relative;
+	width: 215px;
+	height: 28px;
+	margin: 10px auto 0px auto;
+}
+
+#resultWrapper #result {
+	position: absolute;
+	top: 0px;
+	right: 28px;
+	left: 0px;
+	display: block;
+	font-family: 'Consolas', Menlo, 'Courier New', Courier, Monospace;
+	border-top: 1px solid #ccc;
+	border-left: 1px solid #ccc;
+	border-bottom: 1px solid #999;
+	padding: 6px 5px;
+	height: 13px;
+	text-align: center;
+	overflow: hidden;
+	-webkit-user-select: text;
+}
+
+#resultWrapper #resultContainer {
+	display: none;
+}
+
+#dummy {
+	position: absolute;
+	top: -50px;
+	left: 0px;
+	width: 5px;
+	height: 5px;
+}
+
+#dummy #copyField {
+	width: 5px;
+	height: 5px;
+	-webkit-user-select: text;
+}
+
+/********* content:history *********/
+
+#historyWrapper {
+	border: 1px solid #b2b2b2;
+	height: 192px;
+	position: relative;
+}
+
+#historyWrapper #historySelectionWrapper {
+	display: none;
+	position: absolute;
+	left: 0px;
+	right: 0px;
+	bottom: 0px;
+	height: 16px;
+	padding: 2px 3px;
+	border-top: 1px solid #ddd;
+	background-color: #f8f8f8;
+}
+
+#historyWrapper #historySelectionWrapper a {
+	text-decoration: none;
+	color: #5081f1;
+	cursor: default;
+}
+
+#historyWrapper #historySelectionWrapper a:hover {
+	text-decoration: underline;
+	color: #2e5fd0;
+}
+
+#historyWrapper #historySelectionWrapper a:active {
+	color: #1b387a;
+}
+
+#historyWrapper #historySelectionWrapper a#historyClearList {
+	float: right;
+}
+
+#historyWrapper #historyListWrapper {
+	height: 171px;
+	overflow: auto;
+}
+
+#historyWrapper #historyListWrapper .noItems {
+	text-align: center;
+	font-style: italic;
+	color: #777;
+	margin: 15px 0px 0px 0px;
+}
+
+#historyWrapper #historyListWrapper .historyItem {
+	display: block;
+	vertical-align: middle;
+	height: 19px;
+	font-family: 'Consolas', Menlo, 'Courier New', Courier, Monospace;
+}
+
+#historyWrapper #historyListWrapper .historyItem:hover {
+	background-color: #f2f2f2;
+}
+
+#historyWrapper #historyListWrapper .historyItem input, #historyWrapper #historyListWrapper .historyItem span {
+	vertical-align: middle;
+}
+
+#historyCopyWrapper {
+	margin-top: 6px;
+	height: 25px;
+	position: relative;
+}
+
+#historyClearConfirmWrapper {
+	display: none;
+	position: absolute;
+	top: 0px;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+}
+
+#historyClearConfirmWrapper #historyClearConfirmShade {
+	background-color: #fff;
+	position: absolute;
+	top: 0px;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+	opacity: 0.85;
+}
+
+#historyClearConfirmWrapper #historyClearConfirmBox {
+	border: 1px solid #b2b2b2;
+	background-color: #fff;
+	position: absolute;
+	text-align: center;
+	padding: 5px 0px 0px 0px;
+	top: 50%;
+	left: 50%;
+	width: 150px;
+	height: 55px;
+	margin: -30px 0px 0px -75px;
+	opacity: 2;
+}
+
+#historyClearConfirmButtons {
+	position: relative;
+	margin: 6px 0px 0px 0px;
+}
+
+/********* buttons *********/
+
+.button {
+	background-color: #ddd;
+	background-image: url('../img/btnBackground.png');
+	background-repeat: no-repeat;
+	background-position: left top;
+	border-top: 1px solid #ccc;
+	border-left: 1px solid #ccc;
+	border-right: 1px solid #999;
+	border-bottom: 1px solid #999;
+	text-align: center;
+	cursor: default;
+	height: 15px;
+	text-decoration: none;
+	display: block;
+	padding: 5px 0px;
+	color: #333;
+}
+
+.button:active {
+	background-image: none;
+}
+
+.button.disabled {
+	color: #999;
+}
+
+.button.disabled:active {
+	background-image: url('../img/btnBackground.png');
+}
+
+#btnGenerate {
+	width: 94px;
+	margin: 5px auto 5px auto;
+}
+
+#btnCopyResult {
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	width: 26px;
+	vertical-align: middle;
+	text-align: center;
+}
+
+#btnCopySelected {
+	position: absolute;
+	left: 0px;
+	width: 110px;
+}
+
+#btnCopyAll {
+	position: absolute;
+	right: 0px;
+	width: 110px;
+}
+
+#btnClearYes {
+	position: absolute;
+	left: 8px;
+	width: 62px;
+}
+
+#btnClearNo {
+	position: absolute;
+	right: 8px;
+	width: 62px;
+}
+
+.infoBox {
+	margin: 10px 3px 0px 3px;
+	padding: 5px 5px 5px 26px;
+	border: 1px dashed #999;
+	background-color: #f8f8f8;
+	background-image: url('../img/iconInfo.png');
+	background-repeat: no-repeat;
+	background-position: 5px 6px;
+}
