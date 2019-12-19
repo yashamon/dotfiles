@@ -62,7 +62,6 @@ ln -s ~/dotfiles/vim-plug/plug.vim ~/.config/nvim/autoload/plug.vim
 # ln -s ~/dotfiles/zathurarc  ~/.config/zathura/zathurarc
 # ln -s ~/dotfiles/termiteconfig ~/.config/termite/config
 
-
 echo "Moving zshrc"
 ln -s ~/dotfiles/zshrcChromeOs ~/.zshrc
 install_zsh () {
