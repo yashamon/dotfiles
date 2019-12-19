@@ -57,10 +57,10 @@ ln -s ~/dotfiles/vim-plug/plug.vim ~/.config/nvim/autoload/plug.vim
 
 
 # zathura, termite
-mkdir ~/.config/zathura
-mkdir ~/.config/termite
-ln -s ~/dotfiles/zathurarc  ~/.config/zathura/zathurarc
-ln -s ~/dotfiles/termiteconfig ~/.config/termite/config
+# mkdir ~/.config/zathura
+# mkdir ~/.config/termite
+# ln -s ~/dotfiles/zathurarc  ~/.config/zathura/zathurarc
+# ln -s ~/dotfiles/termiteconfig ~/.config/termite/config
 
 
 echo "Moving zshrc"
