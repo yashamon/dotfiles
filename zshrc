@@ -177,10 +177,15 @@ alias bright=brightnessfunction
 
 
 sendFunction() {
-rm ~/web/papers/"$1" 
-pushgh
-cp "$1" ~/web/papers
 cwdb=$(pwd)
+rm ~/web/papers/"$1" 
+cd ~/web
+git pull
+git add .
+git commit -m -a
+git push origin gh-pages
+cd $cwdb
+cp "$1" ~/web/papers
 cd ~/web
 git add .
 git commit -m -a
