@@ -28,5 +28,5 @@ Config { font = "-*-Fixed-Bold-R-Normal-*-13-*-*-*-*-*-*-*"
                     ]
        ,  sepChar = "%"
        , alignSep = "}{"
-       , template = "%StdinReader% }{ %cpu% | %battery% | %wlan1%   %date% |"
+       , template = "%StdinReader% }{ %cpu% | %battery% | %wlan1%   %date%"
        }

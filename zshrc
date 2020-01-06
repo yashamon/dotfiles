@@ -178,6 +178,7 @@ alias bright=brightnessfunction
 
 sendFunction() {
 rm ~/web/papers/"$1" 
+pushgh
 cp "$1" ~/web/papers
 cwdb=$(pwd)
 cd ~/web
