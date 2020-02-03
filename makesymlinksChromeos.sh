@@ -9,7 +9,7 @@
 
 dir=~/dotfiles                    # dotfiles directory
 olddir=~/dotfiles_old             # old dotfiles backup directory
-files="bashrc asoundrc config xmonad/xmonad.hs xmonad/xmobar.hs vnc ctags tmux-conf  oh-my-zsh
+files="bashrc asoundrc xmonad/xmonad.hs xmonad/xmobar.hs vnc ctags tmux-conf  oh-my-zsh
 vifm/vifmrc gitconfig zshrc Xresources xprofile xinitrc latexmkrc"    # list of files/folders to symlink in homedir
 
 ##########
@@ -37,33 +37,35 @@ done
     echo "Moving vifm"
 mkdir ~/bin
 cp ~/dotfiles/bin/vf ~/bin/vf
+mv ~/.config ~/dotfiles_old
 mkdir ~/.config
-mkdir ~/.config/vifm
-ln -s ~/dotfiles/vifm ~/.config/vifm
+echo "link config"
+ln -s ~/dotfiles/config ~/.config
+# mkdir ~/.config/vifm
+# ln -s ~/dotfiles/vifm ~/.config/vifm
 # ln -s ~/dotfiles/vifm ~/.config/vifm
     echo "Moving xmobarrc" 
 ln -s ~/dotfiles/xmonad/xmobar.hs ~/.xmobarrc
-    echo "Moving nvimrc"
-mkdir ~/.config/nvim
-rm ~/.config/nvim/init.vim
-ln -s ~/dotfiles/nvimrcChromeOs ~/.config/nvim/init.vim
-ln -s ~/dotfiles/ginit.vim ~/.config/nvim/ginit.vim
-rm ~/.config/nvim/colors
-ln -s ~/dotfiles/colors ~/.config/nvim/colors
-rm ~/.config/nvim/spell 
-ln -s ~/dotfiles/spell ~/.config/nvim/spell
-mkdir ~/.config/nvim/autoload
-ln -s ~/dotfiles/vim-plug/plug.vim ~/.config/nvim/autoload/plug.vim
-
-
+#     echo "Moving nvimrc"
+# mkdir ~/.config/nvim
+# rm ~/.config/nvim/init.vim
+# ln -s ~/dotfiles/nvimrcChromeOs ~/.config/nvim/init.vim
+# ln -s ~/dotfiles/ginit.vim ~/.config/nvim/ginit.vim
+# rm ~/.config/nvim/colors
+# ln -s ~/dotfiles/colors ~/.config/nvim/colors
+# rm ~/.config/nvim/spell 
+# ln -s ~/dotfiles/spell ~/.config/nvim/spell
+# mkdir ~/.config/nvim/autoload
+# ln -s ~/dotfiles/vim-plug/plug.vim ~/.config/nvim/autoload/plug.vim
+#
+#
 # zathura, termite
 # mkdir ~/.config/zathura
 # mkdir ~/.config/termite
 # ln -s ~/dotfiles/zathurarc  ~/.config/zathura/zathurarc
 # ln -s ~/dotfiles/termiteconfig ~/.config/termite/config
-
-echo "Moving zshrc"
-ln -s ~/dotfiles/zshrcChromeOs ~/.zshrc
+# echo "Moving zshrc"
+# ln -s ~/dotfiles/zshrcChromeOs ~/.zshrc
 install_zsh () {
 # Test to see if zshell is installed.  If it is:
 if [ -f /bin/zsh -o -f /usr/bin/zsh ]; then

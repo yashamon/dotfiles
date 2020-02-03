@@ -2,7 +2,7 @@
 	helper = store
 [user]
 	name = yashamon
-   email = yasha.savelyev@gmail.com
+	email = yasha.savelyev@gmail.com
 [mergetool "nvim"]
    cmd = nvim -f -c \"Gdiff\" \"$MERGED\"
 [difftool]
