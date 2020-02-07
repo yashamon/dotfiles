@@ -62,8 +62,8 @@ ln -s ~/dotfiles/vim-plug/plug.vim ~/.config/nvim/autoload/plug.vim
 # ln -s ~/dotfiles/zathurarc  ~/.config/zathura/zathurarc
 # ln -s ~/dotfiles/termiteconfig ~/.config/termite/config
 
-echo "Moving zshrc"
-ln -s ~/dotfiles/zshrcChromeOs ~/.zshrc
+# echo "Moving zshrc"
+# ln -s ~/dotfiles/zshrcChromeOs ~/.zshrc
 install_zsh () {
 # Test to see if zshell is installed.  If it is:
 if [ -f /bin/zsh -o -f /usr/bin/zsh ]; then
