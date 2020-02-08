@@ -47,7 +47,7 @@ ln -s ~/dotfiles/.config ~/.config
 ln -s ~/dotfiles/xmonad/xmobar.hs ~/.xmobarrc
     echo "Moving nvimrc"
 # mkdir ~/.config/nvim
-rm ~/.config/nvim/init.vim
+# rm ~/.config/nvim/init.vim
 ln -s ~/dotfiles/nvimrcChromeOs ~/.config/nvim/init.vim
 ln -s ~/dotfiles/ginit.vim ~/.config/nvim/ginit.vim
 rm ~/.config/nvim/colors
