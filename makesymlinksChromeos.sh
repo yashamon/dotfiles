@@ -41,7 +41,7 @@ mkdir ~/.config
 echo "link config"
 ln -s ~/dotfiles/.config ~/.config
 # mkdir ~/.config/vifm
-ln -s ~/dotfiles/vifm ~/.config/vifm
+# ln -s ~/dotfiles/vifm ~/.config/vifm
 # ln -s ~/dotfiles/vifm ~/.config/vifm
     echo "Moving xmobarrc" 
 ln -s ~/dotfiles/xmonad/xmobar.hs ~/.xmobarrc
