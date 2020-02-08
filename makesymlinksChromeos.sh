@@ -38,6 +38,7 @@ done
 mkdir ~/bin
 cp ~/dotfiles/bin/vf ~/bin/vf
 mkdir ~/.config
+ln -s ~/dotfiles/.config ~/.config
 mkdir ~/.config/vifm
 ln -s ~/dotfiles/vifm ~/.config/vifm
 # ln -s ~/dotfiles/vifm ~/.config/vifm
