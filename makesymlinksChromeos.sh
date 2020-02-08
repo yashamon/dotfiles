@@ -40,7 +40,7 @@ cp ~/dotfiles/bin/vf ~/bin/vf
 mkdir ~/.config
 echo "link config"
 ln -s ~/dotfiles/.config ~/.config
-mkdir ~/.config/vifm
+# mkdir ~/.config/vifm
 ln -s ~/dotfiles/vifm ~/.config/vifm
 # ln -s ~/dotfiles/vifm ~/.config/vifm
     echo "Moving xmobarrc" 
