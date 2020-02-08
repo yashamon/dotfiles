@@ -58,7 +58,7 @@ ln -s ~/dotfiles/xmonad/xmobar.hs ~/.xmobarrc
 # mkdir ~/.config/nvim/autoload
 # ln -s ~/dotfiles/vim-plug/plug.vim ~/.config/nvim/autoload/plug.vim
 #
-
+#
 # zathura, termite
 # mkdir ~/.config/zathura
 # mkdir ~/.config/termite
