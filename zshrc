@@ -50,7 +50,7 @@ plugins=(git vi-mode command-not-found github history-substring-search fzf-fasd)
 
 # User configuration
 
-export PATH="/data/data/com.termux/files/usr/bin/applets:/data/data/com.termux/files/usr/bin:bin:/usr/local/sbin:/usr/bin:/usr/local/bin:/usr/sbin:/sbin:/bin:/home/yasha/.local/bin:/root/.cabal/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:/home/yasha/.cabal/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl" 
+export PATH="/data/data/com.termux/files/usr/bin/applets:/data/data/com.termux/files/usr/bin:bin:/usr/local/sbin:/usr/bin:/usr/local/bin:/usr/sbin:/sbin:/bin:~/.local/bin:/root/.cabal/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:~/.cabal/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:/home/yashasavelyev/.local/bin" 
 # export MANPATH="/usr/local/man:$MANPATH"
 source $ZSH/oh-my-zsh.sh
 
@@ -117,7 +117,7 @@ alias pullmaster="git pull --recurse-submodules; git submodule update --recursiv
 
 alias pushgh="pandoc index.md > index.html ; git add .; git commit -m -a; git push origin gh-pages"
 alias pandocd="pandoc index.md > index.html"
-alias hw="pandoc ~/web/topology/topology2019.md > ~/web/topology/topology2019.html; pandoc ~/web/CalcIII2019/analysis.md > ~/web/CalcIII2019/analysis.html; git add .; git commit -m -a; git push origin gh-pages"
+alias hw="pandoc ~/web/classes/LinearAlgebra/hw2020.md > ~/web/classes/LinearAlgebra/hw2020.html; pandoc ~/web/classes/Spivak/hw2020.md  > ~/web/classes/Spivak/hw2020.html; git add .; git commit -m -a; git push origin gh-pages"
 alias attach="tmux attach -t"
 # alias pdf="xpdf -geometry 1920x1080 -fullscreen"
 # alias pdf="mupdf"
@@ -178,9 +178,9 @@ alias bright=brightnessfunction
 
 sendFunction() {
 cwdb=$(pwd)
-rm ~/web/papers/"$1" 
 cd ~/web
 git pull
+git rm ~/web/papers/"$1" 
 git add .
 git commit -m -a
 git push origin gh-pages
@@ -306,9 +306,8 @@ alias sudo='sudo '
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 alias chmodWork sudo chmod -R ~/workspacemodules
-
 export DISPLAY=:0.0
 alias wq='wmctrl -r 'Alacritty' -b toggle,fullscreen'
 alias ubuntu="sudo apt-get update; sudo apt-get upgrade"
-VBoxClient --clipboard
+# VBoxClient --clipboard
 

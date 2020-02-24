@@ -49,12 +49,12 @@ myKeys conf@(XConfig {XMonad.modMask = modm}) = M.fromList
                 , ((modm .|. shiftMask, xK_s     ), withFocused (keysAbsResizeWindow (10,10) (1024,752)))
                 -- , ((modm,               xK_a     ), withFocused (keysMoveWindowTo (512,384) (1%2,1%2)))
             ]
-main = xmonad =<< xmobar myConfig
--- main = xmonad  myConfig
+-- main = xmonad =<< xmobar myConfig
+main = xmonad  myConfig
 myConfig = defaultConfig
         { 
           modMask = mod3Mask -- Use control instead of Alt
-        , terminal = "termite"
+        , terminal = "kitty"
         , keys          = \c -> myKeys c `M.union` keys defaultConfig c
         , manageHook = myManageHook
         , layoutHook = mylayoutHook
