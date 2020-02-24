@@ -672,10 +672,10 @@ tnoremap <Leader>e <C-\><C-n>
 "  Sneak
 let g:sneak#use_ic_scs = 1
 
-map t <Plug>Sneak_s
+map t <Plug>Sneak_f
 " map t <ESC>:syntax off <CR>t: syntax on<CR>
 "  map t :syntaxoff <Plug>Sneak_s
-map T <Plug>Sneak_S
+map T <Plug>Sneak_f
 let g:sneak#s_next = 1
  let g:sneak#label = 1
 
@@ -736,8 +736,7 @@ nmap  <leader>v <Esc>:w<CR>:VimtexView<CR>
 let g:vimtex_quickfix_mode = 0
 let g:vimtex_fold_enabled =0
 " nmap <leader>l :silent execute "AsyncRun latexmk -pvc -pdf -file-line-error -synctex=1 -interaction=nonstopmode -recorder %"<CR>
-
-" VimtexCompile<CR>
+nmap <leader>l <Esc>:VimtexCompile<CR>
 nmap <leader>s <Esc>:VimtexErrors<CR>:Goyo x<CR>
 nmap <leader>x <C-w><up><Esc>:VimtexErrors<CR>:Goyo x<CR>
 nmap <leader>g :Goyo x<CR>
