@@ -672,12 +672,13 @@ tnoremap <Leader>e <C-\><C-n>
 "  Sneak
 let g:sneak#use_ic_scs = 1
 
-map t <Plug>Sneak_f
+map t <Plug>Sneak_s
 " map t <ESC>:syntax off <CR>t: syntax on<CR>
 "  map t :syntaxoff <Plug>Sneak_s
-map T <Plug>Sneak_f
+map T <Plug>Sneak_S
 let g:sneak#s_next = 1
  let g:sneak#label = 1
+let g:sneak#target_labels = "sfjkgtunbqz/SFKGHLTUNBRMQZ?"
 
 " FZF
 "
