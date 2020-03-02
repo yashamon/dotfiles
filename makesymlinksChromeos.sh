@@ -38,7 +38,6 @@ mkdir ~/bin
 cp ~/dotfiles/bin/vf ~/bin/vf
 mv ~/.config ~/dotfiles_old 
 echo "link config"
-mv  ~/dotfiles/config ~/dotfiles_old
 ln -s ~/dotfiles/config ~/.config
 # mkdir ~/.config/vifm
 # ln -s ~/dotfiles/vifm ~/.config/vifm
