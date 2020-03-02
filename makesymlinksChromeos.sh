@@ -33,8 +33,7 @@ for file in $files; do
     echo "Creating symlink to $file in home directory."
     ln -s $dir/$file ~/.$file
 done
-
-    echo "Moving vifm"
+echo "Moving vifm"
 mkdir ~/bin
 cp ~/dotfiles/bin/vf ~/bin/vf
 mv ~/.config ~/dotfiles_old 
