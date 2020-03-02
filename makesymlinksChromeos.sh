@@ -37,7 +37,7 @@ done
     echo "Moving vifm"
 mkdir ~/bin
 cp ~/dotfiles/bin/vf ~/bin/vf
-mv ~/.config ~/dotfiles_old
+mv ~/.config ~/dotfiles_old asdf
 mkdir ~/.config
 echo "link config"
 mv  ~/dotfiles/config ~/dotfiles_old
