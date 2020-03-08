@@ -23,9 +23,7 @@ echo "done"
 echo -n "Changing to the $dir directory ..."
 cd $dir
 echo "done"
-mkdir ~/.vifm
 mkdir ~/.xmonad
-mkdir ~/.config
 # move any existing dotfiles in homedir to dotfiles_old directory, then create symlinks from the homedir to any files in the ~/dotfiles directory specified in $files
 for file in $files; do
     echo "Moving any existing dotfiles from ~ to $olddir"
@@ -33,18 +31,16 @@ for file in $files; do
     echo "Creating symlink to $file in home directory."
     ln -s $dir/$file ~/.$file
 done
-
-    echo "Moving vifm"
+echo "Moving vifm"
 mkdir ~/bin
 cp ~/dotfiles/bin/vf ~/bin/vf
-mv ~/.config ~/dotfiles_old
-mkdir ~/.config
+mv ~/.config ~/dotfiles_old 
 echo "link config"
 ln -s ~/dotfiles/config ~/.config
 # mkdir ~/.config/vifm
 # ln -s ~/dotfiles/vifm ~/.config/vifm
 # ln -s ~/dotfiles/vifm ~/.config/vifm
-    echo "Moving xmobarrc" 
+echo "Moving xmobarrc" 
 ln -s ~/dotfiles/xmonad/xmobar.hs ~/.xmobarrc
 #     echo "Moving nvimrc"
 # mkdir ~/.config/nvim

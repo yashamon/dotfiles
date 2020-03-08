@@ -101,3 +101,4 @@ fi
 
 [ -f ~/.fzf.bash ] && source ~/.fzf.bash
 export DISPLAY=:0.0
+alias drivesync='ruby /opt/drivesync/drivesync.rb'

@@ -117,7 +117,11 @@ alias pullmaster="git pull --recurse-submodules; git submodule update --recursiv
 
 alias pushgh="pandoc index.md > index.html ; git add .; git commit -m -a; git push origin gh-pages"
 alias pandocd="pandoc index.md > index.html"
-alias hw="pandoc ~/web/classes/topology/topology2019.md > ~/web/classes/topology/topology2019.html; pandoc ~/web/CalcIII2019/analysis.md > ~/web/CalcIII2019/analysis.html; git add .; git commit -m -a; git push origin gh-pages"
+# <<<<<<< HEAD
+# alias hw="pandoc ~/web/classes/topology/topology2019.md > ~/web/classes/topology/topology2019.html; pandoc ~/web/CalcIII2019/analysis.md > ~/web/CalcIII2019/analysis.html; git add .; git commit -m -a; git push origin gh-pages"
+# =======
+alias hw="pandoc ~/web/classes/LinearAlgebra/hw2020.md > ~/web/classes/LinearAlgebra/hw2020.html; pandoc ~/web/classes/Spivak/hw2020.md  > ~/web/classes/Spivak/hw2020.html; git add .; git commit -m -a; git push origin gh-pages"
+>>>>>>> 6d915166c2f6e31f8f3d70f339fcd8076eb9c822
 alias attach="tmux attach -t"
 # alias pdf="xpdf -geometry 1920x1080 -fullscreen"
 # alias pdf="mupdf"
@@ -178,9 +182,9 @@ alias bright=brightnessfunction
 
 sendFunction() {
 cwdb=$(pwd)
-rm ~/web/papers/"$1" 
 cd ~/web
 git pull
+git rm ~/web/papers/"$1" 
 git add .
 git commit -m -a
 git push origin gh-pages
@@ -306,7 +310,6 @@ alias sudo='sudo '
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 alias chmodWork sudo chmod -R ~/workspacemodules
-
 export DISPLAY=:0.0
 alias wq='wmctrl -r 'Alacritty' -b toggle,fullscreen'
 alias ubuntu="sudo apt-get update; sudo apt-get upgrade"
