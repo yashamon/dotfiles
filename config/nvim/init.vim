@@ -736,7 +736,7 @@ nmap  <leader>v <Esc>:w<CR>:VimtexView<CR>
 let g:vimtex_quickfix_mode = 0
 let g:vimtex_fold_enabled =0
 " nmap <leader>l :silent execute "AsyncRun latexmk -pvc -pdf -file-line-error -synctex=1 -interaction=nonstopmode -recorder %"<CR>
-nmap <leader>l :silent ! VimtexCompile<CR>
+nmap <leader>l : VimtexCompile<CR>
 nmap <leader>s <Esc>:VimtexErrors<CR>:Goyo x<CR>
 nmap <leader>x <C-w><up><Esc>:VimtexErrors<CR>:Goyo x<CR>
 nmap <leader>g :Goyo x<CR>
