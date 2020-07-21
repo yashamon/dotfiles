@@ -657,7 +657,9 @@ au FileType tex,text,md nnoremap dd "_g^dg$g^
 " " au FileType tex,text,md inoremap .<ESC> .<CR><ESC>J0
 " au FileType tex,text,md inoremap <leader>cr <CR>
 au FileType tex,text,md noremap map o gj0i<CR><ESC>gki 
-noremap <C-j> a<CR><Esc>k$ 
+n
+n
+oremap <C-j> a<CR><Esc>k$ 
 
 "Neovim mappings
 :tnoremap <S-h> <C-\><C-n><C-w>h
