@@ -165,7 +165,7 @@ set undoreload=10000
 set ruler		" show the cursor position all the time
 set autoread		" auto read when file is changed from outside
 set nohlsearch
-" set noswapfile
+set noswapfile
 set showmatch		" Cursor shows matching ) and }
 set nocursorline
 set showmode		" Show current mode
@@ -520,7 +520,7 @@ noremap X "0D
 nmap D "_dg$
 nmap V vg$
 nmap A g$a
-map o gj0i<CR><ESC>gki
+" map o gj0i<CR><ESC>gki
 nnoremap dd g^"_dg$i<backspace><ESC><CR>
 " nmap dd 0dg$
 map 0 g^
