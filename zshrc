@@ -101,14 +101,12 @@ eval "$(fasd --init auto)"
 # export MANPATH="$HOME/.linuxbrew/share/man:$MANPATH"
 # export INFOPATH="$HOME/.linuxbrew/share/info:$INFOPATH"
 
-if [ "$TERM" = "xterm" ]; then
-         # No it isn't, it's gnome-terminal
-             export TERM=xterm-256color
-             fi
 alias tmux d="tmux detach"
 alias texi="pdflatex -file-line-error -synctex=1  -interaction=nonstopmode -recorder" 
 alias latexi="latexmk -g -pdf -file-line-error -synctex=1  -interaction=nonstopmode -recorder -f"
 alias pvc="latexmk -pdf -pvc -file-line-error -synctex=1  -interaction=nonstopmode -recorder -f"
+alias lat="latexmk -pvc -pdf -file-line-error -synctex=1 -interaction=nonstopmode -recorder -f -g"
+
 alias pushmod="git submodule foreach git add .; git submodule foreach git commit -m -a; 
 git submodule foreach git push origin master; git add .; git commit -m -a; git push --all origin "
 alias push="git add .; git commit -m -a; git push --all origin"
@@ -160,7 +158,6 @@ alias res3="xrandr --newmode "3440x1440_100.00"  728.00  3440 3728 4104 4768  14
 xrandr -s 3440x1440
 "
 alias config="cd ~/dotfiles/; push; cd ~/workspacemodules; pushmod; cd ~/workspace; push; cd web pushgh; pacman -Qqe > pkglist.txt"
-alias lat="latexmk -pvc -pdf -file-line-error -synctex=1 -interaction=nonstopmode -recorder "
 # alias apt="sudo apt-get install"
 # functions
 myfunction() {
@@ -312,5 +309,6 @@ alias chmodWork sudo chmod -R ~/workspacemodules
 export DISPLAY=:0.0
 alias wq='wmctrl -r 'Alacritty' -b toggle,fullscreen'
 alias ubuntu="sudo apt-get update; sudo apt-get upgrade"
+
 # VBoxClient --clipboard
 

@@ -18,7 +18,7 @@ bind -n S-Left previous-window
 set -g escape-time 1
 unbind ^A
 bind ^A select-pane -t :.+
-set -g default-terminal "screen-256color"
+set -g default-terminal "xterm-kitty"
 set-option -g default-shell /bin/zsh
 set -g status off
 ### COLOUR (Solarized dark)
@@ -84,3 +84,6 @@ set-option -g display-panes-colour colour166 #orange
 # clock
 set-window-option -g clock-mode-colour colour64 #green
 set -g status off 
+set -g mouse on
+
+
