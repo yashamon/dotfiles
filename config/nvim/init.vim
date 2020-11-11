@@ -627,7 +627,8 @@ inoremap <D-]> <C-x><C-]>
 inoremap <C-]> <C-x><C-]>
 " text editting mappings
 
-
+"Extract mappings
+" 
 
 " " au FileType tex,text,md noremap <CR> <Esc>a<Space><Esc>80i <Esc><Esc>vg0di
 " <<<<<<< HEAD
