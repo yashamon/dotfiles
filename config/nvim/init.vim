@@ -633,7 +633,7 @@ nmap P <Plug>(extract-Put)
         nmap p <Plug>(extract-put)
         nmap P <Plug>(extract-Put)
         " mappings for cycling
-        map <leader>s <Plug>(extract-sycle)
+        map <leader>p <Plug>(extract-sycle)
         map S <Plug>(extract-Sycle)
         map <c-s> <Plug>(extract-cycle)
         " mappings for visual
