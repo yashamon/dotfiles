@@ -626,18 +626,13 @@ map ' "
 inoremap <D-]> <C-x><C-]>
 inoremap <C-]> <C-x><C-]>
 " text editting mappings
-nmap P <Plug>(extract-Put)
-nmap P <Plug>(extract-Put)
-        " mappings 
-        " 
 
-nmap P <Plug>(extract-Put)
 "Extract mappings
 " " mappings for putting
         nmap p <Plug>(extract-put)
         nmap P <Plug>(extract-Put)
         " mappings for cycling
-        map <leader>p <Plug>(extract-sycle)
+        map <leader>s <Plug>(extract-sycle)
         map S <Plug>(extract-Sycle)
         map <c-s> <Plug>(extract-cycle)
         " mappings for visual
