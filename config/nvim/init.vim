@@ -630,7 +630,9 @@ inoremap <C-]> <C-x><C-]>
 nnmap p <Plug>(extract-put)
 nnmap p <Plug>(extract-put)
 nnmap p <Plug>(extract-put)
+        map s <Plug>(extract-sycle)
 
+        map s <Plug>(extract-sycle)
         map s <Plug>(extract-sycle)
         map s <Plug>(extract-sycle)
         map s <Plug>(extract-sycle)
