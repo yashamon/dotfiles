@@ -629,6 +629,7 @@ inoremap <C-]> <C-x><C-]>
 nmap P <Plug>(extract-Put)
 nmap P <Plug>(extract-Put)
         " mappings for insert
+        " mappings for insert
 
 nmap P <Plug>(extract-Put)
 "Extract mappings
