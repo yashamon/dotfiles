@@ -11,7 +11,7 @@ call plug#begin('~/.vim/plugged')
 " Group dependencies, vim-snippets depends on ultisnips 
 " Plug 'tpope/vim-surround'
 Plug 'neovim/node-host'
-Plug 'cyansprite/Extractt'
+Plug 'cyansprite/Extract'
 Plug 'gioele/vim-autoswap'
 " Plug 't9md/vim-smalls'
 Plug 'skywind3000/asyncrun.vim'
@@ -508,8 +508,8 @@ noremap <S-ScrollWheelRight> <nop>
 noremap <C-ScrollWheelRight> <nop>
 inoremap \ /
 inoremap / \
-noremap p "0p 
-vnoremap p "0p 
+" noremap p "0p 
+" vnoremap p "0p 
 noremap d "dd
 noremap D "dD
 noremap c "_c
