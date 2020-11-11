@@ -632,7 +632,7 @@ inoremap <C-]> <C-x><C-]>
         nmap p <Plug>(extract-put)
         nmap P <Plug>(extract-Put)
         " mappings for cycling
-        map s <Plug>(extract-sycle)
+        map <leader>s <Plug>(extract-sycle)
         map S <Plug>(extract-Sycle)
         map <c-s> <Plug>(extract-cycle)
         " mappings for visual
