@@ -630,7 +630,7 @@ nmap P <Plug>(extract-Put)
 nmap P <Plug>(extract-Put)
         " mappings 
         " 
-for 
+
 nmap P <Plug>(extract-Put)
 "Extract mappings
 " " mappings for putting
