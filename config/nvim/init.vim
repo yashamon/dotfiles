@@ -626,6 +626,7 @@ map ' "
 inoremap <D-]> <C-x><C-]>
 inoremap <C-]> <C-x><C-]>
 " text editting mappings
+nmap P <Plug>(extract-Put)
 
 nmap P <Plug>(extract-Put)
 "Extract mappings
