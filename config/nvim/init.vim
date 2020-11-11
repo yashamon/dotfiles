@@ -632,8 +632,8 @@ inoremap <C-]> <C-x><C-]>
         nmap p <Plug>(extract-put)
         nmap P <Plug>(extract-Put)
         " mappings for cycling
-        map <> <Plug>(extract-sycle)
-        map S <Plug>(extract-Sycle)
+        map <leader>p <Plug>(extract-sycle)
+        map <leader>S <Plug>(extract-Sycle)
         map <c-s> <Plug>(extract-cycle)
         " mappings for visual
         vmap p <Plug>(extract-put)
