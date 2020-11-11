@@ -631,6 +631,8 @@ nnmap p <Plug>(extract-put)
 nnmap p <Plug>(extract-put)
 nnmap p <Plug>(extract-put)
 
+        map s <Plug>(extract-sycle)
+        map s <Plug>(extract-sycle)
 n
 nnmap p <Plug>(extract-put)
 "Extract mappings
