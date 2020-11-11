@@ -627,8 +627,24 @@ inoremap <D-]> <C-x><C-]>
 inoremap <C-]> <C-x><C-]>
 " text editting mappings
 
+nmap p <Plug>(extract-put)
 "Extract mappings
-" 
+" " mappings for putting
+        nmap p <Plug>(extract-put)
+        nmap P <Plug>(extract-Put)
+        " mappings for cycling
+        map s <Plug>(extract-sycle)
+        map S <Plug>(extract-Sycle)
+        map <c-s> <Plug>(extract-cycle)
+        " mappings for visual
+        vmap p <Plug>(extract-put)
+        vmap P <Plug>(extract-Put)
+        " mappings for insert
+        imap <m-v> <Plug>(extract-completeReg)
+        imap <c-v> <Plug>(extract-completeList)
+        imap <c-s> <Plug>(extract-cycle)
+        imap <m-s> <Plug>(extract-sycle)
+        imap <m-S> <Plug>(extract-Sycle) 
 
 " " au FileType tex,text,md noremap <CR> <Esc>a<Space><Esc>80i <Esc><Esc>vg0di
 " <<<<<<< HEAD
