@@ -11,7 +11,7 @@ call plug#begin('~/.vim/plugged')
 " Group dependencies, vim-snippets depends on ultisnips 
 " Plug 'tpope/vim-surround'
 Plug 'neovim/node-host'
-Plug 'cyansprite/Extract'
+" Plug 'cyansprite/Extract'
 Plug 'gioele/vim-autoswap'
 " Plug 't9md/vim-smalls'
 Plug 'skywind3000/asyncrun.vim'
