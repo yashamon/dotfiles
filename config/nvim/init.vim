@@ -627,7 +627,8 @@ inoremap <D-]> <C-x><C-]>
 inoremap <C-]> <C-x><C-]>
 " text editting mappings
 
-nmap p <Plug>(extract-put)
+
+nnmap p <Plug>(extract-put)
 "Extract mappings
 " " mappings for putting
         nmap p <Plug>(extract-put)
