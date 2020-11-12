@@ -533,7 +533,7 @@ map 9 g$
 " nmap P <Plug>(miniyank-autoPut)
 " vmap p <Plug>(miniyank-autoput)
 " vmap P <Plug>(miniyank-autoPut)
-" map <Leader>n <Plug>(miniyank-cycle)
+ map <Leader>n <Plug>(miniyank-cycle)
 vmap q xi<CR><CR><CR><CR><ESC>kkpvip<leader>c
 nnoremap <Left> :bnext<CR>
 nnoremap <Right> :bprevious<CR>
