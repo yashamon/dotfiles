@@ -508,8 +508,8 @@ noremap <S-ScrollWheelRight> <nop>
 noremap <C-ScrollWheelRight> <nop>
 inoremap \ /
 inoremap / \
-" noremap p "0p 
-" vnoremap p "0p 
+ noremap p "0p 
+ vnoremap p "0p 
 noremap d "dd
 noremap D "dD
 noremap c "_c
