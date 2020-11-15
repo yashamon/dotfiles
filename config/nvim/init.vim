@@ -9,6 +9,7 @@ call plug#begin('~/.vim/plugged')
 " Plug 'https://github.com/junegunn/vim-github-dashboard.git'
 vim-autoswap'
 L ^{+} (p _{0} ^{-1}) L ^{+} (p _{0} ^{-1}) call plug#begin('~/.vim/plugged')
+L ^{+} (p _{0} ^{-1}) L ^{+} (p _{0} ^{-1}) call plug#begin('~/.vim/plugged')
 
 " Group dependencies, vim-snippets depends on ultisnips 
 " Plug 'tpope/vim-surround'
