@@ -8,7 +8,8 @@ call plug#begin('~/.vim/plugged')
 " Any valid git URL is allowed
 " Plug 'https://github.com/junegunn/vim-github-dashboard.git'
 vim-autoswap'
-L ^{+} (p _{0} ^{-1}) L ^{+} (p _{0} ^{-1}) 
+L ^{+} (p _{0} ^{-1}) L ^{+} (p _{0} ^{-1}) call plug#begin('~/.vim/plugged')
+
 " Group dependencies, vim-snippets depends on ultisnips 
 " Plug 'tpope/vim-surround'
 Plug 'neovim/node-host'
