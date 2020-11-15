@@ -7,7 +7,6 @@ call plug#begin('~/.vim/plugged')
 
 " Any valid git URL is allowed
 " Plug 'https://github.com/junegunn/vim-github-dashboard.git'
-vim-autoswap'
 
 " Group dependencies, vim-snippets depends on ultisnips 
 " Plug 'tpope/vim-surround'
