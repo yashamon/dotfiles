@@ -16,7 +16,7 @@ Plug 'skywind3000/asyncrun.vim'
 Plug 'justinmk/vim-sneak'
 " Plug 'bfredl/nvim-miniyank'
 Plug 'Shougo/neoyank.vim'
-Plug 'Shougo/denite.nvim'
+
 Plug 'SirVer/ultisnips' 
 Plug 'tpope/vim-fugitive'
 Plug 'eugen0329/vim-esearch'
