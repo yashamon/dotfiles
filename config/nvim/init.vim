@@ -17,7 +17,8 @@ Plug 'justinmk/vim-sneak'
 " Plug 'bfredl/nvim-miniyank'
 Plug 'Shougo/neoyank.vim'
 Shougo/denite.nvim
-Plug ''
+Plug 'Shougo/denite.nvim
+'
 
 Plug 'SirVer/ultisnips' 
 Plug 'tpope/vim-fugitive'
