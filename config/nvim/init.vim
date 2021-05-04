@@ -14,7 +14,7 @@ Plug 'gioele/vim-autoswap'
 " Plug 't9md/vim-smalls'
 Plug 'skywind3000/asyncrun.vim'
 Plug 'justinmk/vim-sneak'
- Plug 'bfredl/nvim-miniyank'
+"  Plug 'bfredl/nvim-miniyank'
 Plug 'Shougo/neoyank.vim'
 if has('nvim')
   Plug 'Shougo/denite.nvim', { 'do': ':UpdateRemotePlugins' }
