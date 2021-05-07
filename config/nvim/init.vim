@@ -14,7 +14,6 @@ Plug 'gioele/vim-autoswap'
 " Plug 't9md/vim-smalls'
 Plug 'skywind3000/asyncrun.vim'
 Plug 'sindrets/diffview.nvim'
-
 Plug 'justinmk/vim-sneak'
 "  Plug 'bfredl/nvim-miniyank'
 Plug 'Shougo/neoyank.vim'
