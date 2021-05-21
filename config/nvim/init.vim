@@ -13,7 +13,8 @@ Plug 'neovim/node-host'
 Plug 'gioele/vim-autoswap'
 " Plug 't9md/vim-smalls'
 Plug 'skywind3000/asyncrun.vim'
-Plug 'sindrets/diffview.nvim'  
+Plug 'sindrets/diffview.nvim', { 'branch': 'stable' }
+
 Plug 'rdnetto/YCM-Generator'
 
 Plug 'kyazdani42/nvim-web-devicons'
