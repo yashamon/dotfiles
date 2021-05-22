@@ -232,7 +232,7 @@ au FileType tex set spell
 au FileType tex set background=dark
 
 " au FileType tex autocmd User SneakLeave set syntax=tex
-" au FileType tex autocmd User SneakEnter set syntax=text
+ au FileType tex autocmd User SneakEnter set syntax=text
 
 " au FileType tex :Goyo
 "
