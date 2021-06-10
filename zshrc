@@ -50,7 +50,7 @@ plugins=(git vi-mode command-not-found github history-substring-search fzf-fasd)
 
 # User configuration
 
-export PATH="/data/data/com.termux/files/usr/bin/applets:/data/data/com.termux/files/usr/bin:bin:/usr/local/sbin:/usr/bin:/usr/local/bin:/usr/sbin:/sbin:/bin:~/.local/bin:/root/.cabal/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:~/.cabal/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:/home/yashasavelyev/.local/bin" 
+export PATH="/snap/bin:/data/data/com.termux/files/usr/bin/applets:/data/data/com.termux/files/usr/bin:bin:/usr/local/sbin:/usr/bin:/usr/local/bin:/usr/sbin:/sbin:/bin:~/.local/bin:/root/.cabal/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:~/.cabal/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:/home/yashasavelyev/.local/bin" 
 # export MANPATH="/usr/local/man:$MANPATH"
 source $ZSH/oh-my-zsh.sh
 
@@ -100,7 +100,7 @@ eval "$(fasd --init auto)"
 # export PATH="$HOME/.linuxbrew/bin:$PATH"
 # export MANPATH="$HOME/.linuxbrew/share/man:$MANPATH"
 # export INFOPATH="$HOME/.linuxbrew/share/info:$INFOPATH"
-
+alias nvim="/snap/bin/nvim"
 alias tmux d="tmux detach"
 alias texi="pdflatex -file-line-error -synctex=1  -interaction=nonstopmode -recorder" 
 alias latexi="latexmk -g -pdf -file-line-error -synctex=1  -interaction=nonstopmode -recorder -f"
@@ -118,7 +118,7 @@ alias pandocd="pandoc index.md > index.html"
 # <<<<<<< HEAD
 # alias hw="pandoc ~/web/classes/topology/topology2019.md > ~/web/classes/topology/topology2019.html; pandoc ~/web/CalcIII2019/analysis.md > ~/web/CalcIII2019/analysis.html; git add .; git commit -m -a; git push origin gh-pages"
 # =======
-alias hw="pandoc ~/web/classes/LinearAlgebra/hw2020.md > ~/web/classes/LinearAlgebra/hw2020.html; pandoc ~/web/classes/Spivak/hw2020.md  > ~/web/classes/Spivak/hw2020.html; git add .; git commit -m -a; git push origin gh-pages"
+alias hw="pandoc ~/web/classes/calcIV/2021.md > ~/web/classes/calcIV/2021.html; pandoc ~/web/classes/discreet/2021.md  > ~/web/classes/discreet/2021.html; git add .; git commit -m -a; git push origin gh-pages"
 alias attach="tmux attach -t"
 # alias pdf="xpdf -geometry 1920x1080 -fullscreen"
 # alias pdf="mupdf"
@@ -146,7 +146,7 @@ alias vis="rm /tmp/nvimsocket ; NVIM_LISTEN_ADDRESS=/tmp/nvimsocket nvim"
 # alias go= pslatex document.tex; dvips document.dvi; ps2pdf document.ps
 alias suru="su root; a"
 alias rec="recoll -q"
-alias vi="nvim"
+alias vi="/snap/bin/nvim"
 alias update="git submodule update --init --recursive ; git pull origin master"
 alias chrome="chromium --user-data-dir /root"
 alias res="xrandr --newmode "1920x1080_60.00"  173.00  1920 2048 2248 2576  1080 1083 1088 1120; xrandr --addmode Virtual-1 "1920x1080_60.00";

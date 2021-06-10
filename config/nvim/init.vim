@@ -13,8 +13,19 @@ Plug 'neovim/node-host'
 Plug 'gioele/vim-autoswap'
 " Plug 't9md/vim-smalls'
 Plug 'skywind3000/asyncrun.vim'
+Plug 'sindrets/diffview.nvim', { 'branch': 'main' }
+
+Plug 'kyazdani42/nvim-web-devicons'
 Plug 'justinmk/vim-sneak'
-Plug 'bfredl/nvim-miniyank'
+"  Plug 'bfredl/nvim-miniyank'
+Plug 'Shougo/neoyank.vim'
+if has('nvim')
+  Plug 'Shougo/denite.nvim', { 'do': ':UpdateRemotePlugins' }
+else
+  Plug 'Shougo/denite.nvim'
+  Plug 'roxma/nvim-yarp'
+  Plug 'roxma/vim-hug-neovim-rpc'
+endif
 Plug 'SirVer/ultisnips' 
 Plug 'tpope/vim-fugitive'
 Plug 'eugen0329/vim-esearch'
@@ -220,8 +231,8 @@ au FileType Makefile set noexpandtab
 au FileType tex set spell
 au FileType tex set background=dark
 
-" au FileType tex autocmd User SneakLeave set syntax=tex
-" au FileType tex autocmd User SneakEnter set syntax=text
+ au FileType tex autocmd User SneakLeave set syntax=tex
+ au FileType tex autocmd User SneakEnter set syntax=text
 
 " au FileType tex :Goyo
 "
@@ -755,6 +766,7 @@ nmap <leader>l :VimtexCompile<CR>
 nmap <leader>s <Esc>:VimtexErrors<CR>:Goyo x<CR>
 nmap <leader>x <C-w><up><Esc>:VimtexErrors<CR>:Goyo x<CR>
 nmap <leader>g :Goyo x<CR>
+nmap <leader>p :Denite neoyank<CR>
 
 " NB: this supports "rp that replaces the selection by the contents of @r
 " Auto updating Ctags
