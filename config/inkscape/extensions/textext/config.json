@@ -1,0 +1,9 @@
+{
+  "gui": {
+    "confirm_close": true,
+    "line_numbers": true,
+    "auto_indent": true,
+    "insert_spaces": true,
+    "tab_width": 4
+  }
+}
