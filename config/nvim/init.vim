@@ -788,7 +788,8 @@ let g:vifmUseCurrent=1
 let g:auto_save = 1
  let g:auto_save_in_insert_mode = 0
  let g:auto_save_silent = 0
-autocmd BufWritePost * silent execute 'AsyncRun if [ -d .git ] || git rev-parse --git-dir > /dev/null 2>&1 ; then git add % ; git commit -m -a ; git push --all origin; fi'
+autocmd BufWritePost * silent execute 'AsyncRun if git rev-parse --is-inside-work-tree
+ || git rev-parse --git-dir > /dev/null 2>&1 ; then git add % ; git commit -m -a ; git push --all origin; fi'
 " autocmd BufWritePost * <Esc>:AsyncRun 'if [ -d .git ] || git rev-parse --git-dir > /dev/null 2>&1 ; then git add % ; git commit -m ; git push --all origin; fi'
 
 "Highlight
