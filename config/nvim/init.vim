@@ -788,19 +788,8 @@ let g:vifmUseCurrent=1
 let g:auto_save = 1
  let g:auto_save_in_insert_mode = 0
  let g:auto_save_silent = 0
-" function! 
-"   let fullpath = a:file
-"   let cwd = getcwd()
-"   let tagfilename = cwd . "/tags"
-"   let f = substitute(fullpath, cwd . "/", "", "")
-"   let f = escape(f, './')
-"   let cmd = 'sed -i "/' . f . '/d" "' . tagfilename . '"'
-"   let resp = system(cmd)
-" endfunction
-
-
-let inside_git_repo="$(git rev-parse --is-inside-work-tree 2>/dev/null)"
-autocmd BufWritePost * silent execute 'AsyncRun if git rev-parse --is-inside-work-tree 2>/dev/null ; then git add % ; git commit -m -a ; git push --all origin; fi'
+nside_git_repo="$(git rev-parse --is-inside-work-tree 2>/dev/null)"
+autocmd BufWritePost * silent execute 'AsyncRun if [ -d .git ] || git rev-parse --git-dir > /dev/null 2>&1 ; then git add % ; git commit -m -a ; git push --all origin; fi'
 " autocmd BufWritePost * <Esc>:AsyncRun 'if [ -d .git ] || git rev-parse --git-dir > /dev/null 2>&1 ; then git add % ; git commit -m ; git push --all origin; fi'
 
 "Highlight
