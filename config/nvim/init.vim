@@ -800,7 +800,7 @@ let g:auto_save = 1
 
 
 let inside_git_repo="$(git rev-parse --is-inside-work-tree 2>/dev/null)"
-autocmd BufWritePost * silent execute 'AsyncRun if [ inside_git_repo ] || git rev-parse --git-dir > /dev/null 2>&1 ; then git add % ; git commit -m -a ; git push --all origin; fi'
+autocmd BufWritePost * silent execute 'AsyncRun if [ inside_git_repo ]  ; then git add % ; git commit -m -a ; git push --all origin; fi'
 " autocmd BufWritePost * <Esc>:AsyncRun 'if [ -d .git ] || git rev-parse --git-dir > /dev/null 2>&1 ; then git add % ; git commit -m ; git push --all origin; fi'
 
 "Highlight
