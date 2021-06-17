@@ -18,14 +18,14 @@ Plug 'sindrets/diffview.nvim', { 'branch': 'main' }
 Plug 'kyazdani42/nvim-web-devicons'
 Plug 'justinmk/vim-sneak'
 "  Plug 'bfredl/nvim-miniyank'
-Plug 'Shougo/neoyank.vim'
-if has('nvim')
-  Plug 'Shougo/denite.nvim', { 'do': ':UpdateRemotePlugins' }
-else
-  Plug 'Shougo/denite.nvim'
-  Plug 'roxma/nvim-yarp'
-  Plug 'roxma/vim-hug-neovim-rpc'
-endif
+" Plug 'Shougo/neoyank.vim'
+" if has('nvim')
+"   Plug 'Shougo/denite.nvim', { 'do': ':UpdateRemotePlugins' }
+" else
+"   Plug 'Shougo/denite.nvim'
+"   Plug 'roxma/nvim-yarp'
+"   Plug 'roxma/vim-hug-neovim-rpc'
+" endif
 Plug 'SirVer/ultisnips' 
 Plug 'tpope/vim-fugitive'
 Plug 'eugen0329/vim-esearch'
@@ -815,9 +815,10 @@ nnoremap <C-e> :let g:ctrlp_match_window =
 let g:ycm_auto_trigger = 0
 let g:ycm_collect_identifiers_from_tags_files = 1
 let g:ycm_key_invoke_completion = '<C-n>'
- let g:ycm_key_list_select_completion = ['<C-n>', '<Down>']
- let g:ycm_key_list_previous_completion = ['<C-p>', '<Up>']
- let g:SuperTabDefaultCompletionType = '<C-n>'
+let g:ycm_key_list_select_completion = ['<C-n>', '<Down>']
+let g:ycm_key_list_previous_completion = ['<C-p>', '<Up>']
+let g:SuperTabDefaultCompletionType = '<C-n>'
+let g:UltiSnipsSnippetDirectories=["~/.vim/plugged/vim-snippets/snippets", "~/.vim/plugged/vim-snippets/Ultisnips"]
 let g:UltiSnipsJumpForwardTrigger="<D-j>"
 let g:UltiSnipsJumpForwardTrigger="<M-j>" 
 let g:UltiSnipsJumpForwardTrigger="<C-j>"
