@@ -57,7 +57,7 @@ Plug 'terryma/vim-multiple-cursors'
 "
 " " Plug 'Valloric/YouCompleteMe', {'do': './install.py' }
 "
- Plug 'ervandew/supertab'
+Plug 'ervandew/supertab'
 
 Plug 'vim-scripts/tComment'
 
