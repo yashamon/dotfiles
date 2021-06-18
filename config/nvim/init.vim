@@ -849,7 +849,7 @@ set directory=$HOME/Downloads
 
 nmap t <Plug>Lightspeed_s
 " `<Plug>Lightspeed_S`
-" `<Plug>Lightspeed_f`
+ `<Plug>Lightspeed_f`
 " `<Plug>Lightspeed_F`
 " `<Plug>Lightspeed_t`
 " `<Plug>Lightspeed_T`
