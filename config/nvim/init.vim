@@ -825,7 +825,7 @@ let g:UltiSnipsJumpForwardTrigger="<D-j>"
 let g:UltiSnipsJumpForwardTrigger="<M-j>" 
 let g:UltiSnipsJumpForwardTrigger="<C-j>"
 let g:UltiSnipsListSnippets="<D-e>"
-let g:UltiSnipsListSnippets="<-e>"
+" let g:UltiSnipsListSnippets="<-e>"
 
 autocmd FileType qf nnoremap <buffer> <Enter> <C-W><Enter><C-W>T:Goyo x<CR>
 autocmd FileType qf nnoremap  <buffer> <A>-q :q:Goyo x<CR>
