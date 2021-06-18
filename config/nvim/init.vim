@@ -20,12 +20,12 @@ Plug 'justinmk/vim-sneak'
 "  Plug 'bfredl/nvim-miniyank'
 " Plug 'Shougo/neoyank.vim'
  if has('nvim')
-"   Plug 'Shougo/denite.nvim', { 'do': ':UpdateRemotePlugins' }
-" else
-"   Plug 'Shougo/denite.nvim'
-"   Plug 'roxma/nvim-yarp'
-"   Plug 'roxma/vim-hug-neovim-rpc'
-" endif
+   Plug 'Shougo/denite.nvim', { 'do': ':UpdateRemotePlugins' }
+ else
+   Plug 'Shougo/denite.nvim'
+   Plug 'roxma/nvim-yarp'
+   Plug 'roxma/vim-hug-neovim-rpc'
+ endif
 Plug 'SirVer/ultisnips' 
 Plug 'tpope/vim-fugitive'
 Plug 'eugen0329/vim-esearch'
