@@ -1,4 +1,4 @@
-" init.vim
+" init.Vim
 " call pathogen#infect()  
 call plug#begin('~/.vim/plugged')
 " Make sure you use single quotes
