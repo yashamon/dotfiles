@@ -847,9 +847,9 @@ let g:Guifont="Source Code Pro Light:h16"
 map <silent> <leader>g :silent execute "!(cd /root/web2 ; git add . ; git commit -m -a ; git push origin gh-pages) > /dev/null"<CR>
 set directory=$HOME/Downloads
 
-nmap t <Plug>Lightspeed_s
-" `<Plug>Lightspeed_S`
-nmap t `<Plug>Lightspeed_f`
+" nmap t <Plug>Lightspeed_s
+" " `<Plug>Lightspeed_S`
+" nmap t `<Plug>Lightspeed_f`
 " `<Plug>Lightspeed_F`
 " `<Plug>Lightspeed_t`
 " `<Plug>Lightspeed_T`
