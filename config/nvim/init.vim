@@ -19,7 +19,7 @@ Plug 'kyazdani42/nvim-web-devicons'
 Plug 'justinmk/vim-sneak'
 "  Plug 'bfredl/nvim-miniyank'
 " Plug 'Shougo/neoyank.vim'
-" if has('nvim')
+ if has('nvim')
 "   Plug 'Shougo/denite.nvim', { 'do': ':UpdateRemotePlugins' }
 " else
 "   Plug 'Shougo/denite.nvim'
