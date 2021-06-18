@@ -853,8 +853,6 @@ set directory=$HOME/Downloads
 " `<Plug>Lightspeed_F`
 " `<Plug>Lightspeed_t`
 " `<Plug>Lightspeed_T`
-
-
 " fuzzy search
 " function! s:config_fuzzyall(...) abort
 "   return extend(copy({
