@@ -848,11 +848,11 @@ map <silent> <leader>g :silent execute "!(cd /root/web2 ; git add . ; git commit
 set directory=$HOME/Downloads
 
 <Plug>Lightspeed_s
-`<Plug>Lightspeed_S`
-`<Plug>Lightspeed_f`
-`<Plug>Lightspeed_F`
-`<Plug>Lightspeed_t`
-`<Plug>Lightspeed_T`
+" `<Plug>Lightspeed_S`
+" `<Plug>Lightspeed_f`
+" `<Plug>Lightspeed_F`
+" `<Plug>Lightspeed_t`
+" `<Plug>Lightspeed_T`
 
 
 " fuzzy search
