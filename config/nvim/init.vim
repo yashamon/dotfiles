@@ -839,7 +839,7 @@ autocmd FileType qf nnoremap  <buffer> <A>-q :q:Goyo x<CR>
 "source ~/.anyname  
 au filetype tex filetype indent off
 "       GUI Stuff   
-command -nargs=? Guifont call rpcnotify(0, 'Gui', 'SetFont', "\<args\>") | let g:Guifont="<args>"
+commad -nargs=? Guifont call rpcnotify(0, 'Gui', 'SetFont', "\<args\>") | let g:Guifont="<args>"
 let g:Guifont="Source Code Pro Light:h16"
 
 " Deoplete
