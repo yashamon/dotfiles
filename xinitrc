@@ -8,8 +8,6 @@ xmodmap -e "remove control = Control_R" -e "add Mod3 = Control_R" &
 xcompmgr -c & 
 VBoxClient-all & 
 kitty & 
-
-
 exec xmonad
 
 
