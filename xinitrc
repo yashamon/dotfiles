@@ -1,6 +1,6 @@
 #!/bin/sh
 kitty &
- setxkbmap -option caps:escape & 
+setxkbmap -option caps:escape & 
  xrdb -merge ~/.Xresources & 
 xsetroot -cursor_name left_ptr & 
 xmodmap -e "keycode 133 = Escape" & 
