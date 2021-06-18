@@ -104,7 +104,7 @@ syntax on
 "  General Settings  
 "
 set switchbuf=newtab
-set 
+set g:python3_host_prog=3.9
 set clipboard+=unnamedplus	" yank to the system register (*) by default
 " TAB setting{
    set expandtab        "replace <TAB> with spaces
