@@ -8,7 +8,7 @@ call plug#begin('~/.vim/plugged')
 " Plug 'https://github.com/junegunn/vim-github-dashboard.git'
 " Group dependencies, vim-snippets depends on ultisnips 
 " Plug 'tpope/vim-surround'
-Plug 'neovim/node-host', 
+Plug 'neovim/node-host', { 'branch': 'main' }
 Plug 'ggandor/lightspeed.nvim'
 " Plug 'cyansprite/Extract'
 Plug 'gioele/vim-autoswap'
