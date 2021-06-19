@@ -10,4 +10,3 @@ VBoxClient-all &
 kitty & 
 wait $process_id
 
-text asdf
