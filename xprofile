@@ -1,26 +1,13 @@
-setxkbmap -option caps:escape &
-process_id=$!
-wait $process_id
-xrdb -merge ~/.Xresources &
-process_id=$!
-wait $process_id
-xsetroot -cursor_name left_ptr &
-process_id=$!
-wait $process_id
-xmodmap -e "keycode 133 = Escape" &
-process_id=$!
-wait $process_id
-xmodmap -e "remove control = Control_R" -e "add Mod3 = Control_R" &
-process_id=$!
-wait $process_id
-xcompmgr -c &
-process_id=$!
-wait $process_id
-VBoxClient-all &
-wait &
 kitty &
+setxkbmap -option caps:escape & 
+xrdb -merge ~/.Xresources & 
+xsetroot -cursor_name left_ptr & 
+xmodmap -e "keycode 133 = Escape" & 
+xmodmap -e "remove control = Control_R" -e "add Mod3 = Control_R" & 
+process_id=$!
+xcompmgr -c & 
+VBoxClient-all & 
+kitty & 
+wait $process_id
 
-/* xrandr --newmode "1920x1080_60.00"  173.00  1920 2048 2248 2576  1080 1083 1088 1120 & */
-/* xrandr --addmode Virtual-1 "1920x1080_60.00" & */
-/* xrandr -s 1920x1080 */
-
+text
