@@ -1,6 +1,6 @@
-" init.VIm
+" init.vim
 " call pathogen#infect()  
-Call plug#begin('~/.vim/plugged')
+call plug#begin('~/.vim/plugged')
 " Make sure you use single quotes
 " Shorthand notation; fetches https://github.com/junegunn/vim-easy-align
 " Plug 'junegunn/vim-easy-align'
@@ -8,8 +8,7 @@ Call plug#begin('~/.vim/plugged')
 " Plug 'https://github.com/junegunn/vim-github-dashboard.git'
 " Group dependencies, vim-snippets depends on ultisnips 
 " Plug 'tpope/vim-surround'
-Plug 'neovim/node-host', { 'branch': 'main' }
-Plug 'ggandor/lightspeed.nvim'
+Plug 'neovim/node-host'
 " Plug 'cyansprite/Extract'
 Plug 'gioele/vim-autoswap'
 " Plug 't9md/vim-smalls'
@@ -19,14 +18,14 @@ Plug 'sindrets/diffview.nvim', { 'branch': 'main' }
 Plug 'kyazdani42/nvim-web-devicons'
 Plug 'justinmk/vim-sneak'
 "  Plug 'bfredl/nvim-miniyank'
-Plug 'Shougo/neoyank.vim'
-if has('nvim')
-  Plug 'Shougo/denite.nvim', { 'do': ':UpdateRemotePlugins' }
-else
-  Plug 'Shougo/denite.nvim'
-  Plug 'roxma/nvim-yarp'
-  Plug 'roxma/vim-hug-neovim-rpc'
-endif
+" Plug 'Shougo/neoyank.vim'
+" if has('nvim')
+"   Plug 'Shougo/denite.nvim', { 'do': ':UpdateRemotePlugins' }
+" else
+"   Plug 'Shougo/denite.nvim'
+"   Plug 'roxma/nvim-yarp'
+"   Plug 'roxma/vim-hug-neovim-rpc'
+" endif
 Plug 'SirVer/ultisnips' 
 Plug 'tpope/vim-fugitive'
 Plug 'eugen0329/vim-esearch'
@@ -847,12 +846,6 @@ let g:Guifont="Source Code Pro Light:h16"
 map <silent> <leader>g :silent execute "!(cd /root/web2 ; git add . ; git commit -m -a ; git push origin gh-pages) > /dev/null"<CR>
 set directory=$HOME/Downloads
 
-" nmap t <Plug>Lightspeed_s
-" " `<Plug>Lightspeed_S`
-" nmap t `<Plug>Lightspeed_f`
-" `<Plug>Lightspeed_F`
-" `<Plug>Lightspeed_t`
-" `<Plug>Lightspeed_T`
 " fuzzy search
 " function! s:config_fuzzyall(...) abort
 "   return extend(copy({
