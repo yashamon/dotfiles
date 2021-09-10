@@ -26,7 +26,6 @@ Plug 'justinmk/vim-sneak'
 "   Plug 'roxma/nvim-yarp'
 "   Plug 'roxma/vim-hug-neovim-rpc'
 " endif
-=======
 Plug 'Shougo/neoyank.vim'
 if has('nvim')
    Plug 'Shougo/denite.nvim', { 'do': ':UpdateRemotePlugins' }
@@ -35,7 +34,6 @@ if has('nvim')
    Plug 'roxma/nvim-yarp'
    Plug 'roxma/vim-hug-neovim-rpc'
  endif
->>>>>>> 3f4a2f92b7e91ace9438db68832cf9c3a0250a7e
 Plug 'SirVer/ultisnips' 
 Plug 'tpope/vim-fugitive'
 Plug 'eugen0329/vim-esearch'
