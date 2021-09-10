@@ -2,6 +2,7 @@
 export ZSH=~/.oh-my-zsh
 export ANDROID_HOME=/root/android-sdk-linux
 export LANG=en_US.UTF-8
+export XDG_CONFIG_HOME=$HOME/.config
 # Set name of the theme to load.
 # Look in ~/.oh-my-zsh/themes/
 # Optionally, if you set this to "random", it'll load a random theme each
@@ -100,7 +101,7 @@ eval "$(fasd --init auto)"
 # export PATH="$HOME/.linuxbrew/bin:$PATH"
 # export MANPATH="$HOME/.linuxbrew/share/man:$MANPATH"
 # export INFOPATH="$HOME/.linuxbrew/share/info:$INFOPATH"
-alias nvim="/snap/bin/nvim"
+# alias nvim="/snap/bin/nvim"
 alias tmux d="tmux detach"
 alias texi="pdflatex -file-line-error -synctex=1  -interaction=nonstopmode -recorder" 
 alias latexi="latexmk -g -pdf -file-line-error -synctex=1  -interaction=nonstopmode -recorder -f"
@@ -310,5 +311,7 @@ export DISPLAY=:0.0
 alias wq='wmctrl -r 'Alacritty' -b toggle,fullscreen'
 alias ubuntu="sudo apt-get update; sudo apt-get upgrade"
 
-# VBoxClient --clipboard
-
+VBoxClient-all
+# xrdb -merge ~/.Xresources
+# setxkbmap -option caps:escape 
+# xsetroot -cursor_name left_ptr &xmodmap -e "remove control = Control_R" -e "add Mod3 = Control_R" &

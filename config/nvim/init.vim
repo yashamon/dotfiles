@@ -26,6 +26,16 @@ Plug 'justinmk/vim-sneak'
 "   Plug 'roxma/nvim-yarp'
 "   Plug 'roxma/vim-hug-neovim-rpc'
 " endif
+=======
+Plug 'Shougo/neoyank.vim'
+if has('nvim')
+   Plug 'Shougo/denite.nvim', { 'do': ':UpdateRemotePlugins' }
+ else
+   Plug 'Shougo/denite.nvim'
+   Plug 'roxma/nvim-yarp'
+   Plug 'roxma/vim-hug-neovim-rpc'
+ endif
+>>>>>>> 3f4a2f92b7e91ace9438db68832cf9c3a0250a7e
 Plug 'SirVer/ultisnips' 
 Plug 'tpope/vim-fugitive'
 Plug 'eugen0329/vim-esearch'
@@ -57,7 +67,7 @@ Plug 'terryma/vim-multiple-cursors'
 "
 " " Plug 'Valloric/YouCompleteMe', {'do': './install.py' }
 "
- Plug 'ervandew/supertab'
+Plug 'ervandew/supertab'
 
 Plug 'vim-scripts/tComment'
 
@@ -104,7 +114,7 @@ syntax on
 "  General Settings  
 "
 set switchbuf=newtab
-
+let g:python3_host_prog='/usr/bin/python3.9'
 set clipboard+=unnamedplus	" yank to the system register (*) by default
 " TAB setting{
    set expandtab        "replace <TAB> with spaces
@@ -812,20 +822,21 @@ nnoremap <C-e> :let g:ctrlp_match_window =
          \ 'bottom,order:btt,min:1,max:1000,results:1000'<CR>:CtrlPTag<CR>
 
 
-
 " YouCompleteMe  usage is tied to Supertab, this is a little weird but 
 " seems necessary for full interoperability with ultisnipps
 let g:ycm_auto_trigger = 0
 let g:ycm_collect_identifiers_from_tags_files = 1
 let g:ycm_key_invoke_completion = '<C-n>'
- let g:ycm_key_list_select_completion = ['<C-n>', '<Down>']
- let g:ycm_key_list_previous_completion = ['<C-p>', '<Up>']
- let g:SuperTabDefaultCompletionType = '<C-n>'
+let g:ycm_key_list_select_completion = ['<C-n>', '<Down>']
+let g:ycm_key_list_previous_completion = ['<C-p>', '<Up>']
+let g:SuperTabDefaultCompletionType = '<C-n>'
+" let g:UltiSnipsSnippetDirectories=['Ultisnips']
 let g:UltiSnipsJumpForwardTrigger="<D-j>"
 let g:UltiSnipsJumpForwardTrigger="<M-j>" 
 let g:UltiSnipsJumpForwardTrigger="<C-j>"
 let g:UltiSnipsListSnippets="<D-e>"
-let g:UltiSnipsListSnippets="<-e>"
+" let g:UltiSnipsListSnippets="<-e>"
+
 autocmd FileType qf nnoremap <buffer> <Enter> <C-W><Enter><C-W>T:Goyo x<CR>
 autocmd FileType qf nnoremap  <buffer> <A>-q :q:Goyo x<CR>
 
