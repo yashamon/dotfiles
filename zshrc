@@ -118,7 +118,7 @@ alias pandocd="pandoc index.md > index.html"
 # <<<<<<< HEAD
 # alias hw="pandoc ~/web/classes/topology/topology2019.md > ~/web/classes/topology/topology2019.html; pandoc ~/web/CalcIII2019/analysis.md > ~/web/CalcIII2019/analysis.html; git add .; git commit -m -a; git push origin gh-pages"
 # =======
-alias hw="pandoc ~/web/classes/calcIV/2021.md > ~/web/classes/calcIV/2021.html; pandoc ~/web/classes/discreet/2021.md  > ~/web/classes/discreet/2021.html; git add .; git commit -m -a; git push origin gh-pages"
+alias hw="pandoc ~/web/classes/CalcIII/2021.md > ~/web/classes/CalcIII/2021.html; pandoc ~/web/classes/topology/topology2021.md  > ~/web/classes/topology/topology2021.html; git add .; git commit -m -a; git push origin gh-pages"
 alias attach="tmux attach -t"
 # alias pdf="xpdf -geometry 1920x1080 -fullscreen"
 # alias pdf="mupdf"
