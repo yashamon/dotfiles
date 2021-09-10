@@ -11,10 +11,9 @@ call plug#begin('~/.vim/plugged')
 Plug 'neovim/node-host'
 " Plug 'cyansprite/Extract'
 Plug 'gioele/vim-autoswap'
-"" Plug 't9md/vim-smalls'
- Plug 't9md/vim-smalls'
+" Plug 't9md/vim-smalls'
 Plug 'skywind3000/asyncrun.vim'
-Plug 'sindrets/diffview.nvim', { 'branch': 'main' }
+" Plug 'sindrets/diffview.nvim', { 'branch': 'main' }
 
 Plug 'kyazdani42/nvim-web-devicons'
 Plug 'justinmk/vim-sneak'
