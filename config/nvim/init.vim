@@ -743,6 +743,7 @@ let g:vimtex_indent_enabled =0
 "      endif
 "    endfunction
 " let g:vimtex_latexmk_build_dir = './build'
+" \ 'build_dir' : './build',
 
     let g:vimtex_compiler_latexmk = {
     \ 'background' : 0,
