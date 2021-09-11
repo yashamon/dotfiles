@@ -757,7 +757,7 @@ let g:vimtex_indent_enabled =0
     \   '-interaction=nonstopmode',
     \ ],
     \}
-let g:vimtex_latexmk_progname = 'nvr'
+let g:vimtex_compiler_progname = 'nvr'
 nmap  <leader>v <Esc>:w<CR>:VimtexView<CR>
 let g:vimtex_quickfix_mode = 0
 let g:vimtex_fold_enabled =0
