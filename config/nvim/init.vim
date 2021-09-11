@@ -746,7 +746,7 @@ let g:vimtex_indent_enabled =0
 
     let g:vimtex_compiler_latexmk = {
     \ 'background' : 0,
-    " \ 'build_dir' : './build',
+    \ 'build_dir' : './build',
     \ 'callback' : 1,
     \ 'continuous' : 1,
     \ 'options' : [
