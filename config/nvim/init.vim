@@ -859,9 +859,6 @@ map <silent> <leader>g :silent execute "!(cd /root/web2 ; git add . ; git commit
 set directory=$HOME/Downloads
 
 let g:goyo_width=60
-=======
-g:goyo_width=
->>>>>>> ad9438be84db2d58e00ebae98d3b299840a410bf
 " fuzzy search
 " function! s:config_fuzzyall(...) abort
 "   return extend(copy({
