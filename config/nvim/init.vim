@@ -13,10 +13,13 @@ Plug 'neovim/node-host'
 Plug 'gioele/vim-autoswap'
 " Plug 't9md/vim-smalls'
 Plug 'skywind3000/asyncrun.vim'
-Plug 'sindrets/diffview.nvim', { 'branch': 'main' }
+" Plug 'sindrets/diffview.nvim', { 'branch': 'main' }
+" Plug 'sindrets/diffview.nvim', { 'branch': 'main' }
 Plug 'rmagatti/auto-session', { 'branch': 'main' }
 Plug 'kyazdani42/nvim-web-devicons'
 Plug 'justinmk/vim-sneak'
+Plug 'folke/zen-mode.nvim', { 'branch': 'main' }
+
 "  Plug 'bfredl/nvim-miniyank'
 " Plug 'Shougo/neoyank.vim'
 " if has('nvim')
@@ -112,7 +115,7 @@ syntax on
 "  General Settings  
 "
 set switchbuf=newtab
-let g:python3_host_prog='/usr/bin/python3.9'
+let g:python3_host_prog='/usr/bin/python3.7'
 set clipboard+=unnamedplus	" yank to the system register (*) by default
 " TAB setting{
    set expandtab        "replace <TAB> with spaces
@@ -751,11 +754,11 @@ let g:vimtex_indent_enabled =0
 "      endif
 "    endfunction
 " let g:vimtex_latexmk_build_dir = './build'
+" \ 'build_dir' : './build',
 
     let g:vimtex_compiler_latexmk = {
     \ 'background' : 0,
-    \ 'build_dir' : './build',
-    \ 'callback' : 1,
+        \ 'callback' : 1,
     \ 'continuous' : 1,
     \ 'options' : [
     \   '-pdf',
@@ -765,7 +768,7 @@ let g:vimtex_indent_enabled =0
     \   '-interaction=nonstopmode',
     \ ],
     \}
-let g:vimtex_latexmk_progname = 'nvr'
+let g:vimtex_compiler_progname = 'nvr'
 nmap  <leader>v <Esc>:w<CR>:VimtexView<CR>
 let g:vimtex_quickfix_mode = 0
 let g:vimtex_fold_enabled =0
@@ -854,7 +857,7 @@ let g:Guifont="Source Code Pro Light:h16"
 
 map <silent> <leader>g :silent execute "!(cd /root/web2 ; git add . ; git commit -m -a ; git push origin gh-pages) > /dev/null"<CR>
 set directory=$HOME/Downloads
-
+g:goyo_width
 " fuzzy search
 " function! s:config_fuzzyall(...) abort
 "   return extend(copy({
