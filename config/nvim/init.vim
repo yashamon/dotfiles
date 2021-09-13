@@ -14,11 +14,12 @@ Plug 'gioele/vim-autoswap'
 " Plug 't9md/vim-smalls'
 Plug 'skywind3000/asyncrun.vim'
 " Plug 'sindrets/diffview.nvim', { 'branch': 'main' }
-Plug 'sindrets/diffview.nvim', { 'branch': 'main' }
+" Plug 'sindrets/diffview.nvim', { 'branch': 'main' }
 Plug 'rmagatti/auto-session', { 'branch': 'main' }
 Plug 'kyazdani42/nvim-web-devicons'
 Plug 'justinmk/vim-sneak'
-Plug 'folke/zen-mode.nvim' 
+Plug 'folke/zen-mode.nvim', { 'branch': 'main' }
+
 "  Plug 'bfredl/nvim-miniyank'
 " Plug 'Shougo/neoyank.vim'
 " if has('nvim')
