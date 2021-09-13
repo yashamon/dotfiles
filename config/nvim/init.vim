@@ -13,11 +13,24 @@ Plug 'neovim/node-host'
 Plug 'gioele/vim-autoswap'
 " Plug 't9md/vim-smalls'
 Plug 'skywind3000/asyncrun.vim'
+
 " Plug 'sindrets/diffview.nvim', { 'branch': 'main' }
 
+=======
+Plug 'sindrets/diffview.nvim', { 'branch': 'main' }
+Plug 'rmagatti/auto-session', { 'branch': 'main' }
+>>>>>>> c4e26935ec653dbee3ccfd0d6eebd7b821771b21
 Plug 'kyazdani42/nvim-web-devicons'
 Plug 'justinmk/vim-sneak'
 "  Plug 'bfredl/nvim-miniyank'
+" Plug 'Shougo/neoyank.vim'
+" if has('nvim')
+"   Plug 'Shougo/denite.nvim', { 'do': ':UpdateRemotePlugins' }
+" else
+"   Plug 'Shougo/denite.nvim'
+"   Plug 'roxma/nvim-yarp'
+"   Plug 'roxma/vim-hug-neovim-rpc'
+" endif
 Plug 'Shougo/neoyank.vim'
 if has('nvim')
    Plug 'Shougo/denite.nvim', { 'do': ':UpdateRemotePlugins' }
