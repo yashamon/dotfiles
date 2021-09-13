@@ -18,6 +18,7 @@ Plug 'sindrets/diffview.nvim', { 'branch': 'main' }
 Plug 'rmagatti/auto-session', { 'branch': 'main' }
 Plug 'kyazdani42/nvim-web-devicons'
 Plug 'justinmk/vim-sneak'
+Plug ''
 https://github.com/folke/zen-mode.nvim.git
 "  Plug 'bfredl/nvim-miniyank'
 " Plug 'Shougo/neoyank.vim'
