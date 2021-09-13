@@ -16,7 +16,7 @@ Plug 'skywind3000/asyncrun.vim'
 " Plug 'sindrets/diffview.nvim', { 'branch': 'main' }
 Plug 'sindrets/diffview.nvim', { 'branch': 'main' }
 Plug 'rmagatti/auto-session', { 'branch': 'main' }
->>>>>>> c4e26935ec653dbee3ccfd0d6eebd7b821771b21
+
 Plug 'kyazdani42/nvim-web-devicons'
 Plug 'justinmk/vim-sneak'
 "  Plug 'bfredl/nvim-miniyank'
