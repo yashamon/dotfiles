@@ -310,7 +310,7 @@ single () {
 # # alias zshconfig="mate ~/.zshrc"
 # # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-alias sudo='sudo '
+# alias sudo='sudo '
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 alias chmodWork sudo chmod -R ~/workspacemodules
@@ -318,7 +318,7 @@ export DISPLAY=:0.0
 alias wq='wmctrl -r 'Alacritty' -b toggle,fullscreen'
 alias ubuntu="sudo apt-get update; sudo apt-get upgrade"
 
-VBoxClient-all
+# VBoxClient-all
 # xrdb -merge ~/.Xresources
 # setxkbmap -option caps:escape 
 # xsetroot -cursor_name left_ptr &xmodmap -e "remove control = Control_R" -e "add Mod3 = Control_R" &
