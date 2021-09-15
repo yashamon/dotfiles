@@ -1,6 +1,6 @@
 " init.vim
 " call pathogen#infect()  
-call plug#begin('~/.vim/plugged')
+c_{simp}all plug#begin('~/.vim/plugged')
 " Make sure you use single quotes
 " Shorthand notation; fetches https://github.com/junegunn/vim-easy-align
 " Plug 'junegunn/vim-easy-align'
