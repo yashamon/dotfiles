@@ -860,10 +860,7 @@ let g:Guifont="Source Code Pro Light:h16"
 
 map <silent> <leader>g :silent execute "!(cd /root/web2 ; git add . ; git commit -m -a ; git push origin gh-pages) > /dev/null"<CR>
 set directory=$HOME/Downloads
-<<<<<<< HEAD
-=======
 
->>>>>>> 028e0716946e19de845ad7d6a208a1a7b71af021
 let g:goyo_width=60
 " fuzzy search
 " function! s:config_fuzzyall(...) abort
