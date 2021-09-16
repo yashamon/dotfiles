@@ -244,6 +244,7 @@ autocmd BufReadPost * if @% !~# '\.git[\/\\]COMMIT_EDITMSG$' && line("'\"") > 1 
 au FileType Makefile set noexpandtab 
 au FileType tex set spell
 au FileType tex set background=dark
+au TextYankPost * lua vim.highlight.on_yank {higroup="IncSearch", timeout=150, on_visual=true}
 
  au FileType tex autocmd User SneakLeave set syntax=tex
  au FileType tex autocmd User SneakEnter set syntax=text
