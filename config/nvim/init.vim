@@ -11,7 +11,7 @@ call plug#begin('~/.vim/plugged')
 Plug 'neovim/node-host'
 Plug 'projekt0n/github-nvim-theme',  { 'branch': 'main' }
 Plug 'rktjmp/lush.nvim', { 'branch': 'main' }
-Plug 'ellisonleao/gruvbox.nvim',   { 'branch': 'main' }
+Plug 'ellisonleao/gruvbox.nvim',  {'branch': 'main' }
 " Plug 'cyansprite/Extract'
 Plug 'gioele/vim-autoswap'
 Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
@@ -240,7 +240,7 @@ let g:github_sidebars = ["qf", "vista_kind", "terminal", "packer"]
 " Load the colorscheme
 " colorscheme github_dark 
   
-colorscheme gruvbox
+" colorscheme gruvbox
 " set background=dark
      " colorscheme gruvbox 
   " highlight Normal ctermbg=none
