@@ -238,7 +238,7 @@ let g:github_colors = [hint = "orange", error = "#ff0000"]
 colorscheme github_dark 
   
 " colorscheme gruvbox
-set background=dark
+" set background=dark
      " colorscheme gruvbox 
   " highlight Normal ctermbg=none
 highlight clear SpellBad
