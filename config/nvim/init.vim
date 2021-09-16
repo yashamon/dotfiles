@@ -122,6 +122,7 @@ set clipboard+=unnamedplus	" yank to the system register (*) by default
    set softtabstop=3 
    set shiftwidth=3  
 set termguicolors
+set guicursor 
 " au GUIEnter * set fullscreen
 " if has("gui_running")
   " set fuoptions=maxvert,maxhorz
