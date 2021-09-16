@@ -114,6 +114,8 @@ syntax on
 " filetype plugin indent on
 "  General Settings  
 "
+au TextYankPost * lua vim.highlight.on_yank {higroup="IncSearch", timeout=150, on_visual=true}
+
 set switchbuf=newtab
 let g:python3_host_prog='/usr/bin/python3.9'
 set clipboard+=unnamedplus	" yank to the system register (*) by default
