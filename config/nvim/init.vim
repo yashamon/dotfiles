@@ -227,8 +227,16 @@ else
 " terminal color settings
 set background=dark
   " set t_Co=256          " 256 color mode
-  "
-  "
+" Example config in VimScript
+let g:github_function_style = "italic"
+let g:github_sidebars = ["qf", "vista_kind", "terminal", "packer"]
+
+" Change the "hint" color to the "orange" color, and make the "error" color bright red
+let g:github_colors = [hint = "orange", error = "#ff0000"]
+
+" Load the colorscheme
+colorscheme github_dark 
+  
 colorscheme gruvbox
 set background=dark
      " colorscheme gruvbox 
