@@ -10,7 +10,8 @@ call plug#begin('~/.vim/plugged')
 " Plug 'tpope/vim-surround'
 Plug 'neovim/node-host'
 Plug 'projekt0n/github-nvim-theme',  { 'branch': 'main' }
-
+Plug 'rktjmp/lush.nvim'
+Plug 'ellisonleao/gruvbox.nvim'
 
 " Plug 'cyansprite/Extract'
 Plug 'gioele/vim-autoswap'
