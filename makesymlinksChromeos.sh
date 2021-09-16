@@ -93,7 +93,7 @@ ln -s ~/dotfiles/config/nvim/lua/init.lua ~/.config/nvim/lua/init.lua
 git config --global credential.helper store
 git config --global user.name "yashamon"
 git config --global user.email "yasha.savelyev@gmail.com"
-# pip3 install neovim, git clone https://github.com/romkatv/powerlevel10k.git $ZSH_CUSTOM/themes/powerlevel10k, mkdir -p $ZSH_CUSTOM/lib && touch $ZSH_CUSTOM/lib/misc.zsh
+# pip3 install neovim, git clone https://github.com/romkatv/powerlevel10k.git $ZSH_CUSTOM/themes/powerlevel10k; mkdir -p $ZSH_CUSTOM/lib && touch $ZSH_CUSTOM/lib/misc.zsh
 
 
 pip3 install neovim-remote
