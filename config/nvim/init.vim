@@ -11,6 +11,7 @@ call plug#begin('~/.vim/plugged')
 Plug 'neovim/node-host'
 " Plug 'cyansprite/Extract'
 Plug 'gioele/vim-autoswap'
+https://github.com/nvim-treesitter/nvim-treesitter.git
 " Plug 't9md/vim-smalls'
 Plug 'skywind3000/asyncrun.vim'
 " Plug 'sindrets/diffview.nvim', { 'branch': 'main' }
