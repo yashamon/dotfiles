@@ -176,7 +176,7 @@ set linebreak
 set textwidth=0
 set wrapmargin=0
 set hid
-set foldmethod=expr foldexpr=getline(v:lnum)=~'^\s*'.&commentstring[0]
+" set foldmethod=expr foldexpr=getline(v:lnum)=~'^\s*'.&commentstring[0]
 set autochdir
 set guioptions-=r 
 set guioptions-=l
