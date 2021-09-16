@@ -227,6 +227,8 @@ else
 " terminal color settings
 set background=dark
   " set t_Co=256          " 256 color mode
+  "
+  "
 colorscheme gruvbox
 set background=dark
      " colorscheme gruvbox 
