@@ -127,7 +127,7 @@ alias pandocd="pandoc index.md > index.html"
 # alias hw="pandoc ~/web/classes/topology/topology2019.md > ~/web/classes/topology/topology2019.html; pandoc ~/web/CalcIII2019/analysis.md > ~/web/CalcIII2019/analysis.html; git add .; git commit -m -a; git push origin gh-pages"
 # =======
 alias hw="pandoc ~/web/classes/CalcIII/2021.md > ~/web/classes/CalcIII/2021.html; pandoc ~/web/classes/topology/topology2021.md  > ~/web/classes/topology/topology2021.html; git add .; git commit -m -a; git push origin gh-pages"
-alias attach="tmux attach -t"
+alias attach="tmux attach"
 # alias pdf="xpdf -geometry 1920x1080 -fullscreen"
 # alias pdf="mupdf"
  alias pdf="zathura"
@@ -310,7 +310,7 @@ single () {
 # # alias zshconfig="mate ~/.zshrc"
 # # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-alias sudo='sudo '
+# alias sudo='sudo '
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 alias chmodWork sudo chmod -R ~/workspacemodules
@@ -318,7 +318,7 @@ export DISPLAY=:0.0
 alias wq='wmctrl -r 'Alacritty' -b toggle,fullscreen'
 alias ubuntu="sudo apt-get update; sudo apt-get upgrade"
 
-VBoxClient-all
+# VBoxClient-all
 # xrdb -merge ~/.Xresources
 # setxkbmap -option caps:escape 
 # xsetroot -cursor_name left_ptr &xmodmap -e "remove control = Control_R" -e "add Mod3 = Control_R" &
