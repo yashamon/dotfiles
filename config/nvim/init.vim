@@ -923,9 +923,9 @@ require'nvim-treesitter.configs'.setup {
 EOF
 
 lua <<EOF
--- require'nvim-treesitter.configs'.setup {
---   indent = {
---     enable = true
+require'nvim-treesitter.configs'.setup {
+  indent = {
+    enable = true
   }
 }
 EOF
