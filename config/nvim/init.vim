@@ -10,7 +10,7 @@ call plug#begin('~/.vim/plugged')
 " Plug 'tpope/vim-surround'
 Plug 'neovim/node-host'
 Plug 'projekt0n/github-nvim-theme',  { 'branch': 'main' }
-Plug 'rktjmp/lush.nvim'
+Plug 'rktjmp/lush.nvim', 
 Plug 'ellisonleao/gruvbox.nvim'
 " Plug 'cyansprite/Extract'
 Plug 'gioele/vim-autoswap'
@@ -256,7 +256,7 @@ endif
 autocmd BufReadPost * if @% !~# '\.git[\/\\]COMMIT_EDITMSG$' && line("'\"") > 1 && line("'\"") <= line("$") | exe "normal! g`\"" | endif 
 au FileType Makefile set noexpandtab 
 au FileType tex set spell
- au FileType tex set background=dark
+au FileType tex set background=dark
 au TextYankPost * lua vim.highlight.on_yank {higroup="IncSearch", timeout=150, on_visual=true}
 
  au FileType tex autocmd User SneakLeave set syntax=tex
