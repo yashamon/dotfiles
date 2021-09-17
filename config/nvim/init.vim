@@ -571,7 +571,8 @@ map 9 g$
 map <Leader>n <Plug>(miniyank-cycle)
 vmap q xi<CR><CR><CR><CR><ESC>kkpvip<leader>c
 nnoremap 
-
+<Left> :bnext<CR>
+nnoremap <Right>
 
 :bprevious<CR>
 " tnoremap <Esc> <C-\> 
