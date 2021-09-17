@@ -564,8 +564,12 @@ map 9 g$
 
 
 
-map p <Plug>(miniyank-startput)
-map P <Plug>(miniyank-startPut)
+map p 
+
+" <Plug>(miniyank-startput)
+" map P <Plug>(
+
+miniyank-startPut)
 
 
 
