@@ -240,7 +240,7 @@ let g:github_sidebars = ["qf", "vista_kind", "terminal", "packer"]
 " colorscheme github_dark 
 colorscheme blue-moon
 set background=dark
-     " colorscheme gruvbox 
+     colorscheme gruvbox 
   " highlight Normal ctermbg=none
 highlight clear SpellBad
 highlight SpellBad cterm=underline
