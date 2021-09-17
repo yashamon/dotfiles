@@ -58,7 +58,7 @@ Plug 'terryma/vim-multiple-cursors'
 
  Plug 'equalsraf/neovim-gui-shim'
 
-"  Plug 'morhetz/gruvbox'
+ Plug 'morhetz/gruvbox'
 
  Plug 'vim-pandoc/vim-pandoc'
 
