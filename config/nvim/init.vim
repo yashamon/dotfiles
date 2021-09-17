@@ -564,8 +564,10 @@ map 9 g$
 
 " map p <Plug>(miniyank-startput)
 " map P <Plug>(miniyank-startPut)
-" nmap p <Plug>(miniyank-autoput)
-" nmap P <Plug>(miniyank-autoPut)
+
+
+
+
 " vmap p <Plug>(miniyank-autoput)
 " vmap P <Plug>(miniyank-autoPut)
 map <Leader>n <Plug>(miniyank-cycle)
