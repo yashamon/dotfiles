@@ -23,7 +23,7 @@ Plug 'rmagatti/auto-session', { 'branch': 'main' }
 Plug 'kyazdani42/nvim-web-devicons'
 Plug 'justinmk/vim-sneak'
 Plug 'folke/zen-mode.nvim', { 'branch': 'main' }
-Plug 'kyazdani42/blue-moon', 
+Plug 'kyazdani42/blue-moon', { 'branch': 'main' }
 "  Plug 'bfredl/nvim-miniyank'
 " Plug 'Shougo/neoyank.vim'
 " if has('nvim')
