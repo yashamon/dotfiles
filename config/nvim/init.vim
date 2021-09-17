@@ -240,8 +240,8 @@ let g:github_sidebars = ["qf", "vista_kind", "terminal", "packer"]
 " colorscheme github_dark 
 set background=dark
 colorscheme blue-moon
-     " colorscheme gruvbox 
-  " highlight Normal ctermbg=none
+" colorscheme gruvbox 
+" highlight Normal ctermbg=none
 highlight clear SpellBad
 highlight SpellBad cterm=underline
 hi MatchParen cterm=underline ctermbg=none ctermfg=magenta
@@ -709,6 +709,7 @@ au FileType tex,text,md inoremap <A><CR> <CR>
 " au FileType tex,text,md inoremap .<ESC> .<CR><ESC>J0
 au FileType tex,text,md inoremap <leader>cr <CR>
 au FileType tex,text,md noremap map o gj0i<CR><ESC>gki 
+
 nnoremap <C-j> a<CR><Esc>k$ 
 
 "Neovim mappings
