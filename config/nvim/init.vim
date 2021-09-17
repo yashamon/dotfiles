@@ -59,7 +59,7 @@ Plug 'terryma/vim-multiple-cursors'
  Plug 'equalsraf/neovim-gui-shim'
 
 "  Plug 'morhetz/gruvbox'
-
+ gruvbox-material
  Plug 'vim-pandoc/vim-pandoc'
 
  Plug 'vim-pandoc/vim-pandoc-syntax' 
