@@ -574,8 +574,7 @@ miniyank-startPut)
 
 
 
-<Plug>(miniyank-startput)
-map P <Plug>(ap p <Plug>(miniyank-autoput)
+nmap p <Plug>(miniyank-autoput)
 nmap P <Plug>(miniyank-autoPut)
 
 
