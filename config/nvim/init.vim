@@ -59,7 +59,7 @@ Plug 'terryma/vim-multiple-cursors'
  Plug 'equalsraf/neovim-gui-shim'
 
 "  Plug 'morhetz/gruvbox'
-Plug 'sainnhe/gruvbox-materialit'
+Plug 'sainnhe/gruvbox-material'
  Plug 'vim-pandoc/vim-pandoc'
 
  Plug 'vim-pandoc/vim-pandoc-syntax' 
@@ -238,7 +238,7 @@ let g:github_sidebars = ["qf", "vista_kind", "terminal", "packer"]
 " let g:github_colors = [hint = "orange", error = "#ff0000"]
 
 " Load the colorscheme
-colorscheme github_dark 
+" colorscheme github_dark 
   "  colorscheme gruvbox
 " set background=dark
      " colorscheme gruvbox 
