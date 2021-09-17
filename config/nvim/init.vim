@@ -562,8 +562,12 @@ nnoremap dd g^"_dg$i<backspace><ESC><CR>
 map 0 g^
 map 9 g$
 
-" map p <Plug>(miniyank-startput)
-" map P <Plug>(miniyank-startPut)
+
+
+map p <Plug>(miniyank-startput)
+map P <Plug>(miniyank-startPut)
+
+
 
 
 nmap p <Plug>(miniyank-autoput)
