@@ -366,6 +366,9 @@ bindkey '^[[B' history-substring-search-down
 bindkey -M vicmd 'k' history-substring-search-up
 bindkey -M vicmd 'j' history-substring-search-down
 
+#programs
+# zinit ice from"gh-r" as"program"
+# zinit light clvv/fasd
 #
  # zinit snippet OMZ::plugins/history-substring-search/history-substring-search.plugin.zsh
 zinit snippet OMZ::plugins/vi-mode/vi-mode.plugin.zsh
