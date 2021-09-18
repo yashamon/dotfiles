@@ -581,7 +581,7 @@ imap <M-j> <C-j>
 map <S-w> /\$<CR>
 map <S-b> ?\$<CR>
 map <A-w> /\}<CR>
-map <A-b> ?\$<CR>
+map <A-b> ?\{<CR>
 
 map <C-q> <Esc>:q<CR>
 map <M-S-q> <Esc>:q!<CR>
