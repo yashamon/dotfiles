@@ -120,7 +120,7 @@ syntax on
 "
 set switchbuf=newtab
 set t_ut=
-let g:python3_host_prog='/usr/bin/python3.9'
+" let g:python3_host_prog='/usr/bin/python3.9'
 set clipboard+=unnamedplus	" yank to the system register (*) by default
 " TAB setting{
    set expandtab        "replace <TAB> with spaces
