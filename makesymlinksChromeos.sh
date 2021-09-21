@@ -95,6 +95,6 @@ git config --global user.name "yashamon"
 git config --global user.email "yasha.savelyev@gmail.com"
 # pip3 install neovim, git clone https://github.com/romkatv/powerlevel10k.git $ZSH_CUSTOM/themes/powerlevel10k; mkdir -p $ZSH_CUSTOM/lib && touch $ZSH_CUSTOM/lib/misc.zsh
 
-sudo apt install python3 kitty python-pip zathura zathura-ps zathura-djvu xdotool inkscape texlive texlive-base texlive-latex-base texlive-pstricks texlive-science texlive-xetex latexmk xclip a
+sudo apt install python3 kitty python-pip zathura zathura-ps zathura-djvu xdotool inkscape texlive texlive-base texlive-latex-base texlive-pstricks texlive-science texlive-xetex latexmk xclip fasd
 
 pip3 install neovim-remote
