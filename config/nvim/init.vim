@@ -21,10 +21,7 @@ Plug 'kevinhwang91/nvim-bqf'
 " if you install fzf as system package like `pacman -S fzf` in ArchLinux,
 " please comment next line
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
-
 " highly recommended
-Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
-
 " Plug 'sindrets/diffview.nvim', { 'branch': 'main' }
 " Plug 'sindrets/diffview.nvim', { 'branch': 'main' }
 Plug 'rmagatti/auto-session', { 'branch': 'main' }
