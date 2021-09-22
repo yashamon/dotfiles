@@ -18,7 +18,6 @@ Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
 " Plug 't9md/vim-smalls'
 Plug 'skywind3000/asyncrun.vim'
 Plug 'kevinhwang91/nvim-bqf'
-
 " if you install fzf as system package like `pacman -S fzf` in ArchLinux,
 " please comment next line
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
