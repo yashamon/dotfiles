@@ -794,7 +794,7 @@ let g:vimtex_fold_enabled =0
 nmap <leader>l :VimtexCompile<CR>
 nmap <leader>s <Esc>:VimtexErrors<CR>:Goyo x<CR>
 nmap <leader>x <C-w><up><Esc>:VimtexErrors<CR>:Goyo x<CR>
-nmap <leader>g :Goyo x<CR>
+nmap <leader>g :Goyo <CR>
 nmap <leader>p :Denite neoyank<CR>
 
 " NB: this supports "rp that replaces the selection by the contents of @r
