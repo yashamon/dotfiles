@@ -649,7 +649,6 @@ map <leader>c <leader>__
 map <A-/> <Leader>__
 map <A-r>  <C-r>
 map <C-c> gc
-nmap gc gcc
 nnoremap ` ~
 nnoremap . `
 nmap 1 <C-o>
