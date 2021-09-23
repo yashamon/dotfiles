@@ -237,14 +237,7 @@
     ],
     "description": "Folding Region End"
   },
-  "Section:Ref": {
-    "prefix": "section:ref",
-    "body": [
-      "${1:Section}~\\ref{sec:$2}$0"
-    ],
-    "description": "Section Reference"
-  },
-  "Split": {
+    "Split": {
     "prefix": "spl",
     "body": [
       "\\begin{split}",
