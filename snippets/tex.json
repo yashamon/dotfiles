@@ -498,7 +498,15 @@
 "raise": {
     "prefix": "r",
     "body": [
-      "\ref{$2}$0"
+      "^r{$2}$0"
+    ],
+    "description": "Reference"
+  },
+
+"raise": {
+    "prefix": "r",
+    "body": [
+      "^r{$2}$0"
     ],
     "description": "Reference"
   },
