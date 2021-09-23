@@ -47,17 +47,7 @@
     ],
     "description": "Add a Math"
   },
-  "DisplayMath": {
-    "prefix": "displaymath",
-    "body": [
-      "\\begin{displaymath}",
-      "\t$1",
-      "\\end{displaymath}",
-      "$0"
-    ],
-    "description": "Display Math"
-  },
-  "Equation": {
+    "Equation": {
     "prefix": "eq",
     "body": [
       "\\begin{equation*}",
