@@ -678,9 +678,9 @@ map <Leader>tt :term CR; ctags -R
 inoremap <expr> <CR> pumvisible() ? "\<C-y>" : "\<C-g>u\<CR>"
 nnoremap <silent> <Leader>y :YRGetElem<CR>
 map ' "
-inoremap <D-]> <C-x><C-]>
-inoremap <C-]> <C-x><C-]>
-map <leader>c <leader>
+" inoremap <D-]> <C-x><C-]>
+" inoremap <C-]> <C-x><C-]>
+map <leader>c <Leader>__
 " text editting mappings
 
 "Extract mappings
