@@ -17,7 +17,7 @@ Plug 'rafamadriz/friendly-snippets', { 'branch': 'main' }
 " Plug 'neovim/node-host'
 Plug 'projekt0n/github-nvim-theme',  { 'branch': 'main' }
 Plug 'rktjmp/lush.nvim', { 'branch': 'main' }
-Plug 'brennier/quicktex'
+" Plug 'brennier/quicktex'
 " Plug 'ellisonleao/gruvbox.nvim',  {'branch': 'main' }
 " Plug 'cyansprite/Extract'
 Plug 'gioele/vim-autoswap'
