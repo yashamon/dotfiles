@@ -475,7 +475,7 @@ endsnippet
 "cf": {
     "prefix": "cf",
     "body": [
-      "c.f.$0"
+      "c.f. $0"
     ],
     "description": "Reference"
   },
