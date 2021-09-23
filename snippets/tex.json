@@ -44,6 +44,7 @@
       "$",
       "\t$1",
       "$",
+      "$0"
     ],
     "description": "Add a Math"
   },
