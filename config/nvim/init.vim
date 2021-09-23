@@ -999,6 +999,10 @@ xmap        S   <Plug>(vsnip-cut-text)
 " set foldmethod=expr 
 "
 lua << EOF
+require'lspconfig'.pyright.setup{}
+EOF
+
+lua << EOF
 require'lspconfig'.rust_analyzer.setup{}
 EOF
 " set foldexpr=nvim_treesitter#foldexpr()
