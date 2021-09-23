@@ -493,9 +493,9 @@ endsnippet
     "description": "Reference"
   },
 "Label": {
-    "prefix": "(label",
+    "prefix": "(lab)el",
     "body": [
-      "\ref{$2}$0"
+      "\label{$2}$0"
     ],
     "description": "Reference"
   },
