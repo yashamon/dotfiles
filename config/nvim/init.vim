@@ -1075,7 +1075,7 @@ set completeopt=menuone,noinsert,noselect
 set shortmess+=c
 imap <tab> <Plug>(completion_smart_tab)
 imap <s-tab> <Plug>(completion_smart_s_tab)
-let g:completion_enable_snippet = 'UltiSnips'
+let g:completion_enable_snippet = 'vim-vsnip'
 
 
 
