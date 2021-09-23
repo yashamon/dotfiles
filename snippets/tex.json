@@ -524,8 +524,8 @@
     ],
     "description": "labeled arrow"
   },
-"xto": {
-    "prefix": "xto",
+"mapsto": {
+    "prefix": "to",
     "body": [
       "\xrightarrow{$2}$0"
     ],
