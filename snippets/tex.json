@@ -653,7 +653,7 @@
         ],
         "description": "Superscript notation, as well as the power notation."
     },
-   
+
 "Problem": {
         "prefix": ["problem", "\\problem"],
         "body": [
