@@ -3,7 +3,7 @@
 
 " ------------------------------------------------------------------------------
 
-command Q :execute '!echo %d > ~/.vifm/lastdir' | quit
+command Q :execute '!echo %d > ~/.vifm/.config/lastdir' | quit
 command sacd sacd_extract -2 -s -c -i %f 
 command diff nvim -d %f %F
 command nautilus nautilus %f 
