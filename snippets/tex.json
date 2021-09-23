@@ -44,7 +44,7 @@
       "$",
       "\t$1",
       "\\end{math}",
-      "\$"
+      "$"
     ],
     "description": "Add a Math"
   },
@@ -489,7 +489,7 @@
 "xto": {
     "prefix": "xto",
     "body": [
-      "\xrightarrow{$2}$0"
+      "\\xrightarrow{$2}$0"
     ],
     "description": "labeled arrow"
   },
