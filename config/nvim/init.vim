@@ -3,7 +3,6 @@
 call plug#begin('~/.vim/plugged')
 Plug 'hrsh7th/vim-vsnip'
 Plug 'nvim-lua/completion-nvim'
-
 Plug 'hrsh7th/vim-vsnip-integ'
 Plug 'neovim/nvim-lspconfig'
 Plug 'rafamadriz/friendly-snippets', { 'branch': 'main' }
@@ -1063,4 +1062,6 @@ for _, lsp in ipairs(servers) do
   }
 end
 EOF
+
+lua require'lspconfig'.pyls.setup{on_attach=require'completion'.on_attach}
 
