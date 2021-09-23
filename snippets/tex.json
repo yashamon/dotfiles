@@ -8,7 +8,7 @@
     ],
     "description": "Align(ed)"
   },
-  "Cases": {
+"Cases": {
     "prefix": "cas",
     "body": [
       "\\begin{cases}",
