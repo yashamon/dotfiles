@@ -81,8 +81,9 @@
     "Theorem": {
     "prefix": "thm",
     "body": [
-      "\\begin{theorem}", "\t$1", 
-
+      "\\begin{theorem}", 
+      "\t$1", 
+\label{}
             "\t\\begin{displaymath}",
       "\t\t$2",
       "\t\\end{displaymath}",
