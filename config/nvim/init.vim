@@ -977,7 +977,7 @@ let g:quicktex_math = {
 
 " Expand
 imap <expr> <A-Space>   vsnip#expandable()  ? '<Plug>(vsnip-expand)'         : '<C-j>'
-smap <expr> <C-j>   vsnip#expandable()  ? '<Plug>(vsnip-expand)'         : '<C-j>'
+smap <expr> <A-j>   vsnip#expandable()  ? '<Plug>(vsnip-expand)'         : '<C-j>'
 
 " Expand or jump
 imap <expr> <C-l>   vsnip#available(1)  ? '<Plug>(vsnip-expand-or-jump)' : '<C-l>'
