@@ -524,6 +524,13 @@
     ],
     "description": "labeled arrow"
   },
+"xto": {
+    "prefix": "xto",
+    "body": [
+      "\xrightarrow{$2}$0"
+    ],
+    "description": "labeled arrow"
+  },
 
 
 
