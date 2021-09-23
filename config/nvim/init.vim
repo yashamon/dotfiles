@@ -4,7 +4,6 @@ call plug#begin('~/.vim/plugged')
 Plug 'hrsh7th/vim-vsnip'
 Plug 'hrsh7th/vim-vsnip-integ'
 Plug 'neovim/nvim-lspconfig'
-
 Plug 'rafamadriz/friendly-snippets', { 'branch': 'main' }
 
 " Make sure you use single quotes
@@ -998,4 +997,8 @@ xmap        s   <Plug>(vsnip-select-text)
 nmap        S   <Plug>(vsnip-cut-text)
 xmap        S   <Plug>(vsnip-cut-text)
 " set foldmethod=expr 
+"
+lua << EOF
+require'lspconfig'.rust_analyzer.setup{}
+EOF
 " set foldexpr=nvim_treesitter#foldexpr()
