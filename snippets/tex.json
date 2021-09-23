@@ -58,7 +58,7 @@
     "description": "Display Math"
   },
   "Equation": {
-    "prefix": "equation",
+    "prefix": "eq",
     "body": [
       "\\begin{equation}",
       "\t$0",
