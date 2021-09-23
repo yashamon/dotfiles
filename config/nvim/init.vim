@@ -1002,10 +1002,6 @@ smap <expr> <C-Space> vsnip#jumpable(-1)  ? '<Plug>(vsnip-jump-prev)'      : '<S
 
 " Select or cut text to use as $TM_SELECTED_TEXT in the next snippet.
 " See https://github.com/hrsh7th/vim-vsnip/pull/50
-nmap        s   <Plug>(vsnip-select-text)
-xmap        s   <Plug>(vsnip-select-text)
-nmap        S   <Plug>(vsnip-cut-text)
-xmap        S   <Plug>(vsnip-cut-text)
 " set foldmethod=expr 
 "
 lua << EOF
