@@ -674,15 +674,8 @@
         ],
         "description": "Superscript notation, as well as the power notation."
     },
-   "Theorem": {
-        "prefix": ["theorem", "\\theorem"],
-        "body": [
-            "\\begin{theorem}[${1:name of the theorem}]",
-            "\t$0",
-            "\\end{theorem}"
-        ],
-        "description": "Insert a theorem, whose style is already defined in the template. The serial number is automatically generated according to the section."
-    },
+   
+
     "Problem": {
         "prefix": ["problem", "\\problem"],
         "body": [
