@@ -82,18 +82,7 @@
     ],
     "description": "Add a theorem"
   },
-  "Definition": {
-    "prefix": "def",
-    "body": [
-      "\\begin{definition}",
-       "\t\\label{thm:$1}",
-       "$2",
-      "\\end{definition}",
-      "$0"
-    ],
-    "description": "Add a definition"
-  },
-  "Proof": {
+    "Proof": {
     "prefix": "proof",
     "body": [
       "\\begin{proof}",
