@@ -510,8 +510,8 @@
     ],
     "description": "caligraphic"
   },
-"raise": {
-    "prefix": "r",
+"under": {
+    "prefix": "u",
     "body": [
       "^r{$2}$0"
     ],
