@@ -472,6 +472,13 @@ snippet cf "cf." w
 c.f. $0
 endsnippet
 
+"cf": {
+    "prefix": "cf",
+    "body": [
+      "\ref{$2}$0"
+    ],
+    "description": "Reference"
+  },
 
 "Reference": {
     "prefix": "ref",
