@@ -527,9 +527,9 @@
 "mapsto": {
     "prefix": "mto",
     "body": [
-      "\mapsto$0"
+      "\mapsto $0"
     ],
-    "description": "labeled arrow"
+    "description": " arrow"
   },
 
 
