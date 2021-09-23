@@ -967,6 +967,5 @@ let g:quicktex_math = {
     \'in'   : '\in ',
     \'bn'   : '\mathbb{N} ',
 \}
-a;sldkfjlsk falsdkjf;lasjflsdkjf
-" set foldmethod=expr
+" set foldmethod=expr a;sldkjfalsjflksajf
 " set foldexpr=nvim_treesitter#foldexpr()
