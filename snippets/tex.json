@@ -63,10 +63,11 @@
       "\\begin{equation*}",
       "\t$0",
       "\t\\label{eq:$1}",
-      "\\end{equation}"
+      "\\end{equation*}"
     ],
     "description": "Add a Equation"
   },
+
   "Display Math — \\[ … \\]": {
     "prefix": "$$",
     "body": [
