@@ -486,7 +486,7 @@ $0
 endsnippet
 
 "Figure:Ref": {
-    "prefix": "figure:ref",
+    "prefix": "ref",
     "body": [
       "${1:Figure}~\\ref{fig:$2}$0"
     ],
