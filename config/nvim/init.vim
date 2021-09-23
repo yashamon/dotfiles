@@ -679,6 +679,7 @@ nnoremap <silent> <Leader>y :YRGetElem<CR>
 map ' "
 inoremap <D-]> <C-x><C-]>
 inoremap <C-]> <C-x><C-]>
+
 " text editting mappings
 
 "Extract mappings
