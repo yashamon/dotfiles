@@ -44,7 +44,7 @@
       "\(",
       "\t$1",
       "\\end{math}",
-      "$0"
+      ""
     ],
     "description": "Add a Math"
   },
