@@ -87,7 +87,7 @@
     "body": [
       "\\begin{definition}",
        "\t\\label{thm:$1}",
-       "\t$1",
+       "$1",
       "\\end{definition}",
       "$0"
     ],
