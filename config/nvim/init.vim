@@ -1073,3 +1073,5 @@ set completeopt=menuone,noinsert,noselect
 
 " Avoid showing message extra message when using completion
 set shortmess+=c
+imap <silent> <c-p> <Plug>(completion_trigger)
+
