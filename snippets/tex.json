@@ -464,15 +464,12 @@
     "description": "Add a empty page"
   }
 }
-snippet st "s.t." w
-s.t. $0
-endsnippet
 "st": {
     "prefix": "st",
     "body": [
       "s.t. $0"
     ],
-    "description": "cf"
+    "description": "st"
   },
 
 
