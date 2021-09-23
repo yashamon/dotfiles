@@ -79,7 +79,7 @@
   },
 
     "Theorem": {
-    "prefix": "theorem",
+    "prefix": "thm",
     "body": [
       "\\begin{theorem}",
       "\t$1",
