@@ -41,7 +41,7 @@
   "Math": {
     "prefix": "m",
     "body": [
-      "\\begin{math}",
+      "\(",
       "\t$1",
       "\\end{math}",
       "$0"
