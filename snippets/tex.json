@@ -470,7 +470,7 @@ endsnippet
 "st": {
     "prefix": "st",
     "body": [
-      "c.f. $0"
+      "s.t. $0"
     ],
     "description": "cf"
   },
