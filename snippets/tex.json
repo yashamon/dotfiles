@@ -467,6 +467,13 @@
 snippet st "s.t." w
 s.t. $0
 endsnippet
+"st": {
+    "prefix": "st",
+    "body": [
+      "c.f. $0"
+    ],
+    "description": "cf"
+  },
 
 
 "cf": {
