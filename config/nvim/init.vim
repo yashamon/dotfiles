@@ -1002,7 +1002,6 @@ lua << EOF
 require'lspconfig'.texlab.setup{}
 
 EOF
-
 lua << EOF
 require'lspconfig'.rust_analyzer.setup{}
 EOF
