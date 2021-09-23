@@ -951,13 +951,13 @@ set foldmethod=expr foldexpr=getline(v:lnum)=~'^\s*'.&commentstring[0]
 
 " Quicktex
 let g:quicktex_tex = {
-    \'<>-<Space>' : "\<ESC>:call search('<+.*+>')\<CR>\"_c/+>/e\<CR>",
+    \'<Alt>-<Space>' : "\<ESC>:call search('<+.*+>')\<CR>\"_c/+>/e\<CR>",
     \'m'   : '\( <+++> \) <++>',
     \'prf' : "\\begin{proof}\<CR><+++>\<CR>\\end{proof}",
 \}
 
 let g:quicktex_math = {
-    \'<Alt>-<Space>': "\<ESC>:call search('<+.*+>')\<CR>\"_c/+>/e\<CR>",
+    \'<Space>': "\<ESC>:call search('<+.*+>')\<CR>\"_c/+>/e\<CR>",
     \'fr'   : '\mathcal{R} ',
     \'eq'   : '= ',
     \'set'  : '\{ <+++> \} <++>',
