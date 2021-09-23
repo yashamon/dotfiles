@@ -475,7 +475,7 @@
 "caligraphic": {
     "prefix": "cal",
     "body": [
-      "\mathcal{$2}$0"
+      "\\mathcal{$2}$0"
     ],
     "description": "caligraphic"
   },
@@ -496,7 +496,7 @@
 "mapsto": {
     "prefix": "mto",
     "body": [
-      "\mapsto $0"
+      "\\mapsto $0"
     ],
     "description": "mapsto"
   }
