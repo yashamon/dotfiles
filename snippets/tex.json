@@ -38,7 +38,7 @@
     ],
     "description": "Description"
   },
-  "Math": {
+"Math": {
     "prefix": "m",
     "body": [
       "$",
