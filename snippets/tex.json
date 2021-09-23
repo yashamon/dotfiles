@@ -493,7 +493,7 @@ endsnippet
     "description": "Reference"
   },
 
-"Equation": {
+"remark": {
     "prefix": "eq",
     "body": [
       "\\begin{equation*}",
