@@ -844,7 +844,7 @@ hi MatchParen guibg=NONE guifg=green gui=NONE
 nnoremap <C-e> :let g:ctrlp_match_window =
          \ 'bottom,order:btt,min:1,max:1000,results:1000'<CR>:CtrlPTag<CR>
 
-n
+nnoremap
 " YouCompleteMe usage is tied to Supertab, this is a little weird but 
 " seems necessary for full interoperability with ultisnipps
 let g:ycm_auto_trigger = 0
