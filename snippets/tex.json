@@ -1,3 +1,6 @@
+
+
+
 {
   "Align(ed)": {
     "prefix": "ali",
@@ -7,6 +10,7 @@
         "\\end{align}"
     ],
     "description": "Align(ed)"
+}
 }
 
 
