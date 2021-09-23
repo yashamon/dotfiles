@@ -1011,6 +1011,10 @@ lua << EOF
 require'lspconfig'.texlab.setup{}
 
 EOF
+lua << EOF
+require'lspconfig'.jsonls.setup{}
+
+EOF
 
 
 
