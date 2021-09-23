@@ -464,7 +464,7 @@
     "description": "label"
   },
 
-"raise": 
+"raise": {
     "prefix": "r",
     "body": [
       "^{$2}$0"
