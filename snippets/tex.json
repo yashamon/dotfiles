@@ -529,9 +529,16 @@
     "body": [
       "\mapsto $0"
     ],
-    "description": " arrow"
+    "description": "mapsto"
   },
 
+"xto": {
+    "prefix": "xto",
+    "body": [
+      "\xrightarrow{$2}$0"
+    ],
+    "description": "labeled arrow"
+  },
 
 
 
