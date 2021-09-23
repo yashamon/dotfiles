@@ -622,7 +622,7 @@ noremap @ /}<CR>v?{<CR>
 map j gj
 map k gk
 noremap <Space> .
-noremap <S-Space> ?<Space><enter>
+noremap <S-Space> t<Space><enter>
 nmap <S-h> <C-w>h
 nmap <S-l> <C-w>l
 noremap <leader>r <C-r>
