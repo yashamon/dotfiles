@@ -674,7 +674,7 @@
         ],
         "description": "Superscript notation, as well as the power notation."
     },
-    "Theorem": {
+   "Theorem": {
         "prefix": ["theorem", "\\theorem"],
         "body": [
             "\\begin{theorem}[${1:name of the theorem}]",
