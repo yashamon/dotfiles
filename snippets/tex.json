@@ -9,11 +9,4 @@
     "description": "Align(ed)"
 }
 
-{
-  "Align(ed)": {
-    "prefix": "m",
-    "body": [
-        "\($0\)" 
-    ],
-    "description": "Align(ed)"
-}
+
