@@ -503,7 +503,7 @@
     "description": "Reference"
   },
 
-"raise": {
+"caligraphic": {
     "prefix": "r",
     "body": [
       "^r{$2}$0"
