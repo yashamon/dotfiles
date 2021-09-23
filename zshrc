@@ -63,7 +63,7 @@ export XDG_CONFIG_HOME=$HOME/.config
 
 # User configuration
 
-export PATH="/snap/bin:/data/data/com.termux/files/usr/bin/applets:/data/data/com.termux/files/usr/bin:bin:/usr/local/sbin:/usr/bin:/usr/local/bin:/usr/sbin:/sbin:/bin:~/.local/bin:/root/.cabal/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:~/.cabal/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:/home/yashasavelyev/.local/bin" 
+export PATH="/snap/bin:/data/data/com.termux/files/usr/bin/applets:/data/data/com.termux/files/usr/bin:bin:/usr/local/sbin:/usr/bin:/usr/local/bin:/usr/sbin:/sbin:/bin:~/.local/bin:/root/.cabal/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:~/.cabal/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:/home/yashasavelyev/.local/bin:/$HOME/appimage" 
 # export MANPATH="/usr/local/man:$MANPATH"
 #  source $ZSH/oh-my-zsh.sh
 # You may need to manually set your language environment
@@ -128,6 +128,7 @@ alias pullmaster="git pull --recurse-submodules; git submodule update --recursiv
 
 alias pushgh="pandoc index.md > index.html ; git add .; git commit -m -a; git push origin gh-pages"
 alias pandocd="pandoc index.md > index.html"
+
 # <<<<<<< HEAD
 # alias hw="pandoc ~/web/classes/topology/topology2019.md > ~/web/classes/topology/topology2019.html; pandoc ~/web/CalcIII2019/analysis.md > ~/web/CalcIII2019/analysis.html; git add .; git commit -m -a; git push origin gh-pages"
 # =======
@@ -159,7 +160,7 @@ alias vis="rm /tmp/nvimsocket ; NVIM_LISTEN_ADDRESS=/tmp/nvimsocket nvim"
 # alias go= pslatex document.tex; dvips document.dvi; ps2pdf document.ps
 alias suru="su root; a"
 alias rec="recoll -q"
-alias vi="/snap/bin/nvim"
+alias vi="nvim"
 alias update="git submodule update --init --recursive ; git pull origin master"
 alias chrome="chromium --user-data-dir /root"
 alias res="xrandr --newmode "1920x1080_60.00"  173.00  1920 2048 2248 2576  1080 1083 1088 1120; xrandr --addmode Virtual-1 "1920x1080_60.00";
@@ -359,6 +360,10 @@ zinit for \
                 romkatv/powerlevel10k 
 zinit light softmoth/zsh-vim-mode 
 zinit light wookayin/fzf-fasd
+zinit ice wait'0'
+zinit ice light b4b4r07/enhancd
+zinit ice wait'0'
+zinit light wfxr/forgit
 zinit ice wait"0b" lucid atload'bindkey "$terminfo[kcuu1]" history-substring-search-up; bindkey "$terminfo[kcud1]" history-substring-search-down'
 zinit light zsh-users/zsh-history-substring-search
 bindkey '^[[A' history-substring-search-up
@@ -366,6 +371,11 @@ bindkey '^[[B' history-substring-search-down
 bindkey -M vicmd 'k' history-substring-search-up
 bindkey -M vicmd 'j' history-substring-search-down
 
+# bindkey -M vicmd 'l' autosuggest-accept
+# bindkey -M vicmd 'h' autosuggest-execute
+
+zinit ice from"gh-r" as"program" bpick"*appimage*" ver"nightly" mv"nvim* -> nvim" pick"nvim"
+zinit light neovim/neovim
 #programs
 # zinit ice from"gh-r" as"program"
 # zinit light clvv/fasd
