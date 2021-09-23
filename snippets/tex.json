@@ -513,7 +513,7 @@
 "under": {
     "prefix": "u",
     "body": [
-      "^r{$2}$0"
+      "_{{$2}$0"
     ],
     "description": "caligraphic"
   },
