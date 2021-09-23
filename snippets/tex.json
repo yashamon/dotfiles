@@ -67,7 +67,7 @@
     ],
     "description": "Add a Equation"
   },
-"Equation": {
+"EquationNumbered": {
     "prefix": "eq",
     "body": [
       "\\begin{equation*}",
