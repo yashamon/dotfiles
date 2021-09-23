@@ -999,7 +999,7 @@ xmap        S   <Plug>(vsnip-cut-text)
 " set foldmethod=expr 
 "
 lua << EOF
-require'lspconfig'.pyright.setup{}
+require'lspconfig'..setup{}
 EOF
 
 lua << EOF
