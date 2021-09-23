@@ -490,6 +490,6 @@ endsnippet
     "body": [
       "\ref{$2}$0"
     ],
-    "description": "Ref for Figure"
+    "description": "Reference"
   },
 
