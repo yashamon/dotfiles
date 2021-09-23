@@ -866,7 +866,7 @@
         "description": "Create an align environment when the context is in the text environment."
     },
 
-   Insert Problem Solving Index": {
+   "Insert Problem Solving Index": {
         "prefix": ["problemindex", "\\problemindex"], 
         "body": ["\\noindent\\textbf{$1} $0"],
         "description": "Insert problem solving index format."
