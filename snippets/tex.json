@@ -479,3 +479,9 @@ snippet label "\\label{}" w
 \label{$1}$0
 endsnippet
 
+snippet rmk "remark" 
+\begin{remark} \label{rmk:$1}
+$0
+\end{remark}
+endsnippet
+
