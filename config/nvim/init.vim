@@ -957,7 +957,7 @@ let g:quicktex_tex = {
 \}
 
 let g:quicktex_math = {
-    \'<>-<Space>': "\<ESC>:call search('<+.*+>')\<CR>\"_c/+>/e\<CR>",
+    \'<Alt>-<Space>': "\<ESC>:call search('<+.*+>')\<CR>\"_c/+>/e\<CR>",
     \'fr'   : '\mathcal{R} ',
     \'eq'   : '= ',
     \'set'  : '\{ <+++> \} <++>',
