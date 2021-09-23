@@ -2,7 +2,7 @@
 " call pathogen#infect()  
 call plug#begin('~/.vim/plugged')
 Plug 'hrsh7th/vim-vsnip'
-Plug 'nvim-lua/completion-nvim'
+P$0lug 'nvim-lua/completion-nvim'
 Plug 'hrsh7th/vim-vsnip-integ'
 Plug 'neovim/nvim-lspconfig'
 " Plug 'rafamadriz/friendly-snippets', { 'branch': 'main' }
@@ -13,7 +13,7 @@ Plug 'neovim/nvim-lspconfig'
 " Any valid git URL is allowed
 " Plug 'https://github.com/junegunn/vim-github-dashboard.git'
 " Group dependencies, vim-snippets depends on ultisnips 
-" Plug 'tpope/vim-surround'
+ Plug 'tpope/vim-surround'
 " Plug 'neovim/node-host'
 Plug 'projekt0n/github-nvim-theme',  { 'branch': 'main' }
 Plug 'rktjmp/lush.nvim', { 'branch': 'main' }
@@ -87,8 +87,8 @@ Plug 'sainnhe/gruvbox-material'
 "
 "  Plug 'ervandew/supertab'
 
-" Plug 'vim-scripts/tComment'
-Plug 'b3nj5m1n/kommentary', { 'branch': 'main' }
+ " Plug 'vim-scripts/tComment'
+"Plug 'b3nj5m1n/kommentary', { 'branch': 'main' }
 
 
  " Plug 'Shougo/vimproc.vim'
@@ -645,11 +645,10 @@ nnoremap <leader>j J
 nnoremap <leader>k K
 map ' "
 nnoremap <Backspace> i<Backspace><Esc> 
-map <leader>c gcc
+map <leader>c <leader>__
 map <A-/> <Leader>__
 map <A-r>  <C-r>
 map <C-c> gc
-nmap gc gcc
 nnoremap ` ~
 nnoremap . `
 nmap 1 <C-o>
@@ -987,17 +986,17 @@ let g:quicktex_math = {
 " vsnip stuff
 let g:vsnip_snippet_dir = '~/dotfiles/snippets'
 imap <expr> <A-Space>   vsnip#expandable()  ? '<Plug>(vsnip-expand)'         : '<C-j>'
-smap <expr> <Tab>   vsnip#expandable()  ? '<Plug>(vsnip-expand)'         : '<C-j>'
+smap <expr> <A-Space>   vsnip#expandable()  ? '<Plug>(vsnip-expand)'         : '<C-j>'
 
 " Expand or jump
 imap <expr> <A-Space>   vsnip#available(1)  ? '<Plug>(vsnip-expand-or-jump)' : '<C-l>'
-smap <expr> <Tab>   vsnip#available(1)  ? '<Plug>(vsnip-expand-or-jump)' : '<C-l>'
+smap <expr> <A-Space>   vsnip#available(1)  ? '<Plug>(vsnip-expand-or-jump)' : '<C-l>'
 
 " Jump forward or backward
-imap <expr> <Tab>   vsnip#jumpable(1)   ? '<Plug>(vsnip-jump-next)'      : '<Tab>'
-smap <expr> <Tab>   vsnip#jumpable(1)   ? '<Plug>(vsnip-jump-next)'      : '<Tab>'
-imap <expr> <S-Tab> vsnip#jumpable(-1)  ? '<Plug>(vsnip-jump-prev)'      : '<S-Tab>'
-smap <expr> <S-Tab> vsnip#jumpable(-1)  ? '<Plug>(vsnip-jump-prev)'      : '<S-Tab>'
+imap <expr> <A-Space>   vsnip#jumpable(1)   ? '<Plug>(vsnip-jump-next)'      : '<Tab>'
+smap <expr> <A-Space>   vsnip#jumpable(1)   ? '<Plug>(vsnip-jump-next)'      : '<Tab>'
+imap <expr> <C-Space> vsnip#jumpable(-1)  ? '<Plug>(vsnip-jump-prev)'      : '<S-Tab>'
+smap <expr> <C-Space> vsnip#jumpable(-1)  ? '<Plug>(vsnip-jump-prev)'      : '<S-Tab>'
 
 " Select or cut text to use as $TM_SELECTED_TEXT in the next snippet.
 " See https://github.com/hrsh7th/vim-vsnip/pull/50
