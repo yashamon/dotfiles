@@ -714,7 +714,7 @@
 "sigma": {
     "prefix": ["sigma", "\\sigma"],
     "body": [
-      "\delta $0"
+      "\Sigma $0"
     ],
     "description": "epsilon"
   },
