@@ -223,14 +223,7 @@
     ],
     "description": "Part"
   },
-    "Region End": {
-    "prefix": "#endregion",
-    "body": [
-      "%#Endregion"
-    ],
-    "description": "Folding Region End"
-  },
-    "Split": {
+      "Split": {
     "prefix": "spl",
     "body": [
       "\\begin{split}",
