@@ -520,7 +520,7 @@
 "xto": {
     "prefix": "xto",
     "body": [
-      "\xrightarrow_{$2}$0"
+      "\xrightarrow{$2}$0"
     ],
     "description": "underscore"
   },
