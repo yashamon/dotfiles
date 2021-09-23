@@ -475,11 +475,6 @@ snippet ref "\\ref{}" w
 \ref{$1}$0
 endsnippet
 
-snippet label "\\label{}" w
-\label{$1}$0
-endsnippet
-
-
 "Reference": {
     "prefix": "ref",
     "body": [
