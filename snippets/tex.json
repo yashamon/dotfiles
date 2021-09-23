@@ -479,11 +479,6 @@ snippet label "\\label{}" w
 \label{$1}$0
 endsnippet
 
-snippet rmk "remark" 
-\begin{remark} \label{rmk:$1}
-$0
-\end{remark}
-endsnippet
 
 "Reference": {
     "prefix": "ref",
@@ -497,7 +492,7 @@ endsnippet
     "body": [
       "\label{$2}$0"
     ],
-    "description": "Reference"
+    "description": "label"
   },
 
 
