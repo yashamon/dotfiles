@@ -681,7 +681,7 @@
 "epsilon": {
     "prefix": ["eps", "\\eps"],
     "body": [
-      "\epsilon $0"
+      "\\epsilon $0"
     ],
     "description": "epsilon"
   },
