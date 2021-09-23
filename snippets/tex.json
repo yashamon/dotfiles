@@ -50,7 +50,7 @@
     "prefix": "eq",
     "body": [
       "\\begin{equation*}",
-      "$1",
+      "\t$1",
       "\\end{equation*}",
       "$0"
 
