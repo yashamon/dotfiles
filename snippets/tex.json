@@ -485,3 +485,11 @@ $0
 \end{remark}
 endsnippet
 
+"Figure:Ref": {
+    "prefix": "figure:ref",
+    "body": [
+      "${1:Figure}~\\ref{fig:$2}$0"
+    ],
+    "description": "Ref for Figure"
+  },
+
