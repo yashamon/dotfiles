@@ -74,7 +74,7 @@
       "\\begin{equation}",
       "\t$1",
       "\t\\label{eq:$1}",
-      "\\end{equation}"
+      "\\end{equation}",
       "$0"
 
     ],
