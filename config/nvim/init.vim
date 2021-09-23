@@ -23,6 +23,12 @@ Plug 'gioele/vim-autoswap'
 Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
 " Plug 't9md/vim-smalls'
 Plug 'skywind3000/asyncrun.vim'
+Plug 'kevinhwang91/nvim-bqf', { 'branch': 'main' }
+
+" if you install fzf as system package like `pacman -S fzf` in ArchLinux,
+" please comment next line
+Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
+" highly recommended
 " Plug 'sindrets/diffview.nvim', { 'branch': 'main' }
 " Plug 'sindrets/diffview.nvim', { 'branch': 'main' }
 Plug 'rmagatti/auto-session', { 'branch': 'main' }
@@ -73,8 +79,8 @@ Plug 'sainnhe/gruvbox-material'
  Plug 'scrooloose/nerdtree', { 'on': 'NERDTreeFind' }
 
  " Plugin outside ~/.vim/plugged with post-update hook
- Plug 'junegunn/fzf', { 'do': './install --all' }
- Plug 'junegunn/fzf.vim'
+"  Plug 'junegunn/fzf', { 'do': './install --all' }
+"  Plug 'junegunn/fzf.vim'
 "
 " " Plug 'Valloric/YouCompleteMe', {'do': './install.py' }
 "
@@ -310,7 +316,6 @@ function! Break()
  let n=130-virtcol('.')
  <Esc>ni <Esc><Esc>
 endfunction
-
 
 
 function Gitview()
@@ -803,7 +808,7 @@ let g:vimtex_fold_enabled =0
 nmap <leader>l :VimtexCompile<CR>
 nmap <leader>s <Esc>:VimtexErrors<CR>:Goyo x<CR>
 nmap <leader>x <C-w><up><Esc>:VimtexErrors<CR>:Goyo x<CR>
-nmap <leader>g :Goyo x<CR>
+nmap <leader>g :Goyo<CR>
 nmap <leader>p :Denite neoyank<CR>
 
 " NB: this supports "rp that replaces the selection by the contents of @r
@@ -881,7 +886,7 @@ let g:Guifont="Source Code Pro Light:h16"
 
 " Deoplete
 
-map <silent> <leader>g :silent execute "!(cd /root/web2 ; git add . ; git commit -m -a ; git push origin gh-pages) > /dev/null"<CR>
+" map <silent> <leader>g :silent execute "!(cd /root/web2 ; git add . ; git commit -m -a ; git push origin gh-pages) > /dev/null"<CR>
 set directory=$HOME/Downloads
 let g:goyo_width=60
 " fuzzy search
