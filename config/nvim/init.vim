@@ -42,7 +42,7 @@ if has('nvim')
    Plug 'roxma/nvim-yarp'
    Plug 'roxma/vim-hug-neovim-rpc'
  endif
-Plug 'SirVer/ultisnips' 
+" Plug 'SirVer/ultisnips' 
 Plug 'tpope/vim-fugitive'
 Plug 'eugen0329/vim-esearch'
 " Plug 'haya14busa/incsearch.vim'
