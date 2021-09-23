@@ -97,5 +97,6 @@ git config --global user.email "yasha.savelyev@gmail.com"
 
 sudo apt install python3 kitty python-pip zathura zathura-ps zathura-djvu xdotool inkscape texlive texlive-base texlive-latex-base texlive-pstricks texlive-science texlive-xetex latexmk xclip fasd python3-pip 
 
+
 pip3 install neovim-remote
 
