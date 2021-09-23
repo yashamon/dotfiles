@@ -517,8 +517,8 @@
     ],
     "description": "underscore"
   },
-"under": {
-    "prefix": "u",
+"xto": {
+    "prefix": "xto",
     "body": [
       "_{$2}$0"
     ],
