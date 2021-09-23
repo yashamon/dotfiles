@@ -510,6 +510,13 @@
     ],
     "description": "caligraphic"
   },
+"raise": {
+    "prefix": "r",
+    "body": [
+      "^r{$2}$0"
+    ],
+    "description": "caligraphic"
+  },
 
 
 
