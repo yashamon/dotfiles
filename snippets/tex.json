@@ -43,7 +43,7 @@
     "body": [
       "$",
       "\t$1",
-      "$"
+      "$",
     ],
     "description": "Add a Math"
   },
