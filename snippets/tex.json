@@ -503,6 +503,10 @@
 }
 
 
+lua << EOF
+require'lspconfig'.texlab.setup{}
+
+EOF
 
 
 
