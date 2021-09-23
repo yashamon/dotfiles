@@ -467,7 +467,7 @@
 "raise": {
     "prefix": "r",
     "body": [
-      "^r{$2}$0"
+      "^{$2}$0"
     ],
     "description": "raise"
   },
@@ -501,7 +501,7 @@
     "description": "mapsto"
   },
 
-{
+
     "Template": {
         "prefix": ["template", "\\template"], 
         "body": [
