@@ -645,7 +645,7 @@ nnoremap <leader>j J
 nnoremap <leader>k K
 map ' "
 nnoremap <Backspace> i<Backspace><Esc> 
- map <leader>c gcc
+map <leader>c gcc
 map <A-/> <Leader>__
 map <A-r>  <C-r>
 map <C-c> gc
@@ -1011,6 +1011,7 @@ lua << EOF
 require'lspconfig'.texlab.setup{}
 
 EOF
+
 lua << EOF
 require'lspconfig'.rust_analyzer.setup{}
 EOF
