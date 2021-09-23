@@ -485,7 +485,7 @@ $0
 \end{remark}
 endsnippet
 
-"Figure:Ref": {
+"Reference": {
     "prefix": "ref",
     "body": [
       "\ref{$2}$0"
