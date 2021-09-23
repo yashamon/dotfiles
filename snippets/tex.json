@@ -98,7 +98,7 @@
     "body": [
       "\\begin{proof}",
       "\t$1",
-            "\\end{proof}",
+      "\\end{proof}",
       "$0"
     ],
     "description": "Add a proof"
@@ -464,3 +464,4 @@
     "description": "Add a empty page"
   }
 }
+
