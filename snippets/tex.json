@@ -517,6 +517,13 @@
     ],
     "description": "underscore"
   },
+"under": {
+    "prefix": "u",
+    "body": [
+      "_{$2}$0"
+    ],
+    "description": "underscore"
+  },
 
 
 
