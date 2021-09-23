@@ -223,14 +223,7 @@
     ],
     "description": "Part"
   },
-  "Region Start": {
-    "prefix": "#region",
-    "body": [
-      "%#Region $0"
-    ],
-    "description": "Folding Region Start"
-  },
-  "Region End": {
+    "Region End": {
     "prefix": "#endregion",
     "body": [
       "%#Endregion"
