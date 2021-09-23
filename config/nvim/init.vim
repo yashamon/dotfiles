@@ -982,7 +982,7 @@ let g:quicktex_math = {
 " NOTE: You can use other key to expand snippet.
 
 " vsnip stuff
-let g:vsnip_snippet_dir = "~/dotfiles"
+let g:vsnip_snippet_dir = '~/dotfiles"
 imap <expr> <A-Space>   vsnip#expandable()  ? '<Plug>(vsnip-expand)'         : '<C-j>'
 smap <expr> <A-Space>   vsnip#expandable()  ? '<Plug>(vsnip-expand)'         : '<C-j>'
 
