@@ -13,7 +13,7 @@
   "Align(ed)": {
     "prefix": "m",
     "body": [
-        "\\begin{align}",
+        "",
         "\t$0",
         "\\end{align}"
     ],
