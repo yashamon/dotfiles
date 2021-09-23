@@ -2,6 +2,7 @@
 " call pathogen#infect()  
 call plug#begin('~/.vim/plugged')
 Plug 'hrsh7th/vim-vsnip'
+https://github.com/prabirshrestha/vim-lsp.git
 Plug 'hrsh7th/vim-vsnip-integ'
 Plug 'rafamadriz/friendly-snippets', { 'branch': 'main' }
 
