@@ -41,7 +41,7 @@
   "Math": {
     "prefix": "m",
     "body": [
-      "\$",
+      "$",
       "\t$1",
       "\\end{math}",
       "\$"
@@ -499,7 +499,7 @@
       "\mapsto $0"
     ],
     "description": "mapsto"
-  
+  }
 }
 
 
