@@ -94,7 +94,7 @@ let g:tcommentMapLeaderOp1=';'
 
  " Plug 'Shougo/vimproc.vim'
 
-Plug 'easymotion/vim-easymotion'
+" Plug 'easymotion/vim-easymotion'
 
 Plug 'mbbill/undotree', { 'on': 'UndotreeToggle' }
  '}
