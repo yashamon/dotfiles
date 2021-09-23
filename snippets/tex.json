@@ -92,7 +92,7 @@
     "body": [
       "\\begin{definition}",
       "\t$1",
-            "\\end{definition}",
+      "\\end{definition}",
       "$0"
     ],
     "description": "Add a definition"
