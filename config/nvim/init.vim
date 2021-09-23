@@ -1,6 +1,9 @@
 " init.vim
 " call pathogen#infect()  
 call plug#begin('~/.vim/plugged')
+Plug 'hrsh7th/vim-vsnip'
+Plug 'hrsh7th/vim-vsnip-integ'
+
 " Make sure you use single quotes
 " Shorthand notation; fetches https://github.com/junegunn/vim-easy-align
 " Plug 'junegunn/vim-easy-align'
@@ -958,7 +961,7 @@ let g:quicktex_tex = {
 \}
 
 let g:quicktex_math = {
-    \'t': "\<ESC>:call search('<+.*+>')\<CR>\"_c/+>/e\<CR>",
+    \' ': "\<ESC>:call search('<+.*+>')\<CR>\"_c/+>/e\<CR>",
     \'fr'   : '\mathcal{R} ',
     \'eq'   : '= ',
     \'set'  : '\{ <+++> \} <++>',
