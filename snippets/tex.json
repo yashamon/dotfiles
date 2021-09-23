@@ -98,11 +98,7 @@
     "body": [
       "\\begin{proof}",
       "\t$1",
-      "\t\\begin{displaymath}",
-      "\t\t$2",
-      "\t\\end{displaymath}",
-      "\t$3",
-      "\\end{proof}",
+            "\\end{proof}",
       "$0"
     ],
     "description": "Add a proof"
