@@ -418,7 +418,7 @@ map <leader>[ :cp<CR>
 
 " --- move around splits {
 " move to and maximize the below split 
-" map <C-J> <C-W>j<C-W>_
+map <C-J> <C-W>j<C-W>_
 " move to and maximize the above split 
 map <C-K> <C-W>k<C-W>_
 " move to and maximize the left split 
