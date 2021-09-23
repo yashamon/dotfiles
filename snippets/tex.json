@@ -492,6 +492,13 @@ endsnippet
     ],
     "description": "Reference"
   },
+"Label": {
+    "prefix": "ref",
+    "body": [
+      "\ref{$2}$0"
+    ],
+    "description": "Reference"
+  },
 
 
 
