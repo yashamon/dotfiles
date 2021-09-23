@@ -115,6 +115,7 @@ eval "$(fasd --init auto)"
 # export INFOPATH="$HOME/.linuxbrew/share/info:$INFOPATH"
 # alias nvim="/snap/bin/nvim"
 alias tmux d="tmux detach"
+alias ls="vifm"
 alias texi="pdflatex -file-line-error -synctex=1  -interaction=nonstopmode -recorder" 
 alias latexi="latexmk -g -pdf -file-line-error -synctex=1  -interaction=nonstopmode -recorder -f"
 alias pvc="latexmk -pdf -pvc -file-line-error -synctex=1  -interaction=nonstopmode -recorder -f"
@@ -139,7 +140,7 @@ alias attach="tmux attach"
 alias vnc="vncserver -kill :1; vncserver -geometry 1920x1080 :1"
 # alias vnc="vncserver -kill :3; vncserver -geometry 1600x2560 :1"
 alias drop="python ~/download?dl=packages%2Fdropbox.py"
-alias ls="ls -a"
+alias ls="vifm"
 alias j="z"
 # alias fzf="/root/dotfiles\vim\bundle\fzf"
 alias pcm="sudo pacman"
@@ -159,7 +160,7 @@ alias vis="rm /tmp/nvimsocket ; NVIM_LISTEN_ADDRESS=/tmp/nvimsocket nvim"
 # alias go= pslatex document.tex; dvips document.dvi; ps2pdf document.ps
 alias suru="su root; a"
 alias rec="recoll -q"
-alias vi="/snap/bin/nvim"
+alias vi="nvim"
 alias update="git submodule update --init --recursive ; git pull origin master"
 alias chrome="chromium --user-data-dir /root"
 alias res="xrandr --newmode "1920x1080_60.00"  173.00  1920 2048 2248 2576  1080 1083 1088 1120; xrandr --addmode Virtual-1 "1920x1080_60.00";
@@ -372,6 +373,8 @@ bindkey -M vicmd 'j' history-substring-search-down
 #
  # zinit snippet OMZ::plugins/history-substring-search/history-substring-search.plugin.zsh
 zinit snippet OMZ::plugins/vi-mode/vi-mode.plugin.zsh
+zinit ice wait'0' lucid atload"unalias d"
+zinit snippet OMZ::plugins/fasd/fasd.plugin.zsh
 #
 bindkey -rpM viins '\e'
 #
