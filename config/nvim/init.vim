@@ -3,7 +3,7 @@
 call plug#begin('~/.vim/plugged')
 Plug 'hrsh7th/vim-vsnip'
 Plug 'hrsh7th/vim-vsnip-integ'
-Plug 'rafamadriz/friendly-snippets'
+Plug 'rafamadriz/friendly-snippets', { 'branch': 'main' }
 
 " Make sure you use single quotes
 " Shorthand notation; fetches https://github.com/junegunn/vim-easy-align
