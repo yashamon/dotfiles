@@ -493,5 +493,16 @@ endsnippet
     "description": "Reference"
   },
 
+"Equation": {
+    "prefix": "eq",
+    "body": [
+      "\\begin{equation*}",
+      "\t$1",
+      "\\end{equation*}",
+      "$0"
+
+    ],
+    "description": "Add a Equation"
+  },
 
 
