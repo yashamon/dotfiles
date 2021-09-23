@@ -704,6 +704,13 @@
     ],
     "description": "epsilon"
   },
+"delta": {
+    "prefix": ["delta", "\\eps"],
+    "body": [
+      "\epsilon $0"
+    ],
+    "description": "epsilon"
+  },
 
 
     "Large Fraction": {
