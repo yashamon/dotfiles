@@ -500,11 +500,11 @@
     ],
     "description": "mapsto"
   }
-}
 
 
 
-    "Template": {
+
+"Template": {
         "prefix": ["template", "\\template"], 
         "body": [
             "%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Define Article %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%", 
