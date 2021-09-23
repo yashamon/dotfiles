@@ -2,6 +2,6 @@ if [ -f ~/.config/vifm/lastdir ]; then
     rm ~/.config/vifm/lastdir
 fi
 /usr/sbin/vifm "$@"
-if [ -f ~/.vifm/lastdir ]; then
+if [ -f ~/.config/vifm/lastdir ]; then
     cd "`cat ~/.vifm/lastdir`"
 fi
