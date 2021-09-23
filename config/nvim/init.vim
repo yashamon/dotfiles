@@ -2,6 +2,8 @@
 " call pathogen#infect()  
 call plug#begin('~/.vim/plugged')
 Plug 'hrsh7th/vim-vsnip'
+Plug 'nvim-lua/completion-nvim'
+
 Plug 'hrsh7th/vim-vsnip-integ'
 Plug 'neovim/nvim-lspconfig'
 Plug 'rafamadriz/friendly-snippets', { 'branch': 'main' }
@@ -987,7 +989,7 @@ imap <expr> <A-Space>   vsnip#expandable()  ? '<Plug>(vsnip-expand)'         : '
 smap <expr> <Tab>   vsnip#expandable()  ? '<Plug>(vsnip-expand)'         : '<C-j>'
 
 " Expand or jump
-imap <expr> <Tab>   vsnip#available(1)  ? '<Plug>(vsnip-expand-or-jump)' : '<C-l>'
+imap <expr> <A-Space>   vsnip#available(1)  ? '<Plug>(vsnip-expand-or-jump)' : '<C-l>'
 smap <expr> <Tab>   vsnip#available(1)  ? '<Plug>(vsnip-expand-or-jump)' : '<C-l>'
 
 " Jump forward or backward
