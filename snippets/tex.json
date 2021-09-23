@@ -675,8 +675,7 @@
         "description": "Superscript notation, as well as the power notation."
     },
    
-
-    "Problem": {
+"Problem": {
         "prefix": ["problem", "\\problem"],
         "body": [
             "\\begin{problem}[${1:name of the problem}]",
