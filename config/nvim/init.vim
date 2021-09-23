@@ -3,7 +3,7 @@
 call plug#begin('~/.vim/plugged')
 Plug 'hrsh7th/vim-vsnip'
 Plug 'hrsh7th/vim-vsnip-integ'
-
+https://github.com/rafamadriz/friendly-snippets.git
 " Make sure you use single quotes
 " Shorthand notation; fetches https://github.com/junegunn/vim-easy-align
 " Plug 'junegunn/vim-easy-align'
