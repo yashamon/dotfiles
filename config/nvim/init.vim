@@ -61,7 +61,6 @@ Plug 'eugen0329/vim-esearch'
 " Plug 'haya14busa/incsearch-fuzzy.vim'
 Plug 'Raimondi/vim_search_objects'
 Plug 'terryma/vim-multiple-cursors'
-"  | Plug 'honza/vim-snippets'
 
 " " On-demand loading
  Plug 'junegunn/goyo.vim'
