@@ -71,7 +71,7 @@
 "EquationNumbered": {
     "prefix": "eq",
     "body": [
-      "\\begin{eq}",
+      "\\begin{equation}",
       "\t$1",
       "\t\\label{eq:$1}",
       "\\end{equation}",
