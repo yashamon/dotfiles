@@ -69,7 +69,7 @@
     "description": "Add a Equation"
   },
 "EquationNumbered": {
-    "prefix": "eq",
+    "prefix": "eqnum",
     "body": [
       "\\begin{equation}",
       "\t$1",
