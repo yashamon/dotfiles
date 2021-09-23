@@ -62,7 +62,7 @@
     "body": [
       "\\begin{equation*}",
       "\t$1",
-      "\\end{equation*}"
+      "\\end{equation*}",
       "$0"
 
     ],
@@ -75,6 +75,7 @@
       "\t$0",
       "\t\\label{eq:$1}",
       "\\end{equation}"
+
     ],
     "description": "Add a Equation"
   },
