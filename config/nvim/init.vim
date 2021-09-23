@@ -982,8 +982,7 @@ let g:quicktex_math = {
 " NOTE: You can use other key to expand snippet.
 
 " vsnip stuff
-cargo install --git https://github.com/latex-lsp/texlab.git --locked
-
+let g:vsnip_snippet_dir
 imap <expr> <A-Space>   vsnip#expandable()  ? '<Plug>(vsnip-expand)'         : '<C-j>'
 smap <expr> <A-Space>   vsnip#expandable()  ? '<Plug>(vsnip-expand)'         : '<C-j>'
 
