@@ -13,8 +13,7 @@
   "Align(ed)": {
     "prefix": "m",
     "body": [
-        "\($0\)",
-        
+        "\($0\)" 
     ],
     "description": "Align(ed)"
 },
