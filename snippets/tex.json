@@ -2,7 +2,16 @@
 
 
 {
-let g:vsnip_snippet_dir = '~/dotfiles/snippets'
+  "Align(ed)": {
+    "prefix": "ali",
+    "body": [
+        "\\begin{align}",
+        "\t$0",
+        "\\end{align}"
+    ],
+    "description": "Align(ed)"
+}
+
 }
 
 
