@@ -13,7 +13,9 @@ Plug 'projekt0n/github-nvim-theme',  { 'branch': 'main' }
 Plug 'rktjmp/lush.nvim', { 'branch': 'main' }
 " Plug 'ellisonleao/gruvbox.nvim',  {'branch': 'main' }
 " Plug 'cyansprite/Extract'
-Plug 'gioele/vim-autoswap'
+P:profile start test.log | profile file * | profile func *
+< Do the think you find to be slow >
+:profile pauselug 'gioele/vim-autoswap'
 Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
 " Plug 't9md/vim-smalls'
 Plug 'skywind3000/asyncrun.vim'
