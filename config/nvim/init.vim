@@ -999,7 +999,8 @@ xmap        S   <Plug>(vsnip-cut-text)
 " set foldmethod=expr 
 "
 lua << EOF
-require'lspconfig'..setup{}
+require'lspconfig'.texlab.setup{}
+
 EOF
 
 lua << EOF
