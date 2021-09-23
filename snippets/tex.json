@@ -495,8 +495,8 @@
     "description": "label"
   },
 
-"Reference": {
-    "prefix": "ref",
+"raise": {
+    "prefix": "r",
     "body": [
       "\ref{$2}$0"
     ],
