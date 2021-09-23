@@ -459,7 +459,7 @@
 "Label": {
     "prefix": "(lab)el",
     "body": [
-      "\label{$2}$0"
+      "\\label{$2}$0"
     ],
     "description": "label"
   },
