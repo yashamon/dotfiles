@@ -69,10 +69,10 @@
 "EquationNumbered": {
     "prefix": "eq",
     "body": [
-      "\\begin{equation*}",
+      "\\begin{equation}",
       "\t$0",
       "\t\\label{eq:$1}",
-      "\\end{equation*}"
+      "\\end{equation}"
     ],
     "description": "Add a Equation"
   },
