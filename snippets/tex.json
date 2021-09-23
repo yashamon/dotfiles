@@ -711,6 +711,13 @@
     ],
     "description": "epsilon"
   },
+"sigma": {
+    "prefix": ["sigma", "\\delta"],
+    "body": [
+      "\delta $0"
+    ],
+    "description": "epsilon"
+  },
 
 
 
