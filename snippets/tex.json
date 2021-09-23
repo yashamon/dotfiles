@@ -698,7 +698,7 @@
     },
 
 "epsilon": {
-    "prefix": ["eps", "",
+    "prefix": ["eps", "\eps",
     "body": [
       "s.t. $0"
     ],
