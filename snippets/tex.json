@@ -41,10 +41,10 @@
   "Math": {
     "prefix": "m",
     "body": [
-      "\(",
+      "\$",
       "\t$1",
       "\\end{math}",
-      ""
+      "\$"
     ],
     "description": "Add a Math"
   },
