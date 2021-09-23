@@ -72,7 +72,7 @@
     "prefix": "eq",
     "body": [
       "\\begin{equation}",
-      "\t$0",
+      "\t$1",
       "\t\\label{eq:$1}",
       "\\end{equation}",
       "$0"
