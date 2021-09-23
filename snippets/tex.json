@@ -82,8 +82,7 @@
     "prefix": "thm",
     "body": [
       "\\begin{theorem}",
-      "\t$1",
-      "\t\\begin{displaymath}",
+            "\t\\begin{displaymath}",
       "\t\t$2",
       "\t\\end{displaymath}",
       "\t$3",
