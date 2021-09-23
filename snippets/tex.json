@@ -9,4 +9,13 @@
     "description": "Align(ed)"
 },
 
-
+{
+  "Align(ed)": {
+    "prefix": "ali",
+    "body": [
+        "\\begin{align}",
+        "\t$0",
+        "\\end{align}"
+    ],
+    "description": "Align(ed)"
+},
