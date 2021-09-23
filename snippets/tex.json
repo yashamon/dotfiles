@@ -493,7 +493,7 @@ endsnippet
     "description": "Reference"
   },
 "Label": {
-    "prefix": "ref",
+    "prefix": "(label",
     "body": [
       "\ref{$2}$0"
     ],
