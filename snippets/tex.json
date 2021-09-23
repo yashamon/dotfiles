@@ -688,14 +688,14 @@
 "delta": {
     "prefix": ["delta", "\\delta"],
     "body": [
-      "\delta $0"
+      "\\delta $0"
     ],
     "description": "epsilon"
   },
 "sigma": {
     "prefix": ["sigma", "\\sigma"],
     "body": [
-      "\Sigma $0"
+      "\\Sigma $0"
     ],
     "description": "epsilon"
   },
