@@ -87,7 +87,7 @@ Plug 'sainnhe/gruvbox-material'
 "
 "  Plug 'ervandew/supertab'
 
-Plug 'vim-scripts/tComment'
+" Plug 'vim-scripts/tComment'
 
  " Plug 'Shougo/vimproc.vim'
 
