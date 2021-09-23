@@ -949,7 +949,7 @@ EOF
 set foldmethod=expr foldexpr=getline(v:lnum)=~'^\s*'.&commentstring[0]
 
 " Quicktex
-let g:quicktex_trigger="\t'
+let g:quicktex_trigger="\t"
 
 let g:quicktex_tex = {
     \' ' : "\<ESC>:call search('<+.*+>')\<CR>\"_c/+>/e\<CR>",
@@ -958,7 +958,7 @@ let g:quicktex_tex = {
 \}
 
 let g:quicktex_math = {
-    \' ': "\<ESC>:call search('<+.*+>')\<CR>\"_c/+>/e\<CR>",
+    \'\t ': "\<ESC>:call search('<+.*+>')\<CR>\"_c/+>/e\<CR>",
     \'fr'   : '\mathcal{R} ',
     \'eq'   : '= ',
     \'set'  : '\{ <+++> \} <++>',
