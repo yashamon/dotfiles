@@ -697,6 +697,13 @@
         "description": ["Insert inline fraction notation, (only in the cases when the environment is inline math environment)."]
     },
 
+"epsilon": {
+    "prefix": "epsi",
+    "body": [
+      "s.t. $0"
+    ],
+    "description": "st"
+  },
 
     "Large Fraction": {
         "prefix": ["fractionlarge", "\\fractionlarge"],
