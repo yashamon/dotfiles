@@ -705,9 +705,9 @@
     "description": "epsilon"
   },
 "delta": {
-    "prefix": ["delta", "\\eps"],
+    "prefix": ["delta", "\\delta"],
     "body": [
-      "\epsilon $0"
+      "\delta $0"
     ],
     "description": "epsilon"
   },
