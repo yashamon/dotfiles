@@ -47,7 +47,8 @@
     ],
     "description": "Add a Math"
   },
-    "Equation": {
+
+"Equation": {
     "prefix": "eq",
     "body": [
       "\\begin{equation*}",
