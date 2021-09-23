@@ -88,7 +88,7 @@ Plug 'sainnhe/gruvbox-material'
 "  Plug 'ervandew/supertab'
 
 Plug 'vim-scripts/tComment'
-let g:tcommentMapLeaderOp1
+let g:tcommentMapLeaderOp1 = ';
 "Plug 'b3nj5m1n/kommentary', { 'branch': 'main' }
 
 
