@@ -464,4 +464,18 @@
     "description": "Add a empty page"
   }
 }
+snippet st "s.t." w
+s.t. $0
+endsnippet
+
+snippet cf "cf." w
+c.f. $0
+endsnippet
+snippet ref "\\ref{}" w
+\ref{$1}$0
+endsnippet
+
+snippet label "\\label{}" w
+\label{$1}$0
+endsnippet
 
