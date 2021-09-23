@@ -949,7 +949,7 @@ require'nvim-treesitter.configs'.setup {
 EOF
 set foldmethod=expr foldexpr=getline(v:lnum)=~'^\s*'.&commentstring[0]
 
-
+Quicktex
 
 " set foldmethod=expr
 " set foldexpr=nvim_treesitter#foldexpr()
