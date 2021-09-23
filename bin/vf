@@ -1,4 +1,4 @@
-if [ -f ~/.vifm/lastdir ]; then
+if [ -f ~/.config/vifm/lastdir ]; then
     rm ~/.vifm/lastdir
 fi
 /usr/sbin/vifm "$@"
