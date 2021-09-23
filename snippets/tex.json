@@ -67,6 +67,16 @@
     ],
     "description": "Add a Equation"
   },
+"Equation": {
+    "prefix": "eq",
+    "body": [
+      "\\begin{equation*}",
+      "\t$0",
+      "\t\\label{eq:$1}",
+      "\\end{equation*}"
+    ],
+    "description": "Add a Equation"
+  },
 
   "Display Math — \\[ … \\]": {
     "prefix": "$$",
