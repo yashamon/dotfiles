@@ -504,9 +504,9 @@
   },
 
 "caligraphic": {
-    "prefix": "r",
+    "prefix": "cal",
     "body": [
-      "^r{$2}$0"
+      "\mathcal{$2}$0"
     ],
     "description": "Reference"
   },
