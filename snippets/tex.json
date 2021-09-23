@@ -61,7 +61,7 @@
     "prefix": "eq",
     "body": [
       "\\begin{equation*}",
-      "\t$0",
+      "\t$1",
       "\\end{equation*}"
     ],
     "description": "Add a Equation"
