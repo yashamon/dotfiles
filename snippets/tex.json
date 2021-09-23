@@ -76,8 +76,7 @@
       "\t\\label{eq:$1}",
       "\\end{equation}",
       "$0"
-
-    ],
+],
     "description": "Add a Equation"
   },
 
