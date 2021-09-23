@@ -2,7 +2,7 @@
 " call pathogen#infect()  
 call plug#begin('~/.vim/plugged')
 Plug 'hrsh7th/vim-vsnip'
-Plug 'nvim-lua/completion-nvim'
+P$0lug 'nvim-lua/completion-nvim'
 Plug 'hrsh7th/vim-vsnip-integ'
 Plug 'neovim/nvim-lspconfig'
 " Plug 'rafamadriz/friendly-snippets', { 'branch': 'main' }
