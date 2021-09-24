@@ -15,12 +15,12 @@
     "body": [
 "\\begin{equation*}",
 "\\begin{tikzcd}"
-       "$0 \ar[r, \"$1\"] \ar [d, \"$2\"] &  $3 \ar [d,\"4\"] \\", 
-       "$5 \ar [r, \"$6\"]   & $7",  
-"\\end{tikzcd}"
+       "$0 \ar[r, \"$1\"] \ar [d, \"$2\"] &  $3 \ar [d,\"4\"]", 
+       "$5 \\ar [r, \"$6\"]   & $7",  
+"\\end{tikzcd}",
 "\\end{equation*}"
     ],
-    "description": "Align(ed)"
+    "description": "tikz"
   },
 
 
