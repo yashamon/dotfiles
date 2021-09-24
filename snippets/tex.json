@@ -474,13 +474,12 @@
 "field": {
     "prefix": "r",
     "body": [
-      
+  \\mathbb\\{${1:}\\}$0
     ],
     "description": "raise"
   },
 
-  \mathbb{${1:}}$0
-
+  
 
 "caligraphic": {
     "prefix": "cal",
