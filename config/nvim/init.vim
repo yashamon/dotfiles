@@ -278,6 +278,8 @@ au FileType Makefile set noexpandtab
 au FileType tex set spell
 " au FileType tex set background=dark
 au TextYankPost * lua vim.highlight.on_yank {higroup="IncSearch", timeout=150, on_visual=true}
+" au TextDeletePost * lua vim.highlight.on_delete {higroup="IncSearch", timeout=150, on_visual=true}
+
 
  au FileType tex autocmd User SneakLeave set syntax=tex
  au FileType tex autocmd User SneakEnter set syntax=text
@@ -920,14 +922,13 @@ let g:goyo_width=60
 "LUA
 
 lua <<EOF
--- require'nvim-treesitter.configs'.setup {
---     highlight = { enable = true },
---     incremental_selection = { enable = true },
---     textobjects = { enable = true },
---     indent = { enable = true },
-
--- }
--- EOF
+require'nvim-treesitter.configs'.setup {
+    " highlight = { enable = true },
+    incremental_selection = { enable = true },
+    textobjects = { enable = true },
+    indent = { enable = true },
+}
+EOF
 set foldmethod=expr foldexpr=getline(v:lnum)=~'^\s*'.&commentstring[0]
 
 
