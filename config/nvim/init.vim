@@ -73,7 +73,7 @@ Plug 'terryma/vim-multiple-cursors'
 "
 "
 
- Plug 'equalsraf/neovim-gui-shim'
+Plug 'equalsraf/neovim-gui-shim'
 
 "  Plug 'morhetz/gruvbox'
 Plug 'sainnhe/gruvbox-material'
