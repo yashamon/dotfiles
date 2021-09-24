@@ -920,22 +920,24 @@ let g:goyo_width=60
 
 "LUA
 
-lua <<EOF
-require'nvim-treesitter.configs'.setup {
-  highlight = {
-    enable = true,
-    custom_captures = {
-      -- Highlight the @foo.bar capture group with the "Identifier" highlight group.
-      ["foo.bar"] = "Identifier",
-    },
-    -- Setting this to true will run `:h syntax` and tree-sitter at the same time.
-    -- Set this to `true` if you depend on 'syntax' being enabled (like for indentation).
-    -- Using this option may slow down your editor, and you may see some duplicate highlights.
-    -- Instead of true it can also be a list of languages
-    additional_vim_regex_highlighting = false,
-  },
-}
-EOF
+" lua <<EOF
+"  
+"
+" require'nvim-treesitter.configs'.setup {
+"   highlight = {
+"     enable = true,
+"     custom_captures = {
+"       -- Highlight the @foo.bar capture group with the "Identifier" highlight group.
+"       ["foo.bar"] = "Identifier",
+"     },
+"     -- Setting this to true will run `:h syntax` and tree-sitter at the same time.
+"     -- Set this to `true` if you depend on 'syntax' being enabled (like for indentation).
+"     -- Using this option may slow down your editor, and you may see some duplicate highlights.
+"     -- Instead of true it can also be a list of languages
+"     additional_vim_regex_highlighting = false,
+"   },
+" }
+" EOF
 
 lua <<EOF
 require'nvim-treesitter.configs'.setup {
@@ -992,8 +994,8 @@ imap <expr> <Tab>   vsnip#available(1)  ? '<Plug>(vsnip-expand-or-jump)' : '<C-l
 smap <expr> <Tab>   vsnip#available(1)  ? '<Plug>(vsnip-expand-or-jump)' : '<C-l>'
 
 " Jump forward or backward
-" imap <expr> <A-Space>   vsnip#jumpable(1)   ? '<Plug>(vsnip-jump-next)'      : '<Tab>'
-" smap <expr> <A-Space>   vsnip#jumpable(1)   ? '<Plug>(vsnip-jump-next)'      : '<Tab>'
+"  imap <expr> <Tab>   vsnip#jumpable(1)   ? '<Plug>(vsnip-jump-next)'      : '<Tab>'
+"  smap <expr> <Tab>   vsnip#jumpable(1)   ? '<Plug>(vsnip-jump-next)'      : '<Tab>'
 imap <expr> <C-Space> vsnip#jumpable(-1)  ? '<Plug>(vsnip-jump-prev)'      : '<S-Tab>'
 smap <expr> <C-Space> vsnip#jumpable(-1)  ? '<Plug>(vsnip-jump-prev)'      : '<S-Tab>'
 
@@ -1067,8 +1069,8 @@ EOF
 lua require'lspconfig'.texlab.setup{on_attach=require'completion'.on_attach}
 
 " Use <Tab> and <S-Tab> to navigate through popup menu
-inoremap <expr> <Tab>   pumvisible() ? "\<C-n>" : "\<Tab>"
-inoremap <expr> <S-Tab> pumvisible() ? "\<C-p>" : "\<S-Tab>"
+inoremap <expr> <up>   pumvisible() ? "\<C-n>" : "\<Tab>"
+inoremap <expr> <down> pumvisible() ? "\<C-p>" : "\<S-Tab>"
 
 " Set completeopt to have a better completion experience
 set completeopt=menuone,noinsert,noselect
@@ -1080,24 +1082,21 @@ set shortmess+=c
 let g:completion_enable_snippet = 'vim-vsnip'
 let g:vsnip_snippet_dir = '$HOME/dotfiles/snippets'
 
-function! PackagerInit()
-  call packager#add('kristijanhusak/vim-packager')
-  call packager#add('nvim-lua/completion-nvim')
-  call packager#add('kristijanhusak/completion-tags')
-endfunction
-
-let g:completion_chain_complete_list = {
-      \ 'default': [
-      \    {'complete_items': ['lsp']},
-      \    {'complete_items': ['tags']},
-      \  ]}
-
-" Or combine with lsp
-let g:completion_chain_complete_list = {
-      \ 'default': [
-      \    {'complete_items': ['lsp', 'tags']},
-      \  ]}
-" imap <tab> <Plug>(completion_smart_tab)
-" imap <s-tab> <Plug>(completion_smart_s_tab)
-imap <silent> <Aspace> <Plug>(completion_trigger)
-
+" function! PackagerInit()
+"   call packager#add('kristijanhusak/vim-packager')
+"   call packager#add('nvim-lua/completion-nvim')
+"   call packager#add('hrsh7th/vim-vsnip-integ')
+" endfunction
+"
+" let g:completion_chain_complete_list = {
+"       \ 'default': [
+"       \    {'complete_items': ['lsp']},
+"       \    {'complete_items': ['tags']},
+"       \  ]}
+"
+" " Or combine with lsp
+" let g:completion_chain_complete_list = {
+"       \ 'default': [
+"       \    {'complete_items': ['lsp', 'tags']},
+"       \  ]}
+"
