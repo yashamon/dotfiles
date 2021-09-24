@@ -80,7 +80,7 @@ Plug 'sainnhe/gruvbox-material'
 
  " Plugin outside ~/.vim/plugged with post-update hook
   Plug 'junegunn/fzf', { 'do': './install --all' }
-"  Plug 'junegunn/fzf.vim'
+  Plug 'junegunn/fzf.vim'
 "
 " " Plug 'Valloric/YouCompleteMe', {'do': './install.py' }
 "
