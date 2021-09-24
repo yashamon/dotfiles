@@ -412,7 +412,7 @@
 "curly bracket": {
     "prefix": "br",
     "body": [
-      "s.t. $0"
+      "$0"
     ],
     "description": "st"
   },
