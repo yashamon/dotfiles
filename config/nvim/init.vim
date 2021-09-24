@@ -817,6 +817,7 @@ nmap <leader>l :VimtexCompile<CR>
 nmap <leader>s <Esc>:VimtexErrors<CR>:Goyo x<CR>
 nmap <leader>x <C-w><up><Esc>:VimtexErrors<CR>:Goyo x<CR>
 nmap <leader>g :Goyo x<CR>
+nmap <leader>G :Goyo<CR>
 nmap <leader>p :Denite neoyank<CR>
 
 " NB: this supports "rp that replaces the selection by the contents of @r
@@ -1062,16 +1063,16 @@ function! PackagerInit()
   call packager#add('hrsh7th/vim-vsnip-integ')
 endfunction
 
-let g:completion_chain_complete_list = {
-      \ 'default': [
-      \    {'complete_items': ['lsp']},
-      \    {'complete_items': ['tags']},
-      \    {'complete_items': ['snippet']}, 
-      \    ]}
-
-" Or combine with lsp
 " let g:completion_chain_complete_list = {
 "       \ 'default': [
-"       \    {'complete_items': ['lsp', 'tags', 'snippet']},
-"       \  ]}
+"       \    {'complete_items': ['lsp']},
+"       \    {'complete_items': ['tags']},
+"       \    {'complete_items': ['snippet']}, 
+"       \    ]}
+
+" Or combine with lsp
+let g:completion_chain_complete_list = {
+      \ 'default': [
+      \    {'complete_items': ['lsp', 'tags', 'snippet']},
+      \  ]}
 

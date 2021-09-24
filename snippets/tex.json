@@ -488,7 +488,7 @@
     "description": "raise"
   },
 "field": {
-    "prefix": "r",
+    "prefix": "f",
     "body": [
   "\\mathbb{$1} $0"
     ],
@@ -729,7 +729,7 @@
     ],
     "description": "epsilon"
   },
-"Theta": {
+"(Theta": {
     "prefix": ["(Th)eta", "\\Th"],
     "body": [
       "\\Theta $0"
