@@ -80,7 +80,7 @@ Plug 'sainnhe/gruvbox-material'
 
  Plug 'vim-pandoc/vim-pandoc-syntax' 
 
- Plug 'scrooloose/nerdtree', { 'on': 'NERDTreeFind' }
+"  Plug 'scrooloose/nerdtree', { 'on': 'NERDTreeFind' }
 
  " Plugin outside ~/.vim/plugged with post-update hook
   Plug 'junegunn/fzf', { 'do': './install --all' }
@@ -546,6 +546,8 @@ let g:NERDTreeMapUpdir="<S-h>"
 "
 "
 "
+nnoremap <leader>e :NvimTreeToggle<CR>
+
 map <up> <nop>
 imap <up> <nop>
 imap <down> <nop>
@@ -824,7 +826,7 @@ nmap <leader>p :Denite neoyank<CR>
 map :tags  exe ":silent ! /usr/local/bin/ctags -R"
 
 "Nerd Tree
-map <leader>e :NERDTreeFind<CR>
+" map <leader>e :NERDTreeFind<CR>
 " map <C-e> :NERDTreeToggle<CR>:NERDTreeMirror<CR>
 "
 "
