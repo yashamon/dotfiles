@@ -61,7 +61,7 @@
     "prefix": "eqnum",
     "body": [
       "\\begin{equation}",
-      "\t$1",
+      "\t$2",
       "\t\\label{eq:$1}",
       "\\end{equation}",
       "$0"
