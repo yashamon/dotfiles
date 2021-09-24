@@ -264,9 +264,11 @@ set background=dark
 colorscheme blue-moon
 " colorscheme gruvbox 
 " highlight Normal ctermbg=none
-highlight clear SpellBad
-highlight SpellBad cterm=underline
-hi MatchParen cterm=underline ctermbg=none ctermfg=magenta
+hi clear SpellBad
+hi SpellBad cterm=underline
+" Set style for gVim
+hi SpellBad gui=undercurl
+hi MatchParen cterm=undercurl ctermbg=none ctermfg=magenta
 endif
 
 "Autocommands
@@ -275,7 +277,9 @@ endif
 
 autocmd BufReadPost * if @% !~# '\.git[\/\\]COMMIT_EDITMSG$' && line("'\"") > 1 && line("'\"") <= line("$") | exe "normal! g`\"" | endif 
 au FileType Makefile set noexpandtab 
-au FileType tex set spell
+au FileType tex set spell 
+au FileType tex hi SpellBad cterm=undercurl
+
 " au FileType tex set background=dark
 au TextYankPost * lua vim.highlight.on_yank {higroup="IncSearch", timeout=150, on_visual=true}
 " au TextDeletePost * lua vim.highlight.on_delete {higroup="IncSearch", timeout=150, on_visual=true}
