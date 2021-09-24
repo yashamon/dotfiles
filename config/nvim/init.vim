@@ -68,7 +68,7 @@ Plug 'Raimondi/vim_search_objects'
 Plug 'terryma/vim-multiple-cursors'
 
 " " On-demand loading
- Plug 'junegunn/goyo.vim'
+Plug 'junegunn/goyo.vim'
 " " Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
 "
 "
@@ -77,15 +77,14 @@ Plug 'equalsraf/neovim-gui-shim'
 
 "  Plug 'morhetz/gruvbox'
 Plug 'sainnhe/gruvbox-material'
- Plug 'vim-pandoc/vim-pandoc'
-
- Plug 'vim-pandoc/vim-pandoc-syntax' 
+Plug 'vim-pandoc/vim-pandoc'
+Plug 'vim-pandoc/vim-pandoc-syntax' 
 
 "  Plug 'scrooloose/nerdtree', { 'on': 'NERDTreeFind' }
 
  " Plugin outside ~/.vim/plugged with post-update hook
-  Plug 'junegunn/fzf', { 'do': './install --all' }
-  Plug 'junegunn/fzf.vim'
+Plug 'junegunn/fzf', { 'do': './install --all' }
+Plug 'junegunn/fzf.vim'
 "
 " " Plug 'Valloric/YouCompleteMe', {'do': './install.py' }
 "
@@ -103,7 +102,7 @@ Plug 'easymotion/vim-easymotion'
 Plug 'mbbill/undotree', { 'on': 'UndotreeToggle' }
  '}
 
- Plug 'lifepillar/vim-solarized8'
+Plug 'lifepillar/vim-solarized8'
 
 Plug 'vim-scripts/AutoTag'
 
