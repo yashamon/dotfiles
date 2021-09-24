@@ -919,15 +919,13 @@ let g:goyo_width=60
 
 "LUA
 
-" lua <<EOF
-"  
 lua <<EOF
--- require'nvim-treesitter.configs'.setup {
---     highlight = { enable = true },
---     incremental_selection = { enable = true },
---     textobjects = { enable = true },
---     indent = { enable = true },
--- }
+require'nvim-treesitter.configs'.setup {
+    highlight = { enable = true },
+    incremental_selection = { enable = true },
+    textobjects = { enable = true },
+    indent = { enable = true },
+    }
 EOF
 set foldmethod=expr foldexpr=getline(v:lnum)=~'^\s*'.&commentstring[0]
 
