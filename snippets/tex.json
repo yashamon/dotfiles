@@ -19,8 +19,8 @@
        "$6 \\ar [r, \"$7\"]   & $8",  
 "\\end{tikzcd}",
 "\\end{equation*}",
-$9
-    ],
+"$0"
+  ],
     "description": "tikz"
   },
 
