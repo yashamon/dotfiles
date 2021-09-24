@@ -13,7 +13,7 @@ Plug 'neovim/nvim-lspconfig'
 " Any valid git URL is allowed
 " Plug 'https://github.com/junegunn/vim-github-dashboard.git'
 " Group dependencies, vim-snippets depends on ultisnips 
-"  Plug 'tpope/vim-surround'
+ Plug 'tpope/vim-surround'
 " Plug 'neovim/node-host'
 Plug 'projekt0n/github-nvim-theme',  { 'branch': 'main' }
 Plug 'rktjmp/lush.nvim', { 'branch': 'main' }
