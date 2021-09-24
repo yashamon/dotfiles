@@ -356,9 +356,8 @@ function Dark()
 endfunction
 
 " Default Colors for CursorLine_
-highlight  CursorLine cterm=NONE ctermbg=black ctermfg=none
+" highlight  CursorLine cterm=NONE ctermbg=black ctermfg=none
 " autocmd InsertEnter * set cursorline * 
-
 " " Revert Color to default when leaving Insert Mode
 "  autocmd InsertLeave * highlight  CursorLine ctermbg=none ctermfg=None
 " if &term =~ "xterm\\|rxvt"
@@ -985,8 +984,8 @@ set foldmethod=expr foldexpr=getline(v:lnum)=~'^\s*'.&commentstring[0]
 
 " vsnip stuff
 let g:vsnip_snippet_dir = '~/dotfiles/snippets'
-imap <expr> <A-Space>   vsnip#expandable()  ? '<Plug>(vsnip-expand)'         : '<C-j>'
-smap <expr> <A-Space>   vsnip#expandable()  ? '<Plug>(vsnip-expand)'         : '<C-j>'
+imap <expr> <Tab>   vsnip#expandable()  ? '<Plug>(vsnip-expand)'         : '<C-j>'
+smap <expr> <Tab>   vsnip#expandable()  ? '<Plug>(vsnip-expand)'         : '<C-j>'
 
 " Expand or jump
 imap <expr> <A-Space>   vsnip#available(1)  ? '<Plug>(vsnip-expand-or-jump)' : '<C-l>'
