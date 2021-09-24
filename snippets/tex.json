@@ -15,10 +15,11 @@
     "body": [
 "\\begin{equation*}",
 "\\begin{tikzcd}",
-"$0 \\ar[r, \"$1\"] \\ar [d, \"$2\"] &  $3 \\ar [d,\"$4\"] \\\\", 
-       "$5 \\ar [r, \"$6\"]   & $7",  
+"$1 \\ar[r, \"$2\"] \\ar [d, \"$3\"] &  $4 \\ar [d,\"$5\"] \\\\", 
+       "$6 \\ar [r, \"$7\"]   & $8",  
 "\\end{tikzcd}",
-"\\end{equation*}"
+"\\end{equation*}",
+$9
     ],
     "description": "tikz"
   },
