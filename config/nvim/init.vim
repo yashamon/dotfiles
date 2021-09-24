@@ -846,10 +846,9 @@ autocmd BufWritePost * silent execute 'AsyncRun if git rev-parse --is-inside-wor
 " let inside_git_repo="$(git rev-parse --is-inside-work-tree 2>/dev/null)"
 " autocmd BufWritePost * silent execute 'AsyncRun if git rev-parse --is-inside-work-tree 2>/dev/null ; then git add % ; git commit -m -a ; git push --all origin; fi'
 " autocmd BufWritePost * <Esc>:AsyncRun 'if [ -d .git ] || git rev-parse --git-dir > /dev/null 2>&1 ; then git add % ; git commit -m ; git push --all origin; fi'
-
-"Highlight
-hi MatchParen cterm=underline ctermbg=none ctermfg=none
-hi MatchParen guibg=NONE guifg=green gui=NONE
+" "Highlight
+" hi MatchParen cterm=underline ctermbg=none ctermfg=none
+" hi MatchParen guibg=NONE guifg=green gui=NONE
     "
     "
     "
@@ -970,25 +969,24 @@ set foldmethod=expr foldexpr=getline(v:lnum)=~'^\s*'.&commentstring[0]
 
 " Quicktex
 " let g:quicktex_trigger="\t"
-
-let g:quicktex_tex = {
-    \' ' : "\<ESC>:call search('<+.*+>')\<CR>\"_c/+>/e\<CR>",
-    \'m'   : '\( <+++> \) <++>',
-    \'prf' : "\\begin{proof}\<CR><+++>\<CR>\\end{proof}",
-\}
-
-let g:quicktex_math = {
-    \' ': "\<ESC>:call search('<+.*+>')\<CR>\"_c/+>/e\<CR>",
-    \'fr'   : '\mathcal{R} ',
-    \'eq'   : '= ',
-    \'set'  : '\{ <+++> \} <++>',
-    \'frac' : '\frac{<+++>}{<++>} <++>',
-    \'one'  : '1 ',
-    \'st'   : ': ',
-    \'in'   : '\in ',
-    \'bn'   : '\mathbb{N} ',
-\}
-
+" let g:quicktex_tex = {
+"     \' ' : "\<ESC>:call search('<+.*+>')\<CR>\"_c/+>/e\<CR>",
+"     \'m'   : '\( <+++> \) <++>',
+"     \'prf' : "\\begin{proof}\<CR><+++>\<CR>\\end{proof}",
+" \}
+"
+" let g:quicktex_math = {
+"     \' ': "\<ESC>:call search('<+.*+>')\<CR>\"_c/+>/e\<CR>",
+"     \'fr'   : '\mathcal{R} ',
+"     \'eq'   : '= ',
+"     \'set'  : '\{ <+++> \} <++>',
+"     \'frac' : '\frac{<+++>}{<++>} <++>',
+"     \'one'  : '1 ',
+"     \'st'   : ': ',
+"     \'in'   : '\in ',
+"     \'bn'   : '\mathbb{N} ',
+" \}
+"
 " NOTE: You can use other key to expand snippet.
 
 " vsnip stuff
