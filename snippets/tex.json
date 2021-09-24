@@ -7,7 +7,11 @@
         "\\begin{align}",
         "\t$0",
         "\\end{align}"
-    ],
+
+
+           
+
+],
     "description": "Align(ed)"
   },
   "tikz": {
@@ -15,7 +19,7 @@
     "body": [
 "\\begin{equation*}",
 "\\begin{tikzcd}",
-"$1 "\\ar[r, \"$2\"] \\ar [d, \"$3\"] &  $4 \\ar [d,\"$5\"] \\\\", 
+"$1 \\ar[r, \"$2\"] \\ar [d, \"$3\"] &  $4 \\ar [d,\"$5\"] \\\\", 
        "$6 \\ar [r, \"$7\"]   & $8",  
 "\\end{tikzcd}",
 "\\end{equation*}",
