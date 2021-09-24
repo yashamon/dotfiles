@@ -419,9 +419,9 @@
 "open bracket": {
     "prefix": "br",
     "body": [
-      "($0] $1"
+      "($0) $1"
     ],
-    "description": "set brackets"
+    "description": "open brackets"
   },
 
 "square bracket": {
@@ -429,7 +429,7 @@
     "body": [
       "[$0] $1"
     ],
-    "description": "set brackets"
+    "description": "square brackets"
   },
 
 "st": {
@@ -471,6 +471,16 @@
     ],
     "description": "raise"
   },
+"field": {
+    "prefix": "r",
+    "body": [
+      
+    ],
+    "description": "raise"
+  },
+
+  \mathbb{${1:}}$0
+
 
 "caligraphic": {
     "prefix": "cal",
