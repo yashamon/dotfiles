@@ -9,7 +9,7 @@ command diff nvim -d %f %F
 command nautilus nautilus %f 
 command sacddir for f in */*.iso ; do sacd_extract -2 -s -c -i "$f" ; done
 map f /
-map <A-q> <ESC>:q<CR>
+map <A-q> <ESC>:<CR>
 map F ?
 map JW :cd ~/workspace<CR>
 map JD :cd ~/dotfiles<CR>
