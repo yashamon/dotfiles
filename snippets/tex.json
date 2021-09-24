@@ -435,7 +435,7 @@
 "open bracket": {
     "prefix": "br",
     "body": [
-      "($0) $1"
+      "($1) $0"
     ],
     "description": "open brackets"
   },
@@ -443,7 +443,7 @@
 "square bracket": {
     "prefix": "br",
     "body": [
-      "[$0] $1"
+      "[$1] $0"
     ],
     "description": "square brackets"
   },
