@@ -1069,8 +1069,8 @@ EOF
 lua require'lspconfig'.texlab.setup{on_attach=require'completion'.on_attach}
 
 " Use <Tab> and <S-Tab> to navigate through popup menu
-inoremap <expr> <up>   pumvisible() ? "\<C-n>" : "\<Tab>"
-inoremap <expr> <down> pumvisible() ? "\<C-p>" : "\<S-Tab>"
+inoremap <expr> <A-space>   pumvisible() ? "\<C-n>" : "\<Tab>"
+inoremap <expr> <C-> pumvisible() ? "\<C-p>" : "\<S-Tab>"
 
 " Set completeopt to have a better completion experience
 set completeopt=menuone,noinsert,noselect
