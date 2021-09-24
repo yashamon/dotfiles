@@ -721,11 +721,11 @@
     "description": "Theta"
   },
 "nabla": {
-    "prefix": ["nabla", "\\Th"],
+    "prefix": ["nabla"],
     "body": [
-      "\\Theta $0"
+      "\\nabla $0"
     ],
-    "description": "Theta"
+    "description": "nabla"
   },
 
 
