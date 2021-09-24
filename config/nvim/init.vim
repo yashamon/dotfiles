@@ -1076,3 +1076,4 @@ let g:completion_chain_complete_list = {
       \    {'complete_items': ['lsp', 'tags', 'snippet']},
       \  ]}
 let g:completion_enable_auto_popup = 0
+
