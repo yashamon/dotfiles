@@ -1044,7 +1044,7 @@ EOF
 lua require'lspconfig'.texlab.setup{on_attach=require'completion'.on_attach}
 
 " Use <Tab> and <S-Tab> to navigate through popup menu
-inoremap <expr> <M-space>   pumvisible() ? "\<C-n>" : "\<Tab>"
+inoremap <expr> <S-space>   pumvisible() ? "\<C-n>" : "\<Tab>"
 inoremap <expr> <C-space> pumvisible() ? "\<C-p>" : "\<S-Tab>"
 
 " Set completeopt to have a better completion experience
@@ -1076,5 +1076,5 @@ let g:completion_chain_complete_list = {
       \    {'complete_items': ['lsp', 'tags', 'snippet']},
       \  ]}
 let g:completion_enable_auto_popup = 0
-imap <silent> <A-Tab> <Plug>(completion_trigger)
+imap <silent> <M-Space> <Plug>(completion_trigger)
 
