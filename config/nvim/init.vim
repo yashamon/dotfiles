@@ -1,6 +1,8 @@
 " init.vim
 " call pathogen#infect()  
 call plug#begin('~/.vim/plugged')
+lua require("lsp_config")
+
 Plug 'hrsh7th/vim-vsnip'
 Plug 'nvim-lua/completion-nvim'
 Plug 'hrsh7th/vim-vsnip-integ'
