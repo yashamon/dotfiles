@@ -6,7 +6,6 @@ Plug 'nvim-lua/completion-nvim'
 Plug 'hrsh7th/vim-vsnip-integ'
 Plug 'neovim/nvim-lspconfig'
 Plug 'nvim-lua/diagnostic-nvim'
-
 " Plug 'rafamadriz/friendly-snippets', { 'branch': 'main' }
 
 " Make sure you use single quotes
