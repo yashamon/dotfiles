@@ -9,7 +9,7 @@
         "\\end{align}"
 ],
     "description": "Align(ed)"
-    },
+    }, 
   "tikz": {
     "prefix": "tikz",
     "body": [
