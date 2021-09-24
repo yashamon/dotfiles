@@ -858,18 +858,18 @@ nnoremap <C-e> :let g:ctrlp_match_window =
 
 " YouCompleteMe usage is tied to Supertab, this is a little weird but 
 " seems necessary for full interoperability with ultisnipps
-let g:ycm_auto_trigger = 0
-let g:ycm_collect_identifiers_from_tags_files = 1
-let g:ycm_key_invoke_completion = '<C-n>'
-let g:ycm_key_list_select_completion = ['<C-n>', '<Down>']
-let g:ycm_key_list_previous_completion = ['<C-p>', '<Up>']
-let g:SuperTabDefaultCompletionType = '<C-n>'
-" let g:UltiSnipsSnippetDirectories=['Ultisnips']
-let g:UltiSnipsJumpForwardTrigger="<D-j>"
-let g:UltiSnipsJumpForwardTrigger="<M-j>" 
-let g:UltiSnipsJumpForwardTrigger="<C-j>"
-let g:UltiSnipsListSnippets="<D-e>"
-" let g:UltiSnipsListSnippets="<-e>"
+" let g:ycm_auto_trigger = 0
+" let g:ycm_collect_identifiers_from_tags_files = 1
+" let g:ycm_key_invoke_completion = '<C-n>'
+" let g:ycm_key_list_select_completion = ['<C-n>', '<Down>']
+" let g:ycm_key_list_previous_completion = ['<C-p>', '<Up>']
+" let g:SuperTabDefaultCompletionType = '<C-n>'
+" " let g:UltiSnipsSnippetDirectories=['Ultisnips']
+" let g:UltiSnipsJumpForwardTrigger="<D-j>"
+" let g:UltiSnipsJumpForwardTrigger="<M-j>" 
+" let g:UltiSnipsJumpForwardTrigger="<C-j>"
+" let g:UltiSnipsListSnippets="<D-e>"
+" " let g:UltiSnipsListSnippets="<-e>"
 
 autocmd FileType qf nnoremap <buffer> <Enter> <C-W><Enter><C-W>T:Goyo x<CR>
 autocmd FileType qf nnoremap  <buffer> <A>-q :q:Goyo x<CR>
@@ -988,8 +988,8 @@ imap <expr> <Tab>   vsnip#expandable()  ? '<Plug>(vsnip-expand)'         : '<C-j
 smap <expr> <Tab>   vsnip#expandable()  ? '<Plug>(vsnip-expand)'         : '<C-j>'
 
 " Expand or jump
-imap <expr> <A-Space>   vsnip#available(1)  ? '<Plug>(vsnip-expand-or-jump)' : '<C-l>'
-smap <expr> <A-Space>   vsnip#available(1)  ? '<Plug>(vsnip-expand-or-jump)' : '<C-l>'
+imap <expr> <Tab>   vsnip#available(1)  ? '<Plug>(vsnip-expand-or-jump)' : '<C-l>'
+smap <expr> <Tab>   vsnip#available(1)  ? '<Plug>(vsnip-expand-or-jump)' : '<C-l>'
 
 " Jump forward or backward
 " imap <expr> <A-Space>   vsnip#jumpable(1)   ? '<Plug>(vsnip-jump-next)'      : '<Tab>'
@@ -1075,8 +1075,8 @@ set completeopt=menuone,noinsert,noselect
 
 " Avoid showing message extra message when using completion
 set shortmess+=c
-imap <tab> <Plug>(completion_smart_tab)
-imap <s-tab> <Plug>(completion_smart_s_tab)
+" imap <tab> <Plug>(completion_smart_tab)
+" imap <s-tab> <Plug>(completion_smart_s_tab)
 let g:completion_enable_snippet = 'vim-vsnip'
 let g:vsnip_snippet_dir = '$HOME/dotfiles/snippets'
 
@@ -1097,4 +1097,7 @@ let g:completion_chain_complete_list = {
       \ 'default': [
       \    {'complete_items': ['lsp', 'tags']},
       \  ]}
+" imap <tab> <Plug>(completion_smart_tab)
+" imap <s-tab> <Plug>(completion_smart_s_tab)
+imap <silent> <Aspace> <Plug>(completion_trigger)
 
