@@ -439,12 +439,10 @@ set wmh=0                     " set the min height of a window to 0 so we can ma
 "map <S-H> gT
 " go to next tab
 "map <S-L> gt
-
 " new tab
 " map <leader>t :tabnew<CR>
 " close tab
 " map <leader>c :tabclose<CR> 
-
 " ,/ turn off search highlighting
 "nmap <leader>/ :nohl<CR>
 
@@ -530,16 +528,12 @@ hi link EasyMotionShade Comment
    "nmap OC l
    "nmap OD 
 "YankRing
-
-
-
-" --- Command-T
-let g:CommandTMaxHeight = 15
-
+" " --- Command-T
+" let g:CommandTMaxHeight = 15
 " --- SuperTab
-let g:SuperTabDefaultCompletionType = "context"
-let g:SuperTabCompletionContexts = ['s:ContextText', 's:ContextDiscover']
-let g:SuperTabContextDiscoverDiscovery= ["&completefunc:<c-x><c-u>", "&omnifunc:<c-x><c-o>"]
+" let g:SuperTabDefaultCompletionType = "context"
+" let g:SuperTabCompletionContexts = ['s:ContextText', 's:ContextDiscover']
+" let g:SuperTabContextDiscoverDiscovery= ["&completefunc:<c-x><c-u>", "&omnifunc:<c-x><c-o>"]
   
 "--NerdTree
 let g:NERDTreeMapUpdir="<S-h>"
