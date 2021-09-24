@@ -8,8 +8,13 @@ command sacd sacd_extract -2 -s -c -i %f
 command diff nvim -d %f %F
 command nautilus nautilus %f 
 command sacddir for f in */*.iso ; do sacd_extract -2 -s -c -i "$f" ; done
+nnoremap w :view<cr>
+noremap t :tabnew<cr>
+noremap <Aleft> gt
+noremap <right> Gt
+
 map f /
-map <A-q> <ESC>:q<CR>
+map <A-q> <ESC>:execute '!echo %d > ~/.config/vifm/lastdir'| quit <CR>
 map F ?
 map JW :cd ~/workspace<CR>
 map JD :cd ~/dotfiles<CR>
