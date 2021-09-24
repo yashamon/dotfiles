@@ -412,14 +412,14 @@
 "set bracket": {
     "prefix": "br",
     "body": [
-      "{\\{$0} $1\\"
+      "{\\{$0\\} $1"
     ],
     "description": "set brackets"
   },
 "square bracket": {
     "prefix": "br",
     "body": [
-      "[$0] $1\\"
+      "[$0] $1"
     ],
     "description": "set brackets"
   },
