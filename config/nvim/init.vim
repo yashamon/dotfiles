@@ -3,6 +3,8 @@
 call plug#begin('~/.vim/plugged')
 " lua require("lsp_config")
 Plug 'hrsh7th/vim-vsnip'
+Plug 'kyazdani42/nvim-web-devicons' " for file icons
+Plug 'kyazdani42/nvim-tree.lua'
 Plug 'nvim-lua/completion-nvim'
 Plug 'hrsh7th/vim-vsnip-integ'
 Plug 'neovim/nvim-lspconfig'
