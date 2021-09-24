@@ -474,7 +474,7 @@
 "field": {
     "prefix": "r",
     "body": [
-  \\mathbb\\{${1:}\\}$0
+  "\\mathbb{$1\\}$0"
     ],
     "description": "raise"
   },
