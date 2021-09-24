@@ -476,7 +476,7 @@
     "body": [
   "\\mathbb{$1} $0"
     ],
-    "description": "raise"
+    "description": "field"
   },
 
   
@@ -713,8 +713,25 @@
     ],
     "description": "epsilon"
   },
+"Theta": {
+    "prefix": ["(Th)eta", "\\Th"],
+    "body": [
+      "\\Theta $0"
+    ],
+    "description": "Theta"
+  },
+"nabla": {
+    "prefix": ["nabla", "\\Th"],
+    "body": [
+      "\\Theta $0"
+    ],
+    "description": "Theta"
+  },
+
+
+
 "delta": {
-    "prefix": ["delta", "\\delta"],
+    "prefix": ["(del)ta", "\\delta"],
     "body": [
       "\\delta $0"
     ],
