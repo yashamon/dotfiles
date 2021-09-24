@@ -635,7 +635,7 @@ noremap F ?
     " xmap T <Plug>Sneak_S
     " omap t <Plug>Sneak_s
     " omap T <Plug>Sneak_S
-noremap $ /\$<CR>hv?\$<CR>l
+" noremap $ /\$<CR>hv?\$<CR>l
 noremap # /\$<CR>v?\$<CR>
 noremap @ /}<CR>v?{<CR>
 map j gj
