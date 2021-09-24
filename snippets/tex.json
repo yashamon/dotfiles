@@ -409,6 +409,14 @@
     ],
     "description": "Add a empty page"
   },
+"curly bracket": {
+    "prefix": "br",
+    "body": [
+      "s.t. $0"
+    ],
+    "description": "st"
+  },
+
 "st": {
     "prefix": "st",
     "body": [
