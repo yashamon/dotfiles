@@ -1,8 +1,9 @@
 " init.vim
 " call pathogen#infect()  
-call plug#begin('~/.vim/plugged')
+call plug#begin('~/.vimplugged')
 " lua require("lsp_config")
 Plug 'hrsh7th/vim-vsnip'
+Plug 'kristijanhusak/completion-tags'
 Plug 'kyazdani42/nvim-web-devicons' " for file icons
 Plug 'kyazdani42/nvim-tree.lua'
 Plug 'nvim-lua/completion-nvim'
@@ -635,7 +636,7 @@ noremap F ?
     " xmap T <Plug>Sneak_S
     " omap t <Plug>Sneak_s
     " omap T <Plug>Sneak_S
-" noremap $ /\$<CR>hv?\$<CR>l
+noremap $ /\$<CR>hv?\$<CR>l
 noremap # /\$<CR>v?\$<CR>
 noremap @ /}<CR>v?{<CR>
 map j gj
