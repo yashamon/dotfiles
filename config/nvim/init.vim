@@ -1067,6 +1067,7 @@ let g:completion_chain_complete_list = {
       \    {'complete_items': ['lsp']},
       \    {'complete_items': ['tags']},
       \    {'complete_items': ['tags']},
+{'complete_items': ['tags']},
 
 
       \  ]}
