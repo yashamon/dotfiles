@@ -428,7 +428,7 @@
 "set bracket": {
     "prefix": "br",
     "body": [
-      "{\\{$0\\} $1"
+      "\\{ $1 \\} $0"
     ],
     "description": "set brackets"
   },
