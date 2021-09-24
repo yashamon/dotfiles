@@ -1,6 +1,6 @@
 " init.vim
 " call pathogen#infect()  
-call plug#begin('~/.vimplugged')
+call plug#begin('~/.vim/plugged')
 " lua require("lsp_config")
 Plug 'hrsh7th/vim-vsnip'
 Plug 'kristijanhusak/completion-tags'
@@ -1089,4 +1089,21 @@ imap <s-tab> <Plug>(completion_smart_s_tab)
 let g:completion_enable_snippet = 'vim-vsnip'
 let g:vsnip_snippet_dir = '$HOME/dotfiles/snippets'
 
+function! PackagerInit()
+  call packager#add('kristijanhusak/vim-packager')
+  call packager#add('nvim-lua/completion-nvim')
+  call packager#add('kristijanhusak/completion-tags')
+endfunction
+
+let g:completion_chain_complete_list = {
+      \ 'default': [
+      \    {'complete_items': ['lsp']},
+      \    {'complete_items': ['tags']},
+      \  ]}
+
+" Or combine with lsp
+let g:completion_chain_complete_list = {
+      \ 'default': [
+      \    {'complete_items': ['lsp', 'tags']},
+      \  ]}
 
