@@ -729,8 +729,8 @@
     ],
     "description": "epsilon"
   },
-"(Theta": {
-    "prefix": ["(Th)eta", "\\Th"],
+"Theta": {
+    "prefix": ["Theta", "\\Th"],
     "body": [
       "\\Theta $0"
     ],
