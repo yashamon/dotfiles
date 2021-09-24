@@ -15,7 +15,7 @@
     "body": [
 "\begin{equation*}",
 "\begin{tikzcd}"
-       $0 \ar[r, "$1"] \ar [d, "\pi"] &  G \times \Lambda ^{n} _{k} \ar [d] \\ 
+       "$0 \ar[r, "$1"] \ar [d, "$2"] &  $3 \ar [d,""] \\ 
        \Lambda ^{n} _{k} \ar [r, "id"]   & \Lambda ^{n} _{k},  
 \end{tikzcd}
 \end{equation*}
