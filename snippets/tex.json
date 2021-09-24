@@ -409,12 +409,19 @@
     ],
     "description": "Add a empty page"
   },
-"curly bracket": {
+"set bracket": {
     "prefix": "br",
     "body": [
-      "$0"
+      "{\\{$0}\\"
     ],
-    "description": "st"
+    "description": "set brackets"
+  },
+"square bracket": {
+    "prefix": "br",
+    "body": [
+      "[$0]\\"
+    ],
+    "description": "set brackets"
   },
 
 "st": {
