@@ -727,6 +727,46 @@
     ],
     "description": "nabla"
   },
+"gamma": {
+    "prefix": ["()"],
+    "body": [
+      "\\Gamma $0"
+    ],
+    "description": "Delta"
+  },
+
+"Gamma": {
+    "prefix": ["G"],
+    "body": [
+      "\\Gamma $0"
+    ],
+    "description": "Delta"
+  },
+
+"Delta": {
+    "prefix": ["Delta"],
+    "body": [
+      "\\Delta $0"
+    ],
+    "description": "Delta"
+  },
+"caligraphic A": {
+    "prefix": ["A"],
+    "body": [
+      "\\mathcal{A} $0"
+    ],
+    "description": "cal A"
+  },
+"caligraphic D": {
+    "prefix": ["D"],
+    "body": [
+      "\\mathcal{D} $0"
+    ],
+    "description": "cal D"
+  },
+
+
+
 
 
 
