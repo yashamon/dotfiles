@@ -925,10 +925,9 @@ lua <<EOF
 --     incremental_selection = { enable = true },
 --     textobjects = { enable = true },
 --     indent = { enable = true },
+
 -- }
 -- EOF
-  asldfkj
-  askldjf
 set foldmethod=expr foldexpr=getline(v:lnum)=~'^\s*'.&commentstring[0]
 
 
