@@ -28,7 +28,7 @@ Plug 'kevinhwang91/nvim-bqf', { 'branch': 'main' }
 
 " if you install fzf as system package like `pacman -S fzf` in ArchLinux,
 " please comment next line
-Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
+Plug 'junegunn/fzf', { 'do': ( -> fzf#install() } }
 " highly recommended
 " Plug 'sindrets/diffview.nvim', { 'branch': 'main' }
 " Plug 'sindrets/diffview.nvim', { 'branch': 'main' }
