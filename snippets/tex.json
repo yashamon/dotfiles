@@ -1,3 +1,5 @@
+
+
 {
   "Align(ed)": {
     "prefix": "ali",
@@ -8,6 +10,19 @@
     ],
     "description": "Align(ed)"
   },
+  "tikz": {
+    "prefix": "tikz",
+    "body": [
+"\begin{equation*}
+\begin{tikzcd}
+       P \ar[r, "iso"] \ar [d, "\pi"] &  G \times \Lambda ^{n} _{k} \ar [d] \\ 
+       \Lambda ^{n} _{k} \ar [r, "id"]   & \Lambda ^{n} _{k},  
+\end{tikzcd}
+\end{equation*}
+    ],
+    "description": "Align(ed)"
+  },
+
 
 "Cases": {
     "prefix": "cas",
@@ -728,7 +743,7 @@
     "description": "nabla"
   },
 "gamma": {
-    "prefix": ["()"],
+    "prefix": ["(gam)ma"],
     "body": [
       "\\Gamma $0"
     ],
@@ -777,8 +792,8 @@
     ],
     "description": "epsilon"
   },
-"sigma": {
-    "prefix": ["sigma", "\\sigma"],
+"Sigma": {
+    "prefix": ["S"],
     "body": [
       "\\Sigma $0"
     ],
@@ -786,8 +801,7 @@
   },
 
 
-
-    "Large Fraction": {
+"Large Fraction": {
         "prefix": ["fractionlarge", "\\fractionlarge"],
         "body": ["\\displaystyle\\frac{$1}{$2}$0"],
         "description": ["Insert large fraction notation"]
