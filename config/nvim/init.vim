@@ -927,7 +927,7 @@ let g:goyo_width=60
 
 lua <<EOF
 require'nvim-treesitter.configs'.setup {
-    " -- highlight = { enable = true },
+    highlight = { enable = true },
     incremental_selection = { enable = true },
     textobjects = { enable = true },
     indent = { enable = true },
@@ -1056,21 +1056,24 @@ set shortmess+=c
 let g:completion_enable_snippet = 'vim-vsnip'
 let g:vsnip_snippet_dir = '$HOME/dotfiles/snippets'
 
-" function! PackagerInit()
-"   call packager#add('kristijanhusak/vim-packager')
-"   call packager#add('nvim-lua/completion-nvim')
-"   call packager#add('hrsh7th/vim-vsnip-integ')
-" endfunction
-"
-" let g:completion_chain_complete_list = {
-"       \ 'default': [
-"       \    {'complete_items': ['lsp']},
-"       \    {'complete_items': ['tags']},
-"       \  ]}
-"
-" " Or combine with lsp
-" let g:completion_chain_complete_list = {
-"       \ 'default': [
-"       \    {'complete_items': ['lsp', 'tags']},
-"       \  ]}
-"
+function! PackagerInit()
+  call packager#add('kristijanhusak/vim-packager')
+  call packager#add('nvim-lua/completion-nvim')
+  call packager#add('hrsh7th/vim-vsnip-integ')
+endfunction
+
+let g:completion_chain_complete_list = {
+      \ 'default': [
+      \    {'complete_items': ['lsp']},
+      \    {'complete_items': ['tags']},
+      \    {'complete_items': ['tags']},
+
+
+      \  ]}
+
+" Or combine with lsp
+let g:completion_chain_complete_list = {
+      \ 'default': [
+      \    {'complete_items': ['lsp', 'tags']},
+      \  ]}
+
