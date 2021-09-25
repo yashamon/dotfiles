@@ -775,9 +775,9 @@ let g:vimtex_indent_enabled =0
 let g:vimtex_syntax_enabled=0 
 function! ToggleQuickFix()
     if empty(filter(getwininfo(), 'v:val.quickfix'))
-        Vimtexerrors
+        VimtexErrors
     else
-        cclose
+        cclose, Goyo x
     endif
 endfunction
 
