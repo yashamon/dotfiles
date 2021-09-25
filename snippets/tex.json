@@ -934,15 +934,15 @@
 "exists": {
     "prefix": ["ex"],
     "body": [
-      "\exists $0 "
+      "\\exists $0 "
     ],
-    "description": "for all"
+    "description": "exists"
   },
 
 "for all": {
     "prefix": ["fa"],
     "body": [
-      "\forall $1 \\in $0"
+      "\\forall $1 \\in $0"
     ],
     "description": "for all"
   },
