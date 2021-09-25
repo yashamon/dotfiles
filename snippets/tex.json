@@ -525,6 +525,14 @@
     ],
     "description": "mapsto"
   },
+"emphasize bold": {
+    "prefix": "mto",
+    "body": [
+      "\\mapsto $0"
+    ],
+    "description": "mapsto"
+  },
+
 
 "Template": {
         "prefix": ["template", "\\template"], 
