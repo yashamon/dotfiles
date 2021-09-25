@@ -495,7 +495,7 @@
 "basic bracket": {
     "prefix": "wb",
     "body": [
-      "\{$1}$0"
+      "{$1}$0"
     ],
     "description": "set brackets"
   },
