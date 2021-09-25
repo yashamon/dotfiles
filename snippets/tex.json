@@ -296,7 +296,8 @@
       "% subparagraph $2 (end)"
     ],
     "description": "Sub Paragraph"
-  },
+  }, 
+
   "Sub Section": {
     "prefix": "subsec",
     "body": [
