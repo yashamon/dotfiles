@@ -123,6 +123,7 @@
       "\\end{proposition}",
       "$0"
     ],
+   },
 
  "lemma": {
     "prefix": "lem",
@@ -1214,7 +1215,7 @@
         "body": ["\\textit{ Sol. }"],
         "description": "Insert italic 'Sol.'"
     }
-
+}
 
 
 
