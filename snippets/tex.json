@@ -493,9 +493,9 @@
     "description": "Add a empty page"
   }, 
 "basic bracket": {
-    "prefix": "br",
+    "prefix": "wb",
     "body": [
-      "\\{$1\\\\}$0"
+      "\{$1\\\\}$0"
     ],
     "description": "set brackets"
   },
