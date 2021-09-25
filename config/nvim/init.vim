@@ -1,4 +1,4 @@
-" init.vi
+" iit.vi
 " call pathogen#infect()  
 call plug#begin('~/.vim/plugged') 
 Plug 'kevinhwang91/nvim-bqf'
@@ -290,10 +290,9 @@ au Filetype tex vmap q xi<CR><CR><CR><CR><ESC>kkicom<tab><esc>p<A-j>
 au TextYankPost * lua vim.highlight.on_yank {higroup="IncSearch", timeout=150, on_visual=true}
 " au TextDeletePost * lua vim.highlight.on_delete {higroup="IncSearch", timeout=150, on_visual=true}
 
-
- au FileType tex autocmd User SneakLeave set syntax=tex
- au FileType tex autocmd User SneakEnter set syntax=text
-au FileType tex :Goyo
+au FileType tex autocmd User SneakLeave set syntax=tex
+au FileType tex autocmd User SneakEnter set syntax=text
+au FileType tex Goyo x
 "
 "
 " FUNCTIONS
