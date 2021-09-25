@@ -312,7 +312,7 @@
       "$0${2/((?<=[clr])([ |]*(c|l|r)))|./(?1: & )/g}",
       "\\\\end{${1:t}${1/(t)$|(a)$|(.*)/(?1:abular)(?2:rray)/}}"
     ],
-    "description": "Tabular"
+    "description": "Tabular"  
   },
   "\\begin{}…\\end{}": {
     "prefix": "b",
@@ -946,14 +946,14 @@
 "union cup": {
     "prefix": ["uc"],
     "body": [
-      "\\cup"
+      "\\cup $0"
     ],
     "description": "union"
   },
 "intersection cap": {
     "prefix": ["ic"],
     "body": [
-      "\\cap"
+      "\\cap $0"
     ],
     "description": "big intersection"
   },
