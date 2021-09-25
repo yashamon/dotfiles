@@ -1,9 +1,9 @@
 " init.vim
 " call pathogen#infect()  
 call plug#begin('~/.vim/plugged')
+https://github.com/justinhoward/fzf-neoyank.git
 " lua require("lsp_config")
 Plug 'hrsh7th/vim-vsnip'
-Plug 'svermeulen/vim-subversive'
 Plug 'svermeulen/vim-cutlass'
 Plug 'kristijanhusak/completion-tags'
 Plug 'kyazdani42/nvim-web-devicons' " for file icons
@@ -567,15 +567,15 @@ noremap <S-ScrollWheelRight> <nop>
 noremap <C-ScrollWheelRight> <nop>
 inoremap \ /
 inoremap / \
-" noremap p "0p 
-" vnoremap p "0p 
-" noremap d "dd
-" noremap D "dD
-" noremap c "_c
-" noremap C "_C
-" noremap s "_x
-" noremap x "0x
-" noremap X "0D
+noremap p "0p 
+vnoremap p "0p 
+noremap d "dd
+noremap D "dD
+noremap c "_c
+noremap C "_C
+noremap s "_x
+noremap x "0x
+noremap X "0D
 " Softwrap 
 nmap D "_dg$
 nmap V vg$
@@ -820,7 +820,7 @@ nmap <leader>s <Esc>:VimtexErrors<CR>:Goyo x<CR>
 nmap <leader>x <C-w><up><Esc>:VimtexErrors<CR>:Goyo x<CR>
 nmap <leader>g :Goyo x<CR>
 nmap <leader>G :Goyo<CR>
-nmap <leader>p :Denite neoyank<CR>
+nmap <leader>p :Denite neoyank -default-action=append<CR>
 
 " NB: this supports "rp that replaces the selection by the contents of @r
 " Auto updating Ctags
@@ -1081,14 +1081,14 @@ let g:completion_enable_auto_popup = 0
 imap <silent> <M-Space> <Plug>(completion_trigger)
 
 " yoink
-nmap <c-n> <plug>(YoinkPostPasteSwapBack)
-nmap <c-p> <plug>(YoinkPostPasteSwapForward)
+" nmap <c-n> <plug>(YoinkPostPasteSwapBack)
+" nmap <c-p> <plug>(YoinkPostPasteSwapForward)
 
-nmap p <plug>(YoinkPaste_p)
-nmap P <plug>(YoinkPaste_P)
+" nmap p <plug>(YoinkPaste_p)
+" nmap P <plug>(YoinkPaste_P)
 
 " Also replace the default gp with yoink paste so we can toggle paste in this case too
-nmap gp <plug>(YoinkPaste_gp)
-nmap gP <plug>(YoinkPaste_gP)
+" nmap gp <plug>(YoinkPaste_gp)
+" nmap gP <plug>(YoinkPaste_gP)
 
 
