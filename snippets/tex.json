@@ -308,8 +308,7 @@
   "Sub Sub Section": {
     "prefix": "subsubs",
     "body": [
-    "body": [
-      "\\subsection{${1:subsection name}} % (fold)",
+    "\\subsection{${1:subsection name}} % (fold)",
       "\\label{sub:$1}"
       ],
     "description": "Sub Section"
