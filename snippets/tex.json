@@ -725,9 +725,7 @@
             "$$ $0 $$"
         ],
         "description": "Insert centered Math Environment."
-    },
-            
-    
+    },       
     "Header": {
         "prefix": ["header", "\\header", "##"],
         "body": "\\section*{$1}$0",
@@ -749,7 +747,7 @@
         "description": "Insert bold text."
     },
     "Bold Italic Text": {
-        "prefix": ["bolditalic", "\\bolditalic", "***"],
+        "prefix": ["bf", "\\bolditalic", "***"],
         "body": "\\textbf{\\textit{$1}}$0",
         "description": "Insert bold italic text."
     },
