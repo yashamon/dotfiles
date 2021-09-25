@@ -916,10 +916,18 @@
     ],
     "description": "big intersection"
   },
-"in": {
-    "prefix": ["in"],
+"equal": {
+    "prefix": ["eq"],
     "body": [
-      "\\in $0"
+      "\\notin $0"
+    ],
+    "description": "in"
+  },
+
+"not in": {
+    "prefix": ["nin"],
+    "body": [
+      "\\notin $0"
     ],
     "description": "in"
   },
