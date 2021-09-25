@@ -775,6 +775,13 @@
     ],
     "description": "omega"
   },
+"field C": {
+    "prefix": ["fc", "\\eps"],
+    "body": [
+      "\\mathbb{R} $0"
+    ],
+    "description": "field R"
+  },
 
 "field R": {
     "prefix": ["fr", "\\eps"],
