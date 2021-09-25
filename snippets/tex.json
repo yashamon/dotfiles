@@ -1011,9 +1011,9 @@
 "wide tilda": {
     "prefix": ["wt"],
     "body": [
-      "\\widetilda{}"
+      "\\widetilda{$1} $0"
     ],
-    "description": "defined by"
+    "description": "tilda"
   },
 
 
