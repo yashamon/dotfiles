@@ -834,7 +834,7 @@
     "description": "field C"
   },
 "field N": {
-    "prefix": ["fN", "\\eps"],
+    "prefix": ["fN" ],
     "body": [
       "\\mathbb{R} $0"
     ],
