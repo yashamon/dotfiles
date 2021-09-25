@@ -757,7 +757,6 @@ let g:sneak#s_next = 1
 noremap <C-t> <Esc>:FZF ~/Dropbox/workspace<CR>
 noremap <A-t> <Esc>:FZF ~/Dropbox/workspace<CR>
 noremap S <Esc>:BLines<CR>   
-noremap <leader>s <Esc>:Blines<CR> 
 noremap <leader>b <Esc>:Buffers<CR> 
 noremap F <Esc>:GFiles<CR> 
 
