@@ -574,7 +574,7 @@ noremap D "dD
 noremap c "_c
 noremap C "_C
 noremap s "_x
-noremap x "0x
+noremap x "+x
 noremap X "0D
 " Softwrap 
 nmap D "_dg$
