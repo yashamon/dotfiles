@@ -579,9 +579,9 @@ noremap X "0D
 " Softwrap 
 nmap D "_dg$
 nmap V vg$
-nmap A g$a
+nmap A g$a map
 " map o gj0i<CR><ESC>gki
-nnoremap dd g^"_dg$i<backspace><ESC><CR>
+ dd g^"_dg$i<backspace><ESC><CR>
 " nmap dd 0dg$
 map 0 g^
 map 9 g$
