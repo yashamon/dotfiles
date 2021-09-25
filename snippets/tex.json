@@ -894,12 +894,20 @@
     ],
     "description": "Sigma"
   },
+"big cup": {
+    "prefix": ["bc"],
+    "body": [
+      "\\cup"
+    ],
+    "description": "union"
+  },
+
 "union cup": {
     "prefix": ["uc"],
     "body": [
-      "\\cap"
+      "\\cup"
     ],
-    "description": "intersection"
+    "description": "union"
   },
 
 "intersection cap": {
