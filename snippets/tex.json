@@ -782,21 +782,12 @@
     ],
     "description": "field K"
   },
-"Delta": {
-    "prefix": ["fk", "\\eps"],
-    "body": [
-      "\\mathbb{K} $0"
-    ],
-    "description": "field K"
-  },
-
-
 "field C": {
     "prefix": ["fc", "\\eps"],
     "body": [
       "\\mathbb{C} $0"
     ],
-    "description": "field R"
+    "description": "field C"
   },
 
 "field R": {
@@ -841,11 +832,18 @@
     "body": [
       "\\Gamma $0"
     ],
-    "description": "Delta"
+    "description": "Gamma"
+  },
+"Delta d-simplex": {
+    "prefix": ["Dd"],
+    "body": [
+      "\\Delta^{$1} $0"
+    ],
+    "description": "Delta d-simplex"
   },
 
 "Delta d-simplex": {
-    "prefix": ["D1"],
+    "prefix": ["Dd"],
     "body": [
       "\\Delta^{$1} $0"
     ],
