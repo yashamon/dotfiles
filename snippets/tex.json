@@ -317,10 +317,10 @@
 "comment": {
     "prefix": "com",
     "body": [
-"\\begin{comment}", 
-"$1",
-  "\\end{comment}",
-   "$0"
+      "\\begin{comment}", 
+      "$1",
+      "\\end{comment}",
+      "$0"
       ],
     "description": "Sub Sub Section"
   },
