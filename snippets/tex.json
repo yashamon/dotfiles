@@ -934,7 +934,7 @@
 "exists": {
     "prefix": ["ex"],
     "body": [
-      "\forall $1 \\in $0"
+      "\exists $0 "
     ],
     "description": "for all"
   },
