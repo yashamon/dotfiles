@@ -310,8 +310,7 @@
     "body": [
     "\\subsubsection{${1:subsection name}} % (fold)",
       "\\label{sub:$1}"
-      ],
-    
+      ]
     ],
     "description": "Sub Sub Section"
   },
