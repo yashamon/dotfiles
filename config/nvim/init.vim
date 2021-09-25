@@ -1,4 +1,4 @@
-" iit.vi
+" init.vi
 " call pathogen#infect()  
 call plug#begin('~/.vim/plugged') 
 Plug 'kevinhwang91/nvim-bqf'
@@ -827,8 +827,8 @@ let g:vimtex_fold_enabled =0
 nmap <leader>l :VimtexCompile<CR>
 " nmap <leader>s <Esc>:VimtexErrors<CR>
 " nmap <leader>x <C-w><up><Esc>:VimtexErrors<CR>:Goyo x<CR>
-" nmap <leader>g :Goyo x<CR>
-" nmap <leader>G :Goyo<CR>
+nmap <leader>g :Goyo x<CR>
+nmap <leader>G :Goyo<CR>
 nmap <leader>p :Denite neoyank -default-action=append<CR>
 
 " NB: this supports "rp that replaces the selection by the contents of @r
