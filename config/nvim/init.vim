@@ -586,9 +586,11 @@ nnoremap dd g^"_dg$i<backspace><ESC><CR>
 map 0 g^
 map 9 g$
 
-map p <Plug>(miniyank-startput)
-map P miniyank-autoput)
-vmap P <Plug>(miniyank-autoPut)
+" map p <Plug>(miniyank-startput)
+" map P <Plug>(miniyank-startPut)
+" nmap p Plug>(miniyank-autoPut)
+" vmap p <Plug>(miniyank-autoput)
+" vmap P <Plug>(miniyank-autoPut)
 
 map <Leader>n <Plug>(miniyank-cycle)
 vmap q xi<CR><CR><CR><CR><ESC>kkpvip<leader>c
@@ -1081,8 +1083,11 @@ imap <silent> <M-Space> <Plug>(completion_trigger)
 " yoink
 " nmap <c-n> <plug>(YoinkPostPasteSwapBack)
 " nmap <c-p> <plug>(YoinkPostPasteSwapForward)
-" nmap p <plug>(YoinkPaste_p)
-" nmap P <plug>(YoinkPaste_P)
+" nmap 
+"
+"
+"
+" (YoinkPaste_P)
 " Also replace the default gp with yoink paste so we can toggle paste in this case too
 " nmap gp <plug>(YoinkPaste_gp)
 " nmap gP (YoinkPaste_gP)
