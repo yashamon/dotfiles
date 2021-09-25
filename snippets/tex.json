@@ -778,15 +778,23 @@
 "field K": {
     "prefix": ["fk", "\\eps"],
     "body": [
-      "\\mathbb{R} $0"
+      "\\mathbb{K} $0"
     ],
-    "description": "field R"
+    "description": "field K"
   },
+"Delta": {
+    "prefix": ["fk", "\\eps"],
+    "body": [
+      "\\mathbb{K} $0"
+    ],
+    "description": "field K"
+  },
+
 
 "field C": {
     "prefix": ["fc", "\\eps"],
     "body": [
-      "\\mathbb{R} $0"
+      "\\mathbb{C} $0"
     ],
     "description": "field R"
   },
@@ -836,8 +844,8 @@
     "description": "Delta"
   },
 
-"Delta": {
-    "prefix": ["Delta"],
+"Delta d-smplex": {
+    "prefix": ["D$1"],
     "body": [
       "\\Delta $0"
     ],
