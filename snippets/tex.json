@@ -116,12 +116,12 @@
       ],
     "description": "Add a Equation"
   }, 
- "lemma": {
-    "prefix": "lem",
+ "proposition": {
+    "prefix": "prop",
     "body": [
-      "\\begin{lemma}", 
+      "\\begin{proposition}", 
       "\t\\label{lemma:$1}",
-      "\\end{lemma}",
+      "\\end{proposition}",
       "$0"
     ],
 
