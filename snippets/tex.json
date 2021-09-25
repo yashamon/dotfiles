@@ -525,10 +525,18 @@
     ],
     "description": "mapsto"
   },
+"bold": {
+    "prefix": "mbf",
+    "body": [
+      "\\textbf{\\emph{$1}} $0"
+    ],
+    "description": "mapsto"
+  },
+
 "emphasize bold": {
     "prefix": "mbf",
     "body": [
-      "\empha $0"
+      "\\textbf{\\emph{$1}} $0"
     ],
     "description": "mapsto"
   },
