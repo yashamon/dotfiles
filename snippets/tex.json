@@ -497,7 +497,7 @@
     "body": [
       "{$1} $0"
     ],
-    "description": "set brackets"
+    "description": "t brackets"
   },
 
 "set bracket": {
