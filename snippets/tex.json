@@ -1001,7 +1001,7 @@
     ],
     "description": "isomorphic"
   },
-"not equal": {
+"defined by equal": {
     "prefix": ["neq"],
     "body": [
       "\neq $0"
