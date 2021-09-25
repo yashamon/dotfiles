@@ -833,8 +833,8 @@
     ],
     "description": "field C"
   },
-"field R": {
-    "prefix": ["fr", "\\eps"],
+"field N": {
+    "prefix": ["fN", "\\eps"],
     "body": [
       "\\mathbb{R} $0"
     ],
