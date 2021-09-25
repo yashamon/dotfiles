@@ -308,10 +308,11 @@
   "Sub Sub Section": {
     "prefix": "subsubs",
     "body": [
-      "\\subsubsection{${1:subsubsection name}} % (fold)",
-      "\\label{ssub:${2:${1/(\\w+)(\\W+$)?|\\W+/${1:?${1:/asciify/downcase}:_}/g}}}",
-      "${0:$TM_SELECTED_TEXT}",
-      "% subsubsection $2 (end)"
+    "body": [
+      "\\subsection{${1:subsection name}} % (fold)",
+      "\\label{sub:$1}"
+      ],
+    "description": "Sub Section"
     ],
     "description": "Sub Sub Section"
   },
