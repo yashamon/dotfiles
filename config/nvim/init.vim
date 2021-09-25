@@ -549,7 +549,7 @@ let g:NERDTreeMapUpdir="<S-h>"
 " General mappings, remaps, maps
 "
 "
-"
+nnoremap <leader>sv :source $MYVIMRC<CR>
 nnoremap <leader>e :NvimTreeToggle<CR>
 
 
