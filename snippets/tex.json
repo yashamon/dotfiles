@@ -319,7 +319,8 @@
     "body": [
     "\\begin{comment}", 
 "$1",
-  "\\end{}" 
+  "\\end{comment}",
+   ""
       ],
     "description": "Sub Sub Section"
   },
