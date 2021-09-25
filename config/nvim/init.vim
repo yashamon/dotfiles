@@ -587,11 +587,11 @@ map 0 g^
 map 9 g$
 
 map p <Plug>(miniyank-startput)
-map P <Plug
+map P 
 
 
 
->(miniyank-autoput)
+miniyank-autoput)
 vmap P <Plug>(miniyank-autoPut)
 
 map <Leader>n <Plug>(miniyank-cycle)
