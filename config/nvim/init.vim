@@ -940,6 +940,7 @@ require'nvim-treesitter.configs'.setup {
     indent = { enable = true },
 }
 EOF
+
 set foldmethod=expr foldexpr=getline(v:lnum)=~'^\s*'.&commentstring[0]
 
 
