@@ -532,6 +532,14 @@
     ],
     "description": "mapsto"
   },
+"composition": {
+    "prefix": "c",
+    "body": [
+     "\\circ $0"
+    ],
+    "description": "circ"
+  },
+
 "hook right arrow": {
     "prefix": "hook",
     "body": [
@@ -951,7 +959,7 @@
     "body": [
       "\\bullet $0"
     ],
-    "description": "equal"
+    "description": "bullet"
   },
 
 "equal": {
