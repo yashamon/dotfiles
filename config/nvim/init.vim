@@ -584,8 +584,6 @@ nmap A g$a
 map 0 g^
 map 9 g$
 
- man  dude    man
-;sdlfj a;  sldfkj
 
 " map p <Plug>(miniyank-startput)
 " map P <Plug>(miniyank-startPut)
