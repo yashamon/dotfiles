@@ -580,7 +580,7 @@ noremap  p "+p
 noremap s "_x
 noremap x "+x
 noremap y "+y 
-
+vnoremap y "+y
 " noremap X "0D
 " Softwrap 
 nmap D dg$

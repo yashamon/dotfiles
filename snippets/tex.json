@@ -313,7 +313,8 @@
       "\\label{sub:$1}"
       ],
     "description": "Sub Section"
-  },
+  }, 
+
   "Sub Sub Section": {
     "prefix": "subsubs",
     "body": [
@@ -838,7 +839,7 @@
     "body": [
       "\\mathbb{Z} $0"
     ],
-    "description": "field naturals"
+    "description": "field integers"
   },
 
 "field N": {
