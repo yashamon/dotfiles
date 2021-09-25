@@ -4,9 +4,32 @@
 "three dots": {
     "prefix": ".",
     "body": [
-        "/\ldots $0"
+        "\\ldots $0"
        ],
-    "description": "Align(ed)"
+    "description": "dots"
+    }, 
+"super set": {
+    "prefix": "sset",
+    "body": [
+        "\\supset $0"
+       ],
+    "description": "subset"
+    }, 
+"ni": {
+    "prefix": "ni",
+    "body": [
+        "\\ni $0"
+       ],
+    "description": "subset"
+    }, 
+
+
+"subset": {
+    "prefix": "sub",
+    "body": [
+        "\\subset $0"
+       ],
+    "description": "subset"
     }, 
 
 
@@ -256,7 +279,7 @@
     "description": "Sub Paragraph"
   },
   "Sub Section": {
-    "prefix": "sub",
+    "prefix": "subsection",
     "body": [
       "\\subsection{${1:subsection name}} % (fold)",
       "\\label{sub:${2:${1/(\\w+)(\\W+$)?|\\W+/${1:?${1:/asciify/downcase}:_}/g}}}",
@@ -520,6 +543,14 @@
     ],
     "description": "underscore"
   },
+"to": {
+    "prefix": "to",
+    "body": [
+      "\\to $0"
+    ],
+    "description": "labeled arrow"
+  },
+
 "xto": {
     "prefix": "xto",
     "body": [
@@ -727,14 +758,7 @@
             "\\end{itemize}$0"
         ]
     },
-    "Up": {
-        "prefix": ["to", "\\to"],
-        "body": [
-            "^ {$1}$0"
-        ],
-        "description": "Superscript notation, as well as the power notation."
-    },
-
+    
 "Problem": {
         "prefix": ["problem", "\\problem"],
         "body": [
@@ -914,7 +938,7 @@
 "big cup": {
     "prefix": ["buc"],
     "body": [
-      "\\bigcup"
+      "\\bigcup $0"
     ],
     "description": "big union"
   },
