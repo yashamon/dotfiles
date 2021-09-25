@@ -552,7 +552,7 @@ nnoremap <leader>e :NvimTreeToggle<CR>
 
 
 vmap <M-.> t.<CR>h 
-nmap <M-.> t.<CR>h 
+nmap <M-.> t.<CR>h  
 map <up> <nop>
 imap <up> <nop>
 imap <down> <nop>
