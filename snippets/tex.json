@@ -842,7 +842,7 @@
   },
 
 "field R": {
-    "prefix": ["fr", "\\eps"],
+    "prefix": ["fr"],
     "body": [
       "\\mathbb{R} $0"
     ],
