@@ -552,7 +552,7 @@ nnoremap <leader>e :NvimTreeToggle<CR>
 
 
 vmap <M-.> t.<CR>h 
-nmap <M-.>. t.<CR>h 
+nmap <M-.> t.<CR>h 
 map <up> <nop>
 imap <up> <nop>
 imap <down> <nop>
@@ -594,7 +594,7 @@ map 9 g$
 " vmap P <Plug>(miniyank-autoPut)
 
 map <Leader>n <Plug>(miniyank-cycle)
-vmap q xi<CR><CR><CR><CR><ESC>kkpvip<leader>c
+vmap q xi<CR><CR><CR><CR><ESC>kk\begin{comment}p\end{comment}
 nnoremap <Left> :bnext<CR>
 nnoremap <Right> :bprevious<CR>
 " tnoremap <Esc> <C-\> 
