@@ -282,7 +282,7 @@ au FileType Makefile set noexpandtab
 au FileType tex set spell  
 au FileType tex silent execute "!echo " . v:servername . " > ~/servername.txt"   
 au FileType tex hi SpellBad cterm=undercurl
-au Filetype tex vmap q xi<CR><CR><CR><CR><ESC>kki/begin{comment}/end{comment}<esc>T<cr>p
+au Filetype tex vmap q xi<CR><CR><CR><CR><ESC>kki/begin{comment}/end{comment}<esc>T}<cr>p
 
 " au FileType tex set background=dark
 au TextYankPost * lua vim.highlight.on_yank {higroup="IncSearch", timeout=150, on_visual=true}
@@ -1090,7 +1090,8 @@ nnoremap <leader>y :FZFNeoyank<cr>
 nnoremap <leader>Y :FZFNeoyank " P<cr>
 vnoremap <leader>y :FZFNeoyankSelection<cr>
 
-nnoremap <leader>p :FZFNeoyank +<cr>
+nnoremap <leader>p :FZFNeoyank +<cr> 
+nnoremap <leader>a :FZFNeoyank +<cr>
 nnoremap <leader>P :FZFNeoyank " P+<cr>
 vnoremap <leader>p :FZFNeoyankSelection +<cr>
 
