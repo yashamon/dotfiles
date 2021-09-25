@@ -1002,12 +1002,20 @@
     "description": "isomorphic"
   },
 "defined by": {
-    "prefix": ["deq"],
+    "prefix": ["dby"],
     "body": [
       ":= $0"
     ],
     "description": "defined by"
   },
+"wide tilda": {
+    "prefix": ["wt"],
+    "body": [
+      "\\widetilda{}"
+    ],
+    "description": "defined by"
+  },
+
 
 "not equal": {
     "prefix": ["neq"],
