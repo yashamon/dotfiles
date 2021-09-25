@@ -469,7 +469,7 @@
     "body": [
       "($1) $0"
     ],
-    "description": "open brackets"
+    "dscription": "open brackets"
   },
 
 "square bracket": {
