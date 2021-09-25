@@ -845,7 +845,7 @@
   },
 
 "Delta d-simplex": {
-    "prefix": ["D$1"],
+    "prefix": ["D1"],
     "body": [
       "\\Delta^{$1} $0"
     ],
