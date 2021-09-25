@@ -699,7 +699,7 @@ map <leader>c <Leader>__
         " map <c-s> <Plug>(extract-cycle)
         " " mappings for visual
         " vmap p <Plug>(extract-put)
-        " vmap P <Plug>(extract-Put)
+        " vpmap P <Plug>(extract-Put)
         " " mappings for insert
         " imap <m-v> <Plug>(extract-completeReg)
         " imap <c-v> <Plug>(extract-completeList)
