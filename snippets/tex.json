@@ -535,9 +535,9 @@
 "hook right arrow": {
     "prefix": "hook",
     "body": [
-     "\\langle "$1, $2 \\rangle $0"
+     "\\hookrightarrow $0"
     ],
-    "description": "duality"
+    "description": "hook"
   },
 
 "duality": {
@@ -760,6 +760,21 @@
         "body": ["\\frac{$1}{$2}$0"],
         "description": ["Insert inline fraction notation, (only in the cases when the environment is inline math environment)."]
     },
+"infinity": {
+    "prefix": ["i", "\\o"],
+    "body": [
+      "\\infinity $0"
+    ],
+    "description": "epsilon"
+  },
+
+"omega": {
+    "prefix": ["o", "\\o"],
+    "body": [
+      "\\omega $0"
+    ],
+    "description": "epsilon"
+  },
 
 "epsilon": {
     "prefix": ["eps", "\\eps"],
