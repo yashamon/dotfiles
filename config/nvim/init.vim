@@ -581,10 +581,11 @@ noremap X "0D
 nmap D "_dg$
 nmap V vg$
 nmap A g$a 
-" map   dd g^"_dg$i<backspace><ESC><CR>
-" nmap dd 0dg$
 map 0 g^
 map 9 g$
+
+
+
 
 " map p <Plug>(miniyank-startput)
 " map P <Plug>(miniyank-startPut)
