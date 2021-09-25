@@ -317,7 +317,7 @@
 "comment": {
     "prefix": "com",
     "body": [
-    "\\comment{${1:subsection name}} % (fold)",
+    "\\comment{$1} % (fold)",
       "\\label{sub:$1}"
       ],
     "description": "Sub Sub Section"
