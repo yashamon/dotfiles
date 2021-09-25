@@ -4,6 +4,7 @@ call plug#begin('~/.vim/plugged')
 " lua require("lsp_config")
 Plug 'hrsh7th/vim-vsnip'
 
+imap <silent> <c-p> <Plug>(completion_trigger)
 Plug 'kristijanhusak/completion-tags'
 Plug 'kyazdani42/nvim-web-devicons' " for file icons
 Plug 'kyazdani42/nvim-tree.lua'
