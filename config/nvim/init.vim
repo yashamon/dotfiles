@@ -22,7 +22,7 @@ Plug 'nvim-lua/diagnostic-nvim'
 " Group dependencies, vim-snippets depends on ultisnips 
  Plug 'tpope/vim-surround'
 " Plug 'neovim/node-host'
-Plug 'projekt0n/github-nvim-theme',  { 'branch': 'main' }
+Plug 'projekt0n/gi'
 Plug 'rktjmp/lush.nvim', { 'branch': 'main' }
 " Plug 'brennier/quicktex'
 " Plug 'ellisonleao/gruvbox.nvim',  {'branch': 'main' }

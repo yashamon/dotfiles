@@ -909,10 +909,10 @@
     ],
     "description": "union"
   },
-"big intersection cap": {
-    "prefix": ["bic"],
+"intersection cap": {
+    "prefix": ["ic"],
     "body": [
-      "\\bigcap"
+      "\\cap"
     ],
     "description": "big intersection"
   },
