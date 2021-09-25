@@ -491,7 +491,8 @@
       "$0"
     ],
     "description": "Add a empty page"
-  },
+  }, 
+
 "set bracket": {
     "prefix": "br",
     "body": [
