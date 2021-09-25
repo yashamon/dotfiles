@@ -497,7 +497,7 @@
     "body": [
       "{$1} $0"
     ],
-    "description": "t brackets"
+    "description": "brackets"
   },
 
 "set bracket": {
@@ -824,7 +824,7 @@
         "description": ["Insert inline fraction notation, (only in the cases when the environment is inline math environment)."]
     },
 "infinity": {
-    "prefix": ["i", "\\o"],
+    "prefix": ["infi", "\\o"],
     "body": [
       "\\infinity $0"
     ],
