@@ -297,6 +297,14 @@
     ],
     "description": "Sub Paragraph"
   }, 
+"Section": {
+    "prefix": "subsec",
+    "body": [
+      "\\subsection{${1:subsection name}} % (fold)",
+      "\\label{sub:$1}"
+      ],
+    "description": "Sub Section"
+  },
 
   "Sub Section": {
     "prefix": "subsec",
