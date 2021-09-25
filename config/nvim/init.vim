@@ -775,7 +775,18 @@ map <A-e> :FZF ~<CR>
 let g:latex_view_general_viewer = 'zathura'
 let g:vimtex_view_method = "zathura"
 let g:vimtex_indent_enabled =0 
-let g:vimtex_syntax_enabled=0
+let g:vimtex_syntax_enabled=0 
+function! ToggleQuickFix()
+    if empty(filter(getwininfo(), 'v:val.quickfix'))
+        copen
+    else
+        cclose
+    endif
+endfunction
+
+nnoremap <silent> <leader>s :call ToggleQuickFix()<cr>
+
+
 " let g:vimtex_quickfix_method='pplatex' 
 " let g:vimtex_latexmk_callback_hooks = ['UpdateSkim']
 "    function! UpdateSkim(status)
