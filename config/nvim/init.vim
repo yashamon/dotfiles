@@ -575,13 +575,13 @@ noremap c "_c
 noremap C "_C
 noremap s "_x
 noremap x "+x
+
 noremap X "0D
 " Softwrap 
 nmap D "_dg$
 nmap V vg$
-nmap A g$a map
-" map o gj0i<CR><ESC>gki
- dd g^"_dg$i<backspace><ESC><CR>
+nmap A g$a 
+" map   dd g^"_dg$i<backspace><ESC><CR>
 " nmap dd 0dg$
 map 0 g^
 map 9 g$
