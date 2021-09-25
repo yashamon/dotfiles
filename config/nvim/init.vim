@@ -1090,7 +1090,7 @@ imap <silent> <M-Space> <Plug>(completion_trigger)
 " Also replace the default gp with yoink paste so we can toggle paste in this case too
 " nmap gp <plug>(YoinkPaste_gp)
 " nmap gP <plug>(YoinkPaste_gP)
-unmap y
+
 nnoremap <leader>y :FZFNeoyank<cr>
 nnoremap <leader>p :FZFNeoyank " P<cr>
 vnoremap <leader>y :FZFNeoyankSelection<cr>
