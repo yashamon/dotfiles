@@ -314,6 +314,14 @@
       ],
     "description": "Sub Section"
   }, 
+"comment": {
+    "prefix": "subsubs",
+    "body": [
+    "\\subsubsection{${1:subsection name}} % (fold)",
+      "\\label{sub:$1}"
+      ],
+    "description": "Sub Sub Section"
+  },
 
   "Sub Sub Section": {
     "prefix": "subsubs",
