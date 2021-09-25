@@ -293,8 +293,7 @@ au TextYankPost * lua vim.highlight.on_yank {higroup="IncSearch", timeout=150, o
 
  au FileType tex autocmd User SneakLeave set syntax=tex
  au FileType tex autocmd User SneakEnter set syntax=text
-
-" au FileType tex :Goyo
+au FileType tex :Goyo
 "
 "
 " FUNCTIONS
@@ -827,10 +826,10 @@ let g:vimtex_quickfix_mode = 0
 let g:vimtex_fold_enabled =0
 " nmap <leader>l :silent execute "AsyncRun latexmk -pvc -pdf -file-line-error -synctex=1 -interaction=nonstopmode -recorder %"<CR>
 nmap <leader>l :VimtexCompile<CR>
-nmap <leader>s <Esc>:VimtexErrors<CR>
+" nmap <leader>s <Esc>:VimtexErrors<CR>
 " nmap <leader>x <C-w><up><Esc>:VimtexErrors<CR>:Goyo x<CR>
-nmap <leader>g :Goyo x<CR>
-nmap <leader>G :Goyo<CR>
+" nmap <leader>g :Goyo x<CR>
+" nmap <leader>G :Goyo<CR>
 nmap <leader>p :Denite neoyank -default-action=append<CR>
 
 " NB: this supports "rp that replaces the selection by the contents of @r
