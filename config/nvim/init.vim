@@ -764,7 +764,10 @@ let g:sneak#s_next = 1
 
 noremap <C-t> <Esc>:FZF ~/Dropbox/workspace<CR>
 noremap <A-t> <Esc>:FZF ~/Dropbox/workspace<CR>
-noremap S <Esc>:BLines<CR>
+noremap S <Esc>:BLines<CR>  
+noremap B <Esc>:BBuffers<CR> 
+noremap F <Esc>:BBuffers<CR> 
+
 map <A-e> :FZF ~<CR>
 
 " vimtex settings
@@ -930,7 +933,7 @@ let g:goyo_width=60
 
 lua <<EOF
 require'nvim-treesitter.configs'.setup {
-    --highlight = { enable = true },
+    highlight = { enable = true },
     incremental_selection = { enable = true },
     textobjects = { enable = true },
     indent = { enable = true },
