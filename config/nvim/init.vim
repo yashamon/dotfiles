@@ -662,10 +662,10 @@ nnoremap . `
 nmap 1 <C-o>
 nmap 2 <C-i>
 nmap <S-CR> k$
-noremap <Leader>1 :buffer 1<CR>
+
 nnoremap <silent> <Leader>b :Buffer<CR>
 noremap <Leader>2 :buffer 2<CR>
- noremap <Leader>3 :buffer 3<CR>
+noremap <Leader>3 :buffer 3<CR>
 noremap <Leader>4 :buffer 4<CR>
 noremap <Leader>5 :buffer 5<CR>
 noremap <Leader>7 :buffer 7<CR>
