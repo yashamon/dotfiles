@@ -836,7 +836,7 @@
 "field integers": {
     "prefix": ["fZ"],
     "body": [
-      "\\mathbb{N} $0"
+      "\\mathbb{Z} $0"
     ],
     "description": "field naturals"
   },
