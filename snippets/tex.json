@@ -894,12 +894,20 @@
     ],
     "description": "Sigma"
   },
+"unions cap": {
+    "prefix": ["ic"],
+    "body": [
+      "\\cap"
+    ],
+    "description": "intersection"
+  },
+
 "intersection cap": {
     "prefix": ["ic"],
     "body": [
-      "\\sigma $0"
+      "\\cap"
     ],
-    "description": "sigma"
+    "description": "intersection"
   },
 
 "sigma": {
