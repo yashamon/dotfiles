@@ -1084,7 +1084,7 @@ imap <silent> <M-Space> <Plug>(completion_trigger)
 " nmap P <plug>(YoinkPaste_P)
 " Also replace the default gp with yoink paste so we can toggle paste in this case too
 " nmap gp <plug>(YoinkPaste_gp) asdlfkj as;ldjf a YoinkPaste_gp   YoinkPaste_gp
-" nmap gP (YoinkPaste_gP)  
+" nmap gP (YoinkPaste_gP)  asdlfkj   asdlfkj 
 
 nnoremap <leader>y :FZFNeoyank<cr>
 nnoremap <leader>Y :FZFNeoyank " P<cr>
