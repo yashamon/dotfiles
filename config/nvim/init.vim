@@ -664,7 +664,7 @@ nmap 2 <C-i>
 nmap <S-CR> k$
 noremap <Leader>1 :buffer 1<CR>
 nnoremap <silent> <Leader>b :Buffer<CR>
- noremap <Leader>2 :buffer 2<CR>
+noremap <Leader>2 :buffer 2<CR>
  noremap <Leader>3 :buffer 3<CR>
 noremap <Leader>4 :buffer 4<CR>
 noremap <Leader>5 :buffer 5<CR>
@@ -940,8 +940,10 @@ require'nvim-treesitter.configs'.setup {
     indent = { enable = true },
 }
 EOF
-
-set foldmethod=expr foldexpr=getline(v:lnum)=~'^\s*'.&commentstring[0]
+set foldlevel=20
+set foldmethod=expr
+set foldexpr=nvim_treesitter#foldexpr()
+" set foldmethod=expr foldexpr=getline(v:lnum)=~'^\s*'.&commentstring[0]
 
 
 " Quicktex
@@ -983,7 +985,6 @@ smap <expr> <M-k> vsnip#jumpable(-1)  ? '<Plug>(vsnip-jump-prev)'      : '<S-Tab
 
 " Select or cut text to use as $TM_SELECTED_TEXT in the next snippet.
 " See https://github.com/hrsh7th/vim-vsnip/pull/50
-set foldmethod=expr 
 "
 lua << EOF
 require'lspconfig'.texlab.setup{}
