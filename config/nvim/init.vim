@@ -292,7 +292,6 @@ au TextYankPost * lua vim.highlight.on_yank {higroup="IncSearch", timeout=150, o
 
 au FileType tex autocmd User SneakLeave set syntax=tex
 au FileType tex autocmd User SneakEnter set syntax=text
-au FileType tex :Goyo<cr>
 "
 "
 " FUNCTIONS
@@ -776,13 +775,13 @@ let g:vimtex_indent_enabled =0
 let g:vimtex_syntax_enabled=0 
 function! ToggleQuickFix()
     if empty(filter(getwininfo(), 'v:val.quickfix'))
-        copen
+        Vimtexerrors
     else
         cclose
     endif
 endfunction
 
-nnoremap <silent> <leader>s :call ToggleQuickFix()<cr>
+au Filetype tex nnoremap <silent> <leader>s :call ToggleQuickFix()<cr>
 
 
 " let g:vimtex_quickfix_method='pplatex' 
