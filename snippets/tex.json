@@ -1,5 +1,4 @@
 
-
 {
 "three dots": {
     "prefix": ".",
@@ -120,7 +119,7 @@
     "prefix": "prop",
     "body": [
       "\\begin{proposition}", 
-      "\t\\label{lemma:$1}",
+      "\t\\label{prop:$1}",
       "\\end{proposition}",
       "$0"
     ],
