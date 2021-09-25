@@ -318,8 +318,8 @@
     "prefix": "com",
     "body": [
     "\\begin{comment}", 
-"$1"
-  "" 
+"$1",
+  "\\end{}" 
       ],
     "description": "Sub Sub Section"
   },
