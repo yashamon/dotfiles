@@ -883,10 +883,10 @@
     "body": [
       "\\Sigma $0"
     ],
-    "description": "psilon"
+    "description": "Sigma"
   },
 "sigma": {
-    "prefix": ["S"],
+    "prefix": ["s"],
     "body": [
       "\\sigma $0"
     ],
