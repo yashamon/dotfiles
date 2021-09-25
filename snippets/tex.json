@@ -312,7 +312,7 @@
       "$0${2/((?<=[clr])([ |]*(c|l|r)))|./(?1: & )/g}",
       "\\\\end{${1:t}${1/(t)$|(a)$|(.*)/(?1:abular)(?2:rray)/}}"
     ],
-    "description": "Tabular"
+    "description": "Tabular"  
   },
   "\\begin{}…\\end{}": {
     "prefix": "b",
