@@ -550,7 +550,7 @@ let g:NERDTreeMapUpdir="<S-h>"
 nnoremap <leader>e :NvimTreeToggle<CR>
 
 " vmap . :execute "normal! \<Plug>Sneak_s" .<CR> 
-vmap . t.h<CR>
+vmap . t.<CR>h
 map <up> <nop>
 imap <up> <nop>
 imap <down> <nop>

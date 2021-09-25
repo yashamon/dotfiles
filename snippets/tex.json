@@ -1,6 +1,16 @@
 
 
 {
+"three dots": {
+    "prefix": ".",
+    "body": [
+        "\ldots $0",
+        "\\end{align}"
+],
+    "description": "Align(ed)"
+    }, 
+
+
   "Align(ed)": {
     "prefix": "ali",
     "body": [
