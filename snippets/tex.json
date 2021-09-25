@@ -897,7 +897,7 @@
 "big cup": {
     "prefix": ["buc"],
     "body": [
-      "\\cup"
+      "\\bigcup"
     ],
     "description": "big union"
   },
@@ -909,13 +909,20 @@
     ],
     "description": "union"
   },
-
-"intersection cap": {
-    "prefix": ["ic"],
+"big intersection cap": {
+    "prefix": ["bic"],
     "body": [
-      "\\cap"
+      "\\bigcap"
     ],
-    "description": "intersection"
+    "description": "big intersection"
+  },
+
+"big intersection cap": {
+    "prefix": ["bic"],
+    "body": [
+      "\\bigcap"
+    ],
+    "description": "big intersection"
   },
 
 "sigma": {
