@@ -526,9 +526,9 @@
     "description": "mapsto"
   },
 "emphasize bold": {
-    "prefix": "mto",
+    "prefix": "mbf",
     "body": [
-      "\\mapsto $0"
+      "\empha $0"
     ],
     "description": "mapsto"
   },
