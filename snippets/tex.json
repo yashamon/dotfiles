@@ -775,6 +775,7 @@
     ],
     "description": "omega"
   },
+
 "field R": {
     "prefix": ["fr", "\\eps"],
     "body": [
