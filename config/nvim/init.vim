@@ -663,15 +663,7 @@ nmap 1 <C-o>
 nmap 2 <C-i>
 nmap <S-CR> k$
 
-nnoremap <silent> <Leader>b :Buffer<CR>
-noremap <Leader>2 :buffer 2<CR>
-noremap <Leader>3 :buffer 3<CR>
-noremap <Leader>4 :buffer 4<CR>
-noremap <Leader>5 :buffer 5<CR>
-noremap <Leader>7 :buffer 7<CR>
-noremap <Leader>6 :buffer 6<CR>
-noremap <Leader>8 :buffer 8<CR>
-noremap <Leader>9 :buffer 9<CR>
+noremap <silent> <Leader>b :Buffer<CR>
 noremap <D-d> <C-d>
 map ;s <Esc>:w<CR>
 noremap <A-d> <C-d>
