@@ -3,7 +3,7 @@
 call plug#begin('~/.vim/plugged')
 " lua require("lsp_config")
 Plug 'hrsh7th/vim-vsnip'
-Plug '
+Plug 'svermeulen/vim-yoink.git
 Plug 'svermeulen/vim-cutlass'
 Plug 'kristijanhusak/completion-tags'
 Plug 'kyazdani42/nvim-web-devicons' " for file icons
