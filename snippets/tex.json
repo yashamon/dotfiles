@@ -532,6 +532,15 @@
     ],
     "description": "mapsto"
   },
+"duality": {
+    "prefix": "dual,d",
+    "body": [
+      ""
+ \langle $1, $2 \rangle $0
+    ],
+    "description": "mapsto"
+  },
+
 "and": {
     "prefix": "and,a",
     "body": [
