@@ -775,9 +775,16 @@
     ],
     "description": "omega"
   },
+"field R": {
+    "prefix": ["fr", "\\eps"],
+    "body": [
+      "\\mathbb $0"
+    ],
+    "description": "epsilon"
+  },
 
 "epsilon": {
-    "prefix": ["eps", "\\eps"],
+    "prefix": ["e", "\\eps"],
     "body": [
       "\\epsilon $0"
     ],
