@@ -1095,4 +1095,5 @@ vnoremap <leader>y :FZFNeoyankSelection<cr>
 nnoremap <leader>p :FZFNeoyank +<cr>
 nnoremap <leader>P :FZFNeoyank " P+<cr>
 vnoremap <leader>p :FZFNeoyankSelection +<cr>
+silent execute "!echo " . v:servername . " > servername.txt"
 

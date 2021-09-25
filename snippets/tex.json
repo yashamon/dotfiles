@@ -122,8 +122,9 @@
       "\t\\label{prop:$1}",
       "\\end{proposition}",
       "$0"
-    ],
-   },
+      ],
+    "description": "proposition"
+  }, 
 
  "lemma": {
     "prefix": "lem",
