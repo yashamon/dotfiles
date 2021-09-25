@@ -586,11 +586,10 @@ nnoremap dd g^"_dg$i<backspace><ESC><CR>
 map 0 g^
 map 9 g$
 
-" map p <Plug>(miniyank-startput)
-" map P <Plug>(miniyank-startPut)
-" nmap p Plug>(miniyank-autoPut)
-" vmap p <Plug>(miniyank-autoput)
-" vmap P <Plug>(miniyank-autoPut)
+map p <Plug>(miniyank-startput)
+map P <Plug>(miniyank-autoput)
+vmap P <Plug>(miniyank-autoPut)
+
 map <Leader>n <Plug>(miniyank-cycle)
 vmap q xi<CR><CR><CR><CR><ESC>kkpvip<leader>c
 nnoremap <Left> :bnext<CR>
