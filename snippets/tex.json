@@ -800,7 +800,7 @@
 "gamma": {
     "prefix": ["g"],
     "body": [
-      "\\Gamma $0"
+      "\\gamma $0"
     ],
     "description": "gamma"
   },
@@ -841,7 +841,7 @@
 
 
 "delta": {
-    "prefix": ["(del)ta", "\\delta"],
+    "prefix": ["del)ta", "\\delta"],
     "body": [
       "\\delta $0"
     ],
