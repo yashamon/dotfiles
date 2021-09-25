@@ -372,8 +372,8 @@ bindkey '^[[B' history-substring-search-down
 bindkey -M vicmd 'k' history-substring-search-up
 bindkey -M vicmd 'j' history-substring-search-down
 
-# bindkey -M vicmd 'l' autosuggest-accept
-# bindkey -M vicmd 'h' autosuggest-execute
+bindkey -M vicmd 'a' autosuggest-accept
+bindkey -M vicmd 'E' autosuggest-execute
 
 zinit ice from"gh-r" as"program" bpick"*appimage*" ver"nightly" mv"nvim* -> nvim" pick"nvim"
 zinit light neovim/neovim

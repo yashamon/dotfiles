@@ -1096,6 +1096,6 @@ nnoremap <leader>Y :FZFNeoyank " P<cr>
 vnoremap <leader>y :FZFNeoyankSelection<cr>
 
 nnoremap <leader>p :FZFNeoyank +<cr>
-nnoremap <leader>P :FZFNeoyank " P<cr>
-vnoremap <leader>p :FZFNeoyankSelection<cr>
+nnoremap <leader>P :FZFNeoyank " P+<cr>
+vnoremap <leader>p :FZFNeoyankSelection +<cr>
 
