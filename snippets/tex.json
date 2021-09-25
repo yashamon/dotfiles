@@ -317,7 +317,8 @@
 "comment": {
     "prefix": "com",
     "body": [
-    "\\bigin{comment}",
+    "\\begin{comment}", 
+
       "\\label{sub:$1}"
       ],
     "description": "Sub Sub Section"
