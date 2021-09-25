@@ -308,7 +308,7 @@
     "description": "Sub Section"
   },
   "Sub Sub Section": {
-    "prefix": "subs",
+    "prefix": "subsubs",
     "body": [
       "\\subsubsection{${1:subsubsection name}} % (fold)",
       "\\label{ssub:${2:${1/(\\w+)(\\W+$)?|\\W+/${1:?${1:/asciify/downcase}:_}/g}}}",
