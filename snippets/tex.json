@@ -827,14 +827,14 @@
     "description": "field K"
   },
 "field C": {
-    "prefix": ["fc", "\\eps"],
+    "prefix": ["fc"],
     "body": [
       "\\mathbb{C} $0"
     ],
     "description": "field C"
   },
 "field N": {
-    "prefix": ["fN" ],
+    "prefix": ["fN"],
     "body": [
       "\\mathbb{R} $0"
     ],
