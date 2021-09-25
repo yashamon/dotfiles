@@ -844,12 +844,12 @@
     "description": "Delta"
   },
 
-"Delta d-smplex": {
+"Delta d-simplex": {
     "prefix": ["D$1"],
     "body": [
-      "\\Delta $0"
+      "\\Delta^{$1} $0"
     ],
-    "description": "Delta"
+    "description": "Delta d-simplex"
   },
 "caligraphic A": {
     "prefix": ["A"],
@@ -883,7 +883,14 @@
     "body": [
       "\\Sigma $0"
     ],
-    "description": "epsilon"
+    "description": "psilon"
+  },
+"sigma": {
+    "prefix": ["S"],
+    "body": [
+      "\\sigma $0"
+    ],
+    "description": "sigma"
   },
 
 
