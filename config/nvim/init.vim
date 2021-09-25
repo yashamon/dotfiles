@@ -579,7 +579,8 @@ noremap  p "+p
 " noremap C "_C
 noremap s "_x
 noremap x "+x
-noremap y "+y
+noremap y "+y 
+
 " noremap X "0D
 " Softwrap 
 nmap D dg$
@@ -1084,7 +1085,7 @@ imap <silent> <M-Space> <Plug>(completion_trigger)
 " nmap P <plug>(YoinkPaste_P)
 " Also replace the default gp with yoink paste so we can toggle paste in this case too
 " nmap gp <plug>(YoinkPaste_gp) asdlfkj as;ldjf a YoinkPaste_gp   YoinkPaste_gp
-" nmap gP (YoinkPaste_gP)  asdlfkj   asdlfkj 
+" nmap gP (YoinkPaste_gP)  asdlfkj   asdlfkj yoink
 
 nnoremap <leader>y :FZFNeoyank<cr>
 nnoremap <leader>Y :FZFNeoyank " P<cr>
