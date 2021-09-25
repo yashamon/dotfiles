@@ -1006,7 +1006,7 @@
     "body": [
       ":= $0"
     ],
-    "description": "not equal"
+    "description": "defined by"
   },
 
 "not equal": {
