@@ -798,11 +798,11 @@
     "description": "nabla"
   },
 "gamma": {
-    "prefix": ["(gam)ma"],
+    "prefix": ["g"],
     "body": [
       "\\Gamma $0"
     ],
-    "description": "Delta"
+    "description": "gamma"
   },
 
 "Gamma": {
