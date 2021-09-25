@@ -22,7 +22,7 @@ Plug 'nvim-lua/diagnostic-nvim'
 " Group dependencies, vim-snippets depends on ultisnips 
  Plug 'tpope/vim-surround'
 " Plug 'neovim/node-host'
-Plug 'projekt0n/gi'
+Plug 'projekt0n/github-nvim-theme',  { 'branch': 'main' }
 Plug 'rktjmp/lush.nvim', { 'branch': 'main' }
 " Plug 'brennier/quicktex'
 " Plug 'ellisonleao/gruvbox.nvim',  {'branch': 'main' }
@@ -1083,13 +1083,12 @@ imap <silent> <M-Space> <Plug>(completion_trigger)
 " yoink
 " nmap <c-n> <plug>(YoinkPostPasteSwapBack)
 " nmap <c-p> <plug>(YoinkPostPasteSwapForward)
-
 " nmap p <plug>(YoinkPaste_p)
 " nmap P <plug>(YoinkPaste_P)
-
 " Also replace the default gp with yoink paste so we can toggle paste in this case too
 " nmap gp <plug>(YoinkPaste_gp)
 " nmap gP (YoinkPaste_gP)
+
 nnoremap <leader>y :FZFNeoyank<cr>
 nnoremap <leader>Y :FZFNeoyank " P<cr>
 vnoremap <leader>y :FZFNeoyankSelection<cr>

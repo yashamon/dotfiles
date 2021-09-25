@@ -916,6 +916,21 @@
     ],
     "description": "big intersection"
   },
+"in": {
+    "prefix": ["in"],
+    "body": [
+      "\\in $0"
+    ],
+    "description": "in"
+  },
+
+"in": {
+    "prefix": ["in"],
+    "body": [
+      "\\in $0"
+    ],
+    "description": "in"
+  },
 
 "big intersection cap": {
     "prefix": ["bic"],
