@@ -282,8 +282,8 @@ au FileType Makefile set noexpandtab
 au FileType tex set spell  
 au FileType tex silent execute "!echo " . v:servername . " > ~/servername.txt"   
 au FileType tex hi SpellBad cterm=undercurl
-au Filetype tex vmap q xi<CR><CR><CR><CR><ESC>kki\begin{comment}<esc>pi\end{comment}<cr>
-
+au Filetype tex vmap q xi<CR><CR><CR><CR><ESC>kki/begin{comment}<esc>pi/end{comment}<cr>
+         \\\
 " au FileType tex set background=dark
 au TextYankPost * lua vim.highlight.on_yank {higroup="IncSearch", timeout=150, on_visual=true}
 " au TextDeletePost * lua vim.highlight.on_delete {higroup="IncSearch", timeout=150, on_visual=true}
