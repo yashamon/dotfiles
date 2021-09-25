@@ -533,9 +533,9 @@
     "description": "mapsto"
   },
 "and": {
-    "prefix": "mbf",
+    "prefix": "and,a",
     "body": [
-      "\\textbf{\\emph{$1}} $0"
+      "& $0"
     ],
     "description": "mapsto"
   },
