@@ -551,8 +551,8 @@ let g:NERDTreeMapUpdir="<S-h>"
 nnoremap <leader>e :NvimTreeToggle<CR>
 
 
-vmap <A-.>. t.<CR>h 
-nmap <A-.> t.<CR>h 
+   vmap <M-.>. t.<CR>h 
+nmap <M-.> t.<CR>h 
 map <up> <nop>
 imap <up> <nop>
 imap <down> <nop>
