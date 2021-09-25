@@ -1,7 +1,7 @@
 " init.vim
 " call pathogen#infect()  
 call plug#begin('~/.vim/plugged')
-https://github.com/justinhoward/fzf-neoyank.git
+Plug 'justinhoward/fzf-neoyank'
 " lua require("lsp_config")
 Plug 'hrsh7th/vim-vsnip'
 Plug 'svermeulen/vim-cutlass'
@@ -1090,5 +1090,8 @@ imap <silent> <M-Space> <Plug>(completion_trigger)
 " Also replace the default gp with yoink paste so we can toggle paste in this case too
 " nmap gp <plug>(YoinkPaste_gp)
 " nmap gP <plug>(YoinkPaste_gP)
-
+unmap y
+nnoremap <leader>y :FZFNeoyank<cr>
+nnoremap <leader>p :FZFNeoyank " P<cr>
+vnoremap <leader>y :FZFNeoyankSelection<cr>
 
