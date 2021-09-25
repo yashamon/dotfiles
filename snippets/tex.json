@@ -932,7 +932,7 @@
     "description": "not equal"
   },
 "exists": {
-    "prefix": ["fa"],
+    "prefix": ["ex"],
     "body": [
       "\forall $1 \\in $0"
     ],
