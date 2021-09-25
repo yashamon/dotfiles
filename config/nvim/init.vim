@@ -766,7 +766,7 @@ noremap <C-t> <Esc>:FZF ~/Dropbox/workspace<CR>
 noremap <A-t> <Esc>:FZF ~/Dropbox/workspace<CR>
 noremap S <Esc>:BLines<CR>  
 noremap B <Esc>:BBuffers<CR> 
-noremap F <Esc>:GFiles<CR> 
+noremap B <Esc>:BBuffers<CR> 
 
 map <A-e> :FZF ~<CR>
 
