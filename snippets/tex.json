@@ -301,7 +301,7 @@
     "prefix": "subsec",
     "body": [
       "\\subsection{${1:subsection name}} % (fold)",
-      "\\label{sub:$1}}",
+      "\\label{sub:$1}",
       "${0:$TM_SELECTED_TEXT}",
       "% subsection $2 (end)"
     ],
