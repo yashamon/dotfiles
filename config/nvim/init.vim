@@ -282,7 +282,7 @@ au FileType Makefile set noexpandtab
 au FileType tex set spell  
 au FileType tex silent execute "!echo " . v:servername . " > ~/servername.txt"   
 au FileType tex hi SpellBad cterm=undercurl
-au Filetype tex vmap q xi<CR><CR><CR><CR><ESC>kkicom<tab><>p<A-j>
+au Filetype tex vmap q xi<CR><CR><CR><CR><ESC>kkicom<tab><esc>p<A-j>
 
 " au FileType tex set background=dark
 au TextYankPost * lua vim.highlight.on_yank {higroup="IncSearch", timeout=150, on_visual=true}
@@ -772,7 +772,10 @@ map <A-e> :FZF ~<CR>
 " let g:vimtex_view_general_options = '-r @line @pdf @tex'
 let g:latex_view_general_viewer = 'zathura'
 let g:vimtex_view_method = "zathura"
-let g:vimtex_indent_enabled =0
+let g:vimtex_indent_enabled =0 
+let g:vimtex_syntax_enabled=0
+let 
+g:vimtex_quickfix_method*
 " let g:vimtex_latexmk_callback_hooks = ['UpdateSkim']
 "    function! UpdateSkim(status)
 "      if !a:status | return | endif
