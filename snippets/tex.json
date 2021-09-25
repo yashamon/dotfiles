@@ -921,7 +921,7 @@
     "body": [
       "\\simeq $0"
     ],
-    "description": "not equal"
+    "description": "isomorphic"
   },
 
 "not equal": {
@@ -931,9 +931,24 @@
     ],
     "description": "not equal"
   },
+"exists": {
+    "prefix": ["fa"],
+    "body": [
+      "\forall $1 \\in $0"
+    ],
+    "description": "for all"
+  },
+
+"for all": {
+    "prefix": ["fa"],
+    "body": [
+      "\forall $1 \\in $0"
+    ],
+    "description": "for all"
+  },
 
 "equal": {
-    "prefix": ["eq"],
+    "prefix": ["eql"],
     "body": [
       "= $0"
     ],
