@@ -1001,10 +1001,10 @@
     ],
     "description": "isomorphic"
   },
-"defined by equal": {
-    "prefix": ["neq"],
+"defined by": {
+    "prefix": ["deq"],
     "body": [
-      "\neq $0"
+      ":= $0"
     ],
     "description": "not equal"
   },
