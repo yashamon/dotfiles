@@ -1092,3 +1092,4 @@ nmap P <plug>(YoinkPaste_P)
 nmap gp <plug>(YoinkPaste_gp)
 nmap gP <plug>(YoinkPaste_gP)
 let g:yoinkIncludeDeleteOperations=1
+let g:yoinkSavePersistently=1
