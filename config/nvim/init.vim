@@ -699,7 +699,7 @@ map <leader>c <Leader>__
         " map <c-s> <Plug>(extract-cycle)
         " " mappings for visual
         " vmap p <Plug>(extract-put)
-        " vpmap P <Plug>(extract-Put)
+        " vmap P <Plug>(extract-Put)
         " " mappings for insert
         " imap <m-v> <Plug>(extract-completeReg)
         " imap <c-v> <Plug>(extract-completeList)
@@ -765,7 +765,7 @@ let g:sneak#s_next = 1
 noremap <C-t> <Esc>:FZF ~/Dropbox/workspace<CR>
 noremap <A-t> <Esc>:FZF ~/Dropbox/workspace<CR>
 noremap S <Esc>:BLines<CR>  
-noremap B <Esc>:Buffers<CR> 
+noremap B <Esc>:BBuffers<CR> 
 noremap F <Esc>:GFiles<CR> 
 
 map <A-e> :FZF ~<CR>
