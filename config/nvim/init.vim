@@ -594,7 +594,6 @@ map 9 g$
 " vmap P <Plug>(miniyank-autoPut)
 
 map <Leader>n <Plug>(miniyank-cycle)
-au Tex vmap q xi<CR><CR><CR><CR><ESC>kk\begin{comment}p\end{comment}
 nnoremap <Left> :bnext<CR>
 nnoremap <Right> :bprevious<CR>
 " tnoremap <Esc> <C-\> 
