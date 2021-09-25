@@ -465,7 +465,7 @@
     "description": "set brackets"
   },
 "open bracket": {
-    "prefix": "br",
+    "prefix": "ob",
     "body": [
       "($1) $0"
     ],
@@ -473,7 +473,7 @@
   },
 
 "square bracket": {
-    "prefix": "br",
+    "prefix": "sb",
     "body": [
       "[$1] $0"
     ],
@@ -938,7 +938,7 @@
 "big cup": {
     "prefix": ["buc"],
     "body": [
-      "\\bigcup $0"
+      "\\bigcup_{$1} $0"
     ],
     "description": "big union"
   },
@@ -955,7 +955,7 @@
     "body": [
       "\\cap $0"
     ],
-    "description": "big intersection"
+    "description": "intersection"
   },
 "isomorphic": {
     "prefix": ["seq"],
@@ -1018,11 +1018,18 @@
     ],
     "description": "in"
   },
+"definition": {
+    "prefix": ["df"],
+    "body": [
+      ":= $0"
+    ],
+    "description": "definition"
+  },
 
 "big intersection cap": {
     "prefix": ["bic"],
     "body": [
-      "\\bigcap"
+      "\\bigcap _{$1} $0"
     ],
     "description": "big intersection"
   },
