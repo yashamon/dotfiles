@@ -916,12 +916,13 @@
     ],
     "description": "big intersection"
   },
+
 "equal": {
     "prefix": ["eq"],
     "body": [
-      "\\notin $0"
+      "= $0"
     ],
-    "description": "in"
+    "description": "equal"
   },
 
 "not in": {
