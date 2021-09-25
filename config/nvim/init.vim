@@ -568,15 +568,15 @@ noremap <S-ScrollWheelRight> <nop>
 noremap <C-ScrollWheelRight> <nop>
 inoremap \ /
 inoremap / \
-noremap p "0p 
- vnoremap p "0p 
-noremap d "dd
-noremap D "dD
-noremap c "_c
-noremap C "_C
-noremap s "_x
-noremap x "0x
-noremap X "0D
+" noremap p "0p 
+" vnoremap p "0p 
+" noremap d "dd
+" noremap D "dD
+" noremap c "_c
+" noremap C "_C
+" noremap s "_x
+" noremap x "0x
+" noremap X "0D
 " Softwrap 
 nmap D "_dg$
 nmap V vg$
@@ -1099,3 +1099,5 @@ nnoremap X D
 
 let g:yoinkIncludeDeleteOperations=1
 let g:yoinkSavePersistently=1
+let g:yoinkChangeTickThreshold = 1
+
