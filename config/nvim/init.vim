@@ -567,15 +567,15 @@ noremap <S-ScrollWheelRight> <nop>
 noremap <C-ScrollWheelRight> <nop>
 inoremap \ /
 inoremap / \
-noremap p "0p 
-vnoremap p "0p 
+ noremap p "0p 
+ vnoremap p "0p 
 noremap d "dd
 noremap D "dD
 noremap c "_c
 noremap C "_C
 noremap s "_x
 noremap x "+x
-noremap y "+
+noremap y "+y
 noremap X "0D
 " Softwrap 
 nmap D "_dg$
@@ -584,8 +584,8 @@ nmap A g$a
 map 0 g^
 map 9 g$
 
-
-
+man man
+;sdlfj a;  sldfkj
 
 " map p <Plug>(miniyank-startput)
 " map P <Plug>(miniyank-startPut)
@@ -1084,7 +1084,7 @@ imap <silent> <M-Space> <Plug>(completion_trigger)
 " yoink
 " nmap <c-n> <plug>(YoinkPostPasteSwapBack)
 " nmap <c-p> <plug>(YoinkPostPasteSwapForward)
-" nmap p <plug>(YoinkPaste_p)
+" nmap p <plug>)
 " nmap P <plug>(YoinkPaste_P)
 " Also replace the default gp with yoink paste so we can toggle paste in this case too
 " nmap gp <plug>(YoinkPaste_gp)
