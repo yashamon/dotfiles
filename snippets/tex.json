@@ -532,7 +532,7 @@
     ],
     "description": "mapsto"
   },
-"emphasize bold": {
+"and": {
     "prefix": "mbf",
     "body": [
       "\\textbf{\\emph{$1}} $0"
