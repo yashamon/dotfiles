@@ -30,7 +30,7 @@ Plug 'rktjmp/lush.nvim', { 'branch': 'main' }
 " Plug 'ellisonleao/gruvbox.nvim',  {'branch': 'main' }
 " Plug 'cyansprite/Extract'
 Plug 'gioele/vim-autoswap'
-Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
+Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'} 
 " Plug 't9md/vim-smalls'
 Plug 'skywind3000/asyncrun.vim'
 Plug 'kevinhwang91/nvim-bqf', { 'branch': 'main' }
@@ -938,12 +938,40 @@ let g:goyo_width=60
 
 lua <<EOF
 require'nvim-treesitter.configs'.setup {
-    highlight = { enable = true },
+    --highlight = { enable = true },
     incremental_selection = { enable = true },
     textobjects = { enable = true },
     indent = { enable = true },
 }
 EOF
+
+lua <<EOF
+require'nvim-treesitter.configs'.setup {
+  incremental_selection = {
+    enable = true,
+    keymaps = {
+      init_selection = "gnn",
+      node_incremental = "grn",
+      scope_incremental = "grc",
+      node_decremental = "grm",
+    },
+  },
+}
+EOF
+lua <<EOF
+require'nvim-treesitter.configs'.setup {
+  incremental_selection = {
+    enable = true,
+    keymaps = {
+      init_selection = "gnn",
+      node_incremental = "grn",
+      scope_incremental = "grc",
+      node_decremental = "grm",
+    },
+  },
+}
+EOF
+
 set foldlevel=20
 set foldmethod=expr
 set foldexpr=nvim_treesitter#foldexpr()
@@ -1042,7 +1070,7 @@ end
 
 -- Use a loop to conveniently call 'setup' on multiple servers and
 -- map buffer local keybindings when the language server attaches
-local servers = { 'pyright', 'rust_analyzer', 'tsserver', 'texlab', 'jsonls', ''}
+local servers = { 'pyright', 'rust_analyzer', 'tsserver', 'texlab', 'jsonls'}
 for _, lsp in ipairs(servers) do
   nvim_lsp[lsp].setup {
     on_attach = on_attach,
