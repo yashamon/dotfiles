@@ -856,6 +856,21 @@
     ],
     "description": "cal A"
   },
+"caligraphic O": {
+    "prefix": ["cO"],
+    "body": [
+      "\\mathcal{O} $0"
+    ],
+    "description": "cal O"
+  },
+
+"caligraphic T": {
+    "prefix": ["cT"],
+    "body": [
+      "\\mathcal{T} $0"
+    ],
+    "description": "cal T"
+  },
 
 "caligraphic D": {
     "prefix": ["cD"],
@@ -879,6 +894,14 @@
     ],
     "description": "Sigma"
   },
+"intersection cap": {
+    "prefix": ["ic"],
+    "body": [
+      "\\sigma $0"
+    ],
+    "description": "sigma"
+  },
+
 "sigma": {
     "prefix": ["s"],
     "body": [
