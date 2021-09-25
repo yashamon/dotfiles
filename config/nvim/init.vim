@@ -1,6 +1,7 @@
-" init.vim
+" init.vi
 " call pathogen#infect()  
-call plug#begin('~/.vim/plugged')
+call plug#begin('~/.vim/plugged') 
+Plug 'kevinhwang91/nvim-bqf'
 Plug 'justinhoward/fzf-neoyank' 
 Plug 'stefanhepp/pplatex'
 " lua require("lsp_config")
@@ -775,7 +776,7 @@ let g:latex_view_general_viewer = 'zathura'
 let g:vimtex_view_method = "zathura"
 let g:vimtex_indent_enabled =0 
 let g:vimtex_syntax_enabled=0
-let g:vimtex_quickfix_method='pplatex' 
+" let g:vimtex_quickfix_method='pplatex' 
 " let g:vimtex_latexmk_callback_hooks = ['UpdateSkim']
 "    function! UpdateSkim(status)
 "      if !a:status | return | endif
@@ -815,8 +816,8 @@ let g:vimtex_quickfix_mode = 0
 let g:vimtex_fold_enabled =0
 " nmap <leader>l :silent execute "AsyncRun latexmk -pvc -pdf -file-line-error -synctex=1 -interaction=nonstopmode -recorder %"<CR>
 nmap <leader>l :VimtexCompile<CR>
-nmap <leader>s <Esc>:VimtexErrors<CR>:Goyo x<CR>
-nmap <leader>x <C-w><up><Esc>:VimtexErrors<CR>:Goyo x<CR>
+nmap <leader>s <Esc>:VimtexErrors<CR>
+" nmap <leader>x <C-w><up><Esc>:VimtexErrors<CR>:Goyo x<CR>
 nmap <leader>g :Goyo x<CR>
 nmap <leader>G :Goyo<CR>
 nmap <leader>p :Denite neoyank -default-action=append<CR>
