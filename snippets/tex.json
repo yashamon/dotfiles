@@ -765,7 +765,7 @@
     "body": [
       "\\infinity $0"
     ],
-    "description": "epsilon"
+    "description": "infinity"
   },
 
 "omega": {
@@ -773,7 +773,7 @@
     "body": [
       "\\omega $0"
     ],
-    "description": "epsilon"
+    "description": "omega"
   },
 
 "epsilon": {
@@ -841,11 +841,11 @@
 
 
 "delta": {
-    "prefix": ["del)ta", "\\delta"],
+    "prefix": ["d", "\\d"],
     "body": [
       "\\delta $0"
     ],
-    "description": "epsilon"
+    "description": "delta"
   },
 "Sigma": {
     "prefix": ["S"],
