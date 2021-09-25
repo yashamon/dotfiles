@@ -946,6 +946,13 @@
     ],
     "description": "for all"
   },
+"bullet": {
+    "prefix": ["bul"],
+    "body": [
+      "\\bullet $0"
+    ],
+    "description": "equal"
+  },
 
 "equal": {
     "prefix": ["eql"],

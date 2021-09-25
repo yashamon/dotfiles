@@ -583,7 +583,7 @@ nmap V vg$
 nmap A g$a 
 map 0 g^
 map 9 g$
-yank
+
 " map p <Plug>(miniyank-startput)
 " map P <Plug>(miniyank-startPut)
 " nmap p Plug>(miniyank-autoPut)
