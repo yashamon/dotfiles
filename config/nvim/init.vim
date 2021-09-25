@@ -1,7 +1,8 @@
 " init.vim
 " call pathogen#infect()  
 call plug#begin('~/.vim/plugged')
-Plug 'justinhoward/fzf-neoyank'
+Plug 'justinhoward/fzf-neoyank' 
+
 " lua require("lsp_config")
 Plug 'hrsh7th/vim-vsnip'
 Plug 'svermeulen/vim-cutlass'
@@ -774,8 +775,7 @@ let g:latex_view_general_viewer = 'zathura'
 let g:vimtex_view_method = "zathura"
 let g:vimtex_indent_enabled =0 
 let g:vimtex_syntax_enabled=0
-let 
-g:vimtex_quickfix_method*
+let g:vimtex_quickfix_method='pplatex' 
 " let g:vimtex_latexmk_callback_hooks = ['UpdateSkim']
 "    function! UpdateSkim(status)
 "      if !a:status | return | endif
