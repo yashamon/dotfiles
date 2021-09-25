@@ -3,7 +3,6 @@
 call plug#begin('~/.vim/plugged')
 " lua require("lsp_config")
 Plug 'hrsh7th/vim-vsnip'
-Plug 'svermeulen/vim-yoink'
 Plug 'svermeulen/vim-subversive'
 Plug 'svermeulen/vim-cutlass'
 Plug 'kristijanhusak/completion-tags'
@@ -1091,13 +1090,5 @@ nmap P <plug>(YoinkPaste_P)
 " Also replace the default gp with yoink paste so we can toggle paste in this case too
 nmap gp <plug>(YoinkPaste_gp)
 nmap gP <plug>(YoinkPaste_gP)
-nnoremap x d
-xnoremap x d
 
-nnoremap xx dd
-nnoremap X D
-
-let g:yoinkIncludeDeleteOperations=1
-let g:yoinkSavePersistently=1
-let g:yoinkChangeTickThreshold = 1
 
