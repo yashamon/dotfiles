@@ -834,10 +834,10 @@
     ],
     "description": "Gamma"
   },
-"Delta d-simplex": {
-    "prefix": ["Dd"],
+"Delta": {
+    "prefix": ["D"],
     "body": [
-      "\\Delta^{$1} $0"
+      "\\Delta $0"
     ],
     "description": "Delta d-simplex"
   },
@@ -850,24 +850,20 @@
     "description": "Delta d-simplex"
   },
 "caligraphic A": {
-    "prefix": ["A"],
+    "prefix": ["cA"],
     "body": [
       "\\mathcal{A} $0"
     ],
     "description": "cal A"
   },
+
 "caligraphic D": {
-    "prefix": ["D"],
+    "prefix": ["cD"],
     "body": [
       "\\mathcal{D} $0"
     ],
     "description": "cal D"
   },
-
-
-
-
-
 
 "delta": {
     "prefix": ["d", "\\d"],
