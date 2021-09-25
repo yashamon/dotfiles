@@ -740,7 +740,7 @@
         "description": "Insert bold text."
     },
     "Bold Italic Text": {
-        "prefix": ["bf", "\\bolditalic", "***"],
+        "prefix": ["bi", "\\bolditalic", "***"],
         "body": "\\textbf{\\textit{$1}}$0",
         "description": "Insert bold italic text."
     },
