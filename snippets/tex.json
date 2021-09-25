@@ -283,7 +283,7 @@
     "description": "Tabular"
   },
   "\\begin{}…\\end{}": {
-    "prefix": "begin",
+    "prefix": "b",
     "body": [
       "\\\\begin{${1:env}}",
       "\t${2/(enumerate|itemize|list)|(description)|.*/(?1:\\item )(?2:\\item)/}$0",

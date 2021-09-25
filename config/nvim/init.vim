@@ -1079,7 +1079,7 @@ let g:completion_chain_complete_list = {
       \  ]}
 let g:completion_enable_auto_popup = 0
 imap <silent> <M-Space> <Plug>(completion_trigger)
-\ 'default': [
+
 
 " yoink
 " nmap <c-n> <plug>(YoinkPostPasteSwapBack)
