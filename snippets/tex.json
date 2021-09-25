@@ -116,6 +116,17 @@
       ],
     "description": "Add a Equation"
   },
+ "lemma": {
+    "prefix": "lem",
+    "body": [
+      "\\begin{lemma}", 
+      "\t\\label{lemma:$1}",
+      "\\end{lemma}",
+      "$0"
+    ],
+"description": "Add a theorem"
+  },
+
 
     "Theorem": {
     "prefix": "thm",
