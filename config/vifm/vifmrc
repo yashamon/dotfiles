@@ -2,7 +2,7 @@
 " You can edit this file by hand.
 
 " ------------------------------------------------------------------------------
-
+set runexec
 command Q :execute '!echo %d > ~/.config/vifm/lastdir' | quit
 command sacd sacd_extract -2 -s -c -i %f 
 command diff nvim -d %f %F
@@ -13,8 +13,9 @@ noremap t :tabnew<cr>
 noremap <Aleft> gt
 noremap <right> Gt
 
-map f /
-map <A-q> <ESC>:execute '!echo %d > ~/.config/vifm/lastdir'| quit <CR>
+map f / 
+map sh <esc>:sh<cr>
+map <m-q> <ESC>:execute '!echo %d > ~/.config/vifm/lastdir'| quit <CR>
 map F ?
 map JW :cd ~/workspace<CR>
 map JD :cd ~/dotfiles<CR>
