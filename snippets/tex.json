@@ -298,7 +298,7 @@
     "description": "Sub Paragraph"
   },
   "Sub Section": {
-    "prefix": "subsection",
+    "prefix": "subsec",
     "body": [
       "\\subsection{${1:subsection name}} % (fold)",
       "\\label{sub:${2:${1/(\\w+)(\\W+$)?|\\W+/${1:?${1:/asciify/downcase}:_}/g}}}",
