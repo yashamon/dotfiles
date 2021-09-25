@@ -280,7 +280,7 @@ endif
 autocmd BufReadPost * if @% !~# '\.git[\/\\]COMMIT_EDITMSG$' && line("'\"") > 1 && line("'\"") <= line("$") | exe "normal! g`\"" | endif 
 au FileType Makefile set noexpandtab 
 au FileType tex set spell  
-au tex <esc>:silent execute "!echo " . v:servername . " > ~/servername.txt"
+au FileType tex silent execute "!echo " . v:servername . " > ~/servername. txt " 
 au FileType tex hi SpellBad cterm=undercurl
 
 " au FileType tex set background=dark
