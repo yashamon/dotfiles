@@ -141,7 +141,8 @@
       "$0"
     ],
 "description": "add a lemma"
-  },
+  }, 
+
 "Theorem": {
     "prefix": "thm",
     "body": [
@@ -303,15 +304,6 @@
     ],
     "description": "Sub Paragraph"
   },  
-"corollary": {
-    "prefix": "corl",
-    "body": [
-      "\\subsection{${1:subsection name}} % (fold)",
-      "\\label{sub:$1}"
-      ],
-    "description": "Sub Section"
-  },
-
 "Section": {
     "prefix": "sec",
     "body": [
