@@ -89,10 +89,10 @@ Plug 'vim-pandoc/vim-pandoc-syntax'
  " Plugin outside ~/.vim/plugged with post-update hook
 Plug 'junegunn/fzf', { 'do': './install --all' }
 Plug 'junegunn/fzf.vim' 
-Plug 'leafOfTree/vim-imagine'
+" Plug 'leafOfTree/vim-imagine'
 "
 " " Plug 'Valloric/YouCompleteMe', {'do': './install.py' }
-"
+"  
 "  Plug 'ervandew/supertab' 
 
 Plug 'vim-scripts/tComment'
@@ -1161,7 +1161,7 @@ endfunction
 " Or combine with lsp
 let g:completion_chain_complete_list = {
       \ 'default': [
-      \    {'complete_items': ['lsp', 'tags', 'snippet']},
+      \    {'complete_items': ['snippet', 'lsp', 'tags', ]},
       \  ]}
 let g:completion_enable_auto_popup = 0
 imap <silent> <M-Space> <Plug>(completion_trigger)
