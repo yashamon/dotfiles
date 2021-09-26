@@ -1,8 +1,8 @@
 {
 "G-bundle": {
-    "prefix": ".",
+    "prefix": "Gbun",
     "body": [
-        "\\ldots $0"
+        "$$$0"
        ],
     "description": "dots"
     },
