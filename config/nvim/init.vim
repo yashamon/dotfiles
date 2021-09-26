@@ -825,20 +825,19 @@ let g:vimtex_fold_enabled = 1
 let g:vimtex_fold_manual = 1 
 
 
-let g:vimtex_fold_types = {}
-    let g:vimtex_fold_types_defaults = {
+let g:vimtex_fold_types_defaults = {
           \ 'preamble' : {},
           \ 'items' : {},
           \ 'comments' : {'enabled' : 1},
           \ 'envs' : {
-          \   'blacklist' : [],   !!! This is a list of strings
-          \   'whitelist' : [],   !!! This is a list of strings
+          \   'blacklist' : [],   
+          \   'whitelist' : [],   
           \ },
           \ 'env_options' : {},
           \ 'markers' : {},
           \ 'sections' : {
           \   'parse_levels' : 0,
-          \   'sections' : [      !!! This is a list of (very magic) regexes
+          \   'sections' : [      
           \     '%(add)?part',
           \     '%(chapter|addchap)',
           \     '%(section|addsec)',
