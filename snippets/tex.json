@@ -565,7 +565,7 @@
     "description": "Reference"
   },
 "Label": {
-    "prefix": "(lab)el",
+    "prefix": "lab)el",
     "body": [
       "\\label{$2}$0"
     ],
@@ -1019,7 +1019,7 @@
     "description": "isomorphic"
   },
 "defined by": {
-    "prefix": ["dby"],
+    "prefix": ["db"],
     "body": [
       ":= $0"
     ],
