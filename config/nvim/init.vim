@@ -875,7 +875,7 @@ let g:vimtex_fold_types_defaults = {
           \   ],
           \ },
           \ 'cmd_addplot' : {
-          \   'cmds' : [          !!! This is a list of regexes
+          \   'cmds' : [          
           \     'addplot[+3]?',
           \   ],
           \ },
