@@ -539,9 +539,9 @@ hi link EasyMotionShade Comment
 " " --- Command-T
 " let g:CommandTMaxHeight = 15
 " --- SuperTab
-let g:SuperTabDefaultCompletionType = "context"
- let g:SuperTabCompletionContexts = ['s:ContextText', 's:ContextDiscover']
- let g:SuperTabContextDiscoverDiscovery= ["&completefunc:<c-x><c-u>", "&omnifunc:<c-x><c-o>"]
+" let g:SuperTabDefaultCompletionType = "context"
+"  let g:SuperTabCompletionContexts = ['s:ContextText', 's:ContextDiscover']
+"  let g:SuperTabContextDiscoverDiscovery= ["&completefunc:<c-x><c-u>", "&omnifunc:<c-x><c-o>"]
   
 "--NerdTree
 let g:NERDTreeMapUpdir="<S-h>"
@@ -1090,7 +1090,7 @@ local on_attach = function(client, bufnr)
   local function buf_set_option(...) vim.api.nvim_buf_set_option(bufnr, ...) end
 
   -- Enable completion triggered by <c-x><c-o>
-  buf_set_option('omnifunc', 'v:lua.vim.lsp.omnifunc')
+buf_set_option('omnifunc', 'v:lua.vim.lsp.omnifunc')
 
   -- Mappings.
   local opts = { noremap=true, silent=true }
@@ -1140,8 +1140,8 @@ set completeopt=menuone,noinsert,noselect
 
 " Avoid showing message extra message when using completion
 set shortmess+=c
-" imap <tab> <Plug>(completion_smart_tab)
-" imap <s-tab> <Plug>(completion_smart_s_tab)
+ imap <m-Spacej> <Plug>(completion_smart_tab)
+ imap <s-tab> <Plug>(completion_smart_s_tab)
 let g:completion_enable_snippet = 'vim-vsnip'
 let g:vsnip_snippet_dir = '$HOME/dotfiles/snippets'
 
@@ -1161,7 +1161,7 @@ endfunction
 " Or combine with lsp
 let g:completion_chain_complete_list = {
       \ 'default': [
-      \    {'complete_items': ['snippet', 'lsp', 'tags', ]},
+      \    {'complete_items': ['snippet', 'tags', 'lsp']},
       \  ]}
 let g:completion_enable_auto_popup = 0
 imap <silent> <M-Space> <Plug>(completion_trigger)
