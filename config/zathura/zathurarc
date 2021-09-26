@@ -9,5 +9,5 @@
 set synctex true 
 
 # set synctex-editor-command "nvr --servername /tmp/nvimVt07zN/0 -c %{line} %{input}"
-set synctex-editor-command "nvr +%{line} %{input}" 
+set synctex-editor-command "~/dotfiles/nvr +%{line} %{input}" 
 
