@@ -302,7 +302,16 @@
       "% subparagraph $2 (end)"
     ],
     "description": "Sub Paragraph"
-  }, 
+  },  
+"corollary": {
+    "prefix": "sec",
+    "body": [
+      "\\subsection{${1:subsection name}} % (fold)",
+      "\\label{sub:$1}"
+      ],
+    "description": "Sub Section"
+  },
+
 "Section": {
     "prefix": "sec",
     "body": [
