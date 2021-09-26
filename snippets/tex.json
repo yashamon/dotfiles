@@ -894,7 +894,7 @@
   },
 
 "epsilon": {
-    "prefix": ["e", "\\eps"],
+    "prefix": ["e", "\\ep],
     "body": [
       "\\epsilon $0"
     ],
