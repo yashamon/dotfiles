@@ -558,7 +558,7 @@
   },
  
 "equation reference": {
-    "prefix": "ref",
+    "prefix": "eqref",
     "body": [
       "\\eqref{eq:$2}$0"
     ],
