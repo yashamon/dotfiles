@@ -88,11 +88,13 @@ Plug 'vim-pandoc/vim-pandoc-syntax'
 
  " Plugin outside ~/.vim/plugged with post-update hook
 Plug 'junegunn/fzf', { 'do': './install --all' }
-Plug 'junegunn/fzf.vim'
+Plug 'junegunn/fzf.vim' 
+
+  Plugin 'leafOfTree/vim-imagine'
 "
 " " Plug 'Valloric/YouCompleteMe', {'do': './install.py' }
 "
- Plug 'ervandew/supertab' 
+"  Plug 'ervandew/supertab' 
 
 Plug 'vim-scripts/tComment'
 let g:tcommentMapLeaderOp1=';'
@@ -538,9 +540,9 @@ hi link EasyMotionShade Comment
 " " --- Command-T
 " let g:CommandTMaxHeight = 15
 " --- SuperTab
- let g:SuperTabDefaultCompletionType = "context"
-" let g:SuperTabCompletionContexts = ['s:ContextText', 's:ContextDiscover']
-" let g:SuperTabContextDiscoverDiscovery= ["&completefunc:<c-x><c-u>", "&omnifunc:<c-x><c-o>"]
+let g:SuperTabDefaultCompletionType = "context"
+ let g:SuperTabCompletionContexts = ['s:ContextText', 's:ContextDiscover']
+ let g:SuperTabContextDiscoverDiscovery= ["&completefunc:<c-x><c-u>", "&omnifunc:<c-x><c-o>"]
   
 "--NerdTree
 let g:NERDTreeMapUpdir="<S-h>"
