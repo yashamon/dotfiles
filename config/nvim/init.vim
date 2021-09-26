@@ -92,7 +92,7 @@ Plug 'junegunn/fzf.vim'
 "
 " " Plug 'Valloric/YouCompleteMe', {'do': './install.py' }
 "
-"  Plug 'ervandew/supertab'
+"  Plug 'ervandew/supertab' 
 
 Plug 'vim-scripts/tComment'
 let g:tcommentMapLeaderOp1=';'
@@ -1177,14 +1177,13 @@ vnoremap <leader>p :FZFNeoyankSelection +<cr>
 
 " Use tab for trigger completion with characters ahead and navigate.
 
-inoremap <silent><expr> <TAB> pumvisible() ? "\<C-n>" : \ <SID>check_back_space() ? "\<TAB>" 
-
-inoremap <expr><S-TAB> pumvisible() ? "<C-p>" : "<C-h>"
+" inoremap <silent><expr> <TAB> pumvisible() ? "\<C-n>" 
+" inoremap <expr><S-TAB> pumvisible() ? "<C-p>" : "<C-h>"
 
 '
 " Determite if in completion, snippet or text mode and set tab accordingly
 
-function! Tab_Or_Complete()
+function! Tab_Or_Complete() 
 
 if col('.')>1 && strpart( getline('.'), col('.')-2, 3 ) =~ '^\w'
 
