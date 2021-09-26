@@ -565,7 +565,7 @@
     "description": "Reference"
   },
 "Label": {
-    "prefix": "lab)el",
+    "prefix": "label",
     "body": [
       "\\label{$2}$0"
     ],
