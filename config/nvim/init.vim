@@ -822,7 +822,68 @@ let g:vimtex_compiler_progname = 'nvr'
 nmap  <leader>v <Esc>:w<CR>:VimtexView<CR>
 let g:vimtex_quickfix_mode = 0
 let g:vimtex_fold_enabled = 1 
-let g:vimtex_fold_manual = 1
+let g:vimtex_fold_manual = 1 
+
+
+let g:vimtex_fold_types = {}
+    let g:vimtex_fold_types_defaults = {
+          \ 'preamble' : {},
+          \ 'items' : {},
+          \ 'comments' : {'enabled' : 1},
+          \ 'envs' : {
+          \   'blacklist' : [],   !!! This is a list of strings
+          \   'whitelist' : [],   !!! This is a list of strings
+          \ },
+          \ 'env_options' : {},
+          \ 'markers' : {},
+          \ 'sections' : {
+          \   'parse_levels' : 0,
+          \   'sections' : [      !!! This is a list of (very magic) regexes
+          \     '%(add)?part',
+          \     '%(chapter|addchap)',
+          \     '%(section|addsec)',
+          \     'subsection',
+          \     'subsubsection',
+          \   ],
+          \   'parts' : [         !!! This is a list of regexes
+          \     'appendix',
+          \     'frontmatter',
+          \     'mainmatter',
+          \     'backmatter',
+          \   ],
+          \ },
+          \ 'cmd_single' : {
+          \   'cmds' : [          !!! This is a list of regexes
+          \     'hypersetup',
+          \     'tikzset',
+          \     'pgfplotstableread',
+          \     'lstset',
+          \   ],
+          \ },
+          \ 'cmd_single_opt' : {
+          \   'cmds' : [          !!! This is a list of regexes
+          \     'usepackage',
+          \     'includepdf',
+          \   ],
+          \ },
+          \ 'cmd_multi' : {
+          \   'cmds' : [          !!! This is a list of regexes
+          \     '%(re)?new%(command|environment)',
+          \     'providecommand',
+          \     'presetkeys',
+          \     'Declare%(Multi|Auto)?CiteCommand',
+          \     'Declare%(Index)?%(Field|List|Name)%(Format|Alias)',
+          \   ],
+          \ },
+          \ 'cmd_addplot' : {
+          \   'cmds' : [          !!! This is a list of regexes
+          \     'addplot[+3]?',
+          \   ],
+          \ },
+          \}
+
+
+
 " let  g:vimtex_fold_types_defaults = 'preamble, sections, comments'
 " nmap <leader>l :silent execute "AsyncRun latexmk -pvc -pdf -file-line-error -synctex=1 -interaction=nonstopmode -recorder %"<CR>
 nmap <leader>l :VimtexCompile<CR>
