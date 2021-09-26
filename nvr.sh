@@ -1,2 +1,2 @@
  #! /bin/sh
-nvr --servername $(<~/servername.txt) --remote-silent
+nvr --servername "$(< ~/servername.txt) --remote-silent
