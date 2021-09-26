@@ -1140,8 +1140,8 @@ set completeopt=menuone,noinsert,noselect
 
 " Avoid showing message extra message when using completion
 set shortmess+=c
- imap <m-Spacej> <Plug>(completion_smart_tab)
- imap <s-tab> <Plug>(completion_smart_s_tab)
+ imap <m-Space> <Plug>(completion_smart_tab)
+ imap <c-Space> <Plug>(completion_smart_s_tab)
 let g:completion_enable_snippet = 'vim-vsnip'
 let g:vsnip_snippet_dir = '$HOME/dotfiles/snippets'
 
