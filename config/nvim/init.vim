@@ -866,7 +866,7 @@ let g:vimtex_fold_types_defaults = {
           \   ],
           \ },
           \ 'cmd_multi' : {
-          \   'cmds' : [          !!! This is a list of regexes
+          \   'cmds' : [          
           \     '%(re)?new%(command|environment)',
           \     'providecommand',
           \     'presetkeys',
