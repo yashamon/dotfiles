@@ -10,5 +10,5 @@ set synctex true
 
 # set synctex-editor-command "nvr --servername /tmp/nvimVt07zN/0 -c %{line} %{input}"
 
-# set synctex-editor-command "nvr --servername $(< ~/servername.txt) --remote-silent %{line} %{input}"
+set synctex-editor-command "nvr --servername $(< ~/servername.txt) --remote-silent +%{line} %{input}" 
 
