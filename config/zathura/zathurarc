@@ -9,6 +9,6 @@
 set synctex true 
 
 # set synctex-editor-command "nvr --servername /tmp/nvimVt07zN/0 -c %{line} %{input}"
-
-set synctex-editor-command "nvr --servername servername.txt -c %{line} %{input}" 
+/tmp/nvimH7ZpAO/
+set synctex-editor-command "nvr --servername /tmp/nvimH7ZpAO/0 --remote-silent +%{line} %{input}" 
 
