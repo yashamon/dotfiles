@@ -824,7 +824,7 @@ let g:vimtex_fold_enabled = 1
 let g:vimtex_fold_manual = 1 
 
 
-let g:vimtex_fold_types = {
+let g:vimtex_fold_types= {
           \ 'preamble' : {},
           \ 'items' : {},
           \ 'comments' : {'enabled' : 1},
@@ -1131,14 +1131,6 @@ EOF
 lua require'lspconfig'.texlab.setup{on_attach=require'completion'.on_attach}
 
 " Use <Tab> and <S-Tab> to navigate through popup menu
-inoremap <expr> <S-space>   pumvisible() ? "\<C-n>" : "\<Tab>"
-inoremap <expr> <C-space> pumvisible() ? "\<C-p>" : "\<S-Tab>"
-
-" Set completeopt to have a better completion experience
-set completeopt=menuone,noinsert,noselect
-
-" Avoid showing message extra message when using completion
-set shortmess+=c
 " imap <tab> <Plug>(completion_smart_tab)
 " imap <s-tab> <Plug>(completion_smart_s_tab)
 let g:completion_enable_snippet = 'vim-vsnip'
@@ -1165,14 +1157,6 @@ let g:completion_chain_complete_list = {
 let g:completion_enable_auto_popup = 0
 imap <silent> <M-Space> <Plug>(completion_trigger)
 
-" yoink
-" nmap <c-n> <plug>(YoinkPostPasteSwapBack)
-" nmap <c-p> <plug>(YoinkPostPasteSwapForward)
-" nmap p <plug>)
-" nmap P <plug>(YoinkPaste_P)
-" Also replace the default gp with yoink paste so we can toggle paste in this case too
-" nmap gp <plug>(YoinkPaste_gp) asdlfkj as;ldjf a YoinkPaste_gp   YoinkPaste_gp
-" nmap gP (YoinkPaste_gP)  asdlfkj   asdlfkj yoink
 
 nnoremap <leader>y :FZFNeoyank<cr>
 nnoremap <leader>Y :FZFNeoyank " P<cr>
