@@ -844,7 +844,7 @@ let g:vimtex_fold_types_defaults = {
           \     'subsection',
           \     'subsubsection',
           \   ],
-          \   'parts' : [         !!! This is a list of regexes
+          \   'parts' : [         
           \     'appendix',
           \     'frontmatter',
           \     'mainmatter',
@@ -852,7 +852,7 @@ let g:vimtex_fold_types_defaults = {
           \   ],
           \ },
           \ 'cmd_single' : {
-          \   'cmds' : [          !!! This is a list of regexes
+          \   'cmds' : [         
           \     'hypersetup',
           \     'tikzset',
           \     'pgfplotstableread',
@@ -860,7 +860,7 @@ let g:vimtex_fold_types_defaults = {
           \   ],
           \ },
           \ 'cmd_single_opt' : {
-          \   'cmds' : [          !!! This is a list of regexes
+          \   'cmds' : [          
           \     'usepackage',
           \     'includepdf',
           \   ],
