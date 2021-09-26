@@ -823,7 +823,7 @@ nmap  <leader>v <Esc>:w<CR>:VimtexView<CR>
 let g:vimtex_quickfix_mode = 0
 let g:vimtex_fold_enabled = 1 
 let g:vimtex_fold_manual = 1
-let  g:vimtex_fold_types_defaults = 'preamble, sections, comments'
+" let  g:vimtex_fold_types_defaults = 'preamble, sections, comments'
 " nmap <leader>l :silent execute "AsyncRun latexmk -pvc -pdf -file-line-error -synctex=1 -interaction=nonstopmode -recorder %"<CR>
 nmap <leader>l :VimtexCompile<CR>
 " nmap <leader>s <Esc>:VimtexErrors<CR>
@@ -960,10 +960,9 @@ require'nvim-treesitter.configs'.setup {
   },
 }
 EOF
-
-set foldlevel=20
-set foldmethod=expr
-set foldexpr=nvim_treesitter#foldexpr()
+" set foldlevel=20
+" set foldmethod=expr
+" set foldexpr=nvim_treesitter#foldexpr()
 " set foldmethod=expr foldexpr=getline(v:lnum)=~'^\s*'.&commentstring[0]
 
 

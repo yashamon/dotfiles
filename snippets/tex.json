@@ -1,4 +1,11 @@
-
+{
+"G-bundle": {
+    "prefix": ".",
+    "body": [
+        "\\ldots $0"
+       ],
+    "description": "dots"
+    },
 {
 "three dots": {
     "prefix": ".",
