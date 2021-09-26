@@ -99,4 +99,5 @@ sudo apt install python3 kitty python-pip zathura zathura-ps zathura-djvu xdotoo
 
 pip3 install neovim
 pip3 install neovim-remote
-
+mkdir $HOME/.local
+ln -s $HOME/dotfiles/nvr.sh ~/.local/bin/nvr.sh
