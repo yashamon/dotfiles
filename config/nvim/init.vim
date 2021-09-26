@@ -1164,8 +1164,8 @@ let g:completion_chain_complete_list = {
       \    {'complete_items': ['snippet', 'tags', 'lsp']},
       \  ]}
 let g:completion_enable_auto_popup = 0
-" imap <silent> <M-Space> <Plug>(completion_trigger)
-nnoremap <leader>y :FZFNeoyank<cr>
+ imap <silent> <M-Space> <Plug>(completion_trigger)
+" nnoremap <leader>y :FZFNeoyank<cr>
 nnoremap <leader>Y :FZFNeoyank " P<cr>
 vnoremap <leader>y :FZFNeoyankSelection<cr>
 
