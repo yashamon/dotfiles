@@ -143,7 +143,7 @@
 "description": "add a lemma"
   }, 
 "Corollary": {
-    "prefix": "thm",
+    "prefix": "corol",
     "body": [
       "\\begin{theorem}", 
       "\t\\label{thm:$1}",
