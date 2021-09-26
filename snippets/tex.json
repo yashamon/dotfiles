@@ -145,9 +145,9 @@
 "Corollary": {
     "prefix": "corol",
     "body": [
-      "\\begin{theorem}", 
-      "\t\\label{thm:$1}",
-      "\\end{theorem}",
+      "\\begin{corol}", 
+      "\t\\label{corol:$1}",
+      "\\end{corol}",
       "$0"
     ],
     "description": "Add a theorem"
