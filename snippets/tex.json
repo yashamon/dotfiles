@@ -557,6 +557,13 @@
     "description": "cf"
   },
  
+"equation reference": {
+    "prefix": "ref",
+    "body": [
+      "\\eqref{eq:$2}$0"
+    ],
+    "description": "Reference"
+  },
 
 "Reference": {
     "prefix": "ref",
