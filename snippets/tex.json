@@ -549,7 +549,7 @@
 "Reference": {
     "prefix": "ref",
     "body": [
-      "\ref{$2}$0"
+      "\\ref{$2}$0"
     ],
     "description": "Reference"
   },

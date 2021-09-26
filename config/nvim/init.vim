@@ -783,7 +783,6 @@ endfunction
 
 au filetype tex nnoremap <silent> <leader>s :call ToggleQuickFix()<cr>
 
-
 " let g:vimtex_quickfix_method='pplatex' 
 " let g:vimtex_latexmk_callback_hooks = ['UpdateSkim']
 "    function! UpdateSkim(status)
@@ -825,7 +824,7 @@ let g:vimtex_fold_enabled = 1
 let g:vimtex_fold_manual = 1 
 
 
-let g:vimtex_fold_types_defaults = {
+let g:vimtex_fold_types = {
           \ 'preamble' : {},
           \ 'items' : {},
           \ 'comments' : {'enabled' : 1},
