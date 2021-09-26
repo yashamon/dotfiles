@@ -1,5 +1,5 @@
  #! /bin/sh 
 
 var =$(cat ~/servername.txt)   
-
-~/.local/bin/nvr --servername $var --remote-silent
+echo $var
+~/.local/bin/nvr --servername "$var --remote-silent
