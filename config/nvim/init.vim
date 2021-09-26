@@ -89,8 +89,7 @@ Plug 'vim-pandoc/vim-pandoc-syntax'
  " Plugin outside ~/.vim/plugged with post-update hook
 Plug 'junegunn/fzf', { 'do': './install --all' }
 Plug 'junegunn/fzf.vim' 
-
-  Plugin 'leafOfTree/vim-imagine'
+Plug 'leafOfTree/vim-imagine'
 "
 " " Plug 'Valloric/YouCompleteMe', {'do': './install.py' }
 "
