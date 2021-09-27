@@ -1,4 +1,5 @@
-call plug#begin('~/.vim/plugged')    
+call plug#begin('~/.vim/plugged')     
+
 Plug 'preservim/nerdcommenter'   
 "Plug 'xolox/vim-easytags'
 Plug 'nvim-lua/plenary.nvim'
