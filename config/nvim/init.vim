@@ -925,17 +925,21 @@ autocmd FileType qf nnoremap  <buffer> <A>-q :q:Goyo x<CR>
 "Zathura forward search
 " map <Leader>v <Esc>:silent !zathura --synctex-forward <Ctrl+R>=line('.'):1:%:p %:p:h/build/%:r.pdf<CR><CR>
 "source ~/.anyname  
-"au filetype tex filetype indent off
+"au filetype tex filetype indent off 
+
 "  GUI Stuff    
 "
+
+
 command -nargs=? Guifont call rpcnotify(0, 'Gui', 'SetFont', "\<args\>") | let g:Guifont="<args>"
-let g:Guifont="Source Code Pro Light:h16"
+let g:Guifont="Source Code Pro Light:h16" 
+
 "Git
 " map <silent> <leader>g :silent execute "!(cd /root/web2 ; git add . ; git commit -m -a ; git push origin gh-pages) > /dev/null"<CR>
 set directory=$HOME/Downloads
 let g:goyo_width=60 
 
-"LSPINstall
+"LSPInstall
 local function setup_servers()
   require'lspinstall'.setup()
   local servers = require'lspinstall'.installed_servers()
