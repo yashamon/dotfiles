@@ -1,4 +1,5 @@
 #! /bin/sh 
 
-cat blah |
+cat $1 |
     tr '\n' ' ' > more
+
