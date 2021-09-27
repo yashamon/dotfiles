@@ -515,7 +515,8 @@ hi link EasyMotionShade Comment
    "nmap OD 
 "YankRing
 " " --- Command-T
-" let g:CommandTMaxHeight = 15
+" let g:CommandTMaxHeight = 15 
+"
 " --- SuperTab
 " let g:SuperTabDefaultCompletionType = "context"
 " let g:SuperTabCompletionContexts = ['s:ContextText', 's:ContextDiscover']
