@@ -1,11 +1,13 @@
 call plug#begin('~/.vim/plugged')     
-Plug 'kabouzeid/nvim-lspinstall'
+Plug 'kabouzeid/nvim-lspinstall', { 'branch': 'main' }
+
 Plug 'preservim/nerdcommenter'   
 "Plug 'xolox/vim-easytags'
 Plug 'nvim-lua/plenary.nvim'
 Plug 'windwp/nvim-spectre'
 Plug 'xolox/vim-misc'
-"Plug 'terrortylor/nvim-comment'Plug 'kevinhwang91/nvim-bqf'
+"Plug 'terrortylor/nvim-comment'
+Plug 'kevinhwang91/nvim-bqf'
 Plug 'justinhoward/fzf-neoyank' 
 Plug 'stefanhepp/pplatex'
 " lua require("lsp_config")
