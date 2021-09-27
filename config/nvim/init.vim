@@ -516,8 +516,7 @@ hi link EasyMotionShade Comment
 "YankRing
 " " --- Command-T
 " let g:CommandTMaxHeight = 15 
-"
-" --- SuperTab
+" -- SuperTab
 " let g:SuperTabDefaultCompletionType = "context"
 " let g:SuperTabCompletionContexts = ['s:ContextText', 's:ContextDiscover']
 " let g:SuperTabContextDiscoverDiscovery= ["&completefunc:<c-x><c-u>", "&omnifunc:<c-x><c-o>"]
@@ -526,7 +525,10 @@ hi link EasyMotionShade Comment
 let g:NERDTreeMapUpdir="<S-h>"
 " General mappings, remaps, maps
 "
-"
+" 'tComment'
+" let g:tcommentMapLeaderOp1=';' 
+" "map <leader>c <Leader>__
+
 nnoremap <leader>sv :source $MYVIMRC<CR>
 nnoremap <leader>e :NvimTreeToggle<CR>
 
