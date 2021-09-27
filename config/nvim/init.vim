@@ -1,6 +1,6 @@
 " init.vi
 " call pathogen#infect()  
-call plug#begin('~/.vim/plugged')  
+call plug#begin('~/.vim/plugged')   
 "Plug 'terrortylor/nvim-comment', { 'branch': 'main' }
 Plug 'kevinhwang91/nvim-bqf'
 Plug 'justinhoward/fzf-neoyank' 
