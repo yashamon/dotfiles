@@ -1,5 +1,4 @@
 #!/usr/bin/perl
-use strict;
 use warnings;
 
 perl -MLingua::EN::Sentence=get_sentences -00 -e '
