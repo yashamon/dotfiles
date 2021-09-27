@@ -3,7 +3,7 @@ Plug 'preservim/nerdcommenter'
 Plug 'xolox/vim-easytags'
 Plug 'nvim-lua/plenary.nvim'
 Plug 'windwp/nvim-spectre'
-
+Plug '
 "Plug 'terrortylor/nvim-comment', { 'branch': 'main' }
 Plug 'kevinhwang91/nvim-bqf'
 Plug 'justinhoward/fzf-neoyank' 
