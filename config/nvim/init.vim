@@ -96,14 +96,10 @@ Plug 'junegunn/fzf.vim'
 " " Plug 'Valloric/YouCompleteMe', {'do': './install.py' }
 "
 "  Plug 'ervandew/supertab'
-
-" Plug 'tComment'
+" 'tComment'
 " let g:tcommentMapLeaderOp1=';' 
 " "map <leader>c <Leader>__
-"Plug 'b3nj5m1n/kommentary', { 'branch': 'main' }
-
-
- " Plug 'Shougo/vimproc.vim'
+" Plug 'Shougo/vimproc.vim'
 
 Plug 'easymotion/vim-easymotion'
 
