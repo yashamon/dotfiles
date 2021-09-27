@@ -1,5 +1,5 @@
 call plug#begin('~/.vim/plugged')     
-
+Plug 'kabouzeid/nvim-lspinstall'
 Plug 'preservim/nerdcommenter'   
 "Plug 'xolox/vim-easytags'
 Plug 'nvim-lua/plenary.nvim'
