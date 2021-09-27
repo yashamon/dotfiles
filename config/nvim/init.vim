@@ -738,7 +738,8 @@ let g:sneak#s_next = 1
 "
 "
 noremap <m-t> :BTags<cr>
-noremap S <Esc>:BLines<CR>   
+noremap S <Esc>:BLines<CR>    
+noremap L <Esc>:
 noremap <m-b> <Esc>:Buffers<CR> 
 noremap F <Esc>:GFiles<CR> 
 map <A-e> :FZF ~<CR>
