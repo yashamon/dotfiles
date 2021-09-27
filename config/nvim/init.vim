@@ -932,32 +932,17 @@ autocmd BufWritePost * silent execute 'AsyncRun if git rev-parse --is-inside-wor
 nnoremap <C-e> :let g:ctrlp_match_window =
          \ 'bottom,order:btt,min:1,max:1000,results:1000'<CR>:CtrlPTag<CR>
 
-" YouCompleteMe usage is tied to Supertab, this is a little weird but 
-" seems necessary for full interoperability with ultisnipps
-" let g:ycm_auto_trigger = 0
-" let g:ycm_collect_identifiers_from_tags_files = 1
-" let g:ycm_key_invoke_completion = '<C-n>'
-" let g:ycm_key_list_select_completion = ['<C-n>', '<Down>']
-" let g:ycm_key_list_previous_completion = ['<C-p>', '<Up>']
-" let g:SuperTabDefaultCompletionType = '<C-n>'
-" " let g:UltiSnipsSnippetDirectories=['Ultisnips']
-" let g:UltiSnipsJumpForwardTrigger="<D-j>"
-" let g:UltiSnipsJumpForwardTrigger="<M-j>" 
-" let g:UltiSnipsJumpForwardTrigger="<C-j>"
-" let g:UltiSnipsListSnippets="<D-e>"
-" " let g:UltiSnipsListSnippets="<-e>"
-
 autocmd FileType qf nnoremap <buffer> <Enter> <C-W><Enter><C-W>T:Goyo x<CR>
 autocmd FileType qf nnoremap  <buffer> <A>-q :q:Goyo x<CR>
 
-   " Latex shortcuts
-   "Latex compile. 
-   "them to an external terminal and run there.
+" Latex shortcuts
+"Latex compile. 
+"them to an external terminal and run there.
 " map <Leader>l :tabe %<CR><Esc>:term ; latexmk -pvc -pdf -file-line-error -synctex=1 -interaction=nonstopmode -recorder %<CR><leader>e
 "Zathura forward search
 " map <Leader>v <Esc>:silent !zathura --synctex-forward <Ctrl+R>=line('.'):1:%:p %:p:h/build/%:r.pdf<CR><CR>
 "source ~/.anyname  
-au filetype tex filetype indent off
+"au filetype tex filetype indent off
 "       GUI Stuff   
 command -nargs=? Guifont call rpcnotify(0, 'Gui', 'SetFont', "\<args\>") | let g:Guifont="<args>"
 let g:Guifont="Source Code Pro Light:h16"
