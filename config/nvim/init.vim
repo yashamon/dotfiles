@@ -1,9 +1,9 @@
 call plug#begin('~/.vim/plugged')    
 Plug 'preservim/nerdcommenter'   
-Plug 'xolox/vim-easytags'
+"Plug 'xolox/vim-easytags'
 Plug 'nvim-lua/plenary.nvim'
 Plug 'windwp/nvim-spectre'
-Plug 'vim-misc'
+Plug 'xolox/vim-misc'
 "Plug 'terrortylor/nvim-comment', { 'branch': 'main' }
 Plug 'kevinhwang91/nvim-bqf'
 Plug 'justinhoward/fzf-neoyank' 
