@@ -416,9 +416,6 @@ set statusline+=%=%-10.(%l,%c%V%)\ %p%%/%L
 let mapleader=';'
 let g:mapleader=';'
 
-"replace the current word in all opened buffers
-map <leader>rr :call Replace()<CR>
-
 " open the error console
 map <leader>cc :botright cope<CR> 
 " move to next error
