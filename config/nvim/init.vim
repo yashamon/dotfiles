@@ -1,5 +1,5 @@
 " init.vi
-" call pathogen#infect()  
+call pathogen#infect()  
 call plug#begin('~/.vim/plugged')   
 Plug 'b3nj5m1n/kommentary'
 "Plug 'terrortylor/nvim-comment', { 'branch': 'main' }
@@ -1177,4 +1177,6 @@ nnoremap <leader>1 :FZFNeoyank 1<cr>
 nnoremap <leader>P :FZFNeoyank " P+<cr>
 vnoremap <leader>p :FZFNeoyankSelection +<cr>
 
-
+asdfafs
+asdf
+asdfk
