@@ -49,7 +49,7 @@ Plug 'kyazdani42/nvim-web-devicons'
 Plug 'justinmk/vim-sneak'
 " Plug 'folke/zen-mode.nvim', { 'branch': 'main' }
 Plug 'kyazdani42/blue-moon'
-"  Plug 'bfredl/nvim-miniyank'
+
 " Plug 'Shougo/neoyank.vim'
 " if has('nvim')
 "   Plug 'Shougo/denite.nvim', { 'do': ':UpdateRemotePlugins' }
@@ -73,13 +73,9 @@ Plug 'eugen0329/vim-esearch'
 " Plug 'haya14busa/incsearch-fuzzy.vim'
 Plug 'Raimondi/vim_search_objects'
 Plug 'terryma/vim-multiple-cursors'
-
 " " On-demand loading
 Plug 'junegunn/goyo.vim'
 " " Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
-"
-"
-
 Plug 'equalsraf/neovim-gui-shim'
 
 "  Plug 'morhetz/gruvbox'
@@ -93,7 +89,6 @@ Plug 'vim-pandoc/vim-pandoc-syntax'
 Plug 'junegunn/fzf', { 'do': './install --all' }
 Plug 'junegunn/fzf.vim'
 "
-
 "
 "  Plug 'ervandew/supertab'
 " 'tComment'
