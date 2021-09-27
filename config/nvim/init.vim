@@ -1,4 +1,5 @@
-call plug#begin('~/.vim/plugged')    
+call plug#begin('~/.vim/plugged')     
+Plug 'kabouzeid/nvim-lspinstall'
 Plug 'preservim/nerdcommenter'   
 "Plug 'xolox/vim-easytags'
 Plug 'nvim-lua/plenary.nvim'
@@ -516,8 +517,7 @@ hi link EasyMotionShade Comment
 "YankRing
 " " --- Command-T
 " let g:CommandTMaxHeight = 15 
-"
-" --- SuperTab
+" -- SuperTab
 " let g:SuperTabDefaultCompletionType = "context"
 " let g:SuperTabCompletionContexts = ['s:ContextText', 's:ContextDiscover']
 " let g:SuperTabContextDiscoverDiscovery= ["&completefunc:<c-x><c-u>", "&omnifunc:<c-x><c-o>"]
@@ -526,7 +526,10 @@ hi link EasyMotionShade Comment
 let g:NERDTreeMapUpdir="<S-h>"
 " General mappings, remaps, maps
 "
-"
+" 'tComment'
+" let g:tcommentMapLeaderOp1=';' 
+" "map <leader>c <Leader>__
+
 nnoremap <leader>sv :source $MYVIMRC<CR>
 nnoremap <leader>e :NvimTreeToggle<CR>
 
@@ -923,15 +926,32 @@ autocmd FileType qf nnoremap  <buffer> <A>-q :q:Goyo x<CR>
 " map <Leader>v <Esc>:silent !zathura --synctex-forward <Ctrl+R>=line('.'):1:%:p %:p:h/build/%:r.pdf<CR><CR>
 "source ~/.anyname  
 "au filetype tex filetype indent off
-"  GUI Stuff   
+"  GUI Stuff    
+"
 command -nargs=? Guifont call rpcnotify(0, 'Gui', 'SetFont', "\<args\>") | let g:Guifont="<args>"
 let g:Guifont="Source Code Pro Light:h16"
-
-" Deoplete
-
+"Git
 " map <silent> <leader>g :silent execute "!(cd /root/web2 ; git add . ; git commit -m -a ; git push origin gh-pages) > /dev/null"<CR>
 set directory=$HOME/Downloads
-let g:goyo_width=60
+let g:goyo_width=60 
+
+"LSPINstall
+local function setup_servers()
+  require'lspinstall'.setup()
+  local servers = require'lspinstall'.installed_servers()
+  for _, server in pairs(servers) do
+    require'lspconfig'[server].setup{}
+  end
+end
+
+setup_servers()
+
+-- Automatically reload after `:LspInstall <server>` so we don't have to restart neovim
+require'lspinstall'.post_install_hook = function ()
+  setup_servers() -- reload installed servers
+  vim.cmd("bufdo e") -- this triggers the FileType autocmd that starts the server
+end
+
 " fuzzy search
 " function! s:config_fuzzyall(...) abort
 "   return extend(copy({
