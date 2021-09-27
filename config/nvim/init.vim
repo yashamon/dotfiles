@@ -1,5 +1,6 @@
 call plug#begin('~/.vim/plugged')    
-Plug 'preservim/nerdcommenter'
+Plug 'preservim/nerdcommenter' 
+
 "Plug 'terrortylor/nvim-comment', { 'branch': 'main' }
 Plug 'kevinhwang91/nvim-bqf'
 Plug 'justinhoward/fzf-neoyank' 
