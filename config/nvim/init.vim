@@ -1,6 +1,5 @@
 call plug#begin('~/.vim/plugged')    
 Plug 'preservim/nerdcommenter'  
-
 Plug 'nvim-lua/plenary.nvim'
 Plug 'windwp/nvim-spectre'
 
@@ -196,7 +195,7 @@ let g:tex_isk = '@,48-57,58,_,192-255'
 let g:tex_conceal = ""
 
 set tags+=~/texmf/bibtex/bib/tags
-set tags+=~/Dropbox/workspace/tags
+"set tags+=~/Dropbox/workspace/tags
   " set formatoptions=ant
   " set wrapmargin=1
 " set tw=80
@@ -672,7 +671,7 @@ noremap <A-d> <C-d>
 noremap <M-d> <C-d>
 noremap <D-u> <C-u>
 noremap <A-u> <C-u>
-map <Leader>tt :term CR; ctags -R
+map <Leader>tt :term CR; etags -R
 " this mapping Enter key to <C-y> to chose the current highlight item 
 " and close the selection list, same as other IDEs.
 " CONFLICT with some plugins like tpope/Endwise
@@ -757,7 +756,6 @@ let g:sneak#s_next = 1
 "
 "
 noremap <m-t> :BTags<cr>
-
 noremap S <Esc>:BLines<CR>   
 noremap <m-b> <Esc>:Buffers<CR> 
 noremap F <Esc>:GFiles<CR> 
