@@ -1,5 +1,5 @@
 call plug#begin('~/.vim/plugged')     
-Plug 'kabouzeid/nvim-lspinstall'
+Plug 'kabouzeid/nvim-lspinstall', { 'branch': 'main' }
 Plug 'preservim/nerdcommenter'   
 "Plug 'xolox/vim-easytags'
 Plug 'nvim-lua/plenary.nvim'
@@ -400,7 +400,6 @@ let mapleader=';'
 let g:mapleader=';'
 
 " open the error console
-"map <leader>cc :botright cope<CR> 
 " move to next error
 map <leader>] :cn<CR>
 " move to the prev error
@@ -1014,7 +1013,43 @@ EOF
 "
 " NOTE: You can use other key to expand snippet.
 
-" vsnip stuff
+" vsnip stuff 
+"
+" Use <Tab> and <S-Tab> to navigate through popup menu
+inoremap <expr> <up> pumvisible() ? "\<C-n>" : "\<Tab>"
+inoremap <expr> <down> pumvisible() ? "\<C-p>" : "\<S-Tab>"
+
+" Set completeopt to have a better completion experience
+set completeopt=menuone,noinsert,noselect
+
+" Avoid showing message extra message when using completion
+set shortmess+=c
+" imap <tab> <Plug>(completion_smart_tab)
+" imap <s-tab> <Plug>(completion_smart_s_tab)
+let g:completion_enable_snippet = 'vim-vsnip'
+let g:vsnip_snippet_dir = '$HOME/dotfiles/snippets'
+
+function! PackagerInit()
+  call packager#add('kristijanhusak/vim-packager')
+  call packager#add('nvim-lua/completion-nvim')
+  call packager#add('hrsh7th/vim-vsnip-integ')
+endfunction
+
+" let g:completion_chain_complete_list = {
+"       \ 'default': [
+"       \    {'complete_items': ['lsp']},
+"       \    {'complete_items': ['tags']},
+"       \    {'complete_items': ['snippet']}, 
+"       \    ]}
+
+" Or combine with lsp
+let g:completion_chain_complete_list = {
+      \ 'default': [
+      \    {'complete_items': ['snippet', 'tags', 'lsp']},
+      \  ]}
+let g:completion_enable_auto_popup = 0
+imap <silent> <M-Space> <Plug>(completion_trigger)
+
 let g:vsnip_snippet_dir = '~/dotfiles/snippets'
 imap <expr> <Tab>   vsnip#expandable()  ? '<Plug>(vsnip-expand)'         : '<C-j>'
 smap <expr> <Tab>   vsnip#expandable()  ? '<Plug>(vsnip-expand)'         : '<C-j>'
@@ -1133,6 +1168,7 @@ let g:completion_enable_auto_popup = 0
 imap <silent> <M-Space> <Plug>(completion_trigger)
 
 
+
 nnoremap <leader>y :FZFNeoyank<cr>
 nnoremap <leader>Y :FZFNeoyank " P<cr>
 vnoremap <leader>y :FZFNeoyankSelection<cr>
@@ -1141,4 +1177,6 @@ nnoremap <leader>p :FZFNeoyank +<cr>
 nnoremap <leader>1 :FZFNeoyank 1<cr>
 nnoremap <leader>P :FZFNeoyank " P+<cr>
 vnoremap <leader>p :FZFNeoyankSelection +<cr>
+
+
 
