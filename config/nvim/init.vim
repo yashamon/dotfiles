@@ -805,6 +805,7 @@ nmap  <leader>v <Esc>:w<CR>:VimtexView<CR>
 let g:vimtex_quickfix_mode = 0
 let g:vimtex_fold_enabled = 1 
 let g:vimtex_fold_manual = 1 
+" set foldmethod=expr foldexpr=getline(v:lnum)=~'^\s*'.&commentstring[0]
 
 
 let g:vimtex_fold_types= {
