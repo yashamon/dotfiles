@@ -958,19 +958,9 @@ imap <expr> <M-k> vsnip#jumpable(-1)  ? '<Plug>(vsnip-jump-prev)'      : '<S-Tab
 smap <expr> <M-k> vsnip#jumpable(-1)  ? '<Plug>(vsnip-jump-prev)'      : '<S-Tab>'
 
 " Select or cut text to use as $TM_SELECTED_TEXT in the next snippet.
-" See https://github.com/hrsh7th/vim-vsnip/pull/50
-" Lsp config install
-"
-
-
-"LSPInstall  
-"
-
+" See https://github.com/hrsh7th/vim-vsnip/pull/50 
 "
 "
-"
-"
-
 " fuzzy search
 " function! s:config_fuzzyall(...) abort
 "   return extend(copy({
@@ -1014,6 +1004,7 @@ smap <expr> <M-k> vsnip#jumpable(-1)  ? '<Plug>(vsnip-jump-prev)'      : '<S-Tab
 "
 " NOTE: You can use other key to expand snippet.
 
+" Lsp config install treesitter lua
 
 
 "Treesitter
@@ -1041,7 +1032,6 @@ require'nvim-treesitter.configs'.setup {
 }
 EOF 
 
-" set foldmethod=expr foldexpr=getline(v:lnum)=~'^\s*'.&commentstring[0]
 
 
 
