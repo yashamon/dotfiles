@@ -554,7 +554,6 @@ nnoremap <leader>e :NvimTreeToggle<CR>
 vnoremap <m-s> :s///gc<left><left><left><left> 
 inoremap <m-s> <esc>:%s///gc<left><left><left><left>
 nnoremap <m-s> :%s///gc<left><left><left> 
-noremap <m-t>
 vmap <M-.> t.<CR>h
 nmap <M-.> t.<CR>h
 map <up> <nop>
@@ -757,13 +756,11 @@ let g:sneak#s_next = 1
 " FZF
 "
 "
+noremap <m-t> :BTags<cr>
 
-noremap <C-t> <Esc>:FZF ~/Dropbox/workspace<CR>
-noremap <A-t> <Esc>:FZF ~/Dropbox/workspace<CR>
 noremap S <Esc>:BLines<CR>   
 noremap <m-b> <Esc>:Buffers<CR> 
 noremap F <Esc>:GFiles<CR> 
-
 map <A-e> :FZF ~<CR>
 
 " vimtex settings
