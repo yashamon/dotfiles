@@ -982,9 +982,31 @@ end
 " map <silent> <leader>g :silent !cd /root/web2 ; git add .<CR>:silent git commit -m -a ; silent !git push origin gh-pages<CR>
 "
 
+" Quicktex
+" let g:quicktex_trigger="\t"
+" let g:quicktex_tex = {
+"     \' ' : "\<ESC>:call search('<+.*+>')\<CR>\"_c/+>/e\<CR>",
+"     \'m'   : '\( <+++> \) <++>',
+"     \'prf' : "\\begin{proof}\<CR><+++>\<CR>\\end{proof}",
+" \}
+"
+" let g:quicktex_math = {
+"     \' ': "\<ESC>:call search('<+.*+>')\<CR>\"_c/+>/e\<CR>",
+"     \'fr'   : '\mathcal{R} ',
+"     \'eq'   : '= ',
+"     \'set'  : '\{ <+++> \} <++>',
+"     \'frac' : '\frac{<+++>}{<++>} <++>',
+"     \'one'  : '1 ',
+"     \'st'   : ': ',
+"     \'in'   : '\in ',
+"     \'bn'   : '\mathbb{N} ',
+" \}
+"
+" NOTE: You can use other key to expand snippet.
 
 
-"LUA
+
+"Treesitter
 
 lua <<EOF
 require'nvim-treesitter.configs'.setup {
@@ -1014,27 +1036,6 @@ EOF
 " set foldmethod=expr foldexpr=getline(v:lnum)=~'^\s*'.&commentstring[0]
 
 
-" Quicktex
-" let g:quicktex_trigger="\t"
-" let g:quicktex_tex = {
-"     \' ' : "\<ESC>:call search('<+.*+>')\<CR>\"_c/+>/e\<CR>",
-"     \'m'   : '\( <+++> \) <++>',
-"     \'prf' : "\\begin{proof}\<CR><+++>\<CR>\\end{proof}",
-" \}
-"
-" let g:quicktex_math = {
-"     \' ': "\<ESC>:call search('<+.*+>')\<CR>\"_c/+>/e\<CR>",
-"     \'fr'   : '\mathcal{R} ',
-"     \'eq'   : '= ',
-"     \'set'  : '\{ <+++> \} <++>',
-"     \'frac' : '\frac{<+++>}{<++>} <++>',
-"     \'one'  : '1 ',
-"     \'st'   : ': ',
-"     \'in'   : '\in ',
-"     \'bn'   : '\mathbb{N} ',
-" \}
-"
-" NOTE: You can use other key to expand snippet.
 
 " vsnip stuff
 let g:vsnip_snippet_dir = '~/dotfiles/snippets'
@@ -1053,8 +1054,12 @@ smap <expr> <M-k> vsnip#jumpable(-1)  ? '<Plug>(vsnip-jump-prev)'      : '<S-Tab
 
 " Select or cut text to use as $TM_SELECTED_TEXT in the next snippet.
 " See https://github.com/hrsh7th/vim-vsnip/pull/50
+" Lsp config
 "
-lua << EOF
+"
+"
+lua << EOF 
+
 require'lspconfig'.texlab.setup{}
 
 EOF
@@ -1117,7 +1122,25 @@ for _, lsp in ipairs(servers) do
 end
 EOF
 
-lua require'lspconfig'.texlab.setup{on_attach=require'completion'.on_attach}
+lua require'lspconfig'.texlab.setup{on_attach=require'completion'.on_attach} 
+
+
+local function setup_servers()
+  require'lspinstall'.setup()
+  local servers = require'lspinstall'.installed_servers()
+  for _, server in pairs(servers) do
+    require'lspconfig'[server].setup{}
+  end
+end
+
+setup_servers()
+
+-- Automatically reload after `:LspInstall <server>` so we don't have to restart neovim
+require'lspinstall'.post_install_hook = function ()
+  setup_servers() -- reload installed servers
+  vim.cmd("bufdo e") -- this triggers the FileType autocmd that starts the server
+end
+
 
 " Use <Tab> and <S-Tab> to navigate through popup menu
 inoremap <expr> <up> pumvisible() ? "\<C-n>" : "\<Tab>"
@@ -1154,7 +1177,9 @@ let g:completion_chain_complete_list = {
 let g:completion_enable_auto_popup = 0
 imap <silent> <M-Space> <Plug>(completion_trigger)
 
-
+" Neoyank FZF
+"
+"
 nnoremap <leader>y :FZFNeoyank<cr>
 nnoremap <leader>Y :FZFNeoyank " P<cr>
 vnoremap <leader>y :FZFNeoyankSelection<cr>
