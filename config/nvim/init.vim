@@ -551,9 +551,9 @@ nnoremap <leader>sv :source $MYVIMRC<CR>
 nnoremap <leader>e :NvimTreeToggle<CR>
 
 
-vnoremap <m-s> :s///gc<left><left><left> 
-inoremap <m-s> <esc>:%s///gc<left><left><left>
-nnoremap <m-s> :%s///gc<left><left> 
+vnoremap <m-s> :s///gc<left><left><left><left> 
+inoremap <m-s> <esc>:%s///gc<left><left><left><left>
+nnoremap <m-s> :%s///gc<left><left> <left> 
 
 vmap <M-.> t.<CR>h
 nmap <M-.> t.<CR>h
