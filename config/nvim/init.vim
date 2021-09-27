@@ -941,7 +941,10 @@ let g:Guifont="Source Code Pro Light:h16"
 set directory=$HOME/Downloads
 let g:goyo_width=60  
 
-" vsnip stuff
+" vsnip stuff 
+"
+"
+"
 let g:vsnip_snippet_dir = '~/dotfiles/snippets'
 imap <expr> <Tab>   vsnip#expandable()  ? '<Plug>(vsnip-expand)'         : '<C-j>'
 smap <expr> <Tab>   vsnip#expandable()  ? '<Plug>(vsnip-expand)'         : '<C-j>'
@@ -1031,16 +1034,13 @@ require'nvim-treesitter.configs'.setup {
 }
 EOF 
 
-
 lua << EOF 
 require'lspconfig'.texlab.setup{}
 
 EOF
-
 lua << EOF
 require'lspconfig'.jsonls.setup{}
 EOF
-
 
 lua << EOF
 require'lspconfig'.rust_analyzer.setup{}
@@ -1096,41 +1096,6 @@ EOF
 
 lua require'lspconfig'.texlab.setup{on_attach=require'completion'.on_attach} 
 
-
-" Use <Tab> and <S-Tab> to navigate through popup menu
-inoremap <expr> <up> pumvisible() ? "\<C-n>" : "\<Tab>"
-inoremap <expr> <down> pumvisible() ? "\<C-p>" : "\<S-Tab>"
-
-" Set completeopt to have a better completion experience
-set completeopt=menuone,noinsert,noselect
-
-" Avoid showing message extra message when using completion
-set shortmess+=c
-" imap <tab> <Plug>(completion_smart_tab)
-" imap <s-tab> <Plug>(completion_smart_s_tab)
-let g:completion_enable_snippet = 'vim-vsnip'
-let g:vsnip_snippet_dir = '$HOME/dotfiles/snippets'
-
-function! PackagerInit()
-  call packager#add('kristijanhusak/vim-packager')
-  call packager#add('nvim-lua/completion-nvim')
-  call packager#add('hrsh7th/vim-vsnip-integ')
-endfunction
-
-" let g:completion_chain_complete_list = {
-"       \ 'default': [
-"       \    {'complete_items': ['lsp']},
-"       \    {'complete_items': ['tags']},
-"       \    {'complete_items': ['snippet']}, 
-"       \    ]}
-
-" Or combine with lsp
-let g:completion_chain_complete_list = {
-      \ 'default': [
-      \    {'complete_items': ['snippet', 'tags', 'lsp']},
-      \  ]}
-let g:completion_enable_auto_popup = 0
-imap <silent> <M-Space> <Plug>(completion_trigger) 
 
 
 " Neoyank FZF
