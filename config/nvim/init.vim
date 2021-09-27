@@ -637,8 +637,8 @@ noremap <S-j> <C-d>
 nnoremap <leader>j J
 nnoremap <leader>k K
 map ' "
-nnoremap <Backspace> i<Backspace><Esc> 
-map <leader>c <leader>c<space>
+nnoremap <Backspace> i<Backspace><Esc>
+noremap <leader>c <leader>c<space>
 map <A-/> <Leader>__
 map <A-r>  <C-r>
 map <C-c> gc
@@ -1150,7 +1150,7 @@ require'lspinstall'.post_install_hook = function ()
   setup_servers() -- reload installed servers
   vim.cmd("bufdo e") -- this triggers the FileType autocmd that starts the server
 end
-EO
+EOF
 
 nnoremap <leader>y :FZFNeoyank<cr>
 nnoremap <leader>Y :FZFNeoyank " P<cr>
