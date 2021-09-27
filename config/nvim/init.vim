@@ -37,7 +37,6 @@ Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
 " Plug 't9md/vim-smalls'
 Plug 'skywind3000/asyncrun.vim'
 Plug 'kevinhwang91/nvim-bqf', { 'branch': 'main' }
-
 " if you install fzf as system package like `pacman -S fzf` in ArchLinux,
 " please comment next line
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
@@ -81,9 +80,6 @@ Plug 'junegunn/fzf.vim'
 "
 "
 "  Plug 'ervandew/supertab'
-" 'tComment'
-" let g:tcommentMapLeaderOp1=';' 
-" "map <leader>c <Leader>__
 " Plug 'Shougo/vimproc.vim'
 
 Plug 'easymotion/vim-easymotion'
@@ -519,7 +515,8 @@ hi link EasyMotionShade Comment
    "nmap OD 
 "YankRing
 " " --- Command-T
-" let g:CommandTMaxHeight = 15
+" let g:CommandTMaxHeight = 15 
+"
 " --- SuperTab
 " let g:SuperTabDefaultCompletionType = "context"
 " let g:SuperTabCompletionContexts = ['s:ContextText', 's:ContextDiscover']
