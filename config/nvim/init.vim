@@ -1,6 +1,6 @@
 call plug#begin('~/.vim/plugged')    
 Plug 'preservim/nerdcommenter'
-Plug 'terrortylor/nvim-comment', { 'branch': 'main' }
+"Plug 'terrortylor/nvim-comment', { 'branch': 'main' }
 Plug 'kevinhwang91/nvim-bqf'
 Plug 'justinhoward/fzf-neoyank' 
 Plug 'stefanhepp/pplatex'
@@ -653,7 +653,7 @@ nnoremap <leader>j J
 nnoremap <leader>k K
 map ' "
 nnoremap <Backspace> i<Backspace><Esc> 
-map <leader>c <leader>__
+map <leader>c <leader>c<space>
 map <A-/> <Leader>__
 map <A-r>  <C-r>
 map <C-c> gc
