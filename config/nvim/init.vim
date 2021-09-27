@@ -940,27 +940,36 @@ let g:Guifont="Source Code Pro Light:h16"
 "
 " map <silent> <leader>g :silent execute "!(cd /root/web2 ; git add . ; git commit -m -a ; git push origin gh-pages) > /dev/null"<CR>
 set directory=$HOME/Downloads
-let g:goyo_width=60 
+let g:goyo_width=60  
 
-"LSPInstall 
+" vsnip stuff
+let g:vsnip_snippet_dir = '~/dotfiles/snippets'
+imap <expr> <Tab>   vsnip#expandable()  ? '<Plug>(vsnip-expand)'         : '<C-j>'
+smap <expr> <Tab>   vsnip#expandable()  ? '<Plug>(vsnip-expand)'         : '<C-j>'
+
+" Expand or jump
+imap <expr> <Tab>   vsnip#available(1)  ? '<Plug>(vsnip-expand-or-jump)' : '<C-l>'
+smap <expr> <Tab>   vsnip#available(1)  ? '<Plug>(vsnip-expand-or-jump)' : '<C-l>'
+
+" Jump forward or backward
+  imap <expr> <M-j>   vsnip#jumpable(1)   ? '<Plug>(vsnip-jump-next)'      : '<Tab>'
+  smap <expr> <M-j>   vsnip#jumpable(1)   ? '<Plug>(vsnip-jump-next)'      : '<Tab>'
+imap <expr> <M-k> vsnip#jumpable(-1)  ? '<Plug>(vsnip-jump-prev)'      : '<S-Tab>'
+smap <expr> <M-k> vsnip#jumpable(-1)  ? '<Plug>(vsnip-jump-prev)'      : '<S-Tab>'
+
+" Select or cut text to use as $TM_SELECTED_TEXT in the next snippet.
+" See https://github.com/hrsh7th/vim-vsnip/pull/50
+" Lsp config install
+"
+
+
+"LSPInstall  
+"
+
 "
 "
 "
-local function setup_servers()
-  require'lspinstall'.setup()
-  local servers = require'lspinstall'.installed_servers()
-  for _, server in pairs(servers) do
-    require'lspconfig'[server].setup{}
-  end
-end
-
-setup_servers()
-
--- Automatically reload after `:LspInstall <server>` so we don't have to restart neovim
-require'lspinstall'.post_install_hook = function ()
-  setup_servers() -- reload installed servers
-  vim.cmd("bufdo e") -- this triggers the FileType autocmd that starts the server
-end
+"
 
 " fuzzy search
 " function! s:config_fuzzyall(...) abort
@@ -1030,35 +1039,13 @@ require'nvim-treesitter.configs'.setup {
     },
   },
 }
-EOF
-" set foldlevel=20
-" set foldmethod=expr
-" set foldexpr=nvim_treesitter#foldexpr()
+EOF 
+
 " set foldmethod=expr foldexpr=getline(v:lnum)=~'^\s*'.&commentstring[0]
 
 
 
-" vsnip stuff
-let g:vsnip_snippet_dir = '~/dotfiles/snippets'
-imap <expr> <Tab>   vsnip#expandable()  ? '<Plug>(vsnip-expand)'         : '<C-j>'
-smap <expr> <Tab>   vsnip#expandable()  ? '<Plug>(vsnip-expand)'         : '<C-j>'
 
-" Expand or jump
-imap <expr> <Tab>   vsnip#available(1)  ? '<Plug>(vsnip-expand-or-jump)' : '<C-l>'
-smap <expr> <Tab>   vsnip#available(1)  ? '<Plug>(vsnip-expand-or-jump)' : '<C-l>'
-
-" Jump forward or backward
-  imap <expr> <M-j>   vsnip#jumpable(1)   ? '<Plug>(vsnip-jump-next)'      : '<Tab>'
-  smap <expr> <M-j>   vsnip#jumpable(1)   ? '<Plug>(vsnip-jump-next)'      : '<Tab>'
-imap <expr> <M-k> vsnip#jumpable(-1)  ? '<Plug>(vsnip-jump-prev)'      : '<S-Tab>'
-smap <expr> <M-k> vsnip#jumpable(-1)  ? '<Plug>(vsnip-jump-prev)'      : '<S-Tab>'
-
-" Select or cut text to use as $TM_SELECTED_TEXT in the next snippet.
-" See https://github.com/hrsh7th/vim-vsnip/pull/50
-" Lsp config
-"
-"
-"
 lua << EOF 
 
 require'lspconfig'.texlab.setup{}
@@ -1070,12 +1057,10 @@ require'lspconfig'.jsonls.setup{}
 EOF
 
 
-
 lua << EOF
 require'lspconfig'.rust_analyzer.setup{}
 EOF
-" set foldexpr=nvim_treesitter#foldexpr()
-"
+
 lua << EOF
 local nvim_lsp = require('lspconfig')
 -- Use an on_attach function to only map the following keys
@@ -1127,23 +1112,6 @@ EOF
 lua require'lspconfig'.texlab.setup{on_attach=require'completion'.on_attach} 
 
 
-local function setup_servers()
-  require'lspinstall'.setup()
-  local servers = require'lspinstall'.installed_servers()
-  for _, server in pairs(servers) do
-    require'lspconfig'[server].setup{}
-  end
-end
-
-setup_servers()
-
--- Automatically reload after `:LspInstall <server>` so we don't have to restart neovim
-require'lspinstall'.post_install_hook = function ()
-  setup_servers() -- reload installed servers
-  vim.cmd("bufdo e") -- this triggers the FileType autocmd that starts the server
-end
-
-
 " Use <Tab> and <S-Tab> to navigate through popup menu
 inoremap <expr> <up> pumvisible() ? "\<C-n>" : "\<Tab>"
 inoremap <expr> <down> pumvisible() ? "\<C-p>" : "\<S-Tab>"
@@ -1177,7 +1145,8 @@ let g:completion_chain_complete_list = {
       \    {'complete_items': ['snippet', 'tags', 'lsp']},
       \  ]}
 let g:completion_enable_auto_popup = 0
-imap <silent> <M-Space> <Plug>(completion_trigger)
+imap <silent> <M-Space> <Plug>(completion_trigger) 
+
 
 " Neoyank FZF
 "
