@@ -1161,6 +1161,6 @@ nnoremap <leader>1 :FZFNeoyank 1<cr>
 nnoremap <leader>P :FZFNeoyank " P+<cr>
 vnoremap <leader>p :FZFNeoyankSelection +<cr>
 unmap <leader>c
-noremap <leader>c <leader>c<Space>
+map <leader>c <Plug>NERDCommenterToggle
 
 
