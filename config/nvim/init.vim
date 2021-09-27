@@ -1,10 +1,7 @@
 " init.vi
 " call pathogen#infect()  
 call plug#begin('~/.vim/plugged')   
-mkdir -p ~/.local/share/nvim/site/pack/plugins/start
-cd ~/.local/share/nvim/site/pack/plugins/start
-git clone https://github.com/terrortylor/nvim-comment
-
+Plug 'b3nj5m1n/kommentary'
 "Plug 'terrortylor/nvim-comment', { 'branch': 'main' }
 Plug 'kevinhwang91/nvim-bqf'
 Plug 'justinhoward/fzf-neoyank' 
