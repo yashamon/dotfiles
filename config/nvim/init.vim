@@ -49,15 +49,6 @@ Plug 'kyazdani42/nvim-web-devicons'
 Plug 'justinmk/vim-sneak'
 " Plug 'folke/zen-mode.nvim', { 'branch': 'main' }
 Plug 'kyazdani42/blue-moon'
-
-" Plug 'Shougo/neoyank.vim'
-" if has('nvim')
-"   Plug 'Shougo/denite.nvim', { 'do': ':UpdateRemotePlugins' }
-" else
-"   Plug 'Shougo/denite.nvim'
-"   Plug 'roxma/nvim-yarp'
-"   Plug 'roxma/vim-hug-neovim-rpc'
-" endif
 Plug 'Shougo/neoyank.vim'
 if has('nvim')
    Plug 'Shougo/denite.nvim', { 'do': ':UpdateRemotePlugins' }
