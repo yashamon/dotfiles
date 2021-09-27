@@ -1,6 +1,7 @@
 " init.vi
 " call pathogen#infect()  
-call plug#begin('~/.vim/plugged') 
+call plug#begin('~/.vim/plugged')  
+Plug 'terrortylor/nvim-comment'
 Plug 'kevinhwang91/nvim-bqf'
 Plug 'justinhoward/fzf-neoyank' 
 Plug 'stefanhepp/pplatex'
@@ -94,8 +95,8 @@ Plug 'junegunn/fzf.vim'
 "
 "  Plug 'ervandew/supertab'
 
-Plug 'vim-scripts/tComment'
-let g:tcommentMapLeaderOp1=';'
+" Plug 'vim-scripts/tComment'
+" let g:tcommentMapLeaderOp1=';'
 "Plug 'b3nj5m1n/kommentary', { 'branch': 'main' }
 
 
@@ -550,8 +551,8 @@ let g:NERDTreeMapUpdir="<S-h>"
 nnoremap <leader>sv :source $MYVIMRC<CR>
 nnoremap <leader>e :NvimTreeToggle<CR>
 
-sudo snap info neovim
 
+vnoremap <leader>r :s//g<left><left>
 vmap <M-.> t.<CR>h
 nmap <M-.> t.<CR>h
 map <up> <nop>
