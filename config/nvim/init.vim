@@ -15,8 +15,7 @@ Plug 'nvim-lua/completion-nvim'
 Plug 'hrsh7th/vim-vsnip-integ'
 Plug 'neovim/nvim-lspconfig'
 Plug 'nvim-lua/diagnostic-nvim'
-" Plug 'rafamadriz/friendly-snippets', { 'branch': 'main' }
-
+" Plug 'rafamadriz/friendly-snippets'
 " Make sure you use single quotes
 " Shorthand notation; fetches https://github.com/junegunn/vim-easy-align
 " Plug 'junegunn/vim-easy-align'
