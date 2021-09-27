@@ -1153,8 +1153,8 @@ end
 EOF
 
 nnoremap <leader>y :FZFNeoyank<cr>
-""nnoremap <leader>Y :FZFNeoyank  P<cr>
-""vnoremap <leader>y :FZFNeoyankSelection<cr>
+nnoremap <leader>Y :FZFNeoyank  P<cr>
+vnoremap <leader>y :FZFNeoyankSelection<cr>
 
 nnoremap <leader>p :FZFNeoyank +<cr> 
 nnoremap <leader>1 :FZFNeoyank 1<cr>
