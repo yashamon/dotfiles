@@ -417,7 +417,7 @@ let mapleader=';'
 let g:mapleader=';'
 
 "replace the current word in all opened buffers
-map <leader>r :call Replace()<CR>
+map <leader>rr :call Replace()<CR>
 
 " open the error console
 map <leader>cc :botright cope<CR> 
@@ -1175,4 +1175,4 @@ nnoremap <leader>1 :FZFNeoyank 1<cr>
 nnoremap <leader>P :FZFNeoyank " P+<cr>
 vnoremap <leader>p :FZFNeoyankSelection +<cr>
 
-
+Plug 'preservim/nerdcommenter'
