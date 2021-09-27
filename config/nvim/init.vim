@@ -93,7 +93,7 @@ Plug 'vim-pandoc/vim-pandoc-syntax'
 Plug 'junegunn/fzf', { 'do': './install --all' }
 Plug 'junegunn/fzf.vim'
 "
-" " Plug 'Valloric/YouCompleteMe', {'do': './install.py' }
+
 "
 "  Plug 'ervandew/supertab'
 " 'tComment'
