@@ -98,7 +98,8 @@ Plug 'junegunn/fzf.vim'
 "  Plug 'ervandew/supertab'
 
 " Plug 'vim-scripts/tComment'
-" let g:tcommentMapLeaderOp1=';'
+" let g:tcommentMapLeaderOp1=';' 
+"
 "Plug 'b3nj5m1n/kommentary', { 'branch': 'main' }
 
 
@@ -421,7 +422,7 @@ let mapleader=';'
 let g:mapleader=';'
 
 " open the error console
-map <leader>cc :botright cope<CR> 
+"map <leader>cc :botright cope<CR> 
 " move to next error
 map <leader>] :cn<CR>
 " move to the prev error
@@ -430,7 +431,8 @@ map <leader>[ :cp<CR>
 " --- move around splits {
 " move to and maximize the below split 
 map <C-J> <C-W>j<C-W>_
-" move to and maximize the above split 
+"
+"move to and maximize the above split 
 map <C-K> <C-W>k<C-W>_
 " move to and maximize the left split 
 nmap <c-h> <c-w>h<c-w><bar>
@@ -681,7 +683,6 @@ nnoremap <silent> <Leader>y :YRGetElem<CR>
 map ' "
 inoremap <D-]> <C-x><C-]>
 inoremap <C-]> <C-x><C-]>
-map <leader>c <Leader>__
 " text editting mappings
 
 "Extract mappings
