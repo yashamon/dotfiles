@@ -638,7 +638,7 @@ nnoremap <leader>j J
 nnoremap <leader>k K
 map ' "
 nnoremap <Backspace> i<Backspace><Esc>
-"noremap <Leader>c <Leader>c<Space>
+noremap <leader>c <leader>c<Space>
 map <A-/> <Leader>__
 map <A-r>  <C-r>
 map <C-c> gc
@@ -1160,6 +1160,7 @@ nnoremap <leader>p :FZFNeoyank +<cr>
 nnoremap <leader>1 :FZFNeoyank 1<cr>
 nnoremap <leader>P :FZFNeoyank " P+<cr>
 vnoremap <leader>p :FZFNeoyankSelection +<cr>
-
+unmap <leader>c
+noremap <leader>c <leader>c<Space>
 
 
