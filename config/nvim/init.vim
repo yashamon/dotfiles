@@ -547,7 +547,7 @@ nnoremap <leader>sv :source $MYVIMRC<CR>
 nnoremap <leader>e :NvimTreeToggle<CR>
 
 
-vnoremap <leader>r :s//g<left><left>
+vnoremap <leader>rr :s//g<left><left>
 vmap <M-.> t.<CR>h
 nmap <M-.> t.<CR>h
 map <up> <nop>
@@ -1172,4 +1172,3 @@ nnoremap <leader>1 :FZFNeoyank 1<cr>
 nnoremap <leader>P :FZFNeoyank " P+<cr>
 vnoremap <leader>p :FZFNeoyankSelection +<cr>
 
-Plug 'preservim/nerdcommenter'
