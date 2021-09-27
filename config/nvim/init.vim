@@ -97,7 +97,7 @@ Plug 'junegunn/fzf.vim'
 "
 "  Plug 'ervandew/supertab'
 
-" Plug 'vim-scripts/tComment'
+" Plug 'tComment'
 " let g:tcommentMapLeaderOp1=';' 
 " "map <leader>c <Leader>__
 "Plug 'b3nj5m1n/kommentary', { 'branch': 'main' }
