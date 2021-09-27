@@ -1,12 +1,10 @@
-call plug#begin('~/.vim/plugged')     
-Plug 'kabouzeid/nvim-lspinstall', { 'branch': 'main' }
-
+call plug#begin('~/.vim/plugged')    
 Plug 'preservim/nerdcommenter'   
 "Plug 'xolox/vim-easytags'
 Plug 'nvim-lua/plenary.nvim'
 Plug 'windwp/nvim-spectre'
 Plug 'xolox/vim-misc'
-"Plug 'terrortylor/nvim-comment'
+"Plug 'terrortylor/nvim-comment', { 'branch': 'main' }
 Plug 'kevinhwang91/nvim-bqf'
 Plug 'justinhoward/fzf-neoyank' 
 Plug 'stefanhepp/pplatex'
@@ -39,13 +37,14 @@ Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
 " Plug 't9md/vim-smalls'
 Plug 'skywind3000/asyncrun.vim'
 Plug 'kevinhwang91/nvim-bqf', { 'branch': 'main' }
+
 " if you install fzf as system package like `pacman -S fzf` in ArchLinux,
 " please comment next line
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 " highly recommended
 " Plug 'sindrets/diffview.nvim', { 'branch': 'main' }
 " Plug 'sindrets/diffview.nvim', { 'branch': 'main' }
-Plug 'rmagatti/auto-session', { 'branch': 'main' }
+ Plug 'rmagatti/auto-session', { 'branch': 'main' }
 Plug 'kyazdani42/nvim-web-devicons'
 Plug 'justinmk/vim-sneak'
 Plug 'kyazdani42/blue-moon'
@@ -82,6 +81,9 @@ Plug 'junegunn/fzf.vim'
 "
 "
 "  Plug 'ervandew/supertab'
+" 'tComment'
+" let g:tcommentMapLeaderOp1=';' 
+" "map <leader>c <Leader>__
 " Plug 'Shougo/vimproc.vim'
 
 Plug 'easymotion/vim-easymotion'
@@ -517,8 +519,8 @@ hi link EasyMotionShade Comment
    "nmap OD 
 "YankRing
 " " --- Command-T
-" let g:CommandTMaxHeight = 15 
-" -- SuperTab
+" let g:CommandTMaxHeight = 15
+" --- SuperTab
 " let g:SuperTabDefaultCompletionType = "context"
 " let g:SuperTabCompletionContexts = ['s:ContextText', 's:ContextDiscover']
 " let g:SuperTabContextDiscoverDiscovery= ["&completefunc:<c-x><c-u>", "&omnifunc:<c-x><c-o>"]
@@ -527,10 +529,7 @@ hi link EasyMotionShade Comment
 let g:NERDTreeMapUpdir="<S-h>"
 " General mappings, remaps, maps
 "
-" 'tComment'
-" let g:tcommentMapLeaderOp1=';' 
-" "map <leader>c <Leader>__
-
+"
 nnoremap <leader>sv :source $MYVIMRC<CR>
 nnoremap <leader>e :NvimTreeToggle<CR>
 
@@ -805,7 +804,8 @@ nmap  <leader>v <Esc>:w<CR>:VimtexView<CR>
 let g:vimtex_quickfix_mode = 0
 let g:vimtex_fold_enabled = 1 
 let g:vimtex_fold_manual = 1 
-" set foldmethod=expr foldexpr=getline(v:lnum)=~'^\s*'.&commentstring[0]
+
+
 let g:vimtex_fold_types= {
           \ 'preamble' : {},
           \ 'items' : {},
@@ -925,78 +925,16 @@ autocmd FileType qf nnoremap  <buffer> <A>-q :q:Goyo x<CR>
 "Zathura forward search
 " map <Leader>v <Esc>:silent !zathura --synctex-forward <Ctrl+R>=line('.'):1:%:p %:p:h/build/%:r.pdf<CR><CR>
 "source ~/.anyname  
-"au filetype tex filetype indent off 
-
-"  GUI Stuff    
-"
-"
-
+"au filetype tex filetype indent off
+"  GUI Stuff   
 command -nargs=? Guifont call rpcnotify(0, 'Gui', 'SetFont', "\<args\>") | let g:Guifont="<args>"
-let g:Guifont="Source Code Pro Light:h16" 
+let g:Guifont="Source Code Pro Light:h16"
 
-"Git 
-"
-"
+" Deoplete
+
 " map <silent> <leader>g :silent execute "!(cd /root/web2 ; git add . ; git commit -m -a ; git push origin gh-pages) > /dev/null"<CR>
 set directory=$HOME/Downloads
-let g:goyo_width=60  
-
-" vsnip stuff 
-"
-" Use <Tab> and <S-Tab> to navigate through popup menu
-inoremap <expr> <up> pumvisible() ? "\<C-n>" : "\<Tab>"
-inoremap <expr> <down> pumvisible() ? "\<C-p>" : "\<S-Tab>"
-
-" Set completeopt to have a better completion experience
-set completeopt=menuone,noinsert,noselect
-
-" Avoid showing message extra message when using completion
-set shortmess+=c
-" imap <tab> <Plug>(completion_smart_tab)
-" imap <s-tab> <Plug>(completion_smart_s_tab)
-let g:completion_enable_snippet = 'vim-vsnip'
-let g:vsnip_snippet_dir = '$HOME/dotfiles/snippets'
-
-function! PackagerInit()
-  call packager#add('kristijanhusak/vim-packager')
-  call packager#add('nvim-lua/completion-nvim')
-  call packager#add('hrsh7th/vim-vsnip-integ')
-endfunction
-
-" let g:completion_chain_complete_list = {
-"       \ 'default': [
-"       \    {'complete_items': ['lsp']},
-"       \    {'complete_items': ['tags']},
-"       \    {'complete_items': ['snippet']}, 
-"       \    ]}
-
-" Or combine with lsp
-let g:completion_chain_complete_list = {
-      \ 'default': [
-      \    {'complete_items': ['snippet', 'tags', 'lsp']},
-      \  ]}
-let g:completion_enable_auto_popup = 0
-imap <silent> <M-Space> <Plug>(completion_trigger) 
-
-
-let g:vsnip_snippet_dir = '~/dotfiles/snippets'
-imap <expr> <Tab>   vsnip#expandable()  ? '<Plug>(vsnip-expand)'         : '<C-j>'
-smap <expr> <Tab>   vsnip#expandable()  ? '<Plug>(vsnip-expand)'         : '<C-j>'
-
-" Expand or jump
-imap <expr> <Tab>   vsnip#available(1)  ? '<Plug>(vsnip-expand-or-jump)' : '<C-l>'
-smap <expr> <Tab>   vsnip#available(1)  ? '<Plug>(vsnip-expand-or-jump)' : '<C-l>'
-
-" Jump forward or backward
-  imap <expr> <M-j>   vsnip#jumpable(1)   ? '<Plug>(vsnip-jump-next)'      : '<Tab>'
-  smap <expr> <M-j>   vsnip#jumpable(1)   ? '<Plug>(vsnip-jump-next)'      : '<Tab>'
-imap <expr> <M-k> vsnip#jumpable(-1)  ? '<Plug>(vsnip-jump-prev)'      : '<S-Tab>'
-smap <expr> <M-k> vsnip#jumpable(-1)  ? '<Plug>(vsnip-jump-prev)'      : '<S-Tab>'
-
-" Select or cut text to use as $TM_SELECTED_TEXT in the next snippet.
-" See https://github.com/hrsh7th/vim-vsnip/pull/50 
-"
-"
+let g:goyo_width=60
 " fuzzy search
 " function! s:config_fuzzyall(...) abort
 "   return extend(copy({
@@ -1016,34 +954,15 @@ smap <expr> <M-k> vsnip#jumpable(-1)  ? '<Plug>(vsnip-jump-prev)'      : '<S-Tab
 " let g:deoplete#enable_at_startup = 1
 " map <silent> <leader>g :silent call Gitview()
 " map <silent> <leader>g :silent !cd /root/web2 ; git add .<CR>:silent git commit -m -a ; silent !git push origin gh-pages<CR>
+" This is how I use PDFViewer with Neovim and LaTexBox. 
 "
-
-" Quicktex
-" let g:quicktex_trigger="\t"
-" let g:quicktex_tex = {
-"     \' ' : "\<ESC>:call search('<+.*+>')\<CR>\"_c/+>/e\<CR>",
-"     \'m'   : '\( <+++> \) <++>',
-"     \'prf' : "\\begin{proof}\<CR><+++>\<CR>\\end{proof}",
-" \}
+"Load some useful plugins with vundle
 "
-" let g:quicktex_math = {
-"     \' ': "\<ESC>:call search('<+.*+>')\<CR>\"_c/+>/e\<CR>",
-"     \'fr'   : '\mathcal{R} ',
-"     \'eq'   : '= ',
-"     \'set'  : '\{ <+++> \} <++>',
-"     \'frac' : '\frac{<+++>}{<++>} <++>',
-"     \'one'  : '1 ',
-"     \'st'   : ': ',
-"     \'in'   : '\in ',
-"     \'bn'   : '\mathbb{N} ',
-" \}
 "
-" NOTE: You can use other key to expand snippet.
+" hi! link Sneak Normal
+" hi! link SneakScope Normal
 
-" Lsp config install treesitter lua
-
-
-"Treesitter
+"LUA
 
 lua <<EOF
 require'nvim-treesitter.configs'.setup {
@@ -1067,26 +986,74 @@ require'nvim-treesitter.configs'.setup {
   },
 }
 EOF
+" set foldlevel=20
+" set foldmethod=expr
+" set foldexpr=nvim_treesitter#foldexpr()
+" set foldmethod=expr foldexpr=getline(v:lnum)=~'^\s*'.&commentstring[0]
 
-lua << EOF 
+
+" Quicktex
+" let g:quicktex_trigger="\t"
+" let g:quicktex_tex = {
+"     \' ' : "\<ESC>:call search('<+.*+>')\<CR>\"_c/+>/e\<CR>",
+"     \'m'   : '\( <+++> \) <++>',
+"     \'prf' : "\\begin{proof}\<CR><+++>\<CR>\\end{proof}",
+" \}
+"
+" let g:quicktex_math = {
+"     \' ': "\<ESC>:call search('<+.*+>')\<CR>\"_c/+>/e\<CR>",
+"     \'fr'   : '\mathcal{R} ',
+"     \'eq'   : '= ',
+"     \'set'  : '\{ <+++> \} <++>',
+"     \'frac' : '\frac{<+++>}{<++>} <++>',
+"     \'one'  : '1 ',
+"     \'st'   : ': ',
+"     \'in'   : '\in ',
+"     \'bn'   : '\mathbb{N} ',
+" \}
+"
+" NOTE: You can use other key to expand snippet.
+
+" vsnip stuff
+let g:vsnip_snippet_dir = '~/dotfiles/snippets'
+imap <expr> <Tab>   vsnip#expandable()  ? '<Plug>(vsnip-expand)'         : '<C-j>'
+smap <expr> <Tab>   vsnip#expandable()  ? '<Plug>(vsnip-expand)'         : '<C-j>'
+
+" Expand or jump
+imap <expr> <Tab>   vsnip#available(1)  ? '<Plug>(vsnip-expand-or-jump)' : '<C-l>'
+smap <expr> <Tab>   vsnip#available(1)  ? '<Plug>(vsnip-expand-or-jump)' : '<C-l>'
+
+" Jump forward or backward
+  imap <expr> <M-j>   vsnip#jumpable(1)   ? '<Plug>(vsnip-jump-next)'      : '<Tab>'
+  smap <expr> <M-j>   vsnip#jumpable(1)   ? '<Plug>(vsnip-jump-next)'      : '<Tab>'
+imap <expr> <M-k> vsnip#jumpable(-1)  ? '<Plug>(vsnip-jump-prev)'      : '<S-Tab>'
+smap <expr> <M-k> vsnip#jumpable(-1)  ? '<Plug>(vsnip-jump-prev)'      : '<S-Tab>'
+
+" Select or cut text to use as $TM_SELECTED_TEXT in the next snippet.
+" See https://github.com/hrsh7th/vim-vsnip/pull/50
+"
+lua << EOF
 require'lspconfig'.texlab.setup{}
-EOF 
 
+EOF
 lua << EOF
 require'lspconfig'.jsonls.setup{}
 EOF
 
+
+
 lua << EOF
 require'lspconfig'.rust_analyzer.setup{}
 EOF
-
+" set foldexpr=nvim_treesitter#foldexpr()
+"
 lua << EOF
 local nvim_lsp = require('lspconfig')
 -- Use an on_attach function to only map the following keys
 -- after the language server attaches to the current buffer
 local on_attach = function(client, bufnr)
-  ""local function buf_set_keymap(...) vim.api.nvim_buf_set_keymap(bufnr, ...) end
-  ""local function buf_set_option(...) vim.api.nvim_buf_set_option(bufnr, ...) end
+  local function buf_set_keymap(...) vim.api.nvim_buf_set_keymap(bufnr, ...) end
+  local function buf_set_option(...) vim.api.nvim_buf_set_option(bufnr, ...) end
 
   -- Enable completion triggered by <c-x><c-o>
   buf_set_option('omnifunc', 'v:lua.vim.lsp.omnifunc')
@@ -1126,14 +1093,46 @@ for _, lsp in ipairs(servers) do
     }
   }
 end
-lua << EOF
-lua require'lspconfig'.texlab.setup{on_attach=require'completion'.on_attach} 
 EOF
 
+lua require'lspconfig'.texlab.setup{on_attach=require'completion'.on_attach}
 
-" Neoyank FZF
-"
-"
+" Use <Tab> and <S-Tab> to navigate through popup menu
+inoremap <expr> <up> pumvisible() ? "\<C-n>" : "\<Tab>"
+inoremap <expr> <down> pumvisible() ? "\<C-p>" : "\<S-Tab>"
+
+" Set completeopt to have a better completion experience
+set completeopt=menuone,noinsert,noselect
+
+" Avoid showing message extra message when using completion
+set shortmess+=c
+" imap <tab> <Plug>(completion_smart_tab)
+" imap <s-tab> <Plug>(completion_smart_s_tab)
+let g:completion_enable_snippet = 'vim-vsnip'
+let g:vsnip_snippet_dir = '$HOME/dotfiles/snippets'
+
+function! PackagerInit()
+  call packager#add('kristijanhusak/vim-packager')
+  call packager#add('nvim-lua/completion-nvim')
+  call packager#add('hrsh7th/vim-vsnip-integ')
+endfunction
+
+" let g:completion_chain_complete_list = {
+"       \ 'default': [
+"       \    {'complete_items': ['lsp']},
+"       \    {'complete_items': ['tags']},
+"       \    {'complete_items': ['snippet']}, 
+"       \    ]}
+
+" Or combine with lsp
+let g:completion_chain_complete_list = {
+      \ 'default': [
+      \    {'complete_items': ['snippet', 'tags', 'lsp']},
+      \  ]}
+let g:completion_enable_auto_popup = 0
+imap <silent> <M-Space> <Plug>(completion_trigger)
+
+
 nnoremap <leader>y :FZFNeoyank<cr>
 nnoremap <leader>Y :FZFNeoyank " P<cr>
 vnoremap <leader>y :FZFNeoyankSelection<cr>
