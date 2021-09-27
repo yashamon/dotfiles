@@ -550,6 +550,7 @@ let g:NERDTreeMapUpdir="<S-h>"
 nnoremap <leader>sv :source $MYVIMRC<CR>
 nnoremap <leader>e :NvimTreeToggle<CR>
 
+sudo snap info neovim
 
 vmap <M-.> t.<CR>h
 nmap <M-.> t.<CR>h
