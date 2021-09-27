@@ -1070,8 +1070,8 @@ EOF
 
 lua << EOF 
 require'lspconfig'.texlab.setup{}
+EOF 
 
-EOF
 lua << EOF
 require'lspconfig'.jsonls.setup{}
 EOF
@@ -1126,9 +1126,11 @@ for _, lsp in ipairs(servers) do
     }
   }
 end
-EOF
+EOF 
 
+lua << EOF
 lua require'lspconfig'.texlab.setup{on_attach=require'completion'.on_attach} 
+EOF
 
 
 
