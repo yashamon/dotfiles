@@ -5,8 +5,7 @@ Plug 'preservim/nerdcommenter'
 Plug 'nvim-lua/plenary.nvim'
 Plug 'windwp/nvim-spectre'
 Plug 'xolox/vim-misc'
-"Plug 'terrortylor/nvim-comment', { 'branch': 'main' }
-Plug 'kevinhwang91/nvim-bqf'
+"Plug 'terrortylor/nvim-comment'Plug 'kevinhwang91/nvim-bqf'
 Plug 'justinhoward/fzf-neoyank' 
 Plug 'stefanhepp/pplatex'
 " lua require("lsp_config")
