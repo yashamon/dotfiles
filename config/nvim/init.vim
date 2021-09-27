@@ -892,7 +892,7 @@ nmap <leader>p :Denite neoyank -default-action=append<CR>
 
 " NB: this supports "rp that replaces the selection by the contents of @r
 " Auto updating Ctags
-" autocmd VimLeave * exe ":silent ! /usr/local/bin/ctags -R"
+" autocmd VimLeave * exe ":silent ! /usr/local/bin/etags -R"
 map :tags  exe ":silent ! /usr/local/bin/ctags -R"
 
 "Nerd Tree
