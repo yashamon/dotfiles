@@ -99,7 +99,7 @@ Plug 'junegunn/fzf.vim'
 
 " Plug 'vim-scripts/tComment'
 " let g:tcommentMapLeaderOp1=';' 
-"
+" "map <leader>c <Leader>__
 "Plug 'b3nj5m1n/kommentary', { 'branch': 'main' }
 
 
