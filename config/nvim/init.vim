@@ -553,7 +553,7 @@ nnoremap <leader>e :NvimTreeToggle<CR>
 
 vnoremap <m-s> :s///g<left><left><left>
 inoremap <m-s> <esc>:s///g<left><left> 
-nnoremap <m-s> :s//g<left><left> 
+nnoremap <m-s> :s///g<left><left> 
 
 vmap <M-.> t.<CR>h
 nmap <M-.> t.<CR>h
