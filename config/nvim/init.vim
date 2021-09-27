@@ -1,5 +1,6 @@
 call plug#begin('~/.vim/plugged')    
-Plug 'preservim/nerdcommenter'  
+Plug 'preservim/nerdcommenter'   
+Plug '
 Plug 'nvim-lua/plenary.nvim'
 Plug 'windwp/nvim-spectre'
 
@@ -892,7 +893,7 @@ nmap <leader>p :Denite neoyank -default-action=append<CR>
 
 " NB: this supports "rp that replaces the selection by the contents of @r
 " Auto updating Ctags
-" autocmd VimLeave * exe ":silent ! etags -R"
+" autocmd VimLeave * exe ":silent ! ctags -R"
 map :tags  exe ":silent ! /usr/local/bin/ctags -R"
 
 "Nerd Tree
@@ -943,7 +944,7 @@ autocmd FileType qf nnoremap  <buffer> <A>-q :q:Goyo x<CR>
 " map <Leader>v <Esc>:silent !zathura --synctex-forward <Ctrl+R>=line('.'):1:%:p %:p:h/build/%:r.pdf<CR><CR>
 "source ~/.anyname  
 "au filetype tex filetype indent off
-"       GUI Stuff   
+"  GUI Stuff   
 command -nargs=? Guifont call rpcnotify(0, 'Gui', 'SetFont', "\<args\>") | let g:Guifont="<args>"
 let g:Guifont="Source Code Pro Light:h16"
 
