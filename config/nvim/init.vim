@@ -1177,6 +1177,4 @@ nnoremap <leader>1 :FZFNeoyank 1<cr>
 nnoremap <leader>P :FZFNeoyank " P+<cr>
 vnoremap <leader>p :FZFNeoyankSelection +<cr>
 
-asdfafs
-asdf
-asdfk
+
