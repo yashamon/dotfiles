@@ -114,7 +114,8 @@ eval "$(fasd --init auto)"
 # export MANPATH="$HOME/.linuxbrew/share/man:$MANPATH"
 # export INFOPATH="$HOME/.linuxbrew/share/info:$INFOPATH"
 # alias nvim="/snap/bin/nvim"
-alias tmux d="tmux detach"
+alias tmux d="tmux detach" 
+alias nvr="nvr --servername $(<~/servername.txt) --remote-silent"
 alias vifmrc="nvim ~/.config/vifm/vifmrc" 
 alias ls="source ~/bin/vf" 
 alias texi="pdflatex -file-line-error -synctex=1  -interaction=nonstopmode -recorder" 
@@ -372,10 +373,10 @@ bindkey '^[[B' history-substring-search-down
 bindkey -M vicmd 'k' history-substring-search-up
 bindkey -M vicmd 'j' history-substring-search-down
 
-bindkey -M vicmd 'a' autosuggest-accept
+bindkey -M vicmd '<right>' autosuggest-accept 
 bindkey -M vicmd 'E' autosuggest-execute
 
-zinit ice from"gh-r" as"program" bpick"*appimage*" ver"nightly" mv"nvim* -> nvim" pick"nvim"
+zinit ice from"gh-r" as"program" bpick"*appimage.zsync*" ver"nightly" mv"nvim* -> nvim" pick"nvim"
 zinit light neovim/neovim
 #programs
 # zinit ice from"gh-r" as"program"

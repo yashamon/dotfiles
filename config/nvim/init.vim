@@ -1160,7 +1160,7 @@ endfunction
 " Or combine with lsp
 let g:completion_chain_complete_list = {
       \ 'default': [
-      \    {'complete_items': ['snippet', 'lsp', 'tags',]},
+      \    {'complete_items': ['snippet', 'tags', 'lsp']},
       \  ]}
 let g:completion_enable_auto_popup = 0
 imap <silent> <M-Space> <Plug>(completion_trigger)
