@@ -528,7 +528,7 @@ let g:NERDTreeMapUpdir="<S-h>"
 " 'tComment'
 " let g:tcommentMapLeaderOp1=';' 
 " "map <leader>c <Leader>__
-noremap <m-l> viwh<esc>:bprevious<cr>:<s-c-v><cr>
+noremap <m-l> viwh<esc>:bprevious<cr>:<c-r>+<cr>
 nnoremap <leader>sv :source $MYVIMRC<CR>
 nnoremap <leader>e :NvimTreeToggle<CR>
 
@@ -1165,4 +1165,4 @@ map <leader>c <Plug>NERDCommenterToggle
 
 " Replace the default dictionary completion with fzf-based fuzzy completion
 inoremap <expr> <c-x><c-k> fzf#vim#complete('cat /usr/share/dict/words')  
-fuzzy completion
+
