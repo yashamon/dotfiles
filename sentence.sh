@@ -1,5 +1,6 @@
 #! /bin/sh 
  $1 | tr '\n' ' ' | tr '\$' ' ' | tr '\\' ' '| tr '\{' ' '| tr '\}' ' '|    
+awk '{print ln++  ":  "  $0 }' 
  tr '\^' ' ' | tr '\_' ' '| tr '\%' ' ' > more_${1}
 sed 's|\.[[:blank:]]*|&\n''|g' more_${1} > sentence_${1} more_${1} 
 rm more_${1}
