@@ -528,7 +528,7 @@ let g:NERDTreeMapUpdir="<S-h>"
 " 'tComment'
 " let g:tcommentMapLeaderOp1=';' 
 " "map <leader>c <Leader>__
-noremap <m-%> viwh<esc>:<bprevious><cr>:<S-C-v><cr>
+noremap <m-l> viwh<esc>:bprevious<cr>:<s-c-v><cr>
 nnoremap <leader>sv :source $MYVIMRC<CR>
 nnoremap <leader>e :NvimTreeToggle<CR>
 
