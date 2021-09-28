@@ -1,5 +1,5 @@
 #! /bin/sh 
-cat $1 | tr '\n' ' ' | tr '\$' ' ' | tr '\\' ' '| tr '\{' ' '| tr '\}' ' '|    
+ $1 | tr '\n' ' ' | tr '\$' ' ' | tr '\\' ' '| tr '\{' ' '| tr '\}' ' '|    
  tr '\^' ' ' | tr '\_' ' '| tr '\%' ' ' > more_${1}
 sed 's|\.[[:blank:]]*|&\n''|g' more_${1} > sentence_${1} more_${1} 
 rm more_${1}
