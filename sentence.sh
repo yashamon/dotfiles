@@ -1,8 +1,11 @@
 #! /bin/sh 
 awk '{print ln++  ":  "  $0 }' $1 | sed 's|\.[[:blank:]]*|[[:blank:]]N|g' |
-   tr '\n' ' ' | tr '\$' ' ' | tr '\\' ' '| tr '\{' ' '| tr '\}' ' '|  tr '\^' ' ' | tr '\_' ' '| tr '\%' ' ' | sed 's|\.[[:blank:]]*|[[:blank:]]N|g' more_${1} > sentence_${1} 
-rm more_${1}
+   tr '\n' ' ' | tr '\$' ' ' | tr '\\' ' '| tr '\{' ' '| tr '\}' ' '|  tr '\^' ' ' | tr '\_' ' '| tr '\%' ' ' | sed 's|\.[[:blank:]]*|&\n''|g' more_${1} > sentence_${1} 
 
+
+
+awk '{print ln++  ":  "  $0 }' $1 | sed 's|\.[[:blank:]]*|[[:blank:]]N|g' |
+   tr '\n' ' ' | tr '\$' ' ' | tr '\\' ' '| tr '\{' ' '| tr '\}' ' '|  tr '\^' ' ' | tr '\_' ' '| tr '\%' ' ' | sed 's|\.[[:blank:]]*|&\n''|g'  > kan 
 
 #awk '{print ln++  ":  "  $0 }' $1 | tr '\n' ' ' | tr '\$' ' ' | tr '\\' ' '| tr '\{' ' '| tr '\}' ' '|  tr '\^' ' ' | tr '\_' ' '| tr '\%' ' ' > more_${1}
 #sed 's|\.[[:blank:]]*|&\n''|g' more_${1} > sentence_${1} 
