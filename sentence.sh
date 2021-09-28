@@ -7,7 +7,8 @@
 
 #awk '{print ln++  ":  "  $0 }' $1 |  tr '\$' ' ' | tr '\\' ' '| tr '\{' ' '| tr '\}' ' '|  tr '\^' ' ' | tr '\_' ' '| tr '\%' ' ' | tr '\n' ' '| sed 's|\.[[:blank:]]*|&\n''|g' > sentence_${1} 
 
-awk '{print ln++  ":  "  $0 }' kan.tex | sed 's|s\.t\.|''|g' | sed 's|i\.e\.|''|g' |  awk '{gsub("\\.[[:space:]*\\n","\.yay"NR+1": ",$0);print}' | awk '{gsub("\\.\\n","\.\@"NR+1": ",$0);print}' | awk '{gsub("\\.\\s","&"NR": ",$0);print}' | tr '\n' ' ' | tr '\$' ' ' | tr '\\' ' '| tr '\{' ' '| tr '\}' ' '|  tr '\^' ' ' | tr '\_' ' '| tr '\%' ' ' | sed 's|\.\s|&\n''|g'  | sed 's|\.\\@|&\n''|g'> blah
+awk '{print ln++  ":  "  $0 }' kan.tex | sed 's|s\.t\.|''|g' | sed 's|i\.e\.|''|g' |  awk '{gsub("\\.[[:space:]]*\n","\.yay"NR+1": ",$0);print}' | 
+awk -v RS= '{gsub("\\.\\n","\.\@"NR+1": ",$0);print}' | awk '{gsub("\\.\\s","&"NR": ",$0);print}' | tr '\n' ' ' | tr '\$' ' ' | tr '\\' ' '| tr '\{' ' '| tr '\}' ' '|  tr '\^' ' ' | tr '\_' ' '| tr '\%' ' ' | sed 's|\.\s|&\n''|g'  | sed 's|\.\\@|&\n''|g'> blah
 
 
 
