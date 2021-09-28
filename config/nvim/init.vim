@@ -736,7 +736,7 @@ let g:sneak#s_next = 1
 
 " FZF
 "
-noremap <m-%> viw<b>
+noremap <m-%> viw<>:<bp>
 noremap <m-t> :BTags<cr>
 noremap S <Esc>:BLines<CR>    
 noremap L <Esc>:AsyncRun sentence.sh %; nvr sentence_%<CR>
