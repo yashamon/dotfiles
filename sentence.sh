@@ -8,6 +8,7 @@
 awk '{print ln++  ":  "  $0 }' $1 |  tr '\$' ' ' | tr '\\' ' '| tr '\{' ' '| tr '\}' ' '|  tr '\^' ' ' | tr '\_' ' '| tr '\%' ' ' | tr '\n' ' '| sed 's|\.[[:blank:]]*|&\n''|g' > sentence_${1}
 
 
+awk '{print ln++  ":  "  $0 }' kan.tex | | tr '\n' ' ' |awk '{gsub("\\. ","\. "NR": ",$0);print}' | tr '\n' ' ' | tr '\$' ' ' | tr '\\' ' '| tr '\{' ' '| tr '\}' ' '|  tr '\^' ' ' | tr '\_' ' '| tr '\%' ' ' | sed 's|\.[[:blank:]]*|&\n''|g' > blah
 
 #awk '{print ln++  ":  "  $0 }' $1 | sed 's|\.[[:blank:]]*|[[:blank:]]N|g' |
    #tr '\n' ' ' | tr '\$' ' ' | tr '\\' ' '| tr '\{' ' '| tr '\}' ' '|  tr '\^' ' ' | tr '\_' ' '| tr '\%' ' ' | sed 's|\.[[:blank:]]*|&\n''|g'  > kan 
