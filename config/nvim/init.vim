@@ -528,7 +528,7 @@ let g:NERDTreeMapUpdir="<S-h>"
 " 'tComment'
 " let g:tcommentMapLeaderOp1=';' 
 " "map <leader>c <Leader>__
-
+noremap <m-%> viwh<esc>:<bprevious><cr>:<S-C-v>
 nnoremap <leader>sv :source $MYVIMRC<CR>
 nnoremap <leader>e :NvimTreeToggle<CR>
 
@@ -736,7 +736,6 @@ let g:sneak#s_next = 1
 
 " FZF
 "
-noremap <m-%> viwh<esc>:<bprevious><cr>
 noremap <m-t> :BTags<cr>
 noremap S <Esc>:BLines<CR>    
 noremap L <Esc>:AsyncRun sentence.sh %; nvr sentence_%<CR>
