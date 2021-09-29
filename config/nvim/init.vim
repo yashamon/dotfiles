@@ -892,7 +892,8 @@ let g:vifmUseCurrent=1
 
 "Autosave and autocommit
 
-let g:auto_save = 1
+let g:auto_save = 1 
+
  let g:auto_save_in_insert_mode = 0
  let g:auto_save_silent = 0
 autocmd BufWritePost * silent execute 'AsyncRun if git rev-parse --is-inside-work-tree || git rev-parse --git-dir > /dev/null 2>&1 ; then git add % ; git commit -m -a ; git push --all origin; fi'
@@ -1167,7 +1168,7 @@ unmap <leader>c
 map <leader>c <Plug>NERDCommenterToggle
 
 " Replace the default dictionary completion with fzf-based fuzzy completion
-" ;alsdjfsdlfj asldkfjsdl kfj as;lkdf slkfj 
+" ;alsdjfsdlfj asldkfjsdl kfj as;lkdf slkfj asldfjsdfj
 
 inoremap <expr> <c-x><c-k> fzf#vim#complete('cat /usr/share/dict/words')  
 
