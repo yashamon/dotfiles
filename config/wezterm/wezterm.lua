@@ -1,7 +1,10 @@
 
 
 
-local wezterm = require 'wezterm';
+local wezterm = require 'wezterm'; 
+local io = require 'io';
+local os = require 'os';
+
 return {
   font = wezterm.font("Source Code Pro"),
   font_size = 20,
