@@ -530,7 +530,8 @@ let g:NERDTreeMapUpdir="<S-h>"
 " let g:tcommentMapLeaderOp1=';' 
 " "map <leader>c <Leader>__ 
 " FZF lines
-unmap q <nop>
+map q <nop> 
+map <leader>q q
 nnoremap <leader>sv :source $MYVIMRC<CR>
 nnoremap <leader>e :NvimTreeToggle<CR>
 
@@ -1164,6 +1165,7 @@ nnoremap <leader>1 :FZFNeoyank 1<cr>
 nnoremap <leader>P :FZFNeoyank " P+<cr>
 vnoremap <leader>p :FZFNeoyankSelection +<cr>
 unmap <leader>c
+p> 
 map <leader>c <Plug>NERDCommenterToggle
 
 " Replace the default dictionary completion with fzf-based fuzzy completion
