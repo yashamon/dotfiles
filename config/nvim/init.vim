@@ -44,7 +44,7 @@ Plug 'kevinhwang91/nvim-bqf', { 'branch': 'main' }
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 " highly recommended
 " Plug 'sindrets/diffview.nvim', { 'branch': 'main' }
-" Plug 'sindrets/diffview.nvim', { 'branch': 'main' } as;ldfsadjf
+" Plug 'sindrets/diffview.nvim', { 'branch': 'main' } 
 Plug 'rmagatti/auto-session', { 'branch': 'main' }
 Plug 'kyazdani42/nvim-web-devicons'
 Plug 'justinmk/vim-sneak'
