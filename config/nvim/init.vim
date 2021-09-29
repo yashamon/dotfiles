@@ -1,6 +1,7 @@
 call plug#begin('~/.vim/plugged')     
 Plug 'kabouzeid/nvim-lspinstall', { 'branch': 'main' }
-Plug 'preservim/nerdcommenter'   
+Plug 'preservim/nerdcommenter'    
+Plug 'pope/vim-obsession'
 "Plug 'xolox/vim-easytags'
 Plug 'nvim-lua/plenary.nvim'
 Plug 'windwp/nvim-spectre'
@@ -528,7 +529,7 @@ let g:NERDTreeMapUpdir="<S-h>"
 " 'tComment'
 " let g:tcommentMapLeaderOp1=';' 
 " "map <leader>c <Leader>__
-noremap <m-l> viwh<esc>:bprevious<cr>:<c-r>+<cr>
+noremap <m-l> viwhy<esc>:bprevious<cr>:<c-r>+<cr>
 nnoremap <leader>sv :source $MYVIMRC<CR>
 nnoremap <leader>e :NvimTreeToggle<CR>
 
