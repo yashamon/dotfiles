@@ -577,8 +577,8 @@ map 0 g^
 map 9 g$
 
 " map p <Plug>(miniyank-startput)
-" map P <Plug>(<Plug>-startPut)
-" nmap p Plug>(miniyank-autoPut)
+" map P <Plug>(miniyank-startPut)
+" nmap p Plug>(mini<Plug>-autoPut)
 " vmap p <Plug>(miniyank-autoput)
 " vmap P <Plug>(miniyank-autoPut)
 
