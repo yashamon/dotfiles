@@ -558,7 +558,7 @@ noremap <S-ScrollWheelRight> <nop>
 noremap <C-ScrollWheelRight> <nop>
 inoremap \ /
 inoremap / \
-noremap  p "+p  aa;lsdfj aa;lsdfj;la;lsdfj aa;lsdfj more more moreusdfj more more more
+noremap  p "+p  aa;lsdfj aa;lsdfj;la;lsdfj aa;lsdfj aa ma;lsdfj aa;lsdfj more more moreore moreusdfj more more more
 noremap d "dd
 noremap D "dD
 noremap c "_c
