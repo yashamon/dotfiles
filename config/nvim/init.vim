@@ -530,6 +530,7 @@ let g:NERDTreeMapUpdir="<S-h>"
 " let g:tcommentMapLeaderOp1=';' 
 " "map <leader>c <Leader>__ 
 " FZF lines
+unmap q <nop>
 nnoremap <leader>sv :source $MYVIMRC<CR>
 nnoremap <leader>e :NvimTreeToggle<CR>
 
@@ -593,7 +594,7 @@ map <S-b> ?\$<CR>
 map <A-w> /}<CR>
 map <A-b> ?{<CR>
 
-map <C-q> <Esc>:Goyo<CR>
+map <C-q> <Esc>:Goyo<cr>:q<CR>
 map <M-S-q> <Esc>:q!<CR>
 map <M-q> <esc>:exit<C-q>
 map <M-d> <Esc>:bdelete<CR>
