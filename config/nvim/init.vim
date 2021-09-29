@@ -558,13 +558,13 @@ noremap <S-ScrollWheelRight> <nop>
 noremap <C-ScrollWheelRight> <nop>
 inoremap \ /
 inoremap / \
-noremap  p "+p   plus more  
+noremap  p "+p   
 noremap D "dD
 noremap c "_c
 noremap C "_C
 noremap s "_x
 noremap x "+x
-vnoremap y "0y 
+vnoremap y "+y 
 nnoremap y "+y
 " noremap X "0D
 " Softwrap 
