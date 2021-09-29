@@ -20,7 +20,7 @@ Plug 'nvim-lua/completion-nvim'
 Plug 'hrsh7th/vim-vsnip-integ'
 Plug 'neovim/nvim-lspconfig'
 Plug 'nvim-lua/diagnostic-nvim'
-" Plug 'rafamadriz/friendly-snippets'
+" Plug 'rafamadriz/friendly-snippets'  
 " Make sure you use single quotes
 " Shorthand notation; fetches https://github.com/junegunn/vim-easy-align
 " Plug 'junegunn/vim-easy-align'
@@ -44,7 +44,7 @@ Plug 'kevinhwang91/nvim-bqf', { 'branch': 'main' }
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 " highly recommended
 " Plug 'sindrets/diffview.nvim', { 'branch': 'main' }
-" Plug 'sindrets/diffview.nvim', { 'branch': 'main' }
+" Plug 'sindrets/diffview.nvim', { 'branch': 'main' } 
 Plug 'rmagatti/auto-session', { 'branch': 'main' }
 Plug 'kyazdani42/nvim-web-devicons'
 Plug 'justinmk/vim-sneak'
@@ -1167,5 +1167,6 @@ unmap <leader>c
 map <leader>c <Plug>NERDCommenterToggle
 
 " Replace the default dictionary completion with fzf-based fuzzy completion
+" as;dlkfjf  a;lskdfjsfljk
 inoremap <expr> <c-x><c-k> fzf#vim#complete('cat /usr/share/dict/words')  
 
