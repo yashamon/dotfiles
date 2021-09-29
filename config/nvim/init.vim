@@ -530,7 +530,8 @@ let g:NERDTreeMapUpdir="<S-h>"
 " 'tComment'
 " let g:tcommentMapLeaderOp1=';' 
 " "map <leader>c <Leader>__ 
-noremap q <nop>
+noremap q <nop> 
+
 map <leader>q q
 nnoremap <leader>sv :source $MYVIMRC<CR>
 nnoremap <leader>e :NvimTreeToggle<CR>
@@ -569,7 +570,7 @@ noremap x "+x
 vnoremap y "+y 
 nnoremap y "+y 
 nnoremap p "+p 
-nnoremap q "+p
+nnoremap q p
 " Softwrap 
 nmap D dg$
 nmap V vg$
