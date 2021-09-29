@@ -560,7 +560,7 @@ noremap <C-ScrollWheelRight> <nop>
 inoremap \ /
 inoremap / \
 vnoremap p "_dP   
-noremap D "dD
+noremap D "0D
 nnoremap dd "ddd
 noremap c "_c
 noremap C "_C
