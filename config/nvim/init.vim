@@ -890,7 +890,7 @@ map :tags  exe ":silent ! /usr/local/bin/ctags -R"
 let g:vifmLiveCwd=1
 let g:vifmUseCurrent=1
 
-"Autosave and autocommit  al;sdjf a;lskdjf
+"Autosave and autocommit  
 
 let g:auto_save = 1  
 au FileType vim let g:autosave = 0
