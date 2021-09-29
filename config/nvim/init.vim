@@ -560,9 +560,9 @@ inoremap \ /
 inoremap / \
 noremap  p "+p  aa;lsdfj aa;lsdfj more more more
  noremap d "dd
-" noremap D "dD
-" noremap c "_c
-" noremap C "_C
+ noremap D "dD
+ noremap c "_c
+noremap C "_C
 noremap s "_x
 noremap x "+x
 noremap y "+y 
