@@ -8,8 +8,6 @@ return {
   color_scheme = "Batman",
 },
 
-local io = require 'io';
-local os = require 'os';
 
 wezterm.on("trigger-vim-with-scrollback", function(window, pane)
   -- Retrieve the current viewport's text.
@@ -45,3 +43,4 @@ return {
       action=wezterm.action{EmitEvent="trigger-vim-with-scrollback"}},
   }
 }
+
