@@ -1,7 +1,7 @@
 
 
 
-local wezterm = require 'wezterm'; 
+local wezterm = require 'wezterm';
 local io = require 'io';
 local os = require 'os';
 
