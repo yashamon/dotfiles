@@ -969,7 +969,7 @@ let g:goyo_width=60
 
 "LUA
 
-
+require'nvim-tree'.setup()
 
 lua <<EOF
 require'nvim-treesitter.configs'.setup {
