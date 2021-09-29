@@ -77,7 +77,7 @@ Plug 'vim-pandoc/vim-pandoc-syntax'
 "  Plug 'scrooloose/nerdtree', { 'on': 'NERDTreeFind' }
 
  " Plugin outside ~/.vim/plugged with post-update hook
-Plug 'junegunn/fzf', { 'do': './install --all' }
+Plug 'junegunn/fa;sldkfjaszf', { 'do': './install --all' }
 Plug 'junegunn/fzf.vim'
 "
 "
