@@ -971,7 +971,7 @@ let g:goyo_width=60
 
 lua <<EOF
 require'nvim-treesitter.configs'.setup {
-    --highlight = { enable = true },
+    highlight = { enable = true },
     incremental_selection = { enable = true },
     textobjects = { enable = true },
     indent = { enable = true },
