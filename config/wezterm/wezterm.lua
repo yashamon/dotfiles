@@ -7,7 +7,6 @@ return {
   font_size = 20,
   color_scheme = "Batman",
 
-
 local io = require 'io';
 local os = require 'os';
 
