@@ -595,7 +595,7 @@ map <A-b> ?{<CR>
 
 map <C-q> <Esc>:q<CR>
 map <M-S-q> <Esc>:q!<CR>
-map <M-q> <C-q>
+map <M-q> <><C-q>
 map <M-d> <Esc>:bdelete<CR>
 noremap f /
 noremap F ?
@@ -739,7 +739,7 @@ let g:sneak#s_next = 1
 "
 noremap <m-t> :BTags<cr>
 noremap S <Esc>:BLines<CR>    
-noremap L <Esc>:AsyncRun sentence.sh %; nvr sentence_%<CR>:BLines<>  
+noremap L <Esc>:AsyncRun sentence.sh %; nvr sentence_%<CR>:BLines<cr>  
 noremap <m-l> viwhy<esc>:bdelete<cr>:<c-r>+<cr>
 noremap <m-b> <Esc>:Buffers<CR> 
 noremap F <Esc>:GFiles<CR> 
