@@ -568,7 +568,7 @@ noremap s "_x
 noremap x "+x
 vnoremap y "+y 
 nnoremap y "+y 
-nnoremap p "+p
+nnoremap p "+p 
 nmap D dg$
 nmap V vg$
 nmap A g$a 
