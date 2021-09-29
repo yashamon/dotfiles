@@ -736,7 +736,7 @@ map T <Plug>Sneak_S
 let g:sneak#s_next = 1
  let g:sneak#label = 1
 
-" FZF
+" FZF ;alsdkfj
 "
 noremap <m-t> :BTags<cr>
 noremap S <Esc>:BLines<CR>    
