@@ -5,9 +5,14 @@
 #awk '{print ln++  ":  "  $0 }' $1 | sed 's|\.[[:blank:]]*|[[:blank:]]N|g' |
    #tr '\n' ' ' | tr '\$' ' ' | tr '\\' ' '| tr '\{' ' '| tr '\}' ' '|  tr '\^' ' ' | tr '\_' ' '| tr '\%' ' ' | sed 's|\.[[:blank:]]*|&\n''|g' more_${1} > sentence_${1} 
 
-#awk '{print ln++  ":  "  $0 }' $1 |  tr '\$' ' ' | tr '\\' ' '| tr '\{' ' '| tr '\}' ' '|  tr '\^' ' ' | tr '\_' ' '| tr '\%' ' ' | tr '\n' ' '| sed 's|\.[[:blank:]]*|&\n''|g' > sentence_${1}   
+#awk '{print ln++  ":  "  $0 }' $1 |  tr '\$' ' ' | tr '\\' ' '| tr '\{' ' '| tr '\}' ' '|  tr '\^' ' ' | tr '\_' ' '| tr '\%' ' ' | tr '\n' ' '| sed 's|\.[[:blank:]]*|&\n''|g' > sentence_${1}    
 
-awk '{print NR ":  "  $0 }' $1 | awk -v RS= '{gsub(/\.[[:space:]]*\n/,".@\n",$0);print}'| awk -v RS= '{gsub(/\.\n/,".@\n",$0);print}'| awk '{gsub(/\.\s/,"&"NR":++++ ",$0);print}' | tr '\$' ' ' | tr '\\' ' '| tr '\{' ' '| tr '\}' ' '|  tr '\^' ' ' | tr '\_' ' '| tr '\%' ' ' | tr '\n' ' ' | sed 's|\.\s*|&\n''|g'  | sed 's|\.@|&\n''|g'  >  sentence_${1}
+
+awk '{print NR ":  "  $0 }' $1 | awk -v RS= '{gsub(/\.[[:space:]]*\n/,".@???\n",$0);print}'| awk -v RS= '{gsub(/\.\n/,".@%%\n",$0);print}'| awk '{gsub(/\.\s/,"&"NR":++++ ",$0);print}' | tr '\$' ' ' | tr '\\' ' '| tr '\{' ' '| tr '\}' ' '|  tr '\^' ' ' | tr '\_' ' '| tr '\%' ' ' | tr '\n' ' ' | sed 's|\.\s*|&\n''|g'  | sed 's|\.@|&\n''|g'  > sentence_${1}
+
+
+
+#awk '{print NR ":  "  $0 }' $1 | awk -v RS= '{gsub(/\.[[:space:]]*\n/,".@???\n",$0);print}'| awk -v RS= '{gsub(/\.\n/,".@\n",$0);print}'| awk '{gsub(/\.[[:space:]]*/,"&"NR":++++ ",$0);print}' | tr '\$' ' ' | tr '\\' ' '| tr '\{' ' '| tr '\}' ' '|  tr '\^' ' ' | tr '\_' ' '| tr '\%' ' ' | tr '\n' ' ' | sed 's|\.\s*|&\n''|g'  | sed 's|\.@|&\n''|g'  >  sentence_${1}
 
 #awk '{print NR ":  "  $0 }' $1 | awk -v RS= '{gsub(/\.[[:space:]]*\n/,".@\n",$0);print}'| awk '{gsub(/\.[[:space:]]*/,"&"NR":+",$0);print}' | tr '\$' ' ' | tr '\\' ' '| tr '\{' ' '| tr '\}' ' '|  tr '\^' ' ' | tr '\_' ' '| tr '\%' ' ' | tr '\n' ' ' | sed 's|\.\s*|&\n''|g'  | sed 's|\.@|&\n''|g'  >  sentence_${1}
 
