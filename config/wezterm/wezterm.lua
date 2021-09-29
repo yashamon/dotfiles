@@ -3,8 +3,8 @@
 
 local wezterm = require 'wezterm';
 return {
-  font = wezterm.font("Source Code Pro"), 
-  font_size = 22.0,
+  font = wezterm.font("Source Code Pro Light"),
+  font_size = 2,
   color_scheme = "Batman",
 }
 
