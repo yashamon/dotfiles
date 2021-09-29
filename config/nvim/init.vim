@@ -45,7 +45,7 @@ Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 " highly recommended
 " Plug 'sindrets/diffview.nvim', { 'branch': 'main' } 
 " Plug 'sindrets/diffview.nvim', { 'branch': 'main' } 
-Plug 'rmagatti/auto-session', { 'branch': 'main' }
+"Plug 'rmagatti/auto-session', { 'branch': 'main' }
 Plug 'kyazdani42/nvim-web-devicons'
 Plug 'justinmk/vim-sneak'
 Plug 'kyazdani42/blue-moon'
@@ -226,7 +226,7 @@ set tm=500
 " set macmeta
 " auto reload vimrc when editing it
 " autocmd! bufwritepost ~/.config/nvim/init.vim source ~/.config/nvim/init.vim
-"syntax on		" syntax highlight
+syntax on		" syntax highlight
 " set hlsearch		" search highlighting
 "
 if has("gui_running")	" GUI color and font settings
@@ -972,8 +972,9 @@ lua <<EOF
 require'nvim-tree'.setup()
 EOF
 lua <<EOF
-require'nvim-treesitter.configs'.setup {
-    highlight = { enable = true },
+require'nvim-treesitter.configs'.setup { 
+    --
+    --highlight = { enable = true },
     incremental_selection = { enable = true },
     textobjects = { enable = true },
     indent = { enable = true },
@@ -1035,8 +1036,12 @@ set shortmess+=c
 " imap <tab> <Plug>(completion_smart_tab)
 " imap <s-tab> <Plug>(completion_smart_s_tab)
 let g:completion_enable_snippet = 'vim-vsnip'
-let g:vsnip_snippet_dir = '$HOME/dotfiles/snippets'
+let g:vsnip_snippet_dir = '$HOME/dotfiles/snippets' 
 
+" completion nvim
+"
+"
+"
 function! PackagerInit()
   call packager#add('kristijanhusak/vim-packager')
   call packager#add('nvim-lua/completion-nvim')
@@ -1055,7 +1060,7 @@ let g:completion_chain_complete_list = {
       \ 'default': [
       \    {'complete_items': ['snippet', 'tags', 'lsp']},
       \  ]}
-let g:completion_enable_auto_popup = 
+let g:completion_enable_auto_popup = 0
 imap <silent> <M-Space> <Plug>(completion_trigger)
 
 let g:vsnip_snippet_dir = '~/dotfiles/snippets'
