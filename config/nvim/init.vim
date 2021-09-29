@@ -893,7 +893,7 @@ let g:vifmUseCurrent=1
 "Autosave and autocommit
 
 let g:auto_save = 1  
-au FileType vim autocmd User SneakLeave set syntax=tex
+au FileType vim autocmd let g:autosave=1
 
  let g:auto_save_in_insert_mode = 0
  let g:auto_save_silent = 0
