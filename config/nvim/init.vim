@@ -568,7 +568,8 @@ noremap s "_x
 noremap x "+x
 vnoremap y "+y 
 nnoremap y "+y 
-nnoremap p "+p
+nnoremap p "+p 
+nnoremap q "+p
 " Softwrap 
 nmap D dg$
 nmap V vg$

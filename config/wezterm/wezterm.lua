@@ -1,47 +1,89 @@
+-- WezTerm configuration
+---------------------------------------------------------------
 
+local mytable = require "lib/mystdlib".mytable
 
+-- Misc
+------------------------------------------
 
-local wezterm = require 'wezterm';
-local io = require 'io';
-local os = require 'os'; return {
-  font = wezterm.font("Source Code Pro"),
-  font_size = 20,
-  color_scheme = "Batman",
-},
+local cfg_misc = {
+  window_close_confirmation = "NeverPrompt",
+  check_for_updates = false,
 
+  -- Avoid unexpected config breakage and unusable terminal
+  automatically_reload_config = false,
 
-wezterm.on("trigger-vim-with-scrollback", function(window, pane)
-  -- Retrieve the current viewport's text.
-  -- Pass an optional number of lines (eg: 2000) to retrieve
-  -- that number of lines starting from the bottom of the viewport.
-  local scrollback = pane:get_lines_as_text();
+  -- Make sure word selection stops on most punctuations.
+  -- Note that dot (.) & slash (/) are allowed though for
+  -- easy selection of paths.
+  selection_word_boundary = " \t\n{}[]()\"'`,;:@",
 
-  -- Create a temporary file to pass to vim
-  local name = os.tmpname();
-  local f = io.open(name, "w+");
-  f:write(scrollback);
-  f:flush();
-  f:close();
+  hide_tab_bar_if_only_one_tab = true,
 
-  -- Open a new window running vim and tell it to open the file
-  window:perform_action(wezterm.action{SpawnCommandInNewWindow={
-    args={"vim", name}}
-  }, pane)
+  -- Do not hold on exit by default.
+  -- Because the default 'CloseOnCleanExit' can be annoying when exiting with
+  -- Ctrl-D and the last command exited with non-zero: the shell will exit
+  -- with non-zero and the terminal would hang until the window is closed manually.
+  exit_behavior = "Close",
 
-  -- wait "enough" time for vim to read the file before we remove it.
-  -- The window creation and process spawn are asynchronous
-  -- wrt. running this script and are not awaitable, so we just pick
-  -- a number.  We don't strictly need to remove this file, but it
-  -- is nice to avoid cluttering up the temporary file directory
-  -- location.
-  wezterm.sleep_ms(1000);
-  os.remove(name);
-end)
+  -- Pad window to avoid the content to be too close to the border,
+  -- so it's easier to see and select.
+  window_padding = {
+    left = 3, right = 3,
+    top = 3, bottom = 3,
+  },
 
-return {
-  keys = {
-    {key="E", mods="CTRL",
-      action=wezterm.action{EmitEvent="trigger-vim-with-scrollback"}},
-  }
+  -- cf the original issue (mine): https://github.com/wez/wezterm/issues/478 solved for me but not for everyone..
+  -- cf the addition of this flag: https://github.com/wez/wezterm/commit/336f209ede27dd801f989419155e475f677e8244
+  -- OK BUT NO, disabled because it does some weird visual artifacts:
+  --  * About cursor behaviors:
+  --    When a ligature is a the end of the line & the nvim' window
+  --    is a little bit larger than the text so that when the cursor comes
+  --    closer to the window border (and on the ligature), the buffer does
+  --    a side-scroll. Then the cursor does wonky stuff when moving w.r.t that
+  --    end-of-line ligature.
+  --
+  --  * About some symbols display:
+  --    The git above/below arrows on the right of my prompt.
+  --
+  -- experimental_shape_post_processing = true,
 }
+
+-- Colors & Appearance
+------------------------------------------
+
+local cfg_colors = {
+  colors = require("cfg_bew_colors"),
+}
+
+-- Font
+------------------------------------------
+
+local cfg_fonts = require("cfg_fonts")
+
+-- Key/Mouse bindings
+------------------------------------------
+
+-- Key bindings
+local cfg_key_bindings = require("cfg_keys")
+
+-- Mouse bindings
+local cfg_mouse_bindings = require("cfg_mouse")
+
+-- Merge configs and return!
+------------------------------------------
+
+local config = mytable.merge_all(
+  cfg_misc,
+  cfg_colors,
+  cfg_fonts,
+  cfg_key_bindings,
+  cfg_mouse_bindings,
+  {} -- so the last table can have an ending comma for git diffs :)
+)
+
+return config
+
+
+
 
