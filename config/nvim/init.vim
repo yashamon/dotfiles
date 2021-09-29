@@ -1167,6 +1167,6 @@ unmap <leader>c
 map <leader>c <Plug>NERDCommenterToggle
 
 " Replace the default dictionary completion with fzf-based fuzzy completion
-" 'sindrets/  a;lskdfjsfljk as;dlkfjf
+
 inoremap <expr> <c-x><c-k> fzf#vim#complete('cat /usr/share/dict/words')  
 
