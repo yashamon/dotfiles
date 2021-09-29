@@ -969,9 +969,8 @@ let g:goyo_width=60
 
 "LUA
 lua <<EOF
-
 require'nvim-tree'.setup()
-
+EOF
 lua <<EOF
 require'nvim-treesitter.configs'.setup {
     highlight = { enable = true },
