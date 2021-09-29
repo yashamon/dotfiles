@@ -120,7 +120,7 @@ Plug 'NLKNguyen/papercolor-theme'
 " Plug '~/my-prototype-plugin'
 " Add plugins to &runtimepath
 call plug#end()
-syntax on  
+"syntax on  
 " filetype plugin indent on
 "  General Settings  
 "
@@ -226,7 +226,7 @@ set tm=500
 " set macmeta
 " auto reload vimrc when editing it
 " autocmd! bufwritepost ~/.config/nvim/init.vim source ~/.config/nvim/init.vim
-syntax on		" syntax highlight
+"syntax on		" syntax highlight
 " set hlsearch		" search highlighting
 "
 if has("gui_running")	" GUI color and font settings
@@ -274,8 +274,8 @@ au TextYankPost * lua vim.highlight.on_yank {higroup="IncSearch", timeout=150, o
 au TextYankPost * call neoyank#_append()
 " au TextDeletePost * lua vim.highlight.on_delete {higroup="IncSearch", timeout=150, on_visual=true} ;a;sldfjasl fj slj a;slfjasdfj
 
-au FileType tex autocmd User SneakLeave set syntax=tex
-au FileType tex autocmd User SneakEnter set syntax=text
+"au FileType tex autocmd User SneakLeave set syntax=tex
+"au FileType tex autocmd User SneakEnter set syntax=text
 "
 "
 " FUNCTIONS
@@ -1055,7 +1055,7 @@ let g:completion_chain_complete_list = {
       \ 'default': [
       \    {'complete_items': ['snippet', 'tags', 'lsp']},
       \  ]}
-let g:completion_enable_auto_popup = 0
+let g:completion_enable_auto_popup = 
 imap <silent> <M-Space> <Plug>(completion_trigger)
 
 let g:vsnip_snippet_dir = '~/dotfiles/snippets'
