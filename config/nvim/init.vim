@@ -561,6 +561,7 @@ inoremap \ /
 inoremap / \
 vnoremap p "_dP   
 noremap D "dD
+
 noremap c "_c
 noremap C "_C
 noremap s "_x
