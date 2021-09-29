@@ -565,7 +565,7 @@ noremap c "_c
 noremap C "_C
 noremap s "_x
 noremap x "+x
-vnoremap y "+y 
+vnoremap y "0y 
 vnoremap y "+y
 " noremap X "0D
 " Softwrap 
