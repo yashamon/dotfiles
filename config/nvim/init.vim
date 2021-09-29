@@ -269,7 +269,7 @@ au FileType tex silent execute "!echo " . v:servername . " > ~/servername.txt"
 au FileType tex hi SpellBad cterm=undercurl
 au Filetype tex vmap q xi<CR><CR><CR><CR><ESC>kkicom<tab><esc>p<A-j>
 
-" au FileType tex set background=dark 
+" au FileType tex  background=dark 
 au TextYankPost * lua vim.highlight.on_yank {higroup="IncSearch", timeout=150, on_visual=true} 
 au TextYankPost * call neoyank#_append()
 " au TextDeletePost * lua vim.highlight.on_delete {higroup="IncSearch", timeout=150, on_visual=true}
