@@ -561,14 +561,15 @@ inoremap \ /
 inoremap / \
 vnoremap p "_dP   
 noremap D "0D
-nnoremap dd "0dd
+nnoremap dd "ddd
 noremap c "_c
 noremap C "_C
 noremap s "_x
 noremap x "+x
 vnoremap y "+y 
 nnoremap y "+y 
-nnoremap p "+p 
+nnoremap p "+p
+" Softwrap 
 nmap D dg$
 nmap V vg$
 nmap A g$a 
