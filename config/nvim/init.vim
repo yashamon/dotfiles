@@ -593,9 +593,9 @@ map <S-b> ?\$<CR>
 map <A-w> /}<CR>
 map <A-b> ?{<CR>
 
-map <C-q> <Esc>:q<CR>
+map <C-q> <Esc>:Goyo<CR>
 map <M-S-q> <Esc>:q!<CR>
-map <M-q> <><C-q>
+map <M-q> <esc>:exit<C-q>
 map <M-d> <Esc>:bdelete<CR>
 noremap f /
 noremap F ?
