@@ -529,7 +529,6 @@ let g:NERDTreeMapUpdir="<S-h>"
 " 'tComment'
 " let g:tcommentMapLeaderOp1=';' 
 " "map <leader>c <Leader>__ 
-" FZF lines
 noremap q <nop>
 map <leader>q q
 nnoremap <leader>sv :source $MYVIMRC<CR>
@@ -741,7 +740,7 @@ let g:sneak#s_next = 1
 "
 noremap <m-t> :BTags<cr>
 noremap S <Esc>:BLines<CR>    
-noremap L <Esc>:AsyncRun sentence.sh %; nvr sentence_%<CR>:BLines<cr>  
+noremap L <Esc>:AsyncRun sentence.sh %;AsyncRun nvr sentence_%<CR>:BLines<cr>  
 noremap <m-l> viwhy<esc>:bdelete<cr>:<c-r>+<cr>
 noremap <m-b> <Esc>:Buffers<CR> 
 noremap F <Esc>:GFiles<CR> 
