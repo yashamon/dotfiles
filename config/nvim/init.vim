@@ -271,7 +271,7 @@ au Filetype tex vmap q xi<CR><CR><CR><CR><ESC>kkicom<tab><esc>p<A-j>
 
 " au FileType tex set background=dark
 au TextYankPost * lua vim.highlight.on_yank {higroup="IncSearch", timeout=150, on_visual=true} 
-au TextYankPost * call neoyank_append()
+au TextYankPost * call neoyank#_append()
 " au TextDeletePost * lua vim.highlight.on_delete {higroup="IncSearch", timeout=150, on_visual=true}
 
 au FileType tex autocmd User SneakLeave set syntax=tex
