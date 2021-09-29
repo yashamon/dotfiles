@@ -968,6 +968,7 @@ let g:goyo_width=60
 " hi! link SneakScope Normal
 
 "LUA
+lua <<EOF
 
 require'nvim-tree'.setup()
 
