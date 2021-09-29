@@ -762,7 +762,7 @@ function! ToggleQuickFix()
     if empty(filter(getwininfo(), 'v:val.quickfix'))
         VimtexErrors
     else
-        cclose Goyo x
+        cclose;Goyo x
     endif
 endfunction
 
