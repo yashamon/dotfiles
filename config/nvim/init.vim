@@ -50,7 +50,7 @@ Plug 'kyazdani42/nvim-web-devicons'
 Plug 'justinmk/vim-sneak'
 Plug 'kyazdani42/blue-moon'
 "Plug 'Shougo/neoyank.vim' a;sldkfj as;ldfjsa f a;lskfj slfj a;lsdfkjs
-"dflkjsd;l fkjasfljkd
+"dflkjsd;l fkjasfljkd a;sldfkjsal ;fjs;l f
 if has('nvim')
    Plug 'Shougo/denite.nvim', { 'do': ':UpdateRemotePlugins' }
  else
