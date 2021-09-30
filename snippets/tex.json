@@ -831,9 +831,6 @@
         "description": "The equivalent of \"\\t\", also known as \"Tab\""
     }, 
 
-snippet color "color"
-\textcolor{$1}{$2}$0 
-endsnippet
 "Color": {
         "prefix": ["col"],
         "body": [
