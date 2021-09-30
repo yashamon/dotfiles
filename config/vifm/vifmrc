@@ -33,7 +33,7 @@ filetype *.pdf,*.dvi,*.ps
        \ zathura %f 
 filetype *.djvu
        \ zathura %f  
-filetype *.md, *.tex, *.txt
+filetype *.md, *.tex, *.txt, *.sh
        \ nvim %f
 filetype *.fb2
        \ fbreader %f 
