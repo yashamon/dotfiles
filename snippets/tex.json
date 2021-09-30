@@ -14,7 +14,7 @@
     "description": "dots"
     }, 
 "super set": {
-    "prefix": "supset",
+    "prefix": "sups",
     "body": [
         "\\supset $0"
        ],
