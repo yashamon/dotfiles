@@ -138,8 +138,10 @@
       "\t\\label{remark:$1}",
       "\\end{remark}",
       "$0"
-    ],
-      },
+   ],
+    "description": "proposition"
+  }, 
+ 
  "lemma": {
     "prefix": "lem",
     "body": [
