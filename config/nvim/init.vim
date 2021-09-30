@@ -1188,6 +1188,4 @@ inoremap <expr> <c-x><c-k> fzf#vim#complete('cat /usr/share/dict/words')
 let g:agit_enable_auto_refresh = 1
 let g:agit_max_author_name_width =1
 let g:agit_log_width = 10 
-set spelllang=en
-set spell
 
