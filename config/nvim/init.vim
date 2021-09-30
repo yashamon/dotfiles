@@ -771,10 +771,12 @@ let g:latex_view_general_viewer = 'zathura'
 let g:vimtex_view_method = "zathura"
 let g:vimtex_indent_enabled =0 
 let g:vimtex_syntax_enabled=0  
-noremap L <Esc>:AsyncRun sentence.sh %;nvr sentence_%<cr>:echo 'press any key'<cr>:execute 'call getchar()' | BLines<cr>
+"noremap L <Esc>:AsyncRun sentence.sh %;nvr sentence_%<cr>:echo 'press any key'<cr>:execute 'call getchar()' | BLines<cr> 
+noremap L <Esc> :call Blah()<cr>
+
 
 function! Blah() 
-  AsyncRun sentence.sh % / nvr sentence_% 
+  AsyncRun sentence.sh %; nvr sentence_% 
   call getchar()
   BLines
 endfunction
