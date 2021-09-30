@@ -78,7 +78,7 @@ Plug 'sainnhe/gruvbox-material'
 Plug 'vim-pandoc/vim-pandoc'
 Plug 'vim-pandoc/vim-pandoc-syntax' 
 
-"  Plug 'scrooloose/nerdtree', { 'on': 'NERDTreeFind' }
+Plug 'scrooloose/nerdtree', { 'on': 'NERDTreeFind' }
 
  " Plugin outside ~/.vim/plugged with post-update hook
 Plug 'junegunn/fzf', { 'do': './install --all' }
