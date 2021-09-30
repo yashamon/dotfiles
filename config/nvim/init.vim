@@ -773,7 +773,7 @@ let g:vimtex_indent_enabled =0
 let g:vimtex_syntax_enabled=0  
 noremap L <Esc>:AsyncRun sentence.sh %;nvr sentence_%<cr>:echo 'press any key'<cr>:execute 'call getchar()' | BLines<cr>
 
-function! blah() 
+function! Blah() 
   AsyncRun sentence.sh %;nvr sentence_%<cr> 
    
   
