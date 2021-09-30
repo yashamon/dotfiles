@@ -837,7 +837,7 @@ endsnippet
 "Color": {
         "prefix": ["col"],
         "body": [
-            "\\begin{definition}\\label{def:$1}", 
+            "", 
             "\t$0",
             "\\end{definition}"
         ],
