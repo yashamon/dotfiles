@@ -776,7 +776,6 @@ noremap L <esc>:call Blah()<cr>
 
 function! Blah() 
   AsyncRun sentence.sh %; nvr sentence_% 
-  call getchar()
   BLines
 endfunction
 
