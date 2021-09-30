@@ -830,6 +830,15 @@
         "body": ["\\indent "],
         "description": "The equivalent of \"\\t\", also known as \"Tab\""
     },
+"Color": {
+        "prefix": ["col", "\\definition"],
+        "body": [
+            "\\begin{definition}\\label{def:$1}", 
+            "\t$0",
+            "\\end{definition}"
+        ],
+        "description": "Insert a definition, whose style is already defined in the template. The serial number is automatically generated according to the section."
+    },
 
     "Definition": {
         "prefix": ["def", "\\definition"],
