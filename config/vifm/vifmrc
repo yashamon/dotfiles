@@ -27,7 +27,7 @@ windo normal zo
 map H <C-w>h
 map L <C-w>l 
 
-filetype  ^([^.]+)$ open
+filetype ^([^.]+)$ open %c
 filetype *.jpg,*.jpeg,*.png,*.gif
        \ {View in feh}
        \ feh -FZ %d --start-at %d/%c 2>/dev/null
