@@ -1185,4 +1185,5 @@ map <leader>c <Plug>NERDCommenterToggle
 inoremap <expr> <c-x><c-k> fzf#vim#complete('cat /usr/share/dict/words')  
 
 
-g:agit_enable_auto_refresh			*g:agit_enable_auto_refresh*
+let g:agit_enable_auto_refresh = 1
+
