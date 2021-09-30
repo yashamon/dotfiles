@@ -14,7 +14,7 @@
     "description": "dots"
     }, 
 "super set": {
-    "prefix": "sset",
+    "prefix": "supset",
     "body": [
         "\\supset $0"
        ],
@@ -136,7 +136,7 @@
     "body": [
       "\\begin{remark}", 
       "\t\\label{remark:$1}",
-      "\\end{lemma}",
+      "\\end{remark}",
       "$0"
     ],
 
