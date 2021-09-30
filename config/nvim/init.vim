@@ -774,7 +774,6 @@ let g:vimtex_syntax_enabled=0
 "noremap L <Esc>:AsyncRun sentence.sh %;nvr sentence_%<cr>:echo 'press any key'<cr>:execute 'call getchar()' | BLines<cr> 
 noremap L <esc>:call Blah()<cr>
 
-
 function! Blah() 
   AsyncRun sentence.sh %; nvr sentence_% 
   call getchar()
