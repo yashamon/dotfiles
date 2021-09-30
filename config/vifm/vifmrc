@@ -12,7 +12,7 @@ nnoremap w :view<cr>
 noremap t :tabnew<cr>
 noremap <Aleft> gt
 noremap <right> Gt
-noremap <right> Gt
+noremap e :edit<>
 
 map f / 
 map sh <esc>:sh<cr>
