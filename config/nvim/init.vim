@@ -540,7 +540,7 @@ let g:NERDTreeMapUpdir="<S-h>"
 noremap q <nop> 
 map <leader>q q
 nnoremap <leader>sv :source $MYVIMRC<CR>
-"nnoremap <leader>e :NvimTreeToggle<CR>
+"nnoremap <leader>e :NERDTreeFind<CR>
 
 
 vnoremap <m-s> :s///gc<left><left><left><left> 
