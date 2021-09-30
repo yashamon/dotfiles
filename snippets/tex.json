@@ -131,8 +131,8 @@
       ],
     "description": "proposition"
   }, 
-"lemma": {
-    "prefix": "lem",
+"remark": {
+    "prefix": "rem",
     "body": [
       "\\begin{lemma}", 
       "\t\\label{lemma:$1}",
