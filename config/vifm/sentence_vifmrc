@@ -1,0 +1,54 @@
+1:  " vim: filetype=vifm : 2:  " You can edit this file by hand.
+@??? 3:   4:  " ------------------------------------------------------------------------------ 5:  set runexec 6:  command Q :execute '!echo  d > ~/.
+config/vifm/lastdir' | quit 7:  command sacd sacd extract -2 -s -c -i  f  8:  command diff nvim -d  f  F 9:  command nautilus nautilus  f  10:  command sacddir for f in */*.
+iso ; do sacd extract -2 -s -c -i " f" ; done 11:  nnoremap w :view<cr> 12:  noremap t :tabnew<cr> 13:  noremap <Aleft> gt 14:  noremap <right> Gt 15:  noremap e :edit<cr> 16:   17:  map f /  18:  map sh <esc>:sh<cr> 19:  map <m-q> <ESC>:execute '!echo  d > ~/.
+config/vifm/lastdir'| quit <CR> 20:  map F ? 21:  map JW :cd ~/workspace<CR> 22:  map JD :cd ~/dotfiles<CR> 23:  map JO :cd ~/Downloads<CR> 24:  map JM :cd /media/removable/USB  Drive<CR> 25:  map J <C-d> 26:  map K <C-u> 27:  windo normal zo 28:  map H <C-w>h 29:  map L <C-w>l  30:   31:  filetype *.
+jpg,*.
+jpeg,*.
+png,*.
+gif 32:            View in feh  33:           feh -FZ  d --start-at  d/ c 2>/dev/null 34:  filetype *.
+pdf,*.
+dvi,*.
+ps 35:           zathura  f  36:  filetype *.
+djvu 37:           zathura  f   38:  filetype *.
+md, *.
+tex, *.
+txt, *.
+sh 39:           nvim  f 40:  filetype *.
+fb2 41:           fbreader  f  42:  filetype *.
+epub 43:           fbreader  f 44:  filetype *.
+avi,*.
+mkv 45:           vlc  f 46:  command link ln -s  d/ f  D 47:   48:  filetype *.
+jpg,*.
+jpeg,*.
+png,*.
+gif feh  f 2>/dev/null & 49:  filetype *.
+md5 md5sum -c  f 50:  " This is the actual command used to start vi. 
+50:++++  The default is vim.
+@??? 51:  " If you would like to use another vi clone such Elvis or Vile 52:  " you will need to change this setting.
+@??? 53:   54:  set vicmd=nvim 55:  " set vicmd=elvis  -G  termcap 56:  " set vicmd=vile 57:   58:  " Trash Directory 59:  " The default is to move files that are deleted with dd or :d to 60:  " the trash directory. 
+60:++++  If you change this you will not be able to move 61:  " files by deleting them and then using p to put the file in the new location.
+@??? 62:  " I recommend not changing this until you are familiar with vifm.
+@??? 63:  " This probably shouldn't be an option.
+@??? 64:   65:  set trash 66:   67:  " This is how many directories to store in the directory history.
+@??? 68:   69:  set history=1000 70:   71:  " Automatically resolve symbolic links on l or Enter.
+@??? 72:   73:  set nofollowlinks 74:   75:  " With this option turned on you can run partially entered commands with 76:  " unambiguous beginning using :! (e.
+g. 
+76:++++ :!Te instead of :!Terminal or :!Te<tab>).
+@??? 77:   78:  set fastrun 79:   80:  " Natural sort of (version) numbers within text.
+@??? 81:   82:  set sortnumbers 83:   84:  " Maximum number of changes that can be undone.
+@??? 85:   86:  set undolevels=1000 87:   88:  " If you installed the vim.
+txt help file set vimhelp.
+@??? 89:  " If would rather use a plain text help file set novimhelp.
+@??? 90:   91:  set novimhelp 92:   93:  " If you would like to run an executable file when you 94:  " press return on the file name set this.
+@??? 95:   96:  " Use KiB, MiB, .
+.
+. 
+96:++++ instead of KB, MB, .
+.
+.
+@??? 97:   98:  set noiec 99:   100:  " Selected color scheme 101:   102:  colorscheme solarized-dark 103:   104:  " The FUSE HOME directory will be used as a root dir for all FUSE mounts.
+@??? 105:  " Unless it exists with write/exec permissions set, vifm will attempt to 106:  " create it.
+@??? 107:   108:  set fusehome=/tmp/vifm FUSE 109:   110:  " Format for displaying time in file list. 
+110:++++ For example: 111:  " TIME STAMP FORMAT= m/ d- H: M 112:  " See man date or man strftime for details.
+@??? 113:   114:  set timefmt= m/ d   H: M 115:   116:  " Show list of matches on tab complition in command-line mode 117:   118:  set wildmenu 119:   120:  " Ignore case in search patterns unless it contains at least one uppercase 121:  " letter 122:   123:  set ignorecase 124:  set smartcase 125:   126:  " Don't highlight search results automatically 127:   128:  set nohlsearch 129:   130:  " Use increment searching (search while typing) 131:  set incsearch 132:   133:  " Try to leave some space from cursor to upper/lower border in lists 134:   135:  set scrolloff=4 136:   137:  " Don't do to much requests to slow file systems 138:   139:  set slowfs=curlftpfs 140:   141:  " Set custom status line look 142:   143:  set statusline="   t =  A  10u: -7g  15s  20d  " 144:   145:  " ------------------------------------------------------------------------------ 146:   147:  " :mark mark /full/directory/path [filename] 148:  set runexec 149:   
