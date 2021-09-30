@@ -831,7 +831,7 @@
         "description": "The equivalent of \"\\t\", also known as \"Tab\""
     },
 "Color": {
-        "prefix": ["col", "\\definition"],
+        "prefix": ["col"],
         "body": [
             "\\begin{definition}\\label{def:$1}", 
             "\t$0",
