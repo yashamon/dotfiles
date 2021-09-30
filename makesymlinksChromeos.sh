@@ -98,10 +98,10 @@ git config --global user.email "yasha.savelyev@gmail.com"
 sudo apt install python3 kitty python-pip zathura zathura-ps zathura-djvu xdotool inkscape texlive texlive-base texlive-latex-base texlive-pstricks texlive-science texlive-xetex latexmk xclip fasd python3-pip vifm universal-ctags ripgrep sed gitk  
 build-essential procps curl file git autoconf  automake 
   cmake 
-  g++ \
-  gettext \
-  libncurses5-dev \
-  libtool \
+  g++ 
+  gettext 
+  libncurses5-dev 
+  libtool 
   libtool-bin \
   libunibilium-dev \
   libunibilium4 \
