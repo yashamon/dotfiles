@@ -271,7 +271,8 @@ endif
 autocmd BufReadPost * if @% !~# '\.git[\/\\]COMMIT_EDITMSG$' && line("'\"") > 1 && line("'\"") <= line("$") | exe "normal! g`\"" | endif 
 au FileType Makefile set noexpandtab  
 au FileType tex set spelllang=en
-au FileType tex set spell   
+au FileType tex set spell    
+au syntax sync fromstart
 au FileType tex silent execute "!echo " . v:servername . " > ~/servername.txt"   
 au FileType tex hi SpellBad cterm=undercurl
 au Filetype tex vmap q xi<CR><CR><CR><CR><ESC>kkicom<tab><esc>p<A-j>
@@ -540,7 +541,7 @@ let g:NERDTreeMapUpdir="<S-h>"
 noremap q <nop> 
 map <leader>q q
 nnoremap <leader>sv :source $MYVIMRC<CR>
-"nnoremap <leader>e :NERDTreeFind<CR>
+nnoremap <leader>e :NERDTreeFind<CR>
 
 
 vnoremap <m-s> :s///gc<left><left><left><left> 
