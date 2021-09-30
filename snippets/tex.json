@@ -830,6 +830,7 @@
         "body": ["\\indent "],
         "description": "The equivalent of \"\\t\", also known as \"Tab\""
     },
+
     "Definition": {
         "prefix": ["def", "\\definition"],
         "body": [
