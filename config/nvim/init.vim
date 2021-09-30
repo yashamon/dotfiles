@@ -1,4 +1,6 @@
-call plug#begin('~/.vim/plugged')      
+call plug#begin('~/.vim/plugged')        
+Plug 'voldikss/vim-floaterm'
+"Plug 'vifm/vifm'
 "Plug 'TimUntersberger/neogit' 
 "Plug 'tpope/vim-fugitive' 
 "Plug 'junegunn/gv.vim'
