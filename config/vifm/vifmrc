@@ -25,7 +25,9 @@ map J <C-d>
 map K <C-u>
 windo normal zo
 map H <C-w>h
-map L <C-w>l
+map L <C-w>l 
+
+filetype * open %c
 filetype *.jpg,*.jpeg,*.png,*.gif
        \ {View in feh}
        \ feh -FZ %d --start-at %d/%c 2>/dev/null
@@ -145,5 +147,4 @@ set statusline="  %t%= %A %10u:%-7g %15s %20d  "
 " ------------------------------------------------------------------------------
 
 " :mark mark /full/directory/path [filename]
-set runexec
 
