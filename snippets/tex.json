@@ -837,9 +837,8 @@ endsnippet
 "Color": {
         "prefix": ["col"],
         "body": [
-            "\textcolor{$1}{$2}$0", 
-            "\\end{definition}"
-        ],
+            "\\textcolor{$1}{$2}$0"
+            ],
         "description": "Insert a definition, whose style is already defined in the template. The serial number is automatically generated according to the section."
     },
 
