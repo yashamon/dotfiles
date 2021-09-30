@@ -544,7 +544,9 @@ noremap q <nop>
 map <leader>q q
 nnoremap <leader>sv :source $MYVIMRC<CR>
 "nnoremap <leader>e :NERDTreeFind<CR> 
-nnoremap <leader>e :FloatermNew vifm<>
+nnoremap <leader>e :FloatermNew vifm<cr> 
+nnoremap <leader>t :FloatermToggle<cr> 
+
 
 
 vnoremap <m-s> :s///gc<left><left><left><left> 
