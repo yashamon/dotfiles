@@ -754,7 +754,8 @@ let g:sneak#s_next = 1
 "
 noremap <m-t> :BTags<cr>
 noremap S <Esc>:BLines<CR>    
-noremap L <Esc>:AsyncRun sentence.sh %;nvr sentence_%<CR> 
+noremap L <Esc>:AsyncRun sentence.sh %;nvr sentence_%;echo 'press any key'<bar>
+  \ call getchar() <bar> <CR>
 noremap <m-l> viwhy<esc>:bdelete<cr>:<c-r>+<cr>:Goyo x<cr>
 noremap <m-b> <Esc>:Buffers<CR> 
 noremap F <Esc>:GFiles<CR> 
