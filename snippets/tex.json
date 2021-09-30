@@ -833,7 +833,7 @@
     "Definition": {
         "prefix": ["def", "\\definition"],
         "body": [
-            "\\begin{definition}[${1:name of the definition}]",
+            "\\begin{definition}[\lab${1:name of the definition}]",
             "\t$0",
             "\\end{definition}"
         ],
