@@ -1,5 +1,7 @@
 call plug#begin('~/.vim/plugged')      
-Plug 'TimUntersberger/neogit'
+"Plug 'TimUntersberger/neogit' 
+Plug 'tpope/vim-fugitive'
+Plug 'junegunn/gv.vim'
 Plug 'kabouzeid/nvim-lspinstall', { 'branch': 'main' }
 Plug 'preservim/nerdcommenter'    
 "Plug 'pope/vim-obsession'
@@ -44,7 +46,7 @@ Plug 'kevinhwang91/nvim-bqf', { 'branch': 'main' }
 " please comment next line
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 " highly recommended
-" Plug 'sindrets/diffview.nvim', { 'branch': 'main' } 
+Plug 'sindrets/diffview.nvim', { 'branch': 'main' } 
 " Plug 'sindrets/diffview.nvim', { 'branch': 'main' } 
 "Plug 'rmagatti/auto-session', { 'branch': 'main' }
 Plug 'kyazdani42/nvim-web-devicons'
@@ -1213,7 +1215,7 @@ neogit.setup {
     --   }
     -- }
     --
-    diffview = false  
+    diffview = true  
   },
   -- override/add mappings
   mappings = {
