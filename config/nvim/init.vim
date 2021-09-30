@@ -1,4 +1,5 @@
-call plug#begin('~/.vim/plugged')     
+call plug#begin('~/.vim/plugged')      
+
 Plug 'kabouzeid/nvim-lspinstall', { 'branch': 'main' }
 Plug 'preservim/nerdcommenter'    
 "Plug 'pope/vim-obsession'
