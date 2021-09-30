@@ -32,7 +32,9 @@ filetype *.jpg,*.jpeg,*.png,*.gif
 filetype *.pdf,*.dvi,*.ps
        \ zathura %f 
 filetype *.djvu
-       \ zathura %f 
+       \ zathura %f  
+filetype *.md, *.tex, *.txt
+       \ nvim %f
 filetype *.fb2
        \ fbreader %f 
 filetype *.epub
@@ -143,4 +145,5 @@ set statusline="  %t%= %A %10u:%-7g %15s %20d  "
 " ------------------------------------------------------------------------------
 
 " :mark mark /full/directory/path [filename]
+set runexec
 
