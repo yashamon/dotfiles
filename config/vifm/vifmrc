@@ -12,7 +12,7 @@ nnoremap w :view<cr>
 noremap t :tabnew<cr>
 noremap <Aleft> gt
 noremap <right> Gt
-noremap e :edit<>
+noremap e :edit<cr>
 
 map f / 
 map sh <esc>:sh<cr>
@@ -92,8 +92,6 @@ set novimhelp
 
 " If you would like to run an executable file when you
 " press return on the file name set this.
-
-set norunexec
 
 " Use KiB, MiB, ... instead of KB, MB, ...
 
