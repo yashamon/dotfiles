@@ -127,7 +127,8 @@ call plug#end()
 "syntax on  
 " filetype plugin indent on
 "  General Settings  
-"
+" 
+
 set switchbuf=newtab
 set t_ut=
 " let g:python3_host_prog='/usr/bin/python3.9'
@@ -267,8 +268,11 @@ endif
 
 
 autocmd BufReadPost * if @% !~# '\.git[\/\\]COMMIT_EDITMSG$' && line("'\"") > 1 && line("'\"") <= line("$") | exe "normal! g`\"" | endif 
-au FileType Makefile set noexpandtab 
-au FileType tex set spell  
+au FileType Makefile set noexpandtab  
+set spelllang=en
+au FileType tex set spell   
+set spell
+
 au FileType tex silent execute "!echo " . v:servername . " > ~/servername.txt"   
 au FileType tex hi SpellBad cterm=undercurl
 au Filetype tex vmap q xi<CR><CR><CR><CR><ESC>kkicom<tab><esc>p<A-j>
