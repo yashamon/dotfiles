@@ -161,7 +161,8 @@ set guicursor=n-v-c:block,i-ci-ve:ver25,r-cr:hor20,o:hor50
   " autocmd BufWinEnter *.* silent loadview
    " set foldcolumn=2
 "  highlight foldcolumn ctermfg=256 ctermbg=bg
-" autocmd Colorscheme * highlight FoldColumn guifg=black guibg=bg
+" autocmd Colorscheme * highlight FoldColumn guifg=black guibg=bg 
+set spelllang=en
 au VIMEnter set spell
  set timeout
    set timeoutlen=0
@@ -269,10 +270,8 @@ endif
 
 autocmd BufReadPost * if @% !~# '\.git[\/\\]COMMIT_EDITMSG$' && line("'\"") > 1 && line("'\"") <= line("$") | exe "normal! g`\"" | endif 
 au FileType Makefile set noexpandtab  
-set spelllang=en
+au FileType tex set spelllang=en
 au FileType tex set spell   
-set spell
-
 au FileType tex silent execute "!echo " . v:servername . " > ~/servername.txt"   
 au FileType tex hi SpellBad cterm=undercurl
 au Filetype tex vmap q xi<CR><CR><CR><CR><ESC>kkicom<tab><esc>p<A-j>
