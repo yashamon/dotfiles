@@ -19,7 +19,7 @@ Plug 'hrsh7th/vim-vsnip'
 Plug 'svermeulen/vim-cutlass'
 Plug 'kristijanhusak/completion-tags'
 Plug 'kyazdani42/nvim-web-devicons' " for file icons
-"Plug 'kyazdani42/nvim-tree.lua', 
+Plug 'kyazdani42/nvim-tree.lua', 
 Plug 'nvim-lua/completion-nvim'
 Plug 'hrsh7th/vim-vsnip-integ'
 Plug 'neovim/nvim-lspconfig'
