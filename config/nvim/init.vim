@@ -750,11 +750,11 @@ map T <Plug>Sneak_S
 let g:sneak#s_next = 1
  let g:sneak#label = 1
 
-" FZF a;lskdfjsalfj slfjs f;lsajdf ;alskdjf;salk jfsld;f j;k ajsd;kj
+" FZF 
 "
 noremap <m-t> :BTags<cr>
 noremap S <Esc>:BLines<CR>    
-noremap L <Esc>:AsyncRun sentence.sh %;nvr sentence_%<cr>:echo 'press any key'<cr>:call getchar() | call getchar() | BLines<cr>
+noremap L <Esc>:AsyncRun sentence.sh %;nvr sentence_%<cr>:echo 'press any key'<cr>:call getchar() | call getchar()<cr>: BLines<cr>
 noremap <m-l> viwhy<esc>:bdelete<cr>:<c-r>+<cr>:Goyo x<cr>
 noremap <m-b> <Esc>:Buffers<CR> 
 noremap F <Esc>:GFiles<CR> 
