@@ -1,7 +1,8 @@
 call plug#begin('~/.vim/plugged')      
 "Plug 'TimUntersberger/neogit' 
-"Plug 'tpope/vim-fugitive'
+"Plug 'tpope/vim-fugitive' 
 "Plug 'junegunn/gv.vim'
+Plug 'cohama/agit.vim'
 Plug 'kabouzeid/nvim-lspinstall', { 'branch': 'main' }
 Plug 'preservim/nerdcommenter'    
 "Plug 'pope/vim-obsession'
@@ -1184,3 +1185,4 @@ map <leader>c <Plug>NERDCommenterToggle
 inoremap <expr> <c-x><c-k> fzf#vim#complete('cat /usr/share/dict/words')  
 
 
+g:agit_enable_auto_refresh			*g:agit_enable_auto_refresh*
