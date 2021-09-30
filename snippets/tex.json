@@ -134,8 +134,8 @@
 "remark": {
     "prefix": "rem",
     "body": [
-      "\\begin{lemma}", 
-      "\t\\label{lemma:$1}",
+      "\\begin{remark}", 
+      "\t\\label{remark:$1}",
       "\\end{lemma}",
       "$0"
     ],
