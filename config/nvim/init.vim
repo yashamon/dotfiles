@@ -543,7 +543,9 @@ let g:NERDTreeMapUpdir="<S-h>"
 noremap q <nop> 
 map <leader>q q
 nnoremap <leader>sv :source $MYVIMRC<CR>
+"nnoremap <leader>e :NERDTreeFind<CR> 
 nnoremap <leader>e :NERDTreeFind<CR>
+
 FloatermNew vifm
 
 vnoremap <m-s> :s///gc<left><left><left><left> 
