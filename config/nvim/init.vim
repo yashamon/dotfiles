@@ -1292,9 +1292,9 @@ sources = {
     { name = 'tags' },
     --{ name = 'latex_symbols' },
 },
+completion.keyword_length = 3},
 }
 EOF
---completion.keyword_length = 3
 
 
 
