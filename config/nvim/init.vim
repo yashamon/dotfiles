@@ -1260,6 +1260,10 @@ sources = {
 EOF
 
 " LSP mappings 
+no"" LSP mappings 
 noremap <leader>ca  :lua vim.lsp.buf.code_action()<CR>
+ LSP mappings 
+noremap <leader>ca  :lua vim.lsp.buf.code_action()<CR>
+remap <leader>ca  :lua vim.lsp.buf.code_action()<CR>
 
 
