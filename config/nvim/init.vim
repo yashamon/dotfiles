@@ -1,4 +1,5 @@
-call plug#begin('~/.vim/plugged')           
+call plug#begin('~/.vim/plugged')            
+
 Plug 'simnalamburt/vim-mundo'
 Plug 'neovim/nvim-lspconfig',  { 'branch': 'main' }
 Plug 'hrsh7th/cmp-nvim-lsp', { 'branch': 'main' } 
