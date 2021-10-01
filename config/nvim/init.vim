@@ -291,12 +291,12 @@ endif
 
 autocmd BufReadPost * if @% !~# '\.git[\/\\]COMMIT_EDITMSG$' && line("'\"") > 1 && line("'\"") <= line("$") | exe "normal! g`\"" | endif 
 au FileType Makefile set noexpandtab  
-au FileType tex,md, txt set spelllang=en
-au FileType tex, ,md, txt set spell    
+au FileType tex, md, txt set spelllang=en
+au FileType tex, md, txt set spell    
 au FileType tex, md, txt syntax sync fromstart
-au FileType tex silent execute "!echo " . v:servername . " > ~/servername.txt"   
+au FileType tex, md, txt silent execute "!echo " . v:servername . " > ~/servername.txt"   
 au FileType tex hi SpellBad cterm=undercurl
-au Filetype tex vmap q xi<CR><CR><CR><CR><ESC>kkicom<tab><esc>p<A-j>
+au Filetype tex, md, txt vmap q xi<CR><CR><CR><CR><ESC>kkicom<tab><esc>p<A-j>
 
 " au FileType tex set background=dark 
 au TextYankPost * lua vim.highlight.on_yank {higroup="IncSearch", timeout=150, on_visual=true} 
