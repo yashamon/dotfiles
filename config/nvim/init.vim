@@ -1281,9 +1281,6 @@ mapping = {
   }
 
   -- ... Your other configuration ...
-
-}
-
 sources = {
       { name = 'nvim_lsp' },
 -- For vsnip user.
@@ -1296,8 +1293,9 @@ sources = {
       -- { name = 'ultisnips' }, 
     { name = 'buffer' }, 
     { name = 'omni' },
-    }
-  })
+}
+  )
+}
 EOF
 
 
