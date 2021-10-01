@@ -1281,18 +1281,18 @@ mapping = {
 sources = {
       { name = 'nvim_lsp' },
 -- For vsnip user.
-      { name = 'vsnip' }, 
+      { name = 'vsnip' },
      { name = 'treesitter' },
     -- For luasnip user.
       -- { name = 'luasnip' },
 -- For ultisnips user.
       -- { name = 'ultisnips' }, 
-    { name = 'buffer' }, 
-    { name = 'omni' }, 
-    { name = 'tags' }, 
+    { name = 'buffer' },
+    { name = 'omni' },
+    { name = 'tags' },
     --{ name = 'latex_symbols' },
 },
-completion.keyword_length = {3}, 
+completion.keyword_length = {3},
 }
 EOF
 
