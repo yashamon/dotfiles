@@ -1084,7 +1084,7 @@ endfunction
 " Or combine with lsp completion-nvim
 let g:completion_chain_complete_list = {
       \ 'default': [
-      \    {'complete_items': ['snippet', 'tags', 'buffers', 'treesitter']},  
+      \    {'complete_items': ['snippet', 'treesitter', 'buffers', 'tags']},  
       \  ]}
 let g:completion_enable_auto_popup = 1
 imap <silent> <M-Space> <Plug>(completion_trigger)
@@ -1210,14 +1210,14 @@ inoremap <expr> <c-x><c-k> fzf#vim#complete('cat /usr/share/dict/words')
 let g:agit_enable_auto_refresh = 1
 let g:agit_max_author_name_width =1
 let g:agit_log_width = 10 
-   misc m
 
-inoremap <silent><tab> <c-r>=CleverTab#Complete('start')<cr>
-                      \<c-r>=CleverTab#Complete('tab')<cr>
-                      \<c-r>=CleverTab#Complete('vim-vsnip')<cr>
-                      \<c-r>=CleverTab#Complete('keyword')<cr>
-                      \<c-r>=CleverTab#Complete('neocomplete')<cr>
-                      \<c-r>=CleverTab#Complete('omni')<cr>
-                      \<c-r>=CleverTab#Complete('stop')<cr>
-inoremap <silent><s-tab> <c-r>=CleverTab#Complete('prev')<cr>
+
+"inoremap <silent><tab> <c-r>=CleverTab#Complete('start')<cr>
+                      "\<c-r>=CleverTab#Complete('tab')<cr>
+                      "\<c-r>=CleverTab#Complete('vim-vsnip')<cr>
+                      "\<c-r>=CleverTab#Complete('keyword')<cr>
+                      "\<c-r>=CleverTab#Complete('neocomplete')<cr>
+                      "\<c-r>=CleverTab#Complete('omni')<cr>
+                      "\<c-r>=CleverTab#Complete('stop')<cr>
+"inoremap <silent><s-tab> <c-r>=CleverTab#Complete('prev')<cr>
 
