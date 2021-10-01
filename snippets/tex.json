@@ -20,6 +20,13 @@
        ],
     "description": "subset"
     },  
+"times": {
+    "prefix": "ni",
+    "body": [
+        "\\ni $0"
+       ],
+    "description": "subset"
+    }, 
 
 "ni": {
     "prefix": "ni",
