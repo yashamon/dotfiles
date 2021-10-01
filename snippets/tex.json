@@ -33,7 +33,7 @@
     "body": [
         "\\emph{$1} $0"
        ],
-    "description": "subset"
+    "description": "emphasize"
     }, 
 
 "ni": {
