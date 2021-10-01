@@ -1276,9 +1276,8 @@ mapping = {
     end, { "i", "s" }),
 -- ... Your other mappings ...
 
-}
-
-  -- ... Your other configuration ...
+},
+-- ... Your other configuration ...
 sources = {
       { name = 'nvim_lsp' },
 -- For vsnip user.
