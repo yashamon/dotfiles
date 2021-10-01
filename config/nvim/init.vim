@@ -1162,14 +1162,14 @@ end
 --"for _, lsp in ipairs(servers) do
 --  "nvim_lsp[lsp].setup {
  --   "on_attach = on_attach,
-    "flags = {
-      "debounce_text_changes = 150,
-    "}
-  "}
-"end
-"EOF
+  --  "flags = {
+   --   "debounce_text_changes = 150,
+--    "}
+--  "}
+--"end
+--"EOF
 
-"lua require'lspconfig'.texlab.setup{on_attach=require'completion'.on_attach}
+--"lua require'lspconfig'.texlab.setup{on_attach=require'completion'.on_attach}
 
 "Lsp install
 
