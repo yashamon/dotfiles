@@ -4,8 +4,9 @@ Plug 'hrsh7th/cmp-nvim-lsp', { 'branch': 'main' }
 Plug 'hrsh7th/cmp-buffer', { 'branch': 'main' }
 Plug 'hrsh7th/nvim-cmp', { 'branch': 'main' }
 Plug 'hrsh7th/cmp-vsnip', { 'branch': 'main' }
-Plug 'hrsh7th/vim-vsnip', { 'branch': 'main' }
-Plug 'ray-x/cmp-treesitter', { 'branch': 'main' }
+Plug 'hrsh7th/vim-vsnip', { 'branch': 'main' } 
+
+Plug 'ray-x/cmp-treesitter'
 " For luasnip user.
 " Plug 'L3MON4D3/LuaSnip'
 " Plug 'saadparwaiz1/cmp_luasnip'
@@ -1232,10 +1233,7 @@ set completeopt=menu,menuone,noselect
 
 lua <<EOF
   -- Setup nvim-cmp.  
-
-
-
-  local cmp = require'cmp'
+local cmp = require'cmp'
 
   cmp.setup({
     snippet = {
@@ -1278,5 +1276,27 @@ sources = {
 -- Setup lspconfig.
   -- Setup lspconfig.
   
+-- Installation
+use { 
+  'hrsh7th/nvim-cmp',
+  requires = {
+    {
+      'quangnguyen30192/cmp-nvim-tags',
+      -- if you want the sources is available for some file types
+      ft = {
+        'kotlin',
+        'java'
+      }
+    }
+  },
+  config = function ()
+    require'cmp'.setup {
+    sources = {
+      { name = 'tags' },
+      -- more sources
+    }
+  }
+  end
+}
     
  
