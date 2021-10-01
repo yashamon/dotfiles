@@ -1,7 +1,6 @@
 call plug#begin('~/.vim/plugged')          
 Plug 'neovim/nvim-lspconfig',  { 'branch': 'main' }
 Plug 'hrsh7th/cmp-nvim-lsp', { 'branch': 'main' } 
-
 Plug 'kdheepak/cmp-latex-symbols', { 'branch': 'main' } 
 
 Plug 'hrsh7th/cmp-buffer', { 'branch': 'main' }
@@ -1263,10 +1262,11 @@ mapping = {
       ['<CR>'] = cmp.mapping.confirm({ select = true }),
 -- ... Your other mappings ...
 ["<Tab>"] = cmp.mapping(function(fallback)
-      if vim.fn.pumvisible() == 1 then
-        feedkey("<C-n>", "n")
-      elseif vim.fn["vsnip#available"]() == 1 then
+      if vim.fn["vsnip#available"]() == 1
+        then
         feedkey("<Plug>(vsnip-expand-or-jump)", "")
+     elseif vim.fn.pumvisible() == 1 then
+        feedkey("<C-n>", "n")
       elseif has_words_before() then
         cmp.complete()
       else
