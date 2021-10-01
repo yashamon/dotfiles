@@ -185,8 +185,7 @@
     "description": "Add a theorem"
   },
  
-"description": "add a lemma"
-  }, 
+ 
 "Corollary": {
     "prefix": "corol",
     "body": [
