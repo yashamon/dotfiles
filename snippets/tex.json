@@ -28,8 +28,8 @@
     "description": "times"
     }, 
  
-"em": {
-    "prefix": ",
+"emphasize": {
+    "prefix":em ",
     "body": [
         "\\ni $0"
        ],
