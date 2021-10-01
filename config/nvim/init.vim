@@ -1291,7 +1291,7 @@ sources = {
       -- { name = 'ultisnips' }, 
     { name = 'buffer' }, 
     { name = 'omni' },
-    }
+   }
 }
 EOF
 
