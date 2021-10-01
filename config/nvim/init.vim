@@ -874,34 +874,6 @@ let g:vimtex_fold_types= {
           \     'backmatter',
           \   ],
           \ },
-          \ 'cmd_single' : {
-          \   'cmds' : [         
-          \     'hypersetup',
-          \     'tikzset',
-          \     'pgfplotstableread',
-          \     'lstset',
-          \   ],
-          \ },
-          \ 'cmd_single_opt' : {
-          \   'cmds' : [          
-          \     'usepackage',
-          \     'includepdf',
-          \   ],
-          \ },
-          \ 'cmd_multi' : {
-          \   'cmds' : [          
-          \     '%(re)?new%(command|environment)',
-          \     'providecommand',
-          \     'presetkeys',
-          \     'Declare%(Multi|Auto)?CiteCommand',
-          \     'Declare%(Index)?%(Field|List|Name)%(Format|Alias)',
-          \   ],
-          \ },
-          \ 'cmd_addplot' : {
-          \   'cmds' : [          
-          \     'addplot[+3]?',
-          \   ],
-          \ },
           \}
 
 
@@ -1150,7 +1122,7 @@ local on_attach = function(client, bufnr)
   -- See `:help vim.lsp.*` for documentation on any of the below functions
   buf_set_keymap('n', 'gD', '<cmd>lua vim.lsp.buf.declaration()<CR>', opts)
   buf_set_keymap('n', 'gd', '<cmd>lua vim.lsp.buf.definition()<CR>', opts)
-  buf_set_keymap('n', 'K', '<cmd>lua vim.lsp.buf.hover()<CR>', opts)
+  --buf_set_keymap('n', 'K', '<cmd>lua vim.lsp.buf.hover()<CR>', opts)
   buf_set_keymap('n', 'gi', '<cmd>lua vim.lsp.buf.implementation()<CR>', opts)
   buf_set_keymap('n', '<C-k>', '<cmd>lua vim.lsp.buf.signature_help()<CR>', opts)
   buf_set_keymap('n', '<space>wa', '<cmd>lua vim.lsp.buf.add_workspace_folder()<CR>', opts)
@@ -1298,5 +1270,4 @@ sources = {
 EOF
 
 
-noremap <S-k> <C-u>
 
