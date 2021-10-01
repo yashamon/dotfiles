@@ -29,7 +29,7 @@
     }, 
  
 "emphasize": {
-    "prefix":em ",
+    "prefix": "em",
     "body": [
         "\\ni $0"
        ],
