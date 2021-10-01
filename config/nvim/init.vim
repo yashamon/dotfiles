@@ -1,5 +1,5 @@
 call plug#begin('~/.vim/plugged')         
-
+Plug 'neitanod/vim-clevertab'
 Plug 'steelsojka/completion-buffers'
 Plug 'voldikss/vim-floaterm' 
 Plug 'nvim-treesitter/completion-treesitter'
@@ -1212,4 +1212,12 @@ let g:agit_max_author_name_width =1
 let g:agit_log_width = 10 
 
 
+inoremap <silent><tab> <c-r>=CleverTab#Complete('start')<cr>
+                      \<c-r>=CleverTab#Complete('tab')<cr>
+                      \<c-r>=CleverTab#Complete('')<cr>
+                      \<c-r>=CleverTab#Complete('keyword')<cr>
+                      \<c-r>=CleverTab#Complete('neocomplete')<cr>
+                      \<c-r>=CleverTab#Complete('omni')<cr>
+                      \<c-r>=CleverTab#Complete('stop')<cr>
+inoremap <silent><s-tab> <c-r>=CleverTab#Complete('prev')<cr>
 
