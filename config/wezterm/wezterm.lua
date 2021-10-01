@@ -1,4 +1,4 @@
-local wezterm = require 'wezterm' 
+local wezterm = require 'wezterm'
 local io = require 'io';
 local os = require 'os';
 
@@ -35,7 +35,7 @@ return {
     {key="E", mods="CTRL",
       action=wezterm.action{EmitEvent="trigger-vim-with-scrollback"}},
   }
-},
+}
 
 
 
