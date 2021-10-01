@@ -295,7 +295,7 @@ au FileType tex, md, txt set spelllang=en
 au FileType tex, md, txt set spell    
 au FileType tex, md, txt syntax sync fromstart
 au FileType tex, md, txt silent execute "!echo " . v:servername . " > ~/servername.txt"   
-au FileType tex hi SpellBad cterm=undercurl
+au FileType tex, md, txt hi SpellBad cterm=undercurl
 au Filetype tex, md, txt vmap q xi<CR><CR><CR><CR><ESC>kkicom<tab><esc>p<A-j>
 
 " au FileType tex set background=dark 
