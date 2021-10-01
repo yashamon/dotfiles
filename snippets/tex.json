@@ -165,7 +165,7 @@
    ],
     "description": "proposition"
   }, 
- "lemma": {
+ "notation": {
     "prefix": "lem",
     "body": [
       "\\begin{lemma}", 
