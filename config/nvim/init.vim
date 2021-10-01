@@ -1257,66 +1257,18 @@ local cmp = require'cmp'
 
 sources = {
       { name = 'nvim_lsp' },
-
-      -- For vsnip user.
+-- For vsnip user.
       { name = 'vsnip' }, 
      { name = 'treesitter' },
    { name = 'tags' },
  -- For luasnip user.
       -- { name = 'luasnip' },
-
-      -- For ultisnips user.
+-- For ultisnips user.
       -- { name = 'ultisnips' },
       { name = 'omni' },
-      { name = 'buffer' }, 
     }
   })
 EOF
 
-lua <<EOF
-"use { 
-  ""'hrsh7th/nvim-cmp',
-  ""requires = {
-    ""{
-      ""'quangnguyen30192/cmp-nvim-tags',
-      ""-- if you want the sources is available for some file types
-      ""ft = {
-        ""'kotlin',
-        ""'java'
-      ""}
-    ""}
-  ""},
-  ""config = function ()
-    ""require'cmp'.setup {
-    ""sources = {
-      ""{ name = 'tags' },
-      ""-- more sources
-    ""}
-  ""}
-  ""end
-  ""}     
-""EOF  
-""lua <<EOF
-""use { 
-  ""'hrsh7th/nvim-cmp',
-  ""requires = {
-    ""{
-      ""'quangnguyen30192/cmp-nvim-tags',
-      ""-- if you want the sources is available for some file types
-      ""ft = {
-        ""'kotlin',
-        ""'java'
-      ""}
-    ""}
-  ""},
-  ""config = function ()
-    ""require'cmp'.setup {
-    ""sources = {
-      ""{ name = 'tags' },
-      ""-- more sources
-    ""}
-  ""}
-  ""end
-  ""}     
-""EOF  
+
 
