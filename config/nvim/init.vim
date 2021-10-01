@@ -1,4 +1,5 @@
-call plug#begin('~/.vim/plugged')         
+call 
+plug#begin('~/.vim/plugged')         
 Plug 'neitanod/vim-clevertab'
 Plug 'steelsojka/completion-buffers'
 Plug 'voldikss/vim-floaterm' 
