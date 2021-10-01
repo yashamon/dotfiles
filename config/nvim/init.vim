@@ -1290,7 +1290,10 @@ sources = {
     { name = 'buffer' }, 
     { name = 'omni' }, 
     { name = 'tags' }, 
-}
+    --{ name = 'latex_symbols' },
+},
+
+keyword_length
 }
 EOF
 
