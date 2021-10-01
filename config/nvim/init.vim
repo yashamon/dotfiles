@@ -353,7 +353,7 @@ function Gitview()
 endfunction
 function Light()
 set background=light
-colorscheme gruvbox
+colorscheme oceanlight
 set background=light
    " highlight Normal ctermfg=black
 " highlight  CursorLine cterm=NONE ctermbg=black ctermfg=none
@@ -370,7 +370,7 @@ endfunction
 
 function Dark()
    set background=dark
-   colorscheme gruvbox
+   colorscheme blue-moon 
 " highlight SpellBad cterm=underline
 " hi MatchParen cterm=underline ctermbg=none ctermfg=magenta
    " highlight Normal guibg=#848484
