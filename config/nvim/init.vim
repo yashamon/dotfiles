@@ -704,7 +704,7 @@ map ' "
 inoremap <D-]> <C-x><C-]>
 inoremap <C-]> <C-x><C-]> 
 
-noremap <m><CR>  :lua vim.lsp.buf.code_action()<CR>
+noremap <S-A><a>  :lua vim.lsp.buf.code_action()<CR>
 
 
 " text editting mappings
