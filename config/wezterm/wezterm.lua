@@ -116,7 +116,9 @@ wezterm.on("update-right-status", function(window, pane)
 end);
 
 {
-  hide_tab_bar_if_only_one_tab = true,
+  hide_tab_bar_if_only_one_tab = true, 
+
+  font = wezterm.font("JetBrains Mono", {weight="Bold", italic=true})
   font = wezterm.font_with_fallback({
     "Fira Code, ",
   font = wezterm.font("JetBrains Mono", {weight="Bold", italic=true})
