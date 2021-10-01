@@ -1271,7 +1271,7 @@ sources = {
       { name = 'buffer' }, 
     }
   })
-EOF   
+
 
 "lua <<EOF
 "use { 
