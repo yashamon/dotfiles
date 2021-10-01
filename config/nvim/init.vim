@@ -1060,7 +1060,7 @@ set shortmess+=c
 " imap <s-tab> <Plug>(completion_smart_s_tab)
 let g:completion_enable_snippet = 'vim-vsnip'
 let g:vsnip_snippet_dir = '$HOME/dotfiles/snippets' 
-
+completion-nvim
 " completion nvim
 "
 "
