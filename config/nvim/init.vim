@@ -1059,8 +1059,8 @@ set completeopt=menuone,noinsert,noselect
 
 " Avoid showing message extra message when using completion
 set shortmess+=c
-" imap <tab> <Plug>(completion_smart_tab)
-" imap <s-tab> <Plug>(completion_smart_s_tab)
+imap <tab> <Plug>(completion_smart_tab)
+imap <s-tab> <Plug>(completion_smart_s_tab)
 let g:completion_enable_snippet = 'vim-vsnip'
 let g:vsnip_snippet_dir = '$HOME/dotfiles/snippets' 
 let g:completion_trigger_keyword_length = 3
@@ -1090,8 +1090,8 @@ let g:completion_enable_auto_popup = 1
 imap <silent> <M-Space> <Plug>(completion_trigger)
 
 let g:vsnip_snippet_dir = '~/dotfiles/snippets'
-imap <expr> <Tab>   vsnip#expandable()  ? '<Plug>(vsnip-expand)'         : '<C-j>'
-smap <expr> <Tab>   vsnip#expandable()  ? '<Plug>(vsnip-expand)'         : '<C-j>'
+imap <expr> <space>   vsnip#expandable()  ? '<Plug>(vsnip-expand)'         : '<C-j>'
+smap <expr> <space   vsnip#expandable()  ? '<Plug>(vsnip-expand)'         : '<C-j>'
 
 " Expand or jump
 imap <expr> <Tab>   vsnip#available(1)  ? '<Plug>(vsnip-expand-or-jump)' : '<C-l>'
@@ -1158,7 +1158,7 @@ end
 
 -- Use a loop to conveniently call 'setup' on multiple servers and
 -- map buffer local keybindings when the language server attaches
-local servers = { 'pyright', 'rust_analyzer', 'tsserver', 'texlab', 'jsonls'}
+local servers = {'pyright', 'rust_analyzer', 'tsserver', 'texlab', 'jsonls'}
 for _, lsp in ipairs(servers) do
   nvim_lsp[lsp].setup {
     on_attach = on_attach,
@@ -1183,7 +1183,6 @@ local function setup_servers()
 end
 
 setup_servers()
-
 -- Automatically reload after `:LspInstall <server>` so we don't have to restart neovim
 require'lspinstall'.post_install_hook = function ()
   setup_servers() -- reload installed servers
@@ -1194,7 +1193,6 @@ EOF
 nnoremap <leader>y :FZFNeoyank<cr>
 nnoremap <leader>Y :FZFNeoyank  P<cr>
 vnoremap <leader>y :FZFNeoyankSelection<cr>
-
 nnoremap <leader>p :FZFNeoyank +<cr> 
 nnoremap <leader>1 :FZFNeoyank 1<cr>
 nnoremap <leader>P :FZFNeoyank " P+<cr>
@@ -1212,12 +1210,4 @@ let g:agit_max_author_name_width =1
 let g:agit_log_width = 10 
 
 
-"inoremap <silent><tab> <c-r>=CleverTab#Complete('start')<cr>
-                      "\<c-r>=CleverTab#Complete('tab')<cr>
-                      "\<c-r>=CleverTab#Complete('vim-vsnip')<cr>
-                      "\<c-r>=CleverTab#Complete('keyword')<cr>
-                      "\<c-r>=CleverTab#Complete('neocomplete')<cr>
-                      "\<c-r>=CleverTab#Complete('omni')<cr>
-                      "\<c-r>=CleverTab#Complete('stop')<cr>
-"inoremap <silent><s-tab> <c-r>=CleverTab#Complete('prev')<cr>
 
