@@ -35,7 +35,7 @@ return {
     {key="E", mods="CTRL",
       action=wezterm.action{EmitEvent="trigger-vim-with-scrollback"}},
   }
-}
+
 
 
 
