@@ -1271,7 +1271,7 @@ lua <<EOF
   })
 
 -- Setup lspconfig.
-  require('lspconfig')[texlabl].setup {
+  require('lspconfig')[].setup {
     capabilities = require('cmp_nvim_lsp').update_capabilities(vim.lsp.protocol.make_client_capabilities())
 }
 EOF
