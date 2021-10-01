@@ -28,6 +28,13 @@
     "description": "times"
     }, 
  
+"em": {
+    "prefix": ",
+    "body": [
+        "\\ni $0"
+       ],
+    "description": "subset"
+    }, 
 
 "ni": {
     "prefix": "ni",
