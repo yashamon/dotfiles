@@ -1074,8 +1074,8 @@ set completeopt=menuone,noinsert,noselect
 
 " Avoid showing message extra message when using completion
 set shortmess+=c
-imap <tab> <Plug>(completion_smart_tab)
-imap <s-tab> <Plug>(completion_smart_s_tab)
+"imap <tab> <Plug>(completion_smart_tab)
+"imap <s-tab> <Plug>(completion_smart_s_tab)
 "let g:completion_enable_snippet = 'vim-vsnip'
 "let g:vsnip_snippet_dir = '$HOME/dotfiles/snippets' 
 "let g:completion_trigger_keyword_length = 3
@@ -1083,11 +1083,11 @@ imap <s-tab> <Plug>(completion_smart_s_tab)
 "
 "
 "
-function! PackagerInit()
-  call packager#add('kristijanhusak/vim-packager')
-  call packager#add('nvim-lua/completion-nvim')
-  call packager#add('hrsh7th/vim-vsnip-integ')
-endfunction
+"function! PackagerInit()
+  "call packager#add('kristijanhusak/vim-packager')
+  "call packager#add('nvim-lua/completion-nvim')
+  "call packager#add('hrsh7th/vim-vsnip-integ')
+"endfunction
 
 " let g:completion_chain_complete_list = {
 "       \ 'default': [
@@ -1097,12 +1097,12 @@ endfunction
 "       \    ]}
 
 " Or combine with lsp completion-nvim
-let g:completion_chain_complete_list = {
-      \ 'default': [
-      \    {'complete_items': ['snippet', 'treesitter', 'buffers', 'tags']},  
-      \  ]}
-let g:completion_enable_auto_popup = 1
-imap <silent> <M-Space> <Plug>(completion_trigger)
+"let g:completion_chain_complete_list = {
+      "\ 'default': [
+      "\    {'complete_items': ['snippet', 'treesitter', 'buffers', 'tags']},  
+      "\  ]}
+"let g:completion_enable_auto_popup = 1
+"imap <silent> <M-Space> <Plug>(completion_trigger)
 
 let g:vsnip_snippet_dir = '~/dotfiles/snippets'
 imap <expr> <m-space>   vsnip#expandable()  ? '<Plug>(vsnip-expand)'         : '<C-j>'
@@ -1184,7 +1184,7 @@ for _, lsp in ipairs(servers) do
 end
 EOF
 
-lua require'lspconfig'.texlab.setup{on_attach=require'completion'.on_attach}
+"lua require'lspconfig'.texlab.setup{on_attach=require'completion'.on_attach}
 
 "Lsp install
 
