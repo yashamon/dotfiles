@@ -1272,8 +1272,6 @@ lua <<EOF
 
 -- Setup lspconfig.
   -- Setup lspconfig.
-  require('lspconfig')[texlab].setup {
+  
     
-  }
-EOF
-
+ 
