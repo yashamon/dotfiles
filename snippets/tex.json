@@ -31,7 +31,7 @@
 "emphasize bold": {
     "prefix": "embf",
     "body": [
-        "\emph{$1}$0"
+        "\\emph{$1}$0"
        ],
     "description": "emphasize"
     }, 
