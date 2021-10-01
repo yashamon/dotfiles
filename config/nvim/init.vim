@@ -1,6 +1,8 @@
 call plug#begin('~/.vim/plugged')          
 Plug 'neovim/nvim-lspconfig',  { 'branch': 'main' }
-Plug 'hrsh7th/cmp-nvim-lsp', { 'branch': 'main' }
+Plug 'hrsh7th/cmp-nvim-lsp', { 'branch': 'main' } 
+
+Plug 'kdheepak/cmp-latex-symbols'
 Plug 'hrsh7th/cmp-buffer', { 'branch': 'main' }
 Plug 'hrsh7th/nvim-cmp', { 'branch': 'main' }
 Plug 'hrsh7th/cmp-vsnip', { 'branch': 'main' }
@@ -1288,9 +1290,9 @@ sources = {
       -- { name = 'ultisnips' }, 
     { name = 'buffer' }, 
     { name = 'omni' }, 
-{ name = 'tags' },
-
-   }
+    { name = 'tags' }, 
+    { latex_symbols },
+}
 }
 EOF
 
