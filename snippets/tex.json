@@ -70,7 +70,7 @@
         "\\end{align}"
 ],
     "description": "Align(ed)"
-    }, 
+}, 
   "tikz": {
     "prefix": "tikz",
     "body": [
@@ -173,7 +173,7 @@
       "\\end{notation}",
       "$0"
     ],
-    "description": "Add a theorem"
+    "description": "Add notation"
   },
  "lemma": {
     "prefix": "lem",
