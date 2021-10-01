@@ -32,7 +32,7 @@ end)
 
 return {
   keys = {
-    {key="E", mods="CTRL",
+    {key="V", mods="CTRL",
       action=wezterm.action{EmitEvent="trigger-vim-with-scrollback"}},
   },
 wezterm.on("update-right-status", function(window, pane)
@@ -119,8 +119,7 @@ end);
   hide_tab_bar_if_only_one_tab = true,
   font = wezterm.font_with_fallback({
     "Fira Code",
-    "Monaco",
-    "JetBrains Mono",
+   
   }),
   font_size = 20.0,
   --color_scheme = "Solarized Dark - Patched",
