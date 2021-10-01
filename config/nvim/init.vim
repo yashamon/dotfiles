@@ -2,10 +2,13 @@ call plug#begin('~/.vim/plugged')
 Plug 'neovim/nvim-lspconfig',  { 'branch': 'main' }
 Plug 'hrsh7th/cmp-nvim-lsp', { 'branch': 'main' }
 
-Plug 'hrsh7th/cmp-buffer', 
-Plug 'hrsh7th/nvim-cmp'
-Plug 'hrsh7th/cmp-vsnip'
-Plug 'hrsh7th/vim-vsnip'
+Plug 'hrsh7th/cmp-buffer', { 'branch': 'main' }
+
+Plug 'hrsh7th/nvim-cmp', { 'branch': 'main' }
+
+Plug 'hrsh7th/cmp-vsnip', { 'branch': 'main' }
+Plug 'hrsh7th/vim-vsnip', { 'branch': 'main' }
+
 " For luasnip user.
 " Plug 'L3MON4D3/LuaSnip'
 " Plug 'saadparwaiz1/cmp_luasnip'
