@@ -1084,7 +1084,7 @@ endfunction
 " Or combine with lsp completion-nvim
 let g:completion_chain_complete_list = {
       \ 'default': [
-      \    {'complete_items': ['snippet', 'tags', 'buffers']}, 
+      \    {'complete_items': ['snippet', 'tags', 'buffers']},  
       \  ]}
 let g:completion_enable_auto_popup = 1
 imap <silent> <M-Space> <Plug>(completion_trigger)
