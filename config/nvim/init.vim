@@ -1258,8 +1258,10 @@ lua <<EOF
       { name = 'nvim_lsp' },
 
       -- For vsnip user.
-      { name = 'vsnip' },
+      { name = 'vsnip' }, 
+     { name = 'vsnip' },
 
+ treesitter
       -- For luasnip user.
       -- { name = 'luasnip' },
 
