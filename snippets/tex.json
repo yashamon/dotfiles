@@ -29,7 +29,7 @@
     }, 
   
 "emphasize bold": {
-    "prefix": "em",
+    "prefix": "embf",
     "body": [
         "\\emph{$1} $0"
        ],
