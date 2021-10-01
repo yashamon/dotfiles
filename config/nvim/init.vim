@@ -217,7 +217,7 @@ set textwidth=0
 set wrapmargin=0
 set hid
 set autochdir
-set guioptions-=r 
+set guioptions-=r
 set guioptions-=l
 set inccommand=split
 set mouse=
