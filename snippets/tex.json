@@ -31,7 +31,7 @@
 "emphasize": {
     "prefix": "em",
     "body": [
-        "\emph{} $0"
+        "\\emph{$1} $0"
        ],
     "description": "subset"
     }, 
