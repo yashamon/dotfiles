@@ -1210,11 +1210,11 @@ inoremap <expr> <c-x><c-k> fzf#vim#complete('cat /usr/share/dict/words')
 let g:agit_enable_auto_refresh = 1
 let g:agit_max_author_name_width =1
 let g:agit_log_width = 10 
-
+   misc m
 
 inoremap <silent><tab> <c-r>=CleverTab#Complete('start')<cr>
                       \<c-r>=CleverTab#Complete('tab')<cr>
-                      \<c-r>=CleverTab#Complete('')<cr>
+                      \<c-r>=CleverTab#Complete('vim-vsnip')<cr>
                       \<c-r>=CleverTab#Complete('keyword')<cr>
                       \<c-r>=CleverTab#Complete('neocomplete')<cr>
                       \<c-r>=CleverTab#Complete('omni')<cr>
