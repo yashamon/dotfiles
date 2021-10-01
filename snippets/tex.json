@@ -165,7 +165,7 @@
    ],
     "description": "proposition"
   },
- "notation": {
+ "notation":{
     "prefix": "notation",
     "body": [
       "\\begin{notation}", 
