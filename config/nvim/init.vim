@@ -1249,18 +1249,14 @@ cmp.setup {
 
   -- ... Your other configuration ...
 
-  mapping = { mapping = {
+mapping = {
       ['<C-d>'] = cmp.mapping.scroll_docs(-4),
       ['<C-f>'] = cmp.mapping.scroll_docs(4),
       ['<Tab>'] = cmp.mapping.complete(),
       ['<C-e>'] = cmp.mapping.close(),
-      ['<Tab>'] = cmp.mapping.confirm({ select = true }),
-    }, 
-
-
-    -- ... Your other mappings ...
-
-    ["<Tab>"] = cmp.mapping(function(fallback)
+      ['<CR>'] = cmp.mapping.confirm({ select = true }),
+-- ... Your other mappings ...
+["<Tab>"] = cmp.mapping(function(fallback)
       if vim.fn.pumvisible() == 1 then
         feedkey("<C-n>", "n")
       elseif vim.fn["vsnip#available"]() == 1 then
@@ -1287,7 +1283,6 @@ cmp.setup {
   -- ... Your other configuration ...
 
 }
-
 
 sources = {
       { name = 'nvim_lsp' },
