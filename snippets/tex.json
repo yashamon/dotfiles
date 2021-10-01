@@ -185,8 +185,7 @@
     "description": "Add a theorem"
   },
  
- 
-"Corollary": {
+ "Corollary": {
     "prefix": "corol",
     "body": [
       "\\begin{corol}", 
