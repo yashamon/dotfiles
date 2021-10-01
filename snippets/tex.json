@@ -170,7 +170,7 @@
     "body": [
       "\\begin{notation}", 
       "\t\\label{lemma:$1}",
-      "\\end{lemma}",
+      "\\end{notation}",
       "$0"
     ],
 
