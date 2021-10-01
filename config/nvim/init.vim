@@ -1259,9 +1259,9 @@ lua <<EOF
 
       -- For vsnip user.
       { name = 'vsnip' }, 
-     { name = 'vsnip' },
+     { name = 'treesitter' },
 
- treesitter
+ 
       -- For luasnip user.
       -- { name = 'luasnip' },
 
