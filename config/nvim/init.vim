@@ -1,6 +1,8 @@
 call plug#begin('~/.vim/plugged')         
 
-Plug 'voldikss/vim-floaterm'
+Plug 'steelsojka/completion-buffers'
+Plug 'voldikss/vim-floaterm' 
+Plug 'nvim-treesitter/completion-treesitter'
 "Plug 'vifm/vifm'
 "Plug 'TimUntersberger/neogit' 
 "Plug 'tpope/vim-fugitive' 
