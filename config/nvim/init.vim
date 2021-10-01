@@ -855,7 +855,7 @@ let g:vimtex_fold_manual = 1
 
 let g:vimtex_fold_types= {
           \ 'preamble' : {},
-          \ 'items' : {},
+          
           \ 'comments' : {'enabled' : 1},
           \ 'envs' : {
           \   'blacklist' : [],   
