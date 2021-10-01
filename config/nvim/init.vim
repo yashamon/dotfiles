@@ -1273,12 +1273,7 @@ sources = {
       { name = 'buffer' }, 
     }
   })
-
--- Setup lspconfig.
--- Setup lspconfig.
-  -- Installation
 EOF  
-
 lua <<EOF
 use { 
   'hrsh7th/nvim-cmp',
