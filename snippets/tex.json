@@ -165,7 +165,15 @@
    ],
     "description": "proposition"
   }, 
- 
+ "lemma": {
+    "prefix": "lem",
+    "body": [
+      "\\begin{lemma}", 
+      "\t\\label{lemma:$1}",
+      "\\end{lemma}",
+      "$0"
+    ],
+
  "lemma": {
     "prefix": "lem",
     "body": [
