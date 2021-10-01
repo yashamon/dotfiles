@@ -1273,7 +1273,8 @@ sources = {
       { name = 'buffer' }, 
     }
   })
-EOF  
+EOF   
+
 "lua <<EOF
 "use { 
   "'hrsh7th/nvim-cmp',
