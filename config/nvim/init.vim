@@ -1294,6 +1294,7 @@ sources = {
 },
 }
 EOF
+--completion.keyword_length = 3
 
 
 
