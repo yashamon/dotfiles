@@ -1275,7 +1275,7 @@ sources = {
   })
 
 -- Setup lspconfig.
-  -- Setup lspconfig.
-  
--- Installation
+-- Setup lspconfig.
+  -- Installation
 
+EOF 
