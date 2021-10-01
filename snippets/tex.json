@@ -1290,7 +1290,7 @@
             "$4",
             "\\end{axis}",
             "\\end{tikzpicture}$0"
-        ,
+        ],
         "description": "Create a 3DPlot Environment of pgfplots. The style declarations are already included in the snippet."
     },
     "Plot 3D Graph": {
