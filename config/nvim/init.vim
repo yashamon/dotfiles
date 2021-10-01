@@ -1,4 +1,5 @@
-call plug#begin('~/.vim/plugged')        
+call plug#begin('~/.vim/plugged')         
+
 Plug 'voldikss/vim-floaterm'
 "Plug 'vifm/vifm'
 "Plug 'TimUntersberger/neogit' 
@@ -1060,7 +1061,7 @@ set shortmess+=c
 " imap <s-tab> <Plug>(completion_smart_s_tab)
 let g:completion_enable_snippet = 'vim-vsnip'
 let g:vsnip_snippet_dir = '$HOME/dotfiles/snippets' 
-
+let g:completion_trigger_keyword_length = 3
 " completion nvim
 "
 "
@@ -1078,12 +1079,12 @@ endfunction
 "       \    {'complete_items': ['snippet']}, 
 "       \    ]}
 
-" Or combine with lsp
+" Or combine with lsp completion-nvim
 let g:completion_chain_complete_list = {
       \ 'default': [
-      \    {'complete_items': ['snippet', 'tags', 'lsp']},
+      \    {'complete_items': ['snippet', 'tags', 'buffers']}, 
       \  ]}
-let g:completion_enable_auto_popup = 0
+let g:completion_enable_auto_popup = 1
 imap <silent> <M-Space> <Plug>(completion_trigger)
 
 let g:vsnip_snippet_dir = '~/dotfiles/snippets'
