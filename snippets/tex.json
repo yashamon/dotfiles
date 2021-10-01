@@ -1294,7 +1294,7 @@
         "description": "Create a 3DPlot Environment of pgfplots. The style declarations are already included in the snippet."
     },
     "Plot 3D Graph": {
-        "prefix": ["lotgraph3d", "\\plotgraph3d"],
+        "prefix": "plotgraph3d", "\\plotgraph3d"],
         "body": [
             "\\addplot3[",
             "\t${1|surf,mesh|},",
