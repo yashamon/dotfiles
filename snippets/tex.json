@@ -173,7 +173,8 @@
       "\\end{notation}",
       "$0"
     ],
-
+    "description": "Add a theorem"
+  },
  "lemma": {
     "prefix": "lem",
     "body": [
