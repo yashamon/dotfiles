@@ -5,7 +5,7 @@ Plug 'hrsh7th/cmp-buffer', { 'branch': 'main' }
 Plug 'hrsh7th/nvim-cmp', { 'branch': 'main' }
 Plug 'hrsh7th/cmp-vsnip', { 'branch': 'main' }
 Plug 'hrsh7th/vim-vsnip', { 'branch': 'main' }
-Plug 'ray-x/cmp-treesitter'
+Plug 'ray-x/cmp-treesitter', { 'branch': 'main' }
 " For luasnip user.
 " Plug 'L3MON4D3/LuaSnip'
 " Plug 'saadparwaiz1/cmp_luasnip'
@@ -1231,7 +1231,7 @@ let g:agit_log_width = 10
 set completeopt=menu,menuone,noselect
 
 lua <<EOF
-  -- Setup nvim-cmp.
+  -- Setup nvim-cmp. 
   local cmp = require'cmp'
 
   cmp.setup({
@@ -1260,7 +1260,7 @@ lua <<EOF
       -- For vsnip user.
       { name = 'vsnip' }, 
      { name = 'treesitter' },
-
+   { name = 'tags' },
  -- For luasnip user.
       -- { name = 'luasnip' },
 
