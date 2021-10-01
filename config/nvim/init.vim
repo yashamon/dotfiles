@@ -1,4 +1,5 @@
-call plug#begin('~/.vim/plugged')          
+call plug#begin('~/.vim/plugged')           
+
 Plug 'neovim/nvim-lspconfig',  { 'branch': 'main' }
 Plug 'hrsh7th/cmp-nvim-lsp', { 'branch': 'main' } 
 Plug 'kdheepak/cmp-latex-symbols', { 'branch': 'main' } 
@@ -1292,7 +1293,7 @@ sources = {
     { name = 'tags' },
     --{ name = 'latex_symbols' },
 },
-completion.keyword_length = '3' 
+--completion.keyword_length = '3' 
 }
 EOF
 
