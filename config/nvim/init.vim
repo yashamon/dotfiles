@@ -1253,7 +1253,8 @@ cmp.setup {
         -- For `vsnip` user.
         vim.fn["vsnip#anonymous"](args.body) -- For `vsnip` user.
   -- ... Your other configuration ...
-
+end,
+}
 mapping = {
       ['<C-d>'] = cmp.mapping.scroll_docs(-4),
       ['<C-f>'] = cmp.mapping.scroll_docs(4),
