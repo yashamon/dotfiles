@@ -1229,7 +1229,6 @@ let g:agit_max_author_name_width =1
 let g:agit_log_width = 10 
 
 
-
 set completeopt=menu,menuone,noselect
 
 lua <<EOF
