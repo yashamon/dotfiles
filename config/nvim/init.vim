@@ -1158,18 +1158,18 @@ end
 
 -- Use a loop to conveniently call 'setup' on multiple servers and
 -- map buffer local keybindings when the language server attaches
---"local servers = {'pyright', 'rust_analyzer', 'tsserver', 'texlab', 'jsonls'}
---"for _, lsp in ipairs(servers) do
---  "nvim_lsp[lsp].setup {
- --   "on_attach = on_attach,
-  --  "flags = {
-   --   "debounce_text_changes = 150,
---    "}
---  "}
---"end
---"EOF
+local servers = {'pyright', 'rust_analyzer', 'tsserver', 'texlab', 'jsonls'}
+for _, lsp in ipairs(servers) do
+  nvim_lsp[lsp].setup {
+    on_attach = on_attach,
+    flags = {
+      debounce_text_changes = 150,
+    }
+  }
+end
+EOF
 
---"lua require'lspconfig'.texlab.setup{on_attach=require'completion'.on_attach}
+lua require'lspconfig'.texlab.setup{on_attach=require'completion'.on_attach}
 
 "Lsp install
 
@@ -1183,6 +1183,7 @@ local function setup_servers()
 end
 
 setup_servers()
+
 -- Automatically reload after `:LspInstall <server>` so we don't have to restart neovim
 require'lspinstall'.post_install_hook = function ()
   setup_servers() -- reload installed servers
@@ -1193,6 +1194,7 @@ EOF
 nnoremap <leader>y :FZFNeoyank<cr>
 nnoremap <leader>Y :FZFNeoyank  P<cr>
 vnoremap <leader>y :FZFNeoyankSelection<cr>
+
 nnoremap <leader>p :FZFNeoyank +<cr> 
 nnoremap <leader>1 :FZFNeoyank 1<cr>
 nnoremap <leader>P :FZFNeoyank " P+<cr>
@@ -1210,4 +1212,12 @@ let g:agit_max_author_name_width =1
 let g:agit_log_width = 10 
 
 
+"inoremap <silent><tab> <c-r>=CleverTab#Complete('start')<cr>
+                      "\<c-r>=CleverTab#Complete('tab')<cr>
+                      "\<c-r>=CleverTab#Complete('vim-vsnip')<cr>
+                      "\<c-r>=CleverTab#Complete('keyword')<cr>
+                      "\<c-r>=CleverTab#Complete('neocomplete')<cr>
+                      "\<c-r>=CleverTab#Complete('omni')<cr>
+                      "\<c-r>=CleverTab#Complete('stop')<cr>
+"inoremap <silent><s-tab> <c-r>=CleverTab#Complete('prev')<cr>
 
