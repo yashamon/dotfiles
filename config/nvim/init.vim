@@ -563,7 +563,6 @@ let g:NERDTreeMapUpdir="<S-h>"
 " 'tComment'
 " let g:tcommentMapLeaderOp1=';' 
 " "map <leader>c <Leader>__  
-noremap <A><CR>  :lua vim.lsp.buf.code_action()<CR>
 noremap q <nop> 
 map <leader>q q
 nnoremap <leader>sv :source $MYVIMRC<CR>
@@ -703,26 +702,14 @@ inoremap <expr> <CR> pumvisible() ? "\<C-y>" : "\<C-g>u\<CR>"
 nnoremap <silent> <Leader>y :YRGetElem<CR>
 map ' "
 inoremap <D-]> <C-x><C-]>
-inoremap <C-]> <C-x><C-]>
+inoremap <C-]> <C-x><C-]> 
+
+noremap <m><CR>  :lua vim.lsp.buf.code_action()<CR>
+
+
 " text editting mappings
 
-"Extract mappings
-" " mappings for putting
-        " nmap p <Plug>(extract-put)
-        " nmap P <Plug>(extract-Put)
-        " " mappings for cycling
-        " map <leader>p <Plug>(extract-sycle)
-        " map <leader>S <Plug>(extract-Sycle)
-        " map <c-s> <Plug>(extract-cycle)
-        " " mappings for visual
-        " vmap p <Plug>(extract-put)
-        " vmap P <Plug>(extract-Put)
-        " " mappings for insert
-        " imap <m-v> <Plug>(extract-completeReg)
-        " imap <c-v> <Plug>(extract-completeList)
-        " imap <c-s> <Plug>(extract-cycle)
-        " imap <m-s> <Plug>(extract-sycle)
-        " imap <m-S> <Plug>(extract-Sycle) 
+ 
 
 " " au FileType tex,text,md noremap <CR> <Esc>a<Space><Esc>80i <Esc><Esc>vg0di
 " <<<<<<< HEAD
