@@ -21,7 +21,7 @@
     "description": "subset"
     }, 
 "times": {
-    "prefix": "ni",
+    "prefix": "times",
     "body": [
         "\\ni $0"
        ],
