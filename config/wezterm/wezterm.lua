@@ -34,8 +34,7 @@ return {
   keys = {
     {key="E", mods="CTRL",
       action=wezterm.action{EmitEvent="trigger-vim-with-scrollback"}},
-  },
-
+  }
 wezterm.on("update-right-status", function(window, pane)
   -- Each element holds the text for a cell in a "powerline" style << fade
   local cells = {};
@@ -155,4 +154,5 @@ return {
   },
   harfbuzz_features = {"zero"},
   scrollback_lines = 100000,
+}
 }
