@@ -1277,9 +1277,9 @@ sources = {
 -- Setup lspconfig.
 -- Setup lspconfig.
   -- Installation
-
 EOF  
 
+lua <<EOF
 use { 
   'hrsh7th/nvim-cmp',
   requires = {
@@ -1300,4 +1300,6 @@ use {
     }
   }
   end
-  }    
+  }     
+EOF  
+
