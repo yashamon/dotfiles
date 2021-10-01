@@ -5,7 +5,7 @@ Plug 'hrsh7th/cmp-buffer', { 'branch': 'main' }
 Plug 'hrsh7th/nvim-cmp', { 'branch': 'main' }
 Plug 'hrsh7th/cmp-vsnip', { 'branch': 'main' }
 Plug 'hrsh7th/vim-vsnip', { 'branch': 'main' }
-
+Plug 'ray-x/cmp-treesitter'
 " For luasnip user.
 " Plug 'L3MON4D3/LuaSnip'
 " Plug 'saadparwaiz1/cmp_luasnip'
@@ -1261,8 +1261,7 @@ lua <<EOF
       { name = 'vsnip' }, 
      { name = 'treesitter' },
 
- 
-      -- For luasnip user.
+ -- For luasnip user.
       -- { name = 'luasnip' },
 
       -- For ultisnips user.
