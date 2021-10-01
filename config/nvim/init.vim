@@ -1274,10 +1274,9 @@ mapping = {
         feedkey("<Plug>(vsnip-jump-prev)", "")
       end
     end, { "i", "s" }),
+-- ... Your other mappings ...
 
-    -- ... Your other mappings ...
-
-  }
+}
 
   -- ... Your other configuration ...
 sources = {
