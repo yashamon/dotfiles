@@ -166,7 +166,7 @@
     "description": "proposition"
   }, 
  "notation": {
-    "prefix": "lem",
+    "prefix": "notation",
     "body": [
       "\\begin{lemma}", 
       "\t\\label{lemma:$1}",
