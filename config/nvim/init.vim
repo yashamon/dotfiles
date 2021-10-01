@@ -1,4 +1,6 @@
-call plug#begin('~/.vim/plugged')          
+call plug#begin('~/.vim/plugged')           
+Plug 'simnalamburt/vim-mundo'
+Plug 'simnalamburt/vim-mundo'
 Plug 'neovim/nvim-lspconfig',  { 'branch': 'main' }
 Plug 'hrsh7th/cmp-nvim-lsp', { 'branch': 'main' } 
 Plug 'kdheepak/cmp-latex-symbols', { 'branch': 'main' } 
@@ -1281,18 +1283,18 @@ mapping = {
 sources = {
       { name = 'nvim_lsp' },
 -- For vsnip user.
-      { name = 'vsnip' }, 
+      { name = 'vsnip' },
      { name = 'treesitter' },
     -- For luasnip user.
       -- { name = 'luasnip' },
 -- For ultisnips user.
       -- { name = 'ultisnips' }, 
-    { name = 'buffer' }, 
+    { name = 'buffer' },
     { name = 'omni' },
     { name = 'tags' },
     --{ name = 'latex_symbols' },
 },
-completion.keyword_length = {3},
+--completion.keyword_length = '3' 
 }
 EOF
 
