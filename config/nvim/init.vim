@@ -1,8 +1,8 @@
 call plug#begin('~/.vim/plugged')         
 Plug 'neitanod/vim-clevertab'
-Plug 'steelsojka/completion-buffers'
+"Plug 'steelsojka/completion-buffers'
 Plug 'voldikss/vim-floaterm' 
-Plug 'nvim-treesitter/completion-treesitter'
+"Plug 'nvim-treesitter/completion-treesitter'
 "Plug 'vifm/vifm'
 "Plug 'TimUntersberger/neogit' 
 "Plug 'tpope/vim-fugitive' 
@@ -22,7 +22,7 @@ Plug 'stefanhepp/pplatex'
 " lua require("lsp_config")
 Plug 'hrsh7th/vim-vsnip'
 Plug 'svermeulen/vim-cutlass'
-Plug 'kristijanhusak/completion-tags'
+"Plug 'kristijanhusak/completion-tags'
 Plug 'kyazdani42/nvim-web-devicons' " for file icons
 Plug 'kyazdani42/nvim-tree.lua', 
 Plug 'nvim-lua/completion-nvim'
@@ -1094,8 +1094,8 @@ imap <expr> <m-space>   vsnip#expandable()  ? '<Plug>(vsnip-expand)'         : '
 smap <expr> <m-space>   vsnip#expandable()  ? '<Plug>(vsnip-expand)'         : '<C-j>'
 
 " Expand or jump
-imap <expr> <Tab>   vsnip#available(1)  ? '<Plug>(vsnip-expand-or-jump)' : '<C-l>'
-smap <expr> <Tab>   vsnip#available(1)  ? '<Plug>(vsnip-expand-or-jump)' : '<C-l>'
+imap <expr> <m-space>   vsnip#available(1)  ? '<Plug>(vsnip-expand-or-jump)' : '<C-l>'
+smap <expr> <m-space>   vsnip#available(1)  ? '<Plug>(vsnip-expand-or-jump)' : '<C-l>'
 
 " Jump forward or backward
   imap <expr> <M-j>   vsnip#jumpable(1)   ? '<Plug>(vsnip-jump-next)'      : '<Tab>'
