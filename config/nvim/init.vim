@@ -1262,7 +1262,6 @@ EOF
 " LSP mappings 
 "" LSP mappings 
 noremap <leader>ca  :lua vim.lsp.buf.code_action()<CR>
- LSP mappings 
 noremap <leader>la  :lua vim.lsp.buf.code_action()<CR>
 
 

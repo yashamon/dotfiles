@@ -59,7 +59,7 @@ local cfg_colors = {
 -- Font
 ------------------------------------------
 
-local cfg_fonts = require("cfg_fonts")
+local cfg_fonts = require("Source Code Pro")
 
 -- Key/Mouse bindings
 ------------------------------------------
