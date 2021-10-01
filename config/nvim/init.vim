@@ -563,7 +563,7 @@ let g:NERDTreeMapUpdir="<S-h>"
 " 'tComment'
 " let g:tcommentMapLeaderOp1=';' 
 " "map <leader>c <Leader>__  
-noremap <A><CR>', '<cmd>lua vim.lsp.buf.code_action()<CR>
+noremap <A><CR>  :lua vim.lsp.buf.code_action()<CR>
 noremap q <nop> 
 map <leader>q q
 nnoremap <leader>sv :source $MYVIMRC<CR>
