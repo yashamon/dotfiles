@@ -1231,7 +1231,10 @@ let g:agit_log_width = 10
 set completeopt=menu,menuone,noselect
 
 lua <<EOF
-  -- Setup nvim-cmp. 
+  -- Setup nvim-cmp.  
+
+
+
   local cmp = require'cmp'
 
   cmp.setup({
@@ -1253,8 +1256,9 @@ lua <<EOF
       ['<Tab>'] = cmp.mapping.complete(),
       ['<C-e>'] = cmp.mapping.close(),
       ['<Tab>'] = cmp.mapping.confirm({ select = true }),
-    },
-    sources = {
+    }, 
+
+sources = {
       { name = 'nvim_lsp' },
 
       -- For vsnip user.
