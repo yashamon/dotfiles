@@ -1267,8 +1267,7 @@ mapping = {
         fallback() -- The fallback function sends a already mapped key. In this case, it's probably `<Tab>`.
       end
     end, { "i", "s" }),
-
-    ["<S-Tab>"] = cmp.mapping(function()
+["<S-Tab>"] = cmp.mapping(function()
       if vim.fn.pumvisible() == 1 then
         feedkey("<C-p>", "n")
       elseif vim.fn["vsnip#jumpable"](-1) == 1 then
@@ -1293,8 +1292,7 @@ sources = {
       -- { name = 'ultisnips' }, 
     { name = 'buffer' }, 
     { name = 'omni' },
-}
-  )
+    }
 }
 EOF
 
