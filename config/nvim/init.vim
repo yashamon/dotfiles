@@ -2,7 +2,8 @@ call plug#begin('~/.vim/plugged')
 Plug 'neovim/nvim-lspconfig',  { 'branch': 'main' }
 Plug 'hrsh7th/cmp-nvim-lsp', { 'branch': 'main' } 
 
-Plug 'kdheepak/cmp-latex-symbols'
+Plug 'kdheepak/cmp-latex-symbols', { 'branch': 'main' } 
+
 Plug 'hrsh7th/cmp-buffer', { 'branch': 'main' }
 Plug 'hrsh7th/nvim-cmp', { 'branch': 'main' }
 Plug 'hrsh7th/cmp-vsnip', { 'branch': 'main' }
@@ -1247,7 +1248,10 @@ end
 
 local cmp = require('cmp')
 cmp.setup {
-
+ snippet = {
+      expand = function(args)
+        -- For `vsnip` user.
+        vim.fn["vsnip#anonymous"](args.body) -- For `vsnip` user.
   -- ... Your other configuration ...
 
 mapping = {
@@ -1291,7 +1295,7 @@ sources = {
     { name = 'buffer' }, 
     { name = 'omni' }, 
     { name = 'tags' }, 
-    { name = 'latex_symbols },
+    { name = 'latex_symbols' },
 }
 }
 EOF
