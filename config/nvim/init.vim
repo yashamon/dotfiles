@@ -1084,7 +1084,7 @@ endfunction
 " Or combine with lsp completion-nvim
 let g:completion_chain_complete_list = {
       \ 'default': [
-      \    {'complete_items': ['snippet', 'tags', 'buffers']},  
+      \    {'complete_items': ['snippet', 'tags', 'buffers', 'treesitter']},  
       \  ]}
 let g:completion_enable_auto_popup = 1
 imap <silent> <M-Space> <Plug>(completion_trigger)
@@ -1210,4 +1210,6 @@ inoremap <expr> <c-x><c-k> fzf#vim#complete('cat /usr/share/dict/words')
 let g:agit_enable_auto_refresh = 1
 let g:agit_max_author_name_width =1
 let g:agit_log_width = 10 
+
+
 
