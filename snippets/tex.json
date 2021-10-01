@@ -28,6 +28,13 @@
     "description": "times"
     }, 
   
+"emphasize bold": {
+    "prefix": "em",
+    "body": [
+        "\\emph{$1} $0"
+       ],
+    "description": "emphasize"
+    }, 
 
 "emphasize": {
     "prefix": "em",
