@@ -291,7 +291,7 @@ endif
 
 autocmd BufReadPost * if @% !~# '\.git[\/\\]COMMIT_EDITMSG$' && line("'\"") > 1 && line("'\"") <= line("$") | exe "normal! g`\"" | endif 
 au FileType Makefile set noexpandtab  
-au FileType tex set spelllang=en
+au FileType tex,md, text set spelllang=en
 au FileType tex set spell    
 au FileType tex syntax sync fromstart
 au FileType tex silent execute "!echo " . v:servername . " > ~/servername.txt"   
@@ -630,7 +630,7 @@ map <A-b> ?{<CR>
 
 map <C-q> <Esc>:Goyo<cr>:qa!<CR> 
 map <m-q> <esc>:Goyo<cr>:qa<cr> 
-map <m-c> <esc>:close<cr> 
+map <m-c> <esc>:close<cr>  
 map <M-d> <Esc>:bdelete<CR>
 noremap f /
 noremap F ?
