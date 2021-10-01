@@ -19,7 +19,8 @@
         "\\supset $0"
        ],
     "description": "subset"
-    }, 
+    },  
+
 "ni": {
     "prefix": "ni",
     "body": [
@@ -831,7 +832,7 @@
         "description": "The equivalent of \"\\t\", also known as \"Tab\""
     }, 
 "Color": {
-        "prefix": ["col", ""],
+        "prefix": ["col", "color"],
         "body": [
             "\\textcolor{$1}{$2}$0"
             ],

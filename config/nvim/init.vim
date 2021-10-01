@@ -855,13 +855,7 @@ let g:vimtex_fold_manual = 1
 
 let g:vimtex_fold_types= {
           \ 'preamble' : {},
-          
           \ 'comments' : {'enabled' : 1},
-          \ 'envs' : {
-          \   'blacklist' : [],   
-          \   'whitelist' : [],   
-          \ },
-          \ 'env_options' : {},
           \ 'markers' : {},
           \ 'sections' : {
           \   'parse_levels' : 0,
