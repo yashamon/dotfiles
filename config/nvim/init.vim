@@ -562,7 +562,8 @@ let g:NERDTreeMapUpdir="<S-h>"
 "
 " 'tComment'
 " let g:tcommentMapLeaderOp1=';' 
-" "map <leader>c <Leader>__ 
+" "map <leader>c <Leader>__  
+"
 noremap q <nop> 
 map <leader>q q
 nnoremap <leader>sv :source $MYVIMRC<CR>
@@ -742,7 +743,7 @@ au FileType tex,text,md nnoremap dd "_g^dg$g^
 " au FileType tex,text,md nnoremap <A-i> a<CR>
 " au FileType tex,text,md nnoremap <CR> J0
 
-au FileType tex,text,md inoremap <A><CR> <CR>
+"au FileType tex,text,md inoremap <A><CR> <CR>
 " au FileType tex,text,md inoremap <CR> <Esc><CR>
 " au FileType tex,text,md inoremap . .<CR><ESC>J0i
 " au FileType tex,text,md inoremap <leader>. .
@@ -1133,7 +1134,7 @@ local on_attach = function(client, bufnr)
   buf_set_keymap('n', '<space>wl', '<cmd>lua print(vim.inspect(vim.lsp.buf.list_workspace_folders()))<CR>', opts)
   buf_set_keymap('n', '<space>D', '<cmd>lua vim.lsp.buf.type_definition()<CR>', opts)
   buf_set_keymap('n', '<space>rn', '<cmd>lua vim.lsp.buf.rename()<CR>', opts)
-  buf_set_keymap('n', '<m-c>', '<cmd>lua vim.lsp.buf.code_action()<CR>', opts)
+  buf_set_keymap('n', '<A><CR>', '<cmd>lua vim.lsp.buf.code_action()<CR>', opts)
   buf_set_keymap('n', 'lr', '<cmd>lua vim.lsp.buf.references()<CR>', opts)
   buf_set_keymap('n', '<space>e', '<cmd>lua vim.lsp.diagnostic.show_line_diagnostics()<CR>', opts)
   buf_set_keymap('n', '[d', '<cmd>lua vim.lsp.diagnostic.goto_prev()<CR>', opts)
