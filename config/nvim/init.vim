@@ -5,6 +5,7 @@ Plug 'hrsh7th/cmp-buffer', { 'branch': 'main' }
 Plug 'hrsh7th/nvim-cmp', { 'branch': 'main' }
 Plug 'hrsh7th/cmp-vsnip', { 'branch': 'main' }
 Plug 'hrsh7th/vim-vsnip', { 'branch': 'main' } 
+Plug 'quangnguyen30192/cmp-nvim-tags',  { 'branch': 'main' } 
 
 Plug 'ray-x/cmp-treesitter'
 " For luasnip user.
@@ -1269,7 +1270,7 @@ sources = {
       -- For ultisnips user.
       -- { name = 'ultisnips' },
 
-      { name = 'buffer' },
+      { name = 'buffer' }, 
     }
   })
 
