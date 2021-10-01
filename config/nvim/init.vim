@@ -1,5 +1,5 @@
 call plug#begin('~/.vim/plugged')            
-
+Plug 'shaunsingh/nord.nvim'
 Plug 'simnalamburt/vim-mundo'
 Plug 'neovim/nvim-lspconfig',  { 'branch': 'main' }
 Plug 'hrsh7th/cmp-nvim-lsp', { 'branch': 'main' } 
@@ -21,7 +21,7 @@ Plug 'voldikss/vim-floaterm'
 "Plug 'tpope/vim-fugitive' 
 "Plug 'junegunn/gv.vim'
 Plug 'cohama/agit.vim'
-Plug 'kabouzeid/nvim-lspinstall', { 'branch': 'main' }
+Plug 'kabouzeid/nvim-lspinstall',  'branch': 'main' }
 Plug 'preservim/nerdcommenter'    
 "Plug 'pope/vim-obsession'
 "Plug 'xolox/vim-easytags'
