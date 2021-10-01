@@ -168,7 +168,7 @@
  "notation": {
     "prefix": "notation",
     "body": [
-      "\\begin{lemma}", 
+      "\\begin{notation}", 
       "\t\\label{lemma:$1}",
       "\\end{lemma}",
       "$0"
