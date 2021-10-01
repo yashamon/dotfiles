@@ -1,4 +1,6 @@
-call plug#begin('~/.vim/plugged')         
+call plug#begin('~/.vim/plugged')          
+
+
 Plug 'neitanod/vim-clevertab'
 "Plug 'steelsojka/completion-buffers'
 Plug 'voldikss/vim-floaterm' 
@@ -25,7 +27,7 @@ Plug 'svermeulen/vim-cutlass'
 "Plug 'kristijanhusak/completion-tags'
 Plug 'kyazdani42/nvim-web-devicons' " for file icons
 Plug 'kyazdani42/nvim-tree.lua', 
-Plug 'nvim-lua/completion-nvim'
+"Plug 'nvim-lua/completion-nvim'
 Plug 'hrsh7th/vim-vsnip-integ'
 Plug 'neovim/nvim-lspconfig'
 Plug 'nvim-lua/diagnostic-nvim'
