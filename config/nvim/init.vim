@@ -133,7 +133,7 @@ call plug#end()
 " filetype plugin indent on
 "  General Settings  
 " 
-set pb =30
+set pb=30 
 set switchbuf=newtab
 set t_ut=
 " let g:python3_host_prog='/usr/bin/python3.9'
