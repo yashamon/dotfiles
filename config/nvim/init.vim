@@ -1293,8 +1293,7 @@ sources = {
     --{ name = 'latex_symbols' },
 },
 }
-EOF
---completion.keyword_length = 3
+EOF-completion.keyword_length = 3
 
 
 
