@@ -133,6 +133,7 @@ call plug#end()
 " filetype plugin indent on
 "  General Settings  
 " 
+set
 
 set switchbuf=newtab
 set t_ut=
@@ -1158,7 +1159,7 @@ end
 
 -- Use a loop to conveniently call 'setup' on multiple servers and
 -- map buffer local keybindings when the language server attaches
-local servers = {'pyright', 'rust_analyzer', 'tsserver', 'texlab', 'jsonls'}
+local servers = {'pyright', 'tsserver', 'texlab', 'jsonls'}
 for _, lsp in ipairs(servers) do
   nvim_lsp[lsp].setup {
     on_attach = on_attach,
@@ -1212,12 +1213,4 @@ let g:agit_max_author_name_width =1
 let g:agit_log_width = 10 
 
 
-"inoremap <silent><tab> <c-r>=CleverTab#Complete('start')<cr>
-                      "\<c-r>=CleverTab#Complete('tab')<cr>
-                      "\<c-r>=CleverTab#Complete('vim-vsnip')<cr>
-                      "\<c-r>=CleverTab#Complete('keyword')<cr>
-                      "\<c-r>=CleverTab#Complete('neocomplete')<cr>
-                      "\<c-r>=CleverTab#Complete('omni')<cr>
-                      "\<c-r>=CleverTab#Complete('stop')<cr>
-"inoremap <silent><s-tab> <c-r>=CleverTab#Complete('prev')<cr>
 
