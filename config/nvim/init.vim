@@ -1,5 +1,4 @@
-call 
-plug#begin('~/.vim/plugged')         
+call plug#begin('~/.vim/plugged')         
 Plug 'neitanod/vim-clevertab'
 Plug 'steelsojka/completion-buffers'
 Plug 'voldikss/vim-floaterm' 
@@ -134,7 +133,7 @@ call plug#end()
 " filetype plugin indent on
 "  General Settings  
 " 
-set
+set pb =30
 set switchbuf=newtab
 set t_ut=
 " let g:python3_host_prog='/usr/bin/python3.9'
