@@ -1059,7 +1059,7 @@ cmp.setup {
  snippet = {
       expand = function(args)
         -- For `vsnip` user.
-        vim.fn["luasnip#anonymous"](args.body) -- For `vsnip` user.
+        vim.fn["vsnip#anonymous"](args.body) -- For `vsnip` user.
   -- ... Your other configuration ...
 end,
 },
@@ -1096,8 +1096,8 @@ mapping = {
 sources = {
       -- For vsnip user.
       { name = 'vsnip', keyword_length = 1 },
-         -- For luasnip user.
-      -- { name = 'luasnip' },
+      "    -- For luasnip user.
+      " -- { name = 'luasnip' },
 -- For ultisnips user.
       -- { name = 'ultisnips' },  
    
