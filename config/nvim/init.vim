@@ -1086,7 +1086,15 @@ cmp.setup{
         fallback()
       end
     end, { "i", "s" }),
-
+    ["<Tab>"] = cmp.mapping(tab, { "i", "s" }),
+            ["<S-Tab>"] = cmp.mapping(shift_tab, { "i", "s" }),
+            ["<C-d>"] = cmp.mapping.scroll_docs(-4),
+            ["<C-f>"] = cmp.mapping.scroll_docs(4),
+            ["<C-Space>"] = cmp.mapping.complete(),
+            ["<C-e>"] = cmp.mapping.close(),
+            ["<CR>"] = cmp.mapping.confirm {
+                behavior = cmp.ConfirmBehavior.Insert,
+                select = true,
     -- ... Your other mappings ...
   },
 sources = {
@@ -1201,7 +1209,7 @@ require('nvim_comment').setup(
 EOF
 
 lua <<EOF
-require("luasnip/loaders/from_vscode").load({ paths = { "~/dotfiles/snippets" } }) -- Load snippets from my-snippets folder 
+require("luasnip/loaders/from_vscode").load({ paths = { "~/dotfiles/snippets" } }) -- Load snippets from my-snippets folder
 EOF
 " au TextDeletePost * lua vim.highlight.on_delete {higroup="IncSearch", timeout=150, on_visual=true} ;a;sldfjasl fj slj a;slfjasdfj
 
