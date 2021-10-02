@@ -16,7 +16,7 @@ Plug 'quangnguyen30192/cmp-nvim-tags',  { 'branch': 'main' }
 Plug 'ray-x/cmp-treesitter'
 " For luasnip user. 
 Plug 'L3MON4D3/LuaSnip'
-" Plug 'saadparwaiz1/cmp_luasnip'
+Plug 'saadparwaiz1/cmp_luasnip'
 "Plug 'steelsojka/completion-buffers'
 Plug 'voldikss/vim-floaterm' 
 "Plug 'nvim-treesitter/completion-treesitter'
@@ -1138,7 +1138,7 @@ require('nvim_comment').setup(
 EOF
 
 lua <<EOF
-require("luasnip/loaders/from_vscode").load({ paths = { "./my-snippets" } }) -- Load snippets from my-snippets folder 
+require("luasnip/loaders/from_vscode").load({ paths = { "~/dotfiles/snippets" } }) -- Load snippets from my-snippets folder 
 EOF
 " au TextDeletePost * lua vim.highlight.on_delete {higroup="IncSearch", timeout=150, on_visual=true} ;a;sldfjasl fj slj a;slfjasdfj
 
