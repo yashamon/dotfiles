@@ -403,10 +403,6 @@ endfunction
 
    "}      							
 
-
-
-
-
 "--------------------------------------------------------------------------- 
 " USEFUL SHORTCUTS
 "--------------------------------------------------------------------------- 
@@ -503,15 +499,7 @@ set fileencodings=ucs-bom,utf-8,big5,gb2312,latin1
 " PLUGIN SETTINGS
 "--------------------------------------------------------------------------- 
 
-         "Easy Motion
-" change the default EasyMotion shading to something more readable with Solarized
-" hi link EasyMotionTarget ErrorMsg
-" hi link EasyMotionShade  Comment
-" easymotion highlight colors
-hi link EasyMotionTarget Search
-hi link EasyMotionTarget2First Search
-hi link EasyMotionTarget2Second Search
-hi link EasyMotionShade Comment
+
 
 
 
