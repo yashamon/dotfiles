@@ -1059,7 +1059,7 @@ cmp.setup {
  snippet = {
       expand = function(args)
         -- For `vsnip` user.
-        vim.fn["vsnip#anonymous"](args.body) -- For `vsnip` user.
+        vim.fn["luasnip#anonymous"](args.body) -- For `vsnip` user.
   -- ... Your other configuration ...
 end,
 },
