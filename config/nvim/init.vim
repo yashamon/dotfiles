@@ -1206,7 +1206,7 @@ mapping = {
 -- ... Your other configuration ...
 sources = {
       -- For vsnip user.
-      { name = 'vsnip' },
+      { name = 'vsnip', keyword_length = 2 },
      { name = 'treesitter' },
     -- For luasnip user.
       -- { name = 'luasnip' },
