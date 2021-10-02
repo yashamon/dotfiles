@@ -1,8 +1,8 @@
 {
 "EOF": {
-    "prefix": "Gbun",
+    "prefix": "eof",
     "body": [
-        "$$1$-Bundle $0"
+        "lua <<EOF $0"
        ],
     "description": "dots"
     }
