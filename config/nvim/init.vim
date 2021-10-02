@@ -395,7 +395,7 @@ autocmd FileType xml setlocal omnifunc=xmlcomplete#CompleteTags
 autocmd FileType css set omnifunc=csscomplete#CompleteCSS
 autocmd FileType c set omnifunc=ccomplete#Complete
 autocmd FileType java set omnifunc=javacomplete#Complete 
-autocmd FileType tex set omnifunc=
+autocmd FileType tex set omnifunc=latex#Complete
 autocmd Filetype tex setlocal fo=nt
 autocmd Filetype tex setlocal wrapmargin=0
 " use syntax complete if nothing else available
@@ -474,12 +474,6 @@ nmap V vg$
 nmap A g$a 
 map 0 g^
 map 9 g$
-
-" map p <Plug>(miniyank-startput)
-" map P <Plug>(miniyank-startPut)
-" nmap p Plug>(miniyank-autoPut)
-" vmap p <Plug>(miniyank-autoput)
-" vmap P <Plug>(miniyank-autoPut)
 
 map <Leader>n <Plug>(miniyank-cycle)
 nnoremap <Left> :bnext<CR>
