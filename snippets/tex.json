@@ -909,9 +909,9 @@
 "partial": {
     "prefix": ["p", "\\p"],
     "body": [
-      "\\omega $0"
+      "\\partial $0"
     ],
-    "description": "omega"
+    "description": "partial"
   },
 
 "omega": {
