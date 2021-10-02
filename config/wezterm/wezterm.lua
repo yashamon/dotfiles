@@ -120,12 +120,12 @@ end);
   font = wezterm.font("Fira Code"),
   font_size = 20,
   --color_scheme = "Solarized Dark - Patched",
-  color_scheme = "The Hulk",
+  --color_scheme = "The Hulk",
   --color_scheme = "JetBrians Dracula",
   --color_scheme = "Alien Blood",
   --color_scheme = "Dracula",
   --color_scheme = "Cobalt Neon",
-  -- color_scheme = "Dark Matrix",
+   color_scheme = "Dark Matrix",
   exit_behavior = "Close",
   keys = {
     -- This will create a new split and run your default program inside it
