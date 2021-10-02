@@ -1210,7 +1210,7 @@ EOF
 
 " lua <<EOF
 " require("luasnip/loaders/from_vscode").load() -- Load snippets from my-snippets folder
-EOF
+" EOF
 " au TextDeletePost * lua vim.highlight.on_delete {higroup="IncSearch", timeout=150, on_visual=true} ;a;sldfjasl fj slj a;slfjasdfj
 
 "au FileType tex autocmd User SneakLeave set syntax=tex
