@@ -117,7 +117,7 @@ end);
 
 {
   hide_tab_bar_if_only_one_tab = true,
-  font = wezterm.font("Source Code Pro"),
+  font = wezterm.font("Fira Code"),
   font_size = 20,
   --color_scheme = "Solarized Dark - Patched",
   color_scheme = "The Hulk",
