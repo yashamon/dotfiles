@@ -1056,8 +1056,7 @@ end
 
 local luasnip = require("luasnip")
 local cmp = require("cmp")
-cmp.setup{
-    cmp.setup {
+cmp.setup {
         snippet = {
             expand = function(args)
                 require("luasnip").lsp_expand(args.body)
@@ -1181,7 +1180,7 @@ EOF
 "" LSP mappings 
 noremap <leader>ca  :lua vim.lsp.buf.code_action()<CR>
 noremap <leader>la  :lua vim.lsp.buf.code_action()<CR>
-
+lua << EOF
 
 lua <<EOF
 require('nvim_comment').setup(
