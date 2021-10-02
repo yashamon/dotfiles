@@ -1094,14 +1094,14 @@ sources = {
       -- For vsnip user.
       -- { name = 'vsnip', keyword_length = 1 },
       --    -- For luasnip user.
-      { name = 'luasnip', keyword_length = 1 },
+    { name = 'luasnip', keyword_length = 1 },
     { name = 'buffer', keyword_length = 4 },
     { name = 'omni' , keyword_length = 3 },
     { name = 'treesitter', keyword_length = 3  },
     { name = 'tags' , keyword_length = 4 }, 
     { name = 'nvim_lsp', keyword_length = 3 },
 --{ name = 'latex_symbols' },
-} 
+}
 --{ completion.keyword_length = 3 }
 }
 -- ... Your other configuration ...
