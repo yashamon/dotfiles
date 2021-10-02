@@ -793,32 +793,7 @@ let g:Guifont="Source Code Pro Light:h16"
 " map <silent> <leader>g :silent execute "!(cd /root/web2 ; git add . ; git commit -m -a ; git push origin gh-pages) > /dev/null"<CR>
 set directory=$HOME/Downloads
 let g:goyo_width=60
-" fuzzy search
-" function! s:config_fuzzyall(...) abort
-"   return extend(copy({
-"   \   'converters': [
-"   \     incsearch#config#fuzzy#converter(),
-"   \     incsearch#config#fuzzyspell#converter()
-"   \   ],
-"   \ }), get(a:, 1, {}))
-" endfunction
-" noremap <silent><expr> f incsearch#go(<SID>config_fuzzyall())
-" noremap <silent><expr> F  incsearch#go(<SID>config_fuzzyall({'command': '?'}))
-" noremap <silent><expr> gF incsearch#go(<SID>config_fuzzyall({'is_stay': 1}))
-" map f <Plug>(incsearch-fuzzyspell-/)
-" map F <Plug>(incsearch-fuzzyspell-?)
-" map gF <Plug>(incsearch-fuzzyspell-stay)
-" map <silent> <leader>g :silent !cd /root/web2<CR>:silent !git add .<CR>:silent !git commit -m -a<CR>:silent !git push origin gh-pages<CR>
-" let g:deoplete#enable_at_startup = 1
-" map <silent> <leader>g :silent call Gitview()
-" map <silent> <leader>g :silent !cd /root/web2 ; git add .<CR>:silent git commit -m -a ; silent !git push origin gh-pages<CR>
-" This is how I use PDFViewer with Neovim and LaTexBox. 
-"
-"Load some useful plugins with vundle
-"
-"
-" hi! link Sneak Normal
-" hi! link SneakScope Normal
+
 
 "LUA
 lua <<EOF
@@ -1187,4 +1162,29 @@ EOF
 " function Gitview()
 "    cd /root/web2 ; git add . ; git commit -m -a ; git push origin gh-pages
 " endfunction
-
+" fuzzy search
+" function! s:config_fuzzyall(...) abort
+"   return extend(copy({
+"   \   'converters': [
+"   \     incsearch#config#fuzzy#converter(),
+"   \     incsearch#config#fuzzyspell#converter()
+"   \   ],
+"   \ }), get(a:, 1, {}))
+" endfunction
+" noremap <silent><expr> f incsearch#go(<SID>config_fuzzyall())
+" noremap <silent><expr> F  incsearch#go(<SID>config_fuzzyall({'command': '?'}))
+" noremap <silent><expr> gF incsearch#go(<SID>config_fuzzyall({'is_stay': 1}))
+" map f <Plug>(incsearch-fuzzyspell-/)
+" map F <Plug>(incsearch-fuzzyspell-?)
+" map gF <Plug>(incsearch-fuzzyspell-stay)
+" map <silent> <leader>g :silent !cd /root/web2<CR>:silent !git add .<CR>:silent !git commit -m -a<CR>:silent !git push origin gh-pages<CR>
+" let g:deoplete#enable_at_startup = 1
+" map <silent> <leader>g :silent call Gitview()
+" map <silent> <leader>g :silent !cd /root/web2 ; git add .<CR>:silent git commit -m -a ; silent !git push origin gh-pages<CR>
+" This is how I use PDFViewer with Neovim and LaTexBox. 
+"
+"Load some useful plugins with vundle
+"
+"
+" hi! link Sneak Normal
+" hi! link SneakScope Normal
