@@ -1230,8 +1230,8 @@ noremap <leader>ca  :lua vim.lsp.buf.code_action()<CR>
 noremap <leader>la  :lua vim.lsp.buf.code_action()<CR>
 
 
-
-require('nvim_comment').setup() 
+lua <<EOF
+require('nvim_comment').setup()
 {
   -- Linters prefer comment and line to have a space in between markers
   marker_padding = true,
@@ -1246,4 +1246,5 @@ require('nvim_comment').setup()
   -- Hook function to call before commenting takes place
   hook = nil
 }
+EOF
 
