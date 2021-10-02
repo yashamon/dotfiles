@@ -447,7 +447,7 @@ set fileencodings=ucs-bom,utf-8,big5,gb2312,latin1
 " let g:SuperTabContextDiscoverDiscovery= ["&completefunc:<c-x><c-u>", "&omnifunc:<c-x><c-o>"]
   
 "--NerdTree
-let g:NERDTreeMapUpdir="<S-h>"
+" let g:NERDTreeMapUpdir="<S-h>"
 " General mappings, remaps, maps
 "
 " 'tComment'
