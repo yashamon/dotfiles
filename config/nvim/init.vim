@@ -647,11 +647,8 @@ noremap <leader>c gc
 noremap <A-r> <C-r>
 nnoremap ` ~
 nnoremap . `
-nnoremap 1 <C-o>
-nnoremap 2 <C-i>
-vnoremap 1 <C-o>
-nnoremap 2 <C-i>
-
+noremap 1 <C-o>
+noremap 2 <C-i>
 
 noremap <D-d> <C-d>
 map ;s <Esc>:w<CR>
