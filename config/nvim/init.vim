@@ -1205,17 +1205,19 @@ mapping = {
 },
 -- ... Your other configuration ...
 sources = {
-      { name = 'nvim_lsp' },
--- For vsnip user.
+      -- For vsnip user.
       { name = 'vsnip' },
      { name = 'treesitter' },
     -- For luasnip user.
       -- { name = 'luasnip' },
 -- For ultisnips user.
-      -- { name = 'ultisnips' }, 
+      -- { name = 'ultisnips' },  
+   
     { name = 'buffer', keyword_length = 3 },
     { name = 'omni' , keyword_length = 3 }
-      { name = 'tags' , keyword_length = 3 }
+    { name = 'tags' , keyword_length = 3 } 
+   { name = 'nvim_lsp' },
+
         --{ name = 'latex_symbols' },
 }, 
 { sources[3].keyword_length (3) }, 
