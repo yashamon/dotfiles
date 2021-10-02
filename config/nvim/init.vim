@@ -26,7 +26,6 @@ Plug 'voldikss/vim-floaterm'
 "Plug 'junegunn/gv.vim'
 Plug 'cohama/agit.vim'
 Plug 'kabouzeid/nvim-lspinstall', { 'branch': 'main' }
-"Plug 'preservim/nerdcommenter'    
 "Plug 'pope/vim-obsession'
 "Plug 'xolox/vim-easytags'
 Plug 'nvim-lua/plenary.nvim'
@@ -643,7 +642,7 @@ nnoremap <leader>j J
 nnoremap <leader>k K
 map ' "
 nnoremap <Backspace> i<Backspace><Esc>
-noremap <leader>c gc 
+noremap <leader>c gc
 noremap <A-r> <C-r>
 nnoremap ` ~
 nnoremap . `
@@ -988,8 +987,8 @@ EOF
 " vsnip stuff 
 "
 " Use <Tab> and <S-Tab> to navigate through popup menu
-inoremap <expr> <Tab> pumvisible() ? "\<C-n>" : "\<Tab>"
-inoremap <expr> <down> pumvisible() ? "\<C-p>" : "\<S-Tab>"
+inoremap <expr> <A-space> pumvisible() ? "\<C-n>" : "\<Tab>"
+inoremap <expr> <C-space> pumvisible() ? "\<C-p>" : "\<S-Tab>"
 
 " Set completeopt to have a better completion experience
 set completeopt=menuone,noinsert,noselect
@@ -1027,12 +1026,12 @@ set shortmess+=c
 "imap <silent> <M-Space> <Plug>(completion_trigger)
 
 let g:vsnip_snippet_dir = '~/dotfiles/snippets'
-imap <expr> <m-space>   vsnip#expandable()  ? '<Plug>(vsnip-expand)'         : '<C-j>'
-smap <expr> <m-space>   vsnip#expandable()  ? '<Plug>(vsnip-expand)'         : '<C-j>'
-
-" Expand or jump
-imap <expr> <m-space>   vsnip#available(1)  ? '<Plug>(vsnip-expand-or-jump)' : '<C-l>'
-smap <expr> <m-space>   vsnip#available(1)  ? '<Plug>(vsnip-expand-or-jump)' : '<C-l>'
+" imap <expr> <m-space>   vsnip#expandable()  ? '<Plug>(vsnip-expand)'         : '<C-j>'
+" smap <expr> <m-space>   vsnip#expandable()  ? '<Plug>(vsnip-expand)'         : '<C-j>'
+" 
+" " Expand or jump
+" imap <expr> <m-space>   vsnip#available(1)  ? '<Plug>(vsnip-expand-or-jump)' : '<C-l>'
+" smap <expr> <m-space>   vsnip#available(1)  ? '<Plug>(vsnip-expand-or-jump)' : '<C-l>'
 
 " Jump forward or backward
   imap <expr> <M-j>   vsnip#jumpable(1)   ? '<Plug>(vsnip-jump-next)'      : '<Tab>'
@@ -1136,8 +1135,7 @@ nnoremap <leader>p :FZFNeoyank +<cr>
 nnoremap <leader>1 :FZFNeoyank 1<cr>
 nnoremap <leader>P :FZFNeoyank " P+<cr>
 vnoremap <leader>p :FZFNeoyankSelection +<cr>
-unmap <leader>c
-map <leader>c <Plug>NERDCommenterToggle
+" map <leader>c <Plug>NERDCommenterToggle
 
 " Replace the default dictionary completion with fzf-based fuzzy completion
 
@@ -1241,7 +1239,7 @@ require('nvim_comment').setup(
   -- Normal mode mapping left hand side
   line_mapping = "gcc",
   -- Visual/Operator mapping left hand side
-  operator_mapping = "gc",
+  operator_mapping = "<>",
   -- Hook function to call before commenting takes place
   --hook = nil
 }
