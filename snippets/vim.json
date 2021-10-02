@@ -2,7 +2,8 @@
 "EOF": {
     "prefix": "eof",
     "body": [
-        "lua <<EOF $0"
+        "lua <<EOF"
+         "$0"
        ],
     "description": "dots"
     }
