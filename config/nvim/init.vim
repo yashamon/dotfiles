@@ -314,7 +314,6 @@ au TextYankPost * call neoyank#_append()
 "
 " FUNCTIONS
 "
-" I haven't found how to hide this function (yet)
 " function! RestoreRegister()
 "   let @" = s:restore_reg
 "   return ''
@@ -1213,7 +1212,7 @@ sources = {
     { name = 'buffer', keyword_length = 4 },
     { name = 'omni' , keyword_length = 3 },
     { name = 'treesitter', keyword_length = 3  },
-    { name = 'tags' , keyword_length = 3 }, 
+    { name = 'tags' , keyword_length = 4 }, 
     { name = 'nvim_lsp', keyword_length = 3 },
 --{ name = 'latex_symbols' },
 } 
