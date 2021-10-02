@@ -499,10 +499,6 @@ set fileencodings=ucs-bom,utf-8,big5,gb2312,latin1
 " PLUGIN SETTINGS
 "--------------------------------------------------------------------------- 
 
-
-
-
-
 " --- AutoClose - Inserts matching bracket, paren, brace or quote 
 " fixed the arrow key problems caused by AutoClose
 "if !has("gui_running")	
@@ -807,8 +803,8 @@ au filetype tex nnoremap <silent> <leader>s :call ToggleQuickFix()<cr>
     \}
 let g:vimtex_compiler_progname = 'nvr'
 nmap  <leader>v <Esc>:w<CR>:VimtexView<CR>
-let g:vimtex_quickfix_mode = 0
-let g:vimtex_fold_enabled = 1 
+let g:vimtex_quickfix_mode = 1
+let g:vimtex_fold_enabled = 1
 let g:vimtex_fold_manual = 1 
 
 
