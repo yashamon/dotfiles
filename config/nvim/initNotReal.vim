@@ -14,7 +14,8 @@ snoremap <silent> <S-Tab> <cmd>lua require('luasnip').jump(-1)<Cr>
 imap <silent><expr> <C-E> luasnip#choice_active() ? '<Plug>luasnip-next-choice' : '<C-E>'
 smap <silent><expr> <C-E> luasnip#choice_active() ? '<Plug>luasnip-next-choice' : '<C-E>'
 "LUA
-lua <<EOF
+lua <<EOF 
+require("luasnip/loaders/from_vscode").lazy_load({} ) -- You can pass { paths = "./my-snippets/"} as well
 EOF
 
-require("luasnip/loaders/from_vscode").lazy_load() -- You can pass { paths = "./my-snippets/"} as well
+
