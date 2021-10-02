@@ -394,7 +394,8 @@ autocmd FileType python setlocal omnifunc=pythoncomplete#Complete
 autocmd FileType xml setlocal omnifunc=xmlcomplete#CompleteTags
 autocmd FileType css set omnifunc=csscomplete#CompleteCSS
 autocmd FileType c set omnifunc=ccomplete#Complete
-autocmd FileType java set omnifunc=javacomplete#Complete
+autocmd FileType java set omnifunc=javacomplete#Complete 
+
 autocmd Filetype tex setlocal fo=nt
 autocmd Filetype tex setlocal wrapmargin=0
 " use syntax complete if nothing else available
@@ -408,8 +409,8 @@ endif
 set cot-=preview "disable doc preview in omnicomplete
 
 " make CSS omnicompletion work for SASS and SCSS
-autocmd BufNewFile,BufRead *.scss             set ft=scss.css
-autocmd BufNewFile,BufRead *.sass             set ft=sass.css
+" autocmd BufNewFile,BufRead *.scss             set ft=scss.css
+" autocmd BufNewFile,BufRead *.sass             set ft=sass.css
 
 "--------------------------------------------------------------------------- 
 " ENCODING SETTINGS
@@ -421,30 +422,6 @@ set fileencodings=ucs-bom,utf-8,big5,gb2312,latin1
 
 
 
-"--------------------------------------------------------------------------- 
-" PLUGIN SETTINGS
-"--------------------------------------------------------------------------- 
-
-" --- AutoClose - Inserts matching bracket, paren, brace or quote 
-" fixed the arrow key problems caused by AutoClose
-"if !has("gui_running")	
-   "set term=linux
-   "imap OA <ESC>ki
-   "imap OB <ESC>ji
-   "imap OC <ESC>li
-   "imap OD <ESC>hi
-
-   "nmap OA k
-   "nmap OB j
-   "nmap OC l
-   "nmap OD 
-"YankRing
-" " --- Command-T
-" let g:CommandTMaxHeight = 15 
-" -- SuperTab
-" let g:SuperTabDefaultCompletionType = "context"
-" let g:SuperTabCompletionContexts = ['s:ContextText', 's:ContextDiscover']
-" let g:SuperTabContextDiscoverDiscovery= ["&completefunc:<c-x><c-u>", "&omnifunc:<c-x><c-o>"]
  " General mappings, remaps, maps
  
   
