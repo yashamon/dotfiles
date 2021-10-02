@@ -1216,11 +1216,9 @@ sources = {
     { name = 'buffer' },
     { name = 'omni' },
     { name = 'tags' }, 
-
-    {keyword_length (buffer: 3)
-    --{ name = 'latex_symbols' },
+        --{ name = 'latex_symbols' },
 },
-{ completion.keyword_length = 3 }
+--{ completion.keyword_length = 3 }
 }
 EOF
 
