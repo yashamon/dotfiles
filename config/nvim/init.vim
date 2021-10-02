@@ -445,7 +445,8 @@ set fileencodings=ucs-bom,utf-8,big5,gb2312,latin1
 " let g:SuperTabDefaultCompletionType = "context"
 " let g:SuperTabCompletionContexts = ['s:ContextText', 's:ContextDiscover']
 " let g:SuperTabContextDiscoverDiscovery= ["&completefunc:<c-x><c-u>", "&omnifunc:<c-x><c-o>"]
-  
+ " General mappings, remaps, maps
+ 
   
 noremap q <nop> 
 map <leader>q q
