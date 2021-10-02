@@ -644,7 +644,6 @@ nnoremap <leader>k K
 map ' "
 nnoremap <Backspace> i<Backspace><Esc>
 noremap <leader>c gc 
-
 noremap <A-r>  <C-r>
 nnoremap ` ~
 nnoremap . `
