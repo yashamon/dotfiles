@@ -889,6 +889,7 @@ set shortmess+=c
 "
 "
 "
+"
 "function! PackagerInit()
   "call packager#add('kristijanhusak/vim-packager')
   "call packager#add('nvim-lua/completion-nvim')
