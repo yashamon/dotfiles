@@ -1068,12 +1068,10 @@ cmp.setup({
 ['<CR>'] = cmp.mapping.confirm({ select = true }),
 ["<Tab>"] = cmp.mapping(function(fallback)  
       if luasnip.expand_or_jumpable() then
-        luasnip.expand_or_jump()
-if vim.fn.pumvisible() == 1 then
+         luasnip.expand_or_jump()
+      elseif vim.fn.pumvisible() == 1 then
         feedkey("<C-n>")
-      elseif luasnip.expand_or_jumpable() then
-        luasnip.expand_or_jump()
-      elseif has_words_before() then
+         elseif has_words_before() then
         cmp.complete()
       else
         fallback() -- The fallback function sends a already mapped key. In this case, it's probably `<Tab>`.
@@ -1173,7 +1171,7 @@ EOF
 "     { name = 'tags' , keyword_length = 4 }, 
 "     { name = 'nvim_lsp', keyword_length = 3 },
 " --{ name = 'latex_symbols' },
-" } 
+" }
 " --{ completion.keyword_length = 3 }
 " }
 " EOF
