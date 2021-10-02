@@ -1181,6 +1181,13 @@ EOF
 noremap <leader>ca  :lua vim.lsp.buf.code_action()<CR>
 noremap <leader>la  :lua vim.lsp.buf.code_action()<CR>
 lua << EOF
+config = function()
+            require("luasnip").config.set_config {
+                history = true,
+            }
+            require("luasnip.loaders.from_vscode").load {} 
+        end, 
+EOF
 
 lua <<EOF
 require('nvim_comment').setup(
