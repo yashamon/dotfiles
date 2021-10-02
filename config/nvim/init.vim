@@ -15,8 +15,8 @@ Plug 'hrsh7th/vim-vsnip', { 'branch': 'main' }
 Plug 'quangnguyen30192/cmp-nvim-tags',  { 'branch': 'main' } 
 Plug 'ray-x/cmp-treesitter'
 " For luasnip user. 
-Plug 'L3MON4D3/LuaSnip'
-Plug 'saadparwaiz1/cmp_luasnip'
+" Plug 'L3MON4D3/LuaSnip'
+" Plug 'saadparwaiz1/cmp_luasnip'
 "Plug 'steelsojka/completion-buffers'
 Plug 'voldikss/vim-floaterm' 
 "Plug 'nvim-treesitter/completion-treesitter'
@@ -1040,7 +1040,7 @@ let g:agit_log_width = 10
 set completeopt=menu,menuone,noselect
 
 lua <<EOF
-  -- Setup cmp. 
+  -- Setup cmp.
 
 local has_words_before = function()
   if vim.api.nvim_buf_get_option(0, "buftype") == "prompt" then
@@ -1050,130 +1050,67 @@ local has_words_before = function()
   return col ~= 0 and vim.api.nvim_buf_get_lines(0, line - 1, line, true)[1]:sub(col, col):match("%s") == nil
 end
 
-local feedkey = function(key)
-  vim.api.nvim_feedkeys(vim.api.nvim_replace_termcodes(key, true, true, true), "n", true)
+local feedkey = function(key, mode)
+  vim.api.nvim_feedkeys(vim.api.nvim_replace_termcodes(key, true, true, true), mode, true)
 end
 
-local luasnip = require("luasnip")
-local cmp = require("cmp")
-
-cmp.setup{
-
+local cmp = require('cmp')
+cmp.setup {
+ snippet = {
+      expand = function(args)
+        -- For `vsnip` user.
+        vim.fn["vsnip#anonymous"](args.body) -- For `vsnip` user.
   -- ... Your other configuration ...
-
-  mapping = {
-
-    -- ... Your other mappings ...
-['<CR>'] = cmp.mapping.confirm({ select = true }),
-["<Tab>"] = cmp.mapping(function(fallback)  
-      if luasnip.expand_or_jumpable() then
-         luasnip.expand_or_jump()
-      elseif vim.fn.pumvisible() == 1 then
-        feedkey("<C-n>")
-         elseif has_words_before() then
+end,
+},
+mapping = {
+      ['<C-d>'] = cmp.mapping.scroll_docs(-4),
+      ['<C-f>'] = cmp.mapping.scroll_docs(4),
+      ['<Tab>'] = cmp.mapping.complete(),
+      ['<C-e>'] = cmp.mapping.close(),
+      ['<CR>'] = cmp.mapping.confirm({ select = true }),
+-- ... Your other mappings ...
+["<Tab>"] = cmp.mapping(function(fallback)
+      if vim.fn["vsnip#available"]() == 1
+        then
+        feedkey("<Plug>(vsnip-expand-or-jump)", "")
+     elseif vim.fn.pumvisible() == 1 then
+        feedkey("<C-n>", "n")
+      elseif has_words_before() then
         cmp.complete()
       else
         fallback() -- The fallback function sends a already mapped key. In this case, it's probably `<Tab>`.
       end
     end, { "i", "s" }),
-
-    ["<S-Tab>"] = cmp.mapping(function(fallback)
+["<S-Tab>"] = cmp.mapping(function()
       if vim.fn.pumvisible() == 1 then
-        feedkey("<C-p>")
-      elseif luasnip.jumpable(-1) then
-        luasnip.jump(-1)
-      else
-        fallback()
+        feedkey("<C-p>", "n")
+      elseif vim.fn["vsnip#jumpable"](-1) == 1 then
+        feedkey("<Plug>(vsnip-jump-prev)", "")
       end
     end, { "i", "s" }),
+-- ... Your other mappings ...
 
-    -- ... Your other mappings ...
-  },
+},
+-- ... Your other configuration ...
 sources = {
       -- For vsnip user.
-      -- { name = 'vsnip', keyword_length = 1 },
-      --    -- For luasnip user.
-    { name = 'luasnip', keyword_length = 1 },
+      { name = 'vsnip', keyword_length = 1 },
+         -- For luasnip user.
+      -- { name = 'luasnip' },
+-- For ultisnips user.
+      -- { name = 'ultisnips' },  
+   
     { name = 'buffer', keyword_length = 4 },
     { name = 'omni' , keyword_length = 3 },
     { name = 'treesitter', keyword_length = 3  },
     { name = 'tags' , keyword_length = 4 }, 
     { name = 'nvim_lsp', keyword_length = 3 },
 --{ name = 'latex_symbols' },
-}
+} 
 --{ completion.keyword_length = 3 }
 }
--- ... Your other configuration ...
 EOF
-
-
-
-" local has_words_before = function()
-"   if vim.api.nvim_buf_get_option(0, "buftype") == "prompt" then
-"     return false
-"   end
-"   local line, col = unpack(vim.api.nvim_win_get_cursor(0))
-"   return col ~= 0 and vim.api.nvim_buf_get_lines(0, line - 1, line, true)[1]:sub(col, col):match("%s") == nil
-" end
-" 
-" local feedkey = function(key, mode)
-"   vim.api.nvim_feedkeys(vim.api.nvim_replace_termcodes(key, true, true, true), mode, true)
-" end
-" 
-" local cmp = require('cmp')
-" cmp.setup {
-"  snippet = {
-"       expand = function(args)
-"         -- For `vsnip` user.
-"         vim.fn["vsnip#anonymous"](args.body) -- For `vsnip` user.
-"   -- ... Your other configuration ...
-" end,
-" },
-" mapping = {
-"       ['<C-d>'] = cmp.mapping.scroll_docs(-4),
-"       ['<C-f>'] = cmp.mapping.scroll_docs(4),
-"       ['<Tab>'] = cmp.mapping.complete(),
-"       ['<C-e>'] = cmp.mapping.close(),
-"       ['<CR>'] = cmp.mapping.confirm({ select = true }),
-" -- ... Your other mappings ...
-" ["<Tab>"] = cmp.mapping(function(fallback)
-"       if vim.fn["vsnip#available"]() == 1
-"         then
-"         feedkey("<Plug>(vsnip-expand-or-jump)", "")
-"      elseif vim.fn.pumvisible() == 1 then
-"         feedkey("<C-n>", "n")
-"       elseif has_words_before() then
-"         cmp.complete()
-"       else
-"         fallback() -- The fallback function sends a already mapped key. In this case, it's probably `<Tab>`.
-"       end
-"     end, { "i", "s" }),
-" ["<S-Tab>"] = cmp.mapping(function()
-"       if vim.fn.pumvisible() == 1 then
-"         feedkey("<C-p>", "n")
-"       elseif vim.fn["vsnip#jumpable"](-1) == 1 then
-"         feedkey("<Plug>(vsnip-jump-prev)", "")
-"       end
-"     end, { "i", "s" }),
-" -- ... Your other mappings ...
-" 
-" },
-" -- ... Your other configuration ...
-" sources = {
-"       -- For vsnip user.
-"       -- { name = 'vsnip', keyword_length = 1 },
-"       --    -- For luasnip user.
-"       { name = 'luasnip', keyword_length = 1 },
-"     { name = 'buffer', keyword_length = 4 },
-"     { name = 'omni' , keyword_length = 3 },
-"     { name = 'treesitter', keyword_length = 3  },
-"     { name = 'tags' , keyword_length = 4 }, 
-"     { name = 'nvim_lsp', keyword_length = 3 },
-" --{ name = 'latex_symbols' },
-" }
-" --{ completion.keyword_length = 3 }
-" }
-" EOF
 
 " LSP mappings   
 "" LSP mappings 
@@ -1200,9 +1137,6 @@ require('nvim_comment').setup(
 )
 EOF
 
-lua <<EOF
-require("luasnip/loaders/from_vscode").load({ paths = { "~/dotfiles/snippets" } }) -- Load snippets from my-snippets folder 
-EOF
 " au TextDeletePost * lua vim.highlight.on_delete {higroup="IncSearch", timeout=150, on_visual=true} ;a;sldfjasl fj slj a;slfjasdfj
 
 "au FileType tex autocmd User SneakLeave set syntax=tex
