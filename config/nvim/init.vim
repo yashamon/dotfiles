@@ -1217,7 +1217,8 @@ sources = {
     { name = 'omni' },
     { name = 'tags' }, 
         --{ name = 'latex_symbols' },
-},
+}, 
+{ sources[3].keyword_length (type: number) }
 --{ completion.keyword_length = 3 }
 }
 EOF
