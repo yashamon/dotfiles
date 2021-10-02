@@ -700,7 +700,7 @@
   },
 
 "duality": {
-    "prefix": "dual,d",
+    "prefix": "dual",
     "body": [
      "\\langle $1, $2 \\rangle $0"
     ],
