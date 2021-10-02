@@ -305,55 +305,9 @@ au Filetype tex,text,tex vmap q xi<CR><CR><CR><CR><ESC>kkicom<tab><esc>p<A-j>
 
 " au FileType tex set background=dark 
 au TextYankPost * lua vim.highlight.on_yank {higroup="IncSearch", timeout=150, on_visual=true} 
-au TextYankPost * call neoyank#_append()
-" au TextDeletePost * lua vim.highlight.on_delete {higroup="IncSearch", timeout=150, on_visual=true} ;a;sldfjasl fj slj a;slfjasdfj
+au TextYankPost * call neoyank#_append() 
 
-"au FileType tex autocmd User SneakLeave set syntax=tex
-"au FileType tex autocmd User SneakEnter set syntax=text
-"
-"
-" FUNCTIONS
-"
-" function! RestoreRegister()
-"   let @" = s:restore_reg
-"   return ''
-" endfunction
-"
-" function! s:Repl()
-"     let s:restore_reg = @"
-"     return "p@=RestoreRegister()\<cr>"
-" endfunction
-"
-" " NB: this supports "rp that replaces the selection by the contents of @r
-" vnoremap <silent> <expr> p <sid>Repl()
-
-" " Change Color when entering
-" Insert Mode augroup CursorLine
-"    au!
-"  if has("gui_running")
-"  else
-"      au InsertEnter * setlocal cursorline
-"        au InsertLeave * setlocal nocursorline
-"     endif
-"        augroup END
-" function! DelTagOfFile(file)
-"   let fullpath = a:file
-"   let cwd = getcwd()
-"   let tagfilename = cwd . "/tags"
-"   let f = substitute(fullpath, cwd . "/", "", "")
-"   let f = escape(f, './')
-"   let cmd = 'sed -i "/' . f . '/d" "' . tagfilename . '"'
-"   let resp = system(cmd)
-" endfunction
-function! Break()
- let n=130-virtcol('.')
- <Esc>ni <Esc><Esc>
-endfunction
-
-
-function Gitview()
-   cd /root/web2 ; git add . ; git commit -m -a ; git push origin gh-pages
-endfunction
+         "Some functions
 function Light()
 set background=light
 colorscheme oceanlight
