@@ -1213,12 +1213,11 @@ sources = {
 -- For ultisnips user.
       -- { name = 'ultisnips' },  
    
-    { name = 'buffer', keyword_length = 3 },
+    { name = 'buffer', keyword_length = 4 },
     { name = 'omni' , keyword_length = 3 }
-    { name = 'tags' , keyword_length = 3 } 
-   { name = 'nvim_lsp' },
-
-        --{ name = 'latex_symbols' },
+    { name = 'tags' , keyword_length = 4 } 
+    { name = 'nvim_lsp', keyword_length = 3 },
+--{ name = 'latex_symbols' },
 }, 
 { sources[3].keyword_length (3) }, 
 { sources[4].keyword_length (3) }
