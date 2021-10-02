@@ -1042,7 +1042,6 @@ set completeopt=menu,menuone,noselect
 lua <<EOF
   -- Setup cmp. 
 
-
 local has_words_before = function()
   if vim.api.nvim_buf_get_option(0, "buftype") == "prompt" then
     return false
@@ -1058,7 +1057,7 @@ end
 local luasnip = require("luasnip")
 local cmp = require("cmp")
 
-cmp.setup({
+cmp.setup{
 
   -- ... Your other configuration ...
 
