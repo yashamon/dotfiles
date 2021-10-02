@@ -440,7 +440,7 @@ inoremap <m-s> <esc>:%s///gc<left><left><left><left>
 nnoremap <m-s> :%s///gc<left><left><left> 
 vmap <M-.> t.<CR>h
 nmap <M-.> t.<CR>h
-map <up> <nop>
+map <up> <C-y>
 imap <up> <nop>
 imap <down> <nop>
 map <down> <nop>
