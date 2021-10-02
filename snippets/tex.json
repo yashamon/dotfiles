@@ -708,7 +708,7 @@
   },
 
 "and": {
-    "prefix": "and,a",
+    "prefix": "and",
     "body": [
       "& $0"
     ],
