@@ -1,4 +1,5 @@
-call plug#begin('~/.vim/plugged')           
+call plug#begin('~/.vim/plugged')            
+
 Plug 'shaunsingh/nord.nvim'  
 "Plug 'vim-commentary'
 "Plug 'b3nj5m1n/kommentary'

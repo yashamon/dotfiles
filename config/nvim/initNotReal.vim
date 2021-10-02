@@ -1,5 +1,4 @@
 call plug#begin('~/.vim/plugged')            
-Plug 'hrsh7th/cmp-vsnip', { 'branch': 'main' }
 " For luasnip user. 
  Plug 'L3MON4D3/LuaSnip'
 call plug#end() 
