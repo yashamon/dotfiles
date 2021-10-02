@@ -433,7 +433,6 @@ nnoremap <leader>e :FloatermNew vifm<cr>
 nnoremap <leader>t :FloatermToggle<cr> 
 
 
-
 vnoremap <m-s> :s///gc<left><left><left><left> 
 inoremap <m-s> <esc>:%s///gc<left><left><left><left>
 nnoremap <m-s> :%s///gc<left><left><left> 
