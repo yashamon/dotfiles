@@ -650,6 +650,7 @@ nnoremap . `
 noremap 1 <C-o>
 noremap 2 <C-i>
 
+
 noremap <D-d> <C-d>
 map ;s <Esc>:w<CR>
 noremap <A-d> <C-d>
@@ -1228,7 +1229,7 @@ noremap <leader>la  :lua vim.lsp.buf.code_action()<CR>
 
 
 lua <<EOF
-require('nvim_comment').setup()
+require('nvim_comment').setup(
 {
   -- Linters prefer comment and line to have a space in between markers
   marker_padding = true,
@@ -1241,7 +1242,7 @@ require('nvim_comment').setup()
   -- Visual/Operator mapping left hand side
   operator_mapping = "gc",
   -- Hook function to call before commenting takes place
-  hook = nil
+  --hook = nil
 }
 EOF
 
