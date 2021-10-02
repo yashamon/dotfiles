@@ -1040,7 +1040,76 @@ let g:agit_log_width = 10
 set completeopt=menu,menuone,noselect
 
 lua <<EOF
-  -- Setup cmp.
+  -- Setup cmp. 
+
+
+local has_words_before = function()
+  if vim.api.nvim_buf_get_option(0, "buftype") == "prompt" then
+    return false
+  end
+  local line, col = unpack(vim.api.nvim_win_get_cursor(0))
+  return col ~= 0 and vim.api.nvim_buf_get_lines(0, line - 1, line, true)[1]:sub(col, col):match("%s") == nil
+end
+
+local feedkey = function(key)
+  vim.api.nvim_feedkeys(vim.api.nvim_replace_termcodes(key, true, true, true), "n", true)
+end
+
+local luasnip = require("luasnip")
+local cmp = require("cmp")
+
+cmp.setup({
+
+  -- ... Your other configuration ...
+
+  mapping = {
+
+    -- ... Your other mappings ...
+['<CR>'] = cmp.mapping.confirm({ select = true }),
+["<Tab>"] = cmp.mapping(function(fallback)
+      if vim.fn.pumvisible() == 1 then
+        feedkey("<C-n>")
+      elseif luasnip.expand_or_jumpable() then
+        luasnip.expand_or_jump()
+      elseif has_words_before() then
+        cmp.complete()
+      else
+        fallback() -- The fallback function sends a already mapped key. In this case, it's probably `<Tab>`.
+      end
+    end, { "i", "s" }),
+
+    ["<S-Tab>"] = cmp.mapping(function(fallback)
+      if vim.fn.pumvisible() == 1 then
+        feedkey("<C-p>")
+      elseif luasnip.jumpable(-1) then
+        luasnip.jump(-1)
+      else
+        fallback()
+      end
+    end, { "i", "s" }),
+
+    -- ... Your other mappings ...
+  },
+sources = {
+      -- For vsnip user.
+      -- { name = 'vsnip', keyword_length = 1 },
+      --    -- For luasnip user.
+      { name = 'luasnip', keyword_length = 1 },
+    { name = 'buffer', keyword_length = 4 },
+    { name = 'omni' , keyword_length = 3 },
+    { name = 'treesitter', keyword_length = 3  },
+    { name = 'tags' , keyword_length = 4 }, 
+    { name = 'nvim_lsp', keyword_length = 3 },
+--{ name = 'latex_symbols' },
+} 
+--{ completion.keyword_length = 3 }
+}
+EOF
+
+  -- ... Your other configuration ...
+})
+
+
 
 local has_words_before = function()
   if vim.api.nvim_buf_get_option(0, "buftype") == "prompt" then
@@ -1095,12 +1164,9 @@ mapping = {
 -- ... Your other configuration ...
 sources = {
       -- For vsnip user.
-      { name = 'vsnip', keyword_length = 1 },
-      "    -- For luasnip user.
-      " -- { name = 'luasnip' },
--- For ultisnips user.
-      -- { name = 'ultisnips' },  
-   
+      -- { name = 'vsnip', keyword_length = 1 },
+      --    -- For luasnip user.
+      { name = 'luasnip', keyword_length = 1 },
     { name = 'buffer', keyword_length = 4 },
     { name = 'omni' , keyword_length = 3 },
     { name = 'treesitter', keyword_length = 3  },
