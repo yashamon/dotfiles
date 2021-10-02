@@ -461,7 +461,7 @@ noremap D "0D
 nnoremap dd "0dd
 noremap c "0c
 noremap C "_C
-noremap s "_x
+" noremap s "_x
 vnoremap x "+x
 vnoremap y "+y 
 nnoremap y "+y 
@@ -998,7 +998,7 @@ EOF
 
 "lua require'lspconfig'.texlab.setup{on_attach=require'completion'.on_attach}
 
-"Lsp install
+"L install
 
 lua << EOF
 local function setup_servers()
