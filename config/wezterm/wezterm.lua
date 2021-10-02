@@ -23,7 +23,7 @@ wezterm.on("trigger-vim-with-scrollback", function(window, pane)
   -- wait "enough" time for vim to read the file before we remove it.
   -- The window creation and process spawn are asynchronous
   -- wrt. running this script and are not awaitable, so we just pick
-  -- a number.  We don't strictly need to remove this file, but it
+  -- a number.  We don't strictly need to remove this file, but it 
   -- is nice to avoid cluttering up the temporary file directory
   -- location.
   wezterm.sleep_ms(1000);
@@ -118,14 +118,14 @@ end);
 {
   hide_tab_bar_if_only_one_tab = true,
   font = wezterm.font("Fira Code"),
-  font_size = 30,
+  font_size = 40,
   --color_scheme = "Solarized Dark - Patched",
   --color_scheme = "The Hulk",
   --color_scheme = "JetBrians Dracula",
   --color_scheme = "Alien Blood",
   --color_scheme = "Dracula",
   --color_scheme = "Cobalt Neon",
-   color_scheme = "Dark Matrix",
+  color_scheme = "Dark Matrix",
   exit_behavior = "Close",
   keys = {
     -- This will create a new split and run your default program inside it
