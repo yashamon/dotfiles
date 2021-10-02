@@ -1213,14 +1213,13 @@ sources = {
       -- { name = 'luasnip' },
 -- For ultisnips user.
       -- { name = 'ultisnips' }, 
-    { name = 'buffer' },
+    { name = 'buffer', keyword_length = 3 },
     { name = 'omni' },
     { name = 'tags' }, 
         --{ name = 'latex_symbols' },
 }, 
 { sources[3].keyword_length (3) }, 
-{ sources[3].keyword_length (3) },
-
+{ sources[4].keyword_length (3) }
 --{ completion.keyword_length = 3 }
 }
 EOF
