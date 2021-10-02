@@ -1248,4 +1248,3 @@ require('nvim_comment').setup(
 )
 EOF
 
-hi Quote ctermbg=109 guifg=#83a598
