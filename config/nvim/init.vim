@@ -1,6 +1,7 @@
 call plug#begin('~/.vim/plugged')            
-Plug 'shaunsingh/nord.nvim'  Dark()
-Plug 'b3nj5m1n/kommentary'
+Plug 'shaunsingh/nord.nvim'  
+Plug 'vim-commentary'
+"Plug 'b3nj5m1n/kommentary'
 Plug 'simnalamburt/vim-mundo'
 Plug 'neovim/nvim-lspconfig',  { 'branch': 'main' }
 " If you are using Vim-Plug
