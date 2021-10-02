@@ -21,7 +21,7 @@ Plug 'voldikss/vim-floaterm'
 "Plug 'nvim-treesitter/completion-treesitter'
 "Plug 'vifm/vifm'
 "Plug 'TimUntersberger/neogit' 
-Plug 'tpope/vim-fugitive' 
+" Plug 'tpope/vim-fugitive' 
 "Plug 'junegunn/gv.vim'
 Plug 'cohama/agit.vim'
 Plug 'kabouzeid/nvim-lspinstall', { 'branch': 'main' }
