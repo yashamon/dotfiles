@@ -907,7 +907,7 @@
     "description": "infinity"
   },
 "partial": {
-    "prefix": ["p", "\\o"],
+    "prefix": ["p", "\\p"],
     "body": [
       "\\omega $0"
     ],
