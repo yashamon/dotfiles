@@ -1,5 +1,5 @@
 call plug#begin('~/.vim/plugged')            
-
+Plug 'f3fora/cmp-spell'
 Plug 'shaunsingh/nord.nvim'  
 "Plug 'vim-commentary'
 "Plug 'b3nj5m1n/kommentary'
@@ -1078,7 +1078,7 @@ sources = {
       -- { name = 'ultisnips' },  
    
     { name = 'buffer', keyword_length = 4 },
-    { name = 'omni' , keyword_length = 3 },
+    { name = 'omni' , keyword_length = 3 }, 
     { name = 'treesitter', keyword_length = 3  },
     { name = 'tags' , keyword_length = 4 }, 
     { name = 'nvim_lsp', keyword_length = 3 },
