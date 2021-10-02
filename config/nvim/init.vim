@@ -825,7 +825,7 @@ lua <<EOF
 require'nvim-tree'.setup()
 EOF
 lua <<EOF
-require'nvim-treesitter.configs'.setup {
+require'nvim-treesitter.configs'.setup { 
     --
     --highlight = { enable = true },
     incremental_selection = { enable = true },
@@ -1056,16 +1056,14 @@ end
 
 local luasnip = require("luasnip")
 local cmp = require("cmp")
-cmp.setup {
-        snippet = {
-            expand = function(args)
-                require("luasnip").lsp_expand(args.body)
-            end,
-        },
+
+cmp.setup{
+
   -- ... Your other configuration ...
 
   mapping = {
--- ... Your other mappings ...
+
+    -- ... Your other mappings ...
 ['<CR>'] = cmp.mapping.confirm({ select = true }),
 ["<Tab>"] = cmp.mapping(function(fallback)  
       if luasnip.expand_or_jumpable() then
@@ -1078,7 +1076,8 @@ cmp.setup {
         fallback() -- The fallback function sends a already mapped key. In this case, it's probably `<Tab>`.
       end
     end, { "i", "s" }),
-["<S-Tab>"] = cmp.mapping(function(fallback)
+
+    ["<S-Tab>"] = cmp.mapping(function(fallback)
       if vim.fn.pumvisible() == 1 then
         feedkey("<C-p>")
       elseif luasnip.jumpable(-1) then
@@ -1180,14 +1179,7 @@ EOF
 "" LSP mappings 
 noremap <leader>ca  :lua vim.lsp.buf.code_action()<CR>
 noremap <leader>la  :lua vim.lsp.buf.code_action()<CR>
-lua << EOF
-config = function()
-         require("luasnip").config.set_config {
-                history = true,
-            }
-         require("luasnip.loaders.from_vscode").load({ paths = { "~/dotfiles/snippets" } })
-      end
-EOF
+
 
 lua <<EOF
 require('nvim_comment').setup(
@@ -1208,9 +1200,9 @@ require('nvim_comment').setup(
 )
 EOF
 
-" lua <<EOF
-" require("luasnip/loaders/from_vscode").load() -- Load snippets from my-snippets folder
-" EOF
+lua <<EOF
+require("luasnip/loaders/from_vscode").load({ paths = { "~/dotfiles/snippets" } }) -- Load snippets from my-snippets folder
+EOF
 " au TextDeletePost * lua vim.highlight.on_delete {higroup="IncSearch", timeout=150, on_visual=true} ;a;sldfjasl fj slj a;slfjasdfj
 
 "au FileType tex autocmd User SneakLeave set syntax=tex
@@ -1261,11 +1253,4 @@ EOF
 " function Gitview()
 "    cd /root/web2 ; git add . ; git commit -m -a ; git push origin gh-pages
 " endfunction
-imap <silent><expr> <M-Space> luasnip#expand_or_jumpable() ? '<Plug>luasnip-expand-or-jump' : '<Tab>' 
-inoremap <silent> <S-Tab> <cmd>lua require'luasnip'.jump(-1)<Cr>
 
-snoremap <silent> <Tab> <cmd>lua require('luasnip').jump(1)<Cr>
-snoremap <silent> <S-Tab> <cmd>lua require('luasnip').jump(-1)<Cr>
-
-imap <silent><expr> <C-E> luasnip#choice_active() ? '<Plug>luasnip-next-choice' : '<C-E>'
-smap <silent><expr> <C-E> luasnip#choice_active() ? '<Plug>luasnip-next-choice' : '<C-E>'
