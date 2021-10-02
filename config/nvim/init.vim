@@ -998,7 +998,7 @@ EOF
 
 "lua require'lspconfig'.texlab.setup{on_attach=require'completion'.on_attach}
 
-"L install
+"Lsp install
 
 lua << EOF
 local function setup_servers()
@@ -1137,6 +1137,7 @@ require('nvim_comment').setup(
 )
 EOF
 
+require("luasnip/loaders/from_vscode").load({ paths = { "./my-snippets" } }) -- Load snippets from my-snippets folder
 " au TextDeletePost * lua vim.highlight.on_delete {higroup="IncSearch", timeout=150, on_visual=true} ;a;sldfjasl fj slj a;slfjasdfj
 
 "au FileType tex autocmd User SneakLeave set syntax=tex
