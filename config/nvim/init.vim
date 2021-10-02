@@ -643,7 +643,7 @@ nnoremap <leader>j J
 nnoremap <leader>k K
 map ' "
 nnoremap <Backspace> i<Backspace><Esc>
-noremap <leader>c <leader>c<Space>
+noremap <leader>c gcc
 map <A-/> <Leader>__
 map <A-r>  <C-r>
 map <C-c> gc
