@@ -825,7 +825,7 @@ lua <<EOF
 require'nvim-tree'.setup()
 EOF
 lua <<EOF
-require'nvim-treesitter.configs'.setup { 
+require'nvim-treesitter.configs'.setup {
     --
     --highlight = { enable = true },
     incremental_selection = { enable = true },
@@ -1186,7 +1186,7 @@ config = function()
                 history = true,
             }
          require("luasnip.loaders.from_vscode").load({ paths = { "~/dotfiles/snippets" } })
-        end,
+      end
 EOF
 
 lua <<EOF
