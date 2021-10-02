@@ -1214,8 +1214,8 @@ sources = {
 -- For ultisnips user.
       -- { name = 'ultisnips' }, 
     { name = 'buffer', keyword_length = 3 },
-    { name = 'omni' },
-    { name = 'tags' }, 
+    { name = 'omni' , keyword_length = 3 }
+      { name = 'tags' , keyword_length = 3 }
         --{ name = 'latex_symbols' },
 }, 
 { sources[3].keyword_length (3) }, 
