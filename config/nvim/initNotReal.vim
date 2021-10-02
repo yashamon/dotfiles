@@ -15,7 +15,7 @@ imap <silent><expr> <C-E> luasnip#choice_active() ? '<Plug>luasnip-next-choice' 
 smap <silent><expr> <C-E> luasnip#choice_active() ? '<Plug>luasnip-next-choice' : '<C-E>'
 "LUA
 lua <<EOF 
-require("luasnip/loaders/from_vscode").lazy_load({ paths = "~/"}) -- You can pass { paths = "./my-snippets/"} as well
+require("luasnip/loaders/from_vscode").lazy_load({ paths = "~/dotfiles/snippets"}) -- You can pass { paths = "./my-snippets/"} as well
 EOF
 
 
