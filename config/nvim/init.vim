@@ -1207,14 +1207,14 @@ mapping = {
 sources = {
       -- For vsnip user.
       { name = 'vsnip', keyword_length = 2 },
-     { name = 'treesitter' },
-    -- For luasnip user.
+         -- For luasnip user.
       -- { name = 'luasnip' },
 -- For ultisnips user.
       -- { name = 'ultisnips' },  
    
     { name = 'buffer', keyword_length = 4 },
-    { name = 'omni' , keyword_length = 3 }
+    { name = 'omni' , keyword_length = 3 } 
+    { name = 'treesitter',   },
     { name = 'tags' , keyword_length = 4 } 
     { name = 'nvim_lsp', keyword_length = 3 },
 --{ name = 'latex_symbols' },
