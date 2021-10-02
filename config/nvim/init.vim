@@ -1,4 +1,4 @@
-call plug#begin('~/.vim/plugged')            
+call plug#begin('~/.vim/plugged')           
 Plug 'shaunsingh/nord.nvim'  
 "Plug 'vim-commentary'
 "Plug 'b3nj5m1n/kommentary'
@@ -1204,7 +1204,7 @@ mapping = {
 -- ... Your other configuration ...
 sources = {
       -- For vsnip user.
-      { name = 'vsnip', keyword_length = 2 },
+      { name = 'vsnip', keyword_length = 1 },
          -- For luasnip user.
       -- { name = 'luasnip' },
 -- For ultisnips user.
@@ -1245,4 +1245,4 @@ require('nvim_comment').setup(
 }
 )
 EOF
-M
+
