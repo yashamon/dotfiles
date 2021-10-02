@@ -1231,3 +1231,4 @@ noremap <leader>la  :lua vim.lsp.buf.code_action()<CR>
 
 
 
+require('nvim_comment').setup()
