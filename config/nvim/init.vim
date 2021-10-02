@@ -1261,4 +1261,4 @@ EOF
 " function Gitview()
 "    cd /root/web2 ; git add . ; git commit -m -a ; git push origin gh-pages
 " endfunction
-
+imap <M-Space> lua luasnip.expand_or_jump()
