@@ -35,6 +35,33 @@ return {
     {key="V", mods="CTRL",
       action=wezterm.action{EmitEvent="trigger-vim-with-scrollback"}},
   },
+wezterm.on("update-right-status", function(window, pane)
+  -- Each element holds the text for a cell in a "powerline" style << fade
+  local cells = {};
+
+  -- Figure out the cwd and host of the current pane.
+  -- This will pick up the hostname for the remote host if your
+  -- shell is using OSC 7 on the remote host.
+  local cwd_uri = pane:get_current_working_dir()
+  if cwd_uri then
+    cwd_uri = cwd_uri:sub(8);
+    local slash = cwd_uri:find("/")
+    local cwd = ""
+    local hostname = ""
+    if slash then
+      hostname = cwd_uri:sub(1, slash-1)
+      -- Remove the domain name portion of the hostname
+      local dot = hostname:find("[.]")
+      if dot then
+        hostname = hostname:sub(1, dot-1)
+      end
+      -- and extract the cwd from the uri
+      cwd = cwd_uri:sub(slash)
+
+      table.insert(cells, cwd);
+      table.insert(cells, hostname);
+    end
+  end
 
   -- I like my date/time in this style: "Wed Mar 3 08:14"
   local date = wezterm.strftime("%a %b %-d %H:%M");
@@ -89,7 +116,7 @@ return {
 end);
 
 {
-  hide_tab_bar_if_only_one_tab = true,
+  hide_tab_bar_if_only_one_tab === true,
   font = wezterm.font("Jet Brains Mono"),
   font_size = 20,
   --color_scheme = "Solarized Dark - Patched",
