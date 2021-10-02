@@ -823,7 +823,9 @@ require'nvim-treesitter.configs'.setup {
     },
   },
 }
-EOF 
+EOF
+
+eof
 
 " set foldlevel=20
 " set foldmethod=expr
