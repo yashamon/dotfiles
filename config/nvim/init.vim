@@ -1023,7 +1023,7 @@ set shortmess+=c
       "\    {'complete_items': ['snippet', 'treesitter', 'buffers', 'tags']},  
       "\  ]}
 "let g:completion_enable_auto_popup = 1
-"imap <silent> <M-Space> <Plug>(completion_trigger)
+"imap <silent> <M-Space> <Plug>(completion_trigger) M
 
 let g:vsnip_snippet_dir = '~/dotfiles/snippets'
 " imap <expr> <m-space>   vsnip#expandable()  ? '<Plug>(vsnip-expand)'         : '<C-j>'
