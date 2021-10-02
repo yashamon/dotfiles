@@ -906,13 +906,6 @@
     ],
     "description": "infinity"
   },
-"omega": {
-    "prefix": ["o", "\\o"],
-    "body": [
-      "\\omega $0"
-    ],
-    "description": "omega"
-  },
 
 "omega": {
     "prefix": ["o", "\\o"],
