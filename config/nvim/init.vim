@@ -26,13 +26,13 @@ Plug 'voldikss/vim-floaterm'
 "Plug 'junegunn/gv.vim'
 Plug 'cohama/agit.vim'
 Plug 'kabouzeid/nvim-lspinstall', { 'branch': 'main' }
-Plug 'preservim/nerdcommenter'    
+"Plug 'preservim/nerdcommenter'    
 "Plug 'pope/vim-obsession'
 "Plug 'xolox/vim-easytags'
 Plug 'nvim-lua/plenary.nvim'
 Plug 'windwp/nvim-spectre'
 Plug 'xolox/vim-misc'
-"Plug 'terrortylor/nvim-comment', { 'branch': 'main' }
+Plug 'terrortylor/nvim-comment', { 'branch': 'main' }
 Plug 'kevinhwang91/nvim-bqf'
 Plug 'justinhoward/fzf-neoyank' 
 Plug 'stefanhepp/pplatex'
