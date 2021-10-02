@@ -644,12 +644,12 @@ nnoremap <leader>k K
 map ' "
 nnoremap <Backspace> i<Backspace><Esc>
 noremap <leader>c gc 
-noremap <A-r>  <C-r>
+noremap <A-r> <C-r>
 nnoremap ` ~
 nnoremap . `
-nmap 1 <C-o>
+nnoremap 1 <C-o>
 nmap 2 <C-i>
-nmap <S-CR> k$
+
 
 noremap <D-d> <C-d>
 map ;s <Esc>:w<CR>
