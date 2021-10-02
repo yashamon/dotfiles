@@ -1172,10 +1172,8 @@ EOF
 "au FileType tex autocmd User SneakEnter set syntax=text
 "
 "
-" FUNCTIONS
 "
 
-" General mappings, remaps, maps
 "
 " 'tComment'
 " let g:tcommentMapLeaderOp1=';' 
