@@ -646,7 +646,6 @@ nnoremap <Backspace> i<Backspace><Esc>
 noremap <leader>c gcc
 map <A-/> <Leader>__
 map <A-r>  <C-r>
-map <C-c> gc
 nnoremap ` ~
 nnoremap . `
 nmap 1 <C-o>
