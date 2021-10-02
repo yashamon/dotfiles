@@ -1218,6 +1218,7 @@ sources = {
     { name = 'tags' }, 
         --{ name = 'latex_symbols' },
 },
+{keyword_length (buffer: 3)}
 --{ completion.keyword_length = 3 }
 }
 EOF
