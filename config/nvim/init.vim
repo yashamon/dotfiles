@@ -446,13 +446,7 @@ set fileencodings=ucs-bom,utf-8,big5,gb2312,latin1
 " let g:SuperTabCompletionContexts = ['s:ContextText', 's:ContextDiscover']
 " let g:SuperTabContextDiscoverDiscovery= ["&completefunc:<c-x><c-u>", "&omnifunc:<c-x><c-o>"]
   
-"--NerdTree
-" let g:NERDTreeMapUpdir="<S-h>"
-" General mappings, remaps, maps
-"
-" 'tComment'
-" let g:tcommentMapLeaderOp1=';' 
-" "map <leader>c <Leader>__  
+  
 noremap q <nop> 
 map <leader>q q
 nnoremap <leader>sv :source $MYVIMRC<CR>
@@ -1171,6 +1165,7 @@ require('nvim_comment').setup(
 }
 )
 EOF
+
 " au TextDeletePost * lua vim.highlight.on_delete {higroup="IncSearch", timeout=150, on_visual=true} ;a;sldfjasl fj slj a;slfjasdfj
 
 "au FileType tex autocmd User SneakLeave set syntax=tex
@@ -1179,7 +1174,13 @@ EOF
 "
 " FUNCTIONS
 "
-" function! RestoreRegister()
+
+" General mappings, remaps, maps
+"
+" 'tComment'
+" let g:tcommentMapLeaderOp1=';' 
+" "map <leader>c <Leader>__ 
+"" function! RestoreRegister()
 "   let @" = s:restore_reg
 "   return ''
 " endfunction
