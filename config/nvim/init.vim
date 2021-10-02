@@ -529,8 +529,8 @@ noremap <S-Space> t<Space><enter>
 nmap <S-h> <C-w>h
 nmap <S-l> <C-w>l
 noremap <leader>r <C-r>
-noremap <S-k> <C-u>
-noremap <S-j> <C-d>
+map <S-k> <C-u>
+map <S-j> <C-d>
 nnoremap <leader>j J
 nnoremap <leader>k K
 map ' "
@@ -1207,7 +1207,8 @@ EOF
 "   \     incsearch#config#fuzzy#converter(),
 "   \     incsearch#config#fuzzyspell#converter()
 "   \   ],
-"   \ }), get(a:, 1, {}))
+"   \ }), get(a:, 1, {}
+"   ))
 " endfunction
 " noremap <silent><expr> f incsearch#go(<SID>config_fuzzyall())
 " noremap <silent><expr> F  incsearch#go(<SID>config_fuzzyall({'command': '?'}))
