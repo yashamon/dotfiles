@@ -319,19 +319,13 @@ endfunction
 function Pencil()
    set background=light
    colorscheme pencil
-   " highlight Normal ctermfg=black
-" highlight  CursorLine cterm=NONE ctermbg=black ctermfg=none
-" hi MatchParen cterm=underline ctermbg=none ctermfg=magenta
+
 endfunction
 
 
 function Dark()
    set background=dark
    colorscheme blue-moon 
-" highlight SpellBad cterm=underline
-" hi MatchParen cterm=underline ctermbg=none ctermfg=magenta
-   " highlight Normal guibg=#848484
-   " highlight normal guifg=grey
 endfunction
 
 " Default Colors for CursorLine_
@@ -1198,4 +1192,50 @@ require('nvim_comment').setup(
 }
 )
 EOF
+" au TextDeletePost * lua vim.highlight.on_delete {higroup="IncSearch", timeout=150, on_visual=true} ;a;sldfjasl fj slj a;slfjasdfj
+
+"au FileType tex autocmd User SneakLeave set syntax=tex
+"au FileType tex autocmd User SneakEnter set syntax=text
+"
+"
+" FUNCTIONS
+"
+" function! RestoreRegister()
+"   let @" = s:restore_reg
+"   return ''
+" endfunction
+"
+" function! s:Repl()
+"     let s:restore_reg = @"
+"     return "p@=RestoreRegister()\<cr>"
+" endfunction
+"
+" " NB: this supports "rp that replaces the selection by the contents of @r
+" vnoremap <silent> <expr> p <sid>Repl()
+
+" " Change Color when entering
+" Insert Mode augroup CursorLine
+"    au!
+"  if has("gui_running")
+"  else
+"      au InsertEnter * setlocal cursorline
+"        au InsertLeave * setlocal nocursorline
+"     endif
+"        augroup END
+" function! DelTagOfFile(file)
+"   let fullpath = a:file
+"   let cwd = getcwd()
+"   let tagfilename = cwd . "/tags"
+"   let f = substitute(fullpath, cwd . "/", "", "")
+"   let f = escape(f, './')
+"   let cmd = 'sed -i "/' . f . '/d" "' . tagfilename . '"'
+"   let resp = system(cmd)
+" endfunction
+" function! Break()
+"  let n=130-virtcol('.')
+"  <Esc>ni <Esc><Esc>
+" endfunction
+" function Gitview()
+"    cd /root/web2 ; git add . ; git commit -m -a ; git push origin gh-pages
+" endfunction
 
