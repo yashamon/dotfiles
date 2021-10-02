@@ -1,5 +1,5 @@
 call plug#begin('~/.vim/plugged')            
-Plug 'shaunsingh/nord.nvim' 
+Plug 'shaunsingh/nord.nvim'  Dark()
 Plug 'b3nj5m1n/kommentary'
 Plug 'simnalamburt/vim-mundo'
 Plug 'neovim/nvim-lspconfig',  { 'branch': 'main' }
@@ -805,7 +805,7 @@ let g:vimtex_compiler_progname = 'nvr'
 nmap  <leader>v <Esc>:w<CR>:VimtexView<CR>
 let g:vimtex_quickfix_mode = 1
 let g:vimtex_fold_enabled = 1
-let g:vimtex_fold_manual = 1 
+let g:vimtex_fold_manual = 1
 
 
 let g:vimtex_fold_types= {
