@@ -1215,10 +1215,11 @@ sources = {
       -- { name = 'ultisnips' }, 
     { name = 'buffer' },
     { name = 'omni' },
-    { name = 'tags' },
+    { name = 'tags' }, 
+
     --{ name = 'latex_symbols' },
 },
-{ completion.keyword_length = '3 }
+{ completion.keyword_length = 3 }
 }
 EOF
 
