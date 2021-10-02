@@ -1217,6 +1217,7 @@ sources = {
     { name = 'omni' },
     { name = 'tags' }, 
 
+keyword_length (type: number)
     --{ name = 'latex_symbols' },
 },
 { completion.keyword_length = 3 }
