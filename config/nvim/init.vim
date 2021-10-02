@@ -1104,8 +1104,7 @@ sources = {
     { name = 'nvim_lsp', keyword_length = 3 },
 --{ name = 'latex_symbols' },
 } 
---{ completion.keyword
-_length = 3 }
+--{ completion.keyword_length = 3 }
 } 
 EOF
 
