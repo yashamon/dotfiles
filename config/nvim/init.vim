@@ -648,7 +648,9 @@ noremap <A-r> <C-r>
 nnoremap ` ~
 nnoremap . `
 nnoremap 1 <C-o>
-nmap 2 <C-i>
+nnoremap 2 <C-i>
+vnoremap 1 <C-o>
+nnoremap 2 <C-i>
 
 
 noremap <D-d> <C-d>
