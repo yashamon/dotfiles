@@ -395,7 +395,7 @@ autocmd FileType xml setlocal omnifunc=xmlcomplete#CompleteTags
 autocmd FileType css set omnifunc=csscomplete#CompleteCSS
 autocmd FileType c set omnifunc=ccomplete#Complete
 autocmd FileType java set omnifunc=javacomplete#Complete 
-
+autocmd FileType tex set omnifunc=
 autocmd Filetype tex setlocal fo=nt
 autocmd Filetype tex setlocal wrapmargin=0
 " use syntax complete if nothing else available
