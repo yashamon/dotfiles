@@ -1213,14 +1213,12 @@ sources = {
       -- { name = 'ultisnips' },  
    
     { name = 'buffer', keyword_length = 4 },
-    { name = 'omni' , keyword_length = 3 } 
-    { name = 'treesitter',   },
-    { name = 'tags' , keyword_length = 4 } 
+    { name = 'omni' , keyword_length = 3 },
+    { name = 'treesitter', keyword_length = 3  },
+    { name = 'tags' , keyword_length = 4 }, 
     { name = 'nvim_lsp', keyword_length = 3 },
 --{ name = 'latex_symbols' },
-}, 
-{ sources[3].keyword_length (3) }, 
-{ sources[4].keyword_length (3) }
+} 
 --{ completion.keyword_length = 3 }
 }
 EOF
@@ -1250,3 +1248,4 @@ require('nvim_comment').setup(
 )
 EOF
 
+hi Quote ctermbg=109 guifg=#83a598
