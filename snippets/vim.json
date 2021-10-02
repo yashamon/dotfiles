@@ -4,8 +4,8 @@
     "body": [
         "lua <<EOF",
          "$0",
-         ""
+         "EOF"
        ],
-    "description": "dots"
+    "description": "EOF"
     }
 }
