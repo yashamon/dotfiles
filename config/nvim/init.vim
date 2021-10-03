@@ -7,7 +7,6 @@ Plug 'shaunsingh/nord.nvim'
 " Plug 'simnalamburt/vim-mundo'
 Plug 'neovim/nvim-lspconfig',  { 'branch': 'main' }
 " If you are using Vim-Plug
-Plug 'shaunsingh/nord.nvim'
 Plug 'hrsh7th/cmp-nvim-lsp', { 'branch': 'main' } 
 Plug 'kdheepak/cmp-latex-symbols', { 'branch': 'main' } 
 Plug 'hrsh7th/cmp-buffer', { 'branch': 'main' }
@@ -76,6 +75,8 @@ Plug 'sindrets/diffview.nvim', { 'branch': 'main' }
 Plug 'kyazdani42/nvim-web-devicons'
 Plug 'justinmk/vim-sneak'
 Plug 'kyazdani42/blue-moon'
+Plug 'marko-cerovac/material.nvim', { 'branch': 'main' }
+
 Plug 'Shougo/neoyank.vim' 
 if has('nvim')
    Plug 'Shougo/denite.nvim', { 'do': ':UpdateRemotePlugins' }
