@@ -285,8 +285,8 @@ let g:github_sidebars = ["qf", "vista_kind", "terminal", "packer"]
 " set background=dark 
 set background=light
 " colorscheme blue-moon
-  colorscheme material  
-
+colorscheme material  
+let g:material_style = 'lighter' if()
 " highlight Normal ctermbg=none
 hi clear SpellBad
 hi SpellBad cterm=underline
