@@ -610,6 +610,9 @@ au FileType tex,text,md inoremap <leader>cr <CR>
 au FileType tex,text,md noremap map o gj0i<CR><ESC>gki 
 nnoremap <C-j> a<CR><Esc>k$ 
 
+
+
+
 "Neovim mappings
 " :tnoremap <S-h> <C-\><C-n><C-w>h
 " :tnoremap <S-j> <C-\><C-n><C-w>j
