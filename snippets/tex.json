@@ -1032,6 +1032,13 @@
     ],
     "description": "cal T"
   }, 
+"Lambda": {
+    "prefix": ["cU"],
+    "body": [
+      "\\mathcal{U} $0"
+    ],
+    "description": "cal U"
+  },
 
 "caligraphic U": {
     "prefix": ["cU"],
