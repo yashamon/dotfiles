@@ -1060,7 +1060,7 @@ end,
 mapping = {
       ['<C-d>'] = cmp.mapping.scroll_docs(-4),
       ['<C-f>'] = cmp.mapping.scroll_docs(4),
-      ['<S-Space>'] = cmp.mapping.complete(),
+      ['<C-x>'] = cmp.mapping.complete(),
       ['<C-e>'] = cmp.mapping.close(),
       ['<CR>'] = cmp.mapping.confirm({ select = true }),
 -- ... Your other mappings ...
@@ -1070,7 +1070,7 @@ mapping = {
         feedkey("<Plug>(vsnip-expand-or-jump)", "")
      elseif vim.fn.pumvisible() == 1 then
         feedkey("<C-n>", "n")
-      elseif has_words_before() then
+      elseif has_words_before() then 
         cmp.complete()
       else
         fallback() -- The fallback function sends a already mapped key. In this case, it's probably `<Tab>`.
@@ -1089,7 +1089,7 @@ mapping = {
 -- ... Your other configuration ...
 sources = {
       -- For vsnip user.
-      { name = 'vsnip', keyword_length = 1 },
+      { name = 'vsnip', keyword_length = 4 },
          -- For luasnip user.
       -- { name = 'luasnip' },
 -- For ultisnips user.
@@ -1225,4 +1225,5 @@ EOF
 "
 "
 " hi! link Sneak Normal
-" hi! link SneakScope Normal
+" hi! link SneakScope Normal 
+eof
