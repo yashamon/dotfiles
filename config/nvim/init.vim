@@ -535,8 +535,7 @@ nmap <S-l> <C-w>l
 vnoremap <leader>r <C-r>
 nmap <S-k> <C-u>
 nmap <S-j> <C-d>
-vmap <S-
-k> <C-u>
+vmap <S-k> <C-u>
 vmap <S-j> <C-d> 
 nmap <C-k> <C-y>
 nmap <C-j> <C-e>
@@ -1246,4 +1245,5 @@ EOF
 let g:material_style = 'lighter'
 " let g:material_style = 'oceanic'
 set wrap
+nmap <C-j> <C-e>
 
