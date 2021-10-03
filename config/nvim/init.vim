@@ -193,7 +193,6 @@ set guicursor=n-v-c:block,i-ci-ve:ver25,r-cr:hor20,o:hor50
 "  highlight foldcolumn ctermfg=256 ctermbg=bg
 " autocmd Colorscheme * highlight FoldColumn guifg=black guibg=bg 
 set spelllang=en  
-
 autocmd VimEnter * TZAtaraxis
 au VIMEnter set spell 
  set timeout
