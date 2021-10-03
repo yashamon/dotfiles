@@ -496,7 +496,7 @@ map <A-b> ?{<CR>
 
 map <C-q> <Esc>:Goyo<cr>:qa!<CR> 
 map <m-q> <esc>:Goyo<cr>:qa<cr> 
-ap <m-c> <esc>:close<cr>  
+map <m-c> <esc>:close<cr>  
 map <M-d> <Esc>:bdelete<CR>
 noremap f /
 noremap F ?
@@ -573,7 +573,6 @@ nnoremap <silent> <Leader>y :YRGetElem<CR>
 map ' "
 inoremap <D-]> <C-x><C-]>
 inoremap <C-]> <C-x><C-]> 
-
 
 
 " text editting mappings
