@@ -1209,7 +1209,7 @@ true_zen.setup({
 		cursor_by_mode = false,
 	}
 })
-EOF ;sldkfj
+EOF 
 lua <<EOF
 require('lualine').setup()
 EOF
