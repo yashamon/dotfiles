@@ -282,9 +282,10 @@ let g:github_sidebars = ["qf", "vista_kind", "terminal", "packer"]
 " let g:github_colors = [hint = "orange", error = "#ff0000"]
 " Load the colorscheme
 " colorscheme github_dark 
-set background=dark
-colorscheme blue-moon
- colorscheme gruvbox 
+set background=dark 
+
+" colorscheme blue-moon
+  colorscheme material 
 " highlight Normal ctermbg=none
 hi clear SpellBad
 hi SpellBad cterm=underline
