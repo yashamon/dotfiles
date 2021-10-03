@@ -529,7 +529,7 @@ noremap @ /}<CR>v?{<CR>
 " map j gj
 " map k gk
 noremap <Space> .
-oremap <S-ce> t<Space><enter>
+vnoremap <Space> t<Space>
 nmap <S-h> <C-w>h
 nmap <S-l> <C-w>l
 vnoremap <leader>r <C-r>
