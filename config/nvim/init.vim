@@ -127,7 +127,7 @@ Plug 'yashamon/vim-snippets'
 Plug 'lervag/vimtex'
 " colorschemes
 " 
-Plug 'kyazdani42/blue-moon' if()
+Plug 'kyazdani42/blue-moon' 
 Plug 'marko-cerovac/material.nvim', { 'branch': 'main' }
 
 Plug 'altercation/vim-colors-solarized'
