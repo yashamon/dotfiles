@@ -1315,9 +1315,9 @@ imap <expr> <C-j> '<ESC>'.winheight(0)/8.'<C-D>a'
 imap <expr> <C-k> '<ESC>'.winheight(0)/8.'<C-U>a'
 
 " visual mode
-vmap <expr> <C-j> winheight(0)/4.'<C-D>'
+vmap <expr> <C-j> winheight(0)/8.'<C-D>'
 vmap <expr> <C-k> winheight(0)/4.'<C-U>'
 
 " normal mode
 nmap <expr> <C-j> winheight(0)/8.'<C-D>'
-nmap <expr> <C-k> winheight(0)/4.'<C-U>'
+nmap <expr> <C-k> winheight(0)/8.'<C-U>'
