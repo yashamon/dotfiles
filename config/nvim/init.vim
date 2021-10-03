@@ -537,7 +537,7 @@ nnoremap <leader>j J
 nnoremap <leader>k K
 map ' "
 nnoremap <Backspace> i<Backspace><Esc>
-noremap <leader>c gc
+" nmap <leader>c gcc
 noremap <A-r> <C-r>
 nnoremap ` ~
 nnoremap . `
@@ -806,7 +806,7 @@ EOF
 lua <<EOF
 require'nvim-treesitter.configs'.setup { 
     --
-    --highlight = { enable = true },
+    highlight = { enable = true },
     incremental_selection = { enable = true },
     textobjects = { enable = true },
     indent = { enable = true },
@@ -1229,5 +1229,7 @@ EOF
 " hi! link Sneak Normal
 " hi! link SneakScope Normal 
 
-let g:material_style = 'lighter'
+ " let g:material_style = 'palenight'
+ let g:material_style = 'lighter'
+" let g:material_style = 'oceanic'
 
