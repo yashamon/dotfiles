@@ -442,8 +442,8 @@ vmap <M-.> t.<CR>h
 nmap <M-.> t.<CR>h
 map <up> <C-y>
 imap <up> <nop>
+map <down> <C-e>
 imap <down> <nop>
-map <down> <nop>
 noremap <ScrollWheelUp>      <nop>
 noremap <S-ScrollWheelUp>    <nop>
 noremap <C-ScrollWheelUp>    <nop>
