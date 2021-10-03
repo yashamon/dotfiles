@@ -1310,5 +1310,36 @@ let g:material_style = 'lighter'
 " let g:material_style = 'oceanic'
 set wrap
  
+function! ScrollGolden(move)
+    let height=winheight(0)
+    if a:move == 'up'
+        let prep='L'
+        " let key="^Y"
+        let key='gk'
+        let post='zb'
+    elseif a:move == 'down'
+        let prep='H'
+        " let key="^E"
+        let key='gj'
+        let post='zt'
+    endif
+    execute 'normal! ' . prep . float2nr(round(height*0.618)) . key . post
+endfunctionfunction! ScrollGolden(move)
+    let height=winheight(0)
+    if a:move == 'up'
+        let prep='L'
+        " let key="^Y"
+        let key='gk'
+        let post='zb'
+    elseif a:move == 'down'
+        let prep='H'
+        " let key="^E"
+        let key='gj'
+        let post='zt'
+    endif
+    execute 'normal! ' . prep . float2nr(round(height*0.618)) . key . post
+endfunction
+nnoremap <silent> <BS>    :call ScrollGolden('up')<CR>
+nnoremap <silent> <Space> :call ScrollGolden('down')<CR>
 
 
