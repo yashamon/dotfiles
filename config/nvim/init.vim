@@ -1089,7 +1089,7 @@ mapping = {
 -- ... Your other configuration ...
 sources = {
       -- For vsnip user.
-      { name = 'vsnip', keyword_length = 4 },
+      { name = 'vsnip', keyword_length = 1 },
          -- For luasnip user.
       -- { name = 'luasnip' },
 -- For ultisnips user.
