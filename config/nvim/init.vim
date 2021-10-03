@@ -520,7 +520,7 @@ noremap F ?
 
 
 
-    " xmap t <Plug>Sneak_s
+ n   " xmap t <Plug>Sneak_s
     " xmap T <Plug>Sneak_S
     " omap t <Plug>Sneak_s
     " omap T <Plug>Sneak_S
@@ -530,17 +530,18 @@ noremap @ /}<CR>v?{<CR>
 " map j gj
 " map k gk
 noremap <Space> .
-noremap <S-Space> t<Space><enter>
+noremap <S-ce> t<Space><enter>
 nmap <S-h> <C-w>h
 nmap <S-l> <C-w>l
-noremap <leader>r <C-r>
+vnoremap <leader>r <C-r>
 nmap <S-k> <C-u> 
 nmap <S-j> <C-d>
 vmap <S-k> <C-u>
 vmap <S-j> <C-d> 
 nmap <k> <C-y>  
 nmap <j> <C-e> 
-
+vmap <k> <C-y>  
+vmap <j> <C-e>
 nmap <S-j> <C-d>
 vmap <S-k> <C-u>
 vmap <S-j> <C-d>
