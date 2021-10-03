@@ -430,7 +430,9 @@ set fileencodings=ucs-bom,utf-8,big5,gb2312,latin1
 
 
  " General mappings, remaps, maps
- 
+ autocmd FileType qf nnoremap <buffer> <Enter> <C-W><Enter><C-W>T:Goyo x<CR>
+autocmd FileType qf nnoremap  <buffer> <A>-q :q:Goyo x<CR>
+
   
 noremap q <nop> 
 map <leader>q q
@@ -577,11 +579,9 @@ inoremap <C-]> <C-x><C-]>
 
 " text editting mappings
 
- 
-
-" " au FileType tex,text,md noremap <CR> <Esc>a<Space><Esc>80i <Esc><Esc>vg0di
+ " " au FileType tex,text,md noremap <CR> <Esc>a<Space><Esc>80i <Esc><Esc>vg0di
 " <<<<<<< HEAD
- au FileType tex,text,md inoremap <CR> <Space><Space><Esc>80i <Esc><Esc>vg0di
+ " au FileType tex,text,md inoremap <CR> <Space><Space><Esc>80i <Esc><Esc>vg0di
 " =======
 "
 " "  au FileType tex,text,md inoremap <CR> <Space><Space><Esc>80i <Esc><Esc>vg0di
@@ -609,6 +609,8 @@ au FileType tex,text,md nnoremap dd "_g^dg$g^
 au FileType tex,text,md inoremap <leader>cr <CR>
 au FileType tex,text,md noremap map o gj0i<CR><ESC>gki 
 
+
+
 "Neovim mappings
 " :tnoremap <S-h> <C-\><C-n><C-w>h
 " :tnoremap <S-j> <C-\><C-n><C-w>j
@@ -634,6 +636,7 @@ let g:sneak#s_next = 1
 noremap <m-t> :BTags<cr>
 noremap S <Esc>:BLines<CR>    
 "noremap L <Esc>:AsyncRun sentence.sh %;nvr sentence_%<cr>:echo 'press any key'<cr>:execute 'call getchar()' | BLines<cr>
+" Line search mapping
 noremap <m-l> viwhy<esc>:bdelete<cr>:<c-r>+<cr>:Goyo x<cr>
 noremap <m-b> <Esc>:Buffers<CR> 
 noremap F <Esc>:GFiles<CR> 
@@ -785,8 +788,6 @@ autocmd BufWritePost * silent execute 'AsyncRun if git rev-parse --is-inside-wor
         noremap <S-C-z> <C-r>
         " noremap <C-z> u
     " }
-autocmd FileType qf nnoremap <buffer> <Enter> <C-W><Enter><C-W>T:Goyo x<CR>
-autocmd FileType qf nnoremap  <buffer> <A>-q :q:Goyo x<CR>
 
 " Latex shortcuts
 "Latex compile. 
