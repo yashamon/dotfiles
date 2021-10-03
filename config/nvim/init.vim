@@ -1,4 +1,5 @@
-call plug#begin('~/.vim/plugged')              Plug 'karb94/neoscroll.nvim'
+call plug#begin('~/.vim/plugged')              
+Plug 'karb94/neoscroll.nvim'
 Plug 'f3fora/cmp-spell'
 Plug 'shaunsingh/nord.nvim'  
 "Plug 'vim-commentary'
@@ -610,10 +611,10 @@ au FileType tex,text,md noremap map o gj0i<CR><ESC>gki
 nnoremap <C-j> a<CR><Esc>k$ 
 
 "Neovim mappings
-:tnoremap <S-h> <C-\><C-n><C-w>h
-:tnoremap <S-j> <C-\><C-n><C-w>j
-:tnoremap <S-k> <C-\><C-n><C-w>k
-:tnoremap <S-l> <C-\><C-n><C-w>l
+" :tnoremap <S-h> <C-\><C-n><C-w>h
+" :tnoremap <S-j> <C-\><C-n><C-w>j
+" :tnoremap <S-k> <C-\><C-n><C-w>k
+" :tnoremap <S-l> <C-\><C-n><C-w>l
 tnoremap <Left> :tbnext<CR>
 tnoremap <Right> :tbprevious<CR>
 tnoremap <Leader>e <C-\><C-n> 
@@ -785,9 +786,6 @@ autocmd BufWritePost * silent execute 'AsyncRun if git rev-parse --is-inside-wor
         noremap <S-C-z> <C-r>
         " noremap <C-z> u
     " }
-nnoremap <C-e> :let g:ctrlp_match_window =
-         \ 'bottom,order:btt,min:1,max:1000,results:1000'<CR>:CtrlPTag<CR>
-
 autocmd FileType qf nnoremap <buffer> <Enter> <C-W><Enter><C-W>T:Goyo x<CR>
 autocmd FileType qf nnoremap  <buffer> <A>-q :q:Goyo x<CR>
 
