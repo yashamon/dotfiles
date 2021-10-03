@@ -356,19 +356,15 @@ map <leader>] :cn<CR>
 map <leader>[ :cp<CR>
 
   
-
 set encoding=utf-8                                  
 set termencoding=utf-8
 set fileencoding=utf-8
-set fileencodings=ucs-bom,utf-8,big5,gb2312,latin1
-
 
 
 noremap q <nop> 
 map <leader>q q
 nnoremap <leader>sv :source $MYVIMRC<CR>
-"nnoremap <leader>e :NERDTreeFind<CR> 
-nnoremap <leader>e :FloatermNew vifm<cr> 
+"nnoremap <leader>e :NERDTreeFind<CR> nnoremap <leader>e :FloatermNew vifm<cr> 
 nnoremap <leader>t :FloatermToggle<cr> 
 
 
@@ -379,12 +375,10 @@ vmap <M-.> t.<CR>h
 nmap <M-.> t.<CR>h
 map <up> 1<C-y>
 imap <up> <nop>
-map <down> 1<C-e>
-imap <down> <nop>
+map <down> 1<C-e> imap <down> <nop>
 noremap <ScrollWheelUp>      <nop>
 noremap <S-ScrollWheelUp>    <nop>
-noremap <C-ScrollWheelUp>    <nop>
-noremap <ScrollWheelDown>    <nop>
+noremap <C-ScrollWheelUp>    <nop> noremap <ScrollWheelDown>    <nop>
 noremap <S-ScrollWheelDown>  <nop>
 noremap <C-ScrollWheelDown>  <nop>
 noremap <ScrollWheelLeft>    <nop>
@@ -392,8 +386,7 @@ noremap <S-ScrollWheelLeft>  <nop>
 noremap <C-ScrollWheelLeft>  <nop>
 noremap <ScrollWheelRight>   <nop>
 noremap <S-ScrollWheelRight> <nop>
-noremap <C-ScrollWheelRight> <nop>
-inoremap \ /
+noremap <C-ScrollWheelRight> <nop> inoremap \ /
 inoremap / \
 vnoremap p "0dP   
 noremap D "0D
