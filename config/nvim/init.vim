@@ -1229,3 +1229,5 @@ EOF
 " hi! link Sneak Normal
 " hi! link SneakScope Normal 
 
+let g:material_style = 'lighter'
+
