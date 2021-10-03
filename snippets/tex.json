@@ -1032,6 +1032,13 @@
     ],
     "description": "cal T"
   },
+"caligraphic D": {
+    "prefix": ["cD"],
+    "body": [
+      "\\mathcal{D} $0"
+    ],
+    "description": "cal D"
+  },
 
 "caligraphic D": {
     "prefix": ["cD"],
