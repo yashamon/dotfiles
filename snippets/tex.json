@@ -1033,9 +1033,9 @@
     "description": "cal T"
   }, 
 "Lambda": {
-    "prefix": ["cU"],
+    "prefix": ["L"],
     "body": [
-      "\\mathcal{U} $0"
+      "\\Lambda $0"
     ],
     "description": "cal U"
   },
