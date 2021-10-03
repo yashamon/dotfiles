@@ -2,7 +2,6 @@ call plug#begin('~/.vim/plugged')
 Plug 'karb94/neoscroll.nvim'
 Plug 'f3fora/cmp-spell'    
 Plug 'Pocco81/TrueZen.nvim', { 'branch': 'main' }
-
 Plug 'shaunsingh/nord.nvim'  
 "Plug 'vim-commentary'
 "Plug 'b3nj5m1n/kommentary'
@@ -1143,7 +1142,8 @@ require('nvim_comment').setup(
   --hook = nil 
 }
 )
-EOF
+EOF 
+eof
 lua <<EOF
 
 require('neoscroll').setup({
