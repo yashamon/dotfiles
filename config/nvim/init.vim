@@ -1143,7 +1143,8 @@ require('nvim_comment').setup(
 }
 )
 EOF 
-eof
+lua <<EOF
+EOF
 lua <<EOF
 
 require('neoscroll').setup({
