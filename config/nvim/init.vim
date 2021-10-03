@@ -535,12 +535,8 @@ vnoremap <Space> t <cr>
 nmap <S-h> <C-w>h
 nmap <S-l> <C-w>l
 vnoremap <leader>r <C-r>
-nmap <S-k> <C-u>
-nmap <S-j> <C-d> 
-vmap <S-j> <C-d>
-
-vmap <S-k> <C-u>
-vmap <S-j> <C-d> 
+map <S-k> <C-u> 
+map <S-j> <C-d> 
 nmap <C-k> <C-y>
 nmap <C-j> <C-e>
 vmap <C-k> <C-y> 
