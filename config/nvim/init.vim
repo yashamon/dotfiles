@@ -745,7 +745,8 @@ let g:vimtex_fold_types= {
 nmap <leader>l :VimtexCompile<CR>
 " nmap <leader>s <Esc>:VimtexErrors<CR>
 " nmap <leader>x <C-w><up><Esc>:VimtexErrors<CR>:Goyo x<CR>
-nmap <leader>g :Goyo x<CR>
+nmap <leader>g :Goyo x<CR> 
+map <leader>g :TZAtaraxis<CR>
 nmap <leader>G :Goyo<CR>
 nmap <leader>p :Denite neoyank -default-action=append<CR>
 
@@ -1142,8 +1143,8 @@ require('nvim_comment').setup(
   --hook = nil 
 }
 )
-EOF 
-lua <<EOF 
+EOF
+lua <<EOF
 local true_zen = require("true-zen")
 true_zen.setup({
 	ui = {
