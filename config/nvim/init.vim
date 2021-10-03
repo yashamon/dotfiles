@@ -536,7 +536,9 @@ nmap <S-h> <C-w>h
 nmap <S-l> <C-w>l
 vnoremap <leader>r <C-r>
 nmap <S-k> <C-u>
-nmap <S-j> <C-d>
+nmap <S-j> <C-d> 
+vmap <S-j> <C-d>
+
 vmap <S-k> <C-u>
 vmap <S-j> <C-d> 
 nmap <C-k> <C-y>
@@ -1199,7 +1201,7 @@ true_zen.setup({
 		vim_powerline = false,
 		vim_signify = false,
 		express_line = false,
-		lualine = false,
+		lualine = true,
 		lightline = false,
 		feline = false
 	},
@@ -1209,16 +1211,9 @@ true_zen.setup({
 		cursor_by_mode = false,
 	}
 })
-EOF 
+EOF
 lua <<EOF
 require('lualine').setup()
-EOF
-lua << EOF
-  require("twilight").setup {
-    -- your configuration comes here
-    -- or leave it empty to use the default settings
-    -- refer to the configuration section below
-  }
 EOF
 lua <<EOF
 require('neoscroll').setup({
