@@ -1032,10 +1032,10 @@
     ],
     "description": "cal T"
   },
-"caligraphic D": {
-    "prefix": ["cD"],
+"caligraphic U": {
+    "prefix": ["cU"],
     "body": [
-      "\\mathcal{D} $0"
+      "\\mathcal{U} $0"
     ],
     "description": "cal D"
   },
