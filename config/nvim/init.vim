@@ -1311,13 +1311,13 @@ let g:material_style = 'lighter'
 set wrap 
 
 " insert mode
-iremap <expr> <C-j> '<ESC>'.winheight(0)/4.'<C-D>a'
-inoremap <expr> <C-k> '<ESC>'.winheight(0)/4.'<C-U>a'
+imap <expr> <C-j> '<ESC>'.winheight(0)/8.'<C-D>a'
+imap <expr> <C-k> '<ESC>'.winheight(0)/4.'<C-U>a'
 
 " visual mode
-vnoremap <expr> <C-j> winheight(0)/4.'<C-D>'
-vnoremap <expr> <C-k> winheight(0)/4.'<C-U>'
+vmap <expr> <C-j> winheight(0)/4.'<C-D>'
+vmap <expr> <C-k> winheight(0)/4.'<C-U>'
 
 " normal mode
-nnoremap <expr> <C-j> winheight(0)/4.'<C-D>'
-nnoremap <expr> <C-k> winheight(0)/4.'<C-U>'
+nmap <expr> <C-j> winheight(0)/4.'<C-D>'
+nmap <expr> <C-k> winheight(0)/4.'<C-U>'
