@@ -1308,7 +1308,6 @@ EOF
  " let g:material_style = 'palenight'
 let g:material_style = 'lighter'
 " let g:material_style = 'oceanic'
-set wrap
- 
+set wrap 
 
 
