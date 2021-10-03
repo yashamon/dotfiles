@@ -74,9 +74,6 @@ Plug 'sindrets/diffview.nvim', { 'branch': 'main' }
 "Plug 'rmagatti/auto-session', { 'branch': 'main' }
 Plug 'kyazdani42/nvim-web-devicons'
 Plug 'justinmk/vim-sneak'
-Plug 'kyazdani42/blue-moon'
-Plug 'marko-cerovac/material.nvim', { 'branch': 'main' }
-
 Plug 'Shougo/neoyank.vim' 
 if has('nvim')
    Plug 'Shougo/denite.nvim', { 'do': ':UpdateRemotePlugins' }
