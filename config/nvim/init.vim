@@ -357,56 +357,6 @@ map <leader>[ :cp<CR>
 
   
 
-
-
-
-
-
-
-" Bash like keys for the command line
-cnoremap <C-A>      <Home>
-cnoremap <C-E>      <End>
-cnoremap <C-K>      <C-U>
-
-" ,p toggles paste mode
-" nmap <leader>p :set paste!<BAR>set paste?<CR>
-
-" allow multiple indentation/deindentation in visual mode
-vnoremap < <gv
-vnoremap > >gv
-
-" :cd. change working directory to that of the current file
-cmap cd. lcd %:p:h
-
-
-" Enable omni completion. (Ctrl-X Ctrl-O)
-autocmd FileType html,markdown setlocal omnifunc=htmlcomplete#CompleteTags
-autocmd FileType javascript setlocal omnifunc=javascriptcomplete#CompleteJS
-autocmd FileType python setlocal omnifunc=pythoncomplete#Complete
-autocmd FileType xml setlocal omnifunc=xmlcomplete#CompleteTags
-autocmd FileType css set omnifunc=csscomplete#CompleteCSS
-autocmd FileType c set omnifunc=ccomplete#Complete
-autocmd FileType java set omnifunc=javacomplete#Complete 
-autocmd FileType tex set omnifunc=latex#Complete
-autocmd Filetype tex setlocal fo=nt
-autocmd Filetype tex setlocal wrapmargin=0
-" use syntax complete if nothing else available
-if has("autocmd") && exists("+omnifunc")
-  autocmd Filetype *
-              \	if &omnifunc == "" |
-              \		setlocal omnifunc=syntaxcomplete#Complete |
-              \	endif
-endif
-
-set cot-=preview "disable doc preview in omnicomplete
-
-" make CSS omnicompletion work for SASS and SCSS
-" autocmd BufNewFile,BufRead *.scss             set ft=scss.css
-" autocmd BufNewFile,BufRead *.sass             set ft=sass.css
-
-"--------------------------------------------------------------------------- 
-" ENCODING SETTINGS
-"--------------------------------------------------------------------------- 
 set encoding=utf-8                                  
 set termencoding=utf-8
 set fileencoding=utf-8
