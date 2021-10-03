@@ -527,8 +527,8 @@ noremap F ?
 noremap $ /\$<CR>hv?\$<CR>l
 noremap # /\$<CR>v?\$<CR>
 noremap @ /}<CR>v?{<CR>
-map j gj
-map k gk
+" map j gj
+" map k gk
 noremap <Space> .
 noremap <S-Space> t<Space><enter>
 nmap <S-h> <C-w>h
@@ -539,7 +539,8 @@ nmap <S-j> <C-d>
 vmap <S-k> <C-u>
 vmap <S-j> <C-d> 
 nmap <k> <C-y>  
-nmap <j> <C-e>
+nmap <j> <C-e> 
+
 nmap <S-j> <C-d>
 vmap <S-k> <C-u>
 vmap <S-j> <C-d>
