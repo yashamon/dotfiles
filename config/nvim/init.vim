@@ -1339,7 +1339,7 @@ endfunctionfunction! ScrollGolden(move)
     endif
     execute 'normal! ' . prep . float2nr(round(height*0.618)) . key . post
 endfunction
-nnoremap <silent> <BS>    :call ScrollGolden('up')<CR>
-nnoremap <silent> <Space> :call ScrollGolden('down')<CR>
+nnoremap <silent> J    :call ScrollGolden('up')<CR>
+nnoremap <silent> K   :call ScrollGolden('down')<CR>
 
 
