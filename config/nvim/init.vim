@@ -431,11 +431,6 @@ set fileencodings=ucs-bom,utf-8,big5,gb2312,latin1
 
 
 
- " General mappings, remaps, maps
-" autocmd FileType qf nnoremap <buffer> <Enter> <C-W><Enter><C-W>T:Goyo x<CR>
-" autocmd FileType qf nnoremap  <buffer> <A>-q :q:Goyo x<CR>
-
-  
 noremap q <nop> 
 map <leader>q q
 nnoremap <leader>sv :source $MYVIMRC<CR>
@@ -640,7 +635,7 @@ noremap <m-t> :BTags<cr>
 noremap S <Esc>:BLines<CR>    
 "noremap L <Esc>:AsyncRun sentence.sh %;nvr sentence_%<cr>:echo 'press any key'<cr>:execute 'call getchar()' | BLines<cr>
 " Line search mapping
-noremap <m-l> viwhy<esc>:bdelete<cr>:<c-r>+<cr>:Goyo x<cr>
+noremap <m-l> viwhy<esc>:bdelete<cr>:<c-r>+<cr>:<cr>
 noremap <m-b> <Esc>:Buffers<CR> 
 noremap F <Esc>:GFiles<CR> 
 map <A-e> :FZF ~<CR>
@@ -657,13 +652,13 @@ let g:vimtex_view_method = "zathura"
 let g:vimtex_indent_enabled =0 
 let g:vimtex_syntax_enabled=0  
 "noremap L <Esc>:AsyncRun sentence.sh %;nvr sentence_%<cr>:echo 'press any key'<cr>:execute 'call getchar()' | BLines<cr> 
-noremap L <esc>:call Sentence()<cr>
-
 function! Sentence() 
-  AsyncRun sentence.sh %; nvr sentence_% 
+  AsyncRun sentence.sh %; nvr sentence_%  
+  call echo() Print any character
   call getchar()
   BLines
 endfunction
+noremap L <esc>:call Sentence()<cr>
 
 
 function! ToggleQuickFix()
@@ -671,8 +666,7 @@ function! ToggleQuickFix()
         VimtexErrors
     else
         cclose
-        Goyo x
-    endif
+        endif
 endfunction
 
 au filetype tex nnoremap <silent> <leader>s :call ToggleQuickFix()<cr>
@@ -746,10 +740,7 @@ let g:vimtex_fold_types= {
 " nmap <leader>l :silent execute "AsyncRun latexmk -pvc -pdf -file-line-error -synctex=1 -interaction=nonstopmode -recorder %"<CR>
 nmap <leader>l :VimtexCompile<CR>
 " nmap <leader>s <Esc>:VimtexErrors<CR>
-" nmap <leader>x <C-w><up><Esc>:VimtexErrors<CR>:Goyo x<CR>
-" nmap <leader>g :Goyo x<CR> 
 map <leader>g :TZAtaraxis<CR>
-" nmap <leader>G :Goyo<CR>
 nmap <leader>p :Denite neoyank -default-action=append<CR>
 
 " NB: this supports "rp that replaces the selection by the contents of @r
