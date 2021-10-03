@@ -1310,4 +1310,14 @@ let g:material_style = 'lighter'
 " let g:material_style = 'oceanic'
 set wrap 
 
+" insert mode
+inoremap <expr> <C-j> '<ESC>'.winheight(0)/4.'<C-D>a'
+inoremap <expr> <C-k> '<ESC>'.winheight(0)/4.'<C-U>a'
 
+" visual mode
+vnoremap <expr> <C-j> winheight(0)/4.'<C-D>'
+vnoremap <expr> <C-k> winheight(0)/4.'<C-U>'
+
+" normal mode
+nnoremap <expr> <C-j> winheight(0)/4.'<C-D>'
+nnoremap <expr> <C-k> winheight(0)/4.'<C-U>'
