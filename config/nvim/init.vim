@@ -284,7 +284,7 @@ let g:github_sidebars = ["qf", "vista_kind", "terminal", "packer"]
 " colorscheme github_dark 
 set background=dark
 colorscheme blue-moon
-" colorscheme gruvbox 
+ colorscheme gruvbox 
 " highlight Normal ctermbg=none
 hi clear SpellBad
 hi SpellBad cterm=underline
@@ -537,7 +537,7 @@ nnoremap <leader>j J
 nnoremap <leader>k K
 map ' "
 nnoremap <Backspace> i<Backspace><Esc>
-" nmap <leader>c gc
+nmap <leader>c gc
 noremap <A-r> <C-r>
 nnoremap ` ~
 nnoremap . `
