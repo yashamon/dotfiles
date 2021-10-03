@@ -1,7 +1,7 @@
 call plug#begin('~/.vim/plugged')              
 Plug 'karb94/neoscroll.nvim'
 Plug 'f3fora/cmp-spell'    
-Plug 'Pocco81/TrueZen.nvim'
+Plug 'Pocco81/TrueZen.nvim', 
 Plug 'shaunsingh/nord.nvim'  
 "Plug 'vim-commentary'
 "Plug 'b3nj5m1n/kommentary'
