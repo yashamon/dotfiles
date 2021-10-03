@@ -534,7 +534,7 @@ noremap <S-Space> t<Space><enter>
 nmap <S-h> <C-w>h
 nmap <S-l> <C-w>l
 noremap <leader>r <C-r>
-map <S-k> <C-u>
+nmap <S-k> <C-u>
 map <S-j> <C-d>
 nnoremap <leader>j J
 nnoremap <leader>k K
@@ -1233,6 +1233,7 @@ EOF
 " hi! link SneakScope Normal 
 
  " let g:material_style = 'palenight'
- let g:material_style = 'lighter'
+let g:material_style = 'lighter'
 " let g:material_style = 'oceanic'
+set wrap
 
