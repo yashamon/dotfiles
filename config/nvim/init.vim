@@ -368,9 +368,9 @@ set wmh=0                     " set the min height of a window to 0 so we can ma
 " move around tabs. conflict with the original screen top/bottom
 " comment them out if you want the original H/L
 " go to prev tab 
-"map <S-H> gT
+"noremap <S-H> gT
 " go to next tab
-"map <S-L> gt
+"noremap <S-L> gt
 " new tab
 " map <leader>t :tabnew<CR>
 " close tab
@@ -1176,7 +1176,6 @@ EOF
 "   let @" = s:restore_reg
 "   return ''
 " endfunction
-
 " function! s:Repl()
 "     let s:restore_reg = @"
 "     return "p@=RestoreRegister()\<cr>"
@@ -1242,5 +1241,4 @@ EOF
 let g:material_style = 'lighter'
 " let g:material_style = 'oceanic'
 set wrap
-nmap <C-j> <C-e>
 
