@@ -498,7 +498,9 @@ map <A-w> /}<CR>
 map <A-b> ?{<CR>
 
 map <C-q> <Esc>:qa!<CR> 
+map <m-q> <esc>:qa<cr>  
 map <m-q> <esc>:qa<cr> 
+
 map <m-c> <esc>:close<cr>  
 map <M-d> <Esc>:bdelete<CR>
 noremap f /
@@ -1220,7 +1222,7 @@ lua <<EOF
 require('neoscroll').setup({
     -- All these keys will be mapped to their corresponding default scrolling animation
     mappings = {'<C-u>', '<C-d>', '<C-b>', '<C-f>',
-     --           '<C-y>', '<C-e>', 'zt', 'zz', 'zb'},
+                '<C-y>', '<C-e>', 'zt', 'zz', 'zb'},
     hide_cursor = true,          -- Hide cursor while scrolling
     stop_eof = true,             -- Stop at <EOF> when scrolling downwards
     use_local_scrolloff = false, -- Use the local scope of scrolloff instead of the global scope
