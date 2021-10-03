@@ -519,8 +519,7 @@ noremap F ?
 " let g:smalls_auto_jump_timeout=0
 
 
-
- n   " xmap t <Plug>Sneak_s
+    " xmap t <Plug>Sneak_s
     " xmap T <Plug>Sneak_S
     " omap t <Plug>Sneak_s
     " omap T <Plug>Sneak_S
@@ -530,7 +529,7 @@ noremap @ /}<CR>v?{<CR>
 " map j gj
 " map k gk
 noremap <Space> .
-noremap <S-ce> t<Space><enter>
+oremap <S-ce> t<Space><enter>
 nmap <S-h> <C-w>h
 nmap <S-l> <C-w>l
 vnoremap <leader>r <C-r>
