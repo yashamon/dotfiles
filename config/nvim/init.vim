@@ -262,8 +262,7 @@ set smartcase		" ignore case if search pattern is all lowercase,case-sensitive o
 set noerrorbells
 set novisualbell
 set tm=500
-" set macmeta
-" auto reload vimrc when editing it
+" set macmeta auto reload vimrc when editing it
 " autocmd! bufwritepost ~/.config/nvim/init.vim source ~/.config/nvim/init.vim
 syntax on		" syntax highlight
 " set hlsearch		" search highlighting
@@ -275,8 +274,7 @@ if has("gui_running")	" GUI color and font settings
   " colorscheme gruvbox 
   highlight CursorLine  guibg=#003853 ctermbg=24  gui=none cterm=none
 else
-" terminal color settings
-set background=dark
+" terminal color settings set background=dark
   " set t_Co=256          " 256 color mode
 " Example config in VimScript
 let g:github_function_style = "italic"
@@ -286,8 +284,7 @@ let g:github_sidebars = ["qf", "vista_kind", "terminal", "packer"]
 " let g:github_colors = [hint = "orange", error = "#ff0000"]
 " Load the colorscheme
 " colorscheme github_dark 
-" set background=dark 
-set background=light
+" set background=dark set background=light
 " colorscheme blue-moon
 colorscheme material  
 let g:material_style = 'lighter' 
@@ -301,7 +298,6 @@ hi MatchParen cterm=undercurl ctermbg=none ctermfg=magenta
 endif
 
 "Autocommands
-"
 
 
 autocmd BufReadPost * if @% !~# '\.git[\/\\]COMMIT_EDITMSG$' && line("'\"") > 1 && line("'\"") <= line("$") | exe "normal! g`\"" | endif 
@@ -310,8 +306,7 @@ au FileType tex,text, set spelllang=en
 au FileType tex,text,tex set spell    
 au FileType tex,text,tex syntax sync fromstart
 au FileType tex,text,tex silent execute "!echo " . v:servername . " > ~/servername.txt"   
-au FileType tex,text,tex hi SpellBad cterm=undercurl
-au Filetype tex,text,tex vmap q xi<CR><CR><CR><CR><ESC>kkicom<tab><esc>p<A-j>
+au FileType tex,text,tex hi SpellBad cterm=undercurl au Filetype tex,text,tex vmap q xi<CR><CR><CR><CR><ESC>kkicom<tab><esc>p<A-j>
 
 " au FileType tex set background=dark 
 au TextYankPost * lua vim.highlight.on_yank {higroup="IncSearch", timeout=150, on_visual=true} 
@@ -325,8 +320,7 @@ colorscheme material
 set background=light
    " highlight Normal ctermfg=black
 " highlight  CursorLine cterm=NONE ctermbg=black ctermfg=none
-" hi MatchParen cterm=underline ctermbg=none ctermfg=magenta
-endfunction
+" hi MatchParen cterm=underline ctermbg=none ctermfg=magenta endfunction
 function Pencil()
    set background=light
    colorscheme pencil
@@ -338,8 +332,7 @@ function Dark()
    colorscheme blue-moon 
 endfunction
 
-set expandtab        "replace <TAB> with spaces
-set softtabstop=3 
+set expandtab        "replace <TAB> with spaces set softtabstop=3 
 set shiftwidth=3 
 
 "--------------------------------------------------------------------------- 
@@ -350,8 +343,7 @@ let mapleader=';'
 let g:mapleader=';'
 
 " open the error console
-" move to next error
-map <leader>] :cn<CR>
+" move to next error map <leader>] :cn<CR>
 " move to the prev error
 map <leader>[ :cp<CR>
 
