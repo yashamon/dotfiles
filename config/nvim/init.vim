@@ -950,8 +950,7 @@ local nvim_lsp = require('lspconfig')
 local on_attach = function(client, bufnr)
   local function buf_set_keymap(...) vim.api.nvim_buf_set_keymap(bufnr, ...) end
   local function buf_set_option(...) vim.api.nvim_buf_set_option(bufnr, ...) end
-
-  -- Enable completion triggered by <c-x><c-o>
+-- Enable completion triggered by <c-x><c-o>
   buf_set_option('omnifunc', 'v:lua.vim.lsp.omnifunc')
 
   -- Mappings.
@@ -1061,11 +1060,11 @@ end,
 mapping = {
       ['<C-d>'] = cmp.mapping.scroll_docs(-4),
       ['<C-f>'] = cmp.mapping.scroll_docs(4),
-      ['<Tab>'] = cmp.mapping.complete(),
+      ['<S-Space>'] = cmp.mapping.complete(),
       ['<C-e>'] = cmp.mapping.close(),
       ['<CR>'] = cmp.mapping.confirm({ select = true }),
 -- ... Your other mappings ...
-["<Tab>"] = cmp.mapping(function(fallback)
+["<Tab>"] = cmp.mapping(function(fallback) 
       if vim.fn["vsnip#available"]() == 1
         then
         feedkey("<Plug>(vsnip-expand-or-jump)", "")
@@ -1097,7 +1096,7 @@ sources = {
       -- { name = 'ultisnips' },  
    
     { name = 'buffer', keyword_length = 4 },
-    { name = 'omni' , keyword_length = 3},
+    { name = 'omni' , keyword_length = 4},
        -- { name = 'spell' }, 
     { name = 'treesitter', keyword_length = 3  },
     { name = 'tags' , keyword_length = 4 }, 
