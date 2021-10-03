@@ -529,7 +529,7 @@ noremap @ /}<CR>v?{<CR>
 " map j gj
 " map k gk
 noremap <Space> .
-vnoremap <Space> t <>
+vnoremap <Space> t <cr>
 nmap <S-h> <C-w>h
 nmap <S-l> <C-w>l
 vnoremap <leader>r <C-r>
@@ -537,8 +537,8 @@ nmap <S-k> <C-u>
 nmap <S-j> <C-d>
 vmap <S-k> <C-u>
 vmap <S-j> <C-d> 
-nmap <k> <C-y>  
-nmap <j> <C-e> 
+nmap <k> <C-y> 
+nmap <j> <C-e>
 vmap <k> <C-y>  
 vmap <j> <C-e>
 nmap <S-j> <C-d>
