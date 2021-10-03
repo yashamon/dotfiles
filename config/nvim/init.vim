@@ -1,6 +1,7 @@
 call plug#begin('~/.vim/plugged')              
 Plug 'karb94/neoscroll.nvim'
-Plug 'f3fora/cmp-spell'
+Plug 'f3fora/cmp-spell'    
+Plug 'Pocco81/TrueZen.nvim'
 Plug 'shaunsingh/nord.nvim'  
 "Plug 'vim-commentary'
 "Plug 'b3nj5m1n/kommentary'
@@ -556,9 +557,8 @@ nmap <leader>c gc
 noremap <A-r> <C-r>
 nnoremap ` ~
 nnoremap . `
-noremap <C-1> <C-o>
-noremap 
-<C-i>
+noremap <m-1> <C-o>
+noremap <m-2> <C-i>
 
 
 noremap <D-d> <C-d>
