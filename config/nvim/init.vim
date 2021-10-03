@@ -1,4 +1,5 @@
-call plug#begin('~/.vim/plugged')              Plug 'karb94/neoscroll.nvim'
+call plug#begin('~/.vim/plugged')              
+Plug 'karb94/neoscroll.nvim'
 Plug 'f3fora/cmp-spell'
 Plug 'shaunsingh/nord.nvim'  
 "Plug 'vim-commentary'
@@ -1244,5 +1245,4 @@ EOF
 let g:material_style = 'lighter'
 " let g:material_style = 'oceanic'
 set wrap
-nmap <C-j> <C-e>
 
