@@ -534,8 +534,11 @@ noremap <S-Space> t<Space><enter>
 nmap <S-h> <C-w>h
 nmap <S-l> <C-w>l
 noremap <leader>r <C-r>
+nmap <S-k> <C-u> 
+nmap <S-j> <C-d>
 nmap <S-k> <C-u>
-map <S-j> <C-d>
+nmap <S-j> <C-d>
+
 nnoremap <leader>j J
 nnoremap <leader>k K
 map ' "
