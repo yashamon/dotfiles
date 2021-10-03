@@ -1089,7 +1089,7 @@ mapping = {
 -- ... Your other configuration ...
 sources = {
       -- For vsnip user.
-      { name = 'vsnip', keyword_length = 1 },
+      { name = 'vsnip', keyword_length = 4 },
          -- For luasnip user.
       -- { name = 'luasnip' },
 -- For ultisnips user.
@@ -1100,7 +1100,7 @@ sources = {
        -- { name = 'spell' }, 
     { name = 'treesitter', keyword_length = 4  },
     { name = 'tags' , keyword_length = 4 }, 
-    { name = 'nvim_lsp', keyword_length = 3 },
+    { name = 'nvim_lsp', keyword_length = 4 },
 --{ name = 'latex_symbols' },
 } 
 --{ completion.keyword_length = 3 }
