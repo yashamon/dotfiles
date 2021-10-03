@@ -447,9 +447,9 @@ inoremap <m-s> <esc>:%s///gc<left><left><left><left>
 nnoremap <m-s> :%s///gc<left><left><left> 
 vmap <M-.> t.<CR>h
 nmap <M-.> t.<CR>h
-map <up> <C-y>
+map <up> 1<C-y>
 imap <up> <nop>
-map <down> <C-e>
+map <down> `<C-e>
 imap <down> <nop>
 noremap <ScrollWheelUp>      <nop>
 noremap <S-ScrollWheelUp>    <nop>
@@ -1151,7 +1151,7 @@ require('neoscroll').setup({
     hide_cursor = true,          -- Hide cursor while scrolling
     stop_eof = true,             -- Stop at <EOF> when scrolling downwards
     use_local_scrolloff = false, -- Use the local scope of scrolloff instead of the global scope
-    respect_scrolloff = false,   -- Stop scrolling when the cursor reaches the scrolloff margin of the file
+    respect_scrolloff = true,   -- Stop scrolling when the cursor reaches the scrolloff margin of the file
     cursor_scrolls_alone = true, -- The cursor will keep on scrolling even if the window cannot scroll further
     easing_function = nil,        -- Default easing function
     pre_hook = nil,              -- Function to run before the scrolling animation starts
