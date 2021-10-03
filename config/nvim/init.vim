@@ -449,7 +449,7 @@ vmap <M-.> t.<CR>h
 nmap <M-.> t.<CR>h
 map <up> 1<C-y>
 imap <up> <nop>
-map <down> `<C-e>
+map <down> 1<C-e>
 imap <down> <nop>
 noremap <ScrollWheelUp>      <nop>
 noremap <S-ScrollWheelUp>    <nop>
@@ -556,8 +556,9 @@ nmap <leader>c gc
 noremap <A-r> <C-r>
 nnoremap ` ~
 nnoremap . `
-noremap 1 <C-o>
-noremap 2 <C-i>
+noremap <C-1> <C-o>
+noremap 
+<C-i>
 
 
 noremap <D-d> <C-d>
