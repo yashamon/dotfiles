@@ -536,8 +536,13 @@ nmap <S-l> <C-w>l
 noremap <leader>r <C-r>
 nmap <S-k> <C-u> 
 nmap <S-j> <C-d>
-nmap <S-k> <C-u>
+vmap <S-k> <C-u>
+vmap <S-j> <C-d> 
+nmap <j> <C-u> 
 nmap <S-j> <C-d>
+vmap <S-k> <C-u>
+vmap <S-j> <C-d>
+
 
 nnoremap <leader>j J
 nnoremap <leader>k K
