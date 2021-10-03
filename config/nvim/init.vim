@@ -1,6 +1,7 @@
-call plug#begin('~/.vim/plugged')              
+call plug#begin('~/.vim/plugged')               
+
 Plug 'karb94/neoscroll.nvim' 
-Plug 'folke/twilight.nvim'
+Plug 'folke/twilight.nvim', { 'branch': 'main' }
 Plug 'f3fora/cmp-spell'    
 Plug 'Pocco81/TrueZen.nvim', { 'branch': 'main' }
 Plug 'shaunsingh/nord.nvim'  
