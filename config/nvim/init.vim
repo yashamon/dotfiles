@@ -538,7 +538,7 @@ nmap <S-k> <C-u>
 nmap <S-j> <C-d>
 vmap <S-k> <C-u>
 vmap <S-j> <C-d> 
-nmap <j> <C-u> 
+nmap <k> <C-e> 
 nmap <S-j> <C-d>
 vmap <S-k> <C-u>
 vmap <S-j> <C-d>
