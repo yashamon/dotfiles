@@ -1,4 +1,4 @@
-call plug#begin('~/.vim/plugged')             
+call plug#begin('~/.vim/plugged')              
 Plug 'karb94/neoscroll.nvim'
 Plug 'f3fora/cmp-spell'
 Plug 'shaunsingh/nord.nvim'  
@@ -1226,4 +1226,4 @@ EOF
 "
 " hi! link Sneak Normal
 " hi! link SneakScope Normal 
-eof
+
