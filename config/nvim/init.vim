@@ -127,7 +127,7 @@ Plug 'yashamon/vim-snippets'
 Plug 'lervag/vimtex'
 " colorschemes
 " 
-Plug 'kyazdani42/blue-moon' 
+Plug 'kyazdani42/blue-moon'  
 Plug 'marko-cerovac/material.nvim', { 'branch': 'main' }
 
 Plug 'altercation/vim-colors-solarized'
@@ -313,7 +313,8 @@ au TextYankPost * call neoyank#_append()
          "Some functions
 function Light()
 set background=light
-colorscheme oceanlight
+" colorscheme oceanlight 
+colorscheme material 
 set background=light
    " highlight Normal ctermfg=black
 " highlight  CursorLine cterm=NONE ctermbg=black ctermfg=none
