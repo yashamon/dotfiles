@@ -537,7 +537,7 @@ nnoremap <leader>j J
 nnoremap <leader>k K
 map ' "
 nnoremap <Backspace> i<Backspace><Esc>
-" nmap <leader>c gcc
+" nmap <leader>c gc
 noremap <A-r> <C-r>
 nnoremap ` ~
 nnoremap . `
