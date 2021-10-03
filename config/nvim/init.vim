@@ -497,8 +497,8 @@ map <S-b> ?\$<CR>
 map <A-w> /}<CR>
 map <A-b> ?{<CR>
 
-map <C-q> <Esc>:Goyo<cr>:qa!<CR> 
-map <m-q> <esc>:Goyo<cr>:qa<cr> 
+map <C-q> <Esc>:qa!<CR> 
+map <m-q> <esc>:qa<cr> 
 map <m-c> <esc>:close<cr>  
 map <M-d> <Esc>:bdelete<CR>
 noremap f /
@@ -1166,11 +1166,11 @@ true_zen.setup({
 	},
 	modes = {
 		ataraxis = {
-			left_padding = 32,
-			right_padding = 32,
+			left_padding = 20,
+			right_padding = 20,
 			top_padding = 1,
 			bottom_padding = 1,
-			ideal_writing_area_width = {0},
+			ideal_writing_area_width = {80},
 			auto_padding = true,
 			keep_default_fold_fillchars = true,
 			custom_bg = {"none", ""},
@@ -1242,7 +1242,7 @@ EOF
 "
 
 "
-" 'tComment'
+" 'tCommen20
 " let g:tcommentMapLeaderOp1=';' 
 " "map <leader>c <Leader>__ 
 "" function! RestoreRegister()
