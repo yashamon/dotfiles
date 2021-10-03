@@ -1311,7 +1311,7 @@ let g:material_style = 'lighter'
 set wrap 
 
 " insert mode
-inoremap <expr> <C-j> '<ESC>'.winheight(0)/4.'<C-D>a'
+iremap <expr> <C-j> '<ESC>'.winheight(0)/4.'<C-D>a'
 inoremap <expr> <C-k> '<ESC>'.winheight(0)/4.'<C-U>a'
 
 " visual mode
