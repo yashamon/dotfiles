@@ -1211,7 +1211,6 @@ true_zen.setup({
 })
 EOF
 lua <<EOF
-
 require('lualine').setup()
 EOF
 lua << EOF
