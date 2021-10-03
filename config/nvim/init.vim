@@ -1,5 +1,5 @@
 call plug#begin('~/.vim/plugged')               
-
+Plug 'hoob3rt/lualine.nvim'
 Plug 'karb94/neoscroll.nvim' 
 Plug 'folke/twilight.nvim', { 'branch': 'main' }
 Plug 'f3fora/cmp-spell'    
@@ -1209,6 +1209,10 @@ true_zen.setup({
 		cursor_by_mode = false,
 	}
 })
+EOF
+lua <<EOF
+
+require('lualine').setup()
 EOF
 lua << EOF
   require("twilight").setup {
