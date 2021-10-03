@@ -1,16 +1,6 @@
 call plug#begin('~/.vim/plugged')              
 Plug 'karb94/neoscroll.nvim' 
-
-" Vim Script
 Plug 'folke/twilight.nvim'
-
-lua << EOF
-  require("twilight").setup {
-    -- your configuration comes here
-    -- or leave it empty to use the default settings
-    -- refer to the configuration section below
-  }
-EOF
 Plug 'f3fora/cmp-spell'    
 Plug 'Pocco81/TrueZen.nvim', { 'branch': 'main' }
 Plug 'shaunsingh/nord.nvim'  
@@ -1220,7 +1210,6 @@ true_zen.setup({
 })
 EOF
 lua <<EOF
-
 require('neoscroll').setup({
     -- All these keys will be mapped to their corresponding default scrolling animation
     mappings = {'<C-u>', '<C-d>', '<C-b>', '<C-f>',
