@@ -430,8 +430,8 @@ set fileencodings=ucs-bom,utf-8,big5,gb2312,latin1
 
 
  " General mappings, remaps, maps
- autocmd FileType qf nnoremap <buffer> <Enter> <C-W><Enter><C-W>T:Goyo x<CR>
-autocmd FileType qf nnoremap  <buffer> <A>-q :q:Goyo x<CR>
+" autocmd FileType qf nnoremap <buffer> <Enter> <C-W><Enter><C-W>T:Goyo x<CR>
+" autocmd FileType qf nnoremap  <buffer> <A>-q :q:Goyo x<CR>
 
   
 noremap q <nop> 
@@ -1176,7 +1176,7 @@ EOF
 "   let @" = s:restore_reg
 "   return ''
 " endfunction
-"
+
 " function! s:Repl()
 "     let s:restore_reg = @"
 "     return "p@=RestoreRegister()\<cr>"
