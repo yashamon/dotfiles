@@ -528,8 +528,8 @@ noremap F ?
 noremap $ /\$<CR>hv?\$<CR>l
 noremap # /\$<CR>v?\$<CR>
 noremap @ /}<CR>v?{<CR>
-" map j gj
-" map k gk
+map j gj
+map k gk
 noremap <Space> .
 vnoremap <Space> t <cr>
 nmap <S-h> <C-w>h
@@ -815,7 +815,7 @@ EOF
 lua <<EOF
 require'nvim-treesitter.configs'.setup { 
     --
-    highlight = { enable = true },
+    --highlight = { enable = true },
     incremental_selection = { enable = true },
     textobjects = { enable = true },
     indent = { enable = true },
