@@ -1031,7 +1031,8 @@
       "\\mathcal{T} $0"
     ],
     "description": "cal T"
-  },
+  }, 
+
 "caligraphic U": {
     "prefix": ["cU"],
     "body": [
