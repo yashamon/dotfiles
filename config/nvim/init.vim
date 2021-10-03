@@ -192,8 +192,10 @@ set guicursor=n-v-c:block,i-ci-ve:ver25,r-cr:hor20,o:hor50
    " set foldcolumn=2
 "  highlight foldcolumn ctermfg=256 ctermbg=bg
 " autocmd Colorscheme * highlight FoldColumn guifg=black guibg=bg 
-set spelllang=en
-au VIMEnter set spell
+set spelllang=en  
+
+autocmd VimEnter * TZAtaraxis
+au VIMEnter set spell 
  set timeout
    set timeoutlen=0
      set ttimeoutlen=0
@@ -498,9 +500,8 @@ map <A-w> /}<CR>
 map <A-b> ?{<CR>
 
 map <C-q> <Esc>:qa!<CR> 
-map <m-q> <esc>:qa<cr>  
-map <m-q> <esc>:qa<cr> 
-
+map <m-q> <esc>:wqa<cr>  
+" map <S-m-q> <esc>:wq<cr> 
 map <m-c> <esc>:close<cr>  
 map <M-d> <Esc>:bdelete<CR>
 noremap f /
