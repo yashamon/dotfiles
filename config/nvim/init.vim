@@ -485,7 +485,7 @@ map <Leader>n <Plug>(miniyank-cycle)
 nnoremap <Left> :bnext<CR>
 nnoremap <Right> :bprevious<CR>
 " tnoremap <Esc> <C-\> 
-nnoremap < :tabp<CR>
+noremap < :tabp<CR>
 nnoremap > :tabn<CR>
 " nnoremap <leader>n :tabedit %<CR>
 imap <M-j> <C-j>
@@ -496,7 +496,7 @@ map <A-b> ?{<CR>
 
 map <C-q> <Esc>:Goyo<cr>:qa!<CR> 
 map <m-q> <esc>:Goyo<cr>:qa<cr> 
-map <m-c> <esc>:close<cr>  
+ap <m-c> <esc>:close<cr>  
 map <M-d> <Esc>:bdelete<CR>
 noremap f /
 noremap F ?
@@ -512,7 +512,7 @@ noremap F ?
 "     execute 'normal! \<Plug>Sneak_s'
 "     syntax on
 " endfunction
-" map n <Plug>Sneak_;
+ map n <Plug>Sneak_;
 " map N <Plug>Sneak_,
 " map t <Plug>(smalls-excursion)
 " let g:smalls_auto_jump=1
@@ -521,7 +521,7 @@ noremap F ?
 
     " xmap t <Plug>Sneak_s
     " xmap T <Plug>Sneak_S
-    " omap t <Plug>Sneak_s
+   " omap t <Plug>Sneak_s
     " omap T <Plug>Sneak_S
 noremap $ /\$<CR>hv?\$<CR>l
 noremap # /\$<CR>v?\$<CR>
@@ -582,7 +582,7 @@ inoremap <C-]> <C-x><C-]>
 
 " " au FileType tex,text,md noremap <CR> <Esc>a<Space><Esc>80i <Esc><Esc>vg0di
 " <<<<<<< HEAD
-" au FileType tex,text,md inoremap <CR> <Space><Space><Esc>80i <Esc><Esc>vg0di
+ au FileType tex,text,md inoremap <CR> <Space><Space><Esc>80i <Esc><Esc>vg0di
 " =======
 "
 " "  au FileType tex,text,md inoremap <CR> <Space><Space><Esc>80i <Esc><Esc>vg0di
