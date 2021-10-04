@@ -1318,5 +1318,8 @@ EOF
 " hi! link Sneak Normal
 " hi! link SneakScope Normal 
 
- " let g:material_style = 'palenight'
+ " let g:material_style = 'palenight' 
+
+map H <C-u>
+map K <C-d>
 
