@@ -501,7 +501,7 @@ map j gj
 map k gk
 noremap <Space> .
 vnoremap <Space> t <cr>
-Kmap <leader>r <C-r>
+map <leader>r <C-r>
 map H <C-u>
 map K <C-d>
 map <C-j> <C-e>
