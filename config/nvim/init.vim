@@ -505,7 +505,7 @@ vnoremap <leader>r <C-r>
 map <S-k> <C-u> 
 map <S-j> <C-d> 
 map <C-j> <C-e>
-
+map <C-k>
 nnoremap <leader>j J
 nnoremap <leader>k K
 map ' "
@@ -527,7 +527,7 @@ noremap <A-u> <C-u>
 map <Leader>tt :term CR; etags -R
 " this mapping Enter key to <C-y> to chose the current highlight item 
 " and close the selection list, same as other IDEs.
-" CONFLICT with some plugins like tpope/Endwise
+C-k" CONFLICT with some plugins like tpope/Endwise
 inoremap <expr> <CR> pumvisible() ? "\<C-y>" : "\<C-g>u\<CR>"
 nnoremap <silent> <Leader>y :YRGetElem<CR>
 map ' "
