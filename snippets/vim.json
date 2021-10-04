@@ -11,11 +11,9 @@
 "leader": {
     "prefix": "lead",
     "body": [
-        "<leader>$0",
-         "$0",
-         "EOF"
+        "<leader>$0"
        ],
-    "description": "EOF"
+    "description": "leader"
     }
 
 }
