@@ -378,9 +378,9 @@
     "prefix": "end",
     "body": [
       "\\end{$1}", 
-      "$0",
-            ],
-    "description": "comment"
+      "$0"
+         ],
+    "description": "end"
   },
 
 "comment": {
