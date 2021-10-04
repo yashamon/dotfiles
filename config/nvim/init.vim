@@ -1,5 +1,5 @@
 call plug#begin('~/.vim/plugged')               
-Plug 'folke/zen-mode.nvim' 
+Plug 'folke/zen-mode.nvim'  if()
 Plug 'hoob3rt/lualine.nvim'
 Plug 'karb94/neoscroll.nvim' 
 Plug 'folke/twilight.nvim', { 'branch': 'main' }
@@ -1120,12 +1120,13 @@ require('nvim_comment').setup(
   -- Normal mode mapping left hand side
   line_mapping = "gc",
   -- Visual/Operator mapping left hand side
---  operator_mapping = "<leader>c",
+  operator_mapping = "<leader>c",
   -- Hook function to call before commenting takes place
   --hook = nil 
 }
 )
 EOF
+nmap <leader>c gc
 lua <<EOF
 local true_zen = require("true-zen")
 true_zen.setup({
@@ -1342,4 +1343,4 @@ EOF
 " hi! link SneakScope Normal 
 
  " let g:material_style = 'palenight'  
-nmap <leader>c gc
+
