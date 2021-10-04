@@ -421,8 +421,7 @@ nnoremap <m-s> :%s///gc<left><left><left>
 vmap <M-.> t.<CR>h
 nmap <M-.> t.<CR>h
 map <up> 1<C-y>
-imap <up> <nop>
-map <down> 1<C-e>
+imap <up> <nop> map <down> 1<C-e>
 imap <down> <nop>
 noremap <ScrollWheelUp>      <nop>
 noremap <S-ScrollWheelUp>    <nop>
@@ -1320,6 +1319,7 @@ EOF
 
  " let g:material_style = 'palenight'  
 unmap H
+unmap K
 map H <C-u>
 map K <C-d>
 
