@@ -8,10 +8,10 @@
        ],
     "description": "EOF"
     }, 
-"lead": {
-    "prefix": "eof",
+"leader": {
+    "prefix": "lead",
     "body": [
-        "lua <<EOF",
+        "<leader>$0",
          "$0",
          "EOF"
        ],
