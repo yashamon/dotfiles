@@ -318,12 +318,11 @@ au TextYankPost * lua vim.highlight.on_yank {higroup="IncSearch", timeout=150, o
 au TextYankPost * call neoyank#_append() 
 
          "Some functions
-function Oceanlight()
+function light()
 set background=light
 " colorscheme oceanlight 
 colorscheme oceanlight 
-set background=light
-   " highlight Normal ctermfg=black
+" highlight Normal ctermfg=black
 " highlight  CursorLine cterm=NONE ctermbg=black ctermfg=none
 " hi MatchParen cterm=underline ctermbg=none ctermfg=magenta
 endfunction   
@@ -332,7 +331,7 @@ function Light()
 set background=light
 " colorscheme oceanlight 
 colorscheme material 
-set background=light
+let g:material_style = 'lighter'  
    " highlight Normal ctermfg=black
 " highlight  CursorLine cterm=NONE ctermbg=black ctermfg=none
 " hi MatchParen cterm=underline ctermbg=none ctermfg=magenta
