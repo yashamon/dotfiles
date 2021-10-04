@@ -1,4 +1,3 @@
-
 call plug#begin('~/.vim/plugged')               
 Plug 'hoob3rt/lualine.nvim'
 Plug 'karb94/neoscroll.nvim' 
@@ -263,8 +262,7 @@ set smartcase		" ignore case if search pattern is all lowercase,case-sensitive o
 set noerrorbells
 set novisualbell
 set tm=500
-" set macmeta
-" auto reload vimrc when editing it
+" set macmeta auto reload vimrc when editing it
 " autocmd! bufwritepost ~/.config/nvim/init.vim source ~/.config/nvim/init.vim
 syntax on		" syntax highlight
 " set hlsearch		" search highlighting
@@ -276,61 +274,89 @@ if has("gui_running")	" GUI color and font settings
   " colorscheme gruvbox 
   highlight CursorLine  guibg=#003853 ctermbg=24  gui=none cterm=none
 else
-" terminal color settings
-set background=dark
-=magenta
+" terminal color settings set background=dark
+  " set t_Co=256          " 256 color mode
+" Example config in VimScript
+let g:github_function_style = "italic"
+let g:github_sidebars = ["qf", "vista_kind", "terminal", "packer"]
+
+" Change the "hint" color to the "orange" color, and make the "error" color bright red
+" let g:github_colors = [hint = "orange", error = "#ff0000"]
+" Load the colorscheme
+" colorscheme github_dark 
+" set background=dark set background=light
+" colorscheme blue-moon
+colorscheme material  
+let g:material_style = 'lighter' 
+set background=light
+" highlight Normal ctermbg=none
+hi clear SpellBad
+hi SpellBad cterm=underline
+" Set style for gVim
+hi SpellBad gui=undercurl
+hi MatchParen cterm=undercurl ctermbg=none ctermfg=magenta
 endif
 
 "Autocommands
+
+
+autocmd BufReadPost * if @% !~# '\.git[\/\\]COMMIT_EDITMSG$' && line("'\"") > 1 && line("'\"") <= line("$") | exe "normal! g`\"" | endif 
+au FileType Makefile set noexpandtab  
+au FileType tex,text, set spelllang=en
+au FileType tex,text,tex set spell    
+au FileType tex,text,tex syntax sync fromstart
+au FileType tex,text,tex silent execute "!echo " . v:servername . " > ~/servername.txt"   
+au FileType tex,text,tex hi SpellBad cterm=undercurl au Filetype tex,text,tex vmap q xi<CR><CR><CR><CR><ESC>kkicom<tab><esc>p<A-j>
+
+" au FileType tex set background=dark 
+au TextYankPost * lua vim.highlight.on_yank {higroup="IncSearch", timeout=150, on_visual=true} 
+au TextYankPost * call neoyank#_append() 
+
+         "Some functions
+function Light()
+set background=light
+" colorscheme oceanlight 
+colorscheme material 
+set background=light
    " highlight Normal ctermfg=black
 " highlight  CursorLine cterm=NONE ctermbg=black ctermfg=none
-
+" hi MatchParen cterm=underline ctermbg=none ctermfg=magenta endfunction
+function Pencil()
+   set background=light
+   colorscheme pencil
 endfunction
 
-ectory to that of the current file
-cmap cd. lcd %:p:h
 
+function Dark()
+   set background=dark
+   colorscheme blue-moon 
+endfunction
 
-" Enable omni completion. (Ctrl-X Ctrl-O)
-autocmd FileType html,markdown setlocal omnifunc=htmlcomplete#CompleteTags
-autocmd FileType javascript setlocal omnifunc=javascriptcomplete#CompleteJS
-autocmd FileType python setlocal omnifunc=pythoncomplete#Complete
-autocmd FileType xml setlocal omnifunc=xmlcomplete#CompleteTags
-autocmd FileType css set omnifunc=csscomplete#CompleteCSS
-autocmd FileType c set omnifunc=ccomplete#Complete
-autocmd FileType java set omnifunc=javacomplete#Complete 
-autocmd FileType tex set omnifunc=latex#Complete
-autocmd Filetype tex setlocal fo=nt
-autocmd Filetype tex setlocal wrapmargin=0
-" use syntax complete if nothing else available
-if has("autocmd") && exists("+omnifunc")
-  autocmd Filetype *
-              \	if &omnifunc == "" |
-              \		setlocal omnifunc=syntaxcomplete#Complete |
-              \	endif
-endif
-
-set cot-=preview "disable doc preview in omnicomplete
-
-" make CSS omnicompletion work for SASS and SCSS
-" autocmd BufNewFile,BufRead *.scss             set ft=scss.css
-" autocmd BufNewFile,BufRead *.sass             set ft=sass.css
+set expandtab        "replace <TAB> with spaces set softtabstop=3 
+set shiftwidth=3 
 
 "--------------------------------------------------------------------------- 
-" ENCODING SETTINGS
+" USEFUL SHORTCUTS
 "--------------------------------------------------------------------------- 
+" set leader to ; 
+let mapleader=';'
+let g:mapleader=';'
+
+" open the error console
+" move to next error map <leader>] :cn<CR>
+" move to the prev error
+map <leader>[ :cp<CR>
+
+  
 set encoding=utf-8                                  
 set termencoding=utf-8
 set fileencoding=utf-8
-set fileencodings=ucs-bom,utf-8,big5,gb2312,latin1
-
 
 
 noremap q <nop> 
 map <leader>q q
 nnoremap <leader>sv :source $MYVIMRC<CR>
-"nnoremap <leader>e :NERDTreeFind<CR> 
-nnoremap <leader>e :FloatermNew vifm<cr> 
+"nnoremap <leader>e :NERDTreeFind<CR> nnoremap <leader>e :FloatermNew vifm<cr> 
 nnoremap <leader>t :FloatermToggle<cr> 
 
 
@@ -341,12 +367,10 @@ vmap <M-.> t.<CR>h
 nmap <M-.> t.<CR>h
 map <up> 1<C-y>
 imap <up> <nop>
-map <down> 1<C-e>
-imap <down> <nop>
+map <down> 1<C-e> imap <down> <nop>
 noremap <ScrollWheelUp>      <nop>
 noremap <S-ScrollWheelUp>    <nop>
-noremap <C-ScrollWheelUp>    <nop>
-noremap <ScrollWheelDown>    <nop>
+noremap <C-ScrollWheelUp>    <nop> noremap <ScrollWheelDown>    <nop>
 noremap <S-ScrollWheelDown>  <nop>
 noremap <C-ScrollWheelDown>  <nop>
 noremap <ScrollWheelLeft>    <nop>
@@ -354,8 +378,7 @@ noremap <S-ScrollWheelLeft>  <nop>
 noremap <C-ScrollWheelLeft>  <nop>
 noremap <ScrollWheelRight>   <nop>
 noremap <S-ScrollWheelRight> <nop>
-noremap <C-ScrollWheelRight> <nop>
-inoremap \ /
+noremap <C-ScrollWheelRight> <nop> inoremap \ /
 inoremap / \
 vnoremap p "0dP   
 noremap D "0D
@@ -430,8 +453,13 @@ nmap <S-l> <C-w>l
 vnoremap <leader>r <C-r>
 map <S-k> <C-u> 
 map <S-j> <C-d> 
-map <C-k> <C-y>
-map <C-j> <C-e>
+nmap <C-k> <C-y>
+nmap <C-j> <C-e>
+vmap <C-k> <C-y> 
+vmap <C-j> <C-e>
+nmap <S-j> <C-d>
+vmap <S-k> <C-u>
+vmap <S-j> <C-d>
 
 
 nnoremap <leader>j J
@@ -1196,4 +1224,7 @@ EOF
  " let g:material_style = 'palenight'
 let g:material_style = 'lighter'
 " let g:material_style = 'oceanic'
-set wrap
+set wrap 
+
+" insert mode
+
