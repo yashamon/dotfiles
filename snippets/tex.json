@@ -374,6 +374,14 @@
       ],
     "description": "Sub Section"
   },   
+"bullet": {
+    "prefix": "b",
+    "body": [
+      "\\end{$1}", 
+      "$0"
+         ],
+    "description": "end"
+  },
 
 "end": {
     "prefix": "end",
