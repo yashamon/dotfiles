@@ -1341,5 +1341,5 @@ EOF
 " hi! link Sneak Normal
 " hi! link SneakScope Normal 
 
- let g:material_style = 'palenight'  
+ " let g:material_style = 'palenight'  
 nmap <leader>c gc
