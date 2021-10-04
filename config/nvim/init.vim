@@ -365,7 +365,8 @@ endfunction
 
 function Dark()
    set background=dark
-   colorscheme blue-moon 
+   colorscheme material  
+
 endfunction
 
 set expandtab        "replace <TAB> with spaces
@@ -637,7 +638,7 @@ map <A-e> :FZF ~<CR>
 " let g:vimtex_view_general_options = '-r @line @pdf @tex'
 let g:latex_view_general_viewer = 'zathura'
 let g:vimtex_view_method = "zathura"
-let g:vimtex_indent_enabled =0 
+let g:vimtex_indent_enabled =1
 let g:vimtex_syntax_enabled=1
 "noremap L <Esc>:AsyncRun sentence.sh %;nvr sentence_%<cr>:echo 'press any key'<cr>:execute 'call getchar()' | BLines<cr> 
 function! Sentence() 
@@ -697,7 +698,7 @@ au filetype tex nnoremap <silent> <leader>s :call ToggleQuickFix()<cr>
 let g:vimtex_compiler_progname = 'nvr'
 nmap  <leader>v <Esc>:w<CR>:VimtexView<CR>
 let g:vimtex_quickfix_mode = 1
-let g:vimtex_fold_enabled = 1
+let g:vimtex_fold_enabled = 0
 let g:vimtex_fold_manual = 1
 
 
@@ -838,7 +839,7 @@ EOF
 " set foldlevel=20
 " set foldmethod=expr
 " set foldexpr=nvim_treesitter#foldexpr()
-" set foldmethod=expr foldexpr=getline(v:lnum)=~'^\s*'.&commentstring[0]
+set foldmethod=expr foldexpr=getline(v:lnum)=~'^\s*'.&commentstring[0]
 
 
 " Quicktex
