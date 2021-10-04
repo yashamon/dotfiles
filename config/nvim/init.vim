@@ -506,14 +506,13 @@ map k gk
 noremap <Space> .
 vnoremap <Space> t <cr>
 noremap <leader>r <C-r>
-map H <C-u>
+map J <C-u>
 map K <C-d>
 map <C-j> <C-e>
 map <C-k> <C-y>
 nnoremap <leader>j J
 nnoremap <leader>k K
-map ' "
-nnoremap <Backspace> i<Backspace><Esc>
+map ' " nnoremap <Backspace> i<Backspace><Esc>
 nmap <leader>c gc
 noremap <A-r> <C-r>
 nnoremap ` ~
@@ -1319,8 +1318,6 @@ EOF
 " hi! link SneakScope Normal 
 
  " let g:material_style = 'palenight'  
-map H <nop>
-map K <>
-map H <C-u>
+map J <C-u>
 map K <C-d>
 
