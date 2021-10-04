@@ -473,7 +473,7 @@ map <C-q> <Esc>:qa!<CR>
 map <m-q> <esc>:wqa<cr>  
 " map <S-m-q> <esc>:wq<cr> 
 map <m-c> <esc>:close<cr>  
-ap <M-d> <Esc>:bdelete<CR>
+map <M-d> <Esc>:bdelete<CR>
 noremap f /
 noremap F ?
 " inoremap .<Esc> .<CR><Esc><leader>j
@@ -509,7 +509,7 @@ vnoremap <Space> t <cr>
 nmap <S-h> <C-w>h
 nmap <S-l> <C-w>l
 vnoremap <leader>r <C-r>
-ap <S-k> <C-u> 
+map <S-k> <C-u> 
 map <S-j> <C-d> 
 map <C-k> <C-y>
 map <C-j> <C-e>
