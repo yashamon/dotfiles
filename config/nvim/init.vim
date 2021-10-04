@@ -1,4 +1,5 @@
-call plug#begin('~/.vim/plugged')               Plug 'folke/zen-mode.nvim' 
+call plug#begin('~/.vim/plugged')               
+Plug 'folke/zen-mode.nvim' 
 Plug 'hoob3rt/lualine.nvim'
 Plug 'karb94/neoscroll.nvim' 
 Plug 'folke/twilight.nvim', { 'branch': 'main' }
