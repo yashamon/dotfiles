@@ -1255,7 +1255,6 @@ EOF
 " let g:deoplete#enable_at_startup = 1
 " map <silent> <leader>g :silent call Gitview()
 " map <silent> <leader>g :silent !cd /root/web2 ; git add .<CR>:silent git commit -m -a ; silent !git push origin gh-pages<CR> This is how I use PDFViewer with Neovim and LaTexBox. 
-"
 "Load some useful plugins with vundle
 "
 "
@@ -1266,6 +1265,6 @@ EOF
 let g:material_style = 'lighter'
 " let g:material_style = 'oceanic'
 set wrap 
-map j <C-u>
+map J <C-u>
 map k <C-d>
 
