@@ -1,5 +1,5 @@
 call plug#begin('~/.vim/plugged')                
-Plug 'folke/zen-mode.nvim'             
+Plug 'folke/zen-mode.nvim'
 Plug 'nvim-lua/plenary.nvim'       
 Plug 'nvim-telescope/telescope.nvim'
 Plug 'hoob3rt/lualine.nvim'
@@ -1377,4 +1377,3 @@ EOF
 " hi! link SneakScope Normal 
 
  " let g:material_style = 'palenight'  
-
