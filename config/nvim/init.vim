@@ -351,36 +351,6 @@ let g:mapleader=';'
 
 " open the error console
 " move to next error
-map <leader>] :cn<CR>
-" move to the prev error
-map <leader>[ :cp<CR>
-
-" --- move around splits {
-" move to and maximize the below split 
-map <C-J> <C-W>j<C-W>_
-"
-"move to and maximize the above split 
-map <C-K> <C-W>k<C-W>_
-" move to and maximize the left split 
-nmap <c-h> <c-w>h<c-w><bar>
-" move to and maximize the right split  
-nmap <c-l> <c-w>l<c-w><bar>
-set wmw=0                     " set the min width of a window to 0 so we can maximize others 
-set wmh=0                     " set the min height of a window to 0 so we can maximize others
-" }
-
-" move around tabs. conflict with the original screen top/bottom
-" comment them out if you want the original H/L
-" go to prev tab 
-"noremap <S-H> gT
-" go to next tab
-"noremap <S-L> gt
-" new tab
-" map <leader>t :tabnew<CR>
-" close tab
-" map <leader>c :tabclose<CR> 
-" ,/ turn off search highlighting
-"nmap <leader>/ :nohl<CR>
 
 " Bash like keys for the command line
 cnoremap <C-A>      <Home>
@@ -525,21 +495,16 @@ noremap F ?
     " xmap T <Plug>Sneak_S
    " omap t <Plug>Sneak_s
     " omap T <Plug>Sneak_S
-noremap $ /\$<CR>hv?\$<CR>l
 noremap # /\$<CR>v?\$<CR>
 noremap @ /}<CR>v?{<CR>
 map j gj
 map k gk
 noremap <Space> .
 vnoremap <Space> t <cr>
-nmap <S-h> <C-w>h
-nmap <S-l> <C-w>l
 vnoremap <leader>r <C-r>
 map <S-k> <C-u> 
 map <S-j> <C-d> 
-map <C-k> <C-y>
 map <C-j> <C-e>
-taest
 
 nnoremap <leader>j J
 nnoremap <leader>k K
