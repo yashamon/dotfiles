@@ -487,7 +487,7 @@ nnoremap <Left> :bnext<CR>
 nnoremap <Right> :bprevious<CR>
 " tnoremap <Esc> <C-\> 
 noremap < :tabp<CR>
-nnoremap > :tabn<CR>
+noremap > :tabn<CR>
 " nnoremap <leader>n :tabedit %<CR>
 imap <M-j> <C-j>
 map <S-w> /\$<CR>
@@ -499,7 +499,7 @@ map <C-q> <Esc>:qa!<CR>
 map <m-q> <esc>:wqa<cr>  
 " map <S-m-q> <esc>:wq<cr> 
 map <m-c> <esc>:close<cr>  
-map <M-d> <Esc>:bdelete<CR>
+ap <M-d> <Esc>:bdelete<CR>
 noremap f /
 noremap F ?
 " inoremap .<Esc> .<CR><Esc><leader>j
@@ -511,7 +511,7 @@ noremap F ?
 "     syntax off
 "     hi! link Sneak Normal
 "     hi! link SneakScope Normal
-"     execute 'normal! \<Plug>Sneak_s'
+     execute 'normal! \<Plug>Sneak_s'
 "     syntax on
 " endfunction
  map n <Plug>Sneak_;
@@ -523,7 +523,7 @@ noremap F ?
 
     " xmap t <Plug>Sneak_s
     " xmap T <Plug>Sneak_S
-   " omap t <Plug>Sneak_s
+  " omap t <Plug>Sneak_s
     " omap T <Plug>Sneak_S
 noremap $ /\$<CR>hv?\$<CR>l
 noremap # /\$<CR>v?\$<CR>
@@ -535,7 +535,7 @@ vnoremap <Space> t <cr>
 nmap <S-h> <C-w>h
 nmap <S-l> <C-w>l
 vnoremap <leader>r <C-r>
-map <S-k> <C-u> 
+ap <S-k> <C-u> 
 map <S-j> <C-d> 
 map <C-k> <C-y>
 map <C-j> <C-e>
@@ -1248,7 +1248,7 @@ EOF
 "     return "p@=RestoreRegister()\<cr>"
 " endfunction
 "
-" " NB: this supports "rp that replaces the selection by the contents of @r
+ " NB: this supports "rp that replaces the selection by the contents of @r
 " vnoremap <silent> <expr> p <sid>Repl()
 
 " " Change Color when entering
@@ -1259,7 +1259,7 @@ EOF
 "      au InsertEnter * setlocal cursorline
 "        au InsertLeave * setlocal nocursorline
 "     endif
-"        augroup END
+        augroup END
 " function! DelTagOfFile(file)
 "   let fullpath = a:file
 "   let cwd = getcwd()
@@ -1271,7 +1271,7 @@ EOF
 " endfunction
 " function! Break()
 "  let n=130-virtcol('.')
-"  <Esc>ni <Esc><Esc>
+  <Esc>ni <Esc><Esc>
 " endfunction
 " function Gitview()
 "    cd /root/web2 ; git add . ; git commit -m -a ; git push origin gh-pages
@@ -1282,7 +1282,7 @@ EOF
 "   \   'converters': [
 "   \     incsearch#config#fuzzy#converter(),
 "   \     incsearch#config#fuzzyspell#converter()
-"   \   ],
+   \   ],
 "   \ }), get(a:, 1, {}
 "   ))
 " endfunction
@@ -1292,7 +1292,7 @@ EOF
 " map f <Plug>(incsearch-fuzzyspell-/)
 " map F <Plug>(incsearch-fuzzyspell-?)
 " map gF <Plug>(incsearch-fuzzyspell-stay)
-" map <silent> <leader>g :silent !cd /root/web2<CR>:silent !git add .<CR>:silent !git commit -m -a<CR>:silent !git push origin gh-pages<CR>
+" map <silent> <leader>g :silent !cd /root/web2<CR>:slent !git add .<CR>:silent !git commit -m -a<CR>:silent !git push origin gh-pages<CR>
 " let g:deoplete#enable_at_startup = 1
 " map <silent> <leader>g :silent call Gitview()
 " map <silent> <leader>g :silent !cd /root/web2 ; git add .<CR>:silent git commit -m -a ; silent !git push origin gh-pages<CR>
@@ -1306,6 +1306,6 @@ EOF
 
  " let g:material_style = 'palenight'
 let g:material_style = 'lighter'
-" let g:material_style = 'oceanic'
+" et g:material_style = 'oceanic'
 set wrap
 
