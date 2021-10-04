@@ -366,7 +366,7 @@ endfunction
 function Dark()
    set background=dark
    colorscheme material  
-
+   let g:material_style = 'darker'  
 endfunction
 
 set expandtab        "replace <TAB> with spaces
