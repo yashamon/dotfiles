@@ -7,5 +7,15 @@
          "EOF"
        ],
     "description": "EOF"
+    }, 
+"lead": {
+    "prefix": "eof",
+    "body": [
+        "lua <<EOF",
+         "$0",
+         "EOF"
+       ],
+    "description": "EOF"
     }
+
 }
