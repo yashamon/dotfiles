@@ -327,6 +327,10 @@ set background=light
 " highlight  CursorLine cterm=NONE ctermbg=black ctermfg=none
 " hi MatchParen cterm=underline ctermbg=none ctermfg=magenta
 endfunction 
+set background=dark
+" colorscheme blue-moon
+colorscheme material  
+let g:material_style = 'palenight'  
 
 function Pencil()
    set background=light
