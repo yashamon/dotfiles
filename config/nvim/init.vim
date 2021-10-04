@@ -1189,13 +1189,11 @@ require('neoscroll').setup({
     mappings = {'<C-u>', '<C-d>', '<C-b>', '<C-f>',
                 '<C-y>', '<C-e>', 'zt', 'zz', 'zb'},
     hide_cursor = true,          -- Hide cursor while scrolling
-    stop_eof = true,             -- Stop at <EOF> when scrolling downwards
     use_local_scrolloff = false, -- Use the local scope of scrolloff instead of the global scope
     respect_scrolloff = true,   -- Stop scrolling when the cursor reaches the scrolloff margin of the file
     cursor_scrolls_alone = true, -- The cursor will kep on scrolling even if the window cannot scroll further
     easing_function = nil,        -- Default easing function
     pre_hook = nil,              -- Function to run before the scrolling animation starts
-    post_hook = nil,              -- Function to run after the scrolling animation ends
 })
 
 EOF
@@ -1212,7 +1210,6 @@ EOF
 " 'tCommen20
 " let g:tcommentMapLeaderOp1=';' 
 " "map <leader>c <Leader>__ 
-"" function! RestoreRegister()
 "   let @" = s:restore_reg
 "   return ''
 " endfunction
@@ -1220,31 +1217,23 @@ EOF
 "     let s:restore_reg = @"
 "     return "p@=RestoreRegister()\<cr>"
 " endfunction
-"
  " NB: this supports "rp that replaces the selection by the contents of @r
 " vnoremap <silent> <expr> p <sid>Repl()
 
 " " Change Color when entering
 " Insert Mode augroup CursorLine
 "    au!
-"  if has("gui_running")
 "  else
-"      au InsertEnter * setlocal cursorline
 "        au InsertLeave * setlocal nocursorline
 "     endif
-        augroup END
 " function! DelTagOfFile(file)
 "   let fullpath = a:file
-"   let cwd = getcwd()
 "   let tagfilename = cwd . "/tags"
 "   let f = substitute(fullpath, cwd . "/", "", "")
 "   let f = escape(f, './')
 "   let cmd = 'sed -i "/' . f . '/d" "' . tagfilename . '"'
 "   let resp = system(cmd)
-" endfunction
-" function! Break()
 "  let n=130-virtcol('.')
-  
 " endfunction
 " function Gitview()
 "    cd /root/web2 ; git add . ; git commit -m -a ; git push origin gh-pages
@@ -1255,7 +1244,6 @@ EOF
 "   \   'converters': [
 "   \     incsearch#config#fuzzy#converter(),
 "   \     incsearch#config#fuzzyspell#converter()
-   \   ],
 "   \ }), get(a:, 1, {}
 "   ))
 " endfunction
@@ -1265,7 +1253,6 @@ EOF
 " map f <Plug>(incsearch-fuzzyspell-/)
 " map F <Plug>(incsearch-fuzzyspell-?)
 " map gF <Plug>(incsearch-fuzzyspell-stay)
-" map <silent> <leader>g :silent !cd /root/web2<CR>:slent !git add .<CR>:silent !git commit -m -a<CR>:silent !git push origin gh-pages<CR>
 " let g:deoplete#enable_at_startup = 1
 " map <silent> <leader>g :silent call Gitview()
 " map <silent> <leader>g :silent !cd /root/web2 ; git add .<CR>:silent git commit -m -a ; silent !git push origin gh-pages<CR>
@@ -1276,7 +1263,6 @@ EOF
 "
 " hi! link Sneak Normal
 " hi! link SneakScope Normal 
-
  " let g:material_style = 'palenight'
 let g:material_style = 'lighter'
 " et g:material_style = 'oceanic'
