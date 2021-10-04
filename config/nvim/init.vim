@@ -355,32 +355,6 @@ map <leader>] :cn<CR>
 " move to the prev error
 map <leader>[ :cp<CR>
 
-" --- move around splits {
-" move to and maximize the below split 
-map <C-J> <C-W>j<C-W>_
-"
-"move to and maximize the above split 
-map <C-K> <C-W>k<C-W>_
-" move to and maximize the left split 
-nmap <c-h> <c-w>h<c-w><bar>
-" move to and maximize the right split  
-nmap <c-l> <c-w>l<c-w><bar>
-set wmw=0                     " set the min width of a window to 0 so we can maximize others 
-set wmh=0                     " set the min height of a window to 0 so we can maximize others
-" }
-
-" move around tabs. conflict with the original screen top/bottom
-" comment them out if you want the original H/L
-" go to prev tab 
-"noremap <S-H> gT
-" go to next tab
-"noremap <S-L> gt
-" new tab
-" map <leader>t :tabnew<CR>
-" close tab
-" map <leader>c :tabclose<CR> 
-" ,/ turn off search highlighting
-"nmap <leader>/ :nohl<CR>
 
 " Bash like keys for the command line
 cnoremap <C-A>      <Home>
@@ -1029,7 +1003,7 @@ vnoremap <leader>p :FZFNeoyankSelection +<cr>
 
 " Replace the default dictionary completion with fzf-based fuzzy completion
 
-" inoremap <expr> <c-x><c-k> fzf#vim#complete('cat /usr/share/dict/words')  
+" inoremap <expr> <c-x><c-k> fzf#im#complete('cat /usr/share/dict/words')  
 
 
 let g:agit_enable_auto_refresh = 1
@@ -1041,7 +1015,7 @@ set completeopt=menu,menuone,noselect
 lua <<EOF
   -- Setup cmp.
 
-local has_words_before = function()
+local has_words_before = function(
   if vim.api.nvim_buf_get_option(0, "buftype") == "prompt" then
     return false
   end
@@ -1050,7 +1024,7 @@ local has_words_before = function()
 end
 
 local feedkey = function(key, mode)
-  vim.api.nvim_feedkeys(vim.api.nvim_replace_termcodes(key, true, true, true), mode, true)
+  vim.api.nvim_feedkeys(vim.api.nvim_replace_termcodes(key, true, true, true), mode, true
 end
 
 local cmp = require('cmp')
@@ -1064,7 +1038,7 @@ end,
 },
 mapping = {
       ['<C-d>'] = cmp.mapping.scroll_docs(-4),
-      ['<C-f>'] = cmp.mapping.scroll_docs(4),
+      ['<C-f>'] = cmp.mapping.scroll_docs(4)
       ['<C-x>'] = cmp.mapping.complete(),
       ['<C-e>'] = cmp.mapping.close(),
       ['<CR>'] = cmp.mapping.confirm({ select = true }),
@@ -1078,7 +1052,7 @@ mapping = {
       elseif has_words_before() then 
         cmp.complete()
       else
-        fallback() -- The fallback function sends a already mapped key. In this case, it's probably `<Tab>`.
+        fallback() -- The fallback function sends a lready mapped key. In this case, it's probably `<Tab>`.
       end
     end, { "i", "s" }),
 ["<S-Tab>"] = cmp.mapping(function()
@@ -1090,7 +1064,7 @@ mapping = {
     end, { "i", "s" }),
 -- ... Your other mappings ...
 
-},
+}
 -- ... Your other configuration ...
 sources = {
       -- For vsnip user.
@@ -1103,7 +1077,7 @@ sources = {
     { name = 'buffer', keyword_length = 4 },
     { name = 'omni' , keyword_length = 4},
        -- { name = 'spell' }, 
-    { name = 'treesitter', keyword_length = 4  },
+    { name = 'treesitter', keyword_length = 4  }
     { name = 'tags' , keyword_length = 4 }, 
     { name = 'nvim_lsp', keyword_length = 4 },
 --{ name = 'latex_symbols' },
