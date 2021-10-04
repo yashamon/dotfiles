@@ -326,16 +326,27 @@ set background=light
    " highlight Normal ctermfg=black
 " highlight  CursorLine cterm=NONE ctermbg=black ctermfg=none
 " hi MatchParen cterm=underline ctermbg=none ctermfg=magenta
-endfunction 
-set background=dark
-" colorscheme blue-moon
-colorscheme material  
-let g:material_style = 'palenight'  
-
-function Pencil()
-   set background=light
-   colorscheme pencil
+endfunction  
+function Deepocean()
+   set background=dark
+   " colorscheme blue-moon
+   colorscheme material  
+   let g:material_style = 'palenight'  
 endfunction
+
+function Palenight()
+   set background=dark
+   " colorscheme blue-moon
+   colorscheme material  
+   let g:material_style = 'palenight'  
+endfunction
+function Palenight()
+   set background=light
+   " colorscheme blue-moon
+   colorscheme material  
+   let g:material_style = 'lighter'  
+endfunction
+
 
 
 function Dark()
