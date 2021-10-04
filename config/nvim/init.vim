@@ -525,6 +525,7 @@ noremap <A-u> <C-u>
 map <Leader>tt :term CR; etags -R
 " this mapping Enter key to <C-y> to chose the current highlight item 
 " and close the selection list, same as other IDEs.
+
 inoremap <expr> <CR> pumvisible() ? "\<C-y>" : "\<C-g>u\<CR>"
 nnoremap <silent> <Leader>y :YRGetElem<CR>
 map ' "
@@ -533,6 +534,7 @@ inoremap <C-]> <C-x><C-]>
 
 
 " text editting mappings
+
  " " au FileType tex,text,md noremap <CR> <Esc>a<Space><Esc>80i <Esc><Esc>vg0di
 " <<<<<<< HEAD
  " au FileType tex,text,md inoremap <CR> <Space><Space><Esc>80i <Esc><Esc>vg0di
@@ -1264,4 +1266,6 @@ EOF
  " let g:material_style = 'palenight'
 let g:material_style = 'lighter'
 " let g:material_style = 'oceanic'
-set wrap
+set wrap 
+map H <C-u> map K <C-d>
+
