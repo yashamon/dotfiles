@@ -287,8 +287,8 @@ let g:github_sidebars = ["qf", "vista_kind", "terminal", "packer"]
 " set background=dark 
 set background=dark
  colorscheme blue-moon
-colorscheme material  
-let g:material_style = 'palenight'  
+" colorscheme material  
+" let g:material_style = 'palenight'  
 " let g:material_style = 'lighter'
 
 set background=light
@@ -1267,7 +1267,6 @@ lua << EOF
 }
 EOF
 
-" au TextDeletePost * lua vim.highlight.on_delete {higroup="IncSearch", timeout=150, on_visual=true} ;a;sldfjasl fj slj a;slfjasdfj
 
 "au FileType tex autocmd User SneakLeave set syntax=tex
 "au FileType tex autocmd User SneakEnter set syntax=text
