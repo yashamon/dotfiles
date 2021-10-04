@@ -506,8 +506,8 @@ map k gk
 noremap <Space> .
 vnoremap <Space> t <cr>
 noremap <leader>r <C-r>
-map J <C-u>
-map K <C-d>
+map K <C-u>
+map J <C-d>
 map <C-j> <C-e>
 map <C-k> <C-y>
 nnoremap <leader>j J
@@ -738,7 +738,7 @@ autocmd BufWritePost * silent execute 'AsyncRun if git rev-parse --is-inside-wor
     "
     "
     " UndoTree {
-        noremap <Leader>u :UndotreeToggle<CR>
+        noremap <Leader>u <esc>:TZAtaraxis<>UndotreeToggle<CR>
         " If undotree is opened, it is likely one wants to interact with it.
         let g:undotree_SetFocusWhenToggle=1
         noremap <D-z> u
