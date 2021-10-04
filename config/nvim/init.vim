@@ -199,7 +199,7 @@ set guicursor=n-v-c:block,i-ci-ve:ver25,r-cr:hor20,o:hor50
 "  highlight foldcolumn ctermfg=256 ctermbg=bg
 " autocmd Colorscheme * highlight FoldColumn guifg=black guibg=bg 
 set spelllang=en  
-autocmd VimEnter * TZAtaraxis
+autocmd VimEnter * ZenMode
 au VIMEnter set spell 
  set timeout
    set timeoutlen=0
@@ -702,7 +702,7 @@ let g:vimtex_fold_types= {
 " nmap <leader>l :silent execute "AsyncRun latexmk -pvc -pdf -file-line-error -synctex=1 -interaction=nonstopmode -recorder %"<CR>
 nmap <leader>l :VimtexCompile<CR>
 " nmap <leader>s <Esc>:VimtexErrors<CR>
-map <leader>g :TZAtaraxis<CR>
+map <leader>g :ZenMode<CR>
 nmap <leader>p :Denite neoyank -default-action=append<CR>
 
 " NB: this supports "rp that replaces the selection by the contents of @r
@@ -738,7 +738,7 @@ autocmd BufWritePost * silent execute 'AsyncRun if git rev-parse --is-inside-wor
     "
     "
     " UndoTree {
-        noremap <Leader>u <cr>:UndotreeToggle<CR>
+        noremap <Leader>u <esc>:UndotreeToggle<CR>
         " If undotree is opened, it is likely one wants to interact with it.
         let g:undotree_SetFocusWhenToggle=1
         noremap <D-z> u
