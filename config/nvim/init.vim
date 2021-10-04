@@ -327,15 +327,15 @@ colorscheme oceanlight
 " hi MatchParen cterm=underline ctermbg=none ctermfg=magenta
 endfunction   
 
-function Light()
-set background=light
-" colorscheme oceanlight 
-colorscheme material 
-let g:material_style = 'lighter'  
-   " highlight Normal ctermfg=black
-" highlight  CursorLine cterm=NONE ctermbg=black ctermfg=none
-" hi MatchParen cterm=underline ctermbg=none ctermfg=magenta
-endfunction   
+" function Light()
+" set background=light
+" " colorscheme oceanlight 
+" colorscheme material 
+" let g:material_style = 'lighter'  
+"    " highlight Normal ctermfg=black
+" " highlight  CursorLine cterm=NONE ctermbg=black ctermfg=none
+" " hi MatchParen cterm=underline ctermbg=none ctermfg=magenta
+" endfunction   
 function Bluemoon()
    set background=dark
    colorscheme blue-moon
