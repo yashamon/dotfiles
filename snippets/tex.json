@@ -379,9 +379,7 @@
     "body": [
       "\\end{$1}", 
       "$0",
-      "\\end{comment}",
-      "$0"
-      ],
+            ],
     "description": "comment"
   },
 
