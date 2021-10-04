@@ -1269,7 +1269,9 @@ lua << EOF
   end,
 }
 EOF 
+lua <<EOF
 
+EOF
 
 
 "au FileType tex autocmd User SneakLeave set syntax=tex
