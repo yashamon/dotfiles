@@ -1,5 +1,5 @@
 call plug#begin('~/.vim/plugged')               
-Plug 'Plug 'folke/zen-mode.nvim' 
+Plug ' 'folke/zen-mode.nvim' 
 Plug 'hoob3rt/lualine.nvim'
 Plug 'karb94/neoscroll.nvim' 
 Plug 'folke/twilight.nvim', { 'branch': 'main' }
@@ -160,7 +160,10 @@ call plug#end()
 "syntax on  
 " filetype plugin indent on
 "  General Settings  
- 
+let g:material_style = 'lighter'
+" let g:material_style = 'oceanic'
+set wrap  
+
 set pb=30 
 set switchbuf=newtab
 set t_ut=
