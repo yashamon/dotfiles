@@ -373,7 +373,8 @@
       "\\label{sub:$1}"
       ],
     "description": "Sub Section"
-  }, 
+  },  
+
 "comment": {
     "prefix": "com",
     "body": [
