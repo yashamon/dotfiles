@@ -762,7 +762,6 @@ let g:Guifont="Source Code Pro Light:h16"
 
 " map <silent> <leader>g :silent execute "!(cd /root/web2 ; git add . ; git commit -m -a ; git push origin gh-pages) > /dev/null"<CR>
 set directory=$HOME/Downloads
-let g:goyo_width=60
 
 
 "LUA
@@ -1198,7 +1197,7 @@ lua << EOF
     -- * an absolute number of cells when > 1
     -- * a percentage of the width / height of the editor when <= 1
     -- * a function that returns the width or the height
-    width = 20, -- width of the Zen window
+    width = .70, -- width of the Zen window
     height = 1, -- height of the Zen window
     -- by default, no options are changed for the Zen window
     -- uncomment any of the options below, or add other vim.wo options you want to apply
