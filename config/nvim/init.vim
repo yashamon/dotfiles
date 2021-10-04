@@ -542,8 +542,7 @@ nmap <C-j> <C-e>
 vmap <C-k> <C-y> 
 vmap <C-j> <C-e>
 
-vmap <S-k> <C-u>
-vmap <S-j> <C-d>
+
 
 
 nnoremap <leader>j J
