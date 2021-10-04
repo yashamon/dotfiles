@@ -355,6 +355,32 @@ map <leader>] :cn<CR>
 " move to the prev error
 map <leader>[ :cp<CR>
 
+" --- move around splits {
+" move to and maximize the below split 
+map <C-J> <C-W>j<C-W>_
+"
+"move to and maximize the above split 
+map <C-K> <C-W>k<C-W>_
+" move to and maximize the left split 
+nmap <c-h> <c-w>h<c-w><bar>
+" move to and maximize the right split  
+nmap <c-l> <c-w>l<c-w><bar>
+set wmw=0                     " set the min width of a window to 0 so we can maximize others 
+set wmh=0                     " set the min height of a window to 0 so we can maximize others
+" }
+
+" move around tabs. conflict with the original screen top/bottom
+" comment them out if you want the original H/L
+" go to prev tab 
+"noremap <S-H> gT
+" go to next tab
+"noremap <S-L> gt
+" new tab
+" map <leader>t :tabnew<CR>
+" close tab
+" map <leader>c :tabclose<CR> 
+" ,/ turn off search highlighting
+"nmap <leader>/ :nohl<CR>
 
 " Bash like keys for the command line
 cnoremap <C-A>      <Home>
@@ -461,7 +487,7 @@ nnoremap <Left> :bnext<CR>
 nnoremap <Right> :bprevious<CR>
 " tnoremap <Esc> <C-\> 
 noremap < :tabp<CR>
-noremap > :tabn<CR>
+nnoremap > :tabn<CR>
 " nnoremap <leader>n :tabedit %<CR>
 imap <M-j> <C-j>
 map <S-w> /\$<CR>
@@ -485,7 +511,7 @@ noremap F ?
 "     syntax off
 "     hi! link Sneak Normal
 "     hi! link SneakScope Normal
-     execute 'normal! \<Plug>Sneak_s'
+"     execute 'normal! \<Plug>Sneak_s'
 "     syntax on
 " endfunction
  map n <Plug>Sneak_;
@@ -497,7 +523,7 @@ noremap F ?
 
     " xmap t <Plug>Sneak_s
     " xmap T <Plug>Sneak_S
-  " omap t <Plug>Sneak_s
+   " omap t <Plug>Sneak_s
     " omap T <Plug>Sneak_S
 noremap $ /\$<CR>hv?\$<CR>l
 noremap # /\$<CR>v?\$<CR>
@@ -511,12 +537,13 @@ nmap <S-l> <C-w>l
 vnoremap <leader>r <C-r>
 map <S-k> <C-u> 
 map <S-j> <C-d> 
-map <C-k> <C-y>
-map <C-j> <C-e>
-
-
-
-
+nmap <C-k> <C-y>
+nmap <C-j> <C-e>
+vmap <C-k> <C-y> 
+vmap <C-j> <C-e>
+nmap <S-j> <C-d>
+vmap <S-k> <C-u>
+vmap <S-j> <C-d>
 
 
 nnoremap <leader>j J
@@ -1003,7 +1030,7 @@ vnoremap <leader>p :FZFNeoyankSelection +<cr>
 
 " Replace the default dictionary completion with fzf-based fuzzy completion
 
-" inoremap <expr> <c-x><c-k> fzf#im#complete('cat /usr/share/dict/words')  
+" inoremap <expr> <c-x><c-k> fzf#vim#complete('cat /usr/share/dict/words')  
 
 
 let g:agit_enable_auto_refresh = 1
@@ -1015,7 +1042,7 @@ set completeopt=menu,menuone,noselect
 lua <<EOF
   -- Setup cmp.
 
-local has_words_before = function(
+local has_words_before = function()
   if vim.api.nvim_buf_get_option(0, "buftype") == "prompt" then
     return false
   end
@@ -1024,7 +1051,7 @@ local has_words_before = function(
 end
 
 local feedkey = function(key, mode)
-  vim.api.nvim_feedkeys(vim.api.nvim_replace_termcodes(key, true, true, true), mode, true
+  vim.api.nvim_feedkeys(vim.api.nvim_replace_termcodes(key, true, true, true), mode, true)
 end
 
 local cmp = require('cmp')
@@ -1038,7 +1065,7 @@ end,
 },
 mapping = {
       ['<C-d>'] = cmp.mapping.scroll_docs(-4),
-      ['<C-f>'] = cmp.mapping.scroll_docs(4)
+      ['<C-f>'] = cmp.mapping.scroll_docs(4),
       ['<C-x>'] = cmp.mapping.complete(),
       ['<C-e>'] = cmp.mapping.close(),
       ['<CR>'] = cmp.mapping.confirm({ select = true }),
@@ -1052,7 +1079,7 @@ mapping = {
       elseif has_words_before() then 
         cmp.complete()
       else
-        fallback() -- The fallback function sends a lready mapped key. In this case, it's probably `<Tab>`.
+        fallback() -- The fallback function sends a already mapped key. In this case, it's probably `<Tab>`.
       end
     end, { "i", "s" }),
 ["<S-Tab>"] = cmp.mapping(function()
@@ -1064,7 +1091,7 @@ mapping = {
     end, { "i", "s" }),
 -- ... Your other mappings ...
 
-}
+},
 -- ... Your other configuration ...
 sources = {
       -- For vsnip user.
@@ -1077,7 +1104,7 @@ sources = {
     { name = 'buffer', keyword_length = 4 },
     { name = 'omni' , keyword_length = 4},
        -- { name = 'spell' }, 
-    { name = 'treesitter', keyword_length = 4  }
+    { name = 'treesitter', keyword_length = 4  },
     { name = 'tags' , keyword_length = 4 }, 
     { name = 'nvim_lsp', keyword_length = 4 },
 --{ name = 'latex_symbols' },
@@ -1090,6 +1117,7 @@ EOF
 "" LSP mappings 
 noremap <leader>ca  :lua vim.lsp.buf.code_action()<CR>
 noremap <leader>la  :lua vim.lsp.buf.code_action()<CR>
+
 
 lua <<EOF
 require('nvim_comment').setup(
@@ -1105,7 +1133,7 @@ require('nvim_comment').setup(
   -- Visual/Operator mapping left hand side
   operator_mapping = "<leader>c",
   -- Hook function to call before commenting takes place
-  --hok = nil 
+  --hook = nil 
 }
 )
 EOF
@@ -1117,7 +1145,7 @@ true_zen.setup({
 			laststatus = 0,
 			ruler = false,
 			showmode = false,
-      		showcmd = false,
+			showcmd = false,
 			cmdheight = 1,
 		},
 		top = {
@@ -1125,7 +1153,7 @@ true_zen.setup({
 		},
 		left = {
 			number = false,
-      		relativenumber = false,
+			relativenumber = false,
 			signcolumn = "no",
 		},
 	},
@@ -1137,7 +1165,7 @@ true_zen.setup({
 			bottom_padding = 0,
 			ideal_writing_area_width = {60},
 			auto_padding = true,
-      		keep_default_fold_fillchars = true,
+			keep_default_fold_fillchars = true,
 			custom_bg = {"none", ""},
 			bg_configuration = true,
 			quit = "untoggle",
@@ -1148,7 +1176,7 @@ true_zen.setup({
 				ColorColumn = true,
 				VertSplit = true,
 				StatusLine = true,
-      			StatusLineNC = true,
+				StatusLineNC = true,
 				SignColumn = true,
 			},
 		},
@@ -1161,7 +1189,7 @@ true_zen.setup({
 		vim_gitgutter = false,
 		galaxyline = false,
 		tmux = false,
-      	gitsigns = false,
+		gitsigns = false,
 		nvim_bufferline = false,
 		limelight = false,
 		twilight = false,
@@ -1173,7 +1201,7 @@ true_zen.setup({
 		lightline = false,
 		feline = false
 	},
-      misc = {
+	misc = {
 		on_off_commands = false,
 		ui_elements_commands = false,
 		cursor_by_mode = false,
@@ -1185,20 +1213,22 @@ require('lualine').setup()
 EOF
 lua <<EOF
 require('neoscroll').setup({
-    -- All these keys will be mapped to theircorresponding default scrolling animation
+    -- All these keys will be mapped to their corresponding default scrolling animation
     mappings = {'<C-u>', '<C-d>', '<C-b>', '<C-f>',
                 '<C-y>', '<C-e>', 'zt', 'zz', 'zb'},
     hide_cursor = true,          -- Hide cursor while scrolling
+    stop_eof = true,             -- Stop at <EOF> when scrolling downwards
     use_local_scrolloff = false, -- Use the local scope of scrolloff instead of the global scope
     respect_scrolloff = true,   -- Stop scrolling when the cursor reaches the scrolloff margin of the file
-    cursor_scrolls_alone = true, -- The cursor will kep on scrolling even if the window cannot scroll further
+    cursor_scrolls_alone = true, -- The cursor will keep on scrolling even if the window cannot scroll further
     easing_function = nil,        -- Default easing function
     pre_hook = nil,              -- Function to run before the scrolling animation starts
+    post_hook = nil,              -- Function to run after the scrolling animation ends
 })
 
 EOF
 
-" au TextDeletePost * lua vim.highlight.on_delete {higroup="IncSearch", timeout=150, on_visual=true} ;a;ldfjasl fj slj a;slfjasdfj
+" au TextDeletePost * lua vim.highlight.on_delete {higroup="IncSearch", timeout=150, on_visual=true} ;a;sldfjasl fj slj a;slfjasdfj
 
 "au FileType tex autocmd User SneakLeave set syntax=tex
 "au FileType tex autocmd User SneakEnter set syntax=text
@@ -1210,6 +1240,7 @@ EOF
 " 'tCommen20
 " let g:tcommentMapLeaderOp1=';' 
 " "map <leader>c <Leader>__ 
+"" function! RestoreRegister()
 "   let @" = s:restore_reg
 "   return ''
 " endfunction
@@ -1217,23 +1248,31 @@ EOF
 "     let s:restore_reg = @"
 "     return "p@=RestoreRegister()\<cr>"
 " endfunction
- " NB: this supports "rp that replaces the selection by the contents of @r
+"
+" " NB: this supports "rp that replaces the selection by the contents of @r
 " vnoremap <silent> <expr> p <sid>Repl()
 
 " " Change Color when entering
 " Insert Mode augroup CursorLine
 "    au!
+"  if has("gui_running")
 "  else
+"      au InsertEnter * setlocal cursorline
 "        au InsertLeave * setlocal nocursorline
 "     endif
+"        augroup END
 " function! DelTagOfFile(file)
 "   let fullpath = a:file
+"   let cwd = getcwd()
 "   let tagfilename = cwd . "/tags"
 "   let f = substitute(fullpath, cwd . "/", "", "")
 "   let f = escape(f, './')
 "   let cmd = 'sed -i "/' . f . '/d" "' . tagfilename . '"'
 "   let resp = system(cmd)
+" endfunction
+" function! Break()
 "  let n=130-virtcol('.')
+"  <Esc>ni <Esc><Esc>
 " endfunction
 " function Gitview()
 "    cd /root/web2 ; git add . ; git commit -m -a ; git push origin gh-pages
@@ -1244,6 +1283,7 @@ EOF
 "   \   'converters': [
 "   \     incsearch#config#fuzzy#converter(),
 "   \     incsearch#config#fuzzyspell#converter()
+"   \   ],
 "   \ }), get(a:, 1, {}
 "   ))
 " endfunction
@@ -1253,6 +1293,7 @@ EOF
 " map f <Plug>(incsearch-fuzzyspell-/)
 " map F <Plug>(incsearch-fuzzyspell-?)
 " map gF <Plug>(incsearch-fuzzyspell-stay)
+" map <silent> <leader>g :silent !cd /root/web2<CR>:silent !git add .<CR>:silent !git commit -m -a<CR>:silent !git push origin gh-pages<CR>
 " let g:deoplete#enable_at_startup = 1
 " map <silent> <leader>g :silent call Gitview()
 " map <silent> <leader>g :silent !cd /root/web2 ; git add .<CR>:silent git commit -m -a ; silent !git push origin gh-pages<CR>
@@ -1263,8 +1304,8 @@ EOF
 "
 " hi! link Sneak Normal
 " hi! link SneakScope Normal 
+
  " let g:material_style = 'palenight'
 let g:material_style = 'lighter'
-" et g:material_style = 'oceanic'
+" let g:material_style = 'oceanic'
 set wrap
-
