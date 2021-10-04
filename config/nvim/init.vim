@@ -159,7 +159,7 @@ call plug#end()
 
 "syntax on  
 " filetype plugin indent on
- General Settings  
+General Settings  
 " let g:material_style = 'lighter'
 let g:material_style = 'oceanic'
 set wrap  
