@@ -1117,7 +1117,6 @@ EOF
 noremap <leader>ca  :lua vim.lsp.buf.code_action()<CR>
 noremap <leader>la  :lua vim.lsp.buf.code_action()<CR>
 
-
 lua <<EOF
 require('nvim_comment').setup(
 {
@@ -1132,7 +1131,7 @@ require('nvim_comment').setup(
   -- Visual/Operator mapping left hand side
   operator_mapping = "<leader>c",
   -- Hook function to call before commenting takes place
-  --hook = nil 
+  --hok = nil 
 }
 )
 EOF
@@ -1144,7 +1143,7 @@ true_zen.setup({
 			laststatus = 0,
 			ruler = false,
 			showmode = false,
-			showcmd = false,
+      		showcmd = false,
 			cmdheight = 1,
 		},
 		top = {
@@ -1152,7 +1151,7 @@ true_zen.setup({
 		},
 		left = {
 			number = false,
-			relativenumber = false,
+      		relativenumber = false,
 			signcolumn = "no",
 		},
 	},
@@ -1164,7 +1163,7 @@ true_zen.setup({
 			bottom_padding = 0,
 			ideal_writing_area_width = {60},
 			auto_padding = true,
-			keep_default_fold_fillchars = true,
+      		keep_default_fold_fillchars = true,
 			custom_bg = {"none", ""},
 			bg_configuration = true,
 			quit = "untoggle",
@@ -1175,7 +1174,7 @@ true_zen.setup({
 				ColorColumn = true,
 				VertSplit = true,
 				StatusLine = true,
-				StatusLineNC = true,
+      			StatusLineNC = true,
 				SignColumn = true,
 			},
 		},
@@ -1188,7 +1187,7 @@ true_zen.setup({
 		vim_gitgutter = false,
 		galaxyline = false,
 		tmux = false,
-		gitsigns = false,
+      	gitsigns = false,
 		nvim_bufferline = false,
 		limelight = false,
 		twilight = false,
@@ -1200,7 +1199,7 @@ true_zen.setup({
 		lightline = false,
 		feline = false
 	},
-	misc = {
+      misc = {
 		on_off_commands = false,
 		ui_elements_commands = false,
 		cursor_by_mode = false,
@@ -1212,14 +1211,14 @@ require('lualine').setup()
 EOF
 lua <<EOF
 require('neoscroll').setup({
-    -- All these keys will be mapped to their corresponding default scrolling animation
+    -- All these keys will be mapped to theircorresponding default scrolling animation
     mappings = {'<C-u>', '<C-d>', '<C-b>', '<C-f>',
                 '<C-y>', '<C-e>', 'zt', 'zz', 'zb'},
     hide_cursor = true,          -- Hide cursor while scrolling
     stop_eof = true,             -- Stop at <EOF> when scrolling downwards
     use_local_scrolloff = false, -- Use the local scope of scrolloff instead of the global scope
     respect_scrolloff = true,   -- Stop scrolling when the cursor reaches the scrolloff margin of the file
-    cursor_scrolls_alone = true, -- The cursor will keep on scrolling even if the window cannot scroll further
+    cursor_scrolls_alone = true, -- The cursor will kep on scrolling even if the window cannot scroll further
     easing_function = nil,        -- Default easing function
     pre_hook = nil,              -- Function to run before the scrolling animation starts
     post_hook = nil,              -- Function to run after the scrolling animation ends
@@ -1227,7 +1226,7 @@ require('neoscroll').setup({
 
 EOF
 
-" au TextDeletePost * lua vim.highlight.on_delete {higroup="IncSearch", timeout=150, on_visual=true} ;a;sldfjasl fj slj a;slfjasdfj
+" au TextDeletePost * lua vim.highlight.on_delete {higroup="IncSearch", timeout=150, on_visual=true} ;a;ldfjasl fj slj a;slfjasdfj
 
 "au FileType tex autocmd User SneakLeave set syntax=tex
 "au FileType tex autocmd User SneakEnter set syntax=text
