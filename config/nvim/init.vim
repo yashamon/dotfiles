@@ -1319,8 +1319,8 @@ EOF
 " hi! link SneakScope Normal 
 
  " let g:material_style = 'palenight'  
-map H
-map K
+map H <nop>
+map K <>
 map H <C-u>
 map K <C-d>
 
