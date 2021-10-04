@@ -1265,6 +1265,6 @@ EOF
 let g:material_style = 'lighter'
 " let g:material_style = 'oceanic'
 set wrap 
-map J <C-u>
-map k <C-d>
+map K <C-u>
+map K <C-d>
 
