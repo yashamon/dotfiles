@@ -1236,7 +1236,7 @@ lua << EOF
   -- callback where you can add custom code when the Zen window closes
   on_close = function()
   end,
-}
+;
     
   }
 EOF
