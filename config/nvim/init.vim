@@ -1342,4 +1342,4 @@ EOF
 " hi! link SneakScope Normal 
 
  " let g:material_style = 'palenight'  
-nmap <leader>c gc
+
