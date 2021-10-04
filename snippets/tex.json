@@ -374,6 +374,16 @@
       ],
     "description": "Sub Section"
   },  
+"end": {
+    "prefix": "end",
+    "body": [
+      "\\begin{comment}", 
+      "$1",
+      "\\end{comment}",
+      "$0"
+      ],
+    "description": "comment"
+  },
 
 "comment": {
     "prefix": "com",
