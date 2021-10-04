@@ -318,7 +318,7 @@ au TextYankPost * lua vim.highlight.on_yank {higroup="IncSearch", timeout=150, o
 au TextYankPost * call neoyank#_append() 
 
          "Some functions
-function Light()
+function oceanlight()
 set background=light
 " colorscheme oceanlight 
 colorscheme material 
