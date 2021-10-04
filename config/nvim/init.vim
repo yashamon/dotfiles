@@ -326,7 +326,8 @@ set background=light
    " highlight Normal ctermfg=black
 " highlight  CursorLine cterm=NONE ctermbg=black ctermfg=none
 " hi MatchParen cterm=underline ctermbg=none ctermfg=magenta
-endfunction
+endfunction 
+
 function Pencil()
    set background=light
    colorscheme pencil
