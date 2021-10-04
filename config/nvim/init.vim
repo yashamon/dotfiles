@@ -326,7 +326,8 @@ set background=light
    " highlight Normal ctermfg=black
 " highlight  CursorLine cterm=NONE ctermbg=black ctermfg=none
 " hi MatchParen cterm=underline ctermbg=none ctermfg=magenta
-endfunction  
+endfunction   
+
 function Deepocean()
    set background=dark
    " colorscheme blue-moon
@@ -340,7 +341,7 @@ function Palenight()
    colorscheme material  
    let g:material_style = 'palenight'  
 endfunction
-function Palenight()
+function Lighter()
    set background=light
    " colorscheme blue-moon
    colorscheme material  
