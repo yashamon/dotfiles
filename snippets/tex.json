@@ -377,7 +377,7 @@
 "end": {
     "prefix": "end",
     "body": [
-      "\\begin{comment}", 
+      "\\end{$1}", 
       "$1",
       "\\end{comment}",
       "$0"
