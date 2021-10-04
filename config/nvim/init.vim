@@ -1244,7 +1244,7 @@ EOF
 " endfunction
 " function! Break()
 "  let n=130-virtcol('.')
-  <Esc>ni <Esc><Esc>
+  
 " endfunction
 " function Gitview()
 "    cd /root/web2 ; git add . ; git commit -m -a ; git push origin gh-pages
