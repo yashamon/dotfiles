@@ -286,7 +286,7 @@ let g:github_sidebars = ["qf", "vista_kind", "terminal", "packer"]
 " colorscheme github_dark 
 " set background=dark 
 set background=dark
-" colorscheme blue-moon
+ colorscheme blue-moon
 colorscheme material  
 let g:material_style = 'palenight'  
 " let g:material_style = 'lighter'
@@ -799,7 +799,7 @@ EOF
 lua <<EOF
 require'nvim-treesitter.configs'.setup { 
     --
-    --highlight = { enable = true },
+    highlight = { enable = true },
     incremental_selection = { enable = true },
     textobjects = { enable = true },
     indent = { enable = true },
