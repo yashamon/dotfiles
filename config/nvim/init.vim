@@ -501,11 +501,11 @@ map j gj
 map k gk
 noremap <Space> .
 vnoremap <Space> t <cr>
-vnoremap <leader>r <C-r>
-map <S-k> <C-u> 
-map <S-j> <C-d> 
+Kmap <leader>r <C-r>
+map H <C-u>
+map K <C-d>
 map <C-j> <C-e>
-map <C-k>
+map <C-k> <C-y>
 nnoremap <leader>j J
 nnoremap <leader>k K
 map ' "
@@ -516,7 +516,7 @@ nnoremap ` ~
 nnoremap . `
 noremap <m-1> <C-o>
 noremap <m-2> <C-i>
-
+C-k
 
 noremap <D-d> <C-d>
 map ;s <Esc>:w<CR>
