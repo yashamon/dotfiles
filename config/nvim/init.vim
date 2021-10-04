@@ -331,7 +331,7 @@ function Deepocean()
    set background=dark
    " colorscheme blue-moon
    colorscheme material  
-   let g:material_style = 'palenight'  
+   let g:material_style = 'deep ocean'  
 endfunction
 
 function Palenight()
