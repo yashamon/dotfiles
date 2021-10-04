@@ -154,14 +154,8 @@ Plug 'NLKNguyen/papercolor-theme'
 call plug#end() 
 
 
+"General Settings  
 
-
-
-"syntax on  
-" filetype plugin indent on
-General Settings  
-" let g:material_style = 'lighter'
-let g:material_style = 'oceanic'
 set wrap  
 
 set pb=30 
@@ -294,7 +288,9 @@ let g:github_sidebars = ["qf", "vista_kind", "terminal", "packer"]
 set background=dark
 " colorscheme blue-moon
 colorscheme material  
-let g:material_style = 'oceanic' 
+let g:material_style = 'pale-night'  
+" let g:material_style = 'lighter'
+
 set background=light
 " highlight Normal ctermbg=none
 hi clear SpellBad
