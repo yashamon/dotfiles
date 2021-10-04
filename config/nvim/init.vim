@@ -327,7 +327,7 @@ set background=light
 " highlight  CursorLine cterm=NONE ctermbg=black ctermfg=none
 " hi MatchParen cterm=underline ctermbg=none ctermfg=magenta
 endfunction  
-function Deepocean(Deep ocean)
+function Deepocean()
    set background=dark
    " colorscheme blue-moon
    colorscheme material  
