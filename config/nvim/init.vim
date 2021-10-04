@@ -1,5 +1,5 @@
-call plug#begin('~/.vim/plugged')               
-Plug 'folke/zen-mode.nvim'  
+call plug#begin('~/.vim/plugged')                
+Plug 'folke/zen-mode.nvim'             
 Plug 'nvim-lua/plenary.nvim'       
 Plug 'nvim-telescope/telescope.nvim'
 Plug 'hoob3rt/lualine.nvim'
@@ -1097,7 +1097,7 @@ sources = {
        -- { name = 'spell' }, 
     { name = 'treesitter', keyword_length = 4  },
     { name = 'tags' , keyword_length = 4 }, 
-    { name = 'nvim_lsp', keyword_length = 4 },
+    { name = 'nvim_lsp', keyword_length = 4 },      
 --{ name = 'latex_symbols' },
 } 
 --{ completion.keyword_length = 3 }
