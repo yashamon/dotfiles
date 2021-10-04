@@ -1,4 +1,4 @@
-call plug#begin('~/.vim/plugged')               
+call plug#begin('~/.vim/plugged')                
 Plug 'hoob3rt/lualine.nvim'
 Plug 'karb94/neoscroll.nvim' 
 Plug 'folke/twilight.nvim', { 'branch': 'main' }
@@ -1266,5 +1266,5 @@ let g:material_style = 'lighter'
 " let g:material_style = 'oceanic'
 set wrap 
 map K <C-u>
-map K <C-d>
+map J <C-d>
 
