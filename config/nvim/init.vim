@@ -1,5 +1,5 @@
 call plug#begin('~/.vim/plugged')               
-Plug ' 'folke/zen-mode.nvim' 
+Plug 'folke/zen-mode.nvim' 
 Plug 'hoob3rt/lualine.nvim'
 Plug 'karb94/neoscroll.nvim' 
 Plug 'folke/twilight.nvim', { 'branch': 'main' }
@@ -1193,7 +1193,7 @@ lua << EOF
   require("zen-mode").setup {
 {
   window = {
-    backdrop = 0.95, -- shade the backdrop of the Zen window. Set to 1 to keep the same as Normal
+    backdrop = 1, -- shade the backdrop of the Zen window. Set to 1 to keep the same as Normal
     -- height and width can be:
     -- * an absolute number of cells when > 1
     -- * a percentage of the width / height of the editor when <= 1
