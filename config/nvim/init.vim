@@ -576,9 +576,9 @@ au FileType tex,text,md noremap map o gj0i<CR><ESC>gki
 " :tnoremap <S-j> <C-\><C-n><C-w>j
 " :tnoremap <S-k> <C-\><C-n><C-w>k
 " :tnoremap <S-l> <C-\><C-n><C-w>l
-tnoremap <Left> :tbnext<CR>
-tnoremap <Right> :tbprevious<CR>
-tnoremap <Leader>e <C-\><C-n> 
+" tnoremap <Left> :tbnext<CR>
+" tnoremap <Right> :tbprevious<CR>
+" tnoremap <Leader>e <C-\><C-n> 
 " imap <Backspace> \
 
 "  Sneak
