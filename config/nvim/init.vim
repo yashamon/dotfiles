@@ -1,4 +1,13 @@
-call plug#begin('~/.vim/plugged')                
+call plug#begin('~/.vim/plugged')               
+Plug 'Plug 'folke/zen-mode.nvim'
+
+lua << EOF
+  require("zen-mode").setup {
+    -- your configuration comes here
+    -- or leave it empty to use the default settings
+    -- refer to the configuration section below
+  }
+EOF
 Plug 'hoob3rt/lualine.nvim'
 Plug 'karb94/neoscroll.nvim' 
 Plug 'folke/twilight.nvim', { 'branch': 'main' }
