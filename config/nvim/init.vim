@@ -159,9 +159,9 @@ call plug#end()
 
 "syntax on  
 " filetype plugin indent on
-"  General Settings  
-let g:material_style = 'lighter'
-" let g:material_style = 'oceanic'
+ General Settings  
+" let g:material_style = 'lighter'
+let g:material_style = 'oceanic'
 set wrap  
 
 set pb=30 
@@ -291,7 +291,7 @@ let g:github_sidebars = ["qf", "vista_kind", "terminal", "packer"]
 " Load the colorscheme
 " colorscheme github_dark 
 " set background=dark 
-set background=light
+set background=dark
 " colorscheme blue-moon
 colorscheme material  
 let g:material_style = 'lighter' 
