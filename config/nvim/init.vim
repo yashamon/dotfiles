@@ -1268,7 +1268,8 @@ lua << EOF
   on_close = function()
   end,
 }
-EOF
+EOF 
+
 
 
 "au FileType tex autocmd User SneakLeave set syntax=tex
