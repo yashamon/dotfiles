@@ -439,9 +439,9 @@ inoremap <m-s> <esc>:%s///gc<left><left><left><left>
 nnoremap <m-s> :%s///gc<left><left><left> 
 vmap <M-.> t.<CR>h
 nmap <M-.> t.<CR>h
-map <up> 1<C-y>
+map <up> 1<C-U>
 imap <up> <nop>
-map <down> 1<C-e>
+map <down> 1<C-D>
 imap <down> <nop>
 noremap <ScrollWheelUp>      <nop>
 noremap <S-ScrollWheelUp>    <nop>
@@ -805,7 +805,7 @@ EOF
 lua <<EOF
 require('neoscroll').setup({
     -- All these keys will be mapped to their corresponding default scrolling animation
-    mappings = {'<C-u>', '<C-d>', '<C-b>', '<C-f>',
+    --mappings = {'<C-u>', '<C-d>', '<C-b>', '<C-f>',
                 '<C-y>', '<C-e>', 'zt', 'zz', 'zb'},
     hide_cursor = true,          -- Hide cursor while scrolling
     stop_eof = true,             -- Stop at <EOF> when scrolling downwards
