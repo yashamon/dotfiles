@@ -1,5 +1,6 @@
 call plug#begin('~/.vim/plugged') 
-Plug 'shaunsingh/moonlight.nvim'
+Plug 'shaunsingh/moonlight.nvim', { 'branch': 'main' }
+
 Plug 'folke/zen-mode.nvim'
 Plug 'nvim-lua/plenary.nvim'
 Plug 'nvim-telescope/telescope.nvim'
