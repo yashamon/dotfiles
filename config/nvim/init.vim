@@ -1295,9 +1295,9 @@ require('telescope').setup{
 EOF
 
 
-set background=dark " or light if you want light mode
+set background=light " or light if you want light mode
 colorscheme codeschool
-
+let g:codeschool_contrast_light = "soft"
 " lua <<EOF
 " local saga = require 'lspsaga'
 " 
