@@ -1,7 +1,6 @@
 call plug#begin('~/.vim/plugged') 
 Plug 'folke/zen-mode.nvim', { 'branch': 'main' } 
 Plug 'AckslD/nvim-neoclip.lua', { 'branch': 'main' } 
-
 Plug 'nvim-lua/plenary.nvim'
 Plug 'nvim-telescope/telescope.nvim'
 Plug 'hoob3rt/lualine.nvim',  
@@ -1283,9 +1282,7 @@ require('telescope').setup{
 }
 EOF
 lua <<EOF
-use {
-  "AckslD/nvim-neoclip.lua",
-  config = function()
+
     require('neoclip').setup({
       history = 1000,
       enable_persistant_history = false,
