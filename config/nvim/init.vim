@@ -63,7 +63,9 @@ Plug 'nvim-lua/diagnostic-nvim'
 " Plug 'neovim/node-host'
 Plug 'projekt0n/github-nvim-theme',  { 'branch': 'main' }
 Plug 'rktjmp/lush.nvim', { 'branch': 'main' } 
-
+Plug 'rakr/vim-one' 
+Plug 'shaunsingh/moonlight.nvim' 
+Plug 'adisen99/codeschool.nvim'
 " Plug 'brennier/quicktex'
 " Plug 'ellisonleao/gruvbox.nvim',  {'branch': 'main' }
 " Plug 'cyansprite/Extract'
