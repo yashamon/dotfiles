@@ -1293,7 +1293,7 @@ require('telescope').setup{
   }
 }
 EOF 
-
+eof
 
 " lua <<EOF
 " local saga = require 'lspsaga'
