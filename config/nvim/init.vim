@@ -519,7 +519,7 @@ inoremap .<Space> .<CR><Esc><leader>j
     " xmap T <Plug>Sneak_S
    " omap t <Plug>Sneak_s
     " omap T <Plug>Sneak_S
-noremap # /\$<CR>v?\$<CR> 
+noremap # /\$<CR>v?\$h<CR> 
 noremap $ /\$<CR>hv?\$<CR>l
 noremap @ /}<CR>v?{<CR>
 map j gj
@@ -529,8 +529,8 @@ vnoremap <Space> t <cr>
 noremap <leader>r <C-r>
 map K <C-u>
 map J <C-d>
-map <C-j> gjgjzz
-map <C-k> gkgkzz
+map <C-j> <C-e>jj
+map <C-k> <C-y>kk
 nnoremap <leader>j J
 nnoremap <leader>k K
 map ' "
