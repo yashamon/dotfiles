@@ -424,7 +424,7 @@ set termencoding=utf-8
 set fileencoding=utf-8
 set fileencodings=ucs-bom,utf-8,big5,gb2312,latin1
 
-
+"maps remaps mappings
 
 noremap q <nop> 
 map <leader>q q
@@ -529,8 +529,8 @@ vnoremap <Space> t <cr>
 noremap <leader>r <C-r>
 map K <C-u>
 map J <C-d>
-map <C-j> <C-e>jj
-map <C-k> <C-y>kk
+map <C-j> gjgjzz
+map <C-k> gkgkzz
 nnoremap <leader>j J
 nnoremap <leader>k K
 map ' "
