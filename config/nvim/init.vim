@@ -153,7 +153,6 @@ call plug#end()
 "General Settings  
 
 set wrap  
-
 set pb=30 
 set switchbuf=newtab
 " let g:python3_host_prog='/usr/bin/python3.9'
@@ -212,7 +211,6 @@ set tags+=~/texmf/bibtex/bib/tags
 "set tags+=~/Dropbox/workspace/tags
   " set formatoptions=ant
   " set wrapmargin=1
-" set tw=80
 " set shada="NONE"
 set wrap
 set linebreak
@@ -304,7 +302,9 @@ au FileType tex,text,tex set spell
 au FileType tex,text,tex syntax sync fromstart
 au FileType tex,text,tex silent execute "!echo " . v:servername . " > ~/servername.txt"   
 au FileType tex,text,tex hi SpellBad cterm=undercurl
-au Filetype tex,text,tex vmap q xi<CR><CR><CR><CR><ESC>kkicom<tab><esc>p<A-j>
+au Filetype tex,text,tex vmap q xi<CR><CR><CR><CR><ESC>kkicom<tab><esc>p<A-j> 
+au Filetype tex,text,tex set tw=80
+ xi<CR><CR><CR><CR><ESC>kkicom<tab><esc>p<A-j>
 
 " au FileType tex set background=dark 
 au TextYankPost * lua vim.highlight.on_yank {higroup="IncSearch", timeout=150, on_visual=true} 
