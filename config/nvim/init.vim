@@ -1,6 +1,6 @@
 call plug#begin('~/.vim/plugged')
 Plug 'folke/zen-mode.nvim'
-Plug 'rakr/vim-one'
+Plug 'rakr/vim-one' if()
 Plug 'nvim-lua/plenary.nvim'
 Plug 'nvim-telescope/telescope.nvim'
 Plug 'hoob3rt/lualine.nvim'
@@ -362,7 +362,6 @@ endfunction
 function Dark()
    set background=dark
    colorscheme one  
-   
 endfunction
 
 set expandtab        "replace <TAB> with spaces
