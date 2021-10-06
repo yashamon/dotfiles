@@ -1,5 +1,6 @@
 call plug#begin('~/.vim/plugged') 
-Plug 'folke/zen-mode.nvim'
+Plug 'folke/zen-mode.nvim', { 'branch': 'main' }
+
 Plug 'nvim-lua/plenary.nvim'
 Plug 'nvim-telescope/telescope.nvim'
 Plug 'hoob3rt/lualine.nvim', 
@@ -519,7 +520,7 @@ inoremap .<Space> .<CR><Esc><leader>j
    " omap t <Plug>Sneak_s
     " omap T <Plug>Sneak_S
 noremap # /\$<CR>v?\$<CR> 
-noremap $ /\$<CR>v?\$<CR>
+noremap $ /\$<CR>hv?\$<CR>l
 noremap @ /}<CR>v?{<CR>
 map j gj
 map k gk
@@ -780,7 +781,7 @@ EOF
 lua <<EOF
 require'nvim-treesitter.configs'.setup { 
     --
-    highlight = { enable = true },
+    --highlight = { enable = true },
     incremental_selection = { enable = true },
     textobjects = { enable = true },
     indent = { enable = true },
