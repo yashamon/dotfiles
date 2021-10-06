@@ -495,7 +495,7 @@ map <m-c> <esc>:close<cr>
 map <M-d> <Esc>:bdelete<CR>
 noremap f /
 noremap F ?
-" inoremap .<Esc> .<CR><Esc><leader>j
+inoremap .<Esc> .<CR><Esc><leader>j
 " inoremap .<Space> .<CR><Esc><leader>j
 " noremap S :S 
 "
@@ -545,7 +545,6 @@ noremap <A-d> <C-d>
 noremap <M-d> <C-d>
 noremap <D-u> <C-u>
 noremap <A-u> <C-u>
-map <Leader>tt :term CR; etags -R
 " this mapping Enter key to <C-y> to chose the current highlight item 
 " and close the selection list, same as other IDEs.
 
