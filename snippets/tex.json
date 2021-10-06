@@ -173,7 +173,8 @@
       "$0"
     ],
     "description": "Add notation"
-  },
+  }, 
+
  "lemma": {
     "prefix": "lem",
     "body": [
@@ -374,7 +375,6 @@
       ],
     "description": "Sub Section"
   },   
-
 "end": {
     "prefix": "end",
     "body": [
