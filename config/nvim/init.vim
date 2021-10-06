@@ -153,6 +153,7 @@ call plug#end()
 "General Settings  
 
 set wrap  
+
 set pb=30 
 set switchbuf=newtab
 " let g:python3_host_prog='/usr/bin/python3.9'
@@ -211,6 +212,7 @@ set tags+=~/texmf/bibtex/bib/tags
 "set tags+=~/Dropbox/workspace/tags
   " set formatoptions=ant
   " set wrapmargin=1
+" set tw=80
 " set shada="NONE"
 set wrap
 set linebreak
