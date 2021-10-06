@@ -1,4 +1,5 @@
-call plug#begin('~/.vim/plugged')                 Plug 'folke/zen-mode.nvim'  
+call plug#begin('~/.vim/plugged')                
+Plug 'folke/zen-mode.nvim'  
 Plug 'rakr/vim-one'
 Plug 'nvim-lua/plenary.nvim'       
 Plug 'nvim-telescope/telescope.nvim'
@@ -136,8 +137,6 @@ Plug 'lervag/vimtex'
 Plug 'kyazdani42/blue-moon'  
 Plug 'marko-cerovac/material.nvim', { 'branch': 'main' }
 
-Plug 'altercation/vim-colors-solarized'
-
 Plug 'reedes/vim-colors-pencil'
 
 Plug 'vim-scripts/oceanlight'
@@ -145,10 +144,6 @@ Plug 'vim-scripts/oceanlight'
 Plug 'gosukiwi/vim-atom-dark'
 
 Plug 'dracula/vim'
-
-Plug 'flazz/vim-colorschemes'
-
-Plug 'NLKNguyen/papercolor-theme'
 
 " Unmanaged plugin (manually installed and updated)
 " Plug '~/my-prototype-plugin'
