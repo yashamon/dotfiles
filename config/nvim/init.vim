@@ -1,5 +1,5 @@
-call plug#begin(
-'~/.vim/plugged')
+call plug#begin('~/.vim/plugged') 
+Plug 'shaunsingh/moonlight.nvim'
 Plug 'folke/zen-mode.nvim'
 Plug 'nvim-lua/plenary.nvim'
 Plug 'nvim-telescope/telescope.nvim'
@@ -220,7 +220,7 @@ set linebreak
 " set breakat=" "
 " set list  " list disables linebreak
 set textwidth=0
-set wrapmargin=0
+set wrapmargin=-1
 set hid
 set autochdir
 set guioptions-=r
