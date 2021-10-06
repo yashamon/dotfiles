@@ -1295,9 +1295,8 @@ require('telescope').setup{
 EOF
 
 
-lua <<EOF
-vim.cmd(colorscheme codeschool)
-EOF
+
+colorscheme codeschool
 
 " lua <<EOF
 " local saga = require 'lspsaga'
