@@ -281,12 +281,10 @@ let g:github_sidebars = ["qf", "vista_kind", "terminal", "vimplug"]
 " colorscheme github_dark 
 " set background=dark 
 set background=dark
- colorscheme blue-moon
+ colorscheme one
 " colorscheme material  
 " let g:material_style = 'palenight'  
 " let g:material_style = 'lighter'
-
-set background=light
 " highlight Normal ctermbg=none
 hi clear SpellBad
 hi SpellBad cterm=underline
@@ -316,7 +314,7 @@ au TextYankPost * call neoyank#_append()
 function Light()
 set background=light
 " colorscheme oceanlight 
-colorscheme one 
+colorscheme codeschool 
 " highlight Normal ctermfg=black
 " highlight  CursorLine cterm=NONE ctermbg=black ctermfg=none
 " hi MatchParen cterm=underline ctermbg=none ctermfg=magenta
@@ -469,7 +467,8 @@ vnoremap x "+x
 vnoremap y "+y 
 nnoremap y "+y 
 nnoremap p "+p 
-nnoremap q p
+nnoremap q p 
+nnoremap lead
 " Softwrap 
 nmap D "0dg$
 nmap V vg$
@@ -1295,8 +1294,8 @@ require('telescope').setup{
 EOF
 
 
-set background=light " or light if you want light mode
-colorscheme codeschool
+" set background=light " or light if you want light mode
+" colorscheme codeschool
 let g:codeschool_contrast_light = "soft"
 " lua <<EOF
 " local saga = require 'lspsaga'
