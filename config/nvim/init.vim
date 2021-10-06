@@ -439,9 +439,9 @@ inoremap <m-s> <esc>:%s///gc<left><left><left><left>
 nnoremap <m-s> :%s///gc<left><left><left> 
 vmap <M-.> t.<CR>h
 nmap <M-.> t.<CR>h
-map <up> 1<C-U>
+nnoremap <up> 1<C-U>
 imap <up> <nop>
-map <down> 1<C-e>
+nnoremap <down> 1<C-e>
 imap <down> <nop>
 noremap <ScrollWheelUp>      <nop>
 noremap <S-ScrollWheelUp>    <nop>
