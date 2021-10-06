@@ -1,7 +1,7 @@
-call plug#begin('~/.vim/plugged')                
-Plug 'folke/zen-mode.nvim'  
+call plug#begin('~/.vim/plugged')
+Plug 'folke/zen-mode.nvim'
 Plug 'rakr/vim-one'
-Plug 'nvim-lua/plenary.nvim'       
+Plug 'nvim-lua/plenary.nvim'
 Plug 'nvim-telescope/telescope.nvim'
 Plug 'hoob3rt/lualine.nvim'
 Plug 'karb94/neoscroll.nvim' 
@@ -272,7 +272,6 @@ if has("gui_running")	" GUI color and font settings
 else
 " terminal color settings
 set background=dark
-  " set t_Co=256          " 256 color mode
 " Example config in VimScript
 let g:github_function_style = "italic"
 let g:github_sidebars = ["qf", "vista_kind", "terminal", "packer"]
