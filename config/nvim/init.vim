@@ -1,5 +1,6 @@
 call plug#begin('~/.vim/plugged') 
-Plug 'folke/zen-mode.nvim', { 'branch': 'main' }
+Plug 'folke/zen-mode.nvim', { 'branch': 'main' } 
+Plug'https://github.com/AckslD/nvim-neoclip.lua.git
 Plug 'nvim-lua/plenary.nvim'
 Plug 'nvim-telescope/telescope.nvim'
 Plug 'hoob3rt/lualine.nvim',  
