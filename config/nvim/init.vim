@@ -556,18 +556,7 @@ inoremap <D-]> <C-x><C-]>
 inoremap <C-]> <C-x><C-]> 
 
 
-" text editting mappings remaps maps
 
- " " au FileType tex,text,md noremap <CR> <Esc>a<Space><Esc>80i <Esc><Esc>vg0di
-" <<<<<<< HEAD
- " au FileType tex,text,md inoremap <CR> <Space><Space><Esc>80i <Esc><Esc>vg0di
-" =======
-"
-" "  au FileType tex,text,md inoremap <CR> <Space><Space><Esc>80i <Esc><Esc>vg0di
-"
-" " au FileType tex,text,md inoremap <CR> <Space><Space><Esc>80i <Esc><Esc>vg0di
-"
-" >>>>>>> d28191cda0221ed8f5d2a044c7f97c403c6ed642
 
 au FileType tex,text,md nmap 0 g^
 au FileType tex,text,md noremap 9 g$
