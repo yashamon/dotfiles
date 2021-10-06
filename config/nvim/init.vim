@@ -441,7 +441,7 @@ vmap <M-.> t.<CR>h
 nmap <M-.> t.<CR>h
 nnoremap <up> 1<C-U>
 imap <up> <nop>
-nnoremap <down> 1<C-e>
+nnoremap <down> 1<C-D>
 imap <down> <nop>
 noremap <ScrollWheelUp>      <nop>
 noremap <S-ScrollWheelUp>    <nop>
@@ -529,8 +529,8 @@ vnoremap <Space> t <cr>
 noremap <leader>r <C-r>
 map K <C-u>
 map J <C-d>
-map <C-j> <C-e>
-map <C-k> <C-y>
+map <C-j> <C-e>jj
+map <C-k> <C-y>k
 nnoremap <leader>j J
 nnoremap <leader>k K
 map ' "
