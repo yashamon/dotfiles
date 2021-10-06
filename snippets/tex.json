@@ -178,8 +178,8 @@
     "prefix": "example",
     "body": [
       "\\begin{example}", 
-      "\t\\label{lemma:$1}",
-      "\\end{lemma}",
+      "\t\\label{example:$1}",
+      "\\end{example}",
       "$0"
    ],
     "description": "Add a theorem"
