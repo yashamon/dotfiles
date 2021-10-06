@@ -1,7 +1,6 @@
 call plug#begin('~/.vim/plugged')                 
-Plug 'jim-at-jibba/ariake-vim-colors'
-Plug 'folke/zen-mode.nvim' 
-Plug 'Th3Whit3Wolf/one-nvim', { 'branch': 'main' }
+Plug 'folke/zen-mode.nvim'  
+https://github.com/rakr/vim-one.git
 Plug 'nvim-lua/plenary.nvim'       
 Plug 'nvim-telescope/telescope.nvim'
 Plug 'hoob3rt/lualine.nvim'
