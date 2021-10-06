@@ -1282,8 +1282,7 @@ require('telescope').setup{
 }
 EOF
 lua <<EOF
-
-    require('neoclip').setup({
+require('neoclip').setup({
       history = 1000,
       enable_persistant_history = false,
       db_path = vim.fn.stdpath("data") .. "/databases/neoclip.sqlite3",
@@ -1308,9 +1307,8 @@ lua <<EOF
           custom = {},
         },
       },
-    })
+   }
   end,
-}
 EOF
 
 " set background=light " or light if you want light mode
