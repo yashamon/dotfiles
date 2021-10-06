@@ -1292,7 +1292,7 @@ require('telescope').setup{
     -- please take a look at the readme of the extension you want to configure
   }
 }
-EOF 
+EOF
 lua <<EOF
 vim.o.background = "dark" -- or "light" for light mode
 
