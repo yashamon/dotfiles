@@ -519,7 +519,7 @@ inoremap .<Space> .<CR><Esc><leader>j
     " xmap T <Plug>Sneak_S
    " omap t <Plug>Sneak_s
     " omap T <Plug>Sneak_S 
-    " math maps  {}
+    " math maps  
 noremap # /\$<CR>v?\$<CR>
 noremap $ /\$<CR>hv?\$<CR>l
 noremap @ /}<CR>v?{<CR>
