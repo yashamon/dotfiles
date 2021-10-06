@@ -519,7 +519,7 @@ inoremap .<Space> .<CR><Esc><leader>j
    " omap t <Plug>Sneak_s
     " omap T <Plug>Sneak_S
 noremap # /\$<CR>v?\$<CR> 
-
+noremap $ /\$<CR>v?\$<CR>
 noremap @ /}<CR>v?{<CR>
 map j gj
 map k gk
