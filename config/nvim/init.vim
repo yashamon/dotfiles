@@ -494,7 +494,7 @@ map <m-q> <esc>:wqa<cr>
 map <m-c> <esc>:close<cr>  
 map <M-d> <Esc>:bdelete<CR>
 noremap f /
-noremap F ? .
+noremap F ? 
 inoremap .<Esc> .<CR><Esc><leader>j
 inoremap .<Space> .<CR><Esc><leader>j
 " noremap S :S 
@@ -518,7 +518,8 @@ inoremap .<Space> .<CR><Esc><leader>j
     " xmap T <Plug>Sneak_S
    " omap t <Plug>Sneak_s
     " omap T <Plug>Sneak_S
-noremap # /\$<CR>v?\$<CR>
+noremap # /\$<CR>v?\$<CR> 
+
 noremap @ /}<CR>v?{<CR>
 map j gj
 map k gk
