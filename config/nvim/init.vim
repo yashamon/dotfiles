@@ -62,7 +62,8 @@ Plug 'nvim-lua/diagnostic-nvim'
  Plug 'tpope/vim-surround'
 " Plug 'neovim/node-host'
 Plug 'projekt0n/github-nvim-theme',  { 'branch': 'main' }
-Plug 'rktjmp/lush.nvim', { 'branch': 'main' }
+Plug 'rktjmp/lush.nvim', { 'branch': 'main' } 
+
 " Plug 'brennier/quicktex'
 " Plug 'ellisonleao/gruvbox.nvim',  {'branch': 'main' }
 " Plug 'cyansprite/Extract'
