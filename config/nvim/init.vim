@@ -12,7 +12,7 @@ Plug 'shaunsingh/nord.nvim'
 "Plug 'b3nj5m1n/kommentary'
 " Plug 'simnalamburt/vim-mundo'
 Plug 'neovim/nvim-lspconfig',  { 'branch': 'main' } 
-Plug 'glepnir/lspsaga.nvim'
+" Plug 'glepnir/lspsaga.nvim'
 " If you are using Vim-Plug
 Plug 'hrsh7th/cmp-nvim-lsp', { 'branch': 'main' } 
 Plug 'kdheepak/cmp-latex-symbols', { 'branch': 'main' } 
@@ -281,7 +281,7 @@ let g:github_sidebars = ["qf", "vista_kind", "terminal", "vimplug"]
 " colorscheme github_dark 
 " set background=dark 
 set background=dark
- colorscheme blue-moon
+ colorscheme codeschool
 " colorscheme material  
 " let g:material_style = 'palenight'  
 " let g:material_style = 'lighter'
@@ -1292,53 +1292,55 @@ require('telescope').setup{
     -- please take a look at the readme of the extension you want to configure
   }
 }
-EOF
+EOF 
 
 
-local saga = require 'lspsaga'
-
--- add your config value here
--- default value
--- use_saga_diagnostic_sign = true
--- error_sign = '',
--- warn_sign = '',
--- hint_sign = '',
--- infor_sign = '',
--- dianostic_header_icon = '   ',
--- code_action_icon = ' ',
--- code_action_prompt = {
---   enable = true,
---   sign = true,
---   sign_priority = 20,
---   virtual_text = true,
--- },
--- finder_definition_icon = '  ',
--- finder_reference_icon = '  ',
--- max_preview_lines = 10, -- preview lines of lsp_finder and definition preview
--- finder_action_keys = {
---   open = 'o', vsplit = 's',split = 'i',quit = 'q',scroll_down = '<C-f>', scroll_up = '<C-b>' -- quit can be a table
--- },
--- code_action_keys = {
---   quit = 'q',exec = '<CR>'
--- },
--- rename_action_keys = {
---   quit = '<C-c>',exec = '<CR>'  -- quit can be a table
--- },
--- definition_preview_icon = '  '
--- "single" "double" "round" "plus"
--- border_style = "single"
--- rename_prompt_prefix = '➤',
--- if you don't use nvim-lspconfig you must pass your server name and
--- the related filetypes into this table
--- like server_filetype_map = {metals = {'sbt', 'scala'}}
--- server_filetype_map = {}
-
-saga.init_lsp_saga {
-  your custom option here
-}
-
-or --use default config
-saga.init_lsp_saga()
+" lua <<EOF
+" local saga = require 'lspsaga'
+" 
+" -- add your config value here
+" -- default value
+" -- use_saga_diagnostic_sign = true
+" -- error_sign = '',
+" -- warn_sign = '',
+" -- hint_sign = '',
+" -- infor_sign = '',
+" -- dianostic_header_icon = '   ',
+" -- code_action_icon = ' ',
+" -- code_action_prompt = {
+" --   enable = true,
+" --   sign = true,
+" --   sign_priority = 20,
+" --   virtual_text = true,
+" -- },
+" -- finder_definition_icon = '  ',
+" -- finder_reference_icon = '  ',
+" -- max_preview_lines = 10, -- preview lines of lsp_finder and definition preview
+" -- finder_action_keys = {
+" --   open = 'o', vsplit = 's',split = 'i',quit = 'q',scroll_down = '<C-f>', scroll_up = '<C-b>' -- quit can be a table
+" -- },
+" -- code_action_keys = {
+" --   quit = 'q',exec = '<CR>'
+" -- },
+" -- rename_action_keys = {
+" --   quit = '<C-c>',exec = '<CR>'  -- quit can be a table
+" -- },
+" -- definition_preview_icon = '  '
+" -- "single" "double" "round" "plus"
+" -- border_style = "single"
+" -- rename_prompt_prefix = '➤',
+" -- if you don't use nvim-lspconfig you must pass your server name and
+" -- the related filetypes into this table
+" -- like server_filetype_map = {metals = {'sbt', 'scala'}}
+" -- server_filetype_map = {}
+" 
+" saga.init_lsp_saga {
+"   your custom option here
+" }
+" 
+" or --use default config
+" saga.init_lsp_saga()
+" EOF
 
 "au FileType tex autocmd User SneakLeave set syntax=tex
 "au FileType tex autocmd User SneakEnter set syntax=text
