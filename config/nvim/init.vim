@@ -1,4 +1,5 @@
-call plug#begin('~/.vim/plugged')
+call plug#begin(
+'~/.vim/plugged')
 Plug 'folke/zen-mode.nvim'
 Plug 'nvim-lua/plenary.nvim'
 Plug 'nvim-telescope/telescope.nvim'
