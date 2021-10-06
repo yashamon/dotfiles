@@ -299,10 +299,10 @@ autocmd BufReadPost * if @% !~# '\.git[\/\\]COMMIT_EDITMSG$' && line("'\"") > 1 
 au FileType Makefile set noexpandtab  
 au FileType tex,text, set spelllang=en
 au FileType tex,text,md set spell    
-au FileType tex,text,tex syntax sync fromstart
-au FileType tex,text,tex silent execute "!echo " . v:servername . " > ~/servername.txt"   
-au FileType tex,text,tex hi SpellBad cterm=undercurl
-au Filetype tex,text,tex vmap q xi<CR><CR><CR><CR><ESC>kkicom<tab><esc>p<A-j> 
+au FileType tex,text,md syntax sync fromstart
+au FileType tex,text,md silent execute "!echo " . v:servername . " > ~/servername.txt"   
+au FileType tex,text,md hi SpellBad cterm=undercurl
+au Filetype tex,text,md vmap q xi<CR><CR><CR><CR><ESC>kkicom<tab><esc>p<A-j> 
 au Filetype tex,text,tex set tw=80
 
 " au FileType tex set background=dark 
