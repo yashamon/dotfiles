@@ -177,7 +177,7 @@
 "example": {
     "prefix": "example",
     "body": [
-      "\\begin{lemma}", 
+      "\\begin{example}", 
       "\t\\label{lemma:$1}",
       "\\end{lemma}",
       "$0"
