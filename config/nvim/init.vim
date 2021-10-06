@@ -2,7 +2,7 @@ call plug#begin('~/.vim/plugged')
 Plug 'folke/zen-mode.nvim'
 Plug 'nvim-lua/plenary.nvim'
 Plug 'nvim-telescope/telescope.nvim'
-Plug 'hoob3rt/lualine.nvim'
+Plug 'hoob3rt/lualine.nvim', 
 Plug 'karb94/neoscroll.nvim' 
 Plug 'folke/twilight.nvim', { 'branch': 'main' }
 Plug 'f3fora/cmp-spell'    
@@ -82,7 +82,6 @@ Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'sindrets/diffview.nvim', { 'branch': 'main' } 
 " Plug 'sindrets/diffview.nvim', { 'branch': 'main' } 
 "Plug 'rmagatti/auto-session', { 'branch': 'main' }
-Plug 'kyazdani42/nvim-web-devicons'
 Plug 'justinmk/vim-sneak'
 Plug 'Shougo/neoyank.vim' 
 if has('nvim')
@@ -108,10 +107,8 @@ Plug 'equalsraf/neovim-gui-shim'
 Plug 'sainnhe/gruvbox-material'
 Plug 'vim-pandoc/vim-pandoc'
 Plug 'vim-pandoc/vim-pandoc-syntax' 
-
-Plug 'scrooloose/nerdtree', { 'on': 'NERDTreeFind' }
-
- " Plugin outside ~/.vim/plugged with post-update hook
+" Plug 'scrooloose/nerdtree', { 'on': 'NERDTreeFind' }
+" Plugin outside ~/.vim/plugged with post-update hook
 Plug 'junegunn/fzf', { 'do': './install --all' }
 Plug 'junegunn/fzf.vim'
 "
@@ -130,7 +127,7 @@ Plug 'vim-scripts/AutoTag'
 
 Plug 'vim-scripts/vim-auto-save'
 
-Plug 'vim-pandoc/vim-pandoc'
+" Plug 'vim-pandoc/vim-pandoc'
 
 Plug 'yashamon/vim-snippets'
 
@@ -1125,77 +1122,77 @@ require('nvim_comment').setup(
 )
 EOF
 nmap <leader>c gc
-lua <<EOF
-local true_zen = require("true-zen")
-true_zen.setup({
-	ui = {
-		bottom = {
-			laststatus = 0,
-			ruler = false,
-			showmode = false,
-			showcmd = false,
-			cmdheight = 1,
-		},
-		top = {
-			showtabline = 0,
-		},
-		left = {
-			number = false,
-			relativenumber = false,
-			signcolumn = "no",
-		},
-	},
-	modes = {
-		ataraxis = {
-			-- left_padding = 20,
-			-- right_padding = 20,
-			top_padding = 0,
-			bottom_padding = 0,
-			ideal_writing_area_width = {60},
-			auto_padding = true,
-			keep_default_fold_fillchars = true,
-			custom_bg = {"none", ""},
-			bg_configuration = true,
-			quit = "untoggle",
-			ignore_floating_windows = true,
-			affected_higroups = {
-				NonText = true,
-				FoldColumn = true,
-				ColorColumn = true,
-				VertSplit = true,
-				StatusLine = true,
-				StatusLineNC = true,
-				SignColumn = true,
-			},
-		},
-		focus = {
-			margin_of_error = 5,
-			focus_method = "experimental"
-		},
-	},
-	integrations = {
-		vim_gitgutter = false,
-		galaxyline = false,
-		tmux = false,
-		gitsigns = false,
-		nvim_bufferline = false,
-		limelight = false,
-		twilight = false,
-		vim_airline = false,
-		vim_powerline = false,
-		vim_signify = false,
-		express_line = false,
-		lualine = true,
-		lightline = false,
-		feline = false
-	},
-	misc = {
-		on_off_commands = false,
-		ui_elements_commands = false,
-		cursor_by_mode = false,
-	}
-})
-EOF
+" lua <<EOF
+" local true_zen = require("true-zen")
+" true_zen.setup({
+" 	ui = {
+" 		bottom = {
+" 			laststatus = 0,
+" 			ruler = false,
+" 			showmode = false,
+" 			showcmd = false,
+" 			cmdheight = 1,
+" 		},
+" 		top = {
+" 			showtabline = 0,
+" 		},
+" 		left = {
+" 			number = false,
+" 			relativenumber = false,
+" 			signcolumn = "no",
+" 		},
+" 	},
+" 	modes = {
+" 		ataraxis = {
+" 			-- left_padding = 20,
+" 			-- right_padding = 20,
+" 			top_padding = 0,
+" 			bottom_padding = 0,
+" 			ideal_writing_area_width = {60},
+" 			auto_padding = true,
+" 			keep_default_fold_fillchars = true,
+" 			custom_bg = {"none", ""},
+" 			bg_configuration = true,
+" 			quit = "untoggle",
+" 			ignore_floating_windows = true,
+" 			affected_higroups = {
+" 				NonText = true,
+" 				FoldColumn = true,
+" 				ColorColumn = true,
+" 				VertSplit = true,
+" 				StatusLine = true,
+" 				StatusLineNC = true,
+" 				SignColumn = true,
+" 			},
+" 		},
+" 		focus = {
+" 			margin_of_error = 5,
+" 			focus_method = "experimental"
+" 		},
+" 	},
+" 	integrations = {
+" 		vim_gitgutter = false,
+" 		galaxyline = false,
+" 		tmux = false,
+" 		gitsigns = false,
+" 		nvim_bufferline = false,
+" 		limelight = false,
+" 		twilight = false,
+" 		vim_airline = false,
+" 		vim_powerline = false,
+" 		vim_signify = false,
+" 		express_line = false,
+" 		lualine = true,
+" 		lightline = false,
+" 		feline = false
+" 	},
+" 	misc = {
+" 		on_off_commands = false,
+" 		ui_elements_commands = false,
+" 		cursor_by_mode = false,
+" 	}
+" })
+" EOF
 lua <<EOF
 require('lualine').setup()
 EOF
