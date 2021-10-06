@@ -274,7 +274,7 @@ else
 set background=dark
 " Example config in VimScript
 let g:github_function_style = "italic"
-let g:github_sidebars = ["qf", "vista_kind", "terminal", "packer"]
+let g:github_sidebars = ["qf", "vista_kind", "terminal", "vimplug"]
 
 " Change the "hint" color to the "orange" color, and make the "error" color bright red
 " let g:github_colors = [hint = "orange", error = "#ff0000"]
@@ -317,7 +317,7 @@ au TextYankPost * call neoyank#_append()
 function Light()
 set background=light
 " colorscheme oceanlight 
-colorscheme oceanlight 
+colorscheme one 
 " highlight Normal ctermfg=black
 " highlight  CursorLine cterm=NONE ctermbg=black ctermfg=none
 " hi MatchParen cterm=underline ctermbg=none ctermfg=magenta
@@ -361,8 +361,8 @@ endfunction
 
 function Dark()
    set background=dark
-   colorscheme material  
-   let g:material_style = 'darker'  
+   colorscheme one  
+   
 endfunction
 
 set expandtab        "replace <TAB> with spaces
