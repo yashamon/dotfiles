@@ -6,12 +6,13 @@ Plug 'hoob3rt/lualine.nvim'
 Plug 'karb94/neoscroll.nvim' 
 Plug 'folke/twilight.nvim', { 'branch': 'main' }
 Plug 'f3fora/cmp-spell'    
-Plug 'Pocco81/TrueZen.nvim', { 'branch': 'main' }
+" Plug 'Pocco81/TrueZen.nvim', { 'branch': 'main' }
 Plug 'shaunsingh/nord.nvim'  
 "Plug 'vim-commentary'
 "Plug 'b3nj5m1n/kommentary'
 " Plug 'simnalamburt/vim-mundo'
-Plug 'neovim/nvim-lspconfig',  { 'branch': 'main' }
+Plug 'neovim/nvim-lspconfig',  { 'branch': 'main' } 
+Plug 'glepnir/lspsaga.nvim'
 " If you are using Vim-Plug
 Plug 'hrsh7th/cmp-nvim-lsp', { 'branch': 'main' } 
 Plug 'kdheepak/cmp-latex-symbols', { 'branch': 'main' } 
