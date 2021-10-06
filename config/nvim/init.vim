@@ -457,7 +457,7 @@ noremap <S-ScrollWheelRight> <nop>
 noremap <C-ScrollWheelRight> <nop>
 inoremap \ /
 inoremap / \
-vnoremap p "0dP    noremap
+vnoremap p "0dP    
 noremap D "0D
 nnoremap dd "0dd
 noremap c "0c
