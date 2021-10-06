@@ -303,7 +303,7 @@ au FileType tex,text,md syntax sync fromstart
 au FileType tex,text,md silent execute "!echo " . v:servername . " > ~/servername.txt"   
 au FileType tex,text,md hi SpellBad cterm=undercurl
 au Filetype tex,text,md vmap q xi<CR><CR><CR><CR><ESC>kkicom<tab><esc>p<A-j> 
-au Filetype tex,text,tex set tw=80
+au Filetype tex,text,md set tw=60
 
 " au FileType tex set background=dark 
 au TextYankPost * lua vim.highlight.on_yank {higroup="IncSearch", timeout=150, on_visual=true} 
@@ -556,7 +556,7 @@ inoremap <D-]> <C-x><C-]>
 inoremap <C-]> <C-x><C-]> 
 
 
-" text editting mappings
+" text editting mappings remaps maps
 
  " " au FileType tex,text,md noremap <CR> <Esc>a<Space><Esc>80i <Esc><Esc>vg0di
 " <<<<<<< HEAD
