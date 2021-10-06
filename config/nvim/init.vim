@@ -1,5 +1,5 @@
 call plug#begin('~/.vim/plugged')                 
-
+Plug 'jim-at-jibba/ariake-vim-colors'
 Plug 'folke/zen-mode.nvim' 
 Plug 'Th3Whit3Wolf/one-nvim', { 'branch': 'main' }
 Plug 'nvim-lua/plenary.nvim'       
@@ -172,7 +172,8 @@ set clipboard+=unnamedplus	" yank to the system register (*) by default
 set expandtab        "replace <TAB> with spaces
 set softtabstop=3 
 set shiftwidth=3 
-set termguicolors 
+set termguicolors  
+syntax enable
 set guicursor=n-v-c:block,i-ci-ve:ver25,r-cr:hor20,o:hor50
 		  \,a:blinkwait700-blinkoff400-blinkon250-Cursor/lCursor
 		  \,sm:block-blinkwait175-blinkoff150-blinkon175
