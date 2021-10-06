@@ -457,7 +457,7 @@ noremap <S-ScrollWheelRight> <nop>
 noremap <C-ScrollWheelRight> <nop>
 inoremap \ /
 inoremap / \
-vnoremap p "0dP   
+vnoremap p "0dP    
 noremap D "0D
 nnoremap dd "0dd
 noremap c "0c
@@ -1307,8 +1307,7 @@ require('neoclip').setup({
           custom = {},
         },
       },
-   }
-  end,
+   })
 EOF
 
 " set background=light " or light if you want light mode
