@@ -1263,6 +1263,12 @@ lua << EOF
 }
 EOF
 lua <<EOF
+--Lua:
+require('moonlight').set()
+EOF
+--Lua:
+require('moonlight').set()
+lua <<EOF
 require('telescope').setup{
   defaults = {
     -- Default configuration for telescope goes here:
