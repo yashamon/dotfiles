@@ -165,7 +165,7 @@ set expandtab        "replace <TAB> with spaces
 set softtabstop=3 
 set shiftwidth=3 
 set termguicolors  
-syntax enable
+" syntax enable
 set guicursor=n-v-c:block,i-ci-ve:ver25,r-cr:hor20,o:hor50
 		  \,a:blinkwait700-blinkoff400-blinkon250-Cursor/lCursor
 		  \,sm:block-blinkwait175-blinkoff150-blinkon175
@@ -468,7 +468,7 @@ vnoremap y "+y
 nnoremap y "+y 
 nnoremap p "+p 
 nnoremap q p 
-nnoremap lead
+nnoremap <leader>q q
 " Softwrap 
 nmap D "0dg$
 nmap V vg$
