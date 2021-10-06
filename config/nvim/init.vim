@@ -1298,7 +1298,6 @@ EOF
 
 
 lua <<EOF
-vim.o.background = "dark" -- or "light" for light mode
 vim.cmd(colorscheme codeschool)
 EOF
 
