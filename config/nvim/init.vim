@@ -1,6 +1,5 @@
 call plug#begin('~/.vim/plugged')
 Plug 'folke/zen-mode.nvim'
-Plug 'rakr/vim-one' if()
 Plug 'nvim-lua/plenary.nvim'
 Plug 'nvim-telescope/telescope.nvim'
 Plug 'hoob3rt/lualine.nvim'
