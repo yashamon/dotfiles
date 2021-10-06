@@ -1,6 +1,5 @@
-call plug#begin('~/.vim/plugged')                 
-Plug 'folke/zen-mode.nvim'  
-Plug 'rakr/vim-one.git
+call plug#begin('~/.vim/plugged')                 Plug 'folke/zen-mode.nvim'  
+Plug 'rakr/vim-one'
 Plug 'nvim-lua/plenary.nvim'       
 Plug 'nvim-telescope/telescope.nvim'
 Plug 'hoob3rt/lualine.nvim'
