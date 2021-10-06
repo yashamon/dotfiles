@@ -211,7 +211,6 @@ set tags+=~/texmf/bibtex/bib/tags
 "set tags+=~/Dropbox/workspace/tags
   " set formatoptions=ant
   " set wrapmargin=1
-" set tw=80
 " set shada="NONE"
 set wrap
 set linebreak
