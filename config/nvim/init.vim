@@ -1295,10 +1295,12 @@ require('telescope').setup{
 EOF
 
 lua <<EOF
-vim.o.background = "dark" -- or "light" for light mode
+
 
 -- Load and setup function to choose plugin and language highlights
-eof
+lua <<EOF
+vim.cmd(colorscheme codeschool)
+EOF
 
 " lua <<EOF
 " local saga = require 'lspsaga'
