@@ -1,4 +1,5 @@
-call plug#begin('~/.vim/plugged') 
+call plug#begin('~/.vim/plugged')  
+
 Plug 'folke/zen-mode.nvim', { 'branch': 'main' } 
 Plug 'AckslD/nvim-neoclip.lua', { 'branch': 'main' } 
 Plug 'nvim-lua/plenary.nvim'
