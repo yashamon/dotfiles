@@ -972,7 +972,7 @@
   },
 
 "field R": {
-    "prefix": ["fr"],
+    "prefix": ["fR"],
     "body": [
       "\\mathbb{R} $0"
     ],
