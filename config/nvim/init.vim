@@ -479,8 +479,8 @@ map <Leader>n <Plug>(miniyank-cycle)
 nnoremap <Left> :bnext<CR>
 nnoremap <Right> :bprevious<CR>
 " tnoremap <Esc> <C-\> 
-nnoremap < :tabp<CR>
-nnoremap > :tabn<CR>
+" nnoremap < :tabp<CR>
+" nnoremap > :tabn<CR>
 " nnoremap <leader>n :tabedit %<CR>
 imap <M-j> <C-j>
 map <S-w> /\$<CR>
