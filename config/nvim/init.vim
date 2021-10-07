@@ -46,7 +46,7 @@ Plug 'kevinhwang91/nvim-bqf'
 Plug 'justinhoward/fzf-neoyank' 
 " Plug 'stefanhepp/pplatex'
 " lua require("lsp_config")
-Plug 'hrsh7th/vim-vsnip'
+" Plug 'hrsh7th/vim-vsnip'
 " Plug 'svermeulen/vim-cutlass'
 "Plug 'kristijanhusak/completion-tags'
 Plug 'kyazdani42/nvim-web-devicons' " for file icons
