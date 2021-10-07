@@ -1,12 +1,12 @@
 call plug#begin('~/.vim/plugged')  
-Plug 'reedes/vim-pencil'
+" Plug 'reedes/vim-pencil'
 Plug 'folke/zen-mode.nvim', { 'branch': 'main' } 
-Plug 'AckslD/nvim-neoclip.lua', { 'branch': 'main' } 
+" Plug 'AckslD/nvim-neoclip.lua', { 'branch': 'main' } 
 Plug 'nvim-lua/plenary.nvim'
-Plug 'nvim-telescope/telescope.nvim'
-Plug 'hoob3rt/lualine.nvim',  
+Plug 'nvim-telescope/telescope.nvim', { 'on': 'Telescope' }
+Plug 'hoob3rt/lualine.nvim', { 'on': 'ZenMode' } 
 Plug 'karb94/neoscroll.nvim' 
-Plug 'folke/twilight.nvim', { 'branch': 'main' }
+" Plug 'folke/twilight.nvim', { 'branch': 'main' }
 Plug 'f3fora/cmp-spell'    
 " Plug 'Pocco81/TrueZen.nvim', { 'branch': 'main' }
 Plug 'shaunsingh/nord.nvim'  
@@ -427,7 +427,7 @@ set fileencodings=ucs-bom,utf-8,big5,gb2312,latin1
 
 "maps remaps mappings
 noremap <leader>h :set tw=50<cr> 
-noremap <leader>w :tw=0<cr>
+noremap <leader>w :set tw=0<cr>
 noremap q <nop> 
 map <leader>q q
 nnoremap <leader>sv :source $MYVIMRC<CR>
