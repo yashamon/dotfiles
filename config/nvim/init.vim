@@ -777,9 +777,9 @@ set directory=$HOME/Downloads
 
 
 "LUA
-lua <<EOF
-require'nvim-tree'.setup()
-EOF
+" lua <<EOF
+" require'nvim-tree'.setup()
+" EOF
 lua <<EOF
 require'nvim-treesitter.configs'.setup { 
     --
