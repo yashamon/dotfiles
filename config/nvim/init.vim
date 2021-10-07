@@ -312,7 +312,7 @@ au TextYankPost * call neoyank#_append()
 function Light()
 set background=light
 " colorscheme oceanlight 
-colorscheme codeschool 
+colorscheme one 
 " highlight Normal ctermfg=black
 " highlight  CursorLine cterm=NONE ctermbg=black ctermfg=none
 " hi MatchParen cterm=underline ctermbg=none ctermfg=magenta
