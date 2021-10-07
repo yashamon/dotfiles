@@ -426,7 +426,8 @@ set fileencoding=utf-8
 set fileencodings=ucs-bom,utf-8,big5,gb2312,latin1
 
 "maps remaps mappings
-noremap <leader>w :tw=60
+noremap <leader>h :tw=60<cr> 
+noremap <leader>h :tw=60
 noremap q <nop> 
 map <leader>q q
 nnoremap <leader>sv :source $MYVIMRC<CR>
