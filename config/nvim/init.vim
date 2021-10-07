@@ -79,8 +79,7 @@ Plug 'kevinhwang91/nvim-bqf', { 'branch': 'main' }
 " if you install fzf as system package like `pacman -S fzf` in ArchLinux,
 " please comment next line
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
-" highly recommended
-Plug 'sindrets/diffview.nvim', { 'branch': 'main' } 
+" Plug 'sindrets/diffview.nvim', { 'branch': 'main' } 
 " Plug 'sindrets/diffview.nvim', { 'branch': 'main' } 
 "Plug 'rmagatti/auto-session', { 'branch': 'main' }
 Plug 'justinmk/vim-sneak'
@@ -100,7 +99,7 @@ Plug 'eugen0329/vim-esearch'
 Plug 'Raimondi/vim_search_objects'
 Plug 'terryma/vim-multiple-cursors'
 " " On-demand loading
-Plug 'junegunn/goyo.vim'
+" Plug 'junegunn/goyo.vim'
 " " Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
 Plug 'equalsraf/neovim-gui-shim'
 
@@ -116,8 +115,6 @@ Plug 'junegunn/fzf.vim'
 "
 "  Plug 'ervandew/supertab'
 " Plug 'Shougo/vimproc.vim'
-
-Plug 'easymotion/vim-easymotion'
 
 Plug 'mbbill/undotree', { 'on': 'UndotreeToggle' }
  '}
