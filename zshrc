@@ -10,7 +10,7 @@ export ANDROID_HOME=/root/android-sdk-linux
 export LANG=en_US.UTF-8
 export XDG_CONFIG_HOME=$HOME/.config
 
-export PATH="/usr/bin:/usr/local/bin:/usr/sbin:/sbin:/bin:~/.local/bin:/root/.cabal/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:~/.cabal/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:/home/yashasavelyev/.local/bin:/$HOME/appimage:$HOME/.cargo/bin:/snap/bin:/data/data/com.termux/files/usr/bin/applets:/data/data/com.termux/files/usr/bin:bin:/usr/local/sbin"  
+export PATH="/home/linuxbrew/.linuxbrew/bin:/usr/bin:/usr/local/bin:/usr/sbin:/sbin:/bin:~/.local/bin:/root/.cabal/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:~/.cabal/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:/home/yashasavelyev/.local/bin:/$HOME/appimage:$HOME/.cargo/bin:/snap/bin:/data/data/com.termux/files/usr/bin/applets:/data/data/com.termux/files/usr/bin:bin:/usr/local/sbin"  
 # export MANPATH="/usr/local/man:$MANPATH"
 # You may need to manually set your language environment
 export LANG=en_US.UTF-8
@@ -74,7 +74,7 @@ git submodule foreach git push origin master; git add .; git commit -m -a; git p
 alias push="git add .; git commit -m -a; git push --all origin"
 alias pull="git pull --recurse-submodules; git submodule update --recursive --remote"
 alias pullmaster="git pull --recurse-submodules; git submodule update --recursive --remote; git submodule foreach git checkout master; git submodule foreach git pull --all"
-
+alias check="git checkout" 
 alias pushgh="pandoc index.md > index.html ; git add .; git commit -m -a; git push origin gh-pages"
 alias pandocd="pandoc index.md > index.html"
 
