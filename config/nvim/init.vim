@@ -529,8 +529,8 @@ vnoremap <Space> t <cr>
 noremap <leader>r <C-r>
 map K <C-u>
 map J <C-d>
-map <C-j> <C-e>jj
-map <C-k> <C-y>kk
+" map <C-j> <C-e>jj
+" map <C-k> <C-y>kk
 nnoremap <leader>j J
 nnoremap <leader>k K
 map ' "
