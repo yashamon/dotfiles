@@ -7,7 +7,7 @@ Plug 'nvim-telescope/telescope.nvim', { 'on': 'Telescope' }
 Plug 'hoob3rt/lualine.nvim', { 'on': 'ZenMode' } 
 Plug 'karb94/neoscroll.nvim' 
 " Plug 'folke/twilight.nvim', { 'branch': 'main' }
-Plug 'f3fora/cmp-spell'    
+" Plug 'f3fora/cmp-spell'    
 " Plug 'Pocco81/TrueZen.nvim', { 'branch': 'main' }
 Plug 'shaunsingh/nord.nvim'  
 "Plug 'vim-commentary'
@@ -17,7 +17,7 @@ Plug 'neovim/nvim-lspconfig',  { 'branch': 'main' }
 " Plug 'glepnir/lspsaga.nvim'
 " If you are using Vim-Plug
 Plug 'hrsh7th/cmp-nvim-lsp', { 'branch': 'main' } 
-Plug 'kdheepak/cmp-latex-symbols', { 'branch': 'main' } 
+" Plug 'kdheepak/cmp-latex-symbols', { 'branch': 'main' } 
 Plug 'hrsh7th/cmp-buffer', { 'branch': 'main' }
 Plug 'hrsh7th/nvim-cmp', { 'branch': 'main' }
 Plug 'hrsh7th/cmp-vsnip', { 'branch': 'main' }
@@ -28,7 +28,7 @@ Plug 'ray-x/cmp-treesitter'
 " Plug 'L3MON4D3/LuaSnip'
 " Plug 'saadparwaiz1/cmp_luasnip'
 "Plug 'steelsojka/completion-buffers'
-Plug 'voldikss/vim-floaterm' 
+Plug 'voldikss/vim-floaterm', 
 "Plug 'nvim-treesitter/completion-treesitter'
 "Plug 'vifm/vifm'
 "Plug 'TimUntersberger/neogit' 
