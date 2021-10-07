@@ -3,8 +3,7 @@ call plug#begin('~/.vim/plugged')
 Plug 'folke/zen-mode.nvim', { 'branch': 'main' } 
 " Plug 'AckslD/nvim-neoclip.lua', { 'branch': 'main' } 
 Plug 'nvim-lua/plenary.nvim'
-Plug 'nvim-telescope/telescope.nvim', { 'on': 'Telescope' }
-Plug 'hoob3rt/lualine.nvim', { 'on': 'ZenMode' } 
+Plug 'nvim-telescope/telescope.nvim', Plug 'hoob3rt/lualine.nvim', { 'on': 'ZenMode' } 
 Plug 'karb94/neoscroll.nvim' 
 " Plug 'folke/twilight.nvim', { 'branch': 'main' }
 " Plug 'f3fora/cmp-spell'    
