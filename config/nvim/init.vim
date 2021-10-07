@@ -28,7 +28,7 @@ Plug 'ray-x/cmp-treesitter'
 " Plug 'L3MON4D3/LuaSnip'
 " Plug 'saadparwaiz1/cmp_luasnip'
 "Plug 'steelsojka/completion-buffers'
-Plug 'voldikss/vim-floaterm', 
+Plug 'voldikss/vim-floaterm', { 'on': 'FloatermNew' }
 "Plug 'nvim-treesitter/completion-treesitter'
 "Plug 'vifm/vifm'
 "Plug 'TimUntersberger/neogit' 
@@ -38,19 +38,19 @@ Plug 'cohama/agit.vim'
 Plug 'kabouzeid/nvim-lspinstall', { 'branch': 'main' }
 "Plug 'pope/vim-obsession'
 "Plug 'xolox/vim-easytags'
-Plug 'nvim-lua/plenary.nvim'
+" Plug 'nvim-lua/plenary.nvim'
 Plug 'windwp/nvim-spectre'
 Plug 'xolox/vim-misc'
 Plug 'terrortylor/nvim-comment', { 'branch': 'main' }
 Plug 'kevinhwang91/nvim-bqf'
 Plug 'justinhoward/fzf-neoyank' 
-Plug 'stefanhepp/pplatex'
+" Plug 'stefanhepp/pplatex'
 " lua require("lsp_config")
 Plug 'hrsh7th/vim-vsnip'
-Plug 'svermeulen/vim-cutlass'
+" Plug 'svermeulen/vim-cutlass'
 "Plug 'kristijanhusak/completion-tags'
 Plug 'kyazdani42/nvim-web-devicons' " for file icons
-Plug 'kyazdani42/nvim-tree.lua', 
+" Plug 'kyazdani42/nvim-tree.lua', 
 "Plug 'nvim-lua/completion-nvim'
 Plug 'hrsh7th/vim-vsnip-integ'
 Plug 'neovim/nvim-lspconfig'
