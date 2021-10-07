@@ -635,7 +635,8 @@ noremap L <esc>:call Sentence()<cr>
 
 
 function! ToggleQuickFix()
-    if empty(filter(getwininfo(), 'v:val.quickfix')) 
+    if empty(filter(getwininfo(), 'v:val.quickfix'))
+        ZenMode
         VimtexErrors
     else
         cclose 
