@@ -2,7 +2,7 @@ call plug#begin('~/.vim/plugged')
 " Plug 'reedes/vim-pencil'
 Plug 'folke/zen-mode.nvim', { 'branch': 'main' } 
 " Plug 'AckslD/nvim-neoclip.lua', { 'branch': 'main' } 
-Plug 'nvim-lua/plenary.nvim'
+Plug 'nvim-lua/plenary.nvim' 
 Plug 'nvim-telescope/telescope.nvim', 
 Plug 'hoob3rt/lualine.nvim', 
 Plug 'karb94/neoscroll.nvim' 
@@ -21,7 +21,7 @@ Plug 'hrsh7th/cmp-nvim-lsp', { 'branch': 'main' }
 Plug 'hrsh7th/cmp-buffer', { 'branch': 'main' }
 Plug 'hrsh7th/nvim-cmp', { 'branch': 'main' }
 Plug 'hrsh7th/cmp-vsnip', { 'branch': 'main' }
-Plug 'hrsh7th/vim-vsnip', { 'branch': 'main' } 
+Plug 'hrsh7th/vim-vsnip', { 'branch': 'master' } 
 Plug 'quangnguyen30192/cmp-nvim-tags',  { 'branch': 'main' } 
 Plug 'ray-x/cmp-treesitter'
 " For luasnip user. 
@@ -92,7 +92,7 @@ if has('nvim')
    Plug 'roxma/vim-hug-neovim-rpc'
  endif
 " Plug 'SirVer/ultisnips'  a;sldfkjsfls jfkj
-Plug 'tpope/vim-fugitive'
+" Plug 'tpope/vim-fugitive'
 Plug 'eugen0329/vim-esearch'
 " Plug 'haya14busa/incsearch.vim'
 " Plug 'haya14busa/incsearch-fuzzy.vim'
