@@ -528,7 +528,6 @@ map j gj
 map k gk
 noremap <Space> .
 vnoremap <Space> t <cr>
-noremap <leader>r <C-r>
 map K <C-u>
 map J <C-d>
 " map <C-j> zz
@@ -1439,4 +1438,5 @@ let g:codeschool_contrast_light = "soft"
 " hi! link SneakScope Normal 
 
  " let g:material_style = 'palenight'   
- "
+ noremap <leader>r :e<cr>
+
