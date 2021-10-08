@@ -424,7 +424,7 @@ set fileencoding=utf-8
 set fileencodings=ucs-bom,utf-8,big5,gb2312,latin1
 
 "maps remaps mappings
-noremap <leader>h :set tw=50<cr> 
+noremap <leader>h :set tw=50<cr>  
 noremap <leader>w :set tw=0<cr>
 noremap q <nop> 
 map <leader>q q
@@ -508,7 +508,7 @@ inoremap .<Space> .<CR><Esc><leader>j
 "     execute 'normal! \<Plug>Sneak_s'
 "     syntax on
 " endfunction
- map leadn <Plug>Sneak_;
+ map <leader>n <Plug>Sneak_;
 " map N <Plug>Sneak_,
 " map t <Plug>(smalls-excursion)
 " let g:smalls_auto_jump=1
