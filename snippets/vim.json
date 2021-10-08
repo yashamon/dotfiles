@@ -14,7 +14,7 @@
         "<leader>$0"
        ],
     "description": "leader"
-    }
+    },
 
 "leader": {
     "prefix": "lead",
