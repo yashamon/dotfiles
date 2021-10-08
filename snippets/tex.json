@@ -28,7 +28,7 @@
     "description": "times"
     },  
 "quotes": {
-    "prefix": "text",
+    "prefix": "\"",
     "body": [
         "\\text{$1} $0"
        ],
