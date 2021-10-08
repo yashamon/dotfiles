@@ -30,7 +30,7 @@
   "text": {
     "prefix": "text",
     "body": [
-        "\\textbf{\\emph{$1}} $0"
+        "\{\\emph{$1}} $0"
        ],
     "description": "emphasize"
     }, 
