@@ -974,7 +974,7 @@
 "field R": {
     "prefix": ["fR"],
     "body": [
-      "\\mathbb{R} ^{} $0"
+      "\\mathbb{R} ^{$1} $0"
     ],
     "description": "field R"
   },
