@@ -11,7 +11,7 @@
 "<>": {
     "prefix": "br",
     "body": [
-        "<leader>$0"
+        "<$1>$0"
        ],
     "description": "leader"
     },
