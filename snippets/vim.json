@@ -8,6 +8,13 @@
        ],
     "description": "EOF"
     },  
+"leader": {
+    "prefix": "lead",
+    "body": [
+        "<leader>$0"
+       ],
+    "description": "leader"
+    }
 
 "leader": {
     "prefix": "lead",
