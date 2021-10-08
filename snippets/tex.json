@@ -27,8 +27,8 @@
        ],
     "description": "times"
     }, 
-  "emphasize bold": {
-    "prefix": "embf",
+  "text": {
+    "prefix": "text",
     "body": [
         "\\textbf{\\emph{$1}} $0"
        ],
