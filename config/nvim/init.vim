@@ -424,7 +424,7 @@ set fileencoding=utf-8
 set fileencodings=ucs-bom,utf-8,big5,gb2312,latin1
 
 "maps remaps mappings
-noremap <leader>r :e br
+noremap <leader>r :e<cr>
 noremap <leader>h :set tw=50<cr>  
 noremap <leader>w :set tw=0<cr>
 noremap q <nop> 
