@@ -30,9 +30,9 @@
 "quotes": {
     "prefix": "\"",
     "body": [
-        "``{$1}'' $0"
+        "``$1'' $0"
        ],
-    "description": "text"
+    "description": "quotes"
     }, 
 
   "text": {
