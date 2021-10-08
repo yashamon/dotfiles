@@ -27,6 +27,13 @@
        ],
     "description": "times"
     },  
+"quotes": {
+    "prefix": "text",
+    "body": [
+        "\\text{$1} $0"
+       ],
+    "description": "text"
+    }, 
 
   "text": {
     "prefix": "text",
