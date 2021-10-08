@@ -5,7 +5,7 @@ call plug#end()
 
 
 imap <silent><expr> <Tab> luasnip#expand_or_jumpable() ? '<Plug>luasnip-expand-or-jump' : '<Tab>'  
-imap  <c-u> luasnip#expand_or_jumpable() ? '<Plug>luasnip-expand-or-jump' : '<Tab>' 
+imap  <c-u> '<Plug>luasnip-expand-or-jump' : '<Tab>' 
 
 inoremap <silent> <S-Tab> <cmd>lua require'luasnip'.jump(-1)<Cr>
 
