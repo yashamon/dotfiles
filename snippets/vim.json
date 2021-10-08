@@ -9,7 +9,7 @@
     "description": "EOF"
     },  
 "<>": {
-    "prefix": "lead",
+    "prefix": "br",
     "body": [
         "<leader>$0"
        ],
