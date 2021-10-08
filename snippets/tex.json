@@ -27,7 +27,14 @@
        ],
     "description": "times"
     }, 
-  
+  "emphasize bold": {
+    "prefix": "embf",
+    "body": [
+        "\\textbf{\\emph{$1}} $0"
+       ],
+    "description": "emphasize"
+    }, 
+
 "emphasize bold": {
     "prefix": "embf",
     "body": [
