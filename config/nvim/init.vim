@@ -424,7 +424,7 @@ set fileencoding=utf-8
 set fileencodings=ucs-bom,utf-8,big5,gb2312,latin1
 
 "maps remaps mappings
-noremap <leader>r :e<cr>
+noremap cr<leader>r :e<cr>
 noremap <leader>h :set tw=50<cr>
 noremap <leader>w :set tw=0<cr>
 noremap q <nop>
@@ -753,7 +753,7 @@ autocmd BufWritePost * silent execute 'AsyncRun if git rev-parse --is-inside-wor
     "
     "
     " UndoTree {
-noremap <Leader>u TrueZen<cr>:UndotreeToggle<CR>:TrueZen<>
+noremap <Leader>u TrueZen<cr>:UndotreeToggle<CR>:TrueZen<cr>
         " If undotree is opened, it is likely one wants to interact with it.
         let g:undotree_SetFocusWhenToggle=1
         noremap <D-z> u
