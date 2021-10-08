@@ -4,7 +4,7 @@ call plug#begin('~/.vim/plugged')
 call plug#end() 
 
 
-imap <silent><expr> <Tab> luasnip#expand_or_jumpable() ? '<Plug>luasnip-expand-or-jump' : '<Tab>' 
+imap <silent><expr> <Tab> luasnip#expand_or_jumpable() ? '<Plug>luasnip-expand-or-jump' : '<Tab>'  if()
 inoremap <silent> <S-Tab> <cmd>lua require'luasnip'.jump(-1)<Cr>
 
 snoremap <silent> <Tab> <cmd>lua require('luasnip').jump(1)<Cr>
