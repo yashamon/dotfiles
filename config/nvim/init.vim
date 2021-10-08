@@ -611,6 +611,7 @@ noremap S <Esc>:BLines<CR>
 " Line search mapping
 noremap <m-l> viwhy<esc>:bdelete<cr>:<c-r>+<cr>:ZenMode<cr>  
 noremap <m-b> <Esc>:Buffers<CR> 
+" noremap F <Esc>:GFiles<CR> 
 map <A-e> :FZF ~<CR>
 
 " vimtex settings
