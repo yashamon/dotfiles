@@ -424,7 +424,7 @@ set fileencoding=utf-8
 set fileencodings=ucs-bom,utf-8,big5,gb2312,latin1
 
 "maps remaps mappings
-noremap cr<leader>r :e<cr>
+noremap <leader>r :e<cr>
 noremap <leader>h :set tw=50<cr>
 noremap <leader>w :set tw=0<cr>
 noremap q <nop>
@@ -1438,4 +1438,5 @@ let g:codeschool_contrast_light = "soft"
 " hi! link Sneak Normal
 " hi! link SneakScope Normal 
 
- " let g:material_style = 'palenight'  
+ " let g:material_style = 'palenight'   
+ "
