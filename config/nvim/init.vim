@@ -508,7 +508,7 @@ inoremap .<Space> .<CR><Esc><leader>j
 "     execute 'normal! \<Plug>Sneak_s'
 "     syntax on
 " endfunction
- map n <Plug>Sneak_;
+ map leadn <Plug>Sneak_;
 " map N <Plug>Sneak_,
 " map t <Plug>(smalls-excursion)
 " let g:smalls_auto_jump=1
