@@ -9,7 +9,7 @@ Plug 'hoob3rt/lualine.nvim',
 Plug 'karb94/neoscroll.nvim' 
 " Plug 'folke/twilight.nvim', { 'branch': 'main' }
 " Plug 'f3fora/cmp-spell'    
-" Plug 'Pocco81/TrueZen.nvim', { 'branch': 'main' }
+Plug 'Pocco81/TrueZen.nvim', { 'branch': 'main' }
 Plug 'shaunsingh/nord.nvim'  
 "Plug 'vim-commentary'
 "Plug 'b3nj5m1n/kommentary'
