@@ -55,15 +55,7 @@ return {
         action=wezterm.action{CloseCurrentPane={confirm=false}}
           }
       },
-    {{
-      --key="^", mods="CTRL|SHIFT|ALT",
-      key="t", mods="ALT,SHIFT",
-      action=wezterm.action{
-        SplitVertical={
-          domain="CurrentPaneDomain"
-        }
-      }
-    },
+    {
       --key="%", mods="CTRL|SHIFT|ALT",
       key="h", mods="ALT,SHIFT",
       action=wezterm.action{
@@ -71,11 +63,10 @@ return {
           domain="CurrentPaneDomain"
         }
       }
-    }, 
-
+    },
     {
       --key="^", mods="CTRL|SHIFT|ALT",
-      key="v", mods="ALT,SHIFT",
+      key="v", mods="ALT-SHIFT",
       action=wezterm.action{
         SplitVertical={
           domain="CurrentPaneDomain"
