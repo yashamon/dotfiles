@@ -34,7 +34,7 @@ keys = {
     {key="V", mods="CTRL",
       action=wezterm.action{EmitEvent="trigger-vim-with-scrollback"}},
   },
-  -- enable_tab_bar = false,
+  enable_tab_bar = false,
   harfbuzz_features = {"zero"},
   scrollback_lines = 100000,
   hide_tab_bar_if_only_one_tab = true,
