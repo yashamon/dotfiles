@@ -1005,13 +1005,14 @@
       "\\mathbb{R} ^{$1} $0"
     ],
     "description": "field R"
-  },
+  }, 
+
 "mathfrak g": {
     "prefix": ["frg"],
     "body": [
       "\\mathfrak g $0"
     ],
-    "description": "mathfrak"
+    "description": "mathfrak g"
   },
 
 "epsilon": {
