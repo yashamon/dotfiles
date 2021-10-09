@@ -71,7 +71,7 @@ keys = {
       }
     },
   },
-  
+  harfbuzz_features = {"zero"},
   scrollback_lines = 100000,
 }
 
