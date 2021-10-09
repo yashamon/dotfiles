@@ -53,8 +53,7 @@ return {
       key="c", mods="ALT-SHIFT",
       action=wezterm.action{
         action=wezterm.action{CloseCurrentPane={confirm=false}}
-          
-        }
+          }
       }
     },
     {
