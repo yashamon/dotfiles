@@ -32,7 +32,34 @@ end)
 return {
   keys = {
     {key="V", mods="CTRL|SHIFT",
-      action=wezterm.action{EmitEvent="trigger-vim-with-scrollback"}}, harfbuzz_features = 
+      action=wezterm.action{EmitEvent="trigger-vim-with-scrollback"}}, 
+{
+      --key="%", mods="CTRL|SHIFT|ALT",
+      key="c", mods="ALT|SHIFT",
+      action=wezterm.action{
+        action=wezterm.action{CloseCurrentPane={confirm=false}}
+          }
+      },
+    {
+      --key="%", mods="CTRL|SHIFT|ALT",
+      key="h", mods="ALT|SHIFT",
+      action=wezterm.action{
+        SplitHorizontal={
+          domain="CurrentPaneDomain"
+        }
+      }
+    },
+    {
+      --key="^", mods="CTRL|SHIFT|ALT",
+      key="v", mods="ALT|SHIFT",
+      action=wezterm.action{
+        SplitVertical={
+          domain="CurrentPaneDomain"
+        }
+      }
+    },
+  },
+
 
  
   },
