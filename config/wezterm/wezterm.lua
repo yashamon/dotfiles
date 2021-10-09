@@ -35,7 +35,6 @@ return {
     {key="V", mods="CTRL",
       action=wezterm.action{EmitEvent="trigger-vim-with-scrollback"}},
   },
-
   hide_tab_bar_if_only_one_tab = true,
   font = wezterm.font("Fira Code"),
   font_size = 20,
@@ -51,7 +50,7 @@ return {
     -- This will create a new split and run your default program inside it
     {
       --key="%", mods="CTRL|SHIFT|ALT",
-      key="d", mods="SUPER",
+      key="d", mods="ALT",
       action=wezterm.action{
         SplitHorizontal={
           domain="CurrentPaneDomain"
