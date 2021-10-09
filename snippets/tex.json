@@ -1007,7 +1007,7 @@
     "description": "field R"
   },
 "mathfrak g": {
-    "prefix": ["e", "\\e"],
+    "prefix": ["frg"],
     "body": [
       "\\epsilon $0"
     ],
