@@ -31,8 +31,8 @@ wezterm.on("trigger-vim-with-scrollback", function(window, pane)
 end)
 return {
   keys = {
-    {key="V", mods="CTRL|SHIFT",
-      action=wezterm.action{EmitEvent="trigger-vim-with-scrollback"}}, 2
+    {key="V", mods="CTRL",
+      action=wezterm.action{EmitEvent="trigger-vim-with-scrollback"}},
   },
   hide_tab_bar_if_only_one_tab = true,
   font = wezterm.font("Fira Code"),
@@ -50,14 +50,14 @@ return {
     --
     {
       --key="%", mods="CTRL|SHIFT|ALT",
-      key="c", mods="ALT|SHIFT",
+      key="c", mods="ALT,SHIFT",
       action=wezterm.action{
         action=wezterm.action{CloseCurrentPane={confirm=false}}
           }
       },
     {
       --key="%", mods="CTRL|SHIFT|ALT",
-      key="h", mods="ALT|SHIFT",
+      key="h", mods="ALT,SHIFT",
       action=wezterm.action{
         SplitHorizontal={
           domain="CurrentPaneDomain"
