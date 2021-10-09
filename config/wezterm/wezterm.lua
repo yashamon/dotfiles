@@ -60,7 +60,7 @@ keys = {
         SplitHorizontal={domain="CurrentPaneDomain"
         }
       }
-    -- }
+    }
     -- {
     --   key="D", mods="ALT",
     --   action=wezterm.action{
