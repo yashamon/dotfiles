@@ -31,7 +31,7 @@ wezterm.on("trigger-vim-with-scrollback", function(window, pane)
 end)
 return {
 keys = {
-    {key="V", mods="CTRL",
+    {key="V", mods="ALT",
       action=wezterm.action{EmitEvent="trigger-vim-with-scrollback"}},
   },
 enable_tab_bar = false,
