@@ -2,7 +2,6 @@ local wezterm = require 'wezterm'
 local io = require 'io';
 local os = require 'os';
 
-
 wezterm.on("trigger-vim-with-scrollback", function(window, pane)
   -- Retrieve the current viewport's text.
   -- Pass an optional number of lines (eg: 2000) to retrieve
@@ -15,7 +14,6 @@ wezterm.on("trigger-vim-with-scrollback", function(window, pane)
   f:write(scrollback);
   f:flush();
   f:close();
-
   -- Open a new window running vim and tell it to open the file
   window:perform_action(wezterm.action{SpawnCommandInNewWindow={
     args={"nvim", name}}
