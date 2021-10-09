@@ -37,8 +37,8 @@ keys = {
   enable_tab_bar = false,
     scrollback_lines = 100000,
   hide_tab_bar_if_only_one_tab = true,
-  font = wezterm.font("Fira Code"), 
-font_size = 20, 
+  font = wezterm.font("Fira Code"),
+font_size = 20,
 harfbuzz_features = {"zero"},
 
   --color_scheme = "Solarized Dark - Patched",
@@ -50,7 +50,7 @@ harfbuzz_features = {"zero"},
   color_scheme = "Dark Matrix",
   exit_behavior = "Close",
   keys = {
-    -- This will create a new split and run your default program inside it 
+    -- This will create a new split and run your default program inside it
     --
       {key="c", mods="SHIFT|ALT",
      action=wezterm.action{CloseCurrentPane={confirm=false}}
