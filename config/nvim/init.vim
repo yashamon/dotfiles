@@ -425,8 +425,8 @@ set fileencodings=ucs-bom,utf-8,big5,gb2312,latin1
 noremap <leader>r :e<cr>
 noremap <leader>h :set tw=50<cr>
 noremap <leader>w :set tw=0<cr> 
-inoremap <A-v> <C-V> 
-
+inoremap <A-v> <C-S-V> 
+inoremap <A-v> <C-V>
 noremap q <nop>
 map <leader>q q
 nnoremap <leader>sv :source $MYVIMRC<CR>
