@@ -2,15 +2,10 @@ local wezterm = require 'wezterm'
 return {
   keys = {
     -- This will create a new split and run your default program inside it
-     return {
-  keys = {
-    -- This will create a new split and run your default program inside it
     {key="%", mods="CTRL|SHIFT|ALT",
       action=wezterm.action{SplitHorizontal={domain="CurrentPaneDomain"}}},
   }
-} }
-}
--- local io = require 'io';
+}-- local io = require 'io';
 -- local os = require 'os';
 -- 
 -- wezterm.on("trigger-vim-with-scrollback", function(window, pane)
