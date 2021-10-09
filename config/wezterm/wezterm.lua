@@ -52,9 +52,9 @@ keys = {
 --
 --     --
  {key="C", mods="ALT",
---      action=wezterm.action{CloseCurrentPane={confirm=false}}
---   }
--- },
+     action=wezterm.action{CloseCurrentPane={confirm=false}}
+  }
+},
 --     {
 --       --key="%", mods="CTRL|SHIFT|ALT",
 --       key="H", mods="SHIFT|ALT",
