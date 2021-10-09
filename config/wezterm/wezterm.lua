@@ -58,7 +58,7 @@ harfbuzz_features = {"zero"},
 -- },
 --     {
 --       --key="%", mods="CTRL|SHIFT|ALT",
---       key="h", mods="SHIFT|ALT",
+--       key="H", mods="SHIFT|ALT",
 --       action=wezterm.action{
 --         SplitHorizontal={
 --           domain="CurrentPaneDomain"
