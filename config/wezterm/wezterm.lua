@@ -48,7 +48,7 @@ return {
   keys = {
     -- This will create a new split and run your default program inside it 
     --
-      {key="c", mods="",
+      {key="c", mods="SHIFT|ALT",
      action=wezterm.action{CloseCurrentPane={confirm=true}}
   }
 },
