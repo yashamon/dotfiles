@@ -2,6 +2,8 @@ local wezterm = require 'wezterm'
 local io = require 'io';
 local os = require 'os';
 
+
+
 wezterm.on("trigger-vim-with-scrollback", function(window, pane)
   -- Retrieve the current viewport's text.
   -- Pass an optional number of lines (eg: 2000) to retrieve
@@ -59,7 +61,6 @@ return {
       }
     },
   }
- },
-  
-}
+ }
+
 
