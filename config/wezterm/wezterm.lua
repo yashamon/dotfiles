@@ -54,6 +54,8 @@ keys = {
  {key="C", mods="ALT",
      action=wezterm.action{CloseCurrentPane={confirm=false}}
   }
+{key="{", mods="SHIFT|ALT", action=wezterm.action{ActivateTabRelative=-1}},
+    {key="}", mods="SHIFT|ALT", action=wezterm.action{ActivateTabRelative=1}},
 },
  keys = {
     
