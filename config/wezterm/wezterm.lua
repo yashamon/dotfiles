@@ -2,7 +2,7 @@ local wezterm = require 'wezterm'
 return {
   keys = {
     -- This will create a new split and run your default program inside it
-    {key="v", mods="CTRL|SHIFT|ALT",
+    {key="v", mods="CTRL|ALT",
       action=wezterm.action{SplitHorizontal={domain="CurrentPaneDomain"}}},
   }
 }
