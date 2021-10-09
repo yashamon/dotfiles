@@ -1009,9 +1009,9 @@
 "mathfrak g": {
     "prefix": ["frg"],
     "body": [
-      "\\epsilon $0"
+      "\\mathfrak g $0"
     ],
-    "description": "epsilon"
+    "description": "mathfrak"
   },
 
 "epsilon": {
