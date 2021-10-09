@@ -60,20 +60,6 @@ return {
     },
   }
  },
-  hide_tab_bar_if_only_one_tab = true,
-  font = wezterm.font("Fira Code"),
-  font_size = 20,
-  --color_scheme = "Solarized Dark - Patched",
-  --color_scheme = "The Hulk",
-  --color_scheme = "JetBrians Dracula",
-  --color_scheme = "Alien Blood",
-  --color_scheme = "Dracula",
-  --color_scheme = "Cobalt Neon",
-  color_scheme = "Dark Matrix",
-  exit_behavior = "Close",
-  -- This will create a new split and run your default program inside it 
-    --
-harfbuzz_features = {"zero"},
-scrollback_lines = 100000,
+  
 }
 
