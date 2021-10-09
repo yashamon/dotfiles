@@ -49,30 +49,30 @@ keys = {
   --color_scheme = "Cobalt Neon",
   -- color_scheme = "Dark Matrix",
   -- exit_behavior = "Close",
-  keys = {
-    -- This will create a new split and run your default program inside it
-    --
-{key="c", mods="SHIFT|ALT",
-     action=wezterm.action{CloseCurrentPane={confirm=false}}
-  }
-},
-    {
-      --key="%", mods="CTRL|SHIFT|ALT",
-      key="h", mods="SHIFT|ALT",
-      action=wezterm.action{
-        SplitHorizontal={
-          domain="CurrentPaneDomain"
-        }
-      }
-    },
-    {
-      --key="^", mods="CTRL|SHIFT|ALT",
-      key="v", mods="SHIFT|ALT",
-      action=wezterm.action{
-        SplitVertical={
-          domain="CurrentPaneDomain"
-        }
-      }
-    },
+--   keys = {
+--     -- This will create a new split and run your default program inside it
+--     --
+-- {key="c", mods="SHIFT|ALT",
+--      action=wezterm.action{CloseCurrentPane={confirm=false}}
+--   }
+-- },
+--     {
+--       --key="%", mods="CTRL|SHIFT|ALT",
+--       key="h", mods="SHIFT|ALT",
+--       action=wezterm.action{
+--         SplitHorizontal={
+--           domain="CurrentPaneDomain"
+--         }
+--       }
+--     },
+--     {
+--       --key="^", mods="CTRL|SHIFT|ALT",
+--       key="v", mods="SHIFT|ALT",
+--       action=wezterm.action{
+--         SplitVertical={
+--           domain="CurrentPaneDomain"
+--         }
+--       }
+--     },
   }
 
