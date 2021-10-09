@@ -45,7 +45,7 @@ harfbuzz_features = {"zero"},
   -- color_scheme = "Dark Matrix",
 exit_behavior = "Close",
 keys = {
-key="t", mods="ALT",
+key="T", mods="ALT",
       action=wezterm.action{EmitEvent="trigger-vim-with-scrollback"},
 
  {key="C", mods="ALT",
