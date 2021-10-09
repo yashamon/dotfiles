@@ -47,8 +47,8 @@ keys = {
   --color_scheme = "Alien Blood",
   --color_scheme = "Dracula",
   --color_scheme = "Cobalt Neon",
-  color_scheme = "Dark Matrix",
-  exit_behavior = "Close",
+  -- color_scheme = "Dark Matrix",
+  -- exit_behavior = "Close",
   keys = {
     -- This will create a new split and run your default program inside it
     --
