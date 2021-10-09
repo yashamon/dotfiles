@@ -164,7 +164,6 @@ set expandtab        "replace <TAB> with spaces
 set softtabstop=3 
 set shiftwidth=3 
 set termguicolors  
-" syntax enable
 set guicursor=n-v-c:block,i-ci-ve:ver25,r-cr:hor20,o:hor50
 		  \,a:blinkwait700-blinkoff400-blinkon250-Cursor/lCursor
 		  \,sm:block-blinkwait175-blinkoff150-blinkon175
@@ -500,7 +499,6 @@ inoremap .<Space> .<CR><Esc><leader>j
 "
 "
 " function! Sneak()
-"     syntax off
 "     hi! link Sneak Normal
 "     hi! link SneakScope Normal
 "     execute 'normal! \<Plug>Sneak_s'
