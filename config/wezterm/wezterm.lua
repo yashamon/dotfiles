@@ -7,8 +7,7 @@ wezterm.on("trigger-vim-with-scrollback", function(window, pane)
   -- Pass an optional number of lines (eg: 2000) to retrieve
   -- that number of lines starting from the bottom of the viewport.
   local scrollback = pane:get_lines_as_text();
-
-  -- Create a temporary file to pass to vim
+-- Create a temporary file to pass to vim
   local name = os.tmpname();
   local f = io.open(name, "w+");
   f:write(scrollback);
