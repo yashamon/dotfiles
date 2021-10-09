@@ -18,13 +18,7 @@ window:perform_action(wezterm.action{SpawnCommandInNewWindow={
     args={"nvim", name}}
   }, pane)
 
-  -- wait "enough" time for vim to read the file before we remove it.
-  -- The window creation and process spawn are asynchronous
-  -- wrt. running this script and are not awaitable, so we just pick
-  -- a number.  We don't strictly need to remove this file, but it
-  -- is nice to avoid cluttering up the temporary file directory
-  -- location.
-  wezterm.sleep_ms(1000);
+    wezterm.sleep_ms(1000);
   os.remove(name);
 end)
 return {
