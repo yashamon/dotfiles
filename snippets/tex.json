@@ -2,7 +2,8 @@
 "G-bundle": {
     "prefix": "Gbun",
     "body": [
-        "$$1$-Bundle $0"
+        "$$1$-Bundle $0" 
+
        ],
     "description": "dots"
     },
@@ -1011,7 +1012,7 @@
     "body": [
       "\\mathfrak $0"
     ],
-    "description": "mathfrak g"
+    "description": "mathfrak general"
   },
 
 "mathfrak g": {
