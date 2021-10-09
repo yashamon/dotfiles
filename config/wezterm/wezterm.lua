@@ -48,16 +48,7 @@ return {
   keys = {
     -- This will create a new split and run your default program inside it 
     --
-    {
-      --key="%", mods="CTRL|SHIFT|ALT",
-      key="c", mods="SHIFT|ALT",
-      action=wezterm.action{
-        SplitHorizontal={
-          domain="CurrentPaneDomain"
-        }
-      }
-    },
-    {key="c", mods="CMD",
+        {key="c", mods="CMD",
      action=wezterm.action{CloseCurrentPane={confirm=true}}
   }
 },
