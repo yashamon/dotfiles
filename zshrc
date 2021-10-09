@@ -5,12 +5,10 @@ if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]
 source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
 fi 
 
-export ZSH=~/.oh-my-zsh
 export ANDROID_HOME=/root/android-sdk-linux
 export LANG=en_US.UTF-8
 export XDG_CONFIG_HOME=$HOME/.config
-
-export PATH="~/.zinit/plugins:/home/linuxbrew/.linuxbrew/bin:/usr/bin:/usr/local/bin:/usr/sbin:/sbin:/bin:~/.local/bin:/root/.cabal/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:~/.cabal/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:~/.local/bin:/$HOME/appimage:$HOME/.cargo/bin:/snap/bin:/data/data/com.termux/files/usr/bin/applets:/data/data/com.termux/files/usr/bin:bin:/usr/local/sbin"  
+export PATH="/home/linuxbrew/.linuxbrew/bin:/usr/local/bin:/usr/sbin:/sbin:/bin:$HOME/.local/bin:/root/.cabal/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:~/.cabal/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:~/.local/bin:/$HOME/appimage:$HOME/.cargo/bin:/snap/bin:/data/data/com.termux/files/usr/bin/applets:/data/data/com.termux/files/usr/bin:bin:/usr/local/sbin:$HOME/.zinit/plugins:/usr/bin"  
 # export MANPATH="/usr/local/man:$MANPATH"
 # You may need to manually set your language environment
 export LANG=en_US.UTF-8
@@ -306,7 +304,7 @@ zinit for \
          zdharma/history-search-multi-word \
     light-mode depth"1" \
                 romkatv/powerlevel10k 
-#zinit light softmoth/zsh-vim-mode 
+zinit light softmoth/zsh-vim-mode 
 zinit light wookayin/fzf-fasd
 zinit ice wait'0'
 zinit ice light b4b4r07/enhancd
@@ -329,11 +327,12 @@ zinit light neovim/neovim
 # zinit light clvv/fasd
 #
  # zinit snippet OMZ::plugins/history-substring-search/history-substring-search.plugin.zsh
-zinit snippet OMZ::plugins/vi-mode/vi-mode.plugin.zsh
+# zinit snippet OMZ::plugins/vi-mode/vi-mode.plugin.zsh
 zinit ice wait'0' lucid atload"unalias d"
-zinit snippet OMZ::plugins/fasd/fasd.plugin.zsh 
-#zinit ice depth=1
-#zinit light jeffreytse/zsh-vi-mode
+zinit snippet OMZ::plugins/fasd/fasd.plugin.zsh  
+zinit ice lucid wait
+zinit snippet OMZP::fzf
+# zinit light jeffreytse/zsh-vi-mode
 
 #
 bindkey -rpM viins '\e'
@@ -399,7 +398,17 @@ local paste_widgets=(
 
 # NB: can atm. only wrap native widgets
 x11-clip-wrap-widgets copy $copy_widgets
-x11-clip-wrap-widgets paste  $paste_widgets
+x11-clip-wrap-widgets paste  $paste_widgets  
+
+MODE_CURSOR_VIINS="#00ff00 blinking bar"
+MODE_CURSOR_REPLACE="$MODE_CURSOR_VIINS #ff0000"
+MODE_CURSOR_VICMD="green block"
+MODE_CURSOR_SEARCH="#ff00ff steady underline"
+MODE_CURSOR_VISUAL="white block"
+MODE_CURSOR_VLINE="$MODE_CURSOR_VISUAL #00ffff"
+
+export PATH="/home/linuxbrew/.linuxbrew/bin:/usr/local/bin:/usr/sbin:/sbin:/bin:$HOME/.local/bin:/root/.cabal/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:~/.cabal/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:~/.local/bin:$HOME/appimage:$HOME/.cargo/bin:/snap/bin:/data/data/com.termux/files/usr/bin/applets:/data/data/com.termux/files/usr/bin:bin:/usr/local/sbin:$HOME/.zinit/plugins:/usr/bin"  
+
 
 # source ~/.zplug/init.zsh
 # # # Make sure to use double quotes

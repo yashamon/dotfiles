@@ -1437,5 +1437,5 @@ let g:codeschool_contrast_light = "soft"
 " hi! link Sneak Normal
 " hi! link SneakScope Normal 
  " let g:material_style = 'palenight'   
- noremap <leader>r :e<cr>
+
 

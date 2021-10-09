@@ -13,7 +13,7 @@
     "body": [
         "<$1>$0"
        ],
-    "description": "bracket"
+    "description": "vim bracket"
     },
 
 "leader": {
