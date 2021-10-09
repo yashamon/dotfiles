@@ -1006,6 +1006,13 @@
     ],
     "description": "field R"
   }, 
+"mathfrak": {
+    "prefix": ["fr"],
+    "body": [
+      "\\mathfrak $0"
+    ],
+    "description": "mathfrak g"
+  },
 
 "mathfrak g": {
     "prefix": ["frg"],
