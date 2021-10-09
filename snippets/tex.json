@@ -217,6 +217,7 @@
     "body": [
       "\\begin{corol}", 
       "\t\\label{corol:$1}", 
+      "$2",
 
       "\\end{corol}",
       "$0"
