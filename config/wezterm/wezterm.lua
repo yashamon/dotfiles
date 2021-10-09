@@ -57,7 +57,7 @@ keys = {
 {key="LeftArrow", mods="SHIFT|ALT", action=wezterm.action{ActivateTabRelative=-1}},
     {key="RightArrow", mods="SHIFT|ALT", action=wezterm.action{ActivateTabRelative=1}},
 },
-{key="d", mods="CTRL-ALT",
+{key="d", mods="CTRL|ALT",
  --      action=wezterm.action{SplitVertical={domain="CurrentPaneDomain"}}},
    -- {
    --    key="D", mods="ALT",
