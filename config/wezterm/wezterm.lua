@@ -57,8 +57,7 @@ return {
         }
       }
     },
-
-    {key="w", mods="CMD",
+    {key="c", mods="CMD",
      action=wezterm.action{CloseCurrentPane={confirm=true}}
   }
 }
