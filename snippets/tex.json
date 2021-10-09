@@ -163,7 +163,8 @@
     "prefix": "prop",
     "body": [
       "\\begin{proposition}", 
-      "\t\\label{prop:$1}",
+      "\t\\label{prop:$1}", 
+
       "\\end{proposition}",
       "$0"
       ],
@@ -230,6 +231,7 @@
     "body": [
       "\\begin{theorem}", 
       "\t\\label{thm:$1}", 
+       "$2",
 
       "\\end{theorem}",
       "$0"
