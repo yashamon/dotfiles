@@ -424,7 +424,8 @@ set fileencodings=ucs-bom,utf-8,big5,gb2312,latin1
 "maps remaps mappings
 noremap <leader>r :e<cr>
 noremap <leader>h :set tw=50<cr>
-noremap <leader>w :set tw=0<cr>
+noremap <leader>w :set tw=0<cr> 
+
 noremap q <nop>
 map <leader>q q
 nnoremap <leader>sv :source $MYVIMRC<CR>
@@ -623,7 +624,6 @@ let g:latex_view_general_viewer = 'zathura'
 let g:vimtex_view_method = "zathura"
 " let g:vimtex_indent_enabled =1
 " let g:vimtex_syntax_enabled=1 
-
 
 function! Sentence() 
   AsyncRun sentence.sh %; nvr sentence_%  
