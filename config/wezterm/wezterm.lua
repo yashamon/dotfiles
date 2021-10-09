@@ -30,7 +30,6 @@ wezterm.on("trigger-vim-with-scrollback", function(window, pane)
   os.remove(name);
 end)
 return {
-keys = {
 enable_tab_bar = false,
 scrollback_lines = 100000,
 hide_tab_bar_if_only_one_tab = true,
