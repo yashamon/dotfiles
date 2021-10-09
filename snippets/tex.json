@@ -205,7 +205,7 @@
     "body": [
       "\\begin{lemma}", 
       "\t\\label{lemma:$1}", 
-      "$2"
+      "$2",
       "\\end{lemma}",
       "$0"
    ],
@@ -216,7 +216,8 @@
     "prefix": "corol",
     "body": [
       "\\begin{corol}", 
-      "\t\\label{corol:$1}",
+      "\t\\label{corol:$1}", 
+
       "\\end{corol}",
       "$0"
     ],
