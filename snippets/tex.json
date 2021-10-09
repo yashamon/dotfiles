@@ -82,7 +82,6 @@
     "body": [
         "\\begin{align}",
         "\t$0",    
-
         "\\end{align}"
 ],
     "description": "Align(ed)"
