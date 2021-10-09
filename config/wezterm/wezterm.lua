@@ -39,14 +39,14 @@ keys = {
       action=wezterm.action{EmitEvent="trigger-vim-with-scrollback"}},
      {
       --key="%", mods="CTRL|SHIFT|ALT",
-      key="c", mods="CTRL|ALT",
+      key="c", mods="CTRL|SHIFT",
       action=wezterm.action{
       action=wezterm.action{CloseCurrentPane={confirm=false}}
           }
       },
     {
       --key="%", mods="CTRL|SHIFT|ALT",
-      key="h", mods="SHIFT|ALT",
+      key="h", mods="CTRL|SHIFT",
       action=wezterm.action{
         SplitHorizontal={
           domain="CurrentPaneDomain"
