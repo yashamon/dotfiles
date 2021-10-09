@@ -205,7 +205,7 @@
     "body": [
       "\\begin{lemma}", 
       "\t\\label{lemma:$1}", 
-      ""
+      "$2"
       "\\end{lemma}",
       "$0"
    ],
