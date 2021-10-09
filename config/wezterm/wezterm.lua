@@ -55,23 +55,23 @@ keys = {
      action=wezterm.action{CloseCurrentPane={confirm=false}}
   }
 },
---     {
---       --key="%", mods="CTRL|SHIFT|ALT",
---       key="H", mods="SHIFT|ALT",
---       action=wezterm.action{
---         SplitHorizontal={
---           domain="CurrentPaneDomain"
---         }
---       }
---     },
---     {
---       --key="^", mods="CTRL|SHIFT|ALT",
---       key="v", mods="SHIFT|ALT",
---       action=wezterm.action{
---         SplitVertical={
---           domain="CurrentPaneDomain"
---         }
---       }
---     },
+    {
+      --key="%", mods="CTRL|SHIFT|ALT",
+      key="H", mods="SHIFT|ALT",
+      action=wezterm.action{
+        SplitHorizontal={
+          domain="CurrentPaneDomain"
+        }
+      }
+    },
+    {
+      --key="^", mods="CTRL|SHIFT|ALT",
+      key="v", mods="SHIFT|ALT",
+      action=wezterm.action{
+        SplitVertical={
+          domain="CurrentPaneDomain"
+        }
+      }
+    },
   }
 
