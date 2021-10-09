@@ -175,8 +175,7 @@
     "body": [
       "\\begin{remark}", 
       "\t\\label{remark:$1}", 
-      "$2",
-
+      "$2", 
       "\\end{remark}",
       "$0"
    ],
