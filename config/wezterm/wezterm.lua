@@ -58,7 +58,7 @@ return {
     },
     {
       --key="^", mods="CTRL|SHIFT|ALT",
-      key="h", mods="ALT-SHIFT",
+      key="v", mods="ALT-SHIFT",
       action=wezterm.action{
         SplitVertical={
           domain="CurrentPaneDomain"
