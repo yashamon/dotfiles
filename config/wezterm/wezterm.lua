@@ -50,7 +50,7 @@ harfbuzz_features = {"zero"},
   -- color_scheme = "Dark Matrix",
   -- exit_behavior = "Close",
 --   keys = {
---     -- This will create a new split and run your default program inside it
+--     
 --     --
 -- {key="C", mods="ALT",
 --      action=wezterm.action{CloseCurrentPane={confirm=false}}
