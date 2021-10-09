@@ -49,7 +49,7 @@ harfbuzz_features = {"zero"},
   -- color_scheme = "Dark Matrix",
   exit_behavior = "Close",
 keys = {
---     
+--
 --     --
 -- {key="C", mods="ALT",
 --      action=wezterm.action{CloseCurrentPane={confirm=false}}
