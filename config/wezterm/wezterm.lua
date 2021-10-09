@@ -54,7 +54,8 @@ keys = {
  {key="C", mods="ALT",
      action=wezterm.action{CloseCurrentPane={confirm=false}}
   }
-},
+}, 
+
 ,   -- {
     --   key="D", mods="ALT",
     --   action=wezterm.action{
