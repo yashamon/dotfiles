@@ -32,7 +32,7 @@ end)
 return {
   keys = {
     {key="V", mods="CTRL|SHIFT",
-      action=wezterm.action{EmitEvent="trigger-vim-with-scrollback"}},
+      action=wezterm.action{EmitEvent="trigger-vim-with-scrollback"}}, harfbuzz_features = 
 
  
   },
