@@ -52,8 +52,8 @@ return {
       --key="%", mods="CTRL|SHIFT|ALT",
       key="c", mods="ALT-SHIFT",
       action=wezterm.action{
-        action=wezterm.action{CloseCurrentPane={confirm=true}}
-          domain="CurrentPaneDomain"
+        action=wezterm.action{CloseCurrentPane={confirm=false}}
+          
         }
       }
     },
