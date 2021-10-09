@@ -71,8 +71,7 @@ return {
   --color_scheme = "Cobalt Neon",
   color_scheme = "Dark Matrix",
   exit_behavior = "Close",
-  
-    -- This will create a new split and run your default program inside it 
+  -- This will create a new split and run your default program inside it 
     --
 harfbuzz_features = {"zero"},
 scrollback_lines = 100000,
