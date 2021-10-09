@@ -57,6 +57,7 @@ return {
         }
       }
     },
+
     {
       --key="%", mods="CTRL|SHIFT|ALT",
       key="h", mods="SHIFT|ALT",
