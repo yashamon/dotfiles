@@ -65,7 +65,7 @@ keys = {
       }
     },
     {
-      key="V", mods="ALT",
+      key="D", mods="ALT",
       action=wezterm.action{
         SplitVertical={
           domain="CurrentPaneDomain"
