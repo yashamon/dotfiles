@@ -35,7 +35,7 @@ keys = {
       action=wezterm.action{EmitEvent="trigger-vim-with-scrollback"}},
   },
 --   enable_tab_bar = false,
---     scrollback_lines = 100000,
+--    scrollback_lines = 100000,
 --   hide_tab_bar_if_only_one_tab = true,
 --   font = wezterm.font("Fira Code"),
 -- font_size = 20,
