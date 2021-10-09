@@ -62,7 +62,7 @@ return {
  },
   hide_tab_bar_if_only_one_tab = true,
   font = wezterm.font("Fira Code"),
-  font_size == 20,
+  font_size = 20,
   --color_scheme = "Solarized Dark - Patched",
   --color_scheme = "The Hulk",
   --color_scheme = "JetBrians Dracula",
@@ -74,7 +74,7 @@ return {
   keys = {
     -- This will create a new split and run your default program inside it 
     --
-      harfbuzz_features = {"zero"},
+harfbuzz_features = {"zero"},
   scrollback_lines = 100000,
 }
 
