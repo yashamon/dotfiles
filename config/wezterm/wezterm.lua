@@ -52,7 +52,8 @@ return {
       --key="%", mods="CTRL|SHIFT|ALT",
       key="c", mods="ALT-SHIFT",
       action=wezterm.action{
-        ={
+        ={{key="w", mods="CMD",
+     action=wezterm.action{CloseCurrentPane={confirm=true}}
           domain="CurrentPaneDomain"
         }
       }
