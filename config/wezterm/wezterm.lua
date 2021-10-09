@@ -55,15 +55,15 @@ keys = {
      action=wezterm.action{CloseCurrentPane={confirm=false}}
   }
 },
-    -- {
-    --   --key="%", mods="CTRL|SHIFT|ALT",
-    --   key="H", mods="ALT",
-    --   action=wezterm.action{
-    --     SplitHorizontal={
-    --       domain="CurrentPaneDomain"
-    --     }
-    --   }
-    -- },
+    {
+      --key="%", mods="CTRL|SHIFT|ALT",
+      key="H", mods="ALT",
+      action=wezterm.action{
+        SplitHorizontal={
+          domain="CurrentPaneDomain"
+        }
+      }
+    },
     -- {
     --   key="D", mods="ALT",
     --   action=wezterm.action{
