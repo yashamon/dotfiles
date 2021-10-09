@@ -17,8 +17,7 @@ wezterm.on("trigger-vim-with-scrollback", function(window, pane)
 window:perform_action(wezterm.action{SpawnCommandInNewWindow={
     args={"nvim", name}}
   }, pane)
-
-    wezterm.sleep_ms(1000);
+wezterm.sleep_ms(1000);
   os.remove(name);
 end)
 return {
