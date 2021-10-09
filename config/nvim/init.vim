@@ -425,6 +425,7 @@ set fileencodings=ucs-bom,utf-8,big5,gb2312,latin1
 noremap <leader>r :e<cr>
 noremap <leader>h :set tw=50<cr>
 noremap <leader>w :set tw=0<cr> 
+noremap <A-v>w :set tw=0<cr> 
 
 noremap q <nop>
 map <leader>q q
