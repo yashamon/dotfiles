@@ -51,7 +51,7 @@ harfbuzz_features = {"zero"},
 keys = {
 --
 --     --
--- {key="C", mods="ALT",
+ {key="C", mods="ALT",
 --      action=wezterm.action{CloseCurrentPane={confirm=false}}
 --   }
 -- },
