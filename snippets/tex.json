@@ -881,7 +881,8 @@
         "prefix": ["bi", "\\bolditalic", "***"],
         "body": "\\textbf{\\textit{$1}}$0",
         "description": "Insert bold italic text."
-    },
+    }, 
+
     "Itemize": {
         "prefix": ["- ", "\\itemize", "itemize"],
         "body": [
