@@ -46,7 +46,8 @@ return {
   color_scheme = "Dark Matrix",
   exit_behavior = "Close",
   keys = {
-    -- This will create a new split and run your default program inside it
+    -- This will create a new split and run your default program inside it 
+    --
     {
       --key="%", mods="CTRL|SHIFT|ALT",
       key="h", mods="ALT-SHIFT",
