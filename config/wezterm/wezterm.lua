@@ -71,8 +71,5 @@ keys = {
       }
     },
   },
-  -- enable_tab_bar = false,
-  harfbuzz_features = {"zero"},
-  scrollback_lines = 100000,
-}
+  }
 
