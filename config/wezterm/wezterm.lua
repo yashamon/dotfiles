@@ -13,9 +13,7 @@ font_size = 20,
 --color_scheme = "Cobalt Neon",
 color_scheme = "Dark Matrix",
 exit_behavior = "Close",
-  -- This will create a new split and run your default program inside it 
-    --
-harfbuzz_features = {"zero"},
+  harfbuzz_features = {"zero"},
 scrollback_lines = 100000,
 
 wezterm.on("trigger-vim-with-scrollback", function(window, pane)
