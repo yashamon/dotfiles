@@ -2,7 +2,6 @@ local wezterm = require 'wezterm'
 local io = require 'io';
 local os = require 'os';
 
-
 wezterm.on("trigger-vim-with-scrollback", function(window, pane)
   -- Retrieve the current viewport's text.
   -- Pass an optional number of lines (eg: 2000) to retrieve
@@ -31,20 +30,36 @@ wezterm.on("trigger-vim-with-scrollback", function(window, pane)
   os.remove(name);
 end)
 return {
-
   keys = {
-    {key="V", mods="CTRL|SHIFT",
+    {key="V", mods="CTRL",
       action=wezterm.action{EmitEvent="trigger-vim-with-scrollback"}},
-     {
-      --key="%", mods="CTRL|SHIFT|ALT",
-      key="c", mods="ALT|SHIFT",
-      action=wezterm.action{
-      action=wezterm.action{CloseCurrentPane={confirm=false}}
-          }
-      },
+  },
+  hide_tab_bar_if_only_one_tab = true,
+  font = wezterm.font("Fira Code"),
+  font_size = 20,
+  --color_scheme = "Solarized Dark - Patched",
+  --color_scheme = "The Hulk",
+  --color_scheme = "JetBrians Dracula",
+  --color_scheme = "Alien Blood",
+  --color_scheme = "Dracula",
+  --color_scheme = "Cobalt Neon",
+  color_scheme = "Dark Matrix",
+  exit_behavior = "Close",
+  keys = {
+    -- This will create a new split and run your default program inside it 
+    --
     {
       --key="%", mods="CTRL|SHIFT|ALT",
-      key="h", mods="ALT|SHIFT",
+      key="c", mods="ALT-SHIFT",
+      action=wezterm.action{
+        SplitHorizontal={
+          domain="CurrentPaneDomain"
+        }
+      }
+    },
+    {
+      --key="%", mods="CTRL|SHIFT|ALT",
+      key="h", mods="ALT-SHIFT",
       action=wezterm.action{
         SplitHorizontal={
           domain="CurrentPaneDomain"
@@ -53,14 +68,15 @@ return {
     },
     {
       --key="^", mods="CTRL|SHIFT|ALT",
-      key="v", mods="ALT|SHIFT",
+      key="v", mods="ALT-SHIFT",
       action=wezterm.action{
         SplitVertical={
           domain="CurrentPaneDomain"
         }
       }
     },
-  }
- }
-
+  },
+  harfbuzz_features = {"zero"},
+  scrollback_lines = 100000,
+}
 
