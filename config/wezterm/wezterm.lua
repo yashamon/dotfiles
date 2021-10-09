@@ -19,7 +19,7 @@ window:perform_action(wezterm.action{SpawnCommandInNewWindow={
   }, pane)
 wezterm.sleep_ms(1000);
   os.remove(name);
-end),
+end)
 return {
 hide_tab_bar_if_only_one_tab = true,
 font = wezterm.font("Fira Code"),
