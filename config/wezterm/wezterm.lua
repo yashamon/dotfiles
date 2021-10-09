@@ -29,6 +29,7 @@ window:perform_action(wezterm.action{SpawnCommandInNewWindow={
 end)
 return {
 
+
   keys = {
     {key="V", mods="CTRL|SHIFT",
       action=wezterm.action{EmitEvent="trigger-vim-with-scrollback"}},
