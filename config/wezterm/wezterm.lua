@@ -55,6 +55,7 @@ keys = {
      action=wezterm.action{CloseCurrentPane={confirm=false}}
   }
 },
+
  -- {key="%", mods="ALT",
  --      action=wezterm.action{SplitVertical={domain="CurrentPaneDomain"}}},
    -- {
