@@ -17,7 +17,7 @@ wezterm.on("trigger-vim-with-scrollback", function(window, pane)
 
   -- Open a new window running vim and tell it to open the file
   window:perform_action(wezterm.action{SpawnCommandInNewWindow={
-    args={"nvim", name}}
+    args={"nvim", nam}}
   }, pane)
 
   -- wait "enough" time for vim to read the file before we remove it.
@@ -45,7 +45,7 @@ harfbuzz_features = {"zero"},
   -- color_scheme = "Dark Matrix",
 exit_behavior = "Close",
 keys = {
-key="e", mods="CTRL",
+key="E", mods="CTRL",
       action=wezterm.action{EmitEvent="trigger-vim-with-scrollback"},
 
  {key="C", mods="ALT",
