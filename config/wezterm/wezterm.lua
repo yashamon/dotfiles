@@ -50,33 +50,7 @@ return {
   keys = {
     -- This will create a new split and run your default program inside it 
     --
-    {
-      --key="%", mods="CTRL|SHIFT|ALT",
-      key="c", mods="ALT|SHIFT",
-      action=wezterm.action{
-        action=wezterm.action{CloseCurrentPane={confirm=false}}
-          }
-      },
-    {
-      --key="%", mods="CTRL|SHIFT|ALT",
-      key="h", mods="ALT|SHIFT",
-      action=wezterm.action{
-        SplitHorizontal={
-          domain="CurrentPaneDomain"
-        }
-      }
-    },
-    {
-      --key="^", mods="CTRL|SHIFT|ALT",
-      key="v", mods="ALT|SHIFT",
-      action=wezterm.action{
-        SplitVertical={
-          domain="CurrentPaneDomain"
-        }
-      }
-    },
-  },
-  harfbuzz_features = {"zero"},
+      harfbuzz_features = {"zero"},
   scrollback_lines = 100000,
 }
 
