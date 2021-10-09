@@ -32,8 +32,8 @@ end)
 return {
   keys = {
     {key="V", mods="CTRL|SHIFT",
-      action=wezterm.action{EmitEvent="trigger-vim-with-scrollback"}}, 
-{
+      action=wezterm.action{EmitEvent="trigger-vim-with-scrollback"}},
+     {
       --key="%", mods="CTRL|SHIFT|ALT",
       key="c", mods="ALT|SHIFT",
       action=wezterm.action{
