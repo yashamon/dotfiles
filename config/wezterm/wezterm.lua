@@ -52,7 +52,7 @@ harfbuzz_features = {"zero"},
 --   keys = {
 --     -- This will create a new split and run your default program inside it
 --     --
--- {key="C", mods="SHIFT|ALT",
+-- {key="C", mods="ALT",
 --      action=wezterm.action{CloseCurrentPane={confirm=false}}
 --   }
 -- },
