@@ -44,6 +44,7 @@ wezterm.on("trigger-vim-with-scrollback", function(window, pane)
   os.remove(name);
 end)
 return {
+
   keys = {
     {key="V", mods="CTRL|SHIFT",
       action=wezterm.action{EmitEvent="trigger-vim-with-scrollback"}},
