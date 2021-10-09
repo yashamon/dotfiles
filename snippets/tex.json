@@ -81,18 +81,8 @@
     "prefix": "ali",
     "body": [
         "\\begin{align}",
-        "\t$0",   
-        :inoremap <silent> <Esc> <Esc>`^
+        "\t$0",    
 
-
-        
- 
-        
-
-        
-
-
-        
         "\\end{align}"
 ],
     "description": "Align(ed)"
