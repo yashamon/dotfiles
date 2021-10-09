@@ -55,7 +55,7 @@ keys = {
      action=wezterm.action{CloseCurrentPane={confirm=false}}
   },
 {key="LEFT", mods="SHIFT|ALT", action=wezterm.action{ActivateTabRelative=-1}},
-    {key="RIGHT_ARROW", mods="SHIFT|ALT", action=wezterm.action{ActivateTabRelative=1}},
+    {key="RIGHT", mods="SHIFT|ALT", action=wezterm.action{ActivateTabRelative=1}},
 },
    -- {key="%", mods="ALT",
  --      action=wezterm.action{SplitVertical={domain="CurrentPaneDomain"}}},
