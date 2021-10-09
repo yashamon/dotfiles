@@ -63,7 +63,8 @@ return {
           domain="CurrentPaneDomain"
         }
       }
-    },
+    }, 
+
     {
       --key="^", mods="CTRL|SHIFT|ALT",
       key="v", mods="ALT,SHIFT",
