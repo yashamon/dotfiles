@@ -32,8 +32,9 @@ end)
 return {
   keys = {
     {key="V", mods="CTRL|SHIFT",
-      action=wezterm.action{EmitEvent="trigger-vim-with-scrollback"}}, 
+      action=wezterm.action{EmitEvent="trigger-vim-with-scrollback"}},
 
+ 
   },
   hide_tab_bar_if_only_one_tab = true,
   font = wezterm.font("Fira Code"),
