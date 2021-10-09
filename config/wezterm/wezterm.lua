@@ -36,38 +36,6 @@ return {
       action=wezterm.action{EmitEvent="trigger-vim-with-scrollback"}},
   },
 
-
-
-  -- Foreground color for the text across the fade
-  local text_fg = "#c0c0c0";
-
-  -- The elements to be formatted
-  local elements = {};
-  -- How many cells have been formatted
-  local num_cells = 0;
-
-  -- Translate a cell into elements
-  function Push(text, is_last)
-    local cell_no = num_cells + 1
-    table.insert(elements, {Foreground={Color=text_fg}})
-    table.insert(elements, {Background={Color=colors[cell_no]}})
-    table.insert(elements, {Text=" "..text.." "})
-    if not is_last then
-      table.insert(elements, {Foreground={Color=colors[cell_no+1]}})
-      table.insert(elements, {Text=SOLID_LEFT_ARROW})
-    end
-    num_cells = num_cells + 1
-  end
-
-  while #cells > 0 do
-    local cell = table.remove(cells, 1)
-    Push(cell, #cells == 0)
-  end
-
-  window:set_right_status(wezterm.format(elements));
-end);
-
-{
   hide_tab_bar_if_only_one_tab = true,
   font = wezterm.font("Fira Code"),
   font_size = 20,
