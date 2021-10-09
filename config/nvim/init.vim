@@ -426,7 +426,6 @@ noremap <leader>r :e<cr>
 noremap <leader>h :set tw=50<cr>
 noremap <leader>w :set tw=0<cr> 
 inoremap <A-v> <C-S-v>
-
 noremap q <nop>
 map <leader>q q
 nnoremap <leader>sv :source $MYVIMRC<CR>
