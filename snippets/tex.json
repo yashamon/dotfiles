@@ -884,7 +884,7 @@
     }, 
 "item": {
         "prefix": [it],
-        "body": "\\textbf{\\textit{$1}}$0",
+        "body": "\\item $0",
         "description": "Insert bold italic text."
     }, 
 
