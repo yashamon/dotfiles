@@ -39,7 +39,7 @@ keys = {
       action=wezterm.action{EmitEvent="trigger-vim-with-scrollback"}},
      {
       --key="%", mods="CTRL|SHIFT|ALT",
-      key="c", mods="SHIFT|ALT",
+      key="c", mods="CTRL|ALT",
       action=wezterm.action{
       action=wezterm.action{CloseCurrentPane={confirm=false}}
           }
