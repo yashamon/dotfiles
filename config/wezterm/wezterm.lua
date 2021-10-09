@@ -58,6 +58,10 @@ return {
       }
     },
 
+    {key="w", mods="CMD",
+     action=wezterm.action{CloseCurrentPane={confirm=true}}
+  }
+}
     {
       --key="%", mods="CTRL|SHIFT|ALT",
       key="h", mods="SHIFT|ALT",
