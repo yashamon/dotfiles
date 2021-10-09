@@ -47,7 +47,9 @@ harfbuzz_features = {"zero"},
 keys = {
 --
 --     --
---
+-- --key="e", mods="CTRL|ALT",
+      action=wezterm.action{EmitEvent="trigger-vim-with-scrollback"}},
+
  {key="C", mods="ALT",
      action=wezterm.action{CloseCurrentPane={confirm=false}}
   },
