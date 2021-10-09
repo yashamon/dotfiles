@@ -54,8 +54,7 @@ return {
       action=wezterm.action{
         action=wezterm.action{CloseCurrentPane={confirm=false}}
           }
-      }
-    
+      },
     {
       --key="%", mods="CTRL|SHIFT|ALT",
       key="h", mods="ALT-SHIFT",
