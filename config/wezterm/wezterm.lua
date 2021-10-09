@@ -56,10 +56,10 @@ keys = {
   }
 },
      {key="H", mods="ALT",
-    --   action=wezterm.action{
-    --     SplitHorizontal={domain="CurrentPaneDomain"
-    --     }
-    --   }
+      action=wezterm.action{
+        SplitHorizontal={domain="CurrentPaneDomain"
+        }
+      }
     -- }
     -- {
     --   key="D", mods="ALT",
