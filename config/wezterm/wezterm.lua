@@ -14,7 +14,7 @@ wezterm.on("trigger-vim-with-scrollback", function(window, pane)
   f:flush();
   f:close();
   -- Open a new window running vim and tell it to open the file
-  window:perform_action(wezterm.action{SpawnCommandInNewWindow={
+window:perform_action(wezterm.action{SpawnCommandInNewWindow={
     args={"nvim", name}}
   }, pane)
 
