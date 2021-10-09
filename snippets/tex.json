@@ -164,8 +164,7 @@
     "body": [
       "\\begin{proposition}", 
       "\t\\label{prop:$1}",  
-
-      "$2",
+"$2",
 
       "\\end{proposition}",
       "$0"
