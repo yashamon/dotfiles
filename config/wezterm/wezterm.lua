@@ -42,7 +42,6 @@ exit_behavior = "Close",
 harfbuzz_features = {"zero"},
 scrollback_lines = 100000,
 
-
   keys = {
     {key="V", mods="CTRL|SHIFT",
       action=wezterm.action{EmitEvent="trigger-vim-with-scrollback"}},
