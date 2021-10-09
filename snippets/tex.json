@@ -1006,6 +1006,13 @@
     ],
     "description": "field R"
   },
+"epsilon": {
+    "prefix": ["e", "\\e"],
+    "body": [
+      "\\epsilon $0"
+    ],
+    "description": "epsilon"
+  },
 
 "epsilon": {
     "prefix": ["e", "\\e"],
