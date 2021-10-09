@@ -174,7 +174,8 @@
     "prefix": "rem",
     "body": [
       "\\begin{remark}", 
-      "\t\\label{remark:$1}",
+      "\t\\label{remark:$1}", 
+
       "\\end{remark}",
       "$0"
    ],
