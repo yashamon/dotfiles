@@ -30,7 +30,7 @@ wezterm.on("trigger-vim-with-scrollback", function(window, pane)
   os.remove(name);
 end)
 return {
-  keys = {
+keys = {
     {key="V", mods="CTRL",
       action=wezterm.action{EmitEvent="trigger-vim-with-scrollback"}},
   },
@@ -71,7 +71,7 @@ return {
       }
     },
   },
-  harfbuzz_features = {"zero"},
+  
   scrollback_lines = 100000,
 }
 
