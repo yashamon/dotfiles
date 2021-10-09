@@ -55,7 +55,7 @@ keys = {
     },
     {
       --key="^", mods="CTRL|SHIFT|ALT",
-      key="v", mods="CTRL|SHIFT",
+      key="v", mods="SHIFT|ALT",
       action=wezterm.action{
         SplitVertical={
           domain="CurrentPaneDomain"
