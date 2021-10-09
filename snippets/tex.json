@@ -882,8 +882,8 @@
         "body": "\\textbf{\\textit{$1}}$0",
         "description": "Insert bold italic text."
     }, 
-"Bold Italic Text": {
-        "prefix": ["bi", "\\bolditalic", "***"],
+"item": {
+        "prefix": [it],
         "body": "\\textbf{\\textit{$1}}$0",
         "description": "Insert bold italic text."
     }, 
