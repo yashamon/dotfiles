@@ -29,7 +29,6 @@ wezterm.on("trigger-vim-with-scrollback", function(window, pane)
   wezterm.sleep_ms(1000);
   os.remove(name);
 end)
-
 return {
   keys = {
     {key="V", mods="CTRL",
