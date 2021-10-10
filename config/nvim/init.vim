@@ -1367,7 +1367,7 @@ let g:codeschool_contrast_light = "soft"
 " map <silent> <leader>g :silent !cd /root/web2 ; git add .<CR>:silent git commit -m -a ; silent !git push origin gh-pages<CR> This is how I use PDFViewer with Neovim and LaTexBox. 
 "Load some useful plugins with vundle 
 "
-"asdf test2
+"asdf 
 " hi! link Sneak Normal
 " hi! link SneakScope Normal  
 
