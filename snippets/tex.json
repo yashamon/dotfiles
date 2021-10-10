@@ -669,7 +669,7 @@
 		"description": "Insert a large summation notation."
     },
     "Inline Summation": {
-        "prefix": ["suminline", "\\suminline"],
+        "prefix": ["sum", "\\suminline"],
         "body": [
             "\\sum_{$1}^{$2}$3"
         ],
