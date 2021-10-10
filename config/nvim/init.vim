@@ -865,7 +865,7 @@ let g:vsnip_snippet_dir = '$HOME/dotfiles/snippets'
 " smap <expr> <m-space>   vsnip#available(1)  ? '<Plug>(vsnip-expand-or-jump)' : '<C-l>'
 
 " Jump forward or backward
-  imap <expr> <M-j>   vsnip#jumpable(1)   ? '<Plug>(vsnip-jump-next)'      : '<Tab>'
+imap <expr> <M-j>   vsnip#jumpable(1)   ? '<Plug>(vsnip-jump-next)'      : '<Tab>'
   smap <expr> <M-j>   vsnip#jumpable(1)   ? '<Plug>(vsnip-jump-next)'      : '<Tab>'
 imap <expr> <M-k> vsnip#jumpable(-1)  ? '<Plug>(vsnip-jump-prev)'      : '<S-Tab>'
 smap <expr> <M-k> vsnip#jumpable(-1)  ? '<Plug>(vsnip-jump-prev)'      : '<S-Tab>'
@@ -873,13 +873,13 @@ smap <expr> <M-k> vsnip#jumpable(-1)  ? '<Plug>(vsnip-jump-prev)'      : '<S-Tab
 " Select or cut text to use as $TM_SELECTED_TEXT in the next snippet.
 " See https://github.com/hrsh7th/vim-vsnip/pull/50
 "
-lua << EOF
-require'lspconfig'.texlab.setup{}
-
-EOF
-lua << EOF
-require'lspconfig'.jsonls.setup{}
-EOF
+" lua << EOF
+" require'lspconfig'.texlab.setup{}
+" 
+" EOF
+" lua << EOF
+" require'lspconfig'.jsonls.setup{}
+" EOF
 
 
 
