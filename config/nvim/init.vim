@@ -14,10 +14,10 @@ Plug 'shaunsingh/nord.nvim'
 "Plug 'vim-commentary'
 "Plug 'b3nj5m1n/kommentary'
 " Plug 'simnalamburt/vim-mundo'
-Plug 'neovim/nvim-lspconfig',  { 'branch': 'main' } 
+ Plug 'neovim/nvim-lspconfig',  { 'branch': 'main' } 
 " Plug 'glepnir/lspsaga.nvim'
 " If you are using Vim-Plug
-Plug 'hrsh7th/cmp-nvim-lsp', { 'branch': 'main' } 
+ Plug 'hrsh7th/cmp-nvim-lsp', { 'branch': 'main' } 
 " Plug 'kdheepak/cmp-latex-symbols', { 'branch': 'main' } 
 Plug 'hrsh7th/cmp-buffer', { 'branch': 'main' }
 Plug 'hrsh7th/nvim-cmp', { 'branch': 'main' }
@@ -30,12 +30,6 @@ Plug 'ray-x/cmp-treesitter'
 " Plug 'saadparwaiz1/cmp_luasnip'
 "Plug 'steelsojka/completion-buffers'
 Plug 'voldikss/vim-floaterm', { 'on': 'FloatermNew' }
-"Plug 'nvim-treesitter/completion-treesitter'
-"Plug 'vifm/vifm'
-"Plug 'TimUntersberger/neogit' 
-" Plug 'tpope/vim-fugitive' 
-"Plug 'junegunn/gv.vim'
-Plug 'cohama/agit.vim'
 Plug 'kabouzeid/nvim-lspinstall', { 'branch': 'main' }
 "Plug 'pope/vim-obsession'
 "Plug 'xolox/vim-easytags'
@@ -45,11 +39,8 @@ Plug 'xolox/vim-misc'
 Plug 'terrortylor/nvim-comment', { 'branch': 'main' }
 Plug 'kevinhwang91/nvim-bqf'
 Plug 'justinhoward/fzf-neoyank' 
-" Plug 'stefanhepp/pplatex'
-" lua require("lsp_config")
-" Plug 'hrsh7th/vim-vsnip'
+ Plug 'hrsh7th/vim-vsnip'
 " Plug 'svermeulen/vim-cutlass'
-"Plug 'kristijanhusak/completion-tags'
 Plug 'kyazdani42/nvim-web-devicons' " for file icons
 " Plug 'kyazdani42/nvim-tree.lua', 
 "Plug 'nvim-lua/completion-nvim'
@@ -119,7 +110,6 @@ Plug 'junegunn/fzf.vim'
 
 Plug 'mbbill/undotree', { 'on': 'UndotreeToggle' }
  '}
-
 Plug 'lifepillar/vim-solarized8'
 
 Plug 'vim-scripts/AutoTag'
@@ -128,7 +118,7 @@ Plug 'vim-scripts/vim-auto-save'
 
 " Plug 'vim-pandoc/vim-pandoc'
 
-Plug 'yashamon/vim-snippets'
+" Plug 'yashamon/vim-snippets'
 
 Plug 'lervag/vimtex'
 " colorschemes
@@ -225,7 +215,7 @@ set inccommand=split
 set mouse=
 set bs=2		" allow backspacing over everything in insert mode 
 set undofile                " Save undo's after file closes
-set undodir=./undo/ " where to save undo histories
+set undodir=undo " where to save undo histories
 set undolevels=100000         " How many undos
 set undoreload=10000		
 set ruler		" show the cursor position all the time
@@ -856,38 +846,8 @@ set completeopt=menuone,noinsert,noselect
 
 " Avoid showing message extra message when using completion
 set shortmess+=c
-"imap <tab> <Plug>(completion_smart_tab)
-"imap <s-tab> <Plug>(completion_smart_s_tab)
-"let g:completion_enable_snippet = 'vim-vsnip'
-"let g:vsnip_snippet_dir = '$HOME/dotfiles/snippets' 
-"let g:completion_trigger_keyword_length = 3
-" completion nvim
-"
-"
-"
-"
-"function! PackagerInit()
-  "call packager#add('kristijanhusak/vim-packager')
-  "call packager#add('nvim-lua/completion-nvim')
-  "call packager#add('hrsh7th/vim-vsnip-integ')
-"endfunction
+let g:vsnip_snippet_dir = '~/dotfiles/snippets'  
 
-" let g:completion_chain_complete_list = {
-"       \ 'default': [
-"       \    {'complete_items': ['lsp']},
-"       \    {'complete_items': ['tags']},
-"       \    {'complete_items': ['snippet']}, 
-"       \    ]}
-
-" Or combine with lsp completion-nvim
-"let g:completion_chain_complete_list = {
-      "\ 'default': [
-      "\    {'complete_items': ['snippet', 'treesitter', 'buffers', 'tags']},  
-      "\  ]}
-"let g:completion_enable_auto_popup = 1
-"imap <silent> <M-Space> <Plug>(completion_trigger) 
-
-let g:vsnip_snippet_dir = '~/dotfiles/snippets'
 " imap <expr> <m-space>   vsnip#expandable()  ? '<Plug>(vsnip-expand)'         : '<C-j>'
 " smap <expr> <m-space>   vsnip#expandable()  ? '<Plug>(vsnip-expand)'         : '<C-j>'
 " 
@@ -896,27 +856,12 @@ let g:vsnip_snippet_dir = '~/dotfiles/snippets'
 " smap <expr> <m-space>   vsnip#available(1)  ? '<Plug>(vsnip-expand-or-jump)' : '<C-l>'
 
 " Jump forward or backward
-  imap <expr> <M-j>   vsnip#jumpable(1)   ? '<Plug>(vsnip-jump-next)'      : '<Tab>'
+imap <expr> <M-j>   vsnip#jumpable(1)   ? '<Plug>(vsnip-jump-next)'      : '<Tab>'
   smap <expr> <M-j>   vsnip#jumpable(1)   ? '<Plug>(vsnip-jump-next)'      : '<Tab>'
 imap <expr> <M-k> vsnip#jumpable(-1)  ? '<Plug>(vsnip-jump-prev)'      : '<S-Tab>'
 smap <expr> <M-k> vsnip#jumpable(-1)  ? '<Plug>(vsnip-jump-prev)'      : '<S-Tab>'
 
-" Select or cut text to use as $TM_SELECTED_TEXT in the next snippet.
-" See https://github.com/hrsh7th/vim-vsnip/pull/50
 "
-lua << EOF
-require'lspconfig'.texlab.setup{}
-
-EOF
-lua << EOF
-require'lspconfig'.jsonls.setup{}
-EOF
-
-
-
-lua << EOF
-require'lspconfig'.rust_analyzer.setup{}
-EOF
 " set foldexpr=nvim_treesitter#foldexpr()
 "
 lua << EOF
@@ -966,7 +911,6 @@ for _, lsp in ipairs(servers) do
 end
 EOF
 
-"lua require'lspconfig'.texlab.setup{on_attach=require'completion'.on_attach}
 
 "Lsp install
 
@@ -996,16 +940,12 @@ nnoremap <leader>p :FZFNeoyank +<cr>
 nnoremap <leader>1 :FZFNeoyank 1<cr>
 nnoremap <leader>P :FZFNeoyank " P+<cr>
 vnoremap <leader>p :FZFNeoyankSelection +<cr>
-" map <leader>c <Plug>NERDCommenterToggle
+
 
 " Replace the default dictionary completion with fzf-based fuzzy completion
 
-" inoremap <expr> <c-x><c-k> fzf#vim#complete('cat /usr/share/dict/words')  
+inoremap <expr> <c-x><c-k> fzf#vim#complete('cat /usr/share/dict/words')  
 
-
-let g:agit_enable_auto_refresh = 1
-let g:agit_max_author_name_width =1
-let g:agit_log_width = 10 
 
 set completeopt=menu,menuone,noselect
 
@@ -1071,15 +1011,14 @@ sources = {
 -- For ultisnips user.
       -- { name = 'ultisnips' },  
    
-    { name = 'buffer', keyword_length = 4 },
-    { name = 'omni' , keyword_length = 4},
+     { name = 'buffer', keyword_length = 4 },
+     { name = 'omni' , keyword_length = 4},
        -- { name = 'spell' }, 
     { name = 'treesitter', keyword_length = 4  },
     { name = 'tags' , keyword_length = 4 }, 
     { name = 'nvim_lsp', keyword_length = 4 },      
 --{ name = 'latex_symbols' },
 } 
---{ completion.keyword_length = 3 }
 } 
 EOF
 
@@ -1426,11 +1365,9 @@ let g:codeschool_contrast_light = "soft"
 " let g:deoplete#enable_at_startup = 1
 " map <silent> <leader>g :silent call Gitview()
 " map <silent> <leader>g :silent !cd /root/web2 ; git add .<CR>:silent git commit -m -a ; silent !git push origin gh-pages<CR> This is how I use PDFViewer with Neovim and LaTexBox. 
-"Load some useful plugins with vundle
+"Load some useful plugins with vundle 
 "
-"
+"asdf asldfkj
 " hi! link Sneak Normal
-" hi! link SneakScope Normal 
- " let g:material_style = 'palenight'   test2 
-
+" hi! link SneakScope Normal  
 

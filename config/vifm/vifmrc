@@ -10,10 +10,9 @@ command nautilus nautilus %f
 command sacddir for f in */*.iso ; do sacd_extract -2 -s -c -i "$f" ; done
 nnoremap w :view<cr>
 noremap t :tabnew<cr>
-noremap <Aleft> gt
-noremap <right> Gt
+noremap <A-l> gt
+noremap <A-h> Gt
 noremap e :edit<cr>
-
 map f / 
 map sh <esc>:sh<cr>
 map <m-q> <ESC>:execute '!echo %d > ~/.config/vifm/lastdir'| quit <CR>
