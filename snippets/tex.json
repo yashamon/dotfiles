@@ -292,7 +292,6 @@
       "\t$1",
       "\\end{split}"  
       "$0"
-
     ],
     "description": "Split"
   },
