@@ -858,7 +858,7 @@ set shortmess+=c
 "imap <tab> <Plug>(completion_smart_tab)
 "imap <s-tab> <Plug>(completion_smart_s_tab)
 "let g:completion_enable_snippet = 'vim-vsnip'
-"let g:vsnip_snippet_dir = '$HOME/dotfiles/snippets' 
+let g:vsnip_snippet_dir = '$HOME/dotfiles/snippets' 
 "let g:completion_trigger_keyword_length = 3
 " completion nvim
 "
@@ -1074,7 +1074,7 @@ sources = {
  --   { name = 'omni' , keyword_length = 4},
        -- { name = 'spell' }, 
   --  { name = 'treesitter', keyword_length = 4  },
-    { name = 'tags' , keyword_length = 4 }, 
+   -- { name = 'tags' , keyword_length = 4 }, 
    -- { name = 'nvim_lsp', keyword_length = 4 },      
 --{ name = 'latex_symbols' },
 } 
