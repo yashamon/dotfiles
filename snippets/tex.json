@@ -291,7 +291,7 @@
       "\\begin{split}",
       "\t$1",
       "\\end{split}"  
-      $9
+      "$0"
 
     ],
     "description": "Split"
