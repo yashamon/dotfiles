@@ -858,12 +858,6 @@ set shortmess+=c
 let g:vsnip_snippet_dir = '$HOME/dotfiles/snippets' 
 
 
-" let g:completion_chain_complete_list = {
-"       \ 'default': [
-"       \    {'complete_items': ['lsp']},
-"       \    {'complete_items': ['tags']},
-"       \    {'complete_items': ['snippet']}, 
-"       \    ]}
 
 " Or combine with lsp completion-nvim
 "let g:completion_chain_complete_list = {
