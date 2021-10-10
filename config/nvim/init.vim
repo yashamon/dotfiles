@@ -119,7 +119,7 @@ Plug 'junegunn/fzf.vim'
 
 Plug 'mbbill/undotree', { 'on': 'UndotreeToggle' }
  '}
-
+eof
 Plug 'lifepillar/vim-solarized8'
 
 Plug 'vim-scripts/AutoTag'
