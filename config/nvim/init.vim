@@ -855,7 +855,7 @@ set completeopt=menuone,noinsert,noselect
 
 " Avoid showing message extra message when using completion
 set shortmess+=c
-let g:vsnip_snippet_dir = '$HOME/dotfiles/snippets'  
+let g:vsnip_snippet_dir = '~/dotfiles/snippets'  
 
 " imap <expr> <m-space>   vsnip#expandable()  ? '<Plug>(vsnip-expand)'         : '<C-j>'
 " smap <expr> <m-space>   vsnip#expandable()  ? '<Plug>(vsnip-expand)'         : '<C-j>'
