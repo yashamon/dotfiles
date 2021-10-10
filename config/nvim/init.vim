@@ -215,7 +215,7 @@ set inccommand=split
 set mouse=
 set bs=2		" allow backspacing over everything in insert mode 
 set undofile                " Save undo's after file closes
-set undodir=./undo/ " where to save undo histories
+" set undodir=./undo/ " where to save undo histories
 set undolevels=100000         " How many undos
 set undoreload=10000		
 set ruler		" show the cursor position all the time
