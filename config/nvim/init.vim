@@ -1243,11 +1243,11 @@ EOF
 "       },
 "    })
 " EOF
-lua <<EOF
-local saga = require 'lspsaga'{
-saga.init_lsp_saga()
-}
-EOF
+" lua <<EOF
+" local saga = require 'lspsaga'{
+" saga.init_lsp_saga()
+" }
+" EOF
 
 "au FileType tex autocmd User SneakLeave set syntax=tex
 "au FileType tex autocmd User SneakEnter set syntax=text
