@@ -1218,7 +1218,7 @@ require('telescope').setup{
     -- please take a look at the readme of the extension you want to configure
   }
 }
-EOF
+EO
 " lua <<EOF
 " require('neoclip').setup({
 "       history = 1000,
