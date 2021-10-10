@@ -738,7 +738,7 @@
         "description": "Insert inline integral notation, (only in the cases when the environment is inline math environment)."
     },
     "Inline Fraction": {
-        "prefix": ["fractioninline", "\\fractioninline"],
+        "prefix": ["fr", "\\fractioninline"],
         "body": ["\\frac{$1}{$2}$0"],
         "description": ["Insert inline fraction notation, (only in the cases when the environment is inline math environment)."]
     }, 
