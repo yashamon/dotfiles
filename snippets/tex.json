@@ -661,6 +661,7 @@
     ],
     "description": "mapsto"
   },
+
     "Large Summation": {
         "prefix": ["sumlarge", "\\sumlarge"],
 		"body": [
