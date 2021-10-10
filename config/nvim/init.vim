@@ -940,7 +940,7 @@ nnoremap <leader>p :FZFNeoyank +<cr>
 nnoremap <leader>1 :FZFNeoyank 1<cr>
 nnoremap <leader>P :FZFNeoyank " P+<cr>
 vnoremap <leader>p :FZFNeoyankSelection +<cr>
-" map <leader>c <Plug>NERDCommenterToggle
+
 
 " Replace the default dictionary completion with fzf-based fuzzy completion
 
