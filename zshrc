@@ -152,6 +152,7 @@ alias cprc="cp /root/.zshrc /home/yasha/.zshrc"
 alias pacup="packer -Syu --devel"
 # alias vifm='source ~/bin/vf'
 alias vrc="nvim ~/.config/nvim/init.vim"
+alias vifmrc="nvim ~/.config/vifm/vifmrc"
 alias snips="vi /root/dotfiles/vim/bundle/vim-snippets/UltiSnips/tex.snippets"
 alias src="source ~/.zshrc"
 alias mux="tmux -f ~/.tmux-conf"
@@ -372,8 +373,8 @@ bindkey '^[[B' history-substring-search-down
 bindkey -M vicmd 'k' history-substring-search-up
 bindkey -M vicmd 'j' history-substring-search-down
 
-# bindkey -M vicmd 'l' autosuggest-accept
-# bindkey -M vicmd 'h' autosuggest-execute
+ bindkey -M vicmd 'a' autosuggest-accept
+ bindkey -M vicmd '' autosuggest-execute
 
 zinit ice from"gh-r" as"program" bpick"*appimage*" ver"nightly" mv"nvim* -> nvim" pick"nvim"
 zinit light neovim/neovim
