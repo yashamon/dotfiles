@@ -249,6 +249,7 @@
     ],
     "description": "Add a proof"
   },
+
   "Algorithm": {
     "prefix": "algo",
     "body": [
