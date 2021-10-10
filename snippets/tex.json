@@ -662,7 +662,7 @@
     "description": "mapsto"
   },
     "Large Summation": {
-        "prefix": ["sumlarge", "\\sumlarge"],
+        "prefix": ["bigsum", "\\sumlarge"],
 		"body": [
 			"\\displaystyle\\sum_{$1}^{$2}$3"
 		],
