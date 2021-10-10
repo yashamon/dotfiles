@@ -1215,7 +1215,7 @@ require('telescope').setup{
   }
 }
 EOF
- lua <<EOF
+" lua <<EOF
 " require('neoclip').setup({
 "       history = 1000,
 "       enable_persistant_history = false,
