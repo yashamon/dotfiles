@@ -1011,8 +1011,8 @@ sources = {
 -- For ultisnips user.
       -- { name = 'ultisnips' },  
    
- "  --  { name = 'buffer', keyword_length = 4 },
- " --   { name = 'omni' , keyword_length = 4},
+   --  { name = 'buffer', keyword_length = 4 },
+  --   { name = 'omni' , keyword_length = 4},
        -- { name = 'spell' }, 
   --  { name = 'treesitter', keyword_length = 4  },
    -- { name = 'tags' , keyword_length = 4 }, 
