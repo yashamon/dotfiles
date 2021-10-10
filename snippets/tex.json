@@ -285,17 +285,7 @@
     ],
     "description": "Paragraph"
   },
-  "Part": {
-    "prefix": "part",
-    "body": [
-      "\\part{${1:part name}} % (fold)",
-      "\\label{prt:${2:${1/(\\w+)(\\W+$)?|\\W+/${1:?${1:/asciify/downcase}:_}/g}}}",
-      "${0:$TM_SELECTED_TEXT}",
-      "% part $2 (end)"
-    ],
-    "description": "Part"
-  },
-      "Split": {
+        "Split": {
     "prefix": "spl",
     "body": [
       "\\begin{split}",
