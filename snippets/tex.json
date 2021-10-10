@@ -289,8 +289,9 @@
     "prefix": "spl",
     "body": [
       "\\begin{split}",
-      "\t$0",
-      "\\end{split}"
+      "\t$1",
+      "\\end{split}" 
+
     ],
     "description": "Split"
   },
