@@ -30,11 +30,6 @@ Plug 'ray-x/cmp-treesitter'
 " Plug 'saadparwaiz1/cmp_luasnip'
 "Plug 'steelsojka/completion-buffers'
 Plug 'voldikss/vim-floaterm', { 'on': 'FloatermNew' }
-"Plug 'nvim-treesitter/completion-treesitter'
-"Plug 'vifm/vifm'
-"Plug 'TimUntersberger/neogit' 
-" Plug 'tpope/vim-fugitive' 
-"Plug 'junegunn/gv.vim'
 Plug 'cohama/agit.vim'
 Plug 'kabouzeid/nvim-lspinstall', { 'branch': 'main' }
 "Plug 'pope/vim-obsession'
