@@ -1015,7 +1015,7 @@
     "body": [
       "\\notin $0"
     ],
-    "description": "in"
+    "description": "not in"
   },
 
 "in": {
