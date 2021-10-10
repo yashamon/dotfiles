@@ -141,7 +141,6 @@ call plug#end()
 
 
 "General Settings  
-
 set wrap  
 set pb=30 
 set switchbuf=newtab
