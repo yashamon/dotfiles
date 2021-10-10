@@ -142,7 +142,6 @@ call plug#end()
 
 "General Settings  
 let g:codeschool_contrast_light = "soft"
-
 set wrap  
 set pb=30 
 set switchbuf=newtab
