@@ -824,7 +824,7 @@
     "description": "epsilon"
   },
 "Theta": {
-    "prefix": ["Theta", "\\Th"],
+    "prefix": ["Th", "\\Th"],
     "body": [
       "\\Theta $0"
     ],
