@@ -966,7 +966,7 @@ vnoremap <leader>p :FZFNeoyankSelection +<cr>
 
 Replace the default dictionary completion with fzf-based fuzzy completion
 
-" inoremap <expr> <c-x><c-k> fzf#vim#complete('cat /usr/share/dict/words')  
+inoremap <expr> <c-x><c-k> fzf#vim#complete('cat /usr/share/dict/words')  
 
 
 let g:agit_enable_auto_refresh = 1
