@@ -1244,7 +1244,7 @@ EOF
 "    })
 " EOF
 lua <<EOF
-local saga = require 'lspsaga'
+local saga = require 'lspsaga' {
 -- add your config value here
 -- default value
 -- use_saga_diagnostic_sign = true
