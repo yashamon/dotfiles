@@ -1090,7 +1090,7 @@
 "not equal": {
     "prefix": ["neq"],
     "body": [
-      "\neq $0"
+      "\\neq $0"
     ],
     "description": "not equal"
   },
@@ -1169,7 +1169,7 @@
         "prefix": ["fractionlarge", "\\fractionlarge"],
         "body": ["\\displaystyle\\frac{$1}{$2}$0"],
         "description": ["Insert large fraction notation"]
-    },
+    }
  }
 
 
