@@ -857,11 +857,6 @@ set completeopt=menuone,noinsert,noselect
 set shortmess+=c
 let g:vsnip_snippet_dir = '$HOME/dotfiles/snippets' 
 
-"function! PackagerInit()
-  "call packager#add('kristijanhusak/vim-packager')
-  "call packager#add('nvim-lua/completion-nvim')
-  "call packager#add('hrsh7th/vim-vsnip-integ')
-"endfunction
 
 " let g:completion_chain_complete_list = {
 "       \ 'default': [
