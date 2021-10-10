@@ -13,7 +13,6 @@ noremap t :tabnew<cr>
 noremap <A-l> gt
 noremap <A-h> Gt
 noremap e :edit<cr>
->>>>>>> c56bf34b79c0ff8b80f367df76518b8ea4ce9799
 
 map f / 
 map sh <esc>:sh<cr>
