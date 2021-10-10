@@ -1242,7 +1242,7 @@ EOF
 "         },
 "       },
 "    })
- EOF
+" EOF
 " lua <<EOF
 " local saga = require 'lspsaga'
 " -- add your config value here
