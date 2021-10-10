@@ -275,14 +275,7 @@
     ],
     "description": "Matrix"
   },
-  "Page": {
-    "prefix": "page",
-    "body": [
-      "${1:page}~\\pageref{$2}$0"
-    ],
-    "description": "Page"
-  },
-  "Paragraph": {
+    "Paragraph": {
     "prefix": "par",
     "body": [
       "\\paragraph{${1:paragraph name}} % (fold)",
