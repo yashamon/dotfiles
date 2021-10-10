@@ -132,7 +132,7 @@ Plug 'vim-scripts/oceanlight'
 
 Plug 'gosukiwi/vim-atom-dark'
 
-Plug 'dracula/vim'
+" Plug 'dracula/vim'
 
 " Unmanaged plugin (manually installed and updated)
 " Plug '~/my-prototype-plugin'
