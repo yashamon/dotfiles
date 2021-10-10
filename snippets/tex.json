@@ -290,22 +290,12 @@
     "body": [
       "\\begin{split}",
       "\t$1",
-      "\\end{split}"  
+      "\\end{split}",
       "$0"
     ],
     "description": "Split"
   },
-  "Sub Paragraph": {
-    "prefix": "subp",
-    "body": [
-      "\\subparagraph{${1:subparagraph name}} % (fold)",
-      "\\label{subp:${2:${1/(\\w+)(\\W+$)?|\\W+/${1:?${1:/asciify/downcase}:_}/g}}}",
-      "${0:$TM_SELECTED_TEXT}",
-      "% subparagraph $2 (end)"
-    ],
-    "description": "Sub Paragraph"
-  },  
-"Section": {
+  "Section": {
     "prefix": "sec",
     "body": [
       "\\subsection{${1:subsection name}} % (fold)",
