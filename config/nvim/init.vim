@@ -1215,7 +1215,7 @@ require('telescope').setup{
   }
 }
 EOF
-" lua <<EOF
+ lua <<EOF
 " require('neoclip').setup({
 "       history = 1000,
 "       enable_persistant_history = false,
@@ -1288,7 +1288,7 @@ EOF
 " or --use default config
 saga.init_lsp_saga()
 }
- EOF
+EOF
 
 "au FileType tex autocmd User SneakLeave set syntax=tex
 "au FileType tex autocmd User SneakEnter set syntax=text
