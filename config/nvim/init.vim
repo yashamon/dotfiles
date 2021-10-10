@@ -856,12 +856,7 @@ set completeopt=menuone,noinsert,noselect
 " Avoid showing message extra message when using completion
 set shortmess+=c
 let g:vsnip_snippet_dir = '$HOME/dotfiles/snippets' 
-"let g:completion_trigger_keyword_length = 3
-" completion nvim
-"
-"
-"
-"
+
 "function! PackagerInit()
   "call packager#add('kristijanhusak/vim-packager')
   "call packager#add('nvim-lua/completion-nvim')
