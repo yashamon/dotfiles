@@ -660,10 +660,7 @@
       "& $0"
     ],
     "description": "mapsto"
-  }
-
-
-
+  },
 "Template": {
         "prefix": ["template", "\\template"], 
         "body": [
