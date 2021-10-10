@@ -142,7 +142,7 @@ call plug#end()
 
 "General Settings  
 
-set wrap  
+st wrap  
 set pb=30 
 set switchbuf=newtab
 " let g:python3_host_prog='/usr/bin/python3.9'
