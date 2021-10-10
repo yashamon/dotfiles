@@ -469,7 +469,7 @@
     "body": [
       "\\begin{enumerate}",
       "\t\\item $0",
-      "\\\\end{enumerate}"
+      "\\end{enumerate}"
     ],
     "description": "Add a enumerate"
   },
@@ -660,7 +660,7 @@
       "& $0"
     ],
     "description": "mapsto"
-  },
+  }
 
 
 
