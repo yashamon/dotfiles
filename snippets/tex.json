@@ -4,7 +4,7 @@
     "body": [
         "$$1$-Bundle $0" 
        ],
-    "description": "dots"
+    "description": "Gbun"
     },
 "three dots": {
     "prefix": ".",
@@ -1021,12 +1021,12 @@
     ],
     "description": "mathfrak g"
   },
-"epsilon": {
-    "prefix": ["e", "\\e"],
+"rho": {
+    "prefix": ["r", "\\e"],
     "body": [
-      "\\epsilon $0"
+      "\\rho $0"
     ],
-    "description": "epsilon"
+    "description": "rho"
   },
 
 "epsilon": {
