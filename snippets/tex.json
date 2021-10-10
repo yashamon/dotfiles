@@ -689,16 +689,7 @@
         ],
         "description": "Insert centered Math Environment."
     },       
-    "Header": {
-        "prefix": ["header", "\\header", "##"],
-        "body": "\\section*{$1}$0",
-        "description": "Insert a section without index."
-    },
-    "Header Small": {
-        "prefix": ["headersmall", "\\headersmall", "###"],
-        "body": "\\subsection*{$1}$0",
-        "description": "Insert a subsection without index."
-    },
+    
     "Italic Text": {
         "prefix": ["italic", "\\italic", "*"], 
         "body": "\\textit{$1}$0",
@@ -721,7 +712,7 @@
     }, 
 
     "Itemize": {
-        "prefix": ["item", "\\itemize", "itemize"],
+        "prefix": ["itemize", "\\itemize", "itemize"],
         "body": [
             "\\begin{itemize}",
             "\t\\item $1",
