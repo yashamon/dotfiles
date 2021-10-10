@@ -39,7 +39,6 @@ Plug 'xolox/vim-misc'
 Plug 'terrortylor/nvim-comment', { 'branch': 'main' }
 Plug 'kevinhwang91/nvim-bqf'
 Plug 'justinhoward/fzf-neoyank' 
-" Plug 'stefanhepp/pplatex'
 " lua require("lsp_config")
 " Plug 'hrsh7th/vim-vsnip'
 " Plug 'svermeulen/vim-cutlass'
