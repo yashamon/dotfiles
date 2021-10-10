@@ -12,8 +12,6 @@ nnoremap w :view<cr>
 noremap t :tabnew<cr>
 noremap <A-l> gt
 noremap <A-h> Gt
-noremap <Aleft> gt
-noremap <right> Gt
 noremap e :edit<cr>
 >>>>>>> c56bf34b79c0ff8b80f367df76518b8ea4ce9799
 
