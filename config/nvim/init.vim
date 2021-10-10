@@ -59,7 +59,6 @@ Plug 'nvim-lua/diagnostic-nvim'
 Plug 'projekt0n/github-nvim-theme',  { 'branch': 'main' }
 Plug 'rktjmp/lush.nvim', { 'branch': 'main' } 
 Plug 'rakr/vim-one' 
-" Plug 'ellisonleao/gruvbox.nvim',  {'branch': 'main' }
 " Plug 'cyansprite/Extract'
 Plug 'gioele/vim-autoswap'
 Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'} 
