@@ -857,7 +857,7 @@ set completeopt=menuone,noinsert,noselect
 set shortmess+=c
 let g:vsnip_snippet_dir = '~/dotfiles/snippets'  
 
-" imap <expr> <m-space>   vsnip#expandable()  ? '<Plug>(vsnip-expand)'         : '<C-j>'
+ imap <expr> <m-space>   vsnip#expandable()  ? '<Plug>(vsnip-expand)'         : '<C-j>'
 " smap <expr> <m-space>   vsnip#expandable()  ? '<Plug>(vsnip-expand)'         : '<C-j>'
 " 
 " " Expand or jump
