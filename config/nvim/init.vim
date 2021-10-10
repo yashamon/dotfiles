@@ -1370,5 +1370,5 @@ let g:codeschool_contrast_light = "soft"
 "
 " hi! link Sneak Normal
 " hi! link SneakScope Normal 
-
+test
 
