@@ -1287,6 +1287,7 @@ saga.init_lsp_saga {
 
 or --use default config
 saga.init_lsp_saga()
+}
 EOF
 
 "au FileType tex autocmd User SneakLeave set syntax=tex
