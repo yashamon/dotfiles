@@ -885,7 +885,7 @@ smap <expr> <M-k> vsnip#jumpable(-1)  ? '<Plug>(vsnip-jump-prev)'      : '<S-Tab
 " EOF
 " set foldexpr=nvim_treesitter#foldexpr()
 "
-lua << EOF
+" lua << EOF
 " local nvim_lsp = require('lspconfig')
 -- Use an on_attach function to only map the following keys
 -- after the language server attaches to the current buffer
