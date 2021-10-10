@@ -932,7 +932,7 @@ require'lspinstall'.post_install_hook = function ()
 end
 EOF
 
-nnoremap <leader>y :FZFNeoyank<cr>
+noremap <leader>y :FZFNeoyank<cr>
 nnoremap <leader>Y :FZFNeoyank  P<cr>
 vnoremap <leader>y :FZFNeoyankSelection<cr>
 
