@@ -1287,8 +1287,8 @@ EOF
 " 
 " or --use default config
 saga.init_lsp_saga()
-" }
-" EOF
+}
+ EOF
 
 "au FileType tex autocmd User SneakLeave set syntax=tex
 "au FileType tex autocmd User SneakEnter set syntax=text
