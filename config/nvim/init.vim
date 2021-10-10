@@ -1320,5 +1320,5 @@ EOF
 "
 "asdf asldfkj
 " hi! link Sneak Normal
-" hi! link SneakScope Normal   test test2
+" hi! link SneakScope Normal   test test2 test3
 
