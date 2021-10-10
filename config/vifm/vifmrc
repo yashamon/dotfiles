@@ -13,7 +13,6 @@ noremap t :tabnew<cr>
 noremap <A-l> gt
 noremap <A-h> Gt
 noremap e :edit<cr>
-
 map f / 
 map sh <esc>:sh<cr>
 map <m-q> <ESC>:execute '!echo %d > ~/.config/vifm/lastdir'| quit <CR>
