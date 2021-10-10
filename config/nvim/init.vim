@@ -1250,7 +1250,6 @@ EOF
 let g:codeschool_contrast_light = "soft"
 lua <<EOF
 local saga = require 'lspsaga'
-
 -- add your config value here
 -- default value
 -- use_saga_diagnostic_sign = true
