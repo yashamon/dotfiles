@@ -859,13 +859,6 @@ let g:vsnip_snippet_dir = '$HOME/dotfiles/snippets'
 
 
 
-" Or combine with lsp completion-nvim
-"let g:completion_chain_complete_list = {
-      "\ 'default': [
-      "\    {'complete_items': ['snippet', 'treesitter', 'buffers', 'tags']},  
-      "\  ]}
-"let g:completion_enable_auto_popup = 1
-"imap <silent> <M-Space> <Plug>(completion_trigger) 
 
 let g:vsnip_snippet_dir = '~/dotfiles/snippets'
 " imap <expr> <m-space>   vsnip#expandable()  ? '<Plug>(vsnip-expand)'         : '<C-j>'
