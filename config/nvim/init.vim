@@ -881,9 +881,9 @@ smap <expr> <M-k> vsnip#jumpable(-1)  ? '<Plug>(vsnip-jump-prev)'      : '<S-Tab
 " require'lspconfig'.jsonls.setup{}
 " EOF
 
-lua << EOF
-require'lspconfig'.rust_analyzer.setup{}
-EOF
+" lua << EOF
+" require'lspconfig'.rust_analyzer.setup{}
+" EOF
 " set foldexpr=nvim_treesitter#foldexpr()
 "
 lua << EOF
