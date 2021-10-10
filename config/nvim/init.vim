@@ -14,7 +14,7 @@ Plug 'shaunsingh/nord.nvim'
 "Plug 'vim-commentary'
 "Plug 'b3nj5m1n/kommentary'
 " Plug 'simnalamburt/vim-mundo'
-Plug 'neovim/nvim-lspconfig',  { 'branch': 'main' } 
+" Plug 'neovim/nvim-lspconfig',  { 'branch': 'main' } 
 " Plug 'glepnir/lspsaga.nvim'
 " If you are using Vim-Plug
 Plug 'hrsh7th/cmp-nvim-lsp', { 'branch': 'main' } 
