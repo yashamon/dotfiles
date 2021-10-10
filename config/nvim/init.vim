@@ -17,7 +17,7 @@ Plug 'shaunsingh/nord.nvim'
 " Plug 'neovim/nvim-lspconfig',  { 'branch': 'main' } 
 " Plug 'glepnir/lspsaga.nvim'
 " If you are using Vim-Plug
-Plug 'hrsh7th/cmp-nvim-lsp', { 'branch': 'main' } 
+" Plug 'hrsh7th/cmp-nvim-lsp', { 'branch': 'main' } 
 " Plug 'kdheepak/cmp-latex-symbols', { 'branch': 'main' } 
 Plug 'hrsh7th/cmp-buffer', { 'branch': 'main' }
 Plug 'hrsh7th/nvim-cmp', { 'branch': 'main' }
