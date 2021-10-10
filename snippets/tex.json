@@ -290,7 +290,8 @@
     "body": [
       "\\begin{split}",
       "\t$1",
-      "\\end{split}" 
+      "\\end{split}"  
+      $9
 
     ],
     "description": "Split"
