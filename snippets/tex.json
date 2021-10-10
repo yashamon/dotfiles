@@ -1,11 +1,4 @@
 {
-"G-bundle": {
-    "prefix": "Gbun",
-    "body": [
-        "$$1$-Bundle $0" 
-       ],
-    "description": "dots"
-    },
 "three dots": {
     "prefix": ".",
     "body": [
