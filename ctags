@@ -1,6 +1,6 @@
 
---langdef=tex2
---langmap=tex2:.tex
+--langdef=tex
+--langmap=tex:.tex
 --regex-tex2=/\\label[ \t]*\*?\{[ \t]*([^}]*)\}/\1/l,label/
 
 --langdef=bib
@@ -27,24 +27,23 @@
 --regex-tex=/^\\includegraphics[[:space:]]*(\[[^]]*\])?[[:space:]]*(\[[^]]*\])?[[:space:]]*\{([^}]+)\}/\3/g,graphic+listing/
 --regex-tex=/^\\lstinputlisting[[:space:]]*(\[[^]]*\])?[[:space:]]*(\[[^]]*\])?[[:space:]]*\{([^}]+)\}/\3/g,graphic+listing/
 --regex-tex=/\\label[[:space:]]*\{([^}]+)\}/\1/l,label/
-/* --regex-tex=/\\ref[[:space:]]*\{([^}]+)\}/\1/r,ref/ */
 --regex-tex=/\\pageref[[:space:]]*\{([^}]+)\}/\1/p,pageref/
 --regex-make=/^([^:# \t]+)[ \t]*[:]{1,2}/\1/t,targets/
---regex-tex=/label\{([^}]*)\}/\1/l,label/
+/*--regex-tex=/label\{([^}]*)\}/\1/l,label/*/
 --regex-tex=/ARTICLE\{([^}]*)\,/\1/A,ARTICLE/
 --regex-tex=/BOOK\{([^}]*)\,/\1/B,BOOK/
 --langdef=tex
 --langmap=tex:.bib
 
---regex-bib=/ARTICLE\{([^}]*)\,/\1/A,ARTICLE/
---regex-bib=/Article\{([^}]*)\,/\1/A,Article/
---regex-bib=/Book\{([^}]*)\,/\1/B,Book/
---regex-bib=/BOOK\{([^}]*)\,/\1/B,BOOK/
+/*--regex-bib=/ARTICLE\{([^}]*)\,/\1/A,ARTICLE/*/
+/*--regex-bib=/Article\{([^}]*)\,/\1/A,Article/*/
+/*--regex-bib=/Book\{([^}]*)\,/\1/B,Book/*/
+/*--regex-bib=/BOOK\{([^}]*)\,/\1/B,BOOK/*/
 
-    --langdef=bib
-    --langmap=bib:.bib
-    --regex-bib=/^@[A-Za-z]+\{([^,]+),/\1/e,BibTeX-Entries/i
-    --regex-bib=/^@string\{([^ "#%')(,=}{]+)/\1/s,BibTeX-Strings/i
-    --regex-bib=/author[[:space:]]*=[[:space:]]*("([^"]+)"|\{([^\}]+)\})[[:space:]]*,?[[:space:]]*$/\2\3/a,BibTeX-Authors/i
+    /*--langdef=bib*/
+    /*--langmap=bib:.bib*/
+    /*--regex-bib=/^@[A-Za-z]+\{([^,]+),/\1/e,BibTeX-Entries/i*/
+    /*--regex-bib=/^@string\{([^ "#%')(,=}{]+)/\1/s,BibTeX-Strings/i*/
+    /*--regex-bib=/author[[:space:]]*=[[:space:]]*("([^"]+)"|\{([^\}]+)\})[[:space:]]*,?[[:space:]]*$/\2\3/a,BibTeX-Authors/i*/
 
---fields=+l
+/*--fields=+l*/

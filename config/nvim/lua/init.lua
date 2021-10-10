@@ -1,33 +1,55 @@
--- Lua
-local cb = require'diffview.config'.diffview_callback
+local map = function(type, key, value)
+	vim.fn.nvim_buf_set_keymap(0,type,key,value,{noremap = true, silent = true});
+end
 
-require'diffview'.setup {
-  diff_binaries = false,    -- Show diffs for binaries
-  file_panel = {
-    width = 35,
-    use_icons = true        -- Requires nvim-web-devicons
-  },
-  key_bindings = {
-    -- The `view` bindings are active in the diff buffers, only when the current
-    -- tabpage is a Diffview.
-    view = {
-      ["<tab>"]     = cb("select_next_entry"),  -- Open the diff for the next file 
-      ["<s-tab>"]   = cb("select_prev_entry"),  -- Open the diff for the previous file
-      ["<leader>e"] = cb("focus_files"),        -- Bring focus to the files panel
-      ["<leader>b"] = cb("toggle_files"),       -- Toggle the files panel.
-    },
-    file_panel = {
-      ["j"]         = cb("next_entry"),         -- Bring the cursor to the next file entry
-      ["<down>"]    = cb("next_entry"),
-      ["k"]         = cb("prev_entry"),         -- Bring the cursor to the previous file entry.
-      ["<up>"]      = cb("prev_entry"),
-      ["<cr>"]      = cb("select_entry"),       -- Open the diff for the selected entry.
-      ["o"]         = cb("select_entry"),
-      ["R"]         = cb("refresh_files"),      -- Update stats and entries in the file list.
-      ["<tab>"]     = cb("select_next_entry"),
-      ["<s-tab>"]   = cb("select_prev_entry"),
-      ["<leader>e"] = cb("focus_files"),
-      ["<leader>b"] = cb("toggle_files"),
-    }
-  }
+local custom_attach = function(client)
+	print("LSP started.");
+	require'completion'.on_attach(client)
+	require'diagnostic'.on_attach(client)
+
+	map('n','gD','<cmd>lua vim.lsp.buf.declaration()<CR>')
+	map('n','gd','<cmd>lua vim.lsp.buf.definition()<CR>')
+	map('n','K','<cmd>lua vim.lsp.buf.hover()<CR>')
+	map('n','gr','<cmd>lua vim.lsp.buf.references()<CR>')
+	map('n','gs','<cmd>lua vim.lsp.buf.signature_help()<CR>')
+	map('n','gi','<cmd>lua vim.lsp.buf.implementation()<CR>')
+	map('n','gt','<cmd>lua vim.lsp.buf.type_definition()<CR>')
+	map('n','<leader>gw','<cmd>lua vim.lsp.buf.document_symbol()<CR>')
+	map('n','<leader>gW','<cmd>lua vim.lsp.buf.workspace_symbol()<CR>')
+	map('n','<leader>ah','<cmd>lua vim.lsp.buf.hover()<CR>')
+	map('n','<leader>af','<cmd>lua vim.lsp.buf.code_action()<CR>')
+	map('n','<leader>ee','<cmd>lua vim.lsp.util.show_line_diagnostics()<CR>')
+	map('n','<leader>ar','<cmd>lua vim.lsp.buf.rename()<CR>')
+	map('n','<leader>=', '<cmd>lua vim.lsp.buf.formatting()<CR>')
+	map('n','<leader>ai','<cmd>lua vim.lsp.buf.incoming_calls()<CR>')
+	map('n','<leader>ao','<cmd>lua vim.lsp.buf.outgoing_calls()<CR>')
+end
+
+lsp.tsserver.setup{on_attach=custom_attach}
+lsp.clangd.setup{on_attach=custom_attach}
+lsp.sumneko_lua.setup{
+	on_attach=custom_attach,
+	settings = {
+		Lua = {
+			runtime = { version = "LuaJIT", path = vim.split(package.path, ';'), },
+			completion = { keywordSnippet = "Disable", },
+			diagnostics = { enable = true, globals = {
+				"vim", "describe", "it", "before_each", "after_each" },
+			},
+			workspace = {
+				library = {
+					[vim.fn.expand("$VIMRUNTIME/lua")] = true,
+					[vim.fn.expand("$VIMRUNTIME/lua/vim/lsp")] = true,
+				}
+			}
+		}
+	}
 }
+
+-- Uncomment to execute the extension test mentioned above.
+-- local function custom_codeAction_callback(_, _, action)
+-- 	print(vim.inspect(action))
+-- end
+
+-- vim.lsp.callbacks['textDocument/codeAction'] = custom_codeAction_callback
+

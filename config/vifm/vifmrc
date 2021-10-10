@@ -2,7 +2,7 @@
 " You can edit this file by hand.
 
 " ------------------------------------------------------------------------------
-
+set runexec
 command Q :execute '!echo %d > ~/.config/vifm/lastdir' | quit
 command sacd sacd_extract -2 -s -c -i %f 
 command diff nvim -d %f %F
@@ -10,11 +10,18 @@ command nautilus nautilus %f
 command sacddir for f in */*.iso ; do sacd_extract -2 -s -c -i "$f" ; done
 nnoremap w :view<cr>
 noremap t :tabnew<cr>
+<<<<<<< HEAD
 noremap <A-l> gt
 noremap <A-h> Gt
+=======
+noremap <Aleft> gt
+noremap <right> Gt
+noremap e :edit<cr>
+>>>>>>> c56bf34b79c0ff8b80f367df76518b8ea4ce9799
 
-map f /
-map <A-q> <ESC>:execute '!echo %d > ~/.config/vifm/lastdir'| quit <CR>
+map f / 
+map sh <esc>:sh<cr>
+map <m-q> <ESC>:execute '!echo %d > ~/.config/vifm/lastdir'| quit <CR>
 map F ?
 map JW :cd ~/workspace<CR>
 map JD :cd ~/dotfiles<CR>
@@ -24,14 +31,17 @@ map J <C-d>
 map K <C-u>
 windo normal zo
 map H <C-w>h
-map L <C-w>l
+map L <C-w>l 
+
 filetype *.jpg,*.jpeg,*.png,*.gif
        \ {View in feh}
        \ feh -FZ %d --start-at %d/%c 2>/dev/null
 filetype *.pdf,*.dvi,*.ps
        \ zathura %f 
 filetype *.djvu
-       \ zathura %f 
+       \ zathura %f  
+filetype *.md, *.tex, *.txt, *.sh
+       \ nvim %f
 filetype *.fb2
        \ fbreader %f 
 filetype *.epub
@@ -88,8 +98,6 @@ set novimhelp
 " If you would like to run an executable file when you
 " press return on the file name set this.
 
-set norunexec
-
 " Use KiB, MiB, ... instead of KB, MB, ...
 
 set noiec
@@ -142,4 +150,5 @@ set statusline="  %t%= %A %10u:%-7g %15s %20d  "
 " ------------------------------------------------------------------------------
 
 " :mark mark /full/directory/path [filename]
+set runexec
 

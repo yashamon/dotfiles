@@ -3,78 +3,22 @@
 # confirmations, etc.) must go above this block; everything else may go below.
 if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]; then
 source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
-fi
-# source ~/.zplug/init.zsh
-# # # Make sure to use double quotes
-#  zplug "zsh-users/zsh-history-substring-search"
-#  zplug "b4b4r07/enhancd", use:init.sh
-#  zplug "romkatv/powerlevel10k", as:theme, depth:1
-#  zplug "softmoth/zsh-vim-mode"
-#  zplug "zsh-users/zsh-autosuggestions", defer:2
-#  # zplug "zsh-users/zsh-syntax-highlighting", defer:2
-# #  zplug "https://github.com/clvv/fasd.git", as:program
-#  zplug "wookayin/fzf-fasd"
-#  zplug "plugins/git", from:oh-my-zsh
-#  zplug "plugins/vi", from:oh-my-zsh
-#  zplug "zdharma/fast-syntax-highlighting", defer:2
-#  zplug load 
-export ZSH=~/.oh-my-zsh
+fi 
+
 export ANDROID_HOME=/root/android-sdk-linux
 export LANG=en_US.UTF-8
 export XDG_CONFIG_HOME=$HOME/.config
-# Set name of the theme to load.
-# Look in ~/.oh-my-zsh/themes/
-# Optionally, if you set this to "random", it'll load a random theme each
-# time that oh-my-zsh is loaded.
-# ZSH_THEME="af-magic"
-#
-#
-#
-# ZSH_THEME=powerlevel10k/powerlevel10k
-# Uncomment the following line to use case-sensitive completion.
-# CASE_SENSITIVE="true"
-# Uncomment the following line to disable bi-weekly auto-update checks.
-# DISABLE_AUTO_UPDATE="true"
-# Uncomment the following line to change how often to auto-update (in days).
-# export UPDATE_ZSH_DAYS=13
-# Uncomment the following line to disable colors in ls.
-# DISABLE_LS_COLORS="true"
-# Uncomment the following line to disable auto-setting terminal title.
-# DISABLE_AUTO_TITLE="true"
-# Uncomment the following line to enable command auto-correction.
-  # ENABLE_CORRECTION="true"
-# Uncomment the following line to display red dots whilst waiting for completion.
-#  COMPLETION_WAITING_DOTS="true"
-# Uncomment the following line if you want to disable marking untracked files
-# under VCS as dirty. This makes repository status check for large repositories
-# much, much faster.
-# DISABLE_UNTRACKED_FILES_DIRTY="true"
-# Uncomment the following line if you want to change the command execution time
-# stamp shown in the history command output.
-# The optional three formats: "mm/dd/yyyy"|"dd.mm.yyyy"|"yyyy-mm-dd"
-# HIST_STAMPS="mm/dd/yyyy"
-# Would you like to use another custom folder than $ZSH/custom?
-# ZSH_CUSTOM=/path/to/new-custom-folder
-# Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
-# Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
-# Example format: plugins=(rails git textmate ruby lighthouse)
-# Add wisely, as too many plugins slow down shell startup.
-# plugins=(git zsh-syntax-highlighting zsh-autosuggestions zsh-vim-mode command-not-found github history-substring-search fzf-fasd)
-
-# User configuration
-
-export PATH="/snap/bin:/data/data/com.termux/files/usr/bin/applets:/data/data/com.termux/files/usr/bin:bin:/usr/local/sbin:/usr/bin:/usr/local/bin:/usr/sbin:/sbin:/bin:~/.local/bin:/root/.cabal/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:~/.cabal/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:/home/yashasavelyev/.local/bin:/$HOME/appimage" 
+export PATH="/home/linuxbrew/.linuxbrew/bin:/usr/local/bin:/usr/sbin:/sbin:/bin:$HOME/.local/bin:/root/.cabal/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:~/.cabal/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:~/.local/bin:/$HOME/appimage:$HOME/.cargo/bin:/snap/bin:/data/data/com.termux/files/usr/bin/applets:/data/data/com.termux/files/usr/bin:bin:/usr/local/sbin:$HOME/.zinit/plugins:/usr/bin"  
 # export MANPATH="/usr/local/man:$MANPATH"
-#  source $ZSH/oh-my-zsh.sh
 # You may need to manually set your language environment
-# export LANG=en_US.UTF-8
+export LANG=en_US.UTF-8
 
-# Preferred editor for local and remote sessions
-# if [[ -n $SSH_CONNECTION ]]; then
-#   export EDITOR='vim'
-# else
-#   export EDITOR='mvim'
-# fi
+
+ if [[ -n $SSH_CONNECTION ]]; then
+   export EDITOR='nvim'
+ else
+   export EDITOR='nvim'
+ fi
 
 # Compilation flags
 # export ARCHFLAGS="-arch x86_64"
@@ -114,8 +58,10 @@ eval "$(fasd --init auto)"
 # export MANPATH="$HOME/.linuxbrew/share/man:$MANPATH"
 # export INFOPATH="$HOME/.linuxbrew/share/info:$INFOPATH"
 # alias nvim="/snap/bin/nvim"
-alias tmux d="tmux detach"
-alias ls="vifm"
+alias tmux d="tmux detach" 
+alias nvr="nvr --servername $(<~/servername.txt) --remote-silent"
+alias vifmrc="nvim ~/.config/vifm/vifmrc" 
+alias ls="source ~/bin/vf" 
 alias texi="pdflatex -file-line-error -synctex=1  -interaction=nonstopmode -recorder" 
 alias latexi="latexmk -g -pdf -file-line-error -synctex=1  -interaction=nonstopmode -recorder -f"
 alias pvc="latexmk -pdf -pvc -file-line-error -synctex=1  -interaction=nonstopmode -recorder -f"
@@ -126,14 +72,14 @@ git submodule foreach git push origin master; git add .; git commit -m -a; git p
 alias push="git add .; git commit -m -a; git push --all origin"
 alias pull="git pull --recurse-submodules; git submodule update --recursive --remote"
 alias pullmaster="git pull --recurse-submodules; git submodule update --recursive --remote; git submodule foreach git checkout master; git submodule foreach git pull --all"
-
+alias check="git checkout" 
 alias pushgh="pandoc index.md > index.html ; git add .; git commit -m -a; git push origin gh-pages"
 alias pandocd="pandoc index.md > index.html"
 
 # <<<<<<< HEAD
 # alias hw="pandoc ~/web/classes/topology/topology2019.md > ~/web/classes/topology/topology2019.html; pandoc ~/web/CalcIII2019/analysis.md > ~/web/CalcIII2019/analysis.html; git add .; git commit -m -a; git push origin gh-pages"
 # =======
-alias hw="pandoc ~/web/classes/CalcIII/2021.md > ~/web/classes/CalcIII/2021.html; pandoc ~/web/classes/topology/topology2021.md  > ~/web/classes/topology/topology2021.html; git add .; git commit -m -a; git push origin gh-pages"
+alias hw="pandoc ~/web/classes/CalcIII/2021.md > ~/web/classes/CalcIII/2021.html; pandoc ~/web/classes/topology/topology2021.md  > ~/web/classes/topology/topology2021.html; cd ~/web; git add . ;git commit -m -a; git push origin gh-pages"
 alias attach="tmux attach"
 # alias pdf="xpdf -geometry 1920x1080 -fullscreen"
 # alias pdf="mupdf"
@@ -141,7 +87,6 @@ alias attach="tmux attach"
 alias vnc="vncserver -kill :1; vncserver -geometry 1920x1080 :1"
 # alias vnc="vncserver -kill :3; vncserver -geometry 1600x2560 :1"
 alias drop="python ~/download?dl=packages%2Fdropbox.py"
-alias ls="vifm"
 alias j="z"
 # alias fzf="/root/dotfiles\vim\bundle\fzf"
 alias pcm="sudo pacman"
@@ -155,7 +100,7 @@ alias vrc="nvim ~/.config/nvim/init.vim"
 alias vifmrc="nvim ~/.config/vifm/vifmrc"
 alias snips="vi /root/dotfiles/vim/bundle/vim-snippets/UltiSnips/tex.snippets"
 alias src="source ~/.zshrc"
-alias mux="tmux -f ~/.tmux-conf"
+#alias mux="tmux -f ~/.tmux-conf"
 alias bib="j bib ; vi link.bib"
 alias suya="su yasha; a"
 alias vis="rm /tmp/nvimsocket ; NVIM_LISTEN_ADDRESS=/tmp/nvimsocket nvim" 
@@ -373,8 +318,13 @@ bindkey '^[[B' history-substring-search-down
 bindkey -M vicmd 'k' history-substring-search-up
 bindkey -M vicmd 'j' history-substring-search-down
 
+<<<<<<< HEAD
  bindkey -M vicmd 'a' autosuggest-accept
  bindkey -M vicmd 'e' autosuggest-execute
+=======
+bindkey -M vicmd '<right>' autosuggest-accept 
+bindkey -M vicmd 'E' autosuggest-execute
+>>>>>>> c56bf34b79c0ff8b80f367df76518b8ea4ce9799
 
 zinit ice from"gh-r" as"program" bpick"*appimage*" ver"nightly" mv"nvim* -> nvim" pick"nvim"
 zinit light neovim/neovim
@@ -383,9 +333,13 @@ zinit light neovim/neovim
 # zinit light clvv/fasd
 #
  # zinit snippet OMZ::plugins/history-substring-search/history-substring-search.plugin.zsh
-zinit snippet OMZ::plugins/vi-mode/vi-mode.plugin.zsh
+# zinit snippet OMZ::plugins/vi-mode/vi-mode.plugin.zsh
 zinit ice wait'0' lucid atload"unalias d"
-zinit snippet OMZ::plugins/fasd/fasd.plugin.zsh
+zinit snippet OMZ::plugins/fasd/fasd.plugin.zsh  
+zinit ice lucid wait
+zinit snippet OMZP::fzf
+# zinit light jeffreytse/zsh-vi-mode
+
 #
 bindkey -rpM viins '\e'
 #
@@ -442,7 +396,7 @@ function x11-clip-wrap-widgets() {
 
 
 local copy_widgets=(
-    vi-yank vi-yank-eol vi-delete vi-backward-kill-word vi-change-whole-line
+    vi-yank vi-yank-eol 
 )
 local paste_widgets=(
     vi-put-{before,after}
@@ -450,6 +404,64 @@ local paste_widgets=(
 
 # NB: can atm. only wrap native widgets
 x11-clip-wrap-widgets copy $copy_widgets
-x11-clip-wrap-widgets paste  $paste_widgets
+x11-clip-wrap-widgets paste  $paste_widgets  
+
+MODE_CURSOR_VIINS="#00ff00 blinking bar"
+MODE_CURSOR_REPLACE="$MODE_CURSOR_VIINS #ff0000"
+MODE_CURSOR_VICMD="green block"
+MODE_CURSOR_SEARCH="#ff00ff steady underline"
+MODE_CURSOR_VISUAL="white block"
+MODE_CURSOR_VLINE="$MODE_CURSOR_VISUAL #00ffff"
+
+export PATH="/home/linuxbrew/.linuxbrew/bin:/usr/local/bin:/usr/sbin:/sbin:/bin:$HOME/.local/bin:/root/.cabal/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:~/.cabal/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:~/.local/bin:$HOME/appimage:$HOME/.cargo/bin:/snap/bin:/data/data/com.termux/files/usr/bin/applets:/data/data/com.termux/files/usr/bin:bin:/usr/local/sbin:$HOME/.zinit/plugins:/usr/bin"  
 
 
+# source ~/.zplug/init.zsh
+# # # Make sure to use double quotes
+#  zplug "zsh-users/zsh-history-substring-search"
+#  zplug "b4b4r07/enhancd", use:init.sh
+#  zplug "romkatv/powerlevel10k", as:theme, depth:1
+#  zplug "softmoth/zsh-vim-mode"
+#  zplug "zsh-users/zsh-autosuggestions", defer:2
+#  # zplug "zsh-users/zsh-syntax-highlighting", defer:2
+# #  zplug "https://github.com/clvv/fasd.git", as:program
+#  zplug "wookayin/fzf-fasd"
+#  zplug "plugins/git", from:oh-my-zsh
+#  zplug "plugins/vi", from:oh-my-zsh
+#  zplug "zdharma/fast-syntax-highlighting", defer:2
+#  zplug load 
+ #
+#
+#
+# ZSH_THEME=powerlevel10k/powerlevel10k
+# Uncomment the following line to use case-sensitive completion.
+# CASE_SENSITIVE="true"
+# Uncomment the following line to disable bi-weekly auto-update checks.
+# DISABLE_AUTO_UPDATE="true"
+# Uncomment the following line to change how often to auto-update (in days).
+# export UPDATE_ZSH_DAYS=13
+# Uncomment the following line to disable colors in ls.
+# DISABLE_LS_COLORS="true"
+# Uncomment the following line to disable auto-setting terminal title.
+# DISABLE_AUTO_TITLE="true"
+# Uncomment the following line to enable command auto-correction.
+  # ENABLE_CORRECTION="true"
+# Uncomment the following line to display red dots whilst waiting for completion.
+#  COMPLETION_WAITING_DOTS="true"
+# Uncomment the following line if you want to disable marking untracked files
+# under VCS as dirty. This makes repository status check for large repositories
+# much, much faster.
+# DISABLE_UNTRACKED_FILES_DIRTY="true"
+# Uncomment the following line if you want to change the command execution time
+# stamp shown in the history command output.
+# The optional three formats: "mm/dd/yyyy"|"dd.mm.yyyy"|"yyyy-mm-dd"
+# HIST_STAMPS="mm/dd/yyyy"
+# Would you like to use another custom folder than $ZSH/custom?
+# ZSH_CUSTOM=/path/to/new-custom-folder
+# Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
+# Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
+# Example format: plugins=(rails git textmate ruby lighthouse)
+# Add wisely, as too many plugins slow down shell startup.
+# plugins=(git zsh-syntax-highlighting zsh-autosuggestions zsh-vim-mode command-not-found github history-substring-search fzf-fasd)
+
+# User configuration

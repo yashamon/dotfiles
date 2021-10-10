@@ -1,0 +1,27 @@
+{
+"EOF": {
+    "prefix": "eof",
+    "body": [
+        "lua <<EOF",
+         "$0",
+         "EOF"
+       ],
+    "description": "EOF"
+    },  
+"<>": {
+    "prefix": "br",
+    "body": [
+        "<$1>$0"
+       ],
+    "description": "vim bracket"
+    },
+
+"leader": {
+    "prefix": "lead",
+    "body": [
+        "<leader>$0"
+       ],
+    "description": "leader"
+    }
+
+}
