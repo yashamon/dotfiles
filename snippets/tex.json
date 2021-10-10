@@ -686,7 +686,7 @@
         "description": "Insert bold text."
     },
     "Bold Italic Text": {
-        "prefix": ["bi", ],
+        "prefix": ["bi"],
         "body": "\\textbf{\\textit{$1}}$0",
         "description": "Insert bold italic text."
     }, 
@@ -714,19 +714,7 @@
         ],
         "description": "Insert a problem, whose style is already defined in the template. The serial number is automatically generated according to the section."
     },
-    "Indent": {
-        "prefix": ["tab", "\\tab"],
-        "body": ["\\indent "],
-        "description": "The equivalent of \"\\t\", also known as \"Tab\""
-    }, 
-"Color": {
-        "prefix": ["col", "color"],
-        "body": [
-            "\\textcolor{$1}{$2}$0"
-            ],
-        "description": "Insert a definition, whose style is already defined in the template. The serial number is automatically generated according to the section."
-    },
-
+    
     "Definition": {
         "prefix": ["def", "\\definition"],
         "body": [
