@@ -465,7 +465,7 @@
   "Cite": {
     "prefix": "cite",
     "body": [
-      "~\\cite{$1}$0"
+      "~\\cite{cite:$1}$0"
     ],
     "description": "Add a cite"
   },
