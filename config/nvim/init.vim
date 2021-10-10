@@ -12,7 +12,7 @@ Plug 'karb94/neoscroll.nvim'
 " Plug 'Pocco81/TrueZen.nvim', { 'branch': 'main' }
 Plug 'shaunsingh/nord.nvim'  
 "Plug 'vim-commentary'
-"Plug 'b3nj5m1n/kommentary'
+" "Plug 'b3nj5m1n/kommentary'
 " Plug 'simnalamburt/vim-mundo'
 " Plug 'neovim/nvim-lspconfig',  { 'branch': 'main' } 
 " Plug 'glepnir/lspsaga.nvim'
