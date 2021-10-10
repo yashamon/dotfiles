@@ -215,7 +215,7 @@ set inccommand=split
 set mouse=
 set bs=2		" allow backspacing over everything in insert mode 
 set undofile                " Save undo's after file closes
-set undodir=pwd " where to save undo histories
+set undodir=undo " where to save undo histories
 set undolevels=100000         " How many undos
 set undoreload=10000		
 set ruler		" show the cursor position all the time
@@ -1367,7 +1367,7 @@ let g:codeschool_contrast_light = "soft"
 " map <silent> <leader>g :silent !cd /root/web2 ; git add .<CR>:silent git commit -m -a ; silent !git push origin gh-pages<CR> This is how I use PDFViewer with Neovim and LaTexBox. 
 "Load some useful plugins with vundle 
 "
-asdf
+"asdf
 " hi! link Sneak Normal
 " hi! link SneakScope Normal  
 
