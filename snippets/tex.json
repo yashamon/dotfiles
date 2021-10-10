@@ -721,7 +721,7 @@
     }, 
 
     "Itemize": {
-        "prefix": ["- ", "\\itemize", "itemize"],
+        "prefix": ["item", "\\itemize", "itemize"],
         "body": [
             "\\begin{itemize}",
             "\t\\item $1",
