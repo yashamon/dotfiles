@@ -467,7 +467,7 @@
   "Enumerate": {
     "prefix": "enumerate",
     "body": [
-      "\\\\begin{enumerate}",
+      "\\begin{enumerate}",
       "\t\\item $0",
       "\\\\end{enumerate}"
     ],
