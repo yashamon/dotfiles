@@ -1217,9 +1217,6 @@ require('telescope').setup{
   }
 }
 EOF
-lua << EOF
-            require'hop'.setup()
-            EOF
 lua require'hop'.setup { keys = 'etovxqpdygfblzhckisuran', term_seq_bias = 0.5 } 
 
 " lua <<EOF
