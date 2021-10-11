@@ -11,9 +11,9 @@
 "cr": {
     "prefix": "cr",
     "body": [
-        "<$1>$0"
+        "<cr>$0"
        ],
-    "description": "vim bracket"
+    "description": "cr"
     },
 
 "<>": {
