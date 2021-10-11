@@ -286,7 +286,7 @@ au FileType tex,text,md set spell
 au FileType tex,text,md syntax sync fromstart
 au FileType tex,text,md silent execute "!echo " . v:servername . " > ~/servername.txt"   
 au FileType tex,text,md hi SpellBad cterm=undercurl
-au Filetype tex,text,md vmap q xi<CR><CR><CR><CR><ESC>kkicom<tab><esc>p<A-j> 
+au Filetype tex,text,md vmap q xi<CR><CR><CR><CR><ESC>kkicom<tab><esc>p<A-j>
 au Filetype tex,text,md set tw=50
 
 " au FileType tex set background=dark 
@@ -474,8 +474,8 @@ map <S-b> ?\$<CR>
 map <A-w> /}<CR>
 map <A-b> ?{<CR>
 
-map <C-q> <Esc>:qa!<CR> 
-map <m-q> <esc>:wqa<cr>  
+map <C-q> <Esc>:qa!<CR>
+map <m-q> <esc>:wqa<cr>
 " map <S-m-q> <esc>:wq<cr> 
 map <m-c> <esc>:close<cr>
 map <M-d> <Esc>:bdelete<CR
