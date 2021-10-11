@@ -579,8 +579,8 @@ au FileType tex,text,md noremap map o gj0i<CR><ESC>gki
 "  Sneak
 let g:sneak#use_ic_scs = 1
 
-map t :HopWordAC<>
-map T :HopWordBC
+map t :HopWordAC<cr>
+map T :HopWordBC cr
 " map t <ESC>:syntax off <CR>t: syntax on<CR>
 "  map t :syntaxoff <Plug>Sneak_s
 map T <Plug>Sneak_S
