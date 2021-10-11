@@ -1251,7 +1251,7 @@ lua require'hop'.setup { keys = 'etovxqpdygfblzhckisuran', term_seq_bias = 0.5 }
 " EOF
 " lua <<EOF
 " local saga = require 'lspsaga'{
-" saga.init_lsp_saga()
+" saga.init_lsp_saga() 
 " }
 " EOF
 
