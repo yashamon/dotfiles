@@ -48,7 +48,6 @@ lua <<EOF
       { name = 'nvim_lsp' },
 
       -- For vsnip user.
-      { name = 'vsnip' },
 
       -- For luasnip user.
        { name = 'luasnip' },
