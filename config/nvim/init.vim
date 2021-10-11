@@ -817,7 +817,7 @@ set foldmethod=expr foldexpr=getline(v:lnum)=~'^\s*'.&commentstring[0]
 " vsnip stuff 
 "
 " Use <Tab> and <S-Tab> to navigate through popup menu
-inoremap <expr> <A-space> pumvisible() ? "\<C-n>" : "\<Tab>"
+inoremap <expr> <Tab> pumvisible() ? "\<C-n>" : "\<Tab>"
 inoremap <expr> <C-space> pumvisible() ? "\<C-p>" : "\<S-Tab>"
 
 " Set completeopt to have a better completion experience
