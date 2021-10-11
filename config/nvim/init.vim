@@ -1328,7 +1328,7 @@ lua require'hop'.setup { keys = 'etovxqpdygfblzhckisuran', term_seq_bias = 0.5 }
 " hi! link Sneak Normal
 " hi! link SneakScope Normal   test test2 test3
 
-command! -bang -nargs=* Rg
-  \ call fzf#vim#grep(
-  \ "rg --column --line-number --no-heading --color=always --smart-case " .
-  \ <q-args>, 1, fzf#vim#with_preview(), <bang>0)
+" command! -bang -nargs=* Rg
+"   \ call fzf#vim#grep(
+"   \ "rg --column --line-number --no-heading --color=always --smart-case " .
+"   \ <q-args>, 1, fzf#vim#with_preview(), <bang>0)
