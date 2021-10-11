@@ -955,7 +955,7 @@ end,
 mapping = {
       ['<C-d>'] = cmp.mapping.scroll_docs(-4),
       ['<C-f>'] = cmp.mapping.scroll_docs(4),
-      CC-x ['<>'] = cmp.mapping.complete(),
+      ['<C-x>'] = cmp.mapping.complete(),
       ['<C-e>'] = cmp.mapping.close(),
       ['<CR>'] = cmp.mapping.confirm({ select = true }),
 -- ... Your other mappings ...
