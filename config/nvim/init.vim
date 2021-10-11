@@ -481,7 +481,6 @@ map <m-c> <esc>:close<cr>
 map <M-d> <Esc>:bdelete<CR
 noremap f /
 noremap F ?  
-vnoremap f <cmd>HopWordAC<>
 inoremap .<Esc> .<CR><Esc><leader>j
 inoremap .<Space> .<CR><Esc><leader>j
 " noremap S :S 
