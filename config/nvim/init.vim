@@ -478,10 +478,10 @@ map <C-q> <Esc>:qa!<CR>
 map <m-q> <esc>:wqa<cr>  
 " map <S-m-q> <esc>:wq<cr> 
 map <m-c> <esc>:close<cr>  
-map <M-d> <Esc>:bdelete<CR>
+map <M-d> <
 noremap f /
 noremap F ?  
-vnoremap D :<>HopWordAC<cr>
+vnoremap D <cmd>HopWordAC<cr>
 inoremap .<Esc> .<CR><Esc><leader>j
 inoremap .<Space> .<CR><Esc><leader>j
 " noremap S :S 
