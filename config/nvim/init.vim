@@ -2,8 +2,6 @@ call plug#begin('~/.vim/plugged')
 " Plug 'reedes/vim-pencil'
 Plug 'folke/zen-mode.nvim', { 'branch': 'main' } 
 " Plug 'AckslD/nvim-neoclip.lua', { 'branch': 'main' } 
-"
-Plug 'phaazon/hop.nvim'
 Plug 'nvim-lua/plenary.nvim'
 Plug 'nvim-telescope/telescope.nvim',  
 Plug 'nvim-treesitter/playground'
@@ -28,7 +26,7 @@ Plug 'hrsh7th/vim-vsnip', { 'branch': 'master' }
 Plug 'quangnguyen30192/cmp-nvim-tags',  { 'branch': 'main' } 
 Plug 'ray-x/cmp-treesitter'
 " For luasnip user. 
-Plug 'L3MON4D3/LuaSnip'
+" Plug 'L3MON4D3/LuaSnip'
 " Plug 'saadparwaiz1/cmp_luasnip'
 "Plug 'steelsojka/completion-buffers'
 Plug 'voldikss/vim-floaterm', { 'on': 'FloatermNew' }
@@ -141,7 +139,7 @@ call plug#end()
 
 "General Settings  
 set wrap  
-set pb=15 
+set pb=30 
 set switchbuf=newtab
 " let g:python3_host_prog='/usr/bin/python3.9'
 " let g:python3_host_prog='/usr/bin/python3.9'
@@ -286,7 +284,7 @@ au FileType tex,text,md set spell
 au FileType tex,text,md syntax sync fromstart
 au FileType tex,text,md silent execute "!echo " . v:servername . " > ~/servername.txt"   
 au FileType tex,text,md hi SpellBad cterm=undercurl
-au Filetype tex,text,md vmap q xi<CR><CR><CR><CR><ESC>kki/begin{comment}<cr><cr>/end{comment}<esc>kp
+au Filetype tex,text,md vmap q xi<CR><CR><CR><CR><ESC>kkicom<tab><esc>p<A-j> 
 au Filetype tex,text,md set tw=50
 
 " au FileType tex set background=dark 
@@ -474,13 +472,13 @@ map <S-b> ?\$<CR>
 map <A-w> /}<CR>
 map <A-b> ?{<CR>
 
-map <C-q> <Esc>:qa!<CR>
-map <m-q> <esc>:wqa<cr>
+map <C-q> <Esc>:qa!<CR> 
+map <m-q> <esc>:wqa<cr>  
 " map <S-m-q> <esc>:wq<cr> 
-map <m-c> <esc>:close<cr>
-map <M-d> <Esc>:bdelete<CR
+map <m-c> <esc>:close<cr>  
+map <M-d> <Esc>:bdelete<CR>
 noremap f /
-noremap F ?
+noremap F ? 
 inoremap .<Esc> .<CR><Esc><leader>j
 inoremap .<Space> .<CR><Esc><leader>j
 " noremap S :S 
@@ -579,14 +577,12 @@ au FileType tex,text,md noremap map o gj0i<CR><ESC>gki
 "  Sneak
 let g:sneak#use_ic_scs = 1
 
-map t <cmd>HopWordAC<cr>
-map T <cmd>HopWordBC<cr>
-
+map t <Plug>Sneak_s
 " map t <ESC>:syntax off <CR>t: syntax on<CR>
 "  map t :syntaxoff <Plug>Sneak_s
-" map T <Plug>Sneak_S
-" let g:sneak#s_next = 1
-"  let g:sneak#label = 1
+map T <Plug>Sneak_S
+let g:sneak#s_next = 1
+ let g:sneak#label = 1
 
 " FZF 
 "
@@ -813,12 +809,33 @@ EOF
 set foldmethod=expr foldexpr=getline(v:lnum)=~'^\s*'.&commentstring[0]
 
 
+" Quicktex
+" let g:quicktex_trigger="\t"
+" let g:quicktex_tex = {
+"     \' ' : "\<ESC>:call search('<+.*+>')\<CR>\"_c/+>/e\<CR>",
+"     \'m'   : '\( <+++> \) <++>',
+"     \'prf' : "\\begin{proof}\<CR><+++>\<CR>\\end{proof}",
+" \}
+"
+" let g:quicktex_math = {
+"     \' ': "\<ESC>:call search('<+.*+>')\<CR>\"_c/+>/e\<CR>",
+"     \'fr'   : '\mathcal{R} ',
+"     \'eq'   : '= ',
+"     \'set'  : '\{ <+++> \} <++>',
+"     \'frac' : '\frac{<+++>}{<++>} <++>',
+"     \'one'  : '1 ',
+"     \'st'   : ': ',
+"     \'in'   : '\in ',
+"     \'bn'   : '\mathbb{N} ',
+" \}
+"
+" NOTE: You can use other key to expand snippet.
 
 " vsnip stuff 
 "
 " Use <Tab> and <S-Tab> to navigate through popup menu
 inoremap <expr> <A-space> pumvisible() ? "\<C-n>" : "\<Tab>"
-inoremap <expr> <S-Tab> pumvisible() ? "\<C-p>" : "\<S-Tab>"
+inoremap <expr> <C-space> pumvisible() ? "\<C-p>" : "\<S-Tab>"
 
 " Set completeopt to have a better completion experience
 set completeopt=menuone,noinsert,noselect
@@ -955,7 +972,7 @@ end,
 mapping = {
       ['<C-d>'] = cmp.mapping.scroll_docs(-4),
       ['<C-f>'] = cmp.mapping.scroll_docs(4),
-      ['<Tab>'] = cmp.mapping.complete(),
+      ['<C-x>'] = cmp.mapping.complete(),
       ['<C-e>'] = cmp.mapping.close(),
       ['<CR>'] = cmp.mapping.confirm({ select = true }),
 -- ... Your other mappings ...
@@ -989,15 +1006,16 @@ sources = {
       -- { name = 'luasnip' },
 -- For ultisnips user.
       -- { name = 'ultisnips' },  
-   { name = 'buffer', keyword_length = 4 },
-   { name = 'omni' , keyword_length = 4},
+   
+     { name = 'buffer', keyword_length = 4 },
+     { name = 'omni' , keyword_length = 4},
        -- { name = 'spell' }, 
-   { name = 'treesitter', keyword_length = 4  },
-   { name = 'tags' , keyword_length = 4 }, 
-   { name = 'nvim_lsp', keyword_length = 4 },      
+    { name = 'treesitter', keyword_length = 4  },
+    { name = 'tags' , keyword_length = 4 }, 
+    { name = 'nvim_lsp', keyword_length = 4 },      
 --{ name = 'latex_symbols' },
-}
-}
+} 
+} 
 EOF
 
 " LSP mappings   
@@ -1195,10 +1213,8 @@ require('telescope').setup{
     -- }
     -- please take a look at the readme of the extension you want to configure
   }
-} 
+}
 EOF
-lua require'hop'.setup { keys = 'etovxqpdygfblzhckisuran', term_seq_bias = 0.5 } 
-
 " lua <<EOF
 " require('neoclip').setup({
 "       history = 1000,
@@ -1229,10 +1245,9 @@ lua require'hop'.setup { keys = 'etovxqpdygfblzhckisuran', term_seq_bias = 0.5 }
 " EOF
 " lua <<EOF
 " local saga = require 'lspsaga'{
-" saga.init_lsp_saga() 
+" saga.init_lsp_saga()
 " }
 " EOF
-
 
 "au FileType tex autocmd User SneakLeave set syntax=tex
 "au FileType tex autocmd User SneakEnter set syntax=text
@@ -1305,9 +1320,5 @@ lua require'hop'.setup { keys = 'etovxqpdygfblzhckisuran', term_seq_bias = 0.5 }
 "
 "asdf asldfkj
 " hi! link Sneak Normal
-" hi! link SneakScope Normal   test test2 test3
+" hi! link SneakScope Normal  
 
-" command! -bang -nargs=* Rg
-"   \ call fzf#vim#grep(
-"   \ "rg --column --line-number --no-heading --color=always --smart-case " .
-"   \ <q-args>, 1, fzf#vim#with_preview(), <bang>0)
