@@ -479,8 +479,8 @@ map <m-q> <esc>:wqa<cr>
 " map <S-m-q> <esc>:wq<cr> 
 map <m-c> <esc>:close<cr>  
 map <M-d> <Esc>:bdelete<CR>
-noremap f :HopWordAC
-noremap F :HopWordBC 
+noremap f /
+noremap F ? 
 inoremap .<Esc> .<CR><Esc><leader>j
 inoremap .<Space> .<CR><Esc><leader>j
 " noremap S :S 
@@ -1216,9 +1216,8 @@ require('telescope').setup{
     -- please take a look at the readme of the extension you want to configure
   }
 }
-EOF
+EOF 
 lua require'hop'.setup { keys = 'etovxqpdygfblzhckisuran', term_seq_bias = 0.5 } 
-
 " lua <<EOF
 " require('neoclip').setup({
 "       history = 1000,
