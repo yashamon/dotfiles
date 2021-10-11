@@ -1196,8 +1196,8 @@ require('telescope').setup{
     -- please take a look at the readme of the extension you want to configure
   }
 } 
-EOF 
-lua require'hop'.setup { keys = 'etovxqpdygfblzhckisuran', term_seq_bias = 0.5 } 
+EOF
+lua require'hop'.setup { keys = 'etovxqpdygfblzhckisuran', term_seq_bias = 0.5 }
 
 " lua <<EOF
 " require('neoclip').setup({
