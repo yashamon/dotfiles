@@ -3,7 +3,8 @@ call plug#begin('~/.vim/plugged')
 Plug 'folke/zen-mode.nvim', { 'branch': 'main' } 
 " Plug 'AckslD/nvim-neoclip.lua', { 'branch': 'main' } 
 "
-Plug 'phaazon/hop.nvim' Dark()
+Plug 'phaazon/hop.nvim' 
+
 Plug 'nvim-lua/plenary.nvim'
 Plug 'nvim-telescope/telescope.nvim',  
 Plug 'nvim-treesitter/playground'
