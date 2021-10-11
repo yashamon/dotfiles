@@ -1024,6 +1024,7 @@ require('nvim_comment').setup(
 }
 )
 EOF
+
 nmap <leader>c gc
 " lua <<EOF
 " local true_zen = require("true-zen")
