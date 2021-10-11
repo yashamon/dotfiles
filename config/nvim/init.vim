@@ -1204,9 +1204,9 @@ require('fm-nvim').setup{
 	config =
 	{
 		edit_cmd = "edit", -- opts: 'tabedit'; 'split'; 'pedit'; etc...
-		border   = "shawdow", -- opts: 'rounded'; 'double'; 'single'; 'solid'; 'shawdow'
+		border   = "shadow", -- opts: 'rounded'; 'double'; 'single'; 'solid'; 'shawdow'
 		height   = 1,
-		width    = 0.8,
+		width    = 1,
 	}
 }
 EOF
