@@ -963,7 +963,7 @@ mapping = {
       if vim.fn["vsnip#available"]() == 1
         then
         feedkey("<Plug>(vsnip-expand-or-jump)", "")
-     elseif cmp.visible() == 1 then
+     elseif cmp.visible() then
         cmp.select_next_item()
       elseif has_words_before() then 
         cmp.complete()
