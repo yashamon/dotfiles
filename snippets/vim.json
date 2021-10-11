@@ -8,6 +8,13 @@
        ],
     "description": "EOF"
     },   
+"cr": {
+    "prefix": "cr",
+    "body": [
+        "<$1>$0"
+       ],
+    "description": "vim bracket"
+    },
 
 "<>": {
     "prefix": "br",
