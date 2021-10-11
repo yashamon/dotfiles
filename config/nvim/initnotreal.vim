@@ -47,12 +47,9 @@ lua <<EOF
     sources = {
       { name = 'nvim_lsp' },
 
-      -- For vsnip user.
-
       -- For luasnip user.
        { name = 'luasnip' },
-
-      -- For ultisnips user.
+-- For ultisnips user.
       -- { name = 'ultisnips' },
 
       { name = 'buffer' },
