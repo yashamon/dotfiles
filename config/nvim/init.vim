@@ -479,8 +479,8 @@ map <m-q> <esc>:wqa<cr>
 " map <S-m-q> <esc>:wq<cr> 
 map <m-c> <esc>:close<cr>  
 map <M-d> <Esc>:bdelete<CR>
-noremap f \
-noremap F 
+noremap f :HopPatternAC<cr>
+noremap F :HopPatternBC<cr>
 inoremap .<Esc> .<CR><Esc><leader>j
 inoremap .<Space> .<CR><Esc><leader>j
 " noremap S :S 
@@ -1217,6 +1217,7 @@ require('telescope').setup{
   }
 }
 EOF
+
 lua require'hop'.setup { keys = 'etovxqpdygfblzhckisuran', term_seq_bias = 0.5 } 
 
 " lua <<EOF
