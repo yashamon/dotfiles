@@ -1233,6 +1233,7 @@ lua require'hop'.setup { keys = 'etovxqpdygfblzhckisuran', term_seq_bias = 0.5 }
 " }
 " EOF
 
+
 "au FileType tex autocmd User SneakLeave set syntax=tex
 "au FileType tex autocmd User SneakEnter set syntax=text
 "
