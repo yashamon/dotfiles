@@ -1186,7 +1186,7 @@ require('telescope').setup{
     --   ...
     -- }
     -- Now the picker_config_key will be applied every time you call this
-    -- builtin picker configuration
+    -- builtin picker 
   },
   extensions = {
     -- Your extension configuration goes here:
