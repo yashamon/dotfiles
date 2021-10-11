@@ -817,7 +817,7 @@
     "description": "mathfrak g"
   },
 "rho": {
-    "prefix": ["r", "\\e"],
+    "prefix": ["rho", "\\e"],
     "body": [
       "\\rho $0"
     ],
