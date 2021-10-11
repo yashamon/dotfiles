@@ -967,7 +967,7 @@ mapping = {
         cmp.select_next_item()
       elseif has_words_before() then 
         cmp.complete()
-      else
+      else 
         fallback() -- The fallback function sends a already mapped key. In this case, it's probably `<Tab>`.
       end
     end, { "i", "s" }),
