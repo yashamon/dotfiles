@@ -998,7 +998,7 @@ sources = {
 --{ name = 'latex_symbols' },
 } 
 } 
-EOF 
+EOF
 
 " LSP mappings   
 "" LSP mappings 
