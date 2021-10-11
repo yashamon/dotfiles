@@ -480,7 +480,7 @@ map <m-q> <esc>:wqa<cr>
 map <m-c> <esc>:close<cr>  
 map <M-d> <Esc>:bdelete<CR>
 noremap f :HopWordAC
-noremap F ? 
+noremap F :HopWordBC 
 inoremap .<Esc> .<CR><Esc><leader>j
 inoremap .<Space> .<CR><Esc><leader>j
 " noremap S :S 
