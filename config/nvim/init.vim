@@ -477,7 +477,7 @@ map <A-b> ?{<CR>
 map <C-q> <Esc>:qa!<CR> 
 map <m-q> <esc>:wqa<cr>  
 " map <S-m-q> <esc>:wq<cr> 
-map <m-c> <esc>:close<cr>  
+map <m-c> <esc>:close<cr
 map <M-d> <Esc>:bdelete<CR
 noremap f /
 noremap F ?
