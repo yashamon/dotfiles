@@ -964,7 +964,7 @@ mapping = {
         then
         feedkey("<Plug>(vsnip-expand-or-jump)", "")
      elseif cmp.visible() == 1 then
-        cmp()
+        cmp.select_next_item()
       elseif has_words_before() then 
         cmp.complete()
       else
