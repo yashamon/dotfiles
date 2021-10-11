@@ -73,7 +73,7 @@ Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 " Plug 'sindrets/diffview.nvim', { 'branch': 'main' } 
 " Plug 'sindrets/diffview.nvim', { 'branch': 'main' } 
 "Plug 'rmagatti/auto-session', { 'branch': 'main' }
-" Plug 'justinmk/vim-sneak'
+Plug 'justinmk/vim-sneak'
 Plug 'Shougo/neoyank.vim' 
 if has('nvim')
    Plug 'Shougo/denite.nvim', { 'do': ':UpdateRemotePlugins' }
