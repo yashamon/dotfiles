@@ -479,7 +479,7 @@ map <m-q> <esc>:wqa<cr>
 " map <S-m-q> <esc>:wq<cr> 
 map <m-c> <esc>:close<cr>  
 map <M-d> <Esc>:bdelete<CR>
-noremap f :HopPatternAC<cr>
+noremap f \
 noremap F :HopPatternBC<cr>
 inoremap .<Esc> .<CR><Esc><leader>j
 inoremap .<Space> .<CR><Esc><leader>j
