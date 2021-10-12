@@ -817,7 +817,7 @@
     "description": "field R"
   }, 
 "mathfrak": {
-    "prefix": ["fr"],
+    "prefix": ["frak"],
     "body": [
       "\\mathfrak $0"
     ],
@@ -887,7 +887,7 @@
     "body": [
       "\\mathcal{G} $0"
     ],
-    "description": "cal A"
+    "description": "cal G"
   },
 
 "caligraphic A": {
