@@ -881,7 +881,8 @@
       "\\Delta^{$1} $0"
     ],
     "description": "Delta d-simplex"
-  },
+  }, 
+
 "caligraphic A": {
     "prefix": ["cA"],
     "body": [
