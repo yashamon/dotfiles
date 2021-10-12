@@ -298,10 +298,10 @@
   "Section": {
     "prefix": "sec",
     "body": [
-      "\\section{${1: name}} % (fold)",
+      "\\section{${1:name}} % (fold)",
       "\\label{sub:$1}"
       ],
-    "description": "Sub Section"
+    "description": "Section"
   },
 
   "Sub Section": {
