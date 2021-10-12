@@ -755,9 +755,17 @@
       "\\partial $0"
     ],
     "description": "partial"
-  },
+  }, 
 "epsilon": {
-    "prefix": ["eps", "\\o"],
+    "prefix": ["eps"],
+    "body": [
+      "\\epsilon $0"
+    ],
+    "description": "epsilon"
+  },
+
+"epsilon": {
+    "prefix": ["eps"],
     "body": [
       "\\epsilon $0"
     ],
