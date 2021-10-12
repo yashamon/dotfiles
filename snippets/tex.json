@@ -756,7 +756,7 @@
     ],
     "description": "partial"
   }, 
-"omega": {
+"phi": {
     "prefix": ["eps"],
     "body": [
       "\\epsilon $0"
