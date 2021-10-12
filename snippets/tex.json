@@ -883,7 +883,7 @@
     "description": "Delta d-simplex"
   }, 
 "caligraphic G": {
-    "prefix": ["cA"],
+    "prefix": ["cG"],
     "body": [
       "\\mathcal{A} $0"
     ],
