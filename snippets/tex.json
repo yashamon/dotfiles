@@ -765,7 +765,7 @@
     "description": "omega"
   },
 "field K": {
-    "prefix": ["fk", "\\eps"],
+    "prefix": ["fk"],
     "body": [
       "\\mathbb{K} $0"
     ],
