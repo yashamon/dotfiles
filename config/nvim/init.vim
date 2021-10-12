@@ -480,7 +480,7 @@ map <m-q> <esc>:wqa<cr>
 " map <S-m-q> <esc>:wq<cr> 
 map <m-c> <esc>:close<cr>
 map <M-d> <Esc>:bdelete<CR> 
-noremap <>
+noremap gf
 noremap f /
 noremap F ?
 inoremap .<Esc> .<CR><Esc><leader>j
