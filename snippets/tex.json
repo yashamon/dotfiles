@@ -756,6 +756,13 @@
     ],
     "description": "partial"
   },
+"epsilon": {
+    "prefix": ["eps", "\\o"],
+    "body": [
+      "\\epsilon $0"
+    ],
+    "description": "epsilon"
+  },
 
 "omega": {
     "prefix": ["o", "\\o"],
