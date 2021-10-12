@@ -7,7 +7,6 @@ Plug 'is0n/fm-nvim'
 Plug 'nvim-lua/plenary.nvim'
 Plug 'nvim-telescope/telescope.nvim',  
 Plug 'nvim-treesitter/playground'
->>>>>>> 8fea824645564395676bc28cb78727df408c3c61
 Plug 'hoob3rt/lualine.nvim', 
 Plug 'karb94/neoscroll.nvim' 
 " Plug 'folke/twilight.nvim', { 'branch': 'main' }
