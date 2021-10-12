@@ -808,10 +808,10 @@
     ],
     "description": "field naturals"
   },
-"field R": {
-    "prefix": ["fR"],
+"field CP": {
+    "prefix": ["cp"],
     "body": [
-      "\\mathbb{R} ^{$1} $0"
+      "\\mathbb{CP} ^{$1} $0"
     ],
     "description": "field R"
   }, 
