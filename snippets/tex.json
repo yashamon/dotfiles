@@ -759,7 +759,7 @@
 "phi": {
     "prefix": ["phi"],
     "body": [
-      "\\epsilon $0"
+      "\\phi $0"
     ],
     "description": "epsilon"
   },
