@@ -885,7 +885,7 @@
 "caligraphic G": {
     "prefix": ["cG"],
     "body": [
-      "\\mathcal{A} $0"
+      "\\mathcal{G} $0"
     ],
     "description": "cal A"
   },
