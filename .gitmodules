@@ -4,21 +4,12 @@
 [submodule "fasd"]
 	path = fasd
 	url = https://github.com/clvv/fasd.git
-[submodule "neovim"]
-	path = neovim
-	url = https://github.com/neovim/neovim.git
 [submodule "vim-plug"]
 	path = vim-plug
 	url = https://github.com/junegunn/vim-plug.git
 [submodule "gitwatch"]
 	path = gitwatch
 	url = https://github.com/gitwatch/gitwatch.git
-[submodule "vim-plug2"]
-	path = vim-plug2
-	url = https://github.com/junegunn/vim-plug.git
 [submodule "PDFViewer"]
 	path = PDFViewer
 	url = https://github.com/larki/PDFViewer.git
-[submodule "neovim-qt"]
-	path = neovim-qt
-	url = https://github.com/equalsraf/neovim-qt.git

@@ -7,7 +7,23 @@
          "EOF"
        ],
     "description": "EOF"
-    }, 
+    },   
+"cr": {
+    "prefix": "cr",
+    "body": [
+        "<cr>$0"
+       ],
+    "description": "cr"
+    },
+
+"<>": {
+    "prefix": "br",
+    "body": [
+        "<$1>$0"
+       ],
+    "description": "vim bracket"
+    },
+
 "leader": {
     "prefix": "lead",
     "body": [

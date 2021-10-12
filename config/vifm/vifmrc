@@ -10,10 +10,9 @@ command nautilus nautilus %f
 command sacddir for f in */*.iso ; do sacd_extract -2 -s -c -i "$f" ; done
 nnoremap w :view<cr>
 noremap t :tabnew<cr>
-noremap <Aleft> gt
-noremap <right> Gt
+noremap <A-l> gt
+noremap <A-h> Gt
 noremap e :edit<cr>
-
 map f / 
 map sh <esc>:sh<cr>
 map <m-q> <ESC>:execute '!echo %d > ~/.config/vifm/lastdir'| quit <CR>
@@ -99,7 +98,7 @@ set noiec
 
 " Selected color scheme
 
-colorscheme solarized-dark
+colorscheme papercolor-dark
 
 " The FUSE_HOME directory will be used as a root dir for all FUSE mounts.
 " Unless it exists with write/exec permissions set, vifm will attempt to

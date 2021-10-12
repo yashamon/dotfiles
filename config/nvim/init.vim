@@ -2,8 +2,12 @@ call plug#begin('~/.vim/plugged')
 " Plug 'reedes/vim-pencil'
 Plug 'folke/zen-mode.nvim', { 'branch': 'main' } 
 " Plug 'AckslD/nvim-neoclip.lua', { 'branch': 'main' } 
-Plug 'nvim-lua/plenary.nvim' 
-Plug 'nvim-telescope/telescope.nvim', 
+Plug 'phaazon/hop.nvim' 
+Plug 'is0n/fm-nvim'
+Plug 'nvim-lua/plenary.nvim'
+Plug 'nvim-telescope/telescope.nvim',  
+Plug 'nvim-treesitter/playground'
+>>>>>>> 8fea824645564395676bc28cb78727df408c3c61
 Plug 'hoob3rt/lualine.nvim', 
 Plug 'karb94/neoscroll.nvim' 
 " Plug 'folke/twilight.nvim', { 'branch': 'main' }
@@ -13,10 +17,10 @@ Plug 'shaunsingh/nord.nvim'
 "Plug 'vim-commentary'
 "Plug 'b3nj5m1n/kommentary'
 " Plug 'simnalamburt/vim-mundo'
-Plug 'neovim/nvim-lspconfig',  { 'branch': 'main' } 
+ Plug 'neovim/nvim-lspconfig',  { 'branch': 'main' } 
 " Plug 'glepnir/lspsaga.nvim'
 " If you are using Vim-Plug
-Plug 'hrsh7th/cmp-nvim-lsp', { 'branch': 'main' } 
+ Plug 'hrsh7th/cmp-nvim-lsp', { 'branch': 'main' } 
 " Plug 'kdheepak/cmp-latex-symbols', { 'branch': 'main' } 
 Plug 'hrsh7th/cmp-buffer', { 'branch': 'main' }
 Plug 'hrsh7th/nvim-cmp', { 'branch': 'main' }
@@ -25,16 +29,10 @@ Plug 'hrsh7th/vim-vsnip', { 'branch': 'master' }
 Plug 'quangnguyen30192/cmp-nvim-tags',  { 'branch': 'main' } 
 Plug 'ray-x/cmp-treesitter'
 " For luasnip user. 
-" Plug 'L3MON4D3/LuaSnip'
+Plug 'L3MON4D3/LuaSnip'
 " Plug 'saadparwaiz1/cmp_luasnip'
 "Plug 'steelsojka/completion-buffers'
 Plug 'voldikss/vim-floaterm', { 'on': 'FloatermNew' }
-"Plug 'nvim-treesitter/completion-treesitter'
-"Plug 'vifm/vifm'
-"Plug 'TimUntersberger/neogit' 
-" Plug 'tpope/vim-fugitive' 
-"Plug 'junegunn/gv.vim'
-Plug 'cohama/agit.vim'
 Plug 'kabouzeid/nvim-lspinstall', { 'branch': 'main' }
 "Plug 'pope/vim-obsession'
 "Plug 'xolox/vim-easytags'
@@ -44,11 +42,8 @@ Plug 'xolox/vim-misc'
 Plug 'terrortylor/nvim-comment', { 'branch': 'main' }
 Plug 'kevinhwang91/nvim-bqf'
 Plug 'justinhoward/fzf-neoyank' 
-" Plug 'stefanhepp/pplatex'
-" lua require("lsp_config")
-" Plug 'hrsh7th/vim-vsnip'
+ Plug 'hrsh7th/vim-vsnip'
 " Plug 'svermeulen/vim-cutlass'
-"Plug 'kristijanhusak/completion-tags'
 Plug 'kyazdani42/nvim-web-devicons' " for file icons
 " Plug 'kyazdani42/nvim-tree.lua', 
 "Plug 'nvim-lua/completion-nvim'
@@ -67,9 +62,6 @@ Plug 'nvim-lua/diagnostic-nvim'
 Plug 'projekt0n/github-nvim-theme',  { 'branch': 'main' }
 Plug 'rktjmp/lush.nvim', { 'branch': 'main' } 
 Plug 'rakr/vim-one' 
-Plug 'adisen99/codeschool.nvim'
-" Plug 'brennier/quicktex'
-" Plug 'ellisonleao/gruvbox.nvim',  {'branch': 'main' }
 " Plug 'cyansprite/Extract'
 Plug 'gioele/vim-autoswap'
 Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'} 
@@ -118,7 +110,6 @@ Plug 'junegunn/fzf.vim'
 
 Plug 'mbbill/undotree', { 'on': 'UndotreeToggle' }
  '}
-
 Plug 'lifepillar/vim-solarized8'
 
 Plug 'vim-scripts/AutoTag'
@@ -127,7 +118,7 @@ Plug 'vim-scripts/vim-auto-save'
 
 " Plug 'vim-pandoc/vim-pandoc'
 
-Plug 'yashamon/vim-snippets'
+" Plug 'yashamon/vim-snippets'
 
 Plug 'lervag/vimtex'
 " colorschemes
@@ -150,9 +141,8 @@ call plug#end()
 
 
 "General Settings  
-
 set wrap  
-set pb=30 
+set pb=15 
 set switchbuf=newtab
 " let g:python3_host_prog='/usr/bin/python3.9'
 " let g:python3_host_prog='/usr/bin/python3.9'
@@ -163,7 +153,6 @@ set expandtab        "replace <TAB> with spaces
 set softtabstop=3 
 set shiftwidth=3 
 set termguicolors  
-" syntax enable
 set guicursor=n-v-c:block,i-ci-ve:ver25,r-cr:hor20,o:hor50
 		  \,a:blinkwait700-blinkoff400-blinkon250-Cursor/lCursor
 		  \,sm:block-blinkwait175-blinkoff150-blinkon175
@@ -225,7 +214,7 @@ set inccommand=split
 set mouse=
 set bs=2		" allow backspacing over everything in insert mode 
 set undofile                " Save undo's after file closes
-set undodir=./undo/ " where to save undo histories
+set undodir=undo " where to save undo histories
 set undolevels=100000         " How many undos
 set undoreload=10000		
 set ruler		" show the cursor position all the time
@@ -241,10 +230,8 @@ let maplocalleader = "\\"
 " ignore these files while expanding wild chars
 set wildignore=*.o,*.class,*.pyc
 
-"set autoindent		" auto indentation
 set incsearch		" incremental search
 set nobackup		" no *~ backup files
-set copyindent		" copy the previous indentation on autoindenting
 set ignorecase		" ignore case when searching
 set smartcase		" ignore case if search pattern is all lowercase,case-sensitive otherwise
 "set smarttab		" insert tabs on the start of a line according to context
@@ -256,7 +243,6 @@ set tm=500
 " set macmeta
 " auto reload vimrc when editing it
 " autocmd! bufwritepost ~/.config/nvim/init.vim source ~/.config/nvim/init.vim
-syntax on		" syntax highlight
 " set hlsearch		" search highlighting
 "
 if has("gui_running")	" GUI color and font settings
@@ -301,7 +287,7 @@ au FileType tex,text,md set spell
 au FileType tex,text,md syntax sync fromstart
 au FileType tex,text,md silent execute "!echo " . v:servername . " > ~/servername.txt"   
 au FileType tex,text,md hi SpellBad cterm=undercurl
-au Filetype tex,text,md vmap q xi<CR><CR><CR><CR><ESC>kkicom<tab><esc>p<A-j> 
+au Filetype tex,text,md vmap q xi<CR><CR><CR><CR><ESC>kki/begin{comment}<cr><cr>/end{comment}<esc>kp
 au Filetype tex,text,md set tw=50
 
 " au FileType tex set background=dark 
@@ -312,7 +298,7 @@ au TextYankPost * call neoyank#_append()
 function Light()
 set background=light
 " colorscheme oceanlight 
-colorscheme codeschool 
+colorscheme one 
 " highlight Normal ctermfg=black
 " highlight  CursorLine cterm=NONE ctermbg=black ctermfg=none
 " hi MatchParen cterm=underline ctermbg=none ctermfg=magenta
@@ -423,13 +409,14 @@ set fileencoding=utf-8
 set fileencodings=ucs-bom,utf-8,big5,gb2312,latin1
 
 "maps remaps mappings
-noremap <leader>h :set tw=50<cr> 
-noremap <leader>w :set tw=0<cr>
-noremap q <nop> 
+noremap <leader>r :e<cr>
+noremap <leader>h :set tw=50<cr>
+noremap <leader>w :set tw=0<cr> 
+noremap q <nop>
 map <leader>q q
 nnoremap <leader>sv :source $MYVIMRC<CR>
 "nnoremap <leader>e :NERDTreeFind<CR> 
-nnoremap <leader>e :FloatermNew vifm<cr> 
+nnoremap <leader>e :Vifm<cr>
 nnoremap <leader>t :FloatermToggle<cr> 
 
 
@@ -479,8 +466,8 @@ map <Leader>n <Plug>(miniyank-cycle)
 nnoremap <Left> :bnext<CR>
 nnoremap <Right> :bprevious<CR>
 " tnoremap <Esc> <C-\> 
-noremap < :tabp<CR>
-nnoremap > :tabn<CR>
+" nnoremap < :tabp<CR>
+" nnoremap > :tabn<CR>
 " nnoremap <leader>n :tabedit %<CR>
 imap <M-j> <C-j>
 map <S-w> /\$<CR>
@@ -488,26 +475,26 @@ map <S-b> ?\$<CR>
 map <A-w> /}<CR>
 map <A-b> ?{<CR>
 
-map <C-q> <Esc>:qa!<CR> 
-map <m-q> <esc>:wqa<cr>  
+map <C-q> <Esc>:qa!<CR>
+map <m-q> <esc>:wqa<cr>
 " map <S-m-q> <esc>:wq<cr> 
-map <m-c> <esc>:close<cr>  
-map <M-d> <Esc>:bdelete<CR>
+map <m-c> <esc>:close<cr>
+map <M-d> <Esc>:bdelete<CR> 
+noremap gf gq
 noremap f /
-noremap F ? 
+noremap F ?
 inoremap .<Esc> .<CR><Esc><leader>j
 inoremap .<Space> .<CR><Esc><leader>j
 " noremap S :S 
 "
 "
 " function! Sneak()
-"     syntax off
 "     hi! link Sneak Normal
 "     hi! link SneakScope Normal
 "     execute 'normal! \<Plug>Sneak_s'
 "     syntax on
 " endfunction
- map n <Plug>Sneak_;
+ map <leader>n <Plug>Sneak_;
 " map N <Plug>Sneak_,
 " map t <Plug>(smalls-excursion)
 " let g:smalls_auto_jump=1
@@ -526,7 +513,6 @@ map j gj
 map k gk
 noremap <Space> .
 vnoremap <Space> t <cr>
-noremap <leader>r <C-r>
 map K <C-u>
 map J <C-d>
 " map <C-j> zz
@@ -545,8 +531,8 @@ noremap <m-1> <C-o>
 noremap <m-2> <C-i>
 noremap <D-d> <C-d>
 map ;s <Esc>:w<CR>
-noremap <A-d> <C-d>
-noremap <M-d> <C-d>
+" noremap <A-d> <C-d>
+" noremap <M-d> <C-d>
 noremap <D-u> <C-u>
 noremap <A-u> <C-u>
 " this mapping Enter key to <C-y> to chose the current highlight item 
@@ -595,12 +581,14 @@ au FileType tex,text,md noremap map o gj0i<CR><ESC>gki
 "  Sneak
 let g:sneak#use_ic_scs = 1
 
-map t <Plug>Sneak_s
+map t <cmd>HopWordAC<cr>
+map T <cmd>HopWordBC<cr>
+
 " map t <ESC>:syntax off <CR>t: syntax on<CR>
 "  map t :syntaxoff <Plug>Sneak_s
-map T <Plug>Sneak_S
-let g:sneak#s_next = 1
- let g:sneak#label = 1
+" map T <Plug>Sneak_S
+" let g:sneak#s_next = 1
+"  let g:sneak#label = 1
 
 " FZF 
 "
@@ -610,7 +598,7 @@ noremap S <Esc>:BLines<CR>
 " Line search mapping
 noremap <m-l> viwhy<esc>:bdelete<cr>:<c-r>+<cr>:ZenMode<cr>  
 noremap <m-b> <Esc>:Buffers<CR> 
-noremap F <Esc>:GFiles<CR> 
+" noremap F <Esc>:GFiles<CR> 
 map <A-e> :FZF ~<CR>
 
 " vimtex settings
@@ -622,9 +610,9 @@ map <A-e> :FZF ~<CR>
 " let g:vimtex_view_general_options = '-r @line @pdf @tex'
 let g:latex_view_general_viewer = 'zathura'
 let g:vimtex_view_method = "zathura"
-let g:vimtex_indent_enabled =1
-let g:vimtex_syntax_enabled=1
-"noremap L <Esc>:AsyncRun sentence.sh %;nvr sentence_%<cr>:echo 'press any key'<cr>:execute 'call getchar()' | BLines<cr> 
+" let g:vimtex_indent_enabled =1
+" let g:vimtex_syntax_enabled=1 
+
 function! Sentence() 
   AsyncRun sentence.sh %; nvr sentence_%  
   echo "Print any character"
@@ -751,7 +739,7 @@ autocmd BufWritePost * silent execute 'AsyncRun if git rev-parse --is-inside-wor
     "
     "
     " UndoTree {
-        noremap <Leader>u <esc>:UndotreeToggle<CR>
+noremap <Leader>u :ZenMode<cr>:UndotreeToggle<CR>:ZenMode<cr>
         " If undotree is opened, it is likely one wants to interact with it.
         let g:undotree_SetFocusWhenToggle=1
         noremap <D-z> u
@@ -784,10 +772,10 @@ set directory=$HOME/Downloads
 lua <<EOF
 require'nvim-treesitter.configs'.setup { 
     --
-    --highlight = { enable = true },
+    highlight = { enable = true },
     incremental_selection = { enable = true },
     textobjects = { enable = true },
-    indent = { enable = true },
+    indent = { enable = true }, 
 }
 EOF
 
@@ -827,71 +815,20 @@ EOF
 set foldmethod=expr foldexpr=getline(v:lnum)=~'^\s*'.&commentstring[0]
 
 
-" Quicktex
-" let g:quicktex_trigger="\t"
-" let g:quicktex_tex = {
-"     \' ' : "\<ESC>:call search('<+.*+>')\<CR>\"_c/+>/e\<CR>",
-"     \'m'   : '\( <+++> \) <++>',
-"     \'prf' : "\\begin{proof}\<CR><+++>\<CR>\\end{proof}",
-" \}
-"
-" let g:quicktex_math = {
-"     \' ': "\<ESC>:call search('<+.*+>')\<CR>\"_c/+>/e\<CR>",
-"     \'fr'   : '\mathcal{R} ',
-"     \'eq'   : '= ',
-"     \'set'  : '\{ <+++> \} <++>',
-"     \'frac' : '\frac{<+++>}{<++>} <++>',
-"     \'one'  : '1 ',
-"     \'st'   : ': ',
-"     \'in'   : '\in ',
-"     \'bn'   : '\mathbb{N} ',
-" \}
-"
-" NOTE: You can use other key to expand snippet.
 
 " vsnip stuff 
 "
 " Use <Tab> and <S-Tab> to navigate through popup menu
-inoremap <expr> <A-space> pumvisible() ? "\<C-n>" : "\<Tab>"
-inoremap <expr> <C-space> pumvisible() ? "\<C-p>" : "\<S-Tab>"
+inoremap <expr> <m-space> pumvisible() ? "\<C-n>" : "\<Tab>"
+inoremap <expr> <c-space> pumvisible() ? "\<C-p>" : "\<S-Tab>"
 
 " Set completeopt to have a better completion experience
 set completeopt=menuone,noinsert,noselect
 
 " Avoid showing message extra message when using completion
 set shortmess+=c
-"imap <tab> <Plug>(completion_smart_tab)
-"imap <s-tab> <Plug>(completion_smart_s_tab)
-"let g:completion_enable_snippet = 'vim-vsnip'
-"let g:vsnip_snippet_dir = '$HOME/dotfiles/snippets' 
-"let g:completion_trigger_keyword_length = 3
-" completion nvim
-"
-"
-"
-"
-"function! PackagerInit()
-  "call packager#add('kristijanhusak/vim-packager')
-  "call packager#add('nvim-lua/completion-nvim')
-  "call packager#add('hrsh7th/vim-vsnip-integ')
-"endfunction
+let g:vsnip_snippet_dir = '~/dotfiles/snippets'  
 
-" let g:completion_chain_complete_list = {
-"       \ 'default': [
-"       \    {'complete_items': ['lsp']},
-"       \    {'complete_items': ['tags']},
-"       \    {'complete_items': ['snippet']}, 
-"       \    ]}
-
-" Or combine with lsp completion-nvim
-"let g:completion_chain_complete_list = {
-      "\ 'default': [
-      "\    {'complete_items': ['snippet', 'treesitter', 'buffers', 'tags']},  
-      "\  ]}
-"let g:completion_enable_auto_popup = 1
-"imap <silent> <M-Space> <Plug>(completion_trigger) 
-
-let g:vsnip_snippet_dir = '~/dotfiles/snippets'
 " imap <expr> <m-space>   vsnip#expandable()  ? '<Plug>(vsnip-expand)'         : '<C-j>'
 " smap <expr> <m-space>   vsnip#expandable()  ? '<Plug>(vsnip-expand)'         : '<C-j>'
 " 
@@ -900,27 +837,12 @@ let g:vsnip_snippet_dir = '~/dotfiles/snippets'
 " smap <expr> <m-space>   vsnip#available(1)  ? '<Plug>(vsnip-expand-or-jump)' : '<C-l>'
 
 " Jump forward or backward
-  imap <expr> <M-j>   vsnip#jumpable(1)   ? '<Plug>(vsnip-jump-next)'      : '<Tab>'
+imap <expr> <M-j>   vsnip#jumpable(1)   ? '<Plug>(vsnip-jump-next)'      : '<Tab>'
   smap <expr> <M-j>   vsnip#jumpable(1)   ? '<Plug>(vsnip-jump-next)'      : '<Tab>'
 imap <expr> <M-k> vsnip#jumpable(-1)  ? '<Plug>(vsnip-jump-prev)'      : '<S-Tab>'
 smap <expr> <M-k> vsnip#jumpable(-1)  ? '<Plug>(vsnip-jump-prev)'      : '<S-Tab>'
 
-" Select or cut text to use as $TM_SELECTED_TEXT in the next snippet.
-" See https://github.com/hrsh7th/vim-vsnip/pull/50
 "
-lua << EOF
-require'lspconfig'.texlab.setup{}
-
-EOF
-lua << EOF
-require'lspconfig'.jsonls.setup{}
-EOF
-
-
-
-lua << EOF
-require'lspconfig'.rust_analyzer.setup{}
-EOF
 " set foldexpr=nvim_treesitter#foldexpr()
 "
 lua << EOF
@@ -970,7 +892,6 @@ for _, lsp in ipairs(servers) do
 end
 EOF
 
-"lua require'lspconfig'.texlab.setup{on_attach=require'completion'.on_attach}
 
 "Lsp install
 
@@ -1000,16 +921,12 @@ nnoremap <leader>p :FZFNeoyank +<cr>
 nnoremap <leader>1 :FZFNeoyank 1<cr>
 nnoremap <leader>P :FZFNeoyank " P+<cr>
 vnoremap <leader>p :FZFNeoyankSelection +<cr>
-" map <leader>c <Plug>NERDCommenterToggle
+
 
 " Replace the default dictionary completion with fzf-based fuzzy completion
 
-" inoremap <expr> <c-x><c-k> fzf#vim#complete('cat /usr/share/dict/words')  
+inoremap <expr> <c-x><c-k> fzf#vim#complete('cat /usr/share/dict/words')  
 
-
-let g:agit_enable_auto_refresh = 1
-let g:agit_max_author_name_width =1
-let g:agit_log_width = 10 
 
 set completeopt=menu,menuone,noselect
 
@@ -1048,11 +965,11 @@ mapping = {
       if vim.fn["vsnip#available"]() == 1
         then
         feedkey("<Plug>(vsnip-expand-or-jump)", "")
-     elseif vim.fn.pumvisible() == 1 then
-        feedkey("<C-n>", "n")
+     elseif cmp.visible() then
+        cmp.select_next_item()
       elseif has_words_before() then 
         cmp.complete()
-      else
+      else 
         fallback() -- The fallback function sends a already mapped key. In this case, it's probably `<Tab>`.
       end
     end, { "i", "s" }),
@@ -1074,17 +991,15 @@ sources = {
       -- { name = 'luasnip' },
 -- For ultisnips user.
       -- { name = 'ultisnips' },  
-   
-    { name = 'buffer', keyword_length = 4 },
-    { name = 'omni' , keyword_length = 4},
+   { name = 'buffer', keyword_length = 4 },
+   { name = 'omni' , keyword_length = 4},
        -- { name = 'spell' }, 
-    { name = 'treesitter', keyword_length = 4  },
-    { name = 'tags' , keyword_length = 4 }, 
-    { name = 'nvim_lsp', keyword_length = 4 },      
+   { name = 'treesitter', keyword_length = 4  },
+   { name = 'tags' , keyword_length = 4 }, 
+   { name = 'nvim_lsp', keyword_length = 4 },      
 --{ name = 'latex_symbols' },
-} 
---{ completion.keyword_length = 3 }
-} 
+}
+}
 EOF
 
 " LSP mappings   
@@ -1273,7 +1188,7 @@ require('telescope').setup{
     --   ...
     -- }
     -- Now the picker_config_key will be applied every time you call this
-    -- builtin picker
+    -- builtin picker 
   },
   extensions = {
     -- Your extension configuration goes here:
@@ -1282,8 +1197,21 @@ require('telescope').setup{
     -- }
     -- please take a look at the readme of the extension you want to configure
   }
+} 
+EOF
+lua require'hop'.setup { keys = 'etovxqpdygfblzhckisuran', term_seq_bias = 0.5 } 
+lua <<EOF
+require('fm-nvim').setup{
+	config =
+	{
+		edit_cmd = "edit", -- opts: 'tabedit'; 'split'; 'pedit'; etc...
+		border   = "single", -- opts: 'rounded'; 'double'; 'single'; 'solid'; 'shawdow'
+		height   = .9,
+		width    = .9,
+	}
 }
 EOF
+
 " lua <<EOF
 " require('neoclip').setup({
 "       history = 1000,
@@ -1312,55 +1240,10 @@ EOF
 "       },
 "    })
 " EOF
-
-" set background=light " or light if you want light mode
-" colorscheme codeschool
-let g:codeschool_contrast_light = "soft"
 " lua <<EOF
-" local saga = require 'lspsaga'
-" 
-" -- add your config value here
-" -- default value
-" -- use_saga_diagnostic_sign = true
-" -- error_sign = '',
-" -- warn_sign = '',
-" -- hint_sign = '',
-" -- infor_sign = '',
-" -- dianostic_header_icon = '   ',
-" -- code_action_icon = ' ',
-" -- code_action_prompt = {
-" --   enable = true,
-" --   sign = true,
-" --   sign_priority = 20,
-" --   virtual_text = true,
-" -- },
-" -- finder_definition_icon = '  ',
-" -- finder_reference_icon = '  ',
-" -- max_preview_lines = 10, -- preview lines of lsp_finder and definition preview
-" -- finder_action_keys = {
-" --   open = 'o', vsplit = 's',split = 'i',quit = 'q',scroll_down = '<C-f>', scroll_up = '<C-b>' -- quit can be a table
-" -- },
-" -- code_action_keys = {
-" --   quit = 'q',exec = '<CR>'
-" -- },
-" -- rename_action_keys = {
-" --   quit = '<C-c>',exec = '<CR>'  -- quit can be a table
-" -- },
-" -- definition_preview_icon = '  '
-" -- "single" "double" "round" "plus"
-" -- border_style = "single"
-" -- rename_prompt_prefix = '➤',
-" -- if you don't use nvim-lspconfig you must pass your server name and
-" -- the related filetypes into this table
-" -- like server_filetype_map = {metals = {'sbt', 'scala'}}
-" -- server_filetype_map = {}
-" 
-" saga.init_lsp_saga {
-"   your custom option here
+" local saga = require 'lspsaga'{
+" saga.init_lsp_saga() 
 " }
-" 
-" or --use default config
-" saga.init_lsp_saga()
 " EOF
 
 "au FileType tex autocmd User SneakLeave set syntax=tex
@@ -1430,10 +1313,13 @@ let g:codeschool_contrast_light = "soft"
 " let g:deoplete#enable_at_startup = 1
 " map <silent> <leader>g :silent call Gitview()
 " map <silent> <leader>g :silent !cd /root/web2 ; git add .<CR>:silent git commit -m -a ; silent !git push origin gh-pages<CR> This is how I use PDFViewer with Neovim and LaTexBox. 
-"Load some useful plugins with vundle
+"Load some useful plugins with vundle 
 "
-"
+"asdf asldfkj
 " hi! link Sneak Normal
-" hi! link SneakScope Normal 
+" hi! link SneakScope Normal   test test2 test3
 
- " let g:material_style = 'palenight'  
+" command! -bang -nargs=* Rg
+"   \ call fzf#vim#grep(
+"   \ "rg --column --line-number --no-heading --color=always --smart-case " .
+"   \ <q-args>, 1, fzf#vim#with_preview(), <bang>0)

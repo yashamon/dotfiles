@@ -2,9 +2,9 @@
 "G-bundle": {
     "prefix": "Gbun",
     "body": [
-        "$$1$-Bundle $0"
+        "\\$$1\\$-Bundle $0" 
        ],
-    "description": "dots"
+    "description": "Gbun"
     },
 "three dots": {
     "prefix": ".",
@@ -26,8 +26,23 @@
         "\\times $0"
        ],
     "description": "times"
+    },  
+"quotes": {
+    "prefix": "\"",
+    "body": [
+        "``$1'' $0"
+       ],
+    "description": "quotes"
     }, 
-  
+
+  "text": {
+    "prefix": "text",
+    "body": [
+        "\\text{$1} $0"
+       ],
+    "description": "text"
+    }, 
+
 "emphasize bold": {
     "prefix": "embf",
     "body": [
@@ -66,7 +81,7 @@
     "prefix": "ali",
     "body": [
         "\\begin{align}",
-        "\t$0",
+        "\t$0",    
         "\\end{align}"
 ],
     "description": "Align(ed)"
@@ -148,7 +163,8 @@
     "prefix": "prop",
     "body": [
       "\\begin{proposition}", 
-      "\t\\label{prop:$1}",
+      "\t\\label{prop:$1}",   
+      "$2",
       "\\end{proposition}",
       "$0"
       ],
@@ -158,7 +174,8 @@
     "prefix": "rem",
     "body": [
       "\\begin{remark}", 
-      "\t\\label{remark:$1}",
+      "\t\\label{remark:$1}", 
+      "$2", 
       "\\end{remark}",
       "$0"
    ],
@@ -189,7 +206,8 @@
     "prefix": "lem",
     "body": [
       "\\begin{lemma}", 
-      "\t\\label{lemma:$1}",
+      "\t\\label{lemma:$1}", 
+      "$2",
       "\\end{lemma}",
       "$0"
    ],
@@ -200,7 +218,9 @@
     "prefix": "corol",
     "body": [
       "\\begin{corol}", 
-      "\t\\label{corol:$1}",
+      "\t\\label{corol:$1}", 
+      "$2",
+
       "\\end{corol}",
       "$0"
     ],
@@ -211,7 +231,9 @@
     "prefix": "thm",
     "body": [
       "\\begin{theorem}", 
-      "\t\\label{thm:$1}",
+      "\t\\label{thm:$1}", 
+       "$2",
+
       "\\end{theorem}",
       "$0"
     ],
@@ -227,77 +249,8 @@
     ],
     "description": "Add a proof"
   },
-  "Algorithm": {
-    "prefix": "algo",
-    "body": [
-      "% \\usepackage{algorithm,algorithmicx,algpseudocode}",
-      "\\begin{algorithm}",
-      "\t\\floatname{algorithm}{${1:Algorithm}}",
-      "\t\\algrenewcommand\\algorithmicrequire{\\textbf{${2:Input: }}}",
-      "\t\\algrenewcommand\\algorithmicensure{\\textbf{${3:Output: }}}",
-      "\t\\caption{$4}",
-      "\t\\label{alg:$5}",
-      "\t\\begin{algorithmic}[1]",
-      "\t\t\\Require \\$input\\$",
-      "\t\t\\Ensure \\$output\\$",
-      "\t\t$6",
-      "\t\t\\State \\textbf{return} \\$state\\$",
-      "\t\\end{algorithmic}",
-      "\\end{algorithm}",
-      "$0"
-    ],
-    "description": "Add an algorithm"
-  },
-  "Algorithm:State": {
-    "prefix": "state",
-    "body": [
-      "\\State $1"
-    ],
-    "desciption": "Add an statement of algorithm"
-  },
-  "Algorithm:If": {
-    "prefix": "if",
-    "body": [
-      "\\If{$1}",
-      "\\ElsIf{$2}",
-      "\\Else",
-      "\\EndIf"
-    ],
-    "desciption": "Add an if statement of algorithm"
-  },
-  "Algorithm:For": {
-    "prefix": "for",
-    "body": [
-      "\\For{i=0:$1}",
-      "\t\\State $0",
-      "\\EndFor"
-    ],
-    "desciption": "Add an for statement of algorithm"
-  },
-  "Algorithm:While": {
-    "prefix": "while",
-    "body": [
-      "\\While{$1}",
-      "\t\\State $0",
-      "\\EndWhile"
-    ],
-    "desciption": "Add an for statement of algorithm"
-  },
-  "Algorithm:Ref": {
-    "prefix": "algo:ref",
-    "body": [
-      "${1:Algorithm}~\\ref{algo:$2}$0"
-    ],
-    "desciption": "Ref for Algorithm"
-  },
-  "Figure:Ref": {
-    "prefix": "figure:ref",
-    "body": [
-      "${1:Figure}~\\ref{fig:$2}$0"
-    ],
-    "description": "Ref for Figure"
-  },
-  "Gather(ed)": {
+
+    "Gather(ed)": {
     "prefix": "gat",
     "body": [
       "\\begin{gather}",
@@ -322,14 +275,7 @@
     ],
     "description": "Matrix"
   },
-  "Page": {
-    "prefix": "page",
-    "body": [
-      "${1:page}~\\pageref{$2}$0"
-    ],
-    "description": "Page"
-  },
-  "Paragraph": {
+    "Paragraph": {
     "prefix": "par",
     "body": [
       "\\paragraph{${1:paragraph name}} % (fold)",
@@ -339,42 +285,23 @@
     ],
     "description": "Paragraph"
   },
-  "Part": {
-    "prefix": "part",
-    "body": [
-      "\\part{${1:part name}} % (fold)",
-      "\\label{prt:${2:${1/(\\w+)(\\W+$)?|\\W+/${1:?${1:/asciify/downcase}:_}/g}}}",
-      "${0:$TM_SELECTED_TEXT}",
-      "% part $2 (end)"
-    ],
-    "description": "Part"
-  },
-      "Split": {
+        "Split": {
     "prefix": "spl",
     "body": [
       "\\begin{split}",
-      "\t$0",
-      "\\end{split}"
+      "\t$1",
+      "\\end{split}",
+      "$0"
     ],
     "description": "Split"
   },
-  "Sub Paragraph": {
-    "prefix": "subp",
-    "body": [
-      "\\subparagraph{${1:subparagraph name}} % (fold)",
-      "\\label{subp:${2:${1/(\\w+)(\\W+$)?|\\W+/${1:?${1:/asciify/downcase}:_}/g}}}",
-      "${0:$TM_SELECTED_TEXT}",
-      "% subparagraph $2 (end)"
-    ],
-    "description": "Sub Paragraph"
-  },  
-"Section": {
+  "Section": {
     "prefix": "sec",
     "body": [
-      "\\subsection{${1:subsection name}} % (fold)",
-      "\\label{sub:$1}"
+      "\\section{${1:name}} % (fold)",
+      "\\label{sec:$1}"
       ],
-    "description": "Sub Section"
+    "description": "Section"
   },
 
   "Sub Section": {
@@ -540,9 +467,9 @@
   "Enumerate": {
     "prefix": "enumerate",
     "body": [
-      "\\\\begin{enumerate}",
+      "\\begin{enumerate}",
       "\t\\item $0",
-      "\\\\end{enumerate}"
+      "\\end{enumerate}"
     ],
     "description": "Add a enumerate"
   },
@@ -734,118 +661,21 @@
     ],
     "description": "mapsto"
   },
-
-
-
-"Template": {
-        "prefix": ["template", "\\template"], 
-        "body": [
-            "%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Define Article %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%", 
-            "\\documentclass{article}", 
-            "%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%", 
-            "", 
-            "%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Using Packages %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%", 
-            "\\usepackage{geometry}", 
-            "\\usepackage{graphicx}", 
-            "\\usepackage{amssymb}", 
-            "\\usepackage{amsmath}", 
-            "\\usepackage{amsthm}", 
-            "\\usepackage{empheq}", 
-            "\\usepackage{mdframed}", 
-            "\\usepackage{booktabs}", 
-            "\\usepackage{lipsum}", 
-            "\\usepackage{graphicx}", 
-            "\\usepackage{color}", 
-            "\\usepackage{psfrag}", 
-            "\\usepackage{pgfplots}", 
-            "\\usepackage{bm}", 
-            "%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%", 
-            "", 
-            "${3:% Other Settings}", 
-            "", 
-            "%%%%%%%%%%%%%%%%%%%%%%%%%% Page Setting %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%", 
-            "\\geometry{a4paper}", 
-            "", 
-            "%%%%%%%%%%%%%%%%%%%%%%%%%% Define some useful colors %%%%%%%%%%%%%%%%%%%%%%%%%%", 
-            "\\definecolor{ocre}{RGB}{243,102,25}", 
-            "\\definecolor{mygray}{RGB}{243,243,244}", 
-            "\\definecolor{deepGreen}{RGB}{26,111,0}",
-            "\\definecolor{shallowGreen}{RGB}{235,255,255}",
-            "\\definecolor{deepBlue}{RGB}{61,124,222}",
-            "\\definecolor{shallowBlue}{RGB}{235,249,255}", 
-            "%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%", 
-            "", 
-            "%%%%%%%%%%%%%%%%%%%%%%%%%% Define an orangebox command %%%%%%%%%%%%%%%%%%%%%%%%", 
-            "\\newcommand\\orangebox[1]{\\fcolorbox{ocre}{mygray}{\\hspace{1em}#1\\hspace{1em}}}", 
-            "%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%", 
-            "", 
-            "%%%%%%%%%%%%%%%%%%%%%%%%%%%% English Environments %%%%%%%%%%%%%%%%%%%%%%%%%%%%%", 
-            "\\newtheoremstyle{mytheoremstyle}{3pt}{3pt}{\\normalfont}{0cm}{\\rmfamily\\bfseries}{}{1em}{{\\color{black}\\thmname{#1}~\\thmnumber{#2}}\\thmnote{\\,--\\,#3}}", 
-            "\\newtheoremstyle{myproblemstyle}{3pt}{3pt}{\\normalfont}{0cm}{\\rmfamily\\bfseries}{}{1em}{{\\color{black}\\thmname{#1}~\\thmnumber{#2}}\\thmnote{\\,--\\,#3}}", 
-            "\\theoremstyle{mytheoremstyle}", 
-            "\\newmdtheoremenv[linewidth=1pt,backgroundcolor=shallowGreen,linecolor=deepGreen,leftmargin=0pt,innerleftmargin=20pt,innerrightmargin=20pt,]{theorem}{Theorem}[section]", 
-            "\\theoremstyle{mytheoremstyle}", 
-            "\\newmdtheoremenv[linewidth=1pt,backgroundcolor=shallowBlue,linecolor=deepBlue,leftmargin=0pt,innerleftmargin=20pt,innerrightmargin=20pt,]{definition}{Definition}[section]", 
-            "\\theoremstyle{myproblemstyle}", 
-            "\\newmdtheoremenv[linecolor=black,leftmargin=0pt,innerleftmargin=10pt,innerrightmargin=10pt,]{problem}{Problem}[section]", 
-            "%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%", 
-            "", 
-            "%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Plotting Settings %%%%%%%%%%%%%%%%%%%%%%%%%%%%%", 
-            "\\usepgfplotslibrary{colorbrewer}", 
-            "\\pgfplotsset{width=8cm,compat=1.9}", 
-            "%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%", 
-            "", 
-            "%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Title & Author %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%", 
-            "\\title{${1:Title}}", 
-            "\\author{${2:Haoyun Qin}}", 
-            "%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%", 
-            "", 
-            "\\begin{document}",
-            "    \\maketitle",
-            "    $0",
-            "\\end{document}"
-        ],
-        "description": "Use the default template which includes a variety of packages and declared-commands. The template will also automatically generate the title and author, as well as date, and will formate the document."
-    },
     "Large Summation": {
-        "prefix": ["sumlarge", "\\sumlarge"],
+        "prefix": ["bigsum", "\\sumlarge"],
 		"body": [
 			"\\displaystyle\\sum_{$1}^{$2}$3"
 		],
 		"description": "Insert a large summation notation."
     },
     "Inline Summation": {
-        "prefix": ["suminline", "\\suminline"],
+        "prefix": ["sum", "\\suminline"],
         "body": [
             "\\sum_{$1}^{$2}$3"
         ],
         "description": "Insert an inline summation notation, (only in the cases when the environment is inline math environment)."
     },
-    "Inline Math": {
-        "prefix": ["mathinline", "\\mathinline"],
-        "body": [
-            "$ $1 $$0"
-        ],
-        "description": "Insert inline Math Environment."
-    },
-    "Centered Math": {
-        "prefix": ["mathcentered", "\\mathcentered"],
-        "body": [
-            "$$ $0 $$"
-        ],
-        "description": "Insert centered Math Environment."
-    },       
-    "Header": {
-        "prefix": ["header", "\\header", "##"],
-        "body": "\\section*{$1}$0",
-        "description": "Insert a section without index."
-    },
-    "Header Small": {
-        "prefix": ["headersmall", "\\headersmall", "###"],
-        "body": "\\subsection*{$1}$0",
-        "description": "Insert a subsection without index."
-    },
-    "Italic Text": {
+            "Italic Text": {
         "prefix": ["italic", "\\italic", "*"], 
         "body": "\\textit{$1}$0",
         "description": "Insert italic text."
@@ -856,12 +686,18 @@
         "description": "Insert bold text."
     },
     "Bold Italic Text": {
-        "prefix": ["bi", "\\bolditalic", "***"],
+        "prefix": ["bi"],
         "body": "\\textbf{\\textit{$1}}$0",
         "description": "Insert bold italic text."
-    },
+    }, 
+"item": {
+        "prefix": ["it"],
+        "body": "\\item $0",
+        "description": "item"
+    }, 
+
     "Itemize": {
-        "prefix": ["- ", "\\itemize", "itemize"],
+        "prefix": ["itemize", "\\itemize", "itemize"],
         "body": [
             "\\begin{itemize}",
             "\t\\item $1",
@@ -878,19 +714,6 @@
         ],
         "description": "Insert a problem, whose style is already defined in the template. The serial number is automatically generated according to the section."
     },
-    "Indent": {
-        "prefix": ["tab", "\\tab"],
-        "body": ["\\indent "],
-        "description": "The equivalent of \"\\t\", also known as \"Tab\""
-    }, 
-"Color": {
-        "prefix": ["col", "color"],
-        "body": [
-            "\\textcolor{$1}{$2}$0"
-            ],
-        "description": "Insert a definition, whose style is already defined in the template. The serial number is automatically generated according to the section."
-    },
-
     "Definition": {
         "prefix": ["def", "\\definition"],
         "body": [
@@ -915,12 +738,12 @@
         "description": "Insert inline integral notation, (only in the cases when the environment is inline math environment)."
     },
     "Inline Fraction": {
-        "prefix": ["fractioninline", "\\fractioninline"],
+        "prefix": ["fr", "\\fractioninline"],
         "body": ["\\frac{$1}{$2}$0"],
         "description": ["Insert inline fraction notation, (only in the cases when the environment is inline math environment)."]
     }, 
 "infinity": {
-    "prefix": ["infi", "\\o"],
+    "prefix": ["infi"],
     "body": [
       "\\infinity $0"
     ],
@@ -932,6 +755,21 @@
       "\\partial $0"
     ],
     "description": "partial"
+  }, 
+"phi": {
+    "prefix": ["phi"],
+    "body": [
+      "\\phi $0"
+    ],
+    "description": "phi"
+  },
+
+"epsilon": {
+    "prefix": ["eps"],
+    "body": [
+      "\\epsilon $0"
+    ],
+    "description": "epsilon"
   },
 
 "omega": {
@@ -942,7 +780,7 @@
     "description": "omega"
   },
 "field K": {
-    "prefix": ["fk", "\\eps"],
+    "prefix": ["fk"],
     "body": [
       "\\mathbb{K} $0"
     ],
@@ -970,24 +808,45 @@
     ],
     "description": "field naturals"
   },
+"field CP": {
+    "prefix": ["cp"],
+    "body": [
+      "\\mathbb{CP} ^{$1} $0"
+    ],
+    "description": "field R"
+  }, 
 
 "field R": {
     "prefix": ["fR"],
     "body": [
-      "\\mathbb{R} ^{} $0"
+      "\\mathbb{R} ^{$1} $0"
     ],
     "description": "field R"
+  }, 
+"mathfrak": {
+    "prefix": ["frak"],
+    "body": [
+      "\\mathfrak $0"
+    ],
+    "description": "mathfrak general"
   },
 
-"epsilon": {
-    "prefix": ["e", "\\e"],
+"mathfrak g": {
+    "prefix": ["frg"],
     "body": [
-      "\\epsilon $0"
+      "\\mathfrak g $0"
     ],
-    "description": "epsilon"
+    "description": "mathfrak g"
+  },
+"rho": {
+    "prefix": ["rho", "\\e"],
+    "body": [
+      "\\rho $0"
+    ],
+    "description": "rho"
   },
 "Theta": {
-    "prefix": ["Theta", "\\Th"],
+    "prefix": ["Th", "\\Th"],
     "body": [
       "\\Theta $0"
     ],
@@ -1029,7 +888,15 @@
       "\\Delta^{$1} $0"
     ],
     "description": "Delta d-simplex"
+  }, 
+"caligraphic G": {
+    "prefix": ["cG"],
+    "body": [
+      "\\mathcal{G} $0"
+    ],
+    "description": "cal G"
   },
+
 "caligraphic A": {
     "prefix": ["cA"],
     "body": [
@@ -1138,7 +1005,7 @@
 "not equal": {
     "prefix": ["neq"],
     "body": [
-      "\neq $0"
+      "\\neq $0"
     ],
     "description": "not equal"
   },
@@ -1178,7 +1045,7 @@
     "body": [
       "\\notin $0"
     ],
-    "description": "in"
+    "description": "not in"
   },
 
 "in": {
@@ -1217,157 +1084,8 @@
         "prefix": ["fractionlarge", "\\fractionlarge"],
         "body": ["\\displaystyle\\frac{$1}{$2}$0"],
         "description": ["Insert large fraction notation"]
-    },
-    "Create 2D Plot environment": {
-        "prefix": ["plotenvironment2d", "\\plotenvironment2d"],
-        "body": [
-            "\\begin{tikzpicture}",
-            "\\begin{axis}[",
-            "legend pos=outer north east,",
-            "title=${1:Example},",
-            "axis lines =${2| box, left, middle, center, right, none|},",
-            "xlabel = \\$x\\$,",
-            "ylabel = \\$y\\$,",
-            "variable = t,",
-            "trig format plots = rad,",
-            "]",
-            "$3",
-            "\\end{axis}",
-            "\\end{tikzpicture}$0"
-        ],
-        "description": "Create a 2DPlot Environment of pgfplots. The style declarations are already included in the snippet."
-    },
-    "Plot 2D Graph": {
-        "prefix": ["plotgraph2d", "\\plotgraph2d"],
-        "body": [
-            "\\addplot [",
-            "\tdomain=${1:-10}:${2:10}," ,
-            "\tsamples=70,", 
-            "\tcolor=${3:blue},",
-            "\t]",
-            "\t{${4:x^2 + 2*x + 1}};",
-            "\\addlegendentry{$${5:x^2 + 2x + 1}$}",
-            "$0"
-        ],
-        "description": "Plot a 2D Graph in the 2D graph environment, noted that this can also be used in the 3D environment."
-    },
-    "Plot Circle 2D": {
-        "prefix": ["plotcircle2d", "\\plotcircle2d"],
-        "body": [
-            "\\addplot [",
-            "\tdomain=0:2*3.14159265," ,
-            "\tsamples=70,", 
-            "\tcolor=${4:blue},",
-            "\t]",
-            "\t({${1:r}*cos(t)+${2:a}},{${1:r}*sin(t)+${3:b}});",
-            "\\addlegendentry{$(x-${2:a})^2+(y-${3:b})^2=${1:r}^2$}$0"
-        ],
-        "description": "Plot a 2D Circle in the 2D graph environment, noted that this can also be used in the 3D environment."
-    },
-    "Plot Line 2D": {
-        "prefix": ["plotline2d", "\\plotline2d"],
-        "body": [
-            "\\addplot [",
-            "\tdomain=${4:x1}:${5:x2}," ,
-            "\tsamples=70,", 
-            "\tcolor=${3:blue},",
-            "\t]",
-            "\t{${1:a}*x+${2:b}};",
-            "\\addlegendentry{$ y=${1:a}x+${2:b}$}$0"
-        ],
-        "description": "Plot a 2D Line in the 2D graph environment, noted that this can also be used in the 3D environment."
-    },
-    "Plot Ellipse 2D": {
-        "prefix": ["plotellipse2d", "\\plotellipse2d"],
-        "body": [
-            "\\addplot [",
-            "\tdomain=0:2*3.14159265," ,
-            "\tsamples=70,", 
-            "\tcolor=${5:blue},",
-            "\t]",
-            "\t({${1:a}*cos(t)+${3:x}},{${2:b}*sin(t)+${4:y}});",
-            "\\addlegendentry{$\\frac{(x-${3:x})^2}{${1:a}^2}+\\frac{(y-${4:y})^2}{${2:b}^2}=1$}$0"
-        ],
-        "description": "Plot a 2D Ellipse in the 2D graph environment, noted that this can also be used in the 3D environment."
-    },
-    "Plot Quadratic Function 2D by Point": {
-        "prefix": ["plotquadraticfunction2dbypoint", "\\plotquadraticfunction2dbypoint"],
-        "body": [
-            "\\addplot [",
-            "\tdomain=${4:x1}:${5:x2}," ,
-            "\tsamples=70,", 
-            "\tcolor=${6:blue},",
-            "\t]",
-            "\t{${1:a}*(x-${2:m})*(x-${2:m})+${3:b}};",
-            "\\addlegendentry{$ y=${1:a}(x-${2:m})^2+${3:b}$}$0"
-        ],
-        "description": "Plot a 2D graph of a quadratic function in the 2D graph environment by the given extrema, noted that this can also be used in the 3D environment."
-    },
-    "Plot Smooth Curve By Point Set": {
-        "prefix": ["plotsmoothcurvebypointset", "\\plotsmoothcurvebypointset"],
-        "body": [
-            "\\addplot+[smooth]",
-            "coordinates",
-            "{",
-            "${1:seperate the coordinates with spaces}",
-            "};$0"
-        ],
-        "description": "Plot a Smooth Curve by point set (2D)."
-    },
-    "Create 3D Plot Environment": {
-        "prefix": ["plotenvironment3d", "\\plotenvironment3d"],
-        "body": [
-            "\\begin{tikzpicture}",
-            "\\begin{axis}[",
-            "legend pos=outer north east,",
-            "title=${1:Example},",
-            "axis lines =${2| box, left, middle, center, right, none|},",
-            "colormap/${3|hot,hot2,jet,blackwhite,bluered,cool,greenyellow,redyellow,violet|},",
-            "xlabel = \\$x\\$,",
-            "ylabel = \\$y\\$,",
-            "zlabel = \\$z\\$,",
-            "variable = t,",
-            "trig format plots = rad,",
-            "]",
-            "$4",
-            "\\end{axis}",
-            "\\end{tikzpicture}$0"
-        ],
-        "description": "Create a 3DPlot Environment of pgfplots. The style declarations are already included in the snippet."
-    },
-    "Plot 3D Graph": {
-        "prefix": ["plotgraph3d", "\\plotgraph3d"],
-        "body": [
-            "\\addplot3[",
-            "\t${1|surf,mesh|},",
-            "\tsamples=50,",
-            "]",
-            "{${2:x^2+y^2}};",
-            "\\addlegendentry{\\$${3:x}\\$}$0"
-        ],
-        "description": "Plot a 3D Graph in the 3D graph environment created."
-    },
-    "Create Align* Environment in Text": {
-        "prefix": ["aligntext", "\\aligntext"],
-        "body": [
-            "\\begin{align*}",
-            "\t$1",
-            "\\end{align*}$0"
-        ],
-        "description": "Create an align environment when the context is in the text environment."
-    },
-
-   "Insert Problem Solving Index": {
-        "prefix": ["problemindex", "\\problemindex"], 
-        "body": ["\\noindent\\textbf{$1} $0"],
-        "description": "Insert problem solving index format."
-    },
-    "Insert Solution Notation": {
-        "prefix": ["solution", "\\solution"],
-        "body": ["\\textit{ Sol. }"],
-        "description": "Insert italic 'Sol.'"
     }
-}
+ }
 
 
 
