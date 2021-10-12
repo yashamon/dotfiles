@@ -757,7 +757,7 @@
     "description": "partial"
   }, 
 "phi": {
-    "prefix": ["eps"],
+    "prefix": ["phi"],
     "body": [
       "\\epsilon $0"
     ],
