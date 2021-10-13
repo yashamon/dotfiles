@@ -510,9 +510,9 @@
 "norm": {
     "prefix": "norm",
     "body": [
-      "{$1} $0"
+      "|{$1}| $0"
     ],
-    "description": "brackets"
+    "description": "norm"
   },
 
 "basic bracket": {
