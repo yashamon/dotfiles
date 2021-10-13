@@ -593,7 +593,7 @@ map T <cmd>HopWordBC<cr>
 " FZF 
 "
 noremap <m-t> :BTags<cr> 
-noremap <m-t> :BTags<cr>
+noremap <m-y> :BTags<cr>
 noremap S <Esc>:BLines<CR>    
 "noremap L <Esc>:AsyncRun sentence.sh %;nvr sentence_%<cr>:echo 'press any key'<cr>:execute 'call getchar()' | BLines<cr>
 " Line search mapping
