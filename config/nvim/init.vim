@@ -164,7 +164,7 @@ set guicursor=n-v-c:block,i-ci-ve:ver25,r-cr:hor20,o:hor50
    " set formatoptions=ant
 " set wrapmargin=0
 " set nohlsearch
-set tags= ~/.tags
+set tags= ~/workspacemodules/.tags
 " highlight SignColumn guibg=bg
 "       endif    
 " if has("autocmd")
