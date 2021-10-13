@@ -11,7 +11,7 @@
     "body": [
         "\\cdot $0"
        ],
-    "description": "dots"
+    "description": "c dot"
     }, 
 
 "three dots": {
@@ -506,7 +506,15 @@
       "$0"
     ],
     "description": "Add a empty page"
-  }, 
+  },  
+"norm": {
+    "prefix": "norm",
+    "body": [
+      "{$1} $0"
+    ],
+    "description": "brackets"
+  },
+
 "basic bracket": {
     "prefix": "wb",
     "body": [
