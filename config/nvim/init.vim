@@ -195,7 +195,7 @@ let g:tex_flavor = "latex"
 let g:tex_isk = '@,48-57,58,_,192-255'
 let g:tex_conceal = ""
 
-set tags+=~/texmf/bibtex/bib/tags
+set tags+=~/workspacemodules/tags
 "set tags+=~/Dropbox/workspace/tags
   " set formatoptions=ant
   " set wrapmargin=1
