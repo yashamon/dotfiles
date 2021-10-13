@@ -8,7 +8,7 @@ fi
 export ANDROID_HOME=/root/android-sdk-linux
 export LANG=en_US.UTF-8
 export XDG_CONFIG_HOME=$HOME/.config
-export PATH="/home/linuxbrew/.linuxbrew/bin:/usr/local/bin:/usr/sbin:/sbin:/bin:$HOME/.local/bin:/root/.cabal/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:~/.cabal/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:~/.local/bin:/$HOME/appimage:$HOME/.cargo/bin:/snap/bin:/data/data/com.termux/files/usr/bin/applets:/data/data/com.termux/files/usr/bin:bin:/usr/local/sbin:$HOME/.zinit/plugins:/usr/bin:$HOME/.local/share/nvim/lspinstall/latex"  
+export PATH="/home/linuxbrew/.linuxbrew/bin:/usr/local/bin:/usr/sbin:/sbin:/bin:$HOME/.local/bin:/root/.cabal/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:~/.cabal/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:~/.local/bin:/$HOME/appimage:$HOME/.cargo/bin:/snap/bin:/data/data/com.termux/files/usr/bin/applets:/data/data/com.termux/files/usr/bin:bin:/usr/local/sbin:$HOME/.zinit/plugins:/usr/bin:$HOME/.local/share/nvim/lspinstall"  
 # export MANPATH="/usr/local/man:$MANPATH"
 # You may need to manually set your language environment
 export LANG=en_US.UTF-8
@@ -57,7 +57,8 @@ eval "$(fasd --init auto)"
 # export PATH="$HOME/.linuxbrew/bin:$PATH"
 # export MANPATH="$HOME/.linuxbrew/share/man:$MANPATH"
 # export INFOPATH="$HOME/.linuxbrew/share/info:$INFOPATH"
-# alias nvim="/snap/bin/nvim"
+# alias nvim="/snap/bin/nvim" 
+alias wifi="sudo wifi-menu -o"
 alias tmux d="tmux detach" 
 alias nvr="nvr --servername $(<~/servername.txt) --remote-silent"
 alias vifmrc="nvim ~/.config/vifm/vifmrc" 
