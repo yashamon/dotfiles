@@ -6,6 +6,13 @@
        ],
     "description": "Gbun"
     }, 
+"cdot": {
+    "prefix": "cd",
+    "body": [
+        "\\cdot $0"
+       ],
+    "description": "dots"
+    }, 
 
 "three dots": {
     "prefix": ".",
