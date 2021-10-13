@@ -483,8 +483,8 @@ map <M-d> <Esc>:bdelete<CR>
 noremap gf gq
 noremap f /
 noremap F ?
-inoremap .<Esc> .<CR><Esc><leader>j
-inoremap .<Space> .<CR><Esc><leader>j
+" inoremap .<Esc> .<CR><Esc><leader>j
+" inoremap .<Space> .<CR><Esc><leader>j
 " noremap S :S 
 "
 "
