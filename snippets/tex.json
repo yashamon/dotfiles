@@ -5,7 +5,8 @@
         "\\$$1\\$-Bundle $0" 
        ],
     "description": "Gbun"
-    }, 
+    },  
+
 "cdot": {
     "prefix": "cd",
     "body": [
