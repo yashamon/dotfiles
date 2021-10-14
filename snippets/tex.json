@@ -16,7 +16,7 @@
 "bar": {
     "prefix": "bar",
     "body": [
-        "\\cdot $0"
+        "\\,|\\\, $0"
        ],
     "description": "c dot"
     }, 
