@@ -9,9 +9,9 @@
 "color": {
     "prefix": "color",
     "body": [
-        "\\color {$1} $0"
+        "\\color {$1}{$2} $0"
        ],
-    "description": "c dot"
+    "description": "colored text"
     },  
 
 "cdot": {
