@@ -14,14 +14,14 @@
     "description": "c dot"
     },  
 "bar": {
-    "prefix": "cd",
+    "prefix": "bar",
     "body": [
         "\\cdot $0"
        ],
     "description": "c dot"
     }, 
 
-\,|\,
+
 "three dots": {
     "prefix": ".",
     "body": [
