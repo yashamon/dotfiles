@@ -12,7 +12,15 @@
         "\\cdot $0"
        ],
     "description": "c dot"
+    },  
+"bar": {
+    "prefix": "cd",
+    "body": [
+        "\\cdot $0"
+       ],
+    "description": "c dot"
     }, 
+
 \,|\,
 "three dots": {
     "prefix": ".",
