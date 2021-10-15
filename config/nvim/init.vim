@@ -202,8 +202,7 @@ set tags+=~/workspacemodules/tags
 " set shada="NONE" 
 set wrap
 set linebreak 
-set formatoptions+=w asdfjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj
-" set breakat=" "
+set formatoptions+=w " set breakat=" "
 " set list  " list disables linebreak
 set textwidth=0
 set wrapmargin=-1
