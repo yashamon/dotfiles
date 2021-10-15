@@ -200,6 +200,7 @@ set tags+=~/workspacemodules/tags
   " set formatoptions=ant
   " set wrapmargin=1
 " set shada="NONE"  
+set listchars=eol:¬,tab:>·,trail:~,extends:>,precedes:<,space:␣
 
 set wrap
 set linebreak 
