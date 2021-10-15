@@ -201,7 +201,8 @@ set tags+=~/workspacemodules/tags
   " set wrapmargin=1
 " set shada="NONE"
 set wrap
-set linebreak
+set linebreak 
+
 " set breakat=" "
 " set list  " list disables linebreak
 set textwidth=0
