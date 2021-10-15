@@ -145,4 +145,4 @@ set statusline="  %t%= %A %10u:%-7g %15s %20d  "
 
 " :mark mark /full/directory/path [filename]
 set runexec
-autocommand vifm Enter 
+au vifm Enter 
