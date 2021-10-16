@@ -568,7 +568,7 @@ let g:sneak#use_ic_scs = 1
 map t <cmd>HopWordAC<cr>
 map T <cmd>HopWordBC<cr>
 map <m-.> <cmd>HopChar1<cr>.
-map <m-Space> <cmd>HopChar1<cr>.
+map <m-Space> <cmd>HopChar1<cr> 
 
 
 
