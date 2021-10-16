@@ -883,9 +883,6 @@ EOF
 
 
 "Lsp install 
-lua <<EOF
-
-EOF
 "
 
 " lua << EOF
