@@ -264,7 +264,9 @@ endif
 autocmd BufReadPost * if @% !~# '\.git[\/\\]COMMIT_EDITMSG$' && line("'\"") > 1 && line("'\"") <= line("$") | exe "normal! g`\"" | endif 
 au FileType Makefile set noexpandtab  
 au FileType tex,text, set spelllang=en
-au FileType tex,text,md set spell    
+au FileType tex,text,md set spell     
+au FileType tex,text,md set spell     
+
 au FileType tex,text,md syntax sync fromstart
 au FileType tex,text,md silent execute "!echo " . v:servername . " > ~/servername.txt"   
 au FileType tex,text,md hi SpellBad cterm=undercurl
