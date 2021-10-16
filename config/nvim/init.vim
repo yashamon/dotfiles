@@ -566,7 +566,7 @@ let g:sneak#use_ic_scs = 1
 
 map t <cmd>HopWordAC<cr>
 map T <cmd>HopWordBC<cr>
-map <m-.> <cmd>
+map <m-.> <cmd>HopCharAC.<cr>
 
 " map t <ESC>:syntax off <CR>t: syntax on<CR>
 "  map t :syntaxoff <Plug>Sneak_s
@@ -1200,7 +1200,6 @@ require('fm-nvim').setup{
 	}
 }
 EOF
-
 " lua <<EOF
 " require('neoclip').setup({
 "       history = 1000,
