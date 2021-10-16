@@ -253,7 +253,7 @@ if has("gui_running")	" GUI color and font settings
   " colorscheme gruvbox 
   highlight CursorLine  guibg=#003853 ctermbg=24  gui=none cterm=none
 else
-" terminal color settings
+" terminal color settings 
 set background=dark
 " Example config in VimScript
 let g:github_function_style = "italic"
