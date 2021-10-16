@@ -688,7 +688,7 @@ let g:vimtex_fold_types= {
 
 " let  g:vimtex_fold_types_defaults = 'preamble, sections, comments'
  nmap <leader>l :terminal<CR>ilat 
-nmap <leader>l :VimtexCompile<CR>
+" nmap <leader>l :VimtexCompile<CR>
 " nmap <leader>s <Esc>:VimtexErrors<CR>
 map <leader>g :ZenMode<CR>
 nmap <leader>p :Denite neoyank -default-action=append<CR>
