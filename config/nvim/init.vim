@@ -567,6 +567,13 @@ let g:sneak#use_ic_scs = 1
 map t <cmd>HopWordAC<cr>
 map T <cmd>HopWordBC<cr>
 map <m-.> <cmd>HopCharAC.<cr>
+lua << EOF
+  require("which-key").setup {
+    -- your configuration comes here
+    -- or leave it empty to use the default settings
+    -- refer to the configuration section below
+  }
+EOF
 
 " map t <ESC>:syntax off <CR>t: syntax on<CR>
 "  map t :syntaxoff <Plug>Sneak_s
