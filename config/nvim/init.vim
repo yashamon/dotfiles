@@ -6,6 +6,7 @@ Plug 'folke/zen-mode.nvim', { 'branch': 'main' }
 "
 Plug 'phaazon/hop.nvim' 
 Plug 'is0n/fm-nvim' 
+
 Plug 'williamboman/nvim-lsp-installer'
 Plug 'nvim-lua/plenary.nvim'
 Plug 'nvim-telescope/telescope.nvim',  
