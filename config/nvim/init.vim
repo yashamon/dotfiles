@@ -115,7 +115,7 @@ Plug 'vim-scripts/AutoTag'
 
 Plug 'vim-scripts/vim-auto-save'
 
-" Plug 'vim-pandoc/vim-pandoc'
+ Plug 'vim-pandoc/vim-pandoc'
 
 " Plug 'yashamon/vim-snippets'
 
