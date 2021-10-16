@@ -1199,6 +1199,7 @@ require('fm-nvim').setup{
 }
 EOF
 
+
 " lua <<EOF
 " require('neoclip').setup({
 "       history = 1000,
