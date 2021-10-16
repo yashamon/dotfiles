@@ -32,7 +32,7 @@ Plug 'ray-x/cmp-treesitter'
 Plug 'L3MON4D3/LuaSnip'
 " Plug 'saadparwaiz1/cmp_luasnip'
 "Plug 'steelsojka/completion-buffers'
-Plug 'voldikss/vim-floaterm', { 'on': 'FloatermNew' }
+Plug 'voldikss/vim-floaterm'
 Plug 'kabouzeid/nvim-lspinstall', { 'branch': 'main' }
 "Plug 'pope/vim-obsession'
 "Plug 'xolox/vim-easytags'
