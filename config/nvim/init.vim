@@ -567,7 +567,8 @@ let g:sneak#use_ic_scs = 1
 
 map t <cmd>HopWordAC<cr>
 map T <cmd>HopWordBC<cr>
-map <m-.> <cmd>HopChar1AC<cr>.
+map <m-.> <cmd>HopChar1<cr>.
+
 
 
 " map t <ESC>:syntax off <CR>t: syntax on<CR>
