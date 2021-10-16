@@ -303,7 +303,7 @@
     "prefix": "par",
     "body": [
       "\\paragraph{${1:paragraph name}} % (fold)",
-      "\\label{par:${1/(\\w+)(\\W+$)?|\\W+/${1:?${1:/asciify/downcase}:_}/g}}}",
+      "\\label{par:$1}",
       "${0:$TM_SELECTED_TEXT}",
       "% paragraph $2 (end)"
     ],
