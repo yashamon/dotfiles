@@ -749,6 +749,7 @@ noremap <Leader>u :ZenMode<cr>:UndotreeToggle<CR>:ZenMode<cr>
         " noremap <C-z> u
     " }
 
+
 " Latex shortcuts
 "Latex compile. 
 "them to an external terminal and run there.
