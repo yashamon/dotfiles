@@ -1312,3 +1312,23 @@ EOF
 "   \ "rg --column --line-number --no-heading --color=always --smart-case " .
 "   \ <q-args>, 1, fzf#vim#with_preview(), <bang>0)
 "
+"" au GUIEnter * set fullscreen
+" if has("gui_running")
+  " set fuoptions=maxvert,maxhorz
+  " au GUIEnter * set fullscreen
+   " set foldcolumn=10
+   " set formatoptions=ant
+" set wrapmargin=0
+" set nohlsearch
+" set tags= ~/workspacemodules/tags
+" highlight SignColumn guibg=bg
+"       endif    
+" if has("autocmd")
+"   au BufReadPost * if line("'\"") > 1 && line("'\"") <= line("$") | exe "normal! g'\"" | endif
+" endif
+  " autocmd BufWinLeave *.* mkview
+  " autocmd BufWinEnter *.* silent loadview
+   " set foldcolumn=2
+"  highlight foldcolumn ctermfg=256 ctermbg=bg
+" autocmd Colorscheme * highlight FoldColumn guifg=black guibg=bg 
+
