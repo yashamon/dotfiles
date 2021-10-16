@@ -6,6 +6,7 @@ Plug 'folke/zen-mode.nvim', { 'branch': 'main' }
 "
 Plug 'phaazon/hop.nvim' 
 Plug 'is0n/fm-nvim' 
+
 Plug 'williamboman/nvim-lsp-installer'
 Plug 'nvim-lua/plenary.nvim'
 Plug 'nvim-telescope/telescope.nvim',  
@@ -870,16 +871,16 @@ end
 
 -- Use a loop to conveniently call 'setup' on multiple servers and
 -- map buffer local keybindings when the language server attaches
--- local servers = {'pyright', 'tsserver', 'texlab', 'jsonls'}
--- for _, lsp in ipairs(servers) do
-"   nvim_lsp[lsp].setup {
-"     on_attach = on_attach,
-"     flags = {
-"       debounce_text_changes = 150,
-"     }
-"   }
-" end
-" EOF
+local servers = {'pyright', 'tsserver', 'texlab', 'jsonls'}
+for _, lsp in ipairs(servers) do
+  nvim_lsp[lsp].setup {
+    on_attach = on_attach,
+    flags = {
+      debounce_text_changes = 150,
+    }
+  }
+end
+EOF
 
 
 "Lsp install
@@ -1199,21 +1200,14 @@ require('fm-nvim').setup{
 		width    = .9,
 	}
 }
-EOF 
-local lsp_installer = require("nvim-lsp-installer")
-
-lsp_installer.on_server_ready(function(server)
-    local opts = {}
-
-    -- (optional) Customize the options passed to the server
-    -- if server.name == "tsserver" then
-    --     opts.root_dir = function() ... end
-    -- end
-
-    -- This setup() function is exactly the same as lspconfig's setup function (:help lspconfig-quickstart)
-    server:setup(opts)
-    vim.cmd [[ do User LspAttachBuffers ]]
-end)
+EOF
+lua << EOF
+  require("which-key").setup {
+    -- your configuration comes here
+    -- or leave it empty to use the default settings
+    -- refer to the configuration section below
+  }
+EOF
 
 " lua <<EOF
 " require('neoclip').setup({
