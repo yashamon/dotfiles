@@ -593,7 +593,7 @@ lua << EOF
 lua << EOF
 lua << EOF
 lua << EOF
-lua << EOF
+luasnipaa1a << EOF
   require("which-key").setup {
     -- your configuration comes here
     -- or leave it empty to use the default settings
