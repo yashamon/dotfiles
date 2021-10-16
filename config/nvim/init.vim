@@ -748,7 +748,7 @@ noremap <Leader>u :ZenMode<cr>:UndotreeToggle<CR>:ZenMode<cr>
         noremap <S-C-z> <C-r>
         " noremap <C-z> u
     " }
-
+"" Terminalb
 
 " Latex shortcuts
 "Latex compile. 
