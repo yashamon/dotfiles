@@ -5,6 +5,8 @@ if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]
 source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
 fi 
 
+
+export MANPAGER='nvim +Man!'
 export ANDROID_HOME=/root/android-sdk-linux
 export LANG=en_US.UTF-8
 export XDG_CONFIG_HOME=$HOME/.config
@@ -59,6 +61,7 @@ eval "$(fasd --init auto)"
 # export INFOPATH="$HOME/.linuxbrew/share/info:$INFOPATH"
 # alias nvim="/snap/bin/nvim"
 alias tmux d="tmux detach" 
+alias svi="/snap/bin/nvim"
 alias nvr="nvr --servername $(<~/servername.txt) --remote-silent"
 alias vifmrc="nvim ~/.config/vifm/vifmrc" 
 alias ls="source ~/bin/vf" 
@@ -91,7 +94,7 @@ alias j="z"
 # alias fzf="/root/dotfiles\vim\bundle\fzf"
 alias pcm="sudo pacman"
 alias spcm="sudo pacman"
-alias zrc="cd ~; nvim zshrc"
+alias zrc="cd ~; nvim .zshrc"
 alias pac="sudo packer"
 alias cprc="cp /root/.zshrc /home/yasha/.zshrc"
 alias pacup="packer -Syu --devel"
