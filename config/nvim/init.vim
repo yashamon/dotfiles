@@ -615,8 +615,8 @@ let g:vimtex_view_method = "zathura"
 " let g:vimtex_indent_enabled =1
 " let g:vimtex_syntax_enabled=1 
 
-" terminal maps
-tnoremap <Esc> <C-\><C-n>
+" terminal mappings
+tnoremap <S-Esc> <C-\><C-n>
 
 
 function! Sentence() 
