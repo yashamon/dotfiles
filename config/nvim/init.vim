@@ -882,7 +882,9 @@ end
 EOF
 
 
-"Lsp install
+"Lsp install 
+eof
+"
 
 " lua << EOF
 " local function setup_servers()
