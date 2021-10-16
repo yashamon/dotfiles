@@ -687,7 +687,7 @@ let g:vimtex_fold_types= {
 
 
 " let  g:vimtex_fold_types_defaults = 'preamble, sections, comments'
-nmap <leader>l :terminal<CR>lat %<> 
+nmap <leader>l :te; lat %<cr> 
 " nmap <leader>l :VimtexCompile<CR>
 " nmap <leader>s <Esc>:VimtexErrors<CR>
 map <leader>g :ZenMode<CR>
