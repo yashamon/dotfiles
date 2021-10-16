@@ -872,14 +872,14 @@ end
 -- map buffer local keybindings when the language server attaches
 -- local servers = {'pyright', 'tsserver', 'texlab', 'jsonls'}
 -- for _, lsp in ipairs(servers) do
---   nvim_lsp[lsp].setup {
---     on_attach = on_attach,
---     flags = {
---       debounce_text_changes = 150,
---     }
---   }
--- end
--- EOF
+"   nvim_lsp[lsp].setup {
+"     on_attach = on_attach,
+"     flags = {
+"       debounce_text_changes = 150,
+"     }
+"   }
+" end
+" EOF
 
 
 "Lsp install
