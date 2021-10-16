@@ -579,7 +579,7 @@ noremap <m-y> :Tags<cr>
 noremap S <Esc>:BLines<CR>    
 "noremap L <Esc>:AsyncRun sentence.sh %;nvr sentence_%<cr>:echo 'press any key'<cr>:execute 'call getchar()' | BLines<cr>
 " Line search mapping
-noremap <m-l> viwhy<esc>:bdelete<cr>:<c-r>+<cr>:ZenMode<cr>  
+noremap <m-l> viwhy<esc>:bprevious<cr>:<c-r>+<cr>:ZenMode<cr>  
 noremap <m-b> <Esc>:Buffers<CR> 
 " noremap F <Esc>:GFiles<CR> 
 map <A-e> :FZF ~<CR>
