@@ -6,7 +6,6 @@ Plug 'folke/zen-mode.nvim', { 'branch': 'main' }
 "
 Plug 'phaazon/hop.nvim' 
 Plug 'is0n/fm-nvim' 
-
 Plug 'williamboman/nvim-lsp-installer'
 Plug 'nvim-lua/plenary.nvim'
 Plug 'nvim-telescope/telescope.nvim',  
@@ -1200,13 +1199,6 @@ require('fm-nvim').setup{
 		width    = .9,
 	}
 }
-EOF
-lua << EOF
-  require("which-key").setup {
-    -- your configuration comes here
-    -- or leave it empty to use the default settings
-    -- refer to the configuration section below
-  }
 EOF
 
 " lua <<EOF
