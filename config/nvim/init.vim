@@ -590,7 +590,7 @@ noremap S <Esc>:BLines<CR>
 "   normal viwhy<esc>:bdelete<cr>:buffer K<c-r>+<cr>:ZenMode<cr>
 " endfunction
 
-noremap <m-l> viwhy<esc>:bdelete<cr>:<c-r>+<cr>:ZenMode<cr>  
+noremap <m-l> viwhy<esc>:bp<cr>:<c-r>+<cr>:ZenMode<cr>  
 noremap <m-b> <Esc>:Buffers<CR> 
 " noremap F <Esc>:GFiles<CR> 
 map <A-e> :FZF ~<CR>
@@ -697,7 +697,7 @@ let g:vimtex_fold_types= {
 
  
 " let  g:vimtex_fold_types_defaults = 'preamble, sections, comments'
-nmap <leader>l :silent te latexmk -pvc -pdf -file-line-error -synctex=1 -interaction=nonstopmode -recorder -f -g %<cr><>:bp<cr>
+nmap <leader>l :silent te latexmk -pvc -pdf -file-line-error -synctex=1 -interaction=nonstopmode -recorder -f -g %<cr><cr>:bp<cr>
 " nmap <leader>l :VimtexCompile<CR>
 " nmap <leader>s <Esc>:VimtexErrors<CR>
 map <leader>g :ZenMode<CR>
