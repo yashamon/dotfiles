@@ -587,7 +587,7 @@ noremap S <Esc>:BLines<CR>
 " Line search mapping 
 function! Jumpback() 
   K=bufname()
-  echo()
+  call echo() 
   call getchar()
   normal viwhy<esc>:bdelete<cr>:<c-r>+<cr>:ZenMode<cr>
 endfunction
