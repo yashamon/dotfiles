@@ -604,7 +604,6 @@ function! Sentence()
   call getchar()
   BLines 
   AsyncStop
-
 endfunction
 noremap L <esc>:call Sentence()<cr>
 
