@@ -606,6 +606,13 @@ function! Sentence()
   AsyncStop
 endfunction
 noremap L <esc>:call Sentence()<cr>
+function! Sentence() 
+  AsyncRun sentence.sh %; nvr sentence_%  
+  echo "Print any character"
+  call getchar()
+  BLines 
+  AsyncStop
+endfunction
 
 
 function! ToggleQuickFix()
