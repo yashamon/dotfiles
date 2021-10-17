@@ -588,7 +588,7 @@ noremap S <Esc>:BLines<CR>
 function! Jumpback() 
   K=bufname() 
   call getchar()
-  
+  normal viwhy<esc>:bdelete<cr>:<c-r>+<cr>:ZenMode<cr>
 endfunction
 
 noremap <m-l> viwhy<esc>:bdelete<cr>:<c-r>+<cr>:ZenMode<cr>  
