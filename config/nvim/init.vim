@@ -586,8 +586,8 @@ noremap S <Esc>:BLines<CR>
 "noremap L <Esc>:AsyncRun sentence.sh %;nvr sentence_%<cr>:echo 'press any key'<cr>:execute 'call getchar()' | BLines<cr>
 " Line search mapping 
 function! Jumpback() 
-  K=buffname
-  echo "Print any character"
+  K=bufname()
+  
   call getchar()
   BLines
 endfunction
