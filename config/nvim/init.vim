@@ -535,7 +535,7 @@ au FileType tex,text,md nnoremap dd "_g^dg$g^
 " au FileType tex,text,md inoremap .<CR> .<CR><ESC>J0
 " au FileType tex,text,md inoremap .<Space> .<CR><ESC>J0
 " au FileType tex,text,md inoremap .<ESC> .<CR><ESC>J0
-au FileType tex,text,md inoremap <leader>cr <CR>
+" au FileType tex,text,md inoremap <leader>cr <CR>
 au FileType tex,text,md noremap map o gj0i<CR><ESC>gki 
 
 
