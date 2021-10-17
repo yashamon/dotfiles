@@ -607,7 +607,7 @@ function! Sentence()
 endfunction
 noremap L <esc>:call Sentence()<cr>
 function! Git() 
-  AsyncRun sentence.sh %; nvr sentence_%  
+  AsyncRun AsyncRun if git rev-parse --is-inside-work-tree || git rev-parse --git-dir > /dev/null 2>&1 ; then git add % ; git commit -m -a ; git push --all origin; fi  
   echo "Print any character"
   call getchar()
   BLines 
