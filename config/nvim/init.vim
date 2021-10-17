@@ -312,8 +312,6 @@ function Lighter()
    let g:material_style = 'lighter'  
 endfunction
 
-
-
 function Dark()
    set background=dark
    colorscheme one  
