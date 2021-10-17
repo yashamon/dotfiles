@@ -243,7 +243,7 @@ set background=dark
 " let g:material_style = 'lighter'
 " highlight Normal ctermbg=none
 hi clear SpellBad
-hi SpellBad cterm=underline
+hi SpellBad cterm=undercurl
 " Set style for gVim
 hi SpellBad gui=undercurl
 hi MatchParen cterm=undercurl ctermbg=none ctermfg=magenta
