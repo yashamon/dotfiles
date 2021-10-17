@@ -585,10 +585,10 @@ noremap <m-y> :Tags<cr>
 noremap S <Esc>:BLines<CR>    
 "noremap L <Esc>:AsyncRun sentence.sh %;nvr sentence_%<cr>:echo 'press any key'<cr>:execute 'call getchar()' | BLines<cr>
 " Line search mapping 
-function! Jumpback() 
-  K=bufname()
-  normal viwhy<esc>:bdelete<cr>:buffer k<c-r>+<cr>:ZenMode<cr>
-endfunction
+" function! Jumpback() 
+"   K=bufname()
+"   normal viwhy<esc>:bdelete<cr>:buffer K<c-r>+<cr>:ZenMode<cr>
+" endfunction
 
 noremap <m-l> viwhy<esc>:bdelete<cr>:<c-r>+<cr>:ZenMode<cr>  
 noremap <m-b> <Esc>:Buffers<CR> 
