@@ -162,15 +162,12 @@ autocmd VimEnter * ZenMode
 au VIMEnter set spell 
 set timeoutset
 set timeoutlen=0
-
-
-  au VIMEnter * let g:surround_108 = {
+au VIMEnter * let g:surround_108 = {
      \'q':  " ``\r''"
      \ }
 let g:tex_flavor = "latex"
 let g:tex_isk = '@,48-57,58,_,192-255'
 let g:tex_conceal = ""
-
 set tags+=~/workspacemodules/tags
 "set tags+=~/Dropbox/workspace/tags
   " set formatoptions=ant
