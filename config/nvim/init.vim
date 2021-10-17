@@ -203,7 +203,6 @@ set wildmenu            " wild char completion menu
 let maplocalleader = "\\"
 " ignore these files while expanding wild chars
 set wildignore=*.o,*.class,*.pyc
-
 set incsearch		" incremental search
 set nobackup		" no *~ backup files
 set ignorecase		" ignore case when searching
