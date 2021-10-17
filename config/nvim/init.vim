@@ -602,7 +602,9 @@ function! Sentence()
   AsyncRun sentence.sh %; nvr sentence_%  
   echo "Print any character"
   call getchar()
-  BLines
+  BLines 
+  AsyncStop
+
 endfunction
 noremap L <esc>:call Sentence()<cr>
 
