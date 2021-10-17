@@ -160,16 +160,10 @@ set guicursor=n-v-c:block,i-ci-ve:ver25,r-cr:hor20,o:hor50
 set spelllang=en  
 autocmd VimEnter * ZenMode
 au VIMEnter set spell 
-set timeout
-   set timeoutlen=0
-     set ttimeoutlen=0
+set timeoutset
+set timeoutlen=0
 
-       "NeoVim handles ESC keys as alt+key set this to solve the
-       "problem
-         if has('nvim')
-              set ttimeout
-                   set ttimeoutlen=0
-                     endif
+
   au VIMEnter * let g:surround_108 = {
      \'q':  " ``\r''"
      \ }
