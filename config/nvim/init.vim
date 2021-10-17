@@ -160,7 +160,7 @@ set guicursor=n-v-c:block,i-ci-ve:ver25,r-cr:hor20,o:hor50
 set spelllang=en  
 autocmd VimEnter * ZenMode
 au VIMEnter set spell 
- set timeout
+set timeout
    set timeoutlen=0
      set ttimeoutlen=0
 
