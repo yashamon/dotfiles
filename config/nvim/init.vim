@@ -599,7 +599,7 @@ tnoremap <A-Esc> <C-\><C-n>
 
 
 function! Sentence() 
-  silent ! sentence.sh %; nvr sentence_%  
+  AsyncRun sentence.sh %; nvr sentence_%  
   echo "Print any character"
   call getchar()
   BLines
