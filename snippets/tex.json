@@ -5,7 +5,31 @@
         "\\$$1\\$-Bundle $0" 
        ],
     "description": "Gbun"
-    },
+    },  
+"color": {
+    "prefix": "color",
+    "body": [
+        "\\color {$1}{$2} $0"
+       ],
+    "description": "colored text"
+    },  
+
+"cdot": {
+    "prefix": "cd",
+    "body": [
+        "\\cdot $0"
+       ],
+    "description": "c dot"
+    },  
+"bar": {
+    "prefix": "bar",
+    "body": [
+        "\\,|\\, $0"
+       ],
+    "description": "bar"
+    }, 
+
+
 "three dots": {
     "prefix": ".",
     "body": [
@@ -279,9 +303,9 @@
     "prefix": "par",
     "body": [
       "\\paragraph{${1:paragraph name}} % (fold)",
-      "\\label{par:${2:${1/(\\w+)(\\W+$)?|\\W+/${1:?${1:/asciify/downcase}:_}/g}}}",
+      "\\label{par:$1}",
       "${0:$TM_SELECTED_TEXT}",
-      "% paragraph $2 (end)"
+      
     ],
     "description": "Paragraph"
   },
@@ -308,7 +332,7 @@
     "prefix": "subsec",
     "body": [
       "\\subsection{${1:subsection name}} % (fold)",
-      "\\label{sub:$1}"
+      "\\label{sec:$1}"
       ],
     "description": "Sub Section"
   },   
@@ -498,7 +522,15 @@
       "$0"
     ],
     "description": "Add a empty page"
-  }, 
+  },  
+"norm": {
+    "prefix": "norm",
+    "body": [
+      "|{$1}| $0"
+    ],
+    "description": "norm"
+  },
+
 "basic bracket": {
     "prefix": "wb",
     "body": [

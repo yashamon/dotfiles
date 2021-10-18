@@ -31,7 +31,7 @@ Plug 'ray-x/cmp-treesitter'
 Plug 'L3MON4D3/LuaSnip'
 " Plug 'saadparwaiz1/cmp_luasnip'
 "Plug 'steelsojka/completion-buffers'
-Plug 'voldikss/vim-floaterm', { 'on': 'FloatermNew' }
+Plug 'voldikss/vim-floaterm'
 Plug 'kabouzeid/nvim-lspinstall', { 'branch': 'main' }
 "Plug 'pope/vim-obsession'
 "Plug 'xolox/vim-easytags'
@@ -70,7 +70,6 @@ Plug 'kevinhwang91/nvim-bqf', { 'branch': 'main' }
 " if you install fzf as system package like `pacman -S fzf` in ArchLinux,
 " please comment next line
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
-" Plug 'sindrets/diffview.nvim', { 'branch': 'main' } 
 " Plug 'sindrets/diffview.nvim', { 'branch': 'main' } 
 "Plug 'rmagatti/auto-session', { 'branch': 'main' }
 Plug 'justinmk/vim-sneak'
@@ -115,7 +114,7 @@ Plug 'vim-scripts/AutoTag'
 
 Plug 'vim-scripts/vim-auto-save'
 
-" Plug 'vim-pandoc/vim-pandoc'
+Plug 'vim-pandoc/vim-pandoc'
 
 " Plug 'yashamon/vim-snippets'
 
@@ -155,25 +154,6 @@ set termguicolors
 set guicursor=n-v-c:block,i-ci-ve:ver25,r-cr:hor20,o:hor50
 		  \,a:blinkwait700-blinkoff400-blinkon250-Cursor/lCursor
 		  \,sm:block-blinkwait175-blinkoff150-blinkon175
-" au GUIEnter * set fullscreen
-" if has("gui_running")
-  " set fuoptions=maxvert,maxhorz
-  " au GUIEnter * set fullscreen
-   " set foldcolumn=10
-   " set formatoptions=ant
-" set wrapmargin=0
-" set nohlsearch
-" " set tags= ~/.tags
-" highlight SignColumn guibg=bg
-"       endif    
-" if has("autocmd")
-"   au BufReadPost * if line("'\"") > 1 && line("'\"") <= line("$") | exe "normal! g'\"" | endif
-" endif
-  " autocmd BufWinLeave *.* mkview
-  " autocmd BufWinEnter *.* silent loadview
-   " set foldcolumn=2
-"  highlight foldcolumn ctermfg=256 ctermbg=bg
-" autocmd Colorscheme * highlight FoldColumn guifg=black guibg=bg 
 set spelllang=en  
 autocmd VimEnter * ZenMode
 au VIMEnter set spell 
@@ -194,14 +174,15 @@ let g:tex_flavor = "latex"
 let g:tex_isk = '@,48-57,58,_,192-255'
 let g:tex_conceal = ""
 
-set tags+=~/texmf/bibtex/bib/tags
+set tags+=~/workspacemodules/tags
 "set tags+=~/Dropbox/workspace/tags
   " set formatoptions=ant
   " set wrapmargin=1
-" set shada="NONE"
+" set shada="NONE"  
+set listchars=eol:¬,tab:>·,trail:~,extends:>,precedes:<,space:␣
 set wrap
-set linebreak
-" set breakat=" "
+set linebreak 
+set formatoptions+=w " set breakat=" "
 " set list  " list disables linebreak
 set textwidth=0
 set wrapmargin=-1
@@ -251,7 +232,7 @@ if has("gui_running")	" GUI color and font settings
   " colorscheme gruvbox 
   highlight CursorLine  guibg=#003853 ctermbg=24  gui=none cterm=none
 else
-" terminal color settings
+" terminal color settings 
 set background=dark
 " Example config in VimScript
 let g:github_function_style = "italic"
@@ -275,14 +256,15 @@ hi SpellBad gui=undercurl
 hi MatchParen cterm=undercurl ctermbg=none ctermfg=magenta
 endif
 
-"Autocommands
+"Autocommands, au
 "
 
 
 autocmd BufReadPost * if @% !~# '\.git[\/\\]COMMIT_EDITMSG$' && line("'\"") > 1 && line("'\"") <= line("$") | exe "normal! g`\"" | endif 
-au FileType Makefile set noexpandtab  
-au FileType tex,text, set spelllang=en
-au FileType tex,text,md set spell    
+au FileType Makefile set noexpandtab
+au FileType tex,text set spelllang=en
+au FileType tex,text,md set spell
+au FileType vim,lua,md set list
 au FileType tex,text,md syntax sync fromstart
 au FileType tex,text,md silent execute "!echo " . v:servername . " > ~/servername.txt"   
 au FileType tex,text,md hi SpellBad cterm=undercurl
@@ -482,8 +464,8 @@ map <M-d> <Esc>:bdelete<CR>
 noremap gf gq
 noremap f /
 noremap F ?
-inoremap .<Esc> .<CR><Esc><leader>j
-inoremap .<Space> .<CR><Esc><leader>j
+" inoremap .<Esc> .<CR><Esc><leader>j
+" inoremap .<Space> .<CR><Esc><leader>j
 " noremap S :S 
 "
 "
@@ -591,7 +573,8 @@ map T <cmd>HopWordBC<cr>
 
 " FZF 
 "
-noremap <m-t> :BTags<cr>
+noremap <m-t> :BTags<cr> 
+noremap <m-y> :Tags<cr>
 noremap S <Esc>:BLines<CR>    
 "noremap L <Esc>:AsyncRun sentence.sh %;nvr sentence_%<cr>:echo 'press any key'<cr>:execute 'call getchar()' | BLines<cr>
 " Line search mapping
@@ -611,6 +594,10 @@ let g:latex_view_general_viewer = 'zathura'
 let g:vimtex_view_method = "zathura"
 " let g:vimtex_indent_enabled =1
 " let g:vimtex_syntax_enabled=1 
+
+" terminal mappings
+tnoremap <A-Esc> <C-\><C-n>
+
 
 function! Sentence() 
   AsyncRun sentence.sh %; nvr sentence_%  
@@ -699,8 +686,8 @@ let g:vimtex_fold_types= {
 
 
 " let  g:vimtex_fold_types_defaults = 'preamble, sections, comments'
-" nmap <leader>l :silent execute "AsyncRun latexmk -pvc -pdf -file-line-error -synctex=1 -interaction=nonstopmode -recorder %"<CR>
-nmap <leader>l :VimtexCompile<CR>
+nmap <leader>l :Silent te latexmk -pvc -pdf -file-line-error -synctex=1 -interaction=nonstopmode -recorder -f -g %<cr>
+" nmap <leader>l :VimtexCompile<CR>
 " nmap <leader>s <Esc>:VimtexErrors<CR>
 map <leader>g :ZenMode<CR>
 nmap <leader>p :Denite neoyank -default-action=append<CR>
@@ -745,6 +732,7 @@ noremap <Leader>u :ZenMode<cr>:UndotreeToggle<CR>:ZenMode<cr>
         noremap <S-C-z> <C-r>
         " noremap <C-z> u
     " }
+
 
 " Latex shortcuts
 "Latex compile. 
@@ -1322,3 +1310,24 @@ EOF
 "   \ call fzf#vim#grep(
 "   \ "rg --column --line-number --no-heading --color=always --smart-case " .
 "   \ <q-args>, 1, fzf#vim#with_preview(), <bang>0)
+"
+"" au GUIEnter * set fullscreen
+" if has("gui_running")
+  " set fuoptions=maxvert,maxhorz
+  " au GUIEnter * set fullscreen
+   " set foldcolumn=10
+   " set formatoptions=ant
+" set wrapmargin=0
+" set nohlsearch
+" set tags= ~/workspacemodules/tags
+" highlight SignColumn guibg=bg
+"       endif    
+" if has("autocmd")
+"   au BufReadPost * if line("'\"") > 1 && line("'\"") <= line("$") | exe "normal! g'\"" | endif
+" endif
+  " autocmd BufWinLeave *.* mkview
+  " autocmd BufWinEnter *.* silent loadview
+   " set foldcolumn=2
+"  highlight foldcolumn ctermfg=256 ctermbg=bg
+" autocmd Colorscheme * highlight FoldColumn guifg=black guibg=bg 
+
