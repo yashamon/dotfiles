@@ -1,0 +1,1 @@
+"use strict";var fsObj=null,weblog={debug:console.debug,info:console.info,warn:console.warn,error:console.error};$(function(){fs&&(fsObj=new fs).init(function(o){o?console.error(o):weblog=new log({level:"debug",fs:fsObj,console:!0,maxsize:10485760,dir:"/logs/",filename:"zoom-file",onerror:function(o){console.error(o)}})})});

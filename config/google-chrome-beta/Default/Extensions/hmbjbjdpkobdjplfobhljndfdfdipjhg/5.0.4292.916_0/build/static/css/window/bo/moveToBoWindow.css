@@ -1,0 +1,1 @@
+ul{list-style:none}li{position:relative;height:30px;line-height:30px}li:hover{cursor:pointer;background-color:#D7EBFF}.rooms{display:inline-block;width:215px;max-height:300px;overflow-x:hidden;overflow-y:auto;text-overflow:ellipsis;white-space:nowrap;font:normal normal 13px Arial,sans-serif}.room-name{margin-left:10px;font-weight:700}.room-n{position:absolute;right:10px}

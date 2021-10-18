@@ -1,0 +1,494 @@
+{
+  "1055686627716339120": {
+    "message": "Artxiboa"
+  },
+  "1102717806459547726": {
+    "message": "Freskatu"
+  },
+  "1122146167985532789": {
+    "message": "atzo"
+  },
+  "116696227691552491": {
+    "message": "Aukeratu tokia"
+  },
+  "1171339122262740595": {
+    "message": "Jada ez da onartzen Chrome-ren Keep aplikazioa. Keep erabiltzen jarraitzeko, joan keep.google.com helbidera."
+  },
+  "1248242541854939846": {
+    "message": "Konpondu aldaketen ondoriozko gatazkak"
+  },
+  "125962421212090538": {
+    "message": "Datorren astea"
+  },
+  "1333255388111908292": {
+    "message": "Jangaiak"
+  },
+  "1338300799355131761": {
+    "message": "Ohar izengabea"
+  },
+  "1365216822837281424": {
+    "message": "Chrome-rako luzapena"
+  },
+  "1377158635423797368": {
+    "message": "Joan etiketara"
+  },
+  "1388712764439031120": {
+    "message": "Ireki esteka"
+  },
+  "1429848477922945853": {
+    "message": "Hutsik dagoen oharra"
+  },
+  "146276399441370821": {
+    "message": "Ireki keep.google.com"
+  },
+  "1512114410402431831": {
+    "message": "Freskatu"
+  },
+  "1536087519743707362": {
+    "message": "Baztertu"
+  },
+  "1675711464233426777": {
+    "message": "Geroago"
+  },
+  "1694896269813520248": {
+    "message": "Gehitu marrazkia"
+  },
+  "1770899865480106963": {
+    "message": "Android-eko gailuak"
+  },
+  "1790494039990261456": {
+    "message": "Utzi biak beren horretan"
+  },
+  "1858255237143975969": {
+    "message": "$2​Pribatutasuna$1​"
+  },
+  "187077078156858455": {
+    "message": "Audio-oharra"
+  },
+  "1963323419655107448": {
+    "message": "Ezabatu markatutako elementuak"
+  },
+  "205445381296663832": {
+    "message": "Ezin izan da kargatu."
+  },
+  "2159130950882492111": {
+    "message": "Utzi"
+  },
+  "2184278444368405837": {
+    "message": "$1​ elementu"
+  },
+  "2323249770683736002": {
+    "message": "Sortu etiketa"
+  },
+  "2438741853303074449": {
+    "message": "agerraldi"
+  },
+  "2452145367257933677": {
+    "message": "Desegin"
+  },
+  "2455647485809380838": {
+    "message": "Kudeatu oharrik gabeko abisuak"
+  },
+  "246828342952819465": {
+    "message": "Hartu buruan darabilzunaren oharrak $1​ edozein gailutatik"
+  },
+  "2509141182388535183": {
+    "message": "Ikusi"
+  },
+  "2542788471536661524": {
+    "message": "Jaregin irudiak hemen"
+  },
+  "2632538140519286364": {
+    "message": "Zaborrontziko oharrak zazpi egunez behin ezabatzen dira."
+  },
+  "2680303811435018716": {
+    "message": "Ezin dira gehitu elementu gehiago"
+  },
+  "2814354342017225342": {
+    "message": "Aurreikusi esteka aberastuak"
+  },
+  "2930974997943171554": {
+    "message": "Desgaitu da gai iluna"
+  },
+  "2971623719720688041": {
+    "message": "Desegin da ekintza"
+  },
+  "2973306402585941108": {
+    "message": "Goiza"
+  },
+  "2983318659047499045": {
+    "message": "Abisuak"
+  },
+  "2989422642644963524": {
+    "message": "Abisua ezarri da: $1​"
+  },
+  "3074915509081765994": {
+    "message": "iPhone eta iPad"
+  },
+  "3091440425606975088": {
+    "message": "Zerrenda izengabea"
+  },
+  "3121560585545725724": {
+    "message": "$1​ ($2​)"
+  },
+  "3190546672187601036": {
+    "message": "Gaua"
+  },
+  "3249966726137025950": {
+    "message": "Kolaboratzailearen familia-taldea"
+  },
+  "3258100527833044153": {
+    "message": "Baztertu da marrazki hutsa"
+  },
+  "3378875258397512442": {
+    "message": "Ezarri ordu eta toki jakinetan abiarazi beharreko abisuak oharretan, grabatu ahots-oharrak eta egin lan Internetera konektatuta nahiz konektatu gabe."
+  },
+  "3385831848537487538": {
+    "message": "Bidaiak"
+  },
+  "3418677553313974490": {
+    "message": "Zaborrontzia"
+  },
+  "3462556632501534753": {
+    "message": "$2​Kode irekiko lizentziak$1​"
+  },
+  "3551522853788442530": {
+    "message": "Egin atzera"
+  },
+  "3571391964903695725": {
+    "message": "Errepikatu"
+  },
+  "3571704286086017611": {
+    "message": "Ezabatu da abisua"
+  },
+  "3580243353280636963": {
+    "message": "Aukeratu data eta ordua"
+  },
+  "3608521102844050208": {
+    "message": "Abisua:"
+  },
+  "3714239567487848851": {
+    "message": "Gaitu da gai iluna"
+  },
+  "3768927257183755959": {
+    "message": "Gorde"
+  },
+  "3823114520994436161": {
+    "message": "Eguneratu aplikazioa (keep.google.com)"
+  },
+  "3852386690131857488": {
+    "message": "Gaitu partekatzeko aukera"
+  },
+  "3907816292084809686": {
+    "message": "Berregin da ekintza"
+  },
+  "395680759377627007": {
+    "message": "Sortu \"$3​$2​$1​\""
+  },
+  "397098723873502323": {
+    "message": "Eginda"
+  },
+  "3989925953740167133": {
+    "message": "Google Keep zerbitzuak zure kokapena erabili nahi du kokapen-abisuetako tokien iradokizunak hobetzeko."
+  },
+  "4174786386751618325": {
+    "message": "Argazki-oharra"
+  },
+  "4191000901158114852": {
+    "message": "Google Keep"
+  },
+  "4343848624651344174": {
+    "message": "Eguerdia"
+  },
+  "4494250072784000771": {
+    "message": "Arkatza detektatu da. Hatza erabilita mugitzeko aukera gaituta dago."
+  },
+  "4514241210910366093": {
+    "message": "Sareta-ikuspegia"
+  },
+  "4533605085334699862": {
+    "message": "Aipuak"
+  },
+  "456512308416555173": {
+    "message": "Liburuak"
+  },
+  "4734349318830134239": {
+    "message": "Amaiera"
+  },
+  "4840513623749850224": {
+    "message": "Filmak"
+  },
+  "4930506384627295710": {
+    "message": "Ezarpenak"
+  },
+  "4963533275503057654": {
+    "message": "Irudi txikia sortzen…"
+  },
+  "4974261966265341751": {
+    "message": "Desgaitu gai iluna"
+  },
+  "5000971639019912199": {
+    "message": "$2​Baldintzak$1​"
+  },
+  "5259541708332520733": {
+    "message": "Kendu da iturburua"
+  },
+  "527438013974545289": {
+    "message": "Iritsi da gai iluna"
+  },
+  "5275304974990264425": {
+    "message": "Zerrenda-ikuspegia"
+  },
+  "5403636185480096151": {
+    "message": "Telebista"
+  },
+  "5422660126805186552": {
+    "message": "Irakurri modu atseginagoan. Ezarpenetan aktibatu edo desaktiba dezakezu modu iluna."
+  },
+  "546766753072101168": {
+    "message": "Etiketak"
+  },
+  "5510222038351634163": {
+    "message": "Lortu informazio gehiago Chrome-ren Keep aplikazioaren zaharkitze-prozesuari buruz"
+  },
+  "5570885401952336951": {
+    "message": "Bezeroaren erregistroa"
+  },
+  "5592884381280360832": {
+    "message": "Ados"
+  },
+  "5601530442010506564": {
+    "message": "Ados"
+  },
+  "5652536812290902558": {
+    "message": "Deskargatu audioa"
+  },
+  "5994697604396931641": {
+    "message": "Kendu guztiak"
+  },
+  "6049952042443321325": {
+    "message": "Lasterbideen taula"
+  },
+  "6069780031254134657": {
+    "message": "Markatu egindako gisa"
+  },
+  "6113237889871930608": {
+    "message": "Ohar zuria"
+  },
+  "6176354714840789272": {
+    "message": "Estekak gorde ere egin ditzakezu geroko $2​Google Keep-en Chrome-rako luzapena$1​ erabilita."
+  },
+  "6189397065139465013": {
+    "message": "Maiztasuna:"
+  },
+  "6225875898439047571": {
+    "message": "Ukatu"
+  },
+  "6231442995102088007": {
+    "message": "Google Keep zerbitzuko berritasunak"
+  },
+  "6252259197986158120": {
+    "message": "Atzo"
+  },
+  "6366376928558090914": {
+    "message": "Janaria"
+  },
+  "6371576811194810854": {
+    "message": "Errepikaldi kopurua:"
+  },
+  "6402092370576716734": {
+    "message": "Hustu zaborrontzia"
+  },
+  "6473102097014191455": {
+    "message": "Marrazki-oharra"
+  },
+  "6497197865876438261": {
+    "message": "Musika"
+  },
+  "6510131849363684615": {
+    "message": "Bihar"
+  },
+  "6579707685908557993": {
+    "message": "Arratsaldea"
+  },
+  "6755327423364814290": {
+    "message": "Aplikazioarekin, oharrak bizkorrago egin ditzakezu"
+  },
+  "6822520214440117457": {
+    "message": "Lantokia"
+  },
+  "689017442055275529": {
+    "message": "$1​ erabiltzailearen familia-taldea"
+  },
+  "6982321568096234183": {
+    "message": "Deskargatu audioa ($1​)"
+  },
+  "7005745151564974365": {
+    "message": "Lasterbideak"
+  },
+  "7102649289752747375": {
+    "message": "Bidali oharrak"
+  },
+  "7174409400206281023": {
+    "message": "Aldaketek sortutako gatazkak aurkitu dira"
+  },
+  "7207109722898253285": {
+    "message": "Utzi hautatuak beren horretan"
+  },
+  "7254411458460045711": {
+    "message": "Ezin izan da eguneratu. Saiatu berriro geroago. Ez bazaude konektatuta Internetera, konekta zaitez berriro saiatu aurretik."
+  },
+  "7301081435623917576": {
+    "message": "Abisuen ezarpen lehenetsiak"
+  },
+  "7330497278645626593": {
+    "message": "Probatu"
+  },
+  "7379369644162401367": {
+    "message": "Ken itzazu"
+  },
+  "7381817875028728077": {
+    "message": "Ez, eskerrik asko"
+  },
+  "7384785369409503695": {
+    "message": "Gaitu gai iluna"
+  },
+  "7420364754178516134": {
+    "message": "Arazketa-tresnak"
+  },
+  "7430680760319628492": {
+    "message": "Berrikusi"
+  },
+  "7510155920769316048": {
+    "message": "Oharrak eta zerrendak"
+  },
+  "7528441140724145783": {
+    "message": "Editatu etiketak"
+  },
+  "7565795669925550891": {
+    "message": "Honek partekatu du:"
+  },
+  "7579280421767578228": {
+    "message": "Gogorarazi noiz edo noiz"
+  },
+  "7585826646011739428": {
+    "message": "Editatu"
+  },
+  "7624042048123264803": {
+    "message": "Ireki oharra"
+  },
+  "7669846901402551021": {
+    "message": "Gaur"
+  },
+  "7735981667219692675": {
+    "message": "{resultCount,plural, =1{# bilaketa-emaitza}other{# bilaketa-emaitza}}"
+  },
+  "7819314041543176992": {
+    "message": "Itxi"
+  },
+  "7873060817438017568": {
+    "message": "$2​ · $1​"
+  },
+  "7911416166208830577": {
+    "message": "Laguntza"
+  },
+  "7934833136974560675": {
+    "message": "Saiatu berriro"
+  },
+  "8104421162933956065": {
+    "message": "Oharrak"
+  },
+  "8133866583554546341": {
+    "message": "$1​, $2​"
+  },
+  "8149439558305434788": {
+    "message": "$1​ ($2​)"
+  },
+  "8193677552005249631": {
+    "message": "Aplikazioen deskargak"
+  },
+  "819996403327805209": {
+    "message": "Lortu informazio gehiago"
+  },
+  "8229434427096481545": {
+    "message": "Aldaketak egin dira"
+  },
+  "824468664656304495": {
+    "message": "Ez zaude konektatuta Internetera. Agian funtzio batzuk ez dira erabilgarri egongo."
+  },
+  "8342620486324515462": {
+    "message": "Baztertu"
+  },
+  "8412733496413412439": {
+    "message": "Konexiorik gabe"
+  },
+  "8422875188929347819": {
+    "message": "Partekatzeak"
+  },
+  "8506292502710287776": {
+    "message": "Ohar luzeak egiten al dituzu? Behealdera heltzean, toki gehiago gehituko dugu automatikoki."
+  },
+  "8559513397356310933": {
+    "message": "Gehitu elementu berriak behealdean"
+  },
+  "857379832182429172": {
+    "message": "Aktibatu"
+  },
+  "8602525917014156029": {
+    "message": "Tokiak"
+  },
+  "8611058223830804795": {
+    "message": "Eraman markatutako elementuak behealdera"
+  },
+  "8663507590720636709": {
+    "message": "$1​ eta beste $2​"
+  },
+  "8775097441636640256": {
+    "message": "$2​ - $1​"
+  },
+  "8797656338249040679": {
+    "message": "$2​Instalatu Google Keep-en Chrome-rako luzapena,$1​ klik bakarra eginda Keep zerbitzuan gorde ditzazun interesatzen zaizkizun gauzak."
+  },
+  "8831459317888986184": {
+    "message": "Ezabatu hautatutakoak"
+  },
+  "8903612093856047007": {
+    "message": "Kolaboratzaileak"
+  },
+  "8905995985388209337": {
+    "message": "Onartu"
+  },
+  "8930959387403789939": {
+    "message": "Abisua"
+  },
+  "8990769651805334695": {
+    "message": "Aktibatuta"
+  },
+  "900086393693234779": {
+    "message": "Etxea"
+  },
+  "911698676339750373": {
+    "message": "Familia-taldea"
+  },
+  "9129734193759025482": {
+    "message": "Bihar"
+  },
+  "9146862513672039744": {
+    "message": "Xahutu kontua"
+  },
+  "9207517187376875555": {
+    "message": "Erabili Keep web-arakatzailearen bidez"
+  },
+  "appDesc": {
+    "description": "App description",
+    "message": "Ez ahaztu inoiz buruan darabilzuna eta partekatu ideiak lagunekin eta familiarekin."
+  },
+  "appName": {
+    "description": "App name",
+    "message": "Google Keep: oharrak eta zerrendak"
+  },
+  "shortName": {
+    "description": "App short name",
+    "message": "Google Keep"
+  }
+}

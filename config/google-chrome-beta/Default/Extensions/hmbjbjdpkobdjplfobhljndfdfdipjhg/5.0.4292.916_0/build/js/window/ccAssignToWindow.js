@@ -1,0 +1,1 @@
+"use strict";var g;function execute(){g={meeting:mainAppHtmlWindow.inmeeting,time:null},showTooltip(),bindTooltipEvt()}function showTooltip(){deferToShow(1e4)}function deferToShow(o){clearTimeout(g.time),g.time=util.deferTodo(function(){window.close()},o)}function bindTooltipEvt(){$(".cc-tooltip-close").click(function(){g.meeting.hideCCTooltip(),window.close()})}

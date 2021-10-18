@@ -1,0 +1,21 @@
+{
+   "chrome_url_overrides": {
+      "newtab": "newtab.html"
+   },
+   "description": "Customize the new tab URL.",
+   "icons": {
+      "128": "icons/icon128.png",
+      "16": "icons/icon16.png",
+      "19": "icons/icon19.png",
+      "38": "icons/icon38.png",
+      "48": "icons/icon48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAseBjFP2o/nOI57oq4E9kfsovFauDkI8yZx6W4qslnf48moICCWhCloLSM0Sopk43TEFlqqpYuf1fYqrve7QFxapOHz5eBbGVQbcH/ePJPbWiO3D/2RIulpWjt83FCefXHF/UzwdaECB7cDiwu8ZVt0yUWaqljAMN0MHQvSW7JyJZEPQU2C9tT6hmmS2kfQYxq3s5jLlsBYTmVd7Rh0JvOaku9440f+T4RdVnG7ntpBRZteHLjh6FeGsu3Sc5ZiLgBkcO+5wO7DNoR1f3opGa3XO1o2kmJB/hzNzZ2pR6TpDhfY8FSSQKPY0dQMnkxWdx6ruRSkIHf5DEXDiBUo6kRwIDAQAB",
+   "manifest_version": 2,
+   "name": "Custom New Tab URL",
+   "offline_enabled": true,
+   "options_page": "options.html",
+   "permissions": [ "storage", "bookmarks", "chrome://favicon/" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.1.3"
+}

@@ -1,0 +1,494 @@
+{
+   "1055686627716339120": {
+      "message": "Arxiva"
+   },
+   "1102717806459547726": {
+      "message": "Actualitza"
+   },
+   "1122146167985532789": {
+      "message": "ahir"
+   },
+   "116696227691552491": {
+      "message": "Tria un lloc"
+   },
+   "1171339122262740595": {
+      "message": "L'aplicació Keep de Chrome ja no s'admet. Pots continuar utilitzant Keep anant a keep.google.com."
+   },
+   "1248242541854939846": {
+      "message": "Corregeix els canvis en conflicte"
+   },
+   "125962421212090538": {
+      "message": "La setmana que ve"
+   },
+   "1333255388111908292": {
+      "message": "Botigues d'alimentació"
+   },
+   "1338300799355131761": {
+      "message": "Nota sense títol"
+   },
+   "1365216822837281424": {
+      "message": "Extensió de Chrome"
+   },
+   "1377158635423797368": {
+      "message": "Ves a l'etiqueta"
+   },
+   "1388712764439031120": {
+      "message": "Obre l'enllaç"
+   },
+   "1429848477922945853": {
+      "message": "Nota buida"
+   },
+   "146276399441370821": {
+      "message": "Obre keep.google.com"
+   },
+   "1512114410402431831": {
+      "message": "Actualitza"
+   },
+   "1536087519743707362": {
+      "message": "Ignora"
+   },
+   "1675711464233426777": {
+      "message": "Avui més tard"
+   },
+   "1694896269813520248": {
+      "message": "Afegeix un dibuix"
+   },
+   "1770899865480106963": {
+      "message": "Dispositius Android"
+   },
+   "1790494039990261456": {
+      "message": "Desa-les totes dues"
+   },
+   "1858255237143975969": {
+      "message": "$2​Privadesa$1​"
+   },
+   "187077078156858455": {
+      "message": "Nota d'àudio"
+   },
+   "1963323419655107448": {
+      "message": "Suprimeix els elements marcats"
+   },
+   "205445381296663832": {
+      "message": "Ha fallat la pujada."
+   },
+   "2159130950882492111": {
+      "message": "Cancel·la"
+   },
+   "2184278444368405837": {
+      "message": "$1​ elements"
+   },
+   "2323249770683736002": {
+      "message": "Crea una etiqueta"
+   },
+   "2438741853303074449": {
+      "message": "repeticions"
+   },
+   "2452145367257933677": {
+      "message": "Desfés"
+   },
+   "2455647485809380838": {
+      "message": "Gestiona els recordatoris sense cap nota"
+   },
+   "246828342952819465": {
+      "message": "Captura les teves idees$1​des de qualsevol dispositiu"
+   },
+   "2509141182388535183": {
+      "message": "Mostra"
+   },
+   "2542788471536661524": {
+      "message": "Deixa anar les imatges aquí."
+   },
+   "2632538140519286364": {
+      "message": "Les notes de la paperera se suprimeixen al cap de set dies."
+   },
+   "2680303811435018716": {
+      "message": "No es poden afegir més elements"
+   },
+   "2814354342017225342": {
+      "message": "Mostra previsualitzacions avançades d'enllaços"
+   },
+   "2930974997943171554": {
+      "message": "El tema fosc s'ha desactivat"
+   },
+   "2971623719720688041": {
+      "message": "S'ha desfet l'acció"
+   },
+   "2973306402585941108": {
+      "message": "Matí"
+   },
+   "2983318659047499045": {
+      "message": "Recordatoris"
+   },
+   "2989422642644963524": {
+      "message": "Hi ha un recordatori configurat per a $1​"
+   },
+   "3074915509081765994": {
+      "message": "iPhone i iPad"
+   },
+   "3091440425606975088": {
+      "message": "Llista sense títol"
+   },
+   "3121560585545725724": {
+      "message": "$1​, $2​"
+   },
+   "3190546672187601036": {
+      "message": "Nit"
+   },
+   "3249966726137025950": {
+      "message": "Grup familiar del col·laborador"
+   },
+   "3258100527833044153": {
+      "message": "El dibuix en blanc s'ha descartat"
+   },
+   "3378875258397512442": {
+      "message": "Configura recordatoris sobre llocs i hores a les notes, pren notes de veu i treballa en línia o sense connexió."
+   },
+   "3385831848537487538": {
+      "message": "Viatges"
+   },
+   "3418677553313974490": {
+      "message": "Paperera"
+   },
+   "3462556632501534753": {
+      "message": "$2​Llicències de programari lliure$1​"
+   },
+   "3551522853788442530": {
+      "message": "Torna"
+   },
+   "3571391964903695725": {
+      "message": "Repeteix"
+   },
+   "3571704286086017611": {
+      "message": "El recordatori s'ha suprimit"
+   },
+   "3580243353280636963": {
+      "message": "Tria data i hora"
+   },
+   "3608521102844050208": {
+      "message": "Recordatori:"
+   },
+   "3714239567487848851": {
+      "message": "El tema fosc s'ha activat"
+   },
+   "3768927257183755959": {
+      "message": "Desa"
+   },
+   "3823114520994436161": {
+      "message": "Actualitza a keep.google.com"
+   },
+   "3852386690131857488": {
+      "message": "Activa l'opció per compartir"
+   },
+   "3907816292084809686": {
+      "message": "S'ha refet l'acció"
+   },
+   "395680759377627007": {
+      "message": "Crea \"$3​$2​$1​\""
+   },
+   "397098723873502323": {
+      "message": "Fet"
+   },
+   "3989925953740167133": {
+      "message": "Google Keep vol fer servir la teva ubicació per millorar els suggeriments de llocs per als recordatoris d'ubicació."
+   },
+   "4174786386751618325": {
+      "message": "Nota de foto"
+   },
+   "4191000901158114852": {
+      "message": "Google Keep"
+   },
+   "4343848624651344174": {
+      "message": "Tarda"
+   },
+   "4494250072784000771": {
+      "message": "S'ha detectat un llapis òptic. Pots desplaçar-te per la pantalla amb gestos."
+   },
+   "4514241210910366093": {
+      "message": "Visualització de quadrícula"
+   },
+   "4533605085334699862": {
+      "message": "Citacions"
+   },
+   "456512308416555173": {
+      "message": "Llibres"
+   },
+   "4734349318830134239": {
+      "message": "Finalitza"
+   },
+   "4840513623749850224": {
+      "message": "Pel·lícules"
+   },
+   "4930506384627295710": {
+      "message": "Configuració"
+   },
+   "4963533275503057654": {
+      "message": "S'està creant una miniatura..."
+   },
+   "4974261966265341751": {
+      "message": "Desactiva el tema fosc"
+   },
+   "5000971639019912199": {
+      "message": "$2​Condicions$1​"
+   },
+   "5259541708332520733": {
+      "message": "La font s'ha suprimit"
+   },
+   "527438013974545289": {
+      "message": "El tema fosc ja és aquí"
+   },
+   "5275304974990264425": {
+      "message": "Visualització de llista"
+   },
+   "5403636185480096151": {
+      "message": "Televisió"
+   },
+   "5422660126805186552": {
+      "message": "Gaudeix d'una experiència de lectura més còmoda. Activa-la o desactiva-la a Configuració."
+   },
+   "546766753072101168": {
+      "message": "Etiquetes"
+   },
+   "5510222038351634163": {
+      "message": "Més informació sobre la desactivació de l'aplicació Keep de Chrome"
+   },
+   "5570885401952336951": {
+      "message": "Registre del client"
+   },
+   "5592884381280360832": {
+      "message": "Entesos"
+   },
+   "5601530442010506564": {
+      "message": "Entesos"
+   },
+   "5652536812290902558": {
+      "message": "Baixa l'àudio"
+   },
+   "5994697604396931641": {
+      "message": "Suprimeix-ho tot"
+   },
+   "6049952042443321325": {
+      "message": "Taula de tecles de drecera"
+   },
+   "6069780031254134657": {
+      "message": "Marca com a fet"
+   },
+   "6113237889871930608": {
+      "message": "Nota buida"
+   },
+   "6176354714840789272": {
+      "message": "També pots desar enllaços per a més tard amb l'$2​extensió de Chrome per a Google Keep$1​."
+   },
+   "6189397065139465013": {
+      "message": "Cada"
+   },
+   "6225875898439047571": {
+      "message": "Denega"
+   },
+   "6231442995102088007": {
+      "message": "Novetats de Google Keep"
+   },
+   "6252259197986158120": {
+      "message": "Ahir"
+   },
+   "6366376928558090914": {
+      "message": "Menjar"
+   },
+   "6371576811194810854": {
+      "message": "Després de"
+   },
+   "6402092370576716734": {
+      "message": "Buida la paperera"
+   },
+   "6473102097014191455": {
+      "message": "Nota de dibuix"
+   },
+   "6497197865876438261": {
+      "message": "Música"
+   },
+   "6510131849363684615": {
+      "message": "Demà"
+   },
+   "6579707685908557993": {
+      "message": "Vespre"
+   },
+   "6755327423364814290": {
+      "message": "Pren notes més ràpidament amb l'aplicació"
+   },
+   "6822520214440117457": {
+      "message": "Feina"
+   },
+   "689017442055275529": {
+      "message": "Grup familiar de: $1​"
+   },
+   "6982321568096234183": {
+      "message": "Baixa l'àudio ($1​)"
+   },
+   "7005745151564974365": {
+      "message": "Tecles de drecera"
+   },
+   "7102649289752747375": {
+      "message": "Envia suggeriments"
+   },
+   "7174409400206281023": {
+      "message": "S'han trobat canvis en conflicte"
+   },
+   "7207109722898253285": {
+      "message": "Desa les seleccionades"
+   },
+   "7254411458460045711": {
+      "message": "Ha fallat l'actualització. Torna-ho a provar més tard. Si en aquests moments no tens connexió, connecta't a Internet abans de tornar-ho a provar."
+   },
+   "7301081435623917576": {
+      "message": "Opcions predeterminades dels recordatoris"
+   },
+   "7330497278645626593": {
+      "message": "Prova-ho"
+   },
+   "7379369644162401367": {
+      "message": "Suprimeix-los"
+   },
+   "7381817875028728077": {
+      "message": "No, gràcies"
+   },
+   "7384785369409503695": {
+      "message": "Activa el tema fosc"
+   },
+   "7420364754178516134": {
+      "message": "Eines de depuració"
+   },
+   "7430680760319628492": {
+      "message": "Revisa"
+   },
+   "7510155920769316048": {
+      "message": "Notes i llistes"
+   },
+   "7528441140724145783": {
+      "message": "Edita les etiquetes"
+   },
+   "7565795669925550891": {
+      "message": "Compartida per"
+   },
+   "7579280421767578228": {
+      "message": "Recordatori per a una data no especificada"
+   },
+   "7585826646011739428": {
+      "message": "Edita"
+   },
+   "7624042048123264803": {
+      "message": "Obre la nota"
+   },
+   "7669846901402551021": {
+      "message": "Avui"
+   },
+   "7735981667219692675": {
+      "message": "{resultCount,plural, =1{# resultat de la cerca}other{# resultats de la cerca}}"
+   },
+   "7819314041543176992": {
+      "message": "Tanca"
+   },
+   "7873060817438017568": {
+      "message": "$2​, $1​"
+   },
+   "7911416166208830577": {
+      "message": "Ajuda"
+   },
+   "7934833136974560675": {
+      "message": "Torna-ho a provar"
+   },
+   "8104421162933956065": {
+      "message": "Notes"
+   },
+   "8133866583554546341": {
+      "message": "$1​, $2​"
+   },
+   "8149439558305434788": {
+      "message": "$1​, $2​"
+   },
+   "8193677552005249631": {
+      "message": "Baixades d'aplicacions"
+   },
+   "819996403327805209": {
+      "message": "Més informació"
+   },
+   "8229434427096481545": {
+      "message": "Hi ha actualitzacions disponibles"
+   },
+   "824468664656304495": {
+      "message": "No tens connexió. És possible que algunes funcions no estiguin disponibles."
+   },
+   "8342620486324515462": {
+      "message": "Ignora"
+   },
+   "8412733496413412439": {
+      "message": "Sense connexió"
+   },
+   "8422875188929347819": {
+      "message": "Compartició"
+   },
+   "8506292502710287776": {
+      "message": "Vols crear una nota llarga? Hi afegirem més espai automàticament a mesura que arribis a la part inferior."
+   },
+   "8559513397356310933": {
+      "message": "Afegeix els elements nous al final"
+   },
+   "857379832182429172": {
+      "message": "Activa"
+   },
+   "8602525917014156029": {
+      "message": "Llocs"
+   },
+   "8611058223830804795": {
+      "message": "Mou els elements marcats al final"
+   },
+   "8663507590720636709": {
+      "message": "$1​ i $2​ més"
+   },
+   "8775097441636640256": {
+      "message": "$2​: $1​"
+   },
+   "8797656338249040679": {
+      "message": "$2​Instal·la l'extensió de Chrome per a Google Keep$1​. Així, amb un sol clic, podràs desar-hi les coses importants."
+   },
+   "8831459317888986184": {
+      "message": "Suprimeix la selecció"
+   },
+   "8903612093856047007": {
+      "message": "Col·laboradors"
+   },
+   "8905995985388209337": {
+      "message": "Accepta"
+   },
+   "8930959387403789939": {
+      "message": "Recordatori"
+   },
+   "8990769651805334695": {
+      "message": "El dia"
+   },
+   "900086393693234779": {
+      "message": "Casa"
+   },
+   "911698676339750373": {
+      "message": "Grup familiar"
+   },
+   "9129734193759025482": {
+      "message": "Demà"
+   },
+   "9146862513672039744": {
+      "message": "Neteja el compte"
+   },
+   "9207517187376875555": {
+      "message": "Utilitza Keep al navegador web"
+   },
+   "appDesc": {
+      "description": "App description",
+      "message": "Copseu ràpidament els vostres pensaments i compartiu-los amb els amics i amb la família."
+   },
+   "appName": {
+      "description": "App name",
+      "message": "Google Keep: notes i llistes"
+   },
+   "shortName": {
+      "description": "App short name",
+      "message": "Google Keep"
+   }
+}

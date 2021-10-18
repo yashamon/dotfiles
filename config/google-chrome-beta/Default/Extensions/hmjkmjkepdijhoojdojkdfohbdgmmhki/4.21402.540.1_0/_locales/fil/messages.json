@@ -1,0 +1,494 @@
+{
+   "1055686627716339120": {
+      "message": "Archive"
+   },
+   "1102717806459547726": {
+      "message": "I-refresh"
+   },
+   "1122146167985532789": {
+      "message": "kahapon"
+   },
+   "116696227691552491": {
+      "message": "Pumili ng lugar"
+   },
+   "1171339122262740595": {
+      "message": "Hindi na sinusuportahan ang Chrome App ng Keep. Puwede mong patuloy na gamitin ang Keep sa pamamagitan ng pagpunta sa keep.google.com."
+   },
+   "1248242541854939846": {
+      "message": "Ayusin ang hindi magkakatugmang pag-edit"
+   },
+   "125962421212090538": {
+      "message": "Sa susunod na linggo"
+   },
+   "1333255388111908292": {
+      "message": "Mga Grocery"
+   },
+   "1338300799355131761": {
+      "message": "Walang pamagat na tala"
+   },
+   "1365216822837281424": {
+      "message": "Extension ng Chrome"
+   },
+   "1377158635423797368": {
+      "message": "Pumunta sa label"
+   },
+   "1388712764439031120": {
+      "message": "Buksan ang link"
+   },
+   "1429848477922945853": {
+      "message": "Walang lamang tala"
+   },
+   "146276399441370821": {
+      "message": "Buksan ang keep.google.com"
+   },
+   "1512114410402431831": {
+      "message": "I-refresh"
+   },
+   "1536087519743707362": {
+      "message": "I-dismiss"
+   },
+   "1675711464233426777": {
+      "message": "Mamaya"
+   },
+   "1694896269813520248": {
+      "message": "Magdagdag ng drawing"
+   },
+   "1770899865480106963": {
+      "message": "Mga Android Device"
+   },
+   "1790494039990261456": {
+      "message": "Parehong panatilihin"
+   },
+   "1858255237143975969": {
+      "message": "$2​Privacy$1​"
+   },
+   "187077078156858455": {
+      "message": "Audio note"
+   },
+   "1963323419655107448": {
+      "message": "I-delete ang mga naka-check na item"
+   },
+   "205445381296663832": {
+      "message": "Hindi na-upload."
+   },
+   "2159130950882492111": {
+      "message": "Kanselahin"
+   },
+   "2184278444368405837": {
+      "message": "$1​ (na) item"
+   },
+   "2323249770683736002": {
+      "message": "Gumawa ng bagong label"
+   },
+   "2438741853303074449": {
+      "message": "mga pangyayari"
+   },
+   "2452145367257933677": {
+      "message": "I-undo"
+   },
+   "2455647485809380838": {
+      "message": "Pamahalaan ang mga paalalang walang tala"
+   },
+   "246828342952819465": {
+      "message": "Ilista ang iyong mga naiisip $1​ mula sa anumang device"
+   },
+   "2509141182388535183": {
+      "message": "Tingnan"
+   },
+   "2542788471536661524": {
+      "message": "I-drop ang mga larawan dito"
+   },
+   "2632538140519286364": {
+      "message": "Dine-delete ang mga tala sa Trash pagkalipas ng 7 araw."
+   },
+   "2680303811435018716": {
+      "message": "Hindi makapagdagdag ng higit pang item"
+   },
+   "2814354342017225342": {
+      "message": "Magpakita ng mahuhusay na preview ng link"
+   },
+   "2930974997943171554": {
+      "message": "Naka-disable ang madilim na tema"
+   },
+   "2971623719720688041": {
+      "message": "Na-undo ang pagkilos"
+   },
+   "2973306402585941108": {
+      "message": "Umaga"
+   },
+   "2983318659047499045": {
+      "message": "Mga Paalala"
+   },
+   "2989422642644963524": {
+      "message": "Nakatakda ang paalala sa para sa $1​"
+   },
+   "3074915509081765994": {
+      "message": "iPhone at iPad"
+   },
+   "3091440425606975088": {
+      "message": "Listahang walang pamagat"
+   },
+   "3121560585545725724": {
+      "message": "$1​, $2​"
+   },
+   "3190546672187601036": {
+      "message": "Gabi"
+   },
+   "3249966726137025950": {
+      "message": "Grupo ng Pamilya ng Collaborator"
+   },
+   "3258100527833044153": {
+      "message": "Na-discard ang walang lamang drawing"
+   },
+   "3378875258397512442": {
+      "message": "Magtakda ng mga paalala sa mga tala para sa mga lugar at oras, gumawa ng mga boses na tala, at magtrabaho online o offline."
+   },
+   "3385831848537487538": {
+      "message": "Paglalakbay"
+   },
+   "3418677553313974490": {
+      "message": "Trash"
+   },
+   "3462556632501534753": {
+      "message": "$2​Mga open-source na lisensya$1​"
+   },
+   "3551522853788442530": {
+      "message": "Bumalik"
+   },
+   "3571391964903695725": {
+      "message": "Ulitin"
+   },
+   "3571704286086017611": {
+      "message": "Na-delete ang paalala"
+   },
+   "3580243353280636963": {
+      "message": "Pumili ng petsa at oras"
+   },
+   "3608521102844050208": {
+      "message": "Paalala:"
+   },
+   "3714239567487848851": {
+      "message": "Naka-enable ang madilim na tema"
+   },
+   "3768927257183755959": {
+      "message": "I-save"
+   },
+   "3823114520994436161": {
+      "message": "I-update sa keep.google.com"
+   },
+   "3852386690131857488": {
+      "message": "I-enable ang pagbabahagi"
+   },
+   "3907816292084809686": {
+      "message": "Ginawang muli ang pagkilos"
+   },
+   "395680759377627007": {
+      "message": "Gumawa ng \"$3​$2​$1​\""
+   },
+   "397098723873502323": {
+      "message": "Gawa na"
+   },
+   "3989925953740167133": {
+      "message": "Gustong gamitin ng Google Keep ang iyong lokasyon para mapahusay ang mga suhestyon sa mga lugar para sa mga paalala sa lokasyon."
+   },
+   "4174786386751618325": {
+      "message": "Photo note"
+   },
+   "4191000901158114852": {
+      "message": "Google Keep"
+   },
+   "4343848624651344174": {
+      "message": "Hapon"
+   },
+   "4494250072784000771": {
+      "message": "May na-detect na stylus. Na-enable ang Mag-pan sa pamamagitan ng Pagpindot."
+   },
+   "4514241210910366093": {
+      "message": "Grid view"
+   },
+   "4533605085334699862": {
+      "message": "Mga Quote"
+   },
+   "456512308416555173": {
+      "message": "Mga Aklat"
+   },
+   "4734349318830134239": {
+      "message": "Magtatapos sa"
+   },
+   "4840513623749850224": {
+      "message": "Mga Pelikula"
+   },
+   "4930506384627295710": {
+      "message": "Mga Setting"
+   },
+   "4963533275503057654": {
+      "message": "Gumagawa ng thumbnail..."
+   },
+   "4974261966265341751": {
+      "message": "I-disable ang madilim na tema"
+   },
+   "5000971639019912199": {
+      "message": "$2​Mga Tuntunin$1​"
+   },
+   "5259541708332520733": {
+      "message": "Naalis na ang pinagkunan"
+   },
+   "527438013974545289": {
+      "message": "Narito na ang madailim na tema"
+   },
+   "5275304974990264425": {
+      "message": "List view"
+   },
+   "5403636185480096151": {
+      "message": "TV"
+   },
+   "5422660126805186552": {
+      "message": "Ma-enjoy ang mas kumportableng karanasan sa pagbabasa. I-toggle ito sa naka-on o naka-off sa Mga Setting."
+   },
+   "546766753072101168": {
+      "message": "Mga Label"
+   },
+   "5510222038351634163": {
+      "message": "Matuto pa tungkol sa paghinto sa paggamit ng Keep na Chrome App"
+   },
+   "5570885401952336951": {
+      "message": "Log ng client"
+   },
+   "5592884381280360832": {
+      "message": "OK"
+   },
+   "5601530442010506564": {
+      "message": "OK"
+   },
+   "5652536812290902558": {
+      "message": "I-download ang Audio"
+   },
+   "5994697604396931641": {
+      "message": "Alisin Lahat"
+   },
+   "6049952042443321325": {
+      "message": "Talahanayan ng mga keyboard shortcut"
+   },
+   "6069780031254134657": {
+      "message": "Markahan bilang tapos na"
+   },
+   "6113237889871930608": {
+      "message": "Blangkong note"
+   },
+   "6176354714840789272": {
+      "message": "Maaari ka ring mag-save ng mga link para sa ibang pagkakataon gamit ang&nbsp;$2​Extension ng Chrome na Google Keep$1​."
+   },
+   "6189397065139465013": {
+      "message": "Bawat"
+   },
+   "6225875898439047571": {
+      "message": "Tanggihan"
+   },
+   "6231442995102088007": {
+      "message": "Ano'ng bago sa Google Keep"
+   },
+   "6252259197986158120": {
+      "message": "Kahapon"
+   },
+   "6366376928558090914": {
+      "message": "Pagkain"
+   },
+   "6371576811194810854": {
+      "message": "Pagkatapos ng"
+   },
+   "6402092370576716734": {
+      "message": "Alisan ng Laman ang Trash"
+   },
+   "6473102097014191455": {
+      "message": "Tala na may drawing"
+   },
+   "6497197865876438261": {
+      "message": "Musika"
+   },
+   "6510131849363684615": {
+      "message": "Bukas"
+   },
+   "6579707685908557993": {
+      "message": "Gabi"
+   },
+   "6755327423364814290": {
+      "message": "Gumawa ng mga tala nang mabilis gamit ang app"
+   },
+   "6822520214440117457": {
+      "message": "Trabaho"
+   },
+   "689017442055275529": {
+      "message": "Grupo ng Pamilya ni $1​"
+   },
+   "6982321568096234183": {
+      "message": "I-download ang Audio ($1​)"
+   },
+   "7005745151564974365": {
+      "message": "Mga keyboard shortcut"
+   },
+   "7102649289752747375": {
+      "message": "Magpadala ng feedback"
+   },
+   "7174409400206281023": {
+      "message": "May nakitang magkakasalungat na pag-edit"
+   },
+   "7207109722898253285": {
+      "message": "Panatilihin ang napili"
+   },
+   "7254411458460045711": {
+      "message": "Hindi nakapag-update, pakisubukan ulit sa ibang pagkakataon. Kung kasalukuyan kang offline, kumonekta sa internet bago subukan ulit."
+   },
+   "7301081435623917576": {
+      "message": "Mga Default ng Paalala"
+   },
+   "7330497278645626593": {
+      "message": "Subukan ito"
+   },
+   "7379369644162401367": {
+      "message": "Alisin ang mga ito"
+   },
+   "7381817875028728077": {
+      "message": "Hindi, salamat na lang"
+   },
+   "7384785369409503695": {
+      "message": "I-enable ng madilim na tema"
+   },
+   "7420364754178516134": {
+      "message": "Mga tool sa pag-debug"
+   },
+   "7430680760319628492": {
+      "message": "Suriin"
+   },
+   "7510155920769316048": {
+      "message": "Mga Tala at Listahan"
+   },
+   "7528441140724145783": {
+      "message": "I-edit ang mga label"
+   },
+   "7565795669925550891": {
+      "message": "Ibinahagi mula kay"
+   },
+   "7579280421767578228": {
+      "message": "Paalala sa Ibang araw"
+   },
+   "7585826646011739428": {
+      "message": "I-edit"
+   },
+   "7624042048123264803": {
+      "message": "Buksan ang tala"
+   },
+   "7669846901402551021": {
+      "message": "Ngayon"
+   },
+   "7735981667219692675": {
+      "message": "{resultCount,plural, =1{# resulta ng paghahanap}one{# resulta ng paghahanap}other{# na resulta ng paghahanap}}"
+   },
+   "7819314041543176992": {
+      "message": "Isara"
+   },
+   "7873060817438017568": {
+      "message": "$2​ · $1​"
+   },
+   "7911416166208830577": {
+      "message": "Tulong"
+   },
+   "7934833136974560675": {
+      "message": "Subukang Muli"
+   },
+   "8104421162933956065": {
+      "message": "Mga Tala"
+   },
+   "8133866583554546341": {
+      "message": "$1​, $2​"
+   },
+   "8149439558305434788": {
+      "message": "$1​, $2​"
+   },
+   "8193677552005249631": {
+      "message": "Mga pag-download ng app"
+   },
+   "819996403327805209": {
+      "message": "Matuto pa"
+   },
+   "8229434427096481545": {
+      "message": "May mga update na available"
+   },
+   "824468664656304495": {
+      "message": "Offline ka. Posibleng hindi available ang ilang functionality."
+   },
+   "8342620486324515462": {
+      "message": "I-dismiss"
+   },
+   "8412733496413412439": {
+      "message": "Offline"
+   },
+   "8422875188929347819": {
+      "message": "Pagbabahagi"
+   },
+   "8506292502710287776": {
+      "message": "Mahaba ba ang itinatala? Awtomatiko kaming magdaragdag ng espasyo sa sandaling makarating ka sa ibaba."
+   },
+   "8559513397356310933": {
+      "message": "Magdagdag ng mga bagong item sa ibaba"
+   },
+   "857379832182429172": {
+      "message": "I-on ito"
+   },
+   "8602525917014156029": {
+      "message": "Mga Lugar"
+   },
+   "8611058223830804795": {
+      "message": "Ilipat sa ibaba ang mga item na may check"
+   },
+   "8663507590720636709": {
+      "message": "$1​ +$2​ pa"
+   },
+   "8775097441636640256": {
+      "message": "$2​ - $1​"
+   },
+   "8797656338249040679": {
+      "message": "$2​I-install ang extension ng Chrome na Google Keep$1​ para i-save ang mga bagay na mahalaga sa iyo sa Keep sa isang pag-click lang."
+   },
+   "8831459317888986184": {
+      "message": "I-delete ang napili"
+   },
+   "8903612093856047007": {
+      "message": "Mga Collaborator"
+   },
+   "8905995985388209337": {
+      "message": "Tanggapin"
+   },
+   "8930959387403789939": {
+      "message": "Paalala"
+   },
+   "8990769651805334695": {
+      "message": "Sa"
+   },
+   "900086393693234779": {
+      "message": "Bahay"
+   },
+   "911698676339750373": {
+      "message": "Grupo ng Pamilya"
+   },
+   "9129734193759025482": {
+      "message": "Bukas"
+   },
+   "9146862513672039744": {
+      "message": "I-wipe ang account"
+   },
+   "9207517187376875555": {
+      "message": "Gamitin ang Keep sa iyong web browser"
+   },
+   "appDesc": {
+      "description": "App description",
+      "message": "Mabilis na isulat ang nasa isip mo at ibahagi ang mga ideyang iyon sa mga kaibigan at pamilya."
+   },
+   "appName": {
+      "description": "App name",
+      "message": "Google Keep - mga tala at listahan"
+   },
+   "shortName": {
+      "description": "App short name",
+      "message": "Google Keep"
+   }
+}

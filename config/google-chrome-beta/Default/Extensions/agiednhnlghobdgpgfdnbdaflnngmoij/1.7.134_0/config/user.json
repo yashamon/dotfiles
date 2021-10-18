@@ -1,0 +1,103 @@
+{
+    // NOTE: If this file gets too big it will result in settings not working. Appears to be due to limitation of syncFS.js which uses chromes sync storage that has size limitations. Adding a lot of comments will make the file too big
+
+    //If you want to disable update checks at startup, change this
+    "promptForUpdates": true,
+    //This should be any of the supported Ace themes
+    "defaultTheme": "chrome",
+    //dark or light, your pick
+    "uiTheme": "light",
+    //collapse the project view until you hover
+    "autoHideProject": true,
+    //hides menus/tabs in Chrome OS fullscreen mode
+    "immersiveFullscreen": false,
+    "highlightLine": true,
+    //set to true to hide the line numbering
+    "hideGutter": false,
+    //show whitespace characters (spaces, tabs, returns)
+    "showWhitespace": false,
+    //indentation size
+    "indentation": 4,
+    //will turn off Ace's setUseSoftTabs() option and use tab characters instead
+    "useTabs": false,
+    "wordWrap": true,
+    //Set to the number of characters you want or false for full window
+    "wrapLimit": false,
+    "showMargin": false,
+    //newline format - "windows", "unix", or "auto"
+    "lineEndings": "auto",
+    //allow the editor to scroll past the end of the document
+    "scrollPastEnd": true,
+    //run "Trim Trailing Whitespace" on save
+    "trimTrailingWhitespace": true,
+    //should the trim whitespace command also truncate empty lines?
+    "trimEmptyLines": false,
+    //only fixed-width fonts supported, for now
+    "fontFamily": "",
+    "fontSize": 16,
+    //Web workers are used for code hinting in PHP, JavaScript, and JSON. Currently no way to set worker options, but it can be disabled
+    "useWorker": true,
+    //autocomplete triggers on Ctrl-Space
+    "autocomplete": true,
+    //animated scrolling in the editor when using command pallette and tern
+    "animatedScroll": true,
+    //By default, the palette searches the current file's text only unless you widen the scope. If you'd like it to search all open files by default, set this option to true.
+    "searchAllFiles": false,
+    //set a regex to ignore in project view/search
+    "ignoreFiles": "node_modules",
+    //Crazy? You might like Vim keybindings.
+    "emulateVim": false,
+    //Whether to show the "New file" tab button on the tab bar;
+    "showNewTabButton": false,
+    //tern options
+    "tern": {
+        //http://ternjs.net/doc/manual.html#typedef
+        //avilable: browser, ecma5, jquery, underscore, ecma6
+        "defs": [
+            "browser",
+            "ecma5"
+        ],
+        //http://ternjs.net/doc/manual.html#plugins
+        //NOTE: tern and node plugins do not appear to be working correctly, issue is likely w/ Caret-T/ChromeApp architecture (not tern or ace plugin). to debug this, open dev tools and go to chrome://inspect/#apps to see console for the sandbox that is running tern
+        "plugins": {
+            //http://ternjs.net/doc/manual.html#plugin_doc_comment
+            //TODO: when tern is upgraded to latest version, fullDocs wil have a different name
+            "doc_comment": {
+                "fullDocs": true
+            }
+            /* [Uncomment to enable]
+            //http://ternjs.net/doc/manual.html#plugin_node
+            ,"node": {
+                "dontLoad": false,
+                "load": "",
+                "modules": ""
+            }
+            */
+            /* [Uncomment to enable]
+            //http://ternjs.net/doc/manual.html#plugin_requirejs
+            ,"requirejs": {
+                "baseURL": "",
+                "paths": "",
+                "override": ""
+            }*/
+        }
+    },
+    //js beautify options: http://jsbeautifier.org/
+    "beautify": {
+        "space_before_conditional": true,
+        "keep_array_indentation": false,
+        "preserve_newlines": true,
+        "jslint_happy": false,
+        "max_preserve_newlines": 3,
+        "break_chained_methods": false,
+        "indent_scripts": "normal",
+        //[collapse|expand|end-expand|none] (any of the former + ",preserve-inline")
+        "brace_style": "end-expand,preserve-inline",
+        "unescape_strings": false,
+        "wrap_line_length": 0,
+        "space_after_anon_function": false,
+        "max_char": 0
+    },
+    //custom js beautify setting: when true javascript will auto beautify when typing closing bracket
+    "autoBeautify": true
+}

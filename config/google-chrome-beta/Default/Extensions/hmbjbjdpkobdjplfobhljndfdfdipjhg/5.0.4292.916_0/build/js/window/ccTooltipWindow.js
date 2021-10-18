@@ -1,0 +1,1 @@
+"use strict";function execute(){showContent(),bindTooltipEvt()}function showContent(){var t=commonWin.getQueryString("content");$(".cc-tooltip-inner").text(t)}function bindTooltipEvt(){$(".cc-tooltip-close").click(function(){mainAppHtmlWindow.inmeeting.hideCCTooltip(),window.close()})}

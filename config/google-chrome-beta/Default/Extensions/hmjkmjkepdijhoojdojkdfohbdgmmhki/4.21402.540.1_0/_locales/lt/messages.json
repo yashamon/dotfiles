@@ -1,0 +1,494 @@
+{
+   "1055686627716339120": {
+      "message": "Archyvuoti"
+   },
+   "1102717806459547726": {
+      "message": "Atnaujinti"
+   },
+   "1122146167985532789": {
+      "message": "vakar"
+   },
+   "116696227691552491": {
+      "message": "Pasirinkti vietą"
+   },
+   "1171339122262740595": {
+      "message": "„Chrome“ skirta programa „Keep“ nebepalaikoma. Galite toliau naudoti „Keep“ apsilankę adresu keep.google.com."
+   },
+   "1248242541854939846": {
+      "message": "Ištaisykite neatitinkančius pataisymus"
+   },
+   "125962421212090538": {
+      "message": "Kita savaitė"
+   },
+   "1333255388111908292": {
+      "message": "Pirkiniai"
+   },
+   "1338300799355131761": {
+      "message": "Užrašas be pavadinimo"
+   },
+   "1365216822837281424": {
+      "message": "„Chrome“ plėtinys"
+   },
+   "1377158635423797368": {
+      "message": "Eiti į etiketę"
+   },
+   "1388712764439031120": {
+      "message": "Atidaryti nuorodą"
+   },
+   "1429848477922945853": {
+      "message": "Tuščias užrašas"
+   },
+   "146276399441370821": {
+      "message": "Atidaryti keep.google.com"
+   },
+   "1512114410402431831": {
+      "message": "Atnaujinti"
+   },
+   "1536087519743707362": {
+      "message": "Atmesti"
+   },
+   "1675711464233426777": {
+      "message": "Vėliau šiandien"
+   },
+   "1694896269813520248": {
+      "message": "Pridėti piešinį"
+   },
+   "1770899865480106963": {
+      "message": "„Android“ įrenginiai"
+   },
+   "1790494039990261456": {
+      "message": "Palikti abi versijas"
+   },
+   "1858255237143975969": {
+      "message": "$2​Privatumas$1​"
+   },
+   "187077078156858455": {
+      "message": "Užrašas su garso įrašu"
+   },
+   "1963323419655107448": {
+      "message": "Ištrinti pažymėtus elementus"
+   },
+   "205445381296663832": {
+      "message": "Įkelti nepavyko."
+   },
+   "2159130950882492111": {
+      "message": "Atšaukti"
+   },
+   "2184278444368405837": {
+      "message": "Elementų: $1​"
+   },
+   "2323249770683736002": {
+      "message": "Sukurti naują etiketę"
+   },
+   "2438741853303074449": {
+      "message": "įvyk."
+   },
+   "2452145367257933677": {
+      "message": "Anuliuoti"
+   },
+   "2455647485809380838": {
+      "message": "Tvarkyti priminimus be pastabų"
+   },
+   "246828342952819465": {
+      "message": "Fiksuokite savo mintis $1​ bet kokiame įrenginyje"
+   },
+   "2509141182388535183": {
+      "message": "Peržiūrėti"
+   },
+   "2542788471536661524": {
+      "message": "Nuvilkite vaizdus čia"
+   },
+   "2632538140519286364": {
+      "message": "Užrašai iš šiukšliadėžės ištrinami po 7 dienų."
+   },
+   "2680303811435018716": {
+      "message": "Negalima pridėti daugiau elementų"
+   },
+   "2814354342017225342": {
+      "message": "Pateikti nuorodų į raiškiąją mediją peržiūrų"
+   },
+   "2930974997943171554": {
+      "message": "Tamsioji tema išjungta"
+   },
+   "2971623719720688041": {
+      "message": "Veiksmas anuliuotas"
+   },
+   "2973306402585941108": {
+      "message": "Rytas"
+   },
+   "2983318659047499045": {
+      "message": "Priminimai"
+   },
+   "2989422642644963524": {
+      "message": "Nustatytas įvykio „$1​“ priminimas"
+   },
+   "3074915509081765994": {
+      "message": "„iPhone“ ir „iPad“"
+   },
+   "3091440425606975088": {
+      "message": "Sąrašas be pavadinimo"
+   },
+   "3121560585545725724": {
+      "message": "$1​, $2​"
+   },
+   "3190546672187601036": {
+      "message": "Naktis"
+   },
+   "3249966726137025950": {
+      "message": "Bendradarbio šeimos grupė"
+   },
+   "3258100527833044153": {
+      "message": "Tuščias piešinys atmestas"
+   },
+   "3378875258397512442": {
+      "message": "Nustatykite priminimus su užrašais pagal vietą ir laiką, kurkite balso užrašus ir dirbkite prisijungę ar neprisijungę."
+   },
+   "3385831848537487538": {
+      "message": "Kelionės"
+   },
+   "3418677553313974490": {
+      "message": "Šiukšliadėžė"
+   },
+   "3462556632501534753": {
+      "message": "$2​Atvirojo šaltinio licencijos$1​"
+   },
+   "3551522853788442530": {
+      "message": "Grįžti"
+   },
+   "3571391964903695725": {
+      "message": "Kartoti"
+   },
+   "3571704286086017611": {
+      "message": "Priminimas ištrintas"
+   },
+   "3580243353280636963": {
+      "message": "Pasirinkti datą ir laiką"
+   },
+   "3608521102844050208": {
+      "message": "Priminimas:"
+   },
+   "3714239567487848851": {
+      "message": "Tamsioji tema įjungta"
+   },
+   "3768927257183755959": {
+      "message": "Išsaugoti"
+   },
+   "3823114520994436161": {
+      "message": "Atnaujinti adresu keep.google.com"
+   },
+   "3852386690131857488": {
+      "message": "Įgalinti bendrinimą"
+   },
+   "3907816292084809686": {
+      "message": "Veiksmas grąžintas"
+   },
+   "395680759377627007": {
+      "message": "Sukurti etiketę $3​„$2​“$1​"
+   },
+   "397098723873502323": {
+      "message": "Atlikta"
+   },
+   "3989925953740167133": {
+      "message": "„Google Keep“ norėtų naudoti jūsų vietovę, kad galėtų pagerinti vietovių priminimų vietų pasiūlymus."
+   },
+   "4174786386751618325": {
+      "message": "Užrašas su nuotrauka"
+   },
+   "4191000901158114852": {
+      "message": "Google Keep"
+   },
+   "4343848624651344174": {
+      "message": "Popietė"
+   },
+   "4494250072784000771": {
+      "message": "Aptiktas rašiklis. Stumdymo liečiant funkcija įgalinta."
+   },
+   "4514241210910366093": {
+      "message": "Tinklelio rodinys"
+   },
+   "4533605085334699862": {
+      "message": "Citatos"
+   },
+   "456512308416555173": {
+      "message": "Knygos"
+   },
+   "4734349318830134239": {
+      "message": "Baigiasi"
+   },
+   "4840513623749850224": {
+      "message": "Filmai"
+   },
+   "4930506384627295710": {
+      "message": "Nustatymai"
+   },
+   "4963533275503057654": {
+      "message": "Kuriama miniatiūra..."
+   },
+   "4974261966265341751": {
+      "message": "Išjungti tamsiąją temą"
+   },
+   "5000971639019912199": {
+      "message": "$2​Sąlygos$1​"
+   },
+   "5259541708332520733": {
+      "message": "Šaltinis pašalintas"
+   },
+   "527438013974545289": {
+      "message": "Tamsioji tema jau čia"
+   },
+   "5275304974990264425": {
+      "message": "Sąrašo rodinys"
+   },
+   "5403636185480096151": {
+      "message": "Televizija"
+   },
+   "5422660126805186552": {
+      "message": "Mėgaukitės patogesne skaitymo funkcija. Įjunkite arba išjunkite šią funkciją nustatymuose."
+   },
+   "546766753072101168": {
+      "message": "Etiketės"
+   },
+   "5510222038351634163": {
+      "message": "Sužinokite daugiau apie „Chrome“ programai skirtos „Keep“ naudojimo nutraukimą"
+   },
+   "5570885401952336951": {
+      "message": "Kliento žurnalas"
+   },
+   "5592884381280360832": {
+      "message": "Supratau"
+   },
+   "5601530442010506564": {
+      "message": "Supratau"
+   },
+   "5652536812290902558": {
+      "message": "Atsisiųsti garso įrašą"
+   },
+   "5994697604396931641": {
+      "message": "Pašalinti viską"
+   },
+   "6049952042443321325": {
+      "message": "Sparčiųjų klavišų lentelė"
+   },
+   "6069780031254134657": {
+      "message": "Pažymėti kaip atliktą"
+   },
+   "6113237889871930608": {
+      "message": "Tuščias užrašas"
+   },
+   "6176354714840789272": {
+      "message": "Be to, galite išsaugoti nuorodas, kad galėtumėte jas naudoti vėliau, naudodami&nbsp;$2​„Chrome“ skirtą „Google Keep“ plėtinį$1​."
+   },
+   "6189397065139465013": {
+      "message": "Kas"
+   },
+   "6225875898439047571": {
+      "message": "Atmesti"
+   },
+   "6231442995102088007": {
+      "message": "Kas naujo „Google Keep“"
+   },
+   "6252259197986158120": {
+      "message": "Vakar"
+   },
+   "6366376928558090914": {
+      "message": "Maistas"
+   },
+   "6371576811194810854": {
+      "message": "Po"
+   },
+   "6402092370576716734": {
+      "message": "Išvalyti šiukšliadėžę"
+   },
+   "6473102097014191455": {
+      "message": "Užrašas su piešiniu"
+   },
+   "6497197865876438261": {
+      "message": "Muzika"
+   },
+   "6510131849363684615": {
+      "message": "Rytoj"
+   },
+   "6579707685908557993": {
+      "message": "Vakaras"
+   },
+   "6755327423364814290": {
+      "message": "Greičiau kurkite užrašus naudodami programą"
+   },
+   "6822520214440117457": {
+      "message": "Darbas"
+   },
+   "689017442055275529": {
+      "message": "$1​ šeimos grupė"
+   },
+   "6982321568096234183": {
+      "message": "Atsisiųsti garso įrašą ($1​)"
+   },
+   "7005745151564974365": {
+      "message": "Spartieji klavišai"
+   },
+   "7102649289752747375": {
+      "message": "Siųsti atsiliepimą"
+   },
+   "7174409400206281023": {
+      "message": "Rasta nesuderinamų pakeitimų"
+   },
+   "7207109722898253285": {
+      "message": "Išsaugoti pasirinktą kopiją"
+   },
+   "7254411458460045711": {
+      "message": "Atnaujinti nepavyko. Vėliau bandykite dar kartą. Jei šiuo metu esate neprisijungę, prieš bandydami dar kartą prisijunkite prie interneto."
+   },
+   "7301081435623917576": {
+      "message": "Numatytieji priminimų nustatymai"
+   },
+   "7330497278645626593": {
+      "message": "Išbandykite"
+   },
+   "7379369644162401367": {
+      "message": "Pašalinti juos"
+   },
+   "7381817875028728077": {
+      "message": "Ne, ačiū"
+   },
+   "7384785369409503695": {
+      "message": "Įgalinti tamsiąją temą"
+   },
+   "7420364754178516134": {
+      "message": "Derinimo įrankiai"
+   },
+   "7430680760319628492": {
+      "message": "Peržiūrėti"
+   },
+   "7510155920769316048": {
+      "message": "Užrašai ir sąrašai"
+   },
+   "7528441140724145783": {
+      "message": "Etikečių redagavimas"
+   },
+   "7565795669925550891": {
+      "message": "Bendrino"
+   },
+   "7579280421767578228": {
+      "message": "Priminimas – kada nors"
+   },
+   "7585826646011739428": {
+      "message": "Redaguoti"
+   },
+   "7624042048123264803": {
+      "message": "Atidaryti užrašą"
+   },
+   "7669846901402551021": {
+      "message": "Šiandien"
+   },
+   "7735981667219692675": {
+      "message": "{resultCount,plural, =1{# paieškos rezultatas}one{# paieškos rezultatas}few{# paieškos rezultatai}many{# paieškos rezultato}other{# paieškos rezultatų}}"
+   },
+   "7819314041543176992": {
+      "message": "Uždaryti"
+   },
+   "7873060817438017568": {
+      "message": "$2​ · $1​"
+   },
+   "7911416166208830577": {
+      "message": "Pagalba"
+   },
+   "7934833136974560675": {
+      "message": "Bandyti dar kartą"
+   },
+   "8104421162933956065": {
+      "message": "Pastabos"
+   },
+   "8133866583554546341": {
+      "message": "$1​, $2​﻿"
+   },
+   "8149439558305434788": {
+      "message": "$1​, $2​"
+   },
+   "8193677552005249631": {
+      "message": "Programų atsisiuntimai"
+   },
+   "819996403327805209": {
+      "message": "Sužinokite daugiau"
+   },
+   "8229434427096481545": {
+      "message": "Pasiekiami naujiniai"
+   },
+   "824468664656304495": {
+      "message": "Esate neprisijungę. Kai kurios funkcijos gali būti nepasiekiamos."
+   },
+   "8342620486324515462": {
+      "message": "Atsisakyti"
+   },
+   "8412733496413412439": {
+      "message": "Neprisijungta"
+   },
+   "8422875188929347819": {
+      "message": "Bendrinimas"
+   },
+   "8506292502710287776": {
+      "message": "Rašote ilgus užrašus? Automatiškai pridėsime daugiau vietos, kai pasieksite apačią."
+   },
+   "8559513397356310933": {
+      "message": "Pridėti naujų elementų apačioje"
+   },
+   "857379832182429172": {
+      "message": "Įjungti"
+   },
+   "8602525917014156029": {
+      "message": "Vietos"
+   },
+   "8611058223830804795": {
+      "message": "Pažymėtus elementus perkelti į apačią"
+   },
+   "8663507590720636709": {
+      "message": "$1​ ir dar $2​"
+   },
+   "8775097441636640256": {
+      "message": "$2​ – $1​"
+   },
+   "8797656338249040679": {
+      "message": "$2​Įdiekite „Chrome“ skirtą išsaugojimo programoje „Keep“ plėtinį$1​, kad vienu paspaudimu išsaugotumėte jums svarbią informaciją programoje „Keep“."
+   },
+   "8831459317888986184": {
+      "message": "Ištrinti pasirinktą (-us)"
+   },
+   "8903612093856047007": {
+      "message": "Bendradarbiai"
+   },
+   "8905995985388209337": {
+      "message": "Sutikti"
+   },
+   "8930959387403789939": {
+      "message": "Priminimas"
+   },
+   "8990769651805334695": {
+      "message": "Kada:"
+   },
+   "900086393693234779": {
+      "message": "Namai"
+   },
+   "911698676339750373": {
+      "message": "Šeimos grupė"
+   },
+   "9129734193759025482": {
+      "message": "Rytoj"
+   },
+   "9146862513672039744": {
+      "message": "Išvalyti paskyrą"
+   },
+   "9207517187376875555": {
+      "message": "Naudokite „Keep“ žiniatinklio naršyklėje"
+   },
+   "appDesc": {
+      "description": "App description",
+      "message": "Greitai užfiksuokite savo mintis ir bendrinkite jas su draugais ir šeimos nariais."
+   },
+   "appName": {
+      "description": "App name",
+      "message": "„Google Keep“ – užrašai ir sąrašai"
+   },
+   "shortName": {
+      "description": "App short name",
+      "message": "Google Keep"
+   }
+}

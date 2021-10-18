@@ -5,6 +5,8 @@ if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]
 source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
 fi 
 
+
+export MANPAGER='nvim +Man!'
 export ANDROID_HOME=/root/android-sdk-linux
 export LANG=en_US.UTF-8
 export XDG_CONFIG_HOME=$HOME/.config
@@ -60,6 +62,7 @@ eval "$(fasd --init auto)"
 # alias nvim="/snap/bin/nvim" 
 alias wifi="sudo wifi-menu -o"
 alias tmux d="tmux detach" 
+alias svi="/snap/bin/nvim"
 alias nvr="nvr --servername $(<~/servername.txt) --remote-silent"
 alias vifmrc="nvim ~/.config/vifm/vifmrc" 
 alias ls="source ~/bin/vf" 

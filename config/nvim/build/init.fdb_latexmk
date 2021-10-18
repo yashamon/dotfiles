@@ -1,0 +1,15 @@
+# Fdb version 3
+["pdflatex"] 1634411962 "init.vim" "build/init.pdf" "init" 1634411964
+  "/etc/texmf/web2c/texmf.cnf" 1631588088 475 c0e671620eb5563b2130f56340a5fde8 ""
+  "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
+  "/usr/share/texlive/texmf-dist/web2c/texmf.cnf" 1632191552 39432 7155514e09a3d69036fac785183a21c2 ""
+  "/usr/share/texmf/fonts/tfm/public/lm/rm-lmr10.tfm" 1254938640 11868 4f81e9b6033c032bdaf9884f4d7ef412 ""
+  "/usr/share/texmf/fonts/tfm/public/lm/ts1-lmr10.tfm" 1254938640 1556 b86d923e6b2f9aab2e313098a95cb0b8 ""
+  "/usr/share/texmf/tex/latex/lm/ot1lmr.fd" 1256929440 1880 bae7b659316f7344a86218ad38b01d91 ""
+  "/usr/share/texmf/web2c/texmf.cnf" 1632191552 39432 7155514e09a3d69036fac785183a21c2 ""
+  "/var/lib/texmf/web2c/xetex/xelatex.fmt" 1633051131 3644650 8552b41cdf079b82a619792fd60611ae ""
+  "build/init.aux" 1634411962 32 3985256e7290058c681f74d7a3565a19 ""
+  "init.vim" 1634408894 41093 a5e97abece147167ba374d6d56178fa4 ""
+  (generated)
+  "build/init.log"
+  "build/init.pdf"

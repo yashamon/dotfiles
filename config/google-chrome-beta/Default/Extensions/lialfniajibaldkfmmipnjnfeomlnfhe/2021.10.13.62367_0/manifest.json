@@ -1,0 +1,27 @@
+{
+   "app": {
+      "display_mode": "standalone",
+      "launch": {
+         "web_url": "http://dle.rae.es/?id=GnJiqdL"
+      },
+      "linked_icons": [  ]
+   },
+   "description": "Versión electrónica del Diccionario de la lengua española, obra lexicográfica académica por excelencia.",
+   "icons": {
+      "128": "icons/128.png",
+      "256": "icons/256.png",
+      "32": "icons/32.png",
+      "48": "icons/48.png",
+      "64": "icons/64.png",
+      "96": "icons/96.png"
+   },
+   "key": "I7uDYcoKeXMBMiNCyp7TzS/EVnGFpKgXYaP+oCgRUEA=",
+   "name": "Servicio de consulta electrónica al D...",
+   "url_handlers": {
+      "scope": {
+         "matches": [ "http://dle.rae.es/*" ],
+         "title": "Servicio de consulta electrónica al D..."
+      }
+   },
+   "version": "2021.10.13.62367"
+}

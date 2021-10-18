@@ -1,0 +1,21 @@
+{
+   "browser_action": {
+      "default_icon": "img/icons/toolbar.png",
+      "default_popup": "pgs/popup.html"
+   },
+   "default_locale": "en",
+   "description": "__MSG_appDescription__",
+   "icons": {
+      "128": "img/icons/icon128.png",
+      "16": "img/icons/icon16.png",
+      "32": "img/icons/icon32.png",
+      "48": "img/icons/icon48.png",
+      "64": "img/icons/icon64.png",
+      "96": "img/icons/icon96.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCruAD1Lcpbz9RS+JMSz8B+91OZjoPv8ntwJHsnWezXYnz5GlEThaq2OdA94CsVnCK+e23deQxLPdEwCQdTiZYmK/rdIdt/KFP9hLYLyj44FcrzVwKHSrpnDUVoxHf5hwCym0G6VqO9viPneVcS1fQ4RtYBtTGuwDKL2l8U4V62kwIDAQAB",
+   "manifest_version": 2,
+   "name": "Strong Password Generator",
+   "update_url": "http://clients2.google.com/service/update2/crx",
+   "version": "1.6"
+}

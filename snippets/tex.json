@@ -304,9 +304,8 @@
     "body": [
       "\\paragraph{${1:paragraph name}} % (fold)",
       "\\label{par:$1}",
-      "${0:$TM_SELECTED_TEXT}",
-      
-    ],
+      "${0:$TM_SELECTED_TEXT}"
+      ],
     "description": "Paragraph"
   },
         "Split": {

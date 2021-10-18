@@ -1,0 +1,494 @@
+{
+   "1055686627716339120": {
+      "message": "Archivio"
+   },
+   "1102717806459547726": {
+      "message": "Aggiorna"
+   },
+   "1122146167985532789": {
+      "message": "ieri"
+   },
+   "116696227691552491": {
+      "message": "Scegli luogo"
+   },
+   "1171339122262740595": {
+      "message": "L'app Keep per Chrome non è più supportata. Puoi continuare a usare Keep da keep.google.com."
+   },
+   "1248242541854939846": {
+      "message": "Correggi le modifiche in conflitto"
+   },
+   "125962421212090538": {
+      "message": "Settimana prossima"
+   },
+   "1333255388111908292": {
+      "message": "Spesa"
+   },
+   "1338300799355131761": {
+      "message": "Nota senza titolo"
+   },
+   "1365216822837281424": {
+      "message": "Estensione di Chrome"
+   },
+   "1377158635423797368": {
+      "message": "Vai a etichetta"
+   },
+   "1388712764439031120": {
+      "message": "Apri link"
+   },
+   "1429848477922945853": {
+      "message": "Nota vuota"
+   },
+   "146276399441370821": {
+      "message": "Apri keep.google.com"
+   },
+   "1512114410402431831": {
+      "message": "Aggiorna"
+   },
+   "1536087519743707362": {
+      "message": "Ignora"
+   },
+   "1675711464233426777": {
+      "message": "Più tardi oggi"
+   },
+   "1694896269813520248": {
+      "message": "Aggiungi disegno"
+   },
+   "1770899865480106963": {
+      "message": "Dispositivi Android"
+   },
+   "1790494039990261456": {
+      "message": "Tieni entrambe"
+   },
+   "1858255237143975969": {
+      "message": "$2​Privacy$1​"
+   },
+   "187077078156858455": {
+      "message": "Nota audio"
+   },
+   "1963323419655107448": {
+      "message": "Elimina voci selezionate"
+   },
+   "205445381296663832": {
+      "message": "Caricamento non riuscito."
+   },
+   "2159130950882492111": {
+      "message": "Annulla"
+   },
+   "2184278444368405837": {
+      "message": "$1​ elementi"
+   },
+   "2323249770683736002": {
+      "message": "Crea nuova etichetta"
+   },
+   "2438741853303074449": {
+      "message": "occorrenze"
+   },
+   "2452145367257933677": {
+      "message": "Annulla"
+   },
+   "2455647485809380838": {
+      "message": "Gestisci i promemoria senza note"
+   },
+   "246828342952819465": {
+      "message": "Annota le tue idee $1​ da qualsiasi dispositivo"
+   },
+   "2509141182388535183": {
+      "message": "Vedi"
+   },
+   "2542788471536661524": {
+      "message": "Trascina le immagini qui"
+   },
+   "2632538140519286364": {
+      "message": "Le note nel Cestino vengono eliminate dopo 7 giorni."
+   },
+   "2680303811435018716": {
+      "message": "Impossibile aggiungere altri elementi"
+   },
+   "2814354342017225342": {
+      "message": "Visualizza anteprime di link avanzate"
+   },
+   "2930974997943171554": {
+      "message": "Tema scuro disabilitato"
+   },
+   "2971623719720688041": {
+      "message": "Azione annullata"
+   },
+   "2973306402585941108": {
+      "message": "Mattina"
+   },
+   "2983318659047499045": {
+      "message": "Promemoria"
+   },
+   "2989422642644963524": {
+      "message": "Promemoria impostato per $1​"
+   },
+   "3074915509081765994": {
+      "message": "iPhone e iPad"
+   },
+   "3091440425606975088": {
+      "message": "Elenco senza titolo"
+   },
+   "3121560585545725724": {
+      "message": "$1​, $2​"
+   },
+   "3190546672187601036": {
+      "message": "Sera"
+   },
+   "3249966726137025950": {
+      "message": "Gruppo Famiglia del collaboratore"
+   },
+   "3258100527833044153": {
+      "message": "Disegno vuoto ignorato"
+   },
+   "3378875258397512442": {
+      "message": "Configura promemoria sulle note basati su luogo e ora, crea note vocali e lavora online e offline."
+   },
+   "3385831848537487538": {
+      "message": "Viaggi"
+   },
+   "3418677553313974490": {
+      "message": "Cestino"
+   },
+   "3462556632501534753": {
+      "message": "$2​Licenze open-source$1​"
+   },
+   "3551522853788442530": {
+      "message": "Torna indietro"
+   },
+   "3571391964903695725": {
+      "message": "Ripeti"
+   },
+   "3571704286086017611": {
+      "message": "Promemoria eliminato"
+   },
+   "3580243353280636963": {
+      "message": "Scegli data e ora"
+   },
+   "3608521102844050208": {
+      "message": "Promemoria:"
+   },
+   "3714239567487848851": {
+      "message": "Tema scuro abilitato"
+   },
+   "3768927257183755959": {
+      "message": "Salva"
+   },
+   "3823114520994436161": {
+      "message": "Esegui l'aggiornamento a keep.google.com"
+   },
+   "3852386690131857488": {
+      "message": "Abilita condivisione"
+   },
+   "3907816292084809686": {
+      "message": "Azione ripetuta"
+   },
+   "395680759377627007": {
+      "message": "Crea \"$3​$2​$1​\""
+   },
+   "397098723873502323": {
+      "message": "Fine"
+   },
+   "3989925953740167133": {
+      "message": "Google Keep vorrebbe utilizzare la tua posizione per migliorare i suggerimenti nei promemoria basati sui luoghi."
+   },
+   "4174786386751618325": {
+      "message": "Nota fotografica"
+   },
+   "4191000901158114852": {
+      "message": "Google Keep"
+   },
+   "4343848624651344174": {
+      "message": "Pomeriggio"
+   },
+   "4494250072784000771": {
+      "message": "Stilo rilevato. Panoramica con il tocco attivata."
+   },
+   "4514241210910366093": {
+      "message": "Visualizzazione griglia"
+   },
+   "4533605085334699862": {
+      "message": "Citazioni"
+   },
+   "456512308416555173": {
+      "message": "Libri"
+   },
+   "4734349318830134239": {
+      "message": "Fine"
+   },
+   "4840513623749850224": {
+      "message": "Film"
+   },
+   "4930506384627295710": {
+      "message": "Impostazioni"
+   },
+   "4963533275503057654": {
+      "message": "Creazione della miniatura..."
+   },
+   "4974261966265341751": {
+      "message": "Disattiva Tema scuro"
+   },
+   "5000971639019912199": {
+      "message": "$2​Termini$1​"
+   },
+   "5259541708332520733": {
+      "message": "Origine rimossa"
+   },
+   "527438013974545289": {
+      "message": "La funzionalità Tema scuro è ora disponibile"
+   },
+   "5275304974990264425": {
+      "message": "Visualizzazione elenco"
+   },
+   "5403636185480096151": {
+      "message": "TV"
+   },
+   "5422660126805186552": {
+      "message": "Goditi un'esperienza di lettura più rilassante. Attiva o disattiva questa funzionalità in Impostazioni."
+   },
+   "546766753072101168": {
+      "message": "Etichette"
+   },
+   "5510222038351634163": {
+      "message": "Ulteriori informazioni sul ritiro dell'app Keep per Chrome"
+   },
+   "5570885401952336951": {
+      "message": "Log del client"
+   },
+   "5592884381280360832": {
+      "message": "OK"
+   },
+   "5601530442010506564": {
+      "message": "OK"
+   },
+   "5652536812290902558": {
+      "message": "Scarica audio"
+   },
+   "5994697604396931641": {
+      "message": "Rimuovi tutte"
+   },
+   "6049952042443321325": {
+      "message": "Tabella delle scorciatoie da tastiera"
+   },
+   "6069780031254134657": {
+      "message": "Contrassegna come completato"
+   },
+   "6113237889871930608": {
+      "message": "Nota vuota"
+   },
+   "6176354714840789272": {
+      "message": "Puoi anche salvare link per utilizzarli successivamente con l'$2​estensione Google Keep per Chrome$1​."
+   },
+   "6189397065139465013": {
+      "message": "Ogni"
+   },
+   "6225875898439047571": {
+      "message": "Nega"
+   },
+   "6231442995102088007": {
+      "message": "Novità in Google Keep"
+   },
+   "6252259197986158120": {
+      "message": "Ieri"
+   },
+   "6366376928558090914": {
+      "message": "Alimenti"
+   },
+   "6371576811194810854": {
+      "message": "Dopo"
+   },
+   "6402092370576716734": {
+      "message": "Svuota Cestino"
+   },
+   "6473102097014191455": {
+      "message": "Nota con disegno"
+   },
+   "6497197865876438261": {
+      "message": "Musica"
+   },
+   "6510131849363684615": {
+      "message": "Domani"
+   },
+   "6579707685908557993": {
+      "message": "Tardo pomeriggio"
+   },
+   "6755327423364814290": {
+      "message": "Crea note più rapidamente con l'app"
+   },
+   "6822520214440117457": {
+      "message": "Lavoro"
+   },
+   "689017442055275529": {
+      "message": "Gruppo Famiglia di $1​"
+   },
+   "6982321568096234183": {
+      "message": "Scarica audio ($1​)"
+   },
+   "7005745151564974365": {
+      "message": "Scorciatoie da tastiera"
+   },
+   "7102649289752747375": {
+      "message": "Invia feedback"
+   },
+   "7174409400206281023": {
+      "message": "Sono state trovate modifiche in conflitto"
+   },
+   "7207109722898253285": {
+      "message": "Tieni selezionate"
+   },
+   "7254411458460045711": {
+      "message": "Aggiornamento non riuscito. Riprova più tardi. Se al momento sei offline, collegati a Internet prima di riprovare."
+   },
+   "7301081435623917576": {
+      "message": "Impostazioni predefinite promemoria"
+   },
+   "7330497278645626593": {
+      "message": "Prova"
+   },
+   "7379369644162401367": {
+      "message": "Rimuovili"
+   },
+   "7381817875028728077": {
+      "message": "No grazie"
+   },
+   "7384785369409503695": {
+      "message": "Attiva Tema scuro"
+   },
+   "7420364754178516134": {
+      "message": "Strumenti di debug"
+   },
+   "7430680760319628492": {
+      "message": "Esamina"
+   },
+   "7510155920769316048": {
+      "message": "Note ed elenchi"
+   },
+   "7528441140724145783": {
+      "message": "Modifica etichette"
+   },
+   "7565795669925550891": {
+      "message": "Condiviso da"
+   },
+   "7579280421767578228": {
+      "message": "Promemoria per data indefinita"
+   },
+   "7585826646011739428": {
+      "message": "Modifica"
+   },
+   "7624042048123264803": {
+      "message": "Apri nota"
+   },
+   "7669846901402551021": {
+      "message": "Oggi"
+   },
+   "7735981667219692675": {
+      "message": "{resultCount,plural, =1{# risultato della ricerca}other{# risultati della ricerca}}"
+   },
+   "7819314041543176992": {
+      "message": "Chiudi"
+   },
+   "7873060817438017568": {
+      "message": "$2​ · $1​"
+   },
+   "7911416166208830577": {
+      "message": "Guida"
+   },
+   "7934833136974560675": {
+      "message": "Riprova"
+   },
+   "8104421162933956065": {
+      "message": "Note"
+   },
+   "8133866583554546341": {
+      "message": "$1​, $2​"
+   },
+   "8149439558305434788": {
+      "message": "$1​, $2​"
+   },
+   "8193677552005249631": {
+      "message": "Download app"
+   },
+   "819996403327805209": {
+      "message": "Ulteriori informazioni"
+   },
+   "8229434427096481545": {
+      "message": "Aggiornamenti disponibili"
+   },
+   "824468664656304495": {
+      "message": "Sei offline. Alcune funzionalità potrebbero non essere disponibili."
+   },
+   "8342620486324515462": {
+      "message": "Ignora"
+   },
+   "8412733496413412439": {
+      "message": "Modalità offline"
+   },
+   "8422875188929347819": {
+      "message": "Condivisione"
+   },
+   "8506292502710287776": {
+      "message": "Le tue note sono lunghe? Aggiungeremo automaticamente più spazio quando raggiungi il limite inferiore."
+   },
+   "8559513397356310933": {
+      "message": "Aggiungi nuovi elementi alla fine"
+   },
+   "857379832182429172": {
+      "message": "Attiva"
+   },
+   "8602525917014156029": {
+      "message": "Luoghi"
+   },
+   "8611058223830804795": {
+      "message": "Sposta elementi selezionati alla fine"
+   },
+   "8663507590720636709": {
+      "message": "$1​ + altri $2​"
+   },
+   "8775097441636640256": {
+      "message": "$2​ - $1​"
+   },
+   "8797656338249040679": {
+      "message": "$2​Installa l'estensione Google Keep per Chrome$1​ per salvare con un solo clic in Keep tutto ciò che consideri importante."
+   },
+   "8831459317888986184": {
+      "message": "Elimina selezionati"
+   },
+   "8903612093856047007": {
+      "message": "Collaboratori"
+   },
+   "8905995985388209337": {
+      "message": "Accetta"
+   },
+   "8930959387403789939": {
+      "message": "Promemoria"
+   },
+   "8990769651805334695": {
+      "message": "In data"
+   },
+   "900086393693234779": {
+      "message": "Casa"
+   },
+   "911698676339750373": {
+      "message": "Gruppo Famiglia"
+   },
+   "9129734193759025482": {
+      "message": "Domani"
+   },
+   "9146862513672039744": {
+      "message": "Cancella dati account"
+   },
+   "9207517187376875555": {
+      "message": "Utilizza Keep nel tuo browser web"
+   },
+   "appDesc": {
+      "description": "App description",
+      "message": "Annota rapidamente i tuoi pensieri e condividili con amici e parenti."
+   },
+   "appName": {
+      "description": "App name",
+      "message": "Google Keep - note ed elenchi"
+   },
+   "shortName": {
+      "description": "App short name",
+      "message": "Google Keep"
+   }
+}

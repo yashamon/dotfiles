@@ -1,0 +1,35 @@
+{
+   "background": {
+      "scripts": [ "scripts/background.js" ]
+   },
+   "browser_action": {
+      "default_icon": {
+         "38": "images/icon-38.png"
+      },
+      "default_title": "Free VPN"
+   },
+   "content_scripts": [ {
+      "all_frames": false,
+      "js": [ "scripts/contentscript.js" ],
+      "matches": [ "http://*/*", "https://*/*" ],
+      "run_at": "document_end"
+   }, {
+      "all_frames": false,
+      "js": [ "scripts/contentstart.js" ],
+      "matches": [ "http://*/*", "https://*/*" ],
+      "run_at": "document_start"
+   } ],
+   "default_locale": "en",
+   "description": "__MSG_appDescription__",
+   "homepage_url": "https://www.freevpn.one/",
+   "icons": {
+      "128": "images/icon-128.png",
+      "16": "images/icon-16.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAhJv4eZUho/5F+1MI648Epr2MapkguJePb3KnOTg7N0kwjenbBECQ+L9zGy6BVNnBeVZrgKmFBTrcWptCDqUMWwbm+s5DjOeMvA5iOq9/4P72NCB9+szregLSiDak5Y/GUcu8T1Lo08Pjp4fx+PusNmER2UhYPgdHlgpfsUIk9nnHrPbTm/yKT+J/4yzS8pg9LeCxfhxDeILOwsk/BMLb3VXTPeibJ66KbJmQHkbniH3tGrdV8Sgzl4uXhF1yPJ3M2lG135+wEq7gIYzcP3PAoDYVRwPginhPfhOBhxSM6aTFMleC7/Mci6exgvX5eUw2CuFx2jsJen5aNsR450ficQIDAQAB",
+   "manifest_version": 2,
+   "name": "__MSG_appName__",
+   "permissions": [ "tabs", "proxy", "\u003Call_urls>", "background", "storage" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "2.1.25"
+}

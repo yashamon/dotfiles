@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="42px" height="42px" viewBox="0 0 42 42" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47 (45396) - http://www.bohemiancoding.com/sketch -->
+    <title>gmail icon </title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard" transform="translate(-23.000000, -10.000000)">
+            <g id="gmail-icon-" transform="translate(24.000000, 11.000000)">
+                <g id="oval-7-copy-2">
+                    <circle id="Oval" stroke="#979797" stroke-width="1.5" cx="20" cy="20" r="19.5"></circle>
+                    <path d="M32,20 C32,26.627 26.627,32 20,32 C13.373,32 8,26.627 8,20 C8,13.373 13.373,8 20,8 C23.234,8 26.17,9.28 28.328,11.36 L25.008,14.828 C22.7113886,12.6055531 19.2246293,12.1629664 16.4455914,13.7411432 C13.6665534,15.31932 12.260407,18.5405195 12.9925283,21.6514185 C13.7246495,24.7623174 16.4198032,27.0183139 19.6109969,27.1914521 C22.8021905,27.3645902 25.7256035,25.4134289 26.79,22.4 L20.001,22.4 L20.001,17.6 L32.001,17.6 L32.001,20 L32,20 Z" id="Shape" fill="#949495" fill-rule="nonzero"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

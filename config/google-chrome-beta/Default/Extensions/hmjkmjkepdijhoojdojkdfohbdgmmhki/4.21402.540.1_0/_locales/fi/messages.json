@@ -1,0 +1,494 @@
+{
+   "1055686627716339120": {
+      "message": "Arkisto"
+   },
+   "1102717806459547726": {
+      "message": "Päivitä"
+   },
+   "1122146167985532789": {
+      "message": "eilen"
+   },
+   "116696227691552491": {
+      "message": "Valitse paikka"
+   },
+   "1171339122262740595": {
+      "message": "Keepin Chrome-laajennusta ei enää tueta. Voit jatkaa Keepin käyttämistä osoitteessa keep.google.com."
+   },
+   "1248242541854939846": {
+      "message": "Korjaa ristiriitaiset muokkaukset"
+   },
+   "125962421212090538": {
+      "message": "Ensi viikolla"
+   },
+   "1333255388111908292": {
+      "message": "Ruokaostokset"
+   },
+   "1338300799355131761": {
+      "message": "Nimetön muistiinpano"
+   },
+   "1365216822837281424": {
+      "message": "Chrome-laajennus"
+   },
+   "1377158635423797368": {
+      "message": "Siirry tunnisteeseen"
+   },
+   "1388712764439031120": {
+      "message": "Avaa linkki"
+   },
+   "1429848477922945853": {
+      "message": "Tyhjä muistiinpano"
+   },
+   "146276399441370821": {
+      "message": "Avaa keep.google.com"
+   },
+   "1512114410402431831": {
+      "message": "Päivitä"
+   },
+   "1536087519743707362": {
+      "message": "Hylkää"
+   },
+   "1675711464233426777": {
+      "message": "Myöhemmin tänään"
+   },
+   "1694896269813520248": {
+      "message": "Lisää piirros"
+   },
+   "1770899865480106963": {
+      "message": "Android-laitteet"
+   },
+   "1790494039990261456": {
+      "message": "Säilytä molemmat"
+   },
+   "1858255237143975969": {
+      "message": "$2​Tietosuoja$1​"
+   },
+   "187077078156858455": {
+      "message": "Äänimuistiinpano"
+   },
+   "1963323419655107448": {
+      "message": "Poista valitut kohteet"
+   },
+   "205445381296663832": {
+      "message": "Lataus epäonnistui."
+   },
+   "2159130950882492111": {
+      "message": "Peru"
+   },
+   "2184278444368405837": {
+      "message": "$1​ kohdetta"
+   },
+   "2323249770683736002": {
+      "message": "Luo uusi tunniste"
+   },
+   "2438741853303074449": {
+      "message": "esiintymää"
+   },
+   "2452145367257933677": {
+      "message": "Kumoa"
+   },
+   "2455647485809380838": {
+      "message": "Poista muistutukset, joissa ei ole muistiinpanoja"
+   },
+   "246828342952819465": {
+      "message": "Tallenna ajatuksesi $1​ millä tahansa laitteella."
+   },
+   "2509141182388535183": {
+      "message": "Näytä"
+   },
+   "2542788471536661524": {
+      "message": "Pudota kuvat tähän"
+   },
+   "2632538140519286364": {
+      "message": "Roskakorissa olevat muistiinpanot poistetaan seitsemän päivän kuluttua."
+   },
+   "2680303811435018716": {
+      "message": "Useampien kohteiden lisääminen ei onnistu."
+   },
+   "2814354342017225342": {
+      "message": "Näytä linkkien esikatselu"
+   },
+   "2930974997943171554": {
+      "message": "Tumma teema pois käytöstä"
+   },
+   "2971623719720688041": {
+      "message": "Toiminto kumottiin."
+   },
+   "2973306402585941108": {
+      "message": "Aamu"
+   },
+   "2983318659047499045": {
+      "message": "Muistutukset"
+   },
+   "2989422642644963524": {
+      "message": "Muistutus asetettu: $1​"
+   },
+   "3074915509081765994": {
+      "message": "iPhone ja iPad"
+   },
+   "3091440425606975088": {
+      "message": "Nimetön luettelo"
+   },
+   "3121560585545725724": {
+      "message": "$1​, $2​"
+   },
+   "3190546672187601036": {
+      "message": "Yö"
+   },
+   "3249966726137025950": {
+      "message": "Yhteiskäyttäjän perheryhmä"
+   },
+   "3258100527833044153": {
+      "message": "Tyhjä piirros hylättiin."
+   },
+   "3378875258397512442": {
+      "message": "Aseta muistiinpanoihin muistutuksia ajoista ja paikoista, tee äänimuistiinpanoja ja työskentele sekä verkossa että offline-tilassa."
+   },
+   "3385831848537487538": {
+      "message": "Matkailu"
+   },
+   "3418677553313974490": {
+      "message": "Roskakori"
+   },
+   "3462556632501534753": {
+      "message": "$2​Avoimen lähdekoodin käyttöluvat$1​"
+   },
+   "3551522853788442530": {
+      "message": "Takaisin"
+   },
+   "3571391964903695725": {
+      "message": "Toista"
+   },
+   "3571704286086017611": {
+      "message": "Muistutus poistettiin."
+   },
+   "3580243353280636963": {
+      "message": "Valitse päivä ja aika"
+   },
+   "3608521102844050208": {
+      "message": "Muistutus:"
+   },
+   "3714239567487848851": {
+      "message": "Tumma teema käytössä"
+   },
+   "3768927257183755959": {
+      "message": "Tallenna"
+   },
+   "3823114520994436161": {
+      "message": "Päivitä keep.google.comiin"
+   },
+   "3852386690131857488": {
+      "message": "Ota jakaminen käyttöön"
+   },
+   "3907816292084809686": {
+      "message": "Toiminto toistettiin"
+   },
+   "395680759377627007": {
+      "message": "Luo $3​$2​$1​"
+   },
+   "397098723873502323": {
+      "message": "Valmis"
+   },
+   "3989925953740167133": {
+      "message": "Google Keep haluaa käyttää sijaintiasi parantaakseen sijaintimuistutusten paikkaehdotuksia."
+   },
+   "4174786386751618325": {
+      "message": "Kuvamuistiinpano"
+   },
+   "4191000901158114852": {
+      "message": "Google Keep"
+   },
+   "4343848624651344174": {
+      "message": "Iltapäivä"
+   },
+   "4494250072784000771": {
+      "message": "Näyttökynä havaittiin. Panorointi koskettamalla on käytössä."
+   },
+   "4514241210910366093": {
+      "message": "Ruudukkonäkymä"
+   },
+   "4533605085334699862": {
+      "message": "Lainaukset"
+   },
+   "456512308416555173": {
+      "message": "Kirjat"
+   },
+   "4734349318830134239": {
+      "message": "Päättyy"
+   },
+   "4840513623749850224": {
+      "message": "Elokuvat"
+   },
+   "4930506384627295710": {
+      "message": "Asetukset"
+   },
+   "4963533275503057654": {
+      "message": "Luodaan pikkukuvaa…"
+   },
+   "4974261966265341751": {
+      "message": "Ota tumma teema pois päältä"
+   },
+   "5000971639019912199": {
+      "message": "$2​Ehdot$1​"
+   },
+   "5259541708332520733": {
+      "message": "Lähde poistettu"
+   },
+   "527438013974545289": {
+      "message": "Tumma teema on täällä"
+   },
+   "5275304974990264425": {
+      "message": "Luettelonäkymä"
+   },
+   "5403636185480096151": {
+      "message": "Televisio"
+   },
+   "5422660126805186552": {
+      "message": "Nauti entistä miellyttävämmästä lukukokemuksesta. Ota ominaisuus päälle tai pois päältä asetuksista."
+   },
+   "546766753072101168": {
+      "message": "Tunnisteet"
+   },
+   "5510222038351634163": {
+      "message": "Lue lisää Keepin Chrome-sovelluksen käytöstä poistamisesta"
+   },
+   "5570885401952336951": {
+      "message": "Sovellusloki"
+   },
+   "5592884381280360832": {
+      "message": "OK"
+   },
+   "5601530442010506564": {
+      "message": "OK"
+   },
+   "5652536812290902558": {
+      "message": "Lataa ääni"
+   },
+   "5994697604396931641": {
+      "message": "Poista kaikki"
+   },
+   "6049952042443321325": {
+      "message": "Pikanäppäintaulukko"
+   },
+   "6069780031254134657": {
+      "message": "Merkitse valmiiksi"
+   },
+   "6113237889871930608": {
+      "message": "Tyhjä muistiinpano"
+   },
+   "6176354714840789272": {
+      "message": "Voit myös tallentaa linkkejä myöhempää käyttöä varten&nbsp;$2​Google Keepin Chrome-laajennuksella$1​."
+   },
+   "6189397065139465013": {
+      "message": "Joka"
+   },
+   "6225875898439047571": {
+      "message": "Estä"
+   },
+   "6231442995102088007": {
+      "message": "Uutta Google Keepissä"
+   },
+   "6252259197986158120": {
+      "message": "Eilen"
+   },
+   "6366376928558090914": {
+      "message": "Ruoka"
+   },
+   "6371576811194810854": {
+      "message": "Jälkeen"
+   },
+   "6402092370576716734": {
+      "message": "Tyhjennä roskakori"
+   },
+   "6473102097014191455": {
+      "message": "Piirretty muistiinpano"
+   },
+   "6497197865876438261": {
+      "message": "Musiikki"
+   },
+   "6510131849363684615": {
+      "message": "Huomenna"
+   },
+   "6579707685908557993": {
+      "message": "Ilta"
+   },
+   "6755327423364814290": {
+      "message": "Tee muistiinpanoja nopeammin sovelluksen avulla"
+   },
+   "6822520214440117457": {
+      "message": "Työ"
+   },
+   "689017442055275529": {
+      "message": "Käyttäjän $1​ perheryhmä"
+   },
+   "6982321568096234183": {
+      "message": "Lataa ääni ($1​)"
+   },
+   "7005745151564974365": {
+      "message": "Pikanäppäimet"
+   },
+   "7102649289752747375": {
+      "message": "Lähetä palautetta"
+   },
+   "7174409400206281023": {
+      "message": "Löydettiin ristiriitaisia muokkauksia"
+   },
+   "7207109722898253285": {
+      "message": "Säilytä valittu"
+   },
+   "7254411458460045711": {
+      "message": "Päivittäminen epäonnistui. Yritä myöhemmin uudelleen. Jos olet offline-tilassa, muodosta yhteys internetiin ennen kuin yrität uudelleen."
+   },
+   "7301081435623917576": {
+      "message": "Muistutusten oletusasetukset"
+   },
+   "7330497278645626593": {
+      "message": "Kokeile"
+   },
+   "7379369644162401367": {
+      "message": "Poista heidät"
+   },
+   "7381817875028728077": {
+      "message": "Ei kiitos"
+   },
+   "7384785369409503695": {
+      "message": "Ota tumma teema käyttöön"
+   },
+   "7420364754178516134": {
+      "message": "Virheiden jäljitys- ja korjaustyökalut"
+   },
+   "7430680760319628492": {
+      "message": "Tarkista"
+   },
+   "7510155920769316048": {
+      "message": "Muistiinpanot ja luettelot"
+   },
+   "7528441140724145783": {
+      "message": "Muokkaa tunnisteita"
+   },
+   "7565795669925550891": {
+      "message": "Jakaja:"
+   },
+   "7579280421767578228": {
+      "message": "Muistutus joskus"
+   },
+   "7585826646011739428": {
+      "message": "Muokkaa"
+   },
+   "7624042048123264803": {
+      "message": "Avaa muistiinpano"
+   },
+   "7669846901402551021": {
+      "message": "Tänään"
+   },
+   "7735981667219692675": {
+      "message": "{resultCount,plural, =1{# hakutulos}other{# hakutulosta}}"
+   },
+   "7819314041543176992": {
+      "message": "Sulje"
+   },
+   "7873060817438017568": {
+      "message": "$2​ · $1​"
+   },
+   "7911416166208830577": {
+      "message": "Ohje"
+   },
+   "7934833136974560675": {
+      "message": "Yritä uudelleen"
+   },
+   "8104421162933956065": {
+      "message": "Muistiinpanoja"
+   },
+   "8133866583554546341": {
+      "message": "$1​, $2​"
+   },
+   "8149439558305434788": {
+      "message": "$1​, $2​"
+   },
+   "8193677552005249631": {
+      "message": "Sovellusten lataukset"
+   },
+   "819996403327805209": {
+      "message": "Lue lisää"
+   },
+   "8229434427096481545": {
+      "message": "Päivityksiä saatavilla"
+   },
+   "824468664656304495": {
+      "message": "Olet offline-tilassa. Osa toiminnoista ei ole käytettävissä."
+   },
+   "8342620486324515462": {
+      "message": "Ohita"
+   },
+   "8412733496413412439": {
+      "message": "Offline-tila"
+   },
+   "8422875188929347819": {
+      "message": "Jakaminen"
+   },
+   "8506292502710287776": {
+      "message": "Teetkö pitkiä muistiinpanoja? Tilaa lisätään automaattisesti, kun pääset alareunaan asti."
+   },
+   "8559513397356310933": {
+      "message": "Lisää uusia kohteita loppuun"
+   },
+   "857379832182429172": {
+      "message": "Ota käyttöön"
+   },
+   "8602525917014156029": {
+      "message": "Paikat"
+   },
+   "8611058223830804795": {
+      "message": "Siirrä valitut kohteet loppuun"
+   },
+   "8663507590720636709": {
+      "message": "$1​ +$2​ muuta"
+   },
+   "8775097441636640256": {
+      "message": "$2​ – $1​"
+   },
+   "8797656338249040679": {
+      "message": "$2​Asentamalla Google Keepin Chrome-laajennuksen$1​ voit tallentaa säilytettävät asiat yhdellä klikkauksella."
+   },
+   "8831459317888986184": {
+      "message": "Poista valitut"
+   },
+   "8903612093856047007": {
+      "message": "Yhteiskäyttäjät"
+   },
+   "8905995985388209337": {
+      "message": "Hyväksy"
+   },
+   "8930959387403789939": {
+      "message": "Muistutus"
+   },
+   "8990769651805334695": {
+      "message": "Kun päivämäärä on"
+   },
+   "900086393693234779": {
+      "message": "Koti"
+   },
+   "911698676339750373": {
+      "message": "Perheryhmä"
+   },
+   "9129734193759025482": {
+      "message": "Huomenna"
+   },
+   "9146862513672039744": {
+      "message": "Tyhjennä tili"
+   },
+   "9207517187376875555": {
+      "message": "Käytä Keepiä selaimessa"
+   },
+   "appDesc": {
+      "description": "App description",
+      "message": "Kirjaa ajatuksesi nopeasti muistiin ja jaa ne ystävien ja perheenjäsenten kanssa."
+   },
+   "appName": {
+      "description": "App name",
+      "message": "Google Keep – muistiinpanot ja luettelot"
+   },
+   "shortName": {
+      "description": "App short name",
+      "message": "Google Keep"
+   }
+}

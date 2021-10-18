@@ -1,9 +1,11 @@
 call plug#begin('~/.vim/plugged')  
-" Plug 'reedes/vim-pencil'
+" Plug 'reedes/vim-pencil' 
+" Plug 'folke/which-key.nvim', { 'branch': 'main' }
 Plug 'folke/zen-mode.nvim', { 'branch': 'main' } 
 " Plug 'AckslD/nvim-neoclip.lua', { 'branch': 'main' } 
 Plug 'phaazon/hop.nvim' 
-Plug 'is0n/fm-nvim'
+Plug 'is0n/fm-nvim' 
+Plug 'williamboman/nvim-lsp-installer'
 Plug 'nvim-lua/plenary.nvim'
 Plug 'nvim-telescope/telescope.nvim',  
 Plug 'nvim-treesitter/playground'
@@ -157,23 +159,13 @@ set guicursor=n-v-c:block,i-ci-ve:ver25,r-cr:hor20,o:hor50
 set spelllang=en  
 autocmd VimEnter * ZenMode
 au VIMEnter set spell 
- set timeout
-   set timeoutlen=0
-     set ttimeoutlen=0
-
-       "NeoVim handles ESC keys as alt+key set this to solve the
-       "problem
-         if has('nvim')
-              set ttimeout
-                   set ttimeoutlen=0
-                     endif
-  au VIMEnter * let g:surround_108 = {
+set timeoutlen=0
+au VIMEnter * let g:surround_108 = {
      \'q':  " ``\r''"
      \ }
 let g:tex_flavor = "latex"
 let g:tex_isk = '@,48-57,58,_,192-255'
 let g:tex_conceal = ""
-
 set tags+=~/workspacemodules/tags
 "set tags+=~/Dropbox/workspace/tags
   " set formatoptions=ant
@@ -195,7 +187,7 @@ set mouse=
 set bs=2		" allow backspacing over everything in insert mode 
 set undofile                " Save undo's after file closes
 set undodir=undo " where to save undo histories
-set undolevels=100000         " How many undos
+set undolevels=1000000         " How many undos
 set undoreload=10000		
 set ruler		" show the cursor position all the time
 set autoread		" auto read when file is changed from outside
@@ -209,7 +201,6 @@ set wildmenu            " wild char completion menu
 let maplocalleader = "\\"
 " ignore these files while expanding wild chars
 set wildignore=*.o,*.class,*.pyc
-
 set incsearch		" incremental search
 set nobackup		" no *~ backup files
 set ignorecase		" ignore case when searching
@@ -250,7 +241,7 @@ set background=dark
 " let g:material_style = 'lighter'
 " highlight Normal ctermbg=none
 hi clear SpellBad
-hi SpellBad cterm=underline
+hi SpellBad cterm=undercurl
 " Set style for gVim
 hi SpellBad gui=undercurl
 hi MatchParen cterm=undercurl ctermbg=none ctermfg=magenta
@@ -264,7 +255,7 @@ autocmd BufReadPost * if @% !~# '\.git[\/\\]COMMIT_EDITMSG$' && line("'\"") > 1 
 au FileType Makefile set noexpandtab
 au FileType tex,text set spelllang=en
 au FileType tex,text,md set spell
-au FileType vim,lua,md set list
+" au FileType vim,lua,md set list
 au FileType tex,text,md syntax sync fromstart
 au FileType tex,text,md silent execute "!echo " . v:servername . " > ~/servername.txt"   
 au FileType tex,text,md hi SpellBad cterm=undercurl
@@ -318,8 +309,6 @@ function Lighter()
    colorscheme material  
    let g:material_style = 'lighter'  
 endfunction
-
-
 
 function Dark()
    set background=dark
@@ -387,7 +376,6 @@ set cot-=preview "disable doc preview in omnicomplete
 set encoding=utf-8                                  
 set termencoding=utf-8
 set fileencoding=utf-8
-set fileencodings=ucs-bom,utf-8,big5,gb2312,latin1
 
 "maps remaps mappings
 noremap <leader>r :e<cr>
@@ -544,8 +532,9 @@ au FileType tex,text,md nnoremap dd "_g^dg$g^
 " au FileType tex,text,md inoremap .<CR> .<CR><ESC>J0
 " au FileType tex,text,md inoremap .<Space> .<CR><ESC>J0
 " au FileType tex,text,md inoremap .<ESC> .<CR><ESC>J0
-au FileType tex,text,md inoremap <leader>cr <CR>
+" au FileType tex,text,md inoremap <leader>cr <CR>
 au FileType tex,text,md noremap map o gj0i<CR><ESC>gki 
+
 
 
 
@@ -564,6 +553,10 @@ let g:sneak#use_ic_scs = 1
 
 map t <cmd>HopWordAC<cr>
 map T <cmd>HopWordBC<cr>
+map <m-.> <cmd>HopChar1<cr>.
+map <m-Space> <cmd>HopChar1<cr> 
+
+
 
 " map t <ESC>:syntax off <CR>t: syntax on<CR>
 "  map t :syntaxoff <Plug>Sneak_s
@@ -577,8 +570,13 @@ noremap <m-t> :BTags<cr>
 noremap <m-y> :Tags<cr>
 noremap S <Esc>:BLines<CR>    
 "noremap L <Esc>:AsyncRun sentence.sh %;nvr sentence_%<cr>:echo 'press any key'<cr>:execute 'call getchar()' | BLines<cr>
-" Line search mapping
-noremap <m-l> viwhy<esc>:bdelete<cr>:<c-r>+<cr>:ZenMode<cr>  
+" Line search mapping 
+" function! Jumpback() 
+"   K=bufname()
+"   normal viwhy<esc>:bdelete<cr>:buffer K<c-r>+<cr>:ZenMode<cr>
+" endfunction
+
+noremap <m-l> viwhy<esc>:bp<cr>:<c-r>+<cr>:ZenMode<cr>  
 noremap <m-b> <Esc>:Buffers<CR> 
 " noremap F <Esc>:GFiles<CR> 
 map <A-e> :FZF ~<CR>
@@ -603,9 +601,17 @@ function! Sentence()
   AsyncRun sentence.sh %; nvr sentence_%  
   echo "Print any character"
   call getchar()
-  BLines
+  BLines 
+  AsyncStop
 endfunction
 noremap L <esc>:call Sentence()<cr>
+function! Git() 
+  AsyncRun if git rev-parse --is-inside-work-tree || git rev-parse --git-dir > /dev/null 2>&1 ; then git add % ; git commit -m -a ; git push --all origin; fi  
+  AsyncStop
+endfunction
+" autocmd BufWritePost *  call Git()
+" 
+" silent execute 'AsyncRun if git rev-parse --is-inside-work-tree || git rev-parse --git-dir > /dev/null 2>&1 ; then git add % ; git commit -m -a ; git push --all origin; fi'
 
 
 function! ToggleQuickFix()
@@ -683,10 +689,9 @@ let g:vimtex_fold_types= {
           \ },
           \}
 
-
-
+ 
 " let  g:vimtex_fold_types_defaults = 'preamble, sections, comments'
-nmap <leader>l :Silent te latexmk -pvc -pdf -file-line-error -synctex=1 -interaction=nonstopmode -recorder -f -g %<cr>
+nmap <leader>l :silent te latexmk -pvc -pdf -file-line-error -synctex=1 -interaction=nonstopmode -recorder -f -g %<cr><cr>:bp<cr>
 " nmap <leader>l :VimtexCompile<CR>
 " nmap <leader>s <Esc>:VimtexErrors<CR>
 map <leader>g :ZenMode<CR>
@@ -707,14 +712,16 @@ map :tags  exe ":silent ! /usr/local/bin/ctags -R"
 let g:vifmLiveCwd=1
 let g:vifmUseCurrent=1
 
-"Autosave and autocommit   alsdfj
+"Autosave and autocommit   
 
 let g:auto_save = 1  
 "au FileType vim let g:autosave = 0
 let g:auto_save_in_insert_mode = 0
-let g:auto_save_silent = 0
-autocmd BufWritePost * silent execute 'AsyncRun if git rev-parse --is-inside-work-tree || git rev-parse --git-dir > /dev/null 2>&1 ; then git add % ; git commit -m -a ; git push --all origin; fi'
+let g:auto_save_silent = 0 
 
+"Git autocommit  (private git repo)
+
+autocmd BufWritePost * silent execute 'AsyncRun if git rev-parse --is-inside-work-tree || git rev-parse --git-dir > /dev/null 2>&1 ; then git add % ; git commit -m -a ; git push --all origin; fi' 
 " let inside_git_repo="$(git rev-parse --is-inside-work-tree 2>/dev/null)"
 " autocmd BufWritePost * silent execute 'AsyncRun if git rev-parse --is-inside-work-tree 2>/dev/null ; then git add % ; git commit -m -a ; git push --all origin; fi'
 " autocmd BufWritePost * <Esc>:AsyncRun 'if [ -d .git ] || git rev-parse --git-dir > /dev/null 2>&1 ; then git add % ; git commit -m ; git push --all origin; fi'
@@ -868,15 +875,15 @@ end
 
 -- Use a loop to conveniently call 'setup' on multiple servers and
 -- map buffer local keybindings when the language server attaches
-local servers = {'pyright', 'tsserver', 'texlab', 'jsonls'}
-for _, lsp in ipairs(servers) do
-  nvim_lsp[lsp].setup {
-    on_attach = on_attach,
-    flags = {
-      debounce_text_changes = 150,
-    }
-  }
-end
+--local servers = {'pyright', 'tsserver', 'texlab', 'jsonls'}
+--for _, lsp in ipairs(servers) do
+--nvim_lsp[lsp].setup {
+ --   on_attach = on_attach,
+  --  flags = {
+   --   debounce_text_changes = 150,
+   -- }
+--  }
+--end
 EOF
 
 

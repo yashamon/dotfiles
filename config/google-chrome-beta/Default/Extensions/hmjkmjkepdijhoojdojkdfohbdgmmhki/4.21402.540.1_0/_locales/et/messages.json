@@ -1,0 +1,494 @@
+{
+   "1055686627716339120": {
+      "message": "Arhiiv"
+   },
+   "1102717806459547726": {
+      "message": "Värskenda"
+   },
+   "1122146167985532789": {
+      "message": "eile"
+   },
+   "116696227691552491": {
+      "message": "Vali koht"
+   },
+   "1171339122262740595": {
+      "message": "Keepi Chrome’i rakendus ei ole enam toetatud. Saate jätkata Keepi kasutamist aadressil keep.google.com."
+   },
+   "1248242541854939846": {
+      "message": "Parandage vastuolulised muudatused"
+   },
+   "125962421212090538": {
+      "message": "Järgmine nädal"
+   },
+   "1333255388111908292": {
+      "message": "Toidukaubad"
+   },
+   "1338300799355131761": {
+      "message": "Pealkirjata märge"
+   },
+   "1365216822837281424": {
+      "message": "Chrome’i laiendus"
+   },
+   "1377158635423797368": {
+      "message": "Ava silt"
+   },
+   "1388712764439031120": {
+      "message": "Ava link"
+   },
+   "1429848477922945853": {
+      "message": "Tühi märge"
+   },
+   "146276399441370821": {
+      "message": "Ava keep.google.com"
+   },
+   "1512114410402431831": {
+      "message": "Värskenda"
+   },
+   "1536087519743707362": {
+      "message": "Loobu"
+   },
+   "1675711464233426777": {
+      "message": "Hiljem täna"
+   },
+   "1694896269813520248": {
+      "message": "Lisa joonis"
+   },
+   "1770899865480106963": {
+      "message": "Android-seadmed"
+   },
+   "1790494039990261456": {
+      "message": "Säilita mõlemad"
+   },
+   "1858255237143975969": {
+      "message": "$2​Privaatsus$1​"
+   },
+   "187077078156858455": {
+      "message": "Helimärge"
+   },
+   "1963323419655107448": {
+      "message": "Märgitud üksuste kustutamine"
+   },
+   "205445381296663832": {
+      "message": "Üleslaadimine ebaõnnestus."
+   },
+   "2159130950882492111": {
+      "message": "Loobu"
+   },
+   "2184278444368405837": {
+      "message": "$1​ üksust"
+   },
+   "2323249770683736002": {
+      "message": "Loo uus silt"
+   },
+   "2438741853303074449": {
+      "message": "esinemised"
+   },
+   "2452145367257933677": {
+      "message": "Võta tagasi"
+   },
+   "2455647485809380838": {
+      "message": "Ilma märkmeteta meeldetuletuste haldamine"
+   },
+   "246828342952819465": {
+      "message": "Talletage oma mõtteid $1​ mis tahes seadmes"
+   },
+   "2509141182388535183": {
+      "message": "Kuva"
+   },
+   "2542788471536661524": {
+      "message": "Lohistage kujutised siia"
+   },
+   "2632538140519286364": {
+      "message": "Prügikastis olevad märkmed kustutatakse 7 päeva möödudes."
+   },
+   "2680303811435018716": {
+      "message": "Rohkem üksusi ei saa lisada"
+   },
+   "2814354342017225342": {
+      "message": "Rikaslinkide eelvaadete kuvamine"
+   },
+   "2930974997943171554": {
+      "message": "Tume teema keelati"
+   },
+   "2971623719720688041": {
+      "message": "Toiming on tagasi võetud"
+   },
+   "2973306402585941108": {
+      "message": "Hommik"
+   },
+   "2983318659047499045": {
+      "message": "Meeldetuletused"
+   },
+   "2989422642644963524": {
+      "message": "Meeldetuletus: $1​"
+   },
+   "3074915509081765994": {
+      "message": "iPhone ja iPad"
+   },
+   "3091440425606975088": {
+      "message": "Pealkirjata loend"
+   },
+   "3121560585545725724": {
+      "message": "$1​ kell $2​"
+   },
+   "3190546672187601036": {
+      "message": "Öö"
+   },
+   "3249966726137025950": {
+      "message": "Kaasautori peregrupp"
+   },
+   "3258100527833044153": {
+      "message": "Tühjast joonisest on loobutud"
+   },
+   "3378875258397512442": {
+      "message": "Määrake meeldetuletusi kohtade ja kellaaegade märkmete kohta, tehke häälmärkmeid ning töötage võrgus või võrguühenduseta."
+   },
+   "3385831848537487538": {
+      "message": "Reisimine"
+   },
+   "3418677553313974490": {
+      "message": "Prügikast"
+   },
+   "3462556632501534753": {
+      "message": "$2​Avatud lähtekoodi litsentsid$1​"
+   },
+   "3551522853788442530": {
+      "message": "Mine tagasi"
+   },
+   "3571391964903695725": {
+      "message": "Korda"
+   },
+   "3571704286086017611": {
+      "message": "Meeldetuletus on kustutatud"
+   },
+   "3580243353280636963": {
+      "message": "Vali kuupäev"
+   },
+   "3608521102844050208": {
+      "message": "Meeldetuletus:"
+   },
+   "3714239567487848851": {
+      "message": "Tume teema lubati"
+   },
+   "3768927257183755959": {
+      "message": "Salvesta"
+   },
+   "3823114520994436161": {
+      "message": "Lülitu versioonile keep.google.com"
+   },
+   "3852386690131857488": {
+      "message": "Jagamise lubamine"
+   },
+   "3907816292084809686": {
+      "message": "Toiming on uuesti tehtud"
+   },
+   "395680759377627007": {
+      "message": "Loo „$1​$2​$3​”"
+   },
+   "397098723873502323": {
+      "message": "Valmis"
+   },
+   "3989925953740167133": {
+      "message": "Google Keep soovib kasutada teie asukohta, et täiustada kohasoovitusi asukoha meeldetuletuste jaoks."
+   },
+   "4174786386751618325": {
+      "message": "Fotomärge"
+   },
+   "4191000901158114852": {
+      "message": "Google Keep"
+   },
+   "4343848624651344174": {
+      "message": "Pärastlõuna"
+   },
+   "4494250072784000771": {
+      "message": "Tuvastati elektronpliiats. Puudutusega paanimine on lubatud."
+   },
+   "4514241210910366093": {
+      "message": "Ruudustikvaade"
+   },
+   "4533605085334699862": {
+      "message": "Tsitaadid"
+   },
+   "456512308416555173": {
+      "message": "Raamatud"
+   },
+   "4734349318830134239": {
+      "message": "Lõpeb"
+   },
+   "4840513623749850224": {
+      "message": "Filmid"
+   },
+   "4930506384627295710": {
+      "message": "Seaded"
+   },
+   "4963533275503057654": {
+      "message": "Pisipildi loomine..."
+   },
+   "4974261966265341751": {
+      "message": "Keela tume teema"
+   },
+   "5000971639019912199": {
+      "message": "$2​Tingimused$1​"
+   },
+   "5259541708332520733": {
+      "message": "Allikas on eemaldatud"
+   },
+   "527438013974545289": {
+      "message": "Nüüd on saadaval tume teema"
+   },
+   "5275304974990264425": {
+      "message": "Loendivaade"
+   },
+   "5403636185480096151": {
+      "message": "Televisioon"
+   },
+   "5422660126805186552": {
+      "message": "Nautige mugavamat lugemiskogemust. Saate selle seadetes sisse või välja lülitada."
+   },
+   "546766753072101168": {
+      "message": "Sildid"
+   },
+   "5510222038351634163": {
+      "message": "Vaadake lisateavet Keepi Chrome’i rakenduse toe katkestamise kohta"
+   },
+   "5570885401952336951": {
+      "message": "Kliendi logi"
+   },
+   "5592884381280360832": {
+      "message": "Selge"
+   },
+   "5601530442010506564": {
+      "message": "Selge"
+   },
+   "5652536812290902558": {
+      "message": "Laadi heli alla"
+   },
+   "5994697604396931641": {
+      "message": "Eemalda kõik"
+   },
+   "6049952042443321325": {
+      "message": "Klaviatuuri otseteede tabel"
+   },
+   "6069780031254134657": {
+      "message": "Märgi tehtuks"
+   },
+   "6113237889871930608": {
+      "message": "Tühi märge"
+   },
+   "6176354714840789272": {
+      "message": "Saate ühtlasi $2​Google Keepi Chrome’i laiendusega$1​ linke hilisemaks vaatamiseks salvestada."
+   },
+   "6189397065139465013": {
+      "message": "Iga"
+   },
+   "6225875898439047571": {
+      "message": "Keela"
+   },
+   "6231442995102088007": {
+      "message": "Mis on uut rakenduses Google Keep?"
+   },
+   "6252259197986158120": {
+      "message": "Eile"
+   },
+   "6366376928558090914": {
+      "message": "Toit"
+   },
+   "6371576811194810854": {
+      "message": "Pärast"
+   },
+   "6402092370576716734": {
+      "message": "Tühjenda prügikast"
+   },
+   "6473102097014191455": {
+      "message": "Joonisega märge"
+   },
+   "6497197865876438261": {
+      "message": "Muusika"
+   },
+   "6510131849363684615": {
+      "message": "Homme"
+   },
+   "6579707685908557993": {
+      "message": "Õhtu"
+   },
+   "6755327423364814290": {
+      "message": "Selle rakendusega saate kiiremini märkmeid teha"
+   },
+   "6822520214440117457": {
+      "message": "Töökoht"
+   },
+   "689017442055275529": {
+      "message": "Kasutaja $1​ peregrupp"
+   },
+   "6982321568096234183": {
+      "message": "Laadi heli alla ($1​)"
+   },
+   "7005745151564974365": {
+      "message": "Klaviatuuri otseteed"
+   },
+   "7102649289752747375": {
+      "message": "Saada tagasisidet"
+   },
+   "7174409400206281023": {
+      "message": "Leiti vastuolulised muudatused"
+   },
+   "7207109722898253285": {
+      "message": "Säilita valitud"
+   },
+   "7254411458460045711": {
+      "message": "Värskendamine ebaõnnestus. Proovige hiljem uuesti. Teil puudub praegu võrguühendus. Enne kui proovite uuesti, looge ühendus internetiga."
+   },
+   "7301081435623917576": {
+      "message": "Meeldetuletuste vaikeajad"
+   },
+   "7330497278645626593": {
+      "message": "Proovige"
+   },
+   "7379369644162401367": {
+      "message": "Eemalda nad"
+   },
+   "7381817875028728077": {
+      "message": "Tänan, ei"
+   },
+   "7384785369409503695": {
+      "message": "Luba tume teema"
+   },
+   "7420364754178516134": {
+      "message": "Silumistööriistad"
+   },
+   "7430680760319628492": {
+      "message": "Vaata üle"
+   },
+   "7510155920769316048": {
+      "message": "Märkmed ja loendid"
+   },
+   "7528441140724145783": {
+      "message": "Siltide muutmine"
+   },
+   "7565795669925550891": {
+      "message": "Jagab:"
+   },
+   "7579280421767578228": {
+      "message": "Meeldetuletus valiku Kunagi jaoks"
+   },
+   "7585826646011739428": {
+      "message": "Muuda"
+   },
+   "7624042048123264803": {
+      "message": "Ava märge"
+   },
+   "7669846901402551021": {
+      "message": "Täna"
+   },
+   "7735981667219692675": {
+      "message": "{resultCount,plural, =1{# otsingutulemus}other{# otsingutulemust}}"
+   },
+   "7819314041543176992": {
+      "message": "Sule"
+   },
+   "7873060817438017568": {
+      "message": "$2​ · $1​"
+   },
+   "7911416166208830577": {
+      "message": "Abi"
+   },
+   "7934833136974560675": {
+      "message": "Proovi uuesti"
+   },
+   "8104421162933956065": {
+      "message": "Märkused"
+   },
+   "8133866583554546341": {
+      "message": "$1​, $2​"
+   },
+   "8149439558305434788": {
+      "message": "$1​ kell $2​"
+   },
+   "8193677552005249631": {
+      "message": "Rakenduste allalaadimine"
+   },
+   "819996403327805209": {
+      "message": "Lisateave"
+   },
+   "8229434427096481545": {
+      "message": "Värskendused on saadaval"
+   },
+   "824468664656304495": {
+      "message": "Teil ei ole võrguühendust. Kõik funktsioonid ei pruugi olla saadaval."
+   },
+   "8342620486324515462": {
+      "message": "Loobumine"
+   },
+   "8412733496413412439": {
+      "message": "Võrguühenduseta"
+   },
+   "8422875188929347819": {
+      "message": "Jagamine"
+   },
+   "8506292502710287776": {
+      "message": "Kas koostate pikki märkmeid? Lisame automaatselt ruumi, kui jõuate alaossa."
+   },
+   "8559513397356310933": {
+      "message": "Lisa uued üksused alla"
+   },
+   "857379832182429172": {
+      "message": "Lülita sisse"
+   },
+   "8602525917014156029": {
+      "message": "Kohad"
+   },
+   "8611058223830804795": {
+      "message": "Teisalda märgitud üksused alla"
+   },
+   "8663507590720636709": {
+      "message": "$1​ + veel $2​"
+   },
+   "8775097441636640256": {
+      "message": "$2​ – $1​"
+   },
+   "8797656338249040679": {
+      "message": "$2​Installige Google Keepi Chrome’i laiendus$1​, et salvestada olulised asjad ühe klõpsuga Keepi."
+   },
+   "8831459317888986184": {
+      "message": "Kustuta valitud"
+   },
+   "8903612093856047007": {
+      "message": "Kaasautorid"
+   },
+   "8905995985388209337": {
+      "message": "Nõustu"
+   },
+   "8930959387403789939": {
+      "message": "Meeldetuletus"
+   },
+   "8990769651805334695": {
+      "message": "Sees"
+   },
+   "900086393693234779": {
+      "message": "Kodu"
+   },
+   "911698676339750373": {
+      "message": "Peregrupp"
+   },
+   "9129734193759025482": {
+      "message": "Homme"
+   },
+   "9146862513672039744": {
+      "message": "Tühjenda konto"
+   },
+   "9207517187376875555": {
+      "message": "Kasutage Keepi veebibrauseris"
+   },
+   "appDesc": {
+      "description": "App description",
+      "message": "Jäädvustage kiiresti mõtteid ja jagage neid oma sõprade ning perega."
+   },
+   "appName": {
+      "description": "App name",
+      "message": "Google Keep – märkmed ja loendid"
+   },
+   "shortName": {
+      "description": "App short name",
+      "message": "Google Keep"
+   }
+}
