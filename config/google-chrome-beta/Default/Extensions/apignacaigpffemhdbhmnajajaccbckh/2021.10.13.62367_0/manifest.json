@@ -1,0 +1,36 @@
+{
+   "app": {
+      "display_mode": "standalone",
+      "icon_color": "#1973E9",
+      "launch": {
+         "web_url": "https://cursive.apps.chrome/"
+      },
+      "linked_icons": [ {
+         "size": 192,
+         "url": "https://cursive.apps.chrome/assets/icon_192.png"
+      }, {
+         "size": 512,
+         "url": "https://cursive.apps.chrome/assets/icon_512.png"
+      } ]
+   },
+   "description": "",
+   "icons": {
+      "128": "icons/128.png",
+      "192": "icons/192.png",
+      "256": "icons/256.png",
+      "32": "icons/32.png",
+      "48": "icons/48.png",
+      "512": "icons/512.png",
+      "64": "icons/64.png",
+      "96": "icons/96.png"
+   },
+   "key": "ldvDMCXtZUkVmIQLoVSssnMdpC1KcOSBPAvgDBEN9/c=",
+   "name": "Cursive",
+   "url_handlers": {
+      "scope": {
+         "matches": [ "https://cursive.apps.chrome/*" ],
+         "title": "Cursive"
+      }
+   },
+   "version": "2021.10.13.62367"
+}

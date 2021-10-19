@@ -1,0 +1,6 @@
+<svg width="24" height="24" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path d="M6.386 2H5a3 3 0 00-3 3c0 9.389 7.611 17 17 17a3 3 0 003-3v-1.386l-.001-.204a3 3 0 00-2.91-2.909l-.203-.001h-.606c-.835 0-1.65.247-2.345.71l-1.226.817a1.55 1.55 0 01-1.488.127 10.587 10.587 0 01-5.375-5.375 1.55 1.55 0 01.127-1.488l.817-1.226c.463-.695.71-1.51.71-2.345v-.606l-.001-.204a3 3 0 00-2.91-2.909L6.387 2z" fill="#fff" fill-opacity=".62"/>
+  <zoom style="hover" value="|:#CCFFFFFF" hc_value="|:@kHCCText" />
+  <zoom style="*" hc_value="|:@kHCCText" />
+  <zoom style="no_hc" value="|:9eFFFFFF"/>
+</svg>

@@ -1,0 +1,27 @@
+{
+   "app": {
+      "display_mode": "standalone",
+      "launch": {
+         "web_url": "https://sites.google.com/site/yashasavelyev/"
+      },
+      "linked_icons": [  ]
+   },
+   "description": "",
+   "icons": {
+      "128": "icons/128.png",
+      "256": "icons/256.png",
+      "32": "icons/32.png",
+      "48": "icons/48.png",
+      "64": "icons/64.png",
+      "96": "icons/96.png"
+   },
+   "key": "hWIZNuM2w9Kiy2kzhPGM4pRAoySgW7tTyWvjkptjv8w=",
+   "name": "yashasavelyev",
+   "url_handlers": {
+      "scope": {
+         "matches": [ "https://sites.google.com/site/yashasavelyev/*" ],
+         "title": "yashasavelyev"
+      }
+   },
+   "version": "2021.10.13.62367"
+}

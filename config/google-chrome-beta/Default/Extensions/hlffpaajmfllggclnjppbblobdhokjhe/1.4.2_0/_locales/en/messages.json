@@ -1,0 +1,34 @@
+{
+   "appDescription": {
+      "description": "Application description",
+      "message": "This application provides File System for your Dropbox storage."
+   },
+   "appName": {
+      "description": "Application name",
+      "message": "File System for Dropbox"
+   },
+   "mount": {
+      "description": "Label for a button that triggers the mount action.",
+      "message": "Mount your Dropbox"
+   },
+   "mountAttempt": {
+      "description": "Popup notifcation that informs the user that the system is attempting to mount a new instance with the credentials they provided.",
+      "message": "Attempting to mount instance..."
+   },
+   "mountFail": {
+      "description": "Popup notifcation that informs the user that the system failed to mount a new instance with the credentials they provided.",
+      "message": "Failed to mount."
+   },
+   "mountHeader": {
+      "description": "Header describing the server mount form.",
+      "message": "File system for Dropbox"
+   },
+   "mountSuccess": {
+      "description": "Popup notifcation that informs the user that the system successfully mounted a new instance with the credentials they provided.",
+      "message": "Mounted successfully."
+   },
+   "shortName": {
+      "description": "Application short name",
+      "message": "Dropbox"
+   }
+}

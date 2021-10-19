@@ -1,0 +1,494 @@
+{
+   "1055686627716339120": {
+      "message": "Arhivă"
+   },
+   "1102717806459547726": {
+      "message": "Actualizați"
+   },
+   "1122146167985532789": {
+      "message": "ieri"
+   },
+   "116696227691552491": {
+      "message": "Alegeți locația"
+   },
+   "1171339122262740595": {
+      "message": "Aplicația Chrome Keep nu mai este acceptată. Puteți folosi Keep în continuare accesând keep.google.com."
+   },
+   "1248242541854939846": {
+      "message": "Corectați modificările conflictuale"
+   },
+   "125962421212090538": {
+      "message": "Săptămâna viitoare"
+   },
+   "1333255388111908292": {
+      "message": "Produse alimentare"
+   },
+   "1338300799355131761": {
+      "message": "Notă fără titlu"
+   },
+   "1365216822837281424": {
+      "message": "Extensie pentru Chrome"
+   },
+   "1377158635423797368": {
+      "message": "Accesați eticheta"
+   },
+   "1388712764439031120": {
+      "message": "Accesați linkul"
+   },
+   "1429848477922945853": {
+      "message": "Notă goală"
+   },
+   "146276399441370821": {
+      "message": "Deschideți keep.google.com."
+   },
+   "1512114410402431831": {
+      "message": "Actualizați"
+   },
+   "1536087519743707362": {
+      "message": "Închideți"
+   },
+   "1675711464233426777": {
+      "message": "Mai târziu, azi"
+   },
+   "1694896269813520248": {
+      "message": "Adăugați un desen"
+   },
+   "1770899865480106963": {
+      "message": "Dispozitive Android"
+   },
+   "1790494039990261456": {
+      "message": "Păstrați ambele versiuni"
+   },
+   "1858255237143975969": {
+      "message": "$2​Confidențialitate$1​"
+   },
+   "187077078156858455": {
+      "message": "Notă audio"
+   },
+   "1963323419655107448": {
+      "message": "Ștergeți articolele bifate"
+   },
+   "205445381296663832": {
+      "message": "Nu s-a încărcat."
+   },
+   "2159130950882492111": {
+      "message": "Anulați"
+   },
+   "2184278444368405837": {
+      "message": "$1​ (de) articole"
+   },
+   "2323249770683736002": {
+      "message": "Creați o etichetă nouă"
+   },
+   "2438741853303074449": {
+      "message": "repetări"
+   },
+   "2452145367257933677": {
+      "message": "Anulați"
+   },
+   "2455647485809380838": {
+      "message": "Gestionați mementourile fără note"
+   },
+   "246828342952819465": {
+      "message": "Păstrați-vă ideile $1​ de pe orice dispozitiv"
+   },
+   "2509141182388535183": {
+      "message": "Afișați"
+   },
+   "2542788471536661524": {
+      "message": "Plasați imagini aici"
+   },
+   "2632538140519286364": {
+      "message": "Notele din Coșul de gunoi sunt șterse după 7 zile."
+   },
+   "2680303811435018716": {
+      "message": "Nu puteți adăuga mai multe articole"
+   },
+   "2814354342017225342": {
+      "message": "Afișați previzualizările îmbogățite ale linkurilor"
+   },
+   "2930974997943171554": {
+      "message": "Tema întunecată a fost dezactivată"
+   },
+   "2971623719720688041": {
+      "message": "Acțiunea a fost anulată."
+   },
+   "2973306402585941108": {
+      "message": "Dimineața"
+   },
+   "2983318659047499045": {
+      "message": "Mementouri"
+   },
+   "2989422642644963524": {
+      "message": "Memento setat pentru $1​"
+   },
+   "3074915509081765994": {
+      "message": "iPhone și iPad"
+   },
+   "3091440425606975088": {
+      "message": "Listă fără titlu"
+   },
+   "3121560585545725724": {
+      "message": "$1​, $2​"
+   },
+   "3190546672187601036": {
+      "message": "Noaptea"
+   },
+   "3249966726137025950": {
+      "message": "Grupul de familie al colaboratorului"
+   },
+   "3258100527833044153": {
+      "message": "Desenul gol a fost șters"
+   },
+   "3378875258397512442": {
+      "message": "Setați mementouri în note pentru locații și ore, creați note vocale și lucrați online sau offline."
+   },
+   "3385831848537487538": {
+      "message": "Călătorii"
+   },
+   "3418677553313974490": {
+      "message": "Coș de gunoi"
+   },
+   "3462556632501534753": {
+      "message": "$2​Licențe open source$1​"
+   },
+   "3551522853788442530": {
+      "message": "Înapoi"
+   },
+   "3571391964903695725": {
+      "message": "Repetați"
+   },
+   "3571704286086017611": {
+      "message": "Mementoul a fost șters"
+   },
+   "3580243353280636963": {
+      "message": "Alegeți o dată și o oră"
+   },
+   "3608521102844050208": {
+      "message": "Memento:"
+   },
+   "3714239567487848851": {
+      "message": "Tema întunecată a fost activată"
+   },
+   "3768927257183755959": {
+      "message": "Salvați"
+   },
+   "3823114520994436161": {
+      "message": "Actualizați la keep.google.com"
+   },
+   "3852386690131857488": {
+      "message": "Activați trimiterea"
+   },
+   "3907816292084809686": {
+      "message": "Acțiunea a fost repetată"
+   },
+   "395680759377627007": {
+      "message": "Creați „$3​$2​$1​”"
+   },
+   "397098723873502323": {
+      "message": "Terminate"
+   },
+   "3989925953740167133": {
+      "message": "Google Keep solicită permisiunea de a utiliza locația dvs. pentru a îmbunătăți sugestiile de locații pentru mementourile bazate pe locație."
+   },
+   "4174786386751618325": {
+      "message": "Notă foto"
+   },
+   "4191000901158114852": {
+      "message": "Google Keep"
+   },
+   "4343848624651344174": {
+      "message": "După-amiaza"
+   },
+   "4494250072784000771": {
+      "message": "S-a detectat un creion. Funcția Deplasați prin atingere este activată."
+   },
+   "4514241210910366093": {
+      "message": "Afișare de tip grilă"
+   },
+   "4533605085334699862": {
+      "message": "Citate"
+   },
+   "456512308416555173": {
+      "message": "Cărți"
+   },
+   "4734349318830134239": {
+      "message": "Se termină"
+   },
+   "4840513623749850224": {
+      "message": "Filme"
+   },
+   "4930506384627295710": {
+      "message": "Setări"
+   },
+   "4963533275503057654": {
+      "message": "Se creează o miniatură..."
+   },
+   "4974261966265341751": {
+      "message": "Dezactivați tema întunecată"
+   },
+   "5000971639019912199": {
+      "message": "$2​Termeni$1​"
+   },
+   "5259541708332520733": {
+      "message": "Sursă eliminată"
+   },
+   "527438013974545289": {
+      "message": "Puteți folosi tema întunecată"
+   },
+   "5275304974990264425": {
+      "message": "Afișare listă"
+   },
+   "5403636185480096151": {
+      "message": "TV"
+   },
+   "5422660126805186552": {
+      "message": "Citiți mai confortabil. Activați sau dezactivați opțiunea din Setări."
+   },
+   "546766753072101168": {
+      "message": "Etichete"
+   },
+   "5510222038351634163": {
+      "message": "Aflați mai multe despre renunțarea la dezvoltarea aplicației Chrome Keep"
+   },
+   "5570885401952336951": {
+      "message": "Jurnal client"
+   },
+   "5592884381280360832": {
+      "message": "OK"
+   },
+   "5601530442010506564": {
+      "message": "OK"
+   },
+   "5652536812290902558": {
+      "message": "Descărcați fișierul audio"
+   },
+   "5994697604396931641": {
+      "message": "Eliminați-le pe toate"
+   },
+   "6049952042443321325": {
+      "message": "Tabel cu comenzile rapide de la tastatură"
+   },
+   "6069780031254134657": {
+      "message": "Marcați ca terminat"
+   },
+   "6113237889871930608": {
+      "message": "Notă fără conținut"
+   },
+   "6176354714840789272": {
+      "message": "Puteți și să salvați linkuri pentru mai târziu cu extensia&nbsp;$2​Google Keep Chrome$1​."
+   },
+   "6189397065139465013": {
+      "message": "La fiecare"
+   },
+   "6225875898439047571": {
+      "message": "Refuzați"
+   },
+   "6231442995102088007": {
+      "message": "Ce e nou în Google Keep"
+   },
+   "6252259197986158120": {
+      "message": "Ieri"
+   },
+   "6366376928558090914": {
+      "message": "Alimentație"
+   },
+   "6371576811194810854": {
+      "message": "După"
+   },
+   "6402092370576716734": {
+      "message": "Goliți Coșul de gunoi"
+   },
+   "6473102097014191455": {
+      "message": "Notă cu desen"
+   },
+   "6497197865876438261": {
+      "message": "Muzică"
+   },
+   "6510131849363684615": {
+      "message": "Mâine"
+   },
+   "6579707685908557993": {
+      "message": "Seara"
+   },
+   "6755327423364814290": {
+      "message": "Creați note mai rapid folosind aplicația"
+   },
+   "6822520214440117457": {
+      "message": "Serviciu"
+   },
+   "689017442055275529": {
+      "message": "Grupul de familie al utilizatorului $1​"
+   },
+   "6982321568096234183": {
+      "message": "Descărcați fișierul audio ($1​)"
+   },
+   "7005745151564974365": {
+      "message": "Comenzi rapide tastatură"
+   },
+   "7102649289752747375": {
+      "message": "Trimiteți feedback"
+   },
+   "7174409400206281023": {
+      "message": "S-au găsit modificări conflictuale"
+   },
+   "7207109722898253285": {
+      "message": "Păstrați versiunea selectată"
+   },
+   "7254411458460045711": {
+      "message": "Nu s-a actualizat. Încercați din nou mai târziu. Dacă sunteți offline, conectați-vă la internet înainte de a încerca din nou."
+   },
+   "7301081435623917576": {
+      "message": "Setări prestabilite pentru mementouri"
+   },
+   "7330497278645626593": {
+      "message": "Încercați"
+   },
+   "7379369644162401367": {
+      "message": "Excludeți-i"
+   },
+   "7381817875028728077": {
+      "message": "Nu"
+   },
+   "7384785369409503695": {
+      "message": "Activați tema întunecată"
+   },
+   "7420364754178516134": {
+      "message": "Instrumente de remediere a erorilor"
+   },
+   "7430680760319628492": {
+      "message": "Examinați"
+   },
+   "7510155920769316048": {
+      "message": "Note și liste"
+   },
+   "7528441140724145783": {
+      "message": "Editați etichetele"
+   },
+   "7565795669925550891": {
+      "message": "Trimisă de"
+   },
+   "7579280421767578228": {
+      "message": "Memento pentru o zi oarecare"
+   },
+   "7585826646011739428": {
+      "message": "Editați"
+   },
+   "7624042048123264803": {
+      "message": "Deschideți nota"
+   },
+   "7669846901402551021": {
+      "message": "Astăzi"
+   },
+   "7735981667219692675": {
+      "message": "{resultCount,plural, =1{# rezultat de căutare}few{# rezultate de căutare}other{# de rezultate de căutare}}"
+   },
+   "7819314041543176992": {
+      "message": "Închideți"
+   },
+   "7873060817438017568": {
+      "message": "$2​ · $1​"
+   },
+   "7911416166208830577": {
+      "message": "Ajutor"
+   },
+   "7934833136974560675": {
+      "message": "Încercați"
+   },
+   "8104421162933956065": {
+      "message": "Note"
+   },
+   "8133866583554546341": {
+      "message": "$1​, $2​"
+   },
+   "8149439558305434788": {
+      "message": "$1​, $2​"
+   },
+   "8193677552005249631": {
+      "message": "Descărcări de aplicații"
+   },
+   "819996403327805209": {
+      "message": "Aflați mai multe"
+   },
+   "8229434427096481545": {
+      "message": "Actualizări disponibile"
+   },
+   "824468664656304495": {
+      "message": "Sunteți offline. Este posibil ca unele funcții să nu fie disponibile."
+   },
+   "8342620486324515462": {
+      "message": "Închideți"
+   },
+   "8412733496413412439": {
+      "message": "Offline"
+   },
+   "8422875188929347819": {
+      "message": "Trimitere"
+   },
+   "8506292502710287776": {
+      "message": "Luați note ample? Vom adăuga automat mai mult spațiu când ajungeți în partea de jos."
+   },
+   "8559513397356310933": {
+      "message": "Adăugați elemente noi în partea de jos"
+   },
+   "857379832182429172": {
+      "message": "Activați"
+   },
+   "8602525917014156029": {
+      "message": "Locații"
+   },
+   "8611058223830804795": {
+      "message": "Mutați articolele bifate la sfârșit"
+   },
+   "8663507590720636709": {
+      "message": "$1​ + încă $2​"
+   },
+   "8775097441636640256": {
+      "message": "$2​ – $1​"
+   },
+   "8797656338249040679": {
+      "message": "$2​Instalați extensia Chrome pentru Google Keep$1​ pentru a salva ceea ce vă interesează în Keep cu un singur clic."
+   },
+   "8831459317888986184": {
+      "message": "Ștergeți articolele selectate"
+   },
+   "8903612093856047007": {
+      "message": "Colaboratori"
+   },
+   "8905995985388209337": {
+      "message": "Accept"
+   },
+   "8930959387403789939": {
+      "message": "Memento"
+   },
+   "8990769651805334695": {
+      "message": "Activat"
+   },
+   "900086393693234779": {
+      "message": "Acasă"
+   },
+   "911698676339750373": {
+      "message": "Grup de familie"
+   },
+   "9129734193759025482": {
+      "message": "Mâine"
+   },
+   "9146862513672039744": {
+      "message": "Ștergeți notele din cont"
+   },
+   "9207517187376875555": {
+      "message": "Folosiți Keep în browserul web"
+   },
+   "appDesc": {
+      "description": "App description",
+      "message": "Notați-vă rapid ideile și trimiteți-le prietenilor și familiei."
+   },
+   "appName": {
+      "description": "App name",
+      "message": "Google Keep - notițe și liste"
+   },
+   "shortName": {
+      "description": "App short name",
+      "message": "Google Keep"
+   }
+}

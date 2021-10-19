@@ -1,0 +1,110 @@
+{
+   "appClose": {
+      "description": "",
+      "message": "Cerrar"
+   },
+   "appDescription": {
+      "description": "",
+      "message": "Herramienta simple para la creación de contraseñas fuertes y seguras"
+   },
+   "btnCopyAll": {
+      "description": "",
+      "message": "Copiar todo"
+   },
+   "btnCopyResult": {
+      "description": "",
+      "message": "Copiar al portapapeles"
+   },
+   "btnCopySelected": {
+      "description": "",
+      "message": "Copiar selección"
+   },
+   "btnGenerate": {
+      "description": "",
+      "message": "Generar"
+   },
+   "historyClearList": {
+      "description": "",
+      "message": "Limpiar"
+   },
+   "historyClearListConfirm": {
+      "description": "",
+      "message": "¿Esta seguro?"
+   },
+   "historyClearListConfirmNo": {
+      "description": "",
+      "message": "No"
+   },
+   "historyClearListConfirmYes": {
+      "description": "",
+      "message": "Si"
+   },
+   "historySelectAll": {
+      "description": "",
+      "message": "todas"
+   },
+   "historySelectInvert": {
+      "description": "",
+      "message": "invertir"
+   },
+   "historySelectLabel": {
+      "description": "",
+      "message": "Marcar"
+   },
+   "historySelectNone": {
+      "description": "",
+      "message": "ninguna"
+   },
+   "noItems": {
+      "description": "",
+      "message": "Ningun item encontrado..."
+   },
+   "optLength": {
+      "description": "",
+      "message": "tamaño:"
+   },
+   "optLengthRandom": {
+      "description": "",
+      "message": "aleatorio"
+   },
+   "optUse": {
+      "description": "",
+      "message": "usar:"
+   },
+   "optUseCustom": {
+      "description": "",
+      "message": "Personalizado"
+   },
+   "optUseLowercase": {
+      "description": "",
+      "message": "Minusculas"
+   },
+   "optUseNumber": {
+      "description": "",
+      "message": "Numeros"
+   },
+   "optUseUppercase": {
+      "description": "",
+      "message": "Mayusculas"
+   },
+   "optionsRememberHistory": {
+      "description": "",
+      "message": "Recordar historial de contraseñas"
+   },
+   "rememberPassWarning": {
+      "description": "",
+      "message": "Si usa lo opción de recordar contraseña, no olvide limpiar la lista manualmente para prevenir el hurto de sus contraseñas."
+   },
+   "tabGenerator": {
+      "description": "",
+      "message": "Generador"
+   },
+   "tabHistory": {
+      "description": "",
+      "message": "Historial"
+   },
+   "tabOptions": {
+      "description": "",
+      "message": "Opciones"
+   }
+}

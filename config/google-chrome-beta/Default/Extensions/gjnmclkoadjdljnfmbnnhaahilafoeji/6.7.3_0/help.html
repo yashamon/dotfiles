@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html class="texforgmail">
+<head>
+  <title>Help</title>
+  <link href="style.css" rel="stylesheet" type="text/css" media="all">
+</head>
+
+<body>
+
+  <div class="box">
+    <h2>Overview</h2>
+    <p><b>TeX for Gmail</b> (TFG) allows one to use 
+      <a target="_blank"
+      href="https://en.wikibooks.org/wiki/LaTeX/Mathematics">TeX</a>
+      in emails, both for reading and writing. Any formulas enclosed
+      into <span class="pattern">$...$, \(...\)</span>
+	(for inline math) or
+	 <span class="pattern">\[...\], $$...$$</span>
+      (for displayed math) will be nicely typeset.
+
+    <p>
+      <font color=#cc0000> The formulas can be long but they must be
+  unbroken, with no newlines between the $. Also, there shouldn't be
+  any HTML in the formulas (you can use the button Remove Formatting
+  to remove it).
+      </font></p>
+      
+    </p>
+
+    <h2>Privacy Policy</h2>
+    
+    <p>
+This extension does not collect any information about the users. It
+replaces mathematical formulas in the outgoing messages by links to
+images created and controlled by Codecogs
+<a href="https://www.codecogs.com/latex/eqneditor.php">https://www.codecogs.com/latex/eqneditor.php</a>
+and Wordpress
+<a href="https://wordpress.com">https://wordpress.com</a>.
+    </p>
+
+  <h2>Writing an email</h2>
+
+    <p> You can click on the TeX button to access a menu, or you can
+       use keyboard shortcuts.  You can hide the Compose TeX button in the
+      Options; the shortcuts will still work.
+
+      <img src="compose1s.png" class="img" style="margin:auto; width:76.4%">
+    </p>
+
+  <p><font color=#cc0000> When you are composing a message, make sure
+      you are NOT in "Plain text mode"!
+  </p></font>
+
+  <!--
+    <p><font color=#cc0000> If TFG ever becomes non-responsive, the
+    easiest is to reload the Gmail web page.  That
+    should update the extension to the latest installed version. As
+    the last resort, try clearing the cache.
+    </font>
+    </p>
+    -->
+    
+  <h2>Reading an email</h2>
+
+    <p>You can use either the TeX button or (in Gmail only) the drop
+    down "More" menu for the message you are viewing. Both of these
+    can be hidden or revealed in the Options. 
+      </p>
+
+  <img src="view1s.png" class="img" style="margin:auto; float:left; width:45.6%">
+  <img src="view2s.png" class="img" style="margin:auto; float:right; width:51.3%">
+
+  <p style="clear:both"></p>
+
+
+  
+  <h2>Rich math</h2>
+
+  <p>When <strong>Rich math</strong> is selected, TFG searches for
+  patterns <span class="pattern">$...$, $$...$$, \(...\),
+  \[...\]</span> and replaces <span class="pattern">...</span> with
+  images (as web links) created and hosted by an outside server,
+  Codecogs or WordPress, configurable in the Options.
+  </p>
+
+  <font color=#cc0000>
+    <p>
+	NOTE: When a server is down new images are temporarily not
+	  created. For Codecogs, you can check the current status by
+	  going directly to 
+    <a target="_blank"
+       href="https://www.codecogs.com/latex/eqneditor.php">Codecogs</a>.
+    </p>
+
+    <p>
+      You can switch the image server in the Options. WordPress is much
+      more reliable than Codecogs, but Codecogs can handle more complicated
+      formulas and environments. The formulas with matrices now
+      automatically use Codecogs since WordPress does not render them.
+    </p>
+      </font>
+
+    
+    <p>
+      By default, images are created at the 300% magnification and
+      then downsized. Usually this leads to crisper images
+      but on some displays images may appear fuzzy. You can switch
+      to the 100% magnification in the Options.
+    </p>
+    
+      
+  <h2>Simple math</h2>
+
+  <p>When <strong>Simple math</strong> is selected, TFG searches for patterns
+  <span class="pattern">$...$, $$...$$, \(...\), \[...\]</span> and
+  replaces <span class="pattern">...</span> with HTML, which can
+  handle quite a lot on its own (for example:
+  '&amp;beta;&lt;sup&gt;2&lt;/sup&gt;' gives &beta;<sup>2</sup>).  The
+  resulting formulas do not need any outside image servers and work
+  offline. You can customize the font
+  in Options using any legal CSS,
+  separately for outgoing and incoming messages.
+  </p>
+
+  <p>Note:
+  your addressee may not have the fonts that are installed on your
+  computer, such as STIX or Cambria Math, so they may see your message
+  differently. For this reason you may want to stick to
+  <i>font-style:italic</i> for the outgoing messages when using Simple math.
+  </p>
+
+  <h2>Guess naive TeX</h2>
+
+  <p>Mathematicians frequently write math in email using intuitive
+  naive TeX, e.g.:
+  <span class="pattern">x^10</span>, not necessarily following
+  formal TeX rules and without bothering to enclose it into
+  $...$. This option searches for such patterns and tries to typeset
+  them with HTML using a best guess.
+  </p>
+
+  <h2>Abbreviations</h2>
+
+  <p>TFG knows many common abbreviations such as
+  <ul>
+    <li><strong>\bA</strong> &rarr; \mathbb A, 
+    <li><strong>\bfA</strong> or <strong>\dA</strong> &rarr; \mathbf A,
+    <li><strong>\cA</strong> &rarr; \mathcal A,
+    <li><strong>\fA</strong> &rarr; \mathfrak A,
+    <li><strong>\wA</strong> &rarr; \widetilde A,
+    <li><strong>\oA</strong> &rarr; \overline A,
+    <li><strong>\uA</strong> &rarr; \underline A.
+  </ul>
+  So you are free to use them. Support for custom macros may be added
+  in a future version.
+  </p>
+
+  <h2>Undoing your work</h2>
+
+  <p>You typeset your formula into a nice image and you see that it is
+  a little wrong. How do you go back? Well, you can always use the
+  built-in undo, which is usually Control-Z or Command-Z. You can also click
+  on the image and TFG will offer to change it back into TeX. 
+  
+  <h2>Theorem-like environments</h2>
+
+  <p>\begin{theorem}The equation $x^n+y^n=z^n$ has no solutions in positive integers $x,y,z,n$ with $n\ge3$. \end{}</p>
+
+    <p>produces
+
+    <div style="width=200px; margin: 5px 0.15em; border: 1px solid rgb(234, 234,
+    234); border-radius: 5px; padding: 0.5em 0.7em; display: block;
+    background:#ffffe0; border:1px solid #ffd700;
+    "><strong>Theorem. </strong>The equation 
+	<span style="font-style:
+    italic">x<sup>n</sup>+y<sup>n</sup>=z<sup>n</sup></span> has no 
+    solutions in positive
+    integers <span style="font-style:italic">x,y,z,n</span>
+    with <span style="font-style:italic">n &ge; 3</span>.</div>
+
+  </p>
+
+  <p>Note that '\begin{theorem}...\end{}' should <strong>not</strong> be enclosed in
+$$...$$. On the other hand, the usual math environments such as matrix,
+pmatrix, bmatrix, etc. still work in Rich Math mode if they are
+properly enclosed in $$...$$.
+
+There is an optional argument for the theme: red, blue, green,
+  gray, yellow (default). For example, \begin{theorem}{green}
+... \end{}.
+  </p>
+
+  <h2>Other tips</h2>
+
+  <p>Do not end a formula with a blank space when using single $'s.
+    For example, <span class="pattern">$x^2 $</span> will not TeX. This is
+    done to avoid accidentally texing sentences like <i>Bread is $1 and milk is $2.</i>
+  </p>
+
+  <h2>Troubleshooting</h2>
+    <p>
+      If TFG does not seem to be working, try the following steps:
+      <ul>
+	<li>Are you using Stay Focusd extension or some other
+	extension blocking certain web sites? Well, obviously you need to
+	unblock www.codecogs.com and s0.wp.com.
+	<li>Reload the Gmail page. Has it started working?
+	<li>Clear the cache: Go to Chrome menu &rarr; More Tools
+	&rarr; Clear Browsing Data &rarr; check <i>"Cached images and
+	files"</i> &rarr; click on <i>"Clear Browsing Data"</i>. Now
+	reload the Gmail page. Has it started working?
+	<li>If those steps failed to fix TFG,
+	  <a href="mailto:va.email.tex@gmail.com">email the developer</a>.
+      </ul>
+    </p>
+  
+</div>
+
+</body>
+</html>

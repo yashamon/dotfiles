@@ -1,0 +1,494 @@
+{
+   "1055686627716339120": {
+      "message": "Arsipkan"
+   },
+   "1102717806459547726": {
+      "message": "Muat ulang"
+   },
+   "1122146167985532789": {
+      "message": "kemarin"
+   },
+   "116696227691552491": {
+      "message": "Pilih tempat"
+   },
+   "1171339122262740595": {
+      "message": "Aplikasi Chrome Keep tidak didukung lagi. Anda dapat terus menggunakan Keep dengan membuka keep.google.com."
+   },
+   "1248242541854939846": {
+      "message": "Perbaiki hasil edit yang bentrok"
+   },
+   "125962421212090538": {
+      "message": "Minggu depan"
+   },
+   "1333255388111908292": {
+      "message": "Barang sehari-hari"
+   },
+   "1338300799355131761": {
+      "message": "Catatan tanpa judul"
+   },
+   "1365216822837281424": {
+      "message": "Ekstensi Chrome"
+   },
+   "1377158635423797368": {
+      "message": "Buka label"
+   },
+   "1388712764439031120": {
+      "message": "Buka link"
+   },
+   "1429848477922945853": {
+      "message": "Catatan kosong"
+   },
+   "146276399441370821": {
+      "message": "Buka keep.google.com"
+   },
+   "1512114410402431831": {
+      "message": "Refresh"
+   },
+   "1536087519743707362": {
+      "message": "Tutup"
+   },
+   "1675711464233426777": {
+      "message": "Hari ini"
+   },
+   "1694896269813520248": {
+      "message": "Tambahkan gambar"
+   },
+   "1770899865480106963": {
+      "message": "Perangkat Android"
+   },
+   "1790494039990261456": {
+      "message": "Simpan keduanya"
+   },
+   "1858255237143975969": {
+      "message": "$2​Privasi$1​"
+   },
+   "187077078156858455": {
+      "message": "Catatan audio"
+   },
+   "1963323419655107448": {
+      "message": "Hapus item yang dicentang"
+   },
+   "205445381296663832": {
+      "message": "Upload gagal."
+   },
+   "2159130950882492111": {
+      "message": "Batal"
+   },
+   "2184278444368405837": {
+      "message": "$1​ item"
+   },
+   "2323249770683736002": {
+      "message": "Buat label baru"
+   },
+   "2438741853303074449": {
+      "message": "kali"
+   },
+   "2452145367257933677": {
+      "message": "Urungkan"
+   },
+   "2455647485809380838": {
+      "message": "Kelola pengingat tanpa catatan"
+   },
+   "246828342952819465": {
+      "message": "Catat ide Anda $1​ dari perangkat mana pun"
+   },
+   "2509141182388535183": {
+      "message": "Lihat"
+   },
+   "2542788471536661524": {
+      "message": "Lepaskan gambar di sini"
+   },
+   "2632538140519286364": {
+      "message": "Catatan yang ada di Sampah akan dihapus setelah 7 hari."
+   },
+   "2680303811435018716": {
+      "message": "Tidak dapat menambahkan item lainnya"
+   },
+   "2814354342017225342": {
+      "message": "Tampilkan pratinjau link kaya"
+   },
+   "2930974997943171554": {
+      "message": "Tema gelap dinonaktifkan"
+   },
+   "2971623719720688041": {
+      "message": "Tindakan diurungkan"
+   },
+   "2973306402585941108": {
+      "message": "Pagi"
+   },
+   "2983318659047499045": {
+      "message": "Pengingat"
+   },
+   "2989422642644963524": {
+      "message": "Pengingat disetel untuk $1​"
+   },
+   "3074915509081765994": {
+      "message": "iPhone & iPad"
+   },
+   "3091440425606975088": {
+      "message": "Daftar tanpa judul"
+   },
+   "3121560585545725724": {
+      "message": "$1​, $2​"
+   },
+   "3190546672187601036": {
+      "message": "Malam"
+   },
+   "3249966726137025950": {
+      "message": "Grup Keluarga Kolaborator"
+   },
+   "3258100527833044153": {
+      "message": "Gambar kosong dibuang"
+   },
+   "3378875258397512442": {
+      "message": "Setel pengingat tempat dan waktu di catatan, buat catatan suara, dan selesaikan pekerjaan saat online maupun offline."
+   },
+   "3385831848537487538": {
+      "message": "Perjalanan"
+   },
+   "3418677553313974490": {
+      "message": "Sampah"
+   },
+   "3462556632501534753": {
+      "message": "$2​Lisensi open source$1​"
+   },
+   "3551522853788442530": {
+      "message": "Kembali"
+   },
+   "3571391964903695725": {
+      "message": "Ulangi"
+   },
+   "3571704286086017611": {
+      "message": "Pengingat dihapus"
+   },
+   "3580243353280636963": {
+      "message": "Pilih tanggal & waktu"
+   },
+   "3608521102844050208": {
+      "message": "Pengingat:"
+   },
+   "3714239567487848851": {
+      "message": "Tema gelap diaktifkan"
+   },
+   "3768927257183755959": {
+      "message": "Simpan"
+   },
+   "3823114520994436161": {
+      "message": "Update dengan membuka keep.google.com"
+   },
+   "3852386690131857488": {
+      "message": "Aktifkan berbagi"
+   },
+   "3907816292084809686": {
+      "message": "Tindakan diulangi"
+   },
+   "395680759377627007": {
+      "message": "Buat \"$3​$2​$1​\""
+   },
+   "397098723873502323": {
+      "message": "Selesai"
+   },
+   "3989925953740167133": {
+      "message": "Google Keep ingin menggunakan lokasi Anda untuk menyempurnakan saran tempat pada pengingat lokasi."
+   },
+   "4174786386751618325": {
+      "message": "Catatan foto"
+   },
+   "4191000901158114852": {
+      "message": "Google Keep"
+   },
+   "4343848624651344174": {
+      "message": "Siang/sore"
+   },
+   "4494250072784000771": {
+      "message": "Stilus terdeteksi. Menggeser dengan Sentuhan diaktifkan."
+   },
+   "4514241210910366093": {
+      "message": "Tampilan petak"
+   },
+   "4533605085334699862": {
+      "message": "Kutipan"
+   },
+   "456512308416555173": {
+      "message": "Buku"
+   },
+   "4734349318830134239": {
+      "message": "Berakhir"
+   },
+   "4840513623749850224": {
+      "message": "Film"
+   },
+   "4930506384627295710": {
+      "message": "Setelan"
+   },
+   "4963533275503057654": {
+      "message": "Membuat thumbnail..."
+   },
+   "4974261966265341751": {
+      "message": "Nonaktifkan tema gelap"
+   },
+   "5000971639019912199": {
+      "message": "$2​Persyaratan$1​"
+   },
+   "5259541708332520733": {
+      "message": "Sumber dihapus"
+   },
+   "527438013974545289": {
+      "message": "Tema gelap kini tersedia"
+   },
+   "5275304974990264425": {
+      "message": "Tampilan daftar"
+   },
+   "5403636185480096151": {
+      "message": "Televisi"
+   },
+   "5422660126805186552": {
+      "message": "Nikmati pengalaman membaca yang lebih nyaman. Aktifkan atau nonaktifkan di Setelan."
+   },
+   "546766753072101168": {
+      "message": "Label"
+   },
+   "5510222038351634163": {
+      "message": "Pelajari penghentian Aplikasi Chrome Keep lebih lanjut"
+   },
+   "5570885401952336951": {
+      "message": "Log klien"
+   },
+   "5592884381280360832": {
+      "message": "Oke"
+   },
+   "5601530442010506564": {
+      "message": "Oke"
+   },
+   "5652536812290902558": {
+      "message": "Download Audio"
+   },
+   "5994697604396931641": {
+      "message": "Hapus Semua"
+   },
+   "6049952042443321325": {
+      "message": "Tabel pintasan keyboard"
+   },
+   "6069780031254134657": {
+      "message": "Tandai sebagai selesai"
+   },
+   "6113237889871930608": {
+      "message": "Catatan kosong"
+   },
+   "6176354714840789272": {
+      "message": "Anda juga dapat menyimpan link untuk dibuka di lain waktu dengan&nbsp;$2​Ekstensi Google Keep untuk Chrome$1​."
+   },
+   "6189397065139465013": {
+      "message": "Setiap"
+   },
+   "6225875898439047571": {
+      "message": "Tolak"
+   },
+   "6231442995102088007": {
+      "message": "Yang baru di Google Keep"
+   },
+   "6252259197986158120": {
+      "message": "Kemarin"
+   },
+   "6366376928558090914": {
+      "message": "Makanan"
+   },
+   "6371576811194810854": {
+      "message": "Setelah"
+   },
+   "6402092370576716734": {
+      "message": "Kosongkan Sampah"
+   },
+   "6473102097014191455": {
+      "message": "Catatan bergambar"
+   },
+   "6497197865876438261": {
+      "message": "Musik"
+   },
+   "6510131849363684615": {
+      "message": "Besok"
+   },
+   "6579707685908557993": {
+      "message": "Petang"
+   },
+   "6755327423364814290": {
+      "message": "Buat catatan lebih cepat dengan aplikasi"
+   },
+   "6822520214440117457": {
+      "message": "Kantor"
+   },
+   "689017442055275529": {
+      "message": "Grup Keluarga $1​"
+   },
+   "6982321568096234183": {
+      "message": "Download Audio ($1​)"
+   },
+   "7005745151564974365": {
+      "message": "Pintasan keyboard"
+   },
+   "7102649289752747375": {
+      "message": "Kirim masukan"
+   },
+   "7174409400206281023": {
+      "message": "Ditemukan hasil edit yang bentrok"
+   },
+   "7207109722898253285": {
+      "message": "Simpan yang dipilih"
+   },
+   "7254411458460045711": {
+      "message": "Update gagal, coba lagi nanti. Jika Anda saat ini offline, hubungkan ke internet sebelum mencoba lagi."
+   },
+   "7301081435623917576": {
+      "message": "Setelan Default Pengingat"
+   },
+   "7330497278645626593": {
+      "message": "Coba sekarang"
+   },
+   "7379369644162401367": {
+      "message": "Hapus semua"
+   },
+   "7381817875028728077": {
+      "message": "Tidak"
+   },
+   "7384785369409503695": {
+      "message": "Aktifkan tema gelap"
+   },
+   "7420364754178516134": {
+      "message": "Fitur debug"
+   },
+   "7430680760319628492": {
+      "message": "Tinjau"
+   },
+   "7510155920769316048": {
+      "message": "Catatan dan Daftar"
+   },
+   "7528441140724145783": {
+      "message": "Edit label"
+   },
+   "7565795669925550891": {
+      "message": "Dibagikan dari"
+   },
+   "7579280421767578228": {
+      "message": "Pengingat untuk Suatu Hari Nanti"
+   },
+   "7585826646011739428": {
+      "message": "Edit"
+   },
+   "7624042048123264803": {
+      "message": "Buka catatan"
+   },
+   "7669846901402551021": {
+      "message": "Hari Ini"
+   },
+   "7735981667219692675": {
+      "message": "{resultCount,plural, =1{# hasil penelusuran}other{# hasil penelusuran}}"
+   },
+   "7819314041543176992": {
+      "message": "Tutup"
+   },
+   "7873060817438017568": {
+      "message": "$2​ · $1​"
+   },
+   "7911416166208830577": {
+      "message": "Bantuan"
+   },
+   "7934833136974560675": {
+      "message": "Coba lagi"
+   },
+   "8104421162933956065": {
+      "message": "Catatan"
+   },
+   "8133866583554546341": {
+      "message": "$1​, $2​"
+   },
+   "8149439558305434788": {
+      "message": "$1​, $2​"
+   },
+   "8193677552005249631": {
+      "message": "Aplikasi yang didownload"
+   },
+   "819996403327805209": {
+      "message": "Pelajari lebih lanjut"
+   },
+   "8229434427096481545": {
+      "message": "Pembaruan tersedia"
+   },
+   "824468664656304495": {
+      "message": "Anda offline. Beberapa fungsi mungkin tidak tersedia."
+   },
+   "8342620486324515462": {
+      "message": "Tutup"
+   },
+   "8412733496413412439": {
+      "message": "Offline"
+   },
+   "8422875188929347819": {
+      "message": "Berbagi"
+   },
+   "8506292502710287776": {
+      "message": "Menulis catatan panjang? Kami akan menambahkan lebih banyak ruang secara otomatis saat Anda mencapai bagian bawah catatan."
+   },
+   "8559513397356310933": {
+      "message": "Tambahkan item baru ke bagian bawah"
+   },
+   "857379832182429172": {
+      "message": "Aktifkan"
+   },
+   "8602525917014156029": {
+      "message": "Tempat"
+   },
+   "8611058223830804795": {
+      "message": "Pindahkan item yang dicentang ke bagian bawah"
+   },
+   "8663507590720636709": {
+      "message": "$1​ +$2​ lagi"
+   },
+   "8775097441636640256": {
+      "message": "$2​ - $1​"
+   },
+   "8797656338249040679": {
+      "message": "$2​Instal ekstensi Google Keep untuk Chrome$1​ untuk menyimpan hal-hal penting ke Keep dengan sekali klik."
+   },
+   "8831459317888986184": {
+      "message": "Hapus yang dipilih"
+   },
+   "8903612093856047007": {
+      "message": "Kolaborator"
+   },
+   "8905995985388209337": {
+      "message": "Terima"
+   },
+   "8930959387403789939": {
+      "message": "Pengingat"
+   },
+   "8990769651805334695": {
+      "message": "Pada"
+   },
+   "900086393693234779": {
+      "message": "Rumah"
+   },
+   "911698676339750373": {
+      "message": "Grup Keluarga"
+   },
+   "9129734193759025482": {
+      "message": "Besok"
+   },
+   "9146862513672039744": {
+      "message": "Hapus total akun"
+   },
+   "9207517187376875555": {
+      "message": "Gunakan Keep di browser web Anda"
+   },
+   "appDesc": {
+      "description": "App description",
+      "message": "Dengan cepat mencatat isi pikiran dan membagikannya kepada teman dan keluarga."
+   },
+   "appName": {
+      "description": "App name",
+      "message": "Google Keep - catatan dan daftar"
+   },
+   "shortName": {
+      "description": "App short name",
+      "message": "Google Keep"
+   }
+}

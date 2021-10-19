@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title>Strong Password Generator</title>
+		<link rel="stylesheet" type="text/css" href="../css/style.css" />
+		<script type="text/javascript" src="../js/jquery.js"></script>
+		<script type="text/javascript" src="../js/control.js"></script>
+	</head>
+	<body>
+		<a href="#close" id="appClose"></a>
+		<div id="appMain">
+			<div id="appTabs">
+				<a class="tab selected" id="tabGenerator" href="#generator"></a>
+				<a class="tab" id="tabHistory" href="#history"></a>
+				<a class="tab" id="tabOptions" href="#options"><span></span></a>
+			</div>
+			<div id="appContents">
+				<div class="content selected" id="contentGenerator">
+					<table id="tblOptions">
+						<tr>
+							<td class="label" id="optUse"></td>
+							<td class="option">
+								<input type="checkbox" name="optionLowercase" id="optionLowercase" /><label for="optionLowercase" id="optUseLowercase"></label><br />
+								<input type="checkbox" name="optionUppercase" id="optionUppercase" /><label for="optionUppercase" id="optUseUppercase"></label><br />
+								<input type="checkbox" name="optionNumber" id="optionNumber" /><label for="optionNumber" id="optUseNumber"></label><br />
+								<input type="checkbox" name="optionCustom" id="optionCustom" /><label for="optionCustom" id="optUseCustom"></label><br />
+								<input type="text" name="optionCustomBox" id="optionCustomBox" value="" />
+							</td>
+						</tr>
+						<tr>
+							<td class="label" id="optLength"></td>
+							<td class="option">
+								<div id="optionLengthWrapper">
+									<input type="text" name="optionLength" id="optionLength" value="" />
+									<a href="#" id="optionLengthUp"></a>
+									<a href="#" id="optionLengthDown"></a>
+								</div>
+								<input type="checkbox" name="optionLengthRandom" id="optionLengthRandom" /><label for="optionLengthRandom" id="optLengthRandom"></label><br />
+							</td>
+						</tr>
+					</table>
+					<a href="#" id="btnGenerate" class="button"></a>
+					<div id="resultWrapper">
+						<div id="result"></div>
+						<div id="resultContainer"></div>
+						<a href="" id="btnCopyResult" class="button"><img src="../img/btnCopy.png" alt="" /></a>
+					</div>
+				</div>
+				<div class="content" id="contentHistory">
+					<div id="historyWrapper">
+						<div id="historyListWrapper"><div class="noItems"></div></div>
+						<div id="historySelectionWrapper"><span id="historySelectLabel"></span>: <a href="#select-all" id="historySelectAll"></a>, <a href="#select-none" id="historySelectNone"></a>, <a href="#select-invert" id="historySelectInvert"></a><a href="#clear-list" id="historyClearList"></a></div>
+						<div id="historyClearConfirmWrapper">
+							<div id="historyClearConfirmShade"></div>
+							<div id="historyClearConfirmBox">
+								<div id="historyClearConfirmMessage"></div>
+								<div id="historyClearConfirmButtons">
+									<a href="#" id="btnClearYes" class="button"></a>
+									<a href="#" id="btnClearNo" class="button"></a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div id="historyCopyWrapper">
+						<a href="#" id="btnCopySelected" class="button"></a>
+						<a href="#" id="btnCopyAll" class="button"></a>
+					</div>
+				</div>
+				<div class="content" id="contentOptions">
+					<input type="checkbox" name="optionsRememberPasswords" id="optionsRememberPasswords" /><label for="optionsRememberPasswords" id="optionsRememberPasswordsLabel"></label>
+					<div class="infoBox" id="rememberPassWarning"></div>
+				</div>
+				<div id="dummy">
+					<textarea name="copyField" id="copyField"></textarea>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

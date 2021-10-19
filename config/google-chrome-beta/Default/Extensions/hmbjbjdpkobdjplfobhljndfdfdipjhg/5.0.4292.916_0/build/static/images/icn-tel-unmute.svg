@@ -1,0 +1,7 @@
+<svg width="24" height="24" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path fill-rule="evenodd" clip-rule="evenodd" d="M8.921 12.654c-.418-.582-.78-1.21-1.075-1.875a1.55 1.55 0 01.127-1.488l.817-1.226c.463-.695.71-1.51.71-2.345v-.606l-.001-.204a3 3 0 00-2.91-2.909L6.387 2H5a3 3 0 00-3 3 16.93 16.93 0 003.828 10.748l3.093-3.094zm-.669 5.518l3.094-3.093c.582.418 1.21.78 1.875 1.075a1.55 1.55 0 001.488-.127l1.226-.817a4.226 4.226 0 012.345-.71h.606l.204.001a3 3 0 012.909 2.91l.001.203V19a3 3 0 01-3 3 16.93 16.93 0 01-10.748-3.828z" fill="#fff" fill-opacity=".62"/>
+  <path d="M22 2L1 23" stroke="#FF5C5C" stroke-width="1.5" stroke-linecap="round"/>
+  <zoom style="hover" value="|:#CCFFFFFF" hc_value="|:@kHCCText|@kHCCHyperlink:" />
+  <zoom style="*" hc_value="|:@kHCCText|@kHCCHyperlink:" />
+  <zoom style="no_hc" value="|:9eFFFFFF"/>
+</svg>

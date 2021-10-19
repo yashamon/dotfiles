@@ -1,0 +1,1 @@
+body,html{height:100%;overflow:hidden;background:#FFF;font-family:Arial}.mainView{position:absolute;height:100%;width:100%}.sidePanel{width:100%;height:calc(100% - 30px)}.chat-common .chat-body,.sidePanel .chatPanel{height:100%}.chat-common .dl-chatPanel{height:calc(100% - 100px);overflow-x:hidden;overflow-y:auto}

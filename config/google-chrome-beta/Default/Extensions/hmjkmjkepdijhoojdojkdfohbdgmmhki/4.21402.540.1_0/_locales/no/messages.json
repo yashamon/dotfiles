@@ -1,0 +1,494 @@
+{
+  "1055686627716339120": {
+    "message": "Arkivér"
+  },
+  "1102717806459547726": {
+    "message": "Last inn dataene på nytt"
+  },
+  "1122146167985532789": {
+    "message": "i går"
+  },
+  "116696227691552491": {
+    "message": "Velg sted"
+  },
+  "1171339122262740595": {
+    "message": "Keep-appen for Chrome støttes ikke lenger Du kan fortsette å bruke Keep ved å gå til keep.google.com."
+  },
+  "1248242541854939846": {
+    "message": "Korriger motstridende endringer"
+  },
+  "125962421212090538": {
+    "message": "Neste uke"
+  },
+  "1333255388111908292": {
+    "message": "Dagligvarer"
+  },
+  "1338300799355131761": {
+    "message": "Notat uten navn"
+  },
+  "1365216822837281424": {
+    "message": "Chrome-utvidelse"
+  },
+  "1377158635423797368": {
+    "message": "Gå til etiketten"
+  },
+  "1388712764439031120": {
+    "message": "Åpne linken"
+  },
+  "1429848477922945853": {
+    "message": "Tomt notat"
+  },
+  "146276399441370821": {
+    "message": "Åpne keep.google.com"
+  },
+  "1512114410402431831": {
+    "message": "Last inn på nytt"
+  },
+  "1536087519743707362": {
+    "message": "Lukk"
+  },
+  "1675711464233426777": {
+    "message": "Senere i dag"
+  },
+  "1694896269813520248": {
+    "message": "Legg til en illustrasjon"
+  },
+  "1770899865480106963": {
+    "message": "Android-enheter"
+  },
+  "1790494039990261456": {
+    "message": "Behold begge"
+  },
+  "1858255237143975969": {
+    "message": "$2​Personvern$1​"
+  },
+  "187077078156858455": {
+    "message": "Lydnotat"
+  },
+  "1963323419655107448": {
+    "message": "Slett avmerkede elementer"
+  },
+  "205445381296663832": {
+    "message": "Opplastingen mislyktes."
+  },
+  "2159130950882492111": {
+    "message": "Avbryt"
+  },
+  "2184278444368405837": {
+    "message": "$1​ elementer"
+  },
+  "2323249770683736002": {
+    "message": "Opprett ny etikett"
+  },
+  "2438741853303074449": {
+    "message": "ganger"
+  },
+  "2452145367257933677": {
+    "message": "Angre"
+  },
+  "2455647485809380838": {
+    "message": "Administrer påminnelser uten notater"
+  },
+  "246828342952819465": {
+    "message": "Lagre tanker og ideer $1​ via en hvilken som helst enhet"
+  },
+  "2509141182388535183": {
+    "message": "Se"
+  },
+  "2542788471536661524": {
+    "message": "Slipp bilder her"
+  },
+  "2632538140519286364": {
+    "message": "Notater i papirkurven slettes etter sju dager."
+  },
+  "2680303811435018716": {
+    "message": "Kan ikke legge til flere elementer"
+  },
+  "2814354342017225342": {
+    "message": "Vis forhåndsvisninger for linker til rikt innhold"
+  },
+  "2930974997943171554": {
+    "message": "Mørkt tema er slått av"
+  },
+  "2971623719720688041": {
+    "message": "Handlingen er angret"
+  },
+  "2973306402585941108": {
+    "message": "Morgen"
+  },
+  "2983318659047499045": {
+    "message": "Påminnelser"
+  },
+  "2989422642644963524": {
+    "message": "Påminnelsen er angitt for $1​"
+  },
+  "3074915509081765994": {
+    "message": "iPhone og iPad"
+  },
+  "3091440425606975088": {
+    "message": "Liste uten tittel"
+  },
+  "3121560585545725724": {
+    "message": "$1​ $2​"
+  },
+  "3190546672187601036": {
+    "message": "Natt"
+  },
+  "3249966726137025950": {
+    "message": "En samarbeidspartners familiegruppe"
+  },
+  "3258100527833044153": {
+    "message": "Illustrasjonen var tom og ble forkastet"
+  },
+  "3378875258397512442": {
+    "message": "Angi påminnelser på notater for steder og tidspunkt, ta talenotater, og jobb både med eller uten Internett-tilgang."
+  },
+  "3385831848537487538": {
+    "message": "Reise"
+  },
+  "3418677553313974490": {
+    "message": "Papirkurv"
+  },
+  "3462556632501534753": {
+    "message": "$2​Lisenser for åpen kildekode$1​"
+  },
+  "3551522853788442530": {
+    "message": "Gå tilbake"
+  },
+  "3571391964903695725": {
+    "message": "Gjenta"
+  },
+  "3571704286086017611": {
+    "message": "Påminnelsen er slettet"
+  },
+  "3580243353280636963": {
+    "message": "Velg dato og tid"
+  },
+  "3608521102844050208": {
+    "message": "Påminnelse:"
+  },
+  "3714239567487848851": {
+    "message": "Mørkt tema er slått på"
+  },
+  "3768927257183755959": {
+    "message": "Lagre"
+  },
+  "3823114520994436161": {
+    "message": "Oppdater til keep.google.com"
+  },
+  "3852386690131857488": {
+    "message": "Slå på deling"
+  },
+  "3907816292084809686": {
+    "message": "Handlingen ble utført likevel"
+  },
+  "395680759377627007": {
+    "message": "Opprett «$3​$2​$1​»"
+  },
+  "397098723873502323": {
+    "message": "Ferdig"
+  },
+  "3989925953740167133": {
+    "message": "Google Keep ønsker å bruke posisjonen din til å gi deg bedre forslag til steder i forbindelse med stedspåminnelser."
+  },
+  "4174786386751618325": {
+    "message": "Bildenotat"
+  },
+  "4191000901158114852": {
+    "message": "Google Keep"
+  },
+  "4343848624651344174": {
+    "message": "Ettermiddag"
+  },
+  "4494250072784000771": {
+    "message": "En pekepenn ble oppdaget. Panorering med berøring er slått på."
+  },
+  "4514241210910366093": {
+    "message": "Rutenettvisning"
+  },
+  "4533605085334699862": {
+    "message": "Sitater"
+  },
+  "456512308416555173": {
+    "message": "Bøker"
+  },
+  "4734349318830134239": {
+    "message": "Avsluttes"
+  },
+  "4840513623749850224": {
+    "message": "Filmer"
+  },
+  "4930506384627295710": {
+    "message": "Innstillinger"
+  },
+  "4963533275503057654": {
+    "message": "Oppretter miniatyrbilde …"
+  },
+  "4974261966265341751": {
+    "message": "Slå av mørkt tema"
+  },
+  "5000971639019912199": {
+    "message": "$2​Vilkår$1​"
+  },
+  "5259541708332520733": {
+    "message": "Kilden er fjernet"
+  },
+  "527438013974545289": {
+    "message": "Det mørke temaet er her"
+  },
+  "5275304974990264425": {
+    "message": "Listevisning"
+  },
+  "5403636185480096151": {
+    "message": "TV"
+  },
+  "5422660126805186552": {
+    "message": "Få en mer behagelig leseopplevelse. Slå det på eller av i Innstillinger."
+  },
+  "546766753072101168": {
+    "message": "Etiketter"
+  },
+  "5510222038351634163": {
+    "message": "Finn ut mer om avviklingen av Keep-appen for Chrome"
+  },
+  "5570885401952336951": {
+    "message": "Klientlogg"
+  },
+  "5592884381280360832": {
+    "message": "Greit"
+  },
+  "5601530442010506564": {
+    "message": "Greit"
+  },
+  "5652536812290902558": {
+    "message": "Last ned lyd"
+  },
+  "5994697604396931641": {
+    "message": "Fjern alle"
+  },
+  "6049952042443321325": {
+    "message": "Tabell med hurtigtaster"
+  },
+  "6069780031254134657": {
+    "message": "Merk som ferdig"
+  },
+  "6113237889871930608": {
+    "message": "Tomt notat"
+  },
+  "6176354714840789272": {
+    "message": "Du kan også lagre linker til senere bruk ved hjelp av $2​Google Keep-utvidelsen for Chrome$1​."
+  },
+  "6189397065139465013": {
+    "message": "Hver(t)"
+  },
+  "6225875898439047571": {
+    "message": "Avvis"
+  },
+  "6231442995102088007": {
+    "message": "Nytt i Google Keep"
+  },
+  "6252259197986158120": {
+    "message": "I går"
+  },
+  "6366376928558090914": {
+    "message": "Mat"
+  },
+  "6371576811194810854": {
+    "message": "Etter"
+  },
+  "6402092370576716734": {
+    "message": "Tøm papirkurven"
+  },
+  "6473102097014191455": {
+    "message": "Tegnet notat"
+  },
+  "6497197865876438261": {
+    "message": "Musikk"
+  },
+  "6510131849363684615": {
+    "message": "I morgen"
+  },
+  "6579707685908557993": {
+    "message": "Kveld"
+  },
+  "6755327423364814290": {
+    "message": "Ta notater raskere med appen"
+  },
+  "6822520214440117457": {
+    "message": "Jobb"
+  },
+  "689017442055275529": {
+    "message": "$1​ sin familiegruppe"
+  },
+  "6982321568096234183": {
+    "message": "Last ned lyd ($1​)"
+  },
+  "7005745151564974365": {
+    "message": "Hurtigtaster"
+  },
+  "7102649289752747375": {
+    "message": "Send tilbakemelding"
+  },
+  "7174409400206281023": {
+    "message": "Motstridende endringer er oppdaget"
+  },
+  "7207109722898253285": {
+    "message": "Behold den valgte"
+  },
+  "7254411458460045711": {
+    "message": "Oppdateringen mislyktes. Prøv igjen senere. Hvis du er uten nett for øyeblikket, må du koble til internett før du prøver igjen."
+  },
+  "7301081435623917576": {
+    "message": "Standardinnstillinger for påminnelser"
+  },
+  "7330497278645626593": {
+    "message": "Prøv appen"
+  },
+  "7379369644162401367": {
+    "message": "Fjern dem"
+  },
+  "7381817875028728077": {
+    "message": "Nei takk"
+  },
+  "7384785369409503695": {
+    "message": "Slå på mørkt tema"
+  },
+  "7420364754178516134": {
+    "message": "Feilsøkingsverktøy"
+  },
+  "7430680760319628492": {
+    "message": "Gjennomgå"
+  },
+  "7510155920769316048": {
+    "message": "Notater og lister"
+  },
+  "7528441140724145783": {
+    "message": "Endre etiketter"
+  },
+  "7565795669925550891": {
+    "message": "Delt fra"
+  },
+  "7579280421767578228": {
+    "message": "Påminnelse uten tidsangivelse"
+  },
+  "7585826646011739428": {
+    "message": "Endre"
+  },
+  "7624042048123264803": {
+    "message": "Åpne notat"
+  },
+  "7669846901402551021": {
+    "message": "I dag"
+  },
+  "7735981667219692675": {
+    "message": "{resultCount,plural, =1{# søkeresultat}other{# søkeresultater}}"
+  },
+  "7819314041543176992": {
+    "message": "Lukk"
+  },
+  "7873060817438017568": {
+    "message": "$2​ · $1​"
+  },
+  "7911416166208830577": {
+    "message": "Hjelp"
+  },
+  "7934833136974560675": {
+    "message": "Prøv på nytt"
+  },
+  "8104421162933956065": {
+    "message": "Notater"
+  },
+  "8133866583554546341": {
+    "message": "$1​, $2​"
+  },
+  "8149439558305434788": {
+    "message": "$1​ kl. $2​"
+  },
+  "8193677552005249631": {
+    "message": "Appnedlastinger"
+  },
+  "819996403327805209": {
+    "message": "Finn ut mer"
+  },
+  "8229434427096481545": {
+    "message": "Det finnes oppdateringer"
+  },
+  "824468664656304495": {
+    "message": "Du er uten nett. Noen av funksjonene kan være utilgjengelige."
+  },
+  "8342620486324515462": {
+    "message": "Fjern"
+  },
+  "8412733496413412439": {
+    "message": "Uten nett"
+  },
+  "8422875188929347819": {
+    "message": "Deling"
+  },
+  "8506292502710287776": {
+    "message": "Skriver du lange notater? Vi legger til mer plass automatisk etter hvert som du kommer til bunnen av lerretet."
+  },
+  "8559513397356310933": {
+    "message": "Legg til nye elementer nederst"
+  },
+  "857379832182429172": {
+    "message": "Slå på funksjonen"
+  },
+  "8602525917014156029": {
+    "message": "Steder"
+  },
+  "8611058223830804795": {
+    "message": "Flytt avmerkede elementer til bunnen"
+  },
+  "8663507590720636709": {
+    "message": "$1​ +$2​ andre"
+  },
+  "8775097441636640256": {
+    "message": "$2​ – $1​"
+  },
+  "8797656338249040679": {
+    "message": "$2​Installer Google Keep-utvidelsen for Chrome$1​, så kan du lagre ting i Keep med ett klikk."
+  },
+  "8831459317888986184": {
+    "message": "Slett valgte elementer"
+  },
+  "8903612093856047007": {
+    "message": "Samarbeidspartnere"
+  },
+  "8905995985388209337": {
+    "message": "Godta"
+  },
+  "8930959387403789939": {
+    "message": "Påminnelse"
+  },
+  "8990769651805334695": {
+    "message": "På"
+  },
+  "900086393693234779": {
+    "message": "Hjemme"
+  },
+  "911698676339750373": {
+    "message": "Familiegruppen"
+  },
+  "9129734193759025482": {
+    "message": "I morgen"
+  },
+  "9146862513672039744": {
+    "message": "Visk ut kontoen"
+  },
+  "9207517187376875555": {
+    "message": "Bruk Keep i nettleseren"
+  },
+  "appDesc": {
+    "description": "App description",
+    "message": "Skriv ned tankene dine og del dem med venner og familie."
+  },
+  "appName": {
+    "description": "App name",
+    "message": "Google Keep – notater og lister"
+  },
+  "shortName": {
+    "description": "App short name",
+    "message": "Google Keep"
+  }
+}

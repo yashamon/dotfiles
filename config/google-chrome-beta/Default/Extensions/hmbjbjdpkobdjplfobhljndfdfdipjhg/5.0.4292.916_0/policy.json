@@ -1,0 +1,96 @@
+{
+  "type": "object",
+
+  "properties": {
+  
+    "JoinMeetingOnly": {
+      "title": "Enable join meeting only mode.",
+      "description": "If set to true then app will not have sign in button, users can only join a meeting.",
+      "type": "boolean"
+    },
+
+    "EnableSSLVerification": {
+      "title": "Enable SSL certificate verification (for Zoom Rooms app).",
+      "description": "If set to true then app will stop for invalid certificate, default is false.",
+      "type": "boolean"
+    },
+
+    "BlockUntrustedSSLCert": {
+      "title": "Block untrusted SSL certificate (for Zoom Client app).",
+      "description": "If set to true then app will stop for invalid certificate. If set to false then user will be prompted to trust the certificate or not. If unset default to false.",
+      "type": "boolean"
+    },
+
+    "DisableGoogleLogin": {
+      "title": "Disable Google login.",
+      "description": "Set to true: no login with Google. If unset default to false.",
+      "type": "boolean"
+    },
+
+    "DisableFacebookLogin": {
+      "title": "Disable Facebook login.",
+      "description": "Set to true: no login with Facebook. If unset default to false.",
+      "type": "boolean"
+    },
+
+    "DisableLoginWithSSO": {
+      "title": "Disable SSO login.",
+      "description": "Set to true: no login with SSO. If unset default to false.",
+      "type": "boolean"
+    },
+
+    "DisableLoginWithEmail": {
+      "title": "DisableLoginWithEmail",
+      "description": "DisableLoginWithEmail. If unset default to false.",
+      "type": "boolean"
+    },
+
+    "ForceLoginWithSSO": {
+      "title": "ForceLoginWithSSO.",
+      "description": "ForceLoginWithSSO. If unset default to false.",
+      "type": "boolean"
+    },
+
+    "SetSSOURL": {
+      "title": "SetSSOURL.",
+      "description": "SetSSOURL. If unset default to empty",
+      "type": "string"
+    },
+
+    "ZREnableDailyReboot": {
+      "title": "Enable daily reboot for Zoom Rooms",
+      "description": "Set to true: automatically reboot ZR daily (in kiosk mode, randomly in 2AM - 4AM). If unset default to false.",
+      "type": "boolean"
+    },
+
+    "SSOLoginRenameDisabled": {
+      "title": "Disable renaming for SSO users",
+      "description": "Set to true: don't allow to rename if login with SSO. If unset default to false.",
+      "type": "boolean"
+    },
+
+    "GoogleLoginRenameDisabled": {
+      "title": "Disable renaming for Google users",
+      "description": "Set to true: don't allow to rename if login with Google. If unset default to false.",
+      "type": "boolean"
+    },
+
+    "SetAccountIDsRestrictedToJoin": {
+      "title": "SetAccountIDsRestrictedToJoin",
+      "description": "Set account IDs that client is restricted to join a meeting hosted by specific Account ID numbers.",
+      "type": "string"
+    },
+
+    "BandwidthLimitUp": {
+      "title": "BandwidthLimitUp (unit: Kbps)",
+      "description": "Allows the restriction of uplink traffic bandwidth from the Zoom Client.",
+      "type": "string"
+    },
+
+    "BandwidthLimitDown": {
+      "title": "BandwidthLimitDown (unit: Kbps)",
+      "description": "Allows the restriction of downlink traffic bandwidth from the Zoom Client.",
+      "type": "string"
+    }
+  }
+}

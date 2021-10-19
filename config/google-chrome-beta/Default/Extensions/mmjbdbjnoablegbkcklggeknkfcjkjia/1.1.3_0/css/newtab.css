@@ -1,0 +1,142 @@
+.navbar div.container-fluid {
+	padding-left: 0;
+	padding-right: 0;
+}
+
+.navbar-nav > li > a, .navbar-nav > li > div, .navbar-brand {
+  padding-top: 5px!important;
+  padding-bottom: 0!important;
+  padding-right: 8px;
+  padding-left: 5px;
+  height: 30px;
+}
+
+.navbar {
+	min-height: 30px!important;
+}
+
+.navbar-toggle {
+  padding: 0 0;
+  margin-top: 7px;
+  margin-bottom: 0;
+}
+
+.collapse.navbar-collapse {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.navbar.navbar-default {
+	font-size: 12px;
+}
+
+#menu-items li a, #menu-items li div {
+  max-width: 130px;
+}
+
+#menu-items li a, #menu-items li div {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  /*position: absolute;
+  left: 0;
+  right: 0;*/
+}
+
+/*#menu-items li:before {
+  content: '';
+  display: inline-block;
+}*/
+
+#menu-items li i {
+	display: inline-block;
+  line-height: 1;
+  width: 16px;
+  vertical-align: middle;
+  height: 16px;
+  margin-top: 1px;
+  margin-right: 6px;
+  float:left;
+}
+
+.folder {
+  margin: 0;
+  cursor: pointer;
+}
+
+.folder span {
+  padding-top: 2px;
+  display: inline-block;
+}
+
+
+.header {
+  margin: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.header .logo {
+  height: 64px;
+}
+
+.header .logo h2 {
+  padding-top: 8px;
+}
+
+
+.icon {
+  width: 100px;
+  height: 100px;
+  margin: 0 auto;
+  margin-bottom: 10px;
+  background-size: cover;
+  /*border: solid 1px black;*/
+}
+
+.options {
+  background-image: url(../images/options.png);
+}
+
+.store {
+  background-image: url(../images/chrome-web-store.png);
+}
+
+.col-centered {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.container .row span {
+  cursor: pointer;
+}
+
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  background-color: #f5f5f5;
+}
+
+/*.footer div {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin: 0;
+  width: 100%;
+}
+
+.footer div div {
+  height: 100%;
+  padding-right: 40px;
+  background: url(../images/chrome-web-store.png) center right no-repeat;
+  background-size: 30px 30px;
+}
+
+.footer .text-muted {
+  padding: 20px 0;
+  margin: 0;
+  text-align: right;
+}*/

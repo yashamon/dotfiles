@@ -1,0 +1,494 @@
+{
+   "1055686627716339120": {
+      "message": "Archiwum"
+   },
+   "1102717806459547726": {
+      "message": "Odśwież"
+   },
+   "1122146167985532789": {
+      "message": "wczoraj"
+   },
+   "116696227691552491": {
+      "message": "Wybierz miejsce"
+   },
+   "1171339122262740595": {
+      "message": "Aplikacja Chrome Keep nie jest już obsługiwana. Nadal możesz korzystać z Keep na stronie keep.google.com."
+   },
+   "1248242541854939846": {
+      "message": "Rozwiąż konflikt zmian"
+   },
+   "125962421212090538": {
+      "message": "Następny tydzień"
+   },
+   "1333255388111908292": {
+      "message": "Artykuły spożywcze"
+   },
+   "1338300799355131761": {
+      "message": "Notatka bez tytułu"
+   },
+   "1365216822837281424": {
+      "message": "Rozszerzenie do Chrome"
+   },
+   "1377158635423797368": {
+      "message": "Przejdź do etykiety"
+   },
+   "1388712764439031120": {
+      "message": "Otwórz link"
+   },
+   "1429848477922945853": {
+      "message": "Pusta notatka"
+   },
+   "146276399441370821": {
+      "message": "Wejdź na keep.google.com"
+   },
+   "1512114410402431831": {
+      "message": "Odśwież"
+   },
+   "1536087519743707362": {
+      "message": "Zamknij"
+   },
+   "1675711464233426777": {
+      "message": "Później dzisiaj"
+   },
+   "1694896269813520248": {
+      "message": "Dodaj rysunek"
+   },
+   "1770899865480106963": {
+      "message": "Urządzenia z Androidem"
+   },
+   "1790494039990261456": {
+      "message": "Zachowaj obie"
+   },
+   "1858255237143975969": {
+      "message": "$2​Prywatność$1​"
+   },
+   "187077078156858455": {
+      "message": "Notatka głosowa"
+   },
+   "1963323419655107448": {
+      "message": "Usuń zaznaczone elementy"
+   },
+   "205445381296663832": {
+      "message": "Nie udało się przesłać."
+   },
+   "2159130950882492111": {
+      "message": "Anuluj"
+   },
+   "2184278444368405837": {
+      "message": "Elementy: $1​"
+   },
+   "2323249770683736002": {
+      "message": "Utwórz nową etykietę"
+   },
+   "2438741853303074449": {
+      "message": "wystąpieniach"
+   },
+   "2452145367257933677": {
+      "message": "Cofnij"
+   },
+   "2455647485809380838": {
+      "message": "Zarządzaj przypomnieniami bez notatek"
+   },
+   "246828342952819465": {
+      "message": "Zanotuj swoje myśli $1​ na dowolnym urządzeniu"
+   },
+   "2509141182388535183": {
+      "message": "Wyświetl"
+   },
+   "2542788471536661524": {
+      "message": "Upuść obrazy tutaj"
+   },
+   "2632538140519286364": {
+      "message": "Notatki w koszu są usuwane po siedmiu dniach."
+   },
+   "2680303811435018716": {
+      "message": "Nie można dodać kolejnych elementów"
+   },
+   "2814354342017225342": {
+      "message": "Wyświetlaj sformatowany podgląd linków"
+   },
+   "2930974997943171554": {
+      "message": "Ciemny motyw wyłączony"
+   },
+   "2971623719720688041": {
+      "message": "Czynność cofnięta"
+   },
+   "2973306402585941108": {
+      "message": "Rano"
+   },
+   "2983318659047499045": {
+      "message": "Przypomnienia"
+   },
+   "2989422642644963524": {
+      "message": "Przypomnienie ustawione na $1​"
+   },
+   "3074915509081765994": {
+      "message": "iPhone i iPad"
+   },
+   "3091440425606975088": {
+      "message": "Lista bez tytułu"
+   },
+   "3121560585545725724": {
+      "message": "$1​, $2​"
+   },
+   "3190546672187601036": {
+      "message": "Wieczór"
+   },
+   "3249966726137025950": {
+      "message": "Rodzina współpracownika"
+   },
+   "3258100527833044153": {
+      "message": "Pusty rysunek został usunięty"
+   },
+   "3378875258397512442": {
+      "message": "Ustawiaj przypomnienia w notatkach dotyczące miejsc i godzin, rób notatki głosowe i pracuj online lub offline."
+   },
+   "3385831848537487538": {
+      "message": "Podróże"
+   },
+   "3418677553313974490": {
+      "message": "Kosz"
+   },
+   "3462556632501534753": {
+      "message": "$2​Licencje typu open source$1​"
+   },
+   "3551522853788442530": {
+      "message": "Wstecz"
+   },
+   "3571391964903695725": {
+      "message": "Powtarzaj"
+   },
+   "3571704286086017611": {
+      "message": "Przypomnienie usunięte"
+   },
+   "3580243353280636963": {
+      "message": "Wybierz datę i godzinę"
+   },
+   "3608521102844050208": {
+      "message": "Przypomnienie:"
+   },
+   "3714239567487848851": {
+      "message": "Ciemny motyw włączony"
+   },
+   "3768927257183755959": {
+      "message": "Zapisz"
+   },
+   "3823114520994436161": {
+      "message": "Zaktualizuj do keep.google.com"
+   },
+   "3852386690131857488": {
+      "message": "Włącz udostępnianie"
+   },
+   "3907816292084809686": {
+      "message": "Czynność wykonana ponownie"
+   },
+   "395680759377627007": {
+      "message": "Utwórz etykietę „$3​$2​$1​”"
+   },
+   "397098723873502323": {
+      "message": "Gotowe"
+   },
+   "3989925953740167133": {
+      "message": "Google Keep chce korzystać z informacji o lokalizacji, by pokazywać w przypomnieniach dokładniejsze propozycje miejsc."
+   },
+   "4174786386751618325": {
+      "message": "Notatka zdjęciowa"
+   },
+   "4191000901158114852": {
+      "message": "Google Keep"
+   },
+   "4343848624651344174": {
+      "message": "Popołudnie"
+   },
+   "4494250072784000771": {
+      "message": "Wykryto rysik i włączono przesuwanie palcem."
+   },
+   "4514241210910366093": {
+      "message": "Widok siatki"
+   },
+   "4533605085334699862": {
+      "message": "Cytaty"
+   },
+   "456512308416555173": {
+      "message": "Książki"
+   },
+   "4734349318830134239": {
+      "message": "Zakończenie"
+   },
+   "4840513623749850224": {
+      "message": "Filmy"
+   },
+   "4930506384627295710": {
+      "message": "Ustawienia"
+   },
+   "4963533275503057654": {
+      "message": "Tworzę miniaturę..."
+   },
+   "4974261966265341751": {
+      "message": "Wyłącz ciemny motyw"
+   },
+   "5000971639019912199": {
+      "message": "$2​Warunki$1​"
+   },
+   "5259541708332520733": {
+      "message": "Źródło zostało usunięte"
+   },
+   "527438013974545289": {
+      "message": "Ciemny motyw jest już dostępny"
+   },
+   "5275304974990264425": {
+      "message": "Widok listy"
+   },
+   "5403636185480096151": {
+      "message": "Telewizja"
+   },
+   "5422660126805186552": {
+      "message": "Nie męcz oczu. Tę funkcję możesz włączyć i wyłączyć w ustawieniach."
+   },
+   "546766753072101168": {
+      "message": "Etykiety"
+   },
+   "5510222038351634163": {
+      "message": "Dowiedz się więcej o wycofaniu aplikacji Chrome Keep"
+   },
+   "5570885401952336951": {
+      "message": "Dziennik klienta"
+   },
+   "5592884381280360832": {
+      "message": "OK"
+   },
+   "5601530442010506564": {
+      "message": "OK"
+   },
+   "5652536812290902558": {
+      "message": "Pobierz dźwięk"
+   },
+   "5994697604396931641": {
+      "message": "Usuń wszystkie"
+   },
+   "6049952042443321325": {
+      "message": "Tabela skrótów klawiszowych"
+   },
+   "6069780031254134657": {
+      "message": "Oznacz jako wykonane"
+   },
+   "6113237889871930608": {
+      "message": "Pusta notatka"
+   },
+   "6176354714840789272": {
+      "message": "Możesz też zapisywać linki do użycia w przyszłości, korzystając z&nbsp;$2​rozszerzenia Google Keep do Chrome$1​."
+   },
+   "6189397065139465013": {
+      "message": "Co"
+   },
+   "6225875898439047571": {
+      "message": "Odmów"
+   },
+   "6231442995102088007": {
+      "message": "Co nowego w Google Keep"
+   },
+   "6252259197986158120": {
+      "message": "Wczoraj"
+   },
+   "6366376928558090914": {
+      "message": "Jedzenie"
+   },
+   "6371576811194810854": {
+      "message": "Po"
+   },
+   "6402092370576716734": {
+      "message": "Opróżnij kosz"
+   },
+   "6473102097014191455": {
+      "message": "Notatka z rysunkiem"
+   },
+   "6497197865876438261": {
+      "message": "Muzyka"
+   },
+   "6510131849363684615": {
+      "message": "Jutro"
+   },
+   "6579707685908557993": {
+      "message": "Późne popołudnie"
+   },
+   "6755327423364814290": {
+      "message": "Rób notatki szybciej w aplikacji"
+   },
+   "6822520214440117457": {
+      "message": "Praca"
+   },
+   "689017442055275529": {
+      "message": "Rodzina użytkownika $1​"
+   },
+   "6982321568096234183": {
+      "message": "Pobierz dźwięk ($1​)"
+   },
+   "7005745151564974365": {
+      "message": "Skróty klawiszowe"
+   },
+   "7102649289752747375": {
+      "message": "Prześlij opinię"
+   },
+   "7174409400206281023": {
+      "message": "Znaleziono sprzeczne zmiany"
+   },
+   "7207109722898253285": {
+      "message": "Zachowaj wybraną"
+   },
+   "7254411458460045711": {
+      "message": "Nie udało się zaktualizować ustawień. Spróbuj ponownie później. Jeśli jesteś offline, połącz się z internetem, zanim spróbujesz ponownie."
+   },
+   "7301081435623917576": {
+      "message": "Domyślne ustawienia przypomnień"
+   },
+   "7330497278645626593": {
+      "message": "Wypróbuj"
+   },
+   "7379369644162401367": {
+      "message": "Usuń ich"
+   },
+   "7381817875028728077": {
+      "message": "Nie"
+   },
+   "7384785369409503695": {
+      "message": "Włącz ciemny motyw"
+   },
+   "7420364754178516134": {
+      "message": "Narzędzia debugowania"
+   },
+   "7430680760319628492": {
+      "message": "Sprawdź"
+   },
+   "7510155920769316048": {
+      "message": "Notatki i listy"
+   },
+   "7528441140724145783": {
+      "message": "Edytuj etykiety"
+   },
+   "7565795669925550891": {
+      "message": "Udostępnia"
+   },
+   "7579280421767578228": {
+      "message": "Przypomnienie na kiedyś"
+   },
+   "7585826646011739428": {
+      "message": "Edytuj"
+   },
+   "7624042048123264803": {
+      "message": "Otwórz notatkę"
+   },
+   "7669846901402551021": {
+      "message": "Dzisiaj"
+   },
+   "7735981667219692675": {
+      "message": "{resultCount,plural, =1{# wynik wyszukiwania}few{# wyniki wyszukiwania}many{# wyników wyszukiwania}other{# wyniku wyszukiwania}}"
+   },
+   "7819314041543176992": {
+      "message": "Zamknij"
+   },
+   "7873060817438017568": {
+      "message": "$2​ · $1​"
+   },
+   "7911416166208830577": {
+      "message": "Pomoc"
+   },
+   "7934833136974560675": {
+      "message": "Ponów"
+   },
+   "8104421162933956065": {
+      "message": "Notatki"
+   },
+   "8133866583554546341": {
+      "message": "$1​, $2​"
+   },
+   "8149439558305434788": {
+      "message": "$1​, $2​"
+   },
+   "8193677552005249631": {
+      "message": "Pobierz aplikację"
+   },
+   "819996403327805209": {
+      "message": "Więcej informacji"
+   },
+   "8229434427096481545": {
+      "message": "Dostępne aktualizacje"
+   },
+   "824468664656304495": {
+      "message": "Jesteś offline. Niektóre funkcje mogą być niedostępne."
+   },
+   "8342620486324515462": {
+      "message": "Zamknij"
+   },
+   "8412733496413412439": {
+      "message": "Brak połączenia"
+   },
+   "8422875188929347819": {
+      "message": "Udostępnianie"
+   },
+   "8506292502710287776": {
+      "message": "Robisz długie notatki? Automatycznie dodamy więcej miejsca, gdy będzie potrzebne."
+   },
+   "8559513397356310933": {
+      "message": "Dodaj nowe elementy na dole"
+   },
+   "857379832182429172": {
+      "message": "Włącz"
+   },
+   "8602525917014156029": {
+      "message": "Miejsca"
+   },
+   "8611058223830804795": {
+      "message": "Przenieś zaznaczone elementy na dół"
+   },
+   "8663507590720636709": {
+      "message": "$1​ i jeszcze $2​"
+   },
+   "8775097441636640256": {
+      "message": "$2​ – $1​"
+   },
+   "8797656338249040679": {
+      "message": "$2​Zainstaluj rozszerzenie Google Keep do Chrome$1​, aby zapisywać ważne rzeczy w Keep jednym kliknięciem."
+   },
+   "8831459317888986184": {
+      "message": "Usuń zaznaczone"
+   },
+   "8903612093856047007": {
+      "message": "Współpracownicy"
+   },
+   "8905995985388209337": {
+      "message": "Akceptuj"
+   },
+   "8930959387403789939": {
+      "message": "Przypomnienie"
+   },
+   "8990769651805334695": {
+      "message": "Dnia"
+   },
+   "900086393693234779": {
+      "message": "Dom"
+   },
+   "911698676339750373": {
+      "message": "Rodzina"
+   },
+   "9129734193759025482": {
+      "message": "Jutro"
+   },
+   "9146862513672039744": {
+      "message": "Wyczyść konto"
+   },
+   "9207517187376875555": {
+      "message": "Korzystanie z Keep w przeglądarce"
+   },
+   "appDesc": {
+      "description": "App description",
+      "message": "Szybko zapisuj wszystko, co przyjdzie Ci do głowy, i dziel się tym z bliskimi i znajomymi."
+   },
+   "appName": {
+      "description": "App name",
+      "message": "Google Keep – notatki i listy"
+   },
+   "shortName": {
+      "description": "App short name",
+      "message": "Google Keep"
+   }
+}

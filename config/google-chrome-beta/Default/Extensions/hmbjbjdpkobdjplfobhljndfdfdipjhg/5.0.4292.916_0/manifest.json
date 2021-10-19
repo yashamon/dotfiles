@@ -1,0 +1,45 @@
+{
+   "app": {
+      "background": {
+         "scripts": [ "build/js/background.js" ]
+      }
+   },
+   "description": "Zoom Cloud Meetings for Chrome",
+   "externally_connectable": {
+      "matches": [ "https://*.zoom.us/*", "https://*.zoomgov.com/*", "https://*.zoomdev.us/*", "https://*.zoom.com/*" ]
+   },
+   "icons": {
+      "128": "build/static/images/zoom-logo-128.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAjXFAHp3jJP5VXqg4Zcvhw20dD7vDIPB6HGUbrIpQB4sRHWB0PwVKqpllNVuwvd6gRNOeMvgdFt9VRYT8knUZ0gR1pRaaOw+gQ5iPh4f2kdwJ83+nHIdvBSs4oNDm3rZvjZrR9603sNgCQGOZUtMnJAe1qCZY0SFBL7H9nQR6G6VFcpdYEs9ybyqnZ8M/RRkCxen3fwODmN1nGvas9AeyFS5+6M+LDteDt+LGjoSR7l6L60UIxgoExnJ4/urlqZHgM3JzZWAy/ZWi15ew/D6YOklgbB6VDkr1uNAGvlVVSaVKauGK6UZ6yaFzXtLKyyFxlIIKLpXonpM4bAIDoLwdBwIDAQAB",
+   "manifest_version": 2,
+   "minimum_chrome_version": "52.0.0.0",
+   "name": "Zoom",
+   "offline_enabled": false,
+   "permissions": [ {
+      "fileSystem": [ "write", "directory" ]
+   }, "storage", "alwaysOnTopWindows", "audioCapture", "desktopCapture", "videoCapture", "unlimitedStorage", "system.cpu", "system.memory", "system.display", "power", {
+      "socket": [ "tcp-connect", "resolve-host", "udp-bind::*", "udp-send-to:*:*", "resolve-proxy" ]
+   }, "*://*.zoom.us/*", "*://*.zoomgov.com/*", "*://*.zoomdev.us/*", "*://*.zoom.com/*", "webview", "idle" ],
+   "platforms": [ {
+      "nacl_arch": "x86-64",
+      "sub_package_path": "_platform_specific/x86-64/"
+   }, {
+      "nacl_arch": "x86-32",
+      "sub_package_path": "_platform_specific/x86-32/"
+   }, {
+      "nacl_arch": "arm",
+      "sub_package_path": "_platform_specific/arm/"
+   } ],
+   "requirements": {
+      "3D": {
+         "features": [ "webgl" ]
+      }
+   },
+   "storage": {
+      "managed_schema": "policy.json"
+   },
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "5.0.4292.0916",
+   "version_name": "5.0.1 (4292.0916)"
+}

@@ -3,10 +3,9 @@ call plug#begin('~/.vim/plugged')
 " Plug 'folke/which-key.nvim', { 'branch': 'main' }
 Plug 'folke/zen-mode.nvim', { 'branch': 'main' } 
 " Plug 'AckslD/nvim-neoclip.lua', { 'branch': 'main' } 
-"
 Plug 'phaazon/hop.nvim' 
 Plug 'is0n/fm-nvim' 
-Plug 'williamboman/nvim-lsp-installer'
+Plug 'williamboman/nvim-lsp-installer', { 'branch': 'main' }
 Plug 'nvim-lua/plenary.nvim'
 Plug 'nvim-telescope/telescope.nvim',  
 Plug 'nvim-treesitter/playground'
@@ -85,7 +84,7 @@ if has('nvim')
    Plug 'roxma/vim-hug-neovim-rpc'
  endif
 " Plug 'SirVer/ultisnips'  a;sldfkjsfls jfkj
-Plug 'tpope/vim-fugitive'
+" Plug 'tpope/vim-fugitive'
 Plug 'eugen0329/vim-esearch'
 " Plug 'haya14busa/incsearch.vim'
 " Plug 'haya14busa/incsearch-fuzzy.vim'
@@ -420,7 +419,7 @@ noremap c "0c
 noremap C "_C
 " noremap s "_x
 vnoremap x "+x
-vnoremap y "+y 
+vnoremap y "+y  
 nnoremap y "+y 
 nnoremap p "+p 
 nnoremap q p 

@@ -1,0 +1,494 @@
+{
+   "1055686627716339120": {
+      "message": "Arhiviraj"
+   },
+   "1102717806459547726": {
+      "message": "Osveži"
+   },
+   "1122146167985532789": {
+      "message": "včeraj"
+   },
+   "116696227691552491": {
+      "message": "Izbira mesta"
+   },
+   "1171339122262740595": {
+      "message": "Aplikacija Keep za Chrome ni več podprta. Keep lahko še naprej uporabljate na spletnem mestu keep.google.com."
+   },
+   "1248242541854939846": {
+      "message": "Odpravite težavo z urejanji v sporu"
+   },
+   "125962421212090538": {
+      "message": "Naslednji teden"
+   },
+   "1333255388111908292": {
+      "message": "Živila"
+   },
+   "1338300799355131761": {
+      "message": "Neimenovan zapisek"
+   },
+   "1365216822837281424": {
+      "message": "Razširitev za Chrome"
+   },
+   "1377158635423797368": {
+      "message": "Pojdi na oznako"
+   },
+   "1388712764439031120": {
+      "message": "Odpri povezavo"
+   },
+   "1429848477922945853": {
+      "message": "Prazen zapisek"
+   },
+   "146276399441370821": {
+      "message": "Obiščite keep.google.com"
+   },
+   "1512114410402431831": {
+      "message": "Osveži"
+   },
+   "1536087519743707362": {
+      "message": "Opusti"
+   },
+   "1675711464233426777": {
+      "message": "Pozneje danes"
+   },
+   "1694896269813520248": {
+      "message": "Dodaj risbo"
+   },
+   "1770899865480106963": {
+      "message": "Naprave Android"
+   },
+   "1790494039990261456": {
+      "message": "Ohrani obe"
+   },
+   "1858255237143975969": {
+      "message": "$2​Zasebnost$1​"
+   },
+   "187077078156858455": {
+      "message": "Zvočni zapisek"
+   },
+   "1963323419655107448": {
+      "message": "Izbris označenih elementov"
+   },
+   "205445381296663832": {
+      "message": "Nalaganje ni uspelo."
+   },
+   "2159130950882492111": {
+      "message": "Prekliči"
+   },
+   "2184278444368405837": {
+      "message": "Št. elementov: $1​"
+   },
+   "2323249770683736002": {
+      "message": "Ustvari novo oznako"
+   },
+   "2438741853303074449": {
+      "message": "."
+   },
+   "2452145367257933677": {
+      "message": "Razveljavi"
+   },
+   "2455647485809380838": {
+      "message": "Upravljanje opomnikov brez zapiskov"
+   },
+   "246828342952819465": {
+      "message": "Zabeležite si misli $1​ v poljubni napravi"
+   },
+   "2509141182388535183": {
+      "message": "Ogled"
+   },
+   "2542788471536661524": {
+      "message": "Spustite slike tukaj"
+   },
+   "2632538140519286364": {
+      "message": "Zapiski v smetnjaku se po 7 dneh izbrišejo."
+   },
+   "2680303811435018716": {
+      "message": "Več elementov ni mogoče dodati"
+   },
+   "2814354342017225342": {
+      "message": "Prikaz obogatenih predogledov povezav"
+   },
+   "2930974997943171554": {
+      "message": "Temna tema je onemogočena"
+   },
+   "2971623719720688041": {
+      "message": "Dejanje je razveljavljeno"
+   },
+   "2973306402585941108": {
+      "message": "Dopoldne"
+   },
+   "2983318659047499045": {
+      "message": "Opomniki"
+   },
+   "2989422642644963524": {
+      "message": "Opomnik je nastavljen za ta čas: $1​"
+   },
+   "3074915509081765994": {
+      "message": "iPhone in iPad"
+   },
+   "3091440425606975088": {
+      "message": "Neimenovan seznam"
+   },
+   "3121560585545725724": {
+      "message": "$1​, $2​"
+   },
+   "3190546672187601036": {
+      "message": "Ponoči"
+   },
+   "3249966726137025950": {
+      "message": "Skupina družinskih članov sodelavca"
+   },
+   "3258100527833044153": {
+      "message": "Prazna risba je zavržena"
+   },
+   "3378875258397512442": {
+      "message": "Nastavite opomnike za mesta in ure pri zapiskih, ustvarjajte glasovne zapiske in delajte s povezavo ali brez nje."
+   },
+   "3385831848537487538": {
+      "message": "Potovanja"
+   },
+   "3418677553313974490": {
+      "message": "Koš"
+   },
+   "3462556632501534753": {
+      "message": "$2​Odprtokodne licence$1​"
+   },
+   "3551522853788442530": {
+      "message": "Nazaj"
+   },
+   "3571391964903695725": {
+      "message": "Ponovi"
+   },
+   "3571704286086017611": {
+      "message": "Opomnik je bil izbrisan"
+   },
+   "3580243353280636963": {
+      "message": "Izbira datuma in ure"
+   },
+   "3608521102844050208": {
+      "message": "Opomnik:"
+   },
+   "3714239567487848851": {
+      "message": "Temna tema je omogočena"
+   },
+   "3768927257183755959": {
+      "message": "Shrani"
+   },
+   "3823114520994436161": {
+      "message": "Posodobi na keep.google.com"
+   },
+   "3852386690131857488": {
+      "message": "Omogočanje skupne rabe"
+   },
+   "3907816292084809686": {
+      "message": "Dejanje je spet uveljavljeno"
+   },
+   "395680759377627007": {
+      "message": "Ustvari oznako »$3​$2​$1​«"
+   },
+   "397098723873502323": {
+      "message": "Končano"
+   },
+   "3989925953740167133": {
+      "message": "Google Keep želi uporabiti podatke o vaši lokaciji za izboljšanje predlogov mest za lokacijske opomnike."
+   },
+   "4174786386751618325": {
+      "message": "Fotografski zapisek"
+   },
+   "4191000901158114852": {
+      "message": "Google Keep"
+   },
+   "4343848624651344174": {
+      "message": "Popoldne"
+   },
+   "4494250072784000771": {
+      "message": "Zaznano je pisalo. Omogočeno je premikanje z dotikom."
+   },
+   "4514241210910366093": {
+      "message": "Mrežni pogled"
+   },
+   "4533605085334699862": {
+      "message": "Citati"
+   },
+   "456512308416555173": {
+      "message": "Knjige"
+   },
+   "4734349318830134239": {
+      "message": "Se konča"
+   },
+   "4840513623749850224": {
+      "message": "Filmi"
+   },
+   "4930506384627295710": {
+      "message": "Nastavitve"
+   },
+   "4963533275503057654": {
+      "message": "Ustvarjanje sličice …"
+   },
+   "4974261966265341751": {
+      "message": "Onemogoči temno temo"
+   },
+   "5000971639019912199": {
+      "message": "$2​Pogoji$1​"
+   },
+   "5259541708332520733": {
+      "message": "Vir je odstranjen"
+   },
+   "527438013974545289": {
+      "message": "Temna tema je tu"
+   },
+   "5275304974990264425": {
+      "message": "Pogled seznama"
+   },
+   "5403636185480096151": {
+      "message": "Televizija"
+   },
+   "5422660126805186552": {
+      "message": "Uživajte v udobnejši izkušnji branja. Vklopite in izklopite jo lahko v nastavitvah."
+   },
+   "546766753072101168": {
+      "message": "Oznake"
+   },
+   "5510222038351634163": {
+      "message": "Preberite več o zastaranju aplikacije Keep za Chrome."
+   },
+   "5570885401952336951": {
+      "message": "Dnevnik odjemalca"
+   },
+   "5592884381280360832": {
+      "message": "V redu"
+   },
+   "5601530442010506564": {
+      "message": "V redu"
+   },
+   "5652536812290902558": {
+      "message": "Prenesi zvočni posnetek"
+   },
+   "5994697604396931641": {
+      "message": "Odstrani vse"
+   },
+   "6049952042443321325": {
+      "message": "Tabela bližnjičnih tipk"
+   },
+   "6069780031254134657": {
+      "message": "Označi kot dokončano"
+   },
+   "6113237889871930608": {
+      "message": "Prazen zapisek"
+   },
+   "6176354714840789272": {
+      "message": "Povezave lahko shranite tudi za pozneje z&nbsp;$2​razširitvijo Google Keep za Chrome$1​."
+   },
+   "6189397065139465013": {
+      "message": "Vsake toliko časa:"
+   },
+   "6225875898439047571": {
+      "message": "Zavrni"
+   },
+   "6231442995102088007": {
+      "message": "Novosti v Googlu Keep"
+   },
+   "6252259197986158120": {
+      "message": "Včeraj"
+   },
+   "6366376928558090914": {
+      "message": "Hrana"
+   },
+   "6371576811194810854": {
+      "message": "Za"
+   },
+   "6402092370576716734": {
+      "message": "Izprazni smetnjak"
+   },
+   "6473102097014191455": {
+      "message": "Način risanja"
+   },
+   "6497197865876438261": {
+      "message": "Glasba"
+   },
+   "6510131849363684615": {
+      "message": "Jutri"
+   },
+   "6579707685908557993": {
+      "message": "Zvečer"
+   },
+   "6755327423364814290": {
+      "message": "Hitreje ustvarjajte zapiske z aplikacijo"
+   },
+   "6822520214440117457": {
+      "message": "Služba"
+   },
+   "689017442055275529": {
+      "message": "Skupina družinskih članov osebe $1​"
+   },
+   "6982321568096234183": {
+      "message": "Prenesi zvočni posnetek ($1​)"
+   },
+   "7005745151564974365": {
+      "message": "Bližnjične tipke"
+   },
+   "7102649289752747375": {
+      "message": "Pošlji povratne informacije"
+   },
+   "7174409400206281023": {
+      "message": "Najdeni sta bili urejanji v sporu"
+   },
+   "7207109722898253285": {
+      "message": "Ohrani izbrano"
+   },
+   "7254411458460045711": {
+      "message": "Posodobitev ni uspela. Poskusite znova pozneje. Če trenutno nimate vzpostavljene povezave, vzpostavite povezavo z internetom in šele nato poskusite znova."
+   },
+   "7301081435623917576": {
+      "message": "Privzete nastavitve opomnikov"
+   },
+   "7330497278645626593": {
+      "message": "Preskusi"
+   },
+   "7379369644162401367": {
+      "message": "Odstrani jih"
+   },
+   "7381817875028728077": {
+      "message": "Ne, hvala"
+   },
+   "7384785369409503695": {
+      "message": "Omogoči temno temo"
+   },
+   "7420364754178516134": {
+      "message": "Orodja za odpravljanje napak"
+   },
+   "7430680760319628492": {
+      "message": "Preglej"
+   },
+   "7510155920769316048": {
+      "message": "Zapiski in seznami"
+   },
+   "7528441140724145783": {
+      "message": "Urejanje oznak"
+   },
+   "7565795669925550891": {
+      "message": "V skupno rabo dala oseba:"
+   },
+   "7579280421767578228": {
+      "message": "Opomnik za nekega dne"
+   },
+   "7585826646011739428": {
+      "message": "Uredi"
+   },
+   "7624042048123264803": {
+      "message": "Odprite zapisek"
+   },
+   "7669846901402551021": {
+      "message": "Danes"
+   },
+   "7735981667219692675": {
+      "message": "{resultCount,plural, =1{# rezultat iskanja}one{# rezultat iskanja}two{# rezultata iskanja}few{# rezultati iskanja}other{# rezultatov iskanja}}"
+   },
+   "7819314041543176992": {
+      "message": "Zapri"
+   },
+   "7873060817438017568": {
+      "message": "$2​ · $1​"
+   },
+   "7911416166208830577": {
+      "message": "Pomoč"
+   },
+   "7934833136974560675": {
+      "message": "Poskusi znova"
+   },
+   "8104421162933956065": {
+      "message": "Opombe"
+   },
+   "8133866583554546341": {
+      "message": "$1​, $2​"
+   },
+   "8149439558305434788": {
+      "message": "$1​, $2​"
+   },
+   "8193677552005249631": {
+      "message": "Prenos aplikacij"
+   },
+   "819996403327805209": {
+      "message": "Več o tem"
+   },
+   "8229434427096481545": {
+      "message": "Na voljo so posodobitve."
+   },
+   "824468664656304495": {
+      "message": "Nimate povezave z internetom. Nekatere funkcije morda ne bodo na voljo."
+   },
+   "8342620486324515462": {
+      "message": "Zavrzi"
+   },
+   "8412733496413412439": {
+      "message": "Brez povezave"
+   },
+   "8422875188929347819": {
+      "message": "Skupna raba"
+   },
+   "8506292502710287776": {
+      "message": "Pišete dolge zapiske? Ko boste dosegli dno, bomo samodejno dodali več prostora."
+   },
+   "8559513397356310933": {
+      "message": "Dodaj nove elemente na dno"
+   },
+   "857379832182429172": {
+      "message": "Vklopi"
+   },
+   "8602525917014156029": {
+      "message": "Mesta"
+   },
+   "8611058223830804795": {
+      "message": "Premakni označene elemente na dno"
+   },
+   "8663507590720636709": {
+      "message": "$1​ in še $2​"
+   },
+   "8775097441636640256": {
+      "message": "$2​ – $1​"
+   },
+   "8797656338249040679": {
+      "message": "$2​Namestite razširitev Google Keep za Chrome$1​, da boste lahko shranili vse pomembne stvari v Keep z enim samim klikom."
+   },
+   "8831459317888986184": {
+      "message": "Izbriši izbrano"
+   },
+   "8903612093856047007": {
+      "message": "Sodelavci"
+   },
+   "8905995985388209337": {
+      "message": "Sprejmi"
+   },
+   "8930959387403789939": {
+      "message": "Opomnik"
+   },
+   "8990769651805334695": {
+      "message": "Na ta datum:"
+   },
+   "900086393693234779": {
+      "message": "Dom"
+   },
+   "911698676339750373": {
+      "message": "Skupina družinskih članov"
+   },
+   "9129734193759025482": {
+      "message": "Jutri"
+   },
+   "9146862513672039744": {
+      "message": "Počisti račun"
+   },
+   "9207517187376875555": {
+      "message": "Uporabite Keep v brskalniku"
+   },
+   "appDesc": {
+      "description": "App description",
+      "message": "Hitro zabeležite svoje misli in jih delite s prijatelji ter družino."
+   },
+   "appName": {
+      "description": "App name",
+      "message": "Google Keep – zapiski in seznami"
+   },
+   "shortName": {
+      "description": "App short name",
+      "message": "Google Keep"
+   }
+}

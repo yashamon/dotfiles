@@ -1,0 +1,494 @@
+{
+   "1055686627716339120": {
+      "message": "Archivovat"
+   },
+   "1102717806459547726": {
+      "message": "Obnovit"
+   },
+   "1122146167985532789": {
+      "message": "včera"
+   },
+   "116696227691552491": {
+      "message": "Vybrat místo"
+   },
+   "1171339122262740595": {
+      "message": "Aplikace Keep pro Chrome už není podporována. Službu Keep můžete dál používat na adrese keep.google.com."
+   },
+   "1248242541854939846": {
+      "message": "Opravte konfliktní úpravy"
+   },
+   "125962421212090538": {
+      "message": "Příští týden"
+   },
+   "1333255388111908292": {
+      "message": "Potraviny"
+   },
+   "1338300799355131761": {
+      "message": "Poznámka bez názvu"
+   },
+   "1365216822837281424": {
+      "message": "Rozšíření pro Chrome"
+   },
+   "1377158635423797368": {
+      "message": "Přejít na štítek"
+   },
+   "1388712764439031120": {
+      "message": "Otevřít odkaz"
+   },
+   "1429848477922945853": {
+      "message": "Prázdná poznámka"
+   },
+   "146276399441370821": {
+      "message": "Otevřít keep.google.com"
+   },
+   "1512114410402431831": {
+      "message": "Obnovit"
+   },
+   "1536087519743707362": {
+      "message": "Zavřít"
+   },
+   "1675711464233426777": {
+      "message": "Později dnes"
+   },
+   "1694896269813520248": {
+      "message": "Přidat nákres"
+   },
+   "1770899865480106963": {
+      "message": "Zařízení s Androidem"
+   },
+   "1790494039990261456": {
+      "message": "Ponechat obě"
+   },
+   "1858255237143975969": {
+      "message": "$2​Soukromí$1​"
+   },
+   "187077078156858455": {
+      "message": "Zvuková poznámka"
+   },
+   "1963323419655107448": {
+      "message": "Smazat zaškrtnuté položky"
+   },
+   "205445381296663832": {
+      "message": "Nahrávání se nezdařilo."
+   },
+   "2159130950882492111": {
+      "message": "Zrušit"
+   },
+   "2184278444368405837": {
+      "message": "Počet položek: $1​"
+   },
+   "2323249770683736002": {
+      "message": "Vytvořit nový štítek"
+   },
+   "2438741853303074449": {
+      "message": "výskytech"
+   },
+   "2452145367257933677": {
+      "message": "Vrátit zpět"
+   },
+   "2455647485809380838": {
+      "message": "Spravovat připomínky bez poznámek"
+   },
+   "246828342952819465": {
+      "message": "Zaznamenejte své myšlenky$1​na libovolném zařízení"
+   },
+   "2509141182388535183": {
+      "message": "Zobrazit"
+   },
+   "2542788471536661524": {
+      "message": "Sem přetáhněte obrázky"
+   },
+   "2632538140519286364": {
+      "message": "Poznámky v koši se po sedmi dnech smažou."
+   },
+   "2680303811435018716": {
+      "message": "Další položky nelze přidat"
+   },
+   "2814354342017225342": {
+      "message": "Zobrazovat rozšířené náhledy odkazů"
+   },
+   "2930974997943171554": {
+      "message": "Tmavý režim deaktivován"
+   },
+   "2971623719720688041": {
+      "message": "Akce byla vrácena"
+   },
+   "2973306402585941108": {
+      "message": "Ráno"
+   },
+   "2983318659047499045": {
+      "message": "Připomenutí"
+   },
+   "2989422642644963524": {
+      "message": "Připomenutí bylo nastaveno na $1​"
+   },
+   "3074915509081765994": {
+      "message": "iPhone a iPad"
+   },
+   "3091440425606975088": {
+      "message": "Seznam bez názvu"
+   },
+   "3121560585545725724": {
+      "message": "$1​, $2​"
+   },
+   "3190546672187601036": {
+      "message": "Noc"
+   },
+   "3249966726137025950": {
+      "message": "Rodinná skupina spolupracovníka"
+   },
+   "3258100527833044153": {
+      "message": "Prázdný nákres byl zahozen"
+   },
+   "3378875258397512442": {
+      "message": "Nastavte si připomenutí poznámek podle místa nebo času, ukládejte si hlasové poznámky a pracujte online i offline."
+   },
+   "3385831848537487538": {
+      "message": "Cestování"
+   },
+   "3418677553313974490": {
+      "message": "Koš"
+   },
+   "3462556632501534753": {
+      "message": "$2​Licence open source$1​"
+   },
+   "3551522853788442530": {
+      "message": "Zpět"
+   },
+   "3571391964903695725": {
+      "message": "Opakovat"
+   },
+   "3571704286086017611": {
+      "message": "Připomenutí smazáno"
+   },
+   "3580243353280636963": {
+      "message": "Vybrat datum a čas"
+   },
+   "3608521102844050208": {
+      "message": "Připomenutí"
+   },
+   "3714239567487848851": {
+      "message": "Tmavý režim aktivován"
+   },
+   "3768927257183755959": {
+      "message": "Uložit"
+   },
+   "3823114520994436161": {
+      "message": "Aktualizovat na keep.google.com"
+   },
+   "3852386690131857488": {
+      "message": "Povolit sdílení"
+   },
+   "3907816292084809686": {
+      "message": "Akce byla zopakována"
+   },
+   "395680759377627007": {
+      "message": "Vytvořit „$3​$2​$1​“"
+   },
+   "397098723873502323": {
+      "message": "Hotovo"
+   },
+   "3989925953740167133": {
+      "message": "Služba Google Keep žádá o přístup k údajům o vaší poloze, které pomohou upřesnit návrhy pro připomenutí míst."
+   },
+   "4174786386751618325": {
+      "message": "Fotografická poznámka"
+   },
+   "4191000901158114852": {
+      "message": "Google Keep"
+   },
+   "4343848624651344174": {
+      "message": "Odpoledne"
+   },
+   "4494250072784000771": {
+      "message": "Zjištěn stylus. Je aktivováno posouvání dotykem."
+   },
+   "4514241210910366093": {
+      "message": "Mřížka"
+   },
+   "4533605085334699862": {
+      "message": "Citáty"
+   },
+   "456512308416555173": {
+      "message": "Knihy"
+   },
+   "4734349318830134239": {
+      "message": "Končí"
+   },
+   "4840513623749850224": {
+      "message": "Filmy"
+   },
+   "4930506384627295710": {
+      "message": "Nastavení"
+   },
+   "4963533275503057654": {
+      "message": "Vytváření miniatury..."
+   },
+   "4974261966265341751": {
+      "message": "Vypnout tmavý motiv"
+   },
+   "5000971639019912199": {
+      "message": "$2​Podmínky$1​"
+   },
+   "5259541708332520733": {
+      "message": "Zdroj odebrán"
+   },
+   "527438013974545289": {
+      "message": "Představujeme tmavý motiv"
+   },
+   "5275304974990264425": {
+      "message": "Seznam"
+   },
+   "5403636185480096151": {
+      "message": "Televize"
+   },
+   "5422660126805186552": {
+      "message": "Umožňuje pohodlnější čtení. Zapnout nebo vypnout ho můžete v Nastaveních."
+   },
+   "546766753072101168": {
+      "message": "Štítky"
+   },
+   "5510222038351634163": {
+      "message": "Další informace o ukončení podpory aplikace Keep pro Chrome"
+   },
+   "5570885401952336951": {
+      "message": "Protokol klienta"
+   },
+   "5592884381280360832": {
+      "message": "OK"
+   },
+   "5601530442010506564": {
+      "message": "OK"
+   },
+   "5652536812290902558": {
+      "message": "Stáhnout zvuk"
+   },
+   "5994697604396931641": {
+      "message": "Odstranit vše"
+   },
+   "6049952042443321325": {
+      "message": "Tabulka klávesových zkratek"
+   },
+   "6069780031254134657": {
+      "message": "Označit jako vyřízené"
+   },
+   "6113237889871930608": {
+      "message": "Prázdná poznámka"
+   },
+   "6176354714840789272": {
+      "message": "Můžete si také odkazy ukládat na později pomocí&nbsp;$2​rozšíření Google Keep pro Chrome$1​."
+   },
+   "6189397065139465013": {
+      "message": "Každý"
+   },
+   "6225875898439047571": {
+      "message": "Odmítnout"
+   },
+   "6231442995102088007": {
+      "message": "Novinky v aplikaci Google Keep"
+   },
+   "6252259197986158120": {
+      "message": "Včera"
+   },
+   "6366376928558090914": {
+      "message": "Jídlo"
+   },
+   "6371576811194810854": {
+      "message": "Po"
+   },
+   "6402092370576716734": {
+      "message": "Vysypat koš"
+   },
+   "6473102097014191455": {
+      "message": "Poznámka s nákresem"
+   },
+   "6497197865876438261": {
+      "message": "Hudba"
+   },
+   "6510131849363684615": {
+      "message": "Zítra"
+   },
+   "6579707685908557993": {
+      "message": "Večer"
+   },
+   "6755327423364814290": {
+      "message": "Rychlejší psaní poznámek díky aplikaci"
+   },
+   "6822520214440117457": {
+      "message": "Práce"
+   },
+   "689017442055275529": {
+      "message": "Rodinná skupina uživatele $1​"
+   },
+   "6982321568096234183": {
+      "message": "Stáhnout zvuk ($1​)"
+   },
+   "7005745151564974365": {
+      "message": "Klávesové zkratky"
+   },
+   "7102649289752747375": {
+      "message": "Zpětná vazba"
+   },
+   "7174409400206281023": {
+      "message": "Byly nalezeny konfliktní úpravy"
+   },
+   "7207109722898253285": {
+      "message": "Ponechat vybrané"
+   },
+   "7254411458460045711": {
+      "message": "Aktualizace se nezdařila, zkuste to znovu později. Pokud jste zrovna offline, před opakovaným pokusem se připojte k internetu."
+   },
+   "7301081435623917576": {
+      "message": "Výchozí nastavení připomenutí"
+   },
+   "7330497278645626593": {
+      "message": "Vyzkoušet"
+   },
+   "7379369644162401367": {
+      "message": "Odstranit je"
+   },
+   "7381817875028728077": {
+      "message": "Ne, díky"
+   },
+   "7384785369409503695": {
+      "message": "Zapnout tmavý motiv"
+   },
+   "7420364754178516134": {
+      "message": "Nástroje pro ladění"
+   },
+   "7430680760319628492": {
+      "message": "Zkontrolovat"
+   },
+   "7510155920769316048": {
+      "message": "Poznámky a seznamy"
+   },
+   "7528441140724145783": {
+      "message": "Upravit štítky"
+   },
+   "7565795669925550891": {
+      "message": "Sdíleno uživatelem"
+   },
+   "7579280421767578228": {
+      "message": "Připomenutí na neurčito"
+   },
+   "7585826646011739428": {
+      "message": "Upravit"
+   },
+   "7624042048123264803": {
+      "message": "Otevřít poznámku"
+   },
+   "7669846901402551021": {
+      "message": "Dnes"
+   },
+   "7735981667219692675": {
+      "message": "{resultCount,plural, =1{# výsledek vyhledávání}few{# výsledky vyhledávání}many{# výsledku vyhledávání}other{# výsledků vyhledávání}}"
+   },
+   "7819314041543176992": {
+      "message": "Zavřít"
+   },
+   "7873060817438017568": {
+      "message": "$2​ · $1​"
+   },
+   "7911416166208830577": {
+      "message": "Nápověda"
+   },
+   "7934833136974560675": {
+      "message": "Znovu"
+   },
+   "8104421162933956065": {
+      "message": "Poznámky"
+   },
+   "8133866583554546341": {
+      "message": "$1​ v $2​"
+   },
+   "8149439558305434788": {
+      "message": "$1​, $2​"
+   },
+   "8193677552005249631": {
+      "message": "Stažení aplikací"
+   },
+   "819996403327805209": {
+      "message": "Další informace"
+   },
+   "8229434427096481545": {
+      "message": "Jsou k dispozici aktualizace"
+   },
+   "824468664656304495": {
+      "message": "Jste offline. Některé funkce nemusí být dostupné."
+   },
+   "8342620486324515462": {
+      "message": "Zavřít"
+   },
+   "8412733496413412439": {
+      "message": "Offline"
+   },
+   "8422875188929347819": {
+      "message": "Sdílení"
+   },
+   "8506292502710287776": {
+      "message": "Děláte si dlouhé poznámky? Když se dostanete na konec, automaticky přidáme více místa."
+   },
+   "8559513397356310933": {
+      "message": "Nové položky přidávat dolů"
+   },
+   "857379832182429172": {
+      "message": "Zapnout"
+   },
+   "8602525917014156029": {
+      "message": "Místa"
+   },
+   "8611058223830804795": {
+      "message": "Zaškrtnuté položky přesouvat dolů"
+   },
+   "8663507590720636709": {
+      "message": "$1​ +$2​ další(ch)"
+   },
+   "8775097441636640256": {
+      "message": "$2​ – $1​"
+   },
+   "8797656338249040679": {
+      "message": "$2​Nainstalujte si rozšíření Google Keep pro Chrome$1​ a můžete si vše, na čem vám záleží, do služby Keep ukládat jediným kliknutím."
+   },
+   "8831459317888986184": {
+      "message": "Smazat vybrané"
+   },
+   "8903612093856047007": {
+      "message": "Spolupracovníci"
+   },
+   "8905995985388209337": {
+      "message": "Přijmout"
+   },
+   "8930959387403789939": {
+      "message": "Připomenutí"
+   },
+   "8990769651805334695": {
+      "message": "Dne:"
+   },
+   "900086393693234779": {
+      "message": "Domov"
+   },
+   "911698676339750373": {
+      "message": "Rodinná skupina"
+   },
+   "9129734193759025482": {
+      "message": "Zítra"
+   },
+   "9146862513672039744": {
+      "message": "Vymazat účet"
+   },
+   "9207517187376875555": {
+      "message": "Používejte Keep ve webovém prohlížeči"
+   },
+   "appDesc": {
+      "description": "App description",
+      "message": "Rychle si zaznamenejte své nápady a sdílejte je s přáteli a rodinou."
+   },
+   "appName": {
+      "description": "App name",
+      "message": "Google Keep – poznámky a seznamy"
+   },
+   "shortName": {
+      "description": "App short name",
+      "message": "Google Notizen"
+   }
+}

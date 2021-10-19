@@ -1,0 +1,110 @@
+{
+   "appClose": {
+      "description": "",
+      "message": "关闭"
+   },
+   "appDescription": {
+      "description": "",
+      "message": "生成强密码和安全密码的简单工具"
+   },
+   "btnCopyAll": {
+      "description": "",
+      "message": "复制全部"
+   },
+   "btnCopyResult": {
+      "description": "",
+      "message": "复制到剪切板"
+   },
+   "btnCopySelected": {
+      "description": "",
+      "message": "复制所选"
+   },
+   "btnGenerate": {
+      "description": "",
+      "message": "生成"
+   },
+   "historyClearList": {
+      "description": "",
+      "message": "清空列表"
+   },
+   "historyClearListConfirm": {
+      "description": "",
+      "message": "确定？"
+   },
+   "historyClearListConfirmNo": {
+      "description": "",
+      "message": "否"
+   },
+   "historyClearListConfirmYes": {
+      "description": "",
+      "message": "是"
+   },
+   "historySelectAll": {
+      "description": "",
+      "message": "全选"
+   },
+   "historySelectInvert": {
+      "description": "",
+      "message": "反向选择"
+   },
+   "historySelectLabel": {
+      "description": "",
+      "message": "选择"
+   },
+   "historySelectNone": {
+      "description": "",
+      "message": "全不选"
+   },
+   "noItems": {
+      "description": "",
+      "message": "没有找到..."
+   },
+   "optLength": {
+      "description": "",
+      "message": "长度:"
+   },
+   "optLengthRandom": {
+      "description": "",
+      "message": "随机"
+   },
+   "optUse": {
+      "description": "",
+      "message": "使用:"
+   },
+   "optUseCustom": {
+      "description": "",
+      "message": "自定义"
+   },
+   "optUseLowercase": {
+      "description": "",
+      "message": "小写字母"
+   },
+   "optUseNumber": {
+      "description": "",
+      "message": "数字"
+   },
+   "optUseUppercase": {
+      "description": "",
+      "message": "大写字母"
+   },
+   "optionsRememberHistory": {
+      "description": "",
+      "message": "记住密码历史"
+   },
+   "rememberPassWarning": {
+      "description": "",
+      "message": "如果你使用记住密码历史，不要忘记手动清空列表，防止你的密码被盗取。"
+   },
+   "tabGenerator": {
+      "description": "",
+      "message": "生成器"
+   },
+   "tabHistory": {
+      "description": "",
+      "message": "历史"
+   },
+   "tabOptions": {
+      "description": "",
+      "message": "选项"
+   }
+}

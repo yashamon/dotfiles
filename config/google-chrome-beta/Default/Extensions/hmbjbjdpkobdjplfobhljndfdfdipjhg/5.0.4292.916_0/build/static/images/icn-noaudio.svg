@@ -1,0 +1,7 @@
+<svg width="24" height="24" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path fill-rule="evenodd" clip-rule="evenodd" d="M12 3a9 9 0 019 9v1h.5a2.5 2.5 0 012.5 2.5v2a2.5 2.5 0 01-2.5 2.5h-.75a1 1 0 01-1-1v-7a7.75 7.75 0 00-15.5 0v7a1 1 0 01-1 1H2.5A2.5 2.5 0 010 17.5v-2A2.5 2.5 0 012.5 13H3v-1a9 9 0 019-9z" fill="#fff" fill-opacity=".62"/>
+  <path d="M12 12v7.25" stroke="#23D959" stroke-width="1.5" stroke-linecap="round"/>
+  <path d="M15 14l-3-3-3 3" stroke="#23D959" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <zoom style="hover" value="|:#CCFFFFFF" hc_value="|:@kHCCText|@kHCCText:|@kHCCText:"/>
+  <zoom style="*" hc_value="|:@kHCCText|@kHCCText:|@kHCCText:" />
+</svg>

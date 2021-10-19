@@ -1,0 +1,27 @@
+{
+   "app": {
+      "display_mode": "standalone",
+      "launch": {
+         "web_url": "https://chrome.google.com/webstore/search/app%20runtime?utm_source=chrome-app-launcher-search"
+      },
+      "linked_icons": [  ]
+   },
+   "description": "",
+   "icons": {
+      "128": "icons/128.png",
+      "256": "icons/256.png",
+      "32": "icons/32.png",
+      "48": "icons/48.png",
+      "64": "icons/64.png",
+      "96": "icons/96.png"
+   },
+   "key": "YvebtKfsj9Axo4tv/gyqP/6zsykAKObdt3EksJ4EYlo=",
+   "name": "Chrome Web Store - app runtime",
+   "url_handlers": {
+      "scope": {
+         "matches": [ "https://chrome.google.com/webstore/search/app%20runtime*" ],
+         "title": "Chrome Web Store - app runtime"
+      }
+   },
+   "version": "2021.10.13.62367"
+}

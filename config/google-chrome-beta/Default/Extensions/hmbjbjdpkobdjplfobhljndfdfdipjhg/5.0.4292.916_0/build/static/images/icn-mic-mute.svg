@@ -1,0 +1,6 @@
+<svg width="24" height="24" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path fill-rule="evenodd" clip-rule="evenodd" d="M8 5a4 4 0 118 0v7a4 4 0 01-8 0V5zm4.75 13.96A7.001 7.001 0 0019 12a.75.75 0 00-1.5 0 5.5 5.5 0 11-11 0A.75.75 0 005 12a7.001 7.001 0 006.25 6.96v2.54H9A.75.75 0 009 23h6a.75.75 0 000-1.5h-2.25v-2.54z" fill="#fff" fill-opacity=".62"/>
+  <zoom style="hover" value="|:#CCFFFFFF" hc_value="|:@kHCCText" />
+  <zoom style="*" hc_value="|:@kHCCText" />
+  <zoom style="no_hc" value="|:9eFFFFFF"/>
+</svg>

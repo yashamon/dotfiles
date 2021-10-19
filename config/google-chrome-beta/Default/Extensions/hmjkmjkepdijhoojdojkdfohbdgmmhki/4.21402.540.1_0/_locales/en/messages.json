@@ -1,0 +1,497 @@
+{
+   "1055686627716339120": {
+      "message": "Archive"
+   },
+   "1102717806459547726": {
+      "message": "Refresh"
+   },
+   "1122146167985532789": {
+      "message": "yesterday"
+   },
+   "116696227691552491": {
+      "message": "Pick place"
+   },
+   "1171339122262740595": {
+      "message": "The Keep Chrome App is no longer supported. You can continue using keep by going to keep.google.com."
+   },
+   "1248242541854939846": {
+      "message": "Fix conflicting edits"
+   },
+   "125962421212090538": {
+      "message": "Next week"
+   },
+   "1333255388111908292": {
+      "message": "Groceries"
+   },
+   "1338300799355131761": {
+      "message": "Untitled note"
+   },
+   "1365216822837281424": {
+      "message": "Chrome Extension"
+   },
+   "1377158635423797368": {
+      "message": "Go to label"
+   },
+   "1388712764439031120": {
+      "message": "Open link"
+   },
+   "1429848477922945853": {
+      "message": "Empty note"
+   },
+   "146276399441370821": {
+      "message": "Open keep.google.com"
+   },
+   "1512114410402431831": {
+      "message": "Refresh"
+   },
+   "1536087519743707362": {
+      "message": "Dismiss"
+   },
+   "1675711464233426777": {
+      "message": "Later today"
+   },
+   "1694896269813520248": {
+      "message": "Add drawing"
+   },
+   "1770899865480106963": {
+      "message": "Android Devices"
+   },
+   "1790494039990261456": {
+      "message": "Keep both"
+   },
+   "1858255237143975969": {
+      "message": "$2​Privacy$1​"
+   },
+   "187077078156858455": {
+      "message": "Audio note"
+   },
+   "1963323419655107448": {
+      "message": "Delete checked items"
+   },
+   "205445381296663832": {
+      "message": "Upload failed."
+   },
+   "2159130950882492111": {
+      "message": "Cancel"
+   },
+   "2184278444368405837": {
+      "message": "$1​ items"
+   },
+   "2323249770683736002": {
+      "message": "Create new label"
+   },
+   "2438741853303074449": {
+      "message": "occurrences"
+   },
+   "2452145367257933677": {
+      "message": "Undo"
+   },
+   "2455647485809380838": {
+      "message": "Manage reminders without notes"
+   },
+   "246828342952819465": {
+      "message": "Capture your thoughts $1​ from any device"
+   },
+   "2509141182388535183": {
+      "message": "View"
+   },
+   "2542788471536661524": {
+      "message": "Drop images here"
+   },
+   "2632538140519286364": {
+      "message": "Notes in Trash are deleted after 7 days."
+   },
+   "2680303811435018716": {
+      "message": "Can’t add more items"
+   },
+   "2814354342017225342": {
+      "message": "Display rich link previews"
+   },
+   "2930974997943171554": {
+      "message": "Dark theme disabled"
+   },
+   "2932084945481848051": {
+      "message": "More colors"
+   },
+   "2971623719720688041": {
+      "message": "Action undone"
+   },
+   "2973306402585941108": {
+      "message": "Morning"
+   },
+   "2983318659047499045": {
+      "message": "Reminders"
+   },
+   "2989422642644963524": {
+      "message": "Reminder set for $1​"
+   },
+   "3074915509081765994": {
+      "message": "iPhone & iPad"
+   },
+   "3091440425606975088": {
+      "message": "Untitled list"
+   },
+   "3121560585545725724": {
+      "message": "$1​, $2​"
+   },
+   "3190546672187601036": {
+      "message": "Night"
+   },
+   "3249966726137025950": {
+      "message": "Collaborator's Family Group"
+   },
+   "3258100527833044153": {
+      "message": "Empty drawing discarded"
+   },
+   "3378875258397512442": {
+      "message": "Set reminders on notes for places and times, take voice notes, and work online or offline."
+   },
+   "3385831848537487538": {
+      "message": "Travel"
+   },
+   "3418677553313974490": {
+      "message": "Trash"
+   },
+   "3462556632501534753": {
+      "message": "$2​Open-source licenses$1​"
+   },
+   "3551522853788442530": {
+      "message": "Go back"
+   },
+   "3571391964903695725": {
+      "message": "Repeat"
+   },
+   "3571704286086017611": {
+      "message": "Reminder deleted"
+   },
+   "3580243353280636963": {
+      "message": "Pick date & time"
+   },
+   "3608521102844050208": {
+      "message": "Reminder:"
+   },
+   "3714239567487848851": {
+      "message": "Dark theme enabled"
+   },
+   "3768927257183755959": {
+      "message": "Save"
+   },
+   "3823114520994436161": {
+      "message": "Update to keep.google.com"
+   },
+   "3852386690131857488": {
+      "message": "Enable sharing"
+   },
+   "3907816292084809686": {
+      "message": "Action redone"
+   },
+   "395680759377627007": {
+      "message": "Create \"$3​$2​$1​\""
+   },
+   "397098723873502323": {
+      "message": "Done"
+   },
+   "3989925953740167133": {
+      "message": "Google Keep would like to use your location to improve places suggestions for location reminders."
+   },
+   "4174786386751618325": {
+      "message": "Photo note"
+   },
+   "4191000901158114852": {
+      "message": "Google Keep"
+   },
+   "4343848624651344174": {
+      "message": "Afternoon"
+   },
+   "4494250072784000771": {
+      "message": "Stylus detected. Pan with Touch is enabled."
+   },
+   "4514241210910366093": {
+      "message": "Grid view"
+   },
+   "4533605085334699862": {
+      "message": "Quotes"
+   },
+   "456512308416555173": {
+      "message": "Books"
+   },
+   "4734349318830134239": {
+      "message": "Ends"
+   },
+   "4840513623749850224": {
+      "message": "Movies"
+   },
+   "4930506384627295710": {
+      "message": "Settings"
+   },
+   "4963533275503057654": {
+      "message": "Creating thumbnail..."
+   },
+   "4974261966265341751": {
+      "message": "Disable dark theme"
+   },
+   "5000971639019912199": {
+      "message": "$2​Terms$1​"
+   },
+   "5259541708332520733": {
+      "message": "Source removed"
+   },
+   "527438013974545289": {
+      "message": "Dark theme is here"
+   },
+   "5275304974990264425": {
+      "message": "List view"
+   },
+   "5403636185480096151": {
+      "message": "TV"
+   },
+   "5422660126805186552": {
+      "message": "Enjoy a more comfortable reading experience. Toggle it on or off in Settings."
+   },
+   "546766753072101168": {
+      "message": "Labels"
+   },
+   "5510222038351634163": {
+      "message": "Learn more about the Keep Chrome App deprecation"
+   },
+   "5570885401952336951": {
+      "message": "Client log"
+   },
+   "5592884381280360832": {
+      "message": "Got it"
+   },
+   "5601530442010506564": {
+      "message": "Got it"
+   },
+   "5652536812290902558": {
+      "message": "Download Audio"
+   },
+   "5994697604396931641": {
+      "message": "Remove All"
+   },
+   "6049952042443321325": {
+      "message": "Table of keyboard shortcuts"
+   },
+   "6069780031254134657": {
+      "message": "Mark as done"
+   },
+   "6113237889871930608": {
+      "message": "Blank note"
+   },
+   "6176354714840789272": {
+      "message": "You can also save links for later with the&nbsp;$2​Google Keep Chrome Extension$1​."
+   },
+   "6189397065139465013": {
+      "message": "Every"
+   },
+   "6225875898439047571": {
+      "message": "Deny"
+   },
+   "6231442995102088007": {
+      "message": "What’s new in Google Keep"
+   },
+   "6252259197986158120": {
+      "message": "Yesterday"
+   },
+   "6366376928558090914": {
+      "message": "Food"
+   },
+   "6371576811194810854": {
+      "message": "After"
+   },
+   "6402092370576716734": {
+      "message": "Empty Trash"
+   },
+   "6473102097014191455": {
+      "message": "Drawing note"
+   },
+   "6497197865876438261": {
+      "message": "Music"
+   },
+   "6510131849363684615": {
+      "message": "Tomorrow"
+   },
+   "6579707685908557993": {
+      "message": "Evening"
+   },
+   "6755327423364814290": {
+      "message": "Make notes faster with the app"
+   },
+   "6822520214440117457": {
+      "message": "Work"
+   },
+   "689017442055275529": {
+      "message": "$1​'s Family Group"
+   },
+   "6982321568096234183": {
+      "message": "Download Audio ($1​)"
+   },
+   "7005745151564974365": {
+      "message": "Keyboard shortcuts"
+   },
+   "7102649289752747375": {
+      "message": "Send feedback"
+   },
+   "7174409400206281023": {
+      "message": "Conflicting edits found"
+   },
+   "7207109722898253285": {
+      "message": "Keep selected"
+   },
+   "7254411458460045711": {
+      "message": "Update failed, please try again later. If you're currently offline, please connect to the internet before retrying."
+   },
+   "7301081435623917576": {
+      "message": "Reminder Defaults"
+   },
+   "7330497278645626593": {
+      "message": "Try it"
+   },
+   "7379369644162401367": {
+      "message": "Remove them"
+   },
+   "7381817875028728077": {
+      "message": "No thanks"
+   },
+   "7384785369409503695": {
+      "message": "Enable dark theme"
+   },
+   "7420364754178516134": {
+      "message": "Debug tools"
+   },
+   "7430680760319628492": {
+      "message": "Review"
+   },
+   "7510155920769316048": {
+      "message": "Notes and Lists"
+   },
+   "7528441140724145783": {
+      "message": "Edit labels"
+   },
+   "7565795669925550891": {
+      "message": "Shared from"
+   },
+   "7579280421767578228": {
+      "message": "Reminder for Someday"
+   },
+   "7585826646011739428": {
+      "message": "Edit"
+   },
+   "7624042048123264803": {
+      "message": "Open note"
+   },
+   "7669846901402551021": {
+      "message": "Today"
+   },
+   "7735981667219692675": {
+      "message": "{resultCount, plural, =1 {# search result} other {# search results}}"
+   },
+   "7819314041543176992": {
+      "message": "Close"
+   },
+   "7873060817438017568": {
+      "message": "$2​ · $1​"
+   },
+   "7911416166208830577": {
+      "message": "Help"
+   },
+   "7934833136974560675": {
+      "message": "Retry"
+   },
+   "8104421162933956065": {
+      "message": "Notes"
+   },
+   "8133866583554546341": {
+      "message": "$1​, $2​"
+   },
+   "8149439558305434788": {
+      "message": "$1​, $2​"
+   },
+   "8193677552005249631": {
+      "message": "App downloads"
+   },
+   "819996403327805209": {
+      "message": "Learn more"
+   },
+   "8229434427096481545": {
+      "message": "Updates available"
+   },
+   "824468664656304495": {
+      "message": "You’re offline. Some functionality may be unavailable."
+   },
+   "8342620486324515462": {
+      "message": "Dismiss"
+   },
+   "8412733496413412439": {
+      "message": "Offline"
+   },
+   "8422875188929347819": {
+      "message": "Sharing"
+   },
+   "8506292502710287776": {
+      "message": "Taking long notes? We’ll automatically add more space as you get to the bottom."
+   },
+   "8559513397356310933": {
+      "message": "Add new items to the bottom"
+   },
+   "857379832182429172": {
+      "message": "Turn it on"
+   },
+   "8602525917014156029": {
+      "message": "Places"
+   },
+   "8611058223830804795": {
+      "message": "Move checked items to bottom"
+   },
+   "8663507590720636709": {
+      "message": "$1​ +$2​ more"
+   },
+   "8775097441636640256": {
+      "message": "$2​ - $1​"
+   },
+   "8797656338249040679": {
+      "message": "$2​Install the Google Keep Chrome extension$1​ to save the things that you care about to Keep in a single click."
+   },
+   "8831459317888986184": {
+      "message": "Delete selected"
+   },
+   "8903612093856047007": {
+      "message": "Collaborators"
+   },
+   "8905995985388209337": {
+      "message": "Accept"
+   },
+   "8930959387403789939": {
+      "message": "Reminder"
+   },
+   "8990769651805334695": {
+      "message": "On"
+   },
+   "900086393693234779": {
+      "message": "Home"
+   },
+   "911698676339750373": {
+      "message": "Family Group"
+   },
+   "9129734193759025482": {
+      "message": "Tomorrow"
+   },
+   "9146862513672039744": {
+      "message": "Wipe account"
+   },
+   "9207517187376875555": {
+      "message": "Use Keep in your web browser"
+   },
+   "appDesc": {
+      "description": "App description",
+      "message": "Quickly capture what's on your mind and share those thoughts with friends and family."
+   },
+   "appName": {
+      "description": "App name",
+      "message": "Google Keep - Notes and Lists"
+   },
+   "shortName": {
+      "description": "App short name",
+      "message": "Google Keep"
+   }
+}

@@ -1,0 +1,494 @@
+{
+   "1055686627716339120": {
+      "message": "Lưu trữ"
+   },
+   "1102717806459547726": {
+      "message": "Làm mới"
+   },
+   "1122146167985532789": {
+      "message": "hôm qua"
+   },
+   "116696227691552491": {
+      "message": "Chọn địa điểm"
+   },
+   "1171339122262740595": {
+      "message": "Ứng dụng Keep dành cho Chrome đã ngừng hoạt động. Hãy truy cập vào trang keep.google.com để tiếp tục sử dụng Keep."
+   },
+   "1248242541854939846": {
+      "message": "Sửa các nội dung chỉnh sửa xung đột"
+   },
+   "125962421212090538": {
+      "message": "Tuần tới"
+   },
+   "1333255388111908292": {
+      "message": "Hàng tạp hóa"
+   },
+   "1338300799355131761": {
+      "message": "Ghi chú không có tiêu đề"
+   },
+   "1365216822837281424": {
+      "message": "Tiện ích của Chrome"
+   },
+   "1377158635423797368": {
+      "message": "Đi đến một nhãn"
+   },
+   "1388712764439031120": {
+      "message": "Mở đường liên kết"
+   },
+   "1429848477922945853": {
+      "message": "Ghi chú trống"
+   },
+   "146276399441370821": {
+      "message": "Mở keep.google.com"
+   },
+   "1512114410402431831": {
+      "message": "Làm mới"
+   },
+   "1536087519743707362": {
+      "message": "Đóng"
+   },
+   "1675711464233426777": {
+      "message": "Lúc khác trong ngày hôm nay"
+   },
+   "1694896269813520248": {
+      "message": "Thêm bản vẽ"
+   },
+   "1770899865480106963": {
+      "message": "Thiết bị Android"
+   },
+   "1790494039990261456": {
+      "message": "Giữ cả hai"
+   },
+   "1858255237143975969": {
+      "message": "$2​Quyền riêng tư$1​"
+   },
+   "187077078156858455": {
+      "message": "Ghi chú âm thanh"
+   },
+   "1963323419655107448": {
+      "message": "Xóa các mục đã chọn"
+   },
+   "205445381296663832": {
+      "message": "Không tải lên được."
+   },
+   "2159130950882492111": {
+      "message": "Hủy"
+   },
+   "2184278444368405837": {
+      "message": "$1​ mục"
+   },
+   "2323249770683736002": {
+      "message": "Tạo nhãn mới"
+   },
+   "2438741853303074449": {
+      "message": "lần lặp lại"
+   },
+   "2452145367257933677": {
+      "message": "Hoàn tác"
+   },
+   "2455647485809380838": {
+      "message": "Quản lý lời nhắc mà không cần ghi chú"
+   },
+   "246828342952819465": {
+      "message": "Ghi lại suy nghĩ của bạn $1​ từ mọi thiết bị"
+   },
+   "2509141182388535183": {
+      "message": "Xem"
+   },
+   "2542788471536661524": {
+      "message": "Thả ảnh ở đây"
+   },
+   "2632538140519286364": {
+      "message": "Ghi chú trong Thùng rác bị xóa sau 7 ngày."
+   },
+   "2680303811435018716": {
+      "message": "Không thể thêm các mục khác"
+   },
+   "2814354342017225342": {
+      "message": "Hiển thị bản xem trước liên kết đa phương tiện"
+   },
+   "2930974997943171554": {
+      "message": "Đã tắt giao diện tối"
+   },
+   "2971623719720688041": {
+      "message": "Đã hoàn tác tác vụ"
+   },
+   "2973306402585941108": {
+      "message": "Sáng"
+   },
+   "2983318659047499045": {
+      "message": "Lời nhắc"
+   },
+   "2989422642644963524": {
+      "message": "Đã đặt lời nhắc cho $1​"
+   },
+   "3074915509081765994": {
+      "message": "iPhone và iPad"
+   },
+   "3091440425606975088": {
+      "message": "Danh sách không có tiêu đề"
+   },
+   "3121560585545725724": {
+      "message": "$1​, $2​"
+   },
+   "3190546672187601036": {
+      "message": "Đêm"
+   },
+   "3249966726137025950": {
+      "message": "Nhóm gia đình của cộng tác viên"
+   },
+   "3258100527833044153": {
+      "message": "Đã hủy bản vẽ trống"
+   },
+   "3378875258397512442": {
+      "message": "Đặt lời nhắc cho các ghi chú về địa điểm và thời gian, tạo ghi chú bằng giọng nói và làm việc trực tuyến hoặc ngoại tuyến."
+   },
+   "3385831848537487538": {
+      "message": "Du lịch"
+   },
+   "3418677553313974490": {
+      "message": "Thùng rác"
+   },
+   "3462556632501534753": {
+      "message": "$2​Giấy phép nguồn mở$1​"
+   },
+   "3551522853788442530": {
+      "message": "Quay lại"
+   },
+   "3571391964903695725": {
+      "message": "Lặp lại"
+   },
+   "3571704286086017611": {
+      "message": "Đã xóa lời nhắc"
+   },
+   "3580243353280636963": {
+      "message": "Chọn ngày và giờ"
+   },
+   "3608521102844050208": {
+      "message": "Lời nhắc:"
+   },
+   "3714239567487848851": {
+      "message": "Đã bật giao diện tối"
+   },
+   "3768927257183755959": {
+      "message": "Lưu"
+   },
+   "3823114520994436161": {
+      "message": "Cập nhật lên keep.google.com"
+   },
+   "3852386690131857488": {
+      "message": "Bật tính năng chia sẻ"
+   },
+   "3907816292084809686": {
+      "message": "Đã làm lại thao tác"
+   },
+   "395680759377627007": {
+      "message": "Tạo \"$3​$2​$1​\""
+   },
+   "397098723873502323": {
+      "message": "Xong"
+   },
+   "3989925953740167133": {
+      "message": "Google Keep muốn sử dụng vị trí của bạn để cải tiến đề xuất địa điểm cho lời nhắc vị trí."
+   },
+   "4174786386751618325": {
+      "message": "Ghi chú ảnh"
+   },
+   "4191000901158114852": {
+      "message": "Google Keep"
+   },
+   "4343848624651344174": {
+      "message": "Chiều"
+   },
+   "4494250072784000771": {
+      "message": "Đã phát hiện thấy bút cảm ứng. Tính năng Xoay bằng thao tác chạm đã được bật."
+   },
+   "4514241210910366093": {
+      "message": "Chế độ xem lưới"
+   },
+   "4533605085334699862": {
+      "message": "Trích dẫn"
+   },
+   "456512308416555173": {
+      "message": "Sách"
+   },
+   "4734349318830134239": {
+      "message": "Ngày kết thúc"
+   },
+   "4840513623749850224": {
+      "message": "Phim"
+   },
+   "4930506384627295710": {
+      "message": "Cài đặt"
+   },
+   "4963533275503057654": {
+      "message": "Đang tạo hình thu nhỏ..."
+   },
+   "4974261966265341751": {
+      "message": "Tắt chế độ tối"
+   },
+   "5000971639019912199": {
+      "message": "$2​Điều khoản$1​"
+   },
+   "5259541708332520733": {
+      "message": "Đã xóa nguồn"
+   },
+   "527438013974545289": {
+      "message": "Giao diện tối đã ra mắt"
+   },
+   "5275304974990264425": {
+      "message": "Chế độ xem danh sách"
+   },
+   "5403636185480096151": {
+      "message": "TV"
+   },
+   "5422660126805186552": {
+      "message": "Tận hưởng trải nghiệm đọc thoải mái hơn. Bật hoặc tắt tính năng này trong phần Cài đặt."
+   },
+   "546766753072101168": {
+      "message": "Nhãn"
+   },
+   "5510222038351634163": {
+      "message": "Tìm hiểu thêm về việc ngừng cung cấp Keep trên Ứng dụng Chrome"
+   },
+   "5570885401952336951": {
+      "message": "Nhật ký ứng dụng"
+   },
+   "5592884381280360832": {
+      "message": "Đã hiểu"
+   },
+   "5601530442010506564": {
+      "message": "Đã hiểu"
+   },
+   "5652536812290902558": {
+      "message": "Tải tệp âm thanh xuống"
+   },
+   "5994697604396931641": {
+      "message": "Xóa tất cả"
+   },
+   "6049952042443321325": {
+      "message": "Bảng phím tắt"
+   },
+   "6069780031254134657": {
+      "message": "Đánh dấu là hoàn tất"
+   },
+   "6113237889871930608": {
+      "message": "Ghi chú trống"
+   },
+   "6176354714840789272": {
+      "message": "Bạn cũng có thể lưu đường liên kết để xem sau bằng&nbsp;$2​Tiện ích Google Keep cho Chrome$1​."
+   },
+   "6189397065139465013": {
+      "message": "Mỗi"
+   },
+   "6225875898439047571": {
+      "message": "Từ chối"
+   },
+   "6231442995102088007": {
+      "message": "Tính năng mới trong Google Keep"
+   },
+   "6252259197986158120": {
+      "message": "Hôm qua"
+   },
+   "6366376928558090914": {
+      "message": "Thực phẩm"
+   },
+   "6371576811194810854": {
+      "message": "Sau"
+   },
+   "6402092370576716734": {
+      "message": "Dọn sạch thùng rác"
+   },
+   "6473102097014191455": {
+      "message": "Ghi chú có bản vẽ"
+   },
+   "6497197865876438261": {
+      "message": "Âm nhạc"
+   },
+   "6510131849363684615": {
+      "message": "Ngày mai"
+   },
+   "6579707685908557993": {
+      "message": "Tối"
+   },
+   "6755327423364814290": {
+      "message": "Ứng dụng giúp bạn tạo ghi chú nhanh hơn"
+   },
+   "6822520214440117457": {
+      "message": "Cơ quan"
+   },
+   "689017442055275529": {
+      "message": "Nhóm gia đình của $1​"
+   },
+   "6982321568096234183": {
+      "message": "Tải tệp âm thanh xuống ($1​)"
+   },
+   "7005745151564974365": {
+      "message": "Phím tắt"
+   },
+   "7102649289752747375": {
+      "message": "Gửi phản hồi"
+   },
+   "7174409400206281023": {
+      "message": "Đã tìm thấy các nội dung chỉnh sửa xung đột"
+   },
+   "7207109722898253285": {
+      "message": "Giữ các bản ghi chú đã chọn"
+   },
+   "7254411458460045711": {
+      "message": "Không cập nhật được, vui lòng thử lại sau. Nếu bạn đang ngoại tuyến, vui lòng kết nối Internet rồi thử lại."
+   },
+   "7301081435623917576": {
+      "message": "Cài đặt mặc định cho lời nhắc"
+   },
+   "7330497278645626593": {
+      "message": "Hãy dùng thử"
+   },
+   "7379369644162401367": {
+      "message": "Xóa nhóm cộng tác viên"
+   },
+   "7381817875028728077": {
+      "message": "Không, cảm ơn"
+   },
+   "7384785369409503695": {
+      "message": "Bật giao diện tối"
+   },
+   "7420364754178516134": {
+      "message": "Công cụ gỡ lỗi"
+   },
+   "7430680760319628492": {
+      "message": "Xem lại"
+   },
+   "7510155920769316048": {
+      "message": "Ghi chú và danh sách"
+   },
+   "7528441140724145783": {
+      "message": "Chỉnh sửa nhãn"
+   },
+   "7565795669925550891": {
+      "message": "Được chia sẻ từ"
+   },
+   "7579280421767578228": {
+      "message": "Lời nhắc cho ngày nào đó"
+   },
+   "7585826646011739428": {
+      "message": "Chỉnh sửa"
+   },
+   "7624042048123264803": {
+      "message": "Mở ghi chú"
+   },
+   "7669846901402551021": {
+      "message": "Hôm nay"
+   },
+   "7735981667219692675": {
+      "message": "{resultCount,plural, =1{# kết quả tìm kiếm}other{# kết quả tìm kiếm}}"
+   },
+   "7819314041543176992": {
+      "message": "Đóng"
+   },
+   "7873060817438017568": {
+      "message": "$2​ · $1​"
+   },
+   "7911416166208830577": {
+      "message": "Trợ giúp"
+   },
+   "7934833136974560675": {
+      "message": "Thử lại"
+   },
+   "8104421162933956065": {
+      "message": "Ghi chú"
+   },
+   "8133866583554546341": {
+      "message": "$1​, $2​"
+   },
+   "8149439558305434788": {
+      "message": "$1​, $2​"
+   },
+   "8193677552005249631": {
+      "message": "Ứng dụng đã tải xuống"
+   },
+   "819996403327805209": {
+      "message": "Tìm hiểu thêm"
+   },
+   "8229434427096481545": {
+      "message": "Đã có dữ liệu mới"
+   },
+   "824468664656304495": {
+      "message": "Bạn đang không có kết nối mạng. Bạn có thể không sử dụng được một số chức năng."
+   },
+   "8342620486324515462": {
+      "message": "Loại bỏ"
+   },
+   "8412733496413412439": {
+      "message": "Ngoại tuyến"
+   },
+   "8422875188929347819": {
+      "message": "Chia sẻ"
+   },
+   "8506292502710287776": {
+      "message": "Bạn đang viết ghi chú dài? Chúng tôi sẽ tự động thêm khoảng trống khi bạn ghi chú đến phần cuối."
+   },
+   "8559513397356310933": {
+      "message": "Thêm mục mới vào cuối danh sách"
+   },
+   "857379832182429172": {
+      "message": "Bật"
+   },
+   "8602525917014156029": {
+      "message": "Vị trí"
+   },
+   "8611058223830804795": {
+      "message": "Chuyển mục đã chọn xuống cuối danh sách"
+   },
+   "8663507590720636709": {
+      "message": "$1​ +$2​ mục khác"
+   },
+   "8775097441636640256": {
+      "message": "$2​ - $1​"
+   },
+   "8797656338249040679": {
+      "message": "$2​Cài đặt tiện ích Google Keep cho Chrome$1​ để lưu những nội dung quan trọng vào Keep chỉ bằng một lần nhấp chuột."
+   },
+   "8831459317888986184": {
+      "message": "Xóa lời nhắc đã chọn"
+   },
+   "8903612093856047007": {
+      "message": "Cộng tác viên"
+   },
+   "8905995985388209337": {
+      "message": "Chấp nhận"
+   },
+   "8930959387403789939": {
+      "message": "Lời nhắc"
+   },
+   "8990769651805334695": {
+      "message": "Vào"
+   },
+   "900086393693234779": {
+      "message": "Nhà riêng"
+   },
+   "911698676339750373": {
+      "message": "Nhóm gia đình"
+   },
+   "9129734193759025482": {
+      "message": "Ngày mai"
+   },
+   "9146862513672039744": {
+      "message": "Xóa sạch tài khoản"
+   },
+   "9207517187376875555": {
+      "message": "Sử dụng Keep trong trình duyệt web"
+   },
+   "appDesc": {
+      "description": "App description",
+      "message": "Nhanh chóng ghi lại suy nghĩ của bạn và chia sẻ những suy nghĩ đó với bạn bè và gia đình."
+   },
+   "appName": {
+      "description": "App name",
+      "message": "Google Keep - ghi chú và danh sách"
+   },
+   "shortName": {
+      "description": "App short name",
+      "message": "Google Keep"
+   }
+}

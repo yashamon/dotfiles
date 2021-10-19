@@ -1,0 +1,494 @@
+{
+   "1055686627716339120": {
+      "message": "Archief"
+   },
+   "1102717806459547726": {
+      "message": "Vernieuwen"
+   },
+   "1122146167985532789": {
+      "message": "gisteren"
+   },
+   "116696227691552491": {
+      "message": "Plaats kiezen"
+   },
+   "1171339122262740595": {
+      "message": "De Chrome-app voor Keep wordt niet meer ondersteund. Je kunt Keep blijven gebruiken via keep.google.com."
+   },
+   "1248242541854939846": {
+      "message": "Conflicterende bewerkingen oplossen"
+   },
+   "125962421212090538": {
+      "message": "Volgende week"
+   },
+   "1333255388111908292": {
+      "message": "Boodschappen"
+   },
+   "1338300799355131761": {
+      "message": "Naamloze notitie"
+   },
+   "1365216822837281424": {
+      "message": "Chrome-extensie"
+   },
+   "1377158635423797368": {
+      "message": "Ga naar label"
+   },
+   "1388712764439031120": {
+      "message": "Link openen"
+   },
+   "1429848477922945853": {
+      "message": "Lege notitie"
+   },
+   "146276399441370821": {
+      "message": "keep.google.com openen"
+   },
+   "1512114410402431831": {
+      "message": "Vernieuwen"
+   },
+   "1536087519743707362": {
+      "message": "Sluiten"
+   },
+   "1675711464233426777": {
+      "message": "Later vandaag"
+   },
+   "1694896269813520248": {
+      "message": "Tekening toevoegen"
+   },
+   "1770899865480106963": {
+      "message": "Android-apparaten"
+   },
+   "1790494039990261456": {
+      "message": "Beide bewaren"
+   },
+   "1858255237143975969": {
+      "message": "$2​Privacy$1​"
+   },
+   "187077078156858455": {
+      "message": "Audionotitie"
+   },
+   "1963323419655107448": {
+      "message": "Aangevinkte items verwijderen"
+   },
+   "205445381296663832": {
+      "message": "Upload mislukt."
+   },
+   "2159130950882492111": {
+      "message": "Annuleren"
+   },
+   "2184278444368405837": {
+      "message": "$1​ items"
+   },
+   "2323249770683736002": {
+      "message": "Nieuw label maken"
+   },
+   "2438741853303074449": {
+      "message": "keer"
+   },
+   "2452145367257933677": {
+      "message": "Ongedaan maken"
+   },
+   "2455647485809380838": {
+      "message": "Herinneringen zonder notities beheren"
+   },
+   "246828342952819465": {
+      "message": "Leg je gedachten vast $1​ vanaf elk apparaat"
+   },
+   "2509141182388535183": {
+      "message": "Bekijken"
+   },
+   "2542788471536661524": {
+      "message": "Sleep afbeeldingen hierheen"
+   },
+   "2632538140519286364": {
+      "message": "Notities in de prullenbak worden na zeven dagen verwijderd."
+   },
+   "2680303811435018716": {
+      "message": "Kan niet meer items toevoegen"
+   },
+   "2814354342017225342": {
+      "message": "Linkvoorbeelden met opmaak weergeven"
+   },
+   "2930974997943171554": {
+      "message": "Donker thema uitgeschakeld"
+   },
+   "2971623719720688041": {
+      "message": "Actie ongedaan gemaakt"
+   },
+   "2973306402585941108": {
+      "message": "Ochtend"
+   },
+   "2983318659047499045": {
+      "message": "Herinneringen"
+   },
+   "2989422642644963524": {
+      "message": "Herinnering ingesteld voor $1​"
+   },
+   "3074915509081765994": {
+      "message": "iPhone en iPad"
+   },
+   "3091440425606975088": {
+      "message": "Naamloze lijst"
+   },
+   "3121560585545725724": {
+      "message": "$1​, $2​"
+   },
+   "3190546672187601036": {
+      "message": "Avond"
+   },
+   "3249966726137025950": {
+      "message": "Gezinsgroep van bijdrager"
+   },
+   "3258100527833044153": {
+      "message": "Lege tekening weggegooid"
+   },
+   "3378875258397512442": {
+      "message": "Stel herinneringen op plaats en tijd in voor notities, maak spraaknotities en werk online of offline."
+   },
+   "3385831848537487538": {
+      "message": "Reizen"
+   },
+   "3418677553313974490": {
+      "message": "Prullenbak"
+   },
+   "3462556632501534753": {
+      "message": "$2​Opensource-licenties$1​"
+   },
+   "3551522853788442530": {
+      "message": "Terug"
+   },
+   "3571391964903695725": {
+      "message": "Herhalen"
+   },
+   "3571704286086017611": {
+      "message": "Herinnering verwijderd"
+   },
+   "3580243353280636963": {
+      "message": "Datum en tijd kiezen"
+   },
+   "3608521102844050208": {
+      "message": "Herinnering:"
+   },
+   "3714239567487848851": {
+      "message": "Donker thema ingeschakeld"
+   },
+   "3768927257183755959": {
+      "message": "Opslaan"
+   },
+   "3823114520994436161": {
+      "message": "Updaten naar keep.google.com"
+   },
+   "3852386690131857488": {
+      "message": "Delen inschakelen"
+   },
+   "3907816292084809686": {
+      "message": "Actie opnieuw uitgevoerd"
+   },
+   "395680759377627007": {
+      "message": "‘$3​$2​$1​’ maken"
+   },
+   "397098723873502323": {
+      "message": "Klaar"
+   },
+   "3989925953740167133": {
+      "message": "Google Keep wil je locatie gebruiken om plaatssuggesties voor herinneringen op locatie te verbeteren."
+   },
+   "4174786386751618325": {
+      "message": "Fotonotitie"
+   },
+   "4191000901158114852": {
+      "message": "Google Keep"
+   },
+   "4343848624651344174": {
+      "message": "Middag"
+   },
+   "4494250072784000771": {
+      "message": "Stylus gedetecteerd. 'Schuiven met vingers' is ingeschakeld."
+   },
+   "4514241210910366093": {
+      "message": "Rasterweergave"
+   },
+   "4533605085334699862": {
+      "message": "Citaten"
+   },
+   "456512308416555173": {
+      "message": "Boeken"
+   },
+   "4734349318830134239": {
+      "message": "Eindigt"
+   },
+   "4840513623749850224": {
+      "message": "Films"
+   },
+   "4930506384627295710": {
+      "message": "Instellingen"
+   },
+   "4963533275503057654": {
+      "message": "Miniatuur maken..."
+   },
+   "4974261966265341751": {
+      "message": "Donker thema uitschakelen"
+   },
+   "5000971639019912199": {
+      "message": "$2​Voorwaarden$1​"
+   },
+   "5259541708332520733": {
+      "message": "Bron verwijderd"
+   },
+   "527438013974545289": {
+      "message": "Probeer het donkere thema"
+   },
+   "5275304974990264425": {
+      "message": "Lijstweergave"
+   },
+   "5403636185480096151": {
+      "message": "Tv"
+   },
+   "5422660126805186552": {
+      "message": "Belast je ogen minder tijdens het lezen. Je kunt de donkere modus in- of uitschakelen in de instellingen."
+   },
+   "546766753072101168": {
+      "message": "Labels"
+   },
+   "5510222038351634163": {
+      "message": "Meer informatie over de beëindiging van de Chrome-app voor Keep"
+   },
+   "5570885401952336951": {
+      "message": "Clientlogboek"
+   },
+   "5592884381280360832": {
+      "message": "OK"
+   },
+   "5601530442010506564": {
+      "message": "OK"
+   },
+   "5652536812290902558": {
+      "message": "Audio downloaden"
+   },
+   "5994697604396931641": {
+      "message": "Alles verwijderen"
+   },
+   "6049952042443321325": {
+      "message": "Tabel met sneltoetsen"
+   },
+   "6069780031254134657": {
+      "message": "Markeren als klaar"
+   },
+   "6113237889871930608": {
+      "message": "Lege notitie"
+   },
+   "6176354714840789272": {
+      "message": "Je kunt ook links opslaan met de&nbsp;$2​Chrome-extensie voor Google Keep$1​."
+   },
+   "6189397065139465013": {
+      "message": "Elke"
+   },
+   "6225875898439047571": {
+      "message": "Weigeren"
+   },
+   "6231442995102088007": {
+      "message": "Nieuw in Google Keep"
+   },
+   "6252259197986158120": {
+      "message": "Gisteren"
+   },
+   "6366376928558090914": {
+      "message": "Eten"
+   },
+   "6371576811194810854": {
+      "message": "Na"
+   },
+   "6402092370576716734": {
+      "message": "Prullenbak leegmaken"
+   },
+   "6473102097014191455": {
+      "message": "Notitie met tekening"
+   },
+   "6497197865876438261": {
+      "message": "Muziek"
+   },
+   "6510131849363684615": {
+      "message": "Morgen"
+   },
+   "6579707685908557993": {
+      "message": "Namiddag"
+   },
+   "6755327423364814290": {
+      "message": "Sneller notities maken met de app"
+   },
+   "6822520214440117457": {
+      "message": "Werk"
+   },
+   "689017442055275529": {
+      "message": "Gezinsgroep van $1​"
+   },
+   "6982321568096234183": {
+      "message": "Audio downloaden ($1​)"
+   },
+   "7005745151564974365": {
+      "message": "Sneltoetsen"
+   },
+   "7102649289752747375": {
+      "message": "Feedback sturen"
+   },
+   "7174409400206281023": {
+      "message": "Conflicterende bewerkingen gevonden"
+   },
+   "7207109722898253285": {
+      "message": "Geselecteerde bewaren"
+   },
+   "7254411458460045711": {
+      "message": "Update mislukt. Probeer het later opnieuw. Als je momenteel offline bent, moet je verbinding met internet maken voordat je het opnieuw probeert."
+   },
+   "7301081435623917576": {
+      "message": "Standaardherinneringen"
+   },
+   "7330497278645626593": {
+      "message": "Proberen"
+   },
+   "7379369644162401367": {
+      "message": "Verwijderen"
+   },
+   "7381817875028728077": {
+      "message": "Nee, bedankt"
+   },
+   "7384785369409503695": {
+      "message": "Donker thema inschakelen"
+   },
+   "7420364754178516134": {
+      "message": "Foutopsporingstools"
+   },
+   "7430680760319628492": {
+      "message": "Bekijken"
+   },
+   "7510155920769316048": {
+      "message": "Notities en lijsten"
+   },
+   "7528441140724145783": {
+      "message": "Labels bewerken"
+   },
+   "7565795669925550891": {
+      "message": "Gedeeld door"
+   },
+   "7579280421767578228": {
+      "message": "Herinnering voor Ooit"
+   },
+   "7585826646011739428": {
+      "message": "Bewerken"
+   },
+   "7624042048123264803": {
+      "message": "Notitie openen"
+   },
+   "7669846901402551021": {
+      "message": "Vandaag"
+   },
+   "7735981667219692675": {
+      "message": "{resultCount,plural, =1{# zoekresultaat}other{# zoekresultaten}}"
+   },
+   "7819314041543176992": {
+      "message": "Sluiten"
+   },
+   "7873060817438017568": {
+      "message": "$2​ · $1​"
+   },
+   "7911416166208830577": {
+      "message": "Help"
+   },
+   "7934833136974560675": {
+      "message": "Opnieuw proberen"
+   },
+   "8104421162933956065": {
+      "message": "Notities"
+   },
+   "8133866583554546341": {
+      "message": "$1​, $2​"
+   },
+   "8149439558305434788": {
+      "message": "$1​, $2​"
+   },
+   "8193677552005249631": {
+      "message": "App-downloads"
+   },
+   "819996403327805209": {
+      "message": "Meer informatie"
+   },
+   "8229434427096481545": {
+      "message": "Updates beschikbaar"
+   },
+   "824468664656304495": {
+      "message": "Je bent offline. Sommige functies zijn mogelijk niet beschikbaar."
+   },
+   "8342620486324515462": {
+      "message": "Sluiten"
+   },
+   "8412733496413412439": {
+      "message": "Offline"
+   },
+   "8422875188929347819": {
+      "message": "Delen"
+   },
+   "8506292502710287776": {
+      "message": "Maak je lange notities? Er wordt automatisch meer ruimte toegevoegd als je onderaan bent."
+   },
+   "8559513397356310933": {
+      "message": "Nieuwe items onderaan toevoegen"
+   },
+   "857379832182429172": {
+      "message": "Inschakelen"
+   },
+   "8602525917014156029": {
+      "message": "Plaatsen"
+   },
+   "8611058223830804795": {
+      "message": "Aangevinkte items onderaan plaatsen"
+   },
+   "8663507590720636709": {
+      "message": "$1​ + $2​ meer"
+   },
+   "8775097441636640256": {
+      "message": "$2​ - $1​"
+   },
+   "8797656338249040679": {
+      "message": "$2​Installeer de Chrome-extensie voor Google Keep$1​, zodat je belangrijke items met één klik in Keep kunt opslaan."
+   },
+   "8831459317888986184": {
+      "message": "Geselecteerde verwijderen"
+   },
+   "8903612093856047007": {
+      "message": "Bijdragers"
+   },
+   "8905995985388209337": {
+      "message": "Accepteren"
+   },
+   "8930959387403789939": {
+      "message": "Herinnering"
+   },
+   "8990769651805334695": {
+      "message": "Op"
+   },
+   "900086393693234779": {
+      "message": "Thuis"
+   },
+   "911698676339750373": {
+      "message": "Gezinsgroep"
+   },
+   "9129734193759025482": {
+      "message": "Morgen"
+   },
+   "9146862513672039744": {
+      "message": "Account wissen"
+   },
+   "9207517187376875555": {
+      "message": "Gebruik Keep in je webbrowser"
+   },
+   "appDesc": {
+      "description": "App description",
+      "message": "Leg snel uw gedachten vast en deel deze met vrienden en familie."
+   },
+   "appName": {
+      "description": "App name",
+      "message": "Google Keep - notities en lijsten"
+   },
+   "shortName": {
+      "description": "App short name",
+      "message": "Google Keep"
+   }
+}

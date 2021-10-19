@@ -1,0 +1,74 @@
+{
+   "appDescription": {
+      "description": "Application description",
+      "message": "This application provides File System for your OneDrive storage."
+   },
+   "appName": {
+      "description": "Application name",
+      "message": "File System for OneDrive"
+   },
+   "appTitle": {
+      "description": "Header describing the server mount form.",
+      "message": "OneDrive for ChromeOS"
+   },
+   "bugConfigText": {
+      "description": "Manage your data collection preferences.",
+      "message": "Automatic Bug Reporting"
+   },
+   "bugLinkText": {
+      "description": "Link to Issues on GitHub.",
+      "message": "Log a bug with OneDrive for ChromeOS"
+   },
+   "bugLinkTitle": {
+      "description": "Link to Issues on GitHub.",
+      "message": "Get Support"
+   },
+   "configFilesLimitText": {
+      "description": "Files limit configuration option.",
+      "message": "Opened files limit"
+   },
+   "configManageLinkText": {
+      "description": "Link to Microsoft Account permissions page.",
+      "message": "Manage Linked Applications  "
+   },
+   "configManageSectionText": {
+      "description": "Microsoft Account management.",
+      "message": "Your Microsoft Account"
+   },
+   "configSyncFilesText": {
+      "description": "File sync configuration option.",
+      "message": "Synchronize files/directories automatically"
+   },
+   "mount": {
+      "description": "Label for a button that triggers the mount action.",
+      "message": "Mount"
+   },
+   "mountAttempt": {
+      "description": "Popup notifcation that informs the user that the system is attempting to mount a new instance with the credentials they provided.",
+      "message": "Attempting to mount instance..."
+   },
+   "mountFail": {
+      "description": "Popup notifcation that informs the user that the system failed to mount a new instance with the credentials they provided.",
+      "message": "Failed to mount."
+   },
+   "mountHeader": {
+      "description": "Header describing the server mount form.",
+      "message": "Mount your OneDrive"
+   },
+   "mountSuccess": {
+      "description": "Popup notifcation that informs the user that the system successfully mounted a new instance with the credentials they provided.",
+      "message": "Mounted successfully."
+   },
+   "privacyLink": {
+      "description": "How we manage your data, privacy and keep you secure.",
+      "message": "Privacy policy."
+   },
+   "privacyLinkText": {
+      "description": "Privacy options to enable and disable automatic bug reporting.",
+      "message": "Enable or disabable automatic bug reporting"
+   },
+   "shortName": {
+      "description": "Application short name",
+      "message": "OneDrive"
+   }
+}
