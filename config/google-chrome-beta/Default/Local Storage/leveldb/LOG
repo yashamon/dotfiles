@@ -1,3 +1,6 @@
 2021/10/18-18:45:26.546 1f2d Reusing MANIFEST /home/yasha/.config/google-chrome-beta/Default/Local Storage/leveldb/MANIFEST-000001
 2021/10/18-18:45:26.546 1f2d Recovering log #4
 2021/10/18-18:45:26.546 1f2d Reusing old log /home/yasha/.config/google-chrome-beta/Default/Local Storage/leveldb/000004.log 
+2021/10/18-22:48:45.685 fea0 Level-0 table #8: started
+2021/10/18-22:48:45.689 fea0 Level-0 table #8: 16415 bytes OK
+2021/10/18-22:48:45.696 fea0 Delete type=0 #4
