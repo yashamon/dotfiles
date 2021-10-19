@@ -1095,7 +1095,7 @@
   },
  
 "product": {
-    "prefix": ["bic"],
+    "prefix": ["prod"],
     "body": [
       "\\bigcap _{$1} $0"
     ],
