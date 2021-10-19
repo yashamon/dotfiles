@@ -1094,6 +1094,13 @@
     "description": "definition"
   },
  
+"product": {
+    "prefix": ["bic"],
+    "body": [
+      "\\bigcap _{$1} $0"
+    ],
+    "description": "big intersection"
+  },
 
 "big intersection cap": {
     "prefix": ["bic"],
