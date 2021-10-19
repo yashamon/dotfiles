@@ -1097,7 +1097,7 @@
 "product": {
     "prefix": ["prod"],
     "body": [
-      "\\product _{$1} $0"
+      "\\prod _{$1} $0"
     ],
     "description": "big intersection"
   },
