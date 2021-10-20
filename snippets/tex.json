@@ -1,4 +1,9 @@
 {
+I started using neovim with the earliest alpha 0.0.1 because I could use all alt bindings in 
+terminal. Is this still impossible in vim? There were a few other things but that was huge. It is worth adding that it was 
+already stable back then.  These days though there are 
+incredible features, for example this whole comment was typed in nvim  using firenvim browser 
+plugin. (This is with all the plugins and your full config). Really nice for emails. 
 "G-bundle": {
     "prefix": "Gbun",
     "body": [
