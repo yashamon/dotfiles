@@ -391,7 +391,7 @@ nnoremap <leader>t :FloatermToggle<cr>
 
 vnoremap <m-s> :s///gc<left><left><left><left> 
 inoremap <m-s> <esc>:%s///gc<left><left><left><left>
-nnoremap <m-s> :%s///gc<left><left><left> 
+nnoremep <m-s> :%s///gc<left><left><left> 
 vmap <M-.> t.<CR>h
 nmap <M-.> t.<CR>h
 nnoremap <up> 1<C-U>
