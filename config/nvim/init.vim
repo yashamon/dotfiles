@@ -417,7 +417,7 @@ noremap D "0D
 nnoremap dd "0dd
 noremap c "0c
 noremap C "_C
-" noremap s "_x
+noremap s "_x
 
 vnoremap x "+x
 vnoremap y "+y  
