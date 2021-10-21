@@ -159,7 +159,7 @@ set guicursor=n-v-c:block,i-ci-ve:ver25,r-cr:hor20,o:hor50
 		  \,sm:block-blinkwait175-blinkoff150-blinkon175
 set spelllang=en   
 if exists('g:started_by_firenvim') 
- set lines=130
+ set lines=140
  else
 autocmd VimEnter * ZenMode
 endif
@@ -1229,7 +1229,7 @@ let g:firenvim_config = {
     \  },
     \ 'localSettings': {
         \ '.*': {
-            \ 'cmdline': 'neovim',
+            \ 'cmdline': 'nvim',
             \ 'content': 'text',
             \ 'priority': 0,
             \ 'selector': 'textarea',
