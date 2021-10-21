@@ -3,5 +3,8 @@
 \usepackage{tikz-cd}
 \usepackage{amsmath, amssymb, mathrsfs, amsfonts,  amsthm}
 \begin{document}
-eq
+\begin{equation*}
+   e ^{x ^{2}+2}
+\end{equation*}
+
 \end{document}
