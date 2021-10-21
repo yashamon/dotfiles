@@ -700,7 +700,7 @@ let g:vimtex_fold_types= {
  
 " let  g:vimtex_fold_types_defaults = 'preamble, sections, comments'
 nmap <leader>l :silent te latexmk -pvc -pdf -file-line-error -synctex=1 -interaction=nonstopmode -recorder -f -g %<cr><cr>:bp<cr> 
-nmap <leader>m :silent ! cp % backup;  pandoc  backup -s --webtex -o backup.html;  cp backup.html %<cr>:e %<cr>
+nmap <leader>m :silent ! cp % backup;  pandoc  backup -s --webtex -o backup.html; pandoc -r -s html backup.html  cp backup.html %<cr>:e %<cr>
 " <cr>
 " ; pandoc backup.html > backup.md; cp backup.md %<cr>:e %<cr>
 
