@@ -4,7 +4,7 @@
 \usepackage{amsmath, amssymb, mathrsfs, amsfonts,  amsthm}
 \begin{document}
 \begin{equation*}
-   e ^{x r}
+  \gamma \implies e 
 \end{equation*}
 
 \end{document}
