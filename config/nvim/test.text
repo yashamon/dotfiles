@@ -1,1 +1,5 @@
-rm backup.md
+\begin{centre}
+    \begin{tikzcd}
+        x \ar[r] & y
+    \end{tikzcd}
+\end{centre}
