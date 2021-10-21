@@ -1127,8 +1127,7 @@
 "Template": {
         "prefix": ["template"],
         "body": ["\\documentclass{amsart}",  
-"\usepackage{graphicx}
-\usepackage[svgnames,pdf]{pstricks}
+
 \usepackage{pst-plot,pst-eucl}
 \usepackage{color} 
 \usepackage{tikz-cd}
