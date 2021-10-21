@@ -223,7 +223,7 @@ set tm=500
 " set hlsearch		" search highlighting
 "
 if has("gui_running")	" GUI color and font settings
-  set guifont=Source\ Code\ Pro\Regular:h16
+  set guifont=Fira\ Code\ Pro\ Regular:h16
   set background=dark 
 "  set cursorline        " highlight current line
   " colorscheme gruvbox 
