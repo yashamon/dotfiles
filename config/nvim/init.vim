@@ -1222,7 +1222,8 @@ require('fm-nvim').setup{
 	}
 }
 EOF
-au GUIEnter * set fullscreen 
+au GUIEnter * set fullscreen  
+
 let fc['.*'] = { 'takeover': 'always' }
 " if exists('g:started_by_firenvim')
 "   ZenMode
