@@ -1129,7 +1129,7 @@
         "body": ["\\documentclass{amsart}",  
 "\usepackage{color}",
 "\usepackage{tikz-cd}",
-\usepackage{amsmath, amssymb, mathrsfs, amsfonts,  amsthm} 
+"\usepackage{amsmath, amssymb, mathrsfs, amsfonts,  amsthm}"
 
                "\\begin{document}",
             "\\maketitle",
