@@ -1146,7 +1146,9 @@
             "\\maketitle",
             "$0",
             "\\end{document}" 
-]
-}
+,
+        "description": ["Insert large fraction notation"]
+    }
+ },
 
 
