@@ -1127,9 +1127,7 @@
 "Template": {
         "prefix": ["template"],
         "body": ["\\documentclass{amsart}",  
-
-\usepackage{pst-plot,pst-eucl}
-\usepackage{color} 
+"\usepackage{color}"
 \usepackage{tikz-cd}
 \usepackage{color}  
 \usepackage{appendix} 
