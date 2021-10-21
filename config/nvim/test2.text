@@ -1,1 +1,10 @@
-template
+\documentclass{amsart}
+\usepackage{color}
+\usepackage{tikz-cd}
+\usepackage{amsmath, amssymb, mathrsfs, amsfonts,  amsthm}
+\begin{document}
+\begin{equation*}
+   \gamma \implies e
+\end{equation*}
+
+\end{document}
