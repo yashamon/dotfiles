@@ -1206,7 +1206,8 @@ require('fm-nvim').setup{
 		width    = .9,
 	}
 }
-EOF
+EOF 
+
 
 " lua <<EOF
 " require('neoclip').setup({
