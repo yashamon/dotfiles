@@ -1135,5 +1135,17 @@
             "\\end{document}"
            ],
         "description": ["Insert large fraction notation"]
+   "\\usepackage{geometry}", 
+            "\\usepackage{graphicx}", 
+            "\\usepackage{amssymb}", 
+            "\\usepackage{amsmath}", 
+            "\\usepackage{amsthm}", 
+            "\\usepackage{empheq}", 
+            "\\usepackage{mdframed}", 
+            "\\usepackage{graphicx}", 
+            "\\usepackage{color}", 
+            "\\usepackage{psfrag}", 
+            "\\usepackage{pgfplots}", 
+            "\\usepackage{bm}", 
     }
  }
