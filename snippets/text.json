@@ -1138,7 +1138,6 @@
             "\\usepackage{empheq}", 
             "\\usepackage{mdframed}", 
             "\\usepackage{booktabs}", 
-            "\\usepackage{lipsum}", 
             "\\usepackage{graphicx}", 
             "\\usepackage{color}", 
             "\\usepackage{psfrag}", 
