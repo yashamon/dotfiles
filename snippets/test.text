@@ -1,8 +1,1 @@
-\documentclass{article}
-\begin{document}
-\maketitle
-\begin{equation*}
-   e ^{x^2+2}
-\end{equation*}
 
-\end{document}
