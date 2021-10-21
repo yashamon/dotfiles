@@ -700,7 +700,36 @@ let g:vimtex_fold_types= {
  
 " let  g:vimtex_fold_types_defaults = 'preamble, sections, comments'
 nmap <leader>l :silent te latexmk -pvc -pdf -file-line-error -synctex=1 -interaction=nonstopmode -recorder -f -g %<cr><cr>:bp<cr> 
-nmap <leader>m :silent ! cp % backup;  pandoc -s backup -o backup.md; cp backup.md %<cr>:e %<cr>
+nmap <leader>m :silent ! cp % backup;  pandoc -s backup -o backup.md; cp backup.md %```{=tex}
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"  
+  "http://www.w3.org/TR/html4/loose.dtd">  
+<html > 
+<head><title></title> 
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"> 
+<meta name="generator" content="TeX4ht (https://tug.org/tex4ht/)"> 
+<meta name="originator" content="TeX4ht (https://tug.org/tex4ht/)"> 
+<!-- html --> 
+<meta name="src" content="backup.tex"> 
+<link rel="stylesheet" type="text/css" href="backup.css"> 
+</head><body 
+>
+<!--l. 3--><p class="noindent" ><span 
+class="cmmi-10">e</span><sup><span 
+class="cmmi-7">x</span></sup>
+    
+</body></html> 
+
+\documentclass{amsart}
+\usepackage{color}
+\usepackage{tikz-cd}
+\usepackage{amsmath, amssymb, mathrsfs, amsfonts,  amsthm}
+\begin{document}
+\begin{equation*}
+   e ^{x ^{2}+2} + \mathfrak n
+\end{equation*}
+
+\end{document}
+```<cr>:e %<cr>
 
 " nmap <leader>l :VimtexCompile<CR>
 " nmap <leader>s <Esc>:VimtexErrors<CR>
