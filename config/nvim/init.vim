@@ -1210,7 +1210,7 @@ EOF
 if exists('g:started_by_firenvim')
   ZenMode
 else
-  set laststatus=2
+  
 endif
 
 " lua <<EOF
