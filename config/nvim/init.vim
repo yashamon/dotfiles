@@ -1210,7 +1210,7 @@ require('fm-nvim').setup{
 		width    = .9,
 	}
 }
-EOF 
+EOF
 " if exists('g:started_by_firenvim')
 "   ZenMode
 " else
