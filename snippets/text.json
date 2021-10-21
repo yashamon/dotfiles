@@ -1127,6 +1127,18 @@
 "Template": {
         "prefix": ["template"],
         "body": ["\\documentclass{amsart}",  
+"\usepackage{graphicx}
+\usepackage[svgnames,pdf]{pstricks}
+\usepackage{pst-plot,pst-eucl}
+\usepackage{color} 
+\usepackage{tikz-cd}
+\usepackage{color}  
+\usepackage{appendix} 
+  \definecolor{gray}{rgb}{.80, .80, .80}
+  % \pagecolor {gray}
+ %\color {black} 
+\usepackage[colorlinks]{hyperref}        
+\usepackage{amsmath, amssymb, mathrsfs, amsfonts,  amsthm} 
 
                "\\begin{document}",
             "\\maketitle",
