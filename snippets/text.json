@@ -1127,9 +1127,9 @@
 "Template": {
         "prefix": ["template"],
         "body": ["\\documentclass{amsart}",  
-"\usepackage{color}",
+"\\usepackage{color}",
 "\usepackage{tikz-cd}",
-"\usepackage{amsmath, amssymb, mathrsfs, amsfonts,  amsthm}"
+"\usepackage{amsmath, amssymb, mathrsfs, amsfonts,  amsthm}",
 
                "\\begin{document}",
             "\\maketitle",
