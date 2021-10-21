@@ -1,4 +1,4 @@
-```{=tex}
+
 \documentclass{amsart}
 \usepackage{color}
 \usepackage{tikz-cd}
