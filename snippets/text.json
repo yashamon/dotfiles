@@ -1126,7 +1126,8 @@
     },
 "Template": {
         "prefix": ["template"],
-        "body": ["\\documentclass{amsart}", 
+        "body": ["\\documentclass{amsart}",  
+
                "\\begin{document}",
             "\\maketitle",
             "$0",
