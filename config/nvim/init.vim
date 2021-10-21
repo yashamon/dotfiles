@@ -160,11 +160,10 @@ set guicursor=n-v-c:block,i-ci-ve:ver25,r-cr:hor20,o:hor50
 set spelllang=en   
 if exists('g:started_by_firenvim')
  
-else
-  set laststatus=2
+else autocmd VimEnter * ZenMode
+
 endif
 
-autocmd VimEnter * ZenMode
 au VIMEnter set spell 
 set timeoutlen=0
 au VIMEnter * let g:surround_108 = {
