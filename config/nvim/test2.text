@@ -3,5 +3,8 @@
 \usepackage{tikz-cd}
 \usepackage{amsmath, amssymb, mathrsfs, amsfonts,  amsthm}
 \begin{document}
-eq
+\begin{equation*}
+   \gamma \implies e
+\end{equation*}
+
 \end{document}
