@@ -1144,7 +1144,7 @@
             "\\usepackage{bm}", 
                          "\\begin{document}",
             "    \\maketitle",
-            "    $0",
+            "$0",
             "\\end{document}"
 }
 
