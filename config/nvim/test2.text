@@ -4,6 +4,6 @@
 \usepackage{tikz-cd}
 \usepackage{amsmath, amssymb, mathrsfs, amsfonts,  amsthm}
 \begin{document}
-e+x
+e+x^2
 \end{document}
 
