@@ -1,10 +1,6 @@
-\documentclass{amsart}
-\usepackage{color}
-\usepackage{tikz-cd}
-\usepackage{amsmath, amssymb, mathrsfs, amsfonts,  amsthm}
-\begin{document}
-\begin{equation*}
-   e \implies \gamma
-\end{equation*}
 
-\end{document}
+---
+generator: pandoc
+title: backup
+viewport: 'width=device-width, initial-scale=1.0, user-scalable=yes'
+---
