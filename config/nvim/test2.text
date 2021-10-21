@@ -1,9 +1,1 @@
 
-\documentclass{amsart}
-\usepackage{color}
-\usepackage{tikz-cd}
-\usepackage{amsmath, amssymb, mathrsfs, amsfonts,  amsthm}
-\begin{document}
-e+x
-\end{document}
-```
