@@ -1119,7 +1119,7 @@
   },
 
 
-"arge Fraction": {
+"Large Fraction": {
         "prefix": ["fractionlarge", "\\fractionlarge"],
         "body": ["\\displaystyle\\frac{$1}{$2}$0"],
         "description": ["Insert large fraction notation"]
