@@ -1125,6 +1125,13 @@
         "description": ["Insert large fraction notation"]
     }
  },
+"sigma": {
+    "prefix": ["s"],
+    "body": [
+      "\\sigma $0"
+    ],
+    "description": "sigma"
+  },
 
 "Template": {
         "prefix": ["template"],
