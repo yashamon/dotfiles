@@ -1124,9 +1124,9 @@
         "body": ["\\displaystyle\\frac{$1}{$2}$0"],
         "description": ["Insert large fraction notation"]
     },
-   "Template": {
+"Template": {
         "prefix": ["template"],
-        "body": ["\\documentclass{article}", 
+        "body": ["\\documentclass{amsart}", 
                "\\begin{document}",
             "\\maketitle",
             "$0",
