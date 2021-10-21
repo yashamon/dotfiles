@@ -1,9 +1,51 @@
-2021/10/13-23:27:02.424 609 Reusing MANIFEST /home/yasha/.config/google-chrome-beta/Default/Local Extension Settings/cfhdojbkjhnklbpkdaibdccddilifddb/MANIFEST-000001
-2021/10/13-23:27:02.424 609 Recovering log #8
-2021/10/13-23:27:02.424 609 Reusing old log /home/yasha/.config/google-chrome-beta/Default/Local Extension Settings/cfhdojbkjhnklbpkdaibdccddilifddb/000008.log 
-2021/10/13-23:28:05.610 9f3 Level-0 table #12: started
-2021/10/13-23:28:05.692 9f3 Level-0 table #12: 6687548 bytes OK
-2021/10/13-23:28:05.698 9f3 Delete type=0 #8
-2021/10/13-23:28:07.497 9f3 Level-0 table #14: started
-2021/10/13-23:28:07.572 9f3 Level-0 table #14: 6687410 bytes OK
-2021/10/13-23:28:07.576 9f3 Delete type=0 #11
+2021/10/21-11:25:16.779 978 Reusing MANIFEST /home/yashasavelyev/.config/google-chrome-beta/Default/Local Extension Settings/cfhdojbkjhnklbpkdaibdccddilifddb/MANIFEST-000001
+2021/10/21-11:25:16.780 978 Recovering log #88
+2021/10/21-11:25:16.906 978 Level-0 table #91: started
+2021/10/21-11:25:17.137 978 Level-0 table #91: 6690483 bytes OK
+2021/10/21-11:25:17.142 978 Recovering log #110
+2021/10/21-11:25:17.345 978 Level-0 table #92: started
+2021/10/21-11:25:17.542 978 Level-0 table #92: 6690726 bytes OK
+2021/10/21-11:25:17.559 978 Recovering log #114
+2021/10/21-11:25:17.646 978 Level-0 table #111: started
+2021/10/21-11:25:17.806 978 Level-0 table #111: 6690474 bytes OK
+2021/10/21-11:25:17.990 978 Delete type=0 #110
+2021/10/21-11:25:17.990 978 Delete type=0 #114
+2021/10/21-11:25:17.990 978 Delete type=0 #88
+2021/10/21-11:25:18.010 963 Compacting 4@0 + 2@1 files
+2021/10/21-11:25:18.511 963 Generated table #116@0: 1 keys, 6690483 bytes
+2021/10/21-11:25:18.525 963 Generated table #117@0: 3 keys, 1036 bytes
+2021/10/21-11:25:18.525 963 Compacted 4@0 + 2@1 files => 6691519 bytes
+2021/10/21-11:25:18.553 963 compacted to: files[ 0 2 1 0 0 0 0 ]
+2021/10/21-11:25:18.565 963 Delete type=2 #86
+2021/10/21-11:25:18.565 963 Delete type=2 #87
+2021/10/21-11:25:18.565 963 Delete type=2 #89
+2021/10/21-11:25:18.565 963 Delete type=2 #91
+2021/10/21-11:25:18.565 963 Delete type=2 #92
+2021/10/21-11:25:18.565 963 Delete type=2 #111
+2021/10/21-11:26:20.603 973 Level-0 table #119: started
+2021/10/21-11:26:20.835 973 Level-0 table #119: 6690535 bytes OK
+2021/10/21-11:26:20.840 973 Delete type=0 #115
+2021/10/21-12:26:20.579 cca Level-0 table #121: started
+2021/10/21-12:26:20.607 cd8 Current memtable full; waiting...
+2021/10/21-12:26:20.755 cca Level-0 table #121: 6690702 bytes OK
+2021/10/21-12:26:20.768 cca Delete type=0 #118
+2021/10/21-12:26:20.769 cca Level-0 table #123: started
+2021/10/21-12:26:20.921 cca Level-0 table #123: 6690451 bytes OK
+2021/10/21-12:26:20.931 cca Delete type=0 #120
+2021/10/21-12:26:22.513 cd8 Level-0 table #125: started
+2021/10/21-12:26:22.728 cd8 Level-0 table #125: 6690701 bytes OK
+2021/10/21-12:26:22.738 cd8 Delete type=0 #122
+2021/10/21-12:26:22.739 cd8 Compacting 4@0 + 2@1 files
+2021/10/21-12:26:22.964 cd8 Generated table #126@0: 1 keys, 6690450 bytes
+2021/10/21-12:26:22.975 cd8 Generated table #127@0: 4 keys, 481 bytes
+2021/10/21-12:26:22.975 cd8 Compacted 4@0 + 2@1 files => 6690931 bytes
+2021/10/21-12:26:22.992 cd8 compacted to: files[ 0 2 1 0 0 0 0 ]
+2021/10/21-12:26:22.993 cd8 Delete type=2 #116
+2021/10/21-12:26:22.993 cd8 Delete type=2 #117
+2021/10/21-12:26:22.993 cd8 Delete type=2 #119
+2021/10/21-12:26:22.993 cd8 Delete type=2 #121
+2021/10/21-12:26:22.993 cd8 Delete type=2 #123
+2021/10/21-12:26:22.993 cd8 Delete type=2 #125
+2021/10/21-12:26:24.111 cd8 Level-0 table #129: started
+2021/10/21-12:26:24.295 cd8 Level-0 table #129: 6690637 bytes OK
+2021/10/21-12:26:24.316 cd8 Delete type=0 #124

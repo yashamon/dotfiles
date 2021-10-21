@@ -1,0 +1,126 @@
+2021/10/20-20:24:19.779 39ed Reusing MANIFEST /home/yashasavelyev/.config/google-chrome-beta/Default/Local Extension Settings/cfhdojbkjhnklbpkdaibdccddilifddb/MANIFEST-000001
+2021/10/20-20:24:19.779 39ed Recovering log #63
+2021/10/20-20:24:19.779 39ed Reusing old log /home/yashasavelyev/.config/google-chrome-beta/Default/Local Extension Settings/cfhdojbkjhnklbpkdaibdccddilifddb/000063.log 
+2021/10/20-20:25:22.844 39eb Level-0 table #67: started
+2021/10/20-20:25:23.041 39eb Level-0 table #67: 6690616 bytes OK
+2021/10/20-20:25:23.058 39eb Delete type=0 #63
+2021/10/20-21:25:23.197 5b6f Level-0 table #69: started
+2021/10/20-21:25:23.227 5b6d Current memtable full; waiting...
+2021/10/20-21:25:23.467 5b6f Level-0 table #69: 6690721 bytes OK
+2021/10/20-21:25:23.480 5b6f Delete type=2 #7
+2021/10/20-21:25:23.480 5b6f Delete type=2 #9
+2021/10/20-21:25:23.480 5b6f Delete type=0 #10
+2021/10/20-21:25:23.480 5b6f Delete type=2 #11
+2021/10/20-21:25:23.480 5b6f Compacting 4@0 + 2@1 files
+2021/10/20-21:25:23.524 5b6f Level-0 table #71: started
+2021/10/20-21:25:23.683 5b6f Level-0 table #71: 6690473 bytes OK
+2021/10/20-21:25:23.700 5b6f Delete type=0 #68
+2021/10/20-21:25:23.871 5b6f Generated table #72@0: 1 keys, 6690471 bytes
+2021/10/20-21:25:23.877 5b6f Generated table #73@0: 4 keys, 483 bytes
+2021/10/20-21:25:23.877 5b6f Compacted 4@0 + 2@1 files => 6690954 bytes
+2021/10/20-21:25:23.886 5b6f compacted to: files[ 1 2 1 0 0 0 0 ]
+2021/10/20-21:25:23.886 5b6f Delete type=2 #69
+2021/10/20-21:25:24.934 5b6d Level-0 table #75: started
+2021/10/20-21:25:25.184 5b6d Level-0 table #75: 6690722 bytes OK
+2021/10/20-21:25:25.192 5b6d Delete type=0 #70
+2021/10/20-21:25:26.648 5b6d Level-0 table #77: started
+2021/10/20-21:25:26.862 5b6d Level-0 table #77: 6690662 bytes OK
+2021/10/20-21:25:26.872 5b6d Delete type=0 #74
+2021/10/20-22:25:23.357 298f Level-0 table #79: started
+2021/10/20-22:25:23.401 28b0 Current memtable full; waiting...
+2021/10/20-22:25:23.697 298f Level-0 table #79: 6690469 bytes OK
+2021/10/20-22:25:23.721 298f Delete type=0 #76
+2021/10/20-22:25:23.721 298f Delete type=2 #16
+2021/10/20-22:25:23.721 298f Delete type=2 #17
+2021/10/20-22:25:23.721 298f Delete type=2 #19
+2021/10/20-22:25:23.721 298f Delete type=0 #20
+2021/10/20-22:25:23.721 298f Delete type=2 #21
+2021/10/20-22:25:23.722 298f Compacting 4@0 + 2@1 files
+2021/10/20-22:25:23.925 298f Level-0 table #81: started
+2021/10/20-22:25:24.124 298f Level-0 table #81: 6690472 bytes OK
+2021/10/20-22:25:24.136 298f Delete type=0 #78
+2021/10/20-22:25:24.323 298f Generated table #82@0: 1 keys, 6690469 bytes
+2021/10/20-22:25:24.341 298f Generated table #83@0: 4 keys, 483 bytes
+2021/10/20-22:25:24.341 298f Compacted 4@0 + 2@1 files => 6690952 bytes
+2021/10/20-22:25:24.350 298f compacted to: files[ 1 2 1 0 0 0 0 ]
+2021/10/20-22:25:24.350 298f Delete type=2 #79
+2021/10/20-23:25:23.362 411b Level-0 table #85: started
+2021/10/20-23:25:23.387 4113 Current memtable full; waiting...
+2021/10/20-23:25:23.754 411b Level-0 table #85: 6690722 bytes OK
+2021/10/20-23:25:23.782 411b Delete type=0 #80
+2021/10/20-23:25:23.782 411b Delete type=2 #26
+2021/10/20-23:25:23.782 411b Delete type=2 #27
+2021/10/20-23:25:23.782 411b Delete type=0 #28
+2021/10/20-23:25:23.782 411b Delete type=2 #29
+2021/10/20-23:25:23.787 4113 Level-0 table #87: started
+2021/10/20-23:25:24.006 4113 Level-0 table #87: 6690469 bytes OK
+2021/10/20-23:25:24.026 4113 Delete type=0 #84
+2021/10/20-23:25:26.096 4113 Level-0 table #89: started
+2021/10/20-23:25:26.312 4113 Level-0 table #89: 6690718 bytes OK
+2021/10/20-23:25:26.320 4113 Delete type=0 #86
+2021/10/20-23:25:26.322 4113 Compacting 4@0 + 2@1 files
+2021/10/20-23:25:26.676 4113 Generated table #90@0: 1 keys, 6690468 bytes
+2021/10/20-23:25:26.684 4113 Generated table #91@0: 4 keys, 484 bytes
+2021/10/20-23:25:26.684 4113 Compacted 4@0 + 2@1 files => 6690952 bytes
+2021/10/20-23:25:26.721 4113 compacted to: files[ 0 2 1 0 0 0 0 ]
+2021/10/20-23:25:26.721 4113 Delete type=2 #85
+2021/10/20-23:25:26.722 4113 Delete type=2 #87
+2021/10/20-23:25:26.722 4113 Delete type=2 #89
+2021/10/20-23:25:28.110 4113 Level-0 table #93: started
+2021/10/20-23:25:28.385 4113 Level-0 table #93: 6690659 bytes OK
+2021/10/20-23:25:28.397 4113 Delete type=0 #88
+2021/10/21-00:25:23.205 491d Level-0 table #95: started
+2021/10/21-00:25:23.252 5a1f Current memtable full; waiting...
+2021/10/21-00:25:23.486 491d Level-0 table #95: 6690466 bytes OK
+2021/10/21-00:25:23.501 491d Delete type=0 #92
+2021/10/21-00:25:23.502 491d Delete type=2 #36
+2021/10/21-00:25:23.502 491d Delete type=2 #37
+2021/10/21-00:25:23.502 491d Delete type=0 #38
+2021/10/21-00:25:23.502 491d Delete type=2 #39
+2021/10/21-00:25:23.502 491d Level-0 table #97: started
+2021/10/21-00:25:23.723 491d Level-0 table #97: 6690469 bytes OK
+2021/10/21-00:25:23.746 491d Delete type=0 #94
+2021/10/21-01:25:23.317 7e7e Level-0 table #99: started
+2021/10/21-01:25:23.349 398 Current memtable full; waiting...
+2021/10/21-01:25:23.625 7e7e Level-0 table #99: 6690718 bytes OK
+2021/10/21-01:25:23.635 7e7e Delete type=0 #96
+2021/10/21-01:25:23.635 7e7e Delete type=2 #41
+2021/10/21-01:25:23.635 7e7e Delete type=0 #42
+2021/10/21-01:25:23.635 7e7e Delete type=2 #43
+2021/10/21-01:25:23.635 7e7e Compacting 4@0 + 2@1 files
+2021/10/21-01:25:23.856 7e7e Level-0 table #101: started
+2021/10/21-01:25:24.038 7e7e Level-0 table #101: 6690467 bytes OK
+2021/10/21-01:25:24.051 7e7e Delete type=0 #98
+2021/10/21-01:25:24.270 7e7e Generated table #102@0: 1 keys, 6690469 bytes
+2021/10/21-01:25:24.278 7e7e Generated table #103@0: 4 keys, 483 bytes
+2021/10/21-01:25:24.278 7e7e Compacted 4@0 + 2@1 files => 6690952 bytes
+2021/10/21-01:25:24.286 7e7e compacted to: files[ 1 2 1 0 0 0 0 ]
+2021/10/21-01:25:25.758 7e7e Level-0 table #105: started
+2021/10/21-01:25:25.972 7e7e Level-0 table #105: 6690717 bytes OK
+2021/10/21-01:25:26.015 7e7e Delete type=2 #99
+2021/10/21-01:25:26.015 7e7e Delete type=0 #100
+2021/10/21-01:25:27.660 7e7e Level-0 table #107: started
+2021/10/21-01:25:27.836 7e7e Level-0 table #107: 6690665 bytes OK
+2021/10/21-01:25:27.847 7e7e Delete type=0 #104
+2021/10/21-02:25:22.497 1667 Level-0 table #109: started
+2021/10/21-02:25:22.539 117b Current memtable full; waiting...
+2021/10/21-02:25:22.739 1667 Level-0 table #109: 6690472 bytes OK
+2021/10/21-02:25:22.763 1667 Delete type=0 #106
+2021/10/21-02:25:22.763 1667 Delete type=2 #47
+2021/10/21-02:25:22.763 1667 Delete type=2 #48
+2021/10/21-02:25:22.763 1667 Delete type=2 #49
+2021/10/21-02:25:22.763 1667 Delete type=2 #51
+2021/10/21-02:25:22.763 1667 Delete type=0 #52
+2021/10/21-02:25:22.763 1667 Delete type=2 #53
+2021/10/21-02:25:22.764 23d7 Compacting 4@0 + 2@1 files
+2021/10/21-02:25:23.006 23d7 Level-0 table #111: started
+2021/10/21-02:25:23.751 23d7 Level-0 table #111: 6690475 bytes OK
+2021/10/21-02:25:23.760 23d7 Delete type=0 #108
+2021/10/21-02:25:24.064 23d7 Generated table #112@0: 1 keys, 6690472 bytes
+2021/10/21-02:25:24.080 23d7 Generated table #113@0: 4 keys, 483 bytes
+2021/10/21-02:25:24.080 23d7 Compacted 4@0 + 2@1 files => 6690955 bytes
+2021/10/21-02:25:24.103 23d7 compacted to: files[ 1 2 1 0 0 0 0 ]
+2021/10/21-02:25:24.103 23d7 Delete type=2 #109
+2021/10/21-08:31:54.371 3976 Level-0 table #115: started
+2021/10/21-08:31:54.419 38c2 Current memtable full; waiting...
+2021/10/21-08:32:01.384 3976 Level-0 table #115: 6690726 bytes IO error: /home/yashasavelyev/.config/google-chrome-beta/Default/Local Extension Settings/cfhdojbkjhnklbpkdaibdccddilifddb/000115.ldb: File not found. (ChromeMethodBFE: 8::NewRandomAccessFile::4)

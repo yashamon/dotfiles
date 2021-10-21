@@ -1,0 +1,51 @@
+{
+   "background": {
+      "scripts": [ "background.js" ]
+   },
+   "browser_action": {
+      "browser_style": true,
+      "default_icon": "firenvim128.png",
+      "default_popup": "browserAction.html",
+      "default_title": "Firenvim"
+   },
+   "commands": {
+      "nvimify": {
+         "description": "Turn the currently focused element into a neovim iframe.",
+         "suggested_key": {
+            "default": "Ctrl+E"
+         }
+      },
+      "send_C-n": {
+         "description": "Send \u003CC-n> to firenvim."
+      },
+      "send_C-t": {
+         "description": "Send \u003CC-t> to firenvim."
+      },
+      "send_C-w": {
+         "description": "Send \u003CC-w> to firenvim."
+      },
+      "toggle_firenvim": {
+         "description": "Toggle Firenvim in the current tab."
+      }
+   },
+   "content_scripts": [ {
+      "all_frames": true,
+      "js": [ "content.js" ],
+      "match_about_blank": true,
+      "matches": [ "\u003Call_urls>" ],
+      "run_at": "document_start"
+   } ],
+   "description": "Turn your browser into a Neovim GUI.",
+   "icons": {
+      "128": "firenvim128.png",
+      "16": "firenvim16.png",
+      "48": "firenvim48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAk3pkgh862ElxtREZVPLxVNbiFWo9SnvZtZXZavNvs2GsUTY/mB9yHTPBGJiBMJh6J0l+F5JZivXDG7xdQsVD5t39CL3JGtt93M2svlsNkOEYIMM8tHbp69shNUKKjZOfT3t+aZyigK2OUm7PKedcPeHtMoZAY5cC4L1ytvgo6lge+VYQiypKF87YOsO/BGcs3D+MMdS454tLBuMp6LxMqICQEo/Q7nHGC3eubtL3B09s0l17fJeq/kcQphczKbUFhTVnNnIV0JX++UCWi+BP4QOpyk5FqI6+SVi+gxUosbQPOmZR4xCAbWWpg3OqMk4LqHaWpsBfkW9EUt6EMMMAfQIDAQAB",
+   "manifest_version": 2,
+   "name": "Firenvim",
+   "permissions": [ "nativeMessaging", "storage", "tabs" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "0.2.10",
+   "web_accessible_resources": [ "index.html", "ISSUE_TEMPLATE.md" ]
+}

@@ -1,71 +1,22 @@
-2021/10/18-18:45:26.660 1f2a Reusing MANIFEST /home/yasha/.config/google-chrome-beta/Default/Local Extension Settings/cfhdojbkjhnklbpkdaibdccddilifddb/MANIFEST-000001
-2021/10/18-18:45:26.661 1f2a Recovering log #13
-2021/10/18-18:45:26.661 1f2a Reusing old log /home/yasha/.config/google-chrome-beta/Default/Local Extension Settings/cfhdojbkjhnklbpkdaibdccddilifddb/000013.log 
-2021/10/18-18:46:29.742 2296 Level-0 table #17: started
-2021/10/18-18:46:29.812 2296 Level-0 table #17: 6687324 bytes OK
-2021/10/18-18:46:29.817 2296 Delete type=0 #13
-2021/10/18-18:46:29.819 2296 Compacting 4@0 + 1@1 files
-2021/10/18-18:46:29.910 2296 Generated table #18@0: 1 keys, 6687172 bytes
-2021/10/18-18:46:29.915 2296 Generated table #19@0: 3 keys, 370 bytes
-2021/10/18-18:46:29.915 2296 Compacted 4@0 + 1@1 files => 6687542 bytes
-2021/10/18-18:46:29.919 2296 compacted to: files[ 0 2 1 0 0 0 0 ]
-2021/10/18-18:46:29.919 2296 Delete type=2 #7
-2021/10/18-18:46:29.919 2296 Delete type=2 #12
-2021/10/18-18:46:29.919 2296 Delete type=2 #17
-2021/10/18-18:46:29.919 2296 Delete type=2 #9
-2021/10/18-18:46:29.919 2296 Delete type=2 #14
-2021/10/18-18:46:31.460 2296 Level-0 table #21: started
-2021/10/18-18:46:31.526 2296 Level-0 table #21: 6687789 bytes OK
-2021/10/18-18:46:31.531 2296 Delete type=0 #16
-2021/10/18-19:46:29.186 2296 Level-0 table #23: started
-2021/10/18-19:46:29.249 2296 Level-0 table #23: 6686548 bytes OK
-2021/10/18-19:46:29.253 2296 Delete type=0 #20
-2021/10/18-19:46:29.530 2296 Level-0 table #25: started
-2021/10/18-19:46:29.602 2296 Level-0 table #25: 6686340 bytes OK
-2021/10/18-19:46:29.606 2296 Delete type=0 #22
-2021/10/18-20:46:29.223 2296 Level-0 table #27: started
-2021/10/18-20:46:29.287 2296 Level-0 table #27: 6686596 bytes OK
-2021/10/18-20:46:29.292 2296 Delete type=0 #24
-2021/10/18-20:46:29.293 2296 Compacting 4@0 + 2@1 files
-2021/10/18-20:46:29.408 2296 Generated table #28@0: 1 keys, 6686340 bytes
-2021/10/18-20:46:29.413 2296 Generated table #29@0: 4 keys, 484 bytes
-2021/10/18-20:46:29.413 2296 Compacted 4@0 + 2@1 files => 6686824 bytes
-2021/10/18-20:46:29.417 2296 compacted to: files[ 0 2 1 0 0 0 0 ]
-2021/10/18-20:46:29.417 2296 Delete type=2 #23
-2021/10/18-20:46:29.417 2296 Delete type=2 #25
-2021/10/18-20:46:29.417 2296 Delete type=2 #21
-2021/10/18-20:46:29.417 2296 Delete type=2 #18
-2021/10/18-20:46:29.417 2296 Delete type=2 #19
-2021/10/18-20:46:29.417 2296 Delete type=2 #27
-2021/10/18-20:46:29.573 2296 Level-0 table #31: started
-2021/10/18-20:46:29.634 2296 Level-0 table #31: 6686337 bytes OK
-2021/10/18-20:46:29.639 2296 Delete type=0 #26
-2021/10/18-21:46:29.248 2296 Level-0 table #33: started
-2021/10/18-21:46:29.312 2296 Level-0 table #33: 6686699 bytes OK
-2021/10/18-21:46:29.317 2296 Delete type=0 #30
-2021/10/18-21:46:29.596 2296 Level-0 table #35: started
-2021/10/18-21:46:29.656 2296 Level-0 table #35: 6686338 bytes OK
-2021/10/18-21:46:29.662 2296 Delete type=0 #32
-2021/10/18-22:42:40.321 2296 Level-0 table #37: started
-2021/10/18-22:42:40.381 2296 Level-0 table #37: 6686711 bytes OK
-2021/10/18-22:42:40.385 2296 Delete type=0 #34
-2021/10/18-22:42:40.387 2296 Compacting 4@0 + 2@1 files
-2021/10/18-22:42:40.508 2296 Generated table #38@0: 1 keys, 6686343 bytes
-2021/10/18-22:42:40.514 2296 Generated table #39@0: 4 keys, 486 bytes
-2021/10/18-22:42:40.514 2296 Compacted 4@0 + 2@1 files => 6686829 bytes
-2021/10/18-22:42:40.518 2296 compacted to: files[ 0 2 1 0 0 0 0 ]
-2021/10/18-22:42:40.519 2296 Delete type=2 #37
-2021/10/18-22:42:40.519 2296 Delete type=2 #33
-2021/10/18-22:42:40.519 2296 Delete type=2 #28
-2021/10/18-22:42:40.519 2296 Delete type=2 #29
-2021/10/18-22:42:40.519 2296 Delete type=2 #35
-2021/10/18-22:42:40.519 2296 Delete type=2 #31
-2021/10/18-22:46:29.685 2296 Level-0 table #41: started
-2021/10/18-22:46:29.747 2296 Level-0 table #41: 6686431 bytes OK
-2021/10/18-22:46:29.751 2296 Delete type=0 #36
-2021/10/18-22:46:48.353 2296 Level-0 table #43: started
-2021/10/18-22:46:48.419 2296 Level-0 table #43: 6686705 bytes OK
-2021/10/18-22:46:48.424 2296 Delete type=0 #40
-2021/10/18-23:46:29.720 2296 Level-0 table #45: started
-2021/10/18-23:46:29.782 2296 Level-0 table #45: 6686868 bytes OK
-2021/10/18-23:46:29.787 2296 Delete type=0 #42
+2021/10/21-13:12:46.040 1158 Reusing MANIFEST /home/yashasavelyev/.config/google-chrome-beta/Default/Local Extension Settings/cfhdojbkjhnklbpkdaibdccddilifddb/MANIFEST-000001
+2021/10/21-13:12:46.041 1158 Recovering log #128
+2021/10/21-13:12:46.194 1158 Level-0 table #131: started
+2021/10/21-13:12:46.653 1158 Level-0 table #131: 6690446 bytes OK
+2021/10/21-13:12:46.682 1158 Delete type=0 #128
+2021/10/21-13:13:50.117 1155 Level-0 table #134: started
+2021/10/21-13:13:50.312 1155 Level-0 table #134: 6690565 bytes OK
+2021/10/21-13:13:50.321 1155 Delete type=0 #132
+2021/10/21-13:17:53.238 1512 Level-0 table #136: started
+2021/10/21-13:17:53.515 1512 Level-0 table #136: 6690735 bytes OK
+2021/10/21-13:17:53.539 1512 Delete type=0 #133
+2021/10/21-13:17:53.540 1512 Compacting 4@0 + 2@1 files
+2021/10/21-13:17:53.873 1512 Generated table #137@0: 1 keys, 6690484 bytes
+2021/10/21-13:17:53.894 1512 Generated table #138@0: 4 keys, 481 bytes
+2021/10/21-13:17:53.894 1512 Compacted 4@0 + 2@1 files => 6690965 bytes
+2021/10/21-13:17:53.909 1512 compacted to: files[ 0 2 1 0 0 0 0 ]
+2021/10/21-13:17:53.909 1512 Delete type=2 #126
+2021/10/21-13:17:53.909 1512 Delete type=2 #127
+2021/10/21-13:17:53.909 1512 Delete type=2 #129
+2021/10/21-13:17:53.909 1512 Delete type=2 #131
+2021/10/21-13:17:53.909 1512 Delete type=2 #134
+2021/10/21-13:17:53.910 1512 Delete type=2 #136

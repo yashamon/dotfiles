@@ -1,0 +1,45 @@
+2021/10/20-20:13:09.317 3085 Reusing MANIFEST /home/yashasavelyev/.config/google-chrome-beta/Default/Local Extension Settings/cfhdojbkjhnklbpkdaibdccddilifddb/MANIFEST-000001
+2021/10/20-20:13:09.317 3085 Recovering log #44
+2021/10/20-20:13:09.446 3085 Level-0 table #47: started
+2021/10/20-20:13:09.591 3085 Level-0 table #47: 6686704 bytes OK
+2021/10/20-20:13:09.665 3085 Delete type=0 #44
+2021/10/20-20:13:09.667 30ab Compacting 4@0 + 2@1 files
+2021/10/20-20:13:10.465 30ab Generated table #49@0: 1 keys, 6686337 bytes
+2021/10/20-20:13:10.478 30ab Generated table #50@0: 4 keys, 484 bytes
+2021/10/20-20:13:10.478 30ab Compacted 4@0 + 2@1 files => 6686821 bytes
+2021/10/20-20:13:10.502 30ab compacted to: files[ 0 2 1 0 0 0 0 ]
+2021/10/20-20:13:10.503 30ab Delete type=2 #39
+2021/10/20-20:13:10.503 30ab Delete type=2 #45
+2021/10/20-20:13:10.503 30ab Delete type=2 #43
+2021/10/20-20:13:10.503 30ab Delete type=2 #41
+2021/10/20-20:13:10.503 30ab Delete type=2 #38
+2021/10/20-20:13:10.503 30ab Delete type=2 #47
+2021/10/20-20:14:13.456 3083 Level-0 table #52: started
+2021/10/20-20:14:13.639 3083 Level-0 table #52: 6686425 bytes OK
+2021/10/20-20:14:13.668 3083 Delete type=0 #48
+2021/10/20-20:14:15.676 309e Level-0 table #54: started
+2021/10/20-20:14:15.878 309e Level-0 table #54: 6686591 bytes OK
+2021/10/20-20:14:15.889 309e Delete type=0 #51
+2021/10/20-20:14:16.433 3083 Level-0 table #56: started
+2021/10/20-20:14:16.620 3083 Level-0 table #56: 6686612 bytes OK
+2021/10/20-20:14:16.648 3083 Delete type=0 #53
+2021/10/20-20:14:17.960 309e Level-0 table #58: started
+2021/10/20-20:14:18.126 309e Level-0 table #58: 6688022 bytes OK
+2021/10/20-20:14:18.144 309e Delete type=0 #55
+2021/10/20-20:14:18.149 309e Compacting 4@0 + 2@1 files
+2021/10/20-20:14:18.366 309e Generated table #59@0: 1 keys, 6687829 bytes
+2021/10/20-20:14:18.377 309e Generated table #60@0: 4 keys, 485 bytes
+2021/10/20-20:14:18.377 309e Compacted 4@0 + 2@1 files => 6688314 bytes
+2021/10/20-20:14:18.387 309e compacted to: files[ 0 2 1 0 0 0 0 ]
+2021/10/20-20:14:18.387 309e Delete type=2 #49
+2021/10/20-20:14:18.387 309e Delete type=2 #50
+2021/10/20-20:14:18.387 309e Delete type=2 #52
+2021/10/20-20:14:18.387 309e Delete type=2 #54
+2021/10/20-20:14:18.387 309e Delete type=2 #56
+2021/10/20-20:14:18.387 309e Delete type=2 #58
+2021/10/20-20:14:21.084 3083 Level-0 table #62: started
+2021/10/20-20:14:21.257 3083 Level-0 table #62: 6690830 bytes OK
+2021/10/20-20:14:21.280 3083 Delete type=0 #57
+2021/10/20-20:15:20.432 309e Level-0 table #64: started
+2021/10/20-20:15:20.685 309e Level-0 table #64: 6690465 bytes OK
+2021/10/20-20:15:20.708 309e Delete type=0 #61

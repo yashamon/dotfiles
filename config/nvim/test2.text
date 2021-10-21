@@ -1,1 +1,7 @@
-m
+---
+generator: pandoc
+title: backup
+viewport: 'width=device-width, initial-scale=1.0, user-scalable=yes'
+---
+
+![\\gamma](https://latex.codecogs.com/png.latex?%5Ctextstyle%20%5Cgamma "\gamma")

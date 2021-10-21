@@ -1,0 +1,6 @@
+2021/10/20-20:13:04.264 3 Reusing MANIFEST /home/yashasavelyev/.config/google-chrome-beta/Default/Local Storage/leveldb/MANIFEST-000001
+2021/10/20-20:13:04.265 3 Recovering log #7
+2021/10/20-20:13:04.268 3 Reusing old log /home/yashasavelyev/.config/google-chrome-beta/Default/Local Storage/leveldb/000007.log 
+2021/10/20-20:18:37.561 5 Level-0 table #11: started
+2021/10/20-20:18:37.598 5 Level-0 table #11: 20940 bytes OK
+2021/10/20-20:18:37.622 5 Delete type=0 #7

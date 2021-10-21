@@ -1,0 +1,1 @@
+{"expect_ct":[{"expect_ct_enforce":false,"expect_ct_expiry":1635383601.271474,"expect_ct_observed":1634778801.271474,"expect_ct_report_uri":"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct","host":"9acTn5VvJYNcWmPalXTX1qhD9SBlVPZwgOf6KMViJ5I=","nik":[]}],"sts":[],"version":2}
