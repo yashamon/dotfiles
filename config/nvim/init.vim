@@ -1209,7 +1209,6 @@ require('fm-nvim').setup{
 EOF 
 if exists('g:started_by_firenvim')
   ZenMode
-
 endif
 
 " lua <<EOF
