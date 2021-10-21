@@ -1129,9 +1129,6 @@
         "body": ["\\documentclass{amsart}",  
 "\usepackage{color}",
 "\usepackage{tikz-cd}",
-
- %\color {black} 
-\usepackage[colorlinks]{hyperref}        
 \usepackage{amsmath, amssymb, mathrsfs, amsfonts,  amsthm} 
 
                "\\begin{document}",
