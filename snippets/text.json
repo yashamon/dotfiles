@@ -1142,8 +1142,8 @@
             "\\usepackage{psfrag}", 
             "\\usepackage{pgfplots}", 
             "\\usepackage{bm}", 
-                         "\\begin{document}",
-            "    \\maketitle",
+            "\\begin{document}",
+            "\\maketitle",
             "$0",
             "\\end{document}"
 }
