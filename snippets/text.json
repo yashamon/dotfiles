@@ -1127,8 +1127,8 @@
  }, 
 
 "Template": {
-        "prefix": ["template", "\\fractionlarge"],
-        "body": ["\\displaystyle\\frac{$1}{$2}$0"],
+        "prefix": ["template"],
+        "body": [""],
         "description": ["Insert large fraction notation"]
     }
  },
