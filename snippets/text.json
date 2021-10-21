@@ -1131,7 +1131,7 @@
 "\\usepackage{tikz-cd}",
 "\\usepackage{amsmath, amssymb, mathrsfs, amsfonts,  amsthm}",
 
-               "\\begin{document}",
+            "\\begin{document}",
             "$0",
             "\\end{document}"],
         "description": ["template"]
