@@ -1129,7 +1129,7 @@
         "prefix": ["template"], 
         "body": [
              "\\documentclass{article}", 
-                     "\\begin{document}",
+               "\\begin{document}",
             "\\maketitle",
             "$0",
             "\\end{document}"
