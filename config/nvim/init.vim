@@ -164,9 +164,7 @@ if exists('g:started_by_firenvim')
 autocmd VimEnter * ZenMode
 endif
 
-aas;lkdjf a;slkfj sa;dlfkjasldfkj 
-lsa;dkfjas;lfjas;lfjas;lfjas;lfjaslfjla;sjdf;lasjf;lasjf;lasjf;lasjf;lasjf;lasjfas
-u VIMEnter set spell 
+au VIMEnter set spell 
 set timeoutlen=0
 au VIMEnter * let g:surround_108 = {
      \'q':  " ``\r''"
@@ -701,7 +699,8 @@ let g:vimtex_fold_types= {
 
  
 " let  g:vimtex_fold_types_defaults = 'preamble, sections, comments'
-nmap <leader>l :silent te latexmk -pvc -pdf -file-line-error -synctex=1 -interaction=nonstopmode -recorder -f -g %<cr><cr>:bp<cr>
+nmap <leader>l :silent te latexmk -pvc -pdf -file-line-error -synctex=1 -interaction=nonstopmode -recorder -f -g %<cr><cr>:bp<cr> 
+
 " nmap <leader>l :VimtexCompile<CR>
 " nmap <leader>s <Esc>:VimtexErrors<CR>
 map <leader>g :ZenMode<CR>
