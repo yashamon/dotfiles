@@ -1128,10 +1128,8 @@
         "prefix": ["template"],
         "body": ["\\documentclass{amsart}",  
 "\usepackage{color}",
-"\usepackage{tikz-cd}"
+"\usepackage{tikz-cd}",
 
-  \definecolor{gray}{rgb}{.80, .80, .80}
-  % \pagecolor {gray}
  %\color {black} 
 \usepackage[colorlinks]{hyperref}        
 \usepackage{amsmath, amssymb, mathrsfs, amsfonts,  amsthm} 
