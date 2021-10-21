@@ -1213,7 +1213,7 @@ require('fm-nvim').setup{
 	}
 }
 EOF
-
+au GUIEnter * set fullscreen
 " if exists('g:started_by_firenvim')
 "   ZenMode
 " else
