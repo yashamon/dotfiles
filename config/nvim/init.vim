@@ -164,7 +164,9 @@ if exists('g:started_by_firenvim')
 autocmd VimEnter * ZenMode
 endif
 
-au VIMEnter set spell 
+aas;lkdjf a;slkfj sa;dlfkjasldfkj 
+lsa;dkfjas;lfjas;lfjas;lfjas;lfjaslfjla;sjdf;lasjf;lasjf;lasjf;lasjf;lasjf;lasjfas
+u VIMEnter set spell 
 set timeoutlen=0
 au VIMEnter * let g:surround_108 = {
      \'q':  " ``\r''"
