@@ -1125,7 +1125,6 @@
         "description": ["Insert large fraction notation"]
     }
  }, 
-
 "Template": {
         "prefix": ["template"],
         "body": ["\\documentclass{article}", 
