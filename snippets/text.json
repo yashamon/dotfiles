@@ -1128,8 +1128,8 @@
         "prefix": ["template"],
         "body": ["\\documentclass{amsart}",  
 "\\usepackage{color}",
-"\usepackage{tikz-cd}",
-"\usepackage{amsmath, amssymb, mathrsfs, amsfonts,  amsthm}",
+"\\usepackage{tikz-cd}",
+"r\\usepackage{amsmath, amssymb, mathrsfs, amsfonts,  amsthm}",
 
                "\\begin{document}",
             "\\maketitle",
