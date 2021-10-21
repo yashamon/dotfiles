@@ -1127,7 +1127,7 @@
  },
 
 "Template": {
-        "prefix": ["template", "\\template"], 
+        "prefix": ["template"], 
         "body": [
             "%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Define Article %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%", 
             "\\documentclass{article}", 
