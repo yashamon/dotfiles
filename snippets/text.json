@@ -1137,7 +1137,6 @@
             "\\usepackage{amsthm}", 
             "\\usepackage{empheq}", 
             "\\usepackage{mdframed}", 
-            "\\usepackage{booktabs}", 
             "\\usepackage{graphicx}", 
             "\\usepackage{color}", 
             "\\usepackage{psfrag}", 
