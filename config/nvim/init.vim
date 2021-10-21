@@ -160,8 +160,8 @@ set guicursor=n-v-c:block,i-ci-ve:ver25,r-cr:hor20,o:hor50
 set spelllang=en   
 if exists('g:started_by_firenvim')
  
-else autocmd VimEnter * ZenMode
-
+else
+autocmd VimEnter * ZenMode
 endif
 
 au VIMEnter set spell 
