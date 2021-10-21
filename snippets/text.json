@@ -1137,12 +1137,3 @@
     }
  }
 
-
-"": {
-        "prefix": ["template"], 
-        "body": [
-             
-           ],
-        "description": ["Insert large fraction notation"]
-    }
- }
