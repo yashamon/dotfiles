@@ -1223,20 +1223,20 @@ require('fm-nvim').setup{
 }
 EOF
 au GUIEnter * set fullscreen  
-let g:firenvim_config = { 
-    \ 'globalSettings': {
-        \ 'alt': 'all',
-    \  },
-    \ 'localSettings': {
-        \ '.*': {
-            \ 'cmdline': 'neovim',
-            \ 'content': 'text',
-            \ 'priority': 0,
-            \ 'selector': 'textarea',
-            \ 'takeover': 'always',
-        \ },
-    \ }
-\ }
+" let g:firenvim_config = { 
+"     \ 'globalSettings': {
+"         \ 'alt': 'all',
+"     \  },
+"     \ 'localSettings': {
+"         \ '.*': {
+"             \ 'cmdline': 'neovim',
+"             \ 'content': 'text',
+"             \ 'priority': 0,
+"             \ 'selector': 'textarea',
+"             \ 'takeover': 'always',
+"         \ },
+"     \ }
+" \ }
 " if exists('g:started_by_firenvim')
 "   ZenMode
 " else
