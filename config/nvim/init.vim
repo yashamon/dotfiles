@@ -216,7 +216,7 @@ set smartcase		" ignore case if search pattern is all lowercase,case-sensitive o
 " disable sound on errors
 set noerrorbells
 set novisualbell 
-
+set guifont=Fira\ Code:h22
 set tm=500
 " set macmeta
 " auto reload vimrc when editing it
