@@ -1127,7 +1127,7 @@
  },
 
 "Template": {
-        "prefix": ["template"],
+        "prefix": ["template",
         "body": ["\\documentclass{article}", 
                "\\begin{document}",
             "\\maketitle",
