@@ -1,1 +1,5 @@
-template
+\documentclass{article}
+\begin{document}
+\maketitle
+eq
+\end{document}
