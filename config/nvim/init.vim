@@ -5,10 +5,6 @@ Plug 'folke/zen-mode.nvim', { 'branch': 'main' }
 " Plug 'AckslD/nvim-neoclip.lua', { 'branch': 'main' } 
 Plug 'phaazon/hop.nvim'   
 Plug 'luukvbaal/stabilize.nvim' 
-
-lua << EOF
-require("stabilize").setup()
-EOF
 Plug 'glacambre/firenvim', { 'do': { _ -> firenvim#install(0) } }
 Plug 'is0n/fm-nvim' 
 Plug 'williamboman/nvim-lsp-installer', { 'branch': 'main' }
