@@ -1241,7 +1241,7 @@ require("stabilize").setup(
 )
 EOF
 
-au GUIEnter * set fullscreen
+a GUIEnter * set fullscreen
 let g:firenvim_config = { 
     \ 'globalSettings': {
         \ 'alt': 'all',
