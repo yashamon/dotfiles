@@ -1235,7 +1235,7 @@ require("stabilize").setup(
 	forcemark = nil -- set context mark to register on force event which can be jumped to with '<forcemark>
 	--ignore = {  -- do not manage windows matching these file/buftypes
 --		filetype = { "help", "list", "Trouble" },
---		buftype = { "terminal", "quickfix", "loclist" }
+--		buftype = { "terminal", "quickfix", -- "loclist" }
 --	}
 }
 )
