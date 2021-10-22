@@ -5,7 +5,6 @@ Plug 'folke/zen-mode.nvim', { 'branch': 'main' }
 " Plug 'AckslD/nvim-neoclip.lua', { 'branch': 'main' } 
 Plug 'phaazon/hop.nvim'   
 Plug 'luukvbaal/stabilize.nvim' 
-call plug#end()
 
 lua << EOF
 require("stabilize").setup()
