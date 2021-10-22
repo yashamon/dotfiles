@@ -1248,7 +1248,7 @@ let g:firenvim_config = {
     \  },
     \ 'localSettings': {
         \ '.*': {
-            \ 'cmdline': 'neovim',
+            \ 'cmdline': 'neovim, nvim',
             \ 'content': 'text',
             \ 'priority': 0,
             \ 'selector': 'textarea',
