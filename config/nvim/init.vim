@@ -1228,6 +1228,10 @@ require('fm-nvim').setup{
 	}
 }
 EOF
+lua << EOF
+require("stabilize").setup()
+EOF
+
 au GUIEnter * set fullscreen
 " let g:firenvim_config = { 
 "     \ 'globalSettings': {
