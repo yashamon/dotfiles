@@ -937,7 +937,7 @@ vnoremap <leader>y :FZFNeoyankSelection<cr>
 " nnoremap <leader>p :FZFNeoyank +<cr> 
 nnoremap <leader>1 :FZFNeoyank 1<cr>
 nnoremap <leader>P :FZFNeoyank " P+<cr>
-vnoremap <leader>p :FZFNeoyankSelection +<cr>
+" vnoremap <leader>p :FZFNeoyankSelection +<cr>
 
 
 " Replace the default dictionary completion with fzf-based fuzzy completion
