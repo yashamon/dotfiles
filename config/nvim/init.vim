@@ -392,7 +392,7 @@ noremap <leader>r :e<cr>
 noremap <leader>h :set tw=50<cr>
 noremap <leader>w :set tw=0<cr> 
 " noremap q <nop>
-map <leader>q q
+nmap <leader>q q
 nnoremap <leader>sv :source $MYVIMRC<CR>
 "nnoremap <leader>e :NERDTreeFind<CR> 
 nnoremap <leader>e :Vifm<cr>
