@@ -3,7 +3,7 @@ call plug#begin('~/.vim/plugged')
 " Plug 'folke/which-key.nvim', { 'branch': 'main' }
 Plug 'folke/zen-mode.nvim', { 'branch': 'main' } 
 " Plug 'AckslD/nvim-neoclip.lua', { 'branch': 'main' } 
-Plug 'phaazon/hop.nvim'  
+Plug 'phaazon/hop.nvim'   if()
 Plug 'glacambre/firenvim', { 'do': { _ -> firenvim#install(0) } }
 Plug 'is0n/fm-nvim' 
 Plug 'williamboman/nvim-lsp-installer', { 'branch': 'main' }
