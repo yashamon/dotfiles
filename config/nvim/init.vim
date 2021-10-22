@@ -705,7 +705,7 @@ nmap <leader>l :silent te latexmk -pvc -pdf -file-line-error -synctex=1 -interac
 
 " nmap <leader>m :silent ! cp % backup;  pandoc  backup -s --mathjax[=https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js] -o backup.html;  cp backup.html %<cr>:e %<cr>:w<cr>:qa<cr> 
 
-nmap <leader>m :silent ! cat % >> ~/workspace/email; cp % /tmp/temp; make4ht /tmp/temp "mathml,mathjax"; pandoc /tmp/temp.html --from html --to markdown_strict -o backup.md; mv temp.md %<cr>:e %<cr>:w<cr>:qa<cr>
+nmap <leader>m :silent ! cat % >> ~/workspace/email; cp % /tmp/temp; make4ht /tmp/temp "mathml,mathjax"; pandoc /tmp/temp.html --from html --to markdown_strict -o /tmp/temp.md; mv temp.md %<cr>:e %<cr>:w<cr>:qa<cr>
 
 " pandoc backup -s html -o markdown cp backup.html %<cr>:e %<cr>:w<cr>:qa<cr> 
 
