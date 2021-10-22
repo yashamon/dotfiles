@@ -1011,7 +1011,7 @@ sources = {
    { name = 'buffer', keyword_length = 4 },
    { name = 'omni' , keyword_length = 4},
        -- { name = 'spell' }, 
-   { name = '', keyword_length = 4  },
+   { name = 'nvim_lsp', keyword_length = 4  },
    { name = 'tags' , keyword_length = 4 }, 
    { name = 'nvim_lsp', keyword_length = 4 },      
 --{ name = 'latex_symbols' },
