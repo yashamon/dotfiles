@@ -1,4 +1,4 @@
-call plug#begin('~/.vim/plugged')  
+call lug#begin('~/.vim/plugged')  
 " Plug 'reedes/vim-pencil' 
 " Plug 'folke/which-key.nvim', { 'branch': 'main' }
 Plug 'folke/zen-mode.nvim', { 'branch': 'main' } 
