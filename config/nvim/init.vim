@@ -433,7 +433,7 @@ vnoremap x "+x
 vnoremap y "+y  
 nnoremap y "+y 
 nnoremap p "+p 
-nnoremap q p 
+nnoremap <> p 
 nnoremap <leader>q q
 " Softwrap 
 nmap D "0dg$
