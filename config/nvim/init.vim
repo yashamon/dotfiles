@@ -433,7 +433,7 @@ vnoremap x "+x
 vnoremap y "+y  
 nnoremap y "+y 
 nnoremap p "+p 
-nnoremap <> p 
+nnoremap <leader>p p 
 nnoremap <leader>q q
 " Softwrap 
 nmap D "0dg$
@@ -934,7 +934,7 @@ nnoremap <leader>y :FZFNeoyank<cr>
 nnoremap <leader>Y :FZFNeoyank  P<cr>
 vnoremap <leader>y :FZFNeoyankSelection<cr>
 
-nnoremap <leader>p :FZFNeoyank +<cr> 
+" nnoremap <leader>p :FZFNeoyank +<cr> 
 nnoremap <leader>1 :FZFNeoyank 1<cr>
 nnoremap <leader>P :FZFNeoyank " P+<cr>
 vnoremap <leader>p :FZFNeoyankSelection +<cr>
