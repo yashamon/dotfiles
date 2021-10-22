@@ -1013,7 +1013,7 @@ sources = {
        -- { name = 'spell' }, 
    { name = 'nvim_lsp', keyword_length = 4  },
    { name = 'tags' , keyword_length = 4 }, 
-   { name = 'nvim_lsp', keyword_length = 4 },      
+   { name = 'treesitter', keyword_length = 4 },      
 --{ name = 'latex_symbols' },
 }
 }
