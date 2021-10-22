@@ -386,7 +386,7 @@ set termencoding=utf-8
 set fileencoding=utf-8
 
 "maps remaps mappings 
-"
+vnoremap <Leader>G y:%s/<C-r>"//g<CR>
 noremap <leader>r :e<cr>
 noremap <leader>h :set tw=50<cr>
 noremap <leader>w :set tw=0<cr> 
