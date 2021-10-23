@@ -159,7 +159,7 @@ set guicursor=n-v-c:block,i-ci-ve:ver25,r-cr:hor20,o:hor50
 set spelllang=en   
 if exists('g:started_by_firenvim') 
    au UIEnter set lines=140 
-  " au UIEnter set columns=140
+  "au UIEnter set columns=140
  else
 autocmd VimEnter * ZenMode
 endif
@@ -1115,7 +1115,7 @@ nmap <leader>c gc
 " EOF
 lua <<EOF
 require('lualine').setup{
-options = {disabled_filetypes = {'txt', text'}}
+options = {disabled_filetypes = {'txt', 'text'}}
 }
 EOF
 lua << EOF
