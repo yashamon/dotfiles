@@ -439,7 +439,7 @@ nmap V vg$
 nmap A g$a 
 map 0 g^
 map 9 g$
-nmap 8 :set lines=120
+nmap <m-8> :set lines=120
 
 map <Leader>n <Plug>(miniyank-cycle)
 nnoremap <Left> :bnext<CR>
