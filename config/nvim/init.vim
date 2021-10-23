@@ -4,7 +4,7 @@ call plug#begin('~/.vim/plugged')
 Plug 'folke/zen-mode.nvim', { 'branch': 'main' } 
 " Plug 'AckslD/nvim-neoclip.lua', { 'branch': 'main' } 
 Plug 'phaazon/hop.nvim'    
-Plug 'https://gitlab.com/yorickpeterse/nvim-dd.git', 
+Plug 'https://gitlab.com/yorickpeterse/nvim-dd.git',  
 Plug 'luukvbaal/stabilize.nvim' 
 Plug 'glacambre/firenvim', { 'do': { _ -> firenvim#install(0) } }
 Plug 'is0n/fm-nvim' 
