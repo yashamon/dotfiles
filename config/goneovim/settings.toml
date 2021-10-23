@@ -3,11 +3,10 @@ SmoothMove = true
 
 [Editor]
 SmoothScroll = true 
+BorderlessWindow = true
 
 ## Goneovim settings.toml
 ## All of the following commented configuration items have default values.
-
-[Editor]
 ## Makes the application window frameless.
 
 ## Editor minimum window width (>= 400)
