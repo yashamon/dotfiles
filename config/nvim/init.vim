@@ -160,8 +160,8 @@ set guicursor=n-v-c:block,i-ci-ve:ver25,r-cr:hor20,o:hor50
 		  \,sm:block-blinkwait175-blinkoff150-blinkon175
 set spelllang=en   
 if exists('g:started_by_firenvim') 
-  au  set lines=140 
-   set columns=140
+  au GUIEnter set lines=140 
+  au GUIEnter set columns=140
  else
 autocmd VimEnter * ZenMode
 endif
@@ -1394,3 +1394,4 @@ let g:firenvim_config = {
 "  highlight foldcolumn ctermfg=256 ctermbg=bg
 " autocmd Colorscheme * highlight FoldColumn guifg=black guibg=bg 
 
+let g:neovide_fullscreen=v:true
