@@ -33,7 +33,7 @@ BorderlessWindow = true
 Transparent = .9
 
 ## Launch goneovim with full screen window size.
- StartFullscreen = false
+StartFullscreen = true
 
 ## Editor external font-family, font-size, and linespace.
 ## This is the font and linespace settings of the graphical UI as an nvim front end.
@@ -242,7 +242,7 @@ Transparent = .9
 # Disable = false
 
 ## Specifies whether to show the minimap or not.
-# Visible = false
+ Visible = false
 
 ## Specifies the width of the minimap.
 # Width = 100
