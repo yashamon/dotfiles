@@ -164,8 +164,9 @@ if exists('g:started_by_firenvim')
       au UIEnter  set noshowcmd 
 set noshowmode
 set noruler       
-set laststatus =0 
-set noshowcmd  else
+set laststatus=0 
+set noshowcmd  
+else
 autocmd VimEnter * ZenMode
 endif
 
