@@ -158,7 +158,7 @@ set guicursor=n-v-c:block,i-ci-ve:ver25,r-cr:hor20,o:hor50
 		  \,sm:block-blinkwait175-blinkoff150-blinkon175
 set spelllang=en   
 if exists('g:started_by_firenvim') 
-  " au UIEnter set lines=140 
+   au UIEnter set lines=140 
   " au UIEnter set columns=140
  else
 autocmd VimEnter * ZenMode
@@ -439,7 +439,7 @@ nmap V vg$
 nmap A g$a 
 map 0 g^
 map 9 g$
-nmap <m-8> :set lines=200<cr>:set columns=200<>
+nmap <m-8> :set lines=200<cr>:set columns=200<cr>
 
 map <Leader>n <Plug>(miniyank-cycle)
 nnoremap <Left> :bnext<CR>
