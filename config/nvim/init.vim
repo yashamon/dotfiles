@@ -167,7 +167,8 @@ set noruler
 set laststatus=0 
 set noshowcmd   
 j" set lines=140 
-"au UIEnter set columns=140else
+"au UIEnter set columns=140
+"else
 autocmd VimEnter * ZenMode
 endif
 
