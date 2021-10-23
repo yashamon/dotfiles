@@ -76,7 +76,7 @@ Plug 'kevinhwang91/nvim-bqf', { 'branch': 'main' }
 " please comment next line
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 " Plug 'sindrets/diffview.nvim', { 'branch': 'main' } 
- Plug 'rmagatti/auto-session',  { 'branch': 'main'}
+Plug 'rmagatti/auto-session',  { 'branch': 'main'}
 Plug 'justinmk/vim-sneak'
 Plug 'Shougo/neoyank.vim' 
 if has('nvim')
@@ -167,8 +167,8 @@ if exists('g:started_by_firenvim')
       au UIEnter  set noruler
       au UIEnter  set laststatus=0
       au UIEnter  set noshowcmd  
-      au UIEnter set lines=140 
-      au UIEnter set columns=140
+      " au UIEnter set lines=140 
+      " au UIEnter set columns=140
 else
 autocmd VimEnter * ZenMode
 endif
