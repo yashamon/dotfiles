@@ -75,7 +75,7 @@ Plug 'kevinhwang91/nvim-bqf', { 'branch': 'main' }
 " please comment next line
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 " Plug 'sindrets/diffview.nvim', { 'branch': 'main' } 
-Plug 'rmagatti/auto-session', { 'branch': 'main' }
+" Plug 'rmagatti/auto-session', { 'branch': 'main' }
 Plug 'justinmk/vim-sneak'
 Plug 'Shougo/neoyank.vim' 
 if has('nvim')
@@ -142,7 +142,7 @@ call plug#end()
 
 "General Settings  
 set wrap  
- set pb=15 
+set pb=15 
 set switchbuf=newtab
 " let g:python3_host_prog='/usr/bin/python3.9'
 " let g:python3_host_prog='/usr/bin/python3.9'
