@@ -170,7 +170,7 @@ set spelllang=en
 "       " au UIEnter set lines=140 
 "       " au UIEnter set columns=140
 " else
-" autocmd VimEnter * TZAtaraxis
+autocmd VimEnter * TZAtaraxis
 " endif
 
 au VIMEnter set spell 
