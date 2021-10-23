@@ -1236,7 +1236,6 @@ EOF
 lua <<EOF
 require('dd').setup()
 EOF
-au GUIEnter * set fullscreen
 let g:firenvim_config = { 
     \ 'globalSettings': {
         \ 'alt': 'all',
