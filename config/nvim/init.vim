@@ -1233,7 +1233,7 @@ require("stabilize").setup(
 }
 )
 EOF
-
+eof
 au GUIEnter * set fullscreen
 let g:firenvim_config = { 
     \ 'globalSettings': {
