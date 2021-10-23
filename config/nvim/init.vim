@@ -400,7 +400,7 @@ noremap <leader>h :set tw=50<cr>
 noremap <leader>w :set tw=0<cr> 
 " noremap q <nop>
 map <leader>q q 
-nmap <m-7> :ZenMode<>:mksession!<cr>
+nmap <m-7> :ZenMode<cr>:mksession!<cr>
 nnoremap <leader>sv :source $MYVIMRC<CR>
 "nnoremap <leader>e :NERDTreeFind<CR> 
 nnoremap <leader>e :Vifm<cr>
@@ -1248,8 +1248,6 @@ local opts = {
   auto_session_suppress_dirs = nil
 }
 
-require('auto-session').setup(opts)
-EOF
 let g:firenvim_config = { 
     \ 'globalSettings': {
         \ 'alt': 'all',
