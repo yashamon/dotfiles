@@ -71,7 +71,7 @@ StartFullscreen = true
 # DisableLigatures = true
 
 ## Copy yanked text to clipboard
- Clipboard = true
+Clipboard = true
 
 ## This setting is equivalent to Macmeta in MacVim.
 # Macmeta = true
@@ -162,7 +162,7 @@ StartFullscreen = true
 ## Specifies the number of items to be displayed in the command line palette.
 # MaxNumberOfResultItems = 30
 ## Specifies the opacity of the command line palette.
-# Transparent = 1.0
+ Transparent = 1.0
 
 
 ## Configure externalized message UI.
