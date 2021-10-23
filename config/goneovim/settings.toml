@@ -10,7 +10,7 @@ SmoothScroll = true
 
 [Editor]
 ## Makes the application window frameless.
-BorderlessWindow = false
+BorderlessWindow = true
 
 ## Editor minimum window width (>= 400)
 # Width = 800
@@ -30,7 +30,7 @@ BorderlessWindow = false
 
 ## This option makes the whole GUI window in semi-transparent.
 ## This setting also implicitly enables the Drawborder setting
-# Transparent = 1.0
+# Transparent = .9.0
 
 ## Launch goneovim with full screen window size.
 # StartFullscreen = false
