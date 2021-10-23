@@ -1114,7 +1114,7 @@ nmap <leader>c gc
 " })
 " EOF
 lua <<EOF
-require('lualine').setup() 
+require('lualine').setup({}) 
 
 EOF
 lua << EOF
