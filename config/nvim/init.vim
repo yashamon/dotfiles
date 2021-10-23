@@ -75,7 +75,7 @@ Plug 'kevinhwang91/nvim-bqf', { 'branch': 'main' }
 " please comment next line
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 " Plug 'sindrets/diffview.nvim', { 'branch': 'main' } 
-"Plug 'rmagatti/auto-session', { 'branch': 'main' }
+" "Plug 'rmagatti/auto-session', { 'branch': 'main' }
 Plug 'justinmk/vim-sneak'
 Plug 'Shougo/neoyank.vim' 
 if has('nvim')
@@ -584,7 +584,7 @@ noremap S <Esc>:BLines<CR>
 "   K=bufname()
 "   normal viwhy<esc>:bdelete<cr>:buffer K<c-r>+<cr>:ZenMode<cr>
 " endfunction
-noremap <leader>ss :source $MYVIMRC<>
+noremap <leader>ss :source $MYVIMRC<cr>
 noremap <m-l> viwy<esc>:bp<cr>:<c-r>+<cr>
 noremap <m-b> <Esc>:Buffers<CR> 
 " noremap F <Esc>:GFiles<CR> 
