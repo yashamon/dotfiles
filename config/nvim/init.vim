@@ -764,7 +764,7 @@ autocmd BufWritePost * silent execute 'AsyncRun if git rev-parse --is-inside-wor
     "
     "
     " UndoTree {
-noremap <Leader>u :ZenMode<cr>:UndotreeToggle<CR>:ZenMode<cr>
+noremap <Leader>u :ZT:<cr>:UndotreeToggle<CR>:ZenMode<cr>
         " If undotree is opened, it is likely one wants to interact with it.
         let g:undotree_SetFocusWhenToggle=1
         noremap <D-z> u
