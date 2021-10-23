@@ -4,9 +4,10 @@
 " ------------------------------------------------------------------------------
 set runexec
 command Q :execute '!echo %d > ~/.config/vifm/lastdir' | quit
-command sacd sacd_extract -2 -s -c -i %f 
-
-noremap N :'! ~/.local/bin/neovide --frameless --multigrid %f<cr>
+command sacd sacd_extract -2 -s -c -i %f  
+command neo ~/.local/bin/neovide 
+--fullscreen -- %f 
+map n :neo<cr>
 command diff nvim -d %f %F
 command nautilus nautilus %f 
 command sacddir for f in */*.iso ; do sacd_extract -2 -s -c -i "$f" ; done
