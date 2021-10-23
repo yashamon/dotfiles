@@ -140,7 +140,8 @@ Plug 'dracula/vim'
 call plug#end() 
 
 
-"General Settings  
+"General Settings   
+"
 set wrap  
 set pb=15 
 set switchbuf=newtab
