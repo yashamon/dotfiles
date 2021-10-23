@@ -162,13 +162,13 @@ Clipboard = true
 ## Specifies the number of items to be displayed in the command line palette.
 # MaxNumberOfResultItems = 30
 ## Specifies the opacity of the command line palette.
- Transparent = 0.9
+Transparent = 0.9
 
 
 ## Configure externalized message UI.
 [Message]
 ## Specifies the opacity of the message window.
-# Transparent = 1.0
+ Transparent = 1.0
 
 
 ## The statusline configuration below relates to the display of Goenovim's own external status lines.
