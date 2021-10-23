@@ -95,7 +95,6 @@ Plug 'terryma/vim-multiple-cursors'
 " " On-demand loading
 " Plug 'junegunn/goyo.vim'
 " " Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
-Plug 'equalsraf/neovim-gui-shim'
 
 "  Plug 'morhetz/gruvbox'
 Plug 'sainnhe/gruvbox-material'
