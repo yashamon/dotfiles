@@ -12,7 +12,7 @@ Plug 'nvim-lua/plenary.nvim'
 Plug 'nvim-telescope/telescope.nvim',  
 Plug 'nvim-treesitter/playground'
 Plug 'hoob3rt/lualine.nvim', 
-Plug 'karb94/neoscroll.nvim' 
+" Plug 'karb94/neoscroll.nvim' 
 " Plug 'folke/twilight.nvim', { 'branch': 'main' }
 " Plug 'f3fora/cmp-spell'    
 " Plug 'Pocco81/TrueZen.nvim', { 'branch': 'main' }
