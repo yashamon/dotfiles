@@ -3,4 +3,5 @@
 SmoothMove = true
 
 [Editor]
-SmoothScroll = true
+SmoothScroll = true 
+
