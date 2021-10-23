@@ -240,7 +240,7 @@ Transparent = 0.9
  # Visible = true
 
 ## Specifies the width of the minimap.
- Width = 100
+ # Width = 100
 
 
 ## Configure the markdown preview feature
@@ -278,4 +278,4 @@ Transparent = 0.9
 # PathStyle = "minimum"
 
 ## Specifies whether the last exited session should be restored at the next startup.
-RestoreSession = true
+# RestoreSession = true
