@@ -141,7 +141,10 @@ call plug#end()
 
 
 "General Settings   
-"
+set noshowmode
+set noruler       
+set laststatus=0 
+set noshowcmd  
 set wrap  
 set pb=15 
 set switchbuf=newtab
