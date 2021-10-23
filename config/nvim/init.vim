@@ -1236,6 +1236,7 @@ EOF
 lua <<EOF
 require('dd').setup()
 EOF
+eof
 let g:firenvim_config = { 
     \ 'globalSettings': {
         \ 'alt': 'all',
