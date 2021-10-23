@@ -3,7 +3,7 @@ call plug#begin('~/.vim/plugged')
 " Plug 'folke/which-key.nvim', { 'branch': 'main' }
 Plug 'folke/zen-mode.nvim', { 'branch': 'main' } 
 " Plug 'AckslD/nvim-neoclip.lua', { 'branch': 'main' } 
-Plug 'phaazon/hop.nvim'   
+Plug 'phaazon/hop.nvim'    if()
 Plug 'luukvbaal/stabilize.nvim' 
 Plug 'glacambre/firenvim', { 'do': { _ -> firenvim#install(0) } }
 Plug 'is0n/fm-nvim' 
@@ -146,7 +146,7 @@ set noruler
 set laststatus=0 
 set noshowcmd  
 set wrap  
-set pb=15 
+set pb=20 
 set switchbuf=newtab
 " let g:python3_host_prog='/usr/bin/python3.9'
 " let g:python3_host_prog='/usr/bin/python3.9'
