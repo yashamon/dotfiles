@@ -165,9 +165,8 @@ if exists('g:started_by_firenvim')
       au UIEnter  set noshowmode
       au UIEnter  set noruler
       au UIEnter  set laststatus=0
-      au UIEnter  set noshowcmd 
- 
-" set lines=140 
+      au UIEnter  set noshowcmd  
+ au UIEnterset lines=140 
 "au UIEnter set columns=140
 else
 autocmd VimEnter * ZenMode
