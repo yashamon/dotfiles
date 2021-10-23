@@ -27,7 +27,7 @@ BorderlessWindow = true
 
 ## This option makes the whole GUI window in semi-transparent.
 ## This setting also implicitly enables the Drawborder setting
-# Transparent = 0.9
+Transparent = 0.9
 
 ## Launch goneovim with full screen window size.
 StartFullscreen = true
@@ -160,7 +160,7 @@ Clipboard = true
 ## Specifies the number of items to be displayed in the command line palette.
 # MaxNumberOfResultItems = 30
 ## Specifies the opacity of the command line palette.
-# Transparent = 0.9
+Transparent = 0.9
 
 
 ## Configure externalized message UI.
@@ -237,7 +237,7 @@ Clipboard = true
 # Disable = false
 
 ## Specifies whether to show the minimap or not.
-  # Visible = true
+  Visible = true
 
 ## Specifies the width of the minimap.
  # Width = 100
