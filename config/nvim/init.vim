@@ -159,7 +159,7 @@ set guicursor=n-v-c:block,i-ci-ve:ver25,r-cr:hor20,o:hor50
 set spelllang=en   
 if exists('g:started_by_firenvim') 
       au UIEnter  set noshowmode
-      au UIEnter set noruler
+      au UIEnter  set noruler
       au UIEnter set laststatus=0
       au UIEnter  set noshowcmd
    " set lines=140 
