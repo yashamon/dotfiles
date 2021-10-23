@@ -1113,7 +1113,7 @@ true_zen.setup({
 		vim_powerline = false,
 		vim_signify = false,
 		express_line = false,
-		 lualine = true,
+		 lualine = false,
 		lightline = false,
 		feline = false
 	},
@@ -1405,4 +1405,4 @@ let g:firenvim_config = {
 
 
 let g:neovide_fullscreen=v:true
-let g:neovide_transparency=0.8
+let g:neovide_transparency=0.9
