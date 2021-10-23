@@ -1387,4 +1387,4 @@ let g:firenvim_config = {
 " autocmd Colorscheme * highlight FoldColumn guifg=black guibg=bg 
 
 let g:neovide_fullscreen=v:true 
-let g:neovide_transparency=1
+let g:neovide_transparency=.8
