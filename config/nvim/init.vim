@@ -146,7 +146,7 @@ set noruler
 set laststatus=0 
 set noshowcmd  
 set wrap  
-set pb=15 
+" set pb=15 
 set switchbuf=newtab
 " let g:python3_host_prog='/usr/bin/python3.9'
 " let g:python3_host_prog='/usr/bin/python3.9'
