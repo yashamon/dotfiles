@@ -283,4 +283,4 @@ StartFullscreen = true
 # PathStyle = "minimum"
 
 ## Specifies whether the last exited session should be restored at the next startup.
-# RestoreSession = false
+ RestoreSession = false
