@@ -158,7 +158,7 @@ set guicursor=n-v-c:block,i-ci-ve:ver25,r-cr:hor20,o:hor50
 		  \,sm:block-blinkwait175-blinkoff150-blinkon175
 set spelllang=en   
 if exists('g:started_by_firenvim') 
-  au GUIEnter set lines=140 
+  au UIEnter set lines=140 
   au GUIEnter set columns=140
  else
 autocmd VimEnter * ZenMode
