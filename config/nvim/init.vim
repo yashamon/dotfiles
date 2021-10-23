@@ -1249,6 +1249,7 @@ let g:firenvim_config = {
         \ },
     \ }
 \ }
+
 " if exists('g:started_by_firenvim')
 "   ZenMode
 " else
