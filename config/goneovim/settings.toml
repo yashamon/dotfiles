@@ -145,7 +145,6 @@ Clipboard = true
 # Ginitvim = ""
 
 
-[Cursor]
 ## Specifies whether the smooth cursor feature is enabled or disabled by a boolean value.
 # SmoothMove = false
 
