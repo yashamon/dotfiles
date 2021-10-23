@@ -584,7 +584,7 @@ noremap S <Esc>:BLines<CR>
 "   K=bufname()
 "   normal viwhy<esc>:bdelete<cr>:buffer K<c-r>+<cr>:ZenMode<cr>
 " endfunction
-noremap <leader>ss :source $MYVIMRC
+noremap <leader>ss :source $MYVIMRC<>
 noremap <m-l> viwy<esc>:bp<cr>:<c-r>+<cr>
 noremap <m-b> <Esc>:Buffers<CR> 
 " noremap F <Esc>:GFiles<CR> 
