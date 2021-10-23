@@ -439,7 +439,7 @@ nmap V vg$
 nmap A g$a 
 map 0 g^
 map 9 g$
-map 8
+nmap 8 :
 
 map <Leader>n <Plug>(miniyank-cycle)
 nnoremap <Left> :bnext<CR>
