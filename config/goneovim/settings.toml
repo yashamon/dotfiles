@@ -33,7 +33,7 @@ BorderlessWindow = true
 Transparent = .9
 
 ## Launch goneovim with full screen window size.
-# StartFullscreen = false
+ StartFullscreen = false
 
 ## Editor external font-family, font-size, and linespace.
 ## This is the font and linespace settings of the graphical UI as an nvim front end.
