@@ -1114,9 +1114,9 @@ nmap <leader>c gc
 " })
 " EOF
 lua <<EOF
-require('lualine').setup(
+require('lualine').setup{
 options = {disabled_filetypes = {'txt, text'}}
-})
+)
 EOF
 lua << EOF
   require("zen-mode").setup {
