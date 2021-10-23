@@ -237,7 +237,7 @@ Transparent = 0.9
 # Disable = false
 
 ## Specifies whether to show the minimap or not.
- # Visible = true
+  Visible = true
 
 ## Specifies the width of the minimap.
  # Width = 100
