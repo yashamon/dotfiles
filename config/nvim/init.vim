@@ -1113,7 +1113,7 @@ true_zen.setup({
 		vim_powerline = false,
 		vim_signify = false,
 		express_line = false,
-		" lualine = true,
+		 lualine = true,
 		lightline = false,
 		feline = false
 	},
