@@ -8,7 +8,7 @@ command sacd sacd_extract -2 -s -c -i %f
 
 noremap N :execute 
 '! ~/.local/bin/neovide --frameless 
---multigrid %f'
+--multigrid %f' | quit
 command diff nvim -d %f %F
 command nautilus nautilus %f 
 command sacddir for f in */*.iso ; do sacd_extract -2 -s -c -i "$f" ; done
