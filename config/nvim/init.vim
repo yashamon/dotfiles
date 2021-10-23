@@ -1404,6 +1404,5 @@ lua << EOF
 " autocmd Colorscheme * highlight FoldColumn guifg=black guibg=bg 
 
 
-
 let g:neovide_fullscreen=v:true 
 let g:neovide_transparency=0.8
