@@ -242,10 +242,10 @@ StartFullscreen = true
 # Disable = false
 
 ## Specifies whether to show the minimap or not.
- Visible = false
+ Visible = true
 
 ## Specifies the width of the minimap.
-# Width = 100
+ Width = 100
 
 
 ## Configure the markdown preview feature
