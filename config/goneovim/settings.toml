@@ -168,7 +168,7 @@ Transparent = 0.9
 ## Configure externalized message UI.
 [Message]
 ## Specifies the opacity of the message window.
- Transparent = 1.0
+ Transparent = 0.8
 
 
 ## The statusline configuration below relates to the display of Goenovim's own external status lines.
