@@ -160,7 +160,7 @@ Clipboard = true
 ## Specifies the number of items to be displayed in the command line palette.
 # MaxNumberOfResultItems = 30
 ## Specifies the opacity of the command line palette.
-Transparent = 0.9
+# Transparent = 0.9
 
 
 ## Configure externalized message UI.
