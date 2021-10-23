@@ -1115,6 +1115,7 @@ nmap <leader>c gc
 " EOF
 lua <<EOF
 require('lualine').setup({
+options = {disabled_filetypes = {'lua'}}
 }) 
 
 EOF
