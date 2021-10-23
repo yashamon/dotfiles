@@ -24,7 +24,7 @@ Plug 'shaunsingh/nord.nvim'
 Plug 'neovim/nvim-lspconfig',  { 'branch': 'main' } 
 " Plug 'glepnir/lspsaga.nvim'
 " If you are using Vim-Plug
- Plug 'hrsh7th/cmp-nvim-lsp', { 'branch': 'main' } 
+Plug 'hrsh7th/cmp-nvim-lsp', { 'branch': 'main' } 
 " Plug 'kdheepak/cmp-latex-symbols', { 'branch': 'main' } 
 Plug 'hrsh7th/cmp-buffer', { 'branch': 'main' }
 Plug 'hrsh7th/nvim-cmp', { 'branch': 'main' }
@@ -76,7 +76,7 @@ Plug 'kevinhwang91/nvim-bqf', { 'branch': 'main' }
 " please comment next line
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 " Plug 'sindrets/diffview.nvim', { 'branch': 'main' } 
-Plug 'rmagatti/auto-session',  { 'branch': 'main' }, { 'on': [] },  
+Plug 'rmagatti/auto-session',  { 'branch': 'main' }, { 'off': [] },  
 Plug 'justinmk/vim-sneak'
 Plug 'Shougo/neoyank.vim' 
 if has('nvim')
