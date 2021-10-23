@@ -585,7 +585,7 @@ noremap S <Esc>:BLines<CR>
 "   normal viwhy<esc>:bdelete<cr>:buffer K<c-r>+<cr>:ZenMode<cr>
 " endfunction
 
-noremap <m-l> viwhy<esc>:bp<cr>:<c-r>+<cr>
+noremap <m-l> viwy<esc>:bp<cr>:<c-r>+<cr>
 noremap <m-b> <Esc>:Buffers<CR> 
 " noremap F <Esc>:GFiles<CR> 
 map <A-e> :FZF ~<CR>
