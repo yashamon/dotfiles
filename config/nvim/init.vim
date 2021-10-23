@@ -95,7 +95,6 @@ Plug 'terryma/vim-multiple-cursors'
 " " On-demand loading
 " Plug 'junegunn/goyo.vim'
 " " Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
-
 "  Plug 'morhetz/gruvbox'
 Plug 'sainnhe/gruvbox-material'
 Plug 'vim-pandoc/vim-pandoc'
@@ -773,7 +772,6 @@ noremap <Leader>u :ZenMode<cr>:UndotreeToggle<CR>:ZenMode<cr>
 "au filetype tex filetype indent off
 "  GUI Stuff   
 command -nargs=? Guifont call rpcnotify(0, 'Gui', 'SetFont', "\<args\>") | let g:Guifont="<args>"
-let g:Guifont="Source Code Pro Light:h16"
 
 " Deoplete
 
