@@ -166,7 +166,7 @@ Transparent = 0.9
 ## Configure externalized message UI.
 [Message]
 ## Specifies the opacity of the message window.
- Transparent = 0.9
+Transparent = 0.9
 
 
 ## The statusline configuration below relates to the display of Goenovim's own external status lines.
@@ -278,4 +278,4 @@ Transparent = 0.9
 # PathStyle = "minimum"
 
 ## Specifies whether the last exited session should be restored at the next startup.
-# RestoreSession = true
+ RestoreSession = true
