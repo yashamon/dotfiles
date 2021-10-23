@@ -439,7 +439,7 @@ nmap V vg$
 nmap A g$a 
 map 0 g^
 map 9 g$
-nmap <m-8> :set lines=120<cr>:set columns=140
+nmap <m-8> :set lines=200<cr>:set columns=200<>
 
 map <Leader>n <Plug>(miniyank-cycle)
 nnoremap <Left> :bnext<CR>
