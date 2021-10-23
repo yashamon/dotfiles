@@ -1236,7 +1236,6 @@ EOF
 lua <<EOF
 require('dd').setup()
 EOF
-lua <<EOF
 lua << EOF
 local opts = {
   log_level = 'info',
