@@ -1264,7 +1264,6 @@ let g:firenvim_config = {
         \ },
     \ }
 \ }
-
 lua << EOF
 " if exists('g:started_by_firenvim')
 "   ZenMode
