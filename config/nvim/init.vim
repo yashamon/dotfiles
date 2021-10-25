@@ -178,7 +178,7 @@ set spelllang=en
 "       " au UIEnter set lines=140 
 "       " au UIEnter set columns=140
  else
- autocmd VimEnter * TZAtaraxis
+ " autocmd VimEnter * TZAtaraxis
  endif
 
 au VIMEnter set spell 
@@ -735,7 +735,7 @@ nmap <leader>m :silent ! cat % >> ~/workspace/email.txt; cp % /tmp/temp; make4ht
 " nmap <leader>l :VimtexCompile<CR>
 " nmap <leader>s <Esc>:VimtexErrors<CR>
 " map <leader>g :ZenMode<CR> 
-nmap <leader>g :TZAtaraxis<CR>:set spell<>
+nmap <leader>g :TZAtaraxis<CR>:set spell<cr>
 nmap <leader>p :Denite neoyank -default-action=append<CR>
 
 " NB: this supports "rp that replaces the selection by the contents of @r
