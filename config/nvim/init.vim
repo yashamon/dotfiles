@@ -1232,7 +1232,8 @@ require('fm-nvim').setup{
 }
 EOF
 lua <<EOF
-require('spellsitter').setup_servers 
+require('spellsitter').setup
+
 EOF
 " lua << EOF
 " require("stabilize").setup(
