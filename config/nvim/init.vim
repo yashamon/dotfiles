@@ -735,7 +735,7 @@ nmap <leader>m :silent ! cat % >> ~/workspace/email.txt; cp % /tmp/temp; make4ht
 " nmap <leader>l :VimtexCompile<CR>
 " nmap <leader>s <Esc>:VimtexErrors<CR>
 " map <leader>g :ZenMode<CR> 
-nmap <leader>g :TZAtaraxis<CR><cr>
+nmap <leader>g :TZAtaraxis<CR>
 nmap <leader>p :Denite neoyank -default-action=append<CR>
 
 " NB: this supports "rp that replaces the selection by the contents of @r
