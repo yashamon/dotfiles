@@ -165,7 +165,7 @@ set spelllang=en
  if exists('g:started_by_firenvim')
        au UIEnter  set noshowmode
        au UIEnter  set noruler
-"       au UIEnter  set laststatus=0
+       au UIEnter  set laststatus=0
        au UIEnter  set noshowcmd
 "       " au UIEnter set lines=140 
 "       " au UIEnter set columns=140
@@ -1404,5 +1404,5 @@ let g:firenvim_config = {
 " autocmd Colorscheme * highlight FoldColumn guifg=black guibg=bg 
 
 
-let g:neovide_fullscreen=v:true
+" let g:neovide_fullscreen=v:true
 let g:neovide_transparency=0.9
