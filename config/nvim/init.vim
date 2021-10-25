@@ -641,7 +641,7 @@ endfunction
 
 function! ToggleQuickFix()
     if empty(filter(getwininfo(), 'v:val.quickfix'))
-        
+        TZAtaraxis
         VimtexErrors
     else
         cclose 
