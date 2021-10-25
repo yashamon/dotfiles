@@ -641,11 +641,11 @@ endfunction
 
 function! ToggleQuickFix()
     if empty(filter(getwininfo(), 'v:val.quickfix'))
-        TZAtaraxis
+        TZAtaraxisOff
         VimtexErrors
     else
         cclose 
-        ZenMode
+        TZAtaraxisOnn
         endif
 endfunction
 
