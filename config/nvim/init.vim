@@ -264,7 +264,7 @@ set background=dark
 hi clear SpellBad
 hi SpellBad cterm=undercurl
 " Set style for gVim
-hi SpellBad gui=undercurl
+hi SpellBad gui=underline
 hi MatchParen cterm=undercurl ctermbg=none ctermfg=magenta
 endif
 
