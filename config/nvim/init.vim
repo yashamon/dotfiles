@@ -144,7 +144,7 @@ call plug#end()
 "
 " let g:neovide_maximized=v:true 
 " let g:neovide_fullscreen=v:true
-let g:neovide_transparency=0.2 
+let g:neovide_transparency=0 
 
 "General Settings   
 set noshowmode
