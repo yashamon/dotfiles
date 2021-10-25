@@ -1234,7 +1234,7 @@ EOF
 lua <<EOF
 require('spellsitter').setup {
   hl = 'SpellBad',
-  captures = {'comment', 'text', 'normal', 'plain', 'regular', 'word'},  -- set to {} to spellcheck everything
+  captures = {'comment', 'text', 'normal', 'plain', 'regular', 'word', ''},  -- set to {} to spellcheck everything
 
   -- Spellchecker to use. values:
   -- * vimfn: built-in spell checker using vim.fn.spellbadword()
