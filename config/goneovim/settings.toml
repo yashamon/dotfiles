@@ -2,7 +2,7 @@
 SmoothMove = true
 
 [Editor]
-SmoothScroll = true 
+# SmoothScroll = true 
 BorderlessWindow = true
 
 ## Goneovim settings.toml
