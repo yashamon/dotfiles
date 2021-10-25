@@ -645,7 +645,7 @@ function! ToggleQuickFix()
         VimtexErrors
     else
         cclose 
-        TZAtaraxisOnn
+        TZAtaraxisOn
         endif
 endfunction
 
