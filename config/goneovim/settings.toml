@@ -46,7 +46,7 @@ FontFamily = "Fira Code"
 ## In Windows
 # FontFamily = "Windows"
 ## Fontsize is
-FontSize = 12
+FontSize = 30
 ## linespace is
 # Linespace = 6
 
