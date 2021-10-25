@@ -735,7 +735,7 @@ nmap <leader>m :silent ! cat % >> ~/workspace/email.txt; cp % /tmp/temp; make4ht
 " nmap <leader>l :VimtexCompile<CR>
 " nmap <leader>s <Esc>:VimtexErrors<CR>
 " map <leader>g :ZenMode<CR> 
-nmap <leader>g :TZAtaraxis<CR>
+nmap <leader>g :TZAtaraxis<CR>:set spell<>
 nmap <leader>p :Denite neoyank -default-action=append<CR>
 
 " NB: this supports "rp that replaces the selection by the contents of @r
@@ -1234,7 +1234,7 @@ EOF
 lua <<EOF
 require('spellsitter').setup {
   hl = 'SpellBad',
-  captures = {'comment', 'operator', 'variable', 'function', ''},  -- set to {} to spellcheck everything
+  captures = {'comment', 'operator', 'variable', 'function', 'parameter'},  -- set to {} to spellcheck everything
 
   -- Spellchecker to use. values:
   -- * vimfn: built-in spell checker using vim.fn.spellbadword()
