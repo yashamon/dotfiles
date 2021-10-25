@@ -45,8 +45,7 @@ StartFullscreen = true
 FontFamily = "Fira Code"
 ## In Windows
 # FontFamily = "Windows"
-## Fontsize is
-# FontSize = 12
+## Fontsize isFontSize = 12
 ## linespace is
 # Linespace = 6
 
