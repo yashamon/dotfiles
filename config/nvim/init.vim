@@ -1123,7 +1123,7 @@ true_zen.setup({
 		feline = false
 	},
 	misc = {
-		on_off_commands = false,
+		on_off_commands = true,
 		ui_elements_commands = false,
 		cursor_by_mode = false,
 	}
