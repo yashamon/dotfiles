@@ -1137,7 +1137,7 @@ EOF
 " options = {disabled_filetypes = {'txt', 'text'}}
 " }
 " EOF
-" lua << EOF
+lua << EOF
   require("zen-mode").setup {
   window = {
     backdrop = 1, -- shade the backdrop of the Zen window. Set to 1 to keep the same as Normal
