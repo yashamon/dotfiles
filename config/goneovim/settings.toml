@@ -42,7 +42,7 @@ StartFullscreen = true
 ## In MacOS, 
 # FontFamily = "Monaco"
 ## In Linux
-# FontFamily = "Consolas"
+ FontFamily = "Consolas"
 ## In Windows
 # FontFamily = "Windows"
 ## Fontsize is
