@@ -140,7 +140,8 @@ Plug 'dracula/vim'
 " Add plugins to &runtimepath
 call plug#end() 
 
-
+"Neovide
+"
 "General Settings   
 set noshowmode
 set noruler       
