@@ -1231,6 +1231,7 @@ require('fm-nvim').setup{
 	}
 }
 EOF
+eof
 " lua << EOF
 " require("stabilize").setup(
 " {
