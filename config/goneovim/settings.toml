@@ -145,11 +145,11 @@ DrawBorderForFloatWindow = true
 # Ginitvim = ""
 
 ## Specifies whether the smooth cursor feature is enabled or disabled by a boolean value.
- SmoothMove = false
+ SmoothMove = true
 
 ## Specifies the duration of the animation at the smooth cursor. Default is 55ms.
 ## Note that Goneovim uses the specified value as a base value and makes slight adjustments depending on the distance.
-# Duration = ５５
+# Duration = 70
 
 
 
