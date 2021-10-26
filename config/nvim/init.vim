@@ -4,7 +4,8 @@ call plug#begin('~/.vim/plugged')
 " Plug 'folke/zen-mode.nvim', {  'branch': 'main' } 
 " Optional but recommended
 Plug 'lewis6991/spellsitter.nvim'
-Plug 'metalelf0/nvim-floatedit', 
+Plug 'metalelf0/nvim-floatedit', , { 'branch': 'main' } 
+
 " Plug 'AckslD/nvim-neoclip.lua', { 'branch': 'main' } 
 Plug 'phaazon/hop.nvim'    
 " Plug 'https://gitlab.com/yorickpeterse/nvim-dd.git',  { 'branch': 'main' }
