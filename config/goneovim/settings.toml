@@ -23,7 +23,7 @@
 # ReversingScrollDirection = false
 
 ## Specifies the amount of scrolling by the mouse wheel. The default value is 1.
-# LineToScroll = 1
+# LineToScroll = 2
 
 ## This option makes the whole GUI window in semi-transparent.
 ## This setting also implicitly enables the Drawborder setting
