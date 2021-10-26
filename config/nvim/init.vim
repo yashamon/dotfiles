@@ -624,7 +624,7 @@ let g:vimtex_view_method = "zathura"
 "
 if exists('g:fvim_loaded')
  FVimToggleFullScreen
-" Cursor tweakkks
+" Cursor tweaks
 FVimCursorSmoothMove v:true
 FVimCursorSmoothBlink v:true
 
