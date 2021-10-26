@@ -272,8 +272,7 @@ Visible = false
 
 [Workspace]
 ## This setting sets the format of the path string of CWD in the sidebar.
-
-full: /$HOME/workspacemodules
+/$HOME/workspacemodules
 ##  minimum: /p/t/directoryname
 # PathStyle = "minimum"
 
