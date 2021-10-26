@@ -274,7 +274,7 @@ Visible = false
 ## This setting sets the format of the path string of CWD in the sidebar.
 /$HOME/workspacemodules
 ##  minimum: /p/t/directoryname
-# PathStyle = "minimum"
+ PathStyle = "minimum"
 
 ## Specifies whether the last exited session should be restored at the next startup.
 RestoreSession = true
