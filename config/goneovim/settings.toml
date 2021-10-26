@@ -6,6 +6,7 @@ Duration = 70
 # SmoothScroll = true 
 # BorderlessWindow = true
 
+
 ## Goneovim settings.toml
 ## All of the following commented configuration items have default values.
 ## Makes the application window frameless.
