@@ -1,5 +1,5 @@
 # [Cursor]
-# SmoothMove = true
+ SmoothMove = true
 
 [Editor]
 # SmoothScroll = true 
