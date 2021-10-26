@@ -619,6 +619,8 @@ map <A-e> :FZF ~<CR>
 " let g:vimtex_view_general_options = '-r @line @pdf @tex'
 let g:latex_view_general_viewer = 'zathura'
 let g:vimtex_view_method = "zathura" 
+
+"fm-nvim
 " let g:vimtex_indent_enabled =1
 " let g:vimtex_syntax_enabled=1 
 
