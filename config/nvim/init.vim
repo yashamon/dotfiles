@@ -626,7 +626,6 @@ if exists('g:fvim_loaded')
     FVimCursorSmoothMove v:true
     FVimCursorSmoothBlink v:true 
     FVimToggleFullScreen
-
 " Cursor tweaks
 FVimCursorSmoothMove v:true
 FVimCursorSmoothBlink v:true
