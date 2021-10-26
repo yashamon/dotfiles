@@ -627,7 +627,7 @@ tnoremap <A-Esc> <C-\><C-n>
 
 
 function! Sentence() 
-  AsyncRun sentence.sh %; nvr sentence_%  
+  AsyncRun sentence.sh %; Fe sentence_%  
   echo "Print any character"
   call getchar()
   BLines 
