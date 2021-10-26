@@ -604,7 +604,7 @@ noremap S <Esc>:BLines<CR>
 "   normal viwhy<esc>:bdelete<cr>:buffer K<c-r>+<cr>:ZenMode<cr>
 " endfunction
 noremap <leader>ss :source $MYVIMRC<cr> 
-noremap <m-l> viwy:close<cr>:<c-r>+<cr>:TZAtaraxisOn<>
+noremap <m-l> viwy:close<cr>:<c-r>+<cr>:TZAtaraxisOn<cr>
 " noremap <m-l> viwy<esc>:bp<cr>:<c-r>+<cr>
 noremap <m-b> <Esc>:Buffers<CR> 
 " noremap F <Esc>:GFiles<CR> 
@@ -634,7 +634,7 @@ function! Sentence()
   BLines 
   " AsyncStop
 endfunction
-noremap L <esc>:call Sentence()<cr>
+noremap L <><esc>:call Sentence()<cr>
 function! Git() 
   AsyncRun if git rev-parse --is-inside-work-tree || git rev-parse --git-dir > /dev/null 2>&1 ; then git add % ; git commit -m -a ; git push --all origin; fi  
   AsyncStop
