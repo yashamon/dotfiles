@@ -1,7 +1,7 @@
 call plug#begin('~/.vim/plugged') 
 " Plug 'reedes/vim-pencil' 
 " Plug 'folke/which-key.nvim', { 'branch': 'main' }
-Plug 'folke/zen-mode.nvim', {  'branch': 'main' } 
+" Plug 'folke/zen-mode.nvim', {  'branch': 'main' } 
 " Optional but recommended
 Plug 'lewis6991/spellsitter.nvim'
 
