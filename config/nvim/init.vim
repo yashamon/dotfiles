@@ -4,8 +4,7 @@ call plug#begin('~/.vim/plugged')
 " Plug 'folke/zen-mode.nvim', {  'branch': 'main' } 
 " Optional but recommended
 Plug 'lewis6991/spellsitter.nvim'
-Plug 'metalelf0/nvim-floatedit', , { 'branch': 'main' } 
-
+Plug 'metalelf0/nvim-floatedit',  { 'branch': 'main' } 
 " Plug 'AckslD/nvim-neoclip.lua', { 'branch': 'main' } 
 Plug 'phaazon/hop.nvim'    
 " Plug 'https://gitlab.com/yorickpeterse/nvim-dd.git',  { 'branch': 'main' }
@@ -605,7 +604,7 @@ noremap S <Esc>:BLines<CR>
 "   normal viwhy<esc>:bdelete<cr>:buffer K<c-r>+<cr>:ZenMode<cr>
 " endfunction
 noremap <leader>ss :source $MYVIMRC<cr>
-noremap <m-l> viwy<esc>:bp<cr>:<c-r>+<cr>
+noremap <m-l> viwy<esc>:<c-r>+<cr>
 noremap <m-b> <Esc>:Buffers<CR> 
 " noremap F <Esc>:GFiles<CR> 
 map <A-e> :FZF ~<CR>
