@@ -620,7 +620,12 @@ map <A-e> :FZF ~<CR>
 let g:latex_view_general_viewer = 'zathura'
 let g:vimtex_view_method = "zathura" 
 
-"fm-nvim
+"fvim
+"
+if exists('g:fvim_loaded')
+    FVimCursorSmoothMove v:true
+    FVimCursorSmoothBlink v:true
+endif
 " let g:vimtex_indent_enabled =1
 " let g:vimtex_syntax_enabled=1 
 
