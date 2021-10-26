@@ -273,7 +273,7 @@ Visible = false
 [Workspace]
 ## This setting sets the format of the path string of CWD in the sidebar.
 ##  name: directoryname
-##  full: /path/to/directoryname
+  full: /path/to/directoryname
 ##  minimum: /p/t/directoryname
 # PathStyle = "minimum"
 
