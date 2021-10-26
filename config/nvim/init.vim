@@ -605,7 +605,7 @@ noremap S <Esc>:BLines<CR>
 " endfunction
 noremap <leader>ss :source $MYVIMRC<cr> 
 noremap <m-l> viwy<esc>:<c-r>+<cr>
-noremap <m-l> viwy<esc>:bp<cr>:<c-r>+<cr>
+" noremap <m-l> viwy<esc>:bp<cr>:<c-r>+<cr>
 noremap <m-b> <Esc>:Buffers<CR> 
 " noremap F <Esc>:GFiles<CR> 
 map <A-e> :FZF ~<CR>
