@@ -624,7 +624,8 @@ let g:vimtex_view_method = "zathura"
 "
 if exists('g:fvim_loaded')
     FVimCursorSmoothMove v:true
-    FVimCursorSmoothBlink v:true
+    FVimCursorSmoothBlink v:true 
+
 endif
 " let g:vimtex_indent_enabled =1
 " let g:vimtex_syntax_enabled=1 
