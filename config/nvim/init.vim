@@ -629,7 +629,8 @@ tnoremap <A-Esc> <C-\><C-n>
 function! Sentence() 
   AsyncRun sentence.sh %  
   echo "Print any character"
-  call getchar()
+  call getchar() 
+
   BLines 
   AsyncStop
 endfunction
