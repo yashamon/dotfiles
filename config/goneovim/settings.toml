@@ -279,4 +279,4 @@ Visible = false
 # PathStyle = "minimum"
 
 ## Specifies whether the last exited session should be restored at the next startup.
-RestoreSession = true
+# RestoreSession = true
