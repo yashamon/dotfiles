@@ -1,6 +1,6 @@
 [Cursor]
- SmoothMove = true
- Duration = 100
+SmoothMove = true
+Duration = 70
 
 [Editor]
 # SmoothScroll = true 
