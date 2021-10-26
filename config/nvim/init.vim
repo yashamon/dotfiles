@@ -632,7 +632,7 @@ function! Sentence()
   call getchar() 
   Fe sentence_%
   BLines 
-  AsyncStop
+  " AsyncStop
 endfunction
 noremap L <esc>:call Sentence()<cr>
 function! Git() 
