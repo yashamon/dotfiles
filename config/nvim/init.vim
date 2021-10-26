@@ -639,7 +639,7 @@ FVimBackgroundImageStretch 'fill'     " 'none', 'fill', 'uniform', 'uniformfill'
 FVimBackgroundImageOpacity 0.85       " value between 0 and 1, bg image opacity
 
 " Title bar tweaks
-FVimCustomTitleBar v:true             " themed with colorscheme
+FVimCustomTitleBar v:false             " themed with colorscheme
 
 " Debug UI overlay
 FVimDrawFPS v:true
