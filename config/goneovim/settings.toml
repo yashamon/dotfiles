@@ -226,12 +226,12 @@ Visible = false
 # ShowDigit = true
 
 
-[ScrollBar]
+# [ScrollBar]
 ## Specifies whether to show the external scrollbar or not.
 # Visible = false
 
 
-[MiniMap]
+# [MiniMap]
 ## To view the minimap, launch an additional nvim instance;
 ## setting Disable to true will not launch this additional nvim instance
 ## and will completely disable the minimap feature.
