@@ -1210,6 +1210,9 @@ require('feline').setup({
     preset = 'noicon'
     })
 EOF
+require('feline').setup({
+    preset = 'noicon'
+    })
 
 
 " lua <<EOF
