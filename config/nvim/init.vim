@@ -1196,7 +1196,7 @@ true_zen.setup({
 		express_line = false,
 		 lualine = false,
 		lightline = false,
-		feline = false
+		feline = true
 	},
 	misc = {
 		on_off_commands = true,
