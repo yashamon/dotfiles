@@ -993,7 +993,7 @@ end
    -- }
 --  }
 --end
-" EOF
+EOF
 
 
 "Lsp install
