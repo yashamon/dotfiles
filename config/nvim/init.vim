@@ -625,7 +625,7 @@ map <A-e> :FZF ~<CR>
 "          \ = '/Applications/Skim.app/Contents/SharedSupport/displayline'
 " let g:vimtex_view_general_options = '-r @line @pdf @tex'
 let g:latex_view_general_viewer = 'zathura'
-let g:vimtex_view_method = "zathura" 
+let g:vimtex_view_method = "zathura"  if()
 
 "fvim
 "
