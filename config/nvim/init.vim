@@ -401,7 +401,10 @@ set encoding=utf-8
 set termencoding=utf-8
 set fileencoding=utf-8
 
-"maps remaps mappings 
+"maps remaps mappings  
+"
+"
+"
 vnoremap <Leader>U ""y:%s/<C-r>"
 noremap <leader>r :e<cr>
 noremap <leader>h :set tw=50<cr>
