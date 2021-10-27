@@ -689,9 +689,6 @@ endif
 " let g:vimtex_indent_enabled =1
 " let g:vimtex_syntax_enabled=1 
 
-" terminal mappings
-tnoremap <A-Esc> <C-\><C-n>
-nmap 
 
 function! Sentence() 
   AsyncRun sentence.sh %  
