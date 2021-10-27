@@ -1205,7 +1205,7 @@ true_zen.setup({
 	}
 })
 EOF
-Plug 'famiu/feline.nvim'
+
 " lua <<EOF
 " require('lualine').setup{
 " options = {disabled_filetypes = {'txt', 'text'}}
