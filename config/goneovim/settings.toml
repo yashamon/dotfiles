@@ -251,7 +251,6 @@ Visible = false
 ## Specifying code highlighting styles
 # CodeHlStyle = "github"
 
-
 # [SideBar]
 ## Specifies whether to show the external sidebar or not.
 # Visible = false
@@ -264,7 +263,6 @@ Visible = false
 
 ## Specify the color to use when selecting items in the sidebar or palette in hexadecimal format
 # AccentColor = "#5596ea"
-
 
 # [FileExplore]
 ## Specify the maximum number of items to be displayed in the file explorer.
