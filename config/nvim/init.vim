@@ -407,7 +407,7 @@ set fileencoding=utf-8
 "
 " terminal mappings
 tnoremap <A-Esc> <C-\><C-n>
-nmap <C-S-<>> :te<cr> 
+nmap <A-S-cr> :te<cr> 
 
 vnoremap <Leader>U ""y:%s/<C-r>"
 noremap <leader>r :e<cr>
