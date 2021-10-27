@@ -195,7 +195,7 @@ Transparent = 0.9
 ## Configure externalized tabline UI.
 # [Tabline]
 ## Whether or not to display the external tabline
-Visible = false
+# Visible = false
 # ShowIcon = true
 
 
