@@ -266,7 +266,7 @@ Visible = false
 # AccentColor = "#5596ea"
 
 
-[FileExplore]
+# [FileExplore]
 ## Specify the maximum number of items to be displayed in the file explorer.
 # MaxDisplayItems = 30
 
