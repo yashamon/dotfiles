@@ -404,7 +404,10 @@ set fileencoding=utf-8
 "maps remaps mappings  
 "
 "
-"
+" terminal mappings
+tnoremap <A-Esc> <C-\><C-n>
+nmap 
+
 vnoremap <Leader>U ""y:%s/<C-r>"
 noremap <leader>r :e<cr>
 noremap <leader>h :set tw=50<cr>
