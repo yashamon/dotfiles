@@ -1,4 +1,4 @@
-ll plug#begin('~/.vim/plugged') 
+call plug#begin('~/.vim/plugged') 
 " Plug 'reedes/vim-pencil' 
 " Plug 'folke/which-key.nvim', { 'branch': 'main' }
 " Plug 'folke/zen-mode.nvim', {  'branch': 'main' } 
@@ -416,7 +416,7 @@ noremap <leader>w :set tw=0<cr>
 " noremap q <nop>
 map <leader>q q 
 nmap <m-7> :ZenMode<cr>:mksession!<cr>
-nnoremap <leader>sv :source $MYVIMRC<CR>
+nnoremap <leader>rr :source $MYVIMRC<CR>
 "nnoremap <leader>e :NERDTreeFind<CR> 
 nnoremap <leader>e :Vifm<cr>
 nnoremap <leader>t :FloatermToggle<cr> 
