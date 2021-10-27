@@ -1,5 +1,5 @@
 [Cursor]
-# SmoothMove = true
+SmoothMove = true
 Duration = 70
 
 [Editor]
