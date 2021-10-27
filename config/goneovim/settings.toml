@@ -1,9 +1,9 @@
 [Cursor]
-SmoothMove = true
+# SmoothMove = true
 Duration = 70
 
 [Editor]
- SmoothScroll = true 
+SmoothScroll = true 
 # BorderlessWindow = true
 
 ## Goneovim settings.toml
