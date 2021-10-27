@@ -1205,11 +1205,7 @@ true_zen.setup({
 	}
 })
 EOF
-lurrequire('feline').setup({
-    preset = 'noicon'
-    })equire('feline').setup({
-    preset = 'noicon'
-    })a <<EOF
+lua <<EOF
 require('feline').setup({
     preset = 'noicon'
     })
