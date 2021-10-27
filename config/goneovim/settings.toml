@@ -245,7 +245,7 @@ Visible = false
 
 
 ## Configure the markdown preview feature
-[Markdown]
+# [Markdown]
 # Disable = false
 
 ## Specifying code highlighting styles
