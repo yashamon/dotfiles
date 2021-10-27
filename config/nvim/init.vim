@@ -1205,6 +1205,9 @@ true_zen.setup({
 	}
 })
 EOF
+require('feline').setup({
+    preset = 'noicon'
+    })
 
 " lua <<EOF
 " require('lualine').setup{
