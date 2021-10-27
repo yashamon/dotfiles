@@ -611,7 +611,7 @@ noremap S <Esc>:BLines<CR>
 "   normal viwhy<esc>:bdelete<cr>:buffer K<c-r>+<cr>:ZenMode<cr>
 " endfunction
 noremap <leader>ss :source $MYVIMRC<cr> 
-noremap <m-l> viwy:close<cr>:<c-r>+<cr>:TZAtaraxisOn<cr>
+noremap <m-l> viwy:close<cr>:<c-r>+<cr>:TZAtaraxisOn<cr><>
 " noremap <m-l> viwy<esc>:bp<cr>:<c-r>+<cr>
 noremap <m-b> <Esc>:Buffers<CR> 
 " noremap F <Esc>:GFiles<CR> 
@@ -626,7 +626,7 @@ map <A-e> :FZF ~<CR>
 " let g:vimtex_view_general_options = '-r @line @pdf @tex'
 let g:latex_view_general_viewer = 'zathura'
 let g:vimtex_view_method = "zathura"  
-g:vimtex_view_automatic = 0
+let g:vimtex_view_automatic = 0
 
 "fvim
 "
