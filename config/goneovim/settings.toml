@@ -252,7 +252,7 @@ Visible = false
 # CodeHlStyle = "github"
 
 
-[SideBar]
+# [SideBar]
 ## Specifies whether to show the external sidebar or not.
 # Visible = false
 
