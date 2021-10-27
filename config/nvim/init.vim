@@ -14,7 +14,7 @@ Plug 'is0n/fm-nvim'
 Plug 'williamboman/nvim-lsp-installer', { 'branch': 'main' }
 Plug 'nvim-lua/plenary.nvim'
 Plug 'nvim-telescope/telescope.nvim',  
-Plug 'nvim-treesitter/playground'
+Plug 'nvim-treesitter/playground' if()
 " Plug 'hoob3rt/lualine.nvim', 
 " Plug 'karb94/neoscroll.nvim' 
 " Plug 'folke/twilight.nvim', { 'branch': 'main' }
