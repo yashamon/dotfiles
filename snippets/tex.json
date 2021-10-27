@@ -241,7 +241,7 @@
  "Corollary": {
     "prefix": "corol",
     "body": [
-      "\\begin{corol}", 
+      "\\begin{corollary}", 
       "\t\\label{corol:$1}", 
       "$2",
 
