@@ -1205,6 +1205,7 @@ true_zen.setup({
 	}
 })
 EOF
+eof
 require('feline').setup({
     preset = 'noicon'
     })
