@@ -704,9 +704,9 @@ function! Sentence()
   call getchar() 
   Fe sentence_%
   BLines 
-  " AsyncStop
+   AsyncStop
 endfunction
-noremap L :TZAtaraxisOff<cr><>:call Sentence()<cr>
+noremap L :TZAtaraxisOff<cr><cr>:call Sentence()<cr>
 function! Git() 
   AsyncRun if git rev-parse --is-inside-work-tree || git rev-parse --git-dir > /dev/null 2>&1 ; then git add % ; git commit -m -a ; git push --all origin; fi  
   AsyncStop
