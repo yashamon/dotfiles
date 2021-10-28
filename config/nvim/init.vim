@@ -1315,18 +1315,18 @@ require('fm-nvim').setup{
 	}
 }
 EOF
-" lua <<EOF
-" require('spellsitter').setup {
-"   hl = 'SpellBad',
-"   captures = {},  -- set to {} to spellcheck everything
-" 
-"   -- Spellchecker to use. values:
-"   -- * vimfn: built-in spell checker using vim.fn.spellbadword()
-"   -- * ffi: built-in spell checker using the FFI to access the
-"   --   internal spell_check() function
-"   spellchecker = 'vimfn',
-" }
-" EOF
+lua <<EOF
+require('spellsitter').setup {
+  hl = 'SpellBad',
+  captures = {},  -- set to {} to spellcheck everything
+
+  -- Spellchecker to use. values:
+  -- * vimfn: built-in spell checker using vim.fn.spellbadword()
+  -- * ffi: built-in spell checker using the FFI to access the
+  --   internal spell_check() function
+  spellchecker = 'vimfn',
+}
+EOF
 " lua << EOF
 " require("stabilize").setup(
 " {
