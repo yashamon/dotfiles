@@ -17,7 +17,7 @@ Plug 'nvim-telescope/telescope.nvim',
 Plug 'nvim-treesitter/playground' 
 Plug 'famiu/feline.nvim'
 " Plug 'hoob3rt/lualine.nvim', 
-Plug 'karb94/neoscroll.nvim' 
+" Plug 'karb94/neoscroll.nvim' 
 " Plug 'folke/twilight.nvim', { 'branch': 'main' }
 " Plug 'f3fora/cmp-spell'    
 Plug 'Pocco81/TrueZen.nvim', { 'branch': 'main' }
@@ -699,12 +699,12 @@ endif
 
 
 function! Sentence() 
-  AsyncRun sentence.sh %  
+  AsyncRun sentence.sh %   
   echo "Print any character"
   call getchar() 
   Fe sentence_%
   BLines 
-   AsyncStop
+  AsyncStop
 endfunction
 noremap L :TZAtaraxisOff<cr><cr>:call Sentence()<cr>
 function! Git() 
@@ -901,430 +901,430 @@ require'nvim-treesitter.configs'.setup {
 }
 EOF
 
-lua <<EOF
-require('neoscroll').setup{
-    -- All these keys will be mapped to their corresponding default scrolling animation
-    mappings = {'<C-u>', '<C-d>', '<C-b>', '<C-f>',
-                '<C-y>', '<C-e>', 'zt', 'zz', 'zb'},
-    hide_cursor = true,          -- Hide cursor while scrolling
-    stop_eof = true,             -- Stop at <EOF> when scrolling downwards
-    use_local_scrolloff = false, -- Use the local scope of scrolloff instead of the global scope
-    respect_scrolloff = false,   -- Stop scrolling when the cursor reaches the scrolloff margin of the file
-    cursor_scrolls_alone = true, -- The cursor will keep on scrolling even if the window cannot scroll further
-    easing_function = nil,        -- Default easing function
-    pre_hook = nil,              -- Function to run before the scrolling animation starts
-    post_hook = nil,              -- Function to run after the scrolling animation ends
-    }
-EOF
-
-" set foldlevel=20
-" set foldmethod=expr
-" set foldexpr=nvim_treesitter#foldexpr()
-set foldmethod=expr foldexpr=getline(v:lnum)=~'^\s*'.&commentstring[0]
-
-
-
-" vsnip stuff 
-"
-" Use <Tab> and <S-Tab> to navigate through popup menu
-inoremap <expr> <m-space> pumvisible() ? "\<C-n>" : "\<Tab>"
-inoremap <expr> <c-space> pumvisible() ? "\<C-p>" : "\<S-Tab>"
-
-" Set completeopt to have a better completion experience
-set completeopt=menuone,noinsert,noselect
-
-" Avoid showing message extra message when using completion
-set shortmess+=c
-let g:vsnip_snippet_dir = '~/dotfiles/snippets'  
-
-" imap <expr> <m-space>   vsnip#expandable()  ? '<Plug>(vsnip-expand)'         : '<C-j>'
-" smap <expr> <m-space>   vsnip#expandable()  ? '<Plug>(vsnip-expand)'         : '<C-j>'
-" 
-" " Expand or jump
-" imap <expr> <m-space>   vsnip#available(1)  ? '<Plug>(vsnip-expand-or-jump)' : '<C-l>'
-" smap <expr> <m-space>   vsnip#available(1)  ? '<Plug>(vsnip-expand-or-jump)' : '<C-l>'
-
-" Jump forward or backward
-imap <expr> <M-j>   vsnip#jumpable(1)   ? '<Plug>(vsnip-jump-next)'      : '<Tab>'
-  smap <expr> <M-j>   vsnip#jumpable(1)   ? '<Plug>(vsnip-jump-next)'      : '<Tab>'
-imap <expr> <M-k> vsnip#jumpable(-1)  ? '<Plug>(vsnip-jump-prev)'      : '<S-Tab>'
-smap <expr> <M-k> vsnip#jumpable(-1)  ? '<Plug>(vsnip-jump-prev)'      : '<S-Tab>'
-
-"
-" set foldexpr=nvim_treesitter#foldexpr()
-"
-lua << EOF
-local nvim_lsp = require('lspconfig')
--- Use an on_attach function to only map the following keys
--- after the language server attaches to the current buffer
-local on_attach = function(client, bufnr)
-  local function buf_set_keymap(...) vim.api.nvim_buf_set_keymap(bufnr, ...) end
-  local function buf_set_option(...) vim.api.nvim_buf_set_option(bufnr, ...) end
--- Enable completion triggered by <c-x><c-o>
-  buf_set_option('omnifunc', 'v:lua.vim.lsp.omnifunc')
-
-  -- Mappings.
-  local opts = { noremap=true, silent=true }
-
-  -- See `:help vim.lsp.*` for documentation on any of the below functions
-  buf_set_keymap('n', 'gD', '<cmd>lua vim.lsp.buf.declaration()<CR>', opts)
-  buf_set_keymap('n', 'gd', '<cmd>lua vim.lsp.buf.definition()<CR>', opts)
-  --buf_set_keymap('n', 'K', '<cmd>lua vim.lsp.buf.hover()<CR>', opts)
-  buf_set_keymap('n', 'gi', '<cmd>lua vim.lsp.buf.implementation()<CR>', opts)
-  buf_set_keymap('n', '<S-C-k>', '<cmd>lua vim.lsp.buf.signature_help()<CR>', opts)
-  buf_set_keymap('n', '<space>wa', '<cmd>lua vim.lsp.buf.add_workspace_folder()<CR>', opts)
-  buf_set_keymap('n', '<space>wr', '<cmd>lua vim.lsp.buf.remove_workspace_folder()<CR>', opts)
-  buf_set_keymap('n', '<space>wl', '<cmd>lua print(vim.inspect(vim.lsp.buf.list_workspace_folders()))<CR>', opts)
-  buf_set_keymap('n', '<space>D', '<cmd>lua vim.lsp.buf.type_definition()<CR>', opts)
-  buf_set_keymap('n', '<space>rn', '<cmd>lua vim.lsp.buf.rename()<CR>', opts)
-  buf_set_keymap('n', '<leader>ca', '<cmd>lua vim.lsp.buf.code_action()<CR>', opts)
-  --buf_set_keymap('n', 'lr', '<cmd>lua vim.lsp.buf.references()<CR>', opts)
-  buf_set_keymap('n', '<space>e', '<cmd>lua vim.lsp.diagnostic.show_line_diagnostics()<CR>', opts)
-  buf_set_keymap('n', '[d', '<cmd>lua vim.lsp.diagnostic.goto_prev()<CR>', opts)
-  buf_set_keymap('n', ']d', '<cmd>lua vim.lsp.diagnostic.goto_next()<CR>', opts)
-  buf_set_keymap('n', '<space>q', '<cmd>lua vim.lsp.diagnostic.set_loclist()<CR>', opts)
-  buf_set_keymap('n', '<space>f', '<cmd>lua vim.lsp.buf.formatting()<CR>', opts)
-
-end
-
--- Use a loop to conveniently call 'setup' on multiple servers and
--- map buffer local keybindings when the language server attaches
---local servers = {'pyright', 'tsserver', 'texlab', 'jsonls'}
---for _, lsp in ipairs(servers) do
---nvim_lsp[lsp].setup {
- --   on_attach = on_attach,
-  --  flags = {
-   --   debounce_text_changes = 150,
-   -- }
---  }
---end
-EOF
-
-
-"Lsp install
-
-lua << EOF
-local function setup_servers()
-  require'lspinstall'.setup()
-  local servers = require'lspinstall'.installed_servers()
-  for _, server in pairs(servers) do
-    require'lspconfig'[server].setup{capabilities = require('cmp_nvim_lsp').update_capabilities(vim.lsp.protocol.make_client_capabilities())}
-  end
-end
-
-setup_servers()
-
--- Automatically reload after `:LspInstall <server>` so we don't have to restart neovim
-require'lspinstall'.post_install_hook = function ()
-  setup_servers() -- reload installed servers
-  vim.cmd("bufdo e") -- this triggers the FileType autocmd that starts the server
-end
-EOF
-
-nnoremap <leader>y :FZFNeoyank<cr>
-nnoremap <leader>Y :FZFNeoyank  P<cr>
-vnoremap <leader>y :FZFNeoyankSelection<cr>
-
-nnoremap <leader>p :FZFNeoyank +<cr> 
-nnoremap <leader>1 :FZFNeoyank 1<cr>
-nnoremap <leader>P :FZFNeoyank " P+<cr>
-vnoremap <leader>p :FZFNeoyankSelection +<cr>
-
-
-" Replace the default dictionary completion with fzf-based fuzzy completion
-
-inoremap <expr> <c-x><c-k> fzf#vim#complete('cat /usr/share/dict/words')  
-
-
-set completeopt=menu,menuone,noselect
-
-lua <<EOF
-  -- Setup cmp.
-
-local has_words_before = function()
-  if vim.api.nvim_buf_get_option(0, "buftype") == "prompt" then
-    return false
-  end
-  local line, col = unpack(vim.api.nvim_win_get_cursor(0))
-  return col ~= 0 and vim.api.nvim_buf_get_lines(0, line - 1, line, true)[1]:sub(col, col):match("%s") == nil
-end
-
-local feedkey = function(key, mode)
-  vim.api.nvim_feedkeys(vim.api.nvim_replace_termcodes(key, true, true, true), mode, true)
-end
-
-local cmp = require('cmp')
-cmp.setup {
- snippet = {
-      expand = function(args)
-        -- For `vsnip` user.
-        vim.fn["vsnip#anonymous"](args.body) -- For `vsnip` user.
-  -- ... Your other configuration ...
-end,
-},
-mapping = {
-      ['<C-d>'] = cmp.mapping.scroll_docs(-4),
-      ['<C-f>'] = cmp.mapping.scroll_docs(4),
-      ['<C-x>'] = cmp.mapping.complete(),
-      ['<C-e>'] = cmp.mapping.close(),
-      ['<CR>'] = cmp.mapping.confirm({ select = true }),
--- ... Your other mappings ...
-["<Tab>"] = cmp.mapping(function(fallback) 
-      if vim.fn["vsnip#available"]() == 1
-        then
-        feedkey("<Plug>(vsnip-expand-or-jump)", "")
-     elseif cmp.visible() then
-        cmp.select_next_item()
-      elseif has_words_before() then 
-        cmp.complete()
-      else 
-        fallback() -- The fallback function sends a already mapped key. In this case, it's probably `<Tab>`.
-      end
-    end, { "i", "s" }),
-["<S-Tab>"] = cmp.mapping(function()
-      if vim.fn.pumvisible() == 1 then
-        feedkey("<C-p>", "n")
-      elseif vim.fn["vsnip#jumpable"](-1) == 1 then
-        feedkey("<Plug>(vsnip-jump-prev)", "")
-      end
-    end, { "i", "s" }),
--- ... Your other mappings ...
-
-},
--- ... Your other configuration ...
-sources = {
-      -- For vsnip user.
-      { name = 'vsnip', keyword_length = 4 },
-         -- For luasnip user.
-      -- { name = 'luasnip' },
--- For ultisnips user.
-      -- { name = 'ultisnips' },  
-   { name = 'buffer', keyword_length = 4 },
-   { name = 'omni' , keyword_length = 4},
-       -- { name = 'spell' }, 
-   { name = 'nvim_lsp', keyword_length = 4  },
-   { name = 'tags' , keyword_length = 4 }, 
-   { name = 'treesitter', keyword_length = 4 },      
---{ name = 'latex_symbols' },
-}
-}
-EOF
-
-" LSP mappings   
-"" LSP mappings 
-noremap <leader>ca  :lua vim.lsp.buf.code_action()<CR>
-noremap <leader>la  :lua vim.lsp.buf.code_action()<CR>
-
-
-lua <<EOF
-require('nvim_comment').setup(
-{
-  -- Linters prefer comment and line to have a space in between markers
-  marker_padding = true,
-  -- should comment out empty or whitespace only lines
-  comment_empty = true,
-  -- Should key mappings be created
-  create_mappings = true,
-  -- Normal mode mapping left hand side
-  line_mapping = "gc",
-  -- Visual/Operator mapping left hand side
-  operator_mapping = "<leader>c",
-  -- Hook function to call before commenting takes place
-  --hook = nil 
-}
-)
-EOF
-nmap <leader>c gc
-lua <<EOF
-local true_zen = require("true-zen")
-true_zen.setup({
-	ui = {
-		bottom = {
-			laststatus = 0,
-			ruler = false,
-			showmode = false,
-			showcmd = false,
-			cmdheight = 1,
-		},
-		top = {
-			showtabline = 0,
-		},
-		left = {
-			number = false,
-			relativenumber = false,
-			signcolumn = "no",
-		},
-	},
-	modes = {
-		ataraxis = {
-			-- left_padding = 20,
-			-- right_padding = 20,
-			top_padding = 0,
-			bottom_padding = 0,
-			ideal_writing_area_width = {60},
-			auto_padding = true,
-			keep_default_fold_fillchars = true,
-			custom_bg = {"none", ""},
-			bg_configuration = true,
-			quit = "untoggle",
-			ignore_floating_windows = true,
-			affected_higroups = {
-				NonText = true,
-				FoldColumn = true,
-				ColorColumn = true,
-				VertSplit = true,
-				StatusLine = true,
-				StatusLineNC = true,
-				SignColumn = true,
-			},
-		},
-		focus = {
-			margin_of_error = 5,
-			focus_method = "experimental"
-		},
-	},
-	integrations = {
-		vim_gitgutter = false,
-		galaxyline = false,
-		tmux = false,
-		gitsigns = false,
-		nvim_bufferline = false,
-		limelight = false,
-		twilight = false,
-		vim_airline = false,
-		vim_powerline = false,
-		vim_signify = false,
-		express_line = false,
-		 lualine = false,
-		lightline = false,
-		feline = true
-	},
-	misc = {
-		on_off_commands = true,
-		ui_elements_commands = false,
-		cursor_by_mode = false,
-	}
-})
-EOF
-lua <<EOF
-require('feline').setup({
-    preset = 'noicon'
-    })
-EOF
-
-
-
 " lua <<EOF
-" require('lualine').setup{
-" options = {disabled_filetypes = {'txt', 'text'}}
-" }
+" require('neoscroll').setup{
+"     -- All these keys will be mapped to their corresponding default scrolling animation
+"     mappings = {'<C-u>', '<C-d>', '<C-b>', '<C-f>',
+"                 '<C-y>', '<C-e>', 'zt', 'zz', 'zb'},
+"     hide_cursor = true,          -- Hide cursor while scrolling
+"     stop_eof = true,             -- Stop at <EOF> when scrolling downwards
+"     use_local_scrolloff = false, -- Use the local scope of scrolloff instead of the global scope
+"     respect_scrolloff = false,   -- Stop scrolling when the cursor reaches the scrolloff margin of the file
+"     cursor_scrolls_alone = true, -- The cursor will keep on scrolling even if the window cannot scroll further
+"     easing_function = nil,        -- Default easing function
+"     pre_hook = nil,              -- Function to run before the scrolling animation starts
+"     post_hook = nil,              -- Function to run after the scrolling animation ends
+"     }
 " EOF
+" 
+" " set foldlevel=20
+" " set foldmethod=expr
+" " set foldexpr=nvim_treesitter#foldexpr()
+" set foldmethod=expr foldexpr=getline(v:lnum)=~'^\s*'.&commentstring[0]
+" 
+" 
+" 
+" " vsnip stuff 
+" "
+" " Use <Tab> and <S-Tab> to navigate through popup menu
+" inoremap <expr> <m-space> pumvisible() ? "\<C-n>" : "\<Tab>"
+" inoremap <expr> <c-space> pumvisible() ? "\<C-p>" : "\<S-Tab>"
+" 
+" " Set completeopt to have a better completion experience
+" set completeopt=menuone,noinsert,noselect
+" 
+" " Avoid showing message extra message when using completion
+" set shortmess+=c
+" let g:vsnip_snippet_dir = '~/dotfiles/snippets'  
+" 
+" " imap <expr> <m-space>   vsnip#expandable()  ? '<Plug>(vsnip-expand)'         : '<C-j>'
+" " smap <expr> <m-space>   vsnip#expandable()  ? '<Plug>(vsnip-expand)'         : '<C-j>'
+" " 
+" " " Expand or jump
+" " imap <expr> <m-space>   vsnip#available(1)  ? '<Plug>(vsnip-expand-or-jump)' : '<C-l>'
+" " smap <expr> <m-space>   vsnip#available(1)  ? '<Plug>(vsnip-expand-or-jump)' : '<C-l>'
+" 
+" " Jump forward or backward
+" imap <expr> <M-j>   vsnip#jumpable(1)   ? '<Plug>(vsnip-jump-next)'      : '<Tab>'
+"   smap <expr> <M-j>   vsnip#jumpable(1)   ? '<Plug>(vsnip-jump-next)'      : '<Tab>'
+" imap <expr> <M-k> vsnip#jumpable(-1)  ? '<Plug>(vsnip-jump-prev)'      : '<S-Tab>'
+" smap <expr> <M-k> vsnip#jumpable(-1)  ? '<Plug>(vsnip-jump-prev)'      : '<S-Tab>'
+" 
+" "
+" " set foldexpr=nvim_treesitter#foldexpr()
+" "
 " lua << EOF
-"   require("zen-mode").setup {
-"   window = {
-"     backdrop = 1, -- shade the backdrop of the Zen window. Set to 1 to keep the same as Normal
-"     -- height and width can be:
-"     -- * an absolute number of cells when > 1
-"     -- * a percentage of the width / height of the editor when <= 1
-"     -- * a function that returns the width or the height
-"     width = .66, -- width of the Zen window
-"     height = 1, -- height of the Zen window
-"     -- by default, no options are changed for the Zen window
-"     -- uncomment any of the options below, or add other vim.wo options you want to apply
-"     options = {
-"       -- signcolumn = "no", -- disable signcolumn
-"       -- number = false, -- disable number column
-"       -- relativenumber = false, -- disable relative numbers
-"       -- cursorline = false, -- disable cursorline
-"       -- cursorcolumn = false, -- disable cursor column
-"       -- foldcolumn = "0", -- disable fold column
-"       -- list = false, -- disable whitespace characters
-"     },
-"   },
-"   plugins = {
-"     -- disable some global vim options (vim.o...)
-"     -- comment the lines to not apply the options
-"     options = {
-"       enabled = true,
-"       ruler = false, -- disables the ruler text in the cmd line area
-"       showcmd = false, -- disables the command in the last line of the screen
-"     },
-"     twilight = { enabled = false }, -- enable to start Twilight when zen mode opens
-"     gitsigns = { enabled = false }, -- disables git signs
-"     tmux = { enabled = false }, -- disables the tmux statusline
-"     -- this will change the font size on kitty when in zen mode
-"     -- to make this work, you need to set the following kitty options:
-"     -- - allow_remote_control socket-only
-"     -- - listen_on unix:/tmp/kitty
-"     kitty = {
-"       enabled = false,
-"       font = "+4", -- font size increment
-"     },
-"   },
-"   -- callback where you can add custom code when the Zen window opens
-"   on_open = function(win)
-"   end,
-"   -- callback where you can add custom code when the Zen window closes
-"   on_close = function()
-"   end,
+" local nvim_lsp = require('lspconfig')
+" -- Use an on_attach function to only map the following keys
+" -- after the language server attaches to the current buffer
+" local on_attach = function(client, bufnr)
+"   local function buf_set_keymap(...) vim.api.nvim_buf_set_keymap(bufnr, ...) end
+"   local function buf_set_option(...) vim.api.nvim_buf_set_option(bufnr, ...) end
+" -- Enable completion triggered by <c-x><c-o>
+"   buf_set_option('omnifunc', 'v:lua.vim.lsp.omnifunc')
+" 
+"   -- Mappings.
+"   local opts = { noremap=true, silent=true }
+" 
+"   -- See `:help vim.lsp.*` for documentation on any of the below functions
+"   buf_set_keymap('n', 'gD', '<cmd>lua vim.lsp.buf.declaration()<CR>', opts)
+"   buf_set_keymap('n', 'gd', '<cmd>lua vim.lsp.buf.definition()<CR>', opts)
+"   --buf_set_keymap('n', 'K', '<cmd>lua vim.lsp.buf.hover()<CR>', opts)
+"   buf_set_keymap('n', 'gi', '<cmd>lua vim.lsp.buf.implementation()<CR>', opts)
+"   buf_set_keymap('n', '<S-C-k>', '<cmd>lua vim.lsp.buf.signature_help()<CR>', opts)
+"   buf_set_keymap('n', '<space>wa', '<cmd>lua vim.lsp.buf.add_workspace_folder()<CR>', opts)
+"   buf_set_keymap('n', '<space>wr', '<cmd>lua vim.lsp.buf.remove_workspace_folder()<CR>', opts)
+"   buf_set_keymap('n', '<space>wl', '<cmd>lua print(vim.inspect(vim.lsp.buf.list_workspace_folders()))<CR>', opts)
+"   buf_set_keymap('n', '<space>D', '<cmd>lua vim.lsp.buf.type_definition()<CR>', opts)
+"   buf_set_keymap('n', '<space>rn', '<cmd>lua vim.lsp.buf.rename()<CR>', opts)
+"   buf_set_keymap('n', '<leader>ca', '<cmd>lua vim.lsp.buf.code_action()<CR>', opts)
+"   --buf_set_keymap('n', 'lr', '<cmd>lua vim.lsp.buf.references()<CR>', opts)
+"   buf_set_keymap('n', '<space>e', '<cmd>lua vim.lsp.diagnostic.show_line_diagnostics()<CR>', opts)
+"   buf_set_keymap('n', '[d', '<cmd>lua vim.lsp.diagnostic.goto_prev()<CR>', opts)
+"   buf_set_keymap('n', ']d', '<cmd>lua vim.lsp.diagnostic.goto_next()<CR>', opts)
+"   buf_set_keymap('n', '<space>q', '<cmd>lua vim.lsp.diagnostic.set_loclist()<CR>', opts)
+"   buf_set_keymap('n', '<space>f', '<cmd>lua vim.lsp.buf.formatting()<CR>', opts)
+" 
+" end
+" 
+" -- Use a loop to conveniently call 'setup' on multiple servers and
+" -- map buffer local keybindings when the language server attaches
+" --local servers = {'pyright', 'tsserver', 'texlab', 'jsonls'}
+" --for _, lsp in ipairs(servers) do
+" --nvim_lsp[lsp].setup {
+"  --   on_attach = on_attach,
+"   --  flags = {
+"    --   debounce_text_changes = 150,
+"    -- }
+" --  }
+" --end
+" EOF
+" 
+" 
+" "Lsp install
+" 
+" lua << EOF
+" local function setup_servers()
+"   require'lspinstall'.setup()
+"   local servers = require'lspinstall'.installed_servers()
+"   for _, server in pairs(servers) do
+"     require'lspconfig'[server].setup{capabilities = require('cmp_nvim_lsp').update_capabilities(vim.lsp.protocol.make_client_capabilities())}
+"   end
+" end
+" 
+" setup_servers()
+" 
+" -- Automatically reload after `:LspInstall <server>` so we don't have to restart neovim
+" require'lspinstall'.post_install_hook = function ()
+"   setup_servers() -- reload installed servers
+"   vim.cmd("bufdo e") -- this triggers the FileType autocmd that starts the server
+" end
+" EOF
+" 
+" nnoremap <leader>y :FZFNeoyank<cr>
+" nnoremap <leader>Y :FZFNeoyank  P<cr>
+" vnoremap <leader>y :FZFNeoyankSelection<cr>
+" 
+" nnoremap <leader>p :FZFNeoyank +<cr> 
+" nnoremap <leader>1 :FZFNeoyank 1<cr>
+" nnoremap <leader>P :FZFNeoyank " P+<cr>
+" vnoremap <leader>p :FZFNeoyankSelection +<cr>
+" 
+" 
+" " Replace the default dictionary completion with fzf-based fuzzy completion
+" 
+" inoremap <expr> <c-x><c-k> fzf#vim#complete('cat /usr/share/dict/words')  
+" 
+" 
+" set completeopt=menu,menuone,noselect
+" 
+" lua <<EOF
+"   -- Setup cmp.
+" 
+" local has_words_before = function()
+"   if vim.api.nvim_buf_get_option(0, "buftype") == "prompt" then
+"     return false
+"   end
+"   local line, col = unpack(vim.api.nvim_win_get_cursor(0))
+"   return col ~= 0 and vim.api.nvim_buf_get_lines(0, line - 1, line, true)[1]:sub(col, col):match("%s") == nil
+" end
+" 
+" local feedkey = function(key, mode)
+"   vim.api.nvim_feedkeys(vim.api.nvim_replace_termcodes(key, true, true, true), mode, true)
+" end
+" 
+" local cmp = require('cmp')
+" cmp.setup {
+"  snippet = {
+"       expand = function(args)
+"         -- For `vsnip` user.
+"         vim.fn["vsnip#anonymous"](args.body) -- For `vsnip` user.
+"   -- ... Your other configuration ...
+" end,
+" },
+" mapping = {
+"       ['<C-d>'] = cmp.mapping.scroll_docs(-4),
+"       ['<C-f>'] = cmp.mapping.scroll_docs(4),
+"       ['<C-x>'] = cmp.mapping.complete(),
+"       ['<C-e>'] = cmp.mapping.close(),
+"       ['<CR>'] = cmp.mapping.confirm({ select = true }),
+" -- ... Your other mappings ...
+" ["<Tab>"] = cmp.mapping(function(fallback) 
+"       if vim.fn["vsnip#available"]() == 1
+"         then
+"         feedkey("<Plug>(vsnip-expand-or-jump)", "")
+"      elseif cmp.visible() then
+"         cmp.select_next_item()
+"       elseif has_words_before() then 
+"         cmp.complete()
+"       else 
+"         fallback() -- The fallback function sends a already mapped key. In this case, it's probably `<Tab>`.
+"       end
+"     end, { "i", "s" }),
+" ["<S-Tab>"] = cmp.mapping(function()
+"       if vim.fn.pumvisible() == 1 then
+"         feedkey("<C-p>", "n")
+"       elseif vim.fn["vsnip#jumpable"](-1) == 1 then
+"         feedkey("<Plug>(vsnip-jump-prev)", "")
+"       end
+"     end, { "i", "s" }),
+" -- ... Your other mappings ...
+" 
+" },
+" -- ... Your other configuration ...
+" sources = {
+"       -- For vsnip user.
+"       { name = 'vsnip', keyword_length = 4 },
+"          -- For luasnip user.
+"       -- { name = 'luasnip' },
+" -- For ultisnips user.
+"       -- { name = 'ultisnips' },  
+"    { name = 'buffer', keyword_length = 4 },
+"    { name = 'omni' , keyword_length = 4},
+"        -- { name = 'spell' }, 
+"    { name = 'nvim_lsp', keyword_length = 4  },
+"    { name = 'tags' , keyword_length = 4 }, 
+"    { name = 'treesitter', keyword_length = 4 },      
+" --{ name = 'latex_symbols' },
+" }
 " }
 " EOF
-lua <<EOF
-require('telescope').setup{
-  defaults = {
-    -- Default configuration for telescope goes here:
-    -- config_key = value,
-    mappings = {
-      i = {
-        -- map actions.which_key to <C-h> (default: <C-/>)
-        -- actions.which_key shows the mappings for your picker,
-        -- e.g. git_{create, delete, ...}_branch for the git_branches picker
-        ["<C-h>"] = "which_key"
-      }
-    }
-  },
-  pickers = {
-    -- Default configuration for builtin pickers goes here:
-    -- picker_name = {
-    --   picker_config_key = value,
-    --   ...
-    -- }
-    -- Now the picker_config_key will be applied every time you call this
-    -- builtin picker 
-  },
-  extensions = {
-    -- Your extension configuration goes here:
-    -- extension_name = {
-    --   extension_config_key = value,
-    -- }
-    -- please take a look at the readme of the extension you want to configure
-  }
-} 
-EOF
-lua require'hop'.setup { keys = 'etovxqpdygfblzhckisuran', term_seq_bias = 0.5 } 
-lua <<EOF
-require('fm-nvim').setup{
-	config =
-	{
-		edit_cmd = "edit", -- opts: 'tabedit'; 'split'; 'pedit'; etc...
-		border   = "single", -- opts: 'rounded'; 'double'; 'single'; 'solid'; 'shawdow'
-		height   = .9,
-		width    = .9,
-	}
-}
-EOF
-lua <<EOF
-require('spellsitter').setup {
-  hl = 'SpellBad',
-  captures = {},  -- set to {} to spellcheck everything
-
-  -- Spellchecker to use. values:
-  -- * vimfn: built-in spell checker using vim.fn.spellbadword()
-  -- * ffi: built-in spell checker using the FFI to access the
-  --   internal spell_check() function
-  spellchecker = 'vimfn',
-}
-EOF
+" 
+" " LSP mappings   
+" "" LSP mappings 
+" noremap <leader>ca  :lua vim.lsp.buf.code_action()<CR>
+" noremap <leader>la  :lua vim.lsp.buf.code_action()<CR>
+" 
+" 
+" lua <<EOF
+" require('nvim_comment').setup(
+" {
+"   -- Linters prefer comment and line to have a space in between markers
+"   marker_padding = true,
+"   -- should comment out empty or whitespace only lines
+"   comment_empty = true,
+"   -- Should key mappings be created
+"   create_mappings = true,
+"   -- Normal mode mapping left hand side
+"   line_mapping = "gc",
+"   -- Visual/Operator mapping left hand side
+"   operator_mapping = "<leader>c",
+"   -- Hook function to call before commenting takes place
+"   --hook = nil 
+" }
+" )
+" EOF
+" nmap <leader>c gc
+" lua <<EOF
+" local true_zen = require("true-zen")
+" true_zen.setup({
+" 	ui = {
+" 		bottom = {
+" 			laststatus = 0,
+" 			ruler = false,
+" 			showmode = false,
+" 			showcmd = false,
+" 			cmdheight = 1,
+" 		},
+" 		top = {
+" 			showtabline = 0,
+" 		},
+" 		left = {
+" 			number = false,
+" 			relativenumber = false,
+" 			signcolumn = "no",
+" 		},
+" 	},
+" 	modes = {
+" 		ataraxis = {
+" 			-- left_padding = 20,
+" 			-- right_padding = 20,
+" 			top_padding = 0,
+" 			bottom_padding = 0,
+" 			ideal_writing_area_width = {60},
+" 			auto_padding = true,
+" 			keep_default_fold_fillchars = true,
+" 			custom_bg = {"none", ""},
+" 			bg_configuration = true,
+" 			quit = "untoggle",
+" 			ignore_floating_windows = true,
+" 			affected_higroups = {
+" 				NonText = true,
+" 				FoldColumn = true,
+" 				ColorColumn = true,
+" 				VertSplit = true,
+" 				StatusLine = true,
+" 				StatusLineNC = true,
+" 				SignColumn = true,
+" 			},
+" 		},
+" 		focus = {
+" 			margin_of_error = 5,
+" 			focus_method = "experimental"
+" 		},
+" 	},
+" 	integrations = {
+" 		vim_gitgutter = false,
+" 		galaxyline = false,
+" 		tmux = false,
+" 		gitsigns = false,
+" 		nvim_bufferline = false,
+" 		limelight = false,
+" 		twilight = false,
+" 		vim_airline = false,
+" 		vim_powerline = false,
+" 		vim_signify = false,
+" 		express_line = false,
+" 		 lualine = false,
+" 		lightline = false,
+" 		feline = true
+" 	},
+" 	misc = {
+" 		on_off_commands = true,
+" 		ui_elements_commands = false,
+" 		cursor_by_mode = false,
+" 	}
+" })
+" EOF
+" lua <<EOF
+" require('feline').setup({
+"     preset = 'noicon'
+"     })
+" EOF
+" 
+" 
+" 
+" " lua <<EOF
+" " require('lualine').setup{
+" " options = {disabled_filetypes = {'txt', 'text'}}
+" " }
+" " EOF
+" " lua << EOF
+" "   require("zen-mode").setup {
+" "   window = {
+" "     backdrop = 1, -- shade the backdrop of the Zen window. Set to 1 to keep the same as Normal
+" "     -- height and width can be:
+" "     -- * an absolute number of cells when > 1
+" "     -- * a percentage of the width / height of the editor when <= 1
+" "     -- * a function that returns the width or the height
+" "     width = .66, -- width of the Zen window
+" "     height = 1, -- height of the Zen window
+" "     -- by default, no options are changed for the Zen window
+" "     -- uncomment any of the options below, or add other vim.wo options you want to apply
+" "     options = {
+" "       -- signcolumn = "no", -- disable signcolumn
+" "       -- number = false, -- disable number column
+" "       -- relativenumber = false, -- disable relative numbers
+" "       -- cursorline = false, -- disable cursorline
+" "       -- cursorcolumn = false, -- disable cursor column
+" "       -- foldcolumn = "0", -- disable fold column
+" "       -- list = false, -- disable whitespace characters
+" "     },
+" "   },
+" "   plugins = {
+" "     -- disable some global vim options (vim.o...)
+" "     -- comment the lines to not apply the options
+" "     options = {
+" "       enabled = true,
+" "       ruler = false, -- disables the ruler text in the cmd line area
+" "       showcmd = false, -- disables the command in the last line of the screen
+" "     },
+" "     twilight = { enabled = false }, -- enable to start Twilight when zen mode opens
+" "     gitsigns = { enabled = false }, -- disables git signs
+" "     tmux = { enabled = false }, -- disables the tmux statusline
+" "     -- this will change the font size on kitty when in zen mode
+" "     -- to make this work, you need to set the following kitty options:
+" "     -- - allow_remote_control socket-only
+" "     -- - listen_on unix:/tmp/kitty
+" "     kitty = {
+" "       enabled = false,
+" "       font = "+4", -- font size increment
+" "     },
+" "   },
+" "   -- callback where you can add custom code when the Zen window opens
+" "   on_open = function(win)
+" "   end,
+" "   -- callback where you can add custom code when the Zen window closes
+" "   on_close = function()
+" "   end,
+" " }
+" " EOF
+" lua <<EOF
+" require('telescope').setup{
+"   defaults = {
+"     -- Default configuration for telescope goes here:
+"     -- config_key = value,
+"     mappings = {
+"       i = {
+"         -- map actions.which_key to <C-h> (default: <C-/>)
+"         -- actions.which_key shows the mappings for your picker,
+"         -- e.g. git_{create, delete, ...}_branch for the git_branches picker
+"         ["<C-h>"] = "which_key"
+"       }
+"     }
+"   },
+"   pickers = {
+"     -- Default configuration for builtin pickers goes here:
+"     -- picker_name = {
+"     --   picker_config_key = value,
+"     --   ...
+"     -- }
+"     -- Now the picker_config_key will be applied every time you call this
+"     -- builtin picker 
+"   },
+"   extensions = {
+"     -- Your extension configuration goes here:
+"     -- extension_name = {
+"     --   extension_config_key = value,
+"     -- }
+"     -- please take a look at the readme of the extension you want to configure
+"   }
+" } 
+" EOF
+" lua require'hop'.setup { keys = 'etovxqpdygfblzhckisuran', term_seq_bias = 0.5 } 
+" lua <<EOF
+" require('fm-nvim').setup{
+" 	config =
+" 	{
+" 		edit_cmd = "edit", -- opts: 'tabedit'; 'split'; 'pedit'; etc...
+" 		border   = "single", -- opts: 'rounded'; 'double'; 'single'; 'solid'; 'shawdow'
+" 		height   = .9,
+" 		width    = .9,
+" 	}
+" }
+" EOF
+" lua <<EOF
+" require('spellsitter').setup {
+"   hl = 'SpellBad',
+"   captures = {},  -- set to {} to spellcheck everything
+" 
+"   -- Spellchecker to use. values:
+"   -- * vimfn: built-in spell checker using vim.fn.spellbadword()
+"   -- * ffi: built-in spell checker using the FFI to access the
+"   --   internal spell_check() function
+"   spellchecker = 'vimfn',
+" }
+" EOF
 " lua << EOF
 " require("stabilize").setup(
 " {
