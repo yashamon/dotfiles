@@ -702,7 +702,8 @@ function! Sentence()
   AsyncRun sentence.sh %   
   echo "Print any character"
   call getchar() 
-  Fe sentence_%
+  Fe sentence_% 
+
   BLines 
   AsyncStop
 endfunction
