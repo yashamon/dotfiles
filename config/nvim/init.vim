@@ -705,7 +705,7 @@ function! Sentence()
   Fe sentence_% 
   " echo "Print any character"
   " call getchar() 
-   BLines 
+  BLines 
   AsyncStop
 endfunction
 noremap L :TZAtaraxisOff<cr><cr>:call Sentence()<cr>
@@ -1303,18 +1303,18 @@ EOF
 "   }
 " } 
 " EOF
-" lua require'hop'.setup { keys = 'etovxqpdygfblzhckisuran', term_seq_bias = 0.5 } 
-" lua <<EOF
-" require('fm-nvim').setup{
-" 	config =
-" 	{
-" 		edit_cmd = "edit", -- opts: 'tabedit'; 'split'; 'pedit'; etc...
-" 		border   = "single", -- opts: 'rounded'; 'double'; 'single'; 'solid'; 'shawdow'
-" 		height   = .9,
-" 		width    = .9,
-" 	}
-" }
-" EOF
+lua require'hop'.setup { keys = 'etovxqpdygfblzhckisuran', term_seq_bias = 0.5 } 
+lua <<EOF
+require('fm-nvim').setup{
+	config =
+	{
+		edit_cmd = "edit", -- opts: 'tabedit'; 'split'; 'pedit'; etc...
+		border   = "single", -- opts: 'rounded'; 'double'; 'single'; 'solid'; 'shawdow'
+		height   = .9,
+		width    = .9,
+	}
+}
+EOF
 " lua <<EOF
 " require('spellsitter').setup {
 "   hl = 'SpellBad',
