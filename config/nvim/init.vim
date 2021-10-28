@@ -700,7 +700,7 @@ endif
 
 function! Sentence() 
   AsyncRun sentence.sh %  
-  " echo "Print any character"
+   echo "Print any character"
   " call getchar() 
   Fe sentence_%
   " BLines 
