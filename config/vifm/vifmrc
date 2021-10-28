@@ -3,7 +3,7 @@
 
 " ------------------------------------------------------------------------------
 set runexec 
-command=ln=!ln -s %d/%f %D
+
 command Q :execute '!echo %d > ~/.config/vifm/lastdir' | quit
 command sacd sacd_extract -2 -s -c -i %f 
 noremap N :! ~/.local/bin/neovide --frameless --multigrid %f<cr>
