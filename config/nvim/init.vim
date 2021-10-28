@@ -926,191 +926,191 @@ EOF
 " 
 " 
 " 
-" " vsnip stuff 
-" "
-" " Use <Tab> and <S-Tab> to navigate through popup menu
-" inoremap <expr> <m-space> pumvisible() ? "\<C-n>" : "\<Tab>"
-" inoremap <expr> <c-space> pumvisible() ? "\<C-p>" : "\<S-Tab>"
+" vsnip stuff 
+"
+" Use <Tab> and <S-Tab> to navigate through popup menu
+inoremap <expr> <m-space> pumvisible() ? "\<C-n>" : "\<Tab>"
+inoremap <expr> <c-space> pumvisible() ? "\<C-p>" : "\<S-Tab>"
+
+" Set completeopt to have a better completion experience
+set completeopt=menuone,noinsert,noselect
+
+" Avoid showing message extra message when using completion
+set shortmess+=c
+let g:vsnip_snippet_dir = '~/dotfiles/snippets'  
+
+" imap <expr> <m-space>   vsnip#expandable()  ? '<Plug>(vsnip-expand)'         : '<C-j>'
+" smap <expr> <m-space>   vsnip#expandable()  ? '<Plug>(vsnip-expand)'         : '<C-j>'
 " 
-" " Set completeopt to have a better completion experience
-" set completeopt=menuone,noinsert,noselect
-" 
-" " Avoid showing message extra message when using completion
-" set shortmess+=c
-" let g:vsnip_snippet_dir = '~/dotfiles/snippets'  
-" 
-" " imap <expr> <m-space>   vsnip#expandable()  ? '<Plug>(vsnip-expand)'         : '<C-j>'
-" " smap <expr> <m-space>   vsnip#expandable()  ? '<Plug>(vsnip-expand)'         : '<C-j>'
-" " 
-" " " Expand or jump
-" " imap <expr> <m-space>   vsnip#available(1)  ? '<Plug>(vsnip-expand-or-jump)' : '<C-l>'
-" " smap <expr> <m-space>   vsnip#available(1)  ? '<Plug>(vsnip-expand-or-jump)' : '<C-l>'
-" 
-" " Jump forward or backward
-" imap <expr> <M-j>   vsnip#jumpable(1)   ? '<Plug>(vsnip-jump-next)'      : '<Tab>'
-"   smap <expr> <M-j>   vsnip#jumpable(1)   ? '<Plug>(vsnip-jump-next)'      : '<Tab>'
-" imap <expr> <M-k> vsnip#jumpable(-1)  ? '<Plug>(vsnip-jump-prev)'      : '<S-Tab>'
-" smap <expr> <M-k> vsnip#jumpable(-1)  ? '<Plug>(vsnip-jump-prev)'      : '<S-Tab>'
-" 
-" "
-" " set foldexpr=nvim_treesitter#foldexpr()
-" "
-" lua << EOF
-" local nvim_lsp = require('lspconfig')
-" -- Use an on_attach function to only map the following keys
-" -- after the language server attaches to the current buffer
-" local on_attach = function(client, bufnr)
-"   local function buf_set_keymap(...) vim.api.nvim_buf_set_keymap(bufnr, ...) end
-"   local function buf_set_option(...) vim.api.nvim_buf_set_option(bufnr, ...) end
-" -- Enable completion triggered by <c-x><c-o>
-"   buf_set_option('omnifunc', 'v:lua.vim.lsp.omnifunc')
-" 
-"   -- Mappings.
-"   local opts = { noremap=true, silent=true }
-" 
-"   -- See `:help vim.lsp.*` for documentation on any of the below functions
-"   buf_set_keymap('n', 'gD', '<cmd>lua vim.lsp.buf.declaration()<CR>', opts)
-"   buf_set_keymap('n', 'gd', '<cmd>lua vim.lsp.buf.definition()<CR>', opts)
-"   --buf_set_keymap('n', 'K', '<cmd>lua vim.lsp.buf.hover()<CR>', opts)
-"   buf_set_keymap('n', 'gi', '<cmd>lua vim.lsp.buf.implementation()<CR>', opts)
-"   buf_set_keymap('n', '<S-C-k>', '<cmd>lua vim.lsp.buf.signature_help()<CR>', opts)
-"   buf_set_keymap('n', '<space>wa', '<cmd>lua vim.lsp.buf.add_workspace_folder()<CR>', opts)
-"   buf_set_keymap('n', '<space>wr', '<cmd>lua vim.lsp.buf.remove_workspace_folder()<CR>', opts)
-"   buf_set_keymap('n', '<space>wl', '<cmd>lua print(vim.inspect(vim.lsp.buf.list_workspace_folders()))<CR>', opts)
-"   buf_set_keymap('n', '<space>D', '<cmd>lua vim.lsp.buf.type_definition()<CR>', opts)
-"   buf_set_keymap('n', '<space>rn', '<cmd>lua vim.lsp.buf.rename()<CR>', opts)
-"   buf_set_keymap('n', '<leader>ca', '<cmd>lua vim.lsp.buf.code_action()<CR>', opts)
-"   --buf_set_keymap('n', 'lr', '<cmd>lua vim.lsp.buf.references()<CR>', opts)
-"   buf_set_keymap('n', '<space>e', '<cmd>lua vim.lsp.diagnostic.show_line_diagnostics()<CR>', opts)
-"   buf_set_keymap('n', '[d', '<cmd>lua vim.lsp.diagnostic.goto_prev()<CR>', opts)
-"   buf_set_keymap('n', ']d', '<cmd>lua vim.lsp.diagnostic.goto_next()<CR>', opts)
-"   buf_set_keymap('n', '<space>q', '<cmd>lua vim.lsp.diagnostic.set_loclist()<CR>', opts)
-"   buf_set_keymap('n', '<space>f', '<cmd>lua vim.lsp.buf.formatting()<CR>', opts)
-" 
-" end
-" 
-" -- Use a loop to conveniently call 'setup' on multiple servers and
-" -- map buffer local keybindings when the language server attaches
-" --local servers = {'pyright', 'tsserver', 'texlab', 'jsonls'}
-" --for _, lsp in ipairs(servers) do
-" --nvim_lsp[lsp].setup {
-"  --   on_attach = on_attach,
-"   --  flags = {
-"    --   debounce_text_changes = 150,
-"    -- }
-" --  }
-" --end
-" EOF
-" 
-" 
-" "Lsp install
-" 
-" lua << EOF
-" local function setup_servers()
-"   require'lspinstall'.setup()
-"   local servers = require'lspinstall'.installed_servers()
-"   for _, server in pairs(servers) do
-"     require'lspconfig'[server].setup{capabilities = require('cmp_nvim_lsp').update_capabilities(vim.lsp.protocol.make_client_capabilities())}
-"   end
-" end
-" 
-" setup_servers()
-" 
-" -- Automatically reload after `:LspInstall <server>` so we don't have to restart neovim
-" require'lspinstall'.post_install_hook = function ()
-"   setup_servers() -- reload installed servers
-"   vim.cmd("bufdo e") -- this triggers the FileType autocmd that starts the server
-" end
-" EOF
-" 
-" nnoremap <leader>y :FZFNeoyank<cr>
-" nnoremap <leader>Y :FZFNeoyank  P<cr>
-" vnoremap <leader>y :FZFNeoyankSelection<cr>
-" 
-" nnoremap <leader>p :FZFNeoyank +<cr> 
-" nnoremap <leader>1 :FZFNeoyank 1<cr>
-" nnoremap <leader>P :FZFNeoyank " P+<cr>
-" vnoremap <leader>p :FZFNeoyankSelection +<cr>
-" 
-" 
-" " Replace the default dictionary completion with fzf-based fuzzy completion
-" 
-" inoremap <expr> <c-x><c-k> fzf#vim#complete('cat /usr/share/dict/words')  
-" 
-" 
-" set completeopt=menu,menuone,noselect
-" 
-" lua <<EOF
-"   -- Setup cmp.
-" 
-" local has_words_before = function()
-"   if vim.api.nvim_buf_get_option(0, "buftype") == "prompt" then
-"     return false
-"   end
-"   local line, col = unpack(vim.api.nvim_win_get_cursor(0))
-"   return col ~= 0 and vim.api.nvim_buf_get_lines(0, line - 1, line, true)[1]:sub(col, col):match("%s") == nil
-" end
-" 
-" local feedkey = function(key, mode)
-"   vim.api.nvim_feedkeys(vim.api.nvim_replace_termcodes(key, true, true, true), mode, true)
-" end
-" 
-" local cmp = require('cmp')
-" cmp.setup {
-"  snippet = {
-"       expand = function(args)
-"         -- For `vsnip` user.
-"         vim.fn["vsnip#anonymous"](args.body) -- For `vsnip` user.
-"   -- ... Your other configuration ...
-" end,
-" },
-" mapping = {
-"       ['<C-d>'] = cmp.mapping.scroll_docs(-4),
-"       ['<C-f>'] = cmp.mapping.scroll_docs(4),
-"       ['<C-x>'] = cmp.mapping.complete(),
-"       ['<C-e>'] = cmp.mapping.close(),
-"       ['<CR>'] = cmp.mapping.confirm({ select = true }),
-" -- ... Your other mappings ...
-" ["<Tab>"] = cmp.mapping(function(fallback) 
-"       if vim.fn["vsnip#available"]() == 1
-"         then
-"         feedkey("<Plug>(vsnip-expand-or-jump)", "")
-"      elseif cmp.visible() then
-"         cmp.select_next_item()
-"       elseif has_words_before() then 
-"         cmp.complete()
-"       else 
-"         fallback() -- The fallback function sends a already mapped key. In this case, it's probably `<Tab>`.
-"       end
-"     end, { "i", "s" }),
-" ["<S-Tab>"] = cmp.mapping(function()
-"       if vim.fn.pumvisible() == 1 then
-"         feedkey("<C-p>", "n")
-"       elseif vim.fn["vsnip#jumpable"](-1) == 1 then
-"         feedkey("<Plug>(vsnip-jump-prev)", "")
-"       end
-"     end, { "i", "s" }),
-" -- ... Your other mappings ...
-" 
-" },
-" -- ... Your other configuration ...
-" sources = {
-"       -- For vsnip user.
-"       { name = 'vsnip', keyword_length = 4 },
-"          -- For luasnip user.
-"       -- { name = 'luasnip' },
-" -- For ultisnips user.
-"       -- { name = 'ultisnips' },  
-"    { name = 'buffer', keyword_length = 4 },
-"    { name = 'omni' , keyword_length = 4},
-"        -- { name = 'spell' }, 
-"    { name = 'nvim_lsp', keyword_length = 4  },
-"    { name = 'tags' , keyword_length = 4 }, 
-"    { name = 'treesitter', keyword_length = 4 },      
-" --{ name = 'latex_symbols' },
-" }
-" }
-" EOF
+" " Expand or jump
+" imap <expr> <m-space>   vsnip#available(1)  ? '<Plug>(vsnip-expand-or-jump)' : '<C-l>'
+" smap <expr> <m-space>   vsnip#available(1)  ? '<Plug>(vsnip-expand-or-jump)' : '<C-l>'
+
+" Jump forward or backward
+imap <expr> <M-j>   vsnip#jumpable(1)   ? '<Plug>(vsnip-jump-next)'      : '<Tab>'
+  smap <expr> <M-j>   vsnip#jumpable(1)   ? '<Plug>(vsnip-jump-next)'      : '<Tab>'
+imap <expr> <M-k> vsnip#jumpable(-1)  ? '<Plug>(vsnip-jump-prev)'      : '<S-Tab>'
+smap <expr> <M-k> vsnip#jumpable(-1)  ? '<Plug>(vsnip-jump-prev)'      : '<S-Tab>'
+
+"
+" set foldexpr=nvim_treesitter#foldexpr()
+"
+lua << EOF
+local nvim_lsp = require('lspconfig')
+-- Use an on_attach function to only map the following keys
+-- after the language server attaches to the current buffer
+local on_attach = function(client, bufnr)
+  local function buf_set_keymap(...) vim.api.nvim_buf_set_keymap(bufnr, ...) end
+  local function buf_set_option(...) vim.api.nvim_buf_set_option(bufnr, ...) end
+-- Enable completion triggered by <c-x><c-o>
+  buf_set_option('omnifunc', 'v:lua.vim.lsp.omnifunc')
+
+  -- Mappings.
+  local opts = { noremap=true, silent=true }
+
+  -- See `:help vim.lsp.*` for documentation on any of the below functions
+  buf_set_keymap('n', 'gD', '<cmd>lua vim.lsp.buf.declaration()<CR>', opts)
+  buf_set_keymap('n', 'gd', '<cmd>lua vim.lsp.buf.definition()<CR>', opts)
+  --buf_set_keymap('n', 'K', '<cmd>lua vim.lsp.buf.hover()<CR>', opts)
+  buf_set_keymap('n', 'gi', '<cmd>lua vim.lsp.buf.implementation()<CR>', opts)
+  buf_set_keymap('n', '<S-C-k>', '<cmd>lua vim.lsp.buf.signature_help()<CR>', opts)
+  buf_set_keymap('n', '<space>wa', '<cmd>lua vim.lsp.buf.add_workspace_folder()<CR>', opts)
+  buf_set_keymap('n', '<space>wr', '<cmd>lua vim.lsp.buf.remove_workspace_folder()<CR>', opts)
+  buf_set_keymap('n', '<space>wl', '<cmd>lua print(vim.inspect(vim.lsp.buf.list_workspace_folders()))<CR>', opts)
+  buf_set_keymap('n', '<space>D', '<cmd>lua vim.lsp.buf.type_definition()<CR>', opts)
+  buf_set_keymap('n', '<space>rn', '<cmd>lua vim.lsp.buf.rename()<CR>', opts)
+  buf_set_keymap('n', '<leader>ca', '<cmd>lua vim.lsp.buf.code_action()<CR>', opts)
+  --buf_set_keymap('n', 'lr', '<cmd>lua vim.lsp.buf.references()<CR>', opts)
+  buf_set_keymap('n', '<space>e', '<cmd>lua vim.lsp.diagnostic.show_line_diagnostics()<CR>', opts)
+  buf_set_keymap('n', '[d', '<cmd>lua vim.lsp.diagnostic.goto_prev()<CR>', opts)
+  buf_set_keymap('n', ']d', '<cmd>lua vim.lsp.diagnostic.goto_next()<CR>', opts)
+  buf_set_keymap('n', '<space>q', '<cmd>lua vim.lsp.diagnostic.set_loclist()<CR>', opts)
+  buf_set_keymap('n', '<space>f', '<cmd>lua vim.lsp.buf.formatting()<CR>', opts)
+
+end
+
+-- Use a loop to conveniently call 'setup' on multiple servers and
+-- map buffer local keybindings when the language server attaches
+--local servers = {'pyright', 'tsserver', 'texlab', 'jsonls'}
+--for _, lsp in ipairs(servers) do
+--nvim_lsp[lsp].setup {
+ --   on_attach = on_attach,
+  --  flags = {
+   --   debounce_text_changes = 150,
+   -- }
+--  }
+--end
+EOF
+
+
+"Lsp install
+
+lua << EOF
+local function setup_servers()
+  require'lspinstall'.setup()
+  local servers = require'lspinstall'.installed_servers()
+  for _, server in pairs(servers) do
+    require'lspconfig'[server].setup{capabilities = require('cmp_nvim_lsp').update_capabilities(vim.lsp.protocol.make_client_capabilities())}
+  end
+end
+
+setup_servers()
+
+-- Automatically reload after `:LspInstall <server>` so we don't have to restart neovim
+require'lspinstall'.post_install_hook = function ()
+  setup_servers() -- reload installed servers
+  vim.cmd("bufdo e") -- this triggers the FileType autocmd that starts the server
+end
+EOF
+
+nnoremap <leader>y :FZFNeoyank<cr>
+nnoremap <leader>Y :FZFNeoyank  P<cr>
+vnoremap <leader>y :FZFNeoyankSelection<cr>
+
+nnoremap <leader>p :FZFNeoyank +<cr> 
+nnoremap <leader>1 :FZFNeoyank 1<cr>
+nnoremap <leader>P :FZFNeoyank " P+<cr>
+vnoremap <leader>p :FZFNeoyankSelection +<cr>
+
+
+" Replace the default dictionary completion with fzf-based fuzzy completion
+
+inoremap <expr> <c-x><c-k> fzf#vim#complete('cat /usr/share/dict/words')  
+
+
+set completeopt=menu,menuone,noselect
+
+lua <<EOF
+  -- Setup cmp.
+
+local has_words_before = function()
+  if vim.api.nvim_buf_get_option(0, "buftype") == "prompt" then
+    return false
+  end
+  local line, col = unpack(vim.api.nvim_win_get_cursor(0))
+  return col ~= 0 and vim.api.nvim_buf_get_lines(0, line - 1, line, true)[1]:sub(col, col):match("%s") == nil
+end
+
+local feedkey = function(key, mode)
+  vim.api.nvim_feedkeys(vim.api.nvim_replace_termcodes(key, true, true, true), mode, true)
+end
+
+local cmp = require('cmp')
+cmp.setup {
+ snippet = {
+      expand = function(args)
+        -- For `vsnip` user.
+        vim.fn["vsnip#anonymous"](args.body) -- For `vsnip` user.
+  -- ... Your other configuration ...
+end,
+},
+mapping = {
+      ['<C-d>'] = cmp.mapping.scroll_docs(-4),
+      ['<C-f>'] = cmp.mapping.scroll_docs(4),
+      ['<C-x>'] = cmp.mapping.complete(),
+      ['<C-e>'] = cmp.mapping.close(),
+      ['<CR>'] = cmp.mapping.confirm({ select = true }),
+-- ... Your other mappings ...
+["<Tab>"] = cmp.mapping(function(fallback) 
+      if vim.fn["vsnip#available"]() == 1
+        then
+        feedkey("<Plug>(vsnip-expand-or-jump)", "")
+     elseif cmp.visible() then
+        cmp.select_next_item()
+      elseif has_words_before() then 
+        cmp.complete()
+      else 
+        fallback() -- The fallback function sends a already mapped key. In this case, it's probably `<Tab>`.
+      end
+    end, { "i", "s" }),
+["<S-Tab>"] = cmp.mapping(function()
+      if vim.fn.pumvisible() == 1 then
+        feedkey("<C-p>", "n")
+      elseif vim.fn["vsnip#jumpable"](-1) == 1 then
+        feedkey("<Plug>(vsnip-jump-prev)", "")
+      end
+    end, { "i", "s" }),
+-- ... Your other mappings ...
+
+},
+-- ... Your other configuration ...
+sources = {
+      -- For vsnip user.
+      { name = 'vsnip', keyword_length = 4 },
+         -- For luasnip user.
+      -- { name = 'luasnip' },
+-- For ultisnips user.
+      -- { name = 'ultisnips' },  
+   { name = 'buffer', keyword_length = 4 },
+   { name = 'omni' , keyword_length = 4},
+       -- { name = 'spell' }, 
+   { name = 'nvim_lsp', keyword_length = 4  },
+   { name = 'tags' , keyword_length = 4 }, 
+   { name = 'treesitter', keyword_length = 4 },      
+--{ name = 'latex_symbols' },
+}
+}
+EOF
 " 
 " " LSP mappings   
 " "" LSP mappings 
