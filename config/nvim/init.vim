@@ -1139,11 +1139,6 @@ EOF
 " nmap <leader>c gc
 " lua <<EOF
 
-" lua <<EOF
-" require('feline').setup({
-"     preset = 'noicon'
-"     })
-" EOF
 " 
 " 
 " 
