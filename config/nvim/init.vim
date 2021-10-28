@@ -1138,8 +1138,8 @@ EOF
 " EOF
 " nmap <leader>c gc
 " lua <<EOF
- local true_zen = require("true-zen")
- true_zen.setup({
+local true_zen = require("true-zen")
+true_zen.setup({
  	ui = {
  		bottom = {
  			laststatus = 0,
