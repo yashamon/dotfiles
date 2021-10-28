@@ -1207,7 +1207,7 @@ true_zen.setup({
  		cursor_by_mode = false,
  	}
  })
- EOF
+EOF
 " lua <<EOF
 " require('feline').setup({
 "     preset = 'noicon'
