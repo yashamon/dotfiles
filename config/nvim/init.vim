@@ -703,9 +703,9 @@ function! Sentence()
   echo "Print any character"
   call getchar() 
   Fe sentence_% 
-  echo "Print any character"
-  call getchar() 
-BLines 
+  " echo "Print any character"
+  " call getchar() 
+  BLines 
   AsyncStop
 endfunction
 noremap L :TZAtaraxisOff<cr><cr>:call Sentence()<cr>
