@@ -699,7 +699,7 @@ endif
 
 
 function! Sentence() 
-  AsyncRun sentence.sh %   
+  AsyncRun sentence.sh %  
   echo "Print any character"
   call getchar() 
   Fe sentence_%
