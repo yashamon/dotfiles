@@ -2,7 +2,8 @@
 " You can edit this file by hand.
 
 " ------------------------------------------------------------------------------
-set runexec
+set runexec 
+
 command Q :execute '!echo %d > ~/.config/vifm/lastdir' | quit
 command sacd sacd_extract -2 -s -c -i %f 
 noremap N :! ~/.local/bin/neovide --frameless --multigrid %f<cr>
