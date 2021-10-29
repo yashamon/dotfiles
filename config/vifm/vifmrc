@@ -22,7 +22,7 @@ map F ?
 map ;w :cd ~/workspace<CR>
 map ;d :cd ~/dotfiles<CR>
 map ;o :cd ~/Downloads<CR> 
-map ;o :cd ~/Downloads<CR> 
+map ;c :cd ~/config/Downloads<CR> 
 
 map JM :cd /media/removable/USB\ Drive<CR>
 map J <C-d>
