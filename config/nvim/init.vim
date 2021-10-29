@@ -475,7 +475,7 @@ nnoremap <Right> :bprevious<CR>
 " nnoremap <leader>n :tabedit %<CR>
 imap <M-j> <C-j>
 map <S-m> <cmd>HopChar1<cr>$
-map <S-b> ?\$<CR>
+" map <S-b> ?\$<CR>
 map <A-w> <cmd>HopChar1<cr>}
 map <A-b> <cmd>HopChar1<cr>{
 
