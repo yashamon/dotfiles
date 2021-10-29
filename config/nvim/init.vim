@@ -477,7 +477,7 @@ imap <M-j> <C-j>
 map <S-w> /\$<CR>
 map <S-b> ?\$<CR>
 map <A-w> <cmd>HopChar1<cr>}
-<CR>
+
 map <A-b> ?{<CR>
 
 map <C-q> <Esc>:qa!<CR>
