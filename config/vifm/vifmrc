@@ -19,7 +19,7 @@ map f /
 map sh <esc>:sh<cr>
 map <m-q> <ESC>:execute '!echo %d > ~/.config/vifm/lastdir'| quit <CR>
 map F ?
-map ;w :cd ~/workspace<CR>
+map ;w :cd ~/workspacemodules<CR>
 map ;d :cd ~/dotfiles<CR>
 map ;o :cd ~/Downloads<CR> 
 map ;c :cd ~/.config<cr>
