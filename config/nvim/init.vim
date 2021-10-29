@@ -476,7 +476,7 @@ nnoremap <Right> :bprevious<CR>
 imap <M-j> <C-j>
 map <S-m> <cmd>HopChar1<cr>$
 " map <S-b> ?\$<CR>
-map <A-w> <cmd>HopChar1<cr>}
+map <S-w> <cmd>HopChar1<cr>}
 map <A-b> <cmd>HopChar1<cr>{
 
 map <C-q> <Esc>:qa!<CR>
