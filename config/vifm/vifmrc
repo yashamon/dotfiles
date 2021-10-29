@@ -21,7 +21,9 @@ map <m-q> <ESC>:execute '!echo %d > ~/.config/vifm/lastdir'| quit <CR>
 map F ?
 map ;w :cd ~/workspace<CR>
 map ;d :cd ~/dotfiles<CR>
-map ;o :cd ~/Downloads<CR>
+map ;o :cd ~/Downloads<CR> 
+map ;o :cd ~/Downloads<CR> 
+
 map JM :cd /media/removable/USB\ Drive<CR>
 map J <C-d>
 map K <C-u>
