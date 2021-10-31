@@ -1328,7 +1328,6 @@ require('spellsitter').setup {
   spellchecker = 'vimfn',
 }
 EOF
--- Installation 
 lua <<EOF
 use { 
   'hrsh7th/nvim-cmp',
