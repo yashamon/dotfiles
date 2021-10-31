@@ -1341,15 +1341,7 @@ use {
       }
     }
   },
-  config = function ()
-    require'cmp'.setup {
-    sources = {
-      { name = 'tags' },
-      -- more sources
-    }
   }
-  end
-}
 EOF
 
 " require("stabilize").setup(
