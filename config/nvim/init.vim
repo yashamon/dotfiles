@@ -1337,7 +1337,7 @@ use {
       -- if you want the sources is available for some file types
       ft = {
         'kotlin',
-        'java'
+        'latex'
       }
     }
   },
