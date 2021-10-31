@@ -1098,8 +1098,7 @@ mapping = {
 sources = {
       -- For vsnip user. 
 { name = 'tags' , keyword_length = 4 }, 
-
-      { name = 'vsnip', keyword_length = 4 },
+{ name = 'vsnip', keyword_length = 4 },
          -- For luasnip user.
       -- { name = 'luasnip' },
 -- For ultisnips user.
@@ -1329,6 +1328,7 @@ require('spellsitter').setup {
   spellchecker = 'vimfn',
 }
 EOF
+
 " lua << EOF
 " require("stabilize").setup(
 " {
