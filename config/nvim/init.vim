@@ -1328,10 +1328,11 @@ require('spellsitter').setup {
   spellchecker = 'vimfn',
 }
 lua <<EOF
--- Installation
-use { 
-  'hrsh7th/nvim-cmp',
-  requires = {
+
+EOF
+EOF 
+lua <<EOF
+requires = {
     {
       'quangnguyen30192/cmp-nvim-tags',
       -- if you want the sources is available for some file types
@@ -1340,8 +1341,8 @@ use {
         'latex'
       }
     }
-  },
-  EOF
+  }
+EOF
 
 " require("stabilize").setup(
 " {
