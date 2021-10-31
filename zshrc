@@ -439,7 +439,6 @@ MODE_CURSOR_VLINE="$MODE_CURSOR_VISUAL #00ffff"
 # Add wisely, as too many plugins slow down shell startup.
 # plugins=(git zsh-syntax-highlighting zsh-autosuggestions zsh-vim-mode command-not-found github history-substring-search fzf-fasd)
 # alias nvim="/snap/bin/nvim"
-=======
 # Compilation flags
 # export ARCHFLAGS="-arch x86_64"
 
