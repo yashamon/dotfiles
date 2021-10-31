@@ -1094,7 +1094,15 @@ mapping = {
 -- ... Your other mappings ...
 
 },
-
+requires = {
+    {
+      'quangnguyen30192/cmp-nvim-tags',
+      -- if you want the sources is available for some file types
+      ft = {
+        'kotlin',
+        'latex'
+      }
+    }
 -- ... Your other configuration ...
 sources = {
       -- For vsnip user. 
