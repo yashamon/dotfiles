@@ -1096,7 +1096,9 @@ mapping = {
 },
 -- ... Your other configuration ...
 sources = {
-      -- For vsnip user.
+      -- For vsnip user. 
+{ name = 'tags' , keyword_length = 4 }, 
+
       { name = 'vsnip', keyword_length = 4 },
          -- For luasnip user.
       -- { name = 'luasnip' },
