@@ -1106,7 +1106,7 @@ sources = {
    { name = 'omni' , keyword_length = 4},
        -- { name = 'spell' }, 
    { name = 'nvim_lsp', keyword_length = 4  },
-   { name = 'tags' , keyword_length = 4 }, 
+   { name = 'tags' , keyword_length = 3 }, 
    { name = 'treesitter', keyword_length = 4 },      
 --{ name = 'latex_symbols' },
 }
