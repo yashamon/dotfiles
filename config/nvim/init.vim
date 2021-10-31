@@ -1350,8 +1350,6 @@ use {
   }
   end
 }
-
-" lua << EOF
 EOF
 
 " require("stabilize").setup(
