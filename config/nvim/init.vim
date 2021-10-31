@@ -1327,7 +1327,8 @@ require('spellsitter').setup {
   --   internal spell_check() function
   spellchecker = 'vimfn',
 }
--- Installation
+" lua <<EOF
+" -- Installation
 
 " require("stabilize").setup(
 " {
