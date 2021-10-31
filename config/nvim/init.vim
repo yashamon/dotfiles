@@ -1341,8 +1341,7 @@ use {
       }
     }
   },
-  }
-EOF
+  EOF
 
 " require("stabilize").setup(
 " {
