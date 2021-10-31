@@ -796,7 +796,7 @@ let g:vimtex_fold_types= {
 
  
 " let  g:vimtex_fold_types_defaults = 'preamble, sections, comments'
-nmap <leader>v :silent te latexmk -pdf -file-line-error -synctex=1 -interaction=nonstopmode -recorder -f -g %<cr><cr>:bp<cr>:VimTexCompile<>  
+nmap <leader>v :silent te latexmk -pdf -file-line-error -synctex=1 -interaction=nonstopmode -recorder -f -g %<cr><cr>:bp<cr>:VimTexVie<cr>  
 " nmap <leader>m :silent ! cp % backup;  pandoc  backup -s --webtex -o backup.html;  cp backup.html %<cr>:e %<cr>
 
 " nmap <leader>m :silent ! cp % backup;  pandoc  backup -s --mathjax[=https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js] -o backup.html;  cp backup.html %<cr>:e %<cr>:w<cr>:qa<cr> 
