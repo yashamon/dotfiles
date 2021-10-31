@@ -1328,7 +1328,8 @@ require('spellsitter').setup {
   spellchecker = 'vimfn',
 }
 EOF
--- Installation
+-- Installation 
+eof
 use { 
   'hrsh7th/nvim-cmp',
   requires = {
