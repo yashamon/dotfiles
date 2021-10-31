@@ -1327,21 +1327,30 @@ require('spellsitter').setup {
   --   internal spell_check() function
   spellchecker = 'vimfn',
 }
-lua <<EOF
-
 EOF
-EOF 
 lua <<EOF
-requires = {
+use { 
+  'hrsh7th/nvim-cmp',
+  requires = {
     {
       'quangnguyen30192/cmp-nvim-tags',
       -- if you want the sources is available for some file types
       ft = {
         'kotlin',
-        'latex'
+        'java'
       }
     }
+  },
+  config = function ()
+    require'cmp'.setup {
+    sources = {
+      { name = 'tags' },
+      -- more sources
+    }
   }
+  end
+}
+
 EOF
 
 " require("stabilize").setup(
