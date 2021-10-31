@@ -1328,7 +1328,6 @@ require('spellsitter').setup {
   spellchecker = 'vimfn',
 }
 EOF 
-Plug 'quangnguyen30192/cmp-nvim-tags',  { 'branch': 'main' } 
 
 
 " lua << EOF
