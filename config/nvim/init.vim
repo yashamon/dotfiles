@@ -1103,6 +1103,7 @@ requires = {
         'latex'
       }
     }
+    }
 -- ... Your other configuration ...
 sources = {
       -- For vsnip user. 
