@@ -1328,7 +1328,7 @@ require('spellsitter').setup {
   spellchecker = 'vimfn',
 }
 EOF
-lua <<EOF
+-- Installation
 use { 
   'hrsh7th/nvim-cmp',
   requires = {
@@ -1351,8 +1351,7 @@ use {
   end
 }
 
-EOF
-
+" lua << EOF
 " require("stabilize").setup(
 " {
 "       force = true, -- stabilize window even when current cursor position will be hidden behind new window
