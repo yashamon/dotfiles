@@ -1327,13 +1327,7 @@ require('spellsitter').setup {
   --   internal spell_check() function
   spellchecker = 'vimfn',
 }
-lua <<EOF
 -- Installation
-use { 
-  'hrsh7th/nvim-cmp',
-  
-  },
-  EOF
 
 " require("stabilize").setup(
 " {
