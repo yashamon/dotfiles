@@ -1326,7 +1326,7 @@ require('spellsitter').setup {
   -- * ffi: built-in spell checker using the FFI to access the
   --   internal spell_check() function
   spellchecker = 'vimfn',
-" }
+}
 " lua <<EOF
 " -- Installation
 
