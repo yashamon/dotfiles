@@ -245,7 +245,7 @@
       "\t\\label{corol:$1}", 
       "$2",
 
-      "\\end{corol}",
+      "\\end{corollary}",
       "$0"
     ],
     "description": "Add a theorem"
