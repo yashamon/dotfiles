@@ -1094,6 +1094,7 @@ mapping = {
 -- ... Your other mappings ...
 
 },
+
 -- ... Your other configuration ...
 sources = {
       -- For vsnip user. 
