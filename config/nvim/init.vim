@@ -1327,7 +1327,9 @@ require('spellsitter').setup {
   --   internal spell_check() function
   spellchecker = 'vimfn',
 }
-EOF
+EOF 
+Plug 'quangnguyen30192/cmp-nvim-tags',  { 'branch': 'main' } 
+
 
 " lua << EOF
 " require("stabilize").setup(
