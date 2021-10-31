@@ -4,7 +4,7 @@ Duration = 70
 
 [Editor]
  # SmoothScroll = true 
- BorderlessWindow = true
+ # BorderlessWindow = true
 
 ## Goneovim settings.toml
 ## All of the following commented configuration items have default values.
