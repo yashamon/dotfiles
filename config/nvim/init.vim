@@ -1339,10 +1339,7 @@ requires = {
       }
     }
   },
-      }
   }
-  end
-}
 EOF
 
 " require("stabilize").setup(
