@@ -439,7 +439,7 @@ noremap <S-ScrollWheelDown>  <nop>
 noremap <C-ScrollWheelDown>  <nop>
 noremap <ScrollWheelLeft>    <nop>
 noremap <S-ScrollWheelLeft>  <nop>
-noremap <C-ScrollWheelLeft>  <nop>
+noremap <C-Scroll>  <nop>
 noremap <ScrollWheelRight>   <nop>
 noremap <S-ScrollWheelRight> <nop>
 noremap <C-ScrollWheelRight> <nop>
