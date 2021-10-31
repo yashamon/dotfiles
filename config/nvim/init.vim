@@ -1329,8 +1329,7 @@ require('spellsitter').setup {
 }
 EOF
 lua <<EOF
-use { 
-  'hrsh7th/nvim-cmp',
+
   requires = {
     {
       'quangnguyen30192/cmp-nvim-tags',
