@@ -1329,30 +1329,10 @@ require('spellsitter').setup {
 }
 EOF
 -- Installation 
-eof
-use { 
-  'hrsh7th/nvim-cmp',
-  requires = {
-    {
-      'quangnguyen30192/cmp-nvim-tags',
-      -- if you want the sources is available for some file types
-      ft = {
-        'kotlin',
-        'java'
-      }
-    }
-  },
-  config = function ()
-    require'cmp'.setup {
-    sources = {
-      { name = 'tags' },
-      -- more sources
-    }
-  }
-  end
-}
+lua <<EOF
 
-" lua << EOF
+EOF
+
 " require("stabilize").setup(
 " {
 "       force = true, -- stabilize window even when current cursor position will be hidden behind new window
