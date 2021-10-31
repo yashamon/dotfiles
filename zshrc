@@ -1,6 +1,9 @@
 # Enable Powerlezinitvel10k instant prompt. Should stay close to the top of ~/.zshrc.
 # Initialization code that may require console input (password prompts, [y/n]
 # confirmations, etc.) must go above this block; everything else may go below.
+export PATH="$HOME/skia-binaries:$HOME/ninja:/home/linuxbrew/.linuxbrew/bin:/usr/local/bin:/usr/sbin:/sbin:/bin:$HOME/.local/bin:/root/.cabal/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:~/.cabal/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:~/.local/bin:~/.local:/$HOME/appimage:$HOME/.cargo/bin:/snap/bin:/data/data/com.termux/files/usr/bin/applets:/data/data/com.termux/files/usr/bin:bin:/usr/local/sbin:$HOME/.zinit/plugins:/usr/bin:$HOME/.local/share/nvim/lspinstall"  
+
+
 if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]; then
 source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
 fi 
@@ -10,7 +13,7 @@ export MANPAGER='nvim +Man!'
 export ANDROID_HOME=/root/android-sdk-linux
 export LANG=en_US.UTF-8
 export XDG_CONFIG_HOME=$HOME/.config
-export PATH="/home/linuxbrew/.linuxbrew/bin:/usr/local/bin:/usr/sbin:/sbin:/bin:$HOME/.local/bin:/root/.cabal/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:~/.cabal/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:~/.local/bin:/$HOME/appimage:$HOME/.cargo/bin:/snap/bin:/data/data/com.termux/files/usr/bin/applets:/data/data/com.termux/files/usr/bin:bin:/usr/local/sbin:$HOME/.zinit/plugins:/usr/bin:$HOME/.local/share/nvim/lspinstall"  
+
 # export MANPATH="/usr/local/man:$MANPATH"
 # You may need to manually set your language environment
 export LANG=en_US.UTF-8
@@ -22,36 +25,7 @@ export LANG=en_US.UTF-8
    export EDITOR='nvim'
  fi
 
-# Compilation flags
-# export ARCHFLAGS="-arch x86_64"
 
-# ssh
-# export SSH_KEY_PATH="~/.ssh/dsa_id"
-
-# Set personal aliases, overriding those provided by oh-my-zsh libs,
-# plugins, and themes. Aliases can be placed here, though oh-my-zsh
-# users are encouraged to define aliases within the ZSH_CUSTOM folder.
-# For a full list of active aliases, run `alias`.
-#
-# Example aliases
-# alias zshconfig="mate ~/.zshrc"
-# alias ohmyzsh="mate ~/.oh-my-zsh"
-# Path to your oh-my-zsh installation.
-
-
-
-# bind UP and DOWN arrow keys
-# zmodload zsh/terminfo
-# bindkey "$terminfo[kcuu1]" history-substring-search-up
-# bindkey "$terminfo[kcud1]" history-substring-search-down
-# #
-# # # bind P and N for EMACS mode
-# # bindkey -M emacs '^P' history-substring-search-up
-# # bindkey -M emacs '^N' history-substring-search-down
-# #
-# # # bind k and j for VI mode
-# bindkey -M vicmd 'k' history-substring-search-up
-# bindkey -M vicmd 'j' history-substring-search-down
 bindkey -rpM viins '\e'
 
 eval "$(fasd --init auto)"
@@ -59,7 +33,7 @@ eval "$(fasd --init auto)"
 # export PATH="$HOME/.linuxbrew/bin:$PATH"
 # export MANPATH="$HOME/.linuxbrew/share/man:$MANPATH"
 # export INFOPATH="$HOME/.linuxbrew/share/info:$INFOPATH"
-# alias nvim="/snap/bin/nvim" 
+# alias nvim="/snap/bin/nvim"  
 alias wifi="sudo wifi-menu -o"
 alias tmux d="tmux detach" 
 alias svi="/snap/bin/nvim"
@@ -412,7 +386,6 @@ MODE_CURSOR_SEARCH="#ff00ff steady underline"
 MODE_CURSOR_VISUAL="white block"
 MODE_CURSOR_VLINE="$MODE_CURSOR_VISUAL #00ffff"
 
-export PATH="/home/linuxbrew/.linuxbrew/bin:/usr/local/bin:/usr/sbin:/sbin:/bin:$HOME/.local/bin:/root/.cabal/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:~/.cabal/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:~/.local/bin:$HOME/appimage:$HOME/.cargo/bin:/snap/bin:/data/data/com.termux/files/usr/bin/applets:/data/data/com.termux/files/usr/bin:bin:/usr/local/sbin:$HOME/.zinit/plugins:/usr/bin"  
 
 
 # source ~/.zplug/init.zsh
@@ -462,5 +435,34 @@ export PATH="/home/linuxbrew/.linuxbrew/bin:/usr/local/bin:/usr/sbin:/sbin:/bin:
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
 # plugins=(git zsh-syntax-highlighting zsh-autosuggestions zsh-vim-mode command-not-found github history-substring-search fzf-fasd)
+# Compilation flags
+# export ARCHFLAGS="-arch x86_64"
 
+# ssh
+# export SSH_KEY_PATH="~/.ssh/dsa_id"
+
+# Set personal aliases, overriding those provided by oh-my-zsh libs,
+# plugins, and themes. Aliases can be placed here, though oh-my-zsh
+# users are encouraged to define aliases within the ZSH_CUSTOM folder.
+# For a full list of active aliases, run `alias`.
+#
+# Example aliases
+# alias zshconfig="mate ~/.zshrc"
+# alias ohmyzsh="mate ~/.oh-my-zsh"
+# Path to your oh-my-zsh installation.
+
+
+
+# bind UP and DOWN arrow keys
+# zmodload zsh/terminfo
+# bindkey "$terminfo[kcuu1]" history-substring-search-up
+# bindkey "$terminfo[kcud1]" history-substring-search-down
+# #
+# # # bind P and N for EMACS mode
+# # bindkey -M emacs '^P' history-substring-search-up
+# # bindkey -M emacs '^N' history-substring-search-down
+# #
+# # # bind k and j for VI mode
+# bindkey -M vicmd 'k' history-substring-search-up
+# bindkey -M vicmd 'j' history-substring-search-down
 # User configuration
