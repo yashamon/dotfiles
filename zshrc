@@ -9,8 +9,10 @@ fi
 export MANPAGER='nvim +Man!'
 export ANDROID_HOME=/root/android-sdk-linux
 export LANG=en_US.UTF-8
-export XDG_CONFIG_HOME=$HOME/.config
-export PATH="/home/linuxbrew/.linuxbrew/bin:/usr/local/bin:/usr/sbin:/sbin:/bin:$HOME/.local/bin:/root/.cabal/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:~/.cabal/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:~/.local/bin:/$HOME/appimage:$HOME/.cargo/bin:/snap/bin:/data/data/com.termux/files/usr/bin/applets:/data/data/com.termux/files/usr/bin:bin:/usr/local/sbin:$HOME/.zinit/plugins:/usr/bin:$HOME/.local/share/nvim/lspinstall"  
+export XDG_CONFIG_HOME=$HOME/.config 
+
+export PATH="/snap/bin:/home/linuxbrew/.linuxbrew/bin:/usr/local/bin:/usr/sbin:/sbin:/bin:$HOME/.local/bin:/root/.cabal/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:$HOME/.cabal/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:$HOME/.local/bin:/$HOME/appimage:$HOME/.cargo/bin:/data/data/com.termux/files/usr/bin/applets:/data/data/com.termux/files/usr/bin:bin:/usr/local/sbin:$HOME/.zinit/plugins:/usr/bin:$HOME/.local/share/nvim/lspinstall:/snap/bin" 
+
 # export MANPATH="/usr/local/man:$MANPATH"
 # You may need to manually set your language environment
 export LANG=en_US.UTF-8
@@ -111,7 +113,9 @@ alias vis="rm /tmp/nvimsocket ; NVIM_LISTEN_ADDRESS=/tmp/nvimsocket nvim"
 # alias go= pslatex document.tex; dvips document.dvi; ps2pdf document.ps
 alias suru="su root; a"
 alias rec="recoll -q"
-alias vi="nvim"
+alias vi="nvim"  
+alias neo="$HOME/.local/bin/gone/goneovim"
+alias neov="$HOME/.local/bin/neovide --frameless --maximized"
 alias update="git submodule update --init --recursive ; git pull origin master"
 alias chrome="chromium --user-data-dir /root"
 alias res="xrandr --newmode "1920x1080_60.00"  173.00  1920 2048 2248 2576  1080 1083 1088 1120; xrandr --addmode Virtual-1 "1920x1080_60.00";
@@ -157,6 +161,8 @@ git commit -m -a
 git push origin gh-pages
 cd $cwdb
 }
+alias pulse="pulseaudio -k
+pulseaudio --start"
 alias send=sendFunction
 alias tff="xinput disable 13"
 alias ton="xinput enable 13"
@@ -412,8 +418,7 @@ MODE_CURSOR_SEARCH="#ff00ff steady underline"
 MODE_CURSOR_VISUAL="white block"
 MODE_CURSOR_VLINE="$MODE_CURSOR_VISUAL #00ffff"
 
-export PATH="/home/linuxbrew/.linuxbrew/bin:/usr/local/bin:/usr/sbin:/sbin:/bin:$HOME/.local/bin:/root/.cabal/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:~/.cabal/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:~/.local/bin:$HOME/appimage:$HOME/.cargo/bin:/snap/bin:/data/data/com.termux/files/usr/bin/applets:/data/data/com.termux/files/usr/bin:bin:/usr/local/sbin:$HOME/.zinit/plugins:/usr/bin"  
-
+# export PATH="/home/linuxbrew/.linuxbrew/bin:/usr/local/bin:/usr/sbin:/sbin:/bin:$HOME/.local/bin:/root/.cabal/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:~/.cabal/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:~/.local/bin:$HOME/appimage:$HOME/.cargo/bin:/snap/bin:/data/data/com.termux/files/usr/bin/applets:/data/data/com.termux/files/usr/bin:bin:/usr/local/sbin:$HOME/.zinit/plugins:/usr/bin"  
 
 # source ~/.zplug/init.zsh
 # # # Make sure to use double quotes
@@ -462,5 +467,5 @@ export PATH="/home/linuxbrew/.linuxbrew/bin:/usr/local/bin:/usr/sbin:/sbin:/bin:
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
 # plugins=(git zsh-syntax-highlighting zsh-autosuggestions zsh-vim-mode command-not-found github history-substring-search fzf-fasd)
-
+# alias nvim="/snap/bin/nvim"
 # User configuration
