@@ -806,7 +806,8 @@ let g:vimtex_fold_types= {
      sleep 100m 
   endwhile
       execute "bdelete!" b 
-execute "buffer" buf
+
+  execute "buffer" buf
   VimtexView
 endfunction 
 nmap <leader>v :call View()<cr>
