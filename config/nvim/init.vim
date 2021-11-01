@@ -799,7 +799,9 @@ let g:vimtex_fold_types= {
 
  function! View() 
   let buf = bufname() 
-  silent te latexmk -f -g % | bdelete
+  silent te latexmk -f -g % 
+
+  | bdelete
   execute "buffer" buf
   VimtexView
 endfunction 
