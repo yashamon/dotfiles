@@ -704,7 +704,7 @@ function! Sentence()
   AsyncRun sentence.sh %   
   echo "Print any character"
   call getchar() 
-  te sentence_% 
+  e: sentence_% 
   " echo "Print any character"
   " call getchar() 
   BLines 
