@@ -709,12 +709,7 @@ function! Sentence()
   BLines 
   AsyncStop
 endfunction 
-function! View() 
-  K=bufname()
- 
-endfunction 
-
-nmap <leader>v  :<cr>:silent te latexmk -pdf -file-line-error - synctex=1 -interaction=nonstopmode -recorder -f -g %<cr><cr>:buffer K<cr>:VimtexView<cr>
+nmap <leader>v  :K=bufname()<cr>:silent te latexmk -pdf -file-line-error - synctex=1 -interaction=nonstopmode -recorder -f -g %<cr><cr>:buffer K<cr>:VimtexView<cr>
 
 noremap L :TZAtaraxisOff<cr><cr>:call Sentence()<cr>
 function! Git() 
