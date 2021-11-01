@@ -708,9 +708,7 @@ function! Sentence()
   " call getchar() 
   BLines 
   AsyncStop
-endfunction 
-nmap <leader>v  :K=bufname()<cr>:silent te latexmk -pdf -file-line-error - synctex=1 -interaction=nonstopmode -recorder -f -g %<cr><cr>:buffer K<cr>:VimtexView<cr>
-
+endfunction
 noremap L :TZAtaraxisOff<cr><cr>:call Sentence()<cr>
 function! Git() 
   AsyncRun if git rev-parse --is-inside-work-tree || git rev-parse --git-dir > /dev/null 2>&1 ; then git add % ; git commit -m -a ; git push --all origin; fi  
@@ -798,7 +796,8 @@ let g:vimtex_fold_types= {
 
  
 " let  g:vimtex_fold_types_defaults = 'preamble, sections, comments'
-nmap <leader>v  :K=bufname()<cr>:silent te latexmk -pdf -file-line-error -synctex=1 -interaction=nonstopmode -recorder -f -g %<cr><cr>:buffer K<cr>:VimtexView<cr>
+nmap <leader>v  :K=bufname()<cr>
+:silent te latexmk -pdf -file-line-error -synctex=1 -interaction=nonstopmode -recorder -f -g %<cr><cr>:bp<cr>:VimtexView<cr>
 " nmap <leader>m :silent ! cp % backup;  pandoc  backup -s --webtex -o backup.html;  cp backup.html %<cr>:e %<cr>
 
 " nmap <leader>m :silent ! cp % backup;  pandoc  backup -s --mathjax[=https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js] -o backup.html;  cp backup.html %<cr>:e %<cr>:w<cr>:qa<cr> 
