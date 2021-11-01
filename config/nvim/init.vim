@@ -807,6 +807,7 @@ let g:vimtex_fold_types= {
     execute "bdelete!" b 
  else 
 endif
+endwhile
   execute "buffer" buf
   VimtexView
 endfunction 
