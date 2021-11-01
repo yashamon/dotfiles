@@ -75,7 +75,7 @@ Plug 'rakr/vim-one'
 Plug 'gioele/vim-autoswap'
 Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'} 
 " Plug 't9md/vim-smalls'
-Plug 'skywind3000/asyncrun.vim'
+" Plug 'skywind3000/asyncrun.vim'
 Plug 'kevinhwang91/nvim-bqf', { 'branch': 'main' }
 " if you install fzf as system package like `pacman -S fzf` in ArchLinux,
 " please comment next line
@@ -696,9 +696,13 @@ FVimDetach
 " FVimUIHlState v:false      -- not implemented
 
 endif
-" let g:vimtex_indent_enabled =1
-" let g:vimtex_syntax_enabled=1 
-
+let g:vimtex_indent_enabled =0
+let g:vimtex_syntax_enabled=0  
+function! Profile()
+profile start profile.log
+profile func *
+profile file *
+endfunction 
 
 function! Sentence()  
   let g:buf = bufname() 
@@ -800,11 +804,25 @@ let g:vimtex_fold_types= {
 " autocmd TermClose * if v:event == 12 || v:event == 0 bdelete endif  
 function! CompileLatex() 
   let buf = bufname() 
-  silent te silent te latexmk -pvc -file-line-error -synctex=1 -halt-on-error -interaction=nonstopmode -recorder -f -g %   
+  silent te latexmk -pvc -file-line-error -synctex=1 -halt-on-error -interaction=nonstopmode -recorder -f -g %   
   execute "buffer" buf
   VimtexView
+endfunction  
+
+function! ViewPdf() 
+let buf = bufname() 
+let linenumber=line(".")
+let colnumber=col(".")
+let filename=bufname("%")
+let filenamePDF="./build/" . filename[:-4]."pdf"
+let execstr="te zathura --synctex-forward " . linenumber . ":" . colnumber . ":" . filename . " " . filenamePDF 
+" . "&>/dev/null &"  
+echo execstr
+silent exec execstr 
+execute "buffer" buf
 endfunction 
-nmap <leader>v :VimtexView<cr>
+nmap <leader>v :call ViewPdf()<cr>
+" nmap <leader>v :VimtexView<cr>
 " let  g:vimtex_fold_types_defaults = 'preamble, sections, comments'
 nmap <leader>l :call CompileLatex()<cr>  
 " nmap <leader>m :silent ! cp % backup;  pandoc  backup -s --webtex -o backup.html;  cp backup.html %<cr>:e %<cr>
@@ -842,7 +860,7 @@ let g:vifmUseCurrent=1
 
 "Autosave and autocommit   
 
-let g:auto_save = 1  
+let g:auto_save = 0  
 "au FileType vim let g:autosave = 0
 let g:auto_save_in_insert_mode = 0
 let g:auto_save_silent = 0 
