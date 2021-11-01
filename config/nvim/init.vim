@@ -801,7 +801,6 @@ autocmd TermClose * if !jobstatus(&channel) | bdelete | endif
 function! View() 
   let buf = bufname() 
   silent te latexmk -f -g %   
-  TermClose 
   execute "buffer" buf
   VimtexView
 endfunction 
