@@ -800,7 +800,7 @@ let g:vimtex_fold_types= {
 " autocmd TermClose * if v:event == 12 || v:event == 0 bdelete endif  
 function! ViewCont() 
   let buf = bufname() 
-  silent te latexmk -f -g %   
+  silent te silent te latexmk -pvc -file-line-error -synctex=1 -halt-on-error -interaction=nonstopmode -recorder -f -g %   
   execute "buffer" buf
   VimtexView
 endfunction 
