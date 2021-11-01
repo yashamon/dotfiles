@@ -798,7 +798,7 @@ let g:vimtex_fold_types= {
   let buf = bufname() 
   echo buf
   silent te latexmk -pdf -file-line-error - synctex=1 -interaction=nonstopmode -recorder -f -g %  
-buffer echo buf
+  buffer buf
   VimtexView
 endfunction 
 nmap <leader>v :call View()<cr>
