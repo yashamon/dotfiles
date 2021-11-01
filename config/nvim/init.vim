@@ -701,7 +701,7 @@ endif
 
 function! Sentence()  
   let g:buf = bufname() 
-  AsyncRun sentence.sh %   
+  AsyncRun sentence.sh 
   echo "Print any character"
   call getchar() 
   e sentence_% 
