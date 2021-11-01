@@ -799,14 +799,14 @@ let g:vimtex_fold_types= {
 
  function! View() 
   let buf = bufname() 
-  AsyncRun latexmk -f -g %   
-  " let b=bufname()
-  " echo v:event  
-  " while v:shell_error != 12 || v:shell_error != 0 
-  "    sleep 100m 
-  " endwhile
-  "     execute "bdelete" b 
-  " execute "buffer" buf
+  silent te latexmk -f -g %   
+  let b=bufname()
+  echo v:event  
+  while v:shell_error != 12 || v:shell_error != 0 
+     sleep 100m 
+  endwhile
+      execute "bdelete" b 
+  execute "buffer" buf
   VimtexView
 endfunction 
 nmap <leader>v :call View()<cr>
