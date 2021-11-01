@@ -800,7 +800,6 @@ let g:vimtex_fold_types= {
  function! View() 
   let buf = bufname() 
   silent te latexmk -f -g % 
-  
   if v:shell_error == 12
     bdelete
 endif
