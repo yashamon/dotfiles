@@ -1334,7 +1334,7 @@ require('fm-nvim').setup{
 	}
 }
 EOF
-
+eof
 lua <<EOF
 require('spellsitter').setup {
   hl = 'SpellBad', 
