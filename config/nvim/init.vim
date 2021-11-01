@@ -612,7 +612,7 @@ noremap S <Esc>:BLines<CR>
 "   normal viwhy<esc>:bdelete<cr>:buffer K<c-r>+<cr>:ZenMode<cr>
 " endfunction
 noremap <leader>ss :source $MYVIMRC<cr> 
-noremap <m-l> viwy:bdelete<cr>:execute "buffer" buf<cr>:<c-r>+<cr>:TZAtaraxisOn<cr><cr>
+noremap <m-l> viwy:close<cr>:<c-r>+<cr>:TZAtaraxisOn<cr><cr>
 " noremap <m-l> viwy<esc>:bp<cr>:<c-r>+<cr>
 noremap <m-b> <Esc>:Buffers<CR> 
 " noremap F <Esc>:GFiles<CR> 
@@ -699,12 +699,11 @@ endif
 " let g:vimtex_syntax_enabled=1 
 
 
-function! Sentence()  
-  buf = bufname()
+function! Sentence() 
   AsyncRun sentence.sh %   
   echo "Print any character"
   call getchar() 
-  te sentence_% 
+  Fe sentence_% 
   " echo "Print any character"
   " call getchar() 
   BLines 
