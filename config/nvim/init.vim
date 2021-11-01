@@ -4,7 +4,7 @@ call plug#begin('~/.vim/plugged')
 " Plug 'folke/zen-mode.nvim', {  'branch': 'main' } 
 " Optional but recommended
 Plug 'lewis6991/spellsitter.nvim' 
-Plug 'dvdsk/prosesitter',  { 'branch': 'main' }
+" Plug 'dvdsk/prosesitter',  { 'branch': 'main' }
 Plug 'metalelf0/nvim-floatedit',  { 'branch': 'main' } 
 " Plug 'AckslD/nvim-neoclip.lua', { 'branch': 'main' } 
 Plug 'phaazon/hop.nvim'    
@@ -1350,7 +1350,7 @@ require("prosesitter"):setup({
 		},
 	}, 
 	-- highlight groups to use for lint errors, warnings and suggestions
-	" severity_to_hl = { error = "SpellBad", warning = "SpellRare", suggestion: "SpellCap" },
+	--" severity_to_hl = { error = "SpellBad", warning = "SpellRare", suggestion: "SpellCap" },
 	-- weather to lint strings, comments or both for a language
 	lint_targets = { py = "both", tex = "strings", sh = "comments" }, 
 	disabled_ext = { "tex" }, -- do not ever lint tex files
