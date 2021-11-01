@@ -927,6 +927,13 @@
     ],
     "description": "cal G"
   },
+"caligraphic A": {
+    "prefix": ["cA"],
+    "body": [
+      "\\mathcal{A} $0"
+    ],
+    "description": "cal A"
+  },
 
 "caligraphic A": {
     "prefix": ["cA"],
