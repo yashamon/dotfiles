@@ -711,7 +711,7 @@ function! Sentence()
   BLines 
   AsyncStop
 endfunction 
-noremap L :TZAtaraxisOff<cr><cr>:call Sentence()<cr>
+noremap L :call Sentence()<cr>
 
 " noremap L :TZAtaraxisOff<cr><cr>:call Sentence()<cr>
 function! Git() 
