@@ -75,7 +75,7 @@ Plug 'rakr/vim-one'
 Plug 'gioele/vim-autoswap'
 Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'} 
 " Plug 't9md/vim-smalls'
-" Plug 'skywind3000/asyncrun.vim'
+Plug 'skywind3000/asyncrun.vim'
 Plug 'kevinhwang91/nvim-bqf', { 'branch': 'main' }
 " if you install fzf as system package like `pacman -S fzf` in ArchLinux,
 " please comment next line
@@ -800,7 +800,7 @@ let g:vimtex_fold_types= {
 " autocmd TermClose * if v:event == 12 || v:event == 0 bdelete endif  
 function! CompileLatex() 
   let buf = bufname() 
-  silent te latexmk -pvc -file-line-error -synctex=1 -halt-on-error -interaction=nonstopmode -recorder -f -g %   
+  silent te silent te latexmk -pvc -file-line-error -synctex=1 -halt-on-error -interaction=nonstopmode -recorder -f -g %   
   execute "buffer" buf
   VimtexView
 endfunction 
