@@ -3,7 +3,7 @@ call plug#begin('~/.vim/plugged')
 " Plug 'folke/which-key.nvim', { 'branch': 'main' }
 " Plug 'folke/zen-mode.nvim', {  'branch': 'main' } 
 " Optional but recommended
-Plug 'lewis6991/spellsitter.nvim'
+Plug 'lewis6991/spellsitter.nvim' if()
 Plug 'metalelf0/nvim-floatedit',  { 'branch': 'main' } 
 " Plug 'AckslD/nvim-neoclip.lua', { 'branch': 'main' } 
 Plug 'phaazon/hop.nvim'    
