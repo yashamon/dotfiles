@@ -801,7 +801,7 @@ let g:vimtex_fold_types= {
   let buf = bufname() 
   silent te latexmk -f -g % 
   let output =  system("my_shell_command")
-  if v:shell_error != 0
+  if v:shell_error = 0
     bdelete
 endif
   execute "buffer" buf
