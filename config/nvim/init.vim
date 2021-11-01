@@ -1336,13 +1336,6 @@ EOF
 lua <<EOF
 require('spellsitter').setup {
   hl = 'SpellBad', 
-" (
-"     (text) @spell
-"     (#not-has-parent? @spell
-"         inline_formula
-"         displayed_equation
-"     )
-" )
   captures = {},  -- set to {} to spellcheck everything
 
   -- Spellchecker to use. values:
