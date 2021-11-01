@@ -798,7 +798,7 @@ let g:vimtex_fold_types= {
           \}
 
 " autocmd TermClose * if v:event == 12 || v:event == 0 bdelete endif  
-function! View() 
+function! ViewCont() 
   let buf = bufname() 
   silent te latexmk -f -g %   
   execute "buffer" buf
