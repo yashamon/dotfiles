@@ -806,7 +806,6 @@ let g:vimtex_fold_types= {
      sleep 100m 
   endwhile
       execute "bdelete!" b 
- else 
 endif
 endwhile
   execute "buffer" buf
