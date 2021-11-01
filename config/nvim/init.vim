@@ -1398,7 +1398,7 @@ EOF
 "   auto_session_suppress_dirs = nil
 " }
 " require('auto-session').setup(opts)
- EOF
+" EOF
 let g:firenvim_config = { 
     \ 'globalSettings': {
         \ 'alt': 'all',
