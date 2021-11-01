@@ -802,7 +802,7 @@ let g:vimtex_fold_types= {
   silent te latexmk -f -g % 
   let output =  system("my_shell_command")
   if v:shell_error != 0
-    echo output
+    bdelete
 endif
   execute "buffer" buf
   VimtexView
