@@ -75,7 +75,7 @@ Plug 'rakr/vim-one'
 Plug 'gioele/vim-autoswap'
 Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'} 
 " Plug 't9md/vim-smalls'
-Plug 'skywind3000/asyncrun.vim'
+" Plug 'skywind3000/asyncrun.vim'
 Plug 'kevinhwang91/nvim-bqf', { 'branch': 'main' }
 " if you install fzf as system package like `pacman -S fzf` in ArchLinux,
 " please comment next line
