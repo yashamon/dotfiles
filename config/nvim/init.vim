@@ -798,7 +798,7 @@ let g:vimtex_fold_types= {
           \}
 
  function! View() 
-  " let buf = bufname() 
+  let buf = bufname() 
   AsyncRun latexmk -f -g %   
   " let b=bufname()
   " echo v:event  
