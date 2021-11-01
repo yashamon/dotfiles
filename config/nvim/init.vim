@@ -482,7 +482,7 @@ map <S-w> <cmd>HopChar1<cr>}
 map <S-b> <cmd>HopChar1<cr>{
 
 map <C-q> <Esc>:qa!<CR>
-map <m-q> <esc>:waqa<cr>
+map <m-q> <esc>:wqa<cr>
 " map <S-m-q> <esc>:wq<cr> 
 map <m-c> <esc>:close<cr>
 map <M-d> <Esc>:bdelete<CR> 
