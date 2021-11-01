@@ -699,7 +699,8 @@ endif
 " let g:vimtex_syntax_enabled=1 
 
 
-function! Sentence() 
+function! Sentence()  
+buf
   AsyncRun sentence.sh %   
   echo "Print any character"
   call getchar() 
