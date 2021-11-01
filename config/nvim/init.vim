@@ -803,7 +803,7 @@ let g:vimtex_fold_types= {
   let b=bufname()
   echo v:shell_error
   if v:shell_error == 12 || v:shell_error == 0
-    bdelete!
+    execute ""!
 endif
   execute "buffer" buf
   VimtexView
