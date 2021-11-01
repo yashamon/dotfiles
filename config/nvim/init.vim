@@ -700,7 +700,7 @@ endif
 
 
 function! Sentence()  
-buf
+  buf = buffer()
   AsyncRun sentence.sh %   
   echo "Print any character"
   call getchar() 
