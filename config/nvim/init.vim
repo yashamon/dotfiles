@@ -711,7 +711,8 @@ function! Sentence()
 endfunction 
 function! View() 
   K=bufname()
-  silent te latexmk -pdf -file-line-error - synctex=1 -interaction=nonstopmode -recorder -f -g %
+  silent te latexmk -pdf -file-line-error - synctex=1 -interaction=nonstopmode -recorder -f -g % 
+
 endfunction 
 
 nmap <leader>v  :<cr>:<cr><cr>:buffer K<cr>:VimtexView<cr>
