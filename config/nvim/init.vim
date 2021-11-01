@@ -802,7 +802,7 @@ let g:vimtex_fold_types= {
   silent te latexmk -f -g %   
   let b=bufname()
   echo v:shell_error 
-  while v:shell_error == 12 || v:shell_error == 0
+  while v:shell_error != 12 || v:shell_error == 0
   if v:shell_error == 12 || v:shell_error == 0
     execute "bdelete!" b 
  else 
