@@ -804,7 +804,7 @@ function! CompileLatex()
   execute "buffer" buf
   VimtexView
 endfunction 
-" nmap <leader>v :call View()<cr>
+nmap <leader>v :call View()<cr>
 " let  g:vimtex_fold_types_defaults = 'preamble, sections, comments'
 nmap <leader>l :call CompileLatex()<cr>  
 " nmap <leader>m :silent ! cp % backup;  pandoc  backup -s --webtex -o backup.html;  cp backup.html %<cr>:e %<cr>
