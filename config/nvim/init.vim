@@ -1335,15 +1335,8 @@ require('fm-nvim').setup{
 EOF
 lua <<EOF
 require('spellsitter').setup {
-  hl = 'SpellBad',
+  hl = 'SpellBad', 
   captures = {},  -- set to {} to spellcheck everything
-(
-    (text) @spell
-    (#not-has-parent? @spell
-        inline_formula
-        displayed_equation
-    )
-)
 
   -- Spellchecker to use. values:
   -- * vimfn: built-in spell checker using vim.fn.spellbadword()
