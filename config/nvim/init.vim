@@ -710,14 +710,8 @@ function! Sentence()
   AsyncStop
 endfunction 
 function! View() 
-  AsyncRun sentence.sh %   
-  echo "Print any character"
-  call getchar() 
-  Fe sentence_% 
-  " echo "Print any character"
-  " call getchar() 
-  BLines 
-  AsyncStop
+  K=bufname()
+ 
 endfunction 
 
 nmap <leader>v  :<cr>:silent te latexmk -pdf -file-line-error - synctex=1 -interaction=nonstopmode -recorder -f -g %<cr><cr>:buffer K<cr>:VimtexView<cr>
