@@ -797,10 +797,10 @@ let g:vimtex_fold_types= {
  function! View() 
   K=bufname()
   silent te latexmk -pdf -file-line-error - synctex=1 -interaction=nonstopmode -recorder -f -g % 
-  buffer K 
+  buffer K
   VimetexView
 endfunction 
-nmap <leader>v :call View()
+nmap <leader>v :call View()<cr>
 " let  g:vimtex_fold_types_defaults = 'preamble, sections, comments'
 nmap <leader>l :silent te latexmk -pvc -pdf -file-line-error -synctex=1 -interaction=nonstopmode -recorder -f -g %<cr><cr>:bp<cr>  
 " nmap <leader>m :silent ! cp % backup;  pandoc  backup -s --webtex -o backup.html;  cp backup.html %<cr>:e %<cr>
