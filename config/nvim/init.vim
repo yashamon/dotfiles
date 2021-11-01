@@ -803,7 +803,8 @@ let g:vimtex_fold_types= {
   let b=bufname()
   echo v:shell_error 
   while v:shell_error != 12 || v:shell_error != 0 
-     sleep 100m
+     sleep 100m 
+  endwhile
       execute "bdelete!" b 
  else 
 endif
