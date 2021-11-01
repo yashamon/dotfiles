@@ -795,7 +795,7 @@ let g:vimtex_fold_types= {
           \}
 
  function! View() 
-  K =bufname()
+  $K = bufname()
   silent te latexmk -pdf -file-line-error - synctex=1 -interaction=nonstopmode -recorder -f -g % 
   buffer K
   VimetexView
