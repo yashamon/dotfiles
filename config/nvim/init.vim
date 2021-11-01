@@ -1335,7 +1335,7 @@ require('fm-nvim').setup{
 }
 EOF
 
-lua <<EOF
+" lua <<EOF
 " require("telescope").load_extension("prosesitter") -- Optionally, depends on telescope.nvim
 " require("prosesitter"):setup({
 " 	vale_bin = vim.fn.stdpath("data") .. "/prosesitter/vale",
