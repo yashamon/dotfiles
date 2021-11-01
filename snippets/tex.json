@@ -41,7 +41,7 @@
     "prefix": "sups",
     "body": [
         "\\supset $0"
--       ],
+--       ],
     "description": "subset"
     }, 
 "times": {
