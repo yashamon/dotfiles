@@ -798,7 +798,7 @@ let g:vimtex_fold_types= {
           \}
 
 autocmd TermClose * if !jobstatus(&channel) | bdelete | endif
- function! View() 
+function! View() 
   let buf = bufname() 
   silent te latexmk -f -g %   
   TermClose 
