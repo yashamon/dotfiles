@@ -712,7 +712,8 @@ endfunction
 function! View() 
   K=bufname()
   silent te latexmk -pdf -file-line-error - synctex=1 -interaction=nonstopmode -recorder -f -g % 
-buffer K
+  buffer K 
+  VimetexView
 endfunction 
 
 nmap <leader>v  :<cr>:<cr><cr>:buffer K<cr>:VimtexView<cr>
