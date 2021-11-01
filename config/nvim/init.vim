@@ -799,7 +799,7 @@ let g:vimtex_fold_types= {
   echo K
   silent te latexmk -pdf -file-line-error - synctex=1 -interaction=nonstopmode -recorder -f -g %  
 buffer &K
-  VimetexView
+  VimtexView
 endfunction 
 nmap <leader>v :call View()<cr>
 " let  g:vimtex_fold_types_defaults = 'preamble, sections, comments'
