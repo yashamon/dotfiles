@@ -1350,7 +1350,7 @@ require("prosesitter"):setup({
 		},
 	}, 
 	-- highlight groups to use for lint errors, warnings and suggestions
-	severity_to_hl = { error = "SpellBad", warning = "SpellRare", suggestion: "SpellCap" },
+	" severity_to_hl = { error = "SpellBad", warning = "SpellRare", suggestion: "SpellCap" },
 	-- weather to lint strings, comments or both for a language
 	lint_targets = { py = "both", tex = "strings", sh = "comments" }, 
 	disabled_ext = { "tex" }, -- do not ever lint tex files
