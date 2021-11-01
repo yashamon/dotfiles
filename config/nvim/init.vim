@@ -800,7 +800,7 @@ let g:vimtex_fold_types= {
  function! View() 
   let buf = bufname() 
   silent te latexmk -f -g %   
-  Termclose 
+  TermClose 
   execute "buffer" buf
   VimtexView
 endfunction 
