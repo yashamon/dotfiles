@@ -1354,7 +1354,7 @@ require("prosesitter"):setup({
 	-- weather to lint strings, comments or both for a language
 	lint_targets = { py = "both", tex = "strings", sh = "comments" }, 
 	disabled_ext = { "tex" }, -- do not ever lint tex files
-	auto_enable = false, -- do not start linting files on open (default = true)
+	auto_enable = true, -- do not start linting files on open (default = true)
 	default_cmds = false,  -- do not add commands (default = true)
 })
 EOF
