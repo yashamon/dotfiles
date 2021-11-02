@@ -152,7 +152,7 @@ set titlestring
 " set noshowmode
 " set noruler       
 " set laststatus=1 
-" set noshowcmd  
+set noshowcmd  
 set wrap  
 set pb=10 
 set switchbuf=newtab
