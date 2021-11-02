@@ -149,10 +149,10 @@ let g:neovide_transparency=0.15
 "General Settings    
 set title 
 set titlestring
-set noshowmode
-set noruler       
-set laststatus=1 
-set noshowcmd  
+" set noshowmode
+" set noruler       
+" set laststatus=1 
+" set noshowcmd  
 set wrap  
 set pb=10 
 set switchbuf=newtab
