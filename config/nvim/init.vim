@@ -1,24 +1,23 @@
-call plug#begin('~/.vim/plugged') 
+call plug#begin('~/.vim/plugged')
 " Plug 'reedes/vim-pencil' 
 " Plug 'folke/which-key.nvim', { 'branch': 'main' }
 " Plug 'folke/zen-mode.nvim', {  'branch': 'main' } 
-" Optional but recommended
-Plug 'lewis6991/spellsitter.nvim' 
+Plug 'lewis6991/spellsitter.nvim'
 " Plug 'dvdsk/prosesitter',  { 'branch': 'main' }
-Plug 'metalelf0/nvim-floatedit',  { 'branch': 'main' } 
-" Plug 'AckslD/nvim-neoclip.lua', { 'branch': 'main' } 
+Plug 'metalelf0/nvim-floatedit',  { 'branch': 'main' }
+" Plug 'AckslD/nvim-neoclip.lua', { 'branch': 'main' }
 Plug 'phaazon/hop.nvim'    
 " Plug 'https://gitlab.com/yorickpeterse/nvim-dd.git',  { 'branch': 'main' }
 " Plug 'luukvbaal/stabilize.nvim' 
 Plug 'glacambre/firenvim', { 'do': { _ -> firenvim#install(0) } }
-Plug 'is0n/fm-nvim' 
+Plug 'is0n/fm-nvim'
 Plug 'williamboman/nvim-lsp-installer', { 'branch': 'main' }
 Plug 'nvim-lua/plenary.nvim'
-Plug 'nvim-telescope/telescope.nvim',  
-Plug 'nvim-treesitter/playground' 
+Plug 'nvim-telescope/telescope.nvim',
+Plug 'nvim-treesitter/playground'
 Plug 'famiu/feline.nvim'
-" Plug 'hoob3rt/lualine.nvim', 
-" Plug 'karb94/neoscroll.nvim' 
+" Plug 'hoob3rt/lualine.nvim',
+" Plug 'karb94/neoscroll.nvim'
 " Plug 'folke/twilight.nvim', { 'branch': 'main' }
 " Plug 'f3fora/cmp-spell'    
 Plug 'Pocco81/TrueZen.nvim', { 'branch': 'main' }
@@ -75,14 +74,14 @@ Plug 'rakr/vim-one'
 Plug 'gioele/vim-autoswap'
 Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'} 
 " Plug 't9md/vim-smalls'
-" Plug 'skywind3000/asyncrun.vim'
+Plug 'skywind3000/asyncrun.vim'
 Plug 'kevinhwang91/nvim-bqf', { 'branch': 'main' }
 " if you install fzf as system package like `pacman -S fzf` in ArchLinux,
 " please comment next line
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 " Plug 'sindrets/diffview.nvim', { 'branch': 'main' } 
 " Plug 'rmagatti/auto-session',  { 'branch': 'main'}
-Plug 'justinmk/vim-sneak'
+" Plug 'justinmk/vim-sneak'
 Plug 'Shougo/neoyank.vim' 
 if has('nvim')
    Plug 'Shougo/denite.nvim', { 'do': ':UpdateRemotePlugins' }
@@ -120,13 +119,13 @@ Plug 'lifepillar/vim-solarized8'
 
 Plug 'vim-scripts/AutoTag'
 
-Plug 'vim-scripts/vim-auto-save'
+" Plug 'vim-scripts/vim-auto-save'
 
 Plug 'vim-pandoc/vim-pandoc'
 
 " Plug 'yashamon/vim-snippets'
 
-Plug 'lervag/vimtex'
+" Plug 'lervag/vimtex'
 " colorschemes
 " 
 Plug 'kyazdani42/blue-moon'  
@@ -149,12 +148,14 @@ call plug#end()
 "
 " let g:neovide_maximized=v:true 
 " let g:neovide_fullscreen=v:true
-let g:neovide_transparency=0 
+let g:neovide_transparency=0.15
 
-"General Settings   
+"General Settings    
+set title 
+set titlestring
 set noshowmode
 set noruler       
-set laststatus=0 
+set laststatus=1 
 set noshowcmd  
 set wrap  
 set pb=10 
@@ -217,7 +218,7 @@ set undoreload=10000
 set ruler		" show the cursor position all the time
 set autoread		" auto read when file is changed from outside
 set nohlsearch
-set noswapfile
+" set noswapfile
 set showmatch		" Cursor shows matching ) and }
 set nocursorline
 set showmode		" Show current mode
@@ -227,7 +228,7 @@ let maplocalleader = "\\"
 " ignore these files while expanding wild chars
 set wildignore=*.o,*.class,*.pyc
 set incsearch		" incremental search
-set nobackup		" no *~ backup files
+" set nobackup		" no *~ backup files
 set ignorecase		" ignore case when searching
 set smartcase		" ignore case if search pattern is all lowercase,case-sensitive otherwise
 "set smarttab		" insert tabs on the start of a line according to context
@@ -289,7 +290,7 @@ au Filetype tex,text,md vmap q xi<CR><CR><CR><CR><ESC>kki/begin{comment}<cr><cr>
 au Filetype tex,text,md set tw=50
 
 " au FileType tex set background=dark 
-au TextYankPost * lua vim.highlight.on_yank {higroup="IncSearch", timeout=150, on_visual=true} 
+au TextYankPost * lua vim.highlight.on_yank {higroup="IncSearch", timeout=150, on_visual=true}
 au TextYankPost * call neoyank#_append() 
 
          "Some functions
@@ -408,24 +409,24 @@ set fileencoding=utf-8
 "
 " terminal mappings
 tnoremap <A-Esc> <C-\><C-n>
-nmap <A-S-t> :te<cr> 
+nmap <A-S-t> :wa<cr>:te<cr>
 
 vnoremap <Leader>U ""y:%s/<C-r>"
-noremap <leader>r :e<cr>
+noremap <leader>r :wa<cr>:e<cr>
 noremap <leader>h :set tw=50<cr>
 noremap <leader>w :set tw=0<cr> 
 " noremap q <nop>
-map <leader>q q 
+map <leader>q q
 nmap <m-7> :ZenMode<cr>:mksession!<cr>
 nnoremap <leader>rr :source $MYVIMRC<CR>
-"nnoremap <leader>e :NERDTreeFind<CR> 
-nnoremap <leader>e :Vifm<cr>
-nnoremap <leader>t :FloatermToggle<cr> 
+"nnoremap <leader>e :NERDTreeFind<CR>
+nnoremap <leader>e :wa<cr>:Vifm<cr>
+nnoremap <leader>t :wa<cr>:FloatermToggle<cr>
 
 
-vnoremap <m-s> :s///gc<left><left><left><left> 
+vnoremap <m-s> :s///gc<left><left><left><left>
 inoremap <m-s> <esc>:%s///gc<left><left><left><left>
-nnoremap <m-s> :%s///gc<left><left><left> 
+nnoremap <m-s> :%s///gc<left><left><left>
 vmap <M-.> t.<CR>h
 nmap <M-.> t.<CR>h
 nnoremap <up> 1<C-U>
@@ -446,8 +447,8 @@ noremap <S-ScrollWheelRight> <nop>
 noremap <C-ScrollWheelRight> <nop>
 inoremap \ /
 inoremap / \
-vnoremap p "0dP    
-noremap D "0D 
+vnoremap p "0dP
+noremap D "0D
 noremap d "0d
 nnoremap dd "0dd
 noremap c "0c
@@ -455,10 +456,10 @@ noremap C "_C
 noremap x "_x
 
 vnoremap x "+x
-vnoremap y "+y  
-nnoremap y "+y 
-nnoremap p "+p 
-nnoremap <leader>p p 
+vnoremap y "+y
+nnoremap y "+y
+nnoremap p "+p
+nnoremap <leader>p p
 nnoremap <leader>q q
 " Softwrap 
 nmap D "0dg$
@@ -468,9 +469,9 @@ map 0 g^
 map 9 g$
 nmap <m-8> :set lines=200<cr>:set columns=200<cr>
 
-map <Leader>n <Plug>(miniyank-cycle)
-nnoremap <Left> :bnext<CR>
-nnoremap <Right> :bprevious<CR>
+" map <Leader>n <Plug>(miniyank-cycle)
+nnoremap <Left> :wa:bnext<CR>
+nnoremap <Right> :wa<cr>:bprevious<CR>
 " tnoremap <Esc> <C-\> 
 " nnoremap < :tabp<CR>
 " nnoremap > :tabn<CR>
@@ -485,7 +486,7 @@ map <C-q> <Esc>:qa!<CR>
 map <m-q> <esc>:wqa<cr>
 " map <S-m-q> <esc>:wq<cr> 
 map <m-c> <esc>:close<cr>
-map <M-d> <Esc>:bdelete<CR> 
+map <M-d> <Esc>:bdelete<CR>
 noremap gf gq
 noremap f /
 noremap F ?
@@ -548,7 +549,7 @@ inoremap <expr> <CR> pumvisible() ? "\<C-y>" : "\<C-g>u\<CR>"
 nnoremap <silent> <Leader>y :YRGetElem<CR>
 map ' "
 inoremap <D-]> <C-x><C-]>
-inoremap <C-]> <C-x><C-]> 
+inoremap <C-]> <C-x><C-]>
 
 
 
@@ -570,7 +571,7 @@ au FileType tex,text,md nnoremap dd "_g^dg$g^
 " au FileType tex,text,md inoremap .<Space> .<CR><ESC>J0
 " au FileType tex,text,md inoremap .<ESC> .<CR><ESC>J0
 " au FileType tex,text,md inoremap <leader>cr <CR>
-au FileType tex,text,md noremap map o gj0i<CR><ESC>gki 
+au FileType tex,text,md noremap map o gj0i<CR><ESC>gki
 
 
 
@@ -584,9 +585,8 @@ au FileType tex,text,md noremap map o gj0i<CR><ESC>gki
 " tnoremap <Right> :tbprevious<CR>
 " tnoremap <Leader>e <C-\><C-n> 
 " imap <Backspace> \
-
 "  Sneak
-let g:sneak#use_ic_scs = 1
+" let g:sneak#use_ic_scs = 1
 
 map t <cmd>HopChar1AC<cr>
 map T <cmd>HopChar1BC<cr>
@@ -603,21 +603,21 @@ map <m-Space> <cmd>HopWord<cr>
 
 " FZF 
 "
-noremap <m-t> :BTags<cr> 
-noremap <m-y> :Tags<cr>
-noremap S <Esc>:BLines<CR>    
+noremap <m-t> :wa<cr>:BTags<cr>
+noremap <m-y> :wa<cr>:Tags<cr>
+noremap S <Esc> :wa<cr>:BLines<CR>
 "noremap L <Esc>:AsyncRun sentence.sh %;nvr sentence_%<cr>:echo 'press any key'<cr>:execute 'call getchar()' | BLines<cr>
 " Line search mapping 
 " function! Jumpback() 
 "   K=bufname()
 "   normal viwhy<esc>:bdelete<cr>:buffer K<c-r>+<cr>:ZenMode<cr>
 " endfunction
-noremap <leader>ss :source $MYVIMRC<cr> 
+noremap <leader>ss :wa<cr>:source $MYVIMRC<cr>
 noremap <m-l> viwy:bdelete<cr>:execute "buffer" g:buf<cr>:<c-r>+<cr>:TZAtaraxisOn<cr><cr>
 " noremap <m-l> viwy<esc>:bp<cr>:<c-r>+<cr>
-noremap <m-b> <Esc>:Buffers<CR> 
-" noremap F <Esc>:GFiles<CR> 
-map <A-e> :FZF ~<CR>
+noremap <m-b> <Esc>:wa<cr>:Buffers<CR>
+" noremap F <Esc>:GFiles<CR>
+map <A-e> :wa<cr>:FZF ~<CR>
 
 " vimtex settings
 "
@@ -627,7 +627,7 @@ map <A-e> :FZF ~<CR>
 "          \ = '/Applications/Skim.app/Contents/SharedSupport/displayline'
 " let g:vimtex_view_general_options = '-r @line @pdf @tex'
 let g:latex_view_general_viewer = 'zathura'
-let g:vimtex_view_method = "zathura"  
+let g:vimtex_view_method = "zathura"
 let g:vimtex_view_automatic = 0
 
 "fvim
@@ -704,18 +704,18 @@ profile func *
 profile file *
 endfunction 
 
-function! Sentence()  
-  let g:buf = bufname() 
+function! Sentence()
+  let g:buf = bufname()
   AsyncRun sentence.sh %
   echo "Print any character"
-  call getchar() 
-  e sentence_% 
+  call getchar()
+  e sentence_%
   " echo "Print any character"
-  " call getchar() 
-  BLines 
+  " call getchar()
+  BLines
   AsyncStop
-endfunction 
-noremap L :call Sentence()<cr>
+endfunction
+noremap L :wa<cr>:call Sentence()<cr>
 " noremap L :TZAtaraxisOff<cr><cr>:call Sentence()<cr>
 function! Git() 
   AsyncRun if git rev-parse --is-inside-work-tree || git rev-parse --git-dir > /dev/null 2>&1 ; then git add % ; git commit -m -a ; git push --all origin; fi  
@@ -736,7 +736,7 @@ function! ToggleQuickFix()
         endif
 endfunction
 
-au filetype tex nnoremap <silent> <leader>s :call ToggleQuickFix()<cr>
+au filetype tex nnoremap <silent> <leader>s :wa<cr>:call ToggleQuickFix()<cr>
 
 " let g:vimtex_quickfix_method='pplatex' 
 " let g:vimtex_latexmk_callback_hooks = ['UpdateSkim']
@@ -773,7 +773,7 @@ au filetype tex nnoremap <silent> <leader>s :call ToggleQuickFix()<cr>
     \ ],
     \}
 let g:vimtex_compiler_progname = 'nvr'
-nmap  <leader>v <Esc>:w<CR>:VimtexView<CR>
+" nmap  <leader>v <Esc>:w<CR>:VimtexView<CR>
 let g:vimtex_quickfix_mode = 1
 let g:vimtex_fold_enabled = 0
 let g:vimtex_fold_manual = 1
@@ -806,31 +806,31 @@ function! CompileLatex()
   let buf = bufname() 
   silent te latexmk -pvc -file-line-error -synctex=1 -halt-on-error -interaction=nonstopmode -recorder -f -g %   
   execute "buffer" buf
-  VimtexView
+  call ViewPdf()
 endfunction  
 
 function! ViewPdf() 
+wa
 let buf = bufname() 
 let linenumber=line(".")
 let colnumber=col(".")
 let filename=bufname("%")
 let filenamePDF="./build/" . filename[:-4]."pdf"
-let execstr="te zathura --synctex-forward " . linenumber . ":" . colnumber . ":" . filename . " " . filenamePDF 
-" . "&>/dev/null &"  
-echo execstr
-silent exec execstr 
+let execstr="silent !zathura --synctex-forward " . linenumber . ":" . colnumber . ":" . filename . " " . filenamePDF . " &>/dev/null &"
+" . "&>/dev/null &"   
+exec execstr 
 execute "buffer" buf
 endfunction 
-nmap <leader>v :call ViewPdf()<cr>
+nmap <leader>v :wa<cr>:call ViewPdf()<cr>
 " nmap <leader>v :VimtexView<cr>
 " let  g:vimtex_fold_types_defaults = 'preamble, sections, comments'
-nmap <leader>l :call CompileLatex()<cr>  
+nmap <leader>l :wa<cr>:call CompileLatex()<cr>  
 " nmap <leader>m :silent ! cp % backup;  pandoc  backup -s --webtex -o backup.html;  cp backup.html %<cr>:e %<cr>
 
 " nmap <leader>m :silent ! cp % backup;  pandoc  backup -s --mathjax[=https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js] -o backup.html;  cp backup.html %<cr>:e %<cr>:w<cr>:qa<cr> 
 "" mathml shenanigans
 
-nmap <leader>m :silent ! cat % >> ~/workspace/email.txt; cp % /tmp/temp; make4ht /tmp/temp "mathml,mathjax"; pandoc /tmp/temp.html --from html --to markdown_strict -o /tmp/temp.md; mv /tmp/temp.md %<cr>:e %<cr>:w<cr>:qa<cr>
+nmap <leader>m :w<cr>:silent ! cat % >> ~/workspace/email.txt; cp % /tmp/temp; make4ht /tmp/temp "mathml,mathjax"; pandoc /tmp/temp.html --from html --to markdown_strict -o /tmp/temp.md; mv /tmp/temp.md %<cr>:e %<cr>:w<cr>:qa<cr>
 
 " pandoc backup -s html -o markdown cp backup.html %<cr>:e %<cr>:w<cr>:qa<cr> 
 
@@ -840,7 +840,7 @@ nmap <leader>m :silent ! cat % >> ~/workspace/email.txt; cp % /tmp/temp; make4ht
 " nmap <leader>l :VimtexCompile<CR>
 " nmap <leader>s <Esc>:VimtexErrors<CR>
 " map <leader>g :ZenMode<CR> 
-nmap <leader>g :TZAtaraxis<CR>
+nmap <leader>g :wa<cr>:TZAtaraxis<CR>
 nmap <leader>p :Denite neoyank -default-action=append<CR>
 
 " NB: this supports "rp that replaces the selection by the contents of @r
@@ -859,11 +859,13 @@ let g:vifmLiveCwd=1
 let g:vifmUseCurrent=1
 
 "Autosave and autocommit   
-
-let g:auto_save = 0  
+" let g:updatetime = 10000
+let g:auto_save = 0
+" .vimrc
+let g:auto_save_events = ["CursorHold"]
 "au FileType vim let g:autosave = 0
 let g:auto_save_in_insert_mode = 0
-let g:auto_save_silent = 0 
+let g:auto_save_silent = 0
 
 "Git autocommit  (private git repo)
 
@@ -878,7 +880,7 @@ autocmd BufWritePost * silent execute 'AsyncRun if git rev-parse --is-inside-wor
     "
     "
     " UndoTree {
-noremap <Leader>u :TZAtaraxisOff<cr>:UndotreeToggle<CR>
+noremap <Leader>u :TZAtaraxisOff<cr>:wa<cr>:UndotreeToggle<CR>
         " If undotree is opened, it is likely one wants to interact with it.
         let g:undotree_SetFocusWhenToggle=1
         noremap <D-z> u
@@ -1135,7 +1137,7 @@ requires = {
 -- ... Your other configuration ...
 sources = {
       -- For vsnip user. 
-{ name = 'tags' , keyword_length = 4 }, 
+{ name = 'tags' , keyword_length = 4 },
 { name = 'vsnip', keyword_length = 4 },
          -- For luasnip user.
       -- { name = 'luasnip' },
@@ -1145,7 +1147,7 @@ sources = {
    { name = 'omni' , keyword_length = 4},
        -- { name = 'spell' }, 
    { name = 'nvim_lsp', keyword_length = 4  },
-      { name = 'treesitter', keyword_length = 4 },      
+      { name = 'treesitter', keyword_length = 4 },
 --{ name = 'latex_symbols' },
 }
 }
@@ -1571,4 +1573,4 @@ let g:firenvim_config = {
    " set foldcolumn=2
 "  highlight foldcolumn ctermfg=256 ctermbg=bg
 " autocmd Colorscheme * highlight FoldColumn guifg=black guibg=bg 
-
+" inoremap <cr> <esc>:w<cr>i<cr>
