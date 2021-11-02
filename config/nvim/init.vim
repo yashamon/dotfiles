@@ -799,11 +799,11 @@ let g:vimtex_fold_types= {
 
 " autocmd TermClose * if v:event == 12 || v:event == 0 bdelete endif  
 function! CompileLatex() 
-  let buf = bufname() 
-  silent te latexmk -pvc -file-line-error -synctex=1 -halt-on-error -interaction=nonstopmode -recorder -f -g %   
+  let buf = bufname()
+  silent te latexmk -pvc -file-line-error -synctex=1 -halt-on-error -interaction=nonstopmode -recorder -f -g %
   execute "buffer" buf
   call ViewPdf()
-endfunction  
+endfunction
 
 function! ViewPdf() 
 wa
@@ -814,13 +814,13 @@ let filename=bufname("%")
 let filenamePDF="./build/" . filename[:-4]."pdf"
 let execstr="silent !zathura --synctex-forward " . linenumber . ":" . colnumber . ":" . filename . " " . filenamePDF . " &>/dev/null &"
 " . "&>/dev/null &"   
-exec execstr 
+exec execstr
 execute "buffer" buf
 endfunction 
 nmap <leader>v :wa<cr>:call ViewPdf()<cr>
 " nmap <leader>v :VimtexView<cr>
 " let  g:vimtex_fold_types_defaults = 'preamble, sections, comments'
-nmap <leader>l :wa<cr>:call CompileLatex()<cr>  
+nmap <leader>l :wa<cr>:call CompileLatex()<cr>
 " nmap <leader>m :silent ! cp % backup;  pandoc  backup -s --webtex -o backup.html;  cp backup.html %<cr>:e %<cr>
 
 " nmap <leader>m :silent ! cp % backup;  pandoc  backup -s --mathjax[=https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js] -o backup.html;  cp backup.html %<cr>:e %<cr>:w<cr>:qa<cr> 
