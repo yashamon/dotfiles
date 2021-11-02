@@ -30,7 +30,10 @@ for file in $files; do
     mv ~/.$file ~/dotfiles_old/
     echo "Creating symlink to $file in home directory."
     ln -s $dir/$file ~/.$file
-done
+done 
+for file in $HOME/dotfiles/scripts; do
+ln -s $HOME/dotfiles/scripts/$file $HOME/.local/bin/$file 
+done 
 echo "Moving vifm"
 mkdir ~/bin
 cp ~/dotfiles/bin/vf ~/bin/vf

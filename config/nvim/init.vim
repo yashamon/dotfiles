@@ -104,7 +104,6 @@ Plug 'terryma/vim-multiple-cursors'
 Plug 'sainnhe/gruvbox-material'
 Plug 'vim-pandoc/vim-pandoc'
 Plug 'vim-pandoc/vim-pandoc-syntax' 
-" Plug 'scrooloose/nerdtree', { 'on': 'NERDTreeFind' }
 " Plugin outside ~/.vim/plugged with post-update hook
 Plug 'junegunn/fzf', { 'do': './install --all' }
 Plug 'junegunn/fzf.vim'
@@ -116,11 +115,8 @@ Plug 'junegunn/fzf.vim'
 Plug 'mbbill/undotree', { 'on': 'UndotreeToggle' }
  '}
 Plug 'lifepillar/vim-solarized8'
-
 Plug 'vim-scripts/AutoTag'
-
 " Plug 'vim-scripts/vim-auto-save'
-
 Plug 'vim-pandoc/vim-pandoc'
 
 " Plug 'yashamon/vim-snippets'
@@ -1392,7 +1388,20 @@ require('spellsitter').setup {
   spellchecker = 'vimfn',
 }
 EOF
-
+let g:firenvim_config = { 
+    \ 'globalSettings': {
+        \ 'alt': 'all',
+    \  },
+    \ 'localSettings': {
+        \ '.*': {
+            \ 'cmdline': 'neovim',
+            \ 'content': 'text',
+            \ 'priority': 0,
+            \ 'selector': 'textarea',
+            \ 'takeover': 'always',
+        \ },
+    \ }
+\ }
 
 " lua << EOF
 " require("stabilize").setup(
@@ -1421,20 +1430,7 @@ EOF
 " }
 " require('auto-session').setup(opts)
 " EOF
-let g:firenvim_config = { 
-    \ 'globalSettings': {
-        \ 'alt': 'all',
-    \  },
-    \ 'localSettings': {
-        \ '.*': {
-            \ 'cmdline': 'neovim',
-            \ 'content': 'text',
-            \ 'priority': 0,
-            \ 'selector': 'textarea',
-            \ 'takeover': 'always',
-        \ },
-    \ }
-\ }
+
 " lua << EOF
 " if exists('g:started_by_firenvim')
 "   ZenMode

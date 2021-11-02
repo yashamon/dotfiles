@@ -15,7 +15,7 @@ export XDG_CONFIG_HOME=$HOME/.config
 # export MANPATH="/usr/local/man:$MANPATH"
 # You may need to manually set your language environment
 export LANG=en_US.UTF-8 
-export PATH="$HOME/skia-binaries:$HOME/ninja:/home/linuxbrew/.linuxbrew/bin:/usr/local/bin:/usr/sbin:/sbin:/bin:$HOME/.local/bin:/root/.cabal/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:~/.cabal/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:~/.local/bin:~/.local:/$HOME/appimage:$HOME/.cargo/bin:/snap/bin:/data/data/com.termux/files/usr/bin/applets:/data/data/com.termux/files/usr/bin:bin:/usr/local/sbin:$HOME/.zinit/plugins:/usr/bin:$HOME/.local/share/nvim/lspinstall"  
+export PATH="$HOME/appimage:/home/linuxbrew/.linuxbrew/bin:/usr/local/bin:/usr/sbin:/sbin:/bin:$HOME/.local/bin:/root/.cabal/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:~/.cabal/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:~/.local/bin:~/.local:$HOME/.cargo/bin:/snap/bin:/data/data/com.termux/files/usr/bin/applets:/data/data/com.termux/files/usr/bin:bin:/usr/local/sbin:$HOME/.zinit/plugins:/usr/bin:$HOME/.local/share/nvim/lspinstall:$HOME/skia-binaries:$HOME/ninja"
 
 
 
@@ -33,7 +33,8 @@ eval "$(fasd --init auto)"
 # export PATH="$HOME/.linuxbrew/bin:$PATH"
 # export MANPATH="$HOME/.linuxbrew/share/man:$MANPATH"
 # export INFOPATH="$HOME/.linuxbrew/share/info:$INFOPATH"
-# alias nvim="/snap/bin/nvim"  
+# alias nvim="/snap/bin/nvim"   
+alias uapp="~/appimage/AppImageUpdate"
 alias wifi="sudo wifi-menu -o"
 alias tmux d="tmux detach" 
 alias svi="/snap/bin/nvim"
@@ -86,8 +87,8 @@ alias vis="rm /tmp/nvimsocket ; NVIM_LISTEN_ADDRESS=/tmp/nvimsocket nvim"
 alias suru="su root; a"
 alias rec="recoll -q"
 alias vi="nvim"  
-alias neo="$HOME/.local/bin/gone/goneovim"
-alias neov="$HOME/.local/bin/neovide --frameless --maximized"
+alias gone="$HOME/.local/bin/gone/goneovim"
+alias neo="$HOME/.local/bin/neovide --frameless --maximized --multigrid"
 alias update="git submodule update --init --recursive ; git pull origin master"
 alias chrome="chromium --user-data-dir /root"
 alias res="xrandr --newmode "1920x1080_60.00"  173.00  1920 2048 2248 2576  1080 1083 1088 1120; xrandr --addmode Virtual-1 "1920x1080_60.00";
@@ -303,7 +304,7 @@ bindkey -M vicmd 'j' history-substring-search-down
 bindkey -M vicmd '<right>' autosuggest-accept 
 bindkey -M vicmd 'E' autosuggest-execute
 
-zinit ice from"gh-r" as"program" bpick"*appimage*" ver"nightly" mv"nvim* -> nvim" pick"nvim"
+zinit ice from"gh-r" as"program" bpick"*appimage*" ver"nightly" mv"nvim* -> $HOME/appimage/nvim" pick"nvim"
 zinit light neovim/neovim
 #programs
 # zinit ice from"gh-r" as"program"
