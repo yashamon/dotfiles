@@ -466,7 +466,7 @@ map 9 g$
 nmap <m-8> :set lines=200<cr>:set columns=200<cr>
 
 " map <Leader>n <Plug>(miniyank-cycle)
-nnoremap <Left> :wa:bnext<CR>
+nnoremap <Left> :wa<cr>:bnext<CR>
 nnoremap <Right> :wa<cr>:bprevious<CR>
 " tnoremap <Esc> <C-\> 
 " nnoremap < :tabp<CR>
