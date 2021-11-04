@@ -980,21 +980,25 @@ requires = {
 -- ... Your other configuration ...
 sources = {
       -- For vsnip user. 
-{ name = 'tags' , keyword_length = 1000- },
+{ name = 'tags', keyword_length = 1000 },
  { name = 'vsnip', keyword_length = 1000 },
          -- For luasnip user.
       -- { name = 'luasnip' },
 -- For ultisnips user.
       -- { name = 'ultisnips' },  
    { name = 'buffer', keyword_length = 1000 },
-   { name = 'omni' , keyword_length = 4},
+   { name = 'omni', keyword_length = 4},
        -- { name = 'spell' }, 
-   { name = 'nvim_lsp', keyword_length = 4  },
+   { name = 'nvim_lsp', keyword_length = 4 },
       { name = 'treesitter', keyword_length = 4 },
 --{ name = 'latex_symbols' },
 }
+completion = {
+    autocomplete = false
+}
 }
 EOF
+
 " 
 " " LSP mappings   
 " "" LSP mappings 
@@ -1002,9 +1006,9 @@ noremap <leader>ca  :lua vim.lsp.buf.code_action()<CR>
 noremap <leader>la  :lua vim.lsp.buf.code_action()<CR>
 " 
 " 
- lua <<EOF
+lua <<EOF
  require('nvim_comment').setup(
- {
+{
    -- Linters prefer comment and line to have a space in between markers
    marker_padding = true,
    -- should comment out empty or whitespace only lines
