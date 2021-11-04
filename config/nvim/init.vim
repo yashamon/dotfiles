@@ -1160,7 +1160,7 @@ lua << EOF
    on_close = function()
    end,
  }
- EOF
+EOF
 lua <<EOF
 require('telescope').setup{
   defaults = {
