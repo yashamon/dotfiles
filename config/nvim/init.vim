@@ -147,7 +147,8 @@ set titlestring
 " set noshowmode
 " set noruler       
 " set laststatus=1 
-set noshowcmd  
+set noshowcmd   
+set noshowmatch  
 set wrap  
 set pb=10 
 set switchbuf=newtab
@@ -209,7 +210,7 @@ set ruler		" show the cursor position all the time
 set autoread		" auto read when file is changed from outside
 set nohlsearch
 " set noswapfile
-set showmatch		" Cursor shows matching ) and }
+" set showmatch		" Cursor shows matching ) and }
 set nocursorline
 set showmode		" Show current mode
 set wildchar=<TAB>	" start wild expansion in the command line using <TAB>
@@ -232,7 +233,7 @@ set guifont=Fira\ Code:h22
 " let g:material_style = 'palenight'  
 " let g:material_style = 'lighter'
 " highlight Normal ctermbg=none
-set tm=500
+set tm=1000
 " set macreta 
 hi clear SpellBad
 hi SpellBad cterm=underline
