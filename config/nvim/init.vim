@@ -1557,7 +1557,6 @@ let g:firenvim_config = {
 " let g:github_colors = [hint = "orange", error = "#ff0000"]
 " Load the colorscheme
 " colorscheme github_dark
-=======
 "" terminal color settings 
 " Example config in VimScript
 " let g:github_function_style = "italic"
@@ -1579,4 +1578,3 @@ let g:firenvim_config = {
 " let g:material_style = 'lighter'
 " highlight Normal ctermbg=none
 
->>>>>>> a659d509554bbf0a93982c2dcbed27f85f556153
