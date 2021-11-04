@@ -583,7 +583,8 @@ noremap S <Esc> :wa<cr>:BLines<CR>
 noremap <leader>ss :wa<cr>:source $MYVIMRC<cr> 
 noremap <c-e> viwy 
 noremap <c-p> :<c-r>+<cr>
-noremap <m-l> viwy:bdelete<cr>:execute "buffer" g:buf<cr>:<c-r>+<cr>:TZAtaraxisOn<cr><cr>
+noremap <m-l> viwy:bdelete<cr>:execute "buffer" g:buf<cr>:<c-r>+<cr>:lua require("zen-mode").open()<cr><cr> 
+
 " noremap <m-l> viwy<esc>:bp<cr>:<c-r>+<cr>
 noremap <m-b> <Esc>:wa<cr>:Buffers<CR>
 " noremap F <Esc>:GFiles<CR>
@@ -1110,7 +1111,7 @@ EOF
 " " options = {disabled_filetypes = {'txt', 'text'}}
 " " }
 " " EOF
-" " lua << EOF
+lua << EOF
    require("zen-mode").setup {
    window = {
      backdrop = 1, -- shade the backdrop of the Zen window. Set to 1 to keep the same as Normal
