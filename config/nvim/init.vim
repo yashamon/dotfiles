@@ -233,7 +233,7 @@ set guifont=Fira\ Code:h22
 " let g:material_style = 'lighter'
 " highlight Normal ctermbg=none
 set tm=1000
-" set macmeta 
+" set macreta 
 hi clear SpellBad
 hi SpellBad cterm=underline
 " Set style for gVim
