@@ -992,10 +992,10 @@ sources = {
    { name = 'nvim_lsp', keyword_length = 4 },
       { name = 'treesitter', keyword_length = 4 },
 --{ name = 'latex_symbols' },
-}
+}, 
+
 completion = {
     autocomplete = false
-}
 }
 EOF
 
