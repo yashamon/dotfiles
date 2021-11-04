@@ -227,16 +227,20 @@ set smarttab		" insert tabs on the start of a line according to context
 set noerrorbells
 " set novisualbell 
 set guifont=Fira\ Code:h22
- colorscheme one
-" colorscheme material  
-" let g:material_style = 'palenight'  
-" let g:material_style = 'lighter'
-" highlight Normal ctermbg=none
+set tm=500
+" set macmeta 
+colorscheme one
+>>>>>>> a659d509554bbf0a93982c2dcbed27f85f556153
 hi clear SpellBad
 hi SpellBad cterm=underline
 " Set style for gVim
 hi SpellBad gui=underline
+<<<<<<< HEAD
 " hi MatchParen cterm=undercurl ctermbg=none ctermfg=magenta
+=======
+" hi MatchParen cterm=undercurl ctermbg=none ctermfg=magenta 
+"
+>>>>>>> a659d509554bbf0a93982c2dcbed27f85f556153
 "Autocommands, au
 "
 
@@ -412,7 +416,7 @@ noremap <C-ScrollWheelRight> <nop>
 inoremap \ /
 inoremap / \
 vnoremap p "0dP
-noremap D "0D
+noremap D "0D:wa<cr>
 noremap d "0d
 nnoremap dd "0dd:wa<cr>
 noremap c "0c
@@ -423,6 +427,12 @@ vnoremap d "0d:wa<cr>
 
 vnoremap x "+x:wa<cr>
 
+<<<<<<< HEAD
+=======
+vnoremap x "+x:wa<cr> 
+vnoremap d "0d:wa<cr>
+
+>>>>>>> a659d509554bbf0a93982c2dcbed27f85f556153
 vnoremap y "+y
 nnoremap y "+y
 nnoremap p "+p
@@ -1545,6 +1555,7 @@ let g:firenvim_config = {
 "  highlight foldcolumn ctermfg=256 ctermbg=bg
 " autocmd Colorscheme * highlight FoldColumn guifg=black guibg=bg 
 " inoremap <cr> <esc>:w<cr>i<cr> 
+<<<<<<< HEAD
 "" set tm=500
 " set macmeta
 " auto reload vimrc when editing it
@@ -1554,3 +1565,26 @@ let g:firenvim_config = {
 " let g:github_colors = [hint = "orange", error = "#ff0000"]
 " Load the colorscheme
 " colorscheme github_dark
+=======
+"" terminal color settings 
+" Example config in VimScript
+" let g:github_function_style = "italic"
+" let g:github_sidebars = ["qf", "vista_kind", "terminal", "vimplug"]
+
+" Change the "hint" color to the "orange" color, and make the "error" color bright red
+" let g:github_colors = [hint = "orange", error = "#ff0000"]
+" Load the colorscheme
+" colorscheme github_dark 
+" set background=dark 
+" if has("gui_running")	" GUI color and font settings
+"   set guifont=Fira\ Code:h22
+"   " colorscheme gruvbox 
+"   highlight CursorLine  guibg=#003853 ctermbg=24  gui=none cterm=none
+" else
+"  colorscheme one
+" colorscheme material  
+" let g:material_style = 'palenight'  
+" let g:material_style = 'lighter'
+" highlight Normal ctermbg=none
+
+>>>>>>> a659d509554bbf0a93982c2dcbed27f85f556153
