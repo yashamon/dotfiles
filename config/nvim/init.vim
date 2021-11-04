@@ -862,7 +862,7 @@ EOF
 " " set foldlevel=20
 " " set foldmethod=expr
 " " set foldexpr=nvim_treesitter#foldexpr()
-" set foldmethod=expr foldexpr=getline(v:lnum)=~'^\s*'.&commentstring[0]
+set foldmethod=expr foldexpr=getline(v:lnum)=~'^\s*'.&commentstring[0]
 " 
 " 
 " 
