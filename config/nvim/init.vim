@@ -610,14 +610,13 @@ endfunction
 
 function! Sentence()
   let g:buf = bufname()
-   sentence.sh %
+  exec "!sentence.sh" %
   echo "Print any character"
   call getchar()
   e sentence_%
   " echo "Print any character"
   " call getchar()
   BLines
-  AsyncStop
 endfunction
 noremap L :wa<cr>:TZAtaraxisOff<cr>:call Sentence()<cr>
 " noremap L :TZAtaraxisOff<cr><cr>:call Sentence()<cr>
