@@ -417,14 +417,15 @@ noremap <C-ScrollWheelRight> <nop>
 inoremap \ /
 inoremap / \
 vnoremap p "0dP
-noremap D "0D
+noremap D "0D:wa<cr>
 noremap d "0d
-nnoremap dd "0dd
+nnoremap dd "0dd:wa<cr>
 noremap c "0c
 noremap C "_C
 noremap x "_x
 
-vnoremap x "+x
+vnoremap x "+x:wa<cr> 
+
 vnoremap y "+y
 nnoremap y "+y
 nnoremap p "+p
