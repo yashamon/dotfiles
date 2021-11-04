@@ -375,6 +375,7 @@ set fileencoding=utf-8
 " terminal mappings
 tnoremap <A-Esc> <C-\><C-n>
 nmap <A-S-t> :wa<cr>:te<cr>
+ 
 
 vnoremap <Leader>U ""y:%s/<C-r>"
 noremap <leader>r :wa<cr>:e<cr>
@@ -389,7 +390,7 @@ nnoremap <leader>e :wa<cr>:Vifm<cr>
 nnoremap <leader>t :wa<cr>:FloatermToggle<cr>
 nnoremap <c-,> :cprevious<cr>
 nnoremap <c-.> :cnext<cr> 
-
+inoremap <cr> <cr> <backspace>
 vnoremap <m-s> :s///gc<left><left><left><left>
 inoremap <m-s> <esc>:%s///gc<left><left><left><left>
 nnoremap <m-s> :%s///gc<left><left><left>
