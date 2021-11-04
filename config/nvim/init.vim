@@ -393,7 +393,7 @@ nnoremap <c-.> :cnext<cr>
 inoremap <cr> <cr> <backspace>
 vnoremap <m-s> :%s///gc<left><left><left><left>
 inoremap <m-s> <esc>:%s///gc<left><left><left><left>
-nnoremap <m-s> :%s///gc<left><left><left>
+nnoremap <m-s> :%s///gc<left><left><left><left>
 vmap <M-.> t.<CR>h
 nmap <M-.> t.<CR>h
 nnoremap <up> 1<C-U>
