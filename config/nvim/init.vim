@@ -954,7 +954,6 @@ EOF
 " 
 " 
 " vsnip stuff 
-"
 " Use <Tab> and <S-Tab> to navigate through popup menu
 inoremap <expr> <m-space> pumvisible() ? "\<C-n>" : "\<Tab>"
 inoremap <expr> <c-space> pumvisible() ? "\<C-p>" : "\<S-Tab>"
