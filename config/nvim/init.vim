@@ -986,7 +986,7 @@ sources = {
       -- { name = 'luasnip' },
 -- For ultisnips user.
       -- { name = 'ultisnips' },  
-   { name = 'buffer', keyword_length = 100 },
+   { name = 'buffer', keyword_length = -1 },
    { name = 'omni' , keyword_length = 4},
        -- { name = 'spell' }, 
    { name = 'nvim_lsp', keyword_length = 4  },
