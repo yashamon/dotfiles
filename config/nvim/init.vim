@@ -10,7 +10,6 @@ Plug 'phaazon/hop.nvim'
 " Plug 'https://gitlab.com/yorickpeterse/nvim-dd.git',  { 'branch': 'main' }
 " Plug 'luukvbaal/stabilize.nvim' 
 Plug 'glacambre/firenvim', { 'do': { _ -> firenvim#install(0) } }
-Plug 'is0n/fm-nvim'
 Plug 'williamboman/nvim-lsp-installer', { 'branch': 'main' }
 Plug 'nvim-lua/plenary.nvim'
 Plug 'nvim-telescope/telescope.nvim',
