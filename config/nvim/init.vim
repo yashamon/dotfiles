@@ -610,14 +610,14 @@ endfunction
 
 function! Sentence()
   let g:buf = bufname()
-  AsyncRun sentence.sh %
+   sentence.sh %
   echo "Print any character"
   call getchar()
   e sentence_%
   " echo "Print any character"
   " call getchar()
   BLines
-  " AsyncStop
+  AsyncStop
 endfunction
 noremap L :wa<cr>:TZAtaraxisOff<cr>:call Sentence()<cr>
 " noremap L :TZAtaraxisOff<cr><cr>:call Sentence()<cr>
