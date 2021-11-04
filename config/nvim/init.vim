@@ -4,14 +4,6 @@ call plug#begin('~/.vim/plugged')
 " Plug 'folke/zen-mode.nvim', {  'branch': 'main' } 
 Plug 'lewis6991/spellsitter.nvim' 
 Plug 'folke/zen-mode.nvim'
-
-lua << EOF
-  require("zen-mode").setup {
-    -- your configuration comes here
-    -- or leave it empty to use the default settings
-    -- refer to the configuration section below
-  }
-EOF
 " Plug 'dvdsk/prosesitter',  { 'branch': 'main' }
 Plug 'metalelf0/nvim-floatedit',  { 'branch': 'main' }
 " Plug 'AckslD/nvim-neoclip.lua', { 'branch': 'main' }
