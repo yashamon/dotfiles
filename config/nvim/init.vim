@@ -35,7 +35,7 @@ Plug 'hrsh7th/cmp-vsnip', { 'branch': 'main' }
 Plug 'hrsh7th/vim-vsnip'
 Plug 'hrsh7th/vim-vsnip-integ'
 Plug 'quangnguyen30192/cmp-nvim-tags',  { 'branch': 'main' } 
-Plug 'ray-x/cmp-treesitter'
+" Plug 'ray-x/cmp-treesitter'
 " For luasnip user. 
 Plug 'L3MON4D3/LuaSnip'
 " Plug 'saadparwaiz1/cmp_luasnip'
