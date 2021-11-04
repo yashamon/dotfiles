@@ -1510,5 +1510,69 @@ let g:firenvim_config = {
 " colorscheme material  
 " let g:material_style = 'palenight'  
 " let g:material_style = 'lighter'
-" highlight Normal ctermbg=none
+" highlight Normal ctermbg=none 
+"   " let g:vimtex_quickfix_method='pplatex' 
+" let g:vimtex_latexmk_callback_hooks = ['UpdateSkim']
+"    function! UpdateSkim(status)
+"      if !a:status | return | endif
+"
+"      let l:out = b:vimtex.out()
+"      let l:tex = expand('%:p')
+"      let l:cmd = [g:vimtex_view_general_viewer, '-r']
+"      if !empty(system('pgrep Skim'))
+"        call extend(l:cmd, ['-g'])
+"      endif
+"      if has('nvim')
+"        call jobstart(l:cmd + [line('.'), l:out, l:tex])
+"      elseif has('job')
+"        call job_start(l:cmd + [line('.'), l:out, l:tex])
+"      else
+"        call system(join(l:cmd + [line('.'), shellescape(l:out), shellescape(l:tex)], ' '))
+"      endif
+"    endfunction
+" let g:vimtex_latexmk_build_dir = './build'
+" \ 'build_dir' : './build',
+" 
+"     let g:vimtex_compiler_latexmk = {
+"     \ 'background' : 0,
+"         \ 'callback' : 1,
+"     \ 'continuous' : 1,
+"     \ 'options' : [
+"     \   '-pdf',
+"     \   '-verbose',
+"     \   '-file-line-error',
+"     \   '-synctex=1',
+"     \   '-interaction=nonstopmode',
+"     \ ],
+"     \}
+" let g:vimtex_compiler_progname = 'nvr'
+" " nmap  <leader>v <Esc>:w<CR>:VimtexView<CR>
+" let g:vimtex_quickfix_mode = 1
+" let g:vimtex_fold_enabled = 0
+" let g:vimtex_fold_manual = 1
+
+
+" let g:vimtex_fold_types= {
+"           \ 'preamble' : {},
+"           \ 'comments' : {'enabled' : 1},
+"           \ 'markers' : {},
+"           \ 'sections' : {
+"           \   'parse_levels' : 0,
+"           \   'sections' : [      
+"           \     '%(add)?part',
+"           \     '%(chapter|addchap)',
+"           \     '%(section|addsec)',
+"           \     'subsection',
+"           \     'subsubsection',
+"           \   ],
+"           \   'parts' : [         
+"           \     'appendix',
+"           \     'frontmatter',
+"           \     'mainmatter',
+"           \     'backmatter',
+"           \   ],
+"           \ },
+"           \}
+
+" autocmd TermClose * if v:event == 12 || v:event == 0 bdelete endif
 inoremap <cr> <cr> <backspace>  
