@@ -727,8 +727,9 @@ endfunction
 function! ToggleQuickFix()
     if empty(filter(getwininfo(), 'v:val.quickfix'))
         TZAtaraxisOff 
-
-        cf ./build/%[:-4].log 
+        let filename=bufname("%")
+        let errors="./build/" . filename[:-4]."log"
+        cf errors 
         copen
     else
         cclose 
