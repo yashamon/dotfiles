@@ -2,8 +2,7 @@ call plug#begin('~/.vim/plugged')
 " Plug 'reedes/vim-pencil' 
 " Plug 'folke/which-key.nvim', { 'branch': 'main' }
 " Plug 'folke/zen-mode.nvim', {  'branch': 'main' } 
-Plug 'lewis6991/spellsitter.nvim' 
-Plug 'folke/zen-mode.nvim'
+Plug 'lewis6991/spellsitter.nvim'
 " Plug 'dvdsk/prosesitter',  { 'branch': 'main' }
 Plug 'metalelf0/nvim-floatedit',  { 'branch': 'main' }
 " Plug 'AckslD/nvim-neoclip.lua', { 'branch': 'main' }
@@ -583,7 +582,7 @@ noremap S <Esc> :wa<cr>:BLines<CR>
 noremap <leader>ss :wa<cr>:source $MYVIMRC<cr> 
 noremap <c-e> viwy 
 noremap <c-p> :<c-r>+<cr>
-noremap <m-l> viwy:bdelete<cr>:execute "buffer" g:buf<cr>:<c-r>+<cr>:lua require("zen-mode").open()<cr><cr> 
+noremap <m-l> viwy:bdelete<cr>:execute "buffer" g:buf<cr>:<c-r>+<cr>:TZAtaraxisOn<cr><cr>
 " noremap <m-l> viwy<esc>:bp<cr>:<c-r>+<cr>
 noremap <m-b> <Esc>:wa<cr>:Buffers<CR>
 " noremap F <Esc>:GFiles<CR>
@@ -633,14 +632,14 @@ endfunction
 
 function! ToggleQuickFix()
     if empty(filter(getwininfo(), 'v:val.quickfix'))
-        lua require("zen-mode").close() 
+        TZAtaraxisOff 
         let filename=bufname("%")
         let errors="./build/" . filename[:-4]."log"
         exec "cf" errors 
         copen
     else
         cclose 
-        lua require("zen-mode").close()
+        TZAtaraxisOn
         endif
 endfunction
 
@@ -684,9 +683,8 @@ nmap <leader>m :w<cr>:silent ! cat % >> ~/workspace/email.txt; cp % /tmp/temp; m
 
 " nmap <leader>l :VimtexCompile<CR>
 " nmap <leader>s <Esc>:VimtexErrors<CR>
-" map <leader>g :ZenMode<CR>  
-imap <leader>g <esc>:w<cr>:ZenMode<CR>
-nmap <leader>g :w<cr>:ZenMode<CR>
+" map <leader>g :ZenMode<CR> 
+nmap <leader>g :w<cr>:TZAtaraxis<CR>
 nmap <leader>p :Denite neoyank -default-action=append<CR>
 
 " NB: this supports "rp that replaces the selection by the contents of @r
@@ -726,7 +724,7 @@ autocmd BufWritePost * silent execute 'AsyncRun if git rev-parse --is-inside-wor
     "
     "
     " UndoTree {
-noremap <Leader>u :lua require("zen-mode").close()<cr>:wa<cr>:UndotreeToggle<CR>
+noremap <Leader>u :TZAtaraxisOff<cr>:wa<cr>:UndotreeToggle<CR>
         " If undotree is opened, it is likely one wants to interact with it.
         let g:undotree_SetFocusWhenToggle=1
         noremap <D-z> u
@@ -1111,56 +1109,56 @@ EOF
 " " options = {disabled_filetypes = {'txt', 'text'}}
 " " }
 " " EOF
-lua << EOF
-   require("zen-mode").setup {
-   window = {
-     backdrop = 1, -- shade the backdrop of the Zen window. Set to 1 to keep the same as Normal
-     -- height and width can be:
-     -- * an absolute number of cells when > 1
-     -- * a percentage of the width / height of the editor when <= 1
-     -- * a function that returns the width or the height
-     width = .66, -- width of the Zen window
-     height = 1, -- height of the Zen window
-     -- by default, no options are changed for the Zen window
-     -- uncomment any of the options below, or add other vim.wo options you want to apply
-     options = {
-       -- signcolumn = "no", -- disable signcolumn
-       -- number = false, -- disable number column
-       -- relativenumber = false, -- disable relative numbers
-       -- cursorline = false, -- disable cursorline
-       -- cursorcolumn = false, -- disable cursor column
-       -- foldcolumn = "0", -- disable fold column
-       -- list = false, -- disable whitespace characters
-     },
-   },
-   plugins = {
-     -- disable some global vim options (vim.o...)
-     -- comment the lines to not apply the options
-     options = {
-       enabled = true,
-       ruler = false, -- disables the ruler text in the cmd line area
-       showcmd = false, -- disables the command in the last line of the screen
-     },
-     twilight = { enabled = false }, -- enable to start Twilight when zen mode opens
-     gitsigns = { enabled = false }, -- disables git signs
-     tmux = { enabled = false }, -- disables the tmux statusline
-     -- this will change the font size on kitty when in zen mode
-     -- to make this work, you need to set the following kitty options:
-     -- - allow_remote_control socket-only
-     -- - listen_on unix:/tmp/kitty
-     kitty = {
-       enabled = false,
-       font = "+4", -- font size increment
-     },
-   },
-   -- callback where you can add custom code when the Zen window opens
-   on_open = function(win)
-   end,
-   -- callback where you can add custom code when the Zen window closes
-   on_close = function()
-   end,
- }
-EOF
+" " lua << EOF
+" "   require("zen-mode").setup {
+" "   window = {
+" "     backdrop = 1, -- shade the backdrop of the Zen window. Set to 1 to keep the same as Normal
+" "     -- height and width can be:
+" "     -- * an absolute number of cells when > 1
+" "     -- * a percentage of the width / height of the editor when <= 1
+" "     -- * a function that returns the width or the height
+" "     width = .66, -- width of the Zen window
+" "     height = 1, -- height of the Zen window
+" "     -- by default, no options are changed for the Zen window
+" "     -- uncomment any of the options below, or add other vim.wo options you want to apply
+" "     options = {
+" "       -- signcolumn = "no", -- disable signcolumn
+" "       -- number = false, -- disable number column
+" "       -- relativenumber = false, -- disable relative numbers
+" "       -- cursorline = false, -- disable cursorline
+" "       -- cursorcolumn = false, -- disable cursor column
+" "       -- foldcolumn = "0", -- disable fold column
+" "       -- list = false, -- disable whitespace characters
+" "     },
+" "   },
+" "   plugins = {
+" "     -- disable some global vim options (vim.o...)
+" "     -- comment the lines to not apply the options
+" "     options = {
+" "       enabled = true,
+" "       ruler = false, -- disables the ruler text in the cmd line area
+" "       showcmd = false, -- disables the command in the last line of the screen
+" "     },
+" "     twilight = { enabled = false }, -- enable to start Twilight when zen mode opens
+" "     gitsigns = { enabled = false }, -- disables git signs
+" "     tmux = { enabled = false }, -- disables the tmux statusline
+" "     -- this will change the font size on kitty when in zen mode
+" "     -- to make this work, you need to set the following kitty options:
+" "     -- - allow_remote_control socket-only
+" "     -- - listen_on unix:/tmp/kitty
+" "     kitty = {
+" "       enabled = false,
+" "       font = "+4", -- font size increment
+" "     },
+" "   },
+" "   -- callback where you can add custom code when the Zen window opens
+" "   on_open = function(win)
+" "   end,
+" "   -- callback where you can add custom code when the Zen window closes
+" "   on_close = function()
+" "   end,
+" " }
+" " EOF
 lua <<EOF
 require('telescope').setup{
   defaults = {
