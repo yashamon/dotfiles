@@ -32,6 +32,7 @@ Plug 'hrsh7th/cmp-nvim-lsp', { 'branch': 'main' }
 " Plug 'kdheepak/cmp-latex-symbols', { 'branch': 'main' } 
 Plug 'hrsh7th/cmp-buffer', { 'branch': 'main' }
 Plug 'hrsh7th/nvim-cmp', { 'branch': 'main' }
+Plug 'hrsh7th/cmp-vsnip', { 'branch': 'main' }
 " Plug 'hrsh7th/vim-vsnip', { 'branch': 'master' } 
 Plug 'quangnguyen30192/cmp-nvim-tags',  { 'branch': 'main' } 
 Plug 'ray-x/cmp-treesitter'
@@ -49,7 +50,6 @@ Plug 'kabouzeid/nvim-lspinstall', { 'branch': 'main' }
 Plug 'terrortylor/nvim-comment', { 'branch': 'main' }
 Plug 'kevinhwang91/nvim-bqf'
 Plug 'justinhoward/fzf-neoyank' 
- " Plug 'hrsh7th/vim-vsnip'
 " Plug 'svermeulen/vim-cutlass'
 Plug 'kyazdani42/nvim-web-devicons' " for file icons
 " Plug 'kyazdani42/nvim-tree.lua', 
