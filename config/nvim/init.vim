@@ -232,6 +232,7 @@ set guifont=Fira\ Code:h22
 " let g:material_style = 'palenight'  
 " let g:material_style = 'lighter'
 " highlight Normal ctermbg=none
+set tm=1000
 " set macmeta 
 hi clear SpellBad
 hi SpellBad cterm=underline
