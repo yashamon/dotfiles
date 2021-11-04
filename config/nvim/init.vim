@@ -617,6 +617,7 @@ function! Sentence()
   " echo "Print any character"
   " call getchar()
   BLines
+  " AsyncStop
 endfunction
 noremap L :wa<cr>:TZAtaraxisOff<cr>:call Sentence()<cr>
 " noremap L :TZAtaraxisOff<cr><cr>:call Sentence()<cr>
