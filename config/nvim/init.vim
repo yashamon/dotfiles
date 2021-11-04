@@ -1574,5 +1574,6 @@ let g:firenvim_config = {
 " let g:material_style = 'palenight'  
 " let g:material_style = 'lighter'
 " highlight Normal ctermbg=none
-inoremap <cr> <cr> <backspace>
+inoremap <cr> <cr> <backspace>  
+   
 
