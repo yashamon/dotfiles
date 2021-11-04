@@ -230,14 +230,10 @@ set guifont=Fira\ Code:h22
 set tm=500
 " set macmeta 
 colorscheme one
->>>>>>> a659d509554bbf0a93982c2dcbed27f85f556153
 hi clear SpellBad
 hi SpellBad cterm=underline
 " Set style for gVim
 hi SpellBad gui=underline
-<<<<<<< HEAD
-" hi MatchParen cterm=undercurl ctermbg=none ctermfg=magenta
-=======
 " hi MatchParen cterm=undercurl ctermbg=none ctermfg=magenta 
 "
 >>>>>>> a659d509554bbf0a93982c2dcbed27f85f556153
