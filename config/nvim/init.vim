@@ -610,7 +610,7 @@ endfunction
 
 function! Sentence()
   let g:buf = bufname()
-  sentence.sh" %
+  silent !sentence.sh %
   echo "Print any character"
   call getchar()
   e sentence_%
