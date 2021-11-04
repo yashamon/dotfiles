@@ -32,8 +32,7 @@ Plug 'hrsh7th/cmp-nvim-lsp', { 'branch': 'main' }
 " Plug 'kdheepak/cmp-latex-symbols', { 'branch': 'main' } 
 Plug 'hrsh7th/cmp-buffer', { 'branch': 'main' }
 Plug 'hrsh7th/nvim-cmp', { 'branch': 'main' }
-Plug 'hrsh7th/cmp-vsnip', { 'branch': 'main' }
-Plug 'hrsh7th/vim-vsnip', { 'branch': 'master' } 
+" Plug 'hrsh7th/vim-vsnip', { 'branch': 'master' } 
 Plug 'quangnguyen30192/cmp-nvim-tags',  { 'branch': 'main' } 
 Plug 'ray-x/cmp-treesitter'
 " For luasnip user. 
@@ -45,12 +44,12 @@ Plug 'kabouzeid/nvim-lspinstall', { 'branch': 'main' }
 "Plug 'pope/vim-obsession'
 "Plug 'xolox/vim-easytags'
 " Plug 'nvim-lua/plenary.nvim'
-Plug 'windwp/nvim-spectre'
-Plug 'xolox/vim-misc'
+" Plug 'windwp/nvim-spectre'
+" Plug 'xolox/vim-misc'
 Plug 'terrortylor/nvim-comment', { 'branch': 'main' }
 Plug 'kevinhwang91/nvim-bqf'
 Plug 'justinhoward/fzf-neoyank' 
- Plug 'hrsh7th/vim-vsnip'
+ " Plug 'hrsh7th/vim-vsnip'
 " Plug 'svermeulen/vim-cutlass'
 Plug 'kyazdani42/nvim-web-devicons' " for file icons
 " Plug 'kyazdani42/nvim-tree.lua', 
@@ -65,7 +64,7 @@ Plug 'nvim-lua/diagnostic-nvim'
 " Any valid git URL is allowed
 " Plug 'https://github.com/junegunn/vim-github-dashboard.git'
 " Group dependencies, vim-snippets depends on ultisnips 
- Plug 'tpope/vim-surround'
+ " Plug 'tpope/vim-surround'
 " Plug 'neovim/node-host'
 Plug 'projekt0n/github-nvim-theme',  { 'branch': 'main' }
 Plug 'rktjmp/lush.nvim', { 'branch': 'main' } 
@@ -1511,4 +1510,4 @@ let g:firenvim_config = {
 "           \}
 
 " autocmd TermClose * if v:event == 12 || v:event == 0 bdelete endif
-inoremap <cr> <cr> <backspace>   
+inoremap <cr> <cr> <backspace>    
