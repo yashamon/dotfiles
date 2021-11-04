@@ -426,8 +426,6 @@ vnoremap d "0d:wa<cr>
 
 vnoremap x "+x:wa<cr>
 vnoremap d "0d:wa<cr>
-
->>>>>>> a659d509554bbf0a93982c2dcbed27f85f556153
 vnoremap y "+y
 nnoremap y "+y
 nnoremap p "+p
@@ -1550,7 +1548,6 @@ let g:firenvim_config = {
 "  highlight foldcolumn ctermfg=256 ctermbg=bg
 " autocmd Colorscheme * highlight FoldColumn guifg=black guibg=bg 
 " inoremap <cr> <esc>:w<cr>i<cr> 
-<<<<<<< HEAD
 "" set tm=500
 " set macmeta
 " auto reload vimrc when editing it
