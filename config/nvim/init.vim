@@ -426,7 +426,6 @@ vnoremap d "0d:wa<cr>
 
 vnoremap x "+x:wa<cr>
 
-<<<<<<< HEAD
 =======
 vnoremap x "+x:wa<cr> 
 vnoremap d "0d:wa<cr>
