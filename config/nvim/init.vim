@@ -425,9 +425,6 @@ vnoremap d "0d:wa<cr>
 
 
 vnoremap x "+x:wa<cr>
-
-=======
-vnoremap x "+x:wa<cr> 
 vnoremap d "0d:wa<cr>
 
 >>>>>>> a659d509554bbf0a93982c2dcbed27f85f556153
