@@ -727,7 +727,8 @@ endfunction
 function! ToggleQuickFix()
     if empty(filter(getwininfo(), 'v:val.quickfix'))
         TZAtaraxisOff
-        VimtexErrors
+        cf ./build/%.log 
+        copen
     else
         cclose 
         TZAtaraxisOn
