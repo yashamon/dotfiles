@@ -414,12 +414,15 @@ inoremap / \
 vnoremap p "0dP
 noremap D "0D
 noremap d "0d
-nnoremap dd "0dd
+nnoremap dd "0dd:wa<cr>
 noremap c "0c
 noremap C "_C
 noremap x "_x
+vnoremap d "0d:wa<cr>
 
-vnoremap x "+x
+
+vnoremap x "+x:wa<cr>
+
 vnoremap y "+y
 nnoremap y "+y
 nnoremap p "+p
