@@ -107,11 +107,6 @@ Plug 'vim-pandoc/vim-pandoc-syntax'
 " Plugin outside ~/.vim/plugged with post-update hook
 Plug 'junegunn/fzf', { 'do': './install --all' }
 Plug 'junegunn/fzf.vim'
-"
-"
-"  Plug 'ervandew/supertab'
-" Plug 'Shougo/vimproc.vim'
-
 Plug 'mbbill/undotree', { 'on': 'UndotreeToggle' }
  '}
 Plug 'lifepillar/vim-solarized8'
@@ -179,7 +174,6 @@ set spelllang=en
  else
  " autocmd VimEnter * TZAtaraxis
  endif
-
 au VIMEnter set spell 
 set timeoutlen=0
 au VIMEnter * let g:surround_108 = {
@@ -224,52 +218,25 @@ let maplocalleader = "\\"
 " ignore these files while expanding wild chars
 set wildignore=*.o,*.class,*.pyc
 set incsearch		" incremental search
-" set nobackup		" no *~ backup files
+set nobackup		" no *~ backup files
 set ignorecase		" ignore case when searching
 set smartcase		" ignore case if search pattern is all lowercase,case-sensitive otherwise
-"set smarttab		" insert tabs on the start of a line according to context
+set smarttab		" insert tabs on the start of a line according to context
 
 " disable sound on errors
 set noerrorbells
-set novisualbell 
+" set novisualbell 
 set guifont=Fira\ Code:h22
-set tm=500
-" set macmeta
-" auto reload vimrc when editing it
-" autocmd! bufwritepost ~/.config/nvim/init.vim source ~/.config/nvim/init.vim
-" set hlsearch		" search highlighting
-"
-if has("gui_running")	" GUI color and font settings
-  set guifont=Fira\ Code:h22
-  set background=dark 
-"  set cursorline        " highlight current line
-  " colorscheme gruvbox 
-  highlight CursorLine  guibg=#003853 ctermbg=24  gui=none cterm=none
-else
-" terminal color settings 
-set background=dark
-" Example config in VimScript
-let g:github_function_style = "italic"
-let g:github_sidebars = ["qf", "vista_kind", "terminal", "vimplug"]
-
-" Change the "hint" color to the "orange" color, and make the "error" color bright red
-" let g:github_colors = [hint = "orange", error = "#ff0000"]
-" Load the colorscheme
-" colorscheme github_dark 
-" set background=dark 
-set background=dark
  colorscheme one
 " colorscheme material  
 " let g:material_style = 'palenight'  
 " let g:material_style = 'lighter'
 " highlight Normal ctermbg=none
 hi clear SpellBad
-hi SpellBad cterm=undercurl
+hi SpellBad cterm=underline
 " Set style for gVim
 hi SpellBad gui=underline
-hi MatchParen cterm=undercurl ctermbg=none ctermfg=magenta
-endif
-
+" hi MatchParen cterm=undercurl ctermbg=none ctermfg=magenta
 "Autocommands, au
 "
 
@@ -1574,4 +1541,13 @@ let g:firenvim_config = {
    " set foldcolumn=2
 "  highlight foldcolumn ctermfg=256 ctermbg=bg
 " autocmd Colorscheme * highlight FoldColumn guifg=black guibg=bg 
-" inoremap <cr> <esc>:w<cr>i<cr>
+" inoremap <cr> <esc>:w<cr>i<cr> 
+"" set tm=500
+" set macmeta
+" auto reload vimrc when editing it
+" let g:github_function_style = "italic"
+" let g:github_sidebars = ["qf", "vista_kind", "terminal", "vimplug"]
+" Change the "hint" color to the "orange" color, and make the "error" color bright red
+" let g:github_colors = [hint = "orange", error = "#ff0000"]
+" Load the colorscheme
+" colorscheme github_dark
