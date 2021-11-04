@@ -934,7 +934,23 @@
       "\\Delta^{$1} $0"
     ],
     "description": "Delta d-simplex"
-  }, 
+  },  
+"caligraphic Y": {
+    "prefix": ["cY"],
+    "body": [
+      "\\mathcal{Y} $0"
+    ],
+    "description": "cal Y"
+  },
+
+"caligraphic X": {
+    "prefix": ["cX"],
+    "body": [
+      "\\mathcal{X} $0"
+    ],
+    "description": "cal X"
+  },
+
 "caligraphic G": {
     "prefix": ["cG"],
     "body": [
