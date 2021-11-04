@@ -910,7 +910,7 @@ vnoremap <leader>p :FZFNeoyankSelection +<cr>
 " Replace the default dictionary completion with fzf-based fuzzy completion
 
 inoremap <expr> <c-x><c-k> fzf#vim#complete('cat /usr/share/dict/words')  
-
+inoremap <cr> <cr> <backspace>
 
 set completeopt=menu,menuone,noselect
 
@@ -1510,3 +1510,6 @@ let g:firenvim_config = {
 "           \}
 
 " autocmd TermClose * if v:event == 12 || v:event == 0 bdelete endif
+  
+
+      
