@@ -980,17 +980,17 @@ requires = {
 -- ... Your other configuration ...
 sources = {
       -- For vsnip user. 
-{ name = 'tags' , keyword_length = 4 },
- { name = 'vsnip', keyword_length = 10 },
+{ name = 'tags' , reyword_length = 20 },
+ { name = 'vsnip', keyword_length = 20 },
          -- For luasnip user.
       -- { name = 'luasnip' },
 -- For ultisnips user.
       -- { name = 'ultisnips' },  
-   { name = 'buffer', keyword_length = 10 },
-   { name = 'omni' , keyword_length = 10},
+   { name = 'buffer', keyword_length = 20 },
+   { name = 'omni' , keyword_length = 4},
        -- { name = 'spell' }, 
-   { name = 'nvim_lsp', keyword_length = 10  },
-      { name = 'treesitter', keyword_length = 10 },
+   { name = 'nvim_lsp', keyword_length = 4  },
+      { name = 'treesitter', keyword_length = 4 },
 --{ name = 'latex_symbols' },
 }
 }
