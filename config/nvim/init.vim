@@ -235,7 +235,6 @@ set guifont=Fira\ Code:h22
 =======
 set tm=500
 " set macmeta 
->>>>>>> a659d509554bbf0a93982c2dcbed27f85f556153
 hi clear SpellBad
 hi SpellBad cterm=underline
 " Set style for gVim
