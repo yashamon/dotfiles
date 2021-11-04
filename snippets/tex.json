@@ -683,6 +683,21 @@
      "\\langle $1, $2 \\rangle $0"
     ],
     "description": "duality"
+  }, 
+"eg": {
+    "prefix": "eg",
+    "body": [
+      "e.g. $0"
+    ],
+    "description": "eg"
+  },
+
+"ie": {
+    "prefix": "ie",
+    "body": [
+      "i.e. $0"
+    ],
+    "description": "ie"
   },
 
 "and": {
