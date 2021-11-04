@@ -584,7 +584,6 @@ noremap <leader>ss :wa<cr>:source $MYVIMRC<cr>
 noremap <c-e> viwy 
 noremap <c-p> :<c-r>+<cr>
 noremap <m-l> viwy:bdelete<cr>:execute "buffer" g:buf<cr>:<c-r>+<cr>:lua require("zen-mode").open()<cr><cr> 
-
 " noremap <m-l> viwy<esc>:bp<cr>:<c-r>+<cr>
 noremap <m-b> <Esc>:wa<cr>:Buffers<CR>
 " noremap F <Esc>:GFiles<CR>
@@ -634,14 +633,14 @@ endfunction
 
 function! ToggleQuickFix()
     if empty(filter(getwininfo(), 'v:val.quickfix'))
-        TZAtaraxisOff 
+        lua require("zen-mode").close() 
         let filename=bufname("%")
         let errors="./build/" . filename[:-4]."log"
         exec "cf" errors 
         copen
     else
         cclose 
-        TZAtaraxisOn
+        lua require("zen-mode").close()
         endif
 endfunction
 
@@ -726,7 +725,7 @@ autocmd BufWritePost * silent execute 'AsyncRun if git rev-parse --is-inside-wor
     "
     "
     " UndoTree {
-noremap <Leader>u :TZAtaraxisOff<cr>:wa<cr>:UndotreeToggle<CR>
+noremap <Leader>u :lua require("zen-mode").close()<cr>:wa<cr>:UndotreeToggle<CR>
         " If undotree is opened, it is likely one wants to interact with it.
         let g:undotree_SetFocusWhenToggle=1
         noremap <D-z> u
