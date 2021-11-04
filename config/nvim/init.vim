@@ -239,8 +239,6 @@ hi clear SpellBad
 hi SpellBad cterm=underline
 " Set style for gVim
 hi SpellBad gui=underline
-<<<<<<< HEAD
-" hi MatchParen cterm=undercurl ctermbg=none ctermfg=magenta
 =======
 " hi MatchParen cterm=undercurl ctermbg=none ctermfg=magenta 
 "
