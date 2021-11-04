@@ -91,9 +91,9 @@ if has('nvim')
 " Plug 'SirVer/ultisnips'  a;sldfkjsfls jfkj
 " Plug 'tpope/vim-fugitive'
 Plug 'eugen0329/vim-esearch'
-" Plug 'haya14busa/incsearch.vim'
-" Plug 'haya14busa/incsearch-fuzzy.vim'
-" Plug 'Raimondi/vim_search_objects'
+Plug 'haya14busa/incsearch.vim'
+Plug 'haya14busa/incsearch-fuzzy.vim'
+Plug 'Raimondi/vim_search_objects'
 " Plug 'terryma/vim-multiple-cursors'
 " " On-demand loading
 " Plug 'junegunn/goyo.vim'
@@ -159,9 +159,9 @@ set expandtab        "replace <TAB> with spaces
 set softtabstop=3 
 set shiftwidth=3 
 set termguicolors  
-" set guicursor=n-v-c:block,i-ci-ve:ver25,r-cr:hor20,o:hor50
-" 		  \,a:blinkwait700-blinkoff400-blinkon250-Cursor/lCursor
-" 		  \,sm:block-blinkwait175-blinkoff150-blinkon175
+set guicursor=n-v-c:block,i-ci-ve:ver25,r-cr:hor20,o:hor50
+ 		  \,a:blinkwait700-blinkoff400-blinkon250-Cursor/lCursor
+ 		  \,sm:block-blinkwait175-blinkoff150-blinkon175
 set spelllang=en   
  if exists('g:started_by_firenvim')
        au UIEnter  set noshowmode
@@ -1509,4 +1509,4 @@ let g:firenvim_config = {
 "           \}
 
 " autocmd TermClose * if v:event == 12 || v:event == 0 bdelete endif
-inoremap <cr> <cr> <backspace>     
+inoremap <cr> <cr> <backspace>
