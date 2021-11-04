@@ -727,7 +727,7 @@ endfunction
 function! ToggleQuickFix()
     if empty(filter(getwininfo(), 'v:val.quickfix'))
         TZAtaraxisOff
-        cf ./build/%.log 
+        cf ./build/%[:-4].log 
         copen
     else
         cclose 
