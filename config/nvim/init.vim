@@ -729,7 +729,7 @@ function! ToggleQuickFix()
         TZAtaraxisOff 
         let filename=bufname("%")
         let errors="./build/" . filename[:-4]."log"
-        cf errors 
+        exec "cf" errors 
         copen
     else
         cclose 
