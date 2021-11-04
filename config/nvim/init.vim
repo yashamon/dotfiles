@@ -10,10 +10,11 @@ Plug 'phaazon/hop.nvim'
 " Plug 'https://gitlab.com/yorickpeterse/nvim-dd.git',  { 'branch': 'main' }
 " Plug 'luukvbaal/stabilize.nvim' 
 Plug 'glacambre/firenvim', { 'do': { _ -> firenvim#install(0) } }
+" Plug 'is0n/fm-nvim'
 Plug 'williamboman/nvim-lsp-installer', { 'branch': 'main' }
-Plug 'nvim-lua/plenary.nvim'
-Plug 'nvim-telescope/telescope.nvim',
-Plug 'nvim-treesitter/playground'
+" Plug 'nvim-lua/plenary.nvim'
+" Plug 'nvim-telescope/telescope.nvim',
+" Plug 'nvim-treesitter/playground'
 Plug 'famiu/feline.nvim'
 " Plug 'hoob3rt/lualine.nvim',
 " Plug 'karb94/neoscroll.nvim'
@@ -93,15 +94,15 @@ if has('nvim')
 Plug 'eugen0329/vim-esearch'
 " Plug 'haya14busa/incsearch.vim'
 " Plug 'haya14busa/incsearch-fuzzy.vim'
-Plug 'Raimondi/vim_search_objects'
-Plug 'terryma/vim-multiple-cursors'
+" Plug 'Raimondi/vim_search_objects'
+" Plug 'terryma/vim-multiple-cursors'
 " " On-demand loading
 " Plug 'junegunn/goyo.vim'
 " " Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
 "  Plug 'morhetz/gruvbox'
 Plug 'sainnhe/gruvbox-material'
-Plug 'vim-pandoc/vim-pandoc'
-Plug 'vim-pandoc/vim-pandoc-syntax' 
+" Plug 'vim-pandoc/vim-pandoc'
+" Plug 'vim-pandoc/vim-pandoc-syntax' 
 " Plugin outside ~/.vim/plugged with post-update hook
 Plug 'junegunn/fzf', { 'do': './install --all' }
 Plug 'junegunn/fzf.vim'
@@ -110,7 +111,7 @@ Plug 'mbbill/undotree', { 'on': 'UndotreeToggle' }
 Plug 'lifepillar/vim-solarized8'
 Plug 'vim-scripts/AutoTag'
 " Plug 'vim-scripts/vim-auto-save'
-Plug 'vim-pandoc/vim-pandoc'
+" Plug 'vim-pandoc/vim-pandoc'
 
 " Plug 'yashamon/vim-snippets'
 
