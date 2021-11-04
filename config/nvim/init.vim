@@ -582,7 +582,7 @@ noremap S <Esc> :wa<cr>:BLines<CR>
 noremap <leader>ss :wa<cr>:source $MYVIMRC<cr> 
 noremap <c-e> viwy 
 noremap <c-p> :<c-r>+<cr>
-noremap <m-l> viwy:bdelete<cr>:execute "buffer" g:buf<cr>:<c-r>+<cr>:TZAtaraxisOn<cr><cr>
+noremap <m-l> viwy:bdelete<cr>:execute "buffer" g:buf<cr>:<c-r>+<cr>:TZAtaraxis<cr><cr>
 " noremap <m-l> viwy<esc>:bp<cr>:<c-r>+<cr>
 noremap <m-b> <Esc>:wa<cr>:Buffers<CR>
 " noremap F <Esc>:GFiles<CR>
@@ -617,9 +617,8 @@ function! Sentence()
   " echo "Print any character"
   " call getchar()
   BLines
-  AsyncStop
 endfunction
-noremap L :wa<cr>:call Sentence()<cr>
+noremap L :wa<cr>:TZAtaraxisOff<cr>:call Sentence()<cr>
 " noremap L :TZAtaraxisOff<cr><cr>:call Sentence()<cr>
 function! Git() 
   AsyncRun if git rev-parse --is-inside-work-tree || git rev-parse --git-dir > /dev/null 2>&1 ; then git add % ; git commit -m -a ; git push --all origin; fi  
