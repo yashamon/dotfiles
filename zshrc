@@ -14,7 +14,7 @@ export LANG=en_US.UTF-8
 export XDG_CONFIG_HOME=$HOME/.config
 # export MANPATH="/usr/local/man:$MANPATH"
 # You may need to manually set your language environment
-export LANG=en_US.UTF-8 
+export LANG=en_US.UTF-8  
 export PATH="$HOME/appimage:/home/linuxbrew/.linuxbrew/bin:/usr/local/bin:/usr/sbin:/sbin:/bin:$HOME/.local/bin:/root/.cabal/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:~/.cabal/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:~/.local/bin:~/.local:$HOME/.cargo/bin:/snap/bin:/data/data/com.termux/files/usr/bin/applets:/data/data/com.termux/files/usr/bin:bin:/usr/local/sbin:$HOME/.zinit/plugins:/usr/bin:$HOME/.local/share/nvim/lspinstall:$HOME/skia-binaries:$HOME/ninja"
 
 
@@ -30,11 +30,9 @@ bindkey -rpM viins '\e'
 
 eval "$(fasd --init auto)"
 #
-# export PATH="$HOME/.linuxbrew/bin:$PATH"
-# export MANPATH="$HOME/.linuxbrew/share/man:$MANPATH"
-# export INFOPATH="$HOME/.linuxbrew/share/info:$INFOPATH"
+
 # alias nvim="/snap/bin/nvim"   
-alias uapp="~/appimage/AppImageUpdate"
+# alias uapp="~/appimage/AppImageUpdate"
 alias wifi="sudo wifi-menu -o"
 alias tmux d="tmux detach" 
 alias svi="/snap/bin/nvim"
@@ -190,8 +188,6 @@ single () {
 # # HIST_STAMPS="mm/dd/yyyy"
 #
 # # Would you like to use another custom folder than $ZSH/custom?
-# # ZSH_CUSTOM=/path/to/new-custom-folder
-#
 # # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # # Example format: plugins=(rails git textmate ruby lighthouse)
@@ -217,9 +213,7 @@ single () {
 #
 # # User configuration
 #
-# export PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games"
 # plugins=(git autojump vi-mode command-not-found github history-substring-search)
-# # export MANPATH="/usr/local/man:$MANPATH"
 #
 # # You may need to manually set your language environment
 # # export LANG=en_US.UTF-8
@@ -433,7 +427,6 @@ MODE_CURSOR_VLINE="$MODE_CURSOR_VISUAL #00ffff"
 # The optional three formats: "mm/dd/yyyy"|"dd.mm.yyyy"|"yyyy-mm-dd"
 # HIST_STAMPS="mm/dd/yyyy"
 # Would you like to use another custom folder than $ZSH/custom?
-# ZSH_CUSTOM=/path/to/new-custom-folder
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
@@ -444,7 +437,6 @@ MODE_CURSOR_VLINE="$MODE_CURSOR_VISUAL #00ffff"
 # export ARCHFLAGS="-arch x86_64"
 
 # ssh
-# export SSH_KEY_PATH="~/.ssh/dsa_id"
 
 # Set personal aliases, overriding those provided by oh-my-zsh libs,
 # plugins, and themes. Aliases can be placed here, though oh-my-zsh
@@ -454,7 +446,6 @@ MODE_CURSOR_VLINE="$MODE_CURSOR_VISUAL #00ffff"
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-# Path to your oh-my-zsh installation.
 
 
 

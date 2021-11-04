@@ -2,4 +2,5 @@
 for f in /home/yashasavelyev/appimage/* 
 do
   ~/appimage/AppImageUpdate $f
+  mv $f.appimage $f
 done
