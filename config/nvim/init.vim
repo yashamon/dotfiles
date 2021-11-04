@@ -21,7 +21,6 @@ Plug 'famiu/feline.nvim'
 " Plug 'folke/twilight.nvim', { 'branch': 'main' }
 " Plug 'f3fora/cmp-spell'    
 Plug 'Pocco81/TrueZen.nvim', { 'branch': 'main' }
-Plug 'shaunsingh/nord.nvim'  
 "Plug 'vim-commentary'
 "Plug 'b3nj5m1n/kommentary'
 " Plug 'simnalamburt/vim-mundo'
@@ -1510,4 +1509,4 @@ let g:firenvim_config = {
 "           \}
 
 " autocmd TermClose * if v:event == 12 || v:event == 0 bdelete endif
-inoremap <cr> <cr> <backspace>    
+inoremap <cr> <cr> <backspace>     
