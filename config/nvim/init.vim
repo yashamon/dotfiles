@@ -609,7 +609,7 @@ noremap S <Esc> :wa<cr>:BLines<CR>
 "   normal viwhy<esc>:bdelete<cr>:buffer K<c-r>+<cr>:ZenMode<cr>
 " endfunction
 noremap <leader>ss :wa<cr>:source $MYVIMRC<cr> 
-noremap <c-l> viwy 
+noremap <c-e> viwy 
 noremap <c-p> :<c-r>+<cr>
 noremap <m-l> viwy:bdelete<cr>:execute "buffer" g:buf<cr>:<c-r>+<cr>:TZAtaraxisOn<cr><cr>
 " noremap <m-l> viwy<esc>:bp<cr>:<c-r>+<cr>
