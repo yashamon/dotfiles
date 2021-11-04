@@ -959,7 +959,7 @@ mapping = {
     end, { "i", "s" }),
 ["<S-Tab>"] = cmp.mapping(function()
       if vim.fn.pumvisible() == 1 then
-        feedkey("<C-p>", "n")
+        feedkey("<C-p>", "n")  
       elseif vim.fn["vsnip#jumpable"](-1) == 1 then
         feedkey("<Plug>(vsnip-jump-prev)", "")
       end
@@ -981,7 +981,7 @@ requires = {
 sources = {
       -- For vsnip user. 
 { name = 'tags' , keyword_length = 4 },
-{ name = 'vsnip', keyword_length = 4 },
+-- { name = 'vsnip', keyword_length = 4 },
          -- For luasnip user.
       -- { name = 'luasnip' },
 -- For ultisnips user.
@@ -1510,6 +1510,4 @@ let g:firenvim_config = {
 "           \}
 
 " autocmd TermClose * if v:event == 12 || v:event == 0 bdelete endif
-  
 
-      
