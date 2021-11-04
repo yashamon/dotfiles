@@ -418,7 +418,8 @@ nnoremap <leader>rr :source $MYVIMRC<CR>
 "nnoremap <leader>e :NERDTreeFind<CR>
 nnoremap <leader>e :wa<cr>:Vifm<cr>
 nnoremap <leader>t :wa<cr>:FloatermToggle<cr>
-
+nnoremap <c-,> :cprevious<cr>
+nnoremap <c-.> :cnext<cr> 
 
 vnoremap <m-s> :s///gc<left><left><left><left>
 inoremap <m-s> <esc>:%s///gc<left><left><left><left>
