@@ -776,7 +776,7 @@
 "infinity": {
     "prefix": ["infi"],
     "body": [
-      "\\infinity $0"
+      "\\infty $0"
     ],
     "description": "infinity"
   },
