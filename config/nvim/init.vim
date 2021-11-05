@@ -376,7 +376,6 @@ set fileencoding=utf-8
 tnoremap <A-Esc> <C-\><C-n>
 nmap <A-S-t> :wa<cr>:te<cr>
  
-
 vnoremap <Leader>U ""y:%s/<C-r>"
 noremap <leader>r :wa<cr>:e<cr>
 noremap <leader>h :set tw=50<cr>
@@ -413,7 +412,10 @@ noremap <ScrollWheelRight>   <nop>
 noremap <S-ScrollWheelRight> <nop>
 noremap <C-ScrollWheelRight> <nop>
 inoremap \ /
-inoremap / \
+inoremap / \  
+
+" copy paste stuff 
+" 
 vnoremap p "0dP
 noremap D "0D:wa<cr>
 noremap d "0d
@@ -436,7 +438,6 @@ map 0 g^
 map 9 g$
 nmap <m-8> :set lines=200<cr>:set columns=200<cr>
 
-" map <Leader>n <Plug>(miniyank-cycle)
 nnoremap <c-l> :wa<cr>:bnext<CR>
 nnoremap <c-h> :wa<cr>:bprevious<CR>
 " tnoremap <Esc> <C-\> 
@@ -618,7 +619,7 @@ function! Sentence()
   " call getchar()
   BLines
 endfunction
-noremap L :wa<cr>:TZAtaraxisOff<cr>:call Sentence()<cr>
+noremap L :wa<cr>:TZAtaraxisOff<cr><cr>:call Sentence()<cr>
 " noremap L :TZAtaraxisOff<cr><cr>:call Sentence()<cr>
 function! Git() 
   AsyncRun if git rev-parse --is-inside-work-tree || git rev-parse --git-dir > /dev/null 2>&1 ; then git add % ; git commit -m -a ; git push --all origin; fi  
