@@ -412,7 +412,7 @@ noremap <ScrollWheelRight>   <nop>
 noremap <S-ScrollWheelRight> <nop>
 noremap <C-ScrollWheelRight> <nop>
 inoremap \ /
-inoremap / \  
+inoremap / \
 
 " copy paste stuff 
 " 
@@ -437,7 +437,6 @@ nmap A g$a
 map 0 g^
 map 9 g$
 nmap <m-8> :set lines=200<cr>:set columns=200<cr>
-
 nnoremap <c-l> :wa<cr>:bnext<CR>
 nnoremap <c-h> :wa<cr>:bprevious<CR>
 " tnoremap <Esc> <C-\> 
@@ -451,7 +450,7 @@ map <S-w> <cmd>HopChar1<cr>}
 map <S-b> <cmd>HopChar1<cr>{
 
 map <S-C-q> <Esc>:qa!<CR>
-map <m-q> <esc>:wqa<cr>
+map <m-q> <esc>:wq<cr>
 " map <S-m-q> <esc>:wq<cr> 
 map <m-c> <esc>:close<cr>
 map <M-d> <Esc>:bdelete<CR>
