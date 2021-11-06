@@ -1,4 +1,12 @@
-{
+{ 
+   "Ham": {
+    "prefix": "ham",
+    "body": [
+        "Ham (M$1, \omega) $0" 
+       ],
+    "description": "Gbun"
+    },  
+
 "G-bundle": {
     "prefix": "Gbun",
     "body": [
