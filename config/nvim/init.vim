@@ -580,7 +580,7 @@ noremap S <Esc> :wa<cr>:BLines<CR>
 "   normal viwhy<esc>:bdelete<cr>:buffer K<c-r>+<cr>:ZenMode<cr>
 " endfunction
 noremap <leader>ss :wa<cr>:source $MYVIMRC<cr> 
-noremap <c-e> viwy 
+noremap <c-e> viwy:cclose<cr>:<c-r>+<cr>:TZAtaraxis<cr><cr>
 noremap <c-p> :<c-r>+<cr>
 noremap <m-l> viwy:bdelete<cr>:execute "buffer" g:buf<cr>:<c-r>+<cr>:TZAtaraxis<cr><cr>
 " noremap <m-l> viwy<esc>:bp<cr>:<c-r>+<cr>
@@ -645,7 +645,8 @@ endfunction
 au filetype tex nnoremap <silent> <leader>s :wa<cr>:call ToggleQuickFix()<cr>
 
   
-function! CompileLatex() 
+function! CompileLatex()  
+  silent !rm ./build/*
   let buf = bufname()
   silent te latexmk -pvc -file-line-error -synctex=1 -halt-on-error -interaction=nonstopmode -recorder -f -g %
   execute "buffer" buf
