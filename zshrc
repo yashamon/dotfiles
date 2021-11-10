@@ -83,8 +83,8 @@ alias vis="rm /tmp/nvimsocket ; NVIM_LISTEN_ADDRESS=/tmp/nvimsocket nvim"
 alias suru="su root; a"
 alias rec="recoll -q"
 alias vi="nvim"  
-alias gone="$HOME/.local/bin/gone/goneovim" 
-alias neo="$HOME/.local/bin/gone/goneovim"
+alias gone="$HOME/.local/bin/goneovim" 
+alias neo="$HOME/.local/bin/goneovim"
 alias neov="$HOME/.local/bin/neovide --frameless --maximized --multigrid"
 alias update="git submodule update --init --recursive ; git pull origin master"
 alias chrome="chromium --user-data-dir /root"
@@ -298,7 +298,11 @@ bindkey -M vicmd '<right>' autosuggest-accept
 bindkey -M vicmd 'E' autosuggest-execute
 
 zinit ice from"gh-r" as"program" bpick"*appimage*" ver"nightly" mv"nvim* -> $HOME/appimage/nvim" pick"nvim"
-zinit light neovim/neovim
+zinit light neovim/neovim  
+
+zinit ice from"gh-r" as"program" bpick"*appimage*" ver"continuous" mv"AppImageUpdate* -> $HOME/appimage/update" pick"update"
+zinit light AppImage/AppImageUpdate
+
 #programs
 # zinit ice from"gh-r" as"program"
 # zinit light clvv/fasd

@@ -6,7 +6,7 @@ set runexec
 command! extract extract %a %f %n
 command! extract! extract -f %a %f %n
 command ln ln -s %f:p %D
-command Q :execute '!echo %d > ~/.config/vifm/lastdir' | quit
+map q :execute '!echo %d > ~/.config/vifm/lastdir' | quit<cr> 
 command sacd sacd_extract -2 -s -c -i %f 
 noremap N :! ~/.local/bin/neovide --frameless --multigrid %f<cr>
 command diff nvim -d %f %F
