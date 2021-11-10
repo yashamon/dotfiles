@@ -105,5 +105,5 @@ pip3 install neovim-remote
 pip3 install setuptools
 pip3 install --upgrade pynvim 
 
-mkdir $HOME/.local
-ln -s $HOME/dotfiles/nvr.sh ~/.local/bin/nvr.sh
+mkdir 
+
