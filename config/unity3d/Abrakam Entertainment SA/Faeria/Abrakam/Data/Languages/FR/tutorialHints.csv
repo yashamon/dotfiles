@@ -1,0 +1,46 @@
+TUTORIAL_ADVENTURE_POUCH_AVAILABLE_GOT_IT;Un nouveau voyage commence...\nLe Baluchon de l'Aventurier a été révélé, il est temps pour vous de découvrir ce qui se prépare dans Faeria !\nQ-Qu'est-ce que c'est que ce médaillon ?
+TUTORIAL_BATTLE_CASUAL_MODE_HINT;Si vous souhaitez vous détendre en affrontant d'autres joueurs, choisissez le mode casual.
+TUTORIAL_BATTLE_CHOOSE_MODE_GOT_IT;Avant de jouer une partie, vous avez toujours la possibilité de choisir entre l'entraînement, le mode casual, ou le mode classé.
+TUTORIAL_BATTLE_PRACTICE_MODE_HINT;Si vous souhaitez vous entrainer contre une IA, sélectionnez le mode Entrainement
+TUTORIAL_BATTLE_RANKED_MODE_HINT;Si vous souhaitez prouver votre valeur, choisissez le mode classé.
+TUTORIAL_CRAFTING_HIT_CRAFT_MODE_BUTTON;Vous avez débloqué la possibilité de fabriquer de nouvelles cartes !
+TUTORIAL_DECK_EDITION_NEW_CARD_RECEIVED_GOT_IT;Vous avez reçu une nouvelle carte, voyons comment l'ajouter dans votre deck.
+TUTORIAL_FIRST_FORMULA_DECK_CREATED;Voici votre premier deck, vous êtes maintenant prêt à jouer.
+TUTORIAL_FIRST_FORMULA_HIT_BLUEPRINT_SELECT_BUTTON;Ceci est une Formule, utilisez-la pour créer un deck en quelques secondes.
+TUTORIAL_FIRST_FORMULA_HIT_PLAY_BUTTON;Essayons votre nouveau deck en jeu.
+TUTORIAL_FIRST_FORMULA_HOME_UNLOCKED_GOT_IT;Félicitations, vous avez débloqué l'interface principale de Faeria ! Commençons par créer votre premier deck.
+TUTORIAL_FIRST_FORMULA_SOLO_GOT_IT;Bienvenue dans les missions ! Terminez les pour monter de niveau et gagner plus de cartes.
+TUTORIAL_SECOND_FORMULA_CREATE_DECK;Créez quand même le deck, vous ajouterez ensuite 2 cartes de votre choix.
+TUTORIAL_SECOND_FORMULA_FINISH_DECK_GOT_IT;Si vous ne possédez pas toutes les cartes d'une Formule, aucun problème ! Vous pourrez toujours compléter le deck avec les cartes de votre choix.
+TUTORIAL_SECOND_FORMULA_NEW_FORMULA_RECEIVED_GOT_IT;Vous avez reçu une nouvelle Formule. Utilisons-la.
+TUTORIAL_SECOND_FORMULA_NOT_COMPLETED_FORMULA_HINT;Vous avez 28 cartes sur 30 pour cette Formule.
+TUTORIAL_SHOP_MYTHIC_CHEST_HINT;Les coffres mythiques contiennent des cartes en version mythique et d'autres objets cosmétiques.
+TUTORIAL_PANDORA_PRACTICE_COIN_HINT;Pariez 2 coffres de combat et jouez avec un deck nouvellement construit. Remportez jusqu'à 6 victoires pour recevoir des coffres de combat et des cartes en récompense.
+TUTORIAL_PANDORA_FULL_COIN_HINT;Pariez des cristaux à la place pour recevoir des cartes mythiques et encore plus de cristaux.
+MOUSE_TUTORIAL_PANDORA_REWARD_GOT_IT;Collectez des Points de Pandore afin de recevoir des récompenses à la fin de chaque saison. Cliquez pour jeter un coup d'œil aux récompenses ! <u><link=https://esports.faeria.com/pandora-season>https://esports.faeria.com/pandora-season</link></u>
+DAILY_REWARDS_TUTORIAL_GOT_IT;Ceci était votre première récompense journalière. Connectez vous chaque jour pour gagner des récompenses croissantes. Ne vous inquiétez pas, vous conserverez votre progression même si vous sautez un jour.
+LOYALTY_PATCH_PUZZLES_GOT_IT;Voici quelques Puzzles pour débuter la chute de l'Arbre d'Éternité !
+TUTORIAL_WORLD_MAP_GOT_IT;Bienvenue dans le monde de Faeria ! Ici, vous pourrez faire face aux ennemis les plus impressionants et finir par débloquer l'Orbe des Champions.
+TUTORIAL_PANDORA_FIRST_GAME_GOT_IT;Des Éclats de Pandore ont été mélangés à chaque deck. Dès que 5 Éclats sont trouvés, Pandore s'ouvre.
+TUTORIAL_PANDORA_AWAKENS_GOT_IT;Pandora s'éveille : les Trésors sont enfouis dans les decks. Vous gagnez trois faeria de plus chaque tour.
+TUTORIAL_CRAFTING_CRAFT_CHARGES_GOT_IT;Les charges d'artisanat sont utilisées pour forger de nouvelles cartes. Vous pouvez cumuler jusqu'à {0} charges qui se régénèrent avec le temps.
+TUTORIAL_CRAFTING_CRAFT_GOT_IT;Pour l'instant vous ne pouvez forger que des cartes communes, mais aux niveaux supérieurs, vous pourrez également en forger des rares et épiques !
+TUTORIAL_SHOP_DEAL_OF_THE_DAY_HINT;Vous pouvez aussi acheter des objets directement dans la boutique. La sélection change tous les jours.
+TUTORIAL_SHOP_GOT_IT;Ici , vous pouvez acheter des objets cosmétiques et obtenir de jolies bordures brillantes pour vos cartes. Vous pourrez ensuite personaliser vos options dans votre page de profil.
+TUTORIAL_LORE_BOOK_GOT_IT;Vous avez débloqué le Livre d'Histoires !
+TUTORIAL_DRAGONS_LAIR_IS_HERE_GOT_IT;Passez le seuil de l'Antre du Dragon ! Si vous vous en croyez capable...
+TUTORIAL_DRAGONS_LAIR_IS_DAILY_GOT_IT;De nouveaux dragons pénètrent dans l'Antre tous les jours. Battez les tous suffisamment de fois pour gagner leurs sets cosmétiques.
+TUTORIAL_DRAGONS_LAIR_GOT_IT;L'Antre du Dragon est maintenant disponible !\nBattez vous contre de puissants dragons, seul ou accompagné de vos amis dans ce défi quotidien.
+TUTORIAL_DECK_COSMETIC_SET_POPUP_GOT_IT;Sélectionnez les cosmétiques que vous voulez pour ce deck et appuyez ensuite sur Appliquer pour confirmer les changements.
+TUTORIAL_DECK_COSMETIC_SET_EDIT_DECK_GOT_IT;Vous pouvez désormais attribuer des cosmétiques spécifiques à chaque deck !
+GAMEPAD_TUTORIAL_PANDORA_REWARD_GOT_IT;Collectez des Points de Pandore pour recevoir des récompenses à la fin de chaque saison. Cliquez pour jeter un coup d'œil aux récompenses !<u><link=https://esports.faeria.com/pandora-season>https://esports.faeria.com/pandora-season</link></u>
+GAMEPAD_TUTORIAL_LORE_BOOK_ZOOM_ON_LORE_ITEM;Appuyez sur {GAMEPAD_ACTION_CONFIRM} pour débloquer et lire les pages d'histoire.
+MOUSE_TUTORIAL_LORE_BOOK_ZOOM_ON_LORE_ITEM;Cliquez sur des pages d'histoire débloquées pour les lire.
+GAMEPAD_TUTORIAL_DECK_EDITION_REMOVE_ANY_CARD_FROM_DECK;Appuyez sur {GAMEPAD_ACTION_CONFIRM} sur n'importe quelle carte pour la supprimer de votre deck.
+MOUSE_TUTORIAL_DECK_EDITION_REMOVE_ANY_CARD_FROM_DECK;Cliquez sur n'importe quelle carte pour la supprimer de votre deck.
+GAMEPAD_TUTORIAL_DECK_EDITION_CLICK_SAVE;Sélectionnez Sauvegarder et c'est fini.
+MOUSE_TUTORIAL_DECK_EDITION_CLICK_SAVE;Cliquez sur Sauvegarder et c'est fini.
+GAMEPAD_TUTORIAL_DECK_EDITION_ADD_ANY_CARD_TO_DECK;Maintenant, sélectionnez cette carte pour l'ajouter à votre deck.
+MOUSE_TUTORIAL_DECK_EDITION_ADD_ANY_CARD_TO_DECK;Maintenant, cliquez sur cette carte pour l'ajouter à votre deck.
+GAMEPAD_TUTORIAL_ADVENTURE_POUCH_MEDALLION_GOT_IT;Appuyez sur {GAMEPAD_ACTION_CONFIRM} pour rejoindre l'aventure
+MOUSE_TUTORIAL_ADVENTURE_POUCH_MEDALLION_GOT_IT;Cliquez pour rejoindre l'aventure

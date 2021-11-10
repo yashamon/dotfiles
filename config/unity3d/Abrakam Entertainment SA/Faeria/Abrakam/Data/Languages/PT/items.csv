@@ -1,0 +1,511 @@
+AVATAR_ADVENTURER_NAME;Fugoro
+AVATAR_AURORA_NAME;Aurora
+AVATAR_BASIC_NAME;Explorador
+AVATAR_BLUE_ELEMENTAL_1_NAME;Espírito Lazúli
+AVATAR_BLUE_ELEMENTAL_2_NAME;Presença Lazúli
+AVATAR_BLUE_ELEMENTAL_3_NAME;Gênio Lazúli
+AVATAR_BOMB_SLINGER_NAME;Bom-R
+AVATAR_CAP_10_NAME;CAP-10
+AVATAR_DARK_WISP_NAME;Centelha Sombria
+AVATAR_FUGORO_NAME;Fugoro
+AVATAR_GREEN_ELEMENTAL_1_NAME;Espírito Verdejante
+AVATAR_GREEN_ELEMENTAL_2_NAME;Presença Verdejante
+AVATAR_GREEN_ELEMENTAL_3_NAME;Gênio Verdejante
+AVATAR_HOAKA_NAME;Hoaka
+AVATAR_JALMYR_NAME;Jalmyr
+AVATAR_KAIOS_NAME;Kaios
+AVATAR_KELDRAN_EMISSARY_NAME;Emissário dos Ventos
+AVATAR_KHALIM_NAME;Khalim
+AVATAR_KINGS_GUARD_NAME;Balhar
+AVATAR_KOBOLD_MERCENARY_NAME;Líder Subterrâneo
+AVATAR_KROG_NAME;Krog
+AVATAR_MAGDA_NAME;Magda
+AVATAR_OGRE_BATTLER_NAME;Lutador Ogro
+AVATAR_RAIZEON_NAME;Raizeon
+AVATAR_RAPALA_NAME;Rapala
+AVATAR_RED_ELEMENTAL_1_NAME;Espírito Rubro
+AVATAR_RED_ELEMENTAL_2_NAME;Presença Rubra
+AVATAR_RED_ELEMENTAL_3_NAME;Gênio Carmesim
+AVATAR_RUUNIN_NAME;Ruunin
+AVATAR_SAGAMI_ELDER_NAME;Ancião Sagami
+AVATAR_SEIFER_NAME;Seifer
+AVATAR_SHARRA_NAME;Sharra
+AVATAR_SHAYTAN_ASSASSIN_NAME;Assassino de Shaytan
+AVATAR_TAESA_NAME;Encantriz Gabriana
+AVATAR_TARANGA_NAME;Taranga
+AVATAR_TARUM_NAME;Tarum
+AVATAR_THE_EGG_NAME;O Ovo
+AVATAR_ULANI_NAME;Ulani
+AVATAR_VERDURAN_FORCE_NAME;Força Verdurana
+AVATAR_YAKKAR_NAME;Yakkar
+AVATAR_YAK_CYNICAL_NAME;O Iaque Cínico
+AVATAR_YAK_DRAGON_NAME;Fafnir
+AVATAR_YAK_FANCY_NAME;Sir Yakkinton
+AVATAR_YAK_FARMER_NAME;Campo de Palha
+AVATAR_YAK_FAT_NAME;Fofines
+AVATAR_YAK_FORCER_NAME;Oficial Iaque
+AVATAR_YAK_HIPPIE_NAME;Flor da Paz
+AVATAR_YAK_KING_NAME;Rei Yaknus
+AVATAR_YAK_PIRATE_NAME;Iaque Sparrow
+AVATAR_YELLOW_ELEMENTAL_1_NAME;Espírito Desolador
+AVATAR_YELLOW_ELEMENTAL_2_NAME;Presença Desoladora
+AVATAR_YELLOW_ELEMENTAL_3_NAME;Gênio Desértico
+CARD_BACK_1605_GOLD_NAME;Verso de Carta Ouro da Temporada 1
+CARD_BACK_1605_SILVER_NAME;Verso de Carta Prata da Temporada 1
+CARD_BACK_1606_GOLD_NAME;Verso de Carta Ouro da Temporada 2
+CARD_BACK_1606_SILVER_NAME;Verso de Carta Prata da Temporada 2
+CARD_BACK_1607_GOLD_NAME;Verso de Carta Ouro da Temporada 3
+CARD_BACK_1607_SILVER_NAME;Verso de Carta Prata da Temporada 3
+CARD_BACK_1608_GOLD_NAME;Verso de Carta Ouro da Temporada 4
+CARD_BACK_1608_SILVER_NAME;Verso de Carta Prata da Temporada 4
+CARD_BACK_1609_GOLD_NAME;Verso de Carta Ouro da Temporada 5
+CARD_BACK_1609_SILVER_NAME;Verso de Carta Prata da Temporada 5
+CARD_BACK_1610_GOLD_NAME;Verso de Carta Ouro da Temporada 6
+CARD_BACK_1610_SILVER_NAME;Verso de Carta Prata da Temporada 6
+CARD_BACK_1611_GOLD_NAME;Verso de Carta Ouro da Temporada 7
+CARD_BACK_1611_SILVER_NAME;Verso de Carta Prata da Temporada 7
+CARD_BACK_1612_GOLD_NAME;Verso de Carta Ouro da Temporada 8
+CARD_BACK_1612_SILVER_NAME;Verso de Carta Prata da Temporada 8
+CARD_BACK_1701_GOLD_NAME;Verso de Carta Ouro da Temporada 9
+CARD_BACK_1701_SILVER_NAME;Verso de Carta Prata da Temporada 9
+CARD_BACK_1702_GOLD_NAME;Verso de Carta Ouro da Temporada 10
+CARD_BACK_1702_SILVER_NAME;Verso de Carta Prata da Temporada 10
+CARD_BACK_1703_GOLD_NAME;Verso de Carta Ouro da Temporada 11
+CARD_BACK_1703_SILVER_NAME;Verso de Carta Prata da Temporada 11
+CARD_BACK_1704_GOLD_NAME;Verso de Carta Ouro da Temporada 12
+CARD_BACK_1704_SILVER_NAME;Verso de Carta Prata da Temporada 12
+CARD_BACK_1705_GOLD_NAME;Verso de Carta Ouro da Temporada 13
+CARD_BACK_1705_SILVER_NAME;Verso de Carta Prata da Temporada 13
+CARD_BACK_1706_GOLD_NAME;Verso de Carta Ouro da Temporada 14
+CARD_BACK_1706_SILVER_NAME;Verso de Carta Prata da Temporada 14
+CARD_BACK_1707_GOLD_NAME;Verso de Carta Ouro da Temporada 15
+CARD_BACK_1707_SILVER_NAME;Verso de Carta Prata da Temporada 15
+CARD_BACK_1708_GOLD_NAME;Verso de Carta Ouro da Temporada 16
+CARD_BACK_1708_SILVER_NAME;Verso de Carta Prata da Temporada 16
+CARD_BACK_1709_GOLD_NAME;Verso de Carta Ouro da Temporada 17
+CARD_BACK_1709_SILVER_NAME;Verso de Carta Prata da Temporada 17
+CARD_BACK_1710_GOLD_NAME;Verso de Carta Ouro da Temporada 18
+CARD_BACK_1710_SILVER_NAME;Verso de Carta Prata da Temporada 18
+CARD_BACK_1711_GOLD_NAME;Verso de Carta Ouro da Temporada 19
+CARD_BACK_1711_SILVER_NAME;Verso de Carta Prata da Temporada 19
+CARD_BACK_1712_GOLD_NAME;Verso de Carta Ouro da Temporada 20
+CARD_BACK_1712_SILVER_NAME;Verso de Carta Prata da Temporada 20
+CARD_BACK_1801_GOLD_NAME;Verso de Carta Ouro da Temporada 21
+CARD_BACK_1801_SILVER_NAME;Verso de Carta Prata da Temporada 21
+CARD_BACK_1802_GOLD_NAME;Verso de Carta Ouro da Temporada 22
+CARD_BACK_1802_SILVER_NAME;Verso de Carta Prata da Temporada 22
+CARD_BACK_1803_GOLD_NAME;Verso de Carta Ouro da Temporada 23
+CARD_BACK_1803_SILVER_NAME;Verso de Carta Prata da Temporada 23
+CARD_BACK_1804_GOLD_NAME;Verso de Carta Ouro da Temporada 24
+CARD_BACK_1804_SILVER_NAME;Verso de Carta Prata da Temporada 24
+CARD_BACK_1805_GOLD_NAME;Verso de Carta Ouro da Temporada 25
+CARD_BACK_1805_SILVER_NAME;Verso de Carta Prata da Temporada 25
+CARD_BACK_ADVENTURER_NAME;Verso de Carta do Fugoro
+CARD_BACK_ADVENTURE_POUCH_NAME;Verso de Carta do Aventureiro
+CARD_BACK_AURORA_NAME;Verso de Carta da Aurora
+CARD_BACK_BASIC_COPPER_NAME;Verso de Carta Diamante Roxo
+CARD_BACK_BASIC_DIAMOND_NAME;Verso de Carta Diamante Prata
+CARD_BACK_BASIC_NAME;Verso de Carta Básico
+CARD_BACK_BOMB_SLINGER_NAME;Verso de Carta de Bom-R
+CARD_BACK_DRAGON_NAME;Verso de Carta Dragão Negro
+CARD_BACK_FAERIA_WORLD_CIRCUIT_NAME;Circuito Mundial Faeria
+CARD_BACK_FUGORO_NAME;Verso de Carta do Fugoro
+CARD_BACK_HOAKA_NAME;Verso de Carta da Sharra
+CARD_BACK_JALMYR_NAME;Verso de Carta de Jalmyr
+CARD_BACK_KAIOS_NAME;Verso de Carta do Kaios
+CARD_BACK_KHALIM_NAME;Verso de Carta do Khalim
+CARD_BACK_KROG_NAME;Verso de Carta do Krog
+CARD_BACK_MAGDA_NAME;Verso de Carta da Magda
+CARD_BACK_MOSAIC_FLOWER_NAME;Verso de Carta Mosaico Floral
+CARD_BACK_MOSAIC_SOLAR_NAME;Verso de Carta Mosaico Solar
+CARD_BACK_MUCHA_NAME;Verso de Carta Art Nouveau
+CARD_BACK_PANDORA_1610_GOLD_NAME;Verso de Carta Ouro da Pandora da Temporada 6
+CARD_BACK_PANDORA_1610_SILVER_NAME;Verso de Carta Prata da Pandora da Temporada 7
+CARD_BACK_PANDORA_1611_GOLD_NAME;Verso de Carta Ouro da Pandora da Temporada 7
+CARD_BACK_PANDORA_1611_SILVER_NAME;Verso de Carta Prata da Pandora da Temporada 7
+CARD_BACK_PANDORA_1612_GOLD_NAME;Verso de Carta Ouro da Pandora da Temporada 8
+CARD_BACK_PANDORA_1612_SILVER_NAME;Verso de Carta Prata da Pandora da Temporada 8
+CARD_BACK_PANDORA_1701_GOLD_NAME;Verso de Carta Ouro da Pandora da Temporada 9
+CARD_BACK_PANDORA_1701_SILVER_NAME;Verso de Carta Prata da Pandora da Temporada 9
+CARD_BACK_PANDORA_1702_GOLD_NAME;Verso de Carta Pandora Ouro da Temporada 10
+CARD_BACK_PANDORA_1702_SILVER_NAME;Verso de Carta Pandora Prata da Temporada 10
+CARD_BACK_PANDORA_1703_GOLD_NAME;Verso de Carta Pandora Ouro da Temporada 11
+CARD_BACK_PANDORA_1703_SILVER_NAME;Verso de Carta Pandora Prata da Temporada 11
+CARD_BACK_PANDORA_1704_GOLD_NAME;Verso de Carta Pandora Ouro da Temporada 12
+CARD_BACK_PANDORA_1704_SILVER_NAME;Verso de Carta Pandora Prata da Temporada 12
+CARD_BACK_PANDORA_1705_GOLD_NAME;Verso de Carta Pandora Ouro da Temporada 13
+CARD_BACK_PANDORA_1705_SILVER_NAME;Verso de Carta Pandora Prata da Temporada 13
+CARD_BACK_PANDORA_1706_GOLD_NAME;Verso de Carta Pandora Ouro da Temporada 14
+CARD_BACK_PANDORA_1706_SILVER_NAME;Verso de Carta Pandora Prata da Temporada 14
+CARD_BACK_PANDORA_1707_GOLD_NAME;Verso de Carta Pandora Ouro da Temporada 15
+CARD_BACK_PANDORA_1707_SILVER_NAME;Verso de Carta Pandora Prata da Temporada 15
+CARD_BACK_PANDORA_1708_GOLD_NAME;Verso de Carta Pandora Ouro da Temporada 16
+CARD_BACK_PANDORA_1708_SILVER_NAME;Verso de Carta Pandora Prata da Temporada 16
+CARD_BACK_PANDORA_1709_GOLD_NAME;Verso de Carta Pandora Ouro da Temporada 17
+CARD_BACK_PANDORA_1709_SILVER_NAME;Verso de Carta Pandora Ouro da Temporada 17
+CARD_BACK_PANDORA_1710_GOLD_NAME;Verso de Carta Ouro da Pandora da Temporada 18
+CARD_BACK_PANDORA_1710_SILVER_NAME;Verso de Carta Prata da Pandora da Temporada 18
+CARD_BACK_PANDORA_1711_GOLD_NAME;Verso de Carta Ouro da Pandora da Temporada 19
+CARD_BACK_PANDORA_1711_SILVER_NAME;Verso de Carta Prata da Pandora da Temporada 19
+CARD_BACK_PANDORA_1712_GOLD_NAME;Verso de Carta Ouro da Pandora da Temporada 20
+CARD_BACK_PANDORA_1712_SILVER_NAME;Verso de Carta Prata da Pandora da Temporada 20
+CARD_BACK_PANDORA_1801_GOLD_NAME;Verso de Carta Ouro da Pandora da Temporada 21
+CARD_BACK_PANDORA_1801_SILVER_NAME;Verso de Carta Prata da Pandora da Temporada 21
+CARD_BACK_PANDORA_1802_GOLD_NAME;Verso de Carta Ouro da Pandora da Temporada 22
+CARD_BACK_PANDORA_1802_SILVER_NAME;Verso de Carta Prata da Pandora da Temporada 22
+CARD_BACK_PANDORA_1803_GOLD_NAME;Verso de Carta Ouro da Pandora da Temporada 23
+CARD_BACK_PANDORA_1803_SILVER_NAME;Verso de Carta Prata da Pandora da Temporada 23
+CARD_BACK_PANDORA_1804_GOLD_NAME;Verso de Carta Ouro da Pandora da Temporada 24
+CARD_BACK_PANDORA_1804_SILVER_NAME;Verso de Carta Prata da Pandora da Temporada 24
+CARD_BACK_PANDORA_1805_GOLD_NAME;Verso de Carta Ouro da Pandora da Temporada 25
+CARD_BACK_PANDORA_1805_SILVER_NAME;Verso de Carta Prata da Pandora da Temporada 25
+CARD_BACK_PREMIUM_NAME;Verso de Carta Premium
+CARD_BACK_RAPALA_NAME;Verso de Carta do Rapala
+CARD_BACK_RUUNIN_NAME;Verso de Carta da Ruunin
+CARD_BACK_SEIFER_NAME;Verso de Carta do Seifer
+CARD_BACK_SHARRA_NAME;Verso de Carta da Sharra
+CARD_BACK_TARUM_NAME;Verso de Carta do Tarum
+EMOTE_ADVENTURER_GREETINGS_NAME;Que o melhor sapo vença.
+EMOTE_ADVENTURER_OOPS_NAME;Oops.
+EMOTE_ADVENTURER_TAUNT_NAME;Talvez você devesse comprar mais cartas.
+EMOTE_ADVENTURER_UNIQUE_NAME;Você já comprou a minha aventura do Céu-Acima?
+EMOTE_ADVENTURER_WELL_PLAYED_NAME;Brilhante.
+EMOTE_ADVENTURER_WOW_NAME;Pelo amor dos sapos!
+EMOTE_AURORA_GREETINGS_NAME;Tão bom ver você.
+EMOTE_AURORA_OOPS_NAME;É errando que se aprende.
+EMOTE_AURORA_TAUNT_NAME;Você é adorável!
+EMOTE_AURORA_UNIQUE_NAME;Sem respeito pelos mais velhos...
+EMOTE_AURORA_WELL_PLAYED_NAME;Você ganhou o meu respeito.
+EMOTE_AURORA_WOW_NAME;Parece que ainda não vi de tudo.
+EMOTE_BASIC_GREETINGS_NAME;Saudações.
+EMOTE_BASIC_OOPS_NAME;Isso foi um erro.
+EMOTE_BASIC_TAUNT_NAME;Você não vai sobreviver.
+EMOTE_BASIC_WELL_PLAYED_NAME;Bem jogado.
+EMOTE_BASIC_WOW_NAME;Incrível!
+EMOTE_BOMB_SLINGER_GREETINGS_NAME;Sequência de saudações iniciada!
+EMOTE_BOMB_SLINGER_OOPS_NAME;ERRO. ERRO.
+EMOTE_BOMB_SLINGER_TAUNT_NAME;Exterminar!
+EMOTE_BOMB_SLINGER_UNIQUE_NAME;Instalando atualizações...
+EMOTE_BOMB_SLINGER_WELL_PLAYED_NAME;Bem jogado = Verdadeiro!
+EMOTE_BOMB_SLINGER_WOW_NAME;Nível de diversão maximizado!
+EMOTE_FUGORO_GREETINGS_NAME;Saudações, amigo.
+EMOTE_FUGORO_OOPS_NAME;Dinheiro não pode comprar sabedoria.
+EMOTE_FUGORO_TAUNT_NAME;Você gostaria da sua derrota embrulhada para presente?
+EMOTE_FUGORO_UNIQUE_NAME;Compre mais baús, valorize o seu mercador local!
+EMOTE_FUGORO_WELL_PLAYED_NAME;Bem jogado. Você é o meu cliente favorito.
+EMOTE_FUGORO_WOW_NAME;Incrível! Eu deveria ter cobrado entrada!
+EMOTE_HOAKA_GREETINGS_NAME;Bem-vindo! Bem-vindo!
+EMOTE_HOAKA_OOPS_NAME;Não deveria ter feito aquilo.
+EMOTE_HOAKA_TAUNT_NAME;Você já perdeu. Você só não sabe disso.
+EMOTE_HOAKA_UNIQUE_NAME;Eu sou tão esperto que fico até surpreso!
+EMOTE_HOAKA_WELL_PLAYED_NAME;Você é um desafiante refrescante!
+EMOTE_HOAKA_WOW_NAME;Esplêndido!
+EMOTE_JALMYR_GREETINGS_NAME;Saudações.
+EMOTE_JALMYR_OOPS_NAME;Hmm. Um erro não-trivial.
+EMOTE_JALMYR_TAUNT_NAME;Talvez você devesse jogar mais enigmas.
+EMOTE_JALMYR_UNIQUE_NAME;Não tenha pressa.
+EMOTE_JALMYR_WELL_PLAYED_NAME;Você aprendeu bem.
+EMOTE_JALMYR_WOW_NAME;Magnífico.
+EMOTE_KAIOS_GREETINGS_NAME;Bem-vindo ao meu reino.
+EMOTE_KAIOS_OOPS_NAME;Tolo.
+EMOTE_KAIOS_TAUNT_NAME;Curve-se a mim.
+EMOTE_KAIOS_UNIQUE_NAME;Junte-se a mim. Este é o seu destino.
+EMOTE_KAIOS_WELL_PLAYED_NAME;Você superou minhas expectativas.
+EMOTE_KAIOS_WOW_NAME;Surpreendente!
+EMOTE_KHALIM_GREETINGS_NAME;Prazer em te conhecer.
+EMOTE_KHALIM_OOPS_NAME;Imperdoável.
+EMOTE_KHALIM_TAUNT_NAME;Suas habilidades não estão completas.
+EMOTE_KHALIM_UNIQUE_NAME;Eu odeio areia. Ela entra em todo lugar.
+EMOTE_KHALIM_WELL_PLAYED_NAME;Bem jogado. Você é perigoso.
+EMOTE_KHALIM_WOW_NAME;Pelos ventos ferozes!
+EMOTE_KROG_GREETINGS_NAME;Vamos ser amigos!
+EMOTE_KROG_OOPS_NAME;Até os reis fazem caquinha.
+EMOTE_KROG_TAUNT_NAME;Vou fazer um iaque de você!
+EMOTE_KROG_UNIQUE_NAME;Você foi Krogado!
+EMOTE_KROG_WELL_PLAYED_NAME;Seu biscoitinho esperto!
+EMOTE_KROG_WOW_NAME;*risada louca*
+EMOTE_MAGDA_GREETINGS_NAME;Saudações.
+EMOTE_MAGDA_OOPS_NAME;Um pequeno erro.
+EMOTE_MAGDA_TAUNT_NAME;Você só me diverte.
+EMOTE_MAGDA_UNIQUE_NAME;É tudo parte do meu plano.
+EMOTE_MAGDA_WELL_PLAYED_NAME;Bem jogado. Eu subestimei você.
+EMOTE_MAGDA_WOW_NAME;Estou sem palavras.
+EMOTE_RAPALA_GREETINGS_NAME;Boa sorte, se divirta!
+EMOTE_RAPALA_OOPS_NAME;Parece mal, cara.
+EMOTE_RAPALA_TAUNT_NAME;Por quê está tão sério?
+EMOTE_RAPALA_UNIQUE_NAME;Vamos colocar um sorriso naquele rosto!
+EMOTE_RAPALA_WELL_PLAYED_NAME;GG, bem jogado.
+EMOTE_RAPALA_WOW_NAME;Isso vai para o YouTube!
+EMOTE_RUUNIN_GREETINGS_NAME;Saudações.
+EMOTE_RUUNIN_OOPS_NAME;*rosnados*
+EMOTE_RUUNIN_TAUNT_NAME;A natureza nunca morre.
+EMOTE_RUUNIN_UNIQUE_NAME;O que me *mata* só me faz mais forte.
+EMOTE_RUUNIN_WELL_PLAYED_NAME;Você é um bom caçador.
+EMOTE_RUUNIN_WOW_NAME;Pelas minhas presas temíveis!
+EMOTE_SEIFER_GREETINGS_NAME;Ah. Saudações.
+EMOTE_SEIFER_OOPS_NAME;Um pequeno contra-tempo.
+EMOTE_SEIFER_TAUNT_NAME;Eu vou ENTERRAR você!
+EMOTE_SEIFER_UNIQUE_NAME;Só pode haver um!
+EMOTE_SEIFER_WELL_PLAYED_NAME;Muito bem! Você é mais inteligente do que cheira.
+EMOTE_SEIFER_WOW_NAME;Glorioso!
+EMOTE_SHARRA_GREETINGS_NAME;Saudações.
+EMOTE_SHARRA_OOPS_NAME;Um deslize. Não espere outro.
+EMOTE_SHARRA_TAUNT_NAME;Morra com honra.
+EMOTE_SHARRA_UNIQUE_NAME;Flua como um rio. Ataque como o vento.
+EMOTE_SHARRA_WELL_PLAYED_NAME;Você é um adversário digno.
+EMOTE_SHARRA_WOW_NAME;Santo Iaque!
+EMOTE_TARUM_GREETINGS_NAME;A terra o sauda.
+EMOTE_TARUM_OOPS_NAME;Até eu cometo erros.
+EMOTE_TARUM_TAUNT_NAME;Você será um bom fertilizante.
+EMOTE_TARUM_UNIQUE_NAME;Você é muito pequeno.
+EMOTE_TARUM_WELL_PLAYED_NAME;Bem jogado, pequenino.
+EMOTE_TARUM_WOW_NAME;Pela mãe antiga...
+ORB_ADVENTURER_NAME;Orbe do Fugoro
+ORB_ARCANE_NAME;Orbe do Arcano
+ORB_AURORA_NAME;Orbe da Aurora
+ORB_BASIC_NAME;Orbe Básico
+ORB_BOMB_SLINGER_NAME;Orbe de Bom-R
+ORB_CHAMPION_1_NAME;Orbe dos Campeões
+ORB_CHAMPION_2_NAME;Orbe dos Campeões
+ORB_CHAMPION_3_NAME;Orbe dos Campeões
+ORB_CHAMPION_4_NAME;Orbe dos Campeões
+ORB_DRAGON_NAME;Orbe do Dragão Dourado
+ORB_FUGORO_NAME;Orbe do Fugoro
+ORB_GAEA_NAME;Orbe de Gaia
+ORB_GIANTS_NAME;Orbe dos Gigantes
+ORB_HOAKA_NAME;Orbe do Hoaka
+ORB_JALMYR_NAME;Orbe do Jalmyr
+ORB_KAIOS_NAME;Orbe do Kaios
+ORB_KHALIM_NAME;Orbe do Khalim
+ORB_KROG_NAME;Orbe do Krog
+ORB_LOYALTY_NAME;Orbe da Lealdade
+ORB_MAGDA_NAME;Orbe da Magda
+ORB_PACK_NAME;Orbe Kickstarter
+ORB_POWER_NAME;Pedra Arcana
+ORB_RAPALA_NAME;Orbe do Rapala
+ORB_RUUNIN_NAME;Orbe da Ruunin
+ORB_SEIFER_NAME;Orbe do Seifer
+ORB_SHARRA_NAME;Orbe da Sharra
+ORB_TARUM_NAME;Orbe do Tarum
+ORB_VALOR_NAME;Orbe de Valor
+SHORE_AMAI_NAME;Enseada de Amai
+SHORE_FOREST_NAME;Enseada da Floresta
+SHORE_GABRIA_NAME;Enseada de Gabria
+SHORE_MENETHYR_NAME;Enseada de Menethyr
+SHORE_OVERSKY_CORRUPT_NAME;Enseada da Ruína de Céu-Acima
+SHORE_OVERSKY_DAY_NAME;Enseada Diurna do Céu-Acima
+SHORE_OVERSKY_NIGHT_NAME;Enseada Noturna do Céu-Acima
+SHORE_PANDORA_NAME;Enseada da Pandora
+SHORE_SYLAND_NAME;Enseada de Syland
+SHORE_VOID_NAME;Enseada do Vazio
+WELL_ADVENTURER_NAME;Poços do Fugoro
+WELL_ARCANE_NAME;Poços do Arcano
+WELL_AURORA_NAME;Poços da Aurora
+WELL_BASIC_NAME;Poços Básicos
+WELL_BOMB_SLINGER_NAME;Poços de Bom-R
+WELL_CARNIVOROUS_PLANT_NAME;Poços das Plantas Carnívoras
+WELL_FUGORO_NAME;Poços do Fugoro
+WELL_GABRIA_NAME;Poços Gabrianos
+WELL_HOAKA_NAME;Poços do Hoaka
+WELL_JALMYR_NAME;Poços do Jalmyr
+WELL_KAIOS_NAME;Poços do Kaios
+WELL_KHALIM_NAME;Poços do Khalim
+WELL_KROG_NAME;Poços do Krog
+WELL_MAGDA_NAME;Poços da Magda
+WELL_RAPALA_NAME;Poços do Rapala
+WELL_RUUNIN_NAME;Poços da Ruunin
+WELL_SEIFER_NAME;Poços do Seifer
+WELL_SHARRA_NAME;Poços da Sharra
+WELL_TARUM_NAME;Poços do Tarum
+AVATAR_AURORA_DARK_NAME;Aurora dos Pesadelos
+AVATAR_AURORA_HIPPIE_NAME;Aurora Miçangueira
+AVATAR_EXPLORER_BLUE_NAME;Viajante
+AVATAR_EXPLORER_PINK_NAME;Peregrino
+AVATAR_FUGORO_RAINBOW_NAME;Fugoro Cromático
+AVATAR_KAIOS_CORRUPTED_NAME;Kaios Ensandecido
+AVATAR_KELDRAN_EMISSARY_BLUE_NAME;Mensageiro dos Ventos
+AVATAR_KHALIM_BLACK_NAME;Khalim o Sábio
+AVATAR_KHALIM_SUNGLASSES_NAME;Khalim Cavaleiro da Tormenta
+AVATAR_KINGS_GUARD_SILVER_NAME;Balhar Prateado
+AVATAR_KOBOLD_MERCENARY_GOLD_NAME;Avarento do Subterrâneo
+AVATAR_KROG_BIKER_NAME;O Notório K.R.O.G.
+AVATAR_KROG_SUIT_NAME;Dom Krog
+AVATAR_MAGDA_SECRETARY_NAME;Magda Bibliotecária
+AVATAR_OGRE_BATTLER_BLUE_NAME;Lutador Índigo
+AVATAR_RAIZEON_ALTERED_NAME;Raizeon Prismático
+AVATAR_RUUNIN_BLACK_NAME;Ruunin Corredora Noturna
+AVATAR_SEIFER_SUNGLASSES_NAME;Seifer Rato Bacana
+AVATAR_SHARRA_HAT_NAME;Sharra Casual
+AVATAR_SHARRA_PINK_NAME;Sharra Elegante
+AVATAR_SHAYTAN_ASSASSIN_BLUE_NAME;Assassino Lazúli
+AVATAR_TARUM_EVIL_NAME;Tarum Ira da Natureza
+AVATAR_VERDURAN_FORCE_GREY_NAME;Verduran Force do Outono
+AVATAR_WISP_RAINBOW_NAME;Centelha Arco-Íris
+AVATAR_WISP_WHITE_NAME;Centelha Brilhante
+AVATAR_YAK_SHEPHERD_NAME;Pastoreira
+CARD_BACK_FALL_OF_EVERLIFE_NAME;Verso de Carta Corrompido
+CARD_BACK_MOSAIC_FLOWER_GREEN_NAME;Mosaico Flor Azul
+CARD_BACK_MOSAIC_FLOWER_RED_NAME;Mosaico Flor Vermelha
+CARD_BACK_MOSAIC_SOLAR_BLUE_NAME;Mosaico Sol Esverdeado
+CARD_BACK_MOSAIC_SOLAR_MAGENTA_NAME;Mosaico Sol Magenta
+CARD_BACK_MUCHA_GREEN_NAME;Art Nouveau Verde
+CARD_BACK_MUCHA_MAGENTA_NAME;Art Nouveau Magenta
+ORB_ARCANE_GOLD_NAME;Orbe Arcano Ouro
+ORB_ARCANE_PURPLE_NAME;Orbe Arcano Roxo
+ORB_ARCANE_RED_NAME;Orbe Arcano Vermelho
+ORB_CRYSTAL_STONE_GOLD_NAME;Orbe de Cristal Ouro
+ORB_CRYSTAL_STONE_NAME;Orbe de Cristal Azul
+ORB_CRYSTAL_STONE_PURPLE_NAME;Orbe de Cristal Roxo
+ORB_DRAGON_SILVER_NAME;Orbe de Dragão Prata
+ORB_FALL_OF_EVERLIFE_NAME;Orbe Corrompido
+ORB_HAND_ARCANE_NAME;Mão Arcana
+ORB_HAND_GRASP_NAME;Empunhar da Terra
+ORB_SPIDEREGG_GREEN_NAME;Covil Aracnídeo
+ORB_SPIDEREGG_ORANGE_NAME;Ninho Aracnídeo
+ORB_SPIDEREGG_RAINBOW_NAME;Toca Aracnídea
+ORB_STAR_CRYSTAL_NAME;Orbe Celestial
+ORB_STAR_CRYSTAL_ORANGE_NAME;Orbe Celestial Laranja
+ORB_STAR_CRYSTAL_PURPLE_NAME;Orbe Celestial Roxa
+ORB_TRIBAL_NAME;Orbe Tiki
+ORB_VALOR_GREEN_NAME;Orbe de Valor Verde
+ORB_VALOR_MAGENTA_NAME;Orbe de Valor Roxo
+ORB_VALOR_SILVER_NAME;Orbe de Valor Prata
+WELL_ARCANE_GOLD_NAME;Poços Arcanos Ouro
+WELL_ARCANE_PURPLE_NAME;Poços Arcanos Púrpura
+WELL_ARCANE_RED_NAME;Poços Arcanos Vermelhos
+WELL_FALL_OF_EVERLIFE_NAME;Poços Corrompidos
+WELL_FLOATING_STONES_NAME;Poços de Pedras Flutuantes
+WELL_ROOTS_NAME;Poços de Videiras
+WELL_RUNIC_BLUE_NAME;Poços do Fado
+WELL_RUNIC_GREEN_NAME;Poços do Destino
+WELL_RUNIC_RED_NAME;Poços da Fortuna
+WELL_RUNIC_YELLOW_NAME;Poços da Sorte
+CARD_BACK_1806_GOLD_NAME;Verso de Carta Ouro da Temporada 26
+CARD_BACK_1806_SILVER_NAME;Verso de Carta Prata da Temporada 26
+CARD_BACK_PANDORA_1806_GOLD_NAME;Verso de Carta Ouro da Pandora da Temporada 26
+CARD_BACK_PANDORA_1806_SILVER_NAME;Verso de Carta Prata da Pandora da Temporada 26
+CARD_BACK_1807_GOLD_NAME;Verso de Carta Ouro da Temporada 27
+CARD_BACK_1807_SILVER_NAME;Verso de Carta Prata da Temporada 27
+CARD_BACK_PANDORA_1807_GOLD_NAME;Verso de Carta Ouro da Pandora da Temporada 27
+CARD_BACK_PANDORA_1807_SILVER_NAME;Verso de Carta Prata da Pandora da Temporada 27
+CARD_BACK_PANDORA_1808_SILVER_NAME;Verso de Carta Prata da Pandora da Temporada 28
+CARD_BACK_PANDORA_1808_GOLD_NAME;Verso de Carta Ouro da Pandora da Temporada 28
+CARD_BACK_1808_SILVER_NAME;Verso de Carta Prata da Temporada 28
+CARD_BACK_1808_GOLD_NAME;Verso de Carta Ouro da Temporada 28
+CARD_BACK_PANDORA_1809_SILVER_NAME;Verso de Carta Prata da Pandora da Temporada 29
+CARD_BACK_PANDORA_1809_GOLD_NAME;Verso de Carta Ouro da Pandora da Temporada 29
+CARD_BACK_1809_SILVER_NAME;Verso de Carta Prata da Temporada 29
+CARD_BACK_1809_GOLD_NAME;Verso de Carta Ouro da Temporada 29
+WELL_RESURGENCE_NAME;Poços do Ressurgimento
+SHORE_RESURGENCE_NAME;Enseada do Ressurgimento
+ORB_RESURGENCE_NAME;Orbe do Ressurgimento
+CARD_BACK_RESURGENCE_NAME;Verso de Carta do Ressurgimento
+CARD_BACK_MOSAIC_YAK_NAME;Verso de Carta Mosaico Iaque
+AVATAR_BANON_NAME;Banon
+CARD_BACK_ELEMENTS_NAME;Verso de Carta Elementos
+CARD_BACK_PANDORA_1810_SILVER_NAME;Verso de Carta Prata da Pandora da Temporada 30
+CARD_BACK_PANDORA_1810_GOLD_NAME;Verso de Carta Ouro da Pandora da Temporada 30
+CARD_BACK_1810_SILVER_NAME;Verso de Carta Prata da Temporada 30
+CARD_BACK_1810_GOLD_NAME;Verso de Carta Ouro da Temporada 30
+AVATAR_YAK_UNICORN_NAME;Iaquecórneo
+AVATAR_YAK_TEDDY_NAME;Teddy
+AVATAR_YAK_METALHEAD_NAME;Iaque Metaleiro
+AVATAR_YAK_MC_NAME;Iaque MC
+AVATAR_YAK_LIZARD_NAME;Iaque Brucho
+AVATAR_YAK_INDIAN_CHIEF_NAME;Poquiahontas
+AVATAR_YAK_DEVIL_NAME;Iaque Malvado
+AVATAR_YAK_BF_YC_NAME;Yakuza
+WELL_TETHRA_NAME;Poços da Tethra
+WELL_OROSEI_NAME;Poços da Orosei
+WELL_GARUDAN_NAME;Poços do Garudan
+WELL_CELESTE_NAME;Poços da Celeste
+WELL_AZARAI_NAME;Poços do Azarai
+SHORE_DRAGON_NAME;Enseada do Covil do Dragão
+ORB_TETHRA_NAME;Orbe da Tethra
+ORB_OROSEI_NAME;Orbe da Orosei
+ORB_GARUDAN_NAME;Orbe do Garudan
+ORB_CELESTE_NAME;Orbe da Celeste
+ORB_AZARAI_NAME;Orbe do Azarai
+CARD_BACK_TETHRA_NAME;Verso de Carta da Tethra
+CARD_BACK_OROSEI_NAME;Verso de Carta da Orosei
+CARD_BACK_GARUDAN_NAME;Verso de Carta do Garudan
+CARD_BACK_CELESTE_NAME;Verso de Carta da Celeste
+CARD_BACK_AZARAI_NAME;Verso de Carta do Azarai
+AVATAR_TETHRA_NAME;Tethra
+AVATAR_OROSEI_NAME;Orosei
+AVATAR_GARUDAN_NAME;Garudan
+AVATAR_CELESTE_NAME;Celeste
+AVATAR_AZARAI_NAME;Azarai
+CARD_BACK_PANDORA_1811_SILVER_NAME;Verso de Carta Prata da Pandora da Temporada 31
+CARD_BACK_PANDORA_1811_GOLD_NAME;Verso de Carta Ouro da Pandora da Temporada 31
+CARD_BACK_1811_SILVER_NAME;Verso de Carta Prata da Temporada 31
+CARD_BACK_1811_GOLD_NAME;Verso de Carta Ouro da Temporada 31
+CARD_BACK_PANDORA_1901_SILVER_NAME;Verso de Carta Prata da Pandora da Temporada 33
+CARD_BACK_PANDORA_1901_GOLD_NAME;Verso de Carta Ouro da Pandora da Temporada 33
+CARD_BACK_PANDORA_1812_SILVER_NAME;Verso de Carta Prata da Pandora da Temporada 32
+CARD_BACK_PANDORA_1812_GOLD_NAME;Verso de Carta Ouro da Pandora da Temporada 32
+CARD_BACK_1901_SILVER_NAME;Verso de Carta Prata da Temporada 33
+CARD_BACK_1901_GOLD_NAME;Verso de Carta Ouro da Temporada 33
+CARD_BACK_1812_SILVER_NAME;Verso de Carta Prata da Temporada 32
+CARD_BACK_1812_GOLD_NAME;Verso de Carta Ouro da Temporada 32
+CARD_BACK_PANDORA_1902_SILVER_NAME;Verso de Carta Prata da Pandora da Temporada 34
+CARD_BACK_PANDORA_1902_GOLD_NAME;Verso de Carta Ouro da Pandora da Temporada 34
+CARD_BACK_1902_SILVER_NAME;Verso de Carta Prata da Temporada 34
+CARD_BACK_1902_GOLD_NAME;Verso de Carta Ouro da Temporada 34
+CARD_BACK_PANDORA_1903_SILVER_NAME;Verso de Carta Prata da Pandora da Temporada 35
+CARD_BACK_PANDORA_1903_GOLD_NAME;Verso de Carta Ouro da Pandora da Temporada 35
+CARD_BACK_1903_SILVER_NAME;Verso de Carta Prata da Temporada 35
+CARD_BACK_1903_GOLD_NAME;Verso de Carta Ouro da Temporada 35
+WELL_GAGANA_NAME;Poços do Gagana
+SHORE_MECHA_NAME;Poços Mecha
+ORB_GAGANA_NAME;Orbe do Gagana
+CARD_BACK_GAGANA_NAME;Verso de Carta do Gagana
+AVATAR_SOROCCO_NAME;Sorocco
+CARD_BACK_PANDORA_1904_SILVER_NAME;Verso de Carta Prata da Pandora da Temporada 36
+CARD_BACK_PANDORA_1904_GOLD_NAME;Verso de Carta Ouro da Pandora da Temporada 36
+CARD_BACK_1904_SILVER_NAME;Verso de Carta Prata da Temporada 36
+CARD_BACK_1904_GOLD_NAME;Verso de Carta Ouro da Temporada 36
+CARD_BACK_PANDORA_1905_SILVER_NAME;Verso de Carta Prata da Pandora da Temporada 37
+CARD_BACK_PANDORA_1905_GOLD_NAME;Verso de Carta Ouro da Pandora da Temporada 37
+CARD_BACK_1905_SILVER_NAME;Verso de Carta Prata da Temporada 37
+CARD_BACK_1905_GOLD_NAME;Verso de Carta Ouro da Temporada 37
+CARD_BACK_PANDORA_1906_SILVER_NAME;Verso de Carta Prata da Pandora da Temporada 38
+CARD_BACK_PANDORA_1906_GOLD_NAME;Verso de Carta Ouro da Pandora da Temporada 38
+CARD_BACK_1906_SILVER_NAME;Verso de Carta Prata da Temporada 38
+CARD_BACK_1906_GOLD_NAME;Verso de Carta Ouro da Temporada 38
+CARD_BACK_PANDORA_1907_SILVER_NAME;Verso de Carta Prata da Pandora da Temporada 39
+CARD_BACK_PANDORA_1907_GOLD_NAME;Verso de Carta Ouro da Pandora da Temporada 39
+CARD_BACK_1907_SILVER_NAME;Verso de Carta Prata da Temporada 39
+CARD_BACK_1907_GOLD_NAME;Verso de Carta Ouro da Temporada 39
+CARD_BACK_PANDORA_1908_SILVER_NAME;Verso de Carta Prata da Pandora da Temporada 40
+CARD_BACK_PANDORA_1908_GOLD_NAME;Verso de Carta Ouro da Pandora da Temporada 40
+CARD_BACK_1908_SILVER_NAME;Verso de Carta Prata da Temporada 40
+CARD_BACK_1908_GOLD_NAME;Verso de Carta Ouro da Temporada 40
+CARD_BACK_PANDORA_1909_SILVER_NAME;Verso de Carta Prata da Pandora da Temporada 41
+CARD_BACK_PANDORA_1909_GOLD_NAME;Verso de Carta Ouro da Pandora da Temporada 41
+CARD_BACK_1909_SILVER_NAME;Verso de Carta Prata da Temporada 41
+CARD_BACK_1909_GOLD_NAME;Verso de Carta Ouro da Temporada 41
+WELL_SEASONAL_CUP_SEIFER_NAME;Poços da Copa Sazonal de Seifer
+WELL_SEASONAL_CUP_RUUNIN_NAME;Poços da Copa Sazonal de Ruunin
+WELL_SEASONAL_CUP_KHALIM_NAME;Poços da Copa Sazonal de Khalim
+WELL_SEASONAL_CUP_AURORA_NAME;Poços da Copa Sazonal de Aurora
+ORB_SEASONAL_CUP_SEIFER_NAME;Orbe da Copa Sazonal de Seifer
+ORB_SEASONAL_CUP_RUUNIN_NAME;Orbe da Copa Sazonal de Ruunin
+ORB_SEASONAL_CUP_KHALIM_NAME;Orbe da Copa Sazonal de Khalim
+ORB_SEASONAL_CUP_AURORA_NAME;Orbe da Copa Sazonal de Aurora
+CARD_BACK_SEASONAL_CUP_SEIFER_NAME;Verso de Carta da Copa Sazonal de Seifer
+CARD_BACK_SEASONAL_CUP_RUUNIN_NAME;Verso de Carta da Copa Sazonal de Ruunin
+CARD_BACK_SEASONAL_CUP_KHALIM_NAME;Verso de Carta da Copa Sazonal de Khalim
+CARD_BACK_SEASONAL_CUP_AURORA_NAME;Verso de Carta da Copa Sazonal de Aurora
+CARD_BACK_PANDORA_1912_SILVER_NAME;Verso de Carta Prata da Pandora da Temporada 44
+CARD_BACK_PANDORA_1912_GOLD_NAME;Verso de Carta Ouro da Pandora da Temporada 44
+CARD_BACK_PANDORA_1911_SILVER_NAME;Verso de Carta Prata da Pandora da Temporada 43
+CARD_BACK_PANDORA_1911_GOLD_NAME;Verso de Carta Ouro da Pandora da Temporada 43
+CARD_BACK_PANDORA_1910_SILVER_NAME;Verso de Carta Prata da Pandora da Temporada 42
+CARD_BACK_PANDORA_1910_GOLD_NAME;Verso de Carta Ouro da Pandora da Temporada 42
+CARD_BACK_1912_SILVER_NAME;Verso de Carta Prata da Temporada 44
+CARD_BACK_1912_GOLD_NAME;Verso de Carta Ouro da Temporada 44
+CARD_BACK_1911_SILVER_NAME;Verso de Carta Prata da Temporada 43
+CARD_BACK_1911_GOLD_NAME;Verso de Carta Ouro da Temporada 43
+CARD_BACK_1910_SILVER_NAME;Verso de Carta Prata da Temporada 42
+CARD_BACK_1910_GOLD_NAME;Verso de Carta Ouro da Temporada 42

@@ -1,0 +1,519 @@
+1;HUMAN;Farm Boy;creature;;1;;;;;;1;1;100001;COMMON
+2;HUMAN;Hilltop Archer;creature;;4;;;;;;2;2;101000;COMMON
+3;HUMAN;Syland Warrior;creature;;5;;;;;;3;6;101000;COMMON
+4;HUMAN;Syland Horsemaster;creature;;3;3;;;;;3;2;101000;COMMON
+9;HUMAN;Imperial Engineer;creature;;3;;;;;;2;3;101000;EPIC
+10;HUMAN;Hold the Line!;event;;1;;;;;;;;101000;COMMON
+11;HUMAN;Walking Fortress;creature;;9;;;;;;7;10;100003;COMMON
+12;HUMAN;Steam Forge;structure;;1;;;;;;;3;101000;COMMON
+13;HUMAN;Tax Collector;creature;;3;;;;;;1;4;101000;COMMON
+14;HUMAN;Healing Song;event;;3;;;;;;;;101000;COMMON
+15;HUMAN;Safeguard;event;;3;;;;;;;;101000;COMMON
+16;HUMAN;Imperial Guard;creature;;3;;;;;;2;3;100003;COMMON
+22;HUMAN;Freedom Fighter;creature;;5;;;;;;3;3;101000;COMMON
+23;HUMAN;Campfire;event;;1;;;;;;;;100004;COMMON
+24;HUMAN;Falcon Dive;event;;1;;;;;;;;100004;COMMON
+29;HUMAN;Master Swordsman;creature;;3;;;;;;2;3;101000;RARE
+30;HUMAN;Prairie Yak;creature;yak;3;;;;;;2;4;100001;COMMON
+32;HUMAN;Yak Attack;event;;9;;;;;;;;101000;EPIC
+33;HUMAN;Punishment;event;;3;;;;;;;;101000;COMMON
+34;HUMAN;Queen's Favorite;creature;;4;;;;;;2;3;101000;COMMON
+35;HUMAN;Queen's Guard;creature;;6;;;;;;3;6;101000;RARE
+36;HUMAN;Magda, Queen of Meroval;creature;;4;4;;;;;0;3;101000;LEGENDARY
+37;HUMAN;Court Jester;creature;;3;;;;;;0;2;101000;RARE
+38;HUMAN;King's Guard;creature;;6;;;;;;3;6;101000;RARE
+39;HUMAN;Unlikely Hero;creature;;2;;;;;;1;2;101000;EPIC
+40;HUMAN;Magnus, King of Meroval;creature;;10;;;;;;4;8;101000;LEGENDARY
+41;HUMAN;Plague Bearer;creature;;3;;;;;;2;1;101000;RARE
+42;HUMAN;Siege Engine;creature;;7;;;;;;2;6;101000;EPIC
+43;HUMAN;Sharra, Dragonslayer;creature;;7;;;;;;6;3;101000;LEGENDARY
+44;HUMAN;Famine;event;;2;;;;;;;;101000;RARE
+45;HUMAN;Royal Judge;creature;;5;;;;;;1;1;101000;EPIC
+46;HUMAN;Cartographer;creature;;3;;;;;;1;1;101000;EPIC
+47;HUMAN;Shimmering Statue;structure;;2;;;;;;;4;101000;COMMON
+48;HUMAN;Village Elder;creature;;2;;;;;;1;1;101000;COMMON
+49;HUMAN;Storyteller;creature;;3;;;;;;2;2;101000;COMMON
+50;HUMAN;Wandering Monk;creature;;4;;;;;;1;5;101000;RARE
+51;HUMAN;Steamforge Enforcer;creature;;6;;;;;;6;5;100003;COMMON
+52;HUMAN;King's Faithful;creature;;5;;;;;;4;1;101000;EPIC
+53;HUMAN;Day of the Dragons;event;;12;;;;;;;;101000;LEGENDARY
+54;HUMAN;Daring Adventurer;creature;;4;;;;;;2;2;101000;EPIC
+55;HUMAN;Maceman;creature;;4;;;;;;4;4;100002;COMMON
+56;HUMAN;Baron Thulgar;creature;;6;;;;;;4;5;101000;LEGENDARY
+57;HUMAN;Wisdom;event;;3;;;;;;;;101000;RARE
+58;HUMAN;War Yak;creature;yak;5;;;;;;4;5;100001;RARE
+59;HUMAN;Defender of the Homeland;creature;;2;;;;;;1;2;101000;COMMON
+60;HUMAN;Queen's Assassin;creature;;3;;;;;;1;1;100004;COMMON
+61;HUMAN;Hunted Outlaw;creature;;3;;;;;;4;5;101000;EPIC
+62;HUMAN;Fortune Hunter;creature;;3;;;;;;1;1;101000;EPIC
+63;HUMAN;Outland Ranger;creature;;3;;;;;;3;2;101000;RARE
+64;HUMAN;Imperial Drain;structure;;1;;;;;;;2;101000;EPIC
+65;HUMAN;Rainforest Explorer;creature;;4;;;;;;3;3;101000;RARE
+66;HUMAN;Caldera Explorer;creature;;4;;;;;;3;3;101000;RARE
+67;HUMAN;Oasis Explorer;creature;;4;;;;;;3;3;101000;RARE
+68;HUMAN;Taiga Explorer;creature;;4;;;;;;3;3;101000;RARE
+69;HUMAN;Savannah Explorer;creature;;4;;;;;;3;3;101000;RARE
+70;HUMAN;Sandstone Explorer;creature;;4;;;;;;3;3;101000;RARE
+71;BLUE;Ruby Fish;creature;;1;;1;;;;1;1;100009;COMMON
+72;BLUE;Lore Thief;creature;;3;;2;;;;1;1;100010;COMMON
+73;BLUE;Gabrian Cistern;structure;;4;;2;;;;;3;101000;EPIC
+74;BLUE;Tyranax;creature;beast;5;;1;;;;4;6;100009;COMMON
+75;BLUE;Gabrian Enchantress;creature;;4;;2;;;;2;5;101000;RARE
+76;BLUE;Gabrian Commander;creature;;3;;2;;;;4;2;101000;COMMON
+77;BLUE;Gabrian Warden;creature;;7;;2;;;;4;6;100010;COMMON
+82;BLUE;Spring Mochi;creature;;3;;2;;;;2;2;101000;RARE
+83;BLUE;Triton Warrior;creature;triton;4;;2;;;;4;4;100011;COMMON
+84;BLUE;Mystic Beast;creature;beast;3;1;2;;;;2;5;100010;RARE
+85;BLUE;Mirror Phantasm;creature;;7;;2;;;;5;5;101000;EPIC
+86;BLUE;Triton Chef;creature;triton;2;;1;;;;2;2;101000;EPIC
+87;BLUE;Ninja Toad;creature;triton;4;;3;;;;3;2;101000;RARE
+88;BLUE;Frogify;event;;4;;4;;;;;;100011;RARE
+93;BLUE;Gabrian Enchantment;event;;2;;2;;;;;;101000;COMMON
+94;BLUE;Aurora's Creation;event;;5;;3;;;;;;101000;EPIC
+95;BLUE;Dark Stalker;creature;;3;;1;;;;3;2;100012;COMMON
+96;BLUE;Spellwhirl;event;;0;;2;;;;;;100012;RARE
+97;BLUE;Gabrian Noble;creature;;6;;3;;;;5;5;101000;RARE
+102;BLUE;Aurora's Disciple;creature;;3;;2;;;;2;2;101000;COMMON
+103;BLUE;Sturdy Shell;creature;;2;;1;;;;0;5;101000;COMMON
+104;BLUE;Baeru, the First Wave;creature;;8;;3;;;;8;10;101000;LEGENDARY
+105;BLUE;Stormspawn;creature;;10;;2;;;;3;3;101000;COMMON
+106;BLUE;Tale of the Old Turtle;event;;6;;2;;;;;;101000;EPIC
+107;BLUE;Wavecrash Colossus;creature;;8;;2;;;;7;7;101000;RARE
+108;BLUE;Orosei, Dream of the Deep;creature;;10;;2;;;;6;6;101000;LEGENDARY
+109;BLUE;Water Elemental;creature;;4;;1;;;;3;3;100009;COMMON
+110;BLUE;Gemsilk Faerie;creature;;2;;2;;;;1;1;101000;EPIC
+111;BLUE;Sunken Tower;structure;;2;;2;;;;;3;101000;RARE
+112;BLUE;Azure Wisp;creature;;4;;2;;;;3;3;101000;RARE
+113;BLUE;Triton Sanctuary;structure;;2;;1;;;;;1;101000;RARE
+114;BLUE;Aurora's Dream;event;;24;;5;;;;;;101000;LEGENDARY
+115;BLUE;Snowstorm Lancer;creature;triton;5;;2;;;;3;5;101000;COMMON
+116;BLUE;Luduan;creature;;3;;1;;;;1;3;101000;EPIC
+117;BLUE;Egg of Wonders;structure;;5;;3;;;;;3;101000;EPIC
+118;BLUE;Gabrian Archon;creature;;4;;2;;;;4;4;101000;COMMON
+119;BLUE;Triton Diver;creature;triton;3;;1;;;;2;2;100011;COMMON
+120;BLUE;Shifting Tide;event;;1;;1;;;;;;101000;COMMON
+121;BLUE;Prophet of Tides;creature;;3;;2;;;;4;2;101000;COMMON
+122;BLUE;Humbling Vision;event;;3;;2;;;;;;100012;COMMON
+123;BLUE;Ancient Herald;creature;;6;;1;;;;5;6;101000;COMMON
+124;BLUE;Triton Banquet;event;;3;;1;;;;;;101000;RARE
+125;BLUE;Aurora, Myth Maker;creature;;4;;3;;;;1;1;101000;LEGENDARY
+126;BLUE;Wavecrafter;creature;;6;;3;;;;6;6;101000;EPIC
+127;BLUE;Failed Experiment;event;;1;;1;;;;;;101000;EPIC
+128;BLUE;Aurora's Trick;event;;4;;5;;;;;;101000;EPIC
+129;BLUE;Battle Toads;event;;4;;2;;;;;;101000;RARE
+130;BLUE;Windfall;event;;10;;2;;;;;;101000;COMMON
+131;GREEN;Sagami Warrior;creature;;3;;;1;;;3;4;101000;COMMON
+132;GREEN;Bone Collector;creature;;2;;;1;;;0;3;101000;COMMON
+133;GREEN;Soulbound Sagami;creature;;6;;;2;;;3;5;100008;COMMON
+134;GREEN;Sagami Grovecaller;creature;;4;;;3;;;2;4;101000;RARE
+135;GREEN;Ancient Beastmaster;creature;;4;;;2;;;3;4;101000;COMMON
+136;GREEN;Gaea's Grace;event;;2;;;2;;;;;101000;RARE
+137;GREEN;Tiki Chieftain;creature;;2;;;2;;;2;2;100006;COMMON
+138;GREEN;Bloomsprite;creature;;2;;;2;;;1;1;100005;COMMON
+139;GREEN;Elderwood Hermit;creature;;3;;;1;;;1;1;101000;COMMON
+140;GREEN;Tiki Caretaker;creature;;3;;;2;;;1;1;100006;COMMON
+141;GREEN;Tiki Piper;creature;;3;;;1;;;1;1;101000;COMMON
+142;GREEN;Shamanic Dance;event;;2;;;2;;;;;101000;COMMON
+143;GREEN;Tiki Totem;structure;;3;;;2;;;;3;101000;RARE
+144;GREEN;Possessed Ursus;creature;beast;4;;;2;;;1;6;101000;EPIC
+149;GREEN;Oakling;creature;;5;;;2;;;1;5;101000;RARE
+150;GREEN;Thyrian Golem;creature;;5;;;5;;;5;10;100007;RARE
+151;GREEN;Seed Sower;creature;;6;;;1;;;4;6;100007;COMMON
+152;GREEN;Vine Wall;structure;;1;;;2;;;;4;101000;COMMON
+153;GREEN;Deepwood Grizzly;creature;beast;5;;;1;;;3;8;100005;COMMON
+154;GREEN;Tiki Healer;creature;;4;;;2;;;2;5;101000;COMMON
+155;GREEN;Ruunin's Shrine;structure;;0;;;2;;;;2;101000;EPIC
+156;GREEN;Oak Father;creature;;7;;;2;;;6;6;101000;COMMON
+157;GREEN;Faeria Tree;structure;;2;;;1;;;;1;101000;EPIC
+158;GREEN;Living Willow;creature;;3;;;2;;;1;7;101000;COMMON
+159;GREEN;Wild Growth;event;;1;;;1;;;;;100007;RARE
+168;GREEN;Primeval Colossus;creature;;16;;;2;;;7;14;101000;RARE
+169;GREEN;Tethra, Soul of the Wild;creature;;10;;;2;;;6;6;101000;LEGENDARY
+170;GREEN;Wood Elemental;creature;;4;;;1;;;2;4;100008;COMMON
+171;GREEN;Flowersilk Faerie;creature;;2;;;2;;;1;1;101000;EPIC
+172;GREEN;Overgrown Tower;structure;;2;;;2;;;;3;101000;RARE
+173;GREEN;Everbloom Wisp;creature;;4;;;2;;;1;2;101000;RARE
+174;GREEN;Spirit of Rebirth;creature;;3;;;2;;;3;3;101000;RARE
+175;GREEN;Elderwood Embrace;event;;3;;;2;;;;;100006;COMMON
+176;GREEN;Ruunin's Messenger;creature;;5;;;1;;;3;5;101000;EPIC
+177;GREEN;Verduran Force;creature;;6;;;2;;;7;7;100005;RARE
+178;GREEN;Grove Guardian;creature;beast;5;;;3;;;5;6;101000;RARE
+179;GREEN;Tarum, the Forest World;creature;;15;;;4;;;7;15;101000;LEGENDARY
+180;GREEN;Weeping Idol;structure;;0;;;1;;;;3;101000;EPIC
+181;GREEN;Earthcraft;event;;2;;;1;;;;;101000;EPIC
+182;GREEN;Wild Avenger;creature;;6;;;2;;;5;5;101000;RARE
+183;GREEN;Ancient Boar;creature;beast;5;2;;1;;;4;5;101000;COMMON
+184;GREEN;Ruunin's Guidance;event;;2;;;2;;;;;101000;EPIC
+185;GREEN;Voice of Hunger;creature;;5;;;2;;;3;5;101000;EPIC
+186;GREEN;Seedling;creature;;2;;;1;;;0;1;100008;COMMON
+187;GREEN;Eredon, Voice of All;creature;;5;;;2;;;3;3;101000;LEGENDARY
+188;GREEN;Feed the Forest;event;;1;;;5;;;;;101000;RARE
+189;GREEN;Ruunin's Presence;event;;4;;;2;;;;;101000;EPIC
+190;GREEN;Ruunin, the Relentless;creature;beast;5;;;3;;;4;4;101000;LEGENDARY
+191;RED;Underground Brigand;creature;;3;;;;2;;2;3;100013;COMMON
+192;RED;Kobold Warlord;creature;;7;;;;1;;5;7;100013;COMMON
+193;RED;Kobold Warbeast;creature;yak;4;;;;2;;5;4;100014;COMMON
+194;RED;Gift of Steel;event;;4;;;;2;;;;100014;COMMON
+195;RED;Underground Boss;creature;;5;;;;2;;3;5;100013;COMMON
+196;RED;Architect;creature;;2;1;;;1;;2;2;101000;EPIC
+197;RED;Exalted Ogre;creature;;5;;;;1;;5;5;101000;COMMON
+198;RED;Kobold Barracks;structure;;2;;;;2;;;4;100014;RARE
+199;RED;Hate Seed;creature;;7;;;;2;;4;4;101000;COMMON
+200;RED;Ogre Battler;creature;;8;;;;2;;6;9;100015;COMMON
+201;RED;Bold Bargainer;creature;;7;;;;2;;3;4;101000;COMMON
+202;RED;Seifer, Blood Tyrant;creature;;5;;;;3;;5;6;101000;LEGENDARY
+203;RED;Barbarian Ogre;creature;;7;;;;2;;7;7;101000;COMMON
+204;RED;Krog, the Ogre King;creature;;12;;;;4;;2;12;101000;LEGENDARY
+205;RED;Axe Grinder;creature;;3;;;;1;;4;3;100015;RARE
+206;RED;Boulder Thrower;creature;;7;;;;1;;3;5;101000;RARE
+211;RED;Shedim Brute;creature;;5;;;;2;;3;6;100016;COMMON
+212;RED;Blood Singer;creature;;3;;;;2;;2;4;100016;RARE
+213;RED;Seifer's Fodder;creature;;4;;;;1;;4;3;101000;COMMON
+214;RED;Flame Spitter;creature;;3;;;;1;;2;2;101000;COMMON
+215;RED;Lord of Terror;creature;;6;1;;;2;;1;6;101000;EPIC
+216;RED;Shedim Pest;creature;;4;1;;;2;;4;2;101000;COMMON
+217;RED;Blood Obelisk;structure;;2;1;;;1;;;2;101000;RARE
+218;RED;Grim Guard;creature;;4;;;;2;;2;5;100016;RARE
+223;RED;Bomb Slinger;creature;mecha;5;;;;3;;4;1;101000;EPIC
+224;RED;Cannon Carrier;creature;mecha;5;2;;;2;;2;4;101000;EPIC
+225;RED;Flame Burst;event;;3;;;;2;;;;101000;RARE
+226;RED;Flame Thrower;creature;mecha;3;;;;3;;3;2;101000;EPIC
+231;RED;Volcanic Colossus;creature;;11;;;;2;;7;7;101000;RARE
+232;RED;Garudan, Heart of the Mountain;creature;;10;;;;2;;6;6;101000;LEGENDARY
+233;RED;Fire Elemental;creature;;4;;;;1;;5;2;101000;COMMON
+234;RED;Flamesilk Faerie;creature;;2;;;;2;;1;1;101000;EPIC
+235;RED;Derelict Tower;structure;;3;;;;2;;;3;101000;RARE
+236;RED;Bloodfire Wisp;creature;;4;;;;2;;1;2;101000;RARE
+237;RED;Groundshaker;creature;mecha;6;;;;3;;5;6;101000;EPIC
+238;RED;Firebringer;creature;;4;;;;2;;2;0;101000;RARE
+239;RED;Blazing Salamander;creature;beast;5;;;;2;;2;5;101000;COMMON
+240;RED;Bloodstone Sprite;creature;;4;;;;1;;4;4;100015;EPIC
+241;RED;Seifer's Wrath;event;;2;;;;2;;;;101000;RARE
+242;RED;Devouring Plant;structure;;2;;;;1;;;5;101000;COMMON
+243;RED;Firebomb;event;;4;;;;2;;;;101000;COMMON
+244;RED;Firestorm;event;;5;;;;3;;;;101000;EPIC
+245;RED;Battle Rager;creature;;7;;;;1;;7;3;101000;RARE
+246;RED;Crumbling Golem;creature;;5;;;;1;;7;6;101000;EPIC
+247;RED;Ogre Dance;event;;4;;;;2;;;;101000;COMMON
+248;RED;Meteor;event;;12;;;;5;;;;101000;EPIC
+249;RED;Red Devil;creature;;9;;;;2;;6;4;101000;COMMON
+250;RED;Ignus, the First Flame;creature;;8;;;;3;;4;4;101000;LEGENDARY
+251;YELLOW;Oradrim Monk;creature;;3;;;;;2;2;1;101000;RARE
+252;YELLOW;Khalim's Prayer;event;;0;;;;;3;;;101000;RARE
+253;YELLOW;Khalim's Follower;creature;;1;;;;;2;0;1;101000;COMMON
+254;YELLOW;Oradrim Templar;creature;;3;;;;;1;3;3;101000;COMMON
+255;YELLOW;Oradrim Sagittarius;creature;;3;;;;;2;1;3;101000;EPIC
+256;YELLOW;Oradrim Fanatic;creature;;3;;;;;2;3;2;101000;COMMON
+257;YELLOW;Desert Twister;event;;0;;;;;5;;;101000;EPIC
+258;YELLOW;Wind Gate;structure;;1;;;;;1;;4;101000;EPIC
+259;YELLOW;Malevolent Spirit;creature;;4;;;;;2;3;3;101000;RARE
+260;YELLOW;Khalim, Sky Prodigy;creature;;5;;;;;3;3;6;101000;LEGENDARY
+261;YELLOW;Slaughtering Shadow;creature;;3;;;;;1;6;1;100017;COMMON
+262;YELLOW;Deathwish Ghoul;creature;;3;;;;;2;3;1;100017;COMMON
+263;YELLOW;Last Nightmare;event;;6;;;;;3;;;100019;RARE
+264;YELLOW;Soul Pact;event;;0;;;;;2;;;101000;COMMON
+265;YELLOW;Altar of Souls;structure;;2;;;;;3;;3;101000;EPIC
+266;YELLOW;Shaytan Demon;creature;;3;;;;;2;5;4;100019;COMMON
+267;YELLOW;Khalim's Skyguard;creature;;4;;;;;2;4;3;100020;COMMON
+268;YELLOW;Khalim's Training;event;;1;;;;;2;;;101000;RARE
+273;YELLOW;Wind Soldier;creature;;3;;;;;2;3;1;100018;COMMON
+274;YELLOW;Drakkar Skycaptain;creature;;4;;;;;1;2;4;101000;RARE
+275;YELLOW;Windborne Emissary;creature;;3;;;;;2;3;3;101000;COMMON
+276;YELLOW;Shaytan Scavenger;creature;;4;;;;;2;4;3;101000;COMMON
+277;YELLOW;Dune Drake;creature;;4;;;;;2;4;4;100020;COMMON
+278;YELLOW;Windborne Champion;creature;;5;;;;;5;5;5;101000;EPIC
+287;YELLOW;Windstorm Colossus;creature;;10;;;;;2;7;7;101000;RARE
+288;YELLOW;Azarai, Wrath of the Desert;creature;;10;;;;;2;6;6;101000;LEGENDARY
+289;YELLOW;Air Elemental;creature;;4;;;;;1;4;2;100018;COMMON
+290;YELLOW;Sunsilk Faerie;creature;;2;;;;;2;1;1;101000;EPIC
+291;YELLOW;Celestial Tower;structure;;2;;;;;2;;3;101000;RARE
+292;YELLOW;Wind Wisp;creature;;4;;;;;1;1;2;101000;RARE
+293;YELLOW;Flash Wind;event;;0;;;;;3;;;100020;RARE
+294;YELLOW;Golden Aviary;structure;;2;;;;;2;;2;101000;EPIC
+295;YELLOW;Zealous Crusader;creature;;4;;;;;2;2;2;101000;RARE
+296;YELLOW;Keldran Soldier;creature;;2;;;;;1;3;2;101000;COMMON
+297;YELLOW;Lord of the Wastes;creature;;5;;;;;1;6;4;101000;COMMON
+298;YELLOW;Shaytan Assassin;creature;;3;;;;;2;1;1;101000;EPIC
+299;YELLOW;Demon Wrangler;creature;;2;;;;;1;2;1;101000;COMMON
+300;YELLOW;Death Walker;creature;;3;;;;;2;6;4;101000;RARE
+301;YELLOW;Oath to Oblivion;event;;0;;;;;5;;;101000;RARE
+302;YELLOW;Shaytan Monstrosity;creature;;5;;;;;2;0;5;101000;EPIC
+303;YELLOW;Iona, Beloved by All;creature;;2;;;;;2;2;1;101000;LEGENDARY
+304;YELLOW;Demon Wing;creature;;3;;;;;1;5;2;100017;COMMON
+305;YELLOW;Oblivion Rider;creature;;5;;;;;1;6;3;100018;COMMON
+306;YELLOW;Soul Drain;event;;2;;;;;2;;;100019;COMMON
+307;YELLOW;Choking Sand;event;;4;;;;;2;;;101000;EPIC
+308;YELLOW;Doomgate, Door to Oblivion;structure;;1;;;;;2;;3;101000;LEGENDARY
+309;YELLOW;Windstorm Archer;creature;;2;;;;;2;1;2;101000;RARE
+310;YELLOW;Windstorm Charger;creature;;3;;;;;2;2;3;101000;COMMON
+311;HUMAN;Apex Predator;creature;beast;7;;3;3;;;3;3;101000;EPIC
+312;HUMAN;Icerock Behemoth;creature;beast;7;;3;;3;;7;7;101000;EPIC
+313;HUMAN;Twinsoul Spirit;creature;;5;;3;;;3;4;3;101000;EPIC
+314;HUMAN;Crackthorn Beast;creature;beast;6;;;3;3;;3;3;101000;EPIC
+315;HUMAN;Soul Eater;creature;;5;;;3;;3;1;1;101000;EPIC
+316;HUMAN;Scourgeflame Specter;creature;;7;;;;3;3;2;5;101000;EPIC
+317;BLUE;Gabrian Soldier;creature;;3;;2;;;;4;2;106666;RARE
+318;BLUE;Frog;creature;triton;2;;2;;;;2;2;106666;COMMON
+319;HUMAN;Cartographer;creature;;3;;;;;;1;1;106666;COMMON
+321;HUMAN;Sky Swallower;creature;;10;;;;;;10;10;106666;RARE
+322;HUMAN;Angry Prairie Yak;creature;yak;3;;;;;;2;4;106666;EPIC
+323;HUMAN;Explore;event;;0;;;;;;;;106666;COMMON
+324;HUMAN;Angry Yak;creature;yak;3;;;;;;2;2;106666;COMMON
+325;GREEN;Thorn Wisp;creature;;4;;;2;;;1;3;106666;COMMON
+328;YELLOW;Ostregoth, Hand of Oblivion;creature;;13;;;;;3;13;13;106666;LEGENDARY
+329;HUMAN;Cutthroat Bandit;creature;;3;;;;;;4;1;100002;COMMON
+330;HUMAN;Savage Horseman;creature;;3;;;;;;3;2;106666;COMMON
+331;HUMAN;Wisdom;event;;3;;;;;;;;106666;COMMON
+332;HUMAN;Healing Prayer;event;;3;;;;;;;;106666;COMMON
+333;HUMAN;Me Not Playable;event;;3;;;;;;;;106666;COMMON
+334;HUMAN;Greater Wisdom;event;;3;;;;;;;;106666;COMMON
+335;HUMAN;Rebel Slinger;creature;;3;;;;;;2;2;100002;COMMON
+336;HUMAN;Spirit of the Nexus;creature;;3;;1;1;1;1;10;10;106666;LEGENDARY
+337;RED;Godfire Storm;event;;2;;;;1;;;;106666;EPIC
+338;BLUE;Tidal Force;event;;1;;1;;;;;;106666;COMMON
+339;YELLOW;Rushing Wind;event;;0;;;;;2;;;106666;RARE
+340;HUMAN;Syland Warrior;creature;;5;;;;;;1;6;106666;COMMON
+342;RED;Kojin, Divine Flame;creature;;0;;;;3;;0;6;106666;COMMON
+350;HUMAN;Three Wishes;event;;3;;2;2;2;2;;;101000;EPIC
+351;HUMAN;Rebel Glider;creature;;3;;;;;;2;3;101000;COMMON
+352;HUMAN;Radiance, Imperial Airship;creature;;20;;;;;;10;10;101000;LEGENDARY
+353;BLUE;Forbidden Library;structure;;1;;5;;;;;2;101000;RARE
+354;BLUE;Dream Reaver;creature;;7;;7;;;;7;10;101000;EPIC
+355;GREEN;Feral Kodama;creature;;5;1;;2;;;5;6;101000;EPIC
+356;GREEN;God Hunter;creature;;3;;;2;;;5;4;101000;EPIC
+357;RED;Blood Song;event;;4;;;;2;;;;101000;RARE
+358;RED;Hellfire;event;;7;;;;2;;;;101000;EPIC
+359;YELLOW;Doomsday;event;;9;;;;;2;;;101000;EPIC
+360;YELLOW;Annoying Gnat;creature;;2;;;;;2;1;1;101000;EPIC
+361;HUMAN;Long-horned Yak;creature;yak;3;;;;;;2;3;101000;COMMON
+362;HUMAN;Time of Legends;event;;1;;;;;;;;101000;LEGENDARY
+363;BLUE;Triton Trainer;creature;triton;3;;2;;;;3;2;101000;RARE
+364;GREEN;Voice of Truth;creature;;4;;;2;;;1;5;101000;RARE
+365;RED;Herald of War;creature;;4;;;;2;;4;4;101000;RARE
+366;YELLOW;Mistral Guide;creature;;4;1;;;;2;4;4;101000;RARE
+367;HUMAN;Divine Guardian;creature;;2;;;;;;0;4;101000;EPIC
+368;HUMAN;The Emperor's Command;event;;2;;;;;;;;101000;EPIC
+369;BLUE;Illusion of Grandeur;creature;;7;;2;;;;1;1;101000;EPIC
+370;GREEN;Deepwood Stalker;creature;beast;3;;;2;;;2;4;101000;EPIC
+371;RED;Krog's Dinner;creature;beast;3;;;;2;;3;3;101000;EPIC
+372;YELLOW;Iona's Smile;event;;2;;;;;2;;;101000;EPIC
+400;PANDORA;Shard of Pandora;artifact;;0;;;;;;;;106666;COMMON
+401;PANDORA;Pandora Awakens!;artifact;;0;;;;;;;;106666;RARE
+402;PANDORA;Treasure Found!;artifact;;0;;;;;;;;106666;RARE
+403;PANDORA;Dark Crystal;event;;8;;;;;;;;107777;RARE
+404;PANDORA;Yakhorn Warhorn;event;;6;;;;;;;;107777;RARE
+405;PANDORA;Astral Weapon;creature;;14;;;;;;7;7;107777;RARE
+406;PANDORA;Ocarina;event;;10;;;;;;;;107777;RARE
+407;PANDORA;Djinn's Lamp;event;;3;;;;;;;;107777;RARE
+408;PANDORA;Urn of Gabria;event;;0;;;;;;;;107777;RARE
+409;PANDORA;Iona's Mirror;event;;2;;;;;;;;107777;RARE
+410;PANDORA;Bloodstone Golem;creature;;3;;;;;;5;6;107777;RARE
+411;PANDORA;Chalice from the Palace;event;;3;;;;;;;;107777;RARE
+412;PANDORA;Eredon's Drum;event;;8;;;;;;;;107777;RARE
+413;PANDORA;Cloud Machine;structure;;3;;;;;;;4;107777;RARE
+414;PANDORA;Ring of Dominion;event;;0;;;;;;;;107777;RARE
+415;PANDORA;The World's Tear;event;;2;;;;;;;;107777;RARE
+416;PANDORA;Clockwork Yak;creature;yak;4;;;;;;6;9;107777;RARE
+417;PANDORA;Equinox Automaton;creature;;6;;;;;;6;6;107777;RARE
+418;PANDORA;Magda's Rose;event;;9;;;;;;;;107777;RARE
+419;PANDORA;Aurora's Teapot;event;;5;;;;;;;;107777;RARE
+420;PANDORA;Stone of Fair Fortune;event;;0;;;;;;;;107777;RARE
+421;PANDORA;Secret of Strength;event;;4;;;;;;;;107777;RARE
+422;PANDORA;Void Guardian;creature;;0;;;;;;9;9;107777;RARE
+423;PANDORA;Crystal Dragon;creature;;3;;;;;;6;6;107777;RARE
+424;PANDORA;Flame Burst Ruby;event;;1;;;;;;;;107777;RARE
+425;PANDORA;Hammer of Destruction;event;;3;;;;;;;;107777;RARE
+426;PANDORA;Earthfire Shaker;creature;mecha;6;;;;;;2;2;107777;RARE
+427;PANDORA;Death's Desire;event;;0;;;;;;;;107777;RARE
+428;PANDORA;Bottled Lightning;event;;6;;;;;;;;107777;RARE
+429;PANDORA;Dancing Blade;creature;;5;;;;;;0;6;107777;RARE
+430;PANDORA;Doom Scythe;event;;5;;;;;;;;107777;RARE
+431;PANDORA;Jeweled Magpie;creature;;3;;;;;;1;5;107777;RARE
+432;PANDORA;Wheel of Chaos;event;;2;;;;;;;;107777;RARE
+433;PANDORA;Ulani's Medallion;event;;6;;;;;;;;107778;RARE
+500;HUMAN;Monkey Genius;creature;beast;4;;;;;;0;2;102005;RARE
+501;HUMAN;Intrepid Explorer;creature;;3;1;;;;;3;3;102001;COMMON
+502;HUMAN;Crystal Flower;structure;;4;;1;1;1;1;;5;102001;EPIC
+503;HUMAN;Yakkapult;creature;;4;6;;;;;2;5;102002;EPIC
+504;HUMAN;Goki, Friendly Miner;creature;triton;2;4;;;;;2;4;102001;LEGENDARY
+505;HUMAN;Mobie, Azure Skywhale;creature;;6;8;;;;;6;6;102002;LEGENDARY
+506;HUMAN;Balloon Fish;creature;;1;2;;;;;2;2;102005;RARE
+507;HUMAN;Emperor Kaios;creature;;5;6;;;;;3;5;102005;LEGENDARY
+508;GREEN;Seed of Paradise;creature;;1;;;1;;;0;1;102003;EPIC
+509;GREEN;The Tree of Everlife;structure;;7;7;;3;;;;7;102005;LEGENDARY
+510;GREEN;Gift of the Rakoa;event;;4;;;2;;;;;102002;EPIC
+511;BLUE;Curious Biomancer;creature;rakoan;3;2;2;;;;1;3;102005;RARE
+512;BLUE;Fugoro, Merchant of Wonders;creature;triton;5;3;3;;;;3;5;102003;LEGENDARY
+513;BLUE;Leaping Fugu;creature;beast;3;;2;;;;2;3;102003;COMMON
+514;RED;Grappling Hook;event;;3;3;;;2;;;;102004;RARE
+515;RED;Rakoan Reveller;creature;rakoan;2;;;;1;;1;2;102002;COMMON
+516;RED;CAP-10, Sky Pirate;creature;mecha;4;2;;;2;;3;8;102004;LEGENDARY
+517;YELLOW;Flash Salmon;creature;;1;;;;;2;1;1;102004;EPIC
+518;YELLOW;Manta Rider;creature;rakoan;5;;;;;3;5;3;102004;RARE
+519;YELLOW;Istanu, Eternal Light;creature;;6;4;;;;2;5;5;102003;LEGENDARY
+520;HUMAN;Shifting Octopus;creature;beast;4;1;1;1;;;3;3;102003;RARE
+521;HUMAN;Frog-Tosser;creature;rakoan;5;2;2;2;;;3;4;102002;EPIC
+522;HUMAN;Path to Paradise;event;;2;;;1;1;;;;102003;RARE
+523;HUMAN;Emerald Salamander;creature;beast;6;;;2;2;;2;5;102005;EPIC
+524;HUMAN;Skyward Swordfish;creature;;5;2;;1;;1;4;7;102004;EPIC
+525;HUMAN;Swarming Carassius;creature;;4;;;1;;1;3;2;102004;RARE
+526;HUMAN;Dream Keeper;creature;;4;;1;;1;;2;4;102005;EPIC
+527;HUMAN;Gemshell Tortoise;creature;beast;8;2;2;;2;;5;6;102005;RARE
+528;HUMAN;Flight of the Mantas;event;;2;;2;;;2;;;102003;EPIC
+529;HUMAN;Oversky Towship;creature;;5;;1;;;1;5;5;102004;EPIC
+530;HUMAN;Rakoan Chieftain;creature;rakoan;4;2;;;1;1;4;5;102002;RARE
+531;HUMAN;Sky Anemone;structure;;0;;;;1;1;;3;102004;RARE
+532;HUMAN;Ulani, Oversky Shaman;creature;rakoan;4;;1;1;1;1;2;2;102002;LEGENDARY
+549;HUMAN;Reality Breaker;structure;;6;;;;;;;6;106666;EPIC
+550;HUMAN;Crystal Flower;structure;;4;4;;;;;;4;106666;EPIC
+551;HUMAN;Crystal Flower;structure;;4;4;;;;;;4;106666;EPIC
+552;HUMAN;Crystal Flower;structure;;4;4;;;;;;4;106666;EPIC
+553;HUMAN;Flying Manta;creature;;3;;1;;;1;2;2;106666;COMMON
+555;HUMAN;Angry Yak;creature;yak;3;;;;;;2;2;106666;COMMON
+556;HUMAN;A Winner Is You!;event;;9;;;;;;;;106666;LEGENDARY
+557;HUMAN;Emperor Kaios the Great;creature;;5;6;;;;;3;5;106666;LEGENDARY
+601;HUMAN;Laya, Lady of Sorrows;creature;;4;4;;;;;3;4;102006;LEGENDARY
+602;HUMAN;Imperial Drakerider;creature;;5;2;;;;;3;4;102006;RARE
+603;HUMAN;Deranged Monkey;creature;beast;4;2;;;;;0;1;102006;COMMON
+604;HUMAN;Imperial Trooper;creature;;4;3;;;;;5;4;102006;COMMON
+605;HUMAN;Lost Explorer;creature;;3;1;;;;;3;3;102006;COMMON
+606;HUMAN;Blightblade Knight;creature;;4;2;;;;;6;4;102006;RARE
+607;HUMAN;Shadowsilk Faerie;creature;;3;4;;;;;1;1;102006;EPIC
+608;HUMAN;Kaios, Demented Overmind;creature;;6;6;;;;;6;6;102006;LEGENDARY
+609;BLUE;Rain of Fish;event;;6;2;4;;;;;;102006;EPIC
+610;BLUE;Flying Piranha;creature;;3;2;1;;;;1;3;102006;COMMON
+611;BLUE;Monstrous Hydra;creature;;6;;3;;;;5;6;102006;RARE
+612;GREEN;Haunted Willow;creature;;2;;;2;;;7;1;102006;COMMON
+613;GREEN;Rotting Boar;creature;beast;5;2;;1;;;5;4;102006;RARE
+614;GREEN;Nekomata;creature;beast;4;;;4;;;3;5;102006;RARE
+615;RED;Baldurion, Evil Archsmith;creature;;5;;;;5;;5;5;102006;LEGENDARY
+616;RED;Spite Sprite;creature;;1;;;;1;;3;1;102006;COMMON
+617;RED;Havoc;event;;6;;;;5;;;;102006;EPIC
+618;YELLOW;Demonic Salmon;creature;;2;;;;;2;1;1;102006;COMMON
+619;YELLOW;Spirit Theft;event;;1;2;;;;2;;;102006;EPIC
+620;YELLOW;Solem;creature;;7;;;;;4;7;7;102006;LEGENDARY
+622;HUMAN;Mother of All Yaks;creature;yak;15;;;;;;5;8;102007;LEGENDARY
+623;HUMAN;Rakoan Champion;creature;rakoan;5;3;;;;;4;4;102007;EPIC
+624;BLUE;Orphan Fugu;creature;beast;4;1;1;;;;3;5;102007;COMMON
+625;BLUE;Rapala, the Dopefish;creature;;1;3;1;;;;1;1;102007;LEGENDARY
+626;BLUE;Sapphire Yak;creature;yak;4;;1;;;;2;4;102007;COMMON
+627;GREEN;Hunt Down;event;;3;2;;2;;;;;102007;EPIC
+628;GREEN;Emerald Yak;creature;yak;3;;;1;;;3;3;102007;COMMON
+629;GREEN;Majinata, Spirit of Everlife;creature;;10;3;;2;;;5;5;102007;LEGENDARY
+630;RED;Lavasurge Axolotl;creature;beast;4;3;;;2;;12;3;102007;COMMON
+640;RED;Rakoakopter;creature;rakoan;5;1;;;2;;3;3;102007;RARE
+641;RED;Ruby Yak;creature;yak;5;;;;1;;4;5;102007;RARE
+642;YELLOW;Ghost Dragon;creature;;2;;;;;2;6;0;102007;EPIC
+643;YELLOW;Lion Fish;creature;;3;;;;;1;0;4;102007;COMMON
+644;YELLOW;Topaz Yak;creature;yak;4;;;;;1;4;2;102007;RARE
+645;HUMAN;Rakoan War Machine;creature;rakoan;4;;1;;1;;4;4;102007;COMMON
+646;HUMAN;Rakoan Cannoneer;creature;rakoan;2;;;;1;1;2;2;102007;RARE
+647;HUMAN;Rakoan Illusionist;creature;rakoan;1;;1;;;2;1;1;102007;EPIC
+648;HUMAN;Rakoan Shield Mates;creature;rakoan;2;;;1;;1;1;2;102007;COMMON
+649;HUMAN;Rakoan Warleader;creature;rakoan;4;;;1;1;;3;5;102007;RARE
+650;HUMAN;Rakoan Recruiter;creature;rakoan;4;;1;1;;;3;4;102007;COMMON
+652;HUMAN;Enslaved Priest;creature;rakoan;3;;;;;;2;4;102008;COMMON
+653;HUMAN;Tower of Curses;structure;;4;4;;;;;;4;102008;RARE
+654;HUMAN;Shozen, the Sky Eater;creature;;6;6;;;;;6;6;102008;LEGENDARY
+655;HUMAN;Imperial Outpost;structure;;2;;;;;;;2;102008;COMMON
+656;HUMAN;Destructive Volley;event;;3;;;;;;;;102008;RARE
+657;HUMAN;Gagana, Rainbow Birdship;creature;;6;4;;;;;3;7;102008;LEGENDARY
+658;HUMAN;Radiance, Scourge of Oversky;creature;;10;4;;;;;10;10;102008;LEGENDARY
+659;RED;Bursting Hippo;creature;beast;6;;;;3;;5;5;102008;RARE
+660;RED;Beast Trainer;creature;mecha;5;2;;;1;;3;3;102008;COMMON
+661;RED;Kobold Smuggler;creature;;5;;;;1;;5;3;102008;RARE
+662;RED;Wrath of Ignus;event;;3;;;;3;;;;102008;EPIC
+663;RED;Ignusi Ritualist;creature;;4;;;;3;;3;3;102008;RARE
+664;RED;Flamestoker;creature;;5;;;;3;;4;4;102008;COMMON
+665;YELLOW;Barrensky Vermin;creature;beast;1;;;;;2;1;1;102008;COMMON
+666;YELLOW;Vile Bloatfly;creature;;2;;;;;4;3;3;102008;RARE
+667;YELLOW;Blightborn Specter;creature;;5;;;;;2;3;6;102008;RARE
+668;YELLOW;Dustbringer Wraith;creature;;4;1;;;;2;3;6;102008;EPIC
+669;YELLOW;Barrensky Vulture;creature;beast;3;;;;;4;0;3;102008;COMMON
+670;YELLOW;Haunted Husk;structure;;1;2;;;;2;;2;102008;EPIC
+671;HUMAN;Thunder Eel;creature;;6;;;;2;2;6;4;102008;COMMON
+673;HUMAN;Banon, Captain of the Radiance;creature;;7;;;;;;5;5;102009;LEGENDARY
+674;HUMAN;Ulani, Defender of Oversky;creature;rakoan;2;4;;;;;2;4;102009;LEGENDARY
+675;HUMAN;Llamacorn;creature;beast;5;2;;;;;5;5;102009;EPIC
+676;HUMAN;Roaming Yak;creature;yak;2;;;;;;1;1;102009;COMMON
+677;HUMAN;Yak Shepherd;creature;;3;2;;;;;2;3;102009;RARE
+678;HUMAN;Oversky Yak;creature;yak;4;1;;;;;2;4;102009;COMMON
+679;BLUE;Bloated Toad;creature;triton;1;;2;;;;3;3;102009;RARE
+680;BLUE;Looking Glass Phantasm;creature;;5;;5;;;;3;5;102009;EPIC
+681;BLUE;Triton Tactician;creature;triton;3;;2;;;;2;4;102009;COMMON
+682;BLUE;Tide Lord;creature;triton;5;2;2;;;;5;5;102009;RARE
+683;BLUE;Animated Banquet;creature;;2;;1;;;;1;1;102009;COMMON
+684;BLUE;Coral Polliwog;creature;beast;7;;2;;;;5;7;102009;RARE
+685;GREEN;Chrysalis;structure;;0;;;1;;;;2;102009;EPIC
+686;GREEN;Verduran Emissary ;creature;;5;;;1;;;4;5;102009;RARE
+687;GREEN;Priest of Everlife;creature;rakoan;3;;;2;;;1;1;102009;COMMON
+688;GREEN;Blossoming Kodama;creature;;6;;;5;;;5;7;102009;COMMON
+689;GREEN;Zephyr Vulpine;creature;beast;3;;;1;;;3;4;102009;COMMON
+690;GREEN;Dwordia, Chief of the Bright Fox Tribe;creature;rakoan;6;;;4;;;6;6;102009;LEGENDARY
+691;HUMAN;Victory Celebration;event;;0;2;1;1;;;;;102009;EPIC
+692;HUMAN;Savior of the Meek;creature;;2;2;1;1;;;1;2;102009;COMMON
+694;BLUE;Hydra Head;creature;;2;;1;;;;2;1;106666;COMMON
+695;HUMAN;Yak Guard;creature;yak;4;;;;;;4;4;106666;COMMON
+696;HUMAN;Baby Yak;creature;yak;1;;;;;;1;1;106666;COMMON
+697;YELLOW;Dune Drake;creature;;4;;;;;2;4;4;106666;COMMON
+698;BLUE;msatnahP ssalG gnikooL;creature;;5;;5;;;;5;3;106666;EPIC
+699;HUMAN;Rakoan;creature;rakoan;1;;;;;;1;1;106666;COMMON
+701;HUMAN;Compass of Gagana;structure;;1;;;;;;;3;102010;LEGENDARY
+702;HUMAN;Sharra's Inspiration;event;;2;4;;;;;;;102010;EPIC
+703;HUMAN;Celeste, Crystal Dragon;creature;;10;;;;;;6;6;102010;LEGENDARY
+704;HUMAN;Gagana, Treasure Seeker;creature;;6;4;;;;;3;7;102010;LEGENDARY
+705;BLUE;Triton Adventurer;creature;triton;4;1;2;;;;4;3;102010;RARE
+706;BLUE;Message in a Bottle;event;;1;;1;;;;;;102010;COMMON
+707;BLUE;Starshell Keeper;creature;;5;;1;;;;4;5;102010;COMMON
+709;BLUE;Triton Stargazer;creature;triton;5;;2;;;;2;1;102010;EPIC
+710;BLUE;Fugoro, Captain of the Gagana;creature;triton;5;;2;;;;3;5;102010;LEGENDARY
+711;GREEN;Tiki Adventurer;creature;;4;1;;2;;;2;2;102010;RARE
+712;GREEN;Tiki Zoologist;creature;;2;;;2;;;1;1;102010;COMMON
+713;GREEN;Kodama Beast Tender;creature;;6;2;;2;;;5;5;102010;EPIC
+714;GREEN;Seek Shelter;event;;1;;;3;;;;;102010;COMMON
+715;GREEN;Exotic Pet;creature;beast;2;1;;1;;;3;2;102010;RARE
+717;RED;Ogre Adventurer;creature;;5;1;;;2;;5;5;102010;RARE
+719;RED;Unstable Forgeling;creature;mecha;5;;;;2;;2;5;102010;COMMON
+720;RED;Fragmenter;creature;mecha;6;1;;;2;;3;6;102010;EPIC
+721;RED;Detonate;event;;2;2;;;2;;;;102010;COMMON
+722;RED;Junkfeet, the Scrapheap;creature;mecha;4;;;;3;;4;4;102010;LEGENDARY
+723;YELLOW;Keldran Adventurer;creature;;4;1;;;;2;4;3;102010;RARE
+724;YELLOW;Amai Merchant;creature;;3;;;;;2;3;3;102010;EPIC
+726;YELLOW;Amai Mapdealer;creature;;0;1;;;;1;0;1;102010;COMMON
+727;YELLOW;Aryana, Soul of Gagana;creature;;4;;;;;2;4;2;102010;LEGENDARY
+728;YELLOW;Barter;event;;2;;;;;2;;;102010;COMMON
+729;HUMAN;Spirit Spice;event;;9;1;;1;;1;;;102010;EPIC
+730;HUMAN;Crystal Spice;event;;1;1;1;;1;;;;102010;EPIC
+731;HUMAN;Airbot;creature;mecha;2;;;;1;1;2;2;102010;EPIC
+732;HUMAN;Thyrian Expedition;event;;1;;2;2;;;;;102010;RARE
+733;HUMAN;Glidehopper;creature;triton;5;;1;;;1;5;4;102010;EPIC
+734;HUMAN;Sorocco, First Mate;creature;triton;7;2;2;;2;;7;7;102010;LEGENDARY
+735;PANDORA;Thyrian Globe;creature;;3;;;;;;5;5;107779;RARE
+736;PANDORA;Ancient Gargoyle;creature;;3;;;;;;3;3;107779;RARE
+737;PANDORA;Crystalis;structure;;0;;;;;;;6;107779;RARE
+738;PANDORA;Magic Carpet;creature;;4;;;;;;3;1;107779;RARE
+739;PANDORA;Simulacrum of Obedience;creature;;4;;;;;;3;8;107779;RARE
+740;PANDORA;Spear of the Guardians;creature;;1;;;;;;9;1;107779;RARE
+741;PANDORA;Key of the Elements;event;;0;;;;;;;;107779;RARE
+742;PANDORA;Key of the Giants;event;;3;;;;;;;;107779;RARE
+743;PANDORA;Key of the Guardians;event;;7;;;;;;;;107779;RARE
+744;HUMAN;Guardian;creature;;5;;;;;;5;5;106666;EPIC
+745;HUMAN;Guardian;creature;;5;;;;;;5;5;106666;EPIC
+746;RED;Mecha;creature;mecha;3;;;;1;;4;2;106666;COMMON
+749;RED;Mecha;creature;mecha;1;;;;1;;3;1;106666;COMMON
+800;HUMAN;Treasure Map;event;;0;;;;;;;;106666;COMMON
+9985;HUMAN;Animate all the things;event;;0;;;;;;;;106666;COMMON
+9986;HUMAN;Show Ai Hand;event;;0;;;;;;;;106666;RARE
+9987;HUMAN;Tower of Wisdom;structure;;2;;;;;;;2;106666;RARE
+9988;HUMAN;Charge!;event;;1;;;;;;;;106666;EPIC
+9989;HUMAN;Gain Control Land;event;;0;;;;;;;;106666;EPIC
+9990;HUMAN;Gain Control;event;;0;;;;;;;;106666;EPIC
+9991;HUMAN;Give Haste;event;;0;;;;;;;;106666;COMMON
+9992;HUMAN;Gimme Faeria;event;;0;;;;;;;;106666;COMMON
+9993;HUMAN;You, Die!;event;;0;;;;;;;;106666;COMMON
+9994;RED;Mountain;land;;;;;;;;;;106666;COMMON
+9995;BLUE;Lake;land;;;;;;;;;;106666;COMMON
+9996;YELLOW;Desert;land;;;;;;;;;;106666;COMMON
+9997;GREEN;Forest;land;;;;;;;;;;106666;COMMON
+9998;HUMAN;Prairie;land;;;;;;;;;;106666;COMMON
+9999;HUMAN;Orb;orb;;;;;;;;;;106666;COMMON

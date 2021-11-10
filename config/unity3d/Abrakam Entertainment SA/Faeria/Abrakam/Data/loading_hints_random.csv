@@ -1,0 +1,101 @@
+Key;Text;Level
+DEATHTOUCH_ONLY_IF_DAMAGE;Tip: Deathtouch only kills a creature if damage is dealt. Protection stops damage.;4
+TIKIS_CAN_TARGET_THEMSELVES;Tip: Tiki Caretaker and Tiki Piper can target themselves.;3
+FROGS_PLACED_ON_LAKES;Tip: Frogs from Battle Toads can only be summoned on lakes.;4
+HEAL_ORB_MAX_20;Tip: You cannot heal yourself over 20 life.;3
+COMPLETE_SOLO_CONTENT;Tip: Completing Solo content is the best way to get started.;3
+RED_COLOR_EXPLAINED;Tip: Red is the color of fire and war.;3
+BLUE_COLOR_EXPLAINED;Tip: Blue is the color of transformation and trickery.;3
+GREEN_COLOR_EXPLAINED;Tip: Green is the color of growth and wild predators.;3
+YELLOW_COLOR_EXPLAINED;Tip: Yellow is the color of wind and speed.;3
+CHARGE_CANT_PASS_THROUGH;Tip: You can't charge through other creatures.;4
+BLOCK_AQUATIC_WITH_LANDS;Tip: Build lands to block aquatic enemies.;4
+DAILY_QUEST_1;Tip: The most effective way to gain battle chests is to come back every day and complete your daily quest.;3
+THE_HUB;Did you know: faeria.com/the-hub is our official site where players publish their own guides;4
+CARDBACK_FROM_SOLO;Tip: Complete all of solo mode to unlock the Dragon cardback.;5
+PANDORA_ECONMY;Tip: When Pandora awakens, all faeria wells are destroyed but players get double faeria each turn.;5
+TAUNT_BEST_DEFENSE;Tip: Creatures with Taunt are often the best way to protect yourself.;4
+BUILD_LANDS_EARLY_GAME;Tip: Build lands in the early game. Save the +1 card and +1 faeria buttons for later.;4
+GIANT_LATEGAME_CREATURES_EXIST;Tip: Many decks build up powerful late-game threats. Save removal for them.;5
+COUNTERING_RUSH_1;Tip: When playing against rush, move your creatures onto their aggressive lands.;5
+STRUCTURES_LEGAL_PLACEMENT;Tip: Structures can be played on lands of any color.;5
+STRUCTURES_DIRECTLY_ACTIVATES;Tip: Structures can be activated on the turn they were summoned.;5
+GET_LANDS_NEAR_OPPONENT;Tip: Try to build lands adjacent to your enemy's god.;6
+OVERDRAWING_DESTROYS_CARDS;Tip: You can only hold 9 cards at a time. Excess cards are destroyed when drawn.;6
+COUNTERING_RUSH_2;Tip: Defeat rush players by blocking their aggressive lands. Counter-attack before they can break through.;6
+YAK_LORE_1;<i>If you harm a yak, you harm the world</i>\n<align=right>Syland saying</align>;6
+FRIENDS_BLOCK_RANGED;Tip: Ranged creatures can't shoot through friendly units.;7
+LANDS_ARE_BETTER_THAN_CARDS;Tip: Creating lands is often more important than drawing cards.;7
+ENDGAME_THREATS_EXIST;Tip: Many threats will punish you for stalling. Once have an advantage, attack!;7
+FATIGUE_HURTS;Tip: Once your deck runs out of cards, you take increasing damage each draw.;7
+JALMYR_LORE_2;Jalmyr's progressive puzzles often perplex the most proficient players.;7
+STEAM_FORGE_LORE;Fed by faeria, imperial steam forges are unpredictable but effective.;7
+JALMYR_LORE_3;Jalmyr could not bring himself to fully destroy his brother, the lord of darkness.;7
+YELLOW_USES_HASTE;Tip: Yellow decks often use Haste creatures. Set up defenses ahead of time.;7
+RED_DIRECT_DAMAGE;Tip: Red decks often use direct damage. Be careful when you're at low life.;7
+FIRESTORM_EXISTS;Tip: Fire Storm is a red card that can deal 3 damage to all enemy creatures.;7
+UNIQUE_EMOTES_EXIST;Tip: Many avatars have unique emotes.;7
+BYPASSING_TAUNT;Tip: A taunted creature cannot move itself, but it can be moved by another effect. Even Dash.;8
+DON'T_OVERBUFF_CREATURES;Tip: Be careful before boosting a creature beyond 6/6. Removal can punish you.;8
+JOIN_FAERIA'S_DISCORD;Tip: Got a question or comment? Join the official Faeria Discord server. A link's in your friend's list.;6
+ESPORTS_FAERIA_EXISTS;Tip: Go to esports.faeria.com for information on faeria tournaments and prizes.;8
+TOP_8_GODS_ON_LADDER_INVITED;Tip: Each season, the top 10 players in god rank are invited to a special tournament;8
+HARD_REMOVAL_COSTS_6;Tip: The best removal card costs about 6 faeria to play.;8
+KILL_BURN_FAST;Tip: When playing against burn decks, end the game as fast as possible.;8
+REVIEW_FAERIA_PLEASE;If you like faeria, don't forget to leave a review. It helps grow the community.;8
+RAPALA_LORE_2;The most feared sight in a seaside village is not a tsunami, but a grinning fish.;8
+TIPS_EXIST;Tip: Tips are sometimes shown during loading screens.;9
+PROTECT_YOUR_ORB;Tip: Don't let your opponent get lands next to your god.;9
+EMPEROR_LORE;The Emperor looks forward to the day when citizens are no longer necessary.;9
+WISDOM_IS_BAD;Tip: Wise players rarely use the Wisdom card.;10
+IONA_LORE_1;Before Iona the Shaytan had no word for 'mercy'.;10
+OUTLAND_RANGER_LORE_1;The Outland Rangers are an ancient order of nobles that traded stone castles for open sky.;11
+SYLAND_FARMERS_LORE;Without fail, each generation of syland farmers gives birth to a great hero.;11
+IONA_LORE_2;It's the dream of every bard to compose a tribute worthy of Iona.;11
+YAK_LEVEL;Tip: There's no Yak level;15
+KROG_LORE_1;Krog mostly just goes around *telling* everyone he's the ogre king.;15
+RAPALA_LORE_1;Some fish just want to watch the world burn.;15
+THYRIAN_LORE_1;Thyrian Golems are said to come from a mythical paradise above the clouds.;15
+YAKNUS_LORE_1;King Yaknus, first of his name, is known as the breaker of yokes and the beast of all burdens.;15
+MAGNUS_LORE_1;As a boy Magnus was sent a dream by Aurora, which led him to the crown.;15
+RUUNIN_LORE_1;Despite her protests, Ruunin's followers insist on honorably burying her each time she dies.;15
+JALMYR_LORE_1;Rumor has it that Jalmyr will grant a wish to any that can teach him something new.;15
+GARUDAN_LORE_1;Garudan is kind of a jerk.;15
+HEXAGON_JOKE;Tip: A hexagon is an amazing shape. It has six fantastic sides.;15
+SAGAMI_LORE_1;In the hands of the Sagami, the most hideous spirits become sacred guardians.;15
+SAGAMI_LORE_2;The Sagami bind murderous spirits as sacred guardians.;15
+SEIFER_LORE_1;Seifer has a pet ferret named Deathspark.;15
+SEIFER_LORE_2;Seifer once challenged the sun to a staring contest. History does not record the winner.;15
+DROWNING;Tip: Creatures in empty ocean tiles without flying or aquatic die at the end of their controller's turn.;15
+PANDORA_GODS;Pandora is the world where dreams happens. Thankfully, gods are allowed to enter it.;15
+AURORA_DREAMS;Thanks to her ability to enter persons' dreams, Aurora can change one's destiny.;15
+MULTI_TAUNT;Tip: If several creatures are taunting the same creature, that creature can attack any of the taunts.;15
+HOLD_EXPLORE;Tip: You can hold your <i>Explore</i> card to buff your event-based creatures later.;15
+FALCON_DIVE;Tip: Falcon Dive is an excellent, versatile tool that can be included in almost any deck.;15
+SYLAND_HORSEMASTER;Tip: Syland Horsemaster allows Green and Red decks to make surprise attacks.;15
+GOD_HUNTER;Tip: God Hunter can't attack or move if there is a taunt creature nearby.;15
+UNLIKELY_HERO;Tip: Unlikely Hero's ability can be activated by hitting the opponent's orb.;15
+MOVING_WITH_JUMP_AND_CHARGE;Tip: Moving a creature with a card takes into account its Jump and Charge abilities.;15
+RADIANCE;Tip: Radiance is not affected by cost reduction cards.;15
+ELEMENTALS;Tip: Elementals are a great way to accelerate your special land production.;15
+PANDORA_POINTS;Tip: Accumulate Pandora Points each season to win special prizes.;15
+PANDORA_CARD_BACK;Tip: End each season at Rank 15 or better to earn a special card back.;15
+GOD_CARD_BACK;Tip: Reach God rank to receive a unique golden card back each season.;15
+SEASON_RESET;Tip: Ranked and Pandora seasons reset on the first Monday of every month.;15
+HARVEST_ORDER;Tip: Creatures harvest Faeria from left to right, top to bottom, from the active player's perspective.;15
+TRANSFORM_WITH_HASTE;Tip: Transforming a creature with Haste can remove its Haste property and make it unable to attack.;15
+LAND_LOCK_COUNTER;Tip: If your opponent land-locks you, move a creature on to one of their lands and create one of your own on an empty ocean tile.;15
+CANNOT_CANCEL_GIFT;Tip: You cannot cancel playing a creature with a Gift effect once you place it on board;15
+OROSEI_LORE;Orosei keeps watch over the realm of Pandora and its treasures.;15
+FUGORO_LORE;Fugoro pillages treasures from the realm of Pandora.;15
+GOKI_01;Fugoro has a nephew named Goki. You can find him in the shop.;8
+WILD_LANDS;All coloured lands count as wild lands when paying land costs.;8
+CORRUPT_1;Tip: Corrupt creatures love movement tricks!;8
+CORRUPT_2;Tip: Don't let enemy creatures Corrupt your lands!;8
+CRUCIBLE;You can practice tournament format games in private lobby with friends.;15
+FALL_OF_EVERLIFE;Corruption spreads in Oversky ever since Kaios ate the fruit of Everlife.;8
+TRIBAL;Some cards gain tribal benefits. Yaks love forming a herd <3.;8
+LORE_BOOK;Collect lore by completing the daily Lore Quest or by opening mythic chests.;5
+DRAGONS_LAIR;Challenge new dragons every day in the Dragons Lair.;20
+DECK_COSMETICS;Know the perfect cosmetics for your new deck? Choose a cosmetic set just for it in the deck editor.;10
+WORLD_BOSSES;Defeat all of the World Bosses to unlock the Orb of Champions and its 3 Jewels.;10

@@ -1,0 +1,85 @@
+ACCOUNT_DOES_NOT_EXIST;존재하지 않는 계정입니다.
+ACTIVATION_CODE_FAILED;활성화 코드에 문제가 있습니다.
+ACTIVATION_KEY_FAILED;활성화 키에 문제가 있습니다.
+ALREADY_IN_GAME;이미 진행 중인 게임이 있습니다. 다시 접속해보세요.
+BAD_CLIENT_VERSION;오래된 버전입니다. 게임을 재시작해보세요.
+CANNOT_BE_PLAYER_HAS_NO_DECK;관리자에게 플레이어로 지정받았지만, 덱이 없습니다.
+CANNOT_INVITE_FRIEND_DECLINED;친구 초대를 보낼 수 없습니다. 상대로부터 친구 초대가 왔는지 확인하세요.
+CANNOT_INVITE_FRIEND_DOES_NOT_EXIST;존재하지 않는 플레이어 입니다. 올바른 ID를 입력하세요.
+CANNOT_INVITE_FRIEND_OPPONENT;대전 중인 상대를 친구로 추가할 수 없습니다. 게임이 끝난 뒤 다시 시도하세요.
+CANNOT_INVITE_FRIEND_PROLOGUE;아직 프롤로그를 마치지 않은 플레이어를 친구로 추가할 수 없습니다.
+CANNOT_INVITE_FRIEND_REFUSED;친구 초대한 플레이어가 친구 요청을 받지 않습니다.
+CANNOT_MODIFY_DECK_WHILE_SEARCHING;상대를 찾는 동안 덱을 수정할 수 없습니다.
+CANNOT_PAUSE_DURING_MULLIGAN;멀리건을 하는 동안에는 게임이 중단될 수 없습니다.
+CANNOT_SET_AS_PLAYER_HAS_NO_DECK;덱이 없는 유저를 플레이어로 지정할 수 없습니다.
+CANNOT_SET_YOURSELF_AS_RECRUITER;자신을 추천인으로 등록할 수 없습니다.
+CANNOT_SIGN_UP_FREEZE_MODE_ON;점검 중입니다. 나중에 다시 시도해 주세요.
+CANNOT_SPECTATE_TOURNAMENT_GAME;토너먼트 게임은 관전할 수 없습니다.
+CANNOT_START_FREEZE_MODE_ON;게임을 시작할 수 없습니다. - 서버가 꽉 찼습니다. 미안해요!
+CANNOT_START_SERVER_REBOOTING;게임을 시작할 수 없습니다. 서버가 곧 재시작됩니다.
+CARD_COPIES_LIMITED;덱에는 카드 한 종류당 세 장까지만 넣을 수 있습니다.
+COMMUNITY_EVENT_INACTIVE_OR_DOES_NOT_EXIST;커뮤니티 이벤트가 활성화되어 있지 않거나 존재하지 않습니다.
+COMMUNITY_EVENT_NO_STEAM_KEYS_LEFT;스팀 키가 남아있지 않습니다. 다음에 다시 시도하세요.
+CONSTRUCTED_CLOSED;랭크 게임은 오늘 닫혀 있습니다. 판도라 모드만이 열려 있습니다.
+COUPON_ALREADY_USED;이 쿠폰은 이미 사용되었습니다.
+COUPON_DOES_NOT_EXIST;쿠폰 코드가 유효하지 않습니다.
+COUPON_EXPIRED;쿠폰의 등록 기한이 만료되었습니다.
+COUPON_ITEM_ALREADY_OWNED;이 쿠폰에 해당하는 상품을 이미 가지고 있습니다.
+COUPON_MAX_ACTIVATIONS_REACHED;계정 당 등록 횟수 제한을 초과하여 이 쿠폰을 등록할 수 없습니다.
+COUPON_RESERVED;이 쿠폰은 이미 다른 계정에 사용되었습니다.
+DECK_SIZE_LIMITED;덱 매수 제한은 {0}장입니다.
+DISCONNECTED_FROM_WORLD;게임은 종료되었지만 서버 접속이 끊겼습니다. 다시 시도해주세요.
+FRIEND_DOES_NOT_ALLOW_SPECTATE;친구가 관전을 허용하지 않았습니다.
+FRIEND_NO_LONGER_IN_GAME;친구가 게임중이 아닙니다.
+GAME_CANCELED_NO_GAMESERVER_FOUND;회원님의 지역에서 게임 서버를 찾을 수 없었습니다. 나중에 다시 시도해주세요.
+GAME_CANCELED_PLAYER_DID_NOT_REPLY_IN_TIME;게임이 취소되었습니다.(플레이어가 시간 내에 응답하지 않았습니다.)
+GAME_CANCELED_SERVER_DID_NOT_REPLY_IN_TIME;게임이 취소되었습니다.(서버가 시간 내에 응답하지 않았습니다.)
+GAME_CANCELED_SERVER_STOPPING;게임이 취소되었습니다.(서버가 닫힐 예정입니다.)
+GAME_CANCELED_VERSION;클라이언트 버전이 오래되어 게임이 취소되었습니다.
+INVALID_HIGHLANDER_DECK_DUPLICATE;잘못된 하이랜더 덱: 같은 카드를 두 장 이상 사용할 수 없습니다.
+INVALID_STEAM_KEY;잘못된 스팀 키.
+LEGENDARY_CARD_LIMITED;전설 카드는 한 장만 사용할 수 있습니다.
+MAIL_ALREADY_EXISTS;이미 존재하는 메일 주소입니다.
+MARKET_ITEM_ALREADY_OWNED;그 아이템을 이미 가지고 있습니다.
+NEW_BOSS_MISSION_UNLOCKED;새로운 보스 미션이 개방되었습니다!
+NO_ACTIONS_LEFT_RETRYING_PUZZLE;더 이상 수가 없구나! 다시 해 보아라...
+ORB_DIED_RETRYING_PUZZLE;내가 이겨버렸구나! 다시 해 보아라...
+PAUSE_LIMIT_REACHED;You can no longer pause the game (the limit of {0} pauses has been reached).
+PICK_TOURNAMENT_MATCHES_FORMAT;토너먼트 경기 규칙을 선택해주세요.
+PLAYER_LEFT_GAME;플레이어 {0}이 게임을 떠났습니다!
+RECIPIENT_IS_OFFLINE;{0}님은 오프라인 상태입니다.
+RECRUITER_SET;추천인이 성공적으로 등록되었습니다.
+SELECT_A_DECK;덱을 선택해야 합니다.
+SERVER_BUSY_TRY_AGAIN;서버가 포화 상태입니다. 몇 분 후에 다시 시도해주세요.
+SERVER_COULD_NOT_FIND_GAME;서버가 요청한 게임을 찾지 못했습니다.
+SERVER_SHUTDOWN;{0}분 후 서버 업데이트가 진행됩니다. 게임이 끝난 뒤에는 재접속해야 업데이트가 적용됩니다.
+SERVER_SHUTDOWN_CANCELED;서버 종료가 취소되었습니다.
+SERVER_SHUTDOWN_WARNING;{0}분 후 서버 업데이트가 진행됩니다. {1}분 뒤부터 게임을 시작할 수 없게 됩니다.
+SPECTATED_PLAYER_LEFT_GAME;관전 중인 플레이어가 게임을 떠났습니다.
+STEAM_FINALISE_TXN_FAILED;결제가 완료되지 않았습니다.
+STEAM_ID_NOT_FOUND;스팀 ID를 찾을 수 없습니다.
+STEAM_INIT_TXN_FAILED;결제를 진행할 수 없습니다.
+STEAM_PRICE_CHANGED;아이템의 가격이 변동되었습니다. 다시 시도하세요.
+STEAM_USER_INFO_NOT_FOUND;스팀 유저 정보를 알 수 없습니다.
+UPDATE_CLIENT_TO_PLAY;플레이하려면 클라이언트 업데이트가 필요합니다.
+UPGRADE_ACCOUNT_FAILED;계정 업그레이드 실패.
+USER_ALREADY_SET_YOU_AS_RECRUITER;{0}는 이미 당신을 추천인으로 등록했습니다.
+USER_ALREADY_SIGNED_IN;이미 접속중인 유저입니다. 1분 뒤에 다시 시도해보세요. 문제가 지속된다면, support@faeria.com으로 연락해주세요.
+USER_NAME_INVALID;유저명에는 알파뱃, 숫자, 하이픈, 언더스코어만을 사용할 수 있습니다.
+USER_NAME_RESERVED;유저명이 예약되었습니다.
+USER_NAME_SIZE_MAX_INVALID;유저명은 {0}글자 이하여야 합니다.
+USER_NAME_SIZE_MIN_INVALID;유저명은 {0}글자 이상이어야 합니다.
+USER_NOT_FOUND;유저가 존재하지 않습니다: {0}
+WRONG_ACTIVATION_KEY;입력한 활성화 키가 잘못된 것 같습니다.
+WRONG_DECK_SIZE;덱을 사용하려면 카드가 {0}장 필요합니다.
+WRONG_LEVEL_FOR_ARENA;판도라에 입장하려면 레벨이 {0} 이상이어야 합니다.
+WRONG_LEVEL_FOR_RANKED;등급전에 도전하기 위해서는 {0}레벨이 되어야 합니다.
+ACCOUNT_IS_BANNED;이 계정은 현재 금지되어 있습니다.
+NO_AVAILABLE_LORE_PAGES_LEFT;더이상 설화가 없습니다!
+WRONG_LEVEL_FOR_OVERSKY;창공에 도전하기 위해서는 {0}레벨이 되어야 합니다.
+WRONG_LEVEL_FOR_PUZZLE;퍼즐에 도전하기 위해서는 {0}레벨이 되어야 합니다.
+WRONG_LEVEL_FOR_BOSS;월드 보스에 도전하기 위해서는 {0}레벨이 되어야 합니다.
+WRONG_LEVEL_FOR_DRAGONS_LAIR;용의 둥지에 도전하기 위해서는 {0}레벨이 되어야 합니다.
+PLATFORM_FRIENDS_ONLY_APPEAR_WHEN_ONLINE;해당 플랫폼에 있는 친구들은 접속 중일 때만 나타납니다.
+FRIEND_ADDED_SUCCESSFULLY;친구가 추가되었습니다!
+ALREADY_FRIENDS;이미 친구인 플레이어 입니다.

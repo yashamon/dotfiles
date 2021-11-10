@@ -1,0 +1,46 @@
+TUTORIAL_ADVENTURE_POUCH_AVAILABLE_GOT_IT;Eine neue Reise beginnt...\nDer Abenteuerbeutel wurde enthüllt, jetzt ist es an der Zeit, herauszufinden, was Faeria als nächstes erwartet!\nW-Was ist das für ein Medallion?
+TUTORIAL_BATTLE_CASUAL_MODE_HINT;Wenn du einfach ein wenig mit Faeria entspannen willst, ist hier der Casual-Modus.
+TUTORIAL_BATTLE_CHOOSE_MODE_GOT_IT;Jedesmal, bevor du ein Spiel startest, kannst du zwischen dem Übungs-, Casual-, und Ranglistenmodus wählen.
+TUTORIAL_BATTLE_PRACTICE_MODE_HINT;Wenn du gegen einen KI-Gegner trainieren möchtest, wähle den Übungsmodus aus.
+TUTORIAL_BATTLE_RANKED_MODE_HINT;Wenn du deine überlegenen Fähigkeiten unter Beweis stellen möchtest, ist hier der Ranglistenmodus.
+TUTORIAL_CRAFTING_HIT_CRAFT_MODE_BUTTON;Du hast die Fähigkeit freigeschaltet, neue Karten herzustellen!
+TUTORIAL_DECK_EDITION_NEW_CARD_RECEIVED_GOT_IT;Du hast eine neue Karte erhalten. Lass uns schauen, wie du sie zu deinem Deck hinzufügen kannst!
+TUTORIAL_FIRST_FORMULA_DECK_CREATED;Dies ist dein erstes Deck. Nun bist du bereit zu spielen!
+TUTORIAL_FIRST_FORMULA_HIT_BLUEPRINT_SELECT_BUTTON;Dies ist ein Rezept, mit dessen Hilfe du in wenigen Sekunden ein Deck erstellen kannst.
+TUTORIAL_FIRST_FORMULA_HIT_PLAY_BUTTON;Lass uns dein neues Deck gleich in einem Match testen.
+TUTORIAL_FIRST_FORMULA_HOME_UNLOCKED_GOT_IT;Glückwunsch, du hast das Hauptmenü von Faeria freigeschaltet! Lass uns damit anfangen, dein erstes Deck zu bauen.
+TUTORIAL_FIRST_FORMULA_SOLO_GOT_IT;Wilkommen zu den Missionen! Schließe sie ab, um Stufen aufzusteigen und mehr Karten zu erhalten.
+TUTORIAL_SECOND_FORMULA_CREATE_DECK;Erstelle das Deck trotzdem und füge dann einfach zwei beliebige Karten hinzu.
+TUTORIAL_SECOND_FORMULA_FINISH_DECK_GOT_IT;Es ist kein Problem, wenn du nicht alle Karten für ein Rezept besitzt, du kannst es jederzeit mit Karten deiner Wahl vervollständigen.
+TUTORIAL_SECOND_FORMULA_NEW_FORMULA_RECEIVED_GOT_IT;Du hast ein neues Rezept erhalten - lass es uns ausprobieren!
+TUTORIAL_SECOND_FORMULA_NOT_COMPLETED_FORMULA_HINT;Du hast 28 der 30 erforderlichen Karten für dieses Rezept.
+TUTORIAL_SHOP_MYTHIC_CHEST_HINT;Mythische Truhen enthalten mythische Versionen von Karten oder kosmetische Gegenstände.
+TUTORIAL_PANDORA_PRACTICE_COIN_HINT;Wette zwei Beutetruhen und kämpfe mit einem neuerstellten Deck. Gewinne bis zu 6 Spiele um Beutetrugen und Karten zu gewinnen.
+TUTORIAL_PANDORA_FULL_COIN_HINT;Wette Scherben und erhalte mystische Karten und Scherben zurück.
+MOUSE_TUTORIAL_PANDORA_REWARD_GOT_IT;Sammle am Ende jeder Saison Pandora-Punkte. Die Belohnungen auf einen Klick! <u><link=https://esports.faeria.com/pandora-season>https://esports.faeria.com/pandora-season</link></u>
+DAILY_REWARDS_TUTORIAL_GOT_IT;Das war deine erste tägliche Belohnung. Melde dich täglich an um steigende Belohnungen zu verdienen. Keine Sorge, du behältst deinen Fortschritt, selbst wenn du einen Tag verpasst.
+LOYALTY_PATCH_PUZZLES_GOT_IT;Hier sind einige Puzzle um dich mit dem Untergang von Ewigleb vertraut zu machen.
+TUTORIAL_WORLD_MAP_GOT_IT;Wilkommen in der Welt von Faeria! Von hier aus kannst du beeindruckende Gegner antreffen und letztendlich die Sphäre der Meister freischalten.
+TUTORIAL_PANDORA_FIRST_GAME_GOT_IT;Pandoras Artefakte wurden in jedes Deck gemischt. Sobald 5 Artefakte gefunden wurden, erwacht Pandora.
+TUTORIAL_PANDORA_AWAKENS_GOT_IT;Pandora erwacht: Schätze sind nun in den Decks. Erhalte 3 zusätzliche Faeria jeden Zug.
+TUTORIAL_CRAFTING_CRAFT_CHARGES_GOT_IT;Herstellungs Ladungen werden dafür benutzt neue Karten zu erschaffen. Du kannst bis zu {0} auf einmal haben und sie laden sich über Zeit wider auf.
+TUTORIAL_CRAFTING_CRAFT_GOT_IT;Vorerst kannst du lediglich gewöhnliche Karten herstellen, aber auf höheren Levels kannst du auch seltene oder epische herstellen!
+TUTORIAL_SHOP_DEAL_OF_THE_DAY_HINT;Du kannst zudem auch Gegenstände direkt vom Laden kaufen. Die Auswahl ändert sich täglich!
+TUTORIAL_SHOP_GOT_IT;Hier kannst du kosmetische Gegenstände kaufen, die deinen Karten schimmernde Rahmen verleihen oder dir ermöglichen dein Profil zu personalisieren.
+TUTORIAL_LORE_BOOK_GOT_IT;Du hast das Geschichtsbuch freigeschaltet!
+TUTORIAL_DRAGONS_LAIR_IS_HERE_GOT_IT;Betrete die Drachenhöhle hier, wenn du dich traust.
+TUTORIAL_DRAGONS_LAIR_IS_DAILY_GOT_IT;Neue Drachen betreten die Höhle jeden Tag. Besiege jeden von ihnen oft genug, um ihre kosmetischen Sets zu erlangen.
+TUTORIAL_DRAGONS_LAIR_GOT_IT;Die Drachenhöhle ist nun verfügbar!\nBekämpfe mächtige Drachen allein oder mit Freunden in dieser täglichen Herausforderung!
+TUTORIAL_DECK_COSMETIC_SET_POPUP_GOT_IT;Wähle die kosmetischen Gegenstände aus, die du für dieses Deck haben willst und drücke Anwenden um die Änderungen zu bestätigen.
+TUTORIAL_DECK_COSMETIC_SET_EDIT_DECK_GOT_IT;Du kannst nun ein spezifisches kosmetisches Set für jedes Deck erstellen!
+GAMEPAD_TUTORIAL_PANDORA_REWARD_GOT_IT;Sammle am Ende jeder Saison Pandora-Punkte. Die Belohnungen siehst du bei <u><link=https://esports.faeria.com/pandora-season>https://esports.faeria.com/pandora-season</link></u>
+GAMEPAD_TUTORIAL_LORE_BOOK_ZOOM_ON_LORE_ITEM;Drücke auf freigeschalteten Überlieferungsseiten auf {GAMEPAD_ACTION_CONFIRM}, um sie zu lesen.
+MOUSE_TUTORIAL_LORE_BOOK_ZOOM_ON_LORE_ITEM;Klicke auf die freigeschalteten Überlieferungsseiten, um sie zu lesen.
+GAMEPAD_TUTORIAL_DECK_EDITION_REMOVE_ANY_CARD_FROM_DECK;Drücke auf einer beliebigen Karte auf {GAMEPAD_ACTION_CONFIRM}, um sie aus deinem Deck zu entfernen.
+MOUSE_TUTORIAL_DECK_EDITION_REMOVE_ANY_CARD_FROM_DECK;Klicke auf eine beliebige Karte, um sie aus deinem Stapel zu entfernen.
+GAMEPAD_TUTORIAL_DECK_EDITION_CLICK_SAVE;Wähle jetzt Speichern, dann bist du fertig.
+MOUSE_TUTORIAL_DECK_EDITION_CLICK_SAVE;Klicke auf Speichern, dann bist du fertig.
+GAMEPAD_TUTORIAL_DECK_EDITION_ADD_ANY_CARD_TO_DECK;Wähle jetzt diese Karte, um sie zu deinem Deck hinzuzufügen.
+MOUSE_TUTORIAL_DECK_EDITION_ADD_ANY_CARD_TO_DECK;Klicke jetzt auf diese Karte, um sie zu deinem Stapel hinzuzufügen.
+GAMEPAD_TUTORIAL_ADVENTURE_POUCH_MEDALLION_GOT_IT;Drücke auf {GAMEPAD_ACTION_CONFIRM}, um am Abenteuer teilzunehmen
+MOUSE_TUTORIAL_ADVENTURE_POUCH_MEDALLION_GOT_IT;Klicke hier, um am Abenteuer teilzunehmen

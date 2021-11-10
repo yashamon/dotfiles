@@ -1,0 +1,35 @@
+AUTHENTICATION_LOCAL_ERROR;No se ha podido autentificar con {0}, intenta reconectar tu cliente.
+DECK_LIMIT_MESSAGE;Un mazo tiene un límite de {0} cartas.
+EMAIL_INVALID;La dirección de correo electrónico introducida no es válida.
+EMPTY_USERNAME_PASSWORD_NOT_ALLOWED;Los campos de nombre de usuario y contraseña no pueden estar vacíos.
+ERROR_MESSAGE;Mensaje de error: {0}
+ERROR_RESOURCES_CORRUPTED;Los recursos parecen corruptos y el juego debe cerrarse. Por favor considera reinstalar el juego si este error persiste.
+GAMECENTER_HTTP_ERROR;No hemos podido conectar con los servidores de autentificación de Apple. Inténtalo de nuevo más tarde.
+GAMECENTER_RUNTIME_ERROR;No se ha podido autentificar. Inténtalo de nuevo más tarde.
+GAMECENTER_SIGNATURE_MISMTACH;Error de autentificación. Inténtalo de nuevo más tarde.
+GAME_SERVER_CONNECTION_FAILED;No has podido reconectarte a la partida.
+GAME_SERVER_RECONNECTION_FAILED;No se pudo reconectar al juego.
+MAIL_INVALID;La dirección de correo electrónico introducida no es válida.
+MUST_WAIT;Espera {0} minutos para hacer eso.
+RECOVERY_CODE_EXPIRED;El código de recuperación ha caducado.
+RECOVERY_CODE_INVALID;El código de recuperación no es válido.
+SERVER_CONNECTION_FAILED;No se pudo conectar al servidor.
+SERVER_UNREACHABLE;No se ha podido conectar con el servidor.
+STEAM_ACCOUNT_DLC_NOT_SYNCHRONISED;Esta cuenta no está disponible porque tus contenidos descargables de Steam no están sincronizados.
+STEAM_ACCOUNT_NOT_FOUND;Esta cuenta aun no esta vinculada con Steam.
+TOKEN_INVALID;Se ha producido un error en la autentificación, inténtalo de nuevo.
+UNAUTHORIZED_ACCESS;Intento de acceso no autorizado, intente reiniciar su cliente.
+UNKNOWN_ERROR;Ha ocurrido un error desconocido. Por favor intenta contactar con el soporte técnico si el problema persiste.
+WORLD_SERVER_RECONNECTION_FAILED;No se pudo reconectar al servidor.
+FRIEND_ALREADY_IN_LOBBY;Amigo ya en la sala!.
+LOBBY_INVALID_MINUTES_PER_GAME;Ingresa un valor positivo en el campo: "minutos por juego"
+LOBBY_INVALID_TURN_DURATION;Ingresa un valor positivo en el campo: "duración de turno"
+LOBBY_TIMER_EMPTY_MATCH_FORMAT;Selecciona un formato de partida al utilizar el temporizador de juego
+INTERNAL_ERROR;Error interno del servidor. Por favor, vuelva a intentarlo.
+PLATFORM_PRIVILEGES_DO_NOT_ALLOW;Los privilegios de la plataforma no te permiten llevar a cabo esta acción.
+ACHIEVEMENT_INITIALIZATION_FAILED_TITLE;Inicialización fallida.
+ACHIEVEMENT_INITIALIZATION_FAILED_TEXT;No se han podido cargar los logros. Compruebe la conexión a Internet.
+PLAYER_CANNOT_PLAY_MULTIPLAYER_GAMES;Este jugador no tiene permitido jugar en multijugador.
+DEBUG_PANEL_EXIT_BUTTON;SALIR
+CANNOT_RENAME_ON_PLATFORM;No se puede renombrar en esta plataforma.
+PLATFORM_PRIVILEGES_CANNOT_LOGIN;No se pudo acceder porque tienes los permisos requeridos para jugar

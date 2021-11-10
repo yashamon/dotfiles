@@ -1,0 +1,34 @@
+AUTHENTICATION_LOCAL_ERROR;Невозможно аутентифицировать {0}, попробуйте перезапустить клиент.
+DECK_LIMIT_MESSAGE;Размер колоды ограничен {0} картами.
+EMAIL_INVALID;Введён недействительный адрес электронной почты.
+EMPTY_USERNAME_PASSWORD_NOT_ALLOWED;Поля с именем пользователя и паролем нельзя оставлять пустыми.
+ERROR_MESSAGE;Сообщение об ошибке : {0}
+ERROR_RESOURCES_CORRUPTED;Возникла проблема с файлами, игру пришлось закрыть. Пожалуйста, переустановите игру, если эта ошибка повторится.
+GAMECENTER_HTTP_ERROR;Не удалось подключиться к серверам аутентификации Apple. Повторите попытку позже.
+GAMECENTER_RUNTIME_ERROR;Не удается выполнить аутентификацию. Повторите попытку позже.
+GAMECENTER_SIGNATURE_MISMTACH;Ошибка аутентификации. Повторите попытку позже.
+GAME_SERVER_CONNECTION_FAILED;Невозможно подключиться к игре.
+GAME_SERVER_RECONNECTION_FAILED;Не удалось переподключиться к игре.
+MAIL_INVALID;Введён недействительный адрес электронной почты.
+MUST_WAIT;Чтобы это сделать, нужно подождать {0} мин.
+RECOVERY_CODE_EXPIRED;Код восстановления больше не действует.
+RECOVERY_CODE_INVALID;Неверный код восстановления.
+SERVER_CONNECTION_FAILED;Невозможно подключиться к серверу
+SERVER_UNREACHABLE;Сервер недоступен.
+STEAM_ACCOUNT_DLC_NOT_SYNCHRONISED;Эта учётная запись недоступна, так как ваши дополнения в Steam не синхронизированы.
+STEAM_ACCOUNT_NOT_FOUND;Эта учётная запись до сих пор не связана со Steam.
+TOKEN_INVALID;Ошибка аутентификации, пожалуйста, попробуйте войти ещё раз.
+UNAUTHORIZED_ACCESS;Несанкционированная попытка доступа, попробуйте перезапустить игру.
+UNKNOWN_ERROR;Произошла неизвестная ошибка
+WORLD_SERVER_RECONNECTION_FAILED;Не удалось переподключиться к игре.
+FRIEND_ALREADY_IN_LOBBY;Друг уже в лобби!
+LOBBY_INVALID_MINUTES_PER_GAME;Введите положительное значение в поле 'минут на игру'
+LOBBY_INVALID_TURN_DURATION;Введите положительное значение в поле 'длительность хода'
+LOBBY_TIMER_EMPTY_MATCH_FORMAT;Если используется таймер, выберите формат матча
+INTERNAL_ERROR;Внутреняя ошибка сервера. Пожалуйста попробуйте еще раз.
+PLATFORM_PRIVILEGES_DO_NOT_ALLOW;Привилегии платформы не позволяют выполнить это действие.
+ACHIEVEMENT_INITIALIZATION_FAILED_TITLE;Ошибка инициализации
+ACHIEVEMENT_INITIALIZATION_FAILED_TEXT;Не удалось инициализировать достижения. Пожалуйста проверьте ваше соединение.
+PLAYER_CANNOT_PLAY_MULTIPLAYER_GAMES;Этот игрок не может играть в мультиплеере.
+DEBUG_PANEL_EXIT_BUTTON;Выход
+CANNOT_RENAME_ON_PLATFORM;Невозможно переименовать на этой платформе

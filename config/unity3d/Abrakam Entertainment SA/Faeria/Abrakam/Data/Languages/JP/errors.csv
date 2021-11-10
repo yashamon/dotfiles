@@ -1,0 +1,35 @@
+AUTHENTICATION_LOCAL_ERROR;{0}で認証できませんでした。クライアントを再起動してください。
+DECK_LIMIT_MESSAGE;デッキは{0}枚に制限されています。
+EMAIL_INVALID;入力された電子メールアドレスは無効です。
+EMPTY_USERNAME_PASSWORD_NOT_ALLOWED;空のユーザー名/パスワードは許可されません。
+ERROR_MESSAGE;エラーメッセージ：{0}
+ERROR_RESOURCES_CORRUPTED;ファイルが壊れているようなのでゲームから退出しました。この問題が続くなら、再インストールしてみてください。
+GAMECENTER_HTTP_ERROR;Apple認証サーバーに接続できませんでした。 あとでもう一度試してみてください。
+GAMECENTER_RUNTIME_ERROR;認証できませんでした。 あとでもう一度試してみてください。
+GAMECENTER_SIGNATURE_MISMTACH;認証に失敗しました。 再試行する。
+GAME_SERVER_CONNECTION_FAILED;ゲームに接続できません。
+GAME_SERVER_RECONNECTION_FAILED;ゲームに再接続できませんでした。
+MAIL_INVALID;入力された電子メールアドレスは無効です。
+MUST_WAIT;あなたはそれを行うために{0}分待たなければなりません。
+RECOVERY_CODE_EXPIRED;リカバリーコードが期限切れです。
+RECOVERY_CODE_INVALID;リカバリーコードが無効です。
+SERVER_CONNECTION_FAILED;サーバーに接続できませんでした。
+SERVER_UNREACHABLE;サーバーに接続できません。
+STEAM_ACCOUNT_DLC_NOT_SYNCHRONISED;Steam DLCが同期されていないため、このアカウントは利用できません。
+STEAM_ACCOUNT_NOT_FOUND;このアカウントにはSteamとの連携はまだありません。
+TOKEN_INVALID;認証に失敗しました。再度ログインしてみてください。
+UNAUTHORIZED_ACCESS;不正なアクセス試行です、クライアントを再起動してください。
+UNKNOWN_ERROR;不明なエラーが発生しました。エラーが解消されない場合は、サポートに連絡してください。
+WORLD_SERVER_RECONNECTION_FAILED;サーバーに再接続できませんでした。
+FRIEND_ALREADY_IN_LOBBY;既にロビーにいるフレンドです！
+LOBBY_INVALID_MINUTES_PER_GAME;「1ゲームの制限時間（分）」に自然数を入力してください。
+LOBBY_INVALID_TURN_DURATION;「1ターンの制限時間（秒）」に自然数を入力してください。
+LOBBY_TIMER_EMPTY_MATCH_FORMAT;ゲームタイマー使用時はマッチのフォーマットを選択する必要があります。
+INTERNAL_ERROR;内部サーバーエラー。もう一度やり直してください。
+PLATFORM_PRIVILEGES_DO_NOT_ALLOW;プラットフォーム特権では、このアクションを実行できません。
+ACHIEVEMENT_INITIALIZATION_FAILED_TITLE;初期化できませんでした
+ACHIEVEMENT_INITIALIZATION_FAILED_TEXT;実績を初期化できませんでした。接続を確認してください。
+PLAYER_CANNOT_PLAY_MULTIPLAYER_GAMES;このプレイヤーはマルチプレイに接続できません。
+DEBUG_PANEL_EXIT_BUTTON;出る
+CANNOT_RENAME_ON_PLATFORM;このプラットフォームでは名前変更はできません
+PLATFORM_PRIVILEGES_CANNOT_LOGIN;ゲームのプレイに必要なアクセス許可がないためログインできませんでした

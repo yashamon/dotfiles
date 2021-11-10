@@ -1,0 +1,511 @@
+AVATAR_ADVENTURER_NAME;Fugoro
+AVATAR_AURORA_NAME;Aurora
+AVATAR_BASIC_NAME;Entdecker
+AVATAR_BLUE_ELEMENTAL_1_NAME;Azurblauer Elementargeist
+AVATAR_BLUE_ELEMENTAL_2_NAME;Azurblaue Wesenheit
+AVATAR_BLUE_ELEMENTAL_3_NAME;Azurblauer Dschinn
+AVATAR_BOMB_SLINGER_NAME;Bom-R
+AVATAR_CAP_10_NAME;CAP-10
+AVATAR_DARK_WISP_NAME;Dunkles Irrlicht
+AVATAR_FUGORO_NAME;Fugoro
+AVATAR_GREEN_ELEMENTAL_1_NAME;Smaragdgrüner Elementargeist
+AVATAR_GREEN_ELEMENTAL_2_NAME;Smaragdgrüne Wesenheit
+AVATAR_GREEN_ELEMENTAL_3_NAME;Grasgrüner Dschinn
+AVATAR_HOAKA_NAME;Hoaka
+AVATAR_JALMYR_NAME;Jalmyr
+AVATAR_KAIOS_NAME;Kaios
+AVATAR_KELDRAN_EMISSARY_NAME;Windgetragener Botschafter
+AVATAR_KHALIM_NAME;Khalim
+AVATAR_KINGS_GUARD_NAME;Balhar
+AVATAR_KOBOLD_MERCENARY_NAME;Untergrund-Boss
+AVATAR_KROG_NAME;Krog
+AVATAR_MAGDA_NAME;Magda
+AVATAR_OGRE_BATTLER_NAME;Kampflustiger Oger
+AVATAR_RAIZEON_NAME;Raizeon
+AVATAR_RAPALA_NAME;Rapala
+AVATAR_RED_ELEMENTAL_1_NAME;Karmesinroter Elementargeist
+AVATAR_RED_ELEMENTAL_2_NAME;Karmesinrote Wesenheit
+AVATAR_RED_ELEMENTAL_3_NAME;Blutroter Dschinn
+AVATAR_RUUNIN_NAME;Ruunin
+AVATAR_SAGAMI_ELDER_NAME;Sagami-Ältester
+AVATAR_SEIFER_NAME;Seifer
+AVATAR_SHARRA_NAME;Sharra
+AVATAR_SHAYTAN_ASSASSIN_NAME;Meuchelnder Schaitan
+AVATAR_TAESA_NAME;Gabrianische Verzauberin
+AVATAR_TARANGA_NAME;Taranga
+AVATAR_TARUM_NAME;Tarum
+AVATAR_THE_EGG_NAME;Das Ei
+AVATAR_ULANI_NAME;Ulanis
+AVATAR_VERDURAN_FORCE_NAME;Naturgewalt der Pflanzenwelt
+AVATAR_YAKKAR_NAME;Yakkar
+AVATAR_YAK_CYNICAL_NAME;Der Zynische Yak
+AVATAR_YAK_DRAGON_NAME;Fafnir
+AVATAR_YAK_FANCY_NAME;Sir Yakkinton
+AVATAR_YAK_FARMER_NAME;Strohfeld
+AVATAR_YAK_FAT_NAME;Flauschi
+AVATAR_YAK_FORCER_NAME;Yak-Bulle
+AVATAR_YAK_HIPPIE_NAME;Friedensblüte
+AVATAR_YAK_KING_NAME;König Yaknus
+AVATAR_YAK_PIRATE_NAME;Yak Sparrow
+AVATAR_YELLOW_ELEMENTAL_1_NAME;Einsamer Elementargeist
+AVATAR_YELLOW_ELEMENTAL_2_NAME;Einsame Wesenheit
+AVATAR_YELLOW_ELEMENTAL_3_NAME;Einsamer Dschinn
+CARD_BACK_1605_GOLD_NAME;Goldener Kartenrücken der 1. Saison
+CARD_BACK_1605_SILVER_NAME;Silberner Kartenrücken der 1. Saison
+CARD_BACK_1606_GOLD_NAME;Goldener Kartenrücken der 2. Saison
+CARD_BACK_1606_SILVER_NAME;Silberner Kartenrücken der 2. Saison
+CARD_BACK_1607_GOLD_NAME;Goldener Kartenrücken der 3. Saison
+CARD_BACK_1607_SILVER_NAME;Silberner Kartenrücken der 3. Saison
+CARD_BACK_1608_GOLD_NAME;Goldener Kartenrücken der 4. Saison
+CARD_BACK_1608_SILVER_NAME;Silberner Kartenrücken der 4. Saison
+CARD_BACK_1609_GOLD_NAME;Goldener Kartenrücken der 5. Saison
+CARD_BACK_1609_SILVER_NAME;Silberner Kartenrücken der 5. Saison
+CARD_BACK_1610_GOLD_NAME;Goldener Kartenrücken der 6. Saison
+CARD_BACK_1610_SILVER_NAME;Silberner Kartenrücken der 6. Saison
+CARD_BACK_1611_GOLD_NAME;Goldener Kartenrücken der 7. Saison
+CARD_BACK_1611_SILVER_NAME;Silberner Kartenrücken der 7. Saison
+CARD_BACK_1612_GOLD_NAME;Goldener Kartenrücken der 8. Saison
+CARD_BACK_1612_SILVER_NAME;Silberner Kartenrücken der 8. Saison
+CARD_BACK_1701_GOLD_NAME;Goldener Kartenrücken der 9. Saison
+CARD_BACK_1701_SILVER_NAME;Silberner Kartenrücken der 9. Saison
+CARD_BACK_1702_GOLD_NAME;Saison 10 Gold-Kartenrücken
+CARD_BACK_1702_SILVER_NAME;Saison 10 Silber-Kartenrücken
+CARD_BACK_1703_GOLD_NAME;Saison 11 Gold-Kartenrücken
+CARD_BACK_1703_SILVER_NAME;Saison 11 Silber-Kartenrücken
+CARD_BACK_1704_GOLD_NAME;Saison 12 Gold-Kartenrücken
+CARD_BACK_1704_SILVER_NAME;Saison 12 Silber-Kartenrücken
+CARD_BACK_1705_GOLD_NAME;Saison 13 Gold-Kartenrücken
+CARD_BACK_1705_SILVER_NAME;Saison 13 Silber-Kartenrücken
+CARD_BACK_1706_GOLD_NAME;Saison 14 Gold-Kartenrücken
+CARD_BACK_1706_SILVER_NAME;Saison 14 Silber-Kartenrücken
+CARD_BACK_1707_GOLD_NAME;Saison 15 Gold-Kartenrücken
+CARD_BACK_1707_SILVER_NAME;Saison 15 Silber-Kartenrücken
+CARD_BACK_1708_GOLD_NAME;Saison 16 Gold-Kartenrücken
+CARD_BACK_1708_SILVER_NAME;Saison 16 Silber-Kartenrücken
+CARD_BACK_1709_GOLD_NAME;Saison 17 Gold-Kartenrücken
+CARD_BACK_1709_SILVER_NAME;Saison 17 Silber-Kartenrücken
+CARD_BACK_1710_GOLD_NAME;Goldener Kartenrücken der 18.Saison
+CARD_BACK_1710_SILVER_NAME;Silberner Kartenrücken der 18.Saison
+CARD_BACK_1711_GOLD_NAME;Goldener Kartenrücken der 19.Saison
+CARD_BACK_1711_SILVER_NAME;Silberner Kartenrücken der 19.Saison
+CARD_BACK_1712_GOLD_NAME;Goldener Kartenrücken der 20.Saison
+CARD_BACK_1712_SILVER_NAME;Silberner Kartenrücken der 20.Saison
+CARD_BACK_1801_GOLD_NAME;Goldener Kartenrücken der 21.Saison
+CARD_BACK_1801_SILVER_NAME;Silberner Kartenrücken der 21.Saison
+CARD_BACK_1802_GOLD_NAME;Goldener Kartenrücken der 22.Saison
+CARD_BACK_1802_SILVER_NAME;Silberner Kartenrücken der 22.Saison
+CARD_BACK_1803_GOLD_NAME;Goldener Kartenrücken der 23.Saison
+CARD_BACK_1803_SILVER_NAME;Silberner Kartenrücken der 23.Saison
+CARD_BACK_1804_GOLD_NAME;Goldener Kartenrücken der 24.Saison
+CARD_BACK_1804_SILVER_NAME;Silberner Kartenrücken der 24.Saison
+CARD_BACK_1805_GOLD_NAME;Goldener Kartenrücken der 25.Saison
+CARD_BACK_1805_SILVER_NAME;Silberner Kartenrücken der 25.Saison
+CARD_BACK_ADVENTURER_NAME;Fugoros Kartenrücken
+CARD_BACK_ADVENTURE_POUCH_NAME;Kartenrücken des Abenteurers
+CARD_BACK_AURORA_NAME;Auroras Kartenrücken
+CARD_BACK_BASIC_COPPER_NAME;Kartenrücken des lila Diamanten
+CARD_BACK_BASIC_DIAMOND_NAME;Kartenrücken des silbernen Diamanten
+CARD_BACK_BASIC_NAME;Standard-Kartenrücken
+CARD_BACK_BOMB_SLINGER_NAME;Bom-Rs Kartenrücken
+CARD_BACK_DRAGON_NAME;Kartenrücken des Schwarzen Drachen
+CARD_BACK_FAERIA_WORLD_CIRCUIT_NAME;Faeria Weltenzirkel
+CARD_BACK_FUGORO_NAME;Fugoros Kartenrücken
+CARD_BACK_HOAKA_NAME;Hoakas Kartenrücken
+CARD_BACK_JALMYR_NAME;Jalmyrs Kartenrücken
+CARD_BACK_KAIOS_NAME;Kaios Kartenrücken
+CARD_BACK_KHALIM_NAME;Khalims Kartenrücken
+CARD_BACK_KROG_NAME;Krogs Kartenrücken
+CARD_BACK_MAGDA_NAME;Magdas Kartenrücken
+CARD_BACK_MOSAIC_FLOWER_NAME;Kartenrücken mit Blumenmosaik
+CARD_BACK_MOSAIC_SOLAR_NAME;Kartenrücken mit Sonnenmosaik
+CARD_BACK_MUCHA_NAME;Kartenrücken Art Nouveau
+CARD_BACK_PANDORA_1610_GOLD_NAME;Goldener Pandora-Kartenrücken der 6. Saison
+CARD_BACK_PANDORA_1610_SILVER_NAME;Silberner Pandora-Kartenrücken der 6. Saison
+CARD_BACK_PANDORA_1611_GOLD_NAME;Goldener Pandora-Kartenrücken der 7. Saison
+CARD_BACK_PANDORA_1611_SILVER_NAME;Silberner Pandora-Kartenrücken der 7. Saison
+CARD_BACK_PANDORA_1612_GOLD_NAME;Goldener Pandora-Kartenrücken der 8. Saison
+CARD_BACK_PANDORA_1612_SILVER_NAME;Silberner Pandora-Kartenrücken der 8. Saison
+CARD_BACK_PANDORA_1701_GOLD_NAME;Goldener Pandora-Kartenrücken der 9. Saison
+CARD_BACK_PANDORA_1701_SILVER_NAME;Silberner Pandora-Kartenrücken der 9. Saison
+CARD_BACK_PANDORA_1702_GOLD_NAME;Saison 10 Pandora-Gold-Kartenrücken
+CARD_BACK_PANDORA_1702_SILVER_NAME;Saison 10 Pandora-Silber-Kartenrücken
+CARD_BACK_PANDORA_1703_GOLD_NAME;Saison 11 Pandora-Gold-Kartenrücken
+CARD_BACK_PANDORA_1703_SILVER_NAME;Saison 11 Pandora-Silber-Kartenrücken
+CARD_BACK_PANDORA_1704_GOLD_NAME;Saison 12 Pandora-Gold-Kartenrücken
+CARD_BACK_PANDORA_1704_SILVER_NAME;Saison 12 Pandora-Silber-Kartenrücken
+CARD_BACK_PANDORA_1705_GOLD_NAME;Saison 13 Pandora-Gold-Kartenrücken
+CARD_BACK_PANDORA_1705_SILVER_NAME;Saison 13 Pandora-Silber-Kartenrücken
+CARD_BACK_PANDORA_1706_GOLD_NAME;Saison 14 Pandora-Gold-Kartenrücken
+CARD_BACK_PANDORA_1706_SILVER_NAME;Saison 14 Pandora-Silber-Kartenrücken
+CARD_BACK_PANDORA_1707_GOLD_NAME;Saison 15 Pandora-Gold-Kartenrücken
+CARD_BACK_PANDORA_1707_SILVER_NAME;Saison 15 Pandora-Silber-Kartenrücken
+CARD_BACK_PANDORA_1708_GOLD_NAME;Saison 16 Pandora Gold-Kartenrücken
+CARD_BACK_PANDORA_1708_SILVER_NAME;Saison 16 Pandora Silber-Kartenrücken
+CARD_BACK_PANDORA_1709_GOLD_NAME;Saison 17 Pandora Gold-Kartenrücken
+CARD_BACK_PANDORA_1709_SILVER_NAME;Saison 17 Pandora Silber-Kartenrücken
+CARD_BACK_PANDORA_1710_GOLD_NAME;Goldener Pandora Kartenrücken der 18.Saison
+CARD_BACK_PANDORA_1710_SILVER_NAME;Silberner Pandora Kartenrücken der 18.Saison
+CARD_BACK_PANDORA_1711_GOLD_NAME;Goldener Pandora Kartenrücken der 19.Saison
+CARD_BACK_PANDORA_1711_SILVER_NAME;Silberner Pandora Kartenrücken der 19.Saison
+CARD_BACK_PANDORA_1712_GOLD_NAME;Goldener Pandora Kartenrücken der 20.Saison
+CARD_BACK_PANDORA_1712_SILVER_NAME;Silberner Pandora Kartenrücken der 20.Saison
+CARD_BACK_PANDORA_1801_GOLD_NAME;Goldener Pandora Kartenrücken der 21.Saison
+CARD_BACK_PANDORA_1801_SILVER_NAME;Silberner Pandora Kartenrücken der 21.Saison
+CARD_BACK_PANDORA_1802_GOLD_NAME;Goldener Pandora Kartenrücken der 22.Saison
+CARD_BACK_PANDORA_1802_SILVER_NAME;Silberner Pandora Kartenrücken der 22.Saison
+CARD_BACK_PANDORA_1803_GOLD_NAME;Goldener Pandora Kartenrücken der 23.Saison
+CARD_BACK_PANDORA_1803_SILVER_NAME;Silberner Pandora Kartenrücken der 23.Saison
+CARD_BACK_PANDORA_1804_GOLD_NAME;Goldener Pandora Kartenrücken der 24.Saison
+CARD_BACK_PANDORA_1804_SILVER_NAME;Silberner Pandora Kartenrücken der 24.Saison
+CARD_BACK_PANDORA_1805_GOLD_NAME;Goldener Pandora Kartenrücken der 25.Saison
+CARD_BACK_PANDORA_1805_SILVER_NAME;Silberner Pandora Kartenrücken der 25.Saison
+CARD_BACK_PREMIUM_NAME;Premium Kartenrücken
+CARD_BACK_RAPALA_NAME;Rapalas Kartenrücken
+CARD_BACK_RUUNIN_NAME;Ruunins Kartenrücken
+CARD_BACK_SEIFER_NAME;Seifers Kartenrücken
+CARD_BACK_SHARRA_NAME;Sharras Kartenrücken
+CARD_BACK_TARUM_NAME;Tarums Kartenrücken
+EMOTE_ADVENTURER_GREETINGS_NAME;Möge der beste Frosch gewinnen.
+EMOTE_ADVENTURER_OOPS_NAME;Whoopsie.
+EMOTE_ADVENTURER_TAUNT_NAME;Vielleicht solltest du mehr Karten kaufen.
+EMOTE_ADVENTURER_UNIQUE_NAME;Hast du schon mein Wolkenwelt-Abenteuer gekauft?
+EMOTE_ADVENTURER_WELL_PLAYED_NAME;Genial.
+EMOTE_ADVENTURER_WOW_NAME;Verfroscht nochmal!
+EMOTE_AURORA_GREETINGS_NAME;So schön, dich zu sehen.
+EMOTE_AURORA_OOPS_NAME;Aus Fehlern lernen wir.
+EMOTE_AURORA_TAUNT_NAME;Du bist bezaubernd!
+EMOTE_AURORA_UNIQUE_NAME;Kein Respekt für das Alter...
+EMOTE_AURORA_WELL_PLAYED_NAME;Du hast dir meinen Respekt verdient.
+EMOTE_AURORA_WOW_NAME;Offenbar habe ich noch nicht alles gesehen.
+EMOTE_BASIC_GREETINGS_NAME;Sei gegrüßt.
+EMOTE_BASIC_OOPS_NAME;Das war ein Fehler.
+EMOTE_BASIC_TAUNT_NAME;Du wirst nicht überleben.
+EMOTE_BASIC_WELL_PLAYED_NAME;Gut gespielt.
+EMOTE_BASIC_WOW_NAME;Großartig!
+EMOTE_BOMB_SLINGER_GREETINGS_NAME;Begrüßungs-Sequenz initialisiert!
+EMOTE_BOMB_SLINGER_OOPS_NAME;FEHLER. FEHLER.
+EMOTE_BOMB_SLINGER_TAUNT_NAME;Vernichtung!
+EMOTE_BOMB_SLINGER_UNIQUE_NAME;Updates werden installiert ...
+EMOTE_BOMB_SLINGER_WELL_PLAYED_NAME;Gut gespielt = Wahr!
+EMOTE_BOMB_SLINGER_WOW_NAME;Spaßlevel auf höchstmögliche Stufe gestellt!
+EMOTE_FUGORO_GREETINGS_NAME;Grüße, Freund.
+EMOTE_FUGORO_OOPS_NAME;Weisheit lässt sich nicht mit Geld kaufen.
+EMOTE_FUGORO_TAUNT_NAME;Möchtest du deine Niederlage als Geschenk verpackt?
+EMOTE_FUGORO_UNIQUE_NAME;Kauf mehr Truhen, unterstütze deinen lokalen Händler!
+EMOTE_FUGORO_WELL_PLAYED_NAME;Gut gespielt. Du bist mein Lieblingskunde.
+EMOTE_FUGORO_WOW_NAME;Unglaublich! Ich hätte Eintritt verlangen sollen!
+EMOTE_HOAKA_GREETINGS_NAME;Wilkommen! Wilkommen!
+EMOTE_HOAKA_OOPS_NAME;Das hätte ich besser nicht getan.
+EMOTE_HOAKA_TAUNT_NAME;Du hast bereits verloren. Du weißt es nur noch nicht.
+EMOTE_HOAKA_UNIQUE_NAME;Ich bin so klug, ich verblüffe mich immer wieder selbst!
+EMOTE_HOAKA_WELL_PLAYED_NAME;Du bist eine wohltuende Herausforderung!
+EMOTE_HOAKA_WOW_NAME;Famos!
+EMOTE_JALMYR_GREETINGS_NAME;Grüße
+EMOTE_JALMYR_OOPS_NAME;Hmm. Ein nicht unbedeutender Fehler.
+EMOTE_JALMYR_TAUNT_NAME;Vielleicht solltest du mehr Puzzles spielen.
+EMOTE_JALMYR_UNIQUE_NAME;Lass dir Zeit.
+EMOTE_JALMYR_WELL_PLAYED_NAME;Du hast viel gelernt.
+EMOTE_JALMYR_WOW_NAME;Großartig.
+EMOTE_KAIOS_GREETINGS_NAME;Willkommen in meinem Reich.
+EMOTE_KAIOS_OOPS_NAME;Töricht.
+EMOTE_KAIOS_TAUNT_NAME;Verneige dich vor mir.
+EMOTE_KAIOS_UNIQUE_NAME;Schließ dich mir an. Es ist deine Bestimmung.
+EMOTE_KAIOS_WELL_PLAYED_NAME;Du hast meine Erwartungen übertroffen.
+EMOTE_KAIOS_WOW_NAME;Erstaunlich!
+EMOTE_KHALIM_GREETINGS_NAME;Sei gegrüßt.
+EMOTE_KHALIM_OOPS_NAME;Unverzeihlich.
+EMOTE_KHALIM_TAUNT_NAME;Deine Fähigkeiten lassen zu wünschen übrig.
+EMOTE_KHALIM_UNIQUE_NAME;Ich mag Sand nicht. Er ist einfach überall.
+EMOTE_KHALIM_WELL_PLAYED_NAME;Gut gespielt. Du bist gefährlich.
+EMOTE_KHALIM_WOW_NAME;Bei den Sturmwinden!
+EMOTE_KROG_GREETINGS_NAME;Lass uns Freunde sein!
+EMOTE_KROG_OOPS_NAME;Selbst Könige machen manchmal Unfug.
+EMOTE_KROG_TAUNT_NAME;Ich mach ein Yak aus dir!
+EMOTE_KROG_UNIQUE_NAME;Krog kriegt sie alle!
+EMOTE_KROG_WELL_PLAYED_NAME;Du Schlauberger!
+EMOTE_KROG_WOW_NAME;*fröhliches Gelächter*
+EMOTE_MAGDA_GREETINGS_NAME;Grüße.
+EMOTE_MAGDA_OOPS_NAME;Ein unbedeutender Fehltritt.
+EMOTE_MAGDA_TAUNT_NAME;Du bist unterhaltsam.
+EMOTE_MAGDA_UNIQUE_NAME;Dies ist alles ein Teil meines Plans.
+EMOTE_MAGDA_WELL_PLAYED_NAME;Gut gespielt. Ich habe dich wohl unterschätzt.
+EMOTE_MAGDA_WOW_NAME;Ich bin sprachlos.
+EMOTE_RAPALA_GREETINGS_NAME;Viel Glück, hab Spaß!
+EMOTE_RAPALA_OOPS_NAME;Das schlaucht, Mann.
+EMOTE_RAPALA_TAUNT_NAME;Warum so ernst?
+EMOTE_RAPALA_UNIQUE_NAME;Lass uns ein Lächeln auf das Gesicht zaubern!
+EMOTE_RAPALA_WELL_PLAYED_NAME;GG, gut gespielt.
+EMOTE_RAPALA_WOW_NAME;Das ist ein Youtube-Moment!
+EMOTE_RUUNIN_GREETINGS_NAME;Grüße.
+EMOTE_RUUNIN_OOPS_NAME;*bedrohliches Knurren*
+EMOTE_RUUNIN_TAUNT_NAME;Mutter Natur ist unsterblich.
+EMOTE_RUUNIN_UNIQUE_NAME;Was mich *umbringt* macht mich nur noch stärker.
+EMOTE_RUUNIN_WELL_PLAYED_NAME;Du bist ein guter Jäger.
+EMOTE_RUUNIN_WOW_NAME;Bei meinen fürchterlichen Fangzähnen!
+EMOTE_SEIFER_GREETINGS_NAME;Heh. Grüße.
+EMOTE_SEIFER_OOPS_NAME;Ein kleiner Rückschlag.
+EMOTE_SEIFER_TAUNT_NAME;Ich werde dich BEGRABEN!
+EMOTE_SEIFER_UNIQUE_NAME;Es kann nur Einen geben!
+EMOTE_SEIFER_WELL_PLAYED_NAME;Gut gespielt! Du bist klüger, als du riechst.
+EMOTE_SEIFER_WOW_NAME;Prächtig!
+EMOTE_SHARRA_GREETINGS_NAME;Sei gegrüßt.
+EMOTE_SHARRA_OOPS_NAME;Ein Fehltritt. Erwarte keinen zweiten.
+EMOTE_SHARRA_TAUNT_NAME;Stirb mit Würde.
+EMOTE_SHARRA_UNIQUE_NAME;Fließe wie das Wasser. Schlag zu wie der Wind.
+EMOTE_SHARRA_WELL_PLAYED_NAME;Du bist ein würdiger Gegner.
+EMOTE_SHARRA_WOW_NAME;Beim heiligen Yak!
+EMOTE_TARUM_GREETINGS_NAME;Die Erde begrüßt dich.
+EMOTE_TARUM_OOPS_NAME;Selbst ich mache Fehler.
+EMOTE_TARUM_TAUNT_NAME;Du wirst einen guten Dünger abgeben.
+EMOTE_TARUM_UNIQUE_NAME;Du bist winzig.
+EMOTE_TARUM_WELL_PLAYED_NAME;Gut gemacht, Kleiner.
+EMOTE_TARUM_WOW_NAME;Bei der uralten Mutter...
+ORB_ADVENTURER_NAME;Fugoros Sphäre
+ORB_ARCANE_NAME;Arkane Sphäre
+ORB_AURORA_NAME;Auroras Sphäre
+ORB_BASIC_NAME;Standard-Sphäre
+ORB_BOMB_SLINGER_NAME;Bom-Rs Sphäre
+ORB_CHAMPION_1_NAME;Meistersphäre
+ORB_CHAMPION_2_NAME;Meistersphäre
+ORB_CHAMPION_3_NAME;Meistersphäre
+ORB_CHAMPION_4_NAME;Meistersphäre
+ORB_DRAGON_NAME;Goldene Drachensphäre
+ORB_FUGORO_NAME;Fugoros Sphäre
+ORB_GAEA_NAME;Sphäre von Gaia
+ORB_GIANTS_NAME;Sphäre der Riesen
+ORB_HOAKA_NAME;Hoakas Sphäre
+ORB_JALMYR_NAME;Jalmyrs Sphäre
+ORB_KAIOS_NAME;Kaios Sphäre
+ORB_KHALIM_NAME;Khalims Sphäre
+ORB_KROG_NAME;Krogs Sphäre
+ORB_LOYALTY_NAME;Orb der Loyalität
+ORB_MAGDA_NAME;Magdas Sphäre
+ORB_PACK_NAME;Exklusive Sphäre für Backer auf Kickstarter
+ORB_POWER_NAME;Arkaner Stein
+ORB_RAPALA_NAME;Rapalas Sphäre
+ORB_RUUNIN_NAME;Ruunins Sphäre
+ORB_SEIFER_NAME;Seifers Sphäre
+ORB_SHARRA_NAME;Sharras Sphäre
+ORB_TARUM_NAME;Tarums Sphäre
+ORB_VALOR_NAME;Sphäre der Tapferkeit
+SHORE_AMAI_NAME;Amai-Küste
+SHORE_FOREST_NAME;Wald-Küste
+SHORE_GABRIA_NAME;Gabria-Küste
+SHORE_MENETHYR_NAME;Menethyr-Küste
+SHORE_OVERSKY_CORRUPT_NAME;Untergegangener Strand der Wolkenwelt
+SHORE_OVERSKY_DAY_NAME;Küste der Wolkenwelt bei Tag
+SHORE_OVERSKY_NIGHT_NAME;Küste der Wolkenwelt bei Nacht
+SHORE_PANDORA_NAME;Pandora-Küste
+SHORE_SYLAND_NAME;Syland-Küste
+SHORE_VOID_NAME;Leeren-Küste
+WELL_ADVENTURER_NAME;Fugoros Brunnen
+WELL_ARCANE_NAME;Arkane Brunnen
+WELL_AURORA_NAME;Auroras Brunnen
+WELL_BASIC_NAME;Standard-Brunnen
+WELL_BOMB_SLINGER_NAME;Bom-Rs Brunnen
+WELL_CARNIVOROUS_PLANT_NAME;Brunnen der fleischfressenden Pflanzen
+WELL_FUGORO_NAME;Fugoros Brunnen
+WELL_GABRIA_NAME;Brunnen von Gabria
+WELL_HOAKA_NAME;Hoakas Brunnen
+WELL_JALMYR_NAME;Jalmyrs Brunnen
+WELL_KAIOS_NAME;Kaios Brunnen
+WELL_KHALIM_NAME;Khalims Brunnen
+WELL_KROG_NAME;Krogs Brunnen
+WELL_MAGDA_NAME;Magdas Brunnen
+WELL_RAPALA_NAME;Rapalas Brunnen
+WELL_RUUNIN_NAME;Ruunins Brunnen
+WELL_SEIFER_NAME;Seifers Brunnen
+WELL_SHARRA_NAME;Sharras Brunnen
+WELL_TARUM_NAME;Tarums Brunnen
+AVATAR_AURORA_DARK_NAME;Alptraum-Aurora
+AVATAR_AURORA_HIPPIE_NAME;Pazifistin Aurora
+AVATAR_EXPLORER_BLUE_NAME;Reisender
+AVATAR_EXPLORER_PINK_NAME;Nomade
+AVATAR_FUGORO_RAINBOW_NAME;Chromatischer Fugoro
+AVATAR_KAIOS_CORRUPTED_NAME;Wahnsinniger Kaios
+AVATAR_KELDRAN_EMISSARY_BLUE_NAME;Windgeborener Bote
+AVATAR_KHALIM_BLACK_NAME;Khalim der Weise
+AVATAR_KHALIM_SUNGLASSES_NAME;Sturmreiter Khalim
+AVATAR_KINGS_GUARD_SILVER_NAME;Silberner Balhar
+AVATAR_KOBOLD_MERCENARY_GOLD_NAME;Untergrund-Geizhals
+AVATAR_KROG_BIKER_NAME;Der berüchtigte K.R.O.G
+AVATAR_KROG_SUIT_NAME;Don Krog
+AVATAR_MAGDA_SECRETARY_NAME;Bibliothekarin Magda
+AVATAR_OGRE_BATTLER_BLUE_NAME;Blauer Oger
+AVATAR_RAIZEON_ALTERED_NAME;Prismatischer Raizeon
+AVATAR_RUUNIN_BLACK_NAME;Nachtläuferin Ruunin
+AVATAR_SEIFER_SUNGLASSES_NAME;Coole Ratte Seifer
+AVATAR_SHARRA_HAT_NAME;Lässige Sharra
+AVATAR_SHARRA_PINK_NAME;Gestylte Sharra
+AVATAR_SHAYTAN_ASSASSIN_BLUE_NAME;Azurassassine
+AVATAR_TARUM_EVIL_NAME;Zorn der Natur Tarum
+AVATAR_VERDURAN_FORCE_GREY_NAME;Herbstliche Naturgewalt
+AVATAR_WISP_RAINBOW_NAME;Regenbogen-Irrlicht
+AVATAR_WISP_WHITE_NAME;Helles Irrlicht
+AVATAR_YAK_SHEPHERD_NAME;Schäferin
+CARD_BACK_FALL_OF_EVERLIFE_NAME;Verdorbener Kartenrücken
+CARD_BACK_MOSAIC_FLOWER_GREEN_NAME;Mosaik Blaue Blume
+CARD_BACK_MOSAIC_FLOWER_RED_NAME;Mosaik Rote Blume
+CARD_BACK_MOSAIC_SOLAR_BLUE_NAME;Mosaik Grüne Sonne
+CARD_BACK_MOSAIC_SOLAR_MAGENTA_NAME;Mosaik Magenta Sonne
+CARD_BACK_MUCHA_GREEN_NAME;Grüner Art Nouveau
+CARD_BACK_MUCHA_MAGENTA_NAME;Magenta Art Nouveau
+ORB_ARCANE_GOLD_NAME;Goldener Arkanorb
+ORB_ARCANE_PURPLE_NAME;Lila Arkanorb
+ORB_ARCANE_RED_NAME;Roter Arkanorb
+ORB_CRYSTAL_STONE_GOLD_NAME;Goldener Kristallorb
+ORB_CRYSTAL_STONE_NAME;Blauer Kristallorb
+ORB_CRYSTAL_STONE_PURPLE_NAME;Lila Kristallorb
+ORB_DRAGON_SILVER_NAME;Silberner Drachenorb
+ORB_FALL_OF_EVERLIFE_NAME;Verdorbener Orb
+ORB_HAND_ARCANE_NAME;Zauberhand
+ORB_HAND_GRASP_NAME;Griff der Erde
+ORB_SPIDEREGG_GREEN_NAME;Spinnenhöhle
+ORB_SPIDEREGG_ORANGE_NAME;Spinnennest
+ORB_SPIDEREGG_RAINBOW_NAME;Spinnenbau
+ORB_STAR_CRYSTAL_NAME;Himmlischer Orb
+ORB_STAR_CRYSTAL_ORANGE_NAME;Orangener Himmlischer Orb
+ORB_STAR_CRYSTAL_PURPLE_NAME;Lila himmlischer Orb
+ORB_TRIBAL_NAME;Tikiorb
+ORB_VALOR_GREEN_NAME;Grüner Orb der Tapferkeit
+ORB_VALOR_MAGENTA_NAME;Purpurner Orb der Tapferkeit
+ORB_VALOR_SILVER_NAME;Silberner Orb der Tapferkeit
+WELL_ARCANE_GOLD_NAME;Golener Arkanbrunnen
+WELL_ARCANE_PURPLE_NAME;Lila Arkanbrunnen
+WELL_ARCANE_RED_NAME;Roter Arkanbrunnen
+WELL_FALL_OF_EVERLIFE_NAME;#REF!
+WELL_FLOATING_STONES_NAME;Verdorbener Brunnen
+WELL_ROOTS_NAME;Rankenbrunnen
+WELL_RUNIC_BLUE_NAME;Brunnen des Schicksals
+WELL_RUNIC_GREEN_NAME;Brunnen der Bestimmung
+WELL_RUNIC_RED_NAME;Brunnen des Reichtums
+WELL_RUNIC_YELLOW_NAME;Brunnen des Glücks
+CARD_BACK_1806_GOLD_NAME;Goldener Kartenrücken der 26.Saison
+CARD_BACK_1806_SILVER_NAME;Silberner Kartenrücken der 26.Saison
+CARD_BACK_PANDORA_1806_GOLD_NAME;Goldener Pandora Kartenrücken der 26.Saison
+CARD_BACK_PANDORA_1806_SILVER_NAME;Silberner Pandora Kartenrücken der 26.Saison
+CARD_BACK_1807_GOLD_NAME;Saison 27 Goldener Kartenrücken
+CARD_BACK_1807_SILVER_NAME;Saison 27 Silberner Kartenrücken
+CARD_BACK_PANDORA_1807_GOLD_NAME;Saison 27 Pandora Goldener Kartenrücken
+CARD_BACK_PANDORA_1807_SILVER_NAME;Saison 27 Pandora Silberner Kartenrücken
+CARD_BACK_PANDORA_1808_SILVER_NAME;Saison 28 Pandora Silberner Kartenrücken
+CARD_BACK_PANDORA_1808_GOLD_NAME;Saison 28 Pandora Goldener Kartenrücken
+CARD_BACK_1808_SILVER_NAME;Saison 28 Silberner Kartenrücken
+CARD_BACK_1808_GOLD_NAME;Saison 28 Goldener Kartenrücken
+CARD_BACK_PANDORA_1809_SILVER_NAME;Saison 29 Pandora Silberner Kartenrücken
+CARD_BACK_PANDORA_1809_GOLD_NAME;Saison 29 Pandora Goldener Kartenrücken
+CARD_BACK_1809_SILVER_NAME;Saison 29 Silberner Kartenrücken
+CARD_BACK_1809_GOLD_NAME;Saison 29 Goldener Kartenrücken
+WELL_RESURGENCE_NAME;Resurgence Brunnen
+SHORE_RESURGENCE_NAME;Resurgence Küste
+ORB_RESURGENCE_NAME;Resurgence Sphäre
+CARD_BACK_RESURGENCE_NAME;Resurgence Karten Rücken
+CARD_BACK_MOSAIC_YAK_NAME;Yak Mosaik Kartenrücken
+AVATAR_BANON_NAME;Banon
+CARD_BACK_ELEMENTS_NAME;Elemente Kartenrücken
+CARD_BACK_PANDORA_1810_SILVER_NAME;Saison 30 Pandora Silberner Kartenrücken
+CARD_BACK_PANDORA_1810_GOLD_NAME;Saison 30 Pandora Goldener Kartenrücken
+CARD_BACK_1810_SILVER_NAME;Saison 30 Silberner Kartenrücken
+CARD_BACK_1810_GOLD_NAME;Saison 30 Goldener Kartenrücken
+AVATAR_YAK_UNICORN_NAME;Yakkicorn
+AVATAR_YAK_TEDDY_NAME;Teddy
+AVATAR_YAK_METALHEAD_NAME;Yak Metalhead
+AVATAR_YAK_MC_NAME;Yak MC
+AVATAR_YAK_LIZARD_NAME;Yak-Magier
+AVATAR_YAK_INDIAN_CHIEF_NAME;Pocyakontas
+AVATAR_YAK_DEVIL_NAME;Yak Teufel
+AVATAR_YAK_BF_YC_NAME;Yakuza
+WELL_TETHRA_NAME;Tethras Brunnen
+WELL_OROSEI_NAME;Oroseis Brunnen
+WELL_GARUDAN_NAME;Garudans Brunnen
+WELL_CELESTE_NAME;Celestes Brunnen
+WELL_AZARAI_NAME;Azarais Brunnen
+SHORE_DRAGON_NAME;Drachenhöhle Ufer
+ORB_TETHRA_NAME;Tethras Orb
+ORB_OROSEI_NAME;Oroseis Orb
+ORB_GARUDAN_NAME;Garudans Orb
+ORB_CELESTE_NAME;Celestes Orb
+ORB_AZARAI_NAME;Azarais Orb
+CARD_BACK_TETHRA_NAME;Tethras Kartenrücken
+CARD_BACK_OROSEI_NAME;Oroseis Kartenrücken
+CARD_BACK_GARUDAN_NAME;Garudans Kartenrücken
+CARD_BACK_CELESTE_NAME;Celestes Kartenrücken
+CARD_BACK_AZARAI_NAME;Azarais Kartenrücken
+AVATAR_TETHRA_NAME;Tethra
+AVATAR_OROSEI_NAME;Orosei
+AVATAR_GARUDAN_NAME;Garudan
+AVATAR_CELESTE_NAME;Celeste
+AVATAR_AZARAI_NAME;Azarai
+CARD_BACK_PANDORA_1811_SILVER_NAME;Saison 31 Pandora Silberner Kartenrücken
+CARD_BACK_PANDORA_1811_GOLD_NAME;Saison 31 Pandora Goldener Kartenrücken
+CARD_BACK_1811_SILVER_NAME;Saison 31 Silberner Kartenrücken
+CARD_BACK_1811_GOLD_NAME;Saison 31 Goldener Kartenrücken
+CARD_BACK_PANDORA_1901_SILVER_NAME;Saison 33 Pandora Silberner Kartenrücken
+CARD_BACK_PANDORA_1901_GOLD_NAME;Saison 33 Pandora Goldener Kartenrücken
+CARD_BACK_PANDORA_1812_SILVER_NAME;Saison 32 Pandora Silberner Kartenrücken
+CARD_BACK_PANDORA_1812_GOLD_NAME;Saison 32 Pandora Goldener Kartenrücken
+CARD_BACK_1901_SILVER_NAME;Saison 33 Silberner Kartenrücken
+CARD_BACK_1901_GOLD_NAME;Saison 33 Goldener Kartenrücken
+CARD_BACK_1812_SILVER_NAME;Saison 32 Silberner Kartenrücken
+CARD_BACK_1812_GOLD_NAME;Saison 32 Goldener Kartenrücken
+CARD_BACK_PANDORA_1902_SILVER_NAME;Saison 34 Pandora Silberner Kartenrücken
+CARD_BACK_PANDORA_1902_GOLD_NAME;Saison 34 Pandora Goldener Kartenrücken
+CARD_BACK_1902_SILVER_NAME;Saison 34 Silberner Kartenrücken
+CARD_BACK_1902_GOLD_NAME;Saison 34 Goldener Kartenrücken
+CARD_BACK_PANDORA_1903_SILVER_NAME;Saison 35 Pandora Silberner Kartenrücken
+CARD_BACK_PANDORA_1903_GOLD_NAME;Saison 35 Pandora Goldener Kartenrücken
+CARD_BACK_1903_SILVER_NAME;Saison 35 Silberner Kartenrücken
+CARD_BACK_1903_GOLD_NAME;Saison 35 Goldener Kartenrücken
+WELL_GAGANA_NAME;Gagana Brunnen
+SHORE_MECHA_NAME;Mecha Strand
+ORB_GAGANA_NAME;Gagana Orb
+CARD_BACK_GAGANA_NAME;Gagana Kartenrücken
+AVATAR_SOROCCO_NAME;Sorocco
+CARD_BACK_PANDORA_1904_SILVER_NAME;Saison 36 Pandora Silberner Kartenrücken
+CARD_BACK_PANDORA_1904_GOLD_NAME;Saison 36 Pandora Goldener Kartenrücken
+CARD_BACK_1904_SILVER_NAME;Saison 36 Silberner Kartenrücken
+CARD_BACK_1904_GOLD_NAME;Saison 36 Goldener Kartenrücken
+CARD_BACK_PANDORA_1905_SILVER_NAME;Saison 37 Pandora Silberner Kartenrücken
+CARD_BACK_PANDORA_1905_GOLD_NAME;Saison 37 Pandora Goldener Kartenrücken
+CARD_BACK_1905_SILVER_NAME;Saison 37 Silberner Kartenrücken
+CARD_BACK_1905_GOLD_NAME;Saison 37 Goldener Kartenrücken
+CARD_BACK_PANDORA_1906_SILVER_NAME;Saison 38 Pandora Silberner Kartenrücken
+CARD_BACK_PANDORA_1906_GOLD_NAME;Saison 38 Pandora Goldener Kartenrücken
+CARD_BACK_1906_SILVER_NAME;Saison 38 Silberner Kartenrücken
+CARD_BACK_1906_GOLD_NAME;Saison 38 Goldener Kartenrücken
+CARD_BACK_PANDORA_1907_SILVER_NAME;Saison 39 Pandora Silberner Kartenrücken
+CARD_BACK_PANDORA_1907_GOLD_NAME;Saison 39 Pandora Goldener Kartenrücken
+CARD_BACK_1907_SILVER_NAME;Saison 39 Silberner Kartenrücken
+CARD_BACK_1907_GOLD_NAME;Saison 39 Goldener Kartenrücken
+CARD_BACK_PANDORA_1908_SILVER_NAME;Saison 40 Pandora Silberner Kartenrücken
+CARD_BACK_PANDORA_1908_GOLD_NAME;Saison 40 Pandora Goldener Kartenrücken
+CARD_BACK_1908_SILVER_NAME;Saison 40 Silberner Kartenrücken
+CARD_BACK_1908_GOLD_NAME;Saison 40 Goldener Kartenrücken
+CARD_BACK_PANDORA_1909_SILVER_NAME;Saison 41 Pandora Silberner Kartenrücken
+CARD_BACK_PANDORA_1909_GOLD_NAME;Saison 41 Pandora Goldener Kartenrücken
+CARD_BACK_1909_SILVER_NAME;Saison 41 Silberner Kartenrücken
+CARD_BACK_1909_GOLD_NAME;Saison 41 Goldener Kartenrücken
+WELL_SEASONAL_CUP_SEIFER_NAME;Seifer Saisonturnier Brunnen
+WELL_SEASONAL_CUP_RUUNIN_NAME;Ruunin Saisonturnier Brunnen
+WELL_SEASONAL_CUP_KHALIM_NAME;Khalim Saisonturnier Brunnen
+WELL_SEASONAL_CUP_AURORA_NAME;Aurora Saisonturnier Brunnen
+ORB_SEASONAL_CUP_SEIFER_NAME;Seifer Saisonturnier Orb
+ORB_SEASONAL_CUP_RUUNIN_NAME;Ruunin Saisonturnier Orb
+ORB_SEASONAL_CUP_KHALIM_NAME;Khalim Saisonturnier Orb
+ORB_SEASONAL_CUP_AURORA_NAME;Aurora Saisonturnier Orb
+CARD_BACK_SEASONAL_CUP_SEIFER_NAME;Seifer Saisonturnier Kartenrücken
+CARD_BACK_SEASONAL_CUP_RUUNIN_NAME;Aurora Saisonturnier Kartenrücken
+CARD_BACK_SEASONAL_CUP_KHALIM_NAME;Khalim Saisonturnier Kartenrücken
+CARD_BACK_SEASONAL_CUP_AURORA_NAME;#REF!
+CARD_BACK_PANDORA_1912_SILVER_NAME;Saison 44 Pandora Silberner Kartenrücken
+CARD_BACK_PANDORA_1912_GOLD_NAME;Saison 44 Pandora Goldener Kartenrücken
+CARD_BACK_PANDORA_1911_SILVER_NAME;Saison 43 Pandora Silberner Kartenrücken
+CARD_BACK_PANDORA_1911_GOLD_NAME;Saison 43 Pandora Goldener Kartenrücken
+CARD_BACK_PANDORA_1910_SILVER_NAME;Saison 42 Pandora Silberner Kartenrücken
+CARD_BACK_PANDORA_1910_GOLD_NAME;Saison 42 Pandora Goldener Kartenrücken
+CARD_BACK_1912_SILVER_NAME;Saison 44 Silberner Kartenrücken
+CARD_BACK_1912_GOLD_NAME;Saison 44 Goldener Kartenrücken
+CARD_BACK_1911_SILVER_NAME;Saison 43 Silberner Kartenrücken
+CARD_BACK_1911_GOLD_NAME;Saison 43 Goldener Kartenrücken
+CARD_BACK_1910_SILVER_NAME;Saison 42 Silberner Kartenrücken
+CARD_BACK_1910_GOLD_NAME;Saison 42 Goldener Kartenrücken

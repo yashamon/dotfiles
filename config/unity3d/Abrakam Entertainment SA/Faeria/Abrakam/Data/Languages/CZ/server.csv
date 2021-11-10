@@ -1,0 +1,85 @@
+ACCOUNT_DOES_NOT_EXIST;Tento účet neexistuje.
+ACTIVATION_CODE_FAILED;Vypadá to, že je tu problém s vaším aktivačním kódem.
+ACTIVATION_KEY_FAILED;Vypadá to, že je tu problém s vaším aktivačním klíčem.
+ALREADY_IN_GAME;Vypadá to, že již jste ve hře. Zkuste se odhlásit a znovu přihlásit.
+BAD_CLIENT_VERSION;Vypadá to, že je vaše verze zastaralá. Zkuste restartovat hru.
+CANNOT_BE_PLAYER_HAS_NO_DECK;Moderátor se vás pokusil nastavit jako hráče, ale nemáte žádný balíček.
+CANNOT_INVITE_FRIEND_DECLINED;Hráč, kterého jste se pokusil přidat do přátel, už jednou zamítnul. Žádost o přátelství musí nyní přijít od něho.
+CANNOT_INVITE_FRIEND_DOES_NOT_EXIST;Tento hráč neexistuje. Zadejte prosím správné id hráče.
+CANNOT_INVITE_FRIEND_OPPONENT;Nemůžete si přidat do přátel někoho, proti komu právě hrajete. Počkejte, dokud nedohrajete.
+CANNOT_INVITE_FRIEND_PROLOGUE;Nemůžete si přidat kamaráda, který ještě nedokončil prolog.
+CANNOT_INVITE_FRIEND_REFUSED;Hráč, kterého jste se pokusili přidat do přátel, vaši žádost nepřijal.
+CANNOT_MODIFY_DECK_WHILE_SEARCHING;Nemůžete upravovat svůj balíček, zatímco vyhledáváte zápas.
+CANNOT_PAUSE_DURING_MULLIGAN;Hra nemůže být pozastavena během fáze výběru karet.
+CANNOT_SET_AS_PLAYER_HAS_NO_DECK;Nelze nastavit jako hráče, protože nemá balíček.
+CANNOT_SET_YOURSELF_AS_RECRUITER;Nemůžete nastavit sebe jako náboráře.
+CANNOT_SIGN_UP_FREEZE_MODE_ON;Probíhá údržba, zkuste se prosím přihlásit později.
+CANNOT_SPECTATE_TOURNAMENT_GAME;Nemůžete sledovat turnajové hry.
+CANNOT_START_FREEZE_MODE_ON;Hru nelze zapnout – servery jsou plné. Omlouváme se!
+CANNOT_START_SERVER_REBOOTING;Hru nelze zapnout, server se bude brzy restartovat.
+CARD_COPIES_LIMITED;Každá karta je limitována na 3 kopie v jednom balíčku.
+COMMUNITY_EVENT_INACTIVE_OR_DOES_NOT_EXIST;Komunitní událost je neaktivní nebo neexistuje
+COMMUNITY_EVENT_NO_STEAM_KEYS_LEFT;Žádné steam klíče už nezbyly, zkuste to prosím později
+CONSTRUCTED_CLOSED;Hodnocené hry jsou pro dnešek uzavřeny, můžete hrát pouze Pandoru.
+COUPON_ALREADY_USED;Tento kupón byl již použit.
+COUPON_DOES_NOT_EXIST;Tento kód je neplatný.
+COUPON_EXPIRED;Platnost kódu, který jste použil, vypršela.
+COUPON_ITEM_ALREADY_OWNED;Předmět(y) z tohoto kupónu již vlastníte.
+COUPON_MAX_ACTIVATIONS_REACHED;Tento kupón již nemůžete použít, jelikož byl dosažen jeho limit počtu použití.
+COUPON_RESERVED;Tento kupón je zarezervován pro jiný účet.
+DECK_SIZE_LIMITED;Balíček je limitován na {0} karet.
+DISCONNECTED_FROM_WORLD;Zápas skončil, ale vaše spojení s hlavním serverem bylo ztraceno. Znovu se připojte, prosím!
+FRIEND_DOES_NOT_ALLOW_SPECTATE;Váš kamarád nepovoluje sledování jeho her.
+FRIEND_NO_LONGER_IN_GAME;Váš kamarád již není ve hře.
+GAME_CANCELED_NO_GAMESERVER_FOUND;Ve vašem regionu nebyly nalezeny žádné herní servery! Zkuste to znovu později.
+GAME_CANCELED_PLAYER_DID_NOT_REPLY_IN_TIME;Vaše hra byla zrušena (hráč neodpověděl včas).
+GAME_CANCELED_SERVER_DID_NOT_REPLY_IN_TIME;Vaše hra byla zrušena (server neodpověděl včas).
+GAME_CANCELED_SERVER_STOPPING;Vaše hra byla zrušena (server se vypíná).
+GAME_CANCELED_VERSION;Hra byla zrušena, protože vaše verze klienta není aktuální.
+INVALID_HIGHLANDER_DECK_DUPLICATE;Neplatný Horalský balíček. Nemůžete mít stejnou kartu více než jednou.
+INVALID_STEAM_KEY;Neplatný Steam klíč.
+LEGENDARY_CARD_LIMITED;Každá legendární karta může být v balíčku jen jednou.
+MAIL_ALREADY_EXISTS;E-mailová adresa již existuje.
+MARKET_ITEM_ALREADY_OWNED;Tento předmět již vlastníte.
+NEW_BOSS_MISSION_UNLOCKED;Odemčena nová mise s bossem!
+NO_ACTIONS_LEFT_RETRYING_PUZZLE;Došly ti možnosti! Zkus to znovu...
+ORB_DIED_RETRYING_PUZZLE;Porazil jsem tě! Zkus to znovu...
+PAUSE_LIMIT_REACHED;Už nemůžete pozastavit hru (byl dosažen limit {0} pozastavení).
+PICK_TOURNAMENT_MATCHES_FORMAT;Prosím zvolte formát turnaje
+PLAYER_LEFT_GAME;Hráč {0} odešel ze hry.
+RECIPIENT_IS_OFFLINE;{0} je offline
+RECRUITER_SET;Náborář úspěšně vybrán!
+SELECT_A_DECK;Musíte vybrat balíček.
+SERVER_BUSY_TRY_AGAIN;Server je zaneprázdněn, zkuste to prosím za minutu.
+SERVER_COULD_NOT_FIND_GAME;Server nemohl najít požadovanou hru.
+SERVER_SHUTDOWN;Aktualizace serveru za {0} minut. Až dohrajete, budete se možná muset znovu přihlásit.
+SERVER_SHUTDOWN_CANCELED;Server se již nevypíná.
+SERVER_SHUTDOWN_WARNING;Aktualizace serveru za {0} minut. Hledání her bude zakázáno za {1} minut.
+SPECTATED_PLAYER_LEFT_GAME;Hráč, kterého jste sledovali, opustil hru.
+STEAM_FINALISE_TXN_FAILED;Transakci se nepodařilo dokončit.
+STEAM_ID_NOT_FOUND;Steam ID nebylo nalezeno.
+STEAM_INIT_TXN_FAILED;Transakci se nepodařilo zahájit.
+STEAM_PRICE_CHANGED;Cena této položky se změnila. Zkuste to prosím znovu.
+STEAM_USER_INFO_NOT_FOUND;Nepodařilo se získat Steam info o uživateli.
+UPDATE_CLIENT_TO_PLAY;Abyste mohli hrát, musíte aktualizovat svého klienta.
+UPGRADE_ACCOUNT_FAILED;Vylepšení účtu selhalo.
+USER_ALREADY_SET_YOU_AS_RECRUITER;{0} si vás už nastavil jako náboráře.
+USER_ALREADY_SIGNED_IN;Uživatel je již přihlášen, zkuste to znovu za 1 minutu. Kontaktujte support@faeria.com, pokud problém přetrvává.
+USER_NAME_INVALID;Jméno účtu může obsahovat jen písmena, číslice, spojovníky a podrtržítka.
+USER_NAME_RESERVED;Jméno účtu je rezervováno
+USER_NAME_SIZE_MAX_INVALID;Maximální délka jména účtu je {0}.
+USER_NAME_SIZE_MIN_INVALID;Minimální délka jména účtu je {0}.
+USER_NOT_FOUND;Uživatel neexistuje : {0}
+WRONG_ACTIVATION_KEY;Vypadá to, že aktivačni klíč, který jste zadali, není správný.
+WRONG_DECK_SIZE;Váš balíček potřebuje dalších {0} karet, aby jej bylo možno použít.
+WRONG_LEVEL_FOR_ARENA;Potřebujete úrověň {0}, abyste mohli vstoupit do Pandory.
+WRONG_LEVEL_FOR_RANKED;Pro hraní hodnocených zápasů potřebujete úroveň {0}.
+ACCOUNT_IS_BANNED;Tento účet je v součastnosti zabanován.
+NO_AVAILABLE_LORE_PAGES_LEFT;Nejsou dostupné žádné další příběhy!
+WRONG_LEVEL_FOR_OVERSKY;Pro hraní Zánebí potřebujete úroveň {0}.
+WRONG_LEVEL_FOR_PUZZLE;Pro hraní Hádanek potřebujete úroveň {0}.
+WRONG_LEVEL_FOR_BOSS;Pro hraní Bossů světa potřebujete úroveň {0}.
+WRONG_LEVEL_FOR_DRAGONS_LAIR;Pro vstup do Dračí sluje potřebujete úroveň {0}.
+PLATFORM_FRIENDS_ONLY_APPEAR_WHEN_ONLINE;Přátelé se na této platformě zobrazí jen tehdy, když jsou připojeni k síti.
+FRIEND_ADDED_SUCCESSFULLY;Hráč úspěšně přidán do seznamu přátel!
+ALREADY_FRIENDS;S tímto hráčem už jste přátelé.

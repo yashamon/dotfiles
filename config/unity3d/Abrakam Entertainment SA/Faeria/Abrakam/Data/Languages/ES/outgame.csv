@@ -1,0 +1,169 @@
+CARD_ALREADY_OWNED_TOOLTIP_TEXT;Posees {0} de esta carta.
+CARD_FILTER_CREATURE;Criatura
+CARD_FILTER_EVENT;Evento
+CARD_FILTER_FALL_OF_EVERLIFE;Caida de la Vida Eterna
+CARD_FILTER_OVERSKY;Oversky
+CARD_FILTER_STRUCTURE;Estructura
+PANDORA_MYTHIC_RUN_NOT_ENOUGH_COINS_ERROR_TEXT;No posees suficientes fragmentos para iniciar este modo de juego
+PANDORA_MYTHIC_RUN_TOOLTIP_TEXT;Inicia una partida de Pandora Mítica. Gana hasta 6 partidas para obtener fragmentos.
+PANDORA_POINT_TOOLTIP_TEXT;Gana puntos para obtener recompensas al final de cada temporada.
+PANDORA_POP_UP_MULTI_PLAYER_TITLE_TEXT;Multijugador
+PANDORA_POP_UP_MYTHIC_MULTI_PLAYER_INFO_TEXT;Compite contra otros jugadores para obtener recompensas MUCHO más altas.
+PANDORA_POP_UP_MYTHIC_RUN_MULTI_PLAYER_TITLE_TEXT;Multijugador Mítico
+PANDORA_POP_UP_MYTHIC_RUN_SINGLE_PLAYER_TITLE_TEXT;Un Solo Jugador Mítico
+PANDORA_POP_UP_MYTHIC_SINGLE_PLAYER_INFO_TEXT;Lucha contra una cada vez más fuerte IA para obtener fragmentos.
+PANDORA_POP_UP_SINGLE_PLAYER_TITLE_TEXT;Un Solo Jugador Mítico
+PANDORA_POP_UP_STANDARD_MULTI_PLAYER_INFO_TEXT;Compite contra otros jugadores para obtener recompensas MUCHO más altas.
+PANDORA_POP_UP_STANDARD_RUN_MULTI_PLAYER_TITLE_TEXT;Multijugador
+PANDORA_POP_UP_STANDARD_RUN_SINGLE_PLAYER_TITLE_TEXT;Un Solo Jugador
+PANDORA_POP_UP_STANDARD_SINGLE_PLAYER_INFO_TEXT;Lucha contra enemigos de la CPU cada vez más poderosos para obtener cofres de batalla y cartas.
+PANDORA_STANDARD_RUN_HAS_FULL_COLLECTION_ERROR_TEXT;Ya tienes todas las cartas disponibles, así que ya no puedes iniciar partidas estandar
+PANDORA_STANDARD_RUN_NOT_ENOUGH_CHEST_ERROR_TEXT;No tienes suficientes cofres de combate para iniciar este tipo de partida
+PANDORA_STANDARD_RUN_TOOLTIP_TEXT;Comienza una partida de Pandora estandar. Gana hasta 6 partidas para obtener cofres de batalla y cartas.
+PURCHASE_PANEL_BUY_MISSING_SOFT_CURRENCY_TEXT;¿Comprar los faltantes {0} {1}?
+PURCHASE_PANEL_GO_TO_SHOP_BUTTON_TEXT;Ir a la Tienda
+PURCHASE_PANEL_OUT_OF_CURRENCY_TEXT;Ya no tienes {0}. Puedes visitar la Tienda para obtener más.
+REWARD;Recompensa
+REWARD_ACT;Paquete de misión desbloqueado
+REWARD_ARENA_POINTS;{0}
+REWARD_AVATAR;Has conseguido un avatar.
+REWARD_BLUEPRINT;¡Nueva plantilla desbloqueada!
+REWARD_BOOSTER;{0}
+REWARD_CARD;Has recibido {0} carta(s).
+REWARD_CARD_BACK;Nuevo dorso
+REWARD_EMOTE;Nueva emoción
+REWARD_FEATURE_ARENA_ID;¡Has desbloqueado el modo Pandora!
+REWARD_FEATURE_CRAFTING_ID;¡Has desbloqueado el creador de cartas!
+REWARD_FEATURE_EPIC_CRAFTING_ID;¡Has desbloqueado la creación de cartas Épicas!
+REWARD_FEATURE_HIGHLANDER_ID;¡Has desbloqueado el modo Highlander!
+REWARD_FEATURE_MAIN_MENU_ID;¡Has desbloqueado el creador de mazos!
+REWARD_FEATURE_RANKED_ID;¡Has desbloqueado el modo clasificatoria!
+REWARD_FEATURE_RARE_CRAFTING_ID;¡Has desbloqueado la creación de cartas Raras!
+REWARD_ORIGIN_ACCOUNTACTIVATED;Recompensa al activar la cuenta
+REWARD_ORIGIN_ANNUITY;Fragmentos encontrados por Goki
+REWARD_ORIGIN_ARENA;Tu premio
+REWARD_ORIGIN_CRAFT;¡Creación completada!
+REWARD_ORIGIN_DAILYASSIGNMENT;Premio diario
+REWARD_ORIGIN_DAILYQUEST;Misión diaria completada
+REWARD_ORIGIN_DEFEAT;Tu recompensa
+REWARD_ORIGIN_DLCPREMIUM;Cuenta Premium
+REWARD_ORIGIN_DLCFALLOFEVERLIFE;Caida de la Vida Eterna
+REWARD_ORIGIN_EARLYACCESSBUNDLE;Paquete de Acceso Anticipado
+REWARD_ORIGIN_FIRSTDAYVICTORY;Primera victoria del día
+REWARD_ORIGIN_HATCH;Eclosión del huevo
+REWARD_ORIGIN_LADDERRESET;Recompensa al reiniciar la clasificación
+REWARD_ORIGIN_LEVEL;Recompensa de nivel {0}
+REWARD_ORIGIN_LOYALTYPATCH;Recompensa del Parche de Lealtad
+REWARD_ORIGIN_MARKET;¡Compra realizada!
+REWARD_ORIGIN_POUCH;Recompensa de Bolsa de Aventura
+REWARD_ORIGIN_QUEST;Recompensa de la misión
+REWARD_ORIGIN_RECRUITMENT;Reclutamiento
+REWARD_ORIGIN_SOLOOBJECTIVE;Objetivo completado
+REWARD_ORIGIN_STEAMPACK;Pack de Steam
+REWARD_ORIGIN_VICTORY;Tu recompensa
+REWARD_POUCH_POINTS;{0}
+REWARD_WELL;Nuevo Pozo de Faeria
+TOURNAMENT_ALREADY_SIGNED_UP;Ya estás registrado.
+TOURNAMENT_DECK_ALREADY_PICKED;Este mazo ya fue seleccionado para el torneo.
+TOURNAMENT_DECK_CHANGE_LOST_A_GAME;No puedes mantener un mazo con el que hayas perdido una partida.
+TOURNAMENT_DECK_FIXED_UNTIL_LOSS;No puedes cambiar de mazo hasta que pierdas una partida.
+TOURNAMENT_DECK_LOCKED;Este mazo ha sido elegido para torneo, no puedes editarlo hasta que la etapa de elección de mazo del torneo haya terminado.
+TOURNAMENT_DECK_LOST_A_GAME;No puedes elegir un mazo con el que hayas perdido una partida.
+TOURNAMENT_DECK_MUST_BE_LEAD;Debes usar tu mazo inicial para la primera partida.
+TOURNAMENT_DISCARD_DECKS;Empezar de nuevo
+TOURNAMENT_LOBBY;Sala del Torneo
+TOURNAMENT_PICKED_DECK;Registrados #{0}
+TOURNAMENT_SIGNUP;Registrarse
+TOURNAMENT_SIGNUP_DECK_1;Registrar 1er mazo
+TOURNAMENT_SIGNUP_DECK_2;Registrar 2do mazo
+TOURNAMENT_SIGNUP_DECK_3;Registrar 3er mazo
+TOURNAMENT_SIGNUP_SUCCESSFUL;Registración de torneo exitosa!
+REWARD_DECK_SLOT;Has recibido ranuras de mazo
+REWARD_LORE_PAGE;Has obtenido una nueva página de historia!
+REWARD_FEATURE_LORE_BOOK_ID;Has desbloqueado el Libro de Historias!
+TOURNAMENT_CRUCIBLE_RULES;Debes registrar 4 mazos para participar en el torneo de hoy. Cada mazo no puede compartir más de 12 cartas con ningún otro.\n\nSelecciona cada mazo y <b>Regístralos</b> uno a la vez. Una vez que los 4 mazos estén registrados, estás listo para unirte a las salas de torneo. \n\n<b>¡TEN CUIDADO!</b> Una vez que registres el último mazo, <b>NO PODRÁS</b> deshacer esto. Asegúrate de estar registrando los mazos que deseas utilizar.
+LOBBY_CRUCIBLE_RULES;Debes registrar 4 mazos para participar. Cada mazo no puede compartir más de 12 cartas con cualquier otro.\n\nSelecciona cada mazo y <b>Regístralos</b> uno a la vez. Una vez que se hayan registrado los 4 mazos, ya estás listo para comenzar.
+TOURNAMENT_DECK_BANNED;No puedes elegir un mazo prohibido por tu oponente.
+TOURNAMENT_DECK_CONFLICT_MESSAGE_TEXT;{0} de tu mazo comparten más de {1} de las mismas cartas. Mazos conflictivos :"{2}"
+TOURNAMENT_DECK_PICK_CONFIRM_BUTTON_TEXT;Confirmar
+TOURNAMENT_COUNTDOWN_TEXT;Siguiente fase en {0} segundos...
+TOURNAMENT_COUNTDOWN_GAME_START_TEXT;El juego comienza en {0} segundos...
+TOURNAMENT_BAN_DECK_TEXT;Elige un mazo para prohibir.
+TOURNAMENT_BAN_DECK_SPECTATOR_TEXT;Los jugadores están eligiendo mazos a prohibir.
+TOURNAMENT_BAN_PHASE_NAME_TEXT;Fase de prohibición de mazos.
+TOURNAMENT_PICK_DECK_LOCKED_TEXT;Como ganador no puedes cambiar de mazo. Confirma cuando estés listo para continuar.
+TOURNAMENT_PICK_DECK_TEXT;Elige un mazo para jugar.
+TOURNAMENT_PICK_DECK_SPECTATOR_TEXT;Los jugadores están seleccionando mazos.
+TOURNAMENT_PICK_PHASE_NAME_TEXT;Fase de elección.
+TOURNAMENT_SIGNUP_DECK_4;Registrar 4to mazo
+TOURNAMENT_PHASE_TIME_LEFT;Tiempo restante : {0}
+INVALID_DECK_CARDS_QUANTITY;Tu mazo debe contener exactamente {0} cartas
+CARD_FILTER_INCOMPLETE;Incompleto
+MOUSE_REWARD_LORE_PAGE_CLICK_TO_READ;Pulsa para leer
+CARD_FILTER_RESURGENCE;Resurgencia
+REWARD_ORIGIN_YOUBACK;¡Regresaste gracias a {0}!
+REWARD_ORIGIN_FRIENDBACK;¡{0} regresó!
+REWARD_ORIGIN_DLCRESURGENCE;Resurgimiento
+REWARD_FEATURE_PUZZLE_PACKS_ID;¡Has desbloqueado la sección de Rompecabezas!.
+PUZZLES_MENU_TITLE_ELEMENTS;Elementales
+PUZZLES_MENU_TITLE_CORE;Rompecabezas Básicos
+PUZZLES_DLC_PURCHASE_REWARDS;Recompensas para ganar adentro
+PUZZLES_DLC_PURCHASE_BUTTON;Ir a la Tienda de Steam
+PUZZLE_NEED_LANE_UNLOCK;Antes de rejugar este rompecabezas, debes completarlo en el Modo Aventura
+REWARD_FEATURE_DLC_385;¡Rompecabezas Elementales desbloqueados!
+REWARD_FEATURE_DLC_383;¡Resurgencia desbloqueada!
+REWARD_FEATURE_DLC_316;¡La Caída de la Vida Eterna desbloqueada!
+REWARD_FEATURE_DLC_315;¡Tu cuenta es ahora Premium!
+REWARD_FEATURE_DLC_187;¡Paquete de Steam desbloqueado!
+REWARD_FEATURE_DLC_16;¡Paquete G2A desbloqueado!
+REWARD_FEATURE_DLC_15;¡Paquete de Acceso Anticipado desbloqueado!
+PUZZLES_ACT_COMPLETION_TOOLTIP;¡Resuelve todos esos rompecabezas para conseguir esas recompensas!.
+MARKET_TAB_WELLS;Pozos
+MARKET_TAB_SETS;Conjuntos
+MARKET_TAB_ORBS;Orbes
+MARKET_TAB_FEATURED;Destacado
+MARKET_TAB_CARD_BACKS;Dorsos de Cartas
+MARKET_TAB_AVATARS;Avatares
+COSMETIC_SET_SELECT;Selecciona un conjunto personalizado para tu mazo
+REWARD_ORIGIN_DLCGAGANA;Crónicas de Gagana
+REWARD_FEATURE_DLC_386;¡Crónicas de Gagana desbloqueadas!
+CARD_FILTER_GAGANA;Gagana
+REWARD_FEATURE_DLC_390;¡Todos los Pozos desbloqueados!
+REWARD_FEATURE_DLC_389;¡Todos los Orbes desbloqueados!
+REWARD_FEATURE_DLC_388;¡Todos los Dorsos desbloqueados!
+REWARD_FEATURE_DLC_387;¡Todos los Avatares desbloqueados!
+GAMEPAD_REWARD_LORE_PAGE_CLICK_TO_READ;Pulsa {GAMEPAD_RIGHT_BUTTONS_LEFT} para leer
+MOUSE_ENGAGEMENT_PRESS_CONFIRM_TEXT;Pulsa para jugar
+GAMEPAD_ENGAGEMENT_PRESS_CONFIRM_TEXT;Pulsa cualquier botón para jugar
+NON_XBOX_LIVE_PLAYERS_MIGHT_BE_PRESENT;Jugadores sin Xbox Live pueden aparecer en este modo de juego
+GAMEPAD_QUEST_BUTTON_TOOLTIP_TEXT;Pulsa {GAMEPAD_ACTION_CONFIRM} para empezar el combate
+PLATFORM_EPIC_GAMES_STORE_ACCOUNT_BINDING_MESSAGE;Si es tu primera vez jugando a Faeria con tu cuenta de <nobr>Epic Games Store</nobr>, una cuenta de Faeria será creada y enlazada a tu cuenta de <nobr>Epic Games Store</nobr>.
+PLATFORM_STEAM_ACCOUNT_BINDING_MESSAGE;Si es tu primera vez jugando a Faeria con una cuenta de Steam, una cuenta de Faeria se creará y se enlazará a tu cuenta de Steam.
+PLATFORM_SWITCH_ACCOUNT_BINDING_MESSAGE;Si es tu primera vez jugando a Faeria con una cuenta de Nintendo, una cuenta de Faeria se creará y se enlazará a tu cuenta de Nintendo.
+LORE_PAGE_LABEL;Página de historia
+ENTER_A_DECK_NAME;Nombre del mazo
+ENTER_COUPON_CODE;Código de cupón
+ENTER_CARD_NAME;Nombre de carta
+ENTER_FRIEND_ID;ID de amigo
+DLC_FEATURES_WELLS_PACK;Este paquete desbloquea todos los cosméticos de Pozos que se pueden desbloquear con la progresión del juego.
+DLC_FEATURES_ORBS_PACK;Este paquete contiene los más de 30 Orbes del juego y futuros.
+DLC_FEATURES_CARDBACKS_PACK;Este paquete contiene más de 20 Dorsos de cartas del juego actual y futuros.
+DLC_FEATURES_AVATARS_PACK;Este paquete contiene más de 50 Avatares del juego actual y futuros.
+DLC_FEATURES_PREMIUM_EDITION;- EXP Duplicada - ¡de todo!\n- Gana Cofres de Batalla y Fragmentos el doble de rápido.\n - 10 espacios de Mazos ADICIONALES\n- Dorso Premium\n- Logo de Faeria Dorado\n- 5 Cofres Míticos llenos de cosméticos\n- Fragmentos extra
+DLC_FEATURES_PUZZLE_ELEMENTS;- 40 nuevos rompecabezas, de dificultad baja a extrema.\n- El equivalente a 10 Cofres Míticos en recompensas\n- Desbloquea la posibilidad de ganar el Dorso de 'Elementos'
+DLC_FEATURES_FALL_OF_EVERLIFE;- 40 nuevas cartas desbloqueadas\n- Introducción a la habilidad Corromper\n- Introducción de los subtipos: Yaks, Rakoan y ¡Bestias!\n- Set de cométicos único
+DLC_FEATURES_RESURGENCE;- 40 nuevas cartas desbloqueadas\n- Introducción de subtipo Tritón\n- Set de cométicos único
+DLC_FEATURES_CHRONICLES_OF_GAGANA;- 40 nuevas cartas desbloqueadas\n-Introducción a la habilidad Descubrir\n- Nuevo subtipo Meca\n- Set de cosméticos único
+DLC_DESCRIPTION_WELLS_PACK;Este DLC desbloquea todos los cosméticos de Pozos que se pueden desbloquear con la progresión del juego.
+DLC_DESCRIPTION_ORBS_PACK;Este DLC desbloquea todos los cosméticos de Orbes que se pueden desbloquear con la progresión del juego.
+DLC_DESCRIPTION_CARDBACKS_PACK;Este DLC desbloquea todos los cosméticos de Dorsos de cartas que se pueden desbloquear con la progresión en el juego.
+DLC_DESCRIPTION_AVATARS_PACK;Este DLC desbloquea todos los cosméticos de Avatares que se pueden desbloquear con la progresión en el juego.
+DLC_DESCRIPTION_PREMIUM_EDITION;¡Desbloquea la experiencia Faeria Premium!\n\nEste paquete contiene una mezcla de progreso acelerado y objetos exclusivos. Maximiza tu tiempo invertido en Faeria con EXP DOBLE, más espacios para mazos, cosméticos especiales y más.\n\n¿Buscando sacar más partido a Faeria? Este contenido es para ti.
+DLC_DESCRIPTION_PUZZLE_ELEMENTS;Vuestro maestro de rompecabezas de siempre, Jalmyr, ha dado un paso a un lado y dejado que los elementos se hagan con el control.\n\nEste Pack de Rompecabezas de Faeria contiene 40 retos de cerebro-galaxia adicionales para ti.\n\n¿Puedes superar a los elementos?\n\nAlerta: ¡Muchos de estos rompecabezas son casi imposibles!
+DLC_DESCRIPTION_FALL_OF_EVERLIFE;El Emperador Kaios ha consumido la Fruta de la Vida Eterna, desatando una corrupción terrible en el Oversky. ¡Alíate con los Yaks y los Rakoans para derrotarle!
+DLC_DESCRIPTION_RESURGENCE;La corrupción se expande por el mundo, amenazando con contaminar todo lo que es bueno y puro. Nuevos monstruos y gente embrujada acuden a la bandera Imperial, esperando compartir el botín de la guerra.\n\nA pesar de sufrir numerosas bajas, la esperanza florece en los corazones de aquellos que han elegido contraatacar. La victoria, contra todo pronóstico, parece más cercana con nuevos aliados uniéndose a la causa.
+DLC_DESCRIPTION_CHRONICLES_OF_GAGANA;El Emperador Kaios ha sido derrotado y el Oversky salvado.\n\nEn su búsqueda de una solución para un nuevo cataclismo inminente, la tribulación del Gagana se aventura en territorio inexplorado.\n\nEncontrarán nuevas civilizaciones, nuevos continentes, nuevas criaturas... y al final: los Tesoros de Gagana.
+DLC_SHOP_OPEN_SHOP;Abrir tienda
+DLC_SHOP_CONTENT_TITLE_TEXT;Contenido:
+INTRO_FOURTH_SENTENCE;¿A qué dioses debemos rezar exactamente?
+INTRO_THIRD_SENTENCE;El soldado, por encima de todos los demás, reza por la paz.

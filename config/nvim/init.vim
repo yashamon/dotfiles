@@ -644,7 +644,11 @@ endfunction
 
 au filetype tex nnoremap <silent> <leader>s :wa<cr>:call ToggleQuickFix()<cr>
 
-  
+   
+function! ClearLatex() 
+  silent !rm ./build/*
+endfunction
+
 function! CompileLatex()  
   silent !rm ./build/*
   let buf = bufname()
@@ -665,10 +669,11 @@ let execstr="silent !zathura --synctex-forward " . linenumber . ":" . colnumber 
 exec execstr
 execute "buffer" buf
 endfunction 
-nmap <leader>v :wa<cr>:call ViewPdf()<cr>
+nmap <leader>v :wa<cr>:call ViewPdf()<cr> 
 " nmap <leader>v :VimtexView<cr>
 " let  g:vimtex_fold_types_defaults = 'preamble, sections, comments'
-nmap <leader>l :wa<cr>:call CompileLatex()<cr>
+nmap <leader>l :wa<cr>:call CompileLatex()<cr> 
+nmap <leader>cl :call ClearLatex()<cr>
 " nmap <leader>m :silent ! cp % backup;  pandoc  backup -s --webtex -o backup.html;  cp backup.html %<cr>:e %<cr>
 
 " nmap <leader>m :silent ! cp % backup;  pandoc  backup -s --mathjax[=https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js] -o backup.html;  cp backup.html %<cr>:e %<cr>:w<cr>:qa<cr> 

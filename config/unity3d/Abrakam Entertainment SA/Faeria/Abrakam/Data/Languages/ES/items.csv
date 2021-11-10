@@ -1,0 +1,511 @@
+AVATAR_ADVENTURER_NAME;Fugoro
+AVATAR_AURORA_NAME;Aurora
+AVATAR_BASIC_NAME;Explorador
+AVATAR_BLUE_ELEMENTAL_1_NAME;Duende Celeste
+AVATAR_BLUE_ELEMENTAL_2_NAME;Presencia Celeste
+AVATAR_BLUE_ELEMENTAL_3_NAME;Genio Celeste
+AVATAR_BOMB_SLINGER_NAME;Bom-R
+AVATAR_CAP_10_NAME;CAP-10
+AVATAR_DARK_WISP_NAME;Brizna Oscura
+AVATAR_FUGORO_NAME;Fugoro
+AVATAR_GREEN_ELEMENTAL_1_NAME;Duende Verdoso
+AVATAR_GREEN_ELEMENTAL_2_NAME;Presencia Verdosa
+AVATAR_GREEN_ELEMENTAL_3_NAME;Genio Verdoso
+AVATAR_HOAKA_NAME;Hoaka
+AVATAR_JALMYR_NAME;Jalmyr
+AVATAR_KAIOS_NAME;Kaios
+AVATAR_KELDRAN_EMISSARY_NAME;Emisario del Viento
+AVATAR_KHALIM_NAME;Khalim
+AVATAR_KINGS_GUARD_NAME;Balhar
+AVATAR_KOBOLD_MERCENARY_NAME;Jefe Clandestino
+AVATAR_KROG_NAME;Krog
+AVATAR_MAGDA_NAME;Magda
+AVATAR_OGRE_BATTLER_NAME;Guerrero Ogro
+AVATAR_RAIZEON_NAME;Raizeon
+AVATAR_RAPALA_NAME;Rapala
+AVATAR_RED_ELEMENTAL_1_NAME;Duende carmesí
+AVATAR_RED_ELEMENTAL_2_NAME;Presencia Carmesí
+AVATAR_RED_ELEMENTAL_3_NAME;Genio Carmesí
+AVATAR_RUUNIN_NAME;Ruunin
+AVATAR_SAGAMI_ELDER_NAME;Anciano Sagami
+AVATAR_SEIFER_NAME;Seifer
+AVATAR_SHARRA_NAME;Sharra
+AVATAR_SHAYTAN_ASSASSIN_NAME;Asesino Shaytan
+AVATAR_TAESA_NAME;Hechicera Gabriana
+AVATAR_TARANGA_NAME;Taranga
+AVATAR_TARUM_NAME;Tarum
+AVATAR_THE_EGG_NAME;El Huevo
+AVATAR_ULANI_NAME;Ulani
+AVATAR_VERDURAN_FORCE_NAME;Fuerza Verduran
+AVATAR_YAKKAR_NAME;Yakkar
+AVATAR_YAK_CYNICAL_NAME;El Yak Cínico
+AVATAR_YAK_DRAGON_NAME;Fafnir
+AVATAR_YAK_FANCY_NAME;Sir Yakkinton
+AVATAR_YAK_FARMER_NAME;Agricultor
+AVATAR_YAK_FAT_NAME;Rizitos
+AVATAR_YAK_FORCER_NAME;Yak Vigilante
+AVATAR_YAK_HIPPIE_NAME;Flor de la Paz
+AVATAR_YAK_KING_NAME;Rey Yaknus
+AVATAR_YAK_PIRATE_NAME;Yak Sparrow
+AVATAR_YELLOW_ELEMENTAL_1_NAME;Duende Solitario
+AVATAR_YELLOW_ELEMENTAL_2_NAME;Presencia Desolada
+AVATAR_YELLOW_ELEMENTAL_3_NAME;Genio Solitario
+CARD_BACK_1605_GOLD_NAME;Dorso Dorado Temporada 1
+CARD_BACK_1605_SILVER_NAME;Dorso Plateado Temporada 1
+CARD_BACK_1606_GOLD_NAME;Dorso Dorado Temporada 2
+CARD_BACK_1606_SILVER_NAME;Dorso Plateado Temporada 2
+CARD_BACK_1607_GOLD_NAME;Dorso Dorado Temporada 3
+CARD_BACK_1607_SILVER_NAME;Dorso Plateado Temporada 3
+CARD_BACK_1608_GOLD_NAME;Dorso Dorado Temporada 4
+CARD_BACK_1608_SILVER_NAME;Dorso Plateado Temporada 4
+CARD_BACK_1609_GOLD_NAME;Dorso Dorado Temporada 5
+CARD_BACK_1609_SILVER_NAME;Dorso Plateado Temporada 5
+CARD_BACK_1610_GOLD_NAME;Dorso Dorado Temporada 6
+CARD_BACK_1610_SILVER_NAME;Dorso Plateado Temporada 6
+CARD_BACK_1611_GOLD_NAME;Dorso Dorado Temporada 7
+CARD_BACK_1611_SILVER_NAME;Dorso Plateado Temporada 7
+CARD_BACK_1612_GOLD_NAME;Dorso Dorado Temporada 8
+CARD_BACK_1612_SILVER_NAME;Dorso Plateado Temporada 8
+CARD_BACK_1701_GOLD_NAME;Dorso Dorado Temporada 9
+CARD_BACK_1701_SILVER_NAME;Dorso Plateado Temporada 9
+CARD_BACK_1702_GOLD_NAME;Dorso Dorado Temporada 10
+CARD_BACK_1702_SILVER_NAME;Dorso Plateado Temporada 10
+CARD_BACK_1703_GOLD_NAME;Dorso Dorado Temporada 11
+CARD_BACK_1703_SILVER_NAME;Dorso Plateado Temporada 11
+CARD_BACK_1704_GOLD_NAME;Dorso Dorado de la Temporada 12
+CARD_BACK_1704_SILVER_NAME;Dorso Plateado de la Temporada 12
+CARD_BACK_1705_GOLD_NAME;Dorso Dorado Temporada 13
+CARD_BACK_1705_SILVER_NAME;Dorso Plateado Temporada 13
+CARD_BACK_1706_GOLD_NAME;Dorso Dorado Temporada 14
+CARD_BACK_1706_SILVER_NAME;Dorso Plateado Temporada 14
+CARD_BACK_1707_GOLD_NAME;Dorso Dorado Temporada 15
+CARD_BACK_1707_SILVER_NAME;Dorso Plateado Temporada 15
+CARD_BACK_1708_GOLD_NAME;Dorso Dorado Temporada 16
+CARD_BACK_1708_SILVER_NAME;Dorso Plateado Temporada 16
+CARD_BACK_1709_GOLD_NAME;Dorso Dorado Temporada 17
+CARD_BACK_1709_SILVER_NAME;Dorso Plateado Temporada 17
+CARD_BACK_1710_GOLD_NAME;Dorso Dorado Temporada 18
+CARD_BACK_1710_SILVER_NAME;Dorso Plateado Temporada 18
+CARD_BACK_1711_GOLD_NAME;Dorso Dorado Temporada 19
+CARD_BACK_1711_SILVER_NAME;Dorso Plateado Temporada 19
+CARD_BACK_1712_GOLD_NAME;Dorso Dorado Temporada 20
+CARD_BACK_1712_SILVER_NAME;Dorso Plateado Temporada 20
+CARD_BACK_1801_GOLD_NAME;Dorso Dorado Temporada 21
+CARD_BACK_1801_SILVER_NAME;Dorso Plateado Temporada 21
+CARD_BACK_1802_GOLD_NAME;Dorso Dorado Temporada 22
+CARD_BACK_1802_SILVER_NAME;Dorso Plateado Temporada 22
+CARD_BACK_1803_GOLD_NAME;Dorso Dorado Temporada 23
+CARD_BACK_1803_SILVER_NAME;Dorso Plateado Temporada 23
+CARD_BACK_1804_GOLD_NAME;Dorso Dorado Temporada 24
+CARD_BACK_1804_SILVER_NAME;Dorso Plateado Temporada 24
+CARD_BACK_1805_GOLD_NAME;Dorso Dorado Temporada 25
+CARD_BACK_1805_SILVER_NAME;Dorso Plateado Temporada 25
+CARD_BACK_ADVENTURER_NAME;Dorso de Fugoro
+CARD_BACK_ADVENTURE_POUCH_NAME;Dorso del Aventurero
+CARD_BACK_AURORA_NAME;Dorso de Aurora
+CARD_BACK_BASIC_COPPER_NAME;Dorso Morado de Diamante
+CARD_BACK_BASIC_DIAMOND_NAME;Dorso Plateado de Diamante
+CARD_BACK_BASIC_NAME;Dorso Básico
+CARD_BACK_BOMB_SLINGER_NAME;Dorso de Bom-R
+CARD_BACK_DRAGON_NAME;Dorso del Dragón Negro
+CARD_BACK_FAERIA_WORLD_CIRCUIT_NAME;Circuito Mundial Faeria
+CARD_BACK_FUGORO_NAME;Dorso de Fugoro
+CARD_BACK_HOAKA_NAME;Dorso de Hoaka
+CARD_BACK_JALMYR_NAME;Dorso de Jalmyr
+CARD_BACK_KAIOS_NAME;Dorso de Kaios
+CARD_BACK_KHALIM_NAME;Dorso de Khalim
+CARD_BACK_KROG_NAME;Dorso de Krog
+CARD_BACK_MAGDA_NAME;Dorso de Magda
+CARD_BACK_MOSAIC_FLOWER_NAME;Dorso de Mosaico Floral
+CARD_BACK_MOSAIC_SOLAR_NAME;Dorso de Mosaico Solar
+CARD_BACK_MUCHA_NAME;Dorso Modernista
+CARD_BACK_PANDORA_1610_GOLD_NAME;Dorso Dorado de Pandora Temporada 6
+CARD_BACK_PANDORA_1610_SILVER_NAME;Dorso Plateado de Pandora Temporada 7
+CARD_BACK_PANDORA_1611_GOLD_NAME;Dorso Dorado de Pandora Temporada 7
+CARD_BACK_PANDORA_1611_SILVER_NAME;Dorso Plateado de Pandora Temporada 7
+CARD_BACK_PANDORA_1612_GOLD_NAME;Dorso Dorado de Pandora Temporada 8
+CARD_BACK_PANDORA_1612_SILVER_NAME;Dorso Plateado de Pandora Temporada 8
+CARD_BACK_PANDORA_1701_GOLD_NAME;Dorso Dorado de Pandora Temporada 9
+CARD_BACK_PANDORA_1701_SILVER_NAME;Dorso Plateado de Pandora Temporada 9
+CARD_BACK_PANDORA_1702_GOLD_NAME;Dorso Dorado de Pandora Temporada 10
+CARD_BACK_PANDORA_1702_SILVER_NAME;Dorso Plateado de Pandora Temporada 10
+CARD_BACK_PANDORA_1703_GOLD_NAME;Dorso Dorado de Pandora Temporada 11
+CARD_BACK_PANDORA_1703_SILVER_NAME;Dorso Plateado de Pandora Temporada 11
+CARD_BACK_PANDORA_1704_GOLD_NAME;Dorso Dorado de Pandora Temporada 12
+CARD_BACK_PANDORA_1704_SILVER_NAME;Dorso Plateado de Pandora Temporada 12
+CARD_BACK_PANDORA_1705_GOLD_NAME;Dorso Dorado de Pandora Temporada 13
+CARD_BACK_PANDORA_1705_SILVER_NAME;Dorso Plateado de Pandora Temporada 13
+CARD_BACK_PANDORA_1706_GOLD_NAME;Dorso Dorado de Pandora Temporada 14
+CARD_BACK_PANDORA_1706_SILVER_NAME;Dorso Plateado de Pandora Temporada 14
+CARD_BACK_PANDORA_1707_GOLD_NAME;Dorso Dorado de Pandora Temporada 15
+CARD_BACK_PANDORA_1707_SILVER_NAME;Dorso Plateado de Pandora Temporada 15
+CARD_BACK_PANDORA_1708_GOLD_NAME;Dorso Dorado de Pandora Temporada 16
+CARD_BACK_PANDORA_1708_SILVER_NAME;Dorso Plateado de Pandora Temporada 16
+CARD_BACK_PANDORA_1709_GOLD_NAME;Dorso Dorado de Pandora Temporada 17
+CARD_BACK_PANDORA_1709_SILVER_NAME;Dorso Plateado de Pandora Temporada 17
+CARD_BACK_PANDORA_1710_GOLD_NAME;Dorso Dorado de Pandora Temporada 18
+CARD_BACK_PANDORA_1710_SILVER_NAME;Dorso Plateado de Pandora Temporada 18
+CARD_BACK_PANDORA_1711_GOLD_NAME;Dorso Dorado de Pandora Temporada 19
+CARD_BACK_PANDORA_1711_SILVER_NAME;Dorso Plateado de Pandora Temporada 19
+CARD_BACK_PANDORA_1712_GOLD_NAME;Dorso Dorado de Pandora Temporada 20
+CARD_BACK_PANDORA_1712_SILVER_NAME;Dorso Plateado de Pandora Temporada 20
+CARD_BACK_PANDORA_1801_GOLD_NAME;Dorso Dorado de Pandora Temporada 21
+CARD_BACK_PANDORA_1801_SILVER_NAME;Dorso Plateado de Pandora Temporada 21
+CARD_BACK_PANDORA_1802_GOLD_NAME;Dorso Dorado de Pandora Temporada 22
+CARD_BACK_PANDORA_1802_SILVER_NAME;Dorso Plateado de Pandora Temporada 22
+CARD_BACK_PANDORA_1803_GOLD_NAME;Dorso Dorado de Pandora Temporada 23
+CARD_BACK_PANDORA_1803_SILVER_NAME;Dorso Plateado de Pandora Temporada 23
+CARD_BACK_PANDORA_1804_GOLD_NAME;Dorso Dorado de Pandora Temporada 24
+CARD_BACK_PANDORA_1804_SILVER_NAME;Dorso Plateado de Pandora Temporada 24
+CARD_BACK_PANDORA_1805_GOLD_NAME;Dorso Dorado de Pandora Temporada 25
+CARD_BACK_PANDORA_1805_SILVER_NAME;Dorso Plateado de Pandora Temporada 25
+CARD_BACK_PREMIUM_NAME;Dorso Premium
+CARD_BACK_RAPALA_NAME;Dorso de Rapala
+CARD_BACK_RUUNIN_NAME;Dorso de Ruunin
+CARD_BACK_SEIFER_NAME;Dorso de Seifer
+CARD_BACK_SHARRA_NAME;Dorso de Sharra
+CARD_BACK_TARUM_NAME;Dorso de Tarum
+EMOTE_ADVENTURER_GREETINGS_NAME;Que gane la mejor rana.
+EMOTE_ADVENTURER_OOPS_NAME;Oopsie.
+EMOTE_ADVENTURER_TAUNT_NAME;Tal vez debas comprar más cartas.
+EMOTE_ADVENTURER_UNIQUE_NAME;¿Has comprado mi aventura oversky?
+EMOTE_ADVENTURER_WELL_PLAYED_NAME;Brillante.
+EMOTE_ADVENTURER_WOW_NAME;¡Por el amor de rana!
+EMOTE_AURORA_GREETINGS_NAME;Que bueno verte.
+EMOTE_AURORA_OOPS_NAME;Los Errores Nos Hacen Aprender.
+EMOTE_AURORA_TAUNT_NAME;¡Eres Adorable!
+EMOTE_AURORA_UNIQUE_NAME;No tienes respeto por una anciana...
+EMOTE_AURORA_WELL_PLAYED_NAME;Te has ganado mi respeto.
+EMOTE_AURORA_WOW_NAME;Parece que aún no lo he visto Todo.
+EMOTE_BASIC_GREETINGS_NAME;Saludos.
+EMOTE_BASIC_OOPS_NAME;Ha sido un error.
+EMOTE_BASIC_TAUNT_NAME;No sobrevivirás.
+EMOTE_BASIC_WELL_PLAYED_NAME;Bien jugado.
+EMOTE_BASIC_WOW_NAME;¡Increíble!
+EMOTE_BOMB_SLINGER_GREETINGS_NAME;¡Secuencia de saludo iniciada!
+EMOTE_BOMB_SLINGER_OOPS_NAME;ERROR. ERROR.
+EMOTE_BOMB_SLINGER_TAUNT_NAME;¡Exterminio!
+EMOTE_BOMB_SLINGER_UNIQUE_NAME;Instalando Actualizaciones...
+EMOTE_BOMB_SLINGER_WELL_PLAYED_NAME;Bien Jugado = True!
+EMOTE_BOMB_SLINGER_WOW_NAME;¡Nivel de Diversión al Máximo!
+EMOTE_FUGORO_GREETINGS_NAME;Saludos, amigo.
+EMOTE_FUGORO_OOPS_NAME;El dinero no puede comprar sabiduría.
+EMOTE_FUGORO_TAUNT_NAME;¿Te gustaría tu derrota envuelta para obsequio?
+EMOTE_FUGORO_UNIQUE_NAME;Compra más cofres, ¡apoya a tu comerciante local!
+EMOTE_FUGORO_WELL_PLAYED_NAME;Bien jugado. Eres mi cliente favorito.
+EMOTE_FUGORO_WOW_NAME;¡Increíble! ¡Debería haber cobrado la entrada!
+EMOTE_HOAKA_GREETINGS_NAME;¡Bienvenido! ¡Bienvenido!
+EMOTE_HOAKA_OOPS_NAME;No debiste haber hecho eso.
+EMOTE_HOAKA_TAUNT_NAME;Ya has perdido. Simplemente no lo sabes.
+EMOTE_HOAKA_UNIQUE_NAME;¡Soy tan inteligente que me soprendo a mi mismo!
+EMOTE_HOAKA_WELL_PLAYED_NAME;¡Eres un desafío interesante!
+EMOTE_HOAKA_WOW_NAME;¡Espléndido!
+EMOTE_JALMYR_GREETINGS_NAME;Saludos
+EMOTE_JALMYR_OOPS_NAME;Hmm. Un error no trivial.
+EMOTE_JALMYR_TAUNT_NAME;Tal vez deberías jugar más rompecabezas.
+EMOTE_JALMYR_UNIQUE_NAME;Tómate tu tiempo.
+EMOTE_JALMYR_WELL_PLAYED_NAME;Has aprendido bien.
+EMOTE_JALMYR_WOW_NAME;Magnífico.
+EMOTE_KAIOS_GREETINGS_NAME;Bienvenido a mi reino.
+EMOTE_KAIOS_OOPS_NAME;Necio.
+EMOTE_KAIOS_TAUNT_NAME;Inclínate ante mi.
+EMOTE_KAIOS_UNIQUE_NAME;Únete a mi. Es tu destino.
+EMOTE_KAIOS_WELL_PLAYED_NAME;Superaste mis expectativas.
+EMOTE_KAIOS_WOW_NAME;¡Asombroso!
+EMOTE_KHALIM_GREETINGS_NAME;Buenas.
+EMOTE_KHALIM_OOPS_NAME;Imperdonable.
+EMOTE_KHALIM_TAUNT_NAME;Tus Habilidades son Incompletas.
+EMOTE_KHALIM_UNIQUE_NAME;Odio la arena.Se mete en todos lados.
+EMOTE_KHALIM_WELL_PLAYED_NAME;Bien Jugado. Eres Peligroso.
+EMOTE_KHALIM_WOW_NAME;¡Por los Vientos Salvajes!
+EMOTE_KROG_GREETINGS_NAME;¡Seamos Amigos!
+EMOTE_KROG_OOPS_NAME;Incluso los Reyes Cometen Errores.
+EMOTE_KROG_TAUNT_NAME;¡Voy a Transformarte en un Yak!
+EMOTE_KROG_UNIQUE_NAME;¡Has sido Kroggeado!
+EMOTE_KROG_WELL_PLAYED_NAME;¡Eres una Galleta Astuta!
+EMOTE_KROG_WOW_NAME;*Risa Alegre*
+EMOTE_MAGDA_GREETINGS_NAME;Saludos.
+EMOTE_MAGDA_OOPS_NAME;Un Error Menor.
+EMOTE_MAGDA_TAUNT_NAME;Me Has Entretenido.
+EMOTE_MAGDA_UNIQUE_NAME;Todo forma parte de mi Plan.
+EMOTE_MAGDA_WELL_PLAYED_NAME;Bien jugado. Te he subestimado.
+EMOTE_MAGDA_WOW_NAME;Me quede sin palabras.
+EMOTE_RAPALA_GREETINGS_NAME;¡Buena suerte, diviértete!
+EMOTE_RAPALA_OOPS_NAME;Que mal se siente, hombre.
+EMOTE_RAPALA_TAUNT_NAME;¿Por qué tan serio?
+EMOTE_RAPALA_UNIQUE_NAME;¡Coloquemos una sonrisa en esa cara!
+EMOTE_RAPALA_WELL_PLAYED_NAME;Buena partida, bien jugado.
+EMOTE_RAPALA_WOW_NAME;¡Eso merece estar en youtube!
+EMOTE_RUUNIN_GREETINGS_NAME;Saludos.
+EMOTE_RUUNIN_OOPS_NAME;*Gruñidos*
+EMOTE_RUUNIN_TAUNT_NAME;La Naturaleza Nunca Muere.
+EMOTE_RUUNIN_UNIQUE_NAME;Lo que me *Mata* solo me hace más Fuerte.
+EMOTE_RUUNIN_WELL_PLAYED_NAME;Eres un Buen Cazador.
+EMOTE_RUUNIN_WOW_NAME;¡Por mis Temibles Colmillos!
+EMOTE_SEIFER_GREETINGS_NAME;Heh. Saludos.
+EMOTE_SEIFER_OOPS_NAME;Un Revés Sin Importancia.
+EMOTE_SEIFER_TAUNT_NAME;¡Te ENTERRARÉ!
+EMOTE_SEIFER_UNIQUE_NAME;¡Solo Puede Quedar Uno!
+EMOTE_SEIFER_WELL_PLAYED_NAME;¡Bien jugado! Luchas mejor de lo que hueles.
+EMOTE_SEIFER_WOW_NAME;¡Magnífico!
+EMOTE_SHARRA_GREETINGS_NAME;Te saludo.
+EMOTE_SHARRA_OOPS_NAME;Ha sido un desliz. No esperes que vuelva a ocurrir.
+EMOTE_SHARRA_TAUNT_NAME;Muere con Dignidad.
+EMOTE_SHARRA_UNIQUE_NAME;Fluye como el Agua. Golpea como el Viento.
+EMOTE_SHARRA_WELL_PLAYED_NAME;Eres un Oponente Digno.
+EMOTE_SHARRA_WOW_NAME;¡Santo Yak!
+EMOTE_TARUM_GREETINGS_NAME;La tierra te saluda.
+EMOTE_TARUM_OOPS_NAME;Incluso yo cometo errores.
+EMOTE_TARUM_TAUNT_NAME;Serás un buen fertilizante.
+EMOTE_TARUM_UNIQUE_NAME;Eres pequeño.
+EMOTE_TARUM_WELL_PLAYED_NAME;Bien jugado pequeño.
+EMOTE_TARUM_WOW_NAME;Por la madre antigua...
+ORB_ADVENTURER_NAME;Orbe de Fugoro
+ORB_ARCANE_NAME;Orbe Arcano
+ORB_AURORA_NAME;Orbe de Aurora
+ORB_BASIC_NAME;Orbe Básico
+ORB_BOMB_SLINGER_NAME;Orbe de Bom-R
+ORB_CHAMPION_1_NAME;Orbe de Campeones
+ORB_CHAMPION_2_NAME;Orbe de Campeones
+ORB_CHAMPION_3_NAME;Orbe de Campeones
+ORB_CHAMPION_4_NAME;Orbe de Campeones
+ORB_DRAGON_NAME;Orbe del Dragón Dorado
+ORB_FUGORO_NAME;Orbe de Fugoro
+ORB_GAEA_NAME;Orbe de Gaea
+ORB_GIANTS_NAME;Orbe de los Gigantes
+ORB_HOAKA_NAME;Orbe de Hoaka
+ORB_JALMYR_NAME;Orbe de Jalmyr
+ORB_KAIOS_NAME;Orbe de Kaios
+ORB_KHALIM_NAME;Orbe de Khalim
+ORB_KROG_NAME;Orbe de Krog
+ORB_LOYALTY_NAME;Orbe de la Lealtad
+ORB_MAGDA_NAME;Orbe de Magda
+ORB_PACK_NAME;Orbe exclusivo de patrocinadores de Kickstarter
+ORB_POWER_NAME;Piedra Arcana
+ORB_RAPALA_NAME;Orbe de Rapala
+ORB_RUUNIN_NAME;Orbe de Ruunin
+ORB_SEIFER_NAME;Orbe de Seifer
+ORB_SHARRA_NAME;Orbe de Sharra
+ORB_TARUM_NAME;Orbe de Tarum
+ORB_VALOR_NAME;Orbe del Valor
+SHORE_AMAI_NAME;Bahía de Amai
+SHORE_FOREST_NAME;Bahía de Bosque
+SHORE_GABRIA_NAME;Bahía de Gabria
+SHORE_MENETHYR_NAME;Bahía de Menethyr
+SHORE_OVERSKY_CORRUPT_NAME;Costa Apocalíptica de Oversky
+SHORE_OVERSKY_DAY_NAME;Bahía de día de Oversky
+SHORE_OVERSKY_NIGHT_NAME;Bahía de noche de Oversky
+SHORE_PANDORA_NAME;Bahía de Pandora
+SHORE_SYLAND_NAME;Bahía de Syland
+SHORE_VOID_NAME;Bahía de Vacío
+WELL_ADVENTURER_NAME;Pozos de Fugoro
+WELL_ARCANE_NAME;Pozos Arcanos
+WELL_AURORA_NAME;Pozos de Aurora
+WELL_BASIC_NAME;Pozos Básicos
+WELL_BOMB_SLINGER_NAME;Pozos de Bom-R
+WELL_CARNIVOROUS_PLANT_NAME;Pozos de Plantas Carnívoras
+WELL_FUGORO_NAME;Pozos de Fugoro
+WELL_GABRIA_NAME;Pozos Gabrianos
+WELL_HOAKA_NAME;Pozos de Hoaka
+WELL_JALMYR_NAME;Pozos de Jalmyr
+WELL_KAIOS_NAME;Pozos de Kaios
+WELL_KHALIM_NAME;Pozos de Khalim
+WELL_KROG_NAME;Pozos de Krog
+WELL_MAGDA_NAME;Pozos de Magda
+WELL_RAPALA_NAME;Pozos de Rapala
+WELL_RUUNIN_NAME;Pozos de Ruunin
+WELL_SEIFER_NAME;Pozos de Seifer
+WELL_SHARRA_NAME;Pozos de Sharra
+WELL_TARUM_NAME;Pozos de Tarum
+AVATAR_AURORA_DARK_NAME;Aurora de Pesadilla
+AVATAR_AURORA_HIPPIE_NAME;Aurora Pacifista
+AVATAR_EXPLORER_BLUE_NAME;Viajero
+AVATAR_EXPLORER_PINK_NAME;Peregrino
+AVATAR_FUGORO_RAINBOW_NAME;Fugoro Cromático
+AVATAR_KAIOS_CORRUPTED_NAME;Kaios Demencial
+AVATAR_KELDRAN_EMISSARY_BLUE_NAME;Mensajero del Viento
+AVATAR_KHALIM_BLACK_NAME;Khalim el Sabio
+AVATAR_KHALIM_SUNGLASSES_NAME;Khalim Navegante de Tormentas
+AVATAR_KINGS_GUARD_SILVER_NAME;Balhar Plateado
+AVATAR_KOBOLD_MERCENARY_GOLD_NAME;Tacaño Subterraneo
+AVATAR_KROG_BIKER_NAME;El Notable K.R.O.G
+AVATAR_KROG_SUIT_NAME;Don Krog
+AVATAR_MAGDA_SECRETARY_NAME;Magda la Bibliotecaria
+AVATAR_OGRE_BATTLER_BLUE_NAME;Guerrero Woad
+AVATAR_RAIZEON_ALTERED_NAME;Raizeon Prismático
+AVATAR_RUUNIN_BLACK_NAME;Corredor Nocturno Ruunin
+AVATAR_SEIFER_SUNGLASSES_NAME;Rata Cool Seifer
+AVATAR_SHARRA_HAT_NAME;Sharra Casual
+AVATAR_SHARRA_PINK_NAME;Sharra Elegante
+AVATAR_SHAYTAN_ASSASSIN_BLUE_NAME;Asesino Celeste
+AVATAR_TARUM_EVIL_NAME;Tarum, Ira de la Naturaleza
+AVATAR_VERDURAN_FORCE_GREY_NAME;Fuerza Verdureana de Otoño
+AVATAR_WISP_RAINBOW_NAME;Brizna Arcoíris
+AVATAR_WISP_WHITE_NAME;Brizna Brillante
+AVATAR_YAK_SHEPHERD_NAME;Pastora
+CARD_BACK_FALL_OF_EVERLIFE_NAME;Dorso Corrupto
+CARD_BACK_MOSAIC_FLOWER_GREEN_NAME;Mosaico Azul Floreado
+CARD_BACK_MOSAIC_FLOWER_RED_NAME;Mosaico Rojo Floreado
+CARD_BACK_MOSAIC_SOLAR_BLUE_NAME;Mosaico de Sol Verde
+CARD_BACK_MOSAIC_SOLAR_MAGENTA_NAME;Mosaico de Sol Magenta
+CARD_BACK_MUCHA_GREEN_NAME;Dorso Modernista Verde
+CARD_BACK_MUCHA_MAGENTA_NAME;Dorso Modernista Magenta
+ORB_ARCANE_GOLD_NAME;Orbe Dorado Arcano
+ORB_ARCANE_PURPLE_NAME;Orbe Púrpura Arcano
+ORB_ARCANE_RED_NAME;Orbe Rojo Arcano
+ORB_CRYSTAL_STONE_GOLD_NAME;Orbe Dorado de Cristal
+ORB_CRYSTAL_STONE_NAME;Orbe Azul de Cristal
+ORB_CRYSTAL_STONE_PURPLE_NAME;Orbe Púrpura de Cristal
+ORB_DRAGON_SILVER_NAME;Orbe Plateado del Dragon
+ORB_FALL_OF_EVERLIFE_NAME;Orbe Corrupto
+ORB_HAND_ARCANE_NAME;Mano Arcana
+ORB_HAND_GRASP_NAME;Comprensión Terrestre
+ORB_SPIDEREGG_GREEN_NAME;Guarida Arácnida
+ORB_SPIDEREGG_ORANGE_NAME;Nido Arácnido
+ORB_SPIDEREGG_RAINBOW_NAME;Madriguera Arácnida
+ORB_STAR_CRYSTAL_NAME;Orbe Celestial
+ORB_STAR_CRYSTAL_ORANGE_NAME;Orbe Naranja Celestial
+ORB_STAR_CRYSTAL_PURPLE_NAME;Orbe Morado Celestial
+ORB_TRIBAL_NAME;Orbe Tiki
+ORB_VALOR_GREEN_NAME;Orbe Verde del Valor
+ORB_VALOR_MAGENTA_NAME;Orbe Púrpura del Valor
+ORB_VALOR_SILVER_NAME;Orbe Plateado del Valor
+WELL_ARCANE_GOLD_NAME;Pozos Arcanos Dorados
+WELL_ARCANE_PURPLE_NAME;Pozos Arcanos Púrpuras
+WELL_ARCANE_RED_NAME;Pozos Arcanos Rojos
+WELL_FALL_OF_EVERLIFE_NAME;Pozos Corruptos
+WELL_FLOATING_STONES_NAME;Pozos de Piedra Flotante
+WELL_ROOTS_NAME;Pozos de Vid
+WELL_RUNIC_BLUE_NAME;Pozos del Destino Azules
+WELL_RUNIC_GREEN_NAME;Pozos del Destino Verdes
+WELL_RUNIC_RED_NAME;Pozos de Fortuna
+WELL_RUNIC_YELLOW_NAME;Pozos de la Suerte
+CARD_BACK_1806_GOLD_NAME;Dorso Dorado Temporada 26
+CARD_BACK_1806_SILVER_NAME;Dorso Plateado Temporada 26
+CARD_BACK_PANDORA_1806_GOLD_NAME;Dorso Dorado de Pandora Temporada 26
+CARD_BACK_PANDORA_1806_SILVER_NAME;Dorso Plateado de Pandora Temporada 26
+CARD_BACK_1807_GOLD_NAME;Dorso Dorado de la Temporada 27
+CARD_BACK_1807_SILVER_NAME;Dorso Plateado de la Temporada 27
+CARD_BACK_PANDORA_1807_GOLD_NAME;Dorso Dorado de la Temporada 27 de Pandora
+CARD_BACK_PANDORA_1807_SILVER_NAME;Dorso Plateado de la Temporada 27 de Pandora
+CARD_BACK_PANDORA_1808_SILVER_NAME;Dorso Plateado de la Temporada 28 de Pandora
+CARD_BACK_PANDORA_1808_GOLD_NAME;Dorso Dorado de la Temporada 28 de Pandora
+CARD_BACK_1808_SILVER_NAME;Dorso Plateado de la Temporada 28
+CARD_BACK_1808_GOLD_NAME;Dorso Dorado de la Temporada 28
+CARD_BACK_PANDORA_1809_SILVER_NAME;Dorso Plateado de la Temporada 29 de Pandora
+CARD_BACK_PANDORA_1809_GOLD_NAME;Dorso Dorado de la Temporada 29 de Pandora
+CARD_BACK_1809_SILVER_NAME;Dorso Plateado de la Temporada 29
+CARD_BACK_1809_GOLD_NAME;Dorso Dorado de la Temporada 29
+WELL_RESURGENCE_NAME;Pozos de la Resurgencia
+SHORE_RESURGENCE_NAME;Campo de Juego de la Resurgencia
+ORB_RESURGENCE_NAME;Orbe de la Resurgencia
+CARD_BACK_RESURGENCE_NAME;Dorso de la Resurgencia
+CARD_BACK_MOSAIC_YAK_NAME;Dorso de Mosaico Yak
+AVATAR_BANON_NAME;Banon
+CARD_BACK_ELEMENTS_NAME;Dorso Elemental
+CARD_BACK_PANDORA_1810_SILVER_NAME;Dorso Plateado de la Temporada 30 de Pandora
+CARD_BACK_PANDORA_1810_GOLD_NAME;Dorso Dorado de la Temporada 30 de Pandora
+CARD_BACK_1810_SILVER_NAME;Dorso Plateado de la Temporada 30
+CARD_BACK_1810_GOLD_NAME;Dorso Dorado de la Temporada 30
+AVATAR_YAK_UNICORN_NAME;Yakkicornio
+AVATAR_YAK_TEDDY_NAME;Teddy
+AVATAR_YAK_METALHEAD_NAME;Yak Roquero
+AVATAR_YAK_MC_NAME;Yak MC
+AVATAR_YAK_LIZARD_NAME;Yakizard
+AVATAR_YAK_INDIAN_CHIEF_NAME;Pocyakontas
+AVATAR_YAK_DEVIL_NAME;Yak Demoníaco
+AVATAR_YAK_BF_YC_NAME;Yakuza
+WELL_TETHRA_NAME;Pozos de Tethra
+WELL_OROSEI_NAME;Pozos de Orosei
+WELL_GARUDAN_NAME;Pozos de Garudan
+WELL_CELESTE_NAME;Pozos de Celeste
+WELL_AZARAI_NAME;Pozos de Azarai
+SHORE_DRAGON_NAME;Campo de juego de la Guarida del Dragón
+ORB_TETHRA_NAME;Orbe de Tethra
+ORB_OROSEI_NAME;Orbe de Orosei
+ORB_GARUDAN_NAME;Orbe de Garudan
+ORB_CELESTE_NAME;Orbe de Celeste
+ORB_AZARAI_NAME;Orbe de Azarai
+CARD_BACK_TETHRA_NAME;Dorso de Tethra
+CARD_BACK_OROSEI_NAME;Dorso de Orosei
+CARD_BACK_GARUDAN_NAME;Dorso de Garudan
+CARD_BACK_CELESTE_NAME;Dorso de Celeste
+CARD_BACK_AZARAI_NAME;Dorso de Azarai
+AVATAR_TETHRA_NAME;Tethra
+AVATAR_OROSEI_NAME;Orosei
+AVATAR_GARUDAN_NAME;Garudan
+AVATAR_CELESTE_NAME;Celeste
+AVATAR_AZARAI_NAME;Azarai
+CARD_BACK_PANDORA_1811_SILVER_NAME;Dorso Plateado de la Temporada 31 de Pandora
+CARD_BACK_PANDORA_1811_GOLD_NAME;Dorso Dorado de la Temporada 31 de Pandora
+CARD_BACK_1811_SILVER_NAME;Dorso Plateado de la Temporada 31
+CARD_BACK_1811_GOLD_NAME;Dorso Dorado de la Temporada 31
+CARD_BACK_PANDORA_1901_SILVER_NAME;Dorso Plateado de la Temporada 33 de Pandora
+CARD_BACK_PANDORA_1901_GOLD_NAME;Dorso Dorado de la Temporada 33 de Pandora
+CARD_BACK_PANDORA_1812_SILVER_NAME;Dorso Plateado de la Temporada 32 de Pandora
+CARD_BACK_PANDORA_1812_GOLD_NAME;Dorso Dorado de la Temporada 32 de Pandora
+CARD_BACK_1901_SILVER_NAME;Dorso Plateado de la Temporada 33
+CARD_BACK_1901_GOLD_NAME;Dorso Dorado de la Temporada 33
+CARD_BACK_1812_SILVER_NAME;Dorso Plateado de la Temporada 32
+CARD_BACK_1812_GOLD_NAME;Dorso Dorado de la Temporada 32
+CARD_BACK_PANDORA_1902_SILVER_NAME;Dorso Plateado de la Temporada 34 de Pandora
+CARD_BACK_PANDORA_1902_GOLD_NAME;Dorso Dorado de la Temporada 34 de Pandora
+CARD_BACK_1902_SILVER_NAME;Dorso Plateado de la Temporada 34
+CARD_BACK_1902_GOLD_NAME;Dorso Dorado de la Temporada 34
+CARD_BACK_PANDORA_1903_SILVER_NAME;Dorso Plateado de la Temporada 35 de Pandora
+CARD_BACK_PANDORA_1903_GOLD_NAME;Dorso Dorado de la Temporada 35 de Pandora
+CARD_BACK_1903_SILVER_NAME;Dorso Plateado de la Temporada 35
+CARD_BACK_1903_GOLD_NAME;Dorso Dorado de la Temporada 35
+WELL_GAGANA_NAME;Pozos de Gagana
+SHORE_MECHA_NAME;Costa Mecha
+ORB_GAGANA_NAME;Orbe de Gagana
+CARD_BACK_GAGANA_NAME;Dorso de Gagana
+AVATAR_SOROCCO_NAME;Sorocco
+CARD_BACK_PANDORA_1904_SILVER_NAME;Dorso Plateado de la Temporada 36 de Pandora
+CARD_BACK_PANDORA_1904_GOLD_NAME;Dorso Dorado de la Temporada 36 de Padora
+CARD_BACK_1904_SILVER_NAME;Dorso Plateado de la Temporada 36
+CARD_BACK_1904_GOLD_NAME;Dorso Dorado de la Temporada 36
+CARD_BACK_PANDORA_1905_SILVER_NAME;Dorso Plateado de la Temporada 37 de Pandora
+CARD_BACK_PANDORA_1905_GOLD_NAME;Dorso Dorado de la Temporada 37 de Padora
+CARD_BACK_1905_SILVER_NAME;Dorso Plateado de la Temporada 37
+CARD_BACK_1905_GOLD_NAME;Dorso Dorado de la Temporada 37
+CARD_BACK_PANDORA_1906_SILVER_NAME;Dorso Plateado de la Temporada 38 de Pandora
+CARD_BACK_PANDORA_1906_GOLD_NAME;Dorso Dorado de la Temporada 38 de Padora
+CARD_BACK_1906_SILVER_NAME;Dorso Plateado de la Temporada 38
+CARD_BACK_1906_GOLD_NAME;Dorso Dorado de la Temporada 38
+CARD_BACK_PANDORA_1907_SILVER_NAME;Dorso Plateado de la Temporada 39 de Pandora
+CARD_BACK_PANDORA_1907_GOLD_NAME;Dorso Dorado de la Temporada 39 de Padora
+CARD_BACK_1907_SILVER_NAME;Dorso Plateado de la Temporada 39
+CARD_BACK_1907_GOLD_NAME;Dorso Dorado de la Temporada 39
+CARD_BACK_PANDORA_1908_SILVER_NAME;Dorso Plateado de la Temporada 40 de Pandora
+CARD_BACK_PANDORA_1908_GOLD_NAME;Dorso Dorado de la Temporada 40 de Pandora
+CARD_BACK_1908_SILVER_NAME;Dorso Plateado de la Temporada 40
+CARD_BACK_1908_GOLD_NAME;Dorso Dorado de la Temporada 40
+CARD_BACK_PANDORA_1909_SILVER_NAME;Dorso Plateado de la Temporada 41 de Pandora
+CARD_BACK_PANDORA_1909_GOLD_NAME;Dorso Dorado de la Temporada 41 de Pandora
+CARD_BACK_1909_SILVER_NAME;Dorso Plateado de la Temporada 41
+CARD_BACK_1909_GOLD_NAME;Dorso Dorado de la Temporada 41
+WELL_SEASONAL_CUP_SEIFER_NAME;Pozos de la Copa de Seifer
+WELL_SEASONAL_CUP_RUUNIN_NAME;Pozos de la Copa de Ruunin
+WELL_SEASONAL_CUP_KHALIM_NAME;Pozos de la Copa de Khalim
+WELL_SEASONAL_CUP_AURORA_NAME;Pozos de la Copa de Aurora
+ORB_SEASONAL_CUP_SEIFER_NAME;Orbe de la Copa de Seifer
+ORB_SEASONAL_CUP_RUUNIN_NAME;Orbe de la Copa de Ruunin
+ORB_SEASONAL_CUP_KHALIM_NAME;Orbe de la Copa de Khalim
+ORB_SEASONAL_CUP_AURORA_NAME;Orbe de la Copa de Aurora
+CARD_BACK_SEASONAL_CUP_SEIFER_NAME;Dorso de la Copa de Seifer
+CARD_BACK_SEASONAL_CUP_RUUNIN_NAME;Dorso de la Copa de Ruunin
+CARD_BACK_SEASONAL_CUP_KHALIM_NAME;Dorso de la Copa de Khalim
+CARD_BACK_SEASONAL_CUP_AURORA_NAME;Dorso de la Copa de Aurora
+CARD_BACK_PANDORA_1912_SILVER_NAME;Dorso Plateado de la Temporada 44 de Pandora
+CARD_BACK_PANDORA_1912_GOLD_NAME;Dorso Dorado de la Temporada 44 de Pandora
+CARD_BACK_PANDORA_1911_SILVER_NAME;Dorso Plateado de la Temporada 43 de Pandora
+CARD_BACK_PANDORA_1911_GOLD_NAME;Dorso Dorado de la Temporada 43 de Pandora
+CARD_BACK_PANDORA_1910_SILVER_NAME;Dorso Plateado de la Temporada 42 de Pandora
+CARD_BACK_PANDORA_1910_GOLD_NAME;Dorso Dorado de la Temporada 42 de Pandora
+CARD_BACK_1912_SILVER_NAME;Dorso Plateado de la Temporada 44
+CARD_BACK_1912_GOLD_NAME;Dorso Dorado de la Temporada 44
+CARD_BACK_1911_SILVER_NAME;Dorso Plateado de la Temporada 43
+CARD_BACK_1911_GOLD_NAME;Dorso Dorado de la Temporada 43
+CARD_BACK_1910_SILVER_NAME;Dorso Plateado de la Temporada 42
+CARD_BACK_1910_GOLD_NAME;Dorso Dorado de la Temporada 42

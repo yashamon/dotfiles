@@ -1,0 +1,1006 @@
+1.cardName;Chlapec z farmy
+2.cardName;Lukostřelec z Vršku
+2.cardText;{ranged_attack}
+3.cardName;Sylandský válečník
+4.cardName;Sylandský jezdec
+4.cardText;{gift} - Dá jiné spojenecké bytosti pro tento tah schopnost {charge|3}.
+9.cardName;Říšský inženýr
+9.cardText;{gift} - Aktivuje všechny produkce spojeneckých jednotek.
+10.cardName;Udržte linii!
+10.cardText;Přidá do vaší ruky dvě <b>Říšské stráže</b> (2/3) se schopností {taunt}.
+11.cardName;Chodící pevnost
+12.cardName;Parní kovárna
+12.cardText;{production} - Přidá náhodné spojenecké bytosti +1/+0.
+13.cardName;Výběrčí daní
+13.cardText;{combat} - Získáte {faeria|1}.
+14.cardName;Léčivá píseň
+14.cardText;Líznete si kartu a získáte 5 životů.
+15.cardName;Ochranná ruka
+15.cardText;Přidá bytosti schopnost {protection}.
+16.cardName;Říšská stráž
+16.cardText;{taunt}\n{last_words} - Získáte 2 životy.
+22.cardName;Bojovník za svobodu
+22.cardText;{haste}
+23.cardName;Táborák
+23.cardText;Přidá bytosti +1/+1.
+24.cardName;Sokolí nálet
+24.cardText;Udělí zvolené bytosti 1 poškození.
+29.cardName;Mistr šermíř
+29.cardText;Zatímco je ve hře nebo vaší ruce má během vašeho tahu +2/+0.
+30.cardName;Stepní jak
+32.cardName;Útok jaků
+32.cardText;Přivolá tři <b>Zuřivé jaky</b> (2/2) a přidá jim schopnost {haste}.
+33.cardName;Trest
+33.cardText;Udělí bytosti 2 poškození. Pokud je to neutrální bytost, udělí 5.
+34.cardName;Královnin oblíbenec
+34.cardText;{protection}
+35.cardName;Královnina stráž
+35.cardText;{taunt}\n{combat} - Získáte {faeria|1}.
+36.cardName;Magda, královna Merovalu
+36.cardText;Vaše Legendy stojí o {faeria|1} méně.\n{production} - Přidá do vaší ruky náhodnou Legendu. Takto získaná Legenda bude {wild}.
+37.cardName;Dvorní šašek
+37.cardText;{taunt}\n{gift} - Náhodná bytost ve vaší ruce získá +2/+2.
+38.cardName;Králova stráž
+38.cardText;{taunt}\n{combat} - Líznete si kartu.
+39.cardName;Nepravděpodobný hrdina
+39.cardText;Získá +3/+3 a vlastnost {charge|2}, pokud přežije svůj první souboj.
+40.cardName;Magnus, král Merovalu
+40.cardText;{charge|3}\n{combat} - Líznete si kartu. Získaná karta stojí {faeria|0}.
+41.cardName;Moronoš
+41.cardText;{last_words} - Udělí VŠEM bytostem 2 poškození.
+42.cardName;Obléhací stroj
+42.cardText;{ranged_attack}\nPo svém útoku získá +1/+0.
+43.cardName;Sharra, drakobijka
+43.cardText;Sharra ignoruje veškeré poškození rovné 4 či více.
+44.cardName;Hladomor
+44.cardText;Udělí VŠEM bytostem 1 poškození.
+45.cardName;Královský soudce
+45.cardText;{options|Líznete si Ochrannou ruku zdarma|Líznete si Trest zdarma.}\n- Přidá do vaší ruky kartu <b>Ochranná ruka</b>. Získaná karta stojí {faeria|0}.\n- Přidá do vaší ruky kartu <b>Trest</b>. Získaná karta stojí {faeria|0}.
+46.cardName;Kartograf
+46.cardText;{last_words} - Přidá do vaší ruky kartu <b>Průzkum</b>.
+47.cardName;Třpytivá socha
+47.cardText;{taunt}\n{production} - Vylečte si 1 život.
+48.cardName;Vesnický stařec
+48.cardText;{last_words} - Líznete si kartu.
+49.cardName;Vypravěč
+49.cardText;{gift} - Každý hráč si lízne 2 karty a získá 2 životy.
+50.cardName;Potulný mnich
+50.cardText;Získá +1/+0, kdykoliv si líznete kartu.
+51.cardName;Parní vymahač
+52.cardName;Králův věrný
+52.cardText;{protection}
+53.cardName;Den Draků
+53.cardText;Přidá do vaší ruky 4 <b>Draky</b>. Každá z těchto karet stojí o {faeria|3} méně a je {wild}.
+54.cardName;Troufalý dobrodruh
+54.cardText;{gift} - Za každou přilehlou nepřátelskou bytost získá +2/+2.
+55.cardName;Muž s palicí
+56.cardName;Baron Thulgar
+56.cardText;{last_words} - Každý hráč si lízne kartu. Získaná karta stojí {faeria|0}.
+57.cardName;Moudrost
+57.cardText;Líznete si 2 karty.
+58.cardName;Válečný jak
+58.cardText;Má +2/+0, pokud má váš protivník 10 životů nebo méně.
+59.cardName;Obránce domoviny
+59.cardText;{taunt}\n{gift} - Pokud jste byli minulý tah napadeni, přivolá dalšího <b>Obránce domoviny</b>.
+60.cardName;Královnin vrah
+60.cardText;{deathtouch}
+61.cardName;Lovený psanec
+61.cardText;{last_words} - Váš protivník si lízne kartu a získá {faeria|2}.
+62.cardName;Lovec štěstěny
+62.cardText;Když sklidí faerii, získá náhodná spojenecká bytost +1/+1.
+63.cardName;Hraničář z daleka
+63.cardText;{gift} - Přidá do vaší ruky kartu <b>Táborák</b>.
+64.cardName;Říšské čerpadlo
+64.cardText;Studny faerie jsou prázdné.\n{production} - Udělí této budově 1 poškození.\n{last_words} - Doplňte studny faerie.
+65.cardName;Průzkumník pralesa
+65.cardText;Pokud ovládáte {blue}{blue}, má +1/+1. Pokud {green}{green}, má +0/+2.
+66.cardName;Průzkumník kaldery
+66.cardText;Pokud ovládáte {blue}{blue}, má +1/+1. Pokud {red}{red}, má +2/+0.
+67.cardName;Průzkumník oázy
+67.cardText;Pokud ovládáte {blue}{blue}, má +1/+1. Pokud {yellow}{yellow}, má +1/+1.
+68.cardName;Průzkumník tajgy
+68.cardText;Pokud ovládáte {red}{red}, má +2/+0. Pokud {green}{green}, má +0/+2.
+69.cardName;Průzkumník savany
+69.cardText;Pokud ovládáte {yellow}{yellow}, má +1/+1. Pokud {green}{green}, má +0/+2.
+70.cardName;Průzkumník pískovce
+70.cardText;Pokud ovládáte {red}{red}, má +2/+0. Pokud {yellow}{yellow}, má +1/+1.
+71.cardName;Rubínová rybka
+71.cardText;{aquatic}
+72.cardName;Zloděj pověstí
+72.cardText;{options|Získá +2/+2|Líznete si 2 karty.}\n- Získá +2/+2.\n- Líznete si 2 karty.
+73.cardName;Gabrijská nádrž
+73.cardText;{production} - Získáte {faeria|3}. Udělí této budově 1 poškození.
+74.cardName;Tyranax
+75.cardName;Gabrijská kouzelnice
+75.cardText;{gift} - Útok jiné bytosti se stane rovný jejímu životu.
+76.cardName;Gabrijský velitel
+76.cardText;{aquatic}, {charge|2}\nPoprvé, kdy si líznete kartu se základní cenou {faeria|7} nebo vyšší, získá tato bytost vlastnost {flying} a +1/+1.
+77.cardName;Gabrijský ochránce
+77.cardText;{gift} - Přidá bytosti schopnost {protection}.
+82.cardName;Pramenní mochi
+82.cardText;{gift} - Další karta s původní cenou {faeria|7} nebo vyšší, kterou si líznete, stojí o {faeria|3} méně.
+83.cardName;Tritonský válečník
+83.cardText;{jump}
+84.cardName;Mytická bestie
+84.cardText;{gift} - Získá +2/+0 a vlastnost {jump}, je-li přivolána vedle nepřátelské studny.
+85.cardName;Přízrak zrcadla
+85.cardText;{gift} - Přemění další bytost na <b>Přízrak zrcadla</b> (5/5).
+86.cardName;Tritonský šéfkuchař
+86.cardText;{gift} - Přidá do vaší ruky kartu <b>Tritonská hostina</b>.
+87.cardName;Ninjovská ropucha
+87.cardText;{jump}, {haste}
+88.cardName;Žabí kletba
+88.cardText;Přemění bytost na <b>Žábu</b> (2/2) se schopností {jump}.
+93.cardName;Gabrijské okouzlení
+93.cardText;Útok bytosti se stane rovný jejímu životu.\nLíznete si kartu.
+94.cardName;Aurořin výtvor
+94.cardText;Přidá do vaší ruky kopii zvolené bytosti. Získaná karta stojí o {faeria|5} méně.
+95.cardName;Temný stopař
+95.cardText;Pokud jste v tomto tahu zahráli událost, stojí toto o {faeria|2} méně.
+96.cardName;Vír kouzel
+96.cardText;Přidá do vaší ruky 2 náhodné modré karty.
+97.cardName;Gabrijský šlechtic
+97.cardText;{gift} - Přivolá <b>Rubínovou rybku</b> (1/1, může být přivolána i na oceán).
+102.cardName;Aurořin učeň
+102.cardText;Kdykoliv zahrajete událost, tato bytost získá +1/+1.
+103.cardName;Robustní krunýř
+103.cardText;{aquatic}
+104.cardName;Baeru, první vlna
+104.cardText;{aquatic}\n{production} - Přemění všechny přilehlé pevniny na {blue}
+105.cardName;Zplozenec bouře
+105.cardText;{last_words} - Získáte {faeria|10}.
+106.cardName;Pohádka staré želvy
+106.cardText;Líznete si 3 karty. Všechny bytosti získané tímto způsobem stojí o {faeria|2} méně.
+107.cardName;Vlnopádný kolos
+107.cardText;Kdykoliv během hry z nepřátelské studny sklidíte faerii, sníží se cena této karty o {faeria|1} (maximálně na {faeria|4}.
+108.cardName;Orosei, sen z hlubin
+108.cardText;{flying}, {charge|2}\n{gift} - Přemění všechny vaše bytosti na bytosti o {faeria|2} dražší.
+109.cardName;Vodní elementál
+109.cardText;{jump}\n{gift} - Vytvoří {blue}
+110.cardName;Křišťálová hedváběnka
+110.cardText;{flying}\nPoprvé, když si líznete událost, získá tato bytost +2/+2 a {charge|2}.
+111.cardName;Potopená věž
+111.cardText;{activate} - Posuňte pevninu a udělte této budově 1 poškození.
+112.cardName;Azurová bludička
+112.cardText;Získá +1/+1, kdykoliv sklidíte faerii z nepřátelské studny.
+113.cardName;Tritonská svatyně
+113.cardText;Kdykoliv sklidíte faerii, tato budova získá +0/+1\n{activate} - Zničí tuto budovu a získáte tolik {faeria|1}, kolik má životů.
+114.cardName;Aurořin sen
+114.cardText;Lízejte si karty, dokud jich nemáte 9. Sníží cenu všech karet ve vaši ruce na {faeria|0}.
+115.cardName;Kopiník vánice
+115.cardText;{jump}\nKdykoliv zahrajete událost, získá tato bytost pro tento tah +2/+0 (maximálně +6/+0).
+116.cardName;Luduan
+116.cardText;Kdykoliv tato bytost sklidí faerii z nepřátelské studny, přidá náhodnou modrou kartu do vaší ruky. Získaná karta stojí o {faeria|2} méně.
+117.cardName;Vejce divů
+117.cardText;Vejce divů se stane kopií první bytosti (ne legendární), kterou si po jeho zahrání líznete.
+118.cardName;Gabrijský archón
+118.cardText;{charge|2}\nZíská +2/+2, pokud jste v této hře zahráli dvě karty se základní cenou minimálně {faeria|7}.
+119.cardName;Tritonský potápěč
+119.cardText;{aquatic}, {jump}
+120.cardName;Změna proudu
+120.cardText;{options|Posunout pevninu|Líznout kartu}\n- Posunete pevninu.\n- Líznete si kartu.
+121.cardName;Prorok přílivu
+121.cardText;{gift} - Dvakrát posune pevninu, na níž tato bytost stojí.
+122.cardName;Ponižující vidina
+122.cardText;Sníží základní útok a život bytosti na polovinu (zaokrouhleno dolů).
+123.cardName;Davný hlasatel
+123.cardText;{gift} - Další líznutá bytost s životem 5 nebo více vás stojí o {faeria|2} méně.
+124.cardName;Tritonská hostina
+124.cardText;Přidá bytosti +1/+1 a schopnost {jump}.
+125.cardName;Aurora, tvůrce mýtů
+125.cardText;{gift} - Změní hodnoty spřátelené bytosti na 6/6.
+126.cardName;Vlnotvůrce
+126.cardText;Na konci tahu vašeho protivníka nastaví faerii všech hráčů na {faeria|3}.
+127.cardName;Nepovedený experiment
+127.cardText;Další bytost, co zahrajete, stojí o {faeria|4} méně. Záhy však zemře.
+128.cardName;Aurořina lest
+128.cardText;Získáte vládu nad bytostí s útokem 2 nebo méně.
+129.cardName;Bojové ropuchy
+129.cardText;Přivolá dvě <b>Žáby</b> (2/2) se schopností {jump}.
+130.cardName;Spadla z nebe
+130.cardText;Získáte {faeria|12}.
+131.cardName;Sagamský válečník
+131.cardText;{dash|2}
+132.cardName;Sběratel kostí
+132.cardText;Získá +1/+1, kdykoliv vedle něho zemře bytost.
+133.cardName;Duchovní Sagami
+133.cardText;{last_words} - Přidá náhodné spojenecké bytosti +3/+5.
+134.cardName;Sagamský vyvolávač háje
+134.cardText;{gift} - Smíte teleportovat jinou spojeneckou bytost na {green} pod vaší nadvládou.
+135.cardName;Pradávný pán bestií
+135.cardText;Každá bytost s 5 a více životy, kterou vyvoláte, získá +1/+1.
+136.cardName;Gaeina milost
+136.cardText;Zvolená bytost získá +0/+3. Vylečte si 3 životy.
+137.cardName;Tikijský náčelník
+137.cardText;{gift} - Přidá bytosti schopnost {taunt}.
+138.cardName;Květoskřítek
+138.cardText;{last_words} - Přidá do vaší ruky náhodnou zelenou kartu. Získaná karta stojí o {faeria|3} méně.
+139.cardName;Poustevník Starolesa
+139.cardText;{last_words} - Náhodná spojenecká bytost získá +2/+4.
+140.cardName;Tikijský správce
+140.cardText;{gift} - Přidá bytosti +2/+2.
+141.cardName;Tikijský dudák
+141.cardText;{gift} - Přidá bytosti +0/+4.
+142.cardName;Šamanský tanec
+142.cardText;Přidá bytosti +0/+4 a schopnost {taunt}.
+143.cardName;Tikijský totem
+143.cardText;První bytost, kterou každý tah vyvoláte, získá +1/+1.
+144.cardName;Posedlý Ursus
+144.cardText;Kdykoliv je této bytosti uděleno poškození, její útok se zdvojnásobí.
+149.cardName;Doubek
+149.cardText;{last_words} - Přidá náhodné zelené bytosti ve vaší ruce +5/+5.
+150.cardName;Thyrijský golem
+151.cardName;Rozsévač semen
+151.cardText;{gift} - Vytvoří {green} na náhodném přilehlém místě.
+152.cardName;Stěna révy
+152.cardText;{taunt}\n{last_words} - Vytvoří {green} na náhodném místě.
+153.cardName;Grizzly z hlubin lesa
+154.cardName;Tikijský léčitel
+154.cardText;{gift} - Vylečte si 5 životů.
+155.cardName;Ruuninina svatyně
+155.cardText;{gift} - Získáte {faeria|2}.\n{last_words} - Váš protivník získá {faeria|2}.
+156.cardName;Otec dubů
+156.cardText;{gift} - Má +0/+1 za každý {green}, který ovládáte.
+157.cardName;Strom faerie
+157.cardText;{production} - Tato budova získá +0/+1.\nPokud má 5 nebo více životů, je zničena a získáte {faeria|10}.
+158.cardName;Živá vrba
+158.cardText;{taunt}
+159.cardName;Nárůst divočiny
+159.cardText;Vytvoří {green} na náhodném místě.
+168.cardName;Prvotní kolos
+168.cardText;Stojí o tolik {faeria|1} méně, kolik máte speciálních pevnin (minimum: {faeria|6}).
+169.cardName;Tethra, duše větru
+169.cardText;{flying}, {charge|2}\n{gift} - Přidá bytosti +5/+5.
+170.cardName;Lesní elementál
+170.cardText;{taunt}\n{gift} - Vytvoří {green}
+171.cardName;Květinová hedváběnka
+171.cardText;{flying}\nZíská +1/+4, {taunt} a {charge|2}, jakmile si líznete první událost.
+172.cardName;Zarostlá věž
+172.cardText;{activate} - Přidá bytosti +1/+1. Udělí této budově 1 poškození.
+173.cardName;Vždykvetoucí bludička
+173.cardText;Kdykoliv vytvoříte {green}, získá tato bytost +1/+1.
+174.cardName;Duch znovuzrození
+174.cardText;Kdykoliv zemře přátelská bytost, přidá náhodné bytosti ve vaší ruce +1/+1.
+175.cardName;Objetí Starolesa
+175.cardText;Přidá bytosti +2/+4.
+176.cardName;Ruuninin posel
+176.cardText;{jump}\nKdykoliv zaútočí na boha, přidá do vaší ruky náhodnou zelenou bytost, a sníží její cenu o {faeria|2}.
+177.cardName;Síla zeleně
+178.cardName;Ochránce háje
+178.cardText;{taunt}
+179.cardName;Tarum, lesní svět
+179.cardText;{taunt}\n{last_words} - Zaplní svět lesy.
+180.cardName;Plačící modla
+180.cardText;Kdykoliv je vám uděleno poškození, ziskáte {faeria|1}
+181.cardName;Zemětvorba
+181.cardText;{options|Přemění jednu z vašich pevnin na {green}|Přemění jednu z vašich pevnin na {blue}|Přemění jednu z vašich pevnin na {red}|Přemění jednu z vašich pevnin na {yellow}} barvu.\nPřemění jednu z vašich pevnin na pevninu zvolené barvy a líznete si kartu.
+182.cardName;Divoký mstitel
+182.cardText;{taunt}, {dash|2}\nPokaždé, když v této hře utrpíte poškození, získá tato bytost +0/+1.
+183.cardName;Dávný kanec
+183.cardText;{dash|2}\nPokud máte bytost s životem 5 nebo více, stojí o {faeria|2} méně.
+184.cardName;Ruuninino vedení
+184.cardText;Přidá zvolené(mu):\n- bytosti: +2/+2\n- bohu: 5 životů
+185.cardName;Hlas hladu
+185.cardText;{gift} - Zničí všechny přilehlé spojenecké bytosti. Tato bytost získá životy A útok rovný součtu jejich životů.
+186.cardName;Sazenice
+186.cardText;{production} - Pokud má tato bytost méně než 5 životů, získá +1/+1.
+187.cardName;Eredon, hlas všeho
+187.cardText;{last_words} - Všechny bytosti ve vaší ruce a balíčku získají +1/+1.
+188.cardName;Krmivo pro les
+188.cardText;Zničte spojeneckou bytost a získejte faerii rovnou jejímu životu. Líznete si kartu.
+189.cardName;Ruuninina přítomnost
+189.cardText;Přidá do vaší ruky náhodnou zelenou bytost, která ihned získá +6/+6.
+190.cardName;Ruunin, neúprosná
+190.cardText;{dash|2}\n{last_words} - Na konci tahu se Ruunin vrátí do vaší ruky a získá +2/+2.
+191.cardName;Zbojník z Podsvětí
+191.cardText;{combat} - Získáte {faeria|2}.
+192.cardName;Koboldí vojevůdce
+192.cardText;{combat} - Přidá náhodné spojenecké bytosti +3/+0.
+193.cardName;Koboldí válečná bestie
+194.cardName;Dar z oceli
+194.cardText;Přidá zvolené bytosti +3/+0, případně +3/+3, pokud má tato bytost vlastnost <b>Combat</b>.
+195.cardName;Šéf Podsvětí
+195.cardText;{combat} - Získáte {faeria|2}.
+196.cardName;Architekt
+196.cardText;{gift} - Přidá vybrané budově +0/+2.
+197.cardName;Povýšený zlobr
+197.cardText;{gift} - Získá +2/+2, pokud má váš soupeř 10 nebo méně životů.
+198.cardName;Koboldí kasárny
+198.cardText;Všechny přilehlé spojenecké bytosti mají +2/+0.
+199.cardName;Semeno nenávisti
+199.cardText;Stojí o {faeria|1} méně za každou vaši vyvolanou bytost s větším útokem než životy.
+200.cardName;Zlobří bojovník
+200.cardText;{taunt}
+201.cardName;Troufalý vyjednávač
+201.cardText;{gift} - Náhodná karta ve vaší ruce stojí o {faeria|7} méně.
+202.cardName;Seifer, krvavý tyran
+202.cardText;Když Seifer zničí bytost, získá útok a život rovný původnímu útoku a životu dané bytosti.
+203.cardName;Barbarský zlobr
+204.cardName;Krog, král zlobrů
+204.cardText;{combat} - Náhodná karta ve vaší ruce stojí o {faeria|7} méně.
+205.cardName;Brusič seker
+205.cardText;{gift} - Získá +1/+1, pokud je vyvolán vedle nepřátelské studny.
+206.cardName;Vrhač balvanů
+206.cardText;{ranged_attack}\nKdyž zaútočí, poškodí také všechny nepřátele přilehlé k cíli útoku.
+211.cardName;Shedimský surovec
+211.cardText;{combat} - Udělí 2 poškození vašemu protivníkovi.
+212.cardName;Krvavý zpěvák
+212.cardText;Kdykoliv zemře nepřátelská bytost, udělí 1 poškození vašemu protivníkovi.
+213.cardName;Seiferovo krmivo
+213.cardText;{last_words} - Udělí 2 poškození vašemu protivníkovi.
+214.cardName;Plivač plamene
+214.cardText;{gift} - Udelí 1 poškození vybranému nepříteli.
+215.cardName;Pán hrůzy
+215.cardText;Kdykoliv bůh utrpí poškození, přičte se daná hodnota k útoku této bytosti.
+216.cardName;Shedimský škůdce
+216.cardText;{gift} - Získá +2/+2, pokud máte další bytost s větším útokem než životy.
+217.cardName;Krvavý obelisk
+217.cardText;Kdykoliv nepřátelská bytost zemře v boji, udělí 1 poškození vašemu protivníkovi a získáte {faeria|1}.
+218.cardName;Ponurá stráž
+218.cardText;{taunt}\n{combat} - Udělí 2 poškození vašemu protivníkovi.
+223.cardName;Vrhač bomb
+223.cardText;{gift} - Udelí 4 poškození přilehlé nepřátelské bytosti nebo budově.
+224.cardName;Nosič kanónu
+224.cardText;{gift} - Vystřelí na libovolnou pevninu v přímé linii Mecha (4/2).
+225.cardName;Výbuch plamene
+225.cardText;Udelí 3 poškození.
+226.cardName;Vrhač plamene
+226.cardText;{ranged_attack}\nKdykoliv tato bytost zaútočí na boha, udělí 1 poškození nepřátelským bytostem.
+231.cardName;Sopečný Kolos
+231.cardText;{ranged_attack}\nStojí o {faeria|1} méně za každý tah, během něhož jste udělili poškození protihráči. (minimum: {faeria|5}).
+232.cardName;Garudan, srdce hory
+233.cardName;Ohnivý elementál
+233.cardText;{gift} - Vytvoří {red}
+234.cardName;Plamenná hedváběnka
+234.cardText;{flying}\nZíská +3/+1 a vlastnost {ranged_attack} ve chvíli, kdy si poprvé líznete událost.
+235.cardName;Opuštěná věž
+235.cardText;{activate} - Udělí 1 poškození. Udělí 1 poškození i této budově.
+236.cardName;Krvavě žhnoucí bludička
+236.cardText;Získá +2/+1 pokaždé, když zemře nepřátelská bytost.
+237.cardName;Zemětřes
+237.cardText;{gift} - Udělí 1 poškození VŠEM nepřátelům.
+238.cardName;Rozsévač plamene
+238.cardText;Zatímco je ve vaší ruce nebo balíčku, získá +1/+1, pokaždé když vyvoláte bytost s útokem vyšším než životy.
+239.cardName;Sálající salamandr
+239.cardText;{gift} - Udělí 2 poškození všem sousedním nepřátelům.
+240.cardName;Skřítek z krvavých skal
+240.cardText;Udělí nepříteli 1 poškození, kdykoliv spojenecká bytost sklidí faerii z nepřátelské studny.
+241.cardName;Seiferův hněv
+241.cardText;Udělí bytosti 2 poškození. Pokud zemře, udělí 2 poškození tomu, kdo jí ovládá.
+242.cardName;Žravá rostlina
+242.cardText;{taunt}\n{production} - Udělí 2 poškození přilehlým nepřátelským bytostem.
+243.cardName;Ohnivá bomba
+243.cardText;Udělí 4 poškození bytosti nebo budově.
+244.cardName;Ohnivá bouře
+244.cardText;Zvolte si pole. Udělí 3 poškození všem nepřátelským bytostem na daném poli nebo na polích přilehlých.
+245.cardName;Bitevní zuřič
+245.cardText;Je-li této bytosti uděleno poškození, udělí stejné poškození vašemu nepříteli.
+246.cardName;Rozpadající se golem
+246.cardText;Této bytosti je uděleno 1 poškození, kdykoliv nepřítel vyvolá bytost.
+247.cardName;Zlobří tanec
+247.cardText;Náhodná karta ve vaší ruce stojí o {faeria|7} méně.
+248.cardName;Meteor
+248.cardText;Zvolte si pole. Zničí všechny pevniny, bytosti a budovy na daném poli a polích přilehlých.
+249.cardName;Rudý ďábel
+249.cardText;{gift} - Získáte {faeria|5}.
+250.cardName;Ignus, první plamen
+250.cardText;Kdykoliv zvolíte +{faeria|1} z kola moci, náhodně rozdělí 4 poškození mezi neprátele.
+251.cardName;Oradrimský mnich
+251.cardText;{haste}\nLízněte si kartu, kdykoliv zaútočí na boha.
+252.cardName;Khalimova modlitba
+252.cardText;Získáte {faeria|2} a líznete si kartu. Lze zahrát jen pokud jste tento tah zaútočili na boha. Můžete se modlit jen jednou za tah.
+253.cardName;Khalimův stoupenec
+253.cardText;{haste}\nMá +2/+0 proti bohům.
+254.cardName;Oradrimský templář
+254.cardText;{dash|1}\nMá +3/+0 proti bohům.
+255.cardName;Oradrimský střelec
+255.cardText;{ranged_attack}\nZískáte {faeria|1}, kdykoliv spojenecká bytost zaútočí na boha.
+256.cardName;Oradrimský fanatik
+256.cardText;{jump}\n{gift} - Můžete pohnout spojeneckou bytostí.
+257.cardName;Překroucení pouště
+257.cardText;Teleportuje bytost na {yellow} pod vaší nadvládou.
+258.cardName;Větrná brána
+258.cardText;Můžete přivolávat bytosti na místa přilehlá k této budově.\n{activate} - Posune Větrnou bránu.
+259.cardName;Zlomyslný duch
+259.cardText;{gift} - Vysajete 2 body života z vašeho protivníka.
+260.cardName;Khalim, zázrak nebes
+260.cardText;{flying}, {charge|2}\nKdyž Khalim zaútočí na boha, přidá do vaší ruky kartu <b>Khalimův Stoupenec</b>. Získaná karta stojí {faeria|0}.
+261.cardName;Vraždící stín
+262.cardName;Bolestný ghůl
+262.cardText;{last_words} - Získáte {faeria|2}.
+263.cardName;Poslední noční můra
+263.cardText;Zničí bytost.
+264.cardName;Smlouva za duši
+264.cardText;Udělí vám 2 poškození a získáte {faeria|2}.
+265.cardName;Oltář duší
+265.cardText;{activate} - Udělí vám 2 poškození a přidá do vaší ruky kartu <b>Vraždící stín</b> (6/1). Získaná karta stojí {faeria|2}.
+266.cardName;Shaytanský démon
+266.cardText;{production} - Udělí vám 2 poškození.
+267.cardName;Khalimova nebeská stráž
+267.cardText;{flying}\nMůže bát vyvolán vedle přátelských bytostí.
+268.cardName;Khalimův výcvik
+268.cardText;Přidá bytosti +1/+0 a schopnosti {flying} a {charge|2}.
+273.cardName;Větrný voják
+273.cardText;{haste}, {charge|3}\nVětrný voják na konci tahu zemře.
+274.cardName;Drakkarský nebeský kapitán
+274.cardText;{flying}\nKdykoliv si líznete bytost s vlastností {flying}, přidá jí +1/+1.
+275.cardName;Větrorozený vyslanec
+275.cardText;{flying}\nMá +2/+0 pokud máte jinou létající bytost.
+276.cardName;Shaytanský mrchožrout
+276.cardText;Stojí o {faeria|2} méně, pokud jste tento tah zaútočili na boha.
+277.cardName;Drakón z duny
+277.cardText;{flying}, {charge|2}\nNemůže sklízet faerii.
+278.cardName;Větrorozený šampión
+278.cardText;{flying}, {charge|5}\n{gift} - Posune bytost.
+287.cardName;Větrobouřný kolos
+287.cardText;{dash|3}\nStojí o {faeria|1} méně za každou událost, kterou jste v této hře zahráli (minimum: {faeria|5}).
+288.cardName;Azarai, hněv pouště
+288.cardText;{flying}, {charge|2}\n{gift} - Azarai vysaje 2 body útoku z každé nepřátelské bytosti.
+289.cardName;Vzdušný elementál
+289.cardText;{flying}\n{gift} - Vytvoří {yellow}
+290.cardName;Sluneční hedváběnka
+290.cardText;{flying}\nZíská +3/+1 a vlastnost {charge|3}, jakmile si líznete první událost.
+291.cardName;Nebeská věž
+291.cardText;{activate} - Přidá bytosti pro tento vlastnost {charge|3} this turn. Udělí 1 poškození této budově.
+292.cardName;Větrná bludička
+292.cardText;{flying}, {charge|3}\nZíská +3/+0, kdykoliv spojenecká bytost zaútočí na boha.
+293.cardName;Záblesk větru
+294.cardName;Zlatá voliéra
+294.cardText;Všechny vaše létající bytosti mají +1/+0.
+295.cardName;Fanatický křižák
+295.cardText;{charge|2}\nZatímco je ve vaší ruce nebo balíčku, získá +1/+1 pokaždé, když spojenecká bytost zaútočí na boha.
+296.cardName;Keldranský voják
+297.cardName;Pán pustiny
+297.cardText;{gift} - Můžete obětovat jinou bytost a získat tak {faeria|3}.
+298.cardName;Shaytanský vrah
+298.cardText;{deathtouch}\n{gift} - Můžete obětovat jinou bytost a přidat tak této bytosti schopnost {protection}.
+299.cardName;Démoní honák
+299.cardText;{gift} - Můžete obětovat jinou bytost a přivolat na její místo <b>Démoní křídlo</b> (5/2) se schopností {flying}.
+300.cardName;Chodec smrti
+300.cardText;{deathtouch}\nMusíte obětovat jinou bytost, abyste mohli vyvolat tuto.
+301.cardName;Přísaha Zapomnění
+301.cardText;Obětujte bytost. Vyvolá na jejím místě <b>Jezdce zapomnění</b> (6/3, {charge|3}).
+302.cardName;Shaytanská nestvůra
+302.cardText;{charge|2}\nKdykoliv zemře spojenecká bytost, tato bytost získá její útok.
+303.cardName;Iona, všemi milovaná
+303.cardText;{flying}\nNelze na ni zaútočit. Neplatí, pokud Iona získá schopnost Provokace.
+304.cardName;Démoní křídlo
+304.cardText;{flying}
+305.cardName;Jezdec zapomnění
+305.cardText;{charge|3}
+306.cardName;Vysátí duše
+306.cardText;Vysajete z bytosti 2 body života.
+307.cardName;Škrtící písek
+307.cardText;Zníčí bytost s útokem 3 nebo nižším.
+308.cardName;Zkázobrána, dvěře do Zapomnění
+308.cardText;Když má Zkázobrána 13 nebo více životů, zničte ji a přivolejte na jejím místě <b>Ostregotha</b>.\n{activate} - Obětuje spojeneckou bytost, líznete si kartu a Zkázobrána získá +0/+2.
+309.cardName;Větrobouřný lučištník
+309.cardText;{ranged_attack}\nKdykoliv zahrajete událost, tato bytost získá pro daný tah +1/+0.
+310.cardName;Větrobouřný nájezdník
+310.cardText;{charge|2}\nKdykoliv zahrajete událost, tato bytost získá pro daný tah +2/+0 (maximálně +6/+0).
+311.cardName;Vrcholový predátor
+311.cardText;{jump}\n{gift} - Získá útok a život rovný libovolné bytosti.
+312.cardName;Ledový Behemot
+312.cardText;{taunt}, {protection}
+313.cardName;Spřízněné duše
+313.cardText;{flying}\nMůže být vyvolána kdekoliv vedle spojenecké bytosti.\n{gift} - Přivolá další <b>Spřízněnou duši</b>.
+314.cardName;Puklinová trnovka
+314.cardText;{dash|2}\n{gift} - Náhodně rozdělí 4 poškození mezi neprátele. Náhodně rozdělí +4/+4 mezi spojence.
+315.cardName;Pojídač duší
+315.cardText;{flying}, {charge|3}\nZatímco je ve vaší ruce nebo balíčku, získává +1/+1 za každou spojeneckou bytost, která za danou hru zemře.
+316.cardName;Planoucí přízrak
+316.cardText;{flying}, {haste}, {charge|2}\n{combat} - Udělí vašemu protivníkovi 3 poškození.
+317.cardName;Gabrijský voják
+317.cardText;{aquatic}, {charge|3}
+318.cardName;Žába
+318.cardText;{jump}
+319.cardName;Kartograf
+319.cardText;{last_words} - Vytvoří {green}{blue}{red}{yellow} na náhodných místech.
+321.cardName;Polykač nebes
+321.cardText;{flying}
+322.cardName;Rozhněvaný stepní jak
+322.cardText;{haste}
+323.cardName;Průzkum
+323.cardText;Vytvoří prérii a získáte {faeria|2}.
+324.cardName;Zuřivý jak
+324.cardText;{haste}
+325.cardName;Trnová bludička
+325.cardText;Kdykoliv vytvoříte {green}, získá tato bytost +1/+0.
+328.cardName;Ostregoth, ruka Zapomnění
+328.cardText;{flying}, {haste}, {charge|13}\nStudny faerie jsou prázdné.
+329.cardName;Bezohledný bandita
+330.cardName;Krutý jezdec
+331.cardName;Moudrost
+331.cardText;Líznete si 2 karty.
+332.cardName;Léčivá modlitba
+332.cardText;Získáte 3 body života.
+333.cardName;Já nehratelná
+333.cardText;Nemůžete mě zahrát.
+334.cardName;Větší moudrost
+334.cardText;Líznete si PĚT karet.
+335.cardName;Povstalecký vrhač
+335.cardText;{gift} - Udělí vašemu protivníku 2 poškození.
+336.cardName;Duch Nexusu
+336.cardText;{last_words} - Sníží život svého pána na 1
+337.cardName;Božská bouře
+337.cardText;Udělí 10 poškození VŠEM vašim směšným bytostem.
+338.cardName;Síla přílivu
+338.cardText;Posune pevninu.
+339.cardName;Ženoucí se vítr
+339.cardText;Posune spojeneckou bytost.
+340.cardName;Sylandský válečník
+342.cardName;Kojin, plamen boží
+342.cardText;{divine}\nZatímco je Kojin ve hře, udržuje svého pána Pyrhose v klidu a pokoji.\n{production} - Kojin ztratí -0/-1.
+350.cardName;Tři přání
+350.cardText;Vyléčíte si 3 životy. Zkopírujete 3 vrchní karty ze soupeřova balíčku. Každá taková karta stojí o {faeria|1} a je {wild}. Nelze si přát mít více přání.
+351.cardName;Povstalecký kluzák
+351.cardText;{flying}, {dash|2}\nNemůže sklízet faerii.
+352.cardName;Třpyt, říšská vzducholoď
+352.cardText;{flying}, {dash|3}\nCena Třpytu se rovná vašemu životu.\n{gift} - Získáte 1 život za každou kartu ve své ruce.
+353.cardName;Zakázaná knihovna
+353.cardText;{production} - Líznete si kartu, získáte {faeria|1} a budou vám udělena 2 poškození.
+354.cardName;Plenitel snů
+354.cardText;{dash|3}\n{gift} - Nastaví život boha na 10.
+355.cardName;Krvelačná kodama
+355.cardText;{jump}\nNeumí sklízet faerii.\nVylečte si 5 životů, kdykoliv tato bytost zaútočí na boha.
+356.cardName;Lovec bohů
+356.cardText;{jump}\nMůže útočit jen na bohy.\nNemůže sklízet faerii.
+357.cardName;Krvavá píseň
+357.cardText;Čtyřikrát sníží cenu náhodné karty ve vaší ruce o {faeria|2}. Udělí vám 4 poškození.
+358.cardName;Pekelný oheň
+358.cardText;Náhodně rozdělí 9 poškození mezi nepřátele.
+359.cardName;Soudný den
+359.cardText;Nastaví vaši faerii na {faeria|0}. Zkrátí váš život na polovinu (zaokrouhleno dolů). Zničí VŠECHNY bytosti a budovy. Ukončí tah.
+360.cardName;Otravná havěť
+360.cardText;{flying}\nNemůže sklízet faerii.\n{last_words} - Ztratíte 2 životy a tato bytost se znovu vyvolá na náhodném místě.
+361.cardName;Dlouhorohý jak
+361.cardText;{last_words} - Další bytost, co si líznete, získá útok rovný útoku této bytosti.
+362.cardName;Čas Legend
+362.cardText;Líznete Legendu, která je ve vašem balíčku nejvýše. Pokud takovou v balíčku nemáte, přidá do vaší ruky jednu náhodnou, která bude {wild}.
+363.cardName;Tritonský trenér
+363.cardText;{jump}\n{gift} - Další bytost s vlastností {jump}, kterou vyvoláte, získá +1/+1.
+364.cardName;Hlas pravdy
+364.cardText;{gift} - Můžete obnovit bytosti její původní útok a život.
+365.cardName;Posel války
+365.cardText;{combat} - Další bytost se schopností {combat}, kterou přivoláte, získá +1/+1.
+366.cardName;Průvodce mistrálu
+366.cardText;{flying}\nSpojenecké bytosti přilehlé k této získají vlastnosti {dash|2} a {flying}.
+367.cardName;Božský ochránce
+367.cardText;{divine}\nKdyž by vám mělo být uděleno smrtelné poškození, zabrání mu a zničí místo toho tuto bytost.
+368.cardName;Císařův příkaz
+368.cardText;Zvolené(mu):\n- bytosti: ubere -2/-1\n- budově: udělí 3 poškození.\n- bohu: přidá 4 životy.
+369.cardName;Iluze vznešenosti
+369.cardText;{charge|2}\nKdykoliv přivoláte bytost, která stojí {faeria|1} nebo méně, získá její útok a život (zatímco je ve vašem balíčku nebo ruce).
+370.cardName;Stopař z hlubin lesa
+370.cardText;{gift} - Může zaútočit na libovolnou nepřátelskou bytost.
+371.cardName;Krogova večeře
+371.cardText;Váš Krog stojí o {faeria|7} méně. Když jej vyvoláte, zničte tuto bytost.\n{gift} - Pokud Krog zemřel nebo jej máte v balíčku, líznete si jej.
+372.cardName;Ionin úsměv
+372.cardText;Líznete dvě bytosti s vlastností {flying}, které jsou ve vašem balíčku nejvýše.
+400.cardName;Střep pandory
+401.cardName;Pandora se probouzí!
+401.cardText;Pandora se otevírá, oba hráči obdrží <b>poklad</b>!
+402.cardName;Poklad nalezen!
+402.cardText;Pandora se otevírá, oba hráči obdrží <b>poklad</b>!\nLíznete si kartu.
+403.cardName;Temný krystal
+403.cardText;Vysajete 4 životy z vašeho protivníka, udělí 3 poškození všem nepřátelským jednotkám a líznete si 2 karty.
+404.cardName;Válečný roh jaků
+404.cardText;Vyvolá tři <b>Rozhněvané stepní jaky</b> (2/4) a přidá jim vlastnost {haste}.
+405.cardName;Hvězdná zbraň
+405.cardText;{flying}\n{gift} - Zničí všechny přilehlé bytosti, budovy a pevniny.
+406.cardName;Okarína
+406.cardText;Po tomto tahu hrajte ještě jednou.
+407.cardName;Džinova lampa
+407.cardText;{options|Přidat do vaší ruky 3 náhodné zelené karty. Získané karty budou stát o {faeria|3} méně|Přidat do vaší ruky 3 náhodné modré karty. Získané karty budou stát o {faeria|3} méně|Přidat do vaší ruky 3 náhodné červené karty. Získané karty budou stát o {faeria|3} méně|Přidat do vaší ruky 3 náhodné žluté karty. Získané karty budou stát o {faeria|3} méně}\nVyberte barvu. Přidá do vaší ruky 3 náhodné karty té barvy. Získané karty stojí o {faeria|3} méně.
+408.cardName;Urna Gabrie
+408.cardText;Líznete si 2 karty a získáte {faeria|2}.
+409.cardName;Ionino zrcadlo
+409.cardText;Přidá dvě kopie posledního <b>pokladu</b>, který váš protivník zahrál.
+410.cardName;Golem z krvavých skal
+410.cardText;{production} - Doplňte studny faerie.\nKdykoliv je sklizena faerie, udělí 1 poškození nepříteli.
+411.cardName;Kalich z paláce
+411.cardText;Náhodně mezi spojeneckými bytostmi rozdělí +6/+6.
+412.cardName;Eredonův buben
+412.cardText;Přidá všem vašim bytostem +2/+2, ať jsou kdekoliv.
+413.cardName;Stroj na mraky
+413.cardText;Přátelské bytosti mají +1/+0 a vlastnosti {flying} a {jump}.
+414.cardName;Prsten nadvlády
+414.cardText;{options|Získat vládu na pevninou a přetvořit ji v {green}. |Získat vládu na pevninou a přetvořit ji v {blue}.|Získat vládu na pevninou a přetvořit ji v {red}.|Získat vládu na pevninou a přetvořit ji v {yellow}.}\nZískáte vládu nad pevninou a přetvoříte ji na barvu vašeho výběru.
+415.cardName;Slza světa
+415.cardText;Přetvoří bytost, co tento tah zaútočila na boha, na <b>Polykače nebes</b> (10/10) se schopností {flying}.
+416.cardName;Mechanický jak
+416.cardText;{dash|2}
+417.cardName;Automaton rovnodennosti
+417.cardText;{gift} - Vylečte si 6 životů.\n{last_words} - Udělí 6 poškození vašemu nepříteli.
+418.cardName;Magdina růže
+418.cardText;Získáte vládu nad nepřátelskou bytostí.
+419.cardName;Aurořina konvice na čaj
+419.cardText;Změní všechny spojenecké bytosti na 6/6.
+420.cardName;Kámen poctivého bohatství
+420.cardText;Přidá do vašeho balíčku 3 náhodné <b>poklady</b>.
+421.cardName;Tajemství síly
+421.cardText;Přidá zvolené bytosti +4/+4 a vlastnosti {flying} a {charge|3}.
+422.cardName;Prázdný ochránce
+422.cardText;{gift} - Zničí váš balíček.
+423.cardName;Krystalový drak
+423.cardText;{flying}, {charge|3}
+424.cardName;Rubín vzplanutí
+424.cardText;{options|Udělit 3 poškození.|Udělit 3 poškození všemu.}\n- Udělí 3 poškození.\n- Udělí 3 poškození všemu.
+425.cardName;Kladivo zkázy
+425.cardText;Udělí 5 poškození. Přidá <b>Kladivo zkázy</b> do vašeho balíčku.
+426.cardName;Zeměohnivý otřes
+426.cardText;{gift} - Udělí 2 poškození všem nepřátelům a za každého takto zničeného získá +2/+2.
+427.cardName;Touha smrti
+427.cardText;Zničí bytost. Její majitel získá {faeria|1} rovnou její ceně a lízne si 2 karty.
+428.cardName;Blesk v láhvi
+428.cardText;Udělí 6 poškození bytosti a 3 poškození všem přilehlým nepřátelům.
+429.cardName;Tančící čepel
+429.cardText;{flying}, {jump}\nNa konci vašeho tahu udělí 3 poškození všem přilehlým nepřátelům.
+430.cardName;Kosa zkázy
+430.cardText;Zničí bytost. Přivolá na jejím místě <b>Vraždící Stín</b> (6/1).
+431.cardName;Vyzdobená straka
+431.cardText;{flying}, {haste}\nPřidá do vaší ruky náhodný <b>Poklad</b>, kdykoliv zaútočí na boha.
+432.cardName;Kolo chaosu
+432.cardText;{options|Zničit 2 neobsazené pevniny|Zničit bytost s útokem 5 nebo méně.|Získat 7 životů.}\n- Zničí 2 neobsazené pevniny.\n- Zničí bytost s útokem 5 nebo méně.\n- Získáte 7 životů.
+433.cardName;Ulanin medailonek
+433.cardText;Zvolte spojeneckou bytost. Všechny vaše zbylé bytosti se stanou její kopií.
+500.cardName;Opičí génius
+500.cardText;{taunt}\n{gift} - V soupeřově příštím tahu získá +2/+2 pokaždé, když nepřátelská bytost sklidí faerii.
+501.cardName;Neohrožený průzkumník
+501.cardText;{gift} - Přidá kartu <b>Průzkum</b> do ruky každého hráče.
+502.cardName;Krystalová květina
+502.cardText;{gift} - {swallow} bytost.\nNa konci každého vašeho tahu udělí této budově 1 poškození.
+503.cardName;Jakapult
+503.cardText;{ranged_attack}\nKdykoliv zaútočí, vyvolejte na náhodném místě vedle cíle <b>Zuřivého jaka</b> (2/2).
+504.cardName;Goki, přátelský horník
+504.cardText;{gift} - Přidá náhodný <b>Poklad</b> do ruky vašeho spojence.
+505.cardName;Mobie, nebeská velryba
+505.cardText;{flying}, {charge|3}\nNemůže sklízet Faerii.\n{gift} - {swallow} bytost.
+506.cardName;Nafukovací ryba
+506.cardText;{flying}, {dash|2}\n{gift} - {swallow} přátelskou bytost. Pokud to nejde, ihned zemře.
+507.cardName;Císař Kaios
+507.cardText;{production} - Ubere všem nepřátelským bytostem -1/-0. Poté zničí všechny nepřátelské bytosti s útokem 0.
+508.cardName;Semínko ráje
+508.cardText;{flying}, {dash|1}\n{gift} - {options|Když tato bytost sklízí nad oceánem, zemře a změní se v {green}|Když tato bytost sklízí nad oceánem, zemře a změní se v {blue}|Když tato bytost sklízí nad oceánem, zemře a změní se v {red}|Když tato bytost sklízí nad oceánem, zemře a změní se v {yellow}}\nKdyž tato bytost sklízí faerii, zatímco stojí na volném poli, zemře a změní se ve vybraný typ pevniny.\n
+509.cardName;Strom Nesmrtelna
+509.cardText;{production} - Získáte 7 životů.\nPřidá náhodné bytosti ve vaší ruce +7/+7.
+510.cardName;Rakoanský dar
+510.cardText;Zvolená bytost získá +1/+1 za každou přátelskou bytost ve hře.
+511.cardName;Zvědavý biomant
+511.cardText;{gift} - Líznete si ze svého balíčku 1 bytost (ne modrou) za každou nepřátelskou bytost ve hře.
+512.cardName;Fugoro, obchodník se zázraky
+512.cardText;{jump}\n{gift} - {options|Líznete si <b>Urnu Gabrie</b>|Líznete si <b>Krystalového draka</b>|Líznete si <b>Ulanin medailonek</b>}\n- Líznout <b>Urnu Gabrie</b>\n- Líznout <b>Krystalového draka</b>\n- Líznout <b>Ulanin medailonek</b>
+513.cardName;Skákající fugu
+513.cardText;{jump}\n{gift} - Má +3/+3, pokud ovládáte alespoň 8 speciálních pevnin.
+514.cardName;Cestovní hák
+514.cardText;Zvolená bytost získá pro tento tah schopnost {ranged_attack}. Poté, co zaútočí, ji smíte přesunout na pole přilehlé k cíli.
+515.cardName;Rakoanský buřič
+515.cardText;{last_words} - Získejte {faeria|1} rovnou útoku této bytosti.
+516.cardName;CAP-10, pirát nebes
+516.cardText;{combat} - Líznete si z balíčku kartu <b>Dar z oceli</b>. Pokud v něm žádná není, jednu do něho zamíchejte.
+517.cardName;Bleskový losos
+517.cardText;{divine}, {flying}, {haste}, {charge|2}\nNemůže sklízet faerii.\nNa konci tahu zničte tuto bytost a lízněte si kartu.
+518.cardName;Jezdec na mantě
+518.cardText;{flying}\n{last_words} - Pokid tato bytost zemře, vyvolejte na jejím místě 2/2 <b>Mantu</b> se schopnostmi {flying} a {charge|2} .
+519.cardName;Istanu, večné světlo
+519.cardText;{flying}, {charge|3}\n{last_words} - Z náhodné přátelské bytosti se stane nová <b>Istanu</b>.
+520.cardName;Měňavice
+520.cardText;{options|Získá +2/+0.|Získá +0/+2.|Získá schopnost {jump}.|Získá schoponost {taunt}.}, twice:\n- Získá +2/+0\n- Získá +0/+2\n- Získá schopnost {jump}\n- Získá schopnost {taunt}
+521.cardName;Vrhač žab
+521.cardText;{gift} - Zaútočí na libovolnou nepřátelskou bytost. Na náhodném místě vedle cíle vyvolá <b>Žábu</b> (2/2) se schopností {jump}.
+522.cardName;Cesta do ráje
+522.cardText;{options|Vytvoří {green}|Vytvoří {blue}|Vytvoří {red}|Vytvoří {yellow}} - Vytvoří speciální pevninu.\nPrvní bytost, která na ní bude vyvolána v tomto tahu, získá +2/+0.
+523.cardName;Smaragdový salamandr
+523.cardText;{gift} - Udělí 2 poškození přilehlým nepřátelským bytostem. Dá přilehlým přátelským bytostem +2/+2.
+524.cardName;Nebeský mečoun
+524.cardText;{flying}, {taunt}, {dash|1}
+525.cardName;Hejno karasů
+525.cardText;{flying}\nMůže být vyvoláno vedle spojeneckých bytostí.\n{gift} - Vyvolá další <b>Hejno karasů</b> za každé spojenecké, které v této hře zemřelo.
+526.cardName;Ochránce snů
+526.cardText;{taunt}\n{gift} - Sníží cenu všech karet ve vaší ruce o {faeria|1}, poté je zamíchá do vašeho balíčku a doberete si zpět stejný počet nových.
+527.cardName;Zdobná želva
+527.cardText;{gift} - Líznete si kartu a její kopii. Stojí o {faeria|2} méně.
+528.cardName;Mantí let
+528.cardText;Když si líznete tuto kartu, získáte její kopii.\nVyvolejte <b>Mantu</b> (2/2) se schopnostmi {flying} a {charge|2}.
+529.cardName;Zánebská tažná loď
+529.cardText;{flying}, {dash|1}\nKdykoliv by měla opustit pevninu, vezme ji tato bytost s sebou.
+530.cardName;Rakoanský náčelník
+530.cardText;{dash|1}\nPřilehlé spojenecké bytosti mají +1/+0.
+531.cardName;Nebeská sasanka
+531.cardText;{flying}, {taunt}\nMůže být vyvolána kdekoliv.
+532.cardName;Ulani, šamanka ze Zánebí
+532.cardText;{gift} - Líznete si zelenou, modrou, červenou a žlutou kartu ze svého balíčku.
+549.cardName;Drtič reality
+549.cardText;{flying}\n{production} - Získá +0/+2.\nPokud má 10 či více životů, <b>hra spadne</b>.
+550.cardName;Krystalová květina
+550.cardText;Uvnitř je vězeň.
+551.cardName;Krystalová květina
+551.cardText;Uvnitř je vězeň.
+552.cardName;Krystalová květina
+552.cardText;Uvnitř je vězeň.
+553.cardName;Létající manta
+553.cardText;{flying}, {charge|2}
+555.cardName;Zuřivý jak
+556.cardName;Jsi vítěz!
+556.cardText;Udělí 100 poškození vašemu nepříteli.
+557.cardName;Císař Kaios Velký
+557.cardText;{production} - Všem nepřátelským bytostem ubere -1/-0. Poté zničí všechny bytosti s útokem 0.
+601.cardName;Laya, Paní smutku
+601.cardText;{deathtouch}\n{last_words} - Vyvolá na Layině místě <b>Třpytivou sochu</b>.
+602.cardName;Říšský drakonýr
+602.cardText;{flying}, {charge|2}\n{corrupt} - Získá +2/+2.
+603.cardName;Vyšinutá opice
+603.cardText;{gift} - Vyprázdní všechny studny faerie a za každou získá +1/+1.
+604.cardName;Říšský voják
+604.cardText;{corrupt} - Ovládne toto území.
+605.cardName;Zbloudilý průzkumník
+605.cardText;{corrupt} - Líznete si kartu a získáte {faeria|1}.
+606.cardName;Rytíř morové čepele
+606.cardText;Poškození udělené této bytosti je zároveň uděleno vám.
+607.cardName;Stínová hedváběnka
+607.cardText;{flying}, {charge|2}, {protection}\n{corrupt} - Líznete si ze svého balíčku 2 události.
+608.cardName;Kaios, Zkažená mysl
+608.cardText;{divine}\nKaiosův útok se vždy rovná jeho životu.\n{corrupt} - Vysaje 1 život ze VŠEHO.
+609.cardName;Rybí přeháňka
+609.cardText;Vyvolá na náhodných polích 6 <b>Rubínových rybek</b>. Každá rybka, která dopadne na pevninu, udělí 1 poškození přilehlým nepřátelům.
+610.cardName;Létající piraňa
+610.cardText;{flying}\nPokud zemře přilehlá bytost, získá tato {deathtouch} a {jump}.
+611.cardName;Zrůdná hydra
+611.cardText;{corrupt} - Vyvolá na všech přilehlých polích <b>Hlavy hydry</b> (2/1 s vlastností {haste}). Na konci tahu zemřou.
+612.cardName;Posedlá vrba
+612.cardText;{taunt}
+613.cardName;Rozpadající se kanec
+613.cardText;{dash|1}\n{corrupt} - Líznete si bytost s alespoň 5 životy, která je ve vašem balíčku nejvýše, a získá +2/+2.
+614.cardName;Nekomata
+614.cardText;{taunt}\n{corrupt} - Zdvojnásobí útok této bytosti.
+615.cardName;Baldurion, Zlý mistr kovář
+615.cardText;{protection}\n{corrupt} - Přidá do vaší ruky <B>Kladivo zkázy</b>.
+616.cardName;Vzpurný skřítek
+616.cardText;{last_words} - Udělí vám 2 poškození.
+617.cardName;Spoušť
+617.cardText;Udělí 9 poškození nepřátelské bytosti nebo budově.
+618.cardName;Démonický losos
+618.cardText;{haste}, {flying}, {charge|2}\nNemůže sklízet faerii.\nKdykoliv zaútočí na boha, získá +1/+1.
+619.cardName;Krádež ducha
+619.cardText;Vysajete 1 život z nepřátelské bytosti. Pokud ji to zabije, přidá do vaší ruky její kopii. Tato kopie je {wild}.
+620.cardName;Solem
+620.cardText;{flying}, {divine}\n{corrupt} - Zničí studnu.
+622.cardName;Matka všech jaků
+622.cardText;{gift} - Na přilehlých místech vyvolá 2 <b>Jačí stráže</b> (4/4 , vlastnosti {taunt} a {flying}).\nStojí o {faeria|1} méně za každého spojeneckého jaka, který za tuto hru zemřel.
+623.cardName;Rakoanský šampion
+623.cardText;{dash|2}\n{gift} - Získá +1/+1 za každého dalšího spojeneckého Rakoana ve hře.
+624.cardName;Osiřelé fugu
+624.cardText;Má +2/+0 a vlastnost {jump}, pokud ovládáte další šelmu.
+625.cardName;Rapala, cáklá ryba
+625.cardText;{aquatic}\n{gift} - Zaplní soupeřovu ruku <b>Rubínovými rybkami</b>. Hňup jeden.
+626.cardName;Safírový jak
+626.cardText;Kdykoliv spojenecký jak sklidí faerii z nepřátelské studny, přidá mu +2/+2.
+627.cardName;Uštvat
+627.cardText;Přidá spojenecké šelmě +2/+0. Ta poté zaútočí na libovolnou nepřátelskou bytost.
+628.cardName;Smaragdový jak
+628.cardText;{gift} - Vyvolá <b>Jačátko</b> (1/1 s vlastnostmi {taunt} a <b>Nemůže sklízet faerii</b>) na vámi ovládané prérii.
+629.cardName;Majinata, duch Nesmrtelna
+629.cardText;{protection}, {divine}\n{gift} - Přátelská bytost spolkne Majinatu a získá +5/+5, vlastnosti {flying} a {charge|2}.
+630.cardName;Magmatický axolotl
+640.cardName;Rakoakoptéra
+640.cardText;{flying}, {dash|1}\n{gift} - Udělí 2 poškození přilehlým nepřátelským bytostem.
+641.cardName;Rubínový jak
+641.cardText;Kdykoliv spojenecký jak utrpí poškození, je 1 poškození uděleno protihráči.
+642.cardName;Dračí duch
+642.cardText;{flying}, {charge|2}, {protection}
+643.cardName;Perutýn
+643.cardText;{flying}, {deathtouch}
+644.cardName;Topazový jak
+644.cardText;Lze jej vyvolat vedle spojeneckých jaků. V takovém případě získá vlastnost {haste}.
+645.cardName;Rakoanský válečný stoj
+645.cardText;{charge|2}\n{gift} - Pokud chcete, {swallow} spojeneckého rakoana a získá +2/+0.
+646.cardName;Rakoanský kanón
+646.cardText;{gift} - Můžete obětovat jiného Rakoana, abyste udělili 3 poškození nepřátelské bytosti.
+647.cardName;Rakoanský kejklíř
+647.cardText;{gift} - Můžete přeměnit jiného přátelského rakoana na <b>Drakóna z duny</b> (4/4, {flying}, {charge|2} ) do začátku vašeho příštího tahu.
+648.cardName;Rakoanské štíty
+648.cardText;{last_words} - Na místě, kde zemřou, vyvolají Rakoana (1/1).
+649.cardName;Rakoanský vojevůdce
+649.cardText;{combat} - Přidá náhodnému Rakoanovi ve vaší ruce +1/+1.
+650.cardName;Rakoanský verbíř
+650.cardText;{gift} - Přidá do vaší ruky Rakoana (1/1). Stojí {faeria|0}.
+653.cardName;Věž kleteb
+653.cardText;{activate} - Ubere zvolené bytosti -1/-1. Udělí 1 poškození této budově.
+654.cardName;Shozen, Požírač nebes
+654.cardText;{flying}, {charge|3}\nPoprvé, kdy by Shozen zničil v souboji bytost, ji namísto toho spolkne a převezme nad ní kontrolu.
+655.cardName;Říšská základna
+655.cardText;Všechny spojenecké neutrální bytosti mají +1/+0.
+656.cardName;Smrtící salva
+656.cardText;Udělí bytosti 2 poškození. 5, pokud má tato bytost vlastnost {flying}.
+658.cardName;Třpyt, postrach Zánebí
+658.cardText;{flying}\n{gift} - V příštím tahu se nepřátelské bytosti nemohou hýbat.
+659.cardName;Těkavý hroch
+659.cardText;{combat} - Udělí 2 poškození všem přilehlým nepřátelům.
+660.cardName;Krotitel šelem
+660.cardText;{gift} - Sníží cenu náhodné šelmy ve vaší ruce o {faeria|5}.
+661.cardName;Pašerácký kobold
+661.cardText;{corrupt} - Vyvolá na náhodném přilehlém místě Seiferovo krmivo (4/3).
+662.cardName;Hněv Ignův
+662.cardText;Náhodně rozdělí {dynamic_number|0|0} poškození mezi nepřátele.\nDokud je ve vaší ruce nebo v balíčku, zvýší se toto číslo o jedna pokaždé, když si z kola moci zvolíte +{faeria|1}.
+663.cardName;Uctívač Ignuse
+663.cardText;{gift} - Smíte znovu použít kolo moci.\n{corrupt} - Smíte znovu použít kolo moci.
+664.cardName;Topič
+664.cardText;Kdykoliv si v kole moci zvolíte +{faeria|1}, získá Topič +1/+1.
+665.cardName;Havěť ze Zkáznebí
+665.cardText;{gift} - Zaútočí na vašeho protihráče.
+666.cardName;Odporná zbobtnalice
+666.cardText;{flying}\n{corrupt} - Přidá do vaší ruky <b>Odpornou zbobtnalici</b>.
+667.cardName;Morový přízrak
+667.cardText;{charge|2}\n{production} - Získá +1/+1, pokud má váš nepřítel v ruce 4 nebo více karet.
+668.cardName;Přízračný prášil
+668.cardText;{corrupt} - Zvýší cenu všech karet v soupeřově ruce o {faeria|1}.
+669.cardName;Sup ze Zkáznebí
+669.cardText;{flying}\n{gift} - Zničí bytost s 1 životem a vysaje její útok.
+671.cardName;Hromový úhoř
+671.cardText;{flying}\n{gift} - Smíte bytosti udělit 2 poškození. Pokud je ona bytost na oceánu, udělí jí 4.
+676.cardName;Toulavý jak
+676.cardText;{gift} - Vytvoří prérii.\n{dash|1}
+677.cardName;Pasáček jaků
+677.cardText;{gift} - Dvěma spojeneckým jakům přidá až do konce tahu +2/+0 a vlastnost {charge|2}.
+678.cardName;Zánebský jak
+678.cardText;{flying}\nPokud ovládáte 6 prérií, má +2/+2.
+679.cardName;Nafouklá ropucha
+679.cardText;{jump}\nVstoupí do hry se spolknutou nepřátelskou <b>Žábou</b> (2/2).
+680.cardName;Přízrak odrazu
+680.cardText;{gift} - Přemění nepřátelskou bytost na <b>uzardo karzířP</b> (5/3).
+685.cardName;Kukla
+685.cardText;{gift} - {swallow} spojeneckou bytost.\n{production} - Spolknutá bytost získá +1/+1.\n{activate} - Zničí tuto budovu.
+686.cardName;Vyslanec zeleně
+686.cardText;{last_words} - Všem bytostem ve vaší ruce přidá +1/+1.
+692.cardName;Spasitel slabých
+692.cardText;{gift} - Přidá jiné přátelské bytosti, jejíž útok je přesně 1, +2/+2 a vlastnost {divine}.
+694.cardName;Hlava hydry
+694.cardText;{haste}\nNa konci tahu zemře.
+695.cardName;Jačí stráž
+695.cardText;{flying}, {taunt}
+696.cardName;Jačátko
+696.cardText;{taunt}\nNemůže sklízet faerii.
+697.cardName;Drakón z duny
+697.cardText;{charge|2}, {flying}\nNemůže sklízet faerii.
+698.cardName;uzardo karzířP
+698.cardText;{gift} - Přemění jinou bytost na <b>Přízrak odrazu</b> (3/5).
+699.cardName;Rakoan
+9991.cardName;Spěchej
+9992.cardName;Dej faerii
+9992.cardText;Na náhodných místech vytvoří pevninu od každé barvy a získáte {faeria|100}.
+9993.cardName;Zemři!
+9993.cardText;Udělí 100 poškození.
+9994.cardName;Hora
+9995.cardName;Jezero
+9996.cardName;Poušť
+9997.cardName;Les
+9998.cardName;Prérie
+9999.cardName;Orb
+682.cardName;Pán přílivu
+682.cardText;{jump}\nMůže být vyvolán kdekoliv vedle spojeneckých tritónů. V takovém případě záská +1/+1.
+670.cardName;Posedlá schránka
+670.cardText;Pokud má na konci vašeho tahu váš protivník v ruce 4 či více karet, líznete si 1 kartu a vysajete ze svého protivníka 1 život.
+675.cardName;Lamorožec
+675.cardText;{combat} - Každý hráč si lízne kartu a získá 2 životy.
+681.cardName;Tritónský taktik
+681.cardText;{jump}\n{gift} - Za každého přilehlého tritóna získá +1/+0.
+683.cardName;Pojízdná hostina
+683.cardText;{dash|1}\nNa konci tahu tuto bytost spolkne náhodná přilehlá spojenecká bytost a získá +1/+1.
+688.cardName;Kvetoucí kodama
+688.cardText;{gift} - Vytvoří {green}{green}{green} na náhodných místech.
+689.cardName;Zephyrský lišák
+689.cardText;Kdykoliv tato bytost vstoupí do {green}, můžete ji teleportovat do {green}, který ovládáte.
+691.cardName;Oslava vítězství
+691.cardText;Až do konce hry všichni hráči získají v každém tahu {faeria|1} navíc.
+9989.cardName;Získat územní nadvládu
+9990.cardName;Získat nadvládu
+657.cardText;{flying}\nKarty ve vaší ruce mají vlastnost {wild}.\n{gift} - Přidá do vaší ruky náhodného člena gaganské posádky. Ten bude stát {faeria|0}.
+657.cardName;Gagana, Duhová ptakoloď
+652.cardText;Kdykoliv bytost pod vaší nadvládou aktivuje vlastnost {corrupt}, vysajete 2 body života ze svého protivníka.
+652.cardName;Zotročený kněží
+9988.cardText;Přidá bytosti vlastnost {haste}.
+9988.cardName;Výpad!
+9987.cardText;{activate} - Líznete si kartu.
+9987.cardName;Věž moudrosti
+690.cardText;Kdykoliv Dwordia vstoupí do {green}, můžete jej teleportovat do {green}, který ovládáte. V takovém případě získá +1/+1.
+690.cardName;Dwordia, náčelník kmene blyštivých lišek
+687.cardText;{gift} - Další bytosti, kterou si líznete, přidá +2/+4.
+687.cardName;Kněží Nesmrtelna
+684.cardText;Tato bytost může sklízet hned po zahrání.\n{gift} - Můžete posunout pevninou, kde tato bytost stojí.
+684.cardName;Korálový pulec
+674.cardText;{gift} - Pokud je Ulani vaší jedinou bytostí, získá {taunt}, {protection} a {divine}.
+674.cardName;Ulani, ochránkyně Zánebí
+673.cardText;{gift} - Pokud již v balíčku nemáte žádné bytosti, zamíchá do něj <b>Třpyt, zánebskou vzducholoď</b> a 10 náhodných neutrálních bytostí. Všichni získají +2/+2.
+673.cardName;Banon, kapitán Třpytu
+9986.cardText;Zahodí jí karty z ruky
+9986.cardName;Ukázat ruku AI
+800.cardText;Líznete si kartu.\nPo zahrání tří <b>Map pokladů</b> namísto toho {discover} <b>Gaganský poklad</b>.\nPočet zahraných map: {dynamic_number|0|0}.
+800.cardName;Mapa pokladů
+749.cardText;Píp píp.
+749.cardName;Mech
+746.cardText;Píp cvak.
+746.cardName;Mech
+745.cardText;{taunt}, {divine}
+745.cardName;Strážce
+744.cardText;{taunt}, {divine}
+744.cardName;Strážce
+743.cardText;Vyvolá dva Strážce (5/5) s vlastnostmi {taunt} a {divine}.
+743.cardName;Klíč Strážců
+742.cardText;{discover} bytost, která získá +6/+6 a bude {wild}.
+742.cardName;Klíč obrů
+741.cardText;{options|{discover} zelenou bytost.|{discover} modrou bytost.|{discover} červenou bytost.|{discover} žlutou bytost.}\nZvolte si barvu. {discover} bytost dané barvy. Bude {wild} a bude o {faeria|3} levnější.
+741.cardName;Klíč živlů
+740.cardText;{divine},{flying},{dash|5}\nMusí být vyvoláno vedle spojenecké bytosti.
+740.cardName;Kopí Strážců
+739.cardText;Karty ve vaší ruce jsou o {faeria|1} levnější.
+739.cardName;Zpodobnění poddajnosti
+738.cardText;{flying}, {dash|5}\n{gift} - Naplní vaši ruku <b>Záblesky větru</b>. Každá z těchto karet bude {wild}.
+738.cardName;Kouzelný koberec
+737.cardText;{gift} - {swallow} spojeneckou bytost.\n{production} - Spolknutá bytost získá +4/+4.\n{activate} - Zničí tuto budovu.
+737.cardName;Kuklokam
+736.cardText;{charge|3}, {flying} {gift} - Zničí všechny <b>Mapy pokladů</b> ve vašem balíčku na kousky a za každou získá +1/+1.\nZničené mapy:{dynamic_number|0|0}.
+736.cardName;Prastarý chrlič
+735.cardText;{charge|5}, {flying}\n{last_words} Udělí 5 poškození přilehlým nepřátelům.
+735.cardName;Thyrijský glóbus
+734.cardText;{jump}\nUdělí 3 poškození všem nepřátelům přilehlým k místu dopadu.
+734.cardName;Sorocco, první důstojník
+733.cardText;{flying}, {jump}
+733.cardName;Skokluzák
+732.cardText;{discover} kartu vyžadující 4 nebo více pevnin. Bude {wild}.
+732.cardName;Thyrijská expedice
+731.cardText;{flying}, {dash|2}
+731.cardName;Poletucha
+730.cardText;{discover} 2 nelegendární karty s cenou {faeria|7} či více. Každá bude {wild}.
+730.cardName;Krystalové koření
+729.cardText;Přidá bytosti +3/+3, {charge|3} a vlastnost {flying}. Stojí o {faeria|3} méně za každou spojeneckou bytost, která v tomto tahu zemřela.
+729.cardName;Koření duchů
+728.cardText;{discover} událost z protihráčova balíčku. Bude {wild} a bude stát o {faeria|2} méně.
+728.cardName;Směnný obchod
+727.cardText;{flying}\n{gift} - Přidá navrch vašeho balíčku <b>Mapu pokladů</b>.\n{last_words} - Vrátí Aryanu do vaší ruky.
+727.cardName;Aryana, duše Gagany
+726.cardText;{gift} - Vmíchá do vašeho balíčku <b>Mapu pokladů</b>.
+726.cardName;Amaiský prodavač map
+724.cardText;{flying}\n{gift} - {discover} nelegendární kartu s cenou {faeria|5}. Přidá dvě karty, které jste nesebrali, soupeřovi do ruky. Všechny se stanou {wild}.
+724.cardName;Amaiský obchodník
+723.cardText;{dash|1}\nPokud je na konci vašeho tahu na nepřátelské pevnině, vmíchá do vašeho balíčku 2 <b>Mapy pokladů</b>.
+723.cardName;Keldranský dobrodruh
+722.cardText;Na konci vašeho tahu přidá všem ostatním Mechům +1/+1. Poté je mu uděleno 1 poškození.
+722.cardName;Šrotošlap Smetihlav
+721.cardText;Všichni spojenečtí Mechové udělí přilehlým napřátelům 2 poškození.
+721.cardName;Odpálit
+720.cardText;{combat} - Vyvolá na náhodné přilehlé pevnině Mecha (4/2).
+720.cardName;Členitec
+719.cardText;{production} - Získá +3/+0.
+719.cardName;Nestálé výhňátko
+717.cardText;{dash|1}\nPokud je na konci vašeho tahu na nepřátelské pevnině, sníží cenu jedné karty ve vaší ruce o {faeria|1}.
+717.cardName;Zlobří dobrodruh
+715.cardText;Smíte jej vyvolat vedle spojenecké nezelené bytosti.
+715.cardName;Exotický mazlíček
+714.cardText;{discover} bytost s vlastností {taunt}. Získá +0/+3 a bude {wild}.
+714.cardName;Vyhledat útočiště
+713.cardText;{jump}\nPřilehlé spojenecké Šelmy získají +2/+0.
+713.cardName;Kodamský chovatel šelem
+712.cardText;{gift} - {discover} Šelmu, která bude {wild}.
+712.cardName;Tikijský zoolog
+711.cardText;{dash|1}\nPokud je na konci vašeho tahu na nepřátelském území, přidá +1/+1 všem přilehlým spojeneckým bytostem.
+711.cardName;Tikijský dobrodruh
+710.cardText;{jump}\nVždy, když objevíte poklad, získá Fugoro +3/+3.
+710.cardName;Fugoro, kapitán Gagany
+709.cardText;{jump}\n{gift} - Líznete si 3 karty. Je-li některá z nich <b>Mapa pokladů</b>, získá hvězdář +2/+2.
+709.cardName;Tritónský hvězdář
+707.cardText;{gift} - Vmíchá do vašeho balíčku <b>Mapu pokladů</b>. Líznete si kartu.
+707.cardName;Želhvězdný strážce
+706.cardText;Vmíchá do vašeho balíčku 2 <b>Mapy pokladů</b>. Líznete si kartu.
+706.cardName;Vzkaz v lahvi
+705.cardText;{jump}\n{gift} - Pohněte touto bytostí.\nPokud na konci vašeho tahu stojí na nepřátelském území, líznete si kartu.
+705.cardName;Tritónský dobrodruh
+704.cardText;{flying}\n{gift} - Za každou kartu ve vaší ruce přidá do balíčku <b>Mapu pokladů</b>. Vmíchejte karty z ruky do balíčku a doberte si zpět stejný počet.
+704.cardName;Gagana, lovec pokladů
+703.cardText;{flying}, {charge|2}\n{gift} - Pokud se ve vašem balíčku každá karta nachází jen jednou, získá {haste} a {protection}.\n{last_words} - Vmíchá Celeste zpět do balíčku.
+703.cardName;Celeste, krystalová saň
+702.cardText;Za každého přilehlého nepřítele přidá spojenecké bytosti +1/+1.
+702.cardName;Shařin vzor
+701.cardText;Na konci vašeho tahu najde v balíčku <b>Mapu pokladů</b> a umístí ji navrch. Pokud v balíčku žádnou nemáte, namísto toho do něj jednu vmíchá.
+701.cardName;Gaganský kompas
+9985.cardText;Přehraje všechny globální animace
+9985.cardName;Zanimovat vše

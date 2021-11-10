@@ -1,0 +1,46 @@
+TUTORIAL_ADVENTURE_POUCH_AVAILABLE_GOT_IT;A new journey begins...\nThe Adventure Pouch has been revealed, it's time for you to discover what's next in Faeria!\nWh-What's that medallion?
+TUTORIAL_BATTLE_CASUAL_MODE_HINT;If you're looking to relax against other players, select the Casual mode.
+TUTORIAL_BATTLE_CHOOSE_MODE_GOT_IT;Each time before playing a game, you can choose between Practice, Casual or Ranked.
+TUTORIAL_BATTLE_PRACTICE_MODE_HINT;If you're looking to train against an AI, select the Practice mode.
+TUTORIAL_BATTLE_RANKED_MODE_HINT;If you're looking to prove your skill, select the Ranked mode.
+TUTORIAL_CRAFTING_HIT_CRAFT_MODE_BUTTON;You've unlocked the ability to Craft new cards!
+TUTORIAL_DECK_EDITION_NEW_CARD_RECEIVED_GOT_IT;You have received a new card, let's see how you can add it into your deck.
+TUTORIAL_FIRST_FORMULA_DECK_CREATED;This is your first deck, you are now ready to play!
+TUTORIAL_FIRST_FORMULA_HIT_BLUEPRINT_SELECT_BUTTON;This is a Formula, use it to create a deck in a few seconds.
+TUTORIAL_FIRST_FORMULA_HIT_PLAY_BUTTON;Let's go try your new deck in a game.
+TUTORIAL_FIRST_FORMULA_HOME_UNLOCKED_GOT_IT;Congratulations, you have unlocked the main interface of Faeria! Let's start by creating your first deck.
+TUTORIAL_FIRST_FORMULA_SOLO_GOT_IT;Welcome to Missions! Complete them to level up and gain more cards.
+TUTORIAL_SECOND_FORMULA_CREATE_DECK;Create the deck anyway, you will then add 2 cards of your choice.
+TUTORIAL_SECOND_FORMULA_FINISH_DECK_GOT_IT;It's not a problem if you don't own all the cards for a Formula, you can always finish the deck with the cards of your choice.
+TUTORIAL_SECOND_FORMULA_NEW_FORMULA_RECEIVED_GOT_IT;You have received a new Formula, let's use it.
+TUTORIAL_SECOND_FORMULA_NOT_COMPLETED_FORMULA_HINT;You have 28 out of the 30 cards for this Formula.
+TUTORIAL_SHOP_MYTHIC_CHEST_HINT;Mythic chests contain mythic versions of cards and other cosmetics.
+TUTORIAL_PANDORA_PRACTICE_COIN_HINT;Wager 2 battle chests and battle with a newly built deck. Win up to 6 games to win battle chests and cards.
+TUTORIAL_PANDORA_FULL_COIN_HINT;Wager shards instead to earn mythic cards and shards instead.
+MOUSE_TUTORIAL_PANDORA_REWARD_GOT_IT;Collect Pandora Points for rewards at the end of each season. Click to check out the rewards! <u><link=https://esports.faeria.com/pandora-season>https://esports.faeria.com/pandora-season</link></u>
+DAILY_REWARDS_TUTORIAL_GOT_IT;This was your first daily reward. Log in daily to earn increasing rewards. Don't worry, you'll keep your progress even if you miss a day.
+LOYALTY_PATCH_PUZZLES_GOT_IT;Here are some Puzzles to get the Fall of Everlife started!
+TUTORIAL_WORLD_MAP_GOT_IT;Welcome to the World of Faeria! From here you can encounter the most imposing enemies and ultimately unlock the Orb of Champions.
+TUTORIAL_PANDORA_FIRST_GAME_GOT_IT;Pandora's Shards have been shuffled into each deck. Once 5 Shards are found, Pandora awakens.
+TUTORIAL_PANDORA_AWAKENS_GOT_IT;Pandora Awakens: Treasures are found in decks. Gain 3 extra faeria each turn.
+TUTORIAL_CRAFTING_CRAFT_CHARGES_GOT_IT;Crafting charges are used to create new cards. You can store up to {0} and they recharge over time.
+TUTORIAL_CRAFTING_CRAFT_GOT_IT;For now you can only craft commons, but at higher levels you can craft rares and epics as well!
+TUTORIAL_SHOP_DEAL_OF_THE_DAY_HINT;You can also buy items directly from the shop, the selection changes every day.
+TUTORIAL_SHOP_GOT_IT;Here you can buy cosmetics, giving your cards shiny borders or letting you personalize your set up in your profile.
+TUTORIAL_LORE_BOOK_GOT_IT;You have unlocked the Lore Book!
+TUTORIAL_DRAGONS_LAIR_IS_HERE_GOT_IT;Enter the Dragon's Lair through here, if you dare.
+TUTORIAL_DRAGONS_LAIR_IS_DAILY_GOT_IT;New dragons enter the Lair every day. Defeat each of them enough times to earn their cosmetic sets!
+TUTORIAL_DRAGONS_LAIR_GOT_IT;Dragon's Lair is now available!\nBattle against mighty dragons alone or with friends in this daily challenge!
+TUTORIAL_DECK_COSMETIC_SET_POPUP_GOT_IT;Select the cosmetics you want for this deck and then hit Apply to confirm the changes.
+TUTORIAL_DECK_COSMETIC_SET_EDIT_DECK_GOT_IT;You can now assign specific cosmetic sets per deck!
+GAMEPAD_TUTORIAL_PANDORA_REWARD_GOT_IT;Collect Pandora Points for rewards at the end of each season. Check out the rewards at <u><link=https://esports.faeria.com/pandora-season>https://esports.faeria.com/pandora-season</link></u>
+GAMEPAD_TUTORIAL_LORE_BOOK_ZOOM_ON_LORE_ITEM;Press {GAMEPAD_ACTION_CONFIRM} on unlocked lore pages to read them.
+MOUSE_TUTORIAL_LORE_BOOK_ZOOM_ON_LORE_ITEM;Click on unlocked lore pages to read them.
+GAMEPAD_TUTORIAL_DECK_EDITION_REMOVE_ANY_CARD_FROM_DECK;Press {GAMEPAD_ACTION_CONFIRM} on any card to remove it from your deck.
+MOUSE_TUTORIAL_DECK_EDITION_REMOVE_ANY_CARD_FROM_DECK;Click any card to remove it from your deck.
+GAMEPAD_TUTORIAL_DECK_EDITION_CLICK_SAVE;Select Save and you're done.
+MOUSE_TUTORIAL_DECK_EDITION_CLICK_SAVE;Click Save and you're done.
+GAMEPAD_TUTORIAL_DECK_EDITION_ADD_ANY_CARD_TO_DECK;Now select this card to add it to your deck.
+MOUSE_TUTORIAL_DECK_EDITION_ADD_ANY_CARD_TO_DECK;Now click this card to add it to your deck.
+GAMEPAD_TUTORIAL_ADVENTURE_POUCH_MEDALLION_GOT_IT;Press {GAMEPAD_ACTION_CONFIRM} to join the adventure
+MOUSE_TUTORIAL_ADVENTURE_POUCH_MEDALLION_GOT_IT;Click to join the adventure

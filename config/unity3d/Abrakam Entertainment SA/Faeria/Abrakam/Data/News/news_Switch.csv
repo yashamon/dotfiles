@@ -1,0 +1,5 @@
+DockId;Keyword;IsStoreId;NewsUrl;ImageName;[STEAM,GOLD]
+0;NEWS_ADDITIONAL_CONTENT;false;faeria://dlc_shop;DlcShop;GOLD
+1;NEWS_GAGANA;true;NOT_USED;GaganaNews1;
+2;NEWS_GAGANA_CARDS;false;https://www.faeria.com/news/announcements/291-chronicles-of-gagana-cards;GaganaNews2;
+3;NEWS_PREMIUM_DLC;true;NOT_USED;DlcPremium;

@@ -1,0 +1,389 @@
+ACT_FUGORO.marketDescription;강력한 보물 카드들을 사용하는 후고로를 물리치세요.\n미션 7개 구성.\n총 보상: 전리품 상자 4개, 600골드.
+ACT_FUGORO.marketName;후고로 미션 팩
+ACT_FUGORO.marketShortDescription;미션 팩
+ACT_HOAKA.marketDescription;유명한 트라이튼 전략가인 후고로의 새로운 전장에서 싸워보세요.\n미션 7개 구성.\n총 보상: 전리품 상자 4개, 600골드.
+ACT_HOAKA.marketName;호아카 미션 팩
+ACT_HOAKA.marketShortDescription;미션 팩
+ACT_JALMYR_02.marketDescription;퍼즐에 자신이 있다면 스핑크스의 수수께끼에 도전하세요.\n퍼즐 10개 구성.\n총 보상: 전리품 상자 4개, 600골드.
+ACT_JALMYR_02.marketName;얄미어, Act II
+ACT_JALMYR_02.marketShortDescription;미션 팩
+ACT_JALMYR_03.marketDescription;퍼즐에 자신이 있다면 스핑크스의 수수께끼에 도전하세요.\n퍼즐 10개 구성.\n총 보상: 전리품 상자 4개, 600골드.
+ACT_JALMYR_03.marketName;얄미어, Act III
+ACT_JALMYR_03.marketShortDescription;미션 팩
+ACT_JALMYR_04.marketDescription;퍼즐에 자신이 있다면 스핑크스의 수수께끼에 도전하세요.\n퍼즐 10개 구성.\n총 보상: 전리품 상자 4개, 600골드.
+ACT_JALMYR_04.marketName;얄미어, Act IV
+ACT_JALMYR_04.marketShortDescription;미션 팩
+ACT_MAGDA.marketDescription;강력한 여왕을 물리치기 위해서는 능숙하게 보물들을 사용해야 합니다.\n미션 7개 구성.\n총 보상: 전리품 상자 4개, 600골드.
+ACT_MAGDA.marketName;마그다 미션 팩
+ACT_MAGDA.marketShortDescription;미션 팩
+AVATAR_ADVENTURER.marketDescription;창공을 여행하는 젊은 후고로의 행적을 따라가세요!\n\n새로운 아바타를 얻을 수 있습니다.
+AVATAR_AURORA.marketDescription;오로라는 미래의 영웅들을 가르치거나 새로운 차 맛을 보는 것을 좋아합니다.\n\n 새로운 아바타를 얻을 수 있습니다.
+AVATAR_BLUE_ELEMENTAL_2.marketDescription;현자들이 가끔 이 생물을 잊혀진 도시의 폐허 속에서 발견합니다.\n\n 새로운 아바타를 얻을 수 있습니다.
+AVATAR_BLUE_ELEMENTAL_3.marketDescription;그는 현자들에게 모습을 드러내어 그들의 소원을 들어줍니다. 그들이 미래를 볼 수 있도록..\n\n새로운 아바타를 얻을 수 있습니다.
+AVATAR_BOMB_SLINGER.marketDescription;숨쉬는 것보다 숨쉴 공기를 가져가는 폭탄을 더 좋아하는 좋아하는 신들이 좋아합니다.\n\n 새로운 아바타를 얻을 수 있습니다.
+AVATAR_CAP_10.marketDescription;옛날 옛적에 수호자로서 만들어진 기계입니다. 지금은 다시 프로그래밍되어 해적질을 합니다!
+AVATAR_DARK_WISP.marketDescription;물건 사이 틈에 사는 장난기 많은 정령입니다.\n\n 새로운 아바타를 얻을 수 있습니다.
+AVATAR_FUGORO.marketDescription;후고로는 세상에서 제일 용감한 상인입니다. 그는 오로세이가 지키고 있는 판도라에 보물을 훔치러 자주 숨어 들어갑니다.\n\n새로운 아바타를 얻을 수 있습니다.
+AVATAR_GREEN_ELEMENTAL_2.marketDescription;광인들이 거친 숲 가장 깊은 곳에서 목격하곤 합니다.\n\n 새로운 아바타를 얻을 수 있습니다.
+AVATAR_GREEN_ELEMENTAL_3.marketDescription;그는 광인들에게 모습을 드러내어 그들의 소원을 들어줍니다. 숲을 그들의 변덕대로 휘저을수 있도록..\n\n새로운 아바타를 얻을 수 있습니다.
+AVATAR_HOAKA.marketDescription;전장의 지배자인 호아카는 매번 새로운 전략을 개발하지 않았다면 정말로 무적이 되었을 겁니다.\n\n새로운 아바타를 얻을 수 있습니다.
+AVATAR_JALMYR.marketDescription;우주 저편에서 신들을 관찰하고 가르치는 신비로운 스핑크스입니다.\n\n새로운 아바타를 얻을 수 있습니다.
+AVATAR_KELDRAN_EMISSARY.marketDescription;바람결의 전령은 세상의 모든 기도들을 모아 성스러운 구름 위로 전달합니다.\n\n새로운 아바타를 얻을 수 있습니다.
+AVATAR_KHALIM.marketDescription;지단 기사단의 신동이라 불리는 칼림은 스승들의 명령을 어기고 전쟁에 뛰어듭니다.\n\n새로운 아바타를 얻을 수 있습니다.
+AVATAR_KINGS_GUARD.marketDescription;칼은 부러지지만 신념은 그렇지 않습니다. 왕의 근위병은 지지 않습니다.\n\n 새로운 아바타를 얻을 수 있습니다.
+AVATAR_KOBOLD_MERCENARY.marketDescription;지하세계 보스는 아랫세계 코볼드들의 제왕입니다. 약자가 강자를 섬기는 그곳에서, 수없이 무너뜨린 라이벌들 위에 선 자들입니다.\n\n 새로운 아바타를 얻을 수 있습니다.
+AVATAR_KROG.marketDescription;크로그는 자신이 오우거 왕이라 생각합니다. 다른 이들은 아무도 그렇게 생각하지 않습니다.\n\n새로운 아바타를 얻을 수 있습니다.
+AVATAR_MAGDA.marketDescription;세상의 제일 위대한 전설들도 마그다 여왕의 말판 위에서 움직이는 장기말에 불과합니다.\n\n새로운 아바타를 얻을 수 있습니다.
+AVATAR_OGRE_BATTLER.marketDescription;이 오우거 투사의 원래 이름은 브루타이지만, 친구들은 미스터 클러블스라고 부릅니다.\n\n"오브에 새로운 아바타를 해금하는 아이템입니다."
+AVATAR_RAIZEON.marketDescription;원소의 제왕이 영역을 침범한 이들을 시험합니다.\n\n 새로운 아바타를 얻을 수 있습니다.
+AVATAR_RAPALA.marketDescription;세상이 불타오르는 걸 보고 싶어하는 물고기들도 있습니다.\n\n새로운 아바타를 얻을 수 있습니다.
+AVATAR_RED_ELEMENTAL_2.marketDescription;전쟁군주들이 해뜰 때 이 생물을 목격하곤 합니다.\n\n 새로운 아바타를 얻을 수 있습니다.
+AVATAR_RED_ELEMENTAL_3.marketDescription;그는 장군들에게 모습을 드러내어 그들의 소원을 들어줍니다. 하나의 깃발 아래에서 산들을 통일할 수 있도록..\n\n새로운 아바타를 얻을 수 있습니다.
+AVATAR_RUUNIN.marketDescription;루닌은 죽지 않는 자연의 수호자입니다. 루닌은 그녀가 알고 있는 어떤 친구보다도 오랫동안 살아왔습니다.\n\n새로운 아바타를 얻을 수 있습니다.
+AVATAR_SAGAMI_ELDER.marketDescription;사가미가 나이를 셀 때는 살아온 햇수가 아니라, 쓰러뜨린 적들을 셉니다.\n\n 새로운 아바타를 얻을 수 있습니다.
+AVATAR_SEIFER.marketDescription;사이퍼는 무너진 왕국의 잿더미와 함께 자신의 이름을 불태웠습니다. 악마들을 정복하고 악마의 힘을 얻은 그는, 적들의 비명소리를 듣는 것을 무엇보다도 좋아합니다.\n\n 새로운 아바타를 얻을 수 있습니다.
+AVATAR_SHARRA.marketDescription;어린 시절, 샤라의 두려움은 그녀의 고향과 함께 불타버렸습니다.\n\n새로운 아바타를 얻을 수 있습니다.
+AVATAR_SHAYTAN_ASSASSIN.marketDescription;샤이탄 암살자들은 고위 사제의 전령입니다. 이들은 항상 같은 소식을 전달합니다.\n\n새로운 아바타를 얻을 수 있습니다.
+AVATAR_TAESA.marketDescription;게이브리아 비술사는 창조술을 다룹니다. 파도공예가와 함께, 게이브리아 왕국 안의 영적인 균형을 지킵니다.\n\n 새로운 아바타를 얻을 수 있습니다.
+AVATAR_TARANGA.marketDescription;라코아에 전쟁이라는 말은 없었지만, 타란가는 그것이 저항해야 하는 것이라는 것을 알고 있었습니다.
+AVATAR_TARUM.marketDescription;타룸은 세상에 심어진 첫 번째 씨앗입니다. 그는 솟아오르는 산과 용들의 탄생, 그리고 고대 신들의 몰락을 지켜보았습니다.\n\n 새로운 아바타를 얻을 수 있습니다.
+AVATAR_THE_EGG.marketDescription;용의 꿈 안에서 발견되었습니다. 이 알이 길조라고 믿는 이들도 있습니다. 언젠가 부화할 지도 모릅니다.\n\n 새로운 아바타를 얻을 수 있습니다.
+AVATAR_ULANI.marketDescription;라코아의 아이들은 바람과 함께 웃고, 파도와 함께 춤추고, 잎사귀들 속에서 잠을 자고, 불과 함께 비밀을 나눕니다. 울라니는 어른이 되지 않습니다.
+AVATAR_VERDURAN_FORCE.marketDescription;이들을 베려고 하는 나무꾼은 아무도 없습니다.\n\n 새로운 아바타를 얻을 수 있습니다.
+AVATAR_YAKKAR.marketDescription;세상의 균형을 유지하는 엘리트 중의 엘리트입니다.
+AVATAR_YAK_CYNICAL.marketDescription;이 야크는 "페어리아에서 가장 좋은 덱은 뭐야?" 라고 묻습니다.
+AVATAR_YAK_DRAGON.marketDescription;어떤 용들은 야크를 좋아합니다. 정말 정말 좋아합니다.
+AVATAR_YAK_FANCY.marketDescription;야킨턴 경은 세상에서 제일 인기있는 만찬 게스트입니다.
+AVATAR_YAK_FARMER.marketDescription;영웅이 되어 죽거나, 오래 살아 어느새 농부가 되어 있거나.
+AVATAR_YAK_FAT.marketDescription;야크는 먹기 직전에 가장 행복하다 - 사이퍼의 책 -
+AVATAR_YAK_FORCER.marketDescription;당신은 풍성한 털을 유지할 권리가 있습니다.
+AVATAR_YAK_HIPPIE.marketDescription;인생에서, 잠시 멈춰 장미를 먹는 것을 잊지 말라.
+AVATAR_YAK_KING.marketDescription;왕 야크누스 1세, 멍에를 부순 자, 그리고 짐승 중의 짐승.
+AVATAR_YAK_PIRATE.marketDescription;전설적인 선장 약 스패로우. 일곱 하늘의 재앙.
+AVATAR_YELLOW_ELEMENTAL_2.marketDescription;학살자들이 일을 벌이기 전에 이 생물을 본다고 합니다.\n\n 새로운 아바타를 얻을 수 있습니다.
+AVATAR_YELLOW_ELEMENTAL_3.marketDescription;그녀는 살인마에게 모습을 드러내 그들의 소원을 들어줍니다. 모래를 피로 물들일 수 있도록..\n\n새로운 아바타를 얻을 수 있습니다.
+BACKER_STARTER_PACK_BUNDLE.marketDescription;전리품 상자 30개, 판도라 코인 10개, 오브 1개, 아바타 1개.
+BACKER_STARTER_PACK_BUNDLE.marketName;킥스타터 번들
+BLUE_CHEST_1.marketDescription;각 전리품 상자에는 최대 수량까지 모으지 못한 4장의 무작위 카드가 있습니다.
+BLUE_CHEST_1.marketName;전리품 상자 1개
+BLUE_CHEST_1.marketShortDescription;새로운 4장의 카드!
+BLUE_CHEST_12.marketDescription;각 전리품 상자에는 최대 수량까지 모으지 못한 4장의 무작위 카드가 있습니다.
+BLUE_CHEST_12.marketName;전리품 상자 12개
+BLUE_CHEST_12.marketShortDescription;새로운 48장의 카드!
+BLUE_CHEST_14.marketDescription;전리품 상자에는 카드 5장이 들어있습니다. 그 중 가장 높은 희귀도를 가진 카드 한 장을 같은 희귀도를 가진 다른 카드로 교체할 수 있습니다.
+BLUE_CHEST_14.marketName;전리품 상자 14개
+BLUE_CHEST_14.marketShortDescription;새 카드 70장!
+BLUE_CHEST_2.marketDescription;각 전리품 상자에는 최대 수량까지 모으지 못한 4장의 무작위 카드가 있습니다.
+BLUE_CHEST_2.marketName;전리품 상자 2개
+BLUE_CHEST_2.marketShortDescription;새로운 8장의 카드!
+BLUE_CHEST_25.marketDescription;전리품 상자에는 카드 5장이 들어있습니다. 그 중 가장 높은 희귀도를 가진 카드 한 장을 같은 희귀도를 가진 다른 카드로 교체할 수 있습니다.
+BLUE_CHEST_25.marketName;전리품 상자 25개
+BLUE_CHEST_25.marketShortDescription;새 카드 125장!
+BLUE_CHEST_26.marketDescription;전리품 상자에는 카드 5장이 들어있습니다. 그 중 가장 높은 희귀도를 가진 카드 한 장을 같은 희귀도를 가진 다른 카드로 교체할 수 있습니다.
+BLUE_CHEST_26.marketName;전리품 상자 26개
+BLUE_CHEST_26.marketShortDescription;새 카드 130장!
+BLUE_CHEST_4.marketDescription;전리품 상자에는 카드 5장이 들어있습니다. 그 중 가장 높은 희귀도를 가진 카드 한 장을 같은 희귀도를 가진 다른 카드로 교체할 수 있습니다.
+BLUE_CHEST_4.marketName;전리품 상자 4개
+BLUE_CHEST_4.marketShortDescription;새 카드 20장!
+BLUE_CHEST_5.marketDescription;각 전리품 상자에는 최대 수량까지 모으지 못한 4장의 무작위 카드가 있습니다.
+BLUE_CHEST_5.marketName;전리품 상자 5개
+BLUE_CHEST_5.marketShortDescription;새로운 20장의 카드!
+BLUE_CHEST_55.marketDescription;전리품 상자에는 카드 5장이 들어있습니다. 그 중 가장 높은 희귀도를 가진 카드 한 장을 같은 희귀도를 가진 다른 카드로 교체할 수 있습니다.
+BLUE_CHEST_55.marketName;전리품 상자 55개
+BLUE_CHEST_55.marketShortDescription;새 카드 275장!
+BUNDLE_BLUE_CHEST_24.marketDescription;전리품 상자 12개(카드 60장)와 무작위 전설 카드가 들어 있습니다. 한 번만 구매할 수 있습니다.
+BUNDLE_BLUE_CHEST_24.marketName;전리품 상자 스타터 팩
+BUNDLE_BLUE_CHEST_24.marketShortDescription;새 카드 120장!
+BUNDLE_EMOTE_AURORA.marketName;오로라 감정 표현 번들
+BUNDLE_EMOTE_SEIFER.marketName;사이퍼 감정 표현 번들
+BUNDLE_EMOTE_SHARRA.marketName;샤라 감정 표현 번들
+BUNDLE_PINK_CHEST_8.marketName;신화 스타터 팩
+BUNDLE_PREMIUM_1.marketName;프리미엄 번들
+BUNDLE_SET_ADVENTURER.marketDescription;창공을 여행하는 젊은 후고로의 행적을 따라가세요!\n\n이 세트에는 캐릭터의 특별한 아바타, 오브, 우물, 카드 뒷면과 감정 표현 6개가 포함되어 있습니다.
+BUNDLE_SET_ADVENTURER.marketName;모험가 세트
+BUNDLE_SET_AURORA.marketDescription;오로라는 미래의 영웅들을 가르치거나 새로운 차 맛을 보는 것을 좋아합니다.\n\n이 세트에는 캐릭터의 특별한 아바타, 오브, 우물, 카드 뒷면과 감정 표현 6개가 포함되어 있습니다.
+BUNDLE_SET_AURORA.marketName;오로라 세트
+BUNDLE_SET_FUGORO.marketDescription;모험가, 현자, 도둑, 기인, 낭만주의자, 그리고..... 세상에서 제일 흥미로운 개구리(그리고 이 상점 주인)!\n\n이 세트에는 캐릭터의 특별한 아바타, 오브, 우물, 카드 뒷면과 감정 표현 6개가 포함되어 있습니다.
+BUNDLE_SET_FUGORO.marketName;후고로 세트
+BUNDLE_SET_HOAKA.marketDescription;전장의 지배자인 호아카는 매번 새로운 전략을 개발하지 않았다면 정말로 무적이 되었을 겁니다.\n\n이 세트에는 캐릭터의 특별한 아바타, 오브, 우물, 카드 뒷면과 감정 표현 6개가 포함되어 있습니다.
+BUNDLE_SET_HOAKA.marketName;호아카 세트
+BUNDLE_SET_KHALIM.marketDescription;지단 기사단의 신동이라 불리는 칼림은 스승들의 명령을 어기고 전쟁에 뛰어듭니다.\n\n이 세트에는 캐릭터의 특별한 아바타, 오브, 우물, 카드 뒷면과 감정 표현 6개가 포함되어 있습니다.
+BUNDLE_SET_KHALIM.marketName;칼림 세트
+BUNDLE_SET_KROG.marketDescription;크로그는 자신이 오우거 왕이라 생각합니다. 다른 이들은 아무도 그렇게 생각하지 않습니다.\n\n이 세트에는 캐릭터의 특별한 아바타, 오브, 우물, 카드 뒷면과 감정 표현 6개가 포함되어 있습니다.
+BUNDLE_SET_KROG.marketName;크로그 세트
+BUNDLE_SET_MAGDA.marketDescription;세상의 제일 위대한 전설들도 마그다 여왕의 말판 위에서 움직이는 장기말에 불과합니다.\n\n새로운 오브를 얻을 수 있습니다.
+BUNDLE_SET_MAGDA.marketName;마그다 세트
+BUNDLE_SET_RUUNIN.marketDescription;루닌은 죽지 않는 자연의 수호자입니다. 루닌은 그녀가 알고 있는 어떤 친구보다도 오랫동안 살아왔습니다.\n\n이 세트에는 캐릭터의 특별한 아바타, 오브, 우물, 카드 뒷면과 감정 표현 6개가 포함되어 있습니다.
+BUNDLE_SET_RUUNIN.marketName;루닌 세트
+BUNDLE_SET_SEIFER.marketDescription;사이퍼는 무너진 왕국의 잿더미와 함께 자신의 이름을 불태웠습니다. 악마들을 정복하고 악마의 힘을 얻은 그는, 적들의 비명소리를 듣는 것을 무엇보다도 좋아합니다.\n\n이 세트에는 캐릭터의 특별한 아바타, 오브, 우물, 카드 뒷면과 감정 표현 6개가 포함되어 있습니다.
+BUNDLE_SET_SEIFER.marketName;사이퍼 세트
+BUNDLE_SET_SHARRA.marketDescription;어린 시절, 샤라의 두려움은 그녀의 고향과 함께 불타버렸습니다.\n\n캐릭터의 특별 아바타, 오브, 우물, 카드 뒷면과 6개의 감정표현을 얻을 수 있습니다.
+BUNDLE_SET_SHARRA.marketName;샤라 세트
+BUNDLE_SET_TARUM.marketDescription;타룸은 세계에 심어진 첫 번째 씨앗입니다. 그는 용들의 탄생과 고대신들의 몰락을 지켜보았습니다. 이 세트에는 캐릭터의 특별한 아바타, 오브, 우물, 카드 뒷면과 감정 표현 6개가 포함되어 있습니다.
+BUNDLE_SET_TARUM.marketName;타룸 세트
+CARD_BACK_ADVENTURER.marketDescription;창공을 여행하는 젊은 후고로의 행적을 따라가세요!\n\n새로운 카드 뒷면을 얻을 수 있습니다.
+CARD_BACK_AURORA.marketDescription;오로라는 미래의 영웅들을 가르치거나 새로운 차 맛을 보는 것을 좋아합니다.\n\n새로운 카드 뒷면을 얻을 수 있습니다.
+CARD_BACK_BASIC_COPPER.marketDescription;발듀리온이 녹은 구리와 사파이어를 이용해 이 카드 뒷면을 만들었습니다.\n\n새로운 카드 뒷면을 얻을 수 있습니다.
+CARD_BACK_BASIC_DIAMOND.marketDescription;발듀리온이 녹은 은과 사파이어를 이용해 이 카드 뒷면을 만들었습니다.\n\n새로운 카드 뒷면을 얻을 수 있습니다.
+CARD_BACK_BOMB_SLINGER.marketDescription;숨쉬는 것보다 숨쉴 공기를 가져가는 폭탄을 더 좋아하는 좋아하는 신들이 좋아합니다.\n\n새로운 카드 뒷면을 얻을 수 있습니다.
+CARD_BACK_FAERIA_WORLD_CIRCUIT.marketDescription;용족들의 존경을 얻었습니다.\n\n새로운 카드 뒷면을 얻을 수 있습니다.
+CARD_BACK_FUGORO.marketDescription;후고로는 세상에서 제일 용감한 상인입니다. 그는 오로세이가 지키고 있는 판도라에 보물을 훔치러 자주 숨어 들어갑니다.\n\n새로운 카드 뒷면을 얻을 수 있습니다.
+CARD_BACK_HOAKA.marketDescription;전장의 지배자인 호아카는 매번 새로운 전략을 개발하지 않았다면 정말로 무적이 되었을 겁니다.\n\n새로운 카드 뒷면을 얻을 수 있습니다.
+CARD_BACK_JALMYR.marketDescription;우주 저편에서 신들을 관찰하고 가르치는 신비로운 스핑크스입니다.\n\n새로운 카드 뒷면을 얻을 수 있습니다.
+CARD_BACK_KHALIM.marketDescription;지단 기사단의 신동이라 불리는 칼림은 스승들의 명령을 어기고 전쟁에 뛰어듭니다.\n\n새로운 카드 뒷면을 얻을 수 있습니다.
+CARD_BACK_KROG.marketDescription;크로그는 자신이 오우거 왕이라 생각합니다. 다른 이들은 아무도 그렇게 생각하지 않습니다.\n\n새로운 카드 뒷면을 얻을 수 있습니다.
+CARD_BACK_MAGDA.marketDescription;세상의 제일 위대한 전설들도 마그다 여왕의 말판 위에서 움직이는 장기말에 불과합니다.\n\n새로운 카드 뒷면을 얻을 수 있습니다.
+CARD_BACK_MOSAIC_FLOWER.marketDescription;이 모자이크 카드 뒷면은 한장 당 100마리 갓파들이 하루 종일 만들어야 합니다. 덱 하나당 30일이네요.\n\n새로운 카드 뒷면을 얻을 수 있습니다.
+CARD_BACK_MOSAIC_SOLAR.marketDescription;이 모자이크 카드 뒷면은 한장 당 100마리 갓파들이 하루 종일 만들어야 합니다. 덱 하나당 30일이네요.\n\n새로운 카드 뒷면을 얻을 수 있습니다.
+CARD_BACK_MUCHA.marketDescription;새로운 카드 뒷면을 얻을 수 있습니다.
+CARD_BACK_RAPALA.marketDescription;세상이 불타오르는 걸 보고 싶어하는 물고기들도 있습니다.\n\n새로운 카드 뒷면을 얻을 수 있습니다.
+CARD_BACK_RUUNIN.marketDescription;루닌은 죽지 않는 자연의 수호자입니다. 루닌은 그녀가 알고 있는 어떤 친구보다도 오랫동안 살아왔습니다.\n\n새로운 카드 뒷면을 얻을 수 있습니다.
+CARD_BACK_SEIFER.marketDescription;사이퍼는 무너진 왕국의 잿더미와 함께 자신의 이름을 불태웠습니다. 악마들을 정복하고 악마의 힘을 얻은 그는, 적들의 비명소리를 듣는 것을 무엇보다도 좋아합니다.\n\n새로운 카드 뒷면을 얻을 수 있습니다.
+CARD_BACK_SHARRA.marketDescription;어린 시절, 샤라의 두려움은 그녀의 고향과 함께 불타버렸습니다.\n\n새로운 카드 뒷면을 얻을 수 있습니다.
+CARD_BACK_TARUM.marketDescription;타룸은 세계에 심어진 첫 번째 씨앗입니다. 그는 용들의 탄생과 고대신들의 몰락을 지켜보았습니다. 새로운 카드 뒷면을 얻을 수 있습니다.
+CORE_SET_FULL.marketDescription;경쟁을 위한 최고의 패키지: 모든 가능한 전략을 구사할 수 있도록 코어 세트의 모든 카드들을 제공합니다. 또한, 지금까지 구매하거나 개봉한 모든 전리품 상자 하나당 1000골드를 지급합니다.
+CORE_SET_FULL.marketName;코어 세트
+DECK_SLOT_5.marketDescription;덱 슬롯은 전략가들의 가장 친한 동반자죠.\n이 상품을 사게 되면 보유 가능한 덱 최대 갯수가 5개 늘어납니다. 영원히.
+DECK_SLOT_5.marketName;덱 슬롯 5개
+DECK_SLOT_5.marketShortDescription;새로운 덱 슬롯 5개!
+DREAMHACK_SUMMER_2016_BUNDLE.marketDescription;전리품 상자 4개와 판도라 코인 5개
+DREAMHACK_SUMMER_2016_BUNDLE.marketName;Dreamhack 번들
+EARLY_ACCESS_BUNDLE.marketDescription;전리품 상자 20개, 판도라 코인 10개, 한정판 아바타와 오브.
+EARLY_ACCESS_BUNDLE.marketName;얼리 액세스 번들
+EMOTE_AURORA_GREETINGS.marketName;오로라 감정표현 1
+EMOTE_AURORA_OOPS.marketName;오로라 감정표현 5
+EMOTE_AURORA_TAUNT.marketName;오로라 감정표현 2
+EMOTE_AURORA_UNIQUE.marketName;오로라 감정표현 6
+EMOTE_AURORA_WELL_PLAYED.marketName;오로라 감정표현 3
+EMOTE_AURORA_WOW.marketName;오로라 감정표현 4
+EMOTE_SEIFER_GREETINGS.marketName;사이퍼 감정표현 1
+EMOTE_SEIFER_OOPS.marketName;사이퍼 감정표현 5
+EMOTE_SEIFER_TAUNT.marketName;사이퍼 감정표현 2
+EMOTE_SEIFER_UNIQUE.marketName;사이퍼 감정표현 6
+EMOTE_SEIFER_WELL_PLAYED.marketName;사이퍼 감정표현 3
+EMOTE_SEIFER_WOW.marketName;사이퍼 감정표현 4
+EMOTE_SHARRA_GREETINGS.marketName;샤라 감정표현 1
+EMOTE_SHARRA_OOPS.marketName;샤라 감정표현 5
+EMOTE_SHARRA_TAUNT.marketName;샤라 감정표현 2
+EMOTE_SHARRA_UNIQUE.marketName;샤라 감정표현 6
+EMOTE_SHARRA_WELL_PLAYED.marketName;샤라 감정표현 3
+EMOTE_SHARRA_WOW.marketName;샤라 감정표현 4
+G2A_BUNDLE.marketDescription;전리품 상자 20개, 판도라 코인 10개, 한정판 아바타와 오브.
+G2A_BUNDLE.marketName;G2A 번들
+GEM_STARTER_BUNDLE.marketDescription;5000젬, 신화 상자 1개, 전설 카드 1장(현재 가능한 전설 카드를 모두 가지고 있다면, 같은 가치의 샤드로 대체됩니다)이 들어있습니다. 1번만 구매할 수 있습니다.
+GEM_STARTER_BUNDLE.marketName;젬 스타터 팩
+GEM_STARTER_BUNDLE.marketShortDescription;젬, 치장 아이템, 전설 카드가 들어 있습니다!
+GOLD_100.marketDescription;골드로 상점에서 아이템을 구매할 수 있습니다.
+GOLD_100.marketName;100 골드
+GOLD_1000.marketDescription;골드로 상점에서 아이템을 구매할 수 있습니다.
+GOLD_1000.marketName;1000 골드
+GOLD_250.marketDescription;골드로 상점에서 아이템을 구매할 수 있습니다.
+GOLD_250.marketName;250 골드
+GOLD_2500.marketDescription;골드로 상점에서 아이템을 구매할 수 있습니다.
+GOLD_2500.marketName;2500 골드
+GOLD_500.marketDescription;골드로 상점에서 아이템을 구매할 수 있습니다.
+GOLD_500.marketName;500 골드
+GOLD_5000.marketDescription;골드로 상점에서 아이템을 구매할 수 있습니다.
+GOLD_5000.marketName;5000 골드
+LINK_AVATAR.marketName;링크 아바타 탭
+LINK_AVATAR.sliderDescription;새로운 아바타를 찾아보세요.
+LINK_BUNDLE.marketName;링크 번들 탭
+LINK_BUNDLE.sliderDescription;저렴한 가격에 제공되는 번들 상품을 확인하세요!
+LINK_CARD_BACK.marketName;링크 카드 뒷면 탭
+LINK_CARD_BACK.sliderDescription;여러분의 카드들을 멋진 뒷면으로 장식하세요.
+LINK_ORB.marketName;링크 오브 탭
+LINK_ORB.sliderDescription;아바타가 들어갈 새로운 오브를 구입하세요.
+LINK_WELL.marketName;링크 우물 탭
+LINK_WELL.sliderDescription;내 보드를 색다른 우물로 장식하세요.
+MEMORIA_100.marketDescription;메모리아로 카드를 제작할수 있습니다.
+MEMORIA_100.marketName;100 메모리아
+MEMORIA_1600.marketDescription;메모리아로 카드를 제작할수 있습니다.
+MEMORIA_1600.marketName;1600 메모리아
+MEMORIA_20.marketDescription;메모리아로 카드를 제작할수 있습니다.
+MEMORIA_20.marketName;20 메모리아
+MEMORIA_320.marketDescription;메모리아로 카드를 제작할수 있습니다.
+MEMORIA_320.marketName;320 메모리아
+MEMORIA_3200.marketDescription;메모리아로 카드를 제작할수 있습니다..
+MEMORIA_3200.marketName;3000 메모리아
+MEMORIA_400.marketDescription;메모리아로 카드를 제작할수 있습니다.
+MEMORIA_400.marketName;400 메모리아
+MEMORIA_5.marketDescription;메모리아로 카드를 제작할수 있습니다.
+MEMORIA_5.marketName;5 메모리아
+MEMORIA_50.marketDescription;메모리아로 카드를 제작할수 있습니다.
+MEMORIA_50.marketName;50 메모리아
+MEMORIA_80.marketDescription;메모리아로 카드를 제작할수 있습니다.
+MEMORIA_80.marketName;80 메모리아
+ONE_MONTH_ANNUITY.marketDescription;고키는 한 달동안 매일 당신을 위해 광산을 돌아다닐 거예요. 무조건 350샤드 이상, 가끔 그것보다 훠얼씬 더! 또한 고키를 고용하면, 고용 포상으로 6000샤드를 바로 받을 수 있답니다.
+ONE_MONTH_ANNUITY.marketName;모험심 강한 광부 고키
+ONE_MONTH_ANNUITY.marketShortDescription;넘쳐흐르는 금화!
+ORB_ADVENTURER.marketDescription;창공을 여행하는 젊은 후고로의 행적을 따라가세요!\n\n새로운 오브를 얻을 수 있습니다.
+ORB_ARCANE.marketDescription;페어리아 우물에서 나온 돌로 만들어졌습니다. 이 오브는 우주의 비밀을 알고 싶어하는 신들이 좋아합니다. \n\n새로운 오브를 얻을 수 있습니다.
+ORB_ARCANE.marketName;신비의 오브
+ORB_AURORA.marketDescription;오로라는 미래의 영웅들을 가르치거나 새로운 차 맛을 보는 것을 좋아합니다.\n\n새로운 오브를 얻을 수 있습니다.
+ORB_BOMB_SLINGER.marketDescription;숨쉬는 것보다 숨쉴 공기를 가져가는 폭탄을 더 좋아하는 좋아하는 신들이 좋아합니다.\n\n새로운 오브를 얻을 수 있습니다.
+ORB_DRAGON.marketDescription;드래곤 오브는 용들이 고대 거인들의 혼돈으로부터 세상을 구한 징표로 세워진 기념물입니다. 전쟁에서 승리한 위대한 네 용이 함께 이 오브를 만들었습니다.\n\n새로운 오브를 얻을 수 있습니다.
+ORB_FUGORO.marketDescription;후고로는 세상에서 제일 용감한 상인입니다. 그는 오로세이가 지키고 있는 판도라에 보물을 훔치러 자주 숨어 들어갑니다.\n\n새로운 오브를 얻을 수 있습니다.
+ORB_GAEA.marketDescription;가이아의 축복으로 가득 찬 이 오브의 덩굴로 만든 물약을 마시면 영원한 젊음을 얻을 수 있습니다.\n\n새로운 오브를 얻을 수 있습니다.
+ORB_GIANTS.marketDescription;고대 거인들이 사용하던 첫번째 돌들로 만들어졌습니다. 필멸자들에게는 잊혀진 수많은 전쟁을 겪어온 오래된 신들이 이 오브를 좋아합니다.\n\n새로운 오브를 얻을 수 있습니다.
+ORB_GIANTS.marketName;거인 오브
+ORB_HOAKA.marketDescription;전장의 지배자인 호아카는 매번 새로운 전략을 개발하지 않았다면 정말로 무적이 되었을 겁니다.\n\n새로운 오브를 얻을 수 있습니다.
+ORB_JALMYR.marketDescription;우주 저편에서 신들을 관찰하고 가르치는 신비로운 스핑크스입니다.\n\n새로운 오브를 얻을 수 있습니다.
+ORB_KHALIM.marketDescription;지단 기사단의 신동이라 불리는 칼림은 스승들의 명령을 어기고 전쟁에 뛰어듭니다.\n\n새로운 오브를 얻을 수 있습니다.
+ORB_KROG.marketDescription;크로그는 자신이 오우거 왕이라 생각합니다. 다른 이들은 아무도 그렇게 생각하지 않습니다.\n\n새로운 오브를 얻을 수 있습니다.
+ORB_MAGDA.marketDescription;세상의 제일 위대한 전설들도 마그다 여왕의 말판 위에서 움직이는 장기말에 불과합니다.\n\n새로운 오브를 얻을 수 있습니다.
+ORB_PACK.marketDescription;킥스타터 후원자 한정 오브.
+ORB_PACK.marketName;킥스타터 후원자 한정 오브
+ORB_POWER.marketDescription;오래된 페어리아 우물로 만들어졌습니다. 이 오브는 새롭게 태어난 신들이 페어리아의 힘을 받아들이는 것을 돕습니다.\n\n새로운 오브를 얻을 수 있습니다.
+ORB_RAPALA.marketDescription;세상이 불타오르는 걸 보고 싶어하는 물고기들도 있습니다.\n\n새로운 오브를 얻을 수 있습니다.
+ORB_RUUNIN.marketDescription;루닌은 죽지 않는 자연의 수호자입니다. 루닌은 그녀가 알고 있는 어떤 친구보다도 오랫동안 살아왔습니다.\n\n새로운 오브를 얻을 수 있습니다.
+ORB_SEIFER.marketDescription;사이퍼는 무너진 왕국의 잿더미와 함께 자신의 이름을 불태웠습니다. 악마들을 정복하고 악마의 힘을 얻은 그는, 적들의 비명소리를 듣는 것을 무엇보다도 좋아합니다.\n\n새로운 오브를 얻을 수 있습니다.
+ORB_SHARRA.marketDescription;어린 시절, 샤라의 두려움은 그녀의 고향과 함께 불타버렸습니다.\n\n새로운 오브를 얻을 수 있습니다.
+ORB_TARUM.marketDescription;타룸은 세계에 심어진 첫 번째 씨앗입니다. 그는 용들의 탄생과 고대신들의 몰락을 지켜보았습니다. 새로운 오브를 얻을 수 있습니다.
+ORB_VALOR.marketDescription;고대 거인들이 사용하던 최초의 돌들로 만들어졌습니다. 창조의 탄생을 지켜본 오래 된 신들이 좋아합니다. \n\n새로운 오브를 얻을 수 있습니다.
+ORB_VALOR.marketName;용기의 오브
+OVERSKY_ISLE_02.marketDescription;<color=white>울라니의 땅</color>을 탐험해 창공에서 제일 가는 주술사를 만나세요! 이 섬에서는 <color=white>협동 미션 4개</color>, <color=white>창공 카드 7장</color>, 협동 미션을 도울 <color=white>특별한 동료</color>와 (모험 보따리 보유시)<color=white>모험 보따리 보너스 포인트</color>를 얻을 수 있습니다!
+OVERSKY_ISLE_02.marketName;울라니의 땅 섬 번들
+OVERSKY_ISLE_03.marketDescription;<color=white>위습빛 폭포</color>을 탐험해 야킨턴 경과 함께 정령들의 비밀을 조사하세요! 이 섬에서는 <color=white>협동 미션 4개</color>, <color=white>창공 카드 7장</color>, 협동 미션을 도울 <color=white>특별한 동료</color>와 (모험 보따리 보유시)<color=white>모험 보따리 보너스 포인트</color>를 얻을 수 있습니다!
+OVERSKY_ISLE_03.marketName;위습빛 폭포 섬 번들
+OVERSKY_ISLE_04.marketDescription;<color=white>해적 소굴</color>을 탐험해 하늘의 기계 해적 CAP-10에게 도전하세요! 이 섬에서는 <color=white>협동 미션 4개</color>, <color=white>창공 카드 8장</color>, 협동 미션을 도울 <color=white>특별한 동료</color>와 (모험 보따리 보유시)<color=white>모험 보따리 보너스 포인트</color>를 얻을 수 있습니다!
+OVERSKY_ISLE_04.marketName;해적 소굴 섬 번들
+OVERSKY_ISLE_05.marketDescription;<color=white>가이아의 배꼽</color>에는 영생의 나무가 있습니다! 이 섬에서는 <color=white>협동 미션 4개</color>, <color=white>창공 카드 8장</color>, 협동 미션을 도울 <color=white>특별한 동료</color>와 (모험 보따리 보유시)<color=white>모험 보따리 보너스 포인트</color>를 얻을 수 있습니다!
+OVERSKY_ISLE_05.marketName;가이아의 배꼽
+OVERSKY_ISLE_BUNDLE.marketDescription;창공의 <color=white>모든 섬</color>을 탐험하세요! 이 상품을 구매하면 <color=white>협동 미션 16개</color>, <color=white>모든 창공 카드</color>, (모험 보따리 보유시)<color=white>모험 보따리 보너스 포인트</color>를 얻을 수 있습니다!
+OVERSKY_ISLE_BUNDLE.marketName;창공 섬 번들
+OVERSKY_PIONEER_BUNDLE.marketDescription;<color=white>모험 보따리</color>를 구매해 <color=white>신화 상자</color> 하나를 무료로 받으세요. 그리고 모험 보따리 보유자 한정 <color=white>황제의 시련</color>에 도전할 수 있습니다!
+OVERSKY_PIONEER_BUNDLE.marketName;개척자 보따리
+OVERSKY_SUPPORTER_BUNDLE.marketDescription;창공의 <color=white>모든 섬</color>을 탐험하고, 모험 보따리도 함께 얻으세요! 이 상품에는 <color=white>협동 미션 16개</color>, <color=white>특별 보상</color>, <color=white>모험 보따리</color>, <color=white>매일 바뀌는 황제의 시련</color>, 무료 신화 상자 1개와 <color=white>모험가 치장 아이템 세트</color>가 포함되어 있습니다.
+OVERSKY_SUPPORTER_BUNDLE.marketName;후원자 보따리
+PINK_CHEST_1.marketDescription;신화 상자에는 신화 아이템이 네 개 들어있습니다. 신화 아이템은 신화 카드 또는 치장 아이템입니다.
+PINK_CHEST_1.marketName;신화 상자 1개
+PINK_CHEST_1.marketShortDescription;신화 아이템 4개!
+PINK_CHEST_11.marketDescription;신화 상자에는 신화 아이템이 네 개 들어있습니다. 신화 아이템은 신화 카드 또는 치장 아이템입니다.
+PINK_CHEST_11.marketName;신화 상자 11개
+PINK_CHEST_2.marketDescription;신화 상자에는 신화 아이템이 네 개 들어있습니다. 신화 아이템은 신화 카드 또는 치장 아이템입니다.
+PINK_CHEST_2.marketName;신화 상자 2개
+PINK_CHEST_20.marketDescription;신화 상자에는 신화 아이템이 네 개 들어있습니다. 신화 아이템은 신화 카드 또는 치장 아이템입니다.
+PINK_CHEST_20.marketName;신화 상자 20개
+PINK_CHEST_25.marketDescription;신화 상자에는 신화 아이템이 네 개 들어있습니다. 신화 아이템은 신화 카드 또는 치장 아이템입니다.
+PINK_CHEST_25.marketName;신화 상자 25개
+PINK_CHEST_4.marketDescription;신화 상자에는 신화 아이템이 네 개 들어있습니다. 신화 아이템은 신화 카드 또는 치장 아이템입니다.
+PINK_CHEST_4.marketName;신화 상자 4개
+PRESS_BUNDLE.marketDescription;전리품 상자 4개와 판도라 코인 2개.
+PRESS_BUNDLE.marketName;프레스 번들
+PRESS_BUNDLE.marketShortDescription;소지품을 확장하세요.
+SHORE_OVERSKY_CORRUPT.marketName;창공의 오염된 해안가
+SHORE_OVERSKY_DAY.marketName;창공의 낮 배경
+SHORE_OVERSKY_NIGHT.marketName;창공의 밤 배경
+WELL_ADVENTURER.marketDescription;창공을 여행하는 젊은 후고로의 행적을 따라가세요!\n\n새로운 우물 한 쌍을 얻을 수 있습니다.
+WELL_ARCANE.marketDescription;페어리아 우물에서 나온 돌로 만들어졌습니다. 이 오브는 우주의 비밀을 알고 싶어하는 신들이 좋아합니다. \n\n새로운 우물 한 쌍을 얻을 수 있습니다.
+WELL_AURORA.marketDescription;오로라는 미래의 영웅들을 가르치거나 새로운 차 맛을 보는 것을 좋아합니다.\n\n새로운 우물 한 쌍을 얻을 수 있습니다.
+WELL_BOMB_SLINGER.marketDescription;숨쉬는 것보다 숨쉴 공기를 가져가는 폭탄을 더 좋아하는 좋아하는 신들이 좋아합니다.\n\n새로운 우물 한 쌍을 얻을 수 있습니다.
+WELL_CARNIVOROUS_PLANT.marketDescription;배고픈 꽃들이 페어리아 못 근처에 피었습니다. 페어리아를 노리는 먹잇감을 기다립니다.\n\n새로운 우물 한 쌍을 얻을 수 있습니다.
+WELL_FUGORO.marketDescription;후고로는 세상에서 제일 용감한 상인입니다. 그는 오로세이가 지키고 있는 판도라에 보물을 훔치러 자주 숨어 들어갑니다.\n\n새로운 우물 한 쌍을 얻을 수 있습니다.
+WELL_GABRIA.marketDescription;게이브리아의 건축물은 항상 균형을 중시합니다.\n\n새로운 우물 한 쌍을 얻을 수 있습니다.
+WELL_HOAKA.marketDescription;전장의 지배자인 호아카는 매번 새로운 전략을 개발하지 않았다면 정말로 무적이 되었을 겁니다.\n\n새로운 우물 한 쌍을 얻을 수 있습니다.
+WELL_JALMYR.marketDescription;우주 저편에서 신들을 관찰하고 가르치는 신비로운 스핑크스입니다.\n\n새로운 우물 한 쌍을 얻을 수 있습니다.
+WELL_KHALIM.marketDescription;지단 기사단의 신동이라 불리는 칼림은 스승들의 명령을 어기고 전쟁에 뛰어듭니다.\n\n새로운 우물 한 쌍을 얻을 수 있습니다.
+WELL_KROG.marketDescription;크로그는 자신이 오우거 왕이라 생각합니다. 다른 이들은 아무도 그렇게 생각하지 않습니다.\n\n새로운 우물 한 쌍을 얻을 수 있습니다.
+WELL_MAGDA.marketDescription;세상의 제일 위대한 전설들도 마그다 여왕의 말판 위에서 움직이는 장기말에 불과합니다.\n\n새로운 우물 한 쌍을 얻을 수 있습니다.
+WELL_RAPALA.marketDescription;세상이 불타오르는 걸 보고 싶어하는 물고기들도 있습니다.\n\n새로운 우물 한 쌍을 얻을 수 있습니다.
+WELL_RUUNIN.marketDescription;루닌은 죽지 않는 자연의 수호자입니다. 루닌은 그녀가 알고 있는 어떤 친구보다도 오랫동안 살아왔습니다.\n\n새로운 우물 한 쌍을 얻을 수 있습니다.
+WELL_SEIFER.marketDescription;사이퍼는 무너진 왕국의 잿더미와 함께 자신의 이름을 불태웠습니다. 악마들을 정복하고 악마의 힘을 얻은 그는, 적들의 비명소리를 듣는 것을 무엇보다도 좋아합니다.\n\n새로운 우물 한 쌍을 얻을 수 있습니다.
+WELL_SHARRA.marketDescription;어린 시절, 샤라의 두려움은 그녀의 고향과 함께 불타버렸습니다.\n\n새로운 우물을 얻을 수 있습니다.
+WELL_TARUM.marketDescription;타룸은 세계에 심어진 첫 번째 씨앗입니다. 그는 용들의 탄생과 고대신들의 몰락을 지켜보았습니다. 새로운 우물 한 쌍을 얻을 수 있습니다.
+WILD_ACT_1.marketDescription;미션 7개 구성. 미션을 완료하면 2에서 3레벨이 오를 정도 경험치를 제공합니다.\n팩 안에 들어있는 미션은 무작위로 선택됩니다.
+WILD_ACT_1.marketName;무작위 미션 팩
+WILD_ACT_10.marketDescription;미션 7개 구성. 미션을 완료하면 2에서 3레벨이 오를 정도 경험치를 제공합니다.\n팩 안에 들어있는 미션은 무작위로 선택됩니다.
+WILD_ACT_10.marketName;무작위 미션 팩
+WILD_ACT_11.marketDescription;미션 7개 구성. 미션을 완료하면 2에서 3레벨이 오를 정도 경험치를 제공합니다.\n팩 안에 들어있는 미션은 무작위로 선택됩니다.
+WILD_ACT_11.marketName;무작위 미션 팩
+WILD_ACT_12.marketDescription;미션 7개 구성. 미션을 완료하면 2에서 3레벨이 오를 정도 경험치를 제공합니다.\n팩 안에 들어있는 미션은 무작위로 선택됩니다.
+WILD_ACT_12.marketName;무작위 미션 팩
+WILD_ACT_13.marketDescription;미션 7개 구성. 미션을 완료하면 2에서 3레벨이 오를 정도 경험치를 제공합니다.\n팩 안에 들어있는 미션은 무작위로 선택됩니다.
+WILD_ACT_13.marketName;무작위 미션 팩
+WILD_ACT_14.marketDescription;미션 7개 구성. 미션을 완료하면 2에서 3레벨이 오를 정도 경험치를 제공합니다.\n팩 안에 들어있는 미션은 무작위로 선택됩니다.
+WILD_ACT_14.marketName;무작위 미션 팩
+WILD_ACT_15.marketDescription;미션 7개 구성. 미션을 완료하면 2에서 3레벨이 오를 정도 경험치를 제공합니다.\n팩 안에 들어있는 미션은 무작위로 선택됩니다.
+WILD_ACT_15.marketName;무작위 미션 팩
+WILD_ACT_2.marketDescription;미션 7개 구성. 미션을 완료하면 2에서 3레벨이 오를 정도 경험치를 제공합니다.\n팩 안에 들어있는 미션은 무작위로 선택됩니다.
+WILD_ACT_2.marketName;무작위 미션 팩
+WILD_ACT_3.marketDescription;미션 7개 구성. 미션을 완료하면 2에서 3레벨이 오를 정도 경험치를 제공합니다.\n팩 안에 들어있는 미션은 무작위로 선택됩니다.
+WILD_ACT_3.marketName;무작위 미션 팩
+WILD_ACT_4.marketDescription;미션 7개 구성. 미션을 완료하면 2에서 3레벨이 오를 정도 경험치를 제공합니다.\n팩 안에 들어있는 미션은 무작위로 선택됩니다.
+WILD_ACT_4.marketName;무작위 미션 팩
+WILD_ACT_5.marketDescription;미션 7개 구성. 미션을 완료하면 2에서 3레벨이 오를 정도 경험치를 제공합니다.\n팩 안에 들어있는 미션은 무작위로 선택됩니다.
+WILD_ACT_5.marketName;무작위 미션 팩
+WILD_ACT_6.marketDescription;미션 7개 구성. 미션을 완료하면 2에서 3레벨이 오를 정도 경험치를 제공합니다.\n팩 안에 들어있는 미션은 무작위로 선택됩니다.
+WILD_ACT_6.marketName;무작위 미션 팩
+WILD_ACT_7.marketDescription;미션 7개 구성. 미션을 완료하면 2에서 3레벨이 오를 정도 경험치를 제공합니다.\n팩 안에 들어있는 미션은 무작위로 선택됩니다.
+WILD_ACT_7.marketName;무작위 미션 팩
+WILD_ACT_8.marketDescription;미션 7개 구성. 미션을 완료하면 2에서 3레벨이 오를 정도 경험치를 제공합니다.\n팩 안에 들어있는 미션은 무작위로 선택됩니다.
+WILD_ACT_8.marketName;무작위 미션 팩
+WILD_ACT_9.marketDescription;미션 7개 구성. 미션을 완료하면 2에서 3레벨이 오를 정도 경험치를 제공합니다.\n팩 안에 들어있는 미션은 무작위로 선택됩니다.
+WILD_ACT_9.marketName;무작위 미션 팩
+AVATAR_AURORA_DARK.marketDescription;그대가 악몽을 오랫동안 응시한다면, 악몽 또한 그대를 응시한다네.\n\n새로운 오브를 얻을 수 있습니다.
+AVATAR_AURORA_HIPPIE.marketDescription;평화만이 유일하게 추구해야 할 꿈이지.\n\n새로운 아바타를 얻을 수 있습니다.
+AVATAR_EXPLORER_BLUE.marketDescription;깊고 푸른 바다, 사파이어 후미, 터키석 만을 탐험하는 자여.\n\n새로운 오브를 얻을 수 있습니다.
+AVATAR_EXPLORER_PINK.marketDescription;이국 땅, 이상한 문화, 외국인을 만나는 자여.\n\n새로운 오브를 얻을 수 있습니다.
+AVATAR_FUGORO_RAINBOW.marketDescription;꿈 속 세상에서 너무 많은 시간을 보내면 그 꿈이 자네에게 조금 달라 붙겠지. 무지개는 씻어내기 어렵다네.\n\n새로운 오브를 얻을 수 있습니다.
+AVATAR_KAIOS_CORRUPTED.marketDescription;아무리 황제만큼 강하고 단호한 정신을 가지고 있더라도 필멸의 정신은 영생의 열매에 함유된 순수한 페어리아를 견뎌낼 수 없다네.\n\n새로운 오브를 얻을 수 있습니다.
+AVATAR_KELDRAN_EMISSARY_BLUE.marketDescription;가장 연로하고 헌신적인 전령이 열린 하늘에 대한 신앙심을 표현하기 위해 푸른 옷을 입는다.\n\n새로운 오브를 얻을 수 있습니다.
+AVATAR_KHALIM_BLACK.marketDescription;많은 어린 전사들이 전투를 준비하고 있으나, 전쟁이 뭔지 알지 못한다. 검을 다루기는 쉬우나, 국가를 원하는 방향으로 이끄는 건 모래바람이 가는 길을 바꾸는 것보다 어렵다.\n\n새로운 오브를 얻을 수 있습니다.
+AVATAR_KHALIM_SUNGLASSES.marketDescription;우리에게는 말도, 배도, 강철 기계도 필요하지 않다. 우리는 하늘을 오르고, 폭풍을 탄다!\n\n새로운 오브를 얻을 수 있습니다.
+AVATAR_KINGS_GUARD_SILVER.marketDescription;의무를 이행하다 부상당한 근위병은 영원한 헌신과 충성의 표시로 은이 새겨진 갑옷을 받게 될 것이다.\n\n새로운 오브를 얻을 수 있습니다.
+AVATAR_KOBOLD_MERCENARY_GOLD.marketDescription;몇몇 용병들은 다른 이들보다 성공적이었는데, 코볼트 사회의 다른 것과 마찬가지로, 그 척도는 금무더기의 크기였다.\n\n새로운 오브를 얻을 수 있습니다.
+AVATAR_KROG_BIKER.marketDescription;크로그 빠르게 달리면, 모두 크로그 따라온다. 모두 크로그 따라와야 한다.\n\n새로운 오브를 얻을 수 있습니다.
+AVATAR_KROG_SUIT.marketDescription;크로그 원하는 직업 위해 옷 입었다. 크로그 돈 되고 싶다. 크로그가 이제 돈이다!\n\n새로운 오브를 얻을 수 있습니다.
+AVATAR_MAGDA_SECRETARY.marketDescription;지식이 힘이라는 걸 아는 여왕은 그녀의 계획을 진행시키기 위해 낮과 밤을 도서관에서 보내는 걸 주저하지 않습니다.\n\n새로운 오브를 얻을 수 있습니다.
+AVATAR_OGRE_BATTLER_BLUE.marketDescription;오우거는 적의 힘을 인정하기에 종종 그들이 죽인 자의 옷을 입거나 무늬를 그림으로서 예를 표합니다.\n\n새로운 오브를 얻을 수 있습니다.
+AVATAR_RAIZEON_ALTERED.marketDescription;모든 색의 주인인 이 존재는 그의 영역에 들어오는 자들을 시험합니다.\n\n새로운 오브를 얻을 수 있습니다.
+AVATAR_RUUNIN_BLACK.marketDescription;그림자에서 태어나, 흑단을 달리며, 언제나 사냥하는, 공허의 눈.\n\n새로운 오브를 얻을 수 있습니다.
+AVATAR_SEIFER_SUNGLASSES.marketDescription;치즈 하세요!\n\n새로운 오브를 얻을 수 있습니다.
+AVATAR_SHARRA_HAT.marketDescription;나도 넣어주세요, 코치님. 스윙 잘 친다구요! \n \n새로운 오브를 얻을 수 있습니다.
+AVATAR_SHARRA_PINK.marketDescription;용을 죽이는 게 좋아 보이네요.\n\n새로운 오브를 얻을 수 있습니다.
+AVATAR_SHAYTAN_ASSASSIN_BLUE.marketDescription;푸른 교단은 샤이탄 암살자들 중에서도 가장 치명적이고 희귀한 집단입니다. 그들의 유일한 목표물은 샤이탄에게 그들의 물음에 대한 신성한 정수를 제공해주는 신들입니다.\n\n새로운 오브를 얻을 수 있습니다.
+AVATAR_TARUM_EVIL.marketDescription;그의 숲이 벌목되고 불타는 바람에 고향에서 쫓겨났습니다. 이 일이 조금 더 일찍 일어나지 않은 게 놀랍네요.\n\n새로운 오브를 얻을 수 있습니다.
+AVATAR_VERDURAN_FORCE_GREY.marketDescription;계절이 바뀌면서 드리야드도 바뀝니다. 작은 이파리에서 거대한 참나무로요.\n\n새로운 오브를 얻을 수 있습니다.
+AVATAR_WISP_RAINBOW.marketDescription;이 위습이 하늘에 무지개를 가져오는지 없어질 때 그 정수를 가져가는지 아무도 모릅니다.\n\n새로운 오브를 얻을 수 있습니다.
+AVATAR_WISP_WHITE.marketDescription;이 반짝이는 영혼은 칠흑같은 밤에 빛을 나누기 위해 낮에 빛을 모읍니다.\n\n새로운 아바타를 얻을 수 있습니다.
+AVATAR_YAK_SHEPHERD.marketDescription;사일랜드의 초원에서 야크를 모는 것보다 평화로운 직업은 없습니다. 심지어 야만인들조차 폴짝거리는 발굽으로부터 떨어져 있어야 한다는 걸 압니다.\n\n새로운 아바타를 얻을 수 있습니다.
+CARD_BACK_FALL_OF_EVERLIFE.marketDescription;황제가 당신 덱의 카드까지 오염시켰습니다.\n\n새로운 카드 뒷면을 얻을 수 있습니다.
+CARD_BACK_MOSAIC_FLOWER_GREEN.marketDescription;이 모자이크 카드 뒷면은 한장 당 100마리 갓파들이 하루 종일 만들어야 합니다. 덱 하나당 30일이네요.\n\n새로운 카드 뒷면을 얻을 수 있습니다.
+CARD_BACK_MOSAIC_FLOWER_RED.marketDescription;이 모자이크 카드 뒷면은 한장 당 100마리 갓파들이 하루 종일 만들어야 합니다. 덱 하나당 30일이네요.\n\n새로운 카드 뒷면을 얻을 수 있습니다.
+CARD_BACK_MOSAIC_SOLAR_BLUE.marketDescription;이 모자이크 카드 뒷면은 한장 당 100마리 갓파들이 하루 종일 만들어야 합니다. 덱 하나당 30일이네요.\n\n새로운 카드 뒷면을 얻을 수 있습니다.
+CARD_BACK_MOSAIC_SOLAR_MAGENTA.marketDescription;이 모자이크 카드 뒷면은 한장 당 100마리 갓파들이 하루 종일 만들어야 합니다. 덱 하나당 30일이네요.\n\n새로운 카드 뒷면을 얻을 수 있습니다.
+CARD_BACK_MUCHA_GREEN.marketDescription;이 오래된 디자인은 첫 번째 라코아족까지 거슬러 올라갑니다. 색색의 모래로 정성들여 그렸죠. \n \n새로운 카드 뒷면을 얻을 수 있습니다.
+CARD_BACK_MUCHA_MAGENTA.marketDescription;이 오래된 디자인은 첫 번째 라코아족까지 거슬러 올라갑니다. 색색의 모래로 정성들여 그렸죠.\n\n새로운 카드 뒷면을 얻을 수 있습니다.
+ORB_ARCANE_GOLD.marketDescription;솔라리스의 심장부에서 발견된 페어리아 우물의 돌로 만들어졌습니다. 우주의 비밀을 밝혀내려는 신들이 좋아하는 오브죠.\n\n새로운 오브를 얻을 수 있습니다.
+ORB_ARCANE_PURPLE.marketDescription;판도라의 문 근처에서 발견된 페어리아 우물의 돌로 만들어졌습니다. 우주의 비밀을 밝혀내려는 신들이 좋아하는 오브죠.\n\n새 오브를 얻을 수 있습니다.
+ORB_ARCANE_RED.marketDescription;화산 속 용암 웅덩이에서 발견된 페어리아 우물의 돌로 만들어졌습니다. 우주의 비밀을 밝혀내려는 신들이 좋아하는 오브죠.\n\n새로운 오브를 얻을 수 있습니다.
+ORB_CRYSTAL_STONE.marketDescription;왜 청색 크리스탈이 이 오브 주변에 자라는지 모르겠지만, 그 힘을 강화시키는 것 같습니다.\n\n새로운 오브를 얻을 수 있습니다.
+ORB_CRYSTAL_STONE_GOLD.marketDescription;왜 황금 크리스탈이 이 오브 주변에 자라는지 모르겠지만, 그 힘을 강화시키는 것 같습니다.\n\n새로운 오브를 얻을 수 있습니다.
+ORB_CRYSTAL_STONE_PURPLE.marketDescription;왜 자색 크리스탈이 이 오브 주변에 자라는지 모르겠지만, 그 힘을 강화시키는 것 같습니다.\n\n새로운 오브를 얻을 수 있습니다.
+ORB_DRAGON_SILVER.marketDescription;용 오브는 용이 고대 거인들로부터 세계를 지켜냈을 시절의 유물입니다. 가장 위대한 네 마리 용은 전쟁에서 승리한 뒤 이 오브를 만들었습니다.\n\n새로운 오브를 얻을 수 있습니다.\n\n새로운 오브를 얻을 수 있습니다.
+ORB_FALL_OF_EVERLIFE.marketDescription;거대한 거미들은 오브에 잠재된 마법이 그들의 알이 건강히 성장하는 데 요긴하다는 걸 알았습니다. 거미들이 커지기만 하는 게 이제야 이해가 가네요.\n\n새로운 오브를 얻을 수 있습니다.
+ORB_HAND_ARCANE.marketDescription;고대 거인의 전설에 따르면, 그들은 간단히 손짓하고 돌입술로 속삭여서 세계를 빚어낼 수 있었다고 해요.\n\n새로운 오브를 얻을 수 있습니다.
+ORB_HAND_GRASP.marketDescription;모든 거인이 돌에서 태어나 살아남는 건 아니지만, 그들의 마법은 아직도 머물러 있답니다.\n\n새로운 오브를 얻을 수 있습니다.
+ORB_SPIDEREGG_GREEN.marketDescription;거대한 거미들은 오브에 잠재된 마법이 그들의 알이 건강히 성장하는 데 요긴하다는 걸 알았습니다. 거미들이 커지기만 하는 게 이제야 이해가 가네요.\n\n새로운 오브를 얻을 수 있습니다.
+ORB_SPIDEREGG_ORANGE.marketDescription;이 오브는 잔혹한 굶주림을 채우기 위해 죽은 자를 끌어들여 영원한 고통으로 묶어버립니다.\n\n새로운 오브를 얻을 수 있습니다.
+ORB_SPIDEREGG_RAINBOW.marketDescription;거대한 거미들은 오브에 잠재된 마법이 그들의 알이 건강히 성장하는 데 요긴하다는 걸 알았습니다. 거미들이 커지기만 하는 게 이제야 이해가 가네요.\n\n새로운 오브를 얻을 수 있습니다.
+ORB_STAR_CRYSTAL.marketDescription;태곳적 사람들은 오브 그 자체를 섬겼기에, 그들이 쉴 수 있는 아름다운 제단을 만들곤 했죠.\n\n새로운 오브를 얻을 수 있습니다.
+ORB_STAR_CRYSTAL_ORANGE.marketDescription;태곳적 사람들은 오브 그 자체를 섬겼기에, 그들이 쉴 수 있는 아름다운 제단을 만들곤 했죠.\n\n새로운 오브를 얻을 수 있습니다.
+ORB_STAR_CRYSTAL_PURPLE.marketDescription;태곳적 사람들은 오브 그 자체를 섬겼기에, 그들이 쉴 수 있는 아름다운 제단을 만들곤 했죠.\n\n새로운 오브를 얻을 수 있습니다.
+ORB_TRIBAL.marketDescription;열두 티키 부족 안에서 가장 강력한 주술사의 축복을 받았습니다.\n\n새로운 오브를 얻을 수 있습니다.
+ORB_VALOR_GREEN.marketDescription;고대 거인이 태어난 이끼 낀 돌로 만들어졌습니다. 이 오브는 창조물의 탄생을 지켜본 장로 신들이 선호합니다.\n\n새로운 오브를 얻을 수 있습니다.
+ORB_VALOR_MAGENTA.marketDescription;고대 거인이 태어난 피에 젖은 돌로 만들어졌습니다. 이 오브는 창조물의 탄생을 지켜본 장로 신들이 선호합니다.\n\n새로운 오브를 얻을 수 있습니다.
+ORB_VALOR_SILVER.marketDescription;고대 거인이 태어난 은빛 정맥이 흐르는 돌로 만들어졌습니다. 이 오브는 창조물의 탄생을 지켜본 장로 신들이 선호합니다.\n\n새로운 오브를 얻을 수 있습니다.
+WELL_ARCANE_GOLD.marketDescription;오래 전, 이 우물에 마법이 걸렸습니다. 그래서 섬뜩하고 기괴한 목적을 위해 페어리아를 생성하고 있습니다.\n\n새로운 우물을 얻을 수 있습니다.
+WELL_ARCANE_PURPLE.marketDescription;오래 전, 이 우물에 마법이 걸렸습니다. 그래서 섬뜩하고 기괴한 목적을 위해 페어리아를 생성하고 있습니다.\n\n새로운 우물을 얻을 수 있습니다.
+WELL_ARCANE_RED.marketDescription;오래 전, 이 우물에 마법이 걸렸습니다. 그래서 섬뜩하고 기괴한 목적을 위해 페어리아를 생성하고 있습니다.\n\n새로운 우물을 얻을 수 있습니다.
+WELL_FALL_OF_EVERLIFE.marketDescription;영생의 몰락이 뿌리를 통해 오염을 퍼뜨리고 있습니다. 땅 속 깊은 곳의 가장 순수한 페어리아조차 오염시키고 있습니다.\n\n새로운 우물을 얻을 수 있습니다.
+WELL_FLOATING_STONES.marketDescription;영공 하늘 곳곳에서 발견됩니다. 많은 사람들이 섬이 하늘을 떠다니는 이유가 이 우물때문으로 추정하고 있습니다.\n\n새로운 우물을 얻을 수 있습니다.
+WELL_ROOTS.marketDescription;살아 있는 것들 중 페어리아를 꾸준히 먹는 걸 갈망하지 않는 것은 없습니다.\n\n새로운 우물을 얻을 수 있습니다.
+WELL_RUNIC_BLUE.marketDescription;몇몇 페어리아 우물은 판도라의 영역을 살짝 스쳐가는 바람에 재물과 운명의 힘이 얽혀 있습니다.\n\n새 우물을 얻을 수 있습니다.
+WELL_RUNIC_GREEN.marketDescription;몇몇 페어리아 우물은 판도라의 영역을 살짝 스쳐가는 바람에 재물과 운명의 힘이 얽혀 있습니다.\n\n새 우물을 얻을 수 있습니다.
+WELL_RUNIC_RED.marketDescription;몇몇 페어리아 우물은 판도라의 영역을 살짝 스쳐가는 바람에 재물과 운명의 힘이 얽혀 있습니다.\n\n새 우물을 얻을 수 있습니다.
+WELL_RUNIC_YELLOW.marketDescription;몇몇 페어리아 우물은 판도라의 영역을 살짝 스쳐가는 바람에 재물과 운명의 힘이 얽혀 있습니다.\n\n새 우물을 얻을 수 있습니다.
+CARD_BACK_MOSAIC_YAK.marketDescription;알아볼 수 없는 야크의 고대 모자이크입니다.
+DLC_ELEMENTS.marketName;엘리먼츠 퍼즐 DLC
+DLC_ELEMENTS.marketDescription;엘리먼츠 퍼즐 팩에 포함된 40개의 새롭고 흥미로운 퍼즐들로 당신의 실력을 시험하세요. 퍼즐을 푸고 전용 카드 뒷면을 포함한 보상을 받으세요.

@@ -1,0 +1,5 @@
+DockId;Keyword;IsStoreId;NewsUrl;ImageName;[STEAM,GOLD]
+0;NEWS_ADDITIONAL_CONTENT;false;faeria://dlc_shop;DlcShop;GOLD
+1;NEWS_CROSSPLAY_TOURNAMENT;false;https://www.faeria.com/news/announcements/344-tournament;CrossPlayTournamentNews;
+2;NEWS_GAGANA;true;DLC4GAGANA000000;GaganaNews1;
+3;NEWS_GAGANA_CARDS;false;https://www.faeria.com/news/announcements/291-chronicles-of-gagana-cards;GaganaNews2;

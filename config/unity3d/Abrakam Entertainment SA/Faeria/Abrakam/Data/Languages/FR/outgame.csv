@@ -1,0 +1,167 @@
+CARD_ALREADY_OWNED_TOOLTIP_TEXT;Vous possédez {0} copies de cette carte.
+CARD_FILTER_CREATURE;Créature
+CARD_FILTER_EVENT;Évènement
+CARD_FILTER_FALL_OF_EVERLIFE;La Chute de l'Arbre d'Éternité
+CARD_FILTER_OVERSKY;Outreciel
+CARD_FILTER_STRUCTURE;Structure
+PANDORA_MYTHIC_RUN_NOT_ENOUGH_COINS_ERROR_TEXT;Vous n'avez pas assez de cristaux pour débuter ce type de série.
+PANDORA_MYTHIC_RUN_TOOLTIP_TEXT;Débutez une série mythique de Pandore. Remportez jusqu'à 6 victoires pour recevoir des cristaux.
+PANDORA_POINT_TOOLTIP_TEXT;Gagnez des points pour recevoir des récompenses à la fin de chaque saison.
+PANDORA_POP_UP_MULTI_PLAYER_TITLE_TEXT;Multi-joueur
+PANDORA_POP_UP_MYTHIC_MULTI_PLAYER_INFO_TEXT;Affrontez d'autres joueurs pour récupérer ENCORE PLUS de récompenses.
+PANDORA_POP_UP_MYTHIC_RUN_MULTI_PLAYER_TITLE_TEXT;Multi-joueur mythique
+PANDORA_POP_UP_MYTHIC_RUN_SINGLE_PLAYER_TITLE_TEXT;Solo mythique
+PANDORA_POP_UP_MYTHIC_SINGLE_PLAYER_INFO_TEXT;Combattez une IA de plus en plus forte pour recevoir des cristaux.
+PANDORA_POP_UP_SINGLE_PLAYER_TITLE_TEXT;Solo
+PANDORA_POP_UP_STANDARD_MULTI_PLAYER_INFO_TEXT;Affrontez d'autres joueurs pour récupérer ENCORE PLUS de récompenses.
+PANDORA_POP_UP_STANDARD_RUN_MULTI_PLAYER_TITLE_TEXT;Multi-joueur
+PANDORA_POP_UP_STANDARD_RUN_SINGLE_PLAYER_TITLE_TEXT;Solo
+PANDORA_POP_UP_STANDARD_SINGLE_PLAYER_INFO_TEXT;Combattez contre une IA de plus en plus forte pour récupérer des coffres de combat et des cartes.
+PANDORA_STANDARD_RUN_HAS_FULL_COLLECTION_ERROR_TEXT;Vous possédez déjà toutes les cartes disponibles. Vous ne pouvez donc plus commencer une série classique de Pandore.
+PANDORA_STANDARD_RUN_NOT_ENOUGH_CHEST_ERROR_TEXT;Vous ne possédez pas assez de coffres de combat pour débuter ce type de série.
+PANDORA_STANDARD_RUN_TOOLTIP_TEXT;Débutez une série classique de Pandore. Remportez jusqu'à 6 victoires pour recevoir des coffres de combat et des cartes en récompense.
+PURCHASE_PANEL_BUY_MISSING_SOFT_CURRENCY_TEXT;Acheter les {0} {1} qu'il manque ?
+PURCHASE_PANEL_GO_TO_SHOP_BUTTON_TEXT;Vers la boutique
+PURCHASE_PANEL_OUT_OF_CURRENCY_TEXT;Vous n'avez plus assez de {0}. Visitez la boutique pour y remédier.
+REWARD;Récompense
+REWARD_ACT;Pack de quêtes déverrouillé
+REWARD_ARENA_POINTS;{0}
+REWARD_AVATAR;Vous recevez un avatar
+REWARD_BLUEPRINT;Nouvelle Formule débloquée !
+REWARD_BOOSTER;{0}
+REWARD_CARD;Vous recevez {0} carte(s)
+REWARD_CARD_BACK;Nouveau dos de carte
+REWARD_EMOTE;Nouvelle emote
+REWARD_FEATURE_ARENA_ID;Vous avez débloqué le mode Pandore !
+REWARD_FEATURE_CRAFTING_ID;Vous avez débloqué l'artisanat !
+REWARD_FEATURE_EPIC_CRAFTING_ID;Vous avez débloqué l'artisanat épique !
+REWARD_FEATURE_HIGHLANDER_ID;Vous avez débloqué le mode Insurrection !
+REWARD_FEATURE_MAIN_MENU_ID;Vous avez débloqué l'éditeur de decks !
+REWARD_FEATURE_RANKED_ID;Vous avez débloqué le mode Classé !
+REWARD_FEATURE_RARE_CRAFTING_ID;Vous avez débloqué l'artisanat rare !
+REWARD_ORIGIN_ACCOUNTACTIVATED;Récompense de vérification du compte
+REWARD_ORIGIN_ANNUITY;Cristaux trouvé par Goki
+REWARD_ORIGIN_ARENA;Votre récompense
+REWARD_ORIGIN_CRAFT;Artisanat terminé !
+REWARD_ORIGIN_DAILYASSIGNMENT;Mission du jour
+REWARD_ORIGIN_DAILYQUEST;Quête quotidienne accomplie
+REWARD_ORIGIN_DEFEAT;Votre récompense
+REWARD_ORIGIN_DLCPREMIUM;Compte Premium
+REWARD_ORIGIN_DLCFALLOFEVERLIFE;La chute de l'Arbre d'Éternité
+REWARD_ORIGIN_EARLYACCESSBUNDLE;Lot accès anticipé
+REWARD_ORIGIN_FIRSTDAYVICTORY;Première victoire du jour
+REWARD_ORIGIN_HATCH;Éclosion d'œuf
+REWARD_ORIGIN_LADDERRESET;Récompense de réinitialisation de classement
+REWARD_ORIGIN_LEVEL;Récompense de niveau {0}
+REWARD_ORIGIN_LOYALTYPATCH;Récompense du Patch de la Loyauté
+REWARD_ORIGIN_MARKET;Achat terminé !
+REWARD_ORIGIN_POUCH;Récompense de la Besace de l'Aventurier
+REWARD_ORIGIN_QUEST;Récompense de mission
+REWARD_ORIGIN_RECRUITMENT;Recrutement
+REWARD_ORIGIN_SOLOOBJECTIVE;Objectif atteint
+REWARD_ORIGIN_STEAMPACK;Lot Steam
+REWARD_ORIGIN_VICTORY;Votre récompense
+REWARD_POUCH_POINTS;{0}
+REWARD_WELL;Nouveau puit à faeria
+TOURNAMENT_ALREADY_SIGNED_UP;Vous êtes inscrit.
+TOURNAMENT_DECK_ALREADY_PICKED;Ce deck est déjà sélectionné pour ce tournoi.
+TOURNAMENT_DECK_CHANGE_LOST_A_GAME;Vous ne pouvez pas garder un deck avec lequel vous avez perdu une partie.
+TOURNAMENT_DECK_FIXED_UNTIL_LOSS;Vous ne pouvez pas changer de deck tant que vous ne perdez pas une partie.
+TOURNAMENT_DECK_LOCKED;Ce deck est enregistré pour ce tournoi : vous ne pouvez plus l'éditer jusqu'à ce que l'inscription soit complète.
+TOURNAMENT_DECK_LOST_A_GAME;Vous ne pouvez pas choisir un deck avec lequel vous avez perdu une partie.
+TOURNAMENT_DECK_MUST_BE_LEAD;Vous devez utiliser votre deck de départ pour commencer la première partie.
+TOURNAMENT_DISCARD_DECKS;Recommencer
+TOURNAMENT_LOBBY;Salon de tournoi
+TOURNAMENT_PICKED_DECK;#{0} enregistré
+TOURNAMENT_SIGNUP;S'inscrire
+TOURNAMENT_SIGNUP_DECK_1;Enregistrer le 1er deck
+TOURNAMENT_SIGNUP_DECK_2;Enregistrer le 2ème deck
+TOURNAMENT_SIGNUP_DECK_3;Enregistrer le 3ème deck
+TOURNAMENT_SIGNUP_SUCCESSFUL;Inscription au tournoi réussie.
+REWARD_DECK_SLOT;Nouveaux emplacements de deck
+REWARD_LORE_PAGE;Vous avez débloqué une nouvelle page d'histoire !
+REWARD_FEATURE_LORE_BOOK_ID;Vous avez débloqué le Livre d'Histoires !
+TOURNAMENT_CRUCIBLE_RULES;Vous devez enregistrer 4 decks pour participer à ce tournoi. Deux decks ne peuvent avoir plus de 12 cartes en commun.\n\nSélectionnez chaque deck et <b>enregistrez-les</b> un à un. Une fois les quatre decks enregistrés, vous pourrez rejoindre le salon du tournoi. \n\n<b>ATTENTION !</b> Quand vous aurez enregistré votre dernier deck, vous <b>NE POURREZ PLUS</b> revenir en arrière. Soyez sûr de bien enregistrer les decks que vous voulez jouer.
+LOBBY_CRUCIBLE_RULES;Vous devez enregistrer 4 decks pour participer. Deux decks ne peuvent avoir plus de 12 cartes en commun.\n\nSelectionez chaque deck et <b>enregistrez-les</b> un à un. Une fois les 4 decks enregistrés, vous pourrez commencer.
+TOURNAMENT_DECK_BANNED;Vous ne pouvez pas choisir un deck banni par votre adversaire.
+TOURNAMENT_DECK_CONFLICT_MESSAGE_TEXT;{0} de vos decks partagent plus de {1} cartes identiques. Decks problématiques : "{2}"
+TOURNAMENT_DECK_PICK_CONFIRM_BUTTON_TEXT;Confirmer
+TOURNAMENT_COUNTDOWN_TEXT;Prochaine phase dans {0} secondes...
+TOURNAMENT_COUNTDOWN_GAME_START_TEXT;La partie commence dans {0} secondes...
+TOURNAMENT_BAN_DECK_TEXT;Sélectionnez un deck à bannir
+TOURNAMENT_BAN_DECK_SPECTATOR_TEXT;Les joueurs sont en train de choisir les decks à bannir
+TOURNAMENT_BAN_PHASE_NAME_TEXT;Phase de Bannissement
+TOURNAMENT_PICK_DECK_LOCKED_TEXT;En tant que gagnant, vous ne pouvez pas changer de deck. Confirmez quand vous êtes prêt.
+TOURNAMENT_PICK_DECK_TEXT;Sélectionnez un deck pour jouer
+TOURNAMENT_PICK_DECK_SPECTATOR_TEXT;Les joueurs sélectionnent leurs decks
+TOURNAMENT_PICK_PHASE_NAME_TEXT;Phase de sélection
+TOURNAMENT_SIGNUP_DECK_4;Enregistrer le 4ème deck
+TOURNAMENT_PHASE_TIME_LEFT;Temps Restant : {0}
+INVALID_DECK_CARDS_QUANTITY;Votre deck doit contenir exactement {0} cartes
+CARD_FILTER_INCOMPLETE;Incomplet
+MOUSE_REWARD_LORE_PAGE_CLICK_TO_READ;Cliquez pour lire
+CARD_FILTER_RESURGENCE;Renaissance
+REWARD_ORIGIN_YOUBACK;Vous êtes revenu grâce à {0} !
+REWARD_ORIGIN_FRIENDBACK;{0} est de retour !
+REWARD_ORIGIN_DLCRESURGENCE;Renaissance
+REWARD_FEATURE_PUZZLE_PACKS_ID;Vous avez débloqué la section des puzzles !
+PUZZLES_MENU_TITLE_ELEMENTS;Eléments
+PUZZLES_MENU_TITLE_CORE;Puzzles de base
+PUZZLES_DLC_PURCHASE_REWARDS;Récompenses à l'intérieur
+PUZZLES_DLC_PURCHASE_BUTTON;Vers le Magasin Steam
+PUZZLE_NEED_LANE_UNLOCK;Avant de pouvoir rejouer ce puzzle, vous devez le résoudre en mode Aventure.
+REWARD_FEATURE_DLC_385;Puzzles Élémentaires Débloqué !
+REWARD_FEATURE_DLC_383;Renaissance Débloqué !
+REWARD_FEATURE_DLC_316;La Chute de l'Arbre d'Éternité Débloqué !
+REWARD_FEATURE_DLC_315;Votre compte est maintenant Premium !
+REWARD_FEATURE_DLC_187;Pack Steam Débloqué !
+REWARD_FEATURE_DLC_16;Bundle G2A Débloqué !
+REWARD_FEATURE_DLC_15;Bundle de l'Accès Anticipé Débloqué !
+PUZZLES_ACT_COMPLETION_TOOLTIP;Résolvez autant de puzzles pour obtenir ces récompenses !
+MARKET_TAB_WELLS;Puits
+MARKET_TAB_SETS;Sets
+MARKET_TAB_ORBS;Orbes
+MARKET_TAB_FEATURED;À l'affiche
+MARKET_TAB_CARD_BACKS;Dos de cartes
+MARKET_TAB_AVATARS;Avatars
+COSMETIC_SET_SELECT;Sélectionnez un set personnalisé pour votre deck
+REWARD_ORIGIN_DLCGAGANA;Chroniques de Gagana
+REWARD_FEATURE_DLC_386;Chroniques de Gagana débloquées !
+CARD_FILTER_GAGANA;Gagana
+REWARD_FEATURE_DLC_390;Tous les Puits débloqués !
+REWARD_FEATURE_DLC_389;Tous les Orbes débloquées !
+REWARD_FEATURE_DLC_388;Toutes les Cartes débloquées !
+REWARD_FEATURE_DLC_387;Tous les Avatars débloqués !
+GAMEPAD_REWARD_LORE_PAGE_CLICK_TO_READ;Appuyez sur {GAMEPAD_RIGHT_BUTTONS_LEFT} pour lire
+MOUSE_ENGAGEMENT_PRESS_CONFIRM_TEXT;Cliquez pour jouer
+GAMEPAD_ENGAGEMENT_PRESS_CONFIRM_TEXT;Appuyez sur un bouton pour jouer
+NON_XBOX_LIVE_PLAYERS_MIGHT_BE_PRESENT;Des joueurs non Xbox Live peuvent être présents dans ce mode de jeu
+GAMEPAD_QUEST_BUTTON_TOOLTIP_TEXT;Appuyez sur {GAMEPAD_ACTION_CONFIRM} pour commencer le combat
+PLATFORM_EPIC_GAMES_STORE_ACCOUNT_BINDING_MESSAGE;Si c'est la première fois que vous jouez à Faeria avec votre compte <nobr>Epic Games Store</nobr>, un compte Faeria sera créé et lié à votre compte <nobr>Epic Games Store</nobr>.
+PLATFORM_STEAM_ACCOUNT_BINDING_MESSAGE;Si c'est la première fois que vous jouez à Faeria avec votre compte Steam, un compte Faeria sera créé et lié à votre compte Steam.
+PLATFORM_SWITCH_ACCOUNT_BINDING_MESSAGE;Si c'est la première fois que vous jouez à Faeria avec votre compte Nintendo, un compte Faeria sera créé et lié à votre compte Nintendo.
+LORE_PAGE_LABEL;Page d'Histoire
+ENTER_A_DECK_NAME;Saisissez le nom d'un deck
+ENTER_COUPON_CODE;Saisissez un code coupon
+ENTER_CARD_NAME;Saisissez le nom d'une carte
+ENTER_FRIEND_ID;Saisissez l'identifiant d'un ami
+DLC_FEATURES_WELLS_PACK;Ce pack comprend plus de 20 Puits actuellement en jeu et incluera des Puits supplémentaires au fur et à mesure de leur sortie.
+DLC_FEATURES_ORBS_PACK;Ce pack comprend plus de 30 Orbes actuellement en jeu et inclura des Orbes supplémentaires au fur et à mesure de leur sortie.
+DLC_FEATURES_CARDBACKS_PACK;Ce pack comprend plus de 20 Dos de carte actuellement en jeu et incluera des Dos de carte supplémentaires au fur et à mesure de leur sortie.
+DLC_FEATURES_AVATARS_PACK;Ce pack comprend plus de 50 Avatars actuellement en jeu et incluera des Avatars supplémentaires au fur et à mesure de leur sortie.
+DLC_FEATURES_PREMIUM_EDITION;- Double XP - pour tout !\n- Gagner des Coffres de Combat et des Cristaux deux fois plus vite\n- 10 emplacement de deck ADDITIONNELS\n- Dos de carte Premium\n- Logo de Faeria Doré\n- 5 Coffres Mythiques remplis de cosmétiques\n- Cristaux bonus
+DLC_FEATURES_PUZZLE_ELEMENTS;- 40 nouveaux puzzles, de difficultés faible à extrême.\n- L'équivalent de 10 Coffres Mythiques de récompense\n- Débloque la possibilité de gagner le dos de carte Élémentaire
+DLC_FEATURES_FALL_OF_EVERLIFE;- 40 nouvelles cartes débloquées\n-Introduction du mot-clé Corruption\nIntroduction des sous-types : Yaks, Rakoans et Bêtes\nSet cosmétique unique
+DLC_FEATURES_RESURGENCE;- 40 nouvelles cartes débloquées\nNouveau sous-type : Triton\nSet cosmétique unique
+DLC_FEATURES_CHRONICLES_OF_GAGANA;- 40 nouvelles cartes débloquées\n-Introduction du mot-clé Découvre\nNouveau sous-type : Mecha\nSet de cosmétiques uniques
+DLC_DESCRIPTION_WELLS_PACK;Cette extension débloque immédiatement tous les Puits parmi les objets cosmétiques qui peuvent aussi être débloqués en progressant dans le jeu.
+DLC_DESCRIPTION_ORBS_PACK;Cette extension débloque immédiatement tous les Orbes parmi les objets cosmétiques qui peuvent aussi être obtenus en progressant dans le jeu.
+DLC_DESCRIPTION_CARDBACKS_PACK;Cette extension débloque immédiatement tous les Dos de Cartes parmi les objets cosmétiques qui peuvent aussi être obtenus en progressant dans le jeu.
+DLC_DESCRIPTION_AVATARS_PACK;Cette extension débloque immédiatement tous les Avatars parmi les objets cosmétiques qui peuvent aussi être obtenus en progressant dans le jeu.
+DLC_DESCRIPTION_PREMIUM_EDITION;Débloquez l'expérience Faeria ultime !\n\nCe pack offre un mélange de progression accélérée et d'articles exclusifs. Optimisez votre temps sur Faeria grâce à la DOUBLE XP, plus d'emplacement de deck, des cosmétiques spéciaux et bien plus.\n\nVous souhaitez tirer le meilleur parti de Faeria ? Ce contenu est pour vous.
+DLC_DESCRIPTION_PUZZLE_ELEMENTS;Votre maître des puzzles habituel, Jalmyr, s'est écarté et a laissé les éléments prendre le dessus.\n\nCe pack de puzzles pour Faeria contient 40 nouveaux casses-têtes à résoudre.\n\nSaurez-vous surmonter les éléments ?\n\nAvertissement : Beaucoup de ces puzzles sont assez difficiles !
+DLC_DESCRIPTION_FALL_OF_EVERLIFE;L'Emprereur Kaios a dévoré le Fruit d'Éternité, libérant une terrible corruption dans l'Outreciel. Unissez-vous avec les Yaks et les Rakoans pour la repousser !
+DLC_DESCRIPTION_RESURGENCE;La corruption se répand dans le monde entier, menaçant de souiller tout ce qui est bon et pur. De nouveaux monstres et hommes malfaisants affluent sous la bannière impériale, dans l'espoir de partager le butin de guerre.\n\nMalgré les grandes pertes subies, l'espoir fleurit dans le cœur de ceux qui choisissent de se battre. La victoire, contre toute attente, semble être possible avec de nouveaux alliés qui se joignent à la cause.
+DLC_DESCRIPTION_CHRONICLES_OF_GAGANA;L'Empereur Kaios a été vaincu et l'Outreciel est sauvé.\n\nÀ la recherche d'un moyen d'empêcher la survenue d'un nouveau cataclysme imminent, l'équipage du Gagana s'aventure dans des contrées inexplorées.\n\nIls y rencontreront de nouvelles civilisations, de nouvelles créatures... et au bout de leur périple : les Trésors de Gagana.
+DLC_SHOP_OPEN_SHOP;Ouvrir la boutique
+DLC_SHOP_CONTENT_TITLE_TEXT;Contenu:

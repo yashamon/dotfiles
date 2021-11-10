@@ -1,0 +1,611 @@
+ACCEPT;Принять
+ACCOUNT_RECOVERY;Восстановление аккаунта
+ACCOUNT_RECOVERY_TITLE;Восстановите свой аккаунт
+ACTIVATION_KEY;Ключ активации
+ADD_A_FRIEND;Добавьте друга по идентификатору
+ADD_NEW_DECK;Новая колода
+ADVENTURE_POUCH_POINTS;Очки Походного кисета
+ALLY_TURN;Ход союзника
+AMBIENT;Фоновые звуки
+ARENA_RUN_DECK_NAME;Колода Пандоры
+BACK;НАЗАД
+BIND_ACCOUNT_BUTTON;Привязать к {0}
+BIND_ACCOUNT_LABEL;У вас уже есть учётная запись в игре Faeria?
+BLUEPRINT_PANEL_TEXT1;Сначала попробуйте изменить одну из заранее заготовленных колод.
+BLUEPRINT_PANEL_TEXT2;Также можно собрать колоду, нажав кнопку внизу.
+BLUEPRINT_PANEL_TITLE;Хотите составить собственную колоду?
+BLUEPRINT_REQUIREMENT_LEVEL;ДОСТИЧЬ УРОВНЯ
+BLUEPRINT_REQUIREMENT_QUEST;ПРОЙДИТЕ БОЛЬШЕ МИССИЙ, ЧТОБЫ ПОЛУЧИТЬ ЭТУ ФОРМУЛУ
+BOOSTER_OPENING_GEMSTITLE;Камни редкости
+BOSS_DEFEATED;Повержен
+BOSS_NOT_RELEASED;Будет выпущен
+BUILD_YOUR_DECK;Пользовательская колода
+CANCEL;Отмена
+CARD_LIMIT_MESSAGE;Нельзя иметь более трёх одинаковых карт в колоде.
+CHAT_ERROR_MESSAGE_TOO_LONG;Слишком длинное сообщение (не более {0} символов).
+CHAT_ERROR_NOBODY_TO_REPLY_TO;Отвечать сейчас некому.
+CHAT_ERROR_NOT_CONNECTED;Потеряно соединение. Попробуйте выйти из учётной записи и снова войти.
+CHAT_ERROR_NO_INTERLOCUTOR;Вы ни с кем не общаетесь. Воспользуйтесь командой /w, списком друзей, либо щёлкните по имени пользователя в чате, чтобы отправить сообщение.
+CHAT_ERROR_ONLY_WITH_FRIENDS;Вы можете общаться только с теми, кто находится в вашем списке друзей игры Faeria.
+CHAT_ERROR_RECIPIENT_IS_OFFLINE;{0} не в сети
+CHAT_GENERIC_WARNING;Помните, что сотрудники Abrakam Entertainment никогда не спросят ваш пароль, оказывая вам помощь. Не пишите в чат личные сведения.
+CHAT_HINT_USER_BACK_ONLINE;{0} вернулся в игру!
+CHAT_HINT_USER_WENT_OFFLINE;{0} вышел из игры.
+CHAT_INPUT_PLACEHOLDER;/w ИмяПользователя Ваше сообщение.
+CHAT_TOOLTIP_DND_MODE;Режим Не беспокоить. Если его включить, это окно не будет открываться, когда будут приходить новые сообщения. Сообщения будут записываться в тихом режиме.
+CHAT_TO_SOMEBODY;Для [{0}]: {1}
+CHEST_OPENING_NO_MORE_CHEST;Повышайте уровень и выполняйте ежедневные задания, чтобы заработать Сундуки!
+CHEST_OPENING_NO_MORE_MYTHIC_ITEMS;У вас есть все мифические предметы. Возвращайтесь позже.
+CHOOSE_OTHER_BLUEPRINT;Изменить формулу.
+CLAIM_REWARDS;Забрать приз
+CLEAR;Очистить
+COLLECTION_FILTER_CARD_TYPE;Фильтр по типу карт
+COLLECTION_FILTER_FAERIA_COST;Фильтр по стоимости карт
+COLLECTION_MODE;Создание
+COLLECTION_SEARCH_PLACEHOLDER;Поиск...
+CONFIRM;Подтвердить
+CONNECTION_LOST_RECONNECTING;Соединение потеряно\nПопытка восстановить соединение ...
+CONNECTION_QUEUE_CAPTION;Ваше место в очереди:
+CONNECTION_QUEUE_TITLE;Сервера заполнены!
+CONSTRUCTED_MODE;Рейтинговый режим
+CONSTRUCTED_RUN_DECK_NAME;Колода для рейтинговой игры
+CO_OP_POPUP_JOIN_BUTTON_TEXT;Присоединиться
+CO_OP_POPUP_LOCKED_BUTTON_TEXT;Играть
+CO_OP_POPUP_LOCKED_BUTTON_NOTIFICATION_TEXT;Вы должны закончить предыдущие миссии, чтобы разблокировать эту
+CO_OP_POPUP_ALLY_SELECTION_TITLE;Позвать союзника
+CO_OP_POPUP_NO_ALLY;Нет доступных союзников
+CO_OP_LOBBY_CANCELLED;Ваш союзник отказался от миссии
+COUPON_REDEEM;Получить
+CRAFT_CANNOT_DISENCHANT_CARD_FROM_DECK_WHILE_SEARCHING;Нельзя разушить карту во время поиска игры.
+CRAFT_LEGENDARY_ERROR;Вы не можете создавать легендарные карты
+CRAFT_GOLD_CARD_ERROR;Вы не можете создавать мифические карты
+CRAFT_FOURTH_CARD;Вы уже имеете не менее трёх копий этой карты.
+CRAFT_NOT_ENOUGH_CHARGES;У вас недостаточно искр творения, чтобы создать карту
+CRAFT_FULLY_CHARGED;Уже три
+CRAFT_ACCOUNT_LEVEL_TOO_LOW;Вы должны иметь как минимум {0} уровень, чтобы создать эту карту
+CRAFT_MODE_BUTTON_TEXT_CONFIRM_CRAFT;Создать
+CRAFT_MODE_BUTTON_TEXT_CONFIRM_DISENCHANT;Разрушить
+CRAFT_MODE_BUTTON_TEXT_DISENCHANT_ALL_IN_EXCESS;Разрушить все ненужные карты
+CRAFT_MODE_UNAVAILABLE_TOOTIP;Вы должны быть {0} уровня, чтобы создавать карты
+CRAFT_SECOND_LEGENDARY_CARD;У вас уже есть эта легендарная карта
+CREATE_BLUEPRINT_DECK;Создать
+CREATE_YOUR_ACCOUNT;Создать аккаунт
+DAILY_REWARD_NEXT;Завтра
+DAILY_REWARD_TITLE;Награда за ежедневный вход в игру
+DAILY_REWARD_POPUP_TITLE;Бонус за ежедневное подключение!
+DECKEDITOR_GOLD_CARD_FILTER_TOGGLE_TEXT;Показывать мифические карты?
+DECKEDITOR_NON_GOLD_CARD_FILTER_TOGGLE_TEXT;Стандартный
+DECKEDITOR_SAVETEXT;Сохранить
+DECKLAYOUT_INCOMPLETE_TEXT;Неполная
+DECKSELECTION_SOLO_INFO;Это экран выбора колоды для режима миссий. Вернитесь в главное меню, чтобы создать или изменить колоды.
+DECK_EDITOR_BUY_BATTLE_CHEST;Покупайте Боевые сундуки, чтобы получить новые карты.
+DECK_EDITOR_FILTER_NO_RESULT;Нет совпадений по вашим критериям.
+DECK_EDITOR_NO_FILTERED_CARD_IN_COLLECTION_BLUE;У вас нет синих карт.
+DECK_EDITOR_NO_FILTERED_CARD_IN_COLLECTION_GREEN;У вас нет зелёных карт.
+DECK_EDITOR_NO_FILTERED_CARD_IN_COLLECTION_HUMAN;У вас нет нейтральных карт.
+DECK_EDITOR_NO_FILTERED_CARD_IN_COLLECTION_RED;У вас нет красных карт.
+DECK_EDITOR_NO_FILTERED_CARD_IN_COLLECTION_YELLOW;У вас нет жёлтых карт.
+DECK_SIZE;Количество карт в колоде:
+DECK_SLOT_PURCHASE;+5 слотов для колод
+DELETE;Удалить
+DISCONNECT;Нет соединения
+DISENCHANT_ALL_FOR_MEMORIA;+{0}
+DISENCHANT_UNAVAILABLE_TOOTIP;Вам нужно иметь больше {0} карт для Разрушения
+DONE;Готово
+DROP_RUN;Выйти
+DYNAMIC_BUNDLE_CONFIRM_WARNING;Динамический набор: У вас уже есть кое-что из этого набора, поэтому цена снижена.
+EDIT;Редактировать
+ELITE_MISSIONS_BUTTON_TEXT;Мировые боссы
+ELITE_MISSIONS_BUTTON_TOOLTIP;Необходим {0} уровень
+EMAIL_ADDRESS;Адрес электронной почты
+EMOTE_MENU_GREETINGS;Приветствие
+EMOTE_MENU_OOPS;Ой
+EMOTE_MENU_TAUNT;Насмешка
+EMOTE_MENU_UNIQUE;Уникальное
+EMOTE_MENU_WELL_PLAYED;Неплохо сыграно
+EMOTE_MENU_WOW;Ого
+END_TURN;Завершить ход
+ENEMY_TURN;Ход соперника
+ENTER_DECK_NAME;Введите название колоды
+ENTER_YOUR_RECRUITERS_NAME;Введите имя своего нанимателя...
+EVENING;Вечер
+EVENT_BUTTON_TEXT_SEND;отправить
+EVENT_EGG_HATCHING_HAS_EGG;Похоже, в вашем инкубаторе пока пусто... но если вы найдёте яйцо, здесь вы сможете позаботиться о нем!\nСмотрите трансляции турниров на нашем Twitch-канале FaeriaTV, чтобы заработать своё собственное яйцо!\n\n<align="center"><link="https://www.twitch.tv/faeriatv">https://www.twitch.tv/faeriatv</link></align>
+EVENT_EGG_HATCHING_NO_EGG;Добро пожаловать в инкубатор. Здесь яйцо будет храниться в тепле и безопасности до тех пор, пока не проклюнется!\nПосмотрите в нижнюю часть экрана, чтобы проверить, всё ли в порядке с яйцом: кто знает, может быть, ждать осталось совсем недолго...\nПосле того, как существо вылупится из яйца, вы можете начать искать новое, чтобы поместить сюда. Загляните на финал следующего Кубка Месяца.
+EVENT_HATCH_EGG_BUTTON;Что же внутри?
+EVENT_INPUT_FIELD_HINT_ENTER_EMAIL;Введите адрес электронной почты вашего друга
+EVENT_TEXT_LOCK_OVERLAY;Разблокируйте второй ключ, одержав 5 побед в Пандоре.
+EVENT_TEXT_TITLE;Событие: пригласите друзей!
+EXIT_CRAFT_MODE;Создание
+FAERIA_AVERAGE;Средняя стоимость
+FRIENDLIST;Список друзей
+FRIENDLIST_FRIEND_REQUEST;Рассмотреть запрос на добавление в друзья
+FRIENDLIST_RECENTLY_PLAYED_SUGGESTION;Рассмотреть предложение
+FRIENDLIST_STEAM_FRIEND_SUGGESTION;Рассмотреть предложение Steam
+FRIENDLIST_GAME_INVITE;Рассмотреть приглашение в игру
+FRIENDLIST_DISCORD_HINT;Канал игры в Discord
+FRIENDLIST_FRIEND;Друг
+FRIENDLIST_INGAME;В игре
+FRIENDLIST_INVITE_TO_LOBBY;Пригласить в лобби
+FRIENDLIST_INVITE_TO_TOURNAMENT;Пригласить в турнир
+FRIENDLIST_IN_LOBBY;В лобби
+FRIENDLIST_OFFLINE;Не в сети
+FRIENDLIST_ONLINE;В сети
+FRIENDLIST_RECENTLY_PLAYED;Последний противник
+FRIENDLIST_REMOVE;Удалить из списка друзей
+FRIENDLIST_REQUEST_INITIATOR;Ожидание ответа
+FRIENDLIST_REQUEST_RECIPIENT;Запрос на добавление в друзья отправлен
+FRIENDLIST_SEND_MESSAGE;Отправить сообщение
+FRIENDLIST_SPECTATE_GAME;Наблюдать за игрой
+FRIENDLIST_SPECTATING;Наблюдает за игрой
+FRIENDLIST_SPECTATING_YOU;Наблюдает за вами
+FRIENDLIST_SUGGESTED;Предложение ждёт ответа
+FRIENDLIST_SUGGEST_TO_LOBBY;Предложить в лобби
+FRIENDLIST_VIEW_PROFILE;Просмотр профиля
+FRIENDLIST_WAITING_FOR_RECIPIENT_ACCEPTANCE;Запрос на добавление в друзья отправлен
+FX;Эффекты
+GAME_CONNECTION_LOST_RECONNECTING;Потеряно соединение с игрой\nВыполняется повторное подключение...
+GAME_HAS_CRASHED;Игра дала сбой ({0}). Она была слишком прекрасной для этого мира.
+GEM_BONUS_AMOUNT;+ Бонус ({0})
+GEM_PURCHASE_POPUP_TITLE;Выбрать самоцветы
+GEM_PURCHASE_POPUP_TITLE_NOT_ENOUGH_GEM;У Вас недостаточно самоцветов. Пора ими разжиться!
+GENERAL;Общее
+GENERIC_BUTTON_TEXT_PLAY;Играть
+GENERIC_BUTTON_TEXT_SHOP;Магазин
+GENERIC_GAMEPLAY_ATTACK;Атака
+GENERIC_GAMEPLAY_COST;Стоимость
+GENERIC_GAMEPLAY_LIFE;Здоровье
+GENERIC_GAMEPLAY_WILD_COST;Стоимость в диких землях
+GOT_IT;Понятно!
+GO_TO_CRAFT_MODE;Создание
+GO_TO_SHOP_BUTTON_TEXT;Отправиться в магазин
+GOLD_MINER_HIRING_TITLE;Спасибо, что нанял меня!\nПриступаю к работе.
+GOLD_MINER_REGULAR_GOLD;Привет, {0}.\nВот твои осколки.
+GOLD_MINER_ABOVE_AVERAGE_GOLD;Я был весьма удачлив в шахтах.
+GOLD_MINER_JACKPOT;Святые яки, да мы сорвали большой куш!
+GOLD_MINER_LONG_DELAY_REGULAR_GOLD;Рад снова тебя видеть! Вот твои осколки.
+GOLD_MINER_LONG_DELAY_ABOVE_AVERAGE_GOLD;Рад снова тебя видеть! Вот твои осколки.
+GOLD_MINER_LONG_DELAY_JACKPOT;Наконец-то ты вернулся! Мы сорвали куш!
+GRAPHIC_QUALITY_HIGHER;Повыше
+GRAPHIC_QUALITY_HIGHEST;Высочайшее
+GRAPHIC_QUALITY_HIGH_IPAD;Высокое
+GRAPHIC_QUALITY_LOWER;Пониже
+GRAPHIC_QUALITY_LOWEST;Самое низкое
+GRAPHIC_QUALITY_LOW_IPAD;Низкое
+GRAPHIC_QUALITY_TITLE;Качество
+GUEST_ACCOUNT_NAME;Гость
+INFO_NB_CONNECTED;Игроков в сети: {0}
+INFO_NB_FINDING_ARENA;Поиск Пандоры: {0}
+INFO_NB_FINDING_CLASSIC;Поиск обычной игры: {0}
+INFO_NB_FINDING_CONSTRUCTED;Поиск рейтинговой игры: {0}
+INFO_NB_GAMES;Проходит игр: {0}
+INFO_TIME_TO_FIND_GAME;Приблизительное время поиска: {0}
+INGAME_DEFEAT;Поражение
+INGAME_OPPONENT_STILL_MULLIGAN;Ваш противник всё ещё выбирает карты для пересдачи
+INGAME_ALLY_STILL_MULLIGAN;Ваш союзник всё ещё выбирает, какие карты заменить
+INGAME_PANDORA_OPENS;Пандора открыта!
+INGAME_PLAYER_TURN;Ход {0}
+INGAME_PUZZLE_SOLVED;Головоломка решена
+INGAME_PUZZLE_WIN_THIS_TURN;Победите за ход!
+INGAME_VERSUS;Против
+INGAME_VICTORY;Победа
+INGAME_YOUR_TURN;Ваш ход!
+INVITED_TO_LOBBY;{0} приглашает вас в игру.
+ITEM_RARITY_COMMON;Частая
+ITEM_RARITY_EPIC;Эпическая
+ITEM_RARITY_LEGENDARY;Легендарная
+ITEM_RARITY_RARE;Редкая
+ITEM_VALUE;Общая ценность
+KEEP;ОСТАВИТЬ
+KICKED_FROM_LOBBY;Вас исключили из лобби.
+LANE_COMPLETED_QUEST;Завершено!
+LANE_NEW_QUEST;Новинка!
+LANE_UNLOCKED;Открыто!
+LANGUAGE;Язык :
+LEAGUE_UP;Новая лига!
+LEGENDARY_CARD_LIMIT_MESSAGE;Легендарные карты уникальны.
+LEVEL;Уровень {0}
+LOADING;Загрузка
+LOADING_LONG;Загрузка занимает больше времени, чем мы рассчитывали.
+LOBBY_ACCOUNT_SUGGESTED;Предложение ждет ответа
+LOBBY_DECK_PICKING_CANCELED;{0} отменяет выбор колод.
+LOBBY_GAME_INVITE_PENDING;Приглашение ждет ответа...
+LOBBY_KICK_PLAYER;Исключить игрока
+LOBBY_PLAYERS_IN_GAME;Ожидаем игроков, которые еще в игре...
+LOBBY_PLAYERS_PICKING_DECKS;Игроки выбирают колоды...
+LOBBY_PLAYER_1_STATUS;Первый игрок
+LOBBY_PLAYER_2_STATUS;Второй игрок
+LOBBY_READY_BUTTON_TEXT;Готово
+LOBBY_SET_PLAYER_1;Назначить первым игроком
+LOBBY_SET_PLAYER_2;Назначить вторым игроком
+LOBBY_SET_SPECTATOR;Назначить наблюдателем
+LOBBY_SPECTATOR_STATUS;Наблюдатель
+LOBBY_CO_OP_WITH;С
+MAINMENU_BUTTON_BOOSTERS;Сундуки
+MAINMENU_BUTTON_COLLECTION;Коллекция
+MAINMENU_BUTTON_DAILY_QUESTS;Ежедневные задания
+MAINMENU_BUTTON_EVENT_END_TIME;Событие закончится через {0} ч. {1} мин.
+MAINMENU_BUTTON_FRIEND_LIST;Список друзей
+MAINMENU_BUTTON_HOME;Главное меню
+MAINMENU_BUTTON_SETTINGS;Настройки
+MAINMENU_TITLE_BATTLE;БИТВА
+MAINMENU_TITLE_PANDORA;ПАНДОРА
+MAINMENU_TITLE_SOLO;ПУТЕШЕСТВИЕ
+MAINMENU_TITLE_VIEWPROFILE;Просмотр профиля
+MAP_QUEST_LOCKED;Закрыто
+MARKET_BUTTON_BUY_GEMS;Справка
+MARKET_CATEGORY_AVATAR;Аватар
+MARKET_CATEGORY_BUNDLE;Комплект
+MARKET_CATEGORY_CARD_BACK;Рубашка карты
+MARKET_CATEGORY_EMOTES;Эмоция
+MARKET_CATEGORY_ORB;Сфера
+MARKET_CATEGORY_WELL;Колодец
+MARKET_FEATURED_TAB_AVATAR;Аватары
+MARKET_FEATURED_TAB_BUNDLE;Комплекты
+MARKET_FEATURED_TAB_CARD_BACK;Рубашки карт
+MARKET_FEATURED_TAB_EMOTE;Эмоции
+MARKET_FEATURED_TAB_ORB;Сферы
+MARKET_FEATURED_TAB_WELL;Колодцы
+MARKET_HOW_MANY_CHEST;Сколько вы хотите?
+MARKET_ITEM_CONFIRM_PURCHASE;КУПИТЬ
+MARKET_ITEM_OWNED;Куплено
+MARKET_MENU_FEATURED;В центре внимания
+MARKET_PROCESSING_ORDER;Обработка...
+MARKET_ROTATINGITEMS_TITLE;Сделки дня
+MARKET_TITLE;Магазин
+MATCHES_FORMAT;Формат матча:
+MISSION_PACK_NPC_REWARD_TOOLTIP;По завершении последней миссии из этого набора вы получите уникального союзника
+MISSION_PACK_XP_REWARD_TOOLTIP;Это суммарный опыт, который вы получите за выполнение всех миссий этого набора
+MORNING;Утро
+MULLIGAN;Вы хотите оставить эти карты или вытянуть новые?
+MULLIGAN_BUTTON_TEXT_CONFIRM;Подтвердить
+MULLIGAN_HINT_TEXT;Пересдано
+MUSIC;Музыка
+MY_CHESTS;Мои сундуки
+NEW_ACCOUNT_BUTTON;Создать учетную запись
+NEW_ACCOUNT_LABEL;Только начали играть?
+NEW_ACCOUNT_WARNING;Если у вас уже есть учётная запись в игре Faeria, вы не сможете использовать её с учётной записью {0}!
+NEW_CARD_HINT;Новая
+NEW_DAILY_QUEST_RECEIVED;Вы получили новое ежедневное задание!
+NEW_DECK_NAME;Моя колода
+NIGHT;Ночь
+NO_DAILY_QUESTS_LEFT;У вас не осталось ежедневных заданий. Возвращайтесь завтра!
+OBJECTIVES;Цели
+OK;Да
+OVERSKY;Сверхнебесье
+OVERSKY_ALL_CARDS_NAME;Все карты Сверхнебесья
+OVERSKY_BUY_ISLAND_BUTTON_TEXT;Приобрести остров
+OVERSKY_BUY_ISLAND_TEXT;У вас нет этого острова.\nНужно его приобрести, чтобы получить доступ к наградам этой миссии.
+OVERSKY_CARD_REWARD;<size=200%><color=white>{0}</color></size> новых карт будут добавлены к вашей коллекции при покупке
+OVERSKY_ISLAND_BUNDLE_DISCOUNTED_TOOLTIP;Цена набора была снижена, поскольку этот остров у вас уже есть
+OVERSKY_COSMETIC_SET_TOOLTIP;Включает уникальные легендарные предметы: рубашку карт, колодцы фейри, аватар и сферу
+OVERSKY_GET_POINTS_EMPEROR;Испытание Императора
+OVERSKY_GET_POINTS_MISSION;Миссия Сверхнебесья
+OVERSKY_GET_POINTS_PVP;Победа против игрока
+OVERSKY_GET_POINTS_WILD_PACK;Случайный набор завершён
+OVERSKY_GET_POINTS_WORLD_BOSS;Мировой босс повержен
+OVERSKY_GETTING_POINTS;Набор очков для кисета
+OVERSKY_LIMITED_BOSS_BATTLE_DESCRIPTION_OWNED;Могущественный Император Мирнаста будет ставить перед вами новые испытания каждый день. Получайте очки для вашего кисета за первую победу каждого дня.
+OVERSKY_LIMITED_BOSS_BATTLE_DESCRIPTION_NOT_OWNED;Каждый день могущественный Император Мирнаста будет ставить перед вами новые испытания. Приобретите собственный кисет, чтобы получить доступ к этому режиму!
+OVERSKY_LIMITED_BOSS_BATTLE_NAME;Испытание Императора
+OVERSKY_ONE_ISLAND;Этот остров
+OVERSKY_POINTS_REWARD;очков для кисета
+OVERSKY_POUCH_OWNED_CONTENT_TITLE;Ваши награды за Походный кисет
+OVERSKY_POUCH_OWNED_CONTENT_DESCRIPTION;Продолжайте зарабатывать очки Походного кисета, чтобы получить столько наград, сколько вы сможете унести! Ниже вы найдёте список возможных наград и ваши успехи.
+OVERSKY_POUCH_OWNED_ENDED;Ваш Походный кисет закрылся
+OVERSKY_POUCH_OWNED_END_DAYS;Ваш Походный кисет открывается, но закроется через {0} дней
+OVERSKY_POUCH_OWNED_END_HOURS;Ваш Походный кисет открывается, но закроется через {0} часов и {1} минут
+OVERSKY_POUCH_NOT_OWNED_CONTENT_TITLE;Награды за Походный кисет
+OVERSKY_POUCH_NOT_OWNED_CONTENT_DESCRIPTION;Приобретите свой Походный кисет прямо сейчас, чтобы получить награды, перечисленные ниже! Сколько очков вы успеете получить, прежде чем Походный кисет закроется?
+OVERSKY_POUCH_NOT_OWNED_ENDED;Время вышло! Походный кисет уже недоступен.
+OVERSKY_POUCH_NOT_OWNED_END_DAYS;Ваш Походный кисет закроется через {0} дней
+OVERSKY_POUCH_NOT_OWNED_END_HOURS;Ваш Походный кисет закроется через {0} часов и {1} минут
+OVERSKY_POUCH_NAME;Походный кисет
+OVERSKY_POUCH_TIER_REWARD_EVERY_TEN;Мифические копии каждой из ваших карт Сверхнебесья\n<size=60%>Если у вас уже есть все мифические карты Сверхнебесья, вы получите эту награду при следующей покупке острова.</size>
+OVERSKY_POUCH_TIER_REWARD_KAIOS_AVATAR_AND_EMOTES;Аватар и эмоции Кайоса
+OVERSKY_POUCH_TOOLTIP;Повысьте уровень своего Кисета, чтобы получить доступ к уникальным наградам за приключения! Читать далее на faeria.com/oversky.
+OVERSKY_SHOP_SLIDER_ITEM_NAME;Состав Сверхнебесья
+OVERSKY_SHOP_SLIDER_ITEM_DESCRIPTION;Сверхнебесье уже здесь - пора отправляться в путешествие!
+OWNED_CARD_COUNT;{0} уже в наличии
+PANDORA_GATE_OPENED;Турнир начинается!
+PANDORA_KEY_POOL_HELP_TEXT;Поднесите монету к центру врат, чтобы войти в Пандору!
+PANDORA_LOSSES;Поражения
+PANDORA_SHARD_1_FOUND;Первый осколок найден
+PANDORA_SHARD_2_FOUND;Второй осколок найден
+PANDORA_SHARD_3_FOUND;Третий осколок найден
+PANDORA_SHARD_4_FOUND;Четвёртый осколок найден
+PANDORA_SHARD_5_FOUND;Последний осколок найден
+PANDORA_VICTORIES;Побед(ьi)
+PANTHEON_DECK_LEGENDARY_NOT_RESPECTED;В ваших колодах слишком часто встречается карта {0}. Нельзя иметь больше {1} копии любой легендарной карты во всех 3 колодах.
+PANTHEON_DECK_NOT_RESPECTED;В ваших колодах слишком часто встречается карта {0}. Нельзя иметь больше {1} копий нелегендарных карт во всех 3 колодах.
+PASSWORDS_DO_NOT_MATCH;Пароли не совпадают
+PASSWORD_FIELD_CONFIRM;Подтвердить пароль*
+PASSWORD_FIELD_MANDATORY;Пароль*
+PASSWORD_FIELD_NEW;Новый пароль*
+PASSWORD_MANDATORY;Пароль является обязательным
+PASSWORD_TOO_LONG;Слишком длинный пароль (максимум {0} символов).
+PASSWORD_TOO_SHORT;Слишком короткий пароль.
+PAUSE_MENU_TEXT;Пауза
+PAUSE_MENU_TEXT_LEFT_NAME_COUNT;{0}: {1} осталось
+PINK_CHESTS_NOT_YET_AVAILABLE;Загадочная сила не даёт вам приблизиться к сундукам. Вы не можете их открыть... пока.
+PLAY_MENU_SOLO_STANDARD;Миссии
+PLAY_MENU_SOLO_OVERSKY;Сверхнебесье
+PLAYER_LEFT_TOURNAMENT;Игрок {0} покидает турнир. Техническая победа присуждается игроку {1}.
+PLAYER_LOST_CONNECTION;У игрока {0} проблемы с соединением\nОстается {1} сек. на повторное подключение
+PRACTICE_BUTTON_TEXT;Тренировка
+PRIVATE_LOBBY;Закрытое лобби
+PRIVATE_LOBBY_INFO;Добро пожаловать в закрытое лобби! Игра начнется, когда оба игрока будут готовы.
+PRIVATE_PLAY_ALLY_READY;Союзник готов!
+PRIVATE_PLAY_OPPONENT_READY;Противник готов!
+PRIVATE_PLAY_PLAYER_READY;Вы готовы!
+PRIVATE_PLAY_READY;Отмена
+PROFILE_BATTLERANK_TITLE;Битва
+PROFILE_MENU_PROFILE;Профиль
+PROFILE_PANDORARANK_TITLE;Пандора
+PROFILE_RANKINGS_TITLE;Рейтинги
+PROLOGUE_HINT_ATTACK;Количество урона, наносимое в бою
+PROLOGUE_HINT_COST;Количество фейри, необходимое, чтобы сыграть эту карту
+PROLOGUE_HINT_LIFE;Смертельное количество урона
+PROLOGUE_SPEECH_BUBBLE;Завершите эти задания, чтобы открыть свои силы!
+PROMPT_ACCOUNT_INFO_HELP_TEXT;<size=150%>Здравствуйте, {0}!</size>\n\nВы играете в качестве гостя.\n\nВведите свой электронный адрес, чтобы подтвердить учётную запись, и получите за это 2 боевых сундука (8 карт)!
+PROMPT_ACCOUNT_INFO_WELCOME;Создание аккаунта
+PROMPT_ACTIVATION_CODE_SENDING_SUCCESS;Код активации отправлен на ваш адрес электронной почты.
+PROMPT_BINDING_SUCCESS;Связующая ссылка отправлена на ваш адрес электронной почты.
+PROMPT_CANCEL_GAME_SEARCHES;Это отменит ваш поиск игры. Вы уверены, что хотите продолжить?
+PROMPT_CHALLENGE_CONFIRMATION;У вас всего один шанс справиться с этим испытанием. Вы готовы?
+PROMPT_CONFIRM_USER_NAME;Выбирайте с умом - в дальнейшем вы не сможете изменить свое имя!
+PROMPT_CRASH;Игра дала сбой :(
+PROMPT_DECKEMPTY;Игрок проиграл, так как пытался взять карту из пустой колоды.
+PROMPT_DEFEAT;Поражение
+PROMPT_DELETE_DECK_CONFIRMATION;Вы уверены, что хотите удалить эту колоду?
+PROMPT_DELETE_FRIEND_CONFIRMATION;Вы уверены, что хотите удалить этого игрока из друзей?
+PROMPT_DISENCHANT_ALL_IN_EXCESS;Вы уверены, что хотите разрушить все ненужные карты?
+PROMPT_DISENCHANT_WILL_ALTER_DECKS;Если вы разрушите эту карту, некоторые ваши колоды изменятся. Вы уверены, что хотите продолжить?
+PROMPT_DOUBLE_KO;Игра завершилась вничью!
+PROMPT_DROP_RUN_CONFIRMATION;Вы уверены, что хотите выйти? Вам будут засчитаны ({0}) поражений!
+PROMPT_DUEL_PROPOSED;{0} вызывает вас на дуэль.
+PROMPT_EMAIL_HELP_TEXT;Подтверждение вашей учётной записи также имеет следующие преимущества:\n\n\t-Восстановление пароля\n\t- Доступ к нашим форумам
+PROMPT_TEXT_LATER;Потом
+PROMPT_EMAIL_TITLE_TEXT;Адрес электронной почты
+PROMPT_EMAIL_WELCOME;Подтвердите свою учётную запись и получите два Боевых Сундука (8 карт)!
+PROMPT_EXIT_CONFIRMATION;Вы уверены, что хотите выйти?
+PROMPT_FRIENDLIST_ACCEPT_GAME_INVITE;Вы хотите принять приглашение в игру?
+PROMPT_FRIENDLIST_ACCEPT_REQUEST;Вы хотите принять этот запрос на добавление в друзья?
+PROMPT_FRIENDLIST_ACCEPT_STEAM_SUGGESTION;Вы хотите добавить этого друга из Steam?
+PROMPT_FRIENDLIST_ACCEPT_SUGGESTION;Принять предложение о дружбе?
+PROMPT_GAME_HAS_CRASHED;Игра дала сбой!
+PROMPT_LOBBY_CANCEL_CONFIRMATION;Вы уверены, что хотите отменить и покинуть лобби?
+PROMPT_LOBBY_LEAVE_CONFIRMATION;Вы уверены, что хотите покинуть лобби?
+PROMPT_MODIFICATION_CANCEL_CONFIRMATION;Вы не подтвердили изменения. Вы хотите сбросить их?
+PROMPT_NEW_BINDING;У вас уже есть учётная запись в игре Faeria?
+PROMPT_NO_DECK_FOUND;Вы должны создать колоду, чтобы играть
+PROMPT_PASSWORD_CHANGE_SUCCESS;Пароль успешно изменен для аккаунта {0}.
+PROMPT_REFUSED_INVITEE_PLAYING;Ваш друг играет
+PROMPT_REFUSED_INVITEE_SEARCHING_GAME;Ваш друг уже ищет игру.
+PROMPT_RESET_PASSWORD;Сбросить пароль
+PROMPT_SAVE_DECK_FIRST;Хотите сохранить изменения?
+PROMPT_SKIP_TUTORIAL_MESSAGE_TEXT;Похоже, вы неплохо разбираетесь в карточных играх. Хотите пропустить обучение?
+PROMPT_SKIP_TUTORIAL_TITLE_TEXT;Пропустить обучение
+PROMPT_STEAM_CONNECTION_REQUIRED;Необходимо соединение со Steam. Пожалуйста, запустите Faeria из Steam.
+PROMPT_SURRENDER_CONFIRMATION;Точно хотите сдаться?
+PROMPT_TEXT_NO;Нет
+PROMPT_TEXT_OK;Продолжить
+PROMPT_TEXT_YES;Да
+PROMPT_TOURNAMENT_LEAD_DECK_PICK_CONFIRM;Первая зарегистрированная вами колода станет той, которую вам ПРИДЁТСЯ использовать с первого матча каждой партии до первого поражения. Вы уверены, что хотите продолжить?
+PROMPT_TOURNAMENT_LOBBY_LEAVE_CONFIRMATION;Если вы покинете лобби турнира прежде, чем завершите все оставшиеся игры, вам будут засчитаны поражения. Вы точно уверены, что хотите выйти?
+PROMPT_TOURNAMENT_SIGNUP_CONFIRM;Вы уверены, что хотите использовать эти колоды? Зарегистрировавшись, вы больше не сможете вносить в них изменения.
+PROMPT_TRANSACTION_FAILED;Ошибка транзакции
+PROMPT_USERNAME_SKIP_BUTTON_TEXT;Пропустить
+PROMPT_USER_NAME_TITLE_TEXT;Имя игрока
+PROMPT_VICTORY;Победа!
+PROMPT_VICTORY_CONTINUE_BUTTON_TEXT;Продолжить
+PUBLIC_ARENA_GAME_SEARCH;Поиск
+PUBLIC_GAME_SEARCH;Поиск
+QUEST_HINT_WILD_COST;Требует это количество особых земель (суммарно).
+QUEST_HOW_TO_UNLOCK_LANE;Достигните уровня {0}, чтобы открыть этот путь.
+QUEST_LANE_ACT_NAME;Набор миссий
+QUEST_LANE_COMPLETED;Путь завершен!
+QUEST_LANE_PROGRESSION;{0}/{1}
+QUEST_LANE_WILD_NAME;Случайная
+QUEST_LOCKED_NAME;Миссия закрыта
+QUEST_OPPONENT_LEVEL;Уровень {0}
+QUEST_PACK_COMPLETED;Набор миссий пройден
+QUEST_REQUIRED_LEVEL;Требуется\nуровень {0}
+QUEST_REWARD_EXPERIENCE_ABBREVIATION;XP
+QUEST_TYPE_CHALLENGE;Испыiтание
+QUEST_TYPE_EPIC;Эпическая миссия
+QUEST_TYPE_EPIC_FORCED_DECK;Миссия
+QUEST_TYPE_INTRO;Миссия
+QUEST_TYPE_MYSTERY;Таинственная миссия
+QUEST_TYPE_PUZZLE;Головоломка
+QUEST_TYPE_QUEST;Задание
+QUEST_TYPE_SURVIVAL;Выживание
+RANK_DOWN;Рейтинг понижен
+RANK_STAR_DEFEAT;Поражение
+RANK_STAR_FIRST_WIN_OF_THE_DAY;Первая победа дня!
+RANK_STAR_HIGHER_LEAGUE_OPPONENT;Вы победили более сильного противника!
+RANK_STAR_VICTORY;Победа
+RANK_STAR_WIN_STREAK;Серия побед!
+RANK_UP;Рейтинг повышен
+RECOVERY_CODE;Код восстановления
+RECOVERY_STEAM;Я создал аккаунт на PC/macOS/Linux.
+RECOVERY_SUPPORT;Приведённый(ые) выше вариант(ы) не помогли.
+RECOVERY_VALIDATED;Мой аккаунт Faeria подтверждён (я дал свой адрес электронной почты).
+RECRUITER;Наниматель
+REFUSE;Отклонить
+REFUSE_FRIEND_REQUESTS;Отказывать в запросах на добавление в друзья
+REFUSE_FRIEND_SPECTATE;Отказывать в наблюдении за игрой
+REPLAY_BUTTON_TEXT;Режим повтора
+REQUEST_CANCELED_BY_HOST;Запрос отменён.
+REROLL;Заменить
+RESOLUTION;Разрешение : {0}
+RUSH_TUTORIAL;Агрессивное начало
+SAVE;СОХРАНИТЬ
+SEARCH_MODE_CASUAL_BUTTON_TEXT;Обычная
+SEARCH_MODE_RANKED_BUTTON_TEXT;Рейтинговая
+SEARCH_TIME_ARENA_MODE_NAME;Пандора
+SEARCH_TIME_CONSTRUCTED_MODE_NAME;Битва
+SERVER_INFO_CUSTOM;{0}
+SERVER_INFO_LAST_ANNOUNCEMENT;Последние новости <u><link={0}>здесь</link></u>.
+SERVER_INFO_MAINTENANCE_SCHEDULED;Профилактика сервера назначена на {0}
+SERVER_INFO_MAINTENANCE_IN_PROGRESS;Наши технояки проводят профилактику сервера. Надеемся, что наши сервера возобновят работу около {0}
+SERVER_INFO_NEW_VERSION_CHANGELOG;Список последних изменений в обновлении находится <u><link={0}>здесь</link></u>.
+SERVER_INFO_SERVER_IS_DOWN;Сервер недоступен.
+SERVER_IP;IP сервера
+SETTING_ANIMATED_BACKGROUND;Анимированный фон:
+SETTING_BUTTON_TEXT_EXIT;Выход из игры
+SETTING_BUTTON_TEXT_OPTIONS;Настройки
+SETTING_BUTTON_TEXT_PAUSE;Пауза
+SETTING_MUTE_IN_BACKGROUND;Убрать звук в фоновом режиме
+SETTING_PERMANENT_DECK_HAND_INFO;Число карт в колоде и руке
+SETTING_POWER_SAVING_MODE;Энергосберегающий режим
+SETTING_TEXT_AUDIO_TITLE;Настройки звука
+SETTING_TEXT_GAMEPLAY_TITLE;Настройки игры
+SETTING_TEXT_VIDEO_TITLE;Настройки изображения
+SETTING_TOGGLE_TEXT_MUTE_EMOTES;Заглушить эмоции
+SETTING_TOGGLE_TEXT_SHOW_LAND_COUNT;Показать количество земель
+SETTING_TOGGLE_TEXT_UNMUTE_EMOTES;Восстановить эмоции
+SETTING_WINDOWED;Оконный режим:
+SET_RECRUITER_NAME;Добавьте друга в качестве нанимателя, и вас обоих ждут потрясающие награды в ходе вашего путешествия по миру Faeria!\nПодробнее по ссылке: <link=faeria.com/recruit-your-friends>faeria.com/recruit-your-friends</link>.
+SHOP;Щёлкните, чтобы открыть ящик
+SHOP_ANNUITY_DAYS_LEFT;Осталось {0} дн.
+SHOP_INPUT_FIELD_HINT_COUPON;Введите здесь свой купон
+SIGN_IN;Войти
+SIGN_OUT;Выйти из аккаунта
+SOLO_COMPLETED;Миссии выполнены!
+SPECTATORS_CANNOT_PAUSE;Наблюдатели не могут приостанавливать игру.
+SPECTATOR_JOINED_GAME;{0} присоединился к игре в качестве наблюдателя.
+SPECTATOR_LEFT_GAME;Наблюдатель {0} покинул игру.
+STOP_SPECTATING;Прекратить наблюдение
+SURRENDER;Сдаться
+TOPBAR_BUTTON_PLAY;ИГРАТЬ
+TUTORIAL_DECK_CREATED;Это ваша новая колода!
+TUTORIAL_DECK_CREATED_BACK;Нажмите Назад, чтобы выбрать режим игры
+UPDATE_VERSION_OUTDATED;Требуется обновить клиент.
+UPDATE_VERSION_TIP_IOS;*Если требуемая версия недоступна в вашем магазине приложений, вам нужно будет дождаться её, прежде чем вы сможете играть.
+USER_NAME_WELCOME;Добро пожаловать в Faeria!\nКак вас зовут?
+USE_THIS_SET;Использовать Формулу
+USE_TIMEBANK;Использовать запас времени:
+WELCOME_BUTTON_TEXT_ENTER_GAME;Войти
+WELCOME_BUTTON_TEXT_EXIT;Выход
+WELCOME_BUTTON_TEXT_OFFICIAL_PAGE;Официальная страница
+WELCOME_BUTTON_TEXT_STEAM_LOGIN;Щёлкните, чтобы войти
+WELCOME_BUTTON_TEXT_START_AS_GUEST;Начать в качестве гостя
+WELCOME_BUTTON_TEXT_START_AS_ACCOUNT;У меня уже есть аккаунт
+WELCOME_INPUT_FIELD_HINT_PASSWORD;Пароль
+WELCOME_INPUT_FIELD_HINT_SERVER_IP;IP сервера
+WELCOME_INPUT_FIELD_HINT_USERNAME;Имя учетной записи
+WELCOME_USE_ANOTHER_ACCOUNT;Выйти из учётной записи
+WINNER;Победитель
+WORLD_BOSS_OBJECTIVE_PROGRESS;Победить трёх боссов ({0}/3)
+WORLD_BOSS_OBJECTIVE_TEXT1;Разблокировать Сферу Чемпионов
+WORLD_BOSS_OBJECTIVE_TEXT2;Улучшить вашу Сферу Чемпионов
+WORLD_BOSS_OBJECTIVE_TITLE;Всемирная цель
+WORLD_BOSS_REWARD;Награда за босса
+WORLD_LOCATION;Расположение
+XP;{0} XP
+YOU_PLAY_FIRST;Ваш ход - первый
+YOU_PLAY_SECOND;Ваш ход - второй
+CARD_WAS_PROMOTED_AS_DECK_COVER;Карта была помещена на обложку колоды.
+CURRENT_DECK_COVER;Текущая обложка колоды
+PROMOTE_DECK_COVER;Поместить на обложку колоды
+CARD_ZOOM_PROMOTE_AS_DECK_COVER_BUTTON_TOOLTIP;Объявить Обложкой Колоды
+CARD_ZOOM_VIEW_LORE_PAGE_BUTTON_TOOLTIP;Посмотреть Страницу Истории
+LORE_BOOK_EXPLANATION_TEXT;Собирайте фрагменты истории, изучая легенды и мифы мира Faeria.
+LORE_PAGE_ARTISTS;<b>Художники</b> {0}
+LORE_PAGE_NOT_AVAILABLE;Вы должны иметь как минимум {0} уровень, чтобы получить доступ к Страницам Истории
+CO_OP_LOBBY;Совместное лобби
+LOBBY_CRUCIBLE_RULES_TITLE;Правила формата "Горнило"
+LOBBY_DECK_FORMAT;Формат колод:
+LOBBY_DECK_FORMAT_CLASSIC;Классика
+LOBBY_DECK_FORMAT_CRUCIBLE;Горнило
+LOBBY_MINUTES_PER_GAME;Минут на игру:
+LOBBY_SECONDS_PER_TURN;Секунд на ход:
+LORE_BOOK_EMPTY_SECTION;Ничего не найдено
+LORE_PAGE_NOT_YET_AVAILABLE;Эта страница истории пока недоступна
+LOBBY_GO_TO_COLLECTION;В коллекцию
+LOBBY_START_OVER;Начать заново
+PROMPT_LOBBY_BACK_CONFIRMATION;Это действие вернёт всех на экран настроек лобби. Продолжить?
+PROMPT_LOBBY_START_OVER_CONFIRMATION;Это действие сбросит счёт лобби и разблокирует настройки. Продолжить?
+REGISTER_YOUR_DECKS;Зарегистрируйте ваши колоды!
+TOURNAMENT_DECKS_REGISTERED;Колоды зарегистрированы!
+LORE_BOOK_UNAVAILABLE_TOOTIP;Откроется на {0} уровне
+CREDIT_RATE_US_ON_STEAM_BUTTON_TEXT;Оцените нас в Steam
+HOME_CREDITS_BUTTON_TEXT;Титры
+PROMPT_FRIEND_CALLED;Вашему потерянному яку был отправлен email.\nВы можете также связаться с ним на вашем любимом коммуниякционном канале: ему надо лишь войти в игру!
+PROMPT_FRIENDS_CALLED;Каждому из ваших {0} потерянных яков был отправлен email.\nВы можете также связаться с ними на вашем любимом коммуниякционном канале: им надо лишь войти в игру!
+FRIEND_CALL_SEND;Отправить
+FRIEND_CALL_NO_ELIGIBLE;Вы уже позвали всех ваших друзей!
+FRIENDLIST_CALL_FRIEND;Позвать старых друзей!
+MAINMENU_TITLE_PUZZLES;ГОЛОВОЛОМКИ
+SETTING_CLEAR_CACHE;Очистить кэш
+CACHE_CLEARED;Операция выполнена успешно. Пожалуйста, перезапустите игру.
+CACHE_CLEAR_FAIL_PERMISSION;Операция не выполнена. Попробуйте перезапустить игру от имени администратора.
+CACHE_CLEAR_FAIL_IN_USE;Операция не выполнена, файл используется другой программой. Перезапустите компьютер и попробуйте ещё раз.
+XP_WITH_NEXT_LEVEL;{0}/{1}xp
+SET_COSMETICS;Комплект косметики
+PLAY_MENU_SOLO_DRAGONS_LAIR;Логово Дракона
+MARKET_ITEM_SPECIAL_PROMO;Особая акция
+MARKET_ITEM_COMPLETE_YOUR_SET;Завершите ваш набор!
+DRAGON_TODAYS_CHALLENGES;Сегодняшние испытания
+DRAGON_SOLO_MISSION;Одиночная миссия
+DRAGON_REWARD;Награда Дракона
+DRAGON_CO_OP_MISSION;Совместная миссия
+APPLY;Применить
+MOUSE_PROMPT_CLICK_ANYWHERE;Щёлкните где угодно, чтобы продолжить
+PLAY_MENU_SOLO_WORLDBOSS_INFO;Очень сложные битвы с боссами, которые испытают ваше мастерство колодостроения.
+PLAY_MENU_SOLO_STANDARD_INFO;Освойте основы Faeria в разнообразных наборах миссий.
+PLAY_MENU_SOLO_OVERSKY_INFO;Совместная кампания! Сразитесь плечом к плечу с другом или ИИ-союзником.
+PLAY_MENU_SOLO_DRAGONS_LAIR_INFO;Ежедневные задания! Возвращайтесь каждый день, чтобы одержать верх над новыми драконами. Одиночные и совместные бои.
+MAINMENU_TITLE_SOLO_INFO;Исследуйте мир Faeria в этих одиночных и совместных боях!
+MAINMENU_TITLE_PUZZLES_INFO;Решите сложные головоломки и научитесь при этом новым хитростям.
+MAINMENU_TITLE_PANDORA_INFO;Режим драфта. Попробуйте новые карты и соберите уникальную колоду. Продержитесь так долго, как только сможете!
+MAINMENU_TITLE_BATTLE_INFO;Классический режим Faeria. Сыграйте в Обычную или Рейтинговую игру против других игроков, или опробуйте свои силы против ИИ.
+MOUSE_HOME_LINKS_INFO;Щёлкните здесь, чтобы прочитать важные новости в нашем официальном блоге.
+DEFAULT_BUTTON_TEXT;По умолчанию
+BACK_TO_WORLD_BOSSES;Назад к мировым боссам
+BACK_TO_PUZZLES;Назад к головоломкам
+BACK_TO_PANDORA;Назад к Пандоре
+BACK_TO_OVERSKY;Назад к Сверхнебесью
+BACK_TO_MISSIONS;Назад к миссиям
+BACK_TO_DRAGONS_LAIR;Назад к Логову дракона
+BACK_TO_BATTLE;Назад к выбору битвы
+LORE_BOOK_TOGGLE_TEXT;Книга знаний
+SHOW;Показать
+INGAME_OPPONENT_DISCOVERING_CARD;Ваш соперник открывает карту
+INGAME_ALLY_DISCOVERING_CARD;Ваш союзник открывает карту
+HIDE;Скрыть
+GEMS_INFO_POPUP_DESCRIPTION;Самоцветы теперь являются особой валютой, которую можно заработать только при участии в определённых событиях.
+GEMS_INFO_POPUP_TITLE;О самоцветах
+SHORTCUT_TEXT_TOGGLE;Переключить
+SHORTCUT_TEXT_MODIFY_SLIDER;Изменить бегунок
+SHORTCUT_TEXT_CLOSE;Закрыть
+SETTING_TEXT_LANGUAGE_TITLE;Язык
+SERVER_INFO_UNAVAILABLE;Серверы временно отключены
+CHAT_ERROR_RECIPIENT_CANNOT_CHAT;{0} не может общаться в чате
+YOUR_SUPPORT_ID;Ваш идентификатор:
+PROBLEM_OCCURED_AND_GAME_NEEDS_RESTART;Возникла ошибка. Необходимо перезапустить игру.
+MOUSE_PROMPT_CLICK_TO_CLOSE;Щёлкните, чтобы закрыть
+LOADING_HERDING_YAKS;Выпас яков
+LOADING_DOWNLOADING_CONTENT;Загрузка материалов
+LOADING_CHECKING_CONTENT;Проверка материалов
+GAMEPAD_PROMPT_CLICK_TO_CLOSE;Нажмите {GAMEPAD_ACTION_CANCEL}, чтобы закрыть
+GAMEPAD_PROMPT_CLICK_ANYWHERE;Нажмите {GAMEPAD_ACTION_CONFIRM}, чтобы продолжить
+GAMEPAD_HOME_LINKS_INFO;Нажмите {GAMEPAD_ACTION_CONFIRM}, чтобы прочитать новости из официального блога.
+CHAT_ERROR_MULTIPLE_FRIENDS_WITH_NAME;Такое имя носят несколько друзей. Выберите нужного из списка друзей в контекстном меню, чтобы поговорить.
+GO_TO_STORE_BUTTON_TEXT;В магазин
+CHAT_ERROR_MESSAGE_REFUSED;Платформа получателя автоматически отклонила ваше сообщение из-за его содержания.
+CHAT_ERROR_SANITIZATION_ERROR;Ваше сообщение отклонено из-за его содержания.
+ID_COPIED_TO_CLIPBOARD;Идентификатор скопирован в буфер
+SPECIAL_LADDER_MAPS_EVENT_TITLE;Особые карты рейтингового сезона
+PLAYER_PLATFORM_XBOX_LIVE;Xbox Live
+PLAYER_PLATFORM_PS4;PS4
+PLAYER_PLATFORM_SWITCH;Switch
+PLAYER_UNKNOWN_USER_NAME;Неизвестный игрок
+PLAYER;Игрок
+NOT_ENOUGH_COINS;Недостаточно осколков.
+NOT_ENOUGH_GEMS;Недостаточно самоцветов.
+LADDER_RANKED_BUTTON;Рейтинг
+LADDER_PANDORA_BUTTON;Пандора
+HOME_LADDER_BUTTON_TEXT;Рейтинговый сезон
+COSMETIC_ITEM_NOT_OWNED;У вас нет данного косметического предмета

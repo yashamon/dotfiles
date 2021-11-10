@@ -1,0 +1,229 @@
+ACTIVATE;<b>Activar</b>
+AQUATIC;<b>Acuático</b>
+ARTIFACT;Artefacto
+AUTO_HARVEST;<b>Recolección Automática</b>
+BLUE;<sprite="icon_blue" index=0>
+BLUEPRINT_01.name;Verde Inicial
+BLUEPRINT_01.shortdescription;Aprovecha la fuerza del bosque y apoya a tu ejército de humanos con vida extra y movilidad. Pon una tierra cerca de un pozo de Faeria, y luego deslízate hacia el orbe enemigo!
+BLUEPRINT_02.name;Rojo Inicial
+BLUEPRINT_02.shortdescription;Los ogros marchan amenazantemente  desde las montañas. Asalta a tu oponente con criaturas gigantes, y luego termina el trabajo con fuego.
+BLUEPRINT_03.name;Azul Inicial
+BLUEPRINT_03.shortdescription;Haz un estallido con el poder de los eventos. Usa criaturas con salto y acuaticas, para recolectar múltiples pozos de Faeria a la vez. Golpea a tu oponete cuando sea el momento adecuado
+BLUEPRINT_04.name;Amarillo Inicial
+BLUEPRINT_04.shortdescription;Saborea las oscuras delicias del desierto. Practica rituales prohibidos y gana poder con la muerte de tus propias criaturas. Usa tu propia vida como recurso para ganar ventaja sobre tu oponente y consume su orbe
+BLUEPRINT_05.name;Invasión Azul
+BLUEPRINT_05.shortdescription;Deja que tu codicia por recolectar más Faeria te empodere. Concéntrate en la recolección de los pozos enemigos, y tus colosos masivos se volverán más baratos con cada recolección.
+BLUEPRINT_06.name;Gloria en Combate
+BLUEPRINT_06.shortdescription;Aplasta a tus enemigos, observa como son destrozados y oye los lamentos de los yaks. Comanda un ejército que prospera en combate. El don de acero brilla más en tiempos de guerra.
+BLUEPRINT_07.name;Cruzada Mortal
+BLUEPRINT_07.shortdescription;No muestres piedad. Dirígete directamente hacia tu oponente y ataca su orbe a toda costa, dandole poder a tus Cruzados Fervientes en el proceso.
+BLUEPRINT_08.name;El Negocio Definitivo
+BLUEPRINT_08.shortdescription;Negocia con los ogros y juega estas cartas caras a una fracción de su coste normal. Libera Dragones y Behemoths para cosechar victorias épicas.
+BLUEPRINT_09.name;Flota Voladora
+BLUEPRINT_09.shortdescription;Comanda los cielos. Tus aviarios reforzarán la fuerza de tu flota voladora. Sube hasta el corazón del enemigo y desata la muerte desde arriba.
+BLUEPRINT_10.name;Ira de la Naturaleza
+BLUEPRINT_10.shortdescription;El bosque no siempre es tan paciente. Lánzate hacia el orbe y despeja el camino para que tus Cazadores de Dioses busquen su presa natural: la cara de tu enemigo.
+CHARGE;<b>Cargar {0}</b>
+COMBAT;<b>Combate</b>
+CONVOKE;<b>Convocar</b>
+CORRUPT;<b>Corromper</b>
+CREATURE;Criatura
+CURRENCY_COIN;Fragmentos
+CURRENCY_GEM;Gemas
+DAILY_QUEST_00_NAME;Definitivo
+DAILY_QUEST_01_NAME;Desenfreno
+DAILY_QUEST_02_NAME;Deicidio
+DAILY_QUEST_03_NAME;Juicio
+DAILY_QUEST_04_NAME;Conquista
+DAILY_QUEST_05_NAME;Tsunami
+DAILY_QUEST_06_NAME;Florecer
+DAILY_QUEST_07_NAME;Infierno
+DAILY_QUEST_08_NAME;Tormenta de Arena
+DAILY_QUEST_09_NAME;Equilibrio
+DAILY_QUEST_11_NAME;Milagro
+DAILY_QUEST_12_NAME;Creación
+DAILY_QUEST_13_NAME;Juicio divino
+DAILY_QUEST_14_NAME;Duelista
+DAILY_QUEST_15_NAME;Veterano
+DAILY_QUEST_16_NAME;Búsqueda de amigos
+DAILY_QUEST_18_NAME;Búsqueda de amigos
+DAILY_QUEST_27_NAME;Búsqueda del Tesoro
+DAILY_QUEST_28_NAME;Ponte a Prueba
+DAILY_QUEST_30_NAME;Pandora Despierta
+DAILY_QUEST_31_NAME;Mira y Aprende
+DAILY_QUEST_32_NAME;Amigos Hasta el Fín
+DAILY_QUEST_33_NAME;Vestido para el Exito
+DAILY_QUEST_34_NAME;Hazlo tú Mismo
+DAILY_QUEST_35_NAME;Artesano Maestro
+DAILY_QUEST_COMPLETE_ANY_ACT;Completa un paquete de misión o de rompecabezas
+DAILY_QUEST_COMPLETE_2_WILD_ACTS;Completa 4 paquetes de misión salvaje
+DAILY_QUEST_COMPLETE_ANY_LANE;Completa un camino del modo individual
+DAILY_QUEST_COMPLETE_QUESTS;Completa {0} misiones
+DAILY_QUEST_COMPLETE_QUESTS_OR_PUZZLES;Completa {0} misiones o rompecabezas
+DAILY_QUEST_COMPLETE_TRAINING_ACT;Completa el paquete de entrenamiento
+DAILY_QUEST_CRAFT_CARD;Crea una carta cualquiera
+DAILY_QUEST_CRAFT_GOLD_CARD;Crea una carta mítica cualquiera
+DAILY_QUEST_CREATE_LANDS;Crea {0} tierras
+DAILY_QUEST_DEAL_DAMAGE_TO_ENEMIES;Inflige {0} de daño a enemigos
+DAILY_QUEST_DEAL_DAMAGE_TO_GODS;Inflige {0} de daño a Dioses
+DAILY_QUEST_DEFEAT_RUUNIN;Derrota a Ruunin en el modo Misiones
+DAILY_QUEST_DEFEAT_SEIFER;Derrota a Seifer en el modo Misiones
+DAILY_QUEST_DEFEAT_SOLO_OPPONENTS;Derrota {0} oponentes en el modo Misiones
+DAILY_QUEST_DESTROY_CREATURES;Destruye {0} criaturas
+DAILY_QUEST_FIND_AND_DEFEAT_RAPALA;Juega en el modo Misiones hasta encontrar a Rapala, luego véncelo
+DAILY_QUEST_OPEN_BATTLE_CHEST;Abre un Cofre de Batalla
+DAILY_QUEST_PERFECT;Gana una partida sin sufrir daño alguno
+DAILY_QUEST_PLAY_AGAINST_FRIEND;Juega una partida privada con un amigo
+DAILY_QUEST_PLAY_ARENA_RUN;Completa una ronda de Pandora
+DAILY_QUEST_PLAY_BLUE_CARDS;Juega {0} cartas azules
+DAILY_QUEST_PLAY_CREATURES;Juega {0} criaturas
+DAILY_QUEST_PLAY_EVENTS;Juega {0} eventos
+DAILY_QUEST_PLAY_GREEN_CARDS;Juega {0} cartas verdes
+DAILY_QUEST_PLAY_NEUTRAL_CARDS;Juega {0} cartas neutrales
+DAILY_QUEST_PLAY_PVP_GAMES;Juega {0} partida(s) en modo Casual, Clasificatoria o Multijugador de Pandora
+DAILY_QUEST_PLAY_RED_CARDS;Juega {0} cartas rojas
+DAILY_QUEST_PLAY_WITH_SPECIAL_COSMETIC;Juega una partida con un orbe o avatar especial
+DAILY_QUEST_PLAY_YELLOW_CARDS;Juega {0} cartas amarillas
+DAILY_QUEST_REACH_LEVEL_8;Llega al nivel 8
+DAILY_QUEST_SOLVE_PUZZLES;Resuelve {0} rompecabezas en el modo Misiones
+DAILY_QUEST_SPECTATE_FRIEND_WINNING_GAME;Observa a un amigo ganar una partida en modo espectador
+DAILY_QUEST_VALIDATE_YOUR_EMAIL;Valida tu correo electrónico
+DAILY_QUEST_WAIT_FOR_SEIFER;Juega en el modo Misiones hasta que Seifer vuelva a aparecer
+DAILY_QUEST_WIN_DIVINE_CHALLENGES;Completa una misión de la Campaña Individual
+DAILY_QUEST_WIN_HIGHLANDER_GAMES;Gana {0} partidas en modo Highlander. Los mazos en el modoHighlander deben contener 30 cartas diferentes.
+DAILY_QUEST_WIN_PANDORA_GAMES;Gana {0} partidas en Pandora
+DAILY_QUEST_WIN_PVP_GAMES;Gana {0} partida(s) en modo Casual, Clasificatoria o Multijugador de Pandora
+DASH;<b>Deslizarse {0}</b>
+DEATHTOUCH;<b>Toque Mortal</b>
+DIVINE;<b>Divino</b>
+EMOTE_FUGORO_LASTWORDS_NAME;El cliente siempre gana.
+EMOTE_FUGORO_OPENING_NAME;Bienvenido apreciado cliente!
+EMOTE_FUGORO_THINKING_NAME;Tantas opciones atractivas.
+EMOTE_KHALIM_LASTWORDS_NAME;Bien defendido. Me rindo.
+EMOTE_KHALIM_OPENING_NAME;Abraza el Viento Salvaje.
+EMOTE_KHALIM_THINKING_NAME;Debe haber una forma...
+EMOTE_KROG_LASTWORDS_NAME;Me tengo que ir.¡Tengo Hambre!
+EMOTE_KROG_OPENING_NAME;¡Viva el Rey!
+EMOTE_KROG_THINKING_NAME;...¡Oh!¡Es mi turno!
+EMOTE_MAGDA_LASTWORDS_NAME;Impresionante. Concedo.
+EMOTE_MAGDA_OPENING_NAME;Bienvenido a mi corte.
+EMOTE_MAGDA_THINKING_NAME;Tantas posibilidades.
+EMOTE_RUUNIN_LASTWORDS_NAME;Disfruta de tu Victoria.
+EMOTE_RUUNIN_OPENING_NAME;La Cazadora ya está aquí.
+EMOTE_RUUNIN_THINKING_NAME;Me pregunto...
+EVENT;Evento
+FAERIA;<sprite="icon_faeria_cost" index={0}>
+FLYING;<b>Volador</b>
+GIFT;<b>Don</b>
+GREEN;<sprite="icon_green" index=0>
+HASTE;<b>Prisa</b>
+ICON_COIN;<sprite="icon_coin" index=0><b>{0}</b>
+ICON_GEM;<sprite="icon_gem" index=0><b>{0}</b>
+IGNORE;Ignorar
+JUMP;<b>Salto</b>
+LANGUAGE_NAME_NATIVE;Español
+LAST_WORDS;<b>Últimas Palabras</b>
+OPTIONS;<b>Elige</b>
+PRODUCTION;<b>Producción</b>
+PROTECTION;<b>Protección</b>
+QUEST_LANE_ACT_AURORA_NAME;Aurora
+QUEST_LANE_ACT_FUGORO_NAME;Fugoro
+QUEST_LANE_ACT_HOAKA_NAME;Hoaka
+QUEST_LANE_ACT_JALMYR_01_NAME;Jalmyr I
+QUEST_LANE_ACT_JALMYR_02_NAME;Jalmyr II
+QUEST_LANE_ACT_JALMYR_03_NAME;Jalmyr III
+QUEST_LANE_ACT_JALMYR_04_NAME;Jalmyr IV
+QUEST_LANE_ACT_MAGDA_NAME;Magda
+QUEST_LANE_ACT_RAPALA_NAME;Rapala
+QUEST_LANE_ACT_SEIFER_NAME;Seifer
+QUEST_LANE_ACT_SHARRA_NAME;Sharra
+QUEST_LANE_ACT_TRAINING_NAME;Entrenamiento
+RANGED_ATTACK;<b>A Distancia</b>
+RED;<sprite="icon_red" index=0>
+SLAM;<b>Golpe en area</b>
+SUBTYPE_YAK;Yak
+SUBTYPE_TRITON;Tritón
+SUBTYPE_BEAST;Bestia
+SUBTYPE_MECHA;Meca
+SUBTYPE_RAKOAN;Rakoan
+SWALLOW;<b>Ingiere</b>
+STRUCTURE;Estructura
+TAUNT;<b>Provocar</b>
+TOOLTIP_AQUATIC;<color=white><b>Acuático:</b></color> Solo puede moverse por casillas de océano y lagos.
+TOOLTIP_CHARGE;<color=white><b>Cargar {0}:</b></color> Se mueve hasta {0} espacios en línea recta.
+TOOLTIP_COMBAT;<color=white><b>Combate:</b></color> El efecto es activado cada vez que la criatura ataca.
+TOOLTIP_CONVOKE;<color=white><b>Convocar:</b> Puedes jugar criaturas en cualquier tierra adyacente a esta, incluso si es una tierra del enemigo.
+TOOLTIP_CORRUPT;<color=white><b>Corromper:</b></color> Hace algo la primera vez que esta criatura se mueve sobre una tierra enemiga en cualquier turno luego de que es invocada.
+TOOLTIP_DARK_RITUAL;<color=white><b>Ritual Oscuro:</b> Puedes sacrificar una criatura cuando juegues esta carta. Recibirás beneficios adicionales si lo haces.
+TOOLTIP_DASH;<color=white><b>Deslizarse {0}:</b></color> Al invocarse, puede moverse hasta {0} espacios en línea recta.
+TOOLTIP_DEATHTOUCH;<color=white><b>Toque Mortal:</b></color> Destruye instantáneamente cualquier criatura dañada por esta criatura.
+TOOLTIP_DIVINE;<color=white><b>Divino:</b></color> No puede ser objetivo de eventos o habilidades.
+TOOLTIP_FLYING;<color=white><b>Volador:</b></color> Se puede mover sobre el mar.
+TOOLTIP_GIFT;<color=white><b>Don:</b></color> Este efecto se activa cuando la carta se invoque desde la mano.
+TOOLTIP_HASTE;<color=white><b>Prisa:</b></color> No tiene que esperar un turno para atacar, moverse o recolectar.
+TOOLTIP_JUMP;<color=white><b>Salto:</b></color> Puede moverse hasta 2 espacios en cualquier dirección. Salta obstáculos.
+TOOLTIP_LAST_WORDS;<color=white><b>Últimas Palabras:</b></color> El efecto se activa cuando la criatura muere.
+TOOLTIP_OPTIONS;<color=white><b>Elige:</b></color> Te permite elegir entre varias opciones.
+TOOLTIP_PRODUCTION;<color=white><b>Producción:</b></color> El efecto se activa al principio de cada uno de tus turnos.
+TOOLTIP_PROTECTION;<color=white><b>Protección:</b></color> La próxima vez que esta criatura reciba daño, lo ignorará y perderá la protección.
+TOOLTIP_RANGED_ATTACK;<color=white><b>A Distancia:</b></color> Ataca al primer enemigo en línea recta (las unidades aliadas bloquean el ataque). <b>No puede moverse y atacar en el mismo turno</b>.
+TOOLTIP_SWALLOW;<color=white><b>Ingerir:</b></color> Encierra una criatura dentro de esto. Cuando esto muere, la criatura es liberada (no puedes ingerir una criatura que haya ingerido a otra).
+TOOLTIP_TAUNT;<color=white><b>Provocar:</b></color> Las criaturas enemigas adyacentes no pueden moverse, y solo pueden atacar a esta carta.
+TOOLTIP_WILD;<color=white><b>Salvaje:</b></color> Una carta es salvaje cuando todas las tierras que requiere son salvajes.
+WILD;<b>Salvaje</b>
+YELLOW;<sprite="icon_yellow" index=0>
+NEWS_DEFENDING;Defendiendo contra tácticas agresivas. (En Inglés)
+NEWS_FAERIA_TALES;Historias de Faeria: Camino a la versión 1.0 (En Inglés)
+NEWS_OVERSKY;Expansión: Oversky ha llegado
+NEWS_PATCH_ANALYSIS;Análisis del Parche de Balance (En Inglés)
+NEWS_PATCH_NOTES;Notas del Parche (En Inglés)
+NEWS_RECRUIT_FRIEND;Recluta a un amigo
+NEWS_STEAM_NEWS;Exclusividad: Pack de Steam de Faeria
+NEWS_WAR_EFFORT;Enlístate
+NEWS_WELCOME;Academia Faeria (En Inglés)
+DAILY_QUEST_1400_NAME;Página de historia
+DAILY_QUEST_PLAY_CARD_3_TIMES;Juega {0} 3 veces
+NEWS_B2P_RELEASE;Nuevas características y cambios en la economía
+NEWS_FOE_DLC;Expansión de la Vida Eterna
+NEWS_PREMIUM_DLC;Actualización a Premium
+NWILD;<sprite="icon_wild_cost" index={0}>
+NEWS_THE_HUB;El Hub
+NEWS_RESURGENCE_CARDS;Cartas de la Resurgencia
+NEWS_RESURGENCE;Expansión de la Resurgencia
+NYELLOW;<nobr><b>{0}</b><sprite="icon_yellow" index=0></nobr>
+NRED;<nobr><b>{0}</b><sprite="icon_red" index=0></nobr>
+NHUMAN;<nobr><b>{0}</b><sprite="icon_human" index=0></nobr>
+NGREEN;<nobr><b>{0}</b><sprite="icon_green" index=0></nobr>
+NBLUE;<nobr><b>{0}</b><sprite="icon_blue" index=0></nobr>
+MUTAGEN_SETUP_TETHRA_LAND_4;El Dragón comienza con una <b>Tethra</b> 5f 5 Tierras salvajes en su mano.
+MUTAGEN_SETUP_OROSEI_LAND_4;El Dragón comienza con una <b>Orosei</b> 5f 5 Tierras salvajes en su mano.
+MUTAGEN_SETUP_MONO_COLOR_COSTS_MORE;Las cartas Monocolor cuestan 2 más.
+MUTAGEN_SETUP_HARVEST_COSTS_2_LIFE;Cuando recolectes faeria, recibes 2 de daño.
+MUTAGEN_SETUP_GARUDAN_LAND_4;El Dragón comienza con un <b>Garudan</b> 5f 5 Tierras salvajes en su mano.
+MUTAGEN_SETUP_FAERIA_LIMITED_TO_6;No puedes tener más de 6 faeria.
+MUTAGEN_SETUP_EVERYONE_IS_SHOZEN;Cuando una de las criaturas del Dragón destruya a otra criatura en combate, en su lugar la devora y gana control de la misma.
+MUTAGEN_SETUP_EVENTS_COST_MORE;Tus eventos cuestan 2 más.
+MUTAGEN_SETUP_ENEMIES_HAVE_DEATHTOUCH;Las criaturas del Dragón tienen Toque Mortal.
+MUTAGEN_SETUP_EMPOWER_ENEMIES_WHEN_YOUR_CREATURES_DIE;Cuando tus criaturas mueran, todas las criaturas del Dragón ganarán +1/+1.
+MUTAGEN_SETUP_DRAW_TWICE_ON_PLAY;Cuando juegues una carta, robas 2 cartas.
+MUTAGEN_SETUP_DAMAGE_ON_PLAYED_CREATURES;Cuando invoques una criatura, recibe 2 de daño.
+MUTAGEN_SETUP_CREATE_RANDOM_AI_LANDS;El Dragón crea 3 tierras neutrales aleatorias al comienzo de la partida.
+MUTAGEN_SETUP_CREATURES_COST_MORE;Tus criaturas cuestan 2 más.
+MUTAGEN_SETUP_AZARAI_LAND_4;El Dragón comienza con una <b>Azarai</b> 5f 5 Tierras salvajes en su mano.
+MUTAGEN_SETUP_ALL_CARDS_COST_AT_LEAST_5;Cada carta de tu mazo que cueste menos de 5 ahora cuesta 5.
+HUMAN;<sprite="icon_human" index=0>
+DRAGON_TYPE_TETHRA;Tethra
+DRAGON_TYPE_OROSEI;Orosei
+DRAGON_TYPE_GARUDAN;Garudan
+DRAGON_TYPE_CELESTE;Celeste
+DRAGON_TYPE_AZARAI;Azarai
+TOOLTIP_DISCOVER;<color=white><b>Discover:</b></color> Elige una carta entre 3 y luego añádela a tu mano.
+DISCOVER;<b>Descubre</b>
+TOOLTIP_DRAGONS_LAIR_REWARD;Derrota a {0} {1} veces más para desbloquear esta recompensa.
+NEWS_GAGANA_CARDS;Cartas de Gagana
+NEWS_GAGANA;Expansión de Gagana
+GAMEPAD_RIGHT_BUTTONS_LEFT;<sprite="icon_gamepad_button_{gamepad_type}" index=9>
+GAMEPAD_RIGHT_BUTTONS_TOP;<sprite="icon_gamepad_button_{gamepad_type}" index=11>
+GAMEPAD_TOOLTIP_ACTIVATE;<color=white><b>Activar:</b></color> Pulsa {GAMEPAD_ACTION_CONFIRM} en esta Estructura para activar su efecto.
+MOUSE_TOOLTIP_ACTIVATE;<color=white><b>Activar:</b></color> Pulsa esta Estructura para activar su efecto.
+NEWS_ADDITIONAL_CONTENT;Contenido adicional

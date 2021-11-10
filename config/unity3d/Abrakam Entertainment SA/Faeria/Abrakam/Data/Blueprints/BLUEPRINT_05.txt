@@ -1,0 +1,17 @@
+# Name: BLUEPRINT_05
+# Order: 5
+# RequirementType: LEVEL
+# RequirementParam: 6
+--------
+2 Falcon Dive
+2 Hold the Line!
+2 Shifting Tide
+2 Spellwhirl
+2 Queen's Guard
+2 Triton Diver
+3 Frogify
+3 Battle Toads
+3 Water Elemental
+3 Triton Warrior
+3 Wavecrash Colossus
+3 Mystic Beast

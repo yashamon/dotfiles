@@ -81,59 +81,59 @@ css 364:   365:  "--------------------------------------------------------------
 @??? 561:  map <m-Space> <cmd>HopWord<cr> 562:   563:   564:   565:  " map t <ESC>:syntax off <CR>t: syntax on<CR> 566:  "  map t :syntaxoff <Plug>Sneak s 567:  " map T <Plug>Sneak S 568:  " let g:sneak#s next = 1 569:  "  let g:sneak#label = 1 570:   571:  " FZF  572:  " 573:  noremap <m-t> :wa<cr>:BTags<cr> 574:  noremap <m-y> :wa<cr>:Tags<cr> 575:  noremap S <Esc> :wa<cr>:BLines<CR> 576:  "noremap L <Esc>:AsyncRun sentence.
 sh  ;nvr sentence  <cr>:echo 'press any key'<cr>:execute 'call getchar()' | BLines<cr> 577:  " Line search mapping  578:  " function! Jumpback()  579:  "   K=bufname() 580:  "   normal viwhy<esc>:bdelete<cr>:buffer K<c-r>+<cr>:ZenMode<cr> 581:  " endfunction 582:  noremap <leader>ss :wa<cr>:source  MYVIMRC<cr>  583:  noremap <c-e> viwy  584:  noremap <c-p> :<c-r>+<cr> 585:  noremap <m-l> viwy:bdelete<cr>:execute "buffer" g:buf<cr>:<c-r>+<cr>:TZAtaraxis<cr><cr> 586:  " noremap <m-l> viwy<esc>:bp<cr>:<c-r>+<cr> 587:  noremap <m-b> <Esc>:wa<cr>:Buffers<CR> 588:  " noremap F <Esc>:GFiles<CR> 589:  map <A-e> :wa<cr>:FZF ~<CR> 590:   591:  " vimtex settings 592:  " 593:  " 594:  " 595:  " let g:vimtex view general viewer 596:  "            = '/Applications/Skim.
 app/Contents/SharedSupport/displayline' 597:  " let g:vimtex view general options = '-r @line @pdf @tex' 598:  let g:latex view general viewer = 'zathura' 599:  let g:vimtex view method = "zathura" 600:  let g:vimtex view automatic = 0 601:   602:  "fvim 603:  " 604:    605:  function! Profile() 606:  profile start profile.
-log 607:  profile func * 608:  profile file * 609:  endfunction  610:   611:  function! Sentence() 612:    let g:buf = bufname() 613:    AsyncRun sentence.
-sh   614:    echo "Print any character" 615:    call getchar() 616:    e sentence   617:    " echo "Print any character" 618:    " call getchar() 619:    BLines 620:    AsyncStop 621:  endfunction 622:  noremap L :wa<cr>:TZAtaraxisOff<cr>:call Sentence()<cr> 623:  " noremap L :TZAtaraxisOff<cr><cr>:call Sentence()<cr> 624:  function! Git()  625:    AsyncRun if git rev-parse --is-inside-work-tree || git rev-parse --git-dir > /dev/null 2>&1 ; then git add   ; git commit -m -a ; git push --all origin; fi   626:    AsyncStop 627:  endfunction 628:  " autocmd BufWritePost *  call Git() 629:  "  630:  " silent execute 'AsyncRun if git rev-parse --is-inside-work-tree || git rev-parse --git-dir > /dev/null 2>&1 ; then git add   ; git commit -m -a ; git push --all origin; fi' 631:   632:   633:  function! ToggleQuickFix() 634:      if empty(filter(getwininfo(), 'v:val.
-quickfix')) 635:          TZAtaraxisOff  636:          let filename=bufname(" ") 637:          let errors=".
+log 607:  profile func * 608:  profile file * 609:  endfunction  610:   611:  function! Sentence() 612:    let g:buf = bufname() 613:    silent !sentence.
+sh   614:    echo "Print any character" 615:    call getchar() 616:    e sentence   617:    " echo "Print any character" 618:    " call getchar() 619:    BLines 620:  endfunction 621:  noremap L :wa<cr>:TZAtaraxisOff<cr>:call Sentence()<cr> 622:  " noremap L :TZAtaraxisOff<cr><cr>:call Sentence()<cr> 623:  function! Git()  624:    AsyncRun if git rev-parse --is-inside-work-tree || git rev-parse --git-dir > /dev/null 2>&1 ; then git add   ; git commit -m -a ; git push --all origin; fi   625:    AsyncStop 626:  endfunction 627:  " autocmd BufWritePost *  call Git() 628:  "  629:  " silent execute 'AsyncRun if git rev-parse --is-inside-work-tree || git rev-parse --git-dir > /dev/null 2>&1 ; then git add   ; git commit -m -a ; git push --all origin; fi' 630:  test 631:   632:  function! ToggleQuickFix() 633:      if empty(filter(getwininfo(), 'v:val.
+quickfix')) 634:          TZAtaraxisOff  635:          let filename=bufname(" ") 636:          let errors=".
 /build/" . 
-637:++++ filename[:-4].
-"log" 638:          exec "cf" errors  639:          copen 640:      else 641:          cclose  642:          TZAtaraxisOn 643:          endif 644:  endfunction 645:   646:  au filetype tex nnoremap <silent> <leader>s :wa<cr>:call ToggleQuickFix()<cr> 647:   648:     649:  function! CompileLatex()  650:    let buf = bufname() 651:    silent te latexmk -pvc -file-line-error -synctex=1 -halt-on-error -interaction=nonstopmode -recorder -f -g   652:    execute "buffer" buf 653:    call ViewPdf() 654:  endfunction 655:   656:  function! ViewPdf()  657:  wa 658:  let buf = bufname()  659:  let linenumber=line(".
-") 660:  let colnumber=col(".
-") 661:  let filename=bufname(" ") 662:  let filenamePDF=".
+636:++++ filename[:-4].
+"log" 637:          exec "cf" errors  638:          copen 639:      else 640:          cclose  641:          TZAtaraxisOn 642:          endif 643:  endfunction 644:   645:  au filetype tex nnoremap <silent> <leader>s :wa<cr>:call ToggleQuickFix()<cr> 646:   647:     648:  function! CompileLatex()  649:    let buf = bufname() 650:    silent te latexmk -pvc -file-line-error -synctex=1 -halt-on-error -interaction=nonstopmode -recorder -f -g   651:    execute "buffer" buf 652:    call ViewPdf() 653:  endfunction 654:   655:  function! ViewPdf()  656:  wa 657:  let buf = bufname()  658:  let linenumber=line(".
+") 659:  let colnumber=col(".
+") 660:  let filename=bufname(" ") 661:  let filenamePDF=".
 /build/" . 
-662:++++ filename[:-4].
-"pdf" 663:  let execstr="silent !zathura --synctex-forward " . 
-663:++++ linenumber . 
-663:++++ ":" . 
-663:++++ colnumber . 
-663:++++ ":" . 
-663:++++ filename . 
-663:++++ " " . 
-663:++++ filenamePDF . 
-663:++++ " &>/dev/null &" 664:  " . 
-664:++++ "&>/dev/null &"    665:  exec execstr 666:  execute "buffer" buf 667:  endfunction  668:  nmap <leader>v :wa<cr>:call ViewPdf()<cr> 669:  " nmap <leader>v :VimtexView<cr> 670:  " let  g:vimtex fold types defaults = 'preamble, sections, comments' 671:  nmap <leader>l :wa<cr>:call CompileLatex()<cr> 672:  " nmap <leader>m :silent ! cp   backup;  pandoc  backup -s --webtex -o backup.
+661:++++ filename[:-4].
+"pdf" 662:  let execstr="silent !zathura --synctex-forward " . 
+662:++++ linenumber . 
+662:++++ ":" . 
+662:++++ colnumber . 
+662:++++ ":" . 
+662:++++ filename . 
+662:++++ " " . 
+662:++++ filenamePDF . 
+662:++++ " &>/dev/null &" 663:  " . 
+663:++++ "&>/dev/null &"    664:  exec execstr 665:  execute "buffer" buf 666:  endfunction  667:  nmap <leader>v :wa<cr>:call ViewPdf()<cr> 668:  " nmap <leader>v :VimtexView<cr> 669:  " let  g:vimtex fold types defaults = 'preamble, sections, comments' 670:  nmap <leader>l :wa<cr>:call CompileLatex()<cr> 671:  " nmap <leader>m :silent ! cp   backup;  pandoc  backup -s --webtex -o backup.
 html;  cp backup.
-html  <cr>:e  <cr> 673:   674:  " nmap <leader>m :silent ! cp   backup;  pandoc  backup -s --mathjax[=https://cdnjs.
+html  <cr>:e  <cr> 672:   673:  " nmap <leader>m :silent ! cp   backup;  pandoc  backup -s --mathjax[=https://cdnjs.
 cloudflare.
 com/ajax/libs/mathjax/2.
 7.
 7/MathJax.
 js] -o backup.
 html;  cp backup.
-html  <cr>:e  <cr>:w<cr>:qa<cr>  675:  "" mathml shenanigans 676:   677:  nmap <leader>m :w<cr>:silent ! cat   >> ~/workspace/email.
+html  <cr>:e  <cr>:w<cr>:qa<cr>  674:  "" mathml shenanigans 675:   676:  nmap <leader>m :w<cr>:silent ! cat   >> ~/workspace/email.
 txt; cp   /tmp/temp; make4ht /tmp/temp "mathml,mathjax"; pandoc /tmp/temp.
 html --from html --to markdown strict -o /tmp/temp.
 md; mv /tmp/temp.
-md  <cr>:e  <cr>:w<cr>:qa<cr> 678:   679:  " pandoc backup -s html -o markdown cp backup.
-html  <cr>:e  <cr>:w<cr>:qa<cr>  680:   681:  " <cr> 682:  " ; pandoc backup.
+md  <cr>:e  <cr>:w<cr>:qa<cr> 677:   678:  " pandoc backup -s html -o markdown cp backup.
+html  <cr>:e  <cr>:w<cr>:qa<cr>  679:   680:  " <cr> 681:  " ; pandoc backup.
 html > backup.
 md; cp backup.
-md  <cr>:e  <cr> 683:   684:  " nmap <leader>l :VimtexCompile<CR> 685:  " nmap <leader>s <Esc>:VimtexErrors<CR> 686:  " map <leader>g :ZenMode<CR>  687:  nmap <leader>g :w<cr>:TZAtaraxis<CR> 688:  nmap <leader>p :Denite neoyank -default-action=append<CR> 689:   690:  " NB: this supports "rp that replaces the selection by the contents of @r 691:  " Auto updating Ctags 692:  " autocmd VimLeave * exe ":silent ! ctags -R" 693:  map :tags  exe ":silent ! /usr/local/bin/ctags -R" 694:   695:  "Nerd Tree 696:  " map <leader>e :NERDTreeFind<CR> 697:  " map <C-e> :NERDTreeToggle<CR>:NERDTreeMirror<CR> 698:  " 699:  " 700:  " 701:  "Vifm 702:  let g:vifmLiveCwd=1 703:  let g:vifmUseCurrent=1 704:   705:  "Autosave and autocommit    706:  " let g:updatetime = 10000 707:  let g:auto save = 0 708:  " .
-vimrc 709:  let g:auto save events = ["CursorHold"] 710:  "au FileType vim let g:autosave = 0 711:  let g:auto save in insert mode = 0 712:  let g:auto save silent = 0 713:   714:  "Git autocommit  (private git repo) 715:   716:  autocmd BufWritePost * silent execute 'AsyncRun if git rev-parse --is-inside-work-tree || git rev-parse --git-dir > /dev/null 2>&1 ; then git add   ; git commit -m -a ; git push --all origin; fi'  717:  " let inside git repo=" (git rev-parse --is-inside-work-tree 2>/dev/null)" 718:  " autocmd BufWritePost * silent execute 'AsyncRun if git rev-parse --is-inside-work-tree 2>/dev/null ; then git add   ; git commit -m -a ; git push --all origin; fi' 719:  " autocmd BufWritePost * <Esc>:AsyncRun 'if [ -d .
-git ] || git rev-parse --git-dir > /dev/null 2>&1 ; then git add   ; git commit -m ; git push --all origin; fi' 720:  " "Highlight 721:  " hi MatchParen cterm=underline ctermbg=none ctermfg=none 722:  " hi MatchParen guibg=NONE guifg=green gui=NONE 723:      " 724:      " 725:      " 726:      " UndoTree   727:  noremap <Leader>u :TZAtaraxisOff<cr>:wa<cr>:UndotreeToggle<CR> 728:          " If undotree is opened, it is likely one wants to interact with it.
-@??? 729:          let g:undotree SetFocusWhenToggle=1 730:          noremap <D-z> u 731:          noremap <S-C-z> <C-r> 732:          " noremap <C-z> u 733:      "   734:   735:   736:  " Latex shortcuts 737:  "Latex compile.
-@??? 738:  "them to an external terminal and run there.
-@??? 739:  " map <Leader>l :tabe  <CR><Esc>:term ; latexmk -pvc -pdf -file-line-error -synctex=1 -interaction=nonstopmode -recorder  <CR><leader>e 740:  "Zathura forward search 741:  " map <Leader>v <Esc>:silent !zathura --synctex-forward <Ctrl+R>=line('.
+md  <cr>:e  <cr> 682:   683:  " nmap <leader>l :VimtexCompile<CR> 684:  " nmap <leader>s <Esc>:VimtexErrors<CR> 685:  " map <leader>g :ZenMode<CR>  686:  nmap <leader>g :w<cr>:TZAtaraxis<CR> 687:  nmap <leader>p :Denite neoyank -default-action=append<CR> 688:   689:  " NB: this supports "rp that replaces the selection by the contents of @r 690:  " Auto updating Ctags 691:  " autocmd VimLeave * exe ":silent ! ctags -R" 692:  map :tags  exe ":silent ! /usr/local/bin/ctags -R" 693:   694:  "Nerd Tree 695:  " map <leader>e :NERDTreeFind<CR> 696:  " map <C-e> :NERDTreeToggle<CR>:NERDTreeMirror<CR> 697:  " 698:  " 699:  " 700:  "Vifm 701:  let g:vifmLiveCwd=1 702:  let g:vifmUseCurrent=1 703:   704:  "Autosave and autocommit    705:  " let g:updatetime = 10000 706:  let g:auto save = 0 707:  " .
+vimrc 708:  let g:auto save events = ["CursorHold"] 709:  "au FileType vim let g:autosave = 0 710:  let g:auto save in insert mode = 0 711:  let g:auto save silent = 0 712:   713:  "Git autocommit  (private git repo) 714:   715:  autocmd BufWritePost * silent execute 'AsyncRun if git rev-parse --is-inside-work-tree || git rev-parse --git-dir > /dev/null 2>&1 ; then git add   ; git commit -m -a ; git push --all origin; fi'  716:  " let inside git repo=" (git rev-parse --is-inside-work-tree 2>/dev/null)" 717:  " autocmd BufWritePost * silent execute 'AsyncRun if git rev-parse --is-inside-work-tree 2>/dev/null ; then git add   ; git commit -m -a ; git push --all origin; fi' 718:  " autocmd BufWritePost * <Esc>:AsyncRun 'if [ -d .
+git ] || git rev-parse --git-dir > /dev/null 2>&1 ; then git add   ; git commit -m ; git push --all origin; fi' 719:  " "Highlight 720:  " hi MatchParen cterm=underline ctermbg=none ctermfg=none 721:  " hi MatchParen guibg=NONE guifg=green gui=NONE 722:      " 723:      " 724:      " 725:      " UndoTree   726:  noremap <Leader>u :TZAtaraxisOff<cr>:wa<cr>:UndotreeToggle<CR> 727:          " If undotree is opened, it is likely one wants to interact with it.
+@??? 728:          let g:undotree SetFocusWhenToggle=1 729:          noremap <D-z> u 730:          noremap <S-C-z> <C-r> 731:          " noremap <C-z> u 732:      "   733:   734:   735:  " Latex shortcuts 736:  "Latex compile.
+@??? 737:  "them to an external terminal and run there.
+@??? 738:  " map <Leader>l :tabe  <CR><Esc>:term ; latexmk -pvc -pdf -file-line-error -synctex=1 -interaction=nonstopmode -recorder  <CR><leader>e 739:  "Zathura forward search 740:  " map <Leader>v <Esc>:silent !zathura --synctex-forward <Ctrl+R>=line('.
 '):1: :p  :p:h/build/ :r.
-pdf<CR><CR> 742:  "source ~/.
-anyname   743:  "au filetype tex filetype indent off 744:  "  GUI Stuff    745:  command -nargs=? Guifont call rpcnotify(0, 'Gui', 'SetFont', " <args >") | let g:Guifont="<args>" 746:   747:  " Deoplete 748:   749:  " map <silent> <leader>g :silent execute "!(cd /root/web2 ; git add . 
-749:++++ ; git commit -m -a ; git push origin gh-pages) > /dev/null"<CR> 750:  set directory= HOME/Downloads 751:   752:   753:  "LUA 754:  " lua <<EOF 755:  " require'nvim-tree'.
-setup() 756:  " EOF 757:  lua <<EOF 758:  require'nvim-treesitter.
+pdf<CR><CR> 741:  "source ~/.
+anyname   742:  "au filetype tex filetype indent off 743:  "  GUI Stuff    744:  command -nargs=? Guifont call rpcnotify(0, 'Gui', 'SetFont', " <args >") | let g:Guifont="<args>" 745:   746:  " Deoplete 747:   748:  " map <silent> <leader>g :silent execute "!(cd /root/web2 ; git add . 
+748:++++ ; git commit -m -a ; git push origin gh-pages) > /dev/null"<CR> 749:  set directory= HOME/Downloads 750:   751:   752:  "LUA 753:  " lua <<EOF 754:  " require'nvim-tree'.
+setup() 755:  " EOF 756:  lua <<EOF 757:  require'nvim-treesitter.
 configs'.
-setup    759:      -- 760:      highlight =   enable = true  , 761:      incremental selection =   enable = true  , 762:      textobjects =   enable = true  , 763:      indent =   enable = true  ,  764:    765:  EOF 766:   767:  lua <<EOF 768:  require'nvim-treesitter.
+setup    758:      -- 759:      highlight =   enable = true  , 760:      incremental selection =   enable = true  , 761:      textobjects =   enable = true  , 762:      indent =   enable = true  ,  763:    764:  EOF 765:   766:  lua <<EOF 767:  require'nvim-treesitter.
 configs'.
-setup   769:    incremental selection =   770:      enable = true, 771:      keymaps =   772:        init selection = "gnn", 773:        node incremental = "grn", 774:        scope incremental = "grc", 775:        node decremental = "grm", 776:       , 777:     , 778:    779:  EOF 780:   781:  " lua <<EOF 782:  " require('neoscroll').
-setup  783:  "     -- All these keys will be mapped to their corresponding default scrolling animation 784:  "     mappings =  '<C-u>', '<C-d>', '<C-b>', '<C-f>', 785:  "                 '<C-y>', '<C-e>', 'zt', 'zz', 'zb' , 786:  "     hide cursor = true,          -- Hide cursor while scrolling 787:  "     stop eof = true,             -- Stop at <EOF> when scrolling downwards 788:  "     use local scrolloff = false, -- Use the local scope of scrolloff instead of the global scope 789:  "     respect scrolloff = false,   -- Stop scrolling when the cursor reaches the scrolloff margin of the file 790:  "     cursor scrolls alone = true, -- The cursor will keep on scrolling even if the window cannot scroll further 791:  "     easing function = nil,        -- Default easing function 792:  "     pre hook = nil,              -- Function to run before the scrolling animation starts 793:  "     post hook = nil,              -- Function to run after the scrolling animation ends 794:  "       795:  " EOF 796:  "  797:  " " set foldlevel=20 798:  " " set foldmethod=expr 799:  " " set foldexpr=nvim treesitter#foldexpr() 800:  set foldmethod=expr foldexpr=getline(v:lnum)=~'  s*'.
-&commentstring[0] 801:  "  802:  "  803:  "  804:  " vsnip stuff  805:  " Use <Tab> and <S-Tab> to navigate through popup menu 806:  inoremap <expr> <Tab> pumvisible() ? " <C-n>" : " <Tab>" 807:  inoremap <expr> <S-Tab> pumvisible() ? " <C-p>" : " <S-Tab>" 808:   809:  " Set completeopt to have a better completion experience 810:  set completeopt=menuone,noinsert,noselect 811:   812:  " Avoid showing message extra message when using completion 813:  set shortmess+=c 814:  let g:vsnip snippet dir = '~/dotfiles/snippets'   815:   816:  " imap <expr> <m-space>   vsnip#expandable()  ? '<Plug>(vsnip-expand)'         : '<C-j>' 817:  " smap <expr> <m-space>   vsnip#expandable()  ? '<Plug>(vsnip-expand)'         : '<C-j>' 818:  "  819:  " " Expand or jump 820:  " imap <expr> <m-space>   vsnip#available(1)  ? '<Plug>(vsnip-expand-or-jump)' : '<C-l>' 821:  " smap <expr> <m-space>   vsnip#available(1)  ? '<Plug>(vsnip-expand-or-jump)' : '<C-l>' 822:   823:  " Jump forward or backward 824:  imap <expr> <M-j>   vsnip#jumpable(1)   ? '<Plug>(vsnip-jump-next)'      : '<Tab>' 825:    smap <expr> <M-j>   vsnip#jumpable(1)   ? '<Plug>(vsnip-jump-next)'      : '<Tab>' 826:  imap <expr> <M-k> vsnip#jumpable(-1)  ? '<Plug>(vsnip-jump-prev)'      : '<S-Tab>' 827:  smap <expr> <M-k> vsnip#jumpable(-1)  ? '<Plug>(vsnip-jump-prev)'      : '<S-Tab>' 828:   829:  " 830:  " set foldexpr=nvim treesitter#foldexpr() 831:  " 832:  lua << EOF 833:  local nvim lsp = require('lspconfig') 834:  -- Use an on attach function to only map the following keys 835:  -- after the language server attaches to the current buffer 836:  local on attach = function(client, bufnr) 837:    local function buf set keymap(.
+setup   768:    incremental selection =   769:      enable = true, 770:      keymaps =   771:        init selection = "gnn", 772:        node incremental = "grn", 773:        scope incremental = "grc", 774:        node decremental = "grm", 775:       , 776:     , 777:    778:  EOF 779:   780:  " lua <<EOF 781:  " require('neoscroll').
+setup  782:  "     -- All these keys will be mapped to their corresponding default scrolling animation 783:  "     mappings =  '<C-u>', '<C-d>', '<C-b>', '<C-f>', 784:  "                 '<C-y>', '<C-e>', 'zt', 'zz', 'zb' , 785:  "     hide cursor = true,          -- Hide cursor while scrolling 786:  "     stop eof = true,             -- Stop at <EOF> when scrolling downwards 787:  "     use local scrolloff = false, -- Use the local scope of scrolloff instead of the global scope 788:  "     respect scrolloff = false,   -- Stop scrolling when the cursor reaches the scrolloff margin of the file 789:  "     cursor scrolls alone = true, -- The cursor will keep on scrolling even if the window cannot scroll further 790:  "     easing function = nil,        -- Default easing function 791:  "     pre hook = nil,              -- Function to run before the scrolling animation starts 792:  "     post hook = nil,              -- Function to run after the scrolling animation ends 793:  "       794:  " EOF 795:  "  796:  " " set foldlevel=20 797:  " " set foldmethod=expr 798:  " " set foldexpr=nvim treesitter#foldexpr() 799:  set foldmethod=expr foldexpr=getline(v:lnum)=~'  s*'.
+&commentstring[0] 800:  "  801:  "  802:  "  803:  " vsnip stuff  804:  " Use <Tab> and <S-Tab> to navigate through popup menu 805:  inoremap <expr> <Tab> pumvisible() ? " <C-n>" : " <Tab>" 806:  inoremap <expr> <S-Tab> pumvisible() ? " <C-p>" : " <S-Tab>" 807:   808:  " Set completeopt to have a better completion experience 809:  set completeopt=menuone,noinsert,noselect 810:   811:  " Avoid showing message extra message when using completion 812:  set shortmess+=c 813:  let g:vsnip snippet dir = '~/dotfiles/snippets'   814:   815:  " imap <expr> <m-space>   vsnip#expandable()  ? '<Plug>(vsnip-expand)'         : '<C-j>' 816:  " smap <expr> <m-space>   vsnip#expandable()  ? '<Plug>(vsnip-expand)'         : '<C-j>' 817:  "  818:  " " Expand or jump 819:  " imap <expr> <m-space>   vsnip#available(1)  ? '<Plug>(vsnip-expand-or-jump)' : '<C-l>' 820:  " smap <expr> <m-space>   vsnip#available(1)  ? '<Plug>(vsnip-expand-or-jump)' : '<C-l>' 821:   822:  " Jump forward or backward 823:  imap <expr> <M-j>   vsnip#jumpable(1)   ? '<Plug>(vsnip-jump-next)'      : '<Tab>' 824:    smap <expr> <M-j>   vsnip#jumpable(1)   ? '<Plug>(vsnip-jump-next)'      : '<Tab>' 825:  imap <expr> <M-k> vsnip#jumpable(-1)  ? '<Plug>(vsnip-jump-prev)'      : '<S-Tab>' 826:  smap <expr> <M-k> vsnip#jumpable(-1)  ? '<Plug>(vsnip-jump-prev)'      : '<S-Tab>' 827:   828:  " 829:  " set foldexpr=nvim treesitter#foldexpr() 830:  " 831:  lua << EOF 832:  local nvim lsp = require('lspconfig') 833:  -- Use an on attach function to only map the following keys 834:  -- after the language server attaches to the current buffer 835:  local on attach = function(client, bufnr) 836:    local function buf set keymap(.
 .
 .
 ) vim.
@@ -141,7 +141,7 @@ api.
 nvim buf set keymap(bufnr, .
 .
 .
-) end 838:    local function buf set option(.
+) end 837:    local function buf set option(.
 .
 .
 ) vim.
@@ -149,227 +149,227 @@ api.
 nvim buf set option(bufnr, .
 .
 .
-) end 839:  -- Enable completion triggered by <c-x><c-o> 840:    buf set option('omnifunc', 'v:lua.
+) end 838:  -- Enable completion triggered by <c-x><c-o> 839:    buf set option('omnifunc', 'v:lua.
 vim.
 lsp.
-omnifunc') 841:   842:    -- Mappings.
-@??? 843:    local opts =   noremap=true, silent=true   844:   845:    -- See `:help vim.
+omnifunc') 840:   841:    -- Mappings.
+@??? 842:    local opts =   noremap=true, silent=true   843:   844:    -- See `:help vim.
 lsp.
-*` for documentation on any of the below functions 846:    buf set keymap('n', 'gD', '<cmd>lua vim.
-lsp.
-buf.
-declaration()<CR>', opts) 847:    buf set keymap('n', 'gd', '<cmd>lua vim.
+*` for documentation on any of the below functions 845:    buf set keymap('n', 'gD', '<cmd>lua vim.
 lsp.
 buf.
-definition()<CR>', opts) 848:    --buf set keymap('n', 'K', '<cmd>lua vim.
+declaration()<CR>', opts) 846:    buf set keymap('n', 'gd', '<cmd>lua vim.
 lsp.
 buf.
-hover()<CR>', opts) 849:    buf set keymap('n', 'gi', '<cmd>lua vim.
+definition()<CR>', opts) 847:    --buf set keymap('n', 'K', '<cmd>lua vim.
 lsp.
 buf.
-implementation()<CR>', opts) 850:    buf set keymap('n', '<S-C-k>', '<cmd>lua vim.
+hover()<CR>', opts) 848:    buf set keymap('n', 'gi', '<cmd>lua vim.
 lsp.
 buf.
-signature help()<CR>', opts) 851:    buf set keymap('n', '<space>wa', '<cmd>lua vim.
+implementation()<CR>', opts) 849:    buf set keymap('n', '<S-C-k>', '<cmd>lua vim.
 lsp.
 buf.
-add workspace folder()<CR>', opts) 852:    buf set keymap('n', '<space>wr', '<cmd>lua vim.
+signature help()<CR>', opts) 850:    buf set keymap('n', '<space>wa', '<cmd>lua vim.
 lsp.
 buf.
-remove workspace folder()<CR>', opts) 853:    buf set keymap('n', '<space>wl', '<cmd>lua print(vim.
+add workspace folder()<CR>', opts) 851:    buf set keymap('n', '<space>wr', '<cmd>lua vim.
+lsp.
+buf.
+remove workspace folder()<CR>', opts) 852:    buf set keymap('n', '<space>wl', '<cmd>lua print(vim.
 inspect(vim.
 lsp.
 buf.
-list workspace folders()))<CR>', opts) 854:    buf set keymap('n', '<space>D', '<cmd>lua vim.
+list workspace folders()))<CR>', opts) 853:    buf set keymap('n', '<space>D', '<cmd>lua vim.
 lsp.
 buf.
-type definition()<CR>', opts) 855:    buf set keymap('n', '<space>rn', '<cmd>lua vim.
+type definition()<CR>', opts) 854:    buf set keymap('n', '<space>rn', '<cmd>lua vim.
 lsp.
 buf.
-rename()<CR>', opts) 856:    buf set keymap('n', '<leader>ca', '<cmd>lua vim.
+rename()<CR>', opts) 855:    buf set keymap('n', '<leader>ca', '<cmd>lua vim.
 lsp.
 buf.
-code action()<CR>', opts) 857:    --buf set keymap('n', 'lr', '<cmd>lua vim.
+code action()<CR>', opts) 856:    --buf set keymap('n', 'lr', '<cmd>lua vim.
 lsp.
 buf.
-references()<CR>', opts) 858:    buf set keymap('n', '<space>e', '<cmd>lua vim.
+references()<CR>', opts) 857:    buf set keymap('n', '<space>e', '<cmd>lua vim.
 lsp.
 diagnostic.
-show line diagnostics()<CR>', opts) 859:    buf set keymap('n', '[d', '<cmd>lua vim.
+show line diagnostics()<CR>', opts) 858:    buf set keymap('n', '[d', '<cmd>lua vim.
 lsp.
 diagnostic.
-goto prev()<CR>', opts) 860:    buf set keymap('n', ']d', '<cmd>lua vim.
+goto prev()<CR>', opts) 859:    buf set keymap('n', ']d', '<cmd>lua vim.
 lsp.
 diagnostic.
-goto next()<CR>', opts) 861:    buf set keymap('n', '<space>q', '<cmd>lua vim.
+goto next()<CR>', opts) 860:    buf set keymap('n', '<space>q', '<cmd>lua vim.
 lsp.
 diagnostic.
-set loclist()<CR>', opts) 862:    buf set keymap('n', '<space>f', '<cmd>lua vim.
+set loclist()<CR>', opts) 861:    buf set keymap('n', '<space>f', '<cmd>lua vim.
 lsp.
 buf.
-formatting()<CR>', opts) 863:   864:  end 865:   866:  -- Use a loop to conveniently call 'setup' on multiple servers and 867:  -- map buffer local keybindings when the language server attaches 868:  --local servers =  'pyright', 'tsserver', 'texlab', 'jsonls'  869:  --for  , lsp in ipairs(servers) do 870:  --nvim lsp[lsp].
-setup   871:   --   on attach = on attach, 872:    --  flags =   873:     --   debounce text changes = 150, 874:     --   875:  --    876:  --end 877:  EOF 878:   879:   880:  "Lsp install 881:   882:  lua << EOF 883:  local function setup servers() 884:    require'lspinstall'.
-setup() 885:    local servers = require'lspinstall'.
-installed servers() 886:    for  , server in pairs(servers) do 887:      require'lspconfig'[server].
+formatting()<CR>', opts) 862:   863:  end 864:   865:  -- Use a loop to conveniently call 'setup' on multiple servers and 866:  -- map buffer local keybindings when the language server attaches 867:  --local servers =  'pyright', 'tsserver', 'texlab', 'jsonls'  868:  --for  , lsp in ipairs(servers) do 869:  --nvim lsp[lsp].
+setup   870:   --   on attach = on attach, 871:    --  flags =   872:     --   debounce text changes = 150, 873:     --   874:  --    875:  --end 876:  EOF 877:   878:   879:  "Lsp install 880:   881:  lua << EOF 882:  local function setup servers() 883:    require'lspinstall'.
+setup() 884:    local servers = require'lspinstall'.
+installed servers() 885:    for  , server in pairs(servers) do 886:      require'lspconfig'[server].
 setup capabilities = require('cmp nvim lsp').
 update capabilities(vim.
 lsp.
 protocol.
-make client capabilities())  888:    end 889:  end 890:   891:  setup servers() 892:   893:  -- Automatically reload after `:LspInstall <server>` so we don't have to restart neovim 894:  require'lspinstall'.
-post install hook = function () 895:    setup servers() -- reload installed servers 896:    vim.
-cmd("bufdo e") -- this triggers the FileType autocmd that starts the server 897:  end 898:  EOF 899:   900:  nnoremap <leader>y :FZFNeoyank<cr> 901:  nnoremap <leader>Y :FZFNeoyank  P<cr> 902:  vnoremap <leader>y :FZFNeoyankSelection<cr> 903:   904:  nnoremap <leader>p :FZFNeoyank +<cr>  905:  nnoremap <leader>1 :FZFNeoyank 1<cr> 906:  nnoremap <leader>P :FZFNeoyank " P+<cr> 907:  vnoremap <leader>p :FZFNeoyankSelection +<cr> 908:   909:   910:  " Replace the default dictionary completion with fzf-based fuzzy completion 911:   912:  inoremap <expr> <c-x><c-k> fzf#vim#complete('cat /usr/share/dict/words')   913:  inoremap <cr> <cr> <backspace> 914:   915:  set completeopt=menu,menuone,noselect 916:   917:  lua <<EOF 918:    -- Setup cmp.
-@??? 919:   920:  local has words before = function() 921:    if vim.
+make client capabilities())  887:    end 888:  end 889:   890:  setup servers() 891:   892:  -- Automatically reload after `:LspInstall <server>` so we don't have to restart neovim 893:  require'lspinstall'.
+post install hook = function () 894:    setup servers() -- reload installed servers 895:    vim.
+cmd("bufdo e") -- this triggers the FileType autocmd that starts the server 896:  end 897:  EOF 898:   899:  nnoremap <leader>y :FZFNeoyank<cr> 900:  nnoremap <leader>Y :FZFNeoyank  P<cr> 901:  vnoremap <leader>y :FZFNeoyankSelection<cr> 902:   903:  nnoremap <leader>p :FZFNeoyank +<cr>  904:  nnoremap <leader>1 :FZFNeoyank 1<cr> 905:  nnoremap <leader>P :FZFNeoyank " P+<cr> 906:  vnoremap <leader>p :FZFNeoyankSelection +<cr> 907:   908:   909:  " Replace the default dictionary completion with fzf-based fuzzy completion 910:   911:  inoremap <expr> <c-x><c-k> fzf#vim#complete('cat /usr/share/dict/words')   912:  inoremap <cr> <cr> <backspace> 913:   914:  set completeopt=menu,menuone,noselect 915:   916:  lua <<EOF 917:    -- Setup cmp.
+@??? 918:   919:  local has words before = function() 920:    if vim.
 api.
-nvim buf get option(0, "buftype") == "prompt" then 922:      return false 923:    end 924:    local line, col = unpack(vim.
+nvim buf get option(0, "buftype") == "prompt" then 921:      return false 922:    end 923:    local line, col = unpack(vim.
 api.
-nvim win get cursor(0)) 925:    return col ~= 0 and vim.
+nvim win get cursor(0)) 924:    return col ~= 0 and vim.
 api.
-nvim buf get lines(0, line - 1, line, true)[1]:sub(col, col):match(" s") == nil 926:  end 927:   928:  local feedkey = function(key, mode) 929:    vim.
+nvim buf get lines(0, line - 1, line, true)[1]:sub(col, col):match(" s") == nil 925:  end 926:   927:  local feedkey = function(key, mode) 928:    vim.
 api.
 nvim feedkeys(vim.
 api.
-nvim replace termcodes(key, true, true, true), mode, true) 930:  end 931:   932:  local cmp = require('cmp') 933:  cmp.
-setup   934:   snippet =   935:        expand = function(args) 936:          -- For `vsnip` user.
-@??? 937:          vim.
+nvim replace termcodes(key, true, true, true), mode, true) 929:  end 930:   931:  local cmp = require('cmp') 932:  cmp.
+setup   933:   snippet =   934:        expand = function(args) 935:          -- For `vsnip` user.
+@??? 936:          vim.
 fn["vsnip#anonymous"](args.
 body) -- For `vsnip` user.
-@??? 938:    -- .
+@??? 937:    -- .
 .
 . 
-938:++++ Your other configuration .
+937:++++ Your other configuration .
 .
 .
-@??? 939:  end, 940:   , 941:  mapping =   942:        ['<C-d>'] = cmp.
+@??? 938:  end, 939:   , 940:  mapping =   941:        ['<C-d>'] = cmp.
 mapping.
-scroll docs(-4), 943:        ['<C-f>'] = cmp.
+scroll docs(-4), 942:        ['<C-f>'] = cmp.
 mapping.
-scroll docs(4), 944:        ['<C-x>'] = cmp.
+scroll docs(4), 943:        ['<C-x>'] = cmp.
 mapping.
-complete(), 945:        ['<C-e>'] = cmp.
+complete(), 944:        ['<C-e>'] = cmp.
 mapping.
-close(), 946:        ['<CR>'] = cmp.
+close(), 945:        ['<CR>'] = cmp.
 mapping.
-confirm(  select = true  ), 947:  -- .
+confirm(  select = true  ), 946:  -- .
 .
 . 
-947:++++ Your other mappings .
+946:++++ Your other mappings .
 .
 .
-@??? 948:  ["<Tab>"] = cmp.
-mapping(function(fallback)  949:        if vim.
-fn["vsnip#available"]() == 1 950:          then 951:          feedkey("<Plug>(vsnip-expand-or-jump)", "") 952:       elseif cmp.
-visible() then 953:          cmp.
-select next item() 954:        elseif has words before() then  955:          cmp.
-complete() 956:        else  957:          fallback() -- The fallback function sends a already mapped key. 
-957:++++ In this case, it's probably `<Tab>`.
-@??? 958:        end 959:      end,   "i", "s"  ), 960:  ["<S-Tab>"] = cmp.
-mapping(function() 961:        if vim.
+@??? 947:  ["<Tab>"] = cmp.
+mapping(function(fallback)  948:        if vim.
+fn["vsnip#available"]() == 1 949:          then 950:          feedkey("<Plug>(vsnip-expand-or-jump)", "") 951:       elseif cmp.
+visible() then 952:          cmp.
+select next item() 953:        elseif has words before() then  954:          cmp.
+complete() 955:        else  956:          fallback() -- The fallback function sends a already mapped key. 
+956:++++ In this case, it's probably `<Tab>`.
+@??? 957:        end 958:      end,   "i", "s"  ), 959:  ["<S-Tab>"] = cmp.
+mapping(function() 960:        if vim.
 fn.
-pumvisible() == 1 then 962:          feedkey("<C-p>", "n")   963:        elseif vim.
-fn["vsnip#jumpable"](-1) == 1 then 964:          feedkey("<Plug>(vsnip-jump-prev)", "") 965:        end 966:      end,   "i", "s"  ), 967:  -- .
+pumvisible() == 1 then 961:          feedkey("<C-p>", "n")   962:        elseif vim.
+fn["vsnip#jumpable"](-1) == 1 then 963:          feedkey("<Plug>(vsnip-jump-prev)", "") 964:        end 965:      end,   "i", "s"  ), 966:  -- .
 .
 . 
-967:++++ Your other mappings .
+966:++++ Your other mappings .
 .
 .
-@??? 968:   969:   , 970:  requires =   971:        972:        'quangnguyen30192/cmp-nvim-tags', 973:        -- if you want the sources is available for some file types 974:        ft =   975:          'tex', 976:          'latex'  977:          978:        979:       , 980:  -- .
+@??? 967:   968:   , 969:  requires =   970:        971:        'quangnguyen30192/cmp-nvim-tags', 972:        -- if you want the sources is available for some file types 973:        ft =   974:          'tex', 975:          'latex'  976:          977:        978:       , 979:  -- .
 .
 . 
-980:++++ Your other configuration .
+979:++++ Your other configuration .
 .
 .
-@??? 981:  sources =   982:        -- For vsnip user.
-@??? 983:    name = 'tags', keyword length = 1000  , 984:     name = 'vsnip', keyword length = 1000  , 985:           -- For luasnip user.
-@??? 986:        --   name = 'luasnip'  , 987:  -- For ultisnips user.
-@??? 988:        --   name = 'ultisnips'  ,   989:       name = 'buffer', keyword length = 1000  , 990:       name = 'omni', keyword length = 4 , 991:         --   name = 'spell'  ,  992:       name = 'nvim lsp', keyword length = 4  , 993:        --  name = 'treesitter', keyword length = 4  , 994:  --  name = 'latex symbols'  , 995:   , 996:  completion =   997:      autocomplete = false  998:        999:    1000:  EOF 1001:   1002:  "  1003:  " " LSP mappings    1004:  " "" LSP mappings  1005:  noremap <leader>ca  :lua vim.
+@??? 980:  sources =   981:        -- For vsnip user.
+@??? 982:    name = 'tags', keyword length = 1000  , 983:     name = 'vsnip', keyword length = 1000  , 984:           -- For luasnip user.
+@??? 985:        --   name = 'luasnip'  , 986:  -- For ultisnips user.
+@??? 987:        --   name = 'ultisnips'  ,   988:       name = 'buffer', keyword length = 1000  , 989:       name = 'omni', keyword length = 4 , 990:         --   name = 'spell'  ,  991:       name = 'nvim lsp', keyword length = 4  , 992:        --  name = 'treesitter', keyword length = 4  , 993:  --  name = 'latex symbols'  , 994:   , 995:  completion =   996:      autocomplete = false  997:        998:    999:  EOF 1000:   1001:  "  1002:  " " LSP mappings    1003:  " "" LSP mappings  1004:  noremap <leader>ca  :lua vim.
 lsp.
 buf.
-code action()<CR> 1006:  noremap <leader>la  :lua vim.
+code action()<CR> 1005:  noremap <leader>la  :lua vim.
 lsp.
 buf.
-code action()<CR> 1007:  "  1008:  "  1009:  lua <<EOF 1010:   require('nvim comment').
-setup( 1011:    1012:     -- Linters prefer comment and line to have a space in between markers 1013:     marker padding = true, 1014:     -- should comment out empty or whitespace only lines 1015:     comment empty = true, 1016:     -- Should key mappings be created 1017:     create mappings = true, 1018:     -- Normal mode mapping left hand side 1019:     line mapping = "gc", 1020:     -- Visual/Operator mapping left hand side 1021:     operator mapping = "<leader>c", 1022:     -- Hook function to call before commenting takes place 1023:     --hook = nil  1024:     1025:   ) 1026:  EOF 1027:  nmap <leader>c gc 1028:  lua <<EOF 1029:  local true zen = require("true-zen") 1030:  true zen.
-setup(  1031:   	ui =   1032:   		bottom =   1033:   			laststatus = 0, 1034:   			ruler = false, 1035:   			showmode = false, 1036:   			showcmd = false, 1037:   			cmdheight = 1, 1038:   		 , 1039:   		top =   1040:   			showtabline = 0, 1041:   		 , 1042:   		left =   1043:   			number = false, 1044:   			relativenumber = false, 1045:   			signcolumn = "no", 1046:   		 , 1047:   	 , 1048:   	modes =   1049:   		ataraxis =   1050:   			-- left padding = 20, 1051:   			-- right padding = 20, 1052:   			top padding = 0, 1053:   			bottom padding = 0, 1054:   			ideal writing area width =  60 , 1055:   			auto padding = true, 1056:   			keep default fold fillchars = true, 1057:   			custom bg =  "none", "" , 1058:   			bg configuration = true, 1059:   			quit = "untoggle", 1060:   			ignore floating windows = true, 1061:   			affected higroups =   1062:   				NonText = true, 1063:   				FoldColumn = true, 1064:   				ColorColumn = true, 1065:   				VertSplit = true, 1066:   				StatusLine = true, 1067:   				StatusLineNC = true, 1068:   				SignColumn = true, 1069:   			 , 1070:   		 , 1071:   		focus =   1072:   			margin of error = 5, 1073:   			focus method = "experimental" 1074:   		 , 1075:   	 , 1076:   	integrations =   1077:   		vim gitgutter = false, 1078:   		galaxyline = false, 1079:   		tmux = false, 1080:   		gitsigns = false, 1081:   		nvim bufferline = false, 1082:   		limelight = false, 1083:   		twilight = false, 1084:   		vim airline = false, 1085:   		vim powerline = false, 1086:   		vim signify = false, 1087:   		express line = false, 1088:   		lualine = false, 1089:   		lightline = false, 1090:   		feline = false, 1091:   	 , 1092:   	misc =   1093:   		on off commands = true, 1094:   		ui elements commands = false, 1095:   		cursor by mode = false, 1096:   	  1097:    ) 1098:  EOF 1099:  lua <<EOF 1100:  require('feline').
-setup(  1101:      preset = 'noicon' 1102:       ) 1103:  EOF 1104:  "  1105:  "  1106:  "  1107:  " " lua <<EOF 1108:  " " require('lualine').
-setup  1109:  " " options =  disabled filetypes =  'txt', 'text'   1110:  " "   1111:  " " EOF 1112:  " " lua << EOF 1113:  " "   require("zen-mode").
-setup   1114:  " "   window =   1115:  " "     backdrop = 1, -- shade the backdrop of the Zen window. 
-1115:++++ Set to 1 to keep the same as Normal 1116:  " "     -- height and width can be: 1117:  " "     -- * an absolute number of cells when > 1 1118:  " "     -- * a percentage of the width / height of the editor when <= 1 1119:  " "     -- * a function that returns the width or the height 1120:  " "     width = .
-66, -- width of the Zen window 1121:  " "     height = 1, -- height of the Zen window 1122:  " "     -- by default, no options are changed for the Zen window 1123:  " "     -- uncomment any of the options below, or add other vim.
-wo options you want to apply 1124:  " "     options =   1125:  " "       -- signcolumn = "no", -- disable signcolumn 1126:  " "       -- number = false, -- disable number column 1127:  " "       -- relativenumber = false, -- disable relative numbers 1128:  " "       -- cursorline = false, -- disable cursorline 1129:  " "       -- cursorcolumn = false, -- disable cursor column 1130:  " "       -- foldcolumn = "0", -- disable fold column 1131:  " "       -- list = false, -- disable whitespace characters 1132:  " "      , 1133:  " "    , 1134:  " "   plugins =   1135:  " "     -- disable some global vim options (vim.
+code action()<CR> 1006:  "  1007:  "  1008:  lua <<EOF 1009:   require('nvim comment').
+setup( 1010:    1011:     -- Linters prefer comment and line to have a space in between markers 1012:     marker padding = true, 1013:     -- should comment out empty or whitespace only lines 1014:     comment empty = true, 1015:     -- Should key mappings be created 1016:     create mappings = true, 1017:     -- Normal mode mapping left hand side 1018:     line mapping = "gc", 1019:     -- Visual/Operator mapping left hand side 1020:     operator mapping = "<leader>c", 1021:     -- Hook function to call before commenting takes place 1022:     --hook = nil  1023:     1024:   ) 1025:  EOF 1026:  nmap <leader>c gc 1027:  lua <<EOF 1028:  local true zen = require("true-zen") 1029:  true zen.
+setup(  1030:   	ui =   1031:   		bottom =   1032:   			laststatus = 0, 1033:   			ruler = false, 1034:   			showmode = false, 1035:   			showcmd = false, 1036:   			cmdheight = 1, 1037:   		 , 1038:   		top =   1039:   			showtabline = 0, 1040:   		 , 1041:   		left =   1042:   			number = false, 1043:   			relativenumber = false, 1044:   			signcolumn = "no", 1045:   		 , 1046:   	 , 1047:   	modes =   1048:   		ataraxis =   1049:   			-- left padding = 20, 1050:   			-- right padding = 20, 1051:   			top padding = 0, 1052:   			bottom padding = 0, 1053:   			ideal writing area width =  60 , 1054:   			auto padding = true, 1055:   			keep default fold fillchars = true, 1056:   			custom bg =  "none", "" , 1057:   			bg configuration = true, 1058:   			quit = "untoggle", 1059:   			ignore floating windows = true, 1060:   			affected higroups =   1061:   				NonText = true, 1062:   				FoldColumn = true, 1063:   				ColorColumn = true, 1064:   				VertSplit = true, 1065:   				StatusLine = true, 1066:   				StatusLineNC = true, 1067:   				SignColumn = true, 1068:   			 , 1069:   		 , 1070:   		focus =   1071:   			margin of error = 5, 1072:   			focus method = "experimental" 1073:   		 , 1074:   	 , 1075:   	integrations =   1076:   		vim gitgutter = false, 1077:   		galaxyline = false, 1078:   		tmux = false, 1079:   		gitsigns = false, 1080:   		nvim bufferline = false, 1081:   		limelight = false, 1082:   		twilight = false, 1083:   		vim airline = false, 1084:   		vim powerline = false, 1085:   		vim signify = false, 1086:   		express line = false, 1087:   		lualine = false, 1088:   		lightline = false, 1089:   		feline = false, 1090:   	 , 1091:   	misc =   1092:   		on off commands = true, 1093:   		ui elements commands = false, 1094:   		cursor by mode = false, 1095:   	  1096:    ) 1097:  EOF 1098:  lua <<EOF 1099:  require('feline').
+setup(  1100:      preset = 'noicon' 1101:       ) 1102:  EOF 1103:  "  1104:  "  1105:  "  1106:  " " lua <<EOF 1107:  " " require('lualine').
+setup  1108:  " " options =  disabled filetypes =  'txt', 'text'   1109:  " "   1110:  " " EOF 1111:  " " lua << EOF 1112:  " "   require("zen-mode").
+setup   1113:  " "   window =   1114:  " "     backdrop = 1, -- shade the backdrop of the Zen window. 
+1114:++++ Set to 1 to keep the same as Normal 1115:  " "     -- height and width can be: 1116:  " "     -- * an absolute number of cells when > 1 1117:  " "     -- * a percentage of the width / height of the editor when <= 1 1118:  " "     -- * a function that returns the width or the height 1119:  " "     width = .
+66, -- width of the Zen window 1120:  " "     height = 1, -- height of the Zen window 1121:  " "     -- by default, no options are changed for the Zen window 1122:  " "     -- uncomment any of the options below, or add other vim.
+wo options you want to apply 1123:  " "     options =   1124:  " "       -- signcolumn = "no", -- disable signcolumn 1125:  " "       -- number = false, -- disable number column 1126:  " "       -- relativenumber = false, -- disable relative numbers 1127:  " "       -- cursorline = false, -- disable cursorline 1128:  " "       -- cursorcolumn = false, -- disable cursor column 1129:  " "       -- foldcolumn = "0", -- disable fold column 1130:  " "       -- list = false, -- disable whitespace characters 1131:  " "      , 1132:  " "    , 1133:  " "   plugins =   1134:  " "     -- disable some global vim options (vim.
 o.
 .
 .
-) 1136:  " "     -- comment the lines to not apply the options 1137:  " "     options =   1138:  " "       enabled = true, 1139:  " "       ruler = false, -- disables the ruler text in the cmd line area 1140:  " "       showcmd = false, -- disables the command in the last line of the screen 1141:  " "      , 1142:  " "     twilight =   enabled = false  , -- enable to start Twilight when zen mode opens 1143:  " "     gitsigns =   enabled = false  , -- disables git signs 1144:  " "     tmux =   enabled = false  , -- disables the tmux statusline 1145:  " "     -- this will change the font size on kitty when in zen mode 1146:  " "     -- to make this work, you need to set the following kitty options: 1147:  " "     -- - allow remote control socket-only 1148:  " "     -- - listen on unix:/tmp/kitty 1149:  " "     kitty =   1150:  " "       enabled = false, 1151:  " "       font = "+4", -- font size increment 1152:  " "      , 1153:  " "    , 1154:  " "   -- callback where you can add custom code when the Zen window opens 1155:  " "   on open = function(win) 1156:  " "   end, 1157:  " "   -- callback where you can add custom code when the Zen window closes 1158:  " "   on close = function() 1159:  " "   end, 1160:  " "   1161:  " " EOF 1162:  lua <<EOF 1163:  require('telescope').
-setup  1164:    defaults =   1165:      -- Default configuration for telescope goes here: 1166:      -- config key = value, 1167:      mappings =   1168:        i =   1169:          -- map actions.
-which key to <C-h> (default: <C-/>) 1170:          -- actions.
-which key shows the mappings for your picker, 1171:          -- e.
+) 1135:  " "     -- comment the lines to not apply the options 1136:  " "     options =   1137:  " "       enabled = true, 1138:  " "       ruler = false, -- disables the ruler text in the cmd line area 1139:  " "       showcmd = false, -- disables the command in the last line of the screen 1140:  " "      , 1141:  " "     twilight =   enabled = false  , -- enable to start Twilight when zen mode opens 1142:  " "     gitsigns =   enabled = false  , -- disables git signs 1143:  " "     tmux =   enabled = false  , -- disables the tmux statusline 1144:  " "     -- this will change the font size on kitty when in zen mode 1145:  " "     -- to make this work, you need to set the following kitty options: 1146:  " "     -- - allow remote control socket-only 1147:  " "     -- - listen on unix:/tmp/kitty 1148:  " "     kitty =   1149:  " "       enabled = false, 1150:  " "       font = "+4", -- font size increment 1151:  " "      , 1152:  " "    , 1153:  " "   -- callback where you can add custom code when the Zen window opens 1154:  " "   on open = function(win) 1155:  " "   end, 1156:  " "   -- callback where you can add custom code when the Zen window closes 1157:  " "   on close = function() 1158:  " "   end, 1159:  " "   1160:  " " EOF 1161:  lua <<EOF 1162:  require('telescope').
+setup  1163:    defaults =   1164:      -- Default configuration for telescope goes here: 1165:      -- config key = value, 1166:      mappings =   1167:        i =   1168:          -- map actions.
+which key to <C-h> (default: <C-/>) 1169:          -- actions.
+which key shows the mappings for your picker, 1170:          -- e.
 g. 
-1171:++++ git  create, delete, .
+1170:++++ git  create, delete, .
 .
 .  
-branch for the git branches picker 1172:          ["<C-h>"] = "which key" 1173:          1174:        1175:     , 1176:    pickers =   1177:      -- Default configuration for builtin pickers goes here: 1178:      -- picker name =   1179:      --   picker config key = value, 1180:      --   .
+branch for the git branches picker 1171:          ["<C-h>"] = "which key" 1172:          1173:        1174:     , 1175:    pickers =   1176:      -- Default configuration for builtin pickers goes here: 1177:      -- picker name =   1178:      --   picker config key = value, 1179:      --   .
 .
 .
-@??? 1181:      --   1182:      -- Now the picker config key will be applied every time you call this 1183:      -- builtin picker  1184:     , 1185:    extensions =   1186:      -- Your extension configuration goes here: 1187:      -- extension name =   1188:      --   extension config key = value, 1189:      --   1190:      -- please take a look at the readme of the extension you want to configure 1191:      1192:     1193:  EOF 1194:  lua require'hop'.
+@??? 1180:      --   1181:      -- Now the picker config key will be applied every time you call this 1182:      -- builtin picker  1183:     , 1184:    extensions =   1185:      -- Your extension configuration goes here: 1186:      -- extension name =   1187:      --   extension config key = value, 1188:      --   1189:      -- please take a look at the readme of the extension you want to configure 1190:      1191:     1192:  EOF 1193:  lua require'hop'.
 setup   keys = 'etovxqpdygfblzhckisuran', term seq bias = 0.
-5    1195:  lua <<EOF 1196:  require('fm-nvim').
-setup  1197:  	config = 1198:  	  1199:  		edit cmd = "edit", -- opts: 'tabedit'; 'split'; 'pedit'; etc.
+5    1194:  lua <<EOF 1195:  require('fm-nvim').
+setup  1196:  	config = 1197:  	  1198:  		edit cmd = "edit", -- opts: 'tabedit'; 'split'; 'pedit'; etc.
 .
 .
-@??? 1200:  		border   = "single", -- opts: 'rounded'; 'double'; 'single'; 'solid'; 'shawdow' 1201:  		height   = .
-9, 1202:  		width    = .
-9, 1203:  	  1204:    1205:  EOF 1206:   1207:  " lua <<EOF 1208:  " require("telescope").
+@??? 1199:  		border   = "single", -- opts: 'rounded'; 'double'; 'single'; 'solid'; 'shawdow' 1200:  		height   = .
+9, 1201:  		width    = .
+9, 1202:  	  1203:    1204:  EOF 1205:   1206:  " lua <<EOF 1207:  " require("telescope").
 load extension("prosesitter") -- Optionally, depends on telescope.
-nvim 1209:  " require("prosesitter"):setup(  1210:  " 	vale bin = vim.
+nvim 1208:  " require("prosesitter"):setup(  1209:  " 	vale bin = vim.
 fn.
 stdpath("data") .
 . 
-1210:++++ "/prosesitter/vale", 1211:  " 	vale cfg = vim.
+1209:++++ "/prosesitter/vale", 1210:  " 	vale cfg = vim.
 fn.
 stdpath("data") .
 . 
-1211:++++ "/prosesitter/vale cfg.
-ini", 1212:  " 	--optional extra queries overrides existing queries 1213:  " 	queries =    1214:  " 		-- see the piece on adding queries on how to use this  1215:  " 		-- (not needed if using an out of the box supported language 1216:  " 		py =    1217:  " 			strings = "[(string) ] @capture", 1218:  " 			comments = "[(comment)+ ] @capture", 1219:  " 		 , 1220:  " 	 ,  1221:  " 	-- highlight groups to use for lint errors, warnings and suggestions 1222:  " 	--" severity to hl =   error = "SpellBad", warning = "SpellRare", suggestion: "SpellCap"  , 1223:  " 	-- weather to lint strings, comments or both for a language 1224:  " 	lint targets =   py = "both", tex = "strings", sh = "comments"  ,  1225:  " 	disabled ext =   "tex"  , -- do not ever lint tex files 1226:  " 	auto enable = false, -- do not start linting files on open (default = true) 1227:  " 	default cmds = false,  -- do not add commands (default = true) 1228:  "  ) 1229:  " EOF 1230:  lua <<EOF 1231:  require('spellsitter').
-setup   1232:    hl = 'SpellBad',  1233:    captures =   ,  -- set to    to spellcheck everything 1234:   1235:    -- Spellchecker to use. 
-1235:++++ values: 1236:    -- * vimfn: built-in spell checker using vim.
+1210:++++ "/prosesitter/vale cfg.
+ini", 1211:  " 	--optional extra queries overrides existing queries 1212:  " 	queries =    1213:  " 		-- see the piece on adding queries on how to use this  1214:  " 		-- (not needed if using an out of the box supported language 1215:  " 		py =    1216:  " 			strings = "[(string) ] @capture", 1217:  " 			comments = "[(comment)+ ] @capture", 1218:  " 		 , 1219:  " 	 ,  1220:  " 	-- highlight groups to use for lint errors, warnings and suggestions 1221:  " 	--" severity to hl =   error = "SpellBad", warning = "SpellRare", suggestion: "SpellCap"  , 1222:  " 	-- weather to lint strings, comments or both for a language 1223:  " 	lint targets =   py = "both", tex = "strings", sh = "comments"  ,  1224:  " 	disabled ext =   "tex"  , -- do not ever lint tex files 1225:  " 	auto enable = false, -- do not start linting files on open (default = true) 1226:  " 	default cmds = false,  -- do not add commands (default = true) 1227:  "  ) 1228:  " EOF 1229:  lua <<EOF 1230:  require('spellsitter').
+setup   1231:    hl = 'SpellBad',  1232:    captures =   ,  -- set to    to spellcheck everything 1233:   1234:    -- Spellchecker to use. 
+1234:++++ values: 1235:    -- * vimfn: built-in spell checker using vim.
 fn.
-spellbadword() 1237:    -- * ffi: built-in spell checker using the FFI to access the 1238:    --   internal spell check() function 1239:    spellchecker = 'vimfn', 1240:    1241:  EOF 1242:  let g:firenvim config =    1243:        'globalSettings':   1244:            'alt': 'all', 1245:          , 1246:        'localSettings':   1247:            '.
-*':   1248:                'cmdline': 'neovim', 1249:                'content': 'text', 1250:                'priority': 0, 1251:                'selector': 'textarea', 1252:                'takeover': 'always', 1253:             , 1254:          1255:      1256:   1257:  " lua << EOF 1258:  " require("stabilize").
-setup( 1259:  "   1260:  "       force = true, -- stabilize window even when current cursor position will be hidden behind new window 1261:  " 	forcemark = nil -- set context mark to register on force event which can be jumped to with '<forcemark> 1262:  " 	--ignore =    -- do not manage windows matching these file/buftypes 1263:  " --		filetype =   "help", "list", "Trouble"  , 1264:  " --		buftype =   "terminal", "quickfix", -- "loclist"   1265:  " --	  1266:  "   1267:  " ) 1268:  " EOF 1269:  " lua <<EOF 1270:  " require('dd').
-setup() 1271:  " EOF 1272:  " lua << EOF 1273:  " local opts =   1274:  "   log level = 'info', 1275:  "   auto session enable last session = false, 1276:  "   auto session root dir = vim.
+spellbadword() 1236:    -- * ffi: built-in spell checker using the FFI to access the 1237:    --   internal spell check() function 1238:    spellchecker = 'vimfn', 1239:    1240:  EOF 1241:  let g:firenvim config =    1242:        'globalSettings':   1243:            'alt': 'all', 1244:          , 1245:        'localSettings':   1246:            '.
+*':   1247:                'cmdline': 'neovim', 1248:                'content': 'text', 1249:                'priority': 0, 1250:                'selector': 'textarea', 1251:                'takeover': 'always', 1252:             , 1253:          1254:      1255:   1256:  " lua << EOF 1257:  " require("stabilize").
+setup( 1258:  "   1259:  "       force = true, -- stabilize window even when current cursor position will be hidden behind new window 1260:  " 	forcemark = nil -- set context mark to register on force event which can be jumped to with '<forcemark> 1261:  " 	--ignore =    -- do not manage windows matching these file/buftypes 1262:  " --		filetype =   "help", "list", "Trouble"  , 1263:  " --		buftype =   "terminal", "quickfix", -- "loclist"   1264:  " --	  1265:  "   1266:  " ) 1267:  " EOF 1268:  " lua <<EOF 1269:  " require('dd').
+setup() 1270:  " EOF 1271:  " lua << EOF 1272:  " local opts =   1273:  "   log level = 'info', 1274:  "   auto session enable last session = false, 1275:  "   auto session root dir = vim.
 fn.
 stdpath('data').
 .
-"/sessions/", 1277:  "   auto session enabled = false, 1278:  "   auto save enabled = nil, 1279:  "   auto restore enabled = nil, 1280:  "   auto session suppress dirs = nil 1281:  "   1282:  " require('auto-session').
-setup(opts) 1283:  " EOF 1284:   1285:  " lua << EOF 1286:  " if exists('g:started by firenvim') 1287:  "   ZenMode 1288:  " else 1289:  "   set laststatus=2 1290:  " endif 1291:   1292:  " lua <<EOF 1293:  " require('neoclip').
-setup(  1294:  "       history = 1000, 1295:  "       enable persistant history = false, 1296:  "       db path = vim.
+"/sessions/", 1276:  "   auto session enabled = false, 1277:  "   auto save enabled = nil, 1278:  "   auto restore enabled = nil, 1279:  "   auto session suppress dirs = nil 1280:  "   1281:  " require('auto-session').
+setup(opts) 1282:  " EOF 1283:   1284:  " lua << EOF 1285:  " if exists('g:started by firenvim') 1286:  "   ZenMode 1287:  " else 1288:  "   set laststatus=2 1289:  " endif 1290:   1291:  " lua <<EOF 1292:  " require('neoclip').
+setup(  1293:  "       history = 1000, 1294:  "       enable persistant history = false, 1295:  "       db path = vim.
 fn.
 stdpath("data") .
 . 
-1296:++++ "/databases/neoclip.
-sqlite3", 1297:  "       filter = nil, 1298:  "       preview = true, 1299:  "       default register = '"', 1300:  "       content spec column = false, 1301:  "       on paste =   1302:  "         set reg = false, 1303:  "        , 1304:  "       keys =   1305:  "         i =   1306:  "           select = '<cr>', 1307:  "           paste = '<c-p>', 1308:  "           paste behind = '<c-k>', 1309:  "           custom =   , 1310:  "          , 1311:  "         n =   1312:  "           select = '<cr>', 1313:  "           paste = 'p', 1314:  "           paste behind = 'P', 1315:  "           custom =   , 1316:  "          , 1317:  "        , 1318:  "     ) 1319:  " EOF 1320:  " lua <<EOF 1321:  " local saga = require 'lspsaga'  1322:  " saga.
-init lsp saga()  1323:  "   1324:  " EOF 1325:   1326:  "au FileType tex autocmd User SneakLeave set syntax=tex 1327:  "au FileType tex autocmd User SneakEnter set syntax=text 1328:  " 1329:  " 1330:  " 1331:   1332:  " 1333:  " 'tCommen20 1334:  " let g:tcommentMapLeaderOp1=';'  1335:  " "map <leader>c <Leader>    1336:  "" function! RestoreRegister() 1337:  "   let @" = s:restore reg 1338:  "   return '' 1339:  " endfunction 1340:  " function! s:Repl() 1341:  "     let s:restore reg = @" 1342:  "     return "p@=RestoreRegister() <cr>" 1343:  " endfunction 1344:  " 1345:  " " NB: this supports "rp that replaces the selection by the contents of @r 1346:  " vnoremap <silent> <expr> p <sid>Repl() 1347:   1348:  " " Change Color when entering 1349:  " Insert Mode augroup CursorLine 1350:  "    au! 1351:  "  if has("gui running") 1352:  "  else 1353:  "      au InsertEnter * setlocal cursorline 1354:  "        au InsertLeave * setlocal nocursorline 1355:  "     endif 1356:  "        augroup END 1357:  " function! DelTagOfFile(file) 1358:  "   let fullpath = a:file 1359:  "   let cwd = getcwd() 1360:  "   let tagfilename = cwd . 
-1360:++++ "/tags" 1361:  "   let f = substitute(fullpath, cwd . 
-1361:++++ "/", "", "") 1362:  "   let f = escape(f, '.
-/') 1363:  "   let cmd = 'sed -i "/' . 
-1363:++++ f . 
-1363:++++ '/d" "' . 
-1363:++++ tagfilename . 
-1363:++++ '"' 1364:  "   let resp = system(cmd) 1365:  " endfunction 1366:  " function! Break() 1367:  "  let n=130-virtcol('.
-') 1368:  "  <Esc>ni <Esc><Esc> 1369:  " endfunction 1370:  " function Gitview() 1371:  "    cd /root/web2 ; git add . 
-1371:++++ ; git commit -m -a ; git push origin gh-pages 1372:  " endfunction 1373:  " fuzzy search 1374:  " function! s:config fuzzyall(.
+1295:++++ "/databases/neoclip.
+sqlite3", 1296:  "       filter = nil, 1297:  "       preview = true, 1298:  "       default register = '"', 1299:  "       content spec column = false, 1300:  "       on paste =   1301:  "         set reg = false, 1302:  "        , 1303:  "       keys =   1304:  "         i =   1305:  "           select = '<cr>', 1306:  "           paste = '<c-p>', 1307:  "           paste behind = '<c-k>', 1308:  "           custom =   , 1309:  "          , 1310:  "         n =   1311:  "           select = '<cr>', 1312:  "           paste = 'p', 1313:  "           paste behind = 'P', 1314:  "           custom =   , 1315:  "          , 1316:  "        , 1317:  "     ) 1318:  " EOF 1319:  " lua <<EOF 1320:  " local saga = require 'lspsaga'  1321:  " saga.
+init lsp saga()  1322:  "   1323:  " EOF 1324:   1325:  "au FileType tex autocmd User SneakLeave set syntax=tex 1326:  "au FileType tex autocmd User SneakEnter set syntax=text 1327:  " 1328:  " 1329:  " 1330:   1331:  " 1332:  " 'tCommen20 1333:  " let g:tcommentMapLeaderOp1=';'  1334:  " "map <leader>c <Leader>    1335:  "" function! RestoreRegister() 1336:  "   let @" = s:restore reg 1337:  "   return '' 1338:  " endfunction 1339:  " function! s:Repl() 1340:  "     let s:restore reg = @" 1341:  "     return "p@=RestoreRegister() <cr>" 1342:  " endfunction 1343:  " 1344:  " " NB: this supports "rp that replaces the selection by the contents of @r 1345:  " vnoremap <silent> <expr> p <sid>Repl() 1346:   1347:  " " Change Color when entering 1348:  " Insert Mode augroup CursorLine 1349:  "    au! 1350:  "  if has("gui running") 1351:  "  else 1352:  "      au InsertEnter * setlocal cursorline 1353:  "        au InsertLeave * setlocal nocursorline 1354:  "     endif 1355:  "        augroup END 1356:  " function! DelTagOfFile(file) 1357:  "   let fullpath = a:file 1358:  "   let cwd = getcwd() 1359:  "   let tagfilename = cwd . 
+1359:++++ "/tags" 1360:  "   let f = substitute(fullpath, cwd . 
+1360:++++ "/", "", "") 1361:  "   let f = escape(f, '.
+/') 1362:  "   let cmd = 'sed -i "/' . 
+1362:++++ f . 
+1362:++++ '/d" "' . 
+1362:++++ tagfilename . 
+1362:++++ '"' 1363:  "   let resp = system(cmd) 1364:  " endfunction 1365:  " function! Break() 1366:  "  let n=130-virtcol('.
+') 1367:  "  <Esc>ni <Esc><Esc> 1368:  " endfunction 1369:  " function Gitview() 1370:  "    cd /root/web2 ; git add . 
+1370:++++ ; git commit -m -a ; git push origin gh-pages 1371:  " endfunction 1372:  " fuzzy search 1373:  " function! s:config fuzzyall(.
 .
 .
-) abort 1375:  "   return extend(copy(  1376:  "       'converters': [ 1377:  "         incsearch#config#fuzzy#converter(), 1378:  "         incsearch#config#fuzzyspell#converter() 1379:  "       ], 1380:  "      ), get(a:, 1,    1381:  "   )) 1382:  " endfunction 1383:  " noremap <silent><expr> f incsearch#go(<SID>config fuzzyall()) 1384:  " noremap <silent><expr> F  incsearch#go(<SID>config fuzzyall( 'command': '?' )) 1385:  " noremap <silent><expr> gF incsearch#go(<SID>config fuzzyall( 'is stay': 1 )) 1386:  " map f <Plug>(incsearch-fuzzyspell-/) 1387:  " map F <Plug>(incsearch-fuzzyspell-?) 1388:  " map gF <Plug>(incsearch-fuzzyspell-stay) 1389:  " map <silent> <leader>g :silent !cd /root/web2<CR>:silent !git add .
-<CR>:silent !git commit -m -a<CR>:silent !git push origin gh-pages<CR> 1390:  " let g:deoplete#enable at startup = 1 1391:  " map <silent> <leader>g :silent call Gitview() 1392:  " map <silent> <leader>g :silent !cd /root/web2 ; git add .
+) abort 1374:  "   return extend(copy(  1375:  "       'converters': [ 1376:  "         incsearch#config#fuzzy#converter(), 1377:  "         incsearch#config#fuzzyspell#converter() 1378:  "       ], 1379:  "      ), get(a:, 1,    1380:  "   )) 1381:  " endfunction 1382:  " noremap <silent><expr> f incsearch#go(<SID>config fuzzyall()) 1383:  " noremap <silent><expr> F  incsearch#go(<SID>config fuzzyall( 'command': '?' )) 1384:  " noremap <silent><expr> gF incsearch#go(<SID>config fuzzyall( 'is stay': 1 )) 1385:  " map f <Plug>(incsearch-fuzzyspell-/) 1386:  " map F <Plug>(incsearch-fuzzyspell-?) 1387:  " map gF <Plug>(incsearch-fuzzyspell-stay) 1388:  " map <silent> <leader>g :silent !cd /root/web2<CR>:silent !git add .
+<CR>:silent !git commit -m -a<CR>:silent !git push origin gh-pages<CR> 1389:  " let g:deoplete#enable at startup = 1 1390:  " map <silent> <leader>g :silent call Gitview() 1391:  " map <silent> <leader>g :silent !cd /root/web2 ; git add .
 <CR>:silent git commit -m -a ; silent !git push origin gh-pages<CR> This is how I use PDFViewer with Neovim and LaTexBox.
-@??? 1393:  "Load some useful plugins with vundle  1394:  " 1395:  "asdf asldfkj 1396:  " hi! link Sneak Normal 1397:  " hi! link SneakScope Normal   test test2 test3 1398:   1399:  " command! -bang -nargs=* Rg 1400:  "     call fzf#vim#grep( 1401:  "     "rg --column --line-number --no-heading --color=always --smart-case " .
-@??? 1402:  "     <q-args>, 1, fzf#vim#with preview(), <bang>0) 1403:  " 1404:  "" au GUIEnter * set fullscreen 1405:  " if has("gui running") 1406:    " set fuoptions=maxvert,maxhorz 1407:    " au GUIEnter * set fullscreen 1408:     " set foldcolumn=10 1409:     " set formatoptions=ant 1410:  " set wrapmargin=0 1411:  " set nohlsearch 1412:  " set tags= ~/workspacemodules/tags 1413:  " highlight SignColumn guibg=bg 1414:  "       endif     1415:  " if has("autocmd") 1416:  "   au BufReadPost * if line("' "") > 1 && line("' "") <= line(" ") | exe "normal! g' "" | endif 1417:  " endif 1418:    " autocmd BufWinLeave *.
-* mkview 1419:    " autocmd BufWinEnter *.
-* silent loadview 1420:     " set foldcolumn=2 1421:  "  highlight foldcolumn ctermfg=256 ctermbg=bg 1422:  " autocmd Colorscheme * highlight FoldColumn guifg=black guibg=bg  1423:  " inoremap <cr> <esc>:w<cr>i<cr>  1424:  "" set tm=500 1425:  " set macmeta 1426:  " auto reload vimrc when editing it 1427:  " let g:github function style = "italic" 1428:  " let g:github sidebars = ["qf", "vista kind", "terminal", "vimplug"] 1429:  " Change the "hint" color to the "orange" color, and make the "error" color bright red 1430:  " let g:github colors = [hint = "orange", error = "#ff0000"] 1431:  " Load the colorscheme 1432:  " colorscheme github dark 1433:  "" terminal color settings  1434:  " Example config in VimScript 1435:  " let g:github function style = "italic" 1436:  " let g:github sidebars = ["qf", "vista kind", "terminal", "vimplug"] 1437:   1438:  " Change the "hint" color to the "orange" color, and make the "error" color bright red 1439:  " let g:github colors = [hint = "orange", error = "#ff0000"] 1440:  " Load the colorscheme 1441:  " colorscheme github dark  1442:  " set background=dark  1443:  " if has("gui running")	" GUI color and font settings 1444:  "   set guifont=Fira  Code:h22 1445:  "   " colorscheme gruvbox  1446:  "   highlight CursorLine  guibg=#003853 ctermbg=24  gui=none cterm=none 1447:  " else 1448:  "  colorscheme one 1449:  " colorscheme material   1450:  " let g:material style = 'palenight'   1451:  " let g:material style = 'lighter' 1452:  " highlight Normal ctermbg=none  1453:  "   " let g:vimtex quickfix method='pplatex'  1454:  " let g:vimtex latexmk callback hooks = ['UpdateSkim'] 1455:  "    function! UpdateSkim(status) 1456:  "      if !a:status | return | endif 1457:  " 1458:  "      let l:out = b:vimtex.
-out() 1459:  "      let l:tex = expand(' :p') 1460:  "      let l:cmd = [g:vimtex view general viewer, '-r'] 1461:  "      if !empty(system('pgrep Skim')) 1462:  "        call extend(l:cmd, ['-g']) 1463:  "      endif 1464:  "      if has('nvim') 1465:  "        call jobstart(l:cmd + [line('.
-'), l:out, l:tex]) 1466:  "      elseif has('job') 1467:  "        call job start(l:cmd + [line('.
-'), l:out, l:tex]) 1468:  "      else 1469:  "        call system(join(l:cmd + [line('.
-'), shellescape(l:out), shellescape(l:tex)], ' ')) 1470:  "      endif 1471:  "    endfunction 1472:  " let g:vimtex latexmk build dir = '.
-/build' 1473:  "   'build dir' : '.
-/build', 1474:  "  1475:  "     let g:vimtex compiler latexmk =   1476:  "       'background' : 0, 1477:  "           'callback' : 1, 1478:  "       'continuous' : 1, 1479:  "       'options' : [ 1480:  "         '-pdf', 1481:  "         '-verbose', 1482:  "         '-file-line-error', 1483:  "         '-synctex=1', 1484:  "         '-interaction=nonstopmode', 1485:  "       ], 1486:  "        1487:  " let g:vimtex compiler progname = 'nvr' 1488:  " " nmap  <leader>v <Esc>:w<CR>:VimtexView<CR> 1489:  " let g:vimtex quickfix mode = 1 1490:  " let g:vimtex fold enabled = 0 1491:  " let g:vimtex fold manual = 1 1492:   1493:   1494:  " let g:vimtex fold types=   1495:  "             'preamble' :   , 1496:  "             'comments' :  'enabled' : 1 , 1497:  "             'markers' :   , 1498:  "             'sections' :   1499:  "               'parse levels' : 0, 1500:  "               'sections' : [       1501:  "                 ' (add)?part', 1502:  "                 ' (chapter|addchap)', 1503:  "                 ' (section|addsec)', 1504:  "                 'subsection', 1505:  "                 'subsubsection', 1506:  "               ], 1507:  "               'parts' : [          1508:  "                 'appendix', 1509:  "                 'frontmatter', 1510:  "                 'mainmatter', 1511:  "                 'backmatter', 1512:  "               ], 1513:  "              , 1514:  "              1515:   1516:  " autocmd TermClose * if v:event == 12 || v:event == 0 bdelete endif 1517:   
+@??? 1392:  "Load some useful plugins with vundle  1393:  " 1394:  "asdf asldfkj 1395:  " hi! link Sneak Normal 1396:  " hi! link SneakScope Normal   test test2 test3 1397:   1398:  " command! -bang -nargs=* Rg 1399:  "     call fzf#vim#grep( 1400:  "     "rg --column --line-number --no-heading --color=always --smart-case " .
+@??? 1401:  "     <q-args>, 1, fzf#vim#with preview(), <bang>0) 1402:  " 1403:  "" au GUIEnter * set fullscreen 1404:  " if has("gui running") 1405:    " set fuoptions=maxvert,maxhorz 1406:    " au GUIEnter * set fullscreen 1407:     " set foldcolumn=10 1408:     " set formatoptions=ant 1409:  " set wrapmargin=0 1410:  " set nohlsearch 1411:  " set tags= ~/workspacemodules/tags 1412:  " highlight SignColumn guibg=bg 1413:  "       endif     1414:  " if has("autocmd") 1415:  "   au BufReadPost * if line("' "") > 1 && line("' "") <= line(" ") | exe "normal! g' "" | endif 1416:  " endif 1417:    " autocmd BufWinLeave *.
+* mkview 1418:    " autocmd BufWinEnter *.
+* silent loadview 1419:     " set foldcolumn=2 1420:  "  highlight foldcolumn ctermfg=256 ctermbg=bg 1421:  " autocmd Colorscheme * highlight FoldColumn guifg=black guibg=bg  1422:  " inoremap <cr> <esc>:w<cr>i<cr>  1423:  "" set tm=500 1424:  " set macmeta 1425:  " auto reload vimrc when editing it 1426:  " let g:github function style = "italic" 1427:  " let g:github sidebars = ["qf", "vista kind", "terminal", "vimplug"] 1428:  " Change the "hint" color to the "orange" color, and make the "error" color bright red 1429:  " let g:github colors = [hint = "orange", error = "#ff0000"] 1430:  " Load the colorscheme 1431:  " colorscheme github dark 1432:  "" terminal color settings  1433:  " Example config in VimScript 1434:  " let g:github function style = "italic" 1435:  " let g:github sidebars = ["qf", "vista kind", "terminal", "vimplug"] 1436:   1437:  " Change the "hint" color to the "orange" color, and make the "error" color bright red 1438:  " let g:github colors = [hint = "orange", error = "#ff0000"] 1439:  " Load the colorscheme 1440:  " colorscheme github dark  1441:  " set background=dark  1442:  " if has("gui running")	" GUI color and font settings 1443:  "   set guifont=Fira  Code:h22 1444:  "   " colorscheme gruvbox  1445:  "   highlight CursorLine  guibg=#003853 ctermbg=24  gui=none cterm=none 1446:  " else 1447:  "  colorscheme one 1448:  " colorscheme material   1449:  " let g:material style = 'palenight'   1450:  " let g:material style = 'lighter' 1451:  " highlight Normal ctermbg=none  1452:  "   " let g:vimtex quickfix method='pplatex'  1453:  " let g:vimtex latexmk callback hooks = ['UpdateSkim'] 1454:  "    function! UpdateSkim(status) 1455:  "      if !a:status | return | endif 1456:  " 1457:  "      let l:out = b:vimtex.
+out() 1458:  "      let l:tex = expand(' :p') 1459:  "      let l:cmd = [g:vimtex view general viewer, '-r'] 1460:  "      if !empty(system('pgrep Skim')) 1461:  "        call extend(l:cmd, ['-g']) 1462:  "      endif 1463:  "      if has('nvim') 1464:  "        call jobstart(l:cmd + [line('.
+'), l:out, l:tex]) 1465:  "      elseif has('job') 1466:  "        call job start(l:cmd + [line('.
+'), l:out, l:tex]) 1467:  "      else 1468:  "        call system(join(l:cmd + [line('.
+'), shellescape(l:out), shellescape(l:tex)], ' ')) 1469:  "      endif 1470:  "    endfunction 1471:  " let g:vimtex latexmk build dir = '.
+/build' 1472:  "   'build dir' : '.
+/build', 1473:  "  1474:  "     let g:vimtex compiler latexmk =   1475:  "       'background' : 0, 1476:  "           'callback' : 1, 1477:  "       'continuous' : 1, 1478:  "       'options' : [ 1479:  "         '-pdf', 1480:  "         '-verbose', 1481:  "         '-file-line-error', 1482:  "         '-synctex=1', 1483:  "         '-interaction=nonstopmode', 1484:  "       ], 1485:  "        1486:  " let g:vimtex compiler progname = 'nvr' 1487:  " " nmap  <leader>v <Esc>:w<CR>:VimtexView<CR> 1488:  " let g:vimtex quickfix mode = 1 1489:  " let g:vimtex fold enabled = 0 1490:  " let g:vimtex fold manual = 1 1491:   1492:   1493:  " let g:vimtex fold types=   1494:  "             'preamble' :   , 1495:  "             'comments' :  'enabled' : 1 , 1496:  "             'markers' :   , 1497:  "             'sections' :   1498:  "               'parse levels' : 0, 1499:  "               'sections' : [       1500:  "                 ' (add)?part', 1501:  "                 ' (chapter|addchap)', 1502:  "                 ' (section|addsec)', 1503:  "                 'subsection', 1504:  "                 'subsubsection', 1505:  "               ], 1506:  "               'parts' : [          1507:  "                 'appendix', 1508:  "                 'frontmatter', 1509:  "                 'mainmatter', 1510:  "                 'backmatter', 1511:  "               ], 1512:  "              , 1513:  "              1514:   1515:  " autocmd TermClose * if v:event == 12 || v:event == 0 bdelete endif 1516:   

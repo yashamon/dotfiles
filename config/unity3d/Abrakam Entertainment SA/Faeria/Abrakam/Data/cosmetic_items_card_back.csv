@@ -1,0 +1,212 @@
+ID;Name;Rarity;IsPinkChestAvailable;IsHidden;IsSetItem;ProfileName
+0;Basic;RARE;;;;Basic Card Back
+1;1605Silver;RARE;;TRUE;;Season 1 Silver Card Back
+2;1605Gold;EPIC;;TRUE;;Season 1 Gold Card Back
+3;1606Silver;RARE;;TRUE;;Season 2 Silver Card Back
+4;1606Gold;EPIC;;TRUE;;Season 2 Gold Card Back
+5;1607Silver;RARE;;TRUE;;Season 3 Silver Card Back
+6;1607Gold;EPIC;;TRUE;;Season 3 Gold Card Back
+7;1608Silver;RARE;;TRUE;;Season 4 Silver Card Back
+8;1608Gold;EPIC;;TRUE;;Season 4 Gold Card Back
+9;1609Silver;RARE;;TRUE;;Season 5 Silver Card Back
+10;1609Gold;EPIC;;TRUE;;Season 5 Gold Card Back
+11;1610Silver;RARE;;TRUE;;Season 6 Silver Card Back
+12;1610Gold;EPIC;;TRUE;;Season 6 Gold Card Back
+13;1611Silver;RARE;;TRUE;;Season 7 Silver Card Back
+14;1611Gold;EPIC;;TRUE;;Season 7 Gold Card Back
+15;1612Silver;RARE;;TRUE;;Season 8 Silver Card Back
+16;1612Gold;EPIC;;TRUE;;Season 8 Gold Card Back
+17;Sharra;EPIC;TRUE;;TRUE;Sharra's Card Back
+18;Ruunin;EPIC;TRUE;;TRUE;Ruunin's Card Back
+19;Rapala;LEGENDARY;;TRUE;TRUE;Rapala's Card Back
+20;Hoaka;LEGENDARY;TRUE;;TRUE;Hoaka's Card Back
+21;Aurora;EPIC;TRUE;;TRUE;Aurora's Card Back
+22;Krog;LEGENDARY;TRUE;;TRUE;Krog's Card Back
+23;Seifer;EPIC;TRUE;;TRUE;Seifer's Card Back
+24;Khalim;EPIC;TRUE;;TRUE;Khalim's Card Back
+25;Magda;EPIC;TRUE;;TRUE;Magda's Card Back
+26;Fugoro;LEGENDARY;TRUE;;TRUE;Fugoro's Card Back
+27;Jalmyr;LEGENDARY;;TRUE;TRUE;Jalmyr's Card Back
+28;Dragon;EPIC;;;TRUE;Black Dragon Card Back
+29;BombSlinger;LEGENDARY;;;TRUE;Bom-R's Card Back
+30;Mucha;EPIC;TRUE;;;'Art Nouveau' Card Back
+31;MosaicFlower;EPIC;;;;Mosaic Flower Card Back
+32;MosaicSolar;RARE;TRUE;;;Mosaic Solar Card Back
+33;BasicDiamond;RARE;TRUE;;;Silver Diamond Card Back
+34;BasicCopper;RARE;TRUE;;;Purple Diamond Card Back
+35;Pandora1610Silver;RARE;;TRUE;;Season 6 Pandora Silver Card Back
+36;Pandora1610Gold;EPIC;;TRUE;;Season 6 Pandora Gold Card Back
+37;Pandora1611Silver;RARE;;TRUE;;Season 7 Pandora Silver Card Back
+38;Pandora1611Gold;EPIC;;TRUE;;Season 7 Pandora Gold Card Back
+39;Pandora1612Silver;RARE;;TRUE;;Season 8 Pandora Silver Card Back
+40;Pandora1612Gold;EPIC;;TRUE;;Season 8 Pandora Gold Card Back
+41;1701Silver;RARE;;TRUE;;Season 9 Silver Card Back
+42;1701Gold;EPIC;;TRUE;;Season 9 Gold Card Back
+43;Pandora1701Silver;RARE;;TRUE;;Season 9 Pandora Silver Card Back
+44;Pandora1701Gold;EPIC;;TRUE;;Season 9 Pandora Gold Card Back
+45;1702Silver;RARE;;TRUE;;Season 10 Silver Card Back
+46;1702Gold;EPIC;;TRUE;;Season 10 Gold Card Back
+47;Pandora1702Silver;RARE;;TRUE;;Season 10 Pandora Silver Card Back
+48;Pandora1702Gold;EPIC;;TRUE;;Season 10 Pandora Gold Card Back
+49;AdventurePouch;LEGENDARY;;TRUE;;Adventurer's Card Back
+50;1703Silver;RARE;;TRUE;;Season 11 Silver Card Back
+51;1703Gold;EPIC;;TRUE;;Season 11 Gold Card Back
+52;Pandora1703Silver;RARE;;TRUE;;Season 11 Pandora Silver Card Back
+53;Pandora1703Gold;EPIC;;TRUE;;Season 11 Pandora Gold Card Back
+54;1704Silver;RARE;;TRUE;;Season 12 Silver Card Back
+55;1704Gold;EPIC;;TRUE;;Season 12 Gold Card Back
+56;Pandora1704Silver;RARE;;TRUE;;Season 12 Pandora Silver Card Back
+57;Pandora1704Gold;EPIC;;TRUE;;Season 12 Pandora Gold Card Back
+58;1705Silver;RARE;;TRUE;;Season 13 Silver Card Back
+59;1705Gold;EPIC;;TRUE;;Season 13 Gold Card Back
+60;Pandora1705Silver;RARE;;TRUE;;Season 13 Pandora Silver Card Back
+61;Pandora1705Gold;EPIC;;TRUE;;Season 13 Pandora Gold Card Back
+62;Tarum;LEGENDARY;TRUE;;TRUE;Tarum's Card Back
+63;1706Silver;RARE;;TRUE;;Season 14 Silver Card Back
+64;1706Gold;EPIC;;TRUE;;Season 14 Gold Card Back
+65;Pandora1706Silver;RARE;;TRUE;;Season 14 Pandora Silver Card Back
+66;Pandora1706Gold;EPIC;;TRUE;;Season 14 Pandora Gold Card Back
+67;Adventurer;LEGENDARY;;TRUE;TRUE;Fugoro's Card Back
+68;Kaios;LEGENDARY;;TRUE;TRUE;Kaios' Card Back
+69;1707Silver;RARE;;TRUE;;Season 15 Silver Card Back
+70;1707Gold;EPIC;;TRUE;;Season 15 Gold Card Back
+71;Pandora1707Silver;RARE;;TRUE;;Season 15 Pandora Silver Card Back
+72;Pandora1707Gold;EPIC;;TRUE;;Season 15 Pandora Gold Card Back
+73;1708Silver;RARE;;TRUE;;Season 16 Silver Card Back
+74;1708Gold;EPIC;;TRUE;;Season 16 Gold Card Back
+75;Pandora1708Silver;RARE;;TRUE;;Season 16 Pandora Silver Card Back
+76;Pandora1708Gold;EPIC;;TRUE;;Season 16 Pandora Gold Card Back
+77;1709Silver;RARE;;TRUE;;Season 17 Silver Card Back
+78;1709Gold;EPIC;;TRUE;;Season 17 Gold Card Back
+79;Pandora1709Silver;RARE;;TRUE;;Season 17 Pandora Silver Card Back
+80;Pandora1709Gold;EPIC;;TRUE;;Season 17 Pandora Gold Card Back
+81;1710Silver;RARE;;TRUE;;Season 18 Silver Card Back
+82;1710Gold;EPIC;;TRUE;;Season 18 Gold Card Back
+83;Pandora1710Silver;RARE;;TRUE;;Season 18 Pandora Silver Card Back
+84;Pandora1710Gold;EPIC;;TRUE;;Season 18 Pandora Gold Card Back
+85;1711Silver;RARE;;TRUE;;Season 19 Silver Card Back
+86;1711Gold;EPIC;;TRUE;;Season 19 Gold Card Back
+87;Pandora1711Silver;RARE;;TRUE;;Season 19 Pandora Silver Card Back
+88;Pandora1711Gold;EPIC;;TRUE;;Season 19 Pandora Gold Card Back
+89;1712Silver;RARE;;TRUE;;Season 20 Silver Card Back
+90;1712Gold;EPIC;;TRUE;;Season 20 Gold Card Back
+91;Pandora1712Silver;RARE;;TRUE;;Season 20 Pandora Silver Card Back
+92;Pandora1712Gold;EPIC;;TRUE;;Season 20 Pandora Gold Card Back
+93;1801Silver;RARE;;TRUE;;Season 21 Silver Card Back
+94;1801Gold;EPIC;;TRUE;;Season 21 Gold Card Back
+95;Pandora1801Silver;RARE;;TRUE;;Season 21 Pandora Silver Card Back
+96;Pandora1801Gold;EPIC;;TRUE;;Season 21 Pandora Gold Card Back
+97;FaeriaWorldCircuit;LEGENDARY;;TRUE;;Faeria World Circuit
+98;1802Silver;RARE;;TRUE;;Season 22 Silver Card Back
+99;1802Gold;EPIC;;TRUE;;Season 22 Gold Card Back
+100;Pandora1802Silver;RARE;;TRUE;;Season 22 Pandora Silver Card Back
+101;Pandora1802Gold;EPIC;;TRUE;;Season 22 Pandora Gold Card Back
+102;1803Silver;RARE;;TRUE;;Season 23 Silver Card Back
+103;1803Gold;EPIC;;TRUE;;Season 23 Gold Card Back
+104;Pandora1803Silver;RARE;;TRUE;;Season 23 Pandora Silver Card Back
+105;Pandora1803Gold;EPIC;;TRUE;;Season 23 Pandora Gold Card Back
+106;1804Silver;RARE;;TRUE;;Season 24 Silver Card Back
+107;1804Gold;EPIC;;TRUE;;Season 24 Gold Card Back
+108;Pandora1804Silver;RARE;;TRUE;;Season 24 Pandora Silver Card Back
+109;Pandora1804Gold;EPIC;;TRUE;;Season 24 Pandora Gold Card Back
+110;1805Silver;RARE;;TRUE;;Season 25 Silver Card Back
+111;1805Gold;EPIC;;TRUE;;Season 25 Gold Card Back
+112;Pandora1805Silver;RARE;;TRUE;;Season 25 Pandora Silver Card Back
+113;Pandora1805Gold;EPIC;;TRUE;;Season 25 Pandora Gold Card Back
+114;1806Silver;RARE;;TRUE;;Season 26 Silver Card Back
+115;1806Gold;EPIC;;TRUE;;Season 26 Gold Card Back
+116;Pandora1806Silver;RARE;;TRUE;;Season 26 Pandora Silver Card Back
+117;Pandora1806Gold;EPIC;;TRUE;;Season 26 Pandora Gold Card Back
+118;Premium;LEGENDARY;;TRUE;;Premium Card Back
+119;MuchaGreen;EPIC;TRUE;;;Green Art Nouveau
+120;MuchaMagenta;EPIC;TRUE;;;Magenta Art Nouveau
+121;MosaicFlowerGreen;EPIC;TRUE;;;Mosaic Blue Flower
+122;MosaicFlowerRed;EPIC;TRUE;;;Mosaic Red Flower
+123;MosaicSolarBlue;RARE;TRUE;;;Mosaic Green Sun
+124;MosaicSolarMagenta;RARE;TRUE;;;Mosaic Magenta Sun
+125;FallOfEverlife;EPIC;;;;Corrupted Card Back
+126;1807Silver;RARE;;TRUE;;Season 27 Silver Card Back
+127;1807Gold;EPIC;;TRUE;;Season 27 Gold Card Back
+128;Pandora1807Silver;RARE;;TRUE;;Season 27 Pandora Silver Card Back
+129;Pandora1807Gold;EPIC;;TRUE;;Season 27 Pandora Gold Card Back
+134;1808Silver;RARE;;TRUE;;Season 28 Silver Card Back
+135;1808Gold;EPIC;;TRUE;;Season 28 Gold Card Back
+136;Pandora1808Silver;RARE;;TRUE;;Season 28 Pandora Silver Card Back
+137;Pandora1808Gold;EPIC;;TRUE;;Season 28 Pandora Gold Card Back
+130;1809Silver;RARE;;TRUE;;Season 29 Silver Card Back
+131;1809Gold;EPIC;;TRUE;;Season 29 Gold Card Back
+132;Pandora1809Silver;RARE;;TRUE;;Season 29 Pandora Silver Card Back
+133;Pandora1809Gold;EPIC;;TRUE;;Season 29 Pandora Gold Card Back
+138;Resurgence;EPIC;;;;Resurgence Card Back
+139;MosaicYak;LEGENDARY;TRUE;;;Yak Mosaic Card Back
+140;Elements;LEGENDARY;;;;Elements Card Back
+141;1810Silver;RARE;;TRUE;;Season 30 Silver Card Back
+142;1810Gold;EPIC;;TRUE;;Season 30 Gold Card Back
+143;Pandora1810Silver;RARE;;TRUE;;Season 30 Pandora Silver Card Back
+144;Pandora1810Gold;EPIC;;TRUE;;Season 30 Pandora Gold Card Back
+145;Orosei;LEGENDARY;;TRUE;;Orosei's Card Back
+146;Tethra;LEGENDARY;;TRUE;;Tethra's Card Back
+147;Garudan;LEGENDARY;;TRUE;;Garudan's Card Back
+148;Azarai;LEGENDARY;;TRUE;;Azarai's Card Back
+149;Celeste;LEGENDARY;;TRUE;;Celeste's Card Back
+150;1811Silver;RARE;;TRUE;;Season 31 Silver Card Back
+151;1811Gold;EPIC;;TRUE;;Season 31 Gold Card Back
+152;Pandora1811Silver;RARE;;TRUE;;Season 31 Pandora Silver Card Back
+153;Pandora1811Gold;EPIC;;TRUE;;Season 31 Pandora Gold Card Back
+154;1812Silver;RARE;;TRUE;;Season 32 Silver Card Back
+155;1812Gold;EPIC;;TRUE;;Season 32 Gold Card Back
+156;Pandora1812Silver;RARE;;TRUE;;Season 32 Pandora Silver Card Back
+157;Pandora1812Gold;EPIC;;TRUE;;Season 32 Pandora Gold Card Back
+158;1901Silver;RARE;;TRUE;;Season 33 Silver Card Back
+159;1901Gold;EPIC;;TRUE;;Season 33 Gold Card Back
+160;Pandora1901Silver;RARE;;TRUE;;Season 33 Pandora Silver Card Back
+161;Pandora1901Gold;EPIC;;TRUE;;Season 33 Pandora Gold Card Back
+162;1902Silver;RARE;;TRUE;;Season 34 Silver Card Back
+163;1902Gold;EPIC;;TRUE;;Season 34 Gold Card Back
+164;Pandora1902Silver;RARE;;TRUE;;Season 34 Pandora Silver Card Back
+165;Pandora1902Gold;EPIC;;TRUE;;Season 34 Pandora Gold Card Back
+166;1903Silver;RARE;;TRUE;;Season 35 Silver Card Back
+167;1903Gold;EPIC;;TRUE;;Season 35 Gold Card Back
+168;Pandora1903Silver;RARE;;TRUE;;Season 35 Pandora Silver Card Back
+169;Pandora1903Gold;EPIC;;TRUE;;Season 35 Pandora Gold Card Back
+170;Gagana;EPIC;;;;Gagana Card Back
+171;1904Silver;RARE;;TRUE;;Season 36 Silver Card Back
+172;1904Gold;EPIC;;TRUE;;Season 36 Gold Card Back
+173;Pandora1904Silver;RARE;;TRUE;;Season 36 Pandora Silver Card Back
+174;Pandora1904Gold;EPIC;;TRUE;;Season 36 Pandora Gold Card Back
+175;1905Silver;RARE;;TRUE;;Season 37 Silver Card Back
+176;1905Gold;EPIC;;TRUE;;Season 37 Gold Card Back
+177;Pandora1905Silver;RARE;;TRUE;;Season 37 Pandora Silver Card Back
+178;Pandora1905Gold;EPIC;;TRUE;;Season 37 Pandora Gold Card Back
+179;1906Silver;RARE;;TRUE;;Season 38 Silver Card Back
+180;1906Gold;EPIC;;TRUE;;Season 38 Gold Card Back
+181;Pandora1906Silver;RARE;;TRUE;;Season 38 Pandora Silver Card Back
+182;Pandora1906Gold;EPIC;;TRUE;;Season 38 Pandora Gold Card Back
+183;1907Silver;RARE;;TRUE;;Season 39 Silver Card Back
+184;1907Gold;EPIC;;TRUE;;Season 39 Gold Card Back
+185;Pandora1907Silver;RARE;;TRUE;;Season 39 Pandora Silver Card Back
+186;Pandora1907Gold;EPIC;;TRUE;;Season 39 Pandora Gold Card Back
+187;1908Silver;RARE;;TRUE;;Season 40 Silver Card Back
+188;1908Gold;EPIC;;TRUE;;Season 40 Gold Card Back
+189;Pandora1908Silver;RARE;;TRUE;;Season 40 Pandora Silver Card Back
+190;Pandora1908Gold;EPIC;;TRUE;;Season 40 Pandora Gold Card Back
+191;1909Silver;RARE;;TRUE;;Season 41 Silver Card Back
+192;1909Gold;EPIC;;TRUE;;Season 41 Gold Card Back
+193;Pandora1909Silver;RARE;;TRUE;;Season 41 Pandora Silver Card Back
+194;Pandora1909Gold;EPIC;;TRUE;;Season 41 Pandora Gold Card Back
+195;SeasonalCupAurora;EPIC;;TRUE;;Aurora Seasonal Cup Card Back
+196;SeasonalCupRuunin;EPIC;;TRUE;;Ruunin Seasonal Cup Card Back
+197;SeasonalCupKhalim;EPIC;;TRUE;;Khalim Seasonal Cup Card Back
+198;SeasonalCupSeifer;EPIC;;TRUE;;Seifer Seasonal Cup Card Back
+199;1910Silver;RARE;;TRUE;;Season 42 Silver Card Back
+200;1910Gold;EPIC;;TRUE;;Season 42 Gold Card Back
+201;Pandora1910Silver;RARE;;TRUE;;Season 42 Pandora Silver Card Back
+202;Pandora1910Gold;EPIC;;TRUE;;Season 42 Pandora Gold Card Back
+203;1911Silver;RARE;;TRUE;;Season 43 Silver Card Back
+204;1911Gold;EPIC;;TRUE;;Season 43 Gold Card Back
+205;Pandora1911Silver;RARE;;TRUE;;Season 43 Pandora Silver Card Back
+206;Pandora1911Gold;EPIC;;TRUE;;Season 43 Pandora Gold Card Back
+207;1912Silver;RARE;;TRUE;;Season 44 Silver Card Back
+208;1912Gold;EPIC;;TRUE;;Season 44 Gold Card Back
+209;Pandora1912Silver;RARE;;TRUE;;Season 44 Pandora Silver Card Back
+210;Pandora1912Gold;EPIC;;TRUE;;Season 44 Pandora Gold Card Back

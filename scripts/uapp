@@ -1,6 +1,6 @@
 #!/bin/bash
 for f in /home/yashasavelyev/appimage/* 
 do
-  ~/appimage/AppImageUpdate $f
+  ~/appimage/AppImageUpdate-x86_64 $f
   mv $f.appimage $f
 done

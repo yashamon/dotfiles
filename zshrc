@@ -1,6 +1,4 @@
-# Enable Powerlezinitvel10k instant prompt. Should stay close to the top of ~/.zshrc.
-# Initialization code that may require console input (password prompts, [y/n]
-# confirmations, etc.) must go above this block; everything else may go below.
+
 
 
 if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]; then
@@ -68,12 +66,12 @@ alias j="z"
 # alias fzf="/root/dotfiles\vim\bundle\fzf"
 alias pcm="sudo pacman"
 alias spcm="sudo pacman"
-alias zrc="cd ~; nvim .zshrc"
+alias zrc="cd ~; neo .zshrc"
 alias pac="sudo packer"
 alias cprc="cp /root/.zshrc /home/yasha/.zshrc"
 alias pacup="packer -Syu --devel"
 # alias vifm='source ~/bin/vf'
-alias vrc="cd ~/.config/nvim; nvim init.vim"
+alias vrc="cd ~/.config/nvim; neo init.vim"
 alias vifmrc="nvim ~/.config/vifm/vifmrc"
 alias snips="vi /root/dotfiles/vim/bundle/vim-snippets/UltiSnips/tex.snippets"
 alias src="source ~/.zshrc"
@@ -85,8 +83,9 @@ alias vis="rm /tmp/nvimsocket ; NVIM_LISTEN_ADDRESS=/tmp/nvimsocket nvim"
 alias suru="su root; a"
 alias rec="recoll -q"
 alias vi="nvim"  
-alias gone="$HOME/.local/bin/gone/goneovim"
-alias neo="$HOME/.local/bin/neovide --frameless --maximized --multigrid"
+alias gone="$HOME/.local/bin/gone/goneovim" 
+alias neo="$HOME/.local/bin/gone/goneovim"
+alias neov="$HOME/.local/bin/neovide --frameless --maximized --multigrid"
 alias update="git submodule update --init --recursive ; git pull origin master"
 alias chrome="chromium --user-data-dir /root"
 alias res="xrandr --newmode "1920x1080_60.00"  173.00  1920 2048 2248 2576  1080 1083 1088 1120; xrandr --addmode Virtual-1 "1920x1080_60.00";
