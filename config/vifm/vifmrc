@@ -41,7 +41,7 @@ filetype *.pdf,*.dvi,*.ps
 filetype *.djvu
        \ zathura %f  
 filetype *.md, *.tex, *.txt, *.sh
-       \ nvim %f
+       \ neo %f
 filetype *.fb2
        \ fbreader %f 
 filetype *.epub
