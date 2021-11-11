@@ -378,7 +378,7 @@ nmap <A-S-t> :wa<cr>:te<cr>
  
 vnoremap <Leader>U ""y:%s/<C-r>"
 noremap <leader>r :wa<cr>:e<cr>
-noremap <leader>h :set tw=50<cr>
+noremap <leader>hh :set tw=50<cr>
 noremap <leader>w :set tw=0<cr> 
 " noremap q <nop>
 map <leader>q q
@@ -468,7 +468,7 @@ noremap F ?
 "     execute 'normal! \<Plug>Sneak_s'
 "     syntax on
 " endfunction
- map <leader>n <Plug>Sneak_;
+ 
 " map N <Plug>Sneak_,
 " map t <Plug>(smalls-excursion)
 " let g:smalls_auto_jump=1
@@ -802,10 +802,8 @@ EOF
 " " set foldlevel=20
 " " set foldmethod=expr
 " " set foldexpr=nvim_treesitter#foldexpr()
-set foldmethod=expr foldexpr=getline(v:lnum)=~'^\s*'.&commentstring[0]
-" 
-" 
-" 
+set foldmethod=expr foldexpr=getline(v:lnum)=~'^\s*'.&commentstring[0] 
+
 " vsnip stuff 
 " Use <Tab> and <S-Tab> to navigate through popup menu
 inoremap <expr> <Tab> pumvisible() ? "\<C-n>" : "\<Tab>"
