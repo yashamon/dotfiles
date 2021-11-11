@@ -110,7 +110,7 @@ Plug 'mbbill/undotree', { 'on': 'UndotreeToggle' }
  '}
 Plug 'lifepillar/vim-solarized8'
 Plug 'vim-scripts/AutoTag'
-" Plug 'vim-scripts/vim-auto-save'
+Plug 'vim-scripts/vim-auto-save'
 " Plug 'vim-pandoc/vim-pandoc'
 
 " Plug 'yashamon/vim-snippets'
@@ -142,7 +142,7 @@ let g:neovide_transparency=0.15
 
 "General Settings    
 set title 
-set titlestring
+" set titlestring
 " set noshowmode
 " set noruler       
 " set laststatus=1 
