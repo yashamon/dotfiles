@@ -226,7 +226,7 @@ set smarttab		" insert tabs on the start of a line according to context
 " disable sound on errors
 set noerrorbells
 " set novisualbell 
-set guifont=Fira\ Code:h22
+set guifont=Fira\ Code:h18
  colorscheme one
 " colorscheme material  
 " let g:material_style = 'palenight'  
@@ -665,14 +665,14 @@ let colnumber=col(".")
 let filename=bufname("%")
 let filenamePDF="./build/" . filename[:-4]."pdf"
 let execstr="silent !zathura --synctex-forward " . linenumber . ":" . colnumber . ":" . filename . " " . filenamePDF . " &>/dev/null &"
-" . "&>/dev/null &"   
+" . "&>/dev/null &"
 exec execstr
 execute "buffer" buf
 endfunction 
-nmap <leader>v :wa<cr>:call ViewPdf()<cr> 
+nmap <leader>v :wa<cr>:call ViewPdf()<cr>
 " nmap <leader>v :VimtexView<cr>
 " let  g:vimtex_fold_types_defaults = 'preamble, sections, comments'
-nmap <leader>l :wa<cr>:call CompileLatex()<cr> 
+nmap <leader>l :wa<cr>:call CompileLatex()<cr>
 nmap <leader>cl :call ClearLatex()<cr>
 " nmap <leader>m :silent ! cp % backup;  pandoc  backup -s --webtex -o backup.html;  cp backup.html %<cr>:e %<cr>
 
