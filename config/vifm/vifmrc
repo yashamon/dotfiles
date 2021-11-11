@@ -56,7 +56,7 @@ filetype *.md5 md5sum -c %f
 " If you would like to use another vi clone such Elvis or Vile
 " you will need to change this setting.
 
-set vicmd=nvim
+set vicmd=neo
 " set vicmd=elvis\ -G\ termcap
 " set vicmd=vile
 
