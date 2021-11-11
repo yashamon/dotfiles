@@ -41,7 +41,7 @@ Plug 'L3MON4D3/LuaSnip'
 " Plug 'saadparwaiz1/cmp_luasnip'
 "Plug 'steelsojka/completion-buffers'
 Plug 'voldikss/vim-floaterm'
-" Plug 'kabouzeid/nvim-lspinstall', { 'branch': 'main' }
+Plug 'kabouzeid/nvim-lspinstall', { 'branch': 'main' }
 "Plug 'pope/vim-obsession'
 "Plug 'xolox/vim-easytags'
 " Plug 'nvim-lua/plenary.nvim'
@@ -226,7 +226,7 @@ set smarttab		" insert tabs on the start of a line according to context
 " disable sound on errors
 set noerrorbells
 " set novisualbell 
-set guifont=Fira\ Code:h18
+set guifont=Fira\ Code\ Light:h18
  colorscheme one
 " colorscheme material  
 " let g:material_style = 'palenight'  
@@ -883,23 +883,23 @@ EOF
 
 "Lsp install
 
-" lua << EOF
-" local function setup_servers()
-"   require'lspinstall'.setup()
-"   local servers = require'lspinstall'.installed_servers()
-"   for _, server in pairs(servers) do
-"     require'lspconfig'[server].setup{capabilities = require('cmp_nvim_lsp').update_capabilities(vim.lsp.protocol.make_client_capabilities())}
-"   end
-" end
-" 
-" setup_servers()
-" 
-" -- Automatically reload after `:LspInstall <server>` so we don't have to restart neovim
-" require'lspinstall'.post_install_hook = function ()
-"   setup_servers() -- reload installed servers
-"   vim.cmd("bufdo e") -- this triggers the FileType autocmd that starts the server
-" end
-" EOF
+lua << EOF
+local function setup_servers()
+  require'lspinstall'.setup()
+  local servers = require'lspinstall'.installed_servers()
+  for _, server in pairs(servers) do
+    require'lspconfig'[server].setup{capabilities = require('cmp_nvim_lsp').update_capabilities(vim.lsp.protocol.make_client_capabilities())}
+  end
+end
+
+setup_servers()
+
+-- Automatically reload after `:LspInstall <server>` so we don't have to restart neovim
+require'lspinstall'.post_install_hook = function ()
+  setup_servers() -- reload installed servers
+  vim.cmd("bufdo e") -- this triggers the FileType autocmd that starts the server
+end
+EOF
 
 nnoremap <leader>y :FZFNeoyank<cr>
 nnoremap <leader>Y :FZFNeoyank  P<cr>
@@ -1257,24 +1257,7 @@ let g:firenvim_config = {
         \ },
     \ }
 \ }
-lua <<EOF
-local lsp_installer = require("nvim-lsp-installer")
 
--- Register a handler that will be called for all installed servers.
--- Alternatively, you may also register handlers on specific server instances instead (see example below).
-lsp_installer.on_server_ready(function(server)
-    local opts = {}
-
-    -- (optional) Customize the options passed to the server
-    -- if server.name == "tsserver" then
-    --     opts.root_dir = function() ... end
-    -- end
-
-    -- This setup() function is exactly the same as lspconfig's setup function.
-    -- Refer to https://github.com/neovim/nvim-lspconfig/blob/master/ADVANCED_README.md
-    server:setup(opts)
-end)
-EOF
 " lua << EOF
 " require("stabilize").setup(
 " {
