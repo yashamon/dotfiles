@@ -411,7 +411,7 @@ noremap <C-ScrollWheelLeft>  <nop>
 noremap <ScrollWheelRight>   <nop>
 noremap <S-ScrollWheelRight> <nop>
 noremap <C-ScrollWheelRight> <nop> 
-Inoremap \ /
+inoremap \ /
 inoremap / \
 
 " copy paste stuff 
