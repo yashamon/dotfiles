@@ -226,7 +226,7 @@ set smarttab		" insert tabs on the start of a line according to context
 " disable sound on errors
 set noerrorbells
 " set novisualbell 
-set guifont=Fira\ Code\ Light:h12
+set guifont=Fira\ Code\ Light:h10
  colorscheme one
 " colorscheme material  
 " let g:material_style = 'palenight'  
