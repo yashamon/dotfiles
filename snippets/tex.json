@@ -173,7 +173,7 @@
   "Math": {
     "prefix": "m",
     "body": [
-      "\\$$1\\$$0"
+      "\\$$1\\$ $0"
     ],
     "description": "Add a Math"
   },
