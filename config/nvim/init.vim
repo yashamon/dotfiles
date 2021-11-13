@@ -715,7 +715,7 @@ let g:auto_save = 1
 let g:auto_save_events = ["CursorHold"]
 "au FileType vim let g:autosave = 0
 let g:auto_save_in_insert_mode = 0
-let g:auto_save_silent = 0
+let g:auto_save_silent = 1
 
 "Git autocommit  (private git repo)
 
