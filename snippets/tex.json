@@ -192,7 +192,7 @@
     "prefix": "eqnum",
     "body": [
       "\\begin{equation}",
-      "\t\\label{eq$1}",
+      "\t\\label{eq:$1}",
       "\t$2", 
       "\\end{equation}",
       "$0" 
@@ -203,7 +203,7 @@
     "prefix": "prop",
     "body": [
       "\\begin{proposition}", 
-      "\t\\label{prop$1}",   
+      "\t\\label{prop:$1}",   
       "$2",
       "\\end{proposition}",
       "$0"
@@ -214,7 +214,7 @@
     "prefix": "rem",
     "body": [
       "\\begin{remark}", 
-      "\t\\label{remark$1}", 
+      "\t\\label{remark:$1}", 
       "$2", 
       "\\end{remark}",
       "$0"
@@ -225,7 +225,7 @@
     "prefix": "notation",
     "body": [
       "\\begin{notation}", 
-      "\t\\label{notation$1}",
+      "\t\\label{notation:$1}",
       "\\end{notation}",
       "$0"
     ],
@@ -235,7 +235,7 @@
     "prefix": "example",
     "body": [
       "\\begin{example}", 
-      "\t\\label{example$1}",
+      "\t\\label{example:$1}",
       "\\end{example}",
       "$0"
    ],
@@ -246,7 +246,7 @@
     "prefix": "lem, lemma",
     "body": [
       "\\begin{lemma}", 
-      "\t\\label{lemma$1}", 
+      "\t\\label{lemma:$1}", 
       "$2",
       "\\end{lemma}",
       "$0"
@@ -258,7 +258,7 @@
     "prefix": "corol",
     "body": [
       "\\begin{corollary}", 
-      "\t\\label{corol$1}", 
+      "\t\\label{corol:$1}", 
       "$2",
 
       "\\end{corollary}",
@@ -271,7 +271,7 @@
     "prefix": "thm",
     "body": [
       "\\begin{theorem}", 
-      "\t\\label{thm$1}", 
+      "\t\\label{thm:$1}", 
        "$2",
 
       "\\end{theorem}",
@@ -319,7 +319,7 @@
     "prefix": "par",
     "body": [
       "\\paragraph{${1:paragraph name}} % (fold)",
-      "\\label{par$1}",
+      "\\label{par:$1}",
       "${0:$TM_SELECTED_TEXT}"
       ],
     "description": "Paragraph"
@@ -338,7 +338,7 @@
     "prefix": "sec",
     "body": [
       "\\section{${1:name}} % (fold)",
-      "\\label{sec$1}"
+      "\\label{sec:$1}"
       ],
     "description": "Section"
   },
@@ -347,7 +347,7 @@
     "prefix": "subsec",
     "body": [
       "\\subsection{${1:subsection name}} % (fold)",
-      "\\label{sec$1}"
+      "\\label{sec:$1}"
       ],
     "description": "Sub Section"
   },   
@@ -375,7 +375,7 @@
     "prefix": "subsubs",
     "body": [
     "\\subsubsection{${1:subsection name}} % (fold)",
-      "\\label{sec$1}"
+      "\\label{sec:$1}"
       ],
     "description": "Sub Sub Section"
   },
