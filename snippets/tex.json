@@ -1156,9 +1156,9 @@
     "description": "definition"
   }, 
 "greater equal": {
-    "prefix": ["leq"],
+    "prefix": ["geq"],
     "body": [
-      "\\leq $0"
+      "\\geq $0"
     ],
     "description": "leq"
   },
