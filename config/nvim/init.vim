@@ -582,9 +582,12 @@ noremap S <Esc> :wa<cr>:BLines<CR>
 " endfunction
 noremap <m-b> <Esc>:wa<cr>:Buffers<CR>
 " noremap F <Esc>:GFiles<CR>
-map <A-e> :wa<cr>:FZF ~<CR>
+map <A-e> :wa<cr>:FZF ~<CR> 
+map <m-f> :wa<cr>:FZF ~<CR>
 
 
+" Latex stuff
+" 
 noremap <leader>ss :wa<cr>:source $MYVIMRC<cr> 
 noremap <c-e> viwy:cclose<cr>:<c-r>+<cr>:TZAtaraxis<cr><cr>
 noremap <c-p> :<c-r>+<cr>
