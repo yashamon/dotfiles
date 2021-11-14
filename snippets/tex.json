@@ -412,7 +412,7 @@
       "\t\t\\includegraphics[width=0.95\\textwidth]{figures/$1}",
       "\t\\end{center}",
       "\t\\caption{$3}",
-      "\t\\label{fig$4}",
+      "\t\\label{fig:$4}",
       "\\end{figure}",
       "$0"
     ],
@@ -424,7 +424,7 @@
       "\\begin{figure}",
       "\t\\includegraphics[width=0.45\\textwidth]{figures/$1}",
       "\t\\caption{$2}",
-      "\t\\label{fig$3}",
+      "\t\\label{fig:$3}",
       "\\end{figure}",
       "$0"
     ],
@@ -436,7 +436,7 @@
       "\\begin{figure*}",
       "\t\\includegraphics[width=0.45\\textwidth]{figures/$1}",
       "\t\\caption{$2}",
-      "\t\\label{fig$3}",
+      "\t\\label{fig:$3}",
       "\\end{figure*}",
       "$0"
     ],
@@ -447,7 +447,7 @@
     "body": [
       "\\begin{table}",
       "\t\\caption{$1}",
-      "\t\\label{tab$2}",
+      "\t\\label{tab:$2}",
       "\t\\begin{center}",
       "\t\t\\begin{tabular}[c]{l|l}",
       "\t\t\t\\hline",
@@ -779,7 +779,7 @@
     "Definition": {
         "prefix": ["def", "\\definition"],
         "body": [
-            "\\begin{definition}\\label{def$1}", 
+            "\\begin{definition}\\label{def:$1}", 
             "\t$0",
             "\\end{definition}"
         ],
