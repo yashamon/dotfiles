@@ -1156,9 +1156,9 @@
     "description": "definition"
   },
 "less equal": {
-    "prefix": ["df"],
+    "prefix": ["leq"],
     "body": [
-      ":= $0"
+      "\\leq $0"
     ],
     "description": "definition"
   },
