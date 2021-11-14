@@ -1160,7 +1160,7 @@
     "body": [
       "\\geq $0"
     ],
-    "description": "leq"
+    "description": "geq"
   },
 
 "less equal": {
