@@ -1154,13 +1154,21 @@
       ":= $0"
     ],
     "description": "definition"
+  }, 
+"greater equal": {
+    "prefix": ["leq"],
+    "body": [
+      "\\leq $0"
+    ],
+    "description": "leq"
   },
+
 "less equal": {
     "prefix": ["leq"],
     "body": [
       "\\leq $0"
     ],
-    "description": "definition"
+    "description": "leq"
   },
 
  
