@@ -61,7 +61,7 @@
     "description": "subset"
     }, 
 "times": {
-    "prefix": "times",
+    "prefix": "t",
     "body": [
         "\\times $0"
        ],
