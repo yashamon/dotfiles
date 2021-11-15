@@ -1080,13 +1080,6 @@
     "description": "isomorphic"
   }, 
 
-"": {
-    "prefix": ["db"],
-    "body": [
-      ":= $0"
-    ],
-    "description": "defined by"
-  },
 
 
 "defined by": {
