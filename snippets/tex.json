@@ -1078,7 +1078,8 @@
       "\\simeq $0"
     ],
     "description": "isomorphic"
-  },
+  }, 
+
 "defined by": {
     "prefix": ["db"],
     "body": [
