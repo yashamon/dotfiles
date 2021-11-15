@@ -1073,7 +1073,7 @@
     "description": "intersection"
   },
 "isomorphic": {
-    "prefix": ["seq"],
+    "prefix": ["isom", "seq"],
     "body": [
       "\\simeq $0"
     ],
