@@ -555,7 +555,7 @@ au FileType tex,text,md noremap map o gj0i<CR><ESC>gki
 "  Sneak
 " let g:sneak#use_ic_scs = 1
 
-map t mcmd>HopChar1AC<cr>
+map t <cmd>HopChar1AC<cr>
 map T <cmd>HopChar1BC<cr>
 map <m-.> <cmd>HopChar1<cr>.
 map <m-space> <cmd>HopWord<cr>
