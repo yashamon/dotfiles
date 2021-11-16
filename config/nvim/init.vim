@@ -956,7 +956,7 @@ mapping = {
       ['<CR>'] = cmp.mapping.confirm({ select = true }),
 -- ... Your other mappings ...
 ["<Tab>"] = cmp.mapping(function(fallback) 
-      if vim.fn["vsnip#expandable()  "]() == 1
+      if vim.fn["vsnip#expandable "]() == 1
         then
         feedkey("<Plug>(vsnip-expand)", "")
      elseif cmp.visible() then
