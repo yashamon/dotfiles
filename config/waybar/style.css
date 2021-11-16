@@ -1,0 +1,163 @@
+* {
+    border: none;
+    border-radius: 0;
+    min-height: 0;
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+    font-size: 9.5pt;
+}
+
+#waybar {
+    background-color: rgba(19, 13, 13, 0.5);
+    color: white;
+    font-family: SF Pro Text Regular, Cantarell, Noto Sans, sans-serif;
+    font-size: 9.5pt;
+}
+
+#window,
+#workspaces,
+#backlight,
+#custom-scratchpad-indicator,
+#custom-keyboard-layout,
+#custom-weather,
+#clock,
+#battery,
+#cpu,
+#memory,
+#temperature,
+#network,
+#pulseaudio,
+#tray,
+#mode,
+#idle_inhibitor {
+    padding-left: 4px;
+    padding-right: 4px;
+}
+
+#workspaces button.focused,
+#backlight,
+#custom-keyboard-layout,
+#battery,
+#cpu,
+#memory,
+#temperature,
+#network,
+#pulseaudio,
+#trayR {
+    border-bottom: 2.5px solid;
+}
+
+/* ---Left--- */
+#workspaces button {
+    padding-left: 4px;
+    padding-right: 4px;
+    color: #ffffff;
+}
+
+#workspaces button:hover {
+    background: rgb(61, 56, 56);
+    box-shadow: inherit;
+}
+
+#workspaces button.focused {
+    border-bottom-color: #df4a16;
+    background-color: rgb(61, 56, 56);
+}
+
+#workspaces button.urgent {
+    background-color: rgb(90, 50, 54);
+}
+
+#custom-scratchpad-indicator{
+    margin-left: 8px;
+}
+
+#idle_inhibitor.activated {
+    background-color: rgb(45, 52, 54);
+}
+/* ---------- */
+
+/* ---Center--- */
+#mode {
+    background-color: rgb(90, 50, 54);
+}
+/* ---------- */
+
+/* ---Right--- */
+#custom-keyboard-layout,
+#backlight,
+#pulseaudio,
+#network,
+#battery {
+    border-bottom-color: #752c4e;
+}
+
+#custom-keyboard-layout{
+    margin-left: 8px;
+}
+
+label:focus {
+    background-color: #000000;
+}
+
+@keyframes blink {
+    to {
+        background-color: rgb(179, 179, 179);
+        color: #31363b;
+    }
+}
+
+#battery.discharging.critical {
+    background-color: rgb(116, 58, 58);
+    color: #ffffff; 
+    animation-name: blink;
+    animation-duration: 0.5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+#battery.discharging.warning {
+    background-color: rgb(141, 120, 49);
+    color: #ffffff; 
+}
+
+#battery.charging {
+    color: #ffffff; 
+    background-color: rgb(37, 68, 50);
+}
+
+#cpu,
+#memory {
+    border-bottom-color: #0c6d1a;
+}
+
+#cpu.warning {
+    background-color: rgb(141, 120, 49);
+    color: #ffffff; 
+}
+
+#cpu.critical {
+    background-color: rgb(116, 58, 58);
+    color: #ffffff; 
+}
+
+#tray {
+    border-bottom-color: #991121;
+    margin-right: 2px;
+}
+/* ---------- */
+
+#custom-separator {
+    color: rgba(19, 13, 13, 0.0);
+    margin: 0 3px;
+}
+
+#window {
+    margin-right: 8px;
+}
+
+#window #waybar.hidden {
+    opacity: 0.2;
+}

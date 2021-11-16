@@ -1,15 +1,11 @@
-2021/10/21-13:12:44.755 3 Reusing MANIFEST /home/yashasavelyev/.config/google-chrome-beta/Default/Local Storage/leveldb/MANIFEST-000001
-2021/10/21-13:12:44.756 3 Recovering log #12
-2021/10/21-13:12:44.757 3 Reusing old log /home/yashasavelyev/.config/google-chrome-beta/Default/Local Storage/leveldb/000012.log 
-2021/10/21-13:28:26.185 3 Level-0 table #16: started
-2021/10/21-13:28:26.786 3 Level-0 table #16: 14864 bytes OK
-2021/10/21-13:28:26.840 3 Delete type=0 #12
-2021/10/21-13:28:26.846 3 Compacting 4@0 + 1@1 files
-2021/10/21-13:28:26.865 3 Generated table #17@0: 178 keys, 4941 bytes
-2021/10/21-13:28:26.871 3 Compacted 4@0 + 1@1 files => 4941 bytes
-2021/10/21-13:28:26.952 3 compacted to: files[ 0 1 1 0 0 0 0 ]
-2021/10/21-13:28:26.965 3 Delete type=2 #7
-2021/10/21-13:28:26.965 3 Delete type=2 #9
-2021/10/21-13:28:26.966 3 Delete type=2 #11
-2021/10/21-13:28:26.966 3 Delete type=2 #13
-2021/10/21-13:28:26.967 3 Delete type=2 #16
+2021/11/11-01:42:35.038 3 Creating DB /home/yasha/.config/google-chrome-beta/Default/Local Storage/leveldb since it was missing.
+2021/11/11-01:42:35.055 3 Reusing MANIFEST /home/yasha/.config/google-chrome-beta/Default/Local Storage/leveldb/MANIFEST-000001
+2021/11/11-02:16:49.756 e Level-0 table #5: started
+2021/11/11-02:16:49.781 e Level-0 table #5: 105266 bytes OK
+2021/11/11-02:16:49.793 e Delete type=0 #3
+2021/11/11-02:30:42.966 e Level-0 table #7: started
+2021/11/11-02:30:42.981 e Level-0 table #7: 80705 bytes OK
+2021/11/11-02:30:42.991 e Delete type=0 #4
+2021/11/11-03:54:00.699 1e Level-0 table #9: started
+2021/11/11-03:54:00.719 1e Level-0 table #9: 86965 bytes OK
+2021/11/11-03:54:00.728 1e Delete type=0 #6

@@ -43,11 +43,11 @@ StartFullscreen = true
 ## In MacOS, 
 # FontFamily = "Monaco"
 ## In Linux
-FontFamily = "Fira Code"
+# FontFamily = "Fira Code"
 ## In Windows
 # FontFamily = "Windows"
 ## Fontsize is
-FontSize = 20
+# FontSize = 20
 ## linespace is
 # Linespace = 6
 

@@ -13,7 +13,7 @@ export XDG_CONFIG_HOME=$HOME/.config
 # export MANPATH="/usr/local/man:$MANPATH"
 # You may need to manually set your language environment
 export LANG=en_US.UTF-8  
-export PATH="$HOME/appimage:/home/linuxbrew/.linuxbrew/bin:/usr/local/bin:/usr/sbin:/sbin:/bin:$HOME/.local/bin:/root/.cabal/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:~/.cabal/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:~/.local/bin:~/.local:$HOME/.cargo/bin:/snap/bin:/data/data/com.termux/files/usr/bin/applets:/data/data/com.termux/files/usr/bin:bin:/usr/local/sbin:$HOME/.zinit/plugins:/usr/bin:$HOME/.local/share/nvim/lspinstall:$HOME/skia-binaries:$HOME/ninja"
+export PATH="$HOME/appimage:/home/linuxbrew/.linuxbrew/bin:/usr/local/bin:/usr/sbin:/sbin:/bin:$HOME/.local/bin:/root/.cabal/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:~/.cabal/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:~/.local/bin:~/.local:$HOME/.cargo/bin:/snap/bin:/data/data/com.termux/files/usr/bin/applets:/data/data/com.termux/files/usr/bin:bin:/usr/local/sbin:/usr/bin:$HOME/.local/share/nvim/lspinstall:$HOME/skia-binaries:$HOME/ninja"
 
 
 
@@ -31,7 +31,9 @@ eval "$(fasd --init auto)"
 
 # alias nvim="/snap/bin/nvim"   
 # alias uapp="~/appimage/AppImageUpdate"
-alias wifi="sudo wifi-menu -o"
+alias rot="xrandr -o"
+alias wifi="sudo wifi-menu -o" 
+alias mod="xmodmap ~/.Xmodmap"
 alias tmux d="tmux detach" 
 alias svi="/snap/bin/nvim"
 alias nvr="nvr --servername $(<~/servername.txt) --remote-silent"
@@ -82,7 +84,8 @@ alias vis="rm /tmp/nvimsocket ; NVIM_LISTEN_ADDRESS=/tmp/nvimsocket nvim"
 # alias go= pslatex document.tex; dvips document.dvi; ps2pdf document.ps
 alias suru="su root; a"
 alias rec="recoll -q"
-alias vi="nvim"  
+alias vi="nvim"   
+alias ping="ping www.google.com"
 alias gone="$HOME/.local/bin/goneovim" 
 alias neo="$HOME/.local/bin/goneovim"
 alias neov="$HOME/.local/bin/neovide --frameless --maximized --multigrid"
@@ -301,7 +304,9 @@ zinit ice from"gh-r" as"program" bpick"*appimage*" ver"nightly" mv"nvim* -> $HOM
 zinit light neovim/neovim  
 
 zinit ice from"gh-r" as"program" bpick"*appimage*" ver"continuous" mv"AppImageUpdate* -> $HOME/appimage/update" pick"update"
-zinit light AppImage/AppImageUpdate
+zinit light AppImage/AppImageUpdate 
+
+
 
 #programs
 # zinit ice from"gh-r" as"program"
