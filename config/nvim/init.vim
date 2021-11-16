@@ -558,7 +558,7 @@ au FileType tex,text,md noremap map o gj0i<CR><ESC>gki
 map t <cmd>HopChar1AC<cr>
 map T <cmd>HopChar1BC<cr>
 map <m-.> <cmd>HopChar1<cr>.
-map <S-Space> <cmd>HopWord<cr>
+map <-Space> <cmd>HopWord<cr>
 " map <S-m-Space> <cmd>HopWord<cr>
 
 
