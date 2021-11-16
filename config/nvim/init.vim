@@ -965,7 +965,7 @@ mapping = {
    else
         cmp.complete()
       --else 
-       -- fallback() -- The fallback function sends a already mapped key. In this case, it's probably `<Tab>`.
+        fallback() -- The fallback function sends a already mapped key. In this case, it's probably `<Tab>`.
       end
     end, { "i", "s" }),
 ["<S-Tab>"] = cmp.mapping(function()
