@@ -89,7 +89,7 @@ Clipboard = true
 
 ## Draw built-in indent guide
 ## Enabling this setting will have a slight impact on performance.
-# IndentGuide = false
+ IndentGuide = false
 # IndentGuideIgnoreFtList = ["md"]
 # OptionsToUseGuideWidth = "tabstop"
 
