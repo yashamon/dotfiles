@@ -755,7 +755,7 @@ noremap <Leader>u :TZAtaraxisOff<cr>:wa<cr>:UndotreeToggle<CR>
 "source ~/.anyname  
 "au filetype tex filetype indent off
 "  GUI Stuff   
-command -nargs=? Guifont call rpcnotify(0, 'Gui', 'SetFont', "\<args\>") | let g:Guifont="<args>"
+" command -nargs=? Guifont call rpcnotify(0, 'Gui', 'SetFont', "\<args\>") | let g:Guifont="<args>"
 
 " Deoplete
 
