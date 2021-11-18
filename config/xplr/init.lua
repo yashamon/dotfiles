@@ -72,7 +72,39 @@ xplr.config.layouts.builtin.default = {
     }
   }
 }
-["e"] = {
+xplr.config.modes.builtin.action = {
+  name = "action to",
+  help = nil,
+  extra_help = nil,
+  key_bindings = {
+    on_key = {
+      ["!"] = {
+        help = "shell",
+        messages = {
+          {
+            Call = {
+              command = "bash",
+              args = { "-i" },
+            },
+          },
+          "ExplorePwdAsync",
+          "PopMode",
+        },
+      },
+      ["c"] = {
+        help = "create",
+        messages = {
+          "PopMode",
+          {
+            SwitchModeBuiltin = "create",
+          },
+        },
+      },
+      ["ctrl-c"] = {
+        help = "terminate",
+        messages = { "Terminate" },
+      },
+      ["e"] = {
         help = "open in editor",
         messages = {
           {
@@ -83,6 +115,58 @@ xplr.config.layouts.builtin.default = {
           "PopMode",
         },
       },
+      esc = {
+        help = "cancel",
+        messages = { "PopMode" },
+      },
+      ["l"] = {
+        help = "logs",
+        messages = {
+          {
+            BashExec = [===[
+            [ -z "$PAGER" ] && PAGER="less -+F"
+            cat -- "${XPLR_PIPE_LOGS_OUT}" | ${PAGER:?}
+            ]===],
+          },
+          "PopMode",
+        },
+      },
+      ["s"] = {
+        help = "selection operations",
+        messages = {
+          "PopMode",
+          {
+            SwitchModeBuiltin = "selection_ops",
+          },
+        },
+      },
+      ["m"] = {
+        help = "toggle mouse",
+        messages = {
+          "PopMode",
+          "ToggleMouse",
+        },
+      },
+      ["q"] = {
+        help = "quit options",
+        messages = {
+          "PopMode",
+          { SwitchModeBuiltin = "quit" },
+        },
+      },
+    },
+    on_number = {
+      help = "go to index",
+      messages = {
+        "PopMode",
+        {
+          SwitchModeBuiltin = "number",
+        },
+        "BufferInputFromKey",
+      },
+    },
+  },
+}
 
 -- silent_cmd("hello-bash", "Enter name and know location")(function(app)
 --   return {
