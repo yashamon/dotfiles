@@ -10,6 +10,17 @@ package.path = os.getenv("HOME") .. '/.config/xplr/plugins/?/src/init.lua'
 
 require("material-landscape2").setup() 
 
+require("fzf").setup()
+
+-- Or
+
+require("fzf").setup{
+  mode = "default",
+  key = "ctrl-f",
+  args = "--preview 'pistol {}'"
+}
+
+-- Press `ctrl-f` to spawn fzf in $PWD
 
 -- Config
 ---- General
