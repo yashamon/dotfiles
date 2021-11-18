@@ -77,7 +77,7 @@ cmd("edit")(function(app)
   return {
     {
       BashExec = [===[
-        goneovim ${XPLR_FOCUS_PATH:?}
+        echo ${XPLR_FOCUS_PATH:?}
       ]===],
     },
   }
