@@ -102,6 +102,6 @@ xplr.config.layouts.builtin.default = {
 -- 
 -- map `h` to command `hello-lua`
 -- map `H` to command `hello-bash`
- map("default", "n", :e<>)
+ -- map("default", "n", :e<cr>)
 ------ Read only
 
