@@ -17,7 +17,7 @@ cmd fzf_jump ${{
     fi
     lf -remote "send $id $cmd \"$res\""
 }}
-map <c-f> :fzf_jump
+map f :fzf_jump
 
 cmd fasd_dir ${{
    res="$(fasd -dl | grep -iv cache | fzf 2>/dev/tty | sed 's/\\/\\\\/g;s/"/\\"/g')"
