@@ -3,7 +3,7 @@
         -- for compatibility check.
 -- See https://github.com/sayanarijit/xplr/wiki/Upgrade-Guide.
 --
-version = "1.0.0"
+version = ".0.0"
 
 local xplr = xplr
 package.path = os.getenv("HOME") .. '/.config/xplr/plugins/?/src/init.lua'
