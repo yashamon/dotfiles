@@ -198,4 +198,4 @@ cmd zip ${{
 }}
 
 
-bind '"\C-o":"lfcd\C-m"'
+
