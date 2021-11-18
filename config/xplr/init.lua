@@ -8,7 +8,7 @@ version = "0.16.4"
 
 local xplr = xplr
 package.path = os.getenv("HOME") .. '/.config/xplr/plugins/?/src/init.lua'
-- require("material-landscape2").setup()
+require("material-landscape2").setup()
 
 -- Or
 
@@ -40,7 +40,25 @@ require("comex").setup{
 -- Config
 ---- General
 ------ Show hidden
-xplr.config.general.show_hidden = true
+xplr.config.general.show_hidden = true 
+
+xplr.config.layouts.builtin.default = {
+  Horizontal = {
+    config = {
+      margin = 1,
+      horizontal_margin = 2,
+      vertical_margin = 0,
+      constraints = {
+        { Percentage = 50 },
+        { Percentage = 50 },
+      }
+    },
+    splits = {
+      "Table",
+      "HelpMenu",
+    }
+  }
+}
 
 ------ Read only
 
