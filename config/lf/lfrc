@@ -7,74 +7,8 @@ cmd aj %lf -remote "send $id cd '$(autojump $1)'"
 map a push :aj<space> 
 
 cmd paste $cp-p --lf-paste $id 
-map p :paste 
-
-map <c-f> $vi $(fzf)  
-
-lfcd () {
-    tmp="$(mktemp)"
-    fid="$(mktemp)"
-    lf -command '$printf $id > '"$fid"'' -last-dir-path="$tmp" "$@"
-    id="$(cat "$fid")"
-    archivemount_dir="/tmp/__lf_archivemount_$id"
-    if [ -f "$archivemount_dir" ]; then
-        cat "$archivemount_dir" | \
-            while read -r line; do
-                sudo umount "$line"
-                rmdir "$line"
-            done
-        rm -f "$archivemount_dir"
-    fi
-    if [ -f "$tmp" ]; then
-        dir="$(cat "$tmp")"
-        rm -f "$tmp"
-        if [ -d "$dir" ]; then
-            if [ "$dir" != "$(pwd)" ]; then
-                cd "$dir"
-            fi
-        fi
-    fi
-}
-
-cmd zle-cd %printf 'cd %q && zle reset-prompt\n' "$PWD" >&$ZLE_FIFO
-
-cmd zle-insert-relative %{{
-    for f in $fx; do
-        printf 'LBUFFER+="${LBUFFER:+ }${(q)$(realpath %q --relative-to=$PWD)}"\n' "$f" >&$ZLE_FIFO
-    done
-}}
-
-cmd zle-insert-absolute %{{
-    for f in $fx; do
-        printf 'LBUFFER+="${LBUFFER:+ }%q"\n' "$f" >&$ZLE_FIFO
-    done
-}}
-
-cmd zle-init :{{
-    map . zle-cd
-    map a zle-insert-relative
-    map A zle-insert-absolute
-}}
-
-&[[ -n "$ZLE_FIFO" ]] && lf -remote "send $id zle-init"
-cmd open ${{
-    case "$f" in
-        *.tar.bz|*.tar.bz2|*.tbz|*.tbz2|*.tar.gz|*.tgz|*.tar.xz|*.txz|*.zip|*.rar|*.iso)
-            mntdir="$f-archivemount"
-            [ ! -d "$mntdir" ] && {
-                mkdir "$mntdir"
-                archivemount "$f" "$mntdir"
-                echo "$mntdir" >> "/tmp/__lf_archivemount_$id"
-            }
-            lf -remote "send $id cd \"$mntdir\""
-            lf -remote "send $id reload"
-            ;;
-        *)
-            for f in $fx; do
-                $OPENER $f > /dev/null 2> /dev/null &
-            done;;
-    esac
-}}
+map p :paste
+map <c-f> $vi $(fzf) 
 
 cmd fzf_jump ${{
     res="$(find . -maxdepth 1 | fzf --reverse --header='Jump to location' | sed 's/\\/\\\\/g;s/"/\\"/g')"
