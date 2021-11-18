@@ -55,7 +55,7 @@ xplr.config.layouts.builtin.default = {
     },
     splits = {
       "Table",
-      "HelpMenu",
+      -- "HelpMenu",
     }
   }
 }
