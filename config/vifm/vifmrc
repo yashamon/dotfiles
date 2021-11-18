@@ -18,7 +18,9 @@ noremap t :tabnew<cr>
 noremap <A-l> gt
 noremap <A-h> Gt
 noremap e :edit<cr>
-map f / 
+map f /  
+
+map <C-d> <C-g>
 map sh <esc>:sh<cr>
 map <m-q> <ESC>:execute '!echo %d > ~/.config/vifm/lastdir'| quit <CR>
 map F ?
@@ -57,7 +59,7 @@ filetype *.md5 md5sum -c %f
 " If you would like to use another vi clone such Elvis or Vile
 " you will need to change this setting.
 
-set vicmd=neo
+set vicmd=goneovim
 " set vicmd=elvis\ -G\ termcap
 " set vicmd=vile
 
