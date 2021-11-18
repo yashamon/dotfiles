@@ -73,5 +73,33 @@ xplr.config.layouts.builtin.default = {
   }
 }
 
+xplr.config.modes.custom.fzxplr = {
+  name = "fzxplr",
+  key_bindings = {
+    on_key = {
+      F = {
+        help = "search",
+        messages = {
+          {
+            BashExec = [===[
+            PTH=$(cat "${XPLR_PIPE_DIRECTORY_NODES_OUT:?}" | awk -F/ '{print $NF}' | fzf)
+            if [ -d "$PTH" ]; then
+              echo ChangeDirectory: "'"${PWD:?}/${PTH:?}"'" >> "${XPLR_PIPE_MSG_IN:?}"
+            else
+              echo FocusPath: "'"${PWD:?}/${PTH:?}"'" >> "${XPLR_PIPE_MSG_IN:?}"
+            fi
+            ]===]
+          },
+          "PopMode",
+        },
+      },
+    },
+    default = {
+      messages = {
+        "PopMode",
+      },
+    },
+  },
+}
 ------ Read only
 
