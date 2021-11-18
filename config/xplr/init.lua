@@ -72,34 +72,26 @@ xplr.config.layouts.builtin.default = {
     }
   }
 }
+silent_cmd("edit", "Enter name and know location")(function(app)
+  return {
+    {
+      BashExec = [===[
+        echo "What's your name?"
 
-xplr.config.modes.custom.fzxplr = {
-  name = "fzxplr",
-  key_bindings = {
-    on_key = {
-      F = {
-        help = "edit",
-        messages = {
-          {
-            BashExec = [===[
-            PTH=$(cat "${XPLR_PIPE_DIRECTORY_NODES_OUT:?}" | awk -F/ '{print $NF}' | fzf)
-            if [ -d "$PTH" ]; then
-              echo ChangeDirectory: "'"${PWD:?}/${PTH:?}"'" >> "${XPLR_PIPE_MSG_IN:?}"
-            else
-              echo FocusPath: "'"${PWD:?}/${PTH:?}"'" >> "${XPLR_PIPE_MSG_IN:?}"
-            fi
-            ]===]
-          },
-          "PopMode",
-        },
-      },
+        read name
+        greeting="Hello $name!"
+        message="$greeting You are inside $PWD"
+      
+        echo LogSuccess: '"'$message'"' >> "${XPLR_PIPE_MSG_IN:?}"
+      ]===],
     },
-    default = {
-      messages = {
-        "PopMode",
-      },
-    },
-  },
-}
+  }
+end)
+
+-- map `h` to command `hello-lua`
+map("default", "h", "hello-lua")
+
+-- map `H` to command `hello-bash`
+map("default", "H", "hello-bash")
 ------ Read only
 
