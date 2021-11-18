@@ -386,7 +386,7 @@ map <leader>q q
 nmap <m-7> :ZenMode<cr>:mksession!<cr>
 nnoremap <leader>rr :source $MYVIMRC<CR>
 "nnoremap <leader>e :NERDTreeFind<CR>
-nnoremap <leader>e :wa<cr>:Vifm<cr>
+nnoremap <leader>e :wa<cr>:Xplr<cr>
 nnoremap <leader>t :wa<cr>:FloatermToggle<cr>
 nnoremap <c-,> :cprevious<cr>
 nnoremap <c-.> :cnext<cr> 
