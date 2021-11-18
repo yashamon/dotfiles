@@ -90,17 +90,17 @@ silent_cmd("hello-bash", "Enter name and know location")(function(app)
   }
 end)
 
-silent_cmd("edit", "blah")(function(app)
-  return {
-    {
-      BashExec = [===[
-        echo "test"
-      -- ${XPLR_FOCUS_PATH:?}
-      ]===],
-    },
-  }
-end)
-
+-- silent_cmd("edit", "blah")(function(app)
+--   return {
+--     {
+--       BashExec = [===[
+--         echo "test"
+--       -- ${XPLR_FOCUS_PATH:?}
+--       ]===],
+--     },
+--   }
+-- end)
+-- 
 -- map `h` to command `hello-lua`
 -- map `H` to command `hello-bash`
 map("default", "n", "hello-bash")
