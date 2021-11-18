@@ -58,7 +58,7 @@ xplr.config.layouts.builtin.default = {
       -- "HelpMenu",
     }
   }
-}
+
 }
 
 ------ Read only
