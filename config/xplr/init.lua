@@ -52,6 +52,7 @@ require("command-mode").setup{
   }
 }
 
+require("context-switch").setup()
 -- Type `:` to enter command mode
 
 xplr.config.layouts.builtin.default = {
