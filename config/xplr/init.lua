@@ -71,8 +71,7 @@ xplr.config.layouts.builtin.default = {
       -- "HelpMenu",
     }
   }
-}
-silent_cmd("edit", "Enter name and know location")(function(app)
+}silent_cmd("edit", "Enter name and know location")(function(app)
   return {
     {
       BashExec = [===[
