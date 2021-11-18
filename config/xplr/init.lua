@@ -170,14 +170,16 @@ xplr.config.modes.builtin.default = {
       },
       ["n"] = {
         help = "editor",
-        messages = {
-          "PopMode",
+       messages = {
           {
-            SwitchModeBuiltin = "delete",
+            BashExec = [===[
+            goneovim "${XPLR_FOCUS_PATH:?}"
+            ]===],
           },
+          "PopMode",
         },
       },
-
+ 
       
       down = {
         help = "down",
