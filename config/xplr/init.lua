@@ -4,7 +4,8 @@
 -- See https://github.com/sayanarijit/xplr/wiki/Upgrade-Guide.
 --
 version = "0.16.4"
-require("material-landscape2").setup() 
+
+require("material-landscape2").setup()
 
 -- Or
 
