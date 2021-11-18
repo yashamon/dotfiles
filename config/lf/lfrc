@@ -1,6 +1,6 @@
 # interpreter for shell commands
 set shell zsh 
-
+hidden 
 cmd trash %trash-put $fx 
 
 cmd aj %lf -remote "send $id cd '$(autojump $1)'"
