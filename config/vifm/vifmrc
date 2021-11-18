@@ -18,7 +18,7 @@ noremap t :tabnew<cr>
 noremap <A-l> gt
 noremap <A-h> Gt
 noremap e :edit<cr>
-/* map f / */
+"/* map f / */
 
 
 
