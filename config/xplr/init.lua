@@ -10,13 +10,11 @@ package.path = os.getenv("HOME") .. '/.config/xplr/plugins/?/src/init.lua'
 
 require("material-landscape2").setup() 
 
-require("fzf").setup()
-
 -- Or
 
 require("fzf").setup{
   mode = "default",
-  key = "ctrl-f",
+  key = "f",
   args = "--preview 'pistol {}'"
 }
 
@@ -905,7 +903,7 @@ xplr.config.modes.builtin.default = {
         help = nil,
         messages = {},
       },
-      ["f"] = {
+      ["c-f"] = {
         help = "filter",
         messages = {
           "PopMode",
