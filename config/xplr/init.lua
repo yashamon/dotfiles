@@ -73,6 +73,8 @@ xplr.config.layouts.builtin.default = {
   }
 }
 
+
+
 silent_cmd("edit", "blah")(function(app)
   return {
     {
@@ -86,6 +88,6 @@ end)
 
 -- map `h` to command `hello-lua`
 -- map `H` to command `hello-bash`
-map("default", "n", "hello-bach")
+map("default", "n", "hello-bash")
 ------ Read only
 
