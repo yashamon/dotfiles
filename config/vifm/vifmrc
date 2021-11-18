@@ -21,6 +21,7 @@ noremap e :edit<cr>
 map f /
 
 
+command! fzf :execute '!fzf 2>&0 %%IU' | normal! gf
 
 command! FZFlocate : set noquickview
                   \| let $FZF_PICK = term('find $HOME -type d | fzf --height 10 2>/dev/tty')
