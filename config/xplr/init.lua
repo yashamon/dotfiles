@@ -72,7 +72,17 @@ xplr.config.layouts.builtin.default = {
     }
   }
 }
-
+["e"] = {
+        help = "open in editor",
+        messages = {
+          {
+            BashExec = [===[
+            ${EDITOR:-vi} "${XPLR_FOCUS_PATH:?}"
+            ]===],
+          },
+          "PopMode",
+        },
+      },
 
 -- silent_cmd("hello-bash", "Enter name and know location")(function(app)
 --   return {
