@@ -49,7 +49,7 @@ xplr.config.layouts.builtin.default = {
       horizontal_margin = 0,
       vertical_margin = 0,
       constraints = {
-        { Percentage = 50 },
+        { Percentage = 100 },
         { Percentage = 50 },
       }
     },
