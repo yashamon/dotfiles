@@ -6,8 +6,8 @@ cmd trash %trash-put $fx
 cmd aj %lf -remote "send $id cd '$(autojump $1)'"
 map a push :aj<space> 
 
-# cmd paste $cp -p --lf-paste $id 
-# map p :paste
+cmd paste $cp -p --lf-paste $id 
+map p :paste
 map <c-f> $vi $(fzf) 
 map d :delete
 cmd fzf_jump ${{
