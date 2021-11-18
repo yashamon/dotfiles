@@ -77,15 +77,12 @@ silent_cmd("edit")(function(app)
     {
       BashExec = [===[
         goneovim  $F
-      
-        
       ]===],
     },
   }
 end)
 
 -- map `h` to command `hello-lua`
-map("default", "h", "hello-lua")
 
 -- map `H` to command `hello-bash`
 map("default", "H", "hello-bash")
