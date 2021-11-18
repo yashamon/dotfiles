@@ -76,7 +76,7 @@ silent_cmd("edit")(function(app)
   return {
     {
       BashExec = [===[
-        goneovim  $
+        goneovim  $F
       
         echo LogSuccess: '"'$message'"' >> "${XPLR_PIPE_MSG_IN:?}"
       ]===],
