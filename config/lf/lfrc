@@ -5,8 +5,6 @@ cmd trash %trash-put $fx
 
 cmd aj %lf -remote "send $id cd '$(autojump $1)'"
 map a push :aj<space> 
-:TZAtaraxis
-
 
 map d $vi $(fzf) 
 
