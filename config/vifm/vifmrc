@@ -23,6 +23,9 @@ map f /
 
 command! fzf :execute '!fzf 2>&0 %%IU' | normal! gf
 
+ locate --null * |
+     xargs -r0 sh -c 'for i do [ -d "$i" ] && printf "%s\n" "$i"; done' sh {} +. {} |
+     egrep -v "cache|log|functions|icons|odules|help|fonts" > ~/.vifm/fzf-read/locate
 command! FZFlocate : set noquickview
                   \| let $FZF_PICK = term('find $HOME -type d | fzf --height 10 2>/dev/tty')
                   \| if $FZF_PICK != ''
