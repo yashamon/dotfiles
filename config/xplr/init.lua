@@ -1,5 +1,4 @@
-
-        -- You need to define the script version
+-- You need to define the script version
         -- for compatibility check.
 -- See https://github.com/sayanarijit/xplr/wiki/Upgrade-Guide.
 --
@@ -11,7 +10,6 @@ package.path = os.getenv("HOME") .. '/.config/xplr/plugins/?/src/init.lua'
 require("material-landscape2").setup()
 
 -- Or
-
 require("fzf").setup{
   mode = "default",
   key = "f",
@@ -59,49 +57,143 @@ require("context-switch").setup()
 xplr.config.layouts.builtin.default = {
   Horizontal = {
     config = {
-      margin = 1,
+      margin = 0,
       horizontal_margin = 0,
       vertical_margin = 0,
       constraints = {
-        { Percentage = 100 },
-      }
+        { Percentage = 70 },
+      { Percentage = 30 },
+}
     },
     splits = {
       "Table",
-      -- "HelpMenu",
+      "InputAndLogs",
     }
   }
 }
 
+xplr.config.modes.builtin.default.key_bindings.on_key.N = {
+    help = "editor",
+    messages = {
+          {
+            BashExec = [===[
+            goneovim "${XPLR_FOCUS_PATH:?}"
+            ]===],
+          },
+        },
+}
+-- xplr.config.modes.builtin.default.key_bindings.on_key.E = {
+--     help = "enter",
+--     messages = {
+--           {
+--            "Enter"
+--           },
+--         },
+-- }
 
--- silent_cmd("hello-bash", "Enter name and know location")(function(app)
---   return {
---     {
---       BashExec = [===[
---         echo "What's your name?"
+-- xplr.config.modes.builtin.default.key_bindings.on_key.n = {
+--     help = "editor",
+--     messages = { {
+--           {
+--             BashExec = [===[
+--             goneovim "${XPLR_FOCUS_PATH:?}"
+--             ]===],
+--           },
+--           "PopMode",
+--         },
+--  },
+-- }
+-- xplr.config.modes.builtin.default.key_bindings.on_key.enter = {
+--     help = "enter",
+--     messages = { {
+--           {"Enter"},
+--         },
+--  },
+-- }
 -- 
---         read name
---         greeting="Hello $name!"
---         message="$greeting You are inside $PWD"
---       
---         echo LogSuccess: '"'$message'"' >> "${XPLR_PIPE_MSG_IN:?}"
---       ]===],
---     },
---   }
--- end)
--- silent_cmd("edit", "blah")(function(app)
---   return {
---     {
---       BashExec = [===[
---         echo "test"
---       -- ${XPLR_FOCUS_PATH:?}
---       ]===],
---     },
---   }
--- end)
+-- Modes
+---- Builtin
+------ Default
+-- xplr.config.modes.builtin.default = {
+--   name = "default",
+--   help = nil,
+--   extra_help = nil,
+--   key_bindings = {
+--     on_key = {
+--             enter = {
+--         help = "quit with result",
+--         messages = { "Enter" },
+--       },
+--             ["n"] = {
+--         help = "open in editor",
+--         messages = {
+--           {
+--             BashExec = [===[
+--             goneovim "${XPLR_FOCUS_PATH:?}"
+--             ]===],
+--           },
+--           "PopMode",
+--         },
+--       },
 -- 
--- map `h` to command `hello-lua`
--- map `H` to command `hello-bash`
- map("default", "n", :e<cr>)
------- Read only
-
+--           },
+--   },
+-- }
+-- 
+-- xplr.config.modes.builtin.default.key_bindings.on_key["tab"] =
+--   xplr.config.modes.builtin.default.key_bindings.on_key["ctrl-i"]
+-- 
+-- xplr.config.modes.builtin.default.key_bindings.on_key["v"] =
+--   xplr.config.modes.builtin.default.key_bindings.on_key.space
+-- 
+-- xplr.config.modes.builtin.default.key_bindings.on_key["V"] =
+--   xplr.config.modes.builtin.default.key_bindings.on_key["ctrl-a"]
+-- 
+-- xplr.config.modes.builtin.default.key_bindings.on_key["/"] =
+--   xplr.config.modes.builtin.default.key_bindings.on_key["ctrl-f"]
+-- 
+-- xplr.config.modes.builtin.default.key_bindings.on_key["h"] =
+--   xplr.config.modes.builtin.default.key_bindings.on_key.left
+-- 
+-- xplr.config.modes.builtin.default.key_bindings.on_key["j"] =
+--   xplr.config.modes.builtin.default.key_bindings.on_key.down
+-- 
+-- xplr.config.modes.builtin.default.key_bindings.on_key["k"] =
+--   xplr.config.modes.builtin.default.key_bindings.on_key.up
+-- 
+-- xplr.config.modes.builtin.default.key_bindings.on_key["l"] =
+--   xplr.config.modes.builtin.default.key_bindings.on_key.right
+-- 
+-- ------ Recover
+-- ------ Selection ops
+-- 
+-- -- silent_cmd("hello-bash", "Enter name and know location")(function(app)
+-- --   return {
+-- --     {
+-- --       BashExec = [===[
+-- --         echo "What's your name?"
+-- -- 
+-- --         read name
+-- --         greeting="Hello $name!"
+-- --         message="$greeting You are inside $PWD"
+-- --       
+-- --         echo LogSuccess: '"'$message'"' >> "${XPLR_PIPE_MSG_IN:?}"
+-- --       ]===],
+-- --     },
+-- --   }
+-- -- end)
+-- -- silent_cmd("edit", "blah")(function(app)
+-- --   return {
+-- --     {
+-- --       BashExec = [===[
+-- --         echo "test"
+-- --       -- ${XPLR_FOCUS_PATH:?}
+-- --       ]===],
+-- --     },
+-- --   }
+-- -- end)
+-- -- 
+-- -- map `h` to command `hello-lua`
+-- -- map `H` to command `hello-bash`
+--  -- map("default", "n", :e<cr>)
+-- ------ Read only
