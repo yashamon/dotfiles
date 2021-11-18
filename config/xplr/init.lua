@@ -18,6 +18,23 @@ require("fzf").setup{
   args = "--preview 'pistol {}'"
 }
 
+require("comex").setup()
+
+-- Or
+
+require("comex").setup{
+  compress_key = "C",
+  compressors = {
+    Z = { extension = "zip", command = [[zip $(cat "${XPLR_PIPE_SELECTION_OUT:?}")]] },
+  },
+  extract_key = "X",
+  extractors = {
+    Z = { extension = "zip", command = [[unzip -d "${XPLR_FOCUS_PATH:?}.d" "${XPLR_FOCUS_PATH:?}"]] },
+  },
+  keep_selection = false,
+}
+
+-- Type `:sC` to compress selection, and `:X` to extract focus.
 
 -- Press `ctrl-f` to spawn fzf in $PWD
 
