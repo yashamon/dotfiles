@@ -167,7 +167,9 @@ xplr.config.modes.builtin.default = {
             SwitchModeBuiltin = "delete",
           },
         },
-      },
+      }, 
+      
+      
       down = {
         help = "down",
         messages = { "FocusNext" },
