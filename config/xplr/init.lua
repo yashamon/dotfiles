@@ -95,7 +95,7 @@ xplr.config.modes.builtin.default = {
       },
       enter = {
         help = "quit with result",
-        messages = { "PrintResultAndQuit" },
+        messages = { "Enter" },
       },
       esc = {
         help = nil,
