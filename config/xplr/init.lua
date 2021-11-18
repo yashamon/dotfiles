@@ -53,10 +53,10 @@ xplr.config.layouts.builtin.default = {
     --     -- { Percentage = 50 },
     --   }
     -- },
-    -- splits = {
-    --   "Table"
-    --   -- "HelpMenu",
-    -- }
+    splits = {
+      "Table"
+      -- "HelpMenu",
+    }
   }
 }
 }
