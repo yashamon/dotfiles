@@ -74,21 +74,21 @@ xplr.config.layouts.builtin.default = {
 }
 
 
-silent_cmd("hello-bash", "Enter name and know location")(function(app)
-  return {
-    {
-      BashExec = [===[
-        echo "What's your name?"
-
-        read name
-        greeting="Hello $name!"
-        message="$greeting You are inside $PWD"
-      
-        echo LogSuccess: '"'$message'"' >> "${XPLR_PIPE_MSG_IN:?}"
-      ]===],
-    },
-  }
-end)
+-- silent_cmd("hello-bash", "Enter name and know location")(function(app)
+--   return {
+--     {
+--       BashExec = [===[
+--         echo "What's your name?"
+-- 
+--         read name
+--         greeting="Hello $name!"
+--         message="$greeting You are inside $PWD"
+--       
+--         echo LogSuccess: '"'$message'"' >> "${XPLR_PIPE_MSG_IN:?}"
+--       ]===],
+--     },
+--   }
+-- end)
 
 -- silent_cmd("edit", "blah")(function(app)
 --   return {
