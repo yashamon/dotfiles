@@ -42,6 +42,8 @@ require("comex").setup{
 ------ Show hidden
 xplr.config.general.show_hidden = true 
 
+
+
 xplr.config.layouts.builtin.default = {
   Horizontal = {
     config = {
@@ -50,7 +52,6 @@ xplr.config.layouts.builtin.default = {
       vertical_margin = 0,
       constraints = {
         { Percentage = 100 },
-        { Percentage = 50 },
       }
     },
     splits = {
