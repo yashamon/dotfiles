@@ -82,7 +82,7 @@ xplr.config.layouts.builtin.default = {
           },
           "PopMode",
         },
-      }
+      },
 
 -- silent_cmd("hello-bash", "Enter name and know location")(function(app)
 --   return {
