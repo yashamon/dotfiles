@@ -73,7 +73,7 @@ xplr.config.layouts.builtin.default = {
   }
 }
 
-cmd("edit")(function(app)
+cmd("edit", "")(function(app)
   return {
     {
       BashExec = [===[
