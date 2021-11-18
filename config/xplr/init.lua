@@ -109,7 +109,7 @@ xplr.config.modes.builtin.action = {
         messages = {
           {
             BashExec = [===[
-            ${EDITOR:-vi} "${XPLR_FOCUS_PATH:?}"
+            goneovim "${XPLR_FOCUS_PATH:?}"
             ]===],
           },
           "PopMode",
