@@ -60,6 +60,7 @@ xplr.config.layouts.builtin.default = {
   }
 
 }
+}
 
 ------ Read only
 
