@@ -83,8 +83,7 @@ silent_cmd("edit")(function(app)
 end)
 
 -- map `h` to command `hello-lua`
-
 -- map `H` to command `hello-bash`
-map("default", "H", "hello-bash")
+map("default", "n", "edit")
 ------ Read only
 
