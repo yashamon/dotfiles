@@ -8,7 +8,7 @@ version = "0.16.4"
 
 local xplr = xplr
 package.path = os.getenv("HOME") .. '/.config/xplr/plugins/?/src/init.lua'
-require("material-landscape2").setup()
+-- require("material-landscape2").setup()
 
 -- Or
 
