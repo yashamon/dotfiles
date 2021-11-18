@@ -73,7 +73,7 @@ xplr.config.layouts.builtin.default = {
   }
 }
 
-silent_cmd("edit", "")(function(app)
+silent_cmd("edit", "blah")(function(app)
   return {
     {
       BashExec = [===[
