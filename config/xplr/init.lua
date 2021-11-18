@@ -18,7 +18,6 @@ require("fzf").setup{
   args = "--preview 'pistol {}'"
 }
 
-require("comex").setup()
 
 -- Or
 
@@ -47,7 +46,7 @@ xplr.config.general.show_hidden = true
 xplr.config.general.read_only = false
 
 ------ Recover mode
-xplr.config.general.enable_recover_mode = true
+xplr.config.general.enable_recover_mode = faluse
 
 ------ Start FIFO
 xplr.config.general.start_fifo = nil
