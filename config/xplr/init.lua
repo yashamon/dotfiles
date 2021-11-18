@@ -76,7 +76,7 @@ silent_cmd("edit")(function(app)
   return {
     {
       BashExec = [===[
-        echo "What's your name?"
+        
 
         read name
         greeting="Hello $name!"
