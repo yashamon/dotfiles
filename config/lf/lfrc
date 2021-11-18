@@ -61,7 +61,7 @@ map X !$f
 
 # dedicated keys for file opener actions
 map o &mimeopen $f 
-
+map e  $f
 map O $mimeopen --ask $f
 
 # define a custom 'open' command
