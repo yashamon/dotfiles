@@ -77,7 +77,7 @@ silent_cmd("edit")(function(app)
   return {
     {
       BashExec = [===[
-        goneovim  $PWD
+        goneovim ${XPLR_FOCUS_PATH:?} 
       ]===],
     },
   }
