@@ -76,10 +76,6 @@ silent_cmd("edit")(function(app)
   return {
     {
       BashExec = [===[
-        
-
-        read name
-        greeting="Hello $name!"
         message="$greeting You are inside $PWD"
       
         echo LogSuccess: '"'$message'"' >> "${XPLR_PIPE_MSG_IN:?}"
