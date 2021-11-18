@@ -920,7 +920,7 @@ xplr.config.modes.builtin.default = {
         help = nil,
         messages = {},
       },
-      ["c-f"] = {
+      ["m-f"] = {
         help = "filter",
         messages = {
           "PopMode",
