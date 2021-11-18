@@ -14,7 +14,7 @@ require("material-landscape2").setup()
 
 require("fzf").setup{
   mode = "default",
-  key = "m-f",
+  key = "c-f",
   args = "--preview 'pistol {}'"
 }
 
