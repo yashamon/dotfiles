@@ -92,17 +92,12 @@ xplr.config.modes.builtin.default = {
       ["j"] = {
         help = "down",
         messages = { "FocusNext" },
-      }, 
-      ["k"] = {
-        help = "up",
-        messages = { "FocusPrevious" },
       },
-
       enter = {
         help = "quit with result",
         messages = { "Enter" },
       },
-      },
+          },
   },
 }
 xplr.config.modes.builtin.action = {
