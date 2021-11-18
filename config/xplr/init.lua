@@ -40,7 +40,7 @@ require("comex").setup{
 -- Config
 ---- General
 ------ Show hidden
-xplr.config.general.show_hidden = true 
+xplr.config.general.show_hidden = true
 
 
 require("command-mode").setup{
