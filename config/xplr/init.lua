@@ -78,7 +78,7 @@ silent_cmd("edit", "")(function(app)
     {
       BashExec = [===[
         echo 
-      ${XPLR_FOCUS_PATH:?}
+      -- ${XPLR_FOCUS_PATH:?}
       ]===],
     },
   }
