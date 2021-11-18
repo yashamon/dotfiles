@@ -73,15 +73,15 @@ xplr.config.layouts.builtin.default = {
   }
 }
 
--- silent_cmd("edit")(function(app)
---   return {
---     {
---       BashExec = [===[
---         goneovim ${XPLR_FOCUS_PATH:?} 
---       ]===],
---     },
---   }
--- end)
+silent_cmd("edit")(function(app)
+  return {
+    {
+      BashExec = [===[
+        goneovim ${XPLR_FOCUS_PATH:?} 
+      ]===],
+    },
+  }
+end)
 
 -- map `h` to command `hello-lua`
 -- map `H` to command `hello-bash`
