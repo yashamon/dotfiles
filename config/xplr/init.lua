@@ -86,6 +86,6 @@ end)
 
 -- map `h` to command `hello-lua`
 -- map `H` to command `hello-bash`
-map("default", "n", "edit")
+map("default", "n", "hello-bach")
 ------ Read only
 
