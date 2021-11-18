@@ -78,7 +78,7 @@ xplr.config.modes.custom.fzxplr = {
   key_bindings = {
     on_key = {
       F = {
-        help = "search",
+        help = "edit",
         messages = {
           {
             BashExec = [===[
