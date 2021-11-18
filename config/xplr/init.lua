@@ -92,7 +92,7 @@ xplr.config.modes.builtin.default = {
       ["j"] = {
         help = "down",
         messages = { "FocusNext" },
-      },
+      }, 
       ["k"] = {
         help = "up",
         messages = { "FocusPrevious" },
