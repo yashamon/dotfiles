@@ -169,7 +169,7 @@ xplr.config.modes.builtin.default = {
         },
       },
       ["n"] = {
-        help = "delete",
+        help = "editor",
         messages = {
           "PopMode",
           {
