@@ -8,6 +8,7 @@
 local xplr = xplr
 package.path = os.getenv("HOME") .. '/.config/xplr/plugins/?/src/init.lua'
 
+package.path = os.getenv("HOME") .. '/.config/xplr/plugins/?/src/init.lua'
 require("material-landscape2").setup()
 
 -- Config
