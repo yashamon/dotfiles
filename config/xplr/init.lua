@@ -88,7 +88,7 @@ xplr.config.modes.builtin.selection_ops = {
   extra_help = nil,
   key_bindings = {
     on_key = {
-      ["C"] = {
+      ["c"] = {
         help = "copy here",
         messages = {
           {
