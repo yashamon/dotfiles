@@ -43,6 +43,20 @@ require("comex").setup{
 xplr.config.general.show_hidden = true 
 
 
+require("command-mode").setup()
+
+-- Or
+
+require("command-mode").setup{
+  mode = "default",
+  key = ":",
+  remap_action_mode_to = {
+    mode = "default",
+    key = ";",
+  }
+}
+
+-- Type `:` to enter command mode
 
 xplr.config.layouts.builtin.default = {
   Horizontal = {
