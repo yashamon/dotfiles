@@ -76,7 +76,7 @@ silent_cmd("edit")(function(app)
   return {
     {
       BashExec = [===[
-        goneovim message="$greeting You are inside $PWD"
+        goneovim  $
       
         echo LogSuccess: '"'$message'"' >> "${XPLR_PIPE_MSG_IN:?}"
       ]===],
