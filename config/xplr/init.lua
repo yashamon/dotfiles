@@ -13,7 +13,7 @@ require("material-landscape2").setup()
 -- Config
 ---- General
 ------ Show hidden
-xplr.config.general.show_hidden = false
+xplr.config.general.show_hidden = true
 
 ------ Read only
 xplr.config.general.read_only = false
