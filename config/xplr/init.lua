@@ -78,7 +78,97 @@ xplr.config.modes.builtin.default = {
   extra_help = nil,
   key_bindings = {
     on_key = {
-            ["n"] = {
+      ["#"] = {
+        help = nil,
+        messages = { "PrintAppStateAndQuit" },
+      },
+      ["."] = {
+        help = "show hidden",
+        messages = {
+          {
+            ToggleNodeFilter = {
+              filter = "RelativePathDoesNotStartWith",
+              input = ".",
+            },
+          },
+          "ExplorePwdAsync",
+        },
+      },
+      [":"] = {
+        help = "action",
+        messages = {
+          "PopMode",
+          {
+            SwitchModeBuiltin = "action",
+          },
+        },
+      },
+      ["?"] = {
+        help = "global help menu",
+        messages = {
+          {
+            BashExec = [===[
+            [ -z "$PAGER" ] && PAGER="less -+F"
+            cat -- "${XPLR_PIPE_GLOBAL_HELP_MENU_OUT}" | ${PAGER:?}
+            ]===],
+          },
+        },
+      },
+      ["G"] = {
+        help = "go to bottom",
+        messages = { "PopMode", "FocusLast" },
+      },
+      ["ctrl-a"] = {
+        help = "select/unselect all",
+        messages = { "ToggleSelectAll" },
+      },
+      ["ctrl-c"] = {
+        help = "terminate",
+        messages = { "Terminate" },
+      },
+      ["ctrl-f"] = {
+        help = "search",
+        messages = {
+          "PopMode",
+          { SwitchModeBuiltin = "search" },
+          { SetInputBuffer = "" },
+          "ExplorePwdAsync",
+        },
+      },
+      ["ctrl-i"] = {
+        help = "next visited path",
+        messages = { "NextVisitedPath" },
+      },
+      ["ctrl-o"] = {
+        help = "last visited path",
+        messages = { "LastVisitedPath" },
+      },
+      ["ctrl-r"] = {
+        help = "refresh screen",
+        messages = { "ClearScreen" },
+      },
+      ["ctrl-u"] = {
+        help = "clear selection",
+        messages = { "ClearSelection" },
+      },
+      ["ctrl-w"] = {
+        help = "switch layout",
+        messages = {
+          {
+            SwitchModeBuiltin = "switch_layout",
+          },
+        },
+      },
+      ["d"] = {
+        help = "delete",
+        messages = {
+          "PopMode",
+          {
+            SwitchModeBuiltin = "delete",
+          },
+        },
+      },
+      ["n"] = {
         help = "editor",
        messages = {
           {
@@ -89,7 +179,8 @@ xplr.config.modes.builtin.default = {
           "PopMode",
         },
       },
-      ["j"] = {
+ 
+      down = {
         help = "down",
         messages = { "FocusNext" },
       },
