@@ -43,10 +43,6 @@ require("comex").setup{
 xplr.config.general.show_hidden = true 
 
 
-require("command-mode").setup()
-
--- Or
-
 require("command-mode").setup{
   mode = "default",
   key = ":",
