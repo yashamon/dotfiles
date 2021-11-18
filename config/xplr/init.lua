@@ -48,15 +48,15 @@ xplr.config.layouts.builtin.default = {
       margin = 1,
       horizontal_margin = 0,
       vertical_margin = 0,
-      constraints = {
-        { Percentage = 50 },
-        -- { Percentage = 50 },
-      }
-    },
-    splits = {
-      "Table"
-      -- "HelpMenu",
-    }
+    --   constraints = {
+    --     { Percentage = 100 },
+    --     -- { Percentage = 50 },
+    --   }
+    -- },
+    -- splits = {
+    --   "Table"
+    --   -- "HelpMenu",
+    -- }
   }
 }
 
