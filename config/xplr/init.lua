@@ -180,7 +180,6 @@ xplr.config.modes.builtin.default = {
         },
       },
  
-      
       down = {
         help = "down",
         messages = { "FocusNext" },
