@@ -31,7 +31,7 @@ cmd fasd_dir ${{
  lf -remote "send $id $cmd \"$res\""
  }}
 
-map d :fasd_dir
+map j :fasd_dir
 
 # set '-eu' options for shell commands
 # These options are used to have safer shell commands. Option '-e' is used to
