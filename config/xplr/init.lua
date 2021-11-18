@@ -179,7 +179,6 @@ xplr.config.modes.builtin.default = {
           "PopMode",
         },
       },
- 
       down = {
         help = "down",
         messages = { "FocusNext" },
