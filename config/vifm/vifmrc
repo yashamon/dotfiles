@@ -30,7 +30,7 @@ command! FZFlocate : set noquickview
                   \|     execute system('[ -f "$FZF_PICK" ] && echo goto || echo cd') fnameescape($FZF_PICK)
                   \| endif
 
-
+map f :FZFlocate<>
 
 
 
