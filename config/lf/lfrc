@@ -36,7 +36,7 @@ lfcd () {
     fi
 }
 
-cmd zle-cd %printf 'cd %q && zle reset-prompt\n' "$PWD" >&$ZLE_FIFO
+cmd zle-cd %printf 'cd %q && zle reset-prompt\n' "$PWD" >&$ZLE_FIFO 
 
 cmd zle-insert-relative %{{
     for f in $fx; do
