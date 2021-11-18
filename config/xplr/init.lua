@@ -167,8 +167,17 @@ xplr.config.modes.builtin.default = {
             SwitchModeBuiltin = "delete",
           },
         },
-      }, 
-      
+      },
+      ["n"] = {
+        help = "delete",
+        messages = {
+          "PopMode",
+          {
+            SwitchModeBuiltin = "delete",
+          },
+        },
+      },
+
       
       down = {
         help = "down",
