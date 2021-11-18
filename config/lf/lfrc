@@ -6,7 +6,7 @@ cmd trash %trash-put $fx
 cmd aj %lf -remote "send $id cd '$(autojump $1)'"
 map a push :aj<space> 
 
-map f $vi $(fzf) 
+map <c-f $vi $(fzf) 
 
 cmd fzf_jump ${{
     res="$(find . -maxdepth 1 | fzf --reverse --header='Jump to location' | sed 's/\\/\\\\/g;s/"/\\"/g')"
