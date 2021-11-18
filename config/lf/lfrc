@@ -36,7 +36,6 @@ lfcd () {
     fi
 }
 
-bind '"\C-o":"lfcd\C-m"'
 cmd zle-cd %printf 'cd %q && zle reset-prompt\n' "$PWD" >&$ZLE_FIFO
 
 cmd zle-insert-relative %{{
