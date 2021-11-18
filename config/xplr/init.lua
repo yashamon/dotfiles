@@ -72,7 +72,6 @@ xplr.config.layouts.builtin.default = {
     }
   }
 }
-
 xplr.config.modes.builtin.action = {
   name = "action to",
   help = nil,
