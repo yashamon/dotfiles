@@ -1,6 +1,3 @@
-package.path = os.getenv("HOME") .. '/.config/xplr/plugins/?/src/init.lua'
-
-require("material-landscape2").setup()
 
         -- You need to define the script version
         -- for compatibility check.
