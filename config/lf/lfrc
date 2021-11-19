@@ -36,7 +36,7 @@ cmd spaste &{{
 # cmd paste $cp-p --lf-paste $id 
 map gp :spaste 
 
-cmd fasd_dir ${{
+cmd fzffile ${{
    res="$(fasd -dl | grep -iv cache | fzf 2>/dev/tty | sed 's/\\/\\\\/g;s/"/\\"/g')"
    if [ -d "$res" ]; then
       cmd="cd"
