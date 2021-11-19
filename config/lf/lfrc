@@ -58,7 +58,8 @@ cmd fzffile ${{
 }}
 
 
-map <c-f> fzffile  
+map <c-f> fzffile   
+
 map d :cut
 map gd :trash
 map gD :delete
