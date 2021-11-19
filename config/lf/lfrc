@@ -38,11 +38,7 @@ map gp :spaste
 
 cmd fzffile ${{ 
 res="$(fzf)"
-    if [ -d "$res" ]; then
-        cmd="cd"
-    else 
-        cmd="select"                                                       
-    fi
+    
     lf -remote "send $id $cmd \"$res\""
 
    fzf | xargs goneovim
