@@ -1,4 +1,3 @@
-
 map q quitcd
 cmd quitcd ${{
 	echo "1" > "$LF_SHELLCD_TEMPDIR/changecwd"
