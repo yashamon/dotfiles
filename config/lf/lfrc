@@ -10,7 +10,7 @@ set hidden
 cmd trash %trash-put $fx 
 
 cmd aj %lf -remote "send $id cd '$(autojump $1)'"
-map mk push %mkdir <space> 
+map gmk push %mkdir <space> 
  
 
 cmd paste &{{
@@ -37,7 +37,7 @@ cmd paste &{{
 map p :paste
 map <c-f> $vi $(fzf) 
 map d :delete 
-map c :copydelete
+map c :copy delete
 cmd fzf_jump ${{
     res="$(find . -maxdepth 1 | fzf --reverse --header='Jump to location' | sed 's/\\/\\\\/g;s/"/\\"/g')"
     if [ -d "$res" ]; then
