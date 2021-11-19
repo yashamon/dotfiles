@@ -104,6 +104,6 @@ pip3 install neovim
 pip3 install neovim-remote 
 pip3 install setuptools
 pip3 install --upgrade pynvim 
-
+pip3 install trash-cli
 mkdir $HOME/appimage
 
