@@ -46,7 +46,17 @@ cmd fzffile ${{
     lf -remote "send $id cd $HOME"
     lf -remote "send $id $cmd \"$res\""
 }}
- 
+ cmd fzffile ${{
+    res="$(cd $HOME; find | fzf --reverse --header='Jump to location')"
+    if [ -d "$res" ]; then
+        cmd="cd"
+    else 
+        cmd="select"                                                       
+    fi
+    lf -remote "send $id cd $HOME"
+    lf -remote "send $id $cmd \"$res\""
+}}
+
 
 map <c-f> fzffile  
 map d :cut
