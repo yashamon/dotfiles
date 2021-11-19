@@ -37,7 +37,7 @@ cmd spaste &{{
 map gp :spaste 
 
 cmd fzffile ${{
-    res="$(cd $HOME; find . | fzf --reverse --header='Jump to location')"
+    res="$(cd $HOME; find | fzf --reverse --header='Jump to location')"
     if [ -d "$res" ]; then
         cmd="cd"
     else 
