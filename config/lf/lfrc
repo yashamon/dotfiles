@@ -114,7 +114,7 @@ map r push :rename<space>
 
 # move current file or selected files to trash folder
 # (also see 'man mv' for backup/overwrite options)
-cmd trash %set -f; mv $fx ~/.trash
+# cmd trash %set -f; mv $fx ~/.trash
 
 # define a custom 'delete' command
 # cmd delete ${{
