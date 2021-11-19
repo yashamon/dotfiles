@@ -49,7 +49,7 @@ cmd fzffile ${{
 
 map <c-f> fzffile  
 map d :cut
-map gd :trash
+map gd :trash 
 map c :copy delete
 cmd fzf_jump ${{
     res="$(find . -maxdepth 1 | fzf --reverse --header='Jump to location' | sed 's/\\/\\\\/g;s/"/\\"/g')"
