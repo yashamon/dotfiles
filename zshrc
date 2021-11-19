@@ -22,7 +22,7 @@ export PATH="$HOME/appimage:/home/linuxbrew/.linuxbrew/bin:/usr/local/bin:/usr/s
  else
    export EDITOR='nvim'
  fi
-
+export vi="goneovim"
 
 bindkey -rpM viins '\e'
 
