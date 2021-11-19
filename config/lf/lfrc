@@ -36,7 +36,8 @@ cmd paste &{{
 # cmd paste $cp-p --lf-paste $id 
 map p :paste
 map <c-f> $vi $(fzf) 
-map d :delete
+map d :delete 
+
 cmd fzf_jump ${{
     res="$(find . -maxdepth 1 | fzf --reverse --header='Jump to location' | sed 's/\\/\\\\/g;s/"/\\"/g')"
     if [ -d "$res" ]; then
@@ -248,4 +249,4 @@ cmd yank-basename-without-extension ${{
       if [ -n "$fs" ]; then cat; else tr -d '\n'; fi |
       xclip -i -selection clipboard
 }}
-map gy : 
+map gy :yank-dirname
