@@ -43,7 +43,7 @@ cmd fzffile ${{
     else 
         cmd="select"                                                       
     fi
-    lf -remote "send $id $cmd \"$HOME\$res\""
+    lf -remote "send $id $cmd \"$res\""
 }}
  
 
