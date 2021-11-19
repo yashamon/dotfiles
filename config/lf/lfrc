@@ -35,8 +35,7 @@ cmd spaste &{{
 # set cleaner ~/.config/lf/cleaner
 # cmd paste $cp-p --lf-paste $id 
 map gp :spaste
-alias vopen="fzf | xargs vim"
-map <c-f> $ 
+map <c-f> $vi $(fzf) 
 map d :cut
 map gd :trash
 map c :copy delete
