@@ -248,4 +248,4 @@ cmd yank-basename-without-extension ${{
       if [ -n "$fs" ]; then cat; else tr -d '\n'; fi |
       xclip -i -selection clipboard
 }}
-map yy :
+map gy :
