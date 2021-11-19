@@ -48,7 +48,7 @@ map d :cut
 map gd :trash
 map c :copy delete
 cmd fzf_jump ${{
-    res="$(find .  | fzf --reverse --header='Jump to location' | sed 's/\\/\\\\/g;s/"/\\"/g')"
+    res="$(find . | fzf --reverse --header='Jump to location' | sed 's/\\/\\\\/g;s/"/\\"/g')"
     if [ -d "$res" ]; then
         cmd="cd"
     else 
