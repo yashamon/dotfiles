@@ -36,6 +36,15 @@ cmd spaste &{{
 # cmd paste $cp-p --lf-paste $id 
 map gp :spaste 
 
+cmd fasd_dir ${{
+   res="$(fasd -dl | grep -iv cache | fzf 2>/dev/tty | sed 's/\\/\\\\/g;s/"/\\"/g')"
+   if [ -d "$res" ]; then
+      cmd="cd"
+   else
+      cmd="select"
+   fi
+ lf -remote "send $id $cmd \"$res\""
+ }}
 
 
 map <c-f> %fzf | xargs goneovim  
