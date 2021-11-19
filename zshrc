@@ -37,8 +37,9 @@ alias mod="xmodmap ~/.Xmodmap"
 alias tmux d="tmux detach" 
 alias svi="/snap/bin/nvim"
 alias nvr="nvr --servername $(<~/servername.txt) --remote-silent"
-alias vifmrc="nvim ~/.config/vifm/vifmrc" 
-alias ls="source ~/bin/vf" 
+alias vifmrc="nvim ~/.config/vifm/vifmrc"  
+alias lfrc="goneovim ~/.config/lf/lfrc"
+alias ls="lf" 
 alias texi="pdflatex -file-line-error -synctex=1  -interaction=nonstopmode -recorder" 
 alias latexi="latexmk -g -pdf -file-line-error -synctex=1  -interaction=nonstopmode -recorder -f"
 alias pvc="latexmk -pdf -pvc -file-line-error -synctex=1  -interaction=nonstopmode -recorder -f"
@@ -149,6 +150,7 @@ dual () {
 single () {
     xrandr --output HDMI-1 --off
 }
+export KEYTIMEOUT=1
 
 # alias vim="nvim"
 # export ZSH=$HOME/.oh-my-zsh
@@ -210,7 +212,9 @@ single () {
 # #          preexec () { print -rn -- $terminfo[el]; }
 # #          zle -N zle-line-init
 # #          zle -N zle-keymap-select
-# #     export KEYTIMEOUT=1
+# #
+# 
+# 
 # source $ZSH/oh-my-zsh.sh
 #
 # # User configuration
@@ -394,6 +398,45 @@ MODE_CURSOR_VISUAL="white block"
 MODE_CURSOR_VLINE="$MODE_CURSOR_VISUAL #00ffff"
 
 
+# lf stuff
+
+_zlf() {
+    emulate -L zsh
+    local d=$(mktemp -d) || return 1
+    {
+        mkfifo -m 600 $d/fifo || return 1
+        tmux split -bf zsh -c "exec {ZLE_FIFO}>$d/fifo; export ZLE_FIFO; exec lf" || return 1
+        local fd
+        exec {fd}<$d/fifo
+        zle -Fw $fd _zlf_handler
+    } always {
+        rm -rf $d
+    }
+}
+zle -N _zlf
+bindkey '\ek' _zlf
+
+_zlf_handler() {
+    emulate -L zsh
+    local line
+    if ! read -r line <&$1; then
+        zle -F $1
+        exec {1}<&-
+        return 1
+    fi
+    eval $line
+    zle -R
+}
+zle -N _zlf_handler 
+
+
+LFCD="$GOPATH/src/github.com/gokcehan/lf/etc/lfcd.sh"  # source
+LFCD="/path/to/lfcd.sh"                                #  pre-built binary, make sure to use absolute path
+if [ -f "$LFCD" ]; then
+    source "$LFCD"
+fi
+
+# bindkey '"\C-o":"lfcd\C-m"'
 # source ~/.zplug/init.zsh
 # # # Make sure to use double quotes
 #  zplug "zsh-users/zsh-history-substring-search"
@@ -470,3 +513,4 @@ MODE_CURSOR_VLINE="$MODE_CURSOR_VISUAL #00ffff"
 # bindkey -M vicmd 'k' history-substring-search-up
 # bindkey -M vicmd 'j' history-substring-search-down
 # User configuration
+source "${XDG_CONFIG_HOME:-$HOME/.config}/lf-shellcd/lf-shellcd"
