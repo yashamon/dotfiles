@@ -41,7 +41,7 @@ cmd fzffile ${{
  }}
 
 
-map <c-f> %fzf | xargs goneovim  
+map <c-f> %  
 map d :cut
 map gd :trash
 map c :copy delete
