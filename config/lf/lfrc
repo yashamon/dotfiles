@@ -36,13 +36,16 @@ cmd spaste &{{
 # cmd paste $cp-p --lf-paste $id 
 map gp :spaste 
 
-cmd fzffile ${{ 
-res="$(fzf)"
+cmd fzffile${{
+    res="$(find . -maxdepth 1 | fzf --reverse --header='Jump to location' | sed 's/\\/\\\\/g;s/"/\\"/g')"
+    if [ -d "$res" ]; then
+        cmd="cd"
+    else 
+        cmd="select"                                                       
+    fi
     lf -remote "send $id $cmd \"$res\""
-
-   # fzf | xargs goneovim
- }}
-
+}}
+ 
 
 map <c-f> fzffile  
 map d :cut
