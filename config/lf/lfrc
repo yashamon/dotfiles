@@ -37,7 +37,7 @@ cmd paste &{{
 map p :paste
 map <c-f> $vi $(fzf) 
 map d :delete 
-
+map 
 cmd fzf_jump ${{
     res="$(find . -maxdepth 1 | fzf --reverse --header='Jump to location' | sed 's/\\/\\\\/g;s/"/\\"/g')"
     if [ -d "$res" ]; then
