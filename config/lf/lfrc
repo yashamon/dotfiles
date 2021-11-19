@@ -40,6 +40,7 @@ cmd fzffile ${{
    fzf | xargs goneovim
  }}
 
+
 map <c-f> fzffile  
 map d :cut
 map gd :trash
