@@ -9,8 +9,8 @@ cmd trash %trash-put $fx
 cmd aj %lf -remote "send $id cd '$(autojump $1)'"
 map a push :aj<space> 
 
-set previewer ~/.config/lf/preview
-set cleaner ~/.config/lf/cleaner
+# set previewer ~/.config/lf/preview
+# set cleaner ~/.config/lf/cleaner
 # cmd paste $cp-p --lf-paste $id 
 map p :paste
 map <c-f> $vi $(fzf) 
