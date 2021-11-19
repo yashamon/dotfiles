@@ -34,7 +34,7 @@ cmd paste &{{
 # set previewer ~/.config/lf/preview
 # set cleaner ~/.config/lf/cleaner
 # cmd paste $cp-p --lf-paste $id 
-map p :paste
+map gp :paste
 map <c-f> $vi $(fzf) 
 map d :delete 
 map c :copy delete
