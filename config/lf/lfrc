@@ -13,7 +13,7 @@ cmd aj %lf -remote "send $id cd '$(autojump $1)'"
 map gmd push %mkdir <space> 
  
 
-cmd paste &{{
+cmd gpaste &{{
     set -- $(cat ~/.local/share/lf/files)
     mode="$1"
     shift
