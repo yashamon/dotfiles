@@ -44,7 +44,7 @@ cmd fzffile ${{
         cmd="select"                                                       
     fi
     lf -remote "send $id cd $HOME"
-   l; $cmd \"$res\""
+    lf -remote; $cmd \"$res\""
 }}
  
 
