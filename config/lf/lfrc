@@ -40,8 +40,7 @@ cmd fzffile ${{
    fzf | xargs goneovim
  }}
 
-
-map <c-f> %  
+map <c-f> fzffile  
 map d :cut
 map gd :trash
 map c :copy delete
