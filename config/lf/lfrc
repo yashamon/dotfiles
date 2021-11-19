@@ -7,7 +7,7 @@ set hidden
 cmd trash %trash-put $fx 
 
 cmd aj %lf -remote "send $id cd '$(autojump $1)'"
-map mk push :mkdir <space> 
+map mk push %mkdir <space> 
  
 
 cmd paste &{{
