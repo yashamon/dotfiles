@@ -36,7 +36,7 @@ cmd spaste &{{
 # cmd paste $cp-p --lf-paste $id 
 map gp :spaste
 map <c-f> $vi $(fzf) 
- map d :delete 
+map d :cut
 map c :copy delete
 cmd fzf_jump ${{
     res="$(find . -maxdepth 1 | fzf --reverse --header='Jump to location' | sed 's/\\/\\\\/g;s/"/\\"/g')"
