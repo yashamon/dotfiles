@@ -202,3 +202,4 @@ cmd zle-init :{{
 
 &[[ -n "$ZLE_FIFO" ]] && lf -remote "send $id zle-init"
 
+
