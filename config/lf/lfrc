@@ -40,7 +40,7 @@ cmd fzffile ${{
 res="$(fzf)"
     lf -remote "send $id $cmd \"$res\""
 
-   fzf | xargs goneovim
+   # fzf | xargs goneovim
  }}
 
 
