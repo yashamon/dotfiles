@@ -20,7 +20,8 @@ cmd spaste &{{
     case "$mode" in
         copy)
             rsync -av --ignore-existing --progress -- "$@" . |
-            f
+            stdbuf -i0 -o0 -e0 tr '\r' '\n' |
+            while IFS= read -r line; do
                 lf -remote "send $id echo $line"
             done
             ;;
