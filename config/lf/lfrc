@@ -36,7 +36,8 @@ cmd spaste &{{
 # cmd paste $cp-p --lf-paste $id 
 map gp :spaste 
 
-cmd fzffile ${{
+cmd fzffile ${{ 
+
    fzf | xargs goneovim
  }}
 
