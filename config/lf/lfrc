@@ -19,7 +19,7 @@ cmd spaste &{{
     shift
     case "$mode" in
         copy)
-            rsync -avhW --no-compress --ignore-existing --progress -- "$@" . ;;
+            rsync -avhW --no-compress --ignore-existing --progress -- "$@" .;;
         move) mv -n -- "$@" .;;
     esac
     rm ~/.local/share/lf/files
