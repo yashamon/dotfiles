@@ -431,7 +431,7 @@ nnoremap dd "0dd:wa<cr>
 noremap c "0c
 noremap C "_C
 noremap x "_x 
-" nnoremap v "+v
+nnoremap v "+v
 vnoremap x "+x:wa<cr>
 vnoremap d "0d:wa<cr>
 vnoremap y "+y
@@ -440,7 +440,7 @@ nnoremap p "+p
 nnoremap <leader>p p
 nnoremap <leader>q q
 " Softwrap 
-nmap D "0dg$
+nmap D "0dg
 nmap V vg$
 nmap A g$a 
 map 0 g^
