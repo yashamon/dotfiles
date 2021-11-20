@@ -97,7 +97,7 @@ map <a-j> :fasd_dir
 map J :fasd_dir
 
 cmd Jdir ${{
-   res="$(f/ . -type d | fzf 2>/dev/tty | sed 's/\\/\\\\/g;s/"/\\"/g')"
+   res="$($HOME | fzf 2>/dev/tty | sed 's/\\/\\\\/g;s/"/\\"/g')"
    if [ -d "$res" ]; then
       cmd="cd"
    else
