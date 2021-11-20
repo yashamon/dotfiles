@@ -316,7 +316,7 @@ cmd bulk-rename ${{
 # Rename the file with a completely different name
 map rc push :rename<space>
 # Edit the current filename
-map r ${{
+map ra ${{
 	# get 'basename' of the selection
 	filename="${f##*/}"
 	# quote it so we won't deal with quotes in the lf -remote command
