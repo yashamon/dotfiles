@@ -312,7 +312,7 @@ cmd bulk-rename ${{
 
 
 # Unmap the default binding
-map r
+# map r
 # Rename the file with a completely different name
 map rc push :rename<space>
 # Edit the current filename
