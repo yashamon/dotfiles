@@ -72,7 +72,9 @@ cmd fzf_jump ${{
     fi
     lf -remote "send $id $cmd \"$res\""
 }}
-map f :fzf_jump
+map f :fzf_jump 
+
+
 
 cmd Jdir ${{
    res="$(find / . -type d | fzf 2>/dev/tty | sed 's/\\/\\\\/g;s/"/\\"/g')"
