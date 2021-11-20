@@ -122,7 +122,7 @@ map gj :Jdir
 # since default file separator used in these variables (i.e. 'filesep' option)
 # is newline. You need to consider the values of these options and create your
 # commands accordingly.
-set ifs "\n"
+# set ifs "\n"
 
 # leave some space at the top and the bottom of the screen
 set scrolloff 10
