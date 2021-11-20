@@ -445,7 +445,7 @@ nnoremap <c-h> :wa<cr>:bprevious<CR>
 " nnoremap > :tabn<CR>
 " nnoremap <leader>n :tabedit %<CR>
 imap <M-j> <C-j>
-map <S-m> <cmd>HopChar1<cr>$
+map <M-m> <cmd>HopChar1<cr>$
 " map <S-b> ?\$<CR>
 map <S-w> <cmd>HopChar1<cr>}
 map <S-b> <cmd>HopChar1<cr>{
