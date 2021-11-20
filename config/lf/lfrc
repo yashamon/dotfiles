@@ -79,7 +79,8 @@ cmd fasd_dir ${{
  lf -remote "send $id $cmd \"$res\""
  }}
 
-map <>< :fasd_dir
+map <a-j> :fasd_dir
+map <a-j> :fasd_dir
 
 cmd Jdir ${{
    res="$(find / . -type d | fzf 2>/dev/tty | sed 's/\\/\\\\/g;s/"/\\"/g')"
