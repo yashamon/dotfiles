@@ -59,7 +59,8 @@
         "\\supset $0"
        ],
     "description": "subset"
-    }, 
+    },  
+   
 "times": {
     "prefix": "t",
     "body": [
