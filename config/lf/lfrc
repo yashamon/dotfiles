@@ -7,7 +7,7 @@ set shellopts '-euy'
 set ifs "\n"
 set filesep "\n"  # default already
 set hidden 
-cmd trash %trash-put $fx 
+cmd trash %trash-put $fs 
 
 set previewer stpv
 set cleaner stpvimgclr
@@ -325,7 +325,7 @@ map ra ${{
 	lf -remote "send $id push :rename<space>$filename"
 }}
 # Edit filename before the extension
-map re ${{
+map r ${{
 	# get 'basename' of the selection
 	filename="${f##*/}"
 	# quote it so we won't deal with quotes in the lf -remote command
