@@ -7,7 +7,7 @@ set shell zsh
 # set ifs "\n"
 set filesep "\n"  # default already
 set hidden 
-cmd trash  %trash-put $fs -y
+cmd trash  %trash-put $fs 
 
 set previewer stpv
 set cleaner stpvimgclr
