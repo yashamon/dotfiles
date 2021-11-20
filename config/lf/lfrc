@@ -24,7 +24,6 @@ set -- $(cat ~/.local/share/lf/files)
     rm ~/.local/share/lf/files 
     lf -remote "send reload" 
     lf -remote "send echomsg "copy sucess""
-
 }}
 
 # set previewer ~/.config/lf/preview
