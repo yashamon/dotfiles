@@ -1,4 +1,4 @@
-set ratios 1:2:3
+set ratios 1:2:3 
 # set cleaner ~/.config/lf/cleaner
 # set previewer ~/.config/lf/preview
 # interpreter for shell commands
