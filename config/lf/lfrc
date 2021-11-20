@@ -35,7 +35,7 @@ cmd spaste &{{
 # set cleaner ~/.config/lf/cleaner
 # cmd paste $cp-p --lf-paste $id 
 map p :spaste 
-
+map gp :paste
 cmd fzffile ${{
     res="$(cd $HOME; find | fzf --reverse --header='Jump to location')"
     if [ -d "$res" ]; then
