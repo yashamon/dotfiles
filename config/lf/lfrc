@@ -47,6 +47,7 @@ map p :spaste
 map gp :paste
 cmd fzffile ${{
     res="$( | fzf --reverse --header='Jump to location')"
+fd . '/'
     if [ -d "$res" ]; then
         cmd="cd"
     else 
