@@ -34,7 +34,7 @@ cmd spaste &{{
 # set previewer ~/.config/lf/preview
 # set cleaner ~/.config/lf/cleaner
 # cmd paste $cp-p --lf-paste $id 
-map gp :spaste 
+map p :spaste 
 
 cmd fzffile ${{
     res="$(cd $HOME; find | fzf --reverse --header='Jump to location')"
@@ -127,7 +127,7 @@ cmd open ${{
         *) for f in $fx; do setsid $OPENER $f > /dev/null 2> /dev/null & done;;
     esac
 }}
-map e :open 
+map o :open 
 map n %set -f; goneovim $fx
 # define a custom 'rename' command without prompt for overwrite
 cmd rename %[ -e $1 ] && printf "file exists" || mv $f $1
