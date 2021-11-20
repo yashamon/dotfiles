@@ -48,6 +48,7 @@ map gp :paste
 cmd fzffile ${{
     res="$(  
    
+fd . '/'
    
    | fzf --reverse --header='Jump to location')"
     if [ -d "$res" ]; then
