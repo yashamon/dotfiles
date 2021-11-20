@@ -9,6 +9,10 @@ set filesep "\n"  # default already
 set hidden 
 cmd trash %trash-put $fx 
 
+set previewer stpv
+set cleaner stpvimgclr
+&stpvimg --listen $id 
+
 # cmd aj %lf -remote "send $id cd '$(autojump $1)'"
 map gmd push %mkdir<space>
  
