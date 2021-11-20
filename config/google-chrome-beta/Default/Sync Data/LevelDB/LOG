@@ -1,5 +1,1 @@
-2021/11/11-01:42:35.035 1be1 Creating DB /home/yasha/.config/google-chrome-beta/Default/Sync Data/LevelDB since it was missing.
-2021/11/11-01:42:35.046 1be1 Reusing MANIFEST /home/yasha/.config/google-chrome-beta/Default/Sync Data/LevelDB/MANIFEST-000001
-2021/11/11-03:15:52.636 50bb Level-0 table #5: started
-2021/11/11-03:15:52.647 50bb Level-0 table #5: 203699 bytes OK
-2021/11/11-03:15:52.652 50bb Delete type=0 #3
+2021/11/19-17:52:38.280 24c0b Reusing MANIFEST /home/yasha/.config/google-chrome-beta/Default/Sync Data/LevelDB/MANIFEST-000001

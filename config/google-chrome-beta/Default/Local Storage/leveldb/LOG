@@ -1,11 +1,2 @@
-2021/11/11-01:42:35.038 3 Creating DB /home/yasha/.config/google-chrome-beta/Default/Local Storage/leveldb since it was missing.
-2021/11/11-01:42:35.055 3 Reusing MANIFEST /home/yasha/.config/google-chrome-beta/Default/Local Storage/leveldb/MANIFEST-000001
-2021/11/11-02:16:49.756 e Level-0 table #5: started
-2021/11/11-02:16:49.781 e Level-0 table #5: 105266 bytes OK
-2021/11/11-02:16:49.793 e Delete type=0 #3
-2021/11/11-02:30:42.966 e Level-0 table #7: started
-2021/11/11-02:30:42.981 e Level-0 table #7: 80705 bytes OK
-2021/11/11-02:30:42.991 e Delete type=0 #4
-2021/11/11-03:54:00.699 1e Level-0 table #9: started
-2021/11/11-03:54:00.719 1e Level-0 table #9: 86965 bytes OK
-2021/11/11-03:54:00.728 1e Delete type=0 #6
+2021/11/19-17:52:38.264 5 Creating DB /home/yasha/.config/google-chrome-beta/Default/Local Storage/leveldb since it was missing.
+2021/11/19-17:52:38.283 5 Reusing MANIFEST /home/yasha/.config/google-chrome-beta/Default/Local Storage/leveldb/MANIFEST-000001

@@ -1,8 +1,2 @@
-2021/11/11-01:42:36.217 1c10 Log #139: 1 ops saved to Table #143 OK
-2021/11/11-01:42:36.219 1c10 Archiving /home/yasha/.config/google-chrome-beta/Default/Local Extension Settings/cfhdojbkjhnklbpkdaibdccddilifddb/000139.log: OK
-2021/11/11-01:42:36.252 1c10 Table #5: 15 entries OK
-2021/11/11-01:42:36.273 1c10 Table #141: 1 entries OK
-2021/11/11-01:42:36.273 1c10 Table #142: 4 entries OK
-2021/11/11-01:42:36.287 1c10 Table #143: 1 entries OK
-2021/11/11-01:42:36.287 1c10 Archiving /home/yasha/.config/google-chrome-beta/Default/Local Extension Settings/cfhdojbkjhnklbpkdaibdccddilifddb/MANIFEST-000001: OK
-2021/11/11-01:42:36.291 1c10 **** Repaired leveldb /home/yasha/.config/google-chrome-beta/Default/Local Extension Settings/cfhdojbkjhnklbpkdaibdccddilifddb; recovered 4 files; 21626484 bytes. Some data may have been lost. ****
+2021/11/19-17:52:39.221 24c3a Archiving /home/yasha/.config/google-chrome-beta/Default/Local Extension Settings/cfhdojbkjhnklbpkdaibdccddilifddb/MANIFEST-000001: OK
+2021/11/19-17:52:39.224 24c3a **** Repaired leveldb /home/yasha/.config/google-chrome-beta/Default/Local Extension Settings/cfhdojbkjhnklbpkdaibdccddilifddb; recovered 0 files; 0 bytes. Some data may have been lost. ****
