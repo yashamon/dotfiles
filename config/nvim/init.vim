@@ -4,7 +4,9 @@ call plug#begin('~/.vim/plugged')
 " Plug 'folke/zen-mode.nvim', {  'branch': 'main' } 
 Plug 'lewis6991/spellsitter.nvim'
 Plug 'sheerun/vim-polyglot' 
-
+Plug 'ibhagwan/fzf-lua',  { 'branch': 'main' }
+Plug 'vijaymarupudi/nvim-fzf'
+Plug 'kyazdani42/nvim-web-devicons'
 " Plug 'dvdsk/prosesitter',  { 'branch': 'main' }
 Plug 'metalelf0/nvim-floatedit',  { 'branch': 'main' }
 " Plug 'AckslD/nvim-neoclip.lua', { 'branch': 'main' }
