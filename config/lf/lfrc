@@ -38,7 +38,7 @@ cmd spaste &{{
     case "$mode" in
         copy)
             rsync -avhW --no-compress --ignore-existing --progress -- "$@" .;;
-        move) mv -n -- "$@" .;;
+        move) mv -n -- "$@" .;; 
     esac
     rm ~/.local/share/lf/files
     lf -remote "send clear"
