@@ -7,14 +7,14 @@ set shellopts '-euy'
 set ifs "\n"
 set filesep "\n"  # default already
 set hidden  
-cmd trash &{{
-set -- $(cat ~/.local/share/lf/files)
-    trash-put "$@" .;;
-    rm ~/.local/share/lf/files
-    lf -remote "send clear"
-    lf -remote "send reload"
-    lf -remote "send echomsg "deletesucess""
-}}
+# cmd trash &{{
+# set -- $(cat ~/.local/share/lf/files)
+#     trash-put "$@" .;;
+#     rm ~/.local/share/lf/files
+#     lf -remote "send clear"
+#     lf -remote "send reload"
+#     lf -remote "send echomsg "deletesucess""
+# }}
 
 # cmd trash  %trash-put $fs 
 
