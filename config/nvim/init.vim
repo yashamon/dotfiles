@@ -228,7 +228,7 @@ set smarttab		" insert tabs on the start of a line according to context
 set noerrorbells
 " set novisualbell 
 set guifont=Fira\ Code\ Light:h33
- colorscheme one
+ colorscheme blue-moon
 " colorscheme material  
 " let g:material_style = 'palenight'  
 " let g:material_style = 'lighter'
@@ -248,7 +248,7 @@ autocmd BufReadPost * if @% !~# '\.git[\/\\]COMMIT_EDITMSG$' && line("'\"") > 1 
 au FileType Makefile set noexpandtab
 au FileType tex,text set spelllang=en
 au FileType tex,text,md set spell
-au FileType vim,md set list
+au FileType vim,md set list 
 " au FileType tex,text,md syntax sync fromstart
 au FileType tex,text,md silent execute "!echo " . v:servername . " > ~/servername.txt"   
 au FileType tex,text,md hi SpellBad cterm=undercurl
