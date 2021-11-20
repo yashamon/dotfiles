@@ -487,7 +487,7 @@ noremap F ?
     " xmap t <Plug>Sneak_s
     " xmap T <Plug>Sneak_S
    " omap t <Plug>Sneak_s
-    " omap T <Plug>_S 
+    " omap T <Plug>Sneak_S 
     " math maps   
 noremap # /\$<CR>v?\$<CR>
 noremap $ /\$<CR>hv?\$<CR>l
