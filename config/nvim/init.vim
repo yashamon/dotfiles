@@ -440,7 +440,7 @@ nnoremap p "+p
 nnoremap <leader>p p
 nnoremap <leader>q q
 " Softwrap 
-nmap D "0dg
+nmap D "0dg$
 nmap V vg$
 nmap A g$a 
 map 0 g^
