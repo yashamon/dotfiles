@@ -46,7 +46,7 @@ set -- $(cat ~/.local/share/lf/files)
 map p :spaste
 map gp :paste
 cmd fzffile ${{
-    res="$(fd . '$HOME' | fzf --reverse --header='Jump to location')"
+    res="$(fd . '$HOME' -H -I | fzf --reverse --header='Jump to location')"
     if [ -d "$res" ]; then
         cmd="cd"
     else 
