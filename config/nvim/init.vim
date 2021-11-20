@@ -581,7 +581,7 @@ map <m-space> <cmd>HopWord<cr>
 "
 noremap <m-t> :wa<cr>:BTags<cr>
 noremap <m-y> :wa<cr>:Tags<cr>
-noremap S <Esc> :wa<cr>:BLines<CR>
+noremap S <Esc> :wa<cr>:FzfLua <CR>
 "noremap L <Esc>:AsyncRun sentence.sh %;nvr sentence_%<cr>:echo 'press any key'<cr>:execute 'call getchar()' | BLines<cr>
 " Line search mapping 
 " function! Jumpback() 
