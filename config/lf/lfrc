@@ -21,7 +21,8 @@ set -- $(cat ~/.local/share/lf/files)
             rsync -av --no-compress --ignore-existing -- "$@" .;;
         move) mv -n -- "$@" .;; 
     esac
-    rm ~/.local/share/lf/files 
+    rm ~/.local/share/lf/files  
+   
     lf -remote "send reload" 
     lf -remote "send echomsg "copy sucess""
 }}
