@@ -9,7 +9,7 @@ set filesep "\n"  # default already
 set hidden  
 cmd trash &{{
 set -- $(cat ~/.local/share/lf/files)
-    trash-put  "$@" .;;
+    trash-put "$@" .;;
     rm ~/.local/share/lf/files
     lf -remote "send clear"
     lf -remote "send reload"
