@@ -16,7 +16,7 @@ set hidden
 #     lf -remote "send echomsg "deletesucess""
 # }}
 
-# cmd trash  %trash-put $fs 
+cmd trash  %trash-put $fx
 
 set previewer stpv
 set cleaner stpvimgclr
@@ -46,7 +46,8 @@ set -- $(cat ~/.local/share/lf/files)
 map p :spaste
 map gp :paste
 cmd fzffile ${{
-    res="$(cd $HOME; find | fzf --reverse --header='Jump to location')"
+fd . '/'
+    res="$( | fzf --reverse --header='Jump to location')"
     if [ -d "$res" ]; then
         cmd="cd"
     else 
