@@ -23,7 +23,8 @@ set -- $(cat ~/.local/share/lf/files)
     esac
     rm ~/.local/share/lf/files
     lf -remote "send clear" 
-    reload
+    reload 
+    
 }}
 
 # set previewer ~/.config/lf/preview
