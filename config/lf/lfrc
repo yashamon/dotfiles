@@ -22,7 +22,9 @@ set -- $(cat ~/.local/share/lf/files)
         move) mv -n -- "$@" .;; 
     esac
     rm ~/.local/share/lf/files 
+    lf -remote "send reload" 
     lf -remote "send reload"
+
 }}
 
 # set previewer ~/.config/lf/preview
