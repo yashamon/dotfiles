@@ -21,6 +21,5 @@ lfcd() {
             fi
         fi
     fi
-
 }
 alias lf=lfcd
