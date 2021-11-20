@@ -1533,3 +1533,8 @@ let g:firenvim_config = {
 
 " autocmd TermClose * if v:event == 12 || v:event == 0 bdelete endif
 
+lua << EOF
+require('fzf-lua').setup{
+-- ...
+}
+EOF
