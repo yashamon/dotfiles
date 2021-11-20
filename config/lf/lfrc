@@ -7,7 +7,7 @@ set shellopts '-euy'
 set ifs "\n"
 set filesep "\n"  # default already
 set hidden 
-cmd trash -y %trash-put $fs 
+cmd trash  %trash-put $fs 
 
 set previewer stpv
 set cleaner stpvimgclr
