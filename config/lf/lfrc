@@ -62,7 +62,7 @@ map <a-f> fzffile
 map <a-r> fzffileroot  
 map d :cut
 map D :trash
-map gD :delete
+map gd :delete
 cmd fzf_jump ${{
     res="$(find . -maxdepth 1 | fzf --reverse --header='Jump to location' | sed 's/\\/\\\\/g;s/"/\\"/g')"
     if [ -d "$res" ]; then
