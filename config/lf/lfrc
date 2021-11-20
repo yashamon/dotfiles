@@ -308,4 +308,7 @@ cmd bulk-rename ${{
     done
     rm -- "$old" "$new"
     lf -remote "send $id unselect"
-}}
+}} 
+
+
+
