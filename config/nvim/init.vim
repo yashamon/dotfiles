@@ -3,7 +3,8 @@ call plug#begin('~/.vim/plugged')
 " Plug 'folke/which-key.nvim', { 'branch': 'main' }
 " Plug 'folke/zen-mode.nvim', {  'branch': 'main' } 
 Plug 'lewis6991/spellsitter.nvim'
-Plug 'sheerun/vim-polyglot'
+Plug 'sheerun/vim-polyglot' 
+
 " Plug 'dvdsk/prosesitter',  { 'branch': 'main' }
 Plug 'metalelf0/nvim-floatedit',  { 'branch': 'main' }
 " Plug 'AckslD/nvim-neoclip.lua', { 'branch': 'main' }
