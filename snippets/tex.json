@@ -63,7 +63,7 @@
    "image": {
     "prefix": "im",
     "body": [
-        "\\times $0"
+        "\\image $0"
        ],
     "description": "times"
     },  
