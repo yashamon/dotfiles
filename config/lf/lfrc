@@ -22,7 +22,7 @@ set -- $(cat ~/.local/share/lf/files)
         move) mv -n -- "$@" .;; 
     esac
     rm ~/.local/share/lf/files  
-    lf -remote "send reload" 
+    lf -remote "send clear"  
     lf -remote "send reload" 
     lf -remote "send echomsg "copy sucess""
 }}
