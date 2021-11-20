@@ -60,7 +60,14 @@
        ],
     "description": "subset"
     },  
-   
+   "image": {
+    "prefix": "im",
+    "body": [
+        "\\times $0"
+       ],
+    "description": "times"
+    },  
+
 "times": {
     "prefix": "t",
     "body": [
