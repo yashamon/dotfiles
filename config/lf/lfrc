@@ -3,6 +3,7 @@ set ratios 1:2:3
 # set previewer ~/.config/lf/preview
 # interpreter for shell commands
 set shell zsh  
+
 set shellopts '-euy'
 set ifs "\n"
 set filesep "\n"  # default already
