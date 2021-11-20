@@ -3,12 +3,12 @@ set ratios 1:2:3
 # set previewer ~/.config/lf/preview
 # interpreter for shell commands
 set shell zsh  
-
+set shwordsplit
 set shellopts '-euy'
 set ifs "\n"
 set filesep "\n"  # default already
 set hidden 
-cmd trash %trash-put $fs 
+cmd trash -y %trash-put $fs 
 
 set previewer stpv
 set cleaner stpvimgclr
