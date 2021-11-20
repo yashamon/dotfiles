@@ -13,9 +13,7 @@ cmd trash %trash-put $fx
 map gmd push %mkdir<space>
  
 cmd spaste &{{
-
-
-    set -- $(cat ~/.local/share/lf/files)
+set -- $(cat ~/.local/share/lf/files)
     mode="$1"
     shift
     case "$mode" in
