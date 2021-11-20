@@ -249,6 +249,7 @@ au FileType Makefile set noexpandtab
 au FileType tex,text set spelllang=en
 au FileType tex,text,md set spell 
 au FileType vim,md set list
+au FileType vim,md set list
 
 " au FileType tex,text,md syntax sync fromstart
 au FileType tex,text,md silent execute "!echo " . v:servername . " > ~/servername.txt"   
