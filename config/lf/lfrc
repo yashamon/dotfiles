@@ -18,7 +18,7 @@ set -- $(cat ~/.local/share/lf/files)
     shift
     case "$mode" in
         copy)
-            rsync -avh --no-compress --ignore-existing -- "$@" .;;
+            rsync -av --no-compress --ignore-existing -- "$@" .;;
         move) mv -n -- "$@" .;; 
     esac
     rm ~/.local/share/lf/files
