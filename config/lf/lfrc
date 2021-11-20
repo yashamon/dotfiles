@@ -15,7 +15,6 @@ set cleaner stpvimgclr
 
 # cmd aj %lf -remote "send $id cd '$(autojump $1)'"
 map gmd push %mkdir<space>
- 
 map - $~/.config/lf/draw_img.sh "$f"
 cmd spaste &{{
 set -- $(cat ~/.local/share/lf/files)
@@ -23,7 +22,7 @@ set -- $(cat ~/.local/share/lf/files)
     shift
     case "$mode" in
         copy)
-            rsync -a --no-compress --ignore-existing -- "$@" .;;
+            rsync -aWa --no-compress --ignore-existing -- "$@" .;;
         move) mv -n -- "$@" .;; 
     esac
     rm ~/.local/share/lf/files  
