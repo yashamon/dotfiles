@@ -484,7 +484,7 @@ noremap F ?
 " let g:smalls_auto_jump_timeout=0
 
 
-    " xmap t <>Sneak_s
+    " xmap t <Plug>Sneak_s
     " xmap T <Plug>Sneak_S
    " omap t <Plug>Sneak_s
     " omap T <Plug>Sneak_S 
