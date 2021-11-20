@@ -75,7 +75,7 @@ cmd fzf_jump ${{
 map f :fzf_jump
 
 cmd fasd_dir ${{
-   res="$find . -type d | fzf 2>/dev/tty | sed 's/\\/\\\\/g;s/"/\\"/g')"
+   res="$find / . -type d | fzf 2>/dev/tty | sed 's/\\/\\\\/g;s/"/\\"/g')"
    if [ -d "$res" ]; then
       cmd="cd"
    else
