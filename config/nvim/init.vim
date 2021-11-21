@@ -689,7 +689,7 @@ endfunction
 nmap <leader>v :wa<cr>:call ViewPdf()<cr>
 " nmap <leader>v :VimtexView<cr>
 " let  g:vimtex_fold_types_defaults = 'preamble, sections, comments'
-nmap <leader>l :wa<cr>:call CompileLatex()<cr>
+nmap <leader>ll :wa<cr>:call CompileLatex()<cr>
 nmap <leader>cl :call ClearLatex()<cr>
 " nmap <leader>m :silent ! cp % backup;  pandoc  backup -s --webtex -o backup.html;  cp backup.html %<cr>:e %<cr>
 
