@@ -55,6 +55,8 @@ cmd fzffile ${{
     lf -remote "send $id cd $HOME"
     lf -remote "send $id $cmd \"$res\""
 }}
+
+
  cmd fzffileroot ${{
     res="$(fd . '/' -H -I | fzf --reverse --header='Jump to location')"
     if [ -d "$res" ]; then
