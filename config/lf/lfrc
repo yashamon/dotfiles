@@ -55,7 +55,17 @@ cmd fzffile ${{
     lf -remote "send $id cd $HOME"
     lf -remote "send $id $cmd \"$res\""
 }}
+cmd find ${{
+   res="$(fd . '/' -H -I | fzf 2>/dev/tty | sed 's/\\/\\\\/g;s/"/\\"/g')"
+   if [ -d "$res" ]; then
+      cmd="cd"
+   else
+      cmd="select"
+   fi
+ lf -remote "send $id $cmd \"$res\""
+ }}
 
+map <a-f> :find
 
  cmd fzffileroot ${{
     res="$(fd . '/' -H -I | fzf --reverse --header='Jump to location')"
