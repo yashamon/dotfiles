@@ -3,7 +3,7 @@ Description=xmod
 PartOf=graphical-session.target
 
 [Service]
-ExecStart=/usr/sbin/xbindkeys -n -f ${HOME}/projects/dotfiles/.xbindkeysrc
+ExecStart=/usr/sbin/xmodmap -n -f ${HOME}/projects/dotfiles/.xbindkeysrc
 Restart=always
 
 [Install]
