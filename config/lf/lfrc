@@ -107,7 +107,7 @@ cmd Jdir ${{
  }}
 
 map gj :Jdir
-cmd Jdir ${{
+cmd find ${{
    res="$(fd . '/' -t d -H -I | fzf 2>/dev/tty | sed 's/\\/\\\\/g;s/"/\\"/g')"
    if [ -d "$res" ]; then
       cmd="cd"
