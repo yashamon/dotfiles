@@ -1,3 +1,6 @@
-2021/11/19-17:52:39.092 24c29 Reusing MANIFEST /home/yasha/.config/google-chrome-beta/Default/Extension State/MANIFEST-000001
-2021/11/19-17:52:39.092 24c29 Recovering log #3
-2021/11/19-17:52:39.096 24c29 Reusing old log /home/yasha/.config/google-chrome-beta/Default/Extension State/000003.log 
+2021/11/20-09:23:52.785 91c Reusing MANIFEST /home/yasha/.config/google-chrome-beta/Default/Extension State/MANIFEST-000001
+2021/11/20-09:23:52.785 91c Recovering log #3
+2021/11/20-09:23:52.800 91c Reusing old log /home/yasha/.config/google-chrome-beta/Default/Extension State/000003.log 
+2021/11/20-09:33:18.750 e29 Level-0 table #5: started
+2021/11/20-09:33:18.778 e29 Level-0 table #5: 2864563 bytes OK
+2021/11/20-09:33:18.784 e29 Delete type=0 #3

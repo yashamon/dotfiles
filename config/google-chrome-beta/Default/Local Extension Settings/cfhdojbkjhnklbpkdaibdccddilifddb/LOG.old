@@ -1,2 +1,106 @@
-2021/11/19-17:52:39.221 24c3a Archiving /home/yasha/.config/google-chrome-beta/Default/Local Extension Settings/cfhdojbkjhnklbpkdaibdccddilifddb/MANIFEST-000001: OK
-2021/11/19-17:52:39.224 24c3a **** Repaired leveldb /home/yasha/.config/google-chrome-beta/Default/Local Extension Settings/cfhdojbkjhnklbpkdaibdccddilifddb; recovered 0 files; 0 bytes. Some data may have been lost. ****
+2021/11/19-17:52:39.225 24c3a Reusing MANIFEST /home/yasha/.config/google-chrome-beta/Default/Local Extension Settings/cfhdojbkjhnklbpkdaibdccddilifddb/MANIFEST-000001
+2021/11/19-17:52:46.171 24c35 Level-0 table #4: started
+2021/11/19-17:52:46.263 24c35 Level-0 table #4: 8271506 bytes OK
+2021/11/19-17:52:46.272 24c35 Delete type=0 #2
+2021/11/19-17:53:40.023 24c29 Level-0 table #6: started
+2021/11/19-17:53:40.039 24c3a Current memtable full; waiting...
+2021/11/19-17:53:40.088 24c29 Level-0 table #6: 6792068 bytes OK
+2021/11/19-17:53:40.093 24c29 Delete type=0 #3
+2021/11/19-17:53:40.096 24c29 Level-0 table #8: started
+2021/11/19-17:53:40.169 24c29 Level-0 table #8: 6792091 bytes OK
+2021/11/19-17:53:40.174 24c29 Delete type=0 #5
+2021/11/19-17:53:42.282 24c29 Level-0 table #10: started
+2021/11/19-17:53:42.362 24c29 Level-0 table #10: 6792220 bytes OK
+2021/11/19-17:53:42.369 24c29 Delete type=0 #7
+2021/11/19-18:53:40.101 258a2 Level-0 table #12: started
+2021/11/19-18:53:40.171 258a2 Level-0 table #12: 6793984 bytes OK
+2021/11/19-18:53:40.176 258a2 Delete type=0 #9
+2021/11/19-18:53:41.876 258a0 Level-0 table #14: started
+2021/11/19-18:53:41.979 258a0 Level-0 table #14: 6792362 bytes OK
+2021/11/19-18:53:41.984 258a0 Delete type=0 #11
+2021/11/19-18:53:41.986 258a0 Compacting 4@0 + 1@1 files
+2021/11/19-18:53:42.084 258a0 Generated table #15@0: 1 keys, 6792091 bytes
+2021/11/19-18:53:42.090 258a0 Generated table #16@0: 3 keys, 475 bytes
+2021/11/19-18:53:42.090 258a0 Compacted 4@0 + 1@1 files => 6792566 bytes
+2021/11/19-18:53:42.094 258a0 compacted to: files[ 0 2 1 0 0 0 0 ]
+2021/11/19-18:53:42.094 258a0 Delete type=2 #12
+2021/11/19-18:53:42.094 258a0 Delete type=2 #6
+2021/11/19-18:53:42.094 258a0 Delete type=2 #8
+2021/11/19-18:53:42.094 258a0 Delete type=2 #10
+2021/11/19-18:53:42.094 258a0 Delete type=2 #14
+2021/11/19-18:53:43.463 258a2 Level-0 table #18: started
+2021/11/19-18:53:43.538 258a2 Level-0 table #18: 6792283 bytes OK
+2021/11/19-18:53:43.543 258a2 Delete type=0 #13
+2021/11/19-19:53:40.083 262f5 Level-0 table #20: started
+2021/11/19-19:53:40.099 25f66 Current memtable full; waiting...
+2021/11/19-19:53:40.171 262f5 Level-0 table #20: 6792090 bytes OK
+2021/11/19-19:53:40.180 262f5 Delete type=0 #17
+2021/11/19-19:53:40.182 262f5 Level-0 table #22: started
+2021/11/19-19:53:40.243 262f5 Level-0 table #22: 6792094 bytes OK
+2021/11/19-19:53:40.251 262f5 Delete type=0 #19
+2021/11/19-20:53:40.096 52be9 Level-0 table #24: started
+2021/11/19-20:53:40.111 73645 Current memtable full; waiting...
+2021/11/19-20:53:40.162 52be9 Level-0 table #24: 6792367 bytes OK
+2021/11/19-20:53:40.166 52be9 Delete type=0 #21
+2021/11/19-20:53:40.167 52be9 Level-0 table #26: started
+2021/11/19-20:53:40.235 52be9 Level-0 table #26: 6792091 bytes OK
+2021/11/19-20:53:40.240 52be9 Delete type=0 #23
+2021/11/19-20:53:40.243 52be9 Compacting 5@0 + 2@1 files
+2021/11/19-20:53:40.381 52be9 Generated table #27@0: 1 keys, 6792091 bytes
+2021/11/19-20:53:40.390 52be9 Generated table #28@0: 3 keys, 484 bytes
+2021/11/19-20:53:40.390 52be9 Compacted 5@0 + 2@1 files => 6792575 bytes
+2021/11/19-20:53:40.394 52be9 compacted to: files[ 0 2 1 0 0 0 0 ]
+2021/11/19-20:53:40.394 52be9 Delete type=2 #24
+2021/11/19-20:53:40.394 52be9 Delete type=2 #26
+2021/11/19-20:53:40.394 52be9 Delete type=2 #15
+2021/11/19-20:53:40.394 52be9 Delete type=2 #16
+2021/11/19-20:53:40.394 52be9 Delete type=2 #18
+2021/11/19-20:53:40.394 52be9 Delete type=2 #20
+2021/11/19-20:53:40.394 52be9 Delete type=2 #22
+2021/11/19-20:53:41.958 73652 Level-0 table #30: started
+2021/11/19-20:53:42.053 73652 Level-0 table #30: 6792364 bytes OK
+2021/11/19-20:53:42.059 73652 Delete type=0 #25
+2021/11/19-20:53:43.527 52be9 Level-0 table #32: started
+2021/11/19-20:53:43.602 52be9 Level-0 table #32: 6792288 bytes OK
+2021/11/19-20:53:43.608 52be9 Delete type=0 #29
+2021/11/20-07:27:06.110 b65fd Level-0 table #34: started
+2021/11/20-07:27:06.176 b65fd Level-0 table #34: 6792095 bytes OK
+2021/11/20-07:27:06.182 b65fd Delete type=0 #31
+2021/11/20-07:41:52.719 b6a83 Level-0 table #36: started
+2021/11/20-07:41:52.787 b6a83 Level-0 table #36: 6792168 bytes OK
+2021/11/20-07:41:52.795 b6a83 Delete type=0 #33
+2021/11/20-07:41:52.799 b6a83 Compacting 4@0 + 2@1 files
+2021/11/20-07:41:52.941 b6a83 Generated table #37@0: 1 keys, 6792095 bytes
+2021/11/20-07:41:52.950 b6a83 Generated table #38@0: 3 keys, 484 bytes
+2021/11/20-07:41:52.950 b6a83 Compacted 4@0 + 2@1 files => 6792579 bytes
+2021/11/20-07:41:52.954 b6a83 compacted to: files[ 0 2 1 0 0 0 0 ]
+2021/11/20-07:41:52.954 b6a83 Delete type=2 #32
+2021/11/20-07:41:52.954 b6a83 Delete type=2 #28
+2021/11/20-07:41:52.954 b6a83 Delete type=2 #34
+2021/11/20-07:41:52.954 b6a83 Delete type=2 #36
+2021/11/20-07:41:52.954 b6a83 Delete type=2 #30
+2021/11/20-07:41:52.954 b6a83 Delete type=2 #27
+2021/11/20-07:41:54.772 b6f1d Level-0 table #40: started
+2021/11/20-07:41:54.863 b6f1d Level-0 table #40: 6792371 bytes OK
+2021/11/20-07:41:54.868 b6f1d Delete type=0 #35
+2021/11/20-07:41:56.340 b6a83 Level-0 table #42: started
+2021/11/20-07:41:56.398 b6a83 Level-0 table #42: 6792284 bytes OK
+2021/11/20-07:41:56.403 b6a83 Delete type=0 #39
+2021/11/20-08:41:53.687 b9c25 Level-0 table #44: started
+2021/11/20-08:41:53.703 b9247 Current memtable full; waiting...
+2021/11/20-08:41:53.762 b9c25 Level-0 table #44: 6792090 bytes OK
+2021/11/20-08:41:53.767 b9c25 Delete type=0 #41
+2021/11/20-08:41:53.769 b9c25 Level-0 table #46: started
+2021/11/20-08:41:53.843 b9c25 Level-0 table #46: 6792096 bytes OK
+2021/11/20-08:41:53.848 b9c25 Delete type=0 #43
+2021/11/20-08:41:53.851 b9c25 Compacting 4@0 + 2@1 files
+2021/11/20-08:41:53.984 b9c25 Generated table #47@0: 1 keys, 6792096 bytes
+2021/11/20-08:41:53.992 b9c25 Generated table #48@0: 3 keys, 486 bytes
+2021/11/20-08:41:53.992 b9c25 Compacted 4@0 + 2@1 files => 6792582 bytes
+2021/11/20-08:41:53.996 b9c25 compacted to: files[ 0 2 1 0 0 0 0 ]
+2021/11/20-08:41:53.996 b9c25 Delete type=2 #37
+2021/11/20-08:41:53.996 b9c25 Delete type=2 #38
+2021/11/20-08:41:53.996 b9c25 Delete type=2 #46
+2021/11/20-08:41:53.996 b9c25 Delete type=2 #42
+2021/11/20-08:41:53.996 b9c25 Delete type=2 #40
+2021/11/20-08:41:53.996 b9c25 Delete type=2 #44

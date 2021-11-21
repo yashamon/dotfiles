@@ -1,3 +1,2 @@
-2021/11/11-01:42:37.505 1c12 Reusing MANIFEST /home/yasha/.config/google-chrome-beta/Default/shared_proto_db/MANIFEST-000001
-2021/11/11-01:42:37.505 1c12 Recovering log #3
-2021/11/11-01:42:37.505 1c12 Reusing old log /home/yasha/.config/google-chrome-beta/Default/shared_proto_db/000003.log 
+2021/11/19-17:52:38.700 24c0f Creating DB /home/yasha/.config/google-chrome-beta/Default/shared_proto_db since it was missing.
+2021/11/19-17:52:38.725 24c0f Reusing MANIFEST /home/yasha/.config/google-chrome-beta/Default/shared_proto_db/MANIFEST-000001
