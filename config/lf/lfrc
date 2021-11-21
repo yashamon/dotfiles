@@ -107,6 +107,15 @@ cmd Jdir ${{
  }}
 
 map gj :Jdir
+cmd Jdir ${{
+   res="$(fd . '/' -t d -H -I | fzf 2>/dev/tty | sed 's/\\/\\\\/g;s/"/\\"/g')"
+   if [ -d "$res" ]; then
+      cmd="cd"
+   else
+      cmd="select"
+   fi
+ lf -remote "send $id $cmd \"$res\""
+ }}
 
 # set '-eu' options for shell commands
 # These options are used to have safer shell commands. Option '-e' is used to
