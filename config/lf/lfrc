@@ -106,7 +106,8 @@ cmd Jdir ${{
  lf -remote "send $id $cmd \"$res\""
  }}
 
-map gj :Jdir
+map gj :Jdir 
+
 cmd find ${{
    res="$(fd . '/' -H -I | fzf 2>/dev/tty | sed 's/\\/\\\\/g;s/"/\\"/g')"
    if [ -d "$res" ]; then
@@ -116,6 +117,7 @@ cmd find ${{
    fi
  lf -remote "send $id $cmd \"$res\""
  }}
+
 map gf :find
 # set '-eu' options for shell commands
 # These options are used to have safer shell commands. Option '-e' is used to
