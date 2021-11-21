@@ -3,7 +3,7 @@ Description=xmod
 PartOf=graphical-session.target
 
 [Service]
-ExecStart=/usr/sbin/xmodmap -${HOME}/
+ExecStart=/usr/sbin/xmodmap -${HOME} ~/.Xmodmap
 Restart=always
 
 [Install]
