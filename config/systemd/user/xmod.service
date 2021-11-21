@@ -1,9 +1,9 @@
 [Unit]
-Description=xbindkeys
+Description=xmod
 PartOf=graphical-session.target
 
 [Service]
-ExecStart=/usr/bin/xbindkeys -n -f ${HOME}/projects/dotfiles/.xbindkeysrc
+ExecStart=/usr/sbin/xbindkeys -n -f ${HOME}/projects/dotfiles/.xbindkeysrc
 Restart=always
 
 [Install]
