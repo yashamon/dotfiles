@@ -1538,5 +1538,5 @@ EOF
 "           \ },
 "           \}
 
-"  TermClose * if v == 12 || v:event == 0 bdelete endif
+"  TermClose * if v:event == 12 || v:event == 0 bdelete endif
 
