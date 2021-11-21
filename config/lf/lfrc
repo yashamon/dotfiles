@@ -83,7 +83,8 @@ cmd fzf_jump ${{
 }}
 map f :fzf_jump 
 
-cmd fasd_dir ${{
+cmd :wa
+${{
    res="$(fasd -dl | grep -iv cache | fzf 2>/dev/tty | sed 's/\\/\\\\/g;s/"/\\"/g')"
    if [ -d "$res" ]; then
       cmd="cd"
