@@ -430,7 +430,7 @@ noremap d "0d
 nnoremap dd "0dd:wa<cr>
 noremap c "0c
 noremap C "_C
-noremap x "_x 
+ x "_x 
 " nnoremap v "+v
 vnoremap x "+x:wa<cr>
 vnoremap d "0d:wa<cr> 
