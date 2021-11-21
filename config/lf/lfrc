@@ -121,7 +121,6 @@ cmd find ${{
 map gf :find
 
 set scrolloff 10
-
 # use enter for shell commands
 map <enter> shell
 
