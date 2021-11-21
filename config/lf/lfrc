@@ -118,7 +118,7 @@ cmd find ${{
  lf -remote "send $id $cmd \"$res\""
  }}
 
-map gf :find
+map <> :find
 
 set scrolloff 10
 # use enter for shell commands
