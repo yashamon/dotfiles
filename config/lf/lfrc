@@ -68,7 +68,7 @@ map <a-f> :findfile
     lf -remote "send $id cd $HOME"
     lf -remote "send $id $cmd \"$res\""
 }}
-findfileroot
+map findfileroot 
 
 # map <a-f> fzffile   
 # map <a-r> fzffileroot  
