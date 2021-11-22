@@ -59,7 +59,7 @@ cmd findfile ${{
 map <a-f> :findfile
 
  cmd findfileroot ${{
-    res="$(fd . '/' -H  | fzf --reverse --header='Jump to location')"
+    res="$(fd . '/' -H | fzf --reverse --header='Jump to location')"
     if [ -d "$res" ]; then
         cmd="cd"
     else 
