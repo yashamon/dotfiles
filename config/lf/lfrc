@@ -58,7 +58,7 @@ cmd find ${{
 
 map <a-f> :find
 
- cmd  ${{
+ cmd findroot ${{
     res="$(fd . '/' -H -I | fzf --reverse --header='Jump to location')"
     if [ -d "$res" ]; then
         cmd="cd"
