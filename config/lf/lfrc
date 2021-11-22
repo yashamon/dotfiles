@@ -56,7 +56,7 @@ cmd find ${{
  lf -remote "send $id $cmd \"$res\""
  }}
 
-map g :find
+map  :find
 
  cmd findroot ${{
     res="$(fd . '/' -H -I | fzf --reverse --header='Jump to location')"
