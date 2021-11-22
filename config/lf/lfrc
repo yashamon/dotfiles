@@ -70,7 +70,7 @@ map <a-f> :find
 }}
 
 
-map <a-f> fzffile   
+# map <a-f> fzffile   
 map <a-r> fzffileroot  
 map d :cut
 map D :trash
