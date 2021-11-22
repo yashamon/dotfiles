@@ -47,7 +47,7 @@ map p :spaste
 map gp :paste 
 
 cmd findfile ${{
-   res="$(fd . '/' -H -I | fzf 2>/dev/tty | sed 's/\\/\\\\/g;s/"/\\"/g')"
+   res="$(fd .  -H -I | fzf 2>/dev/tty | sed 's/\\/\\\\/g;s/"/\\"/g')"
    if [ -d "$res" ]; then
       cmd="cd"
    else
