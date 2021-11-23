@@ -1,5 +1,4 @@
 function lfcd
-function lfcd
 	set LF_SHELLCD_TEMPDIR '(mktemp -d -t 
   lf-shellcd-XXXXXX)'
 	export LF_SHELLCD_TEMPDIR
