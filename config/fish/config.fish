@@ -104,7 +104,7 @@ alias pulse="pulseaudio -k
 pulseaudio --start"
 alias tff="xinput disable 13"
 alias ton="xinput enable 13" 
-set LFCD "$GOPATH/src/github.com/gokcehan/lf/etc/lfcd.sh"  # source
+LFCD="$GOPATH/src/github.com/gokcehan/lf/etc/lfcd.sh"  # source
 LFCD="/path/to/lfcd.sh"                                #  pre-built binary, make sure to use absolute path
 if [ -f "$LFCD" ]; then
     source "$LFCD"
