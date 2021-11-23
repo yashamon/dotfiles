@@ -68,7 +68,7 @@ xrandr -s 3440x1440
 "
 alias config="cd ~/dotfiles/; push; cd ~/workspacemodules; pushmod; cd ~/workspace; push; cd web pushgh; pacman -Qqe > $HOME/dotfiles/pkglist.txt" 
 
-# alias apt="sudo apt-get install"
+ alias apt="sudo apt-get install"
 # functions  
  
 # function message 
