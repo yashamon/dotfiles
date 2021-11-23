@@ -76,7 +76,7 @@ alias config="cd ~/dotfiles/; push; cd ~/workspacemodules; pushmod; cd ~/workspa
 #     git commit -m "$1"
 #     git push origin master
 # end
-brightnessfunction()
+
 {
     #do things with parameters like $1 such as
 xrandr --output eDP-1 --brightness $1 
