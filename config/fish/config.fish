@@ -101,7 +101,6 @@ cd $cwdb
 end
 alias pulse="pulseaudio -k
 pulseaudio --start"
-alias send=sendFunction
 alias tff="xinput disable 13"
 alias ton="xinput enable 13"
 # Commands to run in interactive sessions can go here
