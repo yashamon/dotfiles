@@ -74,7 +74,7 @@ function message
     git add .
     git commit -m "$1"
     git push origin master
- end
+end
 # alias message=myfunction
 brightnessfunction()
 {
