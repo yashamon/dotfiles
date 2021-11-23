@@ -3,7 +3,7 @@ function lfcd
   lf-shellcd-XXXXXX)'
 	export LF_SHELLCD_TEMPDIR
 	lf -last-dir-path "$LF_SHELLCD_TEMPDIR/lastdir" \
-		-command "source 
+		 "source 
     '$HOME/.config/lf-shellcd/lfrc-shellcd'" 
     "$argv"
 	if [ -e "$LF_SHELLCD_TEMPDIR/changecwd" ] && \
