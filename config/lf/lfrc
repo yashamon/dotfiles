@@ -339,8 +339,8 @@ cmd quitcd ${{
 	lf -remote "send $id quit"
 }}
  push mw
-# map q push 'w:quit<enter>
-# map Q push :quit<enter>
+ map q push 'w:quit<enter>
+ map Q push :quit<enter>
 # cmd fzffile ${{
 #     res="$(fd . $HOME -H -I | fzf --reverse --header='Jump to location')"
 #     if [ -d "$res" ]; then
