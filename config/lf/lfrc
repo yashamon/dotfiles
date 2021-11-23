@@ -2,7 +2,7 @@ set ratios 1:2:3
 # set cleaner ~/.config/lf/cleaner
 # set previewer ~/.config/lf/preview
 # interpreter for shell commands
-set shell zsh  
+set shell zsh
 set shellopts '-euy'
 set ifs "\n"
 set filesep "\n"  # default already
@@ -101,7 +101,17 @@ cmd fasd_dir ${{
 
 map <a-j> :fasd_dir
 map J :fasd_dir
+cmd Jdir ${{
+   res="$(fd . '/' -t d -H -I | fzf 2>/dev/tty | sed 's/\\/\\\\/g;s/"/\\"/g')"
+   if [ -d "$res" ]; then
+      cmd="cd"
+   else
+      cmd="select"
+   fi
+ lf -remote "send $id $cmd \"$res\""
+ }}
 
+map gj :Jdir 
 cmd Jdir ${{
    res="$(fd . '/' -t d -H -I | fzf 2>/dev/tty | sed 's/\\/\\\\/g;s/"/\\"/g')"
    if [ -d "$res" ]; then
