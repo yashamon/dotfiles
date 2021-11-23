@@ -111,7 +111,7 @@ cmd Jhomedir ${{
  lf -remote "send $id $cmd \"$res\""
  }}
 
-map gj :Jhomedir  
+map ghj :Jhomedir  
 
 cmd Jdir ${{
    res="$(fd . '/' -t d -H | fzf 2>/dev/tty | sed 's/\\/\\\\/g;s/"/\\"/g')"
