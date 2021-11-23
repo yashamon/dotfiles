@@ -180,6 +180,7 @@ set spelllang=en
  else
  " autocmd VimEnter * TZAtaraxis
  endif
+au VIMEnter set spell 
 set timeoutlen=0
 au VIMEnter * let g:surround_108 = {
      \'q':  " ``\r''"
