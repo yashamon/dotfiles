@@ -333,6 +333,11 @@ map r ${{
 	lf -remote "send $id push :rename<space>$filename<a-b><c-b>"
 }} 
 
+map q quitcd
+cmd quitcd ${{
+	echo "1" > "$LF_SHELLCD_TEMPDIR/changecwd"
+	lf -remote "send $id quit"
+}}
 # push mw
 # map q push 'w:quit<enter>
 # map Q push :quit<enter>
