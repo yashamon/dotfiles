@@ -103,10 +103,8 @@ end
 alias pulse="pulseaudio -k
 pulseaudio --start"
 alias tff="xinput disable 13"
-alias ton="xinput enable 13" 
-set LFCD                          #  pre-built binary, make sure to use absolute path
-if [ -f "$LFCD" ]; then
-    source "$LFCD"
-fi
+alias ton="xinput enable 13"  
+
+
 # Commands to run in interactive sessions can go here
 end
