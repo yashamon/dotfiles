@@ -78,7 +78,6 @@ alias apt="sudo apt install"
 #     git push origin master
 # end
 function bright
-#do things with parameters like $1 such as
 xrandr --output eDP-1 --brightness $1 
     end
 alias bright=brightnessfunction
