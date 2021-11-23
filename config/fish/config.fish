@@ -66,7 +66,8 @@ xrandr -s 1920x1080"
 alias res3="xrandr --newmode "3440x1440_100.00"  728.00  3440 3728 4104 4768  1440 1443 1453 1527 -hsync +vsync; xrandr --addmode HDMI-1 "3440x1440.100.00";
 xrandr -s 3440x1440
 "
-alias config="cd ~/dotfiles/; push; cd ~/workspacemodules; pushmod; cd ~/workspace; push; cd web pushgh; pacman -Qqe > $HOME/dotfiles/pkglist.txt"
+alias config="cd ~/dotfiles/; push; cd ~/workspacemodules; pushmod; cd ~/workspace; push; cd web pushgh; pacman -Qqe > $HOME/dotfiles/pkglist.txt" 
+
 # alias apt="sudo apt-get install"
 # functions  
  
@@ -79,7 +80,7 @@ alias config="cd ~/dotfiles/; push; cd ~/workspacemodules; pushmod; cd ~/workspa
 function bright
 #do things with parameters like $1 such as
 xrandr --output eDP-1 --brightness $1 
-    }
+    end
 alias bright=brightnessfunction
 
 
