@@ -1,5 +1,6 @@
 function lfcd
-	LF_SHELLCD_TEMPDIR=$(mktemp -d -t lf-shellcd-XXXXXX)"
+	LF_SHELLCD_TEMPDIR='(mktemp -d -t 
+  lf-shellcd-XXXXXX)'
 	export LF_SHELLCD_TEMPDIR
 	lf -last-dir-path "$LF_SHELLCD_TEMPDIR/lastdir" \
 		-command "source '${XDG_CONFIG_HOME:-$HOME/.config}/lf-shellcd/lfrc-shellcd'" "$@"
