@@ -75,7 +75,7 @@ function message
     git commit -m "$1"
     git push origin master
  end
-alias message=myfunction
+# alias message=myfunction
 brightnessfunction()
 {
     #do things with parameters like $1 such as
