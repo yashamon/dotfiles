@@ -15,7 +15,7 @@ LOG=/run/user/$(id -u Yasha)/sensor.log
 export DISPLAY=:0
 
 # put your display name here
-DNAME=
+DNAME=eDP-1
 
 # may change grep to match your touchscreen
 INDEV=$(xinput --list | grep TouchScreen | sed 's/.*id=\([0-9]*\).*/\1/')
