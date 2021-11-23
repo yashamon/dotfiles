@@ -100,8 +100,9 @@ cmd fasd_dir ${{
  }}
 
 map <a-j> :fasd_dir
-map J :fasd_dir
-cmd Jdir ${{
+map J :fasd_dir 
+
+cmd Jhomedir ${{
    res="$(fd . '/' -t d -H -I | fzf 2>/dev/tty | sed 's/\\/\\\\/g;s/"/\\"/g')"
    if [ -d "$res" ]; then
       cmd="cd"
