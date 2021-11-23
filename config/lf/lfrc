@@ -99,7 +99,7 @@ cmd fasd_dir ${{
  lf -remote "send $id $cmd \"$res\""
  }}
 
-map <a-a> :fasd_dir
+map <a-J> :fasd_dir
 
 cmd Jhomedir ${{
    res="$(fd . $HOME -t d -H | fzf 2>/dev/tty | sed 's/\\/\\\\/g;s/"/\\"/g')"
