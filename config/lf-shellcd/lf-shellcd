@@ -14,3 +14,4 @@ function lfcd
 	rm -rf "$LF_SHELLCD_TEMPDIR"
 	unset LF_SHELLCD_TEMPDIR
 end
+end
