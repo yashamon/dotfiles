@@ -4,7 +4,7 @@ PartOf=graphical-session.target
 
 [Service]
 ExecStart=/usr/sbin/xmodmap /home/yasha/.Xmodmap
-# Restart=never
+# Restart=always
 
 [Install]
 WantedBy=xsession.target

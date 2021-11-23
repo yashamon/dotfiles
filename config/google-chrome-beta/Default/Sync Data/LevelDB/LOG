@@ -1,9 +1,18 @@
-2021/11/20-09:23:52.265 8f1 Reusing MANIFEST /home/yasha/.config/google-chrome-beta/Default/Sync Data/LevelDB/MANIFEST-000001
-2021/11/20-09:23:52.265 8f1 Recovering log #7
-2021/11/20-09:23:52.267 8f1 Reusing old log /home/yasha/.config/google-chrome-beta/Default/Sync Data/LevelDB/000007.log 
-2021/11/20-12:01:49.613 3246 Level-0 table #9: started
-2021/11/20-12:01:49.629 3246 Level-0 table #9: 121966 bytes OK
-2021/11/20-12:01:49.634 3246 Delete type=0 #7
-2021/11/20-16:48:52.145 f80e Level-0 table #11: started
-2021/11/20-16:48:52.151 f80e Level-0 table #11: 96638 bytes OK
-2021/11/20-16:48:52.155 f80e Delete type=0 #8
+2021/11/21-13:58:40.398 1d9a Reusing MANIFEST /home/yasha/.config/google-chrome-beta/Default/Sync Data/LevelDB/MANIFEST-000001
+2021/11/21-13:58:40.398 1d9a Recovering log #12
+2021/11/21-13:58:40.399 1d9a Reusing old log /home/yasha/.config/google-chrome-beta/Default/Sync Data/LevelDB/000012.log 
+2021/11/21-14:36:27.064 3821 Level-0 table #16: started
+2021/11/21-14:36:27.077 3821 Level-0 table #16: 103075 bytes OK
+2021/11/21-14:36:27.081 3821 Delete type=0 #12
+2021/11/22-14:01:28.567 a9ce Level-0 table #18: started
+2021/11/22-14:01:28.572 a9ce Level-0 table #18: 118058 bytes OK
+2021/11/22-14:01:28.577 a9ce Delete type=0 #15
+2021/11/22-14:01:28.577 a9ce Compacting 4@0 + 1@1 files
+2021/11/22-14:01:28.585 a9ce Generated table #19@0: 257 keys, 44961 bytes
+2021/11/22-14:01:28.585 a9ce Compacted 4@0 + 1@1 files => 44961 bytes
+2021/11/22-14:01:28.589 a9ce compacted to: files[ 0 1 1 0 0 0 0 ]
+2021/11/22-14:01:28.590 a9ce Delete type=2 #16
+2021/11/22-14:01:28.590 a9ce Delete type=2 #18
+2021/11/22-14:01:28.590 a9ce Delete type=2 #11
+2021/11/22-14:01:28.590 a9ce Delete type=2 #9
+2021/11/22-14:01:28.590 a9ce Delete type=2 #13

@@ -141,6 +141,7 @@ pulseaudio --start"
 alias send=sendFunction
 alias tff="xinput disable 13"
 alias ton="xinput enable 13"
+alias ubuntu="sudo apt-get update; sudo apt-get upgrade"
 
 # set dual monitors
 dual () {
@@ -252,7 +253,6 @@ export KEYTIMEOUT=1
 alias chmodWork sudo chmod -R ~/workspacemodules
 export DISPLAY=:0.0
 alias wq='wmctrl -r 'Alacritty' -b toggle,fullscreen'
-alias ubuntu="sudo apt-get update; sudo apt-get upgrade"
 
 # VBoxClient-all
 # xrdb -merge ~/.Xresources
@@ -429,20 +429,20 @@ _zlf_handler() {
     zle -R
 }
 zle -N _zlf_handler 
-
-
-LFCD="$GOPATH/src/github.com/gokcehan/lf/etc/lfcd.sh"  # source
-LFCD="/path/to/lfcd.sh"                                #  pre-built binary, make sure to use absolute path
-if [ -f "$LFCD" ]; then
-    source "$LFCD"
-fi
-
-setxkbmap -option caps:escape 
-xmodmap -e "keycode 133 = Escape"   
-xmodmap -e "keycode 37 = Control_L"   
-xmodmap -e "keycode 151 = Control_L"  
-xmodmap -e "remove control = Control_R" -e "add Mod3 = Control_R"
-
+# Appends every command to the history file once it is executed
+setopt inc_append_history
+# Reloads the history whenever you use it
+setopt share_history 
+setopt hist_ignore_all_dups
+HISTFILE=~/dotfiles/zsh_history
+HISTSIZE=10000
+SAVEHIST=10000
+setopt appendhistory
+# setxkbmap -option caps:escape 
+# # xmodmap -e "keycode 133 = Escape"   
+# xmodmap -e "keycode 37 = Control_L"   
+# xmodmap -e "keycode 151 = Control_L"  
+# xmodmap -e "remove control = Control_R" -e "add Mod3 = Control_R"
 # bindkey '"\C-o":"lfcd\C-m"'
 # source ~/.zplug/init.zsh
 # # # Make sure to use double quotes

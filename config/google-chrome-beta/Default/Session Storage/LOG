@@ -1,3 +1,6 @@
-2021/11/20-09:24:02.054 3 Reusing MANIFEST /home/yasha/.config/google-chrome-beta/Default/Session Storage/MANIFEST-000001
-2021/11/20-09:24:02.054 3 Recovering log #7
-2021/11/20-09:24:02.055 3 Reusing old log /home/yasha/.config/google-chrome-beta/Default/Session Storage/000007.log 
+2021/11/21-13:58:40.488 3 Reusing MANIFEST /home/yasha/.config/google-chrome-beta/Default/Session Storage/MANIFEST-000001
+2021/11/21-13:58:40.489 3 Recovering log #8
+2021/11/21-13:58:40.489 3 Reusing old log /home/yasha/.config/google-chrome-beta/Default/Session Storage/000008.log 
+2021/11/22-15:35:14.801 8e Level-0 table #12: started
+2021/11/22-15:35:14.815 8e Level-0 table #12: 20092 bytes OK
+2021/11/22-15:35:14.821 8e Delete type=0 #8
