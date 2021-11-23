@@ -7,7 +7,7 @@ function lfcd
 		set dir "(cat 
     "$LF_SHELLCD_TEMPDIR/lastdir")" 2>/dev/null; then
 		cd "$dir"
-	fi
+ end
 	rm -rf "$LF_SHELLCD_TEMPDIR"
 	unset LF_SHELLCD_TEMPDIR
 end
