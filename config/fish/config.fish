@@ -83,8 +83,8 @@ end
 # alias bright=brightnessfunction
 
 
-
-cwdb=$(pwd)
+function send
+set cwdb=$(pwd)
 cd ~/web
 git pull
 git rm ~/web/papers/"$1" 
