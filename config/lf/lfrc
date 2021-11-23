@@ -25,7 +25,8 @@ set cleaner stpvimgclr
 # cmd aj %lf -remote "send $id cd '$(autojump $1)'"
 map gmd push %mkdir<space> 
 map gt push %touch<space>
-map gp push  
+map gp push %chmod<space>
+
 map - $~/.config/lf/draw_img.sh "$f"
 cmd spaste &{{
 set -- $(cat ~/.local/share/lf/files)
