@@ -103,7 +103,7 @@ map <a-j> :fasd_dir
 map J :fasd_dir 
 
 cmd Jhomedir ${{
-   res="$(fd . '/' -t d -H -I | fzf 2>/dev/tty | sed 's/\\/\\\\/g;s/"/\\"/g')"
+   res="$(fd . $HOME -t d -H -I | fzf 2>/dev/tty | sed 's/\\/\\\\/g;s/"/\\"/g')"
    if [ -d "$res" ]; then
       cmd="cd"
    else
