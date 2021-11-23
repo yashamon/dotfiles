@@ -84,7 +84,7 @@ end
 
 
 function send
-set cwdb=$(pwd)
+set cwdb$(pwd)
 cd ~/web
 git pull
 git rm ~/web/papers/"$1" 
