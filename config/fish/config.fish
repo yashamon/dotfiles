@@ -80,7 +80,7 @@ alias apt="sudo apt install"
 function bright
 xrandr --output eDP-1 --brightness $1 
    end
-alias bright=brightnessfunction
+# alias bright=brightnessfunction
 
 
 sendFunction() {
