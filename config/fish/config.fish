@@ -105,6 +105,6 @@ pulseaudio --start"
 alias tff="xinput disable 13"
 alias ton="xinput enable 13"  
 
-
+source "${XDG_CONFIG_HOME:-$HOME/.config}/lf-shellcd/lf-shellcd"
 # Commands to run in interactive sessions can go here
 end
