@@ -77,8 +77,7 @@ alias config="cd ~/dotfiles/; push; cd ~/workspacemodules; pushmod; cd ~/workspa
 #     git push origin master
 # end
 function bright
-{
-    #do things with parameters like $1 such as
+#do things with parameters like $1 such as
 xrandr --output eDP-1 --brightness $1 
     }
 alias bright=brightnessfunction
