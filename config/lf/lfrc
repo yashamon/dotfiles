@@ -333,9 +333,9 @@ map r ${{
 	lf -remote "send $id push :rename<space>$filename<a-b><c-b>"
 }} 
 
-push mw
-map q push 'w:quit<enter>
-map Q push :quit<enter>
+# push mw
+# map q push 'w:quit<enter>
+# map Q push :quit<enter>
 # cmd fzffile ${{
 #     res="$(fd . $HOME -H -I | fzf --reverse --header='Jump to location')"
 #     if [ -d "$res" ]; then
