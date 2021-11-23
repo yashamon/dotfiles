@@ -112,7 +112,6 @@ cmd Jhomedir ${{
  }}
 
 map ghj :Jhomedir  
-map <a-j> :Jhomedir
 
 cmd Jdir ${{
    res="$(fd . '/' -t d -H | fzf 2>/dev/tty | sed 's/\\/\\\\/g;s/"/\\"/g')"
