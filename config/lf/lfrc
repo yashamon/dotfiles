@@ -338,9 +338,9 @@ cmd quitcd ${{
 	echo "1" > "$LF_SHELLCD_TEMPDIR/changecwd"
 	lf -remote "send $id quit"
 }}
- push mw
- map q push 'w:quit<enter>
- map Q push :quit<enter>
+push mw
+map q push 'w:quit<enter>
+map Q push :quit<enter>
 # cmd fzffile ${{
 #     res="$(fd . $HOME -H -I | fzf --reverse --header='Jump to location')"
 #     if [ -d "$res" ]; then
