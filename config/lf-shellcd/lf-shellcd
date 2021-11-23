@@ -7,7 +7,8 @@ function lfcd
     '$HOME/.config/lf-shellcd/lfrc-shellcd'" 
     "$argv"
 	if [ -e "$LF_SHELLCD_TEMPDIR/changecwd" ] && \
-		set dir "(cat "$LF_SHELLCD_TEMPDIR/lastdir")" 2>/dev/null; then
+		set dir "(cat 
+    "$LF_SHELLCD_TEMPDIR/lastdir")" 2>/dev/null; then
 		cd "$dir"
 	fi
 	rm -rf "$LF_SHELLCD_TEMPDIR"
