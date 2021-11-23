@@ -1,6 +1,5 @@
 function lfcdn
-	set LF_SHELLCD_TEMPDIR (mktemp -d -t 
-  lf-shellcd-XXXXXX)
+	set LF_SHELLCD_TEMPDIR (mktemp -d -t lf-shellcd-XXXXXX)
 	export LF_SHELLCD_TEMPDIR
 	lf -last-dir-path "$LF_SHELLCD_TEMPDIR/lastdir" \
 		-command "source '$HOME/.config/lf-shellcd/lfrc-shellcd'" "$argv"
