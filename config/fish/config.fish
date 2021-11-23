@@ -23,7 +23,6 @@ alias pullmaster="git pull --recurse-submodules; git submodule update --recursiv
 alias check="git checkout" 
 alias pushgh="pandoc index.md > index.html ; git add .; git commit -m -a; git push origin gh-pages"
 alias pandocd="pandoc index.md > index.html"
-
 # <<<<<<< HEAD
 # alias hw="pandoc ~/web/classes/topology/topology2019.md > ~/web/classes/topology/topology2019.html; pandoc ~/web/CalcIII2019/analysis.md > ~/web/CalcIII2019/analysis.html; git add .; git commit -m -a; git push origin gh-pages"
 # =======
