@@ -98,7 +98,7 @@ git add .
 git commit -m -a
 git push origin gh-pages
 cd $cwdb
-}
+end
 alias pulse="pulseaudio -k
 pulseaudio --start"
 alias send=sendFunction
