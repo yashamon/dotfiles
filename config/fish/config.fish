@@ -1,6 +1,6 @@
 if status is-interactive 
 fish_vi_key_bindings  
-alias rot="xrandr -o" 
+alias rot="xrandr -o"
 alias p="paru"
 alias wifi="sudo wifi-menu -o" 
 alias mod="xmodmap ~/.Xmodmap"
@@ -9,7 +9,6 @@ alias svi="/snap/bin/nvim"
 alias nvr="nvr --servername $(<~/servername.txt) --remote-silent"
 alias vifmrc="nvim ~/.config/vifm/vifmrc"  
 alias lfrc="cd ~/.config/lf; goneovim lfrc"
-# alias ls="lf" 
 alias texi="pdflatex -file-line-error -synctex=1  -interaction=nonstopmode -recorder" 
 alias latexi="latexmk -g -pdf -file-line-error -synctex=1  -interaction=nonstopmode -recorder -f"
 alias pvc="latexmk -pdf -pvc -file-line-error -synctex=1  -interaction=nonstopmode -recorder -f"
