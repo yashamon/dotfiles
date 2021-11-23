@@ -70,12 +70,12 @@ alias config="cd ~/dotfiles/; push; cd ~/workspacemodules; pushmod; cd ~/workspa
 # alias apt="sudo apt-get install"
 # functions  
  
-function message 
-    #do things with parameters like $1 such as
-    git add .
-    git commit -m "$1"
-    git push origin master
-end
+# function message 
+#     #do things with parameters like $1 such as
+#     git add .
+#     git commit -m "$1"
+#     git push origin master
+# end
 brightnessfunction()
 {
     #do things with parameters like $1 such as
