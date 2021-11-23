@@ -108,3 +108,4 @@ alias ton="xinput enable 13"
 source "$HOME/.config/lf-shellcd/lf-shellcd"
 # Commands to run in interactive sessions can go here
 end
+
