@@ -1,15 +1,48 @@
-: 1637643199:30;zrc
-: 1637643233:0;src
-: 1637643245:0;journalctl
-: 1637643266:0;sudo pacman -Ss blah
-: 1637643312:0;fish
-: 1637643657:0;lf
-: 1637643682:0;vifm
-: 1637643754:0;fish
-: 1637643812:0;vifm
-: 1637643845:0;lf
-: 1637644226:0;lcd
-: 1637644229:0;lfcd
-: 1637644274:0;lf
-: 1637644370:0;j /home/yasha/dotfiles
-: 1637644372:0;push
+journalctl
+sudo pacman -Ss blah
+vifm
+lcd
+j /home/yasha/dotfiles
+push
+j /home/yasha/workspacemodules/novikov
+trash-list
+sudo trash-list
+neovide  
+src  
+ls
+vrc
+lfcd
+lfrc
+neo
+setopt
+emulate -lLR zsh
+zrc
+src
+which lfcd
+lf
+lfcdn
+as;lkdjfa
+dotfiles
+zsh
+fish
+: 1637680499:0;neo
+: 1637683231:0;startx
+: 1637687272:0;mod
+: 1637687301:0;ping
+: 1637687306:0;neo
+: 1637687331:0;lf
+: 1637687375:0;neo kan.tex
+: 1637687394:0;lf
+: 1637687440:0;j /home/yasha/workspacemodules/novikov
+: 1637687458:0;git reset HEAD~1
+: 1637687578:0;j /home/yasha/dotfiles
+: 1637687579:0;lf
+: 1637687729:0;git
+: 1637687732:0;git status
+: 1637687735:0;j /home/yasha/dotfiles
+: 1637687737:0;git status
+: 1637687765:0;git rm */google-chrome-beta
+: 1637687772:0;git rm -r */google-chrome-beta
+: 1637687783:0;git rm -r */firefox
+: 1637687793:0;git rm -r */google-chrome
+: 1637687797:0;push

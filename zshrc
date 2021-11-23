@@ -432,12 +432,25 @@ zle -N _zlf_handler
 # Appends every command to the history file once it is executed
 setopt inc_append_history
 # Reloads the history whenever you use it
-setopt share_history 
+setopt share_history
+setopt banghist
+setopt glob
+setopt GLOB_COMPLETE
+setopt auto_cd
+set shellopts '-euy'
+setopt INC_APPEND_HISTORY
 setopt hist_ignore_all_dups
+setopt HIST_REDUCE_BLANKS
+setopt HIST_VERIFY
+setopt CORRECT
+setopt CORRECT_ALL
 HISTFILE=~/dotfiles/zsh_history
 HISTSIZE=10000
 SAVEHIST=10000
-setopt appendhistory
+setopt appendhistory 
+zstyle ':completion:*:manuals'    separate-sections true
+zstyle ':completion:*:manuals.*'  insert-sections   true
+zstyle ':completion:*:man:*'      menu yes select
 # setxkbmap -option caps:escape 
 # # xmodmap -e "keycode 133 = Escape"   
 # xmodmap -e "keycode 37 = Control_L"   
