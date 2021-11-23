@@ -9,5 +9,4 @@ function lfcd
 		cd "$dir"
  end
 	rm -rf "$LF_SHELLCD_TEMPDIR"
-	unset LF_SHELLCD_TEMPDIR
 end
