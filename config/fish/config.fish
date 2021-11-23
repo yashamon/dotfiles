@@ -79,11 +79,11 @@ alias apt="sudo apt install"
 # end
 function bright
 xrandr --output eDP-1 --brightness $1 
-   end
+end
 # alias bright=brightnessfunction
 
 
-sendFunction() {
+
 cwdb=$(pwd)
 cd ~/web
 git pull
