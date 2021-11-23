@@ -54,7 +54,7 @@ alias rec="recoll -q"
 alias vi="nvim"   
 alias ping="ping www.google.com"
 alias gone="$HOME/.local/bin/goneovim"  
-
+alias ubuntu="sudo apt-get update; sudo apt-get upgrade"
 alias neo="$HOME/.local/bin/goneovim"
 alias neov="$HOME/.local/bin/neovide --frameless --maximized --multigrid"
 alias update="git submodule update --init --recursive ; git pull origin master"
