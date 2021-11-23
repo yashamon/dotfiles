@@ -11,7 +11,7 @@
 # Launcher will be on the left in a landscape orientation and on the bottom in a portrait orientation
 # This script should be added to startup applications for the user
 
-LOG=/run/user/$(id -u )/sensor.log
+LOG=/run/user/$(id -u Yasha)/sensor.log
 export DISPLAY=:0
 
 # put your display name here
