@@ -1,6 +1,0 @@
-2021/11/23-11:14:05.484 f72 Reusing MANIFEST /home/yasha/.config/google-chrome-beta/Default/Sync Data/LevelDB/MANIFEST-000001
-2021/11/23-11:14:05.484 f72 Recovering log #17
-2021/11/23-11:14:05.486 f72 Reusing old log /home/yasha/.config/google-chrome-beta/Default/Sync Data/LevelDB/000017.log 
-2021/11/23-11:16:20.889 127e Level-0 table #22: started
-2021/11/23-11:16:20.901 127e Level-0 table #22: 108946 bytes OK
-2021/11/23-11:16:20.911 127e Delete type=0 #17

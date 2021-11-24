@@ -533,4 +533,15 @@ zstyle ':completion:*:man:*'      menu yes select
 # bindkey -M vicmd 'k' history-substring-search-up
 # bindkey -M vicmd 'j' history-substring-search-down
 # User configuration
-source "${XDG_CONFIG_HOME:-$HOME/.config}/lf-shellcd/lf-shellcd"
+source "${XDG_CONFIG_HOME:-$HOME/.config}/lf-shellcd/lf-shellcd" 
+fmz() {
+    tmp=$(mktemp)
+    command fmz --cd "$tmp" "$@"
+    res=$(tail -n 1 "$tmp")
+    if [ -d "$res" ] && [ "$res" != "$PWD" ]; then
+        echo cd "$res"
+        cd "$res" || return 1
+    fi
+    rm "$tmp"
+}
+    
