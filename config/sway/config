@@ -342,7 +342,7 @@ bar {
 output "*" bg /path/to/image fill
  
 output "*" bg 
-~/Downloads/johannes-plenio-RwHv7LgeC7s-unsplash.jpg 
+ 
 fill
 
 ### Autostart ### (to fix time - timedatectl set-ntp true)
