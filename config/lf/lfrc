@@ -122,7 +122,7 @@ cmd Jdir ${{
  lf -remote "send $id $cmd \"$res\""
  }}
 
-map gj :Jdir 
+map gj :Jdir
 
 
 
