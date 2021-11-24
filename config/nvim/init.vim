@@ -779,7 +779,7 @@ lua <<EOF
 require'nvim-treesitter.configs'.setup { 
     --
     highlight = { enable = true },
-   incremental_selection = {
+    incremental_selection = {
     enable = true,
     keymaps = {
       init_selection = '<CR>',
@@ -788,7 +788,6 @@ require'nvim-treesitter.configs'.setup {
       node_decremental = '<S-TAB>',
     },
   }
-EOF
 
     incremental_selection = { enable = true },
     textobjects = { enable = true },
