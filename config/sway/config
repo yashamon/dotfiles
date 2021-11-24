@@ -45,7 +45,7 @@ font pango: Fira Code 12
 # Borders
 default_border pixel 0
 # default_floating_border pixel 2
-hide_edge_borders none
+hide_edge_borders on
 smart_borders on
 smart_gaps on
 gaps inner 2
@@ -132,7 +132,7 @@ bindsym --to-code $mod+Shift+r reload
 bindsym --to-code $mod+Return exec $term
 
 # Kill focused window
-bindsym --to-code $mod+q kill
+bindsym --to-code $mod+c kill
 
 # Start your launcher
 bindsym --to-code $mod+d exec bemenu-run -iwbn -p "Run:" 
