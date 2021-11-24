@@ -325,9 +325,9 @@ bindsym --to-code $mod+Delete exec swaynag -t mtype -m \
 
 ### Status bar ###
 
-bar {
-   swaybar_command swaybar
-}
+# bar {
+#    swaybar_command swaybar
+# }
 
 # bar {
 #     position bottom
