@@ -3,4 +3,6 @@
 **/firefox
 **/google-chrome 
 **/chromium
-vifminfo
+vifminfo 
+*.log
+
