@@ -343,7 +343,7 @@ output "*" bg ~/Downloads/johannes-plenio-RwHv7LgeC7s-unsplash.jpg fill
  
 
 exec sleep 1 ; python /home/yasha/dotfiles/config/sway/modules/transparency.py/home/yasha/dotfiles/config/sway/modules/transparency.py
-/home/yasha/dotfiles/scripts/rotatesway
+sh /home/yasha/dotfiles/scripts/rotatesway
 ### Autostart ### (to fix time - timedatectl set-ntp true)
 
 # exec killall /usr/bin/earlyoom
