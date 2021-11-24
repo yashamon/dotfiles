@@ -1,5 +1,5 @@
 #! /bin/sh 
 setxkbmap -option "ctrl:swap_rwin_rctl"
-wait 5
+sleep 5
 setxkbmap -option "caps:swapescape" 
 wait 5
