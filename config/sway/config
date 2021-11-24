@@ -27,7 +27,7 @@ set $term kitty
 set $menu j4-dmenu-desktop --dmenu='bemenu -iwbn -p "Run:" --fn "SF Pro Text Regular 10" --tb="#222222" --tf="#cb4b16" --hb="#222222" --hf="#cb4b16" --nb="#111111"  ' --term='xfce4-terminal'
 
 # File manager
-set $filer vifm
+set $filer lf
 
 # Browser
 set $browser firefox
