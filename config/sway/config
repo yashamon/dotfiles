@@ -361,7 +361,7 @@ exec --no-startup-id /usr/bin/redshift
 # exec --no-startup-id /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1
 # exec mako
 # exec ~/.azotebg
-# exec ~/.config/sway/modules/critical_battery_beeper/criticalBatteryBeeper
+ exec ~/.config/sway/modules/critical_battery_beeper/criticalBatteryBeeper
 # exec swayidle -w \
 #     timeout 1200 'swaylock-fancy' \
 #     timeout 1300 'swaymsg "output * dpms off"' \
