@@ -59,7 +59,7 @@ output eDP1 pos 0 0 res 2560x1440
 # Keyboard layout
 input "1:1:AT_Translated_Set_2_keyboard" {
     xkb_layout us
-    xkb_options "caps:swapescape,ctrl:swap_rwin_rctl
+    xkb_options "caps:swapescape,ctrl:swap_rwin_rctl"
 }
 
 # Touchpad configuration (swaymsg -t get_inputs)
