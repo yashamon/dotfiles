@@ -61,9 +61,8 @@ input "1:1:AT_Translated_Set_2_keyboard" {
     xkb_options "caps:swapescape,ctrl:swap_rwin_rctl"
 }
 
-# Touchpad configuration (swaymsg -t get_inputs)
+# Touchpad configuration (swaymsg -t get_inputs) 
 input "   " {
-SynPS/2 Synaptics TouchPad
     dwt enabled
     tap disabled
     natural_scroll enabled
