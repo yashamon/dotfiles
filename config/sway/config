@@ -132,7 +132,7 @@ bindsym --to-code $mod+Shift+r reload
 bindsym --to-code $mod+Return exec $term
 
 # Kill focused window
-bindsym --to-code $mod+c kill
+bindsym --to-code $mod+shift+c kill
 
 # Start your launcher
 bindsym --to-code $mod+p exec bemenu-run -iwbn -p "Run:" 
