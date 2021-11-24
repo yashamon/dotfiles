@@ -1,3 +1,4 @@
+
 setxkbmap -option "ctrl:swap_rwin_rctl"
 wait 5
 setxkbmap -option "caps:swapescape" 
