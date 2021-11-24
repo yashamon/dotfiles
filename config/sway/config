@@ -41,7 +41,7 @@ set $gnomeschema org.gnome.desktop.interface
 
 # Font
 font pango: Fira Code 12
-==
+
 # Borders
 default_border pixel 0
 # default_floating_border pixel 2
