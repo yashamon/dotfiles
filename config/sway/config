@@ -66,6 +66,7 @@ input "SynPS/2 Synaptics TouchPad" {
     dwt enabled
     tap disabled
     natural_scroll enabled
+SynPS/2 Synaptics TouchPad
     middle_emulation disabled
 }
 
