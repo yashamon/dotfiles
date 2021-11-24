@@ -26,7 +26,7 @@ set cleaner stpvimgclr
 map gmd push %mkdir<space> 
 map gt push %touch<space>
 map gch push %chmod<space>
-map m push %cp $fs $f<space>
+map m push %cp $fs $fs<space>
 
 map - $~/.config/lf/draw_img.sh "$f"
 cmd spaste &{{
