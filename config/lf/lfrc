@@ -110,9 +110,9 @@ cmd Jhomedir ${{
  lf -remote "send $id $cmd \"$res\""
  }}
 
-map <> :Jhomedir  
+map <a-j> :Jhomedir  
 
-cmd Jdir ${{
+cmd Jrootdir ${{
    res="$(fd . '/' -t d -H | fzf 2>/dev/tty | sed 's/\\/\\\\/g;s/"/\\"/g')"
    if [ -d "$res" ]; then
       cmd="cd"
