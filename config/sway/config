@@ -341,9 +341,6 @@ bar {
 
 output "*" bg ~/Downloads/johannes-plenio-RwHv7LgeC7s-unsplash.jpg fill
  
-output "*" bg 
- 
-fill
 
 ### Autostart ### (to fix time - timedatectl set-ntp true)
 
