@@ -339,7 +339,7 @@ bar {
 #     status_command while date +'%Y-%m-%d %l:%M:%S %p'; do sleep 1; done
 
 
-output "*" bg /path/to/image fill
+output "*" bg ~/Downloads/johannes-plenio-RwHv7LgeC7s-unsplash.jpg fill
  
 output "*" bg 
  
