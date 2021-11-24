@@ -136,7 +136,7 @@ bindsym --to-code $mod+c kill
 
 # Start your launcher
 bindsym --to-code $mod+p exec bemenu-run -iwbn -p "Run:" 
---fn " 12" --tb="#222222" --tf="#cb4b16" --hb="#222222" --hf="#cb4b16" --nb="#111111"
+--fn "Fira Code 12" --tb="#222222" --tf="#cb4b16" --hb="#222222" --hf="#cb4b16" --nb="#111111"
 
 bindsym --to-code $mod+b exec $term -e 'bmenu'
 
@@ -158,7 +158,7 @@ bindsym --to-code $mod+e exec $filer
 bindsym --to-code $mod+0 exec $locker
 
 # Color picker
-bindsym --to-code $mod+p exec swaynag -t mtype -m "$(grim -g "$(slurp -p)" -t ppm - | convert - -format '%[pixel:p{0,0}]' txt:-)" && notify-send "Color picked"
+bindsym --to-code $mod+d exec swaynag -t mtype -m "$(grim -g "$(slurp -p)" -t ppm - | convert - -format '%[pixel:p{0,0}]' txt:-)" && notify-send "Color picked"
 
 # Take a screenshot to clipboard (whole screen)
 bindsym --to-code Print exec grim - | wl-copy && notify-send "Screenshot of whole screen saved to clipboard"
