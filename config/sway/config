@@ -345,6 +345,7 @@ output "*" bg ~/Downloads/johannes-plenio-RwHv7LgeC7s-unsplash.jpg fill
 exec sleep 1 ; python /home/yasha/dotfiles/config/sway/modules/transparency.py/home/yasha/dotfiles/config/sway/modules/transparency.py 
 
 exec /home/yasha/dotfiles/scripts/rotatesway
+exec --no-startup-id /usr/bin/redshift
 
 ### Autostart ### (to fix time - timedatectl set-ntp true)
 
@@ -357,7 +358,6 @@ exec /home/yasha/dotfiles/scripts/rotatesway
 # exec pa-applet
 # exec pamac-tray
 # exec --no-startup-id /usr/bin/nm-applet --indicator
- exec --no-startup-id /usr/bin/redshift
 # exec --no-startup-id /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1
 # exec mako
 # exec ~/.azotebg
