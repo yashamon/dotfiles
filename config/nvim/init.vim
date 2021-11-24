@@ -1276,7 +1276,8 @@ lua << EOF
 require('fzf-lua').setup{
 -- ...
 }
-EOF
+EOF 
+eof
 incremental_selection = {
     enable = true,
     keymaps = {
