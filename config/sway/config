@@ -344,6 +344,7 @@ colors {
          inactive_workspace #32323200 #32323200 5c5c5c
      }
  
+output "*" bg /path/to/image fill
 
 ### Autostart ### (to fix time - timedatectl set-ntp true)
 
