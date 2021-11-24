@@ -806,7 +806,6 @@ EOF
 "   },
 " }
 " EOF
-
 " lua <<EOF
 " require('neoscroll').setup{
 "     -- All these keys will be mapped to their corresponding default scrolling animation
