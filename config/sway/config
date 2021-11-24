@@ -64,7 +64,7 @@ input "1:1:AT_Translated_Set_2_keyboard" {
 # Touchpad configuration (swaymsg -t get_inputs) 
 SynPS/2 Synaptics TouchPad
 input "SynPS/2 Synaptics TouchPad" {
-    dwt enabled
+    dwt enaSynPS/2 Synaptics TouchPadbled
     tap disabled
     natural_scroll enabled
     middle_emulation disabled
