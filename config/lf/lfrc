@@ -16,7 +16,7 @@ set hidden
 #     lf -remote "send echomsg "deletesucess""
 # }}
 
-cmd trash  %trash-put $fx
+cmd trash %trash-put $fx
 
 set previewer stpv
 set cleaner stpvimgclr
