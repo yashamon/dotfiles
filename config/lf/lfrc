@@ -26,7 +26,7 @@ set cleaner stpvimgclr
 map gmd push %mkdir<space> 
 map gt push %touch<space>
 map gch push %chmod<space>
-map m push %cp<space>"$fx"<space>
+map m push %cp -r <space>"$fx"<space>
 
 cmd spaste &{{
 set -- $(cat ~/.local/share/lf/files)
