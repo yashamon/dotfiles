@@ -326,7 +326,10 @@ bindsym --to-code $mod+Delete exec swaynag -t mtype -m \
 ### Status bar ###
 
  bar {
-       
+       bar {
+     position top
+     swaybar_command waybar
+ } 
  }
 
 # bar {
