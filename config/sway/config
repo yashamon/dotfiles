@@ -366,7 +366,7 @@ exec ~/.config/sway/modules/critical_battery_beeper/criticalBatteryBeeper
      timeout 1200 'swaylock-fancy' \
      timeout 1300 'swaymsg "output * dpms off"' \
      resume 'swaymsg "output * dpms on"' \
-#     before-sleep 'swaylock-fancy'
+     before-sleep 'swaylock-fancy'
 
 # exec_always --no-startup-id ff-theme-util
 # exec_always --no-startup-id fix_xcursor
