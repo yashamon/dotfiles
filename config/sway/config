@@ -340,7 +340,9 @@ bar {
 
 
  
-output "*" bg ~/Downloads/johannes-plenio-RwHv7LgeC7s-unsplash.jpg
+output "*" bg 
+~/Downloads/johannes-plenio-RwHv7LgeC7s-unsplash.jpg 
+fill
 
 ### Autostart ### (to fix time - timedatectl set-ntp true)
 
