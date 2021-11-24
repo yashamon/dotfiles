@@ -63,12 +63,12 @@ input "1:1:AT_Translated_Set_2_keyboard" {
 }
 
 # Touchpad configuration (swaymsg -t get_inputs)
-input "1739:30966:Synaptics_TM3096-006" {
-    dwt enabled
-    tap disabled
-    natural_scroll enabled
-    middle_emulation disabled
-}
+# input "1739:30966:Synaptics_TM3096-006" {
+#     dwt enabled
+#     tap disabled
+#     natural_scroll enabled
+#     middle_emulation disabled
+# }
 
 # Drag floating windows by holding down $mod and left mouse button.
 # Resize them with right mouse button + $mod.
