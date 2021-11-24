@@ -1277,7 +1277,7 @@ require('fzf-lua').setup{
 -- ...
 }
 EOF 
-eof
+lua <<EOF
 incremental_selection = {
     enable = true,
     keymaps = {
@@ -1287,6 +1287,8 @@ incremental_selection = {
       node_decremental = '<S-TAB>',
     },
   },
+
+EOF
 
 " lua << EOF
 " require("stabilize").setup(
