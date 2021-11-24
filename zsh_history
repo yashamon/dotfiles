@@ -139,3 +139,32 @@ stpvimg --end $ID
 : 1637715707:0;git rm -r --cached **/firefox
 : 1637715713:0;git status
 : 1637715765:0;push
+: 1637715814:0;git status --ignored
+: 1637715838:0;lf
+: 1637715964:0;lfrc
+: 1637716007:0;lf
+: 1637716254:0;git config --global core.excludesfile gitignore_global
+: 1637716272:0;git status --ignored
+: 1637716303:0;lf
+: 1637716316:0;lfrc
+: 1637716350:0;lf
+: 1637716380:0;git status --ignored
+: 1637716392:0;cd ..
+: 1637716397:0;git status --ignored
+: 1637716413:0;lf
+: 1637716501:0;sudo lf
+: 1637716633:0;lfrc
+: 1637716726:0;lf
+: 1637716895:0;trash-empty
+: 1637716910:0;sudo trash-empty
+: 1637716918:0;trash-list
+: 1637716923:0;sudo trash-list
+: 1637716924:0;lf
+: 1637716984:0;lfrc
+: 1637717140:0;lf
+: 1637717212:0;j /home/yasha/workspacemodules
+: 1637717215:0;git status
+: 1637717220:0;push
+: 1637717231:0;j /home/yasha/dotfiles
+: 1637717234:0;git status
+: 1637717244:0;push
