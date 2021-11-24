@@ -113,7 +113,7 @@ cmd Jhomedir ${{
 map ghj :Jhomedir  
 
 cmd Jdir ${{
-   res="$(fd . '/' -t d -H -I | fzf 2>/dev/tty | sed 's/\\/\\\\/g;s/"/\\"/g')"
+   res="$(fd . '/' -t d -H  | fzf 2>/dev/tty | sed 's/\\/\\\\/g;s/"/\\"/g')"
    if [ -d "$res" ]; then
       cmd="cd"
    else
