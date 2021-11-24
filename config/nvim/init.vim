@@ -1286,7 +1286,7 @@ incremental_selection = {
       node_incremental = '<TAB>',
       node_decremental = '<S-TAB>',
     },
-  },
+  }
 
 EOF
 
