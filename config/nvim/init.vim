@@ -1230,7 +1230,7 @@ require('spellsitter').setup {
   -- * vimfn: built-in spell checker using vim.fn.spellbadword()
   -- * ffi: built-in spell checker using the FFI to access the
   --   internal spell_check() function
-  spellchecker = 'vimfn',
+spellchecker = 'vimfn',
 }
 EOF
 let g:firenvim_config = { 
