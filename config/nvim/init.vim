@@ -1276,7 +1276,7 @@ lua << EOF
 require('fzf-lua').setup{
 -- ...
 }
-EOF 
+EOF
 lua <<EOF
 incremental_selection = {
     enable = true,
@@ -1287,7 +1287,6 @@ incremental_selection = {
       node_decremental = '<S-TAB>',
     },
   }
-
 EOF
 
 " lua << EOF
