@@ -137,7 +137,6 @@ bindsym --to-code $mod+c kill
 # Start your launcher
 bindsym --to-code $mod+p exec bemenu-run -iwbn -p "Run:" 
 
-
 bindsym --to-code $mod+b exec $term -e 'bmenu'
 
 # Launch wifi choice
