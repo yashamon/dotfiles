@@ -342,6 +342,8 @@ bar {
 output "*" bg ~/Downloads/johannes-plenio-RwHv7LgeC7s-unsplash.jpg fill
  
 
+exec sleep 1 ; python ....
+
 ### Autostart ### (to fix time - timedatectl set-ntp true)
 
 # exec killall /usr/bin/earlyoom
