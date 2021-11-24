@@ -1,2 +1,2 @@
-setxkbmap -option "ctrl:swap_rwin_rctl"
-❯ setxkbmap -option "caps:swapescape"
+setxkbmap -option "ctrl:swap_rwin_rctl" 
+setxkbmap -option "caps:swapescape"
