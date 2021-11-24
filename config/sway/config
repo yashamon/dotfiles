@@ -357,7 +357,7 @@ exec /home/yasha/dotfiles/scripts/rotatesway
 # exec pa-applet
 # exec pamac-tray
 # exec --no-startup-id /usr/bin/nm-applet --indicator
-# exec --no-startup-id /usr/bin/redshift
+ exec --no-startup-id /usr/bin/redshift
 # exec --no-startup-id /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1
 # exec mako
 # exec ~/.azotebg
