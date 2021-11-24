@@ -787,9 +787,7 @@ require'nvim-treesitter.configs'.setup {
       node_incremental = '<TAB>',
       node_decremental = '<S-TAB>',
     },
-  }
-
-    incremental_selection = { enable = true },
+  },
     textobjects = { enable = true },
     indent = { enable = true }, 
 }
