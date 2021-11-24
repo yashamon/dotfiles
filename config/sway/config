@@ -45,7 +45,7 @@ font pango: Fira Code 12
 # Borders
 default_border pixel 0
 # default_floating_border pixel 2
-hide_edge_borders on
+hide_edge_borders smart
 smart_borders on
 smart_gaps on
 gaps inner 2
