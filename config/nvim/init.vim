@@ -1275,9 +1275,9 @@ let g:firenvim_config = {
 lua << EOF
 require('fzf-lua').setup{
 -- ...
-} 
-
+}
 EOF
+
 
 " lua << EOF
 " require("stabilize").setup(
