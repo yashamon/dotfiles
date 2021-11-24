@@ -248,7 +248,7 @@ bindsym --to-code $mod+F2 layout tabbed
 bindsym --to-code $mod+F1 layout toggle split
 
 # Make the current focus fullscreen
-bindsym --to-code $mod+f fullscreen
+bindsym --to-code $mod+space fullscreen
 
 # Toggle the current focus between tiling and floating mode
 bindsym --to-code $mod+space floating toggle
