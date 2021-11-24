@@ -251,7 +251,7 @@ bindsym --to-code $mod+F1 layout toggle split
 bindsym --to-code $mod+space fullscreen
 
 # Toggle the current focus between tiling and floating mode
-bindsym --to-code $mod+space floating toggle
+bindsym --to-code $mod+f floating toggle
 
 # Swap focus between the tiling area and the floating area
 bindsym --to-code $mod+Shift+space focus mode_toggle
