@@ -135,7 +135,7 @@ bindsym --to-code $mod+Return exec $term
 bindsym --to-code $mod+c kill
 
 # Start your launcher
-bindsym --to-code $mod+d exec bemenu-run -iwbn -p "Run:" 
+bindsym --to-code $mod+p exec bemenu-run -iwbn -p "Run:" 
 --fn "SF Pro Text Regular 12" --tb="#222222" --tf="#cb4b16" --hb="#222222" --hf="#cb4b16" --nb="#111111"
 
 bindsym --to-code $mod+b exec $term -e 'bmenu'
