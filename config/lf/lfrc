@@ -163,7 +163,7 @@ set -- $(cat ~/.local/share/lf/files)
     shift
     case "$mode" in
         copy)
-            rsync -a --no-compress --ignore-existing -- "$@" destination;;
+            rvsync -a --no-compress --ignore-existing -- "$@" destination;;
         move) 
       mv -n -- "$@" destination;; 
     esac
