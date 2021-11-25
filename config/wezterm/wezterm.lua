@@ -31,6 +31,7 @@ wezterm.on("trigger-vim-with-scrollback", function(window, pane)
 end)
 return {
 enable_tab_bar = false,
+
 scrollback_lines = 100000,
 hide_tab_bar_if_only_one_tab = true,
 font = wezterm.font("Fira Code"),
