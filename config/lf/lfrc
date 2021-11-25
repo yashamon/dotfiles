@@ -155,7 +155,7 @@ map gn %nvr --servername $(<~/servername.txt) --remote-silent $f
 # define a custom 'rename' command without prompt for overwrite 
 cmd spastename &{{
 set -- $(cat ~/.local/share/lf/files) 
-    destination = $([ -e $2 ])
+    destination = $()
     mode="$1"
     shift
     case "$mode" in
