@@ -383,12 +383,12 @@ exec swayidle -w \
 # exec pa-applet
 
 # Gtk applications settings
-exec_always {
-    gsettings set $gnomeschema gtk-theme 'Yaru-dark'
-    gsettings set $gnomeschema icon-theme 'Yaru'
-    gsettings set $gnomeschema cursor-theme 'xcursor-breeze'
-    gsettings set $gnomeschema font-name 'SF Pro Text Regular 10'
-}
+# exec_always {
+#     gsettings set $gnomeschema gtk-theme 'Yaru-dark'
+#     gsettings set $gnomeschema icon-theme 'Yaru'
+#     gsettings set $gnomeschema cursor-theme 'xcursor-breeze'
+#     gsettings set $gnomeschema font-name 'SF Pro Text Regular 10'
+# }
 include /etc/sway/config.d/*
 # Theme colors                                                  #f4692e
 #       class	            border	    background	text	    indicator	child_border			
