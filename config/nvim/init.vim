@@ -454,7 +454,7 @@ nnoremap <c-h> :wa<cr>:bprevious<CR>
 " nnoremap < :tabp<CR>
 " nnoremap > :tabn<CR>
 " nnoremap <leader>n :tabedit %<CR>
-imap <M-j> <C-j>
+imap <M-j> <C-j>1
 map <M-m> <cmd>HopChar1<cr>$
 " map <S-b> ?\$<CR>
 map <M-w> <cmd>HopChar1<cr>}
