@@ -165,7 +165,7 @@ set -- $(cat ~/.local/share/lf/files)
         copy)
             cp -r --backup=t source target "$@" .;;
         move) 
-      mv -n --backup=t source target - "$@" destination;; 
+      mv -n --backup=t source target "$@" .;; 
     esac
     rm ~/.local/share/lf/files
     lf -remote "send clear"  
