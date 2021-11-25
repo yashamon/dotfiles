@@ -45,7 +45,7 @@ set -- $(cat ~/.local/share/lf/files)
 
 # set previewer ~/.config/lf/preview
 # set cleaner ~/.config/lf/cleaner
-cmd namepaste $cp-p cp -r --backup=t source target--lf-paste $id 
+cmd namepaste $cp-p cp -r --backup=t source target --lf-paste $id 
 map p :spaste
 map gp :paste 
 cmd findfile ${{
