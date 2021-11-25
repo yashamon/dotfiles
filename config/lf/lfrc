@@ -163,7 +163,7 @@ set -- $(cat ~/.local/share/lf/files)
     shift
     case "$mode" in
         copy)
-             "$@" destination;;
+             "cp -r --backup=t source target$@" destination;;
         move) 
       mv -n -- "$@" destination;; 
     esac
