@@ -34,7 +34,7 @@ set -- $(cat ~/.local/share/lf/files)
     shift
     case "$mode" in
         copy)
-            rsync -a --no-compress --backup  -- "$@" .;;
+            rsync -a --no-compress --backup -- "$@" .;;
         move) mv -n --backup -- "$@" .;;
     esac
     rm ~/.local/share/lf/files
