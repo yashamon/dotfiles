@@ -33,7 +33,7 @@ return {
 enable_tab_bar = false,
 scrollback_lines = 100000,
 hide_tab_bar_if_only_one_tab = true,
-font = wezterm.font"Fira Code"),
+font = wezterm.font("Fira Code"),
 font_size = 18,
 harfbuzz_features = {"zero"},
 color_scheme = "Solarized Dark - Patched",
