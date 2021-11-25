@@ -346,7 +346,7 @@ bar {
 exec swaymsg input 1386:20666:Wacom_Pen_and_multitouch_sensor_Pen map_to_output eDP-1
 output "*" bg ~/Downloads/johannes-plenio-RwHv7LgeC7s-unsplash.jpg fill
  
-exec--no-startup-id sleep 2 ; python /home/yasha/dotfiles/config/sway/modules/transparency.py
+exec --no-startup-id sleep 2 ; python /home/yasha/dotfiles/config/sway/modules/transparency.py
 
 exec --no-startup-id sleep 2 ; /home/yasha/dotfiles/scripts/rotatesway
 exec --no-startup-id /usr/bin/redshift
