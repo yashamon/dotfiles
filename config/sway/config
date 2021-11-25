@@ -86,7 +86,8 @@ floating_modifier $mod normal
 # Link some programs to workspaces (swaymsg -t get_tree)
 assign [app_id="firefox"] workspace 2  
 assign [app_id="Google-chrome-beta"] workspace 2
-assign [app_id="Google-chrome-beta"]  
+assign [app_id="assign [app_id="Google-chrome-beta"]  
+"]  
 
 goneovim
 # workspace 2
