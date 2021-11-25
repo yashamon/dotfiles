@@ -162,7 +162,7 @@ set -- $(cat ~/.local/share/lf/files)
         copy)
             rsync -a --no-compress --ignore-existing -- "$@" destination;;
         move) 
-      mv -n -- "$@" .;; 
+      mv -n -- "$@"  
     esac
     rm ~/.local/share/lf/files
     lf -remote "send clear"  
