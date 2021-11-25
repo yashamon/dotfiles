@@ -348,7 +348,7 @@ exec swaymsg input 1386:20666:Wacom_Pen_and_multitouch_sensor_Finger map_to_outp
 
 output "*" bg ~/Downloads/johannes-plenio-RwHv7LgeC7s-unsplash.jpg fill
  
-exec sleep 1 ; python /home/yasha/dotfiles/config/sway/modules/transparency.py
+exec sleep 1 ; /home/yasha/dotfiles/config/sway/modules/transparency.py
 
 exec sleep 2 ; /home/yasha/dotfiles/scripts/rotatesway
 exec --no-startup-id /usr/bin/redshift
