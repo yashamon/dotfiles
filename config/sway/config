@@ -343,7 +343,7 @@ bar {
 #     status_command while date +'%Y-%m-%d %l:%M:%S %p'; do sleep 1; done
 
 # startup 
-exec swaymsg input 1386:20666:Wacom_Pen_and_multitouch_sensor_Fingermap_to_output eDP-1  
+exec swaymsg input 1386:20666:Wacom_Pen_and_multitouch_sensor_Finger map_to_output eDP-1  
 
 output "*" bg ~/Downloads/johannes-plenio-RwHv7LgeC7s-unsplash.jpg fill
  
