@@ -163,10 +163,8 @@ set -- $(cat ~/.local/share/lf/files)
     shift
     case "$mode" in
         copy)
-            cp -r --backup=t source target "$@" .;;
-        move) 
-      mv -n --backup=t source target "$@" .;;
-    esac
+            rsync -a --no-compress --ignore-existing -- "$@" .;;
+        move) mv -n -- "$@" .;;    esac
     rm ~/.local/share/lf/files
     lf -remote "send clear"
     lf -remote "send reload" 
