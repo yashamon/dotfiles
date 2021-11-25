@@ -152,7 +152,8 @@ cmd open ${{
 map e :open 
 map n %goneovim $f 
 map gn %nvr --servername $(<~/servername.txt) --remote-silent $f
-# define a custom 'rename' command without prompt for overwrite
+# define a custom 'rename' command without prompt for overwrite 
+# 
 cmd rename %[ -e $1 ] && printf "file exists" || mv $f $1 
  mv
 
