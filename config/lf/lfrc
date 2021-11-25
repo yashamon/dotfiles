@@ -170,7 +170,7 @@ set -- $(cat ~/.local/share/lf/files)
     rm ~/.local/share/lf/files
     lf -remote "send clear"
     lf -remote "send reload" 
-    lf -remote "send echomsg "copysucess""
+    lf -remote "send echomsg "copysucessblah""
 }}
 
 cmd rename %[ -e $1 ] && printf "file exists" || mv $f $1 
