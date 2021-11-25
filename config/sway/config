@@ -388,7 +388,6 @@ exec_always {
     gsettings set $gnomeschema cursor-theme 'xcursor-breeze'
     gsettings set $gnomeschema font-name 'SF Pro Text Regular 10'
 }
-
 include /etc/sway/config.d/*
 
 # Theme colors                                                  #f4692e
