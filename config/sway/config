@@ -134,7 +134,7 @@ for_window [class="feh"] floating enable
 bindsym --to-code $mod+Shift+r reload
 
 # Start a terminal
-bindsym --to-code $mod+Return exec $term | source ~/.zshrc
+bindsym --to-code $mod+Return exec $term 
 
 # Kill focused window
 bindsym --to-code $mod+shift+c kill
