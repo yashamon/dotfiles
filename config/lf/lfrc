@@ -168,7 +168,7 @@ set -- $(cat ~/.local/share/lf/files)
       mv -n --backup=t source target "$@" .;; 
     esac
     rm ~/.local/share/lf/files
-    lf -remote "send clear"  
+    lf -remote "send clear"
     lf -remote "send reload" 
     lf -remote "send echomsg "copysucess""
 }}
