@@ -156,8 +156,8 @@ map gn %nvr --servername $(<~/servername.txt) --remote-silent $f
 cmd spastename &{{
 set -- $(cat ~/.local/share/lf/files)  
     lf -remote "send echomsg "inputdestination""  
-   lf -remote "send echomsg "inputdestination"" 
-destination = "$(read varname ; echo $varname)"
+    lf -remote "send echomsg "inputdestination"" 
+   destination = "$(read varname ; echo $varname)"
     mode="$1"
     shift
     case "$mode" in
