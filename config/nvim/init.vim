@@ -256,7 +256,7 @@ au FileType vim,md set list
 au FileType vim,md colorscheme one
 
 " au FileType tex,text,md syntax sync fromstart
-au UIEnter execute "!echo " . v:servername . " > $HOME/servername.txt"   
+au FileType tex,text,md "!echo " . v:servername . " > $HOME/servername.txt"   
 au FileType tex,text,md hi SpellBad cterm=undercurl
 au Filetype tex,text,md vmap q xi<CR><CR><CR><CR><ESC>kki/begin{comment}<cr><cr>/end{comment}<esc>kp
 au Filetype tex,text,md set tw=50
