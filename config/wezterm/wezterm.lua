@@ -42,7 +42,7 @@ harfbuzz_features = {"zero"},
   --color_scheme = "Alien Blood",
   --color_scheme = "Dracula",
   --color_scheme = "Cobalt Neon",
-  -- color_scheme = "Dark Matrix",
+   color_scheme = "Dark Matrix",
 exit_behavior = "Close",
 keys = {
 key="e", mods="CTRL|ALT",
