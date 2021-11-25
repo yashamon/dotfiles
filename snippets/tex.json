@@ -59,9 +59,17 @@
         "\\supset $0"
        ],
     "description": "subset"
-    }, 
+    },  
+   "image": {
+    "prefix": "im",
+    "body": [
+        "\\image $0"
+       ],
+    "description": "image"
+    },  
+
 "times": {
-    "prefix": "t, times",
+    "prefix": "t",
     "body": [
         "\\times $0"
        ],
@@ -173,7 +181,7 @@
   "Math": {
     "prefix": "m",
     "body": [
-      "\\$$1\\$$0"
+      "\\$$1\\$ $0"
     ],
     "description": "Add a Math"
   },
@@ -525,7 +533,7 @@
   "Cite": {
     "prefix": "cite",
     "body": [
-      "~\\cite{cite$1}$0"
+      "~\\cite{cite$1} $0"
     ],
     "description": "Add a cite"
   },
@@ -1073,12 +1081,14 @@
     "description": "intersection"
   },
 "isomorphic": {
-    "prefix": ["seq"],
+    "prefix": ["isom", "seq"],
     "body": [
       "\\simeq $0"
     ],
     "description": "isomorphic"
-  },
+  }, 
+
+
 "defined by": {
     "prefix": ["db"],
     "body": [
@@ -1154,7 +1164,23 @@
       ":= $0"
     ],
     "description": "definition"
+  }, 
+"greater equal": {
+    "prefix": ["geq"],
+    "body": [
+      "\\geq $0"
+    ],
+    "description": "geq"
   },
+
+"less equal": {
+    "prefix": ["leq"],
+    "body": [
+      "\\leq $0"
+    ],
+    "description": "leq"
+  },
+
  
 "product": {
     "prefix": ["prod"],

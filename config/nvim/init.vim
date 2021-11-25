@@ -3,6 +3,10 @@ call plug#begin('~/.vim/plugged')
 " Plug 'folke/which-key.nvim', { 'branch': 'main' }
 " Plug 'folke/zen-mode.nvim', {  'branch': 'main' } 
 Plug 'lewis6991/spellsitter.nvim'
+Plug 'sheerun/vim-polyglot' 
+Plug 'ibhagwan/fzf-lua',  { 'branch': 'main' }
+Plug 'vijaymarupudi/nvim-fzf'
+Plug 'kyazdani42/nvim-web-devicons'
 " Plug 'dvdsk/prosesitter',  { 'branch': 'main' }
 Plug 'metalelf0/nvim-floatedit',  { 'branch': 'main' }
 " Plug 'AckslD/nvim-neoclip.lua', { 'branch': 'main' }
@@ -110,7 +114,7 @@ Plug 'mbbill/undotree', { 'on': 'UndotreeToggle' }
  '}
 Plug 'lifepillar/vim-solarized8'
 Plug 'vim-scripts/AutoTag'
-" Plug 'vim-scripts/vim-auto-save'
+Plug 'vim-scripts/vim-auto-save'
 " Plug 'vim-pandoc/vim-pandoc'
 
 " Plug 'yashamon/vim-snippets'
@@ -142,14 +146,15 @@ let g:neovide_transparency=0.15
 
 "General Settings    
 set title 
-set titlestring
+" set titlestring
 " set noshowmode
 " set noruler       
 " set laststatus=1 
 set noshowcmd   
 set noshowmatch  
 set wrap  
-set pb=10 
+set pb=10  
+set winbl=10
 set switchbuf=newtab
 " let g:python3_host_prog='/usr/bin/python3.9'
 " let g:python3_host_prog='/usr/bin/python3.9'
@@ -159,7 +164,8 @@ set clipboard+=unnamedplus	" yank to the system register (*) by default
 set expandtab        "replace <TAB> with spaces
 set softtabstop=3 
 set shiftwidth=3 
-set termguicolors  
+set termguicolors
+
 set guicursor=n-v-c:block,i-ci-ve:ver25,r-cr:hor20,o:hor50
  		  \,a:blinkwait700-blinkoff400-blinkon250-Cursor/lCursor
  		  \,sm:block-blinkwait175-blinkoff150-blinkon175
@@ -174,7 +180,6 @@ set spelllang=en
  else
  " autocmd VimEnter * TZAtaraxis
  endif
-au VIMEnter set spell 
 set timeoutlen=0
 au VIMEnter * let g:surround_108 = {
      \'q':  " ``\r''"
@@ -184,7 +189,7 @@ let g:tex_isk = '@,48-57,58,_,192-255'
 let g:tex_conceal = ""
 set tags+=~/workspacemodules/tags
 "set tags+=~/Dropbox/workspace/tags
-  " set formatoptions=ant
+set formatoptions=nt
   " set wrapmargin=1
 " set shada="NONE"  
 set listchars=eol:¬,tab:>·,trail:~,extends:>,precedes:<,space:␣
@@ -226,8 +231,13 @@ set smarttab		" insert tabs on the start of a line according to context
 " disable sound on errors
 set noerrorbells
 " set novisualbell 
+<<<<<<< HEAD
 set guifont=Fira\ Code\ Light:h22
  colorscheme one
+=======
+set guifont=Fira\ Code\ Light:h33
+ colorscheme blue-moon
+>>>>>>> c40a0d26b7ea5493a515ec3c76c7c63dc8b60d2f
 " colorscheme material  
 " let g:material_style = 'palenight'  
 " let g:material_style = 'lighter'
@@ -246,8 +256,10 @@ hi SpellBad gui=underline
 autocmd BufReadPost * if @% !~# '\.git[\/\\]COMMIT_EDITMSG$' && line("'\"") > 1 && line("'\"") <= line("$") | exe "normal! g`\"" | endif 
 au FileType Makefile set noexpandtab
 au FileType tex,text set spelllang=en
-au FileType tex,text,md set spell
+au FileType tex,text,md set spell 
 au FileType vim,md set list
+au FileType vim,md colorscheme one
+
 " au FileType tex,text,md syntax sync fromstart
 au FileType tex,text,md silent execute "!echo " . v:servername . " > ~/servername.txt"   
 au FileType tex,text,md hi SpellBad cterm=undercurl
@@ -378,14 +390,14 @@ nmap <A-S-t> :wa<cr>:te<cr>
  
 vnoremap <Leader>U ""y:%s/<C-r>"
 noremap <leader>r :wa<cr>:e<cr>
-noremap <leader>h :set tw=50<cr>
+noremap <leader>hh :set tw=50<cr>
 noremap <leader>w :set tw=0<cr> 
 " noremap q <nop>
 map <leader>q q
 nmap <m-7> :ZenMode<cr>:mksession!<cr>
 nnoremap <leader>rr :source $MYVIMRC<CR>
 "nnoremap <leader>e :NERDTreeFind<CR>
-nnoremap <leader>e :wa<cr>:Vifm<cr>
+nnoremap <leader>e :wa<cr>:Lf<cr>
 nnoremap <leader>t :wa<cr>:FloatermToggle<cr>
 nnoremap <c-,> :cprevious<cr>
 nnoremap <c-.> :cnext<cr> 
@@ -423,8 +435,10 @@ nnoremap dd "0dd:wa<cr>
 noremap c "0c
 noremap C "_C
 noremap x "_x
+" nnoremap v "+v
 vnoremap x "+x:wa<cr>
-vnoremap d "0d:wa<cr>
+vnoremap d "0d:wa<cr> 
+vnoremap c "0d:wa<cr>i
 vnoremap y "+y
 nnoremap y "+y
 nnoremap p "+p
@@ -444,10 +458,10 @@ nnoremap <c-h> :wa<cr>:bprevious<CR>
 " nnoremap > :tabn<CR>
 " nnoremap <leader>n :tabedit %<CR>
 imap <M-j> <C-j>
-map <S-m> <cmd>HopChar1<cr>$
+map <M-m> <cmd>HopChar1<cr>$
 " map <S-b> ?\$<CR>
-map <S-w> <cmd>HopChar1<cr>}
-map <S-b> <cmd>HopChar1<cr>{
+map <M-w> <cmd>HopChar1<cr>}
+map <M-b> <cmd>HopChar1<cr>{
 
 map <S-C-q> <Esc>:qa!<CR>
 map <m-q> <esc>:wq<cr>
@@ -468,7 +482,7 @@ noremap F ?
 "     execute 'normal! \<Plug>Sneak_s'
 "     syntax on
 " endfunction
- map <leader>n <Plug>Sneak_;
+ 
 " map N <Plug>Sneak_,
 " map t <Plug>(smalls-excursion)
 " let g:smalls_auto_jump=1
@@ -558,7 +572,8 @@ au FileType tex,text,md noremap map o gj0i<CR><ESC>gki
 map t <cmd>HopChar1AC<cr>
 map T <cmd>HopChar1BC<cr>
 map <m-.> <cmd>HopChar1<cr>.
-map <m-Space> <cmd>HopWord<cr>
+map <m-space> <cmd>HopWord<cr>
+" map <S-m-Space> <cmd>HopWord<cr>
 
 
 
@@ -579,14 +594,20 @@ noremap S <Esc> :wa<cr>:BLines<CR>
 "   K=bufname()
 "   normal viwhy<esc>:bdelete<cr>:buffer K<c-r>+<cr>:ZenMode<cr>
 " endfunction
+noremap <m-b> <Esc>:wa<cr>:Buffers<CR>
+" noremap F <Esc>:GFiles<CR>
+map <A-e> :wa<cr>:FZF ~<CR> 
+map <m-f> :wa<cr>:FZF ~<CR>
+
+
+" Latex stuff
+" 
 noremap <leader>ss :wa<cr>:source $MYVIMRC<cr> 
 noremap <c-e> viwy:cclose<cr>:<c-r>+<cr>:TZAtaraxis<cr><cr>
 noremap <c-p> :<c-r>+<cr>
 noremap <m-l> viwy:bdelete<cr>:execute "buffer" g:buf<cr>:<c-r>+<cr>:TZAtaraxis<cr><cr>
 " noremap <m-l> viwy<esc>:bp<cr>:<c-r>+<cr>
-noremap <m-b> <Esc>:wa<cr>:Buffers<CR>
-" noremap F <Esc>:GFiles<CR>
-map <A-e> :wa<cr>:FZF ~<CR>
+
 
 " vimtex settings
 "
@@ -665,14 +686,14 @@ let colnumber=col(".")
 let filename=bufname("%")
 let filenamePDF="./build/" . filename[:-4]."pdf"
 let execstr="silent !zathura --synctex-forward " . linenumber . ":" . colnumber . ":" . filename . " " . filenamePDF . " &>/dev/null &"
-" . "&>/dev/null &"   
+" . "&>/dev/null &"
 exec execstr
 execute "buffer" buf
 endfunction 
-nmap <leader>v :wa<cr>:call ViewPdf()<cr> 
+nmap <leader>v :wa<cr>:call ViewPdf()<cr>
 " nmap <leader>v :VimtexView<cr>
 " let  g:vimtex_fold_types_defaults = 'preamble, sections, comments'
-nmap <leader>l :wa<cr>:call CompileLatex()<cr> 
+nmap <leader>ll :wa<cr>:call CompileLatex()<cr>
 nmap <leader>cl :call ClearLatex()<cr>
 " nmap <leader>m :silent ! cp % backup;  pandoc  backup -s --webtex -o backup.html;  cp backup.html %<cr>:e %<cr>
 
@@ -709,12 +730,12 @@ let g:vifmUseCurrent=1
 
 "Autosave and autocommit   
 " let g:updatetime = 10000
-let g:auto_save = 0
+let g:auto_save = 1
 " .vimrc
 let g:auto_save_events = ["CursorHold"]
 "au FileType vim let g:autosave = 0
 let g:auto_save_in_insert_mode = 0
-let g:auto_save_silent = 0
+let g:auto_save_silent = 1
 
 "Git autocommit  (private git repo)
 
@@ -747,7 +768,7 @@ noremap <Leader>u :TZAtaraxisOff<cr>:wa<cr>:UndotreeToggle<CR>
 "source ~/.anyname  
 "au filetype tex filetype indent off
 "  GUI Stuff   
-command -nargs=? Guifont call rpcnotify(0, 'Gui', 'SetFont', "\<args\>") | let g:Guifont="<args>"
+" command -nargs=? Guifont call rpcnotify(0, 'Gui', 'SetFont', "\<args\>") | let g:Guifont="<args>"
 
 " Deoplete
 
@@ -763,53 +784,26 @@ lua <<EOF
 require'nvim-treesitter.configs'.setup { 
     --
     highlight = { enable = true },
-    incremental_selection = { enable = true },
+    incremental_selection = {
+    enable = true,
+    keymaps = {
+      init_selection = '<CR>',
+      scope_incremental = '<CR>',
+      node_incremental = '<TAB>',
+      node_decremental = '<S-TAB>',
+    },
+  },
     textobjects = { enable = true },
     indent = { enable = true }, 
 }
 EOF
 
-lua <<EOF
-require'nvim-treesitter.configs'.setup {
-  incremental_selection = {
-    enable = true,
-    keymaps = {
-      init_selection = "gnn",
-      node_incremental = "grn",
-      scope_incremental = "grc",
-      node_decremental = "grm",
-    },
-  },
-}
-EOF
+set foldmethod=expr foldexpr=getline(v:lnum)=~'^\s*'.&commentstring[0] 
 
-" lua <<EOF
-" require('neoscroll').setup{
-"     -- All these keys will be mapped to their corresponding default scrolling animation
-"     mappings = {'<C-u>', '<C-d>', '<C-b>', '<C-f>',
-"                 '<C-y>', '<C-e>', 'zt', 'zz', 'zb'},
-"     hide_cursor = true,          -- Hide cursor while scrolling
-"     stop_eof = true,             -- Stop at <EOF> when scrolling downwards
-"     use_local_scrolloff = false, -- Use the local scope of scrolloff instead of the global scope
-"     respect_scrolloff = false,   -- Stop scrolling when the cursor reaches the scrolloff margin of the file
-"     cursor_scrolls_alone = true, -- The cursor will keep on scrolling even if the window cannot scroll further
-"     easing_function = nil,        -- Default easing function
-"     pre_hook = nil,              -- Function to run before the scrolling animation starts
-"     post_hook = nil,              -- Function to run after the scrolling animation ends
-"     }
-" EOF
-" 
-" " set foldlevel=20
-" " set foldmethod=expr
-" " set foldexpr=nvim_treesitter#foldexpr()
-set foldmethod=expr foldexpr=getline(v:lnum)=~'^\s*'.&commentstring[0]
-" 
-" 
-" 
 " vsnip stuff 
 " Use <Tab> and <S-Tab> to navigate through popup menu
-inoremap <expr> <Tab> pumvisible() ? "\<C-n>" : "\<Tab>"
-inoremap <expr> <S-Tab> pumvisible() ? "\<C-p>" : "\<S-Tab>"
+" inoremap <expr> <Tab> pumvisible() ? "\<C-n>" : "\<Tab>"
+" inoremap <expr> <S-Tab> pumvisible() ? "\<C-p>" : "\<S-Tab>"
 
 " Set completeopt to have a better completion experience
 set completeopt=menuone,noinsert,noselect
@@ -826,8 +820,8 @@ let g:vsnip_snippet_dir = '~/dotfiles/snippets'
 " smap <expr> <m-space>   vsnip#available(1)  ? '<Plug>(vsnip-expand-or-jump)' : '<C-l>'
 
 " Jump forward or backward
-imap <expr> <M-j>   vsnip#jumpable(1)   ? '<Plug>(vsnip-jump-next)'      : '<Tab>'
-  smap <expr> <M-j>   vsnip#jumpable(1)   ? '<Plug>(vsnip-jump-next)'      : '<Tab>'
+imap <expr> <M-j>   vsnip#jumpable(1)   ? '<Plug>(vsnip-jump-next)'      : '<C-l>'
+  smap <expr> <M-j>   vsnip#jumpable(1)   ? '<Plug>(vsnip-jump-next)'      : '<C-l>'
 imap <expr> <M-k> vsnip#jumpable(-1)  ? '<Plug>(vsnip-jump-prev)'      : '<S-Tab>'
 smap <expr> <M-k> vsnip#jumpable(-1)  ? '<Plug>(vsnip-jump-prev)'      : '<S-Tab>'
 
@@ -951,9 +945,9 @@ mapping = {
       ['<CR>'] = cmp.mapping.confirm({ select = true }),
 -- ... Your other mappings ...
 ["<Tab>"] = cmp.mapping(function(fallback) 
-      if vim.fn["vsnip#available"]() == 1
+      if vim.fn["vsnip#expandable"]() == 1
         then
-        feedkey("<Plug>(vsnip-expand-or-jump)", "")
+        feedkey("<Plug>(vsnip-expand)", "")
      elseif cmp.visible() then
         cmp.select_next_item()
       elseif has_words_before() then 
@@ -1241,7 +1235,7 @@ require('spellsitter').setup {
   -- * vimfn: built-in spell checker using vim.fn.spellbadword()
   -- * ffi: built-in spell checker using the FFI to access the
   --   internal spell_check() function
-  spellchecker = 'vimfn',
+spellchecker = 'vimfn',
 }
 EOF
 let g:firenvim_config = { 
@@ -1258,6 +1252,11 @@ let g:firenvim_config = {
         \ },
     \ }
 \ }
+lua << EOF
+require('fzf-lua').setup{
+-- ...
+}
+EOF
 
 " lua << EOF
 " require("stabilize").setup(
@@ -1518,5 +1517,37 @@ let g:firenvim_config = {
 "           \ },
 "           \}
 
-" autocmd TermClose * if v:event == 12 || v:event == 0 bdelete endif
+"  TermClose * if v:event == 12 || v:event == 0 bdelete endif
+" lua <<EOF
+" require'nvim-treesitter.configs'.setup {
+"   incremental_selection = {
+"     enable = true,
+"     keymaps = {
+"       init_selection = "gnn",
+"       node_incremental = "grn",
+"       scope_incremental = "grc",
+"       node_decremental = "grm",
+"     },
+"   },
+" }
+" EOF
+" lua <<EOF
+" require('neoscroll').setup{
+"     -- All these keys will be mapped to their corresponding default scrolling animation
+"     mappings = {'<C-u>', '<C-d>', '<C-b>', '<C-f>',
+"                 '<C-y>', '<C-e>', 'zt', 'zz', 'zb'},
+"     hide_cursor = true,          -- Hide cursor while scrolling
+"     stop_eof = true,             -- Stop at <EOF> when scrolling downwards
+"     use_local_scrolloff = false, -- Use the local scope of scrolloff instead of the global scope
+"     respect_scrolloff = false,   -- Stop scrolling when the cursor reaches the scrolloff margin of the file
+"     cursor_scrolls_alone = true, -- The cursor will keep on scrolling even if the window cannot scroll further
+"     easing_function = nil,        -- Default easing function
+"     pre_hook = nil,              -- Function to run before the scrolling animation starts
+"     post_hook = nil,              -- Function to run after the scrolling animation ends
+"     }
+" EOF
+" 
+" " set foldlevel=20
+" " set foldmethod=expr
+" " set foldexpr=nvim_treesitter#foldexpr()
 

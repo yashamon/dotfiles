@@ -13,7 +13,7 @@ export XDG_CONFIG_HOME=$HOME/.config
 # export MANPATH="/usr/local/man:$MANPATH"
 # You may need to manually set your language environment
 export LANG=en_US.UTF-8  
-export PATH="$HOME/appimage:/home/linuxbrew/.linuxbrew/bin:/usr/local/bin:/usr/sbin:/sbin:/bin:$HOME/.local/bin:/root/.cabal/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:~/.cabal/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:~/.local/bin:~/.local:$HOME/.cargo/bin:/snap/bin:/data/data/com.termux/files/usr/bin/applets:/data/data/com.termux/files/usr/bin:bin:/usr/local/sbin:$HOME/.zinit/plugins:/usr/bin:$HOME/.local/share/nvim/lspinstall:$HOME/skia-binaries:$HOME/ninja"
+export PATH="$HOME/appimage:/home/linuxbrew/.linuxbrew/bin:/usr/local/bin:/usr/sbin:/sbin:/bin:$HOME/.local/bin:/root/.cabal/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:~/.cabal/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:~/.local/bin:~/.local:$HOME/.cargo/bin:/snap/bin:/data/data/com.termux/files/usr/bin/applets:/data/data/com.termux/files/usr/bin:bin:/usr/local/sbin:/usr/bin:$HOME/.local/share/nvim/lspinstall:$HOME/skia-binaries:$HOME/ninja"
 
 
 
@@ -22,7 +22,7 @@ export PATH="$HOME/appimage:/home/linuxbrew/.linuxbrew/bin:/usr/local/bin:/usr/s
  else
    export EDITOR='nvim'
  fi
-
+export vi="goneovim"
 
 bindkey -rpM viins '\e'
 
@@ -31,12 +31,16 @@ eval "$(fasd --init auto)"
 
 # alias nvim="/snap/bin/nvim"   
 # alias uapp="~/appimage/AppImageUpdate"
-alias wifi="sudo wifi-menu -o"
+alias rot="xrandr -o" 
+alias p="paru"
+alias wifi="sudo wifi-menu -o" 
+alias mod="xmodmap ~/.Xmodmap"
 alias tmux d="tmux detach" 
 alias svi="/snap/bin/nvim"
 alias nvr="nvr --servername $(<~/servername.txt) --remote-silent"
-alias vifmrc="nvim ~/.config/vifm/vifmrc" 
-alias ls="source ~/bin/vf" 
+alias vifmrc="nvim ~/.config/vifm/vifmrc"  
+alias lfrc="cd ~/.config/lf; goneovim lfrc"
+# alias ls="lf" 
 alias texi="pdflatex -file-line-error -synctex=1  -interaction=nonstopmode -recorder" 
 alias latexi="latexmk -g -pdf -file-line-error -synctex=1  -interaction=nonstopmode -recorder -f"
 alias pvc="latexmk -pdf -pvc -file-line-error -synctex=1  -interaction=nonstopmode -recorder -f"
@@ -72,7 +76,7 @@ alias cprc="cp /root/.zshrc /home/yasha/.zshrc"
 alias pacup="packer -Syu --devel"
 # alias vifm='source ~/bin/vf'
 alias vrc="cd ~/.config/nvim; neo init.vim"
-alias vifmrc="nvim ~/.config/vifm/vifmrc"
+alias vifmrc="cd ~/.config/vifm; neo vifmrc"
 alias snips="vi /root/dotfiles/vim/bundle/vim-snippets/UltiSnips/tex.snippets"
 alias src="source ~/.zshrc"
 #alias mux="tmux -f ~/.tmux-conf"
@@ -82,9 +86,10 @@ alias vis="rm /tmp/nvimsocket ; NVIM_LISTEN_ADDRESS=/tmp/nvimsocket nvim"
 # alias go= pslatex document.tex; dvips document.dvi; ps2pdf document.ps
 alias suru="su root; a"
 alias rec="recoll -q"
-alias vi="nvim"  
-alias gone="$HOME/.local/bin/gone/goneovim" 
-alias neo="$HOME/.local/bin/gone/goneovim"
+alias vi="nvim"   
+alias ping="ping www.google.com"
+alias gone="$HOME/.local/bin/goneovim" 
+alias neo="$HOME/.local/bin/goneovim"
 alias neov="$HOME/.local/bin/neovide --frameless --maximized --multigrid"
 alias update="git submodule update --init --recursive ; git pull origin master"
 alias chrome="chromium --user-data-dir /root"
@@ -96,7 +101,7 @@ xrandr -s 1920x1080"
 alias res3="xrandr --newmode "3440x1440_100.00"  728.00  3440 3728 4104 4768  1440 1443 1453 1527 -hsync +vsync; xrandr --addmode HDMI-1 "3440x1440.100.00";
 xrandr -s 3440x1440
 "
-alias config="cd ~/dotfiles/; push; cd ~/workspacemodules; pushmod; cd ~/workspace; push; cd web pushgh; pacman -Qqe > pkglist.txt"
+alias config="cd ~/dotfiles/; push; cd ~/workspacemodules; pushmod; cd ~/workspace; push; cd web pushgh; pacman -Qqe > $HOME/dotfiles/pkglist.txt"
 # alias apt="sudo apt-get install"
 # functions
 myfunction() {
@@ -136,6 +141,7 @@ pulseaudio --start"
 alias send=sendFunction
 alias tff="xinput disable 13"
 alias ton="xinput enable 13"
+alias ubuntu="sudo apt-get update; sudo apt-get upgrade"
 
 # set dual monitors
 dual () {
@@ -146,6 +152,7 @@ dual () {
 single () {
     xrandr --output HDMI-1 --off
 }
+export KEYTIMEOUT=1
 
 # alias vim="nvim"
 # export ZSH=$HOME/.oh-my-zsh
@@ -207,7 +214,9 @@ single () {
 # #          preexec () { print -rn -- $terminfo[el]; }
 # #          zle -N zle-line-init
 # #          zle -N zle-keymap-select
-# #     export KEYTIMEOUT=1
+# #
+# 
+# 
 # source $ZSH/oh-my-zsh.sh
 #
 # # User configuration
@@ -244,7 +253,6 @@ single () {
 alias chmodWork sudo chmod -R ~/workspacemodules
 export DISPLAY=:0.0
 alias wq='wmctrl -r 'Alacritty' -b toggle,fullscreen'
-alias ubuntu="sudo apt-get update; sudo apt-get upgrade"
 
 # VBoxClient-all
 # xrdb -merge ~/.Xresources
@@ -298,7 +306,13 @@ bindkey -M vicmd '<right>' autosuggest-accept
 bindkey -M vicmd 'E' autosuggest-execute
 
 zinit ice from"gh-r" as"program" bpick"*appimage*" ver"nightly" mv"nvim* -> $HOME/appimage/nvim" pick"nvim"
-zinit light neovim/neovim
+zinit light neovim/neovim  
+
+zinit ice from"gh-r" as"program" bpick"*appimage*" ver"continuous" mv"AppImageUpdate* -> $HOME/appimage/update" pick"update"
+zinit light AppImage/AppImageUpdate 
+
+
+
 #programs
 # zinit ice from"gh-r" as"program"
 # zinit light clvv/fasd
@@ -385,6 +399,64 @@ MODE_CURSOR_VISUAL="white block"
 MODE_CURSOR_VLINE="$MODE_CURSOR_VISUAL #00ffff"
 
 
+# lf stuff
+
+_zlf() {
+    emulate -L zsh
+    local d=$(mktemp -d) || return 1
+    {
+        mkfifo -m 600 $d/fifo || return 1
+        tmux split -bf zsh -c "exec {ZLE_FIFO}>$d/fifo; export ZLE_FIFO; exec lf" || return 1
+        local fd
+        exec {fd}<$d/fifo
+        zle -Fw $fd _zlf_handler
+    } always {
+        rm -rf $d
+    }
+}
+zle -N _zlf
+bindkey '\ek' _zlf
+
+_zlf_handler() {
+    emulate -L zsh
+    local line
+    if ! read -r line <&$1; then
+        zle -F $1
+        exec {1}<&-
+        return 1
+    fi
+    eval $line
+    zle -R
+}
+zle -N _zlf_handler 
+# Appends every command to the history file once it is executed
+setopt inc_append_history
+# Reloads the history whenever you use it
+setopt share_history
+setopt banghist
+setopt glob
+setopt GLOB_COMPLETE
+setopt auto_cd
+set shellopts '-euy'
+setopt INC_APPEND_HISTORY
+setopt hist_ignore_all_dups
+setopt HIST_REDUCE_BLANKS
+setopt HIST_VERIFY
+setopt CORRECT
+setopt CORRECT_ALL
+HISTFILE=~/dotfiles/zsh_history
+HISTSIZE=10000
+SAVEHIST=10000
+setopt appendhistory 
+zstyle ':completion:*:manuals'    separate-sections true
+zstyle ':completion:*:manuals.*'  insert-sections   true
+zstyle ':completion:*:man:*'      menu yes select
+# setxkbmap -option caps:escape 
+# # xmodmap -e "keycode 133 = Escape"   
+# xmodmap -e "keycode 37 = Control_L"   
+# xmodmap -e "keycode 151 = Control_L"  
+# xmodmap -e "remove control = Control_R" -e "add Mod3 = Control_R"
+# bindkey '"\C-o":"lfcd\C-m"'
 # source ~/.zplug/init.zsh
 # # # Make sure to use double quotes
 #  zplug "zsh-users/zsh-history-substring-search"
@@ -461,3 +533,15 @@ MODE_CURSOR_VLINE="$MODE_CURSOR_VISUAL #00ffff"
 # bindkey -M vicmd 'k' history-substring-search-up
 # bindkey -M vicmd 'j' history-substring-search-down
 # User configuration
+source "${XDG_CONFIG_HOME:-$HOME/.config}/lf-shellcd/lf-shellcd" 
+fmz() {
+    tmp=$(mktemp)
+    command fmz --cd "$tmp" "$@"
+    res=$(tail -n 1 "$tmp")
+    if [ -d "$res" ] && [ "$res" != "$PWD" ]; then
+        echo cd "$res"
+        cd "$res" || return 1
+    fi
+    rm "$tmp"
+}
+    

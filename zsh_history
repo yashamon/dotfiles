@@ -1,0 +1,170 @@
+journalctl
+sudo pacman -Ss blah
+vifm
+lcd
+trash-list
+sudo trash-list
+neovide  
+src  
+lfcd
+setopt
+emulate -lLR zsh
+src
+which lfcd
+lfcdn
+as;lkdjfa
+dotfiles
+zsh
+fish
+ping
+git reset HEAD~1
+git
+j /home/yasha/dotfiles
+git status
+git rm */google-chrome-beta
+git rm -r */google-chrome-beta
+git rm -r */firefox
+git rm -r */google-chrome
+push
+neo ~/.Xmodmap
+setxkbmap -option caps:escape &
+startx
+mod
+fd . $HOME -t d -H
+fd . $HOME -t d -H | fzf
+git clone --recursive git clone https://yashamon@bitbucket.org/yashamon/workspacemodules.git
+fd . $HOME -t d -H | fzf 2>/dev/tty | sed 's/\\/\\\\/g;s/"/\\"/g'
+fd . $HOME -t d -H | fzf 2>/dev/tty
+neo
+j /home/yasha/workspace/workspace
+git clone --recursive https://yashamon@bitbucket.org/yashamon/workspacemodules.git
+vrc
+j /home/yasha/workspacemodules/novikov
+git checkout master
+git pull
+neo kan.tex
+xinput get-button-map 'DLL07BF:01 06CB:7A13 Touchpad'
+xinput
+xinput get-button-map SynPS/2 Synaptics Touchpad
+xinput get-button-map 15
+xinput set-button-map 11 1 0 3 4 5 6 7
+xinput set-button-map 15 1 0 3 4 5 6 7
+vi ~/.xinitrc
+ls
+~~/.config/stpv/config.sh
+cd ~~/.config/stpv/config.sh
+paru -S fmz
+paru -Ss fmz
+perl-file-mimeinfo
+paru -S perl-file-mimeinfo
+git clone https://github.com/Naheel-Azawy/fmz.git
+git clone https://github.com/Naheel-Azawy/cp-p.git
+make install
+sudo make install
+paru -S exif-tool
+paru -Ss exif-tool
+paru -S perl-image-exiftool
+zrc
+lfrc
+lf
+fmz
+stpv demo.gif $H $W $X $Y $ID
+stpv demo.gif
+stpvimg --add $UID demo.gif
+stpvimg --add demo.gif
+: 1637711667:0;j /home/yasha/Downloads
+: 1637711730:0;ID=$$\
+stpvimg --listen $ID &\
+stpvimg --add $ID 1.png\
+stpvimg --add $ID 2.png $X $Y $W $H\
+stpvimg --clear $ID\
+stpvimg --end $ID
+: 1637711819:0;stpvimg
+: 1637711839:0;stpvimg --listen 0
+: 1637711893:0;lf
+: 1637711946:0;pip3 uninstall ueberzug
+: 1637711960:0;paru -Ss ueberzug
+: 1637711973:0;stpvimg --listen 0
+: 1637711984:0;lf
+: 1637712221:0;lfrc
+: 1637712312:0;lf
+: 1637712352:0;lfrc
+: 1637712485:0;lf
+: 1637712512:0;lfrc
+: 1637712579:0;lf
+: 1637712616:0;lfrc
+: 1637712650:0;lf
+: 1637712666:0;lfrc
+: 1637712767:0;lf
+: 1637712789:0;lfrc
+: 1637712852:0;lf
+: 1637712866:0;lfrc
+: 1637712950:0;lf
+: 1637712958:0;lfrc
+: 1637713006:0;lf
+: 1637713054:0;lfrc
+: 1637713094:0;lf
+: 1637713160:0;cp lfrc lfrcblah
+: 1637713163:0;ls
+: 1637713173:0;vi lfrcblah
+: 1637713181:0;lfcd
+: 1637713185:0;lfrc
+: 1637713255:0;lf
+: 1637713419:0;lfrc
+: 1637713454:0;lf
+: 1637713474:0;lfrc
+: 1637713485:0;lf
+: 1637713497:0;lfrc
+: 1637713511:0;lf
+: 1637713581:0;lfrc
+: 1637713591:0;lf
+: 1637713616:0;lfrc
+: 1637713626:0;lf
+: 1637713691:0;lfrc
+: 1637713715:0;lf
+: 1637713784:0;lfrc
+: 1637713809:0;lf
+: 1637715239:0;j /home/yasha/dotfiles
+: 1637715241:0;git status
+: 1637715274:0;lf
+: 1637715336:0;git status
+: 1637715359:0;lf
+: 1637715389:0;make install
+: 1637715392:0;sudo make install
+: 1637715429:0;lf
+: 1637715688:0;git rm --cached **/google-chrome-beta
+: 1637715692:0;git rm -r --cached **/google-chrome-beta
+: 1637715696:0;git rm -r --cached **/google-chrome
+: 1637715703:0;git rm -r --cached **/chromium
+: 1637715707:0;git rm -r --cached **/firefox
+: 1637715713:0;git status
+: 1637715765:0;push
+: 1637715814:0;git status --ignored
+: 1637715838:0;lf
+: 1637715964:0;lfrc
+: 1637716007:0;lf
+: 1637716254:0;git config --global core.excludesfile gitignore_global
+: 1637716272:0;git status --ignored
+: 1637716303:0;lf
+: 1637716316:0;lfrc
+: 1637716350:0;lf
+: 1637716380:0;git status --ignored
+: 1637716392:0;cd ..
+: 1637716397:0;git status --ignored
+: 1637716413:0;lf
+: 1637716501:0;sudo lf
+: 1637716633:0;lfrc
+: 1637716726:0;lf
+: 1637716895:0;trash-empty
+: 1637716910:0;sudo trash-empty
+: 1637716918:0;trash-list
+: 1637716923:0;sudo trash-list
+: 1637716924:0;lf
+: 1637716984:0;lfrc
+: 1637717140:0;lf
+: 1637717212:0;j /home/yasha/workspacemodules
+: 1637717215:0;git status
+: 1637717220:0;push
+: 1637717231:0;j /home/yasha/dotfiles
+: 1637717234:0;git status
+: 1637717244:0;push

@@ -1,8 +1,8 @@
 [Default Applications]
-x-scheme-handler/http=google-chrome-beta.desktop
-x-scheme-handler/https=google-chrome-beta.desktop
+x-scheme-handler/http=firefox.desktop
+x-scheme-handler/https=firefox.desktop
 x-scheme-handler/chrome=firefox.desktop
-text/html=google-chrome-beta.desktop
+text/html=firefox.desktop
 application/x-extension-htm=firefox.desktop
 application/x-extension-html=firefox.desktop
 application/x-extension-shtml=firefox.desktop
@@ -11,15 +11,15 @@ application/x-extension-xhtml=firefox.desktop
 application/x-extension-xht=firefox.desktop
 x-scheme-handler/about=google-chrome-beta.desktop
 x-scheme-handler/unknown=google-chrome-beta.desktop
+text/tex=goneovim.desktop
+text/text=goneovim.desktop
+text/txt=goneovim.desktop
+text/bib=goneovim.desktop
+BibTex/bib=goneovim.desktop
+BibTeX/bib=goneovim.desktop
 
 [Added Associations]
 x-scheme-handler/http=firefox.desktop;
 x-scheme-handler/https=firefox.desktop;
-x-scheme-handler/chrome=firefox.desktop;
 text/html=firefox.desktop;
-application/x-extension-htm=firefox.desktop;
-application/x-extension-html=firefox.desktop;
-application/x-extension-shtml=firefox.desktop;
-application/xhtml+xml=firefox.desktop;
-application/x-extension-xhtml=firefox.desktop;
-application/x-extension-xht=firefox.desktop;
+text/x-bibtex=goneovim.desktop;nvim.desktop;

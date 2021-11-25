@@ -6,9 +6,10 @@ set runexec
 command! extract extract %a %f %n
 command! extract! extract -f %a %f %n
 command ln ln -s %f:p %D
-command Q :execute '!echo %d > ~/.config/vifm/lastdir' | quit
+map q :execute '!echo %d > ~/.config/vifm/lastdir' | quit<cr> 
 command sacd sacd_extract -2 -s -c -i %f 
-noremap N :! ~/.local/bin/neovide --frameless --multigrid %f<cr>
+"/* noremap N :! ~/.local/bin/neovide --frameless --multigrid %f<cr> */ 
+noremap N :! goneovim %f<cr>
 command diff nvim -d %f %F
 command nautilus nautilus %f 
 command sacddir for f in */*.iso ; do sacd_extract -2 -s -c -i "$f" ; done
@@ -17,7 +18,20 @@ noremap t :tabnew<cr>
 noremap <A-l> gt
 noremap <A-h> Gt
 noremap e :edit<cr>
-map f / 
+map f /
+
+
+command! fzf :execute '!fzf 2>&0 %%IU' | normal! gf
+
+   
+command! FZFlocate : set noquickview
+                  \| let $FZF_PICK = term('find $HOME -type d | fzf --height 10 2>/dev/tty')
+                  \| if $FZF_PICK != ''
+                  \|     execute system('[ -f "$FZF_PICK" ] && echo goto || echo cd') fnameescape($FZF_PICK)
+                  \| endif
+
+map <C-f> :FZFlocate<cr>
+map <C-d> <C-g>
 map sh <esc>:sh<cr>
 map <m-q> <ESC>:execute '!echo %d > ~/.config/vifm/lastdir'| quit <CR>
 map F ?
@@ -41,7 +55,7 @@ filetype *.pdf,*.dvi,*.ps
 filetype *.djvu
        \ zathura %f  
 filetype *.md, *.tex, *.txt, *.sh
-       \ nvim %f
+       \ neo %f
 filetype *.fb2
        \ fbreader %f 
 filetype *.epub
@@ -56,7 +70,7 @@ filetype *.md5 md5sum -c %f
 " If you would like to use another vi clone such Elvis or Vile
 " you will need to change this setting.
 
-set vicmd=nvim
+set vicmd=goneovim
 " set vicmd=elvis\ -G\ termcap
 " set vicmd=vile
 
