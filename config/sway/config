@@ -3,7 +3,7 @@
 set $mod Mod4 
  # bindsym Mod1+tab exec focus next 
 bindsym $mod+tab next_on_output 
-bindsym $mod+Shift+tab workspace prev_on_output
+bindsym $mod+Shift+tab prev_on_output
 
 # [con_id=$(swaymsg -t get_tree | ~/.config/sway/alttab t)] focus
 bindsym Mod1+shift+tab exec swaymsg [con_id=$(swaymsg -t get_tree | ~/.config/sway/alttab f)] focus
