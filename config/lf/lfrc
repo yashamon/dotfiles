@@ -155,8 +155,8 @@ map gn %nvr --servername $(<~/servername.txt) --remote-silent $f
 # define a custom 'rename' command without prompt for overwrite
 cmd rename %[ -e $1 ] && printf "file exists" || mv $f $1 
 cmd cpmove %[ -e $1 ] && printf "file exists" || cp $fs $1
-map gp push :rename<space>
-
+map r push :rename<space>
+rename
 # make sure trash folder exists
 # %mkdir -p ~/.trash
 
