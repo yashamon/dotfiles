@@ -1,7 +1,8 @@
 ### Variables ###
 
 # Logo key
-set $mod Mod4
+set $mod Mod4 
+
 bindsym Mod1+Tab focus next
 # Home row direction keys, like vim
 set $left h
