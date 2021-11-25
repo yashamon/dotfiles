@@ -150,7 +150,7 @@ cmd open ${{
     esac
 }}
 map e :open 
-map n % $f
+map n %goneovim $f
 # define a custom 'rename' command without prompt for overwrite
 cmd rename %[ -e $1 ] && printf "file exists" || mv $f $1
 map r push :rename<space>
