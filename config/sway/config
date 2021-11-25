@@ -2,7 +2,7 @@
 
 # Logo key
 set $mod Mod4
-bindsym mod+Tab focus next
+bindsym Alt+Tab focus next
 # Home row direction keys, like vim
 set $left h
 set $down j
