@@ -1,7 +1,7 @@
 ### Variables ###
 # Logo key
 set $mod Mod4 
- bindsym Mod1+tab exec focus next 
+ # bindsym Mod1+tab exec focus next 
 bindsym $mod+tab workspace next_on_output 
 bindsym $mod+Shift+tab workspace prev_on_output
 
