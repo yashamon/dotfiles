@@ -462,6 +462,7 @@ map <M-b> <cmd>HopChar1<cr>{
 
 map <S-C-q> <Esc>:qa!<CR>
 map <m-q> <esc>:wq<cr> 
+map <m-q> <esc>:wq<cr>
 
 " map <S-m-q> <esc>:wq<cr> 
 map <m-c> <esc>:close<cr>
