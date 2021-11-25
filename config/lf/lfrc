@@ -155,7 +155,12 @@ map gn %nvr --servername $(<~/servername.txt) --remote-silent $f
 # define a custom 'rename' command without prompt for overwrite
 cmd rename %[ -e $1 ] && printf "file exists" || mv $f $1 
 cmd cpmove  ${{
-    cut   
+   file="$(fd . '/' -t d -H | fzf 2>/dev/tty | sed 's/\\/\\\\/g;s/"/\\"/g')"
+   if [ -d "$res" ]; then
+      cmd="cd"
+   else
+      cmd="select"
+   fi
  lf -remote "send $id $cmd \"$res\""
  }}
 
