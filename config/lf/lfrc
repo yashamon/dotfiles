@@ -161,7 +161,7 @@ set -- $(cat ~/.local/share/lf/files)
     case "$mode" in
         copy)
             rsync -a --no-compress -- "$@" .;;
-        move) mv -n -- "$@" .;; 
+        move) mv -n -- "$@" .;;
     esac
     rm ~/.local/share/lf/files
     lf -remote "send clear"  
