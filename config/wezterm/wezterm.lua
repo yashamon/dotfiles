@@ -46,7 +46,7 @@ color_scheme = "Solarized Dark - Patched",
    -- color_scheme = "Dark Matrix",
 exit_behavior = "Close",
 keys = {
-key="e", mods="CTRL|ALT",
+key="e", mods="CTRL|SHIFT",
       action=wezterm.action{EmitEvent="trigger-vim-with-scrollback"},
 
  {key="C", mods="ALT",
