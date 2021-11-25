@@ -35,7 +35,7 @@ set -- $(cat ~/.local/share/lf/files)
     case "$mode" in
         copy)
             rsync -a --no-compress --backup --ignore-existing -- "$@" .;;
-        move) mv -n --backup -- "$@" .;;
+        move) mv -n --backup -- "$@" .;; 
     esac
     rm ~/.local/share/lf/files
     lf -remote "send clear"  
