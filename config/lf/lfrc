@@ -172,7 +172,6 @@ set -- $(cat ~/.local/share/lf/files)
 
 cmd rename %[ -e $1 ] && printf "file exists" || mv $f $1 
  mv
-
 cmd cpmove %[ -e $1 ] && printf "file exists" || cpmove $f $1
 map r push :rename<space> 
 map gc push :cpmove<space>
