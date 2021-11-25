@@ -163,9 +163,9 @@ set -- $(cat ~/.local/share/lf/files)
     shift
     case "$mode" in
         copy)
-            cp -r --backup=t source target "$@" destination;;
+            cp -r --backup=t source target "$@" .;;
         move) 
-      mv -n -- "$@" destination;; 
+      mv -n--backup=t source target -- "$@" destination;; 
     esac
     rm ~/.local/share/lf/files
     lf -remote "send clear"  
