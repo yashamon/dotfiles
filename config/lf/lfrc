@@ -155,13 +155,14 @@ map gn %nvr --servername $(<~/servername.txt) --remote-silent $f
 # define a custom 'rename' command without prompt for overwrite 
 cmd spastename &{{
 set -- $(cat ~/.local/share/lf/files) 
-    destination = $(read )
+    destination = $(read varname)
     mode="$1"
     shift
     case "$mode" in
         copy)
             rsync -a --no-compress --ignore-existing -- "$@" .;;
-        move) mv -n -- "$@" .;; 
+        move) 
+      mv -n -- "$@" .;; 
     esac
     rm ~/.local/share/lf/files
     lf -remote "send clear"  
