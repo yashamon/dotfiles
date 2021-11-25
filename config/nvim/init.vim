@@ -259,7 +259,6 @@ au FileType vim,md colorscheme one
 " 
 au FileType tex,text,md silent execute "!echo " . v:servername . " > ~/servername.txt"    
 au VIMEnter silent execute "!echo " . v:servername . " > ~/servername.txt"   
-
 au FileType tex,text,md hi SpellBad cterm=undercurl
 au Filetype tex,text,md vmap q xi<CR><CR><CR><CR><ESC>kki/begin{comment}<cr><cr>/end{comment}<esc>kp
 au Filetype tex,text,md set tw=50
