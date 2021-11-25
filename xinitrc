@@ -1,9 +1,11 @@
 #!/bin/sh
 kitty & 
-[[ -f ~/.Xmodmap ]] && xmodmap ~/.Xmodmap 
-wait 10 &
-setxkbmap -option caps:escape & 
-xsetroot -cursor_name left_ptr &  
+# [[ -f ~/.Xmodmap ]] && xmodmap ~/.Xmodmap 
+setxkbmap -option "caps:swapescape" & 
+wait 1 &
+setxkbmap -option "ctrl:swap_rwin_rctl" & 
+wait 1 &
+xsetroot -cursor_name left_ptr &   
 /usr/sbin/xmodmap -e "keycode 37 = Control_L" &  
 /usr/sbin/xmodmap -e "keycode 151 = Control_L" & 
 /usr/sbin/xmodmap -e "remove control = Control_R" -e "add Mod3 = Control_R" &   

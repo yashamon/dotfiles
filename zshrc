@@ -13,7 +13,7 @@ export XDG_CONFIG_HOME=$HOME/.config
 # export MANPATH="/usr/local/man:$MANPATH"
 # You may need to manually set your language environment
 export LANG=en_US.UTF-8  
-export PATH="$HOME/appimage:/home/linuxbrew/.linuxbrew/bin:/usr/local/bin:/usr/sbin:/sbin:/bin:$HOME/.local/bin:/root/.cabal/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:~/.cabal/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:~/.local/bin:~/.local:$HOME/.cargo/bin:/snap/bin:/data/data/com.termux/files/usr/bin/applets:/data/data/com.termux/files/usr/bin:bin:/usr/local/sbin:/usr/bin:$HOME/.local/share/nvim/lspinstall:$HOME/skia-binaries:$HOME/ninja"
+export PATH="$HOME/sway-config/.config/sway/modules:$HOME/appimage:/home/linuxbrew/.linuxbrew/bin:/usr/local/bin:/usr/sbin:/sbin:/bin:$HOME/.local/bin:/root/.cabal/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:$HOME/.cabal/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:$HOME/.local/bin:$HOME/.local/bin/scripts:$HOME/.cargo/bin:/snap/bin:/data/data/com.termux/files/usr/bin/applets:/data/data/com.termux/files/usr/bin:bin:/usr/local/sbin:/usr/bin:$HOME/.local/share/nvim/lspinstall:$HOME/skia-binaries:$HOME/ninja"
 
 
 
@@ -289,7 +289,9 @@ zinit for \
          zdharma/history-search-multi-word \
     light-mode depth"1" \
                 romkatv/powerlevel10k 
-zinit light softmoth/zsh-vim-mode 
+zinit light softmoth/zsh-vim-mode  
+zinit light kutsan/zsh-system-clipboard 
+export ZSH_SYSTEM_CLIPBOARD_USE_WL_CLIPBOARD=true
 zinit light wookayin/fzf-fasd
 zinit ice wait'0'
 zinit ice light b4b4r07/enhancd
@@ -351,45 +353,45 @@ bindkey -rpM viins '\e'
 # zle -N vi-yank-x-selection
 # bindkey -a '^Y' vi-yank-x-selection
 
-function x11-clip-wrap-widgets() {
-    # NB: Assume we are the first wrapper and that we only wrap native widgets
-    # See zsh-autosuggestions.zsh for a more generic and more robust wrapper
-    local copy_or_paste=$1
-    shift
-
-    for widget in $@; do
-        # Ugh, zsh doesn't have closures
-        if [[ $copy_or_paste == "copy" ]]; then
-            eval "
-            function _x11-clip-wrapped-$widget() {
-                zle .$widget
-                xclip -in -selection clipboard <<<\$CUTBUFFER
-            }
-            "
-        else
-            eval "
-            function _x11-clip-wrapped-$widget() {
-                CUTBUFFER=\$(xclip -out -selection clipboard)
-                zle .$widget
-            }
-            "
-        fi
-
-        zle -N $widget _x11-clip-wrapped-$widget
-    done
-}
-
-
-local copy_widgets=(
-    vi-yank vi-yank-eol 
-)
-local paste_widgets=(
-    vi-put-{before,after}
-)
-
-# NB: can atm. only wrap native widgets
-x11-clip-wrap-widgets copy $copy_widgets
-x11-clip-wrap-widgets paste  $paste_widgets  
+# function x11-clip-wrap-widgets() {
+#     # NB: Assume we are the first wrapper and that we only wrap native widgets
+#     # See zsh-autosuggestions.zsh for a more generic and more robust wrapper
+#     local copy_or_paste=$1
+#     shift
+# 
+#     for widget in $@; do
+#         # Ugh, zsh doesn't have closures
+#         if [[ $copy_or_paste == "copy" ]]; then
+#             eval "
+#             function _x11-clip-wrapped-$widget() {
+#                 zle .$widget
+#                 xclip -in -selection clipboard <<<\$CUTBUFFER
+#             }
+#             "
+#         else
+#             eval "
+#             function _x11-clip-wrapped-$widget() {
+#                 CUTBUFFER=\$(xclip -out -selection clipboard)
+#                 zle .$widget
+#             }
+#             "
+#         fi
+# 
+#         zle -N $widget _x11-clip-wrapped-$widget
+#     done
+# }
+# 
+# 
+# local copy_widgets=(
+#     vi-yank vi-yank-eol 
+# )
+# local paste_widgets=(
+#     vi-put-{before,after}
+# )
+# 
+# # NB: can atm. only wrap native widgets
+# x11-clip-wrap-widgets copy $copy_widgets
+# x11-clip-wrap-widgets paste  $paste_widgets  
 
 MODE_CURSOR_VIINS="#00ff00 blinking bar"
 MODE_CURSOR_REPLACE="$MODE_CURSOR_VIINS #ff0000"
@@ -433,7 +435,18 @@ zle -N _zlf_handler
 setopt inc_append_history
 # Reloads the history whenever you use it
 setopt share_history
-setopt banghist
+setopt banghist  
+setopt correct                                                  # Auto correct mistakes
+setopt extendedglob                                             # Extended globbing. Allows using regular expressions with *
+setopt nocaseglob                                               # Case insensitive globbing
+setopt rcexpandparam                                            # Array expension with parameters
+setopt nocheckjobs                                              # Don't warn about running processes when exiting
+setopt numericglobsort                                          # Sort filenames numerically when it makes sense
+setopt nobeep                                                   # No beep
+setopt appendhistory                                            # Immediately append history instead of overwriting
+setopt histignorealldups                                        # If a new command is a duplicate, remove the older one
+setopt autocd                                          
+unsetopt BEEP
 setopt glob
 setopt GLOB_COMPLETE
 setopt auto_cd

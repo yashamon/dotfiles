@@ -2,55 +2,39 @@ journalctl
 sudo pacman -Ss blah
 vifm
 lcd
-trash-list
-sudo trash-list
 neovide  
 src  
-lfcd
 setopt
 emulate -lLR zsh
-src
 which lfcd
 lfcdn
 as;lkdjfa
 dotfiles
 zsh
 fish
-ping
 git reset HEAD~1
 git
-j /home/yasha/dotfiles
-git status
 git rm */google-chrome-beta
 git rm -r */google-chrome-beta
 git rm -r */firefox
 git rm -r */google-chrome
-push
 neo ~/.Xmodmap
 setxkbmap -option caps:escape &
-startx
-mod
 fd . $HOME -t d -H
 fd . $HOME -t d -H | fzf
 git clone --recursive git clone https://yashamon@bitbucket.org/yashamon/workspacemodules.git
 fd . $HOME -t d -H | fzf 2>/dev/tty | sed 's/\\/\\\\/g;s/"/\\"/g'
 fd . $HOME -t d -H | fzf 2>/dev/tty
-neo
 j /home/yasha/workspace/workspace
 git clone --recursive https://yashamon@bitbucket.org/yashamon/workspacemodules.git
-vrc
-j /home/yasha/workspacemodules/novikov
 git checkout master
 git pull
-neo kan.tex
 xinput get-button-map 'DLL07BF:01 06CB:7A13 Touchpad'
 xinput
 xinput get-button-map SynPS/2 Synaptics Touchpad
 xinput get-button-map 15
 xinput set-button-map 11 1 0 3 4 5 6 7
 xinput set-button-map 15 1 0 3 4 5 6 7
-vi ~/.xinitrc
-ls
 ~~/.config/stpv/config.sh
 cd ~~/.config/stpv/config.sh
 paru -S fmz
@@ -59,112 +43,256 @@ perl-file-mimeinfo
 paru -S perl-file-mimeinfo
 git clone https://github.com/Naheel-Azawy/fmz.git
 git clone https://github.com/Naheel-Azawy/cp-p.git
-make install
-sudo make install
 paru -S exif-tool
 paru -Ss exif-tool
 paru -S perl-image-exiftool
-zrc
-lfrc
-lf
 fmz
 stpv demo.gif $H $W $X $Y $ID
 stpv demo.gif
 stpvimg --add $UID demo.gif
 stpvimg --add demo.gif
-: 1637711667:0;j /home/yasha/Downloads
-: 1637711730:0;ID=$$\
+j /home/yasha/Downloads
+ID=$$\
 stpvimg --listen $ID &\
 stpvimg --add $ID 1.png\
 stpvimg --add $ID 2.png $X $Y $W $H\
 stpvimg --clear $ID\
 stpvimg --end $ID
-: 1637711819:0;stpvimg
-: 1637711839:0;stpvimg --listen 0
-: 1637711893:0;lf
-: 1637711946:0;pip3 uninstall ueberzug
-: 1637711960:0;paru -Ss ueberzug
-: 1637711973:0;stpvimg --listen 0
-: 1637711984:0;lf
-: 1637712221:0;lfrc
-: 1637712312:0;lf
-: 1637712352:0;lfrc
-: 1637712485:0;lf
-: 1637712512:0;lfrc
-: 1637712579:0;lf
-: 1637712616:0;lfrc
-: 1637712650:0;lf
-: 1637712666:0;lfrc
-: 1637712767:0;lf
-: 1637712789:0;lfrc
-: 1637712852:0;lf
-: 1637712866:0;lfrc
-: 1637712950:0;lf
-: 1637712958:0;lfrc
-: 1637713006:0;lf
-: 1637713054:0;lfrc
-: 1637713094:0;lf
-: 1637713160:0;cp lfrc lfrcblah
-: 1637713163:0;ls
-: 1637713173:0;vi lfrcblah
-: 1637713181:0;lfcd
-: 1637713185:0;lfrc
-: 1637713255:0;lf
-: 1637713419:0;lfrc
-: 1637713454:0;lf
-: 1637713474:0;lfrc
-: 1637713485:0;lf
-: 1637713497:0;lfrc
-: 1637713511:0;lf
-: 1637713581:0;lfrc
-: 1637713591:0;lf
-: 1637713616:0;lfrc
-: 1637713626:0;lf
-: 1637713691:0;lfrc
-: 1637713715:0;lf
-: 1637713784:0;lfrc
-: 1637713809:0;lf
-: 1637715239:0;j /home/yasha/dotfiles
-: 1637715241:0;git status
-: 1637715274:0;lf
-: 1637715336:0;git status
-: 1637715359:0;lf
-: 1637715389:0;make install
-: 1637715392:0;sudo make install
-: 1637715429:0;lf
-: 1637715688:0;git rm --cached **/google-chrome-beta
-: 1637715692:0;git rm -r --cached **/google-chrome-beta
-: 1637715696:0;git rm -r --cached **/google-chrome
-: 1637715703:0;git rm -r --cached **/chromium
-: 1637715707:0;git rm -r --cached **/firefox
-: 1637715713:0;git status
-: 1637715765:0;push
-: 1637715814:0;git status --ignored
-: 1637715838:0;lf
-: 1637715964:0;lfrc
-: 1637716007:0;lf
-: 1637716254:0;git config --global core.excludesfile gitignore_global
-: 1637716272:0;git status --ignored
-: 1637716303:0;lf
-: 1637716316:0;lfrc
-: 1637716350:0;lf
-: 1637716380:0;git status --ignored
-: 1637716392:0;cd ..
-: 1637716397:0;git status --ignored
-: 1637716413:0;lf
-: 1637716501:0;sudo lf
-: 1637716633:0;lfrc
-: 1637716726:0;lf
-: 1637716895:0;trash-empty
-: 1637716910:0;sudo trash-empty
-: 1637716918:0;trash-list
-: 1637716923:0;sudo trash-list
-: 1637716924:0;lf
-: 1637716984:0;lfrc
-: 1637717140:0;lf
-: 1637717212:0;j /home/yasha/workspacemodules
-: 1637717215:0;git status
-: 1637717220:0;push
-: 1637717231:0;j /home/yasha/dotfiles
-: 1637717234:0;git status
-: 1637717244:0;push
+stpvimg
+pip3 uninstall ueberzug
+paru -Ss ueberzug
+stpvimg --listen 0
+cp lfrc lfrcblah
+vi lfrcblah
+lfcd
+make install
+sudo make install
+git rm --cached **/google-chrome-beta
+git rm -r --cached **/google-chrome-beta
+git rm -r --cached **/google-chrome
+git rm -r --cached **/chromium
+git rm -r --cached **/firefox
+git config --global core.excludesfile gitignore_global
+git status --ignored
+trash-empty
+sudo trash-empty
+trash-list
+sudo trash-list
+lfrc
+j /home/yasha/dotfiles
+git status
+push
+$ ranger --copy-config=all
+ranger --copy-config=all
+RANGER_LOAD_DEFAULT_RC=FALSE
+export RANGER_LOAD_DEFAULT_RC=FALSE
+ranger
+git clone https://github.com/tadosappo/nasskan.git\
+cd nasskan\
+\
+cargo build --release\
+cp target/release/nasskan /usr/bin/\
+cp nasskan.service /etc/systemd/system/\
+systemctl enable --now nasskan
+cd ..
+sudo mkdir nasskan
+sudo lf
+xmonad --recompile
+xmonad --restart
+mod
+setxkbmap -option ctrl:swap_rwin_rctl
+setxkbmap -option ctrl:swap_rwin_rctl\
+ption "caps:swapescape"
+setxkbmap -option ctrl:swap_rwin_rctl\
+ption "caps:swapescape"\
+ption "caps:swapescape"
+uapp
+j /home/yasha/appimage
+nvim
+neo kan.tex
+j /home/yasha/workspacemodules/novikov
+neovide blah.tex
+vrc
+neov blah.tex
+shutdown
+gdm
+sudo gdm
+
+vi ~/.Xmodmap
+vi ~/.Xsetxkbmap -option "caps:swapescape" &\
+ption "caps:swapescape" &\
+setxkbmap -option "ctrl:swap_rwin_rctl" &modmap
+setxkbmap -option "ctrl:swap_rwin_rctl" &
+setxkbmap -option "ctrl:swap_rwin_rctl"
+setxkbmap -option "caps:swapescape"
+asdf
+./keys
+neo keys
+trash-restore
+which uapp
+trash-restore /
+trash-list /
+trash-list --trash-dir /
+trash-list --trash-dir '/'
+sudo swaymsg -t get_inputs
+nm-tui
+paru -S nm-tui
+paru -Ss nm-tui
+paru -Ss nmtui
+netctl status Paco
+systemctl status netctl-auto
+systemctl status netctl-auto@wpl0.service
+netctl stop Paco
+netctl stop wlan0
+systemctl start networkmanager.service
+systemctl start networkmanager
+sudo pacman -S networkmanager
+systemctl start NetworkManager.service
+nmtui
+systemctl stop NetworkManager.service
+ping
+netctl disable Paco
+sudo netctl disable Paco
+sudo netctl disable Yasha
+keys
+paru -S i3status
+exit
+quit
+sway
+exec sway
+neo
+paru -S waybar
+neo config
+paru -S fontawesome
+paru -Ss fontawesome
+sudo paru -S ttf-font-awesome
+sudo paru -Ss ttf-font-cantarell
+sudo paru -Ss cantarell
+ynPS/2 Synaptics TouchPad
+swaymsg -t get_inputs
+paru -S i3ipc-python
+python transparency.py
+feh --bgscale ~/Downloads/johannes-plenio-RwHv7LgeC7s-unsplash.jpGYTHON TRANSPARENCY.PY
+vi ~/.xinitrc
+feh --bg-scale ~/Downloads/johannes-plenio-RwHv7LgeC7s-unsplash.jpGYTHON TRANSPARENCY.PY
+feh --bg-scale ~/Downloads/johannes-plenio-RwHv7LgeC7s-unsplash.jp
+feh
+feh --bg-scale ~/Downloads/johannes-plenio-RwHv7LgeC7s-unsplash.jpg
+feh ~/Downloads/johannes-plenio-RwHv7LgeC7s-unsplash.jpg
+/home/yasha/dotfiles/config/sway/modules/transparency.py/home/yasha/dotfiles/config/sway/modules/transparency.py\
+n ....
+wl-copy blah
+rotatesway
+paru -S redshift
+python alttab next
+j /home/yasha/workspacemodules
+./alttab next
+alttab next
+paru -S --aur sway-alttab-bin
+paru -S web
+paru -S wev
+wev
+sway alttab
+sway-alttab
+top
+htop
+rot
+rotx
+python3 rotx
+systemctl start gdm
+swaymsg -t get_tree | ~/.config/sway/alttab T
+j sway
+ls
+chmod +x alttab
+swaymsg -t get_tree | ~/.config/sway/alttab t
+swaymsg -t get_tree | ~/.config/sway/alttab t focus
+swaymsg -t get_tree
+\
+rkspace next_on_outpuT
+src
+lf
+wl-pate
+zrc
+wl-paste
+\
+-vim -vim
+reboot
+startx
+: 1637809452:0;systemctl start gdm
+: 1637809481:0;j /home/yasha/dotfiles/scripts
+: 1637809482:0;ls
+: 1637809492:0;rotatesway
+: 1637809629:0;s-p age-intentionally-left-blank.org
+: 1637809694:0;lf
+: 1637809766:0;j /home/yasha/dotfiles/scripts
+: 1637809767:0;ls
+: 1637810100:0;swaymsg focus fullscreen
+: 1637810124:0;swaymsg focus next fullscreen
+: 1637810141:0;swaymsg focus next | fullscreen
+: 1637810145:0;swaymsg focus next
+: 1637810153:0;swaymsg focus next fullscreen
+: 1637810299:0;swaymsg -t get inputs
+: 1637810306:0;swaymsg -t get_inputs
+: 1637810491:0;wl-paste
+: 1637810649:0;\
+swaymsg input 1386:230:Wacom_Pen_and_multitouch_sensor_Pen map_to_output eDP1
+: 1637810670:0;\
+swaymsg input 1386:20666:Wacom_Pen_and_multitouch_sensor_Pen map_to_output eDP1
+: 1637810699:0;wl-paste
+: 1637810798:0;swaymsg -t get_outputs
+: 1637810806:0;\
+swaymsg input 1386:20666:Wacom_Pen_and_multitouch_sensor_Pen map_to_output eDP-1
+: 1637810924:0;lf
+: 1637811042:0;transparancy.py
+: 1637811052:0;j /home/yasha/dotfiles/scripts
+: 1637811054:0;lf
+: 1637811126:0;transparency.py
+: 1637811132:0;python3 transparency.py
+: 1637811139:0;which transparency.py
+: 1637811191:0;which transparency
+: 1637811273:0;python /home/yasha/dotfiles/config/sway/modules/transparency.py
+: 1637811444:0;sudo paru -S wezterm
+: 1637811469:0;ng
+: 1637811518:0;wezterm
+: 1637811973:0;lf
+: 1637812156:0;swaymsg -t get_outputs
+: 1637812274:0;reboot
+: 1637812402:0;zsh
+: 1637812413:0;systemctl start gdm
+: 1637812466:0;python /home/yasha/dotfiles/config/sway/modules/transparency.py
+: 1637812509:0;lf
+: 1637812751:0;wezterm
+: 1637812843:0;klj
+: 1637812861:0;sdf
+: 1637812901:0;wezterm
+: 1637815728:0;startup
+: 1637815828:0;wl-paste
+: 1637815879:0;swaymsg -t get_outputs
+: 1637816093:0;redshift
+: 1637816166:0;rotatesway
+: 1637816270:0;\
+
+: 1637816372:0;\
+swaymsg input 1386:20666:Wacom_Pen_and_multitouch_sensor_Pen map_to_output eDP-1
+: 1637816398:0;swaymsg -t get_inputs
+: 1637816461:0;\
+swaymsg input 1386:20666:Wacom_Pen_and_multitouch_sensor_Finger map_to_output eDP-1\
+
+: 1637817063:0;lf
+: 1637817132:0;systemctl enable gdm
+: 1637817185:0;paru -S strace
+: 1637817207:0;neo
+: 1637817287:0;gtk
+: 1637817303:0;gitk
+: 1637818408:0;vrc
+: 1637818451:0;lf
+: 1637818553:0;neo config
+: 1637818557:0;lf
+: 1637819389:0;wev
+: 1637819549:0;netctl start Paco
+: 1637819581:0;netctl status Paco
+: 1637819600:0;dhclient
+: 1637819603:0;sudo dhclient
+: 1637819639:0;reboot
+: 1637820700:0;rotatesway
+: 1637820796:0;config
