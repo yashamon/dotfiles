@@ -343,7 +343,7 @@ bar {
 #     status_command while date +'%Y-%m-%d %l:%M:%S %p'; do sleep 1; done
 
 # startup 
-swaymsg input 1386:20666:Wacom_Pen_and_multitouch_sensor_Pen map_to_output eDP-1
+exec swaymsg input 1386:20666:Wacom_Pen_and_multitouch_sensor_Pen map_to_output eDP-1
 output "*" bg ~/Downloads/johannes-plenio-RwHv7LgeC7s-unsplash.jpg fill
  
 exec sleep 1 ; python /home/yasha/dotfiles/config/sway/modules/transparency.py/home/yasha/dotfiles/config/sway/modules/transparency.py 
