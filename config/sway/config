@@ -87,8 +87,6 @@ floating_modifier $mod normal
 assign [app_id="firefox"] workspace 2  
 assign [app_id="Google-chrome-beta"] workspace 2
 assign [app_id="goneovim"] workspace 1  
-
-goneovim
 # workspace 2
 
 assign [app_id="telegramdesktop"] workspace 7
