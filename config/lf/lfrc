@@ -177,7 +177,7 @@ cmd rename %[ -e $1 ] && printf "file exists" || mv $f $1
 cmd cpmove %[ -e $destination ] && printf "file exists" || spastename $f $1
 
 map r push :rename<space> 
- map gc :spastename
+map gc :spastename
 
 # make sure trash folder exists
 # %mkdir -p ~/.trash
