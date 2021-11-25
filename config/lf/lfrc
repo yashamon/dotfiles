@@ -154,20 +154,6 @@ map n %goneovim $f
 map gn %nvr --servername $(<~/servername.txt) --remote-silent $f
 # define a custom 'rename' command without prompt for overwrite
 cmd rename %[ -e $1 ] && printf "file exists" || mv $f $1 
-cmd cpmove &{{
-set -- $(cat ~/.local/share/lf/files)
-    mode="$1"
-    shift
-    case "$mode" in
-        copy)
-            rsync -a --no-compress --ignore-existing -- "$@" .;;
-        move) mv -n -- "$@" .;; 
-    esac
-    rm ~/.local/share/lf/files
-    lf -remote "send clear"  
-    lf -remote "send reload" 
-    lf -remote "send echomsg "copysucess""
-}}
  
 
 
