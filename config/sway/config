@@ -2,10 +2,10 @@
 
 # Logo key
 set $mod Mod4
-bindsym --to-code Mod1+tab exec ~/.config/sway/modules/alttab next 
-# bindsym $mod+tab exec ~/.config/sway/modules/alttab next
-
-bindsym --to-code Mod1+shift+tab exec alttab prev
+# bindsym --to-code Mod1+tab exec ~/.config/sway/modules/alttab next 
+# # bindsym $mod+tab exec ~/.config/sway/modules/alttab next
+# 
+# bindsym --to-code Mod1+shift+tab exec alttab prev
 # Home row direction keys, like vim
 set $left h
 set $down j
