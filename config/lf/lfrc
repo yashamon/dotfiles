@@ -156,9 +156,6 @@ map gn %nvr --servername $(<~/servername.txt) --remote-silent $f
 cmd rename %[ -e $1 ] && printf "file exists" || mv $f $1 
 cmd cpmove  ${{
    file="$(echo $f)"
-      cmd="cd"
-   else
-      cmd="select"
    fi
  lf -remote "send $id $cmd \"$res\""
  }}
