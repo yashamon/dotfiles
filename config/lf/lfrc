@@ -145,12 +145,12 @@ map O $mimeopen --ask $f
 cmd open ${{
     test -L $f && f=$(readlink -f $f)
     case $(file --mime-type $f -b) in
-        text/*)  $fx;;
+        text/*) nvim $fx;;
         *) for f in $fx; do setsid $OPENER $f > /dev/null 2> /dev/null & done;;
     esac
 }}
 map e :open 
-map n %set -f; ~/.local/bin/scripts/nvr.sh $f
+map n %set -f; /.local/bin/scripts/nvr.sh $f
 # define a custom 'rename' command without prompt for overwrite
 cmd rename %[ -e $1 ] && printf "file exists" || mv $f $1
 map r push :rename<space>
