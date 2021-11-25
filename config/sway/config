@@ -1,6 +1,6 @@
 ### Variables ###
 bindsym Mod1+tab exec swaymsg [con_id=$(swaymsg 
--t get_tree | alttalttab t)] focus
+-t get_tree | ~/.config/sway/alttab t)] focus
 bindsym Mod1+shift+tab exec swaymsg [con_id=$(swaymsg -t get_tree | ~/.config/sway/alttab f)] focus
 # Logo key
 set $mod Mod4
