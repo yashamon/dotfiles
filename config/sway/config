@@ -2,8 +2,7 @@
 # Logo key
 set $mod Mod4 
 bindsym Mod1+tab exec swaymsg [con_id=$(swaymsg -t get_tree | ~/.config/sway/alttab t)] focus fullscreen
-bindsym Mod1+shift+tab exec swaymsg 
-[con_id=$(swaymsg -t get_tree | ~/.config/sway/alttab f)] focus fullscreen
+bindsym Mod1+shift+tab exec swaymsg [con_id=$(swaymsg -t get_tree | ~/.config/sway/alttab f)] focus fullscreen
 #  bindsym  Mod1+Tab exec ~/.config/sway/modules/alttab next 
 # # # bindsym $mod+tab exec ~/.config/sway/modules/alttab next
 # # 
@@ -182,7 +181,7 @@ bindsym --to-code $mod+Ctrl+Print exec grim -g "$(slurp)" ~/Pictures/screenshots
     
 # Take a screenshot of focused window
 bindsym --to-code $mod+Ctrl+Shift+Print exec grim -g "$(swaymsg -t get_tree | jq -r '.. | select(.focused?) | .rect | "\(.x),\(.y) \(.width)x\(.height)"')" ~/Pictures/screenshot-"$(date +%s)".png && notify-send "Screenshot of active window saved to folder"
-
+swaymsg input 1386:20666:Wacom_Pen_and_multitouch_sensor_Pen map_to_output eDP-1
 # Move your focus around
 bindsym --to-code $mod+$left focus left
 bindsym --to-code $mod+$down focus down
