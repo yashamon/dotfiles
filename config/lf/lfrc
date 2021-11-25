@@ -171,10 +171,9 @@ set -- $(cat ~/.local/share/lf/files)
 }}
 
 cmd rename %[ -e $1 ] && printf "file exists" || mv $f $1 
-cmd spastename 
 
 map r push :rename<space> 
-map gc push :cpmove<space>
+map gc push :spaste<space>
 
 # make sure trash folder exists
 # %mkdir -p ~/.trash
