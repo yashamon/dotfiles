@@ -25,7 +25,7 @@ set $ws7 7
 set $locker swaylock-fancy
 
 # Terminal emulator
-set $term kitty
+set $term wezterm
 
 # Application launcher
 set $menu 'bemunu -n'
