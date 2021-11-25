@@ -153,7 +153,7 @@ map e :open
 map n %goneovim $f 
 map gn %nvr --servername $(<~/servername.txt) --remote-silent $f
 # define a custom 'rename' command without prompt for overwrite
-cmd rename %[ -e $1 ] && printf "file exists" || cpmove $1
+cmd rename %[ -e $1 ] && printf "file exists" || cpmove  $1
 cmd cpmove &{{
 set -- $(cat ~/.local/share/lf/files)
     mode="$1"
