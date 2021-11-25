@@ -163,7 +163,7 @@ set -- $(cat ~/.local/share/lf/files)
     shift
     case "$mode" in
         copy)
-            cp -r --backup=t source target "$@" .;;
+            cp -r --backup=t target "$@" .;;
         move) 
       mv -n --backup=t source target "$@" .;;
     esac
