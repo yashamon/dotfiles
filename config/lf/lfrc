@@ -169,7 +169,6 @@ set -- $(cat ~/.local/share/lf/files)
     lf -remote "send echomsg "copysucess""
 }}
  
-
 %[ -e $1 ] && printf "file exists" || cp $f $1
 map r push :rename<space> 
 map gc push :cpmove<space>
