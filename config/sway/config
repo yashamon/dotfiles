@@ -2,7 +2,7 @@
 # Logo key
 set $mod Mod4 
 bindsym Mod1+tab exec swaymsg [con_id=$(swaymsg -t get_tree | ~/.config/sway/alttab t)] focus
-bindsym +shift+tab exec swaymsg [con_id=$(swaymsg -t get_tree | ~/.config/sway/alttab f)] focus
+bindsym Mod1+shift+tab exec swaymsg [con_id=$(swaymsg -t get_tree | ~/.config/sway/alttab f)] focus
 #  bindsym  Mod1+Tab exec ~/.config/sway/modules/alttab next 
 # # # bindsym $mod+tab exec ~/.config/sway/modules/alttab next
 # # 
