@@ -48,7 +48,7 @@ set -- $(cat ~/.local/share/lf/files)
 cmd namepaste $cp-p --lf-paste $id  
 # map gc :namepaste
 map p :spaste
-map gp :paste 
+map gp :paste
 cmd findfile ${{
    res="$(fd . $HOME -H | fzf 2>/dev/tty | sed 's/\\/\\\\/g;s/"/\\"/g')"
    if [ -d "$res" ]; then
