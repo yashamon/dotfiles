@@ -65,8 +65,7 @@ input "1:1:AT_Translated_Set_2_keyboard" {
     xkb_layout us
     xkb_options "caps:swapescape,ctrl:swap_rwin_rctl"
 }
-input "1241:41165:USB_Keyboard
-" {
+input "1241:41165:USB_Keyboard" {
     xkb_layout us
     xkb_options "caps:swapescape,ctrl:swap_rwin_rctl"
 }
