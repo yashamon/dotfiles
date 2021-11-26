@@ -178,7 +178,7 @@ set spelllang=en
      au UIEnter set lines=50 
      au UIEnter set columns=50
  else
- " autocmd VimEnter * TZAtaraxis
+  autocmd VimEnter * TZAtaraxis
  endif
 set timeoutlen=0
 au VIMEnter * let g:surround_108 = {
