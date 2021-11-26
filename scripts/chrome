@@ -1,2 +1,2 @@
 #!/usr/bin/env sh
-google-chrome-beta --enable-features=UseOzonePlatform --ozone-platform=wayland
+
