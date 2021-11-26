@@ -5,27 +5,11 @@ if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]
 source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
 fi 
 
-
-export MANPAGER='nvim +Man!'
-export ANDROID_HOME=/root/android-sdk-linux
-export LANG=en_US.UTF-8
-export XDG_CONFIG_HOME=$HOME/.config
-# export MANPATH="/usr/local/man:$MANPATH"
-# You may need to manually set your language environment
-export LANG=en_US.UTF-8  
-export PATH="$HOME/sway-config/.config/sway/modules:$HOME/appimage:/home/linuxbrew/.linuxbrew/bin:/usr/local/bin:/usr/sbin:/sbin:/bin:$HOME/.local/bin:/root/.cabal/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:$HOME/.cabal/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:$HOME/.local/bin:$HOME/.local/bin/scripts:$HOME/.cargo/bin:/snap/bin:/data/data/com.termux/files/usr/bin/applets:/data/data/com.termux/files/usr/bin:bin:/usr/local/sbin:/usr/bin:$HOME/.local/share/nvim/lspinstall:$HOME/skia-binaries:$HOME/ninja"
+export MOZ_ENABLE_WAYLAND=1 firefox
 
 
-
- if [[ -n $SSH_CONNECTION ]]; then
-   export EDITOR='nvim'
- else
-   export EDITOR='nvim'
- fi
-export vi="goneovim"
 
 bindkey -rpM viins '\e'
-
 eval "$(fasd --init auto)"
 #
 
@@ -38,7 +22,9 @@ alias mod="xmodmap ~/.Xmodmap"
 alias tmux d="tmux detach" 
 alias svi="/snap/bin/nvim"
 alias nvr="nvr --servername $(<~/servername.txt) --remote-silent"
-alias vifmrc="nvim ~/.config/vifm/vifmrc"  
+alias vifmrc="goneovim ~/.config/vifm/vifmrc"   
+alias swrc="goneovim ~/.config/sway/config"  
+
 alias lfrc="cd ~/.config/lf; goneovim lfrc"
 # alias ls="lf" 
 alias texi="pdflatex -file-line-error -synctex=1  -interaction=nonstopmode -recorder" 
@@ -70,13 +56,13 @@ alias j="z"
 # alias fzf="/root/dotfiles\vim\bundle\fzf"
 alias pcm="sudo pacman"
 alias spcm="sudo pacman"
-alias zrc="cd ~; neo .zshrc"
+alias zrc="cd ~; goneovim .zshrc"
 alias pac="sudo packer"
 alias cprc="cp /root/.zshrc /home/yasha/.zshrc"
 alias pacup="packer -Syu --devel"
 # alias vifm='source ~/bin/vf'
-alias vrc="cd ~/.config/nvim; neo init.vim"
-alias vifmrc="cd ~/.config/vifm; neo vifmrc"
+alias vrc="cd ~/.config/nvim; goneovim init.vim" 
+alias vifmrc="cd ~/.config/vifm; goneovim vifmrc"
 alias snips="vi /root/dotfiles/vim/bundle/vim-snippets/UltiSnips/tex.snippets"
 alias src="source ~/.zshrc"
 #alias mux="tmux -f ~/.tmux-conf"
@@ -92,7 +78,6 @@ alias gone="$HOME/.local/bin/goneovim"
 alias neo="$HOME/.local/bin/goneovim"
 alias neov="$HOME/.local/bin/neovide --frameless --maximized --multigrid"
 alias update="git submodule update --init --recursive ; git pull origin master"
-alias chrome="chromium --user-data-dir /root"
 alias res="xrandr --newmode "1920x1080_60.00"  173.00  1920 2048 2248 2576  1080 1083 1088 1120; xrandr --addmode Virtual-1 "1920x1080_60.00";
 xrandr -s 1920x1080"
 
@@ -289,14 +274,14 @@ zinit for \
          zdharma/history-search-multi-word \
     light-mode depth"1" \
                 romkatv/powerlevel10k 
-zinit light softmoth/zsh-vim-mode  
-zinit light kutsan/zsh-system-clipboard 
-export ZSH_SYSTEM_CLIPBOARD_USE_WL_CLIPBOARD=true
+zinit light softmoth/zsh-vim-mode   
+zinit ice wait'0'
+zinit light kutsan/zsh-system-clipboard
 zinit light wookayin/fzf-fasd
 zinit ice wait'0'
 zinit ice light b4b4r07/enhancd
-zinit ice wait'0'
-zinit light wfxr/forgit
+# zinit ice wait'0'
+# zinit light wfxr/forgit
 zinit ice wait"0b" lucid atload'bindkey "$terminfo[kcuu1]" history-substring-search-up; bindkey "$terminfo[kcud1]" history-substring-search-down'
 zinit light zsh-users/zsh-history-substring-search
 bindkey '^[[A' history-substring-search-up
@@ -557,4 +542,21 @@ fmz() {
     fi
     rm "$tmp"
 }
-    
+
+# Global Variables
+export ZSH_SYSTEM_CLIPBOARD_USE_WL_CLIPBOARD=true
+export MANPAGER='nvim +Man!'
+export ANDROID_HOME=/root/android-sdk-linux
+export LANG=en_US.UTF-8
+export XDG_CONFIG_HOME=$HOME/.config
+# export MANPATH="/usr/local/man:$MANPATH"
+# You may need to manually set your language environment
+export LANG=en_US.UTF-8  
+export PATH="$HOME/.config/sway/modules:$HOME/appimage:/home/linuxbrew/.linuxbrew/bin:/usr/local/bin:/usr/sbin:/sbin:/bin:$HOME/.local/bin:/root/.cabal/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:$HOME/.cabal/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:$HOME/.local/bin:$HOME/.local/bin/scripts:$HOME/.cargo/bin:/snap/bin:/data/data/com.termux/files/usr/bin/applets:/data/data/com.termux/files/usr/bin:bin:/usr/local/sbin:/usr/bin:$HOME/.local/share/nvim/lspinstall:$HOME/skia-binaries:$HOME/ninja"
+if [[ -n $SSH_CONNECTION ]]; then
+   export EDITOR='nvim'
+ else
+   export EDITOR='nvim'
+ fi
+export vi="goneovim"
+ 

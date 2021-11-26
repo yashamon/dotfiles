@@ -1,0 +1,26 @@
+2021/11/26-09:47:43.799 105a Reusing MANIFEST /home/yasha/.config/google-chrome-unstable/Default/Local Extension Settings/cfhdojbkjhnklbpkdaibdccddilifddb/MANIFEST-000001
+2021/11/26-09:47:43.800 105a Recovering log #36
+2021/11/26-09:47:43.800 105a Reusing old log /home/yasha/.config/google-chrome-unstable/Default/Local Extension Settings/cfhdojbkjhnklbpkdaibdccddilifddb/000036.log 
+2021/11/26-09:48:46.083 1058 Level-0 table #42: started
+2021/11/26-09:48:46.151 1058 Level-0 table #42: 6803127 bytes OK
+2021/11/26-09:48:46.156 1058 Delete type=0 #36
+2021/11/26-09:48:49.514 1060 Level-0 table #44: started
+2021/11/26-09:48:49.665 1060 Level-0 table #44: 6803175 bytes OK
+2021/11/26-09:48:49.670 1060 Delete type=0 #41
+2021/11/26-09:48:51.094 102f Level-0 table #46: started
+2021/11/26-09:48:51.174 102f Level-0 table #46: 6803118 bytes OK
+2021/11/26-09:48:51.182 102f Delete type=0 #43
+2021/11/26-09:49:51.470 1058 Level-0 table #48: started
+2021/11/26-09:49:51.542 1058 Level-0 table #48: 6802927 bytes OK
+2021/11/26-09:49:51.547 1058 Delete type=0 #45
+2021/11/26-09:49:51.548 1058 Compacting 4@0 + 2@1 files
+2021/11/26-09:49:51.663 1058 Generated table #49@0: 1 keys, 6802927 bytes
+2021/11/26-09:49:51.669 1058 Generated table #50@0: 4 keys, 481 bytes
+2021/11/26-09:49:51.669 1058 Compacted 4@0 + 2@1 files => 6803408 bytes
+2021/11/26-09:49:51.673 1058 compacted to: files[ 0 2 1 0 0 0 0 ]
+2021/11/26-09:49:51.673 1058 Delete type=2 #38
+2021/11/26-09:49:51.673 1058 Delete type=2 #46
+2021/11/26-09:49:51.673 1058 Delete type=2 #42
+2021/11/26-09:49:51.673 1058 Delete type=2 #48
+2021/11/26-09:49:51.673 1058 Delete type=2 #44
+2021/11/26-09:49:51.673 1058 Delete type=2 #39

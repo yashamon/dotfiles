@@ -4,7 +4,7 @@
 	<pref name="677466_CURRENT_PUZZLE_PAGE" type="int">-1</pref>
 	<pref name="677466_LAST_SELECTED_DLC_NAME" type="string"></pref>
 	<pref name="677466_ORB_SEEN_COSMETICS" type="string">MjE7</pref>
-	<pref name="677466_SEEN_CARDS" type="string">MTs=</pref>
+	<pref name="677466_SEEN_CARDS" type="string">MTsxNDE7NTIxOw==</pref>
 	<pref name="677466_TUTORIAL_STORY_DECK_COSMETIC_SET" type="int">1</pref>
 	<pref name="677466_TUTORIAL_STORY_DRAGONS_LAIR" type="int">1</pref>
 	<pref name="677466_TUTORIAL_STORY_LORE_BOOK" type="int">1</pref>
@@ -18,22 +18,22 @@
 	<pref name="LastReadTermsAndConditionsVersion" type="string">MC4xLjA=</pref>
 	<pref name="Screenmanager Fullscreen mode" type="int">1</pref>
 	<pref name="Screenmanager Fullscreen mode Default" type="int">1</pref>
-	<pref name="Screenmanager Resolution Height" type="int">1050</pref>
+	<pref name="Screenmanager Resolution Height" type="int">720</pref>
 	<pref name="Screenmanager Resolution Height Default" type="int">768</pref>
-	<pref name="Screenmanager Resolution Use Native" type="int">0</pref>
+	<pref name="Screenmanager Resolution Use Native" type="int">1</pref>
 	<pref name="Screenmanager Resolution Use Native Default" type="int">1</pref>
-	<pref name="Screenmanager Resolution Width" type="int">1680</pref>
+	<pref name="Screenmanager Resolution Width" type="int">1280</pref>
 	<pref name="Screenmanager Resolution Width Default" type="int">1024</pref>
-	<pref name="UnityGraphicsQuality" type="int">2</pref>
+	<pref name="UnityGraphicsQuality" type="int">1</pref>
 	<pref name="UnitySelectMonitor" type="int">0</pref>
 	<pref name="doesMuteInBackground" type="int">1</pref>
-	<pref name="graphicQualitySetting" type="int">2</pref>
+	<pref name="graphicQualitySetting" type="int">1</pref>
 	<pref name="ingameIsDeckHandInfoShown" type="int">1</pref>
 	<pref name="musicVolume" type="float">1</pref>
 	<pref name="screenIsFullscreen" type="int">1</pref>
-	<pref name="screenResolutionHeight" type="int">1050</pref>
-	<pref name="screenResolutionWidth" type="int">1680</pref>
+	<pref name="screenResolutionHeight" type="int">720</pref>
+	<pref name="screenResolutionWidth" type="int">1280</pref>
 	<pref name="unity.cloud_userid" type="string">MWE3ODY5YTFkNWY1MzY2NjBiNjU2MDk4YWYzNDcwMzQ=</pref>
-	<pref name="unity.player_session_count" type="string">Mg==</pref>
-	<pref name="unity.player_sessionid" type="string">NjA0NDYwMzkyNjU4MjYzMTY5Mw==</pref>
+	<pref name="unity.player_session_count" type="string">NQ==</pref>
+	<pref name="unity.player_sessionid" type="string">ODQwNjM2ODU0Nzc2NjIyMzUwNg==</pref>
 </unity_prefs>

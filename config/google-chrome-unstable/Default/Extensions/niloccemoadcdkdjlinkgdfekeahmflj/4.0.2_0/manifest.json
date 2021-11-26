@@ -1,0 +1,54 @@
+{
+   "action": {
+      "default_icon": {
+         "38": "assets/images/action-icon.png"
+      },
+      "default_title": "Save to Pocket"
+   },
+   "background": {
+      "service_worker": "pages/background/index.js",
+      "type": "module"
+   },
+   "commands": {
+      "save-to-pocket-action": {
+         "description": "Save page to Pocket",
+         "suggested_key": {
+            "chromeos": "Ctrl+Shift+P",
+            "default": "Ctrl+Shift+P",
+            "linux": "Ctrl+Shift+P",
+            "mac": "Command+Shift+P",
+            "windows": "Ctrl+Shift+P"
+         }
+      }
+   },
+   "content_scripts": [ {
+      "css": [ "assets/fonts/fonts.css", "assets/pocket-save-extension.css" ],
+      "js": [ "pages/injector/import-content.js" ],
+      "matches": [ "*://*/*" ]
+   }, {
+      "js": [ "pages/import-login.js" ],
+      "matches": [ "*://getpocket.com/extension_login_success*" ]
+   }, {
+      "js": [ "pages/import-logout.js" ],
+      "matches": [ "*://getpocket.com/login?e=4" ]
+   } ],
+   "default_locale": "en",
+   "description": "The easiest, fastest way to capture articles, videos, and more.",
+   "host_permissions": [ "*://getpocket.com/" ],
+   "icons": {
+      "128": "assets/images/icon-128.png",
+      "16": "assets/images/icon-16.png",
+      "48": "assets/images/icon-48.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDKCQwBisK1UcxYMn6MAfDbc8yXWzvbnCzqJwjwbeMaAHji91jdCy3bEzMprTZxW/1Anfk9B4P+hcoTwqUaMUB4WemQMRKRsr9vC45V1iv912nqyGkoGT+cRKZc+niBriAnn4J2GBACHJqkkCiSChphDFt/UNoQEKz4VoqWZDVj/QIDAQAB",
+   "manifest_version": 3,
+   "name": "Save to Pocket",
+   "options_page": "pages/options/options.html",
+   "permissions": [ "tabs", "contextMenus", "cookies", "storage" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "4.0.2",
+   "web_accessible_resources": [ {
+      "matches": [ "*://*/*", "*://getpocket.com/*" ],
+      "resources": [ "chunks/*-*.js", "pages/injector/content.js", "pages/login.js", "pages/logout.js" ]
+   } ]
+}

@@ -1,0 +1,31 @@
+{
+   "background": {
+      "persistent": true,
+      "scripts": [ "background.js" ]
+   },
+   "browser_action": {
+      "default_icon": "logo128.png",
+      "default_popup": "popup.html"
+   },
+   "content_scripts": [ {
+      "css": [ "style.css", "popups.css" ],
+      "js": [ "inboxsdk.js", "options.js", "texforgmail.js", "app.js" ],
+      "matches": [ "https://mail.google.com/*" ]
+   } ],
+   "description": "Use LaTeX (a method for rendering mathematical formulas) with Gmail.",
+   "icons": {
+      "128": "logo128.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDSrdn35PwRtizEtn/tMu83y6mYrb1yhXgPU3xRGo9UDO9suWK6dcLKVIKQx88/sc7Cfrgn1Frk2IckoN7JlA5sv2FQ4gCAvgJF3gBF8boNfJxzmgkk0qa27OxItZhnLWwYLvos4vlBtuXyMzY9xb9E3Y8QCWuhPOPfk2pxOHbNLQIDAQAB",
+   "manifest_version": 2,
+   "name": "TeX for Gmail",
+   "options_ui": {
+      "chrome_style": true,
+      "open_in_tab": true,
+      "page": "options.html"
+   },
+   "permissions": [ "storage", "https://mail.google.com/" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "6.7.3",
+   "web_accessible_resources": [ "logo128.png", "compose.png", "view.png" ]
+}

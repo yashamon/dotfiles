@@ -1,0 +1,8 @@
+{
+   "ext_description": {
+      "message": "Casts a media file from URL or from Google Drive using Chrome Cast. Cast any video, radio, image given its URL to Chromecast."
+   },
+   "ext_name": {
+      "message": "Cloud Drive, URL to ChromeCast™"
+   }
+}

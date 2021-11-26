@@ -1,0 +1,122 @@
+{
+   "buttons_mylist": {
+      "message": "Meine Liste"
+   },
+   "buttons_remove": {
+      "message": "Entfernen"
+   },
+   "buttons_save": {
+      "message": "Speichern"
+   },
+   "context_menu_discover_more": {
+      "message": "Entdecke noch mehr interessante Inhalte auf Pocket"
+   },
+   "context_menu_log_in": {
+      "message": "Einloggen"
+   },
+   "context_menu_log_out": {
+      "message": "Ausloggen"
+   },
+   "context_menu_open_list": {
+      "message": "Deine Pocket-Liste öffnen"
+   },
+   "context_menu_save": {
+      "message": "In Pocket speichern"
+   },
+   "extension_description": {
+      "message": "Pocket-Erweiterung für Chrome – Die beste Methode zum Speichern von Artikeln, Videos und vielem mehr"
+   },
+   "heading_idle": {
+      "message": ""
+   },
+   "heading_remove_failed": {
+      "message": "Da ist etwas schiefgegangen."
+   },
+   "heading_removed": {
+      "message": "Entfernt"
+   },
+   "heading_removing": {
+      "message": "Wird entfernt ..."
+   },
+   "heading_save_failed": {
+      "message": "Da ist etwas schiefgegangen."
+   },
+   "heading_saved": {
+      "message": "In Pocket gespeichert"
+   },
+   "heading_saving": {
+      "message": "Speichern..."
+   },
+   "heading_tags_error": {
+      "message": "Tags sind auf 25 Zeichen begrenzt."
+   },
+   "heading_tags_failed": {
+      "message": "Da ist etwas schiefgegangen."
+   },
+   "heading_tags_saved": {
+      "message": "Tags gespeichert"
+   },
+   "heading_tags_saving": {
+      "message": "Tags werden gespeichert …"
+   },
+   "options_app_apple": {
+      "message": "Im Apple App Store herunterladen"
+   },
+   "options_app_google": {
+      "message": "In Google Play herunterladen"
+   },
+   "options_app_title": {
+      "message": "Die mobile Pocket-App"
+   },
+   "options_email_us": {
+      "message": "Schreibe uns eine E-Mail"
+   },
+   "options_family": {
+      "message": "Pocket gehört zur Mozilla-Produktfamilie."
+   },
+   "options_follow": {
+      "message": "Jetzt Pocket folgen"
+   },
+   "options_header": {
+      "message": "Erweiterung zum Speichern in Pocket"
+   },
+   "options_log_in": {
+      "message": "Einloggen"
+   },
+   "options_log_out": {
+      "message": "Ausloggen"
+   },
+   "options_login_title": {
+      "message": "Eingeloggt als"
+   },
+   "options_need_help": {
+      "message": "Du brauchst Hilfe?"
+   },
+   "options_privacy": {
+      "message": "Datenschutzrichtlinie"
+   },
+   "options_shortcut_record": {
+      "message": "Neue Tastenkombination festlegen"
+   },
+   "options_shortcut_title": {
+      "message": "Tastenkombination"
+   },
+   "options_terms": {
+      "message": "AGB"
+   },
+   "options_theme_dark": {
+      "message": "Dunkel"
+   },
+   "options_theme_light": {
+      "message": "Hell"
+   },
+   "options_theme_system": {
+      "message": "Systemeinstellung verwenden"
+   },
+   "options_theme_title": {
+      "message": "Modus"
+   },
+   "tagging_add_tags": {
+      "message": "Tags hinzufügen"
+   }
+}

@@ -1,0 +1,10 @@
+{
+   "appDesc": {
+      "description": "App description.",
+      "message": "Create the longest path possible and challenge your friends in the game of Entanglement."
+   },
+   "appName": {
+      "description": "App name.",
+      "message": "Entanglement Web App"
+   }
+}

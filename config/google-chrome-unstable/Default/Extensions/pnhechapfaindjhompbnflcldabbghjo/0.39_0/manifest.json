@@ -1,0 +1,43 @@
+{
+   "app": {
+      "launch": {
+         "local_path": "html/nassh.html"
+      }
+   },
+   "author": {
+      "email": "chrome-secure-shell-publishers@google.com"
+   },
+   "background": {
+      "page": "html/nassh_background.html",
+      "persistent": false
+   },
+   "content_security_policy": "script-src 'self'; object-src 'self'",
+   "default_locale": "en",
+   "description": "Terminal emulator and SSH and SFTP client.",
+   "file_system_provider_capabilities": {
+      "configurable": true,
+      "multiple_mounts": true,
+      "source": "network"
+   },
+   "icons": {
+      "128": "images/stable/icon-128.png",
+      "16": "images/stable/icon-16.png",
+      "24": "images/stable/icon-24.png",
+      "32": "images/stable/icon-32.png",
+      "48": "images/stable/icon-48.png"
+   },
+   "incognito": "split",
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDZCwLaKu+2OIwztgyHw3pNGbOTokLV2Kb4MGnZGnxKTozx87Wf7aQZWzBtGBi4iys1HE5BTsuOY8jFNfuChncl/bzIGT4J6J0FjxpF+gv9czMVyb6o+4VK9fB5BgL+arlZsuS07rylTLPimN1LzVMi/v1F3IcqgXXnsQvdIxoXFQIDAQAB",
+   "manifest_version": 2,
+   "minimum_chrome_version": "57",
+   "name": "Secure Shell App",
+   "offline_enabled": true,
+   "omnibox": {
+      "keyword": "ssh"
+   },
+   "options_page": "html/nassh_preferences_editor.html",
+   "permissions": [ "clipboardRead", "clipboardWrite", "idle", "notifications", "storage", "terminalPrivate", "unlimitedStorage", "fileSystemProvider", "accessibilityFeatures.read", "crashReportPrivate", "metricsPrivate" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "0.39",
+   "web_accessible_resources": [ "html/nassh.html", "html/nassh_google_relay.html" ]
+}

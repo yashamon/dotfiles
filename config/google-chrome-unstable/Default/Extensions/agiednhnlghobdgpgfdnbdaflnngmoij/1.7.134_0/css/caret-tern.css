@@ -1,0 +1,4 @@
+
+/* extra CSS for tern that is needed by caret (other tern css is auto added by tern extension) */
+
+.Ace-Tern-tooltip {font-size:120% !important;}

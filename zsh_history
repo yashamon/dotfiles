@@ -10,7 +10,6 @@ which lfcd
 lfcdn
 as;lkdjfa
 dotfiles
-zsh
 fish
 git reset HEAD~1
 git
@@ -28,7 +27,6 @@ fd . $HOME -t d -H | fzf 2>/dev/tty
 j /home/yasha/workspace/workspace
 git clone --recursive https://yashamon@bitbucket.org/yashamon/workspacemodules.git
 git checkout master
-git pull
 xinput get-button-map 'DLL07BF:01 06CB:7A13 Touchpad'
 xinput
 xinput get-button-map SynPS/2 Synaptics Touchpad
@@ -77,7 +75,6 @@ git status --ignored
 trash-empty
 sudo trash-empty
 trash-list
-sudo trash-list
 lfrc
 j /home/yasha/dotfiles
 git status
@@ -96,7 +93,6 @@ cp nasskan.service /etc/systemd/system/\
 systemctl enable --now nasskan
 cd ..
 sudo mkdir nasskan
-sudo lf
 xmonad --recompile
 xmonad --restart
 mod
@@ -108,11 +104,9 @@ ption "caps:swapescape"\
 ption "caps:swapescape"
 uapp
 j /home/yasha/appimage
-nvim
 neo kan.tex
 j /home/yasha/workspacemodules/novikov
 neovide blah.tex
-vrc
 neov blah.tex
 shutdown
 gdm
@@ -139,9 +133,7 @@ nm-tui
 paru -S nm-tui
 paru -Ss nm-tui
 paru -Ss nmtui
-netctl status Paco
 systemctl status netctl-auto
-systemctl status netctl-auto@wpl0.service
 netctl stop Paco
 netctl stop wlan0
 systemctl start networkmanager.service
@@ -150,26 +142,20 @@ sudo pacman -S networkmanager
 systemctl start NetworkManager.service
 nmtui
 systemctl stop NetworkManager.service
-ping
 netctl disable Paco
 sudo netctl disable Paco
 sudo netctl disable Yasha
-keys
 paru -S i3status
 exit
-quit
 sway
 exec sway
-neo
 paru -S waybar
-neo config
 paru -S fontawesome
 paru -Ss fontawesome
 sudo paru -S ttf-font-awesome
 sudo paru -Ss ttf-font-cantarell
 sudo paru -Ss cantarell
 ynPS/2 Synaptics TouchPad
-swaymsg -t get_inputs
 paru -S i3ipc-python
 python transparency.py
 feh --bgscale ~/Downloads/johannes-plenio-RwHv7LgeC7s-unsplash.jpGYTHON TRANSPARENCY.PY
@@ -182,7 +168,6 @@ feh ~/Downloads/johannes-plenio-RwHv7LgeC7s-unsplash.jpg
 /home/yasha/dotfiles/config/sway/modules/transparency.py/home/yasha/dotfiles/config/sway/modules/transparency.py\
 n ....
 wl-copy blah
-rotatesway
 paru -S redshift
 python alttab next
 j /home/yasha/workspacemodules
@@ -191,108 +176,264 @@ alttab next
 paru -S --aur sway-alttab-bin
 paru -S web
 paru -S wev
-wev
-sway alttab
-sway-alttab
 top
-htop
 rot
 rotx
 python3 rotx
-systemctl start gdm
 swaymsg -t get_tree | ~/.config/sway/alttab T
 j sway
-ls
 chmod +x alttab
 swaymsg -t get_tree | ~/.config/sway/alttab t
 swaymsg -t get_tree | ~/.config/sway/alttab t focus
-swaymsg -t get_tree
 \
 rkspace next_on_outpuT
-src
-lf
 wl-pate
-zrc
-wl-paste
 \
 -vim -vim
-reboot
 startx
-: 1637809452:0;systemctl start gdm
-: 1637809481:0;j /home/yasha/dotfiles/scripts
-: 1637809482:0;ls
-: 1637809492:0;rotatesway
-: 1637809629:0;s-p age-intentionally-left-blank.org
-: 1637809694:0;lf
-: 1637809766:0;j /home/yasha/dotfiles/scripts
-: 1637809767:0;ls
-: 1637810100:0;swaymsg focus fullscreen
-: 1637810124:0;swaymsg focus next fullscreen
-: 1637810141:0;swaymsg focus next | fullscreen
-: 1637810145:0;swaymsg focus next
-: 1637810153:0;swaymsg focus next fullscreen
-: 1637810299:0;swaymsg -t get inputs
-: 1637810306:0;swaymsg -t get_inputs
-: 1637810491:0;wl-paste
-: 1637810649:0;\
+s-p age-intentionally-left-blank.org
+swaymsg focus fullscreen
+swaymsg focus next | fullscreen
+swaymsg focus next
+swaymsg focus next fullscreen
+swaymsg -t get inputs
+\
 swaymsg input 1386:230:Wacom_Pen_and_multitouch_sensor_Pen map_to_output eDP1
-: 1637810670:0;\
+\
 swaymsg input 1386:20666:Wacom_Pen_and_multitouch_sensor_Pen map_to_output eDP1
-: 1637810699:0;wl-paste
-: 1637810798:0;swaymsg -t get_outputs
-: 1637810806:0;\
-swaymsg input 1386:20666:Wacom_Pen_and_multitouch_sensor_Pen map_to_output eDP-1
-: 1637810924:0;lf
-: 1637811042:0;transparancy.py
-: 1637811052:0;j /home/yasha/dotfiles/scripts
-: 1637811054:0;lf
-: 1637811126:0;transparency.py
-: 1637811132:0;python3 transparency.py
-: 1637811139:0;which transparency.py
-: 1637811191:0;which transparency
-: 1637811273:0;python /home/yasha/dotfiles/config/sway/modules/transparency.py
-: 1637811444:0;sudo paru -S wezterm
-: 1637811469:0;ng
-: 1637811518:0;wezterm
-: 1637811973:0;lf
-: 1637812156:0;swaymsg -t get_outputs
-: 1637812274:0;reboot
-: 1637812402:0;zsh
-: 1637812413:0;systemctl start gdm
-: 1637812466:0;python /home/yasha/dotfiles/config/sway/modules/transparency.py
-: 1637812509:0;lf
-: 1637812751:0;wezterm
-: 1637812843:0;klj
-: 1637812861:0;sdf
-: 1637812901:0;wezterm
-: 1637815728:0;startup
-: 1637815828:0;wl-paste
-: 1637815879:0;swaymsg -t get_outputs
-: 1637816093:0;redshift
-: 1637816166:0;rotatesway
-: 1637816270:0;\
+transparancy.py
+j /home/yasha/dotfiles/scripts
+python3 transparency.py
+which transparency.py
+which transparency
+sudo paru -S wezterm
+ng
+zsh
+systemctl start gdm
+klj
+sdf
+startup
+swaymsg -t get_outputs
+redshift
+\
 
-: 1637816372:0;\
+\
 swaymsg input 1386:20666:Wacom_Pen_and_multitouch_sensor_Pen map_to_output eDP-1
-: 1637816398:0;swaymsg -t get_inputs
-: 1637816461:0;\
+\
 swaymsg input 1386:20666:Wacom_Pen_and_multitouch_sensor_Finger map_to_output eDP-1\
 
-: 1637817063:0;lf
-: 1637817132:0;systemctl enable gdm
-: 1637817185:0;paru -S strace
-: 1637817207:0;neo
-: 1637817287:0;gtk
-: 1637817303:0;gitk
-: 1637818408:0;vrc
-: 1637818451:0;lf
-: 1637818553:0;neo config
-: 1637818557:0;lf
-: 1637819389:0;wev
-: 1637819549:0;netctl start Paco
-: 1637819581:0;netctl status Paco
-: 1637819600:0;dhclient
-: 1637819603:0;sudo dhclient
-: 1637819639:0;reboot
-: 1637820700:0;rotatesway
-: 1637820796:0;config
+systemctl enable gdm
+paru -S strace
+gtk
+gitk
+rotatesway
+config
+netctl status Paco
+systemctl enable netctl-auto@wpl0.service
+systemctl status netctl-auto@wpl0.service
+dhclient
+ip link
+ip link set up
+ip link up
+ip link help
+ip link set wla0 up
+ip link wlan0 up
+ip link set wlan0 up
+sudo ip link set wlan0 up
+systemctl start netctl-auto@wpl0.service
+sudo dhclient
+netctl start Paco
+/home/yasha/dotfiles/config/sway/modules/transparency.py
+transparency.py
+python /home/yasha/dotfiles/config/sway/modules/transparency.py
+wezterm
+nvim
+fad
+fasd
+which nvr.sh
+wl-paste
+kitty
+alacritty
+\
+export ZSH_SYSTEM_CLIPBOARD_USE_WL_CLIPBOARD=true
+nvim ~/.zshrc
+nvr
+neo config
+j conflf
+j config
+neo lfrc
+goneovim blah.tex
+nvr --servername $(<~/servername.txt) --remote-silent ~/.zshrc
+goneovim lfrc
+j /home/yasha/.config/lf
+goneovim
+cat ~/servername.txt
+nvr lfrc
+nvr --servername $(<~/servername.txt) --remote-silent lfrc
+which nvr
+qt.qpa.wayland: The compositor sent a wl_pointer.enter event before sending a leave event first, this is not allowed by the wayland protocol attempting to work around it by invalidating the current focus
+fd
+j web
+git pull
+hw
+ls /sys/firmware/efi/efivars
+paru -S mesa-git lib32-mesa-git
+lf -doc
+read varname
+echo varname
+echo $varname
+read varname | echo $varname
+read dude | echo $varname
+echo $dude
+read dude ; echo $varname
+read varname ; echo $varname
+cp --backup 0373.57009.bib 0373.57009.bib
+cp --backup -t 0373.57009.bib 0373.57009.bib
+cp -r --backup=t 0373.57009.bib 0373.57009.bib
+cp -r --backup=t ~/Downloads/0373.57009.bib 0373.57009.bib
+rsync ~/Downloads/0373.57009.bib 0373.57009.bib
+rsync --backup ~/Downloads/0373.57009.bib 0373.57009.bib
+rm 0373.57009.bib\~
+rsync -a --no-compress --backup --ignore-existing ~/Downloads/0373.57009.bib 0373.57009.bib
+rsync -a --no-compress --backup ~/Downloads/0373.57009.bib 0373.57009.bib
+rckup-dir=DIRsync -a --no-compress --backup --ignore-existing ~/Downloads/0373.57009.bib 0373.57009.bib
+rsync -a --no-compress --backup --backup-dir=./ ~/Downloads/0373.57009.bib 0373.57009.bib
+ls -a
+rsync -a --no-compress --backup --suffix=~ --backup-dir=./ ~/Downloads/0373.57009.bib 0373.57009.bib
+rm 0373.57009.bib
+rsync -a --no-compress --backup --suffix=1 --backup-dir=./ ~/Downloads/0373.57009.bib 0373.57009.bib
+rsync -a --no-compress --backup --suffix=1 ~/Downloads/0373.57009.bib 0373.57009.bib
+rsync -a --no-compress --backup-dir=./ --suffix=1 ~/Downloads/0373.57009.bib 0373.57009.bib
+rsync -a --no-compress --backup-dir=./ ~/Downloads/0373.57009.bib 0373.57009.bib
+rsync -a --no-compress --backup-dir=./ --suffix="~" ~/Downloads/0373.57009.bib 0373.57009.bib
+htop
+logout
+quit
+sadf
+keys
+cp ~/.xinitrc ~/.xsession
+cp ~/.xinitrc ~/.Xsession
+ping
+paru -S rofi
+rofi
+rofi run
+rofi show window
+rofi show run
+rofi -show window
+google-chrome-stable --enable-features=UseOzonePlatform --ozone-platform=wayland
+neo
+chrome
+sudo paru -S chrome
+ffm
+sudo neo chrome.desktop
+sudo goneovim chrome.desktop
+vi ~/.zshrc
+sudo nvim chrome.desktop
+j /usr/local/share
+cd applications
+sudo trash-list
+sudo trash-restore 2
+cd /usr/local/share
+sudo trash-restore
+chmod 755 chrome.desktop
+chmod 755 chromium.desktop
+sudo chmod 755 chromium.desktop
+which chrome
+neo chrome.desktop
+desktop-file-validate chrome.desktop
+google-chrome-beta --enable-features=UseOzonePlatform --ozone-platform=wayland
+sudo paru -S chromium
+chromium
+chromium --enable-features=UseOzonePlatform --ozone-platform=wayland
+paru -Syu chromium-git
+cd ~
+ls
+paru -Ss chromium-git
+paru -Ss firefox-git
+paru -Ss firefox
+paru -Ss firefox | grep nightly
+sudo paru -R google-chrome-beta
+sudo paru -Ss google-chrome
+sudo paru -R google-chrome-dev
+sudo paru -S google-chrome-dev
+google-chrome-unstable
+wev
+swaymsg -t get_tree
+sudo nvim firefox.desktop
+export MOZ_ENABLE_WAYLAND=1 firefox
+which firefox
+src
+vi
+paru -S google-chrome-dev
+paru -S intel-media-driver
+swaymsg -t get_inputs
+paru -R yofi
+paru -R yofi-bin
+paru -S yofi
+RUST_BACKTRACE=1 yofi
+yofi -h
+yofi apps
+yofi binapps
+bemenu
+bemenu -h
+bemenu -gn
+bemenu -n run
+bemenu -n
+paru -S rofi-lbonn-wayland-git
+rustup update
+sudo paru -Ss yofi
+paru -Rsc
+paru -Rsc yofi
+paru -S yofi-bin
+firefox
+nvim goneovim.desktop
+which goneovim
+sudo nvim fox.desktop
+desktop-file-validate fox.desktop
+sudo nvim goneovim.desktop
+desktop-file-validate goneovim.desktop
+goneovim ~/.zshrc
+XDG_CACHE_HOME:-$HOME/.
+swaymsg [con_id=$(swaymsg -t get_tree | ~/.config/sway/alttab t)] fullscreen
+swaymsg -t get_tree | ~/.config/sway/alttab t) fullscreen
+swaymsg -t get_tree | ~/.config/sway/alttab t fullscreen
+sway alttab
+sway-alttab
+~/.config/sway/alttab next fullscreen
+~/.config/sway/alttab next | fullscreen
+~/.config/sway/alttab next; swaymsg fullscreen
+rofi -show run
+vrc
+sudo lf
+fox
+lf
+yofi
+reboot
+zrc
+swrc
+swaymsg fullscreen
+exec ~/.config/sway/alttab next; swaymsg fullscreen
+: 1637945686:0;src
+: 1637945688:0;swrc
+: 1637947027:0;xlsclients
+: 1637959051:0;wifi
+: 1637959602:0;ping
+: 1637960280:0;paru -Ss firefox-nightly
+: 1637960292:0;paru -S firefox-nightly
+: 1637968456:0;lf
+: 1637968755:0;paru -Syu
+: 1637968774:0;lf
+: 1637968779:0;sudo lf
+: 1637968836:0;sudo vifm
+: 1637968865:0;ls
+: 1637968872:0;cd /etc/pacman.d
+: 1637968874:0;ls
+: 1637968883:0;sudo goneovim hooks
+: 1637968890:0;sudo goneovim hooks/backup.hook
+: 1637968896:0;sudo nvim hooks/backup.hook
+: 1637969055:0;paru -S packup
+: 1637969074:0;packup
+: 1637969190:0;nvim hooks/
+: 1637969211:0;/usr/bin/pacman -Qq > /home/yasha/dotfiles/pkglist.txt
+: 1637969219:0;j /home/yasha/dotfiles
+: 1637969220:0;push

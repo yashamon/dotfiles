@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<style>
+iframe {
+  height: calc(100vh); 
+  border: none;   
+  top:0px; 
+  left:0px;
+  bottom:0px; 
+  right:0px; 
+  width:100%; 
+  height: calc(100vh); 
+  overflow: hidden;
+}
+#loading_div {
+  -webkit-animation: seconds 1.0s forwards;
+  -webkit-animation-iteration-count: 1;
+  -webkit-animation-delay: 2s;
+  animation: seconds 1.0s forwards;
+  animation-iteration-count: 1;
+  animation-delay: 2s;
+  position: relative;
+
+  background: white;
+  height: calc(100vh);
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-color: white;
+  background-image: url('https://www.cloudhq.net/images/loading.gif');
+  position: fixed;
+  top: 0px;
+  z-index: 1;
+}
+
+</style>
+<head>
+  <meta charset=utf-8>
+  <title>Gmail Campaigns</title>
+</head>
+<body>
+  <div id="loading_div" style="position: absolute; top: 0; left: 0;right: 0; bottom: 0; overflow: hidden;">
+   <iframe id="iframe_container" allow="microphone; camera;" src=""></iframe>
+ </div>
+ <script src="wrapper.js"></script>
+</body>
+</html>

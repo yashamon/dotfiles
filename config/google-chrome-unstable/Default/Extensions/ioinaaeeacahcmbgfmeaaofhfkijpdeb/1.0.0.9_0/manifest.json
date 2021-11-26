@@ -1,0 +1,34 @@
+{
+   "background": {
+      "persistent": true,
+      "scripts": [ "javascripts/jquery-1.4.4.js", "javascripts/background.js" ]
+   },
+   "browser_action": {
+      "default_icon": "icons/gmail_html.png"
+   },
+   "content_scripts": [ {
+      "css": [ "stylesheets/jquery.dropdown.css", "stylesheets/popover.css" ],
+      "exclude_globs": [  ],
+      "include_globs": [  ],
+      "js": [ "javascripts/inboxsdk.js", "javascripts/main_gmail_html_loader.js" ],
+      "matches": [ "https://mail.google.com/*", "https://inbox.google.com/*" ]
+   } ],
+   "content_security_policy": "script-src 'self' https://www.cloodhq.net; object-src 'self' https://www.cloudhq.net",
+   "converted_from_user_script": true,
+   "description": "Free HTML Editor for Gmail™ - code HTML email directly from Gmail",
+   "externally_connectable": {
+      "matches": [ "*://*.orecons.com/*", "*://*.cloudhq.net/*" ]
+   },
+   "icons": {
+      "128": "icons/gmail_html.png",
+      "48": "icons/gmail_html.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAtmBJntkIClybksrzGhn895CWj1uiN+J51bxZJlrOWTXta44FzkJQvvqkxG6FZaCBhmqeY2fh4Fz2d+H9V5IjOWoHZ20Fu+zXa2pZVhEnNQYrk8TxhKBRnxvr8S/Ku79wxvB+FXos6OtGQXIgc5JbpDXxB0RpNLQrpPKH89ciTCq56DcywqfjKhv6XbvKN2n/qT9VezPi+mkbIgbpvE/J56fkjusipccUTc+UBqv09ocJvAE0sqmotU5iFYE5Q95pExkt2MD+Brz7sAovHK3D4bIzbi/GEkWDdKFWnrxQ4D60Avh0EIXsLeJ7BZatm8ZeD8tZaNFzJVfTB65hb7Nh3wIDAQAB",
+   "manifest_version": 2,
+   "name": "Free HTML Editor for Gmail by cloudHQ",
+   "permissions": [ "storage", "background", "https://mail.google.com/", "https://inbox.google.com/", "https://www.cloudhq.net/" ],
+   "short_name": "Free HTML Editor for Gmail by cloudHQ",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.0.0.9",
+   "web_accessible_resources": [ "javascripts/*", "icons/*" ]
+}

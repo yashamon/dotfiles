@@ -1,0 +1,6 @@
+2021/11/26-15:04:03.091 6730 Reusing MANIFEST /home/yasha/.config/google-chrome-unstable/Default/IndexedDB/https_mail.google.com_0.indexeddb.leveldb/MANIFEST-000001
+2021/11/26-15:04:03.091 6730 Recovering log #3
+2021/11/26-15:04:03.101 6730 Reusing old log /home/yasha/.config/google-chrome-unstable/Default/IndexedDB/https_mail.google.com_0.indexeddb.leveldb/000003.log 
+2021/11/26-15:04:32.853 6736 Level-0 table #5: started
+2021/11/26-15:04:32.886 6736 Level-0 table #5: 1857115 bytes OK
+2021/11/26-15:04:32.896 6736 Delete type=0 #3
