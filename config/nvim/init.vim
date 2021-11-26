@@ -446,7 +446,7 @@ nmap V vg$
 nmap A g$a 
 map 0 g^
 map 9 g$
-nmap <m-8> :set set lines=100<cr>
+nmap <m-8> :set laststatus=0<>set lines=100<cr>
 nnoremap <c-l> :wa<cr>:bnext<CR>
 nnoremap <c-h> :wa<cr>:bprevious<CR>
 " tnoremap <Esc> <C-\> 
