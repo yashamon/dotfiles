@@ -446,7 +446,7 @@ nmap V vg$
 nmap A g$a 
 map 0 g^
 map 9 g$
-nmap <m-8> :set lines=100<cr>:set columns=200<cr>
+nmap <m-8> :set lines=100<cr>
 nnoremap <c-l> :wa<cr>:bnext<CR>
 nnoremap <c-h> :wa<cr>:bprevious<CR>
 " tnoremap <Esc> <C-\> 
