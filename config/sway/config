@@ -66,7 +66,8 @@ input "1:1:AT_Translated_Set_2_keyboard" {
     xkb_options "caps:swapescape,ctrl:swap_rwin_rctl"
 }
 
-input "3141:32774:SONiX_61_Gaming_Keyboard_Consumer_Control {
+input 
+"3141:32774:SONiX_61_Gaming_Keyboard_Consumer_Control" {
     xkb_layout us
     xkb_options "caps:swapescape,ctrl:swap_rwin_rctl"
 }
