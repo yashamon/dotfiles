@@ -175,7 +175,7 @@ set spelllang=en
        au UIEnter  set noruler
        au UIEnter  set laststatus=0
        au UIEnter  set noshowcmd
-       au UIEnter set lines=100 
+       au UIEnter  set lines=100 
  else
   autocmd VimEnter * TZAtaraxis
  endif
