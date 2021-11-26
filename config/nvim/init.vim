@@ -176,7 +176,6 @@ set spelllang=en
        au UIEnter  set laststatus=0
        au UIEnter  set noshowcmd
        au UIEnter set lines=100 
-       au UIEnter set columns=50
  else
   autocmd VimEnter * TZAtaraxis
  endif
@@ -447,7 +446,7 @@ nmap V vg$
 nmap A g$a 
 map 0 g^
 map 9 g$
-nmap <m-8> :set lines=200<cr>:set columns=200<cr>
+nmap <m-8> :set lines=100<cr>:set columns=200<cr>
 nnoremap <c-l> :wa<cr>:bnext<CR>
 nnoremap <c-h> :wa<cr>:bprevious<CR>
 " tnoremap <Esc> <C-\> 
