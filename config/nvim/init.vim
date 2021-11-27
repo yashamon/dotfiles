@@ -496,7 +496,6 @@ noremap <D-u> <C-u>
 noremap <A-u> <C-u>
 " this mapping Enter key to <C-y> to chose the current highlight item 
 " and close the selection list, same as other IDEs.
-
 inoremap <expr> <CR> pumvisible() ? "\<C-y>" : "\<C-g>u\<CR>"
 nnoremap <silent> <Leader>y :YRGetElem<CR>
 map ' "
