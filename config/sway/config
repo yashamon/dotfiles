@@ -35,7 +35,7 @@ set $menu 'rofi -show run'
 set $filer lf
 
 # Browser
-set $browser firefox
+set $browser firefox-nightly
 
 # For gtk applications settings
 set $gnomeschema org.gnome.desktop.interface
