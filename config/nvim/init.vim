@@ -521,11 +521,8 @@ map T <cmd>HopChar1BC<cr>
 map <m-.> <cmd>HopChar1<cr>.
 map <m-space> <cmd>HopWord<cr>
 " map <S-m-Space> <cmd>HopWord<cr>
-
-
-
 " map t <ESC>:syntax off <CR>t: syntax on<CR>
-"  map t :syntaxoff <Plug>Sneak_s
+
 " map T <Plug>Sneak_S
 " let g:sneak#s_next = 1
 "  let g:sneak#label = 1
