@@ -22,7 +22,7 @@ set $ws8 8
 set $ws9 9
 
 # Locker
-set $locker swaylock
+set $locker swaylock-fancy
 
 # Terminal emulator
 set $term kitty
