@@ -516,9 +516,6 @@ au FileType tex,text,md noremap map o gj0i<CR><ESC>gki
 " tnoremap <Right> :tbprevious<CR>
 " tnoremap <Leader>e <C-\><C-n> 
 " imap <Backspace> \
-
-" let g:sneak#use_ic_scs = 1
-
 map t <cmd>HopChar1AC<cr>
 map T <cmd>HopChar1BC<cr>
 map <m-.> <cmd>HopChar1<cr>.
