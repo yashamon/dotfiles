@@ -380,7 +380,8 @@ set fileencoding=utf-8
 "maps remaps mappings  
 "
 "
-" terminal mappings
+" terminal mappings 
+" 
 tnoremap <A-Esc> <C-\><C-n>
 nmap <A-S-t> :wa<cr>:te<cr>
  
