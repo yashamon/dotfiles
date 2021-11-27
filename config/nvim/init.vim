@@ -631,8 +631,6 @@ nmap <leader>m :w<cr>:silent ! cat % >> ~/workspace/email.txt; cp % /tmp/temp; m
 " ; pandoc backup.html > backup.md; cp backup.md %<cr>:e %<cr>
 
 
-" nmap <leader>s <Esc>:VimtexErrors<CR>
-" map <leader>g :ZenMode<CR> 
 nmap <leader>g :w<cr>:TZAtaraxis<CR>
 nmap <leader>p :Denite neoyank -default-action=append<CR>
 
