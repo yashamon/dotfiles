@@ -312,7 +312,7 @@ bindsym --to-code $mod+r mode "resize"
 bindsym --to-code $mod+Shift+s sticky toggle
 
 # Exit sway (logs you out of your Wayland session)
-bindsym --to-code $mod+Delete exec swaynag -t mtype -m \
+bindsym --to-code $mod+e exec swaynag -t mtype -m \
     'You pressed the exit shortcut. What do you want?' \
     -b 'Poweroff' 'systemctl poweroff' \
     -b 'Reboot' 'systemctl reboot' \
