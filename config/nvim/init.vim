@@ -629,22 +629,9 @@ nmap <leader>cl :call ClearLatex()<cr>
 
 nmap <leader>m :w<cr>:silent ! cat % >> ~/workspace/email.txt; cp % /tmp/temp; make4ht /tmp/temp "mathml,mathjax"; pandoc /tmp/temp.html --from html --to markdown_strict -o /tmp/temp.md; mv /tmp/temp.md %<cr>:e %<cr>:w<cr>:qa<cr>
 
-" pandoc backup -s html -o markdown cp backup.html %<cr>:e %<cr>:w<cr>:qa<cr> 
 
-" <cr>
-" ; pandoc backup.html > backup.md; cp backup.md %<cr>:e %<cr>
+"
 
-" NB: this supports "rp that replaces the selection by the contents of @r
-" Auto updating Ctags
-" autocmd VimLeave * exe ":silent ! ctags -R"
-
-"Nerd Tree
-" map <leader>e :NERDTreeFind<CR>
-" map <C-e> :NERDTreeToggle<CR>:NERDTreeMirror<CR>
-"
-"
-"
-"Vifm
 
 
 "Autosave and autocommit   
