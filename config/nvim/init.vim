@@ -549,9 +549,8 @@ noremap <m-l> viwy:bdelete<cr>:execute "buffer" g:buf<cr>:<c-r>+<cr>:TZAtaraxis<
 " noremap <m-l> viwy<esc>:bp<cr>:<c-r>+<cr>
 
 
+"Functions
 
-
- 
 function! Profile()
 profile start profile.log
 profile func *
