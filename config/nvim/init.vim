@@ -266,55 +266,7 @@ au Filetype tex,text,md set tw=50
 au TextYankPost * lua vim.highlight.on_yank {higroup="IncSearch", timeout=150, on_visual=true}
 au TextYankPost * call neoyank#_append() 
 
-         "Some functions
-function Light()
-set background=light
-" colorscheme oceanlight 
-colorscheme one 
-" highlight Normal ctermfg=black
-" highlight  CursorLine cterm=NONE ctermbg=black ctermfg=none
-" hi MatchParen cterm=underline ctermbg=none ctermfg=magenta
-endfunction   
-
-" function Light()
-" set background=light
-" " colorscheme oceanlight 
-" colorscheme material 
-" let g:material_style = 'lighter'  
-"    " highlight Normal ctermfg=black
-" " highlight  CursorLine cterm=NONE ctermbg=black ctermfg=none
-" " hi MatchParen cterm=underline ctermbg=none ctermfg=magenta
-" endfunction   
-function Bluemoon()
-   set background=dark
-   colorscheme blue-moon
-   " colorscheme material  
-endfunction
-
-function Deepocean()
-   set background=dark
-   colorscheme material  
-   let g:material_style = 'deep ocean'  
-endfunction
-
-function Palenight()
-   set background=dark
-   " colorscheme blue-moon
-   colorscheme material  
-   let g:material_style = 'palenight'  
-endfunction
-function Lighter()
-   set background=light
-   " colorscheme blue-moon
-   colorscheme material  
-   let g:material_style = 'lighter'  
-endfunction
-
-function Dark()
-   set background=dark
-   colorscheme one  
-endfunction
-
+         
 set expandtab        "replace <TAB> with spaces
 set softtabstop=3 
 set shiftwidth=3 
