@@ -62,8 +62,8 @@ gaps inner 2
 # Default wallpaper (to change it, put image to ~/Pictures/wallpapers/ and name it main-wallpaper.*)
 # output * bg "$HOME/Pictures/wallpapers/main-wallpaper.*" fill
 
-output eDP-1 pos 0 0 res 2560x1440
- Keyboard layout 
+output eDP-1 pos 0 0 res 2560x1440 
+#Keyboard layout 
  input "1:1:AT_Translated_Set_2_keyboard" {
 #     xkb_layout us
 #     xkb_options "caps:swapescape,ctrl:swap_rwin_rctl"
