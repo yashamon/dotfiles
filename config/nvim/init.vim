@@ -462,35 +462,11 @@ map q: nop
 map <S-C-q> <Esc>:qa!<CR>
 map <m-q> <esc>:wq<cr>
 map <m-Q> <esc>:q<cr>
-
 map <m-c> <esc>:close<cr>
 map <M-d> <Esc>:bdelete<CR>
 noremap gf gq
 noremap f /
 noremap F ?
-" inoremap .<Esc> .<CR><Esc><leader>j
-" inoremap .<Space> .<CR><Esc><leader>j
-" noremap S :S 
-"
-"
-" function! Sneak()
-"     hi! link Sneak Normal
-"     hi! link SneakScope Normal
-"     execute 'normal! \<Plug>Sneak_s'
-"     syntax on
-" endfunction
- 
-" map N <Plug>Sneak_,
-" map t <Plug>(smalls-excursion)
-" let g:smalls_auto_jump=1
-" let g:smalls_auto_jump_timeout=0
-
-
-    " xmap t <Plug>Sneak_s
-    " xmap T <Plug>Sneak_S
-   " omap t <Plug>Sneak_s
-    " omap T <Plug>Sneak_S 
-    " math maps   
 noremap # /\$<CR>v?\$<CR>
 noremap $ /\$<CR>hv?\$<CR>l
 noremap @ /}<CR>v?{<CR>
