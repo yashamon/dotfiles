@@ -18,6 +18,7 @@ set $ws4 4
 set $ws5 5
 set $ws6 6
 set $ws7 7
+set $ws7 7
 
 # Locker
 set $locker swaylock-fancy
