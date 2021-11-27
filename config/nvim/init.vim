@@ -523,7 +523,6 @@ map <m-space> <cmd>HopWord<cr>
 " map <S-m-Space> <cmd>HopWord<cr>
 " map t <ESC>:syntax off <CR>t: syntax on<CR>
 
-
 " FZF 
 "
 noremap <m-t> :wa<cr>:BTags<cr>
