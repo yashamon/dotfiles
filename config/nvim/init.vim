@@ -504,7 +504,7 @@ inoremap <C-]> <C-x><C-]>
 
 au FileType tex,text,md nmap 0 g^
 au FileType tex,text,md noremap 9 g$
-" au FileType tex,text,md nmap A g_a
+" au gaFileType tex,text,md nmap A g_a
 au FileType tex,text,md nnoremap dd "_g^dg$g^
 " au FileType tex,text,md inoremap <A-i> <CR>
 " au FileType tex,text,md nnoremap <A-i> a<CR>
