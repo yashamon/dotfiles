@@ -177,7 +177,7 @@ if exists('g:started_by_firenvim')
        au UIEnter  set noshowcmd
        au UIEnter  set lines=100
  else
-  autocmd VimEnter * TZAtaraxis
+  " autocmd VimEnter * TZAtaraxis
  endif
 set timeoutlen=0
 au VIMEnter * let g:surround_108 = {
