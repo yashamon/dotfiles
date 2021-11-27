@@ -390,7 +390,7 @@ noremap <leader>r :wa<cr>:e<cr>
 noremap <leader>hh :set tw=50<cr>
 noremap <leader>w :set tw=0<cr> 
 noremap q <nop>
-map <leader>q q
+noremap <leader>q q
 nmap <m-7> :ZenMode<cr>:mksession!<cr>
 nnoremap <leader>rr :source $MYVIMRC<CR>
 "nnoremap <leader>e :NERDTreeFind<CR>
