@@ -1053,7 +1053,6 @@ rxvt-unicode-terminfo
 s-nail
 sbc
 scdoc
-screenrotator-git
 sdl2
 seatd
 sed

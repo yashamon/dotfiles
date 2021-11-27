@@ -74,3 +74,33 @@
 2021/11/26-16:29:33.874 7c91 Level-0 table #83: started
 2021/11/26-16:29:33.947 7c91 Level-0 table #83: 6803012 bytes OK
 2021/11/26-16:29:33.952 7c91 Delete type=0 #78
+2021/11/26-17:29:33.120 8dcf Level-0 table #85: started
+2021/11/26-17:29:33.196 8dcf Level-0 table #85: 6803116 bytes OK
+2021/11/26-17:29:33.202 8dcf Delete type=0 #82
+2021/11/26-17:29:34.058 8dcf Level-0 table #87: started
+2021/11/26-17:29:34.148 8dcf Level-0 table #87: 6803005 bytes OK
+2021/11/26-17:29:34.154 8dcf Delete type=0 #84
+2021/11/26-19:35:46.977 c307 Level-0 table #89: started
+2021/11/26-19:35:46.994 be49 Current memtable full; waiting...
+2021/11/26-19:35:47.072 c307 Level-0 table #89: 6804011 bytes OK
+2021/11/26-19:35:47.079 c307 Delete type=0 #86
+2021/11/26-19:35:47.082 c307 Compacting 4@0 + 2@1 files
+2021/11/26-19:35:47.119 c307 Level-0 table #91: started
+2021/11/26-19:35:47.231 c307 Level-0 table #91: 6803819 bytes OK
+2021/11/26-19:35:47.236 c307 Delete type=0 #88
+2021/11/26-19:35:47.351 c307 Generated table #92@0: 1 keys, 6803797 bytes
+2021/11/26-19:35:47.367 c307 Generated table #93@0: 4 keys, 479 bytes
+2021/11/26-19:35:47.367 c307 Compacted 4@0 + 2@1 files => 6804276 bytes
+2021/11/26-19:35:47.371 c307 compacted to: files[ 1 2 1 0 0 0 0 ]
+2021/11/26-19:35:47.372 c307 Delete type=2 #85
+2021/11/26-19:35:47.372 c307 Delete type=2 #80
+2021/11/26-19:35:47.372 c307 Delete type=2 #87
+2021/11/26-19:35:47.372 c307 Delete type=2 #89
+2021/11/26-19:35:47.372 c307 Delete type=2 #81
+2021/11/26-19:35:47.372 c307 Delete type=2 #83
+2021/11/26-19:35:49.512 be49 Level-0 table #95: started
+2021/11/26-19:35:49.720 be49 Level-0 table #95: 6804063 bytes OK
+2021/11/26-19:35:49.726 be49 Delete type=0 #90
+2021/11/26-19:35:51.187 c307 Level-0 table #97: started
+2021/11/26-19:35:51.289 c307 Level-0 table #97: 6804007 bytes OK
+2021/11/26-19:35:51.296 c307 Delete type=0 #94

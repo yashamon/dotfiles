@@ -437,3 +437,22 @@ exec ~/.config/sway/alttab next; swaymsg fullscreen
 : 1637969211:0;/usr/bin/pacman -Qq > /home/yasha/dotfiles/pkglist.txt
 : 1637969219:0;j /home/yasha/dotfiles
 : 1637969220:0;push
+: 1637969242:0;git pull
+: 1637969255:0;vrc
+: 1637969295:0;push
+: 1637969742:0;paru -Syu
+: 1637969773:0;paru -Rsc screenrotator-git
+: 1637969783:0;paru -S gitk
+: 1637969790:0;paru -Ss git
+: 1637969796:0;paru -Ss git | nightly
+: 1637969805:0;paru -Ss gitk | nightly
+: 1637969808:0;gitk
+: 1637970548:0;swrc
+: 1637976491:0;neo
+: 1637977360:0;paru -S river
+: 1637977710:0;vrc
+: 1637978006:0;neo
+: 1637979179:0;vrc
+: 1637979312:0;neo
+: 1637979396:0;j /home/yasha/dotfiles
+: 1637979397:0;push
