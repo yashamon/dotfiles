@@ -549,16 +549,16 @@ noremap <m-l> viwy:bdelete<cr>:execute "buffer" g:buf<cr>:<c-r>+<cr>:TZAtaraxis<
 " noremap <m-l> viwy<esc>:bp<cr>:<c-r>+<cr>
 
 
-" vimtex settings
-"
-"
-"
-
-
-" let g:vimtex_view_general_options = '-r @line @pdf @tex'
-let g:latex_view_general_viewer = 'zathura'
-let g:vimtex_view_method = "zathura"
-let g:vimtex_view_automatic = 0
+" " vimtex settings
+" "
+" "
+" "
+" 
+" 
+" " let g:vimtex_view_general_options = '-r @line @pdf @tex'
+" let g:latex_view_general_viewer = 'zathura'
+" let g:vimtex_view_method = "zathura"
+" let g:vimtex_view_automatic = 0
 
 "fvim
 "
