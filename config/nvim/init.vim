@@ -645,8 +645,7 @@ nmap <leader>m :w<cr>:silent ! cat % >> ~/workspace/email.txt; cp % /tmp/temp; m
 "
 "
 "Vifm
-let g:vifmLiveCwd=1
-let g:vifmUseCurrent=1
+
 
 "Autosave and autocommit   
 " let g:updatetime = 10000
