@@ -506,11 +506,6 @@ au FileType tex,text,md nmap 0 g^
 au FileType tex,text,md noremap 9 g$
 au FileType tex,text,md nnoremap dd "_g^dg$g^
 
-"au FileType tex,text,md inoremap <A><CR> <CR>
-" au FileType tex,text,md inoremap <CR> <Esc><CR>
-" au FileType tex,text,md inoremap . .<CR><ESC>J0i
-" au FileType tex,text,md inoremap <leader>. .
-
 " au FileType tex,text,md inoremap .<CR> .<CR><ESC>J0
 " au FileType tex,text,md inoremap .<Space> .<CR><ESC>J0
 " au FileType tex,text,md inoremap .<ESC> .<CR><ESC>J0
