@@ -459,6 +459,8 @@ au FileType tex,text,md noremap 9 g$
 au FileType tex,text,md noremap map o gj0i<CR><ESC>gki
 a;lskjfa ;skjfas; fsa;lfjas;lfj ;salf jsa;lf jsa;ljf as;dlfkj aslf jsafl jfd;asldkjf ;saf
 
+
+
 "Neovim mappings
 " :tnoremap <S-h> <C-\><C-n><C-w>h
 " :tnoremap <S-j> <C-\><C-n><C-w>j
