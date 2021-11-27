@@ -552,8 +552,6 @@ noremap <m-l> viwy:bdelete<cr>:execute "buffer" g:buf<cr>:<c-r>+<cr>:TZAtaraxis<
 " vimtex settings
 "
 "
-"
-
 
 tex'
 let g:latex_view_general_viewer = 'zathura'
