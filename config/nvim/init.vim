@@ -1501,4 +1501,4 @@ EOF
    " omap t <Plug>Sneak_s
     " omap T <Plug>Sneak_S 
     " math maps   
-
+"" let g:vimtex_view_general_options = '-r @line @pdf @
