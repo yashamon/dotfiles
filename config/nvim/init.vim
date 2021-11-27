@@ -455,7 +455,7 @@ inoremap <C-]> <C-x><C-]>
 
 au FileType tex,text,md nmap 0 g^
 au FileType tex,text,md noremap 9 g$
-au FileType tex,text,md nnoremap dd "_g^dg$g^
+" au FileType tex,text,md nnoremap dd "_g^dg$g^
 au FileType tex,text,md noremap map o gj0i<CR><ESC>gki
 
 "Neovim mappings
@@ -1162,7 +1162,7 @@ lua << EOF
 require('fzf-lua').setup{
 -- ...
 }
-
+EOF
 
 " lua << EOF
 " require("stabilize").setup(
