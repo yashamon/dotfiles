@@ -95,7 +95,7 @@ assign [app_id="google-chrome-unstable"] workspace 2
 assign [app_id="goneovim"] workspace 1  
 # workspace 2
 
-assign [app_id="] workspace 7
+assign [app_id="steam"] workspace 6
 
 for_window [window_role="pop-up"] floating enable
 for_window [window_role="bubble"] floating enable
