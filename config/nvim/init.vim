@@ -488,7 +488,8 @@ noremap S <Esc> :wa<cr>:BLines<CR>
 noremap <m-b> <Esc>:wa<cr>:Buffers<CR>
 " noremap F <Esc>:GFiles<CR>
 map <A-e> :wa<cr>:FZF ~<CR> 
-map <m-f> :wa<cr>:FZF ~<CR>
+map <m-f> :wa<cr>:FZF ~<CR> 
+
 "miscellaneous
 map :tags  exe ":silent ! /usr/local/bin/ctags -R"
 nmap <leader>g :w<cr>:TZAtaraxis<CR>
@@ -781,18 +782,6 @@ local on_attach = function(client, bufnr)
 
 end
 
--- Use a loop to conveniently call 'setup' on multiple servers and
--- map buffer local keybindings when the language server attaches
---local servers = {'pyright', 'tsserver', 'texlab', 'jsonls'}
---for _, lsp in ipairs(servers) do
---nvim_lsp[lsp].setup {
- --   on_attach = on_attach,
-  --  flags = {
-   --   debounce_text_changes = 150,
-   -- }
---  }
---end
-EOF
 
 
 "Lsp install
