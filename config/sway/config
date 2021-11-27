@@ -14,6 +14,8 @@ bindsym Mod1+shift+tab exec "~/.config/sway/alttab; sleep 0.3; swaymsg fullscree
 
 
 
+
+
 set $left h
 set $down j
 set $up k
