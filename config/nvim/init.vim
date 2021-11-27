@@ -630,7 +630,7 @@ nmap <leader>m :w<cr>:silent ! cat % >> ~/workspace/email.txt; cp % /tmp/temp; m
 " <cr>
 " ; pandoc backup.html > backup.md; cp backup.md %<cr>:e %<cr>
 
-" nmap <leader>l :VimtexCompile<CR>
+
 " nmap <leader>s <Esc>:VimtexErrors<CR>
 " map <leader>g :ZenMode<CR> 
 nmap <leader>g :w<cr>:TZAtaraxis<CR>
