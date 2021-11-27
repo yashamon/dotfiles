@@ -629,7 +629,7 @@ nmap <leader>m :w<cr>:silent ! cat % >> ~/workspace/email.txt; cp % /tmp/temp; m
 
 " <cr>
 " ; pandoc backup.html > backup.md; cp backup.md %<cr>:e %<cr>
-
+map :tags  exe ":silent ! /usr/local/bin/ctags -R"
 nmap <leader>g :w<cr>:TZAtaraxis<CR>
 nmap <leader>p :Denite neoyank -default-action=append<CR>
 " NB: this supports "rp that replaces the selection by the contents of @r
