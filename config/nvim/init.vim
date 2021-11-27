@@ -389,7 +389,7 @@ vnoremap <Leader>U ""y:%s/<C-r>"
 noremap <leader>r :wa<cr>:e<cr>
 noremap <leader>hh :set tw=50<cr>
 noremap <leader>w :set tw=0<cr> 
-noremap q <nop>
+map q <nop>
 noremap <leader>q q
 nmap <m-7> :ZenMode<cr>:mksession!<cr>
 nnoremap <leader>rr :source $MYVIMRC<CR>
