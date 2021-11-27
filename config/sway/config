@@ -10,8 +10,7 @@ set $mod Mod4
 # Home row direction keys, like vim
 
 bindsym Mod1+tab exec "~/.config/sway/alttab next; sleep 
-0.2; swaymsg fullscreen"
-bindsym Mod1+shift+tab exec "~/.config/sway/alttab; sleep 0.15; swaymsg fullscreen"
+0.2; swa15; swaymsg fullscreen"
 
 set $left h
 set $down j
