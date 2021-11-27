@@ -1,13 +1,6 @@
 ### Variables ###
 # Logo key
 set $mod Mod4 
-# bindsym Mod1+tab exec swaymsg [con_id=$(swaymsg -t get_tree | ~/.config/sway/alttab t)] fullscreen
-# bindsym Mod1+shift+tab exec swaymsg [con_id=$(swaymsg -t get_tree | ~/.config/sway/alttab f)] fullscreen
-#  bindsym  Mod1+Tab exec ~/.config/sway/modules/alttab next 
-# # # bindsym $mod+tab exec ~/.config/sway/modules/alttab next
-# # 
-#  bindsym  Mod1+Shift+Tab exec alttab prev
-# Home row direction keys, like vim
 
 bindsym Mod1+tab exec "~/.config/sway/alttab next; sleep 0.2; swaymsg fullscreen" 
 bindsym Mod1+shift+tab exec "~/.config/sway/alttab; sleep 0.2; swaymsg fullscreen"
