@@ -459,7 +459,7 @@ map <M-m> <cmd>HopChar1<cr>$
 " map <S-b> ?\$<CR>
 map <M-w> <cmd>HopChar1<cr>}
 map <M-b> <cmd>HopChar1<cr>{
-map q:
+map q: nop
 map <S-C-q> <Esc>:qa!<CR>
 map <m-q> <esc>:wq<cr>
 map <m-Q> <esc>:q<cr>
