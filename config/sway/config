@@ -92,7 +92,7 @@ floating_modifier $mod normal
 ### Window rules ###
 
 # Link some programs to workspaces (swaymsg -t get_tree)
-assign [app_id="firefox"] workspace 2  
+assign [app_id="firefox"] workspace chrome
 assign [app_id="google-chrome-unstable"] workspace chrome
 assign [app_id="goneovim"] workspace 1  
 # workspace 2
