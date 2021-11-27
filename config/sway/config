@@ -13,7 +13,7 @@ set $right l
 # Workspace names
 set $ws1 ed
 set $ws2 chrome
-set $ws3 3
+set $ws3 lf
 set $ws4 4
 set $ws5 5
 set $ws6 steam
