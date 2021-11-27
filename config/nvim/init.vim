@@ -489,6 +489,7 @@ noremap <m-b> <Esc>:wa<cr>:Buffers<CR>
 " noremap F <Esc>:GFiles<CR>
 map <A-e> :wa<cr>:FZF ~<CR> 
 map <m-f> :wa<cr>:FZF ~<CR>
+"miscellaneous
 map :tags  exe ":silent ! /usr/local/bin/ctags -R"
 nmap <leader>g :w<cr>:TZAtaraxis<CR>
 nmap <leader>p :Denite neoyank -default-action=append<CR>
