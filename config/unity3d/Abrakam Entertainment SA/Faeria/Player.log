@@ -11,31 +11,31 @@ int_sprite GL_ARB_polygon_offset_clamp GL_ARB_post_depth_coverage GL_ARB_program
 L_ARB_texture_buffer_object GL_ARB_texture_buffer_object_rgb32 GL_ARB_texture_buffer_range GL_ARB_texture_compression_bptc GL_ARB_texture_compression_rgtc GL_ARB_texture_cube_map_array GL_ARB_texture_filter_anisotropic GL_ARB_texture_float GL_ARB_texture_gather GL_ARB_texture_mirror_clamp_to_edge GL_ARB_texture_multisample GL_ARB_texture_non_power_of_two GL_ARB_texture_query_levels GL_ARB_texture_query_lod GL_ARB_texture_rectangle GL_ARB_texture_rg GL_ARB_texture_rgb10_a2ui GL_ARB_texture_stencil8 GL_ARB_texture_storage GL_ARB_texture_storage_multisample GL_ARB_texture_swizzle GL_ARB_texture_view GL_ARB_timer_query GL_ARB_transform_feedback2 GL_ARB_transform_feedback3 GL_ARB_transform_feedback_instanced GL_ARB_transform_feedback_overflow_query GL_ARB_uniform_buffer_object GL_ARB_vertex_array_bgra GL_ARB_vertex_array_object GL_ARB_vertex_attrib_64bit GL_ARB_vertex_attrib_binding GL_ARB_vertex_buffer_object GL_ARB_vertex_shader GL_ARB_vertex_type_10f_11f_11f_rev GL_ARB_vertex_type_2_10_10_10_rev GL_ARB_viewpor
 t_array GL_ATI_blend_equation_separate GL_ATI_texture_float GL_EXT_EGL_image_storage GL_EXT_EGL_sync GL_EXT_abgr GL_EXT_blend_equation_separate GL_EXT_demote_to_helper_invocation GL_EXT_draw_buffers2 GL_EXT_draw_instanced GL_EXT_framebuffer_blit GL_EXT_framebuffer_multisample GL_EXT_framebuffer_multisample_blit_scaled GL_EXT_framebuffer_object GL_EXT_framebuffer_sRGB GL_EXT_memory_object GL_EXT_memory_object_fd GL_EXT_packed_depth_stencil GL_EXT_packed_float GL_EXT_pixel_buffer_object GL_EXT_polygon_offset_clamp GL_EXT_provoking_vertex GL_EXT_semaphore GL_EXT_semaphore_fd GL_EXT_shader_framebuffer_fetch GL_EXT_shader_framebuffer_fetch_non_coherent GL_EXT_shader_integer_mix GL_EXT_shader_samples_identical GL_EXT_texture_array GL_EXT_texture_compression_dxt1 GL_EXT_texture_compression_rgtc GL_EXT_texture_compression_s3tc GL_EXT_texture_filter_anisotropic GL_EXT_texture_integer GL_EXT_texture_sRGB GL_EXT_texture_sRGB_R8 GL_EXT_texture_sRGB_decode GL_EXT_texture_shadow_lod GL_EXT_texture_shared_exponent GL_EXT_t
 exture_snorm GL_EXT_texture_swizzle GL_EXT_timer_query GL_EXT_transform_feedback GL_EXT_vertex_array_bgra GL_EXT_vertex_attrib_64bit GL_IBM_multimode_draw_arrays GL_INTEL_blackhole_render GL_INTEL_conservative_rasterization GL_INTEL_performance_query GL_INTEL_shader_atomic_float_minmax GL_INTEL_shader_integer_functions2 GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent GL_KHR_context_flush_control GL_KHR_debug GL_KHR_no_error GL_KHR_parallel_shader_compile GL_KHR_robust_buffer_access_behavior GL_KHR_robustness GL_KHR_texture_compression_astc_ldr GL_KHR_texture_compression_astc_sliced_3d GL_MESA_framebuffer_flip_y GL_MESA_pack_invert GL_MESA_shader_integer_functions GL_MESA_texture_signed_rgba GL_NV_compute_shader_derivatives GL_NV_conditional_render GL_NV_copy_image GL_NV_depth_clamp GL_NV_fragment_shader_interlock GL_NV_packed_depth_stencil GL_NV_texture_barrier GL_OES_EGL_image GL_S3_s3tc
-OPENGL LOG: Creating OpenGL 4.6 graphics device ; Context level  <OpenGL 4.5> ; Context handle 71125200
+OPENGL LOG: Creating OpenGL 4.6 graphics device ; Context level  <OpenGL 4.5> ; Context handle 71094800
 Begin MonoManager ReloadAssembly
-- Completed reload, in  0.101 seconds
+- Completed reload, in  0.105 seconds
 Default vsync count 1
 requesting resize 1280 x 720
 Using native desktop resolution 1280 x 720
 requesting fullscreen 1280 x 720 at 0 Hz
 Desktop is 1280 x 720 @ 60 Hz
-UnloadTime: 0.474000 ms
+UnloadTime: 0.681000 ms
 No AchievementsMappingList file was loaded from the resources
  
 (Filename: ./Runtime/Export/Debug.bindings.h Line: 45)
 
 Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 0.424000 ms
+UnloadTime: 4.219000 ms
 
 Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 3567.
-Total: 19.038000 ms (FindLiveObjects: 0.348000 ms CreateObjectMapping: 0.160000 ms MarkObjects: 18.445000 ms  DeleteObjects: 0.085000 ms)
+Total: 21.186000 ms (FindLiveObjects: 0.451000 ms CreateObjectMapping: 0.232000 ms MarkObjects: 20.385000 ms  DeleteObjects: 0.118000 ms)
 
 Routing server: <color=white>https://routing.faeria.com:8086</color>
 Debug mode: <color=white>False</color>
 Does disable auto login mode: <color=white>False</color>
 Setting up 2 worker threads for Enlighten.
-  Thread -> id: 7fd4a99a5640 -> priority: 1 
-  Thread -> id: 7fd4a91a4640 -> priority: 1 
+  Thread -> id: 7f797bcbd640 -> priority: 1 
+  Thread -> id: 7f797b4bc640 -> priority: 1 
 LocalisationManager is initialised
 Client version number : <color=white>2.21.7536.27532</color>
 NotLoggedInState.TryLogin
@@ -68,10 +68,10 @@ RequestAuthTokenCoroutineRoutingServer
 }
 [INFO]: Obtained steam authticket
 Token for <color=white>https://routing.faeria.com</color>:
-14000000407C6417C075D75BCBAE270101001001D32FA161180000000100000002000000FC6A937462697F46BC4A070002000000D00000005000000004000000CBAE270101001001040F060058CBA72D7144A8C0000000007A599461FA08B0610100EE5104000500886F0D000000896F0D000000A4570E000000EE760E0000000A1810000000000005013807102BC23FFEB62F09933ED9A72E28203898B5541AF7F20B8527DC692BDCCFE4B0110DAB1671007C8E2C372C92942411EDDD4794CF477DB3A442732D06D151755979D5987941FC456790D4A1DE66F75BB29D42A285A84F072DC094F833398C52AAE6CF2D20A8D0083DA14C3616D3B71ACC1699B69BCE38DBA36CA17259
+14000000AE41B96A42AF11B7CBAE270101001001B661A26118000000010000000200000039BB8C96889D3AFFE8BA000002000000D00000005000000004000000CBAE270101001001040F060058CBA72D7144A8C000000000B861A2613811BE610100EE5104000500886F0D000000896F0D000000A4570E000000EE760E0000000A18100000000000B420D5605BE4CB0905C40AA1C4D7F37FC09B0090560190FCF2F046221ACA668BE8306006EAAF431E30747979BB78B8F3FA1C9C773C90B4B21CBE58A85040DC31DED5F92CCB2DC09C45314A698BB7E608F9F21E378CDE35BC3D6DE28D31D95BDB732D3BA9F8E35CAE6E3809D7B624A962ED35C4E5F26ACCB929ED2C5CC01FF689
 RoutingTableRequest_v0002
  {
-    "token": "14000000407C6417C075D75BCBAE270101001001D32FA161180000000100000002000000FC6A937462697F46BC4A070002000000D00000005000000004000000CBAE270101001001040F060058CBA72D7144A8C0000000007A599461FA08B0610100EE5104000500886F0D000000896F0D000000A4570E000000EE760E0000000A1810000000000005013807102BC23FFEB62F09933ED9A72E28203898B5541AF7F20B8527DC692BDCCFE4B0110DAB1671007C8E2C372C92942411EDDD4794CF477DB3A442732D06D151755979D5987941FC456790D4A1DE66F75BB29D42A285A84F072DC094F833398C52AAE6CF2D20A8D0083DA14C3616D3B71ACC1699B69BCE38DBA36CA17259",
+    "token": "14000000AE41B96A42AF11B7CBAE270101001001B661A26118000000010000000200000039BB8C96889D3AFFE8BA000002000000D00000005000000004000000CBAE270101001001040F060058CBA72D7144A8C000000000B861A2613811BE610100EE5104000500886F0D000000896F0D000000A4570E000000EE760E0000000A18100000000000B420D5605BE4CB0905C40AA1C4D7F37FC09B0090560190FCF2F046221ACA668BE8306006EAAF431E30747979BB78B8F3FA1C9C773C90B4B21CBE58A85040DC31DED5F92CCB2DC09C45314A698BB7E608F9F21E378CDE35BC3D6DE28D31D95BDB732D3BA9F8E35CAE6E3809D7B624A962ED35C4E5F26ACCB929ED2C5CC01FF689",
     "infraType": "PROD",
     "runtimePlatform": "LinuxPlayer",
     "clientStorePlatform": "STEAM",
@@ -130,7 +130,9 @@ RequestAuthTokenCoroutineTranslationServer
 }
 [INFO]: Obtained steam authticket
 Token for <color=white>https://translator.faeria.com</color>:
-14000000A0935E146071BD8ACBAE270101001001D32FA161180000000100000002000000F207EEB63652AD2E8E56070003000000D00000005000000004000000CBAE270101001001040F060058CBA72D7144A8C0000000007A599461FA08B0610100EE5104000500886F0D000000896F0D000000A4570E000000EE760E0000000A1810000000000005013807102BC23FFEB62F09933ED9A72E28203898B5541AF7F20B8527DC692BDCCFE4B0110DAB1671007C8E2C372C92942411EDDD4794CF477DB3A442732D06D151755979D5987941FC456790D4A1DE66F75BB29D42A285A84F072DC094F833398C52AAE6CF2D20A8D0083DA14C3616D3B71ACC1699B69BCE38DBA36CA17259
+140000007BB6DA4B1DE8A318CBAE270101001001B661A261180000000100000002000000BA3CF235C2A772DE82C6000003000000D00000005000000004000000CBAE270101001001040F060058CBA72D7144A8C000000000B861A2613811BE610100EE5104000500886F0D000000896F0D000000A4570E000000EE760E0000000A18100000000000B420D5605BE4CB0905C40AA1C4D7F37FC09B0090560190FCF2F046221ACA668BE8306006EAAF431E30747979BB78B8F3FA1C9C773C90B4B21CBE58A85040DC31DED5F92CCB2DC09C45314A698BB7E608F9F21E378CDE35BC3D6DE28D31D95BDB732D3BA9F8E35CAE6E3809D7B624A962ED35C4E5F26ACCB929ED2C5CC01FF689
+Changing real window size to 424 x 686
+Changing real window size to 1280 x 720
 [WARNING]: No joystick found with the id 0
  
 (Filename: ./Runtime/Export/Debug.bindings.h Line: 45)
@@ -143,12 +145,12 @@ To Debug, enable the define: TLA_DEBUG_STACK_LEAK in ThreadsafeLinearAllocator.c
  
 (Filename:  Line: 539)
 
-Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 12)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 8)
  
 (Filename:  Line: 311)
 
 Unloading 3 Unused Serialized files (Serialized files now loaded: 16)
-UnloadTime: 24.200000 ms
+UnloadTime: 22.773000 ms
 ApplicationManager Awake
 /home/yasha/.config/unity3d/Abrakam Entertainment SA/Faeria
 FetchGameServersIPs - START
@@ -161,14 +163,14 @@ FetchGameServersIPs - WaitUntil HasNetwork START
 
 
 Unloading 142 unused Assets to reduce memory usage. Loaded Objects now: 17330.
-Total: 67.707000 ms (FindLiveObjects: 1.078000 ms CreateObjectMapping: 0.706000 ms MarkObjects: 65.569000 ms  DeleteObjects: 0.353000 ms)
+Total: 68.603000 ms (FindLiveObjects: 1.244000 ms CreateObjectMapping: 0.728000 ms MarkObjects: 66.106000 ms  DeleteObjects: 0.525000 ms)
 
 FetchGameServersIPs - WaitUntil HasNetwork END
  
 (Filename: ./Runtime/Export/Debug.bindings.h Line: 45)
 
 HandleWebRequestDtoResponse - Enter - URL : https://routing.faeria.com:8086/game_servers_ips.PROD.json
-Scene[<color=orange>WELCOME</color>] loading time = <color=cyan>0.1414185</color>
+Scene[<color=orange>WELCOME</color>] loading time = <color=cyan>0.1455803</color>
 HandleWebRequestDtoResponse - After SendWebRequest
 HandleWebRequestDtoResponse - After SendWebRequest - locRequestResult : {
     "regions": [
@@ -225,16 +227,17 @@ NetworkUtilities - PingTcp - 3.125.43.18 - START
 ApplicationManager.PingGameServersCoroutine - WorldNetworkManager.IsConnected() return true.
 NetworkUtilities - PingTcp - 54.254.194.167 - START
 Token for <color=white>world-prod.faeria.com</color>:
-140000008A605269462EC839CBAE270101001001D32FA161180000000100000002000000B47C89CEC87E90EC5E99070004000000D00000005000000004000000CBAE270101001001040F060058CBA72D7144A8C0000000007A599461FA08B0610100EE5104000500886F0D000000896F0D000000A4570E000000EE760E0000000A1810000000000005013807102BC23FFEB62F09933ED9A72E28203898B5541AF7F20B8527DC692BDCCFE4B0110DAB1671007C8E2C372C92942411EDDD4794CF477DB3A442732D06D151755979D5987941FC456790D4A1DE66F75BB29D42A285A84F072DC094F833398C52AAE6CF2D20A8D0083DA14C3616D3B71ACC1699B69BCE38DBA36CA17259
+140000008C599278D485361ACBAE270101001001B661A261180000000100000002000000F4879FAE01CDFB871602010004000000D00000005000000004000000CBAE270101001001040F060058CBA72D7144A8C000000000B861A2613811BE610100EE5104000500886F0D000000896F0D000000A4570E000000EE760E0000000A18100000000000B420D5605BE4CB0905C40AA1C4D7F37FC09B0090560190FCF2F046221ACA668BE8306006EAAF431E30747979BB78B8F3FA1C9C773C90B4B21CBE58A85040DC31DED5F92CCB2DC09C45314A698BB7E608F9F21E378CDE35BC3D6DE28D31D95BDB732D3BA9F8E35CAE6E3809D7B624A962ED35C4E5F26ACCB929ED2C5CC01FF689
 NetworkUtilities - PingTcp - 54.226.176.175 - ConnectAsync
 NetworkUtilities - PingTcp - 54.254.194.167 - ConnectAsync
 NetworkUtilities - PingTcp - 3.125.43.18 - ConnectAsync
-NetworkUtilities - PingTcp - 54.226.176.175 - TrySetResult 714.5005
+NetworkUtilities - PingTcp - 54.226.176.175 - TrySetResult 697.0465
 ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH).
-NetworkUtilities - PingTcp - 3.125.43.18 - TrySetResult 774.3149
+NetworkUtilities - PingTcp - 3.125.43.18 - TrySetResult 755.1415
 ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH).
 Add faeria friend social user. FaeriaId: 518250, PlatformId: 76561198118200384, UserName: Stormind
 Add faeria friend social user. FaeriaId: 547415, PlatformId: 76561198133130770, UserName: PapaRoach
+Add faeria friend social user. FaeriaId: 434107, PlatformId: 76561198007722368, UserName: chopo
 Add faeria friend social user. FaeriaId: 44829, PlatformId: 76561197990316890, UserName: shalkys
 Add faeria friend social user. FaeriaId: 9149, PlatformId: 76561197963845272, UserName: Brundle
 Add faeria friend social user. FaeriaId: 131465, PlatformId: 76561198077989091, UserName: Zydar
@@ -257,72 +260,33 @@ SignInSuccess - Next
 Unloading 2 Unused Serialized files (Serialized files now loaded: 16)
 
 Unloading 473 unused Assets to reduce memory usage. Loaded Objects now: 17748.
-Total: 103.085000 ms (FindLiveObjects: 2.519000 ms CreateObjectMapping: 1.749000 ms MarkObjects: 97.715000 ms  DeleteObjects: 1.101000 ms)
+Total: 82.961000 ms (FindLiveObjects: 2.334000 ms CreateObjectMapping: 1.089000 ms MarkObjects: 78.524000 ms  DeleteObjects: 1.013000 ms)
 
-Scene[<color=orange>HOME</color>] loading time = <color=cyan>0.3595276</color>
+Scene[<color=orange>HOME</color>] loading time = <color=cyan>0.398243</color>
 Message [<color=magenta>GO_TO_PLAY_MENU</color>] to State [<color=yellow>HomeState</color>]
 ChangeState[<color=yellow>HomeState</color>]->[<color=green>PlayMenuState</color>]
 Unloading 2 Unused Serialized files (Serialized files now loaded: 16)
 
-Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 20419.
-Total: 105.339000 ms (FindLiveObjects: 3.510000 ms CreateObjectMapping: 1.494000 ms MarkObjects: 100.220000 ms  DeleteObjects: 0.113000 ms)
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 18960.
+Total: 111.206000 ms (FindLiveObjects: 3.253000 ms CreateObjectMapping: 1.605000 ms MarkObjects: 106.205000 ms  DeleteObjects: 0.141000 ms)
 
-Scene[<color=orange>PLAY_MENU</color>] loading time = <color=cyan>0.5249329</color>
+Scene[<color=orange>PLAY_MENU</color>] loading time = <color=cyan>0.4585648</color>
 Message [<color=magenta>GO_TO_CONSTRUCTED_MODE</color>] to State [<color=yellow>PlayMenuState</color>]
 ChangeState[<color=yellow>PlayMenuState</color>]->[<color=green>DeckSelectionState</color>]
 Unloading 1 Unused Serialized files (Serialized files now loaded: 16)
 
-Unloading 48 unused Assets to reduce memory usage. Loaded Objects now: 20422.
-Total: 120.265000 ms (FindLiveObjects: 4.334000 ms CreateObjectMapping: 1.994000 ms MarkObjects: 113.693000 ms  DeleteObjects: 0.244000 ms)
+Unloading 33 unused Assets to reduce memory usage. Loaded Objects now: 18963.
+Total: 89.363000 ms (FindLiveObjects: 1.851000 ms CreateObjectMapping: 0.720000 ms MarkObjects: 86.573000 ms  DeleteObjects: 0.219000 ms)
 
-ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH) ENDED.
-ApplicationManager.PingGameServersCoroutine - Wait WorldNetworkManager.IsConnected()
-ApplicationManager.PingGameServersCoroutine - WorldNetworkManager.IsConnected() return true.
-NetworkUtilities - PingTcp - 54.226.176.175 - START
-NetworkUtilities - PingTcp - 54.226.176.175 - ConnectAsync
-NetworkUtilities - PingTcp - 54.226.176.175 - TrySetResult 4.9933
-ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH).
-ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH) ENDED.
-ApplicationManager.PingGameServersCoroutine - Wait WorldNetworkManager.IsConnected()
-ApplicationManager.PingGameServersCoroutine - WorldNetworkManager.IsConnected() return true.
-NetworkUtilities - PingTcp - 3.125.43.18 - START
-NetworkUtilities - PingTcp - 3.125.43.18 - ConnectAsync
-NetworkUtilities - PingTcp - 3.125.43.18 - TrySetResult 4.5892
-ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH).
-Scene[<color=orange>DECK_SELECTION</color>] loading time = <color=cyan>0.3638611</color>
+Scene[<color=orange>DECK_SELECTION</color>] loading time = <color=cyan>0.2991982</color>
 Message [<color=magenta>GO_TO_COLLECTION</color>] to State [<color=yellow>DeckSelectionState</color>]
 ChangeState[<color=yellow>DeckSelectionState</color>]->[<color=green>CollectionState</color>]
 Unloading 1 Unused Serialized files (Serialized files now loaded: 16)
 
-Unloading 39 unused Assets to reduce memory usage. Loaded Objects now: 20427.
-Total: 100.816000 ms (FindLiveObjects: 2.078000 ms CreateObjectMapping: 0.869000 ms MarkObjects: 97.651000 ms  DeleteObjects: 0.218000 ms)
+Unloading 39 unused Assets to reduce memory usage. Loaded Objects now: 18969.
+Total: 120.579000 ms (FindLiveObjects: 1.863000 ms CreateObjectMapping: 0.963000 ms MarkObjects: 117.503000 ms  DeleteObjects: 0.249000 ms)
 
-Scene[<color=orange>COLLECTION</color>] loading time = <color=cyan>0.5869141</color>
-requesting resize 1280 x 720
-resizing window to 1280 x 720
-Desktop is 1280 x 720 @ 60 Hz
-ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH) ENDED.
-ApplicationManager.PingGameServersCoroutine - Wait WorldNetworkManager.IsConnected()
-ApplicationManager.PingGameServersCoroutine - WorldNetworkManager.IsConnected() return true.
-NetworkUtilities - PingTcp - 54.226.176.175 - START
-NetworkUtilities - PingTcp - 54.226.176.175 - ConnectAsync
-NetworkUtilities - PingTcp - 54.226.176.175 - TrySetResult 6.7559
-ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH).
-ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH) ENDED.
-ApplicationManager.PingGameServersCoroutine - Wait WorldNetworkManager.IsConnected()
-ApplicationManager.PingGameServersCoroutine - WorldNetworkManager.IsConnected() return true.
-NetworkUtilities - PingTcp - 3.125.43.18 - START
-NetworkUtilities - PingTcp - 3.125.43.18 - ConnectAsync
-NetworkUtilities - PingTcp - 3.125.43.18 - TrySetResult 4.9267
-ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH).
-requesting resize 1280 x 720
-Using native desktop resolution 1280 x 720
-requesting fullscreen 1280 x 720 at 0 Hz
-Desktop is 1280 x 720 @ 60 Hz
-NetworkUtilities - PingTcp - 54.254.194.167 - Exception System.Net.Sockets.SocketException (0x80004005): Connection timed out
-  at System.Net.Sockets.TcpClient.Connect (System.String hostname, System.Int32 port) [0x0019d] in <245cba593bdc463bacb144cf356a8b4b>:0 
-  at Abrakam.NetworkUtilities+<>c__DisplayClass12_0.<PingTcp>b__0 (System.Object state) [0x0002d] in <9e7db509c3c94e2bb6d090483cb7e0bf>:0 
-ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH).
+Scene[<color=orange>COLLECTION</color>] loading time = <color=cyan>0.5732918</color>
 TOOLTIP_BLUE does not exists in default dictionary : English
  
 (Filename: ./Runtime/Export/Debug.bindings.h Line: 45)
@@ -339,142 +303,1490 @@ TOOLTIP_GREEN does not exists in default dictionary : English
  
 (Filename: ./Runtime/Export/Debug.bindings.h Line: 45)
 
-ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH) ENDED.
-ApplicationManager.PingGameServersCoroutine - Wait WorldNetworkManager.IsConnected()
-ApplicationManager.PingGameServersCoroutine - WorldNetworkManager.IsConnected() return true.
-NetworkUtilities - PingTcp - 54.226.176.175 - START
-NetworkUtilities - PingTcp - 54.226.176.175 - ConnectAsync
-NetworkUtilities - PingTcp - 54.226.176.175 - TrySetResult 6.1604
-ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH).
-ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH) ENDED.
-ApplicationManager.PingGameServersCoroutine - Wait WorldNetworkManager.IsConnected()
-ApplicationManager.PingGameServersCoroutine - WorldNetworkManager.IsConnected() return true.
-NetworkUtilities - PingTcp - 3.125.43.18 - START
-NetworkUtilities - PingTcp - 3.125.43.18 - ConnectAsync
-NetworkUtilities - PingTcp - 3.125.43.18 - TrySetResult 4.6144
-ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH).
-ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH) ENDED.
-ApplicationManager.PingGameServersCoroutine - Wait WorldNetworkManager.IsConnected()
-ApplicationManager.PingGameServersCoroutine - WorldNetworkManager.IsConnected() return true.
-NetworkUtilities - PingTcp - 54.254.194.167 - START
-NetworkUtilities - PingTcp - 54.254.194.167 - ConnectAsync
-ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH) ENDED.
-ApplicationManager.PingGameServersCoroutine - Wait WorldNetworkManager.IsConnected()
-ApplicationManager.PingGameServersCoroutine - WorldNetworkManager.IsConnected() return true.
-NetworkUtilities - PingTcp - 54.226.176.175 - START
-NetworkUtilities - PingTcp - 54.226.176.175 - ConnectAsync
-NetworkUtilities - PingTcp - 54.226.176.175 - TrySetResult 6.1483
-ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH).
-ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH) ENDED.
-ApplicationManager.PingGameServersCoroutine - Wait WorldNetworkManager.IsConnected()
-ApplicationManager.PingGameServersCoroutine - WorldNetworkManager.IsConnected() return true.
-NetworkUtilities - PingTcp - 3.125.43.18 - START
-NetworkUtilities - PingTcp - 3.125.43.18 - ConnectAsync
-NetworkUtilities - PingTcp - 3.125.43.18 - TrySetResult 5.7149
-ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH).
-ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH) ENDED.
-ApplicationManager.PingGameServersCoroutine - Wait WorldNetworkManager.IsConnected()
-ApplicationManager.PingGameServersCoroutine - WorldNetworkManager.IsConnected() return true.
-NetworkUtilities - PingTcp - 54.226.176.175 - START
-NetworkUtilities - PingTcp - 54.226.176.175 - ConnectAsync
-NetworkUtilities - PingTcp - 54.226.176.175 - TrySetResult 8.4259
-ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH).
-ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH) ENDED.
-ApplicationManager.PingGameServersCoroutine - Wait WorldNetworkManager.IsConnected()
-ApplicationManager.PingGameServersCoroutine - WorldNetworkManager.IsConnected() return true.
-NetworkUtilities - PingTcp - 3.125.43.18 - START
-NetworkUtilities - PingTcp - 3.125.43.18 - ConnectAsync
-NetworkUtilities - PingTcp - 3.125.43.18 - TrySetResult 6.2037
-ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH).
-NetworkUtilities - PingTcp - 54.254.194.167 - Exception System.Net.Sockets.SocketException (0x80004005): Connection timed out
-  at System.Net.Sockets.TcpClient.Connect (System.String hostname, System.Int32 port) [0x0019d] in <245cba593bdc463bacb144cf356a8b4b>:0 
-  at Abrakam.NetworkUtilities+<>c__DisplayClass12_0.<PingTcp>b__0 (System.Object state) [0x0002d] in <9e7db509c3c94e2bb6d090483cb7e0bf>:0 
-ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH).
-ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH) ENDED.
-ApplicationManager.PingGameServersCoroutine - Wait WorldNetworkManager.IsConnected()
-ApplicationManager.PingGameServersCoroutine - WorldNetworkManager.IsConnected() return true.
-NetworkUtilities - PingTcp - 54.226.176.175 - START
-NetworkUtilities - PingTcp - 54.226.176.175 - ConnectAsync
-NetworkUtilities - PingTcp - 54.226.176.175 - TrySetResult 5.1837
-ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH).
-ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH) ENDED.
-ApplicationManager.PingGameServersCoroutine - Wait WorldNetworkManager.IsConnected()
-ApplicationManager.PingGameServersCoroutine - WorldNetworkManager.IsConnected() return true.
-NetworkUtilities - PingTcp - 3.125.43.18 - START
-NetworkUtilities - PingTcp - 3.125.43.18 - ConnectAsync
-NetworkUtilities - PingTcp - 3.125.43.18 - TrySetResult 5.409
-ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH).
-ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH) ENDED.
-ApplicationManager.PingGameServersCoroutine - Wait WorldNetworkManager.IsConnected()
-ApplicationManager.PingGameServersCoroutine - WorldNetworkManager.IsConnected() return true.
-NetworkUtilities - PingTcp - 54.254.194.167 - START
-NetworkUtilities - PingTcp - 54.254.194.167 - ConnectAsync
 Message [<color=magenta>GO_TO_HOME</color>] to State [<color=yellow>CollectionState</color>]
 ChangeState[<color=yellow>CollectionState</color>]->[<color=green>HomeState</color>]
 Unloading 2 Unused Serialized files (Serialized files now loaded: 16)
 
-Unloading 897 unused Assets to reduce memory usage. Loaded Objects now: 21393.
-Total: 148.520000 ms (FindLiveObjects: 2.524000 ms CreateObjectMapping: 1.363000 ms MarkObjects: 142.847000 ms  DeleteObjects: 1.785000 ms)
+Unloading 219 unused Assets to reduce memory usage. Loaded Objects now: 19370.
+Total: 130.146000 ms (FindLiveObjects: 1.432000 ms CreateObjectMapping: 0.655000 ms MarkObjects: 127.135000 ms  DeleteObjects: 0.922000 ms)
 
-Scene[<color=orange>HOME</color>] loading time = <color=cyan>0.3526001</color>
+Scene[<color=orange>HOME</color>] loading time = <color=cyan>0.344368</color>
 Message [<color=magenta>GO_TO_PLAY_MENU</color>] to State [<color=yellow>HomeState</color>]
 ChangeState[<color=yellow>HomeState</color>]->[<color=green>PlayMenuState</color>]
 Unloading 1 Unused Serialized files (Serialized files now loaded: 16)
 
-Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 21404.
-Total: 187.150000 ms (FindLiveObjects: 2.368000 ms CreateObjectMapping: 1.193000 ms MarkObjects: 183.454000 ms  DeleteObjects: 0.134000 ms)
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 19437.
+Total: 146.997000 ms (FindLiveObjects: 4.351000 ms CreateObjectMapping: 1.333000 ms MarkObjects: 141.184000 ms  DeleteObjects: 0.128000 ms)
 
-Scene[<color=orange>PLAY_MENU</color>] loading time = <color=cyan>0.4741211</color>
+Scene[<color=orange>PLAY_MENU</color>] loading time = <color=cyan>0.5144196</color>
 Message [<color=magenta>GO_TO_CONSTRUCTED_MODE</color>] to State [<color=yellow>PlayMenuState</color>]
 ChangeState[<color=yellow>PlayMenuState</color>]->[<color=green>DeckSelectionState</color>]
 Unloading 1 Unused Serialized files (Serialized files now loaded: 16)
 
-Unloading 38 unused Assets to reduce memory usage. Loaded Objects now: 21403.
-Total: 160.626000 ms (FindLiveObjects: 3.941000 ms CreateObjectMapping: 2.170000 ms MarkObjects: 154.289000 ms  DeleteObjects: 0.225000 ms)
+Unloading 28 unused Assets to reduce memory usage. Loaded Objects now: 19436.
+Total: 152.322000 ms (FindLiveObjects: 1.726000 ms CreateObjectMapping: 0.932000 ms MarkObjects: 149.446000 ms  DeleteObjects: 0.216000 ms)
 
-Scene[<color=orange>DECK_SELECTION</color>] loading time = <color=cyan>0.3371582</color>
+Scene[<color=orange>DECK_SELECTION</color>] loading time = <color=cyan>0.3479691</color>
 ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH) ENDED.
 ApplicationManager.PingGameServersCoroutine - Wait WorldNetworkManager.IsConnected()
 ApplicationManager.PingGameServersCoroutine - WorldNetworkManager.IsConnected() return true.
 NetworkUtilities - PingTcp - 54.226.176.175 - START
-NetworkUtilities - PingTcp - 54.226.176.175 - ConnectAsync
-NetworkUtilities - PingTcp - 54.226.176.175 - TrySetResult 14.1029
-ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH).
 ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH) ENDED.
 ApplicationManager.PingGameServersCoroutine - Wait WorldNetworkManager.IsConnected()
+NetworkUtilities - PingTcp - 54.226.176.175 - ConnectAsync
+NetworkUtilities - PingTcp - 54.226.176.175 - TrySetResult 7.301
 ApplicationManager.PingGameServersCoroutine - WorldNetworkManager.IsConnected() return true.
 NetworkUtilities - PingTcp - 3.125.43.18 - START
 NetworkUtilities - PingTcp - 3.125.43.18 - ConnectAsync
-NetworkUtilities - PingTcp - 3.125.43.18 - TrySetResult 4.5541
+NetworkUtilities - PingTcp - 3.125.43.18 - TrySetResult 3.8847
 ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH).
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH).
+requesting resize 1280 x 720
+resizing window to 1280 x 720
+Desktop is 1280 x 720 @ 60 Hz
+requesting resize 1280 x 720
+Using native desktop resolution 1280 x 720
+requesting fullscreen 1280 x 720 at 0 Hz
+Desktop is 1280 x 720 @ 60 Hz
 ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH) ENDED.
 ApplicationManager.PingGameServersCoroutine - Wait WorldNetworkManager.IsConnected()
 ApplicationManager.PingGameServersCoroutine - WorldNetworkManager.IsConnected() return true.
 NetworkUtilities - PingTcp - 54.226.176.175 - START
-NetworkUtilities - PingTcp - 54.226.176.175 - ConnectAsync
-NetworkUtilities - PingTcp - 54.226.176.175 - TrySetResult 6.1635
-ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH).
 ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH) ENDED.
 ApplicationManager.PingGameServersCoroutine - Wait WorldNetworkManager.IsConnected()
+NetworkUtilities - PingTcp - 54.226.176.175 - ConnectAsync
+NetworkUtilities - PingTcp - 54.226.176.175 - TrySetResult 6.1304
 ApplicationManager.PingGameServersCoroutine - WorldNetworkManager.IsConnected() return true.
 NetworkUtilities - PingTcp - 3.125.43.18 - START
 NetworkUtilities - PingTcp - 3.125.43.18 - ConnectAsync
-NetworkUtilities - PingTcp - 3.125.43.18 - TrySetResult 7.6069
+NetworkUtilities - PingTcp - 3.125.43.18 - TrySetResult 4.2695
 ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH).
-Changing real window size to 1440 x 2560
-Changing real window size to 1280 x 720
-Message [<color=magenta>GO_TO_INGAME</color>] to State [<color=yellow>DeckSelectionState</color>]
-ChangeState[<color=yellow>DeckSelectionState</color>]->[<color=green>IngameState</color>]
-Unloading 2 Unused Serialized files (Serialized files now loaded: 16)
-
-Unloading 39 unused Assets to reduce memory usage. Loaded Objects now: 21680.
-Total: 153.868000 ms (FindLiveObjects: 1.720000 ms CreateObjectMapping: 0.838000 ms MarkObjects: 151.077000 ms  DeleteObjects: 0.232000 ms)
-
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH).
 NetworkUtilities - PingTcp - 54.254.194.167 - Exception System.Net.Sockets.SocketException (0x80004005): Connection timed out
   at System.Net.Sockets.TcpClient.Connect (System.String hostname, System.Int32 port) [0x0019d] in <245cba593bdc463bacb144cf356a8b4b>:0 
   at Abrakam.NetworkUtilities+<>c__DisplayClass12_0.<PingTcp>b__0 (System.Object state) [0x0002d] in <9e7db509c3c94e2bb6d090483cb7e0bf>:0 
 ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH).
-Scene[<color=orange>INGAME</color>] loading time = <color=cyan>3.128418</color>
+Message [<color=magenta>GO_TO_INGAME</color>] to State [<color=yellow>DeckSelectionState</color>]
+ChangeState[<color=yellow>DeckSelectionState</color>]->[<color=green>IngameState</color>]
+Unloading 2 Unused Serialized files (Serialized files now loaded: 16)
+
+Unloading 39 unused Assets to reduce memory usage. Loaded Objects now: 20301.
+Total: 138.021000 ms (FindLiveObjects: 2.205000 ms CreateObjectMapping: 0.706000 ms MarkObjects: 134.858000 ms  DeleteObjects: 0.252000 ms)
+
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH) ENDED.
+ApplicationManager.PingGameServersCoroutine - Wait WorldNetworkManager.IsConnected()
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH) ENDED.
+ApplicationManager.PingGameServersCoroutine - Wait WorldNetworkManager.IsConnected()
+ApplicationManager.PingGameServersCoroutine - WorldNetworkManager.IsConnected() return true.
+NetworkUtilities - PingTcp - 54.226.176.175 - START
+ApplicationManager.PingGameServersCoroutine - WorldNetworkManager.IsConnected() return true.
+NetworkUtilities - PingTcp - 3.125.43.18 - START
+NetworkUtilities - PingTcp - 3.125.43.18 - ConnectAsync
+NetworkUtilities - PingTcp - 54.226.176.175 - ConnectAsync
+NetworkUtilities - PingTcp - 3.125.43.18 - TrySetResult 7.7216
+NetworkUtilities - PingTcp - 54.226.176.175 - TrySetResult 7.7209
+Scene[<color=orange>INGAME</color>] loading time = <color=cyan>3.030701</color>
+RequestAuthTokenCoroutineGameServer
+{
+    "serverType": 1,
+    "serverIp": "game1-eu-prod.faeria.com",
+    "serverPort": 2302,
+    "usesWebSockets": true,
+    "token": "",
+    "ownedDlcIds": "",
+    "nonce": 0,
+    "httpErrorCode": 0,
+    "errorCode": 0,
+    "isInitialised": false,
+    "isAuthenticated": false,
+    "infraType": 0,
+    "forceServerIp": ""
+}
+[INFO]: Obtained steam authticket
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH).
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH).
+Token for <color=white>game1-eu-prod.faeria.com</color>:
+140000008249147E0EABA283CBAE270101001001B661A2611800000001000000020000008CD4B62C78BDB223DBCA030005000000D00000005000000004000000CBAE270101001001040F060058CBA72D7144A8C000000000B861A2613811BE610100EE5104000500886F0D000000896F0D000000A4570E000000EE760E0000000A18100000000000B420D5605BE4CB0905C40AA1C4D7F37FC09B0090560190FCF2F046221ACA668BE8306006EAAF431E30747979BB78B8F3FA1C9C773C90B4B21CBE58A85040DC31DED5F92CCB2DC09C45314A698BB7E608F9F21E378CDE35BC3D6DE28D31D95BDB732D3BA9F8E35CAE6E3809D7B624A962ED35C4E5F26ACCB929ED2C5CC01FF689
+Linux does not yet support bringing Faeria to front
+<color=yellow>PlayIngameDynamicMusic</color>
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH) ENDED.
+ApplicationManager.PingGameServersCoroutine - Wait WorldNetworkManager.IsConnected()
+ApplicationManager.PingGameServersCoroutine - WorldNetworkManager.IsConnected() return true.
+NetworkUtilities - PingTcp - 54.254.194.167 - START
+NetworkUtilities - PingTcp - 54.254.194.167 - ConnectAsync
+<color=yellow>PlayIngameDynamicMusic</color>
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH) ENDED.
+ApplicationManager.PingGameServersCoroutine - Wait WorldNetworkManager.IsConnected()
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH) ENDED.
+ApplicationManager.PingGameServersCoroutine - Wait WorldNetworkManager.IsConnected()
+ApplicationManager.PingGameServersCoroutine - WorldNetworkManager.IsConnected() return true.
+NetworkUtilities - PingTcp - 54.226.176.175 - START
+ApplicationManager.PingGameServersCoroutine - WorldNetworkManager.IsConnected() return true.
+NetworkUtilities - PingTcp - 3.125.43.18 - START
+NetworkUtilities - PingTcp - 54.226.176.175 - ConnectAsync
+NetworkUtilities - PingTcp - 3.125.43.18 - ConnectAsync
+NetworkUtilities - PingTcp - 54.226.176.175 - TrySetResult 6.4683
+NetworkUtilities - PingTcp - 3.125.43.18 - TrySetResult 6.4059
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH).
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH).
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH) ENDED.
+ApplicationManager.PingGameServersCoroutine - Wait WorldNetworkManager.IsConnected()
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH) ENDED.
+ApplicationManager.PingGameServersCoroutine - Wait WorldNetworkManager.IsConnected()
+ApplicationManager.PingGameServersCoroutine - WorldNetworkManager.IsConnected() return true.
+NetworkUtilities - PingTcp - 54.226.176.175 - START
+ApplicationManager.PingGameServersCoroutine - WorldNetworkManager.IsConnected() return true.
+NetworkUtilities - PingTcp - 3.125.43.18 - START
+NetworkUtilities - PingTcp - 3.125.43.18 - ConnectAsync
+NetworkUtilities - PingTcp - 54.226.176.175 - ConnectAsync
+NetworkUtilities - PingTcp - 54.226.176.175 - TrySetResult 4.2686
+NetworkUtilities - PingTcp - 3.125.43.18 - TrySetResult 4.2687
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH).
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH).
+NetworkUtilities - PingTcp - 54.254.194.167 - Exception System.Net.Sockets.SocketException (0x80004005): Connection timed out
+  at System.Net.Sockets.TcpClient.Connect (System.String hostname, System.Int32 port) [0x0019d] in <245cba593bdc463bacb144cf356a8b4b>:0 
+  at Abrakam.NetworkUtilities+<>c__DisplayClass12_0.<PingTcp>b__0 (System.Object state) [0x0002d] in <9e7db509c3c94e2bb6d090483cb7e0bf>:0 
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH).
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH) ENDED.
+ApplicationManager.PingGameServersCoroutine - Wait WorldNetworkManager.IsConnected()
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH) ENDED.
+ApplicationManager.PingGameServersCoroutine - Wait WorldNetworkManager.IsConnected()
+ApplicationManager.PingGameServersCoroutine - WorldNetworkManager.IsConnected() return true.
+NetworkUtilities - PingTcp - 54.226.176.175 - START
+ApplicationManager.PingGameServersCoroutine - WorldNetworkManager.IsConnected() return true.
+NetworkUtilities - PingTcp - 3.125.43.18 - START
+NetworkUtilities - PingTcp - 54.226.176.175 - ConnectAsync
+NetworkUtilities - PingTcp - 3.125.43.18 - ConnectAsync
+NetworkUtilities - PingTcp - 54.226.176.175 - TrySetResult 7.2722
+NetworkUtilities - PingTcp - 3.125.43.18 - TrySetResult 7.5846
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH).
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH).
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH) ENDED.
+ApplicationManager.PingGameServersCoroutine - Wait WorldNetworkManager.IsConnected()
+ApplicationManager.PingGameServersCoroutine - WorldNetworkManager.IsConnected() return true.
+NetworkUtilities - PingTcp - 54.254.194.167 - START
+NetworkUtilities - PingTcp - 54.254.194.167 - ConnectAsync
+LifeDecrease : (-0.2, 0.0, 0.0) : locEffectStrength : 0.2
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH) ENDED.
+ApplicationManager.PingGameServersCoroutine - Wait WorldNetworkManager.IsConnected()
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH) ENDED.
+ApplicationManager.PingGameServersCoroutine - Wait WorldNetworkManager.IsConnected()
+ApplicationManager.PingGameServersCoroutine - WorldNetworkManager.IsConnected() return true.
+NetworkUtilities - PingTcp - 54.226.176.175 - START
+ApplicationManager.PingGameServersCoroutine - WorldNetworkManager.IsConnected() return true.
+NetworkUtilities - PingTcp - 54.226.176.175 - ConnectAsync
+NetworkUtilities - PingTcp - 3.125.43.18 - START
+NetworkUtilities - PingTcp - 3.125.43.18 - ConnectAsync
+NetworkUtilities - PingTcp - 3.125.43.18 - TrySetResult 8.8978
+NetworkUtilities - PingTcp - 54.226.176.175 - TrySetResult 9.3252
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH).
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH).
+LifeDecrease : (0.2, -0.1, 0.0) : locEffectStrength : 0.2
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH) ENDED.
+ApplicationManager.PingGameServersCoroutine - Wait WorldNetworkManager.IsConnected()
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH) ENDED.
+ApplicationManager.PingGameServersCoroutine - Wait WorldNetworkManager.IsConnected()
+ApplicationManager.PingGameServersCoroutine - WorldNetworkManager.IsConnected() return true.
+NetworkUtilities - PingTcp - 54.226.176.175 - START
+ApplicationManager.PingGameServersCoroutine - WorldNetworkManager.IsConnected() return true.
+NetworkUtilities - PingTcp - 3.125.43.18 - START
+NetworkUtilities - PingTcp - 54.226.176.175 - ConnectAsync
+NetworkUtilities - PingTcp - 3.125.43.18 - ConnectAsync
+NetworkUtilities - PingTcp - 3.125.43.18 - TrySetResult 6.4367
+NetworkUtilities - PingTcp - 54.226.176.175 - TrySetResult 6.5186
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH).
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH).
+NetworkUtilities - PingTcp - 54.254.194.167 - Exception System.Net.Sockets.SocketException (0x80004005): Connection timed out
+  at System.Net.Sockets.TcpClient.Connect (System.String hostname, System.Int32 port) [0x0019d] in <245cba593bdc463bacb144cf356a8b4b>:0 
+  at Abrakam.NetworkUtilities+<>c__DisplayClass12_0.<PingTcp>b__0 (System.Object state) [0x0002d] in <9e7db509c3c94e2bb6d090483cb7e0bf>:0 
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH).
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH) ENDED.
+ApplicationManager.PingGameServersCoroutine - Wait WorldNetworkManager.IsConnected()
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH) ENDED.
+ApplicationManager.PingGameServersCoroutine - Wait WorldNetworkManager.IsConnected()
+ApplicationManager.PingGameServersCoroutine - WorldNetworkManager.IsConnected() return true.
+NetworkUtilities - PingTcp - 54.226.176.175 - START
+ApplicationManager.PingGameServersCoroutine - WorldNetworkManager.IsConnected() return true.
+NetworkUtilities - PingTcp - 3.125.43.18 - START
+NetworkUtilities - PingTcp - 3.125.43.18 - ConnectAsync
+NetworkUtilities - PingTcp - 54.226.176.175 - ConnectAsync
+NetworkUtilities - PingTcp - 3.125.43.18 - TrySetResult 6.839
+NetworkUtilities - PingTcp - 54.226.176.175 - TrySetResult 6.7043
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH).
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH).
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH) ENDED.
+ApplicationManager.PingGameServersCoroutine - Wait WorldNetworkManager.IsConnected()
+ApplicationManager.PingGameServersCoroutine - WorldNetworkManager.IsConnected() return true.
+NetworkUtilities - PingTcp - 54.254.194.167 - START
+NetworkUtilities - PingTcp - 54.254.194.167 - ConnectAsync
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH) ENDED.
+ApplicationManager.PingGameServersCoroutine - Wait WorldNetworkManager.IsConnected()
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH) ENDED.
+ApplicationManager.PingGameServersCoroutine - Wait WorldNetworkManager.IsConnected()
+ApplicationManager.PingGameServersCoroutine - WorldNetworkManager.IsConnected() return true.
+NetworkUtilities - PingTcp - 54.226.176.175 - START
+ApplicationManager.PingGameServersCoroutine - WorldNetworkManager.IsConnected() return true.
+NetworkUtilities - PingTcp - 3.125.43.18 - START
+NetworkUtilities - PingTcp - 54.226.176.175 - ConnectAsync
+NetworkUtilities - PingTcp - 3.125.43.18 - ConnectAsync
+NetworkUtilities - PingTcp - 54.226.176.175 - TrySetResult 5.3641
+NetworkUtilities - PingTcp - 3.125.43.18 - TrySetResult 7.4883
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH).
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH).
+LifeDecrease : (0.2, -0.1, 0.0) : locEffectStrength : 0.25
+LifeDecrease : (0.2, -0.1, 0.0) : locEffectStrength : 0.2
+LifeDecrease : (0.2, -0.1, 0.0) : locEffectStrength : 0.25
+LifeDecrease : (0.0, 0.0, 0.0) : locEffectStrength : 0.25
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH) ENDED.
+ApplicationManager.PingGameServersCoroutine - Wait WorldNetworkManager.IsConnected()
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH) ENDED.
+ApplicationManager.PingGameServersCoroutine - Wait WorldNetworkManager.IsConnected()
+ApplicationManager.PingGameServersCoroutine - WorldNetworkManager.IsConnected() return true.
+NetworkUtilities - PingTcp - 54.226.176.175 - START
+NetworkUtilities - PingTcp - 54.226.176.175 - ConnectAsync
+ApplicationManager.PingGameServersCoroutine - WorldNetworkManager.IsConnected() return true.
+NetworkUtilities - PingTcp - 3.125.43.18 - START
+NetworkUtilities - PingTcp - 3.125.43.18 - ConnectAsync
+NetworkUtilities - PingTcp - 54.226.176.175 - TrySetResult 11.9442
+NetworkUtilities - PingTcp - 3.125.43.18 - TrySetResult 11.9501
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH).
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH).
+NetworkUtilities - PingTcp - 54.254.194.167 - Exception System.Net.Sockets.SocketException (0x80004005): Connection timed out
+  at System.Net.Sockets.TcpClient.Connect (System.String hostname, System.Int32 port) [0x0019d] in <245cba593bdc463bacb144cf356a8b4b>:0 
+  at Abrakam.NetworkUtilities+<>c__DisplayClass12_0.<PingTcp>b__0 (System.Object state) [0x0002d] in <9e7db509c3c94e2bb6d090483cb7e0bf>:0 
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH).
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH) ENDED.
+ApplicationManager.PingGameServersCoroutine - Wait WorldNetworkManager.IsConnected()
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH) ENDED.
+ApplicationManager.PingGameServersCoroutine - Wait WorldNetworkManager.IsConnected()
+ApplicationManager.PingGameServersCoroutine - WorldNetworkManager.IsConnected() return true.
+NetworkUtilities - PingTcp - 54.226.176.175 - START
+ApplicationManager.PingGameServersCoroutine - WorldNetworkManager.IsConnected() return true.
+NetworkUtilities - PingTcp - 3.125.43.18 - START
+NetworkUtilities - PingTcp - 54.226.176.175 - ConnectAsync
+NetworkUtilities - PingTcp - 3.125.43.18 - ConnectAsync
+NetworkUtilities - PingTcp - 3.125.43.18 - TrySetResult 9.0063
+NetworkUtilities - PingTcp - 54.226.176.175 - TrySetResult 9.0697
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH).
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH).
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH) ENDED.
+ApplicationManager.PingGameServersCoroutine - Wait WorldNetworkManager.IsConnected()
+ApplicationManager.PingGameServersCoroutine - WorldNetworkManager.IsConnected() return true.
+NetworkUtilities - PingTcp - 54.254.194.167 - START
+NetworkUtilities - PingTcp - 54.254.194.167 - ConnectAsync
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH) ENDED.
+ApplicationManager.PingGameServersCoroutine - Wait WorldNetworkManager.IsConnected()
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH) ENDED.
+ApplicationManager.PingGameServersCoroutine - Wait WorldNetworkManager.IsConnected()
+ApplicationManager.PingGameServersCoroutine - WorldNetworkManager.IsConnected() return true.
+NetworkUtilities - PingTcp - 54.226.176.175 - START
+ApplicationManager.PingGameServersCoroutine - WorldNetworkManager.IsConnected() return true.
+NetworkUtilities - PingTcp - 3.125.43.18 - START
+NetworkUtilities - PingTcp - 54.226.176.175 - ConnectAsync
+NetworkUtilities - PingTcp - 3.125.43.18 - ConnectAsync
+NetworkUtilities - PingTcp - 3.125.43.18 - TrySetResult 5.923
+NetworkUtilities - PingTcp - 54.226.176.175 - TrySetResult 6.0112
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH).
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH).
+LifeDecrease : (-0.1, 0.0, 0.0) : locEffectStrength : 0.15
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH) ENDED.
+ApplicationManager.PingGameServersCoroutine - Wait WorldNetworkManager.IsConnected()
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH) ENDED.
+ApplicationManager.PingGameServersCoroutine - Wait WorldNetworkManager.IsConnected()
+ApplicationManager.PingGameServersCoroutine - WorldNetworkManager.IsConnected() return true.
+NetworkUtilities - PingTcp - 54.226.176.175 - START
+ApplicationManager.PingGameServersCoroutine - WorldNetworkManager.IsConnected() return true.
+NetworkUtilities - PingTcp - 3.125.43.18 - START
+NetworkUtilities - PingTcp - 54.226.176.175 - ConnectAsync
+NetworkUtilities - PingTcp - 3.125.43.18 - ConnectAsync
+NetworkUtilities - PingTcp - 54.226.176.175 - TrySetResult 6.903
+NetworkUtilities - PingTcp - 3.125.43.18 - TrySetResult 6.8663
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH).
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH).
+LifeDecrease : (-0.4, -0.3, 0.0) : locEffectStrength : 0.45
+LifeDecrease : (0.0, 0.2, 0.0) : locEffectStrength : 0.2
+NetworkUtilities - PingTcp - 54.254.194.167 - Exception System.Net.Sockets.SocketException (0x80004005): Connection timed out
+  at System.Net.Sockets.TcpClient.Connect (System.String hostname, System.Int32 port) [0x0019d] in <245cba593bdc463bacb144cf356a8b4b>:0 
+  at Abrakam.NetworkUtilities+<>c__DisplayClass12_0.<PingTcp>b__0 (System.Object state) [0x0002d] in <9e7db509c3c94e2bb6d090483cb7e0bf>:0 
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH).
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH) ENDED.
+ApplicationManager.PingGameServersCoroutine - Wait WorldNetworkManager.IsConnected()
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH) ENDED.
+ApplicationManager.PingGameServersCoroutine - Wait WorldNetworkManager.IsConnected()
+ApplicationManager.PingGameServersCoroutine - WorldNetworkManager.IsConnected() return true.
+NetworkUtilities - PingTcp - 54.226.176.175 - START
+ApplicationManager.PingGameServersCoroutine - WorldNetworkManager.IsConnected() return true.
+NetworkUtilities - PingTcp - 3.125.43.18 - START
+NetworkUtilities - PingTcp - 54.226.176.175 - ConnectAsync
+NetworkUtilities - PingTcp - 3.125.43.18 - ConnectAsync
+NetworkUtilities - PingTcp - 3.125.43.18 - TrySetResult 8.6985
+NetworkUtilities - PingTcp - 54.226.176.175 - TrySetResult 8.7766
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH).
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH).
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH) ENDED.
+ApplicationManager.PingGameServersCoroutine - Wait WorldNetworkManager.IsConnected()
+ApplicationManager.PingGameServersCoroutine - WorldNetworkManager.IsConnected() return true.
+NetworkUtilities - PingTcp - 54.254.194.167 - START
+NetworkUtilities - PingTcp - 54.254.194.167 - ConnectAsync
+LifeDecrease : (0.0, 0.2, 0.0) : locEffectStrength : 0.2
+LifeDecrease : (-0.4, 0.1, 0.0) : locEffectStrength : 0.45
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH) ENDED.
+ApplicationManager.PingGameServersCoroutine - Wait WorldNetworkManager.IsConnected()
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH) ENDED.
+ApplicationManager.PingGameServersCoroutine - Wait WorldNetworkManager.IsConnected()
+ApplicationManager.PingGameServersCoroutine - WorldNetworkManager.IsConnected() return true.
+NetworkUtilities - PingTcp - 54.226.176.175 - START
+ApplicationManager.PingGameServersCoroutine - WorldNetworkManager.IsConnected() return true.
+NetworkUtilities - PingTcp - 3.125.43.18 - START
+NetworkUtilities - PingTcp - 54.226.176.175 - ConnectAsync
+NetworkUtilities - PingTcp - 3.125.43.18 - ConnectAsync
+NetworkUtilities - PingTcp - 54.226.176.175 - TrySetResult 7.4168
+NetworkUtilities - PingTcp - 3.125.43.18 - TrySetResult 7.4006
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH).
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH).
+LifeDecrease : (0.0, -0.4, 0.0) : locEffectStrength : 0.45
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH) ENDED.
+ApplicationManager.PingGameServersCoroutine - Wait WorldNetworkManager.IsConnected()
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH) ENDED.
+ApplicationManager.PingGameServersCoroutine - Wait WorldNetworkManager.IsConnected()
+ApplicationManager.PingGameServersCoroutine - WorldNetworkManager.IsConnected() return true.
+NetworkUtilities - PingTcp - 54.226.176.175 - START
+ApplicationManager.PingGameServersCoroutine - WorldNetworkManager.IsConnected() return true.
+NetworkUtilities - PingTcp - 3.125.43.18 - START
+NetworkUtilities - PingTcp - 54.226.176.175 - ConnectAsync
+NetworkUtilities - PingTcp - 3.125.43.18 - ConnectAsync
+NetworkUtilities - PingTcp - 54.226.176.175 - TrySetResult 7.8413
+NetworkUtilities - PingTcp - 3.125.43.18 - TrySetResult 7.8291
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH).
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH).
+LifeDecrease : (-0.1, -0.3, 0.0) : locEffectStrength : 0.35
+LifeDecrease : (-0.6, 0.0, 0.0) : locEffectStrength : 0.6
+LifeDecrease : (-0.3, -0.2, 0.0) : locEffectStrength : 0.35
+NetworkUtilities - PingTcp - 54.254.194.167 - Exception System.Net.Sockets.SocketException (0x80004005): Connection timed out
+  at System.Net.Sockets.TcpClient.Connect (System.String hostname, System.Int32 port) [0x0019d] in <245cba593bdc463bacb144cf356a8b4b>:0 
+  at Abrakam.NetworkUtilities+<>c__DisplayClass12_0.<PingTcp>b__0 (System.Object state) [0x0002d] in <9e7db509c3c94e2bb6d090483cb7e0bf>:0 
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH).
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH) ENDED.
+ApplicationManager.PingGameServersCoroutine - Wait WorldNetworkManager.IsConnected()
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH) ENDED.
+ApplicationManager.PingGameServersCoroutine - Wait WorldNetworkManager.IsConnected()
+ApplicationManager.PingGameServersCoroutine - WorldNetworkManager.IsConnected() return true.
+NetworkUtilities - PingTcp - 54.226.176.175 - START
+ApplicationManager.PingGameServersCoroutine - WorldNetworkManager.IsConnected() return true.
+NetworkUtilities - PingTcp - 3.125.43.18 - START
+NetworkUtilities - PingTcp - 54.226.176.175 - ConnectAsync
+NetworkUtilities - PingTcp - 3.125.43.18 - ConnectAsync
+NetworkUtilities - PingTcp - 3.125.43.18 - TrySetResult 6.4729
+NetworkUtilities - PingTcp - 54.226.176.175 - TrySetResult 6.5242
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH).
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH).
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH) ENDED.
+ApplicationManager.PingGameServersCoroutine - Wait WorldNetworkManager.IsConnected()
+ApplicationManager.PingGameServersCoroutine - WorldNetworkManager.IsConnected() return true.
+NetworkUtilities - PingTcp - 54.254.194.167 - START
+NetworkUtilities - PingTcp - 54.254.194.167 - ConnectAsync
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH) ENDED.
+ApplicationManager.PingGameServersCoroutine - Wait WorldNetworkManager.IsConnected()
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH) ENDED.
+ApplicationManager.PingGameServersCoroutine - Wait WorldNetworkManager.IsConnected()
+ApplicationManager.PingGameServersCoroutine - WorldNetworkManager.IsConnected() return true.
+NetworkUtilities - PingTcp - 54.226.176.175 - START
+ApplicationManager.PingGameServersCoroutine - WorldNetworkManager.IsConnected() return true.
+NetworkUtilities - PingTcp - 3.125.43.18 - START
+NetworkUtilities - PingTcp - 3.125.43.18 - ConnectAsync
+NetworkUtilities - PingTcp - 54.226.176.175 - ConnectAsync
+NetworkUtilities - PingTcp - 3.125.43.18 - TrySetResult 8.4617
+NetworkUtilities - PingTcp - 54.226.176.175 - TrySetResult 8.4533
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH).
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH).
+LifeDecrease : (-0.5, -0.4, 0.0) : locEffectStrength : 0.6
+LifeDecrease : (0.3, -0.1, 0.0) : locEffectStrength : 0.35
+LifeDecrease : (-0.2, 0.0, 0.0) : locEffectStrength : 0.2
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH) ENDED.
+ApplicationManager.PingGameServersCoroutine - Wait WorldNetworkManager.IsConnected()
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH) ENDED.
+ApplicationManager.PingGameServersCoroutine - Wait WorldNetworkManager.IsConnected()
+ApplicationManager.PingGameServersCoroutine - WorldNetworkManager.IsConnected() return true.
+NetworkUtilities - PingTcp - 54.226.176.175 - START
+NetworkUtilities - PingTcp - 54.226.176.175 - ConnectAsync
+ApplicationManager.PingGameServersCoroutine - WorldNetworkManager.IsConnected() return true.
+NetworkUtilities - PingTcp - 3.125.43.18 - START
+NetworkUtilities - PingTcp - 3.125.43.18 - ConnectAsync
+NetworkUtilities - PingTcp - 54.226.176.175 - TrySetResult 5.689
+NetworkUtilities - PingTcp - 3.125.43.18 - TrySetResult 5.9163
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH).
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH).
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH) ENDED.
+ApplicationManager.PingGameServersCoroutine - Wait WorldNetworkManager.IsConnected()
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH) ENDED.
+ApplicationManager.PingGameServersCoroutine - Wait WorldNetworkManager.IsConnected()
+ApplicationManager.PingGameServersCoroutine - WorldNetworkManager.IsConnected() return true.
+NetworkUtilities - PingTcp - 54.226.176.175 - START
+ApplicationManager.PingGameServersCoroutine - WorldNetworkManager.IsConnected() return true.
+NetworkUtilities - PingTcp - 3.125.43.18 - START
+NetworkUtilities - PingTcp - 54.226.176.175 - ConnectAsync
+NetworkUtilities - PingTcp - 3.125.43.18 - ConnectAsync
+NetworkUtilities - PingTcp - 54.226.176.175 - TrySetResult 7.0458
+NetworkUtilities - PingTcp - 3.125.43.18 - TrySetResult 6.9121
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH).
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH).
+LifeDecrease : (-0.2, -0.3, 0.0) : locEffectStrength : 0.4
+NetworkUtilities - PingTcp - 54.254.194.167 - Exception System.Net.Sockets.SocketException (0x80004005): Connection timed out
+  at System.Net.Sockets.TcpClient.Connect (System.String hostname, System.Int32 port) [0x0019d] in <245cba593bdc463bacb144cf356a8b4b>:0 
+  at Abrakam.NetworkUtilities+<>c__DisplayClass12_0.<PingTcp>b__0 (System.Object state) [0x0002d] in <9e7db509c3c94e2bb6d090483cb7e0bf>:0 
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH).
+LifeDecrease : (0.0, 0.0, 0.0) : locEffectStrength : 0.15
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH) ENDED.
+ApplicationManager.PingGameServersCoroutine - Wait WorldNetworkManager.IsConnected()
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH) ENDED.
+ApplicationManager.PingGameServersCoroutine - Wait WorldNetworkManager.IsConnected()
+ApplicationManager.PingGameServersCoroutine - WorldNetworkManager.IsConnected() return true.
+NetworkUtilities - PingTcp - 54.226.176.175 - START
+ApplicationManager.PingGameServersCoroutine - WorldNetworkManager.IsConnected() return true.
+NetworkUtilities - PingTcp - 3.125.43.18 - START
+NetworkUtilities - PingTcp - 54.226.176.175 - ConnectAsync
+NetworkUtilities - PingTcp - 3.125.43.18 - ConnectAsync
+NetworkUtilities - PingTcp - 54.226.176.175 - TrySetResult 6.7045
+NetworkUtilities - PingTcp - 3.125.43.18 - TrySetResult 7.9137
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH).
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH).
+LifeDecrease : (0.0, -0.2, 0.0) : locEffectStrength : 0.2
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH) ENDED.
+ApplicationManager.PingGameServersCoroutine - Wait WorldNetworkManager.IsConnected()
+ApplicationManager.PingGameServersCoroutine - WorldNetworkManager.IsConnected() return true.
+NetworkUtilities - PingTcp - 54.254.194.167 - START
+NetworkUtilities - PingTcp - 54.254.194.167 - ConnectAsync
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH) ENDED.
+ApplicationManager.PingGameServersCoroutine - Wait WorldNetworkManager.IsConnected()
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH) ENDED.
+ApplicationManager.PingGameServersCoroutine - Wait WorldNetworkManager.IsConnected()
+ApplicationManager.PingGameServersCoroutine - WorldNetworkManager.IsConnected() return true.
+NetworkUtilities - PingTcp - 54.226.176.175 - START
+ApplicationManager.PingGameServersCoroutine - WorldNetworkManager.IsConnected() return true.
+NetworkUtilities - PingTcp - 3.125.43.18 - START
+NetworkUtilities - PingTcp - 3.125.43.18 - ConnectAsync
+NetworkUtilities - PingTcp - 54.226.176.175 - ConnectAsync
+NetworkUtilities - PingTcp - 3.125.43.18 - TrySetResult 7.1717
+NetworkUtilities - PingTcp - 54.226.176.175 - TrySetResult 7.2036
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH).
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH).
+LifeDecrease : (0.1, 0.2, 0.0) : locEffectStrength : 0.2
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH) ENDED.
+ApplicationManager.PingGameServersCoroutine - Wait WorldNetworkManager.IsConnected()
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH) ENDED.
+ApplicationManager.PingGameServersCoroutine - Wait WorldNetworkManager.IsConnected()
+ApplicationManager.PingGameServersCoroutine - WorldNetworkManager.IsConnected() return true.
+NetworkUtilities - PingTcp - 54.226.176.175 - START
+NetworkUtilities - PingTcp - 54.226.176.175 - ConnectAsync
+ApplicationManager.PingGameServersCoroutine - WorldNetworkManager.IsConnected() return true.
+NetworkUtilities - PingTcp - 3.125.43.18 - START
+NetworkUtilities - PingTcp - 3.125.43.18 - ConnectAsync
+NetworkUtilities - PingTcp - 54.226.176.175 - TrySetResult 6.637
+NetworkUtilities - PingTcp - 3.125.43.18 - TrySetResult 6.4308
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH).
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH).
+NetworkUtilities - PingTcp - 54.254.194.167 - Exception System.Net.Sockets.SocketException (0x80004005): Connection timed out
+  at System.Net.Sockets.TcpClient.Connect (System.String hostname, System.Int32 port) [0x0019d] in <245cba593bdc463bacb144cf356a8b4b>:0 
+  at Abrakam.NetworkUtilities+<>c__DisplayClass12_0.<PingTcp>b__0 (System.Object state) [0x0002d] in <9e7db509c3c94e2bb6d090483cb7e0bf>:0 
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH).
+LifeDecrease : (0.0, -0.4, 0.0) : locEffectStrength : 0.4
+LifeDecrease : (-0.2, 0.0, 0.0) : locEffectStrength : 0.2
+LifeDecrease : (0.0, 0.1, 0.0) : locEffectStrength : 0.15
+LifeDecrease : (0.2, -0.2, 0.0) : locEffectStrength : 0.25
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH) ENDED.
+ApplicationManager.PingGameServersCoroutine - Wait WorldNetworkManager.IsConnected()
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH) ENDED.
+ApplicationManager.PingGameServersCoroutine - Wait WorldNetworkManager.IsConnected()
+ApplicationManager.PingGameServersCoroutine - WorldNetworkManager.IsConnected() return true.
+NetworkUtilities - PingTcp - 54.226.176.175 - START
+ApplicationManager.PingGameServersCoroutine - WorldNetworkManager.IsConnected() return true.
+NetworkUtilities - PingTcp - 3.125.43.18 - START
+NetworkUtilities - PingTcp - 54.226.176.175 - ConnectAsync
+NetworkUtilities - PingTcp - 3.125.43.18 - ConnectAsync
+NetworkUtilities - PingTcp - 54.226.176.175 - TrySetResult 5.5523
+NetworkUtilities - PingTcp - 3.125.43.18 - TrySetResult 5.5139
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH).
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH).
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH) ENDED.
+ApplicationManager.PingGameServersCoroutine - Wait WorldNetworkManager.IsConnected()
+ApplicationManager.PingGameServersCoroutine - WorldNetworkManager.IsConnected() return true.
+NetworkUtilities - PingTcp - 54.254.194.167 - START
+NetworkUtilities - PingTcp - 54.254.194.167 - ConnectAsync
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH) ENDED.
+ApplicationManager.PingGameServersCoroutine - Wait WorldNetworkManager.IsConnected()
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH) ENDED.
+ApplicationManager.PingGameServersCoroutine - Wait WorldNetworkManager.IsConnected()
+ApplicationManager.PingGameServersCoroutine - WorldNetworkManager.IsConnected() return true.
+NetworkUtilities - PingTcp - 54.226.176.175 - START
+ApplicationManager.PingGameServersCoroutine - WorldNetworkManager.IsConnected() return true.
+NetworkUtilities - PingTcp - 3.125.43.18 - START
+NetworkUtilities - PingTcp - 54.226.176.175 - ConnectAsync
+NetworkUtilities - PingTcp - 3.125.43.18 - ConnectAsync
+NetworkUtilities - PingTcp - 3.125.43.18 - TrySetResult 7.0655
+NetworkUtilities - PingTcp - 54.226.176.175 - TrySetResult 7.0968
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH).
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH).
+LifeDecrease : (0.0, -0.3, 0.0) : locEffectStrength : 0.35
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH) ENDED.
+ApplicationManager.PingGameServersCoroutine - Wait WorldNetworkManager.IsConnected()
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH) ENDED.
+ApplicationManager.PingGameServersCoroutine - Wait WorldNetworkManager.IsConnected()
+ApplicationManager.PingGameServersCoroutine - WorldNetworkManager.IsConnected() return true.
+NetworkUtilities - PingTcp - 54.226.176.175 - START
+ApplicationManager.PingGameServersCoroutine - WorldNetworkManager.IsConnected() return true.
+NetworkUtilities - PingTcp - 3.125.43.18 - START
+NetworkUtilities - PingTcp - 54.226.176.175 - ConnectAsync
+NetworkUtilities - PingTcp - 3.125.43.18 - ConnectAsync
+NetworkUtilities - PingTcp - 54.226.176.175 - TrySetResult 6.6099
+NetworkUtilities - PingTcp - 3.125.43.18 - TrySetResult 6.6227
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH).
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH).
+NetworkUtilities - PingTcp - 54.254.194.167 - Exception System.Net.Sockets.SocketException (0x80004005): Connection timed out
+  at System.Net.Sockets.TcpClient.Connect (System.String hostname, System.Int32 port) [0x0019d] in <245cba593bdc463bacb144cf356a8b4b>:0 
+  at Abrakam.NetworkUtilities+<>c__DisplayClass12_0.<PingTcp>b__0 (System.Object state) [0x0002d] in <9e7db509c3c94e2bb6d090483cb7e0bf>:0 
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH).
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH) ENDED.
+ApplicationManager.PingGameServersCoroutine - Wait WorldNetworkManager.IsConnected()
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH) ENDED.
+ApplicationManager.PingGameServersCoroutine - Wait WorldNetworkManager.IsConnected()
+ApplicationManager.PingGameServersCoroutine - WorldNetworkManager.IsConnected() return true.
+NetworkUtilities - PingTcp - 54.226.176.175 - START
+ApplicationManager.PingGameServersCoroutine - WorldNetworkManager.IsConnected() return true.
+NetworkUtilities - PingTcp - 3.125.43.18 - START
+NetworkUtilities - PingTcp - 54.226.176.175 - ConnectAsync
+NetworkUtilities - PingTcp - 3.125.43.18 - ConnectAsync
+NetworkUtilities - PingTcp - 54.226.176.175 - TrySetResult 6.0906
+NetworkUtilities - PingTcp - 3.125.43.18 - TrySetResult 7.3453
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH).
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH).
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH) ENDED.
+ApplicationManager.PingGameServersCoroutine - Wait WorldNetworkManager.IsConnected()
+ApplicationManager.PingGameServersCoroutine - WorldNetworkManager.IsConnected() return true.
+NetworkUtilities - PingTcp - 54.254.194.167 - START
+NetworkUtilities - PingTcp - 54.254.194.167 - ConnectAsync
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH) ENDED.
+ApplicationManager.PingGameServersCoroutine - Wait WorldNetworkManager.IsConnected()
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH) ENDED.
+ApplicationManager.PingGameServersCoroutine - Wait WorldNetworkManager.IsConnected()
+ApplicationManager.PingGameServersCoroutine - WorldNetworkManager.IsConnected() return true.
+NetworkUtilities - PingTcp - 54.226.176.175 - START
+ApplicationManager.PingGameServersCoroutine - WorldNetworkManager.IsConnected() return true.
+NetworkUtilities - PingTcp - 3.125.43.18 - START
+NetworkUtilities - PingTcp - 54.226.176.175 - ConnectAsync
+NetworkUtilities - PingTcp - 3.125.43.18 - ConnectAsync
+NetworkUtilities - PingTcp - 54.226.176.175 - TrySetResult 5.4853
+NetworkUtilities - PingTcp - 3.125.43.18 - TrySetResult 5.4574
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH).
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH).
+LifeDecrease : (0.0, -0.2, 0.0) : locEffectStrength : 0.25
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH) ENDED.
+ApplicationManager.PingGameServersCoroutine - Wait WorldNetworkManager.IsConnected()
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH) ENDED.
+ApplicationManager.PingGameServersCoroutine - Wait WorldNetworkManager.IsConnected()
+ApplicationManager.PingGameServersCoroutine - WorldNetworkManager.IsConnected() return true.
+NetworkUtilities - PingTcp - 54.226.176.175 - START
+ApplicationManager.PingGameServersCoroutine - WorldNetworkManager.IsConnected() return true.
+NetworkUtilities - PingTcp - 3.125.43.18 - START
+NetworkUtilities - PingTcp - 54.226.176.175 - ConnectAsync
+NetworkUtilities - PingTcp - 3.125.43.18 - ConnectAsync
+NetworkUtilities - PingTcp - 3.125.43.18 - TrySetResult 6.5922
+NetworkUtilities - PingTcp - 54.226.176.175 - TrySetResult 8.7536
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH).
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH).
+LifeDecrease : (-0.2, -0.1, 0.0) : locEffectStrength : 0.25
+NetworkUtilities - PingTcp - 54.254.194.167 - Exception System.Net.Sockets.SocketException (0x80004005): Connection timed out
+  at System.Net.Sockets.TcpClient.Connect (System.String hostname, System.Int32 port) [0x0019d] in <245cba593bdc463bacb144cf356a8b4b>:0 
+  at Abrakam.NetworkUtilities+<>c__DisplayClass12_0.<PingTcp>b__0 (System.Object state) [0x0002d] in <9e7db509c3c94e2bb6d090483cb7e0bf>:0 
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH).
+LifeDecrease : (0.6, 0.1, 0.0) : locEffectStrength : 0.65
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH) ENDED.
+ApplicationManager.PingGameServersCoroutine - Wait WorldNetworkManager.IsConnected()
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH) ENDED.
+ApplicationManager.PingGameServersCoroutine - Wait WorldNetworkManager.IsConnected()
+ApplicationManager.PingGameServersCoroutine - WorldNetworkManager.IsConnected() return true.
+NetworkUtilities - PingTcp - 54.226.176.175 - START
+ApplicationManager.PingGameServersCoroutine - WorldNetworkManager.IsConnected() return true.
+NetworkUtilities - PingTcp - 3.125.43.18 - START
+NetworkUtilities - PingTcp - 54.226.176.175 - ConnectAsync
+NetworkUtilities - PingTcp - 3.125.43.18 - ConnectAsync
+NetworkUtilities - PingTcp - 3.125.43.18 - TrySetResult 4.9744
+NetworkUtilities - PingTcp - 54.226.176.175 - TrySetResult 5.046
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH).
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH).
+LifeDecrease : (0.0, 0.2, 0.0) : locEffectStrength : 0.25
+LifeDecrease : (-0.3, 0.1, 0.0) : locEffectStrength : 0.35
+LifeDecrease : (0.0, 0.0, 0.0) : locEffectStrength : 0.15
+LifeDecrease : (0.0, 0.0, 0.0) : locEffectStrength : 0.15
+LifeDecrease : (0.0, 0.0, 0.0) : locEffectStrength : 0.15
+LifeDecrease : (0.0, 0.0, 0.0) : locEffectStrength : 0.15
+LifeDecrease : (0.0, 0.0, 0.0) : locEffectStrength : 0.15
+LifeDecrease : (0.0, 0.0, 0.0) : locEffectStrength : 0.15
+LifeDecrease : (0.0, 0.0, 0.0) : locEffectStrength : 0.15
+LifeDecrease : (0.0, 0.0, 0.0) : locEffectStrength : 0.15
+LifeDecrease : (0.0, 0.0, 0.0) : locEffectStrength : 0.15
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH) ENDED.
+ApplicationManager.PingGameServersCoroutine - Wait WorldNetworkManager.IsConnected()
+ApplicationManager.PingGameServersCoroutine - WorldNetworkManager.IsConnected() return true.
+NetworkUtilities - PingTcp - 54.254.194.167 - START
+NetworkUtilities - PingTcp - 54.254.194.167 - ConnectAsync
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH) ENDED.
+ApplicationManager.PingGameServersCoroutine - Wait WorldNetworkManager.IsConnected()
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH) ENDED.
+ApplicationManager.PingGameServersCoroutine - Wait WorldNetworkManager.IsConnected()
+ApplicationManager.PingGameServersCoroutine - WorldNetworkManager.IsConnected() return true.
+NetworkUtilities - PingTcp - 54.226.176.175 - START
+ApplicationManager.PingGameServersCoroutine - WorldNetworkManager.IsConnected() return true.
+NetworkUtilities - PingTcp - 3.125.43.18 - START
+NetworkUtilities - PingTcp - 3.125.43.18 - ConnectAsync
+NetworkUtilities - PingTcp - 54.226.176.175 - ConnectAsync
+NetworkUtilities - PingTcp - 3.125.43.18 - TrySetResult 5.0497
+NetworkUtilities - PingTcp - 54.226.176.175 - TrySetResult 7.177
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH).
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH).
+LifeDecrease : (0.0, -0.2, 0.0) : locEffectStrength : 0.2
+LifeDecrease : (0.6, 0.0, 0.0) : locEffectStrength : 0.65
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH) ENDED.
+ApplicationManager.PingGameServersCoroutine - Wait WorldNetworkManager.IsConnected()
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH) ENDED.
+ApplicationManager.PingGameServersCoroutine - Wait WorldNetworkManager.IsConnected()
+ApplicationManager.PingGameServersCoroutine - WorldNetworkManager.IsConnected() return true.
+NetworkUtilities - PingTcp - 54.226.176.175 - START
+ApplicationManager.PingGameServersCoroutine - WorldNetworkManager.IsConnected() return true.
+NetworkUtilities - PingTcp - 3.125.43.18 - START
+NetworkUtilities - PingTcp - 54.226.176.175 - ConnectAsync
+NetworkUtilities - PingTcp - 3.125.43.18 - ConnectAsync
+NetworkUtilities - PingTcp - 54.226.176.175 - TrySetResult 6.8741
+NetworkUtilities - PingTcp - 3.125.43.18 - TrySetResult 6.8609
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH).
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH).
+LifeDecrease : (0.0, 0.2, 0.0) : locEffectStrength : 0.25
+NetworkUtilities - PingTcp - 54.254.194.167 - Exception System.Net.Sockets.SocketException (0x80004005): Connection timed out
+  at System.Net.Sockets.TcpClient.Connect (System.String hostname, System.Int32 port) [0x0019d] in <245cba593bdc463bacb144cf356a8b4b>:0 
+  at Abrakam.NetworkUtilities+<>c__DisplayClass12_0.<PingTcp>b__0 (System.Object state) [0x0002d] in <9e7db509c3c94e2bb6d090483cb7e0bf>:0 
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH).
+LifeDecrease : (0.0, 0.0, 0.0) : locEffectStrength : 0.25
+Message [<color=magenta>GO_TO_REWARD</color>] to State [<color=yellow>IngameState</color>]
+ChangeState[<color=yellow>IngameState</color>]->[<color=green>RewardState</color>]
+Unloading 4 Unused Serialized files (Serialized files now loaded: 16)
+
+Unloading 931 unused Assets to reduce memory usage. Loaded Objects now: 20748.
+Total: 286.723000 ms (FindLiveObjects: 1.817000 ms CreateObjectMapping: 0.752000 ms MarkObjects: 280.501000 ms  DeleteObjects: 3.651000 ms)
+
+Scene[<color=orange>REWARD</color>] loading time = <color=cyan>0.5012207</color>
+Message [<color=magenta>GO_TO_PLAY_MENU</color>] to State [<color=yellow>RewardState</color>]
+ChangeState[<color=yellow>RewardState</color>]->[<color=green>PlayMenuState</color>]
+Message [<color=magenta>GO_TO_CONSTRUCTED_MODE</color>] to State [<color=yellow>PlayMenuState</color>]
+ChangeState[<color=yellow>PlayMenuState</color>]->[<color=green>DeckSelectionState</color>]
+Unloading 1 Unused Serialized files (Serialized files now loaded: 18)
+
+Unloading 118 unused Assets to reduce memory usage. Loaded Objects now: 22241.
+Total: 188.400000 ms (FindLiveObjects: 7.162000 ms CreateObjectMapping: 2.869000 ms MarkObjects: 177.771000 ms  DeleteObjects: 0.596000 ms)
+
+Scene[<color=orange>DECK_SELECTION</color>] loading time = <color=cyan>0.4052734</color>
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH) ENDED.
+ApplicationManager.PingGameServersCoroutine - Wait WorldNetworkManager.IsConnected()
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH) ENDED.
+ApplicationManager.PingGameServersCoroutine - Wait WorldNetworkManager.IsConnected()
+ApplicationManager.PingGameServersCoroutine - WorldNetworkManager.IsConnected() return true.
+NetworkUtilities - PingTcp - 54.226.176.175 - START
+NetworkUtilities - PingTcp - 54.226.176.175 - ConnectAsync
+ApplicationManager.PingGameServersCoroutine - WorldNetworkManager.IsConnected() return true.
+NetworkUtilities - PingTcp - 3.125.43.18 - START
+NetworkUtilities - PingTcp - 3.125.43.18 - ConnectAsync
+NetworkUtilities - PingTcp - 54.226.176.175 - TrySetResult 10.0323
+NetworkUtilities - PingTcp - 3.125.43.18 - TrySetResult 9.8262
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH).
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH).
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH) ENDED.
+ApplicationManager.PingGameServersCoroutine - Wait WorldNetworkManager.IsConnected()
+ApplicationManager.PingGameServersCoroutine - WorldNetworkManager.IsConnected() return true.
+NetworkUtilities - PingTcp - 54.254.194.167 - START
+NetworkUtilities - PingTcp - 54.254.194.167 - ConnectAsync
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH) ENDED.
+ApplicationManager.PingGameServersCoroutine - Wait WorldNetworkManager.IsConnected()
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH) ENDED.
+ApplicationManager.PingGameServersCoroutine - Wait WorldNetworkManager.IsConnected()
+ApplicationManager.PingGameServersCoroutine - WorldNetworkManager.IsConnected() return true.
+NetworkUtilities - PingTcp - 54.226.176.175 - START
+ApplicationManager.PingGameServersCoroutine - WorldNetworkManager.IsConnected() return true.
+NetworkUtilities - PingTcp - 3.125.43.18 - START
+NetworkUtilities - PingTcp - 3.125.43.18 - ConnectAsync
+NetworkUtilities - PingTcp - 54.226.176.175 - ConnectAsync
+NetworkUtilities - PingTcp - 3.125.43.18 - TrySetResult 7.8156
+NetworkUtilities - PingTcp - 54.226.176.175 - TrySetResult 9.3774
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH).
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH).
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH) ENDED.
+ApplicationManager.PingGameServersCoroutine - Wait WorldNetworkManager.IsConnected()
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH) ENDED.
+ApplicationManager.PingGameServersCoroutine - Wait WorldNetworkManager.IsConnected()
+ApplicationManager.PingGameServersCoroutine - WorldNetworkManager.IsConnected() return true.
+NetworkUtilities - PingTcp - 54.226.176.175 - START
+ApplicationManager.PingGameServersCoroutine - WorldNetworkManager.IsConnected() return true.
+NetworkUtilities - PingTcp - 3.125.43.18 - START
+NetworkUtilities - PingTcp - 54.226.176.175 - ConnectAsync
+NetworkUtilities - PingTcp - 3.125.43.18 - ConnectAsync
+NetworkUtilities - PingTcp - 3.125.43.18 - TrySetResult 7.9503
+NetworkUtilities - PingTcp - 54.226.176.175 - TrySetResult 8.1604
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH).
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH).
+NetworkUtilities - PingTcp - 54.254.194.167 - Exception System.Net.Sockets.SocketException (0x80004005): Connection timed out
+  at System.Net.Sockets.TcpClient.Connect (System.String hostname, System.Int32 port) [0x0019d] in <245cba593bdc463bacb144cf356a8b4b>:0 
+  at Abrakam.NetworkUtilities+<>c__DisplayClass12_0.<PingTcp>b__0 (System.Object state) [0x0002d] in <9e7db509c3c94e2bb6d090483cb7e0bf>:0 
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH).
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH) ENDED.
+ApplicationManager.PingGameServersCoroutine - Wait WorldNetworkManager.IsConnected()
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH) ENDED.
+ApplicationManager.PingGameServersCoroutine - Wait WorldNetworkManager.IsConnected()
+ApplicationManager.PingGameServersCoroutine - WorldNetworkManager.IsConnected() return true.
+NetworkUtilities - PingTcp - 54.226.176.175 - START
+ApplicationManager.PingGameServersCoroutine - WorldNetworkManager.IsConnected() return true.
+NetworkUtilities - PingTcp - 3.125.43.18 - START
+NetworkUtilities - PingTcp - 54.226.176.175 - ConnectAsync
+NetworkUtilities - PingTcp - 3.125.43.18 - ConnectAsync
+NetworkUtilities - PingTcp - 54.226.176.175 - TrySetResult 8.3487
+NetworkUtilities - PingTcp - 3.125.43.18 - TrySetResult 8.2627
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH).
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH).
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH) ENDED.
+ApplicationManager.PingGameServersCoroutine - Wait WorldNetworkManager.IsConnected()
+ApplicationManager.PingGameServersCoroutine - WorldNetworkManager.IsConnected() return true.
+NetworkUtilities - PingTcp - 54.254.194.167 - START
+NetworkUtilities - PingTcp - 54.254.194.167 - ConnectAsync
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH) ENDED.
+ApplicationManager.PingGameServersCoroutine - Wait WorldNetworkManager.IsConnected()
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH) ENDED.
+ApplicationManager.PingGameServersCoroutine - Wait WorldNetworkManager.IsConnected()
+ApplicationManager.PingGameServersCoroutine - WorldNetworkManager.IsConnected() return true.
+NetworkUtilities - PingTcp - 54.226.176.175 - START
+ApplicationManager.PingGameServersCoroutine - WorldNetworkManager.IsConnected() return true.
+NetworkUtilities - PingTcp - 3.125.43.18 - START
+NetworkUtilities - PingTcp - 54.226.176.175 - ConnectAsync
+NetworkUtilities - PingTcp - 3.125.43.18 - ConnectAsync
+NetworkUtilities - PingTcp - 3.125.43.18 - TrySetResult 7.2741
+NetworkUtilities - PingTcp - 54.226.176.175 - TrySetResult 8.1544
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH).
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH).
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH) ENDED.
+ApplicationManager.PingGameServersCoroutine - Wait WorldNetworkManager.IsConnected()
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH) ENDED.
+ApplicationManager.PingGameServersCoroutine - Wait WorldNetworkManager.IsConnected()
+ApplicationManager.PingGameServersCoroutine - WorldNetworkManager.IsConnected() return true.
+NetworkUtilities - PingTcp - 54.226.176.175 - START
+ApplicationManager.PingGameServersCoroutine - WorldNetworkManager.IsConnected() return true.
+NetworkUtilities - PingTcp - 3.125.43.18 - START
+NetworkUtilities - PingTcp - 3.125.43.18 - ConnectAsync
+NetworkUtilities - PingTcp - 54.226.176.175 - ConnectAsync
+NetworkUtilities - PingTcp - 3.125.43.18 - TrySetResult 6.77
+NetworkUtilities - PingTcp - 54.226.176.175 - TrySetResult 7.8649
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH).
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH).
+NetworkUtilities - PingTcp - 54.254.194.167 - Exception System.Net.Sockets.SocketException (0x80004005): Connection timed out
+  at System.Net.Sockets.TcpClient.Connect (System.String hostname, System.Int32 port) [0x0019d] in <245cba593bdc463bacb144cf356a8b4b>:0 
+  at Abrakam.NetworkUtilities+<>c__DisplayClass12_0.<PingTcp>b__0 (System.Object state) [0x0002d] in <9e7db509c3c94e2bb6d090483cb7e0bf>:0 
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH).
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH) ENDED.
+ApplicationManager.PingGameServersCoroutine - Wait WorldNetworkManager.IsConnected()
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH) ENDED.
+ApplicationManager.PingGameServersCoroutine - Wait WorldNetworkManager.IsConnected()
+ApplicationManager.PingGameServersCoroutine - WorldNetworkManager.IsConnected() return true.
+NetworkUtilities - PingTcp - 54.226.176.175 - START
+ApplicationManager.PingGameServersCoroutine - WorldNetworkManager.IsConnected() return true.
+NetworkUtilities - PingTcp - 3.125.43.18 - START
+NetworkUtilities - PingTcp - 54.226.176.175 - ConnectAsync
+NetworkUtilities - PingTcp - 3.125.43.18 - ConnectAsync
+NetworkUtilities - PingTcp - 54.226.176.175 - TrySetResult 7.0136
+NetworkUtilities - PingTcp - 3.125.43.18 - TrySetResult 7.0019
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH).
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH).
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH) ENDED.
+ApplicationManager.PingGameServersCoroutine - Wait WorldNetworkManager.IsConnected()
+ApplicationManager.PingGameServersCoroutine - WorldNetworkManager.IsConnected() return true.
+NetworkUtilities - PingTcp - 54.254.194.167 - START
+NetworkUtilities - PingTcp - 54.254.194.167 - ConnectAsync
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH) ENDED.
+ApplicationManager.PingGameServersCoroutine - Wait WorldNetworkManager.IsConnected()
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH) ENDED.
+ApplicationManager.PingGameServersCoroutine - Wait WorldNetworkManager.IsConnected()
+ApplicationManager.PingGameServersCoroutine - WorldNetworkManager.IsConnected() return true.
+NetworkUtilities - PingTcp - 54.226.176.175 - START
+ApplicationManager.PingGameServersCoroutine - WorldNetworkManager.IsConnected() return true.
+NetworkUtilities - PingTcp - 3.125.43.18 - START
+NetworkUtilities - PingTcp - 3.125.43.18 - ConnectAsync
+NetworkUtilities - PingTcp - 54.226.176.175 - ConnectAsync
+NetworkUtilities - PingTcp - 3.125.43.18 - TrySetResult 7.1419
+NetworkUtilities - PingTcp - 54.226.176.175 - TrySetResult 7.9318
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH).
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH).
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH) ENDED.
+ApplicationManager.PingGameServersCoroutine - Wait WorldNetworkManager.IsConnected()
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH) ENDED.
+ApplicationManager.PingGameServersCoroutine - Wait WorldNetworkManager.IsConnected()
+ApplicationManager.PingGameServersCoroutine - WorldNetworkManager.IsConnected() return true.
+NetworkUtilities - PingTcp - 54.226.176.175 - START
+NetworkUtilities - PingTcp - 54.226.176.175 - ConnectAsync
+ApplicationManager.PingGameServersCoroutine - WorldNetworkManager.IsConnected() return true.
+NetworkUtilities - PingTcp - 3.125.43.18 - START
+NetworkUtilities - PingTcp - 3.125.43.18 - ConnectAsync
+NetworkUtilities - PingTcp - 54.226.176.175 - TrySetResult 9.2415
+NetworkUtilities - PingTcp - 3.125.43.18 - TrySetResult 7.3013
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH).
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH).
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH) ENDED.
+ApplicationManager.PingGameServersCoroutine - Wait WorldNetworkManager.IsConnected()
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH) ENDED.
+ApplicationManager.PingGameServersCoroutine - Wait WorldNetworkManager.IsConnected()
+ApplicationManager.PingGameServersCoroutine - WorldNetworkManager.IsConnected() return true.
+NetworkUtilities - PingTcp - 54.226.176.175 - START
+ApplicationManager.PingGameServersCoroutine - WorldNetworkManager.IsConnected() return true.
+NetworkUtilities - PingTcp - 3.125.43.18 - START
+NetworkUtilities - PingTcp - 3.125.43.18 - ConnectAsync
+NetworkUtilities - PingTcp - 54.226.176.175 - ConnectAsync
+NetworkUtilities - PingTcp - 3.125.43.18 - TrySetResult 5.4079
+NetworkUtilities - PingTcp - 54.226.176.175 - TrySetResult 6.9147
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH).
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH).
+NetworkUtilities - PingTcp - 54.254.194.167 - Exception System.Net.Sockets.SocketException (0x80004005): Connection timed out
+  at System.Net.Sockets.TcpClient.Connect (System.String hostname, System.Int32 port) [0x0019d] in <245cba593bdc463bacb144cf356a8b4b>:0 
+  at Abrakam.NetworkUtilities+<>c__DisplayClass12_0.<PingTcp>b__0 (System.Object state) [0x0002d] in <9e7db509c3c94e2bb6d090483cb7e0bf>:0 
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH).
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH) ENDED.
+ApplicationManager.PingGameServersCoroutine - Wait WorldNetworkManager.IsConnected()
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH) ENDED.
+ApplicationManager.PingGameServersCoroutine - Wait WorldNetworkManager.IsConnected()
+ApplicationManager.PingGameServersCoroutine - WorldNetworkManager.IsConnected() return true.
+NetworkUtilities - PingTcp - 54.226.176.175 - START
+ApplicationManager.PingGameServersCoroutine - WorldNetworkManager.IsConnected() return true.
+NetworkUtilities - PingTcp - 3.125.43.18 - START
+NetworkUtilities - PingTcp - 54.226.176.175 - ConnectAsync
+NetworkUtilities - PingTcp - 3.125.43.18 - ConnectAsync
+NetworkUtilities - PingTcp - 54.226.176.175 - TrySetResult 6.2118
+NetworkUtilities - PingTcp - 3.125.43.18 - TrySetResult 7.0881
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH).
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH).
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH) ENDED.
+ApplicationManager.PingGameServersCoroutine - Wait WorldNetworkManager.IsConnected()
+ApplicationManager.PingGameServersCoroutine - WorldNetworkManager.IsConnected() return true.
+NetworkUtilities - PingTcp - 54.254.194.167 - START
+NetworkUtilities - PingTcp - 54.254.194.167 - ConnectAsync
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH) ENDED.
+ApplicationManager.PingGameServersCoroutine - Wait WorldNetworkManager.IsConnected()
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH) ENDED.
+ApplicationManager.PingGameServersCoroutine - Wait WorldNetworkManager.IsConnected()
+ApplicationManager.PingGameServersCoroutine - WorldNetworkManager.IsConnected() return true.
+NetworkUtilities - PingTcp - 54.226.176.175 - START
+ApplicationManager.PingGameServersCoroutine - WorldNetworkManager.IsConnected() return true.
+NetworkUtilities - PingTcp - 3.125.43.18 - START
+NetworkUtilities - PingTcp - 54.226.176.175 - ConnectAsync
+NetworkUtilities - PingTcp - 3.125.43.18 - ConnectAsync
+NetworkUtilities - PingTcp - 54.226.176.175 - TrySetResult 7.6113
+NetworkUtilities - PingTcp - 3.125.43.18 - TrySetResult 7.5736
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH).
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH).
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH) ENDED.
+ApplicationManager.PingGameServersCoroutine - Wait WorldNetworkManager.IsConnected()
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH) ENDED.
+ApplicationManager.PingGameServersCoroutine - Wait WorldNetworkManager.IsConnected()
+ApplicationManager.PingGameServersCoroutine - WorldNetworkManager.IsConnected() return true.
+NetworkUtilities - PingTcp - 54.226.176.175 - START
+ApplicationManager.PingGameServersCoroutine - WorldNetworkManager.IsConnected() return true.
+NetworkUtilities - PingTcp - 3.125.43.18 - START
+NetworkUtilities - PingTcp - 54.226.176.175 - ConnectAsync
+NetworkUtilities - PingTcp - 3.125.43.18 - ConnectAsync
+NetworkUtilities - PingTcp - 3.125.43.18 - TrySetResult 6.2341
+NetworkUtilities - PingTcp - 54.226.176.175 - TrySetResult 6.2341
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH).
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH).
+NetworkUtilities - PingTcp - 54.254.194.167 - Exception System.Net.Sockets.SocketException (0x80004005): Connection timed out
+  at System.Net.Sockets.TcpClient.Connect (System.String hostname, System.Int32 port) [0x0019d] in <245cba593bdc463bacb144cf356a8b4b>:0 
+  at Abrakam.NetworkUtilities+<>c__DisplayClass12_0.<PingTcp>b__0 (System.Object state) [0x0002d] in <9e7db509c3c94e2bb6d090483cb7e0bf>:0 
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH).
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH) ENDED.
+ApplicationManager.PingGameServersCoroutine - Wait WorldNetworkManager.IsConnected()
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH) ENDED.
+ApplicationManager.PingGameServersCoroutine - Wait WorldNetworkManager.IsConnected()
+ApplicationManager.PingGameServersCoroutine - WorldNetworkManager.IsConnected() return true.
+NetworkUtilities - PingTcp - 54.226.176.175 - START
+ApplicationManager.PingGameServersCoroutine - WorldNetworkManager.IsConnected() return true.
+NetworkUtilities - PingTcp - 3.125.43.18 - START
+NetworkUtilities - PingTcp - 54.226.176.175 - ConnectAsync
+NetworkUtilities - PingTcp - 3.125.43.18 - ConnectAsync
+NetworkUtilities - PingTcp - 54.226.176.175 - TrySetResult 6.9286
+NetworkUtilities - PingTcp - 3.125.43.18 - TrySetResult 8.7156
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH).
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH).
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH) ENDED.
+ApplicationManager.PingGameServersCoroutine - Wait WorldNetworkManager.IsConnected()
+ApplicationManager.PingGameServersCoroutine - WorldNetworkManager.IsConnected() return true.
+NetworkUtilities - PingTcp - 54.254.194.167 - START
+NetworkUtilities - PingTcp - 54.254.194.167 - ConnectAsync
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH) ENDED.
+ApplicationManager.PingGameServersCoroutine - Wait WorldNetworkManager.IsConnected()
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH) ENDED.
+ApplicationManager.PingGameServersCoroutine - Wait WorldNetworkManager.IsConnected()
+ApplicationManager.PingGameServersCoroutine - WorldNetworkManager.IsConnected() return true.
+NetworkUtilities - PingTcp - 54.226.176.175 - START
+ApplicationManager.PingGameServersCoroutine - WorldNetworkManager.IsConnected() return true.
+NetworkUtilities - PingTcp - 3.125.43.18 - START
+NetworkUtilities - PingTcp - 3.125.43.18 - ConnectAsync
+NetworkUtilities - PingTcp - 54.226.176.175 - ConnectAsync
+NetworkUtilities - PingTcp - 54.226.176.175 - TrySetResult 7.5508
+NetworkUtilities - PingTcp - 3.125.43.18 - TrySetResult 8.5479
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH).
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH).
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH) ENDED.
+ApplicationManager.PingGameServersCoroutine - Wait WorldNetworkManager.IsConnected()
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH) ENDED.
+ApplicationManager.PingGameServersCoroutine - Wait WorldNetworkManager.IsConnected()
+ApplicationManager.PingGameServersCoroutine - WorldNetworkManager.IsConnected() return true.
+NetworkUtilities - PingTcp - 54.226.176.175 - START
+ApplicationManager.PingGameServersCoroutine - WorldNetworkManager.IsConnected() return true.
+NetworkUtilities - PingTcp - 3.125.43.18 - START
+NetworkUtilities - PingTcp - 54.226.176.175 - ConnectAsync
+NetworkUtilities - PingTcp - 3.125.43.18 - ConnectAsync
+NetworkUtilities - PingTcp - 54.226.176.175 - TrySetResult 4.5744
+NetworkUtilities - PingTcp - 3.125.43.18 - TrySetResult 6.4819
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH).
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH).
+NetworkUtilities - PingTcp - 54.254.194.167 - Exception System.Net.Sockets.SocketException (0x80004005): Connection timed out
+  at System.Net.Sockets.TcpClient.Connect (System.String hostname, System.Int32 port) [0x0019d] in <245cba593bdc463bacb144cf356a8b4b>:0 
+  at Abrakam.NetworkUtilities+<>c__DisplayClass12_0.<PingTcp>b__0 (System.Object state) [0x0002d] in <9e7db509c3c94e2bb6d090483cb7e0bf>:0 
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH).
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH) ENDED.
+ApplicationManager.PingGameServersCoroutine - Wait WorldNetworkManager.IsConnected()
+ApplicationManager.PingGameServersCoroutine - WorldNetworkManager.IsConnected() return true.
+NetworkUtilities - PingTcp - 54.226.176.175 - START
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH) ENDED.
+ApplicationManager.PingGameServersCoroutine - Wait WorldNetworkManager.IsConnected()
+NetworkUtilities - PingTcp - 54.226.176.175 - ConnectAsync
+NetworkUtilities - PingTcp - 54.226.176.175 - TrySetResult 6.6989
+ApplicationManager.PingGameServersCoroutine - WorldNetworkManager.IsConnected() return true.
+NetworkUtilities - PingTcp - 3.125.43.18 - START
+NetworkUtilities - PingTcp - 3.125.43.18 - ConnectAsync
+NetworkUtilities - PingTcp - 3.125.43.18 - TrySetResult 5.2107
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH).
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH).
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH) ENDED.
+ApplicationManager.PingGameServersCoroutine - Wait WorldNetworkManager.IsConnected()
+ApplicationManager.PingGameServersCoroutine - WorldNetworkManager.IsConnected() return true.
+NetworkUtilities - PingTcp - 54.254.194.167 - START
+NetworkUtilities - PingTcp - 54.254.194.167 - ConnectAsync
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH) ENDED.
+ApplicationManager.PingGameServersCoroutine - Wait WorldNetworkManager.IsConnected()
+ApplicationManager.PingGameServersCoroutine - WorldNetworkManager.IsConnected() return true.
+NetworkUtilities - PingTcp - 54.226.176.175 - START
+NetworkUtilities - PingTcp - 54.226.176.175 - ConnectAsync
+NetworkUtilities - PingTcp - 54.226.176.175 - TrySetResult 7.3904
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH) ENDED.
+ApplicationManager.PingGameServersCoroutine - Wait WorldNetworkManager.IsConnected()
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH).
+ApplicationManager.PingGameServersCoroutine - WorldNetworkManager.IsConnected() return true.
+NetworkUtilities - PingTcp - 3.125.43.18 - START
+NetworkUtilities - PingTcp - 3.125.43.18 - ConnectAsync
+NetworkUtilities - PingTcp - 3.125.43.18 - TrySetResult 6.5205
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH).
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH) ENDED.
+ApplicationManager.PingGameServersCoroutine - Wait WorldNetworkManager.IsConnected()
+ApplicationManager.PingGameServersCoroutine - WorldNetworkManager.IsConnected() return true.
+NetworkUtilities - PingTcp - 54.226.176.175 - START
+NetworkUtilities - PingTcp - 54.226.176.175 - ConnectAsync
+NetworkUtilities - PingTcp - 54.226.176.175 - TrySetResult 6.1996
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH) ENDED.
+ApplicationManager.PingGameServersCoroutine - Wait WorldNetworkManager.IsConnected()
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH).
+ApplicationManager.PingGameServersCoroutine - WorldNetworkManager.IsConnected() return true.
+NetworkUtilities - PingTcp - 3.125.43.18 - START
+NetworkUtilities - PingTcp - 3.125.43.18 - ConnectAsync
+NetworkUtilities - PingTcp - 3.125.43.18 - TrySetResult 5.6694
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH).
+NetworkUtilities - PingTcp - 54.254.194.167 - Exception System.Net.Sockets.SocketException (0x80004005): Connection timed out
+  at System.Net.Sockets.TcpClient.Connect (System.String hostname, System.Int32 port) [0x0019d] in <245cba593bdc463bacb144cf356a8b4b>:0 
+  at Abrakam.NetworkUtilities+<>c__DisplayClass12_0.<PingTcp>b__0 (System.Object state) [0x0002d] in <9e7db509c3c94e2bb6d090483cb7e0bf>:0 
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH).
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH) ENDED.
+ApplicationManager.PingGameServersCoroutine - Wait WorldNetworkManager.IsConnected()
+ApplicationManager.PingGameServersCoroutine - WorldNetworkManager.IsConnected() return true.
+NetworkUtilities - PingTcp - 54.226.176.175 - START
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH) ENDED.
+ApplicationManager.PingGameServersCoroutine - Wait WorldNetworkManager.IsConnected()
+NetworkUtilities - PingTcp - 54.226.176.175 - ConnectAsync
+NetworkUtilities - PingTcp - 54.226.176.175 - TrySetResult 8.5352
+ApplicationManager.PingGameServersCoroutine - WorldNetworkManager.IsConnected() return true.
+NetworkUtilities - PingTcp - 3.125.43.18 - START
+NetworkUtilities - PingTcp - 3.125.43.18 - ConnectAsync
+NetworkUtilities - PingTcp - 3.125.43.18 - TrySetResult 6.5766
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH).
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH).
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH) ENDED.
+ApplicationManager.PingGameServersCoroutine - Wait WorldNetworkManager.IsConnected()
+ApplicationManager.PingGameServersCoroutine - WorldNetworkManager.IsConnected() return true.
+NetworkUtilities - PingTcp - 54.254.194.167 - START
+NetworkUtilities - PingTcp - 54.254.194.167 - ConnectAsync
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH) ENDED.
+ApplicationManager.PingGameServersCoroutine - Wait WorldNetworkManager.IsConnected()
+ApplicationManager.PingGameServersCoroutine - WorldNetworkManager.IsConnected() return true.
+NetworkUtilities - PingTcp - 54.226.176.175 - START
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH) ENDED.
+ApplicationManager.PingGameServersCoroutine - Wait WorldNetworkManager.IsConnected()
+NetworkUtilities - PingTcp - 54.226.176.175 - ConnectAsync
+NetworkUtilities - PingTcp - 54.226.176.175 - TrySetResult 8.043
+ApplicationManager.PingGameServersCoroutine - WorldNetworkManager.IsConnected() return true.
+NetworkUtilities - PingTcp - 3.125.43.18 - START
+NetworkUtilities - PingTcp - 3.125.43.18 - ConnectAsync
+NetworkUtilities - PingTcp - 3.125.43.18 - TrySetResult 5.1096
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH).
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH).
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH) ENDED.
+ApplicationManager.PingGameServersCoroutine - Wait WorldNetworkManager.IsConnected()
+ApplicationManager.PingGameServersCoroutine - WorldNetworkManager.IsConnected() return true.
+NetworkUtilities - PingTcp - 54.226.176.175 - START
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH) ENDED.
+ApplicationManager.PingGameServersCoroutine - Wait WorldNetworkManager.IsConnected()
+NetworkUtilities - PingTcp - 54.226.176.175 - ConnectAsync
+NetworkUtilities - PingTcp - 54.226.176.175 - TrySetResult 8.1126
+ApplicationManager.PingGameServersCoroutine - WorldNetworkManager.IsConnected() return true.
+NetworkUtilities - PingTcp - 3.125.43.18 - START
+NetworkUtilities - PingTcp - 3.125.43.18 - ConnectAsync
+NetworkUtilities - PingTcp - 3.125.43.18 - TrySetResult 6.618
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH).
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH).
+NetworkUtilities - PingTcp - 54.254.194.167 - Exception System.Net.Sockets.SocketException (0x80004005): Connection timed out
+  at System.Net.Sockets.TcpClient.Connect (System.String hostname, System.Int32 port) [0x0019d] in <245cba593bdc463bacb144cf356a8b4b>:0 
+  at Abrakam.NetworkUtilities+<>c__DisplayClass12_0.<PingTcp>b__0 (System.Object state) [0x0002d] in <9e7db509c3c94e2bb6d090483cb7e0bf>:0 
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH).
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH) ENDED.
+ApplicationManager.PingGameServersCoroutine - Wait WorldNetworkManager.IsConnected()
+ApplicationManager.PingGameServersCoroutine - WorldNetworkManager.IsConnected() return true.
+NetworkUtilities - PingTcp - 54.226.176.175 - START
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH) ENDED.
+ApplicationManager.PingGameServersCoroutine - Wait WorldNetworkManager.IsConnected()
+NetworkUtilities - PingTcp - 54.226.176.175 - ConnectAsync
+NetworkUtilities - PingTcp - 54.226.176.175 - TrySetResult 8.9955
+ApplicationManager.PingGameServersCoroutine - WorldNetworkManager.IsConnected() return true.
+NetworkUtilities - PingTcp - 3.125.43.18 - START
+NetworkUtilities - PingTcp - 3.125.43.18 - ConnectAsync
+NetworkUtilities - PingTcp - 3.125.43.18 - TrySetResult 7.9075
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH).
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH).
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH) ENDED.
+ApplicationManager.PingGameServersCoroutine - Wait WorldNetworkManager.IsConnected()
+ApplicationManager.PingGameServersCoroutine - WorldNetworkManager.IsConnected() return true.
+NetworkUtilities - PingTcp - 54.254.194.167 - START
+NetworkUtilities - PingTcp - 54.254.194.167 - ConnectAsync
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH) ENDED.
+ApplicationManager.PingGameServersCoroutine - Wait WorldNetworkManager.IsConnected()
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH) ENDED.
+ApplicationManager.PingGameServersCoroutine - Wait WorldNetworkManager.IsConnected()
+ApplicationManager.PingGameServersCoroutine - WorldNetworkManager.IsConnected() return true.
+NetworkUtilities - PingTcp - 54.226.176.175 - START
+ApplicationManager.PingGameServersCoroutine - WorldNetworkManager.IsConnected() return true.
+NetworkUtilities - PingTcp - 3.125.43.18 - START
+NetworkUtilities - PingTcp - 3.125.43.18 - ConnectAsync
+NetworkUtilities - PingTcp - 54.226.176.175 - ConnectAsync
+NetworkUtilities - PingTcp - 3.125.43.18 - TrySetResult 6.6906
+NetworkUtilities - PingTcp - 54.226.176.175 - TrySetResult 6.6854
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH).
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH).
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH) ENDED.
+ApplicationManager.PingGameServersCoroutine - Wait WorldNetworkManager.IsConnected()
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH) ENDED.
+ApplicationManager.PingGameServersCoroutine - Wait WorldNetworkManager.IsConnected()
+ApplicationManager.PingGameServersCoroutine - WorldNetworkManager.IsConnected() return true.
+NetworkUtilities - PingTcp - 54.226.176.175 - START
+ApplicationManager.PingGameServersCoroutine - WorldNetworkManager.IsConnected() return true.
+NetworkUtilities - PingTcp - 3.125.43.18 - START
+NetworkUtilities - PingTcp - 54.226.176.175 - ConnectAsync
+NetworkUtilities - PingTcp - 3.125.43.18 - ConnectAsync
+NetworkUtilities - PingTcp - 54.226.176.175 - TrySetResult 13.3034
+NetworkUtilities - PingTcp - 3.125.43.18 - TrySetResult 12.7654
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH).
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH).
+NetworkUtilities - PingTcp - 54.254.194.167 - Exception System.Net.Sockets.SocketException (0x80004005): Connection timed out
+  at System.Net.Sockets.TcpClient.Connect (System.String hostname, System.Int32 port) [0x0019d] in <245cba593bdc463bacb144cf356a8b4b>:0 
+  at Abrakam.NetworkUtilities+<>c__DisplayClass12_0.<PingTcp>b__0 (System.Object state) [0x0002d] in <9e7db509c3c94e2bb6d090483cb7e0bf>:0 
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH).
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH) ENDED.
+ApplicationManager.PingGameServersCoroutine - Wait WorldNetworkManager.IsConnected()
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH) ENDED.
+ApplicationManager.PingGameServersCoroutine - Wait WorldNetworkManager.IsConnected()
+ApplicationManager.PingGameServersCoroutine - WorldNetworkManager.IsConnected() return true.
+NetworkUtilities - PingTcp - 54.226.176.175 - START
+ApplicationManager.PingGameServersCoroutine - WorldNetworkManager.IsConnected() return true.
+NetworkUtilities - PingTcp - 3.125.43.18 - START
+NetworkUtilities - PingTcp - 54.226.176.175 - ConnectAsync
+NetworkUtilities - PingTcp - 3.125.43.18 - ConnectAsync
+NetworkUtilities - PingTcp - 3.125.43.18 - TrySetResult 6.0335
+NetworkUtilities - PingTcp - 54.226.176.175 - TrySetResult 6.1818
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH).
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH).
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH) ENDED.
+ApplicationManager.PingGameServersCoroutine - Wait WorldNetworkManager.IsConnected()
+ApplicationManager.PingGameServersCoroutine - WorldNetworkManager.IsConnected() return true.
+NetworkUtilities - PingTcp - 54.254.194.167 - START
+NetworkUtilities - PingTcp - 54.254.194.167 - ConnectAsync
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH) ENDED.
+ApplicationManager.PingGameServersCoroutine - Wait WorldNetworkManager.IsConnected()
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH) ENDED.
+ApplicationManager.PingGameServersCoroutine - Wait WorldNetworkManager.IsConnected()
+ApplicationManager.PingGameServersCoroutine - WorldNetworkManager.IsConnected() return true.
+NetworkUtilities - PingTcp - 54.226.176.175 - START
+ApplicationManager.PingGameServersCoroutine - WorldNetworkManager.IsConnected() return true.
+NetworkUtilities - PingTcp - 3.125.43.18 - START
+NetworkUtilities - PingTcp - 54.226.176.175 - ConnectAsync
+NetworkUtilities - PingTcp - 3.125.43.18 - ConnectAsync
+NetworkUtilities - PingTcp - 54.226.176.175 - TrySetResult 8.5486
+NetworkUtilities - PingTcp - 3.125.43.18 - TrySetResult 8.5434
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH).
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH).
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH) ENDED.
+ApplicationManager.PingGameServersCoroutine - Wait WorldNetworkManager.IsConnected()
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH) ENDED.
+ApplicationManager.PingGameServersCoroutine - Wait WorldNetworkManager.IsConnected()
+ApplicationManager.PingGameServersCoroutine - WorldNetworkManager.IsConnected() return true.
+NetworkUtilities - PingTcp - 54.226.176.175 - START
+ApplicationManager.PingGameServersCoroutine - WorldNetworkManager.IsConnected() return true.
+NetworkUtilities - PingTcp - 3.125.43.18 - START
+NetworkUtilities - PingTcp - 3.125.43.18 - ConnectAsync
+NetworkUtilities - PingTcp - 54.226.176.175 - ConnectAsync
+NetworkUtilities - PingTcp - 3.125.43.18 - TrySetResult 8.5923
+NetworkUtilities - PingTcp - 54.226.176.175 - TrySetResult 6.3434
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH).
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH).
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH) ENDED.
+ApplicationManager.PingGameServersCoroutine - Wait WorldNetworkManager.IsConnected()
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH) ENDED.
+ApplicationManager.PingGameServersCoroutine - Wait WorldNetworkManager.IsConnected()
+ApplicationManager.PingGameServersCoroutine - WorldNetworkManager.IsConnected() return true.
+NetworkUtilities - PingTcp - 54.226.176.175 - START
+ApplicationManager.PingGameServersCoroutine - WorldNetworkManager.IsConnected() return true.
+NetworkUtilities - PingTcp - 3.125.43.18 - START
+NetworkUtilities - PingTcp - 3.125.43.18 - ConnectAsync
+NetworkUtilities - PingTcp - 54.226.176.175 - ConnectAsync
+NetworkUtilities - PingTcp - 54.226.176.175 - TrySetResult 6.9077
+NetworkUtilities - PingTcp - 3.125.43.18 - TrySetResult 10.1011
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH).
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH).
+NetworkUtilities - PingTcp - 54.254.194.167 - Exception System.Net.Sockets.SocketException (0x80004005): Connection timed out
+  at System.Net.Sockets.TcpClient.Connect (System.String hostname, System.Int32 port) [0x0019d] in <245cba593bdc463bacb144cf356a8b4b>:0 
+  at Abrakam.NetworkUtilities+<>c__DisplayClass12_0.<PingTcp>b__0 (System.Object state) [0x0002d] in <9e7db509c3c94e2bb6d090483cb7e0bf>:0 
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH).
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH) ENDED.
+ApplicationManager.PingGameServersCoroutine - Wait WorldNetworkManager.IsConnected()
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH) ENDED.
+ApplicationManager.PingGameServersCoroutine - Wait WorldNetworkManager.IsConnected()
+ApplicationManager.PingGameServersCoroutine - WorldNetworkManager.IsConnected() return true.
+NetworkUtilities - PingTcp - 54.226.176.175 - START
+ApplicationManager.PingGameServersCoroutine - WorldNetworkManager.IsConnected() return true.
+NetworkUtilities - PingTcp - 3.125.43.18 - START
+NetworkUtilities - PingTcp - 54.226.176.175 - ConnectAsync
+NetworkUtilities - PingTcp - 3.125.43.18 - ConnectAsync
+NetworkUtilities - PingTcp - 54.226.176.175 - TrySetResult 7.818
+NetworkUtilities - PingTcp - 3.125.43.18 - TrySetResult 7.8092
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH).
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH).
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH) ENDED.
+ApplicationManager.PingGameServersCoroutine - Wait WorldNetworkManager.IsConnected()
+ApplicationManager.PingGameServersCoroutine - WorldNetworkManager.IsConnected() return true.
+NetworkUtilities - PingTcp - 54.254.194.167 - START
+NetworkUtilities - PingTcp - 54.254.194.167 - ConnectAsync
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH) ENDED.
+ApplicationManager.PingGameServersCoroutine - Wait WorldNetworkManager.IsConnected()
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH) ENDED.
+ApplicationManager.PingGameServersCoroutine - Wait WorldNetworkManager.IsConnected()
+ApplicationManager.PingGameServersCoroutine - WorldNetworkManager.IsConnected() return true.
+NetworkUtilities - PingTcp - 54.226.176.175 - START
+ApplicationManager.PingGameServersCoroutine - WorldNetworkManager.IsConnected() return true.
+NetworkUtilities - PingTcp - 3.125.43.18 - START
+NetworkUtilities - PingTcp - 54.226.176.175 - ConnectAsync
+NetworkUtilities - PingTcp - 3.125.43.18 - ConnectAsync
+NetworkUtilities - PingTcp - 54.226.176.175 - TrySetResult 8.4527
+NetworkUtilities - PingTcp - 3.125.43.18 - TrySetResult 7.7638
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH).
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH).
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH) ENDED.
+ApplicationManager.PingGameServersCoroutine - Wait WorldNetworkManager.IsConnected()
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH) ENDED.
+ApplicationManager.PingGameServersCoroutine - Wait WorldNetworkManager.IsConnected()
+ApplicationManager.PingGameServersCoroutine - WorldNetworkManager.IsConnected() return true.
+NetworkUtilities - PingTcp - 54.226.176.175 - START
+ApplicationManager.PingGameServersCoroutine - WorldNetworkManager.IsConnected() return true.
+NetworkUtilities - PingTcp - 3.125.43.18 - START
+NetworkUtilities - PingTcp - 54.226.176.175 - ConnectAsync
+NetworkUtilities - PingTcp - 3.125.43.18 - ConnectAsync
+NetworkUtilities - PingTcp - 54.226.176.175 - TrySetResult 7.3343
+NetworkUtilities - PingTcp - 3.125.43.18 - TrySetResult 7.2531
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH).
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH).
+NetworkUtilities - PingTcp - 54.254.194.167 - Exception System.Net.Sockets.SocketException (0x80004005): Connection timed out
+  at System.Net.Sockets.TcpClient.Connect (System.String hostname, System.Int32 port) [0x0019d] in <245cba593bdc463bacb144cf356a8b4b>:0 
+  at Abrakam.NetworkUtilities+<>c__DisplayClass12_0.<PingTcp>b__0 (System.Object state) [0x0002d] in <9e7db509c3c94e2bb6d090483cb7e0bf>:0 
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH).
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH) ENDED.
+ApplicationManager.PingGameServersCoroutine - Wait WorldNetworkManager.IsConnected()
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH) ENDED.
+ApplicationManager.PingGameServersCoroutine - Wait WorldNetworkManager.IsConnected()
+ApplicationManager.PingGameServersCoroutine - WorldNetworkManager.IsConnected() return true.
+NetworkUtilities - PingTcp - 54.226.176.175 - START
+ApplicationManager.PingGameServersCoroutine - WorldNetworkManager.IsConnected() return true.
+NetworkUtilities - PingTcp - 3.125.43.18 - START
+NetworkUtilities - PingTcp - 54.226.176.175 - ConnectAsync
+NetworkUtilities - PingTcp - 3.125.43.18 - ConnectAsync
+NetworkUtilities - PingTcp - 3.125.43.18 - TrySetResult 7.5893
+NetworkUtilities - PingTcp - 54.226.176.175 - TrySetResult 9.4976
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH).
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH).
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH) ENDED.
+ApplicationManager.PingGameServersCoroutine - Wait WorldNetworkManager.IsConnected()
+ApplicationManager.PingGameServersCoroutine - WorldNetworkManager.IsConnected() return true.
+NetworkUtilities - PingTcp - 54.254.194.167 - START
+NetworkUtilities - PingTcp - 54.254.194.167 - ConnectAsync
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH) ENDED.
+ApplicationManager.PingGameServersCoroutine - Wait WorldNetworkManager.IsConnected()
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH) ENDED.
+ApplicationManager.PingGameServersCoroutine - Wait WorldNetworkManager.IsConnected()
+ApplicationManager.PingGameServersCoroutine - WorldNetworkManager.IsConnected() return true.
+NetworkUtilities - PingTcp - 54.226.176.175 - START
+ApplicationManager.PingGameServersCoroutine - WorldNetworkManager.IsConnected() return true.
+NetworkUtilities - PingTcp - 3.125.43.18 - START
+NetworkUtilities - PingTcp - 54.226.176.175 - ConnectAsync
+NetworkUtilities - PingTcp - 3.125.43.18 - ConnectAsync
+NetworkUtilities - PingTcp - 54.226.176.175 - TrySetResult 6.8156
+NetworkUtilities - PingTcp - 3.125.43.18 - TrySetResult 7.7853
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH).
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH).
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH) ENDED.
+ApplicationManager.PingGameServersCoroutine - Wait WorldNetworkManager.IsConnected()
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH) ENDED.
+ApplicationManager.PingGameServersCoroutine - Wait WorldNetworkManager.IsConnected()
+ApplicationManager.PingGameServersCoroutine - WorldNetworkManager.IsConnected() return true.
+NetworkUtilities - PingTcp - 54.226.176.175 - START
+ApplicationManager.PingGameServersCoroutine - WorldNetworkManager.IsConnected() return true.
+NetworkUtilities - PingTcp - 3.125.43.18 - START
+NetworkUtilities - PingTcp - 54.226.176.175 - ConnectAsync
+NetworkUtilities - PingTcp - 3.125.43.18 - ConnectAsync
+NetworkUtilities - PingTcp - 3.125.43.18 - TrySetResult 7.3936
+NetworkUtilities - PingTcp - 54.226.176.175 - TrySetResult 8.3463
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH).
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH).
+NetworkUtilities - PingTcp - 54.254.194.167 - Exception System.Net.Sockets.SocketException (0x80004005): Connection timed out
+  at System.Net.Sockets.TcpClient.Connect (System.String hostname, System.Int32 port) [0x0019d] in <245cba593bdc463bacb144cf356a8b4b>:0 
+  at Abrakam.NetworkUtilities+<>c__DisplayClass12_0.<PingTcp>b__0 (System.Object state) [0x0002d] in <9e7db509c3c94e2bb6d090483cb7e0bf>:0 
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH).
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH) ENDED.
+ApplicationManager.PingGameServersCoroutine - Wait WorldNetworkManager.IsConnected()
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH) ENDED.
+ApplicationManager.PingGameServersCoroutine - Wait WorldNetworkManager.IsConnected()
+ApplicationManager.PingGameServersCoroutine - WorldNetworkManager.IsConnected() return true.
+NetworkUtilities - PingTcp - 54.226.176.175 - START
+ApplicationManager.PingGameServersCoroutine - WorldNetworkManager.IsConnected() return true.
+NetworkUtilities - PingTcp - 3.125.43.18 - START
+NetworkUtilities - PingTcp - 54.226.176.175 - ConnectAsync
+NetworkUtilities - PingTcp - 3.125.43.18 - ConnectAsync
+NetworkUtilities - PingTcp - 54.226.176.175 - TrySetResult 7.583
+NetworkUtilities - PingTcp - 3.125.43.18 - TrySetResult 7.4723
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH).
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH).
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH) ENDED.
+ApplicationManager.PingGameServersCoroutine - Wait WorldNetworkManager.IsConnected()
+ApplicationManager.PingGameServersCoroutine - WorldNetworkManager.IsConnected() return true.
+NetworkUtilities - PingTcp - 54.254.194.167 - START
+NetworkUtilities - PingTcp - 54.254.194.167 - ConnectAsync
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH) ENDED.
+ApplicationManager.PingGameServersCoroutine - Wait WorldNetworkManager.IsConnected()
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH) ENDED.
+ApplicationManager.PingGameServersCoroutine - Wait WorldNetworkManager.IsConnected()
+ApplicationManager.PingGameServersCoroutine - WorldNetworkManager.IsConnected() return true.
+NetworkUtilities - PingTcp - 54.226.176.175 - START
+ApplicationManager.PingGameServersCoroutine - WorldNetworkManager.IsConnected() return true.
+NetworkUtilities - PingTcp - 3.125.43.18 - START
+NetworkUtilities - PingTcp - 54.226.176.175 - ConnectAsync
+NetworkUtilities - PingTcp - 3.125.43.18 - ConnectAsync
+NetworkUtilities - PingTcp - 54.226.176.175 - TrySetResult 6.1809
+NetworkUtilities - PingTcp - 3.125.43.18 - TrySetResult 6.0762
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH).
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH).
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH) ENDED.
+ApplicationManager.PingGameServersCoroutine - Wait WorldNetworkManager.IsConnected()
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH) ENDED.
+ApplicationManager.PingGameServersCoroutine - Wait WorldNetworkManager.IsConnected()
+ApplicationManager.PingGameServersCoroutine - WorldNetworkManager.IsConnected() return true.
+NetworkUtilities - PingTcp - 54.226.176.175 - START
+ApplicationManager.PingGameServersCoroutine - WorldNetworkManager.IsConnected() return true.
+NetworkUtilities - PingTcp - 3.125.43.18 - START
+NetworkUtilities - PingTcp - 3.125.43.18 - ConnectAsync
+NetworkUtilities - PingTcp - 54.226.176.175 - ConnectAsync
+NetworkUtilities - PingTcp - 3.125.43.18 - TrySetResult 4.1911
+NetworkUtilities - PingTcp - 54.226.176.175 - TrySetResult 5.7253
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH).
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH).
+NetworkUtilities - PingTcp - 54.254.194.167 - Exception System.Net.Sockets.SocketException (0x80004005): Connection timed out
+  at System.Net.Sockets.TcpClient.Connect (System.String hostname, System.Int32 port) [0x0019d] in <245cba593bdc463bacb144cf356a8b4b>:0 
+  at Abrakam.NetworkUtilities+<>c__DisplayClass12_0.<PingTcp>b__0 (System.Object state) [0x0002d] in <9e7db509c3c94e2bb6d090483cb7e0bf>:0 
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH).
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH) ENDED.
+ApplicationManager.PingGameServersCoroutine - Wait WorldNetworkManager.IsConnected()
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH) ENDED.
+ApplicationManager.PingGameServersCoroutine - Wait WorldNetworkManager.IsConnected()
+ApplicationManager.PingGameServersCoroutine - WorldNetworkManager.IsConnected() return true.
+NetworkUtilities - PingTcp - 54.226.176.175 - START
+ApplicationManager.PingGameServersCoroutine - WorldNetworkManager.IsConnected() return true.
+NetworkUtilities - PingTcp - 3.125.43.18 - START
+NetworkUtilities - PingTcp - 54.226.176.175 - ConnectAsync
+NetworkUtilities - PingTcp - 3.125.43.18 - ConnectAsync
+NetworkUtilities - PingTcp - 3.125.43.18 - TrySetResult 5.4368
+NetworkUtilities - PingTcp - 54.226.176.175 - TrySetResult 5.722
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH).
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH).
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH) ENDED.
+ApplicationManager.PingGameServersCoroutine - Wait WorldNetworkManager.IsConnected()
+ApplicationManager.PingGameServersCoroutine - WorldNetworkManager.IsConnected() return true.
+NetworkUtilities - PingTcp - 54.254.194.167 - START
+NetworkUtilities - PingTcp - 54.254.194.167 - ConnectAsync
+Message [<color=magenta>GO_TO_COLLECTION</color>] to State [<color=yellow>DeckSelectionState</color>]
+ChangeState[<color=yellow>DeckSelectionState</color>]->[<color=green>CollectionState</color>]
+Unloading 0 Unused Serialized files (Serialized files now loaded: 16)
+
+Unloading 39 unused Assets to reduce memory usage. Loaded Objects now: 20652.
+Total: 161.290000 ms (FindLiveObjects: 2.722000 ms CreateObjectMapping: 1.086000 ms MarkObjects: 157.219000 ms  DeleteObjects: 0.263000 ms)
+
+Scene[<color=orange>COLLECTION</color>] loading time = <color=cyan>0.5053711</color>
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH) ENDED.
+ApplicationManager.PingGameServersCoroutine - Wait WorldNetworkManager.IsConnected()
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH) ENDED.
+ApplicationManager.PingGameServersCoroutine - Wait WorldNetworkManager.IsConnected()
+ApplicationManager.PingGameServersCoroutine - WorldNetworkManager.IsConnected() return true.
+NetworkUtilities - PingTcp - 54.226.176.175 - START
+ApplicationManager.PingGameServersCoroutine - WorldNetworkManager.IsConnected() return true.
+NetworkUtilities - PingTcp - 3.125.43.18 - START
+NetworkUtilities - PingTcp - 54.226.176.175 - ConnectAsync
+NetworkUtilities - PingTcp - 3.125.43.18 - ConnectAsync
+NetworkUtilities - PingTcp - 54.226.176.175 - TrySetResult 8.3137
+NetworkUtilities - PingTcp - 3.125.43.18 - TrySetResult 8.0792
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH).
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH).
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH) ENDED.
+ApplicationManager.PingGameServersCoroutine - Wait WorldNetworkManager.IsConnected()
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH) ENDED.
+ApplicationManager.PingGameServersCoroutine - Wait WorldNetworkManager.IsConnected()
+ApplicationManager.PingGameServersCoroutine - WorldNetworkManager.IsConnected() return true.
+NetworkUtilities - PingTcp - 54.226.176.175 - START
+ApplicationManager.PingGameServersCoroutine - WorldNetworkManager.IsConnected() return true.
+NetworkUtilities - PingTcp - 3.125.43.18 - START
+NetworkUtilities - PingTcp - 3.125.43.18 - ConnectAsync
+NetworkUtilities - PingTcp - 54.226.176.175 - ConnectAsync
+NetworkUtilities - PingTcp - 3.125.43.18 - TrySetResult 8.7615
+NetworkUtilities - PingTcp - 54.226.176.175 - TrySetResult 8.7763
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH).
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH).
+NetworkUtilities - PingTcp - 54.254.194.167 - Exception System.Net.Sockets.SocketException (0x80004005): Connection timed out
+  at System.Net.Sockets.TcpClient.Connect (System.String hostname, System.Int32 port) [0x0019d] in <245cba593bdc463bacb144cf356a8b4b>:0 
+  at Abrakam.NetworkUtilities+<>c__DisplayClass12_0.<PingTcp>b__0 (System.Object state) [0x0002d] in <9e7db509c3c94e2bb6d090483cb7e0bf>:0 
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH).
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH) ENDED.
+ApplicationManager.PingGameServersCoroutine - Wait WorldNetworkManager.IsConnected()
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH) ENDED.
+ApplicationManager.PingGameServersCoroutine - Wait WorldNetworkManager.IsConnected()
+ApplicationManager.PingGameServersCoroutine - WorldNetworkManager.IsConnected() return true.
+NetworkUtilities - PingTcp - 54.226.176.175 - START
+ApplicationManager.PingGameServersCoroutine - WorldNetworkManager.IsConnected() return true.
+NetworkUtilities - PingTcp - 3.125.43.18 - START
+NetworkUtilities - PingTcp - 54.226.176.175 - ConnectAsync
+NetworkUtilities - PingTcp - 3.125.43.18 - ConnectAsync
+NetworkUtilities - PingTcp - 3.125.43.18 - TrySetResult 6.4406
+NetworkUtilities - PingTcp - 54.226.176.175 - TrySetResult 6.5188
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH).
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH).
+Message [<color=magenta>GO_TO_HOME</color>] to State [<color=yellow>CollectionState</color>]
+ChangeState[<color=yellow>CollectionState</color>]->[<color=green>HomeState</color>]
+Unloading 1 Unused Serialized files (Serialized files now loaded: 16)
+
+Unloading 409 unused Assets to reduce memory usage. Loaded Objects now: 20786.
+Total: 182.352000 ms (FindLiveObjects: 1.946000 ms CreateObjectMapping: 0.777000 ms MarkObjects: 178.763000 ms  DeleteObjects: 0.866000 ms)
+
+Scene[<color=orange>HOME</color>] loading time = <color=cyan>0.3994141</color>
+Message [<color=magenta>GO_TO_PLAY_MENU</color>] to State [<color=yellow>HomeState</color>]
+ChangeState[<color=yellow>HomeState</color>]->[<color=green>PlayMenuState</color>]
+Unloading 1 Unused Serialized files (Serialized files now loaded: 16)
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 20796.
+Total: 224.699000 ms (FindLiveObjects: 3.053000 ms CreateObjectMapping: 1.875000 ms MarkObjects: 219.647000 ms  DeleteObjects: 0.124000 ms)
+
+Scene[<color=orange>PLAY_MENU</color>] loading time = <color=cyan>0.5078125</color>
+Message [<color=magenta>GO_TO_CONSTRUCTED_MODE</color>] to State [<color=yellow>PlayMenuState</color>]
+ChangeState[<color=yellow>PlayMenuState</color>]->[<color=green>DeckSelectionState</color>]
+Unloading 1 Unused Serialized files (Serialized files now loaded: 16)
+
+Unloading 38 unused Assets to reduce memory usage. Loaded Objects now: 20795.
+Total: 223.907000 ms (FindLiveObjects: 4.086000 ms CreateObjectMapping: 1.691000 ms MarkObjects: 217.839000 ms  DeleteObjects: 0.290000 ms)
+
+Scene[<color=orange>DECK_SELECTION</color>] loading time = <color=cyan>0.4008789</color>
+Message [<color=magenta>GO_TO_COLLECTION</color>] to State [<color=yellow>DeckSelectionState</color>]
+ChangeState[<color=yellow>DeckSelectionState</color>]->[<color=green>CollectionState</color>]
+Unloading 1 Unused Serialized files (Serialized files now loaded: 16)
+
+Unloading 39 unused Assets to reduce memory usage. Loaded Objects now: 20797.
+Total: 214.099000 ms (FindLiveObjects: 4.034000 ms CreateObjectMapping: 1.490000 ms MarkObjects: 207.682000 ms  DeleteObjects: 0.892000 ms)
+
+Scene[<color=orange>COLLECTION</color>] loading time = <color=cyan>0.6088867</color>
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH) ENDED.
+ApplicationManager.PingGameServersCoroutine - Wait WorldNetworkManager.IsConnected()
+ApplicationManager.PingGameServersCoroutine - WorldNetworkManager.IsConnected() return true.
+NetworkUtilities - PingTcp - 54.254.194.167 - START
+NetworkUtilities - PingTcp - 54.254.194.167 - ConnectAsync
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH) ENDED.
+ApplicationManager.PingGameServersCoroutine - Wait WorldNetworkManager.IsConnected()
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH) ENDED.
+ApplicationManager.PingGameServersCoroutine - Wait WorldNetworkManager.IsConnected()
+ApplicationManager.PingGameServersCoroutine - WorldNetworkManager.IsConnected() return true.
+NetworkUtilities - PingTcp - 54.226.176.175 - START
+ApplicationManager.PingGameServersCoroutine - WorldNetworkManager.IsConnected() return true.
+NetworkUtilities - PingTcp - 3.125.43.18 - START
+NetworkUtilities - PingTcp - 54.226.176.175 - ConnectAsync
+NetworkUtilities - PingTcp - 3.125.43.18 - ConnectAsync
+NetworkUtilities - PingTcp - 54.226.176.175 - TrySetResult 6.5915
+NetworkUtilities - PingTcp - 3.125.43.18 - TrySetResult 6.5803
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH).
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH).
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH) ENDED.
+ApplicationManager.PingGameServersCoroutine - Wait WorldNetworkManager.IsConnected()
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH) ENDED.
+ApplicationManager.PingGameServersCoroutine - Wait WorldNetworkManager.IsConnected()
+ApplicationManager.PingGameServersCoroutine - WorldNetworkManager.IsConnected() return true.
+NetworkUtilities - PingTcp - 54.226.176.175 - START
+ApplicationManager.PingGameServersCoroutine - WorldNetworkManager.IsConnected() return true.
+NetworkUtilities - PingTcp - 3.125.43.18 - START
+NetworkUtilities - PingTcp - 54.226.176.175 - ConnectAsync
+NetworkUtilities - PingTcp - 3.125.43.18 - ConnectAsync
+NetworkUtilities - PingTcp - 54.226.176.175 - TrySetResult 6.965
+NetworkUtilities - PingTcp - 3.125.43.18 - TrySetResult 7.4469
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH).
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH).
+NetworkUtilities - PingTcp - 54.254.194.167 - Exception System.Net.Sockets.SocketException (0x80004005): Connection timed out
+  at System.Net.Sockets.TcpClient.Connect (System.String hostname, System.Int32 port) [0x0019d] in <245cba593bdc463bacb144cf356a8b4b>:0 
+  at Abrakam.NetworkUtilities+<>c__DisplayClass12_0.<PingTcp>b__0 (System.Object state) [0x0002d] in <9e7db509c3c94e2bb6d090483cb7e0bf>:0 
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH).
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH) ENDED.
+ApplicationManager.PingGameServersCoroutine - Wait WorldNetworkManager.IsConnected()
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH) ENDED.
+ApplicationManager.PingGameServersCoroutine - Wait WorldNetworkManager.IsConnected()
+ApplicationManager.PingGameServersCoroutine - WorldNetworkManager.IsConnected() return true.
+NetworkUtilities - PingTcp - 54.226.176.175 - START
+ApplicationManager.PingGameServersCoroutine - WorldNetworkManager.IsConnected() return true.
+NetworkUtilities - PingTcp - 3.125.43.18 - START
+NetworkUtilities - PingTcp - 3.125.43.18 - ConnectAsync
+NetworkUtilities - PingTcp - 54.226.176.175 - ConnectAsync
+NetworkUtilities - PingTcp - 54.226.176.175 - TrySetResult 7.3969
+NetworkUtilities - PingTcp - 3.125.43.18 - TrySetResult 7.4095
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH).
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH).
+Message [<color=magenta>GO_TO_INGAME</color>] to State [<color=yellow>CollectionState</color>]
+ChangeState[<color=yellow>CollectionState</color>]->[<color=green>IngameState</color>]
+Unloading 1 Unused Serialized files (Serialized files now loaded: 17)
+
+Unloading 1082 unused Assets to reduce memory usage. Loaded Objects now: 20822.
+Total: 242.011000 ms (FindLiveObjects: 2.644000 ms CreateObjectMapping: 0.957000 ms MarkObjects: 236.576000 ms  DeleteObjects: 1.833000 ms)
+
+Scene[<color=orange>INGAME</color>] loading time = <color=cyan>2.992188</color>
 RequestAuthTokenCoroutineGameServer
 {
     "serverType": 1,
@@ -493,76 +1805,77 @@ RequestAuthTokenCoroutineGameServer
 }
 [INFO]: Obtained steam authticket
 Token for <color=white>game1-eu-prod.faeria.com</color>:
-140000008702F77671AF3694CBAE270101001001D32FA161180000000100000002000000DC951BC4BD82727C87600F0005000000D00000005000000004000000CBAE270101001001040F060058CBA72D7144A8C0000000007A599461FA08B0610100EE5104000500886F0D000000896F0D000000A4570E000000EE760E0000000A1810000000000005013807102BC23FFEB62F09933ED9A72E28203898B5541AF7F20B8527DC692BDCCFE4B0110DAB1671007C8E2C372C92942411EDDD4794CF477DB3A442732D06D151755979D5987941FC456790D4A1DE66F75BB29D42A285A84F072DC094F833398C52AAE6CF2D20A8D0083DA14C3616D3B71ACC1699B69BCE38DBA36CA17259
+1400000039956668CF669582CBAE270101001001B661A2611800000001000000020000005AC61DE33E4B9D5D4F97480006000000D00000005000000004000000CBAE270101001001040F060058CBA72D7144A8C000000000B861A2613811BE610100EE5104000500886F0D000000896F0D000000A4570E000000EE760E0000000A18100000000000B420D5605BE4CB0905C40AA1C4D7F37FC09B0090560190FCF2F046221ACA668BE8306006EAAF431E30747979BB78B8F3FA1C9C773C90B4B21CBE58A85040DC31DED5F92CCB2DC09C45314A698BB7E608F9F21E378CDE35BC3D6DE28D31D95BDB732D3BA9F8E35CAE6E3809D7B624A962ED35C4E5F26ACCB929ED2C5CC01FF689
 Linux does not yet support bringing Faeria to front
 <color=yellow>PlayIngameDynamicMusic</color>
 <color=yellow>PlayIngameDynamicMusic</color>
 ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH) ENDED.
 ApplicationManager.PingGameServersCoroutine - Wait WorldNetworkManager.IsConnected()
 ApplicationManager.PingGameServersCoroutine - WorldNetworkManager.IsConnected() return true.
-NetworkUtilities - PingTcp - 54.226.176.175 - START
-NetworkUtilities - PingTcp - 54.226.176.175 - ConnectAsync
-NetworkUtilities - PingTcp - 54.226.176.175 - TrySetResult 7.9688
-ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH).
-ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH) ENDED.
-ApplicationManager.PingGameServersCoroutine - Wait WorldNetworkManager.IsConnected()
-ApplicationManager.PingGameServersCoroutine - WorldNetworkManager.IsConnected() return true.
-NetworkUtilities - PingTcp - 3.125.43.18 - START
-NetworkUtilities - PingTcp - 3.125.43.18 - ConnectAsync
-NetworkUtilities - PingTcp - 3.125.43.18 - TrySetResult 5.3825
-ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH).
-ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH) ENDED.
-ApplicationManager.PingGameServersCoroutine - Wait WorldNetworkManager.IsConnected()
-ApplicationManager.PingGameServersCoroutine - WorldNetworkManager.IsConnected() return true.
 NetworkUtilities - PingTcp - 54.254.194.167 - START
 NetworkUtilities - PingTcp - 54.254.194.167 - ConnectAsync
 ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH) ENDED.
 ApplicationManager.PingGameServersCoroutine - Wait WorldNetworkManager.IsConnected()
-ApplicationManager.PingGameServersCoroutine - WorldNetworkManager.IsConnected() return true.
-NetworkUtilities - PingTcp - 54.226.176.175 - START
-NetworkUtilities - PingTcp - 54.226.176.175 - ConnectAsync
-NetworkUtilities - PingTcp - 54.226.176.175 - TrySetResult 6.064
-ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH).
-ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH) ENDED.
-ApplicationManager.PingGameServersCoroutine - Wait WorldNetworkManager.IsConnected()
-ApplicationManager.PingGameServersCoroutine - WorldNetworkManager.IsConnected() return true.
-NetworkUtilities - PingTcp - 3.125.43.18 - START
-NetworkUtilities - PingTcp - 3.125.43.18 - ConnectAsync
-NetworkUtilities - PingTcp - 3.125.43.18 - TrySetResult 5.1289
-ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH).
 ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH) ENDED.
 ApplicationManager.PingGameServersCoroutine - Wait WorldNetworkManager.IsConnected()
 ApplicationManager.PingGameServersCoroutine - WorldNetworkManager.IsConnected() return true.
 NetworkUtilities - PingTcp - 54.226.176.175 - START
-NetworkUtilities - PingTcp - 54.226.176.175 - ConnectAsync
-NetworkUtilities - PingTcp - 54.226.176.175 - TrySetResult 4.9251
-ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH).
-ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH) ENDED.
-ApplicationManager.PingGameServersCoroutine - Wait WorldNetworkManager.IsConnected()
 ApplicationManager.PingGameServersCoroutine - WorldNetworkManager.IsConnected() return true.
 NetworkUtilities - PingTcp - 3.125.43.18 - START
 NetworkUtilities - PingTcp - 3.125.43.18 - ConnectAsync
-NetworkUtilities - PingTcp - 3.125.43.18 - TrySetResult 5.4653
+NetworkUtilities - PingTcp - 54.226.176.175 - ConnectAsync
+NetworkUtilities - PingTcp - 3.125.43.18 - TrySetResult 5.9159
+NetworkUtilities - PingTcp - 54.226.176.175 - TrySetResult 6.8414
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH).
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH).
+LifeDecrease : (-0.2, 0.0, 0.0) : locEffectStrength : 0.2
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH) ENDED.
+ApplicationManager.PingGameServersCoroutine - Wait WorldNetworkManager.IsConnected()
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH) ENDED.
+ApplicationManager.PingGameServersCoroutine - Wait WorldNetworkManager.IsConnected()
+ApplicationManager.PingGameServersCoroutine - WorldNetworkManager.IsConnected() return true.
+NetworkUtilities - PingTcp - 54.226.176.175 - START
+ApplicationManager.PingGameServersCoroutine - WorldNetworkManager.IsConnected() return true.
+NetworkUtilities - PingTcp - 3.125.43.18 - START
+NetworkUtilities - PingTcp - 54.226.176.175 - ConnectAsync
+NetworkUtilities - PingTcp - 3.125.43.18 - ConnectAsync
+NetworkUtilities - PingTcp - 54.226.176.175 - TrySetResult 8.286
+NetworkUtilities - PingTcp - 3.125.43.18 - TrySetResult 8.2446
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH).
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH).
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH) ENDED.
+ApplicationManager.PingGameServersCoroutine - Wait WorldNetworkManager.IsConnected()
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH) ENDED.
+ApplicationManager.PingGameServersCoroutine - Wait WorldNetworkManager.IsConnected()
+ApplicationManager.PingGameServersCoroutine - WorldNetworkManager.IsConnected() return true.
+NetworkUtilities - PingTcp - 54.226.176.175 - START
+ApplicationManager.PingGameServersCoroutine - WorldNetworkManager.IsConnected() return true.
+NetworkUtilities - PingTcp - 3.125.43.18 - START
+NetworkUtilities - PingTcp - 3.125.43.18 - ConnectAsync
+NetworkUtilities - PingTcp - 54.226.176.175 - ConnectAsync
+NetworkUtilities - PingTcp - 3.125.43.18 - TrySetResult 6.4702
+NetworkUtilities - PingTcp - 54.226.176.175 - TrySetResult 6.4718
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH).
 ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH).
 NetworkUtilities - PingTcp - 54.254.194.167 - Exception System.Net.Sockets.SocketException (0x80004005): Connection timed out
   at System.Net.Sockets.TcpClient.Connect (System.String hostname, System.Int32 port) [0x0019d] in <245cba593bdc463bacb144cf356a8b4b>:0 
   at Abrakam.NetworkUtilities+<>c__DisplayClass12_0.<PingTcp>b__0 (System.Object state) [0x0002d] in <9e7db509c3c94e2bb6d090483cb7e0bf>:0 
 ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH).
+LifeDecrease : (0.0, -0.2, 0.0) : locEffectStrength : 0.2
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH) ENDED.
+ApplicationManager.PingGameServersCoroutine - Wait WorldNetworkManager.IsConnected()
 ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH) ENDED.
 ApplicationManager.PingGameServersCoroutine - Wait WorldNetworkManager.IsConnected()
 ApplicationManager.PingGameServersCoroutine - WorldNetworkManager.IsConnected() return true.
 NetworkUtilities - PingTcp - 54.226.176.175 - START
-NetworkUtilities - PingTcp - 54.226.176.175 - ConnectAsync
-NetworkUtilities - PingTcp - 54.226.176.175 - TrySetResult 5.2046
-ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH).
-ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH) ENDED.
-ApplicationManager.PingGameServersCoroutine - Wait WorldNetworkManager.IsConnected()
 ApplicationManager.PingGameServersCoroutine - WorldNetworkManager.IsConnected() return true.
 NetworkUtilities - PingTcp - 3.125.43.18 - START
+NetworkUtilities - PingTcp - 54.226.176.175 - ConnectAsync
 NetworkUtilities - PingTcp - 3.125.43.18 - ConnectAsync
-NetworkUtilities - PingTcp - 3.125.43.18 - TrySetResult 4.6334
+NetworkUtilities - PingTcp - 54.226.176.175 - TrySetResult 7.4355
+NetworkUtilities - PingTcp - 3.125.43.18 - TrySetResult 7.3875
 ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH).
-LifeDecrease : (0.4, 0.1, 0.0) : locEffectStrength : 0.4
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH).
 ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH) ENDED.
 ApplicationManager.PingGameServersCoroutine - Wait WorldNetworkManager.IsConnected()
 ApplicationManager.PingGameServersCoroutine - WorldNetworkManager.IsConnected() return true.
@@ -570,129 +1883,318 @@ NetworkUtilities - PingTcp - 54.254.194.167 - START
 NetworkUtilities - PingTcp - 54.254.194.167 - ConnectAsync
 ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH) ENDED.
 ApplicationManager.PingGameServersCoroutine - Wait WorldNetworkManager.IsConnected()
-ApplicationManager.PingGameServersCoroutine - WorldNetworkManager.IsConnected() return true.
-NetworkUtilities - PingTcp - 54.226.176.175 - START
-NetworkUtilities - PingTcp - 54.226.176.175 - ConnectAsync
-NetworkUtilities - PingTcp - 54.226.176.175 - TrySetResult 7.3146
-ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH).
-ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH) ENDED.
-ApplicationManager.PingGameServersCoroutine - Wait WorldNetworkManager.IsConnected()
-ApplicationManager.PingGameServersCoroutine - WorldNetworkManager.IsConnected() return true.
-NetworkUtilities - PingTcp - 3.125.43.18 - START
-NetworkUtilities - PingTcp - 3.125.43.18 - ConnectAsync
-NetworkUtilities - PingTcp - 3.125.43.18 - TrySetResult 5.0612
-ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH).
-LifeDecrease : (0.4, 0.0, 0.0) : locEffectStrength : 0.4
 ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH) ENDED.
 ApplicationManager.PingGameServersCoroutine - Wait WorldNetworkManager.IsConnected()
 ApplicationManager.PingGameServersCoroutine - WorldNetworkManager.IsConnected() return true.
 NetworkUtilities - PingTcp - 54.226.176.175 - START
+ApplicationManager.PingGameServersCoroutine - WorldNetworkManager.IsConnected() return true.
+NetworkUtilities - PingTcp - 3.125.43.18 - START
 NetworkUtilities - PingTcp - 54.226.176.175 - ConnectAsync
-NetworkUtilities - PingTcp - 54.226.176.175 - TrySetResult 5.6708
+NetworkUtilities - PingTcp - 3.125.43.18 - ConnectAsync
+NetworkUtilities - PingTcp - 3.125.43.18 - TrySetResult 6.9149
+NetworkUtilities - PingTcp - 54.226.176.175 - TrySetResult 6.9151
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH).
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH).
+LifeDecrease : (0.2, -0.2, 0.0) : locEffectStrength : 0.3
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH) ENDED.
+ApplicationManager.PingGameServersCoroutine - Wait WorldNetworkManager.IsConnected()
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH) ENDED.
+ApplicationManager.PingGameServersCoroutine - Wait WorldNetworkManager.IsConnected()
+ApplicationManager.PingGameServersCoroutine - WorldNetworkManager.IsConnected() return true.
+NetworkUtilities - PingTcp - 54.226.176.175 - START
+ApplicationManager.PingGameServersCoroutine - WorldNetworkManager.IsConnected() return true.
+NetworkUtilities - PingTcp - 3.125.43.18 - START
+NetworkUtilities - PingTcp - 54.226.176.175 - ConnectAsync
+NetworkUtilities - PingTcp - 3.125.43.18 - ConnectAsync
+NetworkUtilities - PingTcp - 54.226.176.175 - TrySetResult 5.3141
+NetworkUtilities - PingTcp - 3.125.43.18 - TrySetResult 5.3016
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH).
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH).
+NetworkUtilities - PingTcp - 54.254.194.167 - Exception System.Net.Sockets.SocketException (0x80004005): Connection timed out
+  at System.Net.Sockets.TcpClient.Connect (System.String hostname, System.Int32 port) [0x0019d] in <245cba593bdc463bacb144cf356a8b4b>:0 
+  at Abrakam.NetworkUtilities+<>c__DisplayClass12_0.<PingTcp>b__0 (System.Object state) [0x0002d] in <9e7db509c3c94e2bb6d090483cb7e0bf>:0 
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH).
+LifeDecrease : (0.0, -0.4, 0.0) : locEffectStrength : 0.4
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH) ENDED.
+ApplicationManager.PingGameServersCoroutine - Wait WorldNetworkManager.IsConnected()
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH) ENDED.
+ApplicationManager.PingGameServersCoroutine - Wait WorldNetworkManager.IsConnected()
+ApplicationManager.PingGameServersCoroutine - WorldNetworkManager.IsConnected() return true.
+NetworkUtilities - PingTcp - 54.226.176.175 - START
+ApplicationManager.PingGameServersCoroutine - WorldNetworkManager.IsConnected() return true.
+NetworkUtilities - PingTcp - 3.125.43.18 - START
+NetworkUtilities - PingTcp - 54.226.176.175 - ConnectAsync
+NetworkUtilities - PingTcp - 3.125.43.18 - ConnectAsync
+NetworkUtilities - PingTcp - 3.125.43.18 - TrySetResult 5.2683
+NetworkUtilities - PingTcp - 54.226.176.175 - TrySetResult 5.2853
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH).
 ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH).
 ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH) ENDED.
 ApplicationManager.PingGameServersCoroutine - Wait WorldNetworkManager.IsConnected()
 ApplicationManager.PingGameServersCoroutine - WorldNetworkManager.IsConnected() return true.
+NetworkUtilities - PingTcp - 54.254.194.167 - START
+NetworkUtilities - PingTcp - 54.254.194.167 - ConnectAsync
+LifeDecrease : (0.2, -0.2, 0.0) : locEffectStrength : 0.3
+LifeDecrease : (0.2, 0.0, 0.0) : locEffectStrength : 0.25
+LifeDecrease : (0.1, -0.1, 0.0) : locEffectStrength : 0.15
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH) ENDED.
+ApplicationManager.PingGameServersCoroutine - Wait WorldNetworkManager.IsConnected()
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH) ENDED.
+ApplicationManager.PingGameServersCoroutine - Wait WorldNetworkManager.IsConnected()
+ApplicationManager.PingGameServersCoroutine - WorldNetworkManager.IsConnected() return true.
+NetworkUtilities - PingTcp - 54.226.176.175 - START
+ApplicationManager.PingGameServersCoroutine - WorldNetworkManager.IsConnected() return true.
+NetworkUtilities - PingTcp - 3.125.43.18 - START
+NetworkUtilities - PingTcp - 54.226.176.175 - ConnectAsync
+NetworkUtilities - PingTcp - 3.125.43.18 - ConnectAsync
+NetworkUtilities - PingTcp - 3.125.43.18 - TrySetResult 5.1989
+NetworkUtilities - PingTcp - 54.226.176.175 - TrySetResult 5.2318
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH).
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH).
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH) ENDED.
+ApplicationManager.PingGameServersCoroutine - Wait WorldNetworkManager.IsConnected()
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH) ENDED.
+ApplicationManager.PingGameServersCoroutine - Wait WorldNetworkManager.IsConnected()
+ApplicationManager.PingGameServersCoroutine - WorldNetworkManager.IsConnected() return true.
+NetworkUtilities - PingTcp - 54.226.176.175 - START
+ApplicationManager.PingGameServersCoroutine - WorldNetworkManager.IsConnected() return true.
+NetworkUtilities - PingTcp - 3.125.43.18 - START
+NetworkUtilities - PingTcp - 54.226.176.175 - ConnectAsync
+NetworkUtilities - PingTcp - 3.125.43.18 - ConnectAsync
+NetworkUtilities - PingTcp - 54.226.176.175 - TrySetResult 6.617
+NetworkUtilities - PingTcp - 3.125.43.18 - TrySetResult 6.6237
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH).
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH).
+NetworkUtilities - PingTcp - 54.254.194.167 - Exception System.Net.Sockets.SocketException (0x80004005): Connection timed out
+  at System.Net.Sockets.TcpClient.Connect (System.String hostname, System.Int32 port) [0x0019d] in <245cba593bdc463bacb144cf356a8b4b>:0 
+  at Abrakam.NetworkUtilities+<>c__DisplayClass12_0.<PingTcp>b__0 (System.Object state) [0x0002d] in <9e7db509c3c94e2bb6d090483cb7e0bf>:0 
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH).
+LifeDecrease : (0.2, 0.0, 0.0) : locEffectStrength : 0.25
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH) ENDED.
+ApplicationManager.PingGameServersCoroutine - Wait WorldNetworkManager.IsConnected()
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH) ENDED.
+ApplicationManager.PingGameServersCoroutine - Wait WorldNetworkManager.IsConnected()
+ApplicationManager.PingGameServersCoroutine - WorldNetworkManager.IsConnected() return true.
+NetworkUtilities - PingTcp - 54.226.176.175 - START
+ApplicationManager.PingGameServersCoroutine - WorldNetworkManager.IsConnected() return true.
+NetworkUtilities - PingTcp - 3.125.43.18 - START
+NetworkUtilities - PingTcp - 54.226.176.175 - ConnectAsync
+NetworkUtilities - PingTcp - 3.125.43.18 - ConnectAsync
+NetworkUtilities - PingTcp - 3.125.43.18 - TrySetResult 4.5726
+NetworkUtilities - PingTcp - 54.226.176.175 - TrySetResult 5.9419
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH).
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH).
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH) ENDED.
+ApplicationManager.PingGameServersCoroutine - Wait WorldNetworkManager.IsConnected()
+ApplicationManager.PingGameServersCoroutine - WorldNetworkManager.IsConnected() return true.
+NetworkUtilities - PingTcp - 54.254.194.167 - START
+NetworkUtilities - PingTcp - 54.254.194.167 - ConnectAsync
+LifeDecrease : (0.2, -0.1, 0.0) : locEffectStrength : 0.25
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH) ENDED.
+ApplicationManager.PingGameServersCoroutine - Wait WorldNetworkManager.IsConnected()
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH) ENDED.
+ApplicationManager.PingGameServersCoroutine - Wait WorldNetworkManager.IsConnected()
+ApplicationManager.PingGameServersCoroutine - WorldNetworkManager.IsConnected() return true.
+NetworkUtilities - PingTcp - 54.226.176.175 - START
+ApplicationManager.PingGameServersCoroutine - WorldNetworkManager.IsConnected() return true.
+NetworkUtilities - PingTcp - 3.125.43.18 - START
+NetworkUtilities - PingTcp - 54.226.176.175 - ConnectAsync
+NetworkUtilities - PingTcp - 3.125.43.18 - ConnectAsync
+NetworkUtilities - PingTcp - 54.226.176.175 - TrySetResult 7.1189
+NetworkUtilities - PingTcp - 3.125.43.18 - TrySetResult 10.2332
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH).
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH).
+LifeDecrease : (-0.2, -0.2, 0.0) : locEffectStrength : 0.25
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH) ENDED.
+ApplicationManager.PingGameServersCoroutine - Wait WorldNetworkManager.IsConnected()
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH) ENDED.
+ApplicationManager.PingGameServersCoroutine - Wait WorldNetworkManager.IsConnected()
+ApplicationManager.PingGameServersCoroutine - WorldNetworkManager.IsConnected() return true.
+NetworkUtilities - PingTcp - 54.226.176.175 - START
+ApplicationManager.PingGameServersCoroutine - WorldNetworkManager.IsConnected() return true.
+NetworkUtilities - PingTcp - 3.125.43.18 - START
+NetworkUtilities - PingTcp - 54.226.176.175 - ConnectAsync
+NetworkUtilities - PingTcp - 3.125.43.18 - ConnectAsync
+NetworkUtilities - PingTcp - 3.125.43.18 - TrySetResult 5.3684
+NetworkUtilities - PingTcp - 54.226.176.175 - TrySetResult 6.4702
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH).
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH).
+LifeDecrease : (0.0, -0.3, 0.0) : locEffectStrength : 0.25
+LifeDecrease : (-0.2, -0.1, 0.0) : locEffectStrength : 0.2
+NetworkUtilities - PingTcp - 54.254.194.167 - Exception System.Net.Sockets.SocketException (0x80004005): Connection timed out
+  at System.Net.Sockets.TcpClient.Connect (System.String hostname, System.Int32 port) [0x0019d] in <245cba593bdc463bacb144cf356a8b4b>:0 
+  at Abrakam.NetworkUtilities+<>c__DisplayClass12_0.<PingTcp>b__0 (System.Object state) [0x0002d] in <9e7db509c3c94e2bb6d090483cb7e0bf>:0 
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH).
+LifeDecrease : (0.2, -0.2, 0.0) : locEffectStrength : 0.25
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH) ENDED.
+ApplicationManager.PingGameServersCoroutine - Wait WorldNetworkManager.IsConnected()
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH) ENDED.
+ApplicationManager.PingGameServersCoroutine - Wait WorldNetworkManager.IsConnected()
+ApplicationManager.PingGameServersCoroutine - WorldNetworkManager.IsConnected() return true.
+NetworkUtilities - PingTcp - 54.226.176.175 - START
+ApplicationManager.PingGameServersCoroutine - WorldNetworkManager.IsConnected() return true.
+NetworkUtilities - PingTcp - 3.125.43.18 - START
+NetworkUtilities - PingTcp - 54.226.176.175 - ConnectAsync
+NetworkUtilities - PingTcp - 3.125.43.18 - ConnectAsync
+NetworkUtilities - PingTcp - 54.226.176.175 - TrySetResult 6.6585
+NetworkUtilities - PingTcp - 3.125.43.18 - TrySetResult 8.9472
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH).
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH).
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH) ENDED.
+ApplicationManager.PingGameServersCoroutine - Wait WorldNetworkManager.IsConnected()
+ApplicationManager.PingGameServersCoroutine - WorldNetworkManager.IsConnected() return true.
+NetworkUtilities - PingTcp - 54.254.194.167 - START
+NetworkUtilities - PingTcp - 54.254.194.167 - ConnectAsync
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH) ENDED.
+ApplicationManager.PingGameServersCoroutine - Wait WorldNetworkManager.IsConnected()
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH) ENDED.
+ApplicationManager.PingGameServersCoroutine - Wait WorldNetworkManager.IsConnected()
+ApplicationManager.PingGameServersCoroutine - WorldNetworkManager.IsConnected() return true.
+NetworkUtilities - PingTcp - 54.226.176.175 - START
+ApplicationManager.PingGameServersCoroutine - WorldNetworkManager.IsConnected() return true.
+NetworkUtilities - PingTcp - 3.125.43.18 - START
+NetworkUtilities - PingTcp - 54.226.176.175 - ConnectAsync
+NetworkUtilities - PingTcp - 3.125.43.18 - ConnectAsync
+NetworkUtilities - PingTcp - 3.125.43.18 - TrySetResult 6.7857
+NetworkUtilities - PingTcp - 54.226.176.175 - TrySetResult 6.819
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH).
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH).
+LifeDecrease : (-0.2, 0.0, 0.0) : locEffectStrength : 0.2
+LifeDecrease : (-0.2, -0.1, 0.0) : locEffectStrength : 0.25
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH) ENDED.
+ApplicationManager.PingGameServersCoroutine - Wait WorldNetworkManager.IsConnected()
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH) ENDED.
+ApplicationManager.PingGameServersCoroutine - Wait WorldNetworkManager.IsConnected()
+ApplicationManager.PingGameServersCoroutine - WorldNetworkManager.IsConnected() return true.
+NetworkUtilities - PingTcp - 54.226.176.175 - START
+ApplicationManager.PingGameServersCoroutine - WorldNetworkManager.IsConnected() return true.
+NetworkUtilities - PingTcp - 3.125.43.18 - START
+NetworkUtilities - PingTcp - 54.226.176.175 - ConnectAsync
+NetworkUtilities - PingTcp - 3.125.43.18 - ConnectAsync
+NetworkUtilities - PingTcp - 54.226.176.175 - TrySetResult 6.811
+NetworkUtilities - PingTcp - 3.125.43.18 - TrySetResult 8.8948
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH).
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH).
+NetworkUtilities - PingTcp - 54.254.194.167 - Exception System.Net.Sockets.SocketException (0x80004005): Connection timed out
+  at System.Net.Sockets.TcpClient.Connect (System.String hostname, System.Int32 port) [0x0019d] in <245cba593bdc463bacb144cf356a8b4b>:0 
+  at Abrakam.NetworkUtilities+<>c__DisplayClass12_0.<PingTcp>b__0 (System.Object state) [0x0002d] in <9e7db509c3c94e2bb6d090483cb7e0bf>:0 
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH).
+LifeDecrease : (0.1, -0.2, 0.0) : locEffectStrength : 0.25
+LifeDecrease : (0.2, -0.1, 0.0) : locEffectStrength : 0.2
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH) ENDED.
+ApplicationManager.PingGameServersCoroutine - Wait WorldNetworkManager.IsConnected()
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH) ENDED.
+ApplicationManager.PingGameServersCoroutine - Wait WorldNetworkManager.IsConnected()
+ApplicationManager.PingGameServersCoroutine - WorldNetworkManager.IsConnected() return true.
+NetworkUtilities - PingTcp - 54.226.176.175 - START
+NetworkUtilities - PingTcp - 54.226.176.175 - ConnectAsync
+ApplicationManager.PingGameServersCoroutine - WorldNetworkManager.IsConnected() return true.
 NetworkUtilities - PingTcp - 3.125.43.18 - START
 NetworkUtilities - PingTcp - 3.125.43.18 - ConnectAsync
-NetworkUtilities - PingTcp - 3.125.43.18 - TrySetResult 6.4239
+NetworkUtilities - PingTcp - 54.226.176.175 - TrySetResult 3.3497
+NetworkUtilities - PingTcp - 3.125.43.18 - TrySetResult 6.3995
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH).
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH).
+LifeDecrease : (0.2, -0.1, 0.0) : locEffectStrength : 0.2
+LifeDecrease : (-0.2, -0.1, 0.0) : locEffectStrength : 0.25
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH) ENDED.
+ApplicationManager.PingGameServersCoroutine - Wait WorldNetworkManager.IsConnected()
+ApplicationManager.PingGameServersCoroutine - WorldNetworkManager.IsConnected() return true.
+NetworkUtilities - PingTcp - 54.254.194.167 - START
+NetworkUtilities - PingTcp - 54.254.194.167 - ConnectAsync
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH) ENDED.
+ApplicationManager.PingGameServersCoroutine - Wait WorldNetworkManager.IsConnected()
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH) ENDED.
+ApplicationManager.PingGameServersCoroutine - Wait WorldNetworkManager.IsConnected()
+ApplicationManager.PingGameServersCoroutine - WorldNetworkManager.IsConnected() return true.
+NetworkUtilities - PingTcp - 54.226.176.175 - START
+ApplicationManager.PingGameServersCoroutine - WorldNetworkManager.IsConnected() return true.
+NetworkUtilities - PingTcp - 3.125.43.18 - START
+NetworkUtilities - PingTcp - 54.226.176.175 - ConnectAsync
+NetworkUtilities - PingTcp - 3.125.43.18 - ConnectAsync
+NetworkUtilities - PingTcp - 54.226.176.175 - TrySetResult 6.7849
+NetworkUtilities - PingTcp - 3.125.43.18 - TrySetResult 6.7574
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH).
 ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH).
 LifeDecrease : (-0.2, -0.1, 0.0) : locEffectStrength : 0.25
-NetworkUtilities - PingTcp - 54.254.194.167 - Exception System.Net.Sockets.SocketException (0x80004005): Connection timed out
-  at System.Net.Sockets.TcpClient.Connect (System.String hostname, System.Int32 port) [0x0019d] in <245cba593bdc463bacb144cf356a8b4b>:0 
-  at Abrakam.NetworkUtilities+<>c__DisplayClass12_0.<PingTcp>b__0 (System.Object state) [0x0002d] in <9e7db509c3c94e2bb6d090483cb7e0bf>:0 
-ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH).
-LifeDecrease : (-0.4, -0.3, 0.0) : locEffectStrength : 0.55
+LifeDecrease : (0.0, -0.2, 0.0) : locEffectStrength : 0.25
+LifeDecrease : (0.2, -0.1, 0.0) : locEffectStrength : 0.2
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH) ENDED.
+ApplicationManager.PingGameServersCoroutine - Wait WorldNetworkManager.IsConnected()
 ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH) ENDED.
 ApplicationManager.PingGameServersCoroutine - Wait WorldNetworkManager.IsConnected()
 ApplicationManager.PingGameServersCoroutine - WorldNetworkManager.IsConnected() return true.
 NetworkUtilities - PingTcp - 54.226.176.175 - START
-NetworkUtilities - PingTcp - 54.226.176.175 - ConnectAsync
-NetworkUtilities - PingTcp - 54.226.176.175 - TrySetResult 7.2156
-ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH).
-ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH) ENDED.
-ApplicationManager.PingGameServersCoroutine - Wait WorldNetworkManager.IsConnected()
 ApplicationManager.PingGameServersCoroutine - WorldNetworkManager.IsConnected() return true.
 NetworkUtilities - PingTcp - 3.125.43.18 - START
-NetworkUtilities - PingTcp - 3.125.43.18 - ConnectAsync
-NetworkUtilities - PingTcp - 3.125.43.18 - TrySetResult 4.6164
-ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH).
-ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH) ENDED.
-ApplicationManager.PingGameServersCoroutine - Wait WorldNetworkManager.IsConnected()
-ApplicationManager.PingGameServersCoroutine - WorldNetworkManager.IsConnected() return true.
-NetworkUtilities - PingTcp - 54.254.194.167 - START
-NetworkUtilities - PingTcp - 54.254.194.167 - ConnectAsync
-LifeDecrease : (0.2, 0.2, 0.0) : locEffectStrength : 0.25
-ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH) ENDED.
-ApplicationManager.PingGameServersCoroutine - Wait WorldNetworkManager.IsConnected()
-ApplicationManager.PingGameServersCoroutine - WorldNetworkManager.IsConnected() return true.
-NetworkUtilities - PingTcp - 54.226.176.175 - START
 NetworkUtilities - PingTcp - 54.226.176.175 - ConnectAsync
-NetworkUtilities - PingTcp - 54.226.176.175 - TrySetResult 7.5183
-ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH).
-ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH) ENDED.
-ApplicationManager.PingGameServersCoroutine - Wait WorldNetworkManager.IsConnected()
-ApplicationManager.PingGameServersCoroutine - WorldNetworkManager.IsConnected() return true.
-NetworkUtilities - PingTcp - 3.125.43.18 - START
 NetworkUtilities - PingTcp - 3.125.43.18 - ConnectAsync
-NetworkUtilities - PingTcp - 3.125.43.18 - TrySetResult 6.4496
+NetworkUtilities - PingTcp - 3.125.43.18 - TrySetResult 7.6983
+NetworkUtilities - PingTcp - 54.226.176.175 - TrySetResult 7.7178
 ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH).
-LifeDecrease : (-0.5, -0.3, 0.0) : locEffectStrength : 0.55
-ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH) ENDED.
-ApplicationManager.PingGameServersCoroutine - Wait WorldNetworkManager.IsConnected()
-ApplicationManager.PingGameServersCoroutine - WorldNetworkManager.IsConnected() return true.
-NetworkUtilities - PingTcp - 54.226.176.175 - START
-NetworkUtilities - PingTcp - 54.226.176.175 - ConnectAsync
-NetworkUtilities - PingTcp - 54.226.176.175 - TrySetResult 6.8173
 ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH).
-ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH) ENDED.
-ApplicationManager.PingGameServersCoroutine - Wait WorldNetworkManager.IsConnected()
-ApplicationManager.PingGameServersCoroutine - WorldNetworkManager.IsConnected() return true.
-NetworkUtilities - PingTcp - 3.125.43.18 - START
-NetworkUtilities - PingTcp - 3.125.43.18 - ConnectAsync
-NetworkUtilities - PingTcp - 3.125.43.18 - TrySetResult 7.0629
-ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH).
-LifeDecrease : (-0.2, -0.1, 0.0) : locEffectStrength : 0.2
-LifeDecrease : (-0.5, -0.3, 0.0) : locEffectStrength : 0.55
-NetworkUtilities - PingTcp - 54.254.194.167 - Exception System.Net.Sockets.SocketException (0x80004005): Connection timed out
-  at System.Net.Sockets.TcpClient.Connect (System.String hostname, System.Int32 port) [0x0019d] in <245cba593bdc463bacb144cf356a8b4b>:0 
-  at Abrakam.NetworkUtilities+<>c__DisplayClass12_0.<PingTcp>b__0 (System.Object state) [0x0002d] in <9e7db509c3c94e2bb6d090483cb7e0bf>:0 
-ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH).
-ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH) ENDED.
-ApplicationManager.PingGameServersCoroutine - Wait WorldNetworkManager.IsConnected()
-ApplicationManager.PingGameServersCoroutine - WorldNetworkManager.IsConnected() return true.
-NetworkUtilities - PingTcp - 54.226.176.175 - START
-NetworkUtilities - PingTcp - 54.226.176.175 - ConnectAsync
-NetworkUtilities - PingTcp - 54.226.176.175 - TrySetResult 6.4615
-Add faeria friend social user. FaeriaId: 33602, PlatformId: 76561198256396753, UserName: blupp
-Not in a session when destroying one
- 
-(Filename: ./Runtime/Export/Debug.bindings.h Line: 45)
-
-ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH).
+LifeDecrease : (-0.2, -0.1, 0.0) : locEffectStrength : 0.25
 Message [<color=magenta>GO_TO_REWARD</color>] to State [<color=yellow>IngameState</color>]
 ChangeState[<color=yellow>IngameState</color>]->[<color=green>RewardState</color>]
-ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH) ENDED.
-ApplicationManager.PingGameServersCoroutine - Wait WorldNetworkManager.IsConnected()
-ApplicationManager.PingGameServersCoroutine - WorldNetworkManager.IsConnected() return true.
-NetworkUtilities - PingTcp - 3.125.43.18 - START
-NetworkUtilities - PingTcp - 3.125.43.18 - ConnectAsync
-NetworkUtilities - PingTcp - 3.125.43.18 - TrySetResult 6.2558
-ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH).
-Unloading 3 Unused Serialized files (Serialized files now loaded: 16)
+Unloading 2 Unused Serialized files (Serialized files now loaded: 16)
 
-Unloading 1003 unused Assets to reduce memory usage. Loaded Objects now: 22059.
-Total: 218.636000 ms (FindLiveObjects: 1.665000 ms CreateObjectMapping: 0.823000 ms MarkObjects: 213.723000 ms  DeleteObjects: 2.425000 ms)
+Unloading 1158 unused Assets to reduce memory usage. Loaded Objects now: 20865.
+Total: 331.946000 ms (FindLiveObjects: 1.971000 ms CreateObjectMapping: 0.899000 ms MarkObjects: 326.086000 ms  DeleteObjects: 2.990000 ms)
 
-Scene[<color=orange>REWARD</color>] loading time = <color=cyan>0.463623</color>
+Scene[<color=orange>REWARD</color>] loading time = <color=cyan>0.5410156</color>
 Message [<color=magenta>GO_TO_PLAY_MENU</color>] to State [<color=yellow>RewardState</color>]
 ChangeState[<color=yellow>RewardState</color>]->[<color=green>PlayMenuState</color>]
 Message [<color=magenta>GO_TO_CONSTRUCTED_MODE</color>] to State [<color=yellow>PlayMenuState</color>]
 ChangeState[<color=yellow>PlayMenuState</color>]->[<color=green>DeckSelectionState</color>]
-Unloading 1 Unused Serialized files (Serialized files now loaded: 18)
+Unloading 1 Unused Serialized files (Serialized files now loaded: 16)
+NetworkUtilities - PingTcp - 54.254.194.167 - Exception System.Net.Sockets.SocketException (0x80004005): Connection timed out
+  at System.Net.Sockets.TcpClient.Connect (System.String hostname, System.Int32 port) [0x0019d] in <245cba593bdc463bacb144cf356a8b4b>:0 
+  at Abrakam.NetworkUtilities+<>c__DisplayClass12_0.<PingTcp>b__0 (System.Object state) [0x0002d] in <9e7db509c3c94e2bb6d090483cb7e0bf>:0 
 
-Unloading 44 unused Assets to reduce memory usage. Loaded Objects now: 23749.
-Total: 197.133000 ms (FindLiveObjects: 2.528000 ms CreateObjectMapping: 1.291000 ms MarkObjects: 192.989000 ms  DeleteObjects: 0.325000 ms)
+Unloading 57 unused Assets to reduce memory usage. Loaded Objects now: 20826.
+Total: 241.357000 ms (FindLiveObjects: 4.051000 ms CreateObjectMapping: 1.404000 ms MarkObjects: 235.519000 ms  DeleteObjects: 0.383000 ms)
 
-Scene[<color=orange>DECK_SELECTION</color>] loading time = <color=cyan>0.4034424</color>
-ApplicationManager OnDestroy
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH).
+Scene[<color=orange>DECK_SELECTION</color>] loading time = <color=cyan>0.4404297</color>
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH) ENDED.
+ApplicationManager.PingGameServersCoroutine - Wait WorldNetworkManager.IsConnected()
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH) ENDED.
+ApplicationManager.PingGameServersCoroutine - Wait WorldNetworkManager.IsConnected()
+ApplicationManager.PingGameServersCoroutine - WorldNetworkManager.IsConnected() return true.
+NetworkUtilities - PingTcp - 54.226.176.175 - START
+ApplicationManager.PingGameServersCoroutine - WorldNetworkManager.IsConnected() return true.
+NetworkUtilities - PingTcp - 3.125.43.18 - START
+NetworkUtilities - PingTcp - 54.226.176.175 - ConnectAsync
+NetworkUtilities - PingTcp - 3.125.43.18 - ConnectAsync
+NetworkUtilities - PingTcp - 54.226.176.175 - TrySetResult 7.4915
+NetworkUtilities - PingTcp - 3.125.43.18 - TrySetResult 9.5597
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH).
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH).
+Message [<color=magenta>GO_TO_COLLECTION</color>] to State [<color=yellow>DeckSelectionState</color>]
+ChangeState[<color=yellow>DeckSelectionState</color>]->[<color=green>CollectionState</color>]
+Unloading 1 Unused Serialized files (Serialized files now loaded: 16)
+
+Unloading 40 unused Assets to reduce memory usage. Loaded Objects now: 20830.
+Total: 261.519000 ms (FindLiveObjects: 4.348000 ms CreateObjectMapping: 1.605000 ms MarkObjects: 255.306000 ms  DeleteObjects: 0.259000 ms)
+
+Scene[<color=orange>COLLECTION</color>] loading time = <color=cyan>0.6533203</color>
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH) ENDED.
+ApplicationManager.PingGameServersCoroutine - Wait WorldNetworkManager.IsConnected()
+ApplicationManager.PingGameServersCoroutine - WorldNetworkManager.IsConnected() return true.
+NetworkUtilities - PingTcp - 54.254.194.167 - START
+NetworkUtilities - PingTcp - 54.254.194.167 - ConnectAsync
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH) ENDED.
+ApplicationManager.PingGameServersCoroutine - Wait WorldNetworkManager.IsConnected()
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH) ENDED.
+ApplicationManager.PingGameServersCoroutine - Wait WorldNetworkManager.IsConnected()
+ApplicationManager.PingGameServersCoroutine - WorldNetworkManager.IsConnected() return true.
+NetworkUtilities - PingTcp - 54.226.176.175 - START
+ApplicationManager.PingGameServersCoroutine - WorldNetworkManager.IsConnected() return true.
+NetworkUtilities - PingTcp - 3.125.43.18 - START
+NetworkUtilities - PingTcp - 54.226.176.175 - ConnectAsync
+NetworkUtilities - PingTcp - 3.125.43.18 - ConnectAsync
+NetworkUtilities - PingTcp - 54.226.176.175 - TrySetResult 9.852
+NetworkUtilities - PingTcp - 3.125.43.18 - TrySetResult 9.7507
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH).
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH).
+Changing real window size to 424 x 652

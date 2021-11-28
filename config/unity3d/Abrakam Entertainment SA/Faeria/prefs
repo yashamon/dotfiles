@@ -4,7 +4,7 @@
 	<pref name="677466_CURRENT_PUZZLE_PAGE" type="int">-1</pref>
 	<pref name="677466_LAST_SELECTED_DLC_NAME" type="string"></pref>
 	<pref name="677466_ORB_SEEN_COSMETICS" type="string">MjE7</pref>
-	<pref name="677466_SEEN_CARDS" type="string">MTsxNDE7NTIxOw==</pref>
+	<pref name="677466_SEEN_CARDS" type="string">MTsxNDE7NTIxOzM1NTsxODQ7MTc0OzUxMjsxMTY7</pref>
 	<pref name="677466_TUTORIAL_STORY_DECK_COSMETIC_SET" type="int">1</pref>
 	<pref name="677466_TUTORIAL_STORY_DRAGONS_LAIR" type="int">1</pref>
 	<pref name="677466_TUTORIAL_STORY_LORE_BOOK" type="int">1</pref>
@@ -34,6 +34,6 @@
 	<pref name="screenResolutionHeight" type="int">720</pref>
 	<pref name="screenResolutionWidth" type="int">1280</pref>
 	<pref name="unity.cloud_userid" type="string">MWE3ODY5YTFkNWY1MzY2NjBiNjU2MDk4YWYzNDcwMzQ=</pref>
-	<pref name="unity.player_session_count" type="string">NQ==</pref>
-	<pref name="unity.player_sessionid" type="string">ODQwNjM2ODU0Nzc2NjIyMzUwNg==</pref>
+	<pref name="unity.player_session_count" type="string">Nw==</pref>
+	<pref name="unity.player_sessionid" type="string">NzEzNDc0NjgwNzE5ODU5MTI0MA==</pref>
 </unity_prefs>

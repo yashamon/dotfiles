@@ -413,46 +413,184 @@ zrc
 swrc
 swaymsg fullscreen
 exec ~/.config/sway/alttab next; swaymsg fullscreen
-: 1637945686:0;src
-: 1637945688:0;swrc
-: 1637947027:0;xlsclients
-: 1637959051:0;wifi
-: 1637959602:0;ping
-: 1637960280:0;paru -Ss firefox-nightly
-: 1637960292:0;paru -S firefox-nightly
-: 1637968456:0;lf
-: 1637968755:0;paru -Syu
-: 1637968774:0;lf
-: 1637968779:0;sudo lf
-: 1637968836:0;sudo vifm
-: 1637968865:0;ls
-: 1637968872:0;cd /etc/pacman.d
-: 1637968874:0;ls
-: 1637968883:0;sudo goneovim hooks
-: 1637968890:0;sudo goneovim hooks/backup.hook
-: 1637968896:0;sudo nvim hooks/backup.hook
-: 1637969055:0;paru -S packup
-: 1637969074:0;packup
-: 1637969190:0;nvim hooks/
-: 1637969211:0;/usr/bin/pacman -Qq > /home/yasha/dotfiles/pkglist.txt
-: 1637969219:0;j /home/yasha/dotfiles
-: 1637969220:0;push
-: 1637969242:0;git pull
-: 1637969255:0;vrc
-: 1637969295:0;push
-: 1637969742:0;paru -Syu
-: 1637969773:0;paru -Rsc screenrotator-git
-: 1637969783:0;paru -S gitk
-: 1637969790:0;paru -Ss git
-: 1637969796:0;paru -Ss git | nightly
-: 1637969805:0;paru -Ss gitk | nightly
-: 1637969808:0;gitk
-: 1637970548:0;swrc
-: 1637976491:0;neo
-: 1637977360:0;paru -S river
-: 1637977710:0;vrc
-: 1637978006:0;neo
-: 1637979179:0;vrc
-: 1637979312:0;neo
-: 1637979396:0;j /home/yasha/dotfiles
-: 1637979397:0;push
+src
+swrc
+xlsclients
+wifi
+ping
+paru -Ss firefox-nightly
+paru -S firefox-nightly
+lf
+paru -Syu
+lf
+sudo lf
+sudo vifm
+ls
+cd /etc/pacman.d
+ls
+sudo goneovim hooks
+sudo goneovim hooks/backup.hook
+sudo nvim hooks/backup.hook
+paru -S packup
+packup
+nvim hooks/
+/usr/bin/pacman -Qq > /home/yasha/dotfiles/pkglist.txt
+j /home/yasha/dotfiles
+push
+git pull
+vrc
+push
+paru -Syu
+paru -Rsc screenrotator-git
+paru -S gitk
+paru -Ss git
+paru -Ss git | nightly
+paru -Ss gitk | nightly
+gitk
+swrc
+neo
+paru -S river
+vrc
+neo
+vrc
+neo
+j /home/yasha/dotfiles
+push
+reboot
+xmonad --recompile
+zrc
+res
+zrc
+keys
+swrc
+paru -S swaylock
+paru -S swaylock-fancy
+swrc
+river
+systemctl disable gdm
+river
+lf
+river
+lf
+sway
+systemctl enable gdm
+systemctl start gdm
+firefox
+swrc
+lf
+vrc
+: 1638040883:0;goneovim
+: 1638041461:0;swrc
+: 1638041699:0;swaymsg -t get_inputs
+: 1638041781:0;vi ~/.xsession
+: 1638060461:0;htop
+: 1638063135:0;paru -R firefox
+: 1638063287:0;Downloads the file with curl --proto '=https' --tlsv1.2 -sSfL https://nixos.org/nix/install -o nix-install.sh, view it: less ./nix-install.sh, and run the script ./nix-install.sh --daemon to start Nix installation.
+: 1638063308:0;Downloads the file with curl --proto '=https' --tlsv1.2 -sSfL https://nixos.org/nix/install -o nix-install.sh, view it: less ./nix-install.sh, and run the script ./nix-install.sh --daemon to start Nix installation
+: 1638063341:0;curl --proto '=https' --tlsv1.2 -sSfL https://nixos.org/nix/install -o nix-install.sh
+: 1638063381:0;sh nix-install.sh
+: 1638063489:0;paru -S archlinux-nix
+: 1638063577:0;archlinux-nix setup-build-group
+: 1638063585:0;sudo archlinux-nix setup-build-group
+: 1638063599:0;sudo archlinux-nix bootstrap
+: 1638063640:0;sudo archlinux-nix install
+: 1638063661:0;which nix
+: 1638063670:0;sudo archlinux-nix bootstrap
+: 1638063690:0;serc
+: 1638063691:0;src
+: 1638063695:0;sudo archlinux-nix bootstrap
+: 1638063726:0;paru -S nix
+: 1638063748:0;sudo archlinux-nix bootstrap
+: 1638064144:0;nix-channel --add https://nixos.org/channels/nixpkgs-unstable
+: 1638064156:0;nix-channel --update
+: 1638064170:0;\
+nix-env -u
+: 1638064180:0;sudo nix-env -u
+: 1638064199:0;source /etc/profile.d/nix{,-daemon}.sh
+: 1638064268:0;sudo systemctl enable nix-daemon.service
+: 1638064288:0;\
+nix-env -iA nixpkgs.hello
+: 1638064304:0;sudo nix-env -iA nixpkgs.hello
+: 1638064326:0;nix-channel --add https://nixos.org/channels/nixpkgs-unstable
+: 1638064339:0;nix-channel --update
+: 1638064345:0;sudo nix-env -iA nixpkgs.hello
+: 1638064353:0;nix-env -iA nixpkgs.hello
+: 1638064365:0;lf
+: 1638064599:0;\
+source /etc/profile.d/nix{,-daemon}.sh
+: 1638064606:0;echo $PATH
+: 1638064634:0;lf
+: 1638064835:0;ping
+: 1638064841:0;netctl start Paco
+: 1638064860:0;ping
+: 1638065910:0;nix-env -U
+: 1638065945:0;nix-channel --add https://nixos.org/channels/nixpkgs-unstable\
+; nix-channel --update\
+; nix-env -u
+: 1638065960:0;sudo nix-channel --add https://nixos.org/channels/nixpkgs-unstable\
+; nix-channel --update\
+; nix-env -u
+: 1638065978:0;sudo nix-env =U
+: 1638065983:0;sudo nix-env -u
+: 1638066016:0;\
+nix-env -iA nixpkgs.hello
+: 1638066024:0;\
+sudo nix-env -iA nixpkgs.hello
+: 1638066138:0;\
+nix-env -iA nixpkgs.hello
+: 1638066148:0;\
+sudo nix-env -iA nixpkgs.hello
+: 1638066219:0;NIX_PATH='nixpkgs=asdf:/nix/var/nix/profiles/per-user/root/channels' nix run nixpkgs.hello
+: 1638066253:0;NIX_PATH='nixpkgs=asdf:/nix/var/nix/profiles/per-user/root/channels' nix --extra-experimental-features run nixpkgs.hello
+: 1638066441:0;NIX_PATH=/home/grahamc/.nix-defexpr/channels nix build -f '<nixpkgs>' git\
+\
+
+: 1638066498:0;nix run nixpkgs.hello
+: 1638066516:0;nix --extra-experimental-features run nixpkgs.hello
+: 1638066535:0;NIX_PATH=nixpkgs=$NIX_PATH/nixpkgs nix run nixpkgs.hello
+: 1638066554:0;NIX_PATH=nixpkgs=$NIX_PATH/nixpkgs nix run --extra-experimental-features nixpkgs.hello
+: 1638066574:0;NIX_PATH=nixpkgs=$NIX_PATH/nixpkgs --extra-experimental-features nix run nixpkgs.hello
+: 1638066613:0;NIX_PATH=nixpkgs=$NIX_PATH/nixpkgs nix run --extra-experimental-feature snixpkgs.hello
+: 1638066690:0;paru -Rsc nix
+: 1638066695:0;nix
+: 1638066708:0;which nix
+: 1638066718:0;lf
+: 1638066773:0;sh <(curl -L https://nixos.org/nix/install) --daemon
+: 1638066891:0;lf
+: 1638066910:0;rm nix
+: 1638066915:0;sudo rm nix
+: 1638066919:0;sudo rm -rf nix
+: 1638066922:0;lf
+: 1638066939:0;sudo rm -rf nix
+: 1638066943:0;lf
+: 1638066976:0;sudo rm -rf nix
+: 1638067003:0;cd ~
+: 1638067006:0;lf
+: 1638067018:0;sh <(curl -L https://nixos.org/nix/install) --daemon
+: 1638067081:0;lf
+: 1638067172:0;curl -L https://nixos.org/nix/install
+: 1638067201:0;lf
+: 1638067257:0;curl --proto '=https' --tlsv1.2 -sSfL https://nixos.org/nix/install -o nix-install.sh
+: 1638067274:0;cd ~
+: 1638067278:0;curl --proto '=https' --tlsv1.2 -sSfL https://nixos.org/nix/install -o nix-install.sh
+: 1638067301:0;sh nix-install.sh --daemon
+: 1638067355:0;neo nix-install.sh
+: 1638067832:0;lf
+: 1638108654:0;j web
+: 1638108657:0;git pull
+: 1638108665:0;lf
+: 1638108979:0;pushgh
+: 1638109001:0;lf
+: 1638109367:0;paru -S virtualbox
+: 1638111049:0;lf
+: 1638114505:0;virtualbox
+: 1638115439:0;sudo modprobe vboxdrv
+: 1638115492:0;virtualbox
+: 1638131275:0;vrc
+: 1638131282:0;push
+: 1638131290:0;git status
+: 1638131295:0;cd ..
+: 1638131297:0;git status
+: 1638131306:0;j /home/yasha/dotfiles
+: 1638131314:0;lf
+: 1638131366:0;push

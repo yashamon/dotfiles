@@ -13,6 +13,7 @@ alsa-ucm-conf
 alsa-utils
 aom
 archlinux-keyring
+archlinux-nix
 argon2
 asciidoc
 asoundconf
@@ -111,7 +112,6 @@ fftw
 file
 filesystem
 findutils
-firefox
 firefox-nightly
 fish
 flac
@@ -182,6 +182,7 @@ graphene
 graphicsmagick
 graphite
 grep
+grim
 groff
 grub
 gsettings-desktop-schemas
@@ -421,6 +422,7 @@ jbig2dec
 jdk-openjdk
 jemalloc
 jfsutils
+jq
 jre-openjdk
 jre-openjdk-headless
 js60
@@ -698,6 +700,7 @@ licenses
 linux
 linux-api-headers
 linux-firmware
+lld
 llvm
 llvm-libs
 lm_sensors
@@ -759,6 +762,7 @@ numactl
 nx-x11
 nxagent
 ocl-icd
+oniguruma
 openal
 opencore-amr
 openjpeg2
@@ -1038,6 +1042,7 @@ redshift
 reiserfsprogs
 rest
 rhash
+river-git
 rkhunter
 rofi-lbonn-wayland-git
 rsync
@@ -1053,6 +1058,7 @@ rxvt-unicode-terminfo
 s-nail
 sbc
 scdoc
+sdl
 sdl2
 seatd
 sed
@@ -1081,6 +1087,8 @@ svt-av1
 sway
 sway-alttab-bin
 swaybg
+swaylock
+swaylock-fancy-git
 swaystatus-git
 sxiv
 sysfsutils
@@ -1137,6 +1145,8 @@ vid.stab
 vifm
 vim
 vim-runtime
+virtualbox
+virtualbox-host-modules-arch
 vmaf
 volume_key
 vsftpd
@@ -1261,6 +1271,7 @@ zathura-pdf-mupdf
 zathura-ps
 zenity
 zeromq
+zig
 zimg
 zip
 zita-alsa-pcmi
