@@ -270,8 +270,8 @@ zinit light-mode for \
     zinit-zsh/z-a-bin-gem-node
 zinit for \
     light-mode  zsh-users/zsh-autosuggestions \
-    light-mode  zdharma/fast-syntax-highlighting \
-         zdharma/history-search-multi-word \
+    light-mode  zdharma-continuum/fast-syntax-highlighting \
+         zdharma-continuum/history-search-multi-word \
     light-mode depth"1" \
                 romkatv/powerlevel10k 
 zinit light softmoth/zsh-vim-mode   
