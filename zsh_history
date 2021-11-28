@@ -594,3 +594,38 @@ sudo nix-env -iA nixpkgs.hello
 : 1638131306:0;j /home/yasha/dotfiles
 : 1638131314:0;lf
 : 1638131366:0;push
+: 1638131671:0;lf
+: 1638131699:0;chmod +x guix-binary-1.3.0.x86_64-linux.tar.xz
+: 1638131709:0;guix-binary-1.3.0.x86_64-linux.tar.xz
+: 1638131715:0;./guix-binary-1.3.0.x86_64-linux.tar.xz
+: 1638131722:0;lf
+: 1638131770:0;lfrc
+: 1638131796:0;lf
+: 1638132117:0;cd ~/Downloads
+: 1638132118:0;\
+cd /tmp\
+wget https://git.savannah.gnu.org/cgit/guix.git/plain/etc/guix-install.sh\
+chmod +x guix-install.sh\
+./guix-install.sh
+: 1638132133:0;sudo\
+cd /tmp\
+wget https://git.savannah.gnu.org/cgit/guix.git/plain/etc/guix-install.sh\
+chmod +x guix-install.sh\
+./guix-install.sh
+: 1638132145:0;su yasha
+: 1638132150:0;su root
+: 1638132397:0;guix install neovim
+: 1638133898:0;guix neovim
+: 1638133903:0;guix run neovim
+: 1638133909:0;guix --help
+: 1638133928:0;nvim
+: 1638134536:0;zrc
+: 1638134559:0;git clone https://github.com/zdharma/zinit
+: 1638134574:0;zrc
+: 1638134593:0;git clone https://github.com/zdharma/zinit
+: 1638134604:0;ping
+: 1638134634:0;git clone https://github.com/zdharma/zinit blah
+: 1638134705:0;rc
+: 1638134706:0;zrc
+: 1638134759:0;j /home/yasha/dotfiles
+: 1638134760:0;push
