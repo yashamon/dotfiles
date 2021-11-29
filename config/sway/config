@@ -149,7 +149,7 @@ bindsym --to-code $mod+Return exec $term
 bindsym --to-code $mod+shift+c kill
 
 # Start your launcher
-bindsym --to-code $mod+p exec rofi -show run
+bindsym --to-code $mod+p exec 
 
 bindsym --to-code $mod+b exec $term -e 'bmenu'
 
