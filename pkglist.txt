@@ -56,7 +56,6 @@ cdparanoia
 celt
 chafa
 check
-chromium
 chrono-date
 clang
 cmake
@@ -117,7 +116,6 @@ fish
 flac
 flashrom
 flex
-fltk
 fmt
 fontconfig
 foomatic-db-gutenprint-ppds
@@ -175,6 +173,7 @@ gnutls
 go
 gobject-introspection-runtime
 google-chrome-dev
+gparted
 gpgme
 gpm
 gptfdisk
@@ -710,7 +709,6 @@ lsof
 lua
 lua53
 luajit
-luit
 lvm2
 lz4
 lzo
@@ -1117,7 +1115,6 @@ texlive-pstricks
 texlive-publishers
 texlive-science
 thin-provisioning-tools
-tigervnc
 tk
 tmux
 tpm2-tss
@@ -1143,8 +1140,6 @@ v4l-utils
 vi
 vid.stab
 vifm
-vim
-vim-runtime
 virtualbox
 virtualbox-host-modules-arch
 vmaf
@@ -1178,7 +1173,6 @@ wpebackend-fdo
 x264
 x265
 x2goserver
-xbitmaps
 xcb-proto
 xcb-util
 xcb-util-cursor
@@ -1250,7 +1244,6 @@ xorg-xrandr
 xorg-xrdb
 xorg-xrefresh
 xorg-xset
-xorg-xsetroot
 xorg-xvinfo
 xorg-xwayland
 xorg-xwd
@@ -1259,7 +1252,6 @@ xorg-xwud
 xorgproto
 xplr-git
 xsel
-xterm
 xvidcore
 xxhash
 xz

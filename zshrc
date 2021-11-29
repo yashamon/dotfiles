@@ -25,7 +25,7 @@ alias nvr="nvr --servername $(<~/servername.txt) --remote-silent"
 alias vifmrc="goneovim ~/.config/vifm/vifmrc"   
 alias swrc="goneovim ~/.config/sway/config"  
 
-alias lfrc="cd ~/.config/lf; goneovim lfrc"
+# alias lfrc="cd ~/.config/lf; goneovim lfrc"
 # alias ls="lf" 
 alias texi="pdflatex -file-line-error -synctex=1  -interaction=nonstopmode -recorder" 
 alias latexi="latexmk -g -pdf -file-line-error -synctex=1  -interaction=nonstopmode -recorder -f"
@@ -531,7 +531,7 @@ zstyle ':completion:*:man:*'      menu yes select
 # bindkey -M vicmd 'k' history-substring-search-up
 # bindkey -M vicmd 'j' history-substring-search-down
 # User configuration
-source "${XDG_CONFIG_HOME:-$HOME/.config}/lf-shellcd/lf-shellcd" 
+# source "${XDG_CONFIG_HOME:-$HOME/.config}/lf-shellcd/lf-shellcd" 
 fmz() {
     tmp=$(mktemp)
     command fmz --cd "$tmp" "$@"

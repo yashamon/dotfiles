@@ -75,10 +75,6 @@ git status --ignored
 trash-empty
 sudo trash-empty
 trash-list
-lfrc
-j /home/yasha/dotfiles
-git status
-push
 $ ranger --copy-config=all
 ranger --copy-config=all
 RANGER_LOAD_DEFAULT_RC=FALSE
@@ -91,9 +87,7 @@ cargo build --release\
 cp target/release/nasskan /usr/bin/\
 cp nasskan.service /etc/systemd/system/\
 systemctl enable --now nasskan
-cd ..
 sudo mkdir nasskan
-xmonad --recompile
 xmonad --restart
 mod
 setxkbmap -option ctrl:swap_rwin_rctl
@@ -147,7 +141,6 @@ sudo netctl disable Paco
 sudo netctl disable Yasha
 paru -S i3status
 exit
-sway
 exec sway
 paru -S waybar
 paru -S fontawesome
@@ -209,7 +202,6 @@ which transparency
 sudo paru -S wezterm
 ng
 zsh
-systemctl start gdm
 klj
 sdf
 startup
@@ -222,10 +214,8 @@ swaymsg input 1386:20666:Wacom_Pen_and_multitouch_sensor_Pen map_to_output eDP-1
 \
 swaymsg input 1386:20666:Wacom_Pen_and_multitouch_sensor_Finger map_to_output eDP-1\
 
-systemctl enable gdm
 paru -S strace
 gtk
-gitk
 rotatesway
 config
 netctl status Paco
@@ -242,12 +232,10 @@ ip link set wlan0 up
 sudo ip link set wlan0 up
 systemctl start netctl-auto@wpl0.service
 sudo dhclient
-netctl start Paco
 /home/yasha/dotfiles/config/sway/modules/transparency.py
 transparency.py
 python /home/yasha/dotfiles/config/sway/modules/transparency.py
 wezterm
-nvim
 fad
 fasd
 which nvr.sh
@@ -266,15 +254,12 @@ goneovim blah.tex
 nvr --servername $(<~/servername.txt) --remote-silent ~/.zshrc
 goneovim lfrc
 j /home/yasha/.config/lf
-goneovim
 cat ~/servername.txt
 nvr lfrc
 nvr --servername $(<~/servername.txt) --remote-silent lfrc
 which nvr
 qt.qpa.wayland: The compositor sent a wl_pointer.enter event before sending a leave event first, this is not allowed by the wayland protocol attempting to work around it by invalidating the current focus
 fd
-j web
-git pull
 hw
 ls /sys/firmware/efi/efivars
 paru -S mesa-git lib32-mesa-git
@@ -306,14 +291,11 @@ rsync -a --no-compress --backup --suffix=1 ~/Downloads/0373.57009.bib 0373.57009
 rsync -a --no-compress --backup-dir=./ --suffix=1 ~/Downloads/0373.57009.bib 0373.57009.bib
 rsync -a --no-compress --backup-dir=./ ~/Downloads/0373.57009.bib 0373.57009.bib
 rsync -a --no-compress --backup-dir=./ --suffix="~" ~/Downloads/0373.57009.bib 0373.57009.bib
-htop
 logout
 quit
 sadf
-keys
 cp ~/.xinitrc ~/.xsession
 cp ~/.xinitrc ~/.Xsession
-ping
 paru -S rofi
 rofi
 rofi run
@@ -321,7 +303,6 @@ rofi show window
 rofi show run
 rofi -show window
 google-chrome-stable --enable-features=UseOzonePlatform --ozone-platform=wayland
-neo
 chrome
 sudo paru -S chrome
 ffm
@@ -346,8 +327,6 @@ sudo paru -S chromium
 chromium
 chromium --enable-features=UseOzonePlatform --ozone-platform=wayland
 paru -Syu chromium-git
-cd ~
-ls
 paru -Ss chromium-git
 paru -Ss firefox-git
 paru -Ss firefox
@@ -362,11 +341,9 @@ swaymsg -t get_tree
 sudo nvim firefox.desktop
 export MOZ_ENABLE_WAYLAND=1 firefox
 which firefox
-src
 vi
 paru -S google-chrome-dev
 paru -S intel-media-driver
-swaymsg -t get_inputs
 paru -R yofi
 paru -R yofi-bin
 paru -S yofi
@@ -385,7 +362,6 @@ sudo paru -Ss yofi
 paru -Rsc
 paru -Rsc yofi
 paru -S yofi-bin
-firefox
 nvim goneovim.desktop
 which goneovim
 sudo nvim fox.desktop
@@ -403,29 +379,16 @@ sway-alttab
 ~/.config/sway/alttab next | fullscreen
 ~/.config/sway/alttab next; swaymsg fullscreen
 rofi -show run
-vrc
-sudo lf
 fox
-lf
 yofi
-reboot
-zrc
-swrc
 swaymsg fullscreen
 exec ~/.config/sway/alttab next; swaymsg fullscreen
-src
-swrc
 xlsclients
 wifi
-ping
 paru -Ss firefox-nightly
 paru -S firefox-nightly
-lf
-paru -Syu
-lf
 sudo lf
 sudo vifm
-ls
 cd /etc/pacman.d
 ls
 sudo goneovim hooks
@@ -435,11 +398,6 @@ paru -S packup
 packup
 nvim hooks/
 /usr/bin/pacman -Qq > /home/yasha/dotfiles/pkglist.txt
-j /home/yasha/dotfiles
-push
-git pull
-vrc
-push
 paru -Syu
 paru -Rsc screenrotator-git
 paru -S gitk
@@ -447,190 +405,194 @@ paru -Ss git
 paru -Ss git | nightly
 paru -Ss gitk | nightly
 gitk
-swrc
-neo
 paru -S river
-vrc
 neo
-vrc
-neo
-j /home/yasha/dotfiles
-push
 reboot
 xmonad --recompile
-zrc
 res
-zrc
 keys
-swrc
 paru -S swaylock
 paru -S swaylock-fancy
-swrc
-river
 systemctl disable gdm
 river
-lf
-river
-lf
 sway
 systemctl enable gdm
 systemctl start gdm
 firefox
+goneovim
 swrc
-lf
-vrc
-: 1638040883:0;goneovim
-: 1638041461:0;swrc
-: 1638041699:0;swaymsg -t get_inputs
-: 1638041781:0;vi ~/.xsession
-: 1638060461:0;htop
-: 1638063135:0;paru -R firefox
-: 1638063287:0;Downloads the file with curl --proto '=https' --tlsv1.2 -sSfL https://nixos.org/nix/install -o nix-install.sh, view it: less ./nix-install.sh, and run the script ./nix-install.sh --daemon to start Nix installation.
-: 1638063308:0;Downloads the file with curl --proto '=https' --tlsv1.2 -sSfL https://nixos.org/nix/install -o nix-install.sh, view it: less ./nix-install.sh, and run the script ./nix-install.sh --daemon to start Nix installation
-: 1638063341:0;curl --proto '=https' --tlsv1.2 -sSfL https://nixos.org/nix/install -o nix-install.sh
-: 1638063381:0;sh nix-install.sh
-: 1638063489:0;paru -S archlinux-nix
-: 1638063577:0;archlinux-nix setup-build-group
-: 1638063585:0;sudo archlinux-nix setup-build-group
-: 1638063599:0;sudo archlinux-nix bootstrap
-: 1638063640:0;sudo archlinux-nix install
-: 1638063661:0;which nix
-: 1638063670:0;sudo archlinux-nix bootstrap
-: 1638063690:0;serc
-: 1638063691:0;src
-: 1638063695:0;sudo archlinux-nix bootstrap
-: 1638063726:0;paru -S nix
-: 1638063748:0;sudo archlinux-nix bootstrap
-: 1638064144:0;nix-channel --add https://nixos.org/channels/nixpkgs-unstable
-: 1638064156:0;nix-channel --update
-: 1638064170:0;\
+swaymsg -t get_inputs
+vi ~/.xsession
+htop
+paru -R firefox
+Downloads the file with curl --proto '=https' --tlsv1.2 -sSfL https://nixos.org/nix/install -o nix-install.sh, view it: less ./nix-install.sh, and run the script ./nix-install.sh --daemon to start Nix installation.
+Downloads the file with curl --proto '=https' --tlsv1.2 -sSfL https://nixos.org/nix/install -o nix-install.sh, view it: less ./nix-install.sh, and run the script ./nix-install.sh --daemon to start Nix installation
+sh nix-install.sh
+paru -S archlinux-nix
+archlinux-nix setup-build-group
+sudo archlinux-nix setup-build-group
+sudo archlinux-nix install
+serc
+paru -S nix
+sudo archlinux-nix bootstrap
+\
 nix-env -u
-: 1638064180:0;sudo nix-env -u
-: 1638064199:0;source /etc/profile.d/nix{,-daemon}.sh
-: 1638064268:0;sudo systemctl enable nix-daemon.service
-: 1638064288:0;\
-nix-env -iA nixpkgs.hello
-: 1638064304:0;sudo nix-env -iA nixpkgs.hello
-: 1638064326:0;nix-channel --add https://nixos.org/channels/nixpkgs-unstable
-: 1638064339:0;nix-channel --update
-: 1638064345:0;sudo nix-env -iA nixpkgs.hello
-: 1638064353:0;nix-env -iA nixpkgs.hello
-: 1638064365:0;lf
-: 1638064599:0;\
+sudo systemctl enable nix-daemon.service
+nix-channel --add https://nixos.org/channels/nixpkgs-unstable
+nix-channel --update
+\
 source /etc/profile.d/nix{,-daemon}.sh
-: 1638064606:0;echo $PATH
-: 1638064634:0;lf
-: 1638064835:0;ping
-: 1638064841:0;netctl start Paco
-: 1638064860:0;ping
-: 1638065910:0;nix-env -U
-: 1638065945:0;nix-channel --add https://nixos.org/channels/nixpkgs-unstable\
+echo $PATH
+netctl start Paco
+nix-env -U
+nix-channel --add https://nixos.org/channels/nixpkgs-unstable\
 ; nix-channel --update\
 ; nix-env -u
-: 1638065960:0;sudo nix-channel --add https://nixos.org/channels/nixpkgs-unstable\
+sudo nix-channel --add https://nixos.org/channels/nixpkgs-unstable\
 ; nix-channel --update\
 ; nix-env -u
-: 1638065978:0;sudo nix-env =U
-: 1638065983:0;sudo nix-env -u
-: 1638066016:0;\
+sudo nix-env =U
+sudo nix-env -u
+\
 nix-env -iA nixpkgs.hello
-: 1638066024:0;\
+\
 sudo nix-env -iA nixpkgs.hello
-: 1638066138:0;\
-nix-env -iA nixpkgs.hello
-: 1638066148:0;\
-sudo nix-env -iA nixpkgs.hello
-: 1638066219:0;NIX_PATH='nixpkgs=asdf:/nix/var/nix/profiles/per-user/root/channels' nix run nixpkgs.hello
-: 1638066253:0;NIX_PATH='nixpkgs=asdf:/nix/var/nix/profiles/per-user/root/channels' nix --extra-experimental-features run nixpkgs.hello
-: 1638066441:0;NIX_PATH=/home/grahamc/.nix-defexpr/channels nix build -f '<nixpkgs>' git\
+NIX_PATH='nixpkgs=asdf:/nix/var/nix/profiles/per-user/root/channels' nix run nixpkgs.hello
+NIX_PATH='nixpkgs=asdf:/nix/var/nix/profiles/per-user/root/channels' nix --extra-experimental-features run nixpkgs.hello
+NIX_PATH=/home/grahamc/.nix-defexpr/channels nix build -f '<nixpkgs>' git\
 \
 
-: 1638066498:0;nix run nixpkgs.hello
-: 1638066516:0;nix --extra-experimental-features run nixpkgs.hello
-: 1638066535:0;NIX_PATH=nixpkgs=$NIX_PATH/nixpkgs nix run nixpkgs.hello
-: 1638066554:0;NIX_PATH=nixpkgs=$NIX_PATH/nixpkgs nix run --extra-experimental-features nixpkgs.hello
-: 1638066574:0;NIX_PATH=nixpkgs=$NIX_PATH/nixpkgs --extra-experimental-features nix run nixpkgs.hello
-: 1638066613:0;NIX_PATH=nixpkgs=$NIX_PATH/nixpkgs nix run --extra-experimental-feature snixpkgs.hello
-: 1638066690:0;paru -Rsc nix
-: 1638066695:0;nix
-: 1638066708:0;which nix
-: 1638066718:0;lf
-: 1638066773:0;sh <(curl -L https://nixos.org/nix/install) --daemon
-: 1638066891:0;lf
-: 1638066910:0;rm nix
-: 1638066915:0;sudo rm nix
-: 1638066919:0;sudo rm -rf nix
-: 1638066922:0;lf
-: 1638066939:0;sudo rm -rf nix
-: 1638066943:0;lf
-: 1638066976:0;sudo rm -rf nix
-: 1638067003:0;cd ~
-: 1638067006:0;lf
-: 1638067018:0;sh <(curl -L https://nixos.org/nix/install) --daemon
-: 1638067081:0;lf
-: 1638067172:0;curl -L https://nixos.org/nix/install
-: 1638067201:0;lf
-: 1638067257:0;curl --proto '=https' --tlsv1.2 -sSfL https://nixos.org/nix/install -o nix-install.sh
-: 1638067274:0;cd ~
-: 1638067278:0;curl --proto '=https' --tlsv1.2 -sSfL https://nixos.org/nix/install -o nix-install.sh
-: 1638067301:0;sh nix-install.sh --daemon
-: 1638067355:0;neo nix-install.sh
-: 1638067832:0;lf
-: 1638108654:0;j web
-: 1638108657:0;git pull
-: 1638108665:0;lf
-: 1638108979:0;pushgh
-: 1638109001:0;lf
-: 1638109367:0;paru -S virtualbox
-: 1638111049:0;lf
-: 1638114505:0;virtualbox
-: 1638115439:0;sudo modprobe vboxdrv
-: 1638115492:0;virtualbox
-: 1638131275:0;vrc
-: 1638131282:0;push
-: 1638131290:0;git status
-: 1638131295:0;cd ..
-: 1638131297:0;git status
-: 1638131306:0;j /home/yasha/dotfiles
-: 1638131314:0;lf
-: 1638131366:0;push
-: 1638131671:0;lf
-: 1638131699:0;chmod +x guix-binary-1.3.0.x86_64-linux.tar.xz
-: 1638131709:0;guix-binary-1.3.0.x86_64-linux.tar.xz
-: 1638131715:0;./guix-binary-1.3.0.x86_64-linux.tar.xz
-: 1638131722:0;lf
-: 1638131770:0;lfrc
-: 1638131796:0;lf
-: 1638132117:0;cd ~/Downloads
-: 1638132118:0;\
+nix run nixpkgs.hello
+nix --extra-experimental-features run nixpkgs.hello
+NIX_PATH=nixpkgs=$NIX_PATH/nixpkgs nix run nixpkgs.hello
+NIX_PATH=nixpkgs=$NIX_PATH/nixpkgs nix run --extra-experimental-features nixpkgs.hello
+NIX_PATH=nixpkgs=$NIX_PATH/nixpkgs --extra-experimental-features nix run nixpkgs.hello
+NIX_PATH=nixpkgs=$NIX_PATH/nixpkgs nix run --extra-experimental-feature snixpkgs.hello
+paru -Rsc nix
+nix
+which nix
+rm nix
+sudo rm nix
+sudo rm -rf nix
+sh <(curl -L https://nixos.org/nix/install) --daemon
+curl -L https://nixos.org/nix/install
+cd ~
+curl --proto '=https' --tlsv1.2 -sSfL https://nixos.org/nix/install -o nix-install.sh
+sh nix-install.sh --daemon
+neo nix-install.sh
+j web
+git pull
+pushgh
+paru -S virtualbox
+sudo modprobe vboxdrv
+virtualbox
+vrc
+cd ..
+git status
+chmod +x guix-binary-1.3.0.x86_64-linux.tar.xz
+guix-binary-1.3.0.x86_64-linux.tar.xz
+./guix-binary-1.3.0.x86_64-linux.tar.xz
+lfrc
+cd ~/Downloads
+\
 cd /tmp\
 wget https://git.savannah.gnu.org/cgit/guix.git/plain/etc/guix-install.sh\
 chmod +x guix-install.sh\
 ./guix-install.sh
-: 1638132133:0;sudo\
+sudo\
 cd /tmp\
 wget https://git.savannah.gnu.org/cgit/guix.git/plain/etc/guix-install.sh\
 chmod +x guix-install.sh\
 ./guix-install.sh
-: 1638132145:0;su yasha
-: 1638132150:0;su root
-: 1638132397:0;guix install neovim
-: 1638133898:0;guix neovim
-: 1638133903:0;guix run neovim
-: 1638133909:0;guix --help
-: 1638133928:0;nvim
-: 1638134536:0;zrc
-: 1638134559:0;git clone https://github.com/zdharma/zinit
-: 1638134574:0;zrc
-: 1638134593:0;git clone https://github.com/zdharma/zinit
-: 1638134604:0;ping
-: 1638134634:0;git clone https://github.com/zdharma/zinit blah
-: 1638134705:0;rc
-: 1638134706:0;zrc
-: 1638134759:0;j /home/yasha/dotfiles
-: 1638134760:0;push
-: 1638135186:0;lf
-: 1638135192:0;zrc
-: 1638135221:0;src
-: 1638135246:0;j /home/yasha/dotfiles
-: 1638135247:0;push
+su yasha
+su root
+guix install neovim
+guix neovim
+guix run neovim
+guix --help
+nvim
+git clone https://github.com/zdharma/zinit
+ping
+git clone https://github.com/zdharma/zinit blah
+rc
+lf
+zrc
+src
+j /home/yasha/dotfiles
+push
+df
+paru -S gparted
+parted
+sudo gparted
+: 1638137957:0;paru -R lf
+: 1638137967:0;which lf
+: 1638137985:0;zrc
+: 1638137998:0;lf
+: 1638138002:0;src
+: 1638138003:0;lf
+: 1638138016:0;which lf
+: 1638138019:0;zrc
+: 1638138030:0;src
+: 1638138036:0;lf
+: 1638138042:0;which lf
+: 1638138046:0;zrc
+: 1638138080:0;src
+: 1638138081:0;lf
+: 1638138085:0;which lf
+: 1638138089:0;lf
+: 1638138094:0;zrc
+: 1638138130:0;src
+: 1638138131:0;lf
+: 1638138134:0;zrc
+: 1638138188:0;lf
+: 1638138206:0;ls
+: 1638138210:0;lf
+: 1638138216:0;zrc
+: 1638138239:0;paru -R fd
+: 1638138244:0;fd
+: 1638138251:0;guix install fd
+: 1638138272:0;fd
+: 1638138277:0;guix fd
+: 1638138367:0;lf
+: 1638138429:0;guix package --list-installed
+: 1638138440:0;lf
+: 1638138467:0;paru -S fd
+: 1638138473:0;lf
+: 1638138488:0;src
+: 1638138489:0;lf
+: 1638138492:0;which lf
+: 1638138496:0;lf
+: 1638138515:0;nvim
+: 1638138527:0;./nvim
+: 1638138988:0;paru -Ss lf
+: 1638139005:0;paru -Ss lf | file
+: 1638139011:0;paru -Ss lf | grep file
+: 1638139120:0;paru -Ss lf | grep installed
+: 1638139140:0;lf
+: 1638139222:0;which lf
+: 1638139225:0;zrc
+: 1638139262:0;src
+: 1638139266:0;which lf
+: 1638139274:0;zrc
+: 1638139287:0;lf
+: 1638139378:0;paru -S lf
+: 1638139458:0;paru -Ss lf-bin
+: 1638139470:0;paru -Ss lf-bin | grep installed
+: 1638139481:0;paru -Ss lf-git | grep installed
+: 1638139501:0;lf
+: 1638139539:0;sudo pacman -R lf
+: 1638139548:0;j /home/yasha/Downloads
+: 1638139549:0;ls
+: 1638139551:0;lf
+: 1638139574:0;sudo paru -S lf-git
+: 1638139582:0;paru -S lf-git
+: 1638139619:0;paru -Ss lf-git | grep installed
+: 1638139632:0;yay -Ss lf-git | grep installed
+: 1638139648:0;j /home/yasha/dotfiles
+: 1638139650:0;lf
+: 1638139833:0;sudo pacman -Rs xterm vim chromium
+: 1638139875:0;sudo pacman -Rs tigervnc
+: 1638141129:0;htop
+: 1638147800:0;virtualbox
+: 1638147949:0;j /home/yasha/dotfiles
+: 1638147950:0;push
