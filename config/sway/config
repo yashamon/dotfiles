@@ -149,9 +149,9 @@ bindsym --to-code $mod+Return exec $term
 bindsym --to-code $mod+shift+c kill
 
 # Start your launcher
-bindsym --to-code $mod+p exec 
+bindsym --to-code $mod+p exec wofi 
 
-bindsym --to-code $mod+b exec $term -e 'bmenu'
+# bindsym --to-code $mod+b exec $term -e 'bmenu'
 
 # Launch wifi choice
 bindsym --to-code $mod+n exec $term -e nmtui-connect
