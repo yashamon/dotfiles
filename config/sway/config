@@ -96,7 +96,7 @@ assign [app_id="firefox"] workspace chrome
 assign [app_id="firefox-nightly"] workspace chrome
 assign [app_id="google-chrome-unstable"] workspace chrome
 assign [app_id="goneovim"] workspace ed   
-assign [app_id="neovide"] workspace 1  
+assign [app_id="neovide"] workspace ed  
 # workspace 2
 
 assign [app_id="steam"] workspace 6
@@ -415,7 +415,7 @@ bindsym $mod+Delete exec env RUST_BACKTRACE=1 \
     swayr quit-window > /tmp/swayr.log 2>&1
 
 bindsym Mod1+Tab exec env RUST_BACKTRACE=1 \
-    swayr switch-to-urgent-or-lru-window >> /tmp/swayr.log 2>&1
+    swayr  >> /tmp/swayr.log 2>&1
 
 bindsym $mod+Next exec env RUST_BACKTRACE=1 \
     swayr next-window all-workspaces >> /tmp/swayr.log 2>&2
