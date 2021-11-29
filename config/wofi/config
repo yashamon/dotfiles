@@ -12,4 +12,5 @@ orientation=vertical
 content_halign=fill
 insensitive=true
 allow_images=true
-image_size=20
+image_size=20 
+layer=overlay
