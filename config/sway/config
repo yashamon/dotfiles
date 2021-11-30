@@ -14,7 +14,7 @@ set $right l
 set $ws1 ed
 set $ws2 pdf
 set $ws3 chrome
-set $ws4 zathura
+set $ws4 file
 set $ws5 5
 set $ws6 steam
 set $ws7 7
