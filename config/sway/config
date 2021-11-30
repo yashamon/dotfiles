@@ -415,7 +415,7 @@ bindsym $mod+Delete exec env RUST_BACKTRACE=1 \
     swayr quit-window > /tmp/swayr.log 2>&1
 
 bindsym Mod1+Tab exec env RUST_BACKTRACE=1 \
-    swayr next-window current-workspace >> /tmp/swayr.log 2>&1
+    swayr next-window current-workspace >> /tmp/swayr.log 2>&1 
 
 bindsym $mod+Next exec env RUST_BACKTRACE=1 \
     swayr next-window all-workspaces >> /tmp/swayr.log 2>&2
