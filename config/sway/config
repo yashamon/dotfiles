@@ -410,13 +410,13 @@ client.urgent	            #2f343a	    #900000	    #ffffff	    #900000	    #90000
 client.placeholder	        #000000	    #0c0c0c	    #ffffff	    #000000	    #0c0c0c  
 exec env RUST_BACKTRACE=1 swayrd > /tmp/swayrd.log 2>&1
 bindsym $mod+Tab exec env RUST_BACKTRACE=1 \
-    swayr  switch-to-urgent-or-lru-window >> /tmp/swayr.log 2>&1
+    swayr   >> /tmp/swayr.log 2>&1
 bindsym $mod+Delete exec env RUST_BACKTRACE=1 \
     swayr quit-window > /tmp/swayr.log 2>&1
 
 bindsym Mod1+Tab exec "env RUST_BACKTRACE=1 \
     swayr  switch-to-urgent-or-lru-window
-   next-window current-workspace >> /tmp/swayr.log 2>&1; sleep 0.1; swaymsg fullscreen"
+   fullscreen"
 
 bindsym $mod+Next exec env RUST_BACKTRACE=1 \
     swayr next-window all-workspaces >> /tmp/swayr.log 2>&2
