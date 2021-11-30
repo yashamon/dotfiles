@@ -151,7 +151,7 @@ cmd open ${{
     esac
 }}
 map e :open 
-map n %goneovim $f 
+map n %neovide $f 
 map gn %nvr --servername $(<~/servername.txt) --remote-silent $f
 # define a custom 'rename' command without prompt for overwrite 
 cmd spastename &{{
