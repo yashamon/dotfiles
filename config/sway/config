@@ -99,7 +99,7 @@ assign [app_id="goneovim"] workspace ed
 assign [app_id="neovide"] workspace ed  
 # workspace 2
 
-assign [app_id="steam"] workspace 6
+assign [app_id="steam"] workspace steam
 
 for_window [window_role="pop-up"] floating enable
 for_window [window_role="bubble"] floating enable
