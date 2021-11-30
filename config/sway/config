@@ -96,7 +96,7 @@ assign [app_id="firefox"] workspace chrome
 assign [app_id="firefox-nightly"] workspace chrome
 assign [app_id="google-chrome-unstable"] workspace chrome
 assign [app_id="goneovim"] workspace ed    
-assign [app_id="zathura"] workspace ed   
+assign [app_id="zathura"] workspace pdf   
 
 assign [app_id="neovide"] workspace ed  
 # workspace 2
