@@ -592,7 +592,6 @@ endfunction
 
 au filetype tex nnoremap <silent> <leader>s :wa<cr>:call ToggleQuickFix()<cr>
 
-   
 function! ClearLatex() 
   silent !rm ./build/*
 endfunction
