@@ -85,7 +85,7 @@ alias config="cd ~/dotfiles/; push; cd ~/workspacemodules; pushmod; cd ~/workspa
 nvru() {
 if [ -f $1 ]; then
 nvr --nostart --servername  $(<~/servername.txt) --remote $1 
-echo "attaching to server"
+echo "trying to attaching to server"
 (($? != 0)) && {echo "server not running; starting server"; goneovim $1 }
 else 
 echo "wrong file name"
