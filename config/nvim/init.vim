@@ -45,7 +45,7 @@ Plug 'L3MON4D3/LuaSnip'
 " Plug 'saadparwaiz1/cmp_luasnip'
 "Plug 'steelsojka/completion-buffers'
 Plug 'voldikss/vim-floaterm'
-Plug 'kabouzeid/nvim-lspinstall', { 'branch': 'main' }
+" Plug 'kabouzeid/nvim-lspinstall', { 'branch': 'main' }
 "Plug 'pope/vim-obsession'
 "Plug 'xolox/vim-easytags'
 " Plug 'nvim-lua/plenary.nvim'
@@ -244,15 +244,11 @@ hi SpellBad cterm=underline
 hi SpellBad gui=underline
 "
 "Autocommands, au
-"
-
-
-autocmd BufReadPost * if @% !~# '\.git[\/\\]COMMIT_EDITMSG$' && line("'\"") > 1 && line("'\"") <= line("$") | exe "normal! g`\"" | endif 
 au FileType Makefile set noexpandtab
 au FileType tex,text set spelllang=en
 au FileType tex,text,md set spell 
 au FileType vim,md set list
-au FileType vim,md colorscheme one
+" au FileType vim,md colorscheme one
 
 " au FileType tex,text,md syntax sync fromstart 
 " 
@@ -575,7 +571,6 @@ noremap L :TZAtaraxisOff<cr><cr>:call Sentence()<cr>
 " noremap L :TZAtaraxisOff<cr><cr>:call Sentence()<cr>
 function! Git() 
   AsyncRun if git rev-parse --is-inside-work-tree || git rev-parse --git-dir > /dev/null 2>&1 ; then git add % ; git commit -m -a ; git push --all origin; fi  
-  AsyncStop
 endfunction
 
 function! ToggleQuickFix()
@@ -644,9 +639,8 @@ let g:auto_save_in_insert_mode = 0
 let g:auto_save_silent = 1
 
 "Git autocommit  (private git repo)
-
-autocmd BufWritePost * execute 'AsyncRun if git rev-parse --is-inside-work-tree || git rev-parse --git-dir > /dev/null 2>&1 ; then git add % ; git add build/* git commit -m -a ; git push --all origin; fi'
-
+autocmd BufWritePost * call Git()
+" execute 'AsyncRun if git rev-parse --is-inside-work-tree || git rev-parse --git-dir > /dev/null 2>&1 ; then git add % ; git add build/* git commit -m -a ; git push --all origin; fi'
 " let inside_git_repo="$(git rev-parse --is-inside-work-tree 2>/dev/null)"
 " autocmd BufWritePost * silent execute 'AsyncRun if git rev-parse --is-inside-work-tree 2>/dev/null ; then git add % ; git commit -m -a ; git push --all origin; fi'
 " autocmd BufWritePost * <Esc>:AsyncRun 'if [ -d .git ] || git rev-parse --git-dir > /dev/null 2>&1 ; then git add % ; git commit -m ; git push --all origin; fi'
@@ -768,40 +762,30 @@ local on_attach = function(client, bufnr)
   buf_set_keymap('n', '<space>f', '<cmd>lua vim.lsp.buf.formatting()<CR>', opts)
 
 end
-
--- Use a loop to conveniently call 'setup' on multiple servers and
--- map buffer local keybindings when the language server attaches
---local servers = {'pyright', 'tsserver', 'texlab', 'jsonls'}
---for _, lsp in ipairs(servers) do
---nvim_lsp[lsp].setup {
- --   on_attach = on_attach,
-  --  flags = {
-   --   debounce_text_changes = 150,
-   -- }
---  }
---end
 EOF
 
+"Lsp instal 
+lua <<EOF
+local lsp_installer = require("nvim-lsp-installer")
 
-"Lsp install
+-- Register a handler that will be called for all installed servers.
+-- Alternatively, you may also register handlers on specific server instances instead (see example below).
+lsp_installer.on_server_ready(function(server)
+    local opts = {}
 
-lua << EOF
-local function setup_servers()
-  require'lspinstall'.setup()
-  local servers = require'lspinstall'.installed_servers()
-  for _, server in pairs(servers) do
-    require'lspconfig'[server].setup{capabilities = require('cmp_nvim_lsp').update_capabilities(vim.lsp.protocol.make_client_capabilities())}
-  end
-end
+    -- (optional) Customize the options passed to the server
+    -- if server.name == "tsserver" then
+    --     opts.root_dir = function() ... end
+    -- end
 
-setup_servers()
-
--- Automatically reload after `:LspInstall <server>` so we don't have to restart neovim
-require'lspinstall'.post_install_hook = function ()
-  setup_servers() -- reload installed servers
-  vim.cmd("bufdo e") -- this triggers the FileType autocmd that starts the server
-end
+    -- This setup() function is exactly the same as lspconfig's setup function.
+    -- Refer to https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md
+    server:setup(opts)
+end)
 EOF
+
+"
+
 
 nnoremap <leader>y :FZFNeoyank<cr>
 nnoremap <leader>Y :FZFNeoyank  P<cr>
@@ -1155,7 +1139,7 @@ let g:firenvim_config = {
             \ 'content': 'text',
             \ 'priority': 0,
             \ 'selector': 'textarea',
-            \ 'takeover': 'always',
+            \ 'takeover': 'never',
         \ },
     \ }
 \ }
@@ -1497,4 +1481,22 @@ autocmd BufWritePost *  call Git()
 " map <leader>e :NERDTreeFind<CR>
 " map <C-e> :NERDTreeToggle<CR>:NERDTreeMirror<CR>
 "
-"
+"" lua << EOF
+" local function setup_servers()
+"   require'lspinstall'.setup()
+"   local servers = require'lspinstall'.installed_servers()
+"   for _, server in pairs(servers) do
+"     require'lspconfig'[server].setup{capabilities = require('cmp_nvim_lsp').update_capabilities(vim.lsp.protocol.make_client_capabilities())}
+"   end
+" end
+" 
+" setup_servers()
+" 
+" -- Automatically reload after `:LspInstall <server>` so we don't have to restart neovim
+" require'lspinstall'.post_install_hook = function ()
+"   setup_servers() -- reload installed servers
+"   vim.cmd("bufdo e") -- this triggers the FileType autocmd that starts the server
+" end
+" EOF
+" autocmd BufReadPost * if @% !~# '\.git[\/\\]COMMIT_EDITMSG$' && line("'\"") > 1 && line("'\"") <= line("$") | exe "normal! g`\"" | endif 
+
