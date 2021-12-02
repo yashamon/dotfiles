@@ -1,13 +1,8 @@
-
-
-
 if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]; then
 source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
 fi 
 
 export MOZ_ENABLE_WAYLAND=1 firefox
-
-
 
 bindkey -rpM viins '\e'
 eval "$(fasd --init auto)"
@@ -21,11 +16,9 @@ alias wifi="sudo wifi-menu -o"
 alias mod="xmodmap ~/.Xmodmap"
 alias tmux d="tmux detach" 
 alias svi="/snap/bin/nvim"
-alias nvr="nvr --servername $(<~/servername.txt) --remote-silent"
-alias vifmrc="goneovim ~/.config/vifm/vifmrc"   
-alias swrc="goneovim ~/.config/sway/config"  
 
-# alias lfrc="cd ~/.config/lf; goneovim lfrc"
+alias swrc="cd ~/.config/sway/; nvr config" 
+alias lfrc="cd ~/.config/lf; nvr lfrc"
 # alias ls="lf" 
 alias texi="pdflatex -file-line-error -synctex=1  -interaction=nonstopmode -recorder" 
 alias latexi="latexmk -g -pdf -file-line-error -synctex=1  -interaction=nonstopmode -recorder -f"
@@ -56,13 +49,12 @@ alias j="z"
 # alias fzf="/root/dotfiles\vim\bundle\fzf"
 alias pcm="sudo pacman"
 alias spcm="sudo pacman"
-alias zrc="cd ~; goneovim .zshrc"
+alias zrc="cd ~/dotfiles; nvr zshrc"
 alias pac="sudo packer"
 alias cprc="cp /root/.zshrc /home/yasha/.zshrc"
 alias pacup="packer -Syu --devel"
 # alias vifm='source ~/bin/vf'
-alias vrc="cd ~/.config/nvim; goneovim init.vim" 
-alias vifmrc="cd ~/.config/vifm; goneovim vifmrc"
+alias vrc="cd ~/.config/nvim; nvr init.vim" 
 alias snips="vi /root/dotfiles/vim/bundle/vim-snippets/UltiSnips/tex.snippets"
 alias src="source ~/.zshrc"
 #alias mux="tmux -f ~/.tmux-conf"
@@ -76,8 +68,8 @@ alias vi="nvim"
 alias ping="ping www.google.com"
 alias gone="$HOME/.local/bin/goneovim" 
 alias neo="$HOME/.local/bin/goneovim"
-alias neov="$HOME/.local/bin/neovide --frameless --maximized --multigrid"
-alias update="git submodule update --init --recursive ; git pull origin master"
+alias neov="neovide --frameless --maximized --multigrid"
+# alias update="git submodule update --init --recursive ; git pull origin master"
 alias res="xrandr --newmode "1920x1080_60.00"  173.00  1920 2048 2248 2576  1080 1083 1088 1120; xrandr --addmode eDP-1 "1920x1080_60.00";
 xrandr -s 1920x1080"
 
@@ -88,15 +80,25 @@ xrandr -s 3440x1440
 "
 alias config="cd ~/dotfiles/; push; cd ~/workspacemodules; pushmod; cd ~/workspace; push; cd web pushgh; pacman -Qqe > $HOME/dotfiles/pkglist.txt"
 # alias apt="sudo apt-get install"
-# functions
-myfunction() {
+# functions 
+# alias nvr=""
+nvru() {
+if [ -f $1 ]; then
+nvr --nostart --servername  $(<~/servername.txt) --remote $1 > /dev/null
+echo "attaching to server"
+(($? != 0)) && {echo "server not running; starting server"; goneovim $1 }
+else 
+echo "wrong file name"
+fi
+}
+
+gitcommitwithmessage() {
     #do things with parameters like $1 such as
     git add .
     git commit -m "$1"
     git push origin master
     }
-
-alias message=myfunction
+alias message=gitcommitwithmessage
 brightnessfunction()
 {
     #do things with parameters like $1 such as
@@ -263,11 +265,11 @@ autoload -Uz _zinit
 
 # Load a few important annexes, without Turbo
 # (this is currently required for annexes)
-zinit light-mode for \
-    zinit-zsh/z-a-rust \
-    zinit-zsh/z-a-as-monitor \
-    zinit-zsh/z-a-patch-dl \
-    zinit-zsh/z-a-bin-gem-node
+# zinit light-mode for \
+    # zinit-zsh/z-a-rust \
+    # zinit-zsh/z-a-as-monitor \
+    # zinit-zsh/z-a-patch-dl \
+    # zinit-zsh/z-a-bin-gem-node
 zinit for \
     light-mode  zsh-users/zsh-autosuggestions \
     light-mode  zdharma-continuum/fast-syntax-highlighting \
@@ -531,7 +533,7 @@ zstyle ':completion:*:man:*'      menu yes select
 # bindkey -M vicmd 'k' history-substring-search-up
 # bindkey -M vicmd 'j' history-substring-search-down
 # User configuration
-# source "${XDG_CONFIG_HOME:-$HOME/.config}/lf-shellcd/lf-shellcd" 
+source "${XDG_CONFIG_HOME:-$HOME/.config}/lf-shellcd/lf-shellcd" 
 fmz() {
     tmp=$(mktemp)
     command fmz --cd "$tmp" "$@"
@@ -558,7 +560,6 @@ if [[ -n $SSH_CONNECTION ]]; then
  else
    export EDITOR='nvim'
  fi
-export vi="goneovim"
- 
+export vi="neovide" 
 
 if [ -e /home/yasha/.nix-profile/etc/profile.d/nix.sh ]; then . /home/yasha/.nix-profile/etc/profile.d/nix.sh; fi # added by Nix installer

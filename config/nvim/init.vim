@@ -257,7 +257,8 @@ au FileType vim,md colorscheme one
 " au FileType tex,text,md syntax sync fromstart 
 " 
 " au FileType tex,text,md silent execute "!echo " . v:servername . " > ~/servername.txt"    
-au FileType * silent execute "!echo " . v:servername . " > ~/servername.txt"   
+au FileType * silent execute "!echo " . v:servername . " > ~/servername.txt"
+au UIEnter silent execute "!echo " . v:servername . " > ~/servername.txt"
 au FileType tex,text,md hi SpellBad cterm=undercurl
 au Filetype tex,text,md vmap q xi<CR><CR><CR><CR><ESC>kki/begin{comment}<cr><cr>/end{comment}<esc>kp
 au Filetype tex,text,md set tw=50
@@ -334,9 +335,9 @@ set fileencoding=utf-8
 " terminal mappings 
 " 
 tnoremap <A-Esc> <C-\><C-n>
-nmap <A-S-t> :wa<cr>:te<cr>
+nmap <A-S-t> :te<cr>
  vnoremap <Leader>U ""y:%s/<C-r>"
-noremap <leader>r :wa<cr>:e<cr>
+noremap <leader>r :e<cr>
 noremap <leader>hh :set tw=50<cr>
 noremap <leader>w :set tw=0<cr> 
 map q :q<cr>
@@ -344,8 +345,8 @@ noremap <leader>q q
 nmap <m-7> :ZenMode<cr>:mksession!<cr>
 nnoremap <leader>rr :source $MYVIMRC<CR>
 "nnoremap <leader>e :NERDTreeFind<CR>
-nnoremap <leader>e :wa<cr>:Lf<cr>
-nnoremap <leader>t :wa<cr>:FloatermToggle<cr>
+nnoremap <leader>e :Lf<cr>
+nnoremap <leader>t :FloatermToggle<cr>
 nnoremap <c-,> :cprevious<cr>
 nnoremap <c-.> :cnext<cr> 
 inoremap <cr> <cr> <backspace>
@@ -376,16 +377,16 @@ inoremap / \
 " copy paste stuff 
 " 
 vnoremap p "0dP
-noremap D "0D:wa<cr>
+" noremap D "0D:wa<cr>
 noremap d "0d
-nnoremap dd "0dd:wa<cr>
+nnoremap dd "0dd
 noremap c "0c
 noremap C "_C
 noremap x "_x
 " nnoremap v "+v
-vnoremap x "+x:wa<cr>
-vnoremap d "0d:wa<cr> 
-vnoremap c "0d:wa<cr>i
+vnoremap x "+x
+vnoremap d "0d
+vnoremap c "0d
 vnoremap y "+y
 nnoremap y "+y
 nnoremap p "+p
@@ -398,8 +399,8 @@ nmap A g$a
 map 0 g^
 map 9 g$
 nmap <m-8> :set laststatus=0<cr>:set lines=100<cr>
-nnoremap <c-l> :wa<cr>:bnext<CR>
-nnoremap <c-h> :wa<cr>:bprevious<CR>
+nnoremap <c-l> :bnext<CR>
+nnoremap <c-h> :bprevious<CR>
 " tnoremap <Esc> <C-\> 
 " nnoremap < :tabp<CR>
 " nnoremap > :tabn<CR>
@@ -476,28 +477,28 @@ map <m-space> <cmd>HopWord<cr>
 
 " FZF 
 "
-noremap <m-t> :wa<cr>:BTags<cr>
-noremap <m-y> :wa<cr>:Tags<cr>
-noremap S <Esc> :wa<cr>:BLines<CR>
+noremap <m-t> :BTags<cr>
+noremap <m-y> :Tags<cr>
+noremap S <Esc> :BLines<CR>
 "noremap L <Esc>:AsyncRun sentence.sh %;nvr sentence_%<cr>:echo 'press any key'<cr>:execute 'call getchar()' | BLines<cr>
 " Line search mapping 
 " function! Jumpback() 
 "   K=bufname()
 "   normal viwhy<esc>:bdelete<cr>:buffer K<c-r>+<cr>:ZenMode<cr>
 " endfunction
-noremap <m-b> <Esc>:wa<cr>:Buffers<CR>
+noremap <m-b> <Esc>:Buffers<CR>
 " noremap F <Esc>:GFiles<CR>
-map <A-e> :wa<cr>:FZF ~<CR> 
-map <m-f> :wa<cr>:FZF ~<CR> 
+map <A-e> :FZF ~<CR> 
+map <m-f> :FZF ~<CR> 
 
 "miscellaneous
 map :tags  exe ":silent ! /usr/local/bin/ctags -R"
-nmap <leader>g :w<cr>:TZAtaraxis<CR>
+nmap <leader>g :TZAtaraxis<CR>
 nmap <leader>p :Denite neoyank -default-action=append<CR>
 
 " Latex stuff
 " 
-noremap <leader>ss :wa<cr>:source $MYVIMRC<cr> 
+noremap <leader>ss :source $MYVIMRC<cr> 
 noremap <c-e> viwy:cclose<cr>:<c-r>+<cr>:TZAtaraxis<cr><cr>
 noremap <c-p> :<c-r>+<cr>
 noremap <m-l> viwy:bdelete<cr>:execute "buffer" g:buf<cr>:<c-r>+<cr>:TZAtaraxis<cr><cr>
@@ -570,7 +571,7 @@ function! Sentence()
   " call getchar()
   BLines
 endfunction
-noremap L :wa<cr>:TZAtaraxisOff<cr><cr>:call Sentence()<cr>
+noremap L :TZAtaraxisOff<cr><cr>:call Sentence()<cr>
 " noremap L :TZAtaraxisOff<cr><cr>:call Sentence()<cr>
 function! Git() 
   AsyncRun if git rev-parse --is-inside-work-tree || git rev-parse --git-dir > /dev/null 2>&1 ; then git add % ; git commit -m -a ; git push --all origin; fi  
@@ -590,7 +591,7 @@ function! ToggleQuickFix()
         endif
 endfunction
 
-au filetype tex nnoremap <silent> <leader>s :wa<cr>:call ToggleQuickFix()<cr>
+au filetype tex nnoremap <silent> <leader>s :call ToggleQuickFix()<cr>
 
 function! ClearLatex() 
   silent !rm ./build/*
@@ -616,10 +617,10 @@ let execstr="silent !zathura --synctex-forward " . linenumber . ":" . colnumber 
 exec execstr
 execute "buffer" buf
 endfunction 
-nmap <leader>v :wa<cr>:call ViewPdf()<cr>
+nmap <leader>v :call ViewPdf()<cr>
 " nmap <leader>v :VimtexView<cr>
 " let  g:vimtex_fold_types_defaults = 'preamble, sections, comments'
-nmap <leader>ll :wa<cr>:call CompileLatex()<cr>
+nmap <leader>ll :call CompileLatex()<cr>
 nmap <leader>cl :call ClearLatex()<cr>
 " nmap <leader>m :silent ! cp % backup;  pandoc  backup -s --webtex -o backup.html;  cp backup.html %<cr>:e %<cr>
 
@@ -644,7 +645,7 @@ let g:auto_save_silent = 1
 
 "Git autocommit  (private git repo)
 
-autocmd BufWritePost * execute 'AsyncRun if git rev-parse --is-inside-work-tree || git rev-parse --git-dir > /dev/null 2>&1 ; then git add % ; git add ./build/* git commit -m -a ; git push --all origin; fi'
+autocmd BufWritePost * execute 'AsyncRun if git rev-parse --is-inside-work-tree || git rev-parse --git-dir > /dev/null 2>&1 ; then git add % ; git add build/* git commit -m -a ; git push --all origin; fi'
 
 " let inside_git_repo="$(git rev-parse --is-inside-work-tree 2>/dev/null)"
 " autocmd BufWritePost * silent execute 'AsyncRun if git rev-parse --is-inside-work-tree 2>/dev/null ; then git add % ; git commit -m -a ; git push --all origin; fi'
@@ -656,7 +657,7 @@ autocmd BufWritePost * execute 'AsyncRun if git rev-parse --is-inside-work-tree 
     "
     "
     " UndoTree {
-noremap <Leader>u :TZAtaraxisOff<cr>:wa<cr>:UndotreeToggle<CR>
+noremap <Leader>u :TZAtaraxisOff<cr>:UndotreeToggle<CR>
         " If undotree is opened, it is likely one wants to interact with it.
         let g:undotree_SetFocusWhenToggle=1
         noremap <D-z> u
@@ -1479,7 +1480,7 @@ EOF
    " omap t <Plug>Sneak_s
     " omap T <Plug>Sneak_S 
     " math maps   
-"" autocmd BufWritePost *  call Git()
+autocmd BufWritePost *  call Git()
 " 
 " silent execute 'AsyncRun if git rev-parse --is-inside-work-tree || git rev-parse --git-dir > /dev/null 2>&1 ; then git add % ; git commit -m -a ; git push --all origin; fi'
 " let g:vimtex_view_general_options = '-r @line @pdf @
