@@ -18,7 +18,7 @@ alias tmux d="tmux detach"
 alias svi="/snap/bin/nvim"
 
 alias swrc="cd ~/.config/sway/; nvru config" 
-alias lfrc="cd ~/.config/lf; nvr lfrc"
+alias lfrc="cd ~/.config/lf; nvru lfrc"
 # alias ls="lf" 
 alias texi="pdflatex -file-line-error -synctex=1  -interaction=nonstopmode -recorder" 
 alias latexi="latexmk -g -pdf -file-line-error -synctex=1  -interaction=nonstopmode -recorder -f"
