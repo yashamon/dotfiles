@@ -1477,7 +1477,6 @@ EOF
 " NB: this supports "rp that replaces the selection by the contents of @r
 " Auto updating Ctags
 " autocmd VimLeave * exe ":silent ! ctags -R"
-asdf
 "Nerd Tree
 " map <leader>e :NERDTreeFind<CR>
 " map <C-e> :NERDTreeToggle<CR>:NERDTreeMirror<CR>
