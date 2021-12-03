@@ -1,4 +1,4 @@
-$pdflatex = "lualatex"
+$pdflatex = "lualatex";
 $pdf_mode = 1;
 $dvi_mode = 0; 
 $view= 'none';
