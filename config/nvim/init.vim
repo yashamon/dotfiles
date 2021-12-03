@@ -248,7 +248,7 @@ au FileType Makefile set noexpandtab
 au FileType tex,text set spelllang=en
 au FileType tex,text,md set spell 
 au FileType vim,md set list
-" au FileType vim,md colorscheme one
+au FileType vim,md colorscheme one
 
 " au FileType tex,text,md syntax sync fromstart 
 " 
@@ -570,8 +570,7 @@ endfunction
 noremap L :TZAtaraxisOff<cr><cr>:call Sentence()<cr>
 " noremap L :TZAtaraxisOff<cr><cr>:call Sentence()<cr>
 function! Git() 
-  sleep 1
-if git rev-parse --is-inside-work-tree || git rev-parse --git-dir > /dev/null 2>&1 ; then git add % ; git commit -m -a ; git push --all origin; fi  
+  AsyncRun if git rev-parse --is-inside-work-tree || git rev-parse --git-dir > /dev/null 2>&1 ; then git add % ; git commit -m -a ; git push --all origin; fi  
 endfunction
 
 function! ToggleQuickFix()
