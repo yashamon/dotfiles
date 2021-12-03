@@ -1466,7 +1466,7 @@ EOF
    " omap t <Plug>Sneak_s
     " omap T <Plug>Sneak_S 
     " math maps   
-autocmd BufWritePost *  call Git() 
+autocmd BufWritePost *  call Git()
 " 
 " silent execute 'AsyncRun if git rev-parse --is-inside-work-tree || git rev-parse --git-dir > /dev/null 2>&1 ; then git add % ; git commit -m -a ; git push --all origin; fi'
 " let g:vimtex_view_general_options = '-r @line @pdf @
@@ -1501,4 +1501,4 @@ autocmd BufWritePost *  call Git()
 " end
 " EOF
 " autocmd BufReadPost * if @% !~# '\.git[\/\\]COMMIT_EDITMSG$' && line("'\"") > 1 && line("'\"") <= line("$") | exe "normal! g`\"" | endif 
-
+test
