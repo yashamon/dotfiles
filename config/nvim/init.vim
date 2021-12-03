@@ -1500,4 +1500,4 @@ autocmd BufWritePost *  call Git()
 "   vim.cmd("bufdo e") -- this triggers the FileType autocmd that starts the server
 " end
 " EOF
-" autocmd BufReadPost * if @% !~# '\.git[\/\\]COMMIT_EDITMSG$' && line("'\"") > 1 &&  line("'\"") <= line("$") | exe "normal! g`\"" | endif 
+" autocmd BufReadPost * if @% !~# '\.git[\/\\]COMMIT_EDITMSG$' && line("'\"") > 1 && line("'\"") <= line("$") | exe "normal! g`\"" | endif 
