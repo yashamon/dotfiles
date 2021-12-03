@@ -1,1 +1,1 @@
-l
+llualatex -halt-on-error -synctex=1 -file-line-error
