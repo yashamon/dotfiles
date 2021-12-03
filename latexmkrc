@@ -1,4 +1,4 @@
-$pdflatex = "lualatex -synctex=1 -interaction=nonstopmode "; 
+$pdflatex = "lualatex -synctex=1 -interaction=nonstopmode"; 
 $pdf_mode = 1;
 $dvi_mode = 0; 
 $view= 'none';
