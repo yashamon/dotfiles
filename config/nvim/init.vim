@@ -595,7 +595,8 @@ function! ClearLatex()
   silent !rm ./build/*.aux
 endfunction
 
-function! CompileLatex() 
+function! CompileLatex()
+   call ClearLatex
   let buf = bufname()
   silent te latexmk -pvc %
   execute "buffer" buf
