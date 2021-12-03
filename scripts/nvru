@@ -2,6 +2,7 @@
 if [ -f $1 ]; then
 nvr --nostart --servername  $(<~/servername.txt) --remote $1 
 echo "trying to attach to server" 
+if [ -f $1 ]; then
 
 (($? != 0)) && {echo "server not running; starting server"; goneovim $1 }
 else 
