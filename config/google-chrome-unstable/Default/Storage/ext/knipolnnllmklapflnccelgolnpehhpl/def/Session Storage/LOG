@@ -1,2 +1,3 @@
-2021/11/25-18:06:10.786 5 Creating DB /home/yasha/.config/google-chrome-unstable/Default/Storage/ext/knipolnnllmklapflnccelgolnpehhpl/def/Session Storage since it was missing.
-2021/11/25-18:06:10.799 5 Reusing MANIFEST /home/yasha/.config/google-chrome-unstable/Default/Storage/ext/knipolnnllmklapflnccelgolnpehhpl/def/Session Storage/MANIFEST-000001
+2021/11/29-13:59:31.145 3 Reusing MANIFEST /home/yasha/.config/google-chrome-unstable/Default/Storage/ext/knipolnnllmklapflnccelgolnpehhpl/def/Session Storage/MANIFEST-000001
+2021/11/29-13:59:31.147 3 Recovering log #3
+2021/11/29-13:59:31.150 3 Reusing old log /home/yasha/.config/google-chrome-unstable/Default/Storage/ext/knipolnnllmklapflnccelgolnpehhpl/def/Session Storage/000003.log 

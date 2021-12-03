@@ -1,3 +1,12 @@
-2021/11/27-07:50:43.245 864 Reusing MANIFEST /home/yasha/.config/google-chrome-unstable/Default/Local Extension Settings/ocllfmhjhfmogablefmibmjcodggknml/MANIFEST-000001
-2021/11/27-07:50:43.246 864 Recovering log #3
-2021/11/27-07:50:43.278 864 Reusing old log /home/yasha/.config/google-chrome-unstable/Default/Local Extension Settings/ocllfmhjhfmogablefmibmjcodggknml/000003.log 
+2021/11/30-13:52:06.535 c9ba Reusing MANIFEST /home/yasha/.config/google-chrome-unstable/Default/Local Extension Settings/ocllfmhjhfmogablefmibmjcodggknml/MANIFEST-000001
+2021/11/30-13:52:06.535 c9ba Recovering log #4
+2021/11/30-13:52:06.550 c9ba Reusing old log /home/yasha/.config/google-chrome-unstable/Default/Local Extension Settings/ocllfmhjhfmogablefmibmjcodggknml/000004.log 
+2021/11/30-18:06:51.767 1202e Level-0 table #8: started
+2021/11/30-18:06:51.792 1202e Level-0 table #8: 1231527 bytes OK
+2021/11/30-18:06:51.797 1202e Delete type=0 #4
+2021/12/01-14:01:17.145 1d607 Compacting 1@1 + 1@2 files
+2021/12/01-14:01:17.153 1d607 Generated table #9@1: 2 keys, 3527 bytes
+2021/12/01-14:01:17.153 1d607 Compacted 1@1 + 1@2 files => 3527 bytes
+2021/12/01-14:01:17.157 1d607 compacted to: files[ 0 0 1 0 0 0 0 ]
+2021/12/01-14:01:17.158 1d607 Delete type=2 #8
+2021/12/01-14:01:17.158 1d607 Delete type=2 #5

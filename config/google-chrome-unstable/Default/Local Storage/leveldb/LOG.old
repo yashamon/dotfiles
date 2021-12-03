@@ -1,3 +1,6 @@
-2021/11/26-12:29:45.198 3 Reusing MANIFEST /home/yasha/.config/google-chrome-unstable/Default/Local Storage/leveldb/MANIFEST-000001
-2021/11/26-12:29:45.200 3 Recovering log #4
-2021/11/26-12:29:45.201 3 Reusing old log /home/yasha/.config/google-chrome-unstable/Default/Local Storage/leveldb/000004.log 
+2021/11/29-14:20:54.291 5 Reusing MANIFEST /home/yasha/.config/google-chrome-unstable/Default/Local Storage/leveldb/MANIFEST-000001
+2021/11/29-14:20:54.293 5 Recovering log #9
+2021/11/29-14:20:54.294 5 Reusing old log /home/yasha/.config/google-chrome-unstable/Default/Local Storage/leveldb/000009.log 
+2021/11/29-15:52:57.635 46 Level-0 table #13: started
+2021/11/29-15:52:57.652 46 Level-0 table #13: 16200 bytes OK
+2021/11/29-15:52:57.663 46 Delete type=0 #9

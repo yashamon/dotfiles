@@ -1,3 +1,18 @@
-2021/11/27-07:50:42.409 3 Reusing MANIFEST /home/yasha/.config/google-chrome-unstable/Default/Local Storage/leveldb/MANIFEST-000001
-2021/11/27-07:50:42.413 3 Recovering log #4
-2021/11/27-07:50:42.414 3 Reusing old log /home/yasha/.config/google-chrome-unstable/Default/Local Storage/leveldb/000004.log 
+2021/11/30-13:52:05.875 5 Reusing MANIFEST /home/yasha/.config/google-chrome-unstable/Default/Local Storage/leveldb/MANIFEST-000001
+2021/11/30-13:52:05.875 5 Recovering log #12
+2021/11/30-13:52:05.876 5 Reusing old log /home/yasha/.config/google-chrome-unstable/Default/Local Storage/leveldb/000012.log 
+2021/11/30-15:11:41.388 2d Level-0 table #16: started
+2021/11/30-15:11:41.405 2d Level-0 table #16: 16179 bytes OK
+2021/11/30-15:11:41.414 2d Delete type=0 #12
+2021/12/01-14:01:54.977 121 Level-0 table #18: started
+2021/12/01-14:01:54.996 121 Level-0 table #18: 18701 bytes OK
+2021/12/01-14:01:55.014 121 Delete type=0 #15
+2021/12/01-14:01:55.019 121 Compacting 4@0 + 1@1 files
+2021/12/01-14:01:55.047 121 Generated table #19@0: 319 keys, 37844 bytes
+2021/12/01-14:01:55.049 121 Compacted 4@0 + 1@1 files => 37844 bytes
+2021/12/01-14:01:55.057 121 compacted to: files[ 0 1 1 0 0 0 0 ]
+2021/12/01-14:01:55.060 121 Delete type=2 #8
+2021/12/01-14:01:55.060 121 Delete type=2 #16
+2021/12/01-14:01:55.060 121 Delete type=2 #18
+2021/12/01-14:01:55.061 121 Delete type=2 #10
+2021/12/01-14:01:55.061 121 Delete type=2 #13

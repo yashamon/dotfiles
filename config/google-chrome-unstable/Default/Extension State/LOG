@@ -1,3 +1,6 @@
-2021/11/27-07:50:44.346 862 Reusing MANIFEST /home/yasha/.config/google-chrome-unstable/Default/Extension State/MANIFEST-000001
-2021/11/27-07:50:44.347 862 Recovering log #3
-2021/11/27-07:50:44.352 862 Reusing old log /home/yasha/.config/google-chrome-unstable/Default/Extension State/000003.log 
+2021/11/30-13:52:07.789 c9b9 Reusing MANIFEST /home/yasha/.config/google-chrome-unstable/Default/Extension State/MANIFEST-000001
+2021/11/30-13:52:07.789 c9b9 Recovering log #3
+2021/11/30-13:52:07.796 c9b9 Reusing old log /home/yasha/.config/google-chrome-unstable/Default/Extension State/000003.log 
+2021/11/30-13:52:12.830 c9b9 Level-0 table #5: started
+2021/11/30-13:52:12.850 c9b9 Level-0 table #5: 1998123 bytes OK
+2021/11/30-13:52:12.860 c9b9 Delete type=0 #3

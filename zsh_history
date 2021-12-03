@@ -49,7 +49,6 @@ stpv demo.gif $H $W $X $Y $ID
 stpv demo.gif
 stpvimg --add $UID demo.gif
 stpvimg --add demo.gif
-j /home/yasha/Downloads
 ID=$$\
 stpvimg --listen $ID &\
 stpvimg --add $ID 1.png\
@@ -62,7 +61,6 @@ paru -Ss ueberzug
 stpvimg --listen 0
 cp lfrc lfrcblah
 vi lfrcblah
-lfcd
 make install
 sudo make install
 git rm --cached **/google-chrome-beta
@@ -96,12 +94,7 @@ ption "caps:swapescape"
 setxkbmap -option ctrl:swap_rwin_rctl\
 ption "caps:swapescape"\
 ption "caps:swapescape"
-uapp
-j /home/yasha/appimage
-neo kan.tex
-j /home/yasha/workspacemodules/novikov
 neovide blah.tex
-neov blah.tex
 shutdown
 gdm
 sudo gdm
@@ -163,7 +156,6 @@ n ....
 wl-copy blah
 paru -S redshift
 python alttab next
-j /home/yasha/workspacemodules
 ./alttab next
 alttab next
 paru -S --aur sway-alttab-bin
@@ -257,10 +249,7 @@ j /home/yasha/.config/lf
 cat ~/servername.txt
 nvr lfrc
 nvr --servername $(<~/servername.txt) --remote-silent lfrc
-which nvr
 qt.qpa.wayland: The compositor sent a wl_pointer.enter event before sending a leave event first, this is not allowed by the wayland protocol attempting to work around it by invalidating the current focus
-fd
-hw
 ls /sys/firmware/efi/efivars
 paru -S mesa-git lib32-mesa-git
 lf -doc
@@ -336,12 +325,9 @@ sudo paru -Ss google-chrome
 sudo paru -R google-chrome-dev
 sudo paru -S google-chrome-dev
 google-chrome-unstable
-wev
-swaymsg -t get_tree
 sudo nvim firefox.desktop
 export MOZ_ENABLE_WAYLAND=1 firefox
 which firefox
-vi
 paru -S google-chrome-dev
 paru -S intel-media-driver
 paru -R yofi
@@ -384,13 +370,10 @@ yofi
 swaymsg fullscreen
 exec ~/.config/sway/alttab next; swaymsg fullscreen
 xlsclients
-wifi
 paru -Ss firefox-nightly
 paru -S firefox-nightly
-sudo lf
 sudo vifm
 cd /etc/pacman.d
-ls
 sudo goneovim hooks
 sudo goneovim hooks/backup.hook
 sudo nvim hooks/backup.hook
@@ -406,7 +389,6 @@ paru -Ss git | nightly
 paru -Ss gitk | nightly
 gitk
 paru -S river
-neo
 reboot
 xmonad --recompile
 res
@@ -419,11 +401,8 @@ sway
 systemctl enable gdm
 systemctl start gdm
 firefox
-goneovim
-swrc
 swaymsg -t get_inputs
 vi ~/.xsession
-htop
 paru -R firefox
 Downloads the file with curl --proto '=https' --tlsv1.2 -sSfL https://nixos.org/nix/install -o nix-install.sh, view it: less ./nix-install.sh, and run the script ./nix-install.sh --daemon to start Nix installation.
 Downloads the file with curl --proto '=https' --tlsv1.2 -sSfL https://nixos.org/nix/install -o nix-install.sh, view it: less ./nix-install.sh, and run the script ./nix-install.sh --daemon to start Nix installation
@@ -481,18 +460,12 @@ curl --proto '=https' --tlsv1.2 -sSfL https://nixos.org/nix/install -o nix-insta
 sh nix-install.sh --daemon
 neo nix-install.sh
 j web
-git pull
 pushgh
 paru -S virtualbox
 sudo modprobe vboxdrv
-virtualbox
-vrc
-cd ..
-git status
 chmod +x guix-binary-1.3.0.x86_64-linux.tar.xz
 guix-binary-1.3.0.x86_64-linux.tar.xz
 ./guix-binary-1.3.0.x86_64-linux.tar.xz
-lfrc
 cd ~/Downloads
 \
 cd /tmp\
@@ -510,89 +483,185 @@ guix install neovim
 guix neovim
 guix run neovim
 guix --help
-nvim
 git clone https://github.com/zdharma/zinit
 ping
 git clone https://github.com/zdharma/zinit blah
 rc
-lf
-zrc
-src
-j /home/yasha/dotfiles
-push
 df
 paru -S gparted
 parted
 sudo gparted
-: 1638137957:0;paru -R lf
-: 1638137967:0;which lf
-: 1638137985:0;zrc
-: 1638137998:0;lf
-: 1638138002:0;src
-: 1638138003:0;lf
-: 1638138016:0;which lf
-: 1638138019:0;zrc
-: 1638138030:0;src
-: 1638138036:0;lf
-: 1638138042:0;which lf
-: 1638138046:0;zrc
-: 1638138080:0;src
-: 1638138081:0;lf
-: 1638138085:0;which lf
-: 1638138089:0;lf
-: 1638138094:0;zrc
-: 1638138130:0;src
-: 1638138131:0;lf
-: 1638138134:0;zrc
-: 1638138188:0;lf
-: 1638138206:0;ls
-: 1638138210:0;lf
-: 1638138216:0;zrc
-: 1638138239:0;paru -R fd
-: 1638138244:0;fd
-: 1638138251:0;guix install fd
-: 1638138272:0;fd
-: 1638138277:0;guix fd
-: 1638138367:0;lf
-: 1638138429:0;guix package --list-installed
-: 1638138440:0;lf
-: 1638138467:0;paru -S fd
-: 1638138473:0;lf
-: 1638138488:0;src
-: 1638138489:0;lf
-: 1638138492:0;which lf
-: 1638138496:0;lf
-: 1638138515:0;nvim
-: 1638138527:0;./nvim
-: 1638138988:0;paru -Ss lf
-: 1638139005:0;paru -Ss lf | file
-: 1638139011:0;paru -Ss lf | grep file
-: 1638139120:0;paru -Ss lf | grep installed
-: 1638139140:0;lf
-: 1638139222:0;which lf
-: 1638139225:0;zrc
-: 1638139262:0;src
-: 1638139266:0;which lf
-: 1638139274:0;zrc
-: 1638139287:0;lf
-: 1638139378:0;paru -S lf
-: 1638139458:0;paru -Ss lf-bin
-: 1638139470:0;paru -Ss lf-bin | grep installed
-: 1638139481:0;paru -Ss lf-git | grep installed
-: 1638139501:0;lf
-: 1638139539:0;sudo pacman -R lf
-: 1638139548:0;j /home/yasha/Downloads
-: 1638139549:0;ls
-: 1638139551:0;lf
-: 1638139574:0;sudo paru -S lf-git
-: 1638139582:0;paru -S lf-git
-: 1638139619:0;paru -Ss lf-git | grep installed
-: 1638139632:0;yay -Ss lf-git | grep installed
-: 1638139648:0;j /home/yasha/dotfiles
-: 1638139650:0;lf
-: 1638139833:0;sudo pacman -Rs xterm vim chromium
-: 1638139875:0;sudo pacman -Rs tigervnc
-: 1638141129:0;htop
-: 1638147800:0;virtualbox
-: 1638147949:0;j /home/yasha/dotfiles
-: 1638147950:0;push
+paru -R lf
+paru -R fd
+guix install fd
+fd
+guix fd
+guix package --list-installed
+paru -S fd
+./nvim
+paru -Ss lf
+paru -Ss lf | file
+paru -Ss lf | grep file
+paru -Ss lf | grep installed
+which lf
+paru -S lf
+paru -Ss lf-bin
+paru -Ss lf-bin | grep installed
+sudo pacman -R lf
+j /home/yasha/Downloads
+sudo paru -S lf-git
+paru -S lf-git
+paru -Ss lf-git | grep installed
+yay -Ss lf-git | grep installed
+sudo pacman -Rs xterm vim chromium
+sudo pacman -Rs tigervnc
+paru -S neovide-git
+which neovide
+neov blah.tex
+paru -S fraps
+paru -Ss fraps
+LF
+virtualbox
+cd build
+pdf kan.pdf
+paru -S swayr
+wifi
+paru -S wofi
+wofi
+swayr next-window
+swayr next-window-of-same-layout current-workspace
+swayr next-window current-workspace
+swayr next-window current-workspace; swaymsg fullscreen
+swayr next-floating-window
+swayr next-floating-window current-workspace
+swayr next-full-screen-window current-workspace
+swayr switch-window current-workspace
+paru -S hikari
+lfrf
+sudo lf
+j /etc/netctl
+zinit update
+goneovim blah
+neov blah
+rm -rf blah
+gone blah
+lfcd
+git pull
+j /home/yasha/workspacemodules
+push
+touch blah
+rm -rf '\'
+vi blah
+neo letterCarlosV.tex
+j /home/yasha/workspace
+wev
+swaymsg -t get_tree
+neovide
+neov
+goneovim
+cd ..
+nvim zshrc
+if nvr init.vim --servername $(<~/servername.txt) --remote-silent; then goneovim init.vim
+if nvr init.vim --servername $(<~/servername.txt) --remote-silent; then goneovim init.vim; fi
+if [nvr init.vim --servername $(<~/servername.txt) --remote-silent] goneovim init.vim
+cd config
+cd nvim
+nvr --help
+j nvim
+j /home/yasha/.config/nvim
+nvr zshrc
+nvru zshrc
+which nvr
+j /home/yasha/dotfiles
+swrc
+paru -S shellcheck
+hw
+lfrc
+uapp
+src
+which update
+j /home/yasha/appimage
+update nvim
+update update
+ls
+nvim
+vi
+j /home/yasha/dotfiles/config/nvim
+lf
+nvr init.vim
+neo
+j /home/yasha/workspacemodules/novikov
+git status
+neo kan.tex
+nvim init.vim
+vrc
+zrc
+htop
+: 1638472341:0;zrc
+: 1638472367:0;nvim zshrc
+: 1638472375:0;which nvr
+: 1638472381:0;nvim zshrc
+: 1638472459:0;which nvru
+: 1638472493:0;j /home/yasha/dotfiles
+: 1638472495:0;nvim zshrc
+: 1638472513:0;src
+: 1638472523:0;which nvr
+: 1638472528:0;which nvru
+: 1638472539:0;j /home/yasha/dotfiles
+: 1638472542:0;nvim zshrc
+: 1638472579:0;src
+: 1638472588:0;vrc
+: 1638472603:0;nvru init.vim
+: 1638472612:0;lf
+: 1638472695:0;j /home/yasha/dotfiles
+: 1638472697:0;nvim zshrc
+: 1638472715:0;src
+: 1638472724:0;vrc
+: 1638472750:0;j /home/yasha/dotfiles
+: 1638472753:0;nvim zshrc
+: 1638472777:0;vrc
+: 1638472843:0;which nvru
+: 1638472871:0;j /home/yasha/dotfiles
+: 1638472875:0;nvim zshrc
+: 1638472943:0;src
+: 1638472949:0;j /home/yasha/dotfiles
+: 1638472955:0;zrc
+: 1638473043:0;nvim zshrc
+: 1638473219:0;help nvr
+: 1638473224:0;nvr --help
+: 1638473275:0;neo
+: 1638473291:0;vrc
+: 1638473806:0;neo \
+: 1638473807:0;neo
+: 1638473832:0;lf
+: 1638490931:0;neo
+: 1638495941:0;htop
+: 1638503669:0;nvim
+: 1638503683:0;cd ~
+: 1638503685:0;nvim
+: 1638503692:0;nvim blah
+: 1638504427:0;vrc
+: 1638504450:0;neo
+: 1638504699:0;nvim
+: 1638504883:0;vrc
+: 1638504899:0;neo
+: 1638504962:0;nvim
+: 1638505047:0;j nvim
+: 1638505053:0;nvim init.vim
+: 1638505071:0;nvim
+: 1638505108:0;j /home/yasha/dotfiles
+: 1638505111:0;nvim init.vim
+: 1638505130:0;j /home/yasha/.config/nvim
+: 1638505134:0;nvim init.vim
+: 1638505485:0;j nvim
+: 1638505493:0;nvim init.vim
+: 1638505556:0;j /home/yasha/.config/nvim2
+: 1638505561:0;j nvim
+: 1638505568:0;neo init.vim
+: 1638538372:0;nvim init.vi
+: 1638538378:0;neo init.vim
+: 1638538733:0;git status
+: 1638538798:0;push
+: 1638538808:0;git status
+: 1638538817:0;j /home/yasha/dotfiles
+: 1638538819:0;push

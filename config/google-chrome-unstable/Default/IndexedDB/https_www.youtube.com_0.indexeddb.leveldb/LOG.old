@@ -1,3 +1,6 @@
-2021/11/26-09:47:49.263 1056 Reusing MANIFEST /home/yasha/.config/google-chrome-unstable/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/MANIFEST-000001
-2021/11/26-09:47:49.264 1056 Recovering log #3
-2021/11/26-09:47:49.278 1056 Reusing old log /home/yasha/.config/google-chrome-unstable/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/000003.log 
+2021/11/30-18:06:08.080 11f91 Reusing MANIFEST /home/yasha/.config/google-chrome-unstable/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/MANIFEST-000001
+2021/11/30-18:06:08.080 11f91 Recovering log #3
+2021/11/30-18:06:08.100 11f91 Reusing old log /home/yasha/.config/google-chrome-unstable/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/000003.log 
+2021/11/30-18:06:11.280 11f9f Level-0 table #5: started
+2021/11/30-18:06:11.294 11f9f Level-0 table #5: 1004473 bytes OK
+2021/11/30-18:06:11.301 11f9f Delete type=0 #3

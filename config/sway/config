@@ -15,7 +15,7 @@ set $ws1 ed
 set $ws2 pdf
 set $ws3 chrome
 set $ws4 file
-set $ws5 5
+set $ws5 shell
 set $ws6 steam
 set $ws7 7
 set $ws8 8

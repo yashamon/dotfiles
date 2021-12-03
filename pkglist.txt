@@ -38,6 +38,7 @@ binutils
 bison
 bluez
 bluez-libs
+bmake
 boost-libs
 brother-mfc-l8900cdw
 brotli
@@ -386,6 +387,7 @@ haskell-zip-archive
 haskell-zlib
 hicolor-icon-theme
 hidapi
+hikari
 hspell
 htop
 http-parser
@@ -640,6 +642,7 @@ libtheora
 libtiff
 libtirpc
 libtool
+libucl-git
 libunistring
 libunwind
 liburcu
@@ -741,6 +744,7 @@ mutter
 nano
 ncurses
 ndctl
+neovide-git
 neovim-nightly-bin
 net-tools
 netctl
@@ -1087,6 +1091,7 @@ sway-alttab-bin
 swaybg
 swaylock
 swaylock-fancy-git
+swayr
 swaystatus-git
 sxiv
 sysfsutils
@@ -1166,6 +1171,7 @@ wl-clipboard
 wlc
 wlroots
 woff2
+wofi
 wpa-cute
 wpa_actiond
 wpa_supplicant

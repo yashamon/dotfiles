@@ -7,12 +7,18 @@
 -->
 <VirtualBox xmlns="http://www.virtualbox.org/" version="1.12-linux">
   <Global>
-    <MachineRegistry/>
-    <MediaRegistry>
-      <HardDisks>
-        <HardDisk uuid="{bf2929e3-f998-4c51-8d99-262b72f41ceb}" location="/home/yasha/VirtualBox VMs/NixOS 21.05.4384.4f37689c8a2 (x86_64-linux)/nixos-21.05.4384.4f37689c8a2-x86_64-linux-disk001.vdi" format="vdi" type="Normal"/>
-      </HardDisks>
-    </MediaRegistry>
+    <ExtraData>
+      <ExtraDataItem name="GUI/Details/Elements" value="general,system,preview,display,storage,audio,network,usb,sharedFolders,description"/>
+      <ExtraDataItem name="GUI/GroupDefinitions/" value="n=GLOBAL,m=364d03b0-ce0f-44f1-b112-d0d4143a9e6f"/>
+      <ExtraDataItem name="GUI/LastItemSelected" value="m=NixOS 21.05.4384.4f37689c8a2 (x86_64-linux)"/>
+      <ExtraDataItem name="GUI/LastWindowPosition" value="854,32,424,686,max"/>
+      <ExtraDataItem name="GUI/SplitterSizes" value="211,211"/>
+      <ExtraDataItem name="GUI/SuppressMessages" value="confirmGoingFullscreen"/>
+      <ExtraDataItem name="GUI/Toolbar" value="false"/>
+    </ExtraData>
+    <MachineRegistry>
+      <MachineEntry uuid="{364d03b0-ce0f-44f1-b112-d0d4143a9e6f}" src="/home/yasha/VirtualBox VMs/NixOS 21.05.4384.4f37689c8a2 (x86_64-linux)/NixOS 21.05.4384.4f37689c8a2 (x86_64-linux).vbox"/>
+    </MachineRegistry>
     <NetserviceRegistry>
       <DHCPServers>
         <DHCPServer networkName="HostInterfaceNetworking-vboxnet0" IPAddress="192.168.56.100" networkMask="255.255.255.0" lowerIP="192.168.56.101" upperIP="192.168.56.254" enabled="1"/>

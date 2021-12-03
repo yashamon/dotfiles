@@ -1,3 +1,9 @@
-2021/11/27-07:50:42.568 3 Reusing MANIFEST /home/yasha/.config/google-chrome-unstable/Default/Session Storage/MANIFEST-000001
-2021/11/27-07:50:42.574 3 Recovering log #3
-2021/11/27-07:50:42.575 3 Reusing old log /home/yasha/.config/google-chrome-unstable/Default/Session Storage/000003.log 
+2021/11/30-13:52:06.936 5 Reusing MANIFEST /home/yasha/.config/google-chrome-unstable/Default/Session Storage/MANIFEST-000001
+2021/11/30-13:52:06.937 5 Recovering log #4
+2021/11/30-13:52:06.938 5 Reusing old log /home/yasha/.config/google-chrome-unstable/Default/Session Storage/000004.log 
+2021/11/30-14:06:24.268 5 Level-0 table #8: started
+2021/11/30-14:06:24.281 5 Level-0 table #8: 36774 bytes OK
+2021/11/30-14:06:24.286 5 Delete type=0 #4
+2021/12/01-23:38:19.933 1bd Level-0 table #10: started
+2021/12/01-23:38:19.950 1bd Level-0 table #10: 22474 bytes OK
+2021/12/01-23:38:19.959 1bd Delete type=0 #7
