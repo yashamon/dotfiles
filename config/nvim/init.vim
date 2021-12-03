@@ -572,7 +572,7 @@ endfunction
 noremap L :TZAtaraxisOff<cr><cr>:call Sentence()<cr>
 " noremap L :TZAtaraxisOff<cr><cr>:call Sentence()<cr>
 function! Git() 
-Start! if git rev-parse --is-inside-work-tree || git rev-parse --git-dir > /dev/null 2>&1 ; then git add % ; git commit -m -a ; git push --all origin; fi 
+Start if git rev-parse --is-inside-work-tree || git rev-parse --git-dir > /dev/null 2>&1 ; then git add % ; git commit -m -a ; git push --all origin; fi 
 endfunction
 
 function! ToggleQuickFix()
@@ -1500,4 +1500,4 @@ autocmd BufWritePost *  call Git()
 "   vim.cmd("bufdo e") -- this triggers the FileType autocmd that starts the server
 " end
 " EOF
-" autocmd BufReadPost * if @% !~# '\.git[\/\\]COMMIT_EDITMSG$' && line("'\"") > 1 && line("'\"") <= line("$") | exe "normal! g`\"" | endif  
+" autocmd BufReadPost * if @% !~# '\.git[\/\\]COMMIT_EDITMSG$' && line("'\"") > 1 && line("'\"") <= line("$") | exe "normal! g`\"" | endif  as;ldkfj
