@@ -1473,7 +1473,6 @@ EOF
 
 " <cr>
 " ; pandoc backup.html > backup.md; cp backup.md %<cr>:e %<cr>
-asdflkj 
 " NB: this supports "rp that replaces the selection by the contents of @r
 " Auto updating Ctags
 " autocmd VimLeave * exe ":silent ! ctags -R"
