@@ -98,6 +98,7 @@ assign [app_id="google-chrome-unstable"] workspace chrome
 assign [app_id="zathura"] workspace pdf   
 assign [app_id="neovide"] workspace ed   
 assign [app_id="goneovim"] workspace ed  
+assign [app_id="steam"] workspace steam
 
 # workspace 2
 
