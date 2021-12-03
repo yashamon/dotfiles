@@ -592,11 +592,11 @@ au filetype tex nnoremap <silent> <leader>s :call ToggleQuickFix()<cr>
 
 function! ClearLatex() 
   silent !rm ./build/*.log
-  silent !rm ./build/*.aux
+  silent !rm ./build/*.aux 
 endfunction
 
 function! CompileLatex()
-   call ClearLatex
+   call ClearLatex()
   let buf = bufname()
   silent te latexmk -pvc %
   execute "buffer" buf
