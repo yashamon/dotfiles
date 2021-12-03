@@ -1469,7 +1469,7 @@ EOF
 " 
 " silent execute 'AsyncRun if git rev-parse --is-inside-work-tree || git rev-parse --git-dir > /dev/null 2>&1 ; then git add % ; git commit -m -a ; git push --all origin; fi'
 " let g:vimtex_view_general_options = '-r @line @pdf @
-""" pandoc backup -s html -o markdown cp backup.html %<cr>:e %<cr>:w<cr>:qa<cr> 
+""" pandoc backup -s html -o markdown cp backup.html %<cr>:e %<cr>:w<cr>:qa<cr>  asldkfj
 
 " <cr>
 " ; pandoc backup.html > backup.md; cp backup.md %<cr>:e %<cr>
