@@ -1,2 +1,2 @@
 #! /bin/sh
-lualatex -halt-on-error -synctex=1 -file-line-error
+lualatex -halt-on-error -synctex=1 -file-line-error 
