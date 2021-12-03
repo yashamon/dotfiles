@@ -597,7 +597,7 @@ endfunction
 function! CompileLatex()  
   silent !rm ./build/*
   let buf = bufname()
-  silent te latexmk -synctex=1 -halt-on-error -interaction=nonstopmode -recorder  -file-line-error -gg%
+  silent te latexmk -pvc -synctex=1 -halt-on-error -interaction=nonstopmode recorder  -file-line-error -gg%
   execute "buffer" buf
   call ViewPdf()
 endfunction
