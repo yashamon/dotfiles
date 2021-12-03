@@ -4,7 +4,7 @@ call plug#begin('~/.vim/plugged')
 " Plug 'folke/which-key.nvim', { 'branch': 'main' }
 " Plug 'folke/zen-mode.nvim', {  'branch': 'main' } 
 Plug 'lewis6991/spellsitter.nvim'
-Plug 'radenling/vim-dispatch-neovim.git' i,
+Plug 'radenling/vim-dispatch-neovim.git'
 Plug 'sheerun/vim-polyglot' 
 Plug 'ibhagwan/fzf-lua',  { 'branch': 'main' }
 Plug 'vijaymarupudi/nvim-fzf'
