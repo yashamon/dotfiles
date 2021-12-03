@@ -592,6 +592,7 @@ au filetype tex nnoremap <silent> <leader>s :call ToggleQuickFix()<cr>
 
 function! ClearLatex() 
   silent !rm ./build/*.log 
+  silent !rm ./build/*.aux
 endfunction
 
 function! CompileLatex()  
