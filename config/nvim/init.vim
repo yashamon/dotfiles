@@ -6,7 +6,7 @@ Plug 'lewis6991/spellsitter.nvim'
 Plug 'radenling/vim-dispatch-neovim'  
 Plug 'tpope/vim-dispatch'
 Plug 'sheerun/vim-polyglot' 
-Plug 'ibhagwan/fzf-lua',{ 'branch': 'main' }
+Plug 'ibhagwan/fzf-lua', { 'branch': 'main' }
 Plug 'vijaymarupudi/nvim-fzf'
 Plug 'kyazdani42/nvim-web-devicons'
 " Plug 'dvdsk/prosesitter',  { 'branch': 'main' }
@@ -572,7 +572,7 @@ endfunction
 noremap L :TZAtaraxisOff<cr><cr>:call Sentence()<cr>
 " noremap L :TZAtaraxisOff<cr><cr>:call Sentence()<cr>
 function! Git() 
-AsyncRun sleep 1; if git rev-parse --is-inside-work-tree || git rev-parse --git-dir > /dev/null 2>&1 ; then git add % ; git commit -m -a ; git push --all origin; fi 
+; if git rev-parse --is-inside-work-tree || git rev-parse --git-dir > /dev/null 2>&1 ; then git add % ; git commit -m -a ; git push --all origin; fi 
 endfunction
 
 function! ToggleQuickFix()
