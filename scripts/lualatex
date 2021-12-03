@@ -1,0 +1,1 @@
+pdflatex -jobname=foo file.tex
