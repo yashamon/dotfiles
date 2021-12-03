@@ -5,7 +5,6 @@ echo "trying to attach to server"
 if (($? != 0)); then
 echo "server not running; starting server"
 goneovim $1   
-
 else 
 echo "wrong file name"
 fi
