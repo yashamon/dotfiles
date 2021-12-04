@@ -606,7 +606,7 @@ endfunction
 
 function! ViewPdf() 
 wa
-let buf = bufname() 
+let buf = bufname()
 let linenumber=line(".")
 let colnumber=col(".")
 let filename=bufname("%") 
