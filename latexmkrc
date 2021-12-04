@@ -1,4 +1,4 @@
-$pdflatex = "lualatexscript -halt-on-error -synctex=1 -file-line-error -gg";
+$pdflatex = "lualatexscript";
 $pdf_mode = 1; 
 $dvi_mode = 0; 
 $view= 'none';
