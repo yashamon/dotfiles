@@ -1,7 +1,8 @@
 #! /bin/sh
 
 lualatex -halt-on-error -synctex=1 
--file-line-error -jobname=backup $1 $2 $3
+-file-line-error -jobname=backup $1 $2 $3 
+echo $1 $2 $3
 echo $?
 if (($?==0)); then 
 myfile="${3%.*}"
