@@ -1,7 +1,8 @@
 #! /bin/sh
 
-lualatex -halt-on-error -synctex=1 -file-line-error -jobname=backup.pdf
+lualatex -halt-on-error -synctex=1 
+-file-line-error -jobname=backup.pdf $1
 if $?=0; then 
 mypdf="build/$1[:-4].pdf"
-mv build/backup.pdf mypdf
+mv build/backup.pdf $mypdf
 fi
