@@ -1,8 +1,8 @@
 #! /bin/sh
 
 lualatex -halt-on-error -synctex=1 -file-line-error -jobname=backup -gg $1 $2 $3 $4 $5
-echo $1 $2 $3 $4
-myfile="${3%.*}"
+echo $1 $2 $3 $4 
+myfile="${5%.*}"
 mypdfstring=$myfile".pdf" 
 mylogstring=$myfile".log"  
 sync=$myfile".synctex.gz"
