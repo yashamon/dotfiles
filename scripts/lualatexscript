@@ -2,7 +2,7 @@
 
 lualatex -halt-on-error -synctex=1 -file-line-error -gg $1 $2 $3 
 echo $1 $2 $3 
-if ! grep -q error ./build/$3.log; the
+if ! grep -q error ./build/$3.log; then    
 echo cool
 myfile="${3%.*}"
 mypdfstring="build/"$myfile".pdf" 
