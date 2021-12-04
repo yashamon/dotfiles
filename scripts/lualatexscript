@@ -1,6 +1,6 @@
 #! /bin/sh
 
-lualatex -halt-on-error -synctex=1 -file-line-error -jobname=backup -gg $1 $2 $3 $4 $5
+lualatex  -synctex=1 -file-line-error -jobname=backup -gg $1 $2 $3 $4 $5
 echo $1 $2 $3 $4 
 myfile="${5%.*}"
 mypdfstring=$myfile".pdf" 
@@ -10,5 +10,5 @@ if ! grep -q Fatal ./build/backup.log; then
 echo cool
 echo $mypdfstring
 cp ./build/backup.pdf $mypdfstring 
-mv ./build/backup.synctez.gz $sync
+cp ./build/backup.synctez.gz $sync
 fi
