@@ -1,6 +1,6 @@
 #! /bin/sh
 
-lualatex -halt-on-error -synctex=1 -file-line-error jobname=backup $1 $2 $3 
+lualatex -halt-on-error -synctex=1 -file-line-error -jobname=backup $1 $2 $3 
 echo $1 $2 $3
 if ! grep -q "error" ./build/backup.log; then   
 myfile="${3%.*}"
