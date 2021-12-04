@@ -1,8 +1,8 @@
 #! /bin/sh
 
-lualatex -halt-on-error -synctex=1 -file-line-error -gg $1 $2 $3 
+lualatex -halt-on-error -synctex=1 -file-line-error - -gg $1 $2 $3 
 echo $1 $2 $3 
-if ! grep -q error ./build/$3.log; then    
+if ! grep -q error ./build/backup.log; then    
 echo cool
 myfile="${3%.*}"
 mypdfstring="build/"$myfile".pdf" 
