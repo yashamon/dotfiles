@@ -1,7 +1,8 @@
 #! /bin/sh
 
 lualatex -halt-on-error -synctex=1 -file-line-error -jobname=backup -gg $1 $2 $3 
-echo $1 $2 $3 
+echo $1 $2 $3  
+
 if ! grep -q Fatal ./build/backup.log; then
 echo cool
 myfile="${3%.*}"
