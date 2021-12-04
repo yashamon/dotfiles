@@ -2,10 +2,8 @@
 
 lualatex -halt-on-error -synctex=1 -file-line-error -jobname=backup $1 $2 $3 
 echo $1 $2 $3
-if grep -q "error" ./build/backup.og; then
-  Some Actions # SomeString was found
-fi
-if ; then 
+if grep -q "error" ./build/backup.log; then
+   
 myfile="${3%.*}"
 mypdfstring="build/"$myfile".pdf" 
 echo $mypdfstring
