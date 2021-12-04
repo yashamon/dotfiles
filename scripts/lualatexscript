@@ -10,6 +10,6 @@ if ! grep -q Fatal ./build/backup.log; then
 echo cool
 echo $mypdfstring
 mv ./build/$mypdfstring $mypdfstring 
-mv ./build/$sync $mypdfstring
+mv ./build/$sync $sync
 
 fi
