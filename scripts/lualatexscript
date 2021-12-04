@@ -5,7 +5,7 @@ echo $1 $2 $3
 myfile="${3%.*}"
 mypdfstring=$myfile".pdf" 
 mylogstring=$myfile".log"  
-sync=$myfile".backup.pd"
+sync=$myfile"synctex.gz"
 if ! grep -q Fatal ./build/backup.log; then
 echo cool
 echo $mypdfstring
