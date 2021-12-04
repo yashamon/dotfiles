@@ -11,5 +11,4 @@ echo cool
 echo $mypdfstring
 mv ./build/$mypdfstring $mypdfstring 
 mv ./build/$sync $sync
-
 fi
