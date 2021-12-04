@@ -6,6 +6,7 @@ if ! grep -q Fatal ./build/backup.log; then
 echo cool
 myfile="${3%.*}"
 mypdfstring=$myfile".pdf" 
+mystring=$myfile".pdf"
 
 echo $mypdfstring
 mv ./build/backup.pdf $mypdf.pdf
