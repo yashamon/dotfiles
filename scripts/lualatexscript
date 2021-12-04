@@ -1,6 +1,6 @@
 #! /bin/sh
 
-lualatex -halt-on-error -synctex=1 -file-line-error -jobname=backup  $1
+lualatex -halt-on-error -synctex=1 -file-line-error -jobname=backup $1
 echo $?
 if (($?==0)); then 
 myfile="${1%.*}"
