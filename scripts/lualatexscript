@@ -2,7 +2,7 @@
 
 lualatex -halt-on-error -synctex=1 -file-line-error -jobname=backup $1 $2 $3 
 echo $1 $2 $3
-if grep -q SomeString "$File"; then
+if grep -q "" "$File"; then
   Some Actions # SomeString was found
 fi
 if ; then 
