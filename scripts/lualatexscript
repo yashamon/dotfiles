@@ -3,6 +3,6 @@
 lualatex -halt-on-error -synctex=1 -file-line-error -jobname=backup -output-directory=build $1 
 echo $?
 if (($?==0)); then
-mypdfstring="build/" . "${1%.*} . ".pdf"
-mv build/backup.pdf $mypdf
+mypdfstring="build/" . "${1%.*}" . ".pdf"
+mv build/backup.pdf build/$mypdf
 fi
