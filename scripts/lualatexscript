@@ -4,7 +4,8 @@ lualatex -halt-on-error -synctex=1 -file-line-error -jobname=backup -gg $1 $2 $3
 echo $1 $2 $3  
 myfile="${3%.*}"
 mypdfstring=$myfile".pdf" 
-mylogstring=$myfile".log" 
+mylogstring=$myfile".log"  
+mysynsctexstring
 if ! grep -q Fatal ./build/backup.log; then
 echo cool
 echo $mypdfstring
