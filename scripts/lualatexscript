@@ -2,8 +2,9 @@
 
 lualatex -halt-on-error -synctex=1 -file-line-error -jobname=backup -output-directory=build $1 
 echo $?
-if (($?==0)); then
+if (($?==0)); then 
+echo
 mypdfstring="build/" . "${1%.*}" . ".pdf" 
-echo mypdfstring
+echo $mypdfstring
 mv ./build/backup.pdf ./build/$mypdf.pdf
 fi
