@@ -5,7 +5,7 @@ echo $1 $2 $3
 if ! grep -q error ./build/backup.log; then
 echo cool
 myfile="${3%.*}"
-mypdfstring="build/"$myfile".pdf" 
+mypdfstring="build/"$myfile".pdf"
 echo $mypdfstring
 mv ./build/backup.pdf ./build/$mypdf.pdf
 fi
