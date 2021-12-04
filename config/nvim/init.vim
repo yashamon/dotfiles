@@ -599,7 +599,7 @@ endfunction
 function! CompileLatex()
    call ClearLatex()
   let buf = bufname()
-  silent te latexmk -halt-on-error -synctex=1 -file-line-error %
+  silent te latexmk -halt-on-error -synctex=1 -file-line-error -recorder -gg%
   execute "buffer" buf
   call ViewPdf()
 endfunction
