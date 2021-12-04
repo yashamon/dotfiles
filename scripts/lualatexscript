@@ -11,5 +11,5 @@ myfile="${3%.*}"
 mypdfstring=$myfile".pdf" 
 mytexstring=$myfile".tex"
 echo $mypdfstring
-mv ./build/backup.pdf $mypdf.pdf
+mv ./build/backup.pdf 
 fi
