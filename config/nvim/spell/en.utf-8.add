@@ -5554,7 +5554,6 @@ subcomplex
 functorial
 simplices
 simplicial
-simplical
 functoriality
 monomorphism
 submanifolds
@@ -5723,3 +5722,5 @@ paracompact
 cochain
 diffeologies
 Villalpando
+cocycle
+cocycles
