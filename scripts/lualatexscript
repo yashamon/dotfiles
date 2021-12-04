@@ -1,8 +1,7 @@
 #! /bin/sh
 
 lualatex -halt-on-error -synctex=1 
--file-line-error -jobname=backup 
--output-directory= $1 
+-file-line-error -jobname=backup -output-directory=build $1 
 echo $?
 if (($?==0)); then
 mypdf="build/$1[:-4].pdf"
