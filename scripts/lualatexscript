@@ -4,5 +4,5 @@ lualatex -halt-on-error -synctex=1 -file-line-error -jobname=backup -output-dire
 echo $?
 if (($?==0)); then
 mypdfstring="build/" . "${1%.*}" . ".pdf"
-mv build/backup.pdf build/$mypdf.pdf
+mv ./build/backup.pdf build/$mypdf.pdf
 fi
