@@ -10,5 +10,5 @@ if ! grep -q Fatal ./buildback/$mylogstring; then
 echo cool
 echo $mypdfstring
 mkdir ./build
-cp -r ./buildback ./build
+cp -r ./buildback/* ./build
 fi
