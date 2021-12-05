@@ -10,5 +10,4 @@ if ! grep -q Fatal ./build/backup.log; then
 echo cool
 echo $mypdfstring
 cp -r./buildback/backup.pdf $mypdfstring 
-cp ./buildback/backup.synctez.gz $sync
 fi
