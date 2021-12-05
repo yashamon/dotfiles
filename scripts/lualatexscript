@@ -6,7 +6,7 @@ myfile="${5%.*}"
 mypdfstring=$myfile".pdf" 
 mylogstring=$myfile".log"  
 sync=$myfile".synctex.gz"
-if ! grep -q Fatal ./buildback/$myfile".log".log; then
+if ! grep -q Fatal ./buildback/$my; then
 echo cool
 echo $mypdfstring
 cp -r ./buildback ./build 
