@@ -9,5 +9,5 @@ sync=$myfile".synctex.gz"
 if ! grep -q Fatal ./build/backup.log; then
 echo cool
 echo $mypdfstring
-cp -r./buildback ./build/$mypdfstring 
+cp -r./buildback ./build 
 fi
