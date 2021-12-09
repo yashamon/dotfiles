@@ -1,5 +1,5 @@
 #!/bin/bash
-for f in /home/yashasavelyev/appimage/* 
+for f in /appimage/* 
 do
   ~/appimage/update $f
   mv $f.appimage $f
