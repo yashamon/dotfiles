@@ -597,7 +597,7 @@ function! ClearLatex()
 endfunction
 
 function! CompileLatex()
-   call ClearLatex()
+  silent call ClearLatex()
   let buf = bufname()
   silent te latexmk -pvc -halt-on-error -synctex=1 -file-line-error -gg %
   execute "buffer" buf
