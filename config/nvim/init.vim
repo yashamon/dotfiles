@@ -561,9 +561,9 @@ endfunction
 
 function! Sentence()
   let g:buf = bufname()
-  silent sentence.sh %
-  silent !echo "Print any character"
-  silent !call getchar()
+  silent !sentence.sh %
+  silent echo "Print any character"
+  silent call getchar()
   e sentence_%
   " echo "Print any character"
   " call getchar()
