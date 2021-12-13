@@ -923,9 +923,9 @@
 "pm": {
     "prefix": ["pm"],
     "body": [
-      "\\ $0"
+      "\\pm $0"
     ],
-    "description": "cal S"
+    "description": "pm"
   },
 
 "caligraphic S": {
