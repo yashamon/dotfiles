@@ -920,6 +920,13 @@
     ],
     "description": "Delta d-simplex"
   },   
+"pm": {
+    "prefix": ["pm"],
+    "body": [
+      "\\mathcal{S} $0"
+    ],
+    "description": "cal S"
+  },
 
 "caligraphic S": {
     "prefix": ["cS"],
