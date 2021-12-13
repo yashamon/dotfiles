@@ -923,7 +923,7 @@
 "pm": {
     "prefix": ["pm"],
     "body": [
-      "\\mathcal{S} $0"
+      "\\ $0"
     ],
     "description": "cal S"
   },
