@@ -3,6 +3,7 @@ for f in $HOME/appimage/*
 do
   $HOME/appimage/update $f 
     mv $f.appimage $f
-done
+done 
+rm -rf *old*
 mv AppImage* update 
 mv firefox* firefox-nightly
