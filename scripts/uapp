@@ -1,7 +1,8 @@
 #!/bin/bash
 for f in $HOME/appimage/* 
 do
-  $HOME/appimage/update $f
+  $HOME/appimage/update $f 
+  rm *old*
   mv $f.appimage $f
 done
 mv AppImage* update 
