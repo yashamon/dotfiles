@@ -2,7 +2,7 @@
 for f in $HOME/appimage/* 
 do
   $HOME/appimage/update $f 
-    mv $f.AppImage $f
+  mv $f.AppImage $f
 done 
 rm -rf *old*
 mv AppImage* update 
