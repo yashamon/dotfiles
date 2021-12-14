@@ -5,4 +5,4 @@ do
   mv $f.appimage $f
 done
 mv AppImage* update 
-
+mv AppImage* update
