@@ -1,6 +1,6 @@
 [Unit]
 Description=gitwatch
-PartOf=graphical-session.target
+PartOf=.target
 
 [Service]
 ExecStart=$HOME/dotfiles/gitwatch/gitwatch.sh $HOME/workspace
