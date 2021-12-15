@@ -1,7 +1,7 @@
 [Unit]
 Description=gitwatch
 
-[Service]
+[Service] 
 ExecStart=/home/yasha/dotfiles/gitwatch/gitwatch.sh /home/yasha/workspace
 Restart=always
 
