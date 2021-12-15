@@ -6,4 +6,4 @@ ExecStart=/home/yasha/dotfiles/gitwatch/gitwatch.sh /home/yasha/workspace
 Restart=always
 
 [Install]
-WantedBy=sway.target
+WantedBy=default.target
