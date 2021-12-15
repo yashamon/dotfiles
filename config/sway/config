@@ -81,8 +81,7 @@ input "SynPS/2 Synaptics TouchPad" {
     natural_scroll enabled
     middle_emulation disabled
 }
-input "1386:20666:Waco
-m_Pen_and_multitouch_sensor_P
+input "1386:20666:Wacom_Pen_and_multitouch_sensor_P
 en" {
 }
 
