@@ -4,7 +4,7 @@ PartOf=graphical-session.target
 
 [Service]
 ExecStart=$HOME/dotfiles/gitwatch/gitwatch.sh $HOME/workspace
-# Restart=always
+Restart=always
 
 [Install]
 WantedBy=sway.target
