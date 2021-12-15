@@ -1,5 +1,5 @@
 [Unit]
-Description=xmod
+Description=gitwatch
 PartOf=graphical-session.target
 
 [Service]
