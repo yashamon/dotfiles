@@ -1,6 +1,5 @@
 [Unit]
 Description=gitwatch
-PartOf=.target
 
 [Service]
 ExecStart=$HOME/dotfiles/gitwatch/gitwatch.sh $HOME/workspace
