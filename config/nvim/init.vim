@@ -178,7 +178,8 @@ if exists('g:started_by_firenvim')
        au UIEnter  set laststatus=0
        au UIEnter  set noshowcmd
        au UIEnter  set lines=100 
-      
+       au UIEnter  set columuns=100
+
  else
   " autocmd VimEnter * TZAtaraxis
  endif
