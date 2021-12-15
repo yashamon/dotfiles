@@ -173,8 +173,10 @@ gnupg
 gnutls
 go
 gobject-introspection-runtime
+goocanvas
 google-chrome-dev
 gparted
+gperf
 gpgme
 gpm
 gptfdisk
@@ -194,6 +196,7 @@ gst-plugins-base-libs
 gstreamer
 gtk-layer-shell
 gtk-update-icon-cache
+gtk2
 gtk3
 gtk4
 gtkmm3
@@ -408,6 +411,7 @@ inetutils
 inotify-tools
 intel-gmmlib
 intel-media-driver
+intltool
 iotop
 iproute2
 iptables
@@ -504,6 +508,7 @@ lib32-zstd
 libaio
 libappindicator-gtk3
 libarchive
+libart-lgpl
 libass
 libassuan
 libasyncns
@@ -544,7 +549,9 @@ libftdi
 libgcrypt
 libgdm
 libgit2
+libglade
 libglvnd
+libgnomecanvas
 libgpg-error
 libgssglue
 libgudev
@@ -698,6 +705,7 @@ libxv
 libxxf86vm
 libyaml
 libyuv
+libzip
 licenses
 linux
 linux-api-headers
@@ -918,6 +926,7 @@ perl-xml-libxml
 perl-xml-libxml-simple
 perl-xml-libxslt
 perl-xml-namespacesupport
+perl-xml-parser
 perl-xml-sax
 perl-xml-sax-base
 perl-xml-writer
@@ -928,7 +937,9 @@ pixman
 pkgconf
 polkit
 poppler
+poppler-glib
 popt
+portaudio
 potrace
 procps-ng
 protobuf
@@ -1068,6 +1079,7 @@ semver
 shaderc
 shadow
 shared-mime-info
+sioyek-git
 slang
 snappy
 sndio
@@ -1145,6 +1157,8 @@ v4l-utils
 vi
 vid.stab
 vifm
+vim
+vim-runtime
 virtualbox
 virtualbox-host-modules-arch
 vmaf
@@ -1256,6 +1270,7 @@ xorg-xwd
 xorg-xwininfo
 xorg-xwud
 xorgproto
+xournalpp
 xplr-git
 xsel
 xvidcore

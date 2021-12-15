@@ -26,7 +26,6 @@ fd . $HOME -t d -H | fzf 2>/dev/tty | sed 's/\\/\\\\/g;s/"/\\"/g'
 fd . $HOME -t d -H | fzf 2>/dev/tty
 j /home/yasha/workspace/workspace
 git clone --recursive https://yashamon@bitbucket.org/yashamon/workspacemodules.git
-git checkout master
 xinput get-button-map 'DLL07BF:01 06CB:7A13 Touchpad'
 xinput
 xinput get-button-map SynPS/2 Synaptics Touchpad
@@ -121,7 +120,6 @@ paru -S nm-tui
 paru -Ss nm-tui
 paru -Ss nmtui
 systemctl status netctl-auto
-netctl stop Paco
 netctl stop wlan0
 systemctl start networkmanager.service
 systemctl start networkmanager
@@ -210,7 +208,6 @@ paru -S strace
 gtk
 rotatesway
 config
-netctl status Paco
 systemctl enable netctl-auto@wpl0.service
 systemctl status netctl-auto@wpl0.service
 dhclient
@@ -371,7 +368,6 @@ swaymsg fullscreen
 exec ~/.config/sway/alttab next; swaymsg fullscreen
 xlsclients
 paru -Ss firefox-nightly
-paru -S firefox-nightly
 sudo vifm
 cd /etc/pacman.d
 sudo goneovim hooks
@@ -381,13 +377,11 @@ paru -S packup
 packup
 nvim hooks/
 /usr/bin/pacman -Qq > /home/yasha/dotfiles/pkglist.txt
-paru -Syu
 paru -Rsc screenrotator-git
 paru -S gitk
 paru -Ss git
 paru -Ss git | nightly
 paru -Ss gitk | nightly
-gitk
 paru -S river
 reboot
 xmonad --recompile
@@ -400,8 +394,6 @@ river
 sway
 systemctl enable gdm
 systemctl start gdm
-firefox
-swaymsg -t get_inputs
 vi ~/.xsession
 paru -R firefox
 Downloads the file with curl --proto '=https' --tlsv1.2 -sSfL https://nixos.org/nix/install -o nix-install.sh, view it: less ./nix-install.sh, and run the script ./nix-install.sh --daemon to start Nix installation.
@@ -422,7 +414,6 @@ nix-channel --update
 \
 source /etc/profile.d/nix{,-daemon}.sh
 echo $PATH
-netctl start Paco
 nix-env -U
 nix-channel --add https://nixos.org/channels/nixpkgs-unstable\
 ; nix-channel --update\
@@ -455,11 +446,9 @@ sudo rm nix
 sudo rm -rf nix
 sh <(curl -L https://nixos.org/nix/install) --daemon
 curl -L https://nixos.org/nix/install
-cd ~
 curl --proto '=https' --tlsv1.2 -sSfL https://nixos.org/nix/install -o nix-install.sh
 sh nix-install.sh --daemon
 neo nix-install.sh
-j web
 pushgh
 paru -S virtualbox
 sudo modprobe vboxdrv
@@ -484,7 +473,6 @@ guix neovim
 guix run neovim
 guix --help
 git clone https://github.com/zdharma/zinit
-ping
 git clone https://github.com/zdharma/zinit blah
 rc
 df
@@ -522,8 +510,6 @@ paru -S fraps
 paru -Ss fraps
 LF
 virtualbox
-cd build
-pdf kan.pdf
 paru -S swayr
 wifi
 paru -S wofi
@@ -538,7 +524,6 @@ swayr next-full-screen-window current-workspace
 swayr switch-window current-workspace
 paru -S hikari
 lfrf
-sudo lf
 j /etc/netctl
 zinit update
 goneovim blah
@@ -546,122 +531,213 @@ neov blah
 rm -rf blah
 gone blah
 lfcd
-git pull
 j /home/yasha/workspacemodules
-push
 touch blah
 rm -rf '\'
 vi blah
 neo letterCarlosV.tex
 j /home/yasha/workspace
-wev
 swaymsg -t get_tree
 neovide
 neov
-goneovim
-cd ..
-nvim zshrc
 if nvr init.vim --servername $(<~/servername.txt) --remote-silent; then goneovim init.vim
 if nvr init.vim --servername $(<~/servername.txt) --remote-silent; then goneovim init.vim; fi
 if [nvr init.vim --servername $(<~/servername.txt) --remote-silent] goneovim init.vim
 cd config
 cd nvim
-nvr --help
-j nvim
-j /home/yasha/.config/nvim
 nvr zshrc
-nvru zshrc
-which nvr
-j /home/yasha/dotfiles
 swrc
 paru -S shellcheck
-hw
 lfrc
-uapp
-src
 which update
-j /home/yasha/appimage
 update nvim
 update update
-ls
-nvim
 vi
-j /home/yasha/dotfiles/config/nvim
-lf
 nvr init.vim
-neo
-j /home/yasha/workspacemodules/novikov
-git status
-neo kan.tex
-nvim init.vim
-vrc
-zrc
-htop
-: 1638472341:0;zrc
-: 1638472367:0;nvim zshrc
-: 1638472375:0;which nvr
-: 1638472381:0;nvim zshrc
-: 1638472459:0;which nvru
-: 1638472493:0;j /home/yasha/dotfiles
-: 1638472495:0;nvim zshrc
-: 1638472513:0;src
-: 1638472523:0;which nvr
-: 1638472528:0;which nvru
-: 1638472539:0;j /home/yasha/dotfiles
-: 1638472542:0;nvim zshrc
-: 1638472579:0;src
-: 1638472588:0;vrc
-: 1638472603:0;nvru init.vim
-: 1638472612:0;lf
-: 1638472695:0;j /home/yasha/dotfiles
-: 1638472697:0;nvim zshrc
-: 1638472715:0;src
-: 1638472724:0;vrc
-: 1638472750:0;j /home/yasha/dotfiles
-: 1638472753:0;nvim zshrc
-: 1638472777:0;vrc
-: 1638472843:0;which nvru
-: 1638472871:0;j /home/yasha/dotfiles
-: 1638472875:0;nvim zshrc
-: 1638472943:0;src
-: 1638472949:0;j /home/yasha/dotfiles
-: 1638472955:0;zrc
-: 1638473043:0;nvim zshrc
-: 1638473219:0;help nvr
-: 1638473224:0;nvr --help
-: 1638473275:0;neo
-: 1638473291:0;vrc
-: 1638473806:0;neo \
+help nvr
+nvr --help
+neo \
 : 1638473807:0;neo
-: 1638473832:0;lf
-: 1638490931:0;neo
-: 1638495941:0;htop
-: 1638503669:0;nvim
-: 1638503683:0;cd ~
-: 1638503685:0;nvim
-: 1638503692:0;nvim blah
-: 1638504427:0;vrc
-: 1638504450:0;neo
-: 1638504699:0;nvim
-: 1638504883:0;vrc
-: 1638504899:0;neo
-: 1638504962:0;nvim
-: 1638505047:0;j nvim
-: 1638505053:0;nvim init.vim
-: 1638505071:0;nvim
-: 1638505108:0;j /home/yasha/dotfiles
-: 1638505111:0;nvim init.vim
-: 1638505130:0;j /home/yasha/.config/nvim
-: 1638505134:0;nvim init.vim
-: 1638505485:0;j nvim
-: 1638505493:0;nvim init.vim
-: 1638505556:0;j /home/yasha/.config/nvim2
-: 1638505561:0;j nvim
-: 1638505568:0;neo init.vim
-: 1638538372:0;nvim init.vi
-: 1638538378:0;neo init.vim
-: 1638538733:0;git status
-: 1638538798:0;push
-: 1638538808:0;git status
-: 1638538817:0;j /home/yasha/dotfiles
-: 1638538819:0;push
+cd ~
+nvim blah
+j /home/yasha/.config/nvim
+j /home/yasha/.config/nvim2
+nvim init.vi
+neo init.vim
+help latexmk
+latexmk -help
+latexmk --help
+latexmk -pvc -file-line-error -synctex=1 -interaction=nonstopmode -recorder -gg kan.tex
+latexmk -pvc -file-line-error -synctex=1 -interaction=nonstopmode -recorder kan.tex
+latexmk -pvc -file-line-error -synctex=1 -interaction=nonstopmode -recorder -f kan.tex
+j nvim
+nvru init.vim
+which nvr
+latexmk -pvc -file-line-error -synctex=1 -interaction=nonstopmode -recorder -f -g kan.tex
+pdflatex kan.tex
+nvru latexmkrc
+zrc
+nvim zshrc
+src
+which nvru
+nvru zshrc
+lualatex kan.tex
+lualatex -synctex=1 -interaction=nonstopmode kan.tex
+latexmk -pvc -synctex=1 -halt-on-error -interaction=nonstopmode -recorder -file-line-error -gg kan.tex
+paru -S sioyek
+mupdf kan.pdf
+lualatex -halt-on-error kan.tex
+lualatex -halt-on-error kan.tex > kanback.pdf
+j /home/yasha/dotfiles/config/nvim
+nvim init.vim
+gitk
+\
+lualatex -halt-on-error -synctex=1 -file-line-error -jobname=backup.pdf kan.tex
+\
+lualatex -halt-on-error -synctex=1 -file-line-error -output-directory=build -jobname=backup.pdf kan.tex
+j /home/yasha/dotfiles
+echo $?
+lualatex -halt-on-error -synctex=1 -file-line-error -output-directory=build -jobname=backup kan.tex
+lualatexscript kan.tex
+latexmk kan.tex
+lualatexscript -recorder -output-directory=build kan.tex
+grep -q "error" ./build/backup.log
+grep "error" ./build/backup.log
+latexmk -pvc kan.tex
+.backup.pd
+ldf
+latexmk -pvc -jobname=backup kan.tex
+pdf backup.pdf
+latexmk -pvc -jobname=backup -halt-on-error kan.tex
+nvr.sh 50 kan.tex
+nvr.sh +50 kan.tex
+nvr.sh +100 kan.tex
+nvr.sh +300 kan.tex
+vrc
+latexmk -pvc -halt-on-error -synctex=1 -file-line-error -gg kan.tex
+nvim kan.tex
+sioyek kan.pdf
+git stash
+neo fukayaI.tex
+neo fukayaII.tex
+j /home/yasha/workspacemodules/fukaya
+latexmk -pvc -halt-on-error -synctex=1 -file-line-error -gg fukayaII.tex
+pdf fukayaII.pdf
+web
+wev
+j /home/yasha/neovide
+firefox
+firefox-nightly
+hw
+which nvim
+paru -Ss neovim
+paru -Ss neovim-git
+paru -Ss neovim-nightly
+nvim
+paru -Syu neovim-nightly-bin
+paru -S vim
+vim
+git checkout -b correctionDec11
+pdf kan.pdf
+netctl status Paco
+goneovim
+netctl stop Paco
+netctl start Yasha
+ping
+netctl start Paco
+git pull
+paru -Syu
+git checkout master
+git branch
+git pull origin correctionDec11
+push
+git status
+pip3 install neovim-remote
+neo stableconsistency.tex
+j /home/yasha/workspacemodules/thematrix
+pdf stableconsistency.pdf
+git checkout -b Dec132021
+paru -Syu firefox-nightly
+htop
+gpg --keyserver hkp://pgp.mit.edu --search-keys BBBEBDBB24C6F355
+gpg -v --search-keys BBBEBDBB24C6F355
+gpg -v --search-keys bbbebdbb24c6f355
+gpg -v --search-keys EBE41E90F6F12F6D
+cd /home/yasha/.gnupg
+ls
+bash
+paru -S firefox-nightly
+chmod +x firefox-95.0.r20211129150630-x86_64.AppImage
+uapp
+j /home/yasha/appimage
+cp firefox* firefox-nightly
+cp -p firefox-95.0.r20211129150630-x86_64.AppImage firefox-nightly
+cp -p firefox* firefox-nightly
+mv firefox* firefox-nightly
+cd /usr/sbin
+rm firefox-nightly
+sudo rm firefox-nightly
+sudo lf
+which firefox-nightly
+neo
+cd ..
+neo kan.tex
+j /home/yasha/workspacemodules/novikov
+cd build
+send kan.pdf
+j web
+j exams
+\
+swaynag --layer overlay -t mtype -m 'You pressed the exit shortcut. What do you want?' -b 'Poweroff' 'systemctl poweroff' -b 'Reboot' 'systemctl reboot' -b 'Sleep' 'systemctl suspend' -b 'Logout' 'swaymsg exit'
+lf
+swaymsg -t get_inputs
+: 1639593983:0;lf
+: 1639594503:0;paru -S xournal
+: 1639595549:0;paru -R xournal
+: 1639595562:0;paru -S xournal-gtk3-git
+: 1639595772:0;paru -Ss xournalpp
+: 1639595782:0;paru -S xournalpp
+: 1639595800:0;xournalpp
+: 1639596759:0;lf
+: 1639600520:0;xournalpp
+: 1639600532:0;xev
+: 1639600539:0;wev
+: 1639600652:0;libinput list
+: 1639600657:0;libinput
+: 1639600670:0;libinput list-devices
+: 1639600674:0;sudo libinput list-devices
+: 1639600785:0;libinput
+: 1639600886:0;libinput restart
+: 1639600905:0;xournalpp
+: 1639602933:0;j /home/yasha/dotfiles
+: 1639602934:0;lf
+: 1639602990:0;git checkout master
+: 1639602993:0;git pull
+: 1639603028:0;lf
+: 1639603931:0;$HOME/dotfiles/gitwatch $HOME/workspace
+: 1639603946:0;j /home/yasha/dotfiles
+: 1639603951:0;gitwatch
+: 1639603958:0;ls
+: 1639603968:0;$HOME/dotfiles/gitwatch/gitwatch.sh $HOME/workspace
+: 1639604224:0;systemctl user start gitwatch.service
+: 1639604229:0;systemctl --user start gitwatch.service
+: 1639604257:0;systemctl --user status gitwatch.service
+: 1639604349:0;systemctl --user start gitwatch.service
+: 1639604355:0;systemctl --user status gitwatch.service
+: 1639604369:0;$HOME/dotfiles/gitwatch/gitwatch.sh $HOME/workspace
+: 1639604689:0;systemctl --user start gitwatch.service
+: 1639604693:0;systemctl --user status gitwatch.service
+: 1639604703:0;systemctl --user enable gitwatch.service
+: 1639605382:0;j /home/yasha/workspace
+: 1639605387:0;lf
+: 1639605402:0;git status
+: 1639605427:0;push
+: 1639605440:0;git status
+: 1639605454:0;cd ..
+: 1639605455:0;git status
+: 1639605457:0;push
+: 1639605469:0;git status
+: 1639605491:0;lf
+: 1639605559:0;git status
+: 1639605643:0;j /home/yasha/dotfiles
+: 1639605647:0;push
