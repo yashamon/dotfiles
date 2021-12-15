@@ -82,7 +82,6 @@ input "SynPS/2 Synaptics TouchPad" {
     middle_emulation disabled
 }
 input "Wacom Pen and multitouch sensor Pen" {
-    dwt enabled
     tap disabled
     natural_scroll enabled
     middle_emulation disabled
