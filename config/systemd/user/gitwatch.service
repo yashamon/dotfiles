@@ -1,0 +1,10 @@
+[Unit]
+Description=xmod
+PartOf=graphical-session.target
+
+[Service]
+ExecStart=
+# Restart=always
+
+[Install]
+WantedBy=xsession.target
