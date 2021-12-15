@@ -2,7 +2,7 @@
 Description=gitwatch
 
 [Service]
-ExecStart=/dotfiles/gitwatch/gitwatch.sh $HOME/workspace
+ExecStart=/home/yasha/dotfiles/gitwatch/gitwatch.sh /home/yasha/workspace
 Restart=always
 
 [Install]
