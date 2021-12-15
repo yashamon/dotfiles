@@ -78,8 +78,9 @@ input "3141:32774:SONiX_61_Gaming_Keyboard_Consumer_Control" {
 input "2:7:SynPS/2_Synaptics_TouchPad" {
     dwt enabled
     tap disabled
-    natural_scroll disable
-    middle_emulation disabled
+    natural_scroll disabled
+    middle_emulation disabled 
+   
 }
 input "1386:20666:Wacom_Pen_and_multitouch_sensor_Pen" {
 }
