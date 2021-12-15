@@ -3,7 +3,7 @@ Description=xmod
 PartOf=graphical-session.target
 
 [Service]
-ExecStart=$HOME/dotfiles/gitwatch $HOME/workspace
+ExecStart=$HOME/dotfiles/gitwatch/gitwatch.sh $HOME/workspace
 # Restart=always
 
 [Install]
