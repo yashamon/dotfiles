@@ -87,8 +87,8 @@ seat seat_pen {
         attach "1386:20666:Wacom_Pen_and_multitouch_sensor_Pen"
         hide_cursor 100
 }
-input "1386:20666:Wacom_Pen_and_multitouch_sensor_Pen" {
-}
+# input "1386:20666:Wacom_Pen_and_multitouch_sensor_Pen" {
+# }
 
 # Drag floating windows by holding down $mod and left mouse button.
 # Resize them with right mouse button + $mod.
