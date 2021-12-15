@@ -81,6 +81,13 @@ input "SynPS/2 Synaptics TouchPad" {
     natural_scroll enabled
     middle_emulation disabled
 }
+input "SynPS/2 Synaptics TouchPad" {
+    dwt enabled
+    tap disabled
+    natural_scroll enabled
+    middle_emulation disabled
+}
+
 1386:20666:Wacom_Pen_and_multitouch_sensor_Pen
 
 # Drag floating windows by holding down $mod and left mouse button.
