@@ -81,7 +81,7 @@ input "SynPS/2 Synaptics TouchPad" {
     natural_scroll enabled
     middle_emulation disabled
 }
-input "SynPS/2 Synaptics TouchPad" {
+input "" {
     dwt enabled
     tap disabled
     natural_scroll enabled
