@@ -7,4 +7,4 @@ ExecStart=$HOME/dotfiles/gitwatch/gitwatch.sh $HOME/workspace
 # Restart=always
 
 [Install]
-WantedBy=xsession.target
+WantedBy=sway.target
