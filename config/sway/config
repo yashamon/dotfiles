@@ -75,16 +75,15 @@ input "3141:32774:SONiX_61_Gaming_Keyboard_Consumer_Control" {
     xkb_options "caps:swapescape,ctrl:swap_rwin_rctl"
 }
 # Touchpad configuration (swaymsg -t get_inputs) 
-input "SynPS/2 Synaptics TouchPad" {
+input "2:7:SynPS/2_Syn
+aptics_TouchPad" {
     dwt enabled
     tap disabled
     natural_scroll enabled
     middle_emulation disabled
 }
-input "1386:20666:Wacom_Pen_and_multitouch_sensor_P
-en" {
+input "1386:20666:Wacom_Pen_and_multitouch_sensor_Pen" {
 }
-
 
 # Drag floating windows by holding down $mod and left mouse button.
 # Resize them with right mouse button + $mod.
