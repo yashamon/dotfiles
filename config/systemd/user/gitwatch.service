@@ -3,7 +3,6 @@ Description=gitwatch
 
 [Service]  
 Environment="SCRIPT_ARGS=%I"
-
 ExecStart=/home/yasha/dotfiles/gitwatch/gitwatch.sh /home/yasha/workspace 
 Restart=always
 
