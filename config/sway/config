@@ -80,7 +80,7 @@ input "2:7:SynPS/2_Synaptics_TouchPad" {
     tap disabled
     natural_scroll disabled
     middle_emulation disabled 
-    click_method="fingers"
+    click_method clickfinger
 }
 input "1386:20666:Wacom_Pen_and_multitouch_sensor_Pen" {
 }
