@@ -179,8 +179,7 @@ if exists('g:started_by_firenvim')
          set noshowcmd
          set lines=100 
          set columns=100
-
- else
+else
   " autocmd VimEnter * TZAtaraxis
  endif
 set timeoutlen=0
