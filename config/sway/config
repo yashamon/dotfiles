@@ -84,7 +84,7 @@ input "2:7:SynPS/2_Synaptics_TouchPad" {
 }
 
 seat seat_pen {
-        attach "1386:20823:Wacom_Pen_and_multitouch_sensor_Pen"
+        attach "1386:20666:Wacom_Pen_and_multitouch_sensor_Pen"
         hide_cursor 100
 }
 input "1386:20666:Wacom_Pen_and_multitouch_sensor_Pen" {
