@@ -174,7 +174,7 @@ set guicursor=n-v-c:block,i-ci-ve:ver25,r-cr:hor20,o:hor50
 set spelllang=en   
 if exists('g:started_by_firenvim')
      autocmd VimEnter    set noshowmode
-         set noruler
+      autocmd VimEnter   set noruler
          set laststatus=0
          set noshowcmd
          set lines=100 
