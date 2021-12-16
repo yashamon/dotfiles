@@ -173,9 +173,9 @@ set guicursor=n-v-c:block,i-ci-ve:ver25,r-cr:hor20,o:hor50
  		  \,sm:block-blinkwait175-blinkoff150-blinkon175
 set spelllang=en   
 if exists('g:started_by_firenvim')
-     autocmd VimEnter    set noshowmode
-     autocmd VimEnter   set noruler
-     autocmd VimEnter  set laststatus=0
+     autocmd VimEnter set noshowmode
+     autocmd VimEnter set noruler
+     autocmd VimEnter set laststatus=0
      autocmd VimEnter set noshowcmd
      autocmd VimEnter set lines=100 
      autocmd VimEnter set columns=100
