@@ -177,8 +177,8 @@ if exists('g:started_by_firenvim')
      autocmd VimEnter   set noruler
      autocmd VimEnter  set laststatus=0
      autocmd VimEnter set noshowcmd
-        autocmd VimEnter set lines=100 
-        autocmd VimEnter set columns=100
+     autocmd VimEnter set lines=100 
+     autocmd VimEnter set columns=100
 else
   " autocmd VimEnter * TZAtaraxis
  endif
