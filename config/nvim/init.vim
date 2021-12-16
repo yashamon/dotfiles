@@ -175,8 +175,8 @@ set spelllang=en
 if exists('g:started_by_firenvim')
      autocmd VimEnter    set noshowmode
       autocmd VimEnter   set noruler
-         set laststatus=0
-         set noshowcmd
+       autocmd VimEnter  set laststatus=0
+        autocmd VimEnter set noshowcmd
          set lines=100 
          set columns=100
 else
