@@ -250,7 +250,7 @@ hi SpellBad gui=underline
 au FileType Makefile set noexpandtab
 au FileType tex,text set spelllang=en
 au FileType tex,text,md set spell   
-function reset()
+function Reset()
 TZAtaraxisOff 
 TZAtaraxisOn
 " colorscheme oceanlight 
