@@ -250,7 +250,7 @@ hi SpellBad gui=underline
 au FileType Makefile set noexpandtab
 au FileType tex,text set spelllang=en
 au FileType tex,text,md set spell   
-function Light()
+function reset()
 set background=light
 " colorscheme oceanlight 
 colorscheme one 
