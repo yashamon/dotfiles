@@ -255,7 +255,7 @@ bindsym --to-code  $mod+Shift+o exec brightnessctl -q set 2%- # decrease screen 
 #Audio controls
 bindsym --to-code $mod+Ctrl+p exec pavucontrol 
 bindcode --to-code $mod+35 exec --no-startup-id pactl set-sink-volume 0 +2% #increase sound volume
-bindsym --to-code  $mod+35exec --no-startup-id pactl set-sink-volume 0 -2% #decrease sound volume
+bindsym --to-code  $mod+34exec --no-startup-id pactl set-sink-volume 0 -2% #decrease sound volume
 
 bindsym --to-code XF86AudioRaiseVolume exec --no-startup-id pactl set-sink-volume 0 +2% #increase sound volume
 bindsym --to-code XF86AudioLowerVolume exec --no-startup-id pactl set-sink-volume 0 -2% #decrease sound volume
