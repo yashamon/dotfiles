@@ -253,10 +253,6 @@ au FileType tex,text,md set spell
 function Reset()
 TZAtaraxisOff 
 TZAtaraxisOn
-" colorscheme oceanlight 
-" highlight Normal ctermfg=black
-" highlight  CursorLine cterm=NONE ctermbg=black ctermfg=none
-" hi MatchParen cterm=underline ctermbg=none ctermfg=magenta
 endfunction   
 
 au FocusGained call Reset()
