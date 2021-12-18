@@ -250,7 +250,7 @@ hi SpellBad gui=underline
 au FileType Makefile set noexpandtab
 au FileType tex,text set spelllang=en
 au FileType tex,text,md set spell  
-au FocusGained :TZAtaraxisOff<cr>:
+au FocusGained TZAtaraxisOff<cr>:
 
 " au FileType vim,md set list
 " au FileType vim,md colorscheme one
