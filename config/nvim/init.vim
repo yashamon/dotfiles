@@ -255,7 +255,7 @@ TZAtaraxisOff
 TZAtaraxisOn
 endfunction   
 au FocusLost call TZAtaraxisOff 
-au FocusLost call TZAtaraxisOff 
+au FocusLost call TZAtaraxisOfn 
 
 " au FileType vim,md set list
 " au FileType vim,md colorscheme one
