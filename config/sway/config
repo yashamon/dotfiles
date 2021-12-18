@@ -372,7 +372,8 @@ output "*" bg ~/Downloads/johannes-plenio-RwHv7LgeC7s-unsplash.jpg fill
 exec  /home/yasha/dotfiles/config/sway/modules/transparency.py 
 exec  sleep 3
 exec  /home/yasha/dotfiles/scripts/rotatesway 
-exec sleep 2
+exec sleep 2 
+
 # exec --no-startup-id /usr/bin/redshift
 
 ### Autostart ### (to fix time - timedatectl set-ntp true)
