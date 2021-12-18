@@ -247,7 +247,7 @@ bindsym --to-code $mod+Shift+7 move container to workspace $ws7
 
 # Sreen brightness controls
 bindsym --to-code $mod+Shift+p exec brightnessctl -q set +2% # increase screen brightness 
-bindcode --to-code $mod+Shift+21 exec brightnessctl -q set +2% # increase screen brightness
+bindcode --to-code $mod++21 exec brightnessctl -q set +2% # increase screen brightness
 bindcode --to-code $mod+Shift+20 exec brightnessctl -q set +2% # increase screen brightness
 
 bindsym --to-code  $mod+Shift+o exec brightnessctl -q set 2%- # decrease screen brightness
@@ -293,11 +293,11 @@ bindsym --to-code $mod+m focus parent
 # You can send windows there and get them back later.
 
 # Move the currently focused window to the scratchpad
-bindsym --to-code $mod+Ctrl+s move scratchpad 
+bindsym --to-code $mod+Ctrl+minus move scratchpad 
 
 # Show the next scratchpad window or hide the focused scratchpad window.
 # If there are multiple scratchpad windows, this command cycles through them.
-bindsym --to-code $mod+Ctrl+minus scratchpad show
+bindsym --to-code $mod+Ctrl+plus scratchpad show
 
 # Resizing containers:
 
