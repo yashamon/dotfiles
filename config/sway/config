@@ -2,7 +2,7 @@
 # Logo key
 set $mod Mod4 
 
- bindsym Mod1+tab exec "~/.config/sway/alttab next; sleep 0.2; swaymsg fullscreen" 
+bindsym Mod1+tab exec "~/.config/sway/alttab next; sleep 0.2; swaymsg fullscreen" 
 # bindsym Mod1+shift+tab exec "~/.config/sway/alttab; sleep 0.2; swaymsg fullscreen"
 
 
