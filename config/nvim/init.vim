@@ -259,7 +259,7 @@ TZAtaraxisOn
 " hi MatchParen cterm=underline ctermbg=none ctermfg=magenta
 endfunction   
 
-au FocusGained TZAtaraxisOn
+au FocusGained call Reset()
 
 " au FileType vim,md set list
 " au FileType vim,md colorscheme one
