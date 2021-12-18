@@ -238,7 +238,7 @@ bindsym --to-code $mod+7 workspace $ws7
 
 # Move focused container to workspace
 bindsym --to-code $mod+Shift+1 move container to workspace $ws1
-indsym --to-code $mod+Shift+2 move container to workspace $ws2
+bindsym --to-code $mod+Shift+2 move container to workspace $ws2
 bindsym --to-code $mod+Shift+3 move container to workspace $ws3
 bindsym --to-code $mod+Shift+4 move container to workspace $ws4
 bindsym --to-code $mod+Shift+5 move container to workspace $ws5
@@ -380,7 +380,7 @@ exec  /home/yasha/dotfiles/config/sway/modules/transparency.py
 exec  sleep 2
 exec  /home/yasha/dotfiles/scripts/rotatesway 
 exec sleep 2 
-exec gammastep
+exec gammastep 
 exec sleep 2
 
 # exec --no-startup-id /usr/bin/redshift
