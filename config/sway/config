@@ -373,7 +373,7 @@ exec  /home/yasha/dotfiles/config/sway/modules/transparency.py
 exec  sleep 2
 exec  /home/yasha/dotfiles/scripts/rotatesway 
 exec sleep 2 
-exec  /home/yasha/dotfiles/scripts/rotatesway 
+exec  
 exec sleep 2
 
 # exec --no-startup-id /usr/bin/redshift
