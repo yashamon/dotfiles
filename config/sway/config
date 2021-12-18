@@ -293,7 +293,7 @@ bindsym --to-code $mod+m focus parent
 # You can send windows there and get them back later.
 
 # Move the currently focused window to the scratchpad
-bindsym --to-code $mod+minus move scratchpad 
+bindsym --to-code $mod+Ctrl+minus move scratchpad 
 
 # Show the next scratchpad window or hide the focused scratchpad window.
 # If there are multiple scratchpad windows, this command cycles through them.
