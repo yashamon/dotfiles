@@ -247,7 +247,7 @@ bindsym --to-code $mod+Shift+7 move container to workspace $ws7
 
 # Sreen brightness controls
 bindsym --to-code $mod+Shift+p exec brightnessctl -q set +2% # increase screen brightness 
-bindsym --to-code $mod+Shift+34 exec brightnessctl -q set +2% # increase screen brightness
+bindsym --to-code $mod+Shift+'34 exec brightnessctl -q set +2% # increase screen brightness
 
 bindsym --to-code  $mod+Shift+o exec brightnessctl -q set 2%- # decrease screen brightness
 
