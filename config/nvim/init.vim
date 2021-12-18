@@ -250,6 +250,14 @@ hi SpellBad gui=underline
 au FileType Makefile set noexpandtab
 au FileType tex,text set spelllang=en
 au FileType tex,text,md set spell   
+function Light()
+set background=light
+" colorscheme oceanlight 
+colorscheme one 
+" highlight Normal ctermfg=black
+" highlight  CursorLine cterm=NONE ctermbg=black ctermfg=none
+" hi MatchParen cterm=underline ctermbg=none ctermfg=magenta
+endfunction   
 
 au FocusGained TZAtaraxisOn
 
