@@ -252,7 +252,7 @@ au FileType tex,text set spelllang=en
 au FileType tex,text,md set spell   
 function reset()
 TZAtaraxisOff 
-TZAtaraxisOff
+TZAtaraxisOn
 
 " colorscheme oceanlight 
 colorscheme one 
