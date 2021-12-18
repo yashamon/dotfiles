@@ -246,8 +246,9 @@ bindsym --to-code $mod+Shift+6 move container to workspace $ws6
 bindsym --to-code $mod+Shift+7 move container to workspace $ws7
 
 # Sreen brightness controls
-bindsym --to-code $mod+Shift+p exec brightnessctl -q set +2% # increase screen brightness
-bindsym --to-code  $mod+Shift+p exec brightnessctl -q set 2%- # decrease screen brightness
+bindsym --to-code $mod+Shift+p exec brightnessctl -q set +2% # increase screen brightness 
+
+bindsym --to-code  $mod+Shift+o exec brightnessctl -q set 2%- # decrease screen brightness
 
 #Audio controls
 bindsym --to-code $mod+Ctrl+p exec pavucontrol
