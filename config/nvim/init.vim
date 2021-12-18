@@ -254,7 +254,9 @@ function Reset()
 TZAtaraxisOff 
 TZAtaraxisOn
 endfunction   
-au FocusLost call TZAtaraxisOff Reset()
+au FocusLost call TZAtaraxisOff 
+au FocusLost call TZAtaraxisOff 
+
 " au FileType vim,md set list
 " au FileType vim,md colorscheme one
 
