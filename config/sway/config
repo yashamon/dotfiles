@@ -436,7 +436,7 @@ bindsym $mod+Delete exec env RUST_BACKTRACE=1 \
     swayr quit-window > /tmp/swayr.log 2>&1
 
 bindsym Mod1+Tab exec "env RUST_BACKTRACE=1 \
-    swayr switch-to-urgent-or-lru-window ; swaymsg fullscreen"
+    swayr switch-to-urgent-or-lru-window ;sleep 1; swaymsg fullscreen"
 
 bindsym $mod+Next exec env RUST_BACKTRACE=1 \
     swayr next-window all-workspaces >> /tmp/swayr.log 2>&2
