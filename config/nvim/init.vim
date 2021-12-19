@@ -200,7 +200,7 @@ set wrap
 set linebreak 
 set formatoptions+=w " set breakat=" "
 " set list  " list disables linebreak
-set textwidth=0
+" set textwidth=0
 set wrapmargin=-1
 set hid
 set autochdir
@@ -578,7 +578,7 @@ function! Sentence()
   " call getchar()
   BLines
 endfunction
-noremap L :lua require("zen-mode").close():call Sentence()<cr>
+noremap L :lua require("zen-mode").close()<cr>:call Sentence()<cr>
 " noremap L :TZAtaraxisOff<cr><cr>:call Sentence()<cr>
 function! Git() 
 AsyncRun -silent if git rev-parse --is-inside-work-tree || git rev- parse --git-dir > /dev/null 2>&1 ; then git add % ; git commit -m -a ; git push --all origin; fi 
