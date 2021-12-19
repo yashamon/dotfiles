@@ -1,5 +1,5 @@
 call plug#begin('~/.vim/plugged')   
-Plug https://github.com/folke/zen-mode.nvim.git
+Plug 'folke/zen-mode.nvim.git
 " Plug 'reedes/vim-pencil' 
 " Plug 'folke/which-key.nvim', { 'branch': 'main' }
 " Plug 'folke/zen-mode.nvim', {  'branch': 'main' } 
