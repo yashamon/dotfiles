@@ -667,7 +667,6 @@ autocmd BufWritePost * call Git()
     " UndoTree {
     " 
 :lua require("zen-mode").open()
-:lua require("zen-mode").close()
 noremap <Leader>u :UndotreeToggle<CR>
         " If undotree is opened, it is likely one wants to interact with it.
         let g:undotree_SetFocusWhenToggle=1
