@@ -500,13 +500,13 @@ map <m-f> :FZF ~<CR>
 
 "miscellaneous
 map :tags  exe ":silent ! /usr/local/bin/ctags -R"
-nmap <leader>g :<CR>
+nmap <leader>g :ZenMode<CR>
 nmap <leader>p :Denite neoyank -default-action=append<CR>
 
 " Latex stuff
 " 
 noremap <leader>ss :source $MYVIMRC<cr> 
-noremap <c-e> viwy:cclose<cr>:<c-r>+<cr>:TZAtaraxis<cr><cr>
+noremap <c-e> viwy:cclose<cr>:<c-r>+<cr>:<cr><cr>
 noremap <c-p> :<c-r>+<cr>
 noremap <m-l> viwy:bdelete<cr>:execute "buffer" g:buf<cr>:<c-r>+<cr>:TZAtaraxis<cr><cr>
 " noremap <m-l> viwy<esc>:bp<cr>:<c-r>+<cr>
