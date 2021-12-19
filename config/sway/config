@@ -454,7 +454,7 @@ bindsym Mod1+tab exec ~/.config/sway/alttab next && swaymsg 'border pixel 3' && 
 
 bindsym Mod1+shift+tab exec ~/.config/sway/alttab previous && swaymsg 'border pixel 3' && sleep $delay && swaymsg 'border pixel 0' && swaymsg fullscreen 
 
-exec R$delayUST_BACKTRACE=1 swayrd > /tmp/swayrd.log 2>&1
+exec R$delayUST_BACKTRACE=1 rd > /tmp/swayrd.log 2>&1
 bindsym $mod+Tab exec env RUST_BACKTRACE=1 \
     swayr switch-window >> /tmp/swayr.log 2>&1 
 bindsym $mod+Delete exec env RUST_BACKTRACE=1 \
