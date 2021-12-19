@@ -1,5 +1,5 @@
 call plug#begin('~/.vim/plugged')   
-Plug 'folke/zen-mode.nvim
+Plug 'folke/zen-mode.nvim'
 " Plug 'reedes/vim-pencil' 
 " Plug 'folke/which-key.nvim', { 'branch': 'main' }
 " Plug 'folke/zen-mode.nvim', {  'branch': 'main' } 
@@ -500,7 +500,7 @@ map <m-f> :FZF ~<CR>
 
 "miscellaneous
 map :tags  exe ":silent ! /usr/local/bin/ctags -R"
-nmap <leader>g :TZAtaraxis<CR>
+nmap <leader>g :<CR>
 nmap <leader>p :Denite neoyank -default-action=append<CR>
 
 " Latex stuff
