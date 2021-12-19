@@ -447,7 +447,7 @@ client.unfocused        $bg     $bg     $fg     $bg       $bg
 # window switch
 bindsym $mod+h exec swaymsg focus left && swaymsg 'border pixel 3' && sleep $delay && swaymsg 'border pixel 0'
 bindsym $mod+j exec swaymsg focus down && swaymsg 'border pixel 3' && sleep $delay && swaymsg 'border pixel 0'
-bindsym $mod+k exec swaymsg focus up && swaymsg 'border pixel 3' && sleep $delay.3 && swaymsg 'border pixel 0'
+bindsym $mod+k exec swaymsg focus up && swaymsg 'border pixel 3' && sleep $delay && swaymsg 'border pixel 0'
 bindsym $mod+l exec swaymsg focus right && swaymsg 'border pixel 3' && sleep .3 && swaymsg 'border pixel 0'
 
 bindsym Mod1+tab exec ~/.config/sway/alttab next && swaymsg 'border pixel 3' && sleep .3 && swaymsg 'border pixel 0' && swaymsg fullscreen 
