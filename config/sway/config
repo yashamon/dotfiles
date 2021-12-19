@@ -429,7 +429,6 @@ exec swayidle -w \
 # Colors
 # Window borders 
 default_border pixel 0 
-#hide_edge_borders smart 
 
 # Set colors
 set $bg #171717
