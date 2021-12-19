@@ -383,7 +383,8 @@ exec  /home/yasha/dotfiles/scripts/rotatesway
 exec sleep 2  
 
 # redshift
-exec wlsunset
+exec gammastep 19:-104
+exec sleep 2
 
 # exec --no-startup-id /usr/bin/redshift
 
