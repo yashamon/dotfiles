@@ -448,7 +448,7 @@ client.unfocused        $bg     $bg     $fg     $bg       $bg
 
 bindsym Mod1+tab exec ~/.config/sway/alttab next && swaymsg 'border pixel 3' && sleep .3 && swaymsg 'border pixel 0' && swaymsg fullscreen 
 
-bindsym Mod1+shift+tab exec ~/.config/sway/alttab previous && $flash && swaymsg fullscreen 
+bindsym Mod1+shift+tab exec ~/.config/sway/alttab previous && swaymsg 'border pixel 3' && sleep .3 && swaymsg 'border pixel 0' && swaymsg fullscreen 
 
 exec env RUST_BACKTRACE=1 swayrd > /tmp/swayrd.log 2>&1
 bindsym $mod+Tab exec env RUST_BACKTRACE=1 \
