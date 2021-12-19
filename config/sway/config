@@ -15,7 +15,7 @@ set $ws6 steam
 set $ws7 7
 set $ws8 8
 set $ws9 9
-set $delay .3
+se  $delay .3
 
 # Locker
 set $locker swaylock-fancy
