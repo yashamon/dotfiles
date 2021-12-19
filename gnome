@@ -7,7 +7,7 @@ dconf write /org/gnome/desktop/wm/keybindings/switch-to-workspace-1 "['<Super>Ho
 dconf write /org/gnome/desktop/wm/keybindings/switch-to-workspace-2 "['<Super>2']"
 dconf write /org/gnome/desktop/wm/keybindings/switch-to-workspace-3 "['<Super>3']"
 dconf write /org/gnome/desktop/wm/keybindings/switch-to-workspace-4 "['<Super>4']"
-dconf write /org/gnome/desktop/wm/keybindings/switch-to-workspace-1 "['<Super>Home', '<Super>1']"
+dconf write /org/gnome/desktop/wm/keybindings/switch-to-workspace-5 "['<Super>Home', '<Super>1']"
 dconf write /org/gnome/desktop/wm/keybindings/switch-to-workspace-2 "['<Super>2']"
 dconf write /org/gnome/desktop/wm/keybindings/switch-to-workspace-3 "['<Super>3']"
 dconf write /org/gnome/desktop/wm/keybindings/switch-to-workspace-4 "['<Super>4']"
