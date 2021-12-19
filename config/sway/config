@@ -431,8 +431,7 @@ exec swayidle -w \
 
 # Set colors
 set $bg #171717
-set $fg #eff1f5
-set $br#FF0000 
+set $fg #eff1f5set $br #FF0000 
 set $ia #232425
 
 
