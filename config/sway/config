@@ -21,7 +21,7 @@ set $locker swaylock-fancy
 
 # Terminal emulator
 set $term kitty
-set $flash=''
+set $flash='swaymsg 'border pixel 3' && sleep .2 && swaymsg 'border pixel 0''
 
 # Application launcher
 set $menu 'wofi -show run' 
