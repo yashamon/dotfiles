@@ -1,5 +1,6 @@
 gsettings set org.gnome.mutter dynamic-workspaces false
-
+gsettings set org.gnome.desktop.peripherals.mouse natural-scroll false
+gsettings set org.gnome.desktop.peripherals.touchpad natural-scroll false
 gsettings set org.gnome.desktop.wm.preferences num-workspaces 9
 gsettings set org.gnome.settings-daemon.plugins.color night-light-enabled true
 gsettings set org.gnome.desktop.input-sources xkb-options"['caps:swapescape']"
