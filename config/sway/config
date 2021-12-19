@@ -425,6 +425,11 @@ exec swayidle -w \
 # client.urgent	            #2f343a	    #900000	    #ffffff	    #900000	    #900000
 # client.placeholder	        #000000	    #0c0c0c	    #ffffff	    #000000	    #0c0c0c  
 
+
+#Colors
+
+
+
 # window switch
 
 bindsym Mod1+tab exec ~/.config/sway/alttab next && swaymsg 'border pixel 3' && sleep .3 && swaymsg 'border pixel 0' && swaymsg fullscreen 
