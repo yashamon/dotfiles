@@ -586,7 +586,7 @@ endfunction
 
 function! ToggleQuickFix()
     if empty(filter(getwininfo(), 'v:val.quickfix'))
-        ZenMode 
+         
         let filename=bufname("%")
         let errors="./buildback/" . filename[:-4]."log"
         exec "cf" errors 
@@ -667,8 +667,7 @@ autocmd BufWritePost * call Git()
     " UndoTree {
     " 
 :lua require("zen-mode").open()
-noremap <Leader>u :lua require("zen-mode").close()<>
-UndotreeToggle<CR>
+noremap <Leader>u :lua require("zen-mode").close()<cr>:UndotreeToggle<CR>
         " If undotree is opened, it is likely one wants to interact with it.
         let g:undotree_SetFocusWhenToggle=1
         noremap <D-z> u
