@@ -441,7 +441,7 @@ client.focused          $br     $br     $fg     $bg       $br
 client.focused_inactive $bg     $bg     $fg     $bg       $bg
 client.unfocused        $bg     $bg     $fg     $bg       $bg
 #client.urgent          $br     $br     $fg     $bg       $br 
-#client.placeholder     $br     $br     $fg     $bg       $br #currently not implemented client background $bg
+     $br     $br     $fg     $bg       $br #currently not implemented client background $bg
 
 
 # window switch
