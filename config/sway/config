@@ -21,6 +21,7 @@ set $locker swaylock-fancy
 
 # Terminal emulator
 set $term kitty
+set $flash=''
 
 # Application launcher
 set $menu 'wofi -show run' 
