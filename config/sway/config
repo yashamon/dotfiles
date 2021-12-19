@@ -427,13 +427,8 @@ client.placeholder	        #000000	    #0c0c0c	    #ffffff	    #000000	    #0c0c
 
 # window switch
 
-
 bindsym Mod1+tab exec "~/.config/sway/alttab next; sleep 0.3; swaymsg fullscreen" 
 bindsym Mod1+shift+tab exec "~/.config/sway/alttab; sleep 0.3; swaymsg fullscreen"
-
-
-
-
 
 exec env RUST_BACKTRACE=1 swayrd > /tmp/swayrd.log 2>&1
 bindsym $mod+Tab exec env RUST_BACKTRACE=1 \
