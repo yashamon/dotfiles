@@ -1,10 +1,10 @@
 ### Variables ###
 # Logo key
 set $mod Mod4 
-set $left h
-set $down j
-set $up k
-set $right l
+# set $left h
+# set $down j
+# set $up k
+# set $right l
 # Workspace names
 set $ws1 ed
 set $ws2 pdf
