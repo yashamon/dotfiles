@@ -1162,7 +1162,6 @@ require('fzf-lua').setup{
 -- ...
 }
 EOF
-
 " lua << EOF
 " require("stabilize").setup(
 " {
