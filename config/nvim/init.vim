@@ -593,7 +593,7 @@ function! ToggleQuickFix()
         copen
     else
         cclose 
-        ZenMode 
+        
         endif
 endfunction
 
