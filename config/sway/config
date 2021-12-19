@@ -435,7 +435,6 @@ set $fg #eff1f5
 set $br #FF0000
 set $ia #232425
 
-
 # class                 border  backgr. text    indicator child_border
 client.focused          $br     $br     $fg     $bg       $br
 client.focused_inactive $bg     $bg     $fg     $bg       $bg
