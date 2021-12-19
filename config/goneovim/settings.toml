@@ -99,7 +99,7 @@ Clipboard = true
 # DisableHorizontalScroll = true
 
 ## Draw border on a float window
-DrawBorderForFloatWindow = true
+DrawBorderForFloatWindow = false
 
 ## Draw shadow under a float window
  # DrawShadowForFloatWindow = true
