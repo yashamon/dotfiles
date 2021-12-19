@@ -418,7 +418,7 @@ exec swayidle -w \
 # }
 include /etc/sway/config.d/*
 #       
-class	            border	    background text	    indicator	child_border			
+
 client.background	        n/a	        #ffffff	    n/a	        n/a	        n/a
 client.focused	            #99644c	    #773e28	    #ffffff	    #99644c	    #773e28
 client.focused_inactive	    #333333	    #5f676a	    #ffffff	    #484e50	    #5f676a
