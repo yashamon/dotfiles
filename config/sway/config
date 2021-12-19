@@ -375,7 +375,7 @@ exec swaymsg input 1386:20666:Wacom_Pen_and_multitouch_sensor_Finger map_to_outp
 exec swaymsg input 1386:20666:Wacom_Pen_and_multitouch_sensor_Pen map_to_output eDP-1
 
 output "*" bg ~/Downloads/johannes-plenio-RwHv7LgeC7s-unsplash.jpg fill
- 
+# transparency and autorotate 
 exec  /home/yasha/dotfiles/config/sway/modules/transparency.py 
 exec  sleep 2
 exec  /home/yasha/dotfiles/scripts/rotatesway 
@@ -437,6 +437,7 @@ bindsym $mod+Delete exec env RUST_BACKTRACE=1 \
 
 # bindsym Mod1+Tab exec "env RUST_BACKTRACE=1 \
 #     swayr switch-to-urgent-or-lru-window ; sleep .1 ; swaymsg fullscreen"
+
 # window switch
 bindsym $mod+Next exec env RUST_BACKTRACE=1 \
     swayr next-window all-workspaces >> /tmp/swayr.log 2>&2
