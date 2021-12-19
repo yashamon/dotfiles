@@ -593,7 +593,7 @@ function! ToggleQuickFix()
         copen
     else
         cclose 
-        
+        ZenMode 
         endif
 endfunction
 
@@ -665,7 +665,7 @@ autocmd BufWritePost * call Git()
     "
     "
     " UndoTree {
-noremap <Leader>u :TZAtaraxisOff<cr>:UndotreeToggle<CR>
+noremap <Leader>u :UndotreeToggle<CR>
         " If undotree is opened, it is likely one wants to interact with it.
         let g:undotree_SetFocusWhenToggle=1
         noremap <D-z> u
