@@ -301,26 +301,26 @@ bindsym --to-code $mod+Ctrl+space scratchpad show
 
 # Resizing containers:
 
-mode "resize" {
-    # left will shrink the containers width
-    # right will grow the containers width
-    # up will shrink the containers height
-    # down will grow the containers height
-    bindsym --to-code $left resize shrink width 10px
-    bindsym --to-code $down resize grow height 10px
-    bindsym --to-code $up resize shrink height 10px
-    bindsym --to-code $right resize grow width 10px
-
-    # Ditto, with arrow keys
-    bindsym --to-code Left resize shrink width 10px
-    bindsym --to-code Down resize grow height 10px
-    bindsym --to-code Up resize shrink height 10px
-    bindsym --to-code Right resize grow width 10px
-
-    # Return to default mode
-    bindsym --to-code Return mode "default"
-    bindsym --to-code Escape mode "default"
-}
+# mode "resize" {
+#     # left will shrink the containers width
+#     # right will grow the containers width
+#     # up will shrink the containers height
+#     # down will grow the containers height
+#     bindsym --to-code $left resize shrink width 10px
+#     bindsym --to-code $down resize grow height 10px
+#     bindsym --to-code $up resize shrink height 10px
+#     bindsym --to-code $right resize grow width 10px
+# 
+#     # Ditto, with arrow keys
+#     bindsym --to-code Left resize shrink width 10px
+#     bindsym --to-code Down resize grow height 10px
+#     bindsym --to-code Up resize shrink height 10px
+#     bindsym --to-code Right resize grow width 10px
+# 
+#     # Return to default mode
+#     bindsym --to-code Return mode "default"
+#     bindsym --to-code Escape mode "default"
+# }
 bindsym --to-code $mod+r mode "resize"
 
 # Sticky window
