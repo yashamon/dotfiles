@@ -443,7 +443,8 @@ client.unfocused        $bg     $bg     $fg     $bg       $bg
 # #client.placeholder     $br     $br     $fg     $bg       $br #currently not implemented
 # client.background $bg
 
-set delay=.3
+set $delay=.3
+
 # window switch
 bindsym $mod+h exec swaymsg focus left && swaymsg 
 'border pixel 3' && sleep $delay && swaymsg 'border pixel 0'
