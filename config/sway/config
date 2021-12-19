@@ -446,7 +446,8 @@ client.unfocused        $bg     $bg     $fg     $bg       $bg
 
 # window switch
 
-bindsym Mod1+tab exec ~/.config/sway/alttab next &&  && swaymsg fullscreen 
+bindsym Mod1+tab exec ~/.config/sway/alttab next && 
+$flash && swaymsg fullscreen 
 
 bindsym Mod1+shift+tab exec ~/.config/sway/alttab previous && $flash && swaymsg fullscreen 
 
