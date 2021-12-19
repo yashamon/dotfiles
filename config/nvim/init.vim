@@ -593,7 +593,7 @@ function! ToggleQuickFix()
         copen
     else
         cclose 
-        :lua require("zen-mode").open()
+        lua require("zen-mode").open()
 :lua require("zen-mode").close()
         endif
 endfunction
