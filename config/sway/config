@@ -436,7 +436,7 @@ set $br #FF0000
 set $ia #232425
 
 # class                 border  backgr. text    indicator child_border
-client.focused          $br     $br     $fg     $bg       $br
+client.focused          $br     $bg     $fg     $bg       $br
 client.focused_inactive $bg     $bg     $fg     $bg       $bg
 client.unfocused        $bg     $bg     $fg     $bg       $bg
 # #client.urgent          $br     $br     $fg     $bg       $br #currently not implemented
