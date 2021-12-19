@@ -1169,6 +1169,7 @@ lua << EOF
     -- refer to the configuration section below
   }
 EOF
+
 " lua << EOF
 " require("stabilize").setup(
 " {
