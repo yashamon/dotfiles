@@ -416,14 +416,14 @@ exec swayidle -w \
 #     gsettings set $gnomeschema cursor-theme 'xcursor-breeze'
 #     gsettings set $gnomeschema font-name 'SF Pro Text Regular 10'
 # }
-include /etc/sway/config.d/*
-#       
-client.background	        n/a	        #ffffff	    n/a	        n/a	        n/a
-client.focused	     #99644c	    #773e28	    #ffffff	    #99644c	    #773e28
-client.focused_inactive	    #333333	    #5f676a	    #ffffff	    #484e50	    #5f676a
-client.unfocused	        #333333	    #222222	    #888888	    #292d2e	    #222222
-client.urgent	            #2f343a	    #900000	    #ffffff	    #900000	    #900000
-client.placeholder	        #000000	    #0c0c0c	    #ffffff	    #000000	    #0c0c0c  
+# include /etc/sway/config.d/*
+# #       
+# client.background	        n/a	        #ffffff	    n/a	        n/a	        n/a
+# client.focused	     #99644c	    #773e28	    #ffffff	    #99644c	    #773e28
+# client.focused_inactive	    #333333	    #5f676a	    #ffffff	    #484e50	    #5f676a
+# client.unfocused	        #333333	    #222222	    #888888	    #292d2e	    #222222
+# client.urgent	            #2f343a	    #900000	    #ffffff	    #900000	    #900000
+# client.placeholder	        #000000	    #0c0c0c	    #ffffff	    #000000	    #0c0c0c  
 
 # window switch
 
