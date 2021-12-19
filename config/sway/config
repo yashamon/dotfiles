@@ -417,7 +417,7 @@ exec swayidle -w \
 #     gsettings set $gnomeschema font-name 'SF Pro Text Regular 10'
 # }
 include /etc/sway/config.d/*
-# Theme colors                                                  #f4692e
+# Theme colors                                           #f4692e
 #       class	            border	    background	text	    indicator	child_border			
 client.background	        n/a	        #ffffff	    n/a	        n/a	        n/a
 client.focused	            #99644c	    #773e28	    #ffffff	    #99644c	    #773e28
