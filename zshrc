@@ -17,7 +17,7 @@ alias mod="xmodmap ~/.Xmodmap"
 alias tmux d="tmux detach" 
 alias svi="/snap/bin/nvim"
 
-alias swrc="cd ~/.config/sway/; nvru config" 
+alias swrc="cd ~/.config/sway/; neo config" 
 alias lfrc="cd ~/.config/lf; nvru lfrc"
 # alias ls="lf" 
 alias texi="pdflatex -file-line-error -synctex=1  -interaction=nonstopmode -recorder" 
