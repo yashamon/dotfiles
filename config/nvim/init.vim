@@ -973,7 +973,7 @@ true_zen.setup({
  		},
  		focus = {
  			margin_of_error = 5,
- 			focus_method = "experimental"
+ 			focus_method = ""
  		},
  	},
  	integrations = {
