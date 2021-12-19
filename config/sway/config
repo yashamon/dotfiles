@@ -200,10 +200,10 @@ bindsym --to-code $mod+Ctrl+Print exec grim -g "$(slurp)" ~/Pictures/screenshots
 bindsym --to-code $mod+Ctrl+Shift+Print exec grim -g "$(swaymsg -t get_tree | jq -r '.. | select(.focused?) | .rect | "\(.x),\(.y) \(.width)x\(.height)"')" ~/Pictures/screenshot-"$(date +%s)".png && notify-send "Screenshot of active window saved to folder"
 
 # Move your focus around
-bindsym --to-code $mod+$left focus left
-bindsym --to-code $mod+$down focus down
-bindsym --to-code $mod+$up focus up
-bindsym --to-code $mod+$right focus right
+# bindsym --to-code $mod+$left focus left
+# bindsym --to-code $mod+$down focus down
+# bindsym --to-code $mod+$up focus up
+# bindsym --to-code $mod+$right focus right
 
 # Or use $mod+[up|down|left|right]
 bindsym --to-code $mod+Left focus left
