@@ -102,7 +102,7 @@ Clipboard = true
 DrawBorderForFloatWindow = false
 
 ## Draw shadow under a float window
-DrawShadowForFloatWindow = true
+# DrawShadowForFloatWindow = true
 
 ## Enable desktop notification settings for nvim messages.
 ## This option works only if `ExtMessages` is enabled.
