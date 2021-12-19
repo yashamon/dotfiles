@@ -429,8 +429,7 @@ exec swayidle -w \
 # Colors
 # Window borders 
 
-# Set colors  
-
+# Set colors 
 set $bg #171717
 set $fg #eff1f5
 set $br #FF0000
