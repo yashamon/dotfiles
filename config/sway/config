@@ -373,7 +373,7 @@ output "*" bg ~/Downloads/johannes-plenio-RwHv7LgeC7s-unsplash.jpg fill
 # transparency and autorotate
 
 exec  /home/yasha/dotfiles/config/sway/modules/transparency.py 
-exec  sleep 2
+exec  sleep 1
 exec  /home/yasha/dotfiles/scripts/rotatesway 
 exec sleep 2  
 
