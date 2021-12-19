@@ -586,7 +586,7 @@ endfunction
 
 function! ToggleQuickFix()
     if empty(filter(getwininfo(), 'v:val.quickfix'))
-        TZAtaraxisOff 
+         
         let filename=bufname("%")
         let errors="./buildback/" . filename[:-4]."log"
         exec "cf" errors 
