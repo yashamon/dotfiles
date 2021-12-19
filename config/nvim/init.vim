@@ -950,7 +950,7 @@ true_zen.setup({
  	},
  	modes = {
  		ataraxis = {
- 			-- left_padding = 20,
+ 			left_padding = 20,
  			-- right_padding = 20,
  			top_padding = 0,
  			bottom_padding = 0,
