@@ -508,7 +508,7 @@ nmap <leader>p :Denite neoyank -default-action=append<CR>
 noremap <leader>ss :source $MYVIMRC<cr> 
 noremap <c-e> viwy:cclose<cr>:<c-r>+<cr>:ZenMode<cr><cr>
 noremap <c-p> :<c-r>+<cr>
-noremap <m-l> viwy:bdelete<cr>:execute "buffer" g:buf<cr>:<c-r>+<cr>:<cr><cr>
+noremap <m-l> viwy:bdelete<cr>:execute "buffer" g:buf<cr>:<c-r>+<cr>:ZenMode<cr><cr>
 " noremap <m-l> viwy<esc>:bp<cr>:<c-r>+<cr>
 
 
@@ -578,7 +578,7 @@ function! Sentence()
   " call getchar()
   BLines
 endfunction
-noremap L :TZAtaraxisOff<cr><cr>:call Sentence()<cr>
+noremap L :<cr><cr>:call Sentence()<cr>
 " noremap L :TZAtaraxisOff<cr><cr>:call Sentence()<cr>
 function! Git() 
 AsyncRun -silent if git rev-parse --is-inside-work-tree || git rev- parse --git-dir > /dev/null 2>&1 ; then git add % ; git commit -m -a ; git push --all origin; fi 
