@@ -375,11 +375,14 @@ exec swaymsg input 1386:20666:Wacom_Pen_and_multitouch_sensor_Finger map_to_outp
 exec swaymsg input 1386:20666:Wacom_Pen_and_multitouch_sensor_Pen map_to_output eDP-1
 
 output "*" bg ~/Downloads/johannes-plenio-RwHv7LgeC7s-unsplash.jpg fill
-# transparency and autorotate 
+# transparency and autorotate
+
 exec  /home/yasha/dotfiles/config/sway/modules/transparency.py 
 exec  sleep 2
 exec  /home/yasha/dotfiles/scripts/rotatesway 
-exec sleep 2 
+exec sleep 2  
+
+# redshift
 exec gammastep 19:-104
 exec sleep 2
 
