@@ -647,7 +647,7 @@ nmap <leader>m :w<cr>:silent ! cat % >> ~/workspace/email.txt; cp % /tmp/temp; m
 " let g:updatetime = 10000
 let g:auto_save = 1
 " .vimrc
-let g:auto_save_events = ["CursorHold"]
+" let g:auto_save_events = ["CursorHold"]
 "au FileType vim let g:autosave = 0
 let g:auto_save_in_insert_mode = 0
 let g:auto_save_silent = 1
