@@ -31,7 +31,7 @@ Plug 'Pocco81/TrueZen.nvim', { 'branch': 'main' }
 "Plug 'vim-commentary'
 "Plug 'b3nj5m1n/kommentary'
 " Plug 'simnalamburt/vim-mundo'
-Plug 'neovim/nvim-lspconfig',  { 'branch': 'main' } 
+" Plug 'neovim/nvim-lspconfig',  { 'branch': 'main' } 
 " Plug 'glepnir/lspsaga.nvim'
 " If you are using Vim-Plug
 Plug 'hrsh7th/cmp-nvim-lsp', { 'branch': 'main' } 
@@ -117,7 +117,7 @@ Plug 'mbbill/undotree', { 'on': 'UndotreeToggle' }
  '}
 Plug 'lifepillar/vim-solarized8'
 Plug 'vim-scripts/AutoTag'
-" Plug 'vim-scripts/vim-auto-save'
+Plug 'vim-scripts/vim-auto-save'
 " Plug 'vim-pandoc/vim-pandoc'
 
 " Plug 'yashamon/vim-snippets'
@@ -647,7 +647,7 @@ nmap <leader>m :w<cr>:silent ! cat % >> ~/workspace/email.txt; cp % /tmp/temp; m
 " let g:updatetime = 10000
 let g:auto_save = 1
 " .vimrc
-" let g:auto_save_events = ["CursorHold"]
+let g:auto_save_events = ["CursorHold"]
 "au FileType vim let g:autosave = 0
 let g:auto_save_in_insert_mode = 0
 let g:auto_save_silent = 1
