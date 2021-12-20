@@ -662,8 +662,10 @@ autocmd BufWritePost * call Git()
 " hi MatchParen cterm=underline ctermbg=none ctermfg=none
 " hi MatchParen guibg=NONE guifg=green gui=NONE
     "
-    " 
-    " UndoTree {
+    "  
+    "  
+    "  
+" UndoTree {
     
 noremap <Leader>u :lua require("zen-mode").close()<cr>:UndotreeToggle<CR>
         " If undotree is opened, it is likely one wants to interact with it.
