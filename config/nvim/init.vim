@@ -662,8 +662,7 @@ autocmd BufWritePost * call Git()
 " hi MatchParen cterm=underline ctermbg=none ctermfg=none
 " hi MatchParen guibg=NONE guifg=green gui=NONE
     "
-    "
-    "
+    " 
     " UndoTree {
     
 noremap <Leader>u :lua require("zen-mode").close()<cr>:UndotreeToggle<CR>
