@@ -117,7 +117,7 @@ Plug 'mbbill/undotree', { 'on': 'UndotreeToggle' }
  '}
 Plug 'lifepillar/vim-solarized8'
 Plug 'vim-scripts/AutoTag'
-Plug 'vim-scripts/vim-auto-save'
+" Plug 'vim-scripts/vim-auto-save'
 " Plug 'vim-pandoc/vim-pandoc'
 
 " Plug 'yashamon/vim-snippets'
