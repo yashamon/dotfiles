@@ -71,7 +71,6 @@ git config --global core.excludesfile gitignore_global
 git status --ignored
 trash-empty
 sudo trash-empty
-trash-list
 $ ranger --copy-config=all
 ranger --copy-config=all
 RANGER_LOAD_DEFAULT_RC=FALSE
@@ -105,7 +104,6 @@ setxkbmap -option "ctrl:swap_rwin_rctl" &modmap
 setxkbmap -option "ctrl:swap_rwin_rctl" &
 setxkbmap -option "ctrl:swap_rwin_rctl"
 setxkbmap -option "caps:swapescape"
-asdf
 ./keys
 neo keys
 trash-restore
@@ -131,7 +129,6 @@ netctl disable Paco
 sudo netctl disable Paco
 sudo netctl disable Yasha
 paru -S i3status
-exit
 exec sway
 paru -S waybar
 paru -S fontawesome
@@ -140,7 +137,6 @@ sudo paru -S ttf-font-awesome
 sudo paru -Ss ttf-font-cantarell
 sudo paru -Ss cantarell
 ynPS/2 Synaptics TouchPad
-paru -S i3ipc-python
 python transparency.py
 feh --bgscale ~/Downloads/johannes-plenio-RwHv7LgeC7s-unsplash.jpGYTHON TRANSPARENCY.PY
 vi ~/.xinitrc
@@ -198,8 +194,6 @@ startup
 swaymsg -t get_outputs
 redshift
 \
-
-\
 swaymsg input 1386:20666:Wacom_Pen_and_multitouch_sensor_Pen map_to_output eDP-1
 \
 swaymsg input 1386:20666:Wacom_Pen_and_multitouch_sensor_Finger map_to_output eDP-1\
@@ -221,7 +215,6 @@ ip link set wlan0 up
 sudo ip link set wlan0 up
 systemctl start netctl-auto@wpl0.service
 sudo dhclient
-/home/yasha/dotfiles/config/sway/modules/transparency.py
 transparency.py
 python /home/yasha/dotfiles/config/sway/modules/transparency.py
 wezterm
@@ -230,10 +223,8 @@ fasd
 which nvr.sh
 wl-paste
 kitty
-alacritty
 \
 export ZSH_SYSTEM_CLIPBOARD_USE_WL_CLIPBOARD=true
-nvim ~/.zshrc
 nvr
 neo config
 j conflf
@@ -322,7 +313,6 @@ sudo paru -Ss google-chrome
 sudo paru -R google-chrome-dev
 sudo paru -S google-chrome-dev
 google-chrome-unstable
-sudo nvim firefox.desktop
 export MOZ_ENABLE_WAYLAND=1 firefox
 which firefox
 paru -S google-chrome-dev
@@ -346,10 +336,8 @@ paru -Rsc
 paru -Rsc yofi
 paru -S yofi-bin
 nvim goneovim.desktop
-which goneovim
 sudo nvim fox.desktop
 desktop-file-validate fox.desktop
-sudo nvim goneovim.desktop
 desktop-file-validate goneovim.desktop
 goneovim ~/.zshrc
 XDG_CACHE_HOME:-$HOME/.
@@ -366,7 +354,6 @@ fox
 yofi
 swaymsg fullscreen
 exec ~/.config/sway/alttab next; swaymsg fullscreen
-xlsclients
 paru -Ss firefox-nightly
 sudo vifm
 cd /etc/pacman.d
@@ -382,7 +369,6 @@ paru -S gitk
 paru -Ss git
 paru -Ss git | nightly
 paru -Ss gitk | nightly
-paru -S river
 reboot
 xmonad --recompile
 res
@@ -390,7 +376,6 @@ keys
 paru -S swaylock
 paru -S swaylock-fancy
 systemctl disable gdm
-river
 sway
 systemctl enable gdm
 systemctl start gdm
@@ -496,7 +481,6 @@ paru -S lf
 paru -Ss lf-bin
 paru -Ss lf-bin | grep installed
 sudo pacman -R lf
-j /home/yasha/Downloads
 sudo paru -S lf-git
 paru -S lf-git
 paru -Ss lf-git | grep installed
@@ -504,7 +488,6 @@ yay -Ss lf-git | grep installed
 sudo pacman -Rs xterm vim chromium
 sudo pacman -Rs tigervnc
 paru -S neovide-git
-which neovide
 neov blah.tex
 paru -S fraps
 paru -Ss fraps
@@ -513,7 +496,6 @@ virtualbox
 paru -S swayr
 wifi
 paru -S wofi
-wofi
 swayr next-window
 swayr next-window-of-same-layout current-workspace
 swayr next-window current-workspace
@@ -522,7 +504,6 @@ swayr next-floating-window
 swayr next-floating-window current-workspace
 swayr next-full-screen-window current-workspace
 swayr switch-window current-workspace
-paru -S hikari
 lfrf
 j /etc/netctl
 zinit update
@@ -536,10 +517,6 @@ touch blah
 rm -rf '\'
 vi blah
 neo letterCarlosV.tex
-j /home/yasha/workspace
-swaymsg -t get_tree
-neovide
-neov
 if nvr init.vim --servername $(<~/servername.txt) --remote-silent; then goneovim init.vim
 if nvr init.vim --servername $(<~/servername.txt) --remote-silent; then goneovim init.vim; fi
 if [nvr init.vim --servername $(<~/servername.txt) --remote-silent] goneovim init.vim
@@ -558,7 +535,6 @@ help nvr
 nvr --help
 neo \
 : 1638473807:0;neo
-cd ~
 nvim blah
 j /home/yasha/.config/nvim
 j /home/yasha/.config/nvim2
@@ -572,11 +548,9 @@ latexmk -pvc -file-line-error -synctex=1 -interaction=nonstopmode -recorder kan.
 latexmk -pvc -file-line-error -synctex=1 -interaction=nonstopmode -recorder -f kan.tex
 j nvim
 nvru init.vim
-which nvr
 latexmk -pvc -file-line-error -synctex=1 -interaction=nonstopmode -recorder -f -g kan.tex
 pdflatex kan.tex
 nvru latexmkrc
-zrc
 nvim zshrc
 src
 which nvru
@@ -595,7 +569,6 @@ gitk
 lualatex -halt-on-error -synctex=1 -file-line-error -jobname=backup.pdf kan.tex
 \
 lualatex -halt-on-error -synctex=1 -file-line-error -output-directory=build -jobname=backup.pdf kan.tex
-j /home/yasha/dotfiles
 echo $?
 lualatex -halt-on-error -synctex=1 -file-line-error -output-directory=build -jobname=backup kan.tex
 lualatexscript kan.tex
@@ -613,7 +586,6 @@ nvr.sh 50 kan.tex
 nvr.sh +50 kan.tex
 nvr.sh +100 kan.tex
 nvr.sh +300 kan.tex
-vrc
 latexmk -pvc -halt-on-error -synctex=1 -file-line-error -gg kan.tex
 nvim kan.tex
 sioyek kan.pdf
@@ -624,49 +596,33 @@ j /home/yasha/workspacemodules/fukaya
 latexmk -pvc -halt-on-error -synctex=1 -file-line-error -gg fukayaII.tex
 pdf fukayaII.pdf
 web
-wev
 j /home/yasha/neovide
 firefox
-firefox-nightly
 hw
-which nvim
 paru -Ss neovim
 paru -Ss neovim-git
 paru -Ss neovim-nightly
-nvim
 paru -Syu neovim-nightly-bin
 paru -S vim
 vim
 git checkout -b correctionDec11
 pdf kan.pdf
-netctl status Paco
-goneovim
 netctl stop Paco
 netctl start Yasha
-ping
-netctl start Paco
-git pull
 paru -Syu
-git checkout master
 git branch
 git pull origin correctionDec11
-push
-git status
 pip3 install neovim-remote
 neo stableconsistency.tex
 j /home/yasha/workspacemodules/thematrix
 pdf stableconsistency.pdf
 git checkout -b Dec132021
 paru -Syu firefox-nightly
-htop
 gpg --keyserver hkp://pgp.mit.edu --search-keys BBBEBDBB24C6F355
 gpg -v --search-keys BBBEBDBB24C6F355
 gpg -v --search-keys bbbebdbb24c6f355
 gpg -v --search-keys EBE41E90F6F12F6D
 cd /home/yasha/.gnupg
-ls
-bash
-paru -S firefox-nightly
 chmod +x firefox-95.0.r20211129150630-x86_64.AppImage
 uapp
 j /home/yasha/appimage
@@ -677,10 +633,6 @@ mv firefox* firefox-nightly
 cd /usr/sbin
 rm firefox-nightly
 sudo rm firefox-nightly
-sudo lf
-which firefox-nightly
-neo
-cd ..
 neo kan.tex
 j /home/yasha/workspacemodules/novikov
 cd build
@@ -689,55 +641,381 @@ j web
 j exams
 \
 swaynag --layer overlay -t mtype -m 'You pressed the exit shortcut. What do you want?' -b 'Poweroff' 'systemctl poweroff' -b 'Reboot' 'systemctl reboot' -b 'Sleep' 'systemctl suspend' -b 'Logout' 'swaymsg exit'
-lf
 swaymsg -t get_inputs
-: 1639593983:0;lf
-: 1639594503:0;paru -S xournal
-: 1639595549:0;paru -R xournal
-: 1639595562:0;paru -S xournal-gtk3-git
-: 1639595772:0;paru -Ss xournalpp
-: 1639595782:0;paru -S xournalpp
-: 1639595800:0;xournalpp
-: 1639596759:0;lf
-: 1639600520:0;xournalpp
-: 1639600532:0;xev
-: 1639600539:0;wev
-: 1639600652:0;libinput list
-: 1639600657:0;libinput
-: 1639600670:0;libinput list-devices
-: 1639600674:0;sudo libinput list-devices
-: 1639600785:0;libinput
-: 1639600886:0;libinput restart
-: 1639600905:0;xournalpp
-: 1639602933:0;j /home/yasha/dotfiles
-: 1639602934:0;lf
-: 1639602990:0;git checkout master
-: 1639602993:0;git pull
-: 1639603028:0;lf
-: 1639603931:0;$HOME/dotfiles/gitwatch $HOME/workspace
-: 1639603946:0;j /home/yasha/dotfiles
-: 1639603951:0;gitwatch
-: 1639603958:0;ls
-: 1639603968:0;$HOME/dotfiles/gitwatch/gitwatch.sh $HOME/workspace
-: 1639604224:0;systemctl user start gitwatch.service
-: 1639604229:0;systemctl --user start gitwatch.service
-: 1639604257:0;systemctl --user status gitwatch.service
-: 1639604349:0;systemctl --user start gitwatch.service
-: 1639604355:0;systemctl --user status gitwatch.service
-: 1639604369:0;$HOME/dotfiles/gitwatch/gitwatch.sh $HOME/workspace
-: 1639604689:0;systemctl --user start gitwatch.service
-: 1639604693:0;systemctl --user status gitwatch.service
-: 1639604703:0;systemctl --user enable gitwatch.service
-: 1639605382:0;j /home/yasha/workspace
-: 1639605387:0;lf
-: 1639605402:0;git status
-: 1639605427:0;push
-: 1639605440:0;git status
-: 1639605454:0;cd ..
-: 1639605455:0;git status
-: 1639605457:0;push
-: 1639605469:0;git status
-: 1639605491:0;lf
-: 1639605559:0;git status
-: 1639605643:0;j /home/yasha/dotfiles
-: 1639605647:0;push
+paru -S xournal
+paru -R xournal
+paru -S xournal-gtk3-git
+paru -Ss xournalpp
+paru -S xournalpp
+libinput list
+libinput list-devices
+sudo libinput list-devices
+libinput
+libinput restart
+xournalpp
+git checkout master
+git pull
+$HOME/dotfiles/gitwatch $HOME/workspace
+gitwatch
+systemctl user start gitwatch.service
+$HOME/dotfiles/gitwatch/gitwatch.sh $HOME/workspace
+systemctl --user start gitwatch.service
+systemctl --user status gitwatch.service
+git status
+j /home/yasha/dotfiles
+push
+gitwatch.sh -r
+gitwatch.sh
+./gitwatch.sh
+systemctl --user stop gitwatch@.service
+j /home/yasha/workspace
+/home/yasha/dotfiles/gitwatch/gitwatch.sh -r origin /home/yasha/workspace
+git push origin
+systemctl --user disable gitwatch@.service
+systemctl --user disable gitwatch.service
+systemctl --user enable gitwatch.service
+cd ~
+which nvr
+neo settings.xml
+neo blah.tex
+j /home/yasha/dotfiles/config/xournalpp
+nvru settings.xml
+\
+exec /home/yasha/dotfiles/scripts/rotatesway
+paru -S i3ipc-python
+paru -R i3ipc-python
+paru -R i3ipc-python-git
+i3ipc
+pip3 install i3ipc
+/home/yasha/dotfiles/config/sway/modules/transparency.py
+killall firefox
+killall firefox-nightly
+sudo neo goneovim.desktop
+which goneovim
+paru -S sway | grep installed
+paru -Ss sway | grep installed
+paru -R hikari
+paru -Syu sway-git
+paru -Ss sway
+paru -R river-git
+which firefox-nightly
+firefox-nightly
+netctl start Paco
+netctl status Paco
+ping
+paru -S sway-alt-tab-bin
+pacman -S sway
+sudo pacman -S sway
+pacman -S meson
+pacman -Ss meson
+paru -Rs sway
+paru -Rc sway
+cd /usr/share/applications
+sudo cp sway.desktop swayback.desktop
+paru -S sway-alttab-bin
+paru -R sway
+which sway
+chmod +x sway-1.6.1
+./sway-1.6.1
+paru -S sway-git
+paru -Rsc sway
+paru -S sway
+sudo cp google-chrome-unstable.desktop firefox.desktop
+/home/yasha/binaries/firefox/firefox
+desktop-file-validate firefox.desktop
+desktop-file-validate google-chrome-unstable.desktop
+mv google-chrome-unstable.desktop blahgoogle.desktop
+sudo mv google-chrome-unstable.desktop blahgoogle.desktop
+sudo neo firefox.desktop
+sudo nvim firefox.desktop
+paru -S firefox-nightly
+paru -R firefox-nightly
+desktop-file-validate firefox-nightly.desktop
+feh default64.png
+feh default128.png
+feh /home/yasha/binaries/firefox/browser/chrome/icons/default/default128.png
+paru -S autotiling-git
+autotiling -e
+autotiling -e tall
+autotiling -events
+paru -S river
+paru -S foot
+neo $HOME/.config/river/init
+river
+paru -S qtile
+gpg --recv-keys 5DE3E0509C47EA3CF04A42D34AEE18F83AFDEB23
+paru -S vivarium
+ASDF
+EXIT
+systemctl logout
+htop
+paru -S gammastep
+paru -S brightnessctl
+brightnessctl -q set 2%-
+sudo nvim
+sudo nvim /etc/geoclue/geoclue.conf
+gammastep
+paru -S geoclue
+geoclue
+which geoclue
+geo2
+paru -R geoclue
+geoclue2
+sudo gammastep
+gammastep -h
+gammastep -l 19, -104
+gammastep -l list
+gammastep -l geoclue2
+gammastep -l 19:-104
+autotiling -h
+autotiling --events
+autotiling
+\
+
+run-help test
+test
+swaymsg show scratchpad
+scratchpad show
+swaymsg scratchpad show
+asdf
+gsettings set org.gnome.shell.app-switcher current-workspace-only true
+gsettings set org.gnome.desktop.input-sources xkb-options "['caps:esc']"
+run-help gsettings
+gsettings set org.gnome.desktop.input-sources xkb-options "['caps:escape']"
+gsettings set org.gnome.desktop.input-sources xkb-options"['caps:swapescape']"
+bash
+env RUST_BACKTRACE=1 swayr switch-to-urgent-or-lru-window \swaymsg fullscreen
+env RUST_BACKTRACE=1 swayr switch-to-urgent-or-lru-window
+paru -S hikari
+env RUST_BACKTRACE=1 swayr switch-window >> /tmp/swayr.log 2>&1 ; swaymsg fullscreen
+env RUST_BACKTRACE=1 swayr switch-to-urgent-or-lru-window ; swaymsg fullscreen
+env RUST_BACKTRACE=1 swayr switch-to-urgent-or-lru-window ; sleep .1 ; swaymsg fullscreen
+swayr next-window all-workspaces
+paru -R wayfire
+sudo pacman -S wayfire
+paru -S wayfire
+exit
+wayfire
+systemctl reboot
+vrc
+git clone https://github.com/WayfireWM/wayfire-plugins-extra && cd wayfire-plugins-extra\
+meson build --prefix=/usr --buildtype=release\
+ninja -C build && sudo ninja -C build install
+gsettings set org.gnome.settings-daemon.plugins.color night-light-enabled true
+paru -R vifm
+paru R xplr
+paru -R xplr
+paru -R nnn
+gsettings set org.gnome.mutter dynamic-workspaces false\
+gsettings set org.gnome.desktop.wm.preferences num-workspaces 4
+gsettings set org.gnome.mutter dynamic-workspaces false\
+gsettings set org.gnome.desktop.wm.preferences num-workspaces 9
+dconf write /org/gnome/desktop/wm/keybindings/switch-to-workspace-1 "['<Super>Home', '<Super>1']"\
+dconf write /org/gnome/desktop/wm/keybindings/switch-to-workspace-2 "['<Super>2']"\
+dconf write /org/gnome/desktop/wm/keybindings/switch-to-workspace-3 "['<Super>3']"\
+dconf write /org/gnome/desktop/wm/keybindings/switch-to-workspace-4 "['<Super>4']"
+nvim -NORC
+nvim -U NORC
+nvim -f
+nvim -h
+wofi
+paru -R nvim
+pacman -R nvim
+sudo pacman -R nvim
+sudo pacman -R neovim
+fd bin/nvim
+fd / bin/nvim
+sudo rm /etc/xdg/nvim/sysinit.vim
+sudo nvim goneovim.desktop
+sudo nvim /etc/profile
+zrc
+nvim ~/.config/nvim/init.vim
+nvim ~/.zshrc
+nvim --noplugin
+python3 gcuts 'open kitty' 'kitty' '<Super><Enter>'
+python3 gcuts 'open kitty' 'kitty' '<Alt>7'
+python3 gcuts 'open goneovim' 'goneovim' '<Super>n'
+dconf write /org/gnome/desktop/wm/keybindings/switch-to-workspace-0 "['<Super>Home', '<Super>0']"
+dconf write /org/gnome/desktop/wm/keybindings/switch-to-workspace-1 "['<Super>Home', '<Super>1']"
+dconf write /org/gnome/desktop/wm/keybindings/switch-to-workspace-1 "['<Super>Home', '<Super>9']"
+dconf write /org/gnome/desktop/wm/keybindings/switch-to-workspace-1 "['<Super>1']"
+dconf write /org/gnome/desktop/wm/keybindings/switch-to-workspace-2 "['<Super>2']"
+dconf write /org/gnome/desktop/wm/keybindings/switch-to-workspace-2 "['<Super>Home', '<Super>2']"
+dconf write /org/gnome/desktop/wm/keybindings/switch-to-workspace-6 "['<Super>Home', '<Super>6']"
+dconf write /org/gnome/desktop/wm/keybindings/switch-to-workspace-6 "['<Super>6']"
+\
+exec gammastep 19:-104
+paru -S wlsunset-git
+wlsunset
+paru -R gammastep
+paru -Rc kwin
+paru -S kwin
+paru -Rsc kwin
+wlsunset -h
+export QT_WAYLAND_FORCE_DPI=physical
+QT_QPA_PLATFORM=wayland goneovim
+j /home/yasha/.local/bin
+trash-cli list
+trash-list
+trash-list | grep neovide
+trash-list | grep goneovim
+trash-restore goneovim
+./goneovim
+which neovide
+goneovim -platform wayland
+alacritty
+paru -S xwinfo
+paru -S xeyes
+xwinfo -h
+xwinfo
+paru -S inkscape
+inkscape
+xlsclients
+Arch Linux: yay -S gnome-shell-extension-material-shell-git
+paru -S gnome-shell-extension-material-shell-git
+gnome-extensions enable material-shell@papyelgringo
+gnome-extensions disable material-shell@papyelgringo
+swayr switch workspace
+swayr switch-workspace
+paru -S flashfocus-git
+flashfocus
+~/.config/sway/alttab next && swaymsg 'border pixel 3' && sleep .3 && swaymsg 'border pixel 0 && swaymsg fullscreen
+swaymsg 'border pixel 3'
+paru -S chrome-gnome-shell-git
+swaymsg -t get_tree
+sudo lf
+/usr/local/bin/nvim
+paru -Ss qt
+export QT_QPA_PLATFORM=wayland
+echo QT_QPA_PLATFORM
+echo $QT_QPA_PLATFORM
+j /home/yasha/Downloads
+buildgoneovim
+foot
+cd $GOPATH/src/github.com/akiyosi/goneovim
+export GO111MODULE=off; go get -v github.com/therecipe/qt/cmd/...
+ls
+sudo rm /tmp/kitty_scrollback_buffer
+neo /tmp/kitty_scrollback_buffer
+neovide
+$(go env GOPATH)/bin/qtsetup -test=false
+go get -d github.com/akiyosi/goneovim/...
+cd $GOPATH/src/github.com/akiyosi/goneovim\
+$(go env GOPATH)/bin/qtmoc
+cd $GOPATH/srv/github.com/akiyosi/goneovim
+cd /home/yasha/src/github.com/akiyosi/goneovim
+echo $GOPATH
+$(go env GOPATH)/bin/qtmoc
+\
+go test github.com/akiyosi/goneovim/editor
+cd $GOPATH/src/github.com/akiyosi/goneovim/cmd/goneovim\
+$(go env GOPATH)/bin/qtdeploy build desktop
+which qtdeploy
+chmod +x deploy/linux/goneovim
+sudo $(go env GOPATH)/bin/qtdeploy build desktop
+cd deploy
+cd linux
+chmod +x goneovim
+cd ..
+$(go env GOPATH)/bin/qtdeploy build desktop
+goneovim
+wev
+gsettings set org.gnome.desktop.peripherals.mouse natural-scroll false\
+gsettings set org.gnome.desktop.peripherals.touchpad natural-scroll false
+lf
+xev
+paru -S gnome-tweak-tool
+paru -S gnome-shell
+paru -S gnome-extra
+gsettings get org.gnome.shell enabled-extensions
+paru -S gnome-control-center
+dconf dump / > dconf-settings.ini
+neo dconf-settings.ini
+dconf write /org/gnome/desktop/wm/keybindings/switch-to-workspace-5 "['<Super>Home', '<Super>5']"
+dconf write /org/gnome/desktop/wm/keybindings/switch-to-workspace-5 "['<Super>5']"
+dconf write /org/gnome/desktop/wm/keybindings/switch-to-workspace-8 "['<Super>Home', '<Super>8']"
+dconf write /org/gnome/desktop/wm/keybindings/switch-to-workspace-7 "['<Super>Home', '<Super>7']"
+dconf write /org/gnome/desktop/wm/keybindings/switch-to-workspace-3 "['<Super>Home', '<Super>3']"
+dconf write /org/gnome/desktop/wm/keybindings/switch-to-workspace-7 "['<Super>7']"
+dconf write /org/gnome/desktop/wm/keybindings/switch-to-workspace-8 "['<Super>8']"
+neo
+neov
+which nvim
+nvim
+: 1639949221:0;lf
+: 1639949494:0;gsettings set org.gnome.desktop.input-sources xkb-options "['ctrl:swap_rwin_rctl']"
+: 1639949546:0;gsettings set org.gnome.desktop.input-sources xkb-options"['caps:swapescape']"
+: 1639949572:0;gsettings set org.gnome.desktop.input-sources xkb-options "['caps:escape']"
+: 1639949624:0;gsettings set org.gnome.desktop.input-sources xkb-options "['caps:escape, ctrl:swap_rwin_rctl']"
+: 1639949728:0;dconf write /org/gnome/desktop/wm/keybindings/switch-to-workspace-1 "['<Super>1']"
+: 1639949782:0;dconf write /org/gnome/desktop/wm/keybindings/switch-to-workspace-1 "['<Super>Home', '<Super>1']"
+: 1639949916:0;dconf write /org/gnome/desktop/wm/keybindings/switch-to-workspace-1 "['<rctl>1']"
+: 1639949983:0;dconf write /org/gnome/desktop/wm/keybindings/switch-to-workspace-1 "['<rctl>']"
+: 1639950012:0;dconf write /org/gnome/desktop/wm/keybindings/switch-to-workspace-1 "['<rctl>1']"
+: 1639950027:0;dconf write /org/gnome/desktop/wm/keybindings/switch-to-workspace-7 "['<rctl>7']"
+: 1639950065:0;dconf write /org/gnome/desktop/wm/keybindings/switch-to-workspace-3 "['<rctl>3']"
+: 1639950106:0;dconf write /org/gnome/desktop/wm/keybindings/switch-to-workspace-l "['<rctl>3']"
+: 1639950352:0;dconf write /org/gnome/desktop/wm/keybindings/switch-to-workspace-7 "['<rctl>7']"
+: 1639950472:0;dconf dump / > /home/yasha/dotfiles/dconf-settings.ini
+: 1639950520:0;lf
+: 1639950716:0;dconf load / < dconf-settings.ini
+: 1639950777:0;xev
+: 1639950999:0;gsettings set org.gnome.mutter auto-maximize true
+: 1639951023:0;gsettings set org.gnome.mutter auto-fullscreen true
+: 1639951031:0;gsettings set org.gnome.mutter auto-full-screen true
+: 1639952896:0;udevadm monitor --property
+: 1639954423:0;sudo nvim /etc/udev/rules.d/99-lowbat.rules
+: 1639955038:0;kitty -h
+: 1639955207:0;lf
+: 1640007474:0;nvim
+: 1640007781:0;vrc
+: 1640007819:0;vrcv
+: 1640007821:0;vrc
+: 1640007830:0;nvim
+: 1640007939:0;lf
+: 1640008092:0;sudo lf
+: 1640008154:0;cd /tmp
+: 1640008155:0;ls
+: 1640008179:0;rm -rf /tmp/*
+: 1640008185:0;sudo rm -rf /tmp/*
+: 1640008191:0;nvim
+: 1640008215:0;which nvim
+: 1640008226:0;nvim
+: 1640008273:0;lf
+: 1640008385:0;cd ~
+: 1640008387:0;nvim
+: 1640008426:0;nvim -U NORC
+: 1640008634:0;pacman -S neovim
+: 1640008639:0;sudo pacman -S neovim
+: 1640008690:0;paru -S neovim-nightly-bin
+: 1640008715:0;paru -Rs neovim-nightly-bin
+: 1640008729:0;paru -Rs neovide-git
+: 1640008734:0;paru -S neovim-nightly-bin
+: 1640008760:0;sudo pacman -S neovim
+: 1640008785:0;/usr/local/bin/nvim
+: 1640008816:0;/usr/local/bin/nvim -U NORC
+: 1640008877:0;nvim -none
+: 1640008887:0;nvim -U none
+: 1640008918:0;nvim -u NONE
+: 1640008952:0;/usr/local/bin/nvim -u NONE
+: 1640008963:0;nvim -u NONE
+: 1640008995:0;vrc
+: 1640009010:0;nvim
+: 1640009026:0;vrc
+: 1640009087:0;nvim
+: 1640009162:0;vrc
+: 1640009247:0;nvim
+: 1640009270:0;vrc
+: 1640010870:0;nvim -V10nvim.log
+: 1640010895:0;nvim init.vim -V10nvim.log
+: 1640010903:0;lf
+: 1640011179:0;nvim init.vim -V10nvim.log
+: 1640011185:0;lf
+: 1640011352:0;vrc
+: 1640011411:0;lf
+: 1640011508:0;vrc
+: 1640011544:0;lf
+: 1640058427:0;paru -R urxvt
+: 1640058433:0;paru -R rxvt
+: 1640109689:0;j /home/yasha/dotfiles
+: 1640109690:0;push

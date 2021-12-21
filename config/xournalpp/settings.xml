@@ -5,7 +5,7 @@
   <property name="minimumPressure" value="0.05000000"/>
   <property name="pressureMultiplier" value="1.00000000"/>
   <property name="zoomGesturesEnabled" value="true"/>
-  <property name="selectedToolbar" value="Portrait"/>
+  <property name="selectedToolbar" value="Xournal++"/>
   <property name="lastSavePath" value="/home/yasha/workspace/Xourna"/>
   <property name="lastOpenPath" value=""/>
   <property name="lastImagePath" value=""/>
@@ -17,7 +17,7 @@
   <property name="maximized" value="true"/>
   <property name="showToolbar" value="true"/>
   <property name="showSidebar" value="false"/>
-  <property name="sidebarWidth" value="50"/>
+  <property name="sidebarWidth" value="141"/>
   <property name="sidebarOnRight" value="false"/>
   <property name="scrollbarOnLeft" value="false"/>
   <property name="menubarVisible" value="true"/>
@@ -41,7 +41,7 @@
   <property name="cursorHighlightBorderColor" value="2147483903"/>
   <property name="cursorHighlightRadius" value="30.00000000"/>
   <property name="cursorHighlightBorderWidth" value="0.00000000"/>
-  <property name="darkTheme" value="true"/>
+  <property name="darkTheme" value="false"/>
   <property name="useStockIcons" value="false"/>
   <property name="disableScrollbarFadeout" value="false"/>
   <!--Hides scroolbars in the main window, allowed values: "none", "horizontal", "vertical", "both"-->
@@ -75,8 +75,8 @@
   <property name="preloadPagesAfter" value="5"/>
   <property name="eagerPageCleanup" value="true"/>
   <!--Config for new pages-->
-  <property name="pageTemplate" value="xoj/template&#10;copyLastPageSettings=true&#10;size=595.275591x841.889764&#10;backgroundType=lined&#10;backgroundColor=#ffffff&#10;"/>
-  <property name="sizeUnit" value=""/>
+  <property name="pageTemplate" value="xoj/template&#10;copyLastPageSize=true&#10;copyLastPageSettings=true&#10;size=595.275591x841.889764&#10;backgroundType=plain&#10;backgroundColor=#ffffffff&#10;"/>
+  <property name="sizeUnit" value="cm"/>
   <property name="audioFolder" value=""/>
   <property name="audioInputDevice" value="-1"/>
   <property name="audioOutputDevice" value="-1"/>
@@ -96,7 +96,7 @@
   <property name="numIgnoredStylusEvents" value="0"/>
   <property name="inputSystemTPCButton" value="false"/>
   <property name="inputSystemDrawOutsideWindow" value="true"/>
-  <property name="preferredLocale" value=""/>
+  <property name="preferredLocale" value="en"/>
   <property name="stabilizerAveragingMethod" value="0"/>
   <property name="stabilizerPreprocessor" value="0"/>
   <property name="stabilizerBuffersize" value="20"/>
@@ -165,8 +165,8 @@
     </data>
   </data>
   <data name="lastUsedPageBgColor">
-    <attribute name="color00" type="hex" value="ffdadcda"/>
-    <attribute name="color01" type="hex" value="ffffffff"/>
+    <attribute name="color00" type="hex" value="ffe6d8e4"/>
+    <attribute name="color01" type="hex" value="ffdadcda"/>
     <attribute name="color02" type="hex" value="ffffffff"/>
     <attribute name="color03" type="hex" value="ffffffff"/>
     <attribute name="color04" type="hex" value="ffffffff"/>
