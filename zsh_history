@@ -1019,3 +1019,6 @@ nvim
 : 1640058433:0;paru -R rxvt
 : 1640109689:0;j /home/yasha/dotfiles
 : 1640109690:0;push
+: 1640123268:0;dconf dump / > /home/yasha/dotfiles/dconf-settings.ini
+: 1640123271:0;j /home/yasha/dotfiles
+: 1640123272:0;push
