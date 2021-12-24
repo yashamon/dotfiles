@@ -7,7 +7,7 @@ Plug 'folke/zen-mode.nvim', { 'branch': 'main' }
 " Plug 'radenling/vim-dispatch-neovim'  
 " Plug 'tpope/vim-dispatch'
 Plug 'sheerun/vim-polyglot' 
-Plug 'ibhagwan/fzf-lua', { 'branch': 'main' } 
+Plug 'ibhagwan/fzf-lua', { 'branch': 'main' }
 Plug 'vijaymarupudi/nvim-fzf'
 Plug 'kyazdani42/nvim-web-devicons'
 " Plug 'dvdsk/prosesitter',  { 'branch': 'main' }
