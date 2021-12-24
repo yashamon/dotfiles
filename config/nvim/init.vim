@@ -53,7 +53,6 @@ Plug 'voldikss/vim-floaterm'
 Plug 'terrortylor/nvim-comment', { 'branch': 'main' }
 Plug 'kevinhwang91/nvim-bqf'
 Plug 'justinhoward/fzf-neoyank' 
-ya
 " Plug 'svermeulen/vim-cutlass'
 Plug 'kyazdani42/nvim-web-devicons' " for file icons
 " Plug 'kyazdani42/nvim-tree.lua', 
