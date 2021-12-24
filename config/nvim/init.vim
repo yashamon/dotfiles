@@ -1,13 +1,10 @@
-call plug#begin('~/.vim/plugged')   
-Plug 'folke/zen-mode.nvim', { 'branch': 'main' }
-" Plug 'reedes/vim-pencil' 
-" Plug 'folke/which-key.nvim', { 'branch': 'main' }
-" Plug 'folke/zen-mode.nvim', {  'branch': 'main' } 
-" Plug 'lewis6991/spellsitter.nvim'
-" Plug 'radenling/vim-dispatch-neovim'  
-" Plug 'tpope/vim-dispatch'
-Plug 'sheerun/vim-polyglot' 
-Plug 'ibhagwan/fzf-lua', { 'branch': 'main' }
+call plug#begin('~/.vim/plugged')   Plug 'folke/zen-mode.nvim', { 'branch': 
+'main' }
+" Plug 'reedes/vim-pencil' Plug 'folke/which-key.nvim', { 'branch': 'main' }
+" Plug 'folke/zen-mode.nvim', {  'branch': 'main' } Plug 
+" 'lewis6991/spellsitter.nvim'
+" Plug 'radenling/vim-dispatch-neovim'  Plug 'tpope/vim-dispatch'
+Plug 'sheerun/vim-polyglot' Plug 'ibhagwan/fzf-lua', { 'branch': 'main' }
 Plug 'vijaymarupudi/nvim-fzf'
 Plug 'kyazdani42/nvim-web-devicons'
 " Plug 'dvdsk/prosesitter',  { 'branch': 'main' }
@@ -31,15 +28,14 @@ Plug 'Pocco81/TrueZen.nvim', { 'branch': 'main' }
 "Plug 'vim-commentary'
 "Plug 'b3nj5m1n/kommentary'
 " Plug 'simnalamburt/vim-mundo'
-" Plug 'neovim/nvim-lspconfig',  { 'branch': 'main' } 
-" Plug 'glepnir/lspsaga.nvim'
+" Plug 'neovim/nvim-lspconfig',  { 'branch': 'main' } Plug 
+" 'glepnir/lspsaga.nvim'
 " If you are using Vim-Plug
 Plug 'hrsh7th/cmp-nvim-lsp', { 'branch': 'main' } 
 " Plug 'kdheepak/cmp-latex-symbols', { 'branch': 'main' } 
 Plug 'hrsh7th/cmp-buffer', { 'branch': 'main' }
 Plug 'hrsh7th/nvim-cmp', { 'branch': 'main' }
-Plug 'hrsh7th/cmp-vsnip', { 'branch': 'main' } 
-Plug 'hrsh7th/vim-vsnip'
+Plug 'hrsh7th/cmp-vsnip', { 'branch': 'main' } Plug 'hrsh7th/vim-vsnip'
 Plug 'hrsh7th/vim-vsnip-integ'
 Plug 'quangnguyen30192/cmp-nvim-tags',  { 'branch': 'main' } 
 " Plug 'ray-x/cmp-treesitter'
@@ -57,6 +53,7 @@ Plug 'voldikss/vim-floaterm'
 Plug 'terrortylor/nvim-comment', { 'branch': 'main' }
 Plug 'kevinhwang91/nvim-bqf'
 Plug 'justinhoward/fzf-neoyank' 
+ya
 " Plug 'svermeulen/vim-cutlass'
 Plug 'kyazdani42/nvim-web-devicons' " for file icons
 " Plug 'kyazdani42/nvim-tree.lua', 
