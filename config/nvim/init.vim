@@ -272,7 +272,7 @@ au Filetype tex,text,md set tw=50
 
 " au FileType tex set background=dark 
 au TextYankPost * lua vim.highlight.on_yank {higroup="IncSearch", timeout=150, on_visual=true}
-au TextYankPost * call neoyank#_append() 
+ au TextYankPost * call neoyank#_append() 
 
 set expandtab        "replace <TAB> with spaces
 set softtabstop=3 
@@ -501,7 +501,7 @@ map <m-f> :FZF ~<CR>
 "miscellaneous
 map :tags  exe ":silent ! /usr/local/bin/ctags -R"
 nmap <leader>g :ZenMode<CR>
-" nmap <leader>p :Denite neoyank -default-action=append<CR>
+nmap <leader>p :Denite neoyank -default-action=append<CR>
 
 " Latex stuff
 " 
