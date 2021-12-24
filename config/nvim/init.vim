@@ -272,7 +272,7 @@ au Filetype tex,text,md set tw=50
 
 " au FileType tex set background=dark 
 au TextYankPost * lua vim.highlight.on_yank {higroup="IncSearch", timeout=150, on_visual=true}
-au TextYankPost * call neoyank#_append() 
+" au TextYankPost * call neoyank#_append() 
 
 set expandtab        "replace <TAB> with spaces
 set softtabstop=3 
