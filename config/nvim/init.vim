@@ -1,6 +1,6 @@
 call plug#begin('~/.vim/plugged')   
 Plug 'folke/zen-mode.nvim', { 'branch': 'main' } 
-Plug 'kanagawa.nvim.git
+Plug 'rebelot/kanagawa.nvim.git
 " Plug 'reedes/vim-pencil' 
 " Plug 'folke/which-key.nvim', { 'branch': 'main' }
 " Plug 'folke/zen-mode.nvim', {  'branch': 'main' } 
