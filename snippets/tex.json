@@ -150,7 +150,7 @@
 
 
 "Cases": {
-    "prefix": "cas",
+    "prefix": "cases",
     "body": [
       "\\begin{cases}",
       "\t${1:equation}, &\\text{ if }${2:case}\\\\\\\\",
