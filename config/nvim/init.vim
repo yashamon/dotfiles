@@ -269,7 +269,7 @@ au UIEnter silent execute "!echo " . v:servername . " > ~/servername.txt"
 au FileType tex,text,md hi SpellBad cterm=undercurl
 au Filetype tex,text,md vmap q xi<CR><CR><CR><CR><ESC>kki/begin{comment}<cr><cr>/end{comment}<esc>kp 
 au Filetype tex,text,md set tw=50 
-au Filetype tex,text,md set fo=t
+au Filetype tex,text,md set fo=tc
 " au FileType tex set background=dark 
 au TextYankPost * lua vim.highlight.on_yank {higroup="IncSearch", timeout=150, on_visual=true}
 au TextYankPost * call neoyank#_append() 
