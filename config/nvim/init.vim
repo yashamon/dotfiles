@@ -271,9 +271,6 @@ au Filetype tex,text,md vmap q xi<CR><CR><CR><CR><ESC>kki/begin{comment}<cr><cr>
 set tw=0
 au Filetype tex,text,md set tw=50 
 au Filetype tex,text,md set fo=t
-
-set formatoptions=t
-
 " au FileType tex set background=dark 
 au TextYankPost * lua vim.highlight.on_yank {higroup="IncSearch", timeout=150, on_visual=true}
 au TextYankPost * call neoyank#_append() 
