@@ -654,49 +654,7 @@ let g:auto_save_silent = 1
 
 "Git autocommit  (private git repo)
 autocmd BufWritePost * call Git()
-" execute 'AsyncRun if git rev-parse --is-inside-work-tree || git rev-parse --git-dir > /dev/null 2>&1 ; then git add % ; git add build/* git commit -m -a ; git push --all origin; fi'
-" let inside_git_repo="$(git rev-parse --is-inside-work-tree 2>/dev/null)"
-" autocmd BufWritePost * silent execute 'AsyncRun if git rev-parse --is-inside-work-tree 2>/dev/null ; then git add % ; git commit -m -a ; git push --all origin; fi'
-" autocmd BufWritePost * <Esc>:AsyncRun 'if [ -d .git ] || git rev-parse --git-dir > /dev/null 2>&1 ; then git add % ; git commit -m ; git push --all origin; fi'
-" "Highlight
-" hi MatchParen cterm=underline ctermbg=none ctermfg=none
-" hi MatchParen guibg=NONE guifg=green gui=NONE
-    "
-    "  
-    "  
-    "  
-" UndoTree {
-    
-noremap <Leader>u :lua require("zen-mode").close()<cr>:UndotreeToggle<CR>
-        " If undotree is opened, it is likely one wants to interact with it.
-        let g:undotree_SetFocusWhenToggle=1
-        noremap <D-z> u
-        noremap <S-C-z> <C-r>
-        " noremap <C-z> u
-    " }
-
-
-" Latex shortcuts
-"Latex compile. 
-"them to an external terminal and run there.
-" map <Leader>l :tabe %<CR><Esc>:term ; latexmk -pvc -pdf -file-line-error -synctex=1 -interaction=nonstopmode -recorder %<CR><leader>e
-"Zathura forward search
-" map <Leader>v <Esc>:silent !zathura --synctex-forward <Ctrl+R>=line('.'):1:%:p %:p:h/build/%:r.pdf<CR><CR>
-"source ~/.anyname  
-"au filetype tex filetype indent off
-"  GUI Stuff   
-" command -nargs=? Guifont call rpcnotify(0, 'Gui', 'SetFont', "\<args\>") | let g:Guifont="<args>"
-
-" Deoplete
-
-" map <silent> <leader>g :silent execute "!(cd /root/web2 ; git add . ; git commit -m -a ; git push origin gh-pages) > /dev/null"<CR>
-set directory=$HOME/Downloads
-
-
-"LUA
-" lua <<EOF
-" require'nvim-tree'.setup()
-" EOF
+zsh:1: no matches found: hv?$
 lua <<EOF
 require'nvim-treesitter.configs'.setup { 
     --
