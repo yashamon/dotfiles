@@ -589,7 +589,6 @@ function! ToggleQuickFix()
         lua require("zen-mode").close()
         let filenamedir=expand('%:p:h')  
         echo filenamedir
-
         let filename=expand('%:t:r')
         let errors=filenamedir"/buildback/" . filename .".log" 
         echo errors
