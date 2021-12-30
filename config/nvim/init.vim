@@ -588,7 +588,7 @@ function! ToggleQuickFix()
     if empty(filter(getwininfo(), 'v:val.quickfix'))
         lua require("zen-mode").close()
         let filenamedir=expand('%:p:h')
-        let filename=
+        let filename=expand('%:p:h')
 
         let errors="%:p:h/buildback/" . filename[:-4]."log"
         exec "cf" errors 
