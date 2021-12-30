@@ -622,7 +622,7 @@ let filenametex=expand('%:t')
 let filenameroot=expand('%:t:r')
 " let filenamePDF=filename[:-4]."pdf"
 let filenamePDF="build/" . filenameroot . ".pdf" 
-echofilenamePDF
+echo filenamePDF
 let execstr="silent !zathura --synctex-forward " . linenumber . ":" . colnumber . ":" . filenametex . " " . filenamePDF . " &>/dev/null &" 
 echo execstr
 exec execstr

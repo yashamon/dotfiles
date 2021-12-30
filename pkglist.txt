@@ -795,6 +795,7 @@ mutter
 nano
 ncurses
 ndctl
+neovide-git
 neovim
 net-tools
 netctl

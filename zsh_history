@@ -269,7 +269,6 @@ rsync -a --no-compress --backup-dir=./ --suffix=1 ~/Downloads/0373.57009.bib 037
 rsync -a --no-compress --backup-dir=./ ~/Downloads/0373.57009.bib 0373.57009.bib
 rsync -a --no-compress --backup-dir=./ --suffix="~" ~/Downloads/0373.57009.bib 0373.57009.bib
 logout
-quit
 sadf
 cp ~/.xinitrc ~/.xsession
 cp ~/.xinitrc ~/.Xsession
@@ -512,7 +511,6 @@ neov blah
 rm -rf blah
 gone blah
 lfcd
-j /home/yasha/workspacemodules
 touch blah
 rm -rf '\'
 vi blah
@@ -633,10 +631,6 @@ mv firefox* firefox-nightly
 cd /usr/sbin
 rm firefox-nightly
 sudo rm firefox-nightly
-neo kan.tex
-j /home/yasha/workspacemodules/novikov
-cd build
-send kan.pdf
 j web
 j exams
 \
@@ -661,9 +655,6 @@ systemctl user start gitwatch.service
 $HOME/dotfiles/gitwatch/gitwatch.sh $HOME/workspace
 systemctl --user start gitwatch.service
 systemctl --user status gitwatch.service
-git status
-j /home/yasha/dotfiles
-push
 gitwatch.sh -r
 gitwatch.sh
 ./gitwatch.sh
@@ -674,7 +665,6 @@ git push origin
 systemctl --user disable gitwatch@.service
 systemctl --user disable gitwatch.service
 systemctl --user enable gitwatch.service
-cd ~
 which nvr
 neo settings.xml
 neo blah.tex
@@ -781,8 +771,6 @@ asdf
 gsettings set org.gnome.shell.app-switcher current-workspace-only true
 gsettings set org.gnome.desktop.input-sources xkb-options "['caps:esc']"
 run-help gsettings
-gsettings set org.gnome.desktop.input-sources xkb-options "['caps:escape']"
-gsettings set org.gnome.desktop.input-sources xkb-options"['caps:swapescape']"
 bash
 env RUST_BACKTRACE=1 swayr switch-to-urgent-or-lru-window \swaymsg fullscreen
 env RUST_BACKTRACE=1 swayr switch-to-urgent-or-lru-window
@@ -794,10 +782,8 @@ swayr next-window all-workspaces
 paru -R wayfire
 sudo pacman -S wayfire
 paru -S wayfire
-exit
 wayfire
 systemctl reboot
-vrc
 git clone https://github.com/WayfireWM/wayfire-plugins-extra && cd wayfire-plugins-extra\
 meson build --prefix=/usr --buildtype=release\
 ninja -C build && sudo ninja -C build install
@@ -815,9 +801,7 @@ dconf write /org/gnome/desktop/wm/keybindings/switch-to-workspace-2 "['<Super>2'
 dconf write /org/gnome/desktop/wm/keybindings/switch-to-workspace-3 "['<Super>3']"\
 dconf write /org/gnome/desktop/wm/keybindings/switch-to-workspace-4 "['<Super>4']"
 nvim -NORC
-nvim -U NORC
 nvim -f
-nvim -h
 wofi
 paru -R nvim
 pacman -R nvim
@@ -831,14 +815,11 @@ sudo nvim /etc/profile
 zrc
 nvim ~/.config/nvim/init.vim
 nvim ~/.zshrc
-nvim --noplugin
 python3 gcuts 'open kitty' 'kitty' '<Super><Enter>'
 python3 gcuts 'open kitty' 'kitty' '<Alt>7'
 python3 gcuts 'open goneovim' 'goneovim' '<Super>n'
 dconf write /org/gnome/desktop/wm/keybindings/switch-to-workspace-0 "['<Super>Home', '<Super>0']"
-dconf write /org/gnome/desktop/wm/keybindings/switch-to-workspace-1 "['<Super>Home', '<Super>1']"
 dconf write /org/gnome/desktop/wm/keybindings/switch-to-workspace-1 "['<Super>Home', '<Super>9']"
-dconf write /org/gnome/desktop/wm/keybindings/switch-to-workspace-1 "['<Super>1']"
 dconf write /org/gnome/desktop/wm/keybindings/switch-to-workspace-2 "['<Super>2']"
 dconf write /org/gnome/desktop/wm/keybindings/switch-to-workspace-2 "['<Super>Home', '<Super>2']"
 dconf write /org/gnome/desktop/wm/keybindings/switch-to-workspace-6 "['<Super>Home', '<Super>6']"
@@ -883,8 +864,6 @@ flashfocus
 swaymsg 'border pixel 3'
 paru -S chrome-gnome-shell-git
 swaymsg -t get_tree
-sudo lf
-/usr/local/bin/nvim
 paru -Ss qt
 export QT_QPA_PLATFORM=wayland
 echo QT_QPA_PLATFORM
@@ -894,7 +873,6 @@ buildgoneovim
 foot
 cd $GOPATH/src/github.com/akiyosi/goneovim
 export GO111MODULE=off; go get -v github.com/therecipe/qt/cmd/...
-ls
 sudo rm /tmp/kitty_scrollback_buffer
 neo /tmp/kitty_scrollback_buffer
 neovide
@@ -916,14 +894,11 @@ sudo $(go env GOPATH)/bin/qtdeploy build desktop
 cd deploy
 cd linux
 chmod +x goneovim
-cd ..
 $(go env GOPATH)/bin/qtdeploy build desktop
 goneovim
 wev
 gsettings set org.gnome.desktop.peripherals.mouse natural-scroll false\
 gsettings set org.gnome.desktop.peripherals.touchpad natural-scroll false
-lf
-xev
 paru -S gnome-tweak-tool
 paru -S gnome-shell
 paru -S gnome-extra
@@ -938,87 +913,104 @@ dconf write /org/gnome/desktop/wm/keybindings/switch-to-workspace-7 "['<Super>Ho
 dconf write /org/gnome/desktop/wm/keybindings/switch-to-workspace-3 "['<Super>Home', '<Super>3']"
 dconf write /org/gnome/desktop/wm/keybindings/switch-to-workspace-7 "['<Super>7']"
 dconf write /org/gnome/desktop/wm/keybindings/switch-to-workspace-8 "['<Super>8']"
-neo
 neov
+gsettings set org.gnome.desktop.input-sources xkb-options "['ctrl:swap_rwin_rctl']"
+gsettings set org.gnome.desktop.input-sources xkb-options"['caps:swapescape']"
+gsettings set org.gnome.desktop.input-sources xkb-options "['caps:escape']"
+gsettings set org.gnome.desktop.input-sources xkb-options "['caps:escape, ctrl:swap_rwin_rctl']"
+dconf write /org/gnome/desktop/wm/keybindings/switch-to-workspace-1 "['<Super>1']"
+dconf write /org/gnome/desktop/wm/keybindings/switch-to-workspace-1 "['<Super>Home', '<Super>1']"
+dconf write /org/gnome/desktop/wm/keybindings/switch-to-workspace-1 "['<rctl>']"
+dconf write /org/gnome/desktop/wm/keybindings/switch-to-workspace-1 "['<rctl>1']"
+dconf write /org/gnome/desktop/wm/keybindings/switch-to-workspace-3 "['<rctl>3']"
+dconf write /org/gnome/desktop/wm/keybindings/switch-to-workspace-l "['<rctl>3']"
+dconf write /org/gnome/desktop/wm/keybindings/switch-to-workspace-7 "['<rctl>7']"
+dconf load / < dconf-settings.ini
+xev
+gsettings set org.gnome.mutter auto-maximize true
+gsettings set org.gnome.mutter auto-fullscreen true
+gsettings set org.gnome.mutter auto-full-screen true
+udevadm monitor --property
+sudo nvim /etc/udev/rules.d/99-lowbat.rules
+kitty -h
+vrcv
+sudo lf
+cd /tmp
+ls
+rm -rf /tmp/*
+sudo rm -rf /tmp/*
 which nvim
+cd ~
+nvim -U NORC
+pacman -S neovim
+paru -Rs neovim-nightly-bin
+paru -Rs neovide-git
+paru -S neovim-nightly-bin
+sudo pacman -S neovim
+/usr/local/bin/nvim
+/usr/local/bin/nvim -U NORC
+nvim -none
+nvim -U none
+/usr/local/bin/nvim -u NONE
 nvim
-: 1639949221:0;lf
-: 1639949494:0;gsettings set org.gnome.desktop.input-sources xkb-options "['ctrl:swap_rwin_rctl']"
-: 1639949546:0;gsettings set org.gnome.desktop.input-sources xkb-options"['caps:swapescape']"
-: 1639949572:0;gsettings set org.gnome.desktop.input-sources xkb-options "['caps:escape']"
-: 1639949624:0;gsettings set org.gnome.desktop.input-sources xkb-options "['caps:escape, ctrl:swap_rwin_rctl']"
-: 1639949728:0;dconf write /org/gnome/desktop/wm/keybindings/switch-to-workspace-1 "['<Super>1']"
-: 1639949782:0;dconf write /org/gnome/desktop/wm/keybindings/switch-to-workspace-1 "['<Super>Home', '<Super>1']"
-: 1639949916:0;dconf write /org/gnome/desktop/wm/keybindings/switch-to-workspace-1 "['<rctl>1']"
-: 1639949983:0;dconf write /org/gnome/desktop/wm/keybindings/switch-to-workspace-1 "['<rctl>']"
-: 1639950012:0;dconf write /org/gnome/desktop/wm/keybindings/switch-to-workspace-1 "['<rctl>1']"
-: 1639950027:0;dconf write /org/gnome/desktop/wm/keybindings/switch-to-workspace-7 "['<rctl>7']"
-: 1639950065:0;dconf write /org/gnome/desktop/wm/keybindings/switch-to-workspace-3 "['<rctl>3']"
-: 1639950106:0;dconf write /org/gnome/desktop/wm/keybindings/switch-to-workspace-l "['<rctl>3']"
-: 1639950352:0;dconf write /org/gnome/desktop/wm/keybindings/switch-to-workspace-7 "['<rctl>7']"
-: 1639950472:0;dconf dump / > /home/yasha/dotfiles/dconf-settings.ini
-: 1639950520:0;lf
-: 1639950716:0;dconf load / < dconf-settings.ini
-: 1639950777:0;xev
-: 1639950999:0;gsettings set org.gnome.mutter auto-maximize true
-: 1639951023:0;gsettings set org.gnome.mutter auto-fullscreen true
-: 1639951031:0;gsettings set org.gnome.mutter auto-full-screen true
-: 1639952896:0;udevadm monitor --property
-: 1639954423:0;sudo nvim /etc/udev/rules.d/99-lowbat.rules
-: 1639955038:0;kitty -h
-: 1639955207:0;lf
-: 1640007474:0;nvim
-: 1640007781:0;vrc
-: 1640007819:0;vrcv
-: 1640007821:0;vrc
-: 1640007830:0;nvim
-: 1640007939:0;lf
-: 1640008092:0;sudo lf
-: 1640008154:0;cd /tmp
-: 1640008155:0;ls
-: 1640008179:0;rm -rf /tmp/*
-: 1640008185:0;sudo rm -rf /tmp/*
-: 1640008191:0;nvim
-: 1640008215:0;which nvim
-: 1640008226:0;nvim
-: 1640008273:0;lf
-: 1640008385:0;cd ~
-: 1640008387:0;nvim
-: 1640008426:0;nvim -U NORC
-: 1640008634:0;pacman -S neovim
-: 1640008639:0;sudo pacman -S neovim
-: 1640008690:0;paru -S neovim-nightly-bin
-: 1640008715:0;paru -Rs neovim-nightly-bin
-: 1640008729:0;paru -Rs neovide-git
-: 1640008734:0;paru -S neovim-nightly-bin
-: 1640008760:0;sudo pacman -S neovim
-: 1640008785:0;/usr/local/bin/nvim
-: 1640008816:0;/usr/local/bin/nvim -U NORC
-: 1640008877:0;nvim -none
-: 1640008887:0;nvim -U none
-: 1640008918:0;nvim -u NONE
-: 1640008952:0;/usr/local/bin/nvim -u NONE
-: 1640008963:0;nvim -u NONE
-: 1640008995:0;vrc
-: 1640009010:0;nvim
-: 1640009026:0;vrc
-: 1640009087:0;nvim
-: 1640009162:0;vrc
-: 1640009247:0;nvim
-: 1640009270:0;vrc
-: 1640010870:0;nvim -V10nvim.log
-: 1640010895:0;nvim init.vim -V10nvim.log
-: 1640010903:0;lf
-: 1640011179:0;nvim init.vim -V10nvim.log
-: 1640011185:0;lf
-: 1640011352:0;vrc
-: 1640011411:0;lf
-: 1640011508:0;vrc
-: 1640011544:0;lf
-: 1640058427:0;paru -R urxvt
-: 1640058433:0;paru -R rxvt
-: 1640109689:0;j /home/yasha/dotfiles
-: 1640109690:0;push
-: 1640123268:0;dconf dump / > /home/yasha/dotfiles/dconf-settings.ini
-: 1640123271:0;j /home/yasha/dotfiles
-: 1640123272:0;push
+nvim -V10nvim.log
+nvim init.vim -V10nvim.log
+paru -R urxvt
+paru -R rxvt
+dconf dump / > /home/yasha/dotfiles/dconf-settings.ini
+j /home/yasha/dotfiles
+push
+j /home/yasha/workspacemodules
+cd novikov
+vi kan.tex
+nvim -u NONE
+nvim -h
+nvim --noplugin
+j /home/yasha/workspacemodules/novikov
+cd build
+send kan.pdf
+git status
+cd ..
+git checkout -b mine
+lf
+vrc
+neo
+neo kan.tex
+quit
+exit
+: 1640617864:0;j /home/yasha/workspacemodules/thematrix
+: 1640617872:0;git status
+: 1640617883:0;neo stableconsistency.tex
+: 1640636379:0;vrc
+: 1640637100:0;neo
+: 1640700945:0;vrc
+: 1640701015:0;neo
+: 1640703279:0;neovide
+: 1640703281:0;neov
+: 1640703294:0;neovide
+: 1640703304:0;j /home/yasha/Downloads
+: 1640703306:0;lf
+: 1640703383:0;./neovide
+: 1640703424:0;paru -S neovide-git
+: 1640726493:0;vrc
+: 1640726596:0;j /home/yasha/workspacemodules/thematrix
+: 1640726605:0;pdf build/stableconsistency.pdf
+: 1640726789:0;neo
+: 1640726866:0;j /home/yasha/workspacemodules/thematrix
+: 1640726869:0;neo stableconsistency.tex
+: 1640728195:0;htop
+: 1640737428:0;neovide
+: 1640737469:0;neov
+: 1640737480:0;vrc
+: 1640737505:0;neov
+: 1640737581:0;goneovim
+: 1640737615:0;neov
+: 1640737653:0;vrc
+: 1640738028:0;neo blah.tex
+: 1640738583:0;lf
+: 1640793836:0;vrc
+: 1640889301:0;neo
+: 1640891320:0;htop
+: 1640894196:0;vrc
+: 1640895438:0;j /home/yasha/dotfiles
+: 1640895439:0;push
