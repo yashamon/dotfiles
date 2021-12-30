@@ -621,7 +621,7 @@ let colnumber=col(".")
 let filename=bufname("%") 
 " let filenamePDF=filename[:-4]."pdf"
 let filenamePDF="build/" . buf[:-4]."pdf"
-let execstr="silent !zathura --synctex-forward " . linenumber . ":" . colnumber . ":" . filename . " " .  . " &>/dev/null &" 
+let execstr="silent !zathura --synctex-forward " . linenumber . ":" . colnumber . ":" . filename . " " . filenamePDF . " &>/dev/null &" 
 echo execstr
 exec execstr
 execute "buffer" buf
