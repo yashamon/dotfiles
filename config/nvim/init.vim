@@ -656,7 +656,7 @@ let g:auto_save_silent = 1
 
 "Git autocommit  (private git repo)
 autocmd BufWritePost * call Git()
-zsh:1: no matches found: hv?$
+
 lua <<EOF
 require'nvim-treesitter.configs'.setup { 
     --
