@@ -590,7 +590,7 @@ function! ToggleQuickFix()
         let filenamedir=expand('%:p:h')  
         echo filenamedir
         let filename=expand('%:t:r')
-        let errors=filenamedir"/buildback/" . filename .".log" 
+        let errors=filenamedir . "/buildback/" . filename .".log" 
         echo errors
         exec "cf" errors 
         copen
