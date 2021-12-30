@@ -618,7 +618,8 @@ wa
 let buf = bufname()
 let linenumber=line(".")
 let colnumber=col(".")
-let filenametex=expand('%:t')
+let filenametex=expand('%:t') 
+let filenameroot=expand()
 " let filenamePDF=filename[:-4]."pdf"
 let filenamePDF="build/" . filename."pdf"
 let execstr="silent !zathura --synctex-forward " . linenumber . ":" . colnumber . ":" . filename . " " . filenamePDF . " &>/dev/null &" 
