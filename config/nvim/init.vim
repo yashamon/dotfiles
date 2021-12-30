@@ -588,9 +588,9 @@ function! ToggleQuickFix()
     if empty(filter(getwininfo(), 'v:val.quickfix'))
         lua require("zen-mode").close()
         let b:filenamedir=expand('%:p:h')  
-        echo filenamedir
+        echo b:filenamedir
         let b:filename=expand('%:t:r')
-        let errors=filenamedir . "/buildback/" . filename .".log" 
+        let b:errors=filenamedir . "/buildback/" . filename .".log" 
         echo errors
         exec "cf" errors 
         copen
