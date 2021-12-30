@@ -227,7 +227,7 @@
   },
 
  "lemma": {
-    "prefix": "lem",
+    "prefix": "lemmma",
     "body": [
       "\\begin{lemma}", 
       "\t\\label{lemma:$1}", 
