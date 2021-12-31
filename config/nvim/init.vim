@@ -585,7 +585,8 @@ AsyncRun -silent if git rev-parse --is-inside-work-tree || git rev- parse --git-
 endfunction
 
 function! ToggleQuickFix()
-    if empty(filter(getwininfo(), 'v:val.quickfix'))
+    if empty(filter(getwininfo(), 'v:val.quickfix')) 
+        echo bufname()
         lua require("zen-mode").close()
         let b:filenamedir=expand('%:p:h')  
         echo b:filenamedir
