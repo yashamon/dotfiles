@@ -595,7 +595,7 @@ function! ToggleQuickFix()
         let b:errors=b:filenamedir . "/buildback/" . b:filename .".log" 
         echo b:errors
         exec "cf" b:errors 
-        copen
+        " copen
     else
         cclose 
         lua require("zen-mode").open()
