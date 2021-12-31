@@ -588,6 +588,8 @@ function! ToggleQuickFix()
     if empty(filter(getwininfo(), 'v:val.quickfix')) 
         echo bufname()
         lua require("zen-mode").close() 
+echo bufname()
+
       
         let b:filenamedir=expand('%:p:h')  
         echo b:filenamedir
