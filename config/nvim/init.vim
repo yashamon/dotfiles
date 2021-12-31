@@ -590,6 +590,7 @@ function! ToggleQuickFix()
         lua require("zen-mode").close() 
 echo bufname()
 
+
       
         let b:filenamedir=expand('%:p:h')  
         echo b:filenamedir
