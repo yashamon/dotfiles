@@ -6,11 +6,11 @@
        ],
     "description": "fuk"
     },  
-
+NFuk (M,\omega) 
 "Ham": {
     "prefix": "ham",
     "body": [
-        "Ham (M, \\omega) $0" 
+        "Ham (M, $1 \\omega) $0" 
        ],
     "description": "ham"
     },  
