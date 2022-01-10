@@ -25,7 +25,7 @@
 "color": {
     "prefix": "color",
     "body": [
-        "\\color {$1}{$2} $0"
+        "\\textcolor {$1}{$2} $0"
        ],
     "description": "colored text"
     },  
@@ -1002,7 +1002,7 @@
     "body": [
       "\\mathcal{S} $0"
     ],
-    "description": "cal A"
+    "description": "cal S"
   },
 
 "caligraphic A": {
