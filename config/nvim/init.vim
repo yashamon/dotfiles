@@ -641,7 +641,7 @@ echo execstr
 exec execstr
 execute "buffer" buf
 endfunction 
-nmap <leader>v :call ViewPdf()<cr>
+nmap <leader>v :CompileLatexAndView()<cr>
 " nmap <leader>v :VimtexView<cr>
 " let  g:vimtex_fold_types_defaults = 'preamble, sections, comments'
 nmap <leader>ll :call CompileLatex()<cr>
