@@ -13,10 +13,10 @@
        ],
     "description": "NFuk"
     },  
-"Ham": {
-    "prefix": "ham",
+"BHam": {
+    "prefix": "bham",
     "body": [
-        "Ham (M, $1 \\omega) $0" 
+        "BHam (M, $1 \\omega) $0" 
        ],
     "description": "ham"
     },  
