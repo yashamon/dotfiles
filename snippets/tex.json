@@ -611,7 +611,7 @@
 "cf": {
     "prefix": "cf",
     "body": [
-      "c.f. $0"
+      "cf. $0"
     ],
     "description": "cf"
   },
