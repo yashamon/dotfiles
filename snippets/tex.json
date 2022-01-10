@@ -11,7 +11,14 @@
     "body": [
         "NFuk (M, \\omega) $0" 
        ],
-    "description": "NFuka"
+    "description": "NFuk"
+    },  
+"Ham": {
+    "prefix": "ham",
+    "body": [
+        "Ham (M, $1 \\omega) $0" 
+       ],
+    "description": "ham"
     },  
 
 "Ham": {
