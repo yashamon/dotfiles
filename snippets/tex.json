@@ -7,9 +7,9 @@
     "description": "fuk"
     },  
 "NFuk": {
-    "prefix": "ham",
+    "prefix": "NF",
     "body": [
-        "Ham (M, $1 \\omega) $0" 
+        "ham $0" 
        ],
     "description": "ham"
     },  
