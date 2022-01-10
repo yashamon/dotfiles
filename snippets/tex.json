@@ -2,7 +2,7 @@
    "Fuk": {
     "prefix": "fuk",
     "body": [
-        "Fuk (M, \\omega) $0" 
+        "Fuk (M, $1 \\omega) $0" 
        ],
     "description": "fuk"
     },  
@@ -10,7 +10,7 @@
 "Ham": {
     "prefix": "ham",
     "body": [
-        "Ham (M $1, \\omega) $0" 
+        "Ham (M, \\omega) $0" 
        ],
     "description": "ham"
     },  
