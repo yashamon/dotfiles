@@ -608,7 +608,8 @@ function! ClearLatex()
   silent !rm ./build/*.log
   silent !rm ./build/*.aux 
   silent !rm ./build/*.fls
-endfunction
+endfunction 
+
 function! CompileLatexAndView()
   silent call ClearLatex()
   let buf = bufname()
