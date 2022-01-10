@@ -1000,7 +1000,7 @@
 "caligraphic S": {
     "prefix": ["cS"],
     "body": [
-      "\\mathcal{A} $0"
+      "\\mathcal{S} $0"
     ],
     "description": "cal A"
   },
