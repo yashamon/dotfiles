@@ -9,7 +9,8 @@
 "NFuk": {
     "prefix": "NF",
     "body": [
-        "ham $0" 
+        "NFuk (M,\omega)  
+ $0" 
        ],
     "description": "ham"
     },  
