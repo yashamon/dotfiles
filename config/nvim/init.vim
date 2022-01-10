@@ -609,6 +609,13 @@ function! ClearLatex()
   silent !rm ./build/*.aux 
   silent !rm ./build/*.fls
 endfunction
+function! CompileLatex()
+  silent call ClearLatex()
+  let buf = bufname()
+  silent te latexmk -pvc -halt-on-error -synctex=1 -file-line-error -gg %
+  execute "buffer" buf
+  call ViewPdf()
+endfunction
 
 function! CompileLatex()
   silent call ClearLatex()
