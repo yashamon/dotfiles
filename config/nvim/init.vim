@@ -636,7 +636,7 @@ let filenametex=expand('%:p:t')
 let filenametexwhole=expand('%:p') 
 let filenameroot=expand('%:t:r')
 " let filenamePDF=filename[:-4]."pdf"
-let filenamePDF=b:filenamedir . "build/" . filenameroot . ".pdf" 
+let filenamePDF=b:filenamedir . "/build/" . filenameroot . ".pdf" 
 echo filenamePDF
 let execstr="silent !zathura --synctex-forward " . linenumber . ":" . colnumber . ":" . filenametexwhole . " " . filenamePDF . " &>/dev/null &" 
 echo execstr
