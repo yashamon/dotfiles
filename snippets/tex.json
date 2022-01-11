@@ -1019,9 +1019,9 @@
     "description": "cal S"
   },
 "caligraphic Q": {
-    "prefix": ["cA"],
+    "prefix": ["cQ"],
     "body": [
-      "\\mathcal{A} $0"
+      "\\mathcal{Q} $0"
     ],
     "description": "cal A"
   },
