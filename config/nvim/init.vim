@@ -630,7 +630,8 @@ function! ViewPdf()
 wa
 let buf = bufname()
 let linenumber=line(".")
-let colnumber=col(".")
+let colnumber=col(".") 
+
 let filenametex=expand('%:t') 
 let filenameroot=expand('%:t:r')
 " let filenamePDF=filename[:-4]."pdf"
@@ -641,7 +642,7 @@ echo execstr
 exec execstr
 execute "buffer" buf
 endfunction 
-nmap <leader>v :call ViewPdf()<cr>
+nmap <leader>v :call ViewPdf()<cr>:<cr>
 " nmap <leader>v :VimtexView<cr>
 " let  g:vimtex_fold_types_defaults = 'preamble, sections, comments'
 nmap <leader>ll :call CompileLatex()<cr>
