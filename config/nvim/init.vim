@@ -631,7 +631,7 @@ wa
 let buf = bufname()
 let linenumber=line(".")
 let colnumber=col(".") 
-
+let b:filenamedir=expand('%:p:h')  
 let filenametex=expand('%:t') 
 let filenameroot=expand('%:t:r')
 " let filenamePDF=filename[:-4]."pdf"
