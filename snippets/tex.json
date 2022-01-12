@@ -653,6 +653,13 @@
     ],
     "description": "field"
   },
+"field": {
+    "prefix": "f",
+    "body": [
+  "\\mathbb{$1} $0"
+    ],
+    "description": "field"
+  },
 
   
 
@@ -1023,7 +1030,7 @@
     "body": [
       "\\mathcal{Q} $0"
     ],
-    "description": "cal A"
+    "description": "cal Q"
   },
 
 "caligraphic A": {
