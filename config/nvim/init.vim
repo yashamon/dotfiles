@@ -269,7 +269,7 @@ au UIEnter silent execute "!echo " . v:servername . " > ~/servername.txt"
 function Server()
    silent execute "!echo " . v:servername . " > ~/servername.txt"
 endfunction
-map 
+nmap <> 
 au UIEnter silent execute "!echo " . v:servername . " > ~/servername.txt"
 
 au FileType tex,text,md hi SpellBad cterm=undercurl
