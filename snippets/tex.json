@@ -656,9 +656,9 @@
 "field Q": {
     "prefix": "fQ",
     "body": [
-  "\\mathbb{$1} $0"
+  "\\mathbb{Q} $0"
     ],
-    "description": "field"
+    "description": "field Q"
   },
 
   
