@@ -398,7 +398,8 @@ noremap x "_x
 " nnoremap v "+v
 vnoremap x "+x
 vnoremap d "0d
-vnoremap c "0c
+vnoremap c "0c 
+as;dlkfjsadf
 vnoremap y "+y
 nnoremap y "+y
 nnoremap p "+p
