@@ -269,8 +269,7 @@ au UIEnter silent execute "!echo " . v:servername . " > ~/servername.txt"
 function Server()
    silent execute "!echo " . v:servername . " > ~/servername.txt"
 endfunction
-nmap <leader>nn :call Server() 
-au UIEnter silent execute "!echo " . v:servername . " > ~/servername.txt"
+nmap <leader>nn :call Server()
 
 au FileType tex,text,md hi SpellBad cterm=undercurl
 au Filetype tex,text,md vmap q xi<CR><CR><CR><CR><ESC>kki/begin{comment}<cr><cr>/end{comment}<esc>kp 
