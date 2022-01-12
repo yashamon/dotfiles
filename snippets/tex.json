@@ -653,8 +653,8 @@
     ],
     "description": "field"
   },
-"field": {
-    "prefix": "f",
+"field Q": {
+    "prefix": "fQ",
     "body": [
   "\\mathbb{$1} $0"
     ],
