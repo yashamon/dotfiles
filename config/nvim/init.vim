@@ -267,7 +267,7 @@ endfunction
 au FileType * silent execute "!echo " . v:servername . " > ~/servername.txt"
 au UIEnter silent execute "!echo " . v:servername . " > ~/servername.txt"  
 function Server()
-   
+   silent execute "!echo " . v:servername . " > ~/servername.txt"
 au UIEnter silent execute "!echo " . v:servername . " > ~/servername.txt"
 
 au FileType tex,text,md hi SpellBad cterm=undercurl
