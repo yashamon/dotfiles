@@ -1142,7 +1142,7 @@
 "overline": {
     "prefix": ["over"],
     "body": [
-      "\\widetilde{$1} $0"
+      "\\overline{$1} $0"
     ],
     "description": "over tilde"
   },
