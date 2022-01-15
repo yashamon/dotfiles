@@ -1140,7 +1140,7 @@
     "description": "defined by"
   }, 
 "overline": {
-    "prefix": ["wt"],
+    "prefix": ["over"],
     "body": [
       "\\widetilde{$1} $0"
     ],
