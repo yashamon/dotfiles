@@ -1021,7 +1021,7 @@
 "caligraphic R": {
     "prefix": ["cR"],
     "body": [
-      "\\mathcal{S} $0"
+      "\\mathcal{R} $0"
     ],
     "description": "cal S"
   },
