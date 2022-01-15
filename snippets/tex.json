@@ -1018,7 +1018,7 @@
     ],
     "description": "cal B"
   }, 
-"caligraphic S": {
+"caligraphic R": {
     "prefix": ["cS"],
     "body": [
       "\\mathcal{S} $0"
