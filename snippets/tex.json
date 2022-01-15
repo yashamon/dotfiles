@@ -1019,7 +1019,7 @@
     "description": "cal B"
   }, 
 "caligraphic R": {
-    "prefix": ["cS"],
+    "prefix": ["cR"],
     "body": [
       "\\mathcal{S} $0"
     ],
