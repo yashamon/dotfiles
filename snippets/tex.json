@@ -1023,7 +1023,7 @@
     "body": [
       "\\mathcal{R} $0"
     ],
-    "description": "cal S"
+    "description": "cal R"
   },
 
 "caligraphic S": {
@@ -1138,7 +1138,8 @@
       ":= $0"
     ],
     "description": "defined by"
-  },
+  }, 
+
 "wide tilda": {
     "prefix": ["wt"],
     "body": [
