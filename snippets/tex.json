@@ -1,4 +1,4 @@
-{  
+f{  
    "Fuk": {
     "prefix": "fuk",
     "body": [
@@ -1144,7 +1144,7 @@
     "body": [
       "\\overline{$1} $0"
     ],
-    "description": "over"
+    "description": "overline"
   },
 
 "wide tilda": {
