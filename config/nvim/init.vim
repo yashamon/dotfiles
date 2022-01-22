@@ -690,7 +690,7 @@ require'nvim-treesitter.configs'.setup {
     },
   },
     textobjects = { enable = true },
-    indent = { enable = true }, 
+    indent = { enable = false }, 
 }
 EOF
 
