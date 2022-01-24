@@ -1043,7 +1043,7 @@
 "caligraphic F": {
     "prefix": ["cF"],
     "body": [
-      "\\mathcal{A} $0"
+      "\\mathcal{F} $0"
     ],
     "description": "cal A"
   },
