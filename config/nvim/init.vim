@@ -355,7 +355,7 @@ noremap <leader>w :set tw=0<cr>
 map q :q<cr>
 noremap <leader>q q
 nmap <m-7> :ZenMode<cr>:mksession!<cr>
-nnoremap <leader>rr ::w<cr>source $MYVIMRC<CR>
+nnoremap <leader>rr :w<cr>source $MYVIMRC<CR>
 "nnoremap <leader>e :NERDTreeFind<CR>
 nnoremap <leader>e :Lf<cr>
 nnoremap <leader>t :FloatermToggle<cr>
