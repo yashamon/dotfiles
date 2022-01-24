@@ -1041,7 +1041,7 @@
     "description": "cal Q"
   },
 "caligraphic F": {
-    "prefix": ["cA"],
+    "prefix": ["cF"],
     "body": [
       "\\mathcal{A} $0"
     ],
