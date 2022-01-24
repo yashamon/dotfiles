@@ -265,7 +265,7 @@
   },
 
  "lemma": {
-    "prefix": "",
+    "prefix": "lemma",
     "body": [
       "\\begin{lemma}", 
       "\t\\label{lemma:$1}", 
@@ -1039,6 +1039,13 @@
       "\\mathcal{Q} $0"
     ],
     "description": "cal Q"
+  },
+"caligraphic A": {
+    "prefix": ["cA"],
+    "body": [
+      "\\mathcal{A} $0"
+    ],
+    "description": "cal A"
   },
 
 "caligraphic A": {
