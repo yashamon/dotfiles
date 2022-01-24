@@ -1025,6 +1025,20 @@
     ],
     "description": "cal R"
   },
+"over R": {
+    "prefix": ["oR"],
+    "body": [
+      "\\overline{\\mathcal{R}} $0"
+    ],
+    "description": "overline R"
+  },
+"caligraphic L": {
+    "prefix": ["cL"],
+    "body": [
+      "\\mathcal{L} $0"
+    ],
+    "description": "cal L"
+  },
 
 "caligraphic S": {
     "prefix": ["cS"],
