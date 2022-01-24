@@ -349,7 +349,7 @@ set fileencoding=utf-8
 tnoremap <A-Esc> <C-\><C-n>
 nmap <A-S-t> :te<cr>
  vnoremap <Leader>U ""y:%s/<C-r>"
-noremap <leader>r :e<cr>
+noremap <leader>r :w<cr>:e<cr>
 noremap <leader>hh :set tw=50<cr>
 noremap <leader>w :set tw=0<cr> 
 map q :q<cr>
