@@ -510,7 +510,7 @@ nmap <leader>g :ZenMode<CR>
 
 " Latex stuff
 " 
-noremap <leader>ss :source $MYVIMRC<cr> 
+noremap <leader>ss :wa:source $MYVIMRC<cr> 
 noremap <c-e> viwy:cclose<cr>:<c-r>+<cr>:ZenMode<cr><cr>
 noremap <c-p> :<c-r>+<cr>
 noremap <m-l> viwy:bdelete<cr>:execute "buffer" g:buf<cr>:<c-r>+<cr>:ZenMode<cr><cr>
