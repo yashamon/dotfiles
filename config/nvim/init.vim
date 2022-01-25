@@ -426,7 +426,7 @@ map q: nop
 map <S-C-q> <Esc>:qa!<CR>
 map <m-q> <esc>:wq<cr>
 map <m-Q> <esc>:q<cr>
-map <m-c> <esc>:close<cr>
+map <m-c> <esc>:w<CR>:close<cr>
 map <M-d> <Esc>:w<CR>:bdelete<CR>
 noremap gf gq
 noremap f /
