@@ -411,8 +411,8 @@ nmap A g$a
 map 0 g^
 map 9 g$
 nmap <m-8> :set laststatus=0<cr>:set lines=100<cr>
-nnoremap <c-l> :w<>:bnext<CR>
-nnoremap <c-h> :bprevious<CR>
+nnoremap <c-l> :w<CR>:bnext<CR>
+nnoremap <c-h> :w<CR>:bprevious<CR>
 " tnoremap <Esc> <C-\> 
 " nnoremap < :tabp<CR>
 " nnoremap > :tabn<CR>
