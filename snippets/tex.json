@@ -652,7 +652,15 @@
   "\\mathbb{$1} $0"
     ],
     "description": "field"
+  }, 
+"field S": {
+    "prefix": "fS",
+    "body": [
+  "\\mathbb{S} $0"
+    ],
+    "description": "field S"
   },
+
 "field Q": {
     "prefix": "fQ",
     "body": [
