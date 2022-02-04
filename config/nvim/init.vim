@@ -349,14 +349,17 @@ set fileencoding=utf-8
 tnoremap <A-Esc> <C-\><C-n>
 nmap <A-S-t> :te<cr>
  vnoremap <Leader>U ""y:%s/<C-r>"
-noremap <leader>r :w<cr>:e<cr>
+noremap <leader>r :w<cr>:e<cr> 
+inoremap <cr> <cr><esc>:w<cr>a
+inoremap . .<esc>:w<cr>a
+
 noremap <leader>hh :set tw=50<cr>
 noremap <leader>w :set tw=0<cr> 
 map q :q<cr>
 noremap <leader>q q
 nmap <m-7> :ZenMode<cr>:mksession!<cr>
 nnoremap <leader>rr :w<cr>:source $MYVIMRC<CR>
-"nnoremap <leader>e :NERDTreeFind<CR>
+nnoremap <leader>u :UndotreeToggle<CR>
 nnoremap <leader>e :Lf<cr>
 nnoremap <leader>t :FloatermToggle<cr>
 nnoremap <c-,> :cprevious<cr>
@@ -607,7 +610,7 @@ function! ToggleQuickFix()
         endif
 endfunction
 
-au filetype tex nnoremap <silent> <leader>s :call ToggleQuickFix()<cr>
+au filetype tex nnoremap <silent> <leader>s :w<CR>:call ToggleQuickFix()<cr>
 
 function! ClearLatex() 
   silent !rm ./build/*.log
