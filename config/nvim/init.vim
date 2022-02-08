@@ -606,7 +606,7 @@ function! ToggleQuickFix()
         let b:filename=expand('%:t:r')
         let b:errors=b:filenamedir . "/buildback/" . b:filename .".log" 
         echo b:errors
-        exec "vimgrep /\w\+/j" b:errors "| copen"
+        exec "cf" b:errors 
         " copen
     else
         cclose 
