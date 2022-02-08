@@ -610,6 +610,7 @@ function! ToggleQuickFix()
         exec "caddf" b:errors 
         copen 
         exec "wincmd j"
+        exec "/error"
     else
         cclose 
         lua require("zen-mode").open()
