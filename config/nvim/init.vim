@@ -607,8 +607,8 @@ function! ToggleQuickFix()
         let b:filename=expand('%:t:r')
         let b:errors=b:filenamedir . "/buildback/" . b:filename .".log" 
         echo b:errors
-        exec "cf" b:errors 
-        " copen
+        exec "caddf" b:errors
+        copen
     else
         cclose 
         lua require("zen-mode").open()
