@@ -249,7 +249,9 @@ hi SpellBad gui=underline
 "
 "Autocommands, au
 au FileType Makefile set noexpandtab
-au FileType tex,text set spelllang=en
+au FileType tex,text set spelllang=en 
+au FileType tex,text set noai nocin 
+
 au FileType tex,text,md set spell   
 function Reset()
 TZAtaraxisOff 
@@ -391,7 +393,8 @@ inoremap / \
 
 " copy paste stuff 
 " 
-vnoremap p "0dP
+vnoremap p "0dP 
+inoremap <C-p> <C-r>"+
 " noremap D "0D:wa<cr>
 noremap d "0d
 nnoremap dd "0dd
@@ -593,7 +596,8 @@ AsyncRun -silent if git rev-parse --is-inside-work-tree || git rev- parse --git-
 endfunction
 
 function! ToggleQuickFix()
-    if empty(filter(getwininfo(), 'v:val.quickfix')) 
+    if empty(filter(getwininfo(), 'v:val.quickfix'))  
+        call write()
         echo bufname()
         " lua require("zen-mode").close() 
         echo bufname()
@@ -602,7 +606,7 @@ function! ToggleQuickFix()
         let b:filename=expand('%:t:r')
         let b:errors=b:filenamedir . "/buildback/" . b:filename .".log" 
         echo b:errors
-        exec "cf" b:errors 
+        exec "vimgrep /\w\+/j" b:errors "| copen"
         " copen
     else
         cclose 
@@ -610,7 +614,7 @@ function! ToggleQuickFix()
         endif
 endfunction
 
-au filetype tex nnoremap <silent> <leader>s :w<CR>:call ToggleQuickFix()<cr>
+au filetype tex nnoremap <silent> <leader>s :call ToggleQuickFix()<cr>
 
 function! ClearLatex() 
   silent !rm ./build/*.log
@@ -693,7 +697,7 @@ require'nvim-treesitter.configs'.setup {
     },
   },
     textobjects = { enable = true },
-    indent = { enable = false }, 
+    indent = { enable = true }, 
 }
 EOF
 
@@ -798,7 +802,7 @@ vnoremap <leader>p :FZFNeoyankSelection +<cr>
 " Replace the default dictionary completion with fzf-based fuzzy completion
 
 inoremap <expr> <c-x><c-k> fzf#vim#complete('cat /usr/share/dict/words')  
-inoremap <cr> <cr> <backspace>
+" inoremap <cr> <cr> <backspace>
 
 set completeopt=menu,menuone,noselect
 
@@ -1459,7 +1463,9 @@ EOF
     " xmap t <Plug>Sneak_s
     " xmap T <Plug>Sneak_S
    " omap t <Plug>Sneak_s
-    " omap T <Plug>Sneak_S 
+    " omap T <Plug>Sneak_S   
+    " >Sneak_S+
+
     " math maps     asdf a;sldfjk test2 test3
 " 
 " silent execute 'AsyncRun if git rev-parse --is-inside-work-tree || git rev-parse --git-dir > /dev/null 2>&1 ; then git add % ; git commit -m -a ; git push --all origin; fi'
