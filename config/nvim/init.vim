@@ -597,7 +597,7 @@ endfunction
 
 function! ToggleQuickFix()
     if empty(filter(getwininfo(), 'v:val.quickfix'))  
-        call write()
+        exec "w"
         echo bufname()
         " lua require("zen-mode").close() 
         echo bufname()
