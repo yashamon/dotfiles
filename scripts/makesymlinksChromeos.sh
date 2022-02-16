@@ -31,7 +31,7 @@ for file in $files; do
     echo "Creating symlink to $file in home directory."
     ln -s $dir/$file ~/.$file
 done 
-for file in $HOME/dotfiles/scripts; do
+for file in $HOME/dotfiles/scripts/*; do
 ln -s $HOME/dotfiles/scripts/$file $HOME/.local/bin/$file 
 done 
 echo "Moving vifm"
@@ -104,10 +104,10 @@ python3-pip vifm universal-ctags ripgrep sed gitk  build-essential procps curl f
 automake cmake  g++ gettext libncurses5-dev libtool  libtool-bin libunibilium-dev libunibilium4 
 ninja-build pkg-config python3-pip software-properties-common unzip stpv 
 
-pip3 install neovim
-pip3 install neovim-remote 
-pip3 install setuptools
-pip3 install --upgrade pynvim 
-pip3 install trash-cli
+sudo pip3 install neovim
+sudo pip3 install neovim-remote 
+sudo pip3 install setuptools
+sudo pip3 install --upgrade pynvim 
+sudo pip3 install trash-cli
 mkdir $HOME/appimage
 
