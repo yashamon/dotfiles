@@ -1014,3 +1014,61 @@ exit
 : 1640894196:0;vrc
 : 1640895438:0;j /home/yasha/dotfiles
 : 1640895439:0;push
+: 1645060631:0;fd
+: 1645060634:0;lf
+: 1645060702:0;fd
+: 1645060705:0;lf
+: 1645060800:0;src
+: 1645060820:0;lf
+: 1645060833:0;fd
+: 1645060842:0;which fd
+: 1645060850:0;which fdfind
+: 1645060868:0;cp /usr/bin/fdfind/ ~/.local/bin/fd
+: 1645060884:0;cp /usr/bin/fdfind ~/.local/bin/fd
+: 1645060887:0;fd
+: 1645060891:0;zrc
+: 1645060898:0;lf
+: 1645061012:0;echo $EDITOR
+: 1645061034:0;export EDITOR=goneovim
+: 1645061038:0;lf
+: 1645061072:0;lfrc
+: 1645061112:0;lf
+: 1645062330:0;j /home/yashasavelyev/workspacemodules/fukaya
+: 1645062334:0;cd build
+: 1645062335:0;lf
+: 1645062433:0;quit
+: 1645062649:0;lf
+: 1645062746:0;sudo lf
+: 1645062770:0;sudo vifm
+: 1645062853:0;sudo cp ~/.local/bin/lf /usr/bin/lf
+: 1645062856:0;sudo lf
+: 1645063081:0;lf
+: 1645063122:0;nvim mimeinfo.cache
+: 1645063162:0;lf
+: 1645063224:0;nvim org.pwmt.zathura.desktop
+: 1645063249:0;lf
+: 1645063264:0;nvim mimeinfo.cache
+: 1645063490:0;cd $HOME/.local/share/applications
+: 1645063493:0;lf
+: 1645063534:0;nvim mimeapps.list
+: 1645063650:0;lf
+: 1645063661:0;nvim mimeapps.list
+: 1645063677:0;lf
+: 1645066086:0;j /home/yashasavelyev/workspacemodules/fukaya
+: 1645066091:0;neo fukayaI.tex
+: 1645066202:0;vrc
+: 1645066226:0;j /home/yashasavelyev/workspacemodules/fukaya
+: 1645066264:0;goneovim
+: 1645066368:0;vrc
+: 1645066556:0;j /home/yashasavelyev/dotfiles
+: 1645066558:0;git status
+: 1645066573:0;vrc
+: 1645066587:0;git status
+: 1645066601:0;cd ..
+: 1645066605:0;cd dotfiles
+: 1645066609:0;git status
+: 1645066665:0;lf
+: 1645066709:0;neo blah.tex
+: 1645066720:0;git status
+: 1645066724:0;neo blah
+: 1645066733:0;neo blah.tex
