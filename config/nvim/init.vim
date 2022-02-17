@@ -235,7 +235,7 @@ set smarttab		" insert tabs on the start of a line according to context
 set noerrorbells
 " set novisualbell 
 set guifont=Fira\ Code\ Light:h20
- colorscheme blue-moon
+colorscheme one
 " colorscheme material  
 " let g:material_style = 'palenight'  
 " let g:material_style = 'lighter'
@@ -643,6 +643,7 @@ endfunction
 
 function! ViewPdf() 
 wa
+silent execute "!echo " . v:servername . " > ~/servername.txt"
 let buf = bufname()
 let linenumber=line(".")
 let colnumber=col(".") 
