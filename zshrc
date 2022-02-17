@@ -446,7 +446,7 @@ setopt HIST_REDUCE_BLANKS
 setopt HIST_VERIFY
 setopt CORRECT
 setopt CORRECT_ALL
-HISTFILE=~/dotfiles/zsh_history
+HISTFILE=~/.zsh_history
 HISTSIZE=10000
 SAVEHIST=10000
 setopt appendhistory 
