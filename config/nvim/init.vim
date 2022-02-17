@@ -1466,7 +1466,7 @@ EOF
     " xmap T <Plug>Sneak_S
    " omap t <Plug>Sneak_s
     " omap T <Plug>Sneak_S   
-    " >Sneak_S+
+    " >Sneak_S+ test
 
     " math maps     asdf a;sldfjk test2 test3
 " 
