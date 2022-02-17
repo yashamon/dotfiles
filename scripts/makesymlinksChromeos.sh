@@ -31,7 +31,9 @@ for file in $files; do
     echo "Creating symlink to $file in home directory."
     ln -s $dir/$file ~/.$file
 done 
-for file in $HOME/dotfiles/scripts/*; do
+cd $HOME/dotfiles/scripts
+for file in *; do
+echo file
 ln -s $HOME/dotfiles/scripts/$file $HOME/.local/bin/$file 
 done 
 echo "Moving vifm"
