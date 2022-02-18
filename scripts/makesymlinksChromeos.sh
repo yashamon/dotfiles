@@ -46,7 +46,8 @@ ln -s ~/dotfiles/config ~/.config
 # ln -s ~/dotfiles/vifm ~/.config/vifm
 # ln -s ~/dotfiles/vifm ~/.config/vifm
 echo "Moving xmobarrc" 
-ln -s ~/dotfiles/xmonad/xmobar.hs ~/.xmobarrc
+ln -s ~/dotfiles/xmonad/xmobar.hs ~/.xmobarrc 
+ln -s ~/dotfiles/applications ~/.
 #     echo "Moving nvimrc"
 # mkdir ~/.config/nvim
 # rm ~/.config/nvim/init.vim
@@ -104,7 +105,8 @@ sudo apt install python3 kitty python-pip zathura zathura-ps zathura-djvu xdotoo
 texlive-base texlive-latex-base texlive-pstricks texlive-science texlive-xetex latexmk xclip fasd 
 python3-pip vifm universal-ctags ripgrep sed gitk  build-essential procps curl file git autoconf  
 automake cmake  g++ gettext libncurses5-dev libtool  libtool-bin libunibilium-dev libunibilium4 
-ninja-build pkg-config python3-pip software-properties-common unzip stpv 
+ninja-build pkg-config python3-pip software-properties-common 
+unzip stpv fdfind
 
 sudo pip3 install neovim
 sudo pip3 install neovim-remote 
