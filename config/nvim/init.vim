@@ -511,7 +511,7 @@ map <m-f> :FZF ~<CR>
 
 "miscellaneous
 map :tags  exe ":silent ! /usr/local/bin/ctags -R"
-nmap <leader>g :ZenMode<CR>
+nmap <leader>g :TZAtaraxis<CR>
 " nmap <leader>p :Denite neoyank -default-action=append<CR>
 
 " Latex stuff
