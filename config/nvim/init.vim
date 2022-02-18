@@ -417,8 +417,8 @@ nmap A g$a
 map 0 g^
 map 9 g$
 nmap <m-8> :set laststatus=0<cr>:set lines=100<cr>
-nnoremap <c-l> :w<CR>:bnext<CR>
-nnoremap <c-h> :w<CR>:bprevious<CR>
+nnoremap <c-l> :bnext<CR>
+nnoremap <c-h> :bprevious<CR>
 " tnoremap <Esc> <C-\> 
 " nnoremap < :tabp<CR>
 " nnoremap > :tabn<CR>
@@ -609,6 +609,7 @@ function! ToggleQuickFix()
         echo b:errors
         exec "caddf" b:errors 
         copen 
+        sleep 1
         exec "wincmd j"
         exec "/error"
     else
