@@ -616,7 +616,7 @@ function! ToggleQuickFix()
         endif
 endfunction
 
-nnoremap <leader>s :call ToggleQuickFix()<CR>
+nnoremap <leader>s :silent call ToggleQuickFix()<CR>
 function! ClearLatex()
   silent !rm ./buildback/*
 endfunction 
