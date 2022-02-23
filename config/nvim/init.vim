@@ -28,7 +28,7 @@ Plug 'famiu/feline.nvim'
 " Plug 'karb94/neoscroll.nvim'
 " Plug 'folke/twilight.nvim', { 'branch': 'main' }
 " Plug 'f3fora/cmp-spell'    
-Plug 'Pocco81/TrueZen.nvim', { 'branch': 'main' }
+" Plug 'Pocco81/TrueZen.nvim', { 'branch': 'main' }
 "Plug 'vim-commentary'
 "Plug 'b3nj5m1n/kommentary'
 " Plug 'simnalamburt/vim-mundo'
@@ -511,7 +511,7 @@ map <m-f> :FZF ~<CR>
 
 "miscellaneous
 map :tags  exe ":silent ! /usr/local/bin/ctags -R"
-nmap <leader>g :TZAtaraxis<CR>
+nmap <leader>g :ZenMode<CR>
 " nmap <leader>p :Denite neoyank -default-action=append<CR>
 
 " Latex stuff
