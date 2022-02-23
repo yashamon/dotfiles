@@ -614,7 +614,6 @@ function! ToggleQuickFix()
         exec "/error"
     else
         cclose 
-        lua require("zen-mode").open()
         endif
 endfunction
 
