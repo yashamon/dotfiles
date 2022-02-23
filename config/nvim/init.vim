@@ -56,7 +56,7 @@ Plug 'voldikss/vim-floaterm'
 " Plug 'windwp/nvim-spectre'
 " Plug 'xolox/vim-misc'
 Plug 'terrortylor/nvim-comment', { 'branch': 'main' }
-Plug 'kevinhwang91/nvim-bqf'
+" Plug 'kevinhwang91/nvim-bqf'
 Plug 'justinhoward/fzf-neoyank' 
 " Plug 'svermeulen/vim-cutlass'
 Plug 'kyazdani42/nvim-web-devicons' " for file icons
@@ -596,8 +596,7 @@ AsyncRun -silent if git rev-parse --is-inside-work-tree || git rev- parse --git-
 endfunction
 
 function! ToggleQuickFix() 
-       
-    if empty(filter(getwininfo(), 'v:val.quickfix'))  
+      if empty(filter(getwininfo(), 'v:val.quickfix'))
       exec "w"
         echo bufname()
         " lua require("zen-mode").close() 
@@ -605,21 +604,20 @@ function! ToggleQuickFix()
         let b:filenamedir=expand('%:p:h')  
         echo b:filenamedir
         let b:filename=expand('%:t:r')
-        let b:errors=b:filenamedir . "/buildback/" . b:filename .".log" 
+        let b:errors=b:filenamedir . "/buildback/" . b:filename .".log"
         echo b:errors
-        exec "caddf" b:errors 
-        copen 
+        exec "caddf" b:errors
+        copen
         sleep 1
         exec "wincmd j"
         exec "/error"
     else
-        cclose 
+        exec "cclose"
         endif
 endfunction
 
-au filetype tex nnoremap <silent> <leader>s :call ToggleQuickFix()<cr>
-
-function! ClearLatex() 
+nnoremap <leader>s :call ToggleQuickFix()<CR>
+function! ClearLatex()
   silent !rm ./buildback/*
 endfunction 
 
@@ -919,77 +917,77 @@ lua <<EOF
  )
 EOF
 nmap <leader>c gc
-lua <<EOF
-local true_zen = require("true-zen")
-true_zen.setup({
- 	ui = {
- 		bottom = {
- 			laststatus = 0,
- 			ruler = false,
- 			showmode = false,
- 			showcmd = false,
- 			cmdheight = 1,
- 		},
- 		top = {
- 			showtabline = 0,
- 		},
- 		left = {
- 			number = false,
- 			relativenumber = false,
- 			signcolumn = "no",
- 		},
- 	},
- 	modes = {
- 		ataraxis = {
- 			-- left_padding = 20,
- 			-- right_padding = 20,
- 			top_padding = 0,
- 			bottom_padding = 0,
- 			ideal_writing_area_width = {60},
- 			auto_padding = true,
- 			keep_default_fold_fillchars = true,
- 			custom_bg = {"none", ""},
- 			bg_configuration = true,
- 			quit = "untoggle",
- 			ignore_floating_windows = true,
- 			affected_higroups = {
- 				NonText = true,
- 				FoldColumn = true,
- 				ColorColumn = true,
- 				VertSplit = true,
- 				StatusLine = true,
- 				StatusLineNC = true,
- 				SignColumn = true,
- 			},
- 		},
- 		focus = {
- 			margin_of_error = 5,
- 			focus_method = "experimental"
- 		},
- 	},
- 	integrations = {
- 		vim_gitgutter = false,
- 		galaxyline = false,
- 		tmux = false,
- 		gitsigns = false,
- 		nvim_bufferline = false,
- 		limelight = false,
- 		twilight = false,
- 		vim_airline = false,
- 		vim_powerline = false,
- 		vim_signify = false,
- 		express_line = false,
- 		lualine = false,
- 		lightline = false,
- 		feline = false,
- 	},
- 	misc = {
- 		on_off_commands = true,
- 		ui_elements_commands = false,
- 		cursor_by_mode = false,
- 	}
- })
-EOF
+" lua <<EOF
+" local true_zen = require("true-zen")
+" true_zen.setup({
+"  	ui = {
+"  		bottom = {
+"  			laststatus = 0,
+"  			ruler = false,
+"  			showmode = false,
+"  			showcmd = false,
+"  			cmdheight = 1,
+"  		},
+"  		top = {
+"  			showtabline = 0,
+"  		},
+"  		left = {
+"  			number = false,
+"  			relativenumber = false,
+"  			signcolumn = "no",
+"  		},
+"  	},
+"  	modes = {
+"  		ataraxis = {
+"  			-- left_padding = 20,
+"  			-- right_padding = 20,
+"  			top_padding = 0,
+"  			bottom_padding = 0,
+"  			ideal_writing_area_width = {60},
+"  			auto_padding = true,
+"  			keep_default_fold_fillchars = true,
+"  			custom_bg = {"none", ""},
+"  			bg_configuration = true,
+"  			quit = "untoggle",
+"  			ignore_floating_windows = true,
+"  			affected_higroups = {
+"  				NonText = true,
+"  				FoldColumn = true,
+"  				ColorColumn = true,
+"  				VertSplit = true,
+"  				StatusLine = true,
+"  				StatusLineNC = true,
+"  				SignColumn = true,
+"  			},
+"  		},
+"  		focus = {
+"  			margin_of_error = 5,
+"  			focus_method = "experimental"
+"  		},
+"  	},
+"  	integrations = {
+"  		vim_gitgutter = false,
+"  		galaxyline = false,
+"  		tmux = false,
+"  		gitsigns = false,
+"  		nvim_bufferline = false,
+"  		limelight = false,
+"  		twilight = false,
+"  		vim_airline = false,
+"  		vim_powerline = false,
+"  		vim_signify = false,
+"  		express_line = false,
+"  		lualine = false,
+"  		lightline = false,
+"  		feline = false,
+"  	},
+"  	misc = {
+"  		on_off_commands = true,
+"  		ui_elements_commands = false,
+"  		cursor_by_mode = false,
+"  	}
+"  })
+" EOF
 lua <<EOF
 require('feline').setup({
     preset = 'noicon'
