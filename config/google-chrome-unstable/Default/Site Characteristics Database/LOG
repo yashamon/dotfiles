@@ -1,3 +1,2 @@
-2021/12/18-23:54:08.464 15981 Reusing MANIFEST /home/yasha/.config/google-chrome-unstable/Default/Site Characteristics Database/MANIFEST-000001
-2021/12/18-23:54:08.464 15981 Recovering log #3
-2021/12/18-23:54:08.464 15981 Reusing old log /home/yasha/.config/google-chrome-unstable/Default/Site Characteristics Database/000003.log 
+2022/03/11-09:34:59.883 8856 Creating DB /home/yasha/.config/google-chrome-unstable/Default/Site Characteristics Database since it was missing.
+2022/03/11-09:34:59.898 8856 Reusing MANIFEST /home/yasha/.config/google-chrome-unstable/Default/Site Characteristics Database/MANIFEST-000001

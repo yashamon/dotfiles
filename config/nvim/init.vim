@@ -252,7 +252,7 @@ au FileType Makefile set noexpandtab
 au FileType tex,text set spelllang=en 
 au FileType tex,text set noai nocin 
 
-au FileType tex,text,md set spell   
+" au FileType tex,text,md set spell   
 function Reset()
 TZAtaraxisOff 
 TZAtaraxisOn

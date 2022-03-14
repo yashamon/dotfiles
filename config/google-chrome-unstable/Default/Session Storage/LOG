@@ -1,3 +1,2 @@
-2021/12/18-10:35:53.487 5 Reusing MANIFEST /home/yasha/.config/google-chrome-unstable/Default/Session Storage/MANIFEST-000001
-2021/12/18-10:35:53.489 5 Recovering log #21
-2021/12/18-10:35:53.489 5 Reusing old log /home/yasha/.config/google-chrome-unstable/Default/Session Storage/000021.log 
+2022/03/11-09:35:01.244 5 Creating DB /home/yasha/.config/google-chrome-unstable/Default/Session Storage since it was missing.
+2022/03/11-09:35:01.280 5 Reusing MANIFEST /home/yasha/.config/google-chrome-unstable/Default/Session Storage/MANIFEST-000001
