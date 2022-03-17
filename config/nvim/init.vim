@@ -189,7 +189,7 @@ au VIMEnter * let g:surround_108 = {
      \'q':  " ``\r''"
      \ }
 let g:tex_flavor = "latex"
-let g:tex_isk = '@,48-57,58,_,192-255'
+" let g:tex_isk = '@,48-57,58,_,192-255'
 let g:tex_conceal = ""
 set tags+=~/workspacemodules/tags
 "set tags+=~/Dropbox/workspace/tags
@@ -252,7 +252,7 @@ au FileType Makefile set noexpandtab
 au FileType tex,text set spelllang=en 
 au FileType tex,text set noai nocin 
 
-" au FileType tex,text,md set spell   
+au FileType tex,text,md set spell   
 function Reset()
 TZAtaraxisOff 
 TZAtaraxisOn
@@ -1118,19 +1118,21 @@ EOF
 " 	auto_enable = false, -- do not start linting files on open (default = true)
 " 	default_cmds = false,  -- do not add commands (default = true)
 " })
-" EOF
-" lua <<EOF
-" require('spellsitter').setup {
-"   hl = 'SpellBad', 
-"   captures = {},  -- set to {} to spellcheck everything
-" 
-"   -- Spellchecker to use. values:
-"   -- * vimfn: built-in spell checker using vim.fn.spellbadword()
-"   -- * ffi: built-in spell checker using the FFI to access the
-"   --   internal spell_check() function
-" spellchecker = 'vimfn',
-" }
-" EOF
+" EOF 
+"
+"
+lua <<EOF
+require('spellsitter').setup {
+  hl = 'SpellBad', 
+  captures = {},  -- set to {} to spellcheck everything
+
+  -- Spellchecker to use. values:
+  -- * vimfn: built-in spell checker using vim.fn.spellbadword()
+  -- * ffi: built-in spell checker using the FFI to access the
+  --   internal spell_check() function
+spellchecker = 'vimfn',
+}
+EOF
 let g:firenvim_config = { 
     \ 'globalSettings': {
         \ 'alt': 'all',
