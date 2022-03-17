@@ -46,8 +46,9 @@ ln -s ~/dotfiles/config ~/.config
 # ln -s ~/dotfiles/vifm ~/.config/vifm
 # ln -s ~/dotfiles/vifm ~/.config/vifm
 echo "Moving xmobarrc" 
-ln -s ~/dotfiles/xmonad/xmobar.hs ~/.xmobarrc 
-ln -s ~/dotfiles/applications ~/.local/share/applications
+ln -s ~/dotfiles/xmonad/xmobar.hs ~/.xmobarrc  
+mkdir  ~/.local/share/applications
+cp -r ~/dotfiles/applications/* ~/.local/share/applications
 #     echo "Moving nvimrc"
 # mkdir ~/.config/nvim
 # rm ~/.config/nvim/init.vim
