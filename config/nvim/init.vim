@@ -189,7 +189,8 @@ au VIMEnter * let g:surround_108 = {
      \'q':  " ``\r''"
      \ }
 let g:tex_flavor = "latex"
-" let g:tex_isk = '@,48-57,58,_,192-255'
+let g:tex_isk = '@,48-57,58,_,192-255' 
+let g:tex_isk +=:
 let g:tex_conceal = ""
 set tags+=~/workspacemodules/tags
 "set tags+=~/Dropbox/workspace/tags
