@@ -17,6 +17,7 @@ text/txt=goneovim.desktop
 text/bib=goneovim.desktop
 BibTex/bib=goneovim.desktop
 BibTeX/bib=goneovim.desktop
+image/jpeg=eog.desktop
 
 [Added Associations]
 x-scheme-handler/http=firefox.desktop;userapp-Firefox-JWVFD1.desktop;userapp-Nightly-FNYID1.desktop;userapp-Nightly-641FE1.desktop;

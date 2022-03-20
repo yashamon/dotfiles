@@ -131,7 +131,7 @@ alias send=sendFunction
 alias tff="xinput disable 13"
 alias ton="xinput enable 13"
 alias ubuntu="sudo apt-get update; sudo apt-get upgrade"
-
+alias arch="sudo pacman -Sy archlinux-keyring && pacman -Su"
 # set dual monitors
 dual () {
     xrandr --output eDP-1 --primary --left-of HDMI-1 --output HDMI-1 --auto

@@ -622,19 +622,10 @@ function! ClearLatex()
   silent !rm ./buildback/* 
 endfunction 
 
-function! CompileLatexAndView()
-  silent call ClearLatex()
-  let buf = bufname()
-  " silent te latexmk -halt-on-error -synctex=1 -file-line-error -gg % 
-  silent lat -halt-on-error %
-  execute "buffer" buf
-  call ViewPdf()
-endfunction
-
 function! CompileLatex()
   silent call ClearLatex()
   let buf = bufname()
-  silent te latexmk -pvc -halt-on-error -synctex=1 -file-line-error -gg %
+  silent te latexmk -pvc -halt-on-error -synctex=1 -file-line-error -f -gg %
   execute "buffer" buf
   call ViewPdf()
 endfunction
