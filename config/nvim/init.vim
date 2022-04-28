@@ -190,7 +190,7 @@ au VIMEnter * let g:surround_108 = {
      \ }
 let g:tex_flavor = "latex"
 let g:tex_isk = '@,48-57,58,_,192-255,:' 
-let g:tex_isk +=':'
+au FileType tex setlocal iskeyword+=:
 let g:tex_conceal = ""
 set tags+=~/workspacemodules/tags
 "set tags+=~/Dropbox/workspace/tags
