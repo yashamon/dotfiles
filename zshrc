@@ -67,8 +67,10 @@ alias suru="su root; a"
 alias rec="recoll -q"
 alias vi="nvim"   
 alias ping="ping www.google.com"
-alias gone="$HOME/.local/bin/goneovim" 
-alias neo="$HOME/.local/bin/goneovim"
+alias gone="$HOME/.local/bin/goneovim/goneovim" 
+alias neo="$HOME/.local/bin/goneovim/goneovim" 
+alias goneovim="$HOME/.local/bin/goneovim/goneovim"
+
 alias neov="neovide --frameless --maximized --multigrid"
 # alias update="git submodule update --init --recursive ; git pull origin master"
 alias res="xrandr --newmode "1920x1080_60.00"  173.00  1920 2048 2248 2576  1080 1083 1088 1120; xrandr --addmode eDP-1 "1920x1080_60.00";

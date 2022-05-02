@@ -69,31 +69,6 @@ cp -r ~/dotfiles/applications/* ~/.local/share/applications
 # ln -s ~/dotfiles/termiteconfig ~/.config/termite/config
 # echo "Moving zshrc"
 # ln -s ~/dotfiles/zshrcChromeOs ~/.zshrc
-install_zsh () {
-# Test to see if zshell is installed.  If it is:
-if [ -f /bin/zsh -o -f /usr/bin/zsh ]; then
-    # Clone my oh-my-zsh repository from GitHub only if it isn't already present
-    if [[ ! -d $dir/oh-my-zsh/ ]]; then
-        git clone http://github.com/robbyrussell/oh-my-zsh.git
-    fi
-    # Set the default shell to zsh if it isn't currently set to zsh
-    if [[ ! $(echo $SHELL) == $(which zsh) ]]; then
-        chsh -s $(which zsh)
-    fi
-else
-    # If zsh isn't installed, get the platform of the current machine
-    platform=$(uname);
-    # If the platform is Linux, try an apt-get to install zsh and then recurse
-    if [[ $platform == 'Linux' ]]; then
-        sudo apt-get install zsh
-        install_zsh
-    # If the platform is OS X, tell the user to install zsh :)
-    elif [[ $platform == 'Darwin' ]]; then
-        echo "Please install zsh, then re-run this script!"
-        exit
-    fi
-fi
-}
 mkdir ~/.ctags.d
 ln -s ~/dotfiles/ctags ~/.ctags.d/latex.ctags
 # ln -s ~/dotfiles/config/nvim/lua/init.lua ~/.config/nvim/lua/init.lua
@@ -102,12 +77,10 @@ git config --global user.name "yashamon"
 git config --global user.email "yasha.savelyev@gmail.com"
 # pip3 install neovim, git clone https://github.com/romkatv/powerlevel10k.git $ZSH_CUSTOM/themes/powerlevel10k; mkdir -p $ZSH_CUSTOM/lib && touch $ZSH_CUSTOM/lib/misc.zsh
 
-sudo apt install kitty python-pip zathura zathura-ps zathura-djvu xdotool inkscape texlive 
-texlive-base texlive-latex-base texlive-pstricks texlive-science texlive-xetex latexmk xclip fasd 
-python3-pip vifm universal-ctags ripgrep sed gitk  build-essential procps curl file git autoconf  
-automake cmake  g++ gettext libncurses5-dev libtool  libtool-bin libunibilium-dev libunibilium4 
-ninja-build pkg-config python3-pip software-properties-common 
-unzip stpv fdfind inotify-tools trash-cli
+sudo apt install kitty zathura zathura-ps zathura-djvu xdotool inkscape texlive texlive-base texlive-latex-base texlive-pstricks texlive-science 
+texlive-xetex latexmk xclip fasd python3-pip vifm universal-ctags ripgrep sed gitk build-essential procps curl file git autoconf  automake cmake  g++ 
+gettext libncurses5-dev libtool  libtool-bin libunibilium-dev libunibilium4 ninja-build pkg-config software-properties-common unzip fd-find 
+inotify-tools trash-cli zsh wl-clipboard
 
 sudo pip3 install neovim
 sudo pip3 install neovim-remote 
@@ -115,4 +88,4 @@ sudo pip3 install setuptools
 sudo pip3 install --upgrade pynvim 
 sudo pip3 install trash-cli
 mkdir $HOME/appimage
-
+chsh -s $(which zsh)
