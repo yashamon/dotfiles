@@ -614,7 +614,7 @@ function! ToggleQuickFix()
         exec "/error"
     else
         exec "cclose" 
-        sleep 2
+        sleep .
         endif
 endfunction
 
