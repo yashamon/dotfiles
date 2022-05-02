@@ -613,7 +613,8 @@ function! ToggleQuickFix()
         exec "wincmd j"
         exec "/error"
     else
-        exec "cclose"
+        exec "cclose" 
+        sleep 1
         endif
 endfunction
 
