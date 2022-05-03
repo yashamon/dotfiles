@@ -50,7 +50,7 @@ cmd namepaste $cp-p --lf-paste $id
 map p :spaste
 map gp :paste
 cmd findfile ${{
-   res="$(fd . $HOME -H | fzf 2>/dev/tty | sed 's/\\/\\\\/g;s/"/\\"/g')"
+   res="$(fdfind . $HOME -H | fzf 2>/dev/tty | sed 's/\\/\\\\/g;s/"/\\"/g')"
    if [ -d "$res" ]; then
       cmd="cd"
    else
@@ -62,7 +62,7 @@ cmd findfile ${{
 map <a-f> :findfile
 
  cmd findfileroot ${{
-    res="$(fd . '/' -H | fzf --reverse --header='Jump to location')"
+    res="$(fdfind . '/' -H | fzf --reverse --header='Jump to location')"
     if [ -d "$res" ]; then
         cmd="cd"
     else 
@@ -79,7 +79,7 @@ map d :cut
 map D :trash
 map gd :delete
 cmd fzf_jump ${{
-    res="$(fd . -H -I -d 1 | fzf --reverse --header='Jump to location' | sed 's/\\/\\\\/g;s/"/\\"/g')"
+    res="$(fdfind . -H -I -d 1 | fzf --reverse --header='Jump to location' | sed 's/\\/\\\\/g;s/"/\\"/g')"
     if [ -d "$res" ]; then
         cmd="cd"
     else 
@@ -102,7 +102,7 @@ cmd fasd_dir ${{
 # map  :fasd_dir
 map J  :fasd_dir
 cmd Jhomedir ${{
-   res="$(fd . $HOME -t d -H | fzf 2>/dev/tty | sed 's/\\/\\\\/g;s/"/\\"/g')"
+   res="$(fdfind . $HOME -t d -H | fzf 2>/dev/tty | sed 's/\\/\\\\/g;s/"/\\"/g')"
    if [ -d "$res" ]; then
       cmd="cd"
    else
@@ -114,7 +114,7 @@ cmd Jhomedir ${{
 map <a-j> :Jhomedir  
 
 cmd Jrootdir ${{
-   res="$(fd . '/' -t d -H | fzf 2>/dev/tty | sed 's/\\/\\\\/g;s/"/\\"/g')"
+   res="$(fdfind . '/' -t d -H | fzf 2>/dev/tty | sed 's/\\/\\\\/g;s/"/\\"/g')"
    if [ -d "$res" ]; then
       cmd="cd"
    else
@@ -151,7 +151,7 @@ cmd open ${{
     esac
 }}
 map e :open 
-map n %goneovim $f 
+map n %~.goneovim $f 
 map gn %nvr --servername $(<~/servername.txt) --remote-silent $f
 # define a custom 'rename' command without prompt for overwrite 
 cmd spastename &{{
