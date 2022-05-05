@@ -675,6 +675,13 @@
     ],
     "description": "field S"
   },
+"pi": {
+    "prefix": "pi",
+    "body": [
+  "\\pi _{$1} $0"
+    ],
+    "description": "field Q"
+  },
 
 "field Q": {
     "prefix": "fQ",
