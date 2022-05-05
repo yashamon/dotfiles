@@ -82,6 +82,14 @@
     "description": "image"
     },  
 
+"tensor times": {
+    "prefix": "ot",
+    "body": [
+        "\\otimes $0"
+       ],
+    "description": "tensor times"
+    },  
+
 "times": {
     "prefix": "t",
     "body": [
@@ -987,6 +995,13 @@
     ],
     "description": "Delta d-simplex"
   },
+"Delta d-simplex bullet": {
+    "prefix": ["Ddb"],
+    "body": [
+      "\\Delta^{$1} _{\bullet} $0"
+    ],
+    "description": "Delta d-simplex bullet"
+  },   
 
 "Delta d-simplex": {
     "prefix": ["Dd"],
