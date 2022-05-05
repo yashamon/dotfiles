@@ -397,9 +397,9 @@ inoremap / \
 vnoremap p "0dP 
 inoremap <C-p> <C-r>"+
 " noremap D "0D:wa<cr>
-noremap d "0d
-nnoremap dd "0dd
-noremap c "0c
+noremap d "_d
+nnoremap dd "_dd
+noremap c "_c
 noremap C "_C
 noremap x "_x
 vnoremap x "+x
