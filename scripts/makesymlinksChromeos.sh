@@ -77,11 +77,8 @@ git config --global user.name "yashamon"
 git config --global user.email "yasha.savelyev@gmail.com"
 # pip3 install neovim, git clone https://github.com/romkatv/powerlevel10k.git $ZSH_CUSTOM/themes/powerlevel10k; mkdir -p $ZSH_CUSTOM/lib && touch $ZSH_CUSTOM/lib/misc.zsh
 
-sudo apt install kitty zathura zathura-ps zathura-djvu xdotool inkscape texlive texlive-base texlive-latex-base texlive-pstricks texlive-science 
-texlive-xetex latexmk xclip fasd python3-pip vifm universal-ctags ripgrep sed gitk build-essential procps curl file git autoconf  automake cmake  g++ 
-gettext libncurses5-dev libtool  libtool-bin libunibilium-dev libunibilium4 ninja-build pkg-config software-properties-common unzip fd-find 
-inotify-tools trash-cli zsh wl-clipboard
-
+sudo apt install kitty zathura zathura-ps zathura-djvu xdotool inkscape texlive texlive-base texlive-latex-base texlive-pstricks texlive-science texlive-xetex latexmk xclip fasd python3-pip vifm universal-ctags ripgrep sed gitk build-essential procps curl file git autoconf  automake cmake  g++ gettext libncurses5-dev libtool  libtool-bin libunibilium-dev libunibilium4 ninja-build pkg-config software-properties-common unzip fd-find inotify-tools trash-cli zsh wl-clipboard qtwayland5 libwayland-dev libwayland-egl1-mesa libwayland-server0 libgles2-mesa-dev libxkbcommon-dev 
+libqt5waylandclient5
 sudo pip3 install neovim
 sudo pip3 install neovim-remote 
 sudo pip3 install setuptools
