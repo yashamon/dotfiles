@@ -239,9 +239,21 @@
       "$0"
       ],
     "description": "proposition"
-  }, 
+  },  
+"question": {
+    "prefix": "question",
+    "body": [
+      "\\begin{question}", 
+      "\t\\label{question:$1}", 
+      "$2", 
+      "\\end{question}",
+      "$0"
+   ],
+    "description": "question"
+  },
+
 "remark": {
-    "prefix": "rem",
+    "prefix": "remark",
     "body": [
       "\\begin{remark}", 
       "\t\\label{remark:$1}", 
