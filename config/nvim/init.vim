@@ -1460,7 +1460,7 @@ EOF
    " omap t <Plug>Sneak_s
     " omap T <Plug>Sneak_S   
     " >Sneak_S+ test
-
+testu
     " math maps     asdf a;sldfjk test2 spank   
 " 
 " silent execute 'AsyncRun if git rev-parse --is-inside-work-tree || git rev-parse --git-dir > /dev/null 2>&1 ; then git add % ; git commit -m -a ; git push --all origin; fi'
