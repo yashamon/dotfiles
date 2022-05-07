@@ -235,7 +235,11 @@ set smarttab		" insert tabs on the start of a line according to context
 " disable sound on errors
 set noerrorbells
 " set novisualbell 
+<<<<<<< HEAD
 set guifont=Fira\ Code\ Light:h10
+=======
+set guifont=Fira\ Code\ Light:h9
+>>>>>>> 887c400ef8f4da28c3ccc75ce4435cb508a75986
 colorscheme one
 " colorscheme material  
 " let g:material_style = 'palenight'  
@@ -397,21 +401,19 @@ inoremap / \
 vnoremap p "0dP 
 inoremap <C-p> <C-r>"+
 " noremap D "0D:wa<cr>
-noremap d "0d
-nnoremap dd "0dd
-noremap c "0c
+noremap d "_d
+nnoremap dd "_dd
+noremap c "_c
 noremap C "_C
 noremap x "_x
-" nnoremap v "+v
 vnoremap x "+x
-vnoremap d "0d
-vnoremap c "0c  
+vnoremap d "_d  
+vnoremap c "_c  
 vnoremap y "+y
 nnoremap y "+y
 nnoremap p "+p
-nnoremap <leader>p p
 nnoremap <leader>q q
-" Softwrap 
+" Softwrap  
 nmap D "0dg$
 nmap V vg$
 nmap A g$a 
@@ -523,6 +525,22 @@ noremap <c-p> :<c-r>+<cr>
 noremap <m-l> viwy:bdelete<cr>:execute "buffer" g:buf<cr>:<c-r>+<cr>:ZenMode<cr><cr>
 " noremap <m-l> viwy<esc>:bp<cr>:<c-r>+<cr>
 
+"FZF Neoyank yank     
+"
+nnoremap <leader>y :FZFNeoyank<cr>
+nnoremap <leader>Y :FZFNeoyank  P<cr>
+vnoremap <leader>y :FZFNeoyankSelection<cr>
+
+nnoremap <leader>p :FZFNeoyank +<cr> 
+nnoremap <leader>1 :FZFNeoyank 1<cr>
+nnoremap <leader>P :FZFNeoyank " P+<cr>
+vnoremap <leader>p :FZFNeoyankSelection +<cr>
+
+
+" Replace the default dictionary completion with fzf-based fuzzy completion
+
+inoremap <expr> <c-x><c-k> fzf#vim#complete('cat /usr/share/dict/words')  
+
 
 "Functions
 
@@ -584,7 +602,7 @@ function! Sentence()
   let g:buf = bufname()
   silent !sentence.sh %
   silent echo "Print any character"
-  silent call getchar()
+  " silent call getchar()
   e sentence_%
   " echo "Print any character"
   " call getchar()
@@ -613,7 +631,8 @@ function! ToggleQuickFix()
         exec "wincmd j"
         exec "/error"
     else
-        exec "cclose"
+        exec "cclose" 
+        sleep 1
         endif
 endfunction
 
@@ -780,21 +799,6 @@ end)
 EOF
 
 "
-
-
-nnoremap <leader>y :FZFNeoyank<cr>
-nnoremap <leader>Y :FZFNeoyank  P<cr>
-vnoremap <leader>y :FZFNeoyankSelection<cr>
-
-nnoremap <leader>p :FZFNeoyank +<cr> 
-nnoremap <leader>1 :FZFNeoyank 1<cr>
-nnoremap <leader>P :FZFNeoyank " P+<cr>
-vnoremap <leader>p :FZFNeoyankSelection +<cr>
-
-
-" Replace the default dictionary completion with fzf-based fuzzy completion
-
-inoremap <expr> <c-x><c-k> fzf#vim#complete('cat /usr/share/dict/words')  
 " inoremap <cr> <cr> <backspace>
 
 set completeopt=menu,menuone,noselect
@@ -1460,8 +1464,8 @@ EOF
    " omap t <Plug>Sneak_s
     " omap T <Plug>Sneak_S   
     " >Sneak_S+ test
-
-    " math maps     asdf a;sldfjk test2 test3
+testu
+    " math maps     asdf a;sldfjk test2 spank   
 " 
 " silent execute 'AsyncRun if git rev-parse --is-inside-work-tree || git rev-parse --git-dir > /dev/null 2>&1 ; then git add % ; git commit -m -a ; git push --all origin; fi'
 " let g:vimtex_view_general_options = '-r @line @pdf @
