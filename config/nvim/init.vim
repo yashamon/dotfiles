@@ -235,7 +235,7 @@ set smarttab		" insert tabs on the start of a line according to context
 " disable sound on errors
 set noerrorbells
 " set novisualbell 
-set guifont=Fira\ Code\ Light:h20
+set guifont=Fira\ Code\ Light:h9
 colorscheme one
 " colorscheme material  
 " let g:material_style = 'palenight'  
@@ -598,7 +598,7 @@ function! Sentence()
   let g:buf = bufname()
   silent !sentence.sh %
   silent echo "Print any character"
-  silent call getchar()
+  " silent call getchar()
   e sentence_%
   " echo "Print any character"
   " call getchar()
