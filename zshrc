@@ -558,7 +558,7 @@ export XDG_CONFIG_HOME=$HOME/.config
 # export MANPATH="/usr/local/man:$MANPATH"
 # You may need to manually set your language environment
 export LANG=en_US.UTF-8  
-export PATH="$HOME/.config/sway/modules:$HOME/appimage:/home/linuxbrew/.linuxbrew/bin:/usr/local/bin:/usr/sbin:/sbin:/bin:$HOME/.local/bin:/root/.cabal/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:$HOME/.cabal/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:$HOME/.local/bin:$HOME/.local/bin/scripts:$HOME/.cargo/bin:/snap/bin:/data/data/com.termux/files/usr/bin/applets:/data/data/com.termux/files/usr/bin:bin:/usr/local/sbin:/usr/bin:$HOME/.local/share/nvim/lspinstall:$HOME/skia-binaries:$HOME/ninja"
+export PATH="/opt:$HOME/.config/sway/modules:$HOME/appimage:/home/linuxbrew/.linuxbrew/bin:/usr/local/bin:/usr/sbin:/sbin:/bin:$HOME/.local/bin:/root/.cabal/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:$HOME/.cabal/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:$HOME/.local/bin:$HOME/.local/bin/scripts:$HOME/.cargo/bin:/snap/bin:/data/data/com.termux/files/usr/bin/applets:/data/data/com.termux/files/usr/bin:bin:/usr/local/sbin:/usr/bin:$HOME/.local/share/nvim/lspinstall:$HOME/skia-binaries:$HOME/ninja"
 if [[ -n $SSH_CONNECTION ]]; then
    export EDITOR='nvim'
  else
@@ -566,4 +566,7 @@ if [[ -n $SSH_CONNECTION ]]; then
  fi
 export vi="neovide" 
 
-if [ -e /home/yasha/.nix-profile/etc/profile.d/nix.sh ]; then . /home/yasha/.nix-profile/etc/profile.d/nix.sh; fi # added by Nix installer
+if [ -e /home/yasha/.nix-profile/etc/profile.d/nix.sh ]; then . /home/yasha/.nix-profile/etc/profile.d/nix.sh; fi # added by Nix installer 
+export QT_SCALE_FACTOR=2 
+export GDK_SCALE=2 
+export QT_QPA_PLATFORM=wayland
