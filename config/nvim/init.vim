@@ -235,11 +235,7 @@ set smarttab		" insert tabs on the start of a line according to context
 " disable sound on errors
 set noerrorbells
 " set novisualbell 
-<<<<<<< HEAD
 set guifont=Fira\ Code\ Light:h10
-=======
-set guifont=Fira\ Code\ Light:h9
->>>>>>> 887c400ef8f4da28c3ccc75ce4435cb508a75986
 colorscheme one
 " colorscheme material  
 " let g:material_style = 'palenight'  
@@ -1464,13 +1460,11 @@ EOF
    " omap t <Plug>Sneak_s
     " omap T <Plug>Sneak_S   
     " >Sneak_S+ test
-testu
     " math maps     asdf a;sldfjk test2 spank   
 " 
 " silent execute 'AsyncRun if git rev-parse --is-inside-work-tree || git rev-parse --git-dir > /dev/null 2>&1 ; then git add % ; git commit -m -a ; git push --all origin; fi'
 " let g:vimtex_view_general_options = '-r @line @pdf @
 """ pandoc backup -s html -o markdown cp backup.html %<cr>:e %<cr>:w<cr>:qa<cr>  asldkfj
-
 " <cr>
 " ; pandoc backup.html > backup.md; cp backup.md %<cr>:e %<cr>
 " NB: this supports "rp that replaces the selection by the contents of @r
