@@ -232,6 +232,7 @@ set nobackup		" no *~ backup files
 set ignorecase		" ignore case when searching
 set smartcase		" ignore case if search pattern is all lowercase,case-sensitive otherwise
 set smarttab		" insert tabs on the start of a line according to context
+set spell   
 
 " disable sound on errors
 set noerrorbells
@@ -254,7 +255,6 @@ au FileType Makefile set noexpandtab
 au FileType tex,text set spelllang=en 
 " au FileType tex,text set noai nocin 
 
-au FileType tex,text,md set spell   
 function Reset()
 TZAtaraxisOff 
 TZAtaraxisOn
@@ -1117,17 +1117,17 @@ EOF
 "
 "
 lua <<EOF
-require('spellsitter').setup {
-  hl = 'SpellBad', 
-  captures = {},  -- set to {} to spellcheck everything
-
-  -- Spellchecker to use. values:
-  -- * vimfn: built-in spell checker using vim.fn.spellbadword()
-  -- * ffi: built-in spell checker using the FFI to access the
-  --   internal spell_check() function
-spellchecker = 'vimfn',
-}
-EOF
+" require('spellsitter').setup {
+"   hl = 'SpellBad', 
+"   captures = {},  -- set to {} to spellcheck everything
+"
+"   -- Spellchecker to use. values:
+"   -- * vimfn: built-in spell checker using vim.fn.spellbadword()
+"   -- * ffi: built-in spell checker using the FFI to access the
+"   --   internal spell_check() function
+" spellchecker = 'vimfn',
+" }
+" EOF
 let g:firenvim_config = { 
     \ 'globalSettings': {
         \ 'alt': 'all',
@@ -1462,7 +1462,7 @@ EOF
    " omap t <Plug>Sneak_s
     " omap T <Plug>Sneak_S   
     " >Sneak_S+ test
-    " math maps     asdf a;sldfjk test2 spank   
+    " math maps     
 " 
 " silent execute 'AsyncRun if git rev-parse --is-inside-work-tree || git rev-parse --git-dir > /dev/null 2>&1 ; then git add % ; git commit -m -a ; git push --all origin; fi'
 " let g:vimtex_view_general_options = '-r @line @pdf @
