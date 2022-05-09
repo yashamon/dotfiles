@@ -4,10 +4,10 @@ Plug 'rebelot/kanagawa.nvim'
 " Plug 'reedes/vim-pencil' 
 " Plug 'folke/which-key.nvim', { 'branch': 'main' }
 " Plug 'folke/zen-mode.nvim', {  'branch': 'main' } 
-Plug 'lewis6991/spellsitter.nvim'
+" Plug 'lewis6991/spellsitter.nvim'
 " Plug 'radenling/vim-dispatch-neovim'  
 " Plug 'tpope/vim-dispatch'
-Plug 'sheerun/vim-polyglot' 
+" Plug 'sheerun/vim-polyglot' 
 Plug 'ibhagwan/fzf-lua', { 'branch': 'main' }
 Plug 'vijaymarupudi/nvim-fzf'
 Plug 'kyazdani42/nvim-web-devicons'
@@ -118,7 +118,7 @@ Plug 'mbbill/undotree', { 'on': 'UndotreeToggle' }
  '}
 Plug 'lifepillar/vim-solarized8'
 Plug 'vim-scripts/AutoTag'
-Plug 'vim-scripts/vim-auto-save'
+" Plug 'vim-scripts/vim-auto-save'
 " Plug 'vim-pandoc/vim-pandoc'
 
 " Plug 'yashamon/vim-snippets'
@@ -174,7 +174,7 @@ set termguicolors
 set guicursor=n-v-c:block,i-ci-ve:ver25,r-cr:hor20,o:hor50
  		  \,a:blinkwait700-blinkoff400-blinkon250-Cursor/lCursor
  		  \,sm:block-blinkwait175-blinkoff150-blinkon175
-set spelllang=en   
+set spelllang=en_us  
 if exists('g:started_by_firenvim')
      autocmd VimEnter set noshowmode
      autocmd VimEnter set noruler
@@ -245,14 +245,13 @@ colorscheme one
 " highlight Normal ctermbg=none
 set tm=1000
 " set macreta 
-hi clear SpellBad
 hi SpellBad cterm=underline
 " Set style for gVim
 hi SpellBad gui=underline
 "
 "Autocommands, au
 au FileType Makefile set noexpandtab
-au FileType tex,text set spelllang=en 
+au FileType tex,text set spelllang=en_us
 " au FileType tex,text set noai nocin 
 
 function Reset()
@@ -275,7 +274,6 @@ function Server()
 endfunction
 nmap <leader>nn :call Server()
 
-au FileType tex,text,md hi SpellBad cterm=undercurl
 au Filetype tex,text,md vmap q xi<CR><CR><CR><CR><ESC>kki/begin{comment}<cr><cr>/end{comment}<esc>kp  
 
 au Filetype tex,text,md set tw=50 
@@ -1116,7 +1114,7 @@ EOF
 " EOF 
 "
 "
-lua <<EOF
+" lua <<EOF
 " require('spellsitter').setup {
 "   hl = 'SpellBad', 
 "   captures = {},  -- set to {} to spellcheck everything
@@ -1128,6 +1126,7 @@ lua <<EOF
 " spellchecker = 'vimfn',
 " }
 " EOF
+
 let g:firenvim_config = { 
     \ 'globalSettings': {
         \ 'alt': 'all',
@@ -1455,14 +1454,7 @@ EOF
 " map t <Plug>(smalls-excursion)
 " let g:smalls_auto_jump=1
 " let g:smalls_auto_jump_timeout=0
-
-
-    " xmap t <Plug>Sneak_s
-    " xmap T <Plug>Sneak_S
-   " omap t <Plug>Sneak_s
-    " omap T <Plug>Sneak_S   
-    " >Sneak_S+ test
-    " math maps     
+    
 " 
 " silent execute 'AsyncRun if git rev-parse --is-inside-work-tree || git rev-parse --git-dir > /dev/null 2>&1 ; then git add % ; git commit -m -a ; git push --all origin; fi'
 " let g:vimtex_view_general_options = '-r @line @pdf @
