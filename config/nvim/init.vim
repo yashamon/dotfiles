@@ -160,7 +160,7 @@ set noshowmatch
 set wrap  
 set pb=10  
 set winbl=10
-set switchbuf=newtab 
+set switchbuf=newtab
 " let g:python3_host_prog='/usr/bin/python3.9'
 " let g:python3_host_prog='/usr/bin/python3.9'
 
@@ -252,7 +252,7 @@ hi SpellBad gui=underline
 "Autocommands, au
 au FileType Makefile set noexpandtab
 au FileType tex,text set spelllang=en 
-au FileType tex,text set noai nocin 
+" au FileType tex,text set noai nocin 
 
 au FileType tex,text,md set spell   
 function Reset()
@@ -276,9 +276,10 @@ endfunction
 nmap <leader>nn :call Server()
 
 au FileType tex,text,md hi SpellBad cterm=undercurl
-au Filetype tex,text,md vmap q xi<CR><CR><CR><CR><ESC>kki/begin{comment}<cr><cr>/end{comment}<esc>kp 
+au Filetype tex,text,md vmap q xi<CR><CR><CR><CR><ESC>kki/begin{comment}<cr><cr>/end{comment}<esc>kp  
+
 au Filetype tex,text,md set tw=50 
-au Filetype tex,text,md set fo=tc
+" au Filetype tex,text,md set fo=tc
 " au FileType tex set background=dark 
 au TextYankPost * lua vim.highlight.on_yank {higroup="IncSearch", timeout=150, on_visual=true}
 au TextYankPost * call neoyank#_append() 
