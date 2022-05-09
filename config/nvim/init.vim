@@ -154,7 +154,8 @@ set title
 " set noshowmode
 " set noruler       
 " set laststatus=1 
-set noshowcmd   
+set noshowcmd    
+let ind = indent(prevnonblank(v:lnum - 1))
 set noshowmatch  
 set wrap  
 set pb=10  
