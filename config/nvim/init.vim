@@ -447,25 +447,8 @@ nnoremap <silent> <Leader>y :YRGetElem<CR>
 map ' "
 inoremap <D-]> <C-x><C-]>
 inoremap <C-]> <C-x><C-]> 
-inoremap <cr> <cr><space><esc>i 
-   a  s;ldkfj      s;ldkfj s;ldkfj
-   asdf  s;ldkfj            
-         
-    
-    
+inoremap <cr> <cr><space><esc>s 
    
-
-    
-    as;ldkfj
-    a;lskd jfasl;dfkj a;sdlfjk
-
-   a;slkdjf
-   a;sldfjk 
-    
-     
-    
-
-
 au FileType tex,text,md nmap 0 g^
 au FileType tex,text,md noremap 9 g$
 " au FileType tex,text,md nnoremap dd "_g^dg$g^
