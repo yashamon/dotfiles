@@ -116,7 +116,7 @@ Plug 'junegunn/fzf.vim'
  "  " Plug 'tpope/vim-surround'
 " Unmanaged plugin (manually installed and updated)
 " Plug '~/my-prototype-plugin'
-" Add plugins to &runtimepath
+" Add plugins to &runtimepath 
 call plug#end() 
 
 "Neovide 
@@ -132,7 +132,6 @@ set title
 " set noruler       
 " set laststatus=1 
 set noshowcmd    
-let ind = indent(prevnonblank(v:lnum - 1))
 set noshowmatch  
 set wrap  
 set pb=10  
@@ -376,7 +375,8 @@ inoremap <C-p> <C-r>"+
 " noremap D "0D:wa<cr>
 noremap d "_d
 nnoremap dd "_dd
-noremap c "_c
+noremap c "_c 
+noremap s "_s
 noremap C "_C
 noremap x "_x
 vnoremap x "+x
@@ -446,7 +446,25 @@ inoremap <expr> <CR> pumvisible() ? "\<C-y>" : "\<C-g>u\<CR>"
 nnoremap <silent> <Leader>y :YRGetElem<CR>
 map ' "
 inoremap <D-]> <C-x><C-]>
-inoremap <C-]> <C-x><C-]>
+inoremap <C-]> <C-x><C-]> 
+inoremap <cr> <cr><space><esc>i 
+   a  s;ldkfj      s;ldkfj s;ldkfj
+   asdf  s;ldkfj            
+         
+    
+    
+   
+
+    
+    as;ldkfj
+    a;lskd jfasl;dfkj a;sdlfjk
+
+   a;slkdjf
+   a;sldfjk 
+    
+     
+    
+
 
 au FileType tex,text,md nmap 0 g^
 au FileType tex,text,md noremap 9 g$
