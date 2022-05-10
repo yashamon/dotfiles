@@ -447,13 +447,20 @@ nnoremap <silent> <Leader>y :YRGetElem<CR>
 map ' "
 inoremap <D-]> <C-x><C-]>
 inoremap <C-]> <C-x><C-]>
-inoremap <cr> <cr><space><esc>i
+inoremap <cr> <cr><space><esc>xi
 nnoremap p "+p
 inoremap [ <cr>
    asdf
    asdf 
-   a;a;sdlkfj    
-    a;s 
+   a;a;sdlkfj     
+    a;s a;sdf
+    nnoremap p "+p
+ nnoremap a;sdklfj 
+ a;lskdjf 
+ a;sdlkfj
+ a;skldjf 
+  p "+p
+
 
   
    
