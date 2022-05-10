@@ -439,7 +439,7 @@ noremap <m-2> <C-i>
 noremap <D-d> <C-d> 
 map ;s <Esc>:w<CR>
 noremap <D-u> <C-u>
-noremap <A-u> <C-u>
+noremap <A-u> <C-u> 
 " this mapping Enter key to <C-y> to chose the current highlight item 
 " and close the selection list, same as other IDEs.
 inoremap <expr> <CR> pumvisible() ? "\<C-y>" : "\<C-g>u\<CR>"
@@ -447,22 +447,9 @@ nnoremap <silent> <Leader>y :YRGetElem<CR>
 map ' "
 inoremap <D-]> <C-x><C-]>
 inoremap <C-]> <C-x><C-]>
-inoremap <cr> <cr><space><esc>xi
+inoremap <cr> <cr><space><esc>s
 nnoremap p "+p
 inoremap [ <cr>
-   asdf
-   asdf 
-   a;a;sdlkfj     
-    a;s a;sdf
-    nnoremap p "+p
- nnoremap a;sdklfj 
- a;lskdjf 
- a;sdlkfj
- a;skldjf 
-  p "+p
-
-
-  
    
 au FileType tex,text,md nmap 0 g^
 au FileType tex,text,md noremap 9 g$
