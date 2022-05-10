@@ -177,7 +177,7 @@ set listchars=eol:¬,tab:>·,trail:~,extends:>,precedes:<,space:␣
 set wrap
 set linebreak 
 set formatoptions+=w " set breakat=" "
-" set list  " list disables linebreak
+" set list  " list disables linebreak whitespace
 " set textwidth=0
 set wrapmargin=-1
 set hid
@@ -297,7 +297,7 @@ autocmd FileType css set omnifunc=csscomplete#CompleteCSS
 autocmd FileType c set omnifunc=ccomplete#Complete
 autocmd FileType java set omnifunc=javacomplete#Complete 
 autocmd FileType tex set omnifunc=latex#Complete
-autocmd Filetype tex setlocal fo=nt
+" autocmd Filetype tex setlocal fo=nt
 autocmd Filetype tex setlocal wrapmargin=0
 " use syntax complete if nothing else available
 if has("autocmd") && exists("+omnifunc")
@@ -375,13 +375,13 @@ inoremap <C-p> <C-r>"+
 " noremap D "0D:wa<cr>
 noremap d "_d
 nnoremap dd "_dd
-noremap c "_c 
+noremap c "_c
 noremap s "_s
 noremap C "_C
 noremap x "_x
 vnoremap x "+x
-vnoremap d "_d  
-vnoremap c "_c  
+vnoremap d "_d
+vnoremap c "_c
 vnoremap y "+y
 nnoremap y "+y
 nnoremap p "+p
@@ -389,7 +389,7 @@ nnoremap <leader>q q
 " Softwrap  
 nmap D "0dg$
 nmap V vg$
-nmap A g$a 
+nmap A g$a
 map 0 g^
 map 9 g$
 nmap <m-8> :set laststatus=0<cr>:set lines=100<cr>
@@ -684,7 +684,7 @@ require'nvim-treesitter.configs'.setup {
     },
   },
     textobjects = { enable = true },
-    indent = { enable = true }, 
+    indent = { enable = false },
 }
 EOF
 
