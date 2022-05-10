@@ -448,14 +448,10 @@ map ' "
 inoremap <D-]> <C-x><C-]>
 inoremap <C-]> <C-x><C-]> 
 inoremap <cr> <cr><space><esc>xi  
-imap p "+p  
+nmap p "+p  
+  
+    
 
-   as;dlfj
-   as;dlf
-  aa;sldfj   
-  
-  a
-  
   
    
 au FileType tex,text,md nmap 0 g^
