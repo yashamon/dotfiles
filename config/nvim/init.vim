@@ -446,14 +446,14 @@ inoremap <expr> <CR> pumvisible() ? "\<C-y>" : "\<C-g>u\<CR>"
 nnoremap <silent> <Leader>y :YRGetElem<CR>
 map ' "
 inoremap <D-]> <C-x><C-]>
-inoremap <C-]> <C-x><C-]> 
-inoremap <cr> <cr><space><esc>xi
-nmap p "+p  
+inoremap <C-]> <C-x><C-]>
+inoremap <cr> <cr><space><esc>i
+nnoremap p "+p
 inoremap [ <cr>
-      
-     
-     
-    
+   asdf
+   asdf 
+   a;a;sdlkfj    
+    a;s 
 
   
    
