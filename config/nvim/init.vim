@@ -449,7 +449,7 @@ inoremap <D-]> <C-x><C-]>
 inoremap <C-]> <C-x><C-]> 
 inoremap <cr> <cr><space><esc>xi  
 nmap p "+p  
-  
+inoremap [ <cr> 
     
 
   
