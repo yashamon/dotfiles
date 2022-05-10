@@ -448,7 +448,6 @@ map ' "
 inoremap <D-]> <C-x><C-]>
 inoremap <C-]> <C-x><C-]>
 inoremap <cr> <cr><space><esc>s
-nnoremap p "+p
 inoremap [ <cr>
    
 au FileType tex,text,md nmap 0 g^
