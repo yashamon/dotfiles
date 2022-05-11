@@ -27,6 +27,7 @@ Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'neovim/nvim-lspconfig',  { 'branch': 'main' } 
 Plug 'junegunn/fzf.vim'
 Plug 'vim-scripts/AutoTag'
+Plug 'mbbill/undotree', { 'on': 'UndotreeToggle' }
 
 " Plug 'rebelot/kanagawa.nvim'
 " Plug 'reedes/vim-pencil' 
@@ -86,7 +87,6 @@ Plug 'vim-scripts/AutoTag'
 " " Plug 'vim-pandoc/vim-pandoc-syntax' 
 " " Plugin outside ~/.vim/plugged with post-update hook
 " Plug 'junegunn/fzf', { 'do': './install --all' }
-" Plug 'mbbill/undotree', { 'on': 'UndotreeToggle' }
 "  '}
 " Plug 'lifepillar/vim-solarized8'
 " " Plug 'vim-scripts/vim-auto-save'
@@ -1124,12 +1124,7 @@ require('fzf-lua').setup{
 -- ...
 }
 EOF
-" Nerd Tree
-map <leader>e :NERDTreeFind<CR>a;sldk jf;aslkdjf ;asldfjk  a;sldkjf a;sldfkj  asd;flkj asd;lfkja s;dfljkasd f;lakjsdf ;alsdkjf.
-" Nerd Tree
-map <leader>e :NERDTreeFind<CR>
 
-      
  
 " lua << EOF
 " require("stabilize").setup(
@@ -1449,7 +1444,6 @@ map <leader>e :NERDTreeFind<CR>
 " NB: this supports "rp that replaces the selection by the contents of @r
 " Auto updating Ctags
 " autocmd VimLeave * exe ":silent ! ctags -R"
-" map <C-e> :NERDTreeToggle<CR>:NERDTreeMirror<CR>
 "
 "" lua << EOF
 " local function setup_servers()
