@@ -327,10 +327,9 @@ set fileencoding=utf-8
 " 
 tnoremap <A-Esc> <C-\><C-n>
 nmap <A-S-t> :te<cr>
- vnoremap <Leader>U ""y:%s/<C-r>"
+vnoremap <Leader>U ""y:%s/<C-r>"
 noremap <leader>r :w<cr>:e<cr> 
-inoremap <cr> <cr><esc>:w<cr>a
-inoremap . .<esc>:w<cr>a
+" inoremap . .<esc>:w<cr>a
 
 noremap <leader>hh :set tw=50<cr>
 noremap <leader>w :set tw=0<cr> 
@@ -369,11 +368,12 @@ inoremap / \
 
 " copy paste stuff 
 " 
-vnoremap p "0dP 
+vnoremap p "_dP
 inoremap <C-p> <C-r>"+
 " noremap D "0D:wa<cr>
 noremap d "_d
 nnoremap dd "_dd
+noremap c "_c
 noremap c "_c
 noremap s "_s
 noremap C "_C
@@ -385,6 +385,8 @@ vnoremap y "+y
 nnoremap y "+y
 nnoremap p "+p
 nnoremap <leader>q q
+imap <cr> <cr> <esc>s
+nmap map o gj0i<CR><ESC>gki 
 " Softwrap  
 
 nmap D "0dg$
@@ -441,18 +443,16 @@ map ;w <Esc>:w<CR>
 noremap <D-u> <C-u>
 noremap <A-u> <C-u> 
 " this mapping Enter key to <C-y> to chose the current highlight item 
-" and close the selection list, same as other IDEs.
+" and close he selection list, same as other IDEs.
 inoremap <expr> <CR> pumvisible() ? "\<C-y>" : "\<C-g>u\<CR>"
 nnoremap <silent> <Leader>y :YRGetElem<CR>
 map ' "
 inoremap <D-]> <C-x><C-]>
 inoremap <C-]> <C-x><C-]>
-inoremap <cr> <cr><space><esc>s
 
 au FileType tex,text,md nmap 0 g^
 au FileType tex,text,md noremap 9 g$
 " au FileType tex,text,md nnoremap dd "_g^dg$g^
-au FileType tex,text,md noremap map o gj0i<CR><ESC>gki
 
 "Neovim mappings
 " :tnoremap <S-h> <C-\><C-n><C-w>h
@@ -1462,4 +1462,11 @@ EOF
 "   vim.cmd("bufdo e") -- this triggers the FileType autocmd that starts the server
 " end
 " EOF
-" autocmd BufReadPost * if @% !~# '\.git[\/\\]COMMIT_EDITMSG$' && line("'\"") > 1 && line("'\"") <= line("$") | exe "normal! g`\"" | endif  as;ldkfj
+" autocmd BufReadPost * if @% !~# '\.git[\/\\]COMMIT_EDITMSG$' && line("'\"") > 1 && line("'\"") <= line("$") | exe "normal! g`\"" | endif
+
+        
+ 
+   
+
+
+
