@@ -26,6 +26,7 @@ Plug 'skywind3000/asyncrun.vim'
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } } 
 Plug 'neovim/nvim-lspconfig',  { 'branch': 'main' } 
 Plug 'junegunn/fzf.vim'
+Plug 'vim-scripts/AutoTag'
 
 " Plug 'rebelot/kanagawa.nvim'
 " Plug 'reedes/vim-pencil' 
@@ -88,7 +89,6 @@ Plug 'junegunn/fzf.vim'
 " Plug 'mbbill/undotree', { 'on': 'UndotreeToggle' }
 "  '}
 " Plug 'lifepillar/vim-solarized8'
-" Plug 'vim-scripts/AutoTag'
 " " Plug 'vim-scripts/vim-auto-save'
 " " Plug 'vim-pandoc/vim-pandoc'
 "
