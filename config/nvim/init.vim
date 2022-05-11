@@ -1124,6 +1124,13 @@ require('fzf-lua').setup{
 -- ...
 }
 EOF
+" Nerd Tree
+map <leader>e :NERDTreeFind<CR>a;sldk jf;aslkdjf ;asldfjk  a;sldkjf a;sldfkj  asd;flkj asd;lfkja s;dfljkasd f;lakjsdf ;alsdkjf.
+" Nerd Tree
+map <leader>e :NERDTreeFind<CR>
+
+      
+ 
 " lua << EOF
 " require("stabilize").setup(
 " {
@@ -1442,8 +1449,6 @@ EOF
 " NB: this supports "rp that replaces the selection by the contents of @r
 " Auto updating Ctags
 " autocmd VimLeave * exe ":silent ! ctags -R"
-"Nerd Tree
-" map <leader>e :NERDTreeFind<CR>
 " map <C-e> :NERDTreeToggle<CR>:NERDTreeMirror<CR>
 "
 "" lua << EOF
