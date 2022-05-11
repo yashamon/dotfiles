@@ -437,7 +437,7 @@ nnoremap . `
 noremap <m-1> <C-o>
 noremap <m-2> <C-i>
 noremap <D-d> <C-d> 
-map ;s <Esc>:w<CR>
+map ;w <Esc>:w<CR>
 noremap <D-u> <C-u>
 noremap <A-u> <C-u> 
 " this mapping Enter key to <C-y> to chose the current highlight item 
