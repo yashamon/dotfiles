@@ -343,7 +343,6 @@ nnoremap <leader>e :Lf<cr>
 nnoremap <leader>t :FloatermToggle<cr>
 nnoremap <c-,> :cprevious<cr>
 nnoremap <c-.> :cnext<cr> 
-inoremap <cr> <cr> <backspace>
 vnoremap <m-s> :s///gc<left><left><left><left>
 inoremap <m-s> <esc>:%s///gc<left><left><left><left>
 nnoremap <m-s> :%s///gc<left><left><left><left>
@@ -387,6 +386,7 @@ nnoremap y "+y
 nnoremap p "+p
 nnoremap <leader>q q
 " Softwrap  
+
 nmap D "0dg$
 nmap V vg$
 nmap A g$a
@@ -448,8 +448,7 @@ map ' "
 inoremap <D-]> <C-x><C-]>
 inoremap <C-]> <C-x><C-]>
 inoremap <cr> <cr><space><esc>s
-inoremap [ <cr>
-   
+
 au FileType tex,text,md nmap 0 g^
 au FileType tex,text,md noremap 9 g$
 " au FileType tex,text,md nnoremap dd "_g^dg$g^
