@@ -741,6 +741,14 @@
     ],
     "description": "mapsto"
   },
+ "vee": {
+    "prefix": "v",
+    "body": [
+      "\\vee $0"
+    ],
+    "description": "mapsto"
+  },
+  
 "bold": {
     "prefix": "bf",
     "body": [
