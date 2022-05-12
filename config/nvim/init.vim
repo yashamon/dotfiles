@@ -162,6 +162,8 @@ else
   " autocmd VimEnter * TZAtaraxis
  endif
 set timeoutlen=0
+autocmd BufReadPost * if @% !~# '\.git[\/\\]COMMIT_EDITMSG$' && line("'\"") > 1 && line("'\"") <= line("$") | exe "normal! g`\"" | endif
+
 au VIMEnter * let g:surround_108 = {
      \'q':  " ``\r''"
      \ }
