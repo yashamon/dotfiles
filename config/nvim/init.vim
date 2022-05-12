@@ -26,7 +26,7 @@ Plug 'skywind3000/asyncrun.vim'
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } } 
 Plug 'neovim/nvim-lspconfig',  { 'branch': 'main' } 
 Plug 'junegunn/fzf.vim'
-Plug 'vim-scripts/AutoTag'
+" Plug 'vim-scripts/AutoTag'
 Plug 'xolox/vim-easytags'
 Plug 'mbbill/undotree', { 'on': 'UndotreeToggle' }
 Plug 'xolox/vim-misc'
@@ -438,7 +438,8 @@ nnoremap . `
 noremap <m-1> <C-o>
 noremap <m-2> <C-i>
 noremap <D-d> <C-d> 
-map ;w <Esc>:w<CR>
+map ;w <Esc>:w<CR> 
+au FileType tex, text, md map ;w <Esc>:w<CR>:AsyncRun ctags -R<CR>
 noremap <D-u> <C-u>
 noremap <A-u> <C-u> 
 " this mapping Enter key to <C-y> to chose the current highlight item 
@@ -1477,7 +1478,7 @@ if exists('g:gonvim_running')
 elseif exists('g:neovide')
    set guifont=Fira\ Code\ Light:h20
 end
-let g:autotagTagsFile="~/workspacemodules/tags"
+" let g:autotagTagsFile="~/workspacemodules/tags"
 
 " lua <<EOF
 " -- Installation
