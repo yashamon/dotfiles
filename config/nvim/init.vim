@@ -386,7 +386,7 @@ nnoremap y "+y
 nnoremap p "+p
 nnoremap <leader>q q
 imap <cr> <cr> <esc>s
-nmap map o gj0i<CR><ESC>gki 
+nmap map o j0i<CR><ESC>ki 
 " Softwrap  
 
 nmap D "0dg$
