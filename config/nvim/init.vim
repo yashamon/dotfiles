@@ -26,10 +26,10 @@ Plug 'skywind3000/asyncrun.vim'
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } } 
 Plug 'neovim/nvim-lspconfig',  { 'branch': 'main' } 
 Plug 'junegunn/fzf.vim'
-" Plug 'vim-scripts/AutoTag'
-Plug 'xolox/vim-easytags'
 Plug 'mbbill/undotree', { 'on': 'UndotreeToggle' }
-Plug 'xolox/vim-misc'
+" Plug 'xolox/vim-misc'
+" Plug 'vim-scripts/AutoTag'
+" Plug 'xolox/vim-easytags'
 
 " Plug 'rebelot/kanagawa.nvim'
 " Plug 'reedes/vim-pencil' 
@@ -1479,7 +1479,7 @@ elseif exists('g:neovide')
    set guifont=Fira\ Code\ Light:h20
 end
 " let g:autotagTagsFile="~/workspacemodules/tags"
-
+set noic cin
 " lua <<EOF
 " -- Installation
 " use { 
