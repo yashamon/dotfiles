@@ -385,8 +385,8 @@ vnoremap y "+y
 nnoremap y "+y
 nnoremap p "+p
 nnoremap <leader>q q
-imap <cr> <cr> <esc>s
-nmap map o gj0i<CR><ESC>gki 
+imap <cr> <cr><space><esc>s
+nmap map o gj0i<CR><ESC>ki
 " Softwrap  
 
 nmap D "0dg$
@@ -1464,9 +1464,16 @@ EOF
 " EOF
 " autocmd BufReadPost * if @% !~# '\.git[\/\\]COMMIT_EDITMSG$' && line("'\"") > 1 && line("'\"") <= line("$") | exe "normal! g`\"" | endif
 
-        
- 
-   
+
+
+
+
+
+
+" imap <cr> <cr><space><esc>s
+" nmap map o gj0i<CR><ESC>gki 
+  
+
 
 
 
