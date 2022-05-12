@@ -26,19 +26,19 @@ alias latexi="latexmk -g -pdf -file-line-error -synctex=1  -interaction=nonstopm
 alias pvc="latexmk -pdf -pvc -file-line-error -synctex=1  -interaction=nonstopmode -recorder -f"
 alias lat="latexmk -pvc -pdf -file-line-error -synctex=1 -interaction=nonstopmode -recorder -f -g"
 
-alias pushmod="git submodule foreach git add .; git submodule foreach git commit -m -a; 
-git submodule foreach git push origin master; git add .; git commit -m -a; git push --all origin "
-alias push="git add .; git commit -m -a; git push --all origin"
-alias pull="git pull --recurse-submodules; git submodule update --recursive --remote"
-alias pullmaster="git pull --recurse-submodules; git submodule update --recursive --remote; git submodule foreach git checkout master; git submodule foreach git pull --all"
+alias pushmod="git submodule foreach git add . && git submodule foreach git commit -m -a && 
+git submodule foreach git push origin master; git add . && git commit -m -a; git push --all origin "
+alias push="git add . && git commit -m -a && git push --all origin"
+alias pull="git pull --recurse-submodules && git submodule update --recursive --remote"
+alias pullmaster="git pull --recurse-submodules && git submodule update --recursive --remote && git submodule foreach git checkout master && git submodule foreach git pull --all"
 alias check="git checkout" 
-alias pushgh="pandoc index.md > index.html ; git add .; git commit -m -a; git push origin gh-pages"
+alias pushgh="pandoc index.md > index.html && git add . && git commit -m -a && git push origin gh-pages"
 alias pandocd="pandoc index.md > index.html"
 
 # <<<<<<< HEAD
 # alias hw="pandoc ~/web/classes/topology/topology2019.md > ~/web/classes/topology/topology2019.html; pandoc ~/web/CalcIII2019/analysis.md > ~/web/CalcIII2019/analysis.html; git add .; git commit -m -a; git push origin gh-pages"
 # =======
-alias hw="pandoc ~/web/classes/Spivak/hw2022.md > ~/web/classes/Spivak/hw2022.html; pandoc ~/web/classes/LinearAlgebra/hw2022.md  > ~/web/classes/LinearAlgebra/hw2022.html; cd ~/web; git add . ;git commit -m -a; git push origin gh-pages"
+alias hw="pandoc ~/web/classes/Spivak/hw2022.md > ~/web/classes/Spivak/hw2022.html && pandoc ~/web/classes/LinearAlgebra/hw2022.md  > ~/web/classes/LinearAlgebra/hw2022.html && cd ~/web && git add .  && git commit -m -a && git push origin gh-pages"
 alias attach="tmux attach"
 # alias pdf="xpdf -geometry 1920x1080 -fullscreen"
 # alias pdf="mupdf"
@@ -50,12 +50,12 @@ alias j="z"
 # alias fzf="/root/dotfiles\vim\bundle\fzf"
 alias pcm="sudo pacman"
 alias spcm="sudo pacman"
-alias zrc="cd ~/dotfiles; neo zshrc"
+alias zrc="neo zshrc"
 alias pac="sudo packer"
 alias cprc="cp /root/.zshrc /home/yasha/.zshrc"
 alias pacup="packer -Syu --devel"
 # alias vifm='source ~/bin/vf'
-alias vrc="cd ~/dotfiles/config/nvim; neo init.vim" 
+alias vrc="neo init.vim" 
 alias snips="vi /root/dotfiles/vim/bundle/vim-snippets/UltiSnips/tex.snippets"
 alias src="source ~/.zshrc"
 #alias mux="tmux -f ~/.tmux-conf"

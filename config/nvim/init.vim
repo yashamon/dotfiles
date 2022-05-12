@@ -27,6 +27,7 @@ Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'neovim/nvim-lspconfig',  { 'branch': 'main' } 
 Plug 'junegunn/fzf.vim'
 Plug 'vim-scripts/AutoTag'
+Plug 'xolox/vim-easytags'
 Plug 'mbbill/undotree', { 'on': 'UndotreeToggle' }
 
 " Plug 'rebelot/kanagawa.nvim'
@@ -50,7 +51,6 @@ Plug 'mbbill/undotree', { 'on': 'UndotreeToggle' }
 " Plug 'hrsh7th/cmp-buffer', { 'branch': 'main' }
 " " Plug 'kabouzeid/nvim-lspinstall', { 'branch': 'main' }
 " "Plug 'pope/vim-obsession'
-" "Plug 'xolox/vim-easytags'
 " " Plug 'nvim-lua/plenary.nvim'
 " " Plug 'windwp/nvim-spectre'
 " " Plug 'xolox/vim-misc'
