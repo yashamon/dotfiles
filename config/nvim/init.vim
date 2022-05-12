@@ -487,7 +487,6 @@ map <A-e> :FZF ~<CR>
 map <m-f> :FZF ~<CR> 
 
 "miscellaneous
-map :tags  exe ":silent ! /usr/local/bin/ctags -R"
 nmap <leader>g :ZenMode<CR>
 " nmap <leader>p :Denite neoyank -default-action=append<CR>
 
@@ -571,6 +570,9 @@ profile start profile.log
 profile func *
 profile file *
 endfunction 
+function! Win()
+ normal   
+endfunction
 
 function! Sentence()
   let g:buf = bufname()
@@ -1471,7 +1473,6 @@ inoremap <cr> <cr><space><esc>"_s
 nnoremap o o<space><esc>"_s
 
 
-
 let g:neovide_fullscreen=v:true
 if exists('g:gonvim_running')
     "goneovim specific stuff
@@ -1479,7 +1480,6 @@ elseif exists('g:neovide')
    set guifont=Fira\ Code\ Light:h20
 end
 " let g:autotagTagsFile="~/workspacemodules/tags"
-set noic cin
 " lua <<EOF
 " -- Installation
 " use { 
