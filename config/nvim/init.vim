@@ -410,8 +410,8 @@ map q: nop
 map <S-C-q> <Esc>:qa!<CR>
 map <m-q> <esc>:wq<cr>
 map <m-Q> <esc>:q<cr>
-map <m-c> <esc>:w<CR>:close<cr>
-map <M-d> <Esc>:w<CR>:bdelete<CR>
+map <m-c> :close<cr>
+map <m-d> <Esc>:w<CR>:bdelete<CR>
 noremap gf gq
 noremap f /
 noremap F ?
@@ -1470,4 +1470,9 @@ EOF
 
 inoremap <cr> <cr><space><esc>"_s
 nnoremap o o<space><esc>"_s
-
+let g:neovide_fullscreen=v:true
+if exists('g:gonvim_running')
+    "goneovim specific stuff
+elseif exists('g:neovide')
+   set guifont=Fira\ Code\ Light:h20
+end

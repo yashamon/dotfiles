@@ -132,7 +132,7 @@ pulseaudio --start"
 alias send=sendFunction
 alias tff="xinput disable 13"
 alias ton="xinput enable 13"
-alias ubuntu="sudo apt-get update; sudo apt-get upgrade"
+alias ubuntu="sudo apt-get update && sudo apt-get upgrade -y"
 alias arch="sudo pacman -Sy archlinux-keyring && pacman -Su"
 # set dual monitors
 dual () {
