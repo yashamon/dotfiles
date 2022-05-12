@@ -439,7 +439,7 @@ noremap <m-1> <C-o>
 noremap <m-2> <C-i>
 noremap <D-d> <C-d>
 xnoremap ;w <Esc>:w<CR>
-xnoremap ;ct <Esc>:AsyncRun ctags -R<CR>
+xnoremap ;cc <Esc>:AsyncRun ctags -R<CR>
 noremap <D-u> <C-u>
 noremap <A-u> <C-u>
 " this mapping Enter key to <C-y> to chose the current highlight item 
@@ -582,7 +582,7 @@ function! Sentence()
   " call getchar()
   BLines
 endfunction
-noremap L :lua require("zen-mode").close()<cr>:call Sentence()<cr>
+noremap LL :lua require("zen-mode").close()<cr>:call Sentence()<cr>
 " noremap L :TZAtaraxisOff<cr><cr>:call Sentence()<cr>
 function! Git() 
 AsyncRun -silent if git rev-parse --is-inside-work-tree || git rev- parse --git-dir > /dev/null 2>&1 ; then git add . ; git commit -m -a ; git push --all origin; fi 
