@@ -437,11 +437,11 @@ nnoremap ` ~
 nnoremap . `
 noremap <m-1> <C-o>
 noremap <m-2> <C-i>
-noremap <D-d> <C-d> 
-map ;w <Esc>:w<CR> 
-au FileType tex, text, md map ;w <Esc>:w<CR>:AsyncRun ctags -R<CR>
+noremap <D-d> <C-d>
+map ;w <Esc>:w<CR>
+au FileType tex,text,md map ;w <Esc>:w<CR>:AsyncRun ctags -R<CR>
 noremap <D-u> <C-u>
-noremap <A-u> <C-u> 
+noremap <A-u> <C-u>
 " this mapping Enter key to <C-y> to chose the current highlight item 
 " and close he selection list, same as other IDEs.
 inoremap <expr> <CR> pumvisible() ? "\<C-y>" : "\<C-g>u\<CR>"
