@@ -218,7 +218,7 @@ colorscheme one
 " colorscheme material  
 " let g:material_style = 'palenight'  
 " let g:material_style = 'lighter'
-" highlight  ctermbg=none
+" highlight Normal ctermbg=none
 set tm=1000
 " set macreta 
 hi SpellBad cterm=underline
@@ -479,7 +479,7 @@ noremap S <Esc> :BLines<CR>
 " Line search mapping 
 " function! Jumpback() 
 "   K=bufname()
-"    viwhy<esc>:bdelete<cr>:buffer K<c-r>+<cr>:ZenMode<cr>
+"   normal viwhy<esc>:bdelete<cr>:buffer K<c-r>+<cr>:ZenMode<cr>
 " endfunction
 noremap <m-b> <Esc>:Buffers<CR>
 " noremap F <Esc>:GFiles<CR>
@@ -521,7 +521,7 @@ function Light()
 set background=light
 " colorscheme oceanlight 
 colorscheme one 
-" highlight  ctermfg=black
+" highlight Normal ctermfg=black
 " highlight  CursorLine cterm=NONE ctermbg=black ctermfg=none
 " hi MatchParen cterm=underline ctermbg=none ctermfg=magenta
 endfunction   
@@ -531,7 +531,7 @@ endfunction
 " " colorscheme oceanlight 
 " colorscheme material 
 " let g:material_style = 'lighter'  
-"    " highlight  ctermfg=black
+"    " highlight Normal ctermfg=black
 " " highlight  CursorLine cterm=NONE ctermbg=black ctermfg=none
 " " hi MatchParen cterm=underline ctermbg=none ctermfg=magenta
 " endfunction   
@@ -570,9 +570,6 @@ profile start profile.log
 profile func *
 profile file *
 endfunction 
-function! Win()
- execute "! :%s///gc<CR>"
-endfunction
 
 function! Sentence()
   let g:buf = bufname()
@@ -881,7 +878,7 @@ lua <<EOF
    comment_empty = true,
    -- Should key mappings be created
    create_mappings = true,
-   --  mode mapping left hand side
+   -- Normal mode mapping left hand side
    line_mapping = "gc",
    -- Visual/Operator mapping left hand side
    operator_mapping = "<leader>c",
@@ -978,7 +975,7 @@ EOF
 lua << EOF
   require("zen-mode").setup {
   window = {
-    backdrop = 1, -- shade the backdrop of the Zen window. Set to 1 to keep the same as 
+    backdrop = 1, -- shade the backdrop of the Zen window. Set to 1 to keep the same as Normal
     -- height and width can be:
     -- * an absolute number of cells when > 1
     -- * a percentage of the width / height of the editor when <= 1
@@ -1268,8 +1265,8 @@ EOF
 "Load some useful plugins with vundle 
 "
 "asdf asldfkj
-" hi! link Sneak 
-" hi! link SneakScope    test test2 test3
+" hi! link Sneak Normal
+" hi! link SneakScope Normal   test test2 test3
 
 " command! -bang -nargs=* Rg
 "   \ call fzf#vim#grep(
@@ -1288,7 +1285,7 @@ EOF
 " highlight SignColumn guibg=bg
 "       endif    
 " if has("autocmd")
-"   au BufReadPost * if line("'\"") > 1 && line("'\"") <= line("$") | exe "! g'\"" | endif
+"   au BufReadPost * if line("'\"") > 1 && line("'\"") <= line("$") | exe "normal! g'\"" | endif
 " endif
   " autocmd BufWinLeave *.* mkview
   " autocmd BufWinEnter *.* silent loadview
@@ -1324,7 +1321,7 @@ EOF
 " colorscheme material  
 " let g:material_style = 'palenight'  
 " let g:material_style = 'lighter'
-" highlight  ctermbg=none 
+" highlight Normal ctermbg=none 
 "   " let g:vimtex_quickfix_method='pplatex' 
 " let g:vimtex_latexmk_callback_hooks = ['UpdateSkim']
 "    function! UpdateSkim(status)
@@ -1427,9 +1424,9 @@ EOF
 "
 "
 " function! Sneak()
-"     hi! link Sneak 
-"     hi! link SneakScope 
-"     execute '! \<Plug>Sneak_s'
+"     hi! link Sneak Normal
+"     hi! link SneakScope Normal
+"     execute 'normal! \<Plug>Sneak_s'
 "     syntax on
 " endfunction
  
@@ -1465,7 +1462,7 @@ EOF
 "   vim.cmd("bufdo e") -- this triggers the FileType autocmd that starts the server
 " end
 " EOF
-" autocmd BufReadPost * if @% !~# '\.git[\/\\]COMMIT_EDITMSG$' && line("'\"") > 1 && line("'\"") <= line("$") | exe "! g`\"" | endif
+" autocmd BufReadPost * if @% !~# '\.git[\/\\]COMMIT_EDITMSG$' && line("'\"") > 1 && line("'\"") <= line("$") | exe "normal! g`\"" | endif
 
       
 "other maps   
