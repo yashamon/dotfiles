@@ -386,7 +386,6 @@ nnoremap y "+y
 nnoremap p "+p
 nnoremap <leader>q q
 inoremap <cr> <cr><space><esc>"_s
-" nnoremap map o gj0i<CR><ESC>gki<space><esc>"_s
 " Softwrap  
 
 nmap D "0dg$
@@ -1467,9 +1466,11 @@ EOF
 
       
 "other maps   
-
 inoremap <cr> <cr><space><esc>"_s
 nnoremap o o<space><esc>"_s
+
+
+
 let g:neovide_fullscreen=v:true
 if exists('g:gonvim_running')
     "goneovim specific stuff
