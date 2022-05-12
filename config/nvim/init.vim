@@ -228,7 +228,7 @@ hi SpellBad gui=underline
 "Autocommands, au
 au FileType Makefile set noexpandtab
 au FileType tex,text set spelllang=en_us
-" au FileType tex,text set noai nocin 
+au FileType tex,text,md set indentexpr=
 
 function Reset()
 TZAtaraxisOff 
@@ -1469,9 +1469,7 @@ EOF
 "other maps   
 inoremap <cr> <cr><space><esc>"_s
 nnoremap o o<space><esc>"_s
-
-
-
+map :win :%s///gc
 let g:neovide_fullscreen=v:true
 if exists('g:gonvim_running')
     "goneovim specific stuff
@@ -1479,7 +1477,6 @@ elseif exists('g:neovide')
    set guifont=Fira\ Code\ Light:h20
 end
 " let g:autotagTagsFile="~/workspacemodules/tags"
-set noic cin
 " lua <<EOF
 " -- Installation
 " use { 
