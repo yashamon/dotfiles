@@ -385,8 +385,8 @@ vnoremap y "+y
 nnoremap y "+y
 nnoremap p "+p
 nnoremap <leader>q q
-imap <cr> <cr> <esc>s
-nmap map o j0i<CR><ESC>ki 
+inoremap <cr> <cr><space><esc>"_s
+nnoremap map o gj0i<CR><ESC>gki<space><esc>"_s
 " Softwrap  
 
 nmap D "0dg$
@@ -683,7 +683,7 @@ require'nvim-treesitter.configs'.setup {
     },
   },
     textobjects = { enable = true },
-    indent = { enable = false },
+    indent = { enable = true },
 }
 EOF
 
@@ -1464,9 +1464,12 @@ EOF
 " EOF
 " autocmd BufReadPost * if @% !~# '\.git[\/\\]COMMIT_EDITMSG$' && line("'\"") > 1 && line("'\"") <= line("$") | exe "normal! g`\"" | endif
 
-        
- 
-   
+      
+"other maps   
+
+inoremap <cr> <cr><space><esc>"_s
+" nnoremap map o gj0i<CR><ESC>gki<space><esc>"_s
+
 
 
 
