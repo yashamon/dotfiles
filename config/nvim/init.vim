@@ -1477,7 +1477,7 @@ if exists('g:gonvim_running')
 elseif exists('g:neovide')
    set guifont=Fira\ Code\ Light:h20
 end
-let g:autotagTagsFile=".tags"
+let g:autotagTagsFile=".tags"a al;ksdjf;lasdfjl;askfjasdl;j
 " lua <<EOF
 " -- Installation
 " use { 
