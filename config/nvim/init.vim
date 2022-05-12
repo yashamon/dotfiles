@@ -1469,7 +1469,7 @@ EOF
 "other maps   
 inoremap <cr> <cr><space><esc>"_s
 nnoremap o o<space><esc>"_s
-map :win :%s///gc
+map :win :%s///gc<cr>
 let g:neovide_fullscreen=v:true
 if exists('g:gonvim_running')
     "goneovim specific stuff
