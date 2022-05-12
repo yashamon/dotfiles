@@ -13,7 +13,7 @@ Plug 'hrsh7th/nvim-cmp', { 'branch': 'main' }
 Plug 'hrsh7th/cmp-vsnip', { 'branch': 'main' } 
 Plug 'hrsh7th/vim-vsnip'
 Plug 'hrsh7th/vim-vsnip-integ'
-Plug 'quangnguyen30192/cmp-nvim-tags',  { 'branch': 'main' }  
+Plug 'quangnguyen30192/cmp-nvim-',  { 'branch': 'main' }  
 Plug 'voldikss/vim-floaterm'
 Plug 'voldikss/vim-floaterm'
 Plug 'terrortylor/nvim-comment', { 'branch': 'main' }
@@ -29,7 +29,7 @@ Plug 'junegunn/fzf.vim'
 Plug 'mbbill/undotree', { 'on': 'UndotreeToggle' }
 " Plug 'xolox/vim-misc'
 " Plug 'vim-scripts/AutoTag'
-" Plug 'xolox/vim-easytags'
+" Plug 'xolox/vim-easy'
 
 " Plug 'rebelot/kanagawa.nvim'
 " Plug 'reedes/vim-pencil' 
@@ -169,8 +169,8 @@ let g:tex_flavor = "latex"
 let g:tex_isk = '@,48-57,58,_,192-255,:' 
 au FileType tex setlocal iskeyword+=:
 let g:tex_conceal = ""
-set tags+=~/workspacemodules/tags
-"set tags+=~/Dropbox/workspace/tags
+set +=~/workspacemodules/tags
+"set +=~/Dropbox/workspace/tags
   " set wrapmargin=1
 " set shada="NONE"  
 set listchars=eol:¬,tab:>·,trail:~,extends:>,precedes:<,space:␣
@@ -289,10 +289,10 @@ cmap cd. lcd %:p:h
 
 
 " Enable omni completion. (Ctrl-X Ctrl-O)
-autocmd FileType html,markdown setlocal omnifunc=htmlcomplete#CompleteTags
+autocmd FileType html,markdown setlocal omnifunc=htmlcomplete#Complete
 autocmd FileType javascript setlocal omnifunc=javascriptcomplete#CompleteJS
 autocmd FileType python setlocal omnifunc=pythoncomplete#Complete
-autocmd FileType xml setlocal omnifunc=xmlcomplete#CompleteTags
+autocmd FileType xml setlocal omnifunc=xmlcomplete#Complete
 autocmd FileType css set omnifunc=csscomplete#CompleteCSS
 autocmd FileType c set omnifunc=ccomplete#Complete
 autocmd FileType java set omnifunc=javacomplete#Complete 
@@ -439,7 +439,7 @@ noremap <m-1> <C-o>
 noremap <m-2> <C-i>
 noremap <D-d> <C-d>
 noremap ;w <Esc>:w<CR>
-noremap <C-t> <Esc>:AsyncRun ctags -R<CR>
+noremap <C-t> <Esc>:AsyncRun c -R<CR>
 noremap <D-u> <C-u>
 noremap <A-u> <C-u>
 " this mapping Enter key to <C-y> to chose the current highlight item 
@@ -472,8 +472,8 @@ map <m-space> <cmd>HopWord<cr>
 
 " FZF 
 "
-noremap <m-t> :BTags<cr>
-noremap <m-y> :Tags<cr>
+noremap <m-t> :B<cr>
+noremap <m-y> :<cr>
 noremap S <Esc> :BLines<CR>
 "noremap L <Esc>:AsyncRun sentence.sh %;nvr sentence_%<cr>:echo 'press any key'<cr>:execute 'call getchar()' | BLines<cr>
 " Line search mapping 
@@ -487,7 +487,7 @@ map <A-e> :FZF ~<CR>
 map <m-f> :FZF ~<CR> 
 
 "miscellaneous
-map :tags  exe ":silent ! /usr/local/bin/ctags -R"
+map :  exe ":silent ! /usr/local/bin/ctags -R"
 nmap <leader>g :ZenMode<CR>
 " nmap <leader>p :Denite neoyank -default-action=append<CR>
 
@@ -832,7 +832,7 @@ mapping = {
 },
 requires = {
     {
-      'quangnguyen30192/cmp-nvim-tags',
+      'quangnguyen30192/cmp-nvim-',
       -- if you want the sources is available for some file types
       ft = {
         'tex',
@@ -844,7 +844,7 @@ requires = {
 sources = {
       -- For vsnip user. 
 
-{ name = 'tags', keyword_length = 1000 },
+{ name = '', keyword_length = 1000 },
 { name = 'vsnip', keyword_length = 1000 },
          -- For luasnip user.
       -- { name = 'luasnip' },
@@ -1230,7 +1230,7 @@ EOF
 " function! DelTagOfFile(file)
 "   let fullpath = a:file
 "   let cwd = getcwd()
-"   let tagfilename = cwd . "/tags"
+"   let tagfilename = cwd . "/"
 "   let f = substitute(fullpath, cwd . "/", "", "")
 "   let f = escape(f, './')
 "   let cmd = 'sed -i "/' . f . '/d" "' . tagfilename . '"'
@@ -1282,7 +1282,7 @@ EOF
    " set formatoptions=ant
 " set wrapmargin=0
 " set nohlsearch
-" set tags= ~/workspacemodules/tags
+" set = ~/workspacemodules/tags
 " highlight SignColumn guibg=bg
 "       endif    
 " if has("autocmd")
@@ -1443,8 +1443,8 @@ EOF
 " <cr>
 " ; pandoc backup.html > backup.md; cp backup.md %<cr>:e %<cr>
 " NB: this supports "rp that replaces the selection by the contents of @r
-" Auto updating Ctags
-" autocmd VimLeave * exe ":silent ! ctags -R"
+" Auto updating C
+" autocmd VimLeave * exe ":silent ! c -R"
 "
 "" lua << EOF
 " local function setup_servers()
@@ -1469,21 +1469,21 @@ EOF
 "other maps   
 inoremap <cr> <cr><space><esc>"_s
 nnoremap o o<space><esc>"_s
-map :win :%s///gc<cr>
+cmap win :%s///gc<cr>
 let g:neovide_fullscreen=v:true
 if exists('g:gonvim_running')
     "goneovim specific stuff
 elseif exists('g:neovide')
    set guifont=Fira\ Code\ Light:h20
 end
-" let g:autotagTagsFile="~/workspacemodules/tags"
+" let g:autotagFile="~/workspacemodules/tags"
 " lua <<EOF
 " -- Installation
 " use { 
 "   'hrsh7th/nvim-cmp',
 "   requires = {
 "     {
-"       'quangnguyen30192/cmp-nvim-tags',
+"       'quangnguyen30192/cmp-nvim-',
 "       -- if you want the sources is available for some file types
 "       ft = {
 "         'latex',
@@ -1494,7 +1494,7 @@ end
 "   config = function ()
 "     require'cmp'.setup {
 "     sources = {
-"       { name = 'tags' },
+"       { name = '' },
 "       -- more sources
 "     }
 "   }
