@@ -29,6 +29,7 @@ Plug 'junegunn/fzf.vim'
 Plug 'vim-scripts/AutoTag'
 Plug 'xolox/vim-easytags'
 Plug 'mbbill/undotree', { 'on': 'UndotreeToggle' }
+Plug 'xolox/vim-misc'
 
 " Plug 'rebelot/kanagawa.nvim'
 " Plug 'reedes/vim-pencil' 
@@ -53,7 +54,6 @@ Plug 'mbbill/undotree', { 'on': 'UndotreeToggle' }
 " "Plug 'pope/vim-obsession'
 " " Plug 'nvim-lua/plenary.nvim'
 " " Plug 'windwp/nvim-spectre'
-" " Plug 'xolox/vim-misc'
 " " Plug 'ray-x/cmp-treesitter'
 " " For luasnip user. 
 " Plug 'L3MON4D3/LuaSnip'
@@ -1477,26 +1477,29 @@ if exists('g:gonvim_running')
 elseif exists('g:neovide')
    set guifont=Fira\ Code\ Light:h20
 end
-
--- Installation
-use { 
-  'hrsh7th/nvim-cmp',
-  requires = {
-    {
-      'quangnguyen30192/cmp-nvim-tags',
-      -- if you want the sources is available for some file types
-      ft = {
-        'kotlin',
-        'java'
-      }
-    }
-  },
-  config = function ()
-    require'cmp'.setup {
-    sources = {
-      { name = 'tags' },
-      -- more sources
-    }
-  }
-  end
-}
+let g:autotagTagsFile=".tags"
+" lua <<EOF
+" -- Installation
+" use { 
+"   'hrsh7th/nvim-cmp',
+"   requires = {
+"     {
+"       'quangnguyen30192/cmp-nvim-tags',
+"       -- if you want the sources is available for some file types
+"       ft = {
+"         'latex',
+"         'tex'
+"       }
+"     }
+"   },
+"   config = function ()
+"     require'cmp'.setup {
+"     sources = {
+"       { name = 'tags' },
+"       -- more sources
+"     }
+"   }
+"   end
+" }
+" EOF
+"
