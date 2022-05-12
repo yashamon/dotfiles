@@ -844,7 +844,7 @@ sources = {
       -- For vsnip user. 
 
 { name = 'tags', keyword_length = 1000 },
- { name = 'vsnip', keyword_length = 1000 },
+{ name = 'vsnip', keyword_length = 1000 },
          -- For luasnip user.
       -- { name = 'luasnip' },
 -- For ultisnips user.
@@ -1477,3 +1477,26 @@ if exists('g:gonvim_running')
 elseif exists('g:neovide')
    set guifont=Fira\ Code\ Light:h20
 end
+
+-- Installation
+use { 
+  'hrsh7th/nvim-cmp',
+  requires = {
+    {
+      'quangnguyen30192/cmp-nvim-tags',
+      -- if you want the sources is available for some file types
+      ft = {
+        'kotlin',
+        'java'
+      }
+    }
+  },
+  config = function ()
+    require'cmp'.setup {
+    sources = {
+      { name = 'tags' },
+      -- more sources
+    }
+  }
+  end
+}
