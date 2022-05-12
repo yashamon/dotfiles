@@ -571,7 +571,7 @@ profile func *
 profile file *
 endfunction 
 function! Win()
- execute "! <esc>:%s///gc<CR>"
+ execute "! :%s///gc"
 endfunction
 
 function! Sentence()
