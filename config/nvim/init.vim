@@ -386,7 +386,7 @@ nnoremap y "+y
 nnoremap p "+p
 nnoremap <leader>q q
 inoremap <cr> <cr><space><esc>"_s
-nnoremap map o gj0i<CR><ESC>gki<space><esc>"_s
+" nnoremap map o gj0i<CR><ESC>gki<space><esc>"_s
 " Softwrap  
 
 nmap D "0dg$
@@ -843,6 +843,7 @@ requires = {
 -- ... Your other configuration ...
 sources = {
       -- For vsnip user. 
+
 { name = 'tags', keyword_length = 1000 },
  { name = 'vsnip', keyword_length = 1000 },
          -- For luasnip user.
@@ -1468,8 +1469,5 @@ EOF
 "other maps   
 
 inoremap <cr> <cr><space><esc>"_s
-" nnoremap map o gj0i<CR><ESC>gki<space><esc>"_s
-
-
-
+nnoremap o o<space><esc>"_s
 
