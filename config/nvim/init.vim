@@ -438,8 +438,8 @@ nnoremap . `
 noremap <m-1> <C-o>
 noremap <m-2> <C-i>
 noremap <D-d> <C-d>
-xnoremap ;w <Esc>:w<CR>
-xnoremap <C-t> <Esc>:AsyncRun ctags -R<CR>
+noremap ;w <Esc>:w<CR>
+noremap <C-t> <Esc>:AsyncRun ctags -R<CR>
 noremap <D-u> <C-u>
 noremap <A-u> <C-u>
 " this mapping Enter key to <C-y> to chose the current highlight item 
