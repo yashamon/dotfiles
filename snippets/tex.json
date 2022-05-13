@@ -146,9 +146,18 @@
     "description": "subset"
     }, 
 
+"Split": {
+    "prefix": "split",
+    "body": [
+        "\\begin{equation} \\label{$1}",
+        "\\begin{align}",
+        "\t$0",    
+        "\\end{align}",
+        "\\end{equation}"
+],
 
   "Align(ed)": {
-    "prefix": "ali",
+    "prefix": "ali(gn)",
     "body": [
         "\\begin{align}",
         "\t$0",    
