@@ -146,20 +146,8 @@
     "description": "subset"
     }, 
 
-"Split": {
-    "prefix": "split",
-    "body": [
-        "\\begin{equation} \\label{$1}",
-        "\\begin{align}",
-        "\t$0",    
-        "\\end{align}",
-        "\\end{equation}"
-],
-"description": "Split"
-},
-
 "Align(ed)": {
-    "prefix": "align",
+    "prefix": "ali",
     "body": [
         "\\begin{align}",
         "\t$0",    
@@ -167,7 +155,6 @@
 ],
     "description": "Align(ed)"
 },
-
   "tikz": {
     "prefix": "tikz",
     "body": [
