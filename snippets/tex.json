@@ -155,6 +155,8 @@
         "\\end{align}",
         "\\end{equation}"
 ],
+"description": "Split"
+},
 
   "Align(ed)": {
     "prefix": "ali(gn)",
