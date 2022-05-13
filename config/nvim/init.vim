@@ -132,6 +132,7 @@ set title
 " set noruler       
 " set laststatus=1 
 set noshowcmd    
+set indentexpr=
 set noshowmatch  
 set wrap  
 set pb=10  
@@ -162,6 +163,8 @@ else
   " autocmd VimEnter * TZAtaraxis
  endif
 set timeoutlen=0
+
+"remember cursor location
 autocmd BufReadPost * if @% !~# '\.git[\/\\]COMMIT_EDITMSG$' && line("'\"") > 1 && line("'\"") <= line("$") | exe "normal! g`\"" | endif
 
 au VIMEnter * let g:surround_108 = {
@@ -684,7 +687,7 @@ require'nvim-treesitter.configs'.setup {
     },
   },
     textobjects = { enable = true },
-    indent = { enable = false },
+    indent = { enable = true },
 }
 EOF
 
