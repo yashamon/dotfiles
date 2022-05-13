@@ -159,7 +159,7 @@
 },
 
   "Align(ed)": {
-    "prefix": "ali(gn)",
+    "prefix": "ali",
     "body": [
         "\\begin{align}",
         "\t$0",    
@@ -167,6 +167,7 @@
 ],
     "description": "Align(ed)"
 },
+
   "tikz": {
     "prefix": "tikz",
     "body": [
