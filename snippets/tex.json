@@ -158,8 +158,8 @@
 "description": "Split"
 },
 
-  "Align(ed)": {
-    "prefix": "ali",
+"Align(ed)": {
+    "prefix": "align",
     "body": [
         "\\begin{align}",
         "\t$0",    
