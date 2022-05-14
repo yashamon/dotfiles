@@ -390,7 +390,8 @@ vnoremap y "+y
 nnoremap y "+y
 nnoremap p "+p
 nnoremap <leader>q q
-inoremap <cr> <cr><space><esc>"_s
+" map cr
+inoremap <cr> $<cr><space><esc>"_s
 " Softwrap  
 
 nmap D "0dg$
