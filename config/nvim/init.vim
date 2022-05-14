@@ -447,7 +447,7 @@ noremap ;w <Esc>:w<CR>
 noremap <C-t> <Esc>:AsyncRun ctags -R<CR>
 noremap <D-u> <C-u>
 noremap <A-u> <C-u>
-nnoremap <m-W> :%s///gc
+nnoremap ;ww :%s///gc
 
 " this mapping Enter key to <C-y> to chose the current highlight item 
 " and close he selection list, same as other IDEs.
