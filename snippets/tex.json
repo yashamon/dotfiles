@@ -1059,6 +1059,13 @@
     ],
     "description": "cal X"
   },
+"caligraphic H": {
+    "prefix": ["cH"],
+    "body": [
+      "\\mathcal{H} $0"
+    ],
+    "description": "cal H"
+  },
 
 "caligraphic G": {
     "prefix": ["cG"],
