@@ -392,7 +392,7 @@ nnoremap p "+p
 nnoremap <leader>q q
 " map cr
 inoremap <cr> <esc>$a<cr><space><esc>"_s
-inoremap <m-cr> <cr><space><esc>"_s
+inoremap ;<cr> <cr><space><esc>"_s
 
 " Softwrap  
 
