@@ -692,7 +692,7 @@ require'nvim-treesitter.configs'.setup {
     },
   },
     textobjects = { enable = true },
-    indent = { enable = true },
+    indent = { enable = false },
 }
 EOF
 
@@ -1481,6 +1481,7 @@ EOF
 " map cr
 inoremap <cr> <esc>$a<cr><space><esc>"_s
 inoremap <m-cr> <cr><space><esc>"_s
+set indentexpr=
 
 let g:neovide_fullscreen=v:true
 if exists('g:gonvim_running')
