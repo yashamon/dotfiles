@@ -173,6 +173,8 @@ au VIMEnter * let g:surround_108 = {
 let g:tex_flavor = "latex"
 let g:tex_isk = '@,48-57,58,_,192-255,:' 
 au FileType tex setlocal iskeyword+=:
+au FileType tex setlocal indentexpr=
+
 let g:tex_conceal = ""
 set tags+=~/workspacemodules/tags
 "set tags+=~/Dropbox/workspace/tags
@@ -1476,12 +1478,11 @@ EOF
 
       
 "other maps   
-" inoremap <cr> <cr><space><esc>"_s
-" nnoremap o o<space><esc>"_s
+inoremap <cr> <cr><space><esc>"_s
+nnoremap o o<space><esc>"_s
 " map cr
-inoremap <cr> <esc>$a<cr><space><esc>"_s
-inoremap <m-cr> <cr><space><esc>"_s
-set indentexpr=
+" inoremap <cr> <esc>$a<cr><space><esc>"_s
+" inoremap <m-cr> <cr><space><esc>"_s
 
 let g:neovide_fullscreen=v:true
 if exists('g:gonvim_running')
