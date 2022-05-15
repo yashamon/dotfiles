@@ -1476,8 +1476,11 @@ EOF
 
       
 "other maps   
-inoremap <cr> <cr><space><esc>"_s
-nnoremap o o<space><esc>"_s
+" inoremap <cr> <cr><space><esc>"_s
+" nnoremap o o<space><esc>"_s
+" map cr
+inoremap <cr> <esc>$a<cr><space><esc>"_s
+inoremap <m-cr> <cr><space><esc>"_s
 
 let g:neovide_fullscreen=v:true
 if exists('g:gonvim_running')
