@@ -878,7 +878,7 @@
         "description": "Insert inline integral notation, (only in the cases when the environment is inline math environment)."
     },
     "Inline Fraction": {
-        "prefix": ["fr", "\\fractioninline"],
+        "prefix": ["fr", "frac"],
         "body": ["\\frac{$1}{$2}$0"],
         "description": ["Insert inline fraction notation, (only in the cases when the environment is inline math environment)."]
     }, 
@@ -1349,11 +1349,7 @@
   },
 
 
-"Large Fraction": {
-        "prefix": ["fractionlarge", "\\fractionlarge"],
-        "body": ["\\displaystyle\\frac{$1}{$2}$0"],
-        "description": ["Insert large fraction notation"]
-    },
+
 "Template": {
         "prefix": ["template"],
         "body": ["\\documentclass{amsart}",  
