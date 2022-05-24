@@ -244,7 +244,7 @@ endfunction
 " au FocusLost call TZAtaraxisOff 
 " au FocusGained call TZAtaraxisOn 
 
-" au FileType vim,md set list
+au FileType vim,md set list
 " au FileType vim,md colorscheme one
 
 " au FileType tex,text,md syntax sync fromstart 
@@ -683,7 +683,7 @@ autocmd BufWritePost * call Git()
 lua <<EOF
 require'nvim-treesitter.configs'.setup { 
     --
-    highlight = { enable = true },
+    highlight = { enable = false },
     incremental_selection = {
     enable = true,
     keymaps = {
