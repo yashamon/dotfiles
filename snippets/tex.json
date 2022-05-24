@@ -734,7 +734,7 @@
     "description": "labeled arrow"
   },
 "mapsto": {
-    "prefix": "mto, mapsto, maps",
+    "prefix": ["mto", "mapsto", "maps"],
     "body": [
       "\\mapsto $0"
     ],
