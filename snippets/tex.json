@@ -1131,6 +1131,21 @@
     ],
     "description": "cal C"
   },
+  "caligraphic N": {
+    "prefix": ["cN"],
+    "body": [
+      "\\mathcal{N} $0"
+    ],
+    "description": "cal N"
+  },
+
+"caligraphic I": {
+    "prefix": ["cI"],
+    "body": [
+      "\\mathcal{I} $0"
+    ],
+    "description": "cal I"
+  },
 
 "caligraphic A": {
     "prefix": ["cA"],
