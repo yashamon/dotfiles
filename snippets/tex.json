@@ -801,6 +801,7 @@
     ],
     "description": "ie"
   },
+  
 "logical and": {
     "prefix": "land",
     "body": [
@@ -816,6 +817,7 @@
     ],
     "description": "and"
   },
+  
     "Large Summation": {
         "prefix": ["bigsum", "\\sumlarge"],
 		"body": [
