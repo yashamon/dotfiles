@@ -801,13 +801,20 @@
     ],
     "description": "ie"
   },
+"logical and": {
+    "prefix": "land",
+    "body": [
+      "\land $0"
+    ],
+    "description": "and"
+  },
 
 "and": {
     "prefix": "and",
     "body": [
       "& $0"
     ],
-    "description": "mapsto"
+    "description": "and"
   },
     "Large Summation": {
         "prefix": ["bigsum", "\\sumlarge"],
