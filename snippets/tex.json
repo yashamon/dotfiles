@@ -733,6 +733,14 @@
     ],
     "description": "labeled arrow"
   },
+"proves": {
+    "prefix": ["vdash", "proves", "pr"],
+    "body": [
+      "\\vdash $0"
+    ],
+    "description": "proves"
+  },
+
 "mapsto": {
     "prefix": ["mto", "mapsto", "maps"],
     "body": [
