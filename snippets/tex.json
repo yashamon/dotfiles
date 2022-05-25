@@ -805,7 +805,7 @@
 "logical and": {
     "prefix": "land",
     "body": [
-      "\land $0"
+      "\\land $0"
     ],
     "description": "and"
   },
@@ -817,7 +817,6 @@
     ],
     "description": "and"
   },
-  
     "Large Summation": {
         "prefix": ["bigsum", "\\sumlarge"],
 		"body": [
