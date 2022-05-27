@@ -27,7 +27,7 @@ New-Alias z Jumphome
 Set-Alias neo $HOME/.local/bin/goneovim/goneovim
 Set-PSReadLineKeyHandler -Chord Alt+j -ScriptBlock { $ho="fdfind . $HOME -t d -H | fzf" | Invoke-Expression
 echo $ho
-[Microsoft.PowerShell.PSConsoleReadLine]::Insert("$ho")}
+[Microsoft.PowerShell.PSConsoleReadLine]::Insert('$ho')}
 
 
 
