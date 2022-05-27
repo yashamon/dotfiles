@@ -10,13 +10,13 @@ Set-PSReadLineKeyHandler -Key Tab -ScriptBlock { Invoke-FzfTabCompletion }
 Set-PsFzfOption -TabExpansion
 Set-Location (Get-ChildItem . -Recurse | ? { $_.PSIsContainer } | Invoke-Fzf) # This works as of version 2.2.8
 Get-ChildItem . -Recurse | ? { $_.PSIsContainer } | Invoke-Fzf | Set-Location
-oh-my-posh init pwsh --config powerlevel10k_lean.omp.json | Invoke-Expression
+oh-my-posh init pwsh --config /home/yasha/dotfiles/powershell/powerlevel10k_lean.omp.json | Invoke-Expression
 
 # For zoxide v0.8.0+
-# Invoke-Expression (& {
-#     $hook = if ($PSVersionTable.PSVersion.Major -lt 6) { 'prompt' } else { 'pwd' }
-#     (zoxide init --hook $hook --cmd j powershell | Out-String)
-# })
+Invoke-Expression (& {
+    $hook = if ($PSVersionTable.PSVersion.Major -lt 6) { 'prompt' } else { 'pwd' }
+    (zoxide init --hook $hook --cmd j powershell | Out-String)
+})
 
 
 # Bindings and aliases
