@@ -25,7 +25,7 @@ Set-PSReadlineKeyHandler -Key DownArrow -Function HistorySearchForward
 Function Jumphome {fdfind . $HOME -t d -H | fzf | cd}
 New-Alias z Jumphome
 Set-Alias neo $HOME/.local/bin/goneovim/goneovim
-Set-PSReadLineKeyHandler -Chord Alt+j -ScriptBlock {
+Set-PSReadLineKeyHandler -Chord Alt+j -Function {
 $ho="fdfind . $HOME -t f -H | fzf" | Invoke-Expression
 echo $ho
 [Microsoft.PowerShell.PSConsoleReadLine]::Insert($ho)}
