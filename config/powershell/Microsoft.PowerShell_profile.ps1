@@ -29,7 +29,7 @@ echo $ho
 neo $ho 
 }
 Function Invoke-PreJump() {
-$ho="fdfind . $HOME -t d -H | fzf" | Invoke-Expression
+$ho=fdfind . $HOME -t d -H | fzf
 [Microsoft.PowerShell.PSConsoleReadLine]::Insert($ho)
 }
 New-Alias z Jumphome
