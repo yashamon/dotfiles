@@ -26,8 +26,7 @@ Function Jumphome {fdfind . $HOME -t d -H | fzf | cd}
 New-Alias z Jumphome
 Set-Alias neo $HOME/.local/bin/goneovim/goneovim
 Set-PSReadLineKeyHandler -Chord Alt+j -ScriptBlock {
-  [Microsoft.PowerShell.PSConsoleReadLine]::Insert("fdfind . $HOME -t d -H | fzf | cd"
-| Invoke-Expression)
+  [Microsoft.PowerShell.PSConsoleReadLine]::Insert("fdfind . $HOME -t d -H | fzf | cd" | Invoke-Expression)
 }
 
 
