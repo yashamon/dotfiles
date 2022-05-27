@@ -51,6 +51,7 @@ Set-PSReadLineKeyHandler -Chord Alt+j -ScriptBlock { Invoke-PreJump }
 Set-PSReadLineKeyHandler -Key 'y' -Function Copy -ViMode Command
 Set-PSReadLineKeyHandler -Key 'p' -Function Paste -ViMode Command
 Set-PSReadLineKeyHandler -Key 'd,d' -Function DeleteLine -ViMode Command
+Set-PSReadLineKeyHandler -Key 'c,w' -Function DeleteWord -ViMode Command
 Set-PSReadLineKeyHandler -Key 'D' -Function DeleteToEnd -ViMode Command
 Set-PSReadLineKeyHandler -Key 'L' -Function AcceptSuggestion -ViMode Command
 Set-PSReadlineKeyHandler -Key Ctrl+Shift+P `
