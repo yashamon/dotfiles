@@ -24,7 +24,7 @@ Set-PSReadlineKeyHandler -Key UpArrow -Function HistorySearchBackward
 Set-PSReadlineKeyHandler -Key DownArrow -Function HistorySearchForward
 Function Jumphome {fdfind . $HOME -t d -H | fzf | cd}
 Function neof {
-$ho="fdfind . $HOME -t f -H | fzf" | Invoke-Expression
+$ho=fdfind . $HOME -t f -H | fzf
 echo $ho
 neo $ho 
 }
