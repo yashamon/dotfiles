@@ -15,7 +15,7 @@ oh-my-posh init pwsh | Invoke-Expression
 # For zoxide v0.8.0+
 Invoke-Expression (& {
     $hook = if ($PSVersionTable.PSVersion.Major -lt 6) { 'prompt' } else { 'pwd' }
-    (zoxide init --hook --cmd j $hook powershell | Out-String)
+    (zoxide init --hook $hook --cmd j powershell | Out-String)
 })
 
 
