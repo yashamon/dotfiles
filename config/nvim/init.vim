@@ -647,7 +647,8 @@ let filenameroot=expand('%:t:r')
 " let filenamePDF=filename[:-4]."pdf"
 let filenamePDF=b:filenamedir . "/build/" . filenameroot . ".pdf" 
 echo filenamePDF
-let execstr="silent !zathura --synctex-forward " . linenumber . ":" . colnumber . ":" . filenametexwhole . " " . filenamePDF . " &>/dev/null &" 
+let execstr="silent !zathura --synctex-forward " . linenumber . ":" . colnumber . ":" . filenametexwhole . " " . filenamePDF . " &>/dev/null &"
+" let execstr="silent !/mnt/c/Users/yasha/AppData/Local/SumatraPDF/SumatraPDF.exe -forward-search " . linenumber . " " . filenametexwhole . " &>/dev/null &"
 echo execstr
 exec execstr
 execute "buffer" buf

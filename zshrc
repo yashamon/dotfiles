@@ -1,15 +1,11 @@
 if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]; then
 source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
 fi 
-
+source ~/dotfiles/completion.zsh
 export MOZ_ENABLE_WAYLAND=1 firefox
 
 bindkey -rpM viins '\e'
 eval "$(fasd --init auto)"
-#
-
-# alias nvim="/snap/bin/nvim"   
-# alias uapp="~/appimage/AppImageUpdate"
 alias rot="xrandr -o"  
 alias fd="fdfind"
 alias p="paru"
@@ -68,9 +64,21 @@ alias rec="recoll -q"
 alias vi="nvim"   
 alias ping="ping www.google.com"
 alias gone="$HOME/.local/bin/goneovim/goneovim" 
-alias neo="$HOME/.local/bin/goneovim/goneovim" 
 alias goneovim="$HOME/.local/bin/goneovim/goneovim"
-
+function neof {
+ho=$(fdfind . $HOME -t f -H | fzf)
+echo $ho
+neo $ho 
+}
+function launch() {
+  local type="$1"; shift;
+  case "$type" in
+    (q) "$@" >/dev/null 2>&1     ;;   # (q)uiet
+    (b) "$@" >/dev/null 2>&1 &   ;;   # quiet+(b)ackground
+    (d) "$@" >/dev/null 2>&1 &!  ;;   # quiet+(d)isown
+  esac
+}
+alias neo="launch d $HOME/.local/bin/goneovim/goneovim"
 alias neov="neovide --frame NONE --maximized --wsl"
 # alias update="git submodule update --init --recursive ; git pull origin master"
 alias res="xrandr --newmode "1920x1080_60.00"  173.00  1920 2048 2248 2576  1080 1083 1088 1120; xrandr --addmode eDP-1 "1920x1080_60.00";
@@ -281,11 +289,12 @@ zinit for \
     light-mode depth"1" \
                 romkatv/powerlevel10k 
 zinit light softmoth/zsh-vim-mode   
-zinit ice wait'0'
+# zinit light Aloxaf/fzf-tab
 zinit light kutsan/zsh-system-clipboard
 zinit light wookayin/fzf-fasd
 zinit ice wait'0'
 zinit ice light b4b4r07/enhancd
+
 # zinit ice wait'0'
 # zinit light wfxr/forgit
 zinit ice wait"0b" lucid atload'bindkey "$terminfo[kcuu1]" history-substring-search-up; bindkey "$terminfo[kcud1]" history-substring-search-down'
@@ -558,7 +567,7 @@ export XDG_CONFIG_HOME=$HOME/.config
 # export MANPATH="/usr/local/man:$MANPATH"
 # You may need to manually set your language environment
 export LANG=en_US.UTF-8  
-export PATH="/opt:$HOME/.config/sway/modules:$HOME/appimage:/home/linuxbrew/.linuxbrew/bin:/usr/local/bin:/usr/sbin:/sbin:/bin:$HOME/.local/bin:/root/.cabal/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:$HOME/.cabal/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:$HOME/.local/bin:$HOME/.local/bin/scripts:$HOME/.cargo/bin:/snap/bin:/data/data/com.termux/files/usr/bin/applets:/data/data/com.termux/files/usr/bin:bin:/usr/local/sbin:/usr/bin:$HOME/.local/share/nvim/lspinstall:$HOME/skia-binaries:$HOME/ninja"
+export PATH="/opt:$HOME/.config/sway/modules:$HOME/appimage:/home/linuxbrew/.linuxbrew/bin:/usr/local/bin:/usr/sbin:/sbin:/bin:$HOME/.local/bin:/root/.cabal/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:$HOME/.cabal/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:$HOME/.local/bin:$HOME/.local/bin/scripts:$HOME/.cargo/bin:/snap/bin:/data/data/com.termux/files/usr/bin/applets:/data/data/com.termux/files/usr/bin:bin:/usr/local/sbin:/usr/bin:$HOME/.local/share/nvim/lspinstall:$HOME/skia-binaries:$HOME/ninja:/home/yasha/.nix-profile"
 if [[ -n $SSH_CONNECTION ]]; then
    export EDITOR='nvim'
  else
@@ -570,3 +579,20 @@ if [ -e /home/yasha/.nix-profile/etc/profile.d/nix.sh ]; then . /home/yasha/.nix
 export QT_SCALE_FACTOR=2 
 export GDK_SCALE=2 
 export QT_QPA_PLATFORM=wayland
+# disable sort when completing `git checkout`
+zstyle ':completion:*:git-checkout:*' sort false
+# set descriptions format to enable group support
+zstyle ':completion:*:descriptions' format '[%d]'
+# set list-colors to enable filename colorizing
+zstyle ':completion:*' list-colors ${(s.:.)LS_COLORS}
+# preview directory's content with exa when completing cd
+zstyle ':fzf-tab:complete:cd:*' fzf-preview 'exa -1 --color=always $realpath'
+# switch group using `,` and `.`
+zstyle ':fzf-tab:*' switch-group ',' '.'
+zinit light lincheney/fzf-tab-completion
+bindkey 'Tab' fzf_completion
+# only for git
+zstyle ':completion:*:*:git:*' fzf-search-display true
+# or for everything
+zstyle ':completion:*' fzf-search-display true
+
