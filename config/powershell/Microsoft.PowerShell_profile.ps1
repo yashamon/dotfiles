@@ -3,9 +3,9 @@ Set-PSReadlineKeyHandler -Key Tab -Function MenuComplete
 Set-PSReadlineOption -EditMode vi
 Set-PsFzfOption -PSReadlineChordProvider 'Ctrl+t' -PSReadlineChordReverseHistory 'Ctrl+r'
 # example command - use $Location with a different command:
-$commandOverride = [ScriptBlock]{ param($Location) Write-Host $Location }
+# $commandOverride = [ScriptBlock]{ param($Location) Write-Host $Location }
 # pass your override to PSFzf:
-Set-PsFzfOption -AltCCommand $commandOverride
+# Set-PsFzfOption -AltCCommand $commandOverride
 Set-PSReadLineKeyHandler -Key Tab -ScriptBlock { Invoke-FzfTabCompletion }
 Set-PsFzfOption -TabExpansion
 Set-Location (Get-ChildItem . -Recurse | ? { $_.PSIsContainer } | Invoke-Fzf) # This works as of version 2.2.8
