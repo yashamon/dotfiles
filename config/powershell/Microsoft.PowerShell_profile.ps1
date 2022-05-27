@@ -46,6 +46,21 @@ Set-PSReadLineKeyHandler -Key 'd,d' -Function DeleteLine -ViMode Command
 Set-PSReadLineKeyHandler -Key 'D' -Function DeleteToEnd -ViMode Command
 Set-PSReadLineKeyHandler -Key 'l' -Function AcceptSuggestion -ViMode Command
 
+# This example emits a cursor change VT escape in response to a Vi mode change.
+
+function OnViModeChange {
+    if ($args[0] -eq 'Command') {
+        # Set the cursor to a blinking block.
+        Write-Host -NoNewLine "`e[1 q"
+    } else {
+        # Set the cursor to a blinking line.
+        Write-Host -NoNewLine "`e[5 q"
+    }
+}
+Set-PSReadLineOption -ViModeIndicator Script -ViModeChangeHandler $Function:OnViModeChange
+
+
+fdfind . $HOME -t d -H | fzf | cd
 # Environmental variables
 $Env:EDITOR = "nvim"
 
