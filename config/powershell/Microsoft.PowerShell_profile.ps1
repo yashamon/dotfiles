@@ -7,13 +7,13 @@ oh-my-posh init pwsh --config /home/yasha/dotfiles/powershell/probua.minimal.omp
 Set-PSReadlineOption -EditMode vi
 Set-PsFzfOption -PSReadlineChordProvider 'Ctrl+t' -PSReadlineChordReverseHistory 'Ctrl+r'
 # example command - use $Location with a different command:
-$commandOverride = [ScriptBlock]{ param($Location) Write-Host $Location }
+# $commandOverride = [ScriptBlock]{ param($Location) Write-Host $Location }
 # pass your override to PSFzf:
-Set-PsFzfOption -AltCCommand $commandOverride
+# Set-PsFzfOption -AltCCommand $commandOverride
 Set-PSReadLineKeyHandler -Key Tab -ScriptBlock { Invoke-FzfTabCompletion }
-Set-PsFzfOption -TabExpansion
-Set-Location (Get-ChildItem . -Recurse | ? { $_.PSIsContainer } | Invoke-Fzf) # This works as of version 2.2.8
-Get-ChildItem . -Recurse | ? { $_.PSIsContainer } | Invoke-Fzf | Set-Location
+# Set-PsFzfOption -TabExpansion
+# Set-Location (Get-ChildItem . -Recurse | ? { $_.PSIsContainer } | Invoke-Fzf) # This works as of version 2.2.8
+# Get-ChildItem . -Recurse | ? { $_.PSIsContainer } | Invoke-Fzf | Set-Location
 Import-Module PSReadLine
 Set-PSReadLineOption -PredictionSource History
 # For zoxide v0.8.0+
@@ -44,7 +44,7 @@ Set-PSReadLineKeyHandler -Key 'y' -Function Copy -ViMode Command
 Set-PSReadLineKeyHandler -Key 'p' -Function Paste -ViMode Command
 Set-PSReadLineKeyHandler -Key 'd,d' -Function DeleteLine -ViMode Command
 Set-PSReadLineKeyHandler -Key 'D' -Function DeleteToEnd -ViMode Command
-Set-PSReadLineKeyHandler -Key 'l' -Function AcceptSuggestion -ViMode Command
+Set-PSReadLineKeyHandler -Key 'L' -Function AcceptSuggestion -ViMode Command
 
 # This example emits a cursor change VT escape in response to a Vi mode change.
 
