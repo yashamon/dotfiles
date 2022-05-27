@@ -21,15 +21,15 @@ Invoke-Expression (& {
      $hook = if ($PSVersionTable.PSVersion.Major -lt 6) { 'prompt' } else { 'pwd' }
      (zoxide init --hook $hook --cmd j powershell | Out-String)
 })
-Register-ArgumentCompleter -CommandName j -ScriptBlock {
-	param($commandName, $parameterName, $wordToComplete) 
-	  Search-NavigationHistory $commandName -List | %{ $_.Path} | ForEach-Object {
-	  New-Object -Type System.Management.Automation.CompletionResult -ArgumentList $_,
-		  $_,
-		  "ParameterValue",
-		  $_
-  }
+function VerbCompletion {
+    param($commandName, $parameterName, $wordToComplete, $commandAst, $fakeBoundParameter)
+
+    Get-Verb "$wordToComplete*" |
+        ForEach-Object {
+            New-CompletionResult -CompletionText $_.Verb -ToolTip ("Group: " + $_.Group)
+        }   
 }
+Register-ArgumentCompleter -CommandName Get-Verb -Parameter Verb -ScriptBlock $function:VerbCompletion -Description 'This argument completer handles the -Verb parameter of the Get-Verb command.'
 
 # Bindings and aliases
 Set-PSReadlineKeyHandler -Key UpArrow -Function HistorySearchBackward
@@ -54,6 +54,10 @@ Set-PSReadLineKeyHandler -Key 'p' -Function Paste -ViMode Command
 Set-PSReadLineKeyHandler -Key 'd,d' -Function DeleteLine -ViMode Command
 Set-PSReadLineKeyHandler -Key 'D' -Function DeleteToEnd -ViMode Command
 Set-PSReadLineKeyHandler -Key 'L' -Function AcceptSuggestion -ViMode Command
+Set-PSReadlineKeyHandler -Key Ctrl+Shift+P `
+    -BriefDescription CopyPathToClipboard `
+    -LongDescription "Copies the current path to the clipboard" `
+    -ScriptBlock { (Resolve-Path -LiteralPath $pwd).ProviderPath.Trim() | clip }
 
 # This example emits a cursor change VT escape in response to a Vi mode change.
 
