@@ -13,10 +13,10 @@ Get-ChildItem . -Recurse | ? { $_.PSIsContainer } | Invoke-Fzf | Set-Location
 oh-my-posh init pwsh --config powerlevel10k_lean.omp.json | Invoke-Expression
 
 # For zoxide v0.8.0+
-Invoke-Expression (& {
-    $hook = if ($PSVersionTable.PSVersion.Major -lt 6) { 'prompt' } else { 'pwd' }
-    (zoxide init --hook $hook --cmd j powershell | Out-String)
-})
+# Invoke-Expression (& {
+#     $hook = if ($PSVersionTable.PSVersion.Major -lt 6) { 'prompt' } else { 'pwd' }
+#     (zoxide init --hook $hook --cmd j powershell | Out-String)
+# })
 
 
 # Bindings and aliases
