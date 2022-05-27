@@ -37,5 +37,5 @@ Set-Alias neo $HOME/.local/bin/goneovim/goneovim
 Set-PSReadLineKeyHandler -Chord Alt+j -ScriptBlock { Invoke-PreJump }
 
 # Environmental variables
-$Env:EDITOR = "home/yasha/.local/bin/goneovim/goneovim"
+$Env:EDITOR = "nvim"
 
