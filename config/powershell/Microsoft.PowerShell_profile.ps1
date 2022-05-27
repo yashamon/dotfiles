@@ -23,7 +23,10 @@ Invoke-Expression (& {
 Set-PSReadlineKeyHandler -Key UpArrow -Function HistorySearchBackward
 Set-PSReadlineKeyHandler -Key DownArrow -Function HistorySearchForward
 Function Jumphome {fdfind . $HOME -t d -H | fzf | cd}
-Function Invoke-PreJump() {fdfind . $HOME -t d -H | fzf }
+Function Invoke-PreJump() {
+$ho="fdfind . $HOME -t d -H | fzf" | Invoke-Expression
+[Microsoft.PowerShell.PSConsoleReadLine]::Insert($ho)
+}
 New-Alias z Jumphome
 Set-Alias neo $HOME/.local/bin/goneovim/goneovim
 Set-PSReadLineKeyHandler -Chord Alt+j -ScriptBlock { Invoke-PreJump }
