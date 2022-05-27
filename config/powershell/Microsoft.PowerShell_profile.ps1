@@ -21,6 +21,15 @@ Invoke-Expression (& {
      $hook = if ($PSVersionTable.PSVersion.Major -lt 6) { 'prompt' } else { 'pwd' }
      (zoxide init --hook $hook --cmd j powershell | Out-String)
 })
+Register-ArgumentCompleter -CommandName j -ScriptBlock {
+	param($commandName, $parameterName, $wordToComplete) 
+	  Search-NavigationHistory $commandName -List | %{ $_.Path} | ForEach-Object {
+	  New-Object -Type System.Management.Automation.CompletionResult -ArgumentList $_,
+		  $_,
+		  "ParameterValue",
+		  $_
+  }
+}
 
 # Bindings and aliases
 Set-PSReadlineKeyHandler -Key UpArrow -Function HistorySearchBackward
@@ -59,8 +68,6 @@ function OnViModeChange {
 }
 Set-PSReadLineOption -ViModeIndicator Script -ViModeChangeHandler $Function:OnViModeChange
 
-
-fdfind . $HOME -t d -H | fzf | cd
 # Environmental variables
 $Env:EDITOR = "nvim"
 
