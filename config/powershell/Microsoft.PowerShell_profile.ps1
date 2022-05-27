@@ -44,6 +44,7 @@ Set-PSReadLineKeyHandler -Key 'y' -Function Copy -ViMode Command
 Set-PSReadLineKeyHandler -Key 'p' -Function Paste -ViMode Command
 Set-PSReadLineKeyHandler -Key 'd,d' -Function DeleteLine -ViMode Command
 Set-PSReadLineKeyHandler -Key 'D' -Function DeleteToEnd -ViMode Command
+Set-PSReadLineKeyHandler -Key '<Right>' -Function AcceptSuggestion -ViMode Command
 
 # Environmental variables
 $Env:EDITOR = "nvim"
