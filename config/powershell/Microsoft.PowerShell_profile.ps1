@@ -22,11 +22,10 @@ Invoke-Expression (& {
 # Autocompletion for arrow keys
 Set-PSReadlineKeyHandler -Key UpArrow -Function HistorySearchBackward
 Set-PSReadlineKeyHandler -Key DownArrow -Function HistorySearchForward
-
+Set-Alias j z
 Function Jumphome {fdfind . $HOME -t d -H | fzf | cd}
 New-Alias z Jumphome
 Set-Alias neo $HOME/.local/bin/goneovim/goneovim
-Set-Alias j z
 Set-PSReadLineKeyHandler -Chord Alt+j -ScriptBlock {
  Jumphome
 }
