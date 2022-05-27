@@ -22,7 +22,7 @@ Invoke-Expression (& {
      (zoxide init --hook $hook --cmd j powershell | Out-String)
 })
 function VerbCompletion {
-    param($commandName, $parameterName, $wordToComplete, $commandAst, $fakeBoundParameter)
+    param($commandName, $wordToComplete, $commandAst, $fakeBoundParameter)
 
     Get-Verb "$wordToComplete*" |
         ForEach-Object {
