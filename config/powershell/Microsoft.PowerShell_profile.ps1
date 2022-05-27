@@ -29,8 +29,7 @@ function VerbCompletion {
             New-CompletionResult -CompletionText $_.Verb -ToolTip ("Group: " + $_.Group)
         }   
 }
-Register-ArgumentCompleter -CommandName j -ScriptBlock $function:VerbCompletion -Description 'This argument completer handles the -Verb parameter of the Get-Verb command.'
-
+Register-ArgumentCompleter -CommandName j -ScriptBlock $function:VerbCompletion 
 # Bindings and aliases
 Set-PSReadlineKeyHandler -Key UpArrow -Function HistorySearchBackward
 Set-PSReadlineKeyHandler -Key DownArrow -Function HistorySearchForward
