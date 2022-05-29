@@ -1,0 +1,1 @@
+[2022-05-14 12:39:51.475136] [p-7340] [t-5724] [info] Send settings telemetry

@@ -1,0 +1,6 @@
+[2022-05-24 16:28:46.522704] [p-17064] [t-13772] [info] mouse-highlighter logger is initialized
+[2022-05-24 16:28:47.188398] [p-17064] [t-5456] [info] Starting a highlighter instance.
+[2022-05-24 16:28:47.198074] [p-17064] [t-5456] [info] Initialized the highlighter instance.
+[2022-05-24 19:05:08.544317] [p-3288] [t-3832] [info] mouse-highlighter logger is initialized
+[2022-05-24 19:05:08.922003] [p-3288] [t-8392] [info] Starting a highlighter instance.
+[2022-05-24 19:05:08.924413] [p-3288] [t-8392] [info] Initialized the highlighter instance.

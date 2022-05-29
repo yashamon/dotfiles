@@ -1,0 +1,46 @@
+[2022-05-19 09:03:26.4888] [ERROR] [C:\a\_work\1\s\src\modules\launcher\Plugins\Microsoft.Plugin.Program\Programs\PackageWrapper.cs::59]
+-------------------------- Begin exception --------------------------
+Message: 	Error status: UNKNOWN
+		Program path: Path could not be determined
+		Exception thrown in called method: Void <ThrowExceptionForHR>g__Throw|20_0(Int32)
+		Possible interpretation of the error: Exception MicrosoftWindows.Client.WebExperience
+		Possible resolution: Not yet known
+
+Exception full name  : System.ArgumentException
+Exception message    : Value does not fall within the expected range.
+Exception stack trace:
+   at WinRT.ExceptionHelpers.<ThrowExceptionForHR>g__Throw|20_0(Int32 hr)
+   at ABI.Windows.ApplicationModel.IPackageMethods.get_InstalledLocation(IObjectReference _obj)
+   at Microsoft.Plugin.Program.Programs.PackageWrapper.GetWrapperFromPackage(Package package)
+Exception source     : WinRT.Runtime
+Exception target site: Void <ThrowExceptionForHR>g__Throw|20_0(Int32)
+Exception HResult    : -2147024809
+-------------------------- End exception --------------------------
+
+
+[2022-05-19 09:03:26.5696] [ERROR] [C:\a\_work\1\s\src\modules\launcher\Plugins\Microsoft.Plugin.Program\Programs\PackageWrapper.cs::59]
+-------------------------- Begin exception --------------------------
+Message: 	Error status: UNKNOWN
+		Program path: Path could not be determined
+		Exception thrown in called method: Void <ThrowExceptionForHR>g__Throw|20_0(Int32)
+		Possible interpretation of the error: Exception MicrosoftWindows.Client.WebExperience
+		Possible resolution: Not yet known
+
+Exception full name  : System.ArgumentException
+Exception message    : Value does not fall within the expected range.
+Exception stack trace:
+   at WinRT.ExceptionHelpers.<ThrowExceptionForHR>g__Throw|20_0(Int32 hr)
+   at ABI.Windows.ApplicationModel.IPackageMethods.get_InstalledLocation(IObjectReference _obj)
+   at Microsoft.Plugin.Program.Programs.PackageWrapper.GetWrapperFromPackage(Package package)
+Exception source     : WinRT.Runtime
+Exception target site: Void <ThrowExceptionForHR>g__Throw|20_0(Int32)
+Exception HResult    : -2147024809
+-------------------------- End exception --------------------------
+
+
+[2022-05-19 16:03:54.6417] [INFO] [C:\a\_work\1\s\src\modules\launcher\PowerLauncher\Helper\NativeEventWaiter.cs::24]
+Successfully waited for Local\PowerToysRunInvokeEvent-638ec522-0018-4b96-837d-6bd88e06f0d6
+
+[2022-05-19 16:03:54.8105] [INFO] [C:\a\_work\1\s\src\modules\launcher\PowerLauncher\MainWindow.xaml.cs::57]
+Send Run settings telemetry
+

@@ -1,0 +1,18 @@
+INFO: 09:36:36.8502994
+    [Method]: Main [Class]: Program
+    Color Picker started with pid=8200
+INFO: 09:36:38.5758753
+    [Method]: OnStartup [Class]: App
+    Color Picker started from the PowerToys Runner. Runner pid=8864
+WARNING: 09:36:43.5077699
+    [Method]: SetWindowPosition [Class]: ChangeWindowPositionBehavior
+    Failed to get monitor bounds for mouse position-1,1
+INFO: 11:49:18.2444352
+    [Method]: Callback [Class]: StartHelper
+    Successfully waited for Local\ColorPickerSettingsTelemetryEvent-6c7071d8-4014-46ec-b687-913bd8a422f1
+INFO: 11:49:19.1998893
+    [Method]: SendSettingsTelemetry [Class]: UserSettings
+    Sending settings telemetry
+INFO: 16:14:51.6909233
+    [Method]: <OnStartup>b__5_0 [Class]: <>c
+    PowerToys Runner exited. Exiting ColorPicker

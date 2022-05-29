@@ -1,0 +1,6 @@
+[2022-05-17 02:23:47.5258] [INFO] [C:\a\_work\1\s\src\modules\launcher\PowerLauncher\Helper\NativeEventWaiter.cs::24]
+Successfully waited for Local\PowerToysRunInvokeEvent-638ec522-0018-4b96-837d-6bd88e06f0d6
+
+[2022-05-17 02:23:47.9184] [INFO] [C:\a\_work\1\s\src\modules\launcher\PowerLauncher\MainWindow.xaml.cs::57]
+Send Run settings telemetry
+

@@ -1,0 +1,55 @@
+[2022-05-25 15:03:29.896120] [p-16640] [t-2664] [info] runner logger is initialized
+[2022-05-25 15:03:29.896156] [p-16640] [t-2664] [info] Running powertoys with cmd args: 
+[2022-05-25 15:03:29.896378] [p-16640] [t-2664] [error] Can't convert string value= to ESettingsWindowNames
+[2022-05-25 15:03:42.312908] [p-15728] [t-16060] [info] runner logger is initialized
+[2022-05-25 15:03:42.312938] [p-15728] [t-16060] [info] Running powertoys with cmd args: 
+[2022-05-25 15:03:42.313131] [p-15728] [t-16060] [error] Can't convert string value= to ESettingsWindowNames
+[2022-05-25 15:05:04.787401] [p-10620] [t-10624] [info] runner logger is initialized
+[2022-05-25 15:05:04.787426] [p-10620] [t-10624] [info] Running powertoys with cmd args: 
+[2022-05-25 15:05:04.788977] [p-10620] [t-10624] [info] apply_general_settings: {"startup":true,"enabled":{"AlwaysOnTop":true,"Awake":true,"ColorPicker":true,"FancyZones":true,"File Explorer":true,"FindMyMouse":true,"Image Resizer":true,"Keyboard Manager":true,"MouseHighlighter":true,"MousePointerCrosshairs":false,"PowerRename":true,"PowerToys Run":true,"Shortcut Guide":true,"Video Conference":false},"is_elevated":false,"run_elevated":false,"download_updates_automatically":true,"is_admin":true,"theme":"system","system_theme":"dark","powertoys_version":"v0.58.0"}
+[2022-05-25 15:05:04.806947] [p-10620] [t-10624] [info] Runner is starting. Elevated=false
+[2022-05-25 15:05:04.821467] [p-10620] [t-10624] [trace] UnRegister hotkey action for FancyZones
+[2022-05-25 15:05:04.845292] [p-10620] [t-10624] [trace] UnRegister hotkey action for File Explorer
+[2022-05-25 15:05:04.848783] [p-10620] [t-10624] [trace] UnRegister hotkey action for Image Resizer
+[2022-05-25 15:05:04.905996] [p-10620] [t-10624] [trace] UnRegister hotkey action for Keyboard Manager
+[2022-05-25 15:05:04.926359] [p-10620] [t-10624] [trace] UnRegister hotkey action for PowerToys Run
+[2022-05-25 15:05:04.926370] [p-10620] [t-10624] [trace] Register hotkey action for PowerToys Run
+[2022-05-25 15:05:04.935665] [p-10620] [t-10624] [trace] UnRegister hotkey action for PowerRename
+[2022-05-25 15:05:04.941991] [p-10620] [t-10624] [trace] UnRegister hotkey action for Shortcut Guide
+[2022-05-25 15:05:04.950641] [p-10620] [t-10624] [trace] UnRegister hotkey action for ColorPicker
+[2022-05-25 15:05:04.950651] [p-10620] [t-10624] [trace] Register hotkey action for ColorPicker
+[2022-05-25 15:05:04.956115] [p-10620] [t-10624] [trace] UnRegister hotkey action for Awake
+[2022-05-25 15:05:04.966241] [p-10620] [t-10624] [trace] UnRegister hotkey action for FindMyMouse
+[2022-05-25 15:05:04.973390] [p-10620] [t-10624] [trace] UnRegister hotkey action for MouseHighlighter
+[2022-05-25 15:05:04.975923] [p-10620] [t-10624] [trace] UnRegister hotkey action for AlwaysOnTop
+[2022-05-25 15:05:04.982975] [p-10620] [t-10624] [trace] UnRegister hotkey action for MousePointerCrosshairs
+[2022-05-25 15:05:04.998431] [p-10620] [t-10624] [trace] UnRegister hotkey action for Video Conference
+[2022-05-25 15:05:04.998699] [p-10620] [t-10624] [info] start_enabled_powertoys: Powertoy Video Conference explicitly disabled
+[2022-05-25 15:05:04.998705] [p-10620] [t-10624] [info] start_enabled_powertoys: Powertoy MousePointerCrosshairs explicitly disabled
+[2022-05-25 15:05:04.998717] [p-10620] [t-10624] [info] start_enabled_powertoys: Enabling powertoy AlwaysOnTop
+[2022-05-25 15:05:05.046696] [p-10620] [t-10624] [info] start_enabled_powertoys: Enabling powertoy Awake
+[2022-05-25 15:05:05.048594] [p-10620] [t-10624] [info] start_enabled_powertoys: Enabling powertoy ColorPicker
+[2022-05-25 15:05:05.062751] [p-10620] [t-10624] [info] start_enabled_powertoys: Enabling powertoy FancyZones
+[2022-05-25 15:05:05.073391] [p-10620] [t-10624] [info] start_enabled_powertoys: Enabling powertoy File Explorer
+[2022-05-25 15:05:05.073403] [p-10620] [t-10624] [info] start_enabled_powertoys: Enabling powertoy FindMyMouse
+[2022-05-25 15:05:05.073452] [p-10620] [t-10624] [info] start_enabled_powertoys: Enabling powertoy Image Resizer
+[2022-05-25 15:05:05.074579] [p-10620] [t-10624] [info] start_enabled_powertoys: Enabling powertoy Keyboard Manager
+[2022-05-25 15:05:05.097338] [p-10620] [t-10624] [info] start_enabled_powertoys: Enabling powertoy MouseHighlighter
+[2022-05-25 15:05:05.100763] [p-10620] [t-10624] [trace] shift+win+H shortcut registered
+[2022-05-25 15:05:05.109226] [p-10620] [t-10624] [info] start_enabled_powertoys: Enabling powertoy PowerRename
+[2022-05-25 15:05:05.111937] [p-10620] [t-10624] [info] start_enabled_powertoys: Enabling powertoy PowerToys Run
+[2022-05-25 15:05:05.127411] [p-10620] [t-10624] [info] start_enabled_powertoys: Enabling powertoy Shortcut Guide
+[2022-05-25 15:05:05.128146] [p-10620] [t-10624] [trace] shift+win+/ shortcut registered
+[2022-05-25 15:06:17.966133] [p-15976] [t-15980] [info] runner logger is initialized
+[2022-05-25 15:06:17.966153] [p-15976] [t-15980] [info] Running powertoys with cmd args: 
+[2022-05-25 15:06:17.966231] [p-15976] [t-15980] [error] Can't convert string value= to ESettingsWindowNames
+[2022-05-25 15:08:52.354933] [p-10620] [t-10624] [trace] PowerToys Run hotkey is invoked from Centralized keyboard hook
+[2022-05-25 15:08:53.030751] [p-10620] [t-10624] [trace] PowerToys Run hotkey is invoked from Centralized keyboard hook
+[2022-05-25 15:08:53.503212] [p-10620] [t-10624] [trace] PowerToys Run hotkey is invoked from Centralized keyboard hook
+[2022-05-25 15:08:54.223453] [p-10620] [t-10624] [trace] PowerToys Run hotkey is invoked from Centralized keyboard hook
+[2022-05-25 15:08:54.537305] [p-10620] [t-10624] [trace] PowerToys Run hotkey is invoked from Centralized keyboard hook
+[2022-05-25 15:09:05.360771] [p-10620] [t-10624] [trace] PowerToys Run hotkey is invoked from Centralized keyboard hook
+[2022-05-25 15:09:05.833550] [p-10620] [t-10624] [trace] PowerToys Run hotkey is invoked from Centralized keyboard hook
+[2022-05-25 15:09:06.363390] [p-10620] [t-10624] [trace] PowerToys Run hotkey is invoked from Centralized keyboard hook
+[2022-05-25 15:09:06.732939] [p-10620] [t-10624] [trace] PowerToys Run hotkey is invoked from Centralized keyboard hook
+[2022-05-25 20:28:58.581162] [p-10620] [t-10684] [trace] Version is up to date

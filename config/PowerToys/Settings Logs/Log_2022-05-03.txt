@@ -1,0 +1,12 @@
+INFO: 10:03:44.3599688
+    [Method]: SendSettingsTelemetry [Class]: UserSettings
+    Sending settings telemetry
+INFO: 17:59:35.9739835
+    [Method]: Callback [Class]: StartHelper
+    Successfully waited for Local\ColorPickerSettingsTelemetryEvent-6c7071d8-4014-46ec-b687-913bd8a422f1
+INFO: 17:59:36.4982037
+    [Method]: SendSettingsTelemetry [Class]: UserSettings
+    Sending settings telemetry
+INFO: 11:22:54.5689139
+    [Method]: <OnStartup>b__5_0 [Class]: <>c
+    PowerToys Runner exited. Exiting ColorPicker

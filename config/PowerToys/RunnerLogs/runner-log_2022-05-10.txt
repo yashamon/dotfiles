@@ -1,0 +1,48 @@
+[2022-05-10 15:33:57.937280] [p-10180] [t-10184] [info] runner logger is initialized
+[2022-05-10 15:33:57.937307] [p-10180] [t-10184] [info] Running powertoys with cmd args: 
+[2022-05-10 15:33:57.955544] [p-10180] [t-10184] [info] apply_general_settings: {"startup":true,"enabled":{"AlwaysOnTop":true,"Awake":true,"ColorPicker":true,"FancyZones":true,"File Explorer":true,"FindMyMouse":true,"Image Resizer":true,"Keyboard Manager":true,"MouseHighlighter":true,"MousePointerCrosshairs":false,"PowerRename":true,"PowerToys Run":true,"Shortcut Guide":true,"Video Conference":false},"is_elevated":false,"run_elevated":false,"download_updates_automatically":true,"is_admin":true,"theme":"system","system_theme":"dark","powertoys_version":"v0.57.2"}
+[2022-05-10 15:33:57.974534] [p-10180] [t-10184] [info] Runner is starting. Elevated=false
+[2022-05-10 15:33:58.051152] [p-10180] [t-10184] [trace] UnRegister hotkey action for FancyZones
+[2022-05-10 15:33:58.101812] [p-10180] [t-10184] [trace] UnRegister hotkey action for File Explorer
+[2022-05-10 15:33:58.146021] [p-10180] [t-10184] [trace] UnRegister hotkey action for Image Resizer
+[2022-05-10 15:33:58.191378] [p-10180] [t-10184] [trace] UnRegister hotkey action for Keyboard Manager
+[2022-05-10 15:33:58.238007] [p-10180] [t-10184] [trace] UnRegister hotkey action for PowerToys Run
+[2022-05-10 15:33:58.238017] [p-10180] [t-10184] [trace] Register hotkey action for PowerToys Run
+[2022-05-10 15:33:58.283683] [p-10180] [t-10184] [trace] UnRegister hotkey action for PowerRename
+[2022-05-10 15:33:58.350190] [p-10180] [t-10184] [trace] UnRegister hotkey action for Shortcut Guide
+[2022-05-10 15:33:58.439657] [p-10180] [t-10184] [trace] UnRegister hotkey action for ColorPicker
+[2022-05-10 15:33:58.439664] [p-10180] [t-10184] [trace] Register hotkey action for ColorPicker
+[2022-05-10 15:33:58.484359] [p-10180] [t-10184] [trace] UnRegister hotkey action for Awake
+[2022-05-10 15:33:58.534717] [p-10180] [t-10184] [trace] UnRegister hotkey action for FindMyMouse
+[2022-05-10 15:33:58.605413] [p-10180] [t-10184] [trace] UnRegister hotkey action for MouseHighlighter
+[2022-05-10 15:33:58.654159] [p-10180] [t-10184] [trace] UnRegister hotkey action for AlwaysOnTop
+[2022-05-10 15:33:58.714607] [p-10180] [t-10184] [trace] UnRegister hotkey action for MousePointerCrosshairs
+[2022-05-10 15:33:58.803291] [p-10180] [t-10184] [trace] UnRegister hotkey action for Video Conference
+[2022-05-10 15:33:58.803505] [p-10180] [t-10184] [info] start_enabled_powertoys: Powertoy Video Conference explicitly disabled
+[2022-05-10 15:33:58.803509] [p-10180] [t-10184] [info] start_enabled_powertoys: Powertoy MousePointerCrosshairs explicitly disabled
+[2022-05-10 15:33:58.803518] [p-10180] [t-10184] [info] start_enabled_powertoys: Enabling powertoy AlwaysOnTop
+[2022-05-10 15:33:58.901235] [p-10180] [t-10184] [info] start_enabled_powertoys: Enabling powertoy Awake
+[2022-05-10 15:33:58.919829] [p-10180] [t-10184] [info] start_enabled_powertoys: Enabling powertoy ColorPicker
+[2022-05-10 15:33:58.963106] [p-10180] [t-10184] [info] start_enabled_powertoys: Enabling powertoy FancyZones
+[2022-05-10 15:33:59.016929] [p-10180] [t-10184] [info] start_enabled_powertoys: Enabling powertoy File Explorer
+[2022-05-10 15:33:59.016953] [p-10180] [t-10184] [info] start_enabled_powertoys: Enabling powertoy FindMyMouse
+[2022-05-10 15:33:59.017052] [p-10180] [t-10184] [info] start_enabled_powertoys: Enabling powertoy Image Resizer
+[2022-05-10 15:33:59.018152] [p-10180] [t-10184] [info] start_enabled_powertoys: Enabling powertoy Keyboard Manager
+[2022-05-10 15:33:59.059653] [p-10180] [t-10184] [info] start_enabled_powertoys: Enabling powertoy MouseHighlighter
+[2022-05-10 15:33:59.059747] [p-10180] [t-10184] [trace] shift+win+H shortcut registered
+[2022-05-10 15:33:59.059751] [p-10180] [t-10184] [info] start_enabled_powertoys: Enabling powertoy PowerRename
+[2022-05-10 15:33:59.060966] [p-10180] [t-10184] [info] start_enabled_powertoys: Enabling powertoy PowerToys Run
+[2022-05-10 15:33:59.097225] [p-10180] [t-10184] [info] start_enabled_powertoys: Enabling powertoy Shortcut Guide
+[2022-05-10 15:33:59.117044] [p-10180] [t-10184] [trace] shift+win+/ shortcut registered
+[2022-05-10 15:39:58.167622] [p-1396] [t-6632] [info] runner logger is initialized
+[2022-05-10 15:39:58.167635] [p-1396] [t-6632] [info] Running powertoys with cmd args: 
+[2022-05-10 15:39:58.167724] [p-1396] [t-6632] [error] Can't convert string value= to ESettingsWindowNames
+[2022-05-10 15:40:01.439567] [p-7720] [t-6904] [info] runner logger is initialized
+[2022-05-10 15:40:01.439579] [p-7720] [t-6904] [info] Running powertoys with cmd args: 
+[2022-05-10 15:40:01.439679] [p-7720] [t-6904] [error] Can't convert string value= to ESettingsWindowNames
+[2022-05-10 15:40:17.342554] [p-10608] [t-7508] [info] runner logger is initialized
+[2022-05-10 15:40:17.342569] [p-10608] [t-7508] [info] Running powertoys with cmd args: 
+[2022-05-10 15:40:17.342719] [p-10608] [t-7508] [error] Can't convert string value= to ESettingsWindowNames
+[2022-05-10 16:11:09.068573] [p-8064] [t-3652] [info] runner logger is initialized
+[2022-05-10 16:11:09.068588] [p-8064] [t-3652] [info] Running powertoys with cmd args: 
+[2022-05-10 16:11:09.068691] [p-8064] [t-3652] [error] Can't convert string value= to ESettingsWindowNames

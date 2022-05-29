@@ -1,0 +1,2 @@
+[2022-05-22 17:12:03.573330] [p-10452] [t-10868] [trace] Discovered new version v0.58.0
+[2022-05-22 17:12:03.603399] [p-10452] [t-10868] [trace] New version is already downloaded

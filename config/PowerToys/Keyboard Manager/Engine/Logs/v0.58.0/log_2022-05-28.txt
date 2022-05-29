@@ -1,0 +1,8 @@
+[2022-05-28 10:24:53.136249] [p-6828] [t-6772] [info] keyboard-manager logger is initialized
+[2022-05-28 10:24:53.171829] [p-6828] [t-6772] [trace] SettingsHelper::LoadSettings()
+[2022-05-28 10:27:03.646116] [p-10856] [t-10860] [info] keyboard-manager logger is initialized
+[2022-05-28 10:27:03.683571] [p-10856] [t-10860] [trace] SettingsHelper::LoadSettings()
+[2022-05-28 22:25:02.116077] [p-8952] [t-9900] [info] keyboard-manager logger is initialized
+[2022-05-28 22:25:02.176444] [p-8952] [t-9900] [trace] SettingsHelper::LoadSettings()
+[2022-05-28 22:33:49.066210] [p-11856] [t-9552] [info] keyboard-manager logger is initialized
+[2022-05-28 22:33:49.130890] [p-11856] [t-9552] [trace] SettingsHelper::LoadSettings()

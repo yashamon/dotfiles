@@ -1,0 +1,15 @@
+INFO: 21:37:43.1629413
+    [Method]: GetSettingsOrDefault [Class]: SettingsUtils
+    Settings file settings.json for FindMyMouse was not found.
+INFO: 21:37:43.1752613
+    [Method]: GetSettingsOrDefault [Class]: SettingsUtils
+    Settings file settings.json for MouseHighlighter was not found.
+INFO: 21:37:43.1790091
+    [Method]: GetSettingsOrDefault [Class]: SettingsUtils
+    Settings file settings.json for MousePointerCrosshairs was not found.
+INFO: 21:45:44.8717111
+    [Method]: SendSettingsTelemetry [Class]: UserSettings
+    Sending settings telemetry
+INFO: 12:03:36.9868254
+    [Method]: <OnStartup>b__5_0 [Class]: <>c
+    PowerToys Runner exited. Exiting ColorPicker

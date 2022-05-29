@@ -1,0 +1,4 @@
+[2022-05-15 13:54:55.420186] [p-10452] [t-10456] [info] launcher logger is initialized
+[2022-05-15 13:54:55.420203] [p-10452] [t-10456] [info] Launcher object is constructing
+[2022-05-15 13:54:55.691857] [p-10452] [t-10456] [trace] Launching PowerToys Awake process
+[2022-05-15 13:54:55.691868] [p-10452] [t-10456] [trace] PowerToys Awake launching with parameters: --use-pt-config --pid 10452

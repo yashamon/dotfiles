@@ -1,0 +1,9 @@
+INFO: 15:04:05.4814495
+    [Method]: OpenEditor [Class]: KeyboardManagerViewModel
+    Starting Keyboard Manager editor from C:\Program Files\PowerToys\modules\KeyboardManager\KeyboardManagerEditor\PowerToys.KeyboardManagerEditor.exe
+INFO: 15:05:06.9302294
+    [Method]: SendSettingsTelemetry [Class]: UserSettings
+    Sending settings telemetry
+INFO: 02:31:24.3935198
+    [Method]: <OnStartup>b__5_0 [Class]: <>c
+    PowerToys Runner exited. Exiting ColorPicker

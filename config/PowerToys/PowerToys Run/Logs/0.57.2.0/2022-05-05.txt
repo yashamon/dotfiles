@@ -1,0 +1,429 @@
+[2022-05-05 11:22:54.6497] [INFO] [C:\a\_work\1\s\src\modules\launcher\PowerLauncher\App.xaml.cs::206]
+Application.Current.SessionEnding
+
+[2022-05-05 11:22:54.6638] [INFO] [C:\a\_work\1\s\src\modules\launcher\PowerLauncher\App.xaml.cs::84]
+Runner with pid=9740 exited. Exiting PowerToys Run
+
+[2022-05-05 11:22:55.3404] [INFO] [C:\a\_work\1\s\src\modules\launcher\PowerLauncher\App.xaml.cs::265]
+Start PowerToys Run Exit----------------------------------------------------  
+
+[2022-05-05 11:22:55.9056] [INFO] [C:\a\_work\1\s\src\modules\launcher\Wox.Infrastructure\Storage\JsonStorage`1.cs::131]
+Saving cached data at <C:\Users\yasha\AppData\Local\Microsoft\PowerToys\PowerToys Run\Settings\QueryHistory.json>
+
+[2022-05-05 11:22:56.0142] [INFO] [C:\a\_work\1\s\src\modules\launcher\Wox.Infrastructure\Storage\JsonStorage`1.cs::131]
+Saving cached data at <C:\Users\yasha\AppData\Local\Microsoft\PowerToys\PowerToys Run\Settings\QueryHistory.json>
+
+[2022-05-05 11:22:56.0451] [INFO] [C:\a\_work\1\s\src\modules\launcher\Wox.Infrastructure\Storage\JsonStorage`1.cs::131]
+Saving cached data at <C:\Users\yasha\AppData\Local\Microsoft\PowerToys\PowerToys Run\Settings\UserSelectedRecord.json>
+
+[2022-05-05 11:22:56.0451] [INFO] [C:\a\_work\1\s\src\modules\launcher\Wox.Infrastructure\Storage\JsonStorage`1.cs::131]
+Saving cached data at <C:\Users\yasha\AppData\Local\Microsoft\PowerToys\PowerToys Run\Settings\UserSelectedRecord.json>
+
+[2022-05-05 11:22:56.5001] [INFO] [C:\a\_work\1\s\src\modules\launcher\Wox.Infrastructure\Storage\JsonStorage`1.cs::131]
+Saving cached data at <C:\Users\yasha\AppData\Local\Microsoft\PowerToys\PowerToys Run\Settings\PowerToysRunSettings.json>
+
+[2022-05-05 11:22:56.5335] [INFO] [C:\a\_work\1\s\src\modules\launcher\Wox.Infrastructure\Storage\JsonStorage`1.cs::131]
+Saving cached data at <C:\Users\yasha\AppData\Local\Microsoft\PowerToys\PowerToys Run\Settings\Plugins\Microsoft.Plugin.Folder\FolderSettings.json>
+
+[2022-05-05 11:22:56.5787] [INFO] [C:\a\_work\1\s\src\modules\launcher\Wox.Infrastructure\Storage\JsonStorage`1.cs::131]
+Saving cached data at <C:\Users\yasha\AppData\Local\Microsoft\PowerToys\PowerToys Run\Settings\Plugins\Microsoft.Plugin.Indexer\IndexerSettings.json>
+
+[2022-05-05 11:22:56.6150] [INFO] [C:\a\_work\1\s\src\modules\launcher\Wox.Infrastructure\Storage\JsonStorage`1.cs::131]
+Saving cached data at <C:\Users\yasha\AppData\Local\Microsoft\PowerToys\PowerToys Run\Settings\Plugins\Microsoft.Plugin.Program\ProgramPluginSettings.json>
+
+[2022-05-05 11:22:56.6268] [INFO] [C:\a\_work\1\s\src\modules\launcher\Wox.Infrastructure\Storage\JsonStorage`1.cs::131]
+Saving cached data at <C:\Users\yasha\AppData\Local\Microsoft\PowerToys\PowerToys Run\Settings\Plugins\Microsoft.Plugin.Shell\ShellPluginSettings.json>
+
+[2022-05-05 11:22:56.6421] [INFO] [C:\a\_work\1\s\src\modules\launcher\Wox.Infrastructure\Storage\JsonStorage`1.cs::131]
+Saving cached data at <C:\Users\yasha\AppData\Local\Microsoft\PowerToys\PowerToys Run\Settings\Plugins\Microsoft.Plugin.Uri\UriSettings.json>
+
+[2022-05-05 11:22:56.8293] [INFO] [C:\a\_work\1\s\src\modules\launcher\Wox.Infrastructure\Storage\BinaryStorage`1.cs::159]
+Saving cached data at <C:\Users\yasha\AppData\Local\Microsoft\PowerToys\PowerToys Run\Cache\Image.cache>
+
+[2022-05-05 11:22:56.9125] [INFO] [C:\a\_work\1\s\src\modules\launcher\PowerLauncher\App.xaml.cs::200]
+Application.Current.Exit
+
+[2022-05-05 11:23:41.1174] [INFO] [C:\a\_work\1\s\src\modules\launcher\PowerLauncher\App.xaml.cs::49]
+Starting PowerToys Run with PID=11260
+
+[2022-05-05 11:23:41.2224] [INFO] [C:\a\_work\1\s\src\modules\launcher\PowerLauncher\App.xaml.cs::54]
+Runner pid=10160
+
+[2022-05-05 11:23:43.6694] [INFO] [C:\a\_work\1\s\src\modules\launcher\PowerLauncher\App.xaml.cs::95]
+On Startup.
+
+[2022-05-05 11:23:44.3873] [INFO] [C:\a\_work\1\s\src\modules\launcher\Wox.Infrastructure\Stopwatch.cs::50]
+ImageLoader.Initialize - Preload images cost <59ms>
+
+[2022-05-05 11:23:44.3873] [INFO] [C:\a\_work\1\s\src\modules\launcher\Wox.Infrastructure\Image\ImageLoader.cs::74]
+Number of preload images is <0>, Images Number: 4, Unique Items 4
+
+[2022-05-05 11:23:45.4313] [INFO] [C:\a\_work\1\s\src\modules\launcher\Wox.Plugin\PluginPair.cs::124]
+Load cost for <Calculator> is <3ms>
+
+[2022-05-05 11:23:45.6155] [INFO] [C:\a\_work\1\s\src\modules\launcher\Wox.Plugin\PluginPair.cs::124]
+Load cost for <Folder> is <41ms>
+
+[2022-05-05 11:23:45.7240] [INFO] [C:\a\_work\1\s\src\modules\launcher\Wox.Plugin\PluginPair.cs::124]
+Load cost for <Windows Indexer> is <2ms>
+
+[2022-05-05 11:23:46.0228] [INFO] [C:\a\_work\1\s\src\modules\launcher\Wox.Plugin\PluginPair.cs::124]
+Load cost for <Program> is <154ms>
+
+[2022-05-05 11:23:46.1214] [INFO] [C:\a\_work\1\s\src\modules\launcher\Wox.Plugin\PluginPair.cs::124]
+Load cost for <Registry> is <1ms>
+
+[2022-05-05 11:23:46.3866] [INFO] [C:\a\_work\1\s\src\modules\launcher\Wox.Plugin\PluginPair.cs::124]
+Load cost for <Service> is <166ms>
+
+[2022-05-05 11:23:46.4746] [INFO] [C:\a\_work\1\s\src\modules\launcher\Wox.Plugin\PluginPair.cs::124]
+Load cost for <Shell> is <21ms>
+
+[2022-05-05 11:23:46.6520] [INFO] [C:\a\_work\1\s\src\modules\launcher\Wox.Plugin\PluginPair.cs::124]
+Load cost for <System Commands> is <56ms>
+
+[2022-05-05 11:23:46.7646] [INFO] [C:\a\_work\1\s\src\modules\launcher\Wox.Plugin\PluginPair.cs::124]
+Load cost for <Time and date> is <1ms>
+
+[2022-05-05 11:23:46.8882] [INFO] [C:\a\_work\1\s\src\modules\launcher\Wox.Plugin\PluginPair.cs::124]
+Load cost for <Time zone> is <3ms>
+
+[2022-05-05 11:23:47.0410] [INFO] [C:\a\_work\1\s\src\modules\launcher\Wox.Plugin\PluginPair.cs::124]
+Load cost for <Unit Converter> is <93ms>
+
+[2022-05-05 11:23:47.0854] [INFO] [C:\a\_work\1\s\src\modules\launcher\Wox.Plugin\PluginPair.cs::124]
+Load cost for <Windows Uri Handler> is <7ms>
+
+[2022-05-05 11:23:47.1772] [INFO] [C:\a\_work\1\s\src\modules\launcher\Wox.Plugin\PluginPair.cs::124]
+Load cost for <VS Code Workspaces> is <6ms>
+
+[2022-05-05 11:23:47.2284] [INFO] [C:\a\_work\1\s\src\modules\launcher\Wox.Plugin\PluginPair.cs::124]
+Load cost for <Web Search> is <0ms>
+
+[2022-05-05 11:23:47.3623] [INFO] [C:\a\_work\1\s\src\modules\launcher\Wox.Plugin\PluginPair.cs::124]
+Load cost for <Windows Settings> is <1ms>
+
+[2022-05-05 11:23:47.4129] [INFO] [C:\a\_work\1\s\src\modules\launcher\Wox.Plugin\PluginPair.cs::124]
+Load cost for <Windows Terminal> is <3ms>
+
+[2022-05-05 11:23:47.5664] [INFO] [C:\a\_work\1\s\src\modules\launcher\Wox.Plugin\PluginPair.cs::124]
+Load cost for <Window Walker> is <61ms>
+
+[2022-05-05 11:23:48.1543] [INFO] [C:\a\_work\1\s\src\modules\launcher\PowerLauncher\SettingsReader.cs::88]
+Successfully read new settings. retryCount=1
+
+[2022-05-05 11:23:48.1927] [INFO] [C:\a\_work\1\s\src\modules\launcher\Wox.Plugin\PluginPair.cs::55]
+Total initialize cost for <Unit Converter> is <94ms>
+
+[2022-05-05 11:23:48.1927] [INFO] [C:\a\_work\1\s\src\modules\launcher\Wox.Plugin\PluginPair.cs::55]
+Total initialize cost for <Registry> is <2ms>
+
+[2022-05-05 11:23:48.1927] [INFO] [C:\a\_work\1\s\src\modules\launcher\Wox.Plugin\PluginPair.cs::55]
+Total initialize cost for <Time and date> is <2ms>
+
+[2022-05-05 11:23:48.1927] [INFO] [C:\a\_work\1\s\src\modules\launcher\Wox.Plugin\PluginPair.cs::55]
+Total initialize cost for <Calculator> is <4ms>
+
+[2022-05-05 11:23:48.1927] [INFO] [C:\a\_work\1\s\src\modules\launcher\Wox.Plugin\PluginPair.cs::55]
+Total initialize cost for <Shell> is <22ms>
+
+[2022-05-05 11:23:48.1975] [INFO] [C:\a\_work\1\s\src\modules\launcher\Wox.Plugin\PluginPair.cs::55]
+Total initialize cost for <Web Search> is <5ms>
+
+[2022-05-05 11:23:48.1975] [INFO] [C:\a\_work\1\s\src\modules\launcher\Wox.Plugin\PluginPair.cs::55]
+Total initialize cost for <Windows Uri Handler> is <7ms>
+
+[2022-05-05 11:23:48.1975] [INFO] [C:\a\_work\1\s\src\modules\launcher\Wox.Plugin\PluginPair.cs::55]
+Total initialize cost for <Windows Indexer> is <10ms>
+
+[2022-05-05 11:23:48.1975] [INFO] [C:\a\_work\1\s\src\modules\launcher\Wox.Plugin\PluginPair.cs::55]
+Total initialize cost for <Service> is <166ms>
+
+[2022-05-05 11:23:48.1975] [INFO] [C:\a\_work\1\s\src\modules\launcher\Wox.Plugin\PluginPair.cs::55]
+Total initialize cost for <Windows Settings> is <21ms>
+
+[2022-05-05 11:23:48.2219] [INFO] [C:\a\_work\1\s\src\modules\launcher\Wox.Plugin\PluginPair.cs::55]
+Total initialize cost for <Time zone> is <12ms>
+
+[2022-05-05 11:23:48.2219] [INFO] [C:\a\_work\1\s\src\modules\launcher\Wox.Plugin\PluginPair.cs::55]
+Total initialize cost for <System Commands> is <56ms>
+
+[2022-05-05 11:23:48.2219] [INFO] [C:\a\_work\1\s\src\modules\launcher\Wox.Plugin\PluginPair.cs::55]
+Total initialize cost for <Window Walker> is <61ms>
+
+[2022-05-05 11:23:48.2219] [INFO] [C:\a\_work\1\s\src\modules\launcher\Wox.Plugin\PluginPair.cs::55]
+Total initialize cost for <Folder> is <48ms>
+
+[2022-05-05 11:23:50.7075] [ERROR] [C:\a\_work\1\s\src\modules\launcher\Plugins\Microsoft.Plugin.Program\Programs\UWPApplication.cs::370]
+-------------------------- Begin exception --------------------------
+Message: 	Error status: KNOWN
+		Program path: C:\Program Files\WindowsApps\Microsoft.SurfaceHub_61.4068.139.0_x64__8wekyb3d8bbwe
+		Exception thrown in called method: Not available
+		Possible interpretation of the error: Load pri failed @{Microsoft.SurfaceHub_61.4068.139.0_x64__8wekyb3d8bbwe? ms-resource:///resources/AppManifestDescription} with HResult 2147957527 and location C:\Program Files\WindowsApps\Microsoft.SurfaceHub_61.4068.139.0_x64__8wekyb3d8bbwe
+		Possible resolution: Can be ignored and PowerToys Run should still continue, however the program may not be loaded
+
+Exception full name  : System.Runtime.InteropServices.COMException
+Exception message    : Unspecified error
+
+Exception stack trace:
+
+Exception source     : 
+Exception target site: 
+Exception HResult    : -2147009769
+-------------------------- End exception --------------------------
+
+
+[2022-05-05 11:23:50.8700] [INFO] [C:\a\_work\1\s\src\modules\launcher\Plugins\Microsoft.Plugin.Program\Storage\PackageRepository.cs::84]
+Indexed 46 packaged applications
+
+[2022-05-05 11:23:50.8967] [INFO] [C:\a\_work\1\s\src\modules\launcher\Wox.Infrastructure\Stopwatch.cs::50]
+Microsoft.Plugin.Program.Main - Package index cost <2659ms>
+
+[2022-05-05 11:23:50.9954] [ERROR] [C:\a\_work\1\s\src\modules\launcher\Plugins\Microsoft.Plugin.Program\Programs\UWPApplication.cs::633]
+-------------------------- Begin exception --------------------------
+Message: 	Error status: KNOWN
+		Program path: C:\Windows\SystemApps\Microsoft.MicrosoftEdge_8wekyb3d8bbwe
+		Exception thrown in called method: Not available
+		Possible interpretation of the error: |Microsoft.MicrosoftEdge_8wekyb3d8bbwe!MicrosoftEdge can't find logo uri for Assets\MicrosoftEdgeSquare44x44.png in package location: C:\Windows\SystemApps\Microsoft.MicrosoftEdge_8wekyb3d8bbwe
+		Possible resolution: Can be ignored and PowerToys Run should still continue, however the program may not be loaded
+
+Exception full name  : System.IO.FileNotFoundException
+Exception message    : Unable to find the specified file.
+Exception stack trace:
+
+Exception source     : 
+Exception target site: 
+Exception HResult    : -2147024894
+-------------------------- End exception --------------------------
+
+
+[2022-05-05 11:23:51.5225] [ERROR] [C:\a\_work\1\s\src\modules\launcher\Plugins\Microsoft.Plugin.Program\Programs\ShellLinkHelper.cs::172]
+-------------------------- Begin exception --------------------------
+Message: Failed to fetch description for C:\PROGRA~2\WINDOW~4\wmplayer.exe, Error HRESULT E_FAIL has been returned from a call to a COM component.
+
+Exception full name  : System.Runtime.InteropServices.COMException
+Exception message    : Error HRESULT E_FAIL has been returned from a call to a COM component.
+Exception stack trace:
+   at Microsoft.Plugin.Program.Programs.ShellLinkHelper.IShellLinkW.GetDescription(StringBuilder pszName, Int32 cchMaxName)
+   at Microsoft.Plugin.Program.Programs.ShellLinkHelper.RetrieveTargetPath(String path)
+Exception source     : Microsoft.Plugin.Program
+Exception target site: Void GetDescription(System.Text.StringBuilder, Int32)
+Exception HResult    : -2147467259
+-------------------------- End exception --------------------------
+
+
+[2022-05-05 11:23:51.5225] [ERROR] [C:\a\_work\1\s\src\modules\launcher\Plugins\Microsoft.Plugin.Program\Programs\ShellLinkHelper.cs::172]
+-------------------------- Begin exception --------------------------
+Message: Failed to fetch description for C:\windows\syswow64\odbcad32.exe, Error HRESULT E_FAIL has been returned from a call to a COM component.
+
+Exception full name  : System.Runtime.InteropServices.COMException
+Exception message    : Error HRESULT E_FAIL has been returned from a call to a COM component.
+Exception stack trace:
+   at Microsoft.Plugin.Program.Programs.ShellLinkHelper.IShellLinkW.GetDescription(StringBuilder pszName, Int32 cchMaxName)
+   at Microsoft.Plugin.Program.Programs.ShellLinkHelper.RetrieveTargetPath(String path)
+Exception source     : Microsoft.Plugin.Program
+Exception target site: Void GetDescription(System.Text.StringBuilder, Int32)
+Exception HResult    : -2147467259
+-------------------------- End exception --------------------------
+
+
+[2022-05-05 11:23:58.5342] [INFO] [C:\a\_work\1\s\src\modules\launcher\Plugins\Microsoft.Plugin.Program\Storage\Win32ProgramRepository.cs::248]
+Indexed 713 win32 applications
+
+[2022-05-05 11:23:58.5342] [INFO] [C:\a\_work\1\s\src\modules\launcher\Wox.Infrastructure\Stopwatch.cs::50]
+Microsoft.Plugin.Program.Main - Win32Program index cost <10298ms>
+
+[2022-05-05 11:23:58.5468] [INFO] [C:\a\_work\1\s\src\modules\launcher\Wox.Plugin\PluginPair.cs::55]
+Total initialize cost for <Program> is <10464ms>
+
+[2022-05-05 11:23:58.6485] [WARN] [C:\a\_work\1\s\src\modules\launcher\PowerLauncher\Plugin\PluginManager.cs::205]
+PluginManager.QueryForPlugin Program. Query cost - 70 milliseconds
+
+[2022-05-05 11:23:58.6825] [INFO] [C:\a\_work\1\s\src\modules\launcher\PowerLauncher\App.xaml.cs::146]
+Begin PowerToys Run startup ----------------------------------------------------
+Runtime info:
+Version: 0.57.2.0
+OS Version: Microsoft Windows NT 10.0.22000.0
+IntPtr Length: 8
+x64: True
+End PowerToys Run startup ----------------------------------------------------  
+
+
+[2022-05-05 11:23:58.6825] [INFO] [C:\a\_work\1\s\src\modules\launcher\Wox.Infrastructure\Stopwatch.cs::50]
+App.OnStartup - Startup cost <14999ms>
+
+[2022-05-05 11:23:59.1008] [INFO] [C:\a\_work\1\s\src\modules\launcher\Wox.Infrastructure\Stopwatch.cs::50]
+EnvironmentHelper.GetProtectedEnvironmentVariables - Duration cost <1ms>
+
+[2022-05-05 11:23:59.1061] [INFO] [C:\a\_work\1\s\src\modules\launcher\PowerLauncher\ViewModel\MainViewModel.cs::87]
+RegisterHotkey()
+
+[2022-05-05 11:23:59.1061] [INFO] [C:\a\_work\1\s\src\modules\launcher\PowerLauncher\ViewModel\MainViewModel.cs::727]
+Set HotKey()
+
+[2022-05-05 11:23:59.1199] [INFO] [C:\a\_work\1\s\src\modules\launcher\PowerLauncher\ViewModel\MainViewModel.cs::768]
+Registered global hotkey
+
+[2022-05-05 11:24:04.1023] [ERROR] [C:\a\_work\1\s\src\modules\launcher\Wox.Infrastructure\Storage\ListRepository`1.cs::54]
+Item Already Exists <TeXdoctk (Ubuntu).lnk>
+
+[2022-05-05 11:24:10.1449] [ERROR] [C:\a\_work\1\s\src\modules\launcher\Wox.Infrastructure\Storage\ListRepository`1.cs::54]
+Item Already Exists <Xournal++ (Ubuntu).lnk>
+
+[2022-05-05 11:24:16.1894] [ERROR] [C:\a\_work\1\s\src\modules\launcher\Wox.Infrastructure\Storage\ListRepository`1.cs::54]
+Item Already Exists <Xournal (Ubuntu).lnk>
+
+[2022-05-05 11:24:22.2169] [ERROR] [C:\a\_work\1\s\src\modules\launcher\Wox.Infrastructure\Storage\ListRepository`1.cs::54]
+Item Already Exists <Zathura (Ubuntu).lnk>
+
+[2022-05-05 11:24:28.2398] [ERROR] [C:\a\_work\1\s\src\modules\launcher\Wox.Infrastructure\Storage\ListRepository`1.cs::54]
+Item Already Exists <Inkscape (Ubuntu).lnk>
+
+[2022-05-05 11:24:34.2705] [ERROR] [C:\a\_work\1\s\src\modules\launcher\Wox.Infrastructure\Storage\ListRepository`1.cs::54]
+Item Already Exists <kitty (Ubuntu).lnk>
+
+[2022-05-05 11:24:40.3095] [ERROR] [C:\a\_work\1\s\src\modules\launcher\Wox.Infrastructure\Storage\ListRepository`1.cs::54]
+Item Already Exists <ImageMagick (color depth=q16) (Ubuntu).lnk>
+
+[2022-05-05 12:09:14.9565] [ERROR] [C:\a\_work\1\s\src\modules\launcher\Wox.Infrastructure\Storage\ListRepository`1.cs::54]
+Item Already Exists <kitty (Ubuntu).lnk>
+
+[2022-05-05 12:10:42.0139] [ERROR] [C:\a\_work\1\s\src\modules\launcher\Plugins\Microsoft.Plugin.Program\Programs\ShellLinkHelper.cs::147]
+-------------------------- Begin exception --------------------------
+Message: 	Error status: UNKNOWN
+		Program path: C:\Users\yasha\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Ubuntu\Inkscape (Ubuntu).lnk
+		Exception thrown in called method: Void Load(System.String, Int32)
+		Possible interpretation of the error: Path could not be retrieved
+		Possible resolution: Not yet known
+
+Exception full name  : System.IO.FileNotFoundException
+Exception message    : The system cannot find the file specified. (0x80070002)
+Exception stack trace:
+   at System.Runtime.InteropServices.ComTypes.IPersistFile.Load(String pszFileName, Int32 dwMode)
+   at Microsoft.Plugin.Program.Programs.ShellLinkHelper.RetrieveTargetPath(String path)
+Exception source     : System.Private.CoreLib
+Exception target site: Void Load(System.String, Int32)
+Exception HResult    : -2147024894
+-------------------------- End exception --------------------------
+
+
+[2022-05-05 12:11:23.1639] [ERROR] [C:\a\_work\1\s\src\modules\launcher\Wox.Infrastructure\Storage\ListRepository`1.cs::54]
+Item Already Exists <TeXdoctk (Ubuntu).lnk>
+
+[2022-05-05 12:12:55.0654] [ERROR] [C:\a\_work\1\s\src\modules\launcher\Wox.Infrastructure\Storage\ListRepository`1.cs::54]
+Item Already Exists <ImageMagick (color depth=q16) (Ubuntu).lnk>
+
+[2022-05-05 12:13:36.2126] [ERROR] [C:\a\_work\1\s\src\modules\launcher\Wox.Infrastructure\Storage\ListRepository`1.cs::54]
+Item Already Exists <Xournal (Ubuntu).lnk>
+
+[2022-05-05 12:13:42.2661] [ERROR] [C:\a\_work\1\s\src\modules\launcher\Wox.Infrastructure\Storage\ListRepository`1.cs::54]
+Item Already Exists <Zathura (Ubuntu).lnk>
+
+[2022-05-05 15:01:27.0488] [ERROR] [C:\a\_work\1\s\src\modules\launcher\Plugins\Microsoft.Plugin.Program\Storage\PackageRepository.cs::57]
+-------------------------- Begin exception --------------------------
+Message: 	Error status: UNKNOWN
+		Program path: Windows.Storage.StorageFolder
+		Exception thrown in called method: Microsoft.Win32.SafeHandles.SafeFileHandle CreateFile(System.String, System.IO.FileMode, System.IO.FileAccess, System.IO.FileShare, System.IO.FileOptions)
+		Possible interpretation of the error: Could not find file 'C:\Program Files\WindowsApps\Microsoft.Whiteboard_2022.404.1859.0_neutral_~_8wekyb3d8bbwe\AppxManifest.xml'.
+		Possible resolution: Not yet known
+
+Exception full name  : System.IO.FileNotFoundException
+Exception message    : Could not find file 'C:\Program Files\WindowsApps\Microsoft.Whiteboard_2022.404.1859.0_neutral_~_8wekyb3d8bbwe\AppxManifest.xml'.
+Exception stack trace:
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.Strategies.OSFileStreamStrategy..ctor(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.Xml.XmlDownloadManager.GetStream(Uri uri, ICredentials credentials, IWebProxy proxy)
+   at System.Xml.XmlTextReaderImpl.FinishInitUriString()
+   at System.Xml.XmlReaderSettings.CreateReader(String inputUri, XmlParserContext inputContext)
+   at System.Xml.Linq.XDocument.Load(String uri, LoadOptions options)
+   at Microsoft.Plugin.Program.Programs.UWP.XmlNamespaces(String path)
+   at Microsoft.Plugin.Program.Programs.UWP.InitializeAppInfo(String installedLocation)
+   at Microsoft.Plugin.Program.Storage.PackageRepository.OnPackageInstalling(PackageCatalog p, PackageInstallingEventArgs args)
+Exception source     : System.Private.CoreLib
+Exception target site: Microsoft.Win32.SafeHandles.SafeFileHandle CreateFile(System.String, System.IO.FileMode, System.IO.FileAccess, System.IO.FileShare, System.IO.FileOptions)
+Exception HResult    : -2147024894
+-------------------------- End exception --------------------------
+
+
+[2022-05-05 15:01:31.4781] [ERROR] [C:\a\_work\1\s\src\modules\launcher\Plugins\Microsoft.Plugin.Program\Storage\PackageRepository.cs::57]
+-------------------------- Begin exception --------------------------
+Message: 	Error status: UNKNOWN
+		Program path: Windows.Storage.StorageFolder
+		Exception thrown in called method: Microsoft.Win32.SafeHandles.SafeFileHandle CreateFile(System.String, System.IO.FileMode, System.IO.FileAccess, System.IO.FileShare, System.IO.FileOptions)
+		Possible interpretation of the error: Could not find file 'C:\Program Files\WindowsApps\Microsoft.Whiteboard_2022.404.1859.0_neutral_~_8wekyb3d8bbwe\AppxManifest.xml'.
+		Possible resolution: Not yet known
+
+Exception full name  : System.IO.FileNotFoundException
+Exception message    : Could not find file 'C:\Program Files\WindowsApps\Microsoft.Whiteboard_2022.404.1859.0_neutral_~_8wekyb3d8bbwe\AppxManifest.xml'.
+Exception stack trace:
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.Strategies.OSFileStreamStrategy..ctor(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.Xml.XmlDownloadManager.GetStream(Uri uri, ICredentials credentials, IWebProxy proxy)
+   at System.Xml.XmlTextReaderImpl.FinishInitUriString()
+   at System.Xml.XmlReaderSettings.CreateReader(String inputUri, XmlParserContext inputContext)
+   at System.Xml.Linq.XDocument.Load(String uri, LoadOptions options)
+   at Microsoft.Plugin.Program.Programs.UWP.XmlNamespaces(String path)
+   at Microsoft.Plugin.Program.Programs.UWP.InitializeAppInfo(String installedLocation)
+   at Microsoft.Plugin.Program.Storage.PackageRepository.OnPackageInstalling(PackageCatalog p, PackageInstallingEventArgs args)
+Exception source     : System.Private.CoreLib
+Exception target site: Microsoft.Win32.SafeHandles.SafeFileHandle CreateFile(System.String, System.IO.FileMode, System.IO.FileAccess, System.IO.FileShare, System.IO.FileOptions)
+Exception HResult    : -2147024894
+-------------------------- End exception --------------------------
+
+
+[2022-05-05 16:45:50.6834] [ERROR] [C:\a\_work\1\s\src\modules\launcher\Wox.Infrastructure\Storage\ListRepository`1.cs::54]
+Item Already Exists <Inkscape (Debian).lnk>
+
+[2022-05-05 16:45:56.8217] [ERROR] [C:\a\_work\1\s\src\modules\launcher\Wox.Infrastructure\Storage\ListRepository`1.cs::54]
+Item Already Exists <TeXdoctk (Debian).lnk>
+
+[2022-05-05 16:46:02.9193] [ERROR] [C:\a\_work\1\s\src\modules\launcher\Wox.Infrastructure\Storage\ListRepository`1.cs::54]
+Item Already Exists <Qt 5 Assistant (Debian).lnk>
+
+[2022-05-05 16:46:08.9844] [ERROR] [C:\a\_work\1\s\src\modules\launcher\Wox.Infrastructure\Storage\ListRepository`1.cs::54]
+Item Already Exists <Zathura (Debian).lnk>
+
+[2022-05-05 16:46:15.0386] [ERROR] [C:\a\_work\1\s\src\modules\launcher\Wox.Infrastructure\Storage\ListRepository`1.cs::54]
+Item Already Exists <kitty (Debian).lnk>
+
+[2022-05-05 16:46:21.1093] [ERROR] [C:\a\_work\1\s\src\modules\launcher\Wox.Infrastructure\Storage\ListRepository`1.cs::54]
+Item Already Exists <ImageMagick (color depth=q16) (Debian).lnk>
+
+[2022-05-05 17:59:37.3750] [INFO] [C:\a\_work\1\s\src\modules\launcher\PowerLauncher\Helper\NativeEventWaiter.cs::24]
+Successfully waited for Local\PowerToysRunInvokeEvent-638ec522-0018-4b96-837d-6bd88e06f0d6
+
+[2022-05-05 17:59:38.4107] [INFO] [C:\a\_work\1\s\src\modules\launcher\PowerLauncher\MainWindow.xaml.cs::57]
+Send Run settings telemetry
+
+[2022-05-05 21:45:53.2554] [ERROR] [C:\a\_work\1\s\src\modules\launcher\Wox.Infrastructure\Storage\ListRepository`1.cs::54]
+Item Already Exists <goneBash.bat - Shortcut.lnk>
+
+[2022-05-05 22:02:26.2791] [ERROR] [C:\a\_work\1\s\src\modules\launcher\Wox.Infrastructure\Storage\ListRepository`1.cs::54]
+Item Already Exists <goneBash.bat - Shortcut.lnk>
+
+[2022-05-05 22:39:28.6342] [ERROR] [C:\a\_work\1\s\src\modules\launcher\Wox.Infrastructure\Storage\ListRepository`1.cs::62]
+Item Not Found <New shortcut.lnk>
+
+[2022-05-05 22:39:52.8407] [ERROR] [C:\a\_work\1\s\src\modules\launcher\Wox.Infrastructure\Storage\ListRepository`1.cs::54]
+Item Already Exists <goneBash.bat - Shortcut.lnk>
+
+[2022-05-05 22:40:53.3198] [ERROR] [C:\a\_work\1\s\src\modules\launcher\Wox.Infrastructure\Storage\ListRepository`1.cs::62]
+Item Not Found <New shortcut.lnk>
+
+[2022-05-05 22:45:05.7548] [ERROR] [C:\a\_work\1\s\src\modules\launcher\Wox.Infrastructure\Storage\ListRepository`1.cs::54]
+Item Already Exists <neo.lnk>
+
+[2022-05-05 22:45:11.3038] [ERROR] [C:\a\_work\1\s\src\modules\launcher\Wox.Infrastructure\Storage\ListRepository`1.cs::54]
+Item Already Exists <neo.lnk>
+
+[2022-05-05 22:47:57.6176] [ERROR] [C:\a\_work\1\s\src\modules\launcher\Wox.Infrastructure\Storage\ListRepository`1.cs::54]
+Item Already Exists <neo.lnk>
+
+[2022-05-05 22:48:28.7246] [ERROR] [C:\a\_work\1\s\src\modules\launcher\Wox.Infrastructure\Storage\ListRepository`1.cs::54]
+Item Already Exists <neo.lnk>
+
+[2022-05-05 22:48:34.7906] [ERROR] [C:\a\_work\1\s\src\modules\launcher\Wox.Infrastructure\Storage\ListRepository`1.cs::54]
+Item Already Exists <neo.lnk>
+

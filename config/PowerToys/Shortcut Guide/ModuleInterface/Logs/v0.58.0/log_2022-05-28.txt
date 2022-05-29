@@ -1,0 +1,26 @@
+[2022-05-28 10:24:52.979571] [p-9144] [t-8160] [info] shortcut-guide logger is initialized
+[2022-05-28 10:24:52.979951] [p-9144] [t-8160] [info] Shortcut Guide settings are empty
+[2022-05-28 10:24:52.979955] [p-9144] [t-8160] [info] Shortcut Guide is going to use default shortcut
+[2022-05-28 10:24:52.979972] [p-9144] [t-8160] [trace] GetHotkeyEx()
+[2022-05-28 10:24:53.141237] [p-9144] [t-8160] [info] Shortcut Guide is enabling
+[2022-05-28 10:24:53.141248] [p-9144] [t-8160] [trace] GetHotkeyEx()
+[2022-05-28 10:24:53.189096] [p-9144] [t-10224] [trace] Send settings telemetry
+[2022-05-28 10:24:53.222652] [p-9144] [t-10224] [trace] Started SG process with pid=5792
+[2022-05-28 10:27:03.228768] [p-2724] [t-5224] [info] shortcut-guide logger is initialized
+[2022-05-28 10:27:03.229197] [p-2724] [t-5224] [info] Shortcut Guide settings are empty
+[2022-05-28 10:27:03.229200] [p-2724] [t-5224] [info] Shortcut Guide is going to use default shortcut
+[2022-05-28 10:27:03.229221] [p-2724] [t-5224] [trace] GetHotkeyEx()
+[2022-05-28 10:27:03.654830] [p-2724] [t-5224] [info] Shortcut Guide is enabling
+[2022-05-28 10:27:03.654852] [p-2724] [t-5224] [trace] GetHotkeyEx()
+[2022-05-28 22:25:01.094171] [p-4960] [t-6740] [info] shortcut-guide logger is initialized
+[2022-05-28 22:25:01.094620] [p-4960] [t-6740] [info] Shortcut Guide settings are empty
+[2022-05-28 22:25:01.094624] [p-4960] [t-6740] [info] Shortcut Guide is going to use default shortcut
+[2022-05-28 22:25:01.094644] [p-4960] [t-6740] [trace] GetHotkeyEx()
+[2022-05-28 22:25:02.031275] [p-4960] [t-6740] [info] Shortcut Guide is enabling
+[2022-05-28 22:25:02.031289] [p-4960] [t-6740] [trace] GetHotkeyEx()
+[2022-05-28 22:33:48.633387] [p-12624] [t-10412] [info] shortcut-guide logger is initialized
+[2022-05-28 22:33:48.634224] [p-12624] [t-10412] [info] Shortcut Guide settings are empty
+[2022-05-28 22:33:48.634233] [p-12624] [t-10412] [info] Shortcut Guide is going to use default shortcut
+[2022-05-28 22:33:48.634265] [p-12624] [t-10412] [trace] GetHotkeyEx()
+[2022-05-28 22:33:49.066182] [p-12624] [t-10412] [info] Shortcut Guide is enabling
+[2022-05-28 22:33:49.066217] [p-12624] [t-10412] [trace] GetHotkeyEx()

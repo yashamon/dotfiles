@@ -1,0 +1,4 @@
+[2022-05-02 19:17:07.904442] [p-10092] [t-10096] [info] FileExplorer logger is initialized
+[2022-05-02 19:17:07.904496] [p-10092] [t-10096] [info] Initializing PowerPreviewModule
+[2022-05-02 19:21:20.809012] [p-9740] [t-9744] [info] FileExplorer logger is initialized
+[2022-05-02 19:21:20.809059] [p-9740] [t-9744] [info] Initializing PowerPreviewModule

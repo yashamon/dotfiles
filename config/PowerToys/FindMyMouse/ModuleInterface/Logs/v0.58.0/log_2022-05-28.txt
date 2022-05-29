@@ -1,0 +1,16 @@
+[2022-05-28 08:58:44.869501] [p-11044] [t-11340] [info] Detecting double left control click with 1250 ms interval.
+[2022-05-28 09:42:37.101439] [p-11044] [t-11340] [info] Detecting double left control click with 1531 ms interval.
+[2022-05-28 10:24:53.027720] [p-9144] [t-8160] [info] find-my-mouse logger is initialized
+[2022-05-28 10:24:53.108020] [p-9144] [t-10368] [info] Starting a sonar instance.
+[2022-05-28 10:24:53.113311] [p-9144] [t-10368] [info] Initialized the sonar instance.
+[2022-05-28 10:27:03.244149] [p-2724] [t-5224] [info] find-my-mouse logger is initialized
+[2022-05-28 10:27:03.623346] [p-2724] [t-10836] [info] Starting a sonar instance.
+[2022-05-28 10:27:03.629356] [p-2724] [t-10836] [info] Initialized the sonar instance.
+[2022-05-28 10:41:26.589116] [p-2724] [t-10836] [info] Detecting double left control click with 1141 ms interval.
+[2022-05-28 11:26:50.328622] [p-2724] [t-10836] [info] Detecting double left control click with 609 ms interval.
+[2022-05-28 22:25:01.392129] [p-4960] [t-6740] [info] find-my-mouse logger is initialized
+[2022-05-28 22:25:01.965668] [p-4960] [t-17896] [info] Starting a sonar instance.
+[2022-05-28 22:25:01.975960] [p-4960] [t-17896] [info] Initialized the sonar instance.
+[2022-05-28 22:33:48.701756] [p-12624] [t-10412] [info] find-my-mouse logger is initialized
+[2022-05-28 22:33:48.964234] [p-12624] [t-5516] [info] Starting a sonar instance.
+[2022-05-28 22:33:48.994446] [p-12624] [t-5516] [info] Initialized the sonar instance.

@@ -1,0 +1,4 @@
+[2022-05-25 15:05:04.956084] [p-10620] [t-10624] [info] launcher logger is initialized
+[2022-05-25 15:05:04.956105] [p-10620] [t-10624] [info] Launcher object is constructing
+[2022-05-25 15:05:05.046708] [p-10620] [t-10624] [trace] Launching PowerToys Awake process
+[2022-05-25 15:05:05.046721] [p-10620] [t-10624] [trace] PowerToys Awake launching with parameters: --use-pt-config --pid 10620

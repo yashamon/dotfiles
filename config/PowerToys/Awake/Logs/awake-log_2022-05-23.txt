@@ -1,0 +1,4 @@
+[2022-05-23 09:36:35.639443] [p-8864] [t-8868] [info] launcher logger is initialized
+[2022-05-23 09:36:35.639467] [p-8864] [t-8868] [info] Launcher object is constructing
+[2022-05-23 09:36:35.932359] [p-8864] [t-8868] [trace] Launching PowerToys Awake process
+[2022-05-23 09:36:35.932368] [p-8864] [t-8868] [trace] PowerToys Awake launching with parameters: --use-pt-config --pid 8864

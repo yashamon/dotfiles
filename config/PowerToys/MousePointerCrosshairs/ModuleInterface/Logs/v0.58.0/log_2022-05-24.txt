@@ -1,0 +1,2 @@
+[2022-05-24 16:28:46.590004] [p-17064] [t-13772] [info] mouse-pointer-crosshairs logger is initialized
+[2022-05-24 19:05:08.672629] [p-3288] [t-3832] [info] mouse-pointer-crosshairs logger is initialized

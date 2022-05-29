@@ -1,0 +1,8 @@
+[2022-05-24 16:28:46.357966] [p-17064] [t-13772] [info] ColorPicker logger is initialized
+[2022-05-24 16:28:46.902523] [p-17064] [t-13772] [trace] ColorPicker::enable()
+[2022-05-24 16:28:46.902531] [p-17064] [t-13772] [trace] Starting ColorPicker process
+[2022-05-24 16:28:46.951702] [p-17064] [t-13772] [trace] Successfully started the Color Picker process
+[2022-05-24 19:05:08.318817] [p-3288] [t-3832] [info] ColorPicker logger is initialized
+[2022-05-24 19:05:08.814566] [p-3288] [t-3832] [trace] ColorPicker::enable()
+[2022-05-24 19:05:08.814574] [p-3288] [t-3832] [trace] Starting ColorPicker process
+[2022-05-24 19:05:08.856007] [p-3288] [t-3832] [trace] Successfully started the Color Picker process

@@ -1,0 +1,6 @@
+[2022-05-26 12:56:16.087158] [p-10620] [t-10940] [info] Focusing the sonar on the mouse cursor.
+[2022-05-26 12:56:16.156063] [p-10620] [t-10940] [info] Detecting double left control click with 500 ms interval.
+[2022-05-26 19:01:58.238088] [p-10620] [t-10940] [info] Focusing the sonar on the mouse cursor.
+[2022-05-26 19:01:58.266726] [p-10620] [t-10940] [info] Detecting double left control click with 281 ms interval.
+[2022-05-26 20:12:41.446008] [p-10620] [t-10940] [info] Detecting double left control click with 1157 ms interval.
+[2022-05-26 23:31:07.851325] [p-10620] [t-10940] [info] Detecting double left control click with 875 ms interval.

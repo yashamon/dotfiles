@@ -1,0 +1,33 @@
+INFO: 16:15:28.6429006
+    [Method]: Main [Class]: Program
+    Color Picker started with pid=10556
+INFO: 16:15:29.1835888
+    [Method]: OnStartup [Class]: App
+    Color Picker started from the PowerToys Runner. Runner pid=10244
+WARNING: 16:15:29.8100634
+    [Method]: SetWindowPosition [Class]: ChangeWindowPositionBehavior
+    Failed to get monitor bounds for mouse position-1,1
+INFO: 16:26:05.1767682
+    [Method]: <OnStartup>b__5_0 [Class]: <>c
+    PowerToys Runner exited. Exiting ColorPicker
+INFO: 16:28:47.6976195
+    [Method]: Main [Class]: Program
+    Color Picker started with pid=12132
+INFO: 16:28:49.4224854
+    [Method]: OnStartup [Class]: App
+    Color Picker started from the PowerToys Runner. Runner pid=17064
+WARNING: 16:28:50.2382256
+    [Method]: SetWindowPosition [Class]: ChangeWindowPositionBehavior
+    Failed to get monitor bounds for mouse position-1,1
+INFO: 19:05:10.3774611
+    [Method]: Main [Class]: Program
+    Color Picker started with pid=8328
+INFO: 19:05:15.8133448
+    [Method]: OnStartup [Class]: App
+    Color Picker started from the PowerToys Runner. Runner pid=3288
+WARNING: 19:05:17.6977560
+    [Method]: SetWindowPosition [Class]: ChangeWindowPositionBehavior
+    Failed to get monitor bounds for mouse position-1,1
+INFO: 15:04:26.1055225
+    [Method]: <OnStartup>b__5_0 [Class]: <>c
+    PowerToys Runner exited. Exiting ColorPicker

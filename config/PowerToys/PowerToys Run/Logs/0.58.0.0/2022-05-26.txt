@@ -1,0 +1,15 @@
+[2022-05-26 10:22:02.4164] [INFO] [C:\a\_work\1\s\src\modules\launcher\PowerLauncher\MainWindow.xaml.cs::129]
+Reload environment: Updating environment variables for PT Run's process
+
+[2022-05-26 10:22:02.6956] [WARN] [C:\a\_work\1\s\src\modules\launcher\PowerLauncher\Helper\EnvironmentHelper.cs::138]
+Skipping update of the environment variable [PSModulePath] for the PT Run process. This variable is listed as protected process variable and changing them can cause unexpected behavior. (The variable value has a length of [79].)
+
+[2022-05-26 10:22:02.6956] [WARN] [C:\a\_work\1\s\src\modules\launcher\PowerLauncher\Helper\EnvironmentHelper.cs::138]
+Skipping update of the environment variable [Path] for the PT Run process. This variable is listed as protected process variable and changing them can cause unexpected behavior. (The variable value has a length of [232].)
+
+[2022-05-26 10:22:02.6956] [INFO] [C:\a\_work\1\s\src\modules\launcher\Wox.Infrastructure\Stopwatch.cs::50]
+EnvironmentHelper.UpdateEnvironment - Duration cost <125ms>
+
+[2022-05-26 17:51:00.9675] [ERROR] [C:\a\_work\1\s\src\modules\launcher\Wox.Infrastructure\Storage\ListRepository`1.cs::54]
+Item Already Exists <Uninstall Zoom.lnk>
+

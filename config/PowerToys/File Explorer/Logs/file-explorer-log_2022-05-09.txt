@@ -1,0 +1,10 @@
+[2022-05-09 12:04:13.378137] [p-8132] [t-8136] [info] FileExplorer logger is initialized
+[2022-05-09 12:04:13.378168] [p-8132] [t-8136] [info] Initializing PowerPreviewModule
+[2022-05-09 12:26:27.232360] [p-8012] [t-8016] [info] FileExplorer logger is initialized
+[2022-05-09 12:26:27.232436] [p-8012] [t-8016] [info] Initializing PowerPreviewModule
+[2022-05-09 12:31:33.072587] [p-8400] [t-8404] [info] FileExplorer logger is initialized
+[2022-05-09 12:31:33.072684] [p-8400] [t-8404] [info] Initializing PowerPreviewModule
+[2022-05-09 12:36:28.319266] [p-7912] [t-7916] [info] FileExplorer logger is initialized
+[2022-05-09 12:36:28.319305] [p-7912] [t-7916] [info] Initializing PowerPreviewModule
+[2022-05-09 12:39:01.927544] [p-3768] [t-6068] [info] FileExplorer logger is initialized
+[2022-05-09 12:39:01.927675] [p-3768] [t-6068] [info] Initializing PowerPreviewModule
