@@ -1,6 +1,0 @@
-[2022-05-26 15:37:27.612826] [p-5608] [t-1828] [info] runner logger is initialized
-[2022-05-26 15:37:27.612854] [p-5608] [t-1828] [info] Running powertoys with cmd args: 
-[2022-05-26 15:37:27.613064] [p-5608] [t-1828] [error] Can't convert string value= to ESettingsWindowNames
-[2022-05-26 16:08:36.572239] [p-5192] [t-6736] [info] runner logger is initialized
-[2022-05-26 16:08:36.572254] [p-5192] [t-6736] [info] Running powertoys with cmd args: 
-[2022-05-26 16:08:36.572333] [p-5192] [t-6736] [error] Can't convert string value= to ESettingsWindowNames

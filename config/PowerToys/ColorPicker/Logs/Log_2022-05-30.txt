@@ -1,3 +1,0 @@
-INFO: 23:10:09.0666166
-    [Method]: Main [Class]: Program
-    Color Picker started with pid=15780

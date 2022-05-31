@@ -1,8 +1,0 @@
-[2022-05-27 02:32:10.216165] [p-11044] [t-11048] [info] shortcut-guide logger is initialized
-[2022-05-27 02:32:10.216581] [p-11044] [t-11048] [info] Shortcut Guide settings are empty
-[2022-05-27 02:32:10.216584] [p-11044] [t-11048] [info] Shortcut Guide is going to use default shortcut
-[2022-05-27 02:32:10.216600] [p-11044] [t-11048] [trace] GetHotkeyEx()
-[2022-05-27 02:32:10.683330] [p-11044] [t-11048] [info] Shortcut Guide is enabling
-[2022-05-27 02:32:10.683350] [p-11044] [t-11048] [trace] GetHotkeyEx()
-[2022-05-27 02:32:10.709962] [p-11044] [t-11472] [trace] Send settings telemetry
-[2022-05-27 02:32:10.726548] [p-11044] [t-11472] [trace] Started SG process with pid=11536

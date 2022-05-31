@@ -1,6 +1,0 @@
-[2022-05-24 16:28:46.476188] [p-17064] [t-13772] [info] find-my-mouse logger is initialized
-[2022-05-24 16:28:47.079744] [p-17064] [t-9036] [info] Starting a sonar instance.
-[2022-05-24 16:28:47.088106] [p-17064] [t-9036] [info] Initialized the sonar instance.
-[2022-05-24 19:05:08.474952] [p-3288] [t-3832] [info] find-my-mouse logger is initialized
-[2022-05-24 19:05:08.892668] [p-3288] [t-8364] [info] Starting a sonar instance.
-[2022-05-24 19:05:08.902950] [p-3288] [t-8364] [info] Initialized the sonar instance.

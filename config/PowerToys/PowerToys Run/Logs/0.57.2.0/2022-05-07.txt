@@ -1,9 +1,0 @@
-[2022-05-07 10:33:37.4101] [ERROR] [C:\a\_work\1\s\src\modules\launcher\Wox.Infrastructure\Storage\ListRepository`1.cs::54]
-Item Already Exists <Microsoft Edge.lnk>
-
-[2022-05-07 10:33:43.5762] [ERROR] [C:\a\_work\1\s\src\modules\launcher\Wox.Infrastructure\Storage\ListRepository`1.cs::54]
-Item Already Exists <Microsoft Edge.lnk>
-
-[2022-05-07 10:33:49.1129] [ERROR] [C:\a\_work\1\s\src\modules\launcher\Wox.Infrastructure\Storage\ListRepository`1.cs::54]
-Item Already Exists <Microsoft Edge.lnk>
-

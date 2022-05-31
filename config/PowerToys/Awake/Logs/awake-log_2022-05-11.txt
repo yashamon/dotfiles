@@ -1,4 +1,0 @@
-[2022-05-11 17:45:01.550819] [p-7340] [t-8360] [info] launcher logger is initialized
-[2022-05-11 17:45:01.550841] [p-7340] [t-8360] [info] Launcher object is constructing
-[2022-05-11 17:45:01.946468] [p-7340] [t-8360] [trace] Launching PowerToys Awake process
-[2022-05-11 17:45:01.946486] [p-7340] [t-8360] [trace] PowerToys Awake launching with parameters: --use-pt-config --pid 7340
