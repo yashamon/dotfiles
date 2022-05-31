@@ -306,6 +306,7 @@ bindkey -M vicmd 'j' history-substring-search-down
 
 bindkey -M vicmd '<right>' autosuggest-accept 
 bindkey -M vicmd 'E' autosuggest-execute
+bindkey -M vicmd 'd,d' delete-line
 
 zinit ice from"gh-r" as"program" bpick"*appimage*" ver"nightly" mv"nvim* -> $HOME/appimage/nvim" pick"nvim"
 zinit light neovim/neovim  
@@ -590,7 +591,7 @@ zstyle ':fzf-tab:complete:cd:*' fzf-preview 'exa -1 --color=always $realpath'
 # switch group using `,` and `.`
 zstyle ':fzf-tab:*' switch-group ',' '.'
 zinit light lincheney/fzf-tab-completion
-bindkey 'Tab' fzf_completion
+bindkey '^I' fzf_completion
 # only for git
 zstyle ':completion:*:*:git:*' fzf-search-display true
 # or for everything
