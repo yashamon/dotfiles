@@ -1,0 +1,4 @@
+[2022-05-31 19:18:02.557413] [p-11028] [t-4748] [info] find-my-mouse logger is initialized
+[2022-05-31 19:18:02.557694] [p-11028] [t-4748] [info] Find My Mouse settings are empty
+[2022-05-31 19:18:02.673427] [p-11028] [t-6744] [info] Starting a sonar instance.
+[2022-05-31 19:18:02.700164] [p-11028] [t-6744] [info] Initialized the sonar instance.

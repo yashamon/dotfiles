@@ -1,0 +1,5 @@
+[2022-05-31 19:18:02.563830] [p-11028] [t-4748] [info] mouse-highlighter logger is initialized
+[2022-05-31 19:18:02.564083] [p-11028] [t-4748] [info] Mouse Highlighter settings are empty
+[2022-05-31 19:18:02.564084] [p-11028] [t-4748] [info] Mouse Highlighter is going to use default shortcut
+[2022-05-31 19:18:02.701991] [p-11028] [t-5956] [info] Starting a highlighter instance.
+[2022-05-31 19:18:02.710877] [p-11028] [t-5956] [info] Initialized the highlighter instance.
