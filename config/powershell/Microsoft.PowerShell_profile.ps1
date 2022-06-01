@@ -81,7 +81,35 @@ Set-PSReadLineOption -ViModeIndicator Script -ViModeChangeHandler $Function:OnVi
 $Env:EDITOR = "nvim"
 
 # various binding functions
+# 
+# 
+# 
+# 
+function vrc { neo $HOME\dotfiles\config\nvim\init.vim }
+function lfrc { neo $HOME\dotfiles\config\lf\lfrc } 
 
+# # =======
+# function clip { \mnt\c\windows\System32\WindowsPowerShell\v1.0\powershell.exe -c Get-Clipboard | tr -d $'\r' | wl-copy }
+# # alias pdf="xpdf -geometry 1920x1080 -fullscreen"
+function pdf($1) { zathura $1 }
+function sendFunction($1) {
+$cwdb=$pwd
+cd ~\web
+git pull
+git rm ~\web\papers\"$1"
+git add .
+git commit -m -a
+git push origin gh-pages
+cd $cwdb
+cp "$1" ~\web\papers
+cd ~\web
+git add .
+git commit -m -a
+git push origin gh-pages
+cd $cwdb
+}
+Set-Alias send sendFunction
+New-Alias z Jumphome
 function ubuntu { sudo apt update
 sudo apt upgrade
 sudo apt dist-upgrade }
@@ -90,11 +118,18 @@ function vrc { neo ~/dotfiles/config/nvim/init.vim }
 function zrc { neo ~/dotfiles/zshrc }
 function swrc { neo ~/dotfiles/config/sway/config }
 function lfrc { neo  ~/dotfiles/config/lf/lfrc }
+
+
+function psrc { neo $profile } 
+
 # alias ls="lf" 
 function texi($1) { pdflatex -file-line-error -synctex=1  -interaction=nonstopmode -recorder $1 }
-function latexi { latexmk -g -pdf -file-line-error -synctex=1  -interaction=nonstopmode -recorder -f }
-function pvc { latexmk -pdf -pvc -file-line-error -synctex=1  -interaction=nonstopmode -recorder -f }
-function lat {latexmk -pvc -pdf -file-line-error -synctex=1 -interaction=nonstopmode -recorder -f -g }
+function latexi() { latexmk -g -pdf -file-line-error -synctex=1  -interaction=nonstopmode
+-recorder -f $1} 
+function pvc() { latexmk -pdf -pvc -file-line-error -synctex=1  -interaction=nonstopmode
+-recorder -f $1} 
+function lat($1) { echo $1
+latexmk -pvc -pdf -file-line-error -synctex=1 -interaction=nonstopmode -recorder -f -g $1}
 #
 function pushmod { git submodule foreach git add . && git submodule foreach git commit -m -a && 
  git submodule foreach git push origin master; git add . && git commit -m -a; git push --all origin }
@@ -104,14 +139,9 @@ function pullmaster { git pull --recurse-submodules && git submodule update --re
 }
 # alias check="git checkout" 
 function pushgh { pandoc index.md > index.html && git add . && git commit -m -a && git push origin gh-pages }
-# alias pandocd="pandoc index.md > index.html"
-#
-# # <<<<<<< HEAD
-function hw { pandoc ~/web/classes/topology/topology2019.md > ~/web/classes/topology/topology2019.html; pandoc ~/web/CalcIII2019/analysis.md > ~/web/CalcIII2019/analysis.html; git
-add .; git commit -m -a; git push origin gh-pages }
-# # =======
+function hw { pandoc ~\web\classes\topology\topology2019.md > ~\web\classes\topology\topology2019.html; pandoc ~\web\CalcIII2019\analysis.md > ~\web\CalcIII2019\analysis.html; git
+add .;git commit -m -a; git push origin gh-pages }# alias check="git checkout" 
 function clip { /mnt/c/windows/System32/WindowsPowerShell/v1.0/powershell.exe -c Get-Clipboard | tr -d $'\r' | wl-copy }
-function hw { pandoc ~/web/classes/Spivak/hw2022.md > ~/web/classes/Spivak/hw2022.html && pandoc ~/web/classes/LinearAlgebra/hw2022.md  > ~/web/classes/LinearAlgebra/hw2022.html && cd ~/web && git add .  && git commit -m -a && git push origin gh-pages }
 # alias attach="tmux attach"
 # # alias pdf="xpdf -geometry 1920x1080 -fullscreen"
 function pdf($1) { zathura $1 }
@@ -164,23 +194,6 @@ function pdf($1) { zathura $1 }
 # alias bright=brightnessfunction
 #
 #
-function sendFunction($1) {
-$cwdb=$pwd
-cd ~/web
-git pull
-git rm ~/web/papers/"$1"
-git add .
-git commit -m -a
-git push origin gh-pages
-cd $cwdb
-cp "$1" ~/web/papers
-cd ~/web
-git add .
-git commit -m -a
-git push origin gh-pages
-cd $cwdb
-}
-Set-Alias send sendFunction
 Set-Alias lf $HOME/dotfiles/scripts/lfcd.ps1
 # Environment variables
 $Env:QT_SCALE_FACTOR=2 

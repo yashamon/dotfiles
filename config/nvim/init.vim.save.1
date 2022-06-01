@@ -176,7 +176,7 @@ au FileType tex setlocal iskeyword+=:
 au FileType tex setlocal indentexpr=
 
 let g:tex_conceal = ""
-" set +=~/workspacemodules/tags
+set +=~/workspacemodules/tags
 "set +=~/Dropbox/workspace/tags
   " set wrapmargin=1
 " set shada="NONE"  
@@ -500,6 +500,10 @@ map <A-e> :FZF ~<CR>
 map <m-f> :FZF ~<CR> 
 
 "miscellaneous
+<<<<<<< HEAD
+=======
+map :  exe ":silent ! /usr/local/bin/ctags -R"
+>>>>>>> 1b2337a2672a15351f99aa41c33e6e4013028d7e
 nmap <leader>g :ZenMode<CR>
 " nmap <leader>p :Denite neoyank -default-action=append<CR>
 
@@ -1482,17 +1486,25 @@ EOF
 "other maps   
 inoremap <cr> <cr><space><esc>"_s
 nnoremap o o<space><esc>"_s
+<<<<<<< HEAD
 " map cr
 " inoremap <cr> <esc>$a<cr><space><esc>"_s
 " inoremap <m-cr> <cr><space><esc>"_s
+
+=======
+cmap win :%s///gc<cr>
+>>>>>>> 1b2337a2672a15351f99aa41c33e6e4013028d7e
 let g:neovide_fullscreen=v:true
 if exists('g:gonvim_running')
     "goneovim specific stuff
 elseif exists('g:neovide')
    set guifont=Fira\ Code\ Light:h20
 end
+<<<<<<< HEAD
 " let g:autotagTagsFile="~/workspacemodules/tags"
+=======
 " let g:autotagFile="~/workspacemodules/tags"
+>>>>>>> 1b2337a2672a15351f99aa41c33e6e4013028d7e
 " lua <<EOF
 " -- Installation
 " use { 
