@@ -1,11 +1,40 @@
-set ratios 1:2:3 
+set ratios 1:2:3  
+set shell powershell
+# Shell commands with multiline definitions and/or positional arguments and/or
+# quotes do not work in Windows. For anything but the simplest shell commands,
+# it is recommended to create separate script files and simply call them here
+# in commands or mappings.
+#
+# Also, the default keybindings are defined using cmd syntax (i.e. '%EDITOR%')
+# which does not work with powershell. Therefore, you need to override these
+# keybindings with explicit choices accordingly.
+# change the default open command to work in powerShell
+cmd open &start $Env:f
+# change the editor used in default editor keybinding
+# There is no builtin terminal editor installed in Windows. The default editor
+# mapping uses 'notepad' which launches in a separate GUI window. You may
+# instead install a terminal editor of your choice and replace the default
+# editor keybinding accordingly.
+# change the pager used in default pager keybinding
+# The standard pager used in Windows is 'more' which is not a very capable
+# pager. You may instead install a pager of your choice and replace the default
+# pager keybinding accordingly.
+map i $less $Env:f
+# change the shell used in default shell keybinding
+map w $powershell
+# change 'doc' command to use a different pager
+cmd doc $lf -doc | less
+# leave some space at the top and the bottom of the screen
+set scrolloff 10
+# use enter for shell commands
+map <enter> shell
 # set cleaner ~/.config/lf/cleaner
 # set previewer ~/.config/lf/preview
 # interpreter for shell commands
-set shell zsh
-set shellopts '-euy'
-set ifs "\n"
-set filesep "\n"  # default already
+set shell powershell
+# set shellopts '-euy'
+# set ifs "\n"
+# set filesep "\n"  # default already
 set hidden  
 # cmd trash &{{
 # set -- $(cat ~/.local/share/lf/files)
@@ -50,7 +79,7 @@ cmd namepaste $cp-p --lf-paste $id
 map p :spaste
 map gp :paste
 cmd findfile ${{
-   res="$(fd . $HOME -H | fzf 2>/dev/tty | sed 's/\\/\\\\/g;s/"/\\"/g')"
+   res="$(fd . $HOME -H | fzf 2>/dev/tty)"
    if [ -d "$res" ]; then
       cmd="cd"
    else
@@ -78,16 +107,17 @@ map gf :findfileroot
 map d :cut
 map D :trash
 map gd :delete
-cmd fzf_jump ${{
-    res="$(fd . -H -I -d 1 | fzf --reverse --header='Jump to location' | sed 's/\\/\\\\/g;s/"/\\"/g')"
-    if [ -d "$res" ]; then
-        cmd="cd"
-    else 
-        cmd="select"                                                       
-    fi
-    lf -remote "send $id $cmd \"$res\""
-}}
-map f :fzf_jump 
+
+cmd fzf_jump $& "C:\Users\yasha\dotfiles\scripts\simplejump.ps1"
+#
+# ${{
+#    $res= fd . -H -I -d 1 | fzf --reverse --header='Jump to location'
+#  if (  Test-Path -Path "$res" -PathType Container )
+#      { $cmd= "cd" }
+#  else 
+#     { $cmd="select" }                                                       
+#  lf -remote "send $id $cmd \"$res\"" 
+map f :fzf_jump
 
 cmd fasd_dir ${{
    res="$(fasd -dl | grep -iv cache | fzf 2>/dev/tty | sed 's/\\/\\\\/g;s/"/\\"/g')"
@@ -100,31 +130,21 @@ cmd fasd_dir ${{
  }}
 
 # map  :fasd_dir
-map J  :fasd_dir
-cmd Jhomedir ${{
-   res="$(fd . $HOME -t d -H | fzf 2>/dev/tty | sed 's/\\/\\\\/g;s/"/\\"/g')"
-   if [ -d "$res" ]; then
-      cmd="cd"
-   else
-      cmd="select"
-   fi
- lf -remote "send $id $cmd \"$res\""
- }}
+map J  :fasd_dir 
+cmd Jhomedir  $& "C:\Users\yasha\dotfiles\scripts\JumpDir.ps1"
+# $Invoke-Command -ScriptBlock { $res= fd . $HOME -t d -H | fzf --reverse --header='Jump to location' | sed s/\\/\\\\/g
+# if (  Test-Path -Path "$res" -PathType Container )
+#      { $cmd= "cd" }
+# else 
+#     { $cmd="select" }
+# echo $res
+# lf -remote "send $cmd `\`".\$res`\`""
+# }
 
-map <a-j> :Jhomedir  
+map <a-j> :Jhomedir
 
-cmd Jrootdir ${{
-   res="$(fd . '/' -t d -H | fzf 2>/dev/tty | sed 's/\\/\\\\/g;s/"/\\"/g')"
-   if [ -d "$res" ]; then
-      cmd="cd"
-   else
-      cmd="select"
-   fi
- lf -remote "send $id $cmd \"$res\""
- }}
-
+cmd Jrootdir  $& "C:\Users\yasha\dotfiles\scripts\JumpRootDir.ps1"
 map gj :Jrootdir
-
 
 
 set scrolloff 10
@@ -143,16 +163,16 @@ map O $mimeopen --ask $f
 # This command is called when current file is not a directory. You may want to
 # use either file extensions and/or mime types here. Below uses an editor for
 # text files and a file opener for the rest.
-cmd open ${{
-    test -L $f && f=$(readlink -f $f)
-    case $(file --mime-type $f -b) in
-        text/*) nvim $fx;;
-        *) for f in $fx; do setsid $OPENER $f > /dev/null 2> /dev/null & done;;
-    esac
-}}
+# cmd open ${{
+#     test -L $f && f=$(readlink -f $f)
+#     case $(file --mime-type $f -b) in
+#         text/*) nvim $fx;;
+#         *) for f in $fx; do setsid $OPENER $f > /dev/null 2> /dev/null & done;;
+#     esac
+# }}
 map e :open 
-map n %goneovim $f 
-map gn %nvr --servername $(<~/servername.txt) --remote-silent $f
+map n %goneovim $Env:f
+map gn %goneovim $f
 # define a custom 'rename' command without prompt for overwrite 
 cmd spastename &{{
 set -- $(cat ~/.local/share/lf/files)
@@ -232,24 +252,24 @@ cmd zip ${{
 }}
 
 
-cmd open ${{
-    case "$f" in
-        *.tar.bz|*.tar.bz2|*.tbz|*.tbz2|*.tar.gz|*.tgz|*.tar.xz|*.txz|*.zip|*.rar|*.iso)
-            mntdir="$f-archivemount"
-            [ ! -d "$mntdir" ] && {
-                mkdir "$mntdir"
-                archivemount "$f" "$mntdir"
-                echo "$mntdir" >> "/tmp/__lf_archivemount_$id"
-            }
-            lf -remote "send $id cd \"$mntdir\""
-            lf -remote "send $id reload"
-            ;;
-        *)
-            for f in $fx; do
-                $OPENER $f > /dev/null 2> /dev/null &
-            done;;
-    esac
-}}
+# cmd open ${{
+#     case "$f" in
+#         *.tar.bz|*.tar.bz2|*.tbz|*.tbz2|*.tar.gz|*.tgz|*.tar.xz|*.txz|*.zip|*.rar|*.iso)
+#             mntdir="$f-archivemount"
+#             [ ! -d "$mntdir" ] && {
+#                 mkdir "$mntdir"
+#                 archivemount "$f" "$mntdir"
+#                 echo "$mntdir" >> "/tmp/__lf_archivemount_$id"
+#             }
+#             lf -remote "send $id cd \"$mntdir\""
+#             lf -remote "send $id reload"
+#             ;;
+#         *)
+#             for f in $fx; do
+#                 $OPENER $f > /dev/null 2> /dev/null &
+#             done;;
+#     esac
+# }}
 
 
 cmd zle-cd %printf 'cd %q && zle reset-prompt\n' "$PWD" >&$ZLE_FIFO
@@ -277,23 +297,7 @@ cmd zle-init :{{
 
 # y (select for copy) and P to paste soft-link
 # d (select for cut) and P to paste hard-link
-cmd link %{{
-    set -- $(cat ~/.local/share/lf/files)
-    mode="$1"
-    shift
-    if [ "$#" -lt 1 ]; then
-        lf -remote "send $id echo no files to link"
-        exit 0
-    fi
-    case "$mode" in
-        # symbolically copy mode is indicating a soft link
-        copy) ln -sr -t . -- "$@";;
-        # while a move mode is indicating a hard link
-        move) ln -t . -- "$@";;
-    esac
-    rm ~/.local/share/lf/files
-    lf -remote "send clear"
-}}
+cmd link %C:\Users\yasha\dotfiles\scripts\lfLn.ps1
 map P :link 
 
 
@@ -385,4 +389,6 @@ map r ${{
 #     lf -remote "send $id cd $HOME"
 #     lf -remote "send $id $cmd \"$res\""
 # }}
+# cmd fzf_jump $& \"C:\Users\yasha\blah.ps1\"
+# map f push $& "C:\Users\yasha\blah.ps1"
 
