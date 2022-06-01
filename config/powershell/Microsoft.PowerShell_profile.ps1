@@ -19,18 +19,9 @@ Set-PSReadLineKeyHandler -Key Tab -ScriptBlock { Invoke-FzfTabCompletion }
 # Set-PsFzfOption -TabExpansion
 # Set-Location (Get-ChildItem . -Recurse | ? { $_.PSIsContainer } | Invoke-Fzf) # This works as of version 2.2.8
 # Get-ChildItem . -Recurse | ? { $_.PSIsContainer } | Invoke-Fzf | Set-Location
-Import-Module PSReadLine
+Import-Module PSReadLine -MinimumVersion 2.2
+Import-Module PSReadLineVIExtension
 Set-PSReadLineOption -PredictionSource History
-function VerbCompletion {
-    param($commandName, $wordToComplete, $commandAst, $fakeBoundParameter)
-
-    Get-Verb "$wordToComplete*" |
-        ForEach-Object {
-            New-CompletionResult -CompletionText $_.Verb -ToolTip ("Group: " + $_.Group)
-        }   
-}
-Register-ArgumentCompleter -CommandName j -ScriptBlock $function:VerbCompletion 
-# Bindings and aliases
 Set-PSReadlineKeyHandler -Key UpArrow -Function HistorySearchBackward
 Set-PSReadlineKeyHandler -Key DownArrow -Function HistorySearchForward
 Function Jumphome {fdfind . $HOME -t d -H | fzf | cd}
@@ -40,20 +31,20 @@ echo $ho
 neo $ho
 }
 Function nf {
-$ho=fdfind . $HOME -t f -H | fzf
+$ho=fdfind . -t f -H | fzf
 neo $ho
 }
 Function Invoke-PreJump() {
 $ho=fdfind . $HOME -t d -H | fzf
 [Microsoft.PowerShell.PSConsoleReadLine]::Insert($ho)
 }
-Remove-Alias -AliasName z
 Set-Alias j Invoke-Zlocation
 Set-Alias neo $HOME/.local/bin/goneovim/goneovim
 Set-PSReadLineKeyHandler -Chord Alt+j -ScriptBlock { Invoke-PreJump }
 
 
 Set-PSReadLineKeyHandler -Key 'y' -Function Copy -ViMode Command
+Set-PSReadLineKeyHandler -Key 'V' -Function ViEditVisually -ViMode Command
 Set-PSReadLineKeyHandler -Key 'p' -Function Paste -ViMode Command
 Set-PSReadLineKeyHandler -Key 'd,d' -Function DeleteLine -ViMode Command
 Set-PSReadLineKeyHandler -Key 'c,w' -Function DeleteWord -ViMode Command
@@ -199,4 +190,15 @@ Set-Alias lf $HOME/dotfiles/scripts/lfcd.ps1
 $Env:QT_SCALE_FACTOR=2 
 $Env:GDK_SCALE=2 
 $Env:QT_QPA_PLATFORM="wayland"
-$Env:Path+=":/opt:$HOME/.config/sway/modules:$HOME/appimage:/home/linuxbrew/.linuxbrew/bin:/usr/local/bin:/usr/sbin:/sbin:/bin:$HOME/.local/bin:/root/.cabal/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:$HOME/.cabal/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:$HOME/.local/bin:$HOME/.local/bin/scripts:$HOME/.cargo/bin:/snap/bin:/data/data/com.termux/files/usr/bin/applets:/data/data/com.termux/files/usr/bin:bin:/usr/local/sbin:/usr/bin:$HOME/.local/share/nvim/lspinstall:$HOME/skia-binaries:$HOME/ninja:/home/yasha/.nix-profile:$HOME/dotfiles/scripts"
+$Env:Path+=":/opt:$HOME/.config/sway/modules:$HOME/appimage:/home/linuxbrew/.linuxbrew/bin:/usr/local/bin:/usr/sbin:/sbin:/bin:$HOME/.local/bin:/root/.cabal/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:$HOME/.cabal/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:$HOME/.local/bin:$HOME/.local/bin/scripts:$HOME/.cargo/bin:/snap/bin:/data/data/com.termux/files/usr/bin/applets:/data/data/com.termux/files/usr/bin:bin:/usr/local/sbin:/usr/bin:$HOME/.local/share/nvim/lspinstall:$HOME/skia-binaries:$HOME/ninja:/home/yasha/.nix-profile:$HOME/dotfiles/scripts:/usr/bin:$HOME/dotfiles/scripts"
+# function VerbCompletion {
+#     param($commandName, $wordToComplete, $commandAst, $fakeBoundParameter)
+#
+#     Get-Verb "$wordToComplete*" |
+#         ForEach-Object {
+#             New-CompletionResult -CompletionText $_.Verb -ToolTip ("Group: " + $_.Group)
+#         }   
+# }
+# Register-ArgumentCompleter -CommandName j -ScriptBlock $function:VerbCompletion 
+# Bindings and aliases
+

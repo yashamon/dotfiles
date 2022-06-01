@@ -293,6 +293,7 @@ zinit light softmoth/zsh-vim-mode
 zinit light kutsan/zsh-system-clipboard
 zinit light wookayin/fzf-fasd
 zinit ice wait'0'
+zinit light Aloxaf/fzf-tab
 zinit ice light b4b4r07/enhancd
 
 # zinit ice wait'0'

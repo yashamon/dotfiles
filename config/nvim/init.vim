@@ -236,6 +236,7 @@ hi SpellBad gui=underline
 au FileType Makefile set noexpandtab
 au FileType tex,text set spelllang=en_us
 au FileType tex,text,md set indentexpr=
+autocmd TermClose * if !v:event.status | exe 'bdelete! '..expand('<abuf>') | endif
 
 function Reset()
 TZAtaraxisOff 
@@ -648,10 +649,11 @@ let filenameroot=expand('%:t:r')
 " let filenamePDF=filename[:-4]."pdf"
 let filenamePDF=b:filenamedir . "/build/" . filenameroot . ".pdf" 
 echo filenamePDF
-let execstr="silent !zathura --synctex-forward " . linenumber . ":" . colnumber . ":" . filenametexwhole . " " . filenamePDF . " &>/dev/null &"
+let execstr="silent te zathura --synctex-forward " . linenumber . ":" . colnumber . ":" . filenametexwhole . " " . filenamePDF
 " let execstr="silent !/mnt/c/Users/yasha/AppData/Local/SumatraPDF/SumatraPDF.exe -forward-search " . linenumber . " " . filenametexwhole . " &>/dev/null &"
 echo execstr
 exec execstr
+" let running = jobwait(id, 0)[0] == -1
 execute "buffer" buf
 endfunction 
 nmap <leader>v :call ViewPdf()<cr><cr>
@@ -1491,6 +1493,7 @@ if exists('g:gonvim_running')
 elseif exists('g:neovide')
    set guifont=Fira\ Code\ Light:h20
 end
+
 " let g:autotagTagsFile="~/workspacemodules/tags"
 " let g:autotagFile="~/workspacemodules/tags"
 " lua <<EOF
