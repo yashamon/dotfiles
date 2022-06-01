@@ -629,7 +629,13 @@ endfunction
 function! CompileLatex()
   silent call ClearLatex()
   let buf = bufname()
-  silent te latexmk -pvc -halt-on-error -synctex=1 -file-line-error -f -gg %
+  let b:filenamedir=expand('%:p:h')  
+  let filenametex=expand('%:p:t') 
+  let filenametexwhole=expand('%:p') 
+  let filenameroot=expand('%:t:r')
+" let filenamePDF=filename[:-4]."pdf"
+  let b:filenameRoot=b:filenamedir . "\\buildback\\" . filenameroot
+  silent te latexmk -pvc -synctex=1 -file-line-error -f -gg -jobname="b:filenameRoot" %
   execute "buffer" buf
   call ViewPdf()
 endfunction
@@ -645,7 +651,7 @@ let filenametex=expand('%:p:t')
 let filenametexwhole=expand('%:p') 
 let filenameroot=expand('%:t:r')
 " let filenamePDF=filename[:-4]."pdf"
-let filenamePDF=b:filenamedir . "\\build\\" . filenameroot . ".pdf" 
+let filenamePDF=b:filenamedir . "\\buildback\\" . filenameroot . ".pdf" 
 echo filenamePDF
 let execstr="silent !sumatrapdf -reuse-instance " . filenamePDF . " -forward-search " . filenametexwhole . " " . linenumber
 " let execstr="silent !/mnt/c/Users/yasha/AppData/Local/SumatraPDF/SumatraPDF.exe -forward-search " . linenumber . " " . filenametexwhole . " &>/dev/null &"
