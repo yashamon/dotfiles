@@ -8,10 +8,10 @@
   "QueryBoxFont": "Microsoft Sans Serif",
   "ResultFont": "Microsoft Sans Serif",
   "AutoUpdates": false,
-  "WindowLeft": 180,
-  "WindowTop": 223,
+  "WindowLeft": 0,
+  "WindowTop": 0,
   "MaxResultsToShow": 4,
-  "ActivateTimes": 14,
+  "ActivateTimes": 0,
   "CustomPluginHotkeys": [],
   "DontPromptUpdateMsg": false,
   "EnableUpdateLog": false,
@@ -23,7 +23,7 @@
   "ClearInputOnLaunch": false,
   "RememberLastLaunchLocation": false,
   "IgnoreHotkeysOnFullscreen": false,
-  "StartedFromPowerToysRunner": true,
+  "StartedFromPowerToysRunner": false,
   "Proxy": {
     "Enabled": false,
     "Port": 0
