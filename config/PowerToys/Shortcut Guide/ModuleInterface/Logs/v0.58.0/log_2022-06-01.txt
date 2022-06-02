@@ -14,3 +14,5 @@
 [2022-06-01 17:30:57.833161] [p-10480] [t-10484] [trace] GetHotkeyEx()
 [2022-06-01 17:30:58.042844] [p-10480] [t-10484] [info] Shortcut Guide is enabling
 [2022-06-01 17:30:58.042859] [p-10480] [t-10484] [trace] GetHotkeyEx()
+[2022-06-01 19:18:02.298378] [p-10480] [t-10964] [trace] Send settings telemetry
+[2022-06-01 19:18:02.565023] [p-10480] [t-10964] [trace] Started SG process with pid=9604

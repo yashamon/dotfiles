@@ -7,3 +7,6 @@ INFO: 09:09:10.0131253
 INFO: 11:25:50.0006850
     [Method]: GetSettingsOrDefault [Class]: SettingsUtils
     Settings file settings.json for Shortcut Guide was not found.
+INFO: 19:18:03.1042639
+    [Method]: SendSettingsTelemetry [Class]: UserSettings
+    Sending settings telemetry

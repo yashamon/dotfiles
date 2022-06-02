@@ -1,0 +1,2 @@
+[2022-06-02 10:11:25.697638] [p-10884] [t-10988] [trace] PowerToys_KeyboardManager_Event_Settings event was signaled
+[2022-06-02 10:11:25.762251] [p-10884] [t-10988] [trace] SettingsHelper::LoadSettings()

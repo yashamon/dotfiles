@@ -19,3 +19,4 @@
 [2022-06-01 17:30:58.006326] [p-10480] [t-10484] [trace] Starting PowerToys Run from not elevated process
 [2022-06-01 17:30:58.032970] [p-10480] [t-10484] [trace] Started PowerToys Run
 [2022-06-01 17:30:58.032979] [p-10480] [t-10484] [info] Microsoft_Launcher::enable() end
+[2022-06-01 19:18:02.248639] [p-10480] [t-10964] [info] Send settings telemetry
