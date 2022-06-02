@@ -596,7 +596,7 @@ endfunction
 noremap LL :lua require("zen-mode").close()<cr>:call Sentence()<cr>
 " noremap L :TZAtaraxisOff<cr><cr>:call Sentence()<cr>
 function! Git() 
-AsyncRun -silent if git rev-parse --is-inside-work-tree || git rev- parse --git-dir ; then git add . ; git commit -m -a ; git push --all origin; fi 
+AsyncRun -silent if ( (git rev-parse --is-inside-work-tree) -and (git rev-parse --git-dir) ) { git add . ; git commit -m -a ; git push --all origin }
 endfunction
 
 function! ToggleQuickFix() 
