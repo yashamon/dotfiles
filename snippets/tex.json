@@ -13,6 +13,22 @@
        ],
     "description": "NFuk"
     },  
+ "bracket plus minus": {
+    "prefix": "bpm",
+    "body": [
+        "\\{\\pm \\} $0"
+       ],
+    "description": "BHam"
+    },  
+   
+"plus minus": {
+    "prefix": "pm",
+    "body": [
+        "\\pm $0"
+       ],
+    "description": "BHam"
+    },  
+
 "BHam": {
     "prefix": "bham",
     "body": [

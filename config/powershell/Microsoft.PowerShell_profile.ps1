@@ -17,17 +17,17 @@ Set-PsFzfOption -PSReadlineChordProvider 'Ctrl+t' -PSReadlineChordReverseHistory
 # Set-PsFzfOption -AltCCommand $commandOverride
 Set-PSReadLineKeyHandler -Key Tab -ScriptBlock { Invoke-FzfTabCompletion }
 # Set-PsFzfOption -TabExpansion
-Import-Module PSReadLine
+Import-Module PSReadLine -MinimumVersion 2.2
 Set-PSReadLineOption -PredictionSource History
-function VerbCompletion {
-    param($commandName, $wordToComplete, $commandAst, $fakeBoundParameter)
-
-    Get-Verb "$wordToComplete*" |
-        ForEach-Object {
-            New-CompletionResult -CompletionText $_.Verb -ToolTip ("Group: " + $_.Group)
-        }   
-}
-Register-ArgumentCompleter -CommandName j -ScriptBlock $function:VerbCompletion 
+# function VerbCompletion {
+#     param($commandName, $wordToComplete, $commandAst, $fakeBoundParameter)
+#
+#     Get-Verb "$wordToComplete*" |
+#         ForEach-Object {
+#             New-CompletionResult -CompletionText $_.Verb -ToolTip ("Group: " + $_.Group)
+#         }   
+# }
+# Register-ArgumentCompleter -CommandName j -ScriptBlock $function:VerbCompletion 
 # Bindings and aliases
 Set-PSReadlineKeyHandler -Key UpArrow -Function HistorySearchBackward
 Set-PSReadlineKeyHandler -Key DownArrow -Function HistorySearchForward
@@ -74,7 +74,7 @@ function OnViModeChange {
 Set-PSReadLineOption -ViModeIndicator Script -ViModeChangeHandler $Function:OnViModeChange
 
 # Environmental variables
-$Env:EDITOR = "nvim"
+$Env:EDITOR = "neo"
 
 # various binding functions
 # 

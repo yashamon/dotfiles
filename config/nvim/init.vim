@@ -192,7 +192,8 @@ set autochdir
 set guioptions-=r
 set guioptions-=l
 set inccommand=split
-set mouse=
+set mouse=a
+set selectmode=key
 set bs=2		" allow backspacing over everything in insert mode 
 set undofile                " Save undo's after file closes
 set undodir=~/.undo " where to save undo histories
@@ -333,12 +334,13 @@ set fileencoding=utf-8
 "
 " terminal mappings 
 " 
+tnoremap <A-`> <C-\><C-n>
 tnoremap <A-Esc> <C-\><C-n>
 nmap <A-S-t> :te<cr>
+" other mappings 
 vnoremap <Leader>U ""y:%s/<C-r>"
 noremap <leader>r :w<cr>:e<cr> 
 " inoremap . .<esc>:w<cr>a
-
 noremap <leader>hh :set tw=50<cr>
 noremap <leader>w :set tw=0<cr> 
 map q :q<cr>
@@ -450,7 +452,7 @@ noremap <m-1> <C-o>
 noremap <m-2> <C-i>
 noremap <D-d> <C-d>
 noremap ;w <Esc>:w<CR>
-noremap <C-t> <Esc>:AsyncRun c -R<CR>
+noremap <C-t> <Esc>:AsyncRun ctags -R<CR>
 noremap <D-u> <C-u>
 noremap <A-u> <C-u>
 " windows stuff
@@ -631,7 +633,7 @@ endfunction
 function! CompileLatex()
   silent call ClearLatex()
   let buf = bufname()
-  silent te latexmk -pvc -halt-on-error -synctex=1 -file-line-error -f -output-directory="build" -gg %
+  silent te latexmk -pvc -halt-on-error -synctex=1 -file-line-error -f -output-directory="buildback" -gg %
   execute "buffer" buf
   call ViewPdf()
 endfunction
@@ -1493,7 +1495,7 @@ if exists('g:gonvim_running')
 elseif exists('g:neovide')
    set guifont=Fira\ Code\ Light:h20
 end
-
+" test
 " let g:autotagTagsFile="~/workspacemodules/tags"
 " let g:autotagFile="~/workspacemodules/tags"
 " lua <<EOF
