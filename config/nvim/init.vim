@@ -608,7 +608,7 @@ function! ToggleQuickFix()
         let b:filenamedir=expand('%:p:h')  
         echo b:filenamedir
         let b:filename=expand('%:t:r')
-        let b:errors=b:filenamedir . "\\buildback\\" . b:filename .".log"
+        let b:errors=b:filenamedir . "\\build\\" . b:filename .".log"
         echo b:errors
         exec "caddf" b:errors
         copen
@@ -634,7 +634,7 @@ function! CompileLatex()
   let filenametexwhole=expand('%:p') 
   let filenameroot=expand('%:t:r')
 " let filenamePDF=filename[:-4]."pdf"
-  let b:filenameRoot=b:filenamedir . "\\buildback\\" . filenameroot
+  let b:filenameRoot=b:filenamedir . "\\build\\" . filenameroot
   silent te latexmk -pvc -synctex=1 -file-line-error -f -gg -jobname="b:filenameRoot" %
   execute "buffer" buf
   call ViewPdf()
@@ -642,7 +642,7 @@ endfunction
 
 function! ViewPdf() 
 wa
-silent execute "!echo " . v:servername . " > ~/servername.txt"
+silent execute "!echo " . v:servername . " > C:\\Users\\yasha\\servername.txt"
 let buf = bufname()
 let linenumber=line(".")
 let colnumber=col(".") 
@@ -651,7 +651,7 @@ let filenametex=expand('%:p:t')
 let filenametexwhole=expand('%:p') 
 let filenameroot=expand('%:t:r')
 " let filenamePDF=filename[:-4]."pdf"
-let filenamePDF=b:filenamedir . "\\buildback\\" . filenameroot . ".pdf" 
+let filenamePDF=b:filenamedir . "\\" . filenameroot . ".pdf" 
 echo filenamePDF
 let execstr="silent !sumatrapdf -reuse-instance " . filenamePDF . " -forward-search " . filenametexwhole . " " . linenumber
 " let execstr="silent !/mnt/c/Users/yasha/AppData/Local/SumatraPDF/SumatraPDF.exe -forward-search " . linenumber . " " . filenametexwhole . " &>/dev/null &"
@@ -1521,5 +1521,5 @@ end
 "   }
 "   end
 " }
-" EOF
+" EOF teast
 "

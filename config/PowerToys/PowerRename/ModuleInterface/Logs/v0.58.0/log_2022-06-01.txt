@@ -1,0 +1,4 @@
+[2022-06-01 08:30:55.234459] [p-8532] [t-8536] [info] powerrename logger is initialized
+[2022-06-01 08:30:55.422802] [p-8532] [t-8536] [info] PowerRename enabled
+[2022-06-01 09:05:38.616212] [p-10200] [t-10204] [info] powerrename logger is initialized
+[2022-06-01 09:05:38.931173] [p-10200] [t-10204] [info] PowerRename enabled

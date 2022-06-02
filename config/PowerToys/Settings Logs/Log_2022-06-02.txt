@@ -1,0 +1,6 @@
+INFO: 10:08:16.1543126
+    [Method]: OpenEditor [Class]: KeyboardManagerViewModel
+    Starting Keyboard Manager editor from C:\Program Files\PowerToys\modules\KeyboardManager\KeyboardManagerEditor\PowerToys.KeyboardManagerEditor.exe
+INFO: 10:10:02.8192004
+    [Method]: OpenEditor [Class]: KeyboardManagerViewModel
+    Starting Keyboard Manager editor from C:\Program Files\PowerToys\modules\KeyboardManager\KeyboardManagerEditor\PowerToys.KeyboardManagerEditor.exe

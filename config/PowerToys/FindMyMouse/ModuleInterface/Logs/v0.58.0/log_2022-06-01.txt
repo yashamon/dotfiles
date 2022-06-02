@@ -1,0 +1,12 @@
+[2022-06-01 08:30:55.251533] [p-8532] [t-8536] [info] find-my-mouse logger is initialized
+[2022-06-01 08:30:55.251876] [p-8532] [t-8536] [info] Find My Mouse settings are empty
+[2022-06-01 08:30:55.399796] [p-8532] [t-8904] [info] Starting a sonar instance.
+[2022-06-01 08:30:55.411257] [p-8532] [t-8904] [info] Initialized the sonar instance.
+[2022-06-01 09:05:38.635909] [p-10200] [t-10204] [info] find-my-mouse logger is initialized
+[2022-06-01 09:05:38.636326] [p-10200] [t-10204] [info] Find My Mouse settings are empty
+[2022-06-01 09:05:38.918357] [p-10200] [t-10600] [info] Starting a sonar instance.
+[2022-06-01 09:05:38.924507] [p-10200] [t-10600] [info] Initialized the sonar instance.
+[2022-06-01 17:30:57.849294] [p-10480] [t-10484] [info] find-my-mouse logger is initialized
+[2022-06-01 17:30:57.849635] [p-10480] [t-10484] [info] Find My Mouse settings are empty
+[2022-06-01 17:30:57.981157] [p-10480] [t-10848] [info] Starting a sonar instance.
+[2022-06-01 17:30:57.996967] [p-10480] [t-10848] [info] Initialized the sonar instance.

@@ -35,3 +35,4 @@
 [2022-05-31 19:18:16.998620] [p-8440] [t-10084] [info] runner logger is initialized
 [2022-05-31 19:18:16.998637] [p-8440] [t-10084] [info] Running powertoys with cmd args: 
 [2022-05-31 19:18:16.998760] [p-8440] [t-10084] [error] Can't convert string value= to ESettingsWindowNames
+[2022-05-31 21:18:03.002462] [p-11028] [t-5284] [trace] Version is up to date
