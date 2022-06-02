@@ -631,7 +631,7 @@ endfunction
 function! CompileLatex()
   silent call ClearLatex()
   let buf = bufname()
-  silent te latexmk -pvc -halt-on-error -synctex=1 -file-line-error -f -gg %
+  silent te latexmk -pvc -halt-on-error -synctex=1 -file-line-error -f -output-directory="build" -gg %
   execute "buffer" buf
   call ViewPdf()
 endfunction

@@ -1,0 +1,15 @@
+cd ./workspacemodules/
+ls
+ls -l | where type==file
+ls -l | where type=file
+ls -l | where type="file" | echo
+ls -l | where type=file | echo
+ls -l | where type==file | echo
+ls -l | where type
+ls -l | where each |it.type|=file 
+lf 
+let $config = {<\n>    ...<\n>    edit_mode: emacs<\n>    ...<\n>  }
+lf
+cd ./workspacemodules/
+psrc
+powershell
