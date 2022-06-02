@@ -1,5 +1,4 @@
-oh-my-posh init pwsh --config ~/dotfiles/powershell/probua.minimal.omp.json | Invoke-Expression
-
+# oh-my-posh init pwsh --config ~/dotfiles/powershell/probua.minimal.omp.json | Invoke-Expression
 
 # Usability
 # 
