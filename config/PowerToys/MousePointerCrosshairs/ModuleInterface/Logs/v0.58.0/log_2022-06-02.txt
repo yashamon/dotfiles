@@ -1,0 +1,6 @@
+[2022-06-02 17:13:13.936269] [p-10144] [t-10148] [info] mouse-pointer-crosshairs logger is initialized
+[2022-06-02 17:13:13.936632] [p-10144] [t-10148] [info] Mouse Pointer Crosshairs settings are empty
+[2022-06-02 17:13:13.936636] [p-10144] [t-10148] [info] Mouse Pointer Crosshairs  is going to use default shortcut
+[2022-06-02 17:26:41.501159] [p-8968] [t-8972] [info] mouse-pointer-crosshairs logger is initialized
+[2022-06-02 17:26:41.501378] [p-8968] [t-8972] [info] Mouse Pointer Crosshairs settings are empty
+[2022-06-02 17:26:41.501380] [p-8968] [t-8972] [info] Mouse Pointer Crosshairs  is going to use default shortcut

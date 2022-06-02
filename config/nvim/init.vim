@@ -133,6 +133,8 @@ set title
 " set laststatus=1 
 set noshowcmd    
 set indentexpr=
+set shell=pwsh
+
 set noshowmatch  
 set wrap  
 set pb=10  
@@ -192,7 +194,8 @@ set autochdir
 set guioptions-=r
 set guioptions-=l
 set inccommand=split
-set mouse=
+set mouse=a
+set selectmode=key
 set bs=2		" allow backspacing over everything in insert mode 
 set undofile                " Save undo's after file closes
 set undodir=~/.undo " where to save undo histories
