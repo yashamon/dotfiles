@@ -13,6 +13,7 @@ EOF	lf-ueberzug-cleaner	/^cat <<EOF | paste -sd '' >"$LF_UEBERZUG_TEMPDIR\/fifo"
 EOF	lf-ueberzug-previewer	/^	cat <<-EOF | paste -sd '' >"$LF_UEBERZUG_TEMPDIR\/fifo"$/;"	h
 STATES	rotx	/^STATES = [$/;"	v
 a	gheto.ps1	/^$a=$args[0]$/;"	v
+a	remote.ps1	/^$a=$args[1]$/;"	v
 accel_x	rotx	/^    accel_x = bdopen('in_accel_x_raw')$/;"	v
 accel_y	rotx	/^    accel_y = bdopen('in_accel_y_raw')$/;"	v
 array_str	gcuts	/^array_str = get("gsettings get "+key)$/;"	v
@@ -29,6 +30,7 @@ current_state	rotx	/^    current_state = None$/;"	v
 devices	rotx	/^devices = check_output(['xinput', '--list', '--name-only']).splitlines()$/;"	v
 dir	lfcd.ps1	/^    $dir = Get-Content "$tmp"$/;"	v
 disable_touchpads	rotx	/^disable_touchpads = False$/;"	v
+e	remote.ps1	/^$e="nvim --server " + "$var" + " --remote-send " + ':' + "$a" + '<cr>'$/;"	v
 firstname	gcuts	/^firstname = "custom"$/;"	v
 g	rotx	/^g = 7.0  # (m^2 \/ s) sensibility, gravity trigger$/;"	v
 get	gcuts	/^get = lambda cmd: subprocess.check_output(["\/bin\/bash", "-c", cmd]).decode("utf-8")$/;"	f
@@ -57,5 +59,6 @@ touchpad_names	rotx	/^touchpad_names = ['touchpad', 'trackpoint']$/;"	v
 touchpads	rotx	/^touchpads = [i for i in devices if any(j in i.lower() for j in touchpad_names)]$/;"	v
 touchscreen_names	rotx	/^touchscreen_names = ['touchscreen', 'wacom']$/;"	v
 touchscreens	rotx	/^touchscreens = [i for i in devices if any(j in i.lower() for j in touchscreen_names)]$/;"	v
+var	remote.ps1	/^$var=(cat ~\/servername.txt)$/;"	v
 x	rotx	/^        x = read_accel(accel_x)$/;"	v
 y	rotx	/^        y = read_accel(accel_y)$/;"	v
