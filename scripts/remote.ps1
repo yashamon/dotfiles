@@ -6,6 +6,6 @@ echo $b
 $var=(cat ~/servername.txt)
 echo $var
 $e="nvim --server " + "$var" + " --remote-send " + ':' +
-"buffer $b " + '<cr>:<esc>:' + "$a"
+"buffer $b" + '<cr>:<esc>:' + "$a"+'<cr>'
 echo $e
 Invoke-Expression $e
