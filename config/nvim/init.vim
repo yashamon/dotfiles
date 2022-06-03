@@ -601,7 +601,7 @@ noremap LL :lua require("zen-mode").close()<cr>:call Sentence()<cr>
 " noremap L :TZAtaraxisOff<cr><cr>:call Sentence()<cr>
 function! Git() 
 " AsyncRun -silent if git rev-parse --is-inside-work-tree || git rev- parse --git-dir > /dev/null 2>&1 ; then git add . ; git commit -m -a ; git push --all origin; fi 
-te if ( (git rev-parse --is-inside-work-tree) -and (git rev-parse --git-dir) ) { git add . ; git commit -m -a ; git push --all origin }
+te silent if ( (git rev-parse --is-inside-work-tree) -and (git rev-parse --git-dir) ) { git add . ; git commit -m -a ; git push --all origin }
 endfunction
 
 function! ToggleQuickFix() 
@@ -1496,7 +1496,7 @@ if exists('g:gonvim_running')
 elseif exists('g:neovide')
    set guifont=Fira\ Code\ Light:h20
 end
-" test test2 test3
+" test test2
 " let g:autotagTagsFile="~/workspacemodules/tags"
 " let g:autotagFile="~/workspacemodules/tags"
 " lua <<EOF
