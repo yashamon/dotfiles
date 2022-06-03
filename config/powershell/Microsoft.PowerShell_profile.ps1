@@ -1,5 +1,6 @@
 oh-my-posh init pwsh --config ~/dotfiles/powershell/probua.minimal.omp.json | Invoke-Expression
 
+
 # Usability
 # 
 # 
@@ -16,34 +17,42 @@ Set-PsFzfOption -PSReadlineChordProvider 'Ctrl+t' -PSReadlineChordReverseHistory
 # Set-PsFzfOption -AltCCommand $commandOverride
 Set-PSReadLineKeyHandler -Key Tab -ScriptBlock { Invoke-FzfTabCompletion }
 # Set-PsFzfOption -TabExpansion
-Import-Module PSReadLine -MinimumVersion 2.2
+# Set-Location (Get-ChildItem . -Recurse | ? { $_.PSIsContainer } | Invoke-Fzf) # This works as of version 2.2.8
+# Get-ChildItem . -Recurse | ? { $_.PSIsContainer } | Invoke-Fzf | Set-Location
+Import-Module PSReadLine
 Set-PSReadLineOption -PredictionSource History
-# function VerbCompletion {
-#     param($commandName, $wordToComplete, $commandAst, $fakeBoundParameter)
-#
-#     Get-Verb "$wordToComplete*" |
-#         ForEach-Object {
-#             New-CompletionResult -CompletionText $_.Verb -ToolTip ("Group: " + $_.Group)
-#         }   
-# }
-# Register-ArgumentCompleter -CommandName j -ScriptBlock $function:VerbCompletion 
+function VerbCompletion {
+    param($commandName, $wordToComplete, $commandAst, $fakeBoundParameter)
+
+    Get-Verb "$wordToComplete*" |
+        ForEach-Object {
+            New-CompletionResult -CompletionText $_.Verb -ToolTip ("Group: " + $_.Group)
+        }   
+}
+Register-ArgumentCompleter -CommandName j -ScriptBlock $function:VerbCompletion 
 # Bindings and aliases
 Set-PSReadlineKeyHandler -Key UpArrow -Function HistorySearchBackward
 Set-PSReadlineKeyHandler -Key DownArrow -Function HistorySearchForward
-Set-PSReadlineKeyHandler -Chord Alt+k -Function HistorySearchBackward
-Set-PSReadlineKeyHandler -Chord Alt+j -Function HistorySearchForward
-Set-PSReadLineKeyHandler -Chord Alt+a -Function AcceptSuggestion 
-# Function Invoke-PreJump() {
-# funct ho=fdfind . $HOME -t d -H | fzf
-# [Microsoft.PowerShell.PSConsoleReadLine]::Insert($ho)
-# }
+Function Jumphome {fdfind . $HOME -t d -H | fzf | cd}
+Function nf {
+$ho=fdfind . $HOME -t f -H | fzf
+echo $ho
+neo $ho
+}
+Function nf {
+$ho=fdfind . $HOME -t f -H | fzf
+neo $ho
+}
+Function Invoke-PreJump() {
+$ho=fdfind . $HOME -t d -H | fzf
+[Microsoft.PowerShell.PSConsoleReadLine]::Insert($ho)
+}
+# Remove-Alias -AliasName z
 Set-Alias j Invoke-Zlocation
-Set-Alias lualatexscript /home/yasha/dotfiles/scripts/lualatexscript.ps1
-function neo($1) {
-   $neo="(which goneovim)"+" $1"
-Invoke-Expression $neo }
-# /home/yasha/.local/bin/goneovim/goneovim
-# Set-PSReadLineKeyHandler -Chord Alt+j -ScriptBlock { Invoke-PreJump }
+Set-Alias neo $HOME/.local/bin/goneovim/goneovim
+Set-PSReadLineKeyHandler -Chord Alt+j -ScriptBlock { Invoke-PreJump }
+
+
 Set-PSReadLineKeyHandler -Key 'y' -Function Copy -ViMode Command
 Set-PSReadLineKeyHandler -Key 'p' -Function Paste -ViMode Command
 Set-PSReadLineKeyHandler -Key 'd,d' -Function DeleteLine -ViMode Command
@@ -54,13 +63,6 @@ Set-PSReadlineKeyHandler -Key Ctrl+Shift+P `
     -BriefDescription CopyPathToClipboard `
     -LongDescription "Copies the current path to the clipboard" `
     -ScriptBlock { (Resolve-Path -LiteralPath $pwd).ProviderPath.Trim() | clip }
-
-Function Jumphome {fdfind . $HOME -t d -H | fzf | cd}
-Function nf {
-$ho=fdfind . -t f -H | fzf
-neo $ho
-}
-
 
 # This example emits a cursor change VT escape in response to a Vi mode change.
 
@@ -76,7 +78,8 @@ function OnViModeChange {
 Set-PSReadLineOption -ViModeIndicator Script -ViModeChangeHandler $Function:OnViModeChange
 
 # Environmental variables
-$Env:EDITOR = "Invoke-Expression (which goneovim)"
+$Env:EDITOR = "nvim"
+
 # various binding functions
 # 
 # 
@@ -123,21 +126,21 @@ function psrc { neo $profile }
 function texi($1) { pdflatex -file-line-error -synctex=1  -interaction=nonstopmode -recorder $1 }
 function latexi() { latexmk -g -pdf -file-line-error -synctex=1  -interaction=nonstopmode
 -recorder -f $1} 
-function pvc($1) { latexmk -pdf -pvc -file-line-error -synctex=1  -interaction=nonstopmode
+function pvc() { latexmk -pdf -pvc -file-line-error -synctex=1  -interaction=nonstopmode
 -recorder -f $1} 
 function lat($1) { echo $1
 latexmk -pvc -pdf -file-line-error -synctex=1 -interaction=nonstopmode -recorder -f -g $1}
 #
-function pushmod { git submodule foreach git add . ; git submodule foreach git commit -m -a ; git submodule foreach git push origin master; git add . ; git commit -m -a; git push --all origin }
-function push { git add . ; git commit -m -a ; git push --all origin }
-function pull { git pull --recurse-submodules ; git submodule update --recursive --remote }
-function pullmaster { git pull --recurse-submodules ; git submodule update --recursive --remote ; git submodule foreach git checkout master ; git submodule foreach git pull --all
+function pushmod { git submodule foreach git add . && git submodule foreach git commit -m -a && 
+ git submodule foreach git push origin master; git add . && git commit -m -a; git push --all origin }
+function push { git add . && git commit -m -a && git push --all origin }
+function pull { git pull --recurse-submodules && git submodule update --recursive --remote }
+function pullmaster { git pull --recurse-submodules && git submodule update --recursive --remote && git submodule foreach git checkout master && git submodule foreach git pull --all
 }
 # alias check="git checkout" 
-function pushgh { pandoc index.md > index.html ; git add . ; git commit -m -a ; git push origin gh-pages }
-function hw { pandoc ~/web/classes/topology/topology2019.md > ~/web/classes/topology/topology2019.html; pandoc ~/web/CalcIII2019/analysis.md > ~/web/CalcIII2019/analysis.html; git
+function pushgh { pandoc index.md > index.html && git add . && git commit -m -a && git push origin gh-pages }
+function hw { pandoc ~\web\classes\topology\topology2019.md > ~\web\classes\topology\topology2019.html; pandoc ~\web\CalcIII2019\analysis.md > ~\web\CalcIII2019\analysis.html; git
 add .;git commit -m -a; git push origin gh-pages }# alias check="git checkout" 
-function modulestext { Get-InstalledModule | foreach { $_.Name > /home/yasha/dotfiles/PSmodules.text } }
 function clip { /mnt/c/windows/System32/WindowsPowerShell/v1.0/powershell.exe -c Get-Clipboard | tr -d $'\r' | wl-copy }
 # alias attach="tmux attach"
 # # alias pdf="xpdf -geometry 1920x1080 -fullscreen"
@@ -196,7 +199,4 @@ Set-Alias lf $HOME/dotfiles/scripts/lfcd.ps1
 $Env:QT_SCALE_FACTOR=2 
 $Env:GDK_SCALE=2 
 $Env:QT_QPA_PLATFORM="wayland"
-$Env:Path+=":/opt:$HOME/.config/sway/modules:$HOME/appimage:/home/linuxbrew/.linuxbrew/bin:/usr/local/bin:/usr/sbin:/sbin:/bin:$HOME/.local/bin:/root/.cabal/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:$HOME/.cabal/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:$HOME/.local/bin:$HOME/.local/bin/scripts:$HOME/.cargo/bin:/snap/bin:/data/data/com.termux/files/usr/bin/applets:/data/data/com.termux/files/usr/bin:bin:/usr/local/sbin:/usr/bin:$HOME/.local/share/nvim/lspinstall:$HOME/skia-binaries:$HOME/ninja:/home/yasha/.nix-profile:/home/yasha/dotfiles/scripts:/usr/bin:$HOME/dotfiles/scripts"
-Get-InstalledModule | foreach { ($_.Name, $_.Repository) > /home/yasha/dotfiles/PSmodules.text }
-# $Env:Path="/home/yasha/dotfiles/scripts:/usr/bin:$HOME/dotfiles/scripts:$HOME/.local/bin"
-# 
+$Env:Path+=":/opt:$HOME/.config/sway/modules:$HOME/appimage:/home/linuxbrew/.linuxbrew/bin:/usr/local/bin:/usr/sbin:/sbin:/bin:$HOME/.local/bin:/root/.cabal/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:$HOME/.cabal/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:$HOME/.local/bin:$HOME/.local/bin/scripts:$HOME/.cargo/bin:/snap/bin:/data/data/com.termux/files/usr/bin/applets:/data/data/com.termux/files/usr/bin:bin:/usr/local/sbin:/usr/bin:$HOME/.local/share/nvim/lspinstall:$HOME/skia-binaries:$HOME/ninja:/home/yasha/.nix-profile:$HOME/dotfiles/scripts"
