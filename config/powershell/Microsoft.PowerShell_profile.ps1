@@ -126,18 +126,13 @@ function pvc($1) { latexmk -pdf -pvc -file-line-error -synctex=1  -interaction=n
 function lat($1) { echo $1
 latexmk -pvc -pdf -file-line-error -synctex=1 -interaction=nonstopmode -recorder -f -g $1}
 #
-function pushmod { git submodule foreach git add . ; git
-submodule foreach git commit -m -a ; 
- git submodule foreach git push origin master; git add .
- ; git commit -m -a; git push --all origin }
+function pushmod { git submodule foreach git add . ; git submodule foreach git commit -m -a ; git submodule foreach git push origin master; git add . ; git commit -m -a; git push --all origin }
 function push { git add . ; git commit -m -a ; git push --all origin }
 function pull { git pull --recurse-submodules ; git submodule update --recursive --remote }
-function pullmaster { git pull --recurse-submodules ; git
-submodule update --recursive --remote ; git submodule
-foreach git checkout master ; git submodule foreach git pull --all
+function pullmaster { git pull --recurse-submodules ; git submodule update --recursive --remote ; git submodule foreach git checkout master ; git submodule foreach git pull --all
 }
 # alias check="git checkout" 
-function pushgh { pandoc index.md > index.html && git add . && git commit -m -a && git push origin gh-pages }
+function pushgh { pandoc index.md > index.html ; git add . ; git commit -m -a ; git push origin gh-pages }
 function hw { pandoc ~/web/classes/topology/topology2019.md > ~/web/classes/topology/topology2019.html; pandoc ~/web/CalcIII2019/analysis.md > ~/web/CalcIII2019/analysis.html; git
 add .;git commit -m -a; git push origin gh-pages }# alias check="git checkout" 
 function clip { /mnt/c/windows/System32/WindowsPowerShell/v1.0/powershell.exe -c Get-Clipboard | tr -d $'\r' | wl-copy }

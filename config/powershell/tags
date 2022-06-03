@@ -25,10 +25,10 @@ nf	Microsoft.PowerShell_profile.ps1	/^Function nf {$/;"	f
 pdf	Microsoft.PowerShell_profile.ps1	/^function pdf($1) { zathura $1 }$/;"	f
 psrc	Microsoft.PowerShell_profile.ps1	/^function psrc { neo $profile } $/;"	f
 pull	Microsoft.PowerShell_profile.ps1	/^function pull { git pull --recurse-submodules ; git submodule update --recursive --remote }$/;"	f
-pullmaster	Microsoft.PowerShell_profile.ps1	/^function pullmaster { git pull --recurse-submodules ; git$/;"	f
+pullmaster	Microsoft.PowerShell_profile.ps1	/^function pullmaster { git pull --recurse-submodules ; git submodule update --recursive --remote /;"	f
 push	Microsoft.PowerShell_profile.ps1	/^function push { git add . ; git commit -m -a ; git push --all origin }$/;"	f
-pushgh	Microsoft.PowerShell_profile.ps1	/^function pushgh { pandoc index.md > index.html && git add . && git commit -m -a && git push orig/;"	f
-pushmod	Microsoft.PowerShell_profile.ps1	/^function pushmod { git submodule foreach git add . ; git$/;"	f
+pushgh	Microsoft.PowerShell_profile.ps1	/^function pushgh { pandoc index.md > index.html ; git add . ; git commit -m -a ; git push origin /;"	f
+pushmod	Microsoft.PowerShell_profile.ps1	/^function pushmod { git submodule foreach git add . ; git submodule foreach git commit -m -a ; gi/;"	f
 pvc	Microsoft.PowerShell_profile.ps1	/^function pvc($1) { latexmk -pdf -pvc -file-line-error -synctex=1  -interaction=nonstopmode$/;"	f
 sendFunction	Microsoft.PowerShell_profile.ps1	/^function sendFunction($1) {$/;"	f
 swrc	Microsoft.PowerShell_profile.ps1	/^function swrc { neo ~\/dotfiles\/config\/sway\/config }$/;"	f
