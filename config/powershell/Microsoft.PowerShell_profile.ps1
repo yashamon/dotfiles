@@ -135,8 +135,7 @@ function pullmaster { git pull --recurse-submodules ; git submodule update --rec
 function pushgh { pandoc index.md > index.html ; git add . ; git commit -m -a ; git push origin gh-pages }
 function hw { pandoc ~/web/classes/topology/topology2019.md > ~/web/classes/topology/topology2019.html; pandoc ~/web/CalcIII2019/analysis.md > ~/web/CalcIII2019/analysis.html; git
 add .;git commit -m -a; git push origin gh-pages }# alias check="git checkout" 
-function modulestext {  Get-InstalledModule | foreach { $_.Name >
-/home/yasha/dotfiles/PSmodules.text } }
+function modulestext {  Get-InstalledModule | foreach { $_.Name > /home/yasha/dotfiles/PSmodules.text } }
 function clip { /mnt/c/windows/System32/WindowsPowerShell/v1.0/powershell.exe -c Get-Clipboard | tr -d $'\r' | wl-copy }
 # alias attach="tmux attach"
 # # alias pdf="xpdf -geometry 1920x1080 -fullscreen"
