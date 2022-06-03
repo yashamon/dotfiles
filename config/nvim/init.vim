@@ -807,38 +807,6 @@ set completeopt=menu,menuone,noselect
 
 lua <<EOF
   -- Setup cmp.
--- Installation
-use { 
-  'hrsh7th/nvim-cmp',
-  requires = {
-    {
-      'quangnguyen30192/cmp-nvim-tags',
-      -- if you want the sources is available for some file types
-      ft = {
-        'kotlin',
-        'java'
-      }
-    }
-  },
-config = function ()
-    require'cmp'.setup {
-    sources = {
-      { name = 'tags' },
-      
-    { name = 'vsnip', keyword_length = 1000 },
-{ name = 'tags' },
--- For ultisnips user.
-      -- { name = 'ultisnips' },  
-{ name = 'buffer', keyword_length = 1000 },
-{ name = 'omni', keyword_length = 4},
-       -- { name = 'spell' }, 
-{ name = 'nvim_lsp', keyword_length = 4 },
-      --{ name = 'treesitter', keyword_length = 4 },
---{ name = 'latex_symbols' },
-}
-  }
-
-}
 
 local has_words_before = function()
   if vim.api.nvim_buf_get_option(0, "buftype") == "prompt" then
@@ -861,7 +829,7 @@ cmp.setup {
   -- ... Your other configuration ...
 end,
 },
-mapping = {
+mapping = cmp.mapping.preset.insert({
         ["<C-p>"] = cmp.mapping.select_prev_item(),
         ["<C-n>"] = cmp.mapping.select_next_item(),
        ['<C-d>'] = cmp.mapping.scroll_docs(-4),
@@ -889,24 +857,33 @@ mapping = {
         feedkey("<Plug>(vsnip-jump-prev)", "")
       end
     end, { "i", "s" }),
-}
+}),
+requires = {
+    {
+      'quangnguyen30192/cmp-nvim-tags',
+      -- if you want the sources is available for some file types
+      ft = {
+        'tex',
+        'latex' 
+      }
+    }
+    },
 -- ... Your other configuration ...
-" config = function()
-" sources = {
-"       -- For vsnip user. 
-" { name = 'vsnip', keyword_length = 1000 },
-" { name = 'tags' },
-" -- For ultisnips user.
-"       -- { name = 'ultisnips' },  
-" { name = 'buffer', keyword_length = 1000 },
-" { name = 'omni', keyword_length = 4},
-"        -- { name = 'spell' }, 
-" { name = 'nvim_lsp', keyword_length = 4 },
-"       --{ name = 'treesitter', keyword_length = 4 },
-" --{ name = 'latex_symbols' },
-" },
+sources = {
+      -- For vsnip user. 
+{ name = 'vsnip', keyword_length = 1000 },
+{ name = 'tags' },
+-- For ultisnips user.
+      -- { name = 'ultisnips' },  
+{ name = 'buffer', keyword_length = 1000 },
+{ name = 'omni', keyword_length = 4},
+       -- { name = 'spell' }, 
+{ name = 'nvim_lsp', keyword_length = 4 },
+      --{ name = 'treesitter', keyword_length = 4 },
+--{ name = 'latex_symbols' },
+},
 completion = {
-    autocomplete = false
+    autocomplete = false 
     }
 }
 EOF
@@ -1526,6 +1503,42 @@ if exists('g:gonvim_running')
 elseif exists('g:neovide')
    set guifont=Fira\ Code\ Light:h20
 end
+
+" lua <<EOF
+" -- Setup cmp.
+" -- Installation
+" use {
+"   'hrsh7th/nvim-cmp',
+"   requires = {
+"     {
+"       'quangnguyen30192/cmp-nvim-tags',
+"       -- if you want the sources is available for some file types
+"       ft = {
+"         'kotlin',
+"         'java'
+"       }
+"     }
+"   },
+" config = function ()
+"     require'cmp'.setup {
+"     sources = {
+"       { name = 'tags' },
+"      
+"     { name = 'vsnip', keyword_length = 1000 },
+" { name = 'tags' },
+" -- For ultisnips user.
+"       -- { name = 'ultisnips' },  
+" { name = 'buffer', keyword_length = 1000 },
+" { name = 'omni', keyword_length = 4},
+"        -- { name = 'spell' }, 
+" { name = 'nvim_lsp', keyword_length = 4 },
+"       --{ name = 'treesitter', keyword_length = 4 },
+" --{ name = 'latex_symbols' },
+" }
+" }
+" end
+" }
+
 " test test2
 " let g:autotagTagsFile="~/workspacemodules/tags"
 " let g:autotagFile="~/workspacemodules/tags"
