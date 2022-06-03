@@ -1,4 +1,4 @@
-$a=$args[0]
+$a=$args
 $var=(cat ~/servername.txt)
 $e="nvim --server " + "$var" + " --remote-send " + ':' + "$a" + '<cr>'
 echo $e
