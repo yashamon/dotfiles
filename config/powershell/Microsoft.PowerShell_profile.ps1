@@ -195,7 +195,5 @@ $Env:GDK_SCALE=2
 $Env:QT_QPA_PLATFORM="wayland"
 $Env:Path+=":/opt:$HOME/.config/sway/modules:$HOME/appimage:/home/linuxbrew/.linuxbrew/bin:/usr/local/bin:/usr/sbin:/sbin:/bin:$HOME/.local/bin:/root/.cabal/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:$HOME/.cabal/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:$HOME/.local/bin:$HOME/.local/bin/scripts:$HOME/.cargo/bin:/snap/bin:/data/data/com.termux/files/usr/bin/applets:/data/data/com.termux/files/usr/bin:bin:/usr/local/sbin:/usr/bin:$HOME/.local/share/nvim/lspinstall:$HOME/skia-binaries:$HOME/ninja:/home/yasha/.nix-profile:/home/yasha/dotfiles/scripts:/usr/bin:$HOME/dotfiles/scripts:$HOME/.local/bin/goneovim"
 Get-InstalledModule | foreach { ($_.Name, $_.Repository) > /home/yasha/dotfiles/PSmodules.text }
-Get-InstalledModule | ConvertTo-Json | foreach { $_ > /ho
-me/yasha/dotfiles/PSmodules.json }
-# $Env:Path="/home/yasha/dotfiles/scripts:/usr/bin:$HOME/dotfiles/scripts:$HOME/.local/bin"
-# 
+Get-InstalledModule | ConvertTo-Json | foreach { $_ > /home/yasha/dotfiles/PSmodules.json } 
+# $Env:Path="/home/yasha/dotfiles/scripts:/usr/bin:$HOME/dotfiles/scripts:$HOME/.local/bin" # 
