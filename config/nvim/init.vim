@@ -605,9 +605,12 @@ function GitAsync()
   silent te if ( (git rev-parse --is-inside-work-tree) -and (git rev-parse --git-dir) ) { git add . ; git commit -m -a ; git push --all origin }
 endfunction
   
-" AsyncRun -silent if git rev-parse --is-inside-work-tree || git rev- parse --git-dir > /dev/null 2>&1 ; then git add . ; git commit -m -a ; git push --all origin; fi 
-te if ( (git rev-parse --is-inside-work-tree) -and (git rev-parse --git-dir) ) { git add . ; git commit -m -a ; git push --all origin }
-endfunction
+" " AsyncRun -silent if git rev-parse --is-inside-work-"tree 
+"|| git rev- parse --git-dir > /dev/null 2>&1 ; then git "add 
+". ; git commit -m -a ; git push --all origin; "fi  */
+" te if ( (git rev-parse --is-inside-work-tree) -and (git 
+"rev-parse --git-dir) ) { git add . ; git commit -m -a ; "git push --all origin } */
+" endfunction */
 
 function ToggleQuickFix()
       if empty(filter(getwininfo(), 'v:val.quickfix'))
