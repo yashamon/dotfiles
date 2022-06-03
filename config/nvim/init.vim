@@ -652,6 +652,7 @@ endfunction
 
 function! ViewPdf() 
 wa
+let g:buffmain=bufname()
 silent execute "!echo " . v:servername . " > ~/servername.txt"
 let buf = bufname()
 let linenumber=line(".")
