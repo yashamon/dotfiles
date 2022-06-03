@@ -9,7 +9,7 @@
 !_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
 !_TAG_PROGRAM_URL	https://ctags.io/	/official site/
 !_TAG_PROGRAM_VERSION	5.9.0	//
-EDITOR	Microsoft.PowerShell_profile.ps1	/^$Env:EDITOR = "neo"$/;"	v
+EDITOR	Microsoft.PowerShell_profile.ps1	/^$Env:EDITOR = "Invoke-Expression (which goneovim)"$/;"	v
 GDK_SCALE	Microsoft.PowerShell_profile.ps1	/^$Env:GDK_SCALE=2 $/;"	v
 Jumphome	Microsoft.PowerShell_profile.ps1	/^Function Jumphome {fdfind . $HOME -t d -H | fzf | cd}$/;"	f
 OnViModeChange	Microsoft.PowerShell_profile.ps1	/^function OnViModeChange {$/;"	f

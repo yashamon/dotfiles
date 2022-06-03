@@ -73,7 +73,7 @@ function OnViModeChange {
 Set-PSReadLineOption -ViModeIndicator Script -ViModeChangeHandler $Function:OnViModeChange
 
 # Environmental variables
-$Env:EDITOR = "neo"
+$Env:EDITOR = "Invoke-Expression (which goneovim)"
 
 # various binding functions
 # 
