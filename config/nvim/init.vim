@@ -860,7 +860,7 @@ mapping = {
 },
 requires = {
     {
-      'quangnguyen30192/cmp-nvim-',
+      'quangnguyen30192/cmp-nvim-tags',
       -- if you want the sources is available for some file types
       ft = {
         'tex',
