@@ -829,8 +829,10 @@ cmp.setup {
   -- ... Your other configuration ...
 end,
 },
-mapping = {
-      ['<C-d>'] = cmp.mapping.scroll_docs(-4),
+mapping = cmp.mapping.preset.insert({
+        ["<C-p>"] = cmp.mapping.select_prev_item(),
+        ["<C-n>"] = cmp.mapping.select_next_item(),
+       ['<C-d>'] = cmp.mapping.scroll_docs(-4),
       ['<C-f>'] = cmp.mapping.scroll_docs(4),
       ['<C-x>'] = cmp.mapping.complete(),
       ['<C-e>'] = cmp.mapping.close(),
@@ -871,8 +873,6 @@ requires = {
 -- ... Your other configuration ...
 sources = {
       -- For vsnip user. 
-
-{ name = '', keyword_length = 1000 },
 { name = 'vsnip', keyword_length = 1000 },
 { name = 'tags' },
 -- For ultisnips user.
