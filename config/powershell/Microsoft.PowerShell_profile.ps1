@@ -30,7 +30,7 @@ Set-PSReadLineOption -PredictionSource History
 # Bindings and aliases
 Set-PSReadlineKeyHandler -Key UpArrow -Function HistorySearchBackward
 Set-PSReadlineKeyHandler -Key DownArrow -Function HistorySearchForward
-Set-PSReadlineKeyHandler -Chord Alt+k -Function HistorySearchBackward 
+# Set-PSReadlineKeyHandler -Chord Alt+k -Function HistorySearchBackward 
 Set-PSReadlineKeyHandler -Chord Alt+j -Function HistorySearchForward
 Set-PSReadLineKeyHandler -Chord Alt+a -Function AcceptSuggestion # Function Invoke-PreJump() { # funct ho=fdfind . $HOME -t d -H | fzf
 # [Microsoft.PowerShell.PSConsoleReadLine]::Insert($ho)
@@ -39,7 +39,8 @@ Set-Alias j Invoke-Zlocation
 Set-Alias lualatexscript /home/yasha/dotfiles/scripts/lualatexscript.ps1
 function neo($1) {
    $neo="(which goneovim)"+" $1"
-Invoke-Expression $neo }
+Invoke-Expression $neo 
+}
 # /home/yasha/.local/bin/goneovim/goneovim
 # Set-PSReadLineKeyHandler -Chord Alt+j -ScriptBlock { Invoke-PreJump }
 Set-PSReadLineKeyHandler -Key 'y' -Function Copy -ViMode Command
