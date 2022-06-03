@@ -1,5 +1,4 @@
-#!/bin/opt/microsoft/powershell/7/pwsh
-
+#!/bin/pwsh
 $a=$args
 echo $a
 $var=(cat ~/servername.txt)
