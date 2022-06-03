@@ -601,8 +601,8 @@ noremap LL :lua require("zen-mode").close()<cr>:call Sentence()<cr>
 " noremap L :TZAtaraxisOff<cr><cr>:call Sentence()<cr>
 function GitAsync()
   let g:bufdude = bufname()
-  silent te if ( (git rev-parse --is-inside-work-tree) -and (git rev-parse --git-dir) ) { git add . ; git commit -m -a ; git push --all origin }
-  execute "buffer" bufdude
+ silent te if ( (git rev-parse --is-inside-work-tree) -and (git rev-parse --git-dir) ) { git add . ; git commit -m -a ; git push --all origin } 
+ execute "buffer" bufdude 
 endfunction
   
 " " AsyncRun -silent if git rev-parse --is-inside-work-"tree 
