@@ -170,6 +170,7 @@ autocmd BufReadPost * if @% !~# '\.git[\/\\]COMMIT_EDITMSG$' && line("'\"") > 1 
 au VIMEnter * let g:surround_108 = {
      \'q':  " ``\r''"
      \ }
+au VIMEnter * let g:buffmain=echo buffname()
 let g:tex_flavor = "latex"
 let g:tex_isk = '@,48-57,58,_,192-255,:' 
 au FileType tex setlocal iskeyword+=:
