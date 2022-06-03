@@ -30,11 +30,9 @@ Set-PSReadLineOption -PredictionSource History
 # Bindings and aliases
 Set-PSReadlineKeyHandler -Key UpArrow -Function HistorySearchBackward
 Set-PSReadlineKeyHandler -Key DownArrow -Function HistorySearchForward
-Set-PSReadlineKeyHandler -Chord Alt+k -Function HistorySearchBackward
+Set-PSReadlineKeyHandler -Chord Alt+k -Function HistorySearchBackward 
 Set-PSReadlineKeyHandler -Chord Alt+j -Function HistorySearchForward
-Set-PSReadLineKeyHandler -Chord Alt+a -Function AcceptSuggestion 
-# Function Invoke-PreJump() {
-# funct ho=fdfind . $HOME -t d -H | fzf
+Set-PSReadLineKeyHandler -Chord Alt+a -Function AcceptSuggestion # Function Invoke-PreJump() { # funct ho=fdfind . $HOME -t d -H | fzf
 # [Microsoft.PowerShell.PSConsoleReadLine]::Insert($ho)
 # }
 Set-Alias j Invoke-Zlocation
@@ -76,11 +74,8 @@ function OnViModeChange {
 Set-PSReadLineOption -ViModeIndicator Script -ViModeChangeHandler $Function:OnViModeChange
 
 # Environmental variables
-$Env:EDITOR = "Invoke-Expression (which goneovim)"
+$Env:EDITOR = (which goneovim)
 # various binding functions
-# 
-# 
-# 
 # 
 function vrc { neo $HOME\dotfiles\config\nvim\init.vim }
 function lfrc { neo $HOME\dotfiles\config\lf\lfrc } 
