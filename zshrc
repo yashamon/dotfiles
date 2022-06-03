@@ -1,15 +1,11 @@
 if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]; then
 source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
 fi 
-
+source ~/dotfiles/completion.zsh
 export MOZ_ENABLE_WAYLAND=1 firefox
 
 bindkey -rpM viins '\e'
 eval "$(fasd --init auto)"
-#
-
-# alias nvim="/snap/bin/nvim"   
-# alias uapp="~/appimage/AppImageUpdate"
 alias rot="xrandr -o"  
 alias fd="fdfind"
 alias p="paru"
@@ -18,27 +14,27 @@ alias mod="xmodmap ~/.Xmodmap"
 alias tmux d="tmux detach" 
 alias svi="/snap/bin/nvim"
 
-alias swrc="cd ~/dotfiles/config/sway/; neo config" 
-alias lfrc="cd ~/dotfiles/config/lf; neo lfrc"
+alias swrc="neo ~/dotfiles/config/sway/config" 
+alias lfrc="neo  ~/dotfiles/config/lf/lfrc"
 # alias ls="lf" 
 alias texi="pdflatex -file-line-error -synctex=1  -interaction=nonstopmode -recorder" 
 alias latexi="latexmk -g -pdf -file-line-error -synctex=1  -interaction=nonstopmode -recorder -f"
 alias pvc="latexmk -pdf -pvc -file-line-error -synctex=1  -interaction=nonstopmode -recorder -f"
 alias lat="latexmk -pvc -pdf -file-line-error -synctex=1 -interaction=nonstopmode -recorder -f -g"
 
-alias pushmod="git submodule foreach git add .; git submodule foreach git commit -m -a; 
-git submodule foreach git push origin master; git add .; git commit -m -a; git push --all origin "
-alias push="git add .; git commit -m -a; git push --all origin"
-alias pull="git pull --recurse-submodules; git submodule update --recursive --remote"
-alias pullmaster="git pull --recurse-submodules; git submodule update --recursive --remote; git submodule foreach git checkout master; git submodule foreach git pull --all"
+alias pushmod="git submodule foreach git add . && git submodule foreach git commit -m -a && 
+git submodule foreach git push origin master; git add . && git commit -m -a; git push --all origin "
+alias push="git add . && git commit -m -a && git push --all origin"
+alias pull="git pull --recurse-submodules && git submodule update --recursive --remote"
+alias pullmaster="git pull --recurse-submodules && git submodule update --recursive --remote && git submodule foreach git checkout master && git submodule foreach git pull --all"
 alias check="git checkout" 
-alias pushgh="pandoc index.md > index.html ; git add .; git commit -m -a; git push origin gh-pages"
+alias pushgh="pandoc index.md > index.html && git add . && git commit -m -a && git push origin gh-pages"
 alias pandocd="pandoc index.md > index.html"
 
 # <<<<<<< HEAD
 # alias hw="pandoc ~/web/classes/topology/topology2019.md > ~/web/classes/topology/topology2019.html; pandoc ~/web/CalcIII2019/analysis.md > ~/web/CalcIII2019/analysis.html; git add .; git commit -m -a; git push origin gh-pages"
 # =======
-alias hw="pandoc ~/web/classes/Spivak/hw2022.md > ~/web/classes/Spivak/hw2022.html; pandoc ~/web/classes/LinearAlgebra/hw2022.md  > ~/web/classes/LinearAlgebra/hw2022.html; cd ~/web; git add . ;git commit -m -a; git push origin gh-pages"
+alias hw="pandoc ~/web/classes/Spivak/hw2022.md > ~/web/classes/Spivak/hw2022.html && pandoc ~/web/classes/LinearAlgebra/hw2022.md  > ~/web/classes/LinearAlgebra/hw2022.html && cd ~/web && git add .  && git commit -m -a && git push origin gh-pages"
 alias attach="tmux attach"
 # alias pdf="xpdf -geometry 1920x1080 -fullscreen"
 # alias pdf="mupdf"
@@ -50,12 +46,12 @@ alias j="z"
 # alias fzf="/root/dotfiles\vim\bundle\fzf"
 alias pcm="sudo pacman"
 alias spcm="sudo pacman"
-alias zrc="cd ~/dotfiles; neo zshrc"
+alias zrc="neo ~/.zshrc"
 alias pac="sudo packer"
 alias cprc="cp /root/.zshrc /home/yasha/.zshrc"
 alias pacup="packer -Syu --devel"
 # alias vifm='source ~/bin/vf'
-alias vrc="cd ~/dotfiles/config/nvim; neo init.vim" 
+alias vrc="neo ~/dotfiles/config/nvim/init.vim"
 alias snips="vi /root/dotfiles/vim/bundle/vim-snippets/UltiSnips/tex.snippets"
 alias src="source ~/.zshrc"
 #alias mux="tmux -f ~/.tmux-conf"
@@ -67,9 +63,23 @@ alias suru="su root; a"
 alias rec="recoll -q"
 alias vi="nvim"   
 alias ping="ping www.google.com"
-alias gone="$HOME/.local/bin/goneovim" 
-alias neo="$HOME/.local/bin/goneovim"
-alias neov="neovide --frameless --maximized --multigrid"
+alias gone="$HOME/.local/bin/goneovim/goneovim" 
+alias goneovim="$HOME/.local/bin/goneovim/goneovim"
+function neof {
+ho=$(fdfind . $HOME -t f -H | fzf)
+echo $ho
+neo $ho 
+}
+function launch() {
+  local type="$1"; shift;
+  case "$type" in
+    (q) "$@" >/dev/null 2>&1     ;;   # (q)uiet
+    (b) "$@" >/dev/null 2>&1 &   ;;   # quiet+(b)ackground
+    (d) "$@" >/dev/null 2>&1 &!  ;;   # quiet+(d)isown
+  esac
+}
+alias neo="launch d $HOME/.local/bin/goneovim/goneovim"
+alias neov="neovide --frame NONE --maximized --wsl"
 # alias update="git submodule update --init --recursive ; git pull origin master"
 alias res="xrandr --newmode "1920x1080_60.00"  173.00  1920 2048 2248 2576  1080 1083 1088 1120; xrandr --addmode eDP-1 "1920x1080_60.00";
 xrandr -s 1920x1080"
@@ -130,7 +140,7 @@ pulseaudio --start"
 alias send=sendFunction
 alias tff="xinput disable 13"
 alias ton="xinput enable 13"
-alias ubuntu="sudo apt-get update; sudo apt-get upgrade"
+alias ubuntu="sudo apt-get update && sudo apt-get upgrade -y"
 alias arch="sudo pacman -Sy archlinux-keyring && pacman -Su"
 # set dual monitors
 dual () {
@@ -279,11 +289,13 @@ zinit for \
     light-mode depth"1" \
                 romkatv/powerlevel10k 
 zinit light softmoth/zsh-vim-mode   
-zinit ice wait'0'
+# zinit light Aloxaf/fzf-tab
 zinit light kutsan/zsh-system-clipboard
 zinit light wookayin/fzf-fasd
 zinit ice wait'0'
+zinit light Aloxaf/fzf-tab
 zinit ice light b4b4r07/enhancd
+
 # zinit ice wait'0'
 # zinit light wfxr/forgit
 zinit ice wait"0b" lucid atload'bindkey "$terminfo[kcuu1]" history-substring-search-up; bindkey "$terminfo[kcud1]" history-substring-search-down'
@@ -295,6 +307,7 @@ bindkey -M vicmd 'j' history-substring-search-down
 
 bindkey -M vicmd '<right>' autosuggest-accept 
 bindkey -M vicmd 'E' autosuggest-execute
+bindkey -M vicmd 'd,d' delete-line
 
 zinit ice from"gh-r" as"program" bpick"*appimage*" ver"nightly" mv"nvim* -> $HOME/appimage/nvim" pick"nvim"
 zinit light neovim/neovim  
@@ -556,7 +569,7 @@ export XDG_CONFIG_HOME=$HOME/.config
 # export MANPATH="/usr/local/man:$MANPATH"
 # You may need to manually set your language environment
 export LANG=en_US.UTF-8  
-export PATH="$HOME/.config/sway/modules:$HOME/appimage:/home/linuxbrew/.linuxbrew/bin:/usr/local/bin:/usr/sbin:/sbin:/bin:$HOME/.local/bin:/root/.cabal/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:$HOME/.cabal/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:$HOME/.local/bin:$HOME/.local/bin/scripts:$HOME/.cargo/bin:/snap/bin:/data/data/com.termux/files/usr/bin/applets:/data/data/com.termux/files/usr/bin:bin:/usr/local/sbin:/usr/bin:$HOME/.local/share/nvim/lspinstall:$HOME/skia-binaries:$HOME/ninja"
+export PATH="/opt:$HOME/.config/sway/modules:$HOME/appimage:/home/linuxbrew/.linuxbrew/bin:/usr/local/bin:/usr/sbin:/sbin:/bin:$HOME/.local/bin:/root/.cabal/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:$HOME/.cabal/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:$HOME/.local/bin:$HOME/.local/bin/scripts:$HOME/.cargo/bin:/snap/bin:/data/data/com.termux/files/usr/bin/applets:/data/data/com.termux/files/usr/bin:bin:/usr/local/sbin:/usr/bin:$HOME/.local/share/nvim/lspinstall:$HOME/skia-binaries:$HOME/ninja:/home/yasha/.nix-profile"
 if [[ -n $SSH_CONNECTION ]]; then
    export EDITOR='nvim'
  else
@@ -564,4 +577,24 @@ if [[ -n $SSH_CONNECTION ]]; then
  fi
 export vi="neovide" 
 
-if [ -e /home/yasha/.nix-profile/etc/profile.d/nix.sh ]; then . /home/yasha/.nix-profile/etc/profile.d/nix.sh; fi # added by Nix installer
+if [ -e /home/yasha/.nix-profile/etc/profile.d/nix.sh ]; then . /home/yasha/.nix-profile/etc/profile.d/nix.sh; fi # added by Nix installer 
+export QT_SCALE_FACTOR=2 
+export GDK_SCALE=2 
+export QT_QPA_PLATFORM=wayland
+# disable sort when completing `git checkout`
+zstyle ':completion:*:git-checkout:*' sort false
+# set descriptions format to enable group support
+zstyle ':completion:*:descriptions' format '[%d]'
+# set list-colors to enable filename colorizing
+zstyle ':completion:*' list-colors ${(s.:.)LS_COLORS}
+# preview directory's content with exa when completing cd
+zstyle ':fzf-tab:complete:cd:*' fzf-preview 'exa -1 --color=always $realpath'
+# switch group using `,` and `.`
+zstyle ':fzf-tab:*' switch-group ',' '.'
+zinit light lincheney/fzf-tab-completion
+bindkey '^I' fzf_completion
+# only for git
+zstyle ':completion:*:*:git:*' fzf-search-display true
+# or for everything
+zstyle ':completion:*' fzf-search-display true
+

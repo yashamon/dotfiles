@@ -72,7 +72,7 @@ StartFullscreen = true
 # DisableLigatures = true
 
 ## Copy yanked text to clipboard
-Clipboard = true
+Clipboard = true 
 
 ## This setting is equivalent to Macmeta in MacVim.
 # Macmeta = true

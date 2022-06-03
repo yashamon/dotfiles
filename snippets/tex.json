@@ -13,6 +13,22 @@
        ],
     "description": "NFuk"
     },  
+ "bracket plus minus": {
+    "prefix": "bpm",
+    "body": [
+        "\\{\\pm \\} $0"
+       ],
+    "description": "BHam"
+    },  
+   
+"plus minus": {
+    "prefix": "pm",
+    "body": [
+        "\\pm $0"
+       ],
+    "description": "BHam"
+    },  
+
 "BHam": {
     "prefix": "bham",
     "body": [
@@ -82,6 +98,14 @@
     "description": "image"
     },  
 
+"tensor times": {
+    "prefix": "ot",
+    "body": [
+        "\\otimes $0"
+       ],
+    "description": "tensor times"
+    },  
+
 "times": {
     "prefix": "t",
     "body": [
@@ -138,8 +162,7 @@
     "description": "subset"
     }, 
 
-
-  "Align(ed)": {
+"Align(ed)": {
     "prefix": "ali",
     "body": [
         "\\begin{align}",
@@ -231,9 +254,21 @@
       "$0"
       ],
     "description": "proposition"
-  }, 
+  },  
+"question": {
+    "prefix": "question",
+    "body": [
+      "\\begin{question}", 
+      "\t\\label{question:$1}", 
+      "$2", 
+      "\\end{question}",
+      "$0"
+   ],
+    "description": "question"
+  },
+
 "remark": {
-    "prefix": "rem",
+    "prefix": "remark",
     "body": [
       "\\begin{remark}", 
       "\t\\label{remark:$1}", 
@@ -418,7 +453,7 @@
     "description": "Tabular"  
   },
   "\\begin{}…\\end{}": {
-    "prefix": "b",
+    "prefix": ["b", "begin"],
     "body": [
       "\\\\begin{${1:env}}",
       "\t${2/(enumerate|itemize|list)|(description)|.*/(?1:\\item )(?2:\\item)/}$0",
@@ -667,6 +702,13 @@
     ],
     "description": "field S"
   },
+"pi": {
+    "prefix": "pi",
+    "body": [
+  "\\pi _{$1} $0"
+    ],
+    "description": "field Q"
+  },
 
 "field Q": {
     "prefix": "fQ",
@@ -707,13 +749,29 @@
     ],
     "description": "labeled arrow"
   },
+"proves": {
+    "prefix": ["vdash", "proves", "pr"],
+    "body": [
+      "\\vdash $0"
+    ],
+    "description": "proves"
+  },
+
 "mapsto": {
-    "prefix": "mto",
+    "prefix": ["mto", "mapsto", "maps"],
     "body": [
       "\\mapsto $0"
     ],
     "description": "mapsto"
   },
+ "vee": {
+    "prefix": "v",
+    "body": [
+      "\\vee $0"
+    ],
+    "description": "mapsto"
+  },
+  
 "bold": {
     "prefix": "bf",
     "body": [
@@ -759,13 +817,21 @@
     ],
     "description": "ie"
   },
+  
+"logical and": {
+    "prefix": "land",
+    "body": [
+      "\\land $0"
+    ],
+    "description": "and"
+  },
 
 "and": {
     "prefix": "and",
     "body": [
       "& $0"
     ],
-    "description": "mapsto"
+    "description": "and"
   },
     "Large Summation": {
         "prefix": ["bigsum", "\\sumlarge"],
@@ -844,7 +910,7 @@
         "description": "Insert inline integral notation, (only in the cases when the environment is inline math environment)."
     },
     "Inline Fraction": {
-        "prefix": ["fr", "\\fractioninline"],
+        "prefix": ["fr", "frac"],
         "body": ["\\frac{$1}{$2}$0"],
         "description": ["Insert inline fraction notation, (only in the cases when the environment is inline math environment)."]
     }, 
@@ -987,6 +1053,13 @@
     ],
     "description": "Delta d-simplex"
   },
+"Delta d-simplex bullet": {
+    "prefix": ["Ddb"],
+    "body": [
+      "\\Delta^{$1} _{\bullet} $0"
+    ],
+    "description": "Delta d-simplex bullet"
+  },   
 
 "Delta d-simplex": {
     "prefix": ["Dd"],
@@ -1017,6 +1090,13 @@
       "\\mathcal{X} $0"
     ],
     "description": "cal X"
+  },
+"caligraphic H": {
+    "prefix": ["cH"],
+    "body": [
+      "\\mathcal{H} $0"
+    ],
+    "description": "cal H"
   },
 
 "caligraphic G": {
@@ -1082,6 +1162,21 @@
       "\\mathcal{C} $0"
     ],
     "description": "cal C"
+  },
+  "caligraphic N": {
+    "prefix": ["cN"],
+    "body": [
+      "\\mathcal{N} $0"
+    ],
+    "description": "cal N"
+  },
+
+"caligraphic I": {
+    "prefix": ["cI"],
+    "body": [
+      "\\mathcal{I} $0"
+    ],
+    "description": "cal I"
   },
 
 "caligraphic A": {
@@ -1301,11 +1396,7 @@
   },
 
 
-"Large Fraction": {
-        "prefix": ["fractionlarge", "\\fractionlarge"],
-        "body": ["\\displaystyle\\frac{$1}{$2}$0"],
-        "description": ["Insert large fraction notation"]
-    },
+
 "Template": {
         "prefix": ["template"],
         "body": ["\\documentclass{amsart}",  

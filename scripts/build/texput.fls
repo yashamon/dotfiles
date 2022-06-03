@@ -1,0 +1,3 @@
+PWD /home/yasha/dotfiles/scripts
+INPUT /var/lib/texmf/web2c/luahbtex/lualatex.fmt
+OUTPUT buildback/texput.log

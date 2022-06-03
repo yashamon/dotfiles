@@ -1,0 +1,2 @@
+lualatexscript @args
+

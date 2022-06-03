@@ -1,145 +1,122 @@
 call plug#begin('~/.vim/plugged')   
 Plug 'folke/zen-mode.nvim', { 'branch': 'main' } 
-Plug 'rebelot/kanagawa.nvim'
-" Plug 'reedes/vim-pencil' 
-" Plug 'folke/which-key.nvim', { 'branch': 'main' }
-" Plug 'folke/zen-mode.nvim', {  'branch': 'main' } 
-Plug 'lewis6991/spellsitter.nvim'
-" Plug 'radenling/vim-dispatch-neovim'  
-" Plug 'tpope/vim-dispatch'
-Plug 'sheerun/vim-polyglot' 
 Plug 'ibhagwan/fzf-lua', { 'branch': 'main' }
 Plug 'vijaymarupudi/nvim-fzf'
 Plug 'kyazdani42/nvim-web-devicons'
-" Plug 'dvdsk/prosesitter',  { 'branch': 'main' }
 Plug 'metalelf0/nvim-floatedit',  { 'branch': 'main' }
-" Plug 'AckslD/nvim-neoclip.lua', { 'branch': 'main' }
 Plug 'phaazon/hop.nvim'    
-" Plug 'https://gitlab.com/yorickpeterse/nvim-dd.git',  { 'branch': 'main' }
-" Plug 'luukvbaal/stabilize.nvim' 
 Plug 'glacambre/firenvim', { 'do': { _ -> firenvim#install(0) } }
 Plug 'is0n/fm-nvim'
 Plug 'williamboman/nvim-lsp-installer', { 'branch': 'main' }
-Plug 'nvim-lua/plenary.nvim'
-" Plug 'nvim-telescope/telescope.nvim',
-" Plug 'nvim-treesitter/playground'
 Plug 'famiu/feline.nvim'
-" Plug 'hoob3rt/lualine.nvim',
-" Plug 'karb94/neoscroll.nvim'
-" Plug 'folke/twilight.nvim', { 'branch': 'main' }
-" Plug 'f3fora/cmp-spell'    
-" Plug 'Pocco81/TrueZen.nvim', { 'branch': 'main' }
-"Plug 'vim-commentary'
-"Plug 'b3nj5m1n/kommentary'
-" Plug 'simnalamburt/vim-mundo'
-" Plug 'neovim/nvim-lspconfig',  { 'branch': 'main' } 
-" Plug 'glepnir/lspsaga.nvim'
-" If you are using Vim-Plug
-Plug 'hrsh7th/cmp-nvim-lsp', { 'branch': 'main' } 
-" Plug 'kdheepak/cmp-latex-symbols', { 'branch': 'main' } 
-Plug 'hrsh7th/cmp-buffer', { 'branch': 'main' }
 Plug 'hrsh7th/nvim-cmp', { 'branch': 'main' }
 Plug 'hrsh7th/cmp-vsnip', { 'branch': 'main' } 
 Plug 'hrsh7th/vim-vsnip'
 Plug 'hrsh7th/vim-vsnip-integ'
-Plug 'quangnguyen30192/cmp-nvim-tags',  { 'branch': 'main' } 
-" Plug 'ray-x/cmp-treesitter'
-" For luasnip user. 
-Plug 'L3MON4D3/LuaSnip'
-" Plug 'saadparwaiz1/cmp_luasnip'
-"Plug 'steelsojka/completion-buffers'
+Plug 'quangnguyen30192/cmp-nvim-',  { 'branch': 'main' }  
 Plug 'voldikss/vim-floaterm'
-" Plug 'kabouzeid/nvim-lspinstall', { 'branch': 'main' }
-"Plug 'pope/vim-obsession'
-"Plug 'xolox/vim-easytags'
-" Plug 'nvim-lua/plenary.nvim'
-" Plug 'windwp/nvim-spectre'
-" Plug 'xolox/vim-misc'
+Plug 'voldikss/vim-floaterm'
 Plug 'terrortylor/nvim-comment', { 'branch': 'main' }
-" Plug 'kevinhwang91/nvim-bqf'
-Plug 'justinhoward/fzf-neoyank' 
-" Plug 'svermeulen/vim-cutlass'
-Plug 'kyazdani42/nvim-web-devicons' " for file icons
-" Plug 'kyazdani42/nvim-tree.lua', 
-"Plug 'nvim-lua/completion-nvim'
-Plug 'hrsh7th/vim-vsnip-integ'
-Plug 'neovim/nvim-lspconfig'
-" Plug 'nvim-lua/diagnostic-nvim'
-" Plug 'rafamadriz/friendly-snippets'  
-" Make sure you use single quotes
-" Shorthand notation; fetches https://github.com/junegunn/vim-easy-align
-" Plug 'junegunn/vim-easy-align'
-" Any valid git URL is allowed
-" Plug 'https://github.com/junegunn/vim-github-dashboard.git'
-" Group dependencies, vim-snippets depends on ultisnips 
- " Plug 'tpope/vim-surround'
-" Plug 'neovim/node-host'
-Plug 'projekt0n/github-nvim-theme',  { 'branch': 'main' }
-Plug 'rktjmp/lush.nvim', { 'branch': 'main' } 
+Plug 'justinhoward/fzf-neoyank'  
 Plug 'rakr/vim-one' 
-" Plug 'cyansprite/Extract'
-Plug 'gioele/vim-autoswap'
-Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'} 
-" Plug 't9md/vim-smalls'
-Plug 'skywind3000/asyncrun.vim'
-Plug 'kevinhwang91/nvim-bqf', { 'branch': 'main' }
-" if you install fzf as system package like `pacman -S fzf` in ArchLinux,
-" please comment next line
-Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
-" Plug 'sindrets/diffview.nvim', { 'branch': 'main' } 
-" Plug 'rmagatti/auto-session',  { 'branch': 'main'}
-" Plug 'justinmk/vim-sneak'
+Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}  
 Plug 'Shougo/neoyank.vim' 
-" if has('nvim')
-"    Plug 'Shougo/denite.nvim', { 'do': ':UpdateRemotePlugins' }
-"  else
-"    Plug 'Shougo/denite.nvim'
-"    Plug 'roxma/nvim-yarp'
-"    Plug 'roxma/vim-hug-neovim-rpc'
-"  endif
-" Plug 'SirVer/ultisnips'  a;sldfkjsfls jfkj
-" Plug 'tpope/vim-fugitive'
-Plug 'eugen0329/vim-esearch'
-Plug 'haya14busa/incsearch.vim'
-Plug 'haya14busa/incsearch-fuzzy.vim'
-Plug 'Raimondi/vim_search_objects'
-" Plug 'terryma/vim-multiple-cursors'
-" " On-demand loading
-" Plug 'junegunn/goyo.vim'
-" " Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
-"  Plug 'morhetz/gruvbox'
-Plug 'sainnhe/gruvbox-material'
-" Plug 'vim-pandoc/vim-pandoc'
-" Plug 'vim-pandoc/vim-pandoc-syntax' 
-" Plugin outside ~/.vim/plugged with post-update hook
-Plug 'junegunn/fzf', { 'do': './install --all' }
+Plug 'Shougo/denite.nvim', { 'do': ':UpdateRemotePlugins' } 
+Plug 'skywind3000/asyncrun.vim'         
+Plug 'junegunn/fzf', { 'do': { -> fzf#install() } } 
+Plug 'neovim/nvim-lspconfig',  { 'branch': 'main' } 
 Plug 'junegunn/fzf.vim'
 Plug 'mbbill/undotree', { 'on': 'UndotreeToggle' }
- '}
-Plug 'lifepillar/vim-solarized8'
-Plug 'vim-scripts/AutoTag'
-Plug 'vim-scripts/vim-auto-save'
-" Plug 'vim-pandoc/vim-pandoc'
+" Plug 'xolox/vim-misc'
+" Plug 'vim-scripts/AutoTag'
+" Plug 'xolox/vim-easy'
 
-" Plug 'yashamon/vim-snippets'
-
-" Plug 'lervag/vimtex'
-" colorschemes
-" 
-Plug 'kyazdani42/blue-moon'  
-Plug 'marko-cerovac/material.nvim', { 'branch': 'main' }
-
-Plug 'reedes/vim-colors-pencil'
-
-Plug 'vim-scripts/oceanlight'
-
-Plug 'gosukiwi/vim-atom-dark'
-
-Plug 'dracula/vim'
-
+" Plug 'rebelot/kanagawa.nvim'
+" Plug 'reedes/vim-pencil' 
+" Plug 'folke/which-key.nvim', { 'branch': 'main' }
+" Plug 'folke/zen-mode.nvim', {  'branch': 'main' } 
+" Plug 'lewis6991/spellsitter.nvim'
+" Plug 'radenling/vim-dispatch-neovim'  
+" Plug 'tpope/vim-dispatch'
+" Plug 'sheerun/vim-polyglot' 
+" Plug 'https://gitlab.com/yorickpeterse/nvim-dd.git',  { 'branch': 'main' }
+" Plug 'luukvbaal/stabilize.nvim' 
+" Plug 'nvim-lua/plenary.nvim'
+" Plug 'nvim-telescope/telescope.nvim',
+" Plug 'nvim-treesitter/playground
+" Plug 'Pocco81/TrueZen.nvim', { 'branch': 'main' }
+" Plug 'glepnir/lspsaga.nvim'
+" If you are using Vim-Plug
+" Plug 'hrsh7th/cmp-nvim-lsp', { 'branch': 'main' } 
+" " Plug 'kdheepak/cmp-latex-symbols', { 'branch': 'main' } 
+" Plug 'hrsh7th/cmp-buffer', { 'branch': 'main' }
+" " Plug 'kabouzeid/nvim-lspinstall', { 'branch': 'main' }
+" "Plug 'pope/vim-obsession'
+" " Plug 'nvim-lua/plenary.nvim'
+" " Plug 'windwp/nvim-spectre'
+" " Plug 'ray-x/cmp-treesitter'
+" " For luasnip user. 
+" Plug 'L3MON4D3/LuaSnip'
+" " Plug 'saadparwaiz1/cmp_luasnip'
+" "Plug 'steelsojka/completion-buffers'
+" " Plug 'neovim/node-host'
+" Plug 'projekt0n/github-nvim-theme',  { 'branch': 'main' }
+" Plug 'rktjmp/lush.nvim', { 'branch': 'main' }
+" " Plug 'cyansprite/Extract'
+" Plug 'gioele/vim-autoswap'
+" " Plug 't9md/vim-smalls'
+" Plug 'kevinhwang91/nvim-bqf', { 'branch': 'main' }
+" " if you install fzf as system package like `pacman -S fzf` in ArchLinux,
+" " please comment next line
+" " Plug 'sindrets/diffview.nvim', { 'branch': 'main' } 
+" " Plug 'rmagatti/auto-session',  { 'branch': 'main'}
+" " Plug 'justinmk/vim-sneak'
+" " Plug 'SirVer/ultisnips'  
+" " Plug 'tpope/vim-fugitive'
+" Plug 'eugen0329/vim-esearch'
+" Plug 'haya14busa/incsearch.vim'
+" Plug 'haya14busa/incsearch-fuzzy.vim'
+" Plug 'Raimondi/vim_search_objects'
+" " Plug 'terryma/vim-multiple-cursors'
+" " " On-demand loading
+" " Plug 'junegunn/goyo.vim'
+" " " Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
+" "  Plug 'morhetz/gruvbox'
+" Plug 'sainnhe/gruvbox-material'
+" " Plug 'vim-pandoc/vim-pandoc'
+" " Plug 'vim-pandoc/vim-pandoc-syntax' 
+" " Plugin outside ~/.vim/plugged with post-update hook
+" Plug 'junegunn/fzf', { 'do': './install --all' }
+"  '}
+" Plug 'lifepillar/vim-solarized8'
+" " Plug 'vim-scripts/vim-auto-save'
+" " Plug 'vim-pandoc/vim-pandoc'
+"
+" " Plug 'yashamon/vim-snippets'
+" " colorschemes
+" " 
+" Plug 'kyazdani42/blue-moon'  
+" Plug 'marko-cerovac/material.nvim', { 'branch': 'main' }
+"
+" Plug 'reedes/vim-colors-pencil'
+"
+" Plug 'vim-scripts/oceanlight'
+"
+" Plug 'gosukiwi/vim-atom-dark'
+"
+" Plug 'dracula/vim'
+" " Plug 'kevinhwang91/nvim-bqf'
+" " Plug 'svermeulen/vim-cutlass'
+" Plug 'kyazdani42/nvim-web-devicons' " for file icons
+" " Plug 'kyazdani42/nvim-tree.lua', 
+" "Plug 'nvim-lua/completion-nvim'
+" Plug 'neovim/nvim-lspconfig'
+" " Plug 'nvim-lua/diagnostic-nvim'
+" " Plug 'rafamadriz/friendly-snippets'  
+ "  " Plug 'tpope/vim-surround'
 " Unmanaged plugin (manually installed and updated)
 " Plug '~/my-prototype-plugin'
-" Add plugins to &runtimepath
+" Add plugins to &runtimepath 
 call plug#end() 
 
 "Neovide 
@@ -154,7 +131,8 @@ set title
 " set noshowmode
 " set noruler       
 " set laststatus=1 
-set noshowcmd   
+set noshowcmd    
+set indentexpr=
 set noshowmatch  
 set wrap  
 set pb=10  
@@ -173,7 +151,7 @@ set termguicolors
 set guicursor=n-v-c:block,i-ci-ve:ver25,r-cr:hor20,o:hor50
  		  \,a:blinkwait700-blinkoff400-blinkon250-Cursor/lCursor
  		  \,sm:block-blinkwait175-blinkoff150-blinkon175
-set spelllang=en   
+set spelllang=en_us  
 if exists('g:started_by_firenvim')
      autocmd VimEnter set noshowmode
      autocmd VimEnter set noruler
@@ -185,22 +163,29 @@ else
   " autocmd VimEnter * TZAtaraxis
  endif
 set timeoutlen=0
+
+"remember cursor location
+autocmd BufReadPost * if @% !~# '\.git[\/\\]COMMIT_EDITMSG$' && line("'\"") > 1 && line("'\"") <= line("$") | exe "normal! g`\"" | endif
+
 au VIMEnter * let g:surround_108 = {
      \'q':  " ``\r''"
      \ }
 let g:tex_flavor = "latex"
-let g:tex_isk = '@,48-57,58,_,192-255' 
-let g:tex_isk +=:
+let g:tex_isk = '@,48-57,58,_,192-255,:' 
+au FileType tex setlocal iskeyword+=:
+au FileType tex setlocal indentexpr=
+
 let g:tex_conceal = ""
 set tags+=~/workspacemodules/tags
-"set tags+=~/Dropbox/workspace/tags
+set tags+=./tags
+"set +=~/Dropbox/workspace/tags
   " set wrapmargin=1
 " set shada="NONE"  
 set listchars=eol:¬,tab:>·,trail:~,extends:>,precedes:<,space:␣
 set wrap
 set linebreak 
 set formatoptions+=w " set breakat=" "
-" set list  " list disables linebreak
+" set list  " list disables linebreak whitespace
 " set textwidth=0
 set wrapmargin=-1
 set hid
@@ -208,7 +193,8 @@ set autochdir
 set guioptions-=r
 set guioptions-=l
 set inccommand=split
-set mouse=
+set mouse=a
+set selectmode=key
 set bs=2		" allow backspacing over everything in insert mode 
 set undofile                " Save undo's after file closes
 set undodir=~/.undo " where to save undo histories
@@ -231,11 +217,12 @@ set nobackup		" no *~ backup files
 set ignorecase		" ignore case when searching
 set smartcase		" ignore case if search pattern is all lowercase,case-sensitive otherwise
 set smarttab		" insert tabs on the start of a line according to context
+set spell   
 
 " disable sound on errors
 set noerrorbells
 " set novisualbell 
-set guifont=Fira\ Code\ Light:h20
+set guifont=Fira\ Code\ Light:h10
 colorscheme one
 " colorscheme material  
 " let g:material_style = 'palenight'  
@@ -243,17 +230,16 @@ colorscheme one
 " highlight Normal ctermbg=none
 set tm=1000
 " set macreta 
-hi clear SpellBad
 hi SpellBad cterm=underline
 " Set style for gVim
 hi SpellBad gui=underline
 "
 "Autocommands, au
 au FileType Makefile set noexpandtab
-au FileType tex,text set spelllang=en 
-au FileType tex,text set noai nocin 
+au FileType tex,text set spelllang=en_us
+au FileType tex,text,md set indentexpr=
+autocmd TermClose * if !v:event.status | exe 'bdelete! '..expand('<abuf>') | endif
 
-au FileType tex,text,md set spell   
 function Reset()
 TZAtaraxisOff 
 TZAtaraxisOn
@@ -261,30 +247,30 @@ endfunction
 " au FocusLost call TZAtaraxisOff 
 " au FocusGained call TZAtaraxisOn 
 
-" au FileType vim,md set list
+au FileType vim,md set list
 " au FileType vim,md colorscheme one
 
 " au FileType tex,text,md syntax sync fromstart 
 " 
 " au FileType tex,text,md silent execute "!echo " . v:servername . " > ~/servername.txt"    
 au FileType * silent execute "!echo " . v:servername . " > ~/servername.txt"
-au UIEnter silent execute "!echo " . v:servername . " > ~/servername.txt"  
+au UIEnter silent execute "!echo " . v:servername . " > ~/servername.txt"
 function Server()
    silent execute "!echo " . v:servername . " > ~/servername.txt"
 endfunction
 nmap <leader>nn :call Server()
 
-au FileType tex,text,md hi SpellBad cterm=undercurl
-au Filetype tex,text,md vmap q xi<CR><CR><CR><CR><ESC>kki/begin{comment}<cr><cr>/end{comment}<esc>kp 
-au Filetype tex,text,md set tw=50 
-au Filetype tex,text,md set fo=tc
+au Filetype tex,text,md vmap q xi<CR><CR><CR><CR><ESC>kki/begin{comment}<cr><cr>/end{comment}<esc>kp  
+
+au Filetype tex,text,md set tw=50
+" au Filetype tex,text,md set fo=tc
 " au FileType tex set background=dark 
 au TextYankPost * lua vim.highlight.on_yank {higroup="IncSearch", timeout=150, on_visual=true}
-au TextYankPost * call neoyank#_append() 
+au TextYankPost * call neoyank#_append()
 
 set expandtab        "replace <TAB> with spaces
-set softtabstop=3 
-set shiftwidth=3 
+set softtabstop=3
+set shiftwidth=3
 
 "--------------------------------------------------------------------------- 
 " USEFUL SHORTCUTS
@@ -313,15 +299,15 @@ cmap cd. lcd %:p:h
 
 
 " Enable omni completion. (Ctrl-X Ctrl-O)
-autocmd FileType html,markdown setlocal omnifunc=htmlcomplete#CompleteTags
+autocmd FileType html,markdown setlocal omnifunc=htmlcomplete#Complete
 autocmd FileType javascript setlocal omnifunc=javascriptcomplete#CompleteJS
 autocmd FileType python setlocal omnifunc=pythoncomplete#Complete
-autocmd FileType xml setlocal omnifunc=xmlcomplete#CompleteTags
+autocmd FileType xml setlocal omnifunc=xmlcomplete#Complete
 autocmd FileType css set omnifunc=csscomplete#CompleteCSS
 autocmd FileType c set omnifunc=ccomplete#Complete
 autocmd FileType java set omnifunc=javacomplete#Complete 
 autocmd FileType tex set omnifunc=latex#Complete
-autocmd Filetype tex setlocal fo=nt
+" autocmd Filetype tex setlocal fo=nt
 autocmd Filetype tex setlocal wrapmargin=0
 " use syntax complete if nothing else available
 if has("autocmd") && exists("+omnifunc")
@@ -349,13 +335,13 @@ set fileencoding=utf-8
 "
 " terminal mappings 
 " 
+tnoremap <A-`> <C-\><C-n>
 tnoremap <A-Esc> <C-\><C-n>
 nmap <A-S-t> :te<cr>
- vnoremap <Leader>U ""y:%s/<C-r>"
+" other mappings 
+vnoremap <Leader>U ""y:%s/<C-r>"
 noremap <leader>r :w<cr>:e<cr> 
-inoremap <cr> <cr><esc>:w<cr>a
-inoremap . .<esc>:w<cr>a
-
+" inoremap . .<esc>:w<cr>a
 noremap <leader>hh :set tw=50<cr>
 noremap <leader>w :set tw=0<cr> 
 map q :q<cr>
@@ -367,7 +353,6 @@ nnoremap <leader>e :Lf<cr>
 nnoremap <leader>t :FloatermToggle<cr>
 nnoremap <c-,> :cprevious<cr>
 nnoremap <c-.> :cnext<cr> 
-inoremap <cr> <cr> <backspace>
 vnoremap <m-s> :s///gc<left><left><left><left>
 inoremap <m-s> <esc>:%s///gc<left><left><left><left>
 nnoremap <m-s> :%s///gc<left><left><left><left>
@@ -394,27 +379,32 @@ inoremap / \
 
 " copy paste stuff 
 " 
-vnoremap p "0dP 
+vnoremap p "_dP
 inoremap <C-p> <C-r>"+
 " noremap D "0D:wa<cr>
-noremap d "0d
-nnoremap dd "0dd
-noremap c "0c
+noremap d "_d
+nnoremap dd "_dd
+noremap c "_c
+noremap c "_c
+noremap s "_s
 noremap C "_C
 noremap x "_x
-" nnoremap v "+v
 vnoremap x "+x
-vnoremap d "0d
-vnoremap c "0c  
+vnoremap d "_d
+vnoremap c "_c
 vnoremap y "+y
 nnoremap y "+y
 nnoremap p "+p
-nnoremap <leader>p p
 nnoremap <leader>q q
-" Softwrap 
+" map cr
+inoremap <cr> <esc>$a<cr><space><esc>"_s
+inoremap <m-cr> <cr><space><esc>"_s
+
+" Softwrap  
+
 nmap D "0dg$
 nmap V vg$
-nmap A g$a 
+nmap A g$a
 map 0 g^
 map 9 g$
 nmap <m-8> :set laststatus=0<cr>:set lines=100<cr>
@@ -433,8 +423,8 @@ map q: nop
 map <S-C-q> <Esc>:qa!<CR>
 map <m-q> <esc>:wq<cr>
 map <m-Q> <esc>:q<cr>
-map <m-c> <esc>:w<CR>:close<cr>
-map <M-d> <Esc>:w<CR>:bdelete<CR>
+map <m-c> :close<cr>
+map <m-d> <Esc>:w<CR>:bdelete<CR>
 noremap gf gq
 noremap f /
 noremap F ?
@@ -462,11 +452,15 @@ nnoremap . `
 noremap <m-1> <C-o>
 noremap <m-2> <C-i>
 noremap <D-d> <C-d>
-map ;s <Esc>:w<CR>
+noremap ;w <Esc>:w<CR>
+noremap <C-t> <Esc>:AsyncRun ctags -R<CR>
 noremap <D-u> <C-u>
 noremap <A-u> <C-u>
+" windows stuff
+nnoremap ;ww :%s///gc
+
 " this mapping Enter key to <C-y> to chose the current highlight item 
-" and close the selection list, same as other IDEs.
+" and close he selection list, same as other IDEs.
 inoremap <expr> <CR> pumvisible() ? "\<C-y>" : "\<C-g>u\<CR>"
 nnoremap <silent> <Leader>y :YRGetElem<CR>
 map ' "
@@ -476,7 +470,6 @@ inoremap <C-]> <C-x><C-]>
 au FileType tex,text,md nmap 0 g^
 au FileType tex,text,md noremap 9 g$
 " au FileType tex,text,md nnoremap dd "_g^dg$g^
-au FileType tex,text,md noremap map o gj0i<CR><ESC>gki
 
 "Neovim mappings
 " :tnoremap <S-h> <C-\><C-n><C-w>h
@@ -497,7 +490,7 @@ map <m-space> <cmd>HopWord<cr>
 " FZF 
 "
 noremap <m-t> :BTags<cr>
-noremap <m-y> :Tags<cr>
+noremap <m-y> :<cr>
 noremap S <Esc> :BLines<CR>
 "noremap L <Esc>:AsyncRun sentence.sh %;nvr sentence_%<cr>:echo 'press any key'<cr>:execute 'call getchar()' | BLines<cr>
 " Line search mapping 
@@ -511,7 +504,6 @@ map <A-e> :FZF ~<CR>
 map <m-f> :FZF ~<CR> 
 
 "miscellaneous
-map :tags  exe ":silent ! /usr/local/bin/ctags -R"
 nmap <leader>g :ZenMode<CR>
 " nmap <leader>p :Denite neoyank -default-action=append<CR>
 
@@ -522,6 +514,22 @@ noremap <c-e> viwy:cclose<cr>:<c-r>+<cr>:ZenMode<cr><cr>
 noremap <c-p> :<c-r>+<cr>
 noremap <m-l> viwy:bdelete<cr>:execute "buffer" g:buf<cr>:<c-r>+<cr>:ZenMode<cr><cr>
 " noremap <m-l> viwy<esc>:bp<cr>:<c-r>+<cr>
+
+"FZF Neoyank yank     
+"
+nnoremap <leader>y :FZFNeoyank<cr>
+nnoremap <leader>Y :FZFNeoyank  P<cr>
+vnoremap <leader>y :FZFNeoyankSelection<cr>
+
+nnoremap <leader>p :FZFNeoyank +<cr> 
+nnoremap <leader>1 :FZFNeoyank 1<cr>
+nnoremap <leader>P :FZFNeoyank " P+<cr>
+vnoremap <leader>p :FZFNeoyankSelection +<cr>
+
+
+" Replace the default dictionary completion with fzf-based fuzzy completion
+
+inoremap <expr> <c-x><c-k> fzf#vim#complete('cat /usr/share/dict/words')  
 
 
 "Functions
@@ -580,23 +588,33 @@ profile func *
 profile file *
 endfunction 
 
-function! Sentence()
+function Sentence()
   let g:buf = bufname()
   silent !sentence.sh %
   silent echo "Print any character"
-  silent call getchar()
-  e sentence_%
+  " silent call getchar()
+  e sentence_% 
   " echo "Print any character"
   " call getchar()
   BLines
 endfunction
-noremap L :lua require("zen-mode").close()<cr>:call Sentence()<cr>
+noremap LL :lua require("zen-mode").close()<cr>:call Sentence()<cr>
 " noremap L :TZAtaraxisOff<cr><cr>:call Sentence()<cr>
-function! Git() 
-AsyncRun -silent if git rev-parse --is-inside-work-tree || git rev- parse --git-dir > /dev/null 2>&1 ; then git add . ; git commit -m -a ; git push --all origin; fi 
+function GitAsync()
+AsyncRun -silent ctags -R
+let g:bufdude = bufname()
+silent te if ( (git rev-parse --is-inside-work-tree) -and (git rev-parse --git-dir) ) { git add . ; git commit -m -a ; git push --all origin } 
+execute "buffer" g:bufdude 
 endfunction
+  
+" " AsyncRun -silent if git rev-parse --is-inside-work-"tree 
+"|| git rev- parse --git-dir > /dev/null 2>&1 ; then git "add 
+". ; git commit -m -a ; git push --all origin; "fi  */
+" te if ( (git rev-parse --is-inside-work-tree) -and (git 
+"rev-parse --git-dir) ) { git add . ; git commit -m -a ; "git push --all origin } */
+" endfunction */
 
-function! ToggleQuickFix() 
+function ToggleQuickFix()
       if empty(filter(getwininfo(), 'v:val.quickfix'))
       exec "w"
         echo bufname()
@@ -613,7 +631,8 @@ function! ToggleQuickFix()
         exec "wincmd j"
         exec "/error"
     else
-        exec "cclose"
+        exec "cclose" 
+        sleep 1
         endif
 endfunction
 
@@ -625,7 +644,7 @@ endfunction
 function! CompileLatex()
   silent call ClearLatex()
   let buf = bufname()
-  silent te latexmk -pvc -halt-on-error -synctex=1 -file-line-error -f -gg %
+  silent te latexmk -pvc -halt-on-error -synctex=1 -file-line-error -f -output-directory="buildback" -gg %
   execute "buffer" buf
   call ViewPdf()
 endfunction
@@ -643,9 +662,11 @@ let filenameroot=expand('%:t:r')
 " let filenamePDF=filename[:-4]."pdf"
 let filenamePDF=b:filenamedir . "/build/" . filenameroot . ".pdf" 
 echo filenamePDF
-let execstr="silent !zathura --synctex-forward " . linenumber . ":" . colnumber . ":" . filenametexwhole . " " . filenamePDF . " &>/dev/null &" 
+let execstr="silent te zathura --synctex-forward " . linenumber . ":" . colnumber . ":" . filenametexwhole . " " . filenamePDF
+" let execstr="silent !/mnt/c/Users/yasha/AppData/Local/SumatraPDF/SumatraPDF.exe -forward-search " . linenumber . " " . filenametexwhole . " &>/dev/null &"
 echo execstr
 exec execstr
+" let running = jobwait(id, 0)[0] == -1
 execute "buffer" buf
 endfunction 
 nmap <leader>v :call ViewPdf()<cr><cr>
@@ -675,11 +696,11 @@ let g:auto_save_in_insert_mode = 0
 let g:auto_save_silent = 1
 
 "Git autocommit  (private git repo)
-autocmd BufWritePost * call Git()
+autocmd BufWritePost * call GitAsync()
 lua <<EOF
 require'nvim-treesitter.configs'.setup { 
     --
-    highlight = { enable = true },
+    highlight = { enable = false },
     incremental_selection = {
     enable = true,
     keymaps = {
@@ -690,7 +711,7 @@ require'nvim-treesitter.configs'.setup {
     },
   },
     textobjects = { enable = true },
-    indent = { enable = true }, 
+    indent = { enable = false },
 }
 EOF
 
@@ -729,8 +750,8 @@ local nvim_lsp = require('lspconfig')
 -- Use an on_attach function to only map the following keys
 -- after the language server attaches to the current buffer
 local on_attach = function(client, bufnr)
-  local function buf_set_keymap(...) vim.api.nvim_buf_set_keymap(bufnr, ...) end
-  local function buf_set_option(...) vim.api.nvim_buf_set_option(bufnr, ...) end
+ local function buf_set_keymap(...) vim.api.nvim_buf_set_keymap(bufnr, ...) end
+ local function buf_set_option(...) vim.api.nvim_buf_set_option(bufnr, ...) end
 -- Enable completion triggered by <c-x><c-o>
   buf_set_option('omnifunc', 'v:lua.vim.lsp.omnifunc')
 
@@ -780,21 +801,6 @@ end)
 EOF
 
 "
-
-
-nnoremap <leader>y :FZFNeoyank<cr>
-nnoremap <leader>Y :FZFNeoyank  P<cr>
-vnoremap <leader>y :FZFNeoyankSelection<cr>
-
-nnoremap <leader>p :FZFNeoyank +<cr> 
-nnoremap <leader>1 :FZFNeoyank 1<cr>
-nnoremap <leader>P :FZFNeoyank " P+<cr>
-vnoremap <leader>p :FZFNeoyankSelection +<cr>
-
-
-" Replace the default dictionary completion with fzf-based fuzzy completion
-
-inoremap <expr> <c-x><c-k> fzf#vim#complete('cat /usr/share/dict/words')  
 " inoremap <cr> <cr> <backspace>
 
 set completeopt=menu,menuone,noselect
@@ -814,17 +820,19 @@ local feedkey = function(key, mode)
   vim.api.nvim_feedkeys(vim.api.nvim_replace_termcodes(key, true, true, true), mode, true)
 end
 
-local cmp = require('cmp')
-cmp.setup {
- snippet = {
+local cmp = require'cmp'
+cmp.setup ({
+snippet = {
       expand = function(args)
         -- For `vsnip` user.
         vim.fn["vsnip#anonymous"](args.body) -- For `vsnip` user.
   -- ... Your other configuration ...
 end,
 },
-mapping = {
-      ['<C-d>'] = cmp.mapping.scroll_docs(-4),
+mapping = cmp.mapping.preset.insert({
+        ["<C-p>"] = cmp.mapping.select_prev_item(),
+        ["<C-n>"] = cmp.mapping.select_next_item(),
+       ['<C-d>'] = cmp.mapping.scroll_docs(-4),
       ['<C-f>'] = cmp.mapping.scroll_docs(4),
       ['<C-x>'] = cmp.mapping.complete(),
       ['<C-e>'] = cmp.mapping.close(),
@@ -849,9 +857,7 @@ mapping = {
         feedkey("<Plug>(vsnip-jump-prev)", "")
       end
     end, { "i", "s" }),
--- ... Your other mappings ...
-
-},
+}),
 requires = {
     {
       'quangnguyen30192/cmp-nvim-tags',
@@ -863,25 +869,23 @@ requires = {
     }
     },
 -- ... Your other configuration ...
-sources = {
+sources = cmp.config.sources({
       -- For vsnip user. 
-{ name = 'tags', keyword_length = 1000 },
- { name = 'vsnip', keyword_length = 1000 },
-         -- For luasnip user.
-      -- { name = 'luasnip' },
+{ name = 'tags' },
+{ name = 'vsnip', keyword_length = 1000 },
 -- For ultisnips user.
       -- { name = 'ultisnips' },  
-   { name = 'buffer', keyword_length = 1000 },
-   { name = 'omni', keyword_length = 4},
+{ name = 'buffer', keyword_length = 1000 },
+{ name = 'omni', keyword_length = 4},
        -- { name = 'spell' }, 
-   { name = 'nvim_lsp', keyword_length = 4 },
+{ name = 'nvim_lsp', keyword_length = 4 },
       --{ name = 'treesitter', keyword_length = 4 },
 --{ name = 'latex_symbols' },
-},
+}),
 completion = {
     autocomplete = false 
     }
-}
+})
 EOF
 
 " 
@@ -1114,18 +1118,19 @@ EOF
 " EOF 
 "
 "
-lua <<EOF
-require('spellsitter').setup {
-  hl = 'SpellBad', 
-  captures = {},  -- set to {} to spellcheck everything
+" lua <<EOF
+" require('spellsitter').setup {
+"   hl = 'SpellBad', 
+"   captures = {},  -- set to {} to spellcheck everything
+"
+"   -- Spellchecker to use. values:
+"   -- * vimfn: built-in spell checker using vim.fn.spellbadword()
+"   -- * ffi: built-in spell checker using the FFI to access the
+"   --   internal spell_check() function
+" spellchecker = 'vimfn',
+" }
+" EOF
 
-  -- Spellchecker to use. values:
-  -- * vimfn: built-in spell checker using vim.fn.spellbadword()
-  -- * ffi: built-in spell checker using the FFI to access the
-  --   internal spell_check() function
-spellchecker = 'vimfn',
-}
-EOF
 let g:firenvim_config = { 
     \ 'globalSettings': {
         \ 'alt': 'all',
@@ -1145,6 +1150,8 @@ require('fzf-lua').setup{
 -- ...
 }
 EOF
+
+ 
 " lua << EOF
 " require("stabilize").setup(
 " {
@@ -1248,7 +1255,7 @@ EOF
 " function! DelTagOfFile(file)
 "   let fullpath = a:file
 "   let cwd = getcwd()
-"   let tagfilename = cwd . "/tags"
+"   let tagfilename = cwd . "/"
 "   let f = substitute(fullpath, cwd . "/", "", "")
 "   let f = escape(f, './')
 "   let cmd = 'sed -i "/' . f . '/d" "' . tagfilename . '"'
@@ -1300,7 +1307,7 @@ EOF
    " set formatoptions=ant
 " set wrapmargin=0
 " set nohlsearch
-" set tags= ~/workspacemodules/tags
+" set = ~/workspacemodules/tags
 " highlight SignColumn guibg=bg
 "       endif    
 " if has("autocmd")
@@ -1453,28 +1460,16 @@ EOF
 " map t <Plug>(smalls-excursion)
 " let g:smalls_auto_jump=1
 " let g:smalls_auto_jump_timeout=0
-
-
-    " xmap t <Plug>Sneak_s
-    " xmap T <Plug>Sneak_S
-   " omap t <Plug>Sneak_s
-    " omap T <Plug>Sneak_S   
-    " >Sneak_S+ test
-
-    " math maps     asdf a;sldfjk test2 test3
+    
 " 
 " silent execute 'AsyncRun if git rev-parse --is-inside-work-tree || git rev-parse --git-dir > /dev/null 2>&1 ; then git add % ; git commit -m -a ; git push --all origin; fi'
 " let g:vimtex_view_general_options = '-r @line @pdf @
 """ pandoc backup -s html -o markdown cp backup.html %<cr>:e %<cr>:w<cr>:qa<cr>  asldkfj
-
 " <cr>
 " ; pandoc backup.html > backup.md; cp backup.md %<cr>:e %<cr>
 " NB: this supports "rp that replaces the selection by the contents of @r
-" Auto updating Ctags
-" autocmd VimLeave * exe ":silent ! ctags -R"
-"Nerd Tree
-" map <leader>e :NERDTreeFind<CR>
-" map <C-e> :NERDTreeToggle<CR>:NERDTreeMirror<CR>
+" Auto updating C
+" autocmd VimLeave * exe ":silent ! c -R"
 "
 "" lua << EOF
 " local function setup_servers()
@@ -1493,4 +1488,82 @@ EOF
 "   vim.cmd("bufdo e") -- this triggers the FileType autocmd that starts the server
 " end
 " EOF
-" autocmd BufReadPost * if @% !~# '\.git[\/\\]COMMIT_EDITMSG$' && line("'\"") > 1 && line("'\"") <= line("$") | exe "normal! g`\"" | endif  as;ldkfj
+" autocmd BufReadPost * if @% !~# '\.git[\/\\]COMMIT_EDITMSG$' && line("'\"") > 1 && line("'\"") <= line("$") | exe "normal! g`\"" | endif
+
+      
+"other maps   
+inoremap <cr> <cr><space><esc>"_s
+nnoremap o o<space><esc>"_s
+" map cr
+" inoremap <cr> <esc>$a<cr><space><esc>"_s
+" inoremap <m-cr> <cr><space><esc>"_s
+let g:neovide_fullscreen=v:true
+if exists('g:gonvim_running')
+    "goneovim specific stuff
+elseif exists('g:neovide')
+   set guifont=Fira\ Code\ Light:h20
+end
+
+" lua <<EOF
+" -- Setup cmp.
+" -- Installation
+" use {
+"   'hrsh7th/nvim-cmp',
+"   requires = {
+"     {
+"       'quangnguyen30192/cmp-nvim-tags',
+"       -- if you want the sources is available for some file types
+"       ft = {
+"         'kotlin',
+"         'java'
+"       }
+"     }
+"   },
+" config = function ()
+"     require'cmp'.setup {
+"     sources = {
+"       { name = 'tags' },
+"      
+"     { name = 'vsnip', keyword_length = 1000 },
+" { name = 'tags' },
+" -- For ultisnips user.
+"       -- { name = 'ultisnips' },  
+" { name = 'buffer', keyword_length = 1000 },
+" { name = 'omni', keyword_length = 4},
+"        -- { name = 'spell' }, 
+" { name = 'nvim_lsp', keyword_length = 4 },
+"       --{ name = 'treesitter', keyword_length = 4 },
+" --{ name = 'latex_symbols' },
+" }
+" }
+" end
+" }
+
+" test test2
+" let g:autotagTagsFile="~/workspacemodules/tags"
+" let g:autotagFile="~/workspacemodules/tags"
+" lua <<EOF
+" -- Installation
+" use { 
+"   'hrsh7th/nvim-cmp',
+"   requires = {
+"     {
+"       'quangnguyen30192/cmp-nvim-',
+"       -- if you want the sources is available for some file types
+"       ft = {
+"         'latex',
+"         'tex'
+"       }
+"     }
+"   },
+"   config = function ()
+"     require'cmp'.setup {
+"     sources = {
+"       { name = '' },
+"       -- more sources
+"     }
+"   }
+"   end
+" }
+" EOF
+"

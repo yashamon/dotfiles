@@ -1,0 +1,96 @@
+cd ./workspacemodules/
+ls
+ls -l | where type==file
+ls -l | where type=file
+ls -l | where type="file" | echo
+ls -l | where type=file | echo
+ls -l | where type==file | echo
+ls -l | where type
+ls -l | where each |it.type|=file 
+lf 
+let $config = {<\n>    ...<\n>    edit_mode: emacs<\n>    ...<\n>  }
+lf
+cd ./workspacemodules/
+psrc
+powershell
+ls -l | where $_ == file 
+ls -l | where [it].Data == file 
+ls -l | where type == file
+ls -l --> where type==file 
+ls -l --> where type == file 
+ls -l -> where type == file 
+ls -l | echo in.i
+ls -l | echo $in.i
+ls -l | echo $in.1
+ls -l | echo $in
+ls -l | echo 
+ls -l | echo $in
+ls -l | echo 
+ls -l | echo $in + blah
+ls -l | put $in + "blah"
+ls -l | put $in.name + "blah"
+ls -l | put $in.name 
+ls -l | put $in.1
+ls -l | echo $in.1
+ls -l | echo $in.name
+ls -l | echo $in | where $in.name==qt
+ls -l | echo $in | where $in.name=="qt"
+ls -l | echo $in | where "$in.name"=="qt"
+ls -l | echo $in | where "$in.name" == "qt"
+ls -l | echo $in | where $in.name == "qt"
+ls -l | echo $in | where $in.name == "bim"
+ls -l | echo $in | where $in.name == "bin"
+ls -l | echo $in 
+ls -l | echo $in | where $in.name == "web"
+ls -l | echo $in | where $in.name == 'web'
+ls -l | echo $in | where $in.name == web
+ls -l | echo $in | where $in.num_links == 1
+ls -l | echo $in | where $in.num_links == '1'
+ls -l | echo $in | where $in.name contains web
+ls -l | echo $in | where $in.type == dir
+ls -l | where $in.type == dir
+ls -l | where type == dir
+ls -l | echo $in | where type == dir
+let $a = ls -l 
+echo $a.dir.0
+echo $a.0
+echo $a.0.name
+foreach $a.i | echo $a.i.name
+foreach $a | echo $a.i.name
+let $b[]=a.#
+let $b=a.#
+let $b=a.name
+let $b=$a.#
+let $b=$a.name
+ech $a.name
+put $a.name
+echo $a.name
+let b = $a.name
+let $b = $a.name
+let b = $a.name
+echo b
+echo $b
+foreach i in $b {echo $a.num_links}
+(each i in $b) {echo $a.num_links.i}
+(each $b) echo $a.num_links.i
+ls -l | echo $in | where $it.type == dir
+ls -l | where $it.type == dir | each { |it| $it + "blah"} | echo
+ls -l | where $it.type == dir | each { |it| $it + "blah"} | put
+ls -l | where $it.type == dir | each { |it| $it + "blah"} | print
+ls -l | where $it.type == dir | each { |it| "$it" + "blah"} | echo
+ls -l | where $it.type == dir | each { |it| ""$it" + "blah""} | echo
+ls -l | where $it.type == dir 
+ls -l | where $it.type == dir | each { |it| $it.name + "blah"} | echo $it.name
+ls -l | where $in.type == dir | each { |it| $it.name + "blah"} | echo $it.name
+ls -l | where $in.type == dir | each { |it| $it.name + "blah"} | echo $in.name
+ls -l | where $in.type == dir 
+ls -l | where $it.type == dir | each { |it| $it.name + "blah"} | echo $it.name
+ls -l | where $it.type == dir 
+ls -l | where $it.type == dir | echo in.name
+ls -l | where $it.type == dir | echo $in.name
+let a = ls -l | where $it.type == dir | each { |it| $it.name + "blah"} 
+let a = (ls -l | where $it.type == dir | each { |it| $it.name + "blah"} )
+echo $a
+let a = (ls -l | where $it.type == dir | each { $it.name + "blah"} )
+let a = (ls -l | where $it.type == dir | each { |it| $it.name + "blah"} )
+let a = (ls -l | where $it.type == dir | each { |a| $a.name + "blah"} )
