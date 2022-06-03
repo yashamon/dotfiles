@@ -135,7 +135,7 @@ function pullmaster { git pull --recurse-submodules ; git submodule update --rec
 function pushgh { pandoc index.md > index.html ; git add . ; git commit -m -a ; git push origin gh-pages }
 function hw { pandoc ~/web/classes/topology/topology2019.md > ~/web/classes/topology/topology2019.html; pandoc ~/web/CalcIII2019/analysis.md > ~/web/CalcIII2019/analysis.html; git
 add .;git commit -m -a; git push origin gh-pages }# alias check="git checkout" 
-function modulestext {  Get-InstalledModule | foreach { $_.Name > /home/yasha/dotfiles/PSmodules.text } }
+function modulestext { Get-InstalledModule | foreach { $_.Name > /home/yasha/dotfiles/PSmodules.text } }
 function clip { /mnt/c/windows/System32/WindowsPowerShell/v1.0/powershell.exe -c Get-Clipboard | tr -d $'\r' | wl-copy }
 # alias attach="tmux attach"
 # # alias pdf="xpdf -geometry 1920x1080 -fullscreen"
@@ -195,6 +195,6 @@ $Env:QT_SCALE_FACTOR=2
 $Env:GDK_SCALE=2 
 $Env:QT_QPA_PLATFORM="wayland"
 $Env:Path+=":/opt:$HOME/.config/sway/modules:$HOME/appimage:/home/linuxbrew/.linuxbrew/bin:/usr/local/bin:/usr/sbin:/sbin:/bin:$HOME/.local/bin:/root/.cabal/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:$HOME/.cabal/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:$HOME/.local/bin:$HOME/.local/bin/scripts:$HOME/.cargo/bin:/snap/bin:/data/data/com.termux/files/usr/bin/applets:/data/data/com.termux/files/usr/bin:bin:/usr/local/sbin:/usr/bin:$HOME/.local/share/nvim/lspinstall:$HOME/skia-binaries:$HOME/ninja:/home/yasha/.nix-profile:/home/yasha/dotfiles/scripts:/usr/bin:$HOME/dotfiles/scripts"
-Get-InstalledModule | foreach { $_.Name > /home/yasha/dotfiles/PSmodules.text }
+Get-InstalledModule | foreach { ($_.Name, $_.Repository) > /home/yasha/dotfiles/PSmodules.text }
 # $Env:Path="/home/yasha/dotfiles/scripts:/usr/bin:$HOME/dotfiles/scripts:$HOME/.local/bin"
 # 
