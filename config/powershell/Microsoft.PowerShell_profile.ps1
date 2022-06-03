@@ -38,7 +38,7 @@ Set-PSReadLineKeyHandler -Chord Alt+a -Function AcceptSuggestion # Function Invo
 Set-Alias j Invoke-Zlocation
 Set-Alias lualatexscript /home/yasha/dotfiles/scripts/lualatexscript.ps1
 function neo($1) {
-   $neo="(which goneovim)" + " $1"
+   $neo=(which goneovim) + " $1"
    echo $neo
 Invoke-Expression $neo
 }
