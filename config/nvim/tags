@@ -121,7 +121,7 @@ $	init.vim	/^noremap $ \/\\$<CR>hv?\\$<CR>l$/;"	m
 <m-s>	init.vim	/^nnoremap <m-s> :%s\/\/\/gc<left><left><left><left>$/;"	m
 <m-s>	init.vim	/^vnoremap <m-s> :s\/\/\/gc<left><left><left><left>$/;"	m
 <m-space>	init.vim	/^map <m-space> <cmd>HopWord<cr>$/;"	m
-<m-t>	init.vim	/^noremap <m-t> :B<cr>$/;"	m
+<m-t>	init.vim	/^noremap <m-t> :BTags<cr>$/;"	m
 <m-y>	init.vim	/^noremap <m-y> :<cr>$/;"	m
 <up>	init.vim	/^imap <up> <nop>$/;"	m
 <up>	init.vim	/^nnoremap <up> 1<C-U>$/;"	m
