@@ -63,6 +63,7 @@ $	init.vim	/^noremap $ \/\\$<CR>hv?\\$<CR>l$/;"	m
 <ScrollWheelUp>	init.vim	/^noremap <ScrollWheelUp>      <nop>$/;"	m
 <Space>	init.vim	/^noremap <Space> .$/;"	m
 <Space>	init.vim	/^vnoremap <Space> t <cr>$/;"	m
+<alt-y>	init.vim	/^nnoremap <alt-y> viw:buffer g:buffmain<cr>:$/;"	m
 <c-,>	init.vim	/^nnoremap <c-,> :cprevious<cr>$/;"	m
 <c-.>	init.vim	/^nnoremap <c-.> :cnext<cr> $/;"	m
 <c-e>	init.vim	/^noremap <c-e> viwy:cclose<cr>:<c-r>+<cr>:ZenMode<cr><cr>$/;"	m

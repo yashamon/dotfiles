@@ -171,6 +171,7 @@ au VIMEnter * let g:surround_108 = {
      \'q':  " ``\r''"
      \ }
 au VIMEnter * let g:buffmain=echo buffname()
+nnoremap <alt-y> viw:buffer g:buffmain<cr>:
 let g:tex_flavor = "latex"
 let g:tex_isk = '@,48-57,58,_,192-255,:' 
 au FileType tex setlocal iskeyword+=:
