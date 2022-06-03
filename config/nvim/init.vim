@@ -861,7 +861,7 @@ cmp.setup {
   -- ... Your other configuration ...
 end,
 },
-mapping = cmp.mapping.preset.insert({
+mapping = {
         ["<C-p>"] = cmp.mapping.select_prev_item(),
         ["<C-n>"] = cmp.mapping.select_next_item(),
        ['<C-d>'] = cmp.mapping.scroll_docs(-4),
@@ -889,7 +889,7 @@ mapping = cmp.mapping.preset.insert({
         feedkey("<Plug>(vsnip-jump-prev)", "")
       end
     end, { "i", "s" }),
-}),
+}
 -- ... Your other configuration ...
 " config = function()
 " sources = {
