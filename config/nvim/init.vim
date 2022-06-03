@@ -603,7 +603,8 @@ function GitAsync()
 AsyncRun -silent ctags -R
 let g:bufdude = bufname()
 silent te if ( (git rev-parse --is-inside-work-tree) -and (git rev-parse --git-dir) ) { git add . ; git commit -m -a ; git push --all origin } 
-execute "buffer" g:bufdude endfunction
+execute "buffer" g:bufdude 
+endfunction
   
 " " AsyncRun -silent if git rev-parse --is-inside-work-"tree 
 "|| git rev- parse --git-dir > /dev/null 2>&1 ; then git "add 
