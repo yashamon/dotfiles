@@ -5,10 +5,12 @@
   <property name="minimumPressure" value="0.05000000"/>
   <property name="pressureMultiplier" value="1.00000000"/>
   <property name="zoomGesturesEnabled" value="true"/>
-  <property name="selectedToolbar" value="Xournal++"/>
+  <property name="selectedToolbar" value="Minimal Left"/>
   <property name="lastSavePath" value="/home/yasha/workspace/Xourna"/>
-  <property name="lastOpenPath" value=""/>
+  <property name="lastOpenPath" value="/home/yasha/workspace/Xourna"/>
   <property name="lastImagePath" value=""/>
+  <property name="edgePanSpeed" value="20.00000000"/>
+  <property name="edgePanMaxMult" value="5.00000000"/>
   <property name="zoomStep" value="10.00000000"/>
   <property name="zoomStepScroll" value="2.00000000"/>
   <property name="displayDpi" value="72"/>
@@ -17,9 +19,9 @@
   <property name="maximized" value="true"/>
   <property name="showToolbar" value="true"/>
   <property name="showSidebar" value="false"/>
-  <property name="sidebarWidth" value="141"/>
+  <property name="sidebarWidth" value="50"/>
   <property name="sidebarOnRight" value="false"/>
-  <property name="scrollbarOnLeft" value="false"/>
+  <property name="scrollbarOnLeft" value="true"/>
   <property name="menubarVisible" value="true"/>
   <property name="numColumns" value="1"/>
   <property name="numRows" value="1"/>
@@ -137,8 +139,8 @@
       <attribute name="tool" type="string" value="selectRegion"/>
     </data>
     <data name="touch">
-      <attribute name="device" type="string" value=""/>
-      <attribute name="disableDrawing" type="boolean" value="false"/>
+      <attribute name="device" type="string" value="Wayland Finger Scrolling"/>
+      <attribute name="disableDrawing" type="boolean" value="true"/>
       <attribute name="tool" type="string" value="none"/>
     </data>
   </data>

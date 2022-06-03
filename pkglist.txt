@@ -104,6 +104,10 @@ docbook-xml
 docbook-xsl
 doctest
 dosfstools
+dotnet-host
+dotnet-runtime
+dotnet-sdk
+dotnet-targeting-pack
 double-conversion
 drivesync-git
 e2fsprogs
@@ -773,6 +777,7 @@ lmdb
 logrotate
 lsb-release
 lsof
+lttng-ust
 lua
 lua53
 luajit
@@ -812,6 +817,7 @@ ndctl
 neovim
 net-tools
 netctl
+netstandard-targeting-pack
 nettle
 networkmanager
 ninja
@@ -835,6 +841,7 @@ openmpi
 openresolv
 openssh
 openssl
+openssl-1.0
 opus
 orc
 os-prober
@@ -997,6 +1004,7 @@ popt
 portaudio
 potrace
 power-profiles-daemon
+powershell-bin
 procps-ng
 protobuf
 protobuf-c
