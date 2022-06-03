@@ -22,7 +22,7 @@ latexi	Microsoft.PowerShell_profile.ps1	/^function latexi() { latexmk -g -pdf -f
 lfrc	Microsoft.PowerShell_profile.ps1	/^function lfrc { neo  ~\/dotfiles\/config\/lf\/lfrc }$/;"	f
 lfrc	Microsoft.PowerShell_profile.ps1	/^function lfrc { neo $HOME\\dotfiles\\config\\lf\\lfrc } $/;"	f
 modulestext	Microsoft.PowerShell_profile.ps1	/^function modulestext { Get-InstalledModule | foreach { $_.Name > \/home\/yasha\/dotfiles\/PSmodu/;"	f
-neo	Microsoft.PowerShell_profile.ps1	/^function neo() { Invoke-Expression "(which goneovim) "+"@args" }$/;"	f
+neo	Microsoft.PowerShell_profile.ps1	/^function neo($1) { Invoke-Expression "(which goneovim)$/;"	f
 nf	Microsoft.PowerShell_profile.ps1	/^Function nf {$/;"	f
 pdf	Microsoft.PowerShell_profile.ps1	/^function pdf($1) { zathura $1 }$/;"	f
 psrc	Microsoft.PowerShell_profile.ps1	/^function psrc { neo $profile } $/;"	f
