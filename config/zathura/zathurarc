@@ -6,7 +6,7 @@
 set synctex true 
 # set smooth-scroll true
 # /home/yasha/.local/bin/remote.ps1
-set synctex-editor-command "/home/yasha/.local/bin/remote.ps1 %{line} %{input}"
+set synctex-editor-command "/home/yasha/.local/bin/remote.ps1 %{line} %{input}; echo %{input} > /home/yasha/input.txt"
 # set synctex-editor-command "nvr.sh +%{line} %{input}"
 # set synctex-editor-command "/mnt/c/Users/yasha/scoop/shims/nvim.EXE --server servername --remote-send ":%{line}<cr>q""
 
