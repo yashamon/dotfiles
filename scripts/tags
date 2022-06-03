@@ -13,7 +13,7 @@ EOF	lf-ueberzug-cleaner	/^cat <<EOF | paste -sd '' >"$LF_UEBERZUG_TEMPDIR\/fifo"
 EOF	lf-ueberzug-previewer	/^	cat <<-EOF | paste -sd '' >"$LF_UEBERZUG_TEMPDIR\/fifo"$/;"	h
 STATES	rotx	/^STATES = [$/;"	v
 a	gheto.ps1	/^$a=$args[0]$/;"	v
-a	remote.ps1	/^$a=$args[0]$/;"	v
+a	remote.ps1	/^$a=$args$/;"	v
 accel_x	rotx	/^    accel_x = bdopen('in_accel_x_raw')$/;"	v
 accel_y	rotx	/^    accel_y = bdopen('in_accel_y_raw')$/;"	v
 array_str	gcuts	/^array_str = get("gsettings get "+key)$/;"	v
