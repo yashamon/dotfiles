@@ -807,6 +807,38 @@ set completeopt=menu,menuone,noselect
 
 lua <<EOF
   -- Setup cmp.
+-- Installation
+use { 
+  'hrsh7th/nvim-cmp',
+  requires = {
+    {
+      'quangnguyen30192/cmp-nvim-tags',
+      -- if you want the sources is available for some file types
+      ft = {
+        'kotlin',
+        'java'
+      }
+    }
+  },
+config = function ()
+    require'cmp'.setup {
+    sources = {
+      { name = 'tags' },
+      
+    { name = 'vsnip', keyword_length = 1000 },
+{ name = 'tags' },
+-- For ultisnips user.
+      -- { name = 'ultisnips' },  
+{ name = 'buffer', keyword_length = 1000 },
+{ name = 'omni', keyword_length = 4},
+       -- { name = 'spell' }, 
+{ name = 'nvim_lsp', keyword_length = 4 },
+      --{ name = 'treesitter', keyword_length = 4 },
+--{ name = 'latex_symbols' },
+}
+  }
+
+}
 
 local has_words_before = function()
   if vim.api.nvim_buf_get_option(0, "buftype") == "prompt" then
@@ -858,32 +890,23 @@ mapping = cmp.mapping.preset.insert({
       end
     end, { "i", "s" }),
 }),
-requires = {
-    {
-      'quangnguyen30192/cmp-nvim-tags',
-      -- if you want the sources is available for some file types
-      ft = {
-        'tex',
-        'latex' 
-      }
-    }
-    },
 -- ... Your other configuration ...
-sources = {
-      -- For vsnip user. 
-{ name = 'vsnip', keyword_length = 1000 },
-{ name = 'tags' },
--- For ultisnips user.
-      -- { name = 'ultisnips' },  
-{ name = 'buffer', keyword_length = 1000 },
-{ name = 'omni', keyword_length = 4},
-       -- { name = 'spell' }, 
-{ name = 'nvim_lsp', keyword_length = 4 },
-      --{ name = 'treesitter', keyword_length = 4 },
---{ name = 'latex_symbols' },
-},
+" config = function()
+" sources = {
+"       -- For vsnip user. 
+" { name = 'vsnip', keyword_length = 1000 },
+" { name = 'tags' },
+" -- For ultisnips user.
+"       -- { name = 'ultisnips' },  
+" { name = 'buffer', keyword_length = 1000 },
+" { name = 'omni', keyword_length = 4},
+"        -- { name = 'spell' }, 
+" { name = 'nvim_lsp', keyword_length = 4 },
+"       --{ name = 'treesitter', keyword_length = 4 },
+" --{ name = 'latex_symbols' },
+" },
 completion = {
-    autocomplete = false 
+    autocomplete = false
     }
 }
 EOF
