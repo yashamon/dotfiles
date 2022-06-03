@@ -21,6 +21,7 @@ lat	Microsoft.PowerShell_profile.ps1	/^function lat($1) { echo $1$/;"	f
 latexi	Microsoft.PowerShell_profile.ps1	/^function latexi() { latexmk -g -pdf -file-line-error -synctex=1  -interaction=nonstopmode$/;"	f
 lfrc	Microsoft.PowerShell_profile.ps1	/^function lfrc { neo  ~\/dotfiles\/config\/lf\/lfrc }$/;"	f
 lfrc	Microsoft.PowerShell_profile.ps1	/^function lfrc { neo $HOME\\dotfiles\\config\\lf\\lfrc } $/;"	f
+modulestext	Microsoft.PowerShell_profile.ps1	/^function modulestext {  Get-InstalledModule | foreach { .Name >$/;"	f
 nf	Microsoft.PowerShell_profile.ps1	/^Function nf {$/;"	f
 pdf	Microsoft.PowerShell_profile.ps1	/^function pdf($1) { zathura $1 }$/;"	f
 psrc	Microsoft.PowerShell_profile.ps1	/^function psrc { neo $profile } $/;"	f
