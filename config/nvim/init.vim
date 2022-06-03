@@ -253,7 +253,7 @@ au FileType vim,md set list
 " 
 " au FileType tex,text,md silent execute "!echo " . v:servername . " > ~/servername.txt"    
 au FileType * silent execute "!echo " . v:servername . " > ~/servername.txt"
-au UIEnter silent execute "!echo " . v:servername . " > ~/servername.txt"  
+au UIEnter silent execute "!echo " . v:servername . " > ~/servername.txt"
 function Server()
    silent execute "!echo " . v:servername . " > ~/servername.txt"
 endfunction
@@ -261,15 +261,15 @@ nmap <leader>nn :call Server()
 
 au Filetype tex,text,md vmap q xi<CR><CR><CR><CR><ESC>kki/begin{comment}<cr><cr>/end{comment}<esc>kp  
 
-au Filetype tex,text,md set tw=50 
+au Filetype tex,text,md set tw=50
 " au Filetype tex,text,md set fo=tc
 " au FileType tex set background=dark 
 au TextYankPost * lua vim.highlight.on_yank {higroup="IncSearch", timeout=150, on_visual=true}
-au TextYankPost * call neoyank#_append() 
+au TextYankPost * call neoyank#_append()
 
 set expandtab        "replace <TAB> with spaces
-set softtabstop=3 
-set shiftwidth=3 
+set softtabstop=3
+set shiftwidth=3
 
 "--------------------------------------------------------------------------- 
 " USEFUL SHORTCUTS
@@ -587,7 +587,7 @@ profile func *
 profile file *
 endfunction 
 
-function! Sentence()
+function Sentence()
   let g:buf = bufname()
   silent !sentence.sh %
   silent echo "Print any character"
@@ -599,12 +599,12 @@ function! Sentence()
 endfunction
 noremap LL :lua require("zen-mode").close()<cr>:call Sentence()<cr>
 " noremap L :TZAtaraxisOff<cr><cr>:call Sentence()<cr>
-function! Git() 
+function GitAsync()
 " AsyncRun -silent if git rev-parse --is-inside-work-tree || git rev- parse --git-dir > /dev/null 2>&1 ; then git add . ; git commit -m -a ; git push --all origin; fi 
-te silent if ( (git rev-parse --is-inside-work-tree) -and (git rev-parse --git-dir) ) { git add . ; git commit -m -a ; git push --all origin }
+te if ( (git rev-parse --is-inside-work-tree) -and (git rev-parse --git-dir) ) { git add . ; git commit -m -a ; git push --all origin }
 endfunction
 
-function! ToggleQuickFix() 
+function ToggleQuickFix()
       if empty(filter(getwininfo(), 'v:val.quickfix'))
       exec "w"
         echo bufname()
@@ -686,7 +686,7 @@ let g:auto_save_in_insert_mode = 0
 let g:auto_save_silent = 1
 
 "Git autocommit  (private git repo)
-autocmd BufWritePost * call Git()
+autocmd BufWritePost * call GitAsync()
 lua <<EOF
 require'nvim-treesitter.configs'.setup { 
     --
