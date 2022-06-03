@@ -176,7 +176,8 @@ au FileType tex setlocal iskeyword+=:
 au FileType tex setlocal indentexpr=
 
 let g:tex_conceal = ""
-" set +=~/workspacemodules/tags
+set tags+=~/workspacemodules/tags
+set tags+=./tags
 "set +=~/Dropbox/workspace/tags
   " set wrapmargin=1
 " set shada="NONE"  
