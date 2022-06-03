@@ -39,7 +39,8 @@ Set-PSReadLineKeyHandler -Chord Alt+a -Function AcceptSuggestion
 # }
 Set-Alias j Invoke-Zlocation
 Set-Alias lualatexscript /home/yasha/dotfiles/scripts/lualatexscript.ps1
-Set-Alias neo /home/yasha/.local/bin/goneovim/goneovim
+Set-Alias neo { Invoke-Expression "(which goneovim) "+"@args" }
+# /home/yasha/.local/bin/goneovim/goneovim
 # Set-PSReadLineKeyHandler -Chord Alt+j -ScriptBlock { Invoke-PreJump }
 Set-PSReadLineKeyHandler -Key 'y' -Function Copy -ViMode Command
 Set-PSReadLineKeyHandler -Key 'p' -Function Paste -ViMode Command
@@ -74,7 +75,6 @@ Set-PSReadLineOption -ViModeIndicator Script -ViModeChangeHandler $Function:OnVi
 
 # Environmental variables
 $Env:EDITOR = "Invoke-Expression (which goneovim)"
-
 # various binding functions
 # 
 # 
