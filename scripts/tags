@@ -12,6 +12,7 @@ buf	remote.ps1	/^$buf=$args[1]$/;"	v
 dir	lfcd.ps1	/^    $dir = Get-Content "$tmp"$/;"	v
 dir	lfcdWin.ps1	/^    $dir = Get-Content "$tmp"$/;"	v
 e	remote.ps1	/^$e="nvim --server " + "$var" + " --remote-send " + "`'" + ':' +$/;"	v
+file	remote.ps1	/^$file=Get-Item $buf$/;"	v
 install_zsh	makesymlinksChromeos.sh	/^install_zsh () {$/;"	f
 lf	lfcd.ps1	/^$lf=(which lf)+" last-dir-path="+"$tmp"+" $args"$/;"	v
 line	remote.ps1	/^$line=$args[0]$/;"	v

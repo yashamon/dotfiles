@@ -1,7 +1,7 @@
 #!/bin/pwsh
 $line=$args[0]
 $buf=$args[1]
-echo $buf > C:\Users\yasha\sumatra.txt
+echo $buf > 'C:\Users\yasha\sumatra.txt'
 $file=Get-Item $buf
 $file.Basename 
 echo $line
