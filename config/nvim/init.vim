@@ -126,7 +126,7 @@ let g:neovide_fullscreen=v:true
 " let g:neovide_transparency=0.15
 
 "General Settings    
-set title 
+set title
 " set titlestring
 " set noshowmode
 " set noruler       
@@ -198,7 +198,9 @@ set autochdir
 set guioptions-=r
 set guioptions-=l
 set inccommand=split
-set mouse=a
+set mouse=n
+noremap <LeftDrag> <LeftMouse>
+noremap! <LeftDrag> <LeftMouse>
 set selectmode=key
 set bs=2		" allow backspacing over everything in insert mode 
 set undofile                " Save undo's after file closes
