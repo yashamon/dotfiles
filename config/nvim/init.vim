@@ -646,7 +646,7 @@ endfunction
 
 function! CompileLatex()
   silent call ClearLatex()
-  let buf = bufname()
+  let buf=bufname()
   silent te pwsh -c latexmk -pvc -halt-on-error -synctex=1 -file-line-error -f -output-directory="buildback" %
   execute "buffer" buf
   call ViewPdf()
@@ -657,7 +657,7 @@ wa
 let g:buffmain=bufname()
 silent execute "!echo " . v:servername . ' > ~/servername.txt'
 silent execute "!echo " . v:servername . ' > C:/Users/yasha/servername.txt'
-let buf = bufname()
+let buf=bufname()
 let linenumber=line(".")
 let colnumber=col(".")
 let b:filenamedir=expand('%:p:h')
@@ -669,7 +669,7 @@ let filenamePDFLinux=b:filenamedir . "/buildback/" . filenameroot . ".pdf"
 let b:filenamePDFWindows="buildback\\" . filenameroot . ".pdf"
 " echo b:filenamePDFWindows
 let execstrLinux="silent te zathura --synctex-forward " . linenumber . ":" . colnumber . ":" . filenametexwhole . " " . filenamePDFLinux
-let execstrWindows="silent te pwsh -c C:/Users/yasha/scoop/shims/sumatrapdf.EXE -reuse-instance " . b:filenamePDFWindows . " -forward-search " . filenametex . " " . linenumber 
+let execstrWindows="silent te pwsh -c C:/Users/yasha/scoop/shims/sumatrapdf.EXE -reuse-instance " . b:filenamePDFWindows . " -forward-search " . filenametex . " " . linenumber
 " echo execstrWindows
 exec execstrWindows
 " let running = jobwait(id, 0)[0] == -1
