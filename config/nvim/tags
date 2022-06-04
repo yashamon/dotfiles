@@ -40,6 +40,8 @@ $	init.vim	/^noremap $ \/\\$<CR>hv?\\$<CR>l$/;"	m
 <D-u>	init.vim	/^noremap <D-u> <C-u>$/;"	m
 <Leader>U	init.vim	/^vnoremap <Leader>U ""y:%s\/<C-r>"$/;"	m
 <Leader>y	init.vim	/^nnoremap <silent> <Leader>y :YRGetElem<CR>$/;"	m
+<LeftDrag>	init.vim	/^noremap <LeftDrag> <LeftMouse>$/;"	m
+<LeftDrag>	init.vim	/^noremap! <LeftDrag> <LeftMouse>$/;"	m
 <M-.>	init.vim	/^nmap <M-.> t.<CR>h$/;"	m
 <M-.>	init.vim	/^vmap <M-.> t.<CR>h$/;"	m
 <M-b>	init.vim	/^map <M-b> <cmd>HopChar1<cr>{$/;"	m
