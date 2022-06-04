@@ -1,14 +1,12 @@
 !_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
 !_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
-!_TAG_OUTPUT_EXCMD	mixed	/number, pattern, mixed, or combineV2/
 !_TAG_OUTPUT_FILESEP	slash	/slash or backslash/
 !_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
 !_TAG_PATTERN_LENGTH_LIMIT	96	/0 for no limit/
-!_TAG_PROC_CWD	/home/yasha/dotfiles/config/nvim/	//
 !_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
 !_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
 !_TAG_PROGRAM_URL	https://ctags.io/	/official site/
-!_TAG_PROGRAM_VERSION	5.9.0	//
+!_TAG_PROGRAM_VERSION	5.9.0	/952bd1e9/
 #	init.vim	/^noremap # \/\\$<CR>v?\\$<CR>$/;"	m
 $	init.vim	/^noremap $ \/\\$<CR>hv?\\$<CR>l$/;"	m
 '	init.vim	/^map ' "$/;"	m
@@ -98,7 +96,8 @@ $	init.vim	/^noremap $ \/\\$<CR>hv?\\$<CR>l$/;"	m
 <leader>rr	init.vim	/^nnoremap <leader>rr :w<cr>:source $MYVIMRC<CR>$/;"	m
 <leader>s	init.vim	/^nnoremap <leader>s :silent call ToggleQuickFix()<CR>$/;"	m
 <leader>ss	init.vim	/^noremap <leader>ss :w<cr>:source $MYVIMRC<cr> $/;"	m
-<leader>t	init.vim	/^nnoremap <leader>t :FloatermToggle<cr>$/;"	m
+<leader>t	init.vim	/^nnoremap <leader>t :edit term:\/\/pwsh<cr>$/;"	m
+<leader>tt	init.vim	/^nnoremap <leader>tt :FloatermToggle<cr>$/;"	m
 <leader>u	init.vim	/^nnoremap <leader>u :UndotreeToggle<CR>$/;"	m
 <leader>v	init.vim	/^nmap <leader>v :call ViewPdf()<cr><cr>$/;"	m
 <leader>w	init.vim	/^noremap <leader>w :set tw=0<cr> $/;"	m
@@ -122,7 +121,7 @@ $	init.vim	/^noremap $ \/\\$<CR>hv?\\$<CR>l$/;"	m
 <m-s>	init.vim	/^vnoremap <m-s> :s\/\/\/gc<left><left><left><left>$/;"	m
 <m-space>	init.vim	/^map <m-space> <cmd>HopWord<cr>$/;"	m
 <m-t>	init.vim	/^noremap <m-t> :BTags<cr>$/;"	m
-<m-y>	init.vim	/^nnoremap <m-y> viw:buffer g:buffmain<cr>:<c-r>+<cr><cr>$/;"	m
+<m-y>	init.vim	/^nnoremap <m-y> viwy:buffer g:buffmain<cr>:<c-r>+<cr><cr>$/;"	m
 <up>	init.vim	/^imap <up> <nop>$/;"	m
 <up>	init.vim	/^nnoremap <up> 1<C-U>$/;"	m
 >	init.vim	/^vnoremap > >gv$/;"	m
