@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html class="texforgmail" style="width:70%; margin:auto;">
+<head>
+  <title>Options</title>
+  <link href="style.css" rel="stylesheet" type="text/css" media="all">
+</head>
+
+<body>
+  <p>
+    Font for Simple math, composing an email
+
+    <div>
+      <input class="text" type="text" id="va_ccf"
+	     style="width:80%; float:left"></input>
+    <button id="va_rcf">Reset to
+      default
+    </button>
+    </div>
+  </p>
+
+  <p style="clear:both">
+  
+  <p>
+    Font for Simple math, received emails
+
+    <div>
+      <input class="text" type="text" id="va_vcf"
+	     style="width:80%; float:left"></input>
+    <button id="va_rvf">Reset to
+      default
+    </button>
+    </div>
+  </p>
+
+  <p style="clear:both">
+
+  <p>
+    <form>Image server for Rich Math &nbsp;
+      <input type="radio" class="radio" name="va_tep"
+      value="0">Codecogs</input> &nbsp;
+      <input type="radio" class="radio" name="va_tep" value="1">WordPress</input>
+    </form>
+  </p>
+
+  <p>
+    <form>Magnification for the images &nbsp;
+      <input type="radio" class="radio" name="va_mg"
+      value="0">100%</input> &nbsp;
+      <input type="radio" class="radio" name="va_mg"
+      value="1">300%</input> and then downsized
+    </form>
+  </p>
+
+  <p>
+    The following options require a restart of Gmail.
+    <table>
+    <tr><form>
+      <td><input type="radio" class="radio" name="va_scb"
+	     value="0">Show</input>
+      <td><input type="radio" class="radio" name="va_scb"
+	     value="1">Hide</input>
+      <td>Compose TeX button
+	</form>
+	</tr>
+
+    <tr><form>
+	<td><input type="radio" class="radio" name="va_svb"
+	     value="0">Show</input>
+	<td><input type="radio" class="radio" name="va_svb"
+	     value="1">Hide</input>
+	<td>View TeX button
+      </form>
+    </tr>
+
+    <tr><form>
+	<td><input type="radio" class="radio" name="va_svm"
+	     value="0">Show</input>
+	<td><input type="radio" class="radio" name="va_svm"
+	     value="1">Hide</input>
+	<td>View dropdown menu
+      </form>
+    </tr>
+
+    <tr><form>
+	<td><input type="radio" class="radio" name="va_sft"
+	     value="0">Show</input>
+	<td><input type="radio" class="radio" name="va_sft"
+	     value="1">Hide</input>
+	<td>Guess naive TeX for composed emails (&#8679;F10)
+      </form>
+    </tr>
+
+    </table>
+  </p>
+  
+
+<!--
+    <div>
+      <button style="" id="optionsSave">Save</button>  
+    </div>
+-->
+
+
+
+
+<p>For more details, go to <a href="help.html" target="_blank">Help</a>.
+
+
+    <script src="options.js"></script> 
+    <script src="saveoptions.js"></script>
+</body>
+</html>

@@ -1,0 +1,19 @@
+{
+   "app": {
+      "background": {
+         "persistent": false,
+         "scripts": [ "main.js" ]
+      }
+   },
+   "icons": {
+      "128": "icon_128.png",
+      "16": "icon_16.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC/qWxocKk+oILSgMiiA4kB1FOHqSXKblvAiWmNPtnqW/awQSu/X1KRMATemoiO4akIzebgLb31g2zLj8WwhOtoCi7r8aObTHy69bIUNqffPhXTVR+LrLEK/rwCvANeT6bbvoOA+kSJLFfaIKVRhKP1NWYNlsPVdwfftmoWuK0M2QIDAQAB",
+   "manifest_version": 2,
+   "minimum_chrome_version": "70",
+   "name": "Crosh Window",
+   "permissions": [ "background" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "4"
+}

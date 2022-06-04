@@ -1,0 +1,438 @@
+body {
+
+}
+
+span.shared-label-icon {
+  display: block; 
+  margin-left: -16px; 
+  float: left;
+  width: 16px;
+  height: 10px;
+}
+
+div.section-container {
+	margin:6px 0;
+	-webkit-user-select: false;
+}
+
+div.section-container .section-header {
+	border: 1px solid #ddd; 
+	background: #f9f9f9;
+  padding: 5px 6px;
+	line-height: 18px;
+	font-size: 12px;
+}
+
+
+div.section-container .section-header a {
+	float: right;
+	text-decoration: none;
+	color: #111;
+	font-weight: bold;
+}
+
+div.section-container .section-header a:hover {
+	text-decoration: underline;
+}
+
+div.section-container .section-content {
+ 	position: relative;
+	border: 1px solid #ddd;
+	border-top: none;
+	display: none;
+}
+
+div.section-container .section-content div.section-overlay {
+	position: absolute;
+	top:0;
+	left:0;
+	bottom: 0;
+	right: 0;
+	background: #eee;
+	opacity: 0.25;
+	z-index: 1000000;
+}
+
+div.section-container.section-expanded .section-content {
+	display: block;
+}
+
+div.section-container .section-grip {
+	overflow: hidden;
+	display: none;
+	height: 8px;
+	border: 1px solid #ddd;
+	border-top: none;
+	cursor: n-resize;
+	background: #eee;
+	text-align: center;
+	line-height: 8px;
+	font-size: 14px;
+	font-weight: bold;
+	color: #aaa;
+}
+
+div.section-container.section-expanded .section-grip {
+	display: block;
+}
+
+
+div.section-container .section-header .arrow {
+	float: left;
+   height: 0;
+   width: 0;
+   border: 5px solid transparent;
+   margin-right: 4px;
+   margin-top: 4px;
+   border-left-color: #444;
+   border-top-color: transparent;
+}
+
+div.section-container.section-expanded .section-header .arrow {
+   margin-top: 6px;
+   margin-left: -2px;
+   margin-right: 6px;
+   border-left-color: transparent;
+   border-top-color: #444;
+}
+
+
+div.section-container .section-header .is-expanded  {
+  display: none;
+}
+
+div.section-container.section-expanded .section-header .is-collapsed {
+  display: none;
+}
+
+div.section-container.section-expanded .section-header .is-expanded {
+  display: inline-block;
+}
+
+div.section-container .section-header .cloudHQ-chat-close-text {
+  display: none;
+}
+
+/*----------------------------- START :: loading dots ----------------*/
+
+@-webkit-keyframes opacity {
+  0% { opacity: 1; }
+  100% { opacity: 0; }
+}
+@-moz-keyframes opacity {
+  0% { opacity: 1; }
+  100% { opacity: 0; }
+}
+
+.loading_dots {
+  text-align: center; 
+  margin: 0px 0 0 0;
+  font-size: 30px;
+}
+
+.loading_dots span {
+  -webkit-animation-name: opacity;
+  -webkit-animation-duration: 1s;
+  -webkit-animation-iteration-count: infinite;
+  
+  -moz-animation-name: opacity;
+  -moz-animation-duration: 1s;
+  -moz-animation-iteration-count: infinite;
+
+  animation-name: opacity;  
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+
+}
+
+.loading_dots span:nth-child(2) {
+  -webkit-animation-delay: 100ms;
+  -moz-animation-delay: 100ms;
+  animation-delay: 100ms;
+}
+
+.loading_dots span:nth-child(3) {
+  -webkit-animation-delay: 300ms;
+  -moz-animation-delay: 300ms;
+  animation-delay: 300ms;
+}
+
+
+.shared-label-icon {
+  position:relative;
+  width:16px;
+  height:16px;
+  margin-left: 20px;
+  width: 10px;
+  height: 10px;
+}
+
+.chq-chat-notif {
+  font-weight: bold;
+}
+
+/*----------------------------- END :: loading dots ----------------*/
+
+
+/* Example tokeninput style #1: Token vertical list*/
+ul.token-input-list {
+    overflow: hidden; 
+    height: auto !important; 
+    height: 1%;
+    width: 410px;
+    border: 1px solid #999;
+    cursor: text;
+    z-index: 999;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+    list-style-type: none;
+    clear: left;
+}
+
+ul.token-input-list li {
+    list-style-type: none;
+}
+
+ul.token-input-list li input {
+    border: 0;
+    width: 350px;
+    padding: 3px 8px;
+    background-color: white;
+    -webkit-appearance: caret;
+}
+
+ul.token-input-disabled,
+ul.token-input-disabled li input {
+  background-color: #E8E8E8;
+}
+
+ul.token-input-disabled li.token-input-token {
+  background-color: #D9E3CA;
+  color: #7D7D7D
+}
+
+ul.token-input-disabled li.token-input-token span {
+  color: #CFCFCF;
+  cursor: default;
+}
+
+li.token-input-token {
+    overflow: hidden; 
+    height: auto !important; 
+    height: 1%;
+    margin: 3px;
+    padding: 3px 5px;
+    background-color: #d0efa0;
+    color: #000;
+    cursor: default;
+    display: block;
+}
+
+li.token-input-token p {
+    float: left;
+    padding: 0;
+    margin: 0;
+}
+
+li.token-input-token span {
+    float: right;
+    color: #777;
+    cursor: pointer;
+}
+
+li.token-input-selected-token {
+    background-color: #08844e;
+    color: #fff;
+}
+
+li.token-input-selected-token span {
+    color: #bbb;
+}
+
+div.token-input-dropdown {
+    position: absolute;
+    width: 400px;
+    background-color: #fff;
+    overflow: hidden;
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    cursor: default;
+    font-size: 12px;
+    font-family: arial, sans-serif;
+    z-index: 1;
+}
+
+div.token-input-dropdown p {
+    margin: 0;
+    padding: 5px;
+    color: #777;
+}
+
+div.token-input-dropdown ul {
+    margin: 0;
+    padding: 0;
+}
+
+div.token-input-dropdown ul li {
+    background-color: #fff;
+    padding: 3px;
+    list-style-type: none;
+}
+
+div.token-input-dropdown ul li.token-input-dropdown-item {
+    background-color: #fafafa;
+}
+
+div.token-input-dropdown ul li.token-input-dropdown-item2 {
+    background-color: #fff;
+}
+
+div.token-input-dropdown ul li em {
+    font-style: normal;
+}
+
+div.token-input-dropdown ul li.token-input-selected-dropdown-item {
+    background-color: #d0efa0;
+}
+
+/* Example tokeninput style #2: Facebook style */
+ul.token-input-list-gmail {
+    overflow: hidden; 
+    height: auto !important; 
+    height: 1%;
+    width: 410px;
+    border: 1px solid #A9A9A9;
+    cursor: text;
+    min-height: 1px;
+    z-index: 999;
+    margin: 0;
+    padding: 0;
+    background-color: #FFFFdd;
+    list-style-type: none;
+    clear: left;
+    min-height: 27px;
+    padding-right: 3px;
+}
+
+ul.token-input-list-gmail li input {
+    border: 0;
+    width: 100px;
+    padding: 3px 8px;
+    background-color: #FFFFdd;
+    margin: 3px 0;
+    -webkit-appearance: caret;
+}
+
+li.token-input-token-gmail {
+    overflow: hidden; 
+    height: auto !important; 
+    height: 15px;
+    margin: 3px 0 3px 3px;
+    padding: 1px 6px;
+    box-shadow: none;
+    background-color: #4d90fe;
+    background-image: -webkit-linear-gradient(top,#4d90fe,#4787ed);
+    color: #fff;
+    font-size: 93%;
+    cursor: default;
+    border: 1px solid #3079ed;
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    float: left;
+    white-space: nowrap;
+}
+
+li.token-input-token-gmail p {
+    display: inline;
+    padding: 0;
+    margin: 0;
+}
+
+li.token-input-token-gmail span {
+    color: #fff;
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+li.token-input-selected-token-gmail {
+    background-color: #5670a6;
+    border: 1px solid #3b5998;
+    color: #fff;
+}
+
+li.token-input-input-token-gmail {
+    float: left;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+div.token-input-dropdown-gmail {
+    position: absolute;
+    width: 410px;
+    background-color: #fff;
+    overflow: hidden;
+    border-left: 1px solid #A9A9A9;
+    border-right: 1px solid #A9A9A9;
+    border-bottom: 1px solid #A9A9A9;
+    cursor: default;
+    font-size: 12px;
+    font-family: arial,sans-serif;
+    z-index: 1;    
+    -webkit-box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+}
+
+div.token-input-dropdown-gmail p {
+    margin: 0;
+    padding: 5px;
+    color: #777;
+}
+
+div.token-input-dropdown-gmail div {
+		color: #000;
+		padding: 2px 3px;
+}
+
+div.token-input-dropdown-gmail div.muted {
+		margin: 0;
+  	color: #555;
+}
+
+
+div.token-input-dropdown-gmail div b {
+    font-weight: bold !important;    
+}
+
+div.token-input-dropdown-gmail ul {
+    margin: 0;
+    padding: 0;
+}
+
+div.token-input-dropdown-gmail ul li {
+    background-color: #fff;
+    padding: 6px;
+    margin: 0;
+    list-style-type: none;
+}
+
+div.token-input-dropdown-gmail ul li.token-input-dropdown-item-gmail {
+    background-color: #fff;
+}
+
+div.token-input-dropdown-gmail ul li.token-input-dropdown-item2-gmail {
+    background-color: #fff;
+}
+
+div.token-input-dropdown-gmail ul li em {
+	font-weight: bold;
+  font-style: normal;
+}
+
+div.token-input-dropdown-gmail ul li.token-input-selected-dropdown-item-gmail {
+    background-color: #eee;
+    color: #111;
+}

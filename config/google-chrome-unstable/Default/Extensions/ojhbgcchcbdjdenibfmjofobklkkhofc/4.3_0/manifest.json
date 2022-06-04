@@ -1,0 +1,28 @@
+{
+   "app": {
+      "background": {
+         "scripts": [ "EpubReader/scripts/background.js" ]
+      }
+   },
+   "description": "Simple EPUB Reader for EPUB3 books.",
+   "file_handlers": {
+      "any": {
+         "extensions": [ "epub" ]
+      }
+   },
+   "icons": {
+      "128": "icon128.png",
+      "16": "icon16.png",
+      "32": "icon32.png",
+      "48": "icon48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAhiJfjKg+lEbU8LxovWIrcnikTru7kpyBY/TYyTn9CkxUKkRN++EsDGKqmv8OLvdT0DTWuhd8Ct4dnuxJ52srjuvcAr9OeqFI24zjfuOo2upapXUfhE8OTbf70t2lAXX+9IYWji4LCcMiNY/kQ/9rJa44Eo96DIe88iz3GqN1QOXKKyPmM7KfcLEXrW7d7hChqmuaQnzdzul+7iNDMVqqQCpnycS4RksUDCdrCGrwMBYOKffZCbPttRXhhfw62FYN2sLvYobHvcTz97/vyzwFy7B3ONabC8VKuX2fllQLBC4c6lftmGNDwqKpyDzJq8Z9Qq46C/mnn3tUb5H1y8bccQIDAQAB",
+   "manifest_version": 2,
+   "name": "Simple EPUB Reader",
+   "offline_enabled": true,
+   "permissions": [ "storage", "contextMenus", "unlimitedStorage", "tts", {
+      "fileSystem": [ "write", "retainEntries" ]
+   } ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "4.3"
+}

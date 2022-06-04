@@ -1,11 +1,12 @@
-**/Trash/* 
-**/test/*
-**/google-chrome-beta/*   
-**/google-chrome-unstable/*
-**/firefox/*
-**/google-chrome/* 
-**/chromium/*
-**/config/pulse/*
+**\Trash\* 
+**\test\*
+**\google-chrome-beta\*   
+**\google-chrome-unstable\*
+**\firefox\*
+**\google-chrome\* 
+**\chromium\*
+**\config\pulse\*
+config\PowerToys
 vifminfo 
 *.log
 

@@ -1,0 +1,66 @@
+{
+   "app": {
+      "background": {
+         "scripts": [ "conf.js", "background.js" ]
+      }
+   },
+   "author": "Kyle Graehl",
+   "default_locale": "en",
+   "description": "__MSG_extDescription__",
+   "externally_connectable": {
+      "ids": [ "bnceafpojmnimbnhamaeedgomdcgnbjk" ],
+      "matches": [ "*://*.jstorrent.com/*", "*://jstorrent.com/*" ]
+   },
+   "file_handlers": {
+      "any": {
+         "extensions": [ "torrent" ],
+         "types": [ "application/x-bittorrent" ]
+      }
+   },
+   "icons": {
+      "128": "js-128.png",
+      "16": "js-16.png",
+      "19": "js-19.png",
+      "256": "js-256.png",
+      "32": "js-32.png",
+      "48": "js-48.png",
+      "512": "js-512.png",
+      "96": "js-96.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDCvpsh4qvVEOcUZPeucJJ5VASn8fIOGsoQIXnIewzRcqi3Nwj/4WttouI8Fp2OlNxjH6rkaFOSaUPv5n0j20M7clmTjFPmJtbdKKBdVnE5g1jRpkzwMPMV8fpP5IyyTy0hSkK1FAWuxnlBmOMLSAeqCsVH4cYO9s2ilFMNMEG04wIDAQAB",
+   "manifest_version": 2,
+   "minimum_chrome_version": "33",
+   "name": "__MSG_extName__",
+   "oauth2": {
+      "client_id": "432934632994-20rclui1m8od0p2g09vfbrdnk93gbraa.apps.googleusercontent.com",
+      "scopes": [ "https://www.googleapis.com/auth/chromewebstore.readonly" ]
+   },
+   "offline_enabled": true,
+   "optional_permissions": [ "background" ],
+   "permissions": [ {
+      "fileSystem": [ "write", "directory", "retainEntries" ]
+   }, "contextMenus", "alarms", "storage", "unlimitedStorage", "system.storage", "system.cpu", "system.memory", "system.network", "idle", "power", "notifications", "http://*/", "https://*/", "identity", "browser", {
+      "mediaGalleries": [ "read" ]
+   } ],
+   "short_name": "__MSG_extName__",
+   "sockets": {
+      "tcp": {
+         "connect": [ "" ]
+      },
+      "tcpServer": {
+         "listen": [ "" ]
+      },
+      "udp": {
+         "bind": [ "" ],
+         "send": [ "" ]
+      }
+   },
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "url_handlers": {
+      "open_jstorrent": {
+         "matches": [ "*://*.jstorrent.com/open*", "*://jstorrent.com/open*" ],
+         "title": "Open in __MSG_extName__"
+      }
+   },
+   "version": "2.4.3"
+}

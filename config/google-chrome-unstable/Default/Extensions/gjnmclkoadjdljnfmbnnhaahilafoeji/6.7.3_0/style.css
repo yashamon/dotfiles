@@ -1,0 +1,79 @@
+.texforgmail 
+{
+    obackground: #ffebcd; /* blanched almond */
+    background: #f0f8ff; /* aliceblue */
+    obackground: #f0fff0;
+    font-size: 120%;
+    font-family: Verdana; 
+    line-height: 22px;
+}
+
+.texforgmail .menuItem {
+    font-size: 14px;
+    line-height: 30px;
+    cursor: pointer;
+    display: block;
+    position: relative;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow-x: hidden;
+    overflow-y: visible;
+    padding-left: 15px;
+    text-decoration: none;
+    color: #000;
+}
+
+.texforgmail .menuItem:hover {color: red; }
+
+
+.texforgmail h1,h2,h3,h4 {font-weight:700; ocolor: #993333}
+
+.texforgmail .pattern {color: #00dd00}
+
+.texforgmail .box {
+    old-margin: 5px 0.15em;
+    padding: 0.5em 1em;
+    display: block;
+    width: 60%;
+    margin: auto;
+    border-radius: 5px; 
+}
+
+.texforgmail .yellow { background:#ffffe0; border:1px solid #ffd700; }
+.texforgmail .green  { background:#f0fff0; border:1px solid #00ff00; }
+.texforgmail .red    { background:#fff0f5; border:1px solid #ff4500; }
+
+.texforgmail .popup { background:#f0fff0; 
+	 width: 180px; margin: 0px; padding: 10px;
+       }
+
+.texforgmail .section { border:1px solid gray; }
+
+.texforgmail #optionsSave { background:#fff0f5; border:2px solid #ff4500; border-radius: 5px;}
+
+.texforgmail .showimg {
+    float:left;
+    width: 48%;
+    margin-left: 0;
+    margin-bottom:2em; 
+    margin-top:.6em;
+    border: 1px solid;
+    border-color:#ccc;
+}
+    
+.texforgmail td {
+    padding: 0px 12px 10px 0px;
+}
+
+.texforgmail p {
+    margin: 3px 0px;
+    padding: 3px 0px;
+}
+
+.texforgmail button, .texforgmail .text {
+    width:19%; float:left; padding:3px 10px 4px 10px;
+}
+
+.texforgmail .img {
+    border: 1px solid; border-color:#ccc; padding:0px;
+}

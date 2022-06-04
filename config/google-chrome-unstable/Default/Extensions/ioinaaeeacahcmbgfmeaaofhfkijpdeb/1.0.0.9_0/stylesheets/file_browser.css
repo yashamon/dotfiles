@@ -1,0 +1,229 @@
+	
+	.file-browser {
+		font-family: Arial;
+		font-size: 12px;
+		color: #111;
+		border: 1px solid #ddd;
+		height: 420px;
+		width: 750px;
+	}
+	
+	.file-browser .muted {
+		color: #999;
+	}
+	
+	.file-browser a {
+		color: #195070;
+		text-decoration: none;
+	}
+	
+	.file-browser a:hover {
+		text-decoration: underline;
+	}
+	
+	.file-browser a.selected {
+		color: #111;
+		font-weight: bold;
+	}
+
+	.file-browser .left-side {
+		position: relative;
+		float: left;
+		width: 160px;
+		height: 400px;
+		overflow: none;
+		border-right: 1px solid #ddd;
+	}
+	
+	
+	.file-browser .left-side .left-header {
+		display: block;
+		height: 23px;
+		padding: 8px;
+	}
+	
+	.file-browser .left-side .left-header > a {
+		padding-left: 15px;
+		/* background: url('https://www.cloudhq.net/images/cloud-hq-text-small-dark.png') no-repeat 0 5px; */
+		display: block;
+		height: 24px;
+  }
+  
+	.file-browser .left-side .left-header > a:hover {
+		
+	}
+
+	.file-browser .left-side ul.service-list {
+		border-top: 1px solid #ddd;
+		list-style: none;
+		margin: 0;
+		padding: 15px;
+		height: 250px;
+		overflow: auto;
+	}
+
+	.file-browser .left-side ul.service-list > li {
+		padding: 6px 0;
+	}
+	
+	.file-browser .left-side ul.service-list > li > a.icon {
+		display: block;
+		line-height: 16px;
+		background: url('https://www.cloudhq.net/images/file_browser_srvicons.png') no-repeat 0 0;
+		padding-left: 24px;
+	}
+	
+	.file-browser .left-side ul.service-list > li > a.icon.icon-dropbox {
+		background-position: 0 0;
+	}
+	
+	.file-browser .left-side ul.service-list > li > a.icon.icon-google_docs {
+		background-position: 0 -16px;
+	}
+	
+	.file-browser .left-side ul.service-list > li > a.icon.icon-skydrive {
+		background-position: 0 -32px;
+	}
+	
+	.file-browser .left-side ul.service-list > li > a.icon.icon-evernote {
+		background-position: 0 -48px;
+	}
+	
+	.file-browser .left-side ul.service-list > li > a.icon.icon-box {
+		background-position: 0 -64px;
+	}
+	
+	.file-browser .left-side ul.service-list > li > a.icon.icon-egnyte {
+		background-position: 0 -80px;
+	}
+	
+	.file-browser .left-side .left-bottom {
+		margin: 15px;
+		position:absolute; 
+		bottom: 0;
+		left: 0;
+		right: 0;
+	}
+
+	.file-browser .navi-bar {
+		height: 24px;
+		padding: 8px;
+		margin-left: 160px;
+		overflow: hidden;
+	}
+
+	.file-browser .navi-bar .navi-title {
+		line-height: 24px;
+	}
+	
+	.file-browser .navi-bar a.btn-refresh {
+		background: url('https://www.cloudhq.net/images/file_browser_refresh.png') no-repeat 0 0;
+		display: block;
+		width: 24px;
+		height: 24px;
+		float: right;
+	}
+	
+	.file-browser .navi-bar a.btn-refresh:hover {
+		background-position: -24px 0;
+	}
+	
+	.file-browser .main {
+		position: relative;
+		margin-top: -1px;
+      	background-color: white;
+		height: 360px;
+		margin-left: 160px;
+		overflow-x: hidden;
+		overflow-y: auto;
+		border-top: 1px solid #ddd;
+	}
+	
+	.file-browser .main-splash {
+		position: absolute;
+		background: white;
+		padding: 60px;
+		text-align: center;
+		font-size: 14px;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+	}
+	
+	.file-browser.loading,
+	.file-browser .main.loading {
+		background: url('https://www.cloudhq.net/images/spinner_2.gif') no-repeat center center;
+	}
+
+	.file-browser .browser {
+		background-color: white;
+		display: block;
+	}
+	
+	.file-browser ul,
+	.file-browser li {
+	    -webkit-user-select: none;
+        -khtml-user-select: none;
+        -moz-user-select: -moz-none;
+        -o-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+	}
+	
+	.file-browser .browser ul {
+		display: block;
+		list-style: none;
+		margin: 0;
+		padding: 0;
+	}
+
+	.file-browser .browser ul > li {
+		display: block;
+		margin: 0;
+		padding: 0;
+		line-height: 36px;
+		height: 36px;
+		overflow: hidden;
+	}
+	
+	.file-browser .browser ul > li > .img {
+		float: left;
+		display: block;
+		background: url('https://www.cloudhq.net/images/file_browser_file.png') no-repeat left center;
+		width: 32px;
+		height: 32px;
+		margin: 0 8px 0 6px;
+	}
+	
+	.file-browser .browser ul > li.checked > .img {
+		background-image: url('https://www.cloudhq.net/images/file_browser_file_checked.png') !important;
+	}
+	
+	.file-browser .browser ul > li.is-folder > .img {
+		background-image: url('https://www.cloudhq.net/images/file_browser_folder.png');
+	}
+	
+	.file-browser .browser ul > li.is-folder.checked > .img {
+		background-image: url('https://www.cloudhq.net/images/file_browser_folder_checked.png') !important;
+	}
+	
+	.file-browser .browser ul > li.browser-back > .img {
+		background-image: url('https://www.cloudhq.net/images/file_browser_folder_up.png')
+	}
+	
+	.file-browser .browser ul > li.browser-back a {
+		color: #999;
+	}
+	
+	.file-browser .browser ul > li.hover {
+		background-color: #F2F7F9;
+	}
+	
+	.file-browser .browser ul > li.checked {
+		background-color: #e2e9ed !important;
+	}
+	
+	.file-browser .browser ul.browser-sub {
+		display: none;
+	}
