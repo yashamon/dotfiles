@@ -11,10 +11,9 @@
 #     }
 #
 # You may put this in one of the profiles found in $PROFILE.
-
-
 $tmp = [System.IO.Path]::GetTempFileName()
-/home/yasha/.nix-profile/bin/lf -last-dir-path="$tmp" $args
+$lf=(which lf)+" last-dir-path="+"$tmp"+" $args"
+Invoke-Expression $lf
 if (Test-Path -PathType Leaf "$tmp") {
     $dir = Get-Content "$tmp"
     Remove-Item -Force "$tmp"
