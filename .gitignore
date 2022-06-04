@@ -12,4 +12,8 @@ config\PowerToys\
 vifminfo 
 *.log
 test\
+config\\PowerToys\\
+.\config\\PowerToys\\
+!".\config\PowerToys/Keyboard Manager/settings.json"
+
 
