@@ -133,8 +133,6 @@ set title
 " set laststatus=1 
 set noshowcmd    
 set indentexpr=
-set shell=pwsh
-
 set noshowmatch  
 set wrap  
 set pb=10  
@@ -148,6 +146,7 @@ set clipboard+=unnamedplus	" yank to the system register (*) by default
 set expandtab        "replace <TAB> with spaces
 set softtabstop=3 
 set shiftwidth=3 
+set shell="C:\Program Files\PowerShell\7\pwsh.EXE"
 set termguicolors
 
 set guicursor=n-v-c:block,i-ci-ve:ver25,r-cr:hor20,o:hor50
@@ -172,13 +171,18 @@ autocmd BufReadPost * if @% !~# '\.git[\/\\]COMMIT_EDITMSG$' && line("'\"") > 1 
 au VIMEnter * let g:surround_108 = {
      \'q':  " ``\r''"
      \ }
+au VIMEnter * let g:buffmain=bufname()
+nnoremap <m-y> viwy:buffer g:buffmain<cr>:<c-r>+<cr><cr>
 let g:tex_flavor = "latex"
 let g:tex_isk = '@,48-57,58,_,192-255,:' 
 au FileType tex setlocal iskeyword+=:
 au FileType tex setlocal indentexpr=
 
 let g:tex_conceal = ""
-" set +=~/workspacemodules/tags
+set tags+=~/workspacemodules/tags
+set tags+=~\workspacemodules\tags
+set tags+=.\tags
+set tags+=./tags
 "set +=~/Dropbox/workspace/tags
   " set wrapmargin=1
 " set shada="NONE"  
@@ -239,6 +243,7 @@ hi SpellBad gui=underline
 au FileType Makefile set noexpandtab
 au FileType tex,text set spelllang=en_us
 au FileType tex,text,md set indentexpr=
+autocmd TermClose * if !v:event.status | exe 'bdelete! '..expand('<abuf>') | endif
 
 function Reset()
 TZAtaraxisOff 
@@ -254,7 +259,7 @@ au FileType vim,md set list
 " 
 " au FileType tex,text,md silent execute "!echo " . v:servername . " > ~/servername.txt"    
 au FileType * silent execute "!echo " . v:servername . " > ~/servername.txt"
-au UIEnter silent execute "!echo " . v:servername . " > ~/servername.txt"  
+au UIEnter silent execute "!echo " . v:servername . " > ~/servername.txt"
 function Server()
    silent execute "!echo " . v:servername . " > ~/servername.txt"
 endfunction
@@ -262,15 +267,15 @@ nmap <leader>nn :call Server()
 
 au Filetype tex,text,md vmap q xi<CR><CR><CR><CR><ESC>kki/begin{comment}<cr><cr>/end{comment}<esc>kp  
 
-au Filetype tex,text,md set tw=50 
+au Filetype tex,text,md set tw=50
 " au Filetype tex,text,md set fo=tc
 " au FileType tex set background=dark 
 au TextYankPost * lua vim.highlight.on_yank {higroup="IncSearch", timeout=150, on_visual=true}
-au TextYankPost * call neoyank#_append() 
+au TextYankPost * call neoyank#_append()
 
 set expandtab        "replace <TAB> with spaces
-set softtabstop=3 
-set shiftwidth=3 
+set softtabstop=3
+set shiftwidth=3
 
 "--------------------------------------------------------------------------- 
 " USEFUL SHORTCUTS
@@ -335,12 +340,13 @@ set fileencoding=utf-8
 "
 " terminal mappings 
 " 
+tnoremap <A-`> <C-\><C-n>
 tnoremap <A-Esc> <C-\><C-n>
 nmap <A-S-t> :te<cr>
+" other mappings 
 vnoremap <Leader>U ""y:%s/<C-r>"
 noremap <leader>r :w<cr>:e<cr> 
 " inoremap . .<esc>:w<cr>a
-
 noremap <leader>hh :set tw=50<cr>
 noremap <leader>w :set tw=0<cr> 
 map q :q<cr>
@@ -452,11 +458,12 @@ noremap <m-1> <C-o>
 noremap <m-2> <C-i>
 noremap <D-d> <C-d>
 noremap ;w <Esc>:w<CR>
-noremap <C-t> <Esc>:AsyncRun c -R<CR>
+noremap <C-t> <Esc>:AsyncRun ctags -R<CR>
 noremap <D-u> <C-u>
 noremap <A-u> <C-u>
 " windows stuff
-" nnoremap ;ww :%s/ //gc
+nnoremap ;ww :%s///gc
+
 " this mapping Enter key to <C-y> to chose the current highlight item 
 " and close he selection list, same as other IDEs.
 inoremap <expr> <CR> pumvisible() ? "\<C-y>" : "\<C-g>u\<CR>"
@@ -487,8 +494,7 @@ map <m-space> <cmd>HopWord<cr>
 
 " FZF 
 "
-noremap <m-t> :B<cr>
-noremap <m-y> :<cr>
+noremap <m-t> :BTags<cr>
 noremap S <Esc> :BLines<CR>
 "noremap L <Esc>:AsyncRun sentence.sh %;nvr sentence_%<cr>:echo 'press any key'<cr>:execute 'call getchar()' | BLines<cr>
 " Line search mapping 
@@ -586,7 +592,7 @@ profile func *
 profile file *
 endfunction 
 
-function! Sentence()
+function Sentence()
   let g:buf = bufname()
   silent !sentence.sh %
   silent echo "Print any character"
@@ -598,11 +604,20 @@ function! Sentence()
 endfunction
 noremap LL :lua require("zen-mode").close()<cr>:call Sentence()<cr>
 " noremap L :TZAtaraxisOff<cr><cr>:call Sentence()<cr>
-function! Git() 
-AsyncRun -silent if ( (git rev-parse --is-inside-work-tree) -and (git rev-parse --git-dir) ) { git add . ; git commit -m -a ; git push --all origin }
+function GitAsync()
+let g:bufdude = bufname()
+silent te if ( (git rev-parse --is-inside-work-tree) -and (git rev-parse --git-dir) ) { git add . ; git commit -m -a; git push --all origin; ctags -R }
+execute "buffer" g:bufdude 
 endfunction
+  
+" " AsyncRun -silent if git rev-parse --is-inside-work-"tree 
+"|| git rev- parse --git-dir > /dev/null 2>&1 ; then git "add 
+". ; git commit -m -a ; git push --all origin; "fi  */
+" te if ( (git rev-parse --is-inside-work-tree) -and (git 
+"rev-parse --git-dir) ) { git add . ; git commit -m -a ; "git push --all origin } */
+" endfunction */
 
-function! ToggleQuickFix() 
+function ToggleQuickFix()
       if empty(filter(getwininfo(), 'v:val.quickfix'))
       exec "w"
         echo bufname()
@@ -611,7 +626,7 @@ function! ToggleQuickFix()
         let b:filenamedir=expand('%:p:h')  
         echo b:filenamedir
         let b:filename=expand('%:t:r')
-        let b:errors=b:filenamedir . "\\build\\" . b:filename .".log"
+        let b:errors=b:filenamedir . "/buildback/" . b:filename .".log"
         echo b:errors
         exec "caddf" b:errors
         copen
@@ -626,40 +641,37 @@ endfunction
 
 nnoremap <leader>s :silent call ToggleQuickFix()<CR>
 function! ClearLatex()
-  silent !rm .\buildback\* 
+  silent !rm ./buildback/* 
 endfunction 
 
 function! CompileLatex()
   silent call ClearLatex()
   let buf = bufname()
-  let b:filenamedir=expand('%:p:h')  
-  let filenametex=expand('%:p:t') 
-  let filenametexwhole=expand('%:p') 
-  let filenameroot=expand('%:t:r')
-" let filenamePDF=filename[:-4]."pdf"
-  let b:filenameRoot=b:filenamedir . "\\build\\" . filenameroot
-  silent te latexmk -pvc -synctex=1 -file-line-error -f -gg -jobname="b:filenameRoot" %
+  silent te latexmk -pvc -halt-on-error -synctex=1 -file-line-error -f -output-directory="buildback" %
   execute "buffer" buf
   call ViewPdf()
 endfunction
 
 function! ViewPdf() 
 wa
-silent execute "!echo " . v:servername . " > C:\\Users\\yasha\\servername.txt"
+let g:buffmain=bufname()
+silent execute "!echo " . v:servername . " > ~/servername.txt"
 let buf = bufname()
 let linenumber=line(".")
 let colnumber=col(".") 
 let b:filenamedir=expand('%:p:h')  
-let filenametex=expand('%:p:t') 
+let filenametex=expand('%:p:t')
 let filenametexwhole=expand('%:p') 
 let filenameroot=expand('%:t:r')
 " let filenamePDF=filename[:-4]."pdf"
-let filenamePDF=b:filenamedir . "\\" . filenameroot . ".pdf" 
-echo filenamePDF
-let execstr="silent !sumatrapdf -reuse-instance " . filenamePDF . " -forward-search " . filenametexwhole . " " . linenumber
-" let execstr="silent !/mnt/c/Users/yasha/AppData/Local/SumatraPDF/SumatraPDF.exe -forward-search " . linenumber . " " . filenametexwhole . " &>/dev/null &"
-echo execstr
-exec execstr
+let filenamePDFLinux=b:filenamedir . "/buildback/" . filenameroot . ".pdf" 
+let b:filenamePDFWindows="buildback\\" . filenameroot . ".pdf"
+echo b:filenamePDFWindows
+let execstrLinux="silent te zathura --synctex-forward " . linenumber . ":" . colnumber . ":" . filenametexwhole . " " . filenamePDFLinux
+let execstrWindows="silent te C:/Users/yasha/scoop/shims/sumatrapdf.EXE -reuse-instance " . b:filenamePDFWindows . " -forward-search " . filenametex . " " . linenumber 
+echo execstrWindows
+exec execstrWindows
+" let running = jobwait(id, 0)[0] == -1
 execute "buffer" buf
 endfunction 
 nmap <leader>v :call ViewPdf()<cr><cr>
@@ -689,7 +701,7 @@ let g:auto_save_in_insert_mode = 0
 let g:auto_save_silent = 1
 
 "Git autocommit  (private git repo)
-autocmd BufWritePost * call Git()
+autocmd BufWritePost * call GitAsync()
 lua <<EOF
 require'nvim-treesitter.configs'.setup { 
     --
@@ -813,17 +825,19 @@ local feedkey = function(key, mode)
   vim.api.nvim_feedkeys(vim.api.nvim_replace_termcodes(key, true, true, true), mode, true)
 end
 
-local cmp = require('cmp')
-cmp.setup {
- snippet = {
+local cmp = require'cmp'
+cmp.setup ({
+snippet = {
       expand = function(args)
         -- For `vsnip` user.
         vim.fn["vsnip#anonymous"](args.body) -- For `vsnip` user.
   -- ... Your other configuration ...
 end,
 },
-mapping = {
-      ['<C-d>'] = cmp.mapping.scroll_docs(-4),
+mapping = cmp.mapping.preset.insert({
+        ["<C-p>"] = cmp.mapping.select_prev_item(),
+        ["<C-n>"] = cmp.mapping.select_next_item(),
+       ['<C-d>'] = cmp.mapping.scroll_docs(-4),
       ['<C-f>'] = cmp.mapping.scroll_docs(4),
       ['<C-x>'] = cmp.mapping.complete(),
       ['<C-e>'] = cmp.mapping.close(),
@@ -848,12 +862,10 @@ mapping = {
         feedkey("<Plug>(vsnip-jump-prev)", "")
       end
     end, { "i", "s" }),
--- ... Your other mappings ...
-
-},
+}),
 requires = {
     {
-      'quangnguyen30192/cmp-nvim-',
+      'quangnguyen30192/cmp-nvim-tags',
       -- if you want the sources is available for some file types
       ft = {
         'tex',
@@ -862,26 +874,23 @@ requires = {
     }
     },
 -- ... Your other configuration ...
-sources = {
+sources = cmp.config.sources({
       -- For vsnip user. 
-
-{ name = '', keyword_length = 1000 },
+{ name = 'tags' },
 { name = 'vsnip', keyword_length = 1000 },
-         -- For luasnip user.
-      -- { name = 'luasnip' },
 -- For ultisnips user.
       -- { name = 'ultisnips' },  
-   { name = 'buffer', keyword_length = 1000 },
-   { name = 'omni', keyword_length = 4},
+{ name = 'buffer', keyword_length = 1000 },
+{ name = 'omni', keyword_length = 4},
        -- { name = 'spell' }, 
-   { name = 'nvim_lsp', keyword_length = 4 },
+{ name = 'nvim_lsp', keyword_length = 4 },
       --{ name = 'treesitter', keyword_length = 4 },
 --{ name = 'latex_symbols' },
-},
+}),
 completion = {
     autocomplete = false 
     }
-}
+})
 EOF
 
 " 
@@ -1497,8 +1506,45 @@ let g:neovide_fullscreen=v:true
 if exists('g:gonvim_running')
     "goneovim specific stuff
 elseif exists('g:neovide')
-   set guifont=Fira\ Code\ Light:h10
+   set guifont=Fira\ Code\ Light:h20
 end
+
+" lua <<EOF
+" -- Setup cmp.
+" -- Installation
+" use {
+"   'hrsh7th/nvim-cmp',
+"   requires = {
+"     {
+"       'quangnguyen30192/cmp-nvim-tags',
+"       -- if you want the sources is available for some file types
+"       ft = {
+"         'kotlin',
+"         'java'
+"       }
+"     }
+"   },
+" config = function ()
+"     require'cmp'.setup {
+"     sources = {
+"       { name = 'tags' },
+"      
+"     { name = 'vsnip', keyword_length = 1000 },
+" { name = 'tags' },
+" -- For ultisnips user.
+"       -- { name = 'ultisnips' },  
+" { name = 'buffer', keyword_length = 1000 },
+" { name = 'omni', keyword_length = 4},
+"        -- { name = 'spell' }, 
+" { name = 'nvim_lsp', keyword_length = 4 },
+"       --{ name = 'treesitter', keyword_length = 4 },
+" --{ name = 'latex_symbols' },
+" }
+" }
+" end
+" }
+
+" test test2
 " let g:autotagTagsFile="~/workspacemodules/tags"
 " let g:autotagFile="~/workspacemodules/tags"
 " lua <<EOF
@@ -1524,5 +1570,5 @@ end
 "   }
 "   end
 " }
-" EOF teast
+" EOF
 "
