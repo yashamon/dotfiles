@@ -201,7 +201,7 @@ set inccommand=split
 set mouse=a
 noremap <LeftDrag> <LeftMouse>
 noremap! <LeftDrag> <LeftMouse>
-set selectmode=mouse, key
+" set selectmode=mouse, key
 set bs=2		" allow backspacing over everything in insert mode 
 set undofile                " Save undo's after file closes
 set undodir=~/.undo " where to save undo histories
