@@ -7,7 +7,9 @@
 **\chromium\*
 **\config\pulse\*
 config\PowerToys\
-!"config\PowerToys\Keyboard Manager\settings.json"
+**\config\PowerToys\
+*\config\PowerToys\
+!".\config\PowerToys\Keyboard Manager\settings.json"
 vifminfo 
 *.log
 
