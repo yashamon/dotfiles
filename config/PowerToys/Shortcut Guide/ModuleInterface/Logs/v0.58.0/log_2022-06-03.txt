@@ -1,0 +1,26 @@
+[2022-06-03 09:04:07.006442] [p-8640] [t-8620] [info] shortcut-guide logger is initialized
+[2022-06-03 09:04:07.038070] [p-8640] [t-8620] [trace] GetHotkeyEx()
+[2022-06-03 09:04:09.393909] [p-8640] [t-8620] [info] Shortcut Guide is enabling
+[2022-06-03 09:04:09.393929] [p-8640] [t-8620] [trace] GetHotkeyEx()
+[2022-06-03 09:32:53.962362] [p-8396] [t-8328] [info] shortcut-guide logger is initialized
+[2022-06-03 09:32:53.969335] [p-8396] [t-8328] [trace] GetHotkeyEx()
+[2022-06-03 09:32:55.055657] [p-8396] [t-8328] [info] Shortcut Guide is enabling
+[2022-06-03 09:32:55.055674] [p-8396] [t-8328] [trace] GetHotkeyEx()
+[2022-06-03 10:04:50.512914] [p-8604] [t-8612] [info] shortcut-guide logger is initialized
+[2022-06-03 10:04:50.519828] [p-8604] [t-8612] [trace] GetHotkeyEx()
+[2022-06-03 10:04:52.841513] [p-8604] [t-8612] [info] Shortcut Guide is enabling
+[2022-06-03 10:04:52.841524] [p-8604] [t-8612] [trace] GetHotkeyEx()
+[2022-06-03 14:40:32.642050] [p-9996] [t-10000] [info] shortcut-guide logger is initialized
+[2022-06-03 14:40:32.643051] [p-9996] [t-10000] [trace] GetHotkeyEx()
+[2022-06-03 14:40:34.955451] [p-9996] [t-10000] [info] Shortcut Guide is enabling
+[2022-06-03 14:40:34.955476] [p-9996] [t-10000] [trace] GetHotkeyEx()
+[2022-06-03 19:57:10.594729] [p-9996] [t-1716] [trace] Send settings telemetry
+[2022-06-03 19:57:11.045626] [p-9996] [t-1716] [trace] Started SG process with pid=21380
+[2022-06-03 21:37:06.890313] [p-9160] [t-9164] [info] shortcut-guide logger is initialized
+[2022-06-03 21:37:07.099305] [p-9160] [t-9164] [trace] GetHotkeyEx()
+[2022-06-03 21:37:13.110565] [p-9160] [t-9164] [info] Shortcut Guide is enabling
+[2022-06-03 21:37:13.110847] [p-9160] [t-9164] [trace] GetHotkeyEx()
+[2022-06-03 21:39:00.484530] [p-1932] [t-8844] [info] shortcut-guide logger is initialized
+[2022-06-03 21:39:00.485821] [p-1932] [t-8844] [trace] GetHotkeyEx()
+[2022-06-03 21:39:01.008979] [p-1932] [t-8844] [info] Shortcut Guide is enabling
+[2022-06-03 21:39:01.009043] [p-1932] [t-8844] [trace] GetHotkeyEx()

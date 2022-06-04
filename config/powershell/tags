@@ -1,0 +1,42 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_EXCMD	mixed	/number, pattern, mixed, or combineV2/
+!_TAG_OUTPUT_FILESEP	slash	/slash or backslash/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PATTERN_LENGTH_LIMIT	96	/0 for no limit/
+!_TAG_PROC_CWD	/home/yasha/dotfiles/config/powershell/	//
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	5.9.0	//
+EDITOR	Microsoft.PowerShell_profile.ps1	/^$Env:EDITOR = (which goneovim)$/;"	v
+GDK_SCALE	Microsoft.PowerShell_profile.ps1	/^$Env:GDK_SCALE=2 $/;"	v
+Jumphome	Microsoft.PowerShell_profile.ps1	/^Function Jumphome {fdfind . $HOME -t d -H | fzf | cd}$/;"	f
+OnViModeChange	Microsoft.PowerShell_profile.ps1	/^function OnViModeChange {$/;"	f
+QT_QPA_PLATFORM	Microsoft.PowerShell_profile.ps1	/^$Env:QT_QPA_PLATFORM="wayland"$/;"	v
+QT_SCALE_FACTOR	Microsoft.PowerShell_profile.ps1	/^$Env:QT_SCALE_FACTOR=2 $/;"	v
+clip	Microsoft.PowerShell_profile.ps1	/^function clip { \/mnt\/c\/windows\/System32\/WindowsPowerShell\/v1.0\/powershell.exe -c Get-Clip/;"	f
+hw	Microsoft.PowerShell_profile.ps1	/^function hw { pandoc ~\/web\/classes\/topology\/topology2019.md > ~\/web\/classes\/topology\/top/;"	f
+lat	Microsoft.PowerShell_profile.ps1	/^function lat($1) { echo $1$/;"	f
+latexi	Microsoft.PowerShell_profile.ps1	/^function latexi() { latexmk -g -pdf -file-line-error -synctex=1  -interaction=nonstopmode$/;"	f
+lfrc	Microsoft.PowerShell_profile.ps1	/^function lfrc { neo  ~\/dotfiles\/config\/lf\/lfrc }$/;"	f
+lfrc	Microsoft.PowerShell_profile.ps1	/^function lfrc { neo $HOME\\dotfiles\\config\\lf\\lfrc } $/;"	f
+modulestext	Microsoft.PowerShell_profile.ps1	/^function modulestext { Get-InstalledModule | foreach { $_.Name > \/home\/yasha\/dotfiles\/PSmodu/;"	f
+neo	Microsoft.PowerShell_profile.ps1	/^function neo($1) {$/;"	f
+nf	Microsoft.PowerShell_profile.ps1	/^Function nf {$/;"	f
+pdf	Microsoft.PowerShell_profile.ps1	/^function pdf($1) { zathura $1 }$/;"	f
+psrc	Microsoft.PowerShell_profile.ps1	/^function psrc { neo $profile } $/;"	f
+pull	Microsoft.PowerShell_profile.ps1	/^function pull { git pull --recurse-submodules ; git submodule update --recursive --remote }$/;"	f
+pullmaster	Microsoft.PowerShell_profile.ps1	/^function pullmaster { git pull --recurse-submodules ; git submodule update --recursive --remote /;"	f
+push	Microsoft.PowerShell_profile.ps1	/^function push { git add . ; git commit -m -a ; git push --all origin }$/;"	f
+pushgh	Microsoft.PowerShell_profile.ps1	/^function pushgh { pandoc index.md > index.html ; git add . ; git commit -m -a ; git push origin /;"	f
+pushmod	Microsoft.PowerShell_profile.ps1	/^function pushmod { git submodule foreach git add . ; git submodule foreach git commit -m -a ; gi/;"	f
+pvc	Microsoft.PowerShell_profile.ps1	/^function pvc($1) { latexmk -pdf -pvc -file-line-error -synctex=1  -interaction=nonstopmode$/;"	f
+sendFunction	Microsoft.PowerShell_profile.ps1	/^function sendFunction($1) {$/;"	f
+swrc	Microsoft.PowerShell_profile.ps1	/^function swrc { neo ~\/dotfiles\/config\/sway\/config }$/;"	f
+texi	Microsoft.PowerShell_profile.ps1	/^function texi($1) { pdflatex -file-line-error -synctex=1  -interaction=nonstopmode -recorder $1 /;"	f
+ubuntu	Microsoft.PowerShell_profile.ps1	/^function ubuntu { sudo apt update$/;"	f
+vrc	Microsoft.PowerShell_profile.ps1	/^function vrc { neo $HOME\\dotfiles\\config\\nvim\\init.vim }$/;"	f
+vrc	Microsoft.PowerShell_profile.ps1	/^function vrc { neo ~\/dotfiles\/config\/nvim\/init.vim }$/;"	f
+wifi	Microsoft.PowerShell_profile.ps1	/^function wifi { sudo wifi-menu -o }$/;"	f
+zrc	Microsoft.PowerShell_profile.ps1	/^function zrc { neo ~\/dotfiles\/zshrc }$/;"	f

@@ -42,7 +42,7 @@ Annotations [
 ]
 
 RememberOpenedFiles = true
-RememberStatePerDocument = true
+RememberStatePerDocument = false
 RestoreSession = true
 UiLanguage = en
 InverseSearchCmdLine = C:/Users/yasha/dotfiles/scripts/remote.ps1 "%l"
@@ -77,7 +77,7 @@ TreeFontSize = 0
 SmoothScroll = false
 ShowStartPage = true
 CheckForUpdates = false
-WindowState = 2
+WindowState = 3
 WindowPos = 698 0 1512 1920
 UseTabs = true
 UseSysColors = false
@@ -97,7 +97,7 @@ FileStates [
 		PageNo = 5
 		Zoom = fit content
 		Rotation = 0
-		WindowState = 2
+		WindowState = 3
 		WindowPos = 698 0 1512 1920
 		ShowToc = true
 		SidebarDx = 364
