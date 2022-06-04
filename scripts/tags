@@ -1,65 +1,27 @@
 !_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
 !_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
-!_TAG_OUTPUT_EXCMD	mixed	/number, pattern, mixed, or combineV2/
 !_TAG_OUTPUT_FILESEP	slash	/slash or backslash/
 !_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
 !_TAG_PATTERN_LENGTH_LIMIT	96	/0 for no limit/
-!_TAG_PROC_CWD	/home/yasha/dotfiles/scripts/	//
 !_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
 !_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
 !_TAG_PROGRAM_URL	https://ctags.io/	/official site/
-!_TAG_PROGRAM_VERSION	5.9.0	//
-EOF	lf-ueberzug-cleaner	/^cat <<EOF | paste -sd '' >"$LF_UEBERZUG_TEMPDIR\/fifo"$/;"	h
-EOF	lf-ueberzug-previewer	/^	cat <<-EOF | paste -sd '' >"$LF_UEBERZUG_TEMPDIR\/fifo"$/;"	h
-STATES	rotx	/^STATES = [$/;"	v
+!_TAG_PROGRAM_VERSION	5.9.0	/952bd1e9/
 a	gheto.ps1	/^$a=$args[0]$/;"	v
-a	remote.ps1	/^$a=$args[0]$/;"	v
-accel_x	rotx	/^    accel_x = bdopen('in_accel_x_raw')$/;"	v
-accel_y	rotx	/^    accel_y = bdopen('in_accel_y_raw')$/;"	v
-array_str	gcuts	/^array_str = get("gsettings get "+key)$/;"	v
-b	remote.ps1	/^$b=$args[1]$/;"	v
-bdopen	rotx	/^def bdopen(fname):$/;"	f
-cleanup	lf-ueberzug	/^cleanup() {$/;"	f
-cmd0	gcuts	/^cmd0 = 'gsettings set '+key+' "'+str(current)+'"'$/;"	v
-cmd1	gcuts	/^cmd1 = 'gsettings set '+subkey1+new+" name '"+sys.argv[1]+"'"$/;"	v
-cmd2	gcuts	/^cmd2 = 'gsettings set '+subkey1+new+" command '"+sys.argv[2]+"'"$/;"	v
-cmd3	gcuts	/^cmd3 = 'gsettings set '+subkey1+new+" binding '"+sys.argv[3]+"'"$/;"	v
-command_result	gcuts	/^command_result = array_str.lstrip("@as")$/;"	v
-current	gcuts	/^current = eval(command_result)$/;"	v
-current_state	rotx	/^                current_state = i$/;"	v
-current_state	rotx	/^    current_state = None$/;"	v
-devices	rotx	/^devices = check_output(['xinput', '--list', '--name-only']).splitlines()$/;"	v
+buf	remote.ps1	/^$buf=$args[1]$/;"	v
 dir	lfcd.ps1	/^    $dir = Get-Content "$tmp"$/;"	v
-disable_touchpads	rotx	/^disable_touchpads = False$/;"	v
-e	remote.ps1	/^$e="nvim --server " + "$var" + " --remote-send " + ':' +$/;"	v
-firstname	gcuts	/^firstname = "custom"$/;"	v
-g	rotx	/^g = 7.0  # (m^2 \/ s) sensibility, gravity trigger$/;"	v
-get	gcuts	/^get = lambda cmd: subprocess.check_output(["\/bin\/bash", "-c", cmd]).decode("utf-8")$/;"	f
-item_s	gcuts	/^item_s = "\/"+key.replace(" ", "\/").replace(".", "\/")+"\/"$/;"	v
-key	gcuts	/^key = "org.gnome.settings-daemon.plugins.media-keys custom-keybindings"$/;"	v
+dir	lfcdWin.ps1	/^    $dir = Get-Content "$tmp"$/;"	v
+e	remote.ps1	/^$e="nvim --server " + "$var" + " --remote-send " + "`'" + ':' +$/;"	v
+install_zsh	makesymlinksChromeos.sh	/^install_zsh () {$/;"	f
 lf	lfcd.ps1	/^$lf=(which lf)+" last-dir-path="+"$tmp"+" $args"$/;"	v
+line	remote.ps1	/^$line=$args[0]$/;"	v
 myfile	lualatexscript.ps1	/^$myfile=(Get-item $args[-1]).BaseName$/;"	v
 mylogstring	lualatexscript.ps1	/^$mylogstring=$myfile+".log"$/;"	v
 mypdfstring	lualatexscript.ps1	/^$mypdfstring=$myfile+".pdf"$/;"	v
-n	gcuts	/^        n = n+1$/;"	v
-n	gcuts	/^n = 1$/;"	v
-new	gcuts	/^    new = item_s+firstname+str(n)+"\/"$/;"	v
-op	rotx	/^from os import path as op$/;"	x	nameref:unknown:path
-preview	lf-ueberzug-previewer	/^preview() {$/;"	f
-read	rotx	/^def read(fname):$/;"	f
-read_accel	rotx	/^def read_accel(fp):$/;"	f
-rotate	autorotate	/^function rotate {$/;"	f
-rotate	rotatesway	/^function rotate {$/;"	f
-rotate	rotx	/^def rotate(state):$/;"	f
-rotate_ms	rotatesway	/^function rotate_ms {$/;"	f
-scale	rotx	/^scale = float(read('in_accel_scale'))$/;"	v
-subkey1	gcuts	/^subkey1 = key.replace(" ", ".")[:-1]+":"$/;"	v
-sync	lualatexscript.ps1	/^$sync=$myfile+".synctex.gz"$/;"	v
+parameter1	fuck.ps1	/^$parameter1 = $args[0]$/;"	v
+res	jumpDir.ps1	/^Invoke-Command -ScriptBlock { $res= fd . $HOME -t d -H | fzf --reverse --header='Jump to locatio/;"	v
+res	jumpRootDir.ps1	/^Invoke-Command -ScriptBlock { $res= fd . '\/' -t d -H | fzf --reverse --header='Jump to location/;"	v
+res	simplejump.ps1	/^$res= fd . -H -I -d 1 | fzf --reverse --header='Jump to location' | sed 's\/\\\\\/\\\\\\\\\/g' $/;"	v
 tmp	lfcd.ps1	/^$tmp = [System.IO.Path]::GetTempFileName()$/;"	v
-touchpad_names	rotx	/^touchpad_names = ['touchpad', 'trackpoint']$/;"	v
-touchpads	rotx	/^touchpads = [i for i in devices if any(j in i.lower() for j in touchpad_names)]$/;"	v
-touchscreen_names	rotx	/^touchscreen_names = ['touchscreen', 'wacom']$/;"	v
-touchscreens	rotx	/^touchscreens = [i for i in devices if any(j in i.lower() for j in touchscreen_names)]$/;"	v
+tmp	lfcdWin.ps1	/^$tmp = [System.IO.Path]::GetTempFileName()$/;"	v
 var	remote.ps1	/^$var=(cat ~\/servername.txt)$/;"	v
-x	rotx	/^        x = read_accel(accel_x)$/;"	v
-y	rotx	/^        y = read_accel(accel_y)$/;"	v
