@@ -659,18 +659,18 @@ silent execute "!echo " . v:servername . ' > ~/servername.txt'
 silent execute "!echo " . v:servername . ' > C:/Users/yasha/servername.txt'
 let buf = bufname()
 let linenumber=line(".")
-let colnumber=col(".") 
-let b:filenamedir=expand('%:p:h')  
+let colnumber=col(".")
+let b:filenamedir=expand('%:p:h')
 let filenametex=expand('%:p:t')
-let filenametexwhole=expand('%:p') 
+let filenametexwhole=expand('%:p')
 let filenameroot=expand('%:t:r')
 " let filenamePDF=filename[:-4]."pdf"
-let filenamePDFLinux=b:filenamedir . "/buildback/" . filenameroot . ".pdf" 
+let filenamePDFLinux=b:filenamedir . "/buildback/" . filenameroot . ".pdf"
 let b:filenamePDFWindows="buildback\\" . filenameroot . ".pdf"
-echo b:filenamePDFWindows
+" echo b:filenamePDFWindows
 let execstrLinux="silent te zathura --synctex-forward " . linenumber . ":" . colnumber . ":" . filenametexwhole . " " . filenamePDFLinux
-let execstrWindows="silent te pwsh -c C:/Users/yasha/scoop/shims/sumatrapdf.EXE -reuse-instance " . b:filenamePDFWindows . " -forward-search " . filenametex . " " . linenumber
-echo execstrWindows
+let execstrWindows="silent te pwsh -c C:/Users/yasha/scoop/shims/sumatrapdf.EXE -reuse-instance " . b:filenamePDFWindows . " -forward-search " . filenametex . " " . linenumber 
+" echo execstrWindows
 exec execstrWindows
 " let running = jobwait(id, 0)[0] == -1
 execute "buffer" buf
