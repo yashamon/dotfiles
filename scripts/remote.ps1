@@ -1,11 +1,11 @@
 #!/bin/pwsh
-$a=$args[0]
-$b=$args[1]
-echo $a
-echo $b
+$line=$args[0]
+$buf=$args[1]
+echo $line
+echo $buf
 $var=(cat ~/servername.txt)
 echo $var
-$e="nvim --server " + "$var" + " --remote-send " + ':' +
-"buffer $b" + '<cr><esc>:' + "$a"+'<cr>'
+$e="nvim --server " + "$var" + " --remote-send " + "`'" + ':' +
+'buffer ' + " $buf" + '<cr><esc>:' + "$line"+'<cr>'+"`'"
 echo $e
 Invoke-Expression $e

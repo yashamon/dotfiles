@@ -17,11 +17,11 @@
       "PSModule"
     ],
     "Includes": {
+      "Cmdlet": "",
+      "DscResource": "",
       "Function": "",
       "Command": "",
-      "Cmdlet": "",
       "RoleCapability": "",
-      "DscResource": "",
       "Workflow": ""
     },
     "PowerShellGetFormatVersion": null,
@@ -32,14 +32,14 @@
     "PackageManagementProvider": "NuGet",
     "AdditionalMetadata": {
       "summary": "TabExpansionPlusPlus extends the tab expansion and Intellisense features of\nPowerShell to help make PowerShell scripters more productive.\n\nYou can easily create your own custom argument completers. There are many\nexamples included in the module for many commands you may already use.",
-      "tags": "PSModule",
       "copyright": "(c) 2013. All rights reserved.",
+      "SourceName": "PSGallery",
       "description": "TabExpansionPlusPlus extends the tab expansion and Intellisense features of\nPowerShell to help make PowerShell scripters more productive.\n\nYou can easily create your own custom argument completers. There are many\nexamples included in the module for many commands you may already use.",
+      "tags": "PSModule",
       "PackageManagementProvider": "NuGet",
       "installeddate": "2022-05-27T12:30:55.5780548-05:00",
-      "SourceName": "PSGallery",
-      "Type": "Module",
       "InstalledLocation": "/home/yasha/.local/share/powershell/Modules/TabExpansionPlusPlus/1.2",
+      "Type": "Module",
       "published": "06/21/2016 19:37:40",
       "IsPrerelease": false
     },
@@ -63,11 +63,11 @@
       "PSModule"
     ],
     "Includes": {
+      "Cmdlet": "",
+      "DscResource": "",
       "Function": "",
       "Command": "",
-      "Cmdlet": "",
       "RoleCapability": "",
-      "DscResource": "",
       "Workflow": ""
     },
     "PowerShellGetFormatVersion": null,
@@ -78,14 +78,14 @@
     "PackageManagementProvider": "NuGet",
     "AdditionalMetadata": {
       "summary": "A thin wrapper around Fzf (https://github.com/junegunn/fzf).  If PSReadline is loaded, this wrapper registers Fzf with the keyboard chord Ctrl+t.",
-      "tags": "PSModule",
       "copyright": "(c) 2020. All rights reserved.",
+      "SourceName": "PSGallery",
       "description": "A thin wrapper around Fzf (https://github.com/junegunn/fzf).  If PSReadline is loaded, this wrapper registers Fzf with the keyboard chord Ctrl+t.",
+      "tags": "PSModule",
       "PackageManagementProvider": "NuGet",
       "installeddate": "2022-05-26T19:01:49.4238105-05:00",
-      "SourceName": "PSGallery",
-      "Type": "Module",
       "InstalledLocation": "/home/yasha/.local/share/powershell/Modules/PSFzf/2.4.0",
+      "Type": "Module",
       "published": "02/06/2022 22:51:10",
       "IsPrerelease": false
     },
@@ -109,11 +109,11 @@
       "PSModule"
     ],
     "Includes": {
+      "Cmdlet": "",
+      "DscResource": "",
       "Function": "",
       "Command": "",
-      "Cmdlet": "",
       "RoleCapability": "",
-      "DscResource": "",
       "Workflow": ""
     },
     "PowerShellGetFormatVersion": null,
@@ -124,15 +124,15 @@
     "PackageManagementProvider": "NuGet",
     "AdditionalMetadata": {
       "summary": "ZLocation is the new Jump-Location. A `cd` that learns.",
-      "tags": "PSModule",
       "copyright": "(c) 2015-2018 Sergei Vorobev. All rights reserved.",
-      "releaseNotes": "https://github.com/vors/ZLocation/blob/master/CHANGELOG.md",
+      "SourceName": "PSGallery",
       "description": "ZLocation is the new Jump-Location. A `cd` that learns.",
+      "releaseNotes": "https://github.com/vors/ZLocation/blob/master/CHANGELOG.md",
+      "tags": "PSModule",
       "PackageManagementProvider": "NuGet",
       "installeddate": "2022-05-30T20:43:40.8534288-05:00",
-      "SourceName": "PSGallery",
-      "Type": "Module",
       "InstalledLocation": "/home/yasha/.local/share/powershell/Modules/ZLocation/1.4.3",
+      "Type": "Module",
       "published": "01/03/2021 17:48:28",
       "IsPrerelease": false
     },
@@ -165,11 +165,11 @@
       "PSModule"
     ],
     "Includes": {
+      "Cmdlet": "",
+      "DscResource": "",
       "Function": "",
       "Command": "",
-      "Cmdlet": "",
       "RoleCapability": "",
-      "DscResource": "",
       "Workflow": ""
     },
     "PowerShellGetFormatVersion": null,
@@ -180,15 +180,15 @@
     "PackageManagementProvider": "NuGet",
     "AdditionalMetadata": {
       "summary": "Extend PSREadline VI Binding with some text object manipulation",
-      "tags": "PSReadLine VIMode VI InnerText OuterText Glob Binding Surround GlobalClipboard PSModule",
       "copyright": "(c) Karrakis. All rights reserved.",
-      "releaseNotes": "Appends gU and gu action",
+      "SourceName": "PSGallery",
       "description": "Extend PSREadline VI Binding with some text object manipulation",
+      "releaseNotes": "Appends gU and gu action",
+      "tags": "PSReadLine VIMode VI InnerText OuterText Glob Binding Surround GlobalClipboard PSModule",
       "PackageManagementProvider": "NuGet",
       "installeddate": "2022-06-01T09:53:12.9015524-05:00",
-      "SourceName": "PSGallery",
-      "Type": "Module",
       "InstalledLocation": "/home/yasha/.local/share/powershell/Modules/PSReadLineVIExtension/1.0.6",
+      "Type": "Module",
       "published": "04/02/2022 08:12:24",
       "IsPrerelease": false
     },
@@ -212,11 +212,11 @@
       "PSModule"
     ],
     "Includes": {
+      "Cmdlet": "",
+      "DscResource": "",
       "Function": "",
       "Command": "",
-      "Cmdlet": "",
       "RoleCapability": "",
-      "DscResource": "",
       "Workflow": ""
     },
     "PowerShellGetFormatVersion": null,
@@ -227,14 +227,14 @@
     "PackageManagementProvider": "NuGet",
     "AdditionalMetadata": {
       "summary": "Great command line editing in the PowerShell console host",
-      "tags": "PSModule",
       "copyright": "(c) Microsoft Corporation. All rights reserved.",
+      "SourceName": "PSGallery",
       "description": "Great command line editing in the PowerShell console host",
+      "tags": "PSModule",
       "PackageManagementProvider": "NuGet",
       "installeddate": "2022-06-01T15:18:29.0563736-05:00",
-      "SourceName": "PSGallery",
-      "Type": "Module",
       "InstalledLocation": "/home/yasha/.local/share/powershell/Modules/PSReadLine/2.2.5",
+      "Type": "Module",
       "published": "05/03/2022 19:48:42",
       "IsPrerelease": false
     },

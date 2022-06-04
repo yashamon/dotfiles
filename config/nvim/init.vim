@@ -171,7 +171,7 @@ au VIMEnter * let g:surround_108 = {
      \'q':  " ``\r''"
      \ }
 au VIMEnter * let g:buffmain=bufname()
-nnoremap <m-y> viw:buffer g:buffmain<cr>:<c-r>+<cr><cr>
+nnoremap <m-y> viwy:buffer g:buffmain<cr>:<c-r>+<cr><cr>
 let g:tex_flavor = "latex"
 let g:tex_isk = '@,48-57,58,_,192-255,:' 
 au FileType tex setlocal iskeyword+=:
@@ -603,9 +603,7 @@ noremap LL :lua require("zen-mode").close()<cr>:call Sentence()<cr>
 " noremap L :TZAtaraxisOff<cr><cr>:call Sentence()<cr>
 function GitAsync()
 let g:bufdude = bufname()
-silent te if ( (git rev-parse --is-inside-work-tree) -and (git rev-parse --git-dir) ) { git add . ; git commit -m -a; git push --all origin;
-ctags -R
-} 
+silent te if ( (git rev-parse --is-inside-work-tree) -and (git rev-parse --git-dir) ) { git add . ; git commit -m -a; git push --all origin; ctags -R }
 execute "buffer" g:bufdude 
 endfunction
   
