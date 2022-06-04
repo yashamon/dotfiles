@@ -146,7 +146,7 @@ set clipboard+=unnamedplus	" yank to the system register (*) by default
 set expandtab        "replace <TAB> with spaces
 set softtabstop=3 
 set shiftwidth=3 
-set shell="C:\Program Files\PowerShell\7\pwsh.EXE"
+" set shell="C:\Program Files\PowerShell\7\pwsh.EXE"
 set termguicolors
 
 set guicursor=n-v-c:block,i-ci-ve:ver25,r-cr:hor20,o:hor50
@@ -243,8 +243,6 @@ hi SpellBad gui=underline
 au FileType Makefile set noexpandtab
 au FileType tex,text set spelllang=en_us
 au FileType tex,text,md set indentexpr=
-autocmd TermClose * if !v:event.status | exe 'bdelete! '..expand('<abuf>') | endif
-
 function Reset()
 TZAtaraxisOff 
 TZAtaraxisOn
@@ -337,9 +335,10 @@ set fileencoding=utf-8
 
 "maps remaps mappings  
 "
-"
-" terminal mappings 
-" 
+" terminal stuff 
+autocmd TermClose * if !v:event.status | exe 'bdelete! '..expand('<abuf>') | endif
+autocmd TermOpen * startinsert
+tnoremap <m-d> <C-\><C-n>:bdelete!<cr>
 tnoremap <A-`> <C-\><C-n>
 tnoremap <A-Esc> <C-\><C-n>
 nmap <A-S-t> :te<cr>
@@ -355,7 +354,8 @@ nmap <m-7> :ZenMode<cr>:mksession!<cr>
 nnoremap <leader>rr :w<cr>:source $MYVIMRC<CR>
 nnoremap <leader>u :UndotreeToggle<CR>
 nnoremap <leader>e :Lf<cr>
-nnoremap <leader>t :FloatermToggle<cr>
+nnoremap <leader>tt :FloatermToggle<cr>
+nnoremap <leader>t :edit term://pwsh<cr>
 nnoremap <c-,> :cprevious<cr>
 nnoremap <c-.> :cnext<cr> 
 vnoremap <m-s> :s///gc<left><left><left><left>
@@ -606,7 +606,7 @@ noremap LL :lua require("zen-mode").close()<cr>:call Sentence()<cr>
 " noremap L :TZAtaraxisOff<cr><cr>:call Sentence()<cr>
 function GitAsync()
 let g:bufdude = bufname()
-silent te if ( (git rev-parse --is-inside-work-tree) -and (git rev-parse --git-dir) ) { git add . ; git commit -m -a; git push --all origin; ctags -R }
+silent te pwsh -c if ( (git rev-parse --is-inside-work-tree) -and (git rev-parse --git-dir) ) { git add . ; git commit -m -a; git push --all origin; ctags -R }
 execute "buffer" g:bufdude 
 endfunction
   
@@ -647,7 +647,7 @@ endfunction
 function! CompileLatex()
   silent call ClearLatex()
   let buf = bufname()
-  silent te latexmk -pvc -halt-on-error -synctex=1 -file-line-error -f -output-directory="buildback" %
+  silent te pwsh -c latexmk -pvc -halt-on-error -synctex=1 -file-line-error -f -output-directory="buildback" %
   execute "buffer" buf
   call ViewPdf()
 endfunction
@@ -668,7 +668,7 @@ let filenamePDFLinux=b:filenamedir . "/buildback/" . filenameroot . ".pdf"
 let b:filenamePDFWindows="buildback\\" . filenameroot . ".pdf"
 echo b:filenamePDFWindows
 let execstrLinux="silent te zathura --synctex-forward " . linenumber . ":" . colnumber . ":" . filenametexwhole . " " . filenamePDFLinux
-let execstrWindows="silent te C:/Users/yasha/scoop/shims/sumatrapdf.EXE -reuse-instance " . b:filenamePDFWindows . " -forward-search " . filenametex . " " . linenumber 
+let execstrWindows="silent te pwsh -c C:/Users/yasha/scoop/shims/sumatrapdf.EXE -reuse-instance " . b:filenamePDFWindows . " -forward-search " . filenametex . " " . linenumber 
 echo execstrWindows
 exec execstrWindows
 " let running = jobwait(id, 0)[0] == -1
