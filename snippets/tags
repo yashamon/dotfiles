@@ -563,6 +563,8 @@
 0	tex.json	/^    "prefix": ["L"],$/;"	s	array:Align numbered.Lambda.prefix
 0	tex.json	/^    "prefix": ["S"],$/;"	s	array:Align numbered.Sigma.prefix
 0	tex.json	/^    "prefix": ["Th", "\\\\Th"],$/;"	s	array:Align numbered.Theta.prefix
+0	tex.json	/^    "prefix": ["ali", "aligned"],$/;"	s	array:Align numbered.Align(ed).prefix
+0	tex.json	/^    "prefix": ["alin", "alignedn"],$/;"	s	array:Align numbered.prefix
 0	tex.json	/^    "prefix": ["b", "begin"],$/;"	s	array:Align numbered.\\\\begin{}…\\\\end{}.prefix
 0	tex.json	/^    "prefix": ["bic"],$/;"	s	array:Align numbered.big intersection cap.prefix
 0	tex.json	/^    "prefix": ["buc"],$/;"	s	array:Align numbered.big cup.prefix
@@ -1108,6 +1110,8 @@
 1	tex.json	/^      "\\t\\\\label{remark:$1}", $/;"	s	array:Align numbered.remark.body
 1	tex.json	/^      "\\t\\\\label{thm:$1}", $/;"	s	array:Align numbered.Theorem.body
 1	tex.json	/^    "prefix": ["Th", "\\\\Th"],$/;"	s	array:Align numbered.Theta.prefix
+1	tex.json	/^    "prefix": ["ali", "aligned"],$/;"	s	array:Align numbered.Align(ed).prefix
+1	tex.json	/^    "prefix": ["alin", "alignedn"],$/;"	s	array:Align numbered.prefix
 1	tex.json	/^    "prefix": ["b", "begin"],$/;"	s	array:Align numbered.\\\\begin{}…\\\\end{}.prefix
 1	tex.json	/^    "prefix": ["d", "\\\\d"],$/;"	s	array:Align numbered.delta.prefix
 1	tex.json	/^    "prefix": ["isom", "seq"],$/;"	s	array:Align numbered.isomorphic.prefix
@@ -4032,8 +4036,6 @@ prefix	tex.json	/^        "prefix": ["template"],$/;"	a	object:Align numbered.Te
 prefix	tex.json	/^    "prefix": ".",$/;"	s	object:three dots
 prefix	tex.json	/^    "prefix": "Gbun",$/;"	s	object:G-bundle
 prefix	tex.json	/^    "prefix": "NF",$/;"	s	object:NFuk
-prefix	tex.json	/^    "prefix": "[ali], [aligned]",$/;"	s	object:Align numbered.Align(ed)
-prefix	tex.json	/^    "prefix": "[alin], [alignedn]",$/;"	s	object:Align numbered
 prefix	tex.json	/^    "prefix": "\\"",$/;"	s	object:quotes
 prefix	tex.json	/^    "prefix": "and",$/;"	s	object:Align numbered.and
 prefix	tex.json	/^    "prefix": "bar",$/;"	s	object:bar
@@ -4126,6 +4128,8 @@ prefix	tex.json	/^    "prefix": ["G"],$/;"	a	object:Align numbered.Gamma
 prefix	tex.json	/^    "prefix": ["L"],$/;"	a	object:Align numbered.Lambda
 prefix	tex.json	/^    "prefix": ["S"],$/;"	a	object:Align numbered.Sigma
 prefix	tex.json	/^    "prefix": ["Th", "\\\\Th"],$/;"	a	object:Align numbered.Theta
+prefix	tex.json	/^    "prefix": ["ali", "aligned"],$/;"	a	object:Align numbered.Align(ed)
+prefix	tex.json	/^    "prefix": ["alin", "alignedn"],$/;"	a	object:Align numbered
 prefix	tex.json	/^    "prefix": ["b", "begin"],$/;"	a	object:Align numbered.\\\\begin{}…\\\\end{}
 prefix	tex.json	/^    "prefix": ["bic"],$/;"	a	object:Align numbered.big intersection cap
 prefix	tex.json	/^    "prefix": ["buc"],$/;"	a	object:Align numbered.big cup

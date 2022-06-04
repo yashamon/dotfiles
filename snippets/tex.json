@@ -163,7 +163,7 @@
     }, 
 
 "Align numbered": {
-    "prefix": "[alin], [alignedn]",
+    "prefix": ["alin", "alignedn"],
     "body": [
         "\\begin{align} \\label{eq:$1}",
         "\t$0",    
@@ -171,7 +171,7 @@
 ],
    
 "Align(ed)": {
-    "prefix": "[ali], [aligned]",
+    "prefix": ["ali", "aligned"],
     "body": [
         "\\begin{align*}",
         "\t$0",    
