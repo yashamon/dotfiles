@@ -1,0 +1,14 @@
+[2022-06-03 09:04:09.317479] [p-11572] [t-11576] [info] keyboard-manager logger is initialized
+[2022-06-03 09:04:09.386726] [p-11572] [t-11576] [trace] SettingsHelper::LoadSettings()
+[2022-06-03 09:13:26.294370] [p-11064] [t-11068] [info] keyboard-manager logger is initialized
+[2022-06-03 09:13:26.368962] [p-11064] [t-11068] [trace] SettingsHelper::LoadSettings()
+[2022-06-03 09:32:55.140804] [p-12684] [t-12688] [info] keyboard-manager logger is initialized
+[2022-06-03 09:32:55.171379] [p-12684] [t-12688] [trace] SettingsHelper::LoadSettings()
+[2022-06-03 10:04:53.142754] [p-12856] [t-12860] [info] keyboard-manager logger is initialized
+[2022-06-03 10:04:53.410542] [p-12856] [t-12860] [trace] SettingsHelper::LoadSettings()
+[2022-06-03 14:40:34.989820] [p-2084] [t-4200] [info] keyboard-manager logger is initialized
+[2022-06-03 14:40:35.041573] [p-2084] [t-4200] [trace] SettingsHelper::LoadSettings()
+[2022-06-03 21:37:12.951348] [p-11244] [t-11248] [info] keyboard-manager logger is initialized
+[2022-06-03 21:37:13.051847] [p-11244] [t-11248] [trace] SettingsHelper::LoadSettings()
+[2022-06-03 21:39:00.848750] [p-11200] [t-11204] [info] keyboard-manager logger is initialized
+[2022-06-03 21:39:00.985873] [p-11200] [t-11204] [trace] SettingsHelper::LoadSettings()

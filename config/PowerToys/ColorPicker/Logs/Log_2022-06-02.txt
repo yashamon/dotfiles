@@ -19,3 +19,12 @@ INFO: 17:26:42.1851266
 WARNING: 17:26:42.9121820
     [Method]: SetWindowPosition [Class]: ChangeWindowPositionBehavior
     Failed to get monitor bounds for mouse position-1,1
+INFO: 19:18:02.7724979
+    [Method]: Callback [Class]: StartHelper
+    Successfully waited for Local\ColorPickerSettingsTelemetryEvent-6c7071d8-4014-46ec-b687-913bd8a422f1
+INFO: 19:18:04.2556669
+    [Method]: SendSettingsTelemetry [Class]: UserSettings
+    Sending settings telemetry
+INFO: 09:02:54.1654097
+    [Method]: <OnStartup>b__5_0 [Class]: <>c
+    PowerToys Runner exited. Exiting ColorPicker

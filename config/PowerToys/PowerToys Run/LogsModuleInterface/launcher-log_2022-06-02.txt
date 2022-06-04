@@ -12,3 +12,4 @@
 [2022-06-02 17:26:41.631012] [p-8968] [t-8972] [trace] Starting PowerToys Run from not elevated process
 [2022-06-02 17:26:41.662269] [p-8968] [t-8972] [trace] Started PowerToys Run
 [2022-06-02 17:26:41.662279] [p-8968] [t-8972] [info] Microsoft_Launcher::enable() end
+[2022-06-02 19:18:02.984203] [p-8968] [t-2124] [info] Send settings telemetry

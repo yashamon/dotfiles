@@ -1,0 +1,24 @@
+[2022-06-03 09:04:07.376307] [p-8640] [t-8620] [info] ColorPicker logger is initialized
+[2022-06-03 09:04:09.113944] [p-8640] [t-8620] [trace] ColorPicker::enable()
+[2022-06-03 09:04:09.113964] [p-8640] [t-8620] [trace] Starting ColorPicker process
+[2022-06-03 09:04:09.179466] [p-8640] [t-8620] [trace] Successfully started the Color Picker process
+[2022-06-03 09:32:54.059243] [p-8396] [t-8328] [info] ColorPicker logger is initialized
+[2022-06-03 09:32:54.815203] [p-8396] [t-8328] [trace] ColorPicker::enable()
+[2022-06-03 09:32:54.815213] [p-8396] [t-8328] [trace] Starting ColorPicker process
+[2022-06-03 09:32:54.856133] [p-8396] [t-8328] [trace] Successfully started the Color Picker process
+[2022-06-03 10:04:50.737847] [p-8604] [t-8612] [info] ColorPicker logger is initialized
+[2022-06-03 10:04:52.362621] [p-8604] [t-8612] [trace] ColorPicker::enable()
+[2022-06-03 10:04:52.362635] [p-8604] [t-8612] [trace] Starting ColorPicker process
+[2022-06-03 10:04:52.386587] [p-8604] [t-8612] [trace] Successfully started the Color Picker process
+[2022-06-03 14:40:32.721233] [p-9996] [t-10000] [info] ColorPicker logger is initialized
+[2022-06-03 14:40:34.727158] [p-9996] [t-10000] [trace] ColorPicker::enable()
+[2022-06-03 14:40:34.727179] [p-9996] [t-10000] [trace] Starting ColorPicker process
+[2022-06-03 14:40:34.776104] [p-9996] [t-10000] [trace] Successfully started the Color Picker process
+[2022-06-03 21:37:07.134149] [p-9160] [t-9164] [info] ColorPicker logger is initialized
+[2022-06-03 21:37:12.062307] [p-9160] [t-9164] [trace] ColorPicker::enable()
+[2022-06-03 21:37:12.062361] [p-9160] [t-9164] [trace] Starting ColorPicker process
+[2022-06-03 21:37:12.568611] [p-9160] [t-9164] [trace] Successfully started the Color Picker process
+[2022-06-03 21:39:00.492032] [p-1932] [t-8844] [info] ColorPicker logger is initialized
+[2022-06-03 21:39:00.704549] [p-1932] [t-8844] [trace] ColorPicker::enable()
+[2022-06-03 21:39:00.704566] [p-1932] [t-8844] [trace] Starting ColorPicker process
+[2022-06-03 21:39:00.758570] [p-1932] [t-8844] [trace] Successfully started the Color Picker process

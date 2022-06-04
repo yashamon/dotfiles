@@ -18,3 +18,12 @@
 [2022-06-02 17:26:41.492402] [p-8968] [t-8972] [info] Find My Mouse settings are empty
 [2022-06-02 17:26:41.608809] [p-8968] [t-9156] [info] Starting a sonar instance.
 [2022-06-02 17:26:41.620311] [p-8968] [t-9156] [info] Initialized the sonar instance.
+[2022-06-02 18:17:47.615150] [p-8968] [t-9156] [info] Detecting double left control click with 875 ms interval.
+[2022-06-02 19:15:01.142384] [p-8968] [t-9156] [info] Detecting double left control click with 937 ms interval.
+[2022-06-02 19:42:34.991513] [p-8968] [t-9156] [info] Detecting double left control click with 2203 ms interval.
+[2022-06-02 19:50:16.927589] [p-8968] [t-9156] [info] Detecting double left control click with 1047 ms interval.
+[2022-06-02 19:50:19.375849] [p-8968] [t-9156] [info] Detecting double left control click with 1390 ms interval.
+[2022-06-02 19:51:02.042425] [p-8968] [t-9156] [info] Detecting double left control click with 5922 ms interval.
+[2022-06-02 19:53:22.854480] [p-8968] [t-9156] [info] Detecting double left control click with 1203 ms interval.
+[2022-06-02 22:50:10.206955] [p-8968] [t-9156] [info] Focusing the sonar on the mouse cursor.
+[2022-06-02 22:50:10.231021] [p-8968] [t-9156] [info] Detecting double left control click with 297 ms interval.

@@ -581,3 +581,9 @@ Item Already Exists <kitty (Ubuntu).lnk>
 [2022-06-02 17:27:43.2005] [ERROR] [C:\a\_work\1\s\src\modules\launcher\Wox.Infrastructure\Storage\ListRepository`1.cs::54]
 Item Already Exists <ImageMagick (color depth=q16) (Ubuntu).lnk>
 
+[2022-06-02 19:18:03.3054] [INFO] [C:\a\_work\1\s\src\modules\launcher\PowerLauncher\Helper\NativeEventWaiter.cs::24]
+Successfully waited for Local\PowerToysRunInvokeEvent-638ec522-0018-4b96-837d-6bd88e06f0d6
+
+[2022-06-02 19:18:04.1679] [INFO] [C:\a\_work\1\s\src\modules\launcher\PowerLauncher\MainWindow.xaml.cs::57]
+Send Run settings telemetry
+

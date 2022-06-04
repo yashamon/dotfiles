@@ -1,0 +1,24 @@
+[2022-06-03 09:04:07.719067] [p-8640] [t-8620] [info] launcher logger is initialized
+[2022-06-03 09:04:07.719093] [p-8640] [t-8620] [info] Launcher object is constructing
+[2022-06-03 09:04:09.108968] [p-8640] [t-8620] [trace] Launching PowerToys Awake process
+[2022-06-03 09:04:09.108993] [p-8640] [t-8620] [trace] PowerToys Awake launching with parameters: --use-pt-config --pid 8640
+[2022-06-03 09:32:54.176594] [p-8396] [t-8328] [info] launcher logger is initialized
+[2022-06-03 09:32:54.176623] [p-8396] [t-8328] [info] Launcher object is constructing
+[2022-06-03 09:32:54.795143] [p-8396] [t-8328] [trace] Launching PowerToys Awake process
+[2022-06-03 09:32:54.795154] [p-8396] [t-8328] [trace] PowerToys Awake launching with parameters: --use-pt-config --pid 8396
+[2022-06-03 10:04:50.973066] [p-8604] [t-8612] [info] launcher logger is initialized
+[2022-06-03 10:04:50.973088] [p-8604] [t-8612] [info] Launcher object is constructing
+[2022-06-03 10:04:52.337693] [p-8604] [t-8612] [trace] Launching PowerToys Awake process
+[2022-06-03 10:04:52.337714] [p-8604] [t-8612] [trace] PowerToys Awake launching with parameters: --use-pt-config --pid 8604
+[2022-06-03 14:40:33.674094] [p-9996] [t-10000] [info] launcher logger is initialized
+[2022-06-03 14:40:33.674109] [p-9996] [t-10000] [info] Launcher object is constructing
+[2022-06-03 14:40:34.703055] [p-9996] [t-10000] [trace] Launching PowerToys Awake process
+[2022-06-03 14:40:34.703070] [p-9996] [t-10000] [trace] PowerToys Awake launching with parameters: --use-pt-config --pid 9996
+[2022-06-03 21:37:07.873788] [p-9160] [t-9164] [info] launcher logger is initialized
+[2022-06-03 21:37:07.873825] [p-9160] [t-9164] [info] Launcher object is constructing
+[2022-06-03 21:37:12.025494] [p-9160] [t-9164] [trace] Launching PowerToys Awake process
+[2022-06-03 21:37:12.025560] [p-9160] [t-9164] [trace] PowerToys Awake launching with parameters: --use-pt-config --pid 9160
+[2022-06-03 21:39:00.498888] [p-1932] [t-8844] [info] launcher logger is initialized
+[2022-06-03 21:39:00.498911] [p-1932] [t-8844] [info] Launcher object is constructing
+[2022-06-03 21:39:00.699226] [p-1932] [t-8844] [trace] Launching PowerToys Awake process
+[2022-06-03 21:39:00.699241] [p-1932] [t-8844] [trace] PowerToys Awake launching with parameters: --use-pt-config --pid 1932

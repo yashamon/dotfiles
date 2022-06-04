@@ -1,0 +1,14 @@
+[2022-06-03 09:04:06.444518] [p-8640] [t-8620] [info] powerrename logger is initialized
+[2022-06-03 09:04:09.298061] [p-8640] [t-8620] [info] PowerRename enabled
+[2022-06-03 09:13:24.670396] [p-9752] [t-9756] [info] powerrename logger is initialized
+[2022-06-03 09:13:26.268456] [p-9752] [t-9756] [info] PowerRename enabled
+[2022-06-03 09:32:53.912768] [p-8396] [t-8328] [info] powerrename logger is initialized
+[2022-06-03 09:32:54.972418] [p-8396] [t-8328] [info] PowerRename enabled
+[2022-06-03 10:04:50.485067] [p-8604] [t-8612] [info] powerrename logger is initialized
+[2022-06-03 10:04:52.593105] [p-8604] [t-8612] [info] PowerRename enabled
+[2022-06-03 14:40:32.612038] [p-9996] [t-10000] [info] powerrename logger is initialized
+[2022-06-03 14:40:34.894558] [p-9996] [t-10000] [info] PowerRename enabled
+[2022-06-03 21:37:06.770860] [p-9160] [t-9164] [info] powerrename logger is initialized
+[2022-06-03 21:37:12.921317] [p-9160] [t-9164] [info] PowerRename enabled
+[2022-06-03 21:39:00.477616] [p-1932] [t-8844] [info] powerrename logger is initialized
+[2022-06-03 21:39:00.827373] [p-1932] [t-8844] [info] PowerRename enabled
