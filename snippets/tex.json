@@ -169,7 +169,8 @@
         "\t$0",    
         "\\end{align}"
 ],
-   
+   "description": "Align(ed)"
+},   
 "Align(ed)": {
     "prefix": ["ali", "aligned"],
     "body": [

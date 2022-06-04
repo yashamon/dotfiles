@@ -380,20 +380,20 @@
 0	latexold.json	/^"\\\\begin{equation*}",$/;"	s	array:tikz.body
 0	sentence_tex.json	/^", 65:      "body": [ 66:          "  ldots  0" 67:         ], 68:      "description": "dots" 69/;"	n
 0	sentence_tex.json	/^1:      2:     "Fuk":   3:      "prefix": "fuk", 4:      "body": [ 5:          "Fuk (M,  1   ome/;"	n
-0	tex.json	/^			"\\\\displaystyle\\\\int_{$1}^{$2}$3"$/;"	s	array:Align numbered.Large Integral.body
-0	tex.json	/^			"\\\\displaystyle\\\\sum_{$1}^{$2}$3"$/;"	s	array:Align numbered.Large Summation.body
-0	tex.json	/^            "\\\\begin{definition}\\\\label{def:$1}", $/;"	s	array:Align numbered.Definition.body
-0	tex.json	/^            "\\\\begin{itemize}",$/;"	s	array:Align numbered.Itemize.body
-0	tex.json	/^            "\\\\begin{problem}[${1:name of the problem}]",$/;"	s	array:Align numbered.Problem.body
-0	tex.json	/^            "\\\\int_{$1}^{$2}$3"$/;"	s	array:Align numbered.Inline Integral.body
-0	tex.json	/^            "\\\\sum_{$1}^{$2}$3"$/;"	s	array:Align numbered.Inline Summation.body
+0	tex.json	/^			"\\\\displaystyle\\\\int_{$1}^{$2}$3"$/;"	s	array:Large Integral.body
+0	tex.json	/^			"\\\\displaystyle\\\\sum_{$1}^{$2}$3"$/;"	s	array:Large Summation.body
+0	tex.json	/^            "\\\\begin{definition}\\\\label{def:$1}", $/;"	s	array:Definition.body
+0	tex.json	/^            "\\\\begin{itemize}",$/;"	s	array:Itemize.body
+0	tex.json	/^            "\\\\begin{problem}[${1:name of the problem}]",$/;"	s	array:Problem.body
+0	tex.json	/^            "\\\\int_{$1}^{$2}$3"$/;"	s	array:Inline Integral.body
+0	tex.json	/^            "\\\\sum_{$1}^{$2}$3"$/;"	s	array:Inline Summation.body
 0	tex.json	/^        "BHam (M, $1 \\\\omega) $0" $/;"	s	array:BHam.body
 0	tex.json	/^        "Fuk (M, $1 \\\\omega) $0" $/;"	s	array:Fuk.body
 0	tex.json	/^        "Ham (M, $1 \\\\omega) $0" $/;"	s	array:Ham.body
 0	tex.json	/^        "NFuk (M, \\\\omega) $0" $/;"	s	array:NFuk.body
 0	tex.json	/^        "\\\\$$1\\\\$-Bundle $0" $/;"	s	array:G-bundle.body
 0	tex.json	/^        "\\\\,|\\\\, $0"$/;"	s	array:bar.body
-0	tex.json	/^        "\\\\begin{align*}",$/;"	s	array:Align numbered.Align(ed).body
+0	tex.json	/^        "\\\\begin{align*}",$/;"	s	array:Align(ed).body
 0	tex.json	/^        "\\\\begin{align} \\\\label{eq:$1}",$/;"	s	array:Align numbered.body
 0	tex.json	/^        "\\\\cdot $0"$/;"	s	array:cdot.body
 0	tex.json	/^        "\\\\emph{$1} $0"$/;"	s	array:emphasize.body
@@ -410,226 +410,226 @@
 0	tex.json	/^        "\\\\times $0"$/;"	s	array:times.body
 0	tex.json	/^        "\\\\{\\\\pm \\\\} $0"$/;"	s	array:bracket plus minus.body
 0	tex.json	/^        "``$1'' $0"$/;"	s	array:quotes.body
-0	tex.json	/^        "body": ["\\\\documentclass{amsart}",  $/;"	s	array:Align numbered.Template.body
-0	tex.json	/^        "body": ["\\\\frac{$1}{$2}$0"],$/;"	s	array:Align numbered.Inline Fraction.body
-0	tex.json	/^        "description": ["Insert inline fraction notation, (only in the cases when the environmen/;"	s	array:Align numbered.Inline Fraction.description
-0	tex.json	/^        "description": ["template"]$/;"	s	array:Align numbered.Template.description
-0	tex.json	/^        "prefix": ["bi"],$/;"	s	array:Align numbered.Bold Italic Text.prefix
-0	tex.json	/^        "prefix": ["bigsum", "\\\\sumlarge"],$/;"	s	array:Align numbered.Large Summation.prefix
-0	tex.json	/^        "prefix": ["bold", "\\\\bold", "**"],$/;"	s	array:Align numbered.Bold Text.prefix
-0	tex.json	/^        "prefix": ["def", "\\\\definition"],$/;"	s	array:Align numbered.Definition.prefix
-0	tex.json	/^        "prefix": ["fr", "frac"],$/;"	s	array:Align numbered.Inline Fraction.prefix
-0	tex.json	/^        "prefix": ["integralinline", "\\\\integralinline"],$/;"	s	array:Align numbered.Inline Integral.prefix
-0	tex.json	/^        "prefix": ["integrallarge", "\\\\integrallarge"],$/;"	s	array:Align numbered.Large Integral.prefix
-0	tex.json	/^        "prefix": ["it"],$/;"	s	array:Align numbered.item.prefix
-0	tex.json	/^        "prefix": ["italic", "\\\\italic", "*"], $/;"	s	array:Align numbered.Italic Text.prefix
-0	tex.json	/^        "prefix": ["itemize", "\\\\itemize", "itemize"],$/;"	s	array:Align numbered.Itemize.prefix
-0	tex.json	/^        "prefix": ["problem", "\\\\problem"],$/;"	s	array:Align numbered.Problem.prefix
-0	tex.json	/^        "prefix": ["sum", "\\\\suminline"],$/;"	s	array:Align numbered.Inline Summation.prefix
-0	tex.json	/^        "prefix": ["template"],$/;"	s	array:Align numbered.Template.prefix
-0	tex.json	/^      "${1:Listing}~\\\\ref{lst:$2}$0"$/;"	s	array:Align numbered.Listing:Ref.body
-0	tex.json	/^      "${1:Table}~\\\\ref{tab:$2}$0"$/;"	s	array:Align numbered.Table:Ref.body
-0	tex.json	/^      "& $0"$/;"	s	array:Align numbered.and.body
-0	tex.json	/^      "($1) $0"$/;"	s	array:Align numbered.open bracket.body
-0	tex.json	/^      ":= $0"$/;"	s	array:Align numbered.defined by.body
-0	tex.json	/^      ":= $0"$/;"	s	array:Align numbered.definition.body
-0	tex.json	/^      "= $0"$/;"	s	array:Align numbered.equal.body
-0	tex.json	/^      "[$1] $0"$/;"	s	array:Align numbered.square bracket.body
-0	tex.json	/^      "\\\\$$1\\\\$ $0"$/;"	s	array:Align numbered.Math.body
-0	tex.json	/^      "\\\\Delta $0"$/;"	s	array:Align numbered.Delta.body
-0	tex.json	/^      "\\\\Delta^{$1} $0"$/;"	s	array:Align numbered.Delta d-simplex.body
-0	tex.json	/^      "\\\\Delta^{$1} _{\\bullet} $0"$/;"	s	array:Align numbered.Delta d-simplex bullet.body
-0	tex.json	/^      "\\\\Gamma $0"$/;"	s	array:Align numbered.Gamma.body
-0	tex.json	/^      "\\\\Lambda $0"$/;"	s	array:Align numbered.Lambda.body
-0	tex.json	/^      "\\\\Sigma $0"$/;"	s	array:Align numbered.Sigma.body
-0	tex.json	/^      "\\\\Theta $0"$/;"	s	array:Align numbered.Theta.body
-0	tex.json	/^      "\\\\\\\\begin{${1:env}}",$/;"	s	array:Align numbered.\\\\begin{}…\\\\end{}.body
-0	tex.json	/^      "\\\\\\\\begin{${1:t}${1\/(t)$|(a)$|(.*)\/(?1:abular)(?2:rray)\/}}{${2:c}}",$/;"	s	array:Align numbered.Tabular.body
-0	tex.json	/^      "\\\\\\\\begin{description}",$/;"	s	array:Align numbered.Description.body
-0	tex.json	/^      "\\\\begin{${1:p\/b\/v\/V\/B\/small}matrix}",$/;"	s	array:Align numbered.Matrix.body
-0	tex.json	/^      "\\\\begin{cases}",$/;"	s	array:Align numbered.Cases.body
-0	tex.json	/^      "\\\\begin{comment}", $/;"	s	array:Align numbered.comment.body
-0	tex.json	/^      "\\\\begin{compactitem}",$/;"	s	array:Align numbered.Compactitem.body
-0	tex.json	/^      "\\\\begin{corollary}", $/;"	s	array:Align numbered.Corollary.body
-0	tex.json	/^      "\\\\begin{enumerate}",$/;"	s	array:Align numbered.Enumerate.body
-0	tex.json	/^      "\\\\begin{equation*}",$/;"	s	array:Align numbered.Equation.body
-0	tex.json	/^      "\\\\begin{equation}",$/;"	s	array:Align numbered.EquationNumbered.body
-0	tex.json	/^      "\\\\begin{example}", $/;"	s	array:Align numbered.example.body
-0	tex.json	/^      "\\\\begin{figure*}",$/;"	s	array:Align numbered.Figure:ACM:*.body
-0	tex.json	/^      "\\\\begin{figure}",$/;"	s	array:Align numbered.Figure.body
-0	tex.json	/^      "\\\\begin{figure}",$/;"	s	array:Align numbered.Figure:ACM.body
-0	tex.json	/^      "\\\\begin{gather}",$/;"	s	array:Align numbered.Gather(ed).body
-0	tex.json	/^      "\\\\begin{lemma}", $/;"	s	array:Align numbered.lemma.body
-0	tex.json	/^      "\\\\begin{notation}", $/;"	s	array:Align numbered.notation.body
-0	tex.json	/^      "\\\\begin{proof}",$/;"	s	array:Align numbered.Proof.body
-0	tex.json	/^      "\\\\begin{proposition}", $/;"	s	array:Align numbered.proposition.body
-0	tex.json	/^      "\\\\begin{question}", $/;"	s	array:Align numbered.question.body
-0	tex.json	/^      "\\\\begin{remark}", $/;"	s	array:Align numbered.remark.body
-0	tex.json	/^      "\\\\begin{split}",$/;"	s	array:Align numbered.Split.body
-0	tex.json	/^      "\\\\begin{table*}",$/;"	s	array:Align numbered.Table:ACM:*.body
-0	tex.json	/^      "\\\\begin{table}",$/;"	s	array:Align numbered.Table.body
-0	tex.json	/^      "\\\\begin{table}",$/;"	s	array:Align numbered.Table:ACM.body
-0	tex.json	/^      "\\\\begin{theorem}", $/;"	s	array:Align numbered.Theorem.body
-0	tex.json	/^      "\\\\bigcap _{$1} $0"$/;"	s	array:Align numbered.big intersection cap.body
-0	tex.json	/^      "\\\\bigcup_{$1} $0"$/;"	s	array:Align numbered.big cup.body
-0	tex.json	/^      "\\\\bullet $0"$/;"	s	array:Align numbered.bullet.body
-0	tex.json	/^      "\\\\cap $0"$/;"	s	array:Align numbered.intersection cap.body
-0	tex.json	/^      "\\\\chapter{${1:chapter name}} % (fold)",$/;"	s	array:Align numbered.Chapter.body
-0	tex.json	/^      "\\\\cup $0"$/;"	s	array:Align numbered.union cup.body
-0	tex.json	/^      "\\\\delta $0"$/;"	s	array:Align numbered.delta.body
-0	tex.json	/^      "\\\\end{$1}", $/;"	s	array:Align numbered.end.body
-0	tex.json	/^      "\\\\epsilon $0"$/;"	s	array:Align numbered.epsilon.body
-0	tex.json	/^      "\\\\eqref{eq:$2}$0"$/;"	s	array:Align numbered.equation reference.body
-0	tex.json	/^      "\\\\exists $0 "$/;"	s	array:Align numbered.exists.body
-0	tex.json	/^      "\\\\forall $1 \\\\in $0"$/;"	s	array:Align numbered.for all.body
-0	tex.json	/^      "\\\\gamma $0"$/;"	s	array:Align numbered.gamma.body
-0	tex.json	/^      "\\\\geq $0"$/;"	s	array:Align numbered.greater equal.body
-0	tex.json	/^      "\\\\in $0"$/;"	s	array:Align numbered.in.body
-0	tex.json	/^      "\\\\infty $0"$/;"	s	array:Align numbered.infinity.body
-0	tex.json	/^      "\\\\label{$2}$0"$/;"	s	array:Align numbered.Label.body
-0	tex.json	/^      "\\\\land $0"$/;"	s	array:Align numbered.logical and.body
-0	tex.json	/^      "\\\\leq $0"$/;"	s	array:Align numbered.less equal.body
-0	tex.json	/^      "\\\\mapsto $0"$/;"	s	array:Align numbered.mapsto.body
-0	tex.json	/^      "\\\\mathbb{CP} ^{$1} $0"$/;"	s	array:Align numbered.field CP.body
-0	tex.json	/^      "\\\\mathbb{C} $0"$/;"	s	array:Align numbered.field C.body
-0	tex.json	/^      "\\\\mathbb{K} $0"$/;"	s	array:Align numbered.field K.body
-0	tex.json	/^      "\\\\mathbb{N} $0"$/;"	s	array:Align numbered.field N.body
-0	tex.json	/^      "\\\\mathbb{R} ^{$1} $0"$/;"	s	array:Align numbered.field R.body
-0	tex.json	/^      "\\\\mathbb{Z} $0"$/;"	s	array:Align numbered.field integers.body
-0	tex.json	/^      "\\\\mathcal{$2}$0"$/;"	s	array:Align numbered.caligraphic.body
-0	tex.json	/^      "\\\\mathcal{A} $0"$/;"	s	array:Align numbered.caligraphic A.body
-0	tex.json	/^      "\\\\mathcal{B} $0"$/;"	s	array:Align numbered.caligraphic B.body
-0	tex.json	/^      "\\\\mathcal{C} $0"$/;"	s	array:Align numbered.caligraphic C.body
-0	tex.json	/^      "\\\\mathcal{D} $0"$/;"	s	array:Align numbered.caligraphic D.body
-0	tex.json	/^      "\\\\mathcal{F} $0"$/;"	s	array:Align numbered.caligraphic F.body
-0	tex.json	/^      "\\\\mathcal{G} $0"$/;"	s	array:Align numbered.caligraphic G.body
-0	tex.json	/^      "\\\\mathcal{H} $0"$/;"	s	array:Align numbered.caligraphic H.body
-0	tex.json	/^      "\\\\mathcal{I} $0"$/;"	s	array:Align numbered.caligraphic I.body
-0	tex.json	/^      "\\\\mathcal{L} $0"$/;"	s	array:Align numbered.caligraphic L.body
-0	tex.json	/^      "\\\\mathcal{N} $0"$/;"	s	array:Align numbered.caligraphic N.body
-0	tex.json	/^      "\\\\mathcal{O} $0"$/;"	s	array:Align numbered.caligraphic O.body
-0	tex.json	/^      "\\\\mathcal{P} $0"$/;"	s	array:Align numbered.caligraphic P.body
-0	tex.json	/^      "\\\\mathcal{Q} $0"$/;"	s	array:Align numbered.caligraphic Q.body
-0	tex.json	/^      "\\\\mathcal{R} $0"$/;"	s	array:Align numbered.caligraphic R.body
-0	tex.json	/^      "\\\\mathcal{S} $0"$/;"	s	array:Align numbered.caligraphic S.body
-0	tex.json	/^      "\\\\mathcal{T} $0"$/;"	s	array:Align numbered.caligraphic T.body
-0	tex.json	/^      "\\\\mathcal{U} $0"$/;"	s	array:Align numbered.caligraphic U.body
-0	tex.json	/^      "\\\\mathcal{X} $0"$/;"	s	array:Align numbered.caligraphic X.body
-0	tex.json	/^      "\\\\mathcal{Y} $0"$/;"	s	array:Align numbered.caligraphic Y.body
-0	tex.json	/^      "\\\\mathfrak $0"$/;"	s	array:Align numbered.mathfrak.body
-0	tex.json	/^      "\\\\mathfrak g $0"$/;"	s	array:Align numbered.mathfrak g.body
-0	tex.json	/^      "\\\\nabla $0"$/;"	s	array:Align numbered.nabla.body
-0	tex.json	/^      "\\\\neq $0"$/;"	s	array:Align numbered.not equal.body
-0	tex.json	/^      "\\\\notin $0"$/;"	s	array:Align numbered.not in.body
-0	tex.json	/^      "\\\\null\\\\thispagestyle{empty}",$/;"	s	array:Align numbered.EmptyPage.body
-0	tex.json	/^      "\\\\omega $0"$/;"	s	array:Align numbered.omega.body
-0	tex.json	/^      "\\\\overline{$1} $0"$/;"	s	array:Align numbered.overline.body
-0	tex.json	/^      "\\\\overline{\\\\mathcal{R}} $0"$/;"	s	array:Align numbered.over R.body
-0	tex.json	/^      "\\\\paragraph{${1:paragraph name}} % (fold)",$/;"	s	array:Align numbered.Paragraph.body
-0	tex.json	/^      "\\\\partial $0"$/;"	s	array:Align numbered.partial.body
-0	tex.json	/^      "\\\\phi $0"$/;"	s	array:Align numbered.phi.body
-0	tex.json	/^      "\\\\prod _{$1} $0"$/;"	s	array:Align numbered.product.body
-0	tex.json	/^      "\\\\ref{$2}$0"$/;"	s	array:Align numbered.Reference.body
-0	tex.json	/^      "\\\\rho $0"$/;"	s	array:Align numbered.rho.body
-0	tex.json	/^      "\\\\section{${1:name}} % (fold)",$/;"	s	array:Align numbered.Section.body
-0	tex.json	/^      "\\\\sigma $0"$/;"	s	array:Align numbered.sigma.body
-0	tex.json	/^      "\\\\simeq $0"$/;"	s	array:Align numbered.isomorphic.body
-0	tex.json	/^      "\\\\subsection{${1:subsection name}} % (fold)",$/;"	s	array:Align numbered.Sub Section.body
-0	tex.json	/^      "\\\\textbf{$1} $0"$/;"	s	array:Align numbered.bold.body
-0	tex.json	/^      "\\\\to $0"$/;"	s	array:Align numbered.to.body
-0	tex.json	/^      "\\\\vdash $0"$/;"	s	array:Align numbered.proves.body
-0	tex.json	/^      "\\\\vee $0"$/;"	s	array:Align numbered.vee.body
-0	tex.json	/^      "\\\\widetilde{$1} $0"$/;"	s	array:Align numbered.wide tilda.body
-0	tex.json	/^      "\\\\xrightarrow{$2}$0"$/;"	s	array:Align numbered.xto.body
-0	tex.json	/^      "\\\\{$1\\\\\\\\}$0"$/;"	s	array:Align numbered.set bracket.body
-0	tex.json	/^      "^{$2}$0"$/;"	s	array:Align numbered.raise.body
-0	tex.json	/^      "_{$2}$0"$/;"	s	array:Align numbered.under.body
-0	tex.json	/^      "cf. $0"$/;"	s	array:Align numbered.cf.body
-0	tex.json	/^      "e.g. $0"$/;"	s	array:Align numbered.eg.body
-0	tex.json	/^      "i.e. $0"$/;"	s	array:Align numbered.ie.body
-0	tex.json	/^      "s.t. $0"$/;"	s	array:Align numbered.st.body
-0	tex.json	/^      "{$1} $0"$/;"	s	array:Align numbered.basic bracket.body
-0	tex.json	/^      "|$1| $0"$/;"	s	array:Align numbered.bars.body
-0	tex.json	/^      "|{$1}| $0"$/;"	s	array:Align numbered.norm.body
-0	tex.json	/^      "~\\\\cite{cite$1} $0"$/;"	s	array:Align numbered.Cite.body
-0	tex.json	/^     "\\\\circ $0"$/;"	s	array:Align numbered.composition.body
-0	tex.json	/^     "\\\\hookrightarrow $0"$/;"	s	array:Align numbered.hook right arrow.body
-0	tex.json	/^     "\\\\langle $1, $2 \\\\rangle $0"$/;"	s	array:Align numbered.duality.body
-0	tex.json	/^    "\\\\subsubsection{${1:subsection name}} % (fold)",$/;"	s	array:Align numbered.Sub Sub Section.body
-0	tex.json	/^    "prefix": ["D"],$/;"	s	array:Align numbered.Delta.prefix
-0	tex.json	/^    "prefix": ["Dd"],$/;"	s	array:Align numbered.Delta d-simplex.prefix
-0	tex.json	/^    "prefix": ["Ddb"],$/;"	s	array:Align numbered.Delta d-simplex bullet.prefix
-0	tex.json	/^    "prefix": ["G"],$/;"	s	array:Align numbered.Gamma.prefix
-0	tex.json	/^    "prefix": ["L"],$/;"	s	array:Align numbered.Lambda.prefix
-0	tex.json	/^    "prefix": ["S"],$/;"	s	array:Align numbered.Sigma.prefix
-0	tex.json	/^    "prefix": ["Th", "\\\\Th"],$/;"	s	array:Align numbered.Theta.prefix
-0	tex.json	/^    "prefix": ["ali", "aligned"],$/;"	s	array:Align numbered.Align(ed).prefix
+0	tex.json	/^        "body": ["\\\\documentclass{amsart}",  $/;"	s	array:Template.body
+0	tex.json	/^        "body": ["\\\\frac{$1}{$2}$0"],$/;"	s	array:Inline Fraction.body
+0	tex.json	/^        "description": ["Insert inline fraction notation, (only in the cases when the environmen/;"	s	array:Inline Fraction.description
+0	tex.json	/^        "description": ["template"]$/;"	s	array:Template.description
+0	tex.json	/^        "prefix": ["bi"],$/;"	s	array:Bold Italic Text.prefix
+0	tex.json	/^        "prefix": ["bigsum", "\\\\sumlarge"],$/;"	s	array:Large Summation.prefix
+0	tex.json	/^        "prefix": ["bold", "\\\\bold", "**"],$/;"	s	array:Bold Text.prefix
+0	tex.json	/^        "prefix": ["def", "\\\\definition"],$/;"	s	array:Definition.prefix
+0	tex.json	/^        "prefix": ["fr", "frac"],$/;"	s	array:Inline Fraction.prefix
+0	tex.json	/^        "prefix": ["integralinline", "\\\\integralinline"],$/;"	s	array:Inline Integral.prefix
+0	tex.json	/^        "prefix": ["integrallarge", "\\\\integrallarge"],$/;"	s	array:Large Integral.prefix
+0	tex.json	/^        "prefix": ["it"],$/;"	s	array:item.prefix
+0	tex.json	/^        "prefix": ["italic", "\\\\italic", "*"], $/;"	s	array:Italic Text.prefix
+0	tex.json	/^        "prefix": ["itemize", "\\\\itemize", "itemize"],$/;"	s	array:Itemize.prefix
+0	tex.json	/^        "prefix": ["problem", "\\\\problem"],$/;"	s	array:Problem.prefix
+0	tex.json	/^        "prefix": ["sum", "\\\\suminline"],$/;"	s	array:Inline Summation.prefix
+0	tex.json	/^        "prefix": ["template"],$/;"	s	array:Template.prefix
+0	tex.json	/^      "${1:Listing}~\\\\ref{lst:$2}$0"$/;"	s	array:Listing:Ref.body
+0	tex.json	/^      "${1:Table}~\\\\ref{tab:$2}$0"$/;"	s	array:Table:Ref.body
+0	tex.json	/^      "& $0"$/;"	s	array:and.body
+0	tex.json	/^      "($1) $0"$/;"	s	array:open bracket.body
+0	tex.json	/^      ":= $0"$/;"	s	array:defined by.body
+0	tex.json	/^      ":= $0"$/;"	s	array:definition.body
+0	tex.json	/^      "= $0"$/;"	s	array:equal.body
+0	tex.json	/^      "[$1] $0"$/;"	s	array:square bracket.body
+0	tex.json	/^      "\\\\$$1\\\\$ $0"$/;"	s	array:Math.body
+0	tex.json	/^      "\\\\Delta $0"$/;"	s	array:Delta.body
+0	tex.json	/^      "\\\\Delta^{$1} $0"$/;"	s	array:Delta d-simplex.body
+0	tex.json	/^      "\\\\Delta^{$1} _{\\bullet} $0"$/;"	s	array:Delta d-simplex bullet.body
+0	tex.json	/^      "\\\\Gamma $0"$/;"	s	array:Gamma.body
+0	tex.json	/^      "\\\\Lambda $0"$/;"	s	array:Lambda.body
+0	tex.json	/^      "\\\\Sigma $0"$/;"	s	array:Sigma.body
+0	tex.json	/^      "\\\\Theta $0"$/;"	s	array:Theta.body
+0	tex.json	/^      "\\\\\\\\begin{${1:env}}",$/;"	s	array:\\\\begin{}…\\\\end{}.body
+0	tex.json	/^      "\\\\\\\\begin{${1:t}${1\/(t)$|(a)$|(.*)\/(?1:abular)(?2:rray)\/}}{${2:c}}",$/;"	s	array:Tabular.body
+0	tex.json	/^      "\\\\\\\\begin{description}",$/;"	s	array:Description.body
+0	tex.json	/^      "\\\\begin{${1:p\/b\/v\/V\/B\/small}matrix}",$/;"	s	array:Matrix.body
+0	tex.json	/^      "\\\\begin{cases}",$/;"	s	array:Cases.body
+0	tex.json	/^      "\\\\begin{comment}", $/;"	s	array:comment.body
+0	tex.json	/^      "\\\\begin{compactitem}",$/;"	s	array:Compactitem.body
+0	tex.json	/^      "\\\\begin{corollary}", $/;"	s	array:Corollary.body
+0	tex.json	/^      "\\\\begin{enumerate}",$/;"	s	array:Enumerate.body
+0	tex.json	/^      "\\\\begin{equation*}",$/;"	s	array:Equation.body
+0	tex.json	/^      "\\\\begin{equation}",$/;"	s	array:EquationNumbered.body
+0	tex.json	/^      "\\\\begin{example}", $/;"	s	array:example.body
+0	tex.json	/^      "\\\\begin{figure*}",$/;"	s	array:Figure:ACM:*.body
+0	tex.json	/^      "\\\\begin{figure}",$/;"	s	array:Figure.body
+0	tex.json	/^      "\\\\begin{figure}",$/;"	s	array:Figure:ACM.body
+0	tex.json	/^      "\\\\begin{gather}",$/;"	s	array:Gather(ed).body
+0	tex.json	/^      "\\\\begin{lemma}", $/;"	s	array:lemma.body
+0	tex.json	/^      "\\\\begin{notation}", $/;"	s	array:notation.body
+0	tex.json	/^      "\\\\begin{proof}",$/;"	s	array:Proof.body
+0	tex.json	/^      "\\\\begin{proposition}", $/;"	s	array:proposition.body
+0	tex.json	/^      "\\\\begin{question}", $/;"	s	array:question.body
+0	tex.json	/^      "\\\\begin{remark}", $/;"	s	array:remark.body
+0	tex.json	/^      "\\\\begin{split}",$/;"	s	array:Split.body
+0	tex.json	/^      "\\\\begin{table*}",$/;"	s	array:Table:ACM:*.body
+0	tex.json	/^      "\\\\begin{table}",$/;"	s	array:Table.body
+0	tex.json	/^      "\\\\begin{table}",$/;"	s	array:Table:ACM.body
+0	tex.json	/^      "\\\\begin{theorem}", $/;"	s	array:Theorem.body
+0	tex.json	/^      "\\\\bigcap _{$1} $0"$/;"	s	array:big intersection cap.body
+0	tex.json	/^      "\\\\bigcup_{$1} $0"$/;"	s	array:big cup.body
+0	tex.json	/^      "\\\\bullet $0"$/;"	s	array:bullet.body
+0	tex.json	/^      "\\\\cap $0"$/;"	s	array:intersection cap.body
+0	tex.json	/^      "\\\\chapter{${1:chapter name}} % (fold)",$/;"	s	array:Chapter.body
+0	tex.json	/^      "\\\\cup $0"$/;"	s	array:union cup.body
+0	tex.json	/^      "\\\\delta $0"$/;"	s	array:delta.body
+0	tex.json	/^      "\\\\end{$1}", $/;"	s	array:end.body
+0	tex.json	/^      "\\\\epsilon $0"$/;"	s	array:epsilon.body
+0	tex.json	/^      "\\\\eqref{eq:$2}$0"$/;"	s	array:equation reference.body
+0	tex.json	/^      "\\\\exists $0 "$/;"	s	array:exists.body
+0	tex.json	/^      "\\\\forall $1 \\\\in $0"$/;"	s	array:for all.body
+0	tex.json	/^      "\\\\gamma $0"$/;"	s	array:gamma.body
+0	tex.json	/^      "\\\\geq $0"$/;"	s	array:greater equal.body
+0	tex.json	/^      "\\\\in $0"$/;"	s	array:in.body
+0	tex.json	/^      "\\\\infty $0"$/;"	s	array:infinity.body
+0	tex.json	/^      "\\\\label{$2}$0"$/;"	s	array:Label.body
+0	tex.json	/^      "\\\\land $0"$/;"	s	array:logical and.body
+0	tex.json	/^      "\\\\leq $0"$/;"	s	array:less equal.body
+0	tex.json	/^      "\\\\mapsto $0"$/;"	s	array:mapsto.body
+0	tex.json	/^      "\\\\mathbb{CP} ^{$1} $0"$/;"	s	array:field CP.body
+0	tex.json	/^      "\\\\mathbb{C} $0"$/;"	s	array:field C.body
+0	tex.json	/^      "\\\\mathbb{K} $0"$/;"	s	array:field K.body
+0	tex.json	/^      "\\\\mathbb{N} $0"$/;"	s	array:field N.body
+0	tex.json	/^      "\\\\mathbb{R} ^{$1} $0"$/;"	s	array:field R.body
+0	tex.json	/^      "\\\\mathbb{Z} $0"$/;"	s	array:field integers.body
+0	tex.json	/^      "\\\\mathcal{$2}$0"$/;"	s	array:caligraphic.body
+0	tex.json	/^      "\\\\mathcal{A} $0"$/;"	s	array:caligraphic A.body
+0	tex.json	/^      "\\\\mathcal{B} $0"$/;"	s	array:caligraphic B.body
+0	tex.json	/^      "\\\\mathcal{C} $0"$/;"	s	array:caligraphic C.body
+0	tex.json	/^      "\\\\mathcal{D} $0"$/;"	s	array:caligraphic D.body
+0	tex.json	/^      "\\\\mathcal{F} $0"$/;"	s	array:caligraphic F.body
+0	tex.json	/^      "\\\\mathcal{G} $0"$/;"	s	array:caligraphic G.body
+0	tex.json	/^      "\\\\mathcal{H} $0"$/;"	s	array:caligraphic H.body
+0	tex.json	/^      "\\\\mathcal{I} $0"$/;"	s	array:caligraphic I.body
+0	tex.json	/^      "\\\\mathcal{L} $0"$/;"	s	array:caligraphic L.body
+0	tex.json	/^      "\\\\mathcal{N} $0"$/;"	s	array:caligraphic N.body
+0	tex.json	/^      "\\\\mathcal{O} $0"$/;"	s	array:caligraphic O.body
+0	tex.json	/^      "\\\\mathcal{P} $0"$/;"	s	array:caligraphic P.body
+0	tex.json	/^      "\\\\mathcal{Q} $0"$/;"	s	array:caligraphic Q.body
+0	tex.json	/^      "\\\\mathcal{R} $0"$/;"	s	array:caligraphic R.body
+0	tex.json	/^      "\\\\mathcal{S} $0"$/;"	s	array:caligraphic S.body
+0	tex.json	/^      "\\\\mathcal{T} $0"$/;"	s	array:caligraphic T.body
+0	tex.json	/^      "\\\\mathcal{U} $0"$/;"	s	array:caligraphic U.body
+0	tex.json	/^      "\\\\mathcal{X} $0"$/;"	s	array:caligraphic X.body
+0	tex.json	/^      "\\\\mathcal{Y} $0"$/;"	s	array:caligraphic Y.body
+0	tex.json	/^      "\\\\mathfrak $0"$/;"	s	array:mathfrak.body
+0	tex.json	/^      "\\\\mathfrak g $0"$/;"	s	array:mathfrak g.body
+0	tex.json	/^      "\\\\nabla $0"$/;"	s	array:nabla.body
+0	tex.json	/^      "\\\\neq $0"$/;"	s	array:not equal.body
+0	tex.json	/^      "\\\\notin $0"$/;"	s	array:not in.body
+0	tex.json	/^      "\\\\null\\\\thispagestyle{empty}",$/;"	s	array:EmptyPage.body
+0	tex.json	/^      "\\\\omega $0"$/;"	s	array:omega.body
+0	tex.json	/^      "\\\\overline{$1} $0"$/;"	s	array:overline.body
+0	tex.json	/^      "\\\\overline{\\\\mathcal{R}} $0"$/;"	s	array:over R.body
+0	tex.json	/^      "\\\\paragraph{${1:paragraph name}} % (fold)",$/;"	s	array:Paragraph.body
+0	tex.json	/^      "\\\\partial $0"$/;"	s	array:partial.body
+0	tex.json	/^      "\\\\phi $0"$/;"	s	array:phi.body
+0	tex.json	/^      "\\\\prod _{$1} $0"$/;"	s	array:product.body
+0	tex.json	/^      "\\\\ref{$2}$0"$/;"	s	array:Reference.body
+0	tex.json	/^      "\\\\rho $0"$/;"	s	array:rho.body
+0	tex.json	/^      "\\\\section{${1:name}} % (fold)",$/;"	s	array:Section.body
+0	tex.json	/^      "\\\\sigma $0"$/;"	s	array:sigma.body
+0	tex.json	/^      "\\\\simeq $0"$/;"	s	array:isomorphic.body
+0	tex.json	/^      "\\\\subsection{${1:subsection name}} % (fold)",$/;"	s	array:Sub Section.body
+0	tex.json	/^      "\\\\textbf{$1} $0"$/;"	s	array:bold.body
+0	tex.json	/^      "\\\\to $0"$/;"	s	array:to.body
+0	tex.json	/^      "\\\\vdash $0"$/;"	s	array:proves.body
+0	tex.json	/^      "\\\\vee $0"$/;"	s	array:vee.body
+0	tex.json	/^      "\\\\widetilde{$1} $0"$/;"	s	array:wide tilda.body
+0	tex.json	/^      "\\\\xrightarrow{$2}$0"$/;"	s	array:xto.body
+0	tex.json	/^      "\\\\{$1\\\\\\\\}$0"$/;"	s	array:set bracket.body
+0	tex.json	/^      "^{$2}$0"$/;"	s	array:raise.body
+0	tex.json	/^      "_{$2}$0"$/;"	s	array:under.body
+0	tex.json	/^      "cf. $0"$/;"	s	array:cf.body
+0	tex.json	/^      "e.g. $0"$/;"	s	array:eg.body
+0	tex.json	/^      "i.e. $0"$/;"	s	array:ie.body
+0	tex.json	/^      "s.t. $0"$/;"	s	array:st.body
+0	tex.json	/^      "{$1} $0"$/;"	s	array:basic bracket.body
+0	tex.json	/^      "|$1| $0"$/;"	s	array:bars.body
+0	tex.json	/^      "|{$1}| $0"$/;"	s	array:norm.body
+0	tex.json	/^      "~\\\\cite{cite$1} $0"$/;"	s	array:Cite.body
+0	tex.json	/^     "\\\\circ $0"$/;"	s	array:composition.body
+0	tex.json	/^     "\\\\hookrightarrow $0"$/;"	s	array:hook right arrow.body
+0	tex.json	/^     "\\\\langle $1, $2 \\\\rangle $0"$/;"	s	array:duality.body
+0	tex.json	/^    "\\\\subsubsection{${1:subsection name}} % (fold)",$/;"	s	array:Sub Sub Section.body
+0	tex.json	/^    "prefix": ["D"],$/;"	s	array:Delta.prefix
+0	tex.json	/^    "prefix": ["Dd"],$/;"	s	array:Delta d-simplex.prefix
+0	tex.json	/^    "prefix": ["Ddb"],$/;"	s	array:Delta d-simplex bullet.prefix
+0	tex.json	/^    "prefix": ["G"],$/;"	s	array:Gamma.prefix
+0	tex.json	/^    "prefix": ["L"],$/;"	s	array:Lambda.prefix
+0	tex.json	/^    "prefix": ["S"],$/;"	s	array:Sigma.prefix
+0	tex.json	/^    "prefix": ["Th", "\\\\Th"],$/;"	s	array:Theta.prefix
+0	tex.json	/^    "prefix": ["ali", "aligned"],$/;"	s	array:Align(ed).prefix
 0	tex.json	/^    "prefix": ["alin", "alignedn"],$/;"	s	array:Align numbered.prefix
-0	tex.json	/^    "prefix": ["b", "begin"],$/;"	s	array:Align numbered.\\\\begin{}…\\\\end{}.prefix
-0	tex.json	/^    "prefix": ["bic"],$/;"	s	array:Align numbered.big intersection cap.prefix
-0	tex.json	/^    "prefix": ["buc"],$/;"	s	array:Align numbered.big cup.prefix
-0	tex.json	/^    "prefix": ["bul"],$/;"	s	array:Align numbered.bullet.prefix
-0	tex.json	/^    "prefix": ["cA"],$/;"	s	array:Align numbered.caligraphic A.prefix
-0	tex.json	/^    "prefix": ["cB"],$/;"	s	array:Align numbered.caligraphic B.prefix
-0	tex.json	/^    "prefix": ["cC"],$/;"	s	array:Align numbered.caligraphic C.prefix
-0	tex.json	/^    "prefix": ["cD"],$/;"	s	array:Align numbered.caligraphic D.prefix
-0	tex.json	/^    "prefix": ["cF"],$/;"	s	array:Align numbered.caligraphic F.prefix
-0	tex.json	/^    "prefix": ["cG"],$/;"	s	array:Align numbered.caligraphic G.prefix
-0	tex.json	/^    "prefix": ["cH"],$/;"	s	array:Align numbered.caligraphic H.prefix
-0	tex.json	/^    "prefix": ["cI"],$/;"	s	array:Align numbered.caligraphic I.prefix
-0	tex.json	/^    "prefix": ["cL"],$/;"	s	array:Align numbered.caligraphic L.prefix
-0	tex.json	/^    "prefix": ["cN"],$/;"	s	array:Align numbered.caligraphic N.prefix
-0	tex.json	/^    "prefix": ["cO"],$/;"	s	array:Align numbered.caligraphic O.prefix
-0	tex.json	/^    "prefix": ["cP"],$/;"	s	array:Align numbered.caligraphic P.prefix
-0	tex.json	/^    "prefix": ["cQ"],$/;"	s	array:Align numbered.caligraphic Q.prefix
-0	tex.json	/^    "prefix": ["cR"],$/;"	s	array:Align numbered.caligraphic R.prefix
-0	tex.json	/^    "prefix": ["cS"],$/;"	s	array:Align numbered.caligraphic S.prefix
-0	tex.json	/^    "prefix": ["cT"],$/;"	s	array:Align numbered.caligraphic T.prefix
-0	tex.json	/^    "prefix": ["cU"],$/;"	s	array:Align numbered.caligraphic U.prefix
-0	tex.json	/^    "prefix": ["cX"],$/;"	s	array:Align numbered.caligraphic X.prefix
-0	tex.json	/^    "prefix": ["cY"],$/;"	s	array:Align numbered.caligraphic Y.prefix
-0	tex.json	/^    "prefix": ["cp"],$/;"	s	array:Align numbered.field CP.prefix
-0	tex.json	/^    "prefix": ["d", "\\\\d"],$/;"	s	array:Align numbered.delta.prefix
-0	tex.json	/^    "prefix": ["db"],$/;"	s	array:Align numbered.defined by.prefix
-0	tex.json	/^    "prefix": ["df"],$/;"	s	array:Align numbered.definition.prefix
-0	tex.json	/^    "prefix": ["eps"],$/;"	s	array:Align numbered.epsilon.prefix
-0	tex.json	/^    "prefix": ["eql"],$/;"	s	array:Align numbered.equal.prefix
-0	tex.json	/^    "prefix": ["ex"],$/;"	s	array:Align numbered.exists.prefix
-0	tex.json	/^    "prefix": ["fN"],$/;"	s	array:Align numbered.field N.prefix
-0	tex.json	/^    "prefix": ["fR"],$/;"	s	array:Align numbered.field R.prefix
-0	tex.json	/^    "prefix": ["fZ"],$/;"	s	array:Align numbered.field integers.prefix
-0	tex.json	/^    "prefix": ["fa"],$/;"	s	array:Align numbered.for all.prefix
-0	tex.json	/^    "prefix": ["fc"],$/;"	s	array:Align numbered.field C.prefix
-0	tex.json	/^    "prefix": ["fk"],$/;"	s	array:Align numbered.field K.prefix
-0	tex.json	/^    "prefix": ["frak"],$/;"	s	array:Align numbered.mathfrak.prefix
-0	tex.json	/^    "prefix": ["frg"],$/;"	s	array:Align numbered.mathfrak g.prefix
-0	tex.json	/^    "prefix": ["g"],$/;"	s	array:Align numbered.gamma.prefix
-0	tex.json	/^    "prefix": ["geq"],$/;"	s	array:Align numbered.greater equal.prefix
-0	tex.json	/^    "prefix": ["ic"],$/;"	s	array:Align numbered.intersection cap.prefix
-0	tex.json	/^    "prefix": ["in"],$/;"	s	array:Align numbered.in.prefix
-0	tex.json	/^    "prefix": ["infi"],$/;"	s	array:Align numbered.infinity.prefix
-0	tex.json	/^    "prefix": ["isom", "seq"],$/;"	s	array:Align numbered.isomorphic.prefix
-0	tex.json	/^    "prefix": ["leq"],$/;"	s	array:Align numbered.less equal.prefix
-0	tex.json	/^    "prefix": ["mto", "mapsto", "maps"],$/;"	s	array:Align numbered.mapsto.prefix
-0	tex.json	/^    "prefix": ["nabla"],$/;"	s	array:Align numbered.nabla.prefix
-0	tex.json	/^    "prefix": ["neq"],$/;"	s	array:Align numbered.not equal.prefix
-0	tex.json	/^    "prefix": ["nin"],$/;"	s	array:Align numbered.not in.prefix
-0	tex.json	/^    "prefix": ["o", "\\\\o"],$/;"	s	array:Align numbered.omega.prefix
-0	tex.json	/^    "prefix": ["oR"],$/;"	s	array:Align numbered.over R.prefix
-0	tex.json	/^    "prefix": ["over"],$/;"	s	array:Align numbered.overline.prefix
-0	tex.json	/^    "prefix": ["p", "\\\\p"],$/;"	s	array:Align numbered.partial.prefix
-0	tex.json	/^    "prefix": ["phi"],$/;"	s	array:Align numbered.phi.prefix
-0	tex.json	/^    "prefix": ["prod"],$/;"	s	array:Align numbered.product.prefix
-0	tex.json	/^    "prefix": ["rho", "\\\\e"],$/;"	s	array:Align numbered.rho.prefix
-0	tex.json	/^    "prefix": ["s"],$/;"	s	array:Align numbered.sigma.prefix
-0	tex.json	/^    "prefix": ["uc"],$/;"	s	array:Align numbered.union cup.prefix
-0	tex.json	/^    "prefix": ["vdash", "proves", "pr"],$/;"	s	array:Align numbered.proves.prefix
-0	tex.json	/^    "prefix": ["wt"],$/;"	s	array:Align numbered.wide tilda.prefix
-0	tex.json	/^  "\\\\mathbb{$1} $0"$/;"	s	array:Align numbered.field.body
-0	tex.json	/^  "\\\\mathbb{Q} $0"$/;"	s	array:Align numbered.field Q.body
-0	tex.json	/^  "\\\\mathbb{S} $0"$/;"	s	array:Align numbered.field S.body
-0	tex.json	/^  "\\\\pi _{$1} $0"$/;"	s	array:Align numbered.pi.body
-0	tex.json	/^"\\\\begin{equation*}",$/;"	s	array:Align numbered.tikz.body
+0	tex.json	/^    "prefix": ["b", "begin"],$/;"	s	array:\\\\begin{}…\\\\end{}.prefix
+0	tex.json	/^    "prefix": ["bic"],$/;"	s	array:big intersection cap.prefix
+0	tex.json	/^    "prefix": ["buc"],$/;"	s	array:big cup.prefix
+0	tex.json	/^    "prefix": ["bul"],$/;"	s	array:bullet.prefix
+0	tex.json	/^    "prefix": ["cA"],$/;"	s	array:caligraphic A.prefix
+0	tex.json	/^    "prefix": ["cB"],$/;"	s	array:caligraphic B.prefix
+0	tex.json	/^    "prefix": ["cC"],$/;"	s	array:caligraphic C.prefix
+0	tex.json	/^    "prefix": ["cD"],$/;"	s	array:caligraphic D.prefix
+0	tex.json	/^    "prefix": ["cF"],$/;"	s	array:caligraphic F.prefix
+0	tex.json	/^    "prefix": ["cG"],$/;"	s	array:caligraphic G.prefix
+0	tex.json	/^    "prefix": ["cH"],$/;"	s	array:caligraphic H.prefix
+0	tex.json	/^    "prefix": ["cI"],$/;"	s	array:caligraphic I.prefix
+0	tex.json	/^    "prefix": ["cL"],$/;"	s	array:caligraphic L.prefix
+0	tex.json	/^    "prefix": ["cN"],$/;"	s	array:caligraphic N.prefix
+0	tex.json	/^    "prefix": ["cO"],$/;"	s	array:caligraphic O.prefix
+0	tex.json	/^    "prefix": ["cP"],$/;"	s	array:caligraphic P.prefix
+0	tex.json	/^    "prefix": ["cQ"],$/;"	s	array:caligraphic Q.prefix
+0	tex.json	/^    "prefix": ["cR"],$/;"	s	array:caligraphic R.prefix
+0	tex.json	/^    "prefix": ["cS"],$/;"	s	array:caligraphic S.prefix
+0	tex.json	/^    "prefix": ["cT"],$/;"	s	array:caligraphic T.prefix
+0	tex.json	/^    "prefix": ["cU"],$/;"	s	array:caligraphic U.prefix
+0	tex.json	/^    "prefix": ["cX"],$/;"	s	array:caligraphic X.prefix
+0	tex.json	/^    "prefix": ["cY"],$/;"	s	array:caligraphic Y.prefix
+0	tex.json	/^    "prefix": ["cp"],$/;"	s	array:field CP.prefix
+0	tex.json	/^    "prefix": ["d", "\\\\d"],$/;"	s	array:delta.prefix
+0	tex.json	/^    "prefix": ["db"],$/;"	s	array:defined by.prefix
+0	tex.json	/^    "prefix": ["df"],$/;"	s	array:definition.prefix
+0	tex.json	/^    "prefix": ["eps"],$/;"	s	array:epsilon.prefix
+0	tex.json	/^    "prefix": ["eql"],$/;"	s	array:equal.prefix
+0	tex.json	/^    "prefix": ["ex"],$/;"	s	array:exists.prefix
+0	tex.json	/^    "prefix": ["fN"],$/;"	s	array:field N.prefix
+0	tex.json	/^    "prefix": ["fR"],$/;"	s	array:field R.prefix
+0	tex.json	/^    "prefix": ["fZ"],$/;"	s	array:field integers.prefix
+0	tex.json	/^    "prefix": ["fa"],$/;"	s	array:for all.prefix
+0	tex.json	/^    "prefix": ["fc"],$/;"	s	array:field C.prefix
+0	tex.json	/^    "prefix": ["fk"],$/;"	s	array:field K.prefix
+0	tex.json	/^    "prefix": ["frak"],$/;"	s	array:mathfrak.prefix
+0	tex.json	/^    "prefix": ["frg"],$/;"	s	array:mathfrak g.prefix
+0	tex.json	/^    "prefix": ["g"],$/;"	s	array:gamma.prefix
+0	tex.json	/^    "prefix": ["geq"],$/;"	s	array:greater equal.prefix
+0	tex.json	/^    "prefix": ["ic"],$/;"	s	array:intersection cap.prefix
+0	tex.json	/^    "prefix": ["in"],$/;"	s	array:in.prefix
+0	tex.json	/^    "prefix": ["infi"],$/;"	s	array:infinity.prefix
+0	tex.json	/^    "prefix": ["isom", "seq"],$/;"	s	array:isomorphic.prefix
+0	tex.json	/^    "prefix": ["leq"],$/;"	s	array:less equal.prefix
+0	tex.json	/^    "prefix": ["mto", "mapsto", "maps"],$/;"	s	array:mapsto.prefix
+0	tex.json	/^    "prefix": ["nabla"],$/;"	s	array:nabla.prefix
+0	tex.json	/^    "prefix": ["neq"],$/;"	s	array:not equal.prefix
+0	tex.json	/^    "prefix": ["nin"],$/;"	s	array:not in.prefix
+0	tex.json	/^    "prefix": ["o", "\\\\o"],$/;"	s	array:omega.prefix
+0	tex.json	/^    "prefix": ["oR"],$/;"	s	array:over R.prefix
+0	tex.json	/^    "prefix": ["over"],$/;"	s	array:overline.prefix
+0	tex.json	/^    "prefix": ["p", "\\\\p"],$/;"	s	array:partial.prefix
+0	tex.json	/^    "prefix": ["phi"],$/;"	s	array:phi.prefix
+0	tex.json	/^    "prefix": ["prod"],$/;"	s	array:product.prefix
+0	tex.json	/^    "prefix": ["rho", "\\\\e"],$/;"	s	array:rho.prefix
+0	tex.json	/^    "prefix": ["s"],$/;"	s	array:sigma.prefix
+0	tex.json	/^    "prefix": ["uc"],$/;"	s	array:union cup.prefix
+0	tex.json	/^    "prefix": ["vdash", "proves", "pr"],$/;"	s	array:proves.prefix
+0	tex.json	/^    "prefix": ["wt"],$/;"	s	array:wide tilda.prefix
+0	tex.json	/^  "\\\\mathbb{$1} $0"$/;"	s	array:field.body
+0	tex.json	/^  "\\\\mathbb{Q} $0"$/;"	s	array:field Q.body
+0	tex.json	/^  "\\\\mathbb{S} $0"$/;"	s	array:field S.body
+0	tex.json	/^  "\\\\pi _{$1} $0"$/;"	s	array:pi.body
+0	tex.json	/^"\\\\begin{equation*}",$/;"	s	array:tikz.body
 0	texback.json	/^			"\\\\displaystyle\\\\int_{$1}^{$2}$3"$/;"	s	array:Large Integral.body
 0	texback.json	/^			"\\\\displaystyle\\\\sum_{$1}^{$2}$3"$/;"	s	array:Large Summation.body
 0	texback.json	/^            "$ $1 $$0"$/;"	s	array:Inline Math.body
@@ -1060,68 +1060,68 @@
 1	latexold.json	/^"\\\\begin{tikzcd}",$/;"	s	array:tikz.body
 1	sentence_tex.json	/^", 65:      "body": [ 66:          "  ldots  0" 67:         ], 68:      "description": "dots" 69/;"	n
 1	sentence_tex.json	/^614:++++  0" 615:      ], 616:      "description": "cf" 617:     , 618:    619:  "equation refer/;"	n
-1	tex.json	/^            "\\t$0",$/;"	s	array:Align numbered.Definition.body
-1	tex.json	/^            "\\t$0",$/;"	s	array:Align numbered.Problem.body
-1	tex.json	/^            "\\t\\\\item $1",$/;"	s	array:Align numbered.Itemize.body
-1	tex.json	/^        "\\t$0",    $/;"	s	array:Align numbered.Align(ed).body
+1	tex.json	/^            "\\t$0",$/;"	s	array:Definition.body
+1	tex.json	/^            "\\t$0",$/;"	s	array:Problem.body
+1	tex.json	/^            "\\t\\\\item $1",$/;"	s	array:Itemize.body
 1	tex.json	/^        "\\t$0",    $/;"	s	array:Align numbered.body
-1	tex.json	/^        "prefix": ["bigsum", "\\\\sumlarge"],$/;"	s	array:Align numbered.Large Summation.prefix
-1	tex.json	/^        "prefix": ["bold", "\\\\bold", "**"],$/;"	s	array:Align numbered.Bold Text.prefix
-1	tex.json	/^        "prefix": ["def", "\\\\definition"],$/;"	s	array:Align numbered.Definition.prefix
-1	tex.json	/^        "prefix": ["fr", "frac"],$/;"	s	array:Align numbered.Inline Fraction.prefix
-1	tex.json	/^        "prefix": ["integralinline", "\\\\integralinline"],$/;"	s	array:Align numbered.Inline Integral.prefix
-1	tex.json	/^        "prefix": ["integrallarge", "\\\\integrallarge"],$/;"	s	array:Align numbered.Large Integral.prefix
-1	tex.json	/^        "prefix": ["italic", "\\\\italic", "*"], $/;"	s	array:Align numbered.Italic Text.prefix
-1	tex.json	/^        "prefix": ["itemize", "\\\\itemize", "itemize"],$/;"	s	array:Align numbered.Itemize.prefix
-1	tex.json	/^        "prefix": ["problem", "\\\\problem"],$/;"	s	array:Align numbered.Problem.prefix
-1	tex.json	/^        "prefix": ["sum", "\\\\suminline"],$/;"	s	array:Align numbered.Inline Summation.prefix
-1	tex.json	/^      "$0"$/;"	s	array:Align numbered.end.body
-1	tex.json	/^      "$0${2\/((?<=[clr])([ |]*(c|l|r)))|.\/(?1: & )\/g}",$/;"	s	array:Align numbered.Tabular.body
-1	tex.json	/^      "$1",$/;"	s	array:Align numbered.comment.body
-1	tex.json	/^      "\\\\label{cha:${2:${1\/(\\\\w+)(\\\\W+$)?|\\\\W+\/${1:?${1:\/asciify\/downcase}:_}\/g}}}"/;"	s	array:Align numbered.Chapter.body
-1	tex.json	/^      "\\\\label{par:$1}",$/;"	s	array:Align numbered.Paragraph.body
-1	tex.json	/^      "\\\\label{sec:$1}"$/;"	s	array:Align numbered.Section.body
-1	tex.json	/^      "\\\\label{sec:$1}"$/;"	s	array:Align numbered.Sub Section.body
-1	tex.json	/^      "\\\\label{sec:$1}"$/;"	s	array:Align numbered.Sub Sub Section.body
-1	tex.json	/^      "\\\\newpage",$/;"	s	array:Align numbered.EmptyPage.body
-1	tex.json	/^      "\\t$0",$/;"	s	array:Align numbered.Gather(ed).body
-1	tex.json	/^      "\\t$0",$/;"	s	array:Align numbered.Matrix.body
-1	tex.json	/^      "\\t$1",$/;"	s	array:Align numbered.Equation.body
-1	tex.json	/^      "\\t$1",$/;"	s	array:Align numbered.Proof.body
-1	tex.json	/^      "\\t$1",$/;"	s	array:Align numbered.Split.body
-1	tex.json	/^      "\\t${1:equation}, &\\\\text{ if }${2:case}\\\\\\\\\\\\\\\\",$/;"	s	array:Align numbered.Cases.body
-1	tex.json	/^      "\\t${2\/(enumerate|itemize|list)|(description)|.*\/(?1:\\\\item )(?2:\\\\item)\/}$0",$/;"	s	array:Align numbered.\\\\begin{}…\\\\end{}.body
-1	tex.json	/^      "\\t\\\\begin{center}",$/;"	s	array:Align numbered.Figure.body
-1	tex.json	/^      "\\t\\\\caption{$1}",$/;"	s	array:Align numbered.Table.body
-1	tex.json	/^      "\\t\\\\caption{$1}",$/;"	s	array:Align numbered.Table:ACM.body
-1	tex.json	/^      "\\t\\\\caption{$1}",$/;"	s	array:Align numbered.Table:ACM:*.body
-1	tex.json	/^      "\\t\\\\includegraphics[width=0.45\\\\textwidth]{figures\/$1}",$/;"	s	array:Align numbered.Figure:ACM.body
-1	tex.json	/^      "\\t\\\\includegraphics[width=0.45\\\\textwidth]{figures\/$1}",$/;"	s	array:Align numbered.Figure:ACM:*.body
-1	tex.json	/^      "\\t\\\\item $0",$/;"	s	array:Align numbered.Enumerate.body
-1	tex.json	/^      "\\t\\\\item $1",$/;"	s	array:Align numbered.Compactitem.body
-1	tex.json	/^      "\\t\\\\item[$1] $0",$/;"	s	array:Align numbered.Description.body
-1	tex.json	/^      "\\t\\\\label{corol:$1}", $/;"	s	array:Align numbered.Corollary.body
-1	tex.json	/^      "\\t\\\\label{eq:$1}",$/;"	s	array:Align numbered.EquationNumbered.body
-1	tex.json	/^      "\\t\\\\label{example:$1}",$/;"	s	array:Align numbered.example.body
-1	tex.json	/^      "\\t\\\\label{lemma:$1}", $/;"	s	array:Align numbered.lemma.body
-1	tex.json	/^      "\\t\\\\label{notation:$1}",$/;"	s	array:Align numbered.notation.body
-1	tex.json	/^      "\\t\\\\label{prop:$1}",   $/;"	s	array:Align numbered.proposition.body
-1	tex.json	/^      "\\t\\\\label{question:$1}", $/;"	s	array:Align numbered.question.body
-1	tex.json	/^      "\\t\\\\label{remark:$1}", $/;"	s	array:Align numbered.remark.body
-1	tex.json	/^      "\\t\\\\label{thm:$1}", $/;"	s	array:Align numbered.Theorem.body
-1	tex.json	/^    "prefix": ["Th", "\\\\Th"],$/;"	s	array:Align numbered.Theta.prefix
-1	tex.json	/^    "prefix": ["ali", "aligned"],$/;"	s	array:Align numbered.Align(ed).prefix
+1	tex.json	/^        "\\t$0",    $/;"	s	array:Align(ed).body
+1	tex.json	/^        "prefix": ["bigsum", "\\\\sumlarge"],$/;"	s	array:Large Summation.prefix
+1	tex.json	/^        "prefix": ["bold", "\\\\bold", "**"],$/;"	s	array:Bold Text.prefix
+1	tex.json	/^        "prefix": ["def", "\\\\definition"],$/;"	s	array:Definition.prefix
+1	tex.json	/^        "prefix": ["fr", "frac"],$/;"	s	array:Inline Fraction.prefix
+1	tex.json	/^        "prefix": ["integralinline", "\\\\integralinline"],$/;"	s	array:Inline Integral.prefix
+1	tex.json	/^        "prefix": ["integrallarge", "\\\\integrallarge"],$/;"	s	array:Large Integral.prefix
+1	tex.json	/^        "prefix": ["italic", "\\\\italic", "*"], $/;"	s	array:Italic Text.prefix
+1	tex.json	/^        "prefix": ["itemize", "\\\\itemize", "itemize"],$/;"	s	array:Itemize.prefix
+1	tex.json	/^        "prefix": ["problem", "\\\\problem"],$/;"	s	array:Problem.prefix
+1	tex.json	/^        "prefix": ["sum", "\\\\suminline"],$/;"	s	array:Inline Summation.prefix
+1	tex.json	/^      "$0"$/;"	s	array:end.body
+1	tex.json	/^      "$0${2\/((?<=[clr])([ |]*(c|l|r)))|.\/(?1: & )\/g}",$/;"	s	array:Tabular.body
+1	tex.json	/^      "$1",$/;"	s	array:comment.body
+1	tex.json	/^      "\\\\label{cha:${2:${1\/(\\\\w+)(\\\\W+$)?|\\\\W+\/${1:?${1:\/asciify\/downcase}:_}\/g}}}"/;"	s	array:Chapter.body
+1	tex.json	/^      "\\\\label{par:$1}",$/;"	s	array:Paragraph.body
+1	tex.json	/^      "\\\\label{sec:$1}"$/;"	s	array:Section.body
+1	tex.json	/^      "\\\\label{sec:$1}"$/;"	s	array:Sub Section.body
+1	tex.json	/^      "\\\\label{sec:$1}"$/;"	s	array:Sub Sub Section.body
+1	tex.json	/^      "\\\\newpage",$/;"	s	array:EmptyPage.body
+1	tex.json	/^      "\\t$0",$/;"	s	array:Gather(ed).body
+1	tex.json	/^      "\\t$0",$/;"	s	array:Matrix.body
+1	tex.json	/^      "\\t$1",$/;"	s	array:Equation.body
+1	tex.json	/^      "\\t$1",$/;"	s	array:Proof.body
+1	tex.json	/^      "\\t$1",$/;"	s	array:Split.body
+1	tex.json	/^      "\\t${1:equation}, &\\\\text{ if }${2:case}\\\\\\\\\\\\\\\\",$/;"	s	array:Cases.body
+1	tex.json	/^      "\\t${2\/(enumerate|itemize|list)|(description)|.*\/(?1:\\\\item )(?2:\\\\item)\/}$0",$/;"	s	array:\\\\begin{}…\\\\end{}.body
+1	tex.json	/^      "\\t\\\\begin{center}",$/;"	s	array:Figure.body
+1	tex.json	/^      "\\t\\\\caption{$1}",$/;"	s	array:Table.body
+1	tex.json	/^      "\\t\\\\caption{$1}",$/;"	s	array:Table:ACM.body
+1	tex.json	/^      "\\t\\\\caption{$1}",$/;"	s	array:Table:ACM:*.body
+1	tex.json	/^      "\\t\\\\includegraphics[width=0.45\\\\textwidth]{figures\/$1}",$/;"	s	array:Figure:ACM.body
+1	tex.json	/^      "\\t\\\\includegraphics[width=0.45\\\\textwidth]{figures\/$1}",$/;"	s	array:Figure:ACM:*.body
+1	tex.json	/^      "\\t\\\\item $0",$/;"	s	array:Enumerate.body
+1	tex.json	/^      "\\t\\\\item $1",$/;"	s	array:Compactitem.body
+1	tex.json	/^      "\\t\\\\item[$1] $0",$/;"	s	array:Description.body
+1	tex.json	/^      "\\t\\\\label{corol:$1}", $/;"	s	array:Corollary.body
+1	tex.json	/^      "\\t\\\\label{eq:$1}",$/;"	s	array:EquationNumbered.body
+1	tex.json	/^      "\\t\\\\label{example:$1}",$/;"	s	array:example.body
+1	tex.json	/^      "\\t\\\\label{lemma:$1}", $/;"	s	array:lemma.body
+1	tex.json	/^      "\\t\\\\label{notation:$1}",$/;"	s	array:notation.body
+1	tex.json	/^      "\\t\\\\label{prop:$1}",   $/;"	s	array:proposition.body
+1	tex.json	/^      "\\t\\\\label{question:$1}", $/;"	s	array:question.body
+1	tex.json	/^      "\\t\\\\label{remark:$1}", $/;"	s	array:remark.body
+1	tex.json	/^      "\\t\\\\label{thm:$1}", $/;"	s	array:Theorem.body
+1	tex.json	/^    "prefix": ["Th", "\\\\Th"],$/;"	s	array:Theta.prefix
+1	tex.json	/^    "prefix": ["ali", "aligned"],$/;"	s	array:Align(ed).prefix
 1	tex.json	/^    "prefix": ["alin", "alignedn"],$/;"	s	array:Align numbered.prefix
-1	tex.json	/^    "prefix": ["b", "begin"],$/;"	s	array:Align numbered.\\\\begin{}…\\\\end{}.prefix
-1	tex.json	/^    "prefix": ["d", "\\\\d"],$/;"	s	array:Align numbered.delta.prefix
-1	tex.json	/^    "prefix": ["isom", "seq"],$/;"	s	array:Align numbered.isomorphic.prefix
-1	tex.json	/^    "prefix": ["mto", "mapsto", "maps"],$/;"	s	array:Align numbered.mapsto.prefix
-1	tex.json	/^    "prefix": ["o", "\\\\o"],$/;"	s	array:Align numbered.omega.prefix
-1	tex.json	/^    "prefix": ["p", "\\\\p"],$/;"	s	array:Align numbered.partial.prefix
-1	tex.json	/^    "prefix": ["rho", "\\\\e"],$/;"	s	array:Align numbered.rho.prefix
-1	tex.json	/^    "prefix": ["vdash", "proves", "pr"],$/;"	s	array:Align numbered.proves.prefix
-1	tex.json	/^"\\\\begin{tikzcd}",$/;"	s	array:Align numbered.tikz.body
-1	tex.json	/^"\\\\usepackage{color}",$/;"	s	array:Align numbered.Template.body
+1	tex.json	/^    "prefix": ["b", "begin"],$/;"	s	array:\\\\begin{}…\\\\end{}.prefix
+1	tex.json	/^    "prefix": ["d", "\\\\d"],$/;"	s	array:delta.prefix
+1	tex.json	/^    "prefix": ["isom", "seq"],$/;"	s	array:isomorphic.prefix
+1	tex.json	/^    "prefix": ["mto", "mapsto", "maps"],$/;"	s	array:mapsto.prefix
+1	tex.json	/^    "prefix": ["o", "\\\\o"],$/;"	s	array:omega.prefix
+1	tex.json	/^    "prefix": ["p", "\\\\p"],$/;"	s	array:partial.prefix
+1	tex.json	/^    "prefix": ["rho", "\\\\e"],$/;"	s	array:rho.prefix
+1	tex.json	/^    "prefix": ["vdash", "proves", "pr"],$/;"	s	array:proves.prefix
+1	tex.json	/^"\\\\begin{tikzcd}",$/;"	s	array:tikz.body
+1	tex.json	/^"\\\\usepackage{color}",$/;"	s	array:Template.body
 1	texback.json	/^            "\\\\begin{axis}[",$/;"	s	array:Create 2D Plot environment.body
 1	texback.json	/^            "\\\\begin{axis}[",$/;"	s	array:Create 3D Plot Environment.body
 1	texback.json	/^            "\\t$0",$/;"	s	array:Definition.body
@@ -1267,9 +1267,9 @@
 10	latexold.json	/^      "\\t\\\\end{tabular}",$/;"	s	array:Table:ACM:*.body
 10	latexold.json	/^      "\\t\\t\\tc & d \\\\\\\\\\\\\\\\",$/;"	s	array:Table.body
 10	sentence_tex.json	/^"] 843:       ,  844:  "infinity":   845:      "prefix": ["infi"], 846:      "body": [ 847:     /;"	n
-10	tex.json	/^      "\\t\\\\end{tabular}",$/;"	s	array:Align numbered.Table:ACM.body
-10	tex.json	/^      "\\t\\\\end{tabular}",$/;"	s	array:Align numbered.Table:ACM:*.body
-10	tex.json	/^      "\\t\\t\\tc & d \\\\\\\\\\\\\\\\",$/;"	s	array:Align numbered.Table.body
+10	tex.json	/^      "\\t\\\\end{tabular}",$/;"	s	array:Table:ACM.body
+10	tex.json	/^      "\\t\\\\end{tabular}",$/;"	s	array:Table:ACM:*.body
+10	tex.json	/^      "\\t\\t\\tc & d \\\\\\\\\\\\\\\\",$/;"	s	array:Table.body
 10	texback.json	/^            "$3",$/;"	s	array:Create 2D Plot environment.body
 10	texback.json	/^            "trig format plots = rad,",$/;"	s	array:Create 3D Plot Environment.body
 10	texback.json	/^      "\\t\\\\end{tabular}",$/;"	s	array:Table:ACM.body
@@ -1286,9 +1286,9 @@
 11	latexold.json	/^      "\\\\end{table}",$/;"	s	array:Table:ACM.body
 11	latexold.json	/^      "\\t\\t\\t$5",$/;"	s	array:Table.body
 11	sentence_tex.json	/^"] 843:       ,  844:  "infinity":   845:      "prefix": ["infi"], 846:      "body": [ 847:     /;"	n
-11	tex.json	/^      "\\\\end{table*}",$/;"	s	array:Align numbered.Table:ACM:*.body
-11	tex.json	/^      "\\\\end{table}",$/;"	s	array:Align numbered.Table:ACM.body
-11	tex.json	/^      "\\t\\t\\t$5",$/;"	s	array:Align numbered.Table.body
+11	tex.json	/^      "\\\\end{table*}",$/;"	s	array:Table:ACM:*.body
+11	tex.json	/^      "\\\\end{table}",$/;"	s	array:Table:ACM.body
+11	tex.json	/^      "\\t\\t\\t$5",$/;"	s	array:Table.body
 11	texback.json	/^            "\\\\end{axis}",$/;"	s	array:Create 2D Plot environment.body
 11	texback.json	/^            "]",$/;"	s	array:Create 3D Plot Environment.body
 11	texback.json	/^      "\\\\end{table*}",$/;"	s	array:Table:ACM:*.body
@@ -1305,9 +1305,9 @@
 12	latexold.json	/^      "$0"$/;"	s	array:Table:ACM:*.body
 12	latexold.json	/^      "\\t\\t\\t\\\\hline",$/;"	s	array:Table.body
 12	sentence_tex.json	/^"] 843:       ,  844:  "infinity":   845:      "prefix": ["infi"], 846:      "body": [ 847:     /;"	n
-12	tex.json	/^      "$0"$/;"	s	array:Align numbered.Table:ACM.body
-12	tex.json	/^      "$0"$/;"	s	array:Align numbered.Table:ACM:*.body
-12	tex.json	/^      "\\t\\t\\t\\\\hline",$/;"	s	array:Align numbered.Table.body
+12	tex.json	/^      "$0"$/;"	s	array:Table:ACM.body
+12	tex.json	/^      "$0"$/;"	s	array:Table:ACM:*.body
+12	tex.json	/^      "\\t\\t\\t\\\\hline",$/;"	s	array:Table.body
 12	texback.json	/^            "$4",$/;"	s	array:Create 3D Plot Environment.body
 12	texback.json	/^            "\\\\end{tikzpicture}$0"$/;"	s	array:Create 2D Plot environment.body
 12	texback.json	/^      "$0"$/;"	s	array:Table:ACM.body
@@ -1319,26 +1319,26 @@
 12	text.json	/^      "\\t\\t\\t\\\\hline",$/;"	s	array:Table.body
 13	html.json	/^      "\\t\\t\\\\end{tabular}",$/;"	s	array:Table.body
 13	latexold.json	/^      "\\t\\t\\\\end{tabular}",$/;"	s	array:Table.body
-13	tex.json	/^      "\\t\\t\\\\end{tabular}",$/;"	s	array:Align numbered.Table.body
+13	tex.json	/^      "\\t\\t\\\\end{tabular}",$/;"	s	array:Table.body
 13	texback.json	/^            "\\\\end{axis}",$/;"	s	array:Create 3D Plot Environment.body
 13	texback.json	/^      "\\\\end{algorithm}",$/;"	s	array:Algorithm.body
 13	texback.json	/^      "\\t\\t\\\\end{tabular}",$/;"	s	array:Table.body
 13	text.json	/^      "\\t\\t\\\\end{tabular}",$/;"	s	array:Table.body
 14	html.json	/^      "\\t\\\\end{center}",$/;"	s	array:Table.body
 14	latexold.json	/^      "\\t\\\\end{center}",$/;"	s	array:Table.body
-14	tex.json	/^      "\\t\\\\end{center}",$/;"	s	array:Align numbered.Table.body
+14	tex.json	/^      "\\t\\\\end{center}",$/;"	s	array:Table.body
 14	texback.json	/^            "\\\\end{tikzpicture}$0"$/;"	s	array:Create 3D Plot Environment.body
 14	texback.json	/^      "$0"$/;"	s	array:Algorithm.body
 14	texback.json	/^      "\\t\\\\end{center}",$/;"	s	array:Table.body
 14	text.json	/^      "\\t\\\\end{center}",$/;"	s	array:Table.body
 15	html.json	/^      "\\\\end{table}",$/;"	s	array:Table.body
 15	latexold.json	/^      "\\\\end{table}",$/;"	s	array:Table.body
-15	tex.json	/^      "\\\\end{table}",$/;"	s	array:Align numbered.Table.body
+15	tex.json	/^      "\\\\end{table}",$/;"	s	array:Table.body
 15	texback.json	/^      "\\\\end{table}",$/;"	s	array:Table.body
 15	text.json	/^      "\\\\end{table}",$/;"	s	array:Table.body
 16	html.json	/^      "$0"$/;"	s	array:Table.body
 16	latexold.json	/^      "$0"$/;"	s	array:Table.body
-16	tex.json	/^      "$0"$/;"	s	array:Align numbered.Table.body
+16	tex.json	/^      "$0"$/;"	s	array:Table.body
 16	texback.json	/^      "$0"$/;"	s	array:Table.body
 16	text.json	/^      "$0"$/;"	s	array:Table.body
 2	html.json	/^            "\\\\end{definition}"$/;"	s	array:Definition.body
@@ -1418,48 +1418,48 @@
 2	latexold.json	/^"$1 \\\\ar[r, \\"$2\\"] \\\\ar [d, \\"$3\\"] &  $4 \\\\ar [d,\\"$5\\"] \\\\\\\\", $/;"	s	array:tikz.body
 2	sentence_tex.json	/^", 65:      "body": [ 66:          "  ldots  0" 67:         ], 68:      "description": "dots" 69/;"	n
 2	sentence_tex.json	/^751:++++  0" 752:      ], 753:      "description": "ie" 754:     , 755:   756:  "and":   757:   /;"	n
-2	tex.json	/^            "\\\\end{definition}"$/;"	s	array:Align numbered.Definition.body
-2	tex.json	/^            "\\\\end{itemize}$0"$/;"	s	array:Align numbered.Itemize.body
-2	tex.json	/^            "\\\\end{problem}"$/;"	s	array:Align numbered.Problem.body
-2	tex.json	/^        "\\\\end{align*}"$/;"	s	array:Align numbered.Align(ed).body
+2	tex.json	/^            "\\\\end{definition}"$/;"	s	array:Definition.body
+2	tex.json	/^            "\\\\end{itemize}$0"$/;"	s	array:Itemize.body
+2	tex.json	/^            "\\\\end{problem}"$/;"	s	array:Problem.body
+2	tex.json	/^        "\\\\end{align*}"$/;"	s	array:Align(ed).body
 2	tex.json	/^        "\\\\end{align}"$/;"	s	array:Align numbered.body
-2	tex.json	/^        "prefix": ["bold", "\\\\bold", "**"],$/;"	s	array:Align numbered.Bold Text.prefix
-2	tex.json	/^        "prefix": ["italic", "\\\\italic", "*"], $/;"	s	array:Align numbered.Italic Text.prefix
-2	tex.json	/^        "prefix": ["itemize", "\\\\itemize", "itemize"],$/;"	s	array:Align numbered.Itemize.prefix
-2	tex.json	/^       "$2",$/;"	s	array:Align numbered.Theorem.body
-2	tex.json	/^      "$0"$/;"	s	array:Align numbered.EmptyPage.body
-2	tex.json	/^      "$2", $/;"	s	array:Align numbered.question.body
-2	tex.json	/^      "$2", $/;"	s	array:Align numbered.remark.body
-2	tex.json	/^      "$2",$/;"	s	array:Align numbered.Corollary.body
-2	tex.json	/^      "$2",$/;"	s	array:Align numbered.lemma.body
-2	tex.json	/^      "$2",$/;"	s	array:Align numbered.proposition.body
-2	tex.json	/^      "${0:$TM_SELECTED_TEXT}"$/;"	s	array:Align numbered.Paragraph.body
-2	tex.json	/^      "${0:$TM_SELECTED_TEXT}",$/;"	s	array:Align numbered.Chapter.body
-2	tex.json	/^      "\\\\\\\\end{${1:env}}"$/;"	s	array:Align numbered.\\\\begin{}…\\\\end{}.body
-2	tex.json	/^      "\\\\\\\\end{${1:t}${1\/(t)$|(a)$|(.*)\/(?1:abular)(?2:rray)\/}}"$/;"	s	array:Align numbered.Tabular.body
-2	tex.json	/^      "\\\\\\\\end{description}"$/;"	s	array:Align numbered.Description.body
-2	tex.json	/^      "\\\\end{${1:p\/b\/v\/V\/B\/small}matrix}"$/;"	s	array:Align numbered.Matrix.body
-2	tex.json	/^      "\\\\end{comment}",$/;"	s	array:Align numbered.comment.body
-2	tex.json	/^      "\\\\end{compactitem}",$/;"	s	array:Align numbered.Compactitem.body
-2	tex.json	/^      "\\\\end{enumerate}"$/;"	s	array:Align numbered.Enumerate.body
-2	tex.json	/^      "\\\\end{equation*}",$/;"	s	array:Align numbered.Equation.body
-2	tex.json	/^      "\\\\end{example}",$/;"	s	array:Align numbered.example.body
-2	tex.json	/^      "\\\\end{gather}"$/;"	s	array:Align numbered.Gather(ed).body
-2	tex.json	/^      "\\\\end{notation}",$/;"	s	array:Align numbered.notation.body
-2	tex.json	/^      "\\\\end{proof}",$/;"	s	array:Align numbered.Proof.body
-2	tex.json	/^      "\\\\end{split}",$/;"	s	array:Align numbered.Split.body
-2	tex.json	/^      "\\t$0",$/;"	s	array:Align numbered.Cases.body
-2	tex.json	/^      "\\t$2", $/;"	s	array:Align numbered.EquationNumbered.body
-2	tex.json	/^      "\\t\\\\caption{$2}",$/;"	s	array:Align numbered.Figure:ACM.body
-2	tex.json	/^      "\\t\\\\caption{$2}",$/;"	s	array:Align numbered.Figure:ACM:*.body
-2	tex.json	/^      "\\t\\\\label{tab:$2}",$/;"	s	array:Align numbered.Table.body
-2	tex.json	/^      "\\t\\\\label{tab:$2}",$/;"	s	array:Align numbered.Table:ACM.body
-2	tex.json	/^      "\\t\\\\label{tab:$2}",$/;"	s	array:Align numbered.Table:ACM:*.body
-2	tex.json	/^      "\\t\\t\\\\includegraphics[width=0.95\\\\textwidth]{figures\/$1}",$/;"	s	array:Align numbered.Figure.body
-2	tex.json	/^    "prefix": ["mto", "mapsto", "maps"],$/;"	s	array:Align numbered.mapsto.prefix
-2	tex.json	/^    "prefix": ["vdash", "proves", "pr"],$/;"	s	array:Align numbered.proves.prefix
-2	tex.json	/^"$1 \\\\ar[r, \\"$2\\"] \\\\ar [d, \\"$3\\"] &  $4 \\\\ar [d,\\"$5\\"] \\\\\\\\", $/;"	s	array:Align numbered.tikz.body
-2	tex.json	/^"\\\\usepackage{tikz-cd}",$/;"	s	array:Align numbered.Template.body
+2	tex.json	/^        "prefix": ["bold", "\\\\bold", "**"],$/;"	s	array:Bold Text.prefix
+2	tex.json	/^        "prefix": ["italic", "\\\\italic", "*"], $/;"	s	array:Italic Text.prefix
+2	tex.json	/^        "prefix": ["itemize", "\\\\itemize", "itemize"],$/;"	s	array:Itemize.prefix
+2	tex.json	/^       "$2",$/;"	s	array:Theorem.body
+2	tex.json	/^      "$0"$/;"	s	array:EmptyPage.body
+2	tex.json	/^      "$2", $/;"	s	array:question.body
+2	tex.json	/^      "$2", $/;"	s	array:remark.body
+2	tex.json	/^      "$2",$/;"	s	array:Corollary.body
+2	tex.json	/^      "$2",$/;"	s	array:lemma.body
+2	tex.json	/^      "$2",$/;"	s	array:proposition.body
+2	tex.json	/^      "${0:$TM_SELECTED_TEXT}"$/;"	s	array:Paragraph.body
+2	tex.json	/^      "${0:$TM_SELECTED_TEXT}",$/;"	s	array:Chapter.body
+2	tex.json	/^      "\\\\\\\\end{${1:env}}"$/;"	s	array:\\\\begin{}…\\\\end{}.body
+2	tex.json	/^      "\\\\\\\\end{${1:t}${1\/(t)$|(a)$|(.*)\/(?1:abular)(?2:rray)\/}}"$/;"	s	array:Tabular.body
+2	tex.json	/^      "\\\\\\\\end{description}"$/;"	s	array:Description.body
+2	tex.json	/^      "\\\\end{${1:p\/b\/v\/V\/B\/small}matrix}"$/;"	s	array:Matrix.body
+2	tex.json	/^      "\\\\end{comment}",$/;"	s	array:comment.body
+2	tex.json	/^      "\\\\end{compactitem}",$/;"	s	array:Compactitem.body
+2	tex.json	/^      "\\\\end{enumerate}"$/;"	s	array:Enumerate.body
+2	tex.json	/^      "\\\\end{equation*}",$/;"	s	array:Equation.body
+2	tex.json	/^      "\\\\end{example}",$/;"	s	array:example.body
+2	tex.json	/^      "\\\\end{gather}"$/;"	s	array:Gather(ed).body
+2	tex.json	/^      "\\\\end{notation}",$/;"	s	array:notation.body
+2	tex.json	/^      "\\\\end{proof}",$/;"	s	array:Proof.body
+2	tex.json	/^      "\\\\end{split}",$/;"	s	array:Split.body
+2	tex.json	/^      "\\t$0",$/;"	s	array:Cases.body
+2	tex.json	/^      "\\t$2", $/;"	s	array:EquationNumbered.body
+2	tex.json	/^      "\\t\\\\caption{$2}",$/;"	s	array:Figure:ACM.body
+2	tex.json	/^      "\\t\\\\caption{$2}",$/;"	s	array:Figure:ACM:*.body
+2	tex.json	/^      "\\t\\\\label{tab:$2}",$/;"	s	array:Table.body
+2	tex.json	/^      "\\t\\\\label{tab:$2}",$/;"	s	array:Table:ACM.body
+2	tex.json	/^      "\\t\\\\label{tab:$2}",$/;"	s	array:Table:ACM:*.body
+2	tex.json	/^      "\\t\\t\\\\includegraphics[width=0.95\\\\textwidth]{figures\/$1}",$/;"	s	array:Figure.body
+2	tex.json	/^    "prefix": ["mto", "mapsto", "maps"],$/;"	s	array:mapsto.prefix
+2	tex.json	/^    "prefix": ["vdash", "proves", "pr"],$/;"	s	array:proves.prefix
+2	tex.json	/^"$1 \\\\ar[r, \\"$2\\"] \\\\ar [d, \\"$3\\"] &  $4 \\\\ar [d,\\"$5\\"] \\\\\\\\", $/;"	s	array:tikz.body
+2	tex.json	/^"\\\\usepackage{tikz-cd}",$/;"	s	array:Template.body
 2	texback.json	/^            "\\\\end{align*}$0"$/;"	s	array:Create Align* Environment in Text.body
 2	texback.json	/^            "\\\\end{definition}"$/;"	s	array:Definition.body
 2	texback.json	/^            "\\\\end{itemize}$0"$/;"	s	array:Itemize.body
@@ -1600,30 +1600,30 @@
 3	latexold.json	/^      "\\t\\\\label{fig:$3}",$/;"	s	array:Figure:ACM:*.body
 3	sentence_tex.json	/^" 769:       , 770:      "Inline Summation":   771:          "prefix": ["sum", "  suminline"], 7/;"	z
 3	sentence_tex.json	/^", 65:      "body": [ 66:          "  ldots  0" 67:         ], 68:      "description": "dots" 69/;"	n
-3	tex.json	/^       "$6 \\\\ar [r, \\"$7\\"]   & $8",  $/;"	s	array:Align numbered.tikz.body
-3	tex.json	/^      "$0"$/;"	s	array:Align numbered.Compactitem.body
-3	tex.json	/^      "$0"$/;"	s	array:Align numbered.Equation.body
-3	tex.json	/^      "$0"$/;"	s	array:Align numbered.Proof.body
-3	tex.json	/^      "$0"$/;"	s	array:Align numbered.Split.body
-3	tex.json	/^      "$0"$/;"	s	array:Align numbered.comment.body
-3	tex.json	/^      "$0"$/;"	s	array:Align numbered.example.body
-3	tex.json	/^      "$0"$/;"	s	array:Align numbered.notation.body
-3	tex.json	/^      "% chapter $2 (end)"$/;"	s	array:Align numbered.Chapter.body
-3	tex.json	/^      "\\\\end{cases}"$/;"	s	array:Align numbered.Cases.body
-3	tex.json	/^      "\\\\end{corollary}",$/;"	s	array:Align numbered.Corollary.body
-3	tex.json	/^      "\\\\end{equation}",$/;"	s	array:Align numbered.EquationNumbered.body
-3	tex.json	/^      "\\\\end{lemma}",$/;"	s	array:Align numbered.lemma.body
-3	tex.json	/^      "\\\\end{proposition}",$/;"	s	array:Align numbered.proposition.body
-3	tex.json	/^      "\\\\end{question}",$/;"	s	array:Align numbered.question.body
-3	tex.json	/^      "\\\\end{remark}",$/;"	s	array:Align numbered.remark.body
-3	tex.json	/^      "\\\\end{theorem}",$/;"	s	array:Align numbered.Theorem.body
-3	tex.json	/^      "\\t\\\\begin{center}",$/;"	s	array:Align numbered.Table.body
-3	tex.json	/^      "\\t\\\\begin{tabular}{${3:ccl}}",$/;"	s	array:Align numbered.Table:ACM.body
-3	tex.json	/^      "\\t\\\\begin{tabular}{${3:ccl}}",$/;"	s	array:Align numbered.Table:ACM:*.body
-3	tex.json	/^      "\\t\\\\end{center}",$/;"	s	array:Align numbered.Figure.body
-3	tex.json	/^      "\\t\\\\label{fig:$3}",$/;"	s	array:Align numbered.Figure:ACM.body
-3	tex.json	/^      "\\t\\\\label{fig:$3}",$/;"	s	array:Align numbered.Figure:ACM:*.body
-3	tex.json	/^"\\\\usepackage{amsmath, amssymb, mathrsfs, amsfonts,  amsthm}",$/;"	s	array:Align numbered.Template.body
+3	tex.json	/^       "$6 \\\\ar [r, \\"$7\\"]   & $8",  $/;"	s	array:tikz.body
+3	tex.json	/^      "$0"$/;"	s	array:Compactitem.body
+3	tex.json	/^      "$0"$/;"	s	array:Equation.body
+3	tex.json	/^      "$0"$/;"	s	array:Proof.body
+3	tex.json	/^      "$0"$/;"	s	array:Split.body
+3	tex.json	/^      "$0"$/;"	s	array:comment.body
+3	tex.json	/^      "$0"$/;"	s	array:example.body
+3	tex.json	/^      "$0"$/;"	s	array:notation.body
+3	tex.json	/^      "% chapter $2 (end)"$/;"	s	array:Chapter.body
+3	tex.json	/^      "\\\\end{cases}"$/;"	s	array:Cases.body
+3	tex.json	/^      "\\\\end{corollary}",$/;"	s	array:Corollary.body
+3	tex.json	/^      "\\\\end{equation}",$/;"	s	array:EquationNumbered.body
+3	tex.json	/^      "\\\\end{lemma}",$/;"	s	array:lemma.body
+3	tex.json	/^      "\\\\end{proposition}",$/;"	s	array:proposition.body
+3	tex.json	/^      "\\\\end{question}",$/;"	s	array:question.body
+3	tex.json	/^      "\\\\end{remark}",$/;"	s	array:remark.body
+3	tex.json	/^      "\\\\end{theorem}",$/;"	s	array:Theorem.body
+3	tex.json	/^      "\\t\\\\begin{center}",$/;"	s	array:Table.body
+3	tex.json	/^      "\\t\\\\begin{tabular}{${3:ccl}}",$/;"	s	array:Table:ACM.body
+3	tex.json	/^      "\\t\\\\begin{tabular}{${3:ccl}}",$/;"	s	array:Table:ACM:*.body
+3	tex.json	/^      "\\t\\\\end{center}",$/;"	s	array:Figure.body
+3	tex.json	/^      "\\t\\\\label{fig:$3}",$/;"	s	array:Figure:ACM.body
+3	tex.json	/^      "\\t\\\\label{fig:$3}",$/;"	s	array:Figure:ACM:*.body
+3	tex.json	/^"\\\\usepackage{amsmath, amssymb, mathrsfs, amsfonts,  amsthm}",$/;"	s	array:Template.body
 3	texback.json	/^            "${1:seperate the coordinates with spaces}",$/;"	s	array:Plot Smooth Curve By Point Set.body
 3	texback.json	/^            "\\tcolor=${3:blue},",$/;"	s	array:Plot 2D Graph.body
 3	texback.json	/^            "\\tcolor=${3:blue},",$/;"	s	array:Plot Line 2D.body
@@ -1707,21 +1707,21 @@
 4	latexold.json	/^"\\\\end{tikzcd}",$/;"	s	array:tikz.body
 4	sentence_tex.json	/^" 791:       ,  792:  "item":   793:          "prefix": ["it"], 794:          "body": "  item  0/;"	n
 4	sentence_tex.json	/^", 65:      "body": [ 66:          "  ldots  0" 67:         ], 68:      "description": "dots" 69/;"	n
-4	tex.json	/^      "$0" $/;"	s	array:Align numbered.EquationNumbered.body
-4	tex.json	/^      "$0"$/;"	s	array:Align numbered.Corollary.body
-4	tex.json	/^      "$0"$/;"	s	array:Align numbered.Theorem.body
-4	tex.json	/^      "$0"$/;"	s	array:Align numbered.lemma.body
-4	tex.json	/^      "$0"$/;"	s	array:Align numbered.proposition.body
-4	tex.json	/^      "$0"$/;"	s	array:Align numbered.question.body
-4	tex.json	/^      "$0"$/;"	s	array:Align numbered.remark.body
-4	tex.json	/^      "\\\\end{figure*}",$/;"	s	array:Align numbered.Figure:ACM:*.body
-4	tex.json	/^      "\\\\end{figure}",$/;"	s	array:Align numbered.Figure:ACM.body
-4	tex.json	/^      "\\t\\\\caption{$3}",$/;"	s	array:Align numbered.Figure.body
-4	tex.json	/^      "\\t\\t\\\\begin{tabular}[c]{l|l}",$/;"	s	array:Align numbered.Table.body
-4	tex.json	/^      "\\t\\t\\\\toprule",$/;"	s	array:Align numbered.Table:ACM.body
-4	tex.json	/^      "\\t\\t\\\\toprule",$/;"	s	array:Align numbered.Table:ACM:*.body
-4	tex.json	/^"\\\\begin{document}", $/;"	s	array:Align numbered.Template.body
-4	tex.json	/^"\\\\end{tikzcd}",$/;"	s	array:Align numbered.tikz.body
+4	tex.json	/^      "$0" $/;"	s	array:EquationNumbered.body
+4	tex.json	/^      "$0"$/;"	s	array:Corollary.body
+4	tex.json	/^      "$0"$/;"	s	array:Theorem.body
+4	tex.json	/^      "$0"$/;"	s	array:lemma.body
+4	tex.json	/^      "$0"$/;"	s	array:proposition.body
+4	tex.json	/^      "$0"$/;"	s	array:question.body
+4	tex.json	/^      "$0"$/;"	s	array:remark.body
+4	tex.json	/^      "\\\\end{figure*}",$/;"	s	array:Figure:ACM:*.body
+4	tex.json	/^      "\\\\end{figure}",$/;"	s	array:Figure:ACM.body
+4	tex.json	/^      "\\t\\\\caption{$3}",$/;"	s	array:Figure.body
+4	tex.json	/^      "\\t\\t\\\\begin{tabular}[c]{l|l}",$/;"	s	array:Table.body
+4	tex.json	/^      "\\t\\t\\\\toprule",$/;"	s	array:Table:ACM.body
+4	tex.json	/^      "\\t\\t\\\\toprule",$/;"	s	array:Table:ACM:*.body
+4	tex.json	/^"\\\\begin{document}", $/;"	s	array:Template.body
+4	tex.json	/^"\\\\end{tikzcd}",$/;"	s	array:tikz.body
 4	texback.json	/^            "\\t]",$/;"	s	array:Plot 2D Graph.body
 4	texback.json	/^            "\\t]",$/;"	s	array:Plot Circle 2D.body
 4	texback.json	/^            "\\t]",$/;"	s	array:Plot Ellipse 2D.body
@@ -1770,14 +1770,14 @@
 5	latexold.json	/^"\\\\end{equation*}",$/;"	s	array:tikz.body
 5	sentence_tex.json	/^" 815:       , 816:      "Definition":   817:          "prefix": ["def", "  definition"], 818:  /;"	n
 5	sentence_tex.json	/^", 65:      "body": [ 66:          "  ldots  0" 67:         ], 68:      "description": "dots" 69/;"	n
-5	tex.json	/^         "$0",$/;"	s	array:Align numbered.Template.body
-5	tex.json	/^      "$0"$/;"	s	array:Align numbered.Figure:ACM.body
-5	tex.json	/^      "$0"$/;"	s	array:Align numbered.Figure:ACM:*.body
-5	tex.json	/^      "\\t\\\\label{fig:$4}",$/;"	s	array:Align numbered.Figure.body
-5	tex.json	/^      "\\t\\t$4",$/;"	s	array:Align numbered.Table:ACM.body
-5	tex.json	/^      "\\t\\t$4",$/;"	s	array:Align numbered.Table:ACM:*.body
-5	tex.json	/^      "\\t\\t\\t\\\\hline",$/;"	s	array:Align numbered.Table.body
-5	tex.json	/^"\\\\end{equation*}",$/;"	s	array:Align numbered.tikz.body
+5	tex.json	/^         "$0",$/;"	s	array:Template.body
+5	tex.json	/^      "$0"$/;"	s	array:Figure:ACM.body
+5	tex.json	/^      "$0"$/;"	s	array:Figure:ACM:*.body
+5	tex.json	/^      "\\t\\\\label{fig:$4}",$/;"	s	array:Figure.body
+5	tex.json	/^      "\\t\\t$4",$/;"	s	array:Table:ACM.body
+5	tex.json	/^      "\\t\\t$4",$/;"	s	array:Table:ACM:*.body
+5	tex.json	/^      "\\t\\t\\t\\\\hline",$/;"	s	array:Table.body
+5	tex.json	/^"\\\\end{equation*}",$/;"	s	array:tikz.body
 5	texback.json	/^            "\\\\addlegendentry{\\\\$${3:x}\\\\$}$0"$/;"	s	array:Plot 3D Graph.body
 5	texback.json	/^            "\\t({${1:a}*cos(t)+${3:x}},{${2:b}*sin(t)+${4:y}});",$/;"	s	array:Plot Ellipse 2D.body
 5	texback.json	/^            "\\t({${1:r}*cos(t)+${2:a}},{${1:r}*sin(t)+${3:b}});",$/;"	s	array:Plot Circle 2D.body
@@ -1814,12 +1814,12 @@
 6	latexold.json	/^"$0"$/;"	s	array:tikz.body
 6	sentence_tex.json	/^" 824:       , 825:          "Large Integral":   826:          "prefix": ["integrallarge", "  in/;"	n
 6	sentence_tex.json	/^", 65:      "body": [ 66:          "  ldots  0" 67:         ], 68:      "description": "dots" 69/;"	n
-6	tex.json	/^         "\\\\end{document}"],$/;"	s	array:Align numbered.Template.body
-6	tex.json	/^      "\\\\end{figure}",$/;"	s	array:Align numbered.Figure.body
-6	tex.json	/^      "\\t\\t\\t\\\\multicolumn{1}{c|}{\\\\textbf{$3}} & ",$/;"	s	array:Align numbered.Table.body
-6	tex.json	/^      "\\t\\ta & b & c \\\\\\\\\\\\\\\\",$/;"	s	array:Align numbered.Table:ACM.body
-6	tex.json	/^      "\\t\\ta & b & c \\\\\\\\\\\\\\\\",$/;"	s	array:Align numbered.Table:ACM:*.body
-6	tex.json	/^"$0"$/;"	s	array:Align numbered.tikz.body
+6	tex.json	/^         "\\\\end{document}"],$/;"	s	array:Template.body
+6	tex.json	/^      "\\\\end{figure}",$/;"	s	array:Figure.body
+6	tex.json	/^      "\\t\\t\\t\\\\multicolumn{1}{c|}{\\\\textbf{$3}} & ",$/;"	s	array:Table.body
+6	tex.json	/^      "\\t\\ta & b & c \\\\\\\\\\\\\\\\",$/;"	s	array:Table:ACM.body
+6	tex.json	/^      "\\t\\ta & b & c \\\\\\\\\\\\\\\\",$/;"	s	array:Table:ACM:*.body
+6	tex.json	/^"$0"$/;"	s	array:tikz.body
 6	texback.json	/^            "\\\\addlegendentry{$ y=${1:a}(x-${2:m})^2+${3:b}$}$0"$/;"	s	array:Plot Quadratic Function 2D by Point.body
 6	texback.json	/^            "\\\\addlegendentry{$ y=${1:a}x+${2:b}$}$0"$/;"	s	array:Plot Line 2D.body
 6	texback.json	/^            "\\\\addlegendentry{$${5:x^2 + 2x + 1}$}",$/;"	s	array:Plot 2D Graph.body
@@ -1847,10 +1847,10 @@
 7	latexold.json	/^      "\\t\\t\\\\midrule",$/;"	s	array:Table:ACM:*.body
 7	latexold.json	/^      "\\t\\t\\t\\\\multicolumn{1}{c}{\\\\textbf{$4}} \\\\\\\\\\\\\\\\",$/;"	s	array:Table.body
 7	sentence_tex.json	/^" 831:       , 832:      "Inline Integral":   833:          "prefix": ["integralinline", "  inte/;"	z
-7	tex.json	/^      "$0"$/;"	s	array:Align numbered.Figure.body
-7	tex.json	/^      "\\t\\t\\\\midrule",$/;"	s	array:Align numbered.Table:ACM.body
-7	tex.json	/^      "\\t\\t\\\\midrule",$/;"	s	array:Align numbered.Table:ACM:*.body
-7	tex.json	/^      "\\t\\t\\t\\\\multicolumn{1}{c}{\\\\textbf{$4}} \\\\\\\\\\\\\\\\",$/;"	s	array:Align numbered.Table.body
+7	tex.json	/^      "$0"$/;"	s	array:Figure.body
+7	tex.json	/^      "\\t\\t\\\\midrule",$/;"	s	array:Table:ACM.body
+7	tex.json	/^      "\\t\\t\\\\midrule",$/;"	s	array:Table:ACM:*.body
+7	tex.json	/^      "\\t\\t\\t\\\\multicolumn{1}{c}{\\\\textbf{$4}} \\\\\\\\\\\\\\\\",$/;"	s	array:Table.body
 7	texback.json	/^            "$0"$/;"	s	array:Plot 2D Graph.body
 7	texback.json	/^            "variable = t,",$/;"	s	array:Create 2D Plot environment.body
 7	texback.json	/^            "ylabel = \\\\$y\\\\$,",$/;"	s	array:Create 3D Plot Environment.body
@@ -1870,9 +1870,9 @@
 8	latexold.json	/^      "\\t\\td & e & f \\\\\\\\\\\\\\\\",$/;"	s	array:Table:ACM.body
 8	latexold.json	/^      "\\t\\td & e & f \\\\\\\\\\\\\\\\",$/;"	s	array:Table:ACM:*.body
 8	sentence_tex.json	/^" 838:       , 839:      "Inline Fraction":   840:          "prefix": ["fr", "  fractioninline"]/;"	z
-8	tex.json	/^      "\\t\\t\\t\\\\hline",$/;"	s	array:Align numbered.Table.body
-8	tex.json	/^      "\\t\\td & e & f \\\\\\\\\\\\\\\\",$/;"	s	array:Align numbered.Table:ACM.body
-8	tex.json	/^      "\\t\\td & e & f \\\\\\\\\\\\\\\\",$/;"	s	array:Align numbered.Table:ACM:*.body
+8	tex.json	/^      "\\t\\t\\t\\\\hline",$/;"	s	array:Table.body
+8	tex.json	/^      "\\t\\td & e & f \\\\\\\\\\\\\\\\",$/;"	s	array:Table:ACM.body
+8	tex.json	/^      "\\t\\td & e & f \\\\\\\\\\\\\\\\",$/;"	s	array:Table:ACM:*.body
 8	texback.json	/^            "trig format plots = rad,",$/;"	s	array:Create 2D Plot environment.body
 8	texback.json	/^            "zlabel = \\\\$z\\\\$,",$/;"	s	array:Create 3D Plot Environment.body
 8	texback.json	/^      "\\t\\t\\\\Require \\\\$input\\\\$",$/;"	s	array:Algorithm.body
@@ -1889,9 +1889,9 @@
 9	latexold.json	/^      "\\t\\t\\\\bottomrule",$/;"	s	array:Table:ACM:*.body
 9	latexold.json	/^      "\\t\\t\\ta & b \\\\\\\\\\\\\\\\",$/;"	s	array:Table.body
 9	sentence_tex.json	/^"] 843:       ,  844:  "infinity":   845:      "prefix": ["infi"], 846:      "body": [ 847:     /;"	n
-9	tex.json	/^      "\\t\\t\\\\bottomrule",$/;"	s	array:Align numbered.Table:ACM.body
-9	tex.json	/^      "\\t\\t\\\\bottomrule",$/;"	s	array:Align numbered.Table:ACM:*.body
-9	tex.json	/^      "\\t\\t\\ta & b \\\\\\\\\\\\\\\\",$/;"	s	array:Align numbered.Table.body
+9	tex.json	/^      "\\t\\t\\\\bottomrule",$/;"	s	array:Table:ACM.body
+9	tex.json	/^      "\\t\\t\\\\bottomrule",$/;"	s	array:Table:ACM:*.body
+9	tex.json	/^      "\\t\\t\\ta & b \\\\\\\\\\\\\\\\",$/;"	s	array:Table.body
 9	texback.json	/^            "]",$/;"	s	array:Create 2D Plot environment.body
 9	texback.json	/^            "variable = t,",$/;"	s	array:Create 3D Plot Environment.body
 9	texback.json	/^      "\\t\\t\\\\Ensure \\\\$output\\\\$",$/;"	s	array:Algorithm.body
@@ -1911,101 +1911,101 @@ Algorithm:While	texback.json	/^  "Algorithm:While": {$/;"	o
 Align numbered	tex.json	/^"Align numbered": {$/;"	o
 Align(ed)	html.json	/^  "Align(ed)": {$/;"	o
 Align(ed)	latexold.json	/^  "Align(ed)": {$/;"	o
-Align(ed)	tex.json	/^"Align(ed)": {$/;"	o	object:Align numbered
+Align(ed)	tex.json	/^"Align(ed)": {$/;"	o
 Align(ed)	texback.json	/^  "Align(ed)": {$/;"	o
 Align(ed)	text.json	/^  "Align(ed)": {$/;"	o
 BHam	tex.json	/^"BHam": {$/;"	o
 Bold Italic Text	html.json	/^    "Bold Italic Text": {$/;"	o
 Bold Italic Text	latexold.json	/^    "Bold Italic Text": {$/;"	o
-Bold Italic Text	tex.json	/^    "Bold Italic Text": {$/;"	o	object:Align numbered
+Bold Italic Text	tex.json	/^    "Bold Italic Text": {$/;"	o
 Bold Italic Text	texback.json	/^    "Bold Italic Text": {$/;"	o
 Bold Italic Text	text.json	/^    "Bold Italic Text": {$/;"	o
 Bold Text	html.json	/^    "Bold Text": {$/;"	o
 Bold Text	latexold.json	/^    "Bold Text": {$/;"	o
-Bold Text	tex.json	/^    "Bold Text": {$/;"	o	object:Align numbered
+Bold Text	tex.json	/^    "Bold Text": {$/;"	o
 Bold Text	texback.json	/^    "Bold Text": {$/;"	o
 Bold Text	text.json	/^    "Bold Text": {$/;"	o
 Cases	html.json	/^"Cases": {$/;"	o
 Cases	latexold.json	/^"Cases": {$/;"	o
-Cases	tex.json	/^"Cases": {$/;"	o	object:Align numbered
+Cases	tex.json	/^"Cases": {$/;"	o
 Cases	texback.json	/^   "Cases": {$/;"	o
 Cases	text.json	/^"Cases": {$/;"	o
 Centered Math	texback.json	/^    "Centered Math": {$/;"	o
 Chapter	html.json	/^  "Chapter": {$/;"	o
 Chapter	latexold.json	/^  "Chapter": {$/;"	o
-Chapter	tex.json	/^  "Chapter": {$/;"	o	object:Align numbered
+Chapter	tex.json	/^  "Chapter": {$/;"	o
 Chapter	texback.json	/^  "Chapter": {$/;"	o
 Chapter	text.json	/^  "Chapter": {$/;"	o
 Cite	html.json	/^  "Cite": {$/;"	o
 Cite	latexold.json	/^  "Cite": {$/;"	o
-Cite	tex.json	/^  "Cite": {$/;"	o	object:Align numbered
+Cite	tex.json	/^  "Cite": {$/;"	o
 Cite	texback.json	/^  "Cite": {$/;"	o
 Cite	text.json	/^  "Cite": {$/;"	o
 Compactitem	html.json	/^  "Compactitem": {$/;"	o
 Compactitem	latexold.json	/^  "Compactitem": {$/;"	o
-Compactitem	tex.json	/^  "Compactitem": {$/;"	o	object:Align numbered
+Compactitem	tex.json	/^  "Compactitem": {$/;"	o
 Compactitem	texback.json	/^  "Compactitem": {$/;"	o
 Compactitem	text.json	/^  "Compactitem": {$/;"	o
 Corollary	html.json	/^ "Corollary": {$/;"	o
 Corollary	latexold.json	/^ "Corollary": {$/;"	o
-Corollary	tex.json	/^ "Corollary": {$/;"	o	object:Align numbered
+Corollary	tex.json	/^ "Corollary": {$/;"	o
 Corollary	text.json	/^ "Corollary": {$/;"	o
 Create 2D Plot environment	texback.json	/^    "Create 2D Plot environment": {$/;"	o
 Create 3D Plot Environment	texback.json	/^    "Create 3D Plot Environment": {$/;"	o
 Create Align* Environment in Text	texback.json	/^    "Create Align* Environment in Text": {$/;"	o
 Definition	html.json	/^    "Definition": {$/;"	o
 Definition	latexold.json	/^    "Definition": {$/;"	o
-Definition	tex.json	/^    "Definition": {$/;"	o	object:Align numbered
+Definition	tex.json	/^    "Definition": {$/;"	o
 Definition	texback.json	/^    "Definition": {$/;"	o
 Definition	text.json	/^    "Definition": {$/;"	o
 Delta	html.json	/^"Delta": {$/;"	o
 Delta	latexold.json	/^"Delta": {$/;"	o
-Delta	tex.json	/^"Delta": {$/;"	o	object:Align numbered
+Delta	tex.json	/^"Delta": {$/;"	o
 Delta	text.json	/^"Delta": {$/;"	o
 Delta d-simplex	html.json	/^"Delta d-simplex": {$/;"	o
 Delta d-simplex	latexold.json	/^"Delta d-simplex": {$/;"	o
-Delta d-simplex	tex.json	/^"Delta d-simplex": {$/;"	o	object:Align numbered
+Delta d-simplex	tex.json	/^"Delta d-simplex": {$/;"	o
 Delta d-simplex	text.json	/^"Delta d-simplex": {$/;"	o
-Delta d-simplex bullet	tex.json	/^"Delta d-simplex bullet": {$/;"	o	object:Align numbered
+Delta d-simplex bullet	tex.json	/^"Delta d-simplex bullet": {$/;"	o
 Description	html.json	/^  "Description": {$/;"	o
 Description	latexold.json	/^  "Description": {$/;"	o
-Description	tex.json	/^  "Description": {$/;"	o	object:Align numbered
+Description	tex.json	/^  "Description": {$/;"	o
 Description	texback.json	/^  "Description": {$/;"	o
 Description	text.json	/^  "Description": {$/;"	o
 EOF	vim.json	/^"EOF": {$/;"	o
 EmptyPage	html.json	/^  "EmptyPage": {$/;"	o
 EmptyPage	latexold.json	/^  "EmptyPage": {$/;"	o
-EmptyPage	tex.json	/^  "EmptyPage": {$/;"	o	object:Align numbered
+EmptyPage	tex.json	/^  "EmptyPage": {$/;"	o
 EmptyPage	texback.json	/^  "EmptyPage": {$/;"	o
 EmptyPage	text.json	/^  "EmptyPage": {$/;"	o
 Enumerate	html.json	/^  "Enumerate": {$/;"	o
 Enumerate	latexold.json	/^  "Enumerate": {$/;"	o
-Enumerate	tex.json	/^  "Enumerate": {$/;"	o	object:Align numbered
+Enumerate	tex.json	/^  "Enumerate": {$/;"	o
 Enumerate	texback.json	/^  "Enumerate": {$/;"	o
 Enumerate	text.json	/^  "Enumerate": {$/;"	o
 Equation	html.json	/^"Equation": {$/;"	o
 Equation	latexold.json	/^"Equation": {$/;"	o
-Equation	tex.json	/^"Equation": {$/;"	o	object:Align numbered
+Equation	tex.json	/^"Equation": {$/;"	o
 Equation	texback.json	/^"Equation": {$/;"	o
 Equation	text.json	/^"Equation": {$/;"	o
 EquationNumbered	html.json	/^"EquationNumbered": {$/;"	o
 EquationNumbered	latexold.json	/^"EquationNumbered": {$/;"	o
-EquationNumbered	tex.json	/^"EquationNumbered": {$/;"	o	object:Align numbered
+EquationNumbered	tex.json	/^"EquationNumbered": {$/;"	o
 EquationNumbered	texback.json	/^"EquationNumbered": {$/;"	o
 EquationNumbered	text.json	/^"EquationNumbered": {$/;"	o
 Figure	html.json	/^  "Figure": {$/;"	o
 Figure	latexold.json	/^  "Figure": {$/;"	o
-Figure	tex.json	/^  "Figure": {$/;"	o	object:Align numbered
+Figure	tex.json	/^  "Figure": {$/;"	o
 Figure	texback.json	/^  "Figure": {$/;"	o
 Figure	text.json	/^  "Figure": {$/;"	o
 Figure:ACM	html.json	/^  "Figure:ACM": {$/;"	o
 Figure:ACM	latexold.json	/^  "Figure:ACM": {$/;"	o
-Figure:ACM	tex.json	/^  "Figure:ACM": {$/;"	o	object:Align numbered
+Figure:ACM	tex.json	/^  "Figure:ACM": {$/;"	o
 Figure:ACM	texback.json	/^  "Figure:ACM": {$/;"	o
 Figure:ACM	text.json	/^  "Figure:ACM": {$/;"	o
 Figure:ACM:*	html.json	/^  "Figure:ACM:*": {$/;"	o
 Figure:ACM:*	latexold.json	/^  "Figure:ACM:*": {$/;"	o
-Figure:ACM:*	tex.json	/^  "Figure:ACM:*": {$/;"	o	object:Align numbered
+Figure:ACM:*	tex.json	/^  "Figure:ACM:*": {$/;"	o
 Figure:ACM:*	texback.json	/^  "Figure:ACM:*": {$/;"	o
 Figure:ACM:*	text.json	/^  "Figure:ACM:*": {$/;"	o
 Figure:Ref	texback.json	/^  "Figure:Ref": {$/;"	o
@@ -2016,11 +2016,11 @@ G-bundle	tex.json	/^"G-bundle": {$/;"	o
 G-bundle	text.json	/^"G-bundle": {$/;"	o
 Gamma	html.json	/^"Gamma": {$/;"	o
 Gamma	latexold.json	/^"Gamma": {$/;"	o
-Gamma	tex.json	/^"Gamma": {$/;"	o	object:Align numbered
+Gamma	tex.json	/^"Gamma": {$/;"	o
 Gamma	text.json	/^"Gamma": {$/;"	o
 Gather(ed)	html.json	/^    "Gather(ed)": {$/;"	o
 Gather(ed)	latexold.json	/^    "Gather(ed)": {$/;"	o
-Gather(ed)	tex.json	/^    "Gather(ed)": {$/;"	o	object:Align numbered
+Gather(ed)	tex.json	/^    "Gather(ed)": {$/;"	o
 Gather(ed)	texback.json	/^  "Gather(ed)": {$/;"	o
 Gather(ed)	text.json	/^    "Gather(ed)": {$/;"	o
 Ham	tex.json	/^"Ham": {$/;"	o
@@ -2029,41 +2029,41 @@ Header Small	texback.json	/^    "Header Small": {$/;"	o
 Indent	texback.json	/^    "Indent": {$/;"	o
 Inline Fraction	html.json	/^    "Inline Fraction": {$/;"	o
 Inline Fraction	latexold.json	/^    "Inline Fraction": {$/;"	o
-Inline Fraction	tex.json	/^    "Inline Fraction": {$/;"	o	object:Align numbered
+Inline Fraction	tex.json	/^    "Inline Fraction": {$/;"	o
 Inline Fraction	texback.json	/^    "Inline Fraction": {$/;"	o
 Inline Fraction	text.json	/^    "Inline Fraction": {$/;"	o
 Inline Integral	html.json	/^    "Inline Integral": {$/;"	o
 Inline Integral	latexold.json	/^    "Inline Integral": {$/;"	o
-Inline Integral	tex.json	/^    "Inline Integral": {$/;"	o	object:Align numbered
+Inline Integral	tex.json	/^    "Inline Integral": {$/;"	o
 Inline Integral	texback.json	/^    "Inline Integral": {$/;"	o
 Inline Integral	text.json	/^    "Inline Integral": {$/;"	o
 Inline Math	texback.json	/^    "Inline Math": {$/;"	o
 Inline Summation	html.json	/^    "Inline Summation": {$/;"	o
 Inline Summation	latexold.json	/^    "Inline Summation": {$/;"	o
-Inline Summation	tex.json	/^    "Inline Summation": {$/;"	o	object:Align numbered
+Inline Summation	tex.json	/^    "Inline Summation": {$/;"	o
 Inline Summation	texback.json	/^    "Inline Summation": {$/;"	o
 Inline Summation	text.json	/^    "Inline Summation": {$/;"	o
 Insert Problem Solving Index	texback.json	/^   "Insert Problem Solving Index": {$/;"	o
 Insert Solution Notation	texback.json	/^    "Insert Solution Notation": {$/;"	o
 Italic Text	html.json	/^            "Italic Text": {$/;"	o
 Italic Text	latexold.json	/^            "Italic Text": {$/;"	o
-Italic Text	tex.json	/^            "Italic Text": {$/;"	o	object:Align numbered
+Italic Text	tex.json	/^            "Italic Text": {$/;"	o
 Italic Text	texback.json	/^    "Italic Text": {$/;"	o
 Italic Text	text.json	/^            "Italic Text": {$/;"	o
 Itemize	html.json	/^    "Itemize": {$/;"	o
 Itemize	latexold.json	/^    "Itemize": {$/;"	o
-Itemize	tex.json	/^    "Itemize": {$/;"	o	object:Align numbered
+Itemize	tex.json	/^    "Itemize": {$/;"	o
 Itemize	texback.json	/^    "Itemize": {$/;"	o
 Itemize	texback.json	/^  "Itemize": {$/;"	o
 Itemize	text.json	/^    "Itemize": {$/;"	o
 Label	html.json	/^"Label": {$/;"	o
 Label	latexold.json	/^"Label": {$/;"	o
-Label	tex.json	/^"Label": {$/;"	o	object:Align numbered
+Label	tex.json	/^"Label": {$/;"	o
 Label	texback.json	/^"Label": {$/;"	o
 Label	text.json	/^"Label": {$/;"	o
 Lambda	html.json	/^"Lambda": {$/;"	o
 Lambda	latexold.json	/^"Lambda": {$/;"	o
-Lambda	tex.json	/^"Lambda": {$/;"	o	object:Align numbered
+Lambda	tex.json	/^"Lambda": {$/;"	o
 Lambda	text.json	/^"Lambda": {$/;"	o
 Large Fraction	html.json	/^"Large Fraction": {$/;"	o
 Large Fraction	latexold.json	/^"Large Fraction": {$/;"	o
@@ -2071,34 +2071,34 @@ Large Fraction	texback.json	/^    "Large Fraction": {$/;"	o
 Large Fraction	text.json	/^"Large Fraction": {$/;"	o
 Large Integral	html.json	/^        "Large Integral": {$/;"	o
 Large Integral	latexold.json	/^        "Large Integral": {$/;"	o
-Large Integral	tex.json	/^        "Large Integral": {$/;"	o	object:Align numbered
+Large Integral	tex.json	/^        "Large Integral": {$/;"	o
 Large Integral	texback.json	/^        "Large Integral": {$/;"	o
 Large Integral	text.json	/^        "Large Integral": {$/;"	o
 Large Summation	html.json	/^    "Large Summation": {$/;"	o
 Large Summation	latexold.json	/^    "Large Summation": {$/;"	o
-Large Summation	tex.json	/^    "Large Summation": {$/;"	o	object:Align numbered
+Large Summation	tex.json	/^    "Large Summation": {$/;"	o
 Large Summation	texback.json	/^    "Large Summation": {$/;"	o
 Large Summation	text.json	/^    "Large Summation": {$/;"	o
 Listing:Ref	html.json	/^  "Listing:Ref": {$/;"	o
 Listing:Ref	latexold.json	/^  "Listing:Ref": {$/;"	o
-Listing:Ref	tex.json	/^  "Listing:Ref": {$/;"	o	object:Align numbered
+Listing:Ref	tex.json	/^  "Listing:Ref": {$/;"	o
 Listing:Ref	texback.json	/^  "Listing:Ref": {$/;"	o
 Listing:Ref	text.json	/^  "Listing:Ref": {$/;"	o
 Math	html.json	/^  "Math": {$/;"	o
 Math	latexold.json	/^  "Math": {$/;"	o
-Math	tex.json	/^  "Math": {$/;"	o	object:Align numbered
+Math	tex.json	/^  "Math": {$/;"	o
 Math	texback.json	/^  "Math": {$/;"	o
 Math	text.json	/^  "Math": {$/;"	o
 Matrix	html.json	/^  "Matrix": {$/;"	o
 Matrix	latexold.json	/^  "Matrix": {$/;"	o
-Matrix	tex.json	/^  "Matrix": {$/;"	o	object:Align numbered
+Matrix	tex.json	/^  "Matrix": {$/;"	o
 Matrix	texback.json	/^  "Matrix": {$/;"	o
 Matrix	text.json	/^  "Matrix": {$/;"	o
 NFuk	tex.json	/^"NFuk": {$/;"	o
 Page	texback.json	/^  "Page": {$/;"	o
 Paragraph	html.json	/^    "Paragraph": {$/;"	o
 Paragraph	latexold.json	/^    "Paragraph": {$/;"	o
-Paragraph	tex.json	/^    "Paragraph": {$/;"	o	object:Align numbered
+Paragraph	tex.json	/^    "Paragraph": {$/;"	o
 Paragraph	texback.json	/^  "Paragraph": {$/;"	o
 Paragraph	text.json	/^    "Paragraph": {$/;"	o
 Part	texback.json	/^  "Part": {$/;"	o
@@ -2111,108 +2111,108 @@ Plot Quadratic Function 2D by Point	texback.json	/^    "Plot Quadratic Function 
 Plot Smooth Curve By Point Set	texback.json	/^    "Plot Smooth Curve By Point Set": {$/;"	o
 Problem	html.json	/^"Problem": {$/;"	o
 Problem	latexold.json	/^"Problem": {$/;"	o
-Problem	tex.json	/^"Problem": {$/;"	o	object:Align numbered
+Problem	tex.json	/^"Problem": {$/;"	o
 Problem	texback.json	/^"Problem": {$/;"	o
 Problem	text.json	/^"Problem": {$/;"	o
 Proof	html.json	/^    "Proof": {$/;"	o
 Proof	latexold.json	/^    "Proof": {$/;"	o
-Proof	tex.json	/^    "Proof": {$/;"	o	object:Align numbered
+Proof	tex.json	/^    "Proof": {$/;"	o
 Proof	texback.json	/^    "Proof": {$/;"	o
 Proof	text.json	/^    "Proof": {$/;"	o
 Reference	html.json	/^"Reference": {$/;"	o
 Reference	latexold.json	/^"Reference": {$/;"	o
-Reference	tex.json	/^"Reference": {$/;"	o	object:Align numbered
+Reference	tex.json	/^"Reference": {$/;"	o
 Reference	texback.json	/^"Reference": {$/;"	o
 Reference	text.json	/^"Reference": {$/;"	o
 Section	html.json	/^  "Section": {$/;"	o
 Section	latexold.json	/^  "Section": {$/;"	o
-Section	tex.json	/^  "Section": {$/;"	o	object:Align numbered
+Section	tex.json	/^  "Section": {$/;"	o
 Section	texback.json	/^    "Section": {$/;"	o
 Section	texback.json	/^  "Section": {$/;"	o
 Section	text.json	/^  "Section": {$/;"	o
 Sigma	html.json	/^"Sigma": {$/;"	o
 Sigma	latexold.json	/^"Sigma": {$/;"	o
-Sigma	tex.json	/^"Sigma": {$/;"	o	object:Align numbered
+Sigma	tex.json	/^"Sigma": {$/;"	o
 Sigma	text.json	/^"Sigma": {$/;"	o
 Split	html.json	/^        "Split": {$/;"	o
 Split	latexold.json	/^        "Split": {$/;"	o
-Split	tex.json	/^        "Split": {$/;"	o	object:Align numbered
+Split	tex.json	/^        "Split": {$/;"	o
 Split	texback.json	/^      "Split": {$/;"	o
 Split	text.json	/^        "Split": {$/;"	o
 Sub Paragraph	texback.json	/^  "Sub Paragraph": {$/;"	o
 Sub Section	html.json	/^  "Sub Section": {$/;"	o
 Sub Section	latexold.json	/^  "Sub Section": {$/;"	o
-Sub Section	tex.json	/^  "Sub Section": {$/;"	o	object:Align numbered
+Sub Section	tex.json	/^  "Sub Section": {$/;"	o
 Sub Section	texback.json	/^  "Sub Section": {$/;"	o
 Sub Section	text.json	/^  "Sub Section": {$/;"	o
 Sub Sub Section	html.json	/^  "Sub Sub Section": {$/;"	o
 Sub Sub Section	latexold.json	/^  "Sub Sub Section": {$/;"	o
-Sub Sub Section	tex.json	/^  "Sub Sub Section": {$/;"	o	object:Align numbered
+Sub Sub Section	tex.json	/^  "Sub Sub Section": {$/;"	o
 Sub Sub Section	texback.json	/^  "Sub Sub Section": {$/;"	o
 Sub Sub Section	text.json	/^  "Sub Sub Section": {$/;"	o
 Subsection	texback.json	/^    "Subsection": {$/;"	o
 Table	html.json	/^  "Table": {$/;"	o
 Table	latexold.json	/^  "Table": {$/;"	o
-Table	tex.json	/^  "Table": {$/;"	o	object:Align numbered
+Table	tex.json	/^  "Table": {$/;"	o
 Table	texback.json	/^  "Table": {$/;"	o
 Table	text.json	/^  "Table": {$/;"	o
 Table:ACM	html.json	/^  "Table:ACM": {$/;"	o
 Table:ACM	latexold.json	/^  "Table:ACM": {$/;"	o
-Table:ACM	tex.json	/^  "Table:ACM": {$/;"	o	object:Align numbered
+Table:ACM	tex.json	/^  "Table:ACM": {$/;"	o
 Table:ACM	texback.json	/^  "Table:ACM": {$/;"	o
 Table:ACM	text.json	/^  "Table:ACM": {$/;"	o
 Table:ACM:*	html.json	/^  "Table:ACM:*": {$/;"	o
 Table:ACM:*	latexold.json	/^  "Table:ACM:*": {$/;"	o
-Table:ACM:*	tex.json	/^  "Table:ACM:*": {$/;"	o	object:Align numbered
+Table:ACM:*	tex.json	/^  "Table:ACM:*": {$/;"	o
 Table:ACM:*	texback.json	/^  "Table:ACM:*": {$/;"	o
 Table:ACM:*	text.json	/^  "Table:ACM:*": {$/;"	o
 Table:Ref	html.json	/^  "Table:Ref": {$/;"	o
 Table:Ref	latexold.json	/^  "Table:Ref": {$/;"	o
-Table:Ref	tex.json	/^  "Table:Ref": {$/;"	o	object:Align numbered
+Table:Ref	tex.json	/^  "Table:Ref": {$/;"	o
 Table:Ref	texback.json	/^  "Table:Ref": {$/;"	o
 Table:Ref	text.json	/^  "Table:Ref": {$/;"	o
 Tabular	html.json	/^  "Tabular": {$/;"	o
 Tabular	latexold.json	/^  "Tabular": {$/;"	o
-Tabular	tex.json	/^  "Tabular": {$/;"	o	object:Align numbered
+Tabular	tex.json	/^  "Tabular": {$/;"	o
 Tabular	texback.json	/^  "Tabular": {$/;"	o
 Tabular	text.json	/^  "Tabular": {$/;"	o
 Template	html.json	/^"Template": {$/;"	o
-Template	tex.json	/^"Template": {$/;"	o	object:Align numbered
+Template	tex.json	/^"Template": {$/;"	o
 Template	text.json	/^"Template": {$/;"	o
 Theorem	html.json	/^"Theorem": {$/;"	o
 Theorem	latexold.json	/^"Theorem": {$/;"	o
-Theorem	tex.json	/^"Theorem": {$/;"	o	object:Align numbered
+Theorem	tex.json	/^"Theorem": {$/;"	o
 Theorem	texback.json	/^    "Theorem": {$/;"	o
 Theorem	text.json	/^"Theorem": {$/;"	o
 Theta	html.json	/^"Theta": {$/;"	o
 Theta	latexold.json	/^"Theta": {$/;"	o
-Theta	tex.json	/^"Theta": {$/;"	o	object:Align numbered
+Theta	tex.json	/^"Theta": {$/;"	o
 Theta	text.json	/^"Theta": {$/;"	o
 Up	texback.json	/^    "Up": {$/;"	o
 \\\\begin{}…\\\\end{}	html.json	/^  "\\\\begin{}…\\\\end{}": {$/;"	o
 \\\\begin{}…\\\\end{}	latexold.json	/^  "\\\\begin{}…\\\\end{}": {$/;"	o
-\\\\begin{}…\\\\end{}	tex.json	/^  "\\\\begin{}…\\\\end{}": {$/;"	o	object:Align numbered
+\\\\begin{}…\\\\end{}	tex.json	/^  "\\\\begin{}…\\\\end{}": {$/;"	o
 \\\\begin{}…\\\\end{}	texback.json	/^  "\\\\begin{}…\\\\end{}": {$/;"	o
 \\\\begin{}…\\\\end{}	text.json	/^  "\\\\begin{}…\\\\end{}": {$/;"	o
 and	html.json	/^"and": {$/;"	o
 and	latexold.json	/^"and": {$/;"	o
-and	tex.json	/^"and": {$/;"	o	object:Align numbered
+and	tex.json	/^"and": {$/;"	o
 and	text.json	/^"and": {$/;"	o
 bar	html.json	/^"bar": {$/;"	o
 bar	tex.json	/^"bar": {$/;"	o
 bar	text.json	/^"bar": {$/;"	o
-bars	tex.json	/^"bars": {$/;"	o	object:Align numbered
+bars	tex.json	/^"bars": {$/;"	o
 basic bracket	html.json	/^"basic bracket": {$/;"	o
 basic bracket	latexold.json	/^"basic bracket": {$/;"	o
-basic bracket	tex.json	/^"basic bracket": {$/;"	o	object:Align numbered
+basic bracket	tex.json	/^"basic bracket": {$/;"	o
 basic bracket	text.json	/^"basic bracket": {$/;"	o
 big cup	html.json	/^"big cup": {$/;"	o
 big cup	latexold.json	/^"big cup": {$/;"	o
-big cup	tex.json	/^"big cup": {$/;"	o	object:Align numbered
+big cup	tex.json	/^"big cup": {$/;"	o
 big cup	text.json	/^"big cup": {$/;"	o
 big intersection cap	html.json	/^"big intersection cap": {$/;"	o
 big intersection cap	latexold.json	/^"big intersection cap": {$/;"	o
-big intersection cap	tex.json	/^"big intersection cap": {$/;"	o	object:Align numbered
+big intersection cap	tex.json	/^"big intersection cap": {$/;"	o
 big intersection cap	text.json	/^"big intersection cap": {$/;"	o
 body	html.json	/^		"body": [$/;"	a	object:Large Integral
 body	html.json	/^		"body": [$/;"	a	object:Large Summation
@@ -2472,176 +2472,176 @@ body	latexold.json	/^    "body": [$/;"	a	object:under
 body	latexold.json	/^    "body": [$/;"	a	object:union cup
 body	latexold.json	/^    "body": [$/;"	a	object:wide tilda
 body	latexold.json	/^    "body": [$/;"	a	object:xto
-body	tex.json	/^		"body": [$/;"	a	object:Align numbered.Large Integral
-body	tex.json	/^		"body": [$/;"	a	object:Align numbered.Large Summation
-body	tex.json	/^        "body": "\\\\item $0",$/;"	s	object:Align numbered.item
-body	tex.json	/^        "body": "\\\\textbf{$1}$0",$/;"	s	object:Align numbered.Bold Text
-body	tex.json	/^        "body": "\\\\textbf{\\\\textit{$1}}$0",$/;"	s	object:Align numbered.Bold Italic Text
-body	tex.json	/^        "body": "\\\\textit{$1}$0",$/;"	s	object:Align numbered.Italic Text
-body	tex.json	/^        "body": ["\\\\documentclass{amsart}",  $/;"	a	object:Align numbered.Template
-body	tex.json	/^        "body": ["\\\\frac{$1}{$2}$0"],$/;"	a	object:Align numbered.Inline Fraction
-body	tex.json	/^        "body": [$/;"	a	object:Align numbered.Definition
-body	tex.json	/^        "body": [$/;"	a	object:Align numbered.Inline Integral
-body	tex.json	/^        "body": [$/;"	a	object:Align numbered.Inline Summation
-body	tex.json	/^        "body": [$/;"	a	object:Align numbered.Itemize
-body	tex.json	/^        "body": [$/;"	a	object:Align numbered.Problem
+body	tex.json	/^		"body": [$/;"	a	object:Large Integral
+body	tex.json	/^		"body": [$/;"	a	object:Large Summation
+body	tex.json	/^        "body": "\\\\item $0",$/;"	s	object:item
+body	tex.json	/^        "body": "\\\\textbf{$1}$0",$/;"	s	object:Bold Text
+body	tex.json	/^        "body": "\\\\textbf{\\\\textit{$1}}$0",$/;"	s	object:Bold Italic Text
+body	tex.json	/^        "body": "\\\\textit{$1}$0",$/;"	s	object:Italic Text
+body	tex.json	/^        "body": ["\\\\documentclass{amsart}",  $/;"	a	object:Template
+body	tex.json	/^        "body": ["\\\\frac{$1}{$2}$0"],$/;"	a	object:Inline Fraction
+body	tex.json	/^        "body": [$/;"	a	object:Definition
+body	tex.json	/^        "body": [$/;"	a	object:Inline Integral
+body	tex.json	/^        "body": [$/;"	a	object:Inline Summation
+body	tex.json	/^        "body": [$/;"	a	object:Itemize
+body	tex.json	/^        "body": [$/;"	a	object:Problem
 body	tex.json	/^    "body": [$/;"	a	object:Align numbered
-body	tex.json	/^    "body": [$/;"	a	object:Align numbered.Align(ed)
-body	tex.json	/^    "body": [$/;"	a	object:Align numbered.Cases
-body	tex.json	/^    "body": [$/;"	a	object:Align numbered.Chapter
-body	tex.json	/^    "body": [$/;"	a	object:Align numbered.Cite
-body	tex.json	/^    "body": [$/;"	a	object:Align numbered.Compactitem
-body	tex.json	/^    "body": [$/;"	a	object:Align numbered.Corollary
-body	tex.json	/^    "body": [$/;"	a	object:Align numbered.Delta
-body	tex.json	/^    "body": [$/;"	a	object:Align numbered.Delta d-simplex
-body	tex.json	/^    "body": [$/;"	a	object:Align numbered.Delta d-simplex bullet
-body	tex.json	/^    "body": [$/;"	a	object:Align numbered.Description
-body	tex.json	/^    "body": [$/;"	a	object:Align numbered.EmptyPage
-body	tex.json	/^    "body": [$/;"	a	object:Align numbered.Enumerate
-body	tex.json	/^    "body": [$/;"	a	object:Align numbered.Equation
-body	tex.json	/^    "body": [$/;"	a	object:Align numbered.EquationNumbered
-body	tex.json	/^    "body": [$/;"	a	object:Align numbered.Figure
-body	tex.json	/^    "body": [$/;"	a	object:Align numbered.Figure:ACM
-body	tex.json	/^    "body": [$/;"	a	object:Align numbered.Figure:ACM:*
-body	tex.json	/^    "body": [$/;"	a	object:Align numbered.Gamma
-body	tex.json	/^    "body": [$/;"	a	object:Align numbered.Gather(ed)
-body	tex.json	/^    "body": [$/;"	a	object:Align numbered.Label
-body	tex.json	/^    "body": [$/;"	a	object:Align numbered.Lambda
-body	tex.json	/^    "body": [$/;"	a	object:Align numbered.Listing:Ref
-body	tex.json	/^    "body": [$/;"	a	object:Align numbered.Math
-body	tex.json	/^    "body": [$/;"	a	object:Align numbered.Matrix
-body	tex.json	/^    "body": [$/;"	a	object:Align numbered.Paragraph
-body	tex.json	/^    "body": [$/;"	a	object:Align numbered.Proof
-body	tex.json	/^    "body": [$/;"	a	object:Align numbered.Reference
-body	tex.json	/^    "body": [$/;"	a	object:Align numbered.Section
-body	tex.json	/^    "body": [$/;"	a	object:Align numbered.Sigma
-body	tex.json	/^    "body": [$/;"	a	object:Align numbered.Split
-body	tex.json	/^    "body": [$/;"	a	object:Align numbered.Sub Section
-body	tex.json	/^    "body": [$/;"	a	object:Align numbered.Sub Sub Section
-body	tex.json	/^    "body": [$/;"	a	object:Align numbered.Table
-body	tex.json	/^    "body": [$/;"	a	object:Align numbered.Table:ACM
-body	tex.json	/^    "body": [$/;"	a	object:Align numbered.Table:ACM:*
-body	tex.json	/^    "body": [$/;"	a	object:Align numbered.Table:Ref
-body	tex.json	/^    "body": [$/;"	a	object:Align numbered.Tabular
-body	tex.json	/^    "body": [$/;"	a	object:Align numbered.Theorem
-body	tex.json	/^    "body": [$/;"	a	object:Align numbered.Theta
-body	tex.json	/^    "body": [$/;"	a	object:Align numbered.\\\\begin{}…\\\\end{}
-body	tex.json	/^    "body": [$/;"	a	object:Align numbered.and
-body	tex.json	/^    "body": [$/;"	a	object:Align numbered.bars
-body	tex.json	/^    "body": [$/;"	a	object:Align numbered.basic bracket
-body	tex.json	/^    "body": [$/;"	a	object:Align numbered.big cup
-body	tex.json	/^    "body": [$/;"	a	object:Align numbered.big intersection cap
-body	tex.json	/^    "body": [$/;"	a	object:Align numbered.bold
-body	tex.json	/^    "body": [$/;"	a	object:Align numbered.bullet
-body	tex.json	/^    "body": [$/;"	a	object:Align numbered.caligraphic
-body	tex.json	/^    "body": [$/;"	a	object:Align numbered.caligraphic A
-body	tex.json	/^    "body": [$/;"	a	object:Align numbered.caligraphic B
-body	tex.json	/^    "body": [$/;"	a	object:Align numbered.caligraphic C
-body	tex.json	/^    "body": [$/;"	a	object:Align numbered.caligraphic D
-body	tex.json	/^    "body": [$/;"	a	object:Align numbered.caligraphic F
-body	tex.json	/^    "body": [$/;"	a	object:Align numbered.caligraphic G
-body	tex.json	/^    "body": [$/;"	a	object:Align numbered.caligraphic H
-body	tex.json	/^    "body": [$/;"	a	object:Align numbered.caligraphic I
-body	tex.json	/^    "body": [$/;"	a	object:Align numbered.caligraphic L
-body	tex.json	/^    "body": [$/;"	a	object:Align numbered.caligraphic N
-body	tex.json	/^    "body": [$/;"	a	object:Align numbered.caligraphic O
-body	tex.json	/^    "body": [$/;"	a	object:Align numbered.caligraphic P
-body	tex.json	/^    "body": [$/;"	a	object:Align numbered.caligraphic Q
-body	tex.json	/^    "body": [$/;"	a	object:Align numbered.caligraphic R
-body	tex.json	/^    "body": [$/;"	a	object:Align numbered.caligraphic S
-body	tex.json	/^    "body": [$/;"	a	object:Align numbered.caligraphic T
-body	tex.json	/^    "body": [$/;"	a	object:Align numbered.caligraphic U
-body	tex.json	/^    "body": [$/;"	a	object:Align numbered.caligraphic X
-body	tex.json	/^    "body": [$/;"	a	object:Align numbered.caligraphic Y
-body	tex.json	/^    "body": [$/;"	a	object:Align numbered.cf
-body	tex.json	/^    "body": [$/;"	a	object:Align numbered.comment
-body	tex.json	/^    "body": [$/;"	a	object:Align numbered.composition
-body	tex.json	/^    "body": [$/;"	a	object:Align numbered.defined by
-body	tex.json	/^    "body": [$/;"	a	object:Align numbered.definition
-body	tex.json	/^    "body": [$/;"	a	object:Align numbered.delta
-body	tex.json	/^    "body": [$/;"	a	object:Align numbered.duality
-body	tex.json	/^    "body": [$/;"	a	object:Align numbered.eg
-body	tex.json	/^    "body": [$/;"	a	object:Align numbered.end
-body	tex.json	/^    "body": [$/;"	a	object:Align numbered.epsilon
-body	tex.json	/^    "body": [$/;"	a	object:Align numbered.equal
-body	tex.json	/^    "body": [$/;"	a	object:Align numbered.equation reference
-body	tex.json	/^    "body": [$/;"	a	object:Align numbered.example
-body	tex.json	/^    "body": [$/;"	a	object:Align numbered.exists
-body	tex.json	/^    "body": [$/;"	a	object:Align numbered.field
-body	tex.json	/^    "body": [$/;"	a	object:Align numbered.field C
-body	tex.json	/^    "body": [$/;"	a	object:Align numbered.field CP
-body	tex.json	/^    "body": [$/;"	a	object:Align numbered.field K
-body	tex.json	/^    "body": [$/;"	a	object:Align numbered.field N
-body	tex.json	/^    "body": [$/;"	a	object:Align numbered.field Q
-body	tex.json	/^    "body": [$/;"	a	object:Align numbered.field R
-body	tex.json	/^    "body": [$/;"	a	object:Align numbered.field S
-body	tex.json	/^    "body": [$/;"	a	object:Align numbered.field integers
-body	tex.json	/^    "body": [$/;"	a	object:Align numbered.for all
-body	tex.json	/^    "body": [$/;"	a	object:Align numbered.gamma
-body	tex.json	/^    "body": [$/;"	a	object:Align numbered.greater equal
-body	tex.json	/^    "body": [$/;"	a	object:Align numbered.hook right arrow
-body	tex.json	/^    "body": [$/;"	a	object:Align numbered.ie
-body	tex.json	/^    "body": [$/;"	a	object:Align numbered.in
-body	tex.json	/^    "body": [$/;"	a	object:Align numbered.infinity
-body	tex.json	/^    "body": [$/;"	a	object:Align numbered.intersection cap
-body	tex.json	/^    "body": [$/;"	a	object:Align numbered.isomorphic
-body	tex.json	/^    "body": [$/;"	a	object:Align numbered.lemma
-body	tex.json	/^    "body": [$/;"	a	object:Align numbered.less equal
-body	tex.json	/^    "body": [$/;"	a	object:Align numbered.logical and
-body	tex.json	/^    "body": [$/;"	a	object:Align numbered.mapsto
-body	tex.json	/^    "body": [$/;"	a	object:Align numbered.mathfrak
-body	tex.json	/^    "body": [$/;"	a	object:Align numbered.mathfrak g
-body	tex.json	/^    "body": [$/;"	a	object:Align numbered.nabla
-body	tex.json	/^    "body": [$/;"	a	object:Align numbered.norm
-body	tex.json	/^    "body": [$/;"	a	object:Align numbered.not equal
-body	tex.json	/^    "body": [$/;"	a	object:Align numbered.not in
-body	tex.json	/^    "body": [$/;"	a	object:Align numbered.notation
-body	tex.json	/^    "body": [$/;"	a	object:Align numbered.omega
-body	tex.json	/^    "body": [$/;"	a	object:Align numbered.open bracket
-body	tex.json	/^    "body": [$/;"	a	object:Align numbered.over R
-body	tex.json	/^    "body": [$/;"	a	object:Align numbered.overline
-body	tex.json	/^    "body": [$/;"	a	object:Align numbered.partial
-body	tex.json	/^    "body": [$/;"	a	object:Align numbered.phi
-body	tex.json	/^    "body": [$/;"	a	object:Align numbered.pi
-body	tex.json	/^    "body": [$/;"	a	object:Align numbered.product
-body	tex.json	/^    "body": [$/;"	a	object:Align numbered.proposition
-body	tex.json	/^    "body": [$/;"	a	object:Align numbered.proves
-body	tex.json	/^    "body": [$/;"	a	object:Align numbered.question
-body	tex.json	/^    "body": [$/;"	a	object:Align numbered.raise
-body	tex.json	/^    "body": [$/;"	a	object:Align numbered.remark
-body	tex.json	/^    "body": [$/;"	a	object:Align numbered.rho
-body	tex.json	/^    "body": [$/;"	a	object:Align numbered.set bracket
-body	tex.json	/^    "body": [$/;"	a	object:Align numbered.sigma
-body	tex.json	/^    "body": [$/;"	a	object:Align numbered.square bracket
-body	tex.json	/^    "body": [$/;"	a	object:Align numbered.st
-body	tex.json	/^    "body": [$/;"	a	object:Align numbered.tikz
-body	tex.json	/^    "body": [$/;"	a	object:Align numbered.to
-body	tex.json	/^    "body": [$/;"	a	object:Align numbered.under
-body	tex.json	/^    "body": [$/;"	a	object:Align numbered.union cup
-body	tex.json	/^    "body": [$/;"	a	object:Align numbered.vee
-body	tex.json	/^    "body": [$/;"	a	object:Align numbered.wide tilda
-body	tex.json	/^    "body": [$/;"	a	object:Align numbered.xto
+body	tex.json	/^    "body": [$/;"	a	object:Align(ed)
 body	tex.json	/^    "body": [$/;"	a	object:BHam
+body	tex.json	/^    "body": [$/;"	a	object:Cases
+body	tex.json	/^    "body": [$/;"	a	object:Chapter
+body	tex.json	/^    "body": [$/;"	a	object:Cite
+body	tex.json	/^    "body": [$/;"	a	object:Compactitem
+body	tex.json	/^    "body": [$/;"	a	object:Corollary
+body	tex.json	/^    "body": [$/;"	a	object:Delta
+body	tex.json	/^    "body": [$/;"	a	object:Delta d-simplex
+body	tex.json	/^    "body": [$/;"	a	object:Delta d-simplex bullet
+body	tex.json	/^    "body": [$/;"	a	object:Description
+body	tex.json	/^    "body": [$/;"	a	object:EmptyPage
+body	tex.json	/^    "body": [$/;"	a	object:Enumerate
+body	tex.json	/^    "body": [$/;"	a	object:Equation
+body	tex.json	/^    "body": [$/;"	a	object:EquationNumbered
+body	tex.json	/^    "body": [$/;"	a	object:Figure
+body	tex.json	/^    "body": [$/;"	a	object:Figure:ACM
+body	tex.json	/^    "body": [$/;"	a	object:Figure:ACM:*
 body	tex.json	/^    "body": [$/;"	a	object:Fuk
 body	tex.json	/^    "body": [$/;"	a	object:G-bundle
+body	tex.json	/^    "body": [$/;"	a	object:Gamma
+body	tex.json	/^    "body": [$/;"	a	object:Gather(ed)
 body	tex.json	/^    "body": [$/;"	a	object:Ham
+body	tex.json	/^    "body": [$/;"	a	object:Label
+body	tex.json	/^    "body": [$/;"	a	object:Lambda
+body	tex.json	/^    "body": [$/;"	a	object:Listing:Ref
+body	tex.json	/^    "body": [$/;"	a	object:Math
+body	tex.json	/^    "body": [$/;"	a	object:Matrix
 body	tex.json	/^    "body": [$/;"	a	object:NFuk
+body	tex.json	/^    "body": [$/;"	a	object:Paragraph
+body	tex.json	/^    "body": [$/;"	a	object:Proof
+body	tex.json	/^    "body": [$/;"	a	object:Reference
+body	tex.json	/^    "body": [$/;"	a	object:Section
+body	tex.json	/^    "body": [$/;"	a	object:Sigma
+body	tex.json	/^    "body": [$/;"	a	object:Split
+body	tex.json	/^    "body": [$/;"	a	object:Sub Section
+body	tex.json	/^    "body": [$/;"	a	object:Sub Sub Section
+body	tex.json	/^    "body": [$/;"	a	object:Table
+body	tex.json	/^    "body": [$/;"	a	object:Table:ACM
+body	tex.json	/^    "body": [$/;"	a	object:Table:ACM:*
+body	tex.json	/^    "body": [$/;"	a	object:Table:Ref
+body	tex.json	/^    "body": [$/;"	a	object:Tabular
+body	tex.json	/^    "body": [$/;"	a	object:Theorem
+body	tex.json	/^    "body": [$/;"	a	object:Theta
+body	tex.json	/^    "body": [$/;"	a	object:\\\\begin{}…\\\\end{}
+body	tex.json	/^    "body": [$/;"	a	object:and
 body	tex.json	/^    "body": [$/;"	a	object:bar
+body	tex.json	/^    "body": [$/;"	a	object:bars
+body	tex.json	/^    "body": [$/;"	a	object:basic bracket
+body	tex.json	/^    "body": [$/;"	a	object:big cup
+body	tex.json	/^    "body": [$/;"	a	object:big intersection cap
+body	tex.json	/^    "body": [$/;"	a	object:bold
 body	tex.json	/^    "body": [$/;"	a	object:bracket plus minus
+body	tex.json	/^    "body": [$/;"	a	object:bullet
+body	tex.json	/^    "body": [$/;"	a	object:caligraphic
+body	tex.json	/^    "body": [$/;"	a	object:caligraphic A
+body	tex.json	/^    "body": [$/;"	a	object:caligraphic B
+body	tex.json	/^    "body": [$/;"	a	object:caligraphic C
+body	tex.json	/^    "body": [$/;"	a	object:caligraphic D
+body	tex.json	/^    "body": [$/;"	a	object:caligraphic F
+body	tex.json	/^    "body": [$/;"	a	object:caligraphic G
+body	tex.json	/^    "body": [$/;"	a	object:caligraphic H
+body	tex.json	/^    "body": [$/;"	a	object:caligraphic I
+body	tex.json	/^    "body": [$/;"	a	object:caligraphic L
+body	tex.json	/^    "body": [$/;"	a	object:caligraphic N
+body	tex.json	/^    "body": [$/;"	a	object:caligraphic O
+body	tex.json	/^    "body": [$/;"	a	object:caligraphic P
+body	tex.json	/^    "body": [$/;"	a	object:caligraphic Q
+body	tex.json	/^    "body": [$/;"	a	object:caligraphic R
+body	tex.json	/^    "body": [$/;"	a	object:caligraphic S
+body	tex.json	/^    "body": [$/;"	a	object:caligraphic T
+body	tex.json	/^    "body": [$/;"	a	object:caligraphic U
+body	tex.json	/^    "body": [$/;"	a	object:caligraphic X
+body	tex.json	/^    "body": [$/;"	a	object:caligraphic Y
 body	tex.json	/^    "body": [$/;"	a	object:cdot
+body	tex.json	/^    "body": [$/;"	a	object:cf
 body	tex.json	/^    "body": [$/;"	a	object:color
+body	tex.json	/^    "body": [$/;"	a	object:comment
+body	tex.json	/^    "body": [$/;"	a	object:composition
+body	tex.json	/^    "body": [$/;"	a	object:defined by
+body	tex.json	/^    "body": [$/;"	a	object:definition
+body	tex.json	/^    "body": [$/;"	a	object:delta
+body	tex.json	/^    "body": [$/;"	a	object:duality
+body	tex.json	/^    "body": [$/;"	a	object:eg
 body	tex.json	/^    "body": [$/;"	a	object:emphasize
 body	tex.json	/^    "body": [$/;"	a	object:emphasize bold
+body	tex.json	/^    "body": [$/;"	a	object:end
+body	tex.json	/^    "body": [$/;"	a	object:epsilon
+body	tex.json	/^    "body": [$/;"	a	object:equal
+body	tex.json	/^    "body": [$/;"	a	object:equation reference
+body	tex.json	/^    "body": [$/;"	a	object:example
+body	tex.json	/^    "body": [$/;"	a	object:exists
+body	tex.json	/^    "body": [$/;"	a	object:field
+body	tex.json	/^    "body": [$/;"	a	object:field C
+body	tex.json	/^    "body": [$/;"	a	object:field CP
+body	tex.json	/^    "body": [$/;"	a	object:field K
+body	tex.json	/^    "body": [$/;"	a	object:field N
+body	tex.json	/^    "body": [$/;"	a	object:field Q
+body	tex.json	/^    "body": [$/;"	a	object:field R
+body	tex.json	/^    "body": [$/;"	a	object:field S
+body	tex.json	/^    "body": [$/;"	a	object:field integers
+body	tex.json	/^    "body": [$/;"	a	object:for all
+body	tex.json	/^    "body": [$/;"	a	object:gamma
+body	tex.json	/^    "body": [$/;"	a	object:greater equal
+body	tex.json	/^    "body": [$/;"	a	object:hook right arrow
+body	tex.json	/^    "body": [$/;"	a	object:ie
 body	tex.json	/^    "body": [$/;"	a	object:image
+body	tex.json	/^    "body": [$/;"	a	object:in
+body	tex.json	/^    "body": [$/;"	a	object:infinity
+body	tex.json	/^    "body": [$/;"	a	object:intersection cap
+body	tex.json	/^    "body": [$/;"	a	object:isomorphic
+body	tex.json	/^    "body": [$/;"	a	object:lemma
+body	tex.json	/^    "body": [$/;"	a	object:less equal
+body	tex.json	/^    "body": [$/;"	a	object:logical and
+body	tex.json	/^    "body": [$/;"	a	object:mapsto
+body	tex.json	/^    "body": [$/;"	a	object:mathfrak
+body	tex.json	/^    "body": [$/;"	a	object:mathfrak g
+body	tex.json	/^    "body": [$/;"	a	object:nabla
 body	tex.json	/^    "body": [$/;"	a	object:ni
+body	tex.json	/^    "body": [$/;"	a	object:norm
+body	tex.json	/^    "body": [$/;"	a	object:not equal
+body	tex.json	/^    "body": [$/;"	a	object:not in
+body	tex.json	/^    "body": [$/;"	a	object:notation
+body	tex.json	/^    "body": [$/;"	a	object:omega
+body	tex.json	/^    "body": [$/;"	a	object:open bracket
+body	tex.json	/^    "body": [$/;"	a	object:over R
+body	tex.json	/^    "body": [$/;"	a	object:overline
+body	tex.json	/^    "body": [$/;"	a	object:partial
+body	tex.json	/^    "body": [$/;"	a	object:phi
+body	tex.json	/^    "body": [$/;"	a	object:pi
 body	tex.json	/^    "body": [$/;"	a	object:plus minus
+body	tex.json	/^    "body": [$/;"	a	object:product
+body	tex.json	/^    "body": [$/;"	a	object:proposition
+body	tex.json	/^    "body": [$/;"	a	object:proves
+body	tex.json	/^    "body": [$/;"	a	object:question
 body	tex.json	/^    "body": [$/;"	a	object:quotes
+body	tex.json	/^    "body": [$/;"	a	object:raise
+body	tex.json	/^    "body": [$/;"	a	object:remark
+body	tex.json	/^    "body": [$/;"	a	object:rho
+body	tex.json	/^    "body": [$/;"	a	object:set bracket
+body	tex.json	/^    "body": [$/;"	a	object:sigma
+body	tex.json	/^    "body": [$/;"	a	object:square bracket
+body	tex.json	/^    "body": [$/;"	a	object:st
 body	tex.json	/^    "body": [$/;"	a	object:subset
 body	tex.json	/^    "body": [$/;"	a	object:super set
 body	tex.json	/^    "body": [$/;"	a	object:tensor times
 body	tex.json	/^    "body": [$/;"	a	object:text
 body	tex.json	/^    "body": [$/;"	a	object:three dots
+body	tex.json	/^    "body": [$/;"	a	object:tikz
 body	tex.json	/^    "body": [$/;"	a	object:times
+body	tex.json	/^    "body": [$/;"	a	object:to
+body	tex.json	/^    "body": [$/;"	a	object:under
+body	tex.json	/^    "body": [$/;"	a	object:union cup
+body	tex.json	/^    "body": [$/;"	a	object:vee
+body	tex.json	/^    "body": [$/;"	a	object:wide tilda
+body	tex.json	/^    "body": [$/;"	a	object:xto
 body	texback.json	/^		"body": [$/;"	a	object:Large Integral
 body	texback.json	/^		"body": [$/;"	a	object:Large Summation
 body	texback.json	/^        "body": "\\\\section*{$1}$0",$/;"	s	object:Header
@@ -2869,61 +2869,61 @@ body	vim.json	/^    "body": [$/;"	a	object:cr
 body	vim.json	/^    "body": [$/;"	a	object:leader
 bold	html.json	/^"bold": {$/;"	o
 bold	latexold.json	/^"bold": {$/;"	o
-bold	tex.json	/^"bold": {$/;"	o	object:Align numbered
+bold	tex.json	/^"bold": {$/;"	o
 bold	text.json	/^"bold": {$/;"	o
 bracket plus minus	tex.json	/^ "bracket plus minus": {$/;"	o
 bullet	html.json	/^"bullet": {$/;"	o
 bullet	latexold.json	/^"bullet": {$/;"	o
-bullet	tex.json	/^"bullet": {$/;"	o	object:Align numbered
+bullet	tex.json	/^"bullet": {$/;"	o
 bullet	text.json	/^"bullet": {$/;"	o
 caligraphic	html.json	/^"caligraphic": {$/;"	o
 caligraphic	latexold.json	/^"caligraphic": {$/;"	o
-caligraphic	tex.json	/^"caligraphic": {$/;"	o	object:Align numbered
+caligraphic	tex.json	/^"caligraphic": {$/;"	o
 caligraphic	texback.json	/^"caligraphic": {$/;"	o
 caligraphic	text.json	/^"caligraphic": {$/;"	o
 caligraphic A	html.json	/^"caligraphic A": {$/;"	o
 caligraphic A	latexold.json	/^"caligraphic A": {$/;"	o
-caligraphic A	tex.json	/^"caligraphic A": {$/;"	o	object:Align numbered
+caligraphic A	tex.json	/^"caligraphic A": {$/;"	o
 caligraphic A	text.json	/^"caligraphic A": {$/;"	o
-caligraphic B	tex.json	/^"caligraphic B": {$/;"	o	object:Align numbered
-caligraphic C	tex.json	/^"caligraphic C": {$/;"	o	object:Align numbered
+caligraphic B	tex.json	/^"caligraphic B": {$/;"	o
+caligraphic C	tex.json	/^"caligraphic C": {$/;"	o
 caligraphic D	html.json	/^"caligraphic D": {$/;"	o
 caligraphic D	latexold.json	/^"caligraphic D": {$/;"	o
-caligraphic D	tex.json	/^"caligraphic D": {$/;"	o	object:Align numbered
+caligraphic D	tex.json	/^"caligraphic D": {$/;"	o
 caligraphic D	text.json	/^"caligraphic D": {$/;"	o
-caligraphic F	tex.json	/^"caligraphic F": {$/;"	o	object:Align numbered
+caligraphic F	tex.json	/^"caligraphic F": {$/;"	o
 caligraphic G	html.json	/^"caligraphic G": {$/;"	o
-caligraphic G	tex.json	/^"caligraphic G": {$/;"	o	object:Align numbered
+caligraphic G	tex.json	/^"caligraphic G": {$/;"	o
 caligraphic G	text.json	/^"caligraphic G": {$/;"	o
-caligraphic H	tex.json	/^"caligraphic H": {$/;"	o	object:Align numbered
-caligraphic I	tex.json	/^"caligraphic I": {$/;"	o	object:Align numbered
-caligraphic L	tex.json	/^"caligraphic L": {$/;"	o	object:Align numbered
-caligraphic N	tex.json	/^  "caligraphic N": {$/;"	o	object:Align numbered
+caligraphic H	tex.json	/^"caligraphic H": {$/;"	o
+caligraphic I	tex.json	/^"caligraphic I": {$/;"	o
+caligraphic L	tex.json	/^"caligraphic L": {$/;"	o
+caligraphic N	tex.json	/^  "caligraphic N": {$/;"	o
 caligraphic O	html.json	/^"caligraphic O": {$/;"	o
 caligraphic O	latexold.json	/^"caligraphic O": {$/;"	o
-caligraphic O	tex.json	/^"caligraphic O": {$/;"	o	object:Align numbered
+caligraphic O	tex.json	/^"caligraphic O": {$/;"	o
 caligraphic O	text.json	/^"caligraphic O": {$/;"	o
-caligraphic P	tex.json	/^"caligraphic P": {$/;"	o	object:Align numbered
-caligraphic Q	tex.json	/^"caligraphic Q": {$/;"	o	object:Align numbered
-caligraphic R	tex.json	/^"caligraphic R": {$/;"	o	object:Align numbered
-caligraphic S	tex.json	/^"caligraphic S": {$/;"	o	object:Align numbered
+caligraphic P	tex.json	/^"caligraphic P": {$/;"	o
+caligraphic Q	tex.json	/^"caligraphic Q": {$/;"	o
+caligraphic R	tex.json	/^"caligraphic R": {$/;"	o
+caligraphic S	tex.json	/^"caligraphic S": {$/;"	o
 caligraphic S	text.json	/^"caligraphic S": {$/;"	o
 caligraphic T	html.json	/^"caligraphic T": {$/;"	o
 caligraphic T	latexold.json	/^"caligraphic T": {$/;"	o
-caligraphic T	tex.json	/^"caligraphic T": {$/;"	o	object:Align numbered
+caligraphic T	tex.json	/^"caligraphic T": {$/;"	o
 caligraphic T	text.json	/^"caligraphic T": {$/;"	o
 caligraphic U	html.json	/^"caligraphic U": {$/;"	o
 caligraphic U	latexold.json	/^"caligraphic U": {$/;"	o
-caligraphic U	tex.json	/^"caligraphic U": {$/;"	o	object:Align numbered
+caligraphic U	tex.json	/^"caligraphic U": {$/;"	o
 caligraphic U	text.json	/^"caligraphic U": {$/;"	o
-caligraphic X	tex.json	/^"caligraphic X": {$/;"	o	object:Align numbered
-caligraphic Y	tex.json	/^"caligraphic Y": {$/;"	o	object:Align numbered
+caligraphic X	tex.json	/^"caligraphic X": {$/;"	o
+caligraphic Y	tex.json	/^"caligraphic Y": {$/;"	o
 cdot	html.json	/^"cdot": {$/;"	o
 cdot	tex.json	/^"cdot": {$/;"	o
 cdot	text.json	/^"cdot": {$/;"	o
 cf	html.json	/^"cf": {$/;"	o
 cf	latexold.json	/^"cf": {$/;"	o
-cf	tex.json	/^"cf": {$/;"	o	object:Align numbered
+cf	tex.json	/^"cf": {$/;"	o
 cf	texback.json	/^"cf": {$/;"	o
 cf	text.json	/^"cf": {$/;"	o
 color	html.json	/^"color": {$/;"	o
@@ -2931,24 +2931,24 @@ color	tex.json	/^"color": {$/;"	o
 color	text.json	/^"color": {$/;"	o
 comment	html.json	/^"comment": {$/;"	o
 comment	latexold.json	/^"comment": {$/;"	o
-comment	tex.json	/^"comment": {$/;"	o	object:Align numbered
+comment	tex.json	/^"comment": {$/;"	o
 comment	text.json	/^"comment": {$/;"	o
 composition	html.json	/^"composition": {$/;"	o
 composition	latexold.json	/^"composition": {$/;"	o
-composition	tex.json	/^"composition": {$/;"	o	object:Align numbered
+composition	tex.json	/^"composition": {$/;"	o
 composition	text.json	/^"composition": {$/;"	o
 cr	vim.json	/^"cr": {$/;"	o
 defined by	html.json	/^"defined by": {$/;"	o
 defined by	latexold.json	/^"defined by": {$/;"	o
-defined by	tex.json	/^"defined by": {$/;"	o	object:Align numbered
+defined by	tex.json	/^"defined by": {$/;"	o
 defined by	text.json	/^"defined by": {$/;"	o
 definition	html.json	/^"definition": {$/;"	o
 definition	latexold.json	/^"definition": {$/;"	o
-definition	tex.json	/^"definition": {$/;"	o	object:Align numbered
+definition	tex.json	/^"definition": {$/;"	o
 definition	text.json	/^"definition": {$/;"	o
 delta	html.json	/^"delta": {$/;"	o
 delta	latexold.json	/^"delta": {$/;"	o
-delta	tex.json	/^"delta": {$/;"	o	object:Align numbered
+delta	tex.json	/^"delta": {$/;"	o
 delta	texback.json	/^"delta": {$/;"	o
 delta	text.json	/^"delta": {$/;"	o
 desciption	texback.json	/^    "desciption": "Add an for statement of algorithm"$/;"	s	object:Algorithm:For
@@ -3212,174 +3212,175 @@ description	latexold.json	/^    "description": "tikz"$/;"	s	object:tikz
 description	latexold.json	/^    "description": "times"$/;"	s	object:times
 description	latexold.json	/^    "description": "underscore"$/;"	s	object:under
 description	latexold.json	/^    "description": "union"$/;"	s	object:union cup
-description	tex.json	/^		"description": "Insert a large summation notation."$/;"	s	object:Align numbered.Large Summation
-description	tex.json	/^		"description": "Insert large integral notation."$/;"	s	object:Align numbered.Large Integral
-description	tex.json	/^        "description": "Insert a definition, whose style is already defined in the template. The/;"	s	object:Align numbered.Definition
-description	tex.json	/^        "description": "Insert a problem, whose style is already defined in the template. The se/;"	s	object:Align numbered.Problem
-description	tex.json	/^        "description": "Insert an inline summation notation, (only in the cases when the environ/;"	s	object:Align numbered.Inline Summation
-description	tex.json	/^        "description": "Insert bold italic text."$/;"	s	object:Align numbered.Bold Italic Text
-description	tex.json	/^        "description": "Insert bold text."$/;"	s	object:Align numbered.Bold Text
-description	tex.json	/^        "description": "Insert inline integral notation, (only in the cases when the environment/;"	s	object:Align numbered.Inline Integral
-description	tex.json	/^        "description": "Insert italic text."$/;"	s	object:Align numbered.Italic Text
-description	tex.json	/^        "description": "item"$/;"	s	object:Align numbered.item
-description	tex.json	/^        "description": ["Insert inline fraction notation, (only in the cases when the environmen/;"	a	object:Align numbered.Inline Fraction
-description	tex.json	/^        "description": ["template"]$/;"	a	object:Align numbered.Template
-description	tex.json	/^    "description": " U"$/;"	s	object:Align numbered.Lambda
-description	tex.json	/^    "description": "Add a Equation"$/;"	s	object:Align numbered.Equation
-description	tex.json	/^    "description": "Add a Equation"$/;"	s	object:Align numbered.EquationNumbered
-description	tex.json	/^    "description": "Add a Math"$/;"	s	object:Align numbered.Math
-description	tex.json	/^    "description": "Add a cite"$/;"	s	object:Align numbered.Cite
-description	tex.json	/^    "description": "Add a compactitem (from package paralist)"$/;"	s	object:Align numbered.Compactitem
-description	tex.json	/^    "description": "Add a empty page"$/;"	s	object:Align numbered.EmptyPage
-description	tex.json	/^    "description": "Add a enumerate"$/;"	s	object:Align numbered.Enumerate
-description	tex.json	/^    "description": "Add a figure (ACM)"$/;"	s	object:Align numbered.Figure:ACM
-description	tex.json	/^    "description": "Add a figure (ACM)"$/;"	s	object:Align numbered.Figure:ACM:*
-description	tex.json	/^    "description": "Add a figure"$/;"	s	object:Align numbered.Figure
-description	tex.json	/^    "description": "Add a proof"$/;"	s	object:Align numbered.Proof
-description	tex.json	/^    "description": "Add a table (ACM)"$/;"	s	object:Align numbered.Table:ACM
-description	tex.json	/^    "description": "Add a table (ACM)"$/;"	s	object:Align numbered.Table:ACM:*
-description	tex.json	/^    "description": "Add a table"$/;"	s	object:Align numbered.Table
-description	tex.json	/^    "description": "Add a theorem"$/;"	s	object:Align numbered.Corollary
-description	tex.json	/^    "description": "Add a theorem"$/;"	s	object:Align numbered.Theorem
-description	tex.json	/^    "description": "Add a theorem"$/;"	s	object:Align numbered.example
-description	tex.json	/^    "description": "Add a theorem"$/;"	s	object:Align numbered.lemma
-description	tex.json	/^    "description": "Add notation"$/;"	s	object:Align numbered.notation
-description	tex.json	/^    "description": "Align(ed)"$/;"	s	object:Align numbered.Align(ed)
+description	tex.json	/^		"description": "Insert a large summation notation."$/;"	s	object:Large Summation
+description	tex.json	/^		"description": "Insert large integral notation."$/;"	s	object:Large Integral
+description	tex.json	/^        "description": "Insert a definition, whose style is already defined in the template. The/;"	s	object:Definition
+description	tex.json	/^        "description": "Insert a problem, whose style is already defined in the template. The se/;"	s	object:Problem
+description	tex.json	/^        "description": "Insert an inline summation notation, (only in the cases when the environ/;"	s	object:Inline Summation
+description	tex.json	/^        "description": "Insert bold italic text."$/;"	s	object:Bold Italic Text
+description	tex.json	/^        "description": "Insert bold text."$/;"	s	object:Bold Text
+description	tex.json	/^        "description": "Insert inline integral notation, (only in the cases when the environment/;"	s	object:Inline Integral
+description	tex.json	/^        "description": "Insert italic text."$/;"	s	object:Italic Text
+description	tex.json	/^        "description": "item"$/;"	s	object:item
+description	tex.json	/^        "description": ["Insert inline fraction notation, (only in the cases when the environmen/;"	a	object:Inline Fraction
+description	tex.json	/^        "description": ["template"]$/;"	a	object:Template
+description	tex.json	/^    "description": " U"$/;"	s	object:Lambda
+description	tex.json	/^    "description": "Add a Equation"$/;"	s	object:Equation
+description	tex.json	/^    "description": "Add a Equation"$/;"	s	object:EquationNumbered
+description	tex.json	/^    "description": "Add a Math"$/;"	s	object:Math
+description	tex.json	/^    "description": "Add a cite"$/;"	s	object:Cite
+description	tex.json	/^    "description": "Add a compactitem (from package paralist)"$/;"	s	object:Compactitem
+description	tex.json	/^    "description": "Add a empty page"$/;"	s	object:EmptyPage
+description	tex.json	/^    "description": "Add a enumerate"$/;"	s	object:Enumerate
+description	tex.json	/^    "description": "Add a figure (ACM)"$/;"	s	object:Figure:ACM
+description	tex.json	/^    "description": "Add a figure (ACM)"$/;"	s	object:Figure:ACM:*
+description	tex.json	/^    "description": "Add a figure"$/;"	s	object:Figure
+description	tex.json	/^    "description": "Add a proof"$/;"	s	object:Proof
+description	tex.json	/^    "description": "Add a table (ACM)"$/;"	s	object:Table:ACM
+description	tex.json	/^    "description": "Add a table (ACM)"$/;"	s	object:Table:ACM:*
+description	tex.json	/^    "description": "Add a table"$/;"	s	object:Table
+description	tex.json	/^    "description": "Add a theorem"$/;"	s	object:Corollary
+description	tex.json	/^    "description": "Add a theorem"$/;"	s	object:Theorem
+description	tex.json	/^    "description": "Add a theorem"$/;"	s	object:example
+description	tex.json	/^    "description": "Add a theorem"$/;"	s	object:lemma
+description	tex.json	/^    "description": "Add notation"$/;"	s	object:notation
+description	tex.json	/^    "description": "Align(ed)"$/;"	s	object:Align(ed)
 description	tex.json	/^    "description": "BHam"$/;"	s	object:BHam
 description	tex.json	/^    "description": "BHam"$/;"	s	object:bracket plus minus
 description	tex.json	/^    "description": "BHam"$/;"	s	object:plus minus
-description	tex.json	/^    "description": "Begin - End"$/;"	s	object:Align numbered.\\\\begin{}…\\\\end{}
-description	tex.json	/^    "description": "Cases"$/;"	s	object:Align numbered.Cases
-description	tex.json	/^    "description": "Chapter"$/;"	s	object:Align numbered.Chapter
-description	tex.json	/^    "description": "Delta d-simplex bullet"$/;"	s	object:Align numbered.Delta d-simplex bullet
-description	tex.json	/^    "description": "Delta d-simplex"$/;"	s	object:Align numbered.Delta
-description	tex.json	/^    "description": "Delta d-simplex"$/;"	s	object:Align numbered.Delta d-simplex
-description	tex.json	/^    "description": "Description"$/;"	s	object:Align numbered.Description
-description	tex.json	/^    "description": "Gamma"$/;"	s	object:Align numbered.Gamma
-description	tex.json	/^    "description": "Gather(ed)"$/;"	s	object:Align numbered.Gather(ed)
+description	tex.json	/^    "description": "Begin - End"$/;"	s	object:\\\\begin{}…\\\\end{}
+description	tex.json	/^    "description": "Cases"$/;"	s	object:Cases
+description	tex.json	/^    "description": "Chapter"$/;"	s	object:Chapter
+description	tex.json	/^    "description": "Delta d-simplex bullet"$/;"	s	object:Delta d-simplex bullet
+description	tex.json	/^    "description": "Delta d-simplex"$/;"	s	object:Delta
+description	tex.json	/^    "description": "Delta d-simplex"$/;"	s	object:Delta d-simplex
+description	tex.json	/^    "description": "Description"$/;"	s	object:Description
+description	tex.json	/^    "description": "Gamma"$/;"	s	object:Gamma
+description	tex.json	/^    "description": "Gather(ed)"$/;"	s	object:Gather(ed)
 description	tex.json	/^    "description": "Gbun"$/;"	s	object:G-bundle
-description	tex.json	/^    "description": "Listing"$/;"	s	object:Align numbered.Listing:Ref
-description	tex.json	/^    "description": "Matrix"$/;"	s	object:Align numbered.Matrix
+description	tex.json	/^    "description": "Listing"$/;"	s	object:Listing:Ref
+description	tex.json	/^    "description": "Matrix"$/;"	s	object:Matrix
 description	tex.json	/^    "description": "NFuk"$/;"	s	object:NFuk
-description	tex.json	/^    "description": "Paragraph"$/;"	s	object:Align numbered.Paragraph
-description	tex.json	/^    "description": "Reference"$/;"	s	object:Align numbered.Reference
-description	tex.json	/^    "description": "Section"$/;"	s	object:Align numbered.Section
-description	tex.json	/^    "description": "Sigma"$/;"	s	object:Align numbered.Sigma
-description	tex.json	/^    "description": "Split"$/;"	s	object:Align numbered.Split
-description	tex.json	/^    "description": "Sub Section"$/;"	s	object:Align numbered.Sub Section
-description	tex.json	/^    "description": "Sub Sub Section"$/;"	s	object:Align numbered.Sub Sub Section
-description	tex.json	/^    "description": "Table Reference"$/;"	s	object:Align numbered.Table:Ref
-description	tex.json	/^    "description": "Tabular"  $/;"	s	object:Align numbered.Tabular
-description	tex.json	/^    "description": "Theta"$/;"	s	object:Align numbered.Theta
-description	tex.json	/^    "description": "and"$/;"	s	object:Align numbered.and
-description	tex.json	/^    "description": "and"$/;"	s	object:Align numbered.logical and
+description	tex.json	/^    "description": "Paragraph"$/;"	s	object:Paragraph
+description	tex.json	/^    "description": "Reference"$/;"	s	object:Reference
+description	tex.json	/^    "description": "Section"$/;"	s	object:Section
+description	tex.json	/^    "description": "Sigma"$/;"	s	object:Sigma
+description	tex.json	/^    "description": "Split"$/;"	s	object:Split
+description	tex.json	/^    "description": "Sub Section"$/;"	s	object:Sub Section
+description	tex.json	/^    "description": "Sub Sub Section"$/;"	s	object:Sub Sub Section
+description	tex.json	/^    "description": "Table Reference"$/;"	s	object:Table:Ref
+description	tex.json	/^    "description": "Tabular"  $/;"	s	object:Tabular
+description	tex.json	/^    "description": "Theta"$/;"	s	object:Theta
+description	tex.json	/^    "description": "and"$/;"	s	object:and
+description	tex.json	/^    "description": "and"$/;"	s	object:logical and
 description	tex.json	/^    "description": "bar"$/;"	s	object:bar
-description	tex.json	/^    "description": "bars"$/;"	s	object:Align numbered.bars
-description	tex.json	/^    "description": "big intersection"$/;"	s	object:Align numbered.big intersection cap
-description	tex.json	/^    "description": "big intersection"$/;"	s	object:Align numbered.product
-description	tex.json	/^    "description": "big union"$/;"	s	object:Align numbered.big cup
-description	tex.json	/^    "description": "brackets"$/;"	s	object:Align numbered.basic bracket
-description	tex.json	/^    "description": "bullet"$/;"	s	object:Align numbered.bullet
+description	tex.json	/^    "description": "bars"$/;"	s	object:bars
+description	tex.json	/^    "description": "big intersection"$/;"	s	object:big intersection cap
+description	tex.json	/^    "description": "big intersection"$/;"	s	object:product
+description	tex.json	/^    "description": "big union"$/;"	s	object:big cup
+description	tex.json	/^    "description": "brackets"$/;"	s	object:basic bracket
+description	tex.json	/^    "description": "bullet"$/;"	s	object:bullet
 description	tex.json	/^    "description": "c dot"$/;"	s	object:cdot
-description	tex.json	/^    "description": "cal A"$/;"	s	object:Align numbered.caligraphic A
-description	tex.json	/^    "description": "cal B"$/;"	s	object:Align numbered.caligraphic B
-description	tex.json	/^    "description": "cal C"$/;"	s	object:Align numbered.caligraphic C
-description	tex.json	/^    "description": "cal D"$/;"	s	object:Align numbered.caligraphic D
-description	tex.json	/^    "description": "cal F"$/;"	s	object:Align numbered.caligraphic F
-description	tex.json	/^    "description": "cal G"$/;"	s	object:Align numbered.caligraphic G
-description	tex.json	/^    "description": "cal H"$/;"	s	object:Align numbered.caligraphic H
-description	tex.json	/^    "description": "cal I"$/;"	s	object:Align numbered.caligraphic I
-description	tex.json	/^    "description": "cal L"$/;"	s	object:Align numbered.caligraphic L
-description	tex.json	/^    "description": "cal N"$/;"	s	object:Align numbered.caligraphic N
-description	tex.json	/^    "description": "cal O"$/;"	s	object:Align numbered.caligraphic O
-description	tex.json	/^    "description": "cal P"$/;"	s	object:Align numbered.caligraphic P
-description	tex.json	/^    "description": "cal Q"$/;"	s	object:Align numbered.caligraphic Q
-description	tex.json	/^    "description": "cal R"$/;"	s	object:Align numbered.caligraphic R
-description	tex.json	/^    "description": "cal S"$/;"	s	object:Align numbered.caligraphic S
-description	tex.json	/^    "description": "cal T"$/;"	s	object:Align numbered.caligraphic T
-description	tex.json	/^    "description": "cal U"$/;"	s	object:Align numbered.caligraphic U
-description	tex.json	/^    "description": "cal X"$/;"	s	object:Align numbered.caligraphic X
-description	tex.json	/^    "description": "cal Y"$/;"	s	object:Align numbered.caligraphic Y
-description	tex.json	/^    "description": "caligraphic"$/;"	s	object:Align numbered.caligraphic
-description	tex.json	/^    "description": "cf"$/;"	s	object:Align numbered.cf
-description	tex.json	/^    "description": "circ"$/;"	s	object:Align numbered.composition
+description	tex.json	/^    "description": "cal A"$/;"	s	object:caligraphic A
+description	tex.json	/^    "description": "cal B"$/;"	s	object:caligraphic B
+description	tex.json	/^    "description": "cal C"$/;"	s	object:caligraphic C
+description	tex.json	/^    "description": "cal D"$/;"	s	object:caligraphic D
+description	tex.json	/^    "description": "cal F"$/;"	s	object:caligraphic F
+description	tex.json	/^    "description": "cal G"$/;"	s	object:caligraphic G
+description	tex.json	/^    "description": "cal H"$/;"	s	object:caligraphic H
+description	tex.json	/^    "description": "cal I"$/;"	s	object:caligraphic I
+description	tex.json	/^    "description": "cal L"$/;"	s	object:caligraphic L
+description	tex.json	/^    "description": "cal N"$/;"	s	object:caligraphic N
+description	tex.json	/^    "description": "cal O"$/;"	s	object:caligraphic O
+description	tex.json	/^    "description": "cal P"$/;"	s	object:caligraphic P
+description	tex.json	/^    "description": "cal Q"$/;"	s	object:caligraphic Q
+description	tex.json	/^    "description": "cal R"$/;"	s	object:caligraphic R
+description	tex.json	/^    "description": "cal S"$/;"	s	object:caligraphic S
+description	tex.json	/^    "description": "cal T"$/;"	s	object:caligraphic T
+description	tex.json	/^    "description": "cal U"$/;"	s	object:caligraphic U
+description	tex.json	/^    "description": "cal X"$/;"	s	object:caligraphic X
+description	tex.json	/^    "description": "cal Y"$/;"	s	object:caligraphic Y
+description	tex.json	/^    "description": "caligraphic"$/;"	s	object:caligraphic
+description	tex.json	/^    "description": "cf"$/;"	s	object:cf
+description	tex.json	/^    "description": "circ"$/;"	s	object:composition
 description	tex.json	/^    "description": "colored text"$/;"	s	object:color
-description	tex.json	/^    "description": "comment"$/;"	s	object:Align numbered.comment
-description	tex.json	/^    "description": "defined by"$/;"	s	object:Align numbered.defined by
-description	tex.json	/^    "description": "definition"$/;"	s	object:Align numbered.definition
-description	tex.json	/^    "description": "delta"$/;"	s	object:Align numbered.delta
+description	tex.json	/^    "description": "comment"$/;"	s	object:comment
+description	tex.json	/^    "description": "defined by"$/;"	s	object:defined by
+description	tex.json	/^    "description": "definition"$/;"	s	object:definition
+description	tex.json	/^    "description": "delta"$/;"	s	object:delta
 description	tex.json	/^    "description": "dots"$/;"	s	object:three dots
-description	tex.json	/^    "description": "duality"$/;"	s	object:Align numbered.duality
-description	tex.json	/^    "description": "eg"$/;"	s	object:Align numbered.eg
+description	tex.json	/^    "description": "duality"$/;"	s	object:duality
+description	tex.json	/^    "description": "eg"$/;"	s	object:eg
 description	tex.json	/^    "description": "emphasize"$/;"	s	object:emphasize
 description	tex.json	/^    "description": "emphasize"$/;"	s	object:emphasize bold
-description	tex.json	/^    "description": "end"$/;"	s	object:Align numbered.end
-description	tex.json	/^    "description": "epsilon"$/;"	s	object:Align numbered.epsilon
-description	tex.json	/^    "description": "equal"$/;"	s	object:Align numbered.equal
-description	tex.json	/^    "description": "equation Reference"$/;"	s	object:Align numbered.equation reference
-description	tex.json	/^    "description": "exists"$/;"	s	object:Align numbered.exists
-description	tex.json	/^    "description": "field C"$/;"	s	object:Align numbered.field C
-description	tex.json	/^    "description": "field K"$/;"	s	object:Align numbered.field K
-description	tex.json	/^    "description": "field Q"$/;"	s	object:Align numbered.field Q
-description	tex.json	/^    "description": "field Q"$/;"	s	object:Align numbered.pi
-description	tex.json	/^    "description": "field R"$/;"	s	object:Align numbered.field CP
-description	tex.json	/^    "description": "field R"$/;"	s	object:Align numbered.field R
-description	tex.json	/^    "description": "field S"$/;"	s	object:Align numbered.field S
-description	tex.json	/^    "description": "field integers"$/;"	s	object:Align numbered.field integers
-description	tex.json	/^    "description": "field naturals"$/;"	s	object:Align numbered.field N
-description	tex.json	/^    "description": "field"$/;"	s	object:Align numbered.field
-description	tex.json	/^    "description": "for all"$/;"	s	object:Align numbered.for all
+description	tex.json	/^    "description": "end"$/;"	s	object:end
+description	tex.json	/^    "description": "epsilon"$/;"	s	object:epsilon
+description	tex.json	/^    "description": "equal"$/;"	s	object:equal
+description	tex.json	/^    "description": "equation Reference"$/;"	s	object:equation reference
+description	tex.json	/^    "description": "exists"$/;"	s	object:exists
+description	tex.json	/^    "description": "field C"$/;"	s	object:field C
+description	tex.json	/^    "description": "field K"$/;"	s	object:field K
+description	tex.json	/^    "description": "field Q"$/;"	s	object:field Q
+description	tex.json	/^    "description": "field Q"$/;"	s	object:pi
+description	tex.json	/^    "description": "field R"$/;"	s	object:field CP
+description	tex.json	/^    "description": "field R"$/;"	s	object:field R
+description	tex.json	/^    "description": "field S"$/;"	s	object:field S
+description	tex.json	/^    "description": "field integers"$/;"	s	object:field integers
+description	tex.json	/^    "description": "field naturals"$/;"	s	object:field N
+description	tex.json	/^    "description": "field"$/;"	s	object:field
+description	tex.json	/^    "description": "for all"$/;"	s	object:for all
 description	tex.json	/^    "description": "fuk"$/;"	s	object:Fuk
-description	tex.json	/^    "description": "gamma"$/;"	s	object:Align numbered.gamma
-description	tex.json	/^    "description": "geq"$/;"	s	object:Align numbered.greater equal
+description	tex.json	/^    "description": "gamma"$/;"	s	object:gamma
+description	tex.json	/^    "description": "geq"$/;"	s	object:greater equal
 description	tex.json	/^    "description": "ham"$/;"	s	object:Ham
-description	tex.json	/^    "description": "hook"$/;"	s	object:Align numbered.hook right arrow
-description	tex.json	/^    "description": "ie"$/;"	s	object:Align numbered.ie
+description	tex.json	/^    "description": "hook"$/;"	s	object:hook right arrow
+description	tex.json	/^    "description": "ie"$/;"	s	object:ie
 description	tex.json	/^    "description": "image"$/;"	s	object:image
-description	tex.json	/^    "description": "in"$/;"	s	object:Align numbered.in
-description	tex.json	/^    "description": "infinity"$/;"	s	object:Align numbered.infinity
-description	tex.json	/^    "description": "intersection"$/;"	s	object:Align numbered.intersection cap
-description	tex.json	/^    "description": "isomorphic"$/;"	s	object:Align numbered.isomorphic
-description	tex.json	/^    "description": "label"$/;"	s	object:Align numbered.Label
-description	tex.json	/^    "description": "labeled arrow"$/;"	s	object:Align numbered.to
-description	tex.json	/^    "description": "labeled arrow"$/;"	s	object:Align numbered.xto
-description	tex.json	/^    "description": "leq"$/;"	s	object:Align numbered.less equal
-description	tex.json	/^    "description": "mapsto"$/;"	s	object:Align numbered.bold
-description	tex.json	/^    "description": "mapsto"$/;"	s	object:Align numbered.mapsto
-description	tex.json	/^    "description": "mapsto"$/;"	s	object:Align numbered.vee
-description	tex.json	/^    "description": "mathfrak g"$/;"	s	object:Align numbered.mathfrak g
-description	tex.json	/^    "description": "mathfrak general"$/;"	s	object:Align numbered.mathfrak
-description	tex.json	/^    "description": "nabla"$/;"	s	object:Align numbered.nabla
-description	tex.json	/^    "description": "norm"$/;"	s	object:Align numbered.norm
-description	tex.json	/^    "description": "not equal"$/;"	s	object:Align numbered.not equal
-description	tex.json	/^    "description": "not in"$/;"	s	object:Align numbered.not in
-description	tex.json	/^    "description": "omega"$/;"	s	object:Align numbered.omega
-description	tex.json	/^    "description": "open brackets"$/;"	s	object:Align numbered.open bracket
-description	tex.json	/^    "description": "over tilde"$/;"	s	object:Align numbered.wide tilda
-description	tex.json	/^    "description": "overline R"$/;"	s	object:Align numbered.over R
-description	tex.json	/^    "description": "overline"$/;"	s	object:Align numbered.overline
-description	tex.json	/^    "description": "partial"$/;"	s	object:Align numbered.partial
-description	tex.json	/^    "description": "phi"$/;"	s	object:Align numbered.phi
-description	tex.json	/^    "description": "proposition"$/;"	s	object:Align numbered.proposition
-description	tex.json	/^    "description": "proposition"$/;"	s	object:Align numbered.remark
-description	tex.json	/^    "description": "proves"$/;"	s	object:Align numbered.proves
-description	tex.json	/^    "description": "question"$/;"	s	object:Align numbered.question
+description	tex.json	/^    "description": "in"$/;"	s	object:in
+description	tex.json	/^    "description": "infinity"$/;"	s	object:infinity
+description	tex.json	/^    "description": "intersection"$/;"	s	object:intersection cap
+description	tex.json	/^    "description": "isomorphic"$/;"	s	object:isomorphic
+description	tex.json	/^    "description": "label"$/;"	s	object:Label
+description	tex.json	/^    "description": "labeled arrow"$/;"	s	object:to
+description	tex.json	/^    "description": "labeled arrow"$/;"	s	object:xto
+description	tex.json	/^    "description": "leq"$/;"	s	object:less equal
+description	tex.json	/^    "description": "mapsto"$/;"	s	object:bold
+description	tex.json	/^    "description": "mapsto"$/;"	s	object:mapsto
+description	tex.json	/^    "description": "mapsto"$/;"	s	object:vee
+description	tex.json	/^    "description": "mathfrak g"$/;"	s	object:mathfrak g
+description	tex.json	/^    "description": "mathfrak general"$/;"	s	object:mathfrak
+description	tex.json	/^    "description": "nabla"$/;"	s	object:nabla
+description	tex.json	/^    "description": "norm"$/;"	s	object:norm
+description	tex.json	/^    "description": "not equal"$/;"	s	object:not equal
+description	tex.json	/^    "description": "not in"$/;"	s	object:not in
+description	tex.json	/^    "description": "omega"$/;"	s	object:omega
+description	tex.json	/^    "description": "open brackets"$/;"	s	object:open bracket
+description	tex.json	/^    "description": "over tilde"$/;"	s	object:wide tilda
+description	tex.json	/^    "description": "overline R"$/;"	s	object:over R
+description	tex.json	/^    "description": "overline"$/;"	s	object:overline
+description	tex.json	/^    "description": "partial"$/;"	s	object:partial
+description	tex.json	/^    "description": "phi"$/;"	s	object:phi
+description	tex.json	/^    "description": "proposition"$/;"	s	object:proposition
+description	tex.json	/^    "description": "proposition"$/;"	s	object:remark
+description	tex.json	/^    "description": "proves"$/;"	s	object:proves
+description	tex.json	/^    "description": "question"$/;"	s	object:question
 description	tex.json	/^    "description": "quotes"$/;"	s	object:quotes
-description	tex.json	/^    "description": "raise"$/;"	s	object:Align numbered.raise
-description	tex.json	/^    "description": "rho"$/;"	s	object:Align numbered.rho
-description	tex.json	/^    "description": "set brackets"$/;"	s	object:Align numbered.set bracket
-description	tex.json	/^    "description": "sigma"$/;"	s	object:Align numbered.sigma
-description	tex.json	/^    "description": "square brackets"$/;"	s	object:Align numbered.square bracket
-description	tex.json	/^    "description": "st"$/;"	s	object:Align numbered.st
+description	tex.json	/^    "description": "raise"$/;"	s	object:raise
+description	tex.json	/^    "description": "rho"$/;"	s	object:rho
+description	tex.json	/^    "description": "set brackets"$/;"	s	object:set bracket
+description	tex.json	/^    "description": "sigma"$/;"	s	object:sigma
+description	tex.json	/^    "description": "square brackets"$/;"	s	object:square bracket
+description	tex.json	/^    "description": "st"$/;"	s	object:st
 description	tex.json	/^    "description": "subset"$/;"	s	object:ni
 description	tex.json	/^    "description": "subset"$/;"	s	object:subset
 description	tex.json	/^    "description": "subset"$/;"	s	object:super set
 description	tex.json	/^    "description": "tensor times"$/;"	s	object:tensor times
 description	tex.json	/^    "description": "text"$/;"	s	object:text
-description	tex.json	/^    "description": "tikz"$/;"	s	object:Align numbered.tikz
+description	tex.json	/^    "description": "tikz"$/;"	s	object:tikz
 description	tex.json	/^    "description": "times"$/;"	s	object:times
-description	tex.json	/^    "description": "underscore"$/;"	s	object:Align numbered.under
-description	tex.json	/^    "description": "union"$/;"	s	object:Align numbered.union cup
+description	tex.json	/^    "description": "underscore"$/;"	s	object:under
+description	tex.json	/^    "description": "union"$/;"	s	object:union cup
+description	tex.json	/^   "description": "Align(ed)"$/;"	s	object:Align numbered
 description	texback.json	/^		"description": "Insert a large summation notation."$/;"	s	object:Large Summation
 description	texback.json	/^		"description": "Insert large integral notation."$/;"	s	object:Large Integral
 description	texback.json	/^        "description": "Create a 2DPlot Environment of pgfplots. The style declarations are alre/;"	s	object:Create 2D Plot environment
@@ -3600,9 +3601,9 @@ description	vim.json	/^    "description": "leader"$/;"	s	object:leader
 description	vim.json	/^    "description": "vim bracket"$/;"	s	object:<>
 duality	html.json	/^"duality": {$/;"	o
 duality	latexold.json	/^"duality": {$/;"	o
-duality	tex.json	/^"duality": {$/;"	o	object:Align numbered
+duality	tex.json	/^"duality": {$/;"	o
 duality	text.json	/^"duality": {$/;"	o
-eg	tex.json	/^"eg": {$/;"	o	object:Align numbered
+eg	tex.json	/^"eg": {$/;"	o
 emphasize	html.json	/^"emphasize": {$/;"	o
 emphasize	latexold.json	/^"emphasize": {$/;"	o
 emphasize	tex.json	/^"emphasize": {$/;"	o
@@ -3613,153 +3614,153 @@ emphasize bold	tex.json	/^"emphasize bold": {$/;"	o
 emphasize bold	text.json	/^"emphasize bold": {$/;"	o
 end	html.json	/^"end": {$/;"	o
 end	latexold.json	/^"end": {$/;"	o
-end	tex.json	/^"end": {$/;"	o	object:Align numbered
+end	tex.json	/^"end": {$/;"	o
 end	text.json	/^"end": {$/;"	o
 epsilon	html.json	/^"epsilon": {$/;"	o
-epsilon	tex.json	/^"epsilon": {$/;"	o	object:Align numbered
+epsilon	tex.json	/^"epsilon": {$/;"	o
 epsilon	texback.json	/^"epsilon": {$/;"	o
 epsilon	text.json	/^"epsilon": {$/;"	o
 equal	html.json	/^"equal": {$/;"	o
 equal	latexold.json	/^"equal": {$/;"	o
-equal	tex.json	/^"equal": {$/;"	o	object:Align numbered
+equal	tex.json	/^"equal": {$/;"	o
 equal	text.json	/^"equal": {$/;"	o
 equation reference	html.json	/^"equation reference": {$/;"	o
 equation reference	latexold.json	/^"equation reference": {$/;"	o
-equation reference	tex.json	/^"equation reference": {$/;"	o	object:Align numbered
+equation reference	tex.json	/^"equation reference": {$/;"	o
 equation reference	text.json	/^"equation reference": {$/;"	o
 example	html.json	/^"example": {$/;"	o
 example	latexold.json	/^"example": {$/;"	o
-example	tex.json	/^"example": {$/;"	o	object:Align numbered
+example	tex.json	/^"example": {$/;"	o
 example	text.json	/^"example": {$/;"	o
 exists	html.json	/^"exists": {$/;"	o
 exists	latexold.json	/^"exists": {$/;"	o
-exists	tex.json	/^"exists": {$/;"	o	object:Align numbered
+exists	tex.json	/^"exists": {$/;"	o
 exists	text.json	/^"exists": {$/;"	o
 field	html.json	/^"field": {$/;"	o
 field	latexold.json	/^"field": {$/;"	o
-field	tex.json	/^"field": {$/;"	o	object:Align numbered
+field	tex.json	/^"field": {$/;"	o
 field	text.json	/^"field": {$/;"	o
 field C	html.json	/^"field C": {$/;"	o
 field C	latexold.json	/^"field C": {$/;"	o
-field C	tex.json	/^"field C": {$/;"	o	object:Align numbered
+field C	tex.json	/^"field C": {$/;"	o
 field C	text.json	/^"field C": {$/;"	o
 field CP	html.json	/^"field CP": {$/;"	o
-field CP	tex.json	/^"field CP": {$/;"	o	object:Align numbered
+field CP	tex.json	/^"field CP": {$/;"	o
 field CP	text.json	/^"field CP": {$/;"	o
 field K	html.json	/^"field K": {$/;"	o
 field K	latexold.json	/^"field K": {$/;"	o
-field K	tex.json	/^"field K": {$/;"	o	object:Align numbered
+field K	tex.json	/^"field K": {$/;"	o
 field K	text.json	/^"field K": {$/;"	o
 field N	html.json	/^"field N": {$/;"	o
 field N	latexold.json	/^"field N": {$/;"	o
-field N	tex.json	/^"field N": {$/;"	o	object:Align numbered
+field N	tex.json	/^"field N": {$/;"	o
 field N	text.json	/^"field N": {$/;"	o
-field Q	tex.json	/^"field Q": {$/;"	o	object:Align numbered
+field Q	tex.json	/^"field Q": {$/;"	o
 field R	html.json	/^"field R": {$/;"	o
 field R	latexold.json	/^"field R": {$/;"	o
-field R	tex.json	/^"field R": {$/;"	o	object:Align numbered
+field R	tex.json	/^"field R": {$/;"	o
 field R	text.json	/^"field R": {$/;"	o
-field S	tex.json	/^"field S": {$/;"	o	object:Align numbered
+field S	tex.json	/^"field S": {$/;"	o
 field integers	html.json	/^"field integers": {$/;"	o
 field integers	latexold.json	/^"field integers": {$/;"	o
-field integers	tex.json	/^"field integers": {$/;"	o	object:Align numbered
+field integers	tex.json	/^"field integers": {$/;"	o
 field integers	text.json	/^"field integers": {$/;"	o
 for all	html.json	/^"for all": {$/;"	o
 for all	latexold.json	/^"for all": {$/;"	o
-for all	tex.json	/^"for all": {$/;"	o	object:Align numbered
+for all	tex.json	/^"for all": {$/;"	o
 for all	text.json	/^"for all": {$/;"	o
 gamma	html.json	/^"gamma": {$/;"	o
 gamma	latexold.json	/^"gamma": {$/;"	o
-gamma	tex.json	/^"gamma": {$/;"	o	object:Align numbered
+gamma	tex.json	/^"gamma": {$/;"	o
 gamma	text.json	/^"gamma": {$/;"	o
-greater equal	tex.json	/^"greater equal": {$/;"	o	object:Align numbered
+greater equal	tex.json	/^"greater equal": {$/;"	o
 hook right arrow	html.json	/^"hook right arrow": {$/;"	o
 hook right arrow	latexold.json	/^"hook right arrow": {$/;"	o
-hook right arrow	tex.json	/^"hook right arrow": {$/;"	o	object:Align numbered
+hook right arrow	tex.json	/^"hook right arrow": {$/;"	o
 hook right arrow	text.json	/^"hook right arrow": {$/;"	o
-ie	tex.json	/^"ie": {$/;"	o	object:Align numbered
+ie	tex.json	/^"ie": {$/;"	o
 image	tex.json	/^   "image": {$/;"	o
 in	html.json	/^"in": {$/;"	o
 in	latexold.json	/^"in": {$/;"	o
-in	tex.json	/^"in": {$/;"	o	object:Align numbered
+in	tex.json	/^"in": {$/;"	o
 in	text.json	/^"in": {$/;"	o
 infinity	html.json	/^"infinity": {$/;"	o
 infinity	latexold.json	/^"infinity": {$/;"	o
-infinity	tex.json	/^"infinity": {$/;"	o	object:Align numbered
+infinity	tex.json	/^"infinity": {$/;"	o
 infinity	text.json	/^"infinity": {$/;"	o
 intersection cap	html.json	/^"intersection cap": {$/;"	o
 intersection cap	latexold.json	/^"intersection cap": {$/;"	o
-intersection cap	tex.json	/^"intersection cap": {$/;"	o	object:Align numbered
+intersection cap	tex.json	/^"intersection cap": {$/;"	o
 intersection cap	text.json	/^"intersection cap": {$/;"	o
 isomorphic	html.json	/^"isomorphic": {$/;"	o
 isomorphic	latexold.json	/^"isomorphic": {$/;"	o
-isomorphic	tex.json	/^"isomorphic": {$/;"	o	object:Align numbered
+isomorphic	tex.json	/^"isomorphic": {$/;"	o
 isomorphic	text.json	/^"isomorphic": {$/;"	o
 item	html.json	/^"item": {$/;"	o
 item	latexold.json	/^"item": {$/;"	o
-item	tex.json	/^"item": {$/;"	o	object:Align numbered
+item	tex.json	/^"item": {$/;"	o
 item	text.json	/^"item": {$/;"	o
 leader	vim.json	/^"leader": {$/;"	o
 lemma	html.json	/^ "lemma": {$/;"	o
 lemma	latexold.json	/^ "lemma": {$/;"	o
-lemma	tex.json	/^ "lemma": {$/;"	o	object:Align numbered
+lemma	tex.json	/^ "lemma": {$/;"	o
 lemma	text.json	/^ "lemma": {$/;"	o
-less equal	tex.json	/^"less equal": {$/;"	o	object:Align numbered
-logical and	tex.json	/^"logical and": {$/;"	o	object:Align numbered
+less equal	tex.json	/^"less equal": {$/;"	o
+logical and	tex.json	/^"logical and": {$/;"	o
 mapsto	html.json	/^"mapsto": {$/;"	o
 mapsto	latexold.json	/^"mapsto": {$/;"	o
-mapsto	tex.json	/^"mapsto": {$/;"	o	object:Align numbered
+mapsto	tex.json	/^"mapsto": {$/;"	o
 mapsto	texback.json	/^"mapsto": {$/;"	o
 mapsto	text.json	/^"mapsto": {$/;"	o
 mathfrak	html.json	/^"mathfrak": {$/;"	o
 mathfrak	latexold.json	/^"mathfrak": {$/;"	o
-mathfrak	tex.json	/^"mathfrak": {$/;"	o	object:Align numbered
+mathfrak	tex.json	/^"mathfrak": {$/;"	o
 mathfrak	text.json	/^"mathfrak": {$/;"	o
 mathfrak g	html.json	/^"mathfrak g": {$/;"	o
 mathfrak g	latexold.json	/^"mathfrak g": {$/;"	o
-mathfrak g	tex.json	/^"mathfrak g": {$/;"	o	object:Align numbered
+mathfrak g	tex.json	/^"mathfrak g": {$/;"	o
 mathfrak g	text.json	/^"mathfrak g": {$/;"	o
 nabla	html.json	/^"nabla": {$/;"	o
 nabla	latexold.json	/^"nabla": {$/;"	o
-nabla	tex.json	/^"nabla": {$/;"	o	object:Align numbered
+nabla	tex.json	/^"nabla": {$/;"	o
 nabla	text.json	/^"nabla": {$/;"	o
 ni	html.json	/^"ni": {$/;"	o
 ni	latexold.json	/^"ni": {$/;"	o
 ni	tex.json	/^"ni": {$/;"	o
 ni	text.json	/^"ni": {$/;"	o
 norm	html.json	/^"norm": {$/;"	o
-norm	tex.json	/^"norm": {$/;"	o	object:Align numbered
+norm	tex.json	/^"norm": {$/;"	o
 norm	text.json	/^"norm": {$/;"	o
 not equal	html.json	/^"not equal": {$/;"	o
 not equal	latexold.json	/^"not equal": {$/;"	o
-not equal	tex.json	/^"not equal": {$/;"	o	object:Align numbered
+not equal	tex.json	/^"not equal": {$/;"	o
 not equal	text.json	/^"not equal": {$/;"	o
 not in	html.json	/^"not in": {$/;"	o
 not in	latexold.json	/^"not in": {$/;"	o
-not in	tex.json	/^"not in": {$/;"	o	object:Align numbered
+not in	tex.json	/^"not in": {$/;"	o
 not in	text.json	/^"not in": {$/;"	o
 notation	html.json	/^ "notation":{$/;"	o
 notation	latexold.json	/^ "notation":{$/;"	o
-notation	tex.json	/^ "notation":{$/;"	o	object:Align numbered
+notation	tex.json	/^ "notation":{$/;"	o
 notation	text.json	/^ "notation":{$/;"	o
 omega	html.json	/^"omega": {$/;"	o
 omega	latexold.json	/^"omega": {$/;"	o
-omega	tex.json	/^"omega": {$/;"	o	object:Align numbered
+omega	tex.json	/^"omega": {$/;"	o
 omega	text.json	/^"omega": {$/;"	o
 open bracket	html.json	/^"open bracket": {$/;"	o
 open bracket	latexold.json	/^"open bracket": {$/;"	o
-open bracket	tex.json	/^"open bracket": {$/;"	o	object:Align numbered
+open bracket	tex.json	/^"open bracket": {$/;"	o
 open bracket	text.json	/^"open bracket": {$/;"	o
-over R	tex.json	/^"over R": {$/;"	o	object:Align numbered
-overline	tex.json	/^"overline": {$/;"	o	object:Align numbered
+over R	tex.json	/^"over R": {$/;"	o
+overline	tex.json	/^"overline": {$/;"	o
 partial	html.json	/^"partial": {$/;"	o
 partial	latexold.json	/^"partial": {$/;"	o
-partial	tex.json	/^"partial": {$/;"	o	object:Align numbered
+partial	tex.json	/^"partial": {$/;"	o
 partial	text.json	/^"partial": {$/;"	o
 phi	html.json	/^"phi": {$/;"	o
-phi	tex.json	/^"phi": {$/;"	o	object:Align numbered
+phi	tex.json	/^"phi": {$/;"	o
 phi	text.json	/^"phi": {$/;"	o
-pi	tex.json	/^"pi": {$/;"	o	object:Align numbered
+pi	tex.json	/^"pi": {$/;"	o
 plus minus	tex.json	/^"plus minus": {$/;"	o
 pm	text.json	/^"pm": {$/;"	o
 prefix	html.json	/^        "prefix": ["bi"],$/;"	a	object:Bold Italic Text
@@ -4020,176 +4021,176 @@ prefix	latexold.json	/^    "prefix": ["s"],$/;"	a	object:sigma
 prefix	latexold.json	/^    "prefix": ["seq"],$/;"	a	object:isomorphic
 prefix	latexold.json	/^    "prefix": ["uc"],$/;"	a	object:union cup
 prefix	latexold.json	/^    "prefix": ["wt"],$/;"	a	object:wide tilda
-prefix	tex.json	/^        "prefix": ["bi"],$/;"	a	object:Align numbered.Bold Italic Text
-prefix	tex.json	/^        "prefix": ["bigsum", "\\\\sumlarge"],$/;"	a	object:Align numbered.Large Summation
-prefix	tex.json	/^        "prefix": ["bold", "\\\\bold", "**"],$/;"	a	object:Align numbered.Bold Text
-prefix	tex.json	/^        "prefix": ["def", "\\\\definition"],$/;"	a	object:Align numbered.Definition
-prefix	tex.json	/^        "prefix": ["fr", "frac"],$/;"	a	object:Align numbered.Inline Fraction
-prefix	tex.json	/^        "prefix": ["integralinline", "\\\\integralinline"],$/;"	a	object:Align numbered.Inline Integral
-prefix	tex.json	/^        "prefix": ["integrallarge", "\\\\integrallarge"],$/;"	a	object:Align numbered.Large Integral
-prefix	tex.json	/^        "prefix": ["it"],$/;"	a	object:Align numbered.item
-prefix	tex.json	/^        "prefix": ["italic", "\\\\italic", "*"], $/;"	a	object:Align numbered.Italic Text
-prefix	tex.json	/^        "prefix": ["itemize", "\\\\itemize", "itemize"],$/;"	a	object:Align numbered.Itemize
-prefix	tex.json	/^        "prefix": ["problem", "\\\\problem"],$/;"	a	object:Align numbered.Problem
-prefix	tex.json	/^        "prefix": ["sum", "\\\\suminline"],$/;"	a	object:Align numbered.Inline Summation
-prefix	tex.json	/^        "prefix": ["template"],$/;"	a	object:Align numbered.Template
+prefix	tex.json	/^        "prefix": ["bi"],$/;"	a	object:Bold Italic Text
+prefix	tex.json	/^        "prefix": ["bigsum", "\\\\sumlarge"],$/;"	a	object:Large Summation
+prefix	tex.json	/^        "prefix": ["bold", "\\\\bold", "**"],$/;"	a	object:Bold Text
+prefix	tex.json	/^        "prefix": ["def", "\\\\definition"],$/;"	a	object:Definition
+prefix	tex.json	/^        "prefix": ["fr", "frac"],$/;"	a	object:Inline Fraction
+prefix	tex.json	/^        "prefix": ["integralinline", "\\\\integralinline"],$/;"	a	object:Inline Integral
+prefix	tex.json	/^        "prefix": ["integrallarge", "\\\\integrallarge"],$/;"	a	object:Large Integral
+prefix	tex.json	/^        "prefix": ["it"],$/;"	a	object:item
+prefix	tex.json	/^        "prefix": ["italic", "\\\\italic", "*"], $/;"	a	object:Italic Text
+prefix	tex.json	/^        "prefix": ["itemize", "\\\\itemize", "itemize"],$/;"	a	object:Itemize
+prefix	tex.json	/^        "prefix": ["problem", "\\\\problem"],$/;"	a	object:Problem
+prefix	tex.json	/^        "prefix": ["sum", "\\\\suminline"],$/;"	a	object:Inline Summation
+prefix	tex.json	/^        "prefix": ["template"],$/;"	a	object:Template
 prefix	tex.json	/^    "prefix": ".",$/;"	s	object:three dots
 prefix	tex.json	/^    "prefix": "Gbun",$/;"	s	object:G-bundle
 prefix	tex.json	/^    "prefix": "NF",$/;"	s	object:NFuk
 prefix	tex.json	/^    "prefix": "\\"",$/;"	s	object:quotes
-prefix	tex.json	/^    "prefix": "and",$/;"	s	object:Align numbered.and
+prefix	tex.json	/^    "prefix": "and",$/;"	s	object:and
 prefix	tex.json	/^    "prefix": "bar",$/;"	s	object:bar
-prefix	tex.json	/^    "prefix": "bars",$/;"	s	object:Align numbered.bars
-prefix	tex.json	/^    "prefix": "bf",$/;"	s	object:Align numbered.bold
+prefix	tex.json	/^    "prefix": "bars",$/;"	s	object:bars
+prefix	tex.json	/^    "prefix": "bf",$/;"	s	object:bold
 prefix	tex.json	/^    "prefix": "bham",$/;"	s	object:BHam
 prefix	tex.json	/^    "prefix": "bpm",$/;"	s	object:bracket plus minus
-prefix	tex.json	/^    "prefix": "br",$/;"	s	object:Align numbered.set bracket
-prefix	tex.json	/^    "prefix": "c",$/;"	s	object:Align numbered.composition
-prefix	tex.json	/^    "prefix": "cal",$/;"	s	object:Align numbered.caligraphic
-prefix	tex.json	/^    "prefix": "cases",$/;"	s	object:Align numbered.Cases
+prefix	tex.json	/^    "prefix": "br",$/;"	s	object:set bracket
+prefix	tex.json	/^    "prefix": "c",$/;"	s	object:composition
+prefix	tex.json	/^    "prefix": "cal",$/;"	s	object:caligraphic
+prefix	tex.json	/^    "prefix": "cases",$/;"	s	object:Cases
 prefix	tex.json	/^    "prefix": "cd",$/;"	s	object:cdot
-prefix	tex.json	/^    "prefix": "cf",$/;"	s	object:Align numbered.cf
-prefix	tex.json	/^    "prefix": "cha",$/;"	s	object:Align numbered.Chapter
-prefix	tex.json	/^    "prefix": "cite",$/;"	s	object:Align numbered.Cite
+prefix	tex.json	/^    "prefix": "cf",$/;"	s	object:cf
+prefix	tex.json	/^    "prefix": "cha",$/;"	s	object:Chapter
+prefix	tex.json	/^    "prefix": "cite",$/;"	s	object:Cite
 prefix	tex.json	/^    "prefix": "color",$/;"	s	object:color
-prefix	tex.json	/^    "prefix": "com",$/;"	s	object:Align numbered.comment
-prefix	tex.json	/^    "prefix": "compactitem",$/;"	s	object:Align numbered.Compactitem
-prefix	tex.json	/^    "prefix": "corol",$/;"	s	object:Align numbered.Corollary
-prefix	tex.json	/^    "prefix": "desc",$/;"	s	object:Align numbered.Description
-prefix	tex.json	/^    "prefix": "dual",$/;"	s	object:Align numbered.duality
-prefix	tex.json	/^    "prefix": "eg",$/;"	s	object:Align numbered.eg
+prefix	tex.json	/^    "prefix": "com",$/;"	s	object:comment
+prefix	tex.json	/^    "prefix": "compactitem",$/;"	s	object:Compactitem
+prefix	tex.json	/^    "prefix": "corol",$/;"	s	object:Corollary
+prefix	tex.json	/^    "prefix": "desc",$/;"	s	object:Description
+prefix	tex.json	/^    "prefix": "dual",$/;"	s	object:duality
+prefix	tex.json	/^    "prefix": "eg",$/;"	s	object:eg
 prefix	tex.json	/^    "prefix": "em",$/;"	s	object:emphasize
 prefix	tex.json	/^    "prefix": "embf",$/;"	s	object:emphasize bold
-prefix	tex.json	/^    "prefix": "empty",$/;"	s	object:Align numbered.EmptyPage
-prefix	tex.json	/^    "prefix": "end",$/;"	s	object:Align numbered.end
-prefix	tex.json	/^    "prefix": "enumerate",$/;"	s	object:Align numbered.Enumerate
-prefix	tex.json	/^    "prefix": "eq",$/;"	s	object:Align numbered.Equation
-prefix	tex.json	/^    "prefix": "eqnum",$/;"	s	object:Align numbered.EquationNumbered
-prefix	tex.json	/^    "prefix": "eqref",$/;"	s	object:Align numbered.equation reference
-prefix	tex.json	/^    "prefix": "example",$/;"	s	object:Align numbered.example
-prefix	tex.json	/^    "prefix": "f",$/;"	s	object:Align numbered.field
-prefix	tex.json	/^    "prefix": "fQ",$/;"	s	object:Align numbered.field Q
-prefix	tex.json	/^    "prefix": "fS",$/;"	s	object:Align numbered.field S
-prefix	tex.json	/^    "prefix": "figure",$/;"	s	object:Align numbered.Figure
-prefix	tex.json	/^    "prefix": "figure:acm",$/;"	s	object:Align numbered.Figure:ACM
-prefix	tex.json	/^    "prefix": "figure:acm:*",$/;"	s	object:Align numbered.Figure:ACM:*
+prefix	tex.json	/^    "prefix": "empty",$/;"	s	object:EmptyPage
+prefix	tex.json	/^    "prefix": "end",$/;"	s	object:end
+prefix	tex.json	/^    "prefix": "enumerate",$/;"	s	object:Enumerate
+prefix	tex.json	/^    "prefix": "eq",$/;"	s	object:Equation
+prefix	tex.json	/^    "prefix": "eqnum",$/;"	s	object:EquationNumbered
+prefix	tex.json	/^    "prefix": "eqref",$/;"	s	object:equation reference
+prefix	tex.json	/^    "prefix": "example",$/;"	s	object:example
+prefix	tex.json	/^    "prefix": "f",$/;"	s	object:field
+prefix	tex.json	/^    "prefix": "fQ",$/;"	s	object:field Q
+prefix	tex.json	/^    "prefix": "fS",$/;"	s	object:field S
+prefix	tex.json	/^    "prefix": "figure",$/;"	s	object:Figure
+prefix	tex.json	/^    "prefix": "figure:acm",$/;"	s	object:Figure:ACM
+prefix	tex.json	/^    "prefix": "figure:acm:*",$/;"	s	object:Figure:ACM:*
 prefix	tex.json	/^    "prefix": "fuk",$/;"	s	object:Fuk
-prefix	tex.json	/^    "prefix": "gat",$/;"	s	object:Align numbered.Gather(ed)
+prefix	tex.json	/^    "prefix": "gat",$/;"	s	object:Gather(ed)
 prefix	tex.json	/^    "prefix": "ham",$/;"	s	object:Ham
-prefix	tex.json	/^    "prefix": "hook",$/;"	s	object:Align numbered.hook right arrow
-prefix	tex.json	/^    "prefix": "ie",$/;"	s	object:Align numbered.ie
+prefix	tex.json	/^    "prefix": "hook",$/;"	s	object:hook right arrow
+prefix	tex.json	/^    "prefix": "ie",$/;"	s	object:ie
 prefix	tex.json	/^    "prefix": "im",$/;"	s	object:image
-prefix	tex.json	/^    "prefix": "label",$/;"	s	object:Align numbered.Label
-prefix	tex.json	/^    "prefix": "land",$/;"	s	object:Align numbered.logical and
-prefix	tex.json	/^    "prefix": "lemma",$/;"	s	object:Align numbered.lemma
-prefix	tex.json	/^    "prefix": "listing:ref",$/;"	s	object:Align numbered.Listing:Ref
-prefix	tex.json	/^    "prefix": "m",$/;"	s	object:Align numbered.Math
-prefix	tex.json	/^    "prefix": "mat",$/;"	s	object:Align numbered.Matrix
+prefix	tex.json	/^    "prefix": "label",$/;"	s	object:Label
+prefix	tex.json	/^    "prefix": "land",$/;"	s	object:logical and
+prefix	tex.json	/^    "prefix": "lemma",$/;"	s	object:lemma
+prefix	tex.json	/^    "prefix": "listing:ref",$/;"	s	object:Listing:Ref
+prefix	tex.json	/^    "prefix": "m",$/;"	s	object:Math
+prefix	tex.json	/^    "prefix": "mat",$/;"	s	object:Matrix
 prefix	tex.json	/^    "prefix": "ni",$/;"	s	object:ni
-prefix	tex.json	/^    "prefix": "norm",$/;"	s	object:Align numbered.norm
-prefix	tex.json	/^    "prefix": "notation",$/;"	s	object:Align numbered.notation
-prefix	tex.json	/^    "prefix": "ob",$/;"	s	object:Align numbered.open bracket
+prefix	tex.json	/^    "prefix": "norm",$/;"	s	object:norm
+prefix	tex.json	/^    "prefix": "notation",$/;"	s	object:notation
+prefix	tex.json	/^    "prefix": "ob",$/;"	s	object:open bracket
 prefix	tex.json	/^    "prefix": "ot",$/;"	s	object:tensor times
-prefix	tex.json	/^    "prefix": "par",$/;"	s	object:Align numbered.Paragraph
-prefix	tex.json	/^    "prefix": "pi",$/;"	s	object:Align numbered.pi
+prefix	tex.json	/^    "prefix": "par",$/;"	s	object:Paragraph
+prefix	tex.json	/^    "prefix": "pi",$/;"	s	object:pi
 prefix	tex.json	/^    "prefix": "pm",$/;"	s	object:plus minus
-prefix	tex.json	/^    "prefix": "proof",$/;"	s	object:Align numbered.Proof
-prefix	tex.json	/^    "prefix": "prop",$/;"	s	object:Align numbered.proposition
-prefix	tex.json	/^    "prefix": "question",$/;"	s	object:Align numbered.question
-prefix	tex.json	/^    "prefix": "r",$/;"	s	object:Align numbered.raise
-prefix	tex.json	/^    "prefix": "ref",$/;"	s	object:Align numbered.Reference
-prefix	tex.json	/^    "prefix": "remark",$/;"	s	object:Align numbered.remark
-prefix	tex.json	/^    "prefix": "sb",$/;"	s	object:Align numbered.square bracket
-prefix	tex.json	/^    "prefix": "sec",$/;"	s	object:Align numbered.Section
-prefix	tex.json	/^    "prefix": "spl",$/;"	s	object:Align numbered.Split
-prefix	tex.json	/^    "prefix": "st",$/;"	s	object:Align numbered.st
+prefix	tex.json	/^    "prefix": "proof",$/;"	s	object:Proof
+prefix	tex.json	/^    "prefix": "prop",$/;"	s	object:proposition
+prefix	tex.json	/^    "prefix": "question",$/;"	s	object:question
+prefix	tex.json	/^    "prefix": "r",$/;"	s	object:raise
+prefix	tex.json	/^    "prefix": "ref",$/;"	s	object:Reference
+prefix	tex.json	/^    "prefix": "remark",$/;"	s	object:remark
+prefix	tex.json	/^    "prefix": "sb",$/;"	s	object:square bracket
+prefix	tex.json	/^    "prefix": "sec",$/;"	s	object:Section
+prefix	tex.json	/^    "prefix": "spl",$/;"	s	object:Split
+prefix	tex.json	/^    "prefix": "st",$/;"	s	object:st
 prefix	tex.json	/^    "prefix": "sub",$/;"	s	object:subset
-prefix	tex.json	/^    "prefix": "subsec",$/;"	s	object:Align numbered.Sub Section
-prefix	tex.json	/^    "prefix": "subsubs",$/;"	s	object:Align numbered.Sub Sub Section
+prefix	tex.json	/^    "prefix": "subsec",$/;"	s	object:Sub Section
+prefix	tex.json	/^    "prefix": "subsubs",$/;"	s	object:Sub Sub Section
 prefix	tex.json	/^    "prefix": "sups",$/;"	s	object:super set
 prefix	tex.json	/^    "prefix": "t",$/;"	s	object:times
-prefix	tex.json	/^    "prefix": "tab",$/;"	s	object:Align numbered.Tabular
-prefix	tex.json	/^    "prefix": "table",$/;"	s	object:Align numbered.Table
-prefix	tex.json	/^    "prefix": "table:acm",$/;"	s	object:Align numbered.Table:ACM
-prefix	tex.json	/^    "prefix": "table:acm:*",$/;"	s	object:Align numbered.Table:ACM:*
-prefix	tex.json	/^    "prefix": "table:ref",$/;"	s	object:Align numbered.Table:Ref
+prefix	tex.json	/^    "prefix": "tab",$/;"	s	object:Tabular
+prefix	tex.json	/^    "prefix": "table",$/;"	s	object:Table
+prefix	tex.json	/^    "prefix": "table:acm",$/;"	s	object:Table:ACM
+prefix	tex.json	/^    "prefix": "table:acm:*",$/;"	s	object:Table:ACM:*
+prefix	tex.json	/^    "prefix": "table:ref",$/;"	s	object:Table:Ref
 prefix	tex.json	/^    "prefix": "text",$/;"	s	object:text
-prefix	tex.json	/^    "prefix": "thm",$/;"	s	object:Align numbered.Theorem
-prefix	tex.json	/^    "prefix": "tikz",$/;"	s	object:Align numbered.tikz
-prefix	tex.json	/^    "prefix": "to",$/;"	s	object:Align numbered.to
-prefix	tex.json	/^    "prefix": "u",$/;"	s	object:Align numbered.under
-prefix	tex.json	/^    "prefix": "v",$/;"	s	object:Align numbered.vee
-prefix	tex.json	/^    "prefix": "wb",$/;"	s	object:Align numbered.basic bracket
-prefix	tex.json	/^    "prefix": "xto",$/;"	s	object:Align numbered.xto
-prefix	tex.json	/^    "prefix": ["D"],$/;"	a	object:Align numbered.Delta
-prefix	tex.json	/^    "prefix": ["Dd"],$/;"	a	object:Align numbered.Delta d-simplex
-prefix	tex.json	/^    "prefix": ["Ddb"],$/;"	a	object:Align numbered.Delta d-simplex bullet
-prefix	tex.json	/^    "prefix": ["G"],$/;"	a	object:Align numbered.Gamma
-prefix	tex.json	/^    "prefix": ["L"],$/;"	a	object:Align numbered.Lambda
-prefix	tex.json	/^    "prefix": ["S"],$/;"	a	object:Align numbered.Sigma
-prefix	tex.json	/^    "prefix": ["Th", "\\\\Th"],$/;"	a	object:Align numbered.Theta
-prefix	tex.json	/^    "prefix": ["ali", "aligned"],$/;"	a	object:Align numbered.Align(ed)
+prefix	tex.json	/^    "prefix": "thm",$/;"	s	object:Theorem
+prefix	tex.json	/^    "prefix": "tikz",$/;"	s	object:tikz
+prefix	tex.json	/^    "prefix": "to",$/;"	s	object:to
+prefix	tex.json	/^    "prefix": "u",$/;"	s	object:under
+prefix	tex.json	/^    "prefix": "v",$/;"	s	object:vee
+prefix	tex.json	/^    "prefix": "wb",$/;"	s	object:basic bracket
+prefix	tex.json	/^    "prefix": "xto",$/;"	s	object:xto
+prefix	tex.json	/^    "prefix": ["D"],$/;"	a	object:Delta
+prefix	tex.json	/^    "prefix": ["Dd"],$/;"	a	object:Delta d-simplex
+prefix	tex.json	/^    "prefix": ["Ddb"],$/;"	a	object:Delta d-simplex bullet
+prefix	tex.json	/^    "prefix": ["G"],$/;"	a	object:Gamma
+prefix	tex.json	/^    "prefix": ["L"],$/;"	a	object:Lambda
+prefix	tex.json	/^    "prefix": ["S"],$/;"	a	object:Sigma
+prefix	tex.json	/^    "prefix": ["Th", "\\\\Th"],$/;"	a	object:Theta
+prefix	tex.json	/^    "prefix": ["ali", "aligned"],$/;"	a	object:Align(ed)
 prefix	tex.json	/^    "prefix": ["alin", "alignedn"],$/;"	a	object:Align numbered
-prefix	tex.json	/^    "prefix": ["b", "begin"],$/;"	a	object:Align numbered.\\\\begin{}…\\\\end{}
-prefix	tex.json	/^    "prefix": ["bic"],$/;"	a	object:Align numbered.big intersection cap
-prefix	tex.json	/^    "prefix": ["buc"],$/;"	a	object:Align numbered.big cup
-prefix	tex.json	/^    "prefix": ["bul"],$/;"	a	object:Align numbered.bullet
-prefix	tex.json	/^    "prefix": ["cA"],$/;"	a	object:Align numbered.caligraphic A
-prefix	tex.json	/^    "prefix": ["cB"],$/;"	a	object:Align numbered.caligraphic B
-prefix	tex.json	/^    "prefix": ["cC"],$/;"	a	object:Align numbered.caligraphic C
-prefix	tex.json	/^    "prefix": ["cD"],$/;"	a	object:Align numbered.caligraphic D
-prefix	tex.json	/^    "prefix": ["cF"],$/;"	a	object:Align numbered.caligraphic F
-prefix	tex.json	/^    "prefix": ["cG"],$/;"	a	object:Align numbered.caligraphic G
-prefix	tex.json	/^    "prefix": ["cH"],$/;"	a	object:Align numbered.caligraphic H
-prefix	tex.json	/^    "prefix": ["cI"],$/;"	a	object:Align numbered.caligraphic I
-prefix	tex.json	/^    "prefix": ["cL"],$/;"	a	object:Align numbered.caligraphic L
-prefix	tex.json	/^    "prefix": ["cN"],$/;"	a	object:Align numbered.caligraphic N
-prefix	tex.json	/^    "prefix": ["cO"],$/;"	a	object:Align numbered.caligraphic O
-prefix	tex.json	/^    "prefix": ["cP"],$/;"	a	object:Align numbered.caligraphic P
-prefix	tex.json	/^    "prefix": ["cQ"],$/;"	a	object:Align numbered.caligraphic Q
-prefix	tex.json	/^    "prefix": ["cR"],$/;"	a	object:Align numbered.caligraphic R
-prefix	tex.json	/^    "prefix": ["cS"],$/;"	a	object:Align numbered.caligraphic S
-prefix	tex.json	/^    "prefix": ["cT"],$/;"	a	object:Align numbered.caligraphic T
-prefix	tex.json	/^    "prefix": ["cU"],$/;"	a	object:Align numbered.caligraphic U
-prefix	tex.json	/^    "prefix": ["cX"],$/;"	a	object:Align numbered.caligraphic X
-prefix	tex.json	/^    "prefix": ["cY"],$/;"	a	object:Align numbered.caligraphic Y
-prefix	tex.json	/^    "prefix": ["cp"],$/;"	a	object:Align numbered.field CP
-prefix	tex.json	/^    "prefix": ["d", "\\\\d"],$/;"	a	object:Align numbered.delta
-prefix	tex.json	/^    "prefix": ["db"],$/;"	a	object:Align numbered.defined by
-prefix	tex.json	/^    "prefix": ["df"],$/;"	a	object:Align numbered.definition
-prefix	tex.json	/^    "prefix": ["eps"],$/;"	a	object:Align numbered.epsilon
-prefix	tex.json	/^    "prefix": ["eql"],$/;"	a	object:Align numbered.equal
-prefix	tex.json	/^    "prefix": ["ex"],$/;"	a	object:Align numbered.exists
-prefix	tex.json	/^    "prefix": ["fN"],$/;"	a	object:Align numbered.field N
-prefix	tex.json	/^    "prefix": ["fR"],$/;"	a	object:Align numbered.field R
-prefix	tex.json	/^    "prefix": ["fZ"],$/;"	a	object:Align numbered.field integers
-prefix	tex.json	/^    "prefix": ["fa"],$/;"	a	object:Align numbered.for all
-prefix	tex.json	/^    "prefix": ["fc"],$/;"	a	object:Align numbered.field C
-prefix	tex.json	/^    "prefix": ["fk"],$/;"	a	object:Align numbered.field K
-prefix	tex.json	/^    "prefix": ["frak"],$/;"	a	object:Align numbered.mathfrak
-prefix	tex.json	/^    "prefix": ["frg"],$/;"	a	object:Align numbered.mathfrak g
-prefix	tex.json	/^    "prefix": ["g"],$/;"	a	object:Align numbered.gamma
-prefix	tex.json	/^    "prefix": ["geq"],$/;"	a	object:Align numbered.greater equal
-prefix	tex.json	/^    "prefix": ["ic"],$/;"	a	object:Align numbered.intersection cap
-prefix	tex.json	/^    "prefix": ["in"],$/;"	a	object:Align numbered.in
-prefix	tex.json	/^    "prefix": ["infi"],$/;"	a	object:Align numbered.infinity
-prefix	tex.json	/^    "prefix": ["isom", "seq"],$/;"	a	object:Align numbered.isomorphic
-prefix	tex.json	/^    "prefix": ["leq"],$/;"	a	object:Align numbered.less equal
-prefix	tex.json	/^    "prefix": ["mto", "mapsto", "maps"],$/;"	a	object:Align numbered.mapsto
-prefix	tex.json	/^    "prefix": ["nabla"],$/;"	a	object:Align numbered.nabla
-prefix	tex.json	/^    "prefix": ["neq"],$/;"	a	object:Align numbered.not equal
-prefix	tex.json	/^    "prefix": ["nin"],$/;"	a	object:Align numbered.not in
-prefix	tex.json	/^    "prefix": ["o", "\\\\o"],$/;"	a	object:Align numbered.omega
-prefix	tex.json	/^    "prefix": ["oR"],$/;"	a	object:Align numbered.over R
-prefix	tex.json	/^    "prefix": ["over"],$/;"	a	object:Align numbered.overline
-prefix	tex.json	/^    "prefix": ["p", "\\\\p"],$/;"	a	object:Align numbered.partial
-prefix	tex.json	/^    "prefix": ["phi"],$/;"	a	object:Align numbered.phi
-prefix	tex.json	/^    "prefix": ["prod"],$/;"	a	object:Align numbered.product
-prefix	tex.json	/^    "prefix": ["rho", "\\\\e"],$/;"	a	object:Align numbered.rho
-prefix	tex.json	/^    "prefix": ["s"],$/;"	a	object:Align numbered.sigma
-prefix	tex.json	/^    "prefix": ["uc"],$/;"	a	object:Align numbered.union cup
-prefix	tex.json	/^    "prefix": ["vdash", "proves", "pr"],$/;"	a	object:Align numbered.proves
-prefix	tex.json	/^    "prefix": ["wt"],$/;"	a	object:Align numbered.wide tilda
+prefix	tex.json	/^    "prefix": ["b", "begin"],$/;"	a	object:\\\\begin{}…\\\\end{}
+prefix	tex.json	/^    "prefix": ["bic"],$/;"	a	object:big intersection cap
+prefix	tex.json	/^    "prefix": ["buc"],$/;"	a	object:big cup
+prefix	tex.json	/^    "prefix": ["bul"],$/;"	a	object:bullet
+prefix	tex.json	/^    "prefix": ["cA"],$/;"	a	object:caligraphic A
+prefix	tex.json	/^    "prefix": ["cB"],$/;"	a	object:caligraphic B
+prefix	tex.json	/^    "prefix": ["cC"],$/;"	a	object:caligraphic C
+prefix	tex.json	/^    "prefix": ["cD"],$/;"	a	object:caligraphic D
+prefix	tex.json	/^    "prefix": ["cF"],$/;"	a	object:caligraphic F
+prefix	tex.json	/^    "prefix": ["cG"],$/;"	a	object:caligraphic G
+prefix	tex.json	/^    "prefix": ["cH"],$/;"	a	object:caligraphic H
+prefix	tex.json	/^    "prefix": ["cI"],$/;"	a	object:caligraphic I
+prefix	tex.json	/^    "prefix": ["cL"],$/;"	a	object:caligraphic L
+prefix	tex.json	/^    "prefix": ["cN"],$/;"	a	object:caligraphic N
+prefix	tex.json	/^    "prefix": ["cO"],$/;"	a	object:caligraphic O
+prefix	tex.json	/^    "prefix": ["cP"],$/;"	a	object:caligraphic P
+prefix	tex.json	/^    "prefix": ["cQ"],$/;"	a	object:caligraphic Q
+prefix	tex.json	/^    "prefix": ["cR"],$/;"	a	object:caligraphic R
+prefix	tex.json	/^    "prefix": ["cS"],$/;"	a	object:caligraphic S
+prefix	tex.json	/^    "prefix": ["cT"],$/;"	a	object:caligraphic T
+prefix	tex.json	/^    "prefix": ["cU"],$/;"	a	object:caligraphic U
+prefix	tex.json	/^    "prefix": ["cX"],$/;"	a	object:caligraphic X
+prefix	tex.json	/^    "prefix": ["cY"],$/;"	a	object:caligraphic Y
+prefix	tex.json	/^    "prefix": ["cp"],$/;"	a	object:field CP
+prefix	tex.json	/^    "prefix": ["d", "\\\\d"],$/;"	a	object:delta
+prefix	tex.json	/^    "prefix": ["db"],$/;"	a	object:defined by
+prefix	tex.json	/^    "prefix": ["df"],$/;"	a	object:definition
+prefix	tex.json	/^    "prefix": ["eps"],$/;"	a	object:epsilon
+prefix	tex.json	/^    "prefix": ["eql"],$/;"	a	object:equal
+prefix	tex.json	/^    "prefix": ["ex"],$/;"	a	object:exists
+prefix	tex.json	/^    "prefix": ["fN"],$/;"	a	object:field N
+prefix	tex.json	/^    "prefix": ["fR"],$/;"	a	object:field R
+prefix	tex.json	/^    "prefix": ["fZ"],$/;"	a	object:field integers
+prefix	tex.json	/^    "prefix": ["fa"],$/;"	a	object:for all
+prefix	tex.json	/^    "prefix": ["fc"],$/;"	a	object:field C
+prefix	tex.json	/^    "prefix": ["fk"],$/;"	a	object:field K
+prefix	tex.json	/^    "prefix": ["frak"],$/;"	a	object:mathfrak
+prefix	tex.json	/^    "prefix": ["frg"],$/;"	a	object:mathfrak g
+prefix	tex.json	/^    "prefix": ["g"],$/;"	a	object:gamma
+prefix	tex.json	/^    "prefix": ["geq"],$/;"	a	object:greater equal
+prefix	tex.json	/^    "prefix": ["ic"],$/;"	a	object:intersection cap
+prefix	tex.json	/^    "prefix": ["in"],$/;"	a	object:in
+prefix	tex.json	/^    "prefix": ["infi"],$/;"	a	object:infinity
+prefix	tex.json	/^    "prefix": ["isom", "seq"],$/;"	a	object:isomorphic
+prefix	tex.json	/^    "prefix": ["leq"],$/;"	a	object:less equal
+prefix	tex.json	/^    "prefix": ["mto", "mapsto", "maps"],$/;"	a	object:mapsto
+prefix	tex.json	/^    "prefix": ["nabla"],$/;"	a	object:nabla
+prefix	tex.json	/^    "prefix": ["neq"],$/;"	a	object:not equal
+prefix	tex.json	/^    "prefix": ["nin"],$/;"	a	object:not in
+prefix	tex.json	/^    "prefix": ["o", "\\\\o"],$/;"	a	object:omega
+prefix	tex.json	/^    "prefix": ["oR"],$/;"	a	object:over R
+prefix	tex.json	/^    "prefix": ["over"],$/;"	a	object:overline
+prefix	tex.json	/^    "prefix": ["p", "\\\\p"],$/;"	a	object:partial
+prefix	tex.json	/^    "prefix": ["phi"],$/;"	a	object:phi
+prefix	tex.json	/^    "prefix": ["prod"],$/;"	a	object:product
+prefix	tex.json	/^    "prefix": ["rho", "\\\\e"],$/;"	a	object:rho
+prefix	tex.json	/^    "prefix": ["s"],$/;"	a	object:sigma
+prefix	tex.json	/^    "prefix": ["uc"],$/;"	a	object:union cup
+prefix	tex.json	/^    "prefix": ["vdash", "proves", "pr"],$/;"	a	object:proves
+prefix	tex.json	/^    "prefix": ["wt"],$/;"	a	object:wide tilda
 prefix	texback.json	/^        "prefix": ["- ", "\\\\itemize", "itemize"],$/;"	a	object:Itemize
 prefix	texback.json	/^        "prefix": ["aligntext", "\\\\aligntext"],$/;"	a	object:Create Align* Environment in Text
 prefix	texback.json	/^        "prefix": ["bold", "\\\\bold", "**"],$/;"	a	object:Bold Text
@@ -4416,47 +4417,47 @@ prefix	vim.json	/^    "prefix": "cr",$/;"	s	object:cr
 prefix	vim.json	/^    "prefix": "eof",$/;"	s	object:EOF
 prefix	vim.json	/^    "prefix": "lead",$/;"	s	object:leader
 product	html.json	/^"product": {$/;"	o
-product	tex.json	/^"product": {$/;"	o	object:Align numbered
+product	tex.json	/^"product": {$/;"	o
 product	text.json	/^"product": {$/;"	o
 proposition	html.json	/^ "proposition": {$/;"	o
 proposition	latexold.json	/^ "proposition": {$/;"	o
-proposition	tex.json	/^ "proposition": {$/;"	o	object:Align numbered
+proposition	tex.json	/^ "proposition": {$/;"	o
 proposition	text.json	/^ "proposition": {$/;"	o
-proves	tex.json	/^"proves": {$/;"	o	object:Align numbered
-question	tex.json	/^"question": {$/;"	o	object:Align numbered
+proves	tex.json	/^"proves": {$/;"	o
+question	tex.json	/^"question": {$/;"	o
 quotes	html.json	/^"quotes": {$/;"	o
 quotes	latexold.json	/^"quotes": {$/;"	o
 quotes	tex.json	/^"quotes": {$/;"	o
 quotes	text.json	/^"quotes": {$/;"	o
 raise	html.json	/^"raise": {$/;"	o
 raise	latexold.json	/^"raise": {$/;"	o
-raise	tex.json	/^"raise": {$/;"	o	object:Align numbered
+raise	tex.json	/^"raise": {$/;"	o
 raise	texback.json	/^"raise": {$/;"	o
 raise	text.json	/^"raise": {$/;"	o
 remark	html.json	/^"remark": {$/;"	o
 remark	latexold.json	/^"remark": {$/;"	o
-remark	tex.json	/^"remark": {$/;"	o	object:Align numbered
+remark	tex.json	/^"remark": {$/;"	o
 remark	text.json	/^"remark": {$/;"	o
 rho	html.json	/^"rho": {$/;"	o
 rho	latexold.json	/^"rho": {$/;"	o
-rho	tex.json	/^"rho": {$/;"	o	object:Align numbered
+rho	tex.json	/^"rho": {$/;"	o
 rho	text.json	/^"rho": {$/;"	o
 set bracket	html.json	/^"set bracket": {$/;"	o
 set bracket	latexold.json	/^"set bracket": {$/;"	o
-set bracket	tex.json	/^"set bracket": {$/;"	o	object:Align numbered
+set bracket	tex.json	/^"set bracket": {$/;"	o
 set bracket	text.json	/^"set bracket": {$/;"	o
 sigma	html.json	/^"sigma": {$/;"	o
 sigma	latexold.json	/^"sigma": {$/;"	o
-sigma	tex.json	/^"sigma": {$/;"	o	object:Align numbered
+sigma	tex.json	/^"sigma": {$/;"	o
 sigma	texback.json	/^"sigma": {$/;"	o
 sigma	text.json	/^"sigma": {$/;"	o
 square bracket	html.json	/^"square bracket": {$/;"	o
 square bracket	latexold.json	/^"square bracket": {$/;"	o
-square bracket	tex.json	/^"square bracket": {$/;"	o	object:Align numbered
+square bracket	tex.json	/^"square bracket": {$/;"	o
 square bracket	text.json	/^"square bracket": {$/;"	o
 st	html.json	/^"st": {$/;"	o
 st	latexold.json	/^"st": {$/;"	o
-st	tex.json	/^"st": {$/;"	o	object:Align numbered
+st	tex.json	/^"st": {$/;"	o
 st	texback.json	/^"st": {$/;"	o
 st	text.json	/^"st": {$/;"	o
 subset	html.json	/^"subset": {$/;"	o
@@ -4478,7 +4479,7 @@ three dots	tex.json	/^"three dots": {$/;"	o
 three dots	text.json	/^"three dots": {$/;"	o
 tikz	html.json	/^  "tikz": {$/;"	o
 tikz	latexold.json	/^  "tikz": {$/;"	o
-tikz	tex.json	/^  "tikz": {$/;"	o	object:Align numbered
+tikz	tex.json	/^  "tikz": {$/;"	o
 tikz	text.json	/^  "tikz": {$/;"	o
 times	html.json	/^"times": {$/;"	o
 times	latexold.json	/^"times": {$/;"	o
@@ -4486,24 +4487,24 @@ times	tex.json	/^"times": {$/;"	o
 times	text.json	/^"times": {$/;"	o
 to	html.json	/^"to": {$/;"	o
 to	latexold.json	/^"to": {$/;"	o
-to	tex.json	/^"to": {$/;"	o	object:Align numbered
+to	tex.json	/^"to": {$/;"	o
 to	text.json	/^"to": {$/;"	o
 under	html.json	/^"under": {$/;"	o
 under	latexold.json	/^"under": {$/;"	o
-under	tex.json	/^"under": {$/;"	o	object:Align numbered
+under	tex.json	/^"under": {$/;"	o
 under	texback.json	/^"under": {$/;"	o
 under	text.json	/^"under": {$/;"	o
 union cup	html.json	/^"union cup": {$/;"	o
 union cup	latexold.json	/^"union cup": {$/;"	o
-union cup	tex.json	/^"union cup": {$/;"	o	object:Align numbered
+union cup	tex.json	/^"union cup": {$/;"	o
 union cup	text.json	/^"union cup": {$/;"	o
-vee	tex.json	/^ "vee": {$/;"	o	object:Align numbered
+vee	tex.json	/^ "vee": {$/;"	o
 wide tilda	html.json	/^"wide tilda": {$/;"	o
 wide tilda	latexold.json	/^"wide tilda": {$/;"	o
-wide tilda	tex.json	/^"wide tilda": {$/;"	o	object:Align numbered
+wide tilda	tex.json	/^"wide tilda": {$/;"	o
 wide tilda	text.json	/^"wide tilda": {$/;"	o
 xto	html.json	/^"xto": {$/;"	o
 xto	latexold.json	/^"xto": {$/;"	o
-xto	tex.json	/^"xto": {$/;"	o	object:Align numbered
+xto	tex.json	/^"xto": {$/;"	o
 xto	texback.json	/^"xto": {$/;"	o
 xto	text.json	/^"xto": {$/;"	o
