@@ -609,7 +609,7 @@ noremap LL :lua require("zen-mode").close()<cr>:call Sentence()<cr>
 function GitAsync()
 let g:bufdude = bufname()
 silent te pwsh -c if ( (git rev-parse --is-inside-work-tree) -and (git rev-parse --git-dir) ) { git add . ; git commit -m -a; git push --all origin; ctags -R }
-execute "buffer" g:bufdude 
+execute "buffer" g:bufdude
 endfunction
   
 " " AsyncRun -silent if git rev-parse --is-inside-work-"tree 
