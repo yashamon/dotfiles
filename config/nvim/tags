@@ -15,7 +15,6 @@ $	init.vim	/^noremap $ \/\\$<CR>hv?\\$<CR>l$/;"	m
 0	init.vim	/^map 0 g^$/;"	m
 9	init.vim	/^map 9 g\$$/;"	m
 ;w	init.vim	/^noremap ;w <Esc>:w<CR>$/;"	m
-;ww	init.vim	/^nnoremap ;ww :%s\/$/;"	m
 <	init.vim	/^vnoremap < <gv$/;"	m
 <A-S-t>	init.vim	/^nmap <A-S-t> :te<cr>$/;"	m
 <A-e>	init.vim	/^map <A-e> :FZF ~<CR> $/;"	m

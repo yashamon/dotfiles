@@ -812,7 +812,6 @@ set completeopt=menu,menuone,noselect
 
 lua <<EOF
   -- Setup cmp.
-
 local has_words_before = function()
   if vim.api.nvim_buf_get_option(0, "buftype") == "prompt" then
     return false
@@ -824,9 +823,24 @@ end
 local feedkey = function(key, mode)
   vim.api.nvim_feedkeys(vim.api.nvim_replace_termcodes(key, true, true, true), mode, true)
 end
-
-local cmp = require'cmp'
-cmp.setup ({
+config = function ()
+    require'cmp'.setup {
+    sources = {
+     { name = 'tags' },
+{ name = 'vsnip', keyword_length = 1000 },
+-- For ultisnips user.
+      -- { name = 'ultisnips' },  
+{ name = 'buffer', keyword_length = 1000 },
+{ name = 'omni', keyword_length = 4},
+       -- { name = 'spell' }, 
+{ name = 'nvim_lsp', keyword_length = 4 },
+      --{ name = 'treesitter', keyword_length = 4 },
+--{ name = 'latex_symbols' },
+}, 
+completion = {
+    autocomplete = false 
+    }     -- more sources
+    },
 snippet = {
       expand = function(args)
         -- For `vsnip` user.
@@ -863,34 +877,7 @@ mapping = cmp.mapping.preset.insert({
       end
     end, { "i", "s" }),
 }),
-requires = {
-    {
-      'quangnguyen30192/cmp-nvim-tags',
-      -- if you want the sources is available for some file types
-      ft = {
-        'tex',
-        'latex' 
-      }
-    }
-    },
--- ... Your other configuration ...
-sources = cmp.config.sources({
-      -- For vsnip user. 
-{ name = 'tags' },
-{ name = 'vsnip', keyword_length = 1000 },
--- For ultisnips user.
-      -- { name = 'ultisnips' },  
-{ name = 'buffer', keyword_length = 1000 },
-{ name = 'omni', keyword_length = 4},
-       -- { name = 'spell' }, 
-{ name = 'nvim_lsp', keyword_length = 4 },
-      --{ name = 'treesitter', keyword_length = 4 },
---{ name = 'latex_symbols' },
-}),
-completion = {
-    autocomplete = false 
-    }
-})
+end
 EOF
 
 " 
