@@ -876,7 +876,7 @@ mapping = cmp.mapping.preset.insert({
         feedkey("<Plug>(vsnip-jump-prev)", "")
       end
     end, { "i", "s" }),
-}),
+})
 end
 EOF
 
