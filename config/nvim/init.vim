@@ -339,7 +339,6 @@ set fileencoding=utf-8
 "
 " terminal stuff 
 autocmd TermClose * if !v:event.status | exe 'bdelete! '..expand('<abuf>') | endif
-autocmd TermOpen * startinsert
 tnoremap <m-d> <C-\><C-n>:bdelete!<cr>
 tnoremap <A-`> <C-\><C-n>
 tnoremap <A-Esc> <C-\><C-n>
@@ -823,30 +822,26 @@ end
 local feedkey = function(key, mode)
   vim.api.nvim_feedkeys(vim.api.nvim_replace_termcodes(key, true, true, true), mode, true)
 end
-config = function ()
-    require'cmp'.setup {
-    sources = {
-     { name = 'tags' },
-{ name = 'vsnip', keyword_length = 1000 },
--- For ultisnips user.
-      -- { name = 'ultisnips' },  
-{ name = 'buffer', keyword_length = 1000 },
-{ name = 'omni', keyword_length = 4},
-       -- { name = 'spell' }, 
-{ name = 'nvim_lsp', keyword_length = 4 },
-      --{ name = 'treesitter', keyword_length = 4 },
---{ name = 'latex_symbols' },
-}, 
-completion = {
-    autocomplete = false 
-    }     -- more sources
-    },
+use { 
+  'hrsh7th/nvim-cmp',
+  requires = {
+    {
+      'quangnguyen30192/cmp-nvim-tags',
+      -- if you want the sources is available for some file types
+      ft = {
+        'kotlin',
+        'java'
+      }
+    }
+  }
+local cmp = require'cmp'
+cmp.setup ({
 snippet = {
-   expand = function(args)
+      expand = function(args)
         -- For `vsnip` user.
         vim.fn["vsnip#anonymous"](args.body) -- For `vsnip` user.
   -- ... Your other configuration ...
-end
+end,
 },
 mapping = cmp.mapping.preset.insert({
         ["<C-p>"] = cmp.mapping.select_prev_item(),
@@ -877,9 +872,38 @@ mapping = cmp.mapping.preset.insert({
       end
     end, { "i", "s" }),
 }),
-end
+requires = {
+    {
+      'quangnguyen30192/cmp-nvim-tags',
+      -- if you want the sources is available for some file types
+      ft = {
+        'tex',
+        'latex' 
+      }
+    }
+    },
+-- ... Your other configuration ...
+sources = cmp.config.sources({
+      -- For vsnip user. 
+{ name = 'tags' },
+{ name = 'vsnip', keyword_length = 1000 },
+-- For ultisnips user.
+      -- { name = 'ultisnips' },  
+{ name = 'buffer', keyword_length = 1000 },
+{ name = 'omni', keyword_length = 4},
+       -- { name = 'spell' }, 
+{ name = 'nvim_lsp', keyword_length = 4 },
+      --{ name = 'treesitter', keyword_length = 4 },
+--{ name = 'latex_symbols' },
+}),
+completion = {
+    autocomplete = false 
+    }
+})
+}
 EOF
 
+" 
 " " LSP mappings   
 " "" LSP mappings 
 noremap <leader>ca  :lua vim.lsp.buf.code_action()<CR>
