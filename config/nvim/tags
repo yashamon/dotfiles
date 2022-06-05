@@ -243,7 +243,7 @@ g:loaded_solarized_menu	colors/solarized2.vim	/^    let g:loaded_solarized_menu 
 g:loaded_solarized_menu	colors/solarized3.vim	/^    let g:loaded_solarized_menu = 1$/;"	v
 g:mapleader	init.vim	/^let g:mapleader=';'$/;"	v
 g:material_style	init.vim	/^   let g:material_style = 'deep ocean'  $/;"	v
-g:material_style	init.vim	/^   let g:material_style = 'lighter'  $/;"	v
+g:material_style	init.vim	/^   let g:material_style = 'lighter'$/;"	v
 g:material_style	init.vim	/^   let g:material_style = 'palenight'  $/;"	v
 g:neovide_fullscreen	init.vim	/^let g:neovide_fullscreen=v:true$/;"	v
 g:plug_home	autoload/plug.vim	/^  let g:plug_home = home$/;"	v
