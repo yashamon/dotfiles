@@ -579,13 +579,13 @@ endfunction
 function Lighter()
    set background=light
    " colorscheme blue-moon
-   colorscheme material  
-   let g:material_style = 'lighter'  
+   colorscheme material
+   let g:material_style = 'lighter'
 endfunction
 
 function Dark()
    set background=dark
-   colorscheme one  
+   colorscheme one
 endfunction
 
 function! Profile()
@@ -1572,4 +1572,5 @@ end
 "   end
 " }
 " EOF
+"
 "
