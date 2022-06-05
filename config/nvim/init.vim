@@ -339,6 +339,7 @@ set fileencoding=utf-8
 "
 " terminal stuff 
 autocmd TermClose * if !v:event.status | exe 'bdelete! '..expand('<abuf>') | endif
+autocmd TermOpen * startinsert
 tnoremap <m-d> <C-\><C-n>:bdelete!<cr>
 tnoremap <A-`> <C-\><C-n>
 tnoremap <A-Esc> <C-\><C-n>
@@ -822,6 +823,7 @@ end
 local feedkey = function(key, mode)
   vim.api.nvim_feedkeys(vim.api.nvim_replace_termcodes(key, true, true, true), mode, true)
 end
+-- Installation
 use { 
   'hrsh7th/nvim-cmp',
   requires = {
@@ -833,7 +835,7 @@ use {
         'java'
       }
     }
-  }
+  },
 local cmp = require'cmp'
 cmp.setup ({
 snippet = {
