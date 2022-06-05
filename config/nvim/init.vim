@@ -842,11 +842,11 @@ completion = {
     }     -- more sources
     },
 snippet = {
-      expand = function(args)
+   expand = function(args)
         -- For `vsnip` user.
         vim.fn["vsnip#anonymous"](args.body) -- For `vsnip` user.
   -- ... Your other configuration ...
-end,
+end
 },
 mapping = cmp.mapping.preset.insert({
         ["<C-p>"] = cmp.mapping.select_prev_item(),
