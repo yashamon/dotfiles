@@ -876,11 +876,10 @@ mapping = cmp.mapping.preset.insert({
         feedkey("<Plug>(vsnip-jump-prev)", "")
       end
     end, { "i", "s" })
-}),
+})
 end
 EOF
 
-" 
 " " LSP mappings   
 " "" LSP mappings 
 noremap <leader>ca  :lua vim.lsp.buf.code_action()<CR>
