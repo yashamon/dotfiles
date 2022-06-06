@@ -19,7 +19,7 @@ line	remote.ps1	/^$line=$args[0]$/;"	v
 myfile	lualatexscript.ps1	/^$myfile=(Get-item $args[-1]).BaseName$/;"	v
 mylogstring	lualatexscript.ps1	/^$mylogstring=$myfile+".log"$/;"	v
 mypdfstring	lualatexscript.ps1	/^$mypdfstring=$myfile+".pdf"$/;"	v
-newfile	sentence.ps1	/^$newfile='sentence_' + $f$/;"	v
+newfile	sentence.ps1	/^$newfile='sentence_' + "$f"$/;"	v
 parameter1	fuck.ps1	/^$parameter1 = $args[0]$/;"	v
 res	jumpDir.ps1	/^Invoke-Command -ScriptBlock { $res= fd . $HOME -t d -H | fzf --reverse --header='Jump to locatio/;"	v
 res	jumpRootDir.ps1	/^Invoke-Command -ScriptBlock { $res= fd . '\/' -t d -H | fzf --reverse --header='Jump to location/;"	v
