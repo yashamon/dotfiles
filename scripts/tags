@@ -1,27 +1,18 @@
 !_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
 !_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
-!_TAG_OUTPUT_FILESEP	slash	/slash or backslash/
-!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
-!_TAG_PATTERN_LENGTH_LIMIT	96	/0 for no limit/
 !_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
 !_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
 !_TAG_PROGRAM_URL	https://ctags.io/	/official site/
 !_TAG_PROGRAM_VERSION	5.9.0	/952bd1e9/
-a	gheto.ps1	/^$a=$args[0]$/;"	v
-buf	remote.ps1	/^$buf=$args[1]$/;"	v
-dir	lfcd.ps1	/^    $dir = Get-Content "$tmp"$/;"	v
-dir	lfcdWin.ps1	/^    $dir = Get-Content "$tmp"$/;"	v
-e	remote.ps1	/^$e="nvim --server " + "$var" + " --remote-send " + "`'" + ':' +$/;"	v
-install_zsh	makesymlinksChromeos.sh	/^install_zsh () {$/;"	f
-lf	lfcd.ps1	/^$lf=(which lf)+" last-dir-path="+"$tmp"+" $args"$/;"	v
-line	remote.ps1	/^$line=$args[0]$/;"	v
-myfile	lualatexscript.ps1	/^$myfile=(Get-item $args[-1]).BaseName$/;"	v
-mylogstring	lualatexscript.ps1	/^$mylogstring=$myfile+".log"$/;"	v
-mypdfstring	lualatexscript.ps1	/^$mypdfstring=$myfile+".pdf"$/;"	v
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_OUTPUT_FILESEP	slash	/slash or backslash/
+!_TAG_PATTERN_LENGTH_LIMIT	96	/0 for no limit/
 parameter1	fuck.ps1	/^$parameter1 = $args[0]$/;"	v
+a	gheto.ps1	/^$a=$args[0]$/;"	v
 res	jumpDir.ps1	/^Invoke-Command -ScriptBlock { $res= fd . $HOME -t d -H | fzf --reverse --header='Jump to locatio/;"	v
 res	jumpRootDir.ps1	/^Invoke-Command -ScriptBlock { $res= fd . '\/' -t d -H | fzf --reverse --header='Jump to location/;"	v
-res	simplejump.ps1	/^$res= fd . -H -I -d 1 | fzf --reverse --header='Jump to location' | sed 's\/\\\\\/\\\\\\\\\/g' $/;"	v
 tmp	lfcd.ps1	/^$tmp = [System.IO.Path]::GetTempFileName()$/;"	v
+lf	lfcd.ps1	/^$lf=(which lf)+" last-dir-path="+"$tmp"+" $args"$/;"	v
+dir	lfcd.ps1	/^    $dir = Get-Content "$tmp"$/;"	v
 tmp	lfcdWin.ps1	/^$tmp = [System.IO.Path]::GetTempFileName()$/;"	v
-var	remote.ps1	/^$var=(cat ~\/servername.txt)$/;"	v
+dir	lfcdWin.ps1	/^    $dir = Get-Content "$tmp"$/;"	v
