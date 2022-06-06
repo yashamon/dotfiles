@@ -1,4 +1,4 @@
-call plug#begin('~/.vim/plugged')   
+call plug#begin('~/.vim/plugged')
 Plug 'folke/zen-mode.nvim', { 'branch': 'main' } 
 Plug 'ibhagwan/fzf-lua', { 'branch': 'main' }
 Plug 'vijaymarupudi/nvim-fzf'
@@ -594,10 +594,10 @@ endfunction
 
 function Sentence()
   let g:buf = bufname()
-  silent !sentence.sh %
+  silent !pwsh -c sentence.sh %
   silent echo "Print any character"
   " silent call getchar()
-  e sentence_% 
+  e sentence_%
   " echo "Print any character"
   " call getchar()
   BLines
