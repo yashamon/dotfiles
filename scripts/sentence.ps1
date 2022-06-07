@@ -3,8 +3,8 @@ $newfile='sentence_' + "$f"
 $a=Get-Content stableconsistency.tex | foreach {
    ([string]($_.ReadCount-1) + ': ' + $_  + "@") -replace
    ".\s+@", ".@@@" }
-   # -replace ".\s+", ('. @'+[string]($_.ReadCount-1)+':+++') }
-$b=[String]$a
+$k=$a -replace ".\s+", ('. @'+[string]($_.ReadCount-1)+':+++') 
+$b=[String]$k
 # $c=$b -replace "`n", "" 
 # $d=$c -replace ('.'+"\s+"), ('&'+"`n") -replace ".@", "'&'`n"
 echo $b > blah
