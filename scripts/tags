@@ -7,6 +7,7 @@
 !_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
 !_TAG_PROGRAM_URL	https://ctags.io/	/official site/
 !_TAG_PROGRAM_VERSION	5.9.0	/952bd1e9/
+L	sentence.ps1	/^Get-Content $f | foreach { $L=[string]($_.ReadCount-1) } | foreach { $L + ': ' + $_ } |$/;"	v
 a	gheto.ps1	/^$a=$args[0]$/;"	v
 buf	remote.ps1	/^$buf=$args[1]$/;"	v
 dir	lfcd.ps1	/^    $dir = Get-Content "$tmp"$/;"	v
