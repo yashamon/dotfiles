@@ -594,7 +594,7 @@ endfunction
 
 function Sentence()
   let g:buf = bufname()
-  silent !sentence.sh %
+  silent term://bash sentence.sh %
   silent echo "Print any character"
   " silent call getchar()
   e sentence_%
@@ -875,16 +875,17 @@ requires = {
 -- ... Your other configuration ...
 sources = cmp.config.sources({
       -- For vsnip user. 
-{ name = 'tags' },
 { name = 'vsnip', keyword_length = 1000 },
+{ name = 'tags' },
+{ name = 'nvim_lsp', keyword_length = 4 },
 -- For ultisnips user.
       -- { name = 'ultisnips' },  
-{ name = 'buffer', keyword_length = 1000 },
 { name = 'omni', keyword_length = 4},
        -- { name = 'spell' }, 
-{ name = 'nvim_lsp', keyword_length = 4 },
       --{ name = 'treesitter', keyword_length = 4 },
 --{ name = 'latex_symbols' },
+{ name = 'buffer', keyword_length = 1000 },
+
 }),
 completion = {
     autocomplete = false 
