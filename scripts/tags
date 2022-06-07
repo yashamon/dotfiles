@@ -9,7 +9,6 @@
 !_TAG_PROGRAM_VERSION	5.9.0	/952bd1e9/
 a	gheto.ps1	/^$a=$args[0]$/;"	v
 a	sentence.ps1	/^$a=Get-Content stableconsistency.tex | foreach {$/;"	v
-b	sentence.ps1	/^$b=[String]$a$/;"	v
 buf	remote.ps1	/^$buf=$args[1]$/;"	v
 dir	lfcd.ps1	/^    $dir = Get-Content "$tmp"$/;"	v
 dir	lfcdWin.ps1	/^    $dir = Get-Content "$tmp"$/;"	v
