@@ -601,7 +601,7 @@ function Sentence()
   let b:paste = system('pwsh -c Get-Clipboard')
   " echo "Print any character"
   " call getchar()
-  call feedkeys(":BLines <c-r>+<cr>")
+  call feedkeys(":BLines <c-r>+<cr><cr>")
 endfunction
 noremap LL :lua require("zen-mode").close()<cr>:call Sentence()<cr>
 " noremap L :TZAtaraxisOff<cr><cr>:call Sentence()<cr>
