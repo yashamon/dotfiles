@@ -598,10 +598,10 @@ function Sentence()
   silent echo "Print any character"
   " silent call getchar()
   e sentence_%
-  let paste = system('pwsh -c Get-Clipboard')
+  let b:paste = system('pwsh -c Get-Clipboard')
   " echo "Print any character"
   " call getchar()
-  BLines paste
+  BLines b:paste
 endfunction
 noremap LL :lua require("zen-mode").close()<cr>:call Sentence()<cr>
 " noremap L :TZAtaraxisOff<cr><cr>:call Sentence()<cr>
