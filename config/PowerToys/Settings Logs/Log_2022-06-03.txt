@@ -1,6 +1,0 @@
-INFO: 19:57:11.0978549
-    [Method]: SendSettingsTelemetry [Class]: UserSettings
-    Sending settings telemetry
-INFO: 21:36:16.7409920
-    [Method]: <OnStartup>b__5_0 [Class]: <>c
-    PowerToys Runner exited. Exiting ColorPicker

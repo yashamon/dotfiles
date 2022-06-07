@@ -1,3 +1,0 @@
-[2022-06-01 08:30:55.110532] [p-8532] [t-8536] [info] keyboard-manager logger is initialized
-[2022-06-01 09:05:38.602369] [p-10200] [t-10204] [info] keyboard-manager logger is initialized
-[2022-06-01 17:30:57.795676] [p-10480] [t-10484] [info] keyboard-manager logger is initialized

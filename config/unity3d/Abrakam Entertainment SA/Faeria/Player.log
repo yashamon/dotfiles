@@ -1,0 +1,278 @@
+Desktop is 1280 x 720 @ 60 Hz
+Initialize engine version: 2018.4.25f1 (b07bfa0a8827)
+GfxDevice: creating device client; threaded=1
+Renderer: Mesa Intel(R) HD Graphics 620 (KBL GT2)
+Vendor:   Intel
+Version:  4.6 (Core Profile) Mesa 21.2.5
+GLES:     0
+ GL_3DFX_texture_compression_FXT1 GL_AMD_conservative_depth GL_AMD_depth_clamp_separate GL_AMD_draw_buffers_blend GL_AMD_gpu_shader_int64 GL_AMD_multi_draw_indirect GL_AMD_performance_monitor GL_AMD_pinned_memory GL_AMD_query_buffer_object GL_AMD_seamless_cubemap_per_texture GL_AMD_shader_stencil_export GL_AMD_shader_trinary_minmax GL_AMD_texture_texture4 GL_AMD_vertex_shader_layer GL_AMD_vertex_shader_viewport_index GL_ANGLE_texture_compression_dxt3 GL_ANGLE_texture_compression_dxt5 GL_ARB_ES2_compatibility GL_ARB_ES3_1_compatibility GL_ARB_ES3_2_compatibility GL_ARB_ES3_compatibility GL_ARB_arrays_of_arrays GL_ARB_base_instance GL_ARB_blend_func_extended GL_ARB_buffer_storage GL_ARB_clear_buffer_object GL_ARB_clear_texture GL_ARB_clip_control GL_ARB_compressed_texture_pixel_storage GL_ARB_compute_shader GL_ARB_compute_variable_group_size GL_ARB_conditional_render_inverted GL_ARB_conservative_depth GL_ARB_copy_buffer GL_ARB_copy_image GL_ARB_cull_distance GL_ARB_debug_output GL_ARB_depth_buffer_float GL_ARB
+_depth_clamp GL_ARB_derivative_control GL_ARB_direct_state_access GL_ARB_draw_buffers GL_ARB_draw_buffers_blend GL_ARB_draw_elements_base_vertex GL_ARB_draw_indirect GL_ARB_draw_instanced GL_ARB_enhanced_layouts GL_ARB_explicit_attrib_location GL_ARB_explicit_uniform_location GL_ARB_fragment_coord_conventions GL_ARB_fragment_layer_viewport GL_ARB_fragment_shader GL_ARB_fragment_shader_interlock GL_ARB_framebuffer_no_attachments GL_ARB_framebuffer_object GL_ARB_framebuffer_sRGB GL_ARB_get_program_binary GL_ARB_get_texture_sub_image GL_ARB_gl_spirv GL_ARB_gpu_shader5 GL_ARB_gpu_shader_fp64 GL_ARB_gpu_shader_int64 GL_ARB_half_float_pixel GL_ARB_half_float_vertex GL_ARB_indirect_parameters GL_ARB_instanced_arrays GL_ARB_internalformat_query GL_ARB_internalformat_query2 GL_ARB_invalidate_subdata GL_ARB_map_buffer_alignment GL_ARB_map_buffer_range GL_ARB_multi_bind GL_ARB_multi_draw_indirect GL_ARB_occlusion_query2 GL_ARB_parallel_shader_compile GL_ARB_pipeline_statistics_query GL_ARB_pixel_buffer_object GL_ARB_po
+int_sprite GL_ARB_polygon_offset_clamp GL_ARB_post_depth_coverage GL_ARB_program_interface_query GL_ARB_provoking_vertex GL_ARB_query_buffer_object GL_ARB_robust_buffer_access_behavior GL_ARB_robustness GL_ARB_sample_shading GL_ARB_sampler_objects GL_ARB_seamless_cube_map GL_ARB_seamless_cubemap_per_texture GL_ARB_separate_shader_objects GL_ARB_shader_atomic_counter_ops GL_ARB_shader_atomic_counters GL_ARB_shader_ballot GL_ARB_shader_bit_encoding GL_ARB_shader_clock GL_ARB_shader_draw_parameters GL_ARB_shader_group_vote GL_ARB_shader_image_load_store GL_ARB_shader_image_size GL_ARB_shader_objects GL_ARB_shader_precision GL_ARB_shader_stencil_export GL_ARB_shader_storage_buffer_object GL_ARB_shader_subroutine GL_ARB_shader_texture_image_samples GL_ARB_shader_texture_lod GL_ARB_shader_viewport_layer_array GL_ARB_shading_language_420pack GL_ARB_shading_language_include GL_ARB_shading_language_packing GL_ARB_spirv_extensions GL_ARB_stencil_texturing GL_ARB_sync GL_ARB_tessellation_shader GL_ARB_texture_barrier G
+L_ARB_texture_buffer_object GL_ARB_texture_buffer_object_rgb32 GL_ARB_texture_buffer_range GL_ARB_texture_compression_bptc GL_ARB_texture_compression_rgtc GL_ARB_texture_cube_map_array GL_ARB_texture_filter_anisotropic GL_ARB_texture_float GL_ARB_texture_gather GL_ARB_texture_mirror_clamp_to_edge GL_ARB_texture_multisample GL_ARB_texture_non_power_of_two GL_ARB_texture_query_levels GL_ARB_texture_query_lod GL_ARB_texture_rectangle GL_ARB_texture_rg GL_ARB_texture_rgb10_a2ui GL_ARB_texture_stencil8 GL_ARB_texture_storage GL_ARB_texture_storage_multisample GL_ARB_texture_swizzle GL_ARB_texture_view GL_ARB_timer_query GL_ARB_transform_feedback2 GL_ARB_transform_feedback3 GL_ARB_transform_feedback_instanced GL_ARB_transform_feedback_overflow_query GL_ARB_uniform_buffer_object GL_ARB_vertex_array_bgra GL_ARB_vertex_array_object GL_ARB_vertex_attrib_64bit GL_ARB_vertex_attrib_binding GL_ARB_vertex_buffer_object GL_ARB_vertex_shader GL_ARB_vertex_type_10f_11f_11f_rev GL_ARB_vertex_type_2_10_10_10_rev GL_ARB_viewpor
+t_array GL_ATI_blend_equation_separate GL_ATI_texture_float GL_EXT_EGL_image_storage GL_EXT_EGL_sync GL_EXT_abgr GL_EXT_blend_equation_separate GL_EXT_demote_to_helper_invocation GL_EXT_draw_buffers2 GL_EXT_draw_instanced GL_EXT_framebuffer_blit GL_EXT_framebuffer_multisample GL_EXT_framebuffer_multisample_blit_scaled GL_EXT_framebuffer_object GL_EXT_framebuffer_sRGB GL_EXT_memory_object GL_EXT_memory_object_fd GL_EXT_packed_depth_stencil GL_EXT_packed_float GL_EXT_pixel_buffer_object GL_EXT_polygon_offset_clamp GL_EXT_provoking_vertex GL_EXT_semaphore GL_EXT_semaphore_fd GL_EXT_shader_framebuffer_fetch GL_EXT_shader_framebuffer_fetch_non_coherent GL_EXT_shader_integer_mix GL_EXT_shader_samples_identical GL_EXT_texture_array GL_EXT_texture_compression_dxt1 GL_EXT_texture_compression_rgtc GL_EXT_texture_compression_s3tc GL_EXT_texture_filter_anisotropic GL_EXT_texture_integer GL_EXT_texture_sRGB GL_EXT_texture_sRGB_R8 GL_EXT_texture_sRGB_decode GL_EXT_texture_shadow_lod GL_EXT_texture_shared_exponent GL_EXT_t
+exture_snorm GL_EXT_texture_swizzle GL_EXT_timer_query GL_EXT_transform_feedback GL_EXT_vertex_array_bgra GL_EXT_vertex_attrib_64bit GL_IBM_multimode_draw_arrays GL_INTEL_blackhole_render GL_INTEL_conservative_rasterization GL_INTEL_performance_query GL_INTEL_shader_atomic_float_minmax GL_INTEL_shader_integer_functions2 GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent GL_KHR_context_flush_control GL_KHR_debug GL_KHR_no_error GL_KHR_parallel_shader_compile GL_KHR_robust_buffer_access_behavior GL_KHR_robustness GL_KHR_texture_compression_astc_ldr GL_KHR_texture_compression_astc_sliced_3d GL_MESA_framebuffer_flip_y GL_MESA_pack_invert GL_MESA_shader_integer_functions GL_MESA_texture_signed_rgba GL_NV_compute_shader_derivatives GL_NV_conditional_render GL_NV_copy_image GL_NV_depth_clamp GL_NV_fragment_shader_interlock GL_NV_packed_depth_stencil GL_NV_texture_barrier GL_OES_EGL_image GL_S3_s3tc
+OPENGL LOG: Creating OpenGL 4.6 graphics device ; Context level  <OpenGL 4.5> ; Context handle 61838960
+Begin MonoManager ReloadAssembly
+- Completed reload, in  0.068 seconds
+Default vsync count 1
+requesting resize 637 x 686
+requesting fullscreen 637 x 686 at 0 Hz
+Setting up downscaled viewport at 637 x 686
+Desktop is 1280 x 720 @ 60 Hz
+UnloadTime: 0.545000 ms
+No AchievementsMappingList file was loaded from the resources
+ 
+(Filename: ./Runtime/Export/Debug.bindings.h Line: 45)
+
+Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.417000 ms
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 3566.
+Total: 25.802000 ms (FindLiveObjects: 0.488000 ms CreateObjectMapping: 0.232000 ms MarkObjects: 25.009000 ms  DeleteObjects: 0.071000 ms)
+
+Routing server: <color=white>https://routing.faeria.com:8086</color>
+Debug mode: <color=white>False</color>
+Does disable auto login mode: <color=white>False</color>
+Setting up 2 worker threads for Enlighten.
+  Thread -> id: 7fba39e25640 -> priority: 1 
+  Thread -> id: 7fba39624640 -> priority: 1 
+LocalisationManager is initialised
+Client version number : <color=white>2.21.7536.27532</color>
+NotLoggedInState.TryLogin
+NotLoggedInState.TryLogin - GetLoginStatus
+NotLoggedInState.TryLogin - locCanMoveToMainMenu
+[NotLoggedInState.OnPlatformLoginSucceeded] Set ApplicationManager.uniqueUserId to 76561197979643595.
+[INFO]: Obtained steam authticket
+CheckServerStatusState - LoadServerStatus - SendGetWebRequestCoroutine - HasNetwork? True
+HandleWebRequestDtoResponse - Enter - URL : https://routing.faeria.com:8086/server_status.PROD.json
+Changing real window size to 424 x 686
+Ignoring window size change to 424x686 : waiting for fullscreen at 637x686
+HandleWebRequestDtoResponse - After SendWebRequest
+HandleWebRequestDtoResponse - After SendWebRequest - locRequestResult : {
+    "statusMessages": []
+}
+
+CheckServerStatusState - OnServerStatusResponse
+RequestAuthTokenCoroutineRoutingServer
+{
+    "serverType": 2,
+    "serverIp": "https://routing.faeria.com",
+    "serverPort": 8086,
+    "usesWebSockets": false,
+    "token": "",
+    "ownedDlcIds": "",
+    "nonce": 0,
+    "httpErrorCode": 0,
+    "errorCode": 0,
+    "isInitialised": false,
+    "isAuthenticated": false,
+    "infraType": 3,
+    "forceServerIp": ""
+}
+[INFO]: Obtained steam authticket
+Token for <color=white>https://routing.faeria.com</color>:
+14000000175ABE43613830D2CBAE270101001001054DB761180000000100000002000000AFA7AF132B4CEEE42F20E0030E000000D00000005000000004000000CBAE270101001001040F060058CBA72D6500A8C000000000E3B9B0616369CC610100EE5104000500886F0D000000896F0D000000A4570E000000EE760E0000000A181000000000002B6406075EB9AE9F1B5CA66A10803E3C55A477265B45F32E08102299829333415AFA95133C28812CDEE46951C2D6088C4D8768C91F370271A2C908304AEF311B3E472089BDE9280AEAFC0C4A299049FDA3AE088FD230DE723F7D71CD9D940B3D5F5827CF86551920A951FE8995511FE9631D49FC97F580E663BAC4F1D5026364
+RoutingTableRequest_v0002
+ {
+    "token": "14000000175ABE43613830D2CBAE270101001001054DB761180000000100000002000000AFA7AF132B4CEEE42F20E0030E000000D00000005000000004000000CBAE270101001001040F060058CBA72D6500A8C000000000E3B9B0616369CC610100EE5104000500886F0D000000896F0D000000A4570E000000EE760E0000000A181000000000002B6406075EB9AE9F1B5CA66A10803E3C55A477265B45F32E08102299829333415AFA95133C28812CDEE46951C2D6088C4D8768C91F370271A2C908304AEF311B3E472089BDE9280AEAFC0C4A299049FDA3AE088FD230DE723F7D71CD9D940B3D5F5827CF86551920A951FE8995511FE9631D49FC97F580E663BAC4F1D5026364",
+    "infraType": "PROD",
+    "runtimePlatform": "LinuxPlayer",
+    "clientStorePlatform": "STEAM",
+    "forcedServerIp": "",
+    "clientVersion": "2.21.7536.27532"
+}
+HandleWebRequestDtoResponse - Enter - URL : https://routing.faeria.com:8086/getRoutingTable/v0002
+HandleWebRequestDtoResponse - After SendWebRequest
+HandleWebRequestDtoResponse - After SendWebRequest - locRequestResult : {
+  "infraType" : "PROD",
+  "routingEntries" : [ {
+    "serverType" : "WorldServer",
+    "ip" : "world-prod.faeria.com",
+    "port" : 2301,
+    "usesWebSockets" : true
+  }, {
+    "serverType" : "TranslationServer",
+    "ip" : "translator.faeria.com",
+    "port" : 30006,
+    "usesWebSockets" : false
+  } ]
+}
+Received <color=white>Routing Table</color> :
+{
+    "infraType": 3,
+    "routingEntries": [
+        {
+            "serverType": "WorldServer",
+            "ip": "world-prod.faeria.com",
+            "port": 2301,
+            "usesWebSockets": true
+        },
+        {
+            "serverType": "TranslationServer",
+            "ip": "translator.faeria.com",
+            "port": 30006,
+            "usesWebSockets": false
+        }
+    ]
+}
+RequestAuthTokenCoroutineTranslationServer
+{
+    "serverType": 3,
+    "serverIp": "https://translator.faeria.com",
+    "serverPort": 30006,
+    "usesWebSockets": false,
+    "token": "",
+    "ownedDlcIds": "",
+    "nonce": 0,
+    "httpErrorCode": 0,
+    "errorCode": 0,
+    "isInitialised": false,
+    "isAuthenticated": false,
+    "infraType": 0,
+    "forceServerIp": ""
+}
+[INFO]: Obtained steam authticket
+Token for <color=white>https://translator.faeria.com</color>:
+1400000085231D0DE38DC1AACBAE270101001001054DB761180000000100000002000000446E9BA5BFC1746AC42CE0030F000000D00000005000000004000000CBAE270101001001040F060058CBA72D6500A8C000000000E3B9B0616369CC610100EE5104000500886F0D000000896F0D000000A4570E000000EE760E0000000A181000000000002B6406075EB9AE9F1B5CA66A10803E3C55A477265B45F32E08102299829333415AFA95133C28812CDEE46951C2D6088C4D8768C91F370271A2C908304AEF311B3E472089BDE9280AEAFC0C4A299049FDA3AE088FD230DE723F7D71CD9D940B3D5F5827CF86551920A951FE8995511FE9631D49FC97F580E663BAC4F1D5026364
+Changing real window size to 1280 x 720
+Setting up downscaled viewport at 637 x 686
+Changing real window size to 424 x 686
+Ignoring window size change to 424x686 : waiting for fullscreen at 637x686
+Changing real window size to 1280 x 720
+Setting up downscaled viewport at 637 x 686
+[WARNING]: No joystick found with the id 0
+ 
+(Filename: ./Runtime/Export/Debug.bindings.h Line: 45)
+
+Internal: JobTempAlloc has allocations that are more than 4 frames old - this is not allowed and likely a leak
+ 
+(Filename:  Line: 537)
+
+To Debug, enable the define: TLA_DEBUG_STACK_LEAK in ThreadsafeLinearAllocator.cpp. This will output the callstacks of the leaked allocations
+ 
+(Filename:  Line: 539)
+
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 9)
+ 
+(Filename:  Line: 311)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 16)
+UnloadTime: 11.176000 ms
+ApplicationManager Awake
+/home/yasha/.config/unity3d/Abrakam Entertainment SA/Faeria
+FetchGameServersIPs - START
+ 
+(Filename: ./Runtime/Export/Debug.bindings.h Line: 45)
+
+FetchGameServersIPs - WaitUntil HasNetwork START
+ 
+(Filename: ./Runtime/Export/Debug.bindings.h Line: 45)
+
+
+Unloading 146 unused Assets to reduce memory usage. Loaded Objects now: 17325.
+Total: 65.554000 ms (FindLiveObjects: 0.924000 ms CreateObjectMapping: 0.618000 ms MarkObjects: 63.695000 ms  DeleteObjects: 0.317000 ms)
+
+FetchGameServersIPs - WaitUntil HasNetwork END
+ 
+(Filename: ./Runtime/Export/Debug.bindings.h Line: 45)
+
+HandleWebRequestDtoResponse - Enter - URL : https://routing.faeria.com:8086/game_servers_ips.PROD.json
+Scene[<color=orange>WELCOME</color>] loading time = <color=cyan>0.1225281</color>
+HandleWebRequestDtoResponse - After SendWebRequest
+HandleWebRequestDtoResponse - After SendWebRequest - locRequestResult : {
+    "regions": [
+        {
+            "region": "US",
+            "servers": [
+                "game1-us-prod.faeria.com"
+            ]
+        },
+        {
+            "region": "EU",
+            "servers": [
+                "game1-eu-prod.faeria.com"
+            ]
+        },
+        {
+            "region": "AS",
+            "servers": [
+                "game1-as-prod.faeria.com"
+            ]
+        }
+    ]
+}
+
+ApplicationManager.OnGameServersIpsResponse
+ApplicationManager.PingGameServersCoroutine - Wait WorldNetworkManager.IsConnected()
+ApplicationManager.PingGameServersCoroutine - Wait WorldNetworkManager.IsConnected()
+ApplicationManager.PingGameServersCoroutine - Wait WorldNetworkManager.IsConnected()
+FetchGameServersIPs - END
+ 
+(Filename: ./Runtime/Export/Debug.bindings.h Line: 45)
+
+RequestAuthTokenCoroutineWorldServer
+{
+    "serverType": 0,
+    "serverIp": "world-prod.faeria.com",
+    "serverPort": 2301,
+    "usesWebSockets": true,
+    "token": "",
+    "ownedDlcIds": "",
+    "nonce": 0,
+    "httpErrorCode": 0,
+    "errorCode": 0,
+    "isInitialised": false,
+    "isAuthenticated": false,
+    "infraType": 0,
+    "forceServerIp": ""
+}
+[INFO]: Obtained steam authticket
+ApplicationManager.PingGameServersCoroutine - WorldNetworkManager.IsConnected() return true.
+NetworkUtilities - PingTcp - 54.226.176.175 - START
+ApplicationManager.PingGameServersCoroutine - WorldNetworkManager.IsConnected() return true.
+NetworkUtilities - PingTcp - 3.125.43.18 - START
+ApplicationManager.PingGameServersCoroutine - WorldNetworkManager.IsConnected() return true.
+NetworkUtilities - PingTcp - 54.254.194.167 - START
+Token for <color=white>world-prod.faeria.com</color>:
+1400000048BABF14F8C98E4BCBAE270101001001054DB7611800000001000000020000007CC8472B16A0F5B6F964E00310000000D00000005000000004000000CBAE270101001001040F060058CBA72D6500A8C000000000E3B9B0616369CC610100EE5104000500886F0D000000896F0D000000A4570E000000EE760E0000000A181000000000002B6406075EB9AE9F1B5CA66A10803E3C55A477265B45F32E08102299829333415AFA95133C28812CDEE46951C2D6088C4D8768C91F370271A2C908304AEF311B3E472089BDE9280AEAFC0C4A299049FDA3AE088FD230DE723F7D71CD9D940B3D5F5827CF86551920A951FE8995511FE9631D49FC97F580E663BAC4F1D5026364
+NetworkUtilities - PingTcp - 3.125.43.18 - ConnectAsync
+NetworkUtilities - PingTcp - 54.254.194.167 - ConnectAsync
+NetworkUtilities - PingTcp - 54.226.176.175 - ConnectAsync
+NetworkUtilities - PingTcp - 54.226.176.175 - TrySetResult 755.4118
+NetworkUtilities - PingTcp - 3.125.43.18 - TrySetResult 764.2214
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH).
+ApplicationManager.PingGameServersCoroutine - WaitForSeconds(GAMESERVERS_PING_REFRESH).
+Add faeria friend social user. FaeriaId: 518250, PlatformId: 76561198118200384, UserName: Stormind
+Add faeria friend social user. FaeriaId: 547415, PlatformId: 76561198133130770, UserName: PapaRoach
+Add faeria friend social user. FaeriaId: 54143, PlatformId: 76561198029383819, UserName: pscJ45
+Add faeria friend social user. FaeriaId: 44829, PlatformId: 76561197990316890, UserName: shalkys
+Add faeria friend social user. FaeriaId: 541036, PlatformId: 76561198068357369, UserName: Sunnybeach
+Add faeria friend social user. FaeriaId: 9149, PlatformId: 76561197963845272, UserName: Brundle
+Add faeria friend social user. FaeriaId: 342963, PlatformId: 76561198233295224, UserName: Skrifar
+Add faeria friend social user. FaeriaId: 131465, PlatformId: 76561198077989091, UserName: Zydar
+Add faeria friend social user. FaeriaId: 888660, PlatformId: 76561198844134056, UserName: facetime
+Player SupportId : PC72VH2Z
+SignInSuccess - SessionsUtilities.DestroySession
+Not in a session when destroying one
+ 
+(Filename: ./Runtime/Export/Debug.bindings.h Line: 45)
+
+TryJoinSessionUserInvite called. parSessionSearchResult is valid? False. SessionSearchResultToJoin is valid? False
+OnSessionUserInviteAccepted Failed. No OnlineSessionSearchResult to join
+ 
+(Filename: ./Runtime/Export/Debug.bindings.h Line: 45)
+
+Message [<color=magenta>GO_TO_HOME</color>] to State [<color=yellow>WelcomeState</color>]
+ChangeState[<color=yellow>WelcomeState</color>]->[<color=green>HomeState</color>]
+SignInSuccess - OnUserSignedIn
+SignInSuccess - Next
+Unloading 2 Unused Serialized files (Serialized files now loaded: 16)
+
+Unloading 492 unused Assets to reduce memory usage. Loaded Objects now: 17878.
+Total: 84.089000 ms (FindLiveObjects: 2.266000 ms CreateObjectMapping: 1.028000 ms MarkObjects: 79.464000 ms  DeleteObjects: 1.329000 ms)
+
+Scene[<color=orange>HOME</color>] loading time = <color=cyan>0.3320618</color>
+ApplicationManager OnDestroy
+NetworkUtilities - PingTcp - 54.254.194.167 - Exception System.Net.Sockets.SocketException (0x80004005): The socket is not connected
+  at System.Net.Sockets.TcpClient.Connect (System.String hostname, System.Int32 port) [0x001a9] in <245cba593bdc463bacb144cf356a8b4b>:0 
+  at Abrakam.NetworkUtilities+<>c__DisplayClass12_0.<PingTcp>b__0 (System.Object state) [0x0002d] in <9e7db509c3c94e2bb6d090483cb7e0bf>:0 

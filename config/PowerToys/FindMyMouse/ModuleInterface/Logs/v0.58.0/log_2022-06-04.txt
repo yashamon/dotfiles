@@ -1,9 +1,0 @@
-[2022-06-04 08:29:30.720000] [p-1932] [t-11164] [info] Detecting double left control click with 47 ms interval.
-[2022-06-04 08:59:17.436286] [p-1932] [t-11164] [info] Detecting double left control click with 1781 ms interval.
-[2022-06-04 13:13:49.784072] [p-1932] [t-11164] [info] Detecting double left control click with 594 ms interval.
-[2022-06-04 14:28:08.401295] [p-1932] [t-11164] [info] Focusing the sonar on the mouse cursor.
-[2022-06-04 14:28:08.476420] [p-1932] [t-11164] [info] Detecting double left control click with 391 ms interval.
-[2022-06-04 14:37:48.590274] [p-1932] [t-11164] [info] Focusing the sonar on the mouse cursor.
-[2022-06-04 14:37:48.608465] [p-1932] [t-11164] [info] Detecting double left control click with 109 ms interval.
-[2022-06-04 14:37:49.414502] [p-1932] [t-11164] [info] Focusing the sonar on the mouse cursor.
-[2022-06-04 14:37:49.420324] [p-1932] [t-11164] [info] Detecting double left control click with 312 ms interval.

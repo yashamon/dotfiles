@@ -1,3 +1,0 @@
-[2022-06-01 19:18:02.636803] [p-9604] [t-4364] [info] shortcut-guide logger is initialized
-[2022-06-01 19:18:02.780990] [p-9604] [t-4364] [trace] Starting Shortcut Guide
-[2022-06-01 19:18:02.781147] [p-9604] [t-4364] [trace] Sending settings telemetry

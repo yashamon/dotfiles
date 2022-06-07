@@ -1,2 +1,0 @@
-[2022-05-31 19:18:02.523299] [p-11028] [t-4748] [info] powerrename logger is initialized
-[2022-05-31 19:18:02.701888] [p-11028] [t-4748] [info] PowerRename enabled
