@@ -1,7 +1,7 @@
 $f=$args[0]
 $newfile='sentence_' + "$f"
-$a=Get-Content stableconsistency.tex | foreach { ([string]($_.ReadCount-1) + ': ' + $_  + 
-"@") -replace ".\s+@", ".@@@" -replace ".\s+", ('. @'+[string]($_.ReadCount-1)+':+++')
+$a=Get-Content stableconsistency.tex | foreach { ([string]($_.ReadCount-1) + ': ' + $_  +
+"@") -replace ".\s+@", ".@@@" -replace ".\s+", ('. @'+[string]($_.ReadCount-1)+':+++') }
 $b=Get-Content -Raw $a
 $c=$a -replace "`n", "" | tr '\$' '' | tr '\\' ''| tr '\{' ''| tr '\}' ''|  tr '\^' '' | tr '\_' ''| tr '\%' ''
 $d=$c -replace ".\s+", "'&'`n" -replace ".@", "'&'`n"
