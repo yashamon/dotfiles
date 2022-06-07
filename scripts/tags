@@ -9,14 +9,13 @@
 !_TAG_PROGRAM_VERSION	5.9.0	/952bd1e9/
 a	gheto.ps1	/^$a=$args[0]$/;"	v
 a	sentence.ps1	/^$a=Get-Content stableconsistency.tex | foreach {$/;"	v
-b	sentence.ps1	/^$b=[String]$k$/;"	v
+b	sentence.ps1	/^$b=[String]$a$/;"	v
 buf	remote.ps1	/^$buf=$args[1]$/;"	v
 dir	lfcd.ps1	/^    $dir = Get-Content "$tmp"$/;"	v
 dir	lfcdWin.ps1	/^    $dir = Get-Content "$tmp"$/;"	v
 e	remote.ps1	/^$e="nvim --server " + "$var" + " --remote-send " + "`'" + ':' +$/;"	v
 f	sentence.ps1	/^$f=$args[0]$/;"	v
 install_zsh	makesymlinksChromeos.sh	/^install_zsh () {$/;"	f
-k	sentence.ps1	/^$k=$a -replace ".\\s+", ('. @'+[string]($_.ReadCount-1)+':+++') $/;"	v
 lf	lfcd.ps1	/^$lf=(which lf)+" last-dir-path="+"$tmp"+" $args"$/;"	v
 line	remote.ps1	/^$line=$args[0]$/;"	v
 myfile	lualatexscript.ps1	/^$myfile=(Get-item $args[-1]).BaseName$/;"	v
