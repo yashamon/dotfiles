@@ -594,7 +594,7 @@ endfunction
 
 function Sentence()
   let g:buf = bufname()
-  silent term://bash sentence.sh %
+  te pwsh -c sentence.ps1 %
   silent echo "Print any character"
   " silent call getchar()
   e sentence_%
