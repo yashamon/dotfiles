@@ -598,7 +598,7 @@ function Sentence()
   silent echo "Print any character"
   " silent call getchar()
   e sentence_%
-  paste = "expand(!normal "+p")
+  paste=expand(!normal "+p)
   " echo "Print any character"
   " call getchar()
   execute "BLines paste"
