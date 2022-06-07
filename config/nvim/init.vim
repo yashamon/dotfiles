@@ -601,7 +601,7 @@ function Sentence()
   paste=expand(!normal "+p)
   " echo "Print any character"
   " call getchar()
-  execute "BLines paste"
+  BLines paste
 endfunction
 noremap LL :lua require("zen-mode").close()<cr>:call Sentence()<cr>
 " noremap L :TZAtaraxisOff<cr><cr>:call Sentence()<cr>
