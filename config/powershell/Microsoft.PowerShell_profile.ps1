@@ -30,16 +30,19 @@ Set-PSReadLineOption -PredictionSource History
 # Bindings and aliases
 Set-PSReadlineKeyHandler -Key UpArrow -Function HistorySearchBackward
 Set-PSReadlineKeyHandler -Key DownArrow -Function HistorySearchForward
-Set-PSReadlineKeyHandler -Chord Alt+k -Function HistorySearchBackward
+Set-PSReadlineKeyHandler -Chord Alt+k -Function HistorySearchBackward 
 Set-PSReadlineKeyHandler -Chord Alt+j -Function HistorySearchForward
-Set-PSReadLineKeyHandler -Chord Alt+a -Function AcceptSuggestion 
-# Function Invoke-PreJump() {
-# funct ho=fdfind . $HOME -t d -H | fzf
+Set-PSReadLineKeyHandler -Chord Alt+a -Function AcceptSuggestion # Function Invoke-PreJump() { # funct ho=fdfind . $HOME -t d -H | fzf
 # [Microsoft.PowerShell.PSConsoleReadLine]::Insert($ho)
 # }
 Set-Alias j Invoke-Zlocation
 Set-Alias lualatexscript /home/yasha/dotfiles/scripts/lualatexscript.ps1
-Set-Alias neo /home/yasha/.local/bin/goneovim/goneovim
+function neo($1) {
+   $neo=(which goneovim) + " $1"
+   echo $neo
+Invoke-Expression $neo
+}
+# /home/yasha/.local/bin/goneovim/goneovim
 # Set-PSReadLineKeyHandler -Chord Alt+j -ScriptBlock { Invoke-PreJump }
 Set-PSReadLineKeyHandler -Key 'y' -Function Copy -ViMode Command
 Set-PSReadLineKeyHandler -Key 'p' -Function Paste -ViMode Command
@@ -73,12 +76,8 @@ function OnViModeChange {
 Set-PSReadLineOption -ViModeIndicator Script -ViModeChangeHandler $Function:OnViModeChange
 
 # Environmental variables
-$Env:EDITOR = "neo"
-
+$Env:EDITOR = (which goneovim)
 # various binding functions
-# 
-# 
-# 
 # 
 function vrc { neo $HOME\dotfiles\config\nvim\init.vim }
 function lfrc { neo $HOME\dotfiles\config\lf\lfrc } 
@@ -135,6 +134,7 @@ function pullmaster { git pull --recurse-submodules ; git submodule update --rec
 function pushgh { pandoc index.md > index.html ; git add . ; git commit -m -a ; git push origin gh-pages }
 function hw { pandoc ~/web/classes/topology/topology2019.md > ~/web/classes/topology/topology2019.html; pandoc ~/web/CalcIII2019/analysis.md > ~/web/CalcIII2019/analysis.html; git
 add .;git commit -m -a; git push origin gh-pages }# alias check="git checkout" 
+function modulestext { Get-InstalledModule | foreach { $_.Name > /home/yasha/dotfiles/PSmodules.text } }
 function clip { /mnt/c/windows/System32/WindowsPowerShell/v1.0/powershell.exe -c Get-Clipboard | tr -d $'\r' | wl-copy }
 # alias attach="tmux attach"
 # # alias pdf="xpdf -geometry 1920x1080 -fullscreen"
@@ -193,5 +193,7 @@ Set-Alias lf $HOME/dotfiles/scripts/lfcd.ps1
 $Env:QT_SCALE_FACTOR=2 
 $Env:GDK_SCALE=2 
 $Env:QT_QPA_PLATFORM="wayland"
-$Env:Path+=":/opt:$HOME/.config/sway/modules:$HOME/appimage:/home/linuxbrew/.linuxbrew/bin:/usr/local/bin:/usr/sbin:/sbin:/bin:$HOME/.local/bin:/root/.cabal/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:$HOME/.cabal/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:$HOME/.local/bin:$HOME/.local/bin/scripts:$HOME/.cargo/bin:/snap/bin:/data/data/com.termux/files/usr/bin/applets:/data/data/com.termux/files/usr/bin:bin:/usr/local/sbin:/usr/bin:$HOME/.local/share/nvim/lspinstall:$HOME/skia-binaries:$HOME/ninja:/home/yasha/.nix-profile:/home/yasha/dotfiles/scripts:/usr/bin:$HOME/dotfiles/scripts"
-# $Env:Path="/home/yasha/dotfiles/scripts:/usr/bin:$HOME/dotfiles/scripts:$HOME/.local/bin"
+$Env:Path+=":/opt:$HOME/.config/sway/modules:$HOME/appimage:/home/linuxbrew/.linuxbrew/bin:/usr/local/bin:/usr/sbin:/sbin:/bin:$HOME/.local/bin:/root/.cabal/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:$HOME/.cabal/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:$HOME/.local/bin:$HOME/.local/bin/scripts:$HOME/.cargo/bin:/snap/bin:/data/data/com.termux/files/usr/bin/applets:/data/data/com.termux/files/usr/bin:bin:/usr/local/sbin:/usr/bin:$HOME/.local/share/nvim/lspinstall:$HOME/skia-binaries:$HOME/ninja:/home/yasha/.nix-profile:/home/yasha/dotfiles/scripts:/usr/bin:$HOME/dotfiles/scripts:$HOME/.local/bin/goneovim"
+# Get-InstalledModule | foreach { ($_.Name, $_.Repository) > /home/yasha/dotfiles/PSmodules.text }
+# Get-InstalledModule | ConvertTo-Json | foreach { $_ > /home/yasha/dotfiles/PSmodules.json } 
+# $Env:Path="/home/yasha/dotfiles/scripts:/usr/bin:$HOME/dotfiles/scripts:$HOME/.local/bin" # 

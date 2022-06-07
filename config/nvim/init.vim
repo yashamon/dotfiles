@@ -170,6 +170,8 @@ autocmd BufReadPost * if @% !~# '\.git[\/\\]COMMIT_EDITMSG$' && line("'\"") > 1 
 au VIMEnter * let g:surround_108 = {
      \'q':  " ``\r''"
      \ }
+au VIMEnter * let g:buffmain=bufname()
+nnoremap <m-y> viwy:buffer g:buffmain<cr>:<c-r>+<cr><cr>
 let g:tex_flavor = "latex"
 let g:tex_isk = '@,48-57,58,_,192-255,:' 
 au FileType tex setlocal iskeyword+=:
@@ -490,7 +492,6 @@ map <m-space> <cmd>HopWord<cr>
 " FZF 
 "
 noremap <m-t> :BTags<cr>
-noremap <m-y> :<cr>
 noremap S <Esc> :BLines<CR>
 "noremap L <Esc>:AsyncRun sentence.sh %;nvr sentence_%<cr>:echo 'press any key'<cr>:execute 'call getchar()' | BLines<cr>
 " Line search mapping 
@@ -601,9 +602,8 @@ endfunction
 noremap LL :lua require("zen-mode").close()<cr>:call Sentence()<cr>
 " noremap L :TZAtaraxisOff<cr><cr>:call Sentence()<cr>
 function GitAsync()
-AsyncRun -silent ctags -R
 let g:bufdude = bufname()
-silent te if ( (git rev-parse --is-inside-work-tree) -and (git rev-parse --git-dir) ) { git add . ; git commit -m -a ; git push --all origin } 
+silent te if ( (git rev-parse --is-inside-work-tree) -and (git rev-parse --git-dir) ) { git add . ; git commit -m -a; git push --all origin; ctags -R }
 execute "buffer" g:bufdude 
 endfunction
   
@@ -651,6 +651,7 @@ endfunction
 
 function! ViewPdf() 
 wa
+let g:buffmain=bufname()
 silent execute "!echo " . v:servername . " > ~/servername.txt"
 let buf = bufname()
 let linenumber=line(".")

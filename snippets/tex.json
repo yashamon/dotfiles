@@ -162,12 +162,21 @@
     "description": "subset"
     }, 
 
-"Align(ed)": {
-    "prefix": "ali",
+"Align numbered": {
+    "prefix": ["alin", "alignedn"],
     "body": [
-        "\\begin{align}",
+        "\\begin{align} \\label{eq:$1}",
         "\t$0",    
         "\\end{align}"
+],
+   "description": "Align(ed)"
+},   
+"Align(ed)": {
+    "prefix": ["ali", "aligned"],
+    "body": [
+        "\\begin{align*}",
+        "\t$0",    
+        "\\end{align*}"
 ],
     "description": "Align(ed)"
 },

@@ -12,10 +12,12 @@
 EOF	lf-ueberzug-cleaner	/^cat <<EOF | paste -sd '' >"$LF_UEBERZUG_TEMPDIR\/fifo"$/;"	h
 EOF	lf-ueberzug-previewer	/^	cat <<-EOF | paste -sd '' >"$LF_UEBERZUG_TEMPDIR\/fifo"$/;"	h
 STATES	rotx	/^STATES = [$/;"	v
+a	gheto.ps1	/^$a=$args[0]$/;"	v
 a	remote.ps1	/^$a=$args[0]$/;"	v
 accel_x	rotx	/^    accel_x = bdopen('in_accel_x_raw')$/;"	v
 accel_y	rotx	/^    accel_y = bdopen('in_accel_y_raw')$/;"	v
 array_str	gcuts	/^array_str = get("gsettings get "+key)$/;"	v
+b	remote.ps1	/^$b=$args[1]$/;"	v
 bdopen	rotx	/^def bdopen(fname):$/;"	f
 cleanup	lf-ueberzug	/^cleanup() {$/;"	f
 cmd0	gcuts	/^cmd0 = 'gsettings set '+key+' "'+str(current)+'"'$/;"	v
@@ -29,11 +31,13 @@ current_state	rotx	/^    current_state = None$/;"	v
 devices	rotx	/^devices = check_output(['xinput', '--list', '--name-only']).splitlines()$/;"	v
 dir	lfcd.ps1	/^    $dir = Get-Content "$tmp"$/;"	v
 disable_touchpads	rotx	/^disable_touchpads = False$/;"	v
+e	remote.ps1	/^$e="nvim --server " + "$var" + " --remote-send " + ':' +$/;"	v
 firstname	gcuts	/^firstname = "custom"$/;"	v
 g	rotx	/^g = 7.0  # (m^2 \/ s) sensibility, gravity trigger$/;"	v
 get	gcuts	/^get = lambda cmd: subprocess.check_output(["\/bin\/bash", "-c", cmd]).decode("utf-8")$/;"	f
 item_s	gcuts	/^item_s = "\/"+key.replace(" ", "\/").replace(".", "\/")+"\/"$/;"	v
 key	gcuts	/^key = "org.gnome.settings-daemon.plugins.media-keys custom-keybindings"$/;"	v
+lf	lfcd.ps1	/^$lf=(which lf)+" last-dir-path="+"$tmp"+" $args"$/;"	v
 myfile	lualatexscript.ps1	/^$myfile=(Get-item $args[-1]).BaseName$/;"	v
 mylogstring	lualatexscript.ps1	/^$mylogstring=$myfile+".log"$/;"	v
 mypdfstring	lualatexscript.ps1	/^$mypdfstring=$myfile+".pdf"$/;"	v
@@ -48,7 +52,6 @@ rotate	autorotate	/^function rotate {$/;"	f
 rotate	rotatesway	/^function rotate {$/;"	f
 rotate	rotx	/^def rotate(state):$/;"	f
 rotate_ms	rotatesway	/^function rotate_ms {$/;"	f
-s	remote.ps1	/^$s=':' + $a + '<cr>'$/;"	v
 scale	rotx	/^scale = float(read('in_accel_scale'))$/;"	v
 subkey1	gcuts	/^subkey1 = key.replace(" ", ".")[:-1]+":"$/;"	v
 sync	lualatexscript.ps1	/^$sync=$myfile+".synctex.gz"$/;"	v

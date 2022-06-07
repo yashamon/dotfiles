@@ -9,7 +9,7 @@
 !_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
 !_TAG_PROGRAM_URL	https://ctags.io/	/official site/
 !_TAG_PROGRAM_VERSION	5.9.0	//
-EDITOR	Microsoft.PowerShell_profile.ps1	/^$Env:EDITOR = "neo"$/;"	v
+EDITOR	Microsoft.PowerShell_profile.ps1	/^$Env:EDITOR = (which goneovim)$/;"	v
 GDK_SCALE	Microsoft.PowerShell_profile.ps1	/^$Env:GDK_SCALE=2 $/;"	v
 Jumphome	Microsoft.PowerShell_profile.ps1	/^Function Jumphome {fdfind . $HOME -t d -H | fzf | cd}$/;"	f
 OnViModeChange	Microsoft.PowerShell_profile.ps1	/^function OnViModeChange {$/;"	f
@@ -21,6 +21,8 @@ lat	Microsoft.PowerShell_profile.ps1	/^function lat($1) { echo $1$/;"	f
 latexi	Microsoft.PowerShell_profile.ps1	/^function latexi() { latexmk -g -pdf -file-line-error -synctex=1  -interaction=nonstopmode$/;"	f
 lfrc	Microsoft.PowerShell_profile.ps1	/^function lfrc { neo  ~\/dotfiles\/config\/lf\/lfrc }$/;"	f
 lfrc	Microsoft.PowerShell_profile.ps1	/^function lfrc { neo $HOME\\dotfiles\\config\\lf\\lfrc } $/;"	f
+modulestext	Microsoft.PowerShell_profile.ps1	/^function modulestext { Get-InstalledModule | foreach { $_.Name > \/home\/yasha\/dotfiles\/PSmodu/;"	f
+neo	Microsoft.PowerShell_profile.ps1	/^function neo($1) {$/;"	f
 nf	Microsoft.PowerShell_profile.ps1	/^Function nf {$/;"	f
 pdf	Microsoft.PowerShell_profile.ps1	/^function pdf($1) { zathura $1 }$/;"	f
 psrc	Microsoft.PowerShell_profile.ps1	/^function psrc { neo $profile } $/;"	f

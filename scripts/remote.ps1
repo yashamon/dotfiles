@@ -1,6 +1,11 @@
-#!/opt/microsoft/powershell/7/pwsh
-$a=$args[0]
+#!/bin/pwsh
+$line=$args[0]
+$buf=$args[1]
+echo $line
+echo $buf
 $var=(cat ~/servername.txt)
-$s=':' + $a + '<cr>'
-echo $s
-nvim --server $var --remote-send $s
+echo $var
+$e="nvim --server " + "$var" + " --remote-send " + "`'" + ':' +
+'buffer ' + " $buf" + '<cr><esc>:' + "$line"+'<cr>'+"`'"
+echo $e
+Invoke-Expression $e
