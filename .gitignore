@@ -1,21 +1,13 @@
-/* **\Trash\*  */
-/* **\test\* */
-/* **\google-chrome-beta\*    */
-/* **\google-chrome-unstable\* */
-/* **\firefox\* */
-/* **\google-chrome\*  */
-/* **\chromium\* */
-/* **\config\pulse\* */
-/* config\PowerToys\ */
+Trash/
+google-chrome-beta\
+google-chrome-unstable\
+firefox/
+google-chrome\
+chromium/
+config/pulse/
 config/PowerToys/
-/* config/PowerToys/** */
-/* .\config\PowerToys\ */
-/* !"./config/PowerToys/Keyboard Manager/settings.json" */
-/* vifminfo  */
-/* *.log */
-/* test\ */
-/* config\\PowerToys\\ */
-/* .\config\\PowerToys\\ */
-!./config/PowerToys/Keyboard Manager/settings.json"
+vifminfo  
+*.log
+!./config/PowerToys/Keyboard Manager/settings.json
 newtest/
 
