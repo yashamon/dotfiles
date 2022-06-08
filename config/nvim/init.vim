@@ -496,7 +496,7 @@ map <m-space> <cmd>HopWord<cr>
 " FZF 
 "
 noremap <m-t> :BTags<cr>
-noremap S <Esc> :BLines<CR>
+noremap S <Esc> :BLinesB<CR>
 "noremap L <Esc>:AsyncRun sentence.sh %;nvr sentence_%<cr>:echo 'press any key'<cr>:execute 'call getchar()' | BLines<cr>
 " Line search mapping 
 " function! Jumpback() 
@@ -603,7 +603,7 @@ function Sentence()
   " silent call getchar()
   e sentence_%
   " let b:paste = system('pwsh -c Get-Clipboard')
-  call feedkeys(":BLines \<c-r>+\<cr>")
+  call feedkeys(":BLinesB \<c-r>+\<cr>")
 endfunction
 noremap LL :lua require("zen-mode").close()<cr>:call Sentence()<cr>
 " noremap L :TZAtaraxisOff<cr><cr>:call Sentence()<cr>
