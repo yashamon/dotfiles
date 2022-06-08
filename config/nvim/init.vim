@@ -198,9 +198,9 @@ set autochdir
 set guioptions-=r
 set guioptions-=l
 set inccommand=split
-set mouse=a
-noremap <LeftDrag> <LeftMouse>
-noremap! <LeftDrag> <LeftMouse>
+set mouse=n
+noremap <LeftDrag> <nop>
+noremap! <LeftDrag> <nop>
 " set selectmode=mouse, key
 set bs=2		" allow backspacing over everything in insert mode 
 set undofile                " Save undo's after file closes
