@@ -95,6 +95,7 @@ $	initexperiminent.vim	/^noremap $ \/\\$<CR>hv?\\$<CR>l$/;"	m
 <M-m>	initexperiminent.vim	/^map <M-m> <cmd>HopChar1<cr>\$$/;"	m
 <M-w>	init.vim	/^map <M-w> <cmd>HopChar1<cr>}$/;"	m
 <M-w>	initexperiminent.vim	/^map <M-w> <cmd>HopChar1<cr>}$/;"	m
+<RightDrag>	init.vim	/^noremap <RightDrag> <nop>$/;"	m
 <S-C-q>	init.vim	/^map <S-C-q> <Esc>:qa!<CR>$/;"	m
 <S-C-q>	initexperiminent.vim	/^map <S-C-q> <Esc>:qa!<CR>$/;"	m
 <S-ScrollWheelDown>	init.vim	/^noremap <S-ScrollWheelDown>  <nop>$/;"	m

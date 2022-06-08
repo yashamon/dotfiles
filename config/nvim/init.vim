@@ -199,8 +199,8 @@ set guioptions-=r
 set guioptions-=l
 set inccommand=split
 set mouse=n
-noremap <LeftDrag> <nop>
-noremap <RightDrag> <nop>
+noremap! <LeftDrag> <nop>
+noremap! <RightDrag> <nop>
 noremap! <LeftDrag> <nop>
 " set selectmode=mouse, key
 set bs=2		" allow backspacing over everything in insert mode 
