@@ -71,8 +71,8 @@ $	initexperiminent.vim	/^noremap $ \/\\$<CR>hv?\\$<CR>l$/;"	m
 <Leader>U	initexperiminent.vim	/^vnoremap <Leader>U ""y:%s\/<C-r>"$/;"	m
 <Leader>y	init.vim	/^nnoremap <silent> <Leader>y :YRGetElem<CR>$/;"	m
 <Leader>y	initexperiminent.vim	/^nnoremap <silent> <Leader>y :YRGetElem<CR>$/;"	m
-<LeftDrag>	init.vim	/^noremap <LeftDrag> <LeftMouse>$/;"	m
-<LeftDrag>	init.vim	/^noremap! <LeftDrag> <LeftMouse>$/;"	m
+<LeftDrag>	init.vim	/^noremap <LeftDrag> <nop>$/;"	m
+<LeftDrag>	init.vim	/^noremap! <LeftDrag> <nop>$/;"	m
 <LeftDrag>	initexperiminent.vim	/^noremap <LeftDrag> <LeftMouse>$/;"	m
 <LeftDrag>	initexperiminent.vim	/^noremap! <LeftDrag> <LeftMouse>$/;"	m
 <M-.>	init.vim	/^nmap <M-.> t.<CR>h$/;"	m
