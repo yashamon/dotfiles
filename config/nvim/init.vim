@@ -600,8 +600,8 @@ function Sentence()
   " silent call getchar()
   e sentence_%
   let b:paste = system('pwsh -c Get-Clipboard')
-  " echo "Print any character"
-  " call getchar()
+  echo "Print any character"
+  call getchar()
   call feedkeys(":BLines \<c-r>+\<cr>")
 endfunction
 noremap LL :lua require("zen-mode").close()<cr>:call Sentence()<cr>

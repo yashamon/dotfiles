@@ -71,7 +71,6 @@ $	initexperiminent.vim	/^noremap $ \/\\$<CR>hv?\\$<CR>l$/;"	m
 <Leader>U	initexperiminent.vim	/^vnoremap <Leader>U ""y:%s\/<C-r>"$/;"	m
 <Leader>y	init.vim	/^nnoremap <silent> <Leader>y :YRGetElem<CR>$/;"	m
 <Leader>y	initexperiminent.vim	/^nnoremap <silent> <Leader>y :YRGetElem<CR>$/;"	m
-<LeftDrag>	init.vim	/^noremap <LeftDrag> <nop>$/;"	m
 <LeftDrag>	init.vim	/^noremap! <LeftDrag> <nop>$/;"	m
 <LeftDrag>	initexperiminent.vim	/^noremap <LeftDrag> <LeftMouse>$/;"	m
 <LeftDrag>	initexperiminent.vim	/^noremap! <LeftDrag> <LeftMouse>$/;"	m
@@ -95,7 +94,7 @@ $	initexperiminent.vim	/^noremap $ \/\\$<CR>hv?\\$<CR>l$/;"	m
 <M-m>	initexperiminent.vim	/^map <M-m> <cmd>HopChar1<cr>\$$/;"	m
 <M-w>	init.vim	/^map <M-w> <cmd>HopChar1<cr>}$/;"	m
 <M-w>	initexperiminent.vim	/^map <M-w> <cmd>HopChar1<cr>}$/;"	m
-<RightDrag>	init.vim	/^noremap <RightDrag> <nop>$/;"	m
+<RightDrag>	init.vim	/^noremap! <RightDrag> <nop>$/;"	m
 <S-C-q>	init.vim	/^map <S-C-q> <Esc>:qa!<CR>$/;"	m
 <S-C-q>	initexperiminent.vim	/^map <S-C-q> <Esc>:qa!<CR>$/;"	m
 <S-ScrollWheelDown>	init.vim	/^noremap <S-ScrollWheelDown>  <nop>$/;"	m
