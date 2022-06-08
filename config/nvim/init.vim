@@ -598,9 +598,7 @@ function Sentence()
   silent execute "!pwsh -c sentence.ps1 %"
   " silent call getchar()
   e sentence_%
-  echo "Print any character"
-  call getchar()
-  let b:paste = system('pwsh -c Get-Clipboard')
+  " let b:paste = system('pwsh -c Get-Clipboard')
   call feedkeys(":BLines \<c-r>+\<cr>")
 endfunction
 noremap LL :lua require("zen-mode").close()<cr>:call Sentence()<cr>
