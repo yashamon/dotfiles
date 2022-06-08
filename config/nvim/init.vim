@@ -602,6 +602,7 @@ function Sentence()
   silent execute "!pwsh -c sentence.ps1 %"
   " silent call getchar()
   e sentence_%
+  sleep 1
   " let b:paste = system('pwsh -c Get-Clipboard')
   call feedkeys(":BLinesB \<c-r>+\<cr>")
 endfunction
