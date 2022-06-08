@@ -301,7 +301,7 @@ R	autoload/plug.vim	/^  nnoremap <silent> <buffer> R  :call <SID>retry()<cr>$/;"
 Reset	init.vim	/^function Reset()$/;"	f
 Reset	initexperiminent.vim	/^function Reset()$/;"	f
 S	autoload/plug.vim	/^  nnoremap <silent> <buffer> S  :PlugStatus<cr>$/;"	m
-S	init.vim	/^noremap S <Esc> :BLines<CR>$/;"	m
+S	init.vim	/^noremap S <Esc> :BLinesB<CR>$/;"	m
 S	initexperiminent.vim	/^noremap S <Esc> :BLines<CR>$/;"	m
 Sentence	init.vim	/^function Sentence()$/;"	f
 Sentence	initexperiminent.vim	/^function Sentence()$/;"	f
