@@ -78,19 +78,10 @@ cmd namepaste $cp-p --lf-paste $id
 # map gc :namepaste
 map p :spaste
 map gp :paste
-cmd findfile ${{
-   res="$(fd . $HOME -H | fzf 2>/dev/tty)"
-   if [ -d "$res" ]; then
-      cmd="cd"
-   else
-      cmd="select"
-   fi
- lf -remote "send $id $cmd \"$res\""
- }}
-
+cmd findfile $& "C:\Users\yasha\dotfiles\scripts\lfcdfindfile.ps1"
 map <a-f> :findfile
 
- cmd findfileroot ${{
+cmd findfileroot ${{
     res="$(fd . '/' -H | fzf --reverse --header='Jump to location')"
     if [ -d "$res" ]; then
         cmd="cd"
@@ -131,16 +122,7 @@ cmd fasd_dir ${{
 
 # map  :fasd_dir
 map J  :fasd_dir 
-cmd Jhomedir  $& "C:\Users\yasha\dotfiles\scripts\JumpDir.ps1"
-# $Invoke-Command -ScriptBlock { $res= fd . $HOME -t d -H | fzf --reverse --header='Jump to location' | sed s/\\/\\\\/g
-# if (  Test-Path -Path "$res" -PathType Container )
-#      { $cmd= "cd" }
-# else 
-#     { $cmd="select" }
-# echo $res
-# lf -remote "send $cmd `\`".\$res`\`""
-# }
-
+cmd Jhomedir  $& "C:\Users\yasha\dotfiles\scripts\lfcdJumpDir.ps1"
 map <a-j> :Jhomedir
 
 cmd Jrootdir  $& "C:\Users\yasha\dotfiles\scripts\JumpRootDir.ps1"
