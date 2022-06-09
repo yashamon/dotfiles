@@ -599,7 +599,7 @@ command! -bang -nargs=* BLinesB
     " \   fzf#vim#with_preview({'options': '--layout reverse  --with-nth=-1.. --delimiter="/"'}, 'right:50%'))
 function Sentence()
   let g:buf = bufname()
-  silent execute "!pwsh -c sentence.ps1 %"
+  silent execute "!bash /mnt/c/Users/yasha/dotfiles/scripts/sentence.sh %"
   " silent call getchar()
   e sentence_%
   sleep 1
