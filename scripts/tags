@@ -27,6 +27,7 @@ newfile	sentence.ps1	/^$newfile='sentence_' + "$f"$/;"	v
 parameter1	fuck.ps1	/^$parameter1 = $args[0]$/;"	v
 res	jumpDir.ps1	/^Invoke-Command -ScriptBlock { $res= fd . $HOME -t d -H | fzf --reverse --header='Jump to locatio/;"	v
 res	jumpRootDir.ps1	/^Invoke-Command -ScriptBlock { $res= fd . '\/' -t d -H | fzf --reverse --header='Jump to location/;"	v
+res	lfcdFindFile.ps1	/^$res= fd . $HOME -t f -H | fzf --reverse --header='Jump to location' | sed s\/\\\\\/\\\\\\\\\/g$/;"	v
 res	simplejump.ps1	/^$res= fd . -H -I -d 1 | fzf --reverse --header='Jump to location' | sed 's\/\\\\\/\\\\\\\\\/g' $/;"	v
 tmp	lfcd.ps1	/^$tmp = [System.IO.Path]::GetTempFileName()$/;"	v
 tmp	lfcdWin.ps1	/^$tmp = [System.IO.Path]::GetTempFileName()$/;"	v
