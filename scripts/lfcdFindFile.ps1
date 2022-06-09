@@ -1,4 +1,4 @@
-$res= fd . $HOME -H -I 1 | fzf --reverse --header='Jump to location' | sed 's/\\/\\\\/g' 
+$res= fd . $HOME -H -I | fzf --reverse --header='Jump to location' | sed 's/\\/\\\\/g' 
 if ( Test-Path -Path "$res" -PathType Container )
      {  if ($res -notmatch '\\$') 
             { $res+= '\'
