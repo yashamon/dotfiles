@@ -46,7 +46,7 @@ set hidden
 #     lf -remote "send echomsg "deletesucess""
 # }}
 
-cmd trash $lfcdTrash.ps1 $env:fx
+cmd trash $pwsh -c lfcdTrash.ps1 $env:fx
 # cmd trash recycle-bin $Env:fx
 set previewer stpv
 set cleaner stpvimgclr
