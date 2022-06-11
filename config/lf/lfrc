@@ -45,7 +45,7 @@ set hidden
 #     lf -remote "send echomsg "deletesucess""
 # }}
 
-cmd trash $& "C:\Users\yasha\dotfiles\scripts\lfcdTrash.ps1" $Env:fx
+cmd trash $recycle-bin [string]$Env:fx
 # cmd trash recycle-bin "$@"
 set previewer stpv
 set cleaner stpvimgclr
