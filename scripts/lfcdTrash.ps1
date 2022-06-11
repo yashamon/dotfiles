@@ -1,1 +1,1 @@
-foreach ($x in $args) { recycle-bin $x }
+foreach ($x in "$@") { recycle-bin $x }
