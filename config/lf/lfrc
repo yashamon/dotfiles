@@ -1,5 +1,5 @@
 set ratios 1:2:3  
-set shell powershell
+set shell pwsh
 # Shell commands with multiline definitions and/or positional arguments and/or
 # quotes do not work in Windows. For anything but the simplest shell commands,
 # it is recommended to create separate script files and simply call them here
@@ -46,7 +46,7 @@ set hidden
 #     lf -remote "send echomsg "deletesucess""
 # }}
 
-cmd trash $lfcdTrash.ps1 $env:f
+cmd trash $pwsh -c lfcdTrash.ps1 $env:f
 # cmd trash recycle-bin $Env:fx
 set previewer stpv
 set cleaner stpvimgclr
