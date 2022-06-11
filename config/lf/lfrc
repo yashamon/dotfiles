@@ -46,7 +46,7 @@ set hidden
 # }}
 
 # cmd trash $"C:\Users\yasha\dotfiles\scripts\lfcdTrash.ps1" "$Env:fx"
-cmd trash $foreach ($x in $Env:fx) { recycle-bin $x }
+cmd trash $foreach ($x in $Env:fx) { Remove-Item $x }
 set previewer stpv
 set cleaner stpvimgclr
 &stpvimg --listen $id 
