@@ -270,7 +270,7 @@ cmd zle-init :{{
 
 # y (select for copy) and P to paste soft-link
 # d (select for cut) and P to paste hard-link
-cmd link %C:\Users\yasha\dotfiles\scripts\lfLn.ps1
+cmd link %pwsh -c C:\Users\yasha\dotfiles\scripts\lfLn.ps1 $Env:fx
 map P :link
 
 
