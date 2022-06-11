@@ -10,6 +10,7 @@ set shell powershell
 # keybindings with explicit choices accordingly.
 # change the default open command to work in powerShell
 cmd open &start $Env:f
+set filesep " "
 # change the editor used in default editor keybinding
 # There is no builtin terminal editor installed in Windows. The default editor
 # mapping uses 'notepad' which launches in a separate GUI window. You may
