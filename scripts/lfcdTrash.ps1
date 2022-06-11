@@ -1,1 +1,1 @@
-foreach ($x in $args) { Remove-Item $x }
+foreach ($x in $args) { recycle-bin $x }
