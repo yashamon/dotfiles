@@ -37,7 +37,7 @@ set shell powershell
 # set filesep "\n"  # default already
 set hidden  
 # cmd trash &{{
-# set -- $(cat ~/.local/share/lf/files)
+# set -- $(cat ~/.local/shahe/lf/files)
 #     trash-put "$@" .;;
 #     rm ~/.local/share/lf/files
 #     lf -remote "send clear"
@@ -45,8 +45,8 @@ set hidden
 #     lf -remote "send echomsg "deletesucess""
 # }}
 
-cmd trash $"C:\Users\yasha\dotfiles\scripts\lfcdTrash.ps1 $Env:fx"
-# cmd trash recycle-bin $Env:fx
+# cmd trash $"C:\Users\yasha\dotfiles\scripts\lfcdTrash.ps1" "$Env:fx"
+cmd trash $foreach ($x in $Env:fx) { recycle-bin $x }
 set previewer stpv
 set cleaner stpvimgclr
 &stpvimg --listen $id 
