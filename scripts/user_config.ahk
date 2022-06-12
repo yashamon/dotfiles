@@ -21,16 +21,33 @@
 ; === END OF INSTRUCTIONS ===
 ; ===========================
 
-#A::switchDesktopByNumber(1)
-#S::switchDesktopByNumber(2)
-#D::switchDesktopByNumber(3)
-#4::switchDesktopByNumber(4)
-#F::switchDesktopByNumber(5)
-#6::switchDesktopByNumber(6)
-#7::switchDesktopByNumber(7)
-#8::switchDesktopByNumber(8)
-#9::switchDesktopByNumber(9)
-
+#A::
+switchDesktopToLeft()
+switchDesktopToLeft() 
+switchDesktopToLeft()
+switchDesktopToLeft()
+switchDesktopToLeft() 
+switchDesktopToLeft()
+return
+#S::
+switchDesktopToLeft()
+switchDesktopToLeft() 
+switchDesktopToLeft()
+switchDesktopToLeft()
+switchDesktopToLeft() 
+switchDesktopToLeft()
+switchDesktopToRight()
+return
+#D::
+switchDesktopToLeft()
+switchDesktopToLeft() 
+switchDesktopToLeft()
+switchDesktopToLeft()
+switchDesktopToLeft() 
+switchDesktopToLeft()
+switchDesktopToRight()
+switchDesktopToRight()
+return
 CapsLock & Numpad1::switchDesktopByNumber(1)
 CapsLock & Numpad2::switchDesktopByNumber(2)
 CapsLock & Numpad3::switchDesktopByNumber(3)
@@ -41,8 +58,8 @@ CapsLock & Numpad7::switchDesktopByNumber(7)
 CapsLock & Numpad8::switchDesktopByNumber(8)
 CapsLock & Numpad9::switchDesktopByNumber(9)
 
-CapsLock & n::switchDesktopToRight()
-CapsLock & p::switchDesktopToLeft()
+#n::switchDesktopToRight()
+#p::switchDesktopToLeft()
 CapsLock & s::switchDesktopToRight()
 CapsLock & a::switchDesktopToLeft()
 CapsLock & tab::switchDesktopToLastOpened()
