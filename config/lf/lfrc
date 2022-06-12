@@ -1,5 +1,5 @@
 set ratios 1:2:3  
-set shell pwsh
+set shell cmd
 # Shell commands with multiline definitions and/or positional arguments and/or
 # quotes do not work in Windows. For anything but the simplest shell commands,
 # it is recommended to create separate script files and simply call them here
@@ -22,7 +22,7 @@ set filesep " "
 # pager keybinding accordingly.
 map i $less $Env:f
 # change the shell used in default shell keybinding
-map w $powershell
+map w $pwsh
 # change 'doc' command to use a different pager
 cmd doc $lf -doc | less
 # leave some space at the top and the bottom of the screen
@@ -32,7 +32,6 @@ map <enter> shell
 # set cleaner ~/.config/lf/cleaner
 # set previewer ~/.config/lf/preview
 # interpreter for shell commands
-set shell powershell
 # set shellopts '-euy'
 # set ifs "\n"
 # set filesep "\n"  # default already
@@ -176,10 +175,9 @@ set -- $(cat ~/.local/share/lf/files)
     lf -remote "send echomsg "copysucessblah""
 }}
 
-# cmd rename %{param ([string]$f) mv $Env:fx.Trim('"') $f}.Invoke($1)
-cmd rename %sh mv $f $1
+# cmd rename %pwsh -c {param ([string]$f) mv $Env:fx.Trim('"') $f}.Invoke($1)
 # cmd cpmove %[ -e $destination ] && printf "file exists" || spastename $f $1
-
+cmd rename %mv $f $1
 map r push :rename<space>
 map gc :spastename
 
