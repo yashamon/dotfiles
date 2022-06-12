@@ -22,31 +22,15 @@
 ; ===========================
 
 #A::
-switchDesktopToLeft()
-switchDesktopToLeft() 
-switchDesktopToLeft()
-switchDesktopToLeft()
-switchDesktopToLeft() 
-switchDesktopToLeft()
+send, {^#Left 9}
 return
 #S::
-switchDesktopToLeft()
-switchDesktopToLeft() 
-switchDesktopToLeft()
-switchDesktopToLeft()
-switchDesktopToLeft() 
-switchDesktopToLeft()
-switchDesktopToRight()
+send, {^#Left 9}
+send, ^#Right
 return
 #D::
-switchDesktopToLeft()
-switchDesktopToLeft() 
-switchDesktopToLeft()
-switchDesktopToLeft()
-switchDesktopToLeft() 
-switchDesktopToLeft()
-switchDesktopToRight()
-switchDesktopToRight()
+send, {^#Left 9}
+send, {^#Right 2 }
 return
 CapsLock & Numpad1::switchDesktopByNumber(1)
 CapsLock & Numpad2::switchDesktopByNumber(2)
