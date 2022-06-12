@@ -176,8 +176,8 @@ set -- $(cat ~/.local/share/lf/files)
     lf -remote "send echomsg "copysucessblah""
 }}
 
-cmd rename %[ -e $1 ] && printf "file exists" || mv $f $1 
-cmd cpmove %[ -e $destination ] && printf "file exists" || spastename $f $1
+cmd rename %pwsh -c (Test-Path $args[0] ) && printf "file exists" || mv $f $args[0]
+# cmd cpmove %[ -e $destination ] && printf "file exists" || spastename $f $1
 
 map r push :rename<space>
 map gc :spastename
@@ -335,14 +335,14 @@ map ra ${{
 	lf -remote "send $id push :rename<space>$filename"
 }}
 # Edit filename before the extension
-map r ${{
-	# get 'basename' of the selection
-	filename="${f##*/}"
-	# quote it so we won't deal with quotes in the lf -remote command
-	filename="$(printf '%q' "$filename")"
-	filename="${filename// /<space>}"
-	lf -remote "send $id push :rename<space>$filename<a-b><c-b>"
-}} 
+# map r ${{
+# 	# get 'basename' of the selection
+# 	filename="${f##*/}"
+# 	# quote it so we won't deal with quotes in the lf -remote command
+# 	filename="$(printf '%q' "$filename")"
+# 	filename="${filename// /<space>}"
+# 	lf -remote "send $id push :rename<space>$filename<a-b><c-b>"
+# }} 
 
 # map q quitcd
 # cmd quitcd ${{
