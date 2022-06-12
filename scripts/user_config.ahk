@@ -41,12 +41,29 @@ sleep 5
 send ^#{Left} 
 return
 #S::
-send, {^#Left 9}
+5end, {^#Left 9}
 send, ^#Right
 return
 #D::
-send, {^#Left 9}
-send, {^#Right 2 }
+send ^#{Left} 
+sleep 5
+send ^#{Left} 
+sleep 5
+send ^#{Left} 
+sleep 5
+send ^#{Left} 
+sleep 5
+send ^#{Left} 
+sleep 5
+send ^#{Left} 
+sleep 5
+send ^#{Left} 
+sleep 5
+send ^#{Left} 
+sleep 5
+send ^#{Left} 
+sleep 5
+send ^#{Right} 
 return
 CapsLock & Numpad1::switchDesktopByNumber(1)
 CapsLock & Numpad2::switchDesktopByNumber(2)
