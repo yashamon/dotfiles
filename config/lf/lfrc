@@ -177,7 +177,7 @@ set -- $(cat ~/.local/share/lf/files)
 
 # cmd rename %pwsh -c {param ([string]$f) mv $Env:fx.Trim('"') $f}.Invoke($1)
 # cmd cpmove %[ -e $destination ] && printf "file exists" || spastename $f $1
-cmd rename %mv $f $1
+cmd rename %pwsh -c mv $f $1
 map r push :rename<space>
 map gc :spastename
 
