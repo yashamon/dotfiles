@@ -22,7 +22,7 @@
 ; ===========================
 
 #A::
-send, {^#Left 9}
+send, {^#{Left} 9}
 return
 #S::
 send, {^#Left 9}
