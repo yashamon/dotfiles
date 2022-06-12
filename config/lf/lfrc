@@ -176,7 +176,7 @@ set -- $(cat ~/.local/share/lf/files)
     lf -remote "send echomsg "copysucessblah""
 }}
 
-cmd rename %(pwsh -c mv $Env:f $args[0])
+cmd rename %lfrename.ps1 $Env:f $args[0]
 # cmd cpmove %[ -e $destination ] && printf "file exists" || spastename $f $1
 
 map r push :rename<space>
@@ -324,7 +324,7 @@ cmd bulk-rename ${{
 # Unmap the default binding
 # map r
 # Rename the file with a completely different name
-map rc push :rename<space>
+# map rc push :rename<space>
 # Edit the current filename
 map ra ${{
 	# get 'basename' of the selection
