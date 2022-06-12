@@ -1,5 +1,5 @@
 set ratios 1:2:3  
-set shell cmd
+set shell pwsh
 # Shell commands with multiline definitions and/or positional arguments and/or
 # quotes do not work in Windows. For anything but the simplest shell commands,
 # it is recommended to create separate script files and simply call them here
@@ -177,7 +177,7 @@ set -- $(cat ~/.local/share/lf/files)
 
 # cmd rename %pwsh -c {param ([string]$f) mv $Env:fx.Trim('"') $f}.Invoke($1)
 # cmd cpmove %[ -e $destination ] && printf "file exists" || spastename $f $1
-cmd rename %pwsh -c mv $f $1
+
 map r push :rename<space>
 map gc :spastename
 
