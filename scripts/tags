@@ -16,7 +16,7 @@ d	sentence.ps1	/^$d=$c -replace "\\.\\s+", "\\.@`n" -replace "\\.@", ".@`n" -rep
 dir	lfcd.ps1	/^    $dir = Get-Content "$tmp"$/;"	v
 dir	lfcdWin.ps1	/^    $dir = Get-Content "$tmp"$/;"	v
 e	remote.ps1	/^$e="nvim --server " + "$var" + " --remote-send " + "`'" + ':' +$/;"	v
-f	lfLn.ps1	/^foreach ($x in $args) { $f= ( Split-Path $x -leaf ); new-Item -ItemType SymbolicLink -Path "$x" /;"	v
+f	lfLn.ps1	/^foreach ($x in $args) { $f= ( Split-Path $x -leaf ); new-Item -ItemType SymbolicLink -Path ".\/$/;"	v
 f	sentence.ps1	/^$f=$args[0]$/;"	v
 ho	nf.ps1	/^$ho=fd . $HOME -t f -H | fzf$/;"	v
 install_zsh	makesymlinksChromeos.sh	/^install_zsh () {$/;"	f
