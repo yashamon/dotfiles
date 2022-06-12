@@ -22,15 +22,8 @@
 ; ===========================
 
 #A::
-send ^#{Left}
-send {^}{#}{Left}
-send {^}{#}{Left}
-send {^}{#}{Left}
-send {^}{#}{Left}
-send {^}{#}{Left}
-send {^}{#}{Left}
-send {^}{#}{Left}
-send {^}{#}{Left}
+send {^#{Left} 9}
+; send {^}{#}{Left} */
 return
 #S::
 send, {^#Left 9}
