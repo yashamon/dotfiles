@@ -23,21 +23,21 @@
 
 #A::
 send ^#{Left} 
-sleep 1
+sleep 5
 send ^#{Left} 
-sleep 1
+sleep 5
 send ^#{Left} 
-sleep 1
+sleep 5
 send ^#{Left} 
-sleep 1
+sleep 5
 send ^#{Left} 
-sleep 1
+sleep 5
 send ^#{Left} 
-sleep 1
+sleep 5
 send ^#{Left} 
-sleep 1
+sleep 5
 send ^#{Left} 
-sleep 1
+sleep 5
 send ^#{Left} 
 return
 #S::
