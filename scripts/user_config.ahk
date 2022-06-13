@@ -83,6 +83,7 @@ sleep 10
 send ^#{Right} 
 sleep 10
 send ^#{Right} 
+sleep 20
 send {click 100 200} 
 return
 
