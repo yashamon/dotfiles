@@ -83,6 +83,7 @@ sleep 10
 send ^#{Right} 
 sleep 10
 send ^#{Right} 
+send {click 100 200} 
 return
 
 CapsLock::Escape
