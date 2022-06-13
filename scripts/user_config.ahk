@@ -83,7 +83,7 @@ sleep 60
 send ^#{Right} 
 sleep 60
 send ^#{Right} 
-sleep 200
+sleep 100
 send {click 100 200} 
 return
 
@@ -92,6 +92,7 @@ CapsLock::Escape
 send {F11}
 return
 End::CapsLock
+
 #!h::
 return
 #h::
