@@ -111,7 +111,6 @@ return
 
 CapsLock::Escape
 End::CapsLock
-return
 #!h::
 return
 #h::
@@ -119,6 +118,9 @@ return
 #k::
 return
 #!k::
+return
+#^l::
+return
 
 
 
