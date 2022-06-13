@@ -84,7 +84,43 @@ send ^#{Right}
 sleep 5
 send ^#{Right} 
 return
-
+#D::
+send ^#{Left} 
+sleep 5
+send ^#{Left} 
+sleep 5
+send ^#{Left} 
+sleep 5
+send ^#{Left} 
+sleep 5
+send ^#{Left} 
+sleep 5
+send ^#{Left} 
+sleep 5
+send ^#{Left} 
+sleep 5
+send ^#{Left} 
+sleep 5
+send ^#{Left} 
+sleep 5
+send ^#{Right} 
+sleep 5
+send ^#{Right} 
+sleep 5
+send ^#{Right} 
+return
+CapsLock::
+send {Esc}
+return
+End::
+send {CapsLock}
+return
+#!h::
+return
+#!k::
+return
+send {CapsLock}
+return
 CapsLock & Numpad1::switchDesktopByNumber(1)
 CapsLock & Numpad2::switchDesktopByNumber(2)
 CapsLock & Numpad3::switchDesktopByNumber(3)
