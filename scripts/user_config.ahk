@@ -49,7 +49,6 @@ sleep 15
 send ^#{Left} 
  sleep 15
 send ^#{Right} 
-return
 sleep 100
 send {click 100 200} 
 return
@@ -69,7 +68,6 @@ sleep 15
 send ^#{Right} 
 sleep 15
 send ^#{Right} 
-return
 sleep 100
 send {click 100 200} 
 return
@@ -91,10 +89,10 @@ sleep 15
 send ^#{Right} 
 sleep 15
 send ^#{Right} 
-sleep 200
+sleep 100
 send {click 100 200} 
 return
-#c::
+#C::
 send ^#{Left} 
 sleep 15
 send ^#{Left} 
@@ -150,7 +148,9 @@ return
 #Enter::
     Run "pwsh" 
     Return
-
+#Enter::
+    Run "neo"
+    Return
 ; Win+Shift+Break - Edit this file
 #+Break::
     Run "neo" "d:\AutoHotkey.ahk"
