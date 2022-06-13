@@ -22,32 +22,32 @@
 
 #A::
 send ^#{Left} 
-sleep 30
+sleep 15
 send ^#{Left} 
-sleep 30
+sleep 15
 send ^#{Left} 
-sleep 30
+sleep 15
 send ^#{Left} 
-sleep 30
+sleep 15
 send ^#{Left} 
-sleep 30
+sleep 15
 send ^#{Left} 
 sleep 100
 send {click 100 200} 
 return
 #S::
 send ^#{Left} 
-sleep 30
+sleep 15
 send ^#{Left} 
-sleep 30
+sleep 15
 send ^#{Left} 
-sleep 30
+sleep 15
 send ^#{Left} 
-sleep 30
+sleep 15
 send ^#{Left} 
-sleep 30
+sleep 15
 send ^#{Left} 
- sleep 30
+ sleep 15
 send ^#{Right} 
 return
 sleep 100
@@ -55,19 +55,19 @@ send {click 100 200}
 return
 #D::
 send ^#{Left} 
-sleep 30
+sleep 15
 send ^#{Left} 
-sleep 30
+sleep 15
 send ^#{Left} 
-sleep 30
+sleep 15
 send ^#{Left} 
-sleep 30
+sleep 15
 send ^#{Left} 
-sleep 30
+sleep 15
 send ^#{Left} 
-sleep 30
+sleep 15
 send ^#{Right} 
-sleep 30
+sleep 15
 send ^#{Right} 
 return
 sleep 100
@@ -75,48 +75,48 @@ send {click 100 200}
 return
 #F::
 send ^#{Left} 
-sleep 30
+sleep 15
 send ^#{Left} 
-sleep 30
+sleep 15
 send ^#{Left} 
-sleep 30
+sleep 15
 send ^#{Left} 
-sleep 30
+sleep 15
 send ^#{Left} 
-sleep 30
+sleep 15
 send ^#{Left} 
-sleep 30
+sleep 15
 send ^#{Right} 
-sleep 30
+sleep 15
 send ^#{Right} 
-sleep 30
+sleep 15
 send ^#{Right} 
 sleep 200
 send {click 100 200} 
 return
 #c::
 send ^#{Left} 
-sleep 30
+sleep 15
 send ^#{Left} 
-sleep 30
+sleep 15
 send ^#{Left} 
-sleep 30
+sleep 15
 send ^#{Left} 
-sleep 30
+sleep 15
 send ^#{Left} 
-sleep 30
+sleep 15
 send ^#{Left} 
-sleep 30
+sleep 15
 send ^#{Right} 
-sleep 30
+sleep 15
 send ^#{Right} 
-sleep 30
+sleep 15
 send ^#{Right} 
-sleep 30
+sleep 15
 send ^#{Right}
-sleep 30
+sleep 15
 send ^#{Right}
-sleep 200
+sleep 100
 send {click 100 200} 
 return
 CapsLock::Escape
