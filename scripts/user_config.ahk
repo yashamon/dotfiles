@@ -94,7 +94,31 @@ send ^#{Right}
 sleep 200
 send {click 100 200} 
 return
-
+#6::
+send ^#{Left} 
+sleep 30
+send ^#{Left} 
+sleep 30
+send ^#{Left} 
+sleep 30
+send ^#{Left} 
+sleep 30
+send ^#{Left} 
+sleep 30
+send ^#{Left} 
+sleep 30
+send ^#{Right} 
+sleep 30
+send ^#{Right} 
+sleep 30
+send ^#{Right} 
+sleep 30
+send ^#{Right}
+sleep 30
+send ^#{Right}
+sleep 200
+send {click 100 200} 
+return
 CapsLock::Escape
 #Space::
 send {F11}
