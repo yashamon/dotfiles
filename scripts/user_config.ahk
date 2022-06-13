@@ -117,6 +117,10 @@ send {CapsLock}
 return
 #!h::
 return
+#h::
+return
+#k::
+return
 #!k::
 return
 send {CapsLock}
