@@ -11,7 +11,6 @@
 ; ^   <- Ctrl
 ; #   <- Win
 ; For more, visit https://autohotkey.com/docs/Hotkeys.htm
-
 ; === EXAMPLES ===
 ; !n::switchDesktopToRight()             <- <Alt> + <N> will switch to the next desktop (to the right of the current one)
 ; #!space::switchDesktopToRight()        <- <Win> + <Alt> + <Space> will switch to next desktop
@@ -109,11 +108,10 @@ send ^#{Right}
 sleep 5
 send ^#{Right} 
 return
-CapsLock::
-send {Esc}
-return
-End::
-send {CapsLock}
+
+
+
+End::{CapsLock}
 return
 #!h::
 return
@@ -122,9 +120,9 @@ return
 #k::
 return
 #!k::
-return
-send {CapsLock}
-return
+
+
+
 CapsLock & Numpad1::switchDesktopByNumber(1)
 CapsLock & Numpad2::switchDesktopByNumber(2)
 CapsLock & Numpad3::switchDesktopByNumber(3)
