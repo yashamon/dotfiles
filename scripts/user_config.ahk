@@ -98,6 +98,14 @@ return
 return
 #k::
 return
+#^a::
+return
+#^f::
+return
+#^d::
+return
+#^s::
+return
 #!k::
 return
 #^l::
