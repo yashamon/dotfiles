@@ -86,7 +86,9 @@ send ^#{Right}
 return
 
 CapsLock::Escape
-#Space::{F11}
+#Space::
+send {F11}
+
 End::CapsLock
 #!h::
 return
