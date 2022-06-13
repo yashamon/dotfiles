@@ -124,8 +124,6 @@ return
 return
 #^j::
 return
-#^j::
-return
 
 CapsLock & Numpad1::switchDesktopByNumber(1)
 CapsLock & Numpad2::switchDesktopByNumber(2)
