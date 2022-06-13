@@ -94,7 +94,7 @@ send ^#{Right}
 sleep 200
 send {click 100 200} 
 return
-#6::
+#c::
 send ^#{Left} 
 sleep 30
 send ^#{Left} 
