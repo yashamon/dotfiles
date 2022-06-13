@@ -86,7 +86,7 @@ send ^#{Right}
 return
 
 CapsLock::Escape
-#Space::F11
+#Space::<F11>
 End::CapsLock
 #!h::
 return
@@ -101,6 +101,15 @@ return
 #^j::
 return
 
+; Win+Alt+G - Open Gmail in Chrome
+#Enter::
+    Run "pwsh" 
+    Return
+
+; Win+Shift+Break - Edit this file
+#+Break::
+    Run "neo" "d:\AutoHotkey.ahk"
+    Return
 CapsLock & Numpad1::switchDesktopByNumber(1)
 CapsLock & Numpad2::switchDesktopByNumber(2)
 CapsLock & Numpad3::switchDesktopByNumber(3)
