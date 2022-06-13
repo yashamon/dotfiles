@@ -110,7 +110,7 @@ send ^#{Right}
 return
 
 CapsLock::Escape
-!Space::F11
+#Space::F11
 End::CapsLock
 #!h::
 return
