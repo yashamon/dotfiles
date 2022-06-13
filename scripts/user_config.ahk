@@ -32,6 +32,8 @@ sleep 30
 send ^#{Left} 
 sleep 30
 send ^#{Left} 
+sleep 100
+send {click 100 200} 
 return
 #S::
 send ^#{Left} 
@@ -47,6 +49,9 @@ sleep 30
 send ^#{Left} 
  sleep 30
 send ^#{Right} 
+return
+sleep 100
+send {click 100 200} 
 return
 #D::
 send ^#{Left} 
@@ -64,6 +69,9 @@ sleep 30
 send ^#{Right} 
 sleep 30
 send ^#{Right} 
+return
+sleep 100
+send {click 100 200} 
 return
 #F::
 send ^#{Left} 
