@@ -22,90 +22,66 @@
 
 #A::
 send ^#{Left} 
-sleep 60
+sleep 10
 send ^#{Left} 
-sleep 60
+sleep 10
 send ^#{Left} 
-sleep 60
+sleep 10
 send ^#{Left} 
-sleep 60
+sleep 10
 send ^#{Left} 
-sleep 60
-send ^#{Left} 
-sleep 60
-send ^#{Left} 
-sleep 60
-send ^#{Left} 
-sleep 60
+sleep 10
 send ^#{Left} 
 return
 #S::
 send ^#{Left} 
-sleep 60
+sleep 10
 send ^#{Left} 
-sleep 60
+sleep 10
 send ^#{Left} 
-sleep 60
+sleep 10
 send ^#{Left} 
-sleep 60
+sleep 10
 send ^#{Left} 
-sleep 60
+sleep 10
 send ^#{Left} 
-sleep 60
-send ^#{Left} 
-sleep 60
-send ^#{Left} 
-sleep 60
-send ^#{Left} 
-sleep 60
+ sleep 10
 send ^#{Right} 
 return
 #D::
 send ^#{Left} 
-sleep 60
+sleep 10
 send ^#{Left} 
-sleep 60
+sleep 10
 send ^#{Left} 
-sleep 60
+sleep 10
 send ^#{Left} 
-sleep 60
+sleep 10
 send ^#{Left} 
-sleep 60
+sleep 10
 send ^#{Left} 
-sleep 60
-send ^#{Left} 
-sleep 60
-send ^#{Left} 
-sleep 60
-send ^#{Left} 
-sleep 60
+sleep 10
 send ^#{Right} 
-sleep 60
+sleep 10
 send ^#{Right} 
 return
 #F::
 send ^#{Left} 
-sleep 60
+sleep 10
 send ^#{Left} 
-sleep 60
+sleep 10
 send ^#{Left} 
-sleep 60
+sleep 10
 send ^#{Left} 
-sleep 60
+sleep 10
 send ^#{Left} 
-sleep 60
+sleep 10
 send ^#{Left} 
-sleep 60
-send ^#{Left} 
-sleep 60
-send ^#{Left} 
-sleep 60
-send ^#{Left} 
-sleep 60
+sleep 10
 send ^#{Right} 
-sleep 60
+sleep 10
 send ^#{Right} 
-sleep 60
+sleep 10
 send ^#{Right} 
 return
 
