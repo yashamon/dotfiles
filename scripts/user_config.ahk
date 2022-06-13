@@ -88,7 +88,7 @@ return
 CapsLock::Escape
 #Space::
 send {F11}
-
+return
 End::CapsLock
 #!h::
 return
