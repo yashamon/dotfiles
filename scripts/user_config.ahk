@@ -19,93 +19,93 @@
 ; ===========================
 ; === END OF INSTRUCTIONS ===
 ; ===========================
-
+[int]$sleep=10
 #A::
 send ^#{Left} 
-sleep 5
+sleep $sleep
 send ^#{Left} 
-sleep 5
+sleep $sleep
 send ^#{Left} 
-sleep 5
+sleep $sleep
 send ^#{Left} 
-sleep 5
+sleep $sleep
 send ^#{Left} 
-sleep 5
+sleep $sleep
 send ^#{Left} 
-sleep 5
+sleep $sleep
 send ^#{Left} 
-sleep 5
+sleep $sleep
 send ^#{Left} 
-sleep 5
+sleep $sleep
 send ^#{Left} 
 return
 #S::
 send ^#{Left} 
-sleep 5
+sleep $sleep
 send ^#{Left} 
-sleep 5
+sleep $sleep
 send ^#{Left} 
-sleep 5
+sleep $sleep
 send ^#{Left} 
-sleep 5
+sleep $sleep
 send ^#{Left} 
-sleep 5
+sleep $sleep
 send ^#{Left} 
-sleep 5
+sleep $sleep
 send ^#{Left} 
-sleep 5
+sleep $sleep
 send ^#{Left} 
-sleep 5
+sleep $sleep
 send ^#{Left} 
-sleep 5
+sleep $sleep
 send ^#{Right} 
 return
 #D::
 send ^#{Left} 
-sleep 5
+sleep $sleep
 send ^#{Left} 
-sleep 5
+sleep $sleep
 send ^#{Left} 
-sleep 5
+sleep $sleep
 send ^#{Left} 
-sleep 5
+sleep $sleep
 send ^#{Left} 
-sleep 5
+sleep $sleep
 send ^#{Left} 
-sleep 5
+sleep $sleep
 send ^#{Left} 
-sleep 5
+sleep $sleep
 send ^#{Left} 
-sleep 5
+sleep $sleep
 send ^#{Left} 
-sleep 5
+sleep $sleep
 send ^#{Right} 
-sleep 5
+sleep $sleep
 send ^#{Right} 
 return
 #F::
 send ^#{Left} 
-sleep 5
+sleep $sleep
 send ^#{Left} 
-sleep 5
+sleep $sleep
 send ^#{Left} 
-sleep 5
+sleep $sleep
 send ^#{Left} 
-sleep 5
+sleep $sleep
 send ^#{Left} 
-sleep 5
+sleep $sleep
 send ^#{Left} 
-sleep 5
+sleep $sleep
 send ^#{Left} 
-sleep 5
+sleep $sleep
 send ^#{Left} 
-sleep 5
+sleep $sleep
 send ^#{Left} 
-sleep 5
+sleep $sleep
 send ^#{Right} 
-sleep 5
+sleep $sleep
 send ^#{Right} 
-sleep 5
+sleep $sleep
 send ^#{Right} 
 return
 
