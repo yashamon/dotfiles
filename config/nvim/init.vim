@@ -630,7 +630,7 @@ function ToggleQuickFix()
         let b:filenamedir=expand('%:p:h')  
         echo b:filenamedir
         let b:filename=expand('%:t:r')
-        let b:errors=b:filenamedir . "/buildback/" . b:filename .".log"
+        let b:errors=b:filenamedir . "/build/" . b:filename .".log"
         echo b:errors
         exec "caddf" b:errors
         copen
@@ -645,13 +645,13 @@ endfunction
 
 nnoremap <leader>s :silent call ToggleQuickFix()<CR>
 function! ClearLatex()
-  silent !rm ./buildback/* 
+  silent !rm ./build/* 
 endfunction 
 
 function! CompileLatex()
   silent call ClearLatex()
   let buf=bufname()
-  silent te pwsh -c latexmk -pvc -halt-on-error -synctex=1 -file-line-error -f -output-directory="buildback" %
+  silent te pwsh -c latexmk -pvc -halt-on-error -synctex=1 -file-line-error -f -output-directory="build" %
   execute "buffer" buf
   call ViewPdf()
 endfunction
@@ -670,7 +670,7 @@ let filenametexwhole=expand('%:p')
 let filenameroot=expand('%:t:r')
 " let filenamePDF=filename[:-4]."pdf"
 let filenamePDFLinux=b:filenamedir . "/buildback/" . filenameroot . ".pdf"
-let b:filenamePDFWindows="buildback\\" . filenameroot . ".pdf"
+let b:filenamePDFWindows="build\\" . filenameroot . ".pdf"
 " echo b:filenamePDFWindows
 let execstrLinux="silent te zathura --synctex-forward " . linenumber . ":" . colnumber . ":" . filenametexwhole . " " . filenamePDFLinux
 let execstrWindows="silent te pwsh -c C:/Users/yasha/scoop/shims/sumatrapdf.EXE -reuse-instance " . b:filenamePDFWindows . " -forward-search " . filenametex . " " . linenumber
