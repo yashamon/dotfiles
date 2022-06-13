@@ -84,7 +84,7 @@ send ^#{Right}
 sleep 5
 send ^#{Right} 
 return
-#D::
+#F::
 send ^#{Left} 
 sleep 5
 send ^#{Left} 
