@@ -109,9 +109,8 @@ sleep 5
 send ^#{Right} 
 return
 
-
-
-End::{CapsLock}
+CapsLock::Escape
+End::CapsLock
 return
 #!h::
 return
