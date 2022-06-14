@@ -148,9 +148,12 @@ return
 #Enter::
     Run "pwsh" 
     Return
-#Enter::
-    Run "neo"
+#n::
+    Run "pwsh -c nf"
     Return
+#e::
+    Run "edge"
+    Return   
 ; Win+Shift+Break - Edit this file
 #+Break::
     Run "neo" "d:\AutoHotkey.ahk"
