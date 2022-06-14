@@ -33,7 +33,7 @@ send ^#{Left}
 sleep 30
 send ^#{Left} 
 sleep 100
-send {click 3199 1500} 
+send {click 3195 1200} 
 return
 #S::
 send ^#{Left} 
