@@ -57,7 +57,7 @@ Set-PSReadlineKeyHandler -Key Ctrl+Shift+P `
 
 Function Jumphome {fdfind . $HOME -t d -H | fzf | cd}
 Function nf {
-$ho=fdfind . -t f -H | fzf
+$ho=fdfind . $HOME -H | fzf
 neo $ho
 }
 
