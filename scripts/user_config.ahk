@@ -152,8 +152,8 @@ return
     Run "pwsh -c nf"
     Return
 #e::
-    Run "edge"
-    Return   
+Run microsoft-edge:https://autohotkey.com
+Return   
 ; Win+Shift+Break - Edit this file
 #+Break::
     Run "neo" "d:\AutoHotkey.ahk"
