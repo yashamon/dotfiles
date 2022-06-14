@@ -32,12 +32,12 @@ return
 sleep 50
 send {click 3195 1200} 
 return
-#F::switchDesktopByNumber(5)
+#F::switchDesktopByNumber(4)
 sleep 50
 send {click 3195 1200} 
 send {click 3195 1200} 
 return
-#C::switchDesktopByNumber(6)
+#C::switchDesktopByNumber(5)
 sleep 50
 send {click 3195 1200} 
 send {click 3195 1200} 
