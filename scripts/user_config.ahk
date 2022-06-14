@@ -49,7 +49,7 @@ sleep 15
 send ^#{Left} 
  sleep 15
 send ^#{Right} 
-sleep 100
+sleep 50
 send {click 100 200} 
 return
 #D::
