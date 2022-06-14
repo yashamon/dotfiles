@@ -33,7 +33,7 @@ send ^#{Left}
 sleep 30
 send ^#{Left} 
 sleep 100
-send {click 100 200} 
+send {click 1 1} 
 return
 #S::
 send ^#{Left} 
@@ -50,7 +50,7 @@ send ^#{Left}
  sleep 30
 send ^#{Right} 
 sleep 50
-send {click 100 200} 
+send {click 1 1} 
 return
 #D::
 send ^#{Left} 
@@ -69,7 +69,7 @@ send ^#{Right}
 sleep 30
 send ^#{Right} 
 sleep 100
-send {click 100 200} 
+send {click 1 1} 
 return
 #F::
 send ^#{Left} 
@@ -90,7 +90,7 @@ send ^#{Right}
 sleep 30
 send ^#{Right} 
 sleep 100
-send {click 100 200} 
+send {click 1 1} 
 return
 #C::
 send ^#{Left} 
@@ -113,7 +113,7 @@ send ^#{Right}
 sleep 30
 send ^#{Right}
 sleep 100
-send {click 100 200} 
+send {click 1 1} 
 return
 CapsLock::Escape
 #Space::
