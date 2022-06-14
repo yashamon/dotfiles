@@ -20,37 +20,13 @@
 ; === END OF INSTRUCTIONS ===
 ; ===========================
 
-#A::
-send ^#{Left} 
-sleep 40
-send ^#{Left} 
-sleep 40
-send ^#{Left} 
-sleep 40
-send ^#{Left} 
-sleep 40
-send ^#{Left} 
-sleep 40
-send ^#{Left} 
-sleep 100
+#A::switchDesktopByNumber(1)
+sleep 50
 send {click 3195 1200} 
 return
-#S::
-send ^#{Left} 
-sleep 40
-send ^#{Left} 
-sleep 40
-send ^#{Left} 
-sleep 40
-send ^#{Left} 
-sleep 40
-send ^#{Left} 
-sleep 40
-send ^#{Left} 
-sleep 40
-send ^#{Right} 
-sleep 100
-send {click 3195 1200}
+#S::switchDesktopByNumber(1)
+sleep 50
+send {click 3195 1200} 
 return
 #D::
 send ^#{Left} 
