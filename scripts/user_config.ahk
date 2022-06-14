@@ -24,51 +24,24 @@
 sleep 50
 send {click 3195 1200} 
 return
-#S::switchDesktopByNumber(1)
+#S::switchDesktopByNumber(2)
 sleep 50
 send {click 3195 1200} 
 return
-#D::
-send ^#{Left} 
-sleep 40
-send ^#{Left} 
-sleep 40
-send ^#{Left} 
-sleep 40
-send ^#{Left} 
-sleep 40
-send ^#{Left} 
-sleep 40
-send ^#{Left} 
-sleep 40
-send ^#{Right} 
-sleep 40
-send ^#{Right} 
-sleep 100
-send {click 3195 1200}
-return
-#F::
-send ^#{Left} 
-sleep 40
-send ^#{Left} 
-sleep 40
-send ^#{Left} 
-sleep 40
-send ^#{Left} 
-sleep 40
-send ^#{Left} 
-sleep 40
-send ^#{Left} 
-sleep 40
-send ^#{Right} 
-sleep 40
-send ^#{Right} 
-sleep 40
-send ^#{Right} 
-sleep 100
+#D::switchDesktopByNumber(3)
+sleep 50
 send {click 3195 1200} 
 return
-#C::
+#F::switchDesktopByNumber(5)
+sleep 50
+send {click 3195 1200} 
+send {click 3195 1200} 
+return
+#C::switchDesktopByNumber(6)
+sleep 50
+send {click 3195 1200} 
+send {click 3195 1200} 
+return
 send ^#{Left} 
 sleep 40
 send ^#{Left} 
