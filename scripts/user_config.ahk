@@ -41,29 +41,6 @@ return
 sleep 50
 send {click 3195 1200} 
 send {click 3195 1200} 
-return
-send ^#{Left} 
-sleep 40
-send ^#{Left} 
-sleep 40
-send ^#{Left} 
-sleep 40
-send ^#{Left} 
-sleep 40
-send ^#{Left} 
-sleep 40
-send ^#{Left} 
-sleep 40
-send ^#{Right} 
-sleep 40
-send ^#{Right} 
-sleep 40
-send ^#{Right} 
-sleep 40
-send ^#{Right}
-sleep 100
-send {click 3195 1200}
-return
 CapsLock::Escape
 #Space::
 send {F11}
