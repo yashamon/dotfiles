@@ -40,7 +40,7 @@ return
 #C::switchDesktopByNumber(5)
 sleep 50
 send {click 3195 1200} 
-send {click 3195 1200} 
+return
 CapsLock::Escape
 #Space::
 send {F11}
