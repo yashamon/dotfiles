@@ -112,8 +112,6 @@ sleep 30
 send ^#{Right} 
 sleep 30
 send ^#{Right}
-sleep 30
-send ^#{Right}
 sleep 100
 send {click 100 200} 
 return
@@ -152,7 +150,7 @@ return
     Run pwsh -c nf
     Return
 #e::
-Run microsoft-edge
+Run microsoft-edge:https://this-page-intentionally-left-blank.org/
 Return   
 ; Win+Shift+Break - Edit this file
 #+Break::
