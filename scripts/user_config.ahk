@@ -168,8 +168,8 @@ CapsLock & Numpad7::switchDesktopByNumber(7)
 CapsLock & Numpad8::switchDesktopByNumber(8)
 CapsLock & Numpad9::switchDesktopByNumber(9)
 
-#n::switchDesktopToRight()
-#p::switchDesktopToLeft()
+/* #n::switchDesktopToRight() */
+/* #p::switchDesktopToLeft() */
 CapsLock & s::switchDesktopToRight()
 CapsLock & a::switchDesktopToLeft()
 CapsLock & tab::switchDesktopToLastOpened()
