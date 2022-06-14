@@ -22,97 +22,97 @@
 
 #A::
 send ^#{Left} 
-sleep 15
+sleep 30
 send ^#{Left} 
-sleep 15
+sleep 30
 send ^#{Left} 
-sleep 15
+sleep 30
 send ^#{Left} 
-sleep 15
+sleep 30
 send ^#{Left} 
-sleep 15
+sleep 30
 send ^#{Left} 
 sleep 100
 send {click 100 200} 
 return
 #S::
 send ^#{Left} 
-sleep 15
+sleep 30
 send ^#{Left} 
-sleep 15
+sleep 30
 send ^#{Left} 
-sleep 15
+sleep 30
 send ^#{Left} 
-sleep 15
+sleep 30
 send ^#{Left} 
-sleep 15
+sleep 30
 send ^#{Left} 
- sleep 15
+ sleep 30
 send ^#{Right} 
 sleep 50
 send {click 100 200} 
 return
 #D::
 send ^#{Left} 
-sleep 15
+sleep 30
 send ^#{Left} 
-sleep 15
+sleep 30
 send ^#{Left} 
-sleep 15
+sleep 30
 send ^#{Left} 
-sleep 15
+sleep 30
 send ^#{Left} 
-sleep 15
+sleep 30
 send ^#{Left} 
-sleep 15
+sleep 30
 send ^#{Right} 
-sleep 15
+sleep 30
 send ^#{Right} 
 sleep 100
 send {click 100 200} 
 return
 #F::
 send ^#{Left} 
-sleep 15
+sleep 30
 send ^#{Left} 
-sleep 15
+sleep 30
 send ^#{Left} 
-sleep 15
+sleep 30
 send ^#{Left} 
-sleep 15
+sleep 30
 send ^#{Left} 
-sleep 15
+sleep 30
 send ^#{Left} 
-sleep 15
+sleep 30
 send ^#{Right} 
-sleep 15
+sleep 30
 send ^#{Right} 
-sleep 15
+sleep 30
 send ^#{Right} 
 sleep 100
 send {click 100 200} 
 return
 #C::
 send ^#{Left} 
-sleep 15
+sleep 30
 send ^#{Left} 
-sleep 15
+sleep 30
 send ^#{Left} 
-sleep 15
+sleep 30
 send ^#{Left} 
-sleep 15
+sleep 30
 send ^#{Left} 
-sleep 15
+sleep 30
 send ^#{Left} 
-sleep 15
+sleep 30
 send ^#{Right} 
-sleep 15
+sleep 30
 send ^#{Right} 
-sleep 15
+sleep 30
 send ^#{Right} 
-sleep 15
+sleep 30
 send ^#{Right}
-sleep 15
+sleep 30
 send ^#{Right}
 sleep 100
 send {click 100 200} 
