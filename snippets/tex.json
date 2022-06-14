@@ -1158,6 +1158,14 @@
     ],
     "description": "cal Q"
   },
+  "caligraphic E": {
+    "prefix": ["cE"],
+    "body": [
+      "\\mathcal{E} $0"
+    ],
+    "description": "cal E"
+  },
+
 "caligraphic F": {
     "prefix": ["cF"],
     "body": [
