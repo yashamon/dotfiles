@@ -152,7 +152,7 @@ return
     Run pwsh -c nf
     Return
 #e::
-Run microsoft-edge:https://autohotkey.com
+Run microsoft-edge
 Return   
 ; Win+Shift+Break - Edit this file
 #+Break::
