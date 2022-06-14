@@ -149,7 +149,7 @@ return
     Run "pwsh" 
     Return
 #n::
-    Run "pwsh -c nf"
+    Run pwsh -c nf
     Return
 #e::
 Run microsoft-edge:https://autohotkey.com
