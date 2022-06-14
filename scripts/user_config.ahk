@@ -47,9 +47,9 @@ sleep 30
 send ^#{Left} 
 sleep 30
 send ^#{Left} 
- sleep 30
+sleep 30
 send ^#{Right} 
-sleep 50
+sleep 100
 send {click 3195 1200}
 return
 #D::
