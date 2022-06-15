@@ -1175,7 +1175,7 @@ for word in io.open(path, 'r'):lines() do
   table.insert(words, word)
 end
 
-nvim-lsp-installer.ltex.setup {
+require'lspconfig'.ltex.setup{
   on_attach = on_attach,
   capabilities = capabilities,
   settings = {
