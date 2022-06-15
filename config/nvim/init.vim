@@ -38,7 +38,7 @@ Plug 'mbbill/undotree', { 'on': 'UndotreeToggle' }
 " Plug 'reedes/vim-pencil' 
 " Plug 'folke/which-key.nvim', { 'branch': 'main' }
 " Plug 'folke/zen-mode.nvim', {  'branch': 'main' } 
-" Plug 'lewis6991/spellsitter.nvim'
+Plug 'lewis6991/spellsitter.nvim'
 " Plug 'radenling/vim-dispatch-neovim'  
 " Plug 'tpope/vim-dispatch'
 " Plug 'sheerun/vim-polyglot' 
