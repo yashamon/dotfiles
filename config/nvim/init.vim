@@ -30,6 +30,7 @@ Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'neovim/nvim-lspconfig',  { 'branch': 'main' } 
 Plug 'junegunn/fzf.vim'
 Plug 'mbbill/undotree', { 'on': 'UndotreeToggle' }
+Plug 'lewis6991/spellsitter.nvim'
 " Plug 'xolox/vim-misc'
 " Plug 'vim-scripts/AutoTag'
 " Plug 'xolox/vim-easy'
@@ -38,7 +39,6 @@ Plug 'mbbill/undotree', { 'on': 'UndotreeToggle' }
 " Plug 'reedes/vim-pencil' 
 " Plug 'folke/which-key.nvim', { 'branch': 'main' }
 " Plug 'folke/zen-mode.nvim', {  'branch': 'main' } 
-Plug 'lewis6991/spellsitter.nvim'
 " Plug 'radenling/vim-dispatch-neovim'  
 " Plug 'tpope/vim-dispatch'
 " Plug 'sheerun/vim-polyglot' 
