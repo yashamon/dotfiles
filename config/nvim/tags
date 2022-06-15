@@ -425,6 +425,7 @@ g:tex_isk	init.vim	/^let g:tex_isk = '@,48-57,58,_,192-255,:' $/;"	v
 g:tex_isk	initexperiminent.vim	/^let g:tex_isk = '@,48-57,58,_,192-255,:' $/;"	v
 g:vsnip_snippet_dir	init.vim	/^let g:vsnip_snippet_dir = '~\/dotfiles\/snippets'  $/;"	v
 g:vsnip_snippet_dir	initexperiminent.vim	/^let g:vsnip_snippet_dir = '~\/dotfiles\/snippets'  $/;"	v
+g?	init.vim	/^nnoremap <silent> g? <cmd>lua vim.lsp.diagnostic.show_line_diagnostics()<CR>$/;"	m
 gf	init.vim	/^noremap gf gq$/;"	m
 gf	initexperiminent.vim	/^noremap gf gq$/;"	m
 grey_color	colors/wombat256.vim	/^fun <SID>grey_color(n)$/;"	f

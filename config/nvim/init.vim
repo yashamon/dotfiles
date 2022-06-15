@@ -1159,6 +1159,35 @@ require('fzf-lua').setup{
 -- ...
 }
 EOF
+lua <<EOF
+-- ===========================================
+--  Add user dictionary for ltex-ls
+--  * en.utf-8.add must be created using `zg` when set spell is on
+-- ===========================================
+local path = vim.fn.stdpath 'config' .. '/spell/en.utf-8.add'
+local words = {}
+
+for word in io.open(path, 'r'):lines() do
+  table.insert(words, word)
+end
+
+nvim_lsp.ltex.setup {
+  on_attach = on_attach,
+  capabilities = capabilities,
+  settings = {
+    ltex = {
+      disabledRules = {
+        ['en-US'] = { 'PROFANITY' },
+        ['en-GB'] = { 'PROFANITY' },
+      },
+      dictionary = {
+        ['en-US'] = words,
+        ['en-GB'] = words,
+      },
+    },
+  },
+}
+EOF
 
  
 " lua << EOF
