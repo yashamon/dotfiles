@@ -787,7 +787,7 @@ local on_attach = function(client, bufnr)
 
 end
 EOF
-
+nnoremap <silent> g? <cmd>lua vim.lsp.diagnostic.show_line_diagnostics()<CR>
 "Lsp instal 
 lua <<EOF
 local lsp_installer = require("nvim-lsp-installer")
