@@ -21,34 +21,24 @@
 ; ===========================
 
 #A::switchDesktopByNumber(1)
-sleep 50
+sleep 100
 send {click 3195 1200} 
-WinHide, ahk_class Shell_TrayWnd
-WinHide, ahk_class Shell_SecondaryTrayWnd
 return
 #S::switchDesktopByNumber(2)
-sleep 50
+sleep 100
 send {click 3195 1200} 
-WinHide, ahk_class Shell_TrayWnd
-WinHide, ahk_class Shell_SecondaryTrayWnd
 return
 #D::switchDesktopByNumber(3)
-sleep 50
+sleep 100
 send {click 3195 1200} 
-WinHide, ahk_class Shell_TrayWnd
-WinHide, ahk_class Shell_SecondaryTrayWnd
 return
 #F::switchDesktopByNumber(4)
-sleep 50
+sleep 100
 send {click 3195 1200} 
-WinHide, ahk_class Shell_TrayWnd
-WinHide, ahk_class Shell_SecondaryTrayWnd
 return
 #C::switchDesktopByNumber(5)
-sleep 50
+sleep 100
 send {click 3195 1200} 
-WinHide, ahk_class Shell_TrayWnd
-WinHide, ahk_class Shell_SecondaryTrayWnd
 return
 CapsLock::Escape
 #Space::
