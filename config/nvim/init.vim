@@ -753,6 +753,10 @@ smap <expr> <M-k> vsnip#jumpable(-1)  ? '<Plug>(vsnip-jump-prev)'      : '<S-Tab
 "
 " set foldexpr=nvim_treesitter#foldexpr()
 "
+
+lua <<EOF
+require("nvim-lsp-installer").setup {}
+EOF
 lua << EOF
 local nvim_lsp = require('lspconfig')
 -- Use an on_attach function to only map the following keys
@@ -1171,7 +1175,7 @@ for word in io.open(path, 'r'):lines() do
   table.insert(words, word)
 end
 
-nvim_lsp.ltex.setup {
+nvim-lsp-installer.ltex.setup {
   on_attach = on_attach,
   capabilities = capabilities,
   settings = {
