@@ -354,7 +354,7 @@ noremap <leader>q q
 nmap <m-7> :ZenMode<cr>:mksession!<cr>
 nnoremap <leader>rr :w<cr>:source $MYVIMRC<CR>
 nnoremap <leader>u :UndotreeToggle<CR>
-nnoremap <leader>e :w<cr><esc>:Lf<cr>
+nnoremap <leader>e :silent execute "!echo " . v:servername . ' > C:/Users/yasha/servername.txt'<cr>:Lf<cr>
 nnoremap <leader>tt :FloatermToggle<cr>
 nnoremap <leader>t :edit term://pwsh<cr>
 nnoremap <c-,> :cprevious<cr>
@@ -659,7 +659,6 @@ endfunction
 function! ViewPdf() 
 wa
 let g:buffmain=bufname()
-silent execute "!echo " . v:servername . ' > ~/servername.txt'
 silent execute "!echo " . v:servername . ' > C:/Users/yasha/servername.txt'
 let buf=bufname()
 let linenumber=line(".")
