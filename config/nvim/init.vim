@@ -18,7 +18,6 @@ Plug 'hrsh7th/cmp-nvim-lsp', { 'branch': 'main' }
 Plug 'ray-x/cmp-treesitter'
 Plug 'quangnguyen30192/cmp-nvim-tags',  { 'branch': 'main' }  
 Plug 'voldikss/vim-floaterm'
-Plug 'voldikss/vim-floaterm'
 Plug 'terrortylor/nvim-comment', { 'branch': 'main' }
 Plug 'justinhoward/fzf-neoyank'  
 Plug 'rakr/vim-one'
@@ -1103,7 +1102,16 @@ require('fm-nvim').setup{
 		border   = "single", -- opts: 'rounded'; 'double'; 'single'; 'solid'; 'shawdow'
 		height   = .9,
 		width    = .9,
-	}
+                
+          }
+          	-- Mappings used with the plugin
+	mappings = {
+		vert_split = "<C-v>",
+		horz_split = "<C-h>",
+		tabedit    = "<C-t>",
+		edit       = "<C-e>",
+		ESC        = "<ESC>"
+	},
 }
 EOF
 
