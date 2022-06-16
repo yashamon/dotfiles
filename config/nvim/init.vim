@@ -609,6 +609,7 @@ endfunction
 noremap LL :lua require("zen-mode").close()<cr>:call Sentence()<cr>
 " noremap L :TZAtaraxisOff<cr><cr>:call Sentence()<cr>
 function GitAsync()
+silent execute "!echo " . v:servername . ' > ~/servername.txt'
 let g:bufdude = bufname()
 silent te pwsh -c if ( (git rev-parse --is-inside-work-tree) -and (git rev-parse --git-dir) ) { git add . ; git commit -m -a; git push --all origin; ctags -R }
 execute "buffer" g:bufdude
