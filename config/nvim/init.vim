@@ -9,7 +9,7 @@ Plug 'glacambre/firenvim', { 'do': { _ -> firenvim#install(0) } }
 Plug 'is0n/fm-nvim'
 Plug 'williamboman/nvim-lsp-installer', { 'branch': 'main' }
 Plug 'famiu/feline.nvim'
-Plug 'hrsh7th/nvim-cmp', { 'branch': 'main' }
+Plug 'hrsh7th/nvim-cmp-tags', { 'branch': 'main' }
 Plug 'hrsh7th/cmp-vsnip', { 'branch': 'main' } 
 Plug 'hrsh7th/vim-vsnip'
 Plug 'hrsh7th/vim-vsnip-integ'
@@ -865,7 +865,7 @@ requires = {
       -- if you want the sources is available for some file types
       ft = {
         'tex',
-        'latex' 
+        'latex'
       }
     }
     },
@@ -888,8 +888,6 @@ completion = {
     }
 })
 EOF
-
-" 
 " " LSP mappings   
 " "" LSP mappings 
 noremap <leader>ca  :lua vim.lsp.buf.code_action()<CR>
