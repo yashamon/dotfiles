@@ -9,11 +9,11 @@ Plug 'glacambre/firenvim', { 'do': { _ -> firenvim#install(0) } }
 Plug 'is0n/fm-nvim'
 Plug 'williamboman/nvim-lsp-installer', { 'branch': 'main' }
 Plug 'famiu/feline.nvim'
-Plug 'hrsh7th/nvim-cmp-tags', { 'branch': 'main' }
+Plug 'hrsh7th/nvim-cmp', { 'branch': 'main' }
 Plug 'hrsh7th/cmp-vsnip', { 'branch': 'main' } 
 Plug 'hrsh7th/vim-vsnip'
 Plug 'hrsh7th/vim-vsnip-integ'
-Plug 'quangnguyen30192/cmp-nvim-',  { 'branch': 'main' }  
+Plug 'quangnguyen30192/cmp-nvim-tags',  { 'branch': 'main' }  
 Plug 'voldikss/vim-floaterm'
 Plug 'voldikss/vim-floaterm'
 Plug 'terrortylor/nvim-comment', { 'branch': 'main' }
