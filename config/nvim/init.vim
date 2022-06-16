@@ -355,7 +355,7 @@ noremap <leader>q q
 nmap <m-7> :ZenMode<cr>:mksession!<cr>
 nnoremap <leader>rr :w<cr>:source $MYVIMRC<CR>
 nnoremap <leader>u :UndotreeToggle<CR>
-nnoremap <leader>e :Lf<cr>
+nnoremap <leader>e :w<cr><esc>:Lf<cr>
 nnoremap <leader>tt :FloatermToggle<cr>
 nnoremap <leader>t :edit term://pwsh<cr>
 nnoremap <c-,> :cprevious<cr>
