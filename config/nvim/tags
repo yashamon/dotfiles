@@ -152,7 +152,7 @@ $	initexperiminent.vim	/^noremap $ \/\\$<CR>hv?\\$<CR>l$/;"	m
 <leader>ca	initexperiminent.vim	/^noremap <leader>ca  :lua vim.lsp.buf.code_action()<CR>$/;"	m
 <leader>cl	init.vim	/^nmap <leader>cl :call ClearLatex()<cr>$/;"	m
 <leader>cl	initexperiminent.vim	/^nmap <leader>cl :call ClearLatex()<cr>$/;"	m
-<leader>e	init.vim	/^nnoremap <leader>e :w<cr><esc>:Lf<cr>$/;"	m
+<leader>e	init.vim	/^nnoremap <leader>e :silent execute "!echo " . v:servername . ' > C:\/Users\/yasha\/servername.tx/;"	m
 <leader>e	initexperiminent.vim	/^nnoremap <leader>e :Lf<cr>$/;"	m
 <leader>g	init.vim	/^nmap <leader>g :ZenMode<CR>$/;"	m
 <leader>g	initexperiminent.vim	/^nmap <leader>g :ZenMode<CR>$/;"	m

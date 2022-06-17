@@ -152,7 +152,7 @@ map O $mimeopen --ask $f
 #         *) for f in $fx; do setsid $OPENER $f > /dev/null 2> /dev/null & done;;
 #     esac
 # }}
-map e :open 
+map e %remotelf.ps1 $Env:f
 map n %goneovim $Env:f
 map gn %goneovim $f
 # define a custom 'rename' command without prompt for overwrite 
