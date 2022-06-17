@@ -2,5 +2,5 @@
 $file=$args
 $var=(cat ~/servername.txt)
 echo $var
-$e="nvim --server " + "$var" + " --remote-send " + "`'" + '\<C-\>\<C-n>' + ':e ' + " $file" + '<cr>'+"`'"
+$e="nvim --server " + "$var" + " --remote-silent " + "$file"
 Invoke-Expression $e
