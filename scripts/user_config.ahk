@@ -73,6 +73,9 @@ return
 #Enter::
     Run "pwsh" 
     Return
+#l::
+    Run pwsh -c lf
+    Return
 #n::
     Run pwsh -c nf
     Return
