@@ -46,8 +46,7 @@ send {F11}
 return
 End::CapsLock
 
-!p::
-return
+
 #!h::
 return
 #h::
