@@ -66,12 +66,11 @@ Shortcuts [
 		Cmd = CmdGoToFirstPage
 		Key = gg
 	]
-        [
-		Cmd = CmdFindPrev
+	[
+		Cmd = CmdFindPrevious
 		Key = Alt+p
 	]
-
-		[
+	[
 		Cmd = CmdFindNext
 		Key = Alt+n
 	]
@@ -130,8 +129,8 @@ FileStates [
 		OpenCount = 5
 		UseDefaultState = false
 		DisplayMode = continuous
-		ScrollPos = -1 121.574
-		PageNo = 4
+		ScrollPos = -1 339.042
+		PageNo = 5
 		Zoom = 140.193
 		Rotation = 0
 		WindowState = 2
