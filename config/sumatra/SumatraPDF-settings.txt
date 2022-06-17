@@ -67,7 +67,7 @@ Shortcuts [
 		Key = gg
 	]
 	[
-		Cmd = CmdFindPrevious
+		Cmd = CmdFindPrev
 		Key = Alt+p
 	]
 	[
