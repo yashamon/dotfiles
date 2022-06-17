@@ -1,4 +1,4 @@
-﻿# For documentation, see https://www.sumatrapdfreader.org/settings/settings3-4-2.html
+﻿# For documentation, see https://www.sumatrapdfreader.org/settings/settings3-4-6.html
 FixedPageUI [
 	TextColor = #000000
 	BackgroundColor = #ffffff
@@ -42,21 +42,58 @@ Annotations [
 ]
 
 RememberOpenedFiles = true
-RememberStatePerDocument = false
+RememberStatePerDocument = true
 RestoreSession = true
 UiLanguage = en
-InverseSearchCmdLine = C:/Users/yasha/dotfiles/scripts/remote.ps1 "%l"
+InverseSearchCmdLine = pwsh -c "C:\Users\yasha\dotfiles\scripts\remote.ps1" %l %f
 EnableTeXEnhancements = true
 DefaultDisplayMode = automatic
-DefaultZoom = fit content
+DefaultZoom = 100
 Shortcuts [
 	[
-		Cmd = 
+		Cmd = CmdScrollUpPage
+		Key = K
+	]
+	[
+		Cmd = CmdScrollDownPage
 		Key = J
 	]
 	[
-		Cmd = ScrollDownPage
-		Key = K
+		Cmd = CmdGoToLastPage
+		Key = G
+	]
+	[
+		Cmd = CmdGoToFirstPage
+		Key = gg
+	]
+        [
+		Cmd = CmdFindPrev
+		Key = Alt+p
+	]
+
+		[
+		Cmd = CmdFindNext
+		Key = Alt+n
+	]
+	[
+		Cmd = CmdFindFirst
+		Key = \
+	]
+	[
+		Cmd = CmdGoToPage
+		Key = Alt+g
+	]
+	[
+		Cmd = CmdTogglePresentationMode
+		Key = a
+	]
+	[
+		Cmd = CmdToggleFullscreen
+		Key = s
+	]
+	[
+		Cmd = CmdCopySelection
+		Key = Space
 	]
 ]
 EscToExit = false
@@ -77,63 +114,97 @@ TreeFontSize = 0
 SmoothScroll = false
 ShowStartPage = true
 CheckForUpdates = false
-WindowState = 3
-WindowPos = 698 0 1512 1920
+WindowState = 2
+WindowPos = 698 0 1483 1920
 UseTabs = true
 UseSysColors = false
 CustomScreenDPI = 0
 
 FileStates [
 	[
-		FilePath = C:\Users\yasha\workspacemodules2\thematrix\stableconsistency.pdf
+		FilePath = C:\Users\yasha\workspacemodules\novikov\build\kan.pdf
 		Favorites [
 		]
 		IsPinned = false
 		IsMissing = false
-		OpenCount = 22
+		OpenCount = 5
 		UseDefaultState = false
 		DisplayMode = continuous
-		ScrollPos = -1 63.9707
-		PageNo = 5
-		Zoom = fit content
+		ScrollPos = -1 121.574
+		PageNo = 4
+		Zoom = 140.193
 		Rotation = 0
-		WindowState = 3
-		WindowPos = 698 0 1512 1920
-		ShowToc = true
+		WindowState = 2
+		WindowPos = 698 0 1483 1920
+		ShowToc = false
+		SidebarDx = 364
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = C:\Users\yasha\workspacemodules\thematrix\build\stableconsistency.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = 0 0
+		PageNo = 8
+		Zoom = 135.014
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 698 0 1483 1920
+		ShowToc = false
+		SidebarDx = 364
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = G:\My Drive\books\McDuff D., Salamon D. Introduction to symplectic topology (Oxford, 1998)(ISBN 0198504519)(KA)(T)(512s)_MDat_.djvu
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 -1
+		PageNo = 232
+		Zoom = 100
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 698 0 1483 1920
+		ShowToc = false
+		SidebarDx = 364
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = C:\Users\yasha\AppData\Local\Temp\MicrosoftEdgeDownloads\8f2e016f-2123-421c-813e-675058c3a8f6\McDuff D., Salamon D. Introduction to symplectic topology (Oxford, 1998)(ISBN 0198504519)(KA)(T)(512s).pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = true
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = single page
+		ScrollPos = 0 0
+		PageNo = 239
+		Zoom = 100
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 698 0 1483 1920
+		ShowToc = false
 		SidebarDx = 364
 		DisplayR2L = false
 		ReparseIdx = 0
 	]
 ]
 SessionData [
-	[
-		TabStates [
-			[
-				FilePath = C:\Users\yasha\workspacemodules2\thematrix\build\stableconsistency.pdf
-				DisplayMode = continuous
-				PageNo = 19
-				Zoom = fit content
-				Rotation = 0
-				ScrollPos = -1 773.725
-				ShowToc = false
-			]
-			[
-				FilePath = C:\Users\yasha\workspacemodules2\thematrix\stableconsistency.pdf
-				DisplayMode = continuous
-				PageNo = 5
-				Zoom = fit content
-				Rotation = 0
-				ScrollPos = -1 63.9707
-				ShowToc = true
-			]
-		]
-		TabIndex = 1
-		WindowState = 2
-		WindowPos = 698 0 1512 1920
-		SidebarDx = 364
-	]
 ]
 TimeOfLastUpdateCheck = 0 0
-OpenCountWeek = 595
+OpenCountWeek = 598
 
 # Settings below are not recognized by the current version
