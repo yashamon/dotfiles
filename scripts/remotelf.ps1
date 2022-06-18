@@ -4,7 +4,7 @@ $var=(cat ~/servername.txt)
 echo $var
 lf -remote "send quit"
 lf -remote "send quit"
-Start-Sleep -Milliseconds 400
+Start-Sleep -Milliseconds 2000
 $e2="nvim --server " + "$var" + " --remote-silent " + "$file"
 Invoke-Expression $e2
 
