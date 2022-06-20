@@ -134,12 +134,12 @@ set scrolloff 10
 map <enter> shell
 
 # execute current file (must be executable)
-map x $$f
-map X !$f
+map x $$Env:f
+map X !$Env:f
 
 # dedicated keys for file opener actions
-map o &mimeopen $f
-map O $mimeopen --ask $f
+map o &mimeopen $Env:f 
+map O $mimeopen --ask $Env:f 
 
 # define a custom 'open' command
 # This command is called when current file is not a directory. You may want to
@@ -154,7 +154,7 @@ map O $mimeopen --ask $f
 # }}
 map e %remotelf.ps1 $Env:f
 map n %goneovim $Env:f
-map gn %goneovim $f
+map gn %goneovim $Env:f 
 # define a custom 'rename' command without prompt for overwrite 
 cmd spastename &{{
 set -- $(cat ~/.local/share/lf/files)
@@ -206,24 +206,24 @@ map gc :spastename
 cmd extract $& "bash /mnt/c/Users/yasha/dotfilesscripts/lfcdextract.sh"
 map gE :extract
 # compress current file or selected files with tar and gunzip
-cmd tar ${{
-    set -f
-    mkdir $1
-    cp -r $fx $1
-    tar czf $1.tar.gz $1
-    rm -rf $1
-}}
+# cmd tar ${param 
+#     set -f
+#     mkdir $1
+#     cp -r $fx $1
+#     tar czf $1.tar.gz $1
+#     rm -rf $1
+# }
 
 # compress current file or selected files with zip
-cmd zip ${{
+cmd zip ${param ([string]$f) 
     set -f
-    mkdir $1
-    cp -r $fx $1
-    zip -r $1.zip $1
-    rm -rf $1
-}}
+    mkdir $f
+    cp -r $Env:fx $f
+    zip -r $f.zip $f
+    rm -rf $f
+}.Invoke($Args)
 
-
+map gz zip
 # cmd open ${{
 #     case "$f" in
 #         *.tar.bz|*.tar.bz2|*.tbz|*.tbz2|*.tar.gz|*.tgz|*.tar.xz|*.txz|*.zip|*.rar|*.iso)
