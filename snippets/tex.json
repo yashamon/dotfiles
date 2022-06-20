@@ -401,7 +401,7 @@
     "description": "Split"
   },
   "Section": {
-    "prefix": "sec",
+    "prefix": ["sec", "section"],
     "body": [
       "\\section{${1:name}} % (fold)",
       "\\label{sec:$1}"
