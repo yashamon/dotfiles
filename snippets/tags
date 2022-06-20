@@ -622,6 +622,7 @@
 0	tex.json	/^    "prefix": ["prod"],$/;"	s	array:product.prefix
 0	tex.json	/^    "prefix": ["rho", "\\\\e"],$/;"	s	array:rho.prefix
 0	tex.json	/^    "prefix": ["s"],$/;"	s	array:sigma.prefix
+0	tex.json	/^    "prefix": ["sec", "section"],$/;"	s	array:Section.prefix
 0	tex.json	/^    "prefix": ["uc"],$/;"	s	array:union cup.prefix
 0	tex.json	/^    "prefix": ["vdash", "proves", "pr"],$/;"	s	array:proves.prefix
 0	tex.json	/^    "prefix": ["wt"],$/;"	s	array:wide tilda.prefix
@@ -1119,6 +1120,7 @@
 1	tex.json	/^    "prefix": ["o", "\\\\o"],$/;"	s	array:omega.prefix
 1	tex.json	/^    "prefix": ["p", "\\\\p"],$/;"	s	array:partial.prefix
 1	tex.json	/^    "prefix": ["rho", "\\\\e"],$/;"	s	array:rho.prefix
+1	tex.json	/^    "prefix": ["sec", "section"],$/;"	s	array:Section.prefix
 1	tex.json	/^    "prefix": ["vdash", "proves", "pr"],$/;"	s	array:proves.prefix
 1	tex.json	/^"\\\\begin{tikzcd}",$/;"	s	array:tikz.body
 1	tex.json	/^"\\\\usepackage{color}",$/;"	s	array:Template.body
@@ -1969,6 +1971,7 @@ Delta d-simplex	text.json	/^"Delta d-simplex": {$/;"	o
 Delta d-simplex bullet	tex.json	/^"Delta d-simplex bullet": {$/;"	o
 Description	html.json	/^  "Description": {$/;"	o
 Description	latexold.json	/^  "Description": {$/;"	o
+Description	tex.json	/^    "Description": "cal E"$/;"	s	object:caligraphic E
 Description	tex.json	/^  "Description": {$/;"	o
 Description	texback.json	/^  "Description": {$/;"	o
 Description	text.json	/^  "Description": {$/;"	o
@@ -3287,7 +3290,6 @@ description	tex.json	/^    "description": "cal A"$/;"	s	object:caligraphic A
 description	tex.json	/^    "description": "cal B"$/;"	s	object:caligraphic B
 description	tex.json	/^    "description": "cal C"$/;"	s	object:caligraphic C
 description	tex.json	/^    "description": "cal D"$/;"	s	object:caligraphic D
-description	tex.json	/^    "description": "cal E"$/;"	s	object:caligraphic E
 description	tex.json	/^    "description": "cal F"$/;"	s	object:caligraphic F
 description	tex.json	/^    "description": "cal G"$/;"	s	object:caligraphic G
 description	tex.json	/^    "description": "cal H"$/;"	s	object:caligraphic H
@@ -4104,7 +4106,6 @@ prefix	tex.json	/^    "prefix": "r",$/;"	s	object:raise
 prefix	tex.json	/^    "prefix": "ref",$/;"	s	object:Reference
 prefix	tex.json	/^    "prefix": "remark",$/;"	s	object:remark
 prefix	tex.json	/^    "prefix": "sb",$/;"	s	object:square bracket
-prefix	tex.json	/^    "prefix": "sec",$/;"	s	object:Section
 prefix	tex.json	/^    "prefix": "spl",$/;"	s	object:Split
 prefix	tex.json	/^    "prefix": "st",$/;"	s	object:st
 prefix	tex.json	/^    "prefix": "sub",$/;"	s	object:subset
@@ -4192,6 +4193,7 @@ prefix	tex.json	/^    "prefix": ["phi"],$/;"	a	object:phi
 prefix	tex.json	/^    "prefix": ["prod"],$/;"	a	object:product
 prefix	tex.json	/^    "prefix": ["rho", "\\\\e"],$/;"	a	object:rho
 prefix	tex.json	/^    "prefix": ["s"],$/;"	a	object:sigma
+prefix	tex.json	/^    "prefix": ["sec", "section"],$/;"	a	object:Section
 prefix	tex.json	/^    "prefix": ["uc"],$/;"	a	object:union cup
 prefix	tex.json	/^    "prefix": ["vdash", "proves", "pr"],$/;"	a	object:proves
 prefix	tex.json	/^    "prefix": ["wt"],$/;"	a	object:wide tilda

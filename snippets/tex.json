@@ -277,7 +277,7 @@
   },
 
 "remark": {
-    "prefix": "remark",
+    "prefix": ["rem", "remark"],
     "body": [
       "\\begin{remark}", 
       "\t\\label{remark:$1}", 
@@ -288,7 +288,7 @@
     "description": "proposition"
   },
  "notation":{
-    "prefix": "notation",
+    "prefix": ["not", "notation"],
     "body": [
       "\\begin{notation}", 
       "\t\\label{notation:$1}",
@@ -298,7 +298,7 @@
     "description": "Add notation"
   }, 
 "example": {
-    "prefix": "example",
+    "prefix": ["ex", "example"],
     "body": [
       "\\begin{example}", 
       "\t\\label{example:$1}",
@@ -309,7 +309,7 @@
   },
 
  "lemma": {
-    "prefix": "lemma",
+    "prefix": ["lem", "lemma"],
     "body": [
       "\\begin{lemma}", 
       "\t\\label{lemma:$1}", 
@@ -321,7 +321,7 @@
   },
  
  "Corollary": {
-    "prefix": "corol",
+    "prefix": ["cor", "corol"],
     "body": [
       "\\begin{corollary}", 
       "\t\\label{corol:$1}", 
@@ -334,7 +334,7 @@
   },
 
 "Theorem": {
-    "prefix": "thm",
+    "prefix": ["thm", "theorem"],
     "body": [
       "\\begin{theorem}", 
       "\t\\label{thm:$1}", 
@@ -410,7 +410,7 @@
   },
 
   "Sub Section": {
-    "prefix": "subsec",
+    "prefix": ["subsec", "subsection"],
     "body": [
       "\\subsection{${1:subsection name}} % (fold)",
       "\\label{sec:$1}"
@@ -427,7 +427,7 @@
   },
 
 "comment": {
-    "prefix": "com",
+    "prefix": ["com", "comment"],
     "body": [
       "\\begin{comment}", 
       "$1",
