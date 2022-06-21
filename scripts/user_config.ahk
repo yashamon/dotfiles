@@ -45,7 +45,11 @@ CapsLock::Escape
 send {F11}
 return
 End::CapsLock
-
+#!a::MoveCurrentWindowToDesktop(1)
+#!s::MoveCurrentWindowToDesktop(2)
+#!d::MoveCurrentWindowToDesktop(3)
+#!f::MoveCurrentWindowToDesktop(4)
+#!c::MoveCurrentWindowToDesktop(5)
 !CapsLock::!`
 ^CapsLock::
 return
@@ -112,7 +116,8 @@ CapsLock & tab::switchDesktopToLastOpened()
 CapsLock & c::createVirtualDesktop()
 CapsLock & d::deleteVirtualDesktop()
 
-CapsLock & q::MoveCurrentWindowToDesktop(1)
+#!a::MoveCurrentWindowToDesktop(1)
+
 CapsLock & w::MoveCurrentWindowToDesktop(2)
 CapsLock & e::MoveCurrentWindowToDesktop(3)
 CapsLock & r::MoveCurrentWindowToDesktop(4)
