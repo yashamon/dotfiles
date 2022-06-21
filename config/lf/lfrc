@@ -178,7 +178,7 @@ set -- $(cat ~/.local/share/lf/files)
 cmd rename push %pwsh -c & {param ([string]$f) mv $Env:f $f} $Env:f
 # cmd cpmove %[ -e $destination ] && printf "file exists" || spastename $f $1
 
-map r push %pwsh<space>-c<space>&<space>{param ([string]$f)<space>mv<space>$Env:f<space>$f}<space>$Env:f
+map r push %pwsh<space>-c<space>&<space>{param<space>([string]$f)<space>mv<space>$Env:f<space>$f}<space>$Env:f
 map gc :spastename
 
 # make sure trash folder exists
