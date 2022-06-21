@@ -47,8 +47,6 @@ return
 End::CapsLock
 
 !CapsLock::!`
-#CapsLock::
-return
 ^CapsLock::
 return
 !CapsLock::
