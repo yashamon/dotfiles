@@ -569,7 +569,7 @@
     ],
     "description": "Add a table (ACM)"
   },
-  "Enumerate": {
+  "enumerate": {
     "prefix": "enumerate",
     "body": [
       "\\begin{enumerate}",

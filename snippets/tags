@@ -588,12 +588,15 @@
 0	tex.json	/^    "prefix": ["cU"],$/;"	s	array:caligraphic U.prefix
 0	tex.json	/^    "prefix": ["cX"],$/;"	s	array:caligraphic X.prefix
 0	tex.json	/^    "prefix": ["cY"],$/;"	s	array:caligraphic Y.prefix
+0	tex.json	/^    "prefix": ["com", "comment"],$/;"	s	array:comment.prefix
+0	tex.json	/^    "prefix": ["cor", "corol"],$/;"	s	array:Corollary.prefix
 0	tex.json	/^    "prefix": ["cp"],$/;"	s	array:field CP.prefix
 0	tex.json	/^    "prefix": ["d", "\\\\d"],$/;"	s	array:delta.prefix
 0	tex.json	/^    "prefix": ["db"],$/;"	s	array:defined by.prefix
 0	tex.json	/^    "prefix": ["df"],$/;"	s	array:definition.prefix
 0	tex.json	/^    "prefix": ["eps"],$/;"	s	array:epsilon.prefix
 0	tex.json	/^    "prefix": ["eql"],$/;"	s	array:equal.prefix
+0	tex.json	/^    "prefix": ["ex", "example"],$/;"	s	array:example.prefix
 0	tex.json	/^    "prefix": ["ex"],$/;"	s	array:exists.prefix
 0	tex.json	/^    "prefix": ["fN"],$/;"	s	array:field N.prefix
 0	tex.json	/^    "prefix": ["fR"],$/;"	s	array:field R.prefix
@@ -609,20 +612,25 @@
 0	tex.json	/^    "prefix": ["in"],$/;"	s	array:in.prefix
 0	tex.json	/^    "prefix": ["infi"],$/;"	s	array:infinity.prefix
 0	tex.json	/^    "prefix": ["isom", "seq"],$/;"	s	array:isomorphic.prefix
+0	tex.json	/^    "prefix": ["lem", "lemma"],$/;"	s	array:lemma.prefix
 0	tex.json	/^    "prefix": ["leq"],$/;"	s	array:less equal.prefix
 0	tex.json	/^    "prefix": ["mto", "mapsto", "maps"],$/;"	s	array:mapsto.prefix
 0	tex.json	/^    "prefix": ["nabla"],$/;"	s	array:nabla.prefix
 0	tex.json	/^    "prefix": ["neq"],$/;"	s	array:not equal.prefix
 0	tex.json	/^    "prefix": ["nin"],$/;"	s	array:not in.prefix
+0	tex.json	/^    "prefix": ["not", "notation"],$/;"	s	array:notation.prefix
 0	tex.json	/^    "prefix": ["o", "\\\\o"],$/;"	s	array:omega.prefix
 0	tex.json	/^    "prefix": ["oR"],$/;"	s	array:over R.prefix
 0	tex.json	/^    "prefix": ["over"],$/;"	s	array:overline.prefix
 0	tex.json	/^    "prefix": ["p", "\\\\p"],$/;"	s	array:partial.prefix
 0	tex.json	/^    "prefix": ["phi"],$/;"	s	array:phi.prefix
 0	tex.json	/^    "prefix": ["prod"],$/;"	s	array:product.prefix
+0	tex.json	/^    "prefix": ["rem", "remark"],$/;"	s	array:remark.prefix
 0	tex.json	/^    "prefix": ["rho", "\\\\e"],$/;"	s	array:rho.prefix
 0	tex.json	/^    "prefix": ["s"],$/;"	s	array:sigma.prefix
 0	tex.json	/^    "prefix": ["sec", "section"],$/;"	s	array:Section.prefix
+0	tex.json	/^    "prefix": ["subsec", "subsection"],$/;"	s	array:Sub Section.prefix
+0	tex.json	/^    "prefix": ["thm", "theorem"],$/;"	s	array:Theorem.prefix
 0	tex.json	/^    "prefix": ["uc"],$/;"	s	array:union cup.prefix
 0	tex.json	/^    "prefix": ["vdash", "proves", "pr"],$/;"	s	array:proves.prefix
 0	tex.json	/^    "prefix": ["wt"],$/;"	s	array:wide tilda.prefix
@@ -1114,13 +1122,21 @@
 1	tex.json	/^    "prefix": ["ali", "aligned"],$/;"	s	array:Align(ed).prefix
 1	tex.json	/^    "prefix": ["alin", "alignedn"],$/;"	s	array:Align numbered.prefix
 1	tex.json	/^    "prefix": ["b", "begin"],$/;"	s	array:\\\\begin{}…\\\\end{}.prefix
+1	tex.json	/^    "prefix": ["com", "comment"],$/;"	s	array:comment.prefix
+1	tex.json	/^    "prefix": ["cor", "corol"],$/;"	s	array:Corollary.prefix
 1	tex.json	/^    "prefix": ["d", "\\\\d"],$/;"	s	array:delta.prefix
+1	tex.json	/^    "prefix": ["ex", "example"],$/;"	s	array:example.prefix
 1	tex.json	/^    "prefix": ["isom", "seq"],$/;"	s	array:isomorphic.prefix
+1	tex.json	/^    "prefix": ["lem", "lemma"],$/;"	s	array:lemma.prefix
 1	tex.json	/^    "prefix": ["mto", "mapsto", "maps"],$/;"	s	array:mapsto.prefix
+1	tex.json	/^    "prefix": ["not", "notation"],$/;"	s	array:notation.prefix
 1	tex.json	/^    "prefix": ["o", "\\\\o"],$/;"	s	array:omega.prefix
 1	tex.json	/^    "prefix": ["p", "\\\\p"],$/;"	s	array:partial.prefix
+1	tex.json	/^    "prefix": ["rem", "remark"],$/;"	s	array:remark.prefix
 1	tex.json	/^    "prefix": ["rho", "\\\\e"],$/;"	s	array:rho.prefix
 1	tex.json	/^    "prefix": ["sec", "section"],$/;"	s	array:Section.prefix
+1	tex.json	/^    "prefix": ["subsec", "subsection"],$/;"	s	array:Sub Section.prefix
+1	tex.json	/^    "prefix": ["thm", "theorem"],$/;"	s	array:Theorem.prefix
 1	tex.json	/^    "prefix": ["vdash", "proves", "pr"],$/;"	s	array:proves.prefix
 1	tex.json	/^"\\\\begin{tikzcd}",$/;"	s	array:tikz.body
 1	tex.json	/^"\\\\usepackage{color}",$/;"	s	array:Template.body
@@ -4058,9 +4074,7 @@ prefix	tex.json	/^    "prefix": "cf",$/;"	s	object:cf
 prefix	tex.json	/^    "prefix": "cha",$/;"	s	object:Chapter
 prefix	tex.json	/^    "prefix": "cite",$/;"	s	object:Cite
 prefix	tex.json	/^    "prefix": "color",$/;"	s	object:color
-prefix	tex.json	/^    "prefix": "com",$/;"	s	object:comment
 prefix	tex.json	/^    "prefix": "compactitem",$/;"	s	object:Compactitem
-prefix	tex.json	/^    "prefix": "corol",$/;"	s	object:Corollary
 prefix	tex.json	/^    "prefix": "desc",$/;"	s	object:Description
 prefix	tex.json	/^    "prefix": "dual",$/;"	s	object:duality
 prefix	tex.json	/^    "prefix": "eg",$/;"	s	object:eg
@@ -4072,7 +4086,6 @@ prefix	tex.json	/^    "prefix": "enumerate",$/;"	s	object:Enumerate
 prefix	tex.json	/^    "prefix": "eq",$/;"	s	object:Equation
 prefix	tex.json	/^    "prefix": "eqnum",$/;"	s	object:EquationNumbered
 prefix	tex.json	/^    "prefix": "eqref",$/;"	s	object:equation reference
-prefix	tex.json	/^    "prefix": "example",$/;"	s	object:example
 prefix	tex.json	/^    "prefix": "f",$/;"	s	object:field
 prefix	tex.json	/^    "prefix": "fQ",$/;"	s	object:field Q
 prefix	tex.json	/^    "prefix": "fS",$/;"	s	object:field S
@@ -4087,13 +4100,11 @@ prefix	tex.json	/^    "prefix": "ie",$/;"	s	object:ie
 prefix	tex.json	/^    "prefix": "im",$/;"	s	object:image
 prefix	tex.json	/^    "prefix": "label",$/;"	s	object:Label
 prefix	tex.json	/^    "prefix": "land",$/;"	s	object:logical and
-prefix	tex.json	/^    "prefix": "lemma",$/;"	s	object:lemma
 prefix	tex.json	/^    "prefix": "listing:ref",$/;"	s	object:Listing:Ref
 prefix	tex.json	/^    "prefix": "m",$/;"	s	object:Math
 prefix	tex.json	/^    "prefix": "mat",$/;"	s	object:Matrix
 prefix	tex.json	/^    "prefix": "ni",$/;"	s	object:ni
 prefix	tex.json	/^    "prefix": "norm",$/;"	s	object:norm
-prefix	tex.json	/^    "prefix": "notation",$/;"	s	object:notation
 prefix	tex.json	/^    "prefix": "ob",$/;"	s	object:open bracket
 prefix	tex.json	/^    "prefix": "ot",$/;"	s	object:tensor times
 prefix	tex.json	/^    "prefix": "par",$/;"	s	object:Paragraph
@@ -4104,12 +4115,10 @@ prefix	tex.json	/^    "prefix": "prop",$/;"	s	object:proposition
 prefix	tex.json	/^    "prefix": "question",$/;"	s	object:question
 prefix	tex.json	/^    "prefix": "r",$/;"	s	object:raise
 prefix	tex.json	/^    "prefix": "ref",$/;"	s	object:Reference
-prefix	tex.json	/^    "prefix": "remark",$/;"	s	object:remark
 prefix	tex.json	/^    "prefix": "sb",$/;"	s	object:square bracket
 prefix	tex.json	/^    "prefix": "spl",$/;"	s	object:Split
 prefix	tex.json	/^    "prefix": "st",$/;"	s	object:st
 prefix	tex.json	/^    "prefix": "sub",$/;"	s	object:subset
-prefix	tex.json	/^    "prefix": "subsec",$/;"	s	object:Sub Section
 prefix	tex.json	/^    "prefix": "subsubs",$/;"	s	object:Sub Sub Section
 prefix	tex.json	/^    "prefix": "sups",$/;"	s	object:super set
 prefix	tex.json	/^    "prefix": "t",$/;"	s	object:times
@@ -4119,7 +4128,6 @@ prefix	tex.json	/^    "prefix": "table:acm",$/;"	s	object:Table:ACM
 prefix	tex.json	/^    "prefix": "table:acm:*",$/;"	s	object:Table:ACM:*
 prefix	tex.json	/^    "prefix": "table:ref",$/;"	s	object:Table:Ref
 prefix	tex.json	/^    "prefix": "text",$/;"	s	object:text
-prefix	tex.json	/^    "prefix": "thm",$/;"	s	object:Theorem
 prefix	tex.json	/^    "prefix": "tikz",$/;"	s	object:tikz
 prefix	tex.json	/^    "prefix": "to",$/;"	s	object:to
 prefix	tex.json	/^    "prefix": "u",$/;"	s	object:under
@@ -4159,12 +4167,15 @@ prefix	tex.json	/^    "prefix": ["cT"],$/;"	a	object:caligraphic T
 prefix	tex.json	/^    "prefix": ["cU"],$/;"	a	object:caligraphic U
 prefix	tex.json	/^    "prefix": ["cX"],$/;"	a	object:caligraphic X
 prefix	tex.json	/^    "prefix": ["cY"],$/;"	a	object:caligraphic Y
+prefix	tex.json	/^    "prefix": ["com", "comment"],$/;"	a	object:comment
+prefix	tex.json	/^    "prefix": ["cor", "corol"],$/;"	a	object:Corollary
 prefix	tex.json	/^    "prefix": ["cp"],$/;"	a	object:field CP
 prefix	tex.json	/^    "prefix": ["d", "\\\\d"],$/;"	a	object:delta
 prefix	tex.json	/^    "prefix": ["db"],$/;"	a	object:defined by
 prefix	tex.json	/^    "prefix": ["df"],$/;"	a	object:definition
 prefix	tex.json	/^    "prefix": ["eps"],$/;"	a	object:epsilon
 prefix	tex.json	/^    "prefix": ["eql"],$/;"	a	object:equal
+prefix	tex.json	/^    "prefix": ["ex", "example"],$/;"	a	object:example
 prefix	tex.json	/^    "prefix": ["ex"],$/;"	a	object:exists
 prefix	tex.json	/^    "prefix": ["fN"],$/;"	a	object:field N
 prefix	tex.json	/^    "prefix": ["fR"],$/;"	a	object:field R
@@ -4180,20 +4191,25 @@ prefix	tex.json	/^    "prefix": ["ic"],$/;"	a	object:intersection cap
 prefix	tex.json	/^    "prefix": ["in"],$/;"	a	object:in
 prefix	tex.json	/^    "prefix": ["infi"],$/;"	a	object:infinity
 prefix	tex.json	/^    "prefix": ["isom", "seq"],$/;"	a	object:isomorphic
+prefix	tex.json	/^    "prefix": ["lem", "lemma"],$/;"	a	object:lemma
 prefix	tex.json	/^    "prefix": ["leq"],$/;"	a	object:less equal
 prefix	tex.json	/^    "prefix": ["mto", "mapsto", "maps"],$/;"	a	object:mapsto
 prefix	tex.json	/^    "prefix": ["nabla"],$/;"	a	object:nabla
 prefix	tex.json	/^    "prefix": ["neq"],$/;"	a	object:not equal
 prefix	tex.json	/^    "prefix": ["nin"],$/;"	a	object:not in
+prefix	tex.json	/^    "prefix": ["not", "notation"],$/;"	a	object:notation
 prefix	tex.json	/^    "prefix": ["o", "\\\\o"],$/;"	a	object:omega
 prefix	tex.json	/^    "prefix": ["oR"],$/;"	a	object:over R
 prefix	tex.json	/^    "prefix": ["over"],$/;"	a	object:overline
 prefix	tex.json	/^    "prefix": ["p", "\\\\p"],$/;"	a	object:partial
 prefix	tex.json	/^    "prefix": ["phi"],$/;"	a	object:phi
 prefix	tex.json	/^    "prefix": ["prod"],$/;"	a	object:product
+prefix	tex.json	/^    "prefix": ["rem", "remark"],$/;"	a	object:remark
 prefix	tex.json	/^    "prefix": ["rho", "\\\\e"],$/;"	a	object:rho
 prefix	tex.json	/^    "prefix": ["s"],$/;"	a	object:sigma
 prefix	tex.json	/^    "prefix": ["sec", "section"],$/;"	a	object:Section
+prefix	tex.json	/^    "prefix": ["subsec", "subsection"],$/;"	a	object:Sub Section
+prefix	tex.json	/^    "prefix": ["thm", "theorem"],$/;"	a	object:Theorem
 prefix	tex.json	/^    "prefix": ["uc"],$/;"	a	object:union cup
 prefix	tex.json	/^    "prefix": ["vdash", "proves", "pr"],$/;"	a	object:proves
 prefix	tex.json	/^    "prefix": ["wt"],$/;"	a	object:wide tilda

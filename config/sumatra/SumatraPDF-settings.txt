@@ -113,33 +113,13 @@ TreeFontSize = 0
 SmoothScroll = false
 ShowStartPage = true
 CheckForUpdates = false
-WindowState = 2
+WindowState = 3
 WindowPos = 698 0 1483 1920
 UseTabs = true
 UseSysColors = false
 CustomScreenDPI = 0
 
 FileStates [
-	[
-		FilePath = C:\Users\yasha\workspacemodules\novikov\build\kan.pdf
-		Favorites [
-		]
-		IsPinned = false
-		IsMissing = false
-		OpenCount = 6
-		UseDefaultState = false
-		DisplayMode = continuous
-		ScrollPos = -1 -1
-		PageNo = 13
-		Zoom = 140.193
-		Rotation = 0
-		WindowState = 2
-		WindowPos = 698 0 1483 1920
-		ShowToc = false
-		SidebarDx = 364
-		DisplayR2L = false
-		ReparseIdx = 0
-	]
 	[
 		FilePath = C:\Users\yasha\workspacemodules\thematrix\build\stableconsistency.pdf
 		Favorites [
@@ -194,6 +174,26 @@ FileStates [
 		Zoom = 100
 		Rotation = 0
 		WindowState = 2
+		WindowPos = 698 0 1483 1920
+		ShowToc = false
+		SidebarDx = 364
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = C:\Users\yasha\workspacemodules\novikov\build\kan.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 236.326
+		PageNo = 3
+		Zoom = 140.193
+		Rotation = 0
+		WindowState = 3
 		WindowPos = 698 0 1483 1920
 		ShowToc = false
 		SidebarDx = 364
