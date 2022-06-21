@@ -46,7 +46,15 @@ send {F11}
 return
 End::CapsLock
 
-
+!CapsLock::!`
+^CapsLock::
+return
+!CapsLock::
+return
+#CapsLock::
+return
+#!CapsLock::
+return
 #!h::
 return
 #h::
