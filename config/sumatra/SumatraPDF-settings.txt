@@ -68,7 +68,7 @@ Shortcuts [
 	]
 	[
 		Cmd = CmdFindPrev
-		Key = Alt+p
+		Key = Alt+N
 	]
 	[
 		Cmd = CmdFindNext
@@ -121,19 +121,39 @@ CustomScreenDPI = 0
 
 FileStates [
 	[
+		FilePath = C:\Users\yasha\workspacemodules\novikov\build\kan.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 1
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 236.059
+		PageNo = 3
+		Zoom = 140.193
+		Rotation = 0
+		WindowState = 3
+		WindowPos = 698 0 1483 1920
+		ShowToc = false
+		SidebarDx = 364
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
 		FilePath = C:\Users\yasha\workspacemodules\thematrix\build\stableconsistency.pdf
 		Favorites [
 		]
 		IsPinned = false
 		IsMissing = false
-		OpenCount = 0
+		OpenCount = 1
 		UseDefaultState = false
 		DisplayMode = continuous
-		ScrollPos = 0 0
+		ScrollPos = -0.138597 -0.138597
 		PageNo = 8
 		Zoom = 135.014
 		Rotation = 0
-		WindowState = 2
+		WindowState = 1
 		WindowPos = 698 0 1483 1920
 		ShowToc = false
 		SidebarDx = 364
@@ -174,26 +194,6 @@ FileStates [
 		Zoom = 100
 		Rotation = 0
 		WindowState = 2
-		WindowPos = 698 0 1483 1920
-		ShowToc = false
-		SidebarDx = 364
-		DisplayR2L = false
-		ReparseIdx = 0
-	]
-	[
-		FilePath = C:\Users\yasha\workspacemodules\novikov\build\kan.pdf
-		Favorites [
-		]
-		IsPinned = false
-		IsMissing = false
-		OpenCount = 0
-		UseDefaultState = false
-		DisplayMode = continuous
-		ScrollPos = -1 236.326
-		PageNo = 3
-		Zoom = 140.193
-		Rotation = 0
-		WindowState = 3
 		WindowPos = 698 0 1483 1920
 		ShowToc = false
 		SidebarDx = 364
