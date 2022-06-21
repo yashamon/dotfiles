@@ -174,8 +174,8 @@ set -- $(cat ~/.local/share/lf/files)
     lf -remote "send reload" 
     lf -remote "send echomsg "copysucessblah""
 }}
-
-cmd rename mv %mv $Env:f.Trim('"') $1
+cmd echo 
+cmd rename %mv $Env:f.Trim('"') $1
 # cmd cpmove %[ -e $destination ] && printf "file exists" || spastename $f $1
 
 map r push %mv<space>$Env:f.Trim('"')<space>
