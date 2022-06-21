@@ -17,9 +17,11 @@ dir	lfcd.ps1	/^    $dir = Get-Content "$tmp"$/;"	v
 dir	lfcdWin.ps1	/^    $dir = Get-Content "$tmp"$/;"	v
 e	remote.ps1	/^$e="nvim --server " + "$var" + " --remote-send " + "`'" + ':' +$/;"	v
 e2	remotelf.ps1	/^$e2="nvim --server " + "$var" + " --remote-silent " + "$file"$/;"	v
+e2	rneo.ps1	/^$e2="nvim --server " + "$var" + " --remote-silent " + "$file"$/;"	v
 f	lfLn.ps1	/^foreach ($x in $args) { $f= ( Split-Path $x -leaf ); new-Item -ItemType SymbolicLink -Path ".\/$/;"	v
 f	sentence.ps1	/^$f=$args[0]$/;"	v
 file	remotelf.ps1	/^$file=$args$/;"	v
+file	rneo.ps1	/^$file=$args$/;"	v
 ho	nf.ps1	/^$ho=fd . $HOME -t f -H | fzf$/;"	v
 install_zsh	makesymlinksChromeos.sh	/^install_zsh () {$/;"	f
 lf	lfcd.ps1	/^$lf=(which lf)+" last-dir-path="+"$tmp"+" $args"$/;"	v
@@ -37,3 +39,4 @@ tmp	lfcd.ps1	/^$tmp = [System.IO.Path]::GetTempFileName()$/;"	v
 tmp	lfcdWin.ps1	/^$tmp = [System.IO.Path]::GetTempFileName()$/;"	v
 var	remote.ps1	/^$var=(cat ~\/servername.txt)$/;"	v
 var	remotelf.ps1	/^$var=(cat ~\/servername.txt)$/;"	v
+var	rneo.ps1	/^$var=(cat ~\/servername.txt)$/;"	v
