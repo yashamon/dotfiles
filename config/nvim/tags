@@ -186,7 +186,7 @@ $	initexperiminent.vim	/^noremap $ \/\\$<CR>hv?\\$<CR>l$/;"	m
 <leader>s	initexperiminent.vim	/^nnoremap <leader>s :silent call ToggleQuickFix()<CR>$/;"	m
 <leader>ss	init.vim	/^noremap <leader>ss :w<cr>:source $MYVIMRC<cr> $/;"	m
 <leader>ss	initexperiminent.vim	/^noremap <leader>ss :w<cr>:source $MYVIMRC<cr> $/;"	m
-<leader>t	init.vim	/^nnoremap <leader>t :edit term:\/\/pwsh<cr>$/;"	m
+<leader>t	init.vim	/^nnoremap <leader>t :silent execute "!echo " . v:servername . ' > C:\/Users\/yasha\/servername.tx/;"	m
 <leader>t	initexperiminent.vim	/^nnoremap <leader>t :edit term:\/\/pwsh<cr>$/;"	m
 <leader>tt	init.vim	/^nnoremap <leader>tt :FloatermToggle<cr>$/;"	m
 <leader>tt	initexperiminent.vim	/^nnoremap <leader>tt :FloatermToggle<cr>$/;"	m

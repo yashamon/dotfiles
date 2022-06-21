@@ -755,6 +755,17 @@ smap <expr> <M-k> vsnip#jumpable(-1)  ? '<Plug>(vsnip-jump-prev)'      : '<S-Tab
 
 lua <<EOF
 require("nvim-lsp-installer").setup {}
+    local lspconfig = require("lspconfig")
+
+    local function on_attach(client, bufnr)
+        -- set up buffer keymaps, etc.
+    end
+
+    lspconfig.sumneko_lua.setup { on_attach = on_attach }
+    lspconfig.tsserver.setup { on_attach = on_attach }
+    lspconfig.vimls.setup { on_attach = on_attach }
+    lspconfig.ltex.setup { on_attach = on_attach }
+    lspconfig.texlab.setup { on_attach = on_attach }
 EOF
 lua << EOF
 local nvim_lsp = require('lspconfig')
@@ -792,25 +803,6 @@ end
 EOF
 nnoremap <silent> g? <cmd>lua vim.diagnostic.open_float()<CR>
 "Lsp instal 
-lua <<EOF
-local lsp_installer = require("nvim-lsp-installer")
-
--- Register a handler that will be called for all installed servers.
--- Alternatively, you may also register handlers on specific server instances instead (see example below).
-lsp_installer.on_server_ready(function(server)
-    local opts = {}
-
-    -- (optional) Customize the options passed to the server
-    -- if server.name == "tsserver" then
-    --     opts.root_dir = function() ... end
-    -- end
-
-    -- This setup() function is exactly the same as lspconfig's setup function.
-    -- Refer to https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md
-    server:setup(opts)
-end)
-EOF
-
 "
 " inoremap <cr> <cr> <backspace>
 
@@ -1093,27 +1085,26 @@ EOF
 " } 
 " EOF
 lua require'hop'.setup { keys = 'etovxqpdygfblzhckisuran', term_seq_bias = 0.5 } 
-lua <<EOF
-require('fm-nvim').setup{
-	config =
-	{
-		edit_cmd = "edit", -- opts: 'tabedit'; 'split'; 'pedit'; etc...
-		border   = "single", -- opts: 'rounded'; 'double'; 'single'; 'solid'; 'shawdow'
-		height   = .9,
-		width    = .9,
-                
-          }
-          	-- Mappings used with the plugin
-	mappings = {
-		vert_split = "<C-v>",
-		horz_split = "<C-h>",
-		tabedit    = "<C-t>",
-		edit       = "<C-e>",
-		ESC        = "<ESC>"
-	},
-}
-EOF
-
+" lua <<EOF
+" require('fm-nvim').setup{
+" 	config =
+" 	{
+" 		edit_cmd = "edit", -- opts: 'tabedit'; 'split'; 'pedit'; etc...
+" 		border   = "single", -- opts: 'rounded'; 'double'; 'single'; 'solid'; 'shawdow'
+" 		height   = .9,
+" 		width    = .9,
+"                
+"           }
+"           	-- Mappings used with the plugin
+" 	mappings = {
+" 		vert_split = "<C-v>",
+" 		horz_split = "<C-h>",
+" 		tabedit    = "<C-t>",
+" 		edit       = "<C-e>",
+" 		ESC        = "<ESC>"
+" 	},
+" }
+" EOF
 " lua <<EOF
 " require("telescope").load_extension("prosesitter") -- Optionally, depends on telescope.nvim
 " require("prosesitter"):setup({
@@ -1553,6 +1544,8 @@ if exists('g:gonvim_running')
 elseif exists('g:neovide')
    set guifont=Fira\ Code\ Light:h20
 end
+nnoremap <C-c> set hlsearch!
+xnoremap <silent> <cr> "*y:silent! let searchTerm = '\V'.substitute(escape(@*, '\/'), "\n", '\\n', "g") <bar> let @/ = searchTerm <bar> echo '/'.@/ <bar> call histadd("search", searchTerm) <bar> set hls<cr>
 
 " lua <<EOF
 " -- Setup cmp.
