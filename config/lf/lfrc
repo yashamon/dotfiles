@@ -174,7 +174,7 @@ set -- $(cat ~/.local/share/lf/files)
     lf -remote "send reload" 
     lf -remote "send echomsg "copysucessblah""
 }}
-cmd echod echo "$1 $Env:f.Trim('"') $args" > blah
+cmd echod echo $1 > blah
 
 cmd rename $mv $Env:f.Trim('"') $args
 
