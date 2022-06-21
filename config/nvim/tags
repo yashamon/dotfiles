@@ -51,6 +51,7 @@ $	initexperiminent.vim	/^noremap $ \/\\$<CR>hv?\\$<CR>l$/;"	m
 <C-ScrollWheelUp>	initexperiminent.vim	/^noremap <C-ScrollWheelUp>    <nop>$/;"	m
 <C-]>	init.vim	/^inoremap <C-]> <C-x><C-]>$/;"	m
 <C-]>	initexperiminent.vim	/^inoremap <C-]> <C-x><C-]>$/;"	m
+<C-c>	init.vim	/^nnoremap <C-c> set hlsearch!$/;"	m
 <C-j>	init.vim	/^map <C-j> <C-e>jj$/;"	m
 <C-j>	initexperiminent.vim	/^map <C-j> <C-e>jj$/;"	m
 <C-k>	init.vim	/^map <C-k> <C-y>kk$/;"	m
@@ -134,6 +135,7 @@ $	initexperiminent.vim	/^noremap $ \/\\$<CR>hv?\\$<CR>l$/;"	m
 <cr>	autoload/plug.vim	/^    nnoremap <silent> <buffer> <cr> :silent! call <SID>preview_commit()<cr>$/;"	m
 <cr>	init.vim	/^inoremap <cr> <cr><space><esc>"_s$/;"	m
 <cr>	init.vim	/^inoremap <cr> <esc>$a<cr><space><esc>"_s$/;"	m
+<cr>	init.vim	/^xnoremap <silent> <cr> "*y:silent! let searchTerm = '\\V'.substitute(escape(@*, '\\\/'), "\\n", /;"	m
 <cr>	initexperiminent.vim	/^inoremap <cr> <cr><space><esc>"_s$/;"	m
 <cr>	initexperiminent.vim	/^inoremap <cr> <esc>$a<cr><space><esc>"_s$/;"	m
 <down>	init.vim	/^imap <down> <nop>$/;"	m
