@@ -175,7 +175,7 @@ set -- $(cat ~/.local/share/lf/files)
     lf -remote "send echomsg "copysucessblah""
 }}
 
-cmd rename %pwsh -c & {param ([string]$f) mv $Env:f $f} $Args
+cmd rename push %pwsh -c & {param ([string]$f) mv $Env:f $f} $Env:f
 # cmd cpmove %[ -e $destination ] && printf "file exists" || spastename $f $1
 
 map r push :rename<space>
