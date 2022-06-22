@@ -176,7 +176,7 @@ set -- $(cat ~/.local/share/lf/files)
 }}
 cmd echod $pwsh -c echo $1 > blah
 
-cmd rename $mv $Env:f.Trim('"') $args
+cmd rename $mv $Env:f.Trim('"') $args[0]
 
 # cmd cpmove %[ -e $destination ] && printf "file exists" || spastename $f $1
 
