@@ -84,7 +84,7 @@ return
 #Enter::
     Run "pwsh" 
     Return
-#l::
+#f::
     Run pwsh -c lf
     Return
 #n::
