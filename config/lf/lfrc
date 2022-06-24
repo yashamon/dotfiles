@@ -1,5 +1,5 @@
 set ratios 1:2:3  
-set shell pwsh
+set shell pwsh -nop
 
 # Shell commands with multiline definitions and/or positional arguments and/or
 # quotes do not work in Windows. For anything but the simplest shell commands,
@@ -46,7 +46,7 @@ set hidden
 #     lf -remote "send echomsg "deletesucess""
 # }}
 
-cmd trash $pwsh -c lfcdTrash.ps1 $env:fx
+cmd trash $pwsh -NoProfile -c lfcdTrash.ps1 $env:fx
 # cmd trash recycle-bin $Env:fx
 set previewer stpv
 set cleaner stpvimgclr
@@ -79,7 +79,7 @@ cmd namepaste $cp-p --lf-paste $id
 # map gc :namepaste
 map p :spaste
 map gp :paste
-cmd findfile $pwsh -c "C:\Users\yasha\dotfiles\scripts\lfcdfindfile.ps1"
+cmd findfile $pwsh -NoProfile -c "C:\Users\yasha\dotfiles\scripts\lfcdfindfile.ps1"
 map <a-f> :findfile
 
 cmd findfileroot ${{
@@ -175,9 +175,9 @@ set -- $(cat ~/.local/share/lf/files)
     lf -remote "send reload" 
     lf -remote "send echomsg "copysucessblah""
 }}
-cmd echod $pwsh -c echo $1 > blah
+cmd echod $pwsh -NoProfile -c echo $1 > blah
 
-cmd rename $pwsh -c mv $Env:f.Trim('"') $args[0]
+cmd rename $pwsh -NoProfile -c mv $Env:f.Trim('"') $args[0]
 
 # cmd cpmove %[ -e $destination ] && printf "file exists" || spastename $f $1
 
@@ -272,7 +272,7 @@ cmd zle-init :{{
 
 # y (select for copy) and P to paste soft-link
 # d (select for cut) and P to paste hard-link
-cmd link %pwsh -c C:\Users\yasha\dotfiles\scripts\lfLn.ps1 $Env:fx
+cmd link %pwsh -NoProfile -c C:\Users\yasha\dotfiles\scripts\lfLn.ps1 $Env:fx
 map P :link
 
 
