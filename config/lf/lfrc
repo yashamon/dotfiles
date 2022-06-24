@@ -102,13 +102,13 @@ map gd :delete
 
 
 cmd fzf_jump ${{
-    let res = (fd . -H -I -d 1 | fzf --reverse --header='Jump to location' | sed 's/\\/\\\\/g')
+    let res = $"(fd . -H -I -d 1 | fzf --reverse --header='Jump to location' | sed 's/\\/\//g')"
     # if [ -d "$res" ]; then
     #     cmd="cd"
     # else 
     #     cmd="select"                                                       
     # fi
-    lf -remote "send $id cd \"$res\""
+    lf -remote $"send cd ($res)"
 }}
 map f :fzf_jump 
 
