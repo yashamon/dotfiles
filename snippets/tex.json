@@ -16,9 +16,9 @@
  "bracket plus minus": {
     "prefix": "bpm",
     "body": [
-        "\\{\\pm \\} $0"
+        "\\{\\pm\\} $0"
        ],
-    "description": "BHam"
+    "description": "bracket plus minus"
     },  
    
 "plus minus": {
