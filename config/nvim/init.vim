@@ -116,7 +116,7 @@ Plug 'lewis6991/spellsitter.nvim'
 " Unmanaged plugin (manually installed and updated)
 " Plug '~/my-prototype-plugin'
 " Add plugins to &runtimepath 
-call plug#end() 
+call plug#end()
 
 "Neovide 
 "
@@ -590,7 +590,8 @@ function! Profile()
 profile start profile.log
 profile func *
 profile file *
-endfunction 
+endfunction
+
 command! -bang -nargs=* BLinesB
     \ call fzf#vim#grep(
     \   'rg --with-filename --column --line-number --no-heading --smart-case . '.fnameescape(expand('%:p')), 1,
@@ -1540,9 +1541,10 @@ nnoremap o o<space><esc>"_s
 " inoremap <m-cr> <cr><space><esc>"_s
 let g:neovide_fullscreen=v:true
 if exists('g:gonvim_running')
-    "goneovim specific stuff
+   set guifont=Fira\ Code\ Light:h30
+"goneovim specific stuff
 elseif exists('g:neovide')
-   set guifont=Fira\ Code\ Light:h20
+   set guifont=Fira\ Code\ Light:h22
 end
 nnoremap <C-c> :set hlsearch!<cr>
 xnoremap <silent> <cr> "*y:silent! let searchTerm = '\V'.substitute(escape(@*, '\/'), "\n", '\\n', "g") <bar> let @/ = searchTerm <bar> echo '/'.@/ <bar> call histadd("search", searchTerm) <bar> set hls<cr>

@@ -51,7 +51,7 @@ $	initexperiminent.vim	/^noremap $ \/\\$<CR>hv?\\$<CR>l$/;"	m
 <C-ScrollWheelUp>	initexperiminent.vim	/^noremap <C-ScrollWheelUp>    <nop>$/;"	m
 <C-]>	init.vim	/^inoremap <C-]> <C-x><C-]>$/;"	m
 <C-]>	initexperiminent.vim	/^inoremap <C-]> <C-x><C-]>$/;"	m
-<C-c>	init.vim	/^nnoremap <C-c> set hlsearch!$/;"	m
+<C-c>	init.vim	/^nnoremap <C-c> :set hlsearch!<cr>$/;"	m
 <C-j>	init.vim	/^map <C-j> <C-e>jj$/;"	m
 <C-j>	initexperiminent.vim	/^map <C-j> <C-e>jj$/;"	m
 <C-k>	init.vim	/^map <C-k> <C-y>kk$/;"	m
