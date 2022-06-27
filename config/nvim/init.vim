@@ -229,7 +229,7 @@ set spell
 " disable sound on errors
 set noerrorbells
 " set novisualbell 
-set guifont=Fira\ Code\ Light:h10
+set guifont=Fira\ Code\ Light:h24
 colorscheme one
 " colorscheme material  
 " let g:material_style = 'palenight'  
