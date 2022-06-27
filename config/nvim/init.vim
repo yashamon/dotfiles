@@ -30,10 +30,7 @@ Plug 'neovim/nvim-lspconfig',  { 'branch': 'main' }
 Plug 'junegunn/fzf.vim'
 Plug 'mbbill/undotree', { 'on': 'UndotreeToggle' }
 Plug 'lewis6991/spellsitter.nvim'
-" Plug 'xolox/vim-misc'
 " Plug 'vim-scripts/AutoTag'
-" Plug 'xolox/vim-easy'
-
 " Plug 'rebelot/kanagawa.nvim'
 " Plug 'reedes/vim-pencil' 
 " Plug 'folke/which-key.nvim', { 'branch': 'main' }
@@ -73,8 +70,8 @@ Plug 'lewis6991/spellsitter.nvim'
 " " Plug 'SirVer/ultisnips'  
 " " Plug 'tpope/vim-fugitive'
 " Plug 'eugen0329/vim-esearch'
-" Plug 'haya14busa/incsearch.vim'
-" Plug 'haya14busa/incsearch-fuzzy.vim'
+Plug 'haya14busa/incsearch.vim'
+Plug 'haya14busa/incsearch-fuzzy.vim'
 " Plug 'Raimondi/vim_search_objects'
 " " Plug 'terryma/vim-multiple-cursors'
 " " " On-demand loading
@@ -134,8 +131,8 @@ set noshowcmd
 set indentexpr=
 set noshowmatch  
 set wrap  
-set pb=10  
-set winbl=10
+" set pb=10
+" set winbl=10
 set switchbuf=newtab
 " let g:python3_host_prog='/usr/bin/python3.9'
 " let g:python3_host_prog='/usr/bin/python3.9'
@@ -1541,10 +1538,10 @@ nnoremap o o<space><esc>"_s
 " inoremap <m-cr> <cr><space><esc>"_s
 let g:neovide_fullscreen=v:true
 if exists('g:gonvim_running')
-   set guifont=Fira\ Code\ Light:h28
+ set guifont=Fira\ Code\ Light:h22
 "goneovim specific stuff
 elseif exists('g:neovide')
-   set guifont=Fira\ Code\ Light:h24
+   set guifont=Fira\ Code\ Light:h28
 end
 nnoremap <C-c> :set hlsearch!<cr>
 xnoremap <silent> <cr> "*y:silent! let searchTerm = '\V'.substitute(escape(@*, '\/'), "\n", '\\n', "g") <bar> let @/ = searchTerm <bar> echo '/'.@/ <bar> call histadd("search", searchTerm) <bar> set hls<cr>
@@ -1613,4 +1610,21 @@ xnoremap <silent> <cr> "*y:silent! let searchTerm = '\V'.substitute(escape(@*, '
 " EOF
 "
 "
+lua <<EOF
+require'nvim-treesitter.configs'.setup { 
+    --
+    highlight = { enable = true },
+    incremental_selection = {
+    enable = true,
+    keymaps = {
+      init_selection = '<CR>',
+      scope_incremental = '<CR>',
+      node_incremental = '<TAB>',
+      node_decremental = '<S-TAB>',
+    },
+  },
+    textobjects = { enable = true },
+    indent = { enable = false },
+}
+EOF
 
