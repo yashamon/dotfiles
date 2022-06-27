@@ -226,7 +226,7 @@ set spell
 " disable sound on errors
 set noerrorbells
 " set novisualbell 
-set guifont=Fira\ Code\ Light:h24
+set guifont=Fira\ Code\ Light:h20
 colorscheme one
 " colorscheme material  
 " let g:material_style = 'palenight'  
@@ -1538,10 +1538,10 @@ nnoremap o o<space><esc>"_s
 " inoremap <m-cr> <cr><space><esc>"_s
 let g:neovide_fullscreen=v:true
 if exists('g:gonvim_running')
- set guifont=Fira\ Code\ Light:h22
+ set guifont=Fira\ Code\ Light:h20
 "goneovim specific stuff
 elseif exists('g:neovide')
-   set guifont=Fira\ Code\ Light:h28
+   set guifont=Fira\ Code\ Light:h20
 end
 nnoremap <C-c> :set hlsearch!<cr>
 xnoremap <silent> <cr> "*y:silent! let searchTerm = '\V'.substitute(escape(@*, '\/'), "\n", '\\n', "g") <bar> let @/ = searchTerm <bar> echo '/'.@/ <bar> call histadd("search", searchTerm) <bar> set hls<cr>
