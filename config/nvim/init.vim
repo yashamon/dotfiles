@@ -1,6 +1,6 @@
 call plug#begin('~/.vim/plugged')
 Plug 'folke/zen-mode.nvim', { 'branch': 'main' } 
-Plug 'neoscroll.nvim', { 'branch': 'main' }
+Plug 'neoscroll.nvim',
 Plug 'ibhagwan/fzf-lua', { 'branch': 'main' }
 Plug 'vijaymarupudi/nvim-fzf'
 Plug 'kyazdani42/nvim-web-devicons'
