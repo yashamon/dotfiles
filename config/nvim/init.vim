@@ -1,6 +1,6 @@
 call plug#begin('~/.vim/plugged')
 Plug 'folke/zen-mode.nvim', { 'branch': 'main' } 
-Plug 'neoscroll.nvim',
+Plug 'karb94/neoscroll.nvim'
 Plug 'ibhagwan/fzf-lua', { 'branch': 'main' }
 Plug 'vijaymarupudi/nvim-fzf'
 Plug 'kyazdani42/nvim-web-devicons'
@@ -227,7 +227,7 @@ set spell
 " disable sound on errors
 set noerrorbells
 " set novisualbell 
-set guifont=Fira\ Code:h18
+" set font=Fira\ Code:h18
 colorscheme one
 " colorscheme material  
 " let g:material_style = 'palenight'  
@@ -1542,10 +1542,10 @@ nnoremap o o<space><esc>"_s
 " inoremap <m-cr> <cr><space><esc>"_s
 let g:neovide_fullscreen=v:true
 if exists('g:gonvim_running')
- set guifont=Fira\ Code:h18
+ set guifont=Fira\ Code\ Light:h18
 "goneovim specific stuff
 elseif exists('g:neovide')
-   set guifont=Fira\ Code\ Light:h18
+   set guifont=Fira\ Code:h18
 end
 nnoremap <C-c> :set hlsearch!<cr>
 xnoremap <silent> <cr> "*y:silent! let searchTerm = '\V'.substitute(escape(@*, '\/'), "\n", '\\n', "g") <bar> let @/ = searchTerm <bar> echo '/'.@/ <bar> call histadd("search", searchTerm) <bar> set hls<cr>
