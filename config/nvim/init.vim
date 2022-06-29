@@ -603,7 +603,7 @@ function Sentence()
   e sentence_%
   sleep 1
   " let b:paste = system('pwsh -c Get-Clipboard')
-  call feedkeys(":BLinesB \<c-v>\<cr>")
+  call feedkeys(":BLinesB \<c-r>+\<cr>")
 endfunction
 noremap LL :lua require("zen-mode").close()<cr>:call Sentence()<cr>
 " noremap L :TZAtaraxisOff<cr><cr>:call Sentence()<cr>
