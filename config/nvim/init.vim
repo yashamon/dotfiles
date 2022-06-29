@@ -1353,11 +1353,11 @@ EOF
 " hi! link Sneak Normal
 " hi! link SneakScope Normal   test test2 test3
 
-" command! -bang -nargs=* Rg
-"   \ call fzf#vim#grep(
-"   \ "rg --column --line-number --no-heading --color=always --smart-case " .
-"   \ <q-args>, 1, fzf#vim#with_preview(), <bang>0)
-"
+ command! -bang -nargs=* Rg
+   \ call fzf#vim#grep(
+   \ "rg --column --line-number --no-heading --color=always --smart-case " .
+   \ <q-args>, 1, fzf#vim#with_preview(), <bang>0)
+
 "" au GUIEnter * set fullscreen
 " if has("gui_running")
   " set fuoptions=maxvert,maxhorz
