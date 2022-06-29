@@ -406,7 +406,7 @@
 0	tex.json	/^        "\\\\textcolor {$1}{$2} $0"$/;"	s	array:color.body
 0	tex.json	/^        "\\\\text{$1} $0"$/;"	s	array:text.body
 0	tex.json	/^        "\\\\times $0"$/;"	s	array:times.body
-0	tex.json	/^        "\\\\{\\\\pm \\\\} $0"$/;"	s	array:bracket plus minus.body
+0	tex.json	/^        "\\\\{\\\\pm\\\\} $0"$/;"	s	array:bracket plus minus.body
 0	tex.json	/^        "``$1'' $0"$/;"	s	array:quotes.body
 0	tex.json	/^        "body": ["\\\\documentclass{amsart}",  $/;"	s	array:Template.body
 0	tex.json	/^        "body": ["\\\\frac{$1}{$2}$0"],$/;"	s	array:Inline Fraction.body
@@ -449,7 +449,7 @@
 0	tex.json	/^      "\\\\begin{comment}", $/;"	s	array:comment.body
 0	tex.json	/^      "\\\\begin{compactitem}",$/;"	s	array:Compactitem.body
 0	tex.json	/^      "\\\\begin{corollary}", $/;"	s	array:Corollary.body
-0	tex.json	/^      "\\\\begin{enumerate}",$/;"	s	array:Enumerate.body
+0	tex.json	/^      "\\\\begin{enumerate}",$/;"	s	array:enumerate.body
 0	tex.json	/^      "\\\\begin{equation*}",$/;"	s	array:Equation.body
 0	tex.json	/^      "\\\\begin{equation}",$/;"	s	array:EquationNumbered.body
 0	tex.json	/^      "\\\\begin{example}", $/;"	s	array:example.body
@@ -1106,7 +1106,7 @@
 1	tex.json	/^      "\\t\\\\caption{$1}",$/;"	s	array:Table:ACM:*.body
 1	tex.json	/^      "\\t\\\\includegraphics[width=0.45\\\\textwidth]{figures\/$1}",$/;"	s	array:Figure:ACM.body
 1	tex.json	/^      "\\t\\\\includegraphics[width=0.45\\\\textwidth]{figures\/$1}",$/;"	s	array:Figure:ACM:*.body
-1	tex.json	/^      "\\t\\\\item $0",$/;"	s	array:Enumerate.body
+1	tex.json	/^      "\\t\\\\item $0",$/;"	s	array:enumerate.body
 1	tex.json	/^      "\\t\\\\item $1",$/;"	s	array:Compactitem.body
 1	tex.json	/^      "\\t\\\\item[$1] $0",$/;"	s	array:Description.body
 1	tex.json	/^      "\\t\\\\label{corol:$1}", $/;"	s	array:Corollary.body
@@ -1459,7 +1459,7 @@
 2	tex.json	/^      "\\\\end{${1:p\/b\/v\/V\/B\/small}matrix}"$/;"	s	array:Matrix.body
 2	tex.json	/^      "\\\\end{comment}",$/;"	s	array:comment.body
 2	tex.json	/^      "\\\\end{compactitem}",$/;"	s	array:Compactitem.body
-2	tex.json	/^      "\\\\end{enumerate}"$/;"	s	array:Enumerate.body
+2	tex.json	/^      "\\\\end{enumerate}"$/;"	s	array:enumerate.body
 2	tex.json	/^      "\\\\end{equation*}",$/;"	s	array:Equation.body
 2	tex.json	/^      "\\\\end{example}",$/;"	s	array:example.body
 2	tex.json	/^      "\\\\end{gather}"$/;"	s	array:Gather(ed).body
@@ -1999,7 +1999,6 @@ EmptyPage	texback.json	/^  "EmptyPage": {$/;"	o
 EmptyPage	text.json	/^  "EmptyPage": {$/;"	o
 Enumerate	html.json	/^  "Enumerate": {$/;"	o
 Enumerate	latexold.json	/^  "Enumerate": {$/;"	o
-Enumerate	tex.json	/^  "Enumerate": {$/;"	o
 Enumerate	texback.json	/^  "Enumerate": {$/;"	o
 Enumerate	text.json	/^  "Enumerate": {$/;"	o
 Equation	html.json	/^"Equation": {$/;"	o
@@ -2517,7 +2516,6 @@ body	tex.json	/^    "body": [$/;"	a	object:Delta d-simplex
 body	tex.json	/^    "body": [$/;"	a	object:Delta d-simplex bullet
 body	tex.json	/^    "body": [$/;"	a	object:Description
 body	tex.json	/^    "body": [$/;"	a	object:EmptyPage
-body	tex.json	/^    "body": [$/;"	a	object:Enumerate
 body	tex.json	/^    "body": [$/;"	a	object:Equation
 body	tex.json	/^    "body": [$/;"	a	object:EquationNumbered
 body	tex.json	/^    "body": [$/;"	a	object:Figure
@@ -2593,6 +2591,7 @@ body	tex.json	/^    "body": [$/;"	a	object:eg
 body	tex.json	/^    "body": [$/;"	a	object:emphasize
 body	tex.json	/^    "body": [$/;"	a	object:emphasize bold
 body	tex.json	/^    "body": [$/;"	a	object:end
+body	tex.json	/^    "body": [$/;"	a	object:enumerate
 body	tex.json	/^    "body": [$/;"	a	object:epsilon
 body	tex.json	/^    "body": [$/;"	a	object:equal
 body	tex.json	/^    "body": [$/;"	a	object:equation reference
@@ -3252,7 +3251,7 @@ description	tex.json	/^    "description": "Add a Math"$/;"	s	object:Math
 description	tex.json	/^    "description": "Add a cite"$/;"	s	object:Cite
 description	tex.json	/^    "description": "Add a compactitem (from package paralist)"$/;"	s	object:Compactitem
 description	tex.json	/^    "description": "Add a empty page"$/;"	s	object:EmptyPage
-description	tex.json	/^    "description": "Add a enumerate"$/;"	s	object:Enumerate
+description	tex.json	/^    "description": "Add a enumerate"$/;"	s	object:enumerate
 description	tex.json	/^    "description": "Add a figure (ACM)"$/;"	s	object:Figure:ACM
 description	tex.json	/^    "description": "Add a figure (ACM)"$/;"	s	object:Figure:ACM:*
 description	tex.json	/^    "description": "Add a figure"$/;"	s	object:Figure
@@ -3267,7 +3266,6 @@ description	tex.json	/^    "description": "Add a theorem"$/;"	s	object:lemma
 description	tex.json	/^    "description": "Add notation"$/;"	s	object:notation
 description	tex.json	/^    "description": "Align(ed)"$/;"	s	object:Align(ed)
 description	tex.json	/^    "description": "BHam"$/;"	s	object:BHam
-description	tex.json	/^    "description": "BHam"$/;"	s	object:bracket plus minus
 description	tex.json	/^    "description": "BHam"$/;"	s	object:plus minus
 description	tex.json	/^    "description": "Begin - End"$/;"	s	object:\\\\begin{}…\\\\end{}
 description	tex.json	/^    "description": "Cases"$/;"	s	object:Cases
@@ -3299,6 +3297,7 @@ description	tex.json	/^    "description": "bars"$/;"	s	object:bars
 description	tex.json	/^    "description": "big intersection"$/;"	s	object:big intersection cap
 description	tex.json	/^    "description": "big intersection"$/;"	s	object:product
 description	tex.json	/^    "description": "big union"$/;"	s	object:big cup
+description	tex.json	/^    "description": "bracket plus minus"$/;"	s	object:bracket plus minus
 description	tex.json	/^    "description": "brackets"$/;"	s	object:basic bracket
 description	tex.json	/^    "description": "bullet"$/;"	s	object:bullet
 description	tex.json	/^    "description": "c dot"$/;"	s	object:cdot
@@ -3637,6 +3636,7 @@ end	html.json	/^"end": {$/;"	o
 end	latexold.json	/^"end": {$/;"	o
 end	tex.json	/^"end": {$/;"	o
 end	text.json	/^"end": {$/;"	o
+enumerate	tex.json	/^  "enumerate": {$/;"	o
 epsilon	html.json	/^"epsilon": {$/;"	o
 epsilon	tex.json	/^"epsilon": {$/;"	o
 epsilon	texback.json	/^"epsilon": {$/;"	o
@@ -4082,7 +4082,7 @@ prefix	tex.json	/^    "prefix": "em",$/;"	s	object:emphasize
 prefix	tex.json	/^    "prefix": "embf",$/;"	s	object:emphasize bold
 prefix	tex.json	/^    "prefix": "empty",$/;"	s	object:EmptyPage
 prefix	tex.json	/^    "prefix": "end",$/;"	s	object:end
-prefix	tex.json	/^    "prefix": "enumerate",$/;"	s	object:Enumerate
+prefix	tex.json	/^    "prefix": "enumerate",$/;"	s	object:enumerate
 prefix	tex.json	/^    "prefix": "eq",$/;"	s	object:Equation
 prefix	tex.json	/^    "prefix": "eqnum",$/;"	s	object:EquationNumbered
 prefix	tex.json	/^    "prefix": "eqref",$/;"	s	object:equation reference

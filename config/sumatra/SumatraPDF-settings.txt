@@ -68,7 +68,7 @@ Shortcuts [
 	]
 	[
 		Cmd = CmdFindPrev
-		Key = Alt+N
+		Key = Alt+p
 	]
 	[
 		Cmd = CmdFindNext
@@ -113,7 +113,7 @@ TreeFontSize = 0
 SmoothScroll = false
 ShowStartPage = true
 CheckForUpdates = false
-WindowState = 3
+WindowState = 1
 WindowPos = 698 0 1483 1920
 UseTabs = true
 UseSysColors = false
@@ -121,19 +121,19 @@ CustomScreenDPI = 0
 
 FileStates [
 	[
-		FilePath = C:\Users\yasha\workspacemodules\novikov\build\kan.pdf
+		FilePath = C:\Users\yasha\workspacemodules\thematrix\build\stableconsistency.pdf
 		Favorites [
 		]
 		IsPinned = false
 		IsMissing = false
-		OpenCount = 1
+		OpenCount = 2
 		UseDefaultState = false
 		DisplayMode = continuous
-		ScrollPos = -1 236.059
-		PageNo = 3
-		Zoom = 140.193
+		ScrollPos = -1 304.83
+		PageNo = 9
+		Zoom = 135.014
 		Rotation = 0
-		WindowState = 3
+		WindowState = 1
 		WindowPos = 698 0 1483 1920
 		ShowToc = false
 		SidebarDx = 364
@@ -141,7 +141,7 @@ FileStates [
 		ReparseIdx = 0
 	]
 	[
-		FilePath = C:\Users\yasha\workspacemodules\thematrix\build\stableconsistency.pdf
+		FilePath = C:\Users\yasha\workspacemodules\conformalsymplectic\build\conformalsymplectic.pdf
 		Favorites [
 		]
 		IsPinned = false
@@ -149,11 +149,31 @@ FileStates [
 		OpenCount = 1
 		UseDefaultState = false
 		DisplayMode = continuous
-		ScrollPos = -0.138597 -0.138597
-		PageNo = 8
-		Zoom = 135.014
+		ScrollPos = -1 306.188
+		PageNo = 4
+		Zoom = 100
 		Rotation = 0
-		WindowState = 1
+		WindowState = 2
+		WindowPos = 698 0 1483 1920
+		ShowToc = false
+		SidebarDx = 364
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = C:\Users\yasha\web\papers\kan.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 1
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 -1
+		PageNo = 4
+		Zoom = 140.193
+		Rotation = 0
+		WindowState = 2
 		WindowPos = 698 0 1483 1920
 		ShowToc = false
 		SidebarDx = 364
@@ -204,6 +224,6 @@ FileStates [
 SessionData [
 ]
 TimeOfLastUpdateCheck = 0 0
-OpenCountWeek = 598
+OpenCountWeek = 599
 
 # Settings below are not recognized by the current version

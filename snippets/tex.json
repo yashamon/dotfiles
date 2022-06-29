@@ -55,7 +55,7 @@
 "color": {
     "prefix": "color",
     "body": [
-        "\\textcolor {$1}{$2} $0"
+        "\\textcolor{$1}{$2} $0"
        ],
     "description": "colored text"
     },  
