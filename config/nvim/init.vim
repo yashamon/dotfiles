@@ -593,7 +593,7 @@ endfunction
 
 command! -bang -nargs=* BLinesB
     \ call fzf#vim#grep(
-    \   'rg --with-filename --column --line-number --no-heading --smart-case . '.fnameescape(expand('%:p')), 1,
+    \   'rg --with-filename --column --line-number --no-heading --color=always --smart-case . '.fnameescape(expand('%:p')), 1,
     \   fzf#vim#with_preview({'options': '--layout reverse --query '.shellescape(<q-args>).' --with-nth=4.. --delimiter=":"'}, 'right:0%'))
     " \   fzf#vim#with_preview({'options': '--layout reverse  --with-nth=-1.. --delimiter="/"'}, 'right:50%'))
 function Sentence()
@@ -1353,10 +1353,10 @@ EOF
 " hi! link Sneak Normal
 " hi! link SneakScope Normal   test test2 test3
 
- command! -bang -nargs=* Rg
-   \ call fzf#vim#grep(
-   \ "rg --column --line-number --no-heading --color=always --smart-case " .
-   \ <q-args>, 1, fzf#vim#with_preview(), <bang>0)
+" command! -bang -nargs=* Rg
+"    \ call fzf#vim#grep(
+"    \ "rg --column --line-number --no-heading --color=always --smart-case " .
+"    \ <q-args>, 1, fzf#vim#with_preview(), <bang>0)
 
 "" au GUIEnter * set fullscreen
 " if has("gui_running")

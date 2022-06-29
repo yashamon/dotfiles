@@ -302,6 +302,7 @@ Profile	initexperiminent.vim	/^function! Profile()$/;"	f
 R	autoload/plug.vim	/^  nnoremap <silent> <buffer> R  :call <SID>retry()<cr>$/;"	m
 Reset	init.vim	/^function Reset()$/;"	f
 Reset	initexperiminent.vim	/^function Reset()$/;"	f
+Rg	init.vim	/^ command! -bang -nargs=* Rg$/;"	c
 S	autoload/plug.vim	/^  nnoremap <silent> <buffer> S  :PlugStatus<cr>$/;"	m
 S	init.vim	/^noremap S <Esc> :BLinesB<CR>$/;"	m
 S	initexperiminent.vim	/^noremap S <Esc> :BLines<CR>$/;"	m
