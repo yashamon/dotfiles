@@ -598,7 +598,7 @@ profile file *
 endfunction
 
 command! -bang -nargs=* BLinesB
-         \ call fzf#vim#grep("rg  --with-filename --column --line-number --no-heading --color=always --smart-case -- ".shellescape(<q-args>), 1, fzf#vim#with_preview(), <bang>0)
+         \ call fzf#vim#grep("rg  --with-filename --column --line-number --no-heading --color=always --smart-case -- ".shellescape(<q-args>).fnameescape(expand('%:p')), 1, fzf#vim#with_preview(), <bang>0)
 "     \ call fzf#vim#grep(
 "     \   'rg --with-filename --column --line-number --no-heading --pattern '.shellescape(<q-args>).' --color=always --smart-case . '.fnameescape(expand('%')), 1)
 " " ,
