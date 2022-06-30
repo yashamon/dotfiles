@@ -21,10 +21,14 @@
 ; ===========================
 
 #A::switchDesktopByNumber(1)
+sleep 20
+send {click 3195 1200} 
 sleep 100
 send {click 3195 1200} 
 return
 #S::switchDesktopByNumber(2)
+sleep 20
+send {click 3195 1200}
 sleep 100
 send {click 3195 1200} 
 return
@@ -37,6 +41,8 @@ sleep 100
 send {click 3195 1200} 
 return
 #C::switchDesktopByNumber(5)
+sleep 20
+send {click 3195 1200}
 sleep 100
 send {click 3195 1200} 
 return
