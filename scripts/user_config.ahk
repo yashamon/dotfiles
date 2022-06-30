@@ -21,11 +21,11 @@
 ; ===========================
 
 #A::switchDesktopByNumber(1)
-sleep 100
+sleep 200
 send {click 3195 1200} 
 return
 #S::switchDesktopByNumber(2)
-sleep 100
+sleep 200
 send {click 3195 1200} 
 return
 #D::switchDesktopByNumber(3)
