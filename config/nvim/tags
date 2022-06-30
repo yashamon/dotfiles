@@ -142,7 +142,6 @@ $	initexperiminent.vim	/^noremap $ \/\\$<CR>hv?\\$<CR>l$/;"	m
 <down>	init.vim	/^nnoremap <down> 1<C-D>$/;"	m
 <down>	initexperiminent.vim	/^imap <down> <nop>$/;"	m
 <down>	initexperiminent.vim	/^nnoremap <down> 1<C-D>$/;"	m
-<leader>/	init.vim	/^nnoremap <leader>\/ :CustomBLines<Cr>$/;"	m
 <leader>1	init.vim	/^nnoremap <leader>1 :FZFNeoyank 1<cr>$/;"	m
 <leader>1	initexperiminent.vim	/^nnoremap <leader>1 :FZFNeoyank 1<cr>$/;"	m
 <leader>P	init.vim	/^nnoremap <leader>P :FZFNeoyank " P+<cr>$/;"	m
