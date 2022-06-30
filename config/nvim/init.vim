@@ -1,7 +1,10 @@
 call plug#begin('~/.vim/plugged')
 Plug 'folke/zen-mode.nvim', { 'branch': 'main' } 
 Plug 'karb94/neoscroll.nvim'
+Plug 'tzachar/cmp-fuzzy-buffer'
 Plug 'ibhagwan/fzf-lua', { 'branch': 'main' }
+Plug 'tzachar/fuzzy.nvim'
+Plug 'romgrk/fzy-lua-native'
 Plug 'vijaymarupudi/nvim-fzf'
 Plug 'kyazdani42/nvim-web-devicons'
 Plug 'metalelf0/nvim-floatedit',  { 'branch': 'main' }
@@ -31,6 +34,9 @@ Plug 'neovim/nvim-lspconfig',  { 'branch': 'main' }
 Plug 'junegunn/fzf.vim'
 Plug 'mbbill/undotree', { 'on': 'UndotreeToggle' }
 Plug 'lewis6991/spellsitter.nvim'
+Plug 'ggVGc/vim-fuzzysearch'
+Plug 'hrsh7th/vim-searchx'
+
 " Plug 'vim-scripts/AutoTag'
 " Plug 'rebelot/kanagawa.nvim'
 " Plug 'reedes/vim-pencil' 
@@ -71,8 +77,8 @@ Plug 'lewis6991/spellsitter.nvim'
 " " Plug 'SirVer/ultisnips'  
 " " Plug 'tpope/vim-fugitive'
 " Plug 'eugen0329/vim-esearch'
-Plug 'haya14busa/incsearch.vim'
-Plug 'haya14busa/incsearch-fuzzy.vim'
+" Plug 'haya14busa/incsearch.vim'
+" Plug 'haya14busa/incsearch-fuzzy.vim'
 " Plug 'Raimondi/vim_search_objects'
 " " Plug 'terryma/vim-multiple-cursors'
 " " " On-demand loading
@@ -593,9 +599,9 @@ endfunction
 
 command! -bang -nargs=* BLinesB
     \ call fzf#vim#grep(
-    \   'rg --with-filename --column --line-number --no-heading --color=always --smart-case . '.fnameescape(expand('%')), 1,
-    \   fzf#vim#with_preview({'options': '--keep-right --layout reverse --query '.shellescape(<q-args>).' --no-sort --delimiter : --nth 4.. --preview "bat -p --color always {}"'}, 'up:50%', '?'),
-    \   1)
+    \   'rg --with-filename --column --line-number --no-heading --color=always --query '.shellescape(<q-args>).' --smart-case . '.fnameescape(expand('%')))
+" , 1,
+"     \   fzf#vim#with_preview({'options': '--keep-right --layout reverse --query '.shellescape(<q-args>).' --no-sort --delimiter : --nth 4.. --preview "bat -p --color always {}"'}, 'up:50%', '?'))
 " nnoremap H :LinesWithPreview<CR>
 " command! -bang -nargs=* BLinesB
 "     \ call fzf#vim#grep(
@@ -843,6 +849,7 @@ snippet = {
   -- ... Your other configuration ...
 end,
 },
+
 mapping = cmp.mapping.preset.insert({
         ["<C-p>"] = cmp.mapping.select_prev_item(),
         ["<C-n>"] = cmp.mapping.select_next_item(),
@@ -874,6 +881,7 @@ mapping = cmp.mapping.preset.insert({
 }),
 requires = {
     {
+      'tzachar/fuzzy.nvim',
       'quangnguyen30192/cmp-nvim-tags',
       -- if you want the sources is available for some file types
       ft = {
@@ -893,9 +901,7 @@ sources = cmp.config.sources({
 { name = 'omni', keyword_length = 4},
        -- { name = 'spell' }, 
       --{ name = 'treesitter', keyword_length = 4 },
---{ name = 'latex_symbols' },
-{ name = 'buffer', keyword_length = 1000 },
-
+{ name = 'fuzzy_buffer', keyword_length = 5 },
 }),
 completion = {
     autocomplete = false 
@@ -1643,4 +1649,6 @@ require'nvim-treesitter.configs'.setup {
     indent = { enable = false },
 }
 EOF
+
+
 
