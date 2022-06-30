@@ -599,7 +599,7 @@ endfunction
 
 command! -bang -nargs=* BLinesB
     \ call fzf#vim#grep(
-    \   'rg --with-filename --column --line-number --no-heading --color=always --query '.shellescape(<q-args>).' --smart-case . '.fnameescape(expand('%')))
+    \   'rg --with-filename --column --line-number --no-heading --color=always --query '.shellescape(<q-args>).' --smart-case . '.fnameescape(expand('%')),0)
 " , 1,
 "     \   fzf#vim#with_preview({'options': '--keep-right --layout reverse --query '.shellescape(<q-args>).' --no-sort --delimiter : --nth 4.. --preview "bat -p --color always {}"'}, 'up:50%', '?'))
 " nnoremap H :LinesWithPreview<CR>
