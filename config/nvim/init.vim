@@ -599,14 +599,14 @@ endfunction
 
 command! -bang -nargs=* BLinesB
     \ call fzf#vim#grep(
-    \   'rg --with-filename --column --line-number --no-heading --color=always --query '.shellescape(<q-args>).' --smart-case . '.fnameescape(expand('%')),0)
-" , 1,
+    \   'rg --with-filename --column --line-number --no-heading --color=always --smart-case . '.fnameescape(expand('%')), 1)
+" ,
 "     \   fzf#vim#with_preview({'options': '--keep-right --layout reverse --query '.shellescape(<q-args>).' --no-sort --delimiter : --nth 4.. --preview "bat -p --color always {}"'}, 'up:50%', '?'))
-" nnoremap H :LinesWithPreview<CR>
-" command! -bang -nargs=* BLinesB
-"     \ call fzf#vim#grep(
-"     \   'rg --with-filename --column --line-number --no-heading --smart-case . '.fnameescape(expand('%:p')), 1,
-"     \   fzf#vim#with_preview({'options': '--keep-right --delimiter : --nth 4.. --preview "bat -p --color always {}"'}, 'right:50%' ))
+" " nnoremap H :LinesWithPreview<CR>
+" " command! -bang -nargs=* BLinesB
+" "     \ call fzf#vim#grep(
+" "     \   'rg --with-filename --column --line-number --no-heading --smart-case . '.fnameescape(expand('%:p')), 1,
+" "     \   fzf#vim#with_preview({'options': '--keep-right --delimiter : --nth 4.. --preview "bat -p --color always {}"'}, 'right:50%' ))
 nnoremap <leader>/ :CustomBLines<Cr>
 " command! -bang -nargs=* BLinesB
 "     \ call fzf#vim#grep(
