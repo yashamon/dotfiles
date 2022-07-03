@@ -114,7 +114,7 @@ SmoothScroll = false
 ShowStartPage = true
 CheckForUpdates = false
 WindowState = 1
-WindowPos = 698 0 1483 1920
+WindowPos = 698 0 1480 1920
 UseTabs = true
 UseSysColors = false
 CustomScreenDPI = 0
@@ -126,15 +126,15 @@ FileStates [
 		]
 		IsPinned = false
 		IsMissing = false
-		OpenCount = 2
+		OpenCount = 1
 		UseDefaultState = false
 		DisplayMode = continuous
-		ScrollPos = -1 304.83
-		PageNo = 9
+		ScrollPos = 108.739 646.739
+		PageNo = 14
 		Zoom = 135.014
 		Rotation = 0
 		WindowState = 1
-		WindowPos = 698 0 1483 1920
+		WindowPos = 698 0 1480 1920
 		ShowToc = false
 		SidebarDx = 364
 		DisplayR2L = false
@@ -146,7 +146,7 @@ FileStates [
 		]
 		IsPinned = false
 		IsMissing = false
-		OpenCount = 1
+		OpenCount = 0
 		UseDefaultState = false
 		DisplayMode = continuous
 		ScrollPos = -1 306.188
@@ -166,7 +166,7 @@ FileStates [
 		]
 		IsPinned = false
 		IsMissing = false
-		OpenCount = 1
+		OpenCount = 0
 		UseDefaultState = false
 		DisplayMode = continuous
 		ScrollPos = -1 -1
@@ -224,6 +224,6 @@ FileStates [
 SessionData [
 ]
 TimeOfLastUpdateCheck = 0 0
-OpenCountWeek = 599
+OpenCountWeek = 600
 
 # Settings below are not recognized by the current version
