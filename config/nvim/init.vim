@@ -617,7 +617,7 @@ profile file *
 endfunction
 
 
-command! -bang -nargs=* BLines
+command! -bang -nargs=* BLinesB
     \ call fzf#vim#grep(
     \   'rg --with-filename --column --line-number --no-heading --smart-case . '.fnameescape(expand('%:p')), 1,
     \   fzf#vim#with_preview({'options': '--layout reverse --query '.shellescape(<q-args>).' --with-nth=4.. --delimiter=":"'}, 'right:50%'))
