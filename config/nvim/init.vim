@@ -512,8 +512,9 @@ map <m-space> <cmd>HopWord<cr>
 " map t <ESC>:syntax off <CR>t: syntax on<CR>
 
 " FZF 
-"
-let g:fzf_preview_window = []
+let g:fzf_layout = { 'window': 'enew' }
+
+" let g:fzf_preview_window = []
 noremap <m-t> :BTags<cr>
 noremap S <Esc> :BLinesB<CR>
 "noremap L <Esc>:AsyncRun sentence.sh %;nvr sentence_%<cr>:echo 'press any key'<cr>:execute 'call getchar()' | BLines<cr>
@@ -616,6 +617,7 @@ command! -bang -nargs=* BLinesB
     \ call fzf#vim#grep(
     \   'rg --with-filename --column --line-number --no-heading --smart-case . '.fnameescape(expand('%')),1,
     \   fzf#vim#with_preview({'options': '--keep-right --layout reverse --query '.shellescape(<q-args>).' --no-sort --delimiter : --nth 4.. --preview "bat -p {}"'}, 'up:50%'))
+
 " nnoremap H :LinesWithPreview<CR>
 " command! -bang -nargs=* BLinesB
 "     \ call fzf#vim#grep(
