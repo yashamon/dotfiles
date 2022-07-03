@@ -613,7 +613,7 @@ endfunction
 command! -bang -nargs=* BLinesB
      \ call fzf#vim#grep(
      \   'rg --with-filename --column --line-number --no-heading --smart-case . '.fnameescape(expand('%:p')), 1,
-     \   fzf#vim#with_preview({'options': '--layout reverse  --with-nth=-1.. --delimiter="/" --query '.shellescape(<q-args>)}, 'right:50%', '?'))
+     \   fzf#vim#with_preview({'options': '--layout reverse  --with-nth=-1.. --delimiter="/" --query '.shellescape(<q-args>)}, 'right:50%'))
 nnoremap <leader>/ :CustomBLines<Cr>
 " command! -bang -nargs=* BLinesB
 "     \ call fzf#vim#grep(
