@@ -214,12 +214,12 @@ $	initexperiminent.vim	/^noremap $ \/\\$<CR>hv?\\$<CR>l$/;"	m
 <m-7>	initexperiminent.vim	/^nmap <m-7> :ZenMode<cr>:mksession!<cr>$/;"	m
 <m-8>	init.vim	/^nmap <m-8> :set laststatus=0<cr>:set lines=100<cr>$/;"	m
 <m-8>	initexperiminent.vim	/^nmap <m-8> :set laststatus=0<cr>:set lines=100<cr>$/;"	m
-<m-B>	init.vim	/^noremap <m-B> ?(\\\\|)<CR>$/;"	m
 <m-Q>	init.vim	/^map <m-Q> <esc>:q<cr>$/;"	m
 <m-Q>	initexperiminent.vim	/^map <m-Q> <esc>:q<cr>$/;"	m
-<m-W>	init.vim	/^noremap <m-W> \/(\\\\|)<CR>$/;"	m
-<m-b>	init.vim	/^noremap <m-b> ?{\\\\|}<CR>$/;"	m
 <m-b>	initexperiminent.vim	/^noremap <m-b> <Esc>:Buffers<CR>$/;"	m
+<m-b>b	init.vim	/^noremap <m-b>b ?{\\\\|}<CR>$/;"	m
+<m-b>c	init.vim	/^noremap <m-b>c ?[\\\\|]<CR>$/;"	m
+<m-b>o	init.vim	/^noremap <m-b>o \/(\\\\|)<CR>$/;"	m
 <m-c>	init.vim	/^map <m-c> :close<cr>$/;"	m
 <m-c>	initexperiminent.vim	/^map <m-c> :close<cr>$/;"	m
 <m-cr>	init.vim	/^inoremap <m-cr> <cr><space><esc>"_s$/;"	m
@@ -242,7 +242,9 @@ $	initexperiminent.vim	/^noremap $ \/\\$<CR>hv?\\$<CR>l$/;"	m
 <m-space>	initexperiminent.vim	/^map <m-space> <cmd>HopWord<cr>$/;"	m
 <m-t>	init.vim	/^noremap <m-t> :BTags<cr>$/;"	m
 <m-t>	initexperiminent.vim	/^noremap <m-t> :BTags<cr>$/;"	m
-<m-w>	init.vim	/^noremap <m-w> \/{\\\\|}<CR>$/;"	m
+<m-w>b	init.vim	/^noremap <m-w>b \/{\\\\|}<CR>$/;"	m
+<m-w>c	init.vim	/^noremap <m-w>c \/[\\\\|]<CR>$/;"	m
+<m-w>o	init.vim	/^noremap <m-w>o \/(\\\\|)<CR>$/;"	m
 <m-y>	init.vim	/^nnoremap <m-y> viwy:buffer g:buffmain<cr>:<c-r>+<cr><cr>$/;"	m
 <m-y>	initexperiminent.vim	/^nnoremap <m-y> viwy:buffer g:buffmain<cr>:<c-r>+<cr><cr>$/;"	m
 <up>	init.vim	/^imap <up> <nop>$/;"	m
