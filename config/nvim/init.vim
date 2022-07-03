@@ -446,6 +446,8 @@ noremap <m-w> /{\\|}<CR>
 noremap <m-b> ?{\\|}<CR>
 noremap <m-W> /(\\|)<CR>
 noremap <m-B> ?(\\|)<CR>
+" noremap <m-j>. t.<CR>
+" noremap <m-j>m t$<CR>
 noremap @ /}<CR>v?{<CR>
 map j gj
 map k gk
