@@ -442,7 +442,7 @@ noremap # /\$<CR>v?\$<CR>
 noremap $ /\$<CR>hv?\$<CR>l
 noremap W /\$<CR>
 noremap B ?\$<CR>
-noremap <m-w> /{\|}<CR>
+noremap <m-w> /{/|}<CR>
 noremap <m-b> ?\$<CR>
 noremap <m-W> /\{<CR>
 noremap <m-B> ?\<CR>
