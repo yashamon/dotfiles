@@ -617,10 +617,10 @@ profile file *
 endfunction
 
 
-command! -bang -nargs=* BLinesB
-    \ call fzf#vim#grep(
-    \   'rg --with-filename --column --line-number --no-heading --smart-case . '.fnameescape(expand('%:p')), 1,
-    \   fzf#vim#with_preview({'options': '--layout reverse --query '.shellescape(<q-args>).' --with-nth=4.. --no-sort --delimiter="/"'}, 'right:0%'))
+" command! -bang -nargs=* BLinesB
+"     \ call fzf#vim#grep(
+"     \   'rg --with-filename --column --line-number --no-heading --smart-case . '.fnameescape(expand('%:p')), 1,
+"     \   fzf#vim#with_preview({'options': '--layout reverse --query '.shellescape(<q-args>).' --with-nth=4.. --no-sort --delimiter="/"'}, 'right:0%'))
     " \   fzf#vim#with_preview({'options': '--layout reverse  --with-nth=-1.. --delimiter="/"'}, 'right:50%'))
 " command! -bang -nargs=* BLinesB
 "     \ call fzf#vim#grep(
@@ -639,10 +639,10 @@ command! -bang -nargs=* BLinesB
 "      \   'rg --with-filename --column --line-number --no-heading --smart-case . '.fnameescape(expand('%:p')), 1,
 "      \   fzf#vim#with_preview({'options': '--layout reverse  --with-nth=-1.. --delimiter="/" --query '.shellescape(<q-args>)}, 'right:50%'))
 nnoremap <leader>/ :CustomBLines<Cr>
-" command! -bang -nargs=* BLinesB
-"     \ call fzf#vim#grep(
-"     \   'rg --with-filename --column --line-number --no-heading --smart-case . '.fnameescape(expand('%:p')),,
-"     \   fzf#vim#with_preview({'options': '--layout reverse --query '.shellescape(<q-args>).' --with-nth=4.. --delimiter=":"'}, 'right:0%'))
+command! -bang -nargs=* BLinesB
+    \ call fzf#vim#grep(
+    \   'rg --with-filename --column --line-number --no-heading --smart-case . '.fnameescape(expand('%:p')),,
+    \   fzf#vim#with_preview({'options': '--layout reverse --query '.shellescape(<q-args>).' --with-nth=4.. --delimiter="/"'}, 'right:0%'))
     " \   fzf#vim#with_preview({'options': '--layout reverse  --with-nth=-1.. --delimiter="/"'}, 'right:50%'))
 function Sentence()
   let g:buf = bufname()
