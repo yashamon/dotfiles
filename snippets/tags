@@ -403,10 +403,10 @@
 0	tex.json	/^        "\\\\subset $0"$/;"	s	array:subset.body
 0	tex.json	/^        "\\\\supset $0"$/;"	s	array:super set.body
 0	tex.json	/^        "\\\\textbf{\\\\emph{$1}} $0"$/;"	s	array:emphasize bold.body
-0	tex.json	/^        "\\\\textcolor {$1}{$2} $0"$/;"	s	array:color.body
+0	tex.json	/^        "\\\\textcolor{$1}{$2} $0"$/;"	s	array:color.body
 0	tex.json	/^        "\\\\text{$1} $0"$/;"	s	array:text.body
 0	tex.json	/^        "\\\\times $0"$/;"	s	array:times.body
-0	tex.json	/^        "\\\\{\\\\pm\\\\} $0"$/;"	s	array:bracket plus minus.body
+0	tex.json	/^        "\\\\{\\\\pm \\\\\\\\} $0"$/;"	s	array:bracket plus minus.body
 0	tex.json	/^        "``$1'' $0"$/;"	s	array:quotes.body
 0	tex.json	/^        "body": ["\\\\documentclass{amsart}",  $/;"	s	array:Template.body
 0	tex.json	/^        "body": ["\\\\frac{$1}{$2}$0"],$/;"	s	array:Inline Fraction.body
