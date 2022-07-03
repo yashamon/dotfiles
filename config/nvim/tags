@@ -282,6 +282,7 @@ F	init.vim	/^noremap F ?$/;"	m
 F	initexperiminent.vim	/^noremap F ?$/;"	m
 GitAsync	init.vim	/^function GitAsync()$/;"	f
 GitAsync	initexperiminent.vim	/^function GitAsync()$/;"	f
+H	init.vim	/^nnoremap H :LinesWithPreview<CR>$/;"	m
 J	init.vim	/^map J <C-d>$/;"	m
 J	initexperiminent.vim	/^map J <C-d>$/;"	m
 K	init.vim	/^map K <C-u>$/;"	m

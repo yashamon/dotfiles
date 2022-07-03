@@ -620,7 +620,7 @@ endfunction
 command! -bang -nargs=* BLinesB
     \ call fzf#vim#grep(
     \   'rg --with-filename --line-number --keep-right --layout reverse --no-heading --smart-case . '.fnameescape(expand('%')), 1,
-    \   fzf#vim#with_preview({'options': '--delimiter="/" --nth 4.. --no-sort'}, 'up:0%', '?'),
+    \   fzf#vim#with_preview({'options': '--delimiter="/" --nth 4.. --no-sort'}, 'up:0%'),
     \   1)
 nnoremap H :LinesWithPreview<CR>
 
