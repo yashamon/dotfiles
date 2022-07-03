@@ -440,6 +440,14 @@ noremap f /
 noremap F ?
 noremap # /\$<CR>v?\$<CR>
 noremap $ /\$<CR>hv?\$<CR>l
+noremap W /\$<CR>
+noremap B ?\$<CR>
+noremap <m-w> /{\|}<CR>
+noremap <m-b> ?\$<CR>
+noremap <m-W> /\{<CR>
+noremap <m-B> ?\<CR>
+
+
 noremap @ /}<CR>v?{<CR>
 map j gj
 map k gk
@@ -507,7 +515,7 @@ noremap S <Esc> :BLinesB<CR>
 "   K=bufname()
 "   normal viwhy<esc>:bdelete<cr>:buffer K<c-r>+<cr>:ZenMode<cr>
 " endfunction
-noremap <m-b> <Esc>:Buffers<CR>
+noremap ;b <Esc>:Buffers<CR>
 " noremap F <Esc>:GFiles<CR>
 map <A-e> :FZF ~<CR> 
 map <m-f> :FZF ~<CR> 
