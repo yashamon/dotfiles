@@ -251,7 +251,6 @@ $	initexperiminent.vim	/^noremap $ \/\\$<CR>hv?\\$<CR>l$/;"	m
 @	initexperiminent.vim	/^noremap @ \/}<CR>v?{<CR>$/;"	m
 A	init.vim	/^nmap A g$a$/;"	m
 A	initexperiminent.vim	/^nmap A g$a$/;"	m
-BLinesB	init.vim	/^command! -bang -nargs=* BLinesB$/;"	c
 Bluemoon	init.vim	/^function Bluemoon()$/;"	f
 Bluemoon	initexperiminent.vim	/^function Bluemoon()$/;"	f
 C	init.vim	/^noremap C "_C$/;"	m

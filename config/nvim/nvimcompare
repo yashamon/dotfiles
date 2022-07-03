@@ -387,15 +387,6 @@ noremap <C-ScrollWheelRight> <nop>
 inoremap \ /
 inoremap / \
 
-
-noremap W /\$<CR>
-noremap B ?\$<CR>
-" noremap <m-w> /{\\|}<CR>
-" noremap <m-b> ?{\\|}<CR>
-" noremap <m-W> /(\\|)<CR>
-" noremap <m-B> ?(\\|)<CR>
-
-
 " copy paste stuff 
 " 
 vnoremap p "_dP
@@ -449,6 +440,25 @@ noremap f /
 noremap F ?
 noremap # /\$<CR>v?\$<CR>
 noremap $ /\$<CR>hv?\$<CR>l
+
+noremap W /\$<CR>
+noremap B ?\$<CR>
+" noremap <m-w> /{\\|}<CR>
+" noremap <m-b> ?{\\|}<CR>
+" noremap <m-W> /(\\|)<CR>
+" noremap <m-B> ?(\\|)<CR>
+
+noremap <m-w>o /(\\|)<CR>
+noremap <m-b>o /(\\|)<CR>
+noremap <m-w>b /{\\|}<CR>
+noremap <m-b>b ?{\\|}<CR>
+noremap <m-w>c /[\\|]<CR>
+noremap <m-b>c ?[\\|]<CR>
+
+" noremap <m-o>b ?(\\|)<CR>
+" noremap <m-b>b ?{\\|}<CR>
+" noremap <m-b>w /{\\|}<CR>
+" noremap <m-j>m t$<CR>
 noremap @ /}<CR>v?{<CR>
 map j gj
 map k gk
@@ -516,7 +526,7 @@ noremap S <Esc> :BLinesB<CR>
 "   K=bufname()
 "   normal viwhy<esc>:bdelete<cr>:buffer K<c-r>+<cr>:ZenMode<cr>
 " endfunction
-noremap <m-b> <Esc>:Buffers<CR>
+noremap ;b <Esc>:Buffers<CR>
 " noremap F <Esc>:GFiles<CR>
 map <A-e> :FZF ~<CR> 
 map <m-f> :FZF ~<CR> 
@@ -606,20 +616,41 @@ profile func *
 profile file *
 endfunction
 
+
 command! -bang -nargs=* BLinesB
     \ call fzf#vim#grep(
-    \   'rg --with-filename --column --line-number --no-heading --color=always --smart-case . '.fnameescape(expand('%'))r 1,
-    \   fzf#vim#with_preview({'options': '--keep-right --layout reverse --query '.shellescape(<q-args>).' --no-sort --delimiter : --nth 4.. --preview "bat -p --color always {}"'}, 'up:50%', '?'))
-" nnoremap H :LinesWithPreview<CR>
+    \   'rg --with-filename --column --line-number --no-heading --smart-case . '.fnameescape(expand('%:p')), 1,
+    \   fzf#vim#with_preview({'options': '--layout reverse --query '.shellescape(<q-args>).' --with-nth=4.. --delimiter=":"'}, 'right:0%'))
+    " \   fzf#vim#with_preview({'options': '--layout reverse  --with-nth=-1.. --delimiter="/"'}, 'right:50%'))
+
+
 " command! -bang -nargs=* BLinesB
 "     \ call fzf#vim#grep(
 "     \   'rg --with-filename --column --line-number --no-heading --smart-case . '.fnameescape(expand('%:p')), 1,
-"     \   fzf#vim#with_preview({'options': '--keep-right --delimiter : --nth 4.. --preview "bat -p --color always {}"'}, 'right:50%' ))
+"     \   fzf#vim#with_preview({'options': '--layout reverse --query '.shellescape(<q-args>).' --with-nth=4.. --no-sort --delimiter="/"'}, 'right:0%'))
+    " \   fzf#vim#with_preview({'options': '--layout reverse  --with-nth=-1.. --delimiter="/"'}, 'right:50%'))
+" command! -bang -nargs=* BLinesB
+"     \ call fzf#vim#grep(
+"     \   'rg --with-filename --line-number --keep-right --layout reverse --no-heading --smart-case . '.fnameescape(expand('%')), 1,
+"     \   fzf#vim#with_preview({'options': '--delimiter="/" --nth 4.. --no-sort'}, 'up:0%'),
+"     \   1)
+" nnoremap H :LinesWithPreview<CR>
+    " \   fzf#vim#with_preview({'options': '--layout reverse  --with-nth=-1.. --delimiter="/"'}, 'right:50%'))
+
+" command! -bang -nargs=* BLinesB
+"     \ call fzf#vim#grep(
+"     \   'rg --with-filename --line-number --no-heading --smart-case . '.fnameescape(expand('%')), 1,
+"     \   fzf#vim#with_preview({'options': '--keep-right --layout reverse --query '.shellescape(<q-args>).' --no-sort --delimiter="/" --with-nth=-1.. --preview "bat -p --color always {}"'}, 'up:0%'))
+" nnoremap H :LinesWithPreview<CR>
+" command! -bang -nargs=* BLinesB
+"      \ call fzf#vim#grep(
+"      \   'rg --with-filename --column --line-number --no-heading --smart-case . '.fnameescape(expand('%:p')), 1,
+"      \   fzf#vim#with_preview({'options': '--layout reverse  --with-nth=-1.. --delimiter="/" --query '.shellescape(<q-args>)}, 'right:50%'))
 nnoremap <leader>/ :CustomBLines<Cr>
 " command! -bang -nargs=* BLinesB
 "     \ call fzf#vim#grep(
-"     \   'rg --with-filename --column --line-number --no-heading --smart-case . '.fnameescape(expand('%:p')),,
-"     \   fzf#vim#with_preview({'options': '--layout reverse --query '.shellescape(<q-args>).' --with-nth=4.. --delimiter=":"'}, 'right:0%'))
+"     \   'rg --with-filename --column --line-number --no-heading --smart-case . '.fnameescape(expand('%:p')),
+"     \   fzf#vim#with_preview({'options': '--layout reverse --query '.shellescape(<q-args>).' --with-nth=4.. --delimiter="/"'}, 'right:0%'))
     " \   fzf#vim#with_preview({'options': '--layout reverse  --with-nth=-1.. --delimiter="/"'}, 'right:50%'))
 function Sentence()
   let g:buf = bufname()
@@ -1659,4 +1690,8 @@ require'nvim-treesitter.configs'.setup {
 EOF
 
 
-
+" command! -bang -nargs=* BLinesB
+"      \ call fzf#vim#grep(
+"      \   'rg --with-filename --column --line-number --no-heading --smart-case . '.fnameescape(expand('%:p')), 1,
+"      \   fzf#vim#with_preview({'options': '--layout reverse  --with-nth=-1.. --delimiter="/" --query '.shellescape(<q-args>)}, 'right:0%'))
+" nnoremap <leader>/ :CustomBLines<Cr>
