@@ -251,6 +251,8 @@ $	initexperiminent.vim	/^noremap $ \/\\$<CR>hv?\\$<CR>l$/;"	m
 @	initexperiminent.vim	/^noremap @ \/}<CR>v?{<CR>$/;"	m
 A	init.vim	/^nmap A g$a$/;"	m
 A	initexperiminent.vim	/^nmap A g$a$/;"	m
+B	init.vim	/^noremap B ?\\$<CR>$/;"	m
+BLinesB	init.vim	/^command! -bang -nargs=* BLinesB$/;"	c
 Bluemoon	init.vim	/^function Bluemoon()$/;"	f
 Bluemoon	initexperiminent.vim	/^function Bluemoon()$/;"	f
 C	init.vim	/^noremap C "_C$/;"	m
@@ -328,6 +330,7 @@ V	init.vim	/^nmap V vg\$$/;"	m
 V	initexperiminent.vim	/^nmap V vg\$$/;"	m
 ViewPdf	init.vim	/^function! ViewPdf() $/;"	f
 ViewPdf	initexperiminent.vim	/^function! ViewPdf() $/;"	f
+W	init.vim	/^noremap W \/\\$<CR>$/;"	m
 X	autoload/plug.vim	/^    nnoremap <silent> <buffer> X :call <SID>revert()<cr>$/;"	m
 X	colors/wombat256.vim	/^fun <SID>X(group, fg, bg, attr)$/;"	f
 [[	autoload/plug.vim	/^  nnoremap <silent> <buffer> [[ :silent! call <SID>section('b')<cr>$/;"	m
