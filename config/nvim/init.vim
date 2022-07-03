@@ -616,10 +616,18 @@ profile func *
 profile file *
 endfunction
 
+
 command! -bang -nargs=* BLinesB
     \ call fzf#vim#grep(
-    \   'rg --with-filename --line-number --no-heading --smart-case . '.fnameescape(expand('%')), 1,
-    \   fzf#vim#with_preview({'options': '--keep-right --layout reverse --query '.shellescape(<q-args>).' --no-sort --delimiter="/" --with-nth=-1.. --preview "bat -p --color always {}"'}, 'up:0%'))
+    \   'rg --with-filename --line-number --keep-right --layout reverse --no-heading --smart-case . '.fnameescape(expand('%')), 1,
+    \   fzf#vim#with_preview({'options': '--delimiter="/" --nth 4.. --no-sort'}, 'up:0%', '?'),
+    \   1)
+nnoremap H :LinesWithPreview<CR>
+
+" command! -bang -nargs=* BLinesB
+"     \ call fzf#vim#grep(
+"     \   'rg --with-filename --line-number --no-heading --smart-case . '.fnameescape(expand('%')), 1,
+"     \   fzf#vim#with_preview({'options': '--keep-right --layout reverse --query '.shellescape(<q-args>).' --no-sort --delimiter="/" --with-nth=-1.. --preview "bat -p --color always {}"'}, 'up:0%'))
 " nnoremap H :LinesWithPreview<CR>
 " command! -bang -nargs=* BLinesB
 "      \ call fzf#vim#grep(
