@@ -390,6 +390,12 @@ inoremap / \
 
 noremap W /\$<CR>
 noremap B ?\$<CR>
+noremap <m-w>o /(\\|)<CR>
+noremap <m-b>o /(\\|)<CR>
+noremap <m-w>b /{\\|}<CR>
+noremap <m-b>b ?{\\|}<CR>
+noremap <m-w>c /[\\|]<CR>
+noremap <m-b>c ?[\\|]<CR>
 " noremap <m-w> /{\\|}<CR>
 " noremap <m-b> ?{\\|}<CR>
 " noremap <m-W> /(\\|)<CR>
