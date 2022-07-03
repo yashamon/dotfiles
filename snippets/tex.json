@@ -634,6 +634,22 @@
     ],
     "description": "set brackets"
   },
+  "right ob": {
+    "prefix": "right",
+    "body": [
+      "\\right) $0"
+    ],
+    "description": "left ob"
+  },
+
+ "left ob": {
+    "prefix": "left",
+    "body": [
+      "\\left( $0"
+    ],
+    "description": "left ob"
+  },
+ 
 "open bracket": {
     "prefix": "ob",
     "body": [
