@@ -615,8 +615,8 @@ endfunction
 
 command! -bang -nargs=* BLinesB
     \ call fzf#vim#grep(
-    \   'rg --with-filename --column --line-number --no-heading --smart-case . '.fnameescape(expand('%')),1,
-    \   fzf#vim#with_preview({'options': '--keep-right --layout reverse --query '.shellescape(<q-args>).' --no-sort --delimiter : --nth 4.. --preview "bat -p --color always {}"'}, 'up:50%'))
+    \   'rg --with-filename --line-number --no-heading --smart-case . '.fnameescape(expand('%')),1,
+    \   fzf#vim#with_preview({'options': '--keep-right --layout reverse --query '.shellescape(<q-args>).' --no-sort --delimiter : --nth 4.. --preview "bat -p --color always {}"'}, 'up:40%'))
 
 " nnoremap H :LinesWithPreview<CR>
 " command! -bang -nargs=* BLinesB
