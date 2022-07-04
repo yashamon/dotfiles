@@ -22,10 +22,14 @@
 
 #A::
 Send ^#{Left 7}
+sleep 
+Send ^#{Left 7}
 return
 #S::
 Send ^#{Left 7}
-sleep, 150
+sleep 
+Send ^#{Left 7}
+sleep
 Send ^#{Right 1}
 return
 #D::switchDesktopByNumber(3)
