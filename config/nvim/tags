@@ -258,6 +258,7 @@ A	init.vim	/^nmap A g$a$/;"	m
 A	initexperiminent.vim	/^nmap A g$a$/;"	m
 B	init.vim	/^noremap B ?\\$<CR>$/;"	m
 BLinesB	init.vim	/^command! -bang -nargs=* BLinesB$/;"	c
+BLinesB	init.vim	/^function BLinesB$/;"	f
 Bluemoon	init.vim	/^function Bluemoon()$/;"	f
 Bluemoon	initexperiminent.vim	/^function Bluemoon()$/;"	f
 C	init.vim	/^noremap C "_C$/;"	m

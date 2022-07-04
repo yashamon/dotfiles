@@ -387,7 +387,7 @@ noremap <C-ScrollWheelRight> <nop>
 inoremap \ /
 inoremap / \
 
-
+" Movement
 noremap W /\$<CR>
 noremap B ?\$<CR>
 noremap <m-w>o /(\\|)<CR>
@@ -613,21 +613,10 @@ profile func *
 profile file *
 endfunction
 
-function BLinesB
-   let wid = win_getid()
-
-" do splits
-split newfile
-vert split anotherfile
-endfunction
-" go back
-call win_gotoid(wid)
-
 command! -bang -nargs=* BLinesB
     \ call fzf#vim#grep(
     \   'rg --with-filename --line-number --no-heading --smart-case . '.fnameescape(expand('%')),1,
     \   fzf#vim#with_preview({'options': '--keep-right --layout reverse --query '.shellescape(<q-args>).' --preview "bat -p --color always {}"'}, 'up:40%'))
-" get current window identifier
 
 " nnoremap H :LinesWithPreview<CR>
 " command! -bang -nargs=* BLinesB
