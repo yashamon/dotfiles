@@ -20,14 +20,8 @@
 ; === END OF INSTRUCTIONS ===
 ; ===========================
 
-#A::
-Send ^#{Left 7}
-return
-#S::
-Send ^#{Left 7}
-sleep, 40
-Send ^#{Right 1}
-return
+#A::witchDesktopByNumber(1)
+#S::switchDesktopByNumber(2)
 #X::
 return
 #J::switchDesktopByNumber(4)
