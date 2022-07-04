@@ -30,9 +30,17 @@ Send !{Esc}
 return
 #X::
 return
-#J::switchDesktopByNumber(4)
-#D::switchDesktopByNumber(5)
-#C::switchDesktopByNumber(3)
+#J::
+switchDesktopByNumber(4)
+Send !{Esc}
+return
+#D::
+switchDesktopByNumber(5)
+Send !{Esc}
+return
+#C::
+switchDesktopByNumber(3)
+Send !{Esc}
 return
 CapsLock::Escape
 #Space::
