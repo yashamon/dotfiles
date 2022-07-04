@@ -24,6 +24,8 @@
 Send ^#{Left 7}
 sleep, 100
 Send ^#{Left 7}
+Send Win Down
+Send Win Up
 return
 #S::switchDesktopByNumber(2)
 Send ^#{Left 7}
@@ -32,7 +34,7 @@ Send ^#{Left 7}
 sleep, 100
 Send ^#{Left 7}
 Send ^#{Right 1}
-return
+Return
 #X::
 return
 #J::switchDesktopByNumber(4)
