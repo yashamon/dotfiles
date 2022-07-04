@@ -21,11 +21,11 @@
 ; ===========================
 
 #A::
-sleep 400
-Send ^#{Left 7}
+switchDesktopByNumber(2)
+Send ^#{Left 1}
 return
 #S::
-sleep 400
+Send ^#{Right 1}
 switchDesktopByNumber(2)
 return
 #X::
