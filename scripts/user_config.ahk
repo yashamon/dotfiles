@@ -21,20 +21,20 @@
 ; ===========================
 
 #A::
-switchDesktopByNumber(2)
-sleep, 200
-Send ^#{Left 1}
+sleep, 400
+switchDesktopByNumber(1)
 return
 #S::
-Send ^#{Right 1}
-sleep, 200
+sleep, 400
 switchDesktopByNumber(2)
 return
 #X::
 return
 #J::switchDesktopByNumber(4)
 #D::switchDesktopByNumber(5)
-#C::switchDesktopByNumber(3)
+#C::
+sleep 400
+switchDesktopByNumber(3)
 return
 CapsLock::Escape
 #Space::
