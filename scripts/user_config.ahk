@@ -20,8 +20,11 @@
 ; === END OF INSTRUCTIONS ===
 ; ===========================
 
-#A::Send ^#{Left 7}
-#S::Send {^#{Left 7}}{^#{Right 1}}
+#A::
+Send ^#{Left 7}
+#S::
+Send ^#{Left 7}
+send ^#{Right 1}
 #D::Send ^#{Left 7}{Right 2}
 #F::Send ^#{Left 7}{Right 4}
 #C::Send ^#{Left 7}#{Right 5}
