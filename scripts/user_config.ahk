@@ -28,11 +28,7 @@ Send ^#{Left 6}
 sleep, 150
 Send ^#{Right 1}
 return
-#D::
-Send ^#{Left 6}
-sleep, 150
-Send ^#{Right 2}
-return
+#D::switchDesktopByNumber(3)
 #F::switchDesktopByNumber(4)
 #C::switchDesktopByNumber(5)
 CapsLock::Escape
