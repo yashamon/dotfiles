@@ -21,26 +21,17 @@
 ; ===========================
 
 #A::Send ^#{Left 7}
-#S::switchDesktopByNumber(2)
-sleep 20
-send {click 3195 1200}
-sleep 100
-send {click 3195 1200} 
-return
-#D::switchDesktopByNumber(3)
-sleep 100
-send {click 3195 1200} 
-return
-#F::switchDesktopByNumber(4)
-sleep 100
-send {click 3195 1200} 
-return
-#C::switchDesktopByNumber(5)
-sleep 20
-send {click 3195 1200}
-sleep 100
-send {click 3195 1200} 
-return
+#S::
+Send ^#{Left 7}^#{Right 1}
+#D::
+Send ^#{Left 7}
+Send ^#{Right 2}
+#F::
+Send ^#{Left 7}
+Send ^#{Right 4}
+#C::
+Send ^#{Left 7}
+Send ^#{Right 5}
 CapsLock::Escape
 #Space::
 send {F11}
