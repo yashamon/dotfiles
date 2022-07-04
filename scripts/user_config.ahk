@@ -20,8 +20,19 @@
 ; === END OF INSTRUCTIONS ===
 ; ===========================
 
-#A::switchDesktopByNumber(1)
+#A::
+Send ^#{Left 7}
+sleep, 100
+Send ^#{Left 7}
+return
 #S::switchDesktopByNumber(2)
+Send ^#{Left 7}
+sleep, 40
+Send ^#{Left 7}
+sleep, 100
+Send ^#{Left 7}
+Send ^#{Right 1}
+return
 #X::
 return
 #J::switchDesktopByNumber(4)
