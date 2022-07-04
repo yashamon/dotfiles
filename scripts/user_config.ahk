@@ -22,19 +22,15 @@
 
 #A::
 Send ^#{Left 7}
-sleep, 100 
-Send ^#{Left 7}
 return
 #S::
-Send ^#{Left 7}
-sleep, 100 
 Send ^#{Left 7}
 sleep, 40
 Send ^#{Right 1}
 return
-#D::switchDesktopByNumber(3)
-#F::switchDesktopByNumber(4)
-#C::switchDesktopByNumber(5)
+#D::switchDesktopByNumber(4)
+#F::switchDesktopByNumber(5)
+#C::switchDesktopByNumber(3)
 CapsLock::Escape
 #Space::
 send {F11}
