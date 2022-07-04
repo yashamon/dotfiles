@@ -31,8 +31,9 @@ Send ^#{Left 7}
 sleep, 100
 Send ^#{Left 7}
 sleep, 100
+Send ^#{Left 7}
+sleep, 100
 Send ^#{Right 1}
-Send {LWin up}
 Return
 #X::
 return
