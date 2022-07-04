@@ -22,8 +22,6 @@
 
 #A::
 Send ^#{Left 7}
-sleep, 100
-Send ^#{Left 7}
 return
 #S::switchDesktopByNumber(2)
 #X::
