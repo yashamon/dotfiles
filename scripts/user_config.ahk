@@ -82,7 +82,9 @@ Send ^#{Left 1}
 sleep, 150
 Send ^#{Left 1}
 sleep, 150
-Send ^#{Right 4}
+Send ^#{Right 3}
+sleep, 150
+Send ^#{Right 1}
 return
 CapsLock::Escape
 #Space::
