@@ -22,79 +22,67 @@
 
 #A::
 Send ^#{Left 1}
-sleep, 100
+sleep, 150
 Send ^#{Left 1}
-sleep, 100
+sleep, 150
 Send ^#{Left 1}
-sleep, 100
+sleep, 150
 Send ^#{Left 1}
-sleep, 100
+sleep, 150
 Send ^#{Left 1}
-sleep, 100
+sleep, 150
 return
 #S::
 Send ^#{Left 1}
-sleep, 100
+sleep, 150
 Send ^#{Left 1}
-sleep, 100
+sleep, 150
 Send ^#{Left 1}
-sleep, 100
+sleep, 150
 Send ^#{Left 1}
-sleep, 100
+sleep, 150
 Send ^#{Left 1}
-sleep, 100
+sleep, 150
 Send ^#{Right 1}
 return
 #D::
 Send ^#{Left 1}
-sleep, 100
+sleep, 150
 Send ^#{Left 1}
-sleep, 100
+sleep, 150
 Send ^#{Left 1}
-sleep, 100
+sleep, 150
 Send ^#{Left 1}
-sleep, 100
+sleep, 150
 Send ^#{Left 1}
-sleep, 100
-Send ^#{Right 1}
-sleep, 100
-Send ^#{Right 1}
+sleep, 150
+Send ^#{Right 2}
 return
 #F::
 Send ^#{Left 1}
-sleep, 100
+sleep, 150
 Send ^#{Left 1}
-sleep, 100
+sleep, 150
 Send ^#{Left 1}
-sleep, 100
+sleep, 150
 Send ^#{Left 1}
-sleep, 100
+sleep, 150
 Send ^#{Left 1}
-sleep, 100
-Send ^#{Right 1}
-sleep, 100
-Send ^#{Right 1}
-sleep, 100
-Send ^#{Right 1}
+sleep, 150
+Send ^#{Right 3}
 return
 #C::
 Send ^#{Left 1}
-sleep, 100
+sleep, 150
 Send ^#{Left 1}
-sleep, 100
+sleep, 150
 Send ^#{Left 1}
-sleep, 100
+sleep, 150
 Send ^#{Left 1}
-sleep, 100
+sleep, 150
 Send ^#{Left 1}
-sleep, 100
-Send ^#{Right 1}
-sleep, 100
-Send ^#{Right 1}
-sleep, 100
-Send ^#{Right 1}
-sleep, 100
-Send ^#{Right 1}
+sleep, 150
+Send ^#{Right 4}
 return
 CapsLock::Escape
 #Space::
