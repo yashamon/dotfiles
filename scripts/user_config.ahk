@@ -32,7 +32,11 @@ return
 return
 #J::switchDesktopByNumber(4)
 #F::switchDesktopByNumber(5)
-#C::switchDesktopByNumber(3)
+#C::
+Send ^#{Left 7}
+sleep, 40
+Send ^#{Right 2}
+return
 CapsLock::Escape
 #Space::
 send {F11}
@@ -43,7 +47,7 @@ End::CapsLock
 #!d::MoveCurrentWindowToDesktop(3)
 #!f::MoveCurrentWindowToDesktop(4)
 #!c::MoveCurrentWindowToDesktop(5)
-CapsLock and !::!`
+!CapsLock::!`
 ^CapsLock::
 return
 !CapsLock::
