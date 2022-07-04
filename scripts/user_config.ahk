@@ -20,7 +20,7 @@
 ; === END OF INSTRUCTIONS ===
 ; ===========================
 
-#A::witchDesktopByNumber(1)
+#A::switchDesktopByNumber(1)
 #S::switchDesktopByNumber(2)
 #X::
 return
