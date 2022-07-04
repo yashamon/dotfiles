@@ -30,7 +30,7 @@ Send ^#{Right 1}
 return
 #X::
 return
-#X::switchDesktopByNumber(4)
+#J::switchDesktopByNumber(4)
 #F::switchDesktopByNumber(5)
 #C::switchDesktopByNumber(3)
 CapsLock::Escape
