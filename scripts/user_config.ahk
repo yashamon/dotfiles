@@ -33,7 +33,7 @@ Send ^#{Left 6}
 sleep, 150
 Send ^#{Right 2}
 return
-#D::switchDesktopByNumber(4)
+#F::switchDesktopByNumber(4)
 #C::switchDesktopByNumber(5)
 CapsLock::Escape
 #Space::
