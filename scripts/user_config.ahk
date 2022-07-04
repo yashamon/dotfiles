@@ -25,7 +25,7 @@ Send ^#{Left 5}
 return
 #S::
 Send ^#{Left 1}
-sleep 100
+sleep 3000
 Send ^#{Left 1}
 sleep 100
 Send ^#{Left 1}
