@@ -22,7 +22,7 @@
 
 #A::Send ^#{Left 7}
 #S::
-Send ^#{Left 7}^#{Right 1}
+Send ^#{Left 7} && ^#{Right 1}
 #D::
 Send ^#{Left 7}
 Send ^#{Right 2}
