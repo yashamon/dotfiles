@@ -21,9 +21,11 @@
 ; ===========================
 
 #A::
+sleep 200
 Send ^#{Left 7}
 return
 #S::
+sleep 200
 switchDesktopByNumber(2)
 sleep 200
 Send {Click 2 1000}
