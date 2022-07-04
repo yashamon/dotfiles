@@ -25,6 +25,7 @@ Send ^#{Left 7}
 sleep, 100
 Send ^#{Left 7}
 Send {LWin down}
+sleep
 Send {LWin up} 
 return
 #S::switchDesktopByNumber(2)
