@@ -22,7 +22,7 @@
 
 #A::
 sleep 350
-Send ^#{Left 7}
+Send ^#{Left 5}
 return
 #S::
 sleep 350
