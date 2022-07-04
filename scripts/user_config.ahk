@@ -23,9 +23,13 @@
 #A::
 switchDesktopByNumber(1)
 Send !{Esc}
+sleep, 100
+Send !{Esc}
 return
 #S::
 switchDesktopByNumber(2)
+Send !{Esc}
+sleep, 100
 Send !{Esc}
 return
 #X::
@@ -33,13 +37,19 @@ return
 #J::
 switchDesktopByNumber(4)
 Send !{Esc}
+sleep, 100
+Send !{Esc}
 return
 #D::
 switchDesktopByNumber(5)
 Send !{Esc}
+sleep, 100
+Send !{Esc}
 return
 #C::
 switchDesktopByNumber(3)
+Send !{Esc}
+sleep, 100
 Send !{Esc}
 return
 CapsLock::Escape
