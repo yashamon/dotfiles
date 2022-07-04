@@ -614,9 +614,10 @@ profile file *
 endfunction
 
 command! -bang -nargs=* BLinesB
-    \ call fzf#vim#grep(
+    \ let wid = win_getid(); call fzf#vim#grep(
     \   'rg --with-filename --line-number --no-heading --smart-case . '.fnameescape(expand('%')),1,
-    \   fzf#vim#with_preview({'options': '--keep-right --layout reverse --query '.shellescape(<q-args>).' --preview "bat -p --color always {}"'}, 'up:40%'))
+    \   fzf#vim#with_preview({'options': '--keep-right --layout reverse --query '.shellescape(<q-args>).' --preview "bat -p --color always {}"'}, 'up:40%')); call win_gotoid(wid)
+
 
 " nnoremap H :LinesWithPreview<CR>
 " command! -bang -nargs=* BLinesB
