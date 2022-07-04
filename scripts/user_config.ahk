@@ -20,7 +20,7 @@
 ; === END OF INSTRUCTIONS ===
 ; ===========================
 
-#A::Send ^#{Left 7}
+#A::Send {CtrlDown}{WinDown}Left 7{CtrlUp}{WinUp}
 #S::Send ^#Left^#Left^#Left^#Left^#Left^#Left
 #D::Send ^#{Left 7}{Right 2}
 #F::Send ^#{Left 7}{Right 4}
