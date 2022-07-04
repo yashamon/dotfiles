@@ -26,6 +26,8 @@ sleep, 200
 Send ^#{Left 1}
 return
 #S::
+Send ^#{Right 1}
+sleep, 200
 switchDesktopByNumber(2)
 return
 #X::
