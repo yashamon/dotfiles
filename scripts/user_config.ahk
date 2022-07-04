@@ -21,16 +21,7 @@
 ; ===========================
 
 #A::
-Send ^#{Left 1}
-sleep 100
-Send ^#{Left 1}
-sleep 100
-Send ^#{Left 1}
-sleep 100
-Send ^#{Left 1}
-sleep 100
-Send ^#{Left 1}
-sleep 100
+Send ^#{Left 5}
 return
 #S::
 Send ^#{Left 1}
