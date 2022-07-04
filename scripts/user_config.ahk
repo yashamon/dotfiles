@@ -22,12 +22,10 @@
 
 #A::
 switchDesktopByNumber(2)
-sleep, 100
+sleep, 200
 Send ^#{Left 1}
 return
 #S::
-Send ^#{Right 1}
-sleep, 100
 switchDesktopByNumber(2)
 return
 #X::
