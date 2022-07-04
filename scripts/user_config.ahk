@@ -28,17 +28,13 @@ Send ^#{Left 6}
 sleep, 150
 Send ^#{Right 1}
 return
-#D:: switchDesktopByNumber(3)
+#D::
+Send ^#{Left 6}
+sleep, 150
+Send ^#{Right 2}
+return
 #F::
-Send ^#{Left 1}
-sleep, 150
-Send ^#{Left 1}
-sleep, 150
-Send ^#{Left 1}
-sleep, 150
-Send ^#{Left 1}
-sleep, 150
-Send ^#{Left 1}
+Send ^#{Left 6}
 sleep, 150
 Send ^#{Right 3}
 return
