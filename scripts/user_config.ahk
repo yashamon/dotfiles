@@ -32,10 +32,7 @@ return
 return
 #J::switchDesktopByNumber(4)
 #D::switchDesktopByNumber(5)
-#C::
-Send ^#{Left 7}
-sleep, 40
-Send ^#{Right 2}
+#C::switchDesktopByNumber(3)
 return
 CapsLock::Escape
 #Space::
