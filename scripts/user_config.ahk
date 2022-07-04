@@ -33,26 +33,8 @@ Send ^#{Left 6}
 sleep, 150
 Send ^#{Right 2}
 return
-#F::
-Send ^#{Left 6}
-sleep, 150
-Send ^#{Right 3}
-return
-#C::
-Send ^#{Left 1}
-sleep, 150
-Send ^#{Left 1}
-sleep, 150
-Send ^#{Left 1}
-sleep, 150
-Send ^#{Left 1}
-sleep, 150
-Send ^#{Left 1}
-sleep, 150
-Send ^#{Right 3}
-sleep, 150
-Send ^#{Right 1}
-return
+#F::switchDesktopByNumber(4)
+#C::#F::switchDesktopByNumber(5)
 CapsLock::Escape
 #Space::
 send {F11}
