@@ -21,11 +21,8 @@
 ; ===========================
 
 #A::Send ^#{Left 7}
-#S::
-Send ^#{Left 7} && ^#{Right 1}
-#D::
-Send ^#{Left 7}
-Send ^#{Right 2}
+#S::Send ^#{Left 7}^#{Right 1}
+#D::Send ^#{Left 7}^#{Right 2}
 #F::
 Send ^#{Left 7}
 Send ^#{Right 4}
