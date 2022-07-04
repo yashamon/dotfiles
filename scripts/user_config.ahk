@@ -28,6 +28,8 @@ Send ^#{Left 7}
 sleep, 40
 Send ^#{Right 1}
 return
+#X::
+return
 #X::switchDesktopByNumber(4)
 #F::switchDesktopByNumber(5)
 #C::switchDesktopByNumber(3)
