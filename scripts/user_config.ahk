@@ -23,12 +23,8 @@
 #A::Send ^#{Left 7}
 #S::Send ^#{Left 7}^#{Right 1}
 #D::Send ^#{Left 7}^#{Right 2}
-#F::
-Send ^#{Left 7}
-Send ^#{Right 4}
-#C::
-Send ^#{Left 7}
-Send ^#{Right 5}
+#F::Send ^#{Left 7}^#{Right 4}
+#C::Send ^#{Left 7}^#{Right 5}
 CapsLock::Escape
 #Space::
 send {F11}
