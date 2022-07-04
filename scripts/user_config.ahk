@@ -22,6 +22,7 @@
 
 #A::
 Send ^#{Left 5}
+return
 #S::
 Send ^#{Left 5}
 send ^#{Right 1}
