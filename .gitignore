@@ -7,6 +7,7 @@ chromium/
 config/pulse/
 config/PowerToys/
 vifminfo  
+tags
 *.log
 !./config/PowerToys/Keyboard Manager/settings.json
 newtest/
