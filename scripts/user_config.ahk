@@ -23,7 +23,10 @@
 #A::
 Send ^#{Left 7}
 return
-#S::switchDesktopByNumber(2)
+#S::
+switchDesktopByNumber(2)
+Send {Click 100 200}
+return
 #X::
 return
 #J::switchDesktopByNumber(4)
