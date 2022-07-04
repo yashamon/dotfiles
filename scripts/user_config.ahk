@@ -22,7 +22,7 @@
 
 #A::
 sleep, 400
-switchDesktopByNumber(1)
+Send ^#{Left 7}
 return
 #S::
 sleep, 400
@@ -32,9 +32,7 @@ return
 return
 #J::switchDesktopByNumber(4)
 #D::switchDesktopByNumber(5)
-#C::
-sleep 400
-switchDesktopByNumber(3)
+#C::switchDesktopByNumber(3)
 return
 CapsLock::Escape
 #Space::
