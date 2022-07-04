@@ -21,7 +21,7 @@
 ; ===========================
 
 #A::Send ^#{Left 7}
-#S::Send ^#{Left 7}{Right 1}
+#S::Send ^#LeftLeftLeftLeftLeftLeftRight
 #D::Send ^#{Left 7}{Right 2}
 #F::Send ^#{Left 7}{Right 4}
 #C::Send ^#{Left 7}{Right 5}
