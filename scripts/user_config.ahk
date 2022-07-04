@@ -21,43 +21,14 @@
 ; ===========================
 
 #A::
-Send ^#{Left 1}
-sleep, 150
-Send ^#{Left 1}
-sleep, 150
-Send ^#{Left 1}
-sleep, 150
-Send ^#{Left 1}
-sleep, 150
-Send ^#{Left 1}
-sleep, 150
+Send ^#{Left 6}
 return
 #S::
-Send ^#{Left 1}
-sleep, 150
-Send ^#{Left 1}
-sleep, 150
-Send ^#{Left 1}
-sleep, 150
-Send ^#{Left 1}
-sleep, 150
-Send ^#{Left 1}
+Send ^#{Left 6}
 sleep, 150
 Send ^#{Right 1}
 return
-#D::
-Send ^#{Left 1}
-sleep, 150
-Send ^#{Left 1}
-sleep, 150
-Send ^#{Left 1}
-sleep, 150
-Send ^#{Left 1}
-sleep, 150
-Send ^#{Left 1}
-sleep, 150
-Send ^#{Right 2}
-return
+#D:: switchDesktopByNumber(3)
 #F::
 Send ^#{Left 1}
 sleep, 150
