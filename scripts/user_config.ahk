@@ -31,7 +31,7 @@ return
 #X::
 return
 #J::switchDesktopByNumber(4)
-#F::switchDesktopByNumber(5)
+#D::switchDesktopByNumber(5)
 #C::
 Send ^#{Left 7}
 sleep, 40
