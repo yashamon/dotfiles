@@ -21,10 +21,10 @@
 ; ===========================
 
 #A::
-Send ^#{Left 6}
+Send ^#{Left 7}
 return
 #S::
-Send ^#{Left 6}
+Send ^#{Left 7}
 sleep, 150
 Send ^#{Right 1}
 return
