@@ -61,14 +61,40 @@ sleep, 40
 Send ^#{Right 1}
 return
 #F::
-Send ^#{Left 5}
-sleep, 200
-send ^#{Right 3}
+Send ^#{Left 1}
+sleep, 60
+Send ^#{Left 1}
+sleep, 60
+Send ^#{Left 1}
+sleep, 60
+Send ^#{Left 1}
+sleep, 60
+Send ^#{Left 1}
+sleep, 60
+Send ^#{Right 1}
+sleep, 60
+Send ^#{Right 1}
+sleep, 60
+Send ^#{Right 1}
 return
 #C::
-Send ^#{Left 5}
-sleep, 200
-send ^#{Right 4}
+Send ^#{Left 1}
+sleep, 60
+Send ^#{Left 1}
+sleep, 60
+Send ^#{Left 1}
+sleep, 60
+Send ^#{Left 1}
+sleep, 60
+Send ^#{Left 1}
+sleep, 60
+Send ^#{Right 1}
+sleep, 60
+Send ^#{Right 1}
+sleep, 60
+Send ^#{Right 1}
+sleep, 60
+Send ^#{Right 1}
 return
 CapsLock::Escape
 #Space::
