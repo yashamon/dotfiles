@@ -20,11 +20,7 @@
 ; === END OF INSTRUCTIONS ===
 ; ===========================
 
-#A::switchDesktopByNumber(1)
-sleep 20
-send {click 3195 1200} 
-sleep 100
-send {click 3195 1200} 
+#A::Send ^#{Left: 7}
 return
 #S::switchDesktopByNumber(2)
 sleep 20
