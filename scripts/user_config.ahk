@@ -25,6 +25,7 @@ Send ^#{Left 7}
 return
 #S::
 switchDesktopByNumber(2)
+sleep 200
 Send {Click 2 1000}
 return
 #X::
