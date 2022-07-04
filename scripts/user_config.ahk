@@ -21,17 +21,44 @@
 ; ===========================
 
 #A::
-Send ^#{Left 5}
+Send ^#{Left 1}
+sleep, 40
+Send ^#{Left 1}
+sleep, 40
+Send ^#{Left 1}
+sleep, 40
+Send ^#{Left 1}
+sleep, 40
+Send ^#{Left 1}
+sleep, 40
 return
 #S::
-Send ^#{Left 5}
-sleep, 200
-send ^#{Right 1}
+Send ^#{Left 1}
+sleep, 40
+Send ^#{Left 1}
+sleep, 40
+Send ^#{Left 1}
+sleep, 40
+Send ^#{Left 1}
+sleep, 40
+Send ^#{Left 1}
+sleep, 40
+Send ^#{Right 1}
 return
 #D::
-Send ^#{Left 5}
-sleep, 200
-send ^#{Right 2}
+Send ^#{Left 1}
+sleep, 40
+Send ^#{Left 1}
+sleep, 40
+Send ^#{Left 1}
+sleep, 40
+Send ^#{Left 1}
+sleep, 40
+Send ^#{Left 1}
+sleep, 40
+Send ^#{Right 1}
+sleep, 40
+Send ^#{Right 1}
 return
 #F::
 Send ^#{Left 5}
