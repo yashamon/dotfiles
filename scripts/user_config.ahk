@@ -22,12 +22,12 @@
 
 #A::
 Send ^#{Left 7}
-sleep, 40 
+sleep, 100 
 Send ^#{Left 7}
 return
 #S::
 Send ^#{Left 7}
-sleep, 40 
+sleep, 100 
 Send ^#{Left 7}
 sleep, 40
 Send ^#{Right 1}
