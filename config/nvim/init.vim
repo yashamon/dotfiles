@@ -464,9 +464,8 @@ noremap <Space> .
 vnoremap <Space> t <cr>
 map K <C-u>
 map J <C-d>
-$" map <C-j> zz
+" map <C-j> zz
 " map <C-k> zb
-$
 map <C-j> <C-e>jj
 map <C-k> <C-y>kk
 nnoremap <leader>j J
@@ -485,10 +484,9 @@ noremap <C-t> <Esc>:AsyncRun ctags -R<CR>
 noremap <D-u> <C-u>
 noremap <A-u> <C-u>
 " windows stuff, comment out on windows
-" nnoremap ;%$ww :%s///gc
+" nnoremap ;ww :%s///gc
 " this mapping Enter key to <C-y> to chose the current highlight item 
-" and close he$ selection list, same as other IDEs.
-$
+" and close he selection list, same as other IDEs.
 inoremap <expr> <CR> pumvisible() ? "\<C-y>" : "\<C-g>u\<CR>"
 nnoremap <silent> <Leader>y :YRGetElem<CR>
 map ' "
