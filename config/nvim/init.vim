@@ -390,6 +390,8 @@ inoremap / \
 " Movement
 noremap W /\$<CR>
 noremap B ?\$<CR>
+noremap <m-w>m /\$<CR>
+noremap <m-b>m ?\$<CR>
 noremap <m-w>o /(\\|)<CR>
 noremap <m-b>o /(\\|)<CR>
 noremap <m-w>b /{\\|}<CR>
