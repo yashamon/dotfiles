@@ -514,7 +514,7 @@ map <m-space> <cmd>HopWord<cr>
 " map t <ESC>:syntax off <CR>t: syntax on<CR>
 
 " FZF 
-let g:fzf_layout = { 'window': 'enew' }
+" let g:fzf_layout = { 'window': 'enew' }
 
 " let g:fzf_preview_window = []
 noremap <m-t> :BTags<cr>
