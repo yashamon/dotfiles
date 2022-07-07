@@ -514,8 +514,7 @@ map <m-space> <cmd>HopWord<cr>
 " map t <ESC>:syntax off <CR>t: syntax on<CR>
 
 " FZF 
-" let g:fzf_layout = { 'window': 'enew' }
-
+let g:fzf_layout = { 'window': { 'width': 1, 'height': 1 } }
 " let g:fzf_preview_window = []
 noremap <m-t> :BTags<cr>
 noremap S <Esc> :BLinesB<CR>
@@ -549,6 +548,7 @@ nnoremap <leader>Y :FZFNeoyank  P<cr>
 vnoremap <leader>y :FZFNeoyankSelection<cr>
 
 nnoremap <leader>p :FZFNeoyank +<cr> 
+
 nnoremap <leader>1 :FZFNeoyank 1<cr>
 nnoremap <leader>P :FZFNeoyank " P+<cr>
 vnoremap <leader>p :FZFNeoyankSelection +<cr>
