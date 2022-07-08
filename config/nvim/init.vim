@@ -1222,7 +1222,8 @@ require'lspconfig'.ltex.setup{
       dictionary = {
         ['en-US'] = words,
         ['en-GB'] = words,
-      },
+        ['es'] = words,
+},
     },
   },
 }
