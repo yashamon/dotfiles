@@ -1209,7 +1209,6 @@ local words = {}
 for word in io.open(path, 'r'):lines() do
   table.insert(words, word)
 end
-
 require'lspconfig'.ltex.setup{
   on_attach = on_attach,
   capabilities = capabilities,
@@ -1219,6 +1218,7 @@ require'lspconfig'.ltex.setup{
         ['en-US'] = { 'PROFANITY' },
         ['en-GB'] = { 'PROFANITY' },
       },
+      language="auto",
       dictionary = {
         ['en-US'] = words,
         ['en-GB'] = words,
