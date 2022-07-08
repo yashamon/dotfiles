@@ -1203,6 +1203,7 @@ lua <<EOF
 --  * en.utf-8.add must be created using `zg` when set spell is on
 -- ===========================================
 local path = vim.fn.stdpath 'config' .. '/spell/en.utf-8.add'
+local path = vim.fn.stdpath 'config' .. '/spell/es.utf-8.spl'
 local words = {}
 
 for word in io.open(path, 'r'):lines() do
