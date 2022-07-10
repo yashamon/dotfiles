@@ -712,9 +712,12 @@ exec execstrWindows
 execute "buffer" buf
 endfunction
 nmap <leader>v :call ViewPdf()<cr><cr>
+map <m-v> <esc>:call ViewPdf()<cr><cr>
+
 " nmap <leader>v :VimtexView<cr>
 " let  g:vimtex_fold_types_defaults = 'preamble, sections, comments'
 nmap <leader>ll :call CompileLatex()<cr>
+map <m-l> <esc>:callCompileLatex()<cr> 
 nmap <leader>cl :call ClearLatex()<cr>
 " nmap <leader>m :silent ! cp % backup;  pandoc  backup -s --webtex -o backup.html;  cp backup.html %<cr>:e %<cr>
 
