@@ -158,7 +158,7 @@ set guicursor=n-v-c:block,i-ci-ve:ver25,r-cr:hor20,o:hor50
 set spelllang=en_us  
 if exists('g:started_by_firenvim')
      autocmd VimEnter set noshowmode
-     set guifont=Fira\ Code:h18
+     autocmd VimEnter set guifont=Fira\ Code:h18
      autocmd VimEnter set noruler
      autocmd VimEnter set laststatus=0
      autocmd VimEnter set noshowcmd
