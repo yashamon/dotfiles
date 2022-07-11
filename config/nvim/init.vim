@@ -158,7 +158,7 @@ set guicursor=n-v-c:block,i-ci-ve:ver25,r-cr:hor20,o:hor50
 set spelllang=en_us  
 if exists('g:started_by_firenvim')
      autocmd VimEnter set noshowmode
-     autocmd VimEnter set guifont=Fira\ Code:h18
+     autocmd VimEnter set guifont=Monaco:h18
      autocmd VimEnter set noruler
      autocmd VimEnter set laststatus=0
      autocmd VimEnter set noshowcmd
@@ -172,7 +172,7 @@ function! OnUIEnter(event)
 	let l:ui = nvim_get_chan_info(a:event.chan)
 	if has_key(l:ui, 'client') && has_key(l:ui.client, 'name')
 		if l:ui.client.name ==# 'Firenvim'
-			set guifont=Fira\ Code:h18
+			set guifont=Monaco:h18
                         set lines=100
                         set columns=100
 		endif
