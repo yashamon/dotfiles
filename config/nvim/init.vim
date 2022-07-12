@@ -448,7 +448,7 @@ nmap V vg$
 nmap A g$a
 map 0 g^
 map 9 g$
-nmap <m-8> :set laststatus=0<cr>:set lines=100<cr>
+nmap <m-8> :set laststatus=0<cr>:set lines=100<cr>:set guifont=Monaco:h18<cr>:set columns=100<cr>
 nnoremap <c-l> :bnext<CR>
 nnoremap <c-h> :bprevious<CR>
 " tnoremap <Esc> <C-\> 
