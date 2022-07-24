@@ -172,13 +172,13 @@ function! OnUIEnter(event)
 	let l:ui = nvim_get_chan_info(a:event.chan)
 	if has_key(l:ui, 'client') && has_key(l:ui.client, 'name')
 		if l:ui.client.name ==# 'Firenvim'
-			set guifont=Monaco:h18
+			set guifont=Fira/ Code:h18
                         set lines=100
                         set columns=100
 		endif
 	endif
 endfunction
-autocmd QueInit UIEnter * call OnUIEnter(deepcopy(v:event))
+autocmd UIEnter * call OnUIEnter(deepcopy(v:event))
 
 
 
