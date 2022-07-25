@@ -164,7 +164,8 @@ function! OnUIEnter(event)
 			set guifont=Fira\ Code:h20
                         set lines=100
                         set columns=100
-                        nmap q :wq<cr>
+                        noremap q <esc>:wq<cr>
+                        inoremap q <esc>:wq<cr>
 		endif
 	endif
 endfunction
