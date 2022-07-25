@@ -165,7 +165,6 @@ function! OnUIEnter(event)
                         set lines=100
                         set columns=100
                         noremap q <esc>:wq<cr>
-                        inoremap q <esc>:wq<cr>
 		endif
 	endif
 endfunction
