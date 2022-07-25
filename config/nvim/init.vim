@@ -156,17 +156,6 @@ set guicursor=n-v-c:block,i-ci-ve:ver25,r-cr:hor20,o:hor50
  		  \,a:blinkwait700-blinkoff400-blinkon250-Cursor/lCursor
  		  \,sm:block-blinkwait175-blinkoff150-blinkon175
 set spelllang=en_us  
-if exists('g:started_by_firenvim')
-     autocmd VimEnter set noshowmode
-     autocmd VimEnter set guifont=Monaco:h18
-     autocmd VimEnter set noruler
-     autocmd VimEnter set laststatus=0
-     autocmd VimEnter set noshowcmd
-     autocmd VimEnter set lines=100 
-     autocmd VimEnter set columns=100
-else
-  " autocmd VimEnter * TZAtaraxis
- endif
 set timeoutlen=0
 function! OnUIEnter(event)
 	let l:ui = nvim_get_chan_info(a:event.chan)
@@ -175,6 +164,7 @@ function! OnUIEnter(event)
 			set guifont=Fira\ Code:h20
                         set lines=100
                         set columns=100
+                        nmap q :wq<cr>
 		endif
 	endif
 endfunction
