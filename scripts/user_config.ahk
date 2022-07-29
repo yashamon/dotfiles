@@ -103,7 +103,8 @@ return
     Run pwsh -c nf
     Return
 #e::
-Run google-chrome:https://this-page-intentionally-left-blank.org/
+; Run microsoft-edge:https://this-page-intentionally-left-blank.org/ 
+Run chrome
 Return   
 ; Win+Shift+Break - Edit this file
 #+Break::
