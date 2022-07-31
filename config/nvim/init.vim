@@ -136,8 +136,8 @@ set title
 " set laststatus=1 
 set noshowcmd    
 set indentexpr=
-set noshowmatch  
-set wrap  
+set noshowmatch
+set wrap
 " set pb=10
 " set winbl=10
 set switchbuf=newtab
@@ -147,15 +147,15 @@ set switchbuf=newtab
 set clipboard+=unnamedplus	" yank to the system register (*) by default
 " TAB setting{
 set expandtab        "replace <TAB> with spaces
-set softtabstop=3 
-set shiftwidth=3 
+set softtabstop=3
+set shiftwidth=3
 " set shell="C:\Program Files\PowerShell\7\pwsh.EXE"
 set termguicolors
 
 set guicursor=n-v-c:block,i-ci-ve:ver25,r-cr:hor20,o:hor50
  		  \,a:blinkwait700-blinkoff400-blinkon250-Cursor/lCursor
  		  \,sm:block-blinkwait175-blinkoff150-blinkon175
-set spelllang=en_us  
+set spelllang=en_us
 set timeoutlen=0
 function! OnUIEnter(event)
 	let l:ui = nvim_get_chan_info(a:event.chan)
@@ -689,8 +689,7 @@ endfunction
 
 function! CompileLatex()
   silent call ClearLatex()
-  let buf=bufname()
-  silent te pwsh -c latexmk -pvc -halt-on-error -synctex=1 -file-line-error -f -output-directory="build" %
+  let buf=bufname()  silent te pwsh -c latexmk -pvc -halt-on-error -synctex=1 -file-line-error -f -output-directory="build" %
   execute "buffer" buf
   call ViewPdf()
 endfunction
@@ -748,15 +747,17 @@ autocmd BufWritePost * call GitAsync()
 lua <<EOF
 require'nvim-treesitter.configs'.setup { 
     --
-    highlight = { enable = true },
-    incremental_selection = {
+   highlight = { enable = true },
+   incremental_selection = {
     enable = true,
     keymaps = {
-      init_selection = '<CR>',
-      scope_incremental = '<CR>',
-      node_incremental = '<TAB>',
-      node_decremental = '<S-TAB>',
+      init_selection = "gnn",
+      node_incremental = "grn",
+      scope_incremental = "grc",
+      node_decremental = "grm",
     },
+  },
+ 
   },
     textobjects = { enable = true },
     indent = { enable = false },
