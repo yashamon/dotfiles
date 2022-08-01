@@ -691,8 +691,9 @@ endfunction
 
 function! CompileLatex()
   silent call ClearLatex()
-  let b:buf=bufname()  silent te pwsh -c latexmk -pvc -halt-on-error -synctex=1 -file-line-error -f -output-directory="build" %
-  execute "buffer" b:buf
+  let buf=bufname()
+  silent te pwsh -c latexmk -pvc -halt-on-error -synctex=1 -file-line-error -f -output-directory="build" %
+  execute "buffer" buf
   call ViewPdf()
 endfunction
 
