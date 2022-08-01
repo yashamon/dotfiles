@@ -107,7 +107,10 @@ WinKill, A
 #e::
 ; Run microsoft-edge:https://this-page-intentionally-left-blank.org/ 
 Run, chrome
-send F11
+Return   
+#x::
+; Run microsoft-edge:https://this-page-intentionally-left-blank.org/ 
+Run, xournalpp
 Return   
 ; Win+Shift+Break - Edit this file
 #+Break::
