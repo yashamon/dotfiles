@@ -108,7 +108,7 @@ WinKill, A
 ; Run microsoft-edge:https://this-page-intentionally-left-blank.org/ 
 Run, chrome
 Return   
-#x::
+#j::
 ; Run microsoft-edge:https://this-page-intentionally-left-blank.org/ 
 Run, xournalpp
 Return   
