@@ -106,7 +106,7 @@ WinKill, A
     Return
 #e::
 ; Run microsoft-edge:https://this-page-intentionally-left-blank.org/ 
-Run, chrome --start-fullscreen
+Run, chrome
 send F11
 Return   
 ; Win+Shift+Break - Edit this file
