@@ -83,7 +83,7 @@ Shortcuts [
 		Key = Alt+g
 	]
 	[
-		Cmd = CmdTogglePresentationMode
+		Cmd = CmdZoomFitPage
 		Key = a
 	]
 	[
@@ -126,14 +126,34 @@ FileStates [
 		]
 		IsPinned = false
 		IsMissing = false
-		OpenCount = 2
+		OpenCount = 1
 		UseDefaultState = false
 		DisplayMode = continuous
-		ScrollPos = 108.739 646.739
-		PageNo = 14
-		Zoom = 135.014
+		ScrollPos = -1 290.296
+		PageNo = 2
+		Zoom = 170.451
 		Rotation = 0
 		WindowState = 1
+		WindowPos = 698 0 1480 1920
+		ShowToc = false
+		SidebarDx = 364
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = C:\Users\yasha\Downloads\Turing Computability Theory and Applications by Robert I. Soare (z-lib.org) (1).pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 2
+		UseDefaultState = false
+		DisplayMode = single page
+		ScrollPos = -1 -1
+		PageNo = 15
+		Zoom = 100
+		Rotation = 0
+		WindowState = 2
 		WindowPos = 698 0 1480 1920
 		ShowToc = false
 		SidebarDx = 364
@@ -153,8 +173,28 @@ FileStates [
 		PageNo = 4
 		Zoom = 100
 		Rotation = 0
-		WindowState = 2
-		WindowPos = 698 0 1483 1920
+		WindowState = 1
+		WindowPos = 698 0 1480 1920
+		ShowToc = false
+		SidebarDx = 364
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = C:\Users\yasha\workspace\letters\build\Carta2.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 -1
+		PageNo = 1
+		Zoom = 100
+		Rotation = 0
+		WindowState = 1
+		WindowPos = 698 0 1480 1920
 		ShowToc = false
 		SidebarDx = 364
 		DisplayR2L = false
@@ -224,6 +264,6 @@ FileStates [
 SessionData [
 ]
 TimeOfLastUpdateCheck = 0 0
-OpenCountWeek = 600
+OpenCountWeek = 604
 
 # Settings below are not recognized by the current version
