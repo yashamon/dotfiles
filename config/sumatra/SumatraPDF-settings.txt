@@ -83,7 +83,7 @@ Shortcuts [
 		Key = Alt+g
 	]
 	[
-		Cmd = CmdZoomFitContent
+		Cmd = CmdZoomFitContent 
 		Key = a
 	]
 	[
