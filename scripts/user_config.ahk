@@ -93,6 +93,8 @@ return
 return
 
 ; Win+Alt+G - Open Gmail in Chrome
+#q::
+WinKill, A
 #Enter::
     Run "pwsh" 
     Return
@@ -104,7 +106,7 @@ return
     Return
 #e::
 ; Run microsoft-edge:https://this-page-intentionally-left-blank.org/ 
-Run chrome
+Run chrome --start-fullscreen
 Return   
 ; Win+Shift+Break - Edit this file
 #+Break::
