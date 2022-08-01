@@ -184,8 +184,6 @@ let g:tex_flavor = "latex"
 let g:tex_isk = '@,48-57,58,_,192-255,:' 
 au FileType tex setlocal iskeyword+=:
 au FileType tex setlocal indentexpr=
-au FileType tex setlocal foldmethod=expr foldexpr=getline(v:lnum)=~'^\s*'.&commentstring[0]
-
 
 let g:tex_conceal = ""
 set tags+=~/workspacemodules/tags
@@ -216,7 +214,7 @@ set bs=2		" allow backspacing over everything in insert mode
 set undofile                " Save undo's after file closes
 set undodir=~/.undo " where to save undo histories
 set undolevels=1000000         " How many undos
-set undoreload=1000000		
+set undoreload=10000		
 set ruler		" show the cursor position all the time
 set autoread		" auto read when file is changed from outside
 set nohlsearch
@@ -691,8 +689,8 @@ endfunction
 
 function! CompileLatex()
   silent call ClearLatex()
-  let b:buf=bufname()  silent te pwsh -c latexmk -pvc -halt-on-error -synctex=1 -file-line-error -f -output-directory="build" %
-  execute "buffer" b:buf
+  let buf=bufname()  silent te pwsh -c latexmk -pvc -halt-on-error -synctex=1 -file-line-error -f -output-directory="build" %
+  execute "buffer" buf
   call ViewPdf()
 endfunction
 
@@ -759,13 +757,14 @@ require'nvim-treesitter.configs'.setup {
       node_decremental = "grm",
     },
   },
+ 
+  },
     textobjects = { enable = true },
     indent = { enable = false },
 }
 EOF
 
-set foldmethod=expr foldexpr=getline(v:lnum)=~'^\s*'.&commentstring[0] ]
-
+set foldmethod=expr foldexpr=getline(v:lnum)=~'^\s*'.&commentstring[0] 
 
 " vsnip stuff 
 " Use <Tab> and <S-Tab> to navigate through popup menu
@@ -1677,6 +1676,5 @@ require'nvim-treesitter.configs'.setup {
     indent = { enable = false },
 }
 EOF
-
 
 
