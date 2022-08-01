@@ -83,7 +83,7 @@ Shortcuts [
 		Key = Alt+g
 	]
 	[
-		Cmd = CmdZoomFitContent 
+		Cmd = CmdZoomFitContent
 		Key = a
 	]
 	[
@@ -113,7 +113,7 @@ TreeFontSize = 0
 SmoothScroll = false
 ShowStartPage = true
 CheckForUpdates = false
-WindowState = 1
+WindowState = 2
 WindowPos = 698 0 1480 1920
 UseTabs = true
 UseSysColors = false
@@ -126,14 +126,14 @@ FileStates [
 		]
 		IsPinned = false
 		IsMissing = false
-		OpenCount = 1
+		OpenCount = 2
 		UseDefaultState = false
 		DisplayMode = continuous
-		ScrollPos = -1 290.296
-		PageNo = 2
-		Zoom = 170.451
+		ScrollPos = -1 64.1872
+		PageNo = 15
+		Zoom = fit content
 		Rotation = 0
-		WindowState = 1
+		WindowState = 2
 		WindowPos = 698 0 1480 1920
 		ShowToc = false
 		SidebarDx = 364
