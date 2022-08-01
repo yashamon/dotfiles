@@ -184,6 +184,8 @@ let g:tex_flavor = "latex"
 let g:tex_isk = '@,48-57,58,_,192-255,:' 
 au FileType tex setlocal iskeyword+=:
 au FileType tex setlocal indentexpr=
+au FileType tex setlocal foldmethod=expr foldexpr=getline(v:lnum)=~'^\s*'.&commentstring[0]
+
 
 let g:tex_conceal = ""
 set tags+=~/workspacemodules/tags
@@ -757,14 +759,13 @@ require'nvim-treesitter.configs'.setup {
       node_decremental = "grm",
     },
   },
- 
-  },
     textobjects = { enable = true },
     indent = { enable = false },
 }
 EOF
 
-set foldmethod=expr foldexpr=getline(v:lnum)=~'^\s*'.&commentstring[0] 
+set foldmethod=expr
+set foldexpr=nvim_treesitter#foldexpr()
 
 " vsnip stuff 
 " Use <Tab> and <S-Tab> to navigate through popup menu
