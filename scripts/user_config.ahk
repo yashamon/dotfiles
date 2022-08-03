@@ -62,8 +62,8 @@ End::CapsLock
 #!d::MoveCurrentWindowToDesktop(3)
 #!f::MoveCurrentWindowToDesktop(4)
 #!c::MoveCurrentWindowToDesktop(5)
-!CapsLock::!`
-^CapsLock::
+!+CapsLock::
+^+CapsLock::
 return
 !CapsLock::
 return
