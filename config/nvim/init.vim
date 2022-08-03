@@ -36,6 +36,7 @@ Plug 'mbbill/undotree', { 'on': 'UndotreeToggle' }
 Plug 'lewis6991/spellsitter.nvim'
 Plug 'ggVGc/vim-fuzzysearch'
 Plug 'hrsh7th/vim-searchx'
+Plug 'Pocco81/true-zen.nvim', { 'branch': 'main' }
 
 " Plug 'vim-scripts/AutoTag'
 " Plug 'rebelot/kanagawa.nvim'
@@ -50,7 +51,6 @@ Plug 'hrsh7th/vim-searchx'
 " Plug 'nvim-lua/plenary.nvim'
 " Plug 'nvim-telescope/telescope.nvim',
 " Plug 'nvim-treesitter/playground
-" Plug 'Pocco81/TrueZen.nvim', { 'branch': 'main' }
 " Plug 'glepnir/lspsaga.nvim'
 " If you are using Vim-Plug
 " " Plug 'kdheepak/cmp-latex-symbols', { 'branch': 'main' } 
@@ -764,9 +764,6 @@ require'nvim-treesitter.configs'.setup {
     indent = { enable = false },
 }
 EOF
-
-set foldmethod=expr foldexpr=getline(v:lnum)=~'^\s*'.&commentstring[0] ]
-
 
 " vsnip stuff 
 " Use <Tab> and <S-Tab> to navigate through popup menu
