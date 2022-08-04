@@ -1242,6 +1242,21 @@
     ],
     "description": "cal T"
   }, 
+"alpha": {
+    "prefix": ["al"],
+    "body": [
+      "\\alpha $0"
+    ],
+    "description": "alpha"
+  },
+ "lambda": {
+    "prefix": ["la"],
+    "body": [
+      "\\lambda $0"
+    ],
+    "description": " lambda"
+  },
+ 
 "Lambda": {
     "prefix": ["L"],
     "body": [
