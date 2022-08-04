@@ -1093,6 +1093,14 @@
     ],
     "description": "Delta d-simplex"
   },   
+"caligraphic V": {
+    "prefix": ["cV"],
+    "body": [
+      "\\mathcal{V} $0"
+    ],
+    "description": "cal V"
+  },
+
 "caligraphic P": {
     "prefix": ["cP"],
     "body": [
@@ -1318,7 +1326,7 @@
     "description": "overline"
   },
 
-"wide tilda": {
+"widetilda": {
     "prefix": ["wt"],
     "body": [
       "\\widetilde{$1} $0"
