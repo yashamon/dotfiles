@@ -1368,7 +1368,7 @@
 "for all": {
     "prefix": ["fa"],
     "body": [
-      "\\forall $1 \\in $0"
+      "\\forall $2 \\in $1: $0"
     ],
     "description": "for all"
   },
