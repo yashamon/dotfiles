@@ -997,12 +997,12 @@
     ],
     "description": "field integers"
   },
- "field G": {
-    "prefix": ["fG"],
+ "field C": {
+    "prefix": ["fC"],
     "body": [
-      "\\mathbb{G} $0"
+      "\\mathbb{C} $0"
     ],
-    "description": "field naturals"
+    "description": "field complex"
   },
 "field N": {
     "prefix": ["fN"],
