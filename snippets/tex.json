@@ -997,14 +997,6 @@
     ],
     "description": "field integers"
   },
-"field C": {
-    "prefix": ["fC"],
-    "body": [
-      "\\mathbb{C} $0"
-    ],
-    "description": "field complex"
-  },
-
 "field N": {
     "prefix": ["fN"],
     "body": [
