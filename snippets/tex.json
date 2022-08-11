@@ -997,6 +997,13 @@
     ],
     "description": "field integers"
   },
+ "field G": {
+    "prefix": ["fG"],
+    "body": [
+      "\\mathbb{G} $0"
+    ],
+    "description": "field naturals"
+  },
 "field N": {
     "prefix": ["fN"],
     "body": [
