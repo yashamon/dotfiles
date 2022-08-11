@@ -998,7 +998,7 @@
     "description": "field integers"
   },
  "field C": {
-    "prefix": ["f\C"],
+    "prefix": ["FC"],
     "body": [
       "\\mathbb{C} $0"
     ],
