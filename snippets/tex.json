@@ -1012,13 +1012,6 @@
     ],
     "description": "field R"
   }, 
-"field C": {
-    "prefix": ["fC"],
-    "body": [
-      "\\mathbb{C} ^{$1} $0"
-    ],
-    "description": "field C"
-  }, 
 
 "field R": {
     "prefix": ["fR"],
