@@ -977,14 +977,14 @@
     "description": "omega"
   },
 "field K": {
-    "prefix": ["fk"],
+    "prefix": ["fk", "fK"],
     "body": [
       "\\mathbb{K} $0"
     ],
     "description": "field K"
   },
 "field C": {
-    "prefix": ["fc"],
+    "prefix": ["fc", "fC"],
     "body": [
       "\\mathbb{C} $0"
     ],
@@ -997,14 +997,7 @@
     ],
     "description": "field integers"
   },
- "field C": {
-    "prefix": ["FC"],
-    "body": [
-      "\\mathbb{C} $0"
-    ],
-    "description": "field complex"
-  },
-"field N": {
+ "field N": {
     "prefix": ["fN"],
     "body": [
       "\\mathbb{N} $0"
