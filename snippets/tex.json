@@ -6,6 +6,13 @@
        ],
     "description": "fuk"
     },  
+"range": {
+    "prefix": "range",
+    "body": [
+        "$1 \\leq $2 \\leq $0"
+       ],
+    "description": "range"
+    },
 "NFuk": {
     "prefix": "NF",
     "body": [
