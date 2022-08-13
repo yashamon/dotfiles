@@ -100,7 +100,7 @@ map d :cut
 map D :trash
 map gd :delete
 
-cmd fzf_jump $& "C:\Users\yasha\dotfiles\scripts\lfcdsimplejump.ps1"
+cmd fzf_jump $nu "C:\Users\yasha\dotfiles\scripts\lfsimplejump.nu"
 #
 # ${{
 #    $res= fd . -H -I -d 1 | fzf --reverse --header='Jump to location'
