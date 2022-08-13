@@ -1,6 +1,6 @@
 #!/bin/nu
-let line = $"($args[0])"
-let buf = $"($args[1])"
+let line = $"($arg[0])"
+let buf = $"($arg[1])"
  
 echo $buf > 'C:\Users\yasha\sumatra.txt'
 echo $line
