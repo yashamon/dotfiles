@@ -363,7 +363,7 @@ map q :q<cr>
 noremap <leader>q q
 nmap <m-7> :ZenMode<cr>:mksession!<cr>
 nnoremap <leader>rr :w<cr>:source $MYVIMRC<CR>
-nnoremap <leader>u :UndotreeToggle<CR>
+nnoremap <leader>u :TZAtaraxisOff:<cr>:UndotreeToggle<CR>
 nnoremap <leader>e :silent execute "!echo " . v:servername . ' > C:/Users/yasha/servername.txt'<cr>:silent te pwsh -c lf<cr>i
 nnoremap <leader>tt :FloatermToggle<cr>
 nnoremap <leader>t :silent execute "!echo " . v:servername . ' > C:/Users/yasha/servername.txt'<cr>:edit term://pwsh<cr>
@@ -536,7 +536,7 @@ map <A-e> :FZF ~<CR>
 map <m-f> :FZF ~<CR> 
 
 "miscellaneous
-nmap <leader>g :ZenMode<CR>
+nmap <leader>g :TZAtaraxis<CR>
 " nmap <leader>p :Denite neoyank -default-action=append<CR>
 
 " Latex stuff
