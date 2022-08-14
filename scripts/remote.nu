@@ -7,7 +7,6 @@ echo $var
 let exec = "--server " + $var + " --remote-send ':buffer " + $buf + "<cr><esc>:" + $line + "<cr>'"
 echo $exec
 echo $"nvim ($exec)"
-nvim --server $var --remote-send $"':buffer $buf<cr><esc>:$line<cr>'"
-# nvim $exec
+nvim --server $var --remote-send $"':buffer ($buf)<cr><esc>:($line)<cr>'"
 }
 
