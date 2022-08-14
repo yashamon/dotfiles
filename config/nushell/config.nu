@@ -1,5 +1,5 @@
 # Nushell Config File
-
+config set line_editor.edit_mode "vi"
 module completions {
   # Custom completions for external commands (those outside of Nushell)
   # Each completions has two parts: the form of the external command, including its flags and parameters
@@ -128,6 +128,7 @@ let default_theme = {
 
 # The default config record. This is where much of your global configuration is setup.
 let $config = {
+  line_editor.edit_mode "vi"
   filesize_metric: false
   table_mode: rounded # basic, compact, compact_double, light, thin, with_love, rounded, reinforced, heavy, none, other
   use_ls_colors: true
