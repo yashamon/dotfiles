@@ -1,5 +1,5 @@
 # Nushell Config File
-config set line_editor.edit_mode "vi"
+line_editor.edit_mode "vi"
 module completions {
   # Custom completions for external commands (those outside of Nushell)
   # Each completions has two parts: the form of the external command, including its flags and parameters
