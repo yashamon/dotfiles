@@ -1,7 +1,7 @@
-def main [line: string; buf: string] {
-echo $buf > 'C:\Users\yasha\sumatra.txt'
+def main [line: string; duf: string] {
+# echo $buf > 'C:\Users\yasha\sumatra.txt'
 echo $line
-echo $buf
+let buf = ( $duf | sed 's/.*\///' )
 let var = (cat ~/servername.txt | tr -d '\r' | tr -d '\n' )
 echo $var
 let exec = "--server " + $var + " --remote-send ':buffer " + $buf + "<cr><esc>:" + $line + "<cr>'"
