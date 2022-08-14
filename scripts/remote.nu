@@ -4,7 +4,7 @@ echo $buf > 'C:\Users\yasha\sumatra.txt'
 # echo $buf
 let var = (cat ~/servername.txt)
 echo $var
-let exec = $"--server ($var) --remote-send ':buffer ($buf)<cr><esc>:($line)<cr>'"
+let exec = $("--server ($var) --remote-send ':buffer ($buf)<cr><esc>:($line)<cr>'")
 echo $exec
 echo $"nvim ($exec)"
 # nvim $"--server ($var) --remote-send :buffer ($buf)<cr><esc>:($line)<cr>"
