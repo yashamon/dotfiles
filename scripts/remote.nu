@@ -4,6 +4,8 @@ echo $line
 echo $buf
 let var = (cat ~/servername.txt)
 echo $var
-nvim --server $"($var) --remote-send \':buffer ($buf)<cr><esc>:($line)<cr>\'"
+let exec = $"($var) --remote-send \':buffer ($buf)<cr><esc>:($line)<cr>\'"
+echo $exec
+nvim --server exec
 }
 
