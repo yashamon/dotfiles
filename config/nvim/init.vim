@@ -363,7 +363,7 @@ map q :q<cr>
 noremap <leader>q q
 nmap <m-7> :ZenMode<cr>:mksession!<cr>
 nnoremap <leader>rr :w<cr>:source $MYVIMRC<CR>
-nnoremap <leader>u :TZAtaraxisOff:<cr>:UndotreeToggle<CR>
+nnoremap <leader>u :lua require("true-zen.ataraxis") .off():<cr>:UndotreeToggle<CR>
 nnoremap <leader>e :silent execute "!echo " . v:servername . ' > C:/Users/yasha/servername.txt'<cr>:silent te pwsh -c lf<cr>i
 nnoremap <leader>tt :FloatermToggle<cr>
 nnoremap <leader>t :silent execute "!echo " . v:servername . ' > C:/Users/yasha/servername.txt'<cr>:edit term://pwsh<cr>
@@ -593,7 +593,7 @@ endfunction
 
 function Deepocean()
    set background=dark
-   colorscheme material  
+   colorscheme material
    let g:material_style = 'deep ocean'  
 endfunction
 
@@ -667,10 +667,10 @@ function ToggleQuickFix()
       if empty(filter(getwininfo(), 'v:val.quickfix'))
       exec "w"
         echo bufname()
-        TZAtaraxisOff
-        " lua require("zen-mode").close() 
+        lua require("true-zen.ataraxis") .off()
+        " lua require("zen-mode").close()
         echo bufname()
-        let b:filenamedir=expand('%:p:h')  
+        let b:filenamedir=expand('%:p:h')
         echo b:filenamedir
         let b:filename=expand('%:t:r')
         let b:errors=b:filenamedir . "/build/" . b:filename .".log"
@@ -681,7 +681,7 @@ function ToggleQuickFix()
         exec "wincmd j"
         exec "/error"
     else
-        exec "cclose" 
+        exec "cclose"
         sleep 1
         endif
 endfunction
