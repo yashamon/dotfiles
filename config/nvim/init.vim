@@ -647,7 +647,7 @@ function Sentence()
   " let b:paste = system('pwsh -c Get-Clipboard')
   call feedkeys(":BLinesB \<c-r>+\<cr>")
 endfunction
-noremap LL :call Sentence()<cr>
+noremap LL :lua require("true-zen.ataraxis") .off()<cr>:call Sentence()<cr>
 " noremap L :TZAtaraxisOff<cr><cr>:call Sentence()<cr>
 function GitAsync()
 silent execute "!echo " . v:servername . ' > ~/servername.txt'
