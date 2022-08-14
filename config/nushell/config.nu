@@ -1,5 +1,12 @@
 # Nushell Config File
-line_editor.edit_mode "vi"
+use reedline::{
+    default_vi_insert_keybindings, default_vi_normal_keybindings, EditMode, Reedline, Vi,
+};
+
+let mut line_editor = Reedline::create().with_edit_mode(Box::new(Vi::new(
+    default_vi_insert_keybindings(),
+    default_vi_normal_keybindings(),
+)));
 module completions {
   # Custom completions for external commands (those outside of Nushell)
   # Each completions has two parts: the form of the external command, including its flags and parameters
