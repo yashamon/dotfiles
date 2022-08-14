@@ -1,12 +1,12 @@
 def main [line: string; buf: string] {
 echo $buf > 'C:\Users\yasha\sumatra.txt'
-echo $line
-echo $buf
+# echo $line
+# echo $buf
 let var = (cat ~/servername.txt)
-echo $var
+# echo $var
 let exec = $"--server ($var) --remote-send \':buffer ($buf)<cr><esc>:($line)<cr>\'"
 echo $exec
 echo $"nvim --server ($exec)"
-nvim $"--server ($var) --remote-send \':buffer ($buf)<cr><esc>:($line)<cr>\'" 
+nvim $"--server ($var) --remote-send ':buffer ($buf)<cr><esc>:($line)<cr>'"
 }
 
