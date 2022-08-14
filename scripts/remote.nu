@@ -1,4 +1,4 @@
-def main [line: string; duf: string] {
+def main [line: string; duf?: string] {
 # echo $buf > 'C:\Users\yasha\sumatra.txt'
 echo $line
 echo $duf
