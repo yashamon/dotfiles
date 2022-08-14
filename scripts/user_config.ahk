@@ -56,7 +56,7 @@ CapsLock::Escape
 #Space::
 send {F11}
 return
-End::CapsLock
+PageDown::CapsLock
 #!a::MoveCurrentWindowToDesktop(1)
 #!s::MoveCurrentWindowToDesktop(2)
 #!d::MoveCurrentWindowToDesktop(3)
