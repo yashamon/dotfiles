@@ -364,9 +364,9 @@ noremap <leader>q q
 nmap <m-7> :ZenMode<cr>:mksession!<cr>
 nnoremap <leader>rr :w<cr>:source $MYVIMRC<CR>
 nnoremap <leader>u :lua require("true-zen.ataraxis") .off()<cr>:UndotreeToggle<CR>
-nnoremap <leader>e :silent execute "!echo " . v:servername . ' > C:/Users/yasha/servername.txt'<cr>:silent te pwsh -c lf<cr>i
+nnoremap <leader>e :silent execute "!echo " . v:servername . ' > C:/Users/yasha/servername.txt'<cr>:silent te nu lf<cr>i
 nnoremap <leader>tt :FloatermToggle<cr>
-nnoremap <leader>t :silent execute "!echo " . v:servername . ' > C:/Users/yasha/servername.txt'<cr>:edit term://pwsh<cr>
+nnoremap <leader>t :silent execute "!echo " . v:servername . ' > C:/Users/yasha/servername.txt'<cr>:edit term://nu<cr>
 nnoremap <c-,> :cprevious<cr>
 nnoremap <c-.> :cnext<cr> 
 vnoremap <m-s> :s///gc<left><left><left><left>
@@ -624,7 +624,7 @@ endfunction
 command! -bang -nargs=* BLinesB
     \ call fzf#vim#grep(
     \   'rg --with-filename --line-number --no-heading --smart-case . '.fnameescape(expand('%')),1,
-    \   fzf#vim#with_preview({'options': '--keep-right --layout reverse --query '.shellescape(<q-args>).' --preview "bat -p --color always {}"'}, 'up:40%'))
+    \   fzf#vim#with_preview({'options': '--keep-right --layout reverse --query '.shellescape(<q-args>).' --preview "bat -p --color always {}"'}, 'up:50%'))
 
 " nnoremap H :LinesWithPreview<CR>
 " command! -bang -nargs=* BLinesB
@@ -1679,4 +1679,4 @@ require'nvim-treesitter.configs'.setup {
 EOF
 
 
-" a;sldkfj
+
