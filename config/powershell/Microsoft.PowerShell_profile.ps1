@@ -189,6 +189,7 @@ function pdf($1) { zathura $1 }
 #
 #
 Set-Alias lf $HOME/dotfiles/scripts/lfcd.ps1
+function arch {sudo pacman -Sy archlinux-keyring && sudo pacman -Su}
 # Environment variables
 $Env:QT_SCALE_FACTOR=2 
 $Env:GDK_SCALE=2 

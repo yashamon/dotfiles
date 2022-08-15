@@ -31,3 +31,4 @@ application/x-extension-shtml=userapp-Firefox-JWVFD1.desktop;userapp-Nightly-FNY
 application/xhtml+xml=userapp-Firefox-JWVFD1.desktop;userapp-Nightly-FNYID1.desktop;userapp-Nightly-641FE1.desktop;
 application/x-extension-xhtml=userapp-Firefox-JWVFD1.desktop;userapp-Nightly-FNYID1.desktop;userapp-Nightly-641FE1.desktop;
 application/x-extension-xht=userapp-Firefox-JWVFD1.desktop;userapp-Nightly-FNYID1.desktop;userapp-Nightly-641FE1.desktop;
+audio/mpeg=org.gnome.Rhythmbox3.desktop;

@@ -8,7 +8,7 @@
 !_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
 !_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
 !_TAG_PROGRAM_URL	https://ctags.io/	/official site/
-!_TAG_PROGRAM_VERSION	5.9.0	//
+!_TAG_PROGRAM_VERSION	5.9.0	/p5.9.20210905.0/
 #	init.vim	/^noremap # \/\\$<CR>v?\\$<CR>$/;"	m
 $	init.vim	/^noremap $ \/\\$<CR>hv?\\$<CR>l$/;"	m
 '	init.vim	/^map ' "$/;"	m
@@ -122,7 +122,7 @@ $	init.vim	/^noremap $ \/\\$<CR>hv?\\$<CR>l$/;"	m
 <m-s>	init.vim	/^vnoremap <m-s> :s\/\/\/gc<left><left><left><left>$/;"	m
 <m-space>	init.vim	/^map <m-space> <cmd>HopWord<cr>$/;"	m
 <m-t>	init.vim	/^noremap <m-t> :BTags<cr>$/;"	m
-<m-y>	init.vim	/^nnoremap <m-y> viw:buffer g:buffmain<cr>:<c-r>+<cr><cr>$/;"	m
+<m-y>	init.vim	/^nnoremap <m-y> viwy:buffer g:buffmain<cr>:<c-r>+<cr><cr>$/;"	m
 <up>	init.vim	/^imap <up> <nop>$/;"	m
 <up>	init.vim	/^nnoremap <up> 1<C-U>$/;"	m
 >	init.vim	/^vnoremap > >gv$/;"	m

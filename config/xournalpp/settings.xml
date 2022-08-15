@@ -36,7 +36,7 @@
   <property name="fullscreenHideElements" value="mainMenubar"/>
   <!--Which gui elements are hidden if you are in Presentation mode, separated by a colon (,)-->
   <property name="presentationHideElements" value="mainMenubar,sidebarContents"/>
-  <!--The cursor icon used with a stylus, allowed values are "none", "dot", "big", "arrow"-->
+  <!--The cursor icon used with a stylus, allowed values are "none", "dot", "big"-->
   <property name="stylusCursorType" value="dot"/>
   <property name="highlightPosition" value="false"/>
   <property name="cursorHighlightColor" value="2164260608"/>
@@ -65,7 +65,6 @@
   <property name="snapGridTolerance" value="0.50000000"/>
   <property name="snapGridSize" value="14.17000000"/>
   <property name="touchDrawing" value="false"/>
-  <property name="gtkTouchInertialScrolling" value="true"/>
   <property name="pressureGuessing" value="false"/>
   <property name="selectionBorderColor" value="4294901760"/>
   <property name="backgroundColor" value="4292664021"/>
@@ -226,14 +225,6 @@
       <attribute name="drawingType" type="string" value="default"/>
     </data>
     <data name="selectObject">
-      <attribute name="drawingType" type="string" value="default"/>
-    </data>
-    <data name="selectPdfTextLinear">
-      <attribute name="color" type="hex" value="000000"/>
-      <attribute name="drawingType" type="string" value="default"/>
-    </data>
-    <data name="selectPdfTextRect">
-      <attribute name="color" type="hex" value="000000"/>
       <attribute name="drawingType" type="string" value="default"/>
     </data>
     <data name="selectRect">

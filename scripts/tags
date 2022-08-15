@@ -8,17 +8,16 @@
 !_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
 !_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
 !_TAG_PROGRAM_URL	https://ctags.io/	/official site/
-!_TAG_PROGRAM_VERSION	5.9.0	//
+!_TAG_PROGRAM_VERSION	5.9.0	/p5.9.20210905.0/
 EOF	lf-ueberzug-cleaner	/^cat <<EOF | paste -sd '' >"$LF_UEBERZUG_TEMPDIR\/fifo"$/;"	h
 EOF	lf-ueberzug-previewer	/^	cat <<-EOF | paste -sd '' >"$LF_UEBERZUG_TEMPDIR\/fifo"$/;"	h
 STATES	rotx	/^STATES = [$/;"	v
 a	gheto.ps1	/^$a=$args[0]$/;"	v
-a	remote.ps1	/^$a=$args[0]$/;"	v
 accel_x	rotx	/^    accel_x = bdopen('in_accel_x_raw')$/;"	v
 accel_y	rotx	/^    accel_y = bdopen('in_accel_y_raw')$/;"	v
 array_str	gcuts	/^array_str = get("gsettings get "+key)$/;"	v
-b	remote.ps1	/^$b=$args[1]$/;"	v
 bdopen	rotx	/^def bdopen(fname):$/;"	f
+buf	remote.ps1	/^$buf=Split-Path $args[1] -leaf$/;"	v
 cleanup	lf-ueberzug	/^cleanup() {$/;"	f
 cmd0	gcuts	/^cmd0 = 'gsettings set '+key+' "'+str(current)+'"'$/;"	v
 cmd1	gcuts	/^cmd1 = 'gsettings set '+subkey1+new+" name '"+sys.argv[1]+"'"$/;"	v
@@ -31,13 +30,14 @@ current_state	rotx	/^    current_state = None$/;"	v
 devices	rotx	/^devices = check_output(['xinput', '--list', '--name-only']).splitlines()$/;"	v
 dir	lfcd.ps1	/^    $dir = Get-Content "$tmp"$/;"	v
 disable_touchpads	rotx	/^disable_touchpads = False$/;"	v
-e	remote.ps1	/^$e="nvim --server " + "$var" + " --remote-send " + ':' +$/;"	v
+e	remote.ps1	/^$e="nvim --server " + "$var" + " --remote-send " + "`'" + ':' +$/;"	v
 firstname	gcuts	/^firstname = "custom"$/;"	v
 g	rotx	/^g = 7.0  # (m^2 \/ s) sensibility, gravity trigger$/;"	v
 get	gcuts	/^get = lambda cmd: subprocess.check_output(["\/bin\/bash", "-c", cmd]).decode("utf-8")$/;"	f
 item_s	gcuts	/^item_s = "\/"+key.replace(" ", "\/").replace(".", "\/")+"\/"$/;"	v
 key	gcuts	/^key = "org.gnome.settings-daemon.plugins.media-keys custom-keybindings"$/;"	v
 lf	lfcd.ps1	/^$lf=(which lf)+" last-dir-path="+"$tmp"+" $args"$/;"	v
+line	remote.ps1	/^$line=$args[0]$/;"	v
 myfile	lualatexscript.ps1	/^$myfile=(Get-item $args[-1]).BaseName$/;"	v
 mylogstring	lualatexscript.ps1	/^$mylogstring=$myfile+".log"$/;"	v
 mypdfstring	lualatexscript.ps1	/^$mypdfstring=$myfile+".pdf"$/;"	v
