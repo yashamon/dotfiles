@@ -113,7 +113,7 @@ TreeFontSize = 0
 SmoothScroll = false
 ShowStartPage = true
 CheckForUpdates = false
-WindowState = 2
+WindowState = 3
 WindowPos = 698 0 1480 1920
 UseTabs = true
 UseSysColors = false
@@ -121,19 +121,19 @@ CustomScreenDPI = 0
 
 FileStates [
 	[
-		FilePath = C:\Users\yasha\workspacemodules\thematrix\build\stableincompleteness.pdf
+		FilePath = C:\Users\yasha\workspacemodules\conformalsymplectic\build\nonsqueezing.pdf
 		Favorites [
 		]
 		IsPinned = false
 		IsMissing = false
-		OpenCount = 7
+		OpenCount = 1
 		UseDefaultState = false
 		DisplayMode = continuous
-		ScrollPos = -1 64.1872
-		PageNo = 8
-		Zoom = fit content
+		ScrollPos = -1 -1
+		PageNo = 1
+		Zoom = 100
 		Rotation = 0
-		WindowState = 2
+		WindowState = 3
 		WindowPos = 698 0 1480 1920
 		ShowToc = false
 		SidebarDx = 364
@@ -146,14 +146,54 @@ FileStates [
 		]
 		IsPinned = false
 		IsMissing = false
+		OpenCount = 2
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 117.829
+		PageNo = 1
+		Zoom = fit content
+		Rotation = 0
+		WindowState = 3
+		WindowPos = 698 0 1480 1920
+		ShowToc = false
+		SidebarDx = 364
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = C:\Users\yasha\workspacemodules\thematrix\build\stableincompleteness.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
 		OpenCount = 1
 		UseDefaultState = false
 		DisplayMode = continuous
-		ScrollPos = -1 64.0972
-		PageNo = 15
+		ScrollPos = -1 64.0088
+		PageNo = 17
 		Zoom = fit content
 		Rotation = 0
-		WindowState = 2
+		WindowState = 3
+		WindowPos = 698 0 1480 1920
+		ShowToc = false
+		SidebarDx = 364
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = C:\Users\yasha\workspace\letters\build\Carta2.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 1
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 -1
+		PageNo = 1
+		Zoom = 100
+		Rotation = 0
+		WindowState = 1
 		WindowPos = 698 0 1480 1920
 		ShowToc = false
 		SidebarDx = 364
@@ -181,26 +221,6 @@ FileStates [
 		ReparseIdx = 0
 	]
 	[
-		FilePath = C:\Users\yasha\workspacemodules\thematrix\build\stableincompletenes.pdf
-		Favorites [
-		]
-		IsPinned = false
-		IsMissing = false
-		OpenCount = 0
-		UseDefaultState = false
-		DisplayMode = continuous
-		ScrollPos = -1 -1
-		PageNo = 1
-		Zoom = 100
-		Rotation = 0
-		WindowState = 1
-		WindowPos = 698 0 1480 1920
-		ShowToc = true
-		SidebarDx = 364
-		DisplayR2L = false
-		ReparseIdx = 0
-	]
-	[
 		FilePath = C:\Users\yasha\workspacemodules\thematrix\build\stableconsistency.pdf
 		Favorites [
 		]
@@ -214,46 +234,6 @@ FileStates [
 		Zoom = fit content
 		Rotation = 0
 		WindowState = 3
-		WindowPos = 698 0 1480 1920
-		ShowToc = false
-		SidebarDx = 364
-		DisplayR2L = false
-		ReparseIdx = 0
-	]
-	[
-		FilePath = C:\Users\yasha\workspacemodules\conformalsymplectic\build\toEditors.pdf
-		Favorites [
-		]
-		IsPinned = false
-		IsMissing = false
-		OpenCount = 0
-		UseDefaultState = false
-		DisplayMode = continuous
-		ScrollPos = -1 72.5629
-		PageNo = 1
-		Zoom = 100
-		Rotation = 0
-		WindowState = 1
-		WindowPos = 698 0 1480 1920
-		ShowToc = false
-		SidebarDx = 364
-		DisplayR2L = false
-		ReparseIdx = 0
-	]
-	[
-		FilePath = C:\Users\yasha\workspace\letters\build\Carta2.pdf
-		Favorites [
-		]
-		IsPinned = false
-		IsMissing = false
-		OpenCount = 0
-		UseDefaultState = false
-		DisplayMode = continuous
-		ScrollPos = -1 -1
-		PageNo = 1
-		Zoom = 100
-		Rotation = 0
-		WindowState = 1
 		WindowPos = 698 0 1480 1920
 		ShowToc = false
 		SidebarDx = 364
@@ -320,8 +300,83 @@ FileStates [
 		DisplayR2L = false
 		ReparseIdx = 0
 	]
+	[
+		FilePath = C:\Users\yasha\workspacemodules\thematrix\build\stableincompletenes.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 -1
+		PageNo = 1
+		Zoom = 100
+		Rotation = 0
+		WindowState = 1
+		WindowPos = 698 0 1480 1920
+		ShowToc = true
+		SidebarDx = 364
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = C:\Users\yasha\workspacemodules\conformalsymplectic\build\toEditors.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 72.5629
+		PageNo = 1
+		Zoom = 100
+		Rotation = 0
+		WindowState = 1
+		WindowPos = 698 0 1480 1920
+		ShowToc = false
+		SidebarDx = 364
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
 ]
 SessionData [
+	[
+		TabStates [
+			[
+				FilePath = C:\Users\yasha\workspacemodules\thematrix\build\stableincompleteness.pdf
+				DisplayMode = continuous
+				PageNo = 17
+				Zoom = fit content
+				Rotation = 0
+				ScrollPos = -1 64.0088
+				ShowToc = false
+			]
+			[
+				FilePath = C:\Users\yasha\workspacemodules\conformalsymplectic\build\conformalsymplectic.pdf
+				DisplayMode = continuous
+				PageNo = 1
+				Zoom = fit content
+				Rotation = 0
+				ScrollPos = -1 117.829
+				ShowToc = false
+			]
+			[
+				FilePath = C:\Users\yasha\workspacemodules\conformalsymplectic\build\nonsqueezing.pdf
+				DisplayMode = continuous
+				PageNo = 1
+				Zoom = 100
+				Rotation = 0
+				ScrollPos = -1 -1
+				ShowToc = false
+			]
+		]
+		TabIndex = 3
+		WindowState = 3
+		WindowPos = 698 0 1480 1920
+		SidebarDx = 364
+	]
 ]
 TimeOfLastUpdateCheck = 0 0
 OpenCountWeek = 606
