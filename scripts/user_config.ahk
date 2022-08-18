@@ -56,7 +56,7 @@ CapsLock::Escape
 #Space::
 send {F11}
 return
-PageDown::CapsLock
+home::CapsLock
 #!a::MoveCurrentWindowToDesktop(1)
 #!s::MoveCurrentWindowToDesktop(2)
 #!d::MoveCurrentWindowToDesktop(3)
@@ -102,7 +102,7 @@ WinKill, A
     Run pwsh -c lf
     Return
 #n::
-    Run nf
+    Run pwsh -c nf
     Return
 #e::
 ; Run microsoft-edge:https://this-page-intentionally-left-blank.org/ 
