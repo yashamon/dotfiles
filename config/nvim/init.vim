@@ -1619,7 +1619,7 @@ xnoremap <silent> <cr> "*y:silent! let searchTerm = '\V'.substitute(escape(@*, '
 lua <<EOF
 require'nvim-treesitter.configs'.setup { 
     --
-    highlight = { enable = true },
+    highlight = { enable = false },
     incremental_selection = {
     enable = true,
     keymaps = {
