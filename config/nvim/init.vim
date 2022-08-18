@@ -245,7 +245,7 @@ colorscheme one
 " let g:material_style = 'palenight'  
 " let g:material_style = 'lighter'
 " highlight Normal ctermbg=none
-set tm=600
+set tm=1000
 " set macreta 
 hi SpellBad cterm=underline
 " Set style for gVim
@@ -1619,7 +1619,7 @@ xnoremap <silent> <cr> "*y:silent! let searchTerm = '\V'.substitute(escape(@*, '
 
 lua <<EOF
 require'nvim-treesitter.configs'.setup {
-  ensure_installed = "maintained", -- one of "all", "maintained" (parsers with maintainers), or a list of languages
+-- ensure_installed = "all", -- one of "all", "maintained" (parsers with maintainers), or a list of languages
   incremental_selection = {
     enable = true,
     keymaps = {
