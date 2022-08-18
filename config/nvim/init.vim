@@ -402,6 +402,8 @@ noremap <m-w>o /(\\|)<CR>
 noremap <m-b>o /(\\|)<CR>
 noremap <m-w>b /{\\|}<CR>
 noremap <m-b>b ?{\\|}<CR>
+noremap <m-w>w /{\\|}<CR>
+noremap <m-b>w ?{\\|}<CR>
 noremap <m-w>c /[\\|]<CR>
 noremap <m-b>c ?[\\|]<CR>
 " noremap <m-w> /{\\|}<CR>
@@ -450,8 +452,6 @@ nnoremap <c-h> :bprevious<CR>
 imap <M-j> <C-j>
 map <M-m> <cmd>HopChar1<cr>$
 " map <S-b> ?\$<CR>
-map <M-w> <cmd>HopChar1<cr>}
-map <M-b> <cmd>HopChar1<cr>{
 map q: nop
 map <S-C-q> <Esc>:qa!<CR>
 map <m-q> <esc>:wq<cr>
@@ -514,8 +514,6 @@ au FileType tex,text,md noremap 9 g$
 " imap <Backspace> \
 map t <cmd>HopChar1AC<cr>
 map T <cmd>HopChar1BC<cr>
-map <m-.> <cmd>HopChar1<cr>.
-map <m-space> <cmd>HopWord<cr>
 " map <S-m-Space> <cmd>HopWord<cr>
 " map t <ESC>:syntax off <CR>t: syntax on<CR>
 
