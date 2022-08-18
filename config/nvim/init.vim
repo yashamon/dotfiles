@@ -1615,22 +1615,25 @@ xnoremap <silent> <cr> "*y:silent! let searchTerm = '\V'.substitute(escape(@*, '
 " }
 " EOF
 "
-"
+
+
 lua <<EOF
-require'nvim-treesitter.configs'.setup { 
-    --
-    highlight = { enable = false },
-    incremental_selection = {
+require'nvim-treesitter.configs'.setup {
+  ensure_installed = "maintained", -- one of "all", "maintained" (parsers with maintainers), or a list of languages
+  incremental_selection = {
     enable = true,
     keymaps = {
-      init_selection = '<S-CR>',
+      init_selection = '<CR>',
       scope_incremental = '<CR>',
       node_incremental = '<TAB>',
       node_decremental = '<S-TAB>',
     },
   },
-    textobjects = { enable = true },
-    indent = { enable = false },
+  highlight = {
+    enable = true,              -- false will disable the whole extension
+    -- Instead of true it can also be a list of languages
+    additional_vim_regex_highlighting = false,
+  },
 }
 EOF
 
