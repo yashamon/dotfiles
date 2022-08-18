@@ -723,24 +723,6 @@ let g:auto_save_silent = 1
 
 "Git autocommit  (private git repo)
 autocmd BufWritePost * call GitAsync()
-lua <<EOF
-require'nvim-treesitter.configs'.setup { 
-    --
-   highlight = { enable = true },
-   incremental_selection = {
-    enable = true,
-    keymaps = {
-      init_selection = "<m-cr>",
-      node_incremental = "grn",
-      scope_incremental = "grc",
-      node_decremental = "grm",
-    },
-  },
-    textobjects = { enable = true },
-    indent = { enable = false },
-}
-EOF
-
 " vsnip stuff 
 " Use <Tab> and <S-Tab> to navigate through popup menu
 " inoremap <expr> <Tab> pumvisible() ? "\<C-n>" : "\<Tab>"
@@ -1641,7 +1623,7 @@ require'nvim-treesitter.configs'.setup {
     incremental_selection = {
     enable = true,
     keymaps = {
-      init_selection = '<CR>',
+      init_selection = '<S-CR>',
       scope_incremental = '<CR>',
       node_incremental = '<TAB>',
       node_decremental = '<S-TAB>',
