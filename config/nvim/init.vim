@@ -183,6 +183,7 @@ nnoremap <m-y> viwy:buffer g:buffmain<cr>:<c-r>+<cr><cr>
 let g:tex_flavor = "latex"
 let g:tex_isk = '@,48-57,58,_,192-255,:' 
 au FileType tex setlocal iskeyword+=:
+au Filetype tex,text,md set tw=50
 au FileType tex setlocal indentexpr=
 au FileType tex setlocal foldmethod=expr foldexpr=getline(v:lnum)=~'^\s*'.&commentstring[0]
 
@@ -193,15 +194,14 @@ set tags+=~\workspacemodules\tags
 set tags+=.\tags
 set tags+=./tags
 "set +=~/Dropbox/workspace/tags
-  " set wrapmargin=1
+" set wrapmargin=1
 " set shada="NONE"  
 set listchars=eol:¬,tab:>·,trail:~,extends:>,precedes:<,space:␣
-set wrap
 set linebreak 
 set formatoptions+=w " set breakat=" "
 " set list  " list disables linebreak whitespace
 " set textwidth=0
-set wrapmargin=-1
+" set wrapmargin=-1
 set hid
 set autochdir
 set guioptions-=r
@@ -245,7 +245,7 @@ colorscheme one
 " let g:material_style = 'palenight'  
 " let g:material_style = 'lighter'
 " highlight Normal ctermbg=none
-set tm=1000
+set tm=600
 " set macreta 
 hi SpellBad cterm=underline
 " Set style for gVim
@@ -255,18 +255,7 @@ hi SpellBad gui=underline
 au FileType Makefile set noexpandtab
 au FileType tex,text set spelllang=en_us
 au FileType tex,text,md set indentexpr=
-function Reset()
-TZAtaraxisOff 
-TZAtaraxisOn
-endfunction   
-" au FocusLost call TZAtaraxisOff 
-" au FocusGained call TZAtaraxisOn 
-
 au FileType vim,md set list
-" au FileType vim,md colorscheme one
-
-" au FileType tex,text,md syntax sync fromstart 
-" 
 " au FileType tex,text,md silent execute "!echo " . v:servername . " > ~/servername.txt"    
 au FileType * silent execute "!echo " . v:servername . " > ~/servername.txt"
 au UIEnter silent execute "!echo " . v:servername . " > ~/servername.txt"
@@ -277,7 +266,6 @@ nmap <leader>nn :call Server()
 
 au Filetype tex,text,md vmap q xi<CR><CR><CR><CR><ESC>kki/begin{comment}<cr><cr>/end{comment}<esc>kp  
 
-au Filetype tex,text,md set tw=50
 " au Filetype tex,text,md set fo=tc
 " au FileType tex set background=dark 
 au TextYankPost * lua vim.highlight.on_yank {higroup="IncSearch", timeout=150, on_visual=true}
@@ -311,18 +299,6 @@ vnoremap > >gv
 
 " :cd. change working directory to that of the current file
 cmap cd. lcd %:p:h
-
-
-" Enable omni completion. (Ctrl-X Ctrl-O)
-autocmd FileType html,markdown setlocal omnifunc=htmlcomplete#Complete
-autocmd FileType javascript setlocal omnifunc=javascriptcomplete#CompleteJS
-autocmd FileType python setlocal omnifunc=pythoncomplete#Complete
-autocmd FileType xml setlocal omnifunc=xmlcomplete#Complete
-autocmd FileType css set omnifunc=csscomplete#CompleteCSS
-autocmd FileType c set omnifunc=ccomplete#Complete
-autocmd FileType java set omnifunc=javacomplete#Complete 
-autocmd FileType tex set omnifunc=latex#Complete
-" autocmd Filetype tex setlocal fo=nt
 autocmd Filetype tex setlocal wrapmargin=0
 " use syntax complete if nothing else available
 if has("autocmd") && exists("+omnifunc")
@@ -754,7 +730,7 @@ require'nvim-treesitter.configs'.setup {
    incremental_selection = {
     enable = true,
     keymaps = {
-      init_selection = "gnn",
+      init_selection = "<m-i>",
       node_incremental = "grn",
       scope_incremental = "grc",
       node_decremental = "grm",
