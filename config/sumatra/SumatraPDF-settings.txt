@@ -113,7 +113,7 @@ TreeFontSize = 0
 SmoothScroll = false
 ShowStartPage = true
 CheckForUpdates = false
-WindowState = 3
+WindowState = 1
 WindowPos = 698 0 1480 1920
 UseTabs = true
 UseSysColors = false
@@ -121,7 +121,27 @@ CustomScreenDPI = 0
 
 FileStates [
 	[
-		FilePath = C:\Users\yasha\workspacemodules\conformalsymplectic\build\nonsqueezing.pdf
+		FilePath = C:\Users\yasha\workspacemodules\thematrix\build\stableincompleteness.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 2
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = 82.4818 64.1118
+		PageNo = 17
+		Zoom = fit content
+		Rotation = 0
+		WindowState = 1
+		WindowPos = 698 0 1480 1920
+		ShowToc = false
+		SidebarDx = 364
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = C:\Users\yasha\workspacemodules\fukaya\build\fukayaII.pdf
 		Favorites [
 		]
 		IsPinned = false
@@ -135,7 +155,7 @@ FileStates [
 		Rotation = 0
 		WindowState = 3
 		WindowPos = 698 0 1480 1920
-		ShowToc = false
+		ShowToc = true
 		SidebarDx = 364
 		DisplayR2L = false
 		ReparseIdx = 0
@@ -149,28 +169,8 @@ FileStates [
 		OpenCount = 2
 		UseDefaultState = false
 		DisplayMode = continuous
-		ScrollPos = -1 117.829
+		ScrollPos = -1 118.096
 		PageNo = 1
-		Zoom = fit content
-		Rotation = 0
-		WindowState = 3
-		WindowPos = 698 0 1480 1920
-		ShowToc = false
-		SidebarDx = 364
-		DisplayR2L = false
-		ReparseIdx = 0
-	]
-	[
-		FilePath = C:\Users\yasha\workspacemodules\thematrix\build\stableincompleteness.pdf
-		Favorites [
-		]
-		IsPinned = false
-		IsMissing = false
-		OpenCount = 1
-		UseDefaultState = false
-		DisplayMode = continuous
-		ScrollPos = -1 64.0088
-		PageNo = 17
 		Zoom = fit content
 		Rotation = 0
 		WindowState = 3
@@ -186,7 +186,7 @@ FileStates [
 		]
 		IsPinned = false
 		IsMissing = false
-		OpenCount = 1
+		OpenCount = 0
 		UseDefaultState = false
 		DisplayMode = continuous
 		ScrollPos = -1 -1
@@ -206,7 +206,7 @@ FileStates [
 		]
 		IsPinned = false
 		IsMissing = false
-		OpenCount = 3
+		OpenCount = 1
 		UseDefaultState = false
 		DisplayMode = single page
 		ScrollPos = -1 -1
@@ -226,7 +226,7 @@ FileStates [
 		]
 		IsPinned = false
 		IsMissing = false
-		OpenCount = 1
+		OpenCount = 0
 		UseDefaultState = false
 		DisplayMode = continuous
 		ScrollPos = -1 64.0095
@@ -321,6 +321,26 @@ FileStates [
 		ReparseIdx = 0
 	]
 	[
+		FilePath = C:\Users\yasha\workspacemodules\conformalsymplectic\build\nonsqueezing.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 -1
+		PageNo = 1
+		Zoom = 100
+		Rotation = 0
+		WindowState = 3
+		WindowPos = 698 0 1480 1920
+		ShowToc = false
+		SidebarDx = 364
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
 		FilePath = C:\Users\yasha\workspacemodules\conformalsymplectic\build\toEditors.pdf
 		Favorites [
 		]
@@ -342,43 +362,8 @@ FileStates [
 	]
 ]
 SessionData [
-	[
-		TabStates [
-			[
-				FilePath = C:\Users\yasha\workspacemodules\thematrix\build\stableincompleteness.pdf
-				DisplayMode = continuous
-				PageNo = 17
-				Zoom = fit content
-				Rotation = 0
-				ScrollPos = -1 64.0088
-				ShowToc = false
-			]
-			[
-				FilePath = C:\Users\yasha\workspacemodules\conformalsymplectic\build\conformalsymplectic.pdf
-				DisplayMode = continuous
-				PageNo = 1
-				Zoom = fit content
-				Rotation = 0
-				ScrollPos = -1 117.829
-				ShowToc = false
-			]
-			[
-				FilePath = C:\Users\yasha\workspacemodules\conformalsymplectic\build\nonsqueezing.pdf
-				DisplayMode = continuous
-				PageNo = 1
-				Zoom = 100
-				Rotation = 0
-				ScrollPos = -1 -1
-				ShowToc = false
-			]
-		]
-		TabIndex = 3
-		WindowState = 3
-		WindowPos = 698 0 1480 1920
-		SidebarDx = 364
-	]
 ]
 TimeOfLastUpdateCheck = 0 0
-OpenCountWeek = 606
+OpenCountWeek = 607
 
 # Settings below are not recognized by the current version
