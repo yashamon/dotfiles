@@ -8,7 +8,8 @@ Plug 'romgrk/fzy-lua-native'
 Plug 'vijaymarupudi/nvim-fzf'
 Plug 'kyazdani42/nvim-web-devicons'
 Plug 'metalelf0/nvim-floatedit',  { 'branch': 'main' }
-Plug 'phaazon/hop.nvim'    
+" Plug 'phaazon/hop.nvim'
+Plug 'ggandor/lightspeed.nvim'
 Plug 'glacambre/firenvim', { 'do': { _ -> firenvim#install(0) } }
 Plug 'is0n/fm-nvim'
 Plug 'williamboman/nvim-lsp-installer', { 'branch': 'main' }
@@ -426,7 +427,7 @@ nnoremap <c-h> :bprevious<CR>
 " nnoremap > :tabn<CR>
 " nnoremap <leader>n :tabedit %<CR>
 imap <M-j> <C-j>
-map <M-m> <cmd>HopChar1<cr>$
+" map <M-m> <cmd>HopChar1<cr>$
 " map <S-b> ?\$<CR>
 map q: nop
 map <S-C-q> <Esc>:qa!<CR>
@@ -488,8 +489,8 @@ au FileType tex,text,md noremap 9 g$
 " tnoremap <Right> :tbprevious<CR>
 " tnoremap <Leader>e <C-\><C-n> 
 " imap <Backspace> \
-map t <cmd>HopChar1AC<cr>
-map T <cmd>HopChar1BC<cr>
+map t <Plug>Lightspeed_s
+map T <Plug>Lightspeed_S
 " map <S-m-Space> <cmd>HopWord<cr>
 " map t <ESC>:syntax off <CR>t: syntax on<CR>
 
@@ -1082,8 +1083,9 @@ EOF
 "     -- please take a look at the readme of the extension you want to configure
 "   }
 " } 
-" EOF
-lua require'hop'.setup { keys = 'etovxqpdygfblzhckisuran', term_seq_bias = 0.5 } 
+
+" " EOF
+" lua require'hop'.setup { keys = 'etovxqpdygfblzhckisuran', term_seq_bias = 0.5 } 
 " lua <<EOF
 " require('fm-nvim').setup{
 " 	config =
@@ -1140,8 +1142,14 @@ require('spellsitter').setup {
   --   internal spell_check() function
 spellchecker = 'vimfn',
 }
+lua <<EOF
+    require'lightspeed'.setup { 
+        jump_to_unique_chars = false,
+        repeat_ft_with_target_char = true,
+        safe_labels > { "s", "f", "n", "u", "/", "e", "o", "q", "z", "h", "k","p", "y", "u", "b", "k", S", "F", "N", "L", "H", "M", "U", "G", "T", "?", "Z" }
+    }
 EOF
-
+lua <<EOF
 let g:firenvim_config = { 
     \ 'globalSettings': {
         \ 'alt': 'all',
