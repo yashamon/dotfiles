@@ -1142,6 +1142,7 @@ require('spellsitter').setup {
   --   internal spell_check() function
 spellchecker = 'vimfn',
 }
+EOF
 lua <<EOF
     require'lightspeed'.setup { 
         jump_to_unique_chars = false,
