@@ -1369,7 +1369,7 @@ EOF
 
 " command! -bang -nargs=* Rg
 "    \ call fzf#vim#grep(
-"    \ "rg --multiline-dotall --column --line-number --no-heading --color=always --smart-case " .
+"    \ "rg --multiline --multiline-dotall --column --line-number --no-heading --color=always --smart-case " .
 "    \ <q-args>, 1, fzf#vim#with_preview(), <bang>0)
 
 "" au GUIEnter * set fullscreen
