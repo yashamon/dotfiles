@@ -435,6 +435,7 @@ map <m-q> <esc>:wq<cr>
 map <m-Q> <esc>:q<cr>
 map <m-c> :close<cr>
 map <m-d> <Esc>:w<CR>:bdelete<CR>
+map <m-D> <Esc>:w<CR>:bdelete!<CR>
 noremap gf gq
 noremap f /
 noremap F ?
