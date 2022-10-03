@@ -12,6 +12,9 @@ Plug 'metalelf0/nvim-floatedit',  { 'branch': 'main' }
 Plug 'ggandor/lightspeed.nvim'
 Plug 'glacambre/firenvim', { 'do': { _ -> firenvim#install(0) } }
 Plug 'is0n/fm-nvim'
+Plug 'williamboman/mason.nvim'
+Plug 'williamboman/mason-lspconfig.nvim'
+Plug 'neovim/nvim-lspconfig'
 Plug 'williamboman/nvim-lsp-installer', { 'branch': 'main' }
 Plug 'famiu/feline.nvim'
 Plug 'hrsh7th/nvim-cmp', { 'branch': 'main' }
@@ -24,14 +27,14 @@ Plug 'ray-x/cmp-treesitter'
 Plug 'quangnguyen30192/cmp-nvim-tags',  { 'branch': 'main' }  
 Plug 'voldikss/vim-floaterm'
 Plug 'terrortylor/nvim-comment', { 'branch': 'main' }
-Plug 'justinhoward/fzf-neoyank'  
+Plug 'justinhoward/fzf-neoyank'
 Plug 'rakr/vim-one'
 Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}  
 Plug 'Shougo/neoyank.vim' 
 Plug 'Shougo/denite.nvim', { 'do': ':UpdateRemotePlugins' } 
 Plug 'skywind3000/asyncrun.vim'         
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } } 
-Plug 'neovim/nvim-lspconfig',  { 'branch': 'main' } 
+Plug 'neovim/nvim-lspconfig'
 Plug 'junegunn/fzf.vim'
 Plug 'mbbill/undotree', { 'on': 'UndotreeToggle' }
 Plug 'lewis6991/spellsitter.nvim'
@@ -773,7 +776,7 @@ local nvim_lsp = require('lspconfig')
 -- Use an on_attach function to only map the following keys
 -- after the language server attaches to the current buffer
 local on_attach = function(client, bufnr)
- local function buf_set_keymap(...) vim.api.nvim_buf_set_keymap(bufnr, ...) end
+local function buf_set_keymap(...) vim.api.nvim_buf_set_keymap(bufnr, ...) end
  local function buf_set_option(...) vim.api.nvim_buf_set_option(bufnr, ...) end
 -- Enable completion triggered by <c-x><c-o>
   buf_set_option('omnifunc', 'v:lua.vim.lsp.omnifunc')
@@ -1153,24 +1156,22 @@ lua <<EOF
 }
 EOF
 
-" lua <<EOF
-" let g:firenvim_config = {
-"     \ 'globalSettings': {
-"         \ 'alt': 'all',
-"     \  },
-"     \ 'localSettings': {
-"         \ '.*': {
-"             \ 'cmdline': 'neovim',
-"             \ 'content': 'text',
-"             \ 'priority': 0,
-"             \ 'selector': 'textarea',
-"             \ 'takeover': 'never',
-"         \ },
-"     \ }
-" \ }
-" EOF
-
+let g:firenvim_config = { 
+    \ 'globalSettings': {
+        \ 'alt': 'all',
+    \  },
+    \ 'localSettings': {
+        \ '.*': {
+            \ 'cmdline': 'neovim',
+            \ 'content': 'text',
+            \ 'priority': 0,
+            \ 'selector': 'textarea',
+            \ 'takeover': 'never',
+        \ },
+    \ }
+\ }
 lua << EOF
+
 require('fzf-lua').setup{
 -- ...
 }
