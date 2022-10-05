@@ -494,8 +494,8 @@ au FileType tex,text,md noremap 9 g$
 " tnoremap <Right> :tbprevious<CR>
 " tnoremap <Leader>e <C-\><C-n> 
 " imap <Backspace> \
-map t <Plug>Lightspeed_s
-map T <Plug>Lightspeed_S
+map t <Plug>Leap_s
+map T <Plug>Leat_S
 " map <S-m-Space> <cmd>HopWord<cr>
 " map t <ESC>:syntax off <CR>t: syntax on<CR>
 
