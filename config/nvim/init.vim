@@ -1667,7 +1667,7 @@ require('leap').setup {
       'w([{<',
       'm$',
       { '"', "'", '`' },
-    }
+    },
   safe_labels = { . . . },
   labels = { . . . },
   special_keys = {
