@@ -2,6 +2,7 @@ call plug#begin('~/.vim/plugged')
 " Plug 'folke/zen-mode.nvim', { 'branch': 'main' } 
 " Plug 'karb94/neoscroll.nvim'
 Plug 'tzachar/cmp-fuzzy-buffer'
+Plug 'ggandor/leap.nvim'
 Plug 'ibhagwan/fzf-lua', { 'branch': 'main' }
 Plug 'tzachar/fuzzy.nvim'
 Plug 'romgrk/fzy-lua-native'
@@ -1648,6 +1649,34 @@ require'nvim-treesitter.configs'.setup {
     enable = true,              -- false will disable the whole extension
     -- Instead of true it can also be a list of languages
     additional_vim_regex_highlighting = false,
+  },
+}
+EOF
+lua <<EOF
+require('leap').setup {
+  max_aot_targets = nil,
+  highlight_unlabeled = false,
+  max_highlighted_traversal_targets = 10,
+  case_sensitive = false,
+  -- Sets of characters that should match each other.
+  -- Obvious candidates are braces and quotes ('([{', ')]}', '`"\'').
+  equivalence_classes = 
+    {
+      '\r\n',
+      ')]}>',
+      'w([{<',
+      'm$',
+      { '"', "'", '`' },
+    }
+  safe_labels = { . . . },
+  labels = { . . . },
+  special_keys = {
+    repeat_search  = '<enter>',
+    next_aot_match = '<enter>',
+    next_match     = {';', '<enter>'}
+    prev_match     = {',', '<tab>'}
+    next_group     = '<space>',
+    prev_group     = '<tab>',
   },
 }
 EOF
