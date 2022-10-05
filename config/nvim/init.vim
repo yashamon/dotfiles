@@ -9,7 +9,7 @@ Plug 'romgrk/fzy-lua-native'
 Plug 'vijaymarupudi/nvim-fzf'
 Plug 'kyazdani42/nvim-web-devicons'
 Plug 'metalelf0/nvim-floatedit',  { 'branch': 'main' }
-" Plug 'phaazon/hop.nvim'
+Plug 'phaazon/hop.nvim'
 Plug 'ggandor/lightspeed.nvim'
 Plug 'glacambre/firenvim', { 'do': { _ -> firenvim#install(0) } }
 Plug 'is0n/fm-nvim'
@@ -494,8 +494,10 @@ au FileType tex,text,md noremap 9 g$
 " tnoremap <Right> :tbprevious<CR>
 " tnoremap <Leader>e <C-\><C-n> 
 " imap <Backspace> \
-map t <Plug>Leap_s
-map T <Plug>Leat_S
+map t <Plug>Lightspeed_s
+map <m-t> <Plug>Lightspeed_s
+
+map T <Plug>Lightspeed_S
 " map <S-m-Space> <cmd>HopWord<cr>
 " map t <ESC>:syntax off <CR>t: syntax on<CR>
 
@@ -1660,14 +1662,9 @@ require('leap').setup {
   case_sensitive = false,
   -- Sets of characters that should match each other.
   -- Obvious candidates are braces and quotes ('([{', ')]}', '`"\'').
-  equivalence_classes = 
-    {
-      '\r\n',
-      ')]}>',
-      'w([{<',
-      'm$',
-      { '"', "'", '`' },
-    },
+  equivalence_classes = { ' \t\r\n', },
+  -- Leaving the appropriate list empty effectively disables "smart" mode,
+  -- and forces auto-jump to be on or off.
   safe_labels = { . . . },
   labels = { . . . },
   special_keys = {
@@ -1680,6 +1677,4 @@ require('leap').setup {
   },
 }
 EOF
-
-
 
