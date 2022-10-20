@@ -1199,7 +1199,7 @@ require'lspconfig'.ltex.setup{
         ['en-US'] = { 'PROFANITY' },
         ['en-GB'] = { 'PROFANITY' },
       },
-      language="auto",
+      language="en-US",
       dictionary = {
         ['en-US'] = words,
         ['en-GB'] = words,
@@ -1653,27 +1653,27 @@ require'nvim-treesitter.configs'.setup {
   },
 }
 EOF
-lua <<EOF
-require('leap').setup {
-  max_aot_targets = nil,
-  highlight_unlabeled = false,
-  max_highlighted_traversal_targets = 10,
-  case_sensitive = false,
-  -- Sets of characters that should match each other.
-  -- Obvious candidates are braces and quotes ('([{', ')]}', '`"\'').
-  equivalence_classes = { ' \t\r\n', },
-  -- Leaving the appropriate list empty effectively disables "smart" mode,
-  -- and forces auto-jump to be on or off.
-  safe_labels = { . . . },
-  labels = { . . . },
-  special_keys = {
-    repeat_search  = '<enter>',
-    next_aot_match = '<enter>',
-    next_match     = {';', '<enter>'}
-    prev_match     = {',', '<tab>'}
-    next_group     = '<space>',
-    prev_group     = '<tab>',
-  },
-}
-EOF
+" lua <<EOF
+" require('leap').setup {
+"   max_aot_targets = nil,
+"   highlight_unlabeled = false,
+"   max_highlighted_traversal_targets = 10,
+"   case_sensitive = false,
+"   -- Sets of characters that should match each other.
+"   -- Obvious candidates are braces and quotes ('([{', ')]}', '`"\'').
+"   equivalence_classes = { ' \t\r\n', },
+"   -- Leaving the appropriate list empty effectively disables "smart" mode,
+"   -- and forces auto-jump to be on or off.
+"   safe_labels = { . . . },
+"   labels = { . . . },
+"   special_keys = {
+"     repeat_search  = '<enter>',
+"     next_aot_match = '<enter>',
+"     next_match     = {';', '<enter>'}
+"     prev_match     = {',', '<tab>'}
+"     next_group     = '<space>',
+"     prev_group     = '<tab>',
+"   },
+" }
+" EOF
 
