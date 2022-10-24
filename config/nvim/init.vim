@@ -2,6 +2,7 @@ call plug#begin('~/.vim/plugged')
 " Plug 'folke/zen-mode.nvim', { 'branch': 'main' } 
 " Plug 'karb94/neoscroll.nvim'
 Plug 'tzachar/cmp-fuzzy-buffer'
+Plug 'rlane/pounce.nvim'
 Plug 'ggandor/leap.nvim'
 Plug 'ibhagwan/fzf-lua', { 'branch': 'main' }
 Plug 'tzachar/fuzzy.nvim'
