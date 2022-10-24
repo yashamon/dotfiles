@@ -24,18 +24,17 @@ for file in $files; do
     echo "Moving any existing dotfiles from ~ to $olddir"
     mv ~/.$file ~/dotfiles_old/
     echo "Creating symlink to $file in home directory."
-    ln -s $dir/$file ~/.$file
+    New-Item -ItemType SymbolicLink -Path "$dir/$file" -Target "~/.$file"
 done 
 cd $HOME/dotfiles/scripts
 for file in *; do
 echo file
-ln -s $HOME/dotfiles/scripts/$file $HOME/.local/bin/$file 
+New-Item -ItemType SymbolicLink -Path "$HOME/dotfiles/scripts/$file" -Target "$HOME/.local/bin/$file"
 done 
-echo "Moving vifm"
-mkdir ~/bin
-cp ~/dotfiles/bin/vf ~/bin/vf
 mv ~/.config ~/dotfiles_old 
 echo "link config"
+New-Item -ItemType SymbolicLink -Path "$HOME/dotfiles/config" -Target "$HOME/.config"
+
 ln -s ~/dotfiles/config ~/.config
 # mkdir ~/.config/vifm
 # ln -s ~/dotfiles/vifm ~/.config/vifm
