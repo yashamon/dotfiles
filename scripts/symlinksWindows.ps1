@@ -34,79 +34,10 @@ done
 mv ~/.config ~/dotfiles_old 
 echo "link config"
 New-Item -ItemType SymbolicLink -Path "$HOME/dotfiles/config" -Target "$HOME/.config"
-
-ln -s ~/dotfiles/config ~/.config
-# mkdir ~/.config/vifm
-# ln -s ~/dotfiles/vifm ~/.config/vifm
-# ln -s ~/dotfiles/vifm ~/.config/vifm
-echo "Moving xmobarrc" 
-ln -s ~/dotfiles/xmonad/xmobar.hs ~/.xmobarrc  
-mkdir  ~/.local/share/applications
-cp -r ~/dotfiles/applications/* ~/.local/share/applications
-#     echo "Moving nvimrc"
-# mkdir ~/.config/nvim
-# rm ~/.config/nvim/init.vim
-# ln -s ~/dotfiles/nvimrcChromeOs ~/.config/nvim/init.vim
-# ln -s ~/dotfiles/ginit.vim ~/.config/nvim/ginit.vim
-# rm ~/.config/nvim/colors
-# ln -s ~/dotfiles/colors ~/.config/nvim/colors
-# rm ~/.config/nvim/spell 
-# ln -s ~/dotfiles/spell ~/.config/nvim/spell
-# mkdir ~/.config/nvim/autoload
-# ln -s ~/dotfiles/vim-plug/plug.vim ~/.config/nvim/autoload/plug.vim
-#
-#
-# zathura, termite
-# mkdir ~/.config/zathura
-# mkdir ~/.config/termite
-# ln -s ~/dotfiles/zathurarc  ~/.config/zathura/zathurarc
-# ln -s ~/dotfiles/termiteconfig ~/.config/termite/config
-# echo "Moving zshrc"
-# ln -s ~/dotfiles/zshrcChromeOs ~/.zshrc
-install_zsh () {
-# Test to see if zshell is installed.  If it is:
-if [ -f /bin/zsh -o -f /usr/bin/zsh ]; then
-    # Clone my oh-my-zsh repository from GitHub only if it isn't already present
-    if [[ ! -d $dir/oh-my-zsh/ ]]; then
-        git clone http://github.com/robbyrussell/oh-my-zsh.git
-    fi
-    # Set the default shell to zsh if it isn't currently set to zsh
-    if [[ ! $(echo $SHELL) == $(which zsh) ]]; then
-        chsh -s $(which zsh)
-    fi
-else
-    # If zsh isn't installed, get the platform of the current machine
-    platform=$(uname);
-    # If the platform is Linux, try an apt-get to install zsh and then recurse
-    if [[ $platform == 'Linux' ]]; then
-        sudo apt-get install zsh
-        install_zsh
-    # If the platform is OS X, tell the user to install zsh :)
-    elif [[ $platform == 'Darwin' ]]; then
-        echo "Please install zsh, then re-run this script!"
-        exit
-    fi
-fi
-}
 mkdir ~/.ctags.d
-ln -s ~/dotfiles/ctags ~/.ctags.d/latex.ctags
-# ln -s ~/dotfiles/config/nvim/lua/init.lua ~/.config/nvim/lua/init.lua
+New-Item -ItemType SymbolicLink -Path "$HOME/dotfiles/ctags" - Target "$HOME/.ctags.d/latex.ctags"
 git config --global credential.helper store
 git config --global user.name "yashamon"
 git config --global user.email "yasha.savelyev@gmail.com"
-# pip3 install neovim, git clone https://github.com/romkatv/powerlevel10k.git $ZSH_CUSTOM/themes/powerlevel10k; mkdir -p $ZSH_CUSTOM/lib && touch $ZSH_CUSTOM/lib/misc.zsh
 
-sudo apt install kitty python-pip zathura zathura-ps zathura-djvu xdotool inkscape texlive 
-texlive-base texlive-latex-base texlive-pstricks texlive-science texlive-xetex latexmk xclip fasd 
-python3-pip vifm universal-ctags ripgrep sed gitk  build-essential procps curl file git autoconf  
-automake cmake  g++ gettext libncurses5-dev libtool  libtool-bin libunibilium-dev libunibilium4 
-ninja-build pkg-config python3-pip software-properties-common 
-unzip stpv fdfind inotify-tools trash-cli
-
-sudo pip3 install neovim
-sudo pip3 install neovim-remote 
-sudo pip3 install setuptools
-sudo pip3 install --upgrade pynvim 
-sudo pip3 install trash-cli
-mkdir $HOME/appimage
 
