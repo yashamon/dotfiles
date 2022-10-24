@@ -36,6 +36,9 @@ echo "link config"
 New-Item -ItemType SymbolicLink -Path "$HOME/dotfiles/config" -Target "$HOME/.config"
 mkdir ~/.ctags.d
 New-Item -ItemType SymbolicLink -Path "$HOME/dotfiles/ctags" - Target "$HOME/.ctags.d/latex.ctags"
+
+New-Item -ItemType SymbolicLink -Path "$HOME/dotfiles/config/SummatraPDF-settings.txt" -Target "$HOME/scoop/apps/summatrapdf/current/SummatraPDF-settings.txt"
+
 git config --global credential.helper store
 git config --global user.name "yashamon"
 git config --global user.email "yasha.savelyev@gmail.com"
