@@ -376,6 +376,7 @@ inoremap \ /
 inoremap / \
 
 " Movement
+imap <C-d> <C-w>
 noremap W /\$<CR>
 noremap B ?\$<CR>
 noremap <m-w>m /\$<CR>
@@ -545,7 +546,7 @@ vnoremap <leader>p :FZFNeoyankSelection +<cr>
 nmap t <cmd>Pounce<CR>
 nmap S <cmd>PounceRepeat<CR>
 vmap s <cmd>Pounce<CR>
-omap gs <cmd>Pounce<CR>  
+omap gs <cmd>Pounce<CR>
 " 's' is used by vim-surround
 
 " Replace the default dictionary completion with fzf-based fuzzy completion
