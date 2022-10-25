@@ -376,7 +376,7 @@ inoremap \ /
 inoremap / \
 
 " Movement
-imap <C-d> <C-w>
+inoremap <C-d> <C-w>
 noremap W /\$<CR>
 noremap B ?\$<CR>
 noremap <m-w>m /\$<CR>
