@@ -10,7 +10,7 @@
 "vertical slash": {
     "prefix": "vert",
     "body": [
-        "\,|\, $0"
+        "\\,|\\, $0"
        ],
     "description": "vert"
     },
