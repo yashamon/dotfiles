@@ -6,6 +6,15 @@
        ],
     "description": "fuk"
     },  
+
+"vertical slash": {
+    "prefix": "vert",
+    "body": [
+        "\,|\, $0"
+       ],
+    "description": "vert"
+    },
+
 "range": {
     "prefix": "range",
     "body": [
