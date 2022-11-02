@@ -1304,7 +1304,7 @@
     "description": "delta"
   },
 "Sigma": {
-    "prefix": ["S"],
+    "prefix": ["Si"],
     "body": [
       "\\Sigma $0"
     ],
