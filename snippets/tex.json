@@ -1248,7 +1248,8 @@
       "\\mathcal{T} $0"
     ],
     "description": "cal T"
-  }, 
+  },
+  
   "omega": {
     "prefix": ["om"],
     "body": [
