@@ -985,6 +985,13 @@
     "description": "epsilon"
   },
 
+"omega": {
+    "prefix": ["o", "\\o"],
+    "body": [
+      "\\omega $0"
+    ],
+    "description": "omega"
+  },
 "field K": {
     "prefix": ["fk", "fK"],
     "body": [
@@ -1248,22 +1255,13 @@
       "\\mathcal{T} $0"
     ],
     "description": "cal T"
-  },
-  
-  "omega": {
+  }, 
+"omega": {
     "prefix": ["om"],
     "body": [
       "\\omega $0"
     ],
     "description": "omega"
-  },
-
- "Sigma": {
-    "prefix": ["Si"],
-    "body": [
-      "\\Sigma $0"
-    ],
-    "description": "Sigma"
   },
  
 "alpha": {
