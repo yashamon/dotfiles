@@ -985,13 +985,6 @@
     "description": "epsilon"
   },
 
-"omega": {
-    "prefix": ["o", "\\o"],
-    "body": [
-      "\\omega $0"
-    ],
-    "description": "omega"
-  },
 "field K": {
     "prefix": ["fk", "fK"],
     "body": [
