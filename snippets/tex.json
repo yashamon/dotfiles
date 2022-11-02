@@ -1256,6 +1256,22 @@
     ],
     "description": "cal T"
   }, 
+  "omega": {
+    "prefix": ["om"],
+    "body": [
+      "\\omega $0"
+    ],
+    "description": "omega"
+  },
+
+ "Sigma": {
+    "prefix": ["Si"],
+    "body": [
+      "\\Sigma $0"
+    ],
+    "description": "Sigma"
+  },
+ 
 "alpha": {
     "prefix": ["al"],
     "body": [
