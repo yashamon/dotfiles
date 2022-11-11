@@ -771,9 +771,9 @@
  "underline": {
     "prefix": ["ul", "uline"],
     "body": [
-      "_{$2}$0"
+      "\\underline{$2}$0"
     ],
-    "description": "underscore"
+    "description": "underline"
   },
  
 "under": {
