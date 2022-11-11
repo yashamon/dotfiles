@@ -769,7 +769,7 @@
     "description": "caligraphic"
   },
 "under": {
-    "prefix": "u",
+    "prefix": ["u","under"],
     "body": [
       "_{$2}$0"
     ],
