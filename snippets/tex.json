@@ -768,8 +768,16 @@
     ],
     "description": "caligraphic"
   },
+ "underline": {
+    "prefix": ["ul", "uline"],
+    "body": [
+      "_{$2}$0"
+    ],
+    "description": "underscore"
+  },
+ 
 "under": {
-    "prefix": ["u","under"],
+    "prefix": "u",
     "body": [
       "_{$2}$0"
     ],
