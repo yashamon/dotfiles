@@ -546,6 +546,7 @@ vnoremap <leader>p :FZFNeoyankSelection +<cr>
 
 "Pounce
 nmap t <Plug>(leap-forward)
+nmap T <Plug>(leap-backward)
 " nmap S <cmd>PounceRepeat<CR>
 vmap t <cmd>Pounce<CR>
 omap gt <cmd>Pounce<CR>
