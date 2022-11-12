@@ -1679,9 +1679,9 @@ require('leap').setup {
       '([{<',
       { '"', "'", '`' },
       {'$', 'm'},
-      {']', '[', '}', '{', ')', '(', 'b'},
+      {']', '[', '}', '{', ')', '(', 'b'}
     },
-  -- Leaving the] appropriate list empty effectively disables "smart" mode,
+  -- Leaving the] appropriate list emapty effectively disables "smart" mode,
   -- and forces auto-jump to be on or off.
   
 }
