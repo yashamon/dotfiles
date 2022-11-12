@@ -141,7 +141,9 @@ set title
 " set noruler       
 " set laststatus=1 
 set noshowcmd    
+set autoindent
 set indentexpr=
+set autoindent
 set noshowmatch
 set wrap
 " set pb=10
@@ -544,9 +546,9 @@ vnoremap <leader>p :FZFNeoyankSelection +<cr>
 
 "Pounce
 nmap t <cmd>Pounce<CR>
-nmap S <cmd>PounceRepeat<CR>
-vmap s <cmd>Pounce<CR>
-omap gs <cmd>Pounce<CR>
+" nmap S <cmd>PounceRepeat<CR>
+vmap t <cmd>Pounce<CR>
+omap gt <cmd>Pounce<CR>
 " 's' is used by vim-surround
 
 " Replace the default dictionary completion with fzf-based fuzzy completion
@@ -681,7 +683,7 @@ function! ClearLatex()
 endfunction 
 
 function! CompileLatex()
-  silent call ClearLatex()
+  " silent call ClearLatex()
   let buf=bufname()
   silent te pwsh -c latexmk -pvc -halt-on-error -synctex=1 -file-line-error -f -output-directory="build" %
   execute "buffer" buf
@@ -1662,27 +1664,27 @@ require'nvim-treesitter.configs'.setup {
 }
 EOF
 
-" lua <<EOF
-" require('leap').setup {
-"   max_aot_targets = nil,
-"   highlight_unlabeled = false,
-"   max_highlighted_traversal_targets = 10,
-"   case_sensitive = false,
-"   -- Sets of characters that should match each other.
-"   -- Obvious candidates are braces and quotes ('([{', ')]}', '`"\'').
-"   equivalence_classes = { ' \t\r\n', },
-"   -- Leaving the appropriate list empty effectively disables "smart" mode,
-"   -- and forces auto-jump to be on or off.
-"   safe_labels = { . . . },
-"   labels = { . . . },
-"   special_keys = {
-"     repeat_search  = '<enter>',
-"     next_aot_match = '<enter>',
-"     next_match     = {';', '<enter>'}
-"     prev_match     = {',', '<tab>'}
-"     next_group     = '<space>',
-"     prev_group     = '<tab>',
-"   },
-" }
-" EOF
+lua <<EOF
+require('leap').setup {
+  max_aot_targets = nil,
+  highlight_unlabeled = false,
+  max_highlighted_traversal_targets = 10,
+  case_sensitive = false,
+  -- Sets of characters that should match each other.
+  -- Obvious candidates are braces and quotes ('([{', ')]}', '`"\'').
+  equivalence_classes = 
+  {
+      '\r\n',
+      ')]}>',
+      '([{<',
+      '$',
+      { '"', "'", '`' },
+      {'a', 'b'}
+    },
+  -- Leaving the appropriate list empty effectively disables "smart" mode,
+  -- and forces auto-jump to be on or off.
+  
+}
+EOF
 
+set autoindent
