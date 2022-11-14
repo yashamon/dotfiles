@@ -1,8 +1,5 @@
 call plug#begin('~/.vim/plugged')
-" Plug 'folke/zen-mode.nvim', { 'branch': 'main' } 
-" Plug 'karb94/neoscroll.nvim'
 Plug 'tzachar/cmp-fuzzy-buffer'
-Plug 'rlane/pounce.nvim'
 Plug 'ggandor/leap.nvim'
 Plug 'ibhagwan/fzf-lua', { 'branch': 'main' }
 Plug 'tzachar/fuzzy.nvim'
@@ -44,6 +41,9 @@ Plug 'ggVGc/vim-fuzzysearch'
 Plug 'hrsh7th/vim-searchx'
 Plug 'Pocco81/true-zen.nvim', { 'branch': 'main' }
 
+" Plug 'folke/zen-mode.nvim', { 'branch': 'main' } 
+" Plug 'karb94/neoscroll.nvim'
+" Plug 'rlane/pounce.nvim'
 " Plug 'vim-scripts/AutoTag'
 " Plug 'rebelot/kanagawa.nvim'
 " Plug 'reedes/vim-pencil' 
@@ -545,11 +545,11 @@ nnoremap <leader>P :FZFNeoyank " P+<cr>
 vnoremap <leader>p :FZFNeoyankSelection +<cr>
 
 "Pounce
-nmap t <Plug>(leap-forward)
-nmap T <Plug>(leap-backward)
-" nmap S <cmd>PounceRepeat<CR>
-vmap t <cmd>Pounce<CR>
-omap gt <cmd>Pounce<CR>
+map t <Plug>(leap-forward)
+map T <Plug>(leap-backward)
+" " nmap S <cmd>PounceRepeat<CR>
+" vmap t <cmd>Pounce<CR>
+" omap gt <cmd>Pounce<CR>
 " 's' is used by vim-surround
 
 " Replace the default dictionary completion with fzf-based fuzzy completion
@@ -901,14 +901,14 @@ sources = cmp.config.sources({
 { name = 'omni', keyword_length = 4},
        -- { name = 'spell' }, 
       --{ name = 'treesitter', keyword_length = 4 },
-{ name = 'fuzzy_buffer', keyword_length = 5 },
+{ name = 'buffer', keyword_length = 4 }
+--{ name = 'fuzzy_buffer', keyword_length = 8 }
 }),
-completion = {
-    autocomplete = false 
-    }
+--completion = {
+--    autocomplete = true
+--    }
 })
 EOF
-
 " 
 " " LSP mappings   
 " "" LSP mappings 
@@ -1680,7 +1680,7 @@ require('leap').setup {
       '([{<',
       { '"', "'", '`' },
       --{'$', 'm'},
-      {',', '.','m', ']', '[', '}', '{', ')', '(', '$'}
+      {'?', '|', '!', '*', '+', '-', '`','\'','\\', '\n', '\r', ',', '.',';', ']', '[', '}', '{', ')', '(', '$'}
     },
   -- Leaving the] $appropriate list emapty effectively disables "smart" mode,
   -- and forces auto-jump to be on or off.
