@@ -611,16 +611,15 @@
     ],
     "description": "Add a cite"
   },
-  "EmptyPage": {
+  "emptyset": {
     "prefix": "empty",
     "body": [
-      "\\null\\thispagestyle{empty}",
-      "\\newpage",
-      "$0"
+      "\\emptyset $0"
     ],
-    "description": "Add a empty page"
-  },  
-"norm": {
+    "description": "norm"
+  },
+
+ "norm": {
     "prefix": "norm",
     "body": [
       "|{$1}| $0"
