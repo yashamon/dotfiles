@@ -1689,5 +1689,5 @@ require('leap').setup {
 EOF
 
 set autoindent
-inoremap <m-d> <C-d>
+inoremap <m-d> <c-d>
 
