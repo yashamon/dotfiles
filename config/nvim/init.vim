@@ -470,7 +470,7 @@ nnoremap ` ~
 nnoremap . `
 noremap <m-1> <C-o>
 noremap <m-2> <C-i>
-noremap <D-d> <C-d>
+inoremap <m-d> <C-d>
 noremap ;w <Esc>:w<CR>
 noremap <C-t> <Esc>:AsyncRun ctags -R<CR>
 noremap <D-u> <C-u>
