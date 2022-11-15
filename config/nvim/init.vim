@@ -378,7 +378,7 @@ inoremap \ /
 inoremap / \
 
 " Movement
-inoremap <C-d> <C-w>
+inoremap <m-d> <C-w>
 noremap W /\$<CR>
 noremap B ?\$<CR>
 noremap <m-w>m /\$<CR>
@@ -1689,5 +1689,4 @@ require('leap').setup {
 EOF
 
 set autoindent
-imap <m-d> <c-d>
 
