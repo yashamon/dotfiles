@@ -632,7 +632,7 @@ command! -bang -nargs=* BLinesB
 function Sentence()
   let g:buf = bufname()
   " silent execute "!bash /mnt/c/Users/yasha/dotfiles/scripts/sentence.sh %"
-  silent execute "!Powershell.exe -File sentence.ps1 %"
+  silent execute "!pwsh -File sentence.ps1 %"
   " silent call getchar()
   e sentence_%
   sleep 1
