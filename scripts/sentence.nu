@@ -1,6 +1,6 @@
 def main [f: string] {
 $newfile='@_' + "$f"
-$a = (cat $f | from tsv) | each {|l| ([string](l.ReadCount-1) + ': ' + $_  + "@") -replace "\.\s+@", ".@@@" -replace "\.\s+", ("\. @"+[string]($_.ReadCount-1)+':+++') }
+$a = (open $f | lines) | each -n { |l| $"(l.index)" + ': ' + $"(l.item)"  + "@") -replace "\.\s+@", ".@@@" -replace "\.\s+", ("\. @"+[string]($_.ReadCount-1)+':+++') }
 $b=[String]$a
 $c=$b -replace "`n", "" 
 $d=$c -replace "\.\s+", "\.@`n" -replace "\.@", "\.@`n" -replace
