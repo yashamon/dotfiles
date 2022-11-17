@@ -39,6 +39,7 @@ New-Item -ItemType SymbolicLink -Path "$HOME/dotfiles/ctags" - Target "$HOME/.ct
 New-Item -ItemType SymbolicLink -Path "C:\Users\yasha\AppData\Ro
 aming\nushell\config.nu" -Target $HOME/dotfiles/config/nushell/con
 fig.nu
+New-Item -ItemType SymbolicLink -Path "C:\Users\yasha\AppData\Roaming\nushell\env.nu" -Target $HOME/dotfiles/config/nushell/env.nu
 New-Item -ItemType SymbolicLink -Path "$HOME/dotfiles/config/SummatraPDF-settings.txt" -Target "$HOME/scoop/apps/summatrapdf/current/SummatraPDF-settings.txt"
 
 git config --global credential.helper store
