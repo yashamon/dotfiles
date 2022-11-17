@@ -629,6 +629,17 @@ command! -bang -nargs=* BLinesB
 "      \   'rg --with-filename --column --line-number --no-heading --smart-case . '.fnameescape(expand('%:p')),,
 " "     \   fzf#vim#with_preview({'options': '--layout reverse --query '.shellescape(<q-args>).' --with-nth=4.. --delimiter=":"'}, 'right:0%'))
     " \   fzf#vim#with_preview({'options': '--layout reverse  --with-nth=-1.. --delimiter="/"'}, 'right:50%'))
+ function Sentence()
+  let g:buf = bufname()
+  " silent execute "!bash /mnt/c/Users/yasha/dotfiles/scripts/sentence.sh %"
+  silent execute "!nu C:/Users/yasha/dotfiles/scripts/sentence.nu %" 
+  caddf @_%
+  copen
+  " let b:paste = system('pwsh -c Get-Clipboard')
+  " call feedkeys(":BLinesB \<c-r>+\<cr>")
+  call feedkeys("zf")
+endfunction
+
 function SentenceLL()
   let g:buf = bufname()
   " silent execute "!bash /mnt/c/Users/yasha/dotfiles/scripts/sentence.sh %"
