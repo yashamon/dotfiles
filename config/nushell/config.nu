@@ -10,6 +10,7 @@ def "nf" [] {
 let $ho = (fd . C:/Users/yasha -H -E /.undo/* -E /undo/* -E /tmp/* -E *.pdf | fzf | str trim)
 neovide --multigrid $ho 
 }
+alias hello = ( echo "hello" )
 alias nf = ( nf )
   def "nu-complete git branches" [] {
     ^git branch | lines | each { |line| $line | str replace '[\*\+] ' '' | str trim }
