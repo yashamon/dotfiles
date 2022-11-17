@@ -412,6 +412,6 @@ let-env config = {
     }
   ]
 }
-alias nf ( let $ho = (fd . $HOME -H -E /.undo/* -E /undo/* -E /tmp/* -E *.pdf | fzf) ; neovide --multigrid $ho ) )
+alias nf ( let $ho = (fd . C:/Users/yasha -H -E /.undo/* -E /undo/* -E /tmp/* -E *.pdf | fzf | str trim) ; neovide --multigrid $ho ) 
 }
 
