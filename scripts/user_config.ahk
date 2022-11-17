@@ -99,7 +99,7 @@ WinKill, A
     Run "pwsh" 
     Return
 #+f::
-    Run nu lf
+    Run "nu lf"
     Return
 #n::
     Run "nu nf"
