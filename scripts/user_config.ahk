@@ -99,10 +99,10 @@ WinKill, A
     Run "pwsh" 
     Return
 #+f::
-    Run pwsh -c lf
+    Run nu lf
     Return
 #n::
-    Run pwsh -c nf
+    Run nu nf.nu
     Return
 #e::
 ; Run microsoft-edge:https://this-page-intentionally-left-blank.org/ 
