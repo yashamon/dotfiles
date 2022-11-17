@@ -443,7 +443,7 @@ map <m-q> <esc>:wq<cr>
 map <m-Q> <esc>:q<cr>
 map <m-c> :close<cr>
 map <m-d> <Esc>:w<CR>:bdelete<CR>
-map <m-D> <Esc>:w<CR>:bdelete!<CR>
+map <m-D> :bdelete!<CR>
 noremap gf gq
 noremap f /
 noremap F ?
@@ -644,12 +644,9 @@ function SentenceLL()
   let g:buf = bufname()
   " silent execute "!bash /mnt/c/Users/yasha/dotfiles/scripts/sentence.sh %"
   silent execute "!nu C:/Users/yasha/dotfiles/scripts/sentence.nu %" 
-  caddf @_%
-  copen
+  e @_%
   " let b:paste = system('pwsh -c Get-Clipboard')
-  " call feedkeys(":BLinesB \<c-r>+\<cr>")
-  call feedkeys("zf")
-  call feedkeys("\<c-r>+\<cr>")
+  call feedkeys(":BLinesB \<c-r>+\<cr>")
 endfunction
 noremap LL :lua require("true-zen.ataraxis") .on()<cr>:lua require("true-zen.ataraxis") .off()<cr>:call SentenceLL()<cr>
 " noremap L :TZAtaraxisOff<cr><cr>:call Sentence()<cr>
@@ -1687,12 +1684,12 @@ require('leap').setup {
   -- Obvious candidates are braces and quotes ('([{', ')]}', '`"\'').
   equivalence_classes = 
   {
-      '\r\n',
+      ' \r\n',
       ')]}>',
       '([{<',
       { '"', "'", '`' },
       --{'$', 'm'},
-      {'?', '|', '!', '*', '+', '-', '`','\'','\\', '\n', '\r', ',', '.',';', ']', '[', '}', '{', ')', '(', '$'}
+      {'^', '_', '<', '>', '?', '|', '!', '*', '+', '-', '`','\'','\\', '\n', '\r', ',', '.',';', ']', '[', '}', '{', ')', '(', '$'}
     },
   -- Leaving the] $appropriate list emapty effectively disables "smart" mode,
   -- and forces auto-jump to be on or off.

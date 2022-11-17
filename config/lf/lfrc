@@ -1,5 +1,6 @@
 set ratios 1:2:3
 set shell pwsh
+# set shell "C:\\Users\\yasha\\scoop\\shims\\nu.exe"
 
 # Shell commands with multiline definitions and/or positional arguments and/or
 # quotes do not work in Windows. For anything but the simplest shell commands,
@@ -11,7 +12,7 @@ set shell pwsh
 # keybindings with explicit choices accordingly.
 # change the default open command to work in powerShell
 cmd open &start $Env:f
-set filesep " "
+# set filesep " "
 # change the editor used in default editor keybinding
 # There is no builtin terminal editor installed in Windows. The default editor
 # mapping uses 'notepad' which launches in a separate GUI window. You may

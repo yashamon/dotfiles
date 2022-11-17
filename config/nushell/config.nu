@@ -1,12 +1,5 @@
 # Nushell Config File
-use reedline::{
-    default_vi_insert_keybindings, default_vi_normal_keybindings, EditMode, Reedline, Vi,
-};
 
-let mut line_editor = Reedline::create().with_edit_mode(Box::new(Vi::new(
-    default_vi_insert_keybindings(),
-    default_vi_normal_keybindings(),
-)));
 module completions {
   # Custom completions for external commands (those outside of Nushell)
   # Each completions has two parts: the form of the external command, including its flags and parameters
@@ -21,59 +14,109 @@ module completions {
     ^git remote | lines | each { |line| $line | str trim }
   }
 
-  export extern "git checkout" [
-    branch?: string@"nu-complete git branches" # name of the branch to checkout
-    -b: string                                 # create and checkout a new branch
-    -B: string                                 # create/reset and checkout a branch
-    -l                                         # create reflog for new branch
-    --guess                                    # second guess 'git checkout <no-such-branch>' (default)
-    --overlay                                  # use overlay mode (default)
-    --quiet(-q)                                # suppress progress reporting
-    --recurse-submodules: string               # control recursive updating of submodules
-    --progress                                 # force progress reporting
-    --merge(-m)                                # perform a 3-way merge with the new branch
-    --conflict: string                         # conflict style (merge or diff3)
-    --detach(-d)                               # detach HEAD at named commit
-    --track(-t)                                # set upstream info for new branch
-    --force(-f)                                # force checkout (throw away local modifications)
-    --orphan: string                           # new unparented branch
-    --overwrite-ignore                         # update ignored files (default)
-    --ignore-other-worktrees                   # do not check if another worktree is holding the given ref
-    --ours(-2)                                 # checkout our version for unmerged files
-    --theirs(-3)                               # checkout their version for unmerged files
-    --patch(-p)                                # select hunks interactively
-    --ignore-skip-worktree-bits                # do not limit pathspecs to sparse entries only
-    --pathspec-from-file: string               # read pathspec from file
+  # Download objects and refs from another repository
+  export extern "git fetch" [
+    repository?: string@"nu-complete git remotes" # name of the branch to fetch
+    --all                                         # Fetch all remotes
+    --append(-a)                                  # Append ref names and object names to .git/FETCH_HEAD
+    --atomic                                      # Use an atomic transaction to update local refs.
+    --depth: int                                  # Limit fetching to n commits from the tip
+    --deepen: int                                 # Limit fetching to n commits from the current shallow boundary
+    --shallow-since: string                       # Deepen or shorten the history by date
+    --shallow-exclude: string                     # Deepen or shorten the history by branch/tag
+    --unshallow                                   # Fetch all available history
+    --update-shallow                              # Update .git/shallow to accept new refs
+    --negotiation-tip: string                     # Specify which commit/glob to report while fetching
+    --negotiate-only                              # Do not fetch, only print common ancestors
+    --dry-run                                     # Show what would be done
+    --write-fetch-head                            # Write fetched refs in FETCH_HEAD (default)
+    --no-write-fetch-head                         # Do not write FETCH_HEAD
+    --force(-f)                                   # Always update the local branch
+    --keep(-k)                                    # Keep dowloaded pack
+    --multiple                                    # Allow several arguments to be specified
+    --auto-maintenance                            # Run 'git maintenance run --auto' at the end (default)
+    --no-auto-maintenance                         # Don't run 'git maintenance' at the end
+    --auto-gc                                     # Run 'git maintenance run --auto' at the end (default)
+    --no-auto-gc                                  # Don't run 'git maintenance' at the end
+    --write-commit-graph                          # Write a commit-graph after fetching
+    --no-write-commit-graph                       # Don't write a commit-graph after fetching
+    --prefetch                                    # Place all refs into the refs/prefetch/ namespace
+    --prune(-p)                                   # Remove obsolete remote-tracking references
+    --prune-tags(-P)                              # Remove any local tags that do not exist on the remote
+    --no-tags(-n)                                 # Disable automatic tag following
+    --refmap: string                              # Use this refspec to map the refs to remote-tracking branches
+    --tags(-t)                                    # Fetch all tags
+    --recurse-submodules: string                  # Fetch new commits of populated submodules (yes/on-demand/no)
+    --jobs(-j): int                               # Number of parallel children
+    --no-recurse-submodules                       # Disable recursive fetching of submodules
+    --set-upstream                                # Add upstream (tracking) reference
+    --submodule-prefix: string                    # Prepend to paths printed in informative messages
+    --upload-pack: string                         # Non-default path for remote command
+    --quiet(-q)                                   # Silence internally used git commands
+    --verbose(-v)                                 # Be verbose
+    --progress                                    # Report progress on stderr
+    --server-option(-o): string                   # Pass options for the server to handle
+    --show-forced-updates                         # Check if a branch is force-updated
+    --no-show-forced-updates                      # Don't check if a branch is force-updated
+    -4                                            # Use IPv4 addresses, ignore IPv6 addresses
+    -6                                            # Use IPv6 addresses, ignore IPv4 addresses
   ]
 
+  # Check out git branches and files
+  export extern "git checkout" [
+    ...targets: string@"nu-complete git branches"   # name of the branch or files to checkout
+    --conflict: string                              # conflict style (merge or diff3)
+    --detach(-d)                                    # detach HEAD at named commit
+    --force(-f)                                     # force checkout (throw away local modifications)
+    --guess                                         # second guess 'git checkout <no-such-branch>' (default)
+    --ignore-other-worktrees                        # do not check if another worktree is holding the given ref
+    --ignore-skip-worktree-bits                     # do not limit pathspecs to sparse entries only
+    --merge(-m)                                     # perform a 3-way merge with the new branch
+    --orphan: string                                # new unparented branch
+    --ours(-2)                                      # checkout our version for unmerged files
+    --overlay                                       # use overlay mode (default)
+    --overwrite-ignore                              # update ignored files (default)
+    --patch(-p)                                     # select hunks interactively
+    --pathspec-from-file: string                    # read pathspec from file
+    --progress                                      # force progress reporting
+    --quiet(-q)                                     # suppress progress reporting
+    --recurse-submodules: string                    # control recursive updating of submodules
+    --theirs(-3)                                    # checkout their version for unmerged files
+    --track(-t)                                     # set upstream info for new branch
+    -b: string                                      # create and checkout a new branch
+    -B: string                                      # create/reset and checkout a branch
+    -l                                              # create reflog for new branch
+  ]
+
+  # Push changes
   export extern "git push" [
-    remote?: string@"nu-complete git remotes", # the name of the remote
-    refspec?: string@"nu-complete git branches"# the branch / refspec
-    --verbose(-v)                              # be more verbose
-    --quiet(-q)                                # be more quiet
-    --repo: string                             # repository
-    --all                                      # push all refs
-    --mirror                                   # mirror all refs
-    --delete(-d)                               # delete refs
-    --tags                                     # push tags (can't be used with --all or --mirror)
-    --dry-run(-n)                              # dry run
-    --porcelain                                # machine-readable output
-    --force(-f)                                # force updates
-    --force-with-lease: string                 # require old value of ref to be at this value
-    --recurse-submodules: string               # control recursive pushing of submodules
-    --thin                                     # use thin pack
-    --receive-pack: string                     # receive pack program
-    --exec: string                             # receive pack program
-    --set-upstream(-u)                         # set upstream for git pull/status
-    --progress                                 # force progress reporting
-    --prune                                    # prune locally removed refs
-    --no-verify                                # bypass pre-push hook
-    --follow-tags                              # push missing but relevant tags
-    --signed: string                           # GPG sign the push
-    --atomic                                   # request atomic transaction on remote side
-    --push-option(-o): string                  # option to transmit
-    --ipv4(-4)                                 # use IPv4 addresses only
-    --ipv6(-6)                                 # use IPv6 addresses only
+    remote?: string@"nu-complete git remotes",      # the name of the remote
+    ...refs: string@"nu-complete git branches"      # the branch / refspec
+    --all                                           # push all refs
+    --atomic                                        # request atomic transaction on remote side
+    --delete(-d)                                    # delete refs
+    --dry-run(-n)                                   # dry run
+    --exec: string                                  # receive pack program
+    --follow-tags                                   # push missing but relevant tags
+    --force-with-lease: string                      # require old value of ref to be at this value
+    --force(-f)                                     # force updates
+    --ipv4(-4)                                      # use IPv4 addresses only
+    --ipv6(-6)                                      # use IPv6 addresses only
+    --mirror                                        # mirror all refs
+    --no-verify                                     # bypass pre-push hook
+    --porcelain                                     # machine-readable output
+    --progress                                      # force progress reporting
+    --prune                                         # prune locally removed refs
+    --push-option(-o): string                       # option to transmit
+    --quiet(-q)                                     # be more quiet
+    --receive-pack: string                          # receive pack program
+    --recurse-submodules: string                    # control recursive pushing of submodules
+    --repo: string                                  # repository
+    --set-upstream(-u)                              # set upstream for git pull/status
+    --signed: string                                # GPG sign the push
+    --tags                                          # push tags (can't be used with --all or --mirror)
+    --thin                                          # use thin pack
+    --verbose(-v)                                   # be more verbose
   ]
 }
 
@@ -134,8 +177,7 @@ let default_theme = {
 }
 
 # The default config record. This is where much of your global configuration is setup.
-let $config = {
-  line_editor.edit_mode "vi"
+let-env config = {
   filesize_metric: false
   table_mode: rounded # basic, compact, compact_double, light, thin, with_love, rounded, reinforced, heavy, none, other
   use_ls_colors: true
@@ -145,13 +187,31 @@ let $config = {
   footer_mode: "25" # always, never, number_of_rows, auto
   quick_completions: true  # set this to false to prevent auto-selecting completions when only one remains
   partial_completions: true  # set this to false to prevent partial filling of the prompt
+  completion_algorithm: "prefix"  # prefix, fuzzy
   animate_prompt: false # redraw the prompt every second
   float_precision: 2
+  # buffer_editor: "emacs" # command that will be used to edit the current line buffer with ctrl+o, if unset fallback to $env.EDITOR and $env.VISUAL
   use_ansi_coloring: true
   filesize_format: "auto" # b, kb, kib, mb, mib, gb, gib, tb, tib, pb, pib, eb, eib, zb, zib, auto
   edit_mode: vi # emacs, vi
   max_history_size: 10000 # Session has to be reloaded for this to take effect
   sync_history_on_enter: true # Enable to share the history between multiple sessions, else you have to close the session to persist history to file
+  shell_integration: true # enables terminal markers and a workaround to arrow keys stop working issue
+  disable_table_indexes: false # set to true to remove the index column from tables
+  cd_with_abbreviations: false # set to true to allow you to do things like cd s/o/f and nushell expand it to cd some/other/folder
+  hooks: {
+    pre_prompt: [{
+      $nothing  # replace with source code to run before the prompt is shown
+    }]
+    pre_execution: [{
+      $nothing  # replace with source code to run before the repl input is run
+    }]
+    env_change: {
+      PWD: [{|before, after|
+        $nothing  # replace with source code to run if the PWD environment is different since the last repl input
+      }]
+    }
+  }
   menus: [
       # Configuration for default nushell menus
       # Note the lack of souce parameter
@@ -272,11 +332,22 @@ let $config = {
       }
   ]
   keybindings: [
+  {
+        name: complete
+        modifier: alt
+        keycode: char_a
+        mode: [emacs, vi_normal, vi_insert] 
+        event: [
+            { send: HistoryHintComplete }
+        ]
+  }
+
+  
     {
       name: completion_menu
       modifier: none
       keycode: tab
-      mode: emacs # Options: emacs vi_normal vi_insert
+      mode: vi_insert # Options: emacs vi_normal vi_insert
       event: {
         until: [
           { send: menu name: completion_menu }
@@ -294,17 +365,19 @@ let $config = {
     {
       name: history_menu
       modifier: control
-      keycode: char_x
+      keycode: char_r
       mode: emacs
-      event: {
-        until: [
-          { send: menu name: history_menu }
-          { send: menupagenext }
-        ]
-      }
+      event: { send: menu name: history_menu }
     }
     {
-      name: history_previous
+      name: next_page
+      modifier: control
+      keycode: char_x
+      mode: emacs
+      event: { send: menupagenext }
+    }
+    {
+      name: undo_or_previous_page
       modifier: control
       keycode: char_z
       mode: emacs
@@ -313,7 +386,7 @@ let $config = {
           { send: menupageprevious }
           { edit: undo }
         ]
-      }
+       }
     }
     # Keybindings used to trigger the user defined menus
     {

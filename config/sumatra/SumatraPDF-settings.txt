@@ -114,14 +114,14 @@ SmoothScroll = false
 ShowStartPage = true
 CheckForUpdates = false
 WindowState = 3
-WindowPos = 698 0 1480 1920
+WindowPos = 451 0 1480 1872
 UseTabs = true
 UseSysColors = false
 CustomScreenDPI = 0
 
 FileStates [
 	[
-		FilePath = C:\Users\yasha\workspace\research\build\research2022.pdf
+		FilePath = C:\Users\yasha\workspace\vita\build\coverLetter2022SouthFlorida.pdf
 		Favorites [
 		]
 		IsPinned = false
@@ -129,12 +129,692 @@ FileStates [
 		OpenCount = 1
 		UseDefaultState = false
 		DisplayMode = continuous
-		ScrollPos = 125.421 95.7611
-		PageNo = 8
+		ScrollPos = -1 -1
+		PageNo = 1
+		Zoom = 100
+		Rotation = 0
+		WindowState = 3
+		WindowPos = 451 0 1480 1872
+		ShowToc = false
+		SidebarDx = 364
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = C:\Users\yasha\workspace\vita\build\coverLetter2022NewMexico.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 1
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 152.063
+		PageNo = 1
+		Zoom = 100
+		Rotation = 0
+		WindowState = 3
+		WindowPos = 451 0 1480 1872
+		ShowToc = false
+		SidebarDx = 364
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = C:\Users\yasha\workspacemodules\conformalsymplectic\build\conformalsymplectic.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 5
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = 82.3347 64.4936
+		PageNo = 18
 		Zoom = fit content
 		Rotation = 0
 		WindowState = 3
-		WindowPos = 698 0 1480 1920
+		WindowPos = 451 0 1480 1872
+		ShowToc = false
+		SidebarDx = 364
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = C:\Users\yasha\workspace\exams\calculus3\build\exam12022.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 1
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 -1
+		PageNo = 1
+		Zoom = 100
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 451 0 1480 1872
+		ShowToc = false
+		SidebarDx = 364
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = C:\Users\yasha\workspace\vita\build\coverLetter2022Rutgers.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 1
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 -1
+		PageNo = 1
+		Zoom = 100
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 451 0 1480 1872
+		ShowToc = false
+		SidebarDx = 364
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = C:\Users\yasha\workspace\vita\build\coverLetter2022Purdue.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 2
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 -1
+		PageNo = 1
+		Zoom = 100
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 451 0 1480 1872
+		ShowToc = false
+		SidebarDx = 364
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = C:\Users\yasha\workspace\vita\build\coverLetter2022NotreDame.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 3
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 215.063
+		PageNo = 1
+		Zoom = 100
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 451 0 1480 1872
+		ShowToc = false
+		SidebarDx = 364
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = C:\Users\yasha\workspace\vita\build\coverLetter2022.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 5
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 659.063
+		PageNo = 1
+		Zoom = 100
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 451 0 1480 1872
+		ShowToc = false
+		SidebarDx = 364
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = C:\Users\yasha\workspace\vita\build\coverLetter2022Bloomington.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 3
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 659.063
+		PageNo = 1
+		Zoom = 100
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 451 0 1480 1872
+		ShowToc = false
+		SidebarDx = 364
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = C:\Users\yasha\workspace\vita\build\coverLetter2022ChapelHill.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 3
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 538.688
+		PageNo = 1
+		Zoom = 100
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 451 0 1480 1872
+		ShowToc = false
+		SidebarDx = 364
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = C:\Users\yasha\workspace\vita\build\coverLetter2022Kentucky.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 242.063
+		PageNo = 1
+		Zoom = 100
+		Rotation = 0
+		WindowState = 1
+		WindowPos = 451 0 1480 1872
+		ShowToc = false
+		SidebarDx = 364
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = G:\My Drive\books\J-holomorphic curves and symplectic topology  0821834851.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 1
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 584.813
+		PageNo = 41
+		Zoom = 100
+		Rotation = 0
+		WindowState = 3
+		WindowPos = 451 0 1480 1872
+		ShowToc = false
+		SidebarDx = 364
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = C:\Users\yasha\workspace\vita\build\coverLetter2022Illinois.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 1
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 -1
+		PageNo = 1
+		Zoom = 100
+		Rotation = 0
+		WindowState = 3
+		WindowPos = 451 0 1480 1872
+		ShowToc = false
+		SidebarDx = 364
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = C:\Users\yasha\workspace\vita\build\coverLetter2022Knoxville.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 1
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 -1
+		PageNo = 1
+		Zoom = 100
+		Rotation = 0
+		WindowState = 3
+		WindowPos = 451 0 1480 1872
+		ShowToc = false
+		SidebarDx = 364
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = C:\Users\yasha\workspace\vita\build\coverLetter2022UWMadison.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 1
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 358.688
+		PageNo = 1
+		Zoom = 100
+		Rotation = 0
+		WindowState = 3
+		WindowPos = 451 0 1480 1872
+		ShowToc = false
+		SidebarDx = 364
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = C:\Users\yasha\workspace\vita\build\coverLetter2022Ontario.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 1
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 542.813
+		PageNo = 1
+		Zoom = 100
+		Rotation = 0
+		WindowState = 3
+		WindowPos = 451 0 1480 1872
+		ShowToc = false
+		SidebarDx = 364
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = C:\Users\yasha\workspace\vita\build\CV2022Savelyev.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 1
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 -1
+		PageNo = 1
+		Zoom = 100
+		Rotation = 0
+		WindowState = 3
+		WindowPos = 451 0 1480 1872
+		ShowToc = false
+		SidebarDx = 364
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = C:\Users\yasha\workspace\vita\build\coverLetter2022UnivOklahoma.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 1
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 646.688
+		PageNo = 1
+		Zoom = 100
+		Rotation = 0
+		WindowState = 3
+		WindowPos = 451 0 1480 1872
+		ShowToc = false
+		SidebarDx = 364
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = C:\Users\yasha\workspace\vita\build\coverLetter2022Maryland.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 1
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 -1
+		PageNo = 1
+		Zoom = 100
+		Rotation = 0
+		WindowState = 3
+		WindowPos = 451 0 1480 1872
+		ShowToc = false
+		SidebarDx = 364
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = C:\Users\yasha\workspace\vita\build\coverLetter2022HarveyMudd.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 2
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 -1
+		PageNo = 1
+		Zoom = 100
+		Rotation = 0
+		WindowState = 3
+		WindowPos = 451 0 1480 1872
+		ShowToc = false
+		SidebarDx = 364
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = C:\Users\yasha\workspace\vita\build\coverLetter2022GeorgeMason.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 2
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 -1
+		PageNo = 1
+		Zoom = 100
+		Rotation = 0
+		WindowState = 3
+		WindowPos = 451 0 1480 1872
+		ShowToc = false
+		SidebarDx = 364
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = C:\Users\yasha\workspace\vita\build\coverLetter2022Bighampton.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 2
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 251.063
+		PageNo = 1
+		Zoom = 100
+		Rotation = 0
+		WindowState = 3
+		WindowPos = 451 0 1480 1872
+		ShowToc = false
+		SidebarDx = 364
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = C:\Users\yasha\workspace\vita\build\coverLetter2022Brandeis.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 2
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 95.0629
+		PageNo = 1
+		Zoom = 100
+		Rotation = 0
+		WindowState = 3
+		WindowPos = 451 0 1480 1872
+		ShowToc = false
+		SidebarDx = 364
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = C:\Users\yasha\workspace\vita\build\coverLetter2022Boston.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 2
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 -1
+		PageNo = 1
+		Zoom = 100
+		Rotation = 0
+		WindowState = 3
+		WindowPos = 451 0 1480 1872
+		ShowToc = false
+		SidebarDx = 364
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = C:\Users\yasha\workspace\vita\build\coverLetter2022Temple.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 2
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 -1
+		PageNo = 1
+		Zoom = 100
+		Rotation = 0
+		WindowState = 3
+		WindowPos = 451 0 1480 1872
+		ShowToc = false
+		SidebarDx = 364
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = C:\Users\yasha\workspace\vita\diversity\build\diversity.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 2
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 -1
+		PageNo = 1
+		Zoom = 100
+		Rotation = 0
+		WindowState = 3
+		WindowPos = 451 0 1480 1872
+		ShowToc = false
+		SidebarDx = 364
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = C:\Users\yasha\workspace\vita\teaching\build\teaching.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 3
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 71.0629
+		PageNo = 1
+		Zoom = 100
+		Rotation = 0
+		WindowState = 3
+		WindowPos = 451 0 1480 1872
+		ShowToc = false
+		SidebarDx = 364
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = C:\Users\yasha\workspace\vita\build\coverLetter2022MichiganState.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 47.4379
+		PageNo = 1
+		Zoom = 100
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 451 0 1480 1872
+		ShowToc = false
+		SidebarDx = 364
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = C:\Users\yasha\workspace\vita\build\coverLetter2022McMaster.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 683.063
+		PageNo = 1
+		Zoom = 100
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 451 0 1480 1872
+		ShowToc = false
+		SidebarDx = 364
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = C:\Users\yasha\workspace\vita\build\coverLetter2022Oklahoma.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 131.063
+		PageNo = 1
+		Zoom = 100
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 451 0 1480 1872
+		ShowToc = false
+		SidebarDx = 364
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = C:\Users\yasha\workspace\research\build\research2022.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = 124.791 95.4152
+		PageNo = 5
+		Zoom = fit content
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 451 0 1480 1872
+		ShowToc = false
+		SidebarDx = 364
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = C:\Users\yasha\workspacemodules\novikov\build\kan.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 104.693
+		PageNo = 38
+		Zoom = fit content
+		Rotation = 0
+		WindowState = 3
+		WindowPos = 451 0 1480 1872
+		ShowToc = false
+		SidebarDx = 364
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = C:\Users\yasha\workspace\vita\build\vitaSavelyev.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 743.063
+		PageNo = 1
+		Zoom = 100
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 451 0 1480 1872
+		ShowToc = false
+		SidebarDx = 364
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = C:\Users\yasha\workspace\vita\build\cv2019Savelyev.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 -1
+		PageNo = 1
+		Zoom = 100
+		Rotation = 0
+		WindowState = 3
+		WindowPos = 451 0 1480 1872
+		ShowToc = false
+		SidebarDx = 364
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = C:\Users\yasha\workspace\vita\build\publicationlist2022.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 -1
+		PageNo = 1
+		Zoom = 100
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 451 0 1480 1872
 		ShowToc = false
 		SidebarDx = 364
 		DisplayR2L = false
@@ -146,7 +826,7 @@ FileStates [
 		]
 		IsPinned = false
 		IsMissing = false
-		OpenCount = 1
+		OpenCount = 0
 		UseDefaultState = false
 		DisplayMode = continuous
 		ScrollPos = -1 86.0398
@@ -154,8 +834,28 @@ FileStates [
 		Zoom = fit content
 		Rotation = 0
 		WindowState = 3
-		WindowPos = 698 0 1480 1920
+		WindowPos = 451 0 1480 1920
 		ShowToc = false
+		SidebarDx = 364
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = C:\Users\yasha\workspace\exams\calculus3\build\exam1.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 -1
+		PageNo = 1
+		Zoom = 100
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 451 0 1480 1872
+		ShowToc = true
 		SidebarDx = 364
 		DisplayR2L = false
 		ReparseIdx = 0
@@ -166,7 +866,7 @@ FileStates [
 		]
 		IsPinned = false
 		IsMissing = false
-		OpenCount = 2
+		OpenCount = 0
 		UseDefaultState = false
 		DisplayMode = continuous
 		ScrollPos = -1 -1
@@ -186,7 +886,7 @@ FileStates [
 		]
 		IsPinned = false
 		IsMissing = false
-		OpenCount = 1
+		OpenCount = 0
 		UseDefaultState = false
 		DisplayMode = continuous
 		ScrollPos = -1 68.0629
@@ -261,26 +961,6 @@ FileStates [
 		ReparseIdx = 0
 	]
 	[
-		FilePath = C:\Users\yasha\workspacemodules\novikov\build\kan.pdf
-		Favorites [
-		]
-		IsPinned = false
-		IsMissing = false
-		OpenCount = 0
-		UseDefaultState = false
-		DisplayMode = continuous
-		ScrollPos = -1 95.1657
-		PageNo = 33
-		Zoom = fit content
-		Rotation = 0
-		WindowState = 3
-		WindowPos = 698 0 1480 1920
-		ShowToc = false
-		SidebarDx = 364
-		DisplayR2L = false
-		ReparseIdx = 0
-	]
-	[
 		FilePath = C:\Users\yasha\Downloads\Constancias2022SNI\342656.pdf
 		Favorites [
 		]
@@ -334,26 +1014,6 @@ FileStates [
 		Zoom = fit content
 		Rotation = 0
 		WindowState = 3
-		WindowPos = 698 0 1480 1920
-		ShowToc = false
-		SidebarDx = 364
-		DisplayR2L = false
-		ReparseIdx = 0
-	]
-	[
-		FilePath = C:\Users\yasha\workspacemodules\conformalsymplectic\build\conformalsymplectic.pdf
-		Favorites [
-		]
-		IsPinned = false
-		IsMissing = false
-		OpenCount = 0
-		UseDefaultState = false
-		DisplayMode = continuous
-		ScrollPos = -1 64.0088
-		PageNo = 5
-		Zoom = fit content
-		Rotation = 0
-		WindowState = 2
 		WindowPos = 698 0 1480 1920
 		ShowToc = false
 		SidebarDx = 364
@@ -705,40 +1365,40 @@ SessionData [
 	[
 		TabStates [
 			[
-				FilePath = C:\Users\yasha\workspacemodules\fukaya\build\fukayaII.pdf
+				FilePath = C:\Users\yasha\workspacemodules\conformalsymplectic\build\conformalsymplectic.pdf
+				DisplayMode = continuous
+				PageNo = 18
+				Zoom = fit content
+				Rotation = 0
+				ScrollPos = 82.3347 64.4936
+				ShowToc = false
+			]
+			[
+				FilePath = C:\Users\yasha\workspace\vita\build\coverLetter2022NewMexico.pdf
+				DisplayMode = continuous
+				PageNo = 1
+				Zoom = 100
+				Rotation = 0
+				ScrollPos = -1 152.063
+				ShowToc = false
+			]
+			[
+				FilePath = C:\Users\yasha\workspace\vita\build\coverLetter2022SouthFlorida.pdf
 				DisplayMode = continuous
 				PageNo = 1
 				Zoom = 100
 				Rotation = 0
 				ScrollPos = -1 -1
-				ShowToc = true
-			]
-			[
-				FilePath = C:\Users\yasha\workspacemodules\thematrix\build\stableincompleteness.pdf
-				DisplayMode = continuous
-				PageNo = 1
-				Zoom = fit content
-				Rotation = 0
-				ScrollPos = -1 86.0398
-				ShowToc = false
-			]
-			[
-				FilePath = C:\Users\yasha\workspace\research\build\research2022.pdf
-				DisplayMode = continuous
-				PageNo = 8
-				Zoom = fit content
-				Rotation = 0
-				ScrollPos = 125.421 95.7611
 				ShowToc = false
 			]
 		]
 		TabIndex = 3
 		WindowState = 3
-		WindowPos = 698 0 1480 1920
+		WindowPos = 451 0 1480 1872
 		SidebarDx = 364
 	]
 ]
 TimeOfLastUpdateCheck = 0 0
-OpenCountWeek = 613
+OpenCountWeek = 619
 
 # Settings below are not recognized by the current version
