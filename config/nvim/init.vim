@@ -632,10 +632,8 @@ command! -bang -nargs=* BLinesB
 function Sentence()
   let g:buf = bufname()
   " silent execute "!bash /mnt/c/Users/yasha/dotfiles/scripts/sentence.sh %"
-  silent execute "!pwsh -c sentence.ps1 %"
-  " silent call getchar()
-  e sentence_%
-  sleep 1
+  silent execute "!nu C:/Users/yasha/dotfiles/scripts/sentence.nu %" 
+  e @_%
   " let b:paste = system('pwsh -c Get-Clipboard')
   call feedkeys(":BLinesB \<c-r>+\<cr>")
 endfunction
@@ -1688,5 +1686,4 @@ require('leap').setup {
 }
 EOF
 
-set autoindent
 
