@@ -6,7 +6,7 @@ module completions {
   # and a helper command that knows how to complete values for those flags and parameters
   #
   # This is a simplified version of completions for git branches and git remotes
-def "nf" [] {
+def nf [] {
 let $ho = (fd . C:/Users/yasha -H -E /.undo/* -E /undo/* -E /tmp/* -E *.pdf | fzf | str trim)
 neovide --multigrid $ho 
 }
