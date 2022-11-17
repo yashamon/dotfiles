@@ -637,7 +637,7 @@ function Sentence()
   copen
   " let b:paste = system('pwsh -c Get-Clipboard')
   " call feedkeys(":BLinesB \<c-r>+\<cr>")
-  call feedkeys(zf)
+  call feedkeys("zf")
 endfunction
 noremap LL :lua require("true-zen.ataraxis") .off()<cr>:call Sentence()<cr>
 " noremap L :TZAtaraxisOff<cr><cr>:call Sentence()<cr>
