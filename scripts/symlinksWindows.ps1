@@ -36,7 +36,7 @@ echo "link config"
 New-Item -ItemType SymbolicLink -Path "$HOME/dotfiles/config" -Target "$HOME/.config"
 mkdir ~/.ctags.d
 New-Item -ItemType SymbolicLink -Path "$HOME/dotfiles/ctags" - Target "$HOME/.ctags.d/latex.ctags"
-
+New-Item -ItemType SymbolicLink -Path "$HOME/dotfiles/config/nushell/config.nu" -Target C:\Users\yasha\AppData\Roaming\nushell\config.nu
 New-Item -ItemType SymbolicLink -Path "$HOME/dotfiles/config/SummatraPDF-settings.txt" -Target "$HOME/scoop/apps/summatrapdf/current/SummatraPDF-settings.txt"
 
 git config --global credential.helper store
