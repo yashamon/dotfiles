@@ -633,9 +633,11 @@ function Sentence()
   let g:buf = bufname()
   " silent execute "!bash /mnt/c/Users/yasha/dotfiles/scripts/sentence.sh %"
   silent execute "!nu C:/Users/yasha/dotfiles/scripts/sentence.nu %" 
-  e @_%
+  caddf @_%
+  copen
   " let b:paste = system('pwsh -c Get-Clipboard')
-  call feedkeys(":BLinesB \<c-r>+\<cr>")
+  " call feedkeys(":BLinesB \<c-r>+\<cr>")
+  call feedkeys(zf)
 endfunction
 noremap LL :lua require("true-zen.ataraxis") .off()<cr>:call Sentence()<cr>
 " noremap L :TZAtaraxisOff<cr><cr>:call Sentence()<cr>
