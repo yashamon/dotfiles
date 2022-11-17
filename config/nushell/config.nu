@@ -1,5 +1,6 @@
 # Nushell Config File
 source ~/.zoxide.nu 
+let-env PATH = ($env.PATH | append "C:\Users\yasha\scoop\apps\python39\current\Scripts;C:\Users\yasha\scoop\apps\python39\current;C:\Users\yasha\scoop\apps\nodejs\current\bin;C:\Users\yasha\scoop\apps\nodejs\current;C:\Users\yasha\scoop\apps\latex\current\texmfs\install\miktex\bin\x64;C:\Program Files\PowerShell\7;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\PowerShell\7\;C:\Users\yasha\scoop\shims;C:\Users\yasha\AppData\Local\Microsoft\WindowsApps;C:\Users\yasha\dotfiles\scripts")
 module completions {
   # Custom completions for external commands (those outside of Nushell)
   # Each completions has two parts: the form of the external command, including its flags and parameters
