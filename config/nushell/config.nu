@@ -1,6 +1,6 @@
 # Nushell Config File
 source ~/.zoxide.nu 
-let-env PATH = ($env.PATH | append "C:\Users\yasha\scoop\shims;C:\Users\yasha\dotfiles\scripts")
+let-env PATH = ($env.PATH | append "C:\Users\yasha\scoop\shims")
 
 def nf [] {
 let $ho = (fd . C:/Users/yasha -H -E /.undo/* -E /undo/* -E /tmp/* -E *.pdf | fzf | str trim)
