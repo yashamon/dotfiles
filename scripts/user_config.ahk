@@ -102,7 +102,7 @@ WinKill, A
     Run nu lf
     Return
 #n::
-    Run nu nf.nu
+    Run nu C:\Uses\yasha\scripts\nf.nu
     Return
 #e::
 ; Run microsoft-edge:https://this-page-intentionally-left-blank.org/ 
