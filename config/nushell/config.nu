@@ -1,19 +1,18 @@
 # Nushell Config File
 source ~/.zoxide.nu 
-let-env PATH = ($env.PATH | append "C:\Users\yasha\scoop\apps\python39\current\Scripts;C:\Users\yasha\scoop\apps\python39\current;C:\Users\yasha\scoop\apps\nodejs\current\bin;C:\Users\yasha\scoop\apps\nodejs\current;C:\Users\yasha\scoop\apps\latex\current\texmfs\install\miktex\bin\x64;C:\Program Files\PowerShell\7;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\PowerShell\7\;C:\Users\yasha\scoop\shims;C:\Users\yasha\AppData\Local\Microsoft\WindowsApps;C:\Users\yasha\dotfiles\scripts")
-
-# module completions {
-  # Custom completions for external commands (those outside of Nushell)
-  # Each completions has two parts: the form of the external command, including its flags and parameters
-  # and a helper command that knows how to complete values for those flags and parameters
-  #
-  # This is a simplified version of completions for git branches and git remotes
 def nf [] {
 let $ho = (fd . C:/Users/yasha -H -E /.undo/* -E /undo/* -E /tmp/* -E *.pdf | fzf | str trim)
 neovide --multigrid $ho 
 }
 alias hello = ( echo "hello" )
 alias nf = ( nf )
+module completions {
+  # Custom completions for external commands (those outside of Nushell)
+  # Each completions has two parts: the form of the external command, including its flags and parameters
+  # and a helper command that knows how to complete values for those flags and parameters
+  #
+  # This is a simplified version of completions for git branches and git remotes
+
   def "nu-complete git branches" [] {
     ^git branch | lines | each { |line| $line | str replace '[\*\+] ' '' | str trim }
   }
