@@ -648,7 +648,8 @@ function SentenceLL()
   copen
   " let b:paste = system('pwsh -c Get-Clipboard')
   " call feedkeys(":BLinesB \<c-r>+\<cr>")
-  call feedkeys("zf\<c-r>+\<cr>")
+  call feedkeys("zf")
+  call feedkeys("\<c-r>+\<cr>")
 endfunction
 noremap LL :lua require("true-zen.ataraxis") .on()<cr>:lua require("true-zen.ataraxis") .off()<cr>:call SentenceLL()<cr>
 " noremap L :TZAtaraxisOff<cr><cr>:call Sentence()<cr>
