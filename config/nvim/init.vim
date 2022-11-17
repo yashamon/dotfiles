@@ -114,7 +114,7 @@ Plug 'Pocco81/true-zen.nvim', { 'branch': 'main' }
 " Plug 'gosukiwi/vim-atom-dark'
 "
 " Plug 'dracula/vim'
-" " Plug 'kevinhwang91/nvim-bqf'
+Plug 'kevinhwang91/nvim-bqf'
 " " Plug 'svermeulen/vim-cutlass'
 " Plug 'kyazdani42/nvim-web-devicons' " for file icons
 " " Plug 'kyazdani42/nvim-tree.lua', 
