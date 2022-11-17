@@ -1,5 +1,5 @@
 def main [f: string] {
-let $newfile = '@_' + $("$f")
+let $newfile = '@_' + $"($f)"
 $newfile
 let $a = ( open $f | lines | each -n { |l| $"($l.index)" + ': ' + $"($l.item)"  + "@" | str replace -a '\.\s+@' '.@@@' | str replace -a '\.\s+' ( '\. @' + $"($l.index)" + ':+++' ) })
 $a | save temp
