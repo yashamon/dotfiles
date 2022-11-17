@@ -411,8 +411,5 @@ let-env config = {
       event: { send: menu name: commands_with_description }
     }
   ]
-def nf [] {
-let $ho = (fd . C:/Users/yasha -H -E /.undo/* -E /undo/* -E /tmp/* -E *.pdf | fzf | str trim)
-neovide --multigrid $ho 
-} 
+ 
 }
