@@ -629,7 +629,7 @@ command! -bang -nargs=* BLinesB
 "      \   'rg --with-filename --column --line-number --no-heading --smart-case . '.fnameescape(expand('%:p')),,
 " "     \   fzf#vim#with_preview({'options': '--layout reverse --query '.shellescape(<q-args>).' --with-nth=4.. --delimiter=":"'}, 'right:0%'))
     " \   fzf#vim#with_preview({'options': '--layout reverse  --with-nth=-1.. --delimiter="/"'}, 'right:50%'))
-function Sentence()
+function SentenceLL()
   let g:buf = bufname()
   " silent execute "!bash /mnt/c/Users/yasha/dotfiles/scripts/sentence.sh %"
   silent execute "!nu C:/Users/yasha/dotfiles/scripts/sentence.nu %" 
@@ -637,9 +637,9 @@ function Sentence()
   copen
   " let b:paste = system('pwsh -c Get-Clipboard')
   " call feedkeys(":BLinesB \<c-r>+\<cr>")
-  call feedkeys("zf")
+  call feedkeys("zf\<c-r>+\<cr>")
 endfunction
-noremap LL :lua require("true-zen.ataraxis") .off()<cr>:call Sentence()<cr>
+noremap LL :lua require("true-zen.ataraxis") .on()<cr>:lua require("true-zen.ataraxis") .off()<cr>:call SentenceLL()<cr>
 " noremap L :TZAtaraxisOff<cr><cr>:call Sentence()<cr>
 function GitAsync()
 silent execute "!echo " . v:servername . ' > ~/servername.txt'
