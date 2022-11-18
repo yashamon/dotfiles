@@ -9,7 +9,7 @@ def neo [file:string] {
 # Invoke-Expression $neo --multigrid $1
 neovide --multigrid $file
 }
-let HOME="C:/Users/yasha"
+let HOME = "C:/Users/yasha"
 def nf [] {
 let $ho = (fd . $HOME -H -E /.undo/* -E /undo/* -E /tmp/* -E *.pdf | fzf | str trim)
 neovide --multigrid $ho 
