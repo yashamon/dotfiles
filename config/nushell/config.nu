@@ -7,7 +7,6 @@ let $ho = (fd . C:/Users/yasha -H -E /.undo/* -E /undo/* -E /tmp/* -E *.pdf | fz
 neovide --multigrid $ho 
 }
 alias hello = ( echo "hello" )
-alias nf = ( nf )
 alias j = ( z )
 module completions {
   # Custom completions for external commands (those outside of Nushell)
