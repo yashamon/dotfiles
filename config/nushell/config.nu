@@ -9,50 +9,51 @@ def neo [file:string] {
 # Invoke-Expression $neo --multigrid $1
 neovide --multigrid $file
 }
-
+let HOME="C:/Users/yasha"
 def nf [] {
-let $ho = (fd . C:/Users/yasha -H -E /.undo/* -E /undo/* -E /tmp/* -E *.pdf | fzf | str trim)
+let $ho = (fd . $HOME -H -E /.undo/* -E /undo/* -E /tmp/* -E *.pdf | fzf | str trim)
 neovide --multigrid $ho 
 }
 alias hello = ( echo "hello" )
 alias j = __zoxide_z 
 def vrc { neo $HOME/dotfiles/config/nvim/init.vim }
-function lfrc { neo $HOME/dotfiles/config/lf/lfrc } 
-function psrc { neo $profile } 
+def lfrc { neo $HOME/dotfiles/config/lf/lfrc } 
+def psrc { neo $profile } 
+def nurc { neo $HOME/dotfiles/config/nu/config.nu}
 
 # alias ls="lf" 
-function texi($1) { pdflatex -file-line-error -synctex=1  -interaction=nonstopmode -recorder $1 }
-function latexi() { latexmk -g -pdf -file-line-error -synctex=1  -interaction=nonstopmode
+def texi($1) { pdflatex -file-line-error -synctex=1  -interaction=nonstopmode -recorder $1 }
+def latexi() { latexmk -g -pdf -file-line-error -synctex=1  -interaction=nonstopmode
 -recorder -f $1} 
-function pvc() { latexmk -pdf -pvc -file-line-error -synctex=1  -interaction=nonstopmode
+def pvc() { latexmk -pdf -pvc -file-line-error -synctex=1  -interaction=nonstopmode
 -recorder -f $1} 
-function lat($1) { echo $1
+def lat($1) { echo $1
 latexmk -pvc -pdf -file-line-error -synctex=1 -interaction=nonstopmode -recorder -f -g $1}
 #
-function pushmod { git submodule foreach git add . && git submodule foreach git commit -m -a && 
+def pushmod { git submodule foreach git add . && git submodule foreach git commit -m -a && 
  git submodule foreach git push origin master; git add . && git commit -m -a; git push --all origin }
-function push { git add . && git commit -m -a && git push --all origin }
-function pull { git pull --recurse-submodules && git submodule update --recursive --remote }
-function pullmaster { git pull --recurse-submodules && git submodule update --recursive --remote && git submodule foreach git checkout master && git submodule foreach git pull --all
+def push { git add . && git commit -m -a && git push --all origin }
+def pull { git pull --recurse-submodules && git submodule update --recursive --remote }
+def pullmaster { git pull --recurse-submodules && git submodule update --recursive --remote && git submodule foreach git checkout master && git submodule foreach git pull --all
 }
 # alias check="git checkout" 
-function pushgh { cd $HOME/web && pandoc index.md > index.html && git add . && git commit -m -a && git push origin gh-pages }
+def pushgh { cd $HOME/web && pandoc index.md > index.html && git add . && git commit -m -a && git push origin gh-pages }
 # alias pandocd="pandoc index.md > index.html"
 #
 # # <<<<<<< HEAD
-# function hw { pandoc
+# def hw { pandoc
 # $Home/classes/topology/topology2019.md >
 # $Home/classes/topology/topology2019.html; pandoc
 # $Home/CalcIII2019/analysis.md >
 # $Home/CalcIII2019/analysis.html; git
 # add .;git commit -m -a; git push origin gh-pages }
 # # # =======
-# function clip { /mnt/c/windows/System32/WindowsPowerShell/v1.0/powershell.exe -c Get-Clipboard | tr -d $'/r' | wl-copy }
-function hw { pandoc $Home/web/classes/AlgTop/2022.md > $Home/web/classes/AlgTop/2022.html && pandoc $Home/web/classes/CalcIII/2022.md  > $Home/web/classes/CalcIII/2022.html && cd $Home/web && git add .  && git commit -m -a && git push origin gh-pages } 
+# def clip { /mnt/c/windows/System32/WindowsPowerShell/v1.0/powershell.exe -c Get-Clipboard | tr -d $'/r' | wl-copy }
+def hw { pandoc $Home/web/classes/AlgTop/2022.md > $Home/web/classes/AlgTop/2022.html && pandoc $Home/web/classes/CalcIII/2022.md  > $Home/web/classes/CalcIII/2022.html && cd $Home/web && git add .  && git commit -m -a && git push origin gh-pages } 
 # alias attach="tmux attach"
 # # alias pdf="xpdf -geometry 1920x1080 -fullscreen"
-function pdf($1) { zathura $1 }
-# function launch() {
+def pdf($1) { zathura $1 }
+# def launch() {
 #   local type="$1"; shift;
 #   case "$type" in
 #     (q) "$@" >/dev/null 2>&1     ;;   # (q)uiet
@@ -73,7 +74,7 @@ function pdf($1) { zathura $1 }
 # "
 # alias config="cd ~/dotfiles/; push; cd ~/workspacemodules; pushmod; cd ~/workspace; push; cd web pushgh; pacman -Qqe > $HOME/dotfiles/pkglist.txt"
 # # alias apt="sudo apt-get install"
-# # functions 
+# # defs 
 # # alias nvr=""
 # # nvru() {
 # # if [ -f $1 ]; then
@@ -93,15 +94,15 @@ function pdf($1) { zathura $1 }
 #     git push origin master
 #     }
 # alias message=gitcommitwithmessage
-# brightnessfunction()
+# brightnessdef()
 # {
 #     #do things with parameters like $1 such as
 # xrandr --output eDP-1 --brightness $1 
 #     }
-# alias bright=brightnessfunction
+# alias bright=brightnessdef
 #
 #
-function sendFunction($1) {
+def sendFunction($1) {
 $cwdb=$pwd
 cd $Home/web
 git pull
@@ -116,7 +117,7 @@ cd $cwdb
 Set-Alias send sendFunction
 Set-Alias lf C:/Users/yasha/dotfiles/scripts/lfcdWin.ps1 
 New-Alias z Jumphome
-function update { scoop update -a; scoop export > ~/dotfiles/scoopPackageList.json }
+def update { scoop update -a; scoop export > ~/dotfiles/scoopPackageList.json }
 
 
 
