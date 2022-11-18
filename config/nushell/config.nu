@@ -51,10 +51,7 @@ cd $cwdb
 }
 alias send = sendFunction
 # alias lf = pwsh -c C:/Users/yasha/dotfiles/scripts/lfcdWin.ps1 
-New-Alias z Jumphome
 def update [] { scoop update -a; scoop export > ~/dotfiles/scoopPackageList.json }
-
-
 
 module completions {
   # Custom completions for external commands (those outside of Nushell)
