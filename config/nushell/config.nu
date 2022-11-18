@@ -10,7 +10,7 @@ def neo [file:string] {
 neovide --multigrid $file
 }
 let HOME = "C:/Users/yasha"
-let profile = $"($HOME)/dotfiles/config/nvim/init.vim"
+# let profile = $"($HOME)/dotfiles/config/nvim/init.vim"
 def nf [] {
 let $ho = (fd . $HOME -H -E /.undo/* -E /undo/* -E /tmp/* -E *.pdf | fzf | str trim)
 neovide --multigrid $ho 
@@ -19,7 +19,7 @@ alias hello = ( echo "hello" )
 alias j = __zoxide_z
 def vrc [] { neo $"($HOME)/dotfiles/config/nvim/init.vim" }
 def lfrc [] { neo $"($HOME)/dotfiles/config/lf/lfrc" } 
-def psrc [] { neo $profile } 
+# def psrc [] { neo $profile } 
 def nurc [] { neo $"($HOME)/dotfiles/config/nushell/config.nu"}
 def texi [file:string] { pdflatex -file-line-error -synctex=1  -interaction=nonstopmode -recorder $file }
 def latexi [file:string] { latexmk -g -pdf -file-line-error -synctex=1  -interaction=nonstopmode -recorder -f $file}
