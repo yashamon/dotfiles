@@ -1,4 +1,5 @@
 call plug#begin('~/.vim/plugged')
+Plug 'LhKipp/nvim-nu'
 Plug 'tzachar/cmp-fuzzy-buffer'
 Plug 'ggandor/leap.nvim'
 Plug 'ibhagwan/fzf-lua', { 'branch': 'main' }
