@@ -1,7 +1,7 @@
 def main [f: string] {
 let $newfile = '@_' + $"($f)"
 $newfile
-let $a = ( open $f | lines | each -n { |l| $" ($f)" + $":($l.index + 1):" + ': ' + $"($l.item)"  + "@" | str replace -a '\.\s+@' '\.@@@' | str replace -a '\.\s+' ( '\. ' +  $" ($f)" + $":($l.index + 2):" + ':+++' ) })
+let $a = ( open $f | lines | each -n { |l| $" ($f)" + $":($l.index + 1):" + ': ' + $"($l.item)"  + "@" | str replace -a '\.\s+@' '\.@@@' | str replace -a '\.\s+' ( '\. ' +  $" ($f)" + $":($l.index + 1):" + ':+++' ) })
 $a | save temp
 let $c = ( open temp | into string | str replace -a "\n" '' )
 $c
