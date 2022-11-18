@@ -342,6 +342,26 @@ let-env config = {
   ]
   keybindings: [
   {
+        name: histUp
+        modifier: alt
+        keycode: char_k
+        mode: [emacs, vi_normal, vi_insert] 
+        event: [
+            { send: NextHistory }
+        ]
+  }
+
+  {
+        name: histDown
+        modifier: alt
+        keycode: char_k
+        mode: [emacs, vi_normal, vi_insert] 
+        event: [
+            { send: PreviousHistory }
+        ]
+  }
+
+  {
         name: complete
         modifier: alt
         keycode: char_a
