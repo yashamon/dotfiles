@@ -498,9 +498,9 @@ au FileType tex,text,md noremap 9 g$
 " tnoremap <Right> :tbprevious<CR>
 " tnoremap <Leader>e <C-\><C-n> 
 " imap <Backspace> \
-map t <Plug>Lightspeed_s
+" map t <Plug>Lightspeed_s
 " map <C-t> <cmd>HopChar1
-map T <Plug>Lightspeed_S
+" map T <Plug>Lightspeed_S
 " map <S-m-Space> <cmd>HopWord<cr>
 " map t <ESC>:syntax off <CR>t: syntax on<CR>
 
@@ -508,7 +508,7 @@ map T <Plug>Lightspeed_S
 let g:fzf_layout = { 'window': { 'width': 1, 'height': 1 } }
 " let g:fzf_preview_window = []
 noremap <m-t> :BTags<cr>
-noremap S <Esc>:lua require("true-zen.ataraxis") .on()<cr>:lua require("true-zen.ataraxis") .off()<cr>:call Sentence()<cr> 
+noremap S <cr>:call Sentence()<cr> 
 "noremap L <Esc>:AsyncRun sentence.sh %;nvr sentence_%<cr>:echo 'press any key'<cr>:execute 'call getchar()' | BLines<cr>
 " Line search mapping 
 " function! Jumpback() 
@@ -633,7 +633,7 @@ command! -bang -nargs=* BLinesB
   let g:buf = bufname()
   " silent execute "!bash /mnt/c/Users/yasha/dotfiles/scripts/sentence.sh %"
   silent execute "!nu C:/Users/yasha/dotfiles/scripts/sentence.nu %" 
-  caddf @_%
+  cg @_%
   copen
   " let b:paste = system('pwsh -c Get-Clipboard')
   " call feedkeys(":BLinesB \<c-r>+\<cr>")
@@ -676,7 +676,7 @@ function ToggleQuickFix()
         let b:filename=expand('%:t:r')
         let b:errors=b:filenamedir . "/build/" . b:filename .".log"
         echo b:errors
-        exec "caddf" b:errors
+        exec "cg" b:errors
         copen
         sleep 1
         exec "wincmd j"
@@ -1696,5 +1696,6 @@ require('leap').setup {
   
 }
 EOF
+inoremap <m-d> <C-w>
 
 
