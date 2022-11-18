@@ -23,7 +23,7 @@ def nurc [] { neo $"($HOME)/dotfiles/config/nushell/config.nu}
 def texi [file:string] { pdflatex -file-line-error -synctex=1  -interaction=nonstopmode -recorder $file }
 def latexi [file:string] { latexmk -g -pdf -file-line-error -synctex=1  -interaction=nonstopmode -recorder -f $file}
 def pvc [file:string] { latexmk -pdf -pvc -file-line-error -synctex=1  -interaction=nonstopmode -recorder -f $file} 
-def lat [file:string] { echo $file latexmk -pvc -pdf -file-line-error -synctex=1 -interaction=nonstopmode -recorder -f -g $file}
+def lat [file:string] { latexmk -pvc -pdf -file-line-error -synctex=1 -interaction=nonstopmode -recorder -f -g $file}
 #
 def pushmod [] { git submodule foreach git add . && git submodule foreach git commit -m -a && git submodule foreach git push origin master; git add . && git commit -m -a; git push --all origin }
 def push [] { git add . && git commit -m -a && git push --all origin }
