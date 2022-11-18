@@ -42,32 +42,14 @@ def pushgh { cd $HOME/web && pandoc index.md > index.html && git add . && git co
 # def clip { /mnt/c/windows/System32/WindowsPowerShell/v1.0/powershell.exe -c Get-Clipboard | tr -d $'/r' | wl-copy }
 def hw { pandoc $Home/web/classes/AlgTop/2022.md > $Home/web/classes/AlgTop/2022.html && pandoc $Home/web/classes/CalcIII/2022.md  > $Home/web/classes/CalcIII/2022.html && cd $Home/web && git add .  && git commit -m -a && git push origin gh-pages } 
 def pdf [file:string] { zathura $file }
-# def launch() {
-#   local type="$1"; shift;
-#   case "$type" in
-#     (q) "$@" >/dev/null 2>&1     ;;   # (q)uiet
-#     (b) "$@" >/dev/null 2>&1 &   ;;   # quiet+(b)ackground
-#     (d) "$@" >/dev/null 2>&1 &!  ;;   # quiet+(d)isown
-#   esac
-# }
-# alias neo="launch d $HOME/.local/bin/goneovim/goneovim"
-# alias neov="neovide --frame NONE --maximized --wsl"
 # # alias update="git submodule update --init --recursive ; git pull origin master"
-# alias res="xrandr --newmode "1920x1080_60.00"  173.00  1920 2048 2248 2576  1080 1083 1088 1120; xrandr --addmode eDP-1 "1920x1080_60.00";
-# xrandr -s 1920x1080"
-#
-# alias res2="xrandr --newmode "1920x1080_144.00"  452.50  1920 2088 2296 2672  1080 1083 1088 1177; xrandr --addmode Virtual-1 "1920x1080_144.00";
-# xrandr -s 1920x1080"
-# alias res3="xrandr --newmode "3440x1440_100.00"  728.00  3440 3728 4104 4768  1440 1443 1453 1527 -hsync +vsync; xrandr --addmode HDMI-1 "3440x1440.100.00";
-# xrandr -s 3440x1440
-# "
-# alias config="cd ~/dotfiles/; push; cd ~/workspacemodules; pushmod; cd ~/workspace; push; cd web pushgh; pacman -Qqe > $HOME/dotfiles/pkglist.txt"
+alias config = cd $HOME/dotfiles/; push; cd $HOME/workspacemodules; pushmod; cd $HOME/workspace; push; cd web pushgh; pacman -Qqe > $HOME/dotfiles/pkglist.txt
 # # alias apt="sudo apt-get install"
 # # defs 
 # # alias nvr=""
 # # nvru() {
 # # if [ -f $1 ]; then
-# # nvr --nostart --servername  $(<~/servername.txt) --remote $1 > /dev/null
+# # nvr --nostart --servername  $(<$HOME/servername.txt) --remote $1 > /dev/null
 # # echo "trying to attach to server" 
 # # echo $?
 # # (($? != 0)) && {echo "server not running; starting server"; goneovim $1 }
