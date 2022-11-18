@@ -8,6 +8,7 @@ neovide --multigrid $ho
 }
 alias hello = ( echo "hello" )
 alias nf = ( nf )
+alias j = ( z )
 module completions {
   # Custom completions for external commands (those outside of Nushell)
   # Each completions has two parts: the form of the external command, including its flags and parameters
