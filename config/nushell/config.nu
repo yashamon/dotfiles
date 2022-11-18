@@ -19,28 +19,19 @@ alias j = __zoxide_z
 def vrc { neo $HOME/dotfiles/config/nvim/init.vim }
 def lfrc { neo $HOME/dotfiles/config/lf/lfrc } 
 def psrc { neo $profile } 
-def nurc { neo $HOME/dotfiles/config/nu/config.nu}
-
-# alias ls="lf" 
-def texi($1) { pdflatex -file-line-error -synctex=1  -interaction=nonstopmode -recorder $1 }
-def latexi() { latexmk -g -pdf -file-line-error -synctex=1  -interaction=nonstopmode
--recorder -f $1} 
-def pvc() { latexmk -pdf -pvc -file-line-error -synctex=1  -interaction=nonstopmode
--recorder -f $1} 
-def lat($1) { echo $1
-latexmk -pvc -pdf -file-line-error -synctex=1 -interaction=nonstopmode -recorder -f -g $1}
+def nurc { neo $HOME/dotfiles/config/nushell/config.nu}
+def texi [file:string] { pdflatex -file-line-error -synctex=1  -interaction=nonstopmode -recorder $file }
+def latexi [file:string] { latexmk -g -pdf -file-line-error -synctex=1  -interaction=nonstopmode -recorder -f $file}
+def pvc [file:string] { latexmk -pdf -pvc -file-line-error -synctex=1  -interaction=nonstopmode -recorder -f $file} 
+def lat [file:string] { echo $file latexmk -pvc -pdf -file-line-error -synctex=1 -interaction=nonstopmode -recorder -f -g $file}
 #
-def pushmod { git submodule foreach git add . && git submodule foreach git commit -m -a && 
- git submodule foreach git push origin master; git add . && git commit -m -a; git push --all origin }
+def pushmod { git submodule foreach git add . && git submodule foreach git commit -m -a && git submodule foreach git push origin master; git add . && git commit -m -a; git push --all origin }
 def push { git add . && git commit -m -a && git push --all origin }
 def pull { git pull --recurse-submodules && git submodule update --recursive --remote }
 def pullmaster { git pull --recurse-submodules && git submodule update --recursive --remote && git submodule foreach git checkout master && git submodule foreach git pull --all
 }
 # alias check="git checkout" 
 def pushgh { cd $HOME/web && pandoc index.md > index.html && git add . && git commit -m -a && git push origin gh-pages }
-# alias pandocd="pandoc index.md > index.html"
-#
-# # <<<<<<< HEAD
 # def hw { pandoc
 # $Home/classes/topology/topology2019.md >
 # $Home/classes/topology/topology2019.html; pandoc
@@ -50,9 +41,7 @@ def pushgh { cd $HOME/web && pandoc index.md > index.html && git add . && git co
 # # # =======
 # def clip { /mnt/c/windows/System32/WindowsPowerShell/v1.0/powershell.exe -c Get-Clipboard | tr -d $'/r' | wl-copy }
 def hw { pandoc $Home/web/classes/AlgTop/2022.md > $Home/web/classes/AlgTop/2022.html && pandoc $Home/web/classes/CalcIII/2022.md  > $Home/web/classes/CalcIII/2022.html && cd $Home/web && git add .  && git commit -m -a && git push origin gh-pages } 
-# alias attach="tmux attach"
-# # alias pdf="xpdf -geometry 1920x1080 -fullscreen"
-def pdf($1) { zathura $1 }
+def pdf [file:string] { zathura $file }
 # def launch() {
 #   local type="$1"; shift;
 #   case "$type" in
