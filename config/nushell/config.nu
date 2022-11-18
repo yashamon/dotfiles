@@ -32,17 +32,8 @@ def pullmaster [] { git pull --recurse-submodules && git submodule update --recu
 }
 # alias check="git checkout" 
 def pushgh [] { cd $"($HOME)/web && pandoc index.md > index.html && git add . && git commit -m -a && git push origin gh-pages }
-# def hw { pandoc
-# $Home/classes/topology/topology2019.md >
-# $Home/classes/topology/topology2019.html; pandoc
-# $Home/CalcIII2019/analysis.md >
-# $Home/CalcIII2019/analysis.html; git
-# add .;git commit -m -a; git push origin gh-pages }
-# # # =======
-# def clip { /mnt/c/windows/System32/WindowsPowerShell/v1.0/powershell.exe -c Get-Clipboard | tr -d $'/r' | wl-copy }
 def hw [] { pandoc $Home/web/classes/AlgTop/2022.md > $Home/web/classes/AlgTop/2022.html && pandoc $Home/web/classes/CalcIII/2022.md  > $Home/web/classes/CalcIII/2022.html && cd $Home/web && git add .  && git commit -m -a && git push origin gh-pages } 
 def pdf [file:string] { zathura $file }
-# # alias update="git submodule update --init --recursive ; git pull origin master"
 alias config = cd $"($HOME)/dotfiles/; push; cd $"($HOME)/workspacemodules; pushmod; cd $"($HOME)/workspace; push; cd web pushgh; pacman -Qqe > $"($HOME)/dotfiles/pkglist.txt
 # gitcommitwithmessage() {
 #     #do things with parameters like $1 such as
