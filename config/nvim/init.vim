@@ -116,6 +116,8 @@ Plug 'Pocco81/true-zen.nvim', { 'branch': 'main' }
 "
 " Plug 'dracula/vim'
 Plug 'kevinhwang91/nvim-bqf'
+
+
 " " Plug 'svermeulen/vim-cutlass'
 " Plug 'kyazdani42/nvim-web-devicons' " for file icons
 " " Plug 'kyazdani42/nvim-tree.lua', 
@@ -266,7 +268,7 @@ au FileType tex,text set spelllang=en_us
 au FileType tex,text,md set indentexpr=
 au FileType vim,md set list
 " au FileType tex,text,md silent execute "!echo " . v:servername . " > ~/servername.txt"    
-au FileType * silent execute "!echo " . v:servername . " > ~/servername.txt"
+" au FileType * silent execute "!echo " . v:servername . " > ~/servername.txt"
 au UIEnter silent execute "!echo " . v:servername . " > ~/servername.txt"
 function Server()
    silent execute "!echo " . v:servername . " > ~/servername.txt"
@@ -333,6 +335,9 @@ set fileencoding=utf-8
 "maps remaps mappings  
 "
 " terminal stuff 
+lua <<EOF
+vim.keymap.set('t', '<C-r>+', [[getreg('+')]], {expr = true})
+EOF
 autocmd TermClose * if v:event.status ==1 || v:event.status ==0  | exe 'bdelete! '..expand('<abuf>') | endif
 tnoremap <m-d> <C-\><C-n>:bdelete!<cr>
 tnoremap <A-`> <C-\><C-n>
@@ -351,7 +356,7 @@ nnoremap <leader>rr :w<cr>:source $MYVIMRC<CR>
 nnoremap <leader>u :lua require("true-zen.ataraxis") .off()<cr>:UndotreeToggle<CR>
 nnoremap <leader>e :silent execute "!echo " . v:servername . ' > C:/Users/yasha/servername.txt'<cr>:silent te pwsh -c lf<cr>i
 " nnoremap <leader>tt :FloatermToggle<cr>
-nnoremap <leader>t :silent execute "!echo " . v:servername . ' > C:/Users/yasha/servername.txt'<cr>:edit term://pwsh<cr>
+nnoremap <leader>t :silent execute "!echo " . v:servername . ' > C:/Users/yasha/servername.txt'<cr>:edit term://pwsh<cr><cr>
 nnoremap <c-,> :cprevious<cr>
 nnoremap <c-.> :cnext<cr> 
 vnoremap <m-s> :s///gc<left><left><left><left>
@@ -510,7 +515,7 @@ let g:fzf_layout = { 'window': { 'width': 1, 'height': 1 } }
 " let g:fzf_preview_window = []
 noremap <m-t> :BTags<cr>
 noremap SS <cr>:call Sentence()<cr>
-noremap S <cr>:call BLinesB()<cr>
+noremap S <cr>:call Line()<cr>
 
 "noremap L <Esc>:AsyncRun sentence.sh %;nvr sentence_%<cr>:echo 'press any key'<cr>:execute 'call getchar()' | BLines<cr>
 " Line search mapping 
@@ -632,24 +637,47 @@ command! -bang -nargs=* BLinesB
 "      \   'rg --with-filename --column --line-number --no-heading --smart-case . '.fnameescape(expand('%:p')),,
 " "     \   fzf#vim#with_preview({'options': '--layout reverse --query '.shellescape(<q-args>).' --with-nth=4.. --delimiter=":"'}, 'right:0%'))
     " \   fzf#vim#with_preview({'options': '--layout reverse  --with-nth=-1.. --delimiter="/"'}, 'right:50%'))
- function Sentence()
+ function Line()
   let g:buf = bufname()
   " silent execute "!bash /mnt/c/Users/yasha/dotfiles/scripts/sentence.sh %"
-  silent execute "!nu C:/Users/yasha/dotfiles/scripts/sentence.nu %" 
-  caddf @_%
+  let b:filenamedir = substitute(expand('%:p:h'), "\\", "/", "g")
+  let b:file = expand('%:p')
+  let b:filename = substitute(b:file, "\\", "/", "g")
+  let b:execstr = "!nu C:/Users/yasha/dotfiles/scripts/line.nu " . b:filename
+  exec b:execstr
+  cg @_%
   copen
   " let b:paste = system('pwsh -c Get-Clipboard')
   " call feedkeys(":BLinesB \<c-r>+\<cr>")
   call feedkeys("zf")
 endfunction
+function Sentence()
+ let g:buf = bufname()
+  " silent execute "!bash /mnt/c/Users/yasha/dotfiles/scripts/sentence.sh %"
+  let b:filenamedir = substitute(expand('%:p:h'), "\\", "/", "g")
+  let b:file = expand('%:p')
+  let b:filename = substitute(b:file, "\\", "/", "g")
+  let b:execstr = "!nu C:/Users/yasha/dotfiles/scripts/sentence.nu " . b:filename
+  exec b:execstr
+  caddf @_%
+  copen
+  " let b:paste = system('pwsh -c Get-Clipboard')
+  call feedkeys("zf")
+endfunction
 
 function SentenceLL()
-  let g:buf = bufname()
+ let g:buf = bufname()
   " silent execute "!bash /mnt/c/Users/yasha/dotfiles/scripts/sentence.sh %"
-  silent execute "!nu C:/Users/yasha/dotfiles/scripts/sentence.nu %" 
-  e @_%
+  let b:filenamedir = substitute(expand('%:p:h'), "\\", "/", "g")
+  let b:file = expand('%:p')
+  let b:filename = substitute(b:file, "\\", "/", "g")
+  let b:execstr = "!nu C:/Users/yasha/dotfiles/scripts/sentence.nu " . b:filename
+  exec b:execstr
+  cg @_% 
+  copen
   " let b:paste = system('pwsh -c Get-Clipboard')
-  call feedkeys(":BLinesB \<c-r>+\<cr>")
+  call feedkeys("zf")
+  call feedkeys("\<c-r>+\<cr>")  
 endfunction
 noremap LL :lua require("true-zen.ataraxis") .on()<cr>:lua require("true-zen.ataraxis") .off()<cr>:call SentenceLL()<cr>
 " noremap L :TZAtaraxisOff<cr><cr>:call Sentence()<cr>
@@ -1685,14 +1713,10 @@ require('leap').setup {
   case_sensitive = false,
   -- Sets of characters that should match each other.
   -- Obvious candidates are braces and quotes ('([{', ')]}', '`"\'').
-  equivalence_classes = 
+  equivalence_classes =
   {
-      ' \r\n',
-      ')]}>',
-      '([{<',
-      { '"', "'", '`' },
-      --{'$', 'm'},
-      {'^', '_', '<', '>', '?', '|', '!', '*', '+', '-', '`','\'','\\', '\n', '\r', ',', '.',';', ']', '[', '}', '{', ')', '(', '$'}
+      {' ', "\r", "\n" },
+      {'"', '/', ':', '=', '#', '&', '%','^', '_', '<', '>', '?', '|', '!', '*', '+', '-', '`', '/', '\\', ',', '.',';', ']', '[', '}', '{', ')', '(', '$'}
     },
   -- Leaving the] $appropriate list emapty effectively disables "smart" mode,
   -- and forces auto-jump to be on or off.
@@ -1700,5 +1724,5 @@ require('leap').setup {
 }
 EOF
 inoremap <m-d> <C-w>
-
+""
 

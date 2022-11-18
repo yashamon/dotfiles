@@ -26,13 +26,13 @@ def latexi [file:string] { latexmk -g -pdf -file-line-error -synctex=1  -interac
 def pvc [file:string] { latexmk -pdf -pvc -file-line-error -synctex=1  -interaction=nonstopmode -recorder -f $file} 
 def lat [file:string] { latexmk -pvc -pdf -file-line-error -synctex=1 -interaction=nonstopmode -recorder -f -g $file}
 #
-def pushmod [] { git submodule foreach git add . && git submodule foreach git commit -m -a && git submodule foreach git push origin master; git add . && git commit -m -a; git push --all origin }
-def push [] { git add . && git commit -m -a && git push --all origin }
-def pull [] { git pull --recurse-submodules && git submodule update --recursive --remote }
-def pullmaster [] { git pull --recurse-submodules && git submodule update --recursive --remote && git submodule foreach git checkout master && git submodule foreach git pull --all
+def pushmod [] { git submodule foreach git add . ; git submodule foreach git commit -m -a ; git submodule foreach git push origin master; git add . ; git commit -m -a; git push --all origin }
+def push [] { git add . ; git commit -m -a ; git push --all origin }
+def pull [] { git pull --recurse-submodules ; git submodule update --recursive --remote }
+def pullmaster [] { git pull --recurse-submodules ; git submodule update --recursive --remote ; git submodule foreach git checkout master ; git submodule foreach git pull --all
 }
 def pushgh [] { cd $"($HOME)/web ; pandoc index.md > index.html ; git add . ; git commit -m -a ; git push origin gh-pages" }
-def hw [] { pandoc $"($HOME)/web/classes/AlgTop/2022.md > ($HOME)/web/classes/AlgTop/2022.html && pandoc ($HOME)/web/classes/CalcIII/2022.md  > ($HOME)/web/classes/CalcIII/2022.html && cd ($HOME)/web && git add .  && git commit -m -a && git push origin gh-pages" } 
+def hw [] { pandoc $"($HOME)/web/classes/AlgTop/2022.md > ($HOME)/web/classes/AlgTop/2022.html ; pandoc ($HOME)/web/classes/CalcIII/2022.md  > ($HOME)/web/classes/CalcIII/2022.html ; cd ($HOME)/web ; git add .  ; git commit -m -a ; git push origin gh-pages" } 
 def pdf [file:string] { zathura $file }
 
 alias config = ( cd $"($HOME)/dotfiles; push; cd ($HOME)/workspacemodules; pushmod; cd ($HOME)/workspace; push; cd web pushgh; pacman -Qqe > ($HOME)/dotfiles/pkglist.txt" )
