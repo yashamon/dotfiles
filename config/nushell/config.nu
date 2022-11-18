@@ -354,7 +354,7 @@ let-env config = {
   {
         name: histDown
         modifier: alt
-        keycode: char_k
+        keycode: char_j
         mode: [emacs, vi_normal, vi_insert] 
         event: [
             { send: PreviousHistory }
