@@ -15,7 +15,7 @@ let $ho = (fd . $HOME -H -E /.undo/* -E /undo/* -E /tmp/* -E *.pdf | fzf | str t
 neovide --multigrid $ho 
 }
 alias hello = ( echo "hello" )
-alias j = __zoxide_z 
+alias j = __zoxide_z
 def vrc { neo $HOME/dotfiles/config/nvim/init.vim }
 def lfrc { neo $HOME/dotfiles/config/lf/lfrc } 
 def psrc { neo $profile } 
@@ -60,18 +60,18 @@ alias config = cd $HOME/dotfiles/; push; cd $HOME/workspacemodules; pushmod; cd 
 #
 #
 def sendFunction [file:string] {
-$cwdb = $env.PWD
-cd $Home/web
+let cwdb = $env.PWD
+cd $HOME/web
 git pull
 cd $cwdb
-cp "$1" $Home/web/papers/"$1"
-cd $Home/web
+cp $file $HOME/web/papers/$file
+cd $HOME/web
 git add .
 git commit -m -a
 git push origin gh-pages
 cd $cwdb
 }
-Set-Alias send sendFunction
+alias send = sendFunction
 Set-Alias lf C:/Users/yasha/dotfiles/scripts/lfcdWin.ps1 
 New-Alias z Jumphome
 def update { scoop update -a; scoop export > ~/dotfiles/scoopPackageList.json }
