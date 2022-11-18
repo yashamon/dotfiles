@@ -52,7 +52,7 @@ cd $cwdb
 alias send = sendFunction
 Set-Alias lf C:/Users/yasha/dotfiles/scripts/lfcdWin.ps1 
 New-Alias z Jumphome
-def update { scoop update -a; scoop export > ~/dotfiles/scoopPackageList.json }
+def update [] { scoop update -a; scoop export > ~/dotfiles/scoopPackageList.json }
 
 
 
