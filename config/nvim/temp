@@ -508,7 +508,7 @@ set smartcase		" ignore case if search pattern is all lowercase,case-sensitive o
  init.vim:507:: let g:fzf_layout = { 'window': { 'width': 1, 'height': 1 } }@
  init.vim:508:: " let g:fzf_preview_window = []@
  init.vim:509:: noremap <m-t> :BTags<cr>@
- init.vim:510:: noremap S <cr>:call Sentence()<cr> @
+ init.vim:510:: noremap SS <cr>:call Sentence()<cr>@
  init.vim:511:: "noremap L <Esc>:AsyncRun sentence.sh %;nvr sentence_%<cr>:echo 'press any key'<cr>:execute 'call getchar()' | BLines<cr>@
  init.vim:512:: " Line search mapping @
  init.vim:513:: " function! Jumpback() @

@@ -509,6 +509,8 @@ let g:fzf_layout = { 'window': { 'width': 1, 'height': 1 } }
 " let g:fzf_preview_window = []
 noremap <m-t> :BTags<cr>
 noremap SS <cr>:call Sentence()<cr>
+noremap S <cr>:call Line()<cr>
+
 "noremap L <Esc>:AsyncRun sentence.sh %;nvr sentence_%<cr>:echo 'press any key'<cr>:execute 'call getchar()' | BLines<cr>
 " Line search mapping 
 " function! Jumpback() 
