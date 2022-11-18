@@ -96,7 +96,7 @@ return
 #q::
 WinKill, A
 #Enter::
-    Run "pwsh" 
+    Run "nu" 
     Return
 #+f::
     Run nu lf
