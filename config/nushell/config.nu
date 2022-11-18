@@ -16,10 +16,10 @@ neovide --multigrid $ho
 }
 alias hello = ( echo "hello" )
 alias j = __zoxide_z
-def vrc [] { neo $HOME/dotfiles/config/nvim/init.vim }
-def lfrc [] { neo $HOME/dotfiles/config/lf/lfrc } 
+def vrc [] { neo $"($HOME)/dotfiles/config/nvim/init.vim" }
+def lfrc [] { neo $"($HOME)/dotfiles/config/lf/lfrc } 
 def psrc [] { neo $profile } 
-def nurc [] { neo $HOME/dotfiles/config/nushell/config.nu}
+def nurc [] { neo $"($HOME)/dotfiles/config/nushell/config.nu}
 def texi [file:string] { pdflatex -file-line-error -synctex=1  -interaction=nonstopmode -recorder $file }
 def latexi [file:string] { latexmk -g -pdf -file-line-error -synctex=1  -interaction=nonstopmode -recorder -f $file}
 def pvc [file:string] { latexmk -pdf -pvc -file-line-error -synctex=1  -interaction=nonstopmode -recorder -f $file} 
@@ -31,7 +31,7 @@ def pull [] { git pull --recurse-submodules && git submodule update --recursive 
 def pullmaster [] { git pull --recurse-submodules && git submodule update --recursive --remote && git submodule foreach git checkout master && git submodule foreach git pull --all
 }
 # alias check="git checkout" 
-def pushgh [] { cd $HOME/web && pandoc index.md > index.html && git add . && git commit -m -a && git push origin gh-pages }
+def pushgh [] { cd $"($HOME)/web && pandoc index.md > index.html && git add . && git commit -m -a && git push origin gh-pages }
 # def hw { pandoc
 # $Home/classes/topology/topology2019.md >
 # $Home/classes/topology/topology2019.html; pandoc
@@ -43,7 +43,7 @@ def pushgh [] { cd $HOME/web && pandoc index.md > index.html && git add . && git
 def hw [] { pandoc $Home/web/classes/AlgTop/2022.md > $Home/web/classes/AlgTop/2022.html && pandoc $Home/web/classes/CalcIII/2022.md  > $Home/web/classes/CalcIII/2022.html && cd $Home/web && git add .  && git commit -m -a && git push origin gh-pages } 
 def pdf [file:string] { zathura $file }
 # # alias update="git submodule update --init --recursive ; git pull origin master"
-alias config = cd $HOME/dotfiles/; push; cd $HOME/workspacemodules; pushmod; cd $HOME/workspace; push; cd web pushgh; pacman -Qqe > $HOME/dotfiles/pkglist.txt
+alias config = cd $"($HOME)/dotfiles/; push; cd $"($HOME)/workspacemodules; pushmod; cd $"($HOME)/workspace; push; cd web pushgh; pacman -Qqe > $"($HOME)/dotfiles/pkglist.txt
 # gitcommitwithmessage() {
 #     #do things with parameters like $1 such as
 #     git add .
@@ -61,11 +61,11 @@ alias config = cd $HOME/dotfiles/; push; cd $HOME/workspacemodules; pushmod; cd 
 #
 def sendFunction [file:string] {
 let cwdb = $env.PWD
-cd $HOME/web
+cd $"($HOME)/web
 git pull
 cd $cwdb
-cp $file $HOME/web/papers/$file
-cd $HOME/web
+cp $file $"($HOME)/web/papers/$file
+cd $"($HOME)/web
 git add .
 git commit -m -a
 git push origin gh-pages
