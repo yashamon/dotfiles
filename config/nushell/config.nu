@@ -44,20 +44,6 @@ def hw { pandoc $Home/web/classes/AlgTop/2022.md > $Home/web/classes/AlgTop/2022
 def pdf [file:string] { zathura $file }
 # # alias update="git submodule update --init --recursive ; git pull origin master"
 alias config = cd $HOME/dotfiles/; push; cd $HOME/workspacemodules; pushmod; cd $HOME/workspace; push; cd web pushgh; pacman -Qqe > $HOME/dotfiles/pkglist.txt
-# # alias apt="sudo apt-get install"
-# # defs 
-# # alias nvr=""
-# # nvru() {
-# # if [ -f $1 ]; then
-# # nvr --nostart --servername  $(<$HOME/servername.txt) --remote $1 > /dev/null
-# # echo "trying to attach to server" 
-# # echo $?
-# # (($? != 0)) && {echo "server not running; starting server"; goneovim $1 }
-# # else 
-# # echo "wrong file name"
-# # fi
-# # }
-#
 # gitcommitwithmessage() {
 #     #do things with parameters like $1 such as
 #     git add .
@@ -73,8 +59,8 @@ alias config = cd $HOME/dotfiles/; push; cd $HOME/workspacemodules; pushmod; cd 
 # alias bright=brightnessdef
 #
 #
-def sendFunction($1) {
-$cwdb=$pwd
+def sendFunction [file:string] {
+$cwdb = $env.PWD
 cd $Home/web
 git pull
 cd $cwdb
