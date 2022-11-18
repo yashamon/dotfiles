@@ -10,6 +10,7 @@ def neo [file:string] {
 neovide --multigrid $file
 }
 let HOME = "C:/Users/yasha"
+let profile = $"($HOME)/dotfiles/config/nvim/init.vim"
 def nf [] {
 let $ho = (fd . $HOME -H -E /.undo/* -E /undo/* -E /tmp/* -E *.pdf | fzf | str trim)
 neovide --multigrid $ho 
