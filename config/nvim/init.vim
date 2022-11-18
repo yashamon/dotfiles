@@ -633,7 +633,7 @@ command! -bang -nargs=* BLinesB
   let g:buf = bufname()
   " silent execute "!bash /mnt/c/Users/yasha/dotfiles/scripts/sentence.sh %"
   silent execute "!nu C:/Users/yasha/dotfiles/scripts/sentence.nu %" 
-  exec "cg" @_%
+  caddf @_%
   copen
   " let b:paste = system('pwsh -c Get-Clipboard')
   " call feedkeys(":BLinesB \<c-r>+\<cr>")
@@ -676,7 +676,7 @@ function ToggleQuickFix()
         let b:filename=expand('%:t:r')
         let b:errors=b:filenamedir . "/build/" . b:filename .".log"
         echo b:errors
-        exec "cg" b:errors
+        exec "caddf" b:errors
         copen
         sleep 1
         exec "wincmd j"
