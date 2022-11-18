@@ -509,1193 +509,1195 @@ set smartcase		" ignore case if search pattern is all lowercase,case-sensitive o
  init.vim:508:: " let g:fzf_preview_window = []@
  init.vim:509:: noremap <m-t> :BTags<cr>@
  init.vim:510:: noremap SS <cr>:call Sentence()<cr>@
- init.vim:511:: "noremap L <Esc>:AsyncRun sentence.sh %;nvr sentence_%<cr>:echo 'press any key'<cr>:execute 'call getchar()' | BLines<cr>@
- init.vim:512:: " Line search mapping @
- init.vim:513:: " function! Jumpback() @
- init.vim:514:: "   K=bufname()@
- init.vim:515:: "   normal viwhy<esc>:bdelete<cr>:buffer K<c-r>+<cr>:ZenMode<cr>@
- init.vim:516:: " endfunction@
- init.vim:517:: noremap <m-b> <Esc>:Buffers<CR>@
- init.vim:518:: " noremap F <Esc>:GFiles<CR>@
- init.vim:519:: map <A-e> :FZF ~<CR> @
- init.vim:520:: map <m-f> :FZF ~<CR> @
- init.vim:521:: @
- init.vim:522:: "miscellaneous@
- init.vim:523:: nmap <leader>g :TZAtaraxis<CR>@
- init.vim:524:: " nmap <leader>p :Denite neoyank -default-action=append<CR>@
- init.vim:525:: @
- init.vim:526:: " Latex stuff@
- init.vim:527:: " @
- init.vim:528:: noremap <leader>ss :w<cr>:source $MYVIMRC<cr> @
- init.vim:529:: noremap <c-e> viwy:cclose<cr>:<c-r>+<cr><cr>@
- init.vim:530:: noremap <c-p> :<c-r>+<cr>@
- init.vim:531:: noremap <m-l> viwy:bdelete<cr>:execute "buffer" g:buf<cr>:<c-r>+<cr><cr>@
- init.vim:532:: " noremap <m-l> viwy<esc>:bp<cr>:<c-r>+<cr>@
- init.vim:533:: @
- init.vim:534:: "FZF Neoyank yank     @
- init.vim:535:: "@
- init.vim:536:: nnoremap <leader>y :FZFNeoyank<cr>@
- init.vim:537:: nnoremap <leader>Y :FZFNeoyank  P<cr>@
- init.vim:538:: vnoremap <leader>y :FZFNeoyankSelection<cr>@
- init.vim:539:: @
- init.vim:540:: nnoremap <leader>p :FZFNeoyank +<cr> @
+ init.vim:511:: noremap S <cr>:call Line()<cr>@
+ init.vim:512:: @
+ init.vim:513:: "noremap L <Esc>:AsyncRun sentence.sh %;nvr sentence_%<cr>:echo 'press any key'<cr>:execute 'call getchar()' | BLines<cr>@
+ init.vim:514:: " Line search mapping @
+ init.vim:515:: " function! Jumpback() @
+ init.vim:516:: "   K=bufname()@
+ init.vim:517:: "   normal viwhy<esc>:bdelete<cr>:buffer K<c-r>+<cr>:ZenMode<cr>@
+ init.vim:518:: " endfunction@
+ init.vim:519:: noremap <m-b> <Esc>:Buffers<CR>@
+ init.vim:520:: " noremap F <Esc>:GFiles<CR>@
+ init.vim:521:: map <A-e> :FZF ~<CR> @
+ init.vim:522:: map <m-f> :FZF ~<CR> @
+ init.vim:523:: @
+ init.vim:524:: "miscellaneous@
+ init.vim:525:: nmap <leader>g :TZAtaraxis<CR>@
+ init.vim:526:: " nmap <leader>p :Denite neoyank -default-action=append<CR>@
+ init.vim:527:: @
+ init.vim:528:: " Latex stuff@
+ init.vim:529:: " @
+ init.vim:530:: noremap <leader>ss :w<cr>:source $MYVIMRC<cr> @
+ init.vim:531:: noremap <c-e> viwy:cclose<cr>:<c-r>+<cr><cr>@
+ init.vim:532:: noremap <c-p> :<c-r>+<cr>@
+ init.vim:533:: noremap <m-l> viwy:bdelete<cr>:execute "buffer" g:buf<cr>:<c-r>+<cr><cr>@
+ init.vim:534:: " noremap <m-l> viwy<esc>:bp<cr>:<c-r>+<cr>@
+ init.vim:535:: @
+ init.vim:536:: "FZF Neoyank yank     @
+ init.vim:537:: "@
+ init.vim:538:: nnoremap <leader>y :FZFNeoyank<cr>@
+ init.vim:539:: nnoremap <leader>Y :FZFNeoyank  P<cr>@
+ init.vim:540:: vnoremap <leader>y :FZFNeoyankSelection<cr>@
  init.vim:541:: @
- init.vim:542:: nnoremap <leader>1 :FZFNeoyank 1<cr>@
- init.vim:543:: nnoremap <leader>P :FZFNeoyank " P+<cr>@
- init.vim:544:: vnoremap <leader>p :FZFNeoyankSelection +<cr>@
- init.vim:545:: @
- init.vim:546:: "Pounce@
- init.vim:547:: map t <Plug>(leap-forward)@
- init.vim:548:: map T <Plug>(leap-backward)@
- init.vim:549:: " " nmap S <cmd>PounceRepeat<CR>@
- init.vim:550:: " vmap t <cmd>Pounce<CR>@
- init.vim:551:: " omap gt <cmd>Pounce<CR>@
- init.vim:552:: " 's' is used by vim-surround@
- init.vim:553:: @
- init.vim:554:: " Replace the default dictionary completion with fzf-based fuzzy completion@
+ init.vim:542:: nnoremap <leader>p :FZFNeoyank +<cr> @
+ init.vim:543:: @
+ init.vim:544:: nnoremap <leader>1 :FZFNeoyank 1<cr>@
+ init.vim:545:: nnoremap <leader>P :FZFNeoyank " P+<cr>@
+ init.vim:546:: vnoremap <leader>p :FZFNeoyankSelection +<cr>@
+ init.vim:547:: @
+ init.vim:548:: "Pounce@
+ init.vim:549:: map t <Plug>(leap-forward)@
+ init.vim:550:: map T <Plug>(leap-backward)@
+ init.vim:551:: " " nmap S <cmd>PounceRepeat<CR>@
+ init.vim:552:: " vmap t <cmd>Pounce<CR>@
+ init.vim:553:: " omap gt <cmd>Pounce<CR>@
+ init.vim:554:: " 's' is used by vim-surround@
  init.vim:555:: @
- init.vim:556:: inoremap <expr> <c-x><c-k> fzf#vim#complete('cat /usr/share/dict/words')  @
+ init.vim:556:: " Replace the default dictionary completion with fzf-based fuzzy completion@
  init.vim:557:: @
- init.vim:558:: @
- init.vim:559:: "Functions@
+ init.vim:558:: inoremap <expr> <c-x><c-k> fzf#vim#complete('cat /usr/share/dict/words')  @
+ init.vim:559:: @
  init.vim:560:: @
- init.vim:561:: function Light()@
- init.vim:562:: set background=light@
- init.vim:563:: " colorscheme oceanlight @
- init.vim:564:: colorscheme one @
- init.vim:565:: " highlight Normal ctermfg=black@
- init.vim:566:: " highlight  CursorLine cterm=NONE ctermbg=black ctermfg=none@
- init.vim:567:: " hi MatchParen cterm=underline ctermbg=none ctermfg=magenta@
- init.vim:568:: endfunction   @
- init.vim:569:: @
- init.vim:570:: " function Light()@
- init.vim:571:: " set background=light@
- init.vim:572:: " " colorscheme oceanlight @
- init.vim:573:: " colorscheme material @
- init.vim:574:: " let g:material_style = 'lighter'  @
- init.vim:575:: "    " highlight Normal ctermfg=black@
- init.vim:576:: " " highlight  CursorLine cterm=NONE ctermbg=black ctermfg=none@
- init.vim:577:: " " hi MatchParen cterm=underline ctermbg=none ctermfg=magenta@
- init.vim:578:: " endfunction   @
- init.vim:579:: function Bluemoon()@
- init.vim:580::    set background=dark@
- init.vim:581::    colorscheme blue-moon@
- init.vim:582::    " colorscheme material  @
- init.vim:583:: endfunction@
- init.vim:584:: @
- init.vim:585:: function Deepocean()@
- init.vim:586::    set background=dark@
- init.vim:587::    colorscheme material  @
- init.vim:588::    let g:material_style = 'deep ocean'  @
- init.vim:589:: endfunction@
- init.vim:590:: @
- init.vim:591:: function Palenight()@
- init.vim:592::    set background=dark@
- init.vim:593::    " colorscheme blue-moon@
- init.vim:594::    colorscheme material  @
- init.vim:595::    let g:material_style = 'palenight'  @
- init.vim:596:: endfunction@
- init.vim:597:: function Lighter()@
- init.vim:598::    set background=light@
- init.vim:599::    " colorscheme blue-moon@
- init.vim:600::    colorscheme material@
- init.vim:601::    let g:material_style = 'lighter'@
- init.vim:602:: endfunction@
- init.vim:603:: @
- init.vim:604:: function Dark()@
- init.vim:605::    set background=dark@
- init.vim:606::    colorscheme one@
- init.vim:607:: endfunction@
- init.vim:608:: @
- init.vim:609:: function! Profile()@
- init.vim:610:: profile start profile.log@
- init.vim:611:: profile func *@
- init.vim:612:: profile file *@
- init.vim:613:: endfunction@
- init.vim:614:: @
- init.vim:615:: command! -bang -nargs=* BLinesB@
- init.vim:616::     \ call fzf#vim#grep(@
- init.vim:617::     \   'rg --with-filename --line-number --no-heading --smart-case \.  init.vim:618::+++'.fnameescape(expand('%')),1,@
- init.vim:618::     \   fzf#vim#with_preview({'options': '--keep-right --layout reverse --query '.shellescape(<q-args>).' --preview "bat -p --color always {}"'}, 'up:50%'))@
- init.vim:619:: @
- init.vim:620:: " nnoremap H :LinesWithPreview<CR>@
- init.vim:621:: " command! -bang -nargs=* BLinesB@
- init.vim:622:: "     \ call fzf#vim#grep(@
- init.vim:623:: "     \   'rg --with-filename --column --line-number --no-heading --smart-case \.  init.vim:624::+++'.fnameescape(expand('%:p')), 1,@
- init.vim:624:: "     \   fzf#vim#with_preview({'options': '--keep-right --delimiter : --nth 4.\.  init.vim:625::+++--preview "bat -p --color always {}"'}, 'right:50%' ))@
- init.vim:625:: @
- init.vim:626:: " command! -bang -nargs=* BLinesB@
- init.vim:627:: "      \ call fzf#vim#grep(@
- init.vim:628:: "      \   'rg --with-filename --column --line-number --no-heading --smart-case \.  init.vim:629::+++'.fnameescape(expand('%:p')),,@
- init.vim:629:: " "     \   fzf#vim#with_preview({'options': '--layout reverse --query '.shellescape(<q-args>).' --with-nth=4.\.  init.vim:630::+++--delimiter=":"'}, 'right:0%'))@
- init.vim:630::     " \   fzf#vim#with_preview({'options': '--layout reverse  --with-nth=-1.\.  init.vim:631::+++--delimiter="/"'}, 'right:50%'))@
- init.vim:631::  function Sentence()@
- init.vim:632::   let g:buf = bufname()@
- init.vim:633::   " silent execute "!bash /mnt/c/Users/yasha/dotfiles/scripts/sentence.sh %"@
- init.vim:634::   silent execute "!nu C:/Users/yasha/dotfiles/scripts/sentence.nu %" @
- init.vim:635::   caddf @_%@
- init.vim:636::   copen@
- init.vim:637::   " let b:paste = system('pwsh -c Get-Clipboard')@
- init.vim:638::   " call feedkeys(":BLinesB \<c-r>+\<cr>")@
- init.vim:639::   call feedkeys("zf")@
- init.vim:640:: endfunction@
- init.vim:641:: @
- init.vim:642:: function SentenceLL()@
- init.vim:643::   let g:buf = bufname()@
- init.vim:644::   " silent execute "!bash /mnt/c/Users/yasha/dotfiles/scripts/sentence.sh %"@
- init.vim:645::   silent execute "!nu C:/Users/yasha/dotfiles/scripts/sentence.nu %" @
- init.vim:646::   e @_%@
- init.vim:647::   " let b:paste = system('pwsh -c Get-Clipboard')@
- init.vim:648::   call feedkeys(":BLinesB \<c-r>+\<cr>")@
- init.vim:649:: endfunction@
- init.vim:650:: noremap LL :lua require("true-zen.ataraxis") .on()<cr>:lua require("true-zen.ataraxis") .off()<cr>:call SentenceLL()<cr>@
- init.vim:651:: " noremap L :TZAtaraxisOff<cr><cr>:call Sentence()<cr>@
- init.vim:652:: function GitAsync()@
- init.vim:653:: silent execute "!echo " \.  init.vim:654::+++v:servername \.  init.vim:654::+++' > ~/servername.txt'@
- init.vim:654:: let g:bufdude = bufname()@
- init.vim:655:: silent te pwsh -c if ( (git rev-parse --is-inside-work-tree) -and (git rev-parse --git-dir) ) { git add \.  init.vim:656::+++; git commit -m -a; git push --all origin; ctags -R }@
- init.vim:656:: execute "buffer" g:bufdude@
- init.vim:657:: endfunction@
- init.vim:658::   @
- init.vim:659:: " " AsyncRun -silent if git rev-parse --is-inside-work-"tree @
- init.vim:660:: "|| git rev- parse --git-dir > /dev/null 2>&1 ; then git "add @
- init.vim:661:: "\.  init.vim:662::+++; git commit -m -a ; git push --all origin; "fi  */@
- init.vim:662:: " te if ( (git rev-parse --is-inside-work-tree) -and (git @
- init.vim:663:: "rev-parse --git-dir) ) { git add \.  init.vim:664::+++; git commit -m -a ; "git push --all origin } */@
- init.vim:664:: " endfunction */@
- init.vim:665:: @
- init.vim:666:: function ToggleQuickFix()@
- init.vim:667::       if empty(filter(getwininfo(), 'v:val.quickfix'))@
- init.vim:668::       exec "w"@
- init.vim:669::         echo bufname()@
- init.vim:670::         lua require("true-zen.ataraxis") .off()@
- init.vim:671::         " lua require("zen-mode").close()@
- init.vim:672::         echo bufname()@
- init.vim:673::         let b:filenamedir=expand('%:p:h')@
- init.vim:674::         echo b:filenamedir@
- init.vim:675::         let b:filename=expand('%:t:r')@
- init.vim:676::         let b:errors=b:filenamedir \.  init.vim:677::+++"/build/" \.  init.vim:677::+++b:filename .".log"@
- init.vim:677::         echo b:errors@
- init.vim:678::         exec "caddf" b:errors@
- init.vim:679::         copen@
- init.vim:680::         sleep 1@
- init.vim:681::         exec "wincmd j"@
- init.vim:682::         exec "/error"@
- init.vim:683::     else@
- init.vim:684::         exec "cclose"@
- init.vim:685::         sleep 1@
- init.vim:686::         endif@
- init.vim:687:: endfunction@
- init.vim:688:: @
- init.vim:689:: nnoremap <leader>s :silent call ToggleQuickFix()<CR>@
- init.vim:690:: function! ClearLatex()@
- init.vim:691::   silent !rm ./build/* @
- init.vim:692:: endfunction @
- init.vim:693:: @
- init.vim:694:: function! CompileLatex()@
- init.vim:695::   " silent call ClearLatex()@
- init.vim:696::   let buf=bufname()@
- init.vim:697::   silent te pwsh -c latexmk -pvc -halt-on-error -synctex=1 -file-line-error -f -output-directory="build" %@
- init.vim:698::   execute "buffer" buf@
- init.vim:699::   call ViewPdf()@
- init.vim:700:: endfunction@
- init.vim:701:: @
- init.vim:702:: function! ViewPdf() @
- init.vim:703:: wa@
- init.vim:704:: let g:buffmain=bufname()@
- init.vim:705:: silent execute "!echo " \.  init.vim:706::+++v:servername \.  init.vim:706::+++' > C:/Users/yasha/servername.txt'@
- init.vim:706:: let buf=bufname()@
- init.vim:707:: let linenumber=line(".")@
- init.vim:708:: let colnumber=col(".")@
- init.vim:709:: let b:filenamedir=expand('%:p:h')@
- init.vim:710:: let filenametex=expand('%:p:t')@
- init.vim:711:: let filenametexwhole=expand('%:p')@
- init.vim:712:: let filenameroot=expand('%:t:r')@
- init.vim:713:: " let filenamePDF=filename[:-4]."pdf"@
- init.vim:714:: let filenamePDFLinux=b:filenamedir \.  init.vim:715::+++"/buildback/" \.  init.vim:715::+++filenameroot \.  init.vim:715::+++".pdf"@
- init.vim:715:: let b:filenamePDFWindows="build\\" \.  init.vim:716::+++filenameroot \.  init.vim:716::+++".pdf"@
- init.vim:716:: " echo b:filenamePDFWindows@
- init.vim:717:: let execstrLinux="silent te zathura --synctex-forward " \.  init.vim:718::+++linenumber \.  init.vim:718::+++":" \.  init.vim:718::+++colnumber \.  init.vim:718::+++":" \.  init.vim:718::+++filenametexwhole \.  init.vim:718::+++" " \.  init.vim:718::+++filenamePDFLinux@
- init.vim:718:: let execstrWindows="silent te pwsh -c C:/Users/yasha/scoop/shims/sumatrapdf.EXE -reuse-instance " \.  init.vim:719::+++b:filenamePDFWindows \.  init.vim:719::+++" -forward-search " \.  init.vim:719::+++filenametex \.  init.vim:719::+++" " \.  init.vim:719::+++linenumber@
- init.vim:719:: exec execstrWindows@
- init.vim:720:: execute "buffer" buf@
- init.vim:721:: endfunction@
- init.vim:722:: nmap <leader>v :call ViewPdf()<cr><cr>@
- init.vim:723:: map <m-v> <esc>:call ViewPdf()<cr><cr>@
- init.vim:724:: @
- init.vim:725:: " nmap <leader>v :VimtexView<cr>@
- init.vim:726:: " let  g:vimtex_fold_types_defaults = 'preamble, sections, comments'@
- init.vim:727:: nmap <leader>ll :call CompileLatex()<cr>@
- init.vim:728:: nmap <leader>cl :call ClearLatex()<cr>@
- init.vim:729:: " nmap <leader>m :silent ! cp % backup;  pandoc  backup -s --webtex -o backup.html;  cp backup.html %<cr>:e %<cr>@
- init.vim:730:: @
- init.vim:731:: " nmap <leader>m :silent ! cp % backup;  pandoc  backup -s --mathjax[=https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js] -o backup.html;  cp backup.html %<cr>:e %<cr>:w<cr>:qa<cr> @
- init.vim:732:: "" mathml shenanigans@
- init.vim:733:: @
- init.vim:734:: nmap <leader>m :w<cr>:silent ! cat % >> ~/workspace/email.txt; cp % /tmp/temp; make4ht /tmp/temp "mathml,mathjax"; pandoc /tmp/temp.html --from html --to markdown_strict -o /tmp/temp.md; mv /tmp/temp.md %<cr>:e %<cr>:w<cr>:qa<cr>@
+ init.vim:561:: "Functions@
+ init.vim:562:: @
+ init.vim:563:: function Light()@
+ init.vim:564:: set background=light@
+ init.vim:565:: " colorscheme oceanlight @
+ init.vim:566:: colorscheme one @
+ init.vim:567:: " highlight Normal ctermfg=black@
+ init.vim:568:: " highlight  CursorLine cterm=NONE ctermbg=black ctermfg=none@
+ init.vim:569:: " hi MatchParen cterm=underline ctermbg=none ctermfg=magenta@
+ init.vim:570:: endfunction   @
+ init.vim:571:: @
+ init.vim:572:: " function Light()@
+ init.vim:573:: " set background=light@
+ init.vim:574:: " " colorscheme oceanlight @
+ init.vim:575:: " colorscheme material @
+ init.vim:576:: " let g:material_style = 'lighter'  @
+ init.vim:577:: "    " highlight Normal ctermfg=black@
+ init.vim:578:: " " highlight  CursorLine cterm=NONE ctermbg=black ctermfg=none@
+ init.vim:579:: " " hi MatchParen cterm=underline ctermbg=none ctermfg=magenta@
+ init.vim:580:: " endfunction   @
+ init.vim:581:: function Bluemoon()@
+ init.vim:582::    set background=dark@
+ init.vim:583::    colorscheme blue-moon@
+ init.vim:584::    " colorscheme material  @
+ init.vim:585:: endfunction@
+ init.vim:586:: @
+ init.vim:587:: function Deepocean()@
+ init.vim:588::    set background=dark@
+ init.vim:589::    colorscheme material  @
+ init.vim:590::    let g:material_style = 'deep ocean'  @
+ init.vim:591:: endfunction@
+ init.vim:592:: @
+ init.vim:593:: function Palenight()@
+ init.vim:594::    set background=dark@
+ init.vim:595::    " colorscheme blue-moon@
+ init.vim:596::    colorscheme material  @
+ init.vim:597::    let g:material_style = 'palenight'  @
+ init.vim:598:: endfunction@
+ init.vim:599:: function Lighter()@
+ init.vim:600::    set background=light@
+ init.vim:601::    " colorscheme blue-moon@
+ init.vim:602::    colorscheme material@
+ init.vim:603::    let g:material_style = 'lighter'@
+ init.vim:604:: endfunction@
+ init.vim:605:: @
+ init.vim:606:: function Dark()@
+ init.vim:607::    set background=dark@
+ init.vim:608::    colorscheme one@
+ init.vim:609:: endfunction@
+ init.vim:610:: @
+ init.vim:611:: function! Profile()@
+ init.vim:612:: profile start profile.log@
+ init.vim:613:: profile func *@
+ init.vim:614:: profile file *@
+ init.vim:615:: endfunction@
+ init.vim:616:: @
+ init.vim:617:: command! -bang -nargs=* BLinesB@
+ init.vim:618::     \ call fzf#vim#grep(@
+ init.vim:619::     \   'rg --with-filename --line-number --no-heading --smart-case \.  init.vim:620::+++'.fnameescape(expand('%')),1,@
+ init.vim:620::     \   fzf#vim#with_preview({'options': '--keep-right --layout reverse --query '.shellescape(<q-args>).' --preview "bat -p --color always {}"'}, 'up:50%'))@
+ init.vim:621:: @
+ init.vim:622:: " nnoremap H :LinesWithPreview<CR>@
+ init.vim:623:: " command! -bang -nargs=* BLinesB@
+ init.vim:624:: "     \ call fzf#vim#grep(@
+ init.vim:625:: "     \   'rg --with-filename --column --line-number --no-heading --smart-case \.  init.vim:626::+++'.fnameescape(expand('%:p')), 1,@
+ init.vim:626:: "     \   fzf#vim#with_preview({'options': '--keep-right --delimiter : --nth 4.\.  init.vim:627::+++--preview "bat -p --color always {}"'}, 'right:50%' ))@
+ init.vim:627:: @
+ init.vim:628:: " command! -bang -nargs=* BLinesB@
+ init.vim:629:: "      \ call fzf#vim#grep(@
+ init.vim:630:: "      \   'rg --with-filename --column --line-number --no-heading --smart-case \.  init.vim:631::+++'.fnameescape(expand('%:p')),,@
+ init.vim:631:: " "     \   fzf#vim#with_preview({'options': '--layout reverse --query '.shellescape(<q-args>).' --with-nth=4.\.  init.vim:632::+++--delimiter=":"'}, 'right:0%'))@
+ init.vim:632::     " \   fzf#vim#with_preview({'options': '--layout reverse  --with-nth=-1.\.  init.vim:633::+++--delimiter="/"'}, 'right:50%'))@
+ init.vim:633::  function Sentence()@
+ init.vim:634::   let g:buf = bufname()@
+ init.vim:635::   " silent execute "!bash /mnt/c/Users/yasha/dotfiles/scripts/sentence.sh %"@
+ init.vim:636::   silent execute "!nu C:/Users/yasha/dotfiles/scripts/sentence.nu %" @
+ init.vim:637::   caddf @_%@
+ init.vim:638::   copen@
+ init.vim:639::   " let b:paste = system('pwsh -c Get-Clipboard')@
+ init.vim:640::   " call feedkeys(":BLinesB \<c-r>+\<cr>")@
+ init.vim:641::   call feedkeys("zf")@
+ init.vim:642:: endfunction@
+ init.vim:643:: @
+ init.vim:644:: function SentenceLL()@
+ init.vim:645::   let g:buf = bufname()@
+ init.vim:646::   " silent execute "!bash /mnt/c/Users/yasha/dotfiles/scripts/sentence.sh %"@
+ init.vim:647::   silent execute "!nu C:/Users/yasha/dotfiles/scripts/sentence.nu %" @
+ init.vim:648::   e @_%@
+ init.vim:649::   " let b:paste = system('pwsh -c Get-Clipboard')@
+ init.vim:650::   call feedkeys(":BLinesB \<c-r>+\<cr>")@
+ init.vim:651:: endfunction@
+ init.vim:652:: noremap LL :lua require("true-zen.ataraxis") .on()<cr>:lua require("true-zen.ataraxis") .off()<cr>:call SentenceLL()<cr>@
+ init.vim:653:: " noremap L :TZAtaraxisOff<cr><cr>:call Sentence()<cr>@
+ init.vim:654:: function GitAsync()@
+ init.vim:655:: silent execute "!echo " \.  init.vim:656::+++v:servername \.  init.vim:656::+++' > ~/servername.txt'@
+ init.vim:656:: let g:bufdude = bufname()@
+ init.vim:657:: silent te pwsh -c if ( (git rev-parse --is-inside-work-tree) -and (git rev-parse --git-dir) ) { git add \.  init.vim:658::+++; git commit -m -a; git push --all origin; ctags -R }@
+ init.vim:658:: execute "buffer" g:bufdude@
+ init.vim:659:: endfunction@
+ init.vim:660::   @
+ init.vim:661:: " " AsyncRun -silent if git rev-parse --is-inside-work-"tree @
+ init.vim:662:: "|| git rev- parse --git-dir > /dev/null 2>&1 ; then git "add @
+ init.vim:663:: "\.  init.vim:664::+++; git commit -m -a ; git push --all origin; "fi  */@
+ init.vim:664:: " te if ( (git rev-parse --is-inside-work-tree) -and (git @
+ init.vim:665:: "rev-parse --git-dir) ) { git add \.  init.vim:666::+++; git commit -m -a ; "git push --all origin } */@
+ init.vim:666:: " endfunction */@
+ init.vim:667:: @
+ init.vim:668:: function ToggleQuickFix()@
+ init.vim:669::       if empty(filter(getwininfo(), 'v:val.quickfix'))@
+ init.vim:670::       exec "w"@
+ init.vim:671::         echo bufname()@
+ init.vim:672::         lua require("true-zen.ataraxis") .off()@
+ init.vim:673::         " lua require("zen-mode").close()@
+ init.vim:674::         echo bufname()@
+ init.vim:675::         let b:filenamedir=expand('%:p:h')@
+ init.vim:676::         echo b:filenamedir@
+ init.vim:677::         let b:filename=expand('%:t:r')@
+ init.vim:678::         let b:errors=b:filenamedir \.  init.vim:679::+++"/build/" \.  init.vim:679::+++b:filename .".log"@
+ init.vim:679::         echo b:errors@
+ init.vim:680::         exec "caddf" b:errors@
+ init.vim:681::         copen@
+ init.vim:682::         sleep 1@
+ init.vim:683::         exec "wincmd j"@
+ init.vim:684::         exec "/error"@
+ init.vim:685::     else@
+ init.vim:686::         exec "cclose"@
+ init.vim:687::         sleep 1@
+ init.vim:688::         endif@
+ init.vim:689:: endfunction@
+ init.vim:690:: @
+ init.vim:691:: nnoremap <leader>s :silent call ToggleQuickFix()<CR>@
+ init.vim:692:: function! ClearLatex()@
+ init.vim:693::   silent !rm ./build/* @
+ init.vim:694:: endfunction @
+ init.vim:695:: @
+ init.vim:696:: function! CompileLatex()@
+ init.vim:697::   " silent call ClearLatex()@
+ init.vim:698::   let buf=bufname()@
+ init.vim:699::   silent te pwsh -c latexmk -pvc -halt-on-error -synctex=1 -file-line-error -f -output-directory="build" %@
+ init.vim:700::   execute "buffer" buf@
+ init.vim:701::   call ViewPdf()@
+ init.vim:702:: endfunction@
+ init.vim:703:: @
+ init.vim:704:: function! ViewPdf() @
+ init.vim:705:: wa@
+ init.vim:706:: let g:buffmain=bufname()@
+ init.vim:707:: silent execute "!echo " \.  init.vim:708::+++v:servername \.  init.vim:708::+++' > C:/Users/yasha/servername.txt'@
+ init.vim:708:: let buf=bufname()@
+ init.vim:709:: let linenumber=line(".")@
+ init.vim:710:: let colnumber=col(".")@
+ init.vim:711:: let b:filenamedir=expand('%:p:h')@
+ init.vim:712:: let filenametex=expand('%:p:t')@
+ init.vim:713:: let filenametexwhole=expand('%:p')@
+ init.vim:714:: let filenameroot=expand('%:t:r')@
+ init.vim:715:: " let filenamePDF=filename[:-4]."pdf"@
+ init.vim:716:: let filenamePDFLinux=b:filenamedir \.  init.vim:717::+++"/buildback/" \.  init.vim:717::+++filenameroot \.  init.vim:717::+++".pdf"@
+ init.vim:717:: let b:filenamePDFWindows="build\\" \.  init.vim:718::+++filenameroot \.  init.vim:718::+++".pdf"@
+ init.vim:718:: " echo b:filenamePDFWindows@
+ init.vim:719:: let execstrLinux="silent te zathura --synctex-forward " \.  init.vim:720::+++linenumber \.  init.vim:720::+++":" \.  init.vim:720::+++colnumber \.  init.vim:720::+++":" \.  init.vim:720::+++filenametexwhole \.  init.vim:720::+++" " \.  init.vim:720::+++filenamePDFLinux@
+ init.vim:720:: let execstrWindows="silent te pwsh -c C:/Users/yasha/scoop/shims/sumatrapdf.EXE -reuse-instance " \.  init.vim:721::+++b:filenamePDFWindows \.  init.vim:721::+++" -forward-search " \.  init.vim:721::+++filenametex \.  init.vim:721::+++" " \.  init.vim:721::+++linenumber@
+ init.vim:721:: exec execstrWindows@
+ init.vim:722:: execute "buffer" buf@
+ init.vim:723:: endfunction@
+ init.vim:724:: nmap <leader>v :call ViewPdf()<cr><cr>@
+ init.vim:725:: map <m-v> <esc>:call ViewPdf()<cr><cr>@
+ init.vim:726:: @
+ init.vim:727:: " nmap <leader>v :VimtexView<cr>@
+ init.vim:728:: " let  g:vimtex_fold_types_defaults = 'preamble, sections, comments'@
+ init.vim:729:: nmap <leader>ll :call CompileLatex()<cr>@
+ init.vim:730:: nmap <leader>cl :call ClearLatex()<cr>@
+ init.vim:731:: " nmap <leader>m :silent ! cp % backup;  pandoc  backup -s --webtex -o backup.html;  cp backup.html %<cr>:e %<cr>@
+ init.vim:732:: @
+ init.vim:733:: " nmap <leader>m :silent ! cp % backup;  pandoc  backup -s --mathjax[=https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js] -o backup.html;  cp backup.html %<cr>:e %<cr>:w<cr>:qa<cr> @
+ init.vim:734:: "" mathml shenanigans@
  init.vim:735:: @
- init.vim:736:: @
+ init.vim:736:: nmap <leader>m :w<cr>:silent ! cat % >> ~/workspace/email.txt; cp % /tmp/temp; make4ht /tmp/temp "mathml,mathjax"; pandoc /tmp/temp.html --from html --to markdown_strict -o /tmp/temp.md; mv /tmp/temp.md %<cr>:e %<cr>:w<cr>:qa<cr>@
  init.vim:737:: @
  init.vim:738:: @
  init.vim:739:: @
  init.vim:740:: @
- init.vim:741:: "Autosave and autocommit   @
- init.vim:742:: " let g:updatetime = 10000@
- init.vim:743:: let g:auto_save = 0@
- init.vim:744:: " .vimrc@
- init.vim:745:: let g:auto_save_events = ["CursorHold"]@
- init.vim:746:: "au FileType vim let g:autosave = 0@
- init.vim:747:: let g:auto_save_in_insert_mode = 0@
- init.vim:748:: let g:auto_save_silent = 1@
- init.vim:749:: @
- init.vim:750:: "Git autocommit  (private git repo)@
- init.vim:751:: autocmd BufWritePost * call GitAsync()@
- init.vim:752:: " vsnip stuff @
- init.vim:753:: " Use <Tab> and <S-Tab> to navigate through popup menu@
- init.vim:754:: " inoremap <expr> <Tab> pumvisible() ? "\<C-n>" : "\<Tab>"@
- init.vim:755:: " inoremap <expr> <S-Tab> pumvisible() ? "\<C-p>" : "\<S-Tab>"@
- init.vim:756:: @
- init.vim:757:: " Set completeopt to have a better completion experience@
- init.vim:758:: set completeopt=menuone,noinsert,noselect@
- init.vim:759:: @
- init.vim:760:: " Avoid showing message extra message when using completion@
- init.vim:761:: set shortmess+=c@
- init.vim:762:: let g:vsnip_snippet_dir = '~/dotfiles/snippets'  @
- init.vim:763:: @
- init.vim:764:: " imap <expr> <m-space>   vsnip#expandable()  ? '<Plug>(vsnip-expand)'         : '<C-j>'@
- init.vim:765:: " smap <expr> <m-space>   vsnip#expandable()  ? '<Plug>(vsnip-expand)'         : '<C-j>'@
- init.vim:766:: " @
- init.vim:767:: " " Expand or jump@
- init.vim:768:: " imap <expr> <m-space>   vsnip#available(1)  ? '<Plug>(vsnip-expand-or-jump)' : '<C-l>'@
- init.vim:769:: " smap <expr> <m-space>   vsnip#available(1)  ? '<Plug>(vsnip-expand-or-jump)' : '<C-l>'@
- init.vim:770:: @
- init.vim:771:: " Jump forward or backward@
- init.vim:772:: imap <expr> <M-j>   vsnip#jumpable(1)   ? '<Plug>(vsnip-jump-next)'      : '<C-l>'@
- init.vim:773::   smap <expr> <M-j>   vsnip#jumpable(1)   ? '<Plug>(vsnip-jump-next)'      : '<C-l>'@
- init.vim:774:: imap <expr> <M-k> vsnip#jumpable(-1)  ? '<Plug>(vsnip-jump-prev)'      : '<S-Tab>'@
- init.vim:775:: smap <expr> <M-k> vsnip#jumpable(-1)  ? '<Plug>(vsnip-jump-prev)'      : '<S-Tab>'@
- init.vim:776:: @
- init.vim:777:: "@
- init.vim:778:: " set foldexpr=nvim_treesitter#foldexpr()@
+ init.vim:741:: @
+ init.vim:742:: @
+ init.vim:743:: "Autosave and autocommit   @
+ init.vim:744:: " let g:updatetime = 10000@
+ init.vim:745:: let g:auto_save = 0@
+ init.vim:746:: " .vimrc@
+ init.vim:747:: let g:auto_save_events = ["CursorHold"]@
+ init.vim:748:: "au FileType vim let g:autosave = 0@
+ init.vim:749:: let g:auto_save_in_insert_mode = 0@
+ init.vim:750:: let g:auto_save_silent = 1@
+ init.vim:751:: @
+ init.vim:752:: "Git autocommit  (private git repo)@
+ init.vim:753:: autocmd BufWritePost * call GitAsync()@
+ init.vim:754:: " vsnip stuff @
+ init.vim:755:: " Use <Tab> and <S-Tab> to navigate through popup menu@
+ init.vim:756:: " inoremap <expr> <Tab> pumvisible() ? "\<C-n>" : "\<Tab>"@
+ init.vim:757:: " inoremap <expr> <S-Tab> pumvisible() ? "\<C-p>" : "\<S-Tab>"@
+ init.vim:758:: @
+ init.vim:759:: " Set completeopt to have a better completion experience@
+ init.vim:760:: set completeopt=menuone,noinsert,noselect@
+ init.vim:761:: @
+ init.vim:762:: " Avoid showing message extra message when using completion@
+ init.vim:763:: set shortmess+=c@
+ init.vim:764:: let g:vsnip_snippet_dir = '~/dotfiles/snippets'  @
+ init.vim:765:: @
+ init.vim:766:: " imap <expr> <m-space>   vsnip#expandable()  ? '<Plug>(vsnip-expand)'         : '<C-j>'@
+ init.vim:767:: " smap <expr> <m-space>   vsnip#expandable()  ? '<Plug>(vsnip-expand)'         : '<C-j>'@
+ init.vim:768:: " @
+ init.vim:769:: " " Expand or jump@
+ init.vim:770:: " imap <expr> <m-space>   vsnip#available(1)  ? '<Plug>(vsnip-expand-or-jump)' : '<C-l>'@
+ init.vim:771:: " smap <expr> <m-space>   vsnip#available(1)  ? '<Plug>(vsnip-expand-or-jump)' : '<C-l>'@
+ init.vim:772:: @
+ init.vim:773:: " Jump forward or backward@
+ init.vim:774:: imap <expr> <M-j>   vsnip#jumpable(1)   ? '<Plug>(vsnip-jump-next)'      : '<C-l>'@
+ init.vim:775::   smap <expr> <M-j>   vsnip#jumpable(1)   ? '<Plug>(vsnip-jump-next)'      : '<C-l>'@
+ init.vim:776:: imap <expr> <M-k> vsnip#jumpable(-1)  ? '<Plug>(vsnip-jump-prev)'      : '<S-Tab>'@
+ init.vim:777:: smap <expr> <M-k> vsnip#jumpable(-1)  ? '<Plug>(vsnip-jump-prev)'      : '<S-Tab>'@
+ init.vim:778:: @
  init.vim:779:: "@
- init.vim:780:: @
- init.vim:781:: lua <<EOF@
- init.vim:782:: require("nvim-lsp-installer").setup {}@
- init.vim:783::     local lspconfig = require("lspconfig")@
- init.vim:784:: @
- init.vim:785::     local function on_attach(client, bufnr)@
- init.vim:786::         -- set up buffer keymaps, etc.@
- init.vim:787::     end@
- init.vim:788:: @
- init.vim:789::     lspconfig.sumneko_lua.setup { on_attach = on_attach }@
- init.vim:790::     lspconfig.tsserver.setup { on_attach = on_attach }@
- init.vim:791::     lspconfig.vimls.setup { on_attach = on_attach }@
- init.vim:792::     lspconfig.ltex.setup { on_attach = on_attach }@
- init.vim:793::     lspconfig.texlab.setup { on_attach = on_attach }@
- init.vim:794:: EOF@
- init.vim:795:: lua << EOF@
- init.vim:796:: local nvim_lsp = require('lspconfig')@
- init.vim:797:: -- Use an on_attach function to only map the following keys@
- init.vim:798:: -- after the language server attaches to the current buffer@
- init.vim:799:: local on_attach = function(client, bufnr)@
- init.vim:800:: local function buf_set_keymap(...) vim.api.nvim_buf_set_keymap(bufnr, ...) end@
- init.vim:801::  local function buf_set_option(...) vim.api.nvim_buf_set_option(bufnr, ...) end@
- init.vim:802:: -- Enable completion triggered by <c-x><c-o>@
- init.vim:803::   buf_set_option('omnifunc', 'v:lua.vim.lsp.omnifunc')@
- init.vim:804:: @
- init.vim:805::   -- Mappings.@
- init.vim:806::   local opts = { noremap=true, silent=true }@
- init.vim:807:: @
- init.vim:808::   -- See `:help vim.lsp.*` for documentation on any of the below functions@
- init.vim:809::   buf_set_keymap('n', 'gD', '<cmd>lua vim.lsp.buf.declaration()<CR>', opts)@
- init.vim:810::   buf_set_keymap('n', 'gd', '<cmd>lua vim.lsp.buf.definition()<CR>', opts)@
- init.vim:811::   --buf_set_keymap('n', 'K', '<cmd>lua vim.lsp.buf.hover()<CR>', opts)@
- init.vim:812::   buf_set_keymap('n', 'gi', '<cmd>lua vim.lsp.buf.implementation()<CR>', opts)@
- init.vim:813::   buf_set_keymap('n', '<S-C-k>', '<cmd>lua vim.lsp.buf.signature_help()<CR>', opts)@
- init.vim:814::   buf_set_keymap('n', '<space>wa', '<cmd>lua vim.lsp.buf.add_workspace_folder()<CR>', opts)@
- init.vim:815::   buf_set_keymap('n', '<space>wr', '<cmd>lua vim.lsp.buf.remove_workspace_folder()<CR>', opts)@
- init.vim:816::   buf_set_keymap('n', '<space>wl', '<cmd>lua print(vim.inspect(vim.lsp.buf.list_workspace_folders()))<CR>', opts)@
- init.vim:817::   buf_set_keymap('n', '<space>D', '<cmd>lua vim.lsp.buf.type_definition()<CR>', opts)@
- init.vim:818::   buf_set_keymap('n', '<space>rn', '<cmd>lua vim.lsp.buf.rename()<CR>', opts)@
- init.vim:819::   buf_set_keymap('n', '<leader>ca', '<cmd>lua vim.lsp.buf.code_action()<CR>', opts)@
- init.vim:820::   --buf_set_keymap('n', 'lr', '<cmd>lua vim.lsp.buf.references()<CR>', opts)@
- init.vim:821::   buf_set_keymap('n', '<space>e', '<cmd>lua vim.lsp.diagnostic.show_line_diagnostics()<CR>', opts)@
- init.vim:822::   buf_set_keymap('n', '[d', '<cmd>lua vim.lsp.diagnostic.goto_prev()<CR>', opts)@
- init.vim:823::   buf_set_keymap('n', ']d', '<cmd>lua vim.lsp.diagnostic.goto_next()<CR>', opts)@
- init.vim:824::   buf_set_keymap('n', '<space>q', '<cmd>lua vim.lsp.diagnostic.set_loclist()<CR>', opts)@
- init.vim:825::   buf_set_keymap('n', '<space>f', '<cmd>lua vim.lsp.buf.formatting()<CR>', opts)@
- init.vim:826:: @
- init.vim:827:: end@
- init.vim:828:: EOF@
- init.vim:829:: nnoremap <silent> g? <cmd>lua vim.diagnostic.open_float()<CR>@
- init.vim:830:: "Lsp instal @
- init.vim:831:: "@
- init.vim:832:: " inoremap <cr> <cr> <backspace>@
- init.vim:833:: @
- init.vim:834:: set completeopt=menu,menuone,noselect@
+ init.vim:780:: " set foldexpr=nvim_treesitter#foldexpr()@
+ init.vim:781:: "@
+ init.vim:782:: @
+ init.vim:783:: lua <<EOF@
+ init.vim:784:: require("nvim-lsp-installer").setup {}@
+ init.vim:785::     local lspconfig = require("lspconfig")@
+ init.vim:786:: @
+ init.vim:787::     local function on_attach(client, bufnr)@
+ init.vim:788::         -- set up buffer keymaps, etc.@
+ init.vim:789::     end@
+ init.vim:790:: @
+ init.vim:791::     lspconfig.sumneko_lua.setup { on_attach = on_attach }@
+ init.vim:792::     lspconfig.tsserver.setup { on_attach = on_attach }@
+ init.vim:793::     lspconfig.vimls.setup { on_attach = on_attach }@
+ init.vim:794::     lspconfig.ltex.setup { on_attach = on_attach }@
+ init.vim:795::     lspconfig.texlab.setup { on_attach = on_attach }@
+ init.vim:796:: EOF@
+ init.vim:797:: lua << EOF@
+ init.vim:798:: local nvim_lsp = require('lspconfig')@
+ init.vim:799:: -- Use an on_attach function to only map the following keys@
+ init.vim:800:: -- after the language server attaches to the current buffer@
+ init.vim:801:: local on_attach = function(client, bufnr)@
+ init.vim:802:: local function buf_set_keymap(...) vim.api.nvim_buf_set_keymap(bufnr, ...) end@
+ init.vim:803::  local function buf_set_option(...) vim.api.nvim_buf_set_option(bufnr, ...) end@
+ init.vim:804:: -- Enable completion triggered by <c-x><c-o>@
+ init.vim:805::   buf_set_option('omnifunc', 'v:lua.vim.lsp.omnifunc')@
+ init.vim:806:: @
+ init.vim:807::   -- Mappings.@
+ init.vim:808::   local opts = { noremap=true, silent=true }@
+ init.vim:809:: @
+ init.vim:810::   -- See `:help vim.lsp.*` for documentation on any of the below functions@
+ init.vim:811::   buf_set_keymap('n', 'gD', '<cmd>lua vim.lsp.buf.declaration()<CR>', opts)@
+ init.vim:812::   buf_set_keymap('n', 'gd', '<cmd>lua vim.lsp.buf.definition()<CR>', opts)@
+ init.vim:813::   --buf_set_keymap('n', 'K', '<cmd>lua vim.lsp.buf.hover()<CR>', opts)@
+ init.vim:814::   buf_set_keymap('n', 'gi', '<cmd>lua vim.lsp.buf.implementation()<CR>', opts)@
+ init.vim:815::   buf_set_keymap('n', '<S-C-k>', '<cmd>lua vim.lsp.buf.signature_help()<CR>', opts)@
+ init.vim:816::   buf_set_keymap('n', '<space>wa', '<cmd>lua vim.lsp.buf.add_workspace_folder()<CR>', opts)@
+ init.vim:817::   buf_set_keymap('n', '<space>wr', '<cmd>lua vim.lsp.buf.remove_workspace_folder()<CR>', opts)@
+ init.vim:818::   buf_set_keymap('n', '<space>wl', '<cmd>lua print(vim.inspect(vim.lsp.buf.list_workspace_folders()))<CR>', opts)@
+ init.vim:819::   buf_set_keymap('n', '<space>D', '<cmd>lua vim.lsp.buf.type_definition()<CR>', opts)@
+ init.vim:820::   buf_set_keymap('n', '<space>rn', '<cmd>lua vim.lsp.buf.rename()<CR>', opts)@
+ init.vim:821::   buf_set_keymap('n', '<leader>ca', '<cmd>lua vim.lsp.buf.code_action()<CR>', opts)@
+ init.vim:822::   --buf_set_keymap('n', 'lr', '<cmd>lua vim.lsp.buf.references()<CR>', opts)@
+ init.vim:823::   buf_set_keymap('n', '<space>e', '<cmd>lua vim.lsp.diagnostic.show_line_diagnostics()<CR>', opts)@
+ init.vim:824::   buf_set_keymap('n', '[d', '<cmd>lua vim.lsp.diagnostic.goto_prev()<CR>', opts)@
+ init.vim:825::   buf_set_keymap('n', ']d', '<cmd>lua vim.lsp.diagnostic.goto_next()<CR>', opts)@
+ init.vim:826::   buf_set_keymap('n', '<space>q', '<cmd>lua vim.lsp.diagnostic.set_loclist()<CR>', opts)@
+ init.vim:827::   buf_set_keymap('n', '<space>f', '<cmd>lua vim.lsp.buf.formatting()<CR>', opts)@
+ init.vim:828:: @
+ init.vim:829:: end@
+ init.vim:830:: EOF@
+ init.vim:831:: nnoremap <silent> g? <cmd>lua vim.diagnostic.open_float()<CR>@
+ init.vim:832:: "Lsp instal @
+ init.vim:833:: "@
+ init.vim:834:: " inoremap <cr> <cr> <backspace>@
  init.vim:835:: @
- init.vim:836:: lua <<EOF@
- init.vim:837::   -- Setup cmp.@
- init.vim:838:: @
- init.vim:839:: local has_words_before = function()@
- init.vim:840::   if vim.api.nvim_buf_get_option(0, "buftype") == "prompt" then@
- init.vim:841::     return false@
- init.vim:842::   end@
- init.vim:843::   local line, col = unpack(vim.api.nvim_win_get_cursor(0))@
- init.vim:844::   return col ~= 0 and vim.api.nvim_buf_get_lines(0, line - 1, line, true)[1]:sub(col, col):match("%s") == nil@
- init.vim:845:: end@
- init.vim:846:: @
- init.vim:847:: local feedkey = function(key, mode)@
- init.vim:848::   vim.api.nvim_feedkeys(vim.api.nvim_replace_termcodes(key, true, true, true), mode, true)@
- init.vim:849:: end@
- init.vim:850:: @
- init.vim:851:: local cmp = require'cmp'@
- init.vim:852:: cmp.setup ({@
- init.vim:853:: snippet = {@
- init.vim:854::       expand = function(args)@
- init.vim:855::         -- For `vsnip` user.@
- init.vim:856::         vim.fn["vsnip#anonymous"](args.body) -- For `vsnip` user.@
- init.vim:857::   -- ..\.  init.vim:858::+++Your other configuration ...@
- init.vim:858:: end,@
- init.vim:859:: },@
- init.vim:860:: @
- init.vim:861:: mapping = cmp.mapping.preset.insert({@
- init.vim:862::         ["<C-p>"] = cmp.mapping.select_prev_item(),@
- init.vim:863::         ["<C-n>"] = cmp.mapping.select_next_item(),@
- init.vim:864::        ['<C-d>'] = cmp.mapping.scroll_docs(-4),@
- init.vim:865::       ['<C-f>'] = cmp.mapping.scroll_docs(4),@
- init.vim:866::       ['<C-x>'] = cmp.mapping.complete(),@
- init.vim:867::       ['<C-e>'] = cmp.mapping.close(),@
- init.vim:868::       ['<CR>'] = cmp.mapping.confirm({ select = true }),@
- init.vim:869:: -- ..\.  init.vim:870::+++Your other mappings ...@
- init.vim:870:: ["<Tab>"] = cmp.mapping(function(fallback) @
- init.vim:871::       if vim.fn["vsnip#expandable"]() == 1@
- init.vim:872::         then@
- init.vim:873::         feedkey("<Plug>(vsnip-expand)", "")@
- init.vim:874::      elseif cmp.visible() then@
- init.vim:875::         cmp.select_next_item()@
- init.vim:876::       elseif has_words_before() then @
- init.vim:877::         cmp.complete()@
- init.vim:878::       else @
- init.vim:879::         fallback() -- The fallback function sends a already mapped key\.  init.vim:880::+++In this case, it's probably `<Tab>`.@
- init.vim:880::       end@
- init.vim:881::     end, { "i", "s" }),@
- init.vim:882:: ["<S-Tab>"] = cmp.mapping(function()@
- init.vim:883::       if vim.fn.pumvisible() == 1 then@
- init.vim:884::         feedkey("<C-p>", "n")  @
- init.vim:885::       elseif vim.fn["vsnip#jumpable"](-1) == 1 then@
- init.vim:886::         feedkey("<Plug>(vsnip-jump-prev)", "")@
- init.vim:887::       end@
- init.vim:888::     end, { "i", "s" }),@
- init.vim:889:: }),@
- init.vim:890:: requires = {@
- init.vim:891::     {@
- init.vim:892::       'tzachar/fuzzy.nvim',@
- init.vim:893::       'quangnguyen30192/cmp-nvim-tags',@
- init.vim:894::       -- if you want the sources is available for some file types@
- init.vim:895::       ft = {@
- init.vim:896::         'tex',@
- init.vim:897::         'latex' @
- init.vim:898::       }@
- init.vim:899::     }@
- init.vim:900::     },@
- init.vim:901:: -- ..\.  init.vim:902::+++Your other configuration ...@
- init.vim:902:: sources = cmp.config.sources({@
- init.vim:903::       -- For vsnip user\.@@@
- init.vim:904:: { name = 'vsnip', keyword_length = 1000 },@
- init.vim:905:: { name = 'tags' },@
- init.vim:906:: { name = 'nvim_lsp', keyword_length = 4 },@
- init.vim:907:: -- For ultisnips user.@
- init.vim:908::       -- { name = 'ultisnips' },  @
- init.vim:909:: { name = 'omni', keyword_length = 4},@
- init.vim:910::        -- { name = 'spell' }, @
- init.vim:911::       --{ name = 'treesitter', keyword_length = 4 },@
- init.vim:912:: { name = 'buffer', keyword_length = 4 }@
- init.vim:913:: --{ name = 'fuzzy_buffer', keyword_length = 8 }@
- init.vim:914:: }),@
- init.vim:915:: --completion = {@
- init.vim:916:: --    autocomplete = true@
- init.vim:917:: --    }@
- init.vim:918:: })@
- init.vim:919:: EOF@
- init.vim:920:: " @
- init.vim:921:: " " LSP mappings   @
- init.vim:922:: " "" LSP mappings @
- init.vim:923:: noremap <leader>ca  :lua vim.lsp.buf.code_action()<CR>@
- init.vim:924:: noremap <leader>la  :lua vim.lsp.buf.code_action()<CR>@
- init.vim:925:: " @
- init.vim:926:: " @
- init.vim:927:: lua <<EOF@
- init.vim:928::  require('nvim_comment').setup(@
- init.vim:929:: {@
- init.vim:930::    -- Linters prefer comment and line to have a space in between markers@
- init.vim:931::    marker_padding = true,@
- init.vim:932::    -- should comment out empty or whitespace only lines@
- init.vim:933::    comment_empty = true,@
- init.vim:934::    -- Should key mappings be created@
- init.vim:935::    create_mappings = true,@
- init.vim:936::    -- Normal mode mapping left hand side@
- init.vim:937::    line_mapping = "gc",@
- init.vim:938::    -- Visual/Operator mapping left hand side@
- init.vim:939::    operator_mapping = "<leader>c",@
- init.vim:940::    -- Hook function to call before commenting takes place@
- init.vim:941::    --hook = nil @
- init.vim:942::  }@
- init.vim:943::  )@
- init.vim:944:: EOF@
- init.vim:945:: nmap <leader>c gc@
- init.vim:946:: lua <<EOF@
- init.vim:947:: local true_zen = require("true-zen")@
- init.vim:948:: true_zen.setup({@
- init.vim:949::  	ui = {@
- init.vim:950::  		bottom = {@
- init.vim:951::  			laststatus = 0,@
- init.vim:952::  			ruler = false,@
- init.vim:953::  			showmode = false,@
- init.vim:954::  			showcmd = false,@
- init.vim:955::  			cmdheight = 1,@
- init.vim:956::  		},@
- init.vim:957::  		top = {@
- init.vim:958::  			showtabline = 0,@
- init.vim:959::  		},@
- init.vim:960::  		left = {@
- init.vim:961::  			number = false,@
- init.vim:962::  			relativenumber = false,@
- init.vim:963::  			signcolumn = "no",@
- init.vim:964::  		},@
- init.vim:965::  	},@
- init.vim:966::  	modes = {@
- init.vim:967::  		ataraxis = {@
- init.vim:968::  			-- left_padding = 20,@
- init.vim:969::  			-- right_padding = 20,@
- init.vim:970::  			top_padding = 0,@
- init.vim:971::  			bottom_padding = 0,@
- init.vim:972::  			ideal_writing_area_width = {60},@
- init.vim:973::  			auto_padding = true,@
- init.vim:974::  			keep_default_fold_fillchars = true,@
- init.vim:975::  			custom_bg = {"none", ""},@
- init.vim:976::  			bg_configuration = true,@
- init.vim:977::  			quit = "untoggle",@
- init.vim:978::  			ignore_floating_windows = true,@
- init.vim:979::  			affected_higroups = {@
- init.vim:980::  				NonText = true,@
- init.vim:981::  				FoldColumn = true,@
- init.vim:982::  				ColorColumn = true,@
- init.vim:983::  				VertSplit = true,@
- init.vim:984::  				StatusLine = true,@
- init.vim:985::  				StatusLineNC = true,@
- init.vim:986::  				SignColumn = true,@
- init.vim:987::  			},@
- init.vim:988::  		},@
- init.vim:989::  		focus = {@
- init.vim:990::  			margin_of_error = 5,@
- init.vim:991::  			focus_method = "experimental"@
- init.vim:992::  		},@
- init.vim:993::  	},@
- init.vim:994::  	integrations = {@
- init.vim:995::  		vim_gitgutter = false,@
- init.vim:996::  		galaxyline = false,@
- init.vim:997::  		tmux = false,@
- init.vim:998::  		gitsigns = false,@
- init.vim:999::  		nvim_bufferline = false,@
- init.vim:1000::  		limelight = false,@
- init.vim:1001::  		twilight = false,@
- init.vim:1002::  		vim_airline = false,@
- init.vim:1003::  		vim_powerline = false,@
- init.vim:1004::  		vim_signify = false,@
- init.vim:1005::  		express_line = false,@
- init.vim:1006::  		lualine = false,@
- init.vim:1007::  		lightline = false,@
- init.vim:1008::  		feline = false,@
- init.vim:1009::  	},@
- init.vim:1010::  	misc = {@
- init.vim:1011::  		on_off_commands = true,@
- init.vim:1012::  		ui_elements_commands = false,@
- init.vim:1013::  		cursor_by_mode = false,@
- init.vim:1014::  	}@
- init.vim:1015::  })@
- init.vim:1016:: EOF@
- init.vim:1017:: lua <<EOF@
- init.vim:1018:: require('feline').setup({@
- init.vim:1019::     preset = 'noicon'@
- init.vim:1020::     })@
- init.vim:1021:: EOF@
- init.vim:1022:: " @
- init.vim:1023:: " @
+ init.vim:836:: set completeopt=menu,menuone,noselect@
+ init.vim:837:: @
+ init.vim:838:: lua <<EOF@
+ init.vim:839::   -- Setup cmp.@
+ init.vim:840:: @
+ init.vim:841:: local has_words_before = function()@
+ init.vim:842::   if vim.api.nvim_buf_get_option(0, "buftype") == "prompt" then@
+ init.vim:843::     return false@
+ init.vim:844::   end@
+ init.vim:845::   local line, col = unpack(vim.api.nvim_win_get_cursor(0))@
+ init.vim:846::   return col ~= 0 and vim.api.nvim_buf_get_lines(0, line - 1, line, true)[1]:sub(col, col):match("%s") == nil@
+ init.vim:847:: end@
+ init.vim:848:: @
+ init.vim:849:: local feedkey = function(key, mode)@
+ init.vim:850::   vim.api.nvim_feedkeys(vim.api.nvim_replace_termcodes(key, true, true, true), mode, true)@
+ init.vim:851:: end@
+ init.vim:852:: @
+ init.vim:853:: local cmp = require'cmp'@
+ init.vim:854:: cmp.setup ({@
+ init.vim:855:: snippet = {@
+ init.vim:856::       expand = function(args)@
+ init.vim:857::         -- For `vsnip` user.@
+ init.vim:858::         vim.fn["vsnip#anonymous"](args.body) -- For `vsnip` user.@
+ init.vim:859::   -- ..\.  init.vim:860::+++Your other configuration ...@
+ init.vim:860:: end,@
+ init.vim:861:: },@
+ init.vim:862:: @
+ init.vim:863:: mapping = cmp.mapping.preset.insert({@
+ init.vim:864::         ["<C-p>"] = cmp.mapping.select_prev_item(),@
+ init.vim:865::         ["<C-n>"] = cmp.mapping.select_next_item(),@
+ init.vim:866::        ['<C-d>'] = cmp.mapping.scroll_docs(-4),@
+ init.vim:867::       ['<C-f>'] = cmp.mapping.scroll_docs(4),@
+ init.vim:868::       ['<C-x>'] = cmp.mapping.complete(),@
+ init.vim:869::       ['<C-e>'] = cmp.mapping.close(),@
+ init.vim:870::       ['<CR>'] = cmp.mapping.confirm({ select = true }),@
+ init.vim:871:: -- ..\.  init.vim:872::+++Your other mappings ...@
+ init.vim:872:: ["<Tab>"] = cmp.mapping(function(fallback) @
+ init.vim:873::       if vim.fn["vsnip#expandable"]() == 1@
+ init.vim:874::         then@
+ init.vim:875::         feedkey("<Plug>(vsnip-expand)", "")@
+ init.vim:876::      elseif cmp.visible() then@
+ init.vim:877::         cmp.select_next_item()@
+ init.vim:878::       elseif has_words_before() then @
+ init.vim:879::         cmp.complete()@
+ init.vim:880::       else @
+ init.vim:881::         fallback() -- The fallback function sends a already mapped key\.  init.vim:882::+++In this case, it's probably `<Tab>`.@
+ init.vim:882::       end@
+ init.vim:883::     end, { "i", "s" }),@
+ init.vim:884:: ["<S-Tab>"] = cmp.mapping(function()@
+ init.vim:885::       if vim.fn.pumvisible() == 1 then@
+ init.vim:886::         feedkey("<C-p>", "n")  @
+ init.vim:887::       elseif vim.fn["vsnip#jumpable"](-1) == 1 then@
+ init.vim:888::         feedkey("<Plug>(vsnip-jump-prev)", "")@
+ init.vim:889::       end@
+ init.vim:890::     end, { "i", "s" }),@
+ init.vim:891:: }),@
+ init.vim:892:: requires = {@
+ init.vim:893::     {@
+ init.vim:894::       'tzachar/fuzzy.nvim',@
+ init.vim:895::       'quangnguyen30192/cmp-nvim-tags',@
+ init.vim:896::       -- if you want the sources is available for some file types@
+ init.vim:897::       ft = {@
+ init.vim:898::         'tex',@
+ init.vim:899::         'latex' @
+ init.vim:900::       }@
+ init.vim:901::     }@
+ init.vim:902::     },@
+ init.vim:903:: -- ..\.  init.vim:904::+++Your other configuration ...@
+ init.vim:904:: sources = cmp.config.sources({@
+ init.vim:905::       -- For vsnip user\.@@@
+ init.vim:906:: { name = 'vsnip', keyword_length = 1000 },@
+ init.vim:907:: { name = 'tags' },@
+ init.vim:908:: { name = 'nvim_lsp', keyword_length = 4 },@
+ init.vim:909:: -- For ultisnips user.@
+ init.vim:910::       -- { name = 'ultisnips' },  @
+ init.vim:911:: { name = 'omni', keyword_length = 4},@
+ init.vim:912::        -- { name = 'spell' }, @
+ init.vim:913::       --{ name = 'treesitter', keyword_length = 4 },@
+ init.vim:914:: { name = 'buffer', keyword_length = 4 }@
+ init.vim:915:: --{ name = 'fuzzy_buffer', keyword_length = 8 }@
+ init.vim:916:: }),@
+ init.vim:917:: --completion = {@
+ init.vim:918:: --    autocomplete = true@
+ init.vim:919:: --    }@
+ init.vim:920:: })@
+ init.vim:921:: EOF@
+ init.vim:922:: " @
+ init.vim:923:: " " LSP mappings   @
+ init.vim:924:: " "" LSP mappings @
+ init.vim:925:: noremap <leader>ca  :lua vim.lsp.buf.code_action()<CR>@
+ init.vim:926:: noremap <leader>la  :lua vim.lsp.buf.code_action()<CR>@
+ init.vim:927:: " @
+ init.vim:928:: " @
+ init.vim:929:: lua <<EOF@
+ init.vim:930::  require('nvim_comment').setup(@
+ init.vim:931:: {@
+ init.vim:932::    -- Linters prefer comment and line to have a space in between markers@
+ init.vim:933::    marker_padding = true,@
+ init.vim:934::    -- should comment out empty or whitespace only lines@
+ init.vim:935::    comment_empty = true,@
+ init.vim:936::    -- Should key mappings be created@
+ init.vim:937::    create_mappings = true,@
+ init.vim:938::    -- Normal mode mapping left hand side@
+ init.vim:939::    line_mapping = "gc",@
+ init.vim:940::    -- Visual/Operator mapping left hand side@
+ init.vim:941::    operator_mapping = "<leader>c",@
+ init.vim:942::    -- Hook function to call before commenting takes place@
+ init.vim:943::    --hook = nil @
+ init.vim:944::  }@
+ init.vim:945::  )@
+ init.vim:946:: EOF@
+ init.vim:947:: nmap <leader>c gc@
+ init.vim:948:: lua <<EOF@
+ init.vim:949:: local true_zen = require("true-zen")@
+ init.vim:950:: true_zen.setup({@
+ init.vim:951::  	ui = {@
+ init.vim:952::  		bottom = {@
+ init.vim:953::  			laststatus = 0,@
+ init.vim:954::  			ruler = false,@
+ init.vim:955::  			showmode = false,@
+ init.vim:956::  			showcmd = false,@
+ init.vim:957::  			cmdheight = 1,@
+ init.vim:958::  		},@
+ init.vim:959::  		top = {@
+ init.vim:960::  			showtabline = 0,@
+ init.vim:961::  		},@
+ init.vim:962::  		left = {@
+ init.vim:963::  			number = false,@
+ init.vim:964::  			relativenumber = false,@
+ init.vim:965::  			signcolumn = "no",@
+ init.vim:966::  		},@
+ init.vim:967::  	},@
+ init.vim:968::  	modes = {@
+ init.vim:969::  		ataraxis = {@
+ init.vim:970::  			-- left_padding = 20,@
+ init.vim:971::  			-- right_padding = 20,@
+ init.vim:972::  			top_padding = 0,@
+ init.vim:973::  			bottom_padding = 0,@
+ init.vim:974::  			ideal_writing_area_width = {60},@
+ init.vim:975::  			auto_padding = true,@
+ init.vim:976::  			keep_default_fold_fillchars = true,@
+ init.vim:977::  			custom_bg = {"none", ""},@
+ init.vim:978::  			bg_configuration = true,@
+ init.vim:979::  			quit = "untoggle",@
+ init.vim:980::  			ignore_floating_windows = true,@
+ init.vim:981::  			affected_higroups = {@
+ init.vim:982::  				NonText = true,@
+ init.vim:983::  				FoldColumn = true,@
+ init.vim:984::  				ColorColumn = true,@
+ init.vim:985::  				VertSplit = true,@
+ init.vim:986::  				StatusLine = true,@
+ init.vim:987::  				StatusLineNC = true,@
+ init.vim:988::  				SignColumn = true,@
+ init.vim:989::  			},@
+ init.vim:990::  		},@
+ init.vim:991::  		focus = {@
+ init.vim:992::  			margin_of_error = 5,@
+ init.vim:993::  			focus_method = "experimental"@
+ init.vim:994::  		},@
+ init.vim:995::  	},@
+ init.vim:996::  	integrations = {@
+ init.vim:997::  		vim_gitgutter = false,@
+ init.vim:998::  		galaxyline = false,@
+ init.vim:999::  		tmux = false,@
+ init.vim:1000::  		gitsigns = false,@
+ init.vim:1001::  		nvim_bufferline = false,@
+ init.vim:1002::  		limelight = false,@
+ init.vim:1003::  		twilight = false,@
+ init.vim:1004::  		vim_airline = false,@
+ init.vim:1005::  		vim_powerline = false,@
+ init.vim:1006::  		vim_signify = false,@
+ init.vim:1007::  		express_line = false,@
+ init.vim:1008::  		lualine = false,@
+ init.vim:1009::  		lightline = false,@
+ init.vim:1010::  		feline = false,@
+ init.vim:1011::  	},@
+ init.vim:1012::  	misc = {@
+ init.vim:1013::  		on_off_commands = true,@
+ init.vim:1014::  		ui_elements_commands = false,@
+ init.vim:1015::  		cursor_by_mode = false,@
+ init.vim:1016::  	}@
+ init.vim:1017::  })@
+ init.vim:1018:: EOF@
+ init.vim:1019:: lua <<EOF@
+ init.vim:1020:: require('feline').setup({@
+ init.vim:1021::     preset = 'noicon'@
+ init.vim:1022::     })@
+ init.vim:1023:: EOF@
  init.vim:1024:: " @
- init.vim:1025:: " " lua <<EOF@
- init.vim:1026:: " " require('lualine').setup{@
- init.vim:1027:: " " options = {disabled_filetypes = {'txt', 'text'}}@
- init.vim:1028:: " " }@
- init.vim:1029:: " " EOF@
- init.vim:1030:: " lua << EOF@
- init.vim:1031:: "   require("zen-mode").setup {@
- init.vim:1032:: "   window = {@
- init.vim:1033:: "     backdrop = 1, -- shade the backdrop of the Zen window\.  init.vim:1034::+++Set to 1 to keep the same as Normal@
- init.vim:1034:: "     -- height and width can be:@
- init.vim:1035:: "     -- * an absolute number of cells when > 1@
- init.vim:1036:: "     -- * a percentage of the width / height of the editor when <= 1@
- init.vim:1037:: "     -- * a function that returns the width or the height@
- init.vim:1038:: "     width = .66, -- width of the Zen window@
- init.vim:1039:: "     height = 1, -- height of the Zen window@
- init.vim:1040:: "     -- by default, no options are changed for the Zen window@
- init.vim:1041:: "     -- uncomment any of the options below, or add other vim.wo options you want to apply@
- init.vim:1042:: "     options = {@
- init.vim:1043:: "       -- signcolumn = "no", -- disable signcolumn@
- init.vim:1044:: "       -- number = false, -- disable number column@
- init.vim:1045:: "       -- relativenumber = false, -- disable relative numbers@
- init.vim:1046:: "       -- cursorline = false, -- disable cursorline@
- init.vim:1047:: "       -- cursorcolumn = false, -- disable cursor column@
- init.vim:1048:: "       -- foldcolumn = "0", -- disable fold column@
- init.vim:1049:: "       -- list = false, -- disable whitespace characters@
- init.vim:1050:: "     },@
- init.vim:1051:: "   },@
- init.vim:1052:: "   plugins = {@
- init.vim:1053:: "     -- disable some global vim options (vim.o...)@
- init.vim:1054:: "     -- comment the lines to not apply the options@
- init.vim:1055:: "     options = {@
- init.vim:1056:: "       enabled = true,@
- init.vim:1057:: "       ruler = false, -- disables the ruler text in the cmd line area@
- init.vim:1058:: "       showcmd = false, -- disables the command in the last line of the screen@
- init.vim:1059:: "     },@
- init.vim:1060:: "     twilight = { enabled = false }, -- enable to start Twilight when zen mode opens@
- init.vim:1061:: "     gitsigns = { enabled = false }, -- disables git signs@
- init.vim:1062:: "     tmux = { enabled = false }, -- disables the tmux statusline@
- init.vim:1063:: "     -- this will change the font size on kitty when in zen mode@
- init.vim:1064:: "     -- to make this work, you need to set the following kitty options:@
- init.vim:1065:: "     -- - allow_remote_control socket-only@
- init.vim:1066:: "     -- - listen_on unix:/tmp/kitty@
- init.vim:1067:: "     kitty = {@
- init.vim:1068:: "       enabled = false,@
- init.vim:1069:: "       font = "+4", -- font size increment@
- init.vim:1070:: "     },@
- init.vim:1071:: "   },@
- init.vim:1072:: "   -- callback where you can add custom code when the Zen window opens@
- init.vim:1073:: "   on_open = function(win)@
- init.vim:1074:: "   end,@
- init.vim:1075:: "   -- callback where you can add custom code when the Zen window closes@
- init.vim:1076:: "   on_close = function()@
- init.vim:1077:: "   end,@
- init.vim:1078:: " }@
- init.vim:1079:: " EOF@
- init.vim:1080:: " lua <<EOF@
- init.vim:1081:: " require('telescope').setup{@
- init.vim:1082:: "   defaults = {@
- init.vim:1083:: "     -- Default configuration for telescope goes here:@
- init.vim:1084:: "     -- config_key = value,@
- init.vim:1085:: "     mappings = {@
- init.vim:1086:: "       i = {@
- init.vim:1087:: "         -- map actions.which_key to <C-h> (default: <C-/>)@
- init.vim:1088:: "         -- actions.which_key shows the mappings for your picker,@
- init.vim:1089:: "         -- e.g\.  init.vim:1090::+++git_{create, delete, ...}_branch for the git_branches picker@
- init.vim:1090:: "         ["<C-h>"] = "which_key"@
- init.vim:1091:: "       }@
- init.vim:1092:: "     }@
- init.vim:1093:: "   },@
- init.vim:1094:: "   pickers = {@
- init.vim:1095:: "     -- Default configuration for builtin pickers goes here:@
- init.vim:1096:: "     -- picker_name = {@
- init.vim:1097:: "     --   picker_config_key = value,@
- init.vim:1098:: "     --   ...@
- init.vim:1099:: "     -- }@
- init.vim:1100:: "     -- Now the picker_config_key will be applied every time you call this@
- init.vim:1101:: "     -- builtin picker @
- init.vim:1102:: "   },@
- init.vim:1103:: "   extensions = {@
- init.vim:1104:: "     -- Your extension configuration goes here:@
- init.vim:1105:: "     -- extension_name = {@
- init.vim:1106:: "     --   extension_config_key = value,@
- init.vim:1107:: "     -- }@
- init.vim:1108:: "     -- please take a look at the readme of the extension you want to configure@
- init.vim:1109:: "   }@
- init.vim:1110:: " } @
- init.vim:1111:: @
- init.vim:1112:: " " EOF@
- init.vim:1113:: " lua require'hop'.setup { keys = 'etovxqpdygfblzhckisuran', term_seq_bias = 0.5 } @
- init.vim:1114:: " lua <<EOF@
- init.vim:1115:: " require('fm-nvim').setup{@
- init.vim:1116:: " 	config =@
- init.vim:1117:: " 	{@
- init.vim:1118:: " 		edit_cmd = "edit", -- opts: 'tabedit'; 'split'; 'pedit'; etc...@
- init.vim:1119:: " 		border   = "single", -- opts: 'rounded'; 'double'; 'single'; 'solid'; 'shawdow'@
- init.vim:1120:: " 		height   = .9,@
- init.vim:1121:: " 		width    = .9,@
- init.vim:1122:: "                @
- init.vim:1123:: "           }@
- init.vim:1124:: "           	-- Mappings used with the plugin@
- init.vim:1125:: " 	mappings = {@
- init.vim:1126:: " 		vert_split = "<C-v>",@
- init.vim:1127:: " 		horz_split = "<C-h>",@
- init.vim:1128:: " 		tabedit    = "<C-t>",@
- init.vim:1129:: " 		edit       = "<C-e>",@
- init.vim:1130:: " 		ESC        = "<ESC>"@
- init.vim:1131:: " 	},@
- init.vim:1132:: " }@
- init.vim:1133:: " EOF@
- init.vim:1134:: " lua <<EOF@
- init.vim:1135:: " require("telescope").load_extension("prosesitter") -- Optionally, depends on telescope.nvim@
- init.vim:1136:: " require("prosesitter"):setup({@
- init.vim:1137:: " 	vale_bin = vim.fn.stdpath("data") .\.  init.vim:1138::+++"/prosesitter/vale",@
- init.vim:1138:: " 	vale_cfg = vim.fn.stdpath("data") .\.  init.vim:1139::+++"/prosesitter/vale_cfg.ini",@
- init.vim:1139:: " 	--optional extra queries overrides existing queries@
- init.vim:1140:: " 	queries = { @
- init.vim:1141:: " 		-- see the piece on adding queries on how to use this @
- init.vim:1142:: " 		-- (not needed if using an out of the box supported language@
- init.vim:1143:: " 		py = { @
- init.vim:1144:: " 			strings = "[(string) ] @capture",@
- init.vim:1145:: " 			comments = "[(comment)+ ] @capture",@
- init.vim:1146:: " 		},@
- init.vim:1147:: " 	}, @
- init.vim:1148:: " 	-- highlight groups to use for lint errors, warnings and suggestions@
- init.vim:1149:: " 	--" severity_to_hl = { error = "SpellBad", warning = "SpellRare", suggestion: "SpellCap" },@
- init.vim:1150:: " 	-- weather to lint strings, comments or both for a language@
- init.vim:1151:: " 	lint_targets = { py = "both", tex = "strings", sh = "comments" }, @
- init.vim:1152:: " 	disabled_ext = { "tex" }, -- do not ever lint tex files@
- init.vim:1153:: " 	auto_enable = false, -- do not start linting files on open (default = true)@
- init.vim:1154:: " 	default_cmds = false,  -- do not add commands (default = true)@
- init.vim:1155:: " })@
- init.vim:1156:: " EOF @
- init.vim:1157:: "@
- init.vim:1158:: "@
- init.vim:1159:: lua <<EOF@
- init.vim:1160:: require('spellsitter').setup {@
- init.vim:1161::   hl = 'SpellBad', @
- init.vim:1162::   captures = {},  -- set to {} to spellcheck everything@
- init.vim:1163:: @
- init.vim:1164::   -- Spellchecker to use\.  init.vim:1165::+++values:@
- init.vim:1165::   -- * vimfn: built-in spell checker using vim.fn.spellbadword()@
- init.vim:1166::   -- * ffi: built-in spell checker using the FFI to access the@
- init.vim:1167::   --   internal spell_check() function@
- init.vim:1168:: spellchecker = 'vimfn'@
- init.vim:1169:: }@
- init.vim:1170:: EOF@
- init.vim:1171:: lua <<EOF@
- init.vim:1172::     require'lightspeed'.setup { @
- init.vim:1173::         jump_to_unique_chars = false,@
- init.vim:1174::         repeat_ft_with_target_char = true,@
- init.vim:1175::         safe_labels  = { "f", "n", "u", "/", "e", "z", "h", "k", "m", "l", "j", "w", "b", "S", "F", "N", "L", "H", "M", "U", "G", "T", "?", "Z" },@
- init.vim:1176::         labels = { "s", "f", "n", "j", "k", "l", "h", "o", "d", "w", "e", "m", "b", "u", "y", "v", "r", "g", "c", "x", "/", "z", "S", "F", "N", "J", "K", "L", "H", "O", "D", "W", "E", "M", "B", "U", "Y", "V", "R", "G", "T", "C", "X", "?", "Z" }@
- init.vim:1177:: }@
- init.vim:1178:: EOF@
- init.vim:1179:: @
- init.vim:1180:: let g:firenvim_config = { @
- init.vim:1181::     \ 'globalSettings': {@
- init.vim:1182::         \ 'alt': 'all',@
- init.vim:1183::     \  },@
- init.vim:1184::     \ 'localSettings': {@
- init.vim:1185::         \ '.*': {@
- init.vim:1186::             \ 'cmdline': 'neovim',@
- init.vim:1187::             \ 'content': 'text',@
- init.vim:1188::             \ 'priority': 0,@
- init.vim:1189::             \ 'selector': 'textarea',@
- init.vim:1190::             \ 'takeover': 'never',@
- init.vim:1191::         \ },@
- init.vim:1192::     \ }@
- init.vim:1193:: \ }@
- init.vim:1194:: lua << EOF@
- init.vim:1195:: @
- init.vim:1196:: require('fzf-lua').setup{@
- init.vim:1197:: -- ...@
- init.vim:1198:: }@
- init.vim:1199:: EOF@
- init.vim:1200:: lua <<EOF@
- init.vim:1201:: -- ===========================================@
- init.vim:1202:: --  Add user dictionary for ltex-ls@
- init.vim:1203:: --  * en.utf-8.add must be created using `zg` when set spell is on@
- init.vim:1204:: -- ===========================================@
- init.vim:1205:: local path = vim.fn.stdpath 'config' .\.  init.vim:1206::+++'/spell/en.utf-8.add'@
- init.vim:1206:: local path = vim.fn.stdpath 'config' .\.  init.vim:1207::+++'/spell/es.utf-8.spl'@
- init.vim:1207:: local words = {}@
- init.vim:1208:: @
- init.vim:1209:: for word in io.open(path, 'r'):lines() do@
- init.vim:1210::   table.insert(words, word)@
- init.vim:1211:: end@
- init.vim:1212:: require'lspconfig'.ltex.setup{@
- init.vim:1213::   on_attach = on_attach,@
- init.vim:1214::   capabilities = capabilities,@
- init.vim:1215::   settings = {@
- init.vim:1216::     ltex = {@
- init.vim:1217::       disabledRules = {@
- init.vim:1218::         ['en-US'] = { 'PROFANITY' },@
- init.vim:1219::         ['en-GB'] = { 'PROFANITY' },@
- init.vim:1220::       },@
- init.vim:1221::       language="en-US",@
- init.vim:1222::       dictionary = {@
- init.vim:1223::         ['en-US'] = words,@
- init.vim:1224::         ['en-GB'] = words,@
- init.vim:1225::         ['es'] = words,@
- init.vim:1226:: },@
- init.vim:1227::     },@
- init.vim:1228::   },@
- init.vim:1229:: }@
- init.vim:1230:: EOF@
- init.vim:1231:: " lua <<EOF@
- init.vim:1232:: " require('neoscroll').setup{@
- init.vim:1233:: "     -- All these keys will be mapped to their corresponding default scrolling animation@
- init.vim:1234:: "     mappings = {'<C-u>', '<C-d>', '<C-b>', '<C-f>',@
- init.vim:1235:: "                 '<C-y>', '<C-e>', 'zt', 'zz', 'zb'},@
- init.vim:1236:: "     hide_cursor = true,          -- Hide cursor while scrolling@
- init.vim:1237:: "     stop_eof = true,             -- Stop at <EOF> when scrolling downwards@
- init.vim:1238:: "     use_local_scrolloff = false, -- Use the local scope of scrolloff instead of the global scope@
- init.vim:1239:: "     respect_scrolloff = false,   -- Stop scrolling when the cursor reaches the scrolloff margin of the file@
- init.vim:1240:: "     cursor_scrolls_alone = true, -- The cursor will keep on scrolling even if the window cannot scroll further@
- init.vim:1241:: "     easing_function = nil,        -- Default easing function@
- init.vim:1242:: "     pre_hook = nil,              -- Function to run before the scrolling animation starts@
- init.vim:1243:: "     post_hook = nil,              -- Function to run after the scrolling animation ends@
- init.vim:1244:: "     }@
- init.vim:1245:: " EOF@
- init.vim:1246:: @
- init.vim:1247:: @
+ init.vim:1025:: " @
+ init.vim:1026:: " @
+ init.vim:1027:: " " lua <<EOF@
+ init.vim:1028:: " " require('lualine').setup{@
+ init.vim:1029:: " " options = {disabled_filetypes = {'txt', 'text'}}@
+ init.vim:1030:: " " }@
+ init.vim:1031:: " " EOF@
+ init.vim:1032:: " lua << EOF@
+ init.vim:1033:: "   require("zen-mode").setup {@
+ init.vim:1034:: "   window = {@
+ init.vim:1035:: "     backdrop = 1, -- shade the backdrop of the Zen window\.  init.vim:1036::+++Set to 1 to keep the same as Normal@
+ init.vim:1036:: "     -- height and width can be:@
+ init.vim:1037:: "     -- * an absolute number of cells when > 1@
+ init.vim:1038:: "     -- * a percentage of the width / height of the editor when <= 1@
+ init.vim:1039:: "     -- * a function that returns the width or the height@
+ init.vim:1040:: "     width = .66, -- width of the Zen window@
+ init.vim:1041:: "     height = 1, -- height of the Zen window@
+ init.vim:1042:: "     -- by default, no options are changed for the Zen window@
+ init.vim:1043:: "     -- uncomment any of the options below, or add other vim.wo options you want to apply@
+ init.vim:1044:: "     options = {@
+ init.vim:1045:: "       -- signcolumn = "no", -- disable signcolumn@
+ init.vim:1046:: "       -- number = false, -- disable number column@
+ init.vim:1047:: "       -- relativenumber = false, -- disable relative numbers@
+ init.vim:1048:: "       -- cursorline = false, -- disable cursorline@
+ init.vim:1049:: "       -- cursorcolumn = false, -- disable cursor column@
+ init.vim:1050:: "       -- foldcolumn = "0", -- disable fold column@
+ init.vim:1051:: "       -- list = false, -- disable whitespace characters@
+ init.vim:1052:: "     },@
+ init.vim:1053:: "   },@
+ init.vim:1054:: "   plugins = {@
+ init.vim:1055:: "     -- disable some global vim options (vim.o...)@
+ init.vim:1056:: "     -- comment the lines to not apply the options@
+ init.vim:1057:: "     options = {@
+ init.vim:1058:: "       enabled = true,@
+ init.vim:1059:: "       ruler = false, -- disables the ruler text in the cmd line area@
+ init.vim:1060:: "       showcmd = false, -- disables the command in the last line of the screen@
+ init.vim:1061:: "     },@
+ init.vim:1062:: "     twilight = { enabled = false }, -- enable to start Twilight when zen mode opens@
+ init.vim:1063:: "     gitsigns = { enabled = false }, -- disables git signs@
+ init.vim:1064:: "     tmux = { enabled = false }, -- disables the tmux statusline@
+ init.vim:1065:: "     -- this will change the font size on kitty when in zen mode@
+ init.vim:1066:: "     -- to make this work, you need to set the following kitty options:@
+ init.vim:1067:: "     -- - allow_remote_control socket-only@
+ init.vim:1068:: "     -- - listen_on unix:/tmp/kitty@
+ init.vim:1069:: "     kitty = {@
+ init.vim:1070:: "       enabled = false,@
+ init.vim:1071:: "       font = "+4", -- font size increment@
+ init.vim:1072:: "     },@
+ init.vim:1073:: "   },@
+ init.vim:1074:: "   -- callback where you can add custom code when the Zen window opens@
+ init.vim:1075:: "   on_open = function(win)@
+ init.vim:1076:: "   end,@
+ init.vim:1077:: "   -- callback where you can add custom code when the Zen window closes@
+ init.vim:1078:: "   on_close = function()@
+ init.vim:1079:: "   end,@
+ init.vim:1080:: " }@
+ init.vim:1081:: " EOF@
+ init.vim:1082:: " lua <<EOF@
+ init.vim:1083:: " require('telescope').setup{@
+ init.vim:1084:: "   defaults = {@
+ init.vim:1085:: "     -- Default configuration for telescope goes here:@
+ init.vim:1086:: "     -- config_key = value,@
+ init.vim:1087:: "     mappings = {@
+ init.vim:1088:: "       i = {@
+ init.vim:1089:: "         -- map actions.which_key to <C-h> (default: <C-/>)@
+ init.vim:1090:: "         -- actions.which_key shows the mappings for your picker,@
+ init.vim:1091:: "         -- e.g\.  init.vim:1092::+++git_{create, delete, ...}_branch for the git_branches picker@
+ init.vim:1092:: "         ["<C-h>"] = "which_key"@
+ init.vim:1093:: "       }@
+ init.vim:1094:: "     }@
+ init.vim:1095:: "   },@
+ init.vim:1096:: "   pickers = {@
+ init.vim:1097:: "     -- Default configuration for builtin pickers goes here:@
+ init.vim:1098:: "     -- picker_name = {@
+ init.vim:1099:: "     --   picker_config_key = value,@
+ init.vim:1100:: "     --   ...@
+ init.vim:1101:: "     -- }@
+ init.vim:1102:: "     -- Now the picker_config_key will be applied every time you call this@
+ init.vim:1103:: "     -- builtin picker @
+ init.vim:1104:: "   },@
+ init.vim:1105:: "   extensions = {@
+ init.vim:1106:: "     -- Your extension configuration goes here:@
+ init.vim:1107:: "     -- extension_name = {@
+ init.vim:1108:: "     --   extension_config_key = value,@
+ init.vim:1109:: "     -- }@
+ init.vim:1110:: "     -- please take a look at the readme of the extension you want to configure@
+ init.vim:1111:: "   }@
+ init.vim:1112:: " } @
+ init.vim:1113:: @
+ init.vim:1114:: " " EOF@
+ init.vim:1115:: " lua require'hop'.setup { keys = 'etovxqpdygfblzhckisuran', term_seq_bias = 0.5 } @
+ init.vim:1116:: " lua <<EOF@
+ init.vim:1117:: " require('fm-nvim').setup{@
+ init.vim:1118:: " 	config =@
+ init.vim:1119:: " 	{@
+ init.vim:1120:: " 		edit_cmd = "edit", -- opts: 'tabedit'; 'split'; 'pedit'; etc...@
+ init.vim:1121:: " 		border   = "single", -- opts: 'rounded'; 'double'; 'single'; 'solid'; 'shawdow'@
+ init.vim:1122:: " 		height   = .9,@
+ init.vim:1123:: " 		width    = .9,@
+ init.vim:1124:: "                @
+ init.vim:1125:: "           }@
+ init.vim:1126:: "           	-- Mappings used with the plugin@
+ init.vim:1127:: " 	mappings = {@
+ init.vim:1128:: " 		vert_split = "<C-v>",@
+ init.vim:1129:: " 		horz_split = "<C-h>",@
+ init.vim:1130:: " 		tabedit    = "<C-t>",@
+ init.vim:1131:: " 		edit       = "<C-e>",@
+ init.vim:1132:: " 		ESC        = "<ESC>"@
+ init.vim:1133:: " 	},@
+ init.vim:1134:: " }@
+ init.vim:1135:: " EOF@
+ init.vim:1136:: " lua <<EOF@
+ init.vim:1137:: " require("telescope").load_extension("prosesitter") -- Optionally, depends on telescope.nvim@
+ init.vim:1138:: " require("prosesitter"):setup({@
+ init.vim:1139:: " 	vale_bin = vim.fn.stdpath("data") .\.  init.vim:1140::+++"/prosesitter/vale",@
+ init.vim:1140:: " 	vale_cfg = vim.fn.stdpath("data") .\.  init.vim:1141::+++"/prosesitter/vale_cfg.ini",@
+ init.vim:1141:: " 	--optional extra queries overrides existing queries@
+ init.vim:1142:: " 	queries = { @
+ init.vim:1143:: " 		-- see the piece on adding queries on how to use this @
+ init.vim:1144:: " 		-- (not needed if using an out of the box supported language@
+ init.vim:1145:: " 		py = { @
+ init.vim:1146:: " 			strings = "[(string) ] @capture",@
+ init.vim:1147:: " 			comments = "[(comment)+ ] @capture",@
+ init.vim:1148:: " 		},@
+ init.vim:1149:: " 	}, @
+ init.vim:1150:: " 	-- highlight groups to use for lint errors, warnings and suggestions@
+ init.vim:1151:: " 	--" severity_to_hl = { error = "SpellBad", warning = "SpellRare", suggestion: "SpellCap" },@
+ init.vim:1152:: " 	-- weather to lint strings, comments or both for a language@
+ init.vim:1153:: " 	lint_targets = { py = "both", tex = "strings", sh = "comments" }, @
+ init.vim:1154:: " 	disabled_ext = { "tex" }, -- do not ever lint tex files@
+ init.vim:1155:: " 	auto_enable = false, -- do not start linting files on open (default = true)@
+ init.vim:1156:: " 	default_cmds = false,  -- do not add commands (default = true)@
+ init.vim:1157:: " })@
+ init.vim:1158:: " EOF @
+ init.vim:1159:: "@
+ init.vim:1160:: "@
+ init.vim:1161:: lua <<EOF@
+ init.vim:1162:: require('spellsitter').setup {@
+ init.vim:1163::   hl = 'SpellBad', @
+ init.vim:1164::   captures = {},  -- set to {} to spellcheck everything@
+ init.vim:1165:: @
+ init.vim:1166::   -- Spellchecker to use\.  init.vim:1167::+++values:@
+ init.vim:1167::   -- * vimfn: built-in spell checker using vim.fn.spellbadword()@
+ init.vim:1168::   -- * ffi: built-in spell checker using the FFI to access the@
+ init.vim:1169::   --   internal spell_check() function@
+ init.vim:1170:: spellchecker = 'vimfn'@
+ init.vim:1171:: }@
+ init.vim:1172:: EOF@
+ init.vim:1173:: lua <<EOF@
+ init.vim:1174::     require'lightspeed'.setup { @
+ init.vim:1175::         jump_to_unique_chars = false,@
+ init.vim:1176::         repeat_ft_with_target_char = true,@
+ init.vim:1177::         safe_labels  = { "f", "n", "u", "/", "e", "z", "h", "k", "m", "l", "j", "w", "b", "S", "F", "N", "L", "H", "M", "U", "G", "T", "?", "Z" },@
+ init.vim:1178::         labels = { "s", "f", "n", "j", "k", "l", "h", "o", "d", "w", "e", "m", "b", "u", "y", "v", "r", "g", "c", "x", "/", "z", "S", "F", "N", "J", "K", "L", "H", "O", "D", "W", "E", "M", "B", "U", "Y", "V", "R", "G", "T", "C", "X", "?", "Z" }@
+ init.vim:1179:: }@
+ init.vim:1180:: EOF@
+ init.vim:1181:: @
+ init.vim:1182:: let g:firenvim_config = { @
+ init.vim:1183::     \ 'globalSettings': {@
+ init.vim:1184::         \ 'alt': 'all',@
+ init.vim:1185::     \  },@
+ init.vim:1186::     \ 'localSettings': {@
+ init.vim:1187::         \ '.*': {@
+ init.vim:1188::             \ 'cmdline': 'neovim',@
+ init.vim:1189::             \ 'content': 'text',@
+ init.vim:1190::             \ 'priority': 0,@
+ init.vim:1191::             \ 'selector': 'textarea',@
+ init.vim:1192::             \ 'takeover': 'never',@
+ init.vim:1193::         \ },@
+ init.vim:1194::     \ }@
+ init.vim:1195:: \ }@
+ init.vim:1196:: lua << EOF@
+ init.vim:1197:: @
+ init.vim:1198:: require('fzf-lua').setup{@
+ init.vim:1199:: -- ...@
+ init.vim:1200:: }@
+ init.vim:1201:: EOF@
+ init.vim:1202:: lua <<EOF@
+ init.vim:1203:: -- ===========================================@
+ init.vim:1204:: --  Add user dictionary for ltex-ls@
+ init.vim:1205:: --  * en.utf-8.add must be created using `zg` when set spell is on@
+ init.vim:1206:: -- ===========================================@
+ init.vim:1207:: local path = vim.fn.stdpath 'config' .\.  init.vim:1208::+++'/spell/en.utf-8.add'@
+ init.vim:1208:: local path = vim.fn.stdpath 'config' .\.  init.vim:1209::+++'/spell/es.utf-8.spl'@
+ init.vim:1209:: local words = {}@
+ init.vim:1210:: @
+ init.vim:1211:: for word in io.open(path, 'r'):lines() do@
+ init.vim:1212::   table.insert(words, word)@
+ init.vim:1213:: end@
+ init.vim:1214:: require'lspconfig'.ltex.setup{@
+ init.vim:1215::   on_attach = on_attach,@
+ init.vim:1216::   capabilities = capabilities,@
+ init.vim:1217::   settings = {@
+ init.vim:1218::     ltex = {@
+ init.vim:1219::       disabledRules = {@
+ init.vim:1220::         ['en-US'] = { 'PROFANITY' },@
+ init.vim:1221::         ['en-GB'] = { 'PROFANITY' },@
+ init.vim:1222::       },@
+ init.vim:1223::       language="en-US",@
+ init.vim:1224::       dictionary = {@
+ init.vim:1225::         ['en-US'] = words,@
+ init.vim:1226::         ['en-GB'] = words,@
+ init.vim:1227::         ['es'] = words,@
+ init.vim:1228:: },@
+ init.vim:1229::     },@
+ init.vim:1230::   },@
+ init.vim:1231:: }@
+ init.vim:1232:: EOF@
+ init.vim:1233:: " lua <<EOF@
+ init.vim:1234:: " require('neoscroll').setup{@
+ init.vim:1235:: "     -- All these keys will be mapped to their corresponding default scrolling animation@
+ init.vim:1236:: "     mappings = {'<C-u>', '<C-d>', '<C-b>', '<C-f>',@
+ init.vim:1237:: "                 '<C-y>', '<C-e>', 'zt', 'zz', 'zb'},@
+ init.vim:1238:: "     hide_cursor = true,          -- Hide cursor while scrolling@
+ init.vim:1239:: "     stop_eof = true,             -- Stop at <EOF> when scrolling downwards@
+ init.vim:1240:: "     use_local_scrolloff = false, -- Use the local scope of scrolloff instead of the global scope@
+ init.vim:1241:: "     respect_scrolloff = false,   -- Stop scrolling when the cursor reaches the scrolloff margin of the file@
+ init.vim:1242:: "     cursor_scrolls_alone = true, -- The cursor will keep on scrolling even if the window cannot scroll further@
+ init.vim:1243:: "     easing_function = nil,        -- Default easing function@
+ init.vim:1244:: "     pre_hook = nil,              -- Function to run before the scrolling animation starts@
+ init.vim:1245:: "     post_hook = nil,              -- Function to run after the scrolling animation ends@
+ init.vim:1246:: "     }@
+ init.vim:1247:: " EOF@
  init.vim:1248:: @
  init.vim:1249:: @
- init.vim:1250::  @
- init.vim:1251:: " lua << EOF@
- init.vim:1252:: " require("stabilize").setup(@
- init.vim:1253:: " {@
- init.vim:1254:: "       force = true, -- stabilize window even when current cursor position will be hidden behind new window@
- init.vim:1255:: " 	forcemark = nil -- set context mark to register on force event which can be jumped to with '<forcemark>@
- init.vim:1256:: " 	--ignore = {  -- do not manage windows matching these file/buftypes@
- init.vim:1257:: " --		filetype = { "help", "list", "Trouble" },@
- init.vim:1258:: " --		buftype = { "terminal", "quickfix", -- "loclist" }@
- init.vim:1259:: " --	}@
- init.vim:1260:: " }@
- init.vim:1261:: " )@
- init.vim:1262:: " EOF@
- init.vim:1263:: " lua <<EOF@
- init.vim:1264:: " require('dd').setup()@
- init.vim:1265:: " EOF@
- init.vim:1266:: " lua << EOF@
- init.vim:1267:: " local opts = {@
- init.vim:1268:: "   log_level = 'info',@
- init.vim:1269:: "   auto_session_enable_last_session = false,@
- init.vim:1270:: "   auto_session_root_dir = vim.fn.stdpath('data').."/sessions/",@
- init.vim:1271:: "   auto_session_enabled = false,@
- init.vim:1272:: "   auto_save_enabled = nil,@
- init.vim:1273:: "   auto_restore_enabled = nil,@
- init.vim:1274:: "   auto_session_suppress_dirs = nil@
- init.vim:1275:: " }@
- init.vim:1276:: " require('auto-session').setup(opts)@
- init.vim:1277:: " EOF@
- init.vim:1278:: @
- init.vim:1279:: " lua << EOF@
- init.vim:1280:: " if exists('g:started_by_firenvim')@
- init.vim:1281:: "   ZenMode@
- init.vim:1282:: " else@
- init.vim:1283:: "   set laststatus=2@
- init.vim:1284:: " endif@
- init.vim:1285:: @
- init.vim:1286:: " lua <<EOF@
- init.vim:1287:: " require('neoclip').setup({@
- init.vim:1288:: "       history = 1000,@
- init.vim:1289:: "       enable_persistant_history = false,@
- init.vim:1290:: "       db_path = vim.fn.stdpath("data") .\.  init.vim:1291::+++"/databases/neoclip.sqlite3",@
- init.vim:1291:: "       filter = nil,@
- init.vim:1292:: "       preview = true,@
- init.vim:1293:: "       default_register = '"',@
- init.vim:1294:: "       content_spec_column = false,@
- init.vim:1295:: "       on_paste = {@
- init.vim:1296:: "         set_reg = false,@
- init.vim:1297:: "       },@
- init.vim:1298:: "       keys = {@
- init.vim:1299:: "         i = {@
- init.vim:1300:: "           select = '<cr>',@
- init.vim:1301:: "           paste = '<c-p>',@
- init.vim:1302:: "           paste_behind = '<c-k>',@
- init.vim:1303:: "           custom = {},@
- init.vim:1304:: "         },@
- init.vim:1305:: "         n = {@
- init.vim:1306:: "           select = '<cr>',@
- init.vim:1307:: "           paste = 'p',@
- init.vim:1308:: "           paste_behind = 'P',@
- init.vim:1309:: "           custom = {},@
- init.vim:1310:: "         },@
- init.vim:1311:: "       },@
- init.vim:1312:: "    })@
- init.vim:1313:: " EOF@
- init.vim:1314:: " lua <<EOF@
- init.vim:1315:: " local saga = require 'lspsaga'{@
- init.vim:1316:: " saga.init_lsp_saga() @
- init.vim:1317:: " }@
- init.vim:1318:: " EOF@
- init.vim:1319:: @
- init.vim:1320:: "au FileType tex autocmd User SneakLeave set syntax=tex@
- init.vim:1321:: "au FileType tex autocmd User SneakEnter set syntax=text@
- init.vim:1322:: "@
- init.vim:1323:: "@
+ init.vim:1250:: @
+ init.vim:1251:: @
+ init.vim:1252::  @
+ init.vim:1253:: " lua << EOF@
+ init.vim:1254:: " require("stabilize").setup(@
+ init.vim:1255:: " {@
+ init.vim:1256:: "       force = true, -- stabilize window even when current cursor position will be hidden behind new window@
+ init.vim:1257:: " 	forcemark = nil -- set context mark to register on force event which can be jumped to with '<forcemark>@
+ init.vim:1258:: " 	--ignore = {  -- do not manage windows matching these file/buftypes@
+ init.vim:1259:: " --		filetype = { "help", "list", "Trouble" },@
+ init.vim:1260:: " --		buftype = { "terminal", "quickfix", -- "loclist" }@
+ init.vim:1261:: " --	}@
+ init.vim:1262:: " }@
+ init.vim:1263:: " )@
+ init.vim:1264:: " EOF@
+ init.vim:1265:: " lua <<EOF@
+ init.vim:1266:: " require('dd').setup()@
+ init.vim:1267:: " EOF@
+ init.vim:1268:: " lua << EOF@
+ init.vim:1269:: " local opts = {@
+ init.vim:1270:: "   log_level = 'info',@
+ init.vim:1271:: "   auto_session_enable_last_session = false,@
+ init.vim:1272:: "   auto_session_root_dir = vim.fn.stdpath('data').."/sessions/",@
+ init.vim:1273:: "   auto_session_enabled = false,@
+ init.vim:1274:: "   auto_save_enabled = nil,@
+ init.vim:1275:: "   auto_restore_enabled = nil,@
+ init.vim:1276:: "   auto_session_suppress_dirs = nil@
+ init.vim:1277:: " }@
+ init.vim:1278:: " require('auto-session').setup(opts)@
+ init.vim:1279:: " EOF@
+ init.vim:1280:: @
+ init.vim:1281:: " lua << EOF@
+ init.vim:1282:: " if exists('g:started_by_firenvim')@
+ init.vim:1283:: "   ZenMode@
+ init.vim:1284:: " else@
+ init.vim:1285:: "   set laststatus=2@
+ init.vim:1286:: " endif@
+ init.vim:1287:: @
+ init.vim:1288:: " lua <<EOF@
+ init.vim:1289:: " require('neoclip').setup({@
+ init.vim:1290:: "       history = 1000,@
+ init.vim:1291:: "       enable_persistant_history = false,@
+ init.vim:1292:: "       db_path = vim.fn.stdpath("data") .\.  init.vim:1293::+++"/databases/neoclip.sqlite3",@
+ init.vim:1293:: "       filter = nil,@
+ init.vim:1294:: "       preview = true,@
+ init.vim:1295:: "       default_register = '"',@
+ init.vim:1296:: "       content_spec_column = false,@
+ init.vim:1297:: "       on_paste = {@
+ init.vim:1298:: "         set_reg = false,@
+ init.vim:1299:: "       },@
+ init.vim:1300:: "       keys = {@
+ init.vim:1301:: "         i = {@
+ init.vim:1302:: "           select = '<cr>',@
+ init.vim:1303:: "           paste = '<c-p>',@
+ init.vim:1304:: "           paste_behind = '<c-k>',@
+ init.vim:1305:: "           custom = {},@
+ init.vim:1306:: "         },@
+ init.vim:1307:: "         n = {@
+ init.vim:1308:: "           select = '<cr>',@
+ init.vim:1309:: "           paste = 'p',@
+ init.vim:1310:: "           paste_behind = 'P',@
+ init.vim:1311:: "           custom = {},@
+ init.vim:1312:: "         },@
+ init.vim:1313:: "       },@
+ init.vim:1314:: "    })@
+ init.vim:1315:: " EOF@
+ init.vim:1316:: " lua <<EOF@
+ init.vim:1317:: " local saga = require 'lspsaga'{@
+ init.vim:1318:: " saga.init_lsp_saga() @
+ init.vim:1319:: " }@
+ init.vim:1320:: " EOF@
+ init.vim:1321:: @
+ init.vim:1322:: "au FileType tex autocmd User SneakLeave set syntax=tex@
+ init.vim:1323:: "au FileType tex autocmd User SneakEnter set syntax=text@
  init.vim:1324:: "@
- init.vim:1325:: @
+ init.vim:1325:: "@
  init.vim:1326:: "@
- init.vim:1327:: " 'tCommen20@
- init.vim:1328:: " let g:tcommentMapLeaderOp1=';' @
- init.vim:1329:: " "map <leader>c <Leader>__ @
- init.vim:1330:: "" function! RestoreRegister()@
- init.vim:1331:: "   let @" = s:restore_reg@
- init.vim:1332:: "   return ''@
- init.vim:1333:: " endfunction@
- init.vim:1334:: " function! s:Repl()@
- init.vim:1335:: "     let s:restore_reg = @"@
- init.vim:1336:: "     return "p@=RestoreRegister()\<cr>"@
- init.vim:1337:: " endfunction@
- init.vim:1338:: "@
- init.vim:1339:: " " NB: this supports "rp that replaces the selection by the contents of @r@
- init.vim:1340:: " vnoremap <silent> <expr> p <sid>Repl()@
- init.vim:1341:: @
- init.vim:1342:: " " Change Color when entering@
- init.vim:1343:: " Insert Mode augroup CursorLine@
- init.vim:1344:: "    au!@
- init.vim:1345:: "  if has("gui_running")@
- init.vim:1346:: "  else@
- init.vim:1347:: "      au InsertEnter * setlocal cursorline@
- init.vim:1348:: "        au InsertLeave * setlocal nocursorline@
- init.vim:1349:: "     endif@
- init.vim:1350:: "        augroup END@
- init.vim:1351:: " function! DelTagOfFile(file)@
- init.vim:1352:: "   let fullpath = a:file@
- init.vim:1353:: "   let cwd = getcwd()@
- init.vim:1354:: "   let tagfilename = cwd \.  init.vim:1355::+++"/"@
- init.vim:1355:: "   let f = substitute(fullpath, cwd \.  init.vim:1356::+++"/", "", "")@
- init.vim:1356:: "   let f = escape(f, './')@
- init.vim:1357:: "   let cmd = 'sed -i "/' \.  init.vim:1358::+++f \.  init.vim:1358::+++'/d" "' \.  init.vim:1358::+++tagfilename \.  init.vim:1358::+++'"'@
- init.vim:1358:: "   let resp = system(cmd)@
- init.vim:1359:: " endfunction@
- init.vim:1360:: " function! Break()@
- init.vim:1361:: "  let n=130-virtcol('.')@
- init.vim:1362:: "  <Esc>ni <Esc><Esc>@
- init.vim:1363:: " endfunction@
- init.vim:1364:: " function Gitview()@
- init.vim:1365:: "    cd /root/web2 ; git add \.  init.vim:1366::+++; git commit -m -a ; git push origin gh-pages@
- init.vim:1366:: " endfunction@
- init.vim:1367:: " fuzzy search@
- init.vim:1368:: " function! s:config_fuzzyall(...) abort@
- init.vim:1369:: "   return extend(copy({@
- init.vim:1370:: "   \   'converters': [@
- init.vim:1371:: "   \     incsearch#config#fuzzy#converter(),@
- init.vim:1372:: "   \     incsearch#config#fuzzyspell#converter()@
- init.vim:1373:: "   \   ],@
- init.vim:1374:: "   \ }), get(a:, 1, {}@
- init.vim:1375:: "   ))@
- init.vim:1376:: " endfunction@
- init.vim:1377:: " noremap <silent><expr> f incsearch#go(<SID>config_fuzzyall())@
- init.vim:1378:: " noremap <silent><expr> F  incsearch#go(<SID>config_fuzzyall({'command': '?'}))@
- init.vim:1379:: " noremap <silent><expr> gF incsearch#go(<SID>config_fuzzyall({'is_stay': 1}))@
- init.vim:1380:: " map f <Plug>(incsearch-fuzzyspell-/)@
- init.vim:1381:: " map F <Plug>(incsearch-fuzzyspell-?)@
- init.vim:1382:: " map gF <Plug>(incsearch-fuzzyspell-stay)@
- init.vim:1383:: " map <silent> <leader>g :silent !cd /root/web2<CR>:silent !git add .<CR>:silent !git commit -m -a<CR>:silent !git push origin gh-pages<CR>@
- init.vim:1384:: " let g:deoplete#enable_at_startup = 1@
- init.vim:1385:: " map <silent> <leader>g :silent call Gitview()@
- init.vim:1386:: " map <silent> <leader>g :silent !cd /root/web2 ; git add .<CR>:silent git commit -m -a ; silent !git push origin gh-pages<CR> This is how I use PDFViewer with Neovim and LaTexBox\.@@@
- init.vim:1387:: "Load some useful plugins with vundle @
- init.vim:1388:: "@
- init.vim:1389:: "asdf asldfkj@
- init.vim:1390:: " hi! link Sneak Normal@
- init.vim:1391:: " hi! link SneakScope Normal   test test2 test3@
- init.vim:1392:: @
- init.vim:1393:: " command! -bang -nargs=* Rg@
- init.vim:1394:: "    \ call fzf#vim#grep(@
- init.vim:1395:: "    \ "rg --multiline --multiline-dotall --column --line-number --no-heading --color=always --smart-case " .@
- init.vim:1396:: "    \ <q-args>, 1, fzf#vim#with_preview(), <bang>0)@
- init.vim:1397:: @
- init.vim:1398:: "" au GUIEnter * set fullscreen@
- init.vim:1399:: " if has("gui_running")@
- init.vim:1400::   " set fuoptions=maxvert,maxhorz@
- init.vim:1401::   " au GUIEnter * set fullscreen@
- init.vim:1402::    " set foldcolumn=10@
- init.vim:1403::    " set formatoptions=ant@
- init.vim:1404:: " set wrapmargin=0@
- init.vim:1405:: " set nohlsearch@
- init.vim:1406:: " set = ~/workspacemodules/tags@
- init.vim:1407:: " highlight SignColumn guibg=bg@
- init.vim:1408:: "       endif    @
- init.vim:1409:: " if has("autocmd")@
- init.vim:1410:: "   au BufReadPost * if line("'\"") > 1 && line("'\"") <= line("$") | exe "normal! g'\"" | endif@
- init.vim:1411:: " endif@
- init.vim:1412::   " autocmd BufWinLeave *.* mkview@
- init.vim:1413::   " autocmd BufWinEnter *.* silent loadview@
- init.vim:1414::    " set foldcolumn=2@
- init.vim:1415:: "  highlight foldcolumn ctermfg=256 ctermbg=bg@
- init.vim:1416:: " autocmd Colorscheme * highlight FoldColumn guifg=black guibg=bg @
- init.vim:1417:: " inoremap <cr> <esc>:w<cr>i<cr> @
- init.vim:1418:: "" set tm=500@
- init.vim:1419:: " set macmeta@
- init.vim:1420:: " auto reload vimrc when editing it@
- init.vim:1421:: " let g:github_function_style = "italic"@
- init.vim:1422:: " let g:github_sidebars = ["qf", "vista_kind", "terminal", "vimplug"]@
- init.vim:1423:: " Change the "hint" color to the "orange" color, and make the "error" color bright red@
- init.vim:1424:: " let g:github_colors = [hint = "orange", error = "#ff0000"]@
- init.vim:1425:: " Load the colorscheme@
- init.vim:1426:: " colorscheme github_dark@
- init.vim:1427:: "" terminal color settings @
- init.vim:1428:: " Example config in VimScript@
- init.vim:1429:: " let g:github_function_style = "italic"@
- init.vim:1430:: " let g:github_sidebars = ["qf", "vista_kind", "terminal", "vimplug"]@
- init.vim:1431:: @
- init.vim:1432:: " Change the "hint" color to the "orange" color, and make the "error" color bright red@
- init.vim:1433:: " let g:github_colors = [hint = "orange", error = "#ff0000"]@
- init.vim:1434:: " Load the colorscheme@
- init.vim:1435:: " colorscheme github_dark @
- init.vim:1436:: " set background=dark @
- init.vim:1437:: " if has("gui_running")	" GUI color and font settings@
- init.vim:1438:: "   set guifont=Fira\ Code:h22@
- init.vim:1439:: "   " colorscheme gruvbox @
- init.vim:1440:: "   highlight CursorLine  guibg=#003853 ctermbg=24  gui=none cterm=none@
- init.vim:1441:: " else@
- init.vim:1442:: "  colorscheme one@
- init.vim:1443:: " colorscheme material  @
- init.vim:1444:: " let g:material_style = 'palenight'  @
- init.vim:1445:: " let g:material_style = 'lighter'@
- init.vim:1446:: " highlight Normal ctermbg=none @
- init.vim:1447:: "   " let g:vimtex_quickfix_method='pplatex' @
- init.vim:1448:: " let g:vimtex_latexmk_callback_hooks = ['UpdateSkim']@
- init.vim:1449:: "    function! UpdateSkim(status)@
- init.vim:1450:: "      if !a:status | return | endif@
- init.vim:1451:: "@
- init.vim:1452:: "      let l:out = b:vimtex.out()@
- init.vim:1453:: "      let l:tex = expand('%:p')@
- init.vim:1454:: "      let l:cmd = [g:vimtex_view_general_viewer, '-r']@
- init.vim:1455:: "      if !empty(system('pgrep Skim'))@
- init.vim:1456:: "        call extend(l:cmd, ['-g'])@
- init.vim:1457:: "      endif@
- init.vim:1458:: "      if has('nvim')@
- init.vim:1459:: "        call jobstart(l:cmd + [line('.'), l:out, l:tex])@
- init.vim:1460:: "      elseif has('job')@
- init.vim:1461:: "        call job_start(l:cmd + [line('.'), l:out, l:tex])@
- init.vim:1462:: "      else@
- init.vim:1463:: "        call system(join(l:cmd + [line('.'), shellescape(l:out), shellescape(l:tex)], ' '))@
- init.vim:1464:: "      endif@
- init.vim:1465:: "    endfunction@
- init.vim:1466:: " let g:vimtex_latexmk_build_dir = './build'@
- init.vim:1467:: " \ 'build_dir' : './build',@
- init.vim:1468:: " @
- init.vim:1469:: "     let g:vimtex_compiler_latexmk = {@
- init.vim:1470:: "     \ 'background' : 0,@
- init.vim:1471:: "         \ 'callback' : 1,@
- init.vim:1472:: "     \ 'continuous' : 1,@
- init.vim:1473:: "     \ 'options' : [@
- init.vim:1474:: "     \   '-pdf',@
- init.vim:1475:: "     \   '-verbose',@
- init.vim:1476:: "     \   '-file-line-error',@
- init.vim:1477:: "     \   '-synctex=1',@
- init.vim:1478:: "     \   '-interaction=nonstopmode',@
- init.vim:1479:: "     \ ],@
- init.vim:1480:: "     \}@
- init.vim:1481:: " let g:vimtex_compiler_progname = 'nvr'@
- init.vim:1482:: " " nmap  <leader>v <Esc>:w<CR>:VimtexView<CR>@
- init.vim:1483:: " let g:vimtex_quickfix_mode = 1@
- init.vim:1484:: " let g:vimtex_fold_enabled = 0@
- init.vim:1485:: " let g:vimtex_fold_manual = 1@
- init.vim:1486:: @
- init.vim:1487:: @
- init.vim:1488:: " let g:vimtex_fold_types= {@
- init.vim:1489:: "           \ 'preamble' : {},@
- init.vim:1490:: "           \ 'comments' : {'enabled' : 1},@
- init.vim:1491:: "           \ 'markers' : {},@
- init.vim:1492:: "           \ 'sections' : {@
- init.vim:1493:: "           \   'parse_levels' : 0,@
- init.vim:1494:: "           \   'sections' : [      @
- init.vim:1495:: "           \     '%(add)?part',@
- init.vim:1496:: "           \     '%(chapter|addchap)',@
- init.vim:1497:: "           \     '%(section|addsec)',@
- init.vim:1498:: "           \     'subsection',@
- init.vim:1499:: "           \     'subsubsection',@
- init.vim:1500:: "           \   ],@
- init.vim:1501:: "           \   'parts' : [         @
- init.vim:1502:: "           \     'appendix',@
- init.vim:1503:: "           \     'frontmatter',@
- init.vim:1504:: "           \     'mainmatter',@
- init.vim:1505:: "           \     'backmatter',@
- init.vim:1506:: "           \   ],@
- init.vim:1507:: "           \ },@
- init.vim:1508:: "           \}@
- init.vim:1509:: @
- init.vim:1510:: "  TermClose * if v:event == 12 || v:event == 0 bdelete endif@
- init.vim:1511:: " lua <<EOF@
- init.vim:1512:: " require'nvim-treesitter.configs'.setup {@
- init.vim:1513:: "   incremental_selection = {@
- init.vim:1514:: "     enable = true,@
- init.vim:1515:: "     keymaps = {@
- init.vim:1516:: "       init_selection = "gnn",@
- init.vim:1517:: "       node_incremental = "grn",@
- init.vim:1518:: "       scope_incremental = "grc",@
- init.vim:1519:: "       node_decremental = "grm",@
- init.vim:1520:: "     },@
- init.vim:1521:: "   },@
- init.vim:1522:: " }@
- init.vim:1523:: " EOF@
- init.vim:1524:: " @
- init.vim:1525:: " " set foldlevel=20@
- init.vim:1526:: " " set foldmethod=expr@
- init.vim:1527:: " " set foldexpr=nvim_treesitter#foldexpr()@
- init.vim:1528:: " inoremap .<Esc> .<CR><Esc><leader>j@
- init.vim:1529:: " inoremap .<Space> .<CR><Esc><leader>j@
- init.vim:1530:: " noremap S :S @
- init.vim:1531:: "@
- init.vim:1532:: "@
- init.vim:1533:: " function! Sneak()@
- init.vim:1534:: "     hi! link Sneak Normal@
- init.vim:1535:: "     hi! link SneakScope Normal@
- init.vim:1536:: "     execute 'normal! \<Plug>Sneak_s'@
- init.vim:1537:: "     syntax on@
- init.vim:1538:: " endfunction@
- init.vim:1539::  @
- init.vim:1540:: " map N <Plug>Sneak_,@
- init.vim:1541:: " map t <Plug>(smalls-excursion)@
- init.vim:1542:: " let g:smalls_auto_jump=1@
- init.vim:1543:: " let g:smalls_auto_jump_timeout=0@
- init.vim:1544::     @
- init.vim:1545:: " @
- init.vim:1546:: " silent execute 'AsyncRun if git rev-parse --is-inside-work-tree || git rev-parse --git-dir > /dev/null 2>&1 ; then git add % ; git commit -m -a ; git push --all origin; fi'@
- init.vim:1547:: " let g:vimtex_view_general_options = '-r @line @pdf @@
- init.vim:1548:: """ pandoc backup -s html -o markdown cp backup.html %<cr>:e %<cr>:w<cr>:qa<cr>  asldkfj@
- init.vim:1549:: " <cr>@
- init.vim:1550:: " ; pandoc backup.html > backup.md; cp backup.md %<cr>:e %<cr>@
- init.vim:1551:: " NB: this supports "rp that replaces the selection by the contents of @r@
- init.vim:1552:: " Auto updating C@
- init.vim:1553:: " autocmd VimLeave * exe ":silent ! c -R"@
- init.vim:1554:: "@
- init.vim:1555:: "" lua << EOF@
- init.vim:1556:: " local function setup_servers()@
- init.vim:1557:: "   require'lspinstall'.setup()@
- init.vim:1558:: "   local servers = require'lspinstall'.installed_servers()@
- init.vim:1559:: "   for _, server in pairs(servers) do@
- init.vim:1560:: "     require'lspconfig'[server].setup{capabilities = require('cmp_nvim_lsp').update_capabilities(vim.lsp.protocol.make_client_capabilities())}@
- init.vim:1561:: "   end@
- init.vim:1562:: " end@
- init.vim:1563:: " @
- init.vim:1564:: " setup_servers()@
+ init.vim:1327:: @
+ init.vim:1328:: "@
+ init.vim:1329:: " 'tCommen20@
+ init.vim:1330:: " let g:tcommentMapLeaderOp1=';' @
+ init.vim:1331:: " "map <leader>c <Leader>__ @
+ init.vim:1332:: "" function! RestoreRegister()@
+ init.vim:1333:: "   let @" = s:restore_reg@
+ init.vim:1334:: "   return ''@
+ init.vim:1335:: " endfunction@
+ init.vim:1336:: " function! s:Repl()@
+ init.vim:1337:: "     let s:restore_reg = @"@
+ init.vim:1338:: "     return "p@=RestoreRegister()\<cr>"@
+ init.vim:1339:: " endfunction@
+ init.vim:1340:: "@
+ init.vim:1341:: " " NB: this supports "rp that replaces the selection by the contents of @r@
+ init.vim:1342:: " vnoremap <silent> <expr> p <sid>Repl()@
+ init.vim:1343:: @
+ init.vim:1344:: " " Change Color when entering@
+ init.vim:1345:: " Insert Mode augroup CursorLine@
+ init.vim:1346:: "    au!@
+ init.vim:1347:: "  if has("gui_running")@
+ init.vim:1348:: "  else@
+ init.vim:1349:: "      au InsertEnter * setlocal cursorline@
+ init.vim:1350:: "        au InsertLeave * setlocal nocursorline@
+ init.vim:1351:: "     endif@
+ init.vim:1352:: "        augroup END@
+ init.vim:1353:: " function! DelTagOfFile(file)@
+ init.vim:1354:: "   let fullpath = a:file@
+ init.vim:1355:: "   let cwd = getcwd()@
+ init.vim:1356:: "   let tagfilename = cwd \.  init.vim:1357::+++"/"@
+ init.vim:1357:: "   let f = substitute(fullpath, cwd \.  init.vim:1358::+++"/", "", "")@
+ init.vim:1358:: "   let f = escape(f, './')@
+ init.vim:1359:: "   let cmd = 'sed -i "/' \.  init.vim:1360::+++f \.  init.vim:1360::+++'/d" "' \.  init.vim:1360::+++tagfilename \.  init.vim:1360::+++'"'@
+ init.vim:1360:: "   let resp = system(cmd)@
+ init.vim:1361:: " endfunction@
+ init.vim:1362:: " function! Break()@
+ init.vim:1363:: "  let n=130-virtcol('.')@
+ init.vim:1364:: "  <Esc>ni <Esc><Esc>@
+ init.vim:1365:: " endfunction@
+ init.vim:1366:: " function Gitview()@
+ init.vim:1367:: "    cd /root/web2 ; git add \.  init.vim:1368::+++; git commit -m -a ; git push origin gh-pages@
+ init.vim:1368:: " endfunction@
+ init.vim:1369:: " fuzzy search@
+ init.vim:1370:: " function! s:config_fuzzyall(...) abort@
+ init.vim:1371:: "   return extend(copy({@
+ init.vim:1372:: "   \   'converters': [@
+ init.vim:1373:: "   \     incsearch#config#fuzzy#converter(),@
+ init.vim:1374:: "   \     incsearch#config#fuzzyspell#converter()@
+ init.vim:1375:: "   \   ],@
+ init.vim:1376:: "   \ }), get(a:, 1, {}@
+ init.vim:1377:: "   ))@
+ init.vim:1378:: " endfunction@
+ init.vim:1379:: " noremap <silent><expr> f incsearch#go(<SID>config_fuzzyall())@
+ init.vim:1380:: " noremap <silent><expr> F  incsearch#go(<SID>config_fuzzyall({'command': '?'}))@
+ init.vim:1381:: " noremap <silent><expr> gF incsearch#go(<SID>config_fuzzyall({'is_stay': 1}))@
+ init.vim:1382:: " map f <Plug>(incsearch-fuzzyspell-/)@
+ init.vim:1383:: " map F <Plug>(incsearch-fuzzyspell-?)@
+ init.vim:1384:: " map gF <Plug>(incsearch-fuzzyspell-stay)@
+ init.vim:1385:: " map <silent> <leader>g :silent !cd /root/web2<CR>:silent !git add .<CR>:silent !git commit -m -a<CR>:silent !git push origin gh-pages<CR>@
+ init.vim:1386:: " let g:deoplete#enable_at_startup = 1@
+ init.vim:1387:: " map <silent> <leader>g :silent call Gitview()@
+ init.vim:1388:: " map <silent> <leader>g :silent !cd /root/web2 ; git add .<CR>:silent git commit -m -a ; silent !git push origin gh-pages<CR> This is how I use PDFViewer with Neovim and LaTexBox\.@@@
+ init.vim:1389:: "Load some useful plugins with vundle @
+ init.vim:1390:: "@
+ init.vim:1391:: "asdf asldfkj@
+ init.vim:1392:: " hi! link Sneak Normal@
+ init.vim:1393:: " hi! link SneakScope Normal   test test2 test3@
+ init.vim:1394:: @
+ init.vim:1395:: " command! -bang -nargs=* Rg@
+ init.vim:1396:: "    \ call fzf#vim#grep(@
+ init.vim:1397:: "    \ "rg --multiline --multiline-dotall --column --line-number --no-heading --color=always --smart-case " .@
+ init.vim:1398:: "    \ <q-args>, 1, fzf#vim#with_preview(), <bang>0)@
+ init.vim:1399:: @
+ init.vim:1400:: "" au GUIEnter * set fullscreen@
+ init.vim:1401:: " if has("gui_running")@
+ init.vim:1402::   " set fuoptions=maxvert,maxhorz@
+ init.vim:1403::   " au GUIEnter * set fullscreen@
+ init.vim:1404::    " set foldcolumn=10@
+ init.vim:1405::    " set formatoptions=ant@
+ init.vim:1406:: " set wrapmargin=0@
+ init.vim:1407:: " set nohlsearch@
+ init.vim:1408:: " set = ~/workspacemodules/tags@
+ init.vim:1409:: " highlight SignColumn guibg=bg@
+ init.vim:1410:: "       endif    @
+ init.vim:1411:: " if has("autocmd")@
+ init.vim:1412:: "   au BufReadPost * if line("'\"") > 1 && line("'\"") <= line("$") | exe "normal! g'\"" | endif@
+ init.vim:1413:: " endif@
+ init.vim:1414::   " autocmd BufWinLeave *.* mkview@
+ init.vim:1415::   " autocmd BufWinEnter *.* silent loadview@
+ init.vim:1416::    " set foldcolumn=2@
+ init.vim:1417:: "  highlight foldcolumn ctermfg=256 ctermbg=bg@
+ init.vim:1418:: " autocmd Colorscheme * highlight FoldColumn guifg=black guibg=bg @
+ init.vim:1419:: " inoremap <cr> <esc>:w<cr>i<cr> @
+ init.vim:1420:: "" set tm=500@
+ init.vim:1421:: " set macmeta@
+ init.vim:1422:: " auto reload vimrc when editing it@
+ init.vim:1423:: " let g:github_function_style = "italic"@
+ init.vim:1424:: " let g:github_sidebars = ["qf", "vista_kind", "terminal", "vimplug"]@
+ init.vim:1425:: " Change the "hint" color to the "orange" color, and make the "error" color bright red@
+ init.vim:1426:: " let g:github_colors = [hint = "orange", error = "#ff0000"]@
+ init.vim:1427:: " Load the colorscheme@
+ init.vim:1428:: " colorscheme github_dark@
+ init.vim:1429:: "" terminal color settings @
+ init.vim:1430:: " Example config in VimScript@
+ init.vim:1431:: " let g:github_function_style = "italic"@
+ init.vim:1432:: " let g:github_sidebars = ["qf", "vista_kind", "terminal", "vimplug"]@
+ init.vim:1433:: @
+ init.vim:1434:: " Change the "hint" color to the "orange" color, and make the "error" color bright red@
+ init.vim:1435:: " let g:github_colors = [hint = "orange", error = "#ff0000"]@
+ init.vim:1436:: " Load the colorscheme@
+ init.vim:1437:: " colorscheme github_dark @
+ init.vim:1438:: " set background=dark @
+ init.vim:1439:: " if has("gui_running")	" GUI color and font settings@
+ init.vim:1440:: "   set guifont=Fira\ Code:h22@
+ init.vim:1441:: "   " colorscheme gruvbox @
+ init.vim:1442:: "   highlight CursorLine  guibg=#003853 ctermbg=24  gui=none cterm=none@
+ init.vim:1443:: " else@
+ init.vim:1444:: "  colorscheme one@
+ init.vim:1445:: " colorscheme material  @
+ init.vim:1446:: " let g:material_style = 'palenight'  @
+ init.vim:1447:: " let g:material_style = 'lighter'@
+ init.vim:1448:: " highlight Normal ctermbg=none @
+ init.vim:1449:: "   " let g:vimtex_quickfix_method='pplatex' @
+ init.vim:1450:: " let g:vimtex_latexmk_callback_hooks = ['UpdateSkim']@
+ init.vim:1451:: "    function! UpdateSkim(status)@
+ init.vim:1452:: "      if !a:status | return | endif@
+ init.vim:1453:: "@
+ init.vim:1454:: "      let l:out = b:vimtex.out()@
+ init.vim:1455:: "      let l:tex = expand('%:p')@
+ init.vim:1456:: "      let l:cmd = [g:vimtex_view_general_viewer, '-r']@
+ init.vim:1457:: "      if !empty(system('pgrep Skim'))@
+ init.vim:1458:: "        call extend(l:cmd, ['-g'])@
+ init.vim:1459:: "      endif@
+ init.vim:1460:: "      if has('nvim')@
+ init.vim:1461:: "        call jobstart(l:cmd + [line('.'), l:out, l:tex])@
+ init.vim:1462:: "      elseif has('job')@
+ init.vim:1463:: "        call job_start(l:cmd + [line('.'), l:out, l:tex])@
+ init.vim:1464:: "      else@
+ init.vim:1465:: "        call system(join(l:cmd + [line('.'), shellescape(l:out), shellescape(l:tex)], ' '))@
+ init.vim:1466:: "      endif@
+ init.vim:1467:: "    endfunction@
+ init.vim:1468:: " let g:vimtex_latexmk_build_dir = './build'@
+ init.vim:1469:: " \ 'build_dir' : './build',@
+ init.vim:1470:: " @
+ init.vim:1471:: "     let g:vimtex_compiler_latexmk = {@
+ init.vim:1472:: "     \ 'background' : 0,@
+ init.vim:1473:: "         \ 'callback' : 1,@
+ init.vim:1474:: "     \ 'continuous' : 1,@
+ init.vim:1475:: "     \ 'options' : [@
+ init.vim:1476:: "     \   '-pdf',@
+ init.vim:1477:: "     \   '-verbose',@
+ init.vim:1478:: "     \   '-file-line-error',@
+ init.vim:1479:: "     \   '-synctex=1',@
+ init.vim:1480:: "     \   '-interaction=nonstopmode',@
+ init.vim:1481:: "     \ ],@
+ init.vim:1482:: "     \}@
+ init.vim:1483:: " let g:vimtex_compiler_progname = 'nvr'@
+ init.vim:1484:: " " nmap  <leader>v <Esc>:w<CR>:VimtexView<CR>@
+ init.vim:1485:: " let g:vimtex_quickfix_mode = 1@
+ init.vim:1486:: " let g:vimtex_fold_enabled = 0@
+ init.vim:1487:: " let g:vimtex_fold_manual = 1@
+ init.vim:1488:: @
+ init.vim:1489:: @
+ init.vim:1490:: " let g:vimtex_fold_types= {@
+ init.vim:1491:: "           \ 'preamble' : {},@
+ init.vim:1492:: "           \ 'comments' : {'enabled' : 1},@
+ init.vim:1493:: "           \ 'markers' : {},@
+ init.vim:1494:: "           \ 'sections' : {@
+ init.vim:1495:: "           \   'parse_levels' : 0,@
+ init.vim:1496:: "           \   'sections' : [      @
+ init.vim:1497:: "           \     '%(add)?part',@
+ init.vim:1498:: "           \     '%(chapter|addchap)',@
+ init.vim:1499:: "           \     '%(section|addsec)',@
+ init.vim:1500:: "           \     'subsection',@
+ init.vim:1501:: "           \     'subsubsection',@
+ init.vim:1502:: "           \   ],@
+ init.vim:1503:: "           \   'parts' : [         @
+ init.vim:1504:: "           \     'appendix',@
+ init.vim:1505:: "           \     'frontmatter',@
+ init.vim:1506:: "           \     'mainmatter',@
+ init.vim:1507:: "           \     'backmatter',@
+ init.vim:1508:: "           \   ],@
+ init.vim:1509:: "           \ },@
+ init.vim:1510:: "           \}@
+ init.vim:1511:: @
+ init.vim:1512:: "  TermClose * if v:event == 12 || v:event == 0 bdelete endif@
+ init.vim:1513:: " lua <<EOF@
+ init.vim:1514:: " require'nvim-treesitter.configs'.setup {@
+ init.vim:1515:: "   incremental_selection = {@
+ init.vim:1516:: "     enable = true,@
+ init.vim:1517:: "     keymaps = {@
+ init.vim:1518:: "       init_selection = "gnn",@
+ init.vim:1519:: "       node_incremental = "grn",@
+ init.vim:1520:: "       scope_incremental = "grc",@
+ init.vim:1521:: "       node_decremental = "grm",@
+ init.vim:1522:: "     },@
+ init.vim:1523:: "   },@
+ init.vim:1524:: " }@
+ init.vim:1525:: " EOF@
+ init.vim:1526:: " @
+ init.vim:1527:: " " set foldlevel=20@
+ init.vim:1528:: " " set foldmethod=expr@
+ init.vim:1529:: " " set foldexpr=nvim_treesitter#foldexpr()@
+ init.vim:1530:: " inoremap .<Esc> .<CR><Esc><leader>j@
+ init.vim:1531:: " inoremap .<Space> .<CR><Esc><leader>j@
+ init.vim:1532:: " noremap S :S @
+ init.vim:1533:: "@
+ init.vim:1534:: "@
+ init.vim:1535:: " function! Sneak()@
+ init.vim:1536:: "     hi! link Sneak Normal@
+ init.vim:1537:: "     hi! link SneakScope Normal@
+ init.vim:1538:: "     execute 'normal! \<Plug>Sneak_s'@
+ init.vim:1539:: "     syntax on@
+ init.vim:1540:: " endfunction@
+ init.vim:1541::  @
+ init.vim:1542:: " map N <Plug>Sneak_,@
+ init.vim:1543:: " map t <Plug>(smalls-excursion)@
+ init.vim:1544:: " let g:smalls_auto_jump=1@
+ init.vim:1545:: " let g:smalls_auto_jump_timeout=0@
+ init.vim:1546::     @
+ init.vim:1547:: " @
+ init.vim:1548:: " silent execute 'AsyncRun if git rev-parse --is-inside-work-tree || git rev-parse --git-dir > /dev/null 2>&1 ; then git add % ; git commit -m -a ; git push --all origin; fi'@
+ init.vim:1549:: " let g:vimtex_view_general_options = '-r @line @pdf @@
+ init.vim:1550:: """ pandoc backup -s html -o markdown cp backup.html %<cr>:e %<cr>:w<cr>:qa<cr>  asldkfj@
+ init.vim:1551:: " <cr>@
+ init.vim:1552:: " ; pandoc backup.html > backup.md; cp backup.md %<cr>:e %<cr>@
+ init.vim:1553:: " NB: this supports "rp that replaces the selection by the contents of @r@
+ init.vim:1554:: " Auto updating C@
+ init.vim:1555:: " autocmd VimLeave * exe ":silent ! c -R"@
+ init.vim:1556:: "@
+ init.vim:1557:: "" lua << EOF@
+ init.vim:1558:: " local function setup_servers()@
+ init.vim:1559:: "   require'lspinstall'.setup()@
+ init.vim:1560:: "   local servers = require'lspinstall'.installed_servers()@
+ init.vim:1561:: "   for _, server in pairs(servers) do@
+ init.vim:1562:: "     require'lspconfig'[server].setup{capabilities = require('cmp_nvim_lsp').update_capabilities(vim.lsp.protocol.make_client_capabilities())}@
+ init.vim:1563:: "   end@
+ init.vim:1564:: " end@
  init.vim:1565:: " @
- init.vim:1566:: " -- Automatically reload after `:LspInstall <server>` so we don't have to restart neovim@
- init.vim:1567:: " require'lspinstall'.post_install_hook = function ()@
- init.vim:1568:: "   setup_servers() -- reload installed servers@
- init.vim:1569:: "   vim.cmd("bufdo e") -- this triggers the FileType autocmd that starts the server@
- init.vim:1570:: " end@
- init.vim:1571:: " EOF@
- init.vim:1572:: " autocmd BufReadPost * if @% !~# '\.git[\/\\]COMMIT_EDITMSG$' && line("'\"") > 1 && line("'\"") <= line("$") | exe "normal! g`\"" | endif@
- init.vim:1573:: @
- init.vim:1574::       @
- init.vim:1575:: "other maps   @
- init.vim:1576:: inoremap <cr> <cr><space><esc>"_s@
- init.vim:1577:: nnoremap o o<space><esc>"_s@
- init.vim:1578:: " map cr@
- init.vim:1579:: " inoremap <cr> <esc>$a<cr><space><esc>"_s@
- init.vim:1580:: " inoremap <m-cr> <cr><space><esc>"_s@
- init.vim:1581:: let g:neovide_fullscreen=v:true@
- init.vim:1582:: if exists('g:gonvim_running')@
- init.vim:1583::  set guifont=Fira\ Code\ Light:h18@
- init.vim:1584:: "goneovim specific stuff@
- init.vim:1585:: elseif exists('g:neovide')@
- init.vim:1586::    set guifont=Fira\ Code:h18@
- init.vim:1587:: end@
- init.vim:1588:: nnoremap <C-c> :set hlsearch!<cr>@
- init.vim:1589:: xnoremap <silent> <cr> "*y:silent! let searchTerm = '\V'.substitute(escape(@*, '\/'), "\n", '\\n', "g") <bar> let @/ = searchTerm <bar> echo '/'.@/ <bar> call histadd("search", searchTerm) <bar> set hls<cr>@
- init.vim:1590:: @
- init.vim:1591:: " lua <<EOF@
- init.vim:1592:: " -- Setup cmp.@
- init.vim:1593:: " -- Installation@
- init.vim:1594:: " use {@
- init.vim:1595:: "   'hrsh7th/nvim-cmp',@
- init.vim:1596:: "   requires = {@
- init.vim:1597:: "     {@
- init.vim:1598:: "       'quangnguyen30192/cmp-nvim-tags',@
- init.vim:1599:: "       -- if you want the sources is available for some file types@
- init.vim:1600:: "       ft = {@
- init.vim:1601:: "         'kotlin',@
- init.vim:1602:: "         'java'@
- init.vim:1603:: "       }@
- init.vim:1604:: "     }@
- init.vim:1605:: "   },@
- init.vim:1606:: " config = function ()@
- init.vim:1607:: "     require'cmp'.setup {@
- init.vim:1608:: "     sources = {@
- init.vim:1609:: "       { name = 'tags' },@
- init.vim:1610:: "      @
- init.vim:1611:: "     { name = 'vsnip', keyword_length = 1000 },@
- init.vim:1612:: " { name = 'tags' },@
- init.vim:1613:: " -- For ultisnips user.@
- init.vim:1614:: "       -- { name = 'ultisnips' },  @
- init.vim:1615:: " { name = 'buffer', keyword_length = 1000 },@
- init.vim:1616:: " { name = 'omni', keyword_length = 4},@
- init.vim:1617:: "        -- { name = 'spell' }, @
- init.vim:1618:: " { name = 'nvim_lsp', keyword_length = 4 },@
- init.vim:1619:: "       --{ name = 'treesitter', keyword_length = 4 },@
- init.vim:1620:: " --{ name = 'latex_symbols' },@
- init.vim:1621:: " }@
- init.vim:1622:: " }@
- init.vim:1623:: " end@
+ init.vim:1566:: " setup_servers()@
+ init.vim:1567:: " @
+ init.vim:1568:: " -- Automatically reload after `:LspInstall <server>` so we don't have to restart neovim@
+ init.vim:1569:: " require'lspinstall'.post_install_hook = function ()@
+ init.vim:1570:: "   setup_servers() -- reload installed servers@
+ init.vim:1571:: "   vim.cmd("bufdo e") -- this triggers the FileType autocmd that starts the server@
+ init.vim:1572:: " end@
+ init.vim:1573:: " EOF@
+ init.vim:1574:: " autocmd BufReadPost * if @% !~# '\.git[\/\\]COMMIT_EDITMSG$' && line("'\"") > 1 && line("'\"") <= line("$") | exe "normal! g`\"" | endif@
+ init.vim:1575:: @
+ init.vim:1576::       @
+ init.vim:1577:: "other maps   @
+ init.vim:1578:: inoremap <cr> <cr><space><esc>"_s@
+ init.vim:1579:: nnoremap o o<space><esc>"_s@
+ init.vim:1580:: " map cr@
+ init.vim:1581:: " inoremap <cr> <esc>$a<cr><space><esc>"_s@
+ init.vim:1582:: " inoremap <m-cr> <cr><space><esc>"_s@
+ init.vim:1583:: let g:neovide_fullscreen=v:true@
+ init.vim:1584:: if exists('g:gonvim_running')@
+ init.vim:1585::  set guifont=Fira\ Code\ Light:h18@
+ init.vim:1586:: "goneovim specific stuff@
+ init.vim:1587:: elseif exists('g:neovide')@
+ init.vim:1588::    set guifont=Fira\ Code:h18@
+ init.vim:1589:: end@
+ init.vim:1590:: nnoremap <C-c> :set hlsearch!<cr>@
+ init.vim:1591:: xnoremap <silent> <cr> "*y:silent! let searchTerm = '\V'.substitute(escape(@*, '\/'), "\n", '\\n', "g") <bar> let @/ = searchTerm <bar> echo '/'.@/ <bar> call histadd("search", searchTerm) <bar> set hls<cr>@
+ init.vim:1592:: @
+ init.vim:1593:: " lua <<EOF@
+ init.vim:1594:: " -- Setup cmp.@
+ init.vim:1595:: " -- Installation@
+ init.vim:1596:: " use {@
+ init.vim:1597:: "   'hrsh7th/nvim-cmp',@
+ init.vim:1598:: "   requires = {@
+ init.vim:1599:: "     {@
+ init.vim:1600:: "       'quangnguyen30192/cmp-nvim-tags',@
+ init.vim:1601:: "       -- if you want the sources is available for some file types@
+ init.vim:1602:: "       ft = {@
+ init.vim:1603:: "         'kotlin',@
+ init.vim:1604:: "         'java'@
+ init.vim:1605:: "       }@
+ init.vim:1606:: "     }@
+ init.vim:1607:: "   },@
+ init.vim:1608:: " config = function ()@
+ init.vim:1609:: "     require'cmp'.setup {@
+ init.vim:1610:: "     sources = {@
+ init.vim:1611:: "       { name = 'tags' },@
+ init.vim:1612:: "      @
+ init.vim:1613:: "     { name = 'vsnip', keyword_length = 1000 },@
+ init.vim:1614:: " { name = 'tags' },@
+ init.vim:1615:: " -- For ultisnips user.@
+ init.vim:1616:: "       -- { name = 'ultisnips' },  @
+ init.vim:1617:: " { name = 'buffer', keyword_length = 1000 },@
+ init.vim:1618:: " { name = 'omni', keyword_length = 4},@
+ init.vim:1619:: "        -- { name = 'spell' }, @
+ init.vim:1620:: " { name = 'nvim_lsp', keyword_length = 4 },@
+ init.vim:1621:: "       --{ name = 'treesitter', keyword_length = 4 },@
+ init.vim:1622:: " --{ name = 'latex_symbols' },@
+ init.vim:1623:: " }@
  init.vim:1624:: " }@
- init.vim:1625:: @
- init.vim:1626:: " test test2@
- init.vim:1627:: " let g:autotagTagsFile="~/workspacemodules/tags"@
- init.vim:1628:: " let g:autotagFile="~/workspacemodules/tags"@
- init.vim:1629:: " lua <<EOF@
- init.vim:1630:: " -- Installation@
- init.vim:1631:: " use { @
- init.vim:1632:: "   'hrsh7th/nvim-cmp',@
- init.vim:1633:: "   requires = {@
- init.vim:1634:: "     {@
- init.vim:1635:: "       'quangnguyen30192/cmp-nvim-',@
- init.vim:1636:: "       -- if you want the sources is available for some file types@
- init.vim:1637:: "       ft = {@
- init.vim:1638:: "         'latex',@
- init.vim:1639:: "         'tex'@
- init.vim:1640:: "       }@
- init.vim:1641:: "     }@
- init.vim:1642:: "   },@
- init.vim:1643:: "   config = function ()@
- init.vim:1644:: "     require'cmp'.setup {@
- init.vim:1645:: "     sources = {@
- init.vim:1646:: "       { name = '' },@
- init.vim:1647:: "       -- more sources@
- init.vim:1648:: "     }@
- init.vim:1649:: "   }@
- init.vim:1650:: "   end@
- init.vim:1651:: " }@
- init.vim:1652:: " EOF@
- init.vim:1653:: "@
- init.vim:1654:: @
- init.vim:1655:: @
- init.vim:1656:: lua <<EOF@
- init.vim:1657:: require'nvim-treesitter.configs'.setup {@
- init.vim:1658:: -- ensure_installed = "all", -- one of "all", "maintained" (parsers with maintainers), or a list of languages@
- init.vim:1659::   incremental_selection = {@
- init.vim:1660::     enable = true,@
- init.vim:1661::     keymaps = {@
- init.vim:1662::       init_selection = '<m-CR>',@
- init.vim:1663::       --scope_incremental = '<CR>',@
- init.vim:1664::       node_incremental = '<TAB>',@
- init.vim:1665::       node_decremental = '<S-TAB>',@
- init.vim:1666::     },@
- init.vim:1667::   },@
- init.vim:1668::   highlight = {@
- init.vim:1669::     enable = true,              -- false will disable the whole extension@
- init.vim:1670::     -- Instead of true it can also be a list of languages@
- init.vim:1671::     additional_vim_regex_highlighting = false,@
- init.vim:1672::   },@
- init.vim:1673:: }@
- init.vim:1674:: EOF@
- init.vim:1675:: @
- init.vim:1676:: lua <<EOF@
- init.vim:1677:: require('leap').setup {@
- init.vim:1678::   max_aot_targets = nil,@
- init.vim:1679::   highlight_unlabeled = false,@
- init.vim:1680::   max_highlighted_traversal_targets = 10,@
- init.vim:1681::   case_sensitive = false,@
- init.vim:1682::   -- Sets of characters that should match each other.@
- init.vim:1683::   -- Obvious candidates are braces and quotes ('([{', ')]}', '`"\'').@
- init.vim:1684::   equivalence_classes = @
- init.vim:1685::   {@
- init.vim:1686::       ' \r\n',@
- init.vim:1687::       ')]}>',@
- init.vim:1688::       '([{<',@
- init.vim:1689::       { '"', "'", '`' },@
- init.vim:1690::       --{'$', 'm'},@
- init.vim:1691::       {'^', '_', '<', '>', '?', '|', '!', '*', '+', '-', '`','\'','\\', '\n', '\r', ',', '.',';', ']', '[', '}', '{', ')', '(', '$'}@
- init.vim:1692::     },@
- init.vim:1693::   -- Leaving the] $appropriate list emapty effectively disables "smart" mode,@
- init.vim:1694::   -- and forces auto-jump to be on or off.@
- init.vim:1695::   @
- init.vim:1696:: }@
- init.vim:1697:: EOF@
- init.vim:1698:: inoremap <m-d> <C-w>@
- init.vim:1699:: @
- init.vim:1700:: @
+ init.vim:1625:: " end@
+ init.vim:1626:: " }@
+ init.vim:1627:: @
+ init.vim:1628:: " test test2@
+ init.vim:1629:: " let g:autotagTagsFile="~/workspacemodules/tags"@
+ init.vim:1630:: " let g:autotagFile="~/workspacemodules/tags"@
+ init.vim:1631:: " lua <<EOF@
+ init.vim:1632:: " -- Installation@
+ init.vim:1633:: " use { @
+ init.vim:1634:: "   'hrsh7th/nvim-cmp',@
+ init.vim:1635:: "   requires = {@
+ init.vim:1636:: "     {@
+ init.vim:1637:: "       'quangnguyen30192/cmp-nvim-',@
+ init.vim:1638:: "       -- if you want the sources is available for some file types@
+ init.vim:1639:: "       ft = {@
+ init.vim:1640:: "         'latex',@
+ init.vim:1641:: "         'tex'@
+ init.vim:1642:: "       }@
+ init.vim:1643:: "     }@
+ init.vim:1644:: "   },@
+ init.vim:1645:: "   config = function ()@
+ init.vim:1646:: "     require'cmp'.setup {@
+ init.vim:1647:: "     sources = {@
+ init.vim:1648:: "       { name = '' },@
+ init.vim:1649:: "       -- more sources@
+ init.vim:1650:: "     }@
+ init.vim:1651:: "   }@
+ init.vim:1652:: "   end@
+ init.vim:1653:: " }@
+ init.vim:1654:: " EOF@
+ init.vim:1655:: "@
+ init.vim:1656:: @
+ init.vim:1657:: @
+ init.vim:1658:: lua <<EOF@
+ init.vim:1659:: require'nvim-treesitter.configs'.setup {@
+ init.vim:1660:: -- ensure_installed = "all", -- one of "all", "maintained" (parsers with maintainers), or a list of languages@
+ init.vim:1661::   incremental_selection = {@
+ init.vim:1662::     enable = true,@
+ init.vim:1663::     keymaps = {@
+ init.vim:1664::       init_selection = '<m-CR>',@
+ init.vim:1665::       --scope_incremental = '<CR>',@
+ init.vim:1666::       node_incremental = '<TAB>',@
+ init.vim:1667::       node_decremental = '<S-TAB>',@
+ init.vim:1668::     },@
+ init.vim:1669::   },@
+ init.vim:1670::   highlight = {@
+ init.vim:1671::     enable = true,              -- false will disable the whole extension@
+ init.vim:1672::     -- Instead of true it can also be a list of languages@
+ init.vim:1673::     additional_vim_regex_highlighting = false,@
+ init.vim:1674::   },@
+ init.vim:1675:: }@
+ init.vim:1676:: EOF@
+ init.vim:1677:: @
+ init.vim:1678:: lua <<EOF@
+ init.vim:1679:: require('leap').setup {@
+ init.vim:1680::   max_aot_targets = nil,@
+ init.vim:1681::   highlight_unlabeled = false,@
+ init.vim:1682::   max_highlighted_traversal_targets = 10,@
+ init.vim:1683::   case_sensitive = false,@
+ init.vim:1684::   -- Sets of characters that should match each other.@
+ init.vim:1685::   -- Obvious candidates are braces and quotes ('([{', ')]}', '`"\'').@
+ init.vim:1686::   equivalence_classes = @
+ init.vim:1687::   {@
+ init.vim:1688::       ' \r\n',@
+ init.vim:1689::       ')]}>',@
+ init.vim:1690::       '([{<',@
+ init.vim:1691::       { '"', "'", '`' },@
+ init.vim:1692::       --{'$', 'm'},@
+ init.vim:1693::       {'^', '_', '<', '>', '?', '|', '!', '*', '+', '-', '`','\'','\\', '\n', '\r', ',', '.',';', ']', '[', '}', '{', ')', '(', '$'}@
+ init.vim:1694::     },@
+ init.vim:1695::   -- Leaving the] $appropriate list emapty effectively disables "smart" mode,@
+ init.vim:1696::   -- and forces auto-jump to be on or off.@
+ init.vim:1697::   @
+ init.vim:1698:: }@
+ init.vim:1699:: EOF@
+ init.vim:1700:: inoremap <m-d> <C-w>@
+ init.vim:1701:: @
+ init.vim:1702:: @

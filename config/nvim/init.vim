@@ -349,8 +349,8 @@ nmap <m-7> :ZenMode<cr>:mksession!<cr>
 nnoremap <leader>rr :w<cr>:source $MYVIMRC<CR>
 nnoremap <leader>u :lua require("true-zen.ataraxis") .off()<cr>:UndotreeToggle<CR>
 nnoremap <leader>e :silent execute "!echo " . v:servername . ' > C:/Users/yasha/servername.txt'<cr>:silent te pwsh -c lf<cr>i
-nnoremap <leader>tt :FloatermToggle<cr>
-nnoremap <leader>t :silent execute "!echo " . v:servername . ' > C:/Users/yasha/servername.txt'<cr>:edit term://pwsh<cr>
+" nnoremap <leader>tt :FloatermToggle<cr>
+nnoremap <leader>t :silent execute "!echo " . v:servername . ' > C:/Users/yasha/servername.txt'<cr>:edit term://nu<cr>
 nnoremap <c-,> :cprevious<cr>
 nnoremap <c-.> :cnext<cr> 
 vnoremap <m-s> :s///gc<left><left><left><left>
@@ -509,7 +509,7 @@ let g:fzf_layout = { 'window': { 'width': 1, 'height': 1 } }
 " let g:fzf_preview_window = []
 noremap <m-t> :BTags<cr>
 noremap SS <cr>:call Sentence()<cr>
-noremap S <cr>:call Line()<cr>
+noremap S <cr>:call BLinesB()<cr>
 
 "noremap L <Esc>:AsyncRun sentence.sh %;nvr sentence_%<cr>:echo 'press any key'<cr>:execute 'call getchar()' | BLines<cr>
 " Line search mapping 
