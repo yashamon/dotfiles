@@ -34,7 +34,8 @@ def pullmaster [] { git pull --recurse-submodules && git submodule update --recu
 def pushgh [] { cd $"($HOME)/web ; pandoc index.md > index.html ; git add . ; git commit -m -a ; git push origin gh-pages }
 def hw [] { pandoc ($HOME)/web/classes/AlgTop/2022.md > ($HOME)/web/classes/AlgTop/2022.html && pandoc ($HOME)/web/classes/CalcIII/2022.md  > ($HOME)/web/classes/CalcIII/2022.html && cd ($HOME)/web && git add .  && git commit -m -a && git push origin gh-pages } 
 def pdf [file:string] { zathura $file }
-alias config = ( cd $"($HOME)/dotfiles; push; cd $"($HOME)/workspacemodules; pushmod; cd $"($HOME)/workspace; push; cd web pushgh; pacman -Qqe > $"($HOME)/dotfiles/pkglist.txt )
+
+# alias config = ( cd $"($HOME)/dotfiles; push; cd $"($HOME)/workspacemodules; pushmod; cd $"($HOME)/workspace; push; cd web pushgh; pacman -Qqe > $"($HOME)/dotfiles/pkglist.txt )
 
 def sendFunction [file:string] {
 let cwdb = $env.PWD
