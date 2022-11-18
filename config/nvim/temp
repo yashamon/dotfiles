@@ -264,11 +264,11 @@ set smartcase		" ignore case if search pattern is all lowercase,case-sensitive o
  init.vim:263:: au FileType tex,text set spelllang=en_us@
  init.vim:264:: au FileType tex,text,md set indentexpr=@
  init.vim:265:: au FileType vim,md set list@
- init.vim:266:: " au FileType tex,text,md silent execute "!echo " \.  init.vim:266::+++v:servername \.  init.vim:266::+++" > ~/servername.txt"    @
- init.vim:267:: au FileType * silent execute "!echo " \.  init.vim:267::+++v:servername \.  init.vim:267::+++" > ~/servername.txt"@
- init.vim:268:: au UIEnter silent execute "!echo " \.  init.vim:268::+++v:servername \.  init.vim:268::+++" > ~/servername.txt"@
+ init.vim:266:: " au FileType tex,text,md silent execute "!echo " \.  init.vim:267::+++v:servername \.  init.vim:267::+++" > ~/servername.txt"    @
+ init.vim:267:: au FileType * silent execute "!echo " \.  init.vim:268::+++v:servername \.  init.vim:268::+++" > ~/servername.txt"@
+ init.vim:268:: au UIEnter silent execute "!echo " \.  init.vim:269::+++v:servername \.  init.vim:269::+++" > ~/servername.txt"@
  init.vim:269:: function Server()@
- init.vim:270::    silent execute "!echo " \.  init.vim:270::+++v:servername \.  init.vim:270::+++" > ~/servername.txt"@
+ init.vim:270::    silent execute "!echo " \.  init.vim:271::+++v:servername \.  init.vim:271::+++" > ~/servername.txt"@
  init.vim:271:: endfunction@
  init.vim:272:: nmap <leader>nn :call Server()@
  init.vim:273:: @
@@ -305,8 +305,8 @@ set smartcase		" ignore case if search pattern is all lowercase,case-sensitive o
  init.vim:304:: vnoremap < <gv@
  init.vim:305:: vnoremap > >gv@
  init.vim:306:: @
- init.vim:307:: " :cd\.  init.vim:307::+++change working directory to that of the current file@
- init.vim:308:: cmap cd\.  init.vim:308::+++lcd %:p:h@
+ init.vim:307:: " :cd\.  init.vim:308::+++change working directory to that of the current file@
+ init.vim:308:: cmap cd\.  init.vim:309::+++lcd %:p:h@
  init.vim:309:: autocmd Filetype tex setlocal wrapmargin=0@
  init.vim:310:: " use syntax complete if nothing else available@
  init.vim:311:: if has("autocmd") && exists("+omnifunc")@
@@ -340,7 +340,7 @@ set smartcase		" ignore case if search pattern is all lowercase,case-sensitive o
  init.vim:339:: " other mappings @
  init.vim:340:: vnoremap <Leader>U ""y:%s/<C-r>"@
  init.vim:341:: noremap <leader>r :w<cr>:e<cr> @
- init.vim:342:: " inoremap \.  init.vim:342::+++.<esc>:w<cr>a@
+ init.vim:342:: " inoremap \.  init.vim:343::+++.<esc>:w<cr>a@
  init.vim:343:: noremap <leader>hh :set tw=50<cr>@
  init.vim:344:: noremap <leader>w :set tw=0<cr> @
  init.vim:345:: map q :q<cr>@
@@ -348,9 +348,9 @@ set smartcase		" ignore case if search pattern is all lowercase,case-sensitive o
  init.vim:347:: nmap <m-7> :ZenMode<cr>:mksession!<cr>@
  init.vim:348:: nnoremap <leader>rr :w<cr>:source $MYVIMRC<CR>@
  init.vim:349:: nnoremap <leader>u :lua require("true-zen.ataraxis") .off()<cr>:UndotreeToggle<CR>@
- init.vim:350:: nnoremap <leader>e :silent execute "!echo " \.  init.vim:350::+++v:servername \.  init.vim:350::+++' > C:/Users/yasha/servername.txt'<cr>:silent te pwsh -c lf<cr>i@
+ init.vim:350:: nnoremap <leader>e :silent execute "!echo " \.  init.vim:351::+++v:servername \.  init.vim:351::+++' > C:/Users/yasha/servername.txt'<cr>:silent te pwsh -c lf<cr>i@
  init.vim:351:: nnoremap <leader>tt :FloatermToggle<cr>@
- init.vim:352:: nnoremap <leader>t :silent execute "!echo " \.  init.vim:352::+++v:servername \.  init.vim:352::+++' > C:/Users/yasha/servername.txt'<cr>:edit term://pwsh<cr>@
+ init.vim:352:: nnoremap <leader>t :silent execute "!echo " \.  init.vim:353::+++v:servername \.  init.vim:353::+++' > C:/Users/yasha/servername.txt'<cr>:edit term://pwsh<cr>@
  init.vim:353:: nnoremap <c-,> :cprevious<cr>@
  init.vim:354:: nnoremap <c-.> :cnext<cr> @
  init.vim:355:: vnoremap <m-s> :s///gc<left><left><left><left>@
@@ -467,7 +467,7 @@ set smartcase		" ignore case if search pattern is all lowercase,case-sensitive o
  init.vim:466:: nmap <leader>c gc@
  init.vim:467:: noremap <A-r> <C-r>@
  init.vim:468:: nnoremap ` ~@
- init.vim:469:: nnoremap \.  init.vim:469::+++`@
+ init.vim:469:: nnoremap \.  init.vim:470::+++`@
  init.vim:470:: noremap <m-1> <C-o>@
  init.vim:471:: noremap <m-2> <C-i>@
  init.vim:472:: inoremap <m-d> <C-d>@
@@ -615,20 +615,20 @@ set smartcase		" ignore case if search pattern is all lowercase,case-sensitive o
  init.vim:614:: @
  init.vim:615:: command! -bang -nargs=* BLinesB@
  init.vim:616::     \ call fzf#vim#grep(@
- init.vim:617::     \   'rg --with-filename --line-number --no-heading --smart-case \.  init.vim:617::+++'.fnameescape(expand('%')),1,@
+ init.vim:617::     \   'rg --with-filename --line-number --no-heading --smart-case \.  init.vim:618::+++'.fnameescape(expand('%')),1,@
  init.vim:618::     \   fzf#vim#with_preview({'options': '--keep-right --layout reverse --query '.shellescape(<q-args>).' --preview "bat -p --color always {}"'}, 'up:50%'))@
  init.vim:619:: @
  init.vim:620:: " nnoremap H :LinesWithPreview<CR>@
  init.vim:621:: " command! -bang -nargs=* BLinesB@
  init.vim:622:: "     \ call fzf#vim#grep(@
- init.vim:623:: "     \   'rg --with-filename --column --line-number --no-heading --smart-case \.  init.vim:623::+++'.fnameescape(expand('%:p')), 1,@
- init.vim:624:: "     \   fzf#vim#with_preview({'options': '--keep-right --delimiter : --nth 4.\.  init.vim:624::+++--preview "bat -p --color always {}"'}, 'right:50%' ))@
+ init.vim:623:: "     \   'rg --with-filename --column --line-number --no-heading --smart-case \.  init.vim:624::+++'.fnameescape(expand('%:p')), 1,@
+ init.vim:624:: "     \   fzf#vim#with_preview({'options': '--keep-right --delimiter : --nth 4.\.  init.vim:625::+++--preview "bat -p --color always {}"'}, 'right:50%' ))@
  init.vim:625:: @
  init.vim:626:: " command! -bang -nargs=* BLinesB@
  init.vim:627:: "      \ call fzf#vim#grep(@
- init.vim:628:: "      \   'rg --with-filename --column --line-number --no-heading --smart-case \.  init.vim:628::+++'.fnameescape(expand('%:p')),,@
- init.vim:629:: " "     \   fzf#vim#with_preview({'options': '--layout reverse --query '.shellescape(<q-args>).' --with-nth=4.\.  init.vim:629::+++--delimiter=":"'}, 'right:0%'))@
- init.vim:630::     " \   fzf#vim#with_preview({'options': '--layout reverse  --with-nth=-1.\.  init.vim:630::+++--delimiter="/"'}, 'right:50%'))@
+ init.vim:628:: "      \   'rg --with-filename --column --line-number --no-heading --smart-case \.  init.vim:629::+++'.fnameescape(expand('%:p')),,@
+ init.vim:629:: " "     \   fzf#vim#with_preview({'options': '--layout reverse --query '.shellescape(<q-args>).' --with-nth=4.\.  init.vim:630::+++--delimiter=":"'}, 'right:0%'))@
+ init.vim:630::     " \   fzf#vim#with_preview({'options': '--layout reverse  --with-nth=-1.\.  init.vim:631::+++--delimiter="/"'}, 'right:50%'))@
  init.vim:631::  function Sentence()@
  init.vim:632::   let g:buf = bufname()@
  init.vim:633::   " silent execute "!bash /mnt/c/Users/yasha/dotfiles/scripts/sentence.sh %"@
@@ -651,17 +651,17 @@ set smartcase		" ignore case if search pattern is all lowercase,case-sensitive o
  init.vim:650:: noremap LL :lua require("true-zen.ataraxis") .on()<cr>:lua require("true-zen.ataraxis") .off()<cr>:call SentenceLL()<cr>@
  init.vim:651:: " noremap L :TZAtaraxisOff<cr><cr>:call Sentence()<cr>@
  init.vim:652:: function GitAsync()@
- init.vim:653:: silent execute "!echo " \.  init.vim:653::+++v:servername \.  init.vim:653::+++' > ~/servername.txt'@
+ init.vim:653:: silent execute "!echo " \.  init.vim:654::+++v:servername \.  init.vim:654::+++' > ~/servername.txt'@
  init.vim:654:: let g:bufdude = bufname()@
- init.vim:655:: silent te pwsh -c if ( (git rev-parse --is-inside-work-tree) -and (git rev-parse --git-dir) ) { git add \.  init.vim:655::+++; git commit -m -a; git push --all origin; ctags -R }@
+ init.vim:655:: silent te pwsh -c if ( (git rev-parse --is-inside-work-tree) -and (git rev-parse --git-dir) ) { git add \.  init.vim:656::+++; git commit -m -a; git push --all origin; ctags -R }@
  init.vim:656:: execute "buffer" g:bufdude@
  init.vim:657:: endfunction@
  init.vim:658::   @
  init.vim:659:: " " AsyncRun -silent if git rev-parse --is-inside-work-"tree @
  init.vim:660:: "|| git rev- parse --git-dir > /dev/null 2>&1 ; then git "add @
- init.vim:661:: "\.  init.vim:661::+++; git commit -m -a ; git push --all origin; "fi  */@
+ init.vim:661:: "\.  init.vim:662::+++; git commit -m -a ; git push --all origin; "fi  */@
  init.vim:662:: " te if ( (git rev-parse --is-inside-work-tree) -and (git @
- init.vim:663:: "rev-parse --git-dir) ) { git add \.  init.vim:663::+++; git commit -m -a ; "git push --all origin } */@
+ init.vim:663:: "rev-parse --git-dir) ) { git add \.  init.vim:664::+++; git commit -m -a ; "git push --all origin } */@
  init.vim:664:: " endfunction */@
  init.vim:665:: @
  init.vim:666:: function ToggleQuickFix()@
@@ -674,7 +674,7 @@ set smartcase		" ignore case if search pattern is all lowercase,case-sensitive o
  init.vim:673::         let b:filenamedir=expand('%:p:h')@
  init.vim:674::         echo b:filenamedir@
  init.vim:675::         let b:filename=expand('%:t:r')@
- init.vim:676::         let b:errors=b:filenamedir \.  init.vim:676::+++"/build/" \.  init.vim:676::+++b:filename .".log"@
+ init.vim:676::         let b:errors=b:filenamedir \.  init.vim:677::+++"/build/" \.  init.vim:677::+++b:filename .".log"@
  init.vim:677::         echo b:errors@
  init.vim:678::         exec "caddf" b:errors@
  init.vim:679::         copen@
@@ -703,7 +703,7 @@ set smartcase		" ignore case if search pattern is all lowercase,case-sensitive o
  init.vim:702:: function! ViewPdf() @
  init.vim:703:: wa@
  init.vim:704:: let g:buffmain=bufname()@
- init.vim:705:: silent execute "!echo " \.  init.vim:705::+++v:servername \.  init.vim:705::+++' > C:/Users/yasha/servername.txt'@
+ init.vim:705:: silent execute "!echo " \.  init.vim:706::+++v:servername \.  init.vim:706::+++' > C:/Users/yasha/servername.txt'@
  init.vim:706:: let buf=bufname()@
  init.vim:707:: let linenumber=line(".")@
  init.vim:708:: let colnumber=col(".")@
@@ -712,11 +712,11 @@ set smartcase		" ignore case if search pattern is all lowercase,case-sensitive o
  init.vim:711:: let filenametexwhole=expand('%:p')@
  init.vim:712:: let filenameroot=expand('%:t:r')@
  init.vim:713:: " let filenamePDF=filename[:-4]."pdf"@
- init.vim:714:: let filenamePDFLinux=b:filenamedir \.  init.vim:714::+++"/buildback/" \.  init.vim:714::+++filenameroot \.  init.vim:714::+++".pdf"@
- init.vim:715:: let b:filenamePDFWindows="build\\" \.  init.vim:715::+++filenameroot \.  init.vim:715::+++".pdf"@
+ init.vim:714:: let filenamePDFLinux=b:filenamedir \.  init.vim:715::+++"/buildback/" \.  init.vim:715::+++filenameroot \.  init.vim:715::+++".pdf"@
+ init.vim:715:: let b:filenamePDFWindows="build\\" \.  init.vim:716::+++filenameroot \.  init.vim:716::+++".pdf"@
  init.vim:716:: " echo b:filenamePDFWindows@
- init.vim:717:: let execstrLinux="silent te zathura --synctex-forward " \.  init.vim:717::+++linenumber \.  init.vim:717::+++":" \.  init.vim:717::+++colnumber \.  init.vim:717::+++":" \.  init.vim:717::+++filenametexwhole \.  init.vim:717::+++" " \.  init.vim:717::+++filenamePDFLinux@
- init.vim:718:: let execstrWindows="silent te pwsh -c C:/Users/yasha/scoop/shims/sumatrapdf.EXE -reuse-instance " \.  init.vim:718::+++b:filenamePDFWindows \.  init.vim:718::+++" -forward-search " \.  init.vim:718::+++filenametex \.  init.vim:718::+++" " \.  init.vim:718::+++linenumber@
+ init.vim:717:: let execstrLinux="silent te zathura --synctex-forward " \.  init.vim:718::+++linenumber \.  init.vim:718::+++":" \.  init.vim:718::+++colnumber \.  init.vim:718::+++":" \.  init.vim:718::+++filenametexwhole \.  init.vim:718::+++" " \.  init.vim:718::+++filenamePDFLinux@
+ init.vim:718:: let execstrWindows="silent te pwsh -c C:/Users/yasha/scoop/shims/sumatrapdf.EXE -reuse-instance " \.  init.vim:719::+++b:filenamePDFWindows \.  init.vim:719::+++" -forward-search " \.  init.vim:719::+++filenametex \.  init.vim:719::+++" " \.  init.vim:719::+++linenumber@
  init.vim:719:: exec execstrWindows@
  init.vim:720:: execute "buffer" buf@
  init.vim:721:: endfunction@
@@ -855,7 +855,7 @@ set smartcase		" ignore case if search pattern is all lowercase,case-sensitive o
  init.vim:854::       expand = function(args)@
  init.vim:855::         -- For `vsnip` user.@
  init.vim:856::         vim.fn["vsnip#anonymous"](args.body) -- For `vsnip` user.@
- init.vim:857::   -- ..\.  init.vim:857::+++Your other configuration ...@
+ init.vim:857::   -- ..\.  init.vim:858::+++Your other configuration ...@
  init.vim:858:: end,@
  init.vim:859:: },@
  init.vim:860:: @
@@ -867,7 +867,7 @@ set smartcase		" ignore case if search pattern is all lowercase,case-sensitive o
  init.vim:866::       ['<C-x>'] = cmp.mapping.complete(),@
  init.vim:867::       ['<C-e>'] = cmp.mapping.close(),@
  init.vim:868::       ['<CR>'] = cmp.mapping.confirm({ select = true }),@
- init.vim:869:: -- ..\.  init.vim:869::+++Your other mappings ...@
+ init.vim:869:: -- ..\.  init.vim:870::+++Your other mappings ...@
  init.vim:870:: ["<Tab>"] = cmp.mapping(function(fallback) @
  init.vim:871::       if vim.fn["vsnip#expandable"]() == 1@
  init.vim:872::         then@
@@ -877,7 +877,7 @@ set smartcase		" ignore case if search pattern is all lowercase,case-sensitive o
  init.vim:876::       elseif has_words_before() then @
  init.vim:877::         cmp.complete()@
  init.vim:878::       else @
- init.vim:879::         fallback() -- The fallback function sends a already mapped key\.  init.vim:879::+++In this case, it's probably `<Tab>`.@
+ init.vim:879::         fallback() -- The fallback function sends a already mapped key\.  init.vim:880::+++In this case, it's probably `<Tab>`.@
  init.vim:880::       end@
  init.vim:881::     end, { "i", "s" }),@
  init.vim:882:: ["<S-Tab>"] = cmp.mapping(function()@
@@ -899,7 +899,7 @@ set smartcase		" ignore case if search pattern is all lowercase,case-sensitive o
  init.vim:898::       }@
  init.vim:899::     }@
  init.vim:900::     },@
- init.vim:901:: -- ..\.  init.vim:901::+++Your other configuration ...@
+ init.vim:901:: -- ..\.  init.vim:902::+++Your other configuration ...@
  init.vim:902:: sources = cmp.config.sources({@
  init.vim:903::       -- For vsnip user\.@@@
  init.vim:904:: { name = 'vsnip', keyword_length = 1000 },@
@@ -1031,7 +1031,7 @@ set smartcase		" ignore case if search pattern is all lowercase,case-sensitive o
  init.vim:1030:: " lua << EOF@
  init.vim:1031:: "   require("zen-mode").setup {@
  init.vim:1032:: "   window = {@
- init.vim:1033:: "     backdrop = 1, -- shade the backdrop of the Zen window\.  init.vim:1033::+++Set to 1 to keep the same as Normal@
+ init.vim:1033:: "     backdrop = 1, -- shade the backdrop of the Zen window\.  init.vim:1034::+++Set to 1 to keep the same as Normal@
  init.vim:1034:: "     -- height and width can be:@
  init.vim:1035:: "     -- * an absolute number of cells when > 1@
  init.vim:1036:: "     -- * a percentage of the width / height of the editor when <= 1@
@@ -1087,7 +1087,7 @@ set smartcase		" ignore case if search pattern is all lowercase,case-sensitive o
  init.vim:1086:: "       i = {@
  init.vim:1087:: "         -- map actions.which_key to <C-h> (default: <C-/>)@
  init.vim:1088:: "         -- actions.which_key shows the mappings for your picker,@
- init.vim:1089:: "         -- e.g\.  init.vim:1089::+++git_{create, delete, ...}_branch for the git_branches picker@
+ init.vim:1089:: "         -- e.g\.  init.vim:1090::+++git_{create, delete, ...}_branch for the git_branches picker@
  init.vim:1090:: "         ["<C-h>"] = "which_key"@
  init.vim:1091:: "       }@
  init.vim:1092:: "     }@
@@ -1135,8 +1135,8 @@ set smartcase		" ignore case if search pattern is all lowercase,case-sensitive o
  init.vim:1134:: " lua <<EOF@
  init.vim:1135:: " require("telescope").load_extension("prosesitter") -- Optionally, depends on telescope.nvim@
  init.vim:1136:: " require("prosesitter"):setup({@
- init.vim:1137:: " 	vale_bin = vim.fn.stdpath("data") .\.  init.vim:1137::+++"/prosesitter/vale",@
- init.vim:1138:: " 	vale_cfg = vim.fn.stdpath("data") .\.  init.vim:1138::+++"/prosesitter/vale_cfg.ini",@
+ init.vim:1137:: " 	vale_bin = vim.fn.stdpath("data") .\.  init.vim:1138::+++"/prosesitter/vale",@
+ init.vim:1138:: " 	vale_cfg = vim.fn.stdpath("data") .\.  init.vim:1139::+++"/prosesitter/vale_cfg.ini",@
  init.vim:1139:: " 	--optional extra queries overrides existing queries@
  init.vim:1140:: " 	queries = { @
  init.vim:1141:: " 		-- see the piece on adding queries on how to use this @
@@ -1162,7 +1162,7 @@ set smartcase		" ignore case if search pattern is all lowercase,case-sensitive o
  init.vim:1161::   hl = 'SpellBad', @
  init.vim:1162::   captures = {},  -- set to {} to spellcheck everything@
  init.vim:1163:: @
- init.vim:1164::   -- Spellchecker to use\.  init.vim:1164::+++values:@
+ init.vim:1164::   -- Spellchecker to use\.  init.vim:1165::+++values:@
  init.vim:1165::   -- * vimfn: built-in spell checker using vim.fn.spellbadword()@
  init.vim:1166::   -- * ffi: built-in spell checker using the FFI to access the@
  init.vim:1167::   --   internal spell_check() function@
@@ -1203,8 +1203,8 @@ set smartcase		" ignore case if search pattern is all lowercase,case-sensitive o
  init.vim:1202:: --  Add user dictionary for ltex-ls@
  init.vim:1203:: --  * en.utf-8.add must be created using `zg` when set spell is on@
  init.vim:1204:: -- ===========================================@
- init.vim:1205:: local path = vim.fn.stdpath 'config' .\.  init.vim:1205::+++'/spell/en.utf-8.add'@
- init.vim:1206:: local path = vim.fn.stdpath 'config' .\.  init.vim:1206::+++'/spell/es.utf-8.spl'@
+ init.vim:1205:: local path = vim.fn.stdpath 'config' .\.  init.vim:1206::+++'/spell/en.utf-8.add'@
+ init.vim:1206:: local path = vim.fn.stdpath 'config' .\.  init.vim:1207::+++'/spell/es.utf-8.spl'@
  init.vim:1207:: local words = {}@
  init.vim:1208:: @
  init.vim:1209:: for word in io.open(path, 'r'):lines() do@
@@ -1288,7 +1288,7 @@ set smartcase		" ignore case if search pattern is all lowercase,case-sensitive o
  init.vim:1287:: " require('neoclip').setup({@
  init.vim:1288:: "       history = 1000,@
  init.vim:1289:: "       enable_persistant_history = false,@
- init.vim:1290:: "       db_path = vim.fn.stdpath("data") .\.  init.vim:1290::+++"/databases/neoclip.sqlite3",@
+ init.vim:1290:: "       db_path = vim.fn.stdpath("data") .\.  init.vim:1291::+++"/databases/neoclip.sqlite3",@
  init.vim:1291:: "       filter = nil,@
  init.vim:1292:: "       preview = true,@
  init.vim:1293:: "       default_register = '"',@
@@ -1352,10 +1352,10 @@ set smartcase		" ignore case if search pattern is all lowercase,case-sensitive o
  init.vim:1351:: " function! DelTagOfFile(file)@
  init.vim:1352:: "   let fullpath = a:file@
  init.vim:1353:: "   let cwd = getcwd()@
- init.vim:1354:: "   let tagfilename = cwd \.  init.vim:1354::+++"/"@
- init.vim:1355:: "   let f = substitute(fullpath, cwd \.  init.vim:1355::+++"/", "", "")@
+ init.vim:1354:: "   let tagfilename = cwd \.  init.vim:1355::+++"/"@
+ init.vim:1355:: "   let f = substitute(fullpath, cwd \.  init.vim:1356::+++"/", "", "")@
  init.vim:1356:: "   let f = escape(f, './')@
- init.vim:1357:: "   let cmd = 'sed -i "/' \.  init.vim:1357::+++f \.  init.vim:1357::+++'/d" "' \.  init.vim:1357::+++tagfilename \.  init.vim:1357::+++'"'@
+ init.vim:1357:: "   let cmd = 'sed -i "/' \.  init.vim:1358::+++f \.  init.vim:1358::+++'/d" "' \.  init.vim:1358::+++tagfilename \.  init.vim:1358::+++'"'@
  init.vim:1358:: "   let resp = system(cmd)@
  init.vim:1359:: " endfunction@
  init.vim:1360:: " function! Break()@
@@ -1363,7 +1363,7 @@ set smartcase		" ignore case if search pattern is all lowercase,case-sensitive o
  init.vim:1362:: "  <Esc>ni <Esc><Esc>@
  init.vim:1363:: " endfunction@
  init.vim:1364:: " function Gitview()@
- init.vim:1365:: "    cd /root/web2 ; git add \.  init.vim:1365::+++; git commit -m -a ; git push origin gh-pages@
+ init.vim:1365:: "    cd /root/web2 ; git add \.  init.vim:1366::+++; git commit -m -a ; git push origin gh-pages@
  init.vim:1366:: " endfunction@
  init.vim:1367:: " fuzzy search@
  init.vim:1368:: " function! s:config_fuzzyall(...) abort@
