@@ -11,16 +11,17 @@
 #     }
 #
 # You may put this in one of the profiles found in $PROFILE.
-
-$tmp = [System.IO.Path]::GetTempFileName()
-C:\Users\yasha\scoop\shims\lf.exe -last-dir-path="$tmp" $args
-echo "C:\Users\yasha\scoop\shims\lf.exe -last-dir-path="$tmp" $args"
-if (Test-Path -PathType Leaf "$tmp") {
-    $dir = Get-Content "$tmp"
-    Remove-Item -Force "$tmp"
-    if (Test-Path -PathType Container "$dir") {
-        if ("$dir" -ne "$pwd") {
-            Set-Location "$dir"
+def main [opt?] {
+let tmp = $"(pwd)"+"temp"
+let lf = "$(which lf)"+" last-dir-path="+"$tmp"+" $opt"
+^$lf
+if ($tmp | path  == file) {
+    let dir = $tmp
+    rm $tmp
+    if ($tmp | path  == dir) {
+        if ($dir !== $pwd) {
+            cd $dir
         }
     }
+}
 }

@@ -33,6 +33,7 @@ sleep, 100
 Send !{Esc}
 return
 #X::
+Send WinClose 
 return
 #J::
 switchDesktopByNumber(4)
@@ -96,7 +97,7 @@ return
 #q::
 WinKill, A
 #Enter::
-    Run "pwsh" 
+    Run "nu" 
     Return
 #+f::
     Run nu lf

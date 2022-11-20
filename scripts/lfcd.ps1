@@ -11,6 +11,8 @@
 #     }
 #
 # You may put this in one of the profiles found in $PROFILE.
+
+
 $tmp = [System.IO.Path]::GetTempFileName()
 $lf=(which lf)+" last-dir-path="+"$tmp"+" $args"
 Invoke-Expression $lf
