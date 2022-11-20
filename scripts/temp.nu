@@ -1,4 +1,4 @@
-def main [x:int] { 
+def main [x] { 
 let p = ($x | into int)
 fac $p
 }
