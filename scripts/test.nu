@@ -1,1 +1,3 @@
-cd C:\\Users\\yasha
+let dir = "C:\\Users\\yasha"
+cd $dir
+
