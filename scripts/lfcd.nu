@@ -23,7 +23,7 @@ let exec = "C:\\Users\\yasha\\scoop\\shims\\lf.exe -last-dir-path=C:\\Users\\yas
 ^$exec
 let dir = ((open "C:\\Users\\yasha\\AppData\\Local\\Temp\\tmp9E2.tmp") | str trim)
 if (($dir | path type)  == dir) {
-            echo $dir | clip
+            cd $dir; echo $dir | clip
         }
 # open "C:\\Users\\yasha\\AppData\\Local\\Temp\\tmp9E2.tmp") | str trim) | clip
 }
