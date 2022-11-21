@@ -714,16 +714,14 @@ endfunction
 function ToggleQuickFix()
       if empty(filter(getwininfo(), 'v:val.quickfix'))
       exec "w"
-        echo bufname()
-        lua require("true-zen.ataraxis") .off()
+        " lua require("true-zen.ataraxis") .off()
         " lua require("zen-mode").close()
-        echo bufname()
         let b:filenamedir=expand('%:p:h')
         echo b:filenamedir
         let b:filename=expand('%:t:r')
         let b:errors=b:filenamedir . "/build/" . b:filename .".log"
         echo b:errors
-        exec "caddf" b:errors
+        exec "cg" b:errors
         copen
         sleep 1
         exec "wincmd j"
@@ -1083,14 +1081,8 @@ require('lualine').setup {
   sections = {
   lualine_a = {
         {
-         'filename',
-            ignore_focus = {'tex', 'md', 'text', 'lua', 'latex', 'nu', 'vim'},
-            filename_color = {
-            -- Same values as the general color option can be used here.
-            active = 'lualine_{section}_inactive',     -- Color for active buffer.
-            inactive = 'lualine_{section}_inactive', -- Color for inactive buffer.
-          },
-	  lualine_a = { { "insert", color = { fg = "red", bg = "grey" } } },
+          'filename',
+          color = 'lualine_a_normal',
           file_status = true,      -- Displays file status (readonly status, modified status)
           newfile_status = false,   -- Display new file status (new file means no write after created)
           path = 3,                -- 0: Just the filename
@@ -1103,15 +1095,14 @@ require('lualine').setup {
             readonly = '[-]',      -- Text to show when the file is non-modifiable or readonly.
             unnamed = '[No Name]', -- Text to show for unnamed buffers.
             newfile = '[New]',     -- Text to show for new created file before first writting
-            
-          }
+         }
         }
       },
-    lualine_b = {'branch', 'diff', 'diagnostics', color=nil},
+      lualine_b = {{'branch', 'diff', 'diagnostics', color = 'lualine_b_normal'}},
     lualine_c = {},
     lualine_x = {},
     lualine_y = {},
-    lualine_z = {'location'}
+    lualine_z = {{'location', color = 'lualine_z_normal'}}
   },
   inactive_sections = {
     lualine_a = {},
