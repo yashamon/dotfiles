@@ -26,9 +26,9 @@ Plug 'ray-x/cmp-treesitter'
 Plug 'quangnguyen30192/cmp-nvim-tags',  { 'branch': 'main' }  
 Plug 'voldikss/vim-floaterm'
 Plug 'terrortylor/nvim-comment', { 'branch': 'main' }
-" Plug 'nvim-lualine/lualine.nvim'
-Plug 'tjdevries/express_line.nvim'
-Plug 'nvim-lua/plenary.nvim'
+Plug 'nvim-lualine/lualine.nvim'
+" Plug 'tjdevries/express_line.nvim'
+" Plug 'nvim-lua/plenary.nvim'
 Plug 'tjdevries/express_line.nvim'
 Plug 'justinhoward/fzf-neoyank'
 Plug 'rakr/vim-one'
@@ -1060,65 +1060,65 @@ true_zen.setup({
  	}
  })
 EOF
-" lua <<EOF
-" require('lualine').setup {
-"   options = {
-"     icons_enabled = true,
-"     theme = 'auto',
-"     component_separators = { left = '', right = ''},
-"     section_separators = { left = '', right = ''},
-"     disabled_filetypes = {
-"       statusline = {},
-"       winbar = {},
-"     },
-"     ignore_focus = {'tex', 'md', 'text', 'lua', 'latex', 'nu'},
-"     always_divide_middle = true,
-"     globalstatus = true,
-"     refresh = {
-"       statusline = 1000,
-"       tabline = 1000,
-"       winbar = 1000,
-"     }
-"   },
-"   sections = {
-"   lualine_a = {
-"         {
-"           'filename',
-"           file_status = true,      -- Displays file status (readonly status, modified status)
-"           newfile_status = false,   -- Display new file status (new file means no write after created)
-"           path = 3,                -- 0: Just the filename
-"                                    -- 1: Relative path
-"                                    -- 2: Absolute path
-"                                    -- 3: Absolute path, with tilde as the home directory
-"   
-"           symbols = {
-"             modified = '[+]',      -- Text to show when the file is modified.
-"             readonly = '[-]',      -- Text to show when the file is non-modifiable or readonly.
-"             unnamed = '[No Name]', -- Text to show for unnamed buffers.
-"             newfile = '[New]',     -- Text to show for new created file before first writting
-"           }
-"         }
-"       },
-"     lualine_b = {'branch', 'diff', 'diagnostics'},
-"     lualine_c = {},
-"     lualine_x = {},
-"     lualine_y = {},
-"     lualine_z = {'location'}
-"   },
-"   inactive_sections = {
-"     lualine_a = {},
-"     lualine_b = {},
-"     lualine_c = {},
-"     lualine_x = {},
-"     lualine_y = {},
-"     lualine_z = {}
-"   },
-"   tabline = {},
-"   winbar = {},
-"   inactive_winbar = {},
-"   extensions = {}
-" }
-" EOF
+lua <<EOF
+require('lualine').setup {
+  options = {
+    icons_enabled = true,
+    theme = 'auto',
+    component_separators = { left = '', right = ''},
+    section_separators = { left = '', right = ''},
+    disabled_filetypes = {
+      statusline = {},
+      winbar = {},
+    },
+    ignore_focus = {'tex', 'md', 'text', 'lua', 'latex', 'nu'},
+    always_divide_middle = true,
+    globalstatus = true,
+    refresh = {
+      statusline = 1000,
+      tabline = 1000,
+      winbar = 1000,
+    }
+  },
+  sections = {
+  lualine_a = {
+        {
+          'filename',
+          file_status = true,      -- Displays file status (readonly status, modified status)
+          newfile_status = false,   -- Display new file status (new file means no write after created)
+          path = 3,                -- 0: Just the filename
+                                   -- 1: Relative path
+                                   -- 2: Absolute path
+                                   -- 3: Absolute path, with tilde as the home directory
+  
+          symbols = {
+            modified = '[+]',      -- Text to show when the file is modified.
+            readonly = '[-]',      -- Text to show when the file is non-modifiable or readonly.
+            unnamed = '[No Name]', -- Text to show for unnamed buffers.
+            newfile = '[New]',     -- Text to show for new created file before first writting
+          }
+        }
+      },
+    lualine_b = {'branch', 'diff', 'diagnostics'},
+    lualine_c = {},
+    lualine_x = {},
+    lualine_y = {},
+    lualine_z = {'location'}
+  },
+  inactive_sections = {
+    lualine_a = {},
+    lualine_b = {},
+    lualine_c = {},
+    lualine_x = {},
+    lualine_y = {},
+    lualine_z = {}
+  },
+  tabline = {},
+  winbar = {},
+  inactive_winbar = {},
+  extensions = {}
+}
+EOF
 " " EOF
 " lua << EOF
 "   require("zen-mode").setup {
@@ -1312,351 +1312,7 @@ require'lspconfig'.ltex.setup{
   },
 }
 EOF
-" lua <<EOF
-" require('neoscroll').setup{
-"     -- All these keys will be mapped to their corresponding default scrolling animation
-"     mappings = {'<C-u>', '<C-d>', '<C-b>', '<C-f>',
-"                 '<C-y>', '<C-e>', 'zt', 'zz', 'zb'},
-"     hide_cursor = true,          -- Hide cursor while scrolling
-"     stop_eof = true,             -- Stop at <EOF> when scrolling downwards
-"     use_local_scrolloff = false, -- Use the local scope of scrolloff instead of the global scope
-"     respect_scrolloff = false,   -- Stop scrolling when the cursor reaches the scrolloff margin of the file
-"     cursor_scrolls_alone = true, -- The cursor will keep on scrolling even if the window cannot scroll further
-"     easing_function = nil,        -- Default easing function
-"     pre_hook = nil,              -- Function to run before the scrolling animation starts
-"     post_hook = nil,              -- Function to run after the scrolling animation ends
-"     }
-" EOF
-
-
-
-
- 
-" lua << EOF
-" require("stabilize").setup(
-" {
-"       force = true, -- stabilize window even when current cursor position will be hidden behind new window
-" 	forcemark = nil -- set context mark to register on force event which can be jumped to with '<forcemark>
-" 	--ignore = {  -- do not manage windows matching these file/buftypes
-" --		filetype = { "help", "list", "Trouble" },
-" --		buftype = { "terminal", "quickfix", -- "loclist" }
-" --	}
-" }
-" )
-" EOF
-" lua <<EOF
-" require('dd').setup()
-" EOF
-" lua << EOF
-" local opts = {
-"   log_level = 'info',
-"   auto_session_enable_last_session = false,
-"   auto_session_root_dir = vim.fn.stdpath('data').."/sessions/",
-"   auto_session_enabled = false,
-"   auto_save_enabled = nil,
-"   auto_restore_enabled = nil,
-"   auto_session_suppress_dirs = nil
-" }
-" require('auto-session').setup(opts)
-" EOF
-
-" lua << EOF
-" if exists('g:started_by_firenvim')
-"   ZenMode
-" else
-"   set laststatus=2
-" endif
-
-" lua <<EOF
-" require('neoclip').setup({
-"       history = 1000,
-"       enable_persistant_history = false,
-"       db_path = vim.fn.stdpath("data") .. "/databases/neoclip.sqlite3",
-"       filter = nil,
-"       preview = true,
-"       default_register = '"',
-"       content_spec_column = false,
-"       on_paste = {
-"         set_reg = false,
-"       },
-"       keys = {
-"         i = {
-"           select = '<cr>',
-"           paste = '<c-p>',
-"           paste_behind = '<c-k>',
-"           custom = {},
-"         },
-"         n = {
-"           select = '<cr>',
-"           paste = 'p',
-"           paste_behind = 'P',
-"           custom = {},
-"         },
-"       },
-"    })
-" EOF
-" lua <<EOF
-" local saga = require 'lspsaga'{
-" saga.init_lsp_saga() 
-" }
-" EOF
-
-"au FileType tex autocmd User SneakLeave set syntax=tex
-"au FileType tex autocmd User SneakEnter set syntax=text
-"
-"
-"
-
-"
-" 'tCommen20
-" let g:tcommentMapLeaderOp1=';' 
-" "map <leader>c <Leader>__ 
-"" function! RestoreRegister()
-"   let @" = s:restore_reg
-"   return ''
-" endfunction
-" function! s:Repl()
-"     let s:restore_reg = @"
-"     return "p@=RestoreRegister()\<cr>"
-" endfunction
-"
-" " NB: this supports "rp that replaces the selection by the contents of @r
-" vnoremap <silent> <expr> p <sid>Repl()
-
-" " Change Color when entering
-" Insert Mode augroup CursorLine
-"    au!
-"  if has("gui_running")
-"  else
-"      au InsertEnter * setlocal cursorline
-"        au InsertLeave * setlocal nocursorline
-"     endif
-"        augroup END
-" function! DelTagOfFile(file)
-"   let fullpath = a:file
-"   let cwd = getcwd()
-"   let tagfilename = cwd . "/"
-"   let f = substitute(fullpath, cwd . "/", "", "")
-"   let f = escape(f, './')
-"   let cmd = 'sed -i "/' . f . '/d" "' . tagfilename . '"'
-"   let resp = system(cmd)
-" endfunction
-" function! Break()
-"  let n=130-virtcol('.')
-"  <Esc>ni <Esc><Esc>
-" endfunction
-" function Gitview()
-"    cd /root/web2 ; git add . ; git commit -m -a ; git push origin gh-pages
-" endfunction
-" fuzzy search
-" function! s:config_fuzzyall(...) abort
-"   return extend(copy({
-"   \   'converters': [
-"   \     incsearch#config#fuzzy#converter(),
-"   \     incsearch#config#fuzzyspell#converter()
-"   \   ],
-"   \ }), get(a:, 1, {}
-"   ))
-" endfunction
-" noremap <silent><expr> f incsearch#go(<SID>config_fuzzyall())
-" noremap <silent><expr> F  incsearch#go(<SID>config_fuzzyall({'command': '?'}))
-" noremap <silent><expr> gF incsearch#go(<SID>config_fuzzyall({'is_stay': 1}))
-" map f <Plug>(incsearch-fuzzyspell-/)
-" map F <Plug>(incsearch-fuzzyspell-?)
-" map gF <Plug>(incsearch-fuzzyspell-stay)
-" map <silent> <leader>g :silent !cd /root/web2<CR>:silent !git add .<CR>:silent !git commit -m -a<CR>:silent !git push origin gh-pages<CR>
-" let g:deoplete#enable_at_startup = 1
-" map <silent> <leader>g :silent call Gitview()
-" map <silent> <leader>g :silent !cd /root/web2 ; git add .<CR>:silent git commit -m -a ; silent !git push origin gh-pages<CR> This is how I use PDFViewer with Neovim and LaTexBox. 
-"Load some useful plugins with vundle 
-"
-"asdf asldfkj
-" hi! link Sneak Normal
-" hi! link SneakScope Normal   test test2 test3
-
-" command! -bang -nargs=* Rg
-"    \ call fzf#vim#grep(
-"    \ "rg --multiline --multiline-dotall --column --line-number --no-heading --color=always --smart-case " .
-"    \ <q-args>, 1, fzf#vim#with_preview(), <bang>0)
-
-"" au GUIEnter * set fullscreen
-" if has("gui_running")
-  " set fuoptions=maxvert,maxhorz
-  " au GUIEnter * set fullscreen
-   " set foldcolumn=10
-   " set formatoptions=ant
-" set wrapmargin=0
-" set nohlsearch
-" set = ~/workspacemodules/tags
-" highlight SignColumn guibg=bg
-"       endif    
-" if has("autocmd")
-"   au BufReadPost * if line("'\"") > 1 && line("'\"") <= line("$") | exe "normal! g'\"" | endif
-" endif
-  " autocmd BufWinLeave *.* mkview
-  " autocmd BufWinEnter *.* silent loadview
-   " set foldcolumn=2
-"  highlight foldcolumn ctermfg=256 ctermbg=bg
-" autocmd Colorscheme * highlight FoldColumn guifg=black guibg=bg 
-" inoremap <cr> <esc>:w<cr>i<cr> 
-"" set tm=500
-" set macmeta
-" auto reload vimrc when editing it
-" let g:github_function_style = "italic"
-" let g:github_sidebars = ["qf", "vista_kind", "terminal", "vimplug"]
-" Change the "hint" color to the "orange" color, and make the "error" color bright red
-" let g:github_colors = [hint = "orange", error = "#ff0000"]
-" Load the colorscheme
-" colorscheme github_dark
-"" terminal color settings 
-" Example config in VimScript
-" let g:github_function_style = "italic"
-" let g:github_sidebars = ["qf", "vista_kind", "terminal", "vimplug"]
-
-" Change the "hint" color to the "orange" color, and make the "error" color bright red
-" let g:github_colors = [hint = "orange", error = "#ff0000"]
-" Load the colorscheme
-" colorscheme github_dark 
-" set background=dark 
-" if has("gui_running")	" GUI color and font settings
-"   set guifont=Fira\ Code:h22
-"   " colorscheme gruvbox 
-"   highlight CursorLine  guibg=#003853 ctermbg=24  gui=none cterm=none
-" else
-"  colorscheme one
-" colorscheme material  
-" let g:material_style = 'palenight'  
-" let g:material_style = 'lighter'
-" highlight Normal ctermbg=none 
-"   " let g:vimtex_quickfix_method='pplatex' 
-" let g:vimtex_latexmk_callback_hooks = ['UpdateSkim']
-"    function! UpdateSkim(status)
-"      if !a:status | return | endif
-"
-"      let l:out = b:vimtex.out()
-"      let l:tex = expand('%:p')
-"      let l:cmd = [g:vimtex_view_general_viewer, '-r']
-"      if !empty(system('pgrep Skim'))
-"        call extend(l:cmd, ['-g'])
-"      endif
-"      if has('nvim')
-"        call jobstart(l:cmd + [line('.'), l:out, l:tex])
-"      elseif has('job')
-"        call job_start(l:cmd + [line('.'), l:out, l:tex])
-"      else
-"        call system(join(l:cmd + [line('.'), shellescape(l:out), shellescape(l:tex)], ' '))
-"      endif
-"    endfunction
-" let g:vimtex_latexmk_build_dir = './build'
-" \ 'build_dir' : './build',
-" 
-"     let g:vimtex_compiler_latexmk = {
-"     \ 'background' : 0,
-"         \ 'callback' : 1,
-"     \ 'continuous' : 1,
-"     \ 'options' : [
-"     \   '-pdf',
-"     \   '-verbose',
-"     \   '-file-line-error',
-"     \   '-synctex=1',
-"     \   '-interaction=nonstopmode',
-"     \ ],
-"     \}
-" let g:vimtex_compiler_progname = 'nvr'
-" " nmap  <leader>v <Esc>:w<CR>:VimtexView<CR>
-" let g:vimtex_quickfix_mode = 1
-" let g:vimtex_fold_enabled = 0
-" let g:vimtex_fold_manual = 1
-
-
-" let g:vimtex_fold_types= {
-"           \ 'preamble' : {},
-"           \ 'comments' : {'enabled' : 1},
-"           \ 'markers' : {},
-"           \ 'sections' : {
-"           \   'parse_levels' : 0,
-"           \   'sections' : [      
-"           \     '%(add)?part',
-"           \     '%(chapter|addchap)',
-"           \     '%(section|addsec)',
-"           \     'subsection',
-"           \     'subsubsection',
-"           \   ],
-"           \   'parts' : [         
-"           \     'appendix',
-"           \     'frontmatter',
-"           \     'mainmatter',
-"           \     'backmatter',
-"           \   ],
-"           \ },
-"           \}
-
-"  TermClose * if v:event == 12 || v:event == 0 bdelete endif
-" lua <<EOF
-" require'nvim-treesitter.configs'.setup {
-"   incremental_selection = {
-"     enable = true,
-"     keymaps = {
-"       init_selection = "gnn",
-"       node_incremental = "grn",
-"       scope_incremental = "grc",
-"       node_decremental = "grm",
-"     },
-"   },
-" }
-" EOF
-" 
-" " set foldlevel=20
-" " set foldmethod=expr
-" " set foldexpr=nvim_treesitter#foldexpr()
-" inoremap .<Esc> .<CR><Esc><leader>j
-" inoremap .<Space> .<CR><Esc><leader>j
-" noremap S :S 
-"
-"
-" function! Sneak()
-"     hi! link Sneak Normal
-"     hi! link SneakScope Normal
-"     execute 'normal! \<Plug>Sneak_s'
-"     syntax on
-" endfunction
- 
-" map N <Plug>Sneak_,
-" map t <Plug>(smalls-excursion)
-" let g:smalls_auto_jump=1
-" let g:smalls_auto_jump_timeout=0
-    
-" 
-" silent execute 'AsyncRun if git rev-parse --is-inside-work-tree || git rev-parse --git-dir > /dev/null 2>&1 ; then git add % ; git commit -m -a ; git push --all origin; fi'
-" let g:vimtex_view_general_options = '-r @line @pdf @
-""" pandoc backup -s html -o markdown cp backup.html %<cr>:e %<cr>:w<cr>:qa<cr>  asldkfj
-" <cr>
-" ; pandoc backup.html > backup.md; cp backup.md %<cr>:e %<cr>
-" NB: this supports "rp that replaces the selection by the contents of @r
-" Auto updating C
-" autocmd VimLeave * exe ":silent ! c -R"
-"
-"" lua << EOF
-" local function setup_servers()
-"   require'lspinstall'.setup()
-"   local servers = require'lspinstall'.installed_servers()
-"   for _, server in pairs(servers) do
-"     require'lspconfig'[server].setup{capabilities = require('cmp_nvim_lsp').update_capabilities(vim.lsp.protocol.make_client_capabilities())}
-"   end
-" end
-" 
-" setup_servers()
-" 
-" -- Automatically reload after `:LspInstall <server>` so we don't have to restart neovim
-" require'lspinstall'.post_install_hook = function ()
-"   setup_servers() -- reload installed servers
-"   vim.cmd("bufdo e") -- this triggers the FileType autocmd that starts the server
-" end
-" EOF
-" autocmd BufReadPost * if @% !~# '\.git[\/\\]COMMIT_EDITMSG$' && line("'\"") > 1 && line("'\"") <= line("$") | exe "normal! g`\"" | endif
-
-      
-"other maps   
+""other maps
 inoremap <cr> <cr><space><esc>"_s
 nnoremap o o<space><esc>"_s
 " map cr
@@ -1784,62 +1440,62 @@ require('leap').setup {
   
 }
 EOF
-lua <<EOF
-local generator = function()
-    local el_segments = {}
-
-    -- Statusline options can be of several different types.
-    -- Option 1, just a string.
-
-    table.insert(el_segments, '[literal_string]')
-
-    -- Keep in mind, these can be the builtin strings,
-    -- which are found in |:help statusline|
-    table.insert(el_segments, '%f')
-
-    -- expresss_line provides a helpful wrapper for these.
-    -- You can check out el.builtin
-    local builtin = require('el.builtin')
-    table.insert(el_segments, builtin.file)
-
-    -- Option 2, just a function that returns a string.
-    local extensions = require('el.extensions')
-    table.insert(el_segments, extensions.mode) -- mode returns the current mode.
-
-    -- Option 3, returns a function that takes in a Window and a Buffer.
-    --  See |:help el.Window| and |:help el.Buffer|
-    --
-    --  With this option, you don't have to worry about escaping / calling
-    --  the function in the correct way to get the current buffer and window.
-    local file_namer = function(_window, buffer)
-      return buffer.name
-    end
-    table.insert(el_segments, file_namer)
-
-    -- Option 4, you can return a coroutine.
-    --  In lua, you can cooperatively multi-thread.
-    --  You can use `coroutine.yield()` to yield execution to another coroutine.
-    --
-    --  For example, in luvjob.nvim, there is `co_wait` which is a coroutine
-    --  version of waiting for a job to complete. So you can start multiple
-    --  jobs at once and wait for them to all be done.
-    table.insert(el_segments, extensions.git_changes)
-
-    -- Option 5, there are several helper functions provided to asynchronously
-    --  run timers which update buffer or window variables at a certain frequency.
-    --
-    --  These can be used to set infrequrently updated values without waiting.
-    local helper = require("el.helper")
-    table.insert(el_segments, helper.async_buf_setter(
-      win_id,
-      'el_git_stat',
-      extensions.git_changes,
-      5000
-    ))
-
-    return el_segments
-end
-
--- And then when you're all done, just call
-require('el').setup { generator = generator }
-EOF
+" lua <<EOF
+" local generator = function()
+"     local el_segments = {}
+"
+"     -- Statusline options can be of several different types.
+"     -- Option 1, just a string.
+"
+"     table.insert(el_segments, '[literal_string]')
+"
+"     -- Keep in mind, these can be the builtin strings,
+"     -- which are found in |:help statusline|
+"     table.insert(el_segments, '%f')
+"
+"     -- expresss_line provides a helpful wrapper for these.
+"     -- You can check out el.builtin
+"     local builtin = require('el.builtin')
+"     table.insert(el_segments, builtin.file)
+"
+"     -- Option 2, just a function that returns a string.
+"     local extensions = require('el.extensions')
+"     table.insert(el_segments, extensions.mode) -- mode returns the current mode.
+"
+"     -- Option 3, returns a function that takes in a Window and a Buffer.
+"     --  See |:help el.Window| and |:help el.Buffer|
+"     --
+"     --  With this option, you don't have to worry about escaping / calling
+"     --  the function in the correct way to get the current buffer and window.
+"     local file_namer = function(_window, buffer)
+"       return buffer.name
+"     end
+"     table.insert(el_segments, file_namer)
+"
+"     -- Option 4, you can return a coroutine.
+"     --  In lua, you can cooperatively multi-thread.
+"     --  You can use `coroutine.yield()` to yield execution to another coroutine.
+"     --
+"     --  For example, in luvjob.nvim, there is `co_wait` which is a coroutine
+"     --  version of waiting for a job to complete. So you can start multiple
+"     --  jobs at once and wait for them to all be done.
+"     table.insert(el_segments, extensions.git_changes)
+"
+"     -- Option 5, there are several helper functions provided to asynchronously
+"     --  run timers which update buffer or window variables at a certain frequency.
+"     --
+"     --  These can be used to set infrequrently updated values without waiting.
+"     local helper = require("el.helper")
+"     table.insert(el_segments, helper.async_buf_setter(
+"       win_id,
+"       'el_git_stat',
+"       extensions.git_changes,
+"       5000
+"     ))
+"
+"     return el_segments
+" end
+"
+" -- And then when you're all done, just call
+" require('el').setup { generator = generator }
+" EOF
