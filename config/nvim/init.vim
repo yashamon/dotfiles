@@ -26,9 +26,10 @@ Plug 'ray-x/cmp-treesitter'
 Plug 'quangnguyen30192/cmp-nvim-tags',  { 'branch': 'main' }  
 Plug 'voldikss/vim-floaterm'
 Plug 'terrortylor/nvim-comment', { 'branch': 'main' }
-" Plug 'nvim-lualine/lualine.nvim'
-Plug 'tjdevries/express_line.nvim'
-Plug 'nvim-lua/plenary.nvim'
+Plug 'nvim-lualine/lualine.nvim'
+" Plug 'tjdevries/express_line.nvim'
+" Plug 'nvim-lua/plenary.nvim'
+" Plug 'tjdevries/express_line.nvim'
 Plug 'justinhoward/fzf-neoyank'
 Plug 'rakr/vim-one'
 Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}  
@@ -1082,7 +1083,13 @@ require('lualine').setup {
   sections = {
   lualine_a = {
         {
-          'filename',
+         'filename',
+            color = {
+            -- Same values as the general color option can be used here.
+            active = 'lualine_{section}_inactive',     -- Color for active buffer.
+            inactive = 'lualine_{section}_inactive', -- Color for inactive buffer.
+          },
+	  lualine_a = { { "insert", color = { fg = "red", bg = "grey" } } },
           file_status = true,      -- Displays file status (readonly status, modified status)
           newfile_status = false,   -- Display new file status (new file means no write after created)
           path = 3,                -- 0: Just the filename
@@ -1095,6 +1102,7 @@ require('lualine').setup {
             readonly = '[-]',      -- Text to show when the file is non-modifiable or readonly.
             unnamed = '[No Name]', -- Text to show for unnamed buffers.
             newfile = '[New]',     -- Text to show for new created file before first writting
+            
           }
         }
       },
@@ -1237,65 +1245,65 @@ require('leap').setup {
   
 }
 EOF
-lua <<EOF
-local generator = function()
-    local el_segments = {}
-
-    -- Statusline options can be of several different types.
-    -- Option 1, just a string.
-
-    table.insert(el_segments, '[literal_string]')
-
-    -- Keep in mind, these can be the builtin strings,
-    -- which are found in |:help statusline|
-    table.insert(el_segments, '%f')
-
-    -- expresss_line provides a helpful wrapper for these.
-    -- You can check out el.builtin
-    local builtin = require('el.builtin')
-    table.insert(el_segments, builtin.file)
-
-    -- Option 2, just a function that returns a string.
-    local extensions = require('el.extensions')
-    table.insert(el_segments, extensions.mode) -- mode returns the current mode.
-
-    -- Option 3, returns a function that takes in a Window and a Buffer.
-    --  See |:help el.Window| and |:help el.Buffer|
-    --
-    --  With this option, you don't have to worry about escaping / calling
-    --  the function in the correct way to get the current buffer and window.
-    local file_namer = function(_window, buffer)
-      return buffer.name
-    end
-    table.insert(el_segments, file_namer)
-
-    -- Option 4, you can return a coroutine.
-    --  In lua, you can cooperatively multi-thread.
-    --  You can use `coroutine.yield()` to yield execution to another coroutine.
-    --
-    --  For example, in luvjob.nvim, there is `co_wait` which is a coroutine
-    --  version of waiting for a job to complete. So you can start multiple
-    --  jobs at once and wait for them to all be done.
-    table.insert(el_segments, extensions.git_changes)
-
-    -- Option 5, there are several helper functions provided to asynchronously
-    --  run timers which update buffer or window variables at a certain frequency.
-    --
-    --  These can be used to set infrequrently updated values without waiting.
-    local helper = require("el.helper")
-    table.insert(el_segments, helper.async_buf_setter(
-      win_id,
-      'el_git_stat',
-      extensions.git_changes,
-      5000
-    ))
-
-    return el_segments
-end
-
--- And then when you're all done, just call
-require('el').setup { generator = generator }
-EOF
+" lua <<EOF
+" local generator = function()
+"     local el_segments = {}
+"
+"     -- Statusline options can be of several different types.
+"     -- Option 1, just a string.
+"
+"     table.insert(el_segments, '[literal_string]')
+"
+"     -- Keep in mind, these can be the builtin strings,
+"     -- which are found in |:help statusline|
+"     table.insert(el_segments, '%f')
+"
+"     -- expresss_line provides a helpful wrapper for these.
+"     -- You can check out el.builtin
+"     local builtin = require('el.builtin')
+"     table.insert(el_segments, builtin.file)
+"
+"     -- Option 2, just a function that returns a string.
+"     local extensions = require('el.extensions')
+"     table.insert(el_segments, extensions.mode) -- mode returns the current mode.
+"
+"     -- Option 3, returns a function that takes in a Window and a Buffer.
+"     --  See |:help el.Window| and |:help el.Buffer|
+"     --
+"     --  With this option, you don't have to worry about escaping / calling
+"     --  the function in the correct way to get the current buffer and window.
+"     local file_namer = function(_window, buffer)
+"       return buffer.name
+"     end
+"     table.insert(el_segments, file_namer)
+"
+"     -- Option 4, you can return a coroutine.
+"     --  In lua, you can cooperatively multi-thread.
+"     --  You can use `coroutine.yield()` to yield execution to another coroutine.
+"     --
+"     --  For example, in luvjob.nvim, there is `co_wait` which is a coroutine
+"     --  version of waiting for a job to complete. So you can start multiple
+"     --  jobs at once and wait for them to all be done.
+"     table.insert(el_segments, extensions.git_changes)
+"
+"     -- Option 5, there are several helper functions provided to asynchronously
+"     --  run timers which update buffer or window variables at a certain frequency.
+"     --
+"     --  These can be used to set infrequrently updated values without waiting.
+"     local helper = require("el.helper")
+"     table.insert(el_segments, helper.async_buf_setter(
+"       win_id,
+"       'el_git_stat',
+"       extensions.git_changes,
+"       5000
+"     ))
+"
+"     return el_segments
+" end
+"
+" -- And then when you're all done, just call
+" require('el').setup { generator = generator }
+" EOF
 " " " EOF
 " lua << EOF
 "   require("zen-mode").setup {
