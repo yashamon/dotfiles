@@ -486,6 +486,7 @@ let-env config = {
  
 }
 let-env Path = ($env.Path | append [C:\Users\yasha\dotfiles\scripts C:\Users\yasha\scoop\apps])
+
 # def lfn [] {
 # # let pwd = ((pwd) | str trim | str replace -a '/' '\\')
 # let tmp = "C:\\Users\\yasha\\AppData\\Local\\Temp\\tmp9E2.tmp"
