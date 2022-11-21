@@ -4,6 +4,7 @@ let-env Path = ["C:/Users/yasha/dotfiles/scripts" "C:/Users/yasha/scoop/apps" "C
 # ($env.Path | append ["C:\\Users\\yasha\\dotfiles\\scripts" "C:\\Users\\yasha\\scoop\\apps" "C:\\Users\\yasha\\scoop\\shims"])
 
 source ~/.zoxide.nu
+source ~/.cache/starship/init.nu
 def swap [] {
 rm swap/* 
 }
@@ -489,6 +490,8 @@ let-env config = {
   ]
  
 }
+
+
 
 # def lfn [] {
 # # let pwd = ((pwd) | str trim | str replace -a '/' '\\')
