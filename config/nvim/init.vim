@@ -29,7 +29,6 @@ Plug 'terrortylor/nvim-comment', { 'branch': 'main' }
 " Plug 'nvim-lualine/lualine.nvim'
 Plug 'tjdevries/express_line.nvim'
 Plug 'nvim-lua/plenary.nvim'
-Plug 'tjdevries/express_line.nvim'
 Plug 'justinhoward/fzf-neoyank'
 Plug 'rakr/vim-one'
 Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}  
