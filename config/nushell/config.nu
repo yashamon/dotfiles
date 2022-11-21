@@ -1,8 +1,5 @@
 # Nushell Config File
 source ~/.zoxide.nu
-let-env Path = ($env.Path | append [C:/Users/yasha/dotfiles/scripts C:/Users/yasha/scoop/apps])
-# [C:/Users/yasha/dotfiles/scripts C:/Users/yasha/scoop/apps/python39/current/Scripts C:/Users/yasha/scoop/apps/python39/current C:/Users/yasha/scoop/apps/nodejs/current/bin C:/Users/yasha/scoop/apps/nodejs/current C:/Users/yasha/scoop/apps/latex/current/texmfs/install/miktex/bin/x64 C:/"Program Files"/PowerShell/7 C:/windows/system32 C:/windows C:/windows/System32/Wbem C:/windows/System32/WindowsPowerShell/v1.0 C:/windows/System32/OpenSSH C:/"Program Files"/dotnet C:/"Program Files"/PowerShell/7 C:/Users/yasha/scoop/shims C:/Users/yasha/AppData/Local/Microsoft/WindowsApps])
-
 def swap [] {
 rm swap/* 
 }
@@ -51,7 +48,7 @@ git push origin gh-pages
 cd $cwdb
 }
 alias send = sendFunction
-# alias lf = pwsh -c C:/Users/yasha/dotfiles/scripts/lfcdWin.ps1 
+alias lf = source C:/Users/yasha/dotfiles/scripts/lfcd.nu
 def update [] { scoop update -a; scoop export > ~/dotfiles/scoopPackageList.json }
 
 module completions {
@@ -488,3 +485,22 @@ let-env config = {
   ]
  
 }
+let-env Path = ($env.Path | append [C:/Users/yasha/dotfiles/scripts C:/Users/yasha/scoop/apps])
+# def lfn [] {
+# # let pwd = ((pwd) | str trim | str replace -a '/' '\\')
+# let tmp = "C:\\Users\\yasha\\AppData\\Local\\Temp\\tmp9E2.tmp"
+# \\AppData \\Local\\Temp\\tmpZ714.tmp"
+# touch C:\\Users\\yasha\\temp.tmp 
+# touch C:/Users/yasha/AppData/Local/lf/temp.tmp
+# let tmp = ((pwsh -c [System.IO.Path]::GetTempFileName() 2> null) | str trim)
+# $tmp
+# let exec = "C:\\Users\\yasha\\scoop\\shims\\lf.exe -last-dir-path=C:\\Users\\yasha\\AppData\\Local\\Temp\\tmp9E2.tmp"
+# ^$exec
+# let dir = ((open "C:\\Users\\yasha\\AppData\\Local\\Temp\\tmp9E2.tmp") | str trim)
+# cd "C:\\Users\\yasha"
+# if (($dir | path type)  == dir) {
+#             cd $dir
+#         }
+# }
+# alias lf = pwsh -c C:/Users/yasha/dotfiles/scripts/lfcdWin.ps1 
+# [C:/Users/yasha/dotfiles/scripts C:/Users/yasha/scoop/apps/python39/current/Scripts C:/Users/yasha/scoop/apps/python39/current C:/Users/yasha/scoop/apps/nodejs/current/bin C:/Users/yasha/scoop/apps/nodejs/current C:/Users/yasha/scoop/apps/latex/current/texmfs/install/miktex/bin/x64 C:/"Program Files"/PowerShell/7 C:/windows/system32 C:/windows C:/windows/System32/Wbem C:/windows/System32/WindowsPowerShell/v1.0 C:/windows/System32/OpenSSH C:/"Program Files"/dotnet C:/"Program Files"/PowerShell/7 C:/Users/yasha/scoop/shims C:/Users/yasha/AppData/Local/Microsoft/WindowsApps])
