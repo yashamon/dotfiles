@@ -1084,7 +1084,8 @@ require('lualine').setup {
   lualine_a = {
         {
          'filename',
-            color = {
+         ignore_focus = {'tex', 'md', 'text', 'lua', 'latex', 'nu'},
+            filename_color = {
             -- Same values as the general color option can be used here.
             active = 'lualine_{section}_inactive',     -- Color for active buffer.
             inactive = 'lualine_{section}_inactive', -- Color for inactive buffer.
@@ -1106,7 +1107,7 @@ require('lualine').setup {
           }
         }
       },
-    lualine_b = {'branch', 'diff', 'diagnostics'},
+    lualine_b = {'branch', 'diff', 'diagnostics', color=nil},
     lualine_c = {},
     lualine_x = {},
     lualine_y = {},
