@@ -1,4 +1,5 @@
 call plug#begin('~/.vim/plugged')
+Plug 'yegappan/mru'
 Plug 'LhKipp/nvim-nu'
 Plug 'tzachar/cmp-fuzzy-buffer'
 Plug 'ggandor/leap.nvim'
@@ -8,8 +9,6 @@ Plug 'romgrk/fzy-lua-native'
 Plug 'vijaymarupudi/nvim-fzf'
 Plug 'kyazdani42/nvim-web-devicons'
 Plug 'metalelf0/nvim-floatedit',  { 'branch': 'main' }
-Plug 'phaazon/hop.nvim'
-Plug 'ggandor/lightspeed.nvim'
 Plug 'glacambre/firenvim', { 'do': { _ -> firenvim#install(0) } }
 Plug 'is0n/fm-nvim'
 Plug 'williamboman/mason.nvim'
@@ -27,6 +26,8 @@ Plug 'ray-x/cmp-treesitter'
 Plug 'quangnguyen30192/cmp-nvim-tags',  { 'branch': 'main' }  
 Plug 'voldikss/vim-floaterm'
 Plug 'terrortylor/nvim-comment', { 'branch': 'main' }
+Plug 'nvim-lualine/lualine.nvim'
+" If you want to have icons in your statusline choose one of these Plug 'kyazdani42/nvim-web-devicons'
 Plug 'justinhoward/fzf-neoyank'
 Plug 'rakr/vim-one'
 Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}  
@@ -41,10 +42,13 @@ Plug 'lewis6991/spellsitter.nvim'
 Plug 'ggVGc/vim-fuzzysearch'
 Plug 'hrsh7th/vim-searchx'
 Plug 'Pocco81/true-zen.nvim', { 'branch': 'main' }
+Plug 'kevinhwang91/nvim-bqf'
 
 " Plug 'folke/zen-mode.nvim', { 'branch': 'main' } 
 " Plug 'karb94/neoscroll.nvim'
 " Plug 'rlane/pounce.nvim'
+" Plug 'phaazon/hop.nvim'
+" Plug 'ggandor/lightspeed.nvim'
 " Plug 'vim-scripts/AutoTag'
 " Plug 'rebelot/kanagawa.nvim'
 " Plug 'reedes/vim-pencil' 
@@ -115,7 +119,6 @@ Plug 'Pocco81/true-zen.nvim', { 'branch': 'main' }
 " Plug 'gosukiwi/vim-atom-dark'
 "
 " Plug 'dracula/vim'
-Plug 'kevinhwang91/nvim-bqf'
 
 
 " " Plug 'svermeulen/vim-cutlass'
@@ -139,14 +142,20 @@ let g:neovide_fullscreen=v:true
 
 "General Settings    
 set title
+set cmdheight=0
+set signcolumn
 " set titlestring
 " set noshowmode
 " set noruler       
 " set laststatus=1 
 set noshowcmd    
+" set shell=nu
+" let &shell = 'nu'
+" let &shellcmdflag = '-c'
+" let &shellquote = ""
+" let &shellxquote = ""
 set autoindent
 set indentexpr=
-set autoindent
 set noshowmatch
 set wrap
 " set pb=10
@@ -353,12 +362,14 @@ map q :q<cr>
 noremap <leader>q q
 nmap <m-7> :ZenMode<cr>:mksession!<cr>
 nnoremap <leader>rr :w<cr>:source $MYVIMRC<CR>
-nnoremap <leader>u :lua require("true-zen.ataraxis") .off()<cr>:UndotreeToggle<CR>
-nnoremap <leader>e :silent execute "!echo " . v:servername . ' > C:/Users/yasha/servername.txt'<cr>:silent te pwsh -c lf<cr>i
+nnoremap <leader>u <cr>:UndotreeToggle<CR>
+nnoremap <leader>e :silent execute "!echo " . v:servername . ' > C:/Users/yasha/servername.txt'<cr>:te pwsh -c lf<cr>i
 " nnoremap <leader>tt :FloatermToggle<cr>
 nnoremap <leader>t :silent execute "!echo " . v:servername . ' > C:/Users/yasha/servername.txt'<cr>:edit term://pwsh<cr><cr>
 nnoremap <c-,> :cprevious<cr>
 nnoremap <c-.> :cnext<cr> 
+inoremap <m-h> <left>
+inoremap <m-l> <right>
 vnoremap <m-s> :s///gc<left><left><left><left>
 inoremap <m-s> <esc>:%s///gc<left><left><left><left>
 nnoremap <m-s> :%s///gc<left><left><left><left>
@@ -432,7 +443,7 @@ nmap D "0dg$
 nmap V vg$
 nmap A g$a
 map 0 g^
-map 9 g$
+map m9 g$
 nmap <m-8> :set laststatus=0<cr>:set lines=100<cr>:set guifont=Fira\ Code:h18<cr>:set columns=100<cr>
 nnoremap <c-l> :bnext<CR>
 nnoremap <c-h> :bprevious<CR>
@@ -513,9 +524,9 @@ au FileType tex,text,md noremap 9 g$
 " FZF 
 let g:fzf_layout = { 'window': { 'width': 1, 'height': 1 } }
 " let g:fzf_preview_window = []
-noremap <m-t> :BTags<cr>
-noremap SS <cr>:call Sentence()<cr>
-noremap S <cr>:call Line()<cr>
+nnoremap <m-t> :BTags<cr>
+nnoremap SS :call Sentence()<cr>
+nnoremap S <cr>:call Line()<cr>
 
 "noremap L <Esc>:AsyncRun sentence.sh %;nvr sentence_%<cr>:echo 'press any key'<cr>:execute 'call getchar()' | BLines<cr>
 " Line search mapping 
@@ -523,7 +534,8 @@ noremap S <cr>:call Line()<cr>
 "   K=bufname()
 "   normal viwhy<esc>:bdelete<cr>:buffer K<c-r>+<cr>:ZenMode<cr>
 " endfunction
-noremap <m-b> <Esc>:Buffers<CR>
+nnoremap <m-b>  :<Esc>:call setqflist(map(filter(range(1, bufnr('$')), 'buflisted(v:val)'), '{"bufnr": v:val}'))<CR>:copen<cr>
+nnoremap <m-u> :<Esc>:cg C:/Users/yasha/_vim_mru_files<cr>:copen<cr>:call feedkeys("zf")<CR>
 " noremap F <Esc>:GFiles<CR>
 map <A-e> :FZF ~<CR> 
 map <m-f> :FZF ~<CR> 
@@ -534,10 +546,10 @@ nmap <leader>g :TZAtaraxis<CR>
 
 " Latex stuff
 " 
-noremap <leader>ss :w<cr>:source $MYVIMRC<cr> 
-noremap <c-e> viwy:cclose<cr>:<c-r>+<cr><cr>
-noremap <c-p> :<c-r>+<cr>
-noremap <m-l> viwy:bdelete<cr>:execute "buffer" g:buf<cr>:<c-r>+<cr><cr>
+nnoremap <leader>ss :w<cr>:source $MYVIMRC<cr> 
+nnoremap <c-e> viwy:cclose<cr>:<c-r>+<cr><cr>
+nnoremap <c-p> :<c-r>+<cr>
+nnoremap <m-l> viwy:bdelete<cr>:execute "buffer" g:buf<cr>:<c-r>+<cr><cr>
 " noremap <m-l> viwy<esc>:bp<cr>:<c-r>+<cr>
 
 "FZF Neoyank yank     
@@ -638,6 +650,7 @@ command! -bang -nargs=* BLinesB
 " "     \   fzf#vim#with_preview({'options': '--layout reverse --query '.shellescape(<q-args>).' --with-nth=4.. --delimiter=":"'}, 'right:0%'))
     " \   fzf#vim#with_preview({'options': '--layout reverse  --with-nth=-1.. --delimiter="/"'}, 'right:50%'))
  function Line()
+ " vimgrep /\w\+/j % | copen
   let g:buf = bufname()
   " silent execute "!bash /mnt/c/Users/yasha/dotfiles/scripts/sentence.sh %"
   let b:filenamedir = substitute(expand('%:p:h'), "\\", "/", "g")
@@ -647,10 +660,11 @@ command! -bang -nargs=* BLinesB
   exec b:execstr
   cg @_%
   copen
+  sleep 200m
   " let b:paste = system('pwsh -c Get-Clipboard')
   " call feedkeys(":BLinesB \<c-r>+\<cr>")
   call feedkeys("zf")
-endfunction
+  endfunction
 function Sentence()
  let g:buf = bufname()
   " silent execute "!bash /mnt/c/Users/yasha/dotfiles/scripts/sentence.sh %"
@@ -677,9 +691,9 @@ function SentenceLL()
   copen
   " let b:paste = system('pwsh -c Get-Clipboard')
   call feedkeys("zf")
-  call feedkeys("\<c-r>+\<cr>")  
+  call feedkeys("\<c-r>+\<cr>")
 endfunction
-noremap LL :lua require("true-zen.ataraxis") .on()<cr>:lua require("true-zen.ataraxis") .off()<cr>:call SentenceLL()<cr>
+noremap LL :call SentenceLL()<cr>
 " noremap L :TZAtaraxisOff<cr><cr>:call Sentence()<cr>
 function GitAsync()
 silent execute "!echo " . v:servername . ' > ~/servername.txt'
@@ -984,7 +998,7 @@ true_zen.setup({
  			ruler = false,
  			showmode = false,
  			showcmd = false,
- 			cmdheight = 1,
+ 			cmdheight = 0,
  		},
  		top = {
  			showtabline = 0,
@@ -1047,17 +1061,47 @@ true_zen.setup({
  })
 EOF
 lua <<EOF
-require('feline').setup({
-    preset = 'noicon'
-    })
+require('lualine').setup {
+  options = {
+    icons_enabled = true,
+    theme = 'auto',
+    component_separators = { left = '', right = ''},
+    section_separators = { left = '', right = ''},
+    disabled_filetypes = {
+      statusline = {},
+      winbar = {},
+    },
+    ignore_focus = {},
+    always_divide_middle = true,
+    globalstatus = true,
+    refresh = {
+      statusline = 1000,
+      tabline = 1000,
+      winbar = 1000,
+    }
+  },
+  sections = {
+    lualine_a = {},
+    lualine_b = {'branch', 'diff', 'diagnostics'},
+    lualine_c = {'filename', path = 2},
+    lualine_x = {},
+    lualine_y = {},
+    lualine_z = {}
+  },
+  inactive_sections = {
+    lualine_a = {},
+    lualine_b = {},
+    lualine_c = {'filename'},
+    lualine_x = {},
+    lualine_y = {},
+    lualine_z = {}
+  },
+  tabline = {},
+  winbar = {},
+  inactive_winbar = {},
+  extensions = {}
+}
 EOF
-" 
-" 
-" 
-" " lua <<EOF
-" " require('lualine').setup{
-" " options = {disabled_filetypes = {'txt', 'text'}}
-" " }
 " " EOF
 " lua << EOF
 "   require("zen-mode").setup {
@@ -1200,15 +1244,6 @@ require('spellsitter').setup {
 spellchecker = 'vimfn'
 }
 EOF
-lua <<EOF
-    require'lightspeed'.setup { 
-        jump_to_unique_chars = false,
-        repeat_ft_with_target_char = true,
-        safe_labels  = { "f", "n", "u", "/", "e", "z", "h", "k", "m", "l", "j", "w", "b", "S", "F", "N", "L", "H", "M", "U", "G", "T", "?", "Z" },
-        labels = { "s", "f", "n", "j", "k", "l", "h", "o", "d", "w", "e", "m", "b", "u", "y", "v", "r", "g", "c", "x", "/", "z", "S", "F", "N", "J", "K", "L", "H", "O", "D", "W", "E", "M", "B", "U", "Y", "V", "R", "G", "T", "C", "X", "?", "Z" }
-}
-EOF
-
 let g:firenvim_config = { 
     \ 'globalSettings': {
         \ 'alt': 'all',
@@ -1615,11 +1650,20 @@ if exists('g:gonvim_running')
  set guifont=Fira\ Code\ Light:h18
 "goneovim specific stuff
 elseif exists('g:neovide')
-   set guifont=Fira\ Code:h18
+   set guifont=JetBrains\ Mono:h18
 end
 nnoremap <C-c> :set hlsearch!<cr>
 xnoremap <silent> <cr> "*y:silent! let searchTerm = '\V'.substitute(escape(@*, '\/'), "\n", '\\n', "g") <bar> let @/ = searchTerm <bar> echo '/'.@/ <bar> call histadd("search", searchTerm) <bar> set hls<cr>
+inoremap <m-d> <C-w>
 
+" lua <<EOF
+"     require'lightspeed'.setup { 
+"         jump_to_unique_chars = false,
+"         repeat_ft_with_target_char = true,
+"         safe_labels  = { "f", "n", "u", "/", "e", "z", "h", "k", "m", "l", "j", "w", "b", "S", "F", "N", "L", "H", "M", "U", "G", "T", "?", "Z" },
+"         labels = { "s", "f", "n", "j", "k", "l", "h", "o", "d", "w", "e", "m", "b", "u", "y", "v", "r", "g", "c", "x", "/", "z", "S", "F", "N", "J", "K", "L", "H", "O", "D", "W", "E", "M", "B", "U", "Y", "V", "R", "G", "T", "C", "X", "?", "Z" }
+" }
+" EOF
 " lua <<EOF
 " -- Setup cmp.
 " -- Installation
@@ -1716,13 +1760,12 @@ require('leap').setup {
   equivalence_classes =
   {
       {' ', "\r", "\n" },
-      {'"', '/', ':', '=', '#', '&', '%','^', '_', '<', '>', '?', '|', '!', '*', '+', '-', '`', '/', '\\', ',', '.',';', ']', '[', '}', '{', ')', '(', '$'}
+      {'\'','"', '/', ':', '=', '#', '&', '%','^', '_', '<', '>', '?', '|', '!', '*', '+', '-', '`', '/', '\\', ',', '.',';', ']', '[', '}', '{', ')', '(', '$'}
     },
   -- Leaving the] $appropriate list emapty effectively disables "smart" mode,
-  -- and forces auto-jump to be on or off.
+  -- and forces auto-jump to be on or off.%
   
 }
 EOF
-inoremap <m-d> <C-w>
-""
+
 
