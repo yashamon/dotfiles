@@ -33,7 +33,7 @@ sleep, 100
 Send !{Esc}
 return
 #X::
-Send WinClose 
+WinClose A 
 return
 #J::
 switchDesktopByNumber(4)
