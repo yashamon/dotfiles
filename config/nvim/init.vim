@@ -1119,7 +1119,185 @@ require('lualine').setup {
   extensions = {}
 }
 EOF
-" " EOF
+
+lua <<EOF
+require('spellsitter').setup {
+  hl = 'SpellBad', 
+  captures = {},  -- set to {} to spellcheck everything
+
+  -- Spellchecker to use. values:
+  -- * vimfn: built-in spell checker using vim.fn.spellbadword()
+  -- * ffi: built-in spell checker using the FFI to access the
+  --   internal spell_check() function
+spellchecker = 'vimfn'
+}
+EOF
+let g:firenvim_config = { 
+    \ 'globalSettings': {
+        \ 'alt': 'all',
+    \  },
+    \ 'localSettings': {
+        \ '.*': {
+            \ 'cmdline': 'neovim',
+            \ 'content': 'text',
+            \ 'priority': 0,
+            \ 'selector': 'textarea',
+            \ 'takeover': 'never',
+        \ },
+    \ }
+\ }
+lua << EOF
+
+require('fzf-lua').setup{
+-- ...
+}
+EOF
+lua <<EOF
+-- ===========================================
+--  Add user dictionary for ltex-ls
+--  * en.utf-8.add must be created using `zg` when set spell is on
+-- ===========================================
+local path = vim.fn.stdpath 'config' .. '/spell/en.utf-8.add'
+local path = vim.fn.stdpath 'config' .. '/spell/es.utf-8.spl'
+local words = {}
+
+for word in io.open(path, 'r'):lines() do
+  table.insert(words, word)
+end
+require'lspconfig'.ltex.setup{
+  on_attach = on_attach,
+  capabilities = capabilities,
+  settings = {
+    ltex = {
+      disabledRules = {
+        ['en-US'] = { 'PROFANITY' },
+        ['en-GB'] = { 'PROFANITY' },
+      },
+      language="en-US",
+      dictionary = {
+        ['en-US'] = words,
+        ['en-GB'] = words,
+        ['es'] = words,
+},
+    },
+  },
+}
+EOF
+""other maps
+inoremap <cr> <cr><space><esc>"_s
+nnoremap o o<space><esc>"_s
+" map cr
+" inoremap <cr> <esc>$a<cr><space><esc>"_s
+" inoremap <m-cr> <cr><space><esc>"_s
+let g:neovide_fullscreen=v:true
+if exists('g:gonvim_running')
+ set guifont=Fira\ Code\ Light:h18
+"goneovim specific stuff
+elseif exists('g:neovide')
+   set guifont=JetBrains\ Mono:h18
+end
+nnoremap <C-c> :set hlsearch!<cr>
+xnoremap <silent> <cr> "*y:silent! let searchTerm = '\V'.substitute(escape(@*, '\/'), "\n", '\\n', "g") <bar> let @/ = searchTerm <bar> echo '/'.@/ <bar> call histadd("search", searchTerm) <bar> set hls<cr>
+inoremap <m-d> <C-w>
+
+lua <<EOF
+require'nvim-treesitter.configs'.setup {
+-- ensure_installed = "all", -- one of "all", "maintained" (parsers with maintainers), or a list of languages
+  incremental_selection = {
+    enable = true,
+    keymaps = {
+      init_selection = '<m-CR>',
+      --scope_incremental = '<CR>',
+      node_incremental = '<TAB>',
+      node_decremental = '<S-TAB>',
+    },
+  },
+  highlight = {
+    enable = true,              -- false will disable the whole extension
+    -- Instead of true it can also be a list of languages
+    additional_vim_regex_highlighting = false,
+  },
+}
+EOF
+
+lua <<EOF
+require('leap').setup {
+  max_aot_targets = nil,
+  highlight_unlabeled = false,
+  max_highlighted_traversal_targets = 10,
+  case_sensitive = false,
+  -- Sets of characters that should match each other.
+  -- Obvious candidates are braces and quotes ('([{', ')]}', '`"\'').
+  equivalence_classes =
+  {
+      {' ', "\r", "\n" },
+      {'\'','"', '/', ':', '=', '#', '&', '%','^', '_', '<', '>', '?', '|', '!', '*', '+', '-', '`', '/', '\\', ',', '.',';', ']', '[', '}', '{', ')', '(', '$'}
+    },
+  -- Leaving the] $appropriate list emapty effectively disables "smart" mode,
+  -- and forces auto-jump to be on or off.%
+  
+}
+EOF
+" lua <<EOF
+" local generator = function()
+"     local el_segments = {}
+"
+"     -- Statusline options can be of several different types.
+"     -- Option 1, just a string.
+"
+"     table.insert(el_segments, '[literal_string]')
+"
+"     -- Keep in mind, these can be the builtin strings,
+"     -- which are found in |:help statusline|
+"     table.insert(el_segments, '%f')
+"
+"     -- expresss_line provides a helpful wrapper for these.
+"     -- You can check out el.builtin
+"     local builtin = require('el.builtin')
+"     table.insert(el_segments, builtin.file)
+"
+"     -- Option 2, just a function that returns a string.
+"     local extensions = require('el.extensions')
+"     table.insert(el_segments, extensions.mode) -- mode returns the current mode.
+"
+"     -- Option 3, returns a function that takes in a Window and a Buffer.
+"     --  See |:help el.Window| and |:help el.Buffer|
+"     --
+"     --  With this option, you don't have to worry about escaping / calling
+"     --  the function in the correct way to get the current buffer and window.
+"     local file_namer = function(_window, buffer)
+"       return buffer.name
+"     end
+"     table.insert(el_segments, file_namer)
+"
+"     -- Option 4, you can return a coroutine.
+"     --  In lua, you can cooperatively multi-thread.
+"     --  You can use `coroutine.yield()` to yield execution to another coroutine.
+"     --
+"     --  For example, in luvjob.nvim, there is `co_wait` which is a coroutine
+"     --  version of waiting for a job to complete. So you can start multiple
+"     --  jobs at once and wait for them to all be done.
+"     table.insert(el_segments, extensions.git_changes)
+"
+"     -- Option 5, there are several helper functions provided to asynchronously
+"     --  run timers which update buffer or window variables at a certain frequency.
+"     --
+"     --  These can be used to set infrequrently updated values without waiting.
+"     local helper = require("el.helper")
+"     table.insert(el_segments, helper.async_buf_setter(
+"       win_id,
+"       'el_git_stat',
+"       extensions.git_changes,
+"       5000
+"     ))
+"
+"     return el_segments
+" end
+"
+" -- And then when you're all done, just call
+" require('el').setup { generator = generator }
+" EOF
+" " " EOF
 " lua << EOF
 "   require("zen-mode").setup {
 "   window = {
@@ -1248,88 +1426,7 @@ EOF
 " })
 " EOF 
 "
-"
-lua <<EOF
-require('spellsitter').setup {
-  hl = 'SpellBad', 
-  captures = {},  -- set to {} to spellcheck everything
-
-  -- Spellchecker to use. values:
-  -- * vimfn: built-in spell checker using vim.fn.spellbadword()
-  -- * ffi: built-in spell checker using the FFI to access the
-  --   internal spell_check() function
-spellchecker = 'vimfn'
-}
-EOF
-let g:firenvim_config = { 
-    \ 'globalSettings': {
-        \ 'alt': 'all',
-    \  },
-    \ 'localSettings': {
-        \ '.*': {
-            \ 'cmdline': 'neovim',
-            \ 'content': 'text',
-            \ 'priority': 0,
-            \ 'selector': 'textarea',
-            \ 'takeover': 'never',
-        \ },
-    \ }
-\ }
-lua << EOF
-
-require('fzf-lua').setup{
--- ...
-}
-EOF
-lua <<EOF
--- ===========================================
---  Add user dictionary for ltex-ls
---  * en.utf-8.add must be created using `zg` when set spell is on
--- ===========================================
-local path = vim.fn.stdpath 'config' .. '/spell/en.utf-8.add'
-local path = vim.fn.stdpath 'config' .. '/spell/es.utf-8.spl'
-local words = {}
-
-for word in io.open(path, 'r'):lines() do
-  table.insert(words, word)
-end
-require'lspconfig'.ltex.setup{
-  on_attach = on_attach,
-  capabilities = capabilities,
-  settings = {
-    ltex = {
-      disabledRules = {
-        ['en-US'] = { 'PROFANITY' },
-        ['en-GB'] = { 'PROFANITY' },
-      },
-      language="en-US",
-      dictionary = {
-        ['en-US'] = words,
-        ['en-GB'] = words,
-        ['es'] = words,
-},
-    },
-  },
-}
-EOF
-""other maps
-inoremap <cr> <cr><space><esc>"_s
-nnoremap o o<space><esc>"_s
-" map cr
-" inoremap <cr> <esc>$a<cr><space><esc>"_s
-" inoremap <m-cr> <cr><space><esc>"_s
-let g:neovide_fullscreen=v:true
-if exists('g:gonvim_running')
- set guifont=Fira\ Code\ Light:h18
-"goneovim specific stuff
-elseif exists('g:neovide')
-   set guifont=JetBrains\ Mono:h18
-end
-nnoremap <C-c> :set hlsearch!<cr>
-xnoremap <silent> <cr> "*y:silent! let searchTerm = '\V'.substitute(escape(@*, '\/'), "\n", '\\n', "g") <bar> let @/ = searchTerm <bar> echo '/'.@/ <bar> call histadd("search", searchTerm) <bar> set hls<cr>
-inoremap <m-d> <C-w>
-
-" lua <<EOF
+"" lua <<EOF
 "     require'lightspeed'.setup { 
 "         jump_to_unique_chars = false,
 "         repeat_ft_with_target_char = true,
@@ -1402,100 +1499,4 @@ inoremap <m-d> <C-w>
 "
 
 
-lua <<EOF
-require'nvim-treesitter.configs'.setup {
--- ensure_installed = "all", -- one of "all", "maintained" (parsers with maintainers), or a list of languages
-  incremental_selection = {
-    enable = true,
-    keymaps = {
-      init_selection = '<m-CR>',
-      --scope_incremental = '<CR>',
-      node_incremental = '<TAB>',
-      node_decremental = '<S-TAB>',
-    },
-  },
-  highlight = {
-    enable = true,              -- false will disable the whole extension
-    -- Instead of true it can also be a list of languages
-    additional_vim_regex_highlighting = false,
-  },
-}
-EOF
 
-lua <<EOF
-require('leap').setup {
-  max_aot_targets = nil,
-  highlight_unlabeled = false,
-  max_highlighted_traversal_targets = 10,
-  case_sensitive = false,
-  -- Sets of characters that should match each other.
-  -- Obvious candidates are braces and quotes ('([{', ')]}', '`"\'').
-  equivalence_classes =
-  {
-      {' ', "\r", "\n" },
-      {'\'','"', '/', ':', '=', '#', '&', '%','^', '_', '<', '>', '?', '|', '!', '*', '+', '-', '`', '/', '\\', ',', '.',';', ']', '[', '}', '{', ')', '(', '$'}
-    },
-  -- Leaving the] $appropriate list emapty effectively disables "smart" mode,
-  -- and forces auto-jump to be on or off.%
-  
-}
-EOF
-" lua <<EOF
-" local generator = function()
-"     local el_segments = {}
-"
-"     -- Statusline options can be of several different types.
-"     -- Option 1, just a string.
-"
-"     table.insert(el_segments, '[literal_string]')
-"
-"     -- Keep in mind, these can be the builtin strings,
-"     -- which are found in |:help statusline|
-"     table.insert(el_segments, '%f')
-"
-"     -- expresss_line provides a helpful wrapper for these.
-"     -- You can check out el.builtin
-"     local builtin = require('el.builtin')
-"     table.insert(el_segments, builtin.file)
-"
-"     -- Option 2, just a function that returns a string.
-"     local extensions = require('el.extensions')
-"     table.insert(el_segments, extensions.mode) -- mode returns the current mode.
-"
-"     -- Option 3, returns a function that takes in a Window and a Buffer.
-"     --  See |:help el.Window| and |:help el.Buffer|
-"     --
-"     --  With this option, you don't have to worry about escaping / calling
-"     --  the function in the correct way to get the current buffer and window.
-"     local file_namer = function(_window, buffer)
-"       return buffer.name
-"     end
-"     table.insert(el_segments, file_namer)
-"
-"     -- Option 4, you can return a coroutine.
-"     --  In lua, you can cooperatively multi-thread.
-"     --  You can use `coroutine.yield()` to yield execution to another coroutine.
-"     --
-"     --  For example, in luvjob.nvim, there is `co_wait` which is a coroutine
-"     --  version of waiting for a job to complete. So you can start multiple
-"     --  jobs at once and wait for them to all be done.
-"     table.insert(el_segments, extensions.git_changes)
-"
-"     -- Option 5, there are several helper functions provided to asynchronously
-"     --  run timers which update buffer or window variables at a certain frequency.
-"     --
-"     --  These can be used to set infrequrently updated values without waiting.
-"     local helper = require("el.helper")
-"     table.insert(el_segments, helper.async_buf_setter(
-"       win_id,
-"       'el_git_stat',
-"       extensions.git_changes,
-"       5000
-"     ))
-"
-"     return el_segments
-" end
-"
-" -- And then when you're all done, just call
-" require('el').setup { generator = generator }
-" EOF
