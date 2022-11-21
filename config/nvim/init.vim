@@ -26,7 +26,7 @@ Plug 'ray-x/cmp-treesitter'
 Plug 'quangnguyen30192/cmp-nvim-tags',  { 'branch': 'main' }  
 Plug 'voldikss/vim-floaterm'
 Plug 'terrortylor/nvim-comment', { 'branch': 'main' }
-Plug 'nvim-lualine/lualine.nvim'
+" Plug 'nvim-lualine/lualine.nvim'
 Plug 'tjdevries/express_line.nvim'
 Plug 'justinhoward/fzf-neoyank'
 Plug 'rakr/vim-one'
@@ -1058,65 +1058,65 @@ true_zen.setup({
  	}
  })
 EOF
-lua <<EOF
-require('lualine').setup {
-  options = {
-    icons_enabled = true,
-    theme = 'auto',
-    component_separators = { left = '', right = ''},
-    section_separators = { left = '', right = ''},
-    disabled_filetypes = {
-      statusline = {},
-      winbar = {},
-    },
-    ignore_focus = {'tex', 'md', 'text', 'lua', 'latex', 'nu'},
-    always_divide_middle = true,
-    globalstatus = true,
-    refresh = {
-      statusline = 1000,
-      tabline = 1000,
-      winbar = 1000,
-    }
-  },
-  sections = {
-  lualine_a = {
-        {
-          'filename',
-          file_status = true,      -- Displays file status (readonly status, modified status)
-          newfile_status = false,   -- Display new file status (new file means no write after created)
-          path = 3,                -- 0: Just the filename
-                                   -- 1: Relative path
-                                   -- 2: Absolute path
-                                   -- 3: Absolute path, with tilde as the home directory
-   
-          symbols = {
-            modified = '[+]',      -- Text to show when the file is modified.
-            readonly = '[-]',      -- Text to show when the file is non-modifiable or readonly.
-            unnamed = '[No Name]', -- Text to show for unnamed buffers.
-            newfile = '[New]',     -- Text to show for new created file before first writting
-          }
-        }
-      },
-    lualine_b = {'branch', 'diff', 'diagnostics'},
-    lualine_c = {},
-    lualine_x = {},
-    lualine_y = {},
-    lualine_z = {'location'}
-  },
-  inactive_sections = {
-    lualine_a = {},
-    lualine_b = {},
-    lualine_c = {},
-    lualine_x = {},
-    lualine_y = {},
-    lualine_z = {}
-  },
-  tabline = {},
-  winbar = {},
-  inactive_winbar = {},
-  extensions = {}
-}
-EOF
+" lua <<EOF
+" require('lualine').setup {
+"   options = {
+"     icons_enabled = true,
+"     theme = 'auto',
+"     component_separators = { left = '', right = ''},
+"     section_separators = { left = '', right = ''},
+"     disabled_filetypes = {
+"       statusline = {},
+"       winbar = {},
+"     },
+"     ignore_focus = {'tex', 'md', 'text', 'lua', 'latex', 'nu'},
+"     always_divide_middle = true,
+"     globalstatus = true,
+"     refresh = {
+"       statusline = 1000,
+"       tabline = 1000,
+"       winbar = 1000,
+"     }
+"   },
+"   sections = {
+"   lualine_a = {
+"         {
+"           'filename',
+"           file_status = true,      -- Displays file status (readonly status, modified status)
+"           newfile_status = false,   -- Display new file status (new file means no write after created)
+"           path = 3,                -- 0: Just the filename
+"                                    -- 1: Relative path
+"                                    -- 2: Absolute path
+"                                    -- 3: Absolute path, with tilde as the home directory
+"   
+"           symbols = {
+"             modified = '[+]',      -- Text to show when the file is modified.
+"             readonly = '[-]',      -- Text to show when the file is non-modifiable or readonly.
+"             unnamed = '[No Name]', -- Text to show for unnamed buffers.
+"             newfile = '[New]',     -- Text to show for new created file before first writting
+"           }
+"         }
+"       },
+"     lualine_b = {'branch', 'diff', 'diagnostics'},
+"     lualine_c = {},
+"     lualine_x = {},
+"     lualine_y = {},
+"     lualine_z = {'location'}
+"   },
+"   inactive_sections = {
+"     lualine_a = {},
+"     lualine_b = {},
+"     lualine_c = {},
+"     lualine_x = {},
+"     lualine_y = {},
+"     lualine_z = {}
+"   },
+"   tabline = {},
+"   winbar = {},
+"   inactive_winbar = {},
+"   extensions = {}
+" }
+" EOF
 " " EOF
 " lua << EOF
 "   require("zen-mode").setup {
