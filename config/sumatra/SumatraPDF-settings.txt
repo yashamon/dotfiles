@@ -126,7 +126,7 @@ FileStates [
 		]
 		IsPinned = false
 		IsMissing = false
-		OpenCount = 4
+		OpenCount = 6
 		UseDefaultState = false
 		DisplayMode = continuous
 		ScrollPos = 82.666 64.3487
