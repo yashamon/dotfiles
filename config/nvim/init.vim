@@ -142,6 +142,7 @@ let g:neovide_fullscreen=v:true
 " let g:neovide_transparency=0.15
 
 "General Settings    
+set scrolloff=10
 set title
 set cmdheight=0
 set signcolumn=yes
