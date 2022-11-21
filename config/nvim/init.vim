@@ -1084,7 +1084,7 @@ require('lualine').setup {
   lualine_a = {
         {
          'filename',
-         ignore_focus = {'tex', 'md', 'text', 'lua', 'latex', 'nu'},
+            ignore_focus = {'tex', 'md', 'text', 'lua', 'latex', 'nu', 'vim'},
             filename_color = {
             -- Same values as the general color option can be used here.
             active = 'lualine_{section}_inactive',     -- Color for active buffer.
