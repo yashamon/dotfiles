@@ -121,6 +121,26 @@ CustomScreenDPI = 0
 
 FileStates [
 	[
+		FilePath = C:\Users\yasha\workspacemodules\conformalsymplectic\build\conformalsymplectic.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 4
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = 82.666 64.3487
+		PageNo = 4
+		Zoom = fit content
+		Rotation = 0
+		WindowState = 3
+		WindowPos = 451 0 1480 1872
+		ShowToc = false
+		SidebarDx = 364
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
 		FilePath = C:\Users\yasha\workspace\vita\build\coverLetter2022SouthFlorida.pdf
 		Favorites [
 		]
@@ -149,29 +169,9 @@ FileStates [
 		OpenCount = 1
 		UseDefaultState = false
 		DisplayMode = continuous
-		ScrollPos = -1 152.063
+		ScrollPos = -1 151.688
 		PageNo = 1
 		Zoom = 100
-		Rotation = 0
-		WindowState = 3
-		WindowPos = 451 0 1480 1872
-		ShowToc = false
-		SidebarDx = 364
-		DisplayR2L = false
-		ReparseIdx = 0
-	]
-	[
-		FilePath = C:\Users\yasha\workspacemodules\conformalsymplectic\build\conformalsymplectic.pdf
-		Favorites [
-		]
-		IsPinned = false
-		IsMissing = false
-		OpenCount = 5
-		UseDefaultState = false
-		DisplayMode = continuous
-		ScrollPos = 82.3347 64.4936
-		PageNo = 18
-		Zoom = fit content
 		Rotation = 0
 		WindowState = 3
 		WindowPos = 451 0 1480 1872
@@ -186,7 +186,7 @@ FileStates [
 		]
 		IsPinned = false
 		IsMissing = false
-		OpenCount = 1
+		OpenCount = 0
 		UseDefaultState = false
 		DisplayMode = continuous
 		ScrollPos = -1 -1
@@ -206,7 +206,7 @@ FileStates [
 		]
 		IsPinned = false
 		IsMissing = false
-		OpenCount = 1
+		OpenCount = 0
 		UseDefaultState = false
 		DisplayMode = continuous
 		ScrollPos = -1 -1
@@ -226,7 +226,7 @@ FileStates [
 		]
 		IsPinned = false
 		IsMissing = false
-		OpenCount = 2
+		OpenCount = 1
 		UseDefaultState = false
 		DisplayMode = continuous
 		ScrollPos = -1 -1
@@ -246,7 +246,7 @@ FileStates [
 		]
 		IsPinned = false
 		IsMissing = false
-		OpenCount = 3
+		OpenCount = 1
 		UseDefaultState = false
 		DisplayMode = continuous
 		ScrollPos = -1 215.063
@@ -266,7 +266,7 @@ FileStates [
 		]
 		IsPinned = false
 		IsMissing = false
-		OpenCount = 5
+		OpenCount = 2
 		UseDefaultState = false
 		DisplayMode = continuous
 		ScrollPos = -1 659.063
@@ -286,7 +286,7 @@ FileStates [
 		]
 		IsPinned = false
 		IsMissing = false
-		OpenCount = 3
+		OpenCount = 1
 		UseDefaultState = false
 		DisplayMode = continuous
 		ScrollPos = -1 659.063
@@ -306,7 +306,7 @@ FileStates [
 		]
 		IsPinned = false
 		IsMissing = false
-		OpenCount = 3
+		OpenCount = 1
 		UseDefaultState = false
 		DisplayMode = continuous
 		ScrollPos = -1 538.688
@@ -346,7 +346,7 @@ FileStates [
 		]
 		IsPinned = false
 		IsMissing = false
-		OpenCount = 1
+		OpenCount = 0
 		UseDefaultState = false
 		DisplayMode = continuous
 		ScrollPos = -1 584.813
@@ -366,7 +366,7 @@ FileStates [
 		]
 		IsPinned = false
 		IsMissing = false
-		OpenCount = 1
+		OpenCount = 0
 		UseDefaultState = false
 		DisplayMode = continuous
 		ScrollPos = -1 -1
@@ -386,7 +386,7 @@ FileStates [
 		]
 		IsPinned = false
 		IsMissing = false
-		OpenCount = 1
+		OpenCount = 0
 		UseDefaultState = false
 		DisplayMode = continuous
 		ScrollPos = -1 -1
@@ -406,7 +406,7 @@ FileStates [
 		]
 		IsPinned = false
 		IsMissing = false
-		OpenCount = 1
+		OpenCount = 0
 		UseDefaultState = false
 		DisplayMode = continuous
 		ScrollPos = -1 358.688
@@ -426,7 +426,7 @@ FileStates [
 		]
 		IsPinned = false
 		IsMissing = false
-		OpenCount = 1
+		OpenCount = 0
 		UseDefaultState = false
 		DisplayMode = continuous
 		ScrollPos = -1 542.813
@@ -446,7 +446,7 @@ FileStates [
 		]
 		IsPinned = false
 		IsMissing = false
-		OpenCount = 1
+		OpenCount = 0
 		UseDefaultState = false
 		DisplayMode = continuous
 		ScrollPos = -1 -1
@@ -466,7 +466,7 @@ FileStates [
 		]
 		IsPinned = false
 		IsMissing = false
-		OpenCount = 1
+		OpenCount = 0
 		UseDefaultState = false
 		DisplayMode = continuous
 		ScrollPos = -1 646.688
@@ -486,7 +486,7 @@ FileStates [
 		]
 		IsPinned = false
 		IsMissing = false
-		OpenCount = 1
+		OpenCount = 0
 		UseDefaultState = false
 		DisplayMode = continuous
 		ScrollPos = -1 -1
@@ -506,7 +506,7 @@ FileStates [
 		]
 		IsPinned = false
 		IsMissing = false
-		OpenCount = 2
+		OpenCount = 1
 		UseDefaultState = false
 		DisplayMode = continuous
 		ScrollPos = -1 -1
@@ -526,7 +526,7 @@ FileStates [
 		]
 		IsPinned = false
 		IsMissing = false
-		OpenCount = 2
+		OpenCount = 1
 		UseDefaultState = false
 		DisplayMode = continuous
 		ScrollPos = -1 -1
@@ -546,7 +546,7 @@ FileStates [
 		]
 		IsPinned = false
 		IsMissing = false
-		OpenCount = 2
+		OpenCount = 1
 		UseDefaultState = false
 		DisplayMode = continuous
 		ScrollPos = -1 251.063
@@ -566,7 +566,7 @@ FileStates [
 		]
 		IsPinned = false
 		IsMissing = false
-		OpenCount = 2
+		OpenCount = 1
 		UseDefaultState = false
 		DisplayMode = continuous
 		ScrollPos = -1 95.0629
@@ -586,7 +586,7 @@ FileStates [
 		]
 		IsPinned = false
 		IsMissing = false
-		OpenCount = 2
+		OpenCount = 1
 		UseDefaultState = false
 		DisplayMode = continuous
 		ScrollPos = -1 -1
@@ -606,7 +606,7 @@ FileStates [
 		]
 		IsPinned = false
 		IsMissing = false
-		OpenCount = 2
+		OpenCount = 1
 		UseDefaultState = false
 		DisplayMode = continuous
 		ScrollPos = -1 -1
@@ -626,7 +626,7 @@ FileStates [
 		]
 		IsPinned = false
 		IsMissing = false
-		OpenCount = 2
+		OpenCount = 1
 		UseDefaultState = false
 		DisplayMode = continuous
 		ScrollPos = -1 -1
@@ -646,7 +646,7 @@ FileStates [
 		]
 		IsPinned = false
 		IsMissing = false
-		OpenCount = 3
+		OpenCount = 1
 		UseDefaultState = false
 		DisplayMode = continuous
 		ScrollPos = -1 71.0629
@@ -1362,43 +1362,8 @@ FileStates [
 	]
 ]
 SessionData [
-	[
-		TabStates [
-			[
-				FilePath = C:\Users\yasha\workspacemodules\conformalsymplectic\build\conformalsymplectic.pdf
-				DisplayMode = continuous
-				PageNo = 18
-				Zoom = fit content
-				Rotation = 0
-				ScrollPos = 82.3347 64.4936
-				ShowToc = false
-			]
-			[
-				FilePath = C:\Users\yasha\workspace\vita\build\coverLetter2022NewMexico.pdf
-				DisplayMode = continuous
-				PageNo = 1
-				Zoom = 100
-				Rotation = 0
-				ScrollPos = -1 152.063
-				ShowToc = false
-			]
-			[
-				FilePath = C:\Users\yasha\workspace\vita\build\coverLetter2022SouthFlorida.pdf
-				DisplayMode = continuous
-				PageNo = 1
-				Zoom = 100
-				Rotation = 0
-				ScrollPos = -1 -1
-				ShowToc = false
-			]
-		]
-		TabIndex = 3
-		WindowState = 3
-		WindowPos = 451 0 1480 1872
-		SidebarDx = 364
-	]
 ]
 TimeOfLastUpdateCheck = 0 0
-OpenCountWeek = 619
+OpenCountWeek = 620
 
 # Settings below are not recognized by the current version

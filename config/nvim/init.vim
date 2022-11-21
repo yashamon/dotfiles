@@ -143,7 +143,7 @@ let g:neovide_fullscreen=v:true
 "General Settings    
 set title
 set cmdheight=0
-set signcolumn
+set signcolumn=yes
 " set titlestring
 " set noshowmode
 " set noruler       
@@ -955,12 +955,10 @@ sources = cmp.config.sources({
 { name = 'omni', keyword_length = 4},
        -- { name = 'spell' }, 
       --{ name = 'treesitter', keyword_length = 4 },
-{ name = 'buffer', keyword_length = 4 }
+{ name = 'buffer', keyword_length = 4 },
 --{ name = 'fuzzy_buffer', keyword_length = 8 }
 }),
---completion = {
---    autocomplete = true
---    }
+completion = { autocomplete = false }
 })
 EOF
 " 
@@ -1081,17 +1079,34 @@ require('lualine').setup {
     }
   },
   sections = {
-    lualine_a = {},
+  lualine_a = {
+        {
+          'filename',
+          file_status = true,      -- Displays file status (readonly status, modified status)
+          newfile_status = false,   -- Display new file status (new file means no write after created)
+          path = 3,                -- 0: Just the filename
+                                   -- 1: Relative path
+                                   -- 2: Absolute path
+                                   -- 3: Absolute path, with tilde as the home directory
+   
+          symbols = {
+            modified = '[+]',      -- Text to show when the file is modified.
+            readonly = '[-]',      -- Text to show when the file is non-modifiable or readonly.
+            unnamed = '[No Name]', -- Text to show for unnamed buffers.
+            newfile = '[New]',     -- Text to show for new created file before first writting
+          }
+        }
+      },
     lualine_b = {'branch', 'diff', 'diagnostics'},
-    lualine_c = {'filename', path = 2},
+    lualine_c = {},
     lualine_x = {},
     lualine_y = {},
-    lualine_z = {}
+    lualine_z = {'location'}
   },
   inactive_sections = {
     lualine_a = {},
     lualine_b = {},
-    lualine_c = {'filename'},
+    lualine_c = {},
     lualine_x = {},
     lualine_y = {},
     lualine_z = {}
@@ -1767,5 +1782,3 @@ require('leap').setup {
   
 }
 EOF
-
-

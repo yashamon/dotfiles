@@ -1,5 +1,5 @@
  C:/Users/yasha/dotfiles/scripts/sentence.nu:1:: def main [f: string  {
- C:/Users/yasha/dotfiles/scripts/sentence.nu:2:: et  newfile =  "( f | str trim | path dirname)" + '/@_' +  "( f | str trim | path basename)"
+ C:/Users/yasha/dotfiles/scripts/sentence.nu:2:: let  newfile =  "( f | str trim | path dirname)" + '/@_' +  "( f | str trim | path basename)"
  C:/Users/yasha/dotfiles/scripts/sentence.nu:3::  newfile
  C:/Users/yasha/dotfiles/scripts/sentence.nu:4:: let  a = ( open  f | lines | each  n { |l|  " ( f)" +  ":( l.index + 1):" + ': ' +  "( l.item)"  + "@" | str replace  a ' . s+@' ' .@@@' | str replace  a ' . s+' ( ' . ' +   " ( f)" +  ":( l.index + 1):" + ':+++' ) )
  C:/Users/yasha/dotfiles/scripts/sentence.nu:5::  a | save temp
