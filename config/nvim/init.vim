@@ -27,8 +27,7 @@ Plug 'quangnguyen30192/cmp-nvim-tags',  { 'branch': 'main' }
 Plug 'voldikss/vim-floaterm'
 Plug 'terrortylor/nvim-comment', { 'branch': 'main' }
 Plug 'nvim-lualine/lualine.nvim'
-
-" If you want to have icons in your statusline choose one of these Plug 'kyazdani42/nvim-web-devicons'
+Plug 'tjdevries/express_line.nvim'
 Plug 'justinhoward/fzf-neoyank'
 Plug 'rakr/vim-one'
 Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}  
