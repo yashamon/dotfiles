@@ -1,18 +1,12 @@
 call plug#begin('~/.vim/plugged')
 Plug 'yegappan/mru'
 Plug 'LhKipp/nvim-nu'
-Plug 'tzachar/cmp-fuzzy-buffer'
 Plug 'ggandor/leap.nvim'
-Plug 'ibhagwan/fzf-lua', { 'branch': 'main' }
 Plug 'tzachar/fuzzy.nvim'
 Plug 'romgrk/fzy-lua-native'
 Plug 'vijaymarupudi/nvim-fzf'
 Plug 'kyazdani42/nvim-web-devicons'
-Plug 'metalelf0/nvim-floatedit',  { 'branch': 'main' }
 Plug 'glacambre/firenvim', { 'do': { _ -> firenvim#install(0) } }
-Plug 'is0n/fm-nvim'
-Plug 'williamboman/mason.nvim'
-Plug 'williamboman/mason-lspconfig.nvim'
 Plug 'neovim/nvim-lspconfig'
 Plug 'williamboman/nvim-lsp-installer', { 'branch': 'main' }
 Plug 'hrsh7th/nvim-cmp', { 'branch': 'main' }
@@ -23,28 +17,34 @@ Plug 'hrsh7th/vim-vsnip-integ'
 Plug 'hrsh7th/cmp-nvim-lsp', { 'branch': 'main' } 
 Plug 'ray-x/cmp-treesitter'
 Plug 'quangnguyen30192/cmp-nvim-tags',  { 'branch': 'main' }  
-Plug 'voldikss/vim-floaterm'
 Plug 'terrortylor/nvim-comment', { 'branch': 'main' }
 Plug 'nvim-lualine/lualine.nvim'
-" Plug 'tjdevries/express_line.nvim'
-" Plug 'nvim-lua/plenary.nvim'
-" Plug 'tjdevries/express_line.nvim'
+Plug 'hrsh7th/vim-searchx'
 Plug 'justinhoward/fzf-neoyank'
 Plug 'rakr/vim-one'
 Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}  
 Plug 'Shougo/neoyank.vim' 
 Plug 'Shougo/denite.nvim', { 'do': ':UpdateRemotePlugins' } 
-Plug 'skywind3000/asyncrun.vim'         
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } } 
-Plug 'neovim/nvim-lspconfig'
 Plug 'junegunn/fzf.vim'
 Plug 'mbbill/undotree', { 'on': 'UndotreeToggle' }
 Plug 'lewis6991/spellsitter.nvim'
-Plug 'ggVGc/vim-fuzzysearch'
-Plug 'hrsh7th/vim-searchx'
-Plug 'Pocco81/true-zen.nvim', { 'branch': 'main' }
 Plug 'kevinhwang91/nvim-bqf'
 
+" Plug 'voldikss/vim-floaterm'
+" Plug 'metalelf0/nvim-floatedit',  { 'branch': 'main' }
+" Plug 'ibhagwan/fzf-lua', { 'branch': 'main' }
+" Plug 'tzachar/cmp-fuzzy-buffer'
+" Plug 'is0n/fm-nvim'
+" Plug 'williamboman/mason.nvim'
+" Plug 'williamboman/mason-lspconfig.nvim'
+" Plug 'tjdevries/express_line.nvim'
+" Plug 'nvim-lua/plenary.nvim'
+" Plug 'tjdevries/express_line.nvim'
+" Plug 'skywind3000/asyncrun.vim'         
+" " Plug 'neovim/nvim-lspconfig'
+" Plug 'ggVGc/vim-fuzzysearch'
+" " Plug 'Pocco81/true-zen.nvim', { 'branch': 'main' }
 " Plug 'folke/zen-mode.nvim', { 'branch': 'main' } 
 " Plug 'karb94/neoscroll.nvim'
 " Plug 'rlane/pounce.nvim'
