@@ -29,6 +29,8 @@ Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'mbbill/undotree', { 'on': 'UndotreeToggle' }
 Plug 'lewis6991/spellsitter.nvim'
 Plug 'kevinhwang91/nvim-bqf'
+Plug 'nvim-lua/plenary.nvim'
+Plug 'nvim-telescope/telescope.nvim',
 
 " Plug 'folke/zen-mode.nvim', { 'branch': 'main' } 
 " Plug 'karb94/neoscroll.nvim'
@@ -45,8 +47,6 @@ Plug 'kevinhwang91/nvim-bqf'
 " Plug 'sheerun/vim-polyglot' 
 " Plug 'https://gitlab.com/yorickpeterse/nvim-dd.git',  { 'branch': 'main' }
 " Plug 'luukvbaal/stabilize.nvim' 
-" Plug 'nvim-lua/plenary.nvim'
-" Plug 'nvim-telescope/telescope.nvim',
 " Plug 'nvim-treesitter/playground
 " Plug 'glepnir/lspsaga.nvim'
 " If you are using Vim-Plug
