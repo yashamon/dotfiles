@@ -54,6 +54,7 @@ cd $cwdb
 }
 alias send = sendFunction
 alias lf = { source C:/Users/yasha/dotfiles/scripts/lfcd.nu $cmd }
+alias ls [$dir] = ls $dir
 def update [] { scoop update -a; scoop export > ~/dotfiles/scoopPackageList.json }
 
 module completions {
