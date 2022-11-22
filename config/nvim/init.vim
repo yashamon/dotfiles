@@ -1,18 +1,12 @@
 call plug#begin('~/.vim/plugged')
 Plug 'yegappan/mru'
 Plug 'LhKipp/nvim-nu'
-Plug 'tzachar/cmp-fuzzy-buffer'
 Plug 'ggandor/leap.nvim'
 Plug 'ibhagwan/fzf-lua', { 'branch': 'main' }
-Plug 'tzachar/fuzzy.nvim'
 Plug 'romgrk/fzy-lua-native'
 Plug 'vijaymarupudi/nvim-fzf'
 Plug 'kyazdani42/nvim-web-devicons'
-Plug 'metalelf0/nvim-floatedit',  { 'branch': 'main' }
 Plug 'glacambre/firenvim', { 'do': { _ -> firenvim#install(0) } }
-Plug 'is0n/fm-nvim'
-Plug 'williamboman/mason.nvim'
-Plug 'williamboman/mason-lspconfig.nvim'
 Plug 'neovim/nvim-lspconfig'
 Plug 'williamboman/nvim-lsp-installer', { 'branch': 'main' }
 Plug 'hrsh7th/nvim-cmp', { 'branch': 'main' }
@@ -23,26 +17,17 @@ Plug 'hrsh7th/vim-vsnip-integ'
 Plug 'hrsh7th/cmp-nvim-lsp', { 'branch': 'main' } 
 Plug 'ray-x/cmp-treesitter'
 Plug 'quangnguyen30192/cmp-nvim-tags',  { 'branch': 'main' }  
-Plug 'voldikss/vim-floaterm'
 Plug 'terrortylor/nvim-comment', { 'branch': 'main' }
 Plug 'nvim-lualine/lualine.nvim'
-" Plug 'tjdevries/express_line.nvim'
-" Plug 'nvim-lua/plenary.nvim'
-" Plug 'tjdevries/express_line.nvim'
 Plug 'justinhoward/fzf-neoyank'
 Plug 'rakr/vim-one'
 Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}  
 Plug 'Shougo/neoyank.vim' 
 Plug 'Shougo/denite.nvim', { 'do': ':UpdateRemotePlugins' } 
-Plug 'skywind3000/asyncrun.vim'         
+Plug 'skywind3000/asyncrun.vim'
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } } 
-Plug 'neovim/nvim-lspconfig'
-Plug 'junegunn/fzf.vim'
 Plug 'mbbill/undotree', { 'on': 'UndotreeToggle' }
 Plug 'lewis6991/spellsitter.nvim'
-Plug 'ggVGc/vim-fuzzysearch'
-Plug 'hrsh7th/vim-searchx'
-Plug 'Pocco81/true-zen.nvim', { 'branch': 'main' }
 Plug 'kevinhwang91/nvim-bqf'
 
 " Plug 'folke/zen-mode.nvim', { 'branch': 'main' } 
@@ -988,77 +973,6 @@ lua <<EOF
 EOF
 nmap <leader>c gc
 lua <<EOF
-local true_zen = require("true-zen")
-true_zen.setup({
- 	ui = {
- 		bottom = {
- 			laststatus = 0,
- 			ruler = false,
- 			showmode = false,
- 			showcmd = false,
- 			cmdheight = 0,
- 		},
- 		top = {
- 			showtabline = 0,
- 		},
- 		left = {
- 			number = false,
- 			relativenumber = false,
- 			signcolumn = "no",
- 		},
- 	},
- 	modes = {
- 		ataraxis = {
- 			-- left_padding = 20,
- 			-- right_padding = 20,
- 			top_padding = 0,
- 			bottom_padding = 0,
- 			ideal_writing_area_width = {60},
- 			auto_padding = true,
- 			keep_default_fold_fillchars = true,
- 			custom_bg = {"none", ""},
- 			bg_configuration = true,
- 			quit = "untoggle",
- 			ignore_floating_windows = true,
- 			affected_higroups = {
- 				NonText = true,
- 				FoldColumn = true,
- 				ColorColumn = true,
- 				VertSplit = true,
- 				StatusLine = true,
- 				StatusLineNC = true,
- 				SignColumn = true,
- 			},
- 		},
- 		focus = {
- 			margin_of_error = 5,
- 			focus_method = "experimental"
- 		},
- 	},
- 	integrations = {
- 		vim_gitgutter = false,
- 		galaxyline = false,
- 		tmux = false,
- 		gitsigns = false,
- 		nvim_bufferline = false,
- 		limelight = false,
- 		twilight = false,
- 		vim_airline = false,
- 		vim_powerline = false,
- 		vim_signify = false,
- 		express_line = false,
- 		lualine = false,
- 		lightline = false,
- 		feline = false,
- 	},
- 	misc = {
- 		on_off_commands = true,
- 		ui_elements_commands = false,
- 		cursor_by_mode = false,
- 	}
- })
-EOF
-lua <<EOF
 require('lualine').setup {
   options = {
     icons_enabled = true,
@@ -1498,4 +1412,74 @@ EOF
 "
 
 
-
+" local true_zen = require("true-zen")
+" true_zen.setup({
+"  	ui = {
+"  		bottom = {
+"  			laststatus = 0,
+"  			ruler = false,
+"  			showmode = false,
+"  			showcmd = false,
+"  			cmdheight = 0,
+"  		},
+"  		top = {
+"  			showtabline = 0,
+"  		},
+"  		left = {
+"  			number = false,
+"  			relativenumber = false,
+"  			signcolumn = "no",
+"  		},
+"  	},
+"  	modes = {
+"  		ataraxis = {
+"  			-- left_padding = 20,
+"  			-- right_padding = 20,
+"  			top_padding = 0,
+"  			bottom_padding = 0,
+"  			ideal_writing_area_width = {60},
+"  			auto_padding = true,
+"  			keep_default_fold_fillchars = true,
+"  			custom_bg = {"none", ""},
+"  			bg_configuration = true,
+"  			quit = "untoggle",
+"  			ignore_floating_windows = true,
+"  			affected_higroups = {
+"  				NonText = true,
+"  				FoldColumn = true,
+"  				ColorColumn = true,
+"  				VertSplit = true,
+"  				StatusLine = true,
+"  				StatusLineNC = true,
+"  				SignColumn = true,
+"  			},
+"  		},
+"  		focus = {
+"  			margin_of_error = 5,
+"  			focus_method = "experimental"
+"  		},
+"  	},
+"  	integrations = {
+"  		vim_gitgutter = false,
+"  		galaxyline = false,
+"  		tmux = false,
+"  		gitsigns = false,
+"  		nvim_bufferline = false,
+"  		limelight = false,
+"  		twilight = false,
+"  		vim_airline = false,
+"  		vim_powerline = false,
+"  		vim_signify = false,
+"  		express_line = false,
+"  		lualine = false,
+"  		lightline = false,
+"  		feline = false,
+"  	},
+"  	misc = {
+"  		on_off_commands = true,
+"  		ui_elements_commands = false,
+"  		cursor_by_mode = false,
+"  	}
+"  })
+" EOF
+"
