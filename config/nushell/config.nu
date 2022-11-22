@@ -53,8 +53,7 @@ git push origin gh-pages
 cd $cwdb
 }
 alias send = sendFunction
-alias lf = { source C:/Users/yasha/dotfiles/scripts/lfcd.nu $cmd }
-alias ls [$dir] = ls $dir
+def-env lf [...opt] { nu C:/Users/yasha/dotfiles/scripts/lfcd.nu $opt }
 def update [] { scoop update -a; scoop export > ~/dotfiles/scoopPackageList.json }
 
 module completions {
