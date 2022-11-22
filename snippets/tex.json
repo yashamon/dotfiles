@@ -983,7 +983,13 @@
     ],
     "description": "phi"
   },
-
+"tau": {
+    "prefix": ["tau"],
+    "body": [
+      "\\tau $0"
+    ],
+    "description": "tau"
+  },
 "epsilon": {
     "prefix": ["eps"],
     "body": [
