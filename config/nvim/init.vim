@@ -537,7 +537,7 @@ nnoremap S <cr>:call Line()<cr>
 "   K=bufname()
 "   normal viwhy<esc>:bdelete<cr>:buffer K<c-r>+<cr>:ZenMode<cr>
 " endfunction
-nnoremap <m-b> :Telescope buffers<cr>
+nnoremap <m-b>  :<Esc>:call setqflist(map(filter(range(1, bufnr('$')), 'buflisted(v:val)'), '{"bufnr": v:val}'))<CR>:copen<cr><cr>
 nnoremap <m-u> :MRU<cr>
 " noremap F <Esc>:GFiles<CR>
 map <A-e> :FZF ~<CR> 
@@ -796,11 +796,9 @@ let g:auto_save_silent = 1
 
 "Git autocommit  (private git repo)
 autocmd BufWritePost * call GitAsync()
-" vsnip stuff 
 " Use <Tab> and <S-Tab> to navigate through popup menu
 " inoremap <expr> <Tab> pumvisible() ? "\<C-n>" : "\<Tab>"
 " inoremap <expr> <S-Tab> pumvisible() ? "\<C-p>" : "\<S-Tab>"
-
 " Set completeopt to have a better completion experience
 set completeopt=menuone,noinsert,noselect
 
