@@ -28,11 +28,16 @@ Plug 'junegunn/fzf.vim'
 Plug 'mbbill/undotree', { 'on': 'UndotreeToggle' }
 Plug 'lewis6991/spellsitter.nvim'
 Plug 'kevinhwang91/nvim-bqf'
+Plug 'skywind3000/asyncrun.vim'         
+Plug 'ibhagwan/fzf-lua', { 'branch': 'main' }
+Plug 'luukvbaal/stabilize.nvim' 
+Plug 'nvim-lua/plenary.nvim'
+Plug 'nvim-telescope/telescope.nvim'
 
 " Plug 'hrsh7th/vim-searchx'
 " Plug 'voldikss/vim-floaterm'
 " Plug 'metalelf0/nvim-floatedit',  { 'branch': 'main' }
-" Plug 'ibhagwan/fzf-lua', { 'branch': 'main' }
+
 " Plug 'tzachar/cmp-fuzzy-buffer'
 " Plug 'is0n/fm-nvim'
 " Plug 'williamboman/mason.nvim'
@@ -40,7 +45,7 @@ Plug 'kevinhwang91/nvim-bqf'
 " Plug 'tjdevries/express_line.nvim'
 " Plug 'nvim-lua/plenary.nvim'
 " Plug 'tjdevries/express_line.nvim'
-" Plug 'skywind3000/asyncrun.vim'         
+
 " " Plug 'neovim/nvim-lspconfig'
 " Plug 'ggVGc/vim-fuzzysearch'
 " " Plug 'Pocco81/true-zen.nvim', { 'branch': 'main' }
@@ -58,9 +63,6 @@ Plug 'kevinhwang91/nvim-bqf'
 " Plug 'tpope/vim-dispatch'
 " Plug 'sheerun/vim-polyglot' 
 " Plug 'https://gitlab.com/yorickpeterse/nvim-dd.git',  { 'branch': 'main' }
-" Plug 'luukvbaal/stabilize.nvim' 
-" Plug 'nvim-lua/plenary.nvim'
-" Plug 'nvim-telescope/telescope.nvim',
 " Plug 'nvim-treesitter/playground
 " Plug 'glepnir/lspsaga.nvim'
 " If you are using Vim-Plug
@@ -535,8 +537,8 @@ nnoremap S <cr>:call Line()<cr>
 "   K=bufname()
 "   normal viwhy<esc>:bdelete<cr>:buffer K<c-r>+<cr>:ZenMode<cr>
 " endfunction
-nnoremap <m-b>  :<Esc>:call setqflist(map(filter(range(1, bufnr('$')), 'buflisted(v:val)'), '{"bufnr": v:val}'))<CR>:copen<cr><cr>
-nnoremap <m-u> :<Esc>:cg C:/Users/yasha/_vim_mru_files<cr>:copen<cr>:call feedkeys("zf")<CR>
+nnoremap <m-b>  :Telescope buffers<cr>
+nnoremap <m-u> :MRU<cr>
 " noremap F <Esc>:GFiles<CR>
 map <A-e> :FZF ~<CR> 
 map <m-f> :FZF ~<CR> 
@@ -565,7 +567,7 @@ nnoremap <leader>1 :FZFNeoyank 1<cr>
 nnoremap <leader>P :FZFNeoyank " P+<cr>
 vnoremap <leader>p :FZFNeoyankSelection +<cr>
 
-"Pounce
+"leap
 map t <Plug>(leap-forward)
 map T <Plug>(leap-backward)
 " " nmap S <cmd>PounceRepeat<CR>
@@ -986,77 +988,6 @@ lua <<EOF
  )
 EOF
 nmap <leader>c gc
-lua <<EOF
-local true_zen = require("true-zen")
-true_zen.setup({
- 	ui = {
- 		bottom = {
- 			laststatus = 0,
- 			ruler = false,
- 			showmode = false,
- 			showcmd = false,
- 			cmdheight = 0,
- 		},
- 		top = {
- 			showtabline = 0,
- 		},
- 		left = {
- 			number = false,
- 			relativenumber = false,
- 			signcolumn = "no",
- 		},
- 	},
- 	modes = {
- 		ataraxis = {
- 			-- left_padding = 20,
- 			-- right_padding = 20,
- 			top_padding = 0,
- 			bottom_padding = 0,
- 			ideal_writing_area_width = {60},
- 			auto_padding = true,
- 			keep_default_fold_fillchars = true,
- 			custom_bg = {"none", ""},
- 			bg_configuration = true,
- 			quit = "untoggle",
- 			ignore_floating_windows = true,
- 			affected_higroups = {
- 				NonText = true,
- 				FoldColumn = true,
- 				ColorColumn = true,
- 				VertSplit = true,
- 				StatusLine = true,
- 				StatusLineNC = true,
- 				SignColumn = true,
- 			},
- 		},
- 		focus = {
- 			margin_of_error = 5,
- 			focus_method = "experimental"
- 		},
- 	},
- 	integrations = {
- 		vim_gitgutter = false,
- 		galaxyline = false,
- 		tmux = false,
- 		gitsigns = false,
- 		nvim_bufferline = false,
- 		limelight = false,
- 		twilight = false,
- 		vim_airline = false,
- 		vim_powerline = false,
- 		vim_signify = false,
- 		express_line = false,
- 		lualine = false,
- 		lightline = false,
- 		feline = false,
- 	},
- 	misc = {
- 		on_off_commands = true,
- 		ui_elements_commands = false,
- 		cursor_by_mode = false,
- 	}
- })
-EOF
 lua <<EOF
 require('lualine').setup {
   options = {
@@ -1496,5 +1427,76 @@ EOF
 " EOF
 "
 
-
-
+" lua <<EOF
+" local true_zen = require("true-zen")
+" true_zen.setup({
+"  	ui = {
+"  		bottom = {
+"  			laststatus = 0,
+"  			ruler = false,
+"  			showmode = false,
+"  			showcmd = false,
+"  			cmdheight = 0,
+"  		},
+"  		top = {
+"  			showtabline = 0,
+"  		},
+"  		left = {
+"  			number = false,
+"  			relativenumber = false,
+"  			signcolumn = "no",
+"  		},
+"  	},
+"  	modes = {
+"  		ataraxis = {
+"  			-- left_padding = 20,
+"  			-- right_padding = 20,
+"  			top_padding = 0,
+"  			bottom_padding = 0,
+"  			ideal_writing_area_width = {60},
+"  			auto_padding = true,
+"  			keep_default_fold_fillchars = true,
+"  			custom_bg = {"none", ""},
+"  			bg_configuration = true,
+"  			quit = "untoggle",
+"  			ignore_floating_windows = true,
+"  			affected_higroups = {
+"  				NonText = true,
+"  				FoldColumn = true,
+"  				ColorColumn = true,
+"  				VertSplit = true,
+"  				StatusLine = true,
+"  				StatusLineNC = true,
+"  				SignColumn = true,
+"  			},
+"  		},
+"  		focus = {
+"  			margin_of_error = 5,
+"  			focus_method = "experimental"
+"  		},
+"  	},
+"  	integrations = {
+"  		vim_gitgutter = false,
+"  		galaxyline = false,
+"  		tmux = false,
+"  		gitsigns = false,
+"  		nvim_bufferline = false,
+"  		limelight = false,
+"  		twilight = false,
+"  		vim_airline = false,
+"  		vim_powerline = false,
+"  		vim_signify = false,
+"  		express_line = false,
+"  		lualine = false,
+"  		lightline = false,
+"  		feline = false,
+"  	},
+"  	misc = {
+"  		on_off_commands = true,
+"  		ui_elements_commands = false,
+"  		cursor_by_mode = false,
+"  	}
+"  })
+" EOF
+"
+"
