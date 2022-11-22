@@ -524,8 +524,8 @@ nnoremap S <cr>:call Line()<cr>
 "   normal viwhy<esc>:bdelete<cr>:buffer K<c-r>+<cr>:ZenMode<cr>
 " endfunction
 " 
- nnoremap <m-b> :Buffers<cr>
-" nnoremap <m-b> :lua require('telescope.builtin').buffers({layout_strategy='vertical',layout_config={width=0.9}})<cr>
+ " nnoremap <m-b> :Buffers<cr>
+nnoremap <m-b> :lua require('telescope.builtin').buffers({layout_strategy='vertical',layout_config={width=0.9}})<cr>
 nnoremap <m-u> :<Esc>:cg C:/Users/yasha/_vim_mru_files<cr>:copen<cr>:call feedkeys("zf")<CR>
 " noremap F <Esc>:GFiles<CR>
 map <A-e> :FZF ~<CR> 
