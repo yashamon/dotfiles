@@ -1061,43 +1061,42 @@ let g:firenvim_config = {
         \ },
     \ }
 \ }
-lua << EOF
-
-require('fzf-lua').setup{
--- ...
-}
-EOF
-lua <<EOF
--- ===========================================
---  Add user dictionary for ltex-ls
---  * en.utf-8.add must be created using `zg` when set spell is on
--- ===========================================
-local path = vim.fn.stdpath 'config' .. '/spell/en.utf-8.add'
-local path = vim.fn.stdpath 'config' .. '/spell/es.utf-8.spl'
-local words = {}
-
-for word in io.open(path, 'r'):lines() do
-  table.insert(words, word)
-end
-require'lspconfig'.ltex.setup{
-  on_attach = on_attach,
-  capabilities = capabilities,
-  settings = {
-    ltex = {
-      disabledRules = {
-        ['en-US'] = { 'PROFANITY' },
-        ['en-GB'] = { 'PROFANITY' },
-      },
-      language="en-US",
-      dictionary = {
-        ['en-US'] = words,
-        ['en-GB'] = words,
-        ['es'] = words,
-},
-    },
-  },
-}
-EOF
+" lua << EOF
+" require('fzf-lua').setup{
+" -- ...
+" }
+" EOF
+" lua <<EOF
+" -- ===========================================
+" --  Add user dictionary for ltex-ls
+" --  * en.utf-8.add must be created using `zg` when set spell is on
+" -- ===========================================
+" local path = vim.fn.stdpath 'config' .. '/spell/en.utf-8.add'
+" local path = vim.fn.stdpath 'config' .. '/spell/es.utf-8.spl'
+" local words = {}
+"
+" for word in io.open(path, 'r'):lines() do
+"   table.insert(words, word)
+" end
+" require'lspconfig'.ltex.setup{
+"   on_attach = on_attach,
+"   capabilities = capabilities,
+"   settings = {
+"     ltex = {
+"       disabledRules = {
+"         ['en-US'] = { 'PROFANITY' },
+"         ['en-GB'] = { 'PROFANITY' },
+"       },
+"       language="en-US",
+"       dictionary = {
+"         ['en-US'] = words,
+"         ['en-GB'] = words,
+"         ['es'] = words,
+" },
+"     },
+"   },
+" }
+" EOF
 ""other maps
 inoremap <cr> <cr><space><esc>"_s
 nnoremap o o<space><esc>"_s
