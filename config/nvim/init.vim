@@ -537,7 +537,7 @@ nnoremap S <cr>:call Line()<cr>
 "   K=bufname()
 "   normal viwhy<esc>:bdelete<cr>:buffer K<c-r>+<cr>:ZenMode<cr>
 " endfunction
-nnoremap <m-b>  :Telescope buffers<cr>
+nnoremap <m-b> :Telescope buffers<cr>
 nnoremap <m-u> :MRU<cr>
 " noremap F <Esc>:GFiles<CR>
 map <A-e> :FZF ~<CR> 
