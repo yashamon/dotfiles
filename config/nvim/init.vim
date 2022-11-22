@@ -527,7 +527,7 @@ au FileType tex,text,md noremap 9 g$
 " FZF 
 let g:fzf_layout = { 'window': { 'width': 1, 'height': 1 } }
 " let g:fzf_preview_window = []
-nnoremap <m-t> :Telescope tags<cr>
+nnoremap <m-t> :BTags<cr>
 nnoremap SS :call Sentence()<cr>
 nnoremap S <cr>:call Line()<cr>
 
