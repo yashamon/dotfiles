@@ -12,14 +12,12 @@ Plug 'williamboman/nvim-lsp-installer', { 'branch': 'main' }
 Plug 'hrsh7th/nvim-cmp', { 'branch': 'main' }
 Plug 'hrsh7th/cmp-buffer', { 'branch': 'main' }
 Plug 'hrsh7th/cmp-vsnip', { 'branch': 'main' } 
-Plug 'hrsh7th/vim-vsnip'
 Plug 'hrsh7th/vim-vsnip-integ'
 Plug 'hrsh7th/cmp-nvim-lsp', { 'branch': 'main' } 
 Plug 'ray-x/cmp-treesitter'
 Plug 'quangnguyen30192/cmp-nvim-tags',  { 'branch': 'main' }  
 Plug 'terrortylor/nvim-comment', { 'branch': 'main' }
 Plug 'nvim-lualine/lualine.nvim'
-Plug 'hrsh7th/vim-searchx'
 Plug 'justinhoward/fzf-neoyank'
 Plug 'rakr/vim-one'
 Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}  
@@ -31,6 +29,7 @@ Plug 'mbbill/undotree', { 'on': 'UndotreeToggle' }
 Plug 'lewis6991/spellsitter.nvim'
 Plug 'kevinhwang91/nvim-bqf'
 
+" Plug 'hrsh7th/vim-searchx'
 " Plug 'voldikss/vim-floaterm'
 " Plug 'metalelf0/nvim-floatedit',  { 'branch': 'main' }
 " Plug 'ibhagwan/fzf-lua', { 'branch': 'main' }
