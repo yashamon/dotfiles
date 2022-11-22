@@ -30,7 +30,7 @@ Plug 'mbbill/undotree', { 'on': 'UndotreeToggle' }
 Plug 'lewis6991/spellsitter.nvim'
 Plug 'kevinhwang91/nvim-bqf'
 Plug 'nvim-lua/plenary.nvim'
-Plug 'nvim-telescope/telescope.nvim',
+Plug 'nvim-telescope/telescope.nvim'
 
 " Plug 'folke/zen-mode.nvim', { 'branch': 'main' } 
 " Plug 'karb94/neoscroll.nvim'
