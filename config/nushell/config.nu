@@ -55,8 +55,8 @@ cd $cwdb
 alias send = sendFunction
 def-env lf [...opt] { nu C:/Users/yasha/dotfiles/scripts/lfcd.nu $opt
 let dir = ((open "C:\\Users\\yasha\\AppData\\Local\\Temp\\tmp9E2XX.tmp") | str trim)
-cd $dir
 $dir | clip
+cd $dir
 }
 def update [] { scoop update -a; scoop export > ~/dotfiles/scoopPackageList.json }
 
