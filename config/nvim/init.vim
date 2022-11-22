@@ -1,5 +1,5 @@
 call plug#begin('~/.vim/plugged')
-Plug 'yegappan/mru'
+" Plug 'yegappan/mru'
 Plug 'LhKipp/nvim-nu'
 Plug 'ggandor/leap.nvim'
 Plug 'ibhagwan/fzf-lua', { 'branch': 'main' }
