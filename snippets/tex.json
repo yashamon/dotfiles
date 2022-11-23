@@ -322,7 +322,7 @@
  "lemma": {
     "prefix": ["lem", "lemma"],
     "body": [
-      "\\begin{lemma} \\label{lemma:$1}",", 
+      "\\begin{lemma} \\label{lemma:$1}",
       "$2",
       "\\end{lemma}",
       "$0"
