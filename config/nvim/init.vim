@@ -365,6 +365,7 @@ nnoremap <m-s> :%s///gc<left><left><left><left>
 vmap <M-.> t.<CR>h
 nmap <M-.> t.<CR>h
 nnoremap <up> 1<C-U>
+nnoremap <leader>p gqip
 imap <up> <nop>
 nnoremap <down> 1<C-D>
 imap <down> <nop>
