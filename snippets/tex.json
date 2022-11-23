@@ -333,9 +333,8 @@
  "Corollary": {
     "prefix": ["cor", "corol"],
     "body": [
-      "\\begin{corollary}", 
-      "\\label{corol:$1}", 
-      "$2",
+      "\\begin{corollary} \\label{corol:$1}", 
+            "$2",
       "\\end{corollary}",
       "$0"
     ],
