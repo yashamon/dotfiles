@@ -344,10 +344,8 @@
 "Theorem": {
     "prefix": ["thm", "theorem"],
     "body": [
-      "\\begin{theorem}", 
-      "\\label{thm:$1}", 
-       "$2",
-
+      "\\begin{theorem} \\label{thm:$1}", 
+             "$2",
       "\\end{theorem}",
       "$0"
     ],
