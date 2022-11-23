@@ -235,7 +235,7 @@
     "prefix": "desc",
     "body": [
       "\\\\begin{description}",
-      "\t\\item[$1] $0",
+      "\\item[$1] $0",
       "\\\\end{description}"
     ],
     "description": "Description"
@@ -252,7 +252,7 @@
     "prefix": "eq",
     "body": [
       "\\begin{equation*}",
-      "\t$1",
+      "$1",
       "\\end{equation*}",
       "$0"
     ],
@@ -273,7 +273,7 @@
     "prefix": "prop",
     "body": [
       "\\begin{proposition}", 
-      "\t\\label{prop:$1}",   
+      "\\label{prop:$1}",   
       "$2",
       "\\end{proposition}",
       "$0"
@@ -296,7 +296,7 @@
     "prefix": ["rem", "remark"],
     "body": [
       "\\begin{remark}", 
-      "\t\\label{remark:$1}", 
+      "\\label{remark:$1}", 
       "$2", 
       "\\end{remark}",
       "$0"
@@ -307,7 +307,7 @@
     "prefix": ["not", "notation"],
     "body": [
       "\\begin{notation}", 
-      "\t\\label{notation:$1}",
+      "\\label{notation:$1}",
       "\\end{notation}",
       "$0"
     ],
@@ -317,7 +317,7 @@
     "prefix": ["ex", "example"],
     "body": [
       "\\begin{example}", 
-      "\t\\label{example:$1}",
+      "\\label{example:$1}",
       "\\end{example}",
       "$0"
    ],
@@ -327,8 +327,7 @@
  "lemma": {
     "prefix": ["lem", "lemma"],
     "body": [
-      "\\begin{lemma}", 
-      "\t\\label{lemma:$1}", 
+      "\\begin{lemma} \\label{lemma:$1}",", 
       "$2",
       "\\end{lemma}",
       "$0"
@@ -340,9 +339,8 @@
     "prefix": ["cor", "corol"],
     "body": [
       "\\begin{corollary}", 
-      "\t\\label{corol:$1}", 
+      "\\label{corol:$1}", 
       "$2",
-
       "\\end{corollary}",
       "$0"
     ],
@@ -353,7 +351,7 @@
     "prefix": ["thm", "theorem"],
     "body": [
       "\\begin{theorem}", 
-      "\t\\label{thm:$1}", 
+      "\\label{thm:$1}", 
        "$2",
 
       "\\end{theorem}",
@@ -365,7 +363,7 @@
     "prefix": "proof",
     "body": [
       "\\begin{proof}",
-      "\t$1",
+      "$1",
       "\\end{proof}",
       "$0"
     ],
@@ -376,7 +374,7 @@
     "prefix": "gat",
     "body": [
       "\\begin{gather}",
-      "\t$0",
+      "$0",
       "\\end{gather}"
     ],
     "description": "Gather(ed)"
