@@ -1,5 +1,4 @@
 call plug#begin('~/.vim/plugged')
-" Plug 'yegappan/mru'
 Plug 'LhKipp/nvim-nu'
 Plug 'ggandor/leap.nvim'
 Plug 'ibhagwan/fzf-lua', { 'branch': 'main' }
@@ -33,7 +32,7 @@ Plug 'lewis6991/spellsitter.nvim'
 Plug 'kevinhwang91/nvim-bqf'
 Plug 'nvim-lua/plenary.nvim'
 Plug 'nvim-telescope/telescope.nvim'
-
+" Plug 'yegappan/mru'
 " Plug 'folke/zen-mode.nvim', { 'branch': 'main' } 
 " Plug 'karb94/neoscroll.nvim'
 " Plug 'rlane/pounce.nvim'
