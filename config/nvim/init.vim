@@ -19,10 +19,6 @@ Plug 'quangnguyen30192/cmp-nvim-tags',  { 'branch': 'main' }
 Plug 'terrortylor/nvim-comment', { 'branch': 'main' }
 Plug 'nvim-lualine/lualine.nvim'
 Plug 'justinhoward/fzf-neoyank'
-Plug 'rakr/vim-one'
-Plug 'kyazdani42/blue-moon'
-" Plug 'monsonjeremy/onedark.nvim'
-" Plug 'navarasu/onedark.nvim'
 Plug 'folke/tokyonight.nvim', { 'branch': 'main' }
 Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}  
 Plug 'Shougo/neoyank.vim' 
@@ -36,6 +32,10 @@ Plug 'lewis6991/spellsitter.nvim'
 Plug 'kevinhwang91/nvim-bqf'
 Plug 'nvim-lua/plenary.nvim'
 Plug 'nvim-telescope/telescope.nvim'
+" Plug 'rakr/vim-one'
+" Plug 'kyazdani42/blue-moon'
+" Plug 'monsonjeremy/onedark.nvim'
+" Plug 'navarasu/onedark.nvim'
 " Plug 'yegappan/mru'
 " Plug 'folke/zen-mode.nvim', { 'branch': 'main' } 
 " Plug 'karb94/neoscroll.nvim'
