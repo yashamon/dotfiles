@@ -1,5 +1,5 @@
 call plug#begin('~/.vim/plugged')
-Plug 'folke/todo-comments.nvim'
+Plug 'folke/todo-comments.nvim', { 'branch': 'main' }
 Plug 'LhKipp/nvim-nu'
 Plug 'ggandor/leap.nvim'
 Plug 'ibhagwan/fzf-lua', { 'branch': 'main' }
