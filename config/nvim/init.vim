@@ -250,7 +250,7 @@ set spell
 set noerrorbells
 " set novisualbell 
 " set font=Fira\ Code:h18
-colorscheme one
+colorscheme onedark
 " colorscheme material  
 " let g:material_style = 'palenight'  
 " let g:material_style = 'lighter'
