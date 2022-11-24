@@ -434,7 +434,7 @@ nmap D "0dg$
 nmap V vg$
 nmap A g$a
 map 0 g^
-map m9 g$
+map 9 g$
 nmap <m-8> :set laststatus=0<cr>:set lines=100<cr>:set guifont=Fira\ Code:h18<cr>:set columns=100<cr>
 nnoremap <c-l> :bnext<CR>
 nnoremap <c-h> :bprevious<CR>
