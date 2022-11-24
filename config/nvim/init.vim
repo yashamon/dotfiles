@@ -1500,10 +1500,4 @@ require('telescope').setup({
   -- other configuration values here
 })
 EOF
-lua <<EOF
--- Lua
-require('onedark').setup {
-    style = 'dark'
-}
-require('onedark').load()
-EOF
+
