@@ -19,9 +19,10 @@ Plug 'quangnguyen30192/cmp-nvim-tags',  { 'branch': 'main' }
 Plug 'terrortylor/nvim-comment', { 'branch': 'main' }
 Plug 'nvim-lualine/lualine.nvim'
 Plug 'justinhoward/fzf-neoyank'
-" Plug 'rakr/vim-one'
+Plug 'rakr/vim-one'
+Plug 'kyazdani42/blue-moon'
 " Plug 'monsonjeremy/onedark.nvim'
-Plug 'navarasu/onedark.nvim'
+" Plug 'navarasu/onedark.nvim'
 Plug 'folke/tokyonight.nvim', { 'branch': 'main' }
 Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}  
 Plug 'Shougo/neoyank.vim' 
@@ -99,7 +100,7 @@ Plug 'nvim-telescope/telescope.nvim'
 " " Plug 'yashamon/vim-snippets'
 " " colorschemes
 " " 
-" Plug 'kyazdani42/blue-moon'  
+  
 " Plug 'marko-cerovac/material.nvim', { 'branch': 'main' }
 "
 " Plug 'reedes/vim-colors-pencil'
@@ -251,7 +252,7 @@ set spell
 set noerrorbells
 " set novisualbell 
 " set font=Fira\ Code:h18
-colorscheme onedark
+colorscheme tokyonight-moon
 " colorscheme material  
 " let g:material_style = 'palenight'  
 " let g:material_style = 'lighter'
