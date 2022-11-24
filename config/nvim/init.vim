@@ -1,5 +1,5 @@
 call plug#begin('~/.vim/plugged')
-Plug 'folke/todo-comments'
+Plug 'folke/todo-comments.nvim'
 Plug 'LhKipp/nvim-nu'
 Plug 'ggandor/leap.nvim'
 Plug 'ibhagwan/fzf-lua', { 'branch': 'main' }
@@ -1166,7 +1166,8 @@ lua << EOF
     -- refer to the configuration section below
   }
 EOF
-" lua <<EOF
+
+" TODO Fix lua <<EOF
 " local generator = function()
 "     local el_segments = {}
 "
