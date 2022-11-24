@@ -1159,6 +1159,15 @@ require('leap').setup {
   
 }
 EOF
+lua <<EOF
+lua << EOF
+  require("todo-comments").setup {
+    -- your configuration comes here
+    -- or leave it empty to use the default settings
+    -- refer to the configuration section below
+  }
+EOF
+EOF
 " lua <<EOF
 " local generator = function()
 "     local el_segments = {}
