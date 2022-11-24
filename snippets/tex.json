@@ -68,7 +68,14 @@
        ],
     "description": "Gbun"
     },  
-"color": {
+"todo": {
+    "prefix": "td",
+    "body": [
+        "TODO: {$0}"
+       ],
+    "description": "Todo comment"
+    },
+    "color": {
     "prefix": "color",
     "body": [
         "\\textcolor{blue}{$1} $0"
