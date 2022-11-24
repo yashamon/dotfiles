@@ -670,6 +670,7 @@ function Sentence()
   let b:execstr = "!nu C:/Users/yasha/dotfiles/scripts/sentence.nu " . b:filename
   exec b:execstr
   caddf @_%
+  sleep 200m
   copen
   " let b:paste = system('pwsh -c Get-Clipboard')
   call feedkeys("zf")
@@ -686,6 +687,7 @@ function SentenceLL()
   cg @_% 
   copen
   " let b:paste = system('pwsh -c Get-Clipboard')
+  sleep 200m
   call feedkeys("zf")
   call feedkeys("\<c-r>+\<cr>")
 endfunction
@@ -1167,7 +1169,7 @@ lua << EOF
   }
 EOF
 
-" TODO Fix lua <<EOF
+"lua <<EOF
 " local generator = function()
 "     local el_segments = {}
 "
