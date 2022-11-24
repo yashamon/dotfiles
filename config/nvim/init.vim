@@ -656,7 +656,7 @@ command! -bang -nargs=* BLinesB
   exec b:execstr
   cg @_%
   copen
-  sleep 400m
+  sleep 600m
   " let b:paste = system('pwsh -c Get-Clipboard')
   " call feedkeys(":BLinesB \<c-r>+\<cr>")
   call feedkeys("zf")
@@ -670,7 +670,7 @@ function Sentence()
   let b:execstr = "!nu C:/Users/yasha/dotfiles/scripts/sentence.nu " . b:filename
   exec b:execstr
   caddf @_%
-  sleep 400m
+  sleep 600m
   copen
   " let b:paste = system('pwsh -c Get-Clipboard')
   call feedkeys("zf")
