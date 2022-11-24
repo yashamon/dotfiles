@@ -719,7 +719,7 @@ function ToggleQuickFix()
         echo b:errors
         exec "cg" b:errors
         copen
-        sleep 1
+        sleep 200ms
         exec "wincmd j"
         exec "/error"
     else
