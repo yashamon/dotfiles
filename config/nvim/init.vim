@@ -1,4 +1,5 @@
 call plug#begin('~/.vim/plugged')
+Plug 'simnalamburt/vim-mundo'
 Plug 'folke/todo-comments.nvim', { 'branch': 'main' }
 Plug 'LhKipp/nvim-nu'
 Plug 'ggandor/leap.nvim'
