@@ -1,5 +1,5 @@
 call plug#begin('~/.vim/plugged')
-Plug 'simnalamburt/vim-mundo'
+
 Plug 'folke/todo-comments.nvim', { 'branch': 'main' }
 Plug 'LhKipp/nvim-nu'
 Plug 'ggandor/leap.nvim'
@@ -29,11 +29,12 @@ Plug 'skywind3000/asyncrun.vim'
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } } 
 Plug 'junegunn/fzf.vim'
 Plug 'yuki-yano/fzf-preview.vim', { 'branch': 'release/remote', 'do': ':UpdateRemotePlugins' }
-" Plug 'mbbill/undotree', { 'on': 'UndotreeToggle' }
+Plug 'mbbill/undotree', { 'on': 'UndotreeToggle' }
 Plug 'lewis6991/spellsitter.nvim'
 Plug 'kevinhwang91/nvim-bqf'
 Plug 'nvim-lua/plenary.nvim'
 Plug 'nvim-telescope/telescope.nvim'
+" Plug 'simnalamburt/vim-mundo'
 " Plug 'rakr/vim-one'
 " Plug 'kyazdani42/blue-moon'
 " Plug 'monsonjeremy/onedark.nvim'
