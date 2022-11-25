@@ -542,7 +542,7 @@ map <A-e> :FZF ~<CR>
 map <m-f> :FZF ~<CR> 
 
 "miscellaneous
-nmap <leader>g :TZAtaraxis<CR>
+
 " nmap <leader>p :Denite neoyank -default-action=append<CR>
 
 " Latex stuff
@@ -774,6 +774,7 @@ map <m-v> <esc>:call ViewPdf()<cr><cr>
 nmap <leader>ll :call CompileLatex()<cr>
 nmap <leader>lcl :call ClearLatex()<cr>
 nmap <leader>gtd :call TodoQuickFix<cr>
+nmap <leader>ga :TZAtaraxis<CR>
 " nmap <leader>m :silent ! cp % backup;  pandoc  backup -s --webtex -o backup.html;  cp backup.html %<cr>:e %<cr>
 
 " nmap <leader>m :silent ! cp % backup;  pandoc  backup -s --mathjax[=https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js] -o backup.html;  cp backup.html %<cr>:e %<cr>:w<cr>:qa<cr> 
