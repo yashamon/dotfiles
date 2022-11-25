@@ -34,7 +34,7 @@ Plug 'lewis6991/spellsitter.nvim'
 Plug 'kevinhwang91/nvim-bqf'
 Plug 'nvim-lua/plenary.nvim'
 Plug 'nvim-telescope/telescope.nvim'
-" Plug 'simnalamburt/vim-mundo'
+Plug 'simnalamburt/vim-mundo'
 " Plug 'rakr/vim-one'
 " Plug 'kyazdani42/blue-moon'
 " Plug 'monsonjeremy/onedark.nvim'
@@ -255,7 +255,7 @@ set spell
 set noerrorbells
 " set novisualbell 
 " set font=Fira\ Code:h18
-colorscheme tokyonight-moon
+colorscheme tokyonight-night
 " colorscheme material  
 " let g:material_style = 'palenight'  
 " let g:material_style = 'lighter'
