@@ -672,9 +672,9 @@ function Sentence()
   let b:filename = substitute(b:file, "\\", "/", "g")
   let b:execstr = "!nu C:/Users/yasha/dotfiles/scripts/sentence.nu " . b:filename
   exec b:execstr
-  caddf @_%
-  sleep 600m
+  cg @_%
   copen
+  sleep 600m
   " let b:paste = system('pwsh -c Get-Clipboard')
   call feedkeys("zf")
 endfunction
@@ -690,7 +690,7 @@ function SentenceLL()
   cg @_% 
   copen
   " let b:paste = system('pwsh -c Get-Clipboard')
-  sleep 200m
+  sleep 600m
   call feedkeys("zf")
   call feedkeys("\<c-r>+\<cr>")
 endfunction
