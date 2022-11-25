@@ -1,6 +1,7 @@
 call plug#begin('~/.vim/plugged')
 Plug 'folke/todo-comments.nvim', { 'branch': 'main' }
 Plug 'LhKipp/nvim-nu'
+Plug 'liuchengxu/vim-which-key'
 Plug 'ggandor/leap.nvim'
 Plug 'ibhagwan/fzf-lua', { 'branch': 'main' }
 Plug 'romgrk/fzy-lua-native'
