@@ -20,6 +20,7 @@ Plug 'quangnguyen30192/cmp-nvim-tags',  { 'branch': 'main' }
 Plug 'terrortylor/nvim-comment', { 'branch': 'main' }
 Plug 'nvim-lualine/lualine.nvim'
 Plug 'justinhoward/fzf-neoyank'
+Plug 'shaunsingh/nord.nvim'
 Plug 'folke/tokyonight.nvim', { 'branch': 'main' }
 Plug 'ellisonleao/gruvbox.nvim', { 'branch': 'main' }
 Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}  
