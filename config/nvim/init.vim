@@ -1,7 +1,7 @@
 call plug#begin('~/.vim/plugged')
 Plug 'folke/todo-comments.nvim', { 'branch': 'main' }
 Plug 'LhKipp/nvim-nu'
-Plug 'liuchengxu/vim-which-key'
+
 Plug 'ggandor/leap.nvim'
 Plug 'ibhagwan/fzf-lua', { 'branch': 'main' }
 Plug 'romgrk/fzy-lua-native'
@@ -1553,4 +1553,11 @@ require("tokyonight").setup({
   on_highlights = function(highlights, colors) end,
 })
 EOF
-
+" Vim Script
+lua << EOF
+  require("which-key").setup {
+    -- your configuration comes here
+    -- or leave it empty to use the default settings
+    -- refer to the configuration section below
+  }
+EOF
