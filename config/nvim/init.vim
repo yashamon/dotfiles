@@ -1,5 +1,4 @@
 call plug#begin('~/.vim/plugged')
-
 Plug 'folke/todo-comments.nvim', { 'branch': 'main' }
 Plug 'LhKipp/nvim-nu'
 Plug 'ggandor/leap.nvim'
@@ -22,6 +21,7 @@ Plug 'terrortylor/nvim-comment', { 'branch': 'main' }
 Plug 'nvim-lualine/lualine.nvim'
 Plug 'justinhoward/fzf-neoyank'
 Plug 'folke/tokyonight.nvim', { 'branch': 'main' }
+Plug 'ellisonleao/gruvbox.nvim', { 'branch': 'main' }
 Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}  
 Plug 'Shougo/neoyank.vim' 
 Plug 'Shougo/denite.nvim', { 'do': ':UpdateRemotePlugins' } 
