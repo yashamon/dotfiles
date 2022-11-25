@@ -773,7 +773,7 @@ map <m-v> <esc>:call ViewPdf()<cr><cr>
 " let  g:vimtex_fold_types_defaults = 'preamble, sections, comments'
 nmap <leader>ll :call CompileLatex()<cr>
 nmap <leader>lcl :call ClearLatex()<cr>
-nmap <leader>ptd :call ClearLatex()<cr>
+nmap <leader>ptd :call TodoQuickFix<cr>
 " nmap <leader>m :silent ! cp % backup;  pandoc  backup -s --webtex -o backup.html;  cp backup.html %<cr>:e %<cr>
 
 " nmap <leader>m :silent ! cp % backup;  pandoc  backup -s --mathjax[=https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js] -o backup.html;  cp backup.html %<cr>:e %<cr>:w<cr>:qa<cr> 
