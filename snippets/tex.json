@@ -1266,7 +1266,13 @@
     ],
     "description": "omega"
   },
- 
+ "beta": {
+    "prefix": ["be"],
+    "body": [
+      "\\beta $0"
+    ],
+    "description": "alpha"
+  },
 "alpha": {
     "prefix": ["al"],
     "body": [
