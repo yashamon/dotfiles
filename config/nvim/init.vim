@@ -919,17 +919,18 @@ mapping = cmp.mapping.preset.insert({
       ['<C-e>'] = cmp.mapping.close(),
       ['<CR>'] = cmp.mapping.confirm({ select = true }),
 -- ... Your other mappings ...
-['<Tab>'] = cmp.mapping(function(fallback)
-  local col = vim.fn.col('.') - 1
-
-  if cmp.visible() then
-    cmp.select_next_item(select_opts)
-  elseif col == 0 or vim.fn.getline('.'):sub(col, col):match('%s') then
-    fallback()
-  else
-    cmp.complete()
-  end
-end, {'i', 's'}),
+["<Tab>"] = cmp.mapping(function(fallback) 
+      if vim.fn["vsnip#expandable"]() == 1
+        then
+          fallback() 
+     elseif cmp.visible() then
+        cmp.select_next_item()
+      elseif has_words_before() then 
+        cmp.complete()
+      else 
+        fallback() -- The fallback function sends a already mapped key. In this case, it's probably `<Tab>`.
+      end
+    end, { "i", "s" }),
 ["<S-Tab>"] = cmp.mapping(function()
       if vim.fn.pumvisible() == 1 then
         feedkey("<C-p>", "n")  
