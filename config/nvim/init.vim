@@ -1,5 +1,7 @@
 call plug#begin('~/.vim/plugged')
 Plug 'folke/todo-comments.nvim', { 'branch': 'main' }
+Plug 'L3MON4D3/LuaSnip'
+Plug 'saadparwaiz1/cmp_luasnip'
 Plug 'LhKipp/nvim-nu'
 Plug 'folke/which-key.nvim'
 Plug 'ggandor/leap.nvim'
@@ -68,8 +70,7 @@ Plug 'rlane/pounce.nvim'
 " " Plug 'nvim-lua/plenary.nvim'
 " " Plug 'windwp/nvim-spectre'
 " " For luasnip user. 
-" Plug 'L3MON4D3/LuaSnip'
-" " Plug 'saadparwaiz1/cmp_luasnip'
+
 " "Plug 'steelsojka/completion-buffers'
 " " Plug 'neovim/node-host'
 " Plug 'projekt0n/github-nvim-theme',  { 'branch': 'main' }
