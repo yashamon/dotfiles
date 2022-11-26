@@ -2,8 +2,6 @@ call plug#begin('~/.vim/plugged')
 Plug 'folke/todo-comments.nvim', { 'branch': 'main' }
 Plug 'L3MON4D3/LuaSnip', {'tag': 'v<CurrentMajor>.*'}
 Plug 'saadparwaiz1/cmp_luasnip'
-Plug 'dcampos/nvim-snippy'
-Plug 'dcampos/cmp-snippy'
 Plug 'LhKipp/nvim-nu'
 Plug 'folke/which-key.nvim'
 Plug 'ggandor/leap.nvim'
@@ -905,10 +903,13 @@ end
 local cmp = require'cmp'
 cmp.setup ({
 snippet = {
-    expand = function(args)
-      require 'snippy'.expand_snippet(args.body)
-    end
-  },
+      expand = function(args)
+        -- For `vsnip` user.
+        vim.fn["vsnip#anonymous"](args.body) -- For `vsnip` user.
+  -- ... Your other configuration ...
+end,
+},
+
 mapping = cmp.mapping.preset.insert({
         ["<C-p>"] = cmp.mapping.select_prev_item(),
         ["<C-n>"] = cmp.mapping.select_next_item(),
@@ -918,16 +919,17 @@ mapping = cmp.mapping.preset.insert({
       ['<C-e>'] = cmp.mapping.close(),
       ['<CR>'] = cmp.mapping.confirm({ select = true }),
 -- ... Your other mappings ...
-["<Tab>"] = cmp.mapping(function(fallback)
-     if cmp.visible() then
-            cmp.select_next_item()
-          elseif vim.fn["luasnip#jumpable"] then
-            luasnip.expand_or_jump()
-          elseif has_words_before() then
-            cmp.complete()
-          else
-            fallback()
-          end 
+["<Tabs>"] = cmp.mapping(function(fallback) 
+      if vim.fn["luasnip#jumpable()"]() == 1
+        then
+        feedkey("<Plug>(luasnip#jump)", "")
+     elseif cmp.visible() then
+        cmp.select_next_item()
+      elseif has_words_before() then 
+        cmp.complete()
+      else 
+        fallback() -- The fallback function sends a already mapped key. In this case, it's probably `<Tab>`.
+      end
     end, { "i", "s" }),
 ["<S-Tab>"] = cmp.mapping(function()
       if vim.fn.pumvisible() == 1 then
@@ -951,7 +953,7 @@ requires = {
 -- ... Your other configuration ...
 sources = cmp.config.sources({
       -- For vsnip user. 
--- { name = 'luasnip', keyword_length = 1000 },
+{ name = 'vsnip', keyword_length = 1000 },
 { name = 'tags' },
 { name = 'nvim_lsp', keyword_length = 4 },
 -- For ultisnips user.
