@@ -922,7 +922,7 @@ mapping = cmp.mapping.preset.insert({
 ["<Tab>"] = cmp.mapping(function(fallback) 
       if vim.fn["vsnip#expandable"]() == 1
         then
-        luasnip#expand() 
+       feedkey("<Plug>(luasnip#expand)", "") 
      elseif cmp.visible() then
         cmp.select_next_item()
       elseif has_words_before() then 
