@@ -902,6 +902,7 @@ end
 
 local cmp = require'cmp'
 cmp.setup({
+    sources = {
         { name = "luasnip" },
     },
     mapping = {
