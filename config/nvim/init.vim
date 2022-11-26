@@ -1,6 +1,6 @@
 call plug#begin('~/.vim/plugged')
 Plug 'folke/todo-comments.nvim', { 'branch': 'main' }
-Plug 'L3MON4D3/LuaSnip'
+Plug 'L3MON4D3/LuaSnip', {'tag': 'v<CurrentMajor>.*'}
 Plug 'saadparwaiz1/cmp_luasnip'
 Plug 'LhKipp/nvim-nu'
 Plug 'folke/which-key.nvim'
@@ -126,7 +126,7 @@ Plug 'rlane/pounce.nvim'
 " "Plug 'nvim-lua/completion-nvim'
 " Plug 'neovim/nvim-lspconfig'
 " " Plug 'nvim-lua/diagnostic-nvim'
-" " Plug 'rafamadriz/friendly-snippets'  
+Plug 'rafamadriz/friendly-snippets'  
  "  " Plug 'tpope/vim-surround'
 " Unmanaged plugin (manually installed and updated)
 " Plug '~/my-prototype-plugin'
@@ -904,12 +904,9 @@ local cmp = require'cmp'
 cmp.setup ({
 snippet = {
       expand = function(args)
-        -- For `vsnip` user.
-        vim.fn["vsnip#anonymous"](args.body) -- For `vsnip` user.
-  -- ... Your other configuration ...
-end,
+        require'luasnip'.lsp_expand(args.body)
+      end
 },
-
 mapping = cmp.mapping.preset.insert({
         ["<C-p>"] = cmp.mapping.select_prev_item(),
         ["<C-n>"] = cmp.mapping.select_next_item(),
@@ -919,17 +916,16 @@ mapping = cmp.mapping.preset.insert({
       ['<C-e>'] = cmp.mapping.close(),
       ['<CR>'] = cmp.mapping.confirm({ select = true }),
 -- ... Your other mappings ...
-["<Tab>"] = cmp.mapping(function(fallback) 
-      if vim.fn["vsnip#expandable"]() == 1
-        then
-        feedkey("<Plug>(vsnip-expand)", "")
-     elseif cmp.visible() then
-        cmp.select_next_item()
-      elseif has_words_before() then 
-        cmp.complete()
-      else 
-        fallback() -- The fallback function sends a already mapped key. In this case, it's probably `<Tab>`.
-      end
+["<Tab>"] = cmp.mapping(function(fallback)
+     if cmp.visible() then
+            cmp.select_next_item()
+          elseif luasnip.expand_or_jumpable() then
+            luasnip.expand_or_jump()
+          elseif has_words_before() then
+            cmp.complete()
+          else
+            fallback()
+          end 
     end, { "i", "s" }),
 ["<S-Tab>"] = cmp.mapping(function()
       if vim.fn.pumvisible() == 1 then
@@ -953,7 +949,7 @@ requires = {
 -- ... Your other configuration ...
 sources = cmp.config.sources({
       -- For vsnip user. 
-{ name = 'vsnip', keyword_length = 1000 },
+-- { name = 'luasnip', keyword_length = 1000 },
 { name = 'tags' },
 { name = 'nvim_lsp', keyword_length = 4 },
 -- For ultisnips user.
@@ -1569,14 +1565,14 @@ EOF
 "  	}
 "  })
 " press <Tab> to expand or jump in a snippet. These can also be mapped separately
-" via <Plug>luasnip-expand-snippet and <Plug>luasnip-jump-next.
+
 lua <<EOF
 -- load snippets from path/of/your/nvim/config/my-cool-snippets
-vim.o.runtimepath = vim.o.runtimepath .. 'C:/Users/yasha/.config/nvim/lua/snippets,'
-   require("luasnip/loaders/from_vscode").load()
--- require("luasnip/loaders/from_vscode").lazy_load() -- load snippets of friendly/snippets
+-- vim.o.runtimepath = vim.o.runtimepath .. 'C:/Users/yasha/.config/nvim/lua/snippets,'
+require("luasnip/loaders/from_vscode").lazy_load() -- load snippets of friendly/snippets
 -- require("luasnip/loaders/from_vscode").lazy_load({ paths = "./snippets" -- load your own snippets
 EOF
+
 imap <silent><expr> <Tab> luasnip#expand_or_jumpable() ? '<Plug>luasnip-expand-or-jump' : '<Tab>' 
 " -1 for jumping backwards.
 inoremap <silent> <S-Tab> <cmd>lua require'luasnip'.jump(-1)<Cr>
