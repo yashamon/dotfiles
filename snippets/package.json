@@ -341,7 +341,7 @@
           "plaintex",
           "tex"
         ],
-        "path": "./snippets/latex/latex-snippets.json"
+        "path": "./snippets/tex.json"
       },
       {
         "language": [
