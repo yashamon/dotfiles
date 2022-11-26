@@ -126,7 +126,7 @@ Plug 'rlane/pounce.nvim'
 " "Plug 'nvim-lua/completion-nvim'
 " Plug 'neovim/nvim-lspconfig'
 " " Plug 'nvim-lua/diagnostic-nvim'
-" " Plug 'rafamadriz/friendly-snippets'  
+Plug 'rafamadriz/friendly-snippets'  
  "  " Plug 'tpope/vim-surround'
 " Unmanaged plugin (manually installed and updated)
 " Plug '~/my-prototype-plugin'
