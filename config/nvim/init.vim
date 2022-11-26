@@ -932,7 +932,6 @@ cmp.setup({
           end
         end, { "i", "s" }),
         },
-    ...
     snippet = {
         expand = function(args)
             local luasnip = prequire("luasnip")
