@@ -920,26 +920,26 @@ mapping = cmp.mapping.preset.insert({
       ['<CR>'] = cmp.mapping.confirm({ select = true }),
 
 
-['<Tab>'] = function(core, fallback)
-                if vim.fn.pumvisible() == 1 then
-                    vim.fn.feedkeys(t('<C-n>'), 'n')
-                elseif luasnip.expand_or_jumpable() then
-                    vim.fn.feedkeys(t('<Plug>luasnip-expand-or-jump'), '')
-                elseif not check_back_space() then
-                    cmp.mapping.complete()(core, fallback)
-                else
-                    vim.cmd(':>')
-                end
-            end,
-            ['<S-Tab>'] = function(core, fallback)
-                if vim.fn.pumvisible() == 1 then
-                    vim.fn.feedkeys(t('<C-p>'), 'n')
-                elseif luasnip.jumpable(-1) then
-                    vim.fn.feedkeys(t('<Plug>luasnip-jump-prev'), '')
-                else
-                    vim.cmd(':<')
-                end
-            end,
+["<Tab>"] = cmp.mapping(function(fallback)
+			if cmp.visible() then
+				cmp.select_next_item()
+			elseif luasnip.expand_or_jumpable() then
+				luasnip.expand_or_jump()
+			elseif has_words_before() then
+				cmp.complete()
+			else
+				fallback()
+			end
+		end, { "i", "s" }),
+		["<S-Tab>"] = cmp.mapping(function(fallback)
+			if cmp.visible() then
+				cmp.select_prev_item()
+			elseif luasnip.jumpable(-1) then
+				luasnip.jump(-1)
+			else
+				fallback()
+			end
+		end, { "i", "s" }),
 
 
 }),
