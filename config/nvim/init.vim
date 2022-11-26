@@ -901,6 +901,9 @@ local feedkey = function(key, mode)
 end
 
 local cmp = require'cmp'
+cmp.setup ({
+
+
 cmp.setup({
     ...
     sources = {
