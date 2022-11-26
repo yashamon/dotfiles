@@ -919,24 +919,26 @@ mapping = cmp.mapping.preset.insert({
       ['<C-e>'] = cmp.mapping.close(),
       ['<CR>'] = cmp.mapping.confirm({ select = true }),
 -- ... Your other mappings ...
-["<Tabs>"] = cmp.mapping(function(fallback) 
-      if vim.fn["luasnip#jumpable()"]() == 1
-        then
-        feedkey("<Plug>(luasnip#jump)", "")
-     elseif cmp.visible() then
-        cmp.select_next_item()
-      elseif has_words_before() then 
-        cmp.complete()
-      else 
-        fallback() -- The fallback function sends a already mapped key. In this case, it's probably `<Tab>`.
-      end
-    end, { "i", "s" }),
-["<S-Tab>"] = cmp.mapping(function()
+["<tab>"] = function(fallback)
       if vim.fn.pumvisible() == 1 then
-        feedkey("<C-p>", "n")  
-      elseif vim.fn["vsnip#jumpable"](-1) == 1 then
-        feedkey("<Plug>(vsnip-jump-prev)", "")
+        vim.fn.feedkeys(t("<C-n>"), "n")
+      elseif luasnip.expand_or_jumpable() then
+        vim.fn.feedkeys(t("<Plug>luasnip-expand-or-jump"), "")
+      elseif check_back_space() then
+        vim.fn.feedkeys(t("<tab>"), "n")
+      else
+        fallback()
       end
+    end,
+    ["<S-tab>"] = function(fallback)
+      if vim.fn.pumvisible() == 1 then
+        vim.fn.feedkeys(t("<C-p>"), "n")
+      elseif luasnip.jumpable(-1) then
+        vim.fn.feedkeys(t("<Plug>luasnip-jump-prev"), "")
+      else
+        fallback()
+      end
+    end,
     end, { "i", "s" }),
 }),
 requires = {
