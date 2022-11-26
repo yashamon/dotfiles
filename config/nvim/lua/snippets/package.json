@@ -13,6 +13,7 @@
           "html",
           "global",
           "all"
+          "vim"
         ],
         "path": "./snippets/global.json"
       },
