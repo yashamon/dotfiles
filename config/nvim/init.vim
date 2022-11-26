@@ -919,28 +919,34 @@ mapping = cmp.mapping.preset.insert({
       ['<C-e>'] = cmp.mapping.close(),
       ['<CR>'] = cmp.mapping.confirm({ select = true }),
 -- ... Your other mappings ...
-["<tab>"] = function(fallback)
+ ["<Tab>"] = cmp.mapping(function(fallback)
       if vim.fn.pumvisible() == 1 then
-        vim.fn.feedkeys(t("<C-n>"), "n")
+        vim.fn.feedkeys(T("<C-n>"), "n")
       elseif luasnip.expand_or_jumpable() then
-        vim.fn.feedkeys(t("<Plug>luasnip-expand-or-jump"), "")
-      elseif check_back_space() then
-        vim.fn.feedkeys(t("<tab>"), "n")
+        vim.fn.feedkeys(T("<Plug>luasnip-expand-or-jump"), "")
+      elseif check_backspace() then
+        vim.fn.feedkeys(T("<Tab>"), "n")
       else
         fallback()
       end
-    end,
-    ["<S-tab>"] = function(fallback)
+    end, {
+      "i",
+      "s",
+    }),
+    ["<S-Tab>"] = cmp.mapping(function(fallback)
       if vim.fn.pumvisible() == 1 then
-        vim.fn.feedkeys(t("<C-p>"), "n")
+        vim.fn.feedkeys(T("<C-p>"), "n")
       elseif luasnip.jumpable(-1) then
-        vim.fn.feedkeys(t("<Plug>luasnip-jump-prev"), "")
+        vim.fn.feedkeys(T("<Plug>luasnip-jump-prev"), "")
       else
         fallback()
       end
-    end,
-    end, { "i", "s" }),
-}),
+    end, {
+      "i",
+      "s",
+    }),
+  },
+
 requires = {
     {
       'tzachar/fuzzy.nvim',
