@@ -901,11 +901,26 @@ local feedkey = function(key, mode)
 end
 
 local cmp = require'cmp'
-cmp.setup({
-    mapping = {
-        ["<CR>"] = cmp.mapping.confirm { select = true },
-        ["<Tab>"] = cmp.mapping(function(fallback)
-          if cmp.visible() then
+cmp.setup ({
+snippet = {
+      expand = function(args)
+        -- For `vsnip` user.
+        vim.fn["vsnip#anonymous"](args.body) -- For `vsnip` user.
+  -- ... Your other configuration ...
+end,
+},
+
+mapping = cmp.mapping.preset.insert({
+        ["<C-p>"] = cmp.mapping.select_prev_item(),
+        ["<C-n>"] = cmp.mapping.select_next_item(),
+       ['<C-d>'] = cmp.mapping.scroll_docs(-4),
+      ['<C-f>'] = cmp.mapping.scroll_docs(4),
+      ['<C-x>'] = cmp.mapping.complete(),
+      ['<C-e>'] = cmp.mapping.close(),
+      ['<CR>'] = cmp.mapping.confirm({ select = true }),
+-- ... Your other mappings ...
+["<Tabs>"] = cmp.mapping(function(fallback) 
+     if cmp.visible() then
             cmp.select_next_item()
           elseif luasnip.expand_or_jumpable() then
             luasnip.expand_or_jump()
@@ -913,30 +928,16 @@ cmp.setup({
             cmp.complete()
           else
             fallback()
-          end
-        end, { "i", "s" }),
-
-        ["<S-Tab>"] = cmp.mapping(function(fallback)
-          if cmp.visible() then
-            cmp.select_prev_item()
-          elseif luasnip.jumpable(-1) then
-            luasnip.jump(-1)
-          else
-            fallback()
-          end
-        end, { "i", "s" }),
-        },
-    snippet = {
-        expand = function(args)
-            local luasnip = prequire("luasnip")
-            if not luasnip then
-                return
-            end
-            luasnip.lsp_expand(args.body)
-        end,
-    },
-
--- ... Your other mappings ...
+          end 
+    end, { "i", "s" }),
+["<S-Tab>"] = cmp.mapping(function()
+      if vim.fn.pumvisible() == 1 then
+        feedkey("<C-p>", "n")  
+      elseif vim.fn["vsnip#jumpable"](-1) == 1 then
+        feedkey("<Plug>(vsnip-jump-prev)", "")
+      end
+    end, { "i", "s" }),
+}),
 requires = {
     {
       'tzachar/fuzzy.nvim',
@@ -951,7 +952,7 @@ requires = {
 -- ... Your other configuration ...
 sources = cmp.config.sources({
       -- For vsnip user. 
-{ name = 'luasnip', keyword_length = 1000 },
+{ name = 'vsnip', keyword_length = 1000 },
 { name = 'tags' },
 { name = 'nvim_lsp', keyword_length = 4 },
 -- For ultisnips user.
