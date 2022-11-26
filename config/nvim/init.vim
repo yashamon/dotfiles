@@ -921,7 +921,7 @@ mapping = cmp.mapping.preset.insert({
 ["<Tab>"] = cmp.mapping(function(fallback)
      if cmp.visible() then
             cmp.select_next_item()
-          elseif luasnip#expand_or_jumpable() then
+          elseif vim.fn["luasnip#jumpable"] then
             luasnip.expand_or_jump()
           elseif has_words_before() then
             cmp.complete()
