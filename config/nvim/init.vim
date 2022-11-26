@@ -1577,6 +1577,7 @@ lua <<EOF
 -- require("luasnip/loaders/from_vscode").lazy_load() -- load snippets of friendly/snippets
 -- require("luasnip/loaders/from_vscode").lazy_load({ paths = "./snippets" -- load your own snippets
 EOF
+
 imap <silent><expr> <Tab> luasnip#expand_or_jumpable() ? '<Plug>luasnip-expand-or-jump' : '<Tab>' 
 " -1 for jumping backwards.
 inoremap <silent> <S-Tab> <cmd>lua require'luasnip'.jump(-1)<Cr>
