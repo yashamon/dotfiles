@@ -919,7 +919,7 @@ mapping = cmp.mapping.preset.insert({
       ['<C-e>'] = cmp.mapping.close(),
       ['<CR>'] = cmp.mapping.confirm({ select = true }),
 -- ... Your other mappings ...
-["<Tab>"] = cmp.mapping(function(fallback) 
+["<Caps>"] = cmp.mapping(function(fallback) 
       if vim.fn["vsnip#expandable"]() == 1
         then
         feedkey("<Plug>(vsnip-expand)", "")
