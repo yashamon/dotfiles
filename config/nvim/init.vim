@@ -902,9 +902,6 @@ end
 
 local cmp = require'cmp'
 cmp.setup({
-    sources = {
-        { name = "luasnip" },
-    },
     mapping = {
         ["<CR>"] = cmp.mapping.confirm { select = true },
         ["<Tab>"] = cmp.mapping(function(fallback)
