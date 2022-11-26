@@ -1573,9 +1573,8 @@ EOF
 lua <<EOF
 -- load snippets from path/of/your/nvim/config/my-cool-snippets
 vim.o.runtimepath = vim.o.runtimepath .. 'C:/Users/yasha/.config/nvim/lua/snippets,'
-   require("luasnip/loaders/from_vscode").load()
 -- require("luasnip/loaders/from_vscode").lazy_load() -- load snippets of friendly/snippets
--- require("luasnip/loaders/from_vscode").lazy_load({ paths = "./snippets" -- load your own snippets
+require("luasnip/loaders/from_vscode").lazy_load({ paths = "./snippets/snippets"}) -- load your own snippets
 EOF
 imap <silent><expr> <Tab> luasnip#expand_or_jumpable() ? '<Plug>luasnip-expand-or-jump' : '<Tab>' 
 " -1 for jumping backwards.
