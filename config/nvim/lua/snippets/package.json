@@ -13,7 +13,6 @@
           "html",
           "global",
           "all"
-          "vim"
         ],
         "path": "./snippets/global.json"
       },
@@ -142,6 +141,13 @@
           "rmd"
         ],
         "path": "./snippets/markdown.json"
+      },
+      {
+        "language": [
+          "vim",
+          "vim"
+        ],
+        "path": "./snippets/vim.json"
       },
       {
         "language": [
