@@ -2,6 +2,8 @@ call plug#begin('~/.vim/plugged')
 Plug 'folke/todo-comments.nvim', { 'branch': 'main' }
 Plug 'L3MON4D3/LuaSnip', {'tag': 'v<CurrentMajor>.*'}
 Plug 'saadparwaiz1/cmp_luasnip'
+Plug 'dcampos/nvim-snippy'
+Plug 'dcampos/cmp-snippy'
 Plug 'LhKipp/nvim-nu'
 Plug 'folke/which-key.nvim'
 Plug 'ggandor/leap.nvim'
