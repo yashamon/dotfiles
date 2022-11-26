@@ -901,7 +901,10 @@ local feedkey = function(key, mode)
 end
 
 local cmp = require'cmp'
-  mapping = {
+cmp.setup({
+        { name = "luasnip" },
+    },
+    mapping = {
         ["<CR>"] = cmp.mapping.confirm { select = true },
         ["<Tab>"] = cmp.mapping(function(fallback)
           if cmp.visible() then
@@ -950,7 +953,7 @@ requires = {
 -- ... Your other configuration ...
 sources = cmp.config.sources({
       -- For vsnip user. 
--- { name = 'vsnip', keyword_length = 1000 },
+{ name = 'vsnip', keyword_length = 1000 },
 { name = 'tags' },
 { name = 'nvim_lsp', keyword_length = 4 },
 -- For ultisnips user.
