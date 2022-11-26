@@ -901,44 +901,49 @@ local feedkey = function(key, mode)
 end
 
 local cmp = require'cmp'
-cmp.setup ({
-snippet = {
-      expand = function(args)
-        -- For `vsnip` user.
-        vim.fn["vsnip#anonymous"](args.body) -- For `vsnip` user.
-  -- ... Your other configuration ...
-end,
-},
+cmp.setup({
+    ...
+    sources = {
+        ...
+        { name = "luasnip" },
+        ...
+    },
+    mapping = {
+        ["<CR>"] = cmp.mapping.confirm { select = true },
+        ["<Tab>"] = cmp.mapping(function(fallback)
+          if cmp.visible() then
+            cmp.select_next_item()
+          elseif luasnip.expand_or_jumpable() then
+            luasnip.expand_or_jump()
+          elseif has_words_before() then
+            cmp.complete()
+          else
+            fallback()
+          end
+        end, { "i", "s" }),
 
-mapping = cmp.mapping.preset.insert({
-        ["<C-p>"] = cmp.mapping.select_prev_item(),
-        ["<C-n>"] = cmp.mapping.select_next_item(),
-       ['<C-d>'] = cmp.mapping.scroll_docs(-4),
-      ['<C-f>'] = cmp.mapping.scroll_docs(4),
-      ['<C-x>'] = cmp.mapping.complete(),
-      ['<C-e>'] = cmp.mapping.close(),
-      ['<CR>'] = cmp.mapping.confirm({ select = true }),
--- ... Your other mappings ...
-["<Caps>"] = cmp.mapping(function(fallback) 
-      if vim.fn["vsnip#expandable"]() == 1
-        then
-        feedkey("<Plug>(vsnip-expand)", "")
-     elseif cmp.visible() then
-        cmp.select_next_item()
-      elseif has_words_before() then 
-        cmp.complete()
-      else 
-        fallback() -- The fallback function sends a already mapped key. In this case, it's probably `<Tab>`.
-      end
-    end, { "i", "s" }),
-["<S-Tab>"] = cmp.mapping(function()
-      if vim.fn.pumvisible() == 1 then
-        feedkey("<C-p>", "n")  
-      elseif vim.fn["vsnip#jumpable"](-1) == 1 then
-        feedkey("<Plug>(vsnip-jump-prev)", "")
-      end
-    end, { "i", "s" }),
-}),
+        ["<S-Tab>"] = cmp.mapping(function(fallback)
+          if cmp.visible() then
+            cmp.select_prev_item()
+          elseif luasnip.jumpable(-1) then
+            luasnip.jump(-1)
+          else
+            fallback()
+          end
+        end, { "i", "s" }),
+        },
+    ...
+    snippet = {
+        expand = function(args)
+            local luasnip = prequire("luasnip")
+            if not luasnip then
+                return
+            end
+            luasnip.lsp_expand(args.body)
+        end,
+    },
+})
+
 requires = {
     {
       'tzachar/fuzzy.nvim',
@@ -1574,7 +1579,7 @@ EOF
 lua <<EOF
 -- load snippets from path/of/your/nvim/config/my-cool-snippets
 -- vim.o.runtimepath = vim.o.runtimepath .. 'C:/Users/yasha/.config/nvim/lua/snippets,'
-require("luasnip.loaders.from_vscode").lazy_load({ paths = { "./snippets" } })
+require("luasnip.loaders.from_vscode").lazy_load({ paths = { "~/dotfiles/snippets" } })
 -- require("luasnip/loaders/from_vscode").lazy_load() -- load snippets of friendly/snippets
 -- require("luasnip/loaders/from_vscode").lazy_load({ paths = "./snippets" -- load your own snippets
 EOF
