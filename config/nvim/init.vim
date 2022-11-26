@@ -919,8 +919,8 @@ mapping = cmp.mapping.preset.insert({
 ["<Tab>"] = cmp.mapping(function(fallback) 
      if cmp.visible() then
             cmp.select_next_item()
-          elseif luasnip.expandable() then
-            luasnip.expand()
+          elseif luasnip.expand_or_jumpable() then
+            luasnip.expand_or_jump()
           elseif has_words_before() then
             cmp.complete()
           else
@@ -1575,10 +1575,11 @@ require("luasnip.loaders.from_vscode").lazy_load({ paths = { "~/dotfiles/snippet
 -- require("luasnip/loaders/from_vscode").lazy_load({ paths = "./snippets" -- load your own snippets
 EOF
 
-" imap <silent><expr> <Tab> luasnip#expand_or_jumpable() ? '<Plug>luasnip-expand-or-jump' : '<Tab>' 
+imap <silent><expr> <Tab> luasnip#expand_or_jumpable() ? '<Plug>luasnip-expand-or-jump' : '<Tab>' 
 " -1 for jumping backwards.
-inoremap <silent> <m-J> <cmd>lua require'luasnip'.jump(-1)<Cr>
-inoremap <silent> <m-j> <cmd>lua require('luasnip').jump(1)<Cr>
+inoremap <silent> <S-Tab> <cmd>lua require'luasnip'.jump(-1)<Cr>
+
+snoremap <silent> <Tab> <cmd>lua require('luasnip').jump(1)<Cr>
 snoremap <silent> <S-Tab> <cmd>lua require('luasnip').jump(-1)<Cr>
 
 " For changing choices in choiceNodes (not strictly necessary for a basic setup).
