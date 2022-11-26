@@ -938,6 +938,34 @@ cmp.setup({
             luasnip.lsp_expand(args.body)
         end,
     },
+
+-- ... Your other mappings ...
+requires = {
+    {
+      'tzachar/fuzzy.nvim',
+      'quangnguyen30192/cmp-nvim-tags',
+      -- if you want the sources is available for some file types
+      ft = {
+        'tex',
+        'latex' 
+      }
+    }
+    },
+-- ... Your other configuration ...
+sources = cmp.config.sources({
+      -- For vsnip user. 
+{ name = 'vsnip', keyword_length = 1000 },
+{ name = 'tags' },
+{ name = 'nvim_lsp', keyword_length = 4 },
+-- For ultisnips user.
+      -- { name = 'ultisnips' },  
+{ name = 'omni', keyword_length = 4},
+       -- { name = 'spell' }, 
+      --{ name = 'treesitter', keyword_length = 4 },
+{ name = 'buffer', keyword_length = 4 },
+--{ name = 'fuzzy_buffer', keyword_length = 8 }
+}),
+completion = { autocomplete = false }
 })
 EOF
 " 
