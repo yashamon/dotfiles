@@ -1,0 +1,7 @@
+\documentclass{amsart}
+\usepackage{color}
+\usepackage{tikz-cd}
+\usepackage{amsmath, amssymb, mathrsfs, amsfonts,  amsthm}
+\begin{document}
+e ^{x+2} = x
+\end{document}

@@ -1572,7 +1572,7 @@ EOF
 " via <Plug>luasnip-expand-snippet and <Plug>luasnip-jump-next.
 lua <<EOF
 -- load snippets from path/of/your/nvim/config/my-cool-snippets
-vim.o.runtimepath = vim.o.runtimepath .. 'C:/Users/yasha/.config/nvim/lua/friendly-snippets,'
+vim.o.runtimepath = vim.o.runtimepath .. 'C:/Users/yasha/.config/nvim/lua/snippets,'
 require("luasnip.loaders.from_vscode").load()
 EOF
 imap <silent><expr> <Tab> luasnip#expand_or_jumpable() ? '<Plug>luasnip-expand-or-jump' : '<Tab>' 
