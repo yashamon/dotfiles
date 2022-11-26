@@ -21,7 +21,7 @@ Plug 'quangnguyen30192/cmp-nvim-tags',  { 'branch': 'main' }
 Plug 'terrortylor/nvim-comment', { 'branch': 'main' }
 Plug 'nvim-lualine/lualine.nvim'
 Plug 'justinhoward/fzf-neoyank'
-Plug 'shaunsingh/nord.nvim'
+" Plug 'shaunsingh/nord.nvim'
 Plug 'folke/tokyonight.nvim', { 'branch': 'main' }
 Plug 'ellisonleao/gruvbox.nvim', { 'branch': 'main' }
 Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}  
@@ -38,6 +38,8 @@ Plug 'nvim-lua/plenary.nvim'
 Plug 'nvim-telescope/telescope.nvim'
 Plug 'simnalamburt/vim-mundo'
 Plug 'rlane/pounce.nvim'
+
+
 " Plug 'rakr/vim-one'
 " Plug 'kyazdani42/blue-moon'
 " Plug 'monsonjeremy/onedark.nvim'
