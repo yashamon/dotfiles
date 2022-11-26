@@ -903,11 +903,9 @@ end
 local cmp = require'cmp'
 cmp.setup ({
 snippet = {
-      expand = function(args)
-        -- For `vsnip` user.
-        vim.fn["vsnip#anonymous"](args.body) -- For `vsnip` user.
-  -- ... Your other configuration ...
-end,
+  expand = function(args)
+    luasnip.lsp_expand(args.body)
+  end
 },
 
 mapping = cmp.mapping.preset.insert({
