@@ -1575,7 +1575,7 @@ lua <<EOF
 vim.o.runtimepath = vim.o.runtimepath .. 'C:/Users/yasha/.config/nvim/lua/snippets,'
 config = function() 
    require("luasnip/loaders/from_vscode").load()
-    require("luasnip/loaders/from_vscode").load({ paths = { "C:/Users/yasha/.config/nvim/lua/snippets" } }) 
+   require("luasnip/loaders/from_vscode").load({ paths = { "C:/Users/yasha/.config/nvim/lua/snippets" } }) 
     end
 -- require("luasnip/loaders/from_vscode").lazy_load() -- load snippets of friendly/snippets
 -- require("luasnip/loaders/from_vscode").lazy_load({ paths = "./snippets" -- load your own snippets
