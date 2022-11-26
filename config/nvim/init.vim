@@ -920,32 +920,27 @@ mapping = cmp.mapping.preset.insert({
       ['<CR>'] = cmp.mapping.confirm({ select = true }),
 
 
- ["<Tab>"] = cmp.mapping(function(fallback)
-      if vim.fn.pumvisible() == 1 then
-        vim.fn.feedkeys(T("<C-n>"), "n")
-      elseif luasnip.expand_or_jumpable() then
-        vim.fn.feedkeys(T("<Plug>luasnip-expand-or-jump"), "")
-      elseif check_backspace() then
-        vim.fn.feedkeys(T("<Tab>"), "n")
-      else
-        fallback()
-      end
-    end, {
-      "i",
-      "s",
-    }),
-    ["<S-Tab>"] = cmp.mapping(function(fallback)
-      if vim.fn.pumvisible() == 1 then
-        vim.fn.feedkeys(T("<C-p>"), "n")
-      elseif luasnip.jumpable(-1) then
-        vim.fn.feedkeys(T("<Plug>luasnip-jump-prev"), "")
-      else
-        fallback()
-      end
-    end, {
-      "i",
-      "s",
-    }),
+['<Tab>'] = function(core, fallback)
+                if vim.fn.pumvisible() == 1 then
+                    vim.fn.feedkeys(t('<C-n>'), 'n')
+                elseif luasnip.expand_or_jumpable() then
+                    vim.fn.feedkeys(t('<Plug>luasnip-expand-or-jump'), '')
+                elseif not check_back_space() then
+                    cmp.mapping.complete()(core, fallback)
+                else
+                    vim.cmd(':>')
+                end
+            end,
+            ['<S-Tab>'] = function(core, fallback)
+                if vim.fn.pumvisible() == 1 then
+                    vim.fn.feedkeys(t('<C-p>'), 'n')
+                elseif luasnip.jumpable(-1) then
+                    vim.fn.feedkeys(t('<Plug>luasnip-jump-prev'), '')
+                else
+                    vim.cmd(':<')
+                end
+            end,
+
 
 }),
 
