@@ -919,32 +919,7 @@ mapping = cmp.mapping.preset.insert({
       ['<C-e>'] = cmp.mapping.close(),
       ['<CR>'] = cmp.mapping.confirm({ select = true }),
 -- ... Your other mappings ...
- ["<Tab>"] = cmp.mapping(function(fallback)
-      if vim.fn.pumvisible() == 1 then
-        vim.fn.feedkeys(T("<C-n>"), "n")
-      elseif luasnip.expand_or_jumpable() then
-        vim.fn.feedkeys(T("<Plug>luasnip-expand-or-jump"), "")
-      elseif check_backspace() then
-        vim.fn.feedkeys(T("<Tab>"), "n")
-      else
-        fallback()
-      end
-    end, {
-      "i",
-      "s",
-    }),
-    ["<S-Tab>"] = cmp.mapping(function(fallback)
-      if vim.fn.pumvisible() == 1 then
-        vim.fn.feedkeys(T("<C-p>"), "n")
-      elseif luasnip.jumpable(-1) then
-        vim.fn.feedkeys(T("<Plug>luasnip-jump-prev"), "")
-      else
-        fallback()
-      end
-    end, {
-      "i",
-      "s",
-    }),
+ 
   },
 
 requires = {
