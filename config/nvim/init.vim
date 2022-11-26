@@ -943,7 +943,6 @@ cmp.setup({
         end,
     },
 }),
-
 requires = {
     {
       'tzachar/fuzzy.nvim',
