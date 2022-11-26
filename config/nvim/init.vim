@@ -920,8 +920,7 @@ mapping = cmp.mapping.preset.insert({
       ['<CR>'] = cmp.mapping.confirm({ select = true }),
 -- ... Your other mappings ...
 ["<Tabs>"] = cmp.mapping(function(fallback) 
-      if vim.fn["luasnip#expand_or_jumpable()"]() == 1
-        then
+      if vim.fn["luasnip#expand_or_jumpable()"]() == 1 then
         luasnip.expand_or_jump()
      elseif cmp.visible() then
         cmp.select_next_item()
