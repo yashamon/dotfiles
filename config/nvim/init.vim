@@ -945,7 +945,6 @@ cmp.setup({
             luasnip.lsp_expand(args.body)
         end,
     },
-}),
 requires = {
     {
       'tzachar/fuzzy.nvim',
