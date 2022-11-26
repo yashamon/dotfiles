@@ -919,7 +919,7 @@ mapping = cmp.mapping.preset.insert({
 ["<Tab>"] = cmp.mapping(function(fallback)
       ['<CR>'] = cmp.mapping.confirm({ select = true }),
 -- ... Your other mappings ...
-["<Tabs>"] = cmp.mapping(function(fallback) 
+["<Caps>"] = cmp.mapping(function(fallback) 
       if vim.fn["vsnip#expandable"]() == 1
         then
         feedkey("<Plug>(vsnip-expand)", "")
@@ -1574,7 +1574,7 @@ imap <silent><expr> <Tab> luasnip#expand_or_jumpable() ? '<Plug>luasnip-expand-o
 " -1 for jumping backwards.
 inoremap <silent> <S-Tab> <cmd>lua require'luasnip'.jump(-1)<Cr>
 
-snoremap <silent> <Tab> <cmd>lua require('luasnip').jump(1)<Cr>
+require("luasnip.loaders.from_vscode").lazy_load({ paths = { "./snippets" } })
 snoremap <silent> <S-Tab> <cmd>lua require('luasnip').jump(-1)<Cr>
 
 " For changing choices in choiceNodes (not strictly necessary for a basic setup).
