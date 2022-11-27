@@ -140,8 +140,8 @@ map x $$Env:f
 map X !$Env:f
 
 # dedicated keys for file opener actions
-map o &mimeopen $Env:f 
-map O $mimeopen --ask $Env:f 
+map o &mimeopen $Env:f.Trim('"') 
+map O $mimeopen --ask $Env:f.Trim('"') 
 
 # define a custom 'open' command
 # This command is called when current file is not a directory. You may want to
