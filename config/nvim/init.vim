@@ -207,7 +207,7 @@ set foldexpr=nvim_treesitter#foldexpr()
 autocmd BufReadPost,FileReadPost * normal zR
 " au FileType tex setlocal indentexpr=
 " set foldmethod=expr
-au FileType tex, text, md setlocal foldexpr=getline(v:lnum)=~'^\s*'.&commentstring[0]
+" au FileType tex, text, md setlocal foldexpr=getline(v:lnum)=~'^\s*'.&commentstring[0]
 " au FileType lua, vim, c, haskell  set foldexpr=nvim_treesitter#foldexpr()
 let g:tex_conceal = ""
 set tags+=~/workspacemodules/tags
