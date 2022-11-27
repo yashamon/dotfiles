@@ -343,9 +343,7 @@ set fileencoding=utf-8
 "maps remaps mappings  
 "
 " terminal stuff 
-lua <<EOF
-vim.keymap.set('t', '<C-r>+', [[getreg('+')]], {expr = true})
-EOF
+
 autocmd TermClose * if v:event.status ==1 || v:event.status ==0  | exe 'bdelete! '..expand('<abuf>') | endif
 tnoremap <m-d> <C-\><C-n>:bdelete!<cr>
 tnoremap <A-`> <C-\><C-n>
@@ -827,20 +825,6 @@ let g:vsnip_snippet_dir = '~/dotfiles/snippets'
 " set foldexpr=nvim_treesitter#foldexpr()
 "
 
-lua <<EOF
-require("nvim-lsp-installer").setup {}
-    local lspconfig = require("lspconfig")
-
-    local function on_attach(client, bufnr)
-        -- set up buffer keymaps, etc.
-    end
-
-    lspconfig.sumneko_lua.setup { on_attach = on_attach }
-    lspconfig.tsserver.setup { on_attach = on_attach }
-    lspconfig.vimls.setup { on_attach = on_attach }
-    lspconfig.ltex.setup { on_attach = on_attach }
-    lspconfig.texlab.setup { on_attach = on_attach }
-EOF
 lua << EOF
 local nvim_lsp = require('lspconfig')
 -- Use an on_attach function to only map the following keys
