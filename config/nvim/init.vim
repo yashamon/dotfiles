@@ -918,7 +918,7 @@ mapping = cmp.mapping.preset.insert({
       ['<CR>'] = cmp.mapping.confirm({ select = true }),
 -- ... Your other mappings ...
 ["<Tab>"] = cmp.mapping(function(fallback)
-			if luasnip.expand_or_jumpable() then
+			if luasnip.expandable() then
 				luasnip.expand()
 			elseif has_words_before() then
 				cmp.complete()
