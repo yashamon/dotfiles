@@ -922,8 +922,6 @@ mapping = cmp.mapping.preset.insert({
 				luasnip.expand()
 			elseif has_words_before() then
 				cmp.complete()
-                        elseif cmp.visible() then
-                             cmp.select_next_item()	
                         else
 				fallback()
 		end, { "i", "s" }),
