@@ -299,16 +299,10 @@ set shiftwidth=3
 let mapleader=';'
 let g:mapleader=';'
 
-" open the error console
-" move to next error
-
 " Bash like keys for the command line
 cnoremap <C-A>      <Home>
 cnoremap <C-E>      <End>
 cnoremap <C-K>      <C-U>
-
-" ,p toggles paste mode
-" nmap <leader>p :set paste!<BAR>set paste?<CR>
 
 " allow multiple indentation/deindentation in visual mode
 vnoremap < <gv
@@ -325,12 +319,10 @@ if has("autocmd") && exists("+omnifunc")
               \	endif
 endif
 
-set cot-=preview "disable doc preview in omnicomplete
-
+" set cot-=preview "disable doc preview in omnicomplete
 " make CSS omnicompletion work for SASS and SCSS
 " autocmd BufNewFile,BufRead *.scss             set ft=scss.css
 " autocmd BufNewFile,BufRead *.sass             set ft=sass.css
-
 "--------------------------------------------------------------------------- 
 " ENCODING SETTINGS
 "--------------------------------------------------------------------------- 
