@@ -1572,6 +1572,7 @@ EOF
 " press <Tab> to expand or jump in a snippet. These can also be mapped separately
 " via <Plug>luasnip-expand-snippet and <Plug>luasnip-jump-next.
 lua <<EOF
+require('config.snippets') 
 -- load snippets from path/of/your/nvim/config/my-cool-snippets
 --vim.o.runtimepath = vim.o.runtimepath .. 'C:/Users/yasha/.config/nvim/lua/snippets,'
 -- require("luasnip/loaders/from_vscode").lazy_load() -- load snippets of friendly/snippets
