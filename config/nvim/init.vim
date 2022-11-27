@@ -335,6 +335,7 @@ set fileencoding=utf-8
 " terminal stuff 
 
 autocmd TermClose * if v:event.status ==1 || v:event.status ==0  | exe 'bdelete! '..expand('<abuf>') | endif
+vim.keymap.set('t', '<C-r>+', [[getreg('+')]], {expr = true})
 tnoremap <m-d> <C-\><C-n>:bdelete!<cr>
 tnoremap <A-`> <C-\><C-n>
 tnoremap <A-Esc> <C-\><C-n>
