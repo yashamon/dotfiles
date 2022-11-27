@@ -14,9 +14,9 @@ Plug 'neovim/nvim-lspconfig'
 Plug 'williamboman/nvim-lsp-installer', { 'branch': 'main' }
 Plug 'hrsh7th/nvim-cmp', { 'branch': 'main' }
 Plug 'hrsh7th/cmp-buffer', { 'branch': 'main' }
-Plug 'hrsh7th/cmp-vsnip', { 'branch': 'main' } 
-Plug 'hrsh7th/vim-vsnip'
-Plug 'hrsh7th/vim-vsnip-integ'
+" Plug 'hrsh7th/cmp-vsnip', { 'branch': 'main' } 
+" Plug 'hrsh7th/vim-vsnip'
+" Plug 'hrsh7th/vim-vsnip-integ'
 Plug 'hrsh7th/cmp-nvim-lsp', { 'branch': 'main' } 
 Plug 'ray-x/cmp-treesitter'
 Plug 'quangnguyen30192/cmp-nvim-tags',  { 'branch': 'main' }  
