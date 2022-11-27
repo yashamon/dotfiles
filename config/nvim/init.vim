@@ -171,7 +171,6 @@ set softtabstop=3
 set shiftwidth=3
 " set shell="C:\Program Files\PowerShell\7\pwsh.EXE"
 set termguicolors
-
 set guicursor=n-v-c:block,i-ci-ve:ver25,r-cr:hor20,o:hor50
  		  \,a:blinkwait700-blinkoff400-blinkon250-Cursor/lCursor
  		  \,sm:block-blinkwait175-blinkoff150-blinkon175
@@ -181,7 +180,7 @@ function! OnUIEnter(event)
 	let l:ui = nvim_get_chan_info(a:event.chan)
 	if has_key(l:ui, 'client') && has_key(l:ui.client, 'name')
 		if l:ui.client.name ==# 'Firenvim'
-			set guifont=Fira\ Code:h20
+			set guifont=JetBrains\ Mono:h18
                         set lines=100
                         set columns=100
                         noremap q <esc>:wq<cr>
