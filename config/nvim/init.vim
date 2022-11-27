@@ -144,11 +144,11 @@ set scrolloff=10
 set title
 set cmdheight=0
 set signcolumn=yes
+set noshowcmd    
 " set titlestring
 " set noshowmode
 " set noruler       
 " set laststatus=1 
-set noshowcmd    
 " set shell=nu
 " let &shell = 'nu'
 " let &shellcmdflag = '-c'
