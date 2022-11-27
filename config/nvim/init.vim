@@ -924,6 +924,7 @@ mapping = cmp.mapping.preset.insert({
 				cmp.complete()
                         else
 				fallback()
+			end
 		end, { "i", "s" }),
 		["<S-Tab>"] = cmp.mapping(function(fallback)
 			if cmp.visible() then
