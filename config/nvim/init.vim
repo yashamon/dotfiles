@@ -835,91 +835,10 @@ nnoremap <silent> g? <cmd>lua vim.diagnostic.open_float()<CR>
 
 
 
-lua <<EOF
-  -- Setup cmp.
-
-local has_words_before = function()
-  if vim.api.nvim_buf_get_option(0, "buftype") == "prompt" then
-    return false
-  end
-  local line, col = unpack(vim.api.nvim_win_get_cursor(0))
-  return col ~= 0 and vim.api.nvim_buf_get_lines(0, line - 1, line, true)[1]:sub(col, col):match("%s") == nil
-end
-
-local feedkey = function(key, mode)
-  vim.api.nvim_feedkeys(vim.api.nvim_replace_termcodes(key, true, true, true), mode, true)
-end
-local luasnip = require("luasnip")
-local cmp = require'cmp'
-cmp.setup ({
-snippet = {
-  expand = function(args)
-    luasnip.lsp_expand(args.body)
-  end
-},
-
-mapping = cmp.mapping.preset.insert({
-        ["<C-p>"] = cmp.mapping.select_prev_item(),
-        ["<C-n>"] = cmp.mapping.select_next_item(),
-       ['<C-d>'] = cmp.mapping.scroll_docs(-4),
-      ['<C-f>'] = cmp.mapping.scroll_docs(4),
-      ['<C-x>'] = cmp.mapping.complete(),
-      ['<C-e>'] = cmp.mapping.close(),
-      ['<CR>'] = cmp.mapping.confirm({ select = true }),
--- ... Your other mappings ...
-["<Tab>"] = cmp.mapping(function(fallback)
-			if luasnip.expandable() then
-				luasnip.expand()
-                        elseif cmp.visible() then
-                             cmp.select_next_item()
-			elseif has_words_before() then
-				cmp.complete()
-                        	
-                             else
-				fallback()
-			end
-		end, { "i", "s" }),
-		["<S-Tab>"] = cmp.mapping(function(fallback)
-			if cmp.visible() then
-				cmp.select_prev_item()
-			elseif luasnip.jumpable(-1) then
-				luasnip.jump(-1)
-			else
-				fallback()
-			end
-		end, { "i", "s" }),
-}),
-
-
-requires = {
-    {
-      'tzachar/fuzzy.nvim',
-      'quangnguyen30192/cmp-nvim-tags',
-      -- if you want the sources is available for some file types
-      ft = {
-        'tex',
-        'latex' 
-      }
-    }
-    },
--- ... Your other configuration ...
-sources = cmp.config.sources({
-      -- For vsnip user. 
-{ name = 'vsnip', keyword_length = 1000 },
-{ name = 'luasnip', keyword_length = 1000 },
-{ name = 'tags' },
-{ name = 'nvim_lsp', keyword_length = 4 },
--- For ultisnips user.
-      -- { name = 'ultisnips' },  
-{ name = 'omni', keyword_length = 4},
-       -- { name = 'spell' }, 
-      --{ name = 'treesitter', keyword_length = 4 },
-{ name = 'buffer', keyword_length = 4 },
---{ name = 'fuzzy_buffer', keyword_length = 8 }
-}),
-completion = { autocomplete = false }
-})
-EOF
+" lua <<EOF
+"   -- Setup cmp.
+"
+" EOF
 " 
 " " LSP mappings   
 " "" LSP mappings 
