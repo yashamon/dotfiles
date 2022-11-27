@@ -23,7 +23,7 @@ local custom_attach = function(client)
 	print("LSP started.");
 	require'completion'.on_attach(client)
 	require'diagnostic'.on_attach(client)
-buf_set_option('omnifunc', 'v:lua.vim.lsp.omnifunc')
+
 	map('n','gD','<cmd>lua vim.lsp.buf.declaration()<CR>')
 	map('n','gd','<cmd>lua vim.lsp.buf.definition()<CR>')
 	map('n','K','<cmd>lua vim.lsp.buf.hover()<CR>')
@@ -40,7 +40,7 @@ buf_set_option('omnifunc', 'v:lua.vim.lsp.omnifunc')
 	map('n','<leader>=', '<cmd>lua vim.lsp.buf.formatting()<CR>')
 	map('n','<leader>ai','<cmd>lua vim.lsp.buf.incoming_calls()<CR>')
 	map('n','<leader>ao','<cmd>lua vim.lsp.buf.outgoing_calls()<CR>')
-        
+ buf_set_option('omnifunc', 'v:lua.vim.lsp.omnifunc')       
   
 
   -- Mappings.
