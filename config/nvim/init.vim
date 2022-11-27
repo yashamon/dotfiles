@@ -131,7 +131,10 @@ Plug 'rlane/pounce.nvim'
 " Plug '~/my-prototype-plugin'
 " Add plugins to &runtimepath 
 call plug#end()
-require('init.lua') 
+lua <<EOF
+require('init') 
+EOF
+
 "Neovide 
 "
 " let g:neovide_maximized=v:true 
