@@ -919,7 +919,7 @@ mapping = cmp.mapping.preset.insert({
 -- ... Your other mappings ...
 ["<Tab>"] = cmp.mapping(function(fallback)
 			if luasnip.expand_or_jumpable() then
-				luasnip.expand_or_jump()
+				luasnip.expand()
 			elseif has_words_before() then
 				cmp.complete()
                         else
