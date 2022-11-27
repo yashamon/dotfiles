@@ -37,7 +37,6 @@ Plug 'nvim-telescope/telescope.nvim'
 Plug 'simnalamburt/vim-mundo'
 Plug 'rlane/pounce.nvim'
 
-
 " Plug 'rakr/vim-one'
 "" Plug 'hrsh7th/cmp-vsnip', { 'branch': 'main' } 
 " Plug 'hrsh7th/vim-vsnip'
@@ -204,8 +203,9 @@ let g:tex_isk = '@,48-57,58,_,192-255,:'
 au FileType tex setlocal iskeyword+=:
 au Filetype tex,text,md set tw=50
 au FileType tex setlocal indentexpr=
-au FileType tex, text, md setlocal foldmethod=expr foldexpr=getline(v:lnum)=~'^\s*'.&commentstring[0]
-au FileType lua, vim, c, haskell  set foldexpr=nvim_treesitter#foldexpr() 
+set foldmethod=expr
+au FileType tex, text, md setlocal foldexpr=getline(v:lnum)=~'^\s*'.&commentstring[0]
+au FileType lua, vim, c, haskell  set foldexpr=nvim_treesitter#foldexpr()
 let g:tex_conceal = ""
 set tags+=~/workspacemodules/tags
 set tags+=~\workspacemodules\tags
