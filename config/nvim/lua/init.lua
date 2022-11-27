@@ -1,8 +1,24 @@
 
 
+
+
+
 -- Keymaps
 vim.keymap.set('t', '<C-r>+', [[getreg('+')]], {expr = true})
 -- LSP
+require("nvim-lsp-installer").setup {}
+    local lspconfig = require("lspconfig")
+
+    local function on_attach(client, bufnr)
+        -- set up buffer keymaps, etc.
+    end
+
+    lspconfig.sumneko_lua.setup { on_attach = on_attach }
+    lspconfig.tsserver.setup { on_attach = on_attach }
+    lspconfig.vimls.setup { on_attach = on_attach }
+    lspconfig.ltex.setup { on_attach = on_attach }
+    lspconfig.texlab.setup { on_attach = on_attach }
+
 local custom_attach = function(client)
 	print("LSP started.");
 	require'completion'.on_attach(client)
