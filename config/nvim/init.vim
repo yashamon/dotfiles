@@ -202,10 +202,13 @@ let g:tex_flavor = "latex"
 let g:tex_isk = '@,48-57,58,_,192-255,:' 
 au FileType tex setlocal iskeyword+=:
 au Filetype tex,text,md set tw=50
-au FileType tex setlocal indentexpr=
 set foldmethod=expr
+set foldexpr=nvim_treesitter#foldexpr()
+autocmd BufReadPost,FileReadPost * normal zR
+" au FileType tex setlocal indentexpr=
+" set foldmethod=expr
 au FileType tex, text, md setlocal foldexpr=getline(v:lnum)=~'^\s*'.&commentstring[0]
-au FileType lua, vim, c, haskell  set foldexpr=nvim_treesitter#foldexpr()
+" au FileType lua, vim, c, haskell  set foldexpr=nvim_treesitter#foldexpr()
 let g:tex_conceal = ""
 set tags+=~/workspacemodules/tags
 set tags+=~\workspacemodules\tags
