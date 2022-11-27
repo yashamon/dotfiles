@@ -204,9 +204,8 @@ let g:tex_isk = '@,48-57,58,_,192-255,:'
 au FileType tex setlocal iskeyword+=:
 au Filetype tex,text,md set tw=50
 au FileType tex setlocal indentexpr=
-au FileType tex, text, md, lua, vim setlocal foldmethod=expr foldexpr=getline(v:lnum)=~'^\s*'.&commentstring[0]
-
-
+au FileType tex, text, md setlocal foldmethod=expr foldexpr=getline(v:lnum)=~'^\s*'.&commentstring[0]
+au FileType tex, text, md set foldexpr=nvim_treesitter#foldexpr() 
 let g:tex_conceal = ""
 set tags+=~/workspacemodules/tags
 set tags+=~\workspacemodules\tags
@@ -777,7 +776,7 @@ imap <expr> <M-k> vsnip#jumpable(-1)  ? '<Plug>(vsnip-jump-prev)'      : '<S-Tab
 smap <expr> <M-k> vsnip#jumpable(-1)  ? '<Plug>(vsnip-jump-prev)'      : '<S-Tab>'
 
 "
-" set foldexpr=nvim_treesitter#foldexpr()
+" 
 "
 
 lua <<EOF
