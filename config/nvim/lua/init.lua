@@ -1,5 +1,7 @@
 
 
+-- LSP
+vim.keymap.set('t', '<C-r>+', [[getreg('+')]], {expr = true})
 local custom_attach = function(client)
 	print("LSP started.");
 	require'completion'.on_attach(client)
