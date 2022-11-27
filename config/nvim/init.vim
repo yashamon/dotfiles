@@ -14,16 +14,12 @@ Plug 'neovim/nvim-lspconfig'
 Plug 'williamboman/nvim-lsp-installer', { 'branch': 'main' }
 Plug 'hrsh7th/nvim-cmp', { 'branch': 'main' }
 Plug 'hrsh7th/cmp-buffer', { 'branch': 'main' }
-" Plug 'hrsh7th/cmp-vsnip', { 'branch': 'main' } 
-" Plug 'hrsh7th/vim-vsnip'
-" Plug 'hrsh7th/vim-vsnip-integ'
 Plug 'hrsh7th/cmp-nvim-lsp', { 'branch': 'main' } 
 Plug 'ray-x/cmp-treesitter'
 Plug 'quangnguyen30192/cmp-nvim-tags',  { 'branch': 'main' }  
 Plug 'terrortylor/nvim-comment', { 'branch': 'main' }
 Plug 'nvim-lualine/lualine.nvim'
 Plug 'justinhoward/fzf-neoyank'
-" Plug 'shaunsingh/nord.nvim'
 Plug 'folke/tokyonight.nvim', { 'branch': 'main' }
 Plug 'ellisonleao/gruvbox.nvim', { 'branch': 'main' }
 Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}  
@@ -43,7 +39,10 @@ Plug 'rlane/pounce.nvim'
 
 
 " Plug 'rakr/vim-one'
-" Plug 'kyazdani42/blue-moon'
+"" Plug 'hrsh7th/cmp-vsnip', { 'branch': 'main' } 
+" Plug 'hrsh7th/vim-vsnip'
+" Plug 'hrsh7th/vim-vsnip-integ' Plug 'kyazdani42/blue-moon'
+"" Plug 'shaunsingh/nord.nvim' 
 " Plug 'monsonjeremy/onedark.nvim'
 " Plug 'navarasu/onedark.nvim'
 " Plug 'yegappan/mru'
@@ -213,9 +212,7 @@ set tags+=~/workspacemodules/tags
 set tags+=~\workspacemodules\tags
 set tags+=.\tags
 set tags+=./tags
-"set +=~/Dropbox/workspace/tags
 " set wrapmargin=1
-" set shada="NONE"  
 set listchars=eol:¬,tab:>·,trail:~,extends:>,precedes:<,space:␣
 set linebreak 
 set formatoptions+=w " set breakat=" "
@@ -241,7 +238,7 @@ set ruler		" show the cursor position all the time
 set autoread		" auto read when file is changed from outside
 set nohlsearch
 " set noswapfile
-" set showmatch		" Cursor shows matching ) and }
+set showmatch		" Cursor shows matching ) and }
 set nocursorline
 set showmode		" Show current mode
 set wildchar=<TAB>	" start wild expansion in the command line using <TAB>
@@ -302,16 +299,11 @@ set shiftwidth=3
 let mapleader=';'
 let g:mapleader=';'
 
-" open the error console
-" move to next error
 
 " Bash like keys for the command line
 cnoremap <C-A>      <Home>
 cnoremap <C-E>      <End>
 cnoremap <C-K>      <C-U>
-
-" ,p toggles paste mode
-" nmap <leader>p :set paste!<BAR>set paste?<CR>
 
 " allow multiple indentation/deindentation in visual mode
 vnoremap < <gv
@@ -327,8 +319,6 @@ if has("autocmd") && exists("+omnifunc")
               \		setlocal omnifunc=syntaxcomplete#Complete |
               \	endif
 endif
-
-set cot-=preview "disable doc preview in omnicomplete
 
 " make CSS omnicompletion work for SASS and SCSS
 " autocmd BufNewFile,BufRead *.scss             set ft=scss.css
@@ -507,21 +497,6 @@ au FileType tex,text,md nmap 0 g^
 au FileType tex,text,md noremap 9 g$
 " au FileType tex,text,md nnoremap dd "_g^dg$g^
 
-"Neovim mappings
-" :tnoremap <S-h> <C-\><C-n><C-w>h
-" :tnoremap <S-j> <C-\><C-n><C-w>j
-" :tnoremap <S-k> <C-\><C-n><C-w>k
-" :tnoremap <S-l> <C-\><C-n><C-w>l
-" tnoremap <Left> :tbnext<CR>
-" tnoremap <Right> :tbprevious<CR>
-" tnoremap <Leader>e <C-\><C-n> 
-" imap <Backspace> \
-" map t <Plug>Lightspeed_s
-" map <C-t> <cmd>HopChar1
-" map T <Plug>Lightspeed_S
-" map <S-m-Space> <cmd>HopWord<cr>
-" map t <ESC>:syntax off <CR>t: syntax on<CR>
-
 " FZF 
 let g:fzf_layout = { 'window': { 'width': 1, 'height': 1 } }
 " let g:fzf_preview_window = []
@@ -640,18 +615,7 @@ command! -bang -nargs=* BLinesB
     \   'rg --with-filename --line-number --no-heading --smart-case . '.fnameescape(expand('%')),1,
     \   fzf#vim#with_preview({'options': '--keep-right --layout reverse --query '.shellescape(<q-args>).' --preview "bat -p --color always {}"'}, 'up:50%'))
 
-" nnoremap H :LinesWithPreview<CR>
-" command! -bang -nargs=* BLinesB
-"     \ call fzf#vim#grep(
-"     \   'rg --with-filename --column --line-number --no-heading --smart-case . '.fnameescape(expand('%:p')), 1,
-"     \   fzf#vim#with_preview({'options': '--keep-right --delimiter : --nth 4.. --preview "bat -p --color always {}"'}, 'right:50%' ))
-
-" command! -bang -nargs=* BLinesB
-"      \ call fzf#vim#grep(
-"      \   'rg --with-filename --column --line-number --no-heading --smart-case . '.fnameescape(expand('%:p')),,
-" "     \   fzf#vim#with_preview({'options': '--layout reverse --query '.shellescape(<q-args>).' --with-nth=4.. --delimiter=":"'}, 'right:0%'))
-    " \   fzf#vim#with_preview({'options': '--layout reverse  --with-nth=-1.. --delimiter="/"'}, 'right:50%'))
- function Line()
+function Line()
  " vimgrep /\w\+/j % | copen
   let g:buf = bufname()
   " silent execute "!bash /mnt/c/Users/yasha/dotfiles/scripts/sentence.sh %"
@@ -785,9 +749,6 @@ nmap <leader>gm :w<cr>:silent ! cat % >> ~/workspace/email.txt; cp % /tmp/temp; 
 
 
 
-
-
-
 "Autosave and autocommit   
 " let g:updatetime = 10000
 let g:auto_save = 0
@@ -806,17 +767,8 @@ autocmd BufWritePost * call GitAsync()
 
 " Set completeopt to have a better completion experience
 set completeopt=menuone,noinsert,noselect
-
 " Avoid showing message extra message when using completion
 set shortmess+=c
-let g:vsnip_snippet_dir = '~/dotfiles/snippets'  
-
-" imap <expr> <m-space>   vsnip#expandable()  ? '<Plug>(vsnip-expand)'         : '<C-j>'
-" smap <expr> <m-space>   vsnip#expandable()  ? '<Plug>(vsnip-expand)'         : '<C-j>'
-" 
-" " Expand or jump
-" imap <expr> <m-space>   vsnip#available(1)  ? '<Plug>(vsnip-expand-or-jump)' : '<C-l>'
-" smap <expr> <m-space>   vsnip#available(1)  ? '<Plug>(vsnip-expand-or-jump)' : '<C-l>'
 
 " Jump forward or backward
 imap <expr> <M-j>   vsnip#jumpable(1)   ? '<Plug>(vsnip-jump-next)'      : '<C-l>'
@@ -1081,42 +1033,7 @@ let g:firenvim_config = {
         \ },
     \ }
 \ }
-" lua << EOF
-" require('fzf-lua').setup{
-" -- ...
-" }
-" EOF
-" lua <<EOF
-" -- ===========================================
-" --  Add user dictionary for ltex-ls
-" --  * en.utf-8.add must be created using `zg` when set spell is on
-" -- ===========================================
-" local path = vim.fn.stdpath 'config' .. '/spell/en.utf-8.add'
-" local path = vim.fn.stdpath 'config' .. '/spell/es.utf-8.spl'
-" local words = {}
-"
-" for word in io.open(path, 'r'):lines() do
-"   table.insert(words, word)
-" end
-" require'lspconfig'.ltex.setup{
-"   on_attach = on_attach,
-"   capabilities = capabilities,
-"   settings = {
-"     ltex = {
-"       disabledRules = {
-"         ['en-US'] = { 'PROFANITY' },
-"         ['en-GB'] = { 'PROFANITY' },
-"       },
-"       language="en-US",
-"       dictionary = {
-"         ['en-US'] = words,
-"         ['en-GB'] = words,
-"         ['es'] = words,
-" },
-"     },
-"   },
-" }
-" EOF
+
 ""other maps
 inoremap <cr> <cr><space><esc>"_s
 nnoremap o o<space><esc>"_s
@@ -1550,7 +1467,30 @@ EOF
 "  	integrations = {
 "  		vim_gitgutter = false,
 "  		galaxyline = false,
-"  		tmux = false,
+"  		"Neovim mappings
+" :tnoremap <S-h> <C-\><C-n><C-w>h
+" :tnoremap <S-j> <C-\><C-n><C-w>j
+" :tnoremap <S-k> <C-\><C-n><C-w>k
+" :tnoremap <S-l> <C-\><C-n><C-w>l
+"" nnoremap H :LinesWithPreview<CR>
+" command! -bang -nargs=* BLinesB
+"     \ call fzf#vim#grep(
+"     \   'rg --with-filename --column --line-number --no-heading --smart-case . '.fnameescape(expand('%:p')), 1,
+"     \   fzf#vim#with_preview({'options': '--keep-right --delimiter : --nth 4.. --preview "bat -p --color always {}"'}, 'right:50%' ))
+
+" command! -bang -nargs=* BLinesB
+"      \ call fzf#vim#grep(
+"      \   'rg --with-filename --column --line-number --no-heading --smart-case . '.fnameescape(expand('%:p')),,
+" "     \   fzf#vim#with_preview({'options': '--layout reverse --query '.shellescape(<q-args>).' --with-nth=4.. --delimiter=":"'}, 'right:0%'))
+    " \   fzf#vim#with_preview({'options': '--layout reverse  --with-nth=-1.. --delimiter="/"'}, 'right:50%')) tnoremap <Left> :tbnext<CR>
+" tnoremap <Right> :tbprevious<CR>
+" tnoremap <Leader>e <C-\><C-n> 
+" imap <Backspace> \
+" map t <Plug>Lightspeed_s
+" map <C-t> <cmd>HopChar1
+" map T <Plug>Lightspeed_S
+" map <S-m-Space> <cmd>HopWord<cr>
+" map t <ESC>:syntax off <CR>t: syntax on<CR>tmux = false,
 "  		gitsigns = false,
 "  		nvim_bufferline = false,
 "  		limelight = false,
