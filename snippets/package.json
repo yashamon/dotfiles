@@ -348,7 +348,7 @@
           "vim",
           "vim"
         ],
-        "path": "./latex/vim.json"
+        "path": "./vim.json"
       },
       {
         "language": [
