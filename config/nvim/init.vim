@@ -806,24 +806,6 @@ set completeopt=menuone,noinsert,noselect
 
 " Avoid showing message extra message when using completion
 set shortmess+=c
-let g:vsnip_snippet_dir = '~/dotfiles/snippets'  
-
-" imap <expr> <m-space>   vsnip#expandable()  ? '<Plug>(vsnip-expand)'         : '<C-j>'
-" smap <expr> <m-space>   vsnip#expandable()  ? '<Plug>(vsnip-expand)'         : '<C-j>'
-" 
-" " Expand or jump
-" imap <expr> <m-space>   vsnip#available(1)  ? '<Plug>(vsnip-expand-or-jump)' : '<C-l>'
-" smap <expr> <m-space>   vsnip#available(1)  ? '<Plug>(vsnip-expand-or-jump)' : '<C-l>'
-
-" Jump forward or backward
-" imap <expr> <M-j>   vsnip#jumpable(1)   ? '<Plug>(vsnip-jump-next)'      : '<C-l>'
-"   smap <expr> <M-j>   vsnip#jumpable(1)   ? '<Plug>(vsnip-jump-next)'      : '<C-l>'
-" imap <expr> <M-k> vsnip#jumpable(-1)  ? '<Plug>(vsnip-jump-prev)'      : '<S-Tab>'
-" smap <expr> <M-k> vsnip#jumpable(-1)  ? '<Plug>(vsnip-jump-prev)'      : '<S-Tab>'
-
-"
-" set foldexpr=nvim_treesitter#foldexpr()
-"
 
 lua << EOF
 local nvim_lsp = require('lspconfig')
@@ -1220,6 +1202,20 @@ lua << EOF
     -- refer to the configuration section below
   }
 EOF
+lua <<EOF
+require('snippets') 
+EOF
+imap <silent><expr> <Tab> luasnip#expand_or_jumpable() ? '<Plug>luasnip-expand-or-jump' : '<Tab>' 
+" -1 for jumping backwards.
+inoremap <silent> <S-Tab> <cmd>lua require'luasnip'.jump(-1)<Cr>
+inoremap <silent> <m-j> <cmd>lua require('luasnip').jump(1)<Cr>
+inoremap <silent> <m-k> <cmd>lua require('luasnip').jump(-1)<Cr>
+
+" For changing choices in choiceNodes (not strictly necessary for a basic setup).
+imap <silent><expr> <C-E> luasnip#choice_active() ? '<Plug>luasnip-next-choice' : '<C-E>'
+smap <silent><expr> <C-E> luasnip#choice_active() ? '<Plug>luasnip-next-choice' : '<C-E>'
+
+
 
 
 "lua <<EOF
@@ -1482,7 +1478,24 @@ EOF
 " EOF
 "
 
+" let g:vsnip_snippet_dir = '~/dotfiles/snippets'  
 
+" imap <expr> <m-space>   vsnip#expandable()  ? '<Plug>(vsnip-expand)'         : '<C-j>'
+" smap <expr> <m-space>   vsnip#expandable()  ? '<Plug>(vsnip-expand)'         : '<C-j>'
+" 
+" " Expand or jump
+" imap <expr> <m-space>   vsnip#available(1)  ? '<Plug>(vsnip-expand-or-jump)' : '<C-l>'
+" smap <expr> <m-space>   vsnip#available(1)  ? '<Plug>(vsnip-expand-or-jump)' : '<C-l>'
+
+" Jump forward or backward
+" imap <expr> <M-j>   vsnip#jumpable(1)   ? '<Plug>(vsnip-jump-next)'      : '<C-l>'
+"   smap <expr> <M-j>   vsnip#jumpable(1)   ? '<Plug>(vsnip-jump-next)'      : '<C-l>'
+" imap <expr> <M-k> vsnip#jumpable(-1)  ? '<Plug>(vsnip-jump-prev)'      : '<S-Tab>'
+" smap <expr> <M-k> vsnip#jumpable(-1)  ? '<Plug>(vsnip-jump-prev)'      : '<S-Tab>'
+
+"
+" set foldexpr=nvim_treesitter#foldexpr()
+"
 " local true_zen = require("true-zen")
 " true_zen.setup({
 "  	ui = {
@@ -1549,25 +1562,12 @@ EOF
 "  	misc = {
 "  		on_off_commands = true,
 "  		ui_elements_commands = false,
-"  		cursor_by_mode = false,
+"-- load snippets from path/of/your/nvim/config/my-cool-snippets
+" --vim.o.runtimepath = vim.o.runtimepath .. 'C:/Users/yasha/.config/nvim/lua/snippets,'
+" -- require("luasnip/loaders/from_vscode").lazy_load() -- load snippets of friendly/snippets
+" -- require("luasnip/loaders/from_vscode").load({ paths = "C:/Users/yasha/dotfiles/snippets"}) -- load your own snippets  		cursor_by_mode = false,
 "  	}
 "  })
 " press <Tab> to expand or jump in a snippet. These can also be mapped separately
 " via <Plug>luasnip-expand-snippet and <Plug>luasnip-jump-next.
-lua <<EOF
-require('snippets') 
--- load snippets from path/of/your/nvim/config/my-cool-snippets
---vim.o.runtimepath = vim.o.runtimepath .. 'C:/Users/yasha/.config/nvim/lua/snippets,'
--- require("luasnip/loaders/from_vscode").lazy_load() -- load snippets of friendly/snippets
--- require("luasnip/loaders/from_vscode").load({ paths = "C:/Users/yasha/dotfiles/snippets"}) -- load your own snippets
-EOF
-imap <silent><expr> <Tab> luasnip#expand_or_jumpable() ? '<Plug>luasnip-expand-or-jump' : '<Tab>' 
-" -1 for jumping backwards.
-inoremap <silent> <S-Tab> <cmd>lua require'luasnip'.jump(-1)<Cr>
-inoremap <silent> <m-j> <cmd>lua require('luasnip').jump(1)<Cr>
-inoremap <silent> <m-k> <cmd>lua require('luasnip').jump(-1)<Cr>
-
-" For changing choices in choiceNodes (not strictly necessary for a basic setup).
-imap <silent><expr> <C-E> luasnip#choice_active() ? '<Plug>luasnip-next-choice' : '<C-E>'
-smap <silent><expr> <C-E> luasnip#choice_active() ? '<Plug>luasnip-next-choice' : '<C-E>'
 
