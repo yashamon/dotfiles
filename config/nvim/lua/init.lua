@@ -1,24 +1,8 @@
 
 
-
-
-
 -- Keymaps
 vim.keymap.set('t', '<C-r>+', [[getreg('+')]], {expr = true})
 -- LSP
-require("nvim-lsp-installer").setup {}
-    local lspconfig = require("lspconfig")
-
-    local function on_attach(client, bufnr)
-        -- set up buffer keymaps, etc.
-    end
-
-    lspconfig.sumneko_lua.setup { on_attach = on_attach }
-    lspconfig.tsserver.setup { on_attach = on_attach }
-    lspconfig.vimls.setup { on_attach = on_attach }
-    lspconfig.ltex.setup { on_attach = on_attach }
-    lspconfig.texlab.setup { on_attach = on_attach }
-
 local custom_attach = function(client)
 	print("LSP started.");
 	require'completion'.on_attach(client)
@@ -40,8 +24,71 @@ local custom_attach = function(client)
 	map('n','<leader>=', '<cmd>lua vim.lsp.buf.formatting()<CR>')
 	map('n','<leader>ai','<cmd>lua vim.lsp.buf.incoming_calls()<CR>')
 	map('n','<leader>ao','<cmd>lua vim.lsp.buf.outgoing_calls()<CR>')
- buf_set_option('omnifunc', 'v:lua.vim.lsp.omnifunc')       
-  
+end
+lspconfig.vimls.setup { on_attach = on_attach }
+lspconfig.ltex.setup { on_attach = on_attach }
+lspconfig.texlab.setup { on_attach = on_attach }
+lsp.tsserver.setup{on_attach=custom_attach}
+lsp.clangd.setup{on_attach=custom_attach}
+lsp.sumneko_lua.setup{
+	on_attach=custom_attach,
+	settings = {
+		Lua = {
+			runtime = { version = "LuaJIT", path = vim.split(package.path, ';'), },
+			completion = { keywordSnippet = "Disable", },
+			diagnostics = { enable = true, globals = {
+				"vim", "describe", "it", "before_each", "after_each" },
+			},
+			workspace = {
+				library = {
+					[vim.fn.expand("$VIMRUNTIME/lua")] = true,
+					[vim.fn.expand("$VIMRUNTIME/lua/vim/lsp")] = true,
+				}
+			}
+		}
+	}
+}
+
+lua <<EOF
+require("nvim-lsp-installer").setup {}
+    local lspconfig = require("lspconfig")
+
+    local function on_attach(client, bufnr)
+        -- set up buffer keymaps, etc.
+    end
+
+   lsp.sumneko_lua.setup{
+	on_attach=custom_attach,
+	settings = {
+		Lua = {
+			runtime = { version = "LuaJIT", path = vim.split(package.path, ';'), },
+			completion = { keywordSnippet = "Disable", },
+			diagnostics = { enable = true, globals = {
+				"vim", "describe", "it", "before_each", "after_each" },
+			},
+			workspace = {
+				library = {
+					[vim.fn.expand("$VIMRUNTIME/lua")] = true,
+					[vim.fn.expand("$VIMRUNTIME/lua/vim/lsp")] = true,
+				}
+			}
+		}
+	}
+} 
+    lspconfig.tsserver.setup { on_attach = on_attach }
+    lspconfig.vimls.setup { on_attach = on_attach }
+    lspconfig.ltex.setup { on_attach = on_attach }
+    lspconfig.texlab.setup { on_attach = on_attach }
+EOF
+lua << EOF
+local nvim_lsp = require('lspconfig')
+-- Use an on_attach function to only map the following keys
+-- after the language server attaches to the current buffer
+local on_attach = function(client, bufnr)
+local function buf_set_keymap(...) vim.api.nvim_buf_set_keymap(bufnr, ...) end
+ local function buf_set_option(...) vim.api.nvim_buf_set_option(bufnr, ...) end
+-- Enable completion triggered by <c-x><c-o>
+  buf_set_option('omnifunc', 'v:lua.vim.lsp.omnifunc')
 
   -- Mappings.
   local opts = { noremap=true, silent=true }
@@ -66,27 +113,9 @@ local custom_attach = function(client)
   buf_set_keymap('n', '<space>f', '<cmd>lua vim.lsp.buf.formatting()<CR>', opts)
 
 end
+EOF
 
-lsp.tsserver.setup{on_attach=custom_attach}
-lsp.clangd.setup{on_attach=custom_attach}
-lsp.sumneko_lua.setup{
-	on_attach=custom_attach,
-	settings = {
-		Lua = {
-			runtime = { version = "LuaJIT", path = vim.split(package.path, ';'), },
-			completion = { keywordSnippet = "Disable", },
-			diagnostics = { enable = true, globals = {
-				"vim", "describe", "it", "before_each", "after_each" },
-			},
-			workspace = {
-				library = {
-					[vim.fn.expand("$VIMRUNTIME/lua")] = true,
-					[vim.fn.expand("$VIMRUNTIME/lua/vim/lsp")] = true,
-				}
-			}
-		}
-	}
-}
+
 
 -- Uncomment to execute the extension test mentioned above.
 -- local function custom_codeAction_callback(_, _, action)
