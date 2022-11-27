@@ -14,16 +14,12 @@ Plug 'neovim/nvim-lspconfig'
 Plug 'williamboman/nvim-lsp-installer', { 'branch': 'main' }
 Plug 'hrsh7th/nvim-cmp', { 'branch': 'main' }
 Plug 'hrsh7th/cmp-buffer', { 'branch': 'main' }
-" Plug 'hrsh7th/cmp-vsnip', { 'branch': 'main' } 
-" Plug 'hrsh7th/vim-vsnip'
-" Plug 'hrsh7th/vim-vsnip-integ'
 Plug 'hrsh7th/cmp-nvim-lsp', { 'branch': 'main' } 
 Plug 'ray-x/cmp-treesitter'
 Plug 'quangnguyen30192/cmp-nvim-tags',  { 'branch': 'main' }  
 Plug 'terrortylor/nvim-comment', { 'branch': 'main' }
 Plug 'nvim-lualine/lualine.nvim'
 Plug 'justinhoward/fzf-neoyank'
-" Plug 'shaunsingh/nord.nvim'
 Plug 'folke/tokyonight.nvim', { 'branch': 'main' }
 Plug 'ellisonleao/gruvbox.nvim', { 'branch': 'main' }
 Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}  
@@ -41,10 +37,13 @@ Plug 'nvim-telescope/telescope.nvim'
 Plug 'simnalamburt/vim-mundo'
 Plug 'rlane/pounce.nvim'
 
-
+" Plug 'hrsh7th/cmp-vsnip', { 'branch': 'main' } 
+" Plug 'hrsh7th/vim-vsnip'
+" Plug 'hrsh7th/vim-vsnip-integ'
 " Plug 'rakr/vim-one'
 " Plug 'kyazdani42/blue-moon'
 " Plug 'monsonjeremy/onedark.nvim'
+"" Plug 'shaunsingh/nord.nvim' 
 " Plug 'navarasu/onedark.nvim'
 " Plug 'yegappan/mru'
 " Plug 'folke/zen-mode.nvim', { 'branch': 'main' } 
