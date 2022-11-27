@@ -51,8 +51,7 @@ lsp.sumneko_lua.setup{
 
 require("nvim-lsp-installer").setup {}
     local lspconfig = require("lspconfig")
-
-    local function on_attach(client, bufnr)
+   local function on_attach(client, bufnr)
         -- set up buffer keymaps, etc.
     end
 
@@ -78,6 +77,7 @@ lspconfig.tsserver.setup { on_attach = on_attach }
 lspconfig.vimls.setup { on_attach = on_attach }
 lspconfig.ltex.setup { on_attach = on_attach }
 lspconfig.texlab.setup { on_attach = on_attach }
+
 local nvim_lsp = require('lspconfig')
 -- Use an on_attach function to only map the following keys
 -- after the language server attaches to the current buffer
