@@ -154,9 +154,9 @@ map O $mimeopen --ask $Env:f
 #         *) for f in $fx; do setsid $OPENER $f > /dev/null 2> /dev/null & done;;
 #     esac
 # }}
-map e %remotelf.ps1 $Env:f
+map e %remotelf.ps1 $Env:f.Trim('"') 
 map n %neovide $Env:f.Trim('"') 
-map gn %neovide $Env:f 
+map gn %neovide $Env:f.Trim('"') 
 # define a custom 'rename' command without prompt for overwrite 
 cmd spastename &{{
 set -- $(cat ~/.local/share/lf/files)
