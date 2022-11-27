@@ -158,8 +158,8 @@ set autoindent
 set indentexpr=
 set noshowmatch
 set wrap
-" set pb=10
-" set winbl=10
+set pb=10
+set winbl=10
 set switchbuf=newtab
 " let g:python3_host_prog='/usr/bin/python3.9'
 " let g:python3_host_prog='/usr/bin/python3.9'
@@ -205,7 +205,7 @@ let g:tex_isk = '@,48-57,58,_,192-255,:'
 au FileType tex setlocal iskeyword+=:
 au Filetype tex,text,md set tw=50
 au FileType tex setlocal indentexpr=
-au FileType tex setlocal foldmethod=expr foldexpr=getline(v:lnum)=~'^\s*'.&commentstring[0]
+au FileType tex, text, md, lua setlocal foldmethod=expr foldexpr=getline(v:lnum)=~'^\s*'.&commentstring[0]
 
 
 let g:tex_conceal = ""
