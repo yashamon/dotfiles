@@ -155,7 +155,7 @@ map O $mimeopen --ask $Env:f
 #     esac
 # }}
 map e %remotelf.ps1 $Env:f
-map n %neovide $Env:f
+map n %neovide $Env:f.Trim('"') 
 map gn %neovide $Env:f 
 # define a custom 'rename' command without prompt for overwrite 
 cmd spastename &{{
