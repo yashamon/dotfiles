@@ -205,7 +205,7 @@ au FileType tex setlocal iskeyword+=:
 au Filetype tex,text,md set tw=50
 au FileType tex setlocal indentexpr=
 au FileType tex, text, md setlocal foldmethod=expr foldexpr=getline(v:lnum)=~'^\s*'.&commentstring[0]
-au FileType tex, text, md set foldexpr=nvim_treesitter#foldexpr() 
+au FileType lua, vim, c, haskell  set foldexpr=nvim_treesitter#foldexpr() 
 let g:tex_conceal = ""
 set tags+=~/workspacemodules/tags
 set tags+=~\workspacemodules\tags
