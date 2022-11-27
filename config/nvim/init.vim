@@ -620,15 +620,13 @@ function Palenight()
    let g:material_style = 'palenight'  
 endfunction
 function Lighter()
-   set background=light
    " colorscheme blue-moon
-   colorscheme material
-   let g:material_style = 'lighter'
+   colorscheme tokyonight-night-day
 endfunction
 
 function Dark()
    set background=dark
-   colorscheme one
+   colorscheme tokyonight-night-moon
 endfunction
 
 function! Profile()
