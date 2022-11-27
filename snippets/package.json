@@ -144,7 +144,7 @@
       },
       {
         "language": [
-          "plaintex",
+          "tex",
           "tex"
         ],
         "path": "./tex.json"
