@@ -14,12 +14,16 @@ Plug 'neovim/nvim-lspconfig'
 Plug 'williamboman/nvim-lsp-installer', { 'branch': 'main' }
 Plug 'hrsh7th/nvim-cmp', { 'branch': 'main' }
 Plug 'hrsh7th/cmp-buffer', { 'branch': 'main' }
+" Plug 'hrsh7th/cmp-vsnip', { 'branch': 'main' } 
+" Plug 'hrsh7th/vim-vsnip'
+" Plug 'hrsh7th/vim-vsnip-integ'
 Plug 'hrsh7th/cmp-nvim-lsp', { 'branch': 'main' } 
 Plug 'ray-x/cmp-treesitter'
 Plug 'quangnguyen30192/cmp-nvim-tags',  { 'branch': 'main' }  
 Plug 'terrortylor/nvim-comment', { 'branch': 'main' }
 Plug 'nvim-lualine/lualine.nvim'
 Plug 'justinhoward/fzf-neoyank'
+" Plug 'shaunsingh/nord.nvim'
 Plug 'folke/tokyonight.nvim', { 'branch': 'main' }
 Plug 'ellisonleao/gruvbox.nvim', { 'branch': 'main' }
 Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}  
@@ -37,13 +41,10 @@ Plug 'nvim-telescope/telescope.nvim'
 Plug 'simnalamburt/vim-mundo'
 Plug 'rlane/pounce.nvim'
 
-" Plug 'hrsh7th/cmp-vsnip', { 'branch': 'main' } 
-" Plug 'hrsh7th/vim-vsnip'
-" Plug 'hrsh7th/vim-vsnip-integ'
+
 " Plug 'rakr/vim-one'
 " Plug 'kyazdani42/blue-moon'
 " Plug 'monsonjeremy/onedark.nvim'
-"" Plug 'shaunsingh/nord.nvim' 
 " Plug 'navarasu/onedark.nvim'
 " Plug 'yegappan/mru'
 " Plug 'folke/zen-mode.nvim', { 'branch': 'main' } 
@@ -343,7 +344,9 @@ set fileencoding=utf-8
 "maps remaps mappings  
 "
 " terminal stuff 
-
+lua <<EOF
+vim.keymap.set('t', '<C-r>+', [[getreg('+')]], {expr = true})
+EOF
 autocmd TermClose * if v:event.status ==1 || v:event.status ==0  | exe 'bdelete! '..expand('<abuf>') | endif
 tnoremap <m-d> <C-\><C-n>:bdelete!<cr>
 tnoremap <A-`> <C-\><C-n>
@@ -816,14 +819,29 @@ let g:vsnip_snippet_dir = '~/dotfiles/snippets'
 " smap <expr> <m-space>   vsnip#available(1)  ? '<Plug>(vsnip-expand-or-jump)' : '<C-l>'
 
 " Jump forward or backward
-" imap <expr> <M-j>   vsnip#jumpable(1)   ? '<Plug>(vsnip-jump-next)'      : '<C-l>'
-"   smap <expr> <M-j>   vsnip#jumpable(1)   ? '<Plug>(vsnip-jump-next)'      : '<C-l>'
-" imap <expr> <M-k> vsnip#jumpable(-1)  ? '<Plug>(vsnip-jump-prev)'      : '<S-Tab>'
-" smap <expr> <M-k> vsnip#jumpable(-1)  ? '<Plug>(vsnip-jump-prev)'      : '<S-Tab>'
+imap <expr> <M-j>   vsnip#jumpable(1)   ? '<Plug>(vsnip-jump-next)'      : '<C-l>'
+  smap <expr> <M-j>   vsnip#jumpable(1)   ? '<Plug>(vsnip-jump-next)'      : '<C-l>'
+imap <expr> <M-k> vsnip#jumpable(-1)  ? '<Plug>(vsnip-jump-prev)'      : '<S-Tab>'
+smap <expr> <M-k> vsnip#jumpable(-1)  ? '<Plug>(vsnip-jump-prev)'      : '<S-Tab>'
+
 "
 " set foldexpr=nvim_treesitter#foldexpr()
 "
 
+lua <<EOF
+require("nvim-lsp-installer").setup {}
+    local lspconfig = require("lspconfig")
+
+    local function on_attach(client, bufnr)
+        -- set up buffer keymaps, etc.
+    end
+
+    lspconfig.sumneko_lua.setup { on_attach = on_attach }
+    lspconfig.tsserver.setup { on_attach = on_attach }
+    lspconfig.vimls.setup { on_attach = on_attach }
+    lspconfig.ltex.setup { on_attach = on_attach }
+    lspconfig.texlab.setup { on_attach = on_attach }
+EOF
 lua << EOF
 local nvim_lsp = require('lspconfig')
 -- Use an on_attach function to only map the following keys
@@ -1558,13 +1576,14 @@ require('snippets')
 -- load snippets from path/of/your/nvim/config/my-cool-snippets
 --vim.o.runtimepath = vim.o.runtimepath .. 'C:/Users/yasha/.config/nvim/lua/snippets,'
 -- require("luasnip/loaders/from_vscode").lazy_load() -- load snippets of friendly/snippets
--- require("luasnip/loaders/from_vscode").load({ paths = "C:/Users/yasha/dotfiles/snippets"}) -- load your own snippets
+require("luasnip/loaders/from_vscode").load({ paths = "C:/Users/yasha/dotfiles/snippets"} ) -- load your own snippets
+require()
 EOF
 imap <silent><expr> <Tab> luasnip#expand_or_jumpable() ? '<Plug>luasnip-expand-or-jump' : '<Tab>' 
 " -1 for jumping backwards.
 inoremap <silent> <S-Tab> <cmd>lua require'luasnip'.jump(-1)<Cr>
 inoremap <silent> <m-j> <cmd>lua require('luasnip').jump(1)<Cr>
-inoremap <silent> <m-k> <cmd>lua require('luasnip').jump(-1)<Cr>
+inoremap <silent> <m-J> <cmd>lua require('luasnip').jump(-1)<Cr>
 
 " For changing choices in choiceNodes (not strictly necessary for a basic setup).
 imap <silent><expr> <C-E> luasnip#choice_active() ? '<Plug>luasnip-next-choice' : '<C-E>'
