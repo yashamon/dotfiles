@@ -130,6 +130,7 @@ Plug 'rlane/pounce.nvim'
 " Unmanaged plugin (manually installed and updated)
 " Plug '~/my-prototype-plugin'
 " Add plugins to &runtimepath 
+
 call plug#end()
 
 "Neovide 
@@ -204,7 +205,7 @@ let g:tex_isk = '@,48-57,58,_,192-255,:'
 au FileType tex setlocal iskeyword+=:
 au Filetype tex,text,md set tw=50
 au FileType tex setlocal indentexpr=
-au FileType tex setlocal foldmethod=expr foldexpr=getline(v:lnum)=~'^\s*'.&commentstring[0]
+au FileType tex,vim,md setlocal foldmethod=expr foldexpr=getline(v:lnum)=~'^\s*'.&commentstring[0]
 
 
 let g:tex_conceal = ""
