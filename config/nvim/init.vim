@@ -482,6 +482,7 @@ noremap <D-u> <C-u>
 noremap <A-u> <C-u>
 " windows stuff, comment out on windows
 " nnoremap ;ww :%s///gc
+
 " this mapping Enter key to <C-y> to chose the current highlight item 
 " and close he selection list, same as other IDEs.
 inoremap <expr> <CR> pumvisible() ? "\<C-y>" : "\<C-g>u\<CR>"
@@ -493,21 +494,6 @@ inoremap <C-]> <C-x><C-]>
 au FileType tex,text,md nmap 0 g^
 au FileType tex,text,md noremap 9 g$
 " au FileType tex,text,md nnoremap dd "_g^dg$g^
-
-"Neovim mappings
-" :tnoremap <S-h> <C-\><C-n><C-w>h
-" :tnoremap <S-j> <C-\><C-n><C-w>j
-" :tnoremap <S-k> <C-\><C-n><C-w>k
-" :tnoremap <S-l> <C-\><C-n><C-w>l
-" tnoremap <Left> :tbnext<CR>
-" tnoremap <Right> :tbprevious<CR>
-" tnoremap <Leader>e <C-\><C-n> 
-" imap <Backspace> \
-" map t <Plug>Lightspeed_s
-" map <C-t> <cmd>HopChar1
-" map T <Plug>Lightspeed_S
-" map <S-m-Space> <cmd>HopWord<cr>
-" map t <ESC>:syntax off <CR>t: syntax on<CR>
 
 " FZF 
 let g:fzf_layout = { 'window': { 'width': 1, 'height': 1 } }
@@ -1560,4 +1546,18 @@ smap <silent><expr> <C-E> luasnip#choice_active() ? '<Plug>luasnip-next-choice' 
 "  })
 " press <Tab> to expand or jump in a snippet. These can also be mapped separately
 " via <Plug>luasnip-expand-snippet and <Plug>luasnip-jump-next.
+" "Neovim mappings
+" :tnoremap <S-h> <C-\><C-n><C-w>h
+" :tnoremap <S-j> <C-\><C-n><C-w>j
+" :tnoremap <S-k> <C-\><C-n><C-w>k
+" :tnoremap <S-l> <C-\><C-n><C-w>l
+" tnoremap <Left> :tbnext<CR>
+" tnoremap <Right> :tbprevious<CR>
+" tnoremap <Leader>e <C-\><C-n> 
+" imap <Backspace> \
+" map t <Plug>Lightspeed_s
+" map <C-t> <cmd>HopChar1
+" map T <Plug>Lightspeed_S
+" map <S-m-Space> <cmd>HopWord<cr>
+" map t <ESC>:syntax off <CR>t: syntax on<CR>
 
