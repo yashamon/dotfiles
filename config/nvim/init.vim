@@ -130,7 +130,6 @@ Plug 'rlane/pounce.nvim'
 " Unmanaged plugin (manually installed and updated)
 " Plug '~/my-prototype-plugin'
 " Add plugins to &runtimepath 
-
 call plug#end()
 
 "Neovide 
@@ -144,11 +143,11 @@ set scrolloff=10
 set title
 set cmdheight=0
 set signcolumn=yes
-set noshowcmd    
 " set titlestring
 " set noshowmode
 " set noruler       
 " set laststatus=1 
+set noshowcmd    
 " set shell=nu
 " let &shell = 'nu'
 " let &shellcmdflag = '-c'
@@ -158,8 +157,8 @@ set autoindent
 set indentexpr=
 set noshowmatch
 set wrap
-set pb=10
-set winbl=10
+" set pb=10
+" set winbl=10
 set switchbuf=newtab
 " let g:python3_host_prog='/usr/bin/python3.9'
 " let g:python3_host_prog='/usr/bin/python3.9'
@@ -171,6 +170,7 @@ set softtabstop=3
 set shiftwidth=3
 " set shell="C:\Program Files\PowerShell\7\pwsh.EXE"
 set termguicolors
+
 set guicursor=n-v-c:block,i-ci-ve:ver25,r-cr:hor20,o:hor50
  		  \,a:blinkwait700-blinkoff400-blinkon250-Cursor/lCursor
  		  \,sm:block-blinkwait175-blinkoff150-blinkon175
@@ -180,7 +180,7 @@ function! OnUIEnter(event)
 	let l:ui = nvim_get_chan_info(a:event.chan)
 	if has_key(l:ui, 'client') && has_key(l:ui.client, 'name')
 		if l:ui.client.name ==# 'Firenvim'
-			set guifont=JetBrains\ Mono:h18
+			set guifont=Fira\ Code:h20
                         set lines=100
                         set columns=100
                         noremap q <esc>:wq<cr>
@@ -188,6 +188,8 @@ function! OnUIEnter(event)
 	endif
 endfunction
 autocmd UIEnter * call OnUIEnter(deepcopy(v:event))
+
+
 
 "remember cursor location
 autocmd BufReadPost * if @% !~# '\.git[\/\\]COMMIT_EDITMSG$' && line("'\"") > 1 && line("'\"") <= line("$") | exe "normal! g`\"" | endif
@@ -202,7 +204,7 @@ let g:tex_isk = '@,48-57,58,_,192-255,:'
 au FileType tex setlocal iskeyword+=:
 au Filetype tex,text,md set tw=50
 au FileType tex setlocal indentexpr=
-au FileType tex,vim,md setlocal foldmethod=expr foldexpr=getline(v:lnum)=~'^\s*'.&commentstring[0]
+au FileType tex setlocal foldmethod=expr foldexpr=getline(v:lnum)=~'^\s*'.&commentstring[0]
 
 
 let g:tex_conceal = ""
@@ -299,10 +301,16 @@ set shiftwidth=3
 let mapleader=';'
 let g:mapleader=';'
 
+" open the error console
+" move to next error
+
 " Bash like keys for the command line
 cnoremap <C-A>      <Home>
 cnoremap <C-E>      <End>
 cnoremap <C-K>      <C-U>
+
+" ,p toggles paste mode
+" nmap <leader>p :set paste!<BAR>set paste?<CR>
 
 " allow multiple indentation/deindentation in visual mode
 vnoremap < <gv
@@ -319,10 +327,12 @@ if has("autocmd") && exists("+omnifunc")
               \	endif
 endif
 
-" set cot-=preview "disable doc preview in omnicomplete
+set cot-=preview "disable doc preview in omnicomplete
+
 " make CSS omnicompletion work for SASS and SCSS
 " autocmd BufNewFile,BufRead *.scss             set ft=scss.css
 " autocmd BufNewFile,BufRead *.sass             set ft=sass.css
+
 "--------------------------------------------------------------------------- 
 " ENCODING SETTINGS
 "--------------------------------------------------------------------------- 
@@ -335,9 +345,6 @@ set fileencoding=utf-8
 " terminal stuff 
 
 autocmd TermClose * if v:event.status ==1 || v:event.status ==0  | exe 'bdelete! '..expand('<abuf>') | endif
-lua <<EOF
-vim.keymap.set('t', '<C-r>+', [[getreg('+')]], {expr = true})
-EOF
 tnoremap <m-d> <C-\><C-n>:bdelete!<cr>
 tnoremap <A-`> <C-\><C-n>
 tnoremap <A-Esc> <C-\><C-n>
@@ -485,7 +492,6 @@ noremap <D-u> <C-u>
 noremap <A-u> <C-u>
 " windows stuff, comment out on windows
 " nnoremap ;ww :%s///gc
-
 " this mapping Enter key to <C-y> to chose the current highlight item 
 " and close he selection list, same as other IDEs.
 inoremap <expr> <CR> pumvisible() ? "\<C-y>" : "\<C-g>u\<CR>"
@@ -497,6 +503,21 @@ inoremap <C-]> <C-x><C-]>
 au FileType tex,text,md nmap 0 g^
 au FileType tex,text,md noremap 9 g$
 " au FileType tex,text,md nnoremap dd "_g^dg$g^
+
+"Neovim mappings
+" :tnoremap <S-h> <C-\><C-n><C-w>h
+" :tnoremap <S-j> <C-\><C-n><C-w>j
+" :tnoremap <S-k> <C-\><C-n><C-w>k
+" :tnoremap <S-l> <C-\><C-n><C-w>l
+" tnoremap <Left> :tbnext<CR>
+" tnoremap <Right> :tbprevious<CR>
+" tnoremap <Leader>e <C-\><C-n> 
+" imap <Backspace> \
+" map t <Plug>Lightspeed_s
+" map <C-t> <cmd>HopChar1
+" map T <Plug>Lightspeed_S
+" map <S-m-Space> <cmd>HopWord<cr>
+" map t <ESC>:syntax off <CR>t: syntax on<CR>
 
 " FZF 
 let g:fzf_layout = { 'window': { 'width': 1, 'height': 1 } }
@@ -785,6 +806,23 @@ set completeopt=menuone,noinsert,noselect
 
 " Avoid showing message extra message when using completion
 set shortmess+=c
+let g:vsnip_snippet_dir = '~/dotfiles/snippets'  
+
+" imap <expr> <m-space>   vsnip#expandable()  ? '<Plug>(vsnip-expand)'         : '<C-j>'
+" smap <expr> <m-space>   vsnip#expandable()  ? '<Plug>(vsnip-expand)'         : '<C-j>'
+" 
+" " Expand or jump
+" imap <expr> <m-space>   vsnip#available(1)  ? '<Plug>(vsnip-expand-or-jump)' : '<C-l>'
+" smap <expr> <m-space>   vsnip#available(1)  ? '<Plug>(vsnip-expand-or-jump)' : '<C-l>'
+
+" Jump forward or backward
+" imap <expr> <M-j>   vsnip#jumpable(1)   ? '<Plug>(vsnip-jump-next)'      : '<C-l>'
+"   smap <expr> <M-j>   vsnip#jumpable(1)   ? '<Plug>(vsnip-jump-next)'      : '<C-l>'
+" imap <expr> <M-k> vsnip#jumpable(-1)  ? '<Plug>(vsnip-jump-prev)'      : '<S-Tab>'
+" smap <expr> <M-k> vsnip#jumpable(-1)  ? '<Plug>(vsnip-jump-prev)'      : '<S-Tab>'
+"
+" set foldexpr=nvim_treesitter#foldexpr()
+"
 
 lua << EOF
 local nvim_lsp = require('lspconfig')
@@ -819,63 +857,6 @@ local function buf_set_keymap(...) vim.api.nvim_buf_set_keymap(bufnr, ...) end
   buf_set_keymap('n', '<space>f', '<cmd>lua vim.lsp.buf.formatting()<CR>', opts)
 
 end
-EOF
-lua <<EOF
-require("nvim-lsp-installer").setup {}
-    local lspconfig = require("lspconfig")
-
-    local function on_attach(client, bufnr)
-        -- set up buffer keymaps, etc.
-    end
-
-    lspconfig.tsserver.setup { on_attach = on_attach }
-    lspconfig.vimls.setup { on_attach = on_attach }
-    lspconfig.ltex.setup { on_attach = on_attach }
-    lspconfig.texlab.setup { on_attach = on_attach }
-
-local custom_attach = function(client)
-	print("LSP started.");
-	require'completion'.on_attach(client)
-	require'diagnostic'.on_attach(client)
-
-	map('n','gD','<cmd>lua vim.lsp.buf.declaration()<CR>')
-	map('n','gd','<cmd>lua vim.lsp.buf.definition()<CR>')
-	map('n','K','<cmd>lua vim.lsp.buf.hover()<CR>')
-	map('n','gr','<cmd>lua vim.lsp.buf.references()<CR>')
-	map('n','gs','<cmd>lua vim.lsp.buf.signature_help()<CR>')
-	map('n','gi','<cmd>lua vim.lsp.buf.implementation()<CR>')
-	map('n','gt','<cmd>lua vim.lsp.buf.type_definition()<CR>')
-	map('n','<leader>gw','<cmd>lua vim.lsp.buf.document_symbol()<CR>')
-	map('n','<leader>gW','<cmd>lua vim.lsp.buf.workspace_symbol()<CR>')
-	map('n','<leader>ah','<cmd>lua vim.lsp.buf.hover()<CR>')
-	map('n','<leader>af','<cmd>lua vim.lsp.buf.code_action()<CR>')
-	map('n','<leader>ee','<cmd>lua vim.lsp.util.show_line_diagnostics()<CR>')
-	map('n','<leader>ar','<cmd>lua vim.lsp.buf.rename()<CR>')
-	map('n','<leader>=', '<cmd>lua vim.lsp.buf.formatting()<CR>')
-	map('n','<leader>ai','<cmd>lua vim.lsp.buf.incoming_calls()<CR>')
-	map('n','<leader>ao','<cmd>lua vim.lsp.buf.outgoing_calls()<CR>')
-end
-
-lsp.tsserver.setup{on_attach=custom_attach}
-lsp.clangd.setup{on_attach=custom_attach}
-lsp.sumneko_lua.setup{
-	on_attach=custom_attach,
-	settings = {
-		Lua = {
-			runtime = { version = "LuaJIT", path = vim.split(package.path, ';'), },
-			completion = { keywordSnippet = "Disable", },
-			diagnostics = { enable = true, globals = {
-				"vim", "describe", "it", "before_each", "after_each" },
-			},
-			workspace = {
-				library = {
-					[vim.fn.expand("$VIMRUNTIME/lua")] = true,
-					[vim.fn.expand("$VIMRUNTIME/lua/vim/lsp")] = true,
-				}
-			}
-		}
-	}
-}
 EOF
 nnoremap <silent> g? <cmd>lua vim.diagnostic.open_float()<CR>
 "Lsp instal 
@@ -1238,20 +1219,6 @@ lua << EOF
     -- refer to the configuration section below
   }
 EOF
-lua <<EOF
-require('snippets') 
-EOF
-imap <silent><expr> <Tab> luasnip#expand_or_jumpable() ? '<Plug>luasnip-expand-or-jump' : '<Tab>' 
-" -1 for jumping backwards.
-inoremap <silent> <S-Tab> <cmd>lua require'luasnip'.jump(-1)<Cr>
-inoremap <silent> <m-j> <cmd>lua require('luasnip').jump(1)<Cr>
-inoremap <silent> <m-k> <cmd>lua require('luasnip').jump(-1)<Cr>
-
-" For changing choices in choiceNodes (not strictly necessary for a basic setup).
-imap <silent><expr> <C-E> luasnip#choice_active() ? '<Plug>luasnip-next-choice' : '<C-E>'
-smap <silent><expr> <C-E> luasnip#choice_active() ? '<Plug>luasnip-next-choice' : '<C-E>'
-
-
 
 
 "lua <<EOF
@@ -1514,24 +1481,7 @@ smap <silent><expr> <C-E> luasnip#choice_active() ? '<Plug>luasnip-next-choice' 
 " EOF
 "
 
-" let g:vsnip_snippet_dir = '~/dotfiles/snippets'  
 
-" imap <expr> <m-space>   vsnip#expandable()  ? '<Plug>(vsnip-expand)'         : '<C-j>'
-" smap <expr> <m-space>   vsnip#expandable()  ? '<Plug>(vsnip-expand)'         : '<C-j>'
-" 
-" " Expand or jump
-" imap <expr> <m-space>   vsnip#available(1)  ? '<Plug>(vsnip-expand-or-jump)' : '<C-l>'
-" smap <expr> <m-space>   vsnip#available(1)  ? '<Plug>(vsnip-expand-or-jump)' : '<C-l>'
-
-" Jump forward or backward
-" imap <expr> <M-j>   vsnip#jumpable(1)   ? '<Plug>(vsnip-jump-next)'      : '<C-l>'
-"   smap <expr> <M-j>   vsnip#jumpable(1)   ? '<Plug>(vsnip-jump-next)'      : '<C-l>'
-" imap <expr> <M-k> vsnip#jumpable(-1)  ? '<Plug>(vsnip-jump-prev)'      : '<S-Tab>'
-" smap <expr> <M-k> vsnip#jumpable(-1)  ? '<Plug>(vsnip-jump-prev)'      : '<S-Tab>'
-
-"
-" set foldexpr=nvim_treesitter#foldexpr()
-"
 " local true_zen = require("true-zen")
 " true_zen.setup({
 "  	ui = {
@@ -1598,26 +1548,25 @@ smap <silent><expr> <C-E> luasnip#choice_active() ? '<Plug>luasnip-next-choice' 
 "  	misc = {
 "  		on_off_commands = true,
 "  		ui_elements_commands = false,
-"-- load snippets from path/of/your/nvim/config/my-cool-snippets
-" --vim.o.runtimepath = vim.o.runtimepath .. 'C:/Users/yasha/.config/nvim/lua/snippets,'
-" -- require("luasnip/loaders/from_vscode").lazy_load() -- load snippets of friendly/snippets
-" -- require("luasnip/loaders/from_vscode").load({ paths = "C:/Users/yasha/dotfiles/snippets"}) -- load your own snippets  		cursor_by_mode = false,
+"  		cursor_by_mode = false,
 "  	}
 "  })
 " press <Tab> to expand or jump in a snippet. These can also be mapped separately
 " via <Plug>luasnip-expand-snippet and <Plug>luasnip-jump-next.
-" "Neovim mappings
-" :tnoremap <S-h> <C-\><C-n><C-w>h
-" :tnoremap <S-j> <C-\><C-n><C-w>j
-" :tnoremap <S-k> <C-\><C-n><C-w>k
-" :tnoremap <S-l> <C-\><C-n><C-w>l
-" tnoremap <Left> :tbnext<CR>
-" tnoremap <Right> :tbprevious<CR>
-" tnoremap <Leader>e <C-\><C-n> 
-" imap <Backspace> \
-" map t <Plug>Lightspeed_s
-" map <C-t> <cmd>HopChar1
-" map T <Plug>Lightspeed_S
-" map <S-m-Space> <cmd>HopWord<cr>
-" map t <ESC>:syntax off <CR>t: syntax on<CR>
+lua <<EOF
+require('snippets') 
+-- load snippets from path/of/your/nvim/config/my-cool-snippets
+--vim.o.runtimepath = vim.o.runtimepath .. 'C:/Users/yasha/.config/nvim/lua/snippets,'
+-- require("luasnip/loaders/from_vscode").lazy_load() -- load snippets of friendly/snippets
+-- require("luasnip/loaders/from_vscode").load({ paths = "C:/Users/yasha/dotfiles/snippets"}) -- load your own snippets
+EOF
+imap <silent><expr> <Tab> luasnip#expand_or_jumpable() ? '<Plug>luasnip-expand-or-jump' : '<Tab>' 
+" -1 for jumping backwards.
+inoremap <silent> <S-Tab> <cmd>lua require'luasnip'.jump(-1)<Cr>
+inoremap <silent> <m-j> <cmd>lua require('luasnip').jump(1)<Cr>
+inoremap <silent> <m-k> <cmd>lua require('luasnip').jump(-1)<Cr>
+
+" For changing choices in choiceNodes (not strictly necessary for a basic setup).
+imap <silent><expr> <C-E> luasnip#choice_active() ? '<Plug>luasnip-next-choice' : '<C-E>'
+smap <silent><expr> <C-E> luasnip#choice_active() ? '<Plug>luasnip-next-choice' : '<C-E>'
 
