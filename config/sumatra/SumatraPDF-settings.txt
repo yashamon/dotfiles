@@ -1,10 +1,10 @@
 ﻿# For documentation, see 
 https://www.sumatrapdfreader.org/settings/settings3-4-6.html 
-#bright orange f7b843, #e1d8d3
+#bright orange f7b843, #e1d8d3 sunglow ffcc33
 
 FixedPageUI [
 	TextColor = #000000
-	BackgroundColor = #f7b843
+	BackgroundColor = #ffcc33#
 	SelectionColor = #f5fc0c
 	WindowMargin = 2 4 2 4
 	PageSpacing = 4 4
