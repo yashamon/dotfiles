@@ -77,16 +77,16 @@ Plug 'rlane/pounce.nvim'
 " Plug 'gioele/vim-autoswap'
 " " Plug 't9md/vim-smalls'
 " Plug 'kevinhwang91/nvim-bqf', { 'branch': 'main' }
-" " if you install fzf as system package like `pacman -S fzf` in ArchLinux,
+" " i you install fzf as system package like `pacman -S fzf` in ArchLinux,
 " " please comment next line
 " " Plug 'sindrets/diffview.nvim', { 'branch': 'main' } 
 " " Plug 'rmagatti/auto-session',  { 'branch': 'main'}
 " " Plug 'justinmk/vim-sneak'
 " " Plug 'SirVer/ultisnips'  
 " " Plug 'tpope/vim-fugitive'
-" Plug 'eugen0329/vim-esearch'
-Plug 'haya14busa/incsearch.vim'
-Plug 'haya14busa/incsearch-fuzzy.vim'
+Plug 'eugen0329/vim-esearch'
+" Plug 'haya14busa/incsearch.vim'
+" Plug 'haya14busa/incsearch-fuzzy.vim'
 " Plug 'Raimondi/vim_search_objects'
 " " Plug 'terryma/vim-multiple-cursors'
 " " " On-demand loading
