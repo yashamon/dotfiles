@@ -157,7 +157,7 @@ set indentexpr=
 set noshowmatch
 set wrap
 " set pb=10
-set winbl=10
+set winbl=5
 set switchbuf=newtab
 " let g:python3_host_prog='/usr/bin/python3.9'
 " let g:python3_host_prog='/usr/bin/python3.9'
