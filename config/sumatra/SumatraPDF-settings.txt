@@ -1,7 +1,7 @@
 ﻿# For documentation, see https://www.sumatrapdfreader.org/settings/settings3-4-6.html
 FixedPageUI [
-	TextColor = #e1b8d3
-	BackgroundColor = #ffffff
+	TextColor = #000000
+	BackgroundColor = #e1b8d3
 	SelectionColor = #f5fc0c
 	WindowMargin = 2 4 2 4
 	PageSpacing = 4 4
@@ -113,7 +113,7 @@ TreeFontSize = 0
 SmoothScroll = false
 ShowStartPage = true
 CheckForUpdates = false
-WindowState = 3
+WindowState = 2
 WindowPos = 451 0 1480 1872
 UseTabs = true
 UseSysColors = false
@@ -126,14 +126,14 @@ FileStates [
 		]
 		IsPinned = false
 		IsMissing = false
-		OpenCount = 7
+		OpenCount = 5
 		UseDefaultState = false
 		DisplayMode = continuous
-		ScrollPos = -1 117.987
-		PageNo = 1
+		ScrollPos = -1 64.0341
+		PageNo = 6
 		Zoom = fit content
 		Rotation = 0
-		WindowState = 3
+		WindowState = 2
 		WindowPos = 451 0 1480 1872
 		ShowToc = false
 		SidebarDx = 364
@@ -146,10 +146,10 @@ FileStates [
 		]
 		IsPinned = false
 		IsMissing = false
-		OpenCount = 2
+		OpenCount = 1
 		UseDefaultState = false
 		DisplayMode = continuous
-		ScrollPos = -1 0.546389
+		ScrollPos = -1 368.975
 		PageNo = 451
 		Zoom = fit content
 		Rotation = 0
@@ -166,7 +166,7 @@ FileStates [
 		]
 		IsPinned = false
 		IsMissing = false
-		OpenCount = 3
+		OpenCount = 2
 		UseDefaultState = false
 		DisplayMode = continuous
 		ScrollPos = -1 -1
@@ -186,7 +186,7 @@ FileStates [
 		]
 		IsPinned = false
 		IsMissing = false
-		OpenCount = 6
+		OpenCount = 5
 		UseDefaultState = false
 		DisplayMode = continuous
 		ScrollPos = -1 506.063
@@ -1482,6 +1482,50 @@ FileStates [
 	]
 ]
 SessionData [
+	[
+		TabStates [
+			[
+				FilePath = C:\Users\yasha\workspace\exams\calculus3\build\exams2:2022.pdf
+				DisplayMode = continuous
+				PageNo = 4
+				Zoom = 100
+				Rotation = 0
+				ScrollPos = -1 506.063
+				ShowToc = false
+			]
+			[
+				FilePath = C:\Users\yasha\workspace\exams\calculus3\build\exams2.2022.pdf
+				DisplayMode = continuous
+				PageNo = 1
+				Zoom = 100
+				Rotation = 0
+				ScrollPos = -1 -1
+				ShowToc = true
+			]
+			[
+				FilePath = G:\My Drive\downloads\langThirdEdition (1).pdf
+				DisplayMode = continuous
+				PageNo = 451
+				Zoom = fit content
+				Rotation = 0
+				ScrollPos = -1 368.975
+				ShowToc = false
+			]
+			[
+				FilePath = C:\Users\yasha\workspacemodules\conformalsymplectic\build\conformalsymplectic.pdf
+				DisplayMode = continuous
+				PageNo = 6
+				Zoom = fit content
+				Rotation = 0
+				ScrollPos = -1 64.0341
+				ShowToc = false
+			]
+		]
+		TabIndex = 4
+		WindowState = 2
+		WindowPos = 451 0 1480 1872
+		SidebarDx = 364
+	]
 ]
 TimeOfLastUpdateCheck = 0 0
 OpenCountWeek = 621
