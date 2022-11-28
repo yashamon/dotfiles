@@ -135,6 +135,7 @@ call plug#end()
 "
 " let g:neovide_maximized=v:true 
 let g:neovide_fullscreen=v:true
+let g:neovide_floating_blur=2
 " let g:neovide_transparency=0.15
 
 "General Settings    
