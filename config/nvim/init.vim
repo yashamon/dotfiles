@@ -1146,6 +1146,7 @@ require("tokyonight").setup({
   ---@param colors ColorScheme
   on_highlights = function(highlights, colors) 
   colors.normal = "#000000"
+  colors.background = "#F5BAAB"
 
   end,
   
