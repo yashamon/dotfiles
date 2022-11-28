@@ -1537,7 +1537,7 @@ smap <silent><expr> <C-E> luasnip#choice_active() ? '<Plug>luasnip-next-choice' 
 lua <<EOF
 require("gruvbox").setup({
     overrides = {
-        SignColumn = {bg = "#e1d8b3"}
+        SignColumn = {bg = "#e1d8b3"},
         Normal = {bg = "#e1d8b3"}
     }
 })
