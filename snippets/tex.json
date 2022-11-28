@@ -416,8 +416,7 @@
   "Section": {
     "prefix": ["sec", "section"],
     "body": [
-      "\\section{${1:name}} % (fold)",
-      "\\label{sec:$1}"
+      "\\section{${1:name}} \\label{sec:$1}"
       ],
     "description": "Section"
   },
