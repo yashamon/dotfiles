@@ -561,14 +561,7 @@ inoremap <expr> <c-x><c-k> fzf#vim#complete('cat /usr/share/dict/words')
 
 "Functions
 
-function Light()
-set background=light
-" colorscheme oceanlight 
-colorscheme one 
-" highlight Normal ctermfg=black
-" highlight  CursorLine cterm=NONE ctermbg=black ctermfg=none
-" hi MatchParen cterm=underline ctermbg=none ctermfg=magenta
-endfunction   
+
 
 " function Light()
 " set background=light
