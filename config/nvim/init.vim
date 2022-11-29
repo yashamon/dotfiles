@@ -1541,10 +1541,10 @@ require("gruvbox").setup({
     overrides = {
         SignColumn = {bg = "#cccc99"},
         Normal = {bg = "#cccc99"},
-        DiagnosticError = { fg = c.error }, 
-        DiagnosticWarn = { fg = c.warning }, 
-        DiagnosticInfo = { fg = c.info }, 
-        DiagnosticHint = { fg = c.hint }
+        DiagnosticError = { bg = "#cccc99" }, 
+        DiagnosticWarn = { fg = "#cccc99" }, 
+        DiagnosticInfo = { fg = "#cccc99" }, 
+        DiagnosticHint = { fg = "#cccc99" }
     }
 })
 EOF
