@@ -1542,9 +1542,9 @@ require("gruvbox").setup({
         SignColumn = {bg = "#cccc99"},
         Normal = {bg = "#cccc99"},
         DiagnosticError = { bg = "#cccc99" }, 
-        DiagnosticWarn = { fg = "#cccc99" }, 
-        DiagnosticInfo = { fg = "#cccc99" }, 
-        DiagnosticHint = { fg = "#cccc99" }
+        DiagnosticWarn = { bg = "#cccc99" }, 
+        DiagnosticInfo = { bg = "#cccc99" }, 
+        DiagnosticHint = { bg = "#cccc99" }
     }
 })
 EOF
