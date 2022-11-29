@@ -732,26 +732,10 @@ let g:auto_save_silent = 1
 
 "Git autocommit  (nonmain branch)
 autocmd BufWritePost * call GitAsync()
-" vsnip stuff 
-" Use <Tab> and <S-Tab> to navigate through popup menu
-" inoremap <expr> <Tab> pumvisible() ? "\<C-n>" : "\<Tab>"
-" inoremap <expr> <S-Tab> pumvisible() ? "\<C-p>" : "\<S-Tab>"
-
-" Set completeopt to have a better completion experience
-" set completeopt=menuone,noinsert,noselect
 set completeopt=menu,menuone,noselect,noinsert
 
 " Avoid showing message extra message when using completion
 set shortmess+=c
-" Jump forward or backward
-" imap <expr> <M-j>   vsnip#jumpable(1)   ? '<Plug>(vsnip-jump-next)'      : '<C-l>'
-"   smap <expr> <M-j>   vsnip#jumpable(1)   ? '<Plug>(vsnip-jump-next)'      : '<C-l>'
-" imap <expr> <M-k> vsnip#jumpable(-1)  ? '<Plug>(vsnip-jump-prev)'      : '<S-Tab>'
-" smap <expr> <M-k> vsnip#jumpable(-1)  ? '<Plug>(vsnip-jump-prev)'      : '<S-Tab>'
-
-"
-" 
-"
 
 let g:firenvim_config = { 
     \ 'globalSettings': {
