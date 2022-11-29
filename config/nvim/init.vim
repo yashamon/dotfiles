@@ -597,6 +597,10 @@ function Palenight()
    colorscheme material  
    let g:material_style = 'palenight'  
 endfunction
+function Light()
+   colorscheme gruvbox 
+   set background=light
+endfunction
 function Lighter()
    " colorscheme blue-moon
    colorscheme tokyonight-day
