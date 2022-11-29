@@ -436,8 +436,8 @@ inoremap <m-cr> <cr><space><esc>"_s
 nmap D "0dg$
 nmap V vg$
 nmap A g$a
-map 0 g^
-map 9 g$
+noremap H g^
+noremap L g$
 nmap <m-8> :set laststatus=0<cr>:set lines=100<cr>:set guifont=Fira\ Code:h18<cr>:set columns=100<cr>
 nnoremap <c-l> :bnext<CR>
 nnoremap <c-h> :bprevious<CR>
@@ -661,7 +661,7 @@ function SentenceLL()
   call feedkeys("zf")
   call feedkeys("\<c-r>+\<cr>")
 endfunction
-noremap LL :call SentenceLL()<cr>
+noremap gs :call SentenceLL()<cr>
 " noremap L :TZAtaraxisOff<cr><cr>:call Sentence()<cr>
 function GitAsync()
 silent execute "!echo " . v:servername . ' > ~/servername.txt'
