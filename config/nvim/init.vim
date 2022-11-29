@@ -1532,3 +1532,4 @@ require("gruvbox").setup({
     }
 })
 EOF
+
