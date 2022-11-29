@@ -84,7 +84,7 @@ Plug 'rlane/pounce.nvim'
 " " Plug 'justinmk/vim-sneak'
 " " Plug 'SirVer/ultisnips'  
 " " Plug 'tpope/vim-fugitive'
-Plug 'eugen0329/vim-esearch'
+" Plug 'eugen0329/vim-esearch'
 " Plug 'haya14busa/incsearch.vim'
 " Plug 'haya14busa/incsearch-fuzzy.vim'
 " Plug 'Raimondi/vim_search_objects'
@@ -1541,6 +1541,10 @@ require("gruvbox").setup({
     overrides = {
         SignColumn = {bg = "#cccc99"},
         Normal = {bg = "#cccc99"}
+        DiagnosticError = { fg = c.error }, 
+        DiagnosticWarn = { fg = c.warning }, 
+        DiagnosticInfo = { fg = c.info }, 
+        DiagnosticHint = { fg = c.hint },
     }
 })
 EOF
