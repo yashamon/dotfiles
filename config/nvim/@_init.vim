@@ -436,8 +436,8 @@
  C:/Users/yasha/dotfiles/config/nvim/init.vim:436:: nmap D "0dg 
  C:/Users/yasha/dotfiles/config/nvim/init.vim:437:: nmap V vg 
  C:/Users/yasha/dotfiles/config/nvim/init.vim:438:: nmap A g a
- C:/Users/yasha/dotfiles/config/nvim/init.vim:439:: map 0 g^
- C:/Users/yasha/dotfiles/config/nvim/init.vim:440:: map 9 g 
+ C:/Users/yasha/dotfiles/config/nvim/init.vim:439:: noremap H g^
+ C:/Users/yasha/dotfiles/config/nvim/init.vim:440:: noremap L g 
  C:/Users/yasha/dotfiles/config/nvim/init.vim:441:: nmap <m 8> :set laststatus=0<cr>:set lines=100<cr>:set guifont=Fira  Code:h18<cr>:set columns=100<cr>
  C:/Users/yasha/dotfiles/config/nvim/init.vim:442:: nnoremap <c l> :bnext<CR>
  C:/Users/yasha/dotfiles/config/nvim/init.vim:443:: nnoremap <c h> :bprevious<CR>
@@ -661,7 +661,7 @@
  C:/Users/yasha/dotfiles/config/nvim/init.vim:661::   call feedkeys("zf")
  C:/Users/yasha/dotfiles/config/nvim/init.vim:662::   call feedkeys(" <c r>+ <cr>")
  C:/Users/yasha/dotfiles/config/nvim/init.vim:663:: endfunction
- C:/Users/yasha/dotfiles/config/nvim/init.vim:664:: noremap LL :call SentenceLL()<cr>
+ C:/Users/yasha/dotfiles/config/nvim/init.vim:664:: noremap gs :call SentenceLL()<cr>
  C:/Users/yasha/dotfiles/config/nvim/init.vim:665:: " noremap L :TZAtaraxisOff<cr><cr>:call Sentence()<cr>
  C:/Users/yasha/dotfiles/config/nvim/init.vim:666:: function GitAsync()
  C:/Users/yasha/dotfiles/config/nvim/init.vim:667:: silent execute "!echo " . v:servername . ' > ~/servername.txt'

@@ -458,9 +458,11 @@ map <m-D> :bdelete!<CR>
 noremap gf gq
 noremap f /
 noremap F ?
-noremap # /\$<CR>v?\$<CR>
-noremap $ /\$<CR>gev?\$<CR>l
-noremap @ /}<CR>v?{<CR>
+noremap gfm /\$<CR>v?\$<CR>
+noremap gm /\$<CR>gev?\$<CR>l
+noremap gwb /}<CR>v?{<CR>
+noremap gsb /]<CR>v?[<CR>
+noremap gob /)<CR>v?(<CR>
 map j gj
 map k gk
 noremap <Space> .
@@ -495,10 +497,6 @@ nnoremap <silent> <Leader>y :YRGetElem<CR>
 map ' "
 inoremap <D-]> <C-x><C-]>
 inoremap <C-]> <C-x><C-]>
-
-au FileType tex,text,md nmap 0 g^
-au FileType tex,text,md noremap 9 g$
-" au FileType tex,text,md nnoremap dd "_g^dg$g^
 
 " FZF 
 let g:fzf_layout = { 'window': { 'width': 1, 'height': 1 } }
