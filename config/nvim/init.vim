@@ -1542,8 +1542,8 @@ require("gruvbox").setup({
         DiagnosticSignWarn = { bg = "#cccc99" }, 
         DiagnosticSignInfo = { bg = "#cccc99" }, 
         DiagnosticSignHint = { bg = "#cccc99" },
-        texComment = { fg = "green" },
-        texString = { fg = "blue" }
+        texComment = { fg = "#00FF00" },
+        texString = { fg = " #0000FF" }
     }
 })
 EOF
