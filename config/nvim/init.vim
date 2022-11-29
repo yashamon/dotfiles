@@ -653,7 +653,6 @@ function SentenceLL()
   call feedkeys("\<c-r>+\<cr>")
 endfunction
 noremap gs :call SentenceLL()<cr>
-" noremap L :TZAtaraxisOff<cr><cr>:call Sentence()<cr>
 function GitAsync()
 silent execute "!echo " . v:servername . ' > ~/servername.txt'
 let g:bufdude = bufname()
@@ -661,13 +660,6 @@ silent te pwsh -c if ( (git rev-parse --is-inside-work-tree) -and (git rev-parse
 execute "buffer" g:bufdude
 endfunction
   
-" " AsyncRun -silent if git rev-parse --is-inside-work-"tree 
-"|| git rev- parse --git-dir > /dev/null 2>&1 ; then git "add 
-". ; git commit -m -a ; git push --all origin; "fi  */
-" te if ( (git rev-parse --is-inside-work-tree) -and (git 
-"rev-parse --git-dir) ) { git add . ; git commit -m -a ; "git push --all origin } */
-" endfunction */
-
 function ToggleQuickFix()
       if empty(filter(getwininfo(), 'v:val.quickfix'))
       exec "w"
@@ -731,14 +723,7 @@ nmap <leader>ll :call CompileLatex()<cr>
 nmap <leader>lcl :call ClearLatex()<cr>
 nmap <leader>gtd :call TodoQuickFix<cr>
 nmap <leader>ga :TZAtaraxis<CR>
-" nmap <leader>m :silent ! cp % backup;  pandoc  backup -s --webtex -o backup.html;  cp backup.html %<cr>:e %<cr>
-
-" nmap <leader>m :silent ! cp % backup;  pandoc  backup -s --mathjax[=https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js] -o backup.html;  cp backup.html %<cr>:e %<cr>:w<cr>:qa<cr> 
-"" mathml shenanigans
-
 nmap <leader>gm :w<cr>:silent ! cat % >> ~/workspace/email.txt; cp % /tmp/temp; make4ht /tmp/temp "mathml,mathjax"; pandoc /tmp/temp.html --from html --to markdown_strict -o /tmp/temp.md; mv /tmp/temp.md %<cr>:e %<cr>:w<cr>:qa<cr>
-
-
 
 "Autosave and autocommit   
 " let g:updatetime = 10000
@@ -749,7 +734,7 @@ let g:auto_save_events = ["CursorHold"]
 let g:auto_save_in_insert_mode = 0
 let g:auto_save_silent = 1
 
-"Git autocommit  (private git repo)
+"Git autocommit  (nonmain branch)
 autocmd BufWritePost * call GitAsync()
 " vsnip stuff 
 " Use <Tab> and <S-Tab> to navigate through popup menu
@@ -760,12 +745,11 @@ autocmd BufWritePost * call GitAsync()
 set completeopt=menuone,noinsert,noselect
 " Avoid showing message extra message when using completion
 set shortmess+=c
-
 " Jump forward or backward
-imap <expr> <M-j>   vsnip#jumpable(1)   ? '<Plug>(vsnip-jump-next)'      : '<C-l>'
-  smap <expr> <M-j>   vsnip#jumpable(1)   ? '<Plug>(vsnip-jump-next)'      : '<C-l>'
-imap <expr> <M-k> vsnip#jumpable(-1)  ? '<Plug>(vsnip-jump-prev)'      : '<S-Tab>'
-smap <expr> <M-k> vsnip#jumpable(-1)  ? '<Plug>(vsnip-jump-prev)'      : '<S-Tab>'
+" imap <expr> <M-j>   vsnip#jumpable(1)   ? '<Plug>(vsnip-jump-next)'      : '<C-l>'
+"   smap <expr> <M-j>   vsnip#jumpable(1)   ? '<Plug>(vsnip-jump-next)'      : '<C-l>'
+" imap <expr> <M-k> vsnip#jumpable(-1)  ? '<Plug>(vsnip-jump-prev)'      : '<S-Tab>'
+" smap <expr> <M-k> vsnip#jumpable(-1)  ? '<Plug>(vsnip-jump-prev)'      : '<S-Tab>'
 
 "
 " 
