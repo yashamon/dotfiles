@@ -1540,24 +1540,11 @@ lua <<EOF
 require("gruvbox").setup({
     overrides = {
         SignColumn = {bg = "#cccc99"},
-        Normal = {bg = "#cccc99"},
-        DiagnosticSignError = { bg = "#cccc99" }, 
+        Normal = {bg = "#cccc99"}
+        --DiagnosticError = { bg = "#cccc99" }, 
         --DiagnosticWarn = { bg = "#cccc99" }, 
         --DiagnosticInfo = { bg = "#cccc99" }, 
         --DiagnosticHint = { bg = "#cccc99" }
     }
 })
-EOF
-local signs = {
-    Error = " ",
-    Warning = " ",
-    Hint = " ",
-    Information = " "
-}
-lua <<EOF
-for type, icon in pairs(signs) do
-    local hl = "DiagnosticSign" .. type
-    vim.fn.sign_define(hl, {text = icon, texthl = hl, numhl = hl})
-end
-EOF
 
