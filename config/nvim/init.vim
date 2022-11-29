@@ -1523,9 +1523,10 @@ require("gruvbox").setup({
         DiagnosticSignHint = { bg = "#ffa546" },
         --texComment = { fg = "#00ff00" },
         texString = { fg = "#0000ff" },
-        Special = { fg = "#0000ff" },
+        Special = {fg = "#0000ff" },
         texCmdName = { fg = "#0000ff" },
-        SpecialChar = { fg = "#0000ff" }
+        SpecialChar = { fg = "#0000ff" },
+        Statement = { fg = "#0000ff" }
 
     }
 })
