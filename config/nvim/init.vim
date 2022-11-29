@@ -723,6 +723,7 @@ nmap <leader>gm :w<cr>:silent ! cat % >> ~/workspace/email.txt; cp % /tmp/temp; 
 nnoremap <silent> g? <cmd>lua vim.diagnostic.open_float()<CR>
 noremap <leader>ca  :lua vim.lsp.buf.code_action()<CR>
 noremap <leader>la  :lua vim.lsp.buf.code_action()<CR>
+nmap <leader>c gc
 "Autosave and autocommit   
 " let g:updatetime = 10000
 let g:auto_save = 0
