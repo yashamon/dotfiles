@@ -324,10 +324,6 @@ if has("autocmd") && exists("+omnifunc")
               \	endif
 endif
 
-" make CSS omnicompletion work for SASS and SCSS
-" autocmd BufNewFile,BufRead *.scss             set ft=scss.css
-" autocmd BufNewFile,BufRead *.sass             set ft=sass.css
-
 "--------------------------------------------------------------------------- 
 " ENCODING SETTINGS
 "--------------------------------------------------------------------------- 
@@ -393,20 +389,17 @@ inoremap / \
 inoremap <m-d> <C-w>
 noremap W /\$<CR>
 noremap B ?\$<CR>
-noremap <m-w>m /\$<CR>
-noremap <m-b>m ?\$<CR>
-noremap <m-w>o /(\\|)<CR>
-noremap <m-b>o /(\\|)<CR>
-noremap <m-w>b /{\\|}<CR>
-noremap <m-b>b ?{\\|}<CR>
-noremap <m-w>w /{\\|}<CR>
-noremap <m-b>w ?{\\|}<CR>
-noremap <m-w>c /[\\|]<CR>
-noremap <m-b>c ?[\\|]<CR>
-" noremap <m-w> /{\\|}<CR>
-" noremap <m-b> ?{\\|}<CR>
-" noremap <m-W> /(\\|)<CR>
-" noremap <m-B> ?(\\|)<CR>
+noremap gwm /\$<CR>
+noremap gbm ?\$<CR>
+noremap gwo /(\\|)<CR>
+noremap gbo /(\\|)<CR>
+noremap gwb /{\\|}<CR>
+noremap gbb ?{\\|}<CR>
+noremap gww /{\\|}<CR>
+noremap gbw ?{\\|}<CR>
+noremap gwc /[\\|]<CR>
+noremap gbc ?[\\|]<CR>
+
 
 
 " copy paste stuff 
