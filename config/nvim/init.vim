@@ -262,6 +262,7 @@ set noerrorbells
 " set font=Fira\ Code:h18
 set background=light
 colorscheme gruvbox
+set background=light
 " colorscheme material  
 " let g:material_style = 'palenight'  
 " let g:material_style = 'lighter'
