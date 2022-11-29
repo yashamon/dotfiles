@@ -2,7 +2,6 @@
 
 
 
-
 -- Keymaps
 vim.keymap.set('t', '<C-r>+', [[getreg('+')]], {expr = true})
 -- LSP
@@ -95,7 +94,6 @@ require("tokyonight").setup({
   end,
   
 })
-lua << EOF
   require("which-key").setup {
     -- your configuration comes here
     -- or leave it empty to use the default settings
