@@ -449,7 +449,8 @@ noremap gf gq
 noremap f /
 noremap F ?
 noremap gfm /\$<CR>v?\$<CR>
-noremap gm /\$<CR>gev?\$<CR>l
+noremap gm /\$<CR>h?\$<CR>l
+$a;lsdkjf $
 noremap gwb /}<CR>hv?{<CR>l
 noremap gsb /]<CR>hv?[<CR>l
 noremap gob /)<CR>hv?(<CR>l

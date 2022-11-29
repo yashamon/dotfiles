@@ -280,7 +280,7 @@
  C:/Users/yasha/dotfiles/config/nvim/init.vim:280:: au FileType Makefile set noexpandtab
  C:/Users/yasha/dotfiles/config/nvim/init.vim:281:: au FileType tex,text set spelllang=en_us
  C:/Users/yasha/dotfiles/config/nvim/init.vim:282:: au FileType tex,text,md set indentexpr=
- C:/Users/yasha/dotfiles/config/nvim/init.vim:283:: au FileType vim,md set list
+ C:/Users/yasha/dotfiles/config/nvim/init.vim:283:: " au FileType vim,md set list
  C:/Users/yasha/dotfiles/config/nvim/init.vim:284:: " au FileType tex,text,md silent execute "!echo " . v:servername . " > ~/servername.txt"    
  C:/Users/yasha/dotfiles/config/nvim/init.vim:285:: " au FileType * silent execute "!echo " . v:servername . " > ~/servername.txt"
  C:/Users/yasha/dotfiles/config/nvim/init.vim:286:: au UIEnter silent execute "!echo " . v:servername . " > ~/servername.txt"
