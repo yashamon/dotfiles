@@ -1515,12 +1515,12 @@ EOF
 lua <<EOF
 require("gruvbox").setup({
     overrides = {
-        SignColumn = {bg = "#cccc99"},
+        SignColumn = {bg = "#ffa546"},
         Normal = {bg = "#ffa546"},
-        DiagnosticSignError = { bg = "#cccc99" },
-        DiagnosticSignWarn = { bg = "#cccc99" }, 
-        DiagnosticSignInfo = { bg = "#cccc99" }, 
-        DiagnosticSignHint = { bg = "#cccc99" },
+        DiagnosticSignError = { bg = "#ffa546" },
+        DiagnosticSignWarn = { bg = "#ffa546" }, 
+        DiagnosticSignInfo = { bg = "#ffa546" }, 
+        DiagnosticSignHint = { bg = "#ffa546" },
         --texComment = { fg = "#00ff00" },
         texString = { fg = "#0000ff" }
     }
