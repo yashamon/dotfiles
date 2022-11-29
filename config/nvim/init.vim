@@ -1,6 +1,5 @@
 call plug#begin('~/.vim/plugged')
 Plug 'folke/todo-comments.nvim', { 'branch': 'main' }
-Plug 'eddyekofo94/gruvbox-flat.nvim'
 Plug 'L3MON4D3/LuaSnip'
 Plug 'saadparwaiz1/cmp_luasnip'
 Plug 'LhKipp/nvim-nu'
@@ -23,6 +22,7 @@ Plug 'nvim-lualine/lualine.nvim'
 Plug 'justinhoward/fzf-neoyank'
 Plug 'folke/tokyonight.nvim', { 'branch': 'main' }
 Plug 'ellisonleao/gruvbox.nvim', { 'branch': 'main' }
+Plug 'eddyekofo94/gruvbox-flat.nvim'
 Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}  
 Plug 'Shougo/neoyank.vim' 
 Plug 'Shougo/denite.nvim', { 'do': ':UpdateRemotePlugins' } 
