@@ -461,9 +461,9 @@ noremap f /
 noremap F ?
 noremap gfm /\$<CR>v?\$<CR>
 noremap gm /\$<CR>gev?\$<CR>l
-noremap gwb /}<CR>v?{<CR>
-noremap gsb /]<CR>v?[<CR>
-noremap gob /)<CR>v?(<CR>
+noremap gwb /}<CR>v?{<CR>l
+noremap gsb /]<CR>v?[<CR>l
+noremap gob /)<CR>v?(<CR>l
 map j gj
 map k gk
 noremap <Space> .
