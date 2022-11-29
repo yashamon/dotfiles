@@ -53,3 +53,6 @@ INPUT C:\Users\yasha\scoop\apps\latex\current\texmfs\install\tex\generic\unicode
 INPUT C:\Users\yasha\scoop\apps\latex\current\texmfs\install\tex\luatex\luaotfload\luaotfload-suppress.lua
 INPUT C:\Users\yasha\scoop\apps\latex\current\texmfs\install\tex\luatex\luaotfload\luaotfload-szss.lua
 INPUT C:\Users\yasha\scoop\apps\latex\current\texmfs\install\tex\luatex\luaotfload\luaotfload-auxiliary.lua
+INPUT C:\Users\yasha\scoop\apps\latex\current\texmfs\install\tex\luatex\luaotfload\luaotfload-tounicode.lua
+INPUT C:\Users\yasha\scoop\apps\latex\current\texmfs\install\tex\luatex\luaotfload\luaotfload-case.lua
+INPUT C:\Users\yasha\scoop\apps\latex\current\texmfs\install\tex\latex\l3kernel\expl3.lua

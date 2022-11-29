@@ -1539,9 +1539,8 @@ require("gruvbox").setup({
         SignColumn = {bg = "#cccc99"},
         Normal = {bg = "#cccc99"},
         DiagnosticSignError = { bg = "#cccc99" } 
-        --DiagnosticWarn = { bg = "#cccc99" }, 
-        --DiagnosticInfo = { bg = "#cccc99" }, 
-        --DiagnosticHint = { bg = "#cccc99" }
+        DiagnosticSignWarning = { bg = "#cccc99" }, 
+        DiagnosticSignHint = { bg = "#cccc99" },  
     }
 })
 
