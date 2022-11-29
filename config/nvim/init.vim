@@ -427,9 +427,9 @@ inoremap <m-cr> <cr><space><esc>"_s
 
 " Softwrap  
 
-nmap D "0dg$
-nmap V vg$
-nmap A g$a
+nnoremap D "0dg$
+nnoremap V vg$
+nnoremap A g$a
 noremap H g^
 noremap L g$
 nmap <m-8> :set laststatus=0<cr>:set lines=100<cr>:set guifont=Fira\ Code:h18<cr>:set columns=100<cr>
@@ -1525,4 +1525,6 @@ require("gruvbox").setup({
     }
 })
 EOF
+
+
 
