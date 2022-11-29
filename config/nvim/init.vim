@@ -442,13 +442,7 @@ noremap L g$
 nmap <m-8> :set laststatus=0<cr>:set lines=100<cr>:set guifont=Fira\ Code:h18<cr>:set columns=100<cr>
 nnoremap <c-l> :bnext<CR>
 nnoremap <c-h> :bprevious<CR>
-" tnoremap <Esc> <C-\> 
-" nnoremap < :tabp<CR>
-" nnoremap > :tabn<CR>
-" nnoremap <leader>n :tabedit %<CR>
 imap <M-j> <C-j>
-" map <M-m> <cmd>HopChar1<cr>$
-" map <S-b> ?\$<CR>
 map q: nop
 map <S-C-q> <Esc>:qa!<CR>
 map <m-q> <esc>:wq<cr>
@@ -470,8 +464,6 @@ noremap <Space> .
 vnoremap <Space> t <cr>
 map K <C-u>
 map J <C-d>
-" map <C-j> zz
-" map <C-k> zb
 map <C-j> <C-e>jj
 map <C-k> <C-y>kk
 nnoremap <leader>j J
