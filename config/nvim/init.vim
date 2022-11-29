@@ -1535,6 +1535,7 @@ smap <silent><expr> <C-E> luasnip#choice_active() ? '<Plug>luasnip-next-choice' 
 " via <Plug>luasnip-expand-snippet and <Plug>luasnip-jump-next.
 lua <<EOF
 require("which-key").setup({
+ triggers = {"<leader>", "g", "z"},
     triggers_blacklist = {
         i = { "j", "k", "v" },
         n = { "j", "k", "v" },
