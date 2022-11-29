@@ -464,7 +464,6 @@ noremap gm /\$<CR>gev?\$<CR>l
 noremap gwb /}h<CR>v?{<CR>l
 noremap gsb /]h<CR>v?[<CR>l
 noremap gob /)h<CR>v?(<CR>l
-(asdf)
 map j gj
 map k gk
 noremap <Space> .
