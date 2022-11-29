@@ -1516,7 +1516,7 @@ lua <<EOF
 require("gruvbox").setup({
     overrides = {
         SignColumn = {bg = "#cccc99"},
-        Normal = {bg = "#cccc99"},
+        Normal = {bg = "#ffa546"},
         DiagnosticSignError = { bg = "#cccc99" },
         DiagnosticSignWarn = { bg = "#cccc99" }, 
         DiagnosticSignInfo = { bg = "#cccc99" }, 
