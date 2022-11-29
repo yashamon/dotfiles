@@ -1537,7 +1537,7 @@ lua <<EOF
 require("which-key").setup({
     triggers_blacklist = {
         i = { "j", "k", "v" },
-        v = { "j", "k" },
+        v = { "j", "k" }
       },
 })
 EOF
