@@ -1542,7 +1542,7 @@ require("gruvbox").setup({
         DiagnosticSignWarn = { bg = "#cccc99" }, 
         DiagnosticSignInfo = { bg = "#cccc99" }, 
         DiagnosticSignHint = { bg = "#cccc99" },
-        String = { fg = "green" }
+        --String = { fg = "green" }
     }
 })
-
+EOF
