@@ -131,8 +131,9 @@ Plug 'rlane/pounce.nvim'
 " Add plugins to &runtimepath 
 call plug#end()
 lua <<EOF
-require('init')
+require('settings')
 EOF
+
 "Neovide 
 "
 " let g:neovide_maximized=v:true 
@@ -165,8 +166,7 @@ set pb=15
 set switchbuf=newtab
 " let g:python3_host_prog='/usr/bin/python3.9'
 " let g:python3_host_prog='/usr/bin/python3.9'
-
-set clipboard+=unnamedplus	" yank to the system register (*) by default
+set clipboard+=unnamedplus	
 " TAB setting{
 set expandtab        "replace <TAB> with spaces
 set softtabstop=3
@@ -337,9 +337,7 @@ set fileencoding=utf-8
 "maps remaps mappings  
 "
 " terminal stuff 
-lua <<EOF
-vim.keymap.set('t', '<C-r>+', [[getreg('+')]], {expr = true})
-EOF
+
 autocmd TermClose * if v:event.status ==1 || v:event.status ==0  | exe 'bdelete! '..expand('<abuf>') | endif
 tnoremap <m-d> <C-\><C-n>:bdelete!<cr>
 tnoremap <A-`> <C-\><C-n>
@@ -721,6 +719,8 @@ nmap <leader>gtd :call TodoQuickFix<cr>
 nmap <leader>ga :TZAtaraxis<CR>
 nmap <leader>gm :w<cr>:silent ! cat % >> ~/workspace/email.txt; cp % /tmp/temp; make4ht /tmp/temp "mathml,mathjax"; pandoc /tmp/temp.html --from html --to markdown_strict -o /tmp/temp.md; mv /tmp/temp.md %<cr>:e %<cr>:w<cr>:qa<cr>
 
+" Lsp mappings
+nnoremap <silent> g? <cmd>lua vim.diagnostic.open_float()<CR>
 "Autosave and autocommit   
 " let g:updatetime = 10000
 let g:auto_save = 0
@@ -738,7 +738,9 @@ autocmd BufWritePost * call GitAsync()
 " inoremap <expr> <S-Tab> pumvisible() ? "\<C-p>" : "\<S-Tab>"
 
 " Set completeopt to have a better completion experience
-set completeopt=menuone,noinsert,noselect
+" set completeopt=menuone,noinsert,noselect
+set completeopt=menu,menuone,noselect,noinsert
+
 " Avoid showing message extra message when using completion
 set shortmess+=c
 " Jump forward or backward
@@ -751,245 +753,6 @@ set shortmess+=c
 " 
 "
 
-lua <<EOF
-require("nvim-lsp-installer").setup {}
-    local lspconfig = require("lspconfig")
-
-    local function on_attach(client, bufnr)
-        -- set up buffer keymaps, etc.
-    end
-
-    lspconfig.sumneko_lua.setup { on_attach = on_attach }
-    lspconfig.tsserver.setup { on_attach = on_attach }
-    lspconfig.vimls.setup { on_attach = on_attach }
-    lspconfig.ltex.setup { on_attach = on_attach }
-    lspconfig.texlab.setup { on_attach = on_attach }
-EOF
-lua << EOF
-local nvim_lsp = require('lspconfig')
--- Use an on_attach function to only map the following keys
--- after the language server attaches to the current buffer
-local on_attach = function(client, bufnr)
-local function buf_set_keymap(...) vim.api.nvim_buf_set_keymap(bufnr, ...) end
- local function buf_set_option(...) vim.api.nvim_buf_set_option(bufnr, ...) end
--- Enable completion triggered by <c-x><c-o>
-  buf_set_option('omnifunc', 'v:lua.vim.lsp.omnifunc')
-
-  -- Mappings.
-  local opts = { noremap=true, silent=true }
-
-  -- See `:help vim.lsp.*` for documentation on any of the below functions
-  buf_set_keymap('n', 'gD', '<cmd>lua vim.lsp.buf.declaration()<CR>', opts)
-  buf_set_keymap('n', 'gd', '<cmd>lua vim.lsp.buf.definition()<CR>', opts)
-  --buf_set_keymap('n', 'K', '<cmd>lua vim.lsp.buf.hover()<CR>', opts)
-  buf_set_keymap('n', 'gi', '<cmd>lua vim.lsp.buf.implementation()<CR>', opts)
-  buf_set_keymap('n', '<S-C-k>', '<cmd>lua vim.lsp.buf.signature_help()<CR>', opts)
-  buf_set_keymap('n', 'gwa', '<cmd>lua vim.lsp.buf.add_workspace_folder()<CR>', opts)
-  buf_set_keymap('n', 'gwr', '<cmd>lua vim.lsp.buf.remove_workspace_folder()<CR>', opts)
-  buf_set_keymap('n', 'gwl', '<cmd>lua print(vim.inspect(vim.lsp.buf.list_workspace_folders()))<CR>', opts)
-  buf_set_keymap('n', 'gtD', '<cmd>lua vim.lsp.buf.type_definition()<CR>', opts)
-  buf_set_keymap('n', '<space>rn', '<cmd>lua vim.lsp.buf.rename()<CR>', opts)
-  buf_set_keymap('n', 'gca', '<cmd>lua vim.lsp.buf.code_action()<CR>', opts)
-  --buf_set_keymap('n', 'lr', '<cmd>lua vim.lsp.buf.references()<CR>', opts)
-  buf_set_keymap('n', 'gld', '<cmd>lua vim.lsp.diagnostic.show_line_diagnostics()<CR>', opts)
-  buf_set_keymap('n', '[d', '<cmd>lua vim.lsp.diagnostic.goto_prev()<CR>', opts)
-  buf_set_keymap('n', ']d', '<cmd>lua vim.lsp.diagnostic.goto_next()<CR>', opts)
-  buf_set_keymap('n', 'gq', '<cmd>lua vim.lsp.diagnostic.set_loclist()<CR>', opts)
-  buf_set_keymap('n', 'gf', '<cmd>lua vim.lsp.buf.formatting()<CR>', opts)
-
-end
-EOF
-nnoremap <silent> g? <cmd>lua vim.diagnostic.open_float()<CR>
-"Lsp instal 
-"
-" inoremap <cr> <cr> <backspace>
-
-set completeopt=menu,menuone,noselect
-
-lua <<EOF
-  -- Setup cmp.
-
-local has_words_before = function()
-  if vim.api.nvim_buf_get_option(0, "buftype") == "prompt" then
-    return false
-  end
-  local line, col = unpack(vim.api.nvim_win_get_cursor(0))
-  return col ~= 0 and vim.api.nvim_buf_get_lines(0, line - 1, line, true)[1]:sub(col, col):match("%s") == nil
-end
-
-local feedkey = function(key, mode)
-  vim.api.nvim_feedkeys(vim.api.nvim_replace_termcodes(key, true, true, true), mode, true)
-end
-local luasnip = require("luasnip")
-local cmp = require'cmp'
-cmp.setup ({
-snippet = {
-  expand = function(args)
-    luasnip.lsp_expand(args.body)
-  end
-},
-
-mapping = cmp.mapping.preset.insert({
-        ["<C-p>"] = cmp.mapping.select_prev_item(),
-        ["<C-n>"] = cmp.mapping.select_next_item(),
-       ['<C-d>'] = cmp.mapping.scroll_docs(-4),
-      ['<C-f>'] = cmp.mapping.scroll_docs(4),
-      ['<C-x>'] = cmp.mapping.complete(),
-      ['<C-e>'] = cmp.mapping.close(),
-      ['<CR>'] = cmp.mapping.confirm({ select = true }),
--- ... Your other mappings ...
-["<Tab>"] = cmp.mapping(function(fallback)
-			if luasnip.expandable() then
-				luasnip.expand()
-                        elseif cmp.visible() then
-                             cmp.select_next_item()
-			elseif has_words_before() then
-				cmp.complete()
-                        	
-                             else
-				fallback()
-			end
-		end, { "i", "s" }),
-		["<S-Tab>"] = cmp.mapping(function(fallback)
-			if cmp.visible() then
-				cmp.select_prev_item()
-			elseif luasnip.jumpable(-1) then
-				luasnip.jump(-1)
-			else
-				fallback()
-			end
-		end, { "i", "s" }),
-}),
-
-
-requires = {
-    {
-      'tzachar/fuzzy.nvim',
-      'quangnguyen30192/cmp-nvim-tags',
-      -- if you want the sources is available for some file types
-      ft = {
-        'tex',
-        'latex' 
-      }
-    }
-    },
--- ... Your other configuration ...
-sources = cmp.config.sources({
-      -- For vsnip user. 
-{ name = 'vsnip', keyword_length = 1000 },
-{ name = 'luasnip', keyword_length = 1000 },
-{ name = 'tags' },
-{ name = 'nvim_lsp', keyword_length = 4 },
--- For ultisnips user.
-      -- { name = 'ultisnips' },  
-{ name = 'omni', keyword_length = 4},
-       -- { name = 'spell' }, 
-      --{ name = 'treesitter', keyword_length = 4 },
-{ name = 'buffer', keyword_length = 4 },
---{ name = 'fuzzy_buffer', keyword_length = 8 }
-}),
-completion = { autocomplete = false }
-})
-EOF
-" 
-" " LSP mappings   
-" "" LSP mappings 
-noremap <leader>ca  :lua vim.lsp.buf.code_action()<CR>
-noremap <leader>la  :lua vim.lsp.buf.code_action()<CR>
-" 
-" 
-lua <<EOF
- require('nvim_comment').setup(
-{
-   -- Linters prefer comment and line to have a space in between markers
-   marker_padding = true,
-   -- should comment out empty or whitespace only lines
-   comment_empty = true,
-   -- Should key mappings be created
-   create_mappings = true,
-   -- Normal mode mapping left hand side
-   line_mapping = "gc",
-   -- Visual/Operator mapping left hand side
-   operator_mapping = "<leader>c",
-   -- Hook function to call before commenting takes place
-   --hook = nil 
- }
- )
-EOF
-nmap <leader>c gc
-lua <<EOF
-require('lualine').setup {
-  options = {
-    icons_enabled = true,
-    theme = 'auto',
-    component_separators = { left = '', right = ''},
-    section_separators = { left = '', right = ''},
-    disabled_filetypes = {
-      statusline = {},
-      winbar = {},
-    },
-    ignore_focus = {'tex', 'md', 'text', 'lua', 'latex', 'nu'},
-    always_divide_middle = true,
-    globalstatus = true,
-    refresh = {
-      statusline = 1000,
-      tabline = 1000,
-      winbar = 1000,
-    }
-  },
-  sections = {
-  lualine_a = {
-        {
-          'filename',
-          color = 'lualine_a_normal',
-          file_status = true,      -- Displays file status (readonly status, modified status)
-          newfile_status = false,   -- Display new file status (new file means no write after created)
-          path = 3,                -- 0: Just the filename
-                                   -- 1: Relative path
-                                   -- 2: Absolute path
-                                   -- 3: Absolute path, with tilde as the home directory
-  
-          symbols = {
-            modified = '[+]',      -- Text to show when the file is modified.
-            readonly = '[-]',      -- Text to show when the file is non-modifiable or readonly.
-            unnamed = '[No Name]', -- Text to show for unnamed buffers.
-            newfile = '[New]',     -- Text to show for new created file before first writting
-         }
-        }
-      },
-      lualine_b = {{'branch', 'diff', 'diagnostics', color = 'lualine_b_normal'}},
-    lualine_c = {},
-    lualine_x = {},
-    lualine_y = {},
-    lualine_z = {{'location', color = 'lualine_z_normal'}}
-  },
-  inactive_sections = {
-    lualine_a = {},
-    lualine_b = {},
-    lualine_c = {},
-    lualine_x = {},
-    lualine_y = {},
-    lualine_z = {}
-  },
-  tabline = {},
-  winbar = {},
-  inactive_winbar = {},
-  extensions = {}
-}
-EOF
-
-lua <<EOF
-require('spellsitter').setup {
-  hl = 'SpellBad', 
-  captures = {},  -- set to {} to spellcheck everything
-
-  -- Spellchecker to use. values:
-  -- * vimfn: built-in spell checker using vim.fn.spellbadword()
-  -- * ffi: built-in spell checker using the FFI to access the
-  --   internal spell_check() function
-spellchecker = 'vimfn'
-}
-EOF
 let g:firenvim_config = { 
     \ 'globalSettings': {
         \ 'alt': 'all',
