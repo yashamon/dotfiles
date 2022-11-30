@@ -6,6 +6,13 @@
 vim.keymap.set('t', '<C-r>+', [[getreg('+')]], {expr = true})
 -- LSP
 require'nvim-treesitter.configs'.setup {
+vim.api.nvim_set_hl(0, 'LeapBackdrop', { link = 'Comment' })
+vim.api.nvim_set_hl(0, 'LeapMatch', {
+  fg = 'black',  -- for light themes, set to 'black' or similar
+  bold = true,
+  nocombine = true,
+})
+require('leap').opts.highlight_unlabeled_phase_one_targets = true  
 -- ensure_installed = "all", -- one of "all", "maintained" (parsers with maintainers), or a list of languages
   incremental_selection = {
     enable = true,
