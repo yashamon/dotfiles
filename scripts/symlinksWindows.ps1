@@ -39,9 +39,9 @@ New-Item -ItemType SymbolicLink -Path "$HOME/dotfiles/ctags" - Target "$HOME/.ct
 New-Item -ItemType SymbolicLink -Path "C:\Users\yasha\AppData\Ro
 aming\nushell\config.nu" -Target $HOME/dotfiles/config/nushell/con
 fig.nu
-New-Item -ItemType SymbolicLink -Path "C:\Users\yasha\AppData\Roaming\nushell\env.nu" -Target $HOME/dotfiles/config/nushell/env.nu
-New-Item -ItemType SymbolicLink -Path "$HOME/dotfiles/config/SummatraPDF-settings.txt" -Target "$HOME/scoop/apps/summatrapdf/current/SummatraPDF-settings.txt"
-New-Item -ItemType SymbolicLink -Path "$HOME/dotfiles/config/nvimnew" -Target "$HOME/AppData/Local/nvim"
+New-Item -ItemType SymbolicLink -Path $HOME/dotfiles/config/nushell/env.nu -Target "C:\Users\yasha\AppData\Roaming\nushell\env.nu"
+New-Item -ItemType SymbolicLink -Path "$HOME/scoop/apps/summatrapdf/current/SummatraPDF-settings.txt" -Target "$HOME/dotfiles/config/SummatraPDF-settings.txt" 
+New-Item -ItemType SymbolicLink -Path "$HOME/AppData/Local/nvim" -Target "$HOME/dotfiles/config/nvimnew" 
 git config --global credential.helper store
 git config --global user.name "yashamon"
 git config --global user.email "yasha.savelyev@gmail.com"
