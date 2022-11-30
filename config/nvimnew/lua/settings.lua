@@ -26,7 +26,7 @@ require'nvim-treesitter.configs'.setup {
 require('leap').setup {
   max_aot_targets = nil,
   highlight_unlabeled = false,
-  max_highlighted_traversal_targets = 10,
+  max_highlighted_traversal_targets = 20,
   case_sensitive = false,
   -- Sets of characters that should match each other.
   -- Obvious candidates are braces and quotes ('([{', ')]}', '`"\'').
@@ -416,7 +416,13 @@ require('lualine').setup {
   inactive_winbar = {},
   extensions = {}
 }
-
+vim.api.nvim_set_hl(0, 'LeapBackdrop', { link = 'Comment' })
+vim.api.nvim_set_hl(0, 'LeapMatch', {
+  fg = 'white',  -- for light themes, set to 'black' or similar
+  bold = true,
+  nocombine = true,
+})
+require('leap').opts.highlight_unlabeled_phase_one_targets = true
 -- load snippets from path/of/your/nvim/config/my-cool-snippets
 --vim.o.runtimepath = vim.o.runtimepath .. 'C:/Users/yasha/.config/nvim/lua/snippets,'
 -- require("luasnip/loaders/from_vscode").lazy_load() -- load snippets of friendly/snippets
