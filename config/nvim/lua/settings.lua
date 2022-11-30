@@ -25,8 +25,8 @@ require'nvim-treesitter.configs'.setup {
 
 require('leap').setup {
   max_aot_targets = nil,
-  highlight_unlabeled = false,
-  max_highlighted_traversal_targets = 10,
+  highlight_unlabeled = truee,
+  max_highlighted_traversal_targets = 20,
   case_sensitive = false,
   -- Sets of characters that should match each other.
   -- Obvious candidates are braces and quotes ('([{', ')]}', '`"\'').
