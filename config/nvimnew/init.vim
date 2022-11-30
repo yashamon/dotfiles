@@ -1,0 +1,1 @@
+C:/Users/yasha/dotfiles/config/nvim/init.vim
