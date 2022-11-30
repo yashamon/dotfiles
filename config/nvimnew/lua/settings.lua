@@ -422,7 +422,7 @@ vim.api.nvim_set_hl(0, 'LeapMatch', {
   bold = true,
   nocombine = true,
 })
-require('leap').opts.highlight_unlabeled_phase_one_targets = true
+
 -- load snippets from path/of/your/nvim/config/my-cool-snippets
 --vim.o.runtimepath = vim.o.runtimepath .. 'C:/Users/yasha/.config/nvim/lua/snippets,'
 -- require("luasnip/loaders/from_vscode").lazy_load() -- load snippets of friendly/snippets
