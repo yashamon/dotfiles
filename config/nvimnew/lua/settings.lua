@@ -414,7 +414,7 @@ require('lualine').setup {
   tabline = {},
   winbar = {},
   inactive_winbar = {},
-  extensions = {}
+  extension = {}
 }
 vim.api.nvim_set_hl(0, 'LeapBackdrop', { link = 'Comment' })
 vim.api.nvim_set_hl(0, 'LeapMatch', {
