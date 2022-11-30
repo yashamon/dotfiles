@@ -416,6 +416,8 @@ require('lualine').setup {
   inactive_winbar = {},
   extension = {}
 }
+vim.api.nvim_set_hl(0, 'LeapBackdrop', { link = 'Comment' })
+
 
 -- load snippets from path/of/your/nvim/config/my-cool-snippets
 --vim.o.runtimepath = vim.o.runtimepath .. 'C:/Users/yasha/.config/nvim/lua/snippets,'
