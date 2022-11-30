@@ -192,7 +192,7 @@ function! OnUIEnter(event)
 	endif
 endfunction
 autocmd UIEnter * call OnUIEnter(deepcopy(v:event))
-autocmd ColorScheme * lua vim.api.nvim_set_hl(0, 'LeapMatch', { fg = "red" })
+autocmd ColorScheme * lua vim.api.nvim_set_hl(0, 'LeapMatch', { fg = "black" })
 
 "remember cursor location
 autocmd BufReadPost * if @% !~# '\.git[\/\\]COMMIT_EDITMSG$' && line("'\"") > 1 && line("'\"") <= line("$") | exe "normal! g`\"" | endif
