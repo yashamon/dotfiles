@@ -24,24 +24,24 @@ for file in $files; do
     echo "Moving any existing dotfiles from ~ to $olddir"
     mv ~/.$file ~/dotfiles_old/
     echo "Creating symlink to $file in home directory."
-    New-Item -ItemType SymbolicLink -Path "$dir/$file" -Target "~/.$file"
-done 
+    New-Item -ItemType SymbolicLink -Path "~/.$file" -Target "$dir/$file" 
+    done 
 cd $HOME/dotfiles/scripts
 for file in *; do
 echo file
-New-Item -ItemType SymbolicLink -Path "$HOME/dotfiles/scripts/$file" -Target "$HOME/.local/bin/$file"
+New-Item -ItemType SymbolicLink -Path "$HOME/.local/bin/$file" "$HOME/dotfiles/scripts/$file"
 done 
 mv ~/.config ~/dotfiles_old 
 echo "link config"
-New-Item -ItemType SymbolicLink -Path "$HOME/dotfiles/config" -Target "$HOME/.config"
+New-Item -ItemType SymbolicLink -Path "$HOME/.config" -Target "$HOME/dotfiles/config" 
 mkdir ~/.ctags.d
-New-Item -ItemType SymbolicLink -Path "$HOME/dotfiles/ctags" - Target "$HOME/.ctags.d/latex.ctags"
+New-Item -ItemType SymbolicLink -Path "$HOME/.ctags.d/latex.ctags" - Target "$HOME/dotfiles/ctags" 
 New-Item -ItemType SymbolicLink -Path "C:\Users\yasha\AppData\Ro
 aming\nushell\config.nu" -Target $HOME/dotfiles/config/nushell/con
 fig.nu
-New-Item -ItemType SymbolicLink -Path $HOME/dotfiles/config/nushell/env.nu -Target "C:\Users\yasha\AppData\Roaming\nushell\env.nu"
+New-Item -ItemType SymbolicLink -Path "C:\Users\yasha\AppData\Roaming\nushell\env.nu" -Target $HOME/dotfiles/config/nushell/env.nu
 New-Item -ItemType SymbolicLink -Path "$HOME/scoop/apps/summatrapdf/current/SummatraPDF-settings.txt" -Target "$HOME/dotfiles/config/SummatraPDF-settings.txt" 
-New-Item -ItemType SymbolicLink -Path "$HOME/AppData/Local/nvim" -Target "$HOME/dotfiles/config/nvimnew" 
+New-Item -ItemType SymbolicLink -Path "$HOME:/Users/yasha/AppData/Local/nvim" -Target "$HOME/dotfiles/config/nvimnew"
 git config --global credential.helper store
 git config --global user.name "yashamon"
 git config --global user.email "yasha.savelyev@gmail.com"
