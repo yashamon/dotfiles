@@ -192,7 +192,7 @@ function! OnUIEnter(event)
 	endif
 endfunction
 autocmd UIEnter * call OnUIEnter(deepcopy(v:event))
-
+autocmd ColorScheme * lua require('leap').init_highlight(true)
 
 "remember cursor location
 autocmd BufReadPost * if @% !~# '\.git[\/\\]COMMIT_EDITMSG$' && line("'\"") > 1 && line("'\"") <= line("$") | exe "normal! g`\"" | endif
