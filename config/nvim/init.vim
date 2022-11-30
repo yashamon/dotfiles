@@ -514,7 +514,7 @@ map <m-f> :FZF ~<CR>
 
 " Latex stuff
 " 
-nnoremap <leader>ss :w<cr>:source $MYVIMRC<cr> 
+nnoremap <leader>gs :w<cr>:source $MYVIMRC<cr> 
 nnoremap <c-e> viwy:cclose<cr>:<c-r>+<cr><cr>
 nnoremap <c-p> :<c-r>+<cr>
 nnoremap <m-l> viwy:bdelete<cr>:execute "buffer" g:buf<cr>:<c-r>+<cr><cr>
