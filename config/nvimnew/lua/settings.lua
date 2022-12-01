@@ -360,9 +360,11 @@ spellchecker = 'vimfn'
 
 require('lualine').setup {
   options = {
-        theme = M.theme(),
+     options = {
+        theme = require('settings').theme(),
     icons_enabled = true,
-    -- theme = '',
+    
+    theme = '',
     component_separators = { left = '', right = ''},
     section_separators = { left = '', right = ''},
     disabled_filetypes = {
