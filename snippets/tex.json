@@ -1072,7 +1072,7 @@
     "description": "nabla"
   },
 "gamma": {
-    "prefix": ["g"],
+    "prefix": ["g", "ga"],
     "body": [
       "\\gamma $0"
     ],
