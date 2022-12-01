@@ -354,7 +354,6 @@ require('spellsitter').setup {
   --   internal spell_check() function
 spellchecker = 'vimfn'
 }
-
 require('lualine').setup {
   options = {
     theme = 'tokyonight',
