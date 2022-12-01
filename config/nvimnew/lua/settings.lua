@@ -357,8 +357,8 @@ spellchecker = 'vimfn'
 
 require('lualine').setup {
   options = {
-    -- theme = 'tokyonight',
-    theme = 'M.theme',
+    -- theme = 
+    theme = require('theme').theme(),
     icons_enabled = true,
     theme = '',
     component_separators = { left = '', right = ''},
