@@ -405,7 +405,7 @@ local M = {}
 require('lualine').setup {
   options = {
     -- theme = 'tokyonight',
-    theme = M.theme
+    theme = M.theme,
     icons_enabled = true,
     theme = '',
     component_separators = { left = '', right = ''},
