@@ -355,9 +355,9 @@ require('spellsitter').setup {
 spellchecker = 'vimfn'
 }
 
--- require('lualine').setup {
+require('lualine').setup {
   options = {
-        theme = 'tokyonight'
+    theme = 'tokyonight',
     icons_enabled = true,
     theme = '',
     component_separators = { left = '', right = ''},
