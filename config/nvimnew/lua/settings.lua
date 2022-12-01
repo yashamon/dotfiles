@@ -330,8 +330,7 @@ sources = cmp.config.sources({
 completion = { autocomplete = false }
 })
 
- require('nvim_comment').setup(
-{
+require('nvim_comment').setup({
    -- Linters prefer comment and line to have a space in between markers
    marker_padding = true,
    -- should comment out empty or whitespace only lines
@@ -344,24 +343,7 @@ completion = { autocomplete = false }
    operator_mapping = "<leader>c",
    -- Hook function to call before commenting takes place
    --hook = nil 
- }
- )
- require('nvim_comment').setup(
-{
-   -- Linters prefer comment and line to have a space in between markers
-   marker_padding = true,
-   -- should comment out empty or whitespace only lines
-   comment_empty = true,
-   -- Should key mappings be created
-   create_mappings = true,
-   -- Normal mode mapping left hand side
-   line_mapping = "gc",
-   -- Visual/Operator mapping left hand side
-   operator_mapping = "<leader>c",
-   -- Hook function to call before commenting takes place
-   --hook = nil 
- }
- )
+ })
 require('spellsitter').setup {
   hl = 'SpellBad', 
   captures = {},  -- set to {} to spellcheck everything
@@ -372,54 +354,6 @@ require('spellsitter').setup {
   --   internal spell_check() function
 spellchecker = 'vimfn'
 }
-
-local M = {}
-    M.theme = function()
-        local colors = {
-            darkgray = "#16161d",
-            gray = "#727169",
-            innerbg = nil,
-            outerbg = "#16161D",
-            normal = "#7e9cd8",
-            insert = "#98bb6c",
-            visual = "#ffa066",
-            replace = "#e46876",
-            command = "#e6c384",
-        }
-        return {
-            inactive = {
-                a = { fg = colors.gray, bg = colors.outerbg, gui = "bold" },
-                b = { fg = colors.gray, bg = colors.outerbg },
-                c = { fg = colors.gray, bg = colors.innerbg },
-            },
-            visual = {
-                a = { fg = colors.darkgray, bg = colors.visual, gui = "bold" },
-                b = { fg = colors.gray, bg = colors.outerbg },
-                c = { fg = colors.gray, bg = colors.innerbg },
-            },
-            replace = {
-                a = { fg = colors.darkgray, bg = colors.replace, gui = "bold" },
-                b = { fg = colors.gray, bg = colors.outerbg },
-                c = { fg = colors.gray, bg = colors.innerbg },
-            },
-            normal = {
-                a = { fg = colors.darkgray, bg = colors.normal, gui = "bold" },
-                b = { fg = colors.gray, bg = colors.outerbg },
-                c = { fg = colors.gray, bg = colors.innerbg },
-            },
-            insert = {
-                a = { fg = colors.darkgray, bg = colors.insert, gui = "bold" },
-                b = { fg = colors.gray, bg = colors.outerbg },
-                c = { fg = colors.gray, bg = colors.innerbg },
-            },
-            command = {
-                a = { fg = colors.darkgray, bg = colors.command, gui = "bold" },
-                b = { fg = colors.gray, bg = colors.outerbg },
-                c = { fg = colors.gray, bg = colors.innerbg },
-            },
-        }
-    end
-    return M
 
 require('lualine').setup {
   options = {
