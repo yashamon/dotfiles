@@ -358,11 +358,59 @@ require('spellsitter').setup {
 spellchecker = 'vimfn'
 }
 
+local M = {}
+    M.theme = function()
+        local colors = {
+            darkgray = "#16161d",
+            gray = "#727169",
+            innerbg = nil,
+            outerbg = "#16161D",
+            normal = "#7e9cd8",
+            insert = "#98bb6c",
+            visual = "#ffa066",
+            replace = "#e46876",
+            command = "#e6c384",
+        }
+        return {
+            inactive = {
+                a = { fg = colors.gray, bg = colors.outerbg, gui = "bold" },
+                b = { fg = colors.gray, bg = colors.outerbg },
+                c = { fg = colors.gray, bg = colors.innerbg },
+            },
+            visual = {
+                a = { fg = colors.darkgray, bg = colors.visual, gui = "bold" },
+                b = { fg = colors.gray, bg = colors.outerbg },
+                c = { fg = colors.gray, bg = colors.innerbg },
+            },
+            replace = {
+                a = { fg = colors.darkgray, bg = colors.replace, gui = "bold" },
+                b = { fg = colors.gray, bg = colors.outerbg },
+                c = { fg = colors.gray, bg = colors.innerbg },
+            },
+            normal = {
+                a = { fg = colors.darkgray, bg = colors.normal, gui = "bold" },
+                b = { fg = colors.gray, bg = colors.outerbg },
+                c = { fg = colors.gray, bg = colors.innerbg },
+            },
+            insert = {
+                a = { fg = colors.darkgray, bg = colors.insert, gui = "bold" },
+                b = { fg = colors.gray, bg = colors.outerbg },
+                c = { fg = colors.gray, bg = colors.innerbg },
+            },
+            command = {
+                a = { fg = colors.darkgray, bg = colors.command, gui = "bold" },
+                b = { fg = colors.gray, bg = colors.outerbg },
+                c = { fg = colors.gray, bg = colors.innerbg },
+            },
+        }
+    end
+    return M
+
 require('lualine').setup {
   options = {
-        theme = require('settings').theme(),
+        theme = M.theme(),
     icons_enabled = true,
-    -- theme = '',
+    theme = '',
     component_separators = { left = '', right = ''},
     section_separators = { left = '', right = ''},
     disabled_filetypes = {
@@ -420,53 +468,7 @@ require('lualine').setup {
 vim.api.nvim_set_hl(0, 'LeapBackdrop', { link = 'Comment' })
 
 
-local M = {}
-    M.theme = function()
-        local colors = {
-            darkgray = "#16161d",
-            gray = "#727169",
-            innerbg = nil,
-            outerbg = "#16161D",
-            normal = "#7e9cd8",
-            insert = "#98bb6c",
-            visual = "#ffa066",
-            replace = "#e46876",
-            command = "#e6c384",
-        }
-        return {
-            inactive = {
-                a = { fg = colors.gray, bg = colors.outerbg, gui = "bold" },
-                b = { fg = colors.gray, bg = colors.outerbg },
-                c = { fg = colors.gray, bg = colors.innerbg },
-            },
-            visual = {
-                a = { fg = colors.darkgray, bg = colors.visual, gui = "bold" },
-                b = { fg = colors.gray, bg = colors.outerbg },
-                c = { fg = colors.gray, bg = colors.innerbg },
-            },
-            replace = {
-                a = { fg = colors.darkgray, bg = colors.replace, gui = "bold" },
-                b = { fg = colors.gray, bg = colors.outerbg },
-                c = { fg = colors.gray, bg = colors.innerbg },
-            },
-            normal = {
-                a = { fg = colors.darkgray, bg = colors.normal, gui = "bold" },
-                b = { fg = colors.gray, bg = colors.outerbg },
-                c = { fg = colors.gray, bg = colors.innerbg },
-            },
-            insert = {
-                a = { fg = colors.darkgray, bg = colors.insert, gui = "bold" },
-                b = { fg = colors.gray, bg = colors.outerbg },
-                c = { fg = colors.gray, bg = colors.innerbg },
-            },
-            command = {
-                a = { fg = colors.darkgray, bg = colors.command, gui = "bold" },
-                b = { fg = colors.gray, bg = colors.outerbg },
-                c = { fg = colors.gray, bg = colors.innerbg },
-            },
-        }
-    end
-    return M
+
 
 -- load snippets from path/of/your/nvim/config/my-cool-snippets
 --vim.o.runtimepath = vim.o.runtimepath .. 'C:/Users/yasha/.config/nvim/lua/snippets,'
