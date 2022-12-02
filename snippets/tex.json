@@ -1115,7 +1115,13 @@
     ],
     "description": "cal V"
   },
-
+"caligraphic M": {
+    "prefix": ["cM"],
+    "body": [
+      "\\mathcal{M} $0"
+    ],
+    "description": "cal M"
+  },
 "caligraphic P": {
     "prefix": ["cP"],
     "body": [
