@@ -184,7 +184,7 @@ undercurl = true,
   transparent_mode = false,
     overrides = {
         SignColumn = {bg = "#ffa546"},
-        Normal = {bg = "fd8432"},
+        Normal = {bg = "#fd8432"},
         DiagnosticSignError = { bg = "#ffa546" },
         DiagnosticSignWarn = { bg = "#ffa546" }, 
         DiagnosticSignInfo = { bg = "#ffa546" }, 
