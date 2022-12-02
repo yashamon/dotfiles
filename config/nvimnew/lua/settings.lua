@@ -184,7 +184,7 @@ undercurl = true,
   transparent_mode = false,
     overrides = {
         SignColumn = {bg = "#ffa546"},
-        Normal = {bg = "#fd8432"},
+        Normal = {bg = "#ffa546"},
         DiagnosticSignError = { bg = "#ffa546" },
         DiagnosticSignWarn = { bg = "#ffa546" }, 
         DiagnosticSignInfo = { bg = "#ffa546" }, 
@@ -197,7 +197,7 @@ undercurl = true,
         Operator = { fg = "#808080" }
 
  
-
+-- bright orange  #fd8432
         --texComment = { fg = "#00ff00" },
         -- texString = { fg = "#0000ff" },
         -- Special = {fg = "#0000ff" },
