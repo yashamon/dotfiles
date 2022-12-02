@@ -190,8 +190,8 @@ undercurl = true,
         DiagnosticSignInfo = { bg = "#ffa546" }, 
         DiagnosticSignHint = { bg = "#ffa546" },
         texType = { fg = "#808080" },
-        texMath = { fg = "#FF0000." },
-        Special = { fg = "#FF0000." }
+        texMath = { fg = "#FF0000" },
+        Special = { fg = "#FF0000" }
  
 
         --texComment = { fg = "#00ff00" },
