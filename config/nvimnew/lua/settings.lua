@@ -195,7 +195,7 @@ undercurl = true,
         texDelimiter = { fg = "#808080" },
         texStatement = { fg = "#808080" },
         Operator = { fg = "#808080" },
-        Type = { fg = "#808080" }
+        Type = { fg = "003b00" }
 
 
  
