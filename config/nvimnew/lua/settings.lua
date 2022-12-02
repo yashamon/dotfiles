@@ -196,7 +196,7 @@ undercurl = true,
         texStatement = { fg = "#808080" },
         Operator = { fg = "#808080" },
         Type = { fg = "#008800" },
-        Comment = { fg = "#808080" }
+        Comment = { fg = "#fe8b00" }
 
 
 
