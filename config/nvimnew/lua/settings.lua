@@ -189,7 +189,9 @@ undercurl = true,
         DiagnosticSignWarn = { bg = "#ffa546" }, 
         DiagnosticSignInfo = { bg = "#ffa546" }, 
         DiagnosticSignHint = { bg = "#ffa546" },
-        TexType = { bg = "#808080" }
+        TexType = { fg = "#808080" },
+        TexMath = { fg = 'red' }
+
 
         --texComment = { fg = "#00ff00" },
         -- texString = { fg = "#0000ff" },
