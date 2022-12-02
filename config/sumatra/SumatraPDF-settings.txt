@@ -1,7 +1,9 @@
 ﻿# For documentation, see https://www.sumatrapdfreader.org/settings/settings3-4-6.html
+#ffa546
+
 FixedPageUI [
 	TextColor = #000000
-	BackgroundColor = #ffa546
+	BackgroundColor = #fd8432
 	SelectionColor = #f5fc0c
 	WindowMargin = 2 4 2 4
 	PageSpacing = 4 4
@@ -113,13 +115,93 @@ TreeFontSize = 0
 SmoothScroll = false
 ShowStartPage = true
 CheckForUpdates = false
-WindowState = 3
-WindowPos = 298 0 1480 1872
+WindowState = 1
+WindowPos = 451 0 1480 1872
 UseTabs = true
 UseSysColors = false
 CustomScreenDPI = 0
 
 FileStates [
+	[
+		FilePath = C:\Users\yasha\workspacemodules\conformalsymplectic\build\conformalsymplectic.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 6
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = 75.2127 63.8456
+		PageNo = 6
+		Zoom = fit content
+		Rotation = 0
+		WindowState = 1
+		WindowPos = 451 0 1480 1872
+		ShowToc = false
+		SidebarDx = 364
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = C:\Users\yasha\workspace\vita\build\coverLetterAustin.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 1
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 -1
+		PageNo = 2
+		Zoom = 100
+		Rotation = 0
+		WindowState = 1
+		WindowPos = 451 0 1480 1872
+		ShowToc = false
+		SidebarDx = 364
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = C:\Users\yasha\workspace\vita\build\coverLetter2022.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 2
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 2.06287
+		PageNo = 1
+		Zoom = 100
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 451 0 1480 1872
+		ShowToc = false
+		SidebarDx = 364
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = C:\Users\yasha\workspace\vita\build\coverLetterAmherst.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 1
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 35.0629
+		PageNo = 1
+		Zoom = 100
+		Rotation = 0
+		WindowState = 1
+		WindowPos = 451 0 1480 1872
+		ShowToc = false
+		SidebarDx = 364
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
 	[
 		FilePath = C:\Users\yasha\workspace\vita\build\coverLetter2022HK.pdf
 		Favorites [
@@ -196,26 +278,6 @@ FileStates [
 		WindowState = 2
 		WindowPos = 451 0 1480 1872
 		ShowToc = true
-		SidebarDx = 364
-		DisplayR2L = false
-		ReparseIdx = 0
-	]
-	[
-		FilePath = C:\Users\yasha\workspacemodules\conformalsymplectic\build\conformalsymplectic.pdf
-		Favorites [
-		]
-		IsPinned = false
-		IsMissing = false
-		OpenCount = 4
-		UseDefaultState = false
-		DisplayMode = continuous
-		ScrollPos = 76.875 64.031
-		PageNo = 6
-		Zoom = fit content
-		Rotation = 0
-		WindowState = 1
-		WindowPos = 451 0 1480 1872
-		ShowToc = false
 		SidebarDx = 364
 		DisplayR2L = false
 		ReparseIdx = 0
@@ -450,26 +512,6 @@ FileStates [
 		UseDefaultState = false
 		DisplayMode = continuous
 		ScrollPos = -1 215.063
-		PageNo = 1
-		Zoom = 100
-		Rotation = 0
-		WindowState = 2
-		WindowPos = 451 0 1480 1872
-		ShowToc = false
-		SidebarDx = 364
-		DisplayR2L = false
-		ReparseIdx = 0
-	]
-	[
-		FilePath = C:\Users\yasha\workspace\vita\build\coverLetter2022.pdf
-		Favorites [
-		]
-		IsPinned = false
-		IsMissing = false
-		OpenCount = 1
-		UseDefaultState = false
-		DisplayMode = continuous
-		ScrollPos = -1 659.063
 		PageNo = 1
 		Zoom = 100
 		Rotation = 0
