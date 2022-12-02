@@ -192,7 +192,7 @@ undercurl = true,
         texType = { fg = "#808080" },
         texMath = { fg = "#808080" },
         Special = { fg = "#FF0000" },
-        texDelimiter = { fg = "#FF0000" },
+        texDelimiter = { fg = "#808080" },
         texStatement = { fg = "#808080" }
  
 
