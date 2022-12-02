@@ -191,12 +191,12 @@ undercurl = true,
         DiagnosticSignHint = { bg = "#ffa546" },
         texType = { fg = "#808080" },
         texMath = { fg = "#808080" },
-        Special = { fg = "#808080" },
+        Special = { fg = "#754000" },
         texDelimiter = { fg = "#808080" },
         texStatement = { fg = "#808080" },
         Operator = { fg = "#808080" },
         Type = { fg = "#008800" },
-        Comment = { fg = "#894b00" }
+        Comment = { fg = "#808080" }
 
 
 
