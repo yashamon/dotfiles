@@ -680,6 +680,7 @@ function ToggleQuickFix()
         echo b:errors
         exec "cg" b:errors
         lua require('telescope.builtin').quickfix({layout_strategy='vertical',layout_config={width=0.9}})
+        call feedkeys("fatal")
     "     copen
     "     sleep 200m
     "     exec "wincmd j"
