@@ -611,36 +611,37 @@ command! -bang -nargs=* BLinesB
     \   fzf#vim#with_preview({'options': '--keep-right --layout reverse --query '.shellescape(<q-args>).' --preview "bat -p --color always {}"'}, 'up:50%'))
 
 function Line()
- " vimgrep /\w\+/j % | copen
-  let g:buf = bufname()
-  " silent execute "!bash /mnt/c/Users/yasha/dotfiles/scripts/sentence.sh %"
-  let b:filenamedir = substitute(expand('%:p:h'), "\\", "/", "g")
-  let b:file = expand('%:p')
-  let b:filename = substitute(b:file, "\\", "/", "g")
-  let b:execstr = "!nu C:/Users/yasha/dotfiles/scripts/line.nu " . b:filename
-  exec b:execstr
-  cg @_%
-  Telescope quickfix
-  " copen
-  " sleep 600m
-  " " let b:paste = system('pwsh -c Get-Clipboard')
-  " " call feedkeys(":BLinesB \<c-r>+\<cr>")
-  " call feedkeys("zf")
-  endfunction
+   " vimgrep /\w\+/j % | copen
+   let g:buf = bufname()
+   " silent execute "!bash /mnt/c/Users/yasha/dotfiles/scripts/sentence.sh %"
+   let b:filenamedir = substitute(expand('%:p:h'), "\\", "/", "g")
+   let b:file = expand('%:p')
+   let b:filename = substitute(b:file, "\\", "/", "g")
+   let b:execstr = "!nu C:/Users/yasha/dotfiles/scripts/line.nu " . b:filename
+   exec b:execstr
+   cg @_%
+   lua require('telescope.builtin').quickfix({layout_strategy='vertical',layout_config={width=0.9}}) 
+   " copen
+   " sleep 600m
+   " " let b:paste = system('pwsh -c Get-Clipboard')
+   " " call feedkeys(":BLinesB \<c-r>+\<cr>")
+   " call feedkeys("zf")
+endfunction
 function Sentence()
- let g:buf = bufname()
-  " silent execute "!bash /mnt/c/Users/yasha/dotfiles/scripts/sentence.sh %"
-  let b:filenamedir = substitute(expand('%:p:h'), "\\", "/", "g")
-  let b:file = expand('%:p')
-  let b:filename = substitute(b:file, "\\", "/", "g")
-  let b:execstr = "!nu C:/Users/yasha/dotfiles/scripts/sentence.nu " . b:filename
-  exec b:execstr
-  cg @_%
-  Telescope quickfix
-  " copen
-  " sleep 600m
-  " " let b:paste = system('pwsh -c Get-Clipboard')
-  " call feedkeys("zf")
+   let g:buf = bufname()
+   " silent execute "!bash /mnt/c/Users/yasha/dotfiles/scripts/sentence.sh %"
+   let b:filenamedir = substitute(expand('%:p:h'), "\\", "/", "g")
+   let b:file = expand('%:p')
+   let b:filename = substitute(b:file, "\\", "/", "g")
+   let b:execstr = "!nu C:/Users/yasha/dotfiles/scripts/sentence.nu " . 
+   b:filename
+   exec b:execstr
+   cg @_%
+   lua require('telescope.builtin').buffers({layout_strategy='vertical',layout_config={width=0.9}})<cr> 
+   " copen
+   " sleep 600m
+   " " let b:paste = system('pwsh -c Get-Clipboard')
+   " call feedkeys("zf")
 endfunction
 
 function SentenceLL()
