@@ -55,9 +55,9 @@ require('telescope').setup({
      previewers = {
     {
       filesize_limit = 25,
-      timeout = 250,
+      timeout = 300,
     }
- }
+ },
     -- other defaults configuration here
   },
   -- other configuration values here
