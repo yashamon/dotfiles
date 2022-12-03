@@ -653,11 +653,12 @@ function SentenceLL()
   let b:execstr = "!nu C:/Users/yasha/dotfiles/scripts/sentence.nu " . b:filename
   exec b:execstr
   cg @_% 
-  copen
+  lua require('telescope.builtin').quickfix({layout_strategy='vertical',layout_config={width=0.9}})
+  " copen
   " let b:paste = system('pwsh -c Get-Clipboard')
-  sleep 600m
-  call feedkeys("zf")
-  call feedkeys("\<c-r>+\<cr>")
+  " sleep 600m
+  " call feedkeys("zf")
+  " call feedkeys("\<c-r>+\<cr>")
 endfunction
 noremap gs :call SentenceLL()<cr>
 function GitAsync()
@@ -678,13 +679,14 @@ function ToggleQuickFix()
         let b:errors=b:filenamedir . "/build/" . b:filename .".log"
         echo b:errors
         exec "cg" b:errors
-        copen
-        sleep 200m
-        exec "wincmd j"
-        exec "/error"
-    else
-        exec "cclose"
-        sleep 1
+        lua require('telescope.builtin').quickfix({layout_strategy='vertical',layout_config={width=0.9}})
+    "     copen
+    "     sleep 200m
+    "     exec "wincmd j"
+    "     exec "/error"
+    " else
+    "     exec "cclose"
+    "     sleep 1
         endif
 endfunction
 
