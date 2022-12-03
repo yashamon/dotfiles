@@ -39,6 +39,7 @@ Plug 'nvim-telescope/telescope.nvim'
 Plug 'simnalamburt/vim-mundo'
 Plug 'rlane/pounce.nvim'
 "TODO: add alt jk mappings
+
 " Plug 'rakr/vim-one'
 "" Plug 'hrsh7th/cmp-vsnip', { 'branch': 'main' } 
 " Plug 'hrsh7th/vim-vsnip'
