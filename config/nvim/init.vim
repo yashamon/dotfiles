@@ -2,6 +2,7 @@ call plug#begin('~/.vim/plugged')
 Plug 'folke/todo-comments.nvim', { 'branch': 'main' }
 Plug 'L3MON4D3/LuaSnip'
 Plug 'saadparwaiz1/cmp_luasnip'
+Plug 'nvim-treesitter/playground'
 Plug 'LhKipp/nvim-nu'
 Plug 'folke/which-key.nvim'
 Plug 'ggandor/leap.nvim'
@@ -37,7 +38,7 @@ Plug 'nvim-lua/plenary.nvim'
 Plug 'nvim-telescope/telescope.nvim'
 Plug 'simnalamburt/vim-mundo'
 Plug 'rlane/pounce.nvim'
-
+"TODO: add alt jk mappings
 " Plug 'rakr/vim-one'
 "" Plug 'hrsh7th/cmp-vsnip', { 'branch': 'main' } 
 " Plug 'hrsh7th/vim-vsnip'
@@ -51,6 +52,7 @@ Plug 'rlane/pounce.nvim'
 " Plug 'rlane/pounce.nvim'
 " Plug 'phaazon/hop.nvim'
 " Plug 'ggandor/lightspeed.nvim'
+"" Plug 'nyngwang/murmur' 
 " Plug 'vim-scripts/AutoTag'
 " Plug 'rebelot/kanagawa.nvim'
 " Plug 'reedes/vim-pencil' 
@@ -355,6 +357,7 @@ noremap <leader>q q
 nmap <m-7> :ZenMode<cr>:mksession!<cr>
 nnoremap <leader>rr :w<cr>:source $MYVIMRC<CR>
 nnoremap <leader>u <cr>:UndotreeToggle<CR>
+noremap <leader>c :'<,'>CommentToggle<cr>
 nnoremap <leader>f :silent execute "!echo " . v:servername . ' > C:/Users/yasha/servername.txt'<cr>:te pwsh -c lf<cr>i
 " nnoremap <leader>tt :FloatermToggle<cr>
 nnoremap <leader>t :silent execute "!echo " . v:servername . ' > C:/Users/yasha/servername.txt'<cr>:edit term://pwsh<cr><cr>
@@ -465,7 +468,6 @@ nnoremap <leader>j J
 nnoremap <leader>k K
 map ' "
 nnoremap <Backspace> i<Backspace><Esc>
-nmap <leader>c gc
 noremap <A-r> <C-r>
 nnoremap ` ~
 nnoremap . `
@@ -520,8 +522,14 @@ nnoremap <c-p> :<c-r>+<cr>
 nnoremap <m-l> viwy:bdelete<cr>:execute "buffer" g:buf<cr>:<c-r>+<cr><cr>
 " noremap <m-l> viwy<esc>:bp<cr>:<c-r>+<cr>
 
-"FZF Neoyank yank     
-"
+" nvim-comment
+" 
+vnoremap <leader>c :'<,'>CommentToggle<cr>
+nnoremap <leader>c :gc
+
+
+" FZF Neoyank yank     
+
 nnoremap <leader>y :FZFNeoyank<cr>
 nnoremap <leader>Y :FZFNeoyank  P<cr>
 vnoremap <leader>y :FZFNeoyankSelection<cr>
@@ -716,7 +724,7 @@ map <m-v> <esc>:call ViewPdf()<cr><cr>
 " let  g:vimtex_fold_types_defaults = 'preamble, sections, comments'
 nmap <leader>ll :call CompileLatex()<cr>
 nmap <leader>lcl :call ClearLatex()<cr>
-nmap <leader>gtd :call TodoQuickFix<cr>
+nmap gtd :TodoQuickFix<cr>
 nmap <leader>ga :TZAtaraxis<CR>
 nmap <leader>gm :w<cr>:silent ! cat % >> ~/workspace/email.txt; cp % /tmp/temp; make4ht /tmp/temp "mathml,mathjax"; pandoc /tmp/temp.html --from html --to markdown_strict -o /tmp/temp.md; mv /tmp/temp.md %<cr>:e %<cr>:w<cr>:qa<cr>
 

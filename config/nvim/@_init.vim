@@ -192,7 +192,7 @@
  C:/Users/yasha/dotfiles/config/nvim/init.vim:192:: 	endif
  C:/Users/yasha/dotfiles/config/nvim/init.vim:193:: endfunction
  C:/Users/yasha/dotfiles/config/nvim/init.vim:194:: autocmd UIEnter * call OnUIEnter(deepcopy(v:event))
- C:/Users/yasha/dotfiles/config/nvim/init.vim:195:: 
+ C:/Users/yasha/dotfiles/config/nvim/init.vim:195:: autocmd ColorScheme * lua vim.api.nvim_set_hl(0, 'LeapMatch', { fg = "black" )
  C:/Users/yasha/dotfiles/config/nvim/init.vim:196:: 
  C:/Users/yasha/dotfiles/config/nvim/init.vim:197:: "remember cursor location
  C:/Users/yasha/dotfiles/config/nvim/init.vim:198:: autocmd BufReadPost * if @ !~# ' .git[ /   COMMIT_EDITMSG ' && line("' "") > 1 && line("' "") <= line(" ") | exe "normal! g` "" | endif
@@ -514,7 +514,7 @@
  C:/Users/yasha/dotfiles/config/nvim/init.vim:514:: 
  C:/Users/yasha/dotfiles/config/nvim/init.vim:515:: " Latex stuff
  C:/Users/yasha/dotfiles/config/nvim/init.vim:516:: " 
- C:/Users/yasha/dotfiles/config/nvim/init.vim:517:: nnoremap <leader>ss :w<cr>:source  MYVIMRC<cr> 
+ C:/Users/yasha/dotfiles/config/nvim/init.vim:517:: nnoremap <leader>gs :w<cr>:source  MYVIMRC<cr> 
  C:/Users/yasha/dotfiles/config/nvim/init.vim:518:: nnoremap <c e> viwy:cclose<cr>:<c r>+<cr><cr>
  C:/Users/yasha/dotfiles/config/nvim/init.vim:519:: nnoremap <c p> :<c r>+<cr>
  C:/Users/yasha/dotfiles/config/nvim/init.vim:520:: nnoremap <m l> viwy:bdelete<cr>:execute "buffer" g:buf<cr>:<c r>+<cr><cr>
