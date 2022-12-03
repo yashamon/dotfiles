@@ -198,6 +198,8 @@ undercurl = true,
         -- Type = { fg = "#008800" },
         Comment = { fg = "#af6000" },
         String = { fg = "#580058" }
+        Operator = { fg = "#4d2a00" },
+
 
  
 -- bright orange  #fd8432
