@@ -51,7 +51,13 @@ require('telescope').setup({
       vertical = { width = 0.9 }
       -- other layout configuration here
     },
-    scroll_strategy = 'limit'
+    scroll_strategy = 'limit',
+     previewers = {
+    {
+      filesize_limit = 25,
+      timeout = 250,
+    }
+ }
     -- other defaults configuration here
   },
   -- other configuration values here
