@@ -277,7 +277,7 @@ set tm=1000
 " set macreta 
 hi SpellBad cterm=underline
 " Set style for gVim
-hi SpellBad gui=underline
+hi SpellBad gui=undercurl guisp=darkblue
 "
 "Autocommands, au
 au FileType Makefile set noexpandtab
