@@ -654,10 +654,6 @@ function SentenceLL()
   exec b:execstr
   cg @_% 
   lua require('telescope.builtin').quickfix({layout_strategy='vertical',layout_config={width=0.9}})
-  " copen
-  " let b:paste = system('pwsh -c Get-Clipboard')
-  " sleep 600m
-  " call feedkeys("zf")
   call feedkeys("\<c-r>+\<cr>")
 endfunction
 noremap gs :call SentenceLL()<cr>
