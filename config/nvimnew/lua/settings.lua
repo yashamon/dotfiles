@@ -1,7 +1,6 @@
 
 
 
-
 -- Keymaps
 vim.keymap.set('t', '<C-r>+', [[getreg('+')]], {expr = true})
 -- LSP
@@ -197,10 +196,7 @@ undercurl = true,
         -- Operator = { fg = "#808080" },
         -- Type = { fg = "#008800" },
         Comment = { fg = "#af6000" },
-        String = { fg = "#630000 " }
-
-
-
+        String = { fg = "#770000" }
 
  
 -- bright orange  #fd8432
