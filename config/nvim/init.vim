@@ -1,4 +1,5 @@
 call plug#begin('~/.vim/plugged')
+Plug 'nvim-telescope/telescope-fzf-native.nvim', { 'do': 'cmake -S. -Bbuild -DCMAKE_BUILD_TYPE=Release && cmake --build build --config Release && cmake --install build --prefix build' }
 Plug 'folke/todo-comments.nvim', { 'branch': 'main' }
 Plug 'L3MON4D3/LuaSnip'
 Plug 'saadparwaiz1/cmp_luasnip'
