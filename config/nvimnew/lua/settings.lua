@@ -51,6 +51,7 @@ require('telescope').setup({
       vertical = { width = 0.9 }
       -- other layout configuration here
     },
+    scroll_strategy = 'limit'
     -- other defaults configuration here
   },
   -- other configuration values here
@@ -182,12 +183,12 @@ undercurl = true,
   dim_inactive = false,
   transparent_mode = false,
     overrides = {
-        SignColumn = {bg = "#ff8040"},
-        Normal = {bg = "#ff8040"},
-        DiagnosticSignError = { bg = "#ff8040" },
-        DiagnosticSignWarn = { bg = "#ff8040" }, 
-        DiagnosticSignInfo = { bg = "#ff8040" }, 
-        DiagnosticSignHint = { bg = "#ff8040" },
+        SignColumn = {bg = "#ffa546"},
+        Normal = {bg = "#ffa546"},
+        DiagnosticSignError = { bg = "#ffa546" },
+        DiagnosticSignWarn = { bg = "#ffa546" }, 
+        DiagnosticSignInfo = { bg = "#ffa546" }, 
+        DiagnosticSignHint = { bg = "#ffa546" },
         texType = { fg = "#808080" },
         texMath = { fg = "#808080" },
         Special = { fg = "#4d2a00" },
