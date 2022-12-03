@@ -136,6 +136,7 @@ Plug 'rlane/pounce.nvim'
 call plug#end()
 lua <<EOF
 require('settings')
+require('telescope').load_extension('fzf')
 EOF
 
 "Neovide 
@@ -617,7 +618,7 @@ function Line()
    let b:filenamedir = substitute(expand('%:p:h'), "\\", "/", "g")
    let b:file = expand('%:p')
    let b:filename = substitute(b:file, "\\", "/", "g")
-   let b:execstr = "!nu C:/Users/yasha/dotfiles/scripts/line.nu " . b:filename
+   let b:execstr = "!nu C:/Users/yasha/dotfiles/scripts/line.nu" . b:filename
    exec b:execstr
    cg @_%
    lua require('telescope.builtin').quickfix({layout_strategy='vertical',layout_config={width=0.9}}) 
@@ -633,8 +634,7 @@ function Sentence()
    let b:filenamedir = substitute(expand('%:p:h'), "\\", "/", "g")
    let b:file = expand('%:p')
    let b:filename = substitute(b:file, "\\", "/", "g")
-   let b:execstr = "!nu C:/Users/yasha/dotfiles/scripts/sentence.nu " . 
-   b:filename
+   let b:execstr = "!nu C:/Users/yasha/dotfiles/scripts/sentence.nu " . b:filename
    exec b:execstr
    cg @_%
    lua require('telescope.builtin').quickfix({layout_strategy='vertical',layout_config={width=0.9}}) 
@@ -654,7 +654,6 @@ function SentenceLL()
   exec b:execstr
   cg @_% 
   lua require('telescope.builtin').quickfix({layout_strategy='vertical',layout_config={width=0.9}})
-  sleep 200
   call feedkeys("\<c-r>+\<cr>")
 endfunction
 noremap gs :call SentenceLL()<cr>
