@@ -637,7 +637,7 @@ function Sentence()
    b:filename
    exec b:execstr
    cg @_%
-   lua require('telescope.builtin').buffers({layout_strategy='vertical',layout_config={width=0.9}})<cr> 
+   lua require('telescope.builtin').quickfix({layout_strategy='vertical',layout_config={width=0.9}}) 
    " copen
    " sleep 600m
    " " let b:paste = system('pwsh -c Get-Clipboard')
