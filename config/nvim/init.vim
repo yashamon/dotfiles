@@ -635,10 +635,11 @@ function Sentence()
   let b:execstr = "!nu C:/Users/yasha/dotfiles/scripts/sentence.nu " . b:filename
   exec b:execstr
   cg @_%
-  copen
-  sleep 600m
-  " let b:paste = system('pwsh -c Get-Clipboard')
-  call feedkeys("zf")
+  Telescope quickfix
+  " copen
+  " sleep 600m
+  " " let b:paste = system('pwsh -c Get-Clipboard')
+  " call feedkeys("zf")
 endfunction
 
 function SentenceLL()
