@@ -620,11 +620,12 @@ function Line()
   let b:execstr = "!nu C:/Users/yasha/dotfiles/scripts/line.nu " . b:filename
   exec b:execstr
   cg @_%
-  copen
-  sleep 600m
-  " let b:paste = system('pwsh -c Get-Clipboard')
-  " call feedkeys(":BLinesB \<c-r>+\<cr>")
-  call feedkeys("zf")
+  Telescope quickfix
+  " copen
+  " sleep 600m
+  " " let b:paste = system('pwsh -c Get-Clipboard')
+  " " call feedkeys(":BLinesB \<c-r>+\<cr>")
+  " call feedkeys("zf")
   endfunction
 function Sentence()
  let g:buf = bufname()
