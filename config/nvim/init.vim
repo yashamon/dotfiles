@@ -208,7 +208,7 @@ nnoremap <m-y> viwy:buffer g:buffmain<cr>:<c-r>+<cr><cr>
 let g:tex_flavor = "latex"
 let g:tex_isk = '@,48-57,58,_,192-255,:' 
 au FileType tex setlocal iskeyword+=:
-au Filetype tex,text,md set tw=50
+au Filetype tex,text,md set tw=70
 set foldmethod=expr
 set foldexpr=nvim_treesitter#foldexpr()
 autocmd BufReadPost,FileReadPost * normal zR
