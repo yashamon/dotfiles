@@ -655,10 +655,11 @@ function SentenceLL()
   exec b:execstr
   cg @_% 
   copen 
-  " sleep 300m
-  " call feedkeys("zf")
+  sleep 300m
+  call feedkeys("zf")
+  sleep 100m
   " lua require('telescope.builtin').quickfix({layout_strategy='vertical',layout_config={width=0.9}})
-  " call feedkeys("\<c-r>+\<cr>")
+  call feedkeys("\<c-r>+\<cr>")
 endfunction
 noremap gs :call SentenceLL()<cr>
 function GitAsync()
