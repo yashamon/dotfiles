@@ -655,7 +655,7 @@ function SentenceLL()
   exec b:execstr
   cg @_% 
   copen 
-  sleep 200m
+  sleep 300m
   call feedkeys("zf")
   " lua require('telescope.builtin').quickfix({layout_strategy='vertical',layout_config={width=0.9}})
   call feedkeys("\<c-r>+\<cr>")
