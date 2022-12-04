@@ -654,8 +654,10 @@ function SentenceLL()
   let b:execstr = "!nu C:/Users/yasha/dotfiles/scripts/sentence.nu " . b:filename
   exec b:execstr
   cg @_% 
-  lua require('telescope.builtin').quickfix({layout_strategy='vertical',layout_config={width=0.9}})
+  copen 
   sleep 200m
+  call feedkeys("zf")
+  " lua require('telescope.builtin').quickfix({layout_strategy='vertical',layout_config={width=0.9}})
   call feedkeys("\<c-r>+\<cr>")
 endfunction
 noremap gs :call SentenceLL()<cr>
