@@ -137,7 +137,7 @@ Plug 'rlane/pounce.nvim'
 call plug#end()
 lua <<EOF
 require('settings')
--- require('telescope').load_extension('fzf')
+require('telescope').load_extension('fzf')
 EOF
 
 "Neovide 
@@ -638,11 +638,11 @@ function Sentence()
    let b:execstr = "!nu C:/Users/yasha/dotfiles/scripts/sentence.nu " . b:filename
    exec b:execstr
    cg @_%
-   lua require('telescope.builtin').quickfix({layout_strategy='vertical',layout_config={width=0.9}}) 
-   " copen
-   " sleep 600m
+   " lua require('telescope.builtin').quickfix({layout_strategy='vertical',layout_config={width=0.9}}) 
+   copen
+   sleep 600m
    " " let b:paste = system('pwsh -c Get-Clipboard')
-   " call feedkeys("zf")
+   call feedkeys("zf")
 endfunction
 
 function SentenceLL()
