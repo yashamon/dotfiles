@@ -137,7 +137,7 @@ Plug 'rlane/pounce.nvim'
 call plug#end()
 lua <<EOF
 require('settings')
-require('telescope').load_extension('fzf')
+-- require('telescope').load_extension('fzf')
 EOF
 
 "Neovide 
