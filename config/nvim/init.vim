@@ -1,5 +1,5 @@
 call plug#begin('~/.vim/plugged')
-Plug 'nvim-telescope/telescope-fzf-native.nvim', { 'do': 'cmake -S. -Bbuild -DCMAKE_BUILD_TYPE=Release && cmake --build build --config Release && cmake --install build --prefix build' }
+" Plug 'nvim-telescope/telescope-fzf-native.nvim', { 'do': 'make' }
 Plug 'folke/todo-comments.nvim', { 'branch': 'main' }
 Plug 'L3MON4D3/LuaSnip'
 Plug 'saadparwaiz1/cmp_luasnip'
@@ -137,7 +137,7 @@ Plug 'rlane/pounce.nvim'
 call plug#end()
 lua <<EOF
 require('settings')
-require('telescope').load_extension('fzf')
+-- require('telescope').load_extension('fzf')
 EOF
 
 "Neovide 
@@ -619,7 +619,7 @@ function Line()
    let b:filenamedir = substitute(expand('%:p:h'), "\\", "/", "g")
    let b:file = expand('%:p')
    let b:filename = substitute(b:file, "\\", "/", "g")
-   let b:execstr = "!nu C:/Users/yasha/dotfiles/scripts/line.nu" . b:filename
+   let b:execstr = "!nu C:/Users/yasha/dotfiles/scripts/line.nu " . b:filename 
    exec b:execstr
    cg @_%
    lua require('telescope.builtin').quickfix({layout_strategy='vertical',layout_config={width=0.9}}) 
@@ -655,6 +655,7 @@ function SentenceLL()
   exec b:execstr
   cg @_% 
   lua require('telescope.builtin').quickfix({layout_strategy='vertical',layout_config={width=0.9}})
+  sleep 200
   call feedkeys("\<c-r>+\<cr>")
 endfunction
 noremap gs :call SentenceLL()<cr>
@@ -676,7 +677,10 @@ function ToggleQuickFix()
         let b:errors=b:filenamedir . "/build/" . b:filename .".log"
         echo b:errors
         exec "cg" b:errors
-        lua require('telescope.builtin').quickfix({layout_strategy='vertical',layout_config={width=0.9}})
+        copen
+        sleep 200m
+        call feedkeys("zf")
+        " lua require('telescope.builtin').quickfix({layout_strategy='vertical',layout_config={width=0.9}})
         call feedkeys("fatal")
         endif
 endfunction
@@ -1148,7 +1152,6 @@ smap <silent><expr> <C-E> luasnip#choice_active() ? '<Plug>luasnip-next-choice' 
 "  })
 " press <Tab> to expand or jump in a snippet. These can also be mapped separately
 " via <Plug>luasnip-expand-snippet and <Plug>luasnip-jump-next.
-
 
 
 
