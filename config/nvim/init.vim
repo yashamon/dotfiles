@@ -512,7 +512,7 @@ nnoremap <m-u> :<Esc>:cg C:/Users/yasha/_vim_mru_files<cr>:copen<cr>:call feedke
 " noremap F <Esc>:GFiles<CR>
 map <A-e> :FZF ~<CR> 
 map <m-f> :FZF ~<CR> 
-
+" map <m-f> :lua require('telescope.builtin').find_files({layout_strategy='vertical',layout_config={width=0.9}}) ~<CR> 
 "miscellaneous
 
 " nmap <leader>p :Denite neoyank -default-action=append<CR>
