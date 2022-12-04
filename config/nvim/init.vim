@@ -1,5 +1,5 @@
 call plug#begin('~/.vim/plugged')
-" Plug 'nvim-telescope/telescope-fzf-native.nvim', { 'do': 'make' }
+Plug 'nvim-telescope/telescope-fzf-native.nvim', { 'do': 'make' }
 Plug 'folke/todo-comments.nvim', { 'branch': 'main' }
 Plug 'L3MON4D3/LuaSnip'
 Plug 'saadparwaiz1/cmp_luasnip'
@@ -655,10 +655,10 @@ function SentenceLL()
   exec b:execstr
   cg @_% 
   copen 
-  sleep 300m
-  call feedkeys("zf")
+  " sleep 300m
+  " call feedkeys("zf")
   " lua require('telescope.builtin').quickfix({layout_strategy='vertical',layout_config={width=0.9}})
-  call feedkeys("\<c-r>+\<cr>")
+  " call feedkeys("\<c-r>+\<cr>")
 endfunction
 noremap gs :call SentenceLL()<cr>
 function GitAsync()
