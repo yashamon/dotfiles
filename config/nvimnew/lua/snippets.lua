@@ -143,7 +143,7 @@ ls.add_snippets(nil, {
             dscr = "Date in the form of YYYY-MM-DD",
         }, 
         {
-           "text" 
+           text({"blah blah"}), 
         }),
     },
 })
