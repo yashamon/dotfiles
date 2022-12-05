@@ -142,7 +142,7 @@ ls.add_snippets(nil, {
             dscr = "Latex template",
         }, 
         {
-           text({[[\\documentclass{amsart} \n \\usepackage{graphicx, verbatim} ]]
+           text({[[\\documentclass{amsart} \r\n \\usepackage{graphicx, verbatim} ]]
            }), 
         }),
     },
