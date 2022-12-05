@@ -142,8 +142,7 @@ ls.add_snippets(nil, {
             dscr = "Latex template",
         }, 
         {
-           text({"
-           \\documentclass{amsart}  
+           text({"\\documentclass{amsart}  
 \\usepackage{graphicx, verbatim}
 \\usepackage{appendix}
 \\usepackage{amsfonts}
