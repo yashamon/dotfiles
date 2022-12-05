@@ -144,7 +144,277 @@ ls.add_snippets(nil, {
         {
            text({"
            \\documentclass{amsart}  
-           "}), 
+\\usepackage{graphicx, verbatim}
+\\usepackage{appendix}
+\\usepackage{amsfonts}
+\\usepackage{url}
+\\usepackage{hyperref} 
+\\hypersetup{backref,pdfpagemode=FullScreen,colorlinks=true}
+\\usepackage{amsmath}
+\\usepackage{amssymb}
+\\usepackage{amscd}
+\\usepackage{color}
+\\usepackage{amsthm}
+\\usepackage{bm}
+\\usepackage{indentfirst}
+\\usepackage[hmargin=3cm,vmargin=3cm]{geometry}
+% \\usepackage[all, cmtip]{xy}
+\\numberwithin{equation}{section}
+\\newtheorem{thm}[equation]{Theorem} 
+\\newtheorem{axiom}[equation]{Axiom} 
+\\newtheorem{theorem}[equation]{Theorem} 
+\\newtheorem{proposition}[equation]{Proposition}
+\\newtheorem{lma}[equation]{Lemma} 
+\\newtheorem{lemma}[equation]{Lemma} 
+\\newtheorem{cpt}[equation]{Computation} 
+\\newtheorem{corollary}[equation]{Corollary} 
+\\newtheorem{clm}[equation]{Claim} 
+\\newtheorem{conjecture}{Conjecture}
+\\newtheorem{definition}[equation]{Definition}
+\\theoremstyle{definition}
+% \\newtheorem{definition}[equation]{Definition}
+\\newtheorem{ft}{Fact}
+\\newtheorem{notation}{Notation}
+\\newtheorem{terminology}{Terminology}
+\\newtheorem{descr}{Description}[equation]
+\\theoremstyle{remark}
+\\newtheorem*{pf}{Proof}
+\\newtheorem*{pfs}{Proof (sketch)}
+\\newtheorem{remark}[equation]{Remark}
+\\newtheorem{example}{Example}
+\\newtheorem{question}{Question}
+\\newcommand\\vol{\\operatorname{vol}}
+\\newcommand {\\hatcp}{\\widehat{\\mathbb {CP}} ^{r-1} }
+\\DeclareMathOperator {\\spann} {span}
+\\DeclareMathOperator {\\period} {period}
+\\DeclareMathOperator {\\sign} {sign}
+\\DeclareMathOperator {\\Id} {Id}
+\\DeclareMathOperator {\\floor} {floor}
+\\DeclareMathOperator {\\ceil} {ceil}
+\\DeclareMathOperator {\\mult} {mult}
+\\DeclareMathOperator {\\Symp} {Symp}
+\\DeclareMathOperator {\\Det} {Det}
+\\DeclareMathOperator {\\comp} {comp}
+\\DeclareMathOperator {\\growth} {growth}
+\\DeclareMathOperator {\\energy} {energy}
+\\DeclareMathOperator {\\Reeb} {Reeb}
+\\DeclareMathOperator {\\Lin} {Lin}
+\\DeclareMathOperator {\\Diff} {Diff}
+\\DeclareMathOperator {\\fix} {fix}
+% \\newcommand{\\M}{\\mathbb{CP} ^{r-1} }
+\\DeclareMathOperator {\\grad} {grad}
+\\DeclareMathOperator {\\area} {area}
+\\DeclareMathOperator {\\diam} {diam}
+% \\DeclareMathOperator {\\rank} {rank}
+\\DeclareMathOperator {\\dvol} {dvol}
+\\DeclareMathOperator {\\quant} {Quant}
+\\DeclareMathOperator {\\ho} {ho}
+\\DeclareMathOperator {\\length} {length}
+\\DeclareMathOperator {\\Proj} {P}
+\\renewcommand{\\i}{\\sqrt{-1}}
+\\DeclareMathOperator{\\mVol}{\\mathrm{Vol}(M_0,\\omega_0)}
+\\DeclareMathOperator{\\Lie}{\\mathrm{Lie}}
+\\DeclareMathOperator{\\lie}{\\mathrm{lie}}
+\\DeclareMathOperator{\\op}{\\mathrm{op}}
+\\DeclareMathOperator{\\rank}{\\mathrm{rank}}
+\\DeclareMathOperator{\\ind}{\\mathrm{ind}}
+\\DeclareMathOperator{\\trace}{\\mathrm{trace}}
+\\DeclareMathOperator{\\image}{\\mathrm{image}}
+\\DeclareMathOperator{\\Sym}{\\mathrm{Sym}}
+\\DeclareMathOperator{\\Ham}{\\mathrm{Ham}}
+\\DeclareMathOperator{\\Aut}{\\mathrm{Aut}}
+\\DeclareMathOperator{\\Quant}{\\mathrm{Quant}}
+\\DeclareMathOperator{\\Fred}{\\mathrm{Fred}}
+\\DeclareMathOperator{\\id}{\\mathrm{1}}
+\\DeclareMathOperator{\\lcs}{lcs}
+\\DeclareMathOperator{\\lcsm}{lcsm}
+% \\DeclareMathOperator{\\ker}{ker}
+\\DeclareMathOperator{\\coker}{coker}
+
+\\begin{document}
+\\title{A conformal symplectic Weinstein conjecture}
+\\author{Yasha Savelyev}
+\\thanks {}
+\\email{yasha.savelyev@gmail.com}
+\\address{University of Colima, CUICBAS}
+\\keywords{}
+
+\\begin{abstract}   
+\\end{abstract}
+ \\maketitledocumentclass{amsart}  
+\\usepackage{graphicx, verbatim}
+\\usepackage{appendix}
+\\usepackage{amsfonts}
+\\usepackage{url}
+\\usepackage{hyperref} 
+\\hypersetup{backref,pdfpagemode=FullScreen,colorlinks=true}
+\\usepackage{amsmath}
+\\usepackage{amssymb}
+\\usepackage{amscd}
+\\usepackage{color}
+\\usepackage{amsthm}
+\\usepackage{bm}
+\\usepackage{indentfirst}
+\\usepackage[hmargin=3cm,vmargin=3cm]{geometry}
+% \\usepackage[all, cmtip]{xy}
+\\numberwithin{equation}{section}
+\\newtheorem{thm}[equation]{Theorem} 
+\\newtheorem{axiom}[equation]{Axiom} 
+\\newtheorem{theorem}[equation]{Theorem} 
+\\newtheorem{proposition}[equation]{Proposition}
+\\newtheorem{lma}[equation]{Lemma} 
+\\newtheorem{lemma}[equation]{Lemma} 
+\\newtheorem{cpt}[equation]{Computation} 
+\\newtheorem{corollary}[equation]{Corollary} 
+\\newtheorem{clm}[equation]{Claim} 
+\\newtheorem{conjecture}{Conjecture}
+\\newtheorem{definition}[equation]{Definition}
+\\theoremstyle{definition}
+% \\newtheorem{definition}[equation]{Definition}
+\\newtheorem{ft}{Fact}
+\\newtheorem{notation}{Notation}
+\\newtheorem{terminology}{Terminology}
+\\newtheorem{descr}{Description}[equation]
+\\theoremstyle{remark}
+\\newtheorem*{pf}{Proof}
+\\newtheorem*{pfs}{Proof (sketch)}
+\\newtheorem{remark}[equation]{Remark}
+\\newtheorem{example}{Example}
+\\newtheorem{question}{Question}
+\\newcommand{\\R}{{\\mathbb{R}}}
+\\newcommand{\\Z}{{\\mathbb{Z}}}
+\\newcommand{\\Q}{{\\mathbb{Q}}}
+\\newcommand{\\D}{{\\mathbb{D}}}
+\\newcommand{\\HH}{{\\mathbb{H}}}
+\\newcommand{\\bs}{\\bigskip}
+\\newcommand{\\ra}{\\rightarrow}
+\\newcommand{\\del}{\\partial}
+\\newcommand{\\ddel}[1]{\\frac{\\partial}{\\partial{#1}}}
+\\newcommand{\\sm}[1]{C^\\infty(#1)}
+\\newcommand{\\delbar}{\\overline{\\partial}}
+\\newcommand{\\Sum}{\\Sigma}
+\\newcommand{\\Pe}{\\mathcal{P}}
+\\newcommand{\\X}{\\mathfrak{X}}
+\\newcommand{\\J}{\\mathcal{J}}
+\\newcommand{\\A}{\\mathcal{A}}
+\\newcommand{\\K}{\\mathcal{K}}
+\\newcommand{\\ZZ}{\\mathcal{Z}}
+\\newcommand{\\eL}{\\mathcal{L}}
+\\newcommand{\\mone}{{-1}}
+\\newcommand{\\st}{{^s_t}}
+\\newcommand{\\oi}{_0^1}
+\\newcommand{\\intoi}{\\int_0^1}
+\\newcommand{\\til}[1]{\\widetilde{#1}}
+\\newcommand{\\wh}[1]{\\widehat{#1}}
+\\newcommand{\\arr}[1]{\\overrightarrow{#1}}
+\\newcommand{\\paph}[1]{\\{ #1 \\}_{t=0}^1}
+\\newcommand{\\con}{\\#\\;}
+\\newcommand{\\codim}{\\text{codim}}
+\\newcommand {\\ham} {\\text{Ham} (M, \\omega)}
+\\newcommand {\\isom} {\\text{Isom} ^{h}  (M, \\omega, j)}
+\\newcommand {\\lham} {lie \\text{Ham} (M, \\omega)}
+\\newcommand {\\hamcp} {\\text{Ham} (\\mathbb{CP} ^{r-1}, \\omega )}
+\\newcommand{\\overbar}{\\overline}
+\\newcommand {\\vM} {{(T^*)} ^{vert} \\cM}
+\\newcommand{\\om}{\\omega}
+\\newcommand{\\al}{\\alpha}
+\\newcommand{\\la}{\\lambda}
+\\newcommand{\\Om}{\\Omega}
+\\newcommand{\\ga}{\\gamma}
+\\newcommand{\\eps}{\\epsilon}
+\\newcommand{\\Cal}{\\tex{Cal}}
+\\newcommand{\\cA}{\\mathcal{A}}
+\\newcommand{\\cB}{\\mathcal{B}}
+\\newcommand{\\cC}{\\mathcal{C}}
+\\newcommand{\\cD}{\\mathcal{D}}
+\\newcommand{\\cO}{\\mathcal{O}}
+\\newcommand{\\cE}{\\mathcal{E}}
+\\newcommand{\\cF}{\\mathcal{F}}
+\\newcommand{\\cG}{\\mathcal{G}}
+\\newcommand{\\cH}{\\mathcal{H}}
+\\newcommand{\\cI}{\\mathcal{I}}
+\\newcommand{\\cJ}{\\mathcal{J}}
+%\\newcommand{\\cO}{\\mathcal{O}}
+\\newcommand{\\cS}{\\mathcal{S}}
+\\newcommand{\\cU}{\\mathcal{U}}
+\\newcommand{\\cQ}{\\mathcal{Q}}
+\\newcommand{\\cM}{\\bm{M}}
+\\newcommand{\\cP}{\\bm{P}}
+\\newcommand{\\cL}{\\bm{L}}
+\\newcommand{\\fS}{\\mathfrak{S}}
+\\newcommand{\\fk}{\\mathfrak{k}}
+\\newcommand{\\fg}{\\mathfrak{g}}
+% \\newcommand{\\fz}{\\mathfrak{z}}
+\\newcommand{\\fZ}{\\mathfrak{Z}}
+\\newcommand\\vol{\\operatorname{vol}}
+\\newcommand {\\hatcp}{\\widehat{\\mathbb {CP}} ^{r-1} }
+\\newcommand{\\rJ}{\\mathrm{J}}
+\\newcommand{\\rB}{\\mathrm{B}}
+\\newcommand{\\rT}{\\mathrm{T}}
+\\newcommand {\\Hpm} {\\mathcal{H}^{\\pm}}
+\\newcommand{\\bP}{\\mathbb{P}}
+\\DeclareMathOperator {\\spann} {span}
+\\DeclareMathOperator {\\period} {period}
+\\DeclareMathOperator {\\sign} {sign}
+\\DeclareMathOperator {\\Id} {Id}
+\\DeclareMathOperator {\\floor} {floor}
+\\DeclareMathOperator {\\ceil} {ceil}
+\\DeclareMathOperator {\\mult} {mult}
+\\DeclareMathOperator {\\Symp} {Symp}
+\\DeclareMathOperator {\\Det} {Det}
+\\DeclareMathOperator {\\comp} {comp}
+\\DeclareMathOperator {\\growth} {growth}
+\\DeclareMathOperator {\\energy} {energy}
+\\DeclareMathOperator {\\Reeb} {Reeb}
+\\DeclareMathOperator {\\Lin} {Lin}
+\\DeclareMathOperator {\\Diff} {Diff}
+\\DeclareMathOperator {\\fix} {fix}
+% \\newcommand{\\M}{\\mathbb{CP} ^{r-1} }
+\\DeclareMathOperator {\\grad} {grad}
+\\DeclareMathOperator {\\area} {area}
+\\DeclareMathOperator {\\diam} {diam}
+% \\DeclareMathOperator {\\rank} {rank}
+\\DeclareMathOperator {\\dvol} {dvol}
+\\DeclareMathOperator {\\quant} {Quant}
+\\DeclareMathOperator {\\ho} {ho}
+\\DeclareMathOperator {\\length} {length}
+\\DeclareMathOperator {\\Proj} {P}
+\\renewcommand{\\i}{\\sqrt{-1}}
+\\DeclareMathOperator{\\mVol}{\\mathrm{Vol}(M_0,\\omega_0)}
+\\DeclareMathOperator{\\Lie}{\\mathrm{Lie}}
+\\DeclareMathOperator{\\lie}{\\mathrm{lie}}
+\\DeclareMathOperator{\\op}{\\mathrm{op}}
+\\DeclareMathOperator{\\rank}{\\mathrm{rank}}
+\\DeclareMathOperator{\\ind}{\\mathrm{ind}}
+\\DeclareMathOperator{\\trace}{\\mathrm{trace}}
+\\DeclareMathOperator{\\image}{\\mathrm{image}}
+\\DeclareMathOperator{\\Sym}{\\mathrm{Sym}}
+\\DeclareMathOperator{\\Ham}{\\mathrm{Ham}}
+\\DeclareMathOperator{\\Aut}{\\mathrm{Aut}}
+\\DeclareMathOperator{\\Quant}{\\mathrm{Quant}}
+\\DeclareMathOperator{\\Fred}{\\mathrm{Fred}}
+\\DeclareMathOperator{\\id}{\\mathrm{1}}
+\\DeclareMathOperator{\\lcs}{lcs}
+\\DeclareMathOperator{\\lcsm}{lcsm}
+% \\DeclareMathOperator{\\ker}{ker}
+\\DeclareMathOperator{\\coker}{coker}
+
+\\begin{document}
+% \\href{http://yashamon.github.io/web2/papers/conformalsymplectic.pdf}{Direct link to author's version}
+\\title{A conformal symplectic Weinstein conjecture}
+\\author{Yasha Savelyev}
+\\thanks {This work was partially supported by PRODEP grant}
+\\email{yasha.savelyev@gmail.com}
+\\address{University of Colima, CUICBAS}
+\\keywords{locally conformally symplectic manifolds, conformal symplectic non-squeezing, Gromov-Witten theory, virtual fundamental class, Fuller index, Seifert conjecture, Weinstein conjecture}
+
+\\begin{abstract}   
+\\end{abstract}
+\\maketitle
+\section{Introduction}
+           
+\end{document}"
+           }), 
         }),
     },
 })
