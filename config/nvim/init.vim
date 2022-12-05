@@ -363,7 +363,7 @@ nnoremap <leader>rr :w<cr>:source $MYVIMRC<CR>
 nnoremap <leader>u <cr>:UndotreeToggle<CR>
 noremap <leader>c :'<,'>CommentToggle<cr>
 nnoremap <leader>f :silent execute "!echo " . v:servername . ' > C:/Users/yasha/servername.txt'<cr>:te pwsh -c lf<cr>i
-nnoremap <leader>lg :silent execute "!echo " . v:servername . ' > C:/Users/yasha/servername.txt'<cr>:te pwsh -c lazygit<cr>
+nnoremap <leader>lg :silent execute "!echo " . v:servername . ' > C:/Users/yasha/servername.txt'<cr>:te pwsh -c lazygit<cr>i
 " nnoremap <leader>tt :FloatermToggle<cr>
 nnoremap <leader>t :silent execute "!echo " . v:servername . ' > C:/Users/yasha/servername.txt'<cr>:edit term://pwsh<cr><cr>
 nnoremap <c-,> :cprevious<cr>
@@ -415,7 +415,7 @@ noremap gbc ?[\\|]<CR>
 " copy paste stuff 
 " 
 vnoremap p "_dP
-inoremap <C-p> <C-r>"+
+noremap <m-p> <C-r>"+
 " noremap D "0D:wa<cr>
 noremap d "_d
 nnoremap dd "_dd
