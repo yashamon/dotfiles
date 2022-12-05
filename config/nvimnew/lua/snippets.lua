@@ -142,6 +142,7 @@ ls.add_snippets(nil, {
             dscr = "Latex template",
         }, 
         { text({"\\usepackage{appendix}"}),
+        
 text({"\\usepackage{amsfonts}"}),
 -- text({"\\usepackage{url}"}),
 -- text({"\\usepackage{hyperref} "}),
