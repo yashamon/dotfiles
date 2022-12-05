@@ -143,8 +143,7 @@ ls.add_snippets(nil, {
         }, 
         {
            text({"\\usepackage{appendix}
-",
-    "title: "}),
+", "title: "}),
            }), 
          },
     })
