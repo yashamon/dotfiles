@@ -135,136 +135,28 @@ end
 
 local date = function() return {os.date('%Y-%m-%d')} end
 
--- ls.add_snippets(nil, {
---     all = {
---         snip({
---             trig = "date",
---             namr = "Date",
---             dscr = "Date in the form of YYYY-MM-DD",
---         }, {"\\documentclass{amsart}  
--- \\usepackage{graphicx}
--- \\usepackage{appendix}
--- \\usepackage{amsfonts}
--- \\usepackage{url}
--- \\usepackage{hyperref} 
--- \\hypersetup{backref,pdfpagemode=FullScreen,colorlinks=true}
--- \\usepackage{amsmath}
--- \\usepackage{amssymb}
--- \\usepackage{amscd}
--- \\usepackage{color}
--- \\usepackage{amsthm}
--- \\usepackage{bm}
--- \\usepackage{indentfirst}
--- \\usepackage[hmargin=3cm,vmargin=3cm]{geometry}
--- % \\usepackage[all, cmtip]{xy}
--- \\numberwithin{equation}{section}
--- \\newtheorem{thm}[equation]{Theorem} 
--- \\newtheorem{axiom}[equation]{Axiom} 
--- \\newtheorem{theorem}[equation]{Theorem} 
--- \\newtheorem{proposition}[equation]{Proposition}
--- \\newtheorem{lma}[equation]{Lemma} 
--- \\newtheorem{lemma}[equation]{Lemma} 
--- \\newtheorem{cpt}[equation]{Computation} 
--- \\newtheorem{corollary}[equation]{Corollary} 
--- \\newtheorem{clm}[equation]{Claim} 
--- \\newtheorem{conjecture}{Conjecture}
--- \\newtheorem{definition}[equation]{Definition}
--- \\theoremstyle{definition}
--- % \\newtheorem{definition}[equation]{Definition}
--- \\newtheorem{ft}{Fact}
--- \\newtheorem{notation}{Notation}
--- \\newtheorem{terminology}{Terminology}
--- \\newtheorem{descr}{Description}[equation]
---
--- \\theoremstyle{remark}
--- \\newtheorem*{pf}{Proof}
--- \\newtheorem*{pfs}{Proof (sketch)}
--- \\newtheorem{remark}[equation]{Remark}
--- \\newtheorem{example}{Example}
--- \\newtheorem{question}{Question}
---
--- \\DeclareMathOperator {\\spann} {span}
--- \\DeclareMathOperator {\\period} {period}
--- \\DeclareMathOperator {\\sign} {sign}
--- \\DeclareMathOperator {\\Id} {Id}
--- \\DeclareMathOperator {\\floor} {floor}
--- \\DeclareMathOperator {\\ceil} {ceil}
--- \\DeclareMathOperator {\\mult} {mult}
--- \\DeclareMathOperator {\\Symp} {Symp}
--- \\DeclareMathOperator {\\Det} {Det}
--- \\DeclareMathOperator {\comp} {comp}
--- \\DeclareMathOperator {\\growth} {growth}
--- \\DeclareMathOperator {\\energy} {energy}
--- \\DeclareMathOperator {\\Reeb} {Reeb}
--- \\DeclareMathOperator {\\Lin} {Lin}
--- \\DeclareMathOperator {\\Diff} {Diff}
--- \\DeclareMathOperator {\\fix} {fix}
--- % \\newcommand{\\M}{\\mathbb{CP} ^{r-1} }
--- \\DeclareMathOperator {\\grad} {grad}
--- \\DeclareMathOperator {\\area} {area}
--- \\DeclareMathOperator {\\diam} {diam}
--- % \\DeclareMathOperator {\\rank} {rank}
--- \\DeclareMathOperator {\\dvol} {dvol}
--- \\DeclareMathOperator {\\quant} {Quant}
--- \\DeclareMathOperator {\\ho} {ho}
--- \\DeclareMathOperator {\\length} {length}
--- \\DeclareMathOperator {\\Proj} {P}
--- \\renewcommand{\\i}{\\sqrt{-1}}
--- \\DeclareMathOperator{\\Lie}{\\mathrm{Lie}}
--- \\DeclareMathOperator{\\lie}{\\mathrm{lie}}
--- \\DeclareMathOperator{\\op}{\\mathrm{op}}
--- \\DeclareMathOperator{\\rank}{\\mathrm{rank}}
--- \\DeclareMathOperator{\\ind}{\\mathrm{ind}}
--- \\DeclareMathOperator{\\trace}{\\mathrm{trace}}
--- \\DeclareMathOperator{\\image}{\\mathrm{image}}
--- \\DeclareMathOperator{\\Sym}{\\mathrm{Sym}}
--- \\DeclareMathOperator{\\Ham}{\\mathrm{Ham}}
--- \\DeclareMathOperator{\\Aut}{\\mathrm{Aut}}
--- \\DeclareMathOperator{\\Quant}{\\mathrm{Quant}}
--- \\DeclareMathOperator{\\Fred}{\\mathrm{Fred}}
--- \\DeclareMathOperator{\\id}{\\mathrm{1}}
--- \\DeclareMathOperator{\\lcs}{lcs}
--- \\DeclareMathOperator{\\lcsm}{lcsm}
--- % \\DeclareMathOperator{\\ker}{ker}
--- \\DeclareMathOperator{\\coker}{coker}
--- \\begin{document}
--- % \\href{http://yashamon.github.io/web2/papers/conformalsymplectic.pdf}{Direct link to author's version}
--- \\title{A conformal symplectic Weinstein conjecture}
--- \\author{Yasha Savelyev}
--- \\thanks {This work was partially supported by PRODEP grant}
--- \\email{yasha.savelyev@gmail.com}
--- \\address{University of Colima, CUICBAS}
--- \\keywords{locally conformally symplectic manifolds, conformal symplectic non-squeezing, Gromov-Witten theory, virtual fundamental class, Fuller index, Seifert conjecture, Weinstein conjecture}
---
--- \\begin{abstract}    
--- \\end{abstract}
---  \\maketitle
---  \\tableofcontents 
--- 
--- \\bibliographystyle{siam}  
--- \\bibliography{C:/Users/yasha/texmf/bibtex/bib/link} 
--- %  \\bibliography{/root/texmf/bibtex/bib/link}  
--- % \\bibliography{/home/yashasavelyev/texmf/bibtex/bib/link} 
--- % \\bibliography{/home/yasha/texmf/bibtex/bib/link} 
--- \\end{document}"
---         }),
--- },
---     tex = { 
--- 		-- rec_ls is self-referencing. That makes this snippet 'infinite' eg. have as many
--- 		-- \item as necessary by utilizing a choiceNode.
--- 		s("ls", {
--- 			t({ "\\begin{itemize}", "\t\\item " }),
--- 			i(1),
--- 			d(2, rec_ls, {}),
--- 			t({ "", "\\end{itemize}" }),
--- 		}),
--- 	}
--- })
--- ls.snippets = {
--- 	,
---        
---        
--- }
+ls.add_snippets(nil, {
+    all = {
+        snip({
+            trig = "date",
+            namr = "Date",
+            dscr = "Date in the form of YYYY-MM-DD",
+        }, {"\\documentclass{amsart}  
+\\usepackage{graphicx}'}
+        }),
+},
+    tex = { 
+		-- rec_ls is self-referencing. That makes this snippet 'infinite' eg. have as many
+		-- \item as necessary by utilizing a choiceNode.
+		s("ls", {
+			t({ "\\begin{itemize}", "\t\\item " }),
+			i(1),
+			d(2, rec_ls, {}),
+			t({ "", "\\end{itemize}" }),
+		}),
+	}
+)
+
 
 --[[
 -- Beside defining your own snippets you can also load snippets from "vscode-like" packages
