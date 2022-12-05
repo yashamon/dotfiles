@@ -429,6 +429,7 @@ map <m-f> :FZF ~<CR>
 " 
 nnoremap <leader>gs :w<cr>:source $MYVIMRC<cr> 
 nnoremap <c-e> viwy:cclose<cr>:<c-r>+<cr><cr>
+cmap <m-p> :<c-r>+<cr>
 noremap <m-p> :<c-r>+<cr>
 nnoremap <m-l> viwy:bdelete<cr>:execute "buffer" g:buf<cr>:<c-r>+<cr><cr>
 " noremap <m-l> viwy<esc>:bp<cr>:<c-r>+<cr>
