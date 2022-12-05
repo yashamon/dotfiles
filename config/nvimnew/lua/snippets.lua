@@ -416,7 +416,6 @@ ls.add_snippets(nil, {
 \end{document}
            
            
-           
            "}), 
         }),
     },
