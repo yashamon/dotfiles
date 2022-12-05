@@ -20,7 +20,7 @@ neovide --multigrid $ho
 }
 alias hello = ( echo "hello" )
 alias j = __zoxide_z
-def vrc [] { neo $"($HOME)/dotfiles/config/nvim/init.vim" }
+def vrc [] { neo $"($HOME)/dotfiles/config/nvimnew/init.vim" }
 def lfrc [] { neo $"($HOME)/dotfiles/config/lf/lfrc" } 
 # def psrc [] { neo $profile } 
 def nurc [] { neo $"($HOME)/dotfiles/config/nushell/config.nu"}
