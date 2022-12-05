@@ -132,139 +132,124 @@ local function bash(_, command)
 	end
 	return res
 end
-
 local date = function() return {os.date('%Y-%m-%d')} end
 
--- ls.add_snippets(nil, {
---     all = {
---         snip({
---             trig = "date",
---             namr = "Date",
---             dscr = "Date in the form of YYYY-MM-DD",
---         }, {"\\documentclass{amsart}  
--- \\usepackage{graphicx}
--- \\usepackage{appendix}
--- \\usepackage{amsfonts}
--- \\usepackage{url}
--- \\usepackage{hyperref} 
--- \\hypersetup{backref,pdfpagemode=FullScreen,colorlinks=true}
--- \\usepackage{amsmath}
--- \\usepackage{amssymb}
--- \\usepackage{amscd}
--- \\usepackage{color}
--- \\usepackage{amsthm}
--- \\usepackage{bm}
--- \\usepackage{indentfirst}
--- \\usepackage[hmargin=3cm,vmargin=3cm]{geometry}
--- % \\usepackage[all, cmtip]{xy}
--- \\numberwithin{equation}{section}
--- \\newtheorem{thm}[equation]{Theorem} 
--- \\newtheorem{axiom}[equation]{Axiom} 
--- \\newtheorem{theorem}[equation]{Theorem} 
--- \\newtheorem{proposition}[equation]{Proposition}
--- \\newtheorem{lma}[equation]{Lemma} 
--- \\newtheorem{lemma}[equation]{Lemma} 
--- \\newtheorem{cpt}[equation]{Computation} 
--- \\newtheorem{corollary}[equation]{Corollary} 
--- \\newtheorem{clm}[equation]{Claim} 
--- \\newtheorem{conjecture}{Conjecture}
--- \\newtheorem{definition}[equation]{Definition}
--- \\theoremstyle{definition}
--- % \\newtheorem{definition}[equation]{Definition}
--- \\newtheorem{ft}{Fact}
--- \\newtheorem{notation}{Notation}
--- \\newtheorem{terminology}{Terminology}
--- \\newtheorem{descr}{Description}[equation]
---
--- \\theoremstyle{remark}
--- \\newtheorem*{pf}{Proof}
--- \\newtheorem*{pfs}{Proof (sketch)}
--- \\newtheorem{remark}[equation]{Remark}
--- \\newtheorem{example}{Example}
--- \\newtheorem{question}{Question}
---
--- \\DeclareMathOperator {\\spann} {span}
--- \\DeclareMathOperator {\\period} {period}
--- \\DeclareMathOperator {\\sign} {sign}
--- \\DeclareMathOperator {\\Id} {Id}
--- \\DeclareMathOperator {\\floor} {floor}
--- \\DeclareMathOperator {\\ceil} {ceil}
--- \\DeclareMathOperator {\\mult} {mult}
--- \\DeclareMathOperator {\\Symp} {Symp}
--- \\DeclareMathOperator {\\Det} {Det}
--- \\DeclareMathOperator {\comp} {comp}
--- \\DeclareMathOperator {\\growth} {growth}
--- \\DeclareMathOperator {\\energy} {energy}
--- \\DeclareMathOperator {\\Reeb} {Reeb}
--- \\DeclareMathOperator {\\Lin} {Lin}
--- \\DeclareMathOperator {\\Diff} {Diff}
--- \\DeclareMathOperator {\\fix} {fix}
--- % \\newcommand{\\M}{\\mathbb{CP} ^{r-1} }
--- \\DeclareMathOperator {\\grad} {grad}
--- \\DeclareMathOperator {\\area} {area}
--- \\DeclareMathOperator {\\diam} {diam}
--- % \\DeclareMathOperator {\\rank} {rank}
--- \\DeclareMathOperator {\\dvol} {dvol}
--- \\DeclareMathOperator {\\quant} {Quant}
--- \\DeclareMathOperator {\\ho} {ho}
--- \\DeclareMathOperator {\\length} {length}
--- \\DeclareMathOperator {\\Proj} {P}
--- \\renewcommand{\\i}{\\sqrt{-1}}
--- \\DeclareMathOperator{\\Lie}{\\mathrm{Lie}}
--- \\DeclareMathOperator{\\lie}{\\mathrm{lie}}
--- \\DeclareMathOperator{\\op}{\\mathrm{op}}
--- \\DeclareMathOperator{\\rank}{\\mathrm{rank}}
--- \\DeclareMathOperator{\\ind}{\\mathrm{ind}}
--- \\DeclareMathOperator{\\trace}{\\mathrm{trace}}
--- \\DeclareMathOperator{\\image}{\\mathrm{image}}
--- \\DeclareMathOperator{\\Sym}{\\mathrm{Sym}}
--- \\DeclareMathOperator{\\Ham}{\\mathrm{Ham}}
--- \\DeclareMathOperator{\\Aut}{\\mathrm{Aut}}
--- \\DeclareMathOperator{\\Quant}{\\mathrm{Quant}}
--- \\DeclareMathOperator{\\Fred}{\\mathrm{Fred}}
--- \\DeclareMathOperator{\\id}{\\mathrm{1}}
--- \\DeclareMathOperator{\\lcs}{lcs}
--- \\DeclareMathOperator{\\lcsm}{lcsm}
--- % \\DeclareMathOperator{\\ker}{ker}
--- \\DeclareMathOperator{\\coker}{coker}
--- \\begin{document}
--- % \\href{http://yashamon.github.io/web2/papers/conformalsymplectic.pdf}{Direct link to author's version}
--- \\title{A conformal symplectic Weinstein conjecture}
--- \\author{Yasha Savelyev}
--- \\thanks {This work was partially supported by PRODEP grant}
--- \\email{yasha.savelyev@gmail.com}
--- \\address{University of Colima, CUICBAS}
--- \\keywords{locally conformally symplectic manifolds, conformal symplectic non-squeezing, Gromov-Witten theory, virtual fundamental class, Fuller index, Seifert conjecture, Weinstein conjecture}
---
--- \\begin{abstract}    
--- \\end{abstract}
---  \\maketitle
---  \\tableofcontents 
--- 
--- \\bibliographystyle{siam}  
--- \\bibliography{C:/Users/yasha/texmf/bibtex/bib/link} 
--- %  \\bibliography{/root/texmf/bibtex/bib/link}  
--- % \\bibliography{/home/yashasavelyev/texmf/bibtex/bib/link} 
--- % \\bibliography{/home/yasha/texmf/bibtex/bib/link} 
--- \\end{document}"
---         }),
--- },
---     tex = { 
--- 		-- rec_ls is self-referencing. That makes this snippet 'infinite' eg. have as many
--- 		-- \item as necessary by utilizing a choiceNode.
--- 		s("ls", {
--- 			t({ "\\begin{itemize}", "\t\\item " }),
--- 			i(1),
--- 			d(2, rec_ls, {}),
--- 			t({ "", "\\end{itemize}" }),
--- 		}),
--- 	}
--- })
--- ls.snippets = {
--- 	,
---        
---        
--- }
+ls.add_snippets(nil, {
+    all = {
+        snip({
+            trig = "tex",
+            namr = "Latex template",
+            dscr = "Latex template",
+        }, 
+        { text({"","\\documentclass{amsart}"}), 
+text({"","\\usepackage{appendix}"}),
+text({"","\\usepackage{graphicx}"}),
+text({"","\\usepackage{amsfonts, mathrsfs, amsmath, amssymb, amsthm}"}),
+text({"","\\usepackage{url}"}),
+text({"","\\usepackage{hyperref} "}),
+text({"","\\hypersetup{backref,pdfpagemode=FullScreen,colorlinks=true}"}),
+text({"","\\usepackage{tikz-cd}"}),
+text({"","\\usepackage{amscd}"}),
+text({"","\\usepackage{pst-plot,pst-eucl}"}),
+text({"","%\\usepackage[svgnames,pdf]{pstricks}"}),
+text({"","\\usepackage{amssymb}"}),
+text({"","\\usepackage{amscd}"}),
+text({"","\\usepackage{color, verbatim}"}),
+text({"","\\usepackage{amsthm}"}),
+text({"","\\usepackage{bm}"}),
+text({"","\\usepackage[hmargin=3cm,vmargin=3cm]{geometry}"}),
+text({"","\\numberwithin{equation}{section}"}),
+text({"","\\newtheorem{thm}[equation]{Theorem} "}),
+text({"","\\newtheorem{axiom}[equation]{Axiom} "}),
+text({"","\\newtheorem{theorem}[equation]{Theorem} "}),
+text({"","\\newtheorem{proposition}[equation]{Proposition}"}),
+text({"","\\newtheorem{lma}[equation]{Lemma} "}),
+text({"","\\newtheorem{lemma}[equation]{Lemma} "}),
+text({"","\\newtheorem{cpt}[equation]{Computation} "}),
+text({"","\\newtheorem{corollary}[equation]{Corollary} "}),
+text({"","\\newtheorem{clm}[equation]{Claim} "}),
+text({"","\\newtheorem{conjecture}{Conjecture}"}),
+text({"","\\newtheorem{definition}[equation]{Definition}"}),
+text({"","\\theoremstyle{definition}"}),
+text({"","\\newtheorem{ft}{Fact}"}),
+text({"","\\newtheorem{notation}{Notation}"}),
+text({"","\\newtheorem{terminology}{Terminology}"}),
+text({"","\\newtheorem{descr}{Description}[equation]"}),
+text({"","\\theoremstyle{remark}"}),
+text({"","\\newtheorem*{pf}{Proof}"}),
+text({"","\\newtheorem*{pfs}{Proof (sketch)}"}),
+text({"","\\newtheorem{remark}[equation]{Remark}"}),
+text({"","\\newtheorem{example}{Example}"}),
+text({"","\\newtheorem{question}{Question}"}),
+text({"","\\newcommand {\\vol{\\operatorname{vol}}"}),
+text({"","\\newcommand {\\hatcp}{\\widehat{\\mathbb {CP}} ^{r-1} }"}),
+text({"","\\DeclareMathOperator {\\spann} {span}"}),
+text({"","\\DeclareMathOperator {\\period} {period}"}),
+text({"","\\DeclareMathOperator {\\sign} {sign}"}),
+text({"","\\DeclareMathOperator {\\Id} {Id}"}),
+text({"","\\DeclareMathOperator {\\floor} {floor}"}),
+text({"","\\DeclareMathOperator {\\ceil} {ceil}"}),
+text({"","\\DeclareMathOperator {\\mult} {mult}"}),
+text({"","\\DeclareMathOperator {\\Symp} {Symp}"}),
+text({"","\\DeclareMathOperator {\\Det} {Det}"}),
+text({"","\\DeclareMathOperator {\\comp} {comp}"}),
+text({"","\\DeclareMathOperator {\\growth} {growth}"}),
+text({"","\\DeclareMathOperator {\\energy} {energy}"}),
+text({"","\\DeclareMathOperator {\\Reeb} {Reeb}"}),
+text({"","\\DeclareMathOperator {\\Lin} {Lin}"}),
+text({"","\\DeclareMathOperator {\\Diff} {Diff}"}),
+text({"","\\DeclareMathOperator {\\fix} {fix}"}),
+text({"","\\DeclareMathOperator {\\grad} {grad}"}),
+text({"","\\DeclareMathOperator {\\area} {area}"}),
+text({"","\\DeclareMathOperator {\\diam} {diam}"}),
+text({"","\\DeclareMathOperator {\\dvol} {dvol}"}),
+text({"","\\DeclareMathOperator {\\quant} {Quant}"}),
+text({"","\\DeclareMathOperator {\\ho} {ho}"}),
+text({"","\\DeclareMathOperator {\\length} {length}"}),
+text({"","\\DeclareMathOperator {\\Proj} {P}"}),
+text({"","\\renewcommand{\\i}{\\sqrt{-1}}"}),
+text({"","\\DeclareMathOperator{\\mVol}{\\mathrm{Vol}(M_0,\\omega_0)}"}),
+text({"","\\DeclareMathOperator{\\Lie}{\\mathrm{Lie}}"}),
+text({"","\\DeclareMathOperator{\\lie}{\\mathrm{lie}}"}),
+text({"","\\DeclareMathOperator{\\op}{\\mathrm{op}}"}),
+text({"","\\DeclareMathOperator{\\rank}{\\mathrm{rank}}"}),
+text({"","\\DeclareMathOperator{\\ind}{\\mathrm{ind}}"}),
+text({"","\\DeclareMathOperator{\\trace}{\\mathrm{trace}}"}),
+text({"","\\DeclareMathOperator{\\image}{\\mathrm{image}}"}),
+text({"","\\DeclareMathOperator{\\Sym}{\\mathrm{Sym}}"}),
+text({"","\\DeclareMathOperator{\\Ham}{\\mathrm{Ham}}"}),
+text({"","\\DeclareMathOperator{\\Aut}{\\mathrm{Aut}}"}),
+text({"","\\DeclareMathOperator{\\Quant}{\\mathrm{Quant}}"}),
+text({"","\\DeclareMathOperator{\\Fred}{\\mathrm{Fred}}"}),
+text({"","\\DeclareMathOperator{\\id}{\\mathrm{1}}"}),
+text({"","\\DeclareMathOperator{\\lcs}{lcs}"}),
+text({"","\\DeclareMathOperator{\\lcsm}{lcsm}"}),
+text({"","\\DeclareMathOperator{\\coker}{coker}"}),
+text({"","\\begin{document}"}),
+text({"","\\title{"}), insert(1, "title"), text({"}"}),
+text({"","\\author{Yasha Savelyev}"}),
+text({"","\\thanks {}"}),
+text({"","\\email{yasha.savelyev@gmail.com}"}),
+text({"","\\address{University of Colima, CUICBAS}"}),
+text({"","\\keywords{}"}),
+text({"","\\begin{abstract}   "}),
+text({""}), insert(2, "abstract here"), 
+text({"","\\end{abstract}"}),
+text({"","\\maketitle"}),
+text({"","\\section{Introduction}"}),
+text({""}), insert(3, "write intro"), 
+text({"","\\bibliographystyle{siam}"}),  
+text({"","\\bibliography{C:/Users/yasha/texmf/bibtex/bib/link}"}), 
+text({"","%  \bibliography{/root/texmf/bibtex/bib/link}"}),  
+text({"","% \bibliography{/home/yashasavelyev/texmf/bibtex/bib/link}"}), 
+text({"","% \bibliography{/home/yasha/texmf/bibtex/bib/link}"}),
+text({"","\\end{document}"}),
+           }), 
+         },
+    })
+
+   
+    
 
 --[[
 -- Beside defining your own snippets you can also load snippets from "vscode-like" packages
@@ -274,3 +259,4 @@ local date = function() return {os.date('%Y-%m-%d')} end
 ]]
 require("luasnip/loaders/from_vscode").lazy_load({ paths = "C:/Users/yasha/dotfiles/snippets"})
 -- You can also use lazy loading so you only get in memory snippets of languages you use
+

@@ -40,100 +40,6 @@ Plug 'nvim-telescope/telescope.nvim'
 Plug 'simnalamburt/vim-mundo'
 Plug 'rlane/pounce.nvim'
 
-
-" Plug 'rakr/vim-one'
-"" Plug 'hrsh7th/cmp-vsnip', { 'branch': 'main' } 
-" Plug 'hrsh7th/vim-vsnip'
-" Plug 'hrsh7th/vim-vsnip-integ' Plug 'kyazdani42/blue-moon'
-"" Plug 'shaunsingh/nord.nvim' 
-" Plug 'monsonjeremy/onedark.nvim'
-" Plug 'navarasu/onedark.nvim'
-" Plug 'yegappan/mru'
-" Plug 'folke/zen-mode.nvim', { 'branch': 'main' } 
-" Plug 'karb94/neoscroll.nvim'
-" Plug 'rlane/pounce.nvim'
-" Plug 'phaazon/hop.nvim'
-" Plug 'ggandor/lightspeed.nvim'
-"" Plug 'nyngwang/murmur' 
-" Plug 'vim-scripts/AutoTag'
-" Plug 'rebelot/kanagawa.nvim'
-" Plug 'reedes/vim-pencil' 
-" Plug 'folke/zen-mode.nvim', {  'branch': 'main' } 
-" Plug 'radenling/vim-dispatch-neovim'  
-" Plug 'tpope/vim-dispatch'
-" Plug 'sheerun/vim-polyglot' 
-" Plug 'https://gitlab.com/yorickpeterse/nvim-dd.git',  { 'branch': 'main' }
-" Plug 'luukvbaal/stabilize.nvim' 
-" Plug 'nvim-treesitter/playground
-" Plug 'glepnir/lspsaga.nvim'
-" If you are using Vim-Plug
-" " Plug 'kdheepak/cmp-latex-symbols', { 'branch': 'main' } 
-" " Plug 'kabouzeid/nvim-lspinstall', { 'branch': 'main' }
-" "Plug 'pope/vim-obsession'
-" " Plug 'nvim-lua/plenary.nvim'
-" " Plug 'windwp/nvim-spectre'
-" " For luasnip user. 
-
-" "Plug 'steelsojka/completion-buffers'
-" " Plug 'neovim/node-host'
-" Plug 'projekt0n/github-nvim-theme',  { 'branch': 'main' }
-" Plug 'rktjmp/lush.nvim', { 'branch': 'main' }
-" " Plug 'cyansprite/Extract'
-" Plug 'gioele/vim-autoswap'
-" " Plug 't9md/vim-smalls'
-" Plug 'kevinhwang91/nvim-bqf', { 'branch': 'main' }
-" " i you install fzf as system package like `pacman -S fzf` in ArchLinux,
-" " please comment next line
-" " Plug 'sindrets/diffview.nvim', { 'branch': 'main' } 
-" " Plug 'rmagatti/auto-session',  { 'branch': 'main'}
-" " Plug 'justinmk/vim-sneak'
-" " Plug 'SirVer/ultisnips'  
-" " Plug 'tpope/vim-fugitive'
-" Plug 'eugen0329/vim-esearch'
-" Plug 'haya14busa/incsearch.vim'
-" Plug 'haya14busa/incsearch-fuzzy.vim'
-" Plug 'Raimondi/vim_search_objects'
-" " Plug 'terryma/vim-multiple-cursors'
-" " " On-demand loading
-" " Plug 'junegunn/goyo.vim'
-" " " Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
-" "  Plug 'morhetz/gruvbox'
-" Plug 'sainnhe/gruvbox-material'
-" " Plug 'vim-pandoc/vim-pandoc'
-" " Plug 'vim-pandoc/vim-pandoc-syntax' 
-" " Plugin outside ~/.vim/plugged with post-update hook
-" Plug 'junegunn/fzf', { 'do': './install --all' }
-"  '}
-" Plug 'lifepillar/vim-solarized8'
-" " Plug 'vim-scripts/vim-auto-save'
-" " Plug 'vim-pandoc/vim-pandoc'
-"
-" " Plug 'yashamon/vim-snippets'
-" " colorschemes
-" " 
-  
-" Plug 'marko-cerovac/material.nvim', { 'branch': 'main' }
-"
-" Plug 'reedes/vim-colors-pencil'
-"
-" Plug 'vim-scripts/oceanlight'
-"
-" Plug 'gosukiwi/vim-atom-dark'
-"
-" Plug 'dracula/vim'
-
-
-" " Plug 'svermeulen/vim-cutlass'
-" Plug 'kyazdani42/nvim-web-devicons' " for file icons
-" " Plug 'kyazdani42/nvim-tree.lua', 
-" "Plug 'nvim-lua/completion-nvim'
-" Plug 'neovim/nvim-lspconfig'
-" " Plug 'nvim-lua/diagnostic-nvim'
-" " Plug 'rafamadriz/friendly-snippets'  
- "  " Plug 'tpope/vim-surround'
-" Unmanaged plugin (manually installed and updated)
-" Plug '~/my-prototype-plugin'
-" Add plugins to &runtimepath 
 call plug#end()
 lua <<EOF
 require('settings')
@@ -523,7 +429,8 @@ map <m-f> :FZF ~<CR>
 " 
 nnoremap <leader>gs :w<cr>:source $MYVIMRC<cr> 
 nnoremap <c-e> viwy:cclose<cr>:<c-r>+<cr><cr>
-nnoremap <c-p> :<c-r>+<cr>
+cmap <m-p> <c-r>+
+noremap <m-p> <c-r>+
 nnoremap <m-l> viwy:bdelete<cr>:execute "buffer" g:buf<cr>:<c-r>+<cr><cr>
 " noremap <m-l> viwy<esc>:bp<cr>:<c-r>+<cr>
 
@@ -1158,5 +1065,97 @@ smap <silent><expr> <C-E> luasnip#choice_active() ? '<Plug>luasnip-next-choice' 
 " press <Tab> to expand or jump in a snippet. These can also be mapped separately
 " via <Plug>luasnip-expand-snippet and <Plug>luasnip-jump-next.
 
+" Plug 'rakr/vim-one'
+"" Plug 'hrsh7th/cmp-vsnip', { 'branch': 'main' } 
+" Plug 'hrsh7th/vim-vsnip'
+" Plug 'hrsh7th/vim-vsnip-integ' Plug 'kyazdani42/blue-moon'
+"" Plug 'shaunsingh/nord.nvim' 
+" Plug 'monsonjeremy/onedark.nvim'
+" Plug 'navarasu/onedark.nvim'
+" Plug 'yegappan/mru'
+" Plug 'folke/zen-mode.nvim', { 'branch': 'main' } 
+" Plug 'karb94/neoscroll.nvim'
+" Plug 'rlane/pounce.nvim'
+" Plug 'phaazon/hop.nvim'
+" Plug 'ggandor/lightspeed.nvim'
+"" Plug 'nyngwang/murmur' 
+" Plug 'vim-scripts/AutoTag'
+" Plug 'rebelot/kanagawa.nvim'
+" Plug 'reedes/vim-pencil' 
+" Plug 'folke/zen-mode.nvim', {  'branch': 'main' } 
+" Plug 'radenling/vim-dispatch-neovim'  
+" Plug 'tpope/vim-dispatch'
+" Plug 'sheerun/vim-polyglot' 
+" Plug 'https://gitlab.com/yorickpeterse/nvim-dd.git',  { 'branch': 'main' }
+" Plug 'luukvbaal/stabilize.nvim' 
+" Plug 'nvim-treesitter/playground
+" Plug 'glepnir/lspsaga.nvim'
+" If you are using Vim-Plug
+" " Plug 'kdheepak/cmp-latex-symbols', { 'branch': 'main' } 
+" " Plug 'kabouzeid/nvim-lspinstall', { 'branch': 'main' }
+" "Plug 'pope/vim-obsession'
+" " Plug 'nvim-lua/plenary.nvim'
+" " Plug 'windwp/nvim-spectre'
+" " For luasnip user. 
 
+" "Plug 'steelsojka/completion-buffers'
+" " Plug 'neovim/node-host'
+" Plug 'projekt0n/github-nvim-theme',  { 'branch': 'main' }
+" Plug 'rktjmp/lush.nvim', { 'branch': 'main' }
+" " Plug 'cyansprite/Extract'
+" Plug 'gioele/vim-autoswap'
+" " Plug 't9md/vim-smalls'
+" Plug 'kevinhwang91/nvim-bqf', { 'branch': 'main' }
+" " i you install fzf as system package like `pacman -S fzf` in ArchLinux,
+" " please comment next line
+" " Plug 'sindrets/diffview.nvim', { 'branch': 'main' } 
+" " Plug 'rmagatti/auto-session',  { 'branch': 'main'}
+" " Plug 'justinmk/vim-sneak'
+" " Plug 'SirVer/ultisnips'  
+" " Plug 'tpope/vim-fugitive'
+" Plug 'eugen0329/vim-esearch'
+" Plug 'haya14busa/incsearch.vim'
+" Plug 'haya14busa/incsearch-fuzzy.vim'
+" Plug 'Raimondi/vim_search_objects'
+" " Plug 'terryma/vim-multiple-cursors'
+" " " On-demand loading
+" " Plug 'junegunn/goyo.vim'
+" " " Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
+" "  Plug 'morhetz/gruvbox'
+" Plug 'sainnhe/gruvbox-material'
+" " Plug 'vim-pandoc/vim-pandoc'
+" " Plug 'vim-pandoc/vim-pandoc-syntax' 
+" " Plugin outside ~/.vim/plugged with post-update hook
+" Plug 'junegunn/fzf', { 'do': './install --all' }
+"  '}
+" Plug 'lifepillar/vim-solarized8'
+" " Plug 'vim-scripts/vim-auto-save'
+" " Plug 'vim-pandoc/vim-pandoc'
+"
+" " Plug 'yashamon/vim-snippets'
+" " colorschemes
+" " 
+  
+" Plug 'marko-cerovac/material.nvim', { 'branch': 'main' }
+"
+" Plug 'reedes/vim-colors-pencil'
+"
+" Plug 'vim-scripts/oceanlight'
+"
+" Plug 'gosukiwi/vim-atom-dark'
+"
+" Plug 'dracula/vim'
+
+
+" " Plug 'svermeulen/vim-cutlass'
+" Plug 'kyazdani42/nvim-web-devicons' " for file icons
+" " Plug 'kyazdani42/nvim-tree.lua', 
+" "Plug 'nvim-lua/completion-nvim'
+" Plug 'neovim/nvim-lspconfig'
+" " Plug 'nvim-lua/diagnostic-nvim'
+" " Plug 'rafamadriz/friendly-snippets'  
+ "  " Plug 'tpope/vim-surround'
+" Unmanaged plugin (manually installed and updated)
+" Plug '~/my-prototype-plugin'
+" Add plugins to &runtimepath
 
