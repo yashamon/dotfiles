@@ -141,9 +141,9 @@ ls.add_snippets(nil, {
             namr = "Latex template",
             dscr = "Latex template",
         }, 
-        { text({"\\usepackage{appendix}\n"}),
+        { text({"\\usepackage{appendix}"}),
         
-text({"\\usepackage{amsfonts}"}),
+text({"","\\usepackage{amsfonts}"}),
 -- text({"\\usepackage{url}"}),
 -- text({"\\usepackage{hyperref} "}),
 -- text({"\\hypersetup{backref,pdfpagemode=FullScreen,colorlinks=true}"}),
