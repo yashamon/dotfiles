@@ -144,6 +144,8 @@ ls.add_snippets(nil, {
         {
            text({"---",
     "title: "}),
+    text({"---",
+    "title: "}),
            }), 
          },
     })
