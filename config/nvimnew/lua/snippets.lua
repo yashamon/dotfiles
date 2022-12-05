@@ -142,8 +142,7 @@ ls.add_snippets(nil, {
             dscr = "Latex template",
         }, 
         {
-           text({"\\usepackage{appendix}
-", "title: "}),
+           text({"\\usepackage{appendix} ", "title: "}),
            }), 
          },
     })
