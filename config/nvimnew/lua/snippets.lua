@@ -143,7 +143,6 @@ ls.add_snippets(nil, {
         }, 
         {
            text({[[\documentclass{amsart}]]}),
-           text({[[\usepackage{graphicx, verbatim} ]]})
            }), 
         }),
     },
