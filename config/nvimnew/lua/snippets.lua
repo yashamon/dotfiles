@@ -142,8 +142,7 @@ ls.add_snippets(nil, {
             namr = "Date",
             dscr = "Date in the form of YYYY-MM-DD",
         }, 
-        {"\\documentclass{amsart}  
-\\usepackage{graphicx}"}
+        {"test"}
         })
 
      })
