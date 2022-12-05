@@ -144,10 +144,12 @@ ls.add_snippets(nil, {
         {
            text({"---",
     "title: "}),
-           }, 
-           )},
+           }), 
+         },
     })
 
+   
+    
 
 --[[
 -- Beside defining your own snippets you can also load snippets from "vscode-like" packages
