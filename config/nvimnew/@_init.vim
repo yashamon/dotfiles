@@ -397,8 +397,8 @@
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:397:: 
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:398:: " Movement
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:399:: inoremap <m d> <C w>
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:400:: noremap W /  <CR>
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:401:: noremap B ?  <CR>
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:400:: " noremap W /  <CR>
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:401:: " noremap B ?  <CR>
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:402:: noremap gwm /  <CR>
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:403:: noremap gbm ?  <CR>
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:404:: noremap gwo /(  |)<CR>
