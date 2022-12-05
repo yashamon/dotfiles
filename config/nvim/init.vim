@@ -153,6 +153,7 @@ set scrolloff=10
 set title
 set cmdheight=0
 set signcolumn=yes
+set nojoinspaces
 " set titlestring
 " set noshowmode
 " set noruler       
@@ -510,7 +511,7 @@ nnoremap <m-b> :lua require('telescope.builtin').buffers({layout_strategy='verti
 nnoremap <m-i> :lua require('telescope.builtin').git_bcommits({layout_strategy='vertical',layout_config={width=0.9}})<cr>
 nnoremap <m-u> :<Esc>:cg C:/Users/yasha/_vim_mru_files<cr>:copen<cr>:call feedkeys("zf")<CR>
 " noremap F <Esc>:GFiles<CR>
-map <A-e> :FZF ~<CR> 
+" map <A-e> :FZF ~<CR> 
 map <m-f> :FZF ~<CR> 
 " map <m-f> :lua require('telescope.builtin').find_files({layout_strategy='vertical',layout_config={width=0.9}}) ~<CR> 
 "miscellaneous
@@ -734,7 +735,7 @@ nmap <leader>gm :w<cr>:silent ! cat % >> ~/workspace/email.txt; cp % /tmp/temp; 
 
 " Lsp mappings
 nnoremap <silent> g? <cmd>lua vim.diagnostic.open_float()<CR>
-noremap <leader>ca  :lua vim.lsp.buf.code_action()<CR>
+noremap ga  :lua vim.lsp.buf.code_action()<CR>
 noremap <leader>la  :lua vim.lsp.buf.code_action()<CR>
 nmap <leader>c gc
 "Autosave and autocommit   
