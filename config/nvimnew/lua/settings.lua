@@ -232,7 +232,8 @@ require("nvim-lsp-installer").setup {}
     lspconfig.sumneko_lua.setup { on_attach = on_attach }
     lspconfig.tsserver.setup { on_attach = on_attach }
     lspconfig.vimls.setup { on_attach = on_attach }
-    lspconfig.ltex.setup { on_attach = on_attach }
+    lspconfig.ltex.setup { autostart = false;
+       on_attach = on_attach }
     lspconfig.texlab.setup { on_attach = on_attach }
 -- lspconfig stuff    
 local nvim_lsp = require('lspconfig')
