@@ -12,7 +12,7 @@ def neo [file:string] {
 # Invoke-Expression $neo --multigrid $1
 neovide --multigrid $file
 }
-let HOME = "C:/Users/yasha"
+let-env HOME = "C:/Users/yasha"
 # let profile = $"($HOME)/dotfiles/config/nvim/init.vim"
 def nf [] {
 let $ho = (fd . $HOME -H -E /.undo/* -E /undo/* -E /tmp/* -E *.pdf | fzf | str trim)
