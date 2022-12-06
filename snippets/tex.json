@@ -1337,7 +1337,13 @@
     ],
     "description": "big union"
   },
-
+"square cup": {
+    "prefix": ["sq", "sqcup"],
+    "body": [
+      "\\sqcup $0"
+    ],
+    "description": "union"
+  },
 "union cup": {
     "prefix": ["uc"],
     "body": [
