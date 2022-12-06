@@ -1342,7 +1342,7 @@
     "body": [
       "\\sqcup $0"
     ],
-    "description": "union"
+    "description": "square cup"
   },
 "union cup": {
     "prefix": ["uc"],
