@@ -5,8 +5,4 @@ if  ($res | path type) == dir  { lf -remote $"send cd \"($res)\"" } else { lf -r
 }
 
 
-$res=fd . $HOME -t d -H | fzf --reverse --header='Jump to location' | sed s/\\/\\\\/g
-if ($res -notmatch '\\$') 
-            { $res+= '\'
-              echo $res }  
-lf -remote "send cd `\`"$res\\`\`""
+
