@@ -700,7 +700,7 @@ function ToggleQuickFix()
         endif
 endfunction
 
-nnoremap <leader>ge :silent call ToggleQuickFix()<CR>
+nnoremap <leader>e :silent call ToggleQuickFix()<CR>
 function! ClearLatex()
   silent !rm ./build/* 
 endfunction 
