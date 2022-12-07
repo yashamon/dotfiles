@@ -45,7 +45,8 @@ RememberOpenedFiles = true
 RememberStatePerDocument = true
 RestoreSession = true
 UiLanguage = en
-InverseSearchCmdLine = nu  "C:\Users\yasha\dotfiles\scripts\remote.nu" %l $
+InverseSearchCmdLine = nu  
+"C:\Users\yasha\dotfiles\scripts\remote2.nu" %l $
 EnableTeXEnhancements = true
 DefaultDisplayMode = automatic
 DefaultZoom = 100
@@ -113,7 +114,7 @@ TreeFontSize = 0
 SmoothScroll = false
 ShowStartPage = true
 CheckForUpdates = false
-WindowState = 3
+WindowState = 1
 WindowPos = 451 0 1480 1872
 UseTabs = true
 UseSysColors = false
@@ -129,33 +130,13 @@ FileStates [
 		OpenCount = 5
 		UseDefaultState = false
 		DisplayMode = continuous
-		ScrollPos = 79.8114 64.3487
-		PageNo = 8
+		ScrollPos = 82.666 49.124
+		PageNo = 6
 		Zoom = fit content
 		Rotation = 0
 		WindowState = 3
 		WindowPos = 451 0 1480 1872
 		ShowToc = false
-		SidebarDx = 364
-		DisplayR2L = false
-		ReparseIdx = 0
-	]
-	[
-		FilePath = C:\Users\yasha\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\build\blah.pdf
-		Favorites [
-		]
-		IsPinned = false
-		IsMissing = false
-		OpenCount = 1
-		UseDefaultState = false
-		DisplayMode = continuous
-		ScrollPos = 106.313 -1
-		PageNo = 1
-		Zoom = 100
-		Rotation = 0
-		WindowState = 1
-		WindowPos = 451 0 1480 1872
-		ShowToc = true
 		SidebarDx = 364
 		DisplayR2L = false
 		ReparseIdx = 0
@@ -316,6 +297,26 @@ FileStates [
 		WindowState = 2
 		WindowPos = 451 0 1480 1872
 		ShowToc = false
+		SidebarDx = 364
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = C:\Users\yasha\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\build\blah.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = 106.313 -1
+		PageNo = 1
+		Zoom = 100
+		Rotation = 0
+		WindowState = 1
+		WindowPos = 451 0 1480 1872
+		ShowToc = true
 		SidebarDx = 364
 		DisplayR2L = false
 		ReparseIdx = 0
