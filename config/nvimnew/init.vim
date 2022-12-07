@@ -287,11 +287,10 @@ au FileType Makefile set noexpandtab
 au FileType tex,text set spelllang=en_us
 au FileType tex,text,md set indentexpr=
 " au FileType vim,md set list
-" au FileType tex,text,md silent execute "!echo " . v:servername . " > ~/servername.txt"    
-" au FileType * silent execute "!echo " . v:servername . " > ~/servername.txt"
-au UIEnter silent execute "!echo " . v:servername . " > ~/servername.txt"
+au UIEnter silent execute "!echo " . v:servername . ' > ~/servername.txt'
 function Server()
-   silent execute "!echo " . v:servername . " > ~/servername.txt"
+   silent execute "!echo " . v:servername . ' > ~/servername.txt'
+   silent execute "!echo " . g:buffmain . ' > ~/servername.txt'
 endfunction
 nmap <leader>nn :call Server()
 
