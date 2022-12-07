@@ -195,7 +195,7 @@ au FileType tex,text,md set indentexpr=
 " au FileType vim,md set list
 " au FileType tex,text,md silent execute "!echo " . v:servername . " > ~/servername.txt"    
 " au FileType * silent execute "!echo " . v:servername . " > ~/servername.txt"
-au UIEnter silent execute "!echo " . v:servername . " > ~/servername.txt"
+au UIEnter silent execute "!echo " . v:servername . " > ~/servername.txt; !echo " . g:buffname . " > ~/filename.txt"
 function Server()
    silent execute "!echo " . v:servername . " > ~/servername.txt"
 endfunction
