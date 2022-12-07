@@ -198,8 +198,8 @@ au FileType tex,text,md set indentexpr=
 au UIEnter silent execute "!echo " . v:servername . " > ~/servername.txt; !echo " . g:buffmain . " > ~/filename.txt"
 function Server()
    let g:buffmain=bufname()
-   silent execute "!echo " . v:servername . " > C:/Users/yasha/servername.txt"
-   silent execute "!echo " . g:buffmain . " > C:/Users/yasha/filename.txt"
+   execute "!echo " . v:servername . " > C:/Users/yasha/servername.txt"
+   execute "!echo " . g:buffmain . " > C:/Users/yasha/filename.txt"
 endfunction
 nmap <leader>nn :call Server()
 
