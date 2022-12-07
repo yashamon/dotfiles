@@ -6,7 +6,7 @@ let-env Path = ["C:/Users/yasha/scoop/shims" "C:/Users/yasha/dotfiles/scripts" "
 source ~/.zoxide.nu
 source ~/.cache/starship/init.nu
 def swap [] {
-rm swap/* 
+rm $"($HOME)/AppData/Local/nvim-data/swap/*"
 }
 def neo [file:string] {
 # Invoke-Expression $neo --multigrid $1
