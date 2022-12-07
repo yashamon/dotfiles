@@ -6,6 +6,6 @@ echo $line
 let var = $"(cat ~/servername.txt | str trim )"
 let buf = ($buffer | str trim)
 echo $var
-nvim --server $var --remote-send \':buffer $"($buffer)<cr><esc>: + ($line) + <cr>\'"
+nvim --server $var --remote-send $"\':buffer ($buffer)<cr><esc>: + ($line) + <cr>\'"
 }
 
