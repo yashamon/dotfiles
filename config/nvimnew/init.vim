@@ -290,6 +290,7 @@ au FileType vim set list
 au UIEnter silent execute "!echo " . v:servername . ' > ~/servername.txt'
 function Server()
    let g:buffmain=bufname()
+   echo g:buffmain
    silent execute "!echo " . v:servername . ' > C:/Users/yasha/servername.txt'
    silent execute "!echo " . g:buffmain . ' > C:/Users/yasha/filename.txt'
 endfunction
