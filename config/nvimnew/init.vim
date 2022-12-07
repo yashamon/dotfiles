@@ -709,7 +709,7 @@ function! ViewPdf()
 wa
 " let g:buffmain=bufname()
 " silent execute "!echo " . v:servername . ' > C:/Users/yasha/servername.txt'
-" let buf=bufname()
+let buf=bufname()
 call Server()
 let linenumber=line(".")
 let colnumber=col(".")
