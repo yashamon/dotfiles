@@ -14,6 +14,7 @@ Plug 'kyazdani42/nvim-web-devicons'
 Plug 'glacambre/firenvim', { 'do': { _ -> firenvim#install(0) } }
 Plug 'neovim/nvim-lspconfig'
 Plug 'williamboman/nvim-lsp-installer', { 'branch': 'main' }
+Plug 'williamboman/mason.nvim'
 Plug 'hrsh7th/nvim-cmp', { 'branch': 'main' }
 Plug 'hrsh7th/cmp-buffer', { 'branch': 'main' }
 Plug 'hrsh7th/cmp-nvim-lsp', { 'branch': 'main' } 
