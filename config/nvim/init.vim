@@ -199,6 +199,7 @@ au UIEnter silent execute "!echo " . v:servername . " > ~/servername.txt; !echo 
 function Server()
    let g:buffmain=bufname()
    execute "!echo " . v:servername . " > C:/Users/yasha/servername.txt"
+   execute "!echo " . v:servername . " > C:/Users/yasha/filename.txt"
    execute "!echo " . g:buffmain . " > C:/Users/yasha/filename.txt"
 endfunction
 nmap <leader>nn :call Server()
