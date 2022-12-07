@@ -286,7 +286,7 @@ hi SpellBad gui=undercurl guisp=white
 au FileType Makefile set noexpandtab
 au FileType tex,text set spelllang=en_us
 au FileType tex,text,md set indentexpr=
-" au FileType vim,md set list
+au FileType vim set list
 au UIEnter silent execute "!echo " . v:servername . ' > ~/servername.txt'
 function Server()
    silent execute "!echo " . v:servername . ' > ~/servername.txt'
