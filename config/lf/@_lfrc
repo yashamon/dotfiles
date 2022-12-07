@@ -1,0 +1,370 @@
+ C:/Users/yasha/dotfiles/config/lf/lfrc:1:: set ratios 1:2:3
+ C:/Users/yasha/dotfiles/config/lf/lfrc:2:: set shell pwsh
+ C:/Users/yasha/dotfiles/config/lf/lfrc:3:: # set shell "C:  Users  yasha  scoop  shims  nu.exe"
+ C:/Users/yasha/dotfiles/config/lf/lfrc:4:: 
+ C:/Users/yasha/dotfiles/config/lf/lfrc:5:: # Shell commands with multiline definitions and/or positional arguments and/or
+ C:/Users/yasha/dotfiles/config/lf/lfrc:6:: # quotes do not work in Windows. For anything but the simplest shell commands,
+ C:/Users/yasha/dotfiles/config/lf/lfrc:7:: # it is recommended to create separate script files and simply call them here
+ C:/Users/yasha/dotfiles/config/lf/lfrc:8:: # in commands or mappings.
+ C:/Users/yasha/dotfiles/config/lf/lfrc:9:: #
+ C:/Users/yasha/dotfiles/config/lf/lfrc:10:: # Also, the default keybindings are defined using cmd syntax (i.e. '%EDITOR%')
+ C:/Users/yasha/dotfiles/config/lf/lfrc:11:: # which does not work with powershell. Therefore, you need to override these
+ C:/Users/yasha/dotfiles/config/lf/lfrc:12:: # keybindings with explicit choices accordingly.
+ C:/Users/yasha/dotfiles/config/lf/lfrc:13:: # change the default open command to work in powerShell
+ C:/Users/yasha/dotfiles/config/lf/lfrc:14:: cmd open &start  Env:f
+ C:/Users/yasha/dotfiles/config/lf/lfrc:15:: # set filesep " "
+ C:/Users/yasha/dotfiles/config/lf/lfrc:16:: # change the editor used in default editor keybinding
+ C:/Users/yasha/dotfiles/config/lf/lfrc:17:: # There is no builtin terminal editor installed in Windows. The default editor
+ C:/Users/yasha/dotfiles/config/lf/lfrc:18:: # mapping uses 'notepad' which launches in a separate GUI window. You may
+ C:/Users/yasha/dotfiles/config/lf/lfrc:19:: # instead install a terminal editor of your choice and replace the default
+ C:/Users/yasha/dotfiles/config/lf/lfrc:20:: # editor keybinding accordingly.
+ C:/Users/yasha/dotfiles/config/lf/lfrc:21:: # change the pager used in default pager keybinding
+ C:/Users/yasha/dotfiles/config/lf/lfrc:22:: # The standard pager used in Windows is 'more' which is not a very capable
+ C:/Users/yasha/dotfiles/config/lf/lfrc:23:: # pager. You may instead install a pager of your choice and replace the default
+ C:/Users/yasha/dotfiles/config/lf/lfrc:24:: # pager keybinding accordingly.
+ C:/Users/yasha/dotfiles/config/lf/lfrc:25:: map i  less  Env:f
+ C:/Users/yasha/dotfiles/config/lf/lfrc:26:: # change the shell used in default shell keybinding
+ C:/Users/yasha/dotfiles/config/lf/lfrc:27:: map w  pwsh
+ C:/Users/yasha/dotfiles/config/lf/lfrc:28:: # change 'doc' command to use a different pager
+ C:/Users/yasha/dotfiles/config/lf/lfrc:29:: cmd doc  lf  doc | less
+ C:/Users/yasha/dotfiles/config/lf/lfrc:30:: # leave some space at the top and the bottom of the screen
+ C:/Users/yasha/dotfiles/config/lf/lfrc:31:: set scrolloff 10
+ C:/Users/yasha/dotfiles/config/lf/lfrc:32:: # use enter for shell commands
+ C:/Users/yasha/dotfiles/config/lf/lfrc:33:: map <enter> shell
+ C:/Users/yasha/dotfiles/config/lf/lfrc:34:: # set cleaner ~/.config/lf/cleaner
+ C:/Users/yasha/dotfiles/config/lf/lfrc:35:: # set previewer ~/.config/lf/preview
+ C:/Users/yasha/dotfiles/config/lf/lfrc:36:: # interpreter for shell commands
+ C:/Users/yasha/dotfiles/config/lf/lfrc:37:: # set shellopts ' euy'
+ C:/Users/yasha/dotfiles/config/lf/lfrc:38:: # set ifs " n"
+ C:/Users/yasha/dotfiles/config/lf/lfrc:39:: # set filesep " n"  # default already
+ C:/Users/yasha/dotfiles/config/lf/lfrc:40:: set hidden  
+ C:/Users/yasha/dotfiles/config/lf/lfrc:41:: # cmd trash &{{
+ C:/Users/yasha/dotfiles/config/lf/lfrc:42:: # set     (cat ~/.local/shahe/lf/files)
+ C:/Users/yasha/dotfiles/config/lf/lfrc:43:: #     trash put " @" .;;
+ C:/Users/yasha/dotfiles/config/lf/lfrc:44:: #     rm ~/.local/share/lf/files
+ C:/Users/yasha/dotfiles/config/lf/lfrc:45:: #     lf  remote "send clear"
+ C:/Users/yasha/dotfiles/config/lf/lfrc:46:: #     lf  remote "send reload"
+ C:/Users/yasha/dotfiles/config/lf/lfrc:47:: #     lf  remote "send echomsg "deletesucess""
+ C:/Users/yasha/dotfiles/config/lf/lfrc:48:: # 
+ C:/Users/yasha/dotfiles/config/lf/lfrc:49:: 
+ C:/Users/yasha/dotfiles/config/lf/lfrc:50:: cmd trash  pwsh  nop  c lfcdTrash.ps1  env:fx
+ C:/Users/yasha/dotfiles/config/lf/lfrc:51:: # cmd trash recycle bin  Env:fx
+ C:/Users/yasha/dotfiles/config/lf/lfrc:52:: set previewer stpv
+ C:/Users/yasha/dotfiles/config/lf/lfrc:53:: set cleaner stpvimgclr
+ C:/Users/yasha/dotfiles/config/lf/lfrc:54:: &stpvimg   listen  id 
+ C:/Users/yasha/dotfiles/config/lf/lfrc:55:: map . mark load
+ C:/Users/yasha/dotfiles/config/lf/lfrc:56:: # cmd aj %lf  remote "send  id cd ' (autojump  1)'"
+ C:/Users/yasha/dotfiles/config/lf/lfrc:57:: map gmd push %mkdir<space> 
+ C:/Users/yasha/dotfiles/config/lf/lfrc:58:: map gt push %touch<space>
+ C:/Users/yasha/dotfiles/config/lf/lfrc:59:: map gch push %chmod<space>
+ C:/Users/yasha/dotfiles/config/lf/lfrc:60:: # map m push %mv<space>" fs"<space>
+ C:/Users/yasha/dotfiles/config/lf/lfrc:61:: 
+ C:/Users/yasha/dotfiles/config/lf/lfrc:62:: cmd spaste &{{
+ C:/Users/yasha/dotfiles/config/lf/lfrc:63:: set     (cat ~/.local/share/lf/files)
+ C:/Users/yasha/dotfiles/config/lf/lfrc:64::     mode=" 1"
+ C:/Users/yasha/dotfiles/config/lf/lfrc:65::     shift
+ C:/Users/yasha/dotfiles/config/lf/lfrc:66::     case " mode" in
+ C:/Users/yasha/dotfiles/config/lf/lfrc:67::         copy)
+ C:/Users/yasha/dotfiles/config/lf/lfrc:68::             rsync  a   no compress   ignore existing    " @" .;;
+ C:/Users/yasha/dotfiles/config/lf/lfrc:69::         move) mv  n    " @" .;; 
+ C:/Users/yasha/dotfiles/config/lf/lfrc:70::     esac
+ C:/Users/yasha/dotfiles/config/lf/lfrc:71::     rm ~/.local/share/lf/files
+ C:/Users/yasha/dotfiles/config/lf/lfrc:72::     lf  remote "send clear"  
+ C:/Users/yasha/dotfiles/config/lf/lfrc:73::     lf  remote "send reload" 
+ C:/Users/yasha/dotfiles/config/lf/lfrc:74::     lf  remote "send echomsg "copysucess""
+ C:/Users/yasha/dotfiles/config/lf/lfrc:75:: 
+ C:/Users/yasha/dotfiles/config/lf/lfrc:76:: 
+ C:/Users/yasha/dotfiles/config/lf/lfrc:77:: # set previewer ~/.config/lf/preview
+ C:/Users/yasha/dotfiles/config/lf/lfrc:78:: # set cleaner ~/.config/lf/cleaner
+ C:/Users/yasha/dotfiles/config/lf/lfrc:79:: cmd namepaste  cp p   lf paste  id  
+ C:/Users/yasha/dotfiles/config/lf/lfrc:80:: # map gc :namepaste
+ C:/Users/yasha/dotfiles/config/lf/lfrc:81:: map p :spaste
+ C:/Users/yasha/dotfiles/config/lf/lfrc:82:: map gp :paste
+ C:/Users/yasha/dotfiles/config/lf/lfrc:83:: cmd findfile  nu "C: Users yasha dotfiles scripts findfile.nu"
+ C:/Users/yasha/dotfiles/config/lf/lfrc:84:: map <a f> :findfile
+ C:/Users/yasha/dotfiles/config/lf/lfrc:85:: 
+ C:/Users/yasha/dotfiles/config/lf/lfrc:86:: cmd findfileroot  {{
+ C:/Users/yasha/dotfiles/config/lf/lfrc:87::     res=" (fd . '/'  H | fzf   reverse   header='Jump to location')"
+ C:/Users/yasha/dotfiles/config/lf/lfrc:88::     if [  d " res"  ; then
+ C:/Users/yasha/dotfiles/config/lf/lfrc:89::         cmd="cd"
+ C:/Users/yasha/dotfiles/config/lf/lfrc:90::     else 
+ C:/Users/yasha/dotfiles/config/lf/lfrc:91::         cmd="select"                                                       
+ C:/Users/yasha/dotfiles/config/lf/lfrc:92::     fi
+ C:/Users/yasha/dotfiles/config/lf/lfrc:93::     lf  remote "send  id cd  HOME"
+ C:/Users/yasha/dotfiles/config/lf/lfrc:94::     lf  remote "send  id  cmd  " res ""
+ C:/Users/yasha/dotfiles/config/lf/lfrc:95:: 
+ C:/Users/yasha/dotfiles/config/lf/lfrc:96:: map gf :findfileroot
+ C:/Users/yasha/dotfiles/config/lf/lfrc:97:: 
+ C:/Users/yasha/dotfiles/config/lf/lfrc:98:: # map <a f> fzffile   
+ C:/Users/yasha/dotfiles/config/lf/lfrc:99:: # map <a r> fzffileroot  
+ C:/Users/yasha/dotfiles/config/lf/lfrc:100:: map d :cut
+ C:/Users/yasha/dotfiles/config/lf/lfrc:101:: map D :trash
+ C:/Users/yasha/dotfiles/config/lf/lfrc:102:: map gd :delete
+ C:/Users/yasha/dotfiles/config/lf/lfrc:103:: 
+ C:/Users/yasha/dotfiles/config/lf/lfrc:104:: cmd fzf_jump  nu "C: Users yasha dotfiles scripts lfsimplejump.nu"
+ C:/Users/yasha/dotfiles/config/lf/lfrc:105:: #
+ C:/Users/yasha/dotfiles/config/lf/lfrc:106:: #  {{
+ C:/Users/yasha/dotfiles/config/lf/lfrc:107:: #     res= fd .  H  I  d 1 | fzf   reverse   header='Jump to location'
+ C:/Users/yasha/dotfiles/config/lf/lfrc:108:: #  if (  Test Path  Path " res"  PathType Container )
+ C:/Users/yasha/dotfiles/config/lf/lfrc:109:: #      {  cmd= "cd" 
+ C:/Users/yasha/dotfiles/config/lf/lfrc:110:: #  else 
+ C:/Users/yasha/dotfiles/config/lf/lfrc:111:: #     {  cmd="select"                                                        
+ C:/Users/yasha/dotfiles/config/lf/lfrc:112:: #  lf  remote "send  id  cmd  " res "" 
+ C:/Users/yasha/dotfiles/config/lf/lfrc:113:: map f :fzf_jump
+ C:/Users/yasha/dotfiles/config/lf/lfrc:114:: 
+ C:/Users/yasha/dotfiles/config/lf/lfrc:115:: cmd fasd_dir  {{
+ C:/Users/yasha/dotfiles/config/lf/lfrc:116::    res=" (fasd  dl | grep  iv cache | fzf 2>/dev/tty | sed 's/  /    /g;s/"/  "/g')"
+ C:/Users/yasha/dotfiles/config/lf/lfrc:117::    if [  d " res"  ; then
+ C:/Users/yasha/dotfiles/config/lf/lfrc:118::       cmd="cd"
+ C:/Users/yasha/dotfiles/config/lf/lfrc:119::    else
+ C:/Users/yasha/dotfiles/config/lf/lfrc:120::       cmd="select"
+ C:/Users/yasha/dotfiles/config/lf/lfrc:121::    fi
+ C:/Users/yasha/dotfiles/config/lf/lfrc:122::  lf  remote "send  id  cmd  " res ""
+ C:/Users/yasha/dotfiles/config/lf/lfrc:123::  
+ C:/Users/yasha/dotfiles/config/lf/lfrc:124:: 
+ C:/Users/yasha/dotfiles/config/lf/lfrc:125:: # map  :fasd_dir
+ C:/Users/yasha/dotfiles/config/lf/lfrc:126:: map J  :fasd_dir 
+ C:/Users/yasha/dotfiles/config/lf/lfrc:127:: cmd Jhomedir   nu "C: Users yasha dotfiles scripts jumpdir.nu"
+ C:/Users/yasha/dotfiles/config/lf/lfrc:128:: map <a j> :Jhomedir
+ C:/Users/yasha/dotfiles/config/lf/lfrc:129:: 
+ C:/Users/yasha/dotfiles/config/lf/lfrc:130:: cmd Jrootdir   nu "C: Users yasha dotfiles scripts jumprootdir.nu"
+ C:/Users/yasha/dotfiles/config/lf/lfrc:131:: map gj :Jrootdir
+ C:/Users/yasha/dotfiles/config/lf/lfrc:132:: 
+ C:/Users/yasha/dotfiles/config/lf/lfrc:133:: 
+ C:/Users/yasha/dotfiles/config/lf/lfrc:134:: set scrolloff 10
+ C:/Users/yasha/dotfiles/config/lf/lfrc:135:: # use enter for shell commands
+ C:/Users/yasha/dotfiles/config/lf/lfrc:136:: map <enter> shell
+ C:/Users/yasha/dotfiles/config/lf/lfrc:137:: 
+ C:/Users/yasha/dotfiles/config/lf/lfrc:138:: # execute current file (must be executable)
+ C:/Users/yasha/dotfiles/config/lf/lfrc:139:: map x   Env:f
+ C:/Users/yasha/dotfiles/config/lf/lfrc:140:: map X ! Env:f
+ C:/Users/yasha/dotfiles/config/lf/lfrc:141:: 
+ C:/Users/yasha/dotfiles/config/lf/lfrc:142:: # dedicated keys for file opener actions
+ C:/Users/yasha/dotfiles/config/lf/lfrc:143:: map o &mimeopen  Env:f 
+ C:/Users/yasha/dotfiles/config/lf/lfrc:144:: map O  mimeopen   ask  Env:f 
+ C:/Users/yasha/dotfiles/config/lf/lfrc:145:: 
+ C:/Users/yasha/dotfiles/config/lf/lfrc:146:: # define a custom 'open' command
+ C:/Users/yasha/dotfiles/config/lf/lfrc:147:: # This command is called when current file is not a directory. You may want to
+ C:/Users/yasha/dotfiles/config/lf/lfrc:148:: # use either file extensions and/or mime types here. Below uses an editor for
+ C:/Users/yasha/dotfiles/config/lf/lfrc:149:: # text files and a file opener for the rest.
+ C:/Users/yasha/dotfiles/config/lf/lfrc:150:: # cmd open  {{
+ C:/Users/yasha/dotfiles/config/lf/lfrc:151:: #     test  L  f && f= (readlink  f  f)
+ C:/Users/yasha/dotfiles/config/lf/lfrc:152:: #     case  (file   mime type  f  b) in
+ C:/Users/yasha/dotfiles/config/lf/lfrc:153:: #         text/*) nvim  fx;;
+ C:/Users/yasha/dotfiles/config/lf/lfrc:154:: #         *) for f in  fx; do setsid  OPENER  f > /dev/null 2> /dev/null & done;;
+ C:/Users/yasha/dotfiles/config/lf/lfrc:155:: #     esac
+ C:/Users/yasha/dotfiles/config/lf/lfrc:156:: # 
+ C:/Users/yasha/dotfiles/config/lf/lfrc:157:: map e %remotelf.ps1  Env:f.Trim('"') 
+ C:/Users/yasha/dotfiles/config/lf/lfrc:158:: map n %neovide  Env:f.Trim('"') 
+ C:/Users/yasha/dotfiles/config/lf/lfrc:159:: map gn %neovide  Env:f.Trim('"') 
+ C:/Users/yasha/dotfiles/config/lf/lfrc:160:: # define a custom 'rename' command without prompt for overwrite 
+ C:/Users/yasha/dotfiles/config/lf/lfrc:161:: cmd spastename &{{
+ C:/Users/yasha/dotfiles/config/lf/lfrc:162:: set     (cat ~/.local/share/lf/files)
+ C:/Users/yasha/dotfiles/config/lf/lfrc:163::    #  lf  remote "send echomsg "inputdestination""  
+ C:/Users/yasha/dotfiles/config/lf/lfrc:164::    #  lf  remote "send echomsg "inputdestination"" 
+ C:/Users/yasha/dotfiles/config/lf/lfrc:165::    # destination = " (read varname ; echo  varname)"
+ C:/Users/yasha/dotfiles/config/lf/lfrc:166::     mode=" 1"
+ C:/Users/yasha/dotfiles/config/lf/lfrc:167::     shift
+ C:/Users/yasha/dotfiles/config/lf/lfrc:168::     case " mode" in
+ C:/Users/yasha/dotfiles/config/lf/lfrc:169::         copy)
+ C:/Users/yasha/dotfiles/config/lf/lfrc:170::             cp  r   backup=t " @" .;;
+ C:/Users/yasha/dotfiles/config/lf/lfrc:171::         move) 
+ C:/Users/yasha/dotfiles/config/lf/lfrc:172::       mv  n   backup=t " @" .;;
+ C:/Users/yasha/dotfiles/config/lf/lfrc:173::     esac
+ C:/Users/yasha/dotfiles/config/lf/lfrc:174::     rm ~/.local/share/lf/files
+ C:/Users/yasha/dotfiles/config/lf/lfrc:175::     lf  remote "send clear"
+ C:/Users/yasha/dotfiles/config/lf/lfrc:176::     lf  remote "send reload" 
+ C:/Users/yasha/dotfiles/config/lf/lfrc:177::     lf  remote "send echomsg "copysucessblah""
+ C:/Users/yasha/dotfiles/config/lf/lfrc:178:: 
+ C:/Users/yasha/dotfiles/config/lf/lfrc:179:: cmd echod  pwsh  nop  c echo  1 > blah
+ C:/Users/yasha/dotfiles/config/lf/lfrc:180:: 
+ C:/Users/yasha/dotfiles/config/lf/lfrc:181:: cmd rename  pwsh  nop  c mv  Env:f.Trim('"')  args[0 
+ C:/Users/yasha/dotfiles/config/lf/lfrc:182:: 
+ C:/Users/yasha/dotfiles/config/lf/lfrc:183:: # cmd cpmove %[  e  destination   && printf "file exists" || spastename  f  1
+ C:/Users/yasha/dotfiles/config/lf/lfrc:184:: 
+ C:/Users/yasha/dotfiles/config/lf/lfrc:185:: map r push %mv<space> Env:f.Trim('"')<space>
+ C:/Users/yasha/dotfiles/config/lf/lfrc:186:: map gc :spastename
+ C:/Users/yasha/dotfiles/config/lf/lfrc:187:: 
+ C:/Users/yasha/dotfiles/config/lf/lfrc:188:: # make sure trash folder exists
+ C:/Users/yasha/dotfiles/config/lf/lfrc:189:: # %mkdir  p ~/.trash
+ C:/Users/yasha/dotfiles/config/lf/lfrc:190:: 
+ C:/Users/yasha/dotfiles/config/lf/lfrc:191:: # move current file or selected files to trash folder
+ C:/Users/yasha/dotfiles/config/lf/lfrc:192:: # (also see 'man mv' for backup/overwrite options)
+ C:/Users/yasha/dotfiles/config/lf/lfrc:193:: # cmd trash %set  f; mv  fx ~/.trash
+ C:/Users/yasha/dotfiles/config/lf/lfrc:194:: 
+ C:/Users/yasha/dotfiles/config/lf/lfrc:195:: # define a custom 'delete' command
+ C:/Users/yasha/dotfiles/config/lf/lfrc:196:: # cmd delete  {{
+ C:/Users/yasha/dotfiles/config/lf/lfrc:197:: #     set  f
+ C:/Users/yasha/dotfiles/config/lf/lfrc:198:: #     printf " fx n"
+ C:/Users/yasha/dotfiles/config/lf/lfrc:199:: #     printf "delete?[y/n "
+ C:/Users/yasha/dotfiles/config/lf/lfrc:200:: #     read ans
+ C:/Users/yasha/dotfiles/config/lf/lfrc:201:: #     [  ans = "y"   && rm  rf  fx
+ C:/Users/yasha/dotfiles/config/lf/lfrc:202:: # 
+ C:/Users/yasha/dotfiles/config/lf/lfrc:203:: 
+ C:/Users/yasha/dotfiles/config/lf/lfrc:204:: # use '<delete>' key for either 'trash' or 'delete' command
+ C:/Users/yasha/dotfiles/config/lf/lfrc:205:: # map <delete> trash
+ C:/Users/yasha/dotfiles/config/lf/lfrc:206:: # map <delete> delete
+ C:/Users/yasha/dotfiles/config/lf/lfrc:207:: 
+ C:/Users/yasha/dotfiles/config/lf/lfrc:208:: # extract the current file with the right command
+ C:/Users/yasha/dotfiles/config/lf/lfrc:209:: # (xkcd link: https://xkcd.com/1168/)
+ C:/Users/yasha/dotfiles/config/lf/lfrc:210:: cmd extract  & "bash /mnt/c/Users/yasha/dotfilesscripts/lfcdextract.sh"
+ C:/Users/yasha/dotfiles/config/lf/lfrc:211:: map gE :extract
+ C:/Users/yasha/dotfiles/config/lf/lfrc:212:: # compress current file or selected files with tar and gunzip
+ C:/Users/yasha/dotfiles/config/lf/lfrc:213:: # cmd tar  {param 
+ C:/Users/yasha/dotfiles/config/lf/lfrc:214:: #     set  f
+ C:/Users/yasha/dotfiles/config/lf/lfrc:215:: #     mkdir  1
+ C:/Users/yasha/dotfiles/config/lf/lfrc:216:: #     cp  r  fx  1
+ C:/Users/yasha/dotfiles/config/lf/lfrc:217:: #     tar czf  1.tar.gz  1
+ C:/Users/yasha/dotfiles/config/lf/lfrc:218:: #     rm  rf  1
+ C:/Users/yasha/dotfiles/config/lf/lfrc:219:: # 
+ C:/Users/yasha/dotfiles/config/lf/lfrc:220:: 
+ C:/Users/yasha/dotfiles/config/lf/lfrc:221:: # compress current file or selected files with zip
+ C:/Users/yasha/dotfiles/config/lf/lfrc:222:: # cmd zip  {param ([string  f) 
+ C:/Users/yasha/dotfiles/config/lf/lfrc:223:: #     set  f
+ C:/Users/yasha/dotfiles/config/lf/lfrc:224:: #     mkdir  f
+ C:/Users/yasha/dotfiles/config/lf/lfrc:225:: #     cp  r  Env:fx  f
+ C:/Users/yasha/dotfiles/config/lf/lfrc:226:: #     zip  r  f.zip  f
+ C:/Users/yasha/dotfiles/config/lf/lfrc:227:: #     rm  rf  f
+ C:/Users/yasha/dotfiles/config/lf/lfrc:228:: # .Invoke( Args)
+ C:/Users/yasha/dotfiles/config/lf/lfrc:229:: 
+ C:/Users/yasha/dotfiles/config/lf/lfrc:230:: map gz zip
+ C:/Users/yasha/dotfiles/config/lf/lfrc:231:: # cmd open  {{
+ C:/Users/yasha/dotfiles/config/lf/lfrc:232:: #     case " f" in
+ C:/Users/yasha/dotfiles/config/lf/lfrc:233:: #         *.tar.bz|*.tar.bz2|*.tbz|*.tbz2|*.tar.gz|*.tgz|*.tar.xz|*.txz|*.zip|*.rar|*.iso)
+ C:/Users/yasha/dotfiles/config/lf/lfrc:234:: #             mntdir=" f archivemount"
+ C:/Users/yasha/dotfiles/config/lf/lfrc:235:: #             [ !  d " mntdir"   && {
+ C:/Users/yasha/dotfiles/config/lf/lfrc:236:: #                 mkdir " mntdir"
+ C:/Users/yasha/dotfiles/config/lf/lfrc:237:: #                 archivemount " f" " mntdir"
+ C:/Users/yasha/dotfiles/config/lf/lfrc:238:: #                 echo " mntdir" >> "/tmp/__lf_archivemount_ id"
+ C:/Users/yasha/dotfiles/config/lf/lfrc:239:: #             
+ C:/Users/yasha/dotfiles/config/lf/lfrc:240:: #             lf  remote "send  id cd  " mntdir ""
+ C:/Users/yasha/dotfiles/config/lf/lfrc:241:: #             lf  remote "send  id reload"
+ C:/Users/yasha/dotfiles/config/lf/lfrc:242:: #             ;;
+ C:/Users/yasha/dotfiles/config/lf/lfrc:243:: #         *)
+ C:/Users/yasha/dotfiles/config/lf/lfrc:244:: #             for f in  fx; do
+ C:/Users/yasha/dotfiles/config/lf/lfrc:245:: #                  OPENER  f > /dev/null 2> /dev/null &
+ C:/Users/yasha/dotfiles/config/lf/lfrc:246:: #             done;;
+ C:/Users/yasha/dotfiles/config/lf/lfrc:247:: #     esac
+ C:/Users/yasha/dotfiles/config/lf/lfrc:248:: # 
+ C:/Users/yasha/dotfiles/config/lf/lfrc:249:: 
+ C:/Users/yasha/dotfiles/config/lf/lfrc:250:: 
+ C:/Users/yasha/dotfiles/config/lf/lfrc:251:: cmd zle cd %printf 'cd %q && zle reset prompt n' " PWD" >& ZLE_FIFO
+ C:/Users/yasha/dotfiles/config/lf/lfrc:252:: 
+ C:/Users/yasha/dotfiles/config/lf/lfrc:253:: cmd zle insert relative %{{
+ C:/Users/yasha/dotfiles/config/lf/lfrc:254::     for f in  fx; do
+ C:/Users/yasha/dotfiles/config/lf/lfrc:255::         printf 'LBUFFER+=" {LBUFFER:+  {(q) (realpath %q   relative to= PWD)" n' " f" >& ZLE_FIFO
+ C:/Users/yasha/dotfiles/config/lf/lfrc:256::     done
+ C:/Users/yasha/dotfiles/config/lf/lfrc:257:: 
+ C:/Users/yasha/dotfiles/config/lf/lfrc:258:: 
+ C:/Users/yasha/dotfiles/config/lf/lfrc:259:: cmd zle insert absolute %{{
+ C:/Users/yasha/dotfiles/config/lf/lfrc:260::     for f in  fx; do
+ C:/Users/yasha/dotfiles/config/lf/lfrc:261::         printf 'LBUFFER+=" {LBUFFER:+ %q" n' " f" >& ZLE_FIFO
+ C:/Users/yasha/dotfiles/config/lf/lfrc:262::     done
+ C:/Users/yasha/dotfiles/config/lf/lfrc:263:: 
+ C:/Users/yasha/dotfiles/config/lf/lfrc:264:: 
+ C:/Users/yasha/dotfiles/config/lf/lfrc:265:: cmd zle init :{{
+ C:/Users/yasha/dotfiles/config/lf/lfrc:266::     map . zle cd
+ C:/Users/yasha/dotfiles/config/lf/lfrc:267::     map a zle insert relative
+ C:/Users/yasha/dotfiles/config/lf/lfrc:268::     map A zle insert absolute
+ C:/Users/yasha/dotfiles/config/lf/lfrc:269:: 
+ C:/Users/yasha/dotfiles/config/lf/lfrc:270:: 
+ C:/Users/yasha/dotfiles/config/lf/lfrc:271:: &[[  n " ZLE_FIFO"    && lf  remote "send  id zle init"
+ C:/Users/yasha/dotfiles/config/lf/lfrc:272:: 
+ C:/Users/yasha/dotfiles/config/lf/lfrc:273:: 
+ C:/Users/yasha/dotfiles/config/lf/lfrc:274:: # y (select for copy) and P to paste soft link
+ C:/Users/yasha/dotfiles/config/lf/lfrc:275:: # d (select for cut) and P to paste hard link
+ C:/Users/yasha/dotfiles/config/lf/lfrc:276:: cmd link %pwsh  nop  c C: Users yasha dotfiles scripts lfLn.ps1  Env:fx
+ C:/Users/yasha/dotfiles/config/lf/lfrc:277:: map P :link
+ C:/Users/yasha/dotfiles/config/lf/lfrc:278:: 
+ C:/Users/yasha/dotfiles/config/lf/lfrc:279:: 
+ C:/Users/yasha/dotfiles/config/lf/lfrc:280:: cmd yank dirname  dirname    " f" | head  c 1 | xclip  i  selection clipboard
+ C:/Users/yasha/dotfiles/config/lf/lfrc:281:: cmd yank path  printf '%s' " fx" | xclip  i  selection clipboard
+ C:/Users/yasha/dotfiles/config/lf/lfrc:282:: cmd yank basename  basename  a     fx | head  c 1 | xclip  i  selection clipboard
+ C:/Users/yasha/dotfiles/config/lf/lfrc:283:: 
+ C:/Users/yasha/dotfiles/config/lf/lfrc:284:: cmd yank basename without extension  {{
+ C:/Users/yasha/dotfiles/config/lf/lfrc:285::     echo " fx" |
+ C:/Users/yasha/dotfiles/config/lf/lfrc:286::       xargs  r  d ' n' basename  a |
+ C:/Users/yasha/dotfiles/config/lf/lfrc:287::       awk  e '{
+ C:/Users/yasha/dotfiles/config/lf/lfrc:288::         for (i=length( 0); i > 0; i  ) {
+ C:/Users/yasha/dotfiles/config/lf/lfrc:289::           if (substr( 0, i, 1) == ".") {
+ C:/Users/yasha/dotfiles/config/lf/lfrc:290::             if (i == 1) print  0
+ C:/Users/yasha/dotfiles/config/lf/lfrc:291::             else print substr( 0, 0, i 1)
+ C:/Users/yasha/dotfiles/config/lf/lfrc:292:: 
+ C:/Users/yasha/dotfiles/config/lf/lfrc:293::             break
+ C:/Users/yasha/dotfiles/config/lf/lfrc:294::           
+ C:/Users/yasha/dotfiles/config/lf/lfrc:295::         
+ C:/Users/yasha/dotfiles/config/lf/lfrc:296:: 
+ C:/Users/yasha/dotfiles/config/lf/lfrc:297::         if (i == 0)
+ C:/Users/yasha/dotfiles/config/lf/lfrc:298::           print  0
+ C:/Users/yasha/dotfiles/config/lf/lfrc:299::       ' |
+ C:/Users/yasha/dotfiles/config/lf/lfrc:300::       if [  n " fs"  ; then cat; else tr  d ' n'; fi |
+ C:/Users/yasha/dotfiles/config/lf/lfrc:301::       xclip  i  selection clipboard
+ C:/Users/yasha/dotfiles/config/lf/lfrc:302:: 
+ C:/Users/yasha/dotfiles/config/lf/lfrc:303:: map gy :yank path 
+ C:/Users/yasha/dotfiles/config/lf/lfrc:304:: 
+ C:/Users/yasha/dotfiles/config/lf/lfrc:305:: 
+ C:/Users/yasha/dotfiles/config/lf/lfrc:306:: cmd bulk rename  {{
+ C:/Users/yasha/dotfiles/config/lf/lfrc:307::     old=" (mktemp)"
+ C:/Users/yasha/dotfiles/config/lf/lfrc:308::     new=" (mktemp)"
+ C:/Users/yasha/dotfiles/config/lf/lfrc:309::     [  n " fs"   && fs=" (ls)"
+ C:/Users/yasha/dotfiles/config/lf/lfrc:310::     printf '%s n' " fs" >" old"
+ C:/Users/yasha/dotfiles/config/lf/lfrc:311::     printf '%s n' " fs" >" new"
+ C:/Users/yasha/dotfiles/config/lf/lfrc:312::      EDITOR " new"
+ C:/Users/yasha/dotfiles/config/lf/lfrc:313::     [ " (wc  l < " new")"  ne " (wc  l < " old")"   && exit
+ C:/Users/yasha/dotfiles/config/lf/lfrc:314::     paste " old" " new" | while IFS= read  r names; do
+ C:/Users/yasha/dotfiles/config/lf/lfrc:315::         src=" (printf '%s' " names" | cut  f1)"
+ C:/Users/yasha/dotfiles/config/lf/lfrc:316::         dst=" (printf '%s' " names" | cut  f2)"
+ C:/Users/yasha/dotfiles/config/lf/lfrc:317::         if [ " src" = " dst"   || [  e " dst"  ; then
+ C:/Users/yasha/dotfiles/config/lf/lfrc:318::             continue
+ C:/Users/yasha/dotfiles/config/lf/lfrc:319::         fi
+ C:/Users/yasha/dotfiles/config/lf/lfrc:320::         mv    " src" " dst"
+ C:/Users/yasha/dotfiles/config/lf/lfrc:321::     done
+ C:/Users/yasha/dotfiles/config/lf/lfrc:322::     rm    " old" " new"
+ C:/Users/yasha/dotfiles/config/lf/lfrc:323::     lf  remote "send  id unselect"
+ C:/Users/yasha/dotfiles/config/lf/lfrc:324::  
+ C:/Users/yasha/dotfiles/config/lf/lfrc:325:: 
+ C:/Users/yasha/dotfiles/config/lf/lfrc:326:: 
+ C:/Users/yasha/dotfiles/config/lf/lfrc:327:: # Unmap the default binding
+ C:/Users/yasha/dotfiles/config/lf/lfrc:328:: # map r
+ C:/Users/yasha/dotfiles/config/lf/lfrc:329:: # Rename the file with a completely different name
+ C:/Users/yasha/dotfiles/config/lf/lfrc:330:: # map rc push :rename<space>
+ C:/Users/yasha/dotfiles/config/lf/lfrc:331:: # Edit the current filename
+ C:/Users/yasha/dotfiles/config/lf/lfrc:332:: map ra  {{
+ C:/Users/yasha/dotfiles/config/lf/lfrc:333:: 	# get 'basename' of the selection
+ C:/Users/yasha/dotfiles/config/lf/lfrc:334:: 	filename=" {f##*/"
+ C:/Users/yasha/dotfiles/config/lf/lfrc:335:: 	# quote it so we won't deal with quotes in the lf  remote command
+ C:/Users/yasha/dotfiles/config/lf/lfrc:336:: 	filename=" (printf '%q' " filename")"
+ C:/Users/yasha/dotfiles/config/lf/lfrc:337:: 	filename=" {filename// /<space>"
+ C:/Users/yasha/dotfiles/config/lf/lfrc:338:: 	lf  remote "send  id push :rename<space> filename"
+ C:/Users/yasha/dotfiles/config/lf/lfrc:339:: 
+ C:/Users/yasha/dotfiles/config/lf/lfrc:340:: # Edit filename before the extension
+ C:/Users/yasha/dotfiles/config/lf/lfrc:341:: # map r  {{
+ C:/Users/yasha/dotfiles/config/lf/lfrc:342:: # 	# get 'basename' of the selection
+ C:/Users/yasha/dotfiles/config/lf/lfrc:343:: # 	filename=" {f##*/"
+ C:/Users/yasha/dotfiles/config/lf/lfrc:344:: # 	# quote it so we won't deal with quotes in the lf  remote command
+ C:/Users/yasha/dotfiles/config/lf/lfrc:345:: # 	filename=" (printf '%q' " filename")"
+ C:/Users/yasha/dotfiles/config/lf/lfrc:346:: # 	filename=" {filename// /<space>"
+ C:/Users/yasha/dotfiles/config/lf/lfrc:347:: # 	lf  remote "send  id push :rename<space> filename<a b><c b>"
+ C:/Users/yasha/dotfiles/config/lf/lfrc:348:: #  
+ C:/Users/yasha/dotfiles/config/lf/lfrc:349:: 
+ C:/Users/yasha/dotfiles/config/lf/lfrc:350:: # map q quitcd
+ C:/Users/yasha/dotfiles/config/lf/lfrc:351:: # cmd quitcd  {{
+ C:/Users/yasha/dotfiles/config/lf/lfrc:352:: # 	echo "1" > " LF_SHELLCD_TEMPDIR/changecwd"
+ C:/Users/yasha/dotfiles/config/lf/lfrc:353:: # 	lf  remote "send  id quit"
+ C:/Users/yasha/dotfiles/config/lf/lfrc:354:: # 
+ C:/Users/yasha/dotfiles/config/lf/lfrc:355:: # push mw
+ C:/Users/yasha/dotfiles/config/lf/lfrc:356:: # map q push 'w:quit<enter>
+ C:/Users/yasha/dotfiles/config/lf/lfrc:357:: # map Q push :quit<enter>
+ C:/Users/yasha/dotfiles/config/lf/lfrc:358:: # cmd fzffile  {{
+ C:/Users/yasha/dotfiles/config/lf/lfrc:359:: #     res=" (fd .  HOME  H  I | fzf   reverse   header='Jump to location')"
+ C:/Users/yasha/dotfiles/config/lf/lfrc:360:: #     if [  d " res"  ; then
+ C:/Users/yasha/dotfiles/config/lf/lfrc:361:: #         cmd="cd"
+ C:/Users/yasha/dotfiles/config/lf/lfrc:362:: #     else 
+ C:/Users/yasha/dotfiles/config/lf/lfrc:363:: #         cmd="select"                                                       
+ C:/Users/yasha/dotfiles/config/lf/lfrc:364:: #     fi
+ C:/Users/yasha/dotfiles/config/lf/lfrc:365:: #     lf  remote "send  id cd  HOME"
+ C:/Users/yasha/dotfiles/config/lf/lfrc:366:: #     lf  remote "send  id  cmd  " res ""
+ C:/Users/yasha/dotfiles/config/lf/lfrc:367:: # 
+ C:/Users/yasha/dotfiles/config/lf/lfrc:368:: # cmd fzf_jump  &  "C: Users yasha blah.ps1 "
+ C:/Users/yasha/dotfiles/config/lf/lfrc:369:: # map f push  & "C: Users yasha blah.ps1"
+ C:/Users/yasha/dotfiles/config/lf/lfrc:370:: 

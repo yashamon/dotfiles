@@ -1,6 +1,0 @@
-let g:netrw_dirhistmax  =10
-let g:netrw_dirhistcnt =4
-let g:netrw_dirhist_4='/home/yashasavelyev/workspace/exams/examDiscreet'
-let g:netrw_dirhist_3='/home/yashasavelyev/workspace/exams/complexCalculus'
-let g:netrw_dirhist_2='/home/yashasavelyev/web/classes'
-let g:netrw_dirhist_1='/home/yashasavelyev/workspace/inactiveprojects'

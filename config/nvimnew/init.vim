@@ -1,5 +1,5 @@
 call plug#begin('~/.vim/plugged')
-" Plug 'nvim-telescope/telescope-fzf-native.nvim', { 'do': 'make' }
+"asd Plug 'nvim-telescope/telescope-fzf-native.nvim', { 'do': 'make' }
 Plug 'folke/todo-comments.nvim', { 'branch': 'main' }
 Plug 'L3MON4D3/LuaSnip'
 Plug 'saadparwaiz1/cmp_luasnip'
@@ -13,8 +13,9 @@ Plug 'vijaymarupudi/nvim-fzf'
 Plug 'kyazdani42/nvim-web-devicons'
 Plug 'glacambre/firenvim', { 'do': { _ -> firenvim#install(0) } }
 Plug 'neovim/nvim-lspconfig'
-Plug 'williamboman/nvim-lsp-installer', { 'branch': 'main' }
-Plug 'williamboman/mason.nvim'
+" Plug 'williamboman/nvim-lsp-installer', { 'branch': 'main' }
+Plug 'williamboman/mason.nvim', { 'branch': 'main' } 
+Plug 'williamboman/mason-lspconfig.nvim', { 'branch': 'main' }
 Plug 'hrsh7th/nvim-cmp', { 'branch': 'main' }
 Plug 'hrsh7th/cmp-buffer', { 'branch': 'main' }
 Plug 'hrsh7th/cmp-nvim-lsp', { 'branch': 'main' } 

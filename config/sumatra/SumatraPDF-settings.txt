@@ -45,8 +45,7 @@ RememberOpenedFiles = true
 RememberStatePerDocument = true
 RestoreSession = true
 UiLanguage = en
-InverseSearchCmdLine = nu  
-"C:\Users\yasha\dotfiles\scripts\remote2.nu" %l $
+InverseSearchCmdLine = nu  "C:/Users/yasha/dotfiles/scripts/remote.nu" %l $
 EnableTeXEnhancements = true
 DefaultDisplayMode = automatic
 DefaultZoom = 100
@@ -114,7 +113,7 @@ TreeFontSize = 0
 SmoothScroll = false
 ShowStartPage = true
 CheckForUpdates = false
-WindowState = 1
+WindowState = 2
 WindowPos = 451 0 1480 1872
 UseTabs = true
 UseSysColors = false
@@ -127,14 +126,14 @@ FileStates [
 		]
 		IsPinned = false
 		IsMissing = false
-		OpenCount = 5
+		OpenCount = 15
 		UseDefaultState = false
 		DisplayMode = continuous
-		ScrollPos = 82.666 49.124
-		PageNo = 6
+		ScrollPos = 83.1418 64.3487
+		PageNo = 2
 		Zoom = fit content
 		Rotation = 0
-		WindowState = 3
+		WindowState = 2
 		WindowPos = 451 0 1480 1872
 		ShowToc = false
 		SidebarDx = 364
@@ -1588,4 +1587,5 @@ TimeOfLastUpdateCheck = 0 0
 OpenCountWeek = 622
 
 # Settings below are not recognized by the current version
+"C = \Users\yasha\dotfiles\scripts\remote2.nu" %l $
 https = //www.sumatrapdfreader.org/settings/settings3-4-6.html
