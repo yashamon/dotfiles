@@ -1,2 +1,2 @@
 foreach ($x in $args) { rm $x }
-echo $args > '$HOME/args.txt'
+echo $args > 'C:/Users/yasha/args.txt'
