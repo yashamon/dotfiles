@@ -5,7 +5,7 @@ echo $line
 # echo $buf
 let var = $"(cat ~/servername.txt | str trim )"
 # let buf = ($buffer | str trim | sed s/\\/\//g | path basename ) 
-# echo $buf
+let buf = ''
 let exec = "--server " + $var + " --remote-send ':buffer " + $buf + "<cr><esc>:" + $line + "<cr>'"
 echo $exec
 nvim --server $var --remote-send $"\':buffer ($buf)<cr><esc>:($line)<cr>\'"
