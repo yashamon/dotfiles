@@ -365,10 +365,10 @@ nnoremap <leader>u <cr>:UndotreeToggle<CR>
 noremap <leader>c :'<,'>CommentToggle<cr>
 
 " language
-noremap <leader>sls :set spelllang=es
-noremap <leader>sle :set spelllang=en_us
+noremap <leader>sls :set spelllang=es<cr>
+noremap <leader>sle :set spelllang=en_us<cr>
 " LSP
-noremap <leader>lt :LspStart ltex
+noremap <leader>lt :LspStart ltex<cr>
 
 nnoremap <leader>f :silent execute "!echo " . v:servername . ' > C:/Users/yasha/servername.txt'<cr>:te pwsh -c lf<cr>i
 nnoremap <leader>lg :silent execute "!echo " . v:servername . ' > C:/Users/yasha/servername.txt'<cr>:te pwsh -c lazygit<cr>i
