@@ -113,13 +113,33 @@ TreeFontSize = 0
 SmoothScroll = false
 ShowStartPage = true
 CheckForUpdates = false
-WindowState = 1
+WindowState = 3
 WindowPos = 451 0 1480 1872
 UseTabs = true
 UseSysColors = false
 CustomScreenDPI = 0
 
 FileStates [
+	[
+		FilePath = C:\Users\yasha\workspacemodules\conformalsymplectic\build\conformalsymplectic.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 5
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = 79.8114 64.3487
+		PageNo = 8
+		Zoom = fit content
+		Rotation = 0
+		WindowState = 3
+		WindowPos = 451 0 1480 1872
+		ShowToc = false
+		SidebarDx = 364
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
 	[
 		FilePath = C:\Users\yasha\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\build\blah.pdf
 		Favorites [
@@ -136,26 +156,6 @@ FileStates [
 		WindowState = 1
 		WindowPos = 451 0 1480 1872
 		ShowToc = true
-		SidebarDx = 364
-		DisplayR2L = false
-		ReparseIdx = 0
-	]
-	[
-		FilePath = C:\Users\yasha\workspacemodules\conformalsymplectic\build\conformalsymplectic.pdf
-		Favorites [
-		]
-		IsPinned = false
-		IsMissing = false
-		OpenCount = 3
-		UseDefaultState = false
-		DisplayMode = continuous
-		ScrollPos = 73.5629 64.0587
-		PageNo = 8
-		Zoom = fit content
-		Rotation = 0
-		WindowState = 1
-		WindowPos = 451 0 1480 1872
-		ShowToc = false
 		SidebarDx = 364
 		DisplayR2L = false
 		ReparseIdx = 0

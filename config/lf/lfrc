@@ -80,7 +80,7 @@ cmd namepaste $cp-p --lf-paste $id
 # map gc :namepaste
 map p :spaste
 map gp :paste
-cmd findfile $& "C:\Users\yasha\dotfiles\scripts\lfcdfindfile.ps1"
+cmd findfile $nu "C:\Users\yasha\dotfiles\scripts\findfile.nu"
 map <a-f> :findfile
 
 cmd findfileroot ${{
@@ -124,10 +124,10 @@ cmd fasd_dir ${{
 
 # map  :fasd_dir
 map J  :fasd_dir 
-cmd Jhomedir  $& "C:\Users\yasha\dotfiles\scripts\lfcdJumpDir.ps1"
+cmd Jhomedir  $nu "C:\Users\yasha\dotfiles\scripts\jumpdir.nu"
 map <a-j> :Jhomedir
 
-cmd Jrootdir  $& "C:\Users\yasha\dotfiles\scripts\JumpRootDir.ps1"
+cmd Jrootdir  $nu "C:\Users\yasha\dotfiles\scripts\jumprootdir.nu"
 map gj :Jrootdir
 
 
