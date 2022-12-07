@@ -290,8 +290,8 @@ au FileType vim set list
 au UIEnter silent execute "!echo " . v:servername . ' > ~/servername.txt'
 function Server()
    let g:buffmain=bufname()
-   silent execute "!echo " . v:servername . ' > ~/servername.txt'
-   silent execute "!echo " . g:buffmain . ' > ~/filename.txt'
+   silent execute "!echo " . v:servername . ' > C:/Users/yasha/servername.txt'
+   silent execute "!echo " . g:buffmain . ' > C:/Users/yasha/servername.txt'
 endfunction
 nmap <leader>ser :call Server()
 
