@@ -293,7 +293,7 @@ function Server()
    silent execute "!echo " . v:servername . ' > ~/servername.txt'
    silent execute "!echo " . g:buffmain . ' > ~/filename.txt'
 endfunction
-nmap <leader>nn :call Server()
+nmap <leader>ser :call Server()
 
 au Filetype tex,text,md vmap q xi<CR><CR><CR><CR><ESC>kki/begin{comment}<cr><cr>/end{comment}<esc>kp  
 
