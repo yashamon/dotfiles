@@ -289,6 +289,7 @@ au FileType tex,text,md set indentexpr=
 au FileType vim set list
 au UIEnter silent execute "!echo " . v:servername . ' > ~/servername.txt'
 function Server()
+   let g:buffmain=bufname()
    silent execute "!echo " . v:servername . ' > ~/servername.txt'
    silent execute "!echo " . g:buffmain . ' > ~/servername.txt'
 endfunction
