@@ -5,15 +5,15 @@ let-env Path = ["C:/Users/yasha/scoop/shims" "C:/Users/yasha/dotfiles/scripts" "
 
 source ~/.zoxide.nu
 source ~/.cache/starship/init.nu
-def swap [] {
-rm $"($HOME)/AppData/Local/nvim-data/swap/*"
-}
 def neo [file:string] {
 # Invoke-Expression $neo --multigrid $1
 neovide --multigrid $file
 }
 let-env HOME = "C:/Users/yasha"
 let HOME = "C:/Users/yasha"
+def swap [] {
+rm $"($HOME)/AppData/Local/nvim-data/swap/*"
+}
 # let profile = $"($HOME)/dotfiles/config/nvim/init.vim"
 def nf [] {
 let $ho = (fd . $HOME -H -E /.undo/* -E /undo/* -E /tmp/* -E *.pdf | fzf | str trim)
