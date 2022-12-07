@@ -8,4 +8,4 @@ let buf = ($buffer | str trim)
 echo $var
 nvim --server $var --remote-send \':buffer $"($buffer)<cr><esc>:" + ($line) + "<cr>\'"
 }
-
+}
