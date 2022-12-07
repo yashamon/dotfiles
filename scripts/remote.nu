@@ -1,4 +1,4 @@
-def main [line: string] {
+def main [line: string, buffer: string] {
 # echo $buf > 'C:\Users\yasha\sumatra.txt'
 echo $line
 # let buf = ( $duf | sed 's/.*\\//' )
