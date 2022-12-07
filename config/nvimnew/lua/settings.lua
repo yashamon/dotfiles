@@ -220,12 +220,14 @@ undercurl = true,
     }
 })
 
--- nvim installer
+-- nvim LSP
 require('snippets') 
-require("nvim-lsp-installer").setup {}
-    local lspconfig = require("lspconfig")
-
-    local function on_attach(client, bufnr)
+require("mason").setup()
+require("mason-lspconfig").setup()
+require("lspconfig")
+-- LSP config
+local lspconfig = require("lspconfig")
+local function on_attach(client, bufnr)
         -- set up buffer keymaps, etc.
     end
 
