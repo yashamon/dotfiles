@@ -613,9 +613,8 @@ endfunction
 function! ViewPdf() 
 wa
 let g:buffmain=bufname()
-
 " silent execute "!echo " . v:servername . ' > C:/Users/yasha/servername.txt'
-silent execute "!echo " . v:servername . " > C:/Users/yasha/servername.txt; !echo " . g:buffmain . " > C:/Users/yasha/filename.txt"
+silent execute "!echo " . v:servername . " > C:/Users/yasha/servername.txt; " . g:buffmain . " > C:/Users/yasha/filename.txt"
 let buf=bufname()
 let linenumber=line(".")
 let colnumber=col(".")
