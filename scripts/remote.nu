@@ -5,7 +5,7 @@ echo $line
 # echo $buf
 let var = $"(cat ~/servername.txt | str trim )"
 # let buf = ($buffer | str trim | sed s/\\/\//g | path basename ) 
-echo $buffer
+echo $buffer > ~/buffer.txt
 let buf = ''
 let exec = "--server " + $var + " --remote-send ':buffer " + $buf + "<cr><esc>:" + $line + "<cr>'"
 echo $exec
