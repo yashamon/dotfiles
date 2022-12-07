@@ -363,6 +363,9 @@ nmap <m-7> :ZenMode<cr>:mksession!<cr>
 nnoremap <leader>rr :w<cr>:source $MYVIMRC<CR>
 nnoremap <leader>u <cr>:UndotreeToggle<CR>
 noremap <leader>c :'<,'>CommentToggle<cr>
+noremap <leader>sls spelllang=es
+noremap <leader>sle spelllang=en_us
+
 nnoremap <leader>f :silent execute "!echo " . v:servername . ' > C:/Users/yasha/servername.txt'<cr>:te pwsh -c lf<cr>i
 nnoremap <leader>lg :silent execute "!echo " . v:servername . ' > C:/Users/yasha/servername.txt'<cr>:te pwsh -c lazygit<cr>i
 " nnoremap <leader>tt :FloatermToggle<cr>
