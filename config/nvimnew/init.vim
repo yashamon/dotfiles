@@ -291,7 +291,7 @@ au FileType vim set list
 function Server()
    let g:buffmain=bufname()
    silent execute "!echo " . v:servername . ' > C:/Users/yasha/servername.txt'
-   silent execute "!echo " . g:buffmain . ' > C:/Users/yasha/servername.txt'
+   silent execute "!echo " . g:buffmain . ' > C:/Users/yasha/filename.txt'
 endfunction
 nmap <leader>ser :call Server()
 
