@@ -291,7 +291,7 @@ au UIEnter silent execute "!echo " . v:servername . ' > ~/servername.txt'
 function Server()
    let g:buffmain=bufname()
    silent execute "!echo " . v:servername . ' > ~/servername.txt'
-   silent execute "!echo " . g:buffmain . ' > ~/servername.txt'
+   silent execute "!echo " . g:buffmain . ' > ~/filename.txt'
 endfunction
 nmap <leader>nn :call Server()
 
