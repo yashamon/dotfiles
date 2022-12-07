@@ -287,7 +287,7 @@ au FileType Makefile set noexpandtab
 au FileType tex,text set spelllang=en_us
 au FileType tex,text,md set indentexpr=
 au FileType vim set list
-au UIEnter silent execute "!echo " . v:servername . ' > ~/servername.txt'
+" au UIEnter silent execute "!echo " . v:servername . ' > ~/servername.txt'
 function Server()
    let g:buffmain=bufname()
    silent execute "!echo " . v:servername . ' > C:/Users/yasha/servername.txt'
