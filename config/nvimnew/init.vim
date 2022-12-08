@@ -169,8 +169,11 @@ set autoindent
 set indentexpr=
 set noshowmatch
 set wrap
-set pb=15
-" set winbl=20
+if has("gui_running")
+  set wildoptions=pum
+  set pumblend=15
+  set winblend=15 
+endif" set winbl=20
 set switchbuf=newtab
 " let g:python3_host_prog='/usr/bin/python3.9'
 " let g:python3_host_prog='/usr/bin/python3.9'
