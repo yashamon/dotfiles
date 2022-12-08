@@ -234,11 +234,13 @@ local lspconfig = require("lspconfig")
 -- local nvim_lsp = require('lspconfig')
 -- Use an on_attach function to only map the following keys
 -- after the language server attaches to the current buffer
--- local on_attach = function(client, bufnr)
+local on_attach = function(client, bufnr)
 local function buf_set_keymap(...) vim.api.nvim_buf_set_keymap(bufnr, ...) end
 local function buf_set_option(...) vim.api.nvim_buf_set_option(bufnr, ...) end
--- Enable completion triggered by <c-x><c-o>
+
+ -- Enable completion triggered by <c-x><c-o>
 buf_set_keymap('omnifunc', 'v:lua.vim.lsp.omnifunc')
+
 require'lspconfig'.sumneko_lua.setup(require("lualsp")) -- Mappings.
 local opts = { noremap=true, silent=true }
 
@@ -342,7 +344,7 @@ sources = cmp.config.sources({
 { name = 'buffer', keyword_length = 4 },
 --{ name = 'fuzzy_buffer', keyword_length = 8 }
 }),
-completion = { autocomplete = false }
+-- completion = { autocomplete = false }
 })
 
 require('nvim_comment').setup({
