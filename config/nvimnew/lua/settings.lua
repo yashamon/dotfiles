@@ -188,7 +188,7 @@ undercurl = true,
   contrast = "hard", -- can be "hard", "soft" or empty string
   palette_overrides = {},
   dim_inactive = false,
-  transparent_mode = false,
+  transparent_mode = true,
     overrides = {
         SignColumn = {bg = "#ffa546"},
         Normal = {bg = "#ffa546"},
