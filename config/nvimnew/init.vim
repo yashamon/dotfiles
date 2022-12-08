@@ -467,7 +467,7 @@ map <m-d> <Esc>:w<CR>:bdelete<CR>
 map <m-D> :bdelete!<CR>
 noremap gf gq
 nnoremap f /
-vnoremap f :call feedkeys("/\%\%Vr<left><left>")<cr>  
+vnoremap f :call feedkeys("/\%V\%V<left><left><left>")<cr>  
 noremap F ?
 noremap gfm /\$<CR>v?\$<CR>
 noremap gm /\$<CR>hv?\$<CR>l
