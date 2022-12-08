@@ -40,7 +40,7 @@ Plug 'nvim-lua/plenary.nvim'
 Plug 'nvim-telescope/telescope.nvim'
 Plug 'simnalamburt/vim-mundo'
 Plug 'rlane/pounce.nvim'
-
+Plug 'mg979/vim-visual-multi'
 
 " Plug 'rakr/vim-one'
 "" Plug 'hrsh7th/cmp-vsnip', { 'branch': 'main' } 
