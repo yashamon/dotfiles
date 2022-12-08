@@ -467,7 +467,7 @@
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:467:: map <m D> :bdelete!<CR>
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:468:: noremap gf gq
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:469:: nnoremap f /
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:470:: vnoremap f :'<,'>%s
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:470:: vnoremap f   /  %Vr 
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:471:: noremap F ?
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:472:: noremap gfm /  <CR>v?  <CR>
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:473:: noremap gm /  <CR>hv?  <CR>l
