@@ -189,23 +189,23 @@ undercurl = true,
   palette_overrides = {},
   dim_inactive = false,
   transparent_mode = true,
-    overrides = {
-        SignColumn = {bg = "#ffa546"},
-        Normal = {bg = "#ffa546"},
-        DiagnosticSignError = { bg = "#ffa546" },
-        DiagnosticSignWarn = { bg = "#ffa546" },
-        DiagnosticSignInfo = { bg = "#ffa546" },
-        DiagnosticSignHint = { bg = "#ffa546" },
-        texType = { fg = "#808080" },
-        texMath = { fg = "#808080" },
-        Special = { fg = "#650000" },
-        texDelimiter = { fg = "#808080" },
-        texStatement = { fg = "#808080" },
-        -- Operator = { fg = "#808080" },
-        Type = { fg = "#008800" },
-        Comment = { fg = "#af6000" },
-        String = { fg = "#580058" },
-        Operator = { fg = "#580058" }
+    -- overrides = {
+    --     SignColumn = {bg = "#ffa546"},
+    --     Normal = {bg = "#ffa546"},
+    --     DiagnosticSignError = { bg = "#ffa546" },
+    --     DiagnosticSignWarn = { bg = "#ffa546" },
+    --     DiagnosticSignInfo = { bg = "#ffa546" },
+    --     DiagnosticSignHint = { bg = "#ffa546" },
+    --     texType = { fg = "#808080" },
+    --     texMath = { fg = "#808080" },
+    --     Special = { fg = "#650000" },
+    --     texDelimiter = { fg = "#808080" },
+    --     texStatement = { fg = "#808080" },
+    --     -- Operator = { fg = "#808080" },
+    --     Type = { fg = "#008800" },
+    --     Comment = { fg = "#af6000" },
+    --     String = { fg = "#580058" },
+    --     Operator = { fg = "#580058" }
         --bright orange  #fd8432
         --texComment = { fg = "#00ff00" },
         -- texString = { fg = "#0000ff" },
@@ -213,7 +213,7 @@ undercurl = true,
         -- texCmdName = { fg = "#0000ff" },
         -- SpecialChar = { fg = "#0000ff" },
         -- Statement = { fg = "#0000ff" }
-    }
+    -- }
 })
 
 -- nvim LSP
