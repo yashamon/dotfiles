@@ -469,6 +469,9 @@ map <m-D> :bdelete!<CR>
 noremap gf gq
 nnoremap f /\V
 vnoremap f :/\V
+" vim-multiple-cursors
+nnoremap <m-n> <c-n>
+
 " vnoremap f /\%V\%V<left><left><left>
 noremap F ?
 noremap gfm /\$<CR>v?\$<CR>
