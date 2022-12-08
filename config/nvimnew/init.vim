@@ -510,7 +510,7 @@ let g:fzf_layout = { 'window': { 'width': 1, 'height': 1 } }
 nnoremap <m-t> :w<cr>:BTags<cr>
 nnoremap SS :w<cr>:call Sentence()<cr>
 nnoremap S :w<cr>:call Line()<cr>
-
+" TODO:Add :w
 "noremap L <Esc>:AsyncRun sentence.sh %;nvr sentence_%<cr>:echo 'press any key'<cr>:execute 'call getchar()' | BLines<cr>
 " Line search mapping 
 " function! Jumpback() 
