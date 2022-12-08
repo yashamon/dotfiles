@@ -220,7 +220,7 @@ require('snippets')
 require("mason").setup()
 require("mason-lspconfig").setup()
 require("lspconfig")
-require'lspconfig'.sumneko_lua.setup(require("lualsp")) -- 
+require'lspconfig'.sumneko_lua.setup(require("lualsp")) 
 -- LSP config
 local lspconfig = require("lspconfig")
 
