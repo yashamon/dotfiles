@@ -173,7 +173,7 @@ if has("gui_running")
   set wildoptions=pum
   set pumblend=15
   set winblend=15 
-endif" set winbl=20
+endif
 set switchbuf=newtab
 " let g:python3_host_prog='/usr/bin/python3.9'
 " let g:python3_host_prog='/usr/bin/python3.9'
