@@ -1173,4 +1173,3 @@
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:1173:: " press <Tab> to expand or jump in a snippet. These can also be mapped separately
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:1174:: " via <Plug>luasnip expand snippet and <Plug>luasnip jump next.
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:1175:: " Vim Script
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:1176:: " dude dude
