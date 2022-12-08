@@ -193,8 +193,8 @@ undercurl = true,
         SignColumn = {bg = "#ffa546"},
         Normal = {bg = "#ffa546"},
         DiagnosticSignError = { bg = "#ffa546" },
-        DiagnosticSignWarn = { bg = "#ffa546" }, 
-        DiagnosticSignInfo = { bg = "#ffa546" }, 
+        DiagnosticSignWarn = { bg = "#ffa546" },
+        DiagnosticSignInfo = { bg = "#ffa546" },
         DiagnosticSignHint = { bg = "#ffa546" },
         texType = { fg = "#808080" },
         texMath = { fg = "#808080" },
@@ -206,30 +206,23 @@ undercurl = true,
         Comment = { fg = "#af6000" },
         String = { fg = "#580058" },
         Operator = { fg = "#580058" }
-
-
- 
--- bright orange  #fd8432
+        --bright orange  #fd8432
         --texComment = { fg = "#00ff00" },
         -- texString = { fg = "#0000ff" },
         -- Special = {fg = "#0000ff" },
         -- texCmdName = { fg = "#0000ff" },
         -- SpecialChar = { fg = "#0000ff" },
         -- Statement = { fg = "#0000ff" }
-
     }
 })
 
 -- nvim LSP
-require('snippets') 
+require('snippets')
 require("mason").setup()
 require("mason-lspconfig").setup()
 require("lspconfig")
 -- LSP config
 local lspconfig = require("lspconfig")
-local function on_attach(client, bufnr)
-        -- set up buffer keymaps, etc.
-    end
 
     lspconfig.sumneko_lua.setup { on_attach = on_attach }
     lspconfig.tsserver.setup { on_attach = on_attach }
@@ -238,15 +231,14 @@ local function on_attach(client, bufnr)
        on_attach = on_attach }
     lspconfig.texlab.setup { on_attach = on_attach }
 -- lspconfig stuff    
-local nvim_lsp = require('lspconfig')
+-- local nvim_lsp = require('lspconfig')
 -- Use an on_attach function to only map the following keys
 -- after the language server attaches to the current buffer
-local on_attach = function(client, bufnr)
+-- local on_attach = function(client, bufnr)
 local function buf_set_keymap(...) vim.api.nvim_buf_set_keymap(bufnr, ...) end
- local function buf_set_option(...) vim.api.nvim_buf_set_option(bufnr, ...) end
+local function buf_set_option(...) vim.api.nvim_buf_set_option(bufnr, ...) end
 -- Enable completion triggered by <c-x><c-o>
-buf_set_option('omnifunc', 'v:lua.vim.lsp.omnifunc')
-
+buf_set_keymap('omnifunc', 'v:lua.vim.lsp.omnifunc')
 require'lspconfig'.sumneko_lua.setup(require("lualsp")) -- Mappings.
 local opts = { noremap=true, silent=true }
 
