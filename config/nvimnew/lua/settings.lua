@@ -178,7 +178,7 @@ undercurl = true,
   underline = true,
   bold = true,
   italic = true,
-  strikethrough = true,
+  strikethrough = false,
   invert_selection = false,
   invert_signs = false,
   invert_tabline = false,
@@ -376,7 +376,6 @@ require('lualine').setup {
     -- theme = 
     theme = require('theme').theme(),
     icons_enabled = true,
-    theme = '',
     component_separators = { left = '', right = ''},
     section_separators = { left = '', right = ''},
     disabled_filetypes = {
@@ -403,7 +402,6 @@ require('lualine').setup {
                                    -- 1: Relative path
                                    -- 2: Absolute path
                                    -- 3: Absolute path, with tilde as the home directory
-  
           symbols = {
             modified = '[+]',      -- Text to show when the file is modified.
             readonly = '[-]',      -- Text to show when the file is non-modifiable or readonly.
