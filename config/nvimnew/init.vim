@@ -375,7 +375,7 @@ noremap <leader>lt :LspStart ltex<cr>
 nnoremap <leader>f :silent execute "!echo " . v:servername . ' > C:/Users/yasha/servername.txt'<cr>:te pwsh -c lf<cr>i
 nnoremap <leader>lg :silent execute "!echo " . v:servername . ' > C:/Users/yasha/servername.txt'<cr>:te pwsh -c lazygit<cr>i
 " nnoremap <leader>tt :FloatermToggle<cr>
-nnoremap <leader>t :silent execute "!echo " . v:servername . ' > C:/Users/yasha/servername.txt'<cr>:edit term://pwsh<cr><cr>
+nnoremap <leader>t :w<cr>:silent execute "!echo " . v:servername . ' > C:/Users/yasha/servername.txt'<cr>:edit term://pwsh<cr><cr>
 nnoremap <c-,> :cprevious<cr>
 nnoremap <c-.> :cnext<cr> 
 inoremap <m-h> <left>
@@ -676,6 +676,7 @@ function SentenceLL()
   call feedkeys("\<c-r>+\<cr>")
 endfunction
 noremap gs :call SentenceLL()<cr>
+
 function GitAsync()
 silent execute "!echo " . v:servername . ' > ~/servername.txt'
 let g:bufdude = bufname()
