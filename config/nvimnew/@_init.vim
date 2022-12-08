@@ -507,10 +507,10 @@
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:507:: " FZF 
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:508:: let g:fzf_layout = { 'window': { 'width': 1, 'height': 1  
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:509:: " let g:fzf_preview_window = [ 
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:510:: nnoremap <m t> :BTags<cr>
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:511:: nnoremap SS :call Sentence()<cr>
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:512:: nnoremap S <cr>:call Line()<cr>
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:513:: 
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:510:: nnoremap <m t> :w<cr>:BTags<cr>
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:511:: nnoremap SS :w<cr>:call Sentence()<cr>
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:512:: nnoremap S :w<cr>:call Line()<cr>
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:513:: " TODO:Add :w
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:514:: "noremap L <Esc>:AsyncRun sentence.sh %;nvr sentence_%<cr>:echo 'press any key'<cr>:execute 'call getchar()' | BLines<cr>
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:515:: " Line search mapping 
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:516:: " function! Jumpback() 
