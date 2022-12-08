@@ -404,7 +404,6 @@ noremap <S-ScrollWheelRight> <nop>
 noremap <C-ScrollWheelRight> <nop>
 inoremap \ /
 inoremap / \
-vnoremap f :'<,'>/
 
 " Movement
 inoremap <m-d> <C-w>
