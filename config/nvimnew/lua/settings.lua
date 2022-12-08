@@ -220,6 +220,7 @@ require('snippets')
 require("mason").setup()
 require("mason-lspconfig").setup()
 require("lspconfig")
+require'lspconfig'.sumneko_lua.setup(require("lualsp")) -- 
 -- LSP config
 local lspconfig = require("lspconfig")
 
@@ -240,7 +241,7 @@ local function buf_set_option(...) vim.api.nvim_buf_set_option(bufnr, ...) end
  -- Enable completion triggered by <c-x><c-o>
 buf_set_keymap('omnifunc', 'v:lua.vim.lsp.omnifunc')
 
-require'lspconfig'.sumneko_lua.setup(require("lualsp")) -- Mappings.
+Mappings.
 local opts = { noremap=true, silent=true }
 
   -- See `:help vim.lsp.*` for documentation on any of the below functions
