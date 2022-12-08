@@ -143,7 +143,7 @@ EOF
 
 "Neovide 
 "
-" let g:neovide_maximized=v:true 
+" let g:neovide_maximized=v:true
 let g:neovide_fullscreen=v:true
 let g:neovide_floating_blur_amount_x = 2.0
 let g:neovide_floating_blur_amount_y = 2.0
@@ -170,7 +170,7 @@ set indentexpr=
 set noshowmatch
 set wrap
 set pb=15
-set winbl=20
+" set winbl=20
 set switchbuf=newtab
 " let g:python3_host_prog='/usr/bin/python3.9'
 " let g:python3_host_prog='/usr/bin/python3.9'
