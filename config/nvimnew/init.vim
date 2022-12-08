@@ -25,7 +25,7 @@ Plug 'nvim-lualine/lualine.nvim'
 Plug 'justinhoward/fzf-neoyank'
 Plug 'folke/tokyonight.nvim', { 'branch': 'main' }
 Plug 'ellisonleao/gruvbox.nvim', { 'branch': 'main' }
-" Plug 'eddyekofo94/gruvbox-flat.nvim'
+Plug 'eddyekofo94/gruvbox-flat.nvim'
 Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}  
 Plug 'Shougo/neoyank.vim' 
 Plug 'Shougo/denite.nvim', { 'do': ':UpdateRemotePlugins' } 
@@ -169,11 +169,9 @@ set autoindent
 set indentexpr=
 set noshowmatch
 set wrap
-if has("gui_running")
-  set wildoptions=pum
-  set pumblend=15
-  set winblend=15 
-endif
+" set wildoptions=pum
+set pumblend=15
+" set winblend=15 
 set switchbuf=newtab
 " let g:python3_host_prog='/usr/bin/python3.9'
 " let g:python3_host_prog='/usr/bin/python3.9'
@@ -1172,4 +1170,4 @@ smap <silent><expr> <C-E> luasnip#choice_active() ? '<Plug>luasnip-next-choice' 
 "  })
 " press <Tab> to expand or jump in a snippet. These can also be mapped separately
 " via <Plug>luasnip-expand-snippet and <Plug>luasnip-jump-next.
-
+" Vim Script
