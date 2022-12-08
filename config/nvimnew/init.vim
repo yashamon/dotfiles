@@ -1,11 +1,11 @@
 call plug#begin('~/.vim/plugged')
 "asd Plug 'nvim-telescope/telescope-fzf-native.nvim', { 'do': 'make' }
 Plug 'folke/todo-comments.nvim', { 'branch': 'main' }
-Plug 'L3MON4D3/LuaSnip'
+Plug 'L3MON4D3/LuaSnip', { 'branch': 'main' }
 Plug 'saadparwaiz1/cmp_luasnip'
 Plug 'nvim-treesitter/playground'
-Plug 'LhKipp/nvim-nu'
-Plug 'folke/which-key.nvim'
+Plug 'LhKipp/nvim-nu', { 'branch': 'main' }
+Plug 'folke/which-key.nvim', { 'branch': 'main' }
 Plug 'ggandor/leap.nvim'
 Plug 'ibhagwan/fzf-lua', { 'branch': 'main' }
 Plug 'romgrk/fzy-lua-native'
@@ -25,7 +25,7 @@ Plug 'nvim-lualine/lualine.nvim'
 Plug 'justinhoward/fzf-neoyank'
 Plug 'folke/tokyonight.nvim', { 'branch': 'main' }
 Plug 'ellisonleao/gruvbox.nvim', { 'branch': 'main' }
-Plug 'eddyekofo94/gruvbox-flat.nvim'
+" Plug 'eddyekofo94/gruvbox-flat.nvim'
 Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}  
 Plug 'Shougo/neoyank.vim' 
 Plug 'Shougo/denite.nvim', { 'do': ':UpdateRemotePlugins' } 
