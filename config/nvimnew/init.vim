@@ -1,12 +1,12 @@
 call plug#begin('~/.vim/plugged')
 "asd Plug 'nvim-telescope/telescope-fzf-native.nvim', { 'do': 'make' }
 Plug 'folke/todo-comments.nvim', { 'branch': 'main' }
-Plug 'L3MON4D3/LuaSnip', { 'branch': 'main' }
+Plug 'L3MON4D3/LuaSnip'
 Plug 'saadparwaiz1/cmp_luasnip'
 Plug 'nvim-treesitter/playground'
 Plug 'LhKipp/nvim-nu', { 'branch': 'main' }
 Plug 'folke/which-key.nvim', { 'branch': 'main' }
-Plug 'ggandor/leap.nvim'
+Plug 'ggandor/leap.nvim', { 'branch': 'main' }
 Plug 'ibhagwan/fzf-lua', { 'branch': 'main' }
 Plug 'romgrk/fzy-lua-native'
 Plug 'vijaymarupudi/nvim-fzf'
