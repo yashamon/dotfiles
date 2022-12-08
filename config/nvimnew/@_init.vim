@@ -173,7 +173,7 @@
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:173::   set wildoptions=pum
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:174::   set pumblend=15
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:175::   set winblend=15 
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:176:: endif" set winbl=20
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:176:: endif
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:177:: set switchbuf=newtab
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:178:: " let g:python3_host_prog='/usr/bin/python3.9'
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:179:: " let g:python3_host_prog='/usr/bin/python3.9'
