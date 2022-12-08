@@ -467,7 +467,7 @@ map <m-d> <Esc>:w<CR>:bdelete<CR>
 map <m-D> :bdelete!<CR>
 noremap gf gq
 nnoremap f /
-vnoremap f :'<,'>%s
+" vnoremap f :'<,'>%s
 noremap F ?
 noremap gfm /\$<CR>v?\$<CR>
 noremap gm /\$<CR>hv?\$<CR>l
