@@ -13,7 +13,6 @@ Plug 'vijaymarupudi/nvim-fzf'
 Plug 'kyazdani42/nvim-web-devicons'
 Plug 'glacambre/firenvim', { 'do': { _ -> firenvim#install(0) } }
 Plug 'neovim/nvim-lspconfig'
-" Plug 'williamboman/nvim-lsp-installer', { 'branch': 'main' }
 Plug 'williamboman/mason.nvim', { 'branch': 'main' } 
 Plug 'williamboman/mason-lspconfig.nvim', { 'branch': 'main' }
 Plug 'hrsh7th/nvim-cmp', { 'branch': 'main' }
@@ -508,9 +507,9 @@ inoremap <C-]> <C-x><C-]>
 " FZF 
 let g:fzf_layout = { 'window': { 'width': 1, 'height': 1 } }
 " let g:fzf_preview_window = []
-nnoremap <m-t> :BTags<cr>
-nnoremap SS :call Sentence()<cr>
-nnoremap S <cr>:call Line()<cr>
+nnoremap <m-t> :w<cr>:BTags<cr>
+nnoremap SS :w<cr>:call Sentence()<cr>
+nnoremap S :w<cr>:call Line()<cr>
 
 "noremap L <Esc>:AsyncRun sentence.sh %;nvr sentence_%<cr>:echo 'press any key'<cr>:execute 'call getchar()' | BLines<cr>
 " Line search mapping 
