@@ -466,8 +466,8 @@ map <m-c> :close<cr>
 map <m-d> <Esc>:w<CR>:bdelete<CR>
 map <m-D> :bdelete!<CR>
 noremap gf gq
-nnoremap f /\V
-vnoremap f /\%V\%V<left><left><left>
+vnoremap f /\%V/%V<left><left><left>
+" vnoremap f /\%V\%V<left><left><left>
 noremap F ?
 noremap gfm /\$<CR>v?\$<CR>
 noremap gm /\$<CR>hv?\$<CR>l
