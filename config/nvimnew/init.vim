@@ -370,10 +370,10 @@ noremap <leader>c :'<,'>CommentToggle<cr>
 noremap <leader>sls :set spelllang=es<cr>
 noremap <leader>sle :set spelllang=en_us<cr>
 " LSP
-noremap <leader>lt :LspStart ltex<cr>
+noremap <leader>lt :w<cr>:LspStart ltex<cr>
 
-nnoremap <leader>f :silent execute "!echo " . v:servername . ' > C:/Users/yasha/servername.txt'<cr>:te pwsh -c lf<cr>i
-nnoremap <leader>lg :silent execute "!echo " . v:servername . ' > C:/Users/yasha/servername.txt'<cr>:te pwsh -c lazygit<cr>i
+nnoremap <leader>f :w<cr>:silent execute "!echo " . v:servername . ' > C:/Users/yasha/servername.txt'<cr>:te pwsh -c lf<cr>i
+nnoremap <leader>lg :w<cr>:silent execute "!echo " . v:servername . ' > C:/Users/yasha/servername.txt'<cr>:te pwsh -c lazygit<cr>i
 " nnoremap <leader>tt :FloatermToggle<cr>
 nnoremap <leader>t :w<cr>:silent execute "!echo " . v:servername . ' > C:/Users/yasha/servername.txt'<cr>:edit term://pwsh<cr><cr>
 nnoremap <c-,> :cprevious<cr>
@@ -404,6 +404,7 @@ noremap <S-ScrollWheelRight> <nop>
 noremap <C-ScrollWheelRight> <nop>
 inoremap \ /
 inoremap / \
+vnoremap f :'<,'>/
 
 " Movement
 inoremap <m-d> <C-w>
@@ -1172,3 +1173,4 @@ smap <silent><expr> <C-E> luasnip#choice_active() ? '<Plug>luasnip-next-choice' 
 " press <Tab> to expand or jump in a snippet. These can also be mapped separately
 " via <Plug>luasnip-expand-snippet and <Plug>luasnip-jump-next.
 " Vim Script
+" dude dude
