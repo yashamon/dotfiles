@@ -329,9 +329,11 @@
  "lemma": {
     "prefix": ["lem", "lemma"],
     "body": [
+      "",
       "\\begin{lemma} \\label{lemma:$1}",
       "$2",
       "\\end{lemma}",
+      "",
       "$0"
    ],
     "description": "Add a theorem"
@@ -340,9 +342,11 @@
  "Corollary": {
     "prefix": ["cor", "corol"],
     "body": [
-      "\\begin{corollary} \\label{corol:$1}", 
-            "$2",
+      "",
+      "\\begin{corollary} \\label{cor:$1}", 
+      "$2",
       "\\end{corollary}",
+      "",
       "$0"
     ],
     "description": "Add a theorem"
@@ -351,9 +355,11 @@
 "Theorem": {
     "prefix": ["thm", "theorem"],
     "body": [
+      "",
       "\\begin{theorem} \\label{thm:$1}", 
-             "$2",
+      "$2",
       "\\end{theorem}",
+      "",
       "$0"
     ],
     "description": "Add a theorem"
