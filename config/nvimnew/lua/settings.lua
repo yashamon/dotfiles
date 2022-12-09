@@ -362,7 +362,7 @@ require('nvim_comment').setup({
    --hook = nil 
  })
 require('spellsitter').setup {
-  hl = 'SpellBad', 
+  hl = 'SpellBad',
   captures = {},  -- set to {} to spellcheck everything
 
   -- Spellchecker to use. values:
