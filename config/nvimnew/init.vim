@@ -142,7 +142,16 @@ lua <<EOF
 require('settings')
 -- require('telescope').load_extension('fzf')
 EOF
-
+" cmp
+let s:timer = 0
+autocmd TextChangedI * call s:on_text_changed()
+function! s:on_text_changed() abort
+  call timer_stop(s:timer)
+  let s:timer = timer_start(200, function('s:complete'))
+endfunction
+function! s:complete(...) abort
+  lua require('cmp').complete({ reason = require('cmp').ContextReason.Auto })
+endfunction
 "Neovide 
 "
 " let g:neovide_maximized=v:true
@@ -172,7 +181,7 @@ set indentexpr=
 set noshowmatch
 set wrap
 " set wildoptions=pum
-set pumblend=15
+set pumblend=20
 " set winblend=15 
 set switchbuf=newtab
 " let g:python3_host_prog='/usr/bin/python3.9'
@@ -469,7 +478,7 @@ map <m-d> <Esc>:w<CR>:bdelete<CR>
 map <m-D> :bdelete!<CR>
 noremap gf gq
 nnoremap f /\V
-vnoremap f :/\V
+vnoremap f /\%V\%V<left><left><left>
 " vim-multiple-cursors
 nnoremap <m-n> <c-n>
 
@@ -1178,7 +1187,4 @@ smap <silent><expr> <C-E> luasnip#choice_active() ? '<Plug>luasnip-next-choice' 
 "  })
 " press <Tab> to expand or jump in a snippet. These can also be mapped separately
 " via <Plug>luasnip-expand-snippet and <Plug>luasnip-jump-next.
-" Vim Script
-" prima;lskdjf;laskjf l;askfj asl;kf jas;lfkj asl;dfkj as;flk jasfl; 
-" a;sldkfja;slfj as;lfjas;f ;alskdjf;aslfjkas;lfkjas fa; sldkfja;slfk 
-" jasd;lfjas ;lfja s;lfjasl;fjas;flajs;flajksdf ;laskjdf  asdf mapp
+" Vim Script 
