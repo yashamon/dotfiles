@@ -186,7 +186,7 @@ undercurl = true,
   inverse = false, -- invert background for search, diffs, statuslines and errors
   contrast = "hard", -- can be "hard", "soft" or empty string
   palette_overrides = {},
-  dim_inactive = false,
+  dim_inactive = true,
   transparent_mode = false,
     overrides = {
         SignColumn = {bg = "#ffa546"},
