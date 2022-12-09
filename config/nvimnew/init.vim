@@ -1,4 +1,4 @@
-call plug#begin('~/.vim/plugged')
+call plug#begin('~/.vim/plugged'
 "asd Plug 'nvim-telescope/telescope-fzf-native.nvim', { 'do': 'make' }
 Plug 'folke/todo-comments.nvim', { 'branch': 'main' }
 Plug 'L3MON4D3/LuaSnip'
@@ -42,9 +42,9 @@ Plug 'simnalamburt/vim-mundo'
 Plug 'rlane/pounce.nvim'
 Plug 'mg979/vim-visual-multi'
 Plug 'tpope/vim-surround'
-
 " Plug 'https://github.com/machakann/vim-sandwich'
-" Plug $rakr/vim-one$
+
+" Plug 'rakr/vim-one'
 "" Plug 'hrsh7th/cmp-vsnip', 
 " Plug 'hrsh7th/vim-vsnip'
 " Plug 'hrsh7th/vim-vsnip-integ' Plug 'kyazdani42/blue-moon'
