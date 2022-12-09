@@ -1,16 +1,16 @@
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:1:: call plug#begin('~/.vim/plugged'
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:1:: call plug#begin('~/.vim/plugged')
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:2:: "asd Plug 'nvim telescope/telescope fzf native.nvim', { 'do': 'make' 
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:3:: Plug 'folke/todo comments.nvim', { 'branch': 'main' 
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:4:: Plug 'L3MON4D3/LuaSnip'
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:5:: Plug 'saadparwaiz1/cmp_luasnip'
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:6:: Plug 'nvim treesitter/playground'
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:7:: Plug 'LhKipp/nvim nu', { 'branch': 'main' 
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:8:: Plug 'folke/which key.nvim', { 'branch': 'main' 
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:9:: Plug 'ggandor/leap.nvim', { 'branch': 'main' 
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:10:: Plug 'ibhagwan/fzf lua', { 'branch': 'main' 
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:11:: Plug 'romgrk/fzy lua native'
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:6:: " Plug 'nvim treesitter/playground'
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:7:: " Plug 'LhKipp/nvim nu', { 'branch': 'main' 
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:8:: " Plug 'folke/which key.nvim', { 'branch': 'main' 
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:9:: " Plug 'ggandor/leap.nvim', { 'branch': 'main' 
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:10:: " Plug 'ibhagwan/fzf lua', { 'branch': 'main' 
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:11:: " Plug 'romgrk/fzy lua native'
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:12:: Plug 'vijaymarupudi/nvim fzf'
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:13:: Plug 'kyazdani42/nvim web devicons'
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:13:: " Plug 'kyazdani42/nvim web devicons'
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:14:: Plug 'glacambre/firenvim', { 'do': { _  > firenvim#install(0)  
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:15:: Plug 'neovim/nvim lspconfig'
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:16:: Plug 'williamboman/mason.nvim', { 'branch': 'main'  
@@ -21,9 +21,9 @@
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:21:: Plug 'ray x/cmp treesitter'
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:22:: Plug 'quangnguyen30192/cmp nvim tags',  { 'branch': 'main'   
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:23:: Plug 'terrortylor/nvim comment', { 'branch': 'main' 
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:24:: Plug 'nvim lualine/lualine.nvim'
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:24:: " Plug 'nvim lualine/lualine.nvim'
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:25:: Plug 'justinhoward/fzf neoyank'
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:26:: Plug 'folke/tokyonight.nvim', { 'branch': 'main' 
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:26:: " Plug 'folke/tokyonight.nvim', { 'branch': 'main' 
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:27:: Plug 'ellisonleao/gruvbox.nvim', { 'branch': 'main' 
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:28:: " Plug 'eddyekofo94/gruvbox flat.nvim'
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:29:: Plug 'nvim treesitter/nvim treesitter', {'do': ':TSUpdate'  
@@ -147,8 +147,8 @@
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:147:: "
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:148:: " let g:neovide_maximized=v:true
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:149:: let g:neovide_fullscreen=v:true
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:150:: let g:neovide_floating_blur_amount_x = 2.0
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:151:: let g:neovide_floating_blur_amount_y = 2.0
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:150:: let g:neovide_floating_blur_amount_x = 3.0
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:151:: let g:neovide_floating_blur_amount_y = 3.0
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:152:: " let g:neovide_transparency=0.15
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:153:: 
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:154:: "General Settings    

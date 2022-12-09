@@ -3,14 +3,14 @@ call plug#begin('~/.vim/plugged')
 Plug 'folke/todo-comments.nvim', { 'branch': 'main' }
 Plug 'L3MON4D3/LuaSnip'
 Plug 'saadparwaiz1/cmp_luasnip'
-Plug 'nvim-treesitter/playground'
-Plug 'LhKipp/nvim-nu', { 'branch': 'main' }
-Plug 'folke/which-key.nvim', { 'branch': 'main' }
-Plug 'ggandor/leap.nvim', { 'branch': 'main' }
-Plug 'ibhagwan/fzf-lua', { 'branch': 'main' }
-Plug 'romgrk/fzy-lua-native'
+" Plug 'nvim-treesitter/playground'
+" Plug 'LhKipp/nvim-nu', { 'branch': 'main' }
+" Plug 'folke/which-key.nvim', { 'branch': 'main' }
+" Plug 'ggandor/leap.nvim', { 'branch': 'main' }
+" Plug 'ibhagwan/fzf-lua', { 'branch': 'main' }
+" Plug 'romgrk/fzy-lua-native'
 Plug 'vijaymarupudi/nvim-fzf'
-Plug 'kyazdani42/nvim-web-devicons'
+" Plug 'kyazdani42/nvim-web-devicons'
 Plug 'glacambre/firenvim', { 'do': { _ -> firenvim#install(0) } }
 Plug 'neovim/nvim-lspconfig'
 Plug 'williamboman/mason.nvim', { 'branch': 'main' } 
@@ -21,9 +21,9 @@ Plug 'hrsh7th/cmp-nvim-lsp', { 'branch': 'main' }
 Plug 'ray-x/cmp-treesitter'
 Plug 'quangnguyen30192/cmp-nvim-tags',  { 'branch': 'main' }  
 Plug 'terrortylor/nvim-comment', { 'branch': 'main' }
-Plug 'nvim-lualine/lualine.nvim'
+" Plug 'nvim-lualine/lualine.nvim'
 Plug 'justinhoward/fzf-neoyank'
-Plug 'folke/tokyonight.nvim', { 'branch': 'main' }
+" Plug 'folke/tokyonight.nvim', { 'branch': 'main' }
 Plug 'ellisonleao/gruvbox.nvim', { 'branch': 'main' }
 " Plug 'eddyekofo94/gruvbox-flat.nvim'
 Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}  
