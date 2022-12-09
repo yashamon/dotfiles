@@ -19,6 +19,9 @@ def nf [] {
 let $ho = (fd . $HOME -H -E /.undo/* -E /undo/* -E /tmp/* -E *.pdf | fzf | str trim)
 neovide --multigrid $ho 
 }
+
+def killn [name: string] { ps | where name == $name | each {|it| kill --force $it.pid} }
+
 alias hello = ( echo "hello" )
 alias j = __zoxide_z
 def vrc [] { neo $"($HOME)/dotfiles/config/nvimnew/init.vim" }
