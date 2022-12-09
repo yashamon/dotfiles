@@ -1179,4 +1179,6 @@ smap <silent><expr> <C-E> luasnip#choice_active() ? '<Plug>luasnip-next-choice' 
 " press <Tab> to expand or jump in a snippet. These can also be mapped separately
 " via <Plug>luasnip-expand-snippet and <Plug>luasnip-jump-next.
 " Vim Script
-" prim
+" prima;lskdjf;laskjf l;askfj asl;kf jas;lfkj asl;dfkj as;flk jasfl; 
+" a;sldkfja;slfj as;lfjas;f ;alskdjf;aslfjkas;lfkjas fa; sldkfja;slfk 
+" jasd;lfjas ;lfja s;lfjasl;fjas;flajs;flajksdf ;laskjdf  asdf mapp
