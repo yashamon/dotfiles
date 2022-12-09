@@ -1,4 +1,4 @@
-call plug#begin('~/.vim/plugged'
+call plug#begin('~/.vim/plugged')
 "asd Plug 'nvim-telescope/telescope-fzf-native.nvim', { 'do': 'make' }
 Plug 'folke/todo-comments.nvim', { 'branch': 'main' }
 Plug 'L3MON4D3/LuaSnip'
@@ -147,8 +147,8 @@ EOF
 "
 " let g:neovide_maximized=v:true
 let g:neovide_fullscreen=v:true
-let g:neovide_floating_blur_amount_x = 2.0
-let g:neovide_floating_blur_amount_y = 2.0
+let g:neovide_floating_blur_amount_x = 3.0
+let g:neovide_floating_blur_amount_y = 3.0
 " let g:neovide_transparency=0.15
 
 "General Settings    
