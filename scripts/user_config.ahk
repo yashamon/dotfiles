@@ -67,6 +67,7 @@ home::CapsLock
 #CapsLock::
 #!CapsLock::
 ^CapsLock::
+return
 #!h::
 return
 #h::
