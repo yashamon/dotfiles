@@ -1,3 +1,12 @@
+
+{  
+   "Fukinfinity": {
+    "prefix": "fukin",
+    "body": [
+        "\operatorname {Fuk} _{\infty} ($1) $0" 
+       ],
+    "description": "fuk"
+    },
 {  
    "Fuk": {
     "prefix": "fuk",
@@ -48,7 +57,7 @@
 "BHam": {
     "prefix": "bham",
     "body": [
-        "BHam (M, $1 \\omega) $0" 
+        "\operatorname {BHam} (M, $1 \\omega) $0" 
        ],
     "description": "BHam"
     },  
