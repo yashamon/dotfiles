@@ -64,6 +64,7 @@ home::CapsLock
 #!f::MoveCurrentWindowToDesktop(4)
 #!c::MoveCurrentWindowToDesktop(5)
 !CapsLock::
+send {F11}
 return
 #CapsLock::
 return
