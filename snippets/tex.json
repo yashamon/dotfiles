@@ -2,7 +2,7 @@
    "Fuk": {
     "prefix": "fuk",
     "body": [
-        "Fuk (M, $1 \\omega) $0" 
+        "\operatorname {Fuk} (M, $1 \\omega) $0" 
        ],
     "description": "fuk"
     },  
@@ -25,7 +25,7 @@
 "NFuk": {
     "prefix": "NF",
     "body": [
-        "NFuk (M, \\omega) $0" 
+        "\operatorname {NFuk} (M, \\omega) $0" 
        ],
     "description": "NFuk"
     },  
@@ -56,7 +56,7 @@
 "Ham": {
     "prefix": "ham",
     "body": [
-        "Ham (M, $1 \\omega) $0" 
+        "\operatorname {Ham} (M, $1 \\omega) $0" 
        ],
     "description": "ham"
     },  
