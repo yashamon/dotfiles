@@ -437,6 +437,8 @@ noremap gbc ?[\\|]<CR>
 " 
 vnoremap p "_dP
 cmap <m-p> <c-r>+
+" cmap sa saveas
+
 noremap <m-p> <c-r>+
 inoremap <m-p> <c-r>+
 " noremap D "0D:wa<cr>
