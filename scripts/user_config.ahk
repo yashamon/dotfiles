@@ -64,8 +64,11 @@ home::CapsLock
 #!f::MoveCurrentWindowToDesktop(4)
 #!c::MoveCurrentWindowToDesktop(5)
 !CapsLock::
+return
 #CapsLock::
+return
 #!CapsLock::
+return
 ^CapsLock::
 return
 #!h::
