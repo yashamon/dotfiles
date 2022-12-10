@@ -528,7 +528,7 @@
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:528:: " let g:fzf_preview_window = [ 
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:529:: nnoremap <m t> :w<cr>:BTags<cr>
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:530:: nnoremap SS :w<cr>:call Sentence()<cr>
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:531:: nnoremap S :w<cr>:call Line()<cr>
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:531:: nnoremap S :call Line()<cr>
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:532:: " TODO:Add :w
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:533:: "noremap L <Esc>:AsyncRun sentence.sh %;nvr sentence_%<cr>:echo 'press any key'<cr>:execute 'call getchar()' | BLines<cr>
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:534:: " Line search mapping 
