@@ -437,7 +437,7 @@ noremap gbc ?[\\|]<CR>
 " 
 vnoremap p "_dP
 cmap <m-p> <c-r>+
-" command! -bar SA saveas <cr>
+" command! -bar SA saveas
 
 noremap <m-p> <c-r>+
 inoremap <m-p> <c-r>+

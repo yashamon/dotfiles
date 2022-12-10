@@ -437,7 +437,7 @@
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:437:: " 
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:438:: vnoremap p "_dP
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:439:: cmap <m p> <c r>+
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:440:: " command!  bar SA saveas <cr>
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:440:: " command!  bar SA saveas
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:441:: 
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:442:: noremap <m p> <c r>+
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:443:: inoremap <m p> <c r>+
