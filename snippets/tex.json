@@ -6,16 +6,14 @@
        ],
     "description": "opname"
     },
-{  
-   "Fukinfinity": {
+  "Fukinfinity": {
     "prefix": "fukin",
     "body": [
         "\\operatorname {Fuk} _{\infty} ($1) $0" 
        ],
     "description": "fukfibration"
     },
-{  
-   "Fuk": {
+  "Fuk": {
     "prefix": "fuk",
     "body": [
         "\\operatorname {Fuk} (M, $1 \\omega) $0" 
