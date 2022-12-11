@@ -251,7 +251,7 @@
   "Math": {
     "prefix": "m",
     "body": [
-      "\\$$1\\$ $0"
+      "\\$$1\\$ dude $0"
     ],
     "description": "Add a Math"
   },
