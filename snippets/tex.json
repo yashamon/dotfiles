@@ -62,7 +62,7 @@
 "BHam": {
     "prefix": "bham",
     "body": [
-        "\\operatorname {BHam} (M, $1 \\omega) $0" 
+        "operatorname {BHam} (M, $1 \\omega) $0" 
        ],
     "description": "BHam"
     },  
@@ -70,7 +70,7 @@
 "Ham": {
     "prefix": "ham",
     "body": [
-        "\\operatorname {Ham} (M, $1 \\omega) $0" 
+        "operatorname {Ham} (M, $1 \\omega) $0" 
        ],
     "description": "ham"
     },  
