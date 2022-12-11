@@ -480,7 +480,8 @@ map <m-c> :close<cr>
 map <m-d> <Esc>:w<CR>:bdelete<CR>
 map <m-D> :bdelete!<CR>
 noremap gf gq
-nmap f \\/
+nmap f /
+nmap gv \\/ 
 vmap f \\/
 " vim-multiple-\cursors
 nnoremap <m-n> <c-n>
@@ -1191,7 +1192,7 @@ let g:gitgutter_sign_modified_removed = '▞'
 "  		on_off_commands = true,
 "  		ui_elements_commands = false,
 "  		cursor_by_mode = false,
-"  	}
+"  	} test
 "  }) 
 
 
