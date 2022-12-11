@@ -1,9 +1,16 @@
-
+{  
+   "operatorname": {
+    "prefix": "op",
+    "body": [
+        "\\operatorname {$1} $0" 
+       ],
+    "description": "opname"
+    },
 {  
    "Fukinfinity": {
     "prefix": "fukin",
     "body": [
-        "\operatorname {Fuk} _{\infty} ($1) $0" 
+        "\\operatorname {Fuk} _{\infty} ($1) $0" 
        ],
     "description": "fukfibration"
     },
@@ -11,7 +18,7 @@
    "Fuk": {
     "prefix": "fuk",
     "body": [
-        "\operatorname {Fuk} (M, $1 \\omega) $0" 
+        "\\operatorname {Fuk} (M, $1 \\omega) $0" 
        ],
     "description": "fuk"
     },  
@@ -34,7 +41,7 @@
 "NFuk": {
     "prefix": "NF",
     "body": [
-        "\operatorname {NFuk} (M, \\omega) $0" 
+        "\\operatorname {NFuk} (M, \\omega) $0" 
        ],
     "description": "NFuk"
     },  
@@ -57,7 +64,7 @@
 "BHam": {
     "prefix": "bham",
     "body": [
-        "\operatorname {BHam} (M, $1 \\omega) $0" 
+        "\\operatorname {BHam} (M, $1 \\omega) $0" 
        ],
     "description": "BHam"
     },  
@@ -65,7 +72,7 @@
 "Ham": {
     "prefix": "ham",
     "body": [
-        "\operatorname {Ham} (M, $1 \\omega) $0" 
+        "\\operatorname {Ham} (M, $1 \\omega) $0" 
        ],
     "description": "ham"
     },  
