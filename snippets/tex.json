@@ -1,11 +1,4 @@
-{  
-   "operatorname": {
-    "prefix": "op",
-    "body": [
-        "\\operatorname {$1} $0" 
-       ],
-    "description": "opname"
-    },
+
 {  
    "Fukinfinity": {
     "prefix": "fukin",
