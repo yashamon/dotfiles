@@ -39,7 +39,7 @@
 "NFuk": {
     "prefix": "NF",
     "body": [
-        "\\operatorname {NFuk} (M, \\omega) $0" 
+        "operatorname {NFuk} (M, \\omega) $0" 
        ],
     "description": "NFuk"
     },  
