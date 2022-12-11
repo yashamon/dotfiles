@@ -1,5 +1,6 @@
 set ratios 1:2:3
-set shell pwsh
+set filesep " "
+set shell pwsh 
 # set shell "C:\\Users\\yasha\\scoop\\shims\\nu.exe"
 
 # Shell commands with multiline definitions and/or positional arguments and/or
@@ -23,6 +24,7 @@ cmd open &start $Env:f
 # pager. You may instead install a pager of your choice and replace the default
 # pager keybinding accordingly.
 map i $less $Env:f
+map Y %echo $Env:fx | clip 
 # change the shell used in default shell keybinding
 map w $pwsh
 # change 'doc' command to use a different pager
@@ -31,6 +33,7 @@ cmd doc $lf -doc | less
 set scrolloff 10
 # use enter for shell commands
 map <enter> shell
+# set previewer "D:\\lf_scripts\\preview.bat"
 # set cleaner ~/.config/lf/cleaner
 # set previewer ~/.config/lf/preview
 # interpreter for shell commands
@@ -47,11 +50,11 @@ set hidden
 #     lf -remote "send echomsg "deletesucess""
 # }}
 
-cmd trash $pwsh -nop -c lfcdTrash.ps1 $Env:fx
+cmd trash $pwsh -c lfcdTrash.ps1 $Env:fx
 # cmd trash recycle-bin $Env:fx
-set previewer stpv
-set cleaner stpvimgclr
-&stpvimg --listen $id 
+# set previewer stpv
+# set cleaner stpvimgclr
+# &stpvimg --listen $id 
 map . mark-load
 # cmd aj %lf -remote "send $id cd '$(autojump $1)'"
 map gmd push %mkdir<space> 
@@ -80,7 +83,7 @@ cmd namepaste $cp-p --lf-paste $id
 # map gc :namepaste
 map p :spaste
 map gp :paste
-cmd findfile $nu "C:\Users\yasha\dotfiles\scripts\findfile.nu"
+cmd findfile $sh -c nu "C:\Users\yasha\dotfiles\scripts\findfile.nu"
 map <a-f> :findfile
 
 cmd findfileroot ${{

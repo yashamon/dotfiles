@@ -1,6 +1,7 @@
 call plug#begin('~/.vim/plugged')
 "asd Plug 'nvim-telescope/telescope-fzf-native.nvim', { 'do': 'make' }
 Plug 'folke/todo-comments.nvim', { 'branch': 'main' }
+" Plug 'airblade/vim-gitgutter'
 Plug 'L3MON4D3/LuaSnip'
 Plug 'saadparwaiz1/cmp_luasnip'
 Plug 'nvim-treesitter/playground'
@@ -479,8 +480,8 @@ map <m-c> :close<cr>
 map <m-d> <Esc>:w<CR>:bdelete<CR>
 map <m-D> :bdelete!<CR>
 noremap gf gq
-nnoremap f /
-vnoremap f /\%V\%V<left><left><left>
+nmap f \\/
+vmap f \\/
 " vim-multiple-\cursors
 nnoremap <m-n> <c-n>
 
@@ -832,9 +833,14 @@ nnoremap <silent> <m-k> <cmd>lua require('luasnip').jump(-1)<Cr>
 imap <silent><expr> <C-E> luasnip#choice_active() ? '<Plug>luasnip-next-choice' : '<C-E>'
 smap <silent><expr> <C-E> luasnip#choice_active() ? '<Plug>luasnip-next-choice' : '<C-E>'
 
+" vim-gitgutter
+let g:gitgutter_sign_added = '▌'
+let g:gitgutter_sign_removed = '▖'
+let g:gitgutter_sign_removed_first_line = '▘'
+let g:gitgutter_sign_modified = '▐'
+let g:gitgutter_sign_modified_removed = '▞'
 
-
-"lua <<EOF
+"lua <<EOF test
 " local generator = function()
 "     local el_segments = {}
 "
@@ -1186,7 +1192,6 @@ smap <silent><expr> <C-E> luasnip#choice_active() ? '<Plug>luasnip-next-choice' 
 "  		ui_elements_commands = false,
 "  		cursor_by_mode = false,
 "  	}
-"  })
-" press <Tab> to expand or jump in a snippet. These can also be mapped separately
-" via <Plug>luasnip-expand-snippet and <Plug>luasnip-jump-next.
-" Vim Script  
+"  }) 
+
+
