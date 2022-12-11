@@ -1,5 +1,18 @@
 {  
-
+"Fukinfinity": {
+    "prefix": "fukin",
+    "body": [
+        "\\operatorname {Fuk} _{\infty} ($1) $0" 
+       ],
+    "description": "fukfibration"
+},
+  "Fuk": {
+    "prefix": "fuk",
+    "body": [
+        "\\operatorname {Fuk} (M, $1 \\omega) $0" 
+       ],
+    "description": "fuk"
+    },  
 
 "vertical slash": {
     "prefix": "vert",
