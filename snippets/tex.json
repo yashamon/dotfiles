@@ -1,9 +1,15 @@
 {  
- 
+   "operatorname": {
+    "prefix": "op",
+    "body": [
+        "\\operatorname {$1} $0" 
+       ],
+    "description": "opname"
+ }, 
 "Fukinfinity": {
     "prefix": "fukin",
     "body": [
-        "\\operatorname {Fuk} _{\infty} ($1) $0" 
+        "\\operatorname {Fuk} _{\\infty} ($1) $0" 
        ],
     "description": "fukfibration"
 },
