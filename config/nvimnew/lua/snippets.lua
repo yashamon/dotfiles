@@ -148,7 +148,7 @@ text({"","snip({"}),
 text({"","trig = \""}), insert(2,"trigger"), text({'",'}),
 text({"","},"}),
 text({"","{"}),
-text({"", 'text({"","'}), insert(3, "text"),  text({'"})'}),
+text({"", 'text({"","'}), insert(3, "text"),  text({'"}),'}),
 text({'insert(1,"'}), insert(4, "insert"),  text({'"),'}),
 text({'text({"","'}), insert(5, "text"),  text({'"})'}),
 text({"","})"}),
@@ -158,6 +158,16 @@ text({"","})"}),
          },
     })
 
+ls.add_snippets(nil, {
+lua = {
+snip({
+trig = "text",
+},
+{
+text({"",'text({"'}), insert(1,"insert"),text({"","text"})
+})
+},
+})
 ls.add_snippets(nil, {
 tex = {
 snip({
