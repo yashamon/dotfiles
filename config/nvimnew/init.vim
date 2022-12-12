@@ -1,9 +1,9 @@
 call plug#begin('~/.vim/plugged')
 "asd Plug 'nvim-telescope/telescope-fzf-native.nvim', { 'do': 'make' }
 Plug 'folke/todo-comments.nvim', { 'branch': 'main' }
-Plug 'dcampos/nvim-snippy'
-Plug 'dcampos/cmp-snippy'
-Plug 'honza/vim-snippets'
+" Plug 'dcampos/nvim-snippy'
+" Plug 'dcampos/cmp-snippy'
+" Plug 'honza/vim-snippets'
 " Plug 'airblade/vim-gitgutter'
 Plug 'L3MON4D3/LuaSnip'
 Plug 'saadparwaiz1/cmp_luasnip'
@@ -1197,5 +1197,3 @@ let g:gitgutter_sign_modified_removed = '▞'
 "  		cursor_by_mode = false,
 "  	} test
 "  }) 
-
-
