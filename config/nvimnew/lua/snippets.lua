@@ -190,6 +190,7 @@ trig = "test",
 })
 },
 })
+
 ls.add_snippets(nil, {
     tex = {
         snip({
