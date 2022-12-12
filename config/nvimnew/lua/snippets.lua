@@ -296,8 +296,7 @@ text({""}), insert(3, "write letter"),
 text({"",'\\closing{Sincerely,}'}),
 text({"",'\\end{letter}'}),
 text({"", '\\end{document}'}),
-
-           }),
+}),
          },
     })
 
