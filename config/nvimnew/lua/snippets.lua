@@ -175,7 +175,8 @@ snip({
 trig = "ins",
 },
 {
-text({"",'insert(1,"'}), insert(1,"insert"), text({"\")"})
+text({"",'insert("'}), insert(1,"n"), text({","}),
+insert(2, "insert"), text({"\")"})
 })
 },
 })
