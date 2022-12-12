@@ -279,6 +279,7 @@ end
 local feedkey = function(key, mode)
   vim.api.nvim_feedkeys(vim.api.nvim_replace_termcodes(key, true, true, true), mode, true)
 end
+local snippy = require("snippy")
 local luasnip = require("luasnip")
 local cmp = require'cmp'
 cmp.setup ({
@@ -298,8 +299,8 @@ mapping = cmp.mapping.preset.insert({
       ['<CR>'] = cmp.mapping.confirm({ select = true }),
 -- ... Your other mappings ...
 ["<Tab>"] = cmp.mapping(function(fallback)
-			if luasnip.expandable() then
-				luasnip.expand()
+			if snippy#can_expand_or_advance() then
+				snippy-expand()
                         elseif cmp.visible() then
                              cmp.select_next_item()
 			elseif has_words_before() then
