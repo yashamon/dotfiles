@@ -162,7 +162,7 @@ snip({
 trig = "test",
 },
 {
-text({"","test"})
+text({"","dude"})
 })
 },
 })
