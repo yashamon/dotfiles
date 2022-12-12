@@ -186,7 +186,7 @@ undercurl = true,
   inverse = false, -- invert background for search, diffs, statuslines and errors
   contrast = "hard", -- can be "hard", "soft" or empty string
   palette_overrides = {},
-  dim_inactive = true,
+  dim_inactive = false,
   transparent_mode = false,
     overrides = {
         SignColumn = {bg = "#ffa546"},
@@ -304,7 +304,6 @@ mapping = cmp.mapping.preset.insert({
                              cmp.select_next_item()
 			elseif has_words_before() then
 				cmp.complete()
-                        	
                              else
 				fallback()
 			end
