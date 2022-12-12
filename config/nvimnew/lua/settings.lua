@@ -22,7 +22,6 @@ require'nvim-treesitter.configs'.setup {
     additional_vim_regex_highlighting = false,
   },
 }
-
 require('leap').setup {
   max_aot_targets = nil,
   highlight_unlabeled = false,
@@ -39,7 +38,9 @@ require('leap').setup {
   -- and forces auto-jump to be on or off.%
   
 }
-  require("todo-comments").setup {
+vim.api.nvim_set_hl(0, 'LeapMatch', { link = 'black' })
+
+require("todo-comments").setup {
     -- your configuration comes here
     -- or leave it empty to use the default settings
     -- refer to the configuration section below
@@ -431,7 +432,6 @@ require('lualine').setup {
   inactive_winbar = {},
   extension = {}
 }
-vim.api.nvim_set_hl(0, 'LeapBackdrop', { link = 'Comment' })
 
 
 
