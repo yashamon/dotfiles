@@ -135,7 +135,27 @@ end
 local date = function() return {os.date('%Y-%m-%d')} end
 
 ls.add_snippets(nil, {
-    all = {
+    lua = {
+        snip({
+            trig = "lua",
+            namr = "snippet",
+            dscr = "create a lua snippet",
+        },
+        {
+text({"",'ls.add_snippets(nil, {'}),
+text({""}), insert(1, "filetype"), text({" = {"}),
+text({"","snip({"}),
+text({"","trig = \" "}), insert(1, "trigger"), text({'",'}),
+text({"","},"}),
+text({"","{,"}),
+text({""}), insert(2, "snippet"),
+text({"","})"})
+           }),
+         },
+    })
+
+ls.add_snippets(nil, {
+    tex = {
         snip({
             trig = "tex",
             namr = "Latex template",
