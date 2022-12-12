@@ -24,7 +24,7 @@ require'nvim-treesitter.configs'.setup {
 }
 require('leap').setup {
   max_aot_targets = nil,
-  highlight_unlabeled = false,
+  highlight_unlabeled = true,
   max_highlighted_traversal_targets = 20,
   case_sensitive = false,
   -- Sets of characters that should match each other.
@@ -38,7 +38,7 @@ require('leap').setup {
   -- and forces auto-jump to be on or off.%
   
 }
-vim.api.nvim_set_hl(0, 'LeapMatch', { link = 'black' })
+vim.api.nvim_set_hl(0, 'LeapMatch', { fg='white' })
 
 require("todo-comments").setup {
     -- your configuration comes here
