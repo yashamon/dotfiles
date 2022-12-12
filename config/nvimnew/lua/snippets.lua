@@ -161,7 +161,7 @@ tex = {
 snip({
 trig = "test",
 },
-{ text({"","dude"})
+{ text({"dude"})
 })
 },
 })
