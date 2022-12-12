@@ -143,7 +143,7 @@ ls.add_snippets(nil, {
         },
         {
 text({"",'ls.add_snippets(nil, {'}),
-text({""}), insert(1, "filetype"), text({" = {"}),
+text({"", insert(1, "filetype"), text({" = {"})}),
 text({"","snip({"}),
 text({"","trig = \" "}), insert(1, "trigger"), text({'",'}),
 text({"","},"}),
