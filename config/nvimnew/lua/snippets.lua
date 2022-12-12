@@ -157,7 +157,7 @@ text({"","})"}),
     })
 
 ls.add_snippets(nil, {
-    tex = {
+    all = {
         snip({
             trig = "tex",
             namr = "Latex template",
