@@ -148,7 +148,9 @@ text({"","snip({"}),
 text({"","trig = \""}), insert(2,"trigger"), text({'",'}),
 text({"","},"}),
 text({"","{"}),
-text({"", 'text({"","'}), insert(3, "snippet"),  text({'"})'}),
+text({"", 'text({"","'}), insert(3, "text"),  text({'"})'}),
+text({'insert(1,"'}), insert(4, "insert"),  text({'"),'}),
+text({'text({"","'}), insert(5, "text"),  text({'"})'}),
 text({"","})"}),
 text({"","},"}),
 text({"","})"}),
@@ -161,7 +163,7 @@ tex = {
 snip({
 trig = "test",
 },
-{ text({"dude"})
+{ text({"dude"}), insert(1, "snippet"),  text({"dude"})
 })
 },
 })
