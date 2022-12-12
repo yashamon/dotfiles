@@ -1,2 +1,2 @@
-foreach ($x in $args) {$p = (Split-Path -Path $x).parent; robocopy $p . $x} 
+foreach ($x in $args) {robocopy $x .} 
 echo $args > 'C:/Users/yasha/args.txt'
