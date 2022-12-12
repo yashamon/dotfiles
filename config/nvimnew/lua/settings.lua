@@ -291,7 +291,7 @@ require('snippy').setup({
     },
 })
 
-local snippy = require("snippy")
+local snippy = require('snippy')
 local luasnip = require("luasnip")
 local cmp = require'cmp'
 cmp.setup ({
