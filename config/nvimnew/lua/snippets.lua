@@ -168,6 +168,18 @@ text({"",'text({\''}), insert(1,"text"), text({"","\'})"})
 })
 },
 })
+
+ls.add_snippets(nil, {
+lua = {
+snip({
+trig = "ins",
+},
+{
+text({"",'insert(1,"'}), insert(1,"insert"), text({"\")"})
+})
+},
+})
+
 ls.add_snippets(nil, {
 tex = {
 snip({
