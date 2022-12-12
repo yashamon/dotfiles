@@ -279,7 +279,17 @@ end
 local feedkey = function(key, mode)
   vim.api.nvim_feedkeys(vim.api.nvim_replace_termcodes(key, true, true, true), mode, true)
 end
-
+require('snippy').setup({
+    mappings = {
+        is = {
+            ['<Tab>'] = 'expand_or_advance',
+            ['<S-Tab>'] = 'previous',
+        },
+        nx = {
+            ['<leader>x'] = 'cut_text',
+        },
+    },
+})
 
 local snippy = require("snippy")
 local luasnip = require("luasnip")
@@ -301,7 +311,7 @@ mapping = cmp.mapping.preset.insert({
       ['<CR>'] = cmp.mapping.confirm({ select = true }),
 -- ... Your other mappings ...
 ["<Tab>"] = cmp.mapping(function(fallback)
-			if snippy#can_expand_or_advance() then
+			if snippy.can_expand_or_advance() then
 				snippy-expand()
                         elseif cmp.visible() then
                              cmp.select_next_item()
