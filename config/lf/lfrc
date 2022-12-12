@@ -81,7 +81,7 @@ set -- $(cat ~/.local/share/lf/files)
 # set cleaner ~/.config/lf/cleaner
 cmd namepaste $cp-p --lf-paste $id  
 # map gc :namepaste
-map p $pwsh -c robocopy $Env:fx .
+map p $pwsh -c robo.ps1 $Env:fx 
 map gp :paste
 cmd findfile $sh -c nu "C:\Users\yasha\dotfiles\scripts\findfile.nu"
 map <a-f> :findfile
