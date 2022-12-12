@@ -311,8 +311,8 @@ mapping = cmp.mapping.preset.insert({
       ['<CR>'] = cmp.mapping.confirm({ select = true }),
 -- ... Your other mappings ...
 ["<Tab>"] = cmp.mapping(function(fallback)
-			if snippy.can_expand_or_advance() then
-				snippy-expand()
+			if can_expand_or_advance() then
+				expand()
                         elseif cmp.visible() then
                              cmp.select_next_item()
 			elseif has_words_before() then
