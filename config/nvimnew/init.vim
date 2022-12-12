@@ -482,7 +482,7 @@ map <m-D> :bdelete!<CR>
 noremap gf gq
 nmap f /
 nmap gv \\/ 
-vmap f \\/
+vmap s \\/
 " vim-multiple-\cursors
 nnoremap <m-n> <c-n>
 
