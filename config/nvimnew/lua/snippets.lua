@@ -149,8 +149,10 @@ text({"","trig = \" "}), insert(1, "trigger"), text({'",'}),
 text({"","},"}),
 text({"","{,"}),
 text({""}), insert(2, "snippet"),
-text({"","})"})
-           }),
+text({"","})"}),
+text({"","},"}),
+text({"","})"}),
+}),
          },
     })
 
