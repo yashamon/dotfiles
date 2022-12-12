@@ -1,10 +1,6 @@
 call plug#begin('~/.vim/plugged')
-"asd Plug 'nvim-telescope/telescope-fzf-native.nvim', { 'do': 'make' }
+"Plug 'nvim-telescope/telescope-fzf-native.nvim', { 'do': 'make' }
 Plug 'folke/todo-comments.nvim', { 'branch': 'main' }
-" Plug 'dcampos/nvim-snippy'
-" Plug 'dcampos/cmp-snippy'
-" Plug 'honza/vim-snippets'
-" Plug 'airblade/vim-gitgutter'
 Plug 'L3MON4D3/LuaSnip'
 Plug 'saadparwaiz1/cmp_luasnip'
 Plug 'nvim-treesitter/playground'
@@ -47,7 +43,6 @@ Plug 'rlane/pounce.nvim'
 Plug 'mg979/vim-visual-multi'
 Plug 'tpope/vim-surround'
 " Plug 'https://github.com/machakann/vim-sandwich'
-
 " Plug 'rakr/vim-one'
 "" Plug 'hrsh7th/cmp-vsnip', 
 " Plug 'hrsh7th/vim-vsnip'
@@ -114,7 +109,10 @@ Plug 'tpope/vim-surround'
 " Plug 'lifepillar/vim-solarized8'
 " " Plug 'vim-scripts/vim-auto-save'
 " " Plug 'vim-pandoc/vim-pandoc'
-"
+"" Plug 'dcampos/nvim-snippy'
+" Plug 'dcampos/cmp-snippy'
+" Plug 'honza/vim-snippets'
+" Plug 'airblade/vim-gitgutter
 " " Plug 'yashamon/vim-snippets'
 " " colorschemes
 " " 
