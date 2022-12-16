@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1671221548 "init.vim" "build/init.pdf" "init" 1671221550
+["pdflatex"] 1671221585 "init.vim" "build/init.pdf" "init" 1671221586
   "C:/Users/yasha/scoop/apps/latex/current/texmfs/install/tex/generic/unicode-data/CaseFolding.txt" 1631692438 84688 8e67e575f505f0ec3d23bc8a0961894e ""
   "C:/Users/yasha/scoop/apps/latex/current/texmfs/install/tex/generic/unicode-data/PropList.txt" 1631692438 130164 82b7580d6edaca727c23d8bf9ec00aa5 ""
   "C:/Users/yasha/scoop/apps/latex/current/texmfs/install/tex/generic/unicode-data/ScriptExtensions.txt" 1631692438 21969 531ffba1234ef2c233f4ffa1bdc9c58f ""
@@ -50,7 +50,7 @@
   "C:/Users/yasha/scoop/apps/latex/current/texmfs/install/tex/luatex/luaotfload/luaotfload-unicode.lua" 1647610390 7589 65c7651d19fe06ec17196c22c533f768 ""
   "C:/Users/yasha/scoop/apps/latex/current/texmfs/install/tex/luatex/luaotfload/luaotfload.lua" 1647610390 13565 30cc2d8cecf79afb1abb4d5c12eb919a ""
   "build/init.aux" 1671221482 34 3985256e7290058c681f74d7a3565a19 ""
-  "init.vim" 1671221548 39824 0142b96163b28b8c2d10527e6a5a48df ""
+  "init.vim" 1671221583 39831 68243d67dc5b8b6feddd0247a1d1a5e9 ""
   (generated)
   "build/init.log"
   "build/init.pdf"
