@@ -761,7 +761,7 @@ let b:filenamePDFWindows="build\\" . filenameroot . ".pdf"
 let execstrLinux="silent te zathura --synctex-forward " . linenumber . ":" . colnumber . ":" . filenametexwhole . " " . filenamePDFLinux
 let execstrWindows="silent te pwsh -c C:/Users/yasha/scoop/shims/sumatrapdf.EXE -reuse-instance " . b:filenamePDFWindows . " -forward-search " . filenametex . " " . linenumber
 exec execstrWindows
-execute "buffer" buf
+silent execute "buffer" buf
 endfunction
 nmap <leader>v :call ViewPdf()<cr><cr>
 map <m-v> <esc>:call ViewPdf()<cr><cr>
