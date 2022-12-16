@@ -739,6 +739,7 @@ function! CompileLatex()
   silent te pwsh -c latexmk -pvc -halt-on-error -synctex=1 -file-line-error -f -output-directory="build" %
   silent execute "buffer" buf
   call ViewPdf()
+  call feedkeys("\<cr>")
 endfunction
 
 function! ViewPdf() 
