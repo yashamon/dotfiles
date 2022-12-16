@@ -742,7 +742,7 @@ function! Send()
   let execstr="silent te pwsh -c send " . b:pdf
   exec execstr
   silent execute "buffer" buf
-  call feedkeys("\<cr>")
+  " call feedkeys("\<cr>")
 endfunction
 function! CompileLatex()
   " silent call ClearLatex()
