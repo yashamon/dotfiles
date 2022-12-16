@@ -382,6 +382,7 @@ noremap <leader>c :'<,'>CommentToggle<cr>
 
 " language
 cmap ES set spelllang=es<cr>
+cmap EN set spelllang=en_us<cr>
 noremap <leader>sls :set spelllang=es<cr>
 noremap <leader>sle :set spelllang=en_us<cr>
 " LSP
