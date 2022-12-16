@@ -732,8 +732,7 @@ nnoremap <leader>e :silent call ToggleQuickFix()<CR>
 function! ClearLatex()
   silent !rm ./build/* 
 endfunction 
-command! ES set spelllang=es
-
+command! SEND call Send()
 function! Send()
   " silent call ClearLatex()
   let b:filenamedir=expand('%:p:h')
