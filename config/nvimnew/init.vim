@@ -381,7 +381,7 @@ nnoremap <leader>u <cr>:UndotreeToggle<CR>
 noremap <leader>c :'<,'>CommentToggle<cr>
 
 " language
-Command Spelles "normal! :set spelllang=es<cr>"
+Command Spelles normal! :set spelllang=es<cr>
 noremap <leader>sls :set spelllang=es<cr>
 noremap <leader>sle :set spelllang=en_us<cr>
 " LSP
