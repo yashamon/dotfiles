@@ -1,7 +1,7 @@
 call plug#begin('~/.vim/plugged')
 "Plug 'nvim-telescope/telescope-fzf-native.nvim', { 'do': 'make' }
 Plug 'folke/todo-comments.nvim', { 'branch': 'main' }
-Plug 'folke/noice.nvim', { 'branch': 'main' }
+" Plug 'folke/noice.nvim', { 'branch': 'main' }
 Plug 'L3MON4D3/LuaSnip'
 Plug 'saadparwaiz1/cmp_luasnip'
 Plug 'nvim-treesitter/playground'
@@ -381,6 +381,7 @@ nnoremap <leader>u <cr>:UndotreeToggle<CR>
 noremap <leader>c :'<,'>CommentToggle<cr>
 
 " language
+Command! Spelles :set spelllang=es<cr>
 noremap <leader>sls :set spelllang=es<cr>
 noremap <leader>sle :set spelllang=en_us<cr>
 " LSP
