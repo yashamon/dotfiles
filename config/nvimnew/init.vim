@@ -739,7 +739,9 @@ function! Send()
   let b:filename=expand('%:t:r')
   let buf=bufname()
   let b:pdf=b:filenamedir . "/build/" . b:filename .".pdf" 
+  let execstr="silent te pwsh -c send " . b:pdf
   silent te pwsh -c send b:pdf
+  exec execstr
   silent execute "buffer" buf
   call feedkeys("\<cr>")
 endfunction
