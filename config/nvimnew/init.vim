@@ -380,7 +380,7 @@ nnoremap <leader>rr :w<cr>:source $MYVIMRC<CR>
 nnoremap <leader>u <cr>:UndotreeToggle<CR>
 noremap <leader>c :'<,'>CommentToggle<cr>
 
-" language bien
+" language
 command! ES set spelllang=es
 " cmap ES set spelllang=es<cr>
 command! EN set spelllang=en_us
@@ -732,7 +732,18 @@ nnoremap <leader>e :silent call ToggleQuickFix()<CR>
 function! ClearLatex()
   silent !rm ./build/* 
 endfunction 
+command! ES set spelllang=es
 
+function! Send()
+  " silent call ClearLatex()
+  let b:filenamedir=expand('%:p:h')
+  let b:filename=expand('%:t:r')
+  let buf=bufname()
+  let b:pdf=b:filenamedir . "/build/" . b:filename .".pdf" 
+  silent te pwsh -c send b:pdf
+  silent execute "buffer" buf
+  call feedkeys("\<cr>")
+endfunction
 function! CompileLatex()
   " silent call ClearLatex()
   let buf=bufname()
