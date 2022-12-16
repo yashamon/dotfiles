@@ -381,6 +381,7 @@ nnoremap <leader>u <cr>:UndotreeToggle<CR>
 noremap <leader>c :'<,'>CommentToggle<cr>
 
 " language
+command ES set spelllang=es
 cmap ES set spelllang=es<cr>
 cmap EN set spelllang=en_us<cr>
 noremap <leader>sls :set spelllang=es<cr>
