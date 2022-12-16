@@ -380,10 +380,10 @@ nnoremap <leader>rr :w<cr>:source $MYVIMRC<CR>
 nnoremap <leader>u <cr>:UndotreeToggle<CR>
 noremap <leader>c :'<,'>CommentToggle<cr>
 
-" language
-command ES set spelllang=es
-cmap ES set spelllang=es<cr>
-cmap EN set spelllang=en_us<cr>
+" language bien
+command! ES set spelllang=es
+" cmap ES set spelllang=es<cr>
+command! EN set spelllang=en_us
 noremap <leader>sls :set spelllang=es<cr>
 noremap <leader>sle :set spelllang=en_us<cr>
 " LSP
@@ -737,7 +737,7 @@ function! CompileLatex()
   " silent call ClearLatex()
   let buf=bufname()
   silent te pwsh -c latexmk -pvc -halt-on-error -synctex=1 -file-line-error -f -output-directory="build" %
-  execute "buffer" buf
+  silent execute "buffer" buf
   call ViewPdf()
 endfunction
 
