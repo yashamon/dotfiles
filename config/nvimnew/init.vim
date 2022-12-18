@@ -120,7 +120,7 @@ Plug 'lewis6991/gitsigns.nvim', { 'branch': 'main' }
 " " colorschemes
 " " 
   
-Plug 'marko-cerovac/material.nvim', { 'branch': 'main' }
+" Plug 'marko-cerovac/material.nvim', { 'branch': 'main' }
 "
 " Plug 'reedes/vim-colors-pencil'
 "
@@ -133,7 +133,7 @@ Plug 'marko-cerovac/material.nvim', { 'branch': 'main' }
 
 " " Plug 'svermeulen/vim-cutlass'
 " Plug 'kyazdani42/nvim-web-devicons' " for file icons
-" Plug 'kyazdani42/nvim-tree.lua', 
+" " Plug 'kyazdani42/nvim-tree.lua', 
 " "Plug 'nvim-lua/completion-nvim'
 " Plug 'neovim/nvim-lspconfig'
 " " Plug 'nvim-lua/diagnostic-nvim'
