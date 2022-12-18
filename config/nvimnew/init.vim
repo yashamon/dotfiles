@@ -43,6 +43,7 @@ Plug 'simnalamburt/vim-mundo'
 Plug 'rlane/pounce.nvim'
 Plug 'mg979/vim-visual-multi'
 Plug 'tpope/vim-surround'
+Plug 'airblade/vim-gitgutter'
 " Plug 'https://github.com/machakann/vim-sandwich'
 " Plug 'rakr/vim-one'
 "" Plug 'hrsh7th/cmp-vsnip', 
@@ -113,7 +114,7 @@ Plug 'tpope/vim-surround'
 "" Plug 'dcampos/nvim-snippy'
 " Plug 'dcampos/cmp-snippy'
 " Plug 'honza/vim-snippets'
-" Plug 'airblade/vim-gitgutter
+
 " " Plug 'yashamon/vim-snippets'
 " " colorschemes
 " " 
