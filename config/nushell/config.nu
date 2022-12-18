@@ -49,7 +49,7 @@ let cwdb = $env.PWD
 cd $"($HOME)/web"
 git pull
 cd $cwdb
-cp $file $"($HOME)/web/papers/($file)"
+cp $file $"($HOME)/web/papers"
 cd $"($HOME)/web"
 git add .
 git commit -m -a
