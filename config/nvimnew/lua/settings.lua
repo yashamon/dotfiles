@@ -233,7 +233,8 @@ undercurl = true,
         -- Statement = { fg = "#0000ff" }
     }
 })
-
+--gitgutter
+require('gitsigns').setup()
 -- nvim LSP
 require('snippets')
 require("mason").setup()
