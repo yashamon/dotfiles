@@ -993,7 +993,7 @@
         "description": ["Insert inline fraction notation, (only in the cases when the environment is inline math environment)."]
     }, 
 "infinity": {
-    "prefix": ["infi", "inf"],
+    "prefix": ["infi"],
     "body": [
       "\\infty $0"
     ],
