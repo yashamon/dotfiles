@@ -43,7 +43,8 @@ Plug 'simnalamburt/vim-mundo'
 Plug 'rlane/pounce.nvim'
 Plug 'mg979/vim-visual-multi'
 Plug 'tpope/vim-surround'
-Plug 'airblade/vim-gitgutter'
+Plug 'lewis6991/gitsigns.nvim'
+" Plug 'airblade/vim-gitgutter'
 " Plug 'https://github.com/machakann/vim-sandwich'
 " Plug 'rakr/vim-one'
 "" Plug 'hrsh7th/cmp-vsnip', 
@@ -852,12 +853,12 @@ nnoremap <silent> <m-k> <cmd>lua require('luasnip').jump(-1)<Cr>
 imap <silent><expr> <C-E> luasnip#choice_active() ? '<Plug>luasnip-next-choice' : '<C-E>'
 smap <silent><expr> <C-E> luasnip#choice_active() ? '<Plug>luasnip-next-choice' : '<C-E>'
 
-" vim-gitgutter
-let g:gitgutter_sign_added = '▌'
-let g:gitgutter_sign_removed = '▖'
-let g:gitgutter_sign_removed_first_line = '▘'
-let g:gitgutter_sign_modified = '▐'
-let g:gitgutter_sign_modified_removed = '▞'
+" " vim-gitgutter
+" let g:gitgutter_sign_added = '▌'
+" let g:gitgutter_sign_removed = '▖'
+" let g:gitgutter_sign_removed_first_line = '▘'
+" let g:gitgutter_sign_modified = '▐'
+" let g:gitgutter_sign_modified_removed = '▞'
 
 "lua <<EOF test
 " local generator = function()
