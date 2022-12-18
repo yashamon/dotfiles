@@ -43,6 +43,21 @@
        ],
     "description": "NFuk"
     },  
+  "plus": {
+    "prefix": "p",
+    "body": [
+        "+ $0"
+       ],
+    "description": "plus sign "
+    },    
+  "minus": {
+    "prefix": "p",
+    "body": [
+        "- $0"
+       ],
+    "description": "minus sign"
+    },      
+  
  "bracket plus minus": {
     "prefix": "bpm",
     "body": [
