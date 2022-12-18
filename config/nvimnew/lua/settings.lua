@@ -345,7 +345,7 @@ requires = {
       -- if you want the sources is available for some file types
       ft = {
         'tex',
-        'latex' 
+        'latex'
       }
     }
     },
