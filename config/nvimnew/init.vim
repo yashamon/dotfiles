@@ -152,7 +152,7 @@ let s:timer = 0
 autocmd TextChangedI * call s:on_text_changed()
 function! s:on_text_changed() abort
   call timer_stop(s:timer)
-  let s:timer = timer_start(100, function('s:complete'))
+  let s:timer = timer_start(150, function('s:complete'))
 endfunction
 function! s:complete(...) abort
   lua require('cmp').complete({ reason = require('cmp').ContextReason.Auto })
