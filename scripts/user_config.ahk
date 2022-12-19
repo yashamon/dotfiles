@@ -46,6 +46,7 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory. */
 
 ; ---
 ;-- when pressing CapsLock alone, it will activate the Escpae button
+
 SetCapsLockState, AlwaysOff
 CapsLock::
 if(GetKeyState("Alt", "P"))
