@@ -50,6 +50,7 @@ SendMode Input  ; Recommended for new scripts due to its superior speed and reli
 CapsLock::
 if(GetKeyState("Alt", "P"))
    Send, {Esc}
+   SetCapsLockState, Off
 Send, {Esc}
 return
 
