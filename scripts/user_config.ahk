@@ -53,7 +53,6 @@ if(GetKeyState("Alt", "P"))
 Send, {Esc}
 return
 
-
 #A::
 switchDesktopByNumber(1)
 Send !{Esc}
