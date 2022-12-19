@@ -365,10 +365,8 @@ noremap <leader>c :'<,'>CommentToggle<cr>
 command! ES set spelllang=es
 " cmap ES set spelllang=es<cr>
 command! EN set spelllang=en_us
-noremap <leader>sls :set spelllang=es<cr>
-noremap <leader>sle :set spelllang=en_us<cr>
 " LSP
-noremap <leader>lt :w<cr>:LspStart ltex<cr>
+command! LT LspStart ltex
 
 nnoremap <leader>f :w<cr>:silent execute "!echo " . v:servername . ' > C:/Users/yasha/servername.txt'<cr>:te pwsh -c lf<cr>i
 nnoremap <leader>lg :w<cr>:silent execute "!echo " . v:servername . ' > C:/Users/yasha/servername.txt'<cr>:te pwsh -c lazygit<cr>i
