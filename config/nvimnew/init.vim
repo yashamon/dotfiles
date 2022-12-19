@@ -353,8 +353,8 @@ nmap <A-S-t> :te<cr>
 " other mappings 
 noremap <leader>r :w<cr>:e<cr> 
 " inoremap . .<esc>:w<cr>a
-command tw50 set tw=50
-command tw0 set tw=0
+command Tw50 set tw=50
+command Tw0 set tw=0
 noremap q :q<cr>
 noremap <leader>q q
 nmap <m-7> :ZenMode<cr>:mksession!<cr>
