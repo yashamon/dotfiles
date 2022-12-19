@@ -36,6 +36,6 @@ Sentence = function ()
    os.execute(execstr)
    vim.cmd('cg @_%')
    vim.cmd('copen')
-   vim.cmd('sleep 600m')
-   vim.fn.feedkeys("zf")
+   -- vim.cmd('sleep 600m')
+   -- vim.fn.feedkeys("zf")
 end
