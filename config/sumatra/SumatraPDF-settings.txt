@@ -113,7 +113,7 @@ TreeFontSize = 0
 SmoothScroll = false
 ShowStartPage = true
 CheckForUpdates = false
-WindowState = 2
+WindowState = 1
 WindowPos = 451 0 1480 1872
 UseTabs = true
 UseSysColors = false
@@ -126,12 +126,172 @@ FileStates [
 		]
 		IsPinned = false
 		IsMissing = false
-		OpenCount = 9
+		OpenCount = 5
 		UseDefaultState = false
 		DisplayMode = continuous
-		ScrollPos = 83.1418 64.3487
-		PageNo = 8
+		ScrollPos = 74.8847 63.889
+		PageNo = 27
 		Zoom = fit content
+		Rotation = 0
+		WindowState = 1
+		WindowPos = 451 0 1480 1872
+		ShowToc = false
+		SidebarDx = 364
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = C:\Users\yasha\workspacemodules\various\vita\build\coverletter2022Clark.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 -1
+		PageNo = 1
+		Zoom = 100
+		Rotation = 0
+		WindowState = 1
+		WindowPos = 451 0 1480 1872
+		ShowToc = false
+		SidebarDx = 364
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = C:\Users\yasha\workspacemodules\various\vita\build\CV2022Savelyev.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 1
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = 0 0
+		PageNo = 1
+		Zoom = 100
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 451 0 1480 1872
+		ShowToc = false
+		SidebarDx = 364
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = C:\Users\yasha\workspacemodules\various\vita\build\publicationlist2022.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 -1
+		PageNo = 1
+		Zoom = 100
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 451 0 1480 1872
+		ShowToc = false
+		SidebarDx = 364
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = C:\Users\yasha\workspacemodules\various\vita\build\Savelyev2022.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 506.063
+		PageNo = 4
+		Zoom = 100
+		Rotation = 0
+		WindowState = 3
+		WindowPos = 451 0 1480 1872
+		ShowToc = false
+		SidebarDx = 364
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = C:\Users\yasha\workspacemodules\various\vita\build\CV2022.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 2
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 -1
+		PageNo = 1
+		Zoom = 100
+		Rotation = 0
+		WindowState = 3
+		WindowPos = 451 0 1480 1872
+		ShowToc = false
+		SidebarDx = 364
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = C:\Users\yasha\OneDrive\Documents\PerfilSavelyev.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = 0 0
+		PageNo = 1
+		Zoom = 100
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 451 0 1480 1872
+		ShowToc = false
+		SidebarDx = 364
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = C:\Users\yasha\build\blah2.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 1
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = 0 0
+		PageNo = 1
+		Zoom = 100
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 451 0 1480 1872
+		ShowToc = false
+		SidebarDx = 364
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = C:\Users\yasha\workspacemodules\various\vita\build\coverletter2022.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 1
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 -1
+		PageNo = 1
+		Zoom = 100
 		Rotation = 0
 		WindowState = 2
 		WindowPos = 451 0 1480 1872
@@ -154,26 +314,6 @@ FileStates [
 		Zoom = 100
 		Rotation = 0
 		WindowState = 1
-		WindowPos = 451 0 1480 1872
-		ShowToc = false
-		SidebarDx = 364
-		DisplayR2L = false
-		ReparseIdx = 0
-	]
-	[
-		FilePath = C:\Users\yasha\workspace\vita\build\coverLetter2022.pdf
-		Favorites [
-		]
-		IsPinned = false
-		IsMissing = false
-		OpenCount = 0
-		UseDefaultState = false
-		DisplayMode = continuous
-		ScrollPos = -1 2.06287
-		PageNo = 1
-		Zoom = 100
-		Rotation = 0
-		WindowState = 2
 		WindowPos = 451 0 1480 1872
 		ShowToc = false
 		SidebarDx = 364
@@ -221,26 +361,6 @@ FileStates [
 		ReparseIdx = 0
 	]
 	[
-		FilePath = C:\Users\yasha\workspace\vita\build\publicationlist2022.pdf
-		Favorites [
-		]
-		IsPinned = false
-		IsMissing = false
-		OpenCount = 0
-		UseDefaultState = false
-		DisplayMode = continuous
-		ScrollPos = -1 -1
-		PageNo = 1
-		Zoom = 100
-		Rotation = 0
-		WindowState = 3
-		WindowPos = 298 0 1480 1872
-		ShowToc = false
-		SidebarDx = 364
-		DisplayR2L = false
-		ReparseIdx = 0
-	]
-	[
 		FilePath = C:\Users\yasha\workspace\vita\build\coverLetter2022EP.pdf
 		Favorites [
 		]
@@ -266,7 +386,7 @@ FileStates [
 		]
 		IsPinned = false
 		IsMissing = false
-		OpenCount = 1
+		OpenCount = 0
 		UseDefaultState = false
 		DisplayMode = continuous
 		ScrollPos = -1 -1
@@ -326,7 +446,7 @@ FileStates [
 		]
 		IsPinned = false
 		IsMissing = false
-		OpenCount = 1
+		OpenCount = 0
 		UseDefaultState = false
 		DisplayMode = continuous
 		ScrollPos = -1 506.063
@@ -690,26 +810,6 @@ FileStates [
 		UseDefaultState = false
 		DisplayMode = continuous
 		ScrollPos = -1 542.813
-		PageNo = 1
-		Zoom = 100
-		Rotation = 0
-		WindowState = 3
-		WindowPos = 451 0 1480 1872
-		ShowToc = false
-		SidebarDx = 364
-		DisplayR2L = false
-		ReparseIdx = 0
-	]
-	[
-		FilePath = C:\Users\yasha\workspace\vita\build\CV2022Savelyev.pdf
-		Favorites [
-		]
-		IsPinned = false
-		IsMissing = false
-		OpenCount = 0
-		UseDefaultState = false
-		DisplayMode = continuous
-		ScrollPos = -1 -1
 		PageNo = 1
 		Zoom = 100
 		Rotation = 0
@@ -1584,7 +1684,7 @@ FileStates [
 SessionData [
 ]
 TimeOfLastUpdateCheck = 0 0
-OpenCountWeek = 623
+OpenCountWeek = 624
 
 # Settings below are not recognized by the current version
 "C = \Users\yasha\dotfiles\scripts\remote2.nu" %l $

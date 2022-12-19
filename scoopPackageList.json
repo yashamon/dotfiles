@@ -3,13 +3,13 @@
         {
             "Name": "extras",
             "Source": "https://github.com/ScoopInstaller/Extras",
-            "Updated": "2022-11-20T14:26:51-06:00",
-            "Manifests": 1730
+            "Updated": "2022-12-14T18:32:24-06:00",
+            "Manifests": 1745
         },
         {
             "Name": "fonts",
             "Source": "https://github.com/KnotUntied/scoop-fonts.git",
-            "Updated": "2022-11-20T12:12:33-06:00",
+            "Updated": "2022-12-12T02:14:13-06:00",
             "Manifests": 146
         },
         {
@@ -21,443 +21,464 @@
         {
             "Name": "nerd-fonts",
             "Source": "https://github.com/matthewjberger/scoop-nerd-fonts",
-            "Updated": "2022-11-20T04:46:53-06:00",
+            "Updated": "2022-12-13T15:12:47-06:00",
             "Manifests": 209
         },
         {
             "Name": "versions",
             "Source": "https://github.com/ScoopInstaller/Versions",
-            "Updated": "2022-11-20T14:33:53-06:00",
-            "Manifests": 394
+            "Updated": "2022-12-14T17:12:29-06:00",
+            "Manifests": 399
         }
     ],
     "apps": [
         {
-            "Source": "main",
             "Updated": "2022-05-30T17:00:18.6166022-05:00",
-            "Info": "",
+            "Version": "21.07",
+            "Source": "main",
             "Name": "7zip",
-            "Version": "21.07"
+            "Info": ""
         },
         {
+            "Updated": "2022-12-09T09:43:22.7196049-06:00",
+            "Version": "1.1.36.02",
             "Source": "extras",
-            "Updated": "2022-11-20T18:31:12.750213-06:00",
-            "Info": "",
             "Name": "autohotkey",
-            "Version": "1.1.35.00"
+            "Info": ""
         },
         {
-            "Source": "main",
             "Updated": "2022-06-29T19:00:19.0389852-05:00",
-            "Info": "",
+            "Version": "0.21.0",
+            "Source": "main",
             "Name": "bat",
-            "Version": "0.21.0"
+            "Info": ""
         },
         {
-            "Source": "main",
             "Updated": "2022-05-30T17:08:10.3116291-05:00",
-            "Info": "",
+            "Version": "2022-04-26",
+            "Source": "main",
             "Name": "cacert",
-            "Version": "2022-04-26"
+            "Info": ""
         },
         {
-            "Source": "nerd-fonts",
             "Updated": "2022-06-20T19:18:31.5133892-05:00",
-            "Info": "",
+            "Version": "2111.01",
+            "Source": "nerd-fonts",
             "Name": "Cascadia-Code",
-            "Version": "2111.01"
+            "Info": ""
         },
         {
-            "Source": "fonts",
             "Updated": "2022-07-24T09:08:29.7615442-05:00",
-            "Info": "",
+            "Version": "2111.01",
+            "Source": "fonts",
             "Name": "cascadiacode",
-            "Version": "2111.01"
+            "Info": ""
         },
         {
-            "Source": "nerd-fonts",
             "Updated": "2022-09-23T12:09:52.7348517-05:00",
-            "Info": "",
+            "Version": "2.2.2",
+            "Source": "nerd-fonts",
             "Name": "CascadiaCode-Nf",
-            "Version": "2.2.2"
+            "Info": ""
         },
         {
+            "Updated": "2022-12-03T17:50:51.7518338-06:00",
+            "Version": "3.23.2",
             "Source": "main",
+            "Name": "cmake",
+            "Info": ""
+        },
+        {
             "Updated": "2022-06-20T21:06:28.3930937-05:00",
-            "Info": "",
+            "Version": "7.83.1_3",
+            "Source": "main",
             "Name": "curl",
-            "Version": "7.83.1_3"
+            "Info": ""
         },
         {
-            "Source": "main",
             "Updated": "2022-06-10T20:50:01.4798148-05:00",
-            "Info": "",
+            "Version": "6.2.4",
+            "Source": "main",
             "Name": "cwrsync",
-            "Version": "6.2.4"
+            "Info": ""
         },
         {
-            "Source": "main",
             "Updated": "2022-05-30T17:30:11.6553003-05:00",
-            "Info": "",
+            "Version": "3.11.2",
+            "Source": "main",
             "Name": "dark",
-            "Version": "3.11.2"
+            "Info": ""
         },
         {
-            "Source": "main",
             "Updated": "2022-06-08T16:55:57.6763482-05:00",
-            "Info": "",
+            "Version": "7.4.2",
+            "Source": "main",
             "Name": "dos2unix",
-            "Version": "7.4.2"
+            "Info": ""
         },
         {
-            "Source": "main",
             "Updated": "2022-05-30T17:07:40.0078931-05:00",
-            "Info": "",
+            "Version": "8.4.0",
+            "Source": "main",
             "Name": "fd",
-            "Version": "8.4.0"
+            "Info": ""
         },
         {
-            "Source": "nerd-fonts",
             "Updated": "2022-09-23T12:09:57.3874683-05:00",
-            "Info": "",
+            "Version": "2.2.2",
+            "Source": "nerd-fonts",
             "Name": "FiraCode-NF",
-            "Version": "2.2.2"
+            "Info": ""
         },
         {
+            "Updated": "2022-11-25T19:58:51.2074604-06:00",
+            "Version": "1.6.14",
             "Source": "extras",
-            "Updated": "2022-10-23T23:04:17.7514692-05:00",
-            "Info": "",
             "Name": "foobar2000",
-            "Version": "1.6.13"
+            "Info": ""
         },
         {
+            "Updated": "2022-11-30T21:19:51.869555-06:00",
+            "Version": "2022-11-30",
             "Source": "extras",
-            "Updated": "2022-11-04T18:44:07.8972319-06:00",
-            "Info": "",
             "Name": "foobar2000-encoders",
-            "Version": "2022-10-25"
+            "Info": ""
         },
         {
-            "Source": "main",
             "Updated": "2022-05-30T17:07:40.8183161-05:00",
-            "Info": "",
+            "Version": "0.30.0",
+            "Source": "main",
             "Name": "fzf",
-            "Version": "0.30.0"
+            "Info": ""
         },
         {
-            "Source": "main",
             "Updated": "2022-06-06T12:56:10.8727636-05:00",
-            "Info": "",
+            "Version": "5.1.1",
+            "Source": "main",
             "Name": "gawk",
-            "Version": "5.1.1"
+            "Info": ""
         },
         {
+            "Updated": "2022-11-24T12:58:00.6427284-06:00",
+            "Version": "11.2.0",
             "Source": "main",
-            "Updated": "2022-05-31T17:02:28.3621955-05:00",
-            "Info": "",
             "Name": "gcc",
-            "Version": "11.2.0"
+            "Info": ""
         },
         {
-            "Source": "main",
             "Updated": "2022-06-20T10:10:51.7521637-05:00",
-            "Info": "",
+            "Version": "2.11.3",
+            "Source": "main",
             "Name": "gh",
-            "Version": "2.11.3"
+            "Info": ""
         },
         {
-            "Source": "main",
             "Updated": "2022-11-20T21:29:03.4362737-06:00",
-            "Info": "",
+            "Version": "2.36.1.windows.1",
+            "Source": "main",
             "Name": "git",
-            "Version": "2.36.1.windows.1"
+            "Info": ""
         },
         {
-            "Source": "versions",
             "Updated": "2022-05-30T17:07:44.747594-05:00",
-            "Info": "",
-            "Name": "goneovim-nightly",
-            "Version": "nightly-1-gde65d2d"
-        },
-        {
-            "Source": "main",
-            "Updated": "2022-05-30T18:09:42.7445276-05:00",
-            "Info": "",
-            "Name": "grep",
-            "Version": "3.7"
-        },
-        {
-            "Source": "main",
-            "Updated": "2022-05-30T17:07:59.6720512-05:00",
-            "Info": "",
-            "Name": "gzip",
-            "Version": "1.3.12"
-        },
-        {
-            "Source": "main",
-            "Updated": "2022-06-10T11:26:20.9022665-05:00",
-            "Info": "",
-            "Name": "helix",
-            "Version": "22.05"
-        },
-        {
-            "Source": "extras",
-            "Updated": "2022-05-30T20:37:21.8347548-05:00",
-            "Info": "",
-            "Name": "inkscape",
-            "Version": "1.2_2022-05-15"
-        },
-        {
-            "Source": "nerd-fonts",
-            "Updated": "2022-06-27T19:32:41.1983117-05:00",
-            "Info": "",
-            "Name": "JetBrains-Mono",
-            "Version": "2.242"
-        },
-        {
-            "Source": "main",
-            "Updated": "2022-05-30T17:30:04.783707-05:00",
-            "Info": "",
-            "Name": "latex",
-            "Version": "22.3"
-        },
-        {
-            "Source": "extras",
-            "Updated": "2022-11-15T10:37:30.1810927-06:00",
-            "Info": "",
-            "Name": "lazygit",
-            "Version": "0.36.0"
-        },
-        {
-            "Source": "main",
-            "Updated": "2022-06-29T19:00:27.1549688-05:00",
-            "Info": "",
-            "Name": "less",
-            "Version": "590"
-        },
-        {
-            "Source": "main",
-            "Updated": "2022-05-30T17:09:32.3505454-05:00",
-            "Info": "",
-            "Name": "lf",
-            "Version": "r27"
-        },
-        {
-            "Source": "main",
-            "Updated": "2022-05-30T17:07:45.1493293-05:00",
-            "Info": "",
-            "Name": "ln",
-            "Version": "0.2018.07.25"
-        },
-        {
-            "Source": "nerd-fonts",
-            "Updated": "2022-09-23T12:10:03.9576187-05:00",
-            "Info": "",
-            "Name": "Monoid-NF-mono",
-            "Version": "2.2.2"
-        },
-        {
-            "Source": "extras",
-            "Updated": "2022-11-17T20:24:07.1268179-06:00",
-            "Info": "",
-            "Name": "neovide",
-            "Version": "0.10.3"
-        },
-        {
+            "Version": "nightly-1-gde65d2d",
             "Source": "versions",
-            "Updated": "2022-11-20T18:32:18.7432914-06:00",
-            "Info": "",
+            "Name": "goneovim-nightly",
+            "Info": ""
+        },
+        {
+            "Updated": "2022-05-30T18:09:42.7445276-05:00",
+            "Version": "3.7",
+            "Source": "main",
+            "Name": "grep",
+            "Info": ""
+        },
+        {
+            "Updated": "2022-05-30T17:07:59.6720512-05:00",
+            "Version": "1.3.12",
+            "Source": "main",
+            "Name": "gzip",
+            "Info": ""
+        },
+        {
+            "Updated": "2022-06-10T11:26:20.9022665-05:00",
+            "Version": "22.05",
+            "Source": "main",
+            "Name": "helix",
+            "Info": ""
+        },
+        {
+            "Updated": "2022-05-30T20:37:21.8347548-05:00",
+            "Version": "1.2_2022-05-15",
+            "Source": "extras",
+            "Name": "inkscape",
+            "Info": ""
+        },
+        {
+            "Updated": "2022-06-27T19:32:41.1983117-05:00",
+            "Version": "2.242",
+            "Source": "nerd-fonts",
+            "Name": "JetBrains-Mono",
+            "Info": ""
+        },
+        {
+            "Updated": "2022-05-30T17:30:04.783707-05:00",
+            "Version": "22.3",
+            "Source": "main",
+            "Name": "latex",
+            "Info": ""
+        },
+        {
+            "Updated": "2022-11-15T10:37:30.1810927-06:00",
+            "Version": "0.36.0",
+            "Source": "extras",
+            "Name": "lazygit",
+            "Info": ""
+        },
+        {
+            "Updated": "2022-06-29T19:00:27.1549688-05:00",
+            "Version": "590",
+            "Source": "main",
+            "Name": "less",
+            "Info": ""
+        },
+        {
+            "Updated": "2022-05-30T17:09:32.3505454-05:00",
+            "Version": "r27",
+            "Source": "main",
+            "Name": "lf",
+            "Info": ""
+        },
+        {
+            "Updated": "2022-05-30T17:07:45.1493293-05:00",
+            "Version": "0.2018.07.25",
+            "Source": "main",
+            "Name": "ln",
+            "Info": ""
+        },
+        {
+            "Updated": "2022-12-03T20:50:38.8806347-06:00",
+            "Version": null,
+            "Source": null,
+            "Name": "make",
+            "Info": "Install failed"
+        },
+        {
+            "Updated": "2022-09-23T12:10:03.9576187-05:00",
+            "Version": "2.2.2",
+            "Source": "nerd-fonts",
+            "Name": "Monoid-NF-mono",
+            "Info": ""
+        },
+        {
+            "Updated": "2022-11-17T20:24:07.1268179-06:00",
+            "Version": "0.10.3",
+            "Source": "extras",
+            "Name": "neovide",
+            "Info": ""
+        },
+        {
+            "Updated": "2022-12-14T15:33:15.7911257-06:00",
+            "Version": "0.9.0-dev-505-ga6b05cb75",
+            "Source": "versions",
             "Name": "neovim-nightly",
-            "Version": "0.9.0-dev-356-g6e8ed5aba"
+            "Info": ""
         },
         {
-            "Source": "main",
             "Updated": "2022-06-03T16:38:24.655377-05:00",
-            "Info": "",
+            "Version": "18.3.0",
+            "Source": "main",
             "Name": "nodejs",
-            "Version": "18.3.0"
+            "Info": ""
         },
         {
-            "Source": "main",
             "Updated": "2022-06-23T19:49:58.6031648-05:00",
-            "Info": "",
+            "Version": "0.63.0",
+            "Source": "main",
             "Name": "nu",
-            "Version": "0.63.0"
+            "Info": ""
         },
         {
-            "Source": "main",
             "Updated": "2022-08-08T12:18:42.7869506-05:00",
-            "Info": "",
+            "Version": "2.18",
+            "Source": "main",
             "Name": "pandoc",
-            "Version": "2.18"
+            "Info": ""
         },
         {
-            "Source": "main",
             "Updated": "2022-05-30T22:28:39.0430954-05:00",
-            "Info": "",
+            "Version": "5.32.1.1",
+            "Source": "main",
             "Name": "perl",
-            "Version": "5.32.1.1"
+            "Info": ""
         },
         {
-            "Source": "extras",
             "Updated": "2022-10-23T23:04:22.0240172-05:00",
-            "Info": "",
+            "Version": "2.5.14",
+            "Source": "extras",
             "Name": "psfzf",
-            "Version": "2.5.14"
+            "Info": ""
         },
         {
-            "Source": "main",
-            "Updated": "2022-06-23T15:12:09.2971367-05:00",
-            "Info": "",
-            "Name": "pwsh",
-            "Version": "7.2.4"
+            "Updated": "2022-11-21T14:24:56.6904156-06:00",
+            "Version": "7.3.0",
+            "Source": "versions",
+            "Name": "pwsh-beta",
+            "Info": ""
         },
         {
-            "Source": "main",
             "Updated": "2022-05-30T17:30:42.0957804-05:00",
-            "Info": "",
+            "Version": "3.10.4",
+            "Source": "main",
             "Name": "python",
-            "Version": "3.10.4"
+            "Info": ""
         },
         {
+            "Updated": "2022-11-29T09:05:14.0007092-06:00",
+            "Version": "4.5.0",
             "Source": "extras",
-            "Updated": "2022-09-01T11:22:42.3119752-05:00",
-            "Info": "",
             "Name": "qbittorrent",
-            "Version": "4.4.5"
+            "Info": ""
         },
         {
-            "Source": "main",
             "Updated": "2022-06-10T21:35:25.0261368-05:00",
-            "Info": "",
+            "Version": "2.0.0",
+            "Source": "main",
             "Name": "recycle-bin",
-            "Version": "2.0.0"
+            "Info": ""
         },
         {
-            "Source": "main",
             "Updated": "2022-06-08T13:09:36.4218057-05:00",
-            "Info": "",
+            "Version": "13.0.0",
+            "Source": "main",
             "Name": "ripgrep",
-            "Version": "13.0.0"
+            "Info": ""
         },
         {
-            "Source": "main",
             "Updated": "2022-05-30T17:55:09.3235107-05:00",
-            "Info": "",
+            "Version": "4.8",
+            "Source": "main",
             "Name": "sed",
-            "Version": "4.8"
+            "Info": ""
         },
         {
+            "Updated": "2022-12-10T14:20:45.284166-06:00",
+            "Version": "1.2.0.1165.gabf054ab",
             "Source": "extras",
-            "Updated": "2022-11-15T10:37:46.7350484-06:00",
-            "Info": "",
             "Name": "spotify",
-            "Version": "1.1.98.691.gf759311c"
+            "Info": ""
         },
         {
-            "Source": "main",
             "Updated": "2022-06-20T18:38:23.946857-05:00",
-            "Info": "",
+            "Version": "1.7.1",
+            "Source": "main",
             "Name": "starship",
-            "Version": "1.7.1"
+            "Info": ""
         },
         {
-            "Source": "main",
             "Updated": "2022-05-30T17:21:04.5027003-05:00",
-            "Info": "",
+            "Version": "0.2020.01.26",
+            "Source": "main",
             "Name": "sudo",
-            "Version": "0.2020.01.26"
+            "Info": ""
         },
         {
-            "Source": "extras",
             "Updated": "2022-06-08T20:05:07.4860229-05:00",
-            "Info": "",
+            "Version": "3.4.6",
+            "Source": "extras",
             "Name": "sumatrapdf",
-            "Version": "3.4.6"
+            "Info": ""
         },
         {
-            "Source": "main",
             "Updated": "2022-05-30T17:08:08.8124822-05:00",
-            "Info": "",
+            "Version": "1.23",
+            "Source": "main",
             "Name": "tar",
-            "Version": "1.23"
+            "Info": ""
         },
         {
-            "Source": "main",
             "Updated": "2022-05-30T23:58:07.6365454-05:00",
-            "Info": "",
+            "Version": "0.2018.07.25",
+            "Source": "main",
             "Name": "touch",
-            "Version": "0.2018.07.25"
+            "Info": ""
         },
         {
-            "Source": "extras",
             "Updated": "2022-05-31T11:21:05.1867603-05:00",
-            "Info": "",
+            "Version": "2020-10-11",
+            "Source": "extras",
             "Name": "universal-ctags",
-            "Version": "2020-10-11"
+            "Info": ""
         },
         {
-            "Source": "main",
             "Updated": "2022-06-06T12:58:06.5264265-05:00",
-            "Info": "",
+            "Version": "2007.03.01",
+            "Source": "main",
             "Name": "unxutils",
-            "Version": "2007.03.01"
+            "Info": ""
         },
         {
-            "Source": "extras",
             "Updated": "2022-11-15T10:38:25.9721473-06:00",
-            "Info": "",
+            "Version": "14.34.31931.0",
+            "Source": "extras",
             "Name": "vcredist2022",
-            "Version": "14.34.31931.0"
+            "Info": ""
         },
         {
+            "Updated": "2022-12-13T10:54:32.9976436-06:00",
+            "Version": "8.2.2824",
+            "Source": "main",
+            "Name": "vim",
+            "Info": ""
+        },
+        {
+            "Updated": "2022-11-30T21:20:10.5472124-06:00",
+            "Version": "3.0.18",
             "Source": "extras",
-            "Updated": "2022-05-30T23:32:21.1733428-05:00",
-            "Info": "",
             "Name": "vlc",
-            "Version": "3.0.17.4"
+            "Info": ""
         },
         {
+            "Updated": "2022-12-14T15:33:41.9607593-06:00",
+            "Version": "1.74.1",
             "Source": "extras",
-            "Updated": "2022-11-15T10:38:39.2402864-06:00",
-            "Info": "",
             "Name": "vscode",
-            "Version": "1.73.1"
+            "Info": ""
         },
         {
-            "Source": "main",
             "Updated": "2022-05-30T17:08:14.7801529-05:00",
-            "Info": "",
+            "Version": "1.21.3",
+            "Source": "main",
             "Name": "wget",
-            "Version": "1.21.3"
+            "Info": ""
         },
         {
-            "Source": "main",
             "Updated": "2022-05-30T17:26:13.0353597-05:00",
-            "Info": "",
-            "Name": "which",
-            "Version": "2.20"
-        },
-        {
-            "Source": "extras",
-            "Updated": "2022-10-23T23:04:53.9798236-05:00",
-            "Info": "",
-            "Name": "xournalpp",
-            "Version": "1.1.2"
-        },
-        {
-            "Source": "extras",
-            "Updated": "2022-11-15T10:38:46.1017475-06:00",
-            "Info": "",
-            "Name": "zoom",
-            "Version": "5.12.8.10232"
-        },
-        {
+            "Version": "2.20",
             "Source": "main",
+            "Name": "which",
+            "Info": ""
+        },
+        {
+            "Updated": "2022-11-29T09:05:25.6094637-06:00",
+            "Version": "1.1.3",
+            "Source": "extras",
+            "Name": "xournalpp",
+            "Info": ""
+        },
+        {
+            "Updated": "2022-11-29T09:05:32.4068168-06:00",
+            "Version": "5.12.9.10650",
+            "Source": "extras",
+            "Name": "zoom",
+            "Info": ""
+        },
+        {
             "Updated": "2022-06-21T07:51:03.6129784-05:00",
-            "Info": "",
+            "Version": "0.8.1",
+            "Source": "main",
             "Name": "zoxide",
-            "Version": "0.8.1"
+            "Info": ""
         }
     ]
 }
