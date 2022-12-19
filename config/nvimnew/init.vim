@@ -43,6 +43,7 @@ Plug 'simnalamburt/vim-mundo'
 Plug 'rlane/pounce.nvim'
 Plug 'mg979/vim-visual-multi'
 Plug 'tpope/vim-surround'
+
 " Plug 'lewis6991/gitsigns.nvim', { 'branch': 'main' }
 " Plug 'airblade/vim-gitgutter'
 " Plug 'https://github.com/machakann/vim-sandwich'
