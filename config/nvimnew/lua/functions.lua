@@ -9,6 +9,7 @@ Line = function()
    -- local buff = vim.cmd('call bufname()')
    local filename = vim.fn.substitute(vim.fn.expand('%:p:h'), "\\", "/", "g")
    local execstr = "nu C:/Users/yasha/dotfiles/scripts/line.nu " .. filename
+   print(execstr)
    os.execute(execstr)
    vim.cmd('cg @_%')   
    require('telescope.builtin').quickfix({layout_strategy='vertical',layout_config={width=0.9}})
