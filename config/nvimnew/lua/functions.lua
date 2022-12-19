@@ -28,5 +28,5 @@ Sentence = function ()
    vim.cmd('cg @_%')
    vim.cmd('copen')
    vim.cmd('sleep 600m')
-   vim.fn.feedkey("zf")
+   vim.fn.feedkeys("zf")
 end
