@@ -173,6 +173,7 @@ set cmdheight=0
 set signcolumn=yes
 set nojoinspaces
 set noshowcmd    
+set scrolloff=40
 " set shell=nu
 " let &shell = 'nu'
 " let &shellcmdflag = '-c'
