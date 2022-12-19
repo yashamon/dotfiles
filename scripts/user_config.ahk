@@ -48,9 +48,9 @@ SendMode Input  ; Recommended for new scripts due to its superior speed and reli
 ; ---
 ;-- when pressing CapsLock alone, it will activate the Escpae button
 CapsLock::
-if(GetKeyState("Alt", "P"))
+if(GetKeyState("Alt", "P")) {
    Send, {Esc}
-   SetCapsLockState, Off
+   SetCapsLockState, Off }
 Send, {Esc}
 return
 
