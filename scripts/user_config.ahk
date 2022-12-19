@@ -42,28 +42,13 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory. */
 
 ; The limit for 'fast enough' is 150 ms, but this may change
 
-; I am still learning AutoHotkey, so there is much room to improve
+; I am still learning AutoHotkey, so there is much room to improve 
 
 ; ---
 ;-- when pressing CapsLock alone, it will activate the Escpae button
 
 SetCapsLockState, AlwaysOff
 CapsLock::Esc
-h::Send {Left}
-Hotkey, h,off
-
-$CapsLockh::
-GetKeyState, state,CapsLock,P
-If state=D
-{
-   Send {Left}
-   Hotkey, h, on
-   Keywait,CapsLock
-   Hotkey, h, off
-   return
-}
-Send ^h
-Return
 #A::
 switchDesktopByNumber(1)
 Send !{Esc}
