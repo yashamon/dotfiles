@@ -1161,4 +1161,4 @@ smap <silent><expr> <C-E> luasnip#choice_active() ? '<Plug>luasnip-next-choice' 
 "  		ui_elements_commands = false,
 "  		cursor_by_mode = false,
 "  	} test
-"  }) 
+"  })
