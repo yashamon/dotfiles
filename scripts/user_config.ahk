@@ -49,17 +49,7 @@ SendMode Input  ; Recommended for new scripts due to its superior speed and reli
 CapsLock::
 Send Esc
 return
-
 ;-- when pressing CapsLock alone, it will activate the Escpae button
-Capslock Up:: 
-SendInput, {LControl Up}  ;--For stability
-If A_TimeSincePriorHotkey < 150
-{
-  SendInput, {Escape}   
-}
-Else
-return
-return
 
 
 
