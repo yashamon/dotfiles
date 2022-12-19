@@ -1,6 +1,5 @@
 Server = function ()
-   local buff = vim.cmd('echo bufname()')
-   -- local buff = vim.fn.bufname()
+   local buff = vim.fn.bufname()
    local servername = vim.api.nvim_eval("v:servername")
    os.execute("echo " .. servername .. ' > C:/Users/yasha/servername.txt')
    os.execute("echo " .. buff .. ' > C:/Users/yasha/filename.txt')
@@ -9,7 +8,6 @@ end
 Line = function()
    -- local buff = vim.cmd('call bufname()')
    local filename = vim.fn.expand('%:p:h')
-   print(filename)
    local execstr = "!nu C:/Users/yasha/dotfiles/scripts/line.nu " .. filename
    os.execute(execstr)
    vim.cmd('cg @_%')   
