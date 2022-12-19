@@ -172,7 +172,7 @@ set title
 set cmdheight=0
 set signcolumn=yes
 set nojoinspaces
-set noshowcmd    
+" set noshowcmd    
 set scrolloff=10
 " set shell=nu
 " let &shell = 'nu'
