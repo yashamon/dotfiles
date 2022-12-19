@@ -46,10 +46,10 @@ SendMode Input  ; Recommended for new scripts due to its superior speed and reli
 ; I am still learning AutoHotkey, so there is much room to improve
 
 ; ---
-CapsLock::LCtrl
+CapsLock::Esc
 
 ;-- when pressing CapsLock alone, it will activate the Escpae button
-Capslock Up:: 
+Capslock Up::
 SendInput, {LControl Up}  ;--For stability
 If A_TimeSincePriorHotkey < 150
 {
@@ -92,7 +92,7 @@ return
 switchDesktopByNumber(3)
 Send !{Esc}
 sleep, 100
-Send !{Esc}
+Send !{Esc} 
 return
 
 #Space::
