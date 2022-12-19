@@ -1,6 +1,6 @@
 local server = function ()
    local buffmain = vim.cmd('bufname()')
-   print(buffmain)
+   vim.cmd('echo buffmain') 
 end
 --    let g:buffmain=bufname()
 --    echo g:buffmain
