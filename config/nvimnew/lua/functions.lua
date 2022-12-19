@@ -1,8 +1,4 @@
-if vim.b.bqf_enabled then
-    vim.defer_fn(function()
-        vim.api.nvim_feedkeys('zf', 'im', false)
-    end, 10)
-end
+
 Server = function ()
    local buff = vim.fn.bufname()
    local servername = vim.api.nvim_eval("v:servername")
@@ -20,6 +16,11 @@ Line = function()
    -- require('telescope.builtin').quickfix({layout_strategy='vertical',layout_config={width=0.9}})
    vim.cmd('cg @_%')
    vim.cmd('copen')
+   if vim.b.bqf_enabled then
+    vim.defer_fn(function()
+        vim.api.nvim_feedkeys('zf', 'im', false)
+    end, 10)
+end
    -- vim.cmd('sleep 600m')
    -- vim.fn.feedkeys("zf")
    -- " copen
