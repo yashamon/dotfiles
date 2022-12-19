@@ -400,6 +400,7 @@ noremap <C-ScrollWheelLeft>  <nop>
 noremap <ScrollWheelRight>   <nop>
 noremap <S-ScrollWheelRight> <nop>
 noremap <C-ScrollWheelRight> <nop>
+noremap cg "_cgn
 inoremap \ /
 inoremap / \
 
