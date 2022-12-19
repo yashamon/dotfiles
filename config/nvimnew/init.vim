@@ -400,7 +400,6 @@ noremap <C-ScrollWheelLeft>  <nop>
 noremap <ScrollWheelRight>   <nop>
 noremap <S-ScrollWheelRight> <nop>
 noremap <C-ScrollWheelRight> <nop>
-noremap cg "_cgn
 inoremap \ /
 inoremap / \
 
@@ -431,6 +430,7 @@ noremap <m-p> <c-r>+
 inoremap <m-p> <c-r>+
 " noremap D "0D:wa<cr>
 noremap d "_d
+noremap cg "_cgn
 nnoremap dd "_dd
 noremap c "_c
 noremap c "_c
