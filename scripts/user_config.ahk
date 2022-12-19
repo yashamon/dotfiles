@@ -20,6 +20,47 @@
 ; === END OF INSTRUCTIONS ===
 ; ===========================
 
+
+#NoEnv  ; Recommended for performance and compatibility with future AutoHotkey releases.
+SendMode Input  ; Recommended for new scripts due to its superior speed and reliability.
+;/* SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory. */
+
+; General remapping script for AutoHotkey
+
+; The behaviour is such that the control key is located on the home
+; row. CapsLock serve as Control, but with one detail: when
+; pressed alone (fast enough), it has a different behaviour. When
+; CapsLock is pressed fast, it behaves as a Escape key
+
+; These ideas came from three blog posts, targeted at Mac users:
+; 
+; http://batsov.com/articles/2012/12/06/emacs-tip-number-7-remap-return-to-control-in-osx/
+; http://brettterpstra.com/2012/12/08/a-useful-caps-lock-key/
+; http://stevelosh.com/blog/2012/10/a-modern-space-cadet/
+
+; The basic algorithm come from this discussion:
+; https://superuser.com/questions/223831/remap-a-key-depending-on-whether-it-was-pressed-alone-or-not
+
+; The limit for 'fast enough' is 150 ms, but this may change
+
+; I am still learning AutoHotkey, so there is much room to improve
+
+; ---
+CapsLock::LCtrl
+
+;-- when pressing CapsLock alone, it will activate the Escpae button
+Capslock Up:: 
+SendInput, {LControl Up}  ;--For stability
+If A_TimeSincePriorHotkey < 150
+{
+  SendInput, {Escape}   
+}
+Else
+return
+return
+
+
+
 #A::
 switchDesktopByNumber(1)
 Send !{Esc}
@@ -63,14 +104,6 @@ home::CapsLock
 #!d::MoveCurrentWindowToDesktop(3)
 #!f::MoveCurrentWindowToDesktop(4)
 #!c::MoveCurrentWindowToDesktop(5)
-!CapsLock::
-send {F11}
-return
-#CapsLock::
-return
-#!CapsLock::
-return
-^CapsLock::
 return
 #!h::
 return
