@@ -20,7 +20,7 @@ Line = function()
    if vim.b.bqf_enabled then
     vim.defer_fn(function()
         vim.api.nvim_feedkeys('zf', 'im', false)
-    end, 50)
+    end, 400)
 end
    -- vim.cmd('sleep 600m')
    -- vim.fn.feedkeys("zf")
