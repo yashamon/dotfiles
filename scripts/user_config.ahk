@@ -50,7 +50,8 @@ CapsLock::
 Send Esc
 return
 ;-- when pressing CapsLock alone, it will activate the Escpae button
-#Capslock Down::
+#::
+Capslock::
 Send Esc
 return
 
