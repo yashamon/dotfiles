@@ -94,7 +94,6 @@ Send !{Esc}
 sleep, 100
 Send !{Esc}
 return
-CapsLock::Escape
 #Space::
 send {F11}
 return
