@@ -7,7 +7,7 @@ end
 
 Line = function()
    -- local buff = vim.cmd('call bufname()')
-   local filename = vim.fn.substitute(vim.fn.expand('%:p:h'), "\\", "/", "g")
+   local filename = vim.fn.substitute(vim.fn.expand('%:p'), "\\", "/", "g")
    local execstr = "nu C:/Users/yasha/dotfiles/scripts/line.nu " .. filename
    print(execstr)
    os.execute(execstr)
