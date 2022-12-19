@@ -367,6 +367,7 @@ command! ES set spelllang=es
 command! EN set spelllang=en_us
 " LSP
 command! LT LspStart ltex
+command! LTo LspStop ltex
 
 nnoremap <leader>f :w<cr>:silent execute "!echo " . v:servername . ' > C:/Users/yasha/servername.txt'<cr>:te pwsh -c lf<cr>i
 nnoremap <leader>lg :w<cr>:silent execute "!echo " . v:servername . ' > C:/Users/yasha/servername.txt'<cr>:te pwsh -c lazygit<cr>i
