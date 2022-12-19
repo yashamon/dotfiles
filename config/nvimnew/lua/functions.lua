@@ -2,6 +2,7 @@ local server = function ()
    local buffmain = vim.cmd('bufname()')
    vim.cmd('echo buffmain') 
 end
+server()
 --    let g:buffmain=bufname()
 --    echo g:buffmain
 --    silent execute "!echo " . v:servername . ' > C:/Users/yasha/servername.txt'
