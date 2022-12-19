@@ -1,5 +1,5 @@
 local server = function ()
-   local buffmain = vim.cmd('bufname()')
+   local buffmain = vim.cmd('call bufname()')
    vim.cmd('echo buffmain') 
 end
 server()
