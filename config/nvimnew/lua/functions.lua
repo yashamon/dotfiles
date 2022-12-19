@@ -4,7 +4,6 @@ Server = function ()
    os.execute("echo " .. servername .. ' > C:/Users/yasha/servername.txt')
    os.execute("echo " .. buff .. ' > C:/Users/yasha/filename.txt')
 end
-Server()
 --    let g:buffmain=bufname()
 --    echo g:buffmain
 --    silent execute "!echo " . v:servername . ' > C:/Users/yasha/servername.txt'
