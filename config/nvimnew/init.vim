@@ -369,7 +369,7 @@ command! EN set spelllang=en_us
 command! LT LspStart ltex
 command! LTo LspStop ltex
 
-nnoremap <leader>f :w<cr>:silent execute "!echo " . v:servername . ' > C:/Users/yasha/servername.txt'<cr>:te pwsh -c lf<cr>i
+nnoremap <leader>f :w<cr>:lua Server()<cr>:te pwsh -c lf<cr>i
 nnoremap <leader>lg :w<cr>:silent execute "!echo " . v:servername . ' > C:/Users/yasha/servername.txt'<cr>:te pwsh -c lazygit<cr>i
 " nnoremap <leader>tt :FloatermToggle<cr>
 nnoremap <leader>t :w<cr>:silent execute "!echo " . v:servername . ' > C:/Users/yasha/servername.txt'<cr>:edit term://pwsh<cr><cr>
