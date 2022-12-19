@@ -146,6 +146,7 @@ Plug 'tpope/vim-surround'
 call plug#end()
 lua <<EOF
 require('settings')
+require('functions')
 -- require('telescope').load_extension('fzf')
 EOF
 " cmp
