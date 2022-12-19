@@ -18,7 +18,7 @@ Line = function()
    vim.cmd('copen')
    if vim.b.bqf_enabled then
     vim.defer_fn(function()
-        vim.api.nvim_feedkeys('zf', 'im', false)
+        vim.api.nvim_feedkeys('zf')
     end, 600)
 end
    -- vim.cmd('sleep 600m')
