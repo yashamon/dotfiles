@@ -12,7 +12,11 @@ Line = function()
    -- print(execstr)
    os.execute(execstr)
    vim.cmd('cg @_%')   
-   require('telescope.builtin').quickfix({layout_strategy='vertical',layout_config={width=0.9}})
+   -- require('telescope.builtin').quickfix({layout_strategy='vertical',layout_config={width=0.9}})
+   vim.cmd('cg @_%')
+   vim.cmd('copen')
+   vim.cmd('sleep 600m')
+   vim.fn.feedkeys("zf")
    -- " copen
    -- " sleep 600m
    -- " " let b:paste = system('pwsh -c Get-Clipboard')
