@@ -45,8 +45,8 @@ SendMode Input  ; Recommended for new scripts due to its superior speed and reli
 
 ; I am still learning AutoHotkey, so there is much room to improve
 
-;SetCapsLockState, AlwaysOff
-#CapsLock::
+SetCapsLockState, AlwaysOff
+CapsLock::
 Send, {Esc}
 ;-- when pressing CapsLock alone, it will activate the Escpae button
 
