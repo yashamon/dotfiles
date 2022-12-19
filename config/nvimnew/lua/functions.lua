@@ -1,4 +1,4 @@
-local server = function ()
+Server = function ()
    local buffmain = vim.cmd('call bufname()')
    vim.cmd('echo buffmain') 
 end
