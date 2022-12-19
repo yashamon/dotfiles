@@ -20,7 +20,7 @@
  C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:20::    if vim.b.bqf_enabled then
  C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:21::     vim.defer_fn(function()
  C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:22::         vim.api.nvim_feedkeys('zf', 'im', false)
- C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:23::     end, 600)
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:23::     end, 10)
  C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:24:: end
  C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:25::       vim.cmd('sleep 600m')
  C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:26::       vim.fn.feedkeys("zf")
