@@ -730,7 +730,7 @@ endfunction
 function! CompileLatex()
   " silent call ClearLatex()
   let buf=bufname()
-  silent te pwsh -c latexmk -pvc -halt-on-error -synctex=1 -file-line-error -f -output-directory="build" %
+  silent te pwsh -c latexmk -pvc -halt-on-error -synctex=1 -file-line-error -f %
   silent execute "buffer" buf
   call ViewPdf()
   call feedkeys("\<cr>")
