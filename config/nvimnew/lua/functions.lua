@@ -16,7 +16,7 @@ Line = function()
    -- require('telescope.builtin').quickfix({layout_strategy='vertical',layout_config={width=0.9}})
    vim.cmd('cg @_%')
    vim.cmd('copen')
-   vim.cmd('sleep 600m')
+   -- vim.cmd('sleep 600m')
    if vim.b.bqf_enabled then
     vim.defer_fn(function()
         vim.api.nvim_feedkeys('zf', 'im', false)
