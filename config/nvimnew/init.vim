@@ -306,8 +306,6 @@ command! Ser lua Server()
 
 au Filetype tex,text,md vmap q xi<CR><CR><CR><CR><ESC>kki/begin{comment}<cr><cr>/end{comment}<esc>kp  
 
-" au Filetype tex,text,md set fo=tc
-" au FileType tex set background=dark 
 au TextYankPost * lua vim.highlight.on_yank {higroup="IncSearch", timeout=150, on_visual=true}
 au TextYankPost * call neoyank#_append()
 
@@ -335,13 +333,6 @@ vnoremap > >gv
 " :cd. change working directory to that of the current file
 cmap cd. lcd %:p:h
 autocmd Filetype tex setlocal wrapmargin=0
-" use syntax complete if nothing else available
-if has("autocmd") && exists("+omnifunc")
-  autocmd Filetype *
-              \	if &omnifunc == "" |
-              \		setlocal omnifunc=syntaxcomplete#Complete |
-              \	endif
-endif
 
 "--------------------------------------------------------------------------- 
 " ENCODING SETTINGS
@@ -360,12 +351,11 @@ tnoremap <A-`> <C-\><C-n>
 tnoremap <A-Esc> <C-\><C-n>
 nmap <A-S-t> :te<cr>
 " other mappings 
-vnoremap <Leader>U ""y:%s/<C-r>"
 noremap <leader>r :w<cr>:e<cr> 
 " inoremap . .<esc>:w<cr>a
-noremap <leader>hh :set tw=50<cr>
-noremap <leader>w :set tw=0<cr> 
-map q :q<cr>
+command tw50 set tw=50
+command tw0 set tw=0
+noremap q :q<cr>
 noremap <leader>q q
 nmap <m-7> :ZenMode<cr>:mksession!<cr>
 nnoremap <leader>rr :w<cr>:source $MYVIMRC<CR>
