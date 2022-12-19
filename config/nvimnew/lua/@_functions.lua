@@ -18,7 +18,7 @@
  C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:18::    vim.cmd('copen')
  C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:19::    if vim.b.bqf_enabled then
  C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:20::     vim.defer_fn(function()
- C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:21::         vim.api.nvim_feedkeys('zf', 'im', false)
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:21::         vim.api.nvim_feedkeys('zf')
  C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:22::     end, 600)
  C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:23:: end
  C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:24::       vim.cmd('sleep 600m')
