@@ -762,7 +762,7 @@ wa
 " let g:buffmain=bufname()
 " silent execute "!echo " . v:servername . ' > C:/Users/yasha/servername.txt'
 let buf=bufname()
-call Server()
+lua Server()
 let linenumber=line(".")
 let colnumber=col(".")
 let b:filenamedir=expand('%:p:h')
