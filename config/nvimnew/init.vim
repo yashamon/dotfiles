@@ -516,7 +516,7 @@ inoremap <C-]> <C-x><C-]>
 let g:fzf_layout = { 'window': { 'width': 1, 'height': 1 } }
 " let g:fzf_preview_window = []
 nnoremap <m-t> :w<cr>:BTags<cr>
-nnoremap SS :w<cr>:call Sentence()<cr>
+nnoremap SS :w<cr>:lua Sentence()<cr>
 nnoremap S :w<cr>:lua Line()<cr>
 " TODO:Add :w
 "noremap L <Esc>:AsyncRun sentence.sh %;nvr sentence_%<cr>:echo 'press any key'<cr>:execute 'call getchar()' | BLines<cr>
@@ -633,22 +633,6 @@ command! -bang -nargs=* BLinesB
     \   'rg --with-filename --line-number --no-heading --smart-case . '.fnameescape(expand('%')),1,
     \   fzf#vim#with_preview({'options': '--keep-right --layout reverse --query '.shellescape(<q-args>).' --preview "bat -p --color always {}"'}, 'up:50%'))
 
-
-function Sentence()
-   let g:buf = bufname()
-   " silent execute "!bash /mnt/c/Users/yasha/dotfiles/scripts/sentence.sh %"
-   let b:filenamedir = substitute(expand('%:p:h'), "\\", "/", "g")
-   let b:file = expand('%:p')
-   let b:filename = substitute(b:file, "\\", "/", "g")
-   let b:execstr = "!nu C:/Users/yasha/dotfiles/scripts/sentence.nu " . b:filename
-   exec b:execstr
-   cg @_%
-   " lua require('telescope.builtin').quickfix({layout_strategy='vertical',layout_config={width=0.9}}) 
-    copen
-    sleep 600m
-    " let b:paste = system('pwsh -c Get-Clipboard')
-    call feedkeys("zf")
-endfunction
 
 function SentenceLL()
  let g:buf = bufname()
