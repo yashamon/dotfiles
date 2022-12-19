@@ -1,6 +1,8 @@
 Server = function ()
-   local buffmain = vim.cmd('call bufname()')
-   vim.cmd('echo buffmain') 
+   local buff = vim.cmd('call bufname()')
+   local servername = vim.cmd('echo v:servername') 
+   os.execute("echo " .. servername .. ' > C:/Users/yasha/servername.txt')
+   os.execute("echo " .. buff .. ' > C:/Users/yasha/filename.txt')
 end
 Server()
 --    let g:buffmain=bufname()
