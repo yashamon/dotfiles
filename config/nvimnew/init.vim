@@ -302,13 +302,6 @@ au FileType tex,text set spelllang=en_us
 au FileType tex,text,md set indentexpr=
 au FileType vim set list
 au UIEnter lua Server()
-
-function Server()
-   let g:buffmain=bufname()
-   echo g:buffmain
-   silent execute "!echo " . v:servername . ' > C:/Users/yasha/servername.txt'
-   silent execute "!echo " . g:buffmain . ' > C:/Users/yasha/filename.txt'
-endfunction
 command! Ser lua Server()
 
 au Filetype tex,text,md vmap q xi<CR><CR><CR><CR><ESC>kki/begin{comment}<cr><cr>/end{comment}<esc>kp  
