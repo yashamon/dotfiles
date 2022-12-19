@@ -1,5 +1,5 @@
 Server = function ()
-   local buff = vim.fn('bufname()')
+   local buff = vim.fn.buffname()
    local servername = vim.api.nvim_eval("v:servername")
    os.execute("echo " .. servername .. ' > C:/Users/yasha/servername.txt')
    os.execute("echo " .. buff .. ' > C:/Users/yasha/filename.txt')
