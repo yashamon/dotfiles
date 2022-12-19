@@ -44,14 +44,9 @@ SendMode Input  ; Recommended for new scripts due to its superior speed and reli
 ; The limit for 'fast enough' is 150 ms, but this may change
 
 ; I am still learning AutoHotkey, so there is much room to improve
-#CapsLock::
-if GetKeyState Capslock is down
-   Send, {Esc}
+# & CapsLock::
 Send, {Esc}
-return
 CapsLock::
-if GetKeyState Capslock is down
-   Send, {Esc}
 Send, {Esc}
 return
 ;-- when pressing CapsLock alone, it will activate the Escpae button
