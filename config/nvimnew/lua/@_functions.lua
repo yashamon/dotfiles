@@ -11,7 +11,7 @@
  C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:11::    local execstr = "nu C:/Users/yasha/dotfiles/scripts/line.nu " .. filename
  C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:12::    print(execstr)
  C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:13::    os.execute(execstr)
- C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:14::       vim.cmd('cg @_%')   
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:14::    vim.cmd('cg @_%')   
  C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:15::    require('telescope.builtin').quickfix({layout_strategy='vertical',layout_config={width=0.9)
  C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:16:: end
  C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:17::       let b:filenamedir = substitute(expand('%:p:h'), "  ", "/", "g")
