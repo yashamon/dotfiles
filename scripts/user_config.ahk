@@ -47,10 +47,12 @@ SendMode Input  ; Recommended for new scripts due to its superior speed and reli
 
 ; ---
 CapsLock::
-Send {Esc}
+Send, {Esc}
 return
 ;-- when pressing CapsLock alone, it will activate the Escpae button
-#CapsLock::
+CapsLock::
+if(GetKeyState("Alt", "P"))
+   Send, {Esc}
 return
 
 
