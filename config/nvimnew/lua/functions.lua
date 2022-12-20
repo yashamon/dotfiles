@@ -7,6 +7,7 @@ end
 
 Line2 = function()
    vim.cmd('cg @_blah.tex')
+   vim.cmd('sleep 600m')
    vim.cmd('copen')
 end
 Line = function()
