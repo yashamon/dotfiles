@@ -29,7 +29,7 @@ Line = function()
    -- vim.cmd('sleep 200m')
    -- vim.api.nvim_feedkeys('zf', 'i', false)
    
-   -- require('telescope.builtin').quickfix({layout_strategy='vertical',layout_config={width=0.9}})
+   -- require('telescope.builtin'). test quickfix({layout_strategy='vertical',layout_config={width=0.9}})
 end
 
 Sentence = function ()
