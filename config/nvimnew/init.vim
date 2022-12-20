@@ -530,7 +530,7 @@ nnoremap <m-b> :lua require('telescope.builtin').buffers({layout_strategy='verti
 nnoremap <m-i> :lua require('telescope.builtin').git_bcommits({layout_strategy='vertical',layout_config={width=0.9}})<cr>
 nnoremap <m-u> :<Esc>:cg C:/Users/yasha/_vim_mru_files<cr>:copen<cr>:call feedkeys("zf")<CR>
 " noremap F <Esc>:GFiles<CR>
-" map <A-e> :FZF ~<CR> test test2
+" map <A-e> :FZF ~<CR> test test2 test3
 map <m-f> :FZF ~<CR> 
 " map <m-f> :lua require('telescope.builtin').find_files({layout_strategy='vertical',layout_config={width=0.9}}) ~<CR> 
 "miscellaneous

@@ -530,7 +530,7 @@
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:530:: nnoremap <m i> :lua require('telescope.builtin').git_bcommits({layout_strategy='vertical',layout_config={width=0.9)<cr>
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:531:: nnoremap <m u> :<Esc>:cg C:/Users/yasha/_vim_mru_files<cr>:copen<cr>:call feedkeys("zf")<CR>
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:532:: " noremap F <Esc>:GFiles<CR>
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:533:: " map <A e> :FZF ~<CR> test test2
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:533:: " map <A e> :FZF ~<CR> test test2 test3
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:534:: map <m f> :FZF ~<CR> 
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:535:: " map <m f> :lua require('telescope.builtin').find_files({layout_strategy='vertical',layout_config={width=0.9) ~<CR> 
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:536:: "miscellaneous
