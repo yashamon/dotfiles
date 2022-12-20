@@ -15,7 +15,7 @@ Line = function()
    local command = "cg " .. "@_" .. filenameshort
    vim.cmd(command)
    vim.cmd('copen')
-   vim.cmd('sleep 50m')
+   vim.cmd('sleep 30m')
    Wait = function ()
       if vim.b.bqf_enabled then
         vim.cmd('sleep 30m')
