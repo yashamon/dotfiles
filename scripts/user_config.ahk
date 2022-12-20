@@ -51,7 +51,7 @@ SetCapsLockState, AlwaysOff
 CapsLock::Esc
 h::Send {Left}
 Hotkey, h,off
-$CapsLockh::
+$CapsLock::
 GetKeyState, state,CapsLock,P
 If state=D
 {
