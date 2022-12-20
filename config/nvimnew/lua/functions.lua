@@ -22,10 +22,8 @@ Line = function()
    vim.cmd('copen')
    vim.cmd('sleep 100m')
    if vim.b.bqf_enabled then
-    vim.defer_fn(function()
         vim.api.nvim_feedkeys('zf', 'i', false)
-    end, 10)
- end
+   end
    -- vim.api.nvim_feedkeys('zf', 'i', false)
    
    -- require('telescope.builtin').quickfix({layout_strategy='vertical',layout_config={width=0.9}})
