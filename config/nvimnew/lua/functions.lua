@@ -15,6 +15,7 @@ Line = function()
    -- require('telescope.builtin').quickfix({layout_strategy='vertical',layout_config={width=0.9}})
    local command = "cg " .. "@_" .. filenameshort
    vim.cmd(command)
+   vim.cmd('sleep 50m')
    vim.cmd('copen')
    --    if vim.b.bqf_enabled then
 --     vim.defer_fn(function()
