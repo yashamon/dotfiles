@@ -11,15 +11,13 @@ Line = function()
    -- local execstr = "nu C:/Users/yasha/dotfiles/scripts/line.nu " .. filename
    -- vim.cmd("let filename = filename") test
    vim.fn.jobwait({Idline})
-   local command = "cg " .. "@_" .. filenameshort
-   vim.cmd(command)
    vim.cmd('copen')
    -- vim.cmd('sleep 30m')
    -- echo filter(getwininfo(), 'v:val.quickfix && !v:val.loclist')
 
    Wait = function ()
       if vim.b.bqf_enabled then
-        vim.cmd('sleep 10m')
+        vim.cmd('sleep 200m')
         vim.api.nvim_feedkeys('zf', 'i', false)
       else
         Wait()
@@ -40,7 +38,7 @@ Sentence = function ()
    vim.cmd('copen')
   Wait = function ()
       if vim.b.bqf_enabled then
-        vim.cmd('sleep 100m')
+        vim.cmd('sleep 200m')
         vim.api.nvim_feedkeys('zf', 'i', false)
       else
         Wait()
@@ -52,7 +50,13 @@ end
 GitAsync = function ()
 local filename = vim.fn.substitute(vim.fn.expand('%:p'), "\\", "/", "g")
 Idline = vim.fn.jobstart({"nu", "C:/Users/yasha/dotfiles/scripts/line.nu", filename})
+IdSentence = vim.fn.jobstart({"nu", "C:/Users/yasha/dotfiles/scripts/sentence.nu", filename})
+local commandsentence = "cg " .. "@s_" .. filenameshort
+vim.cmd(commandsentence)
+local commandline = "cg " .. "@l_" .. filenameshort
+vim.cmd(commandsentence)
 Server()
+
 local buff = vim.fn.bufname()
 vim.cmd('te pwsh -c if ( (git rev-parse --is-inside-work-tree) -and (git rev-parse --git-dir) ) { git add . ; git commit -m -a; git push --all origin; ctags -R }')
 vim.cmd("buffer " .. buff)
