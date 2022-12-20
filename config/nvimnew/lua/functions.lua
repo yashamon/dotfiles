@@ -19,11 +19,11 @@ Line = function()
    vim.fn.jobwait({id})
    local command = "cg " .. "@_" .. filenameshort
    vim.cmd(command)
-   -- vim.cmd('sleep 100m')
-   -- vim.cmd('copen')
-   -- vim.fn.feedkeys("zf")
+   vim.cmd('copen')
+   vim.cmd('sleep 100m')
+   vim.fn.feedkeys("zf")
    
-   require('telescope.builtin').quickfix({layout_strategy='vertical',layout_config={width=0.9}})
+   -- require('telescope.builtin').quickfix({layout_strategy='vertical',layout_config={width=0.9}})
 end
 
 Sentence = function ()
