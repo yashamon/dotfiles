@@ -41,21 +41,22 @@ Sentence = function ()
    local command = "cg " .. "@_" .. filenameshort
    vim.cmd(command)
    vim.cmd('copen')
-   -- if vim.b.bqf_enabled then
-    -- vim.defer_fn(function()
-       -- vim.api.nvim_input("Gzf")
-        -- vim.api.nvim_feedkeys('zf', 'i', false)
-    -- end, 200) test
--- end
-   vim.cmd('sleep 100m')
-   vim.fn.feedkeys("zf")
+  Wait = function ()
+      if vim.b.bqf_enabled then
+        vim.cmd('sleep 100m')
+        vim.api.nvim_feedkeys('zf', 'i', false)
+      else
+        Wait()
+      end
+   end
+   Wait()
 end
 
 GitAsync = function ()
 idline = vim.fn.jobstart({"nu", "C:/Users/yasha/dotfiles/scripts/line.nu", filename})
 Server()
--- let g:bufdude = bufname()
-silent te pwsh -c if ( (git rev-parse --is-inside-work-tree) -and (git rev-parse --git-dir) ) { git add . ; git commit -m -a; git push --all origin; ctags -R }
--- execute "buffer" g:bufdude
+local buff = vim.fn.bufname()
+vim.cmd('te pwsh -c if ( (git rev-parse --is-inside-work-tree) -and (git rev-parse --git-dir) ) { git add . ; git commit -m -a; git push --all origin; ctags -R }')
+vim.cmd("buffer" .. buff)
 end
 
