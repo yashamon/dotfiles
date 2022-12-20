@@ -21,7 +21,7 @@ Line = function()
    vim.cmd(command)
    vim.cmd('copen')
    vim.cmd('sleep 100m')
-   vim.api.nvim_feedkeys('zf', 'i', false) 
+   vim.api.nvim_input("zf")
    
    -- require('telescope.builtin').quickfix({layout_strategy='vertical',layout_config={width=0.9}})
 end
