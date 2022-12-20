@@ -34,6 +34,10 @@ Sentence = function ()
 end
 
 GitAsync = function ()
+   Server()
+local buff = vim.fn.bufname()
+vim.cmd('te pwsh -c if ( (git rev-parse --is-inside-work-tree) -and (git rev-parse --git-dir) ) { git add . ; git commit -m -a; git push --all origin; ctags -R }')
+vim.cmd("buffer " .. buff)
    local filenameshort = vim.fn.substitute(vim.fn.expand('%'), "\\", "/", "g")
    local filename = vim.fn.substitute(vim.fn.expand('%:p'), "\\", "/", "g")
    Idline = vim.fn.jobstart({"nu", "C:/Users/yasha/dotfiles/scripts/Line.nu", filename})
@@ -42,10 +46,5 @@ GitAsync = function ()
    vim.cmd(commandsentence)
    local commandline = "cg " .. "@l_" .. filenameshort
    vim.cmd(commandline)
-Server()
-
-local buff = vim.fn.bufname()
-vim.cmd('te pwsh -c if ( (git rev-parse --is-inside-work-tree) -and (git rev-parse --git-dir) ) { git add . ; git commit -m -a; git push --all origin; ctags -R }')
-vim.cmd("buffer " .. buff)
 end
 

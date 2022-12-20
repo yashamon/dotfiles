@@ -34,18 +34,17 @@
  C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:34:: end
  C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:35:: 
  C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:36:: GitAsync = function ()
- C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:37::    local filenameshort = vim.fn.substitute(vim.fn.expand('%'), "  ", "/", "g")
- C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:38::    local filename = vim.fn.substitute(vim.fn.expand('%:p'), "  ", "/", "g")
- C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:39::    Idline = vim.fn.jobstart({"nu", "C:/Users/yasha/dotfiles/scripts/Line.nu", filename)
- C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:40::    IdSentence = vim.fn.jobstart({"nu", "C:/Users/yasha/dotfiles/scripts/sentence.nu", filename)
- C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:41::    local commandsentence = "cg " .. "@s_" .. filenameshort
- C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:42::    vim.cmd(commandsentence)
- C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:43::    local commandline = "cg " .. "@l_" .. filenameshort
- C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:44::    vim.cmd(commandline)
- C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:45:: Server()
- C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:46:: 
- C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:47:: local buff = vim.fn.bufname()
- C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:48:: vim.cmd('te pwsh  c if ( (git rev parse   is inside work tree)  and (git rev parse   git dir) ) { git add . ; git commit  m  a; git push   all origin; ctags  R ')
- C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:49:: vim.cmd("buffer " .. buff)
- C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:50:: end
- C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:51:: 
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:37::    Server()
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:38:: local buff = vim.fn.bufname()
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:39:: vim.cmd('te pwsh  c if ( (git rev parse   is inside work tree)  and (git rev parse   git dir) ) { git add . ; git commit  m  a; git push   all origin; ctags  R ')
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:40:: vim.cmd("buffer " .. buff)
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:41::    local filenameshort = vim.fn.substitute(vim.fn.expand('%'), "  ", "/", "g")
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:42::    local filename = vim.fn.substitute(vim.fn.expand('%:p'), "  ", "/", "g")
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:43::    Idline = vim.fn.jobstart({"nu", "C:/Users/yasha/dotfiles/scripts/Line.nu", filename)
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:44::    IdSentence = vim.fn.jobstart({"nu", "C:/Users/yasha/dotfiles/scripts/sentence.nu", filename)
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:45::    local commandsentence = "cg " .. "@s_" .. filenameshort
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:46::    vim.cmd(commandsentence)
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:47::    local commandline = "cg " .. "@l_" .. filenameshort
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:48::    vim.cmd(commandline)
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:49:: end
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:50:: 
