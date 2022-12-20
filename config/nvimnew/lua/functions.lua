@@ -21,9 +21,13 @@ Line = function()
    vim.cmd(command)
    vim.cmd('copen')
    vim.cmd('sleep 100m')
-   if vim.b.bqf_enabled then
+   Wait = function ()
+      if vim.b.bqf_enabled then
         vim.cmd('sleep 30m')
         vim.api.nvim_feedkeys('zf', 'i', false)
+      else
+        Wait()
+      end
    end
    -- vim.api.nvim_feedkeys('zf', 'i', false)
    
