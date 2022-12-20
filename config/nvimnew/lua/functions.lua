@@ -37,8 +37,9 @@ Sentence = function ()
     -- vim.defer_fn(function()
        -- vim.api.nvim_input("Gzf")
         -- vim.api.nvim_feedkeys('zf', 'i', false)
-    -- end, 200)
+    -- end, 200) test
 -- end
    vim.cmd('sleep 100m')
    vim.fn.feedkeys("zf")
 end
+
