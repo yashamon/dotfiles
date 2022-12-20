@@ -13,24 +13,24 @@ end
 Line = function()
    local filename = vim.fn.substitute(vim.fn.expand('%:p'), "\\", "/", "g")
    local filenameshort = vim.fn.substitute(vim.fn.expand('%'), "\\", "/", "g")
-   local execstr = "nu C:/Users/yasha/dotfiles/scripts/line.nu " .. filename
+   -- local execstr = "nu C:/Users/yasha/dotfiles/scripts/line.nu " .. filename
    -- vim.cmd("let filename = filename")
    local id = vim.fn.jobstart({"nu", "C:/Users/yasha/dotfiles/scripts/line.nu", filename})
    vim.fn.jobwait({id})
    local command = "cg " .. "@_" .. filenameshort
    vim.cmd(command)
+   vim.cmd('sleep 100m')
+   vim.fn.feedkeys("zf")
    -- vim.cmd('copen')
-   require('telescope.builtin').quickfix({layout_strategy='vertical',layout_config={width=0.9}})
+   -- require('telescope.builtin').quickfix({layout_strategy='vertical',layout_config={width=0.9}})
 end
 
 Sentence = function ()
    local filename = vim.fn.substitute(vim.fn.expand('%:p'), "\\", "/", "g")
    local filenameshort = vim.fn.substitute(vim.fn.expand('%'), "\\", "/", "g")
    local execstr = "nu C:/Users/yasha/dotfiles/scripts/sentence.nu " .. filename
-   local vimcmd = 'let id = jobstart([\'nu\', \'C:/Users/yasha/dotfiles/scripts/sentence.nu\', substitute(expand(\'%:p\'), "\\\\", "/", "g")], {\'rpc\': v:true})'
-   print(vimcmd)
-   vim.cmd(vimcmd)
-   vim.cmd('call jobwait([id])') 
+   local id = vim.fn.jobstart({"nu", "C:/Users/yasha/dotfiles/scripts/sentence.nu", filename})
+   vim.fn.jobwait({id})
    local command = "cg " .. "@_" .. filenameshort
    vim.cmd(command)
    vim.cmd('copen')
