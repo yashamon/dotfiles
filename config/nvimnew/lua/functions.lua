@@ -39,6 +39,6 @@ Sentence = function ()
         -- vim.api.nvim_feedkeys('zf', 'i', false)
     -- end, 200)
 -- end
-   vim.cmd('sleep 400m')
+   vim.cmd('sleep 50m')
    vim.fn.feedkeys("zf")
 end
