@@ -40,7 +40,7 @@ Sentence = function ()
    vim.cmd('copen')
   Wait = function ()
       if vim.b.bqf_enabled then
-        vim.cmd('sleep 100m')
+        vim.cmd('sleep 10m')
         vim.api.nvim_feedkeys('zf', 'i', false)
       else
         Wait()

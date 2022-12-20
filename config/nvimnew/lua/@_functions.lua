@@ -40,7 +40,7 @@
  C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:40::    vim.cmd('copen')
  C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:41::   Wait = function ()
  C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:42::       if vim.b.bqf_enabled then
- C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:43::         vim.cmd('sleep 100m')
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:43::         vim.cmd('sleep 10m')
  C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:44::         vim.api.nvim_feedkeys('zf', 'i', false)
  C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:45::       else
  C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:46::         Wait()
