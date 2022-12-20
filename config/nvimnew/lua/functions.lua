@@ -53,7 +53,7 @@ Sentence = function ()
 end
 
 GitAsync = function ()
-idline = vim.fn.jobstart({"nu", "C:/Users/yasha/dotfiles/scripts/line.nu", filename})
+Idline = vim.fn.jobstart({"nu", "C:/Users/yasha/dotfiles/scripts/line.nu", filename})
 Server()
 local buff = vim.fn.bufname()
 vim.cmd('te pwsh -c if ( (git rev-parse --is-inside-work-tree) -and (git rev-parse --git-dir) ) { git add . ; git commit -m -a; git push --all origin; ctags -R }')
