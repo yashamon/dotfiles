@@ -447,7 +447,6 @@ nnoremap <leader>q q
 " map cr
 inoremap <cr> <esc>$a<cr><space><esc>"_s
 inoremap <m-cr> <cr><space><esc>"_s
-
 " Softwrap  
 
 nnoremap D "0dg$
