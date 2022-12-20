@@ -53,6 +53,7 @@ Sentence = function ()
 end
 
 GitAsync = function ()
+local filename = vim.fn.substitute(vim.fn.expand('%:p'), "\\", "/", "g")
 Idline = vim.fn.jobstart({"nu", "C:/Users/yasha/dotfiles/scripts/line.nu", filename})
 Server()
 local buff = vim.fn.bufname()
