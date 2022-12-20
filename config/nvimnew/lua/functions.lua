@@ -25,6 +25,7 @@ Line = function()
     vim.defer_fn(function()
         vim.api.nvim_feedkeys('zf', 'i', false)
     end, 50)
+ end
    -- vim.api.nvim_feedkeys('zf', 'i', false)
    
    -- require('telescope.builtin').quickfix({layout_strategy='vertical',layout_config={width=0.9}})
