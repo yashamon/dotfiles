@@ -61,7 +61,6 @@ If state=D
    Hotkey, h, off
    return
 }
-Send {CapsLock & h} 
 Return
 #A::
 switchDesktopByNumber(1)
