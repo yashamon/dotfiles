@@ -49,8 +49,17 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory. */
 
 SetCapsLockState, AlwaysOff
 CapsLock::Esc
-;h::Send {Left}
-;Hotkey, h,off
+l::Send {Right}
+Hotkey, l,off
+CapsLock & l::
+GetKeyState, state,CapsLock,P
+If state=D
+{
+   Send {Right}
+   Hotkey, l, off
+   return
+}
+Return
 CapsLock & h::
 GetKeyState, state,CapsLock,P
 If state=D
