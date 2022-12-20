@@ -12,7 +12,8 @@ Line = function()
    -- print(execstr)
    os.execute(execstr)
    -- require('telescope.builtin').quickfix({layout_strategy='vertical',layout_config={width=0.9}})
-   -- vim.cmd('cg @_%')
+   local command = cg @_% 
+   vim.cmd(command)
    vim.cmd('copen')
 --    if vim.b.bqf_enabled then
 --     vim.defer_fn(function()
