@@ -352,8 +352,8 @@ tnoremap <A-`> <C-\><C-n>
 tnoremap <A-Esc> <C-\><C-n>
 nmap <A-S-t> :te<cr>
 " other mappings 
-noremap <leader>r :w<cr>:e<cr> 
-" inoremap . .<esc>:w<cr>a
+noremap <leader>r :up<cr>:e<cr> 
+" inoremap . .<esc>:up<cr>a
 command Tw50 set tw=50
 command Tw0 set tw=0
 noremap q :q<cr>
@@ -370,10 +370,10 @@ command! EN set spelllang=en_us
 command! LT LspStart ltex
 command! LTo LspStop ltex
 
-nnoremap <leader>f :w<cr>:lua Server()<cr>:te pwsh -c lf<cr>i
-nnoremap <leader>lg :w<cr>:lua Server()<cr>:te pwsh -c lazygit<cr>i
+nnoremap <leader>f :up<cr>:lua Server()<cr>:te pwsh -c lf<cr>i
+nnoremap <leader>lg :up<cr>:lua Server()<cr>:te pwsh -c lazygit<cr>i
 " nnoremap <leader>tt :FloatermToggle<cr>
-nnoremap <leader>t :w<cr>:lua Server()<cr>:edit term://pwsh<cr><cr>
+nnoremap <leader>t :up<cr>:lua Server()<cr>:edit term://pwsh<cr><cr>
 nnoremap <c-,> :cprevious<cr>
 nnoremap <c-.> :cnext<cr> 
 inoremap <m-h> <left>
@@ -463,7 +463,7 @@ map <S-C-q> <Esc>:qa!<CR>
 map <m-q> <esc>:wq<cr>
 map <m-Q> <esc>:q<cr>
 map <m-c> :close<cr>
-map <m-d> <Esc>:w<CR>:bdelete<CR>
+map <m-d> <Esc>:up<CR>:bdelete<CR>
 map <m-D> :bdelete!<CR>
 noremap gf gq
 nmap f /
@@ -497,7 +497,7 @@ nnoremap . `
 noremap <m-1> <C-o>
 noremap <m-2> <C-i>
 inoremap <m-d> <C-d>
-noremap ;w <Esc>:w<CR>
+noremap ;w <Esc>:up<CR>
 noremap <C-t> <Esc>:AsyncRun ctags -R<CR>
 noremap <D-u> <C-u>
 noremap <A-u> <C-u>
@@ -514,9 +514,9 @@ inoremap <C-]> <C-x><C-]>
 " FZF 
 let g:fzf_layout = { 'window': { 'width': 1, 'height': 1 } }
 " let g:fzf_preview_window = []
-nnoremap <m-t> :w<cr>:BTags<cr>
-nnoremap SS :w<cr>:lua Sentence()<cr>
-nnoremap S :w<cr>:lua Line()<cr>
+nnoremap <m-t> :up<cr>:BTags<cr>
+nnoremap SS :up<cr>:lua Sentence()<cr>
+nnoremap S :up<cr>:lua Line()<cr>
 " TODO:Add :up
 "noremap L <Esc>:AsyncRun sentence.sh %;nvr sentence_%<cr>:echo 'press any key'<cr>:execute 'call getchar()' | BLines<cr>
 " Line search mapping 
@@ -539,7 +539,7 @@ map <m-f> :FZF ~<CR>
 
 " Latex stuff
 " 
-nnoremap <leader>gs :w<cr>:source $MYVIMRC<cr> 
+nnoremap <leader>gs :up<cr>:source $MYVIMRC<cr> 
 nnoremap <c-e> viwy:cclose<cr>:<c-r>+<cr><cr>
 nnoremap <c-p> :<c-r>+<cr>
 nnoremap <m-l> viwy:bdelete<cr>:execute "buffer" g:buf<cr>:<c-r>+<cr><cr>
@@ -733,7 +733,7 @@ nmap <leader>ll :call CompileLatex()<cr>
 nmap <leader>lcl :call ClearLatex()<cr>
 nmap gtd :TodoQuickFix<cr>
 nmap <leader>ga :TZAtaraxis<CR>
-nmap <leader>gm :w<cr>:silent ! cat % >> ~/workspace/email.txt; cp % /tmp/temp; make4ht /tmp/temp "mathml,mathjax"; pandoc /tmp/temp.html --from html --to markdown_strict -o /tmp/temp.md; mv /tmp/temp.md %<cr>:e %<cr>:w<cr>:qa<cr>
+nmap <leader>gm :up<cr>:silent ! cat % >> ~/workspace/email.txt; cp % /tmp/temp; make4ht /tmp/temp "mathml,mathjax"; pandoc /tmp/temp.html --from html --to markdown_strict -o /tmp/temp.md; mv /tmp/temp.md %<cr>:e %<cr>:up<cr>:qa<cr>
 
 " Lsp mappings
 nnoremap <silent> g? <cmd>lua vim.diagnostic.open_float()<CR>

@@ -352,8 +352,8 @@
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:352:: tnoremap <A Esc> <C  ><C n>
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:353:: nmap <A S t> :te<cr>
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:354:: " other mappings 
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:355:: noremap <leader>r :w<cr>:e<cr> 
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:356:: " inoremap . .<esc>:w<cr>a
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:355:: noremap <leader>r :up<cr>:e<cr> 
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:356:: " inoremap . .<esc>:up<cr>a
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:357:: command Tw50 set tw=50
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:358:: command Tw0 set tw=0
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:359:: noremap q :q<cr>
@@ -370,10 +370,10 @@
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:370:: command! LT LspStart ltex
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:371:: command! LTo LspStop ltex
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:372:: 
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:373:: nnoremap <leader>f :w<cr>:lua Server()<cr>:te pwsh  c lf<cr>i
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:374:: nnoremap <leader>lg :w<cr>:lua Server()<cr>:te pwsh  c lazygit<cr>i
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:373:: nnoremap <leader>f :up<cr>:lua Server()<cr>:te pwsh  c lf<cr>i
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:374:: nnoremap <leader>lg :up<cr>:lua Server()<cr>:te pwsh  c lazygit<cr>i
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:375:: " nnoremap <leader>tt :FloatermToggle<cr>
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:376:: nnoremap <leader>t :w<cr>:lua Server()<cr>:edit term://pwsh<cr><cr>
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:376:: nnoremap <leader>t :up<cr>:lua Server()<cr>:edit term://pwsh<cr><cr>
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:377:: nnoremap <c ,> :cprevious<cr>
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:378:: nnoremap <c .> :cnext<cr> 
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:379:: inoremap <m h> <left>
@@ -463,7 +463,7 @@
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:463:: map <m q> <esc>:wq<cr>
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:464:: map <m Q> <esc>:q<cr>
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:465:: map <m c> :close<cr>
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:466:: map <m d> <Esc>:w<CR>:bdelete<CR>
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:466:: map <m d> <Esc>:up<CR>:bdelete<CR>
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:467:: map <m D> :bdelete!<CR>
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:468:: noremap gf gq
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:469:: nmap f /
@@ -497,7 +497,7 @@
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:497:: noremap <m 1> <C o>
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:498:: noremap <m 2> <C i>
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:499:: inoremap <m d> <C d>
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:500:: noremap ;w <Esc>:w<CR>
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:500:: noremap ;w <Esc>:up<CR>
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:501:: noremap <C t> <Esc>:AsyncRun ctags  R<CR>
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:502:: noremap <D u> <C u>
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:503:: noremap <A u> <C u>
@@ -514,9 +514,9 @@
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:514:: " FZF 
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:515:: let g:fzf_layout = { 'window': { 'width': 1, 'height': 1  
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:516:: " let g:fzf_preview_window = [ 
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:517:: nnoremap <m t> :w<cr>:BTags<cr>
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:518:: nnoremap SS :w<cr>:lua Sentence()<cr>
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:519:: nnoremap S :w<cr>:lua Line()<cr>
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:517:: nnoremap <m t> :up<cr>:BTags<cr>
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:518:: nnoremap SS :up<cr>:lua Sentence()<cr>
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:519:: nnoremap S :up<cr>:lua Line()<cr>
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:520:: " TODO:Add :up
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:521:: "noremap L <Esc>:AsyncRun sentence.sh %;nvr sentence_%<cr>:echo 'press any key'<cr>:execute 'call getchar()' | BLines<cr>
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:522:: " Line search mapping 
@@ -539,7 +539,7 @@
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:539:: 
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:540:: " Latex stuff
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:541:: " 
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:542:: nnoremap <leader>gs :w<cr>:source  MYVIMRC<cr> 
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:542:: nnoremap <leader>gs :up<cr>:source  MYVIMRC<cr> 
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:543:: nnoremap <c e> viwy:cclose<cr>:<c r>+<cr><cr>
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:544:: nnoremap <c p> :<c r>+<cr>
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:545:: nnoremap <m l> viwy:bdelete<cr>:execute "buffer" g:buf<cr>:<c r>+<cr><cr>
@@ -733,7 +733,7 @@
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:733:: nmap <leader>lcl :call ClearLatex()<cr>
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:734:: nmap gtd :TodoQuickFix<cr>
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:735:: nmap <leader>ga :TZAtaraxis<CR>
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:736:: nmap <leader>gm :w<cr>:silent ! cat  >> ~/workspace/email.txt; cp  /tmp/temp; make4ht /tmp/temp "mathml,mathjax"; pandoc /tmp/temp.html   from html   to markdown_strict  o /tmp/temp.md; mv /tmp/temp.md %<cr>:e %<cr>:w<cr>:qa<cr>
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:736:: nmap <leader>gm :up<cr>:silent ! cat  >> ~/workspace/email.txt; cp  /tmp/temp; make4ht /tmp/temp "mathml,mathjax"; pandoc /tmp/temp.html   from html   to markdown_strict  o /tmp/temp.md; mv /tmp/temp.md %<cr>:e %<cr>:up<cr>:qa<cr>
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:737:: 
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:738:: " Lsp mappings
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:739:: nnoremap <silent> g? <cmd>lua vim.diagnostic.open_float()<CR>
