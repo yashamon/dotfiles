@@ -23,7 +23,7 @@ Sentence = function ()
    -- print(execstr)
    os.execute(execstr)
    local command = "cg " .. "@_" .. filenameshort
-   vim.cmd(command)   
+   vim.cmd(command)
    vim.cmd('copen')
    -- vim.cmd('sleep 600m')
    -- vim.fn.feedkeys("zf")
