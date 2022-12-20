@@ -56,6 +56,7 @@ GetKeyState, state,CapsLock,P
 If state=D
 {
    Send {Left}
+   Hotkey, h, off
    return
 }
 Return
