@@ -31,7 +31,6 @@ Line = function()
 end
 
 Sentence = function ()
-   local filenameshort = vim.fn.substitute(vim.fn.expand('%'), "\\", "/", "g")
    vim.fn.jobwait({Idline})
    local command = "cg " .. "@_" .. filenameshort
    vim.cmd(command)
@@ -48,13 +47,14 @@ Sentence = function ()
 end
 
 GitAsync = function ()
-local filename = vim.fn.substitute(vim.fn.expand('%:p'), "\\", "/", "g")
-Idline = vim.fn.jobstart({"nu", "C:/Users/yasha/dotfiles/scripts/line.nu", filename})
-IdSentence = vim.fn.jobstart({"nu", "C:/Users/yasha/dotfiles/scripts/sentence.nu", filename})
-local commandsentence = "cg " .. "@s_" .. filenameshort
-vim.cmd(commandsentence)
-local commandline = "cg " .. "@l_" .. filenameshort
-vim.cmd(commandsentence)
+   local filenameshort = vim.fn.substitute(vim.fn.expand('%'), "\\", "/", "g")
+   local filename = vim.fn.substitute(vim.fn.expand('%:p'), "\\", "/", "g")
+   Idline = vim.fn.jobstart({"nu", "C:/Users/yasha/dotfiles/scripts/Line.nu", filename})
+   IdSentence = vim.fn.jobstart({"nu", "C:/Users/yasha/dotfiles/scripts/sentence.nu", filename})
+   local commandsentence = "cg " .. "@s_" .. filenameshort
+   vim.cmd(commandsentence)
+   local commandline = "cg " .. "@l_" .. filenameshort
+   vim.cmd(commandline)
 Server()
 
 local buff = vim.fn.bufname()
