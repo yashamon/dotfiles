@@ -16,7 +16,7 @@
  C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:16::    local execstr = "nu C:/Users/yasha/dotfiles/scripts/line.nu " .. filename
  C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:17::       vim.cmd("let filename = filename")
  C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:18::    local id = vim.fn.jobstart({"nu", "C:/Users/yasha/dotfiles/scripts/line.nu", filename)
- C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:19::    vim.fn.jobwait(id)
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:19::    vim.fn.jobwait({id)
  C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:20::    local command = "cg " .. "@_" .. filenameshort
  C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:21::    vim.cmd(command)
  C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:22::       vim.cmd('copen')
