@@ -651,12 +651,12 @@ function SentenceLL()
 endfunction
 noremap gs :call SentenceLL()<cr>
 
-function GitAsync()
-silent execute "!echo " . v:servername . ' > ~/servername.txt'
-let g:bufdude = bufname()
-silent te pwsh -c if ( (git rev-parse --is-inside-work-tree) -and (git rev-parse --git-dir) ) { git add . ; git commit -m -a; git push --all origin; ctags -R }
-execute "buffer" g:bufdude
-endfunction
+" function GitAsync()
+" silent execute "!echo " . v:servername . ' > ~/servername.txt'
+" let g:bufdude = bufname()
+" silent te pwsh -c if ( (git rev-parse --is-inside-work-tree) -and (git rev-parse --git-dir) ) { git add . ; git commit -m -a; git push --all origin; ctags -R }
+" execute "buffer" g:bufdude
+" endfunction
   
 function ToggleQuickFix()
       if empty(filter(getwininfo(), 'v:val.quickfix'))
@@ -750,7 +750,7 @@ let g:auto_save_in_insert_mode = 0
 let g:auto_save_silent = 1
 
 "Git autocommit  (nonmain branch)
-autocmd BufWritePost * call GitAsync()
+autocmd BufWritePost * lua GitAsync()
 set completeopt=menu,menuone,noselect,noinsert
 
 " Avoid showing message extra message when using completion
