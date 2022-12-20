@@ -9,6 +9,7 @@ $c
 let d = ( $c | str replace -a '\.\s+' "\n" | str replace -a '\.@' "\n" | str replace -a '\$' ' ' | str replace -a '\\' ' ' | str replace -a '{' ' ' | str replace -a '}' ' ' | str replace -a '@@ '  "\n" | str replace -a '% ' ' ' | str replace -a '-' ' ' | str replace -a '^' ' ' | str replace -a '_' ' ' | str replace -a '(' ' ' | str replace -a ')' ' ' | str replace -a ']' ' ' | str replace -a '[' ' ') 
 $d 
 $d | save $newfile
+print "success"
 }
 
 
