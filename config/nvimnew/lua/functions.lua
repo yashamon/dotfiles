@@ -20,7 +20,7 @@ Line = function()
    Wait = function ()
       -- local qf = vim.fn.filter(vim.fn.getwininfo(), vim.api.nvim_eval("v:val.quickfix"))
       if vim.b.bqf_enabled then
-        vim.cmd('sleep 180m')
+        vim.cmd('sleep 200m')
         vim.api.nvim_feedkeys('zf', 'i', false)
       else
         Wait()
