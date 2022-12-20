@@ -11,7 +11,6 @@ Line = function()
    local execstr = "nu C:/Users/yasha/dotfiles/scripts/line.nu " .. filename
    -- print(execstr)
    os.execute(execstr)
-   vim.cmd('cg @_%')
    -- require('telescope.builtin').quickfix({layout_strategy='vertical',layout_config={width=0.9}})
    vim.cmd('cg @_%')
    vim.cmd('copen')
