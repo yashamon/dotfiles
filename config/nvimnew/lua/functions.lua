@@ -16,7 +16,7 @@ Line = function()
    local execstr = "nu C:/Users/yasha/dotfiles/scripts/line.nu " .. filename
    -- vim.cmd("let filename = filename")
    local id = vim.fn.jobstart({"nu", "C:/Users/yasha/dotfiles/scripts/line.nu", filename})
-   vim.fn.jobwait(id)
+   vim.fn.jobwait({id})
    local command = "cg " .. "@_" .. filenameshort
    vim.cmd(command)
    -- vim.cmd('copen')
