@@ -17,7 +17,6 @@ Line = function()
    vim.cmd('copen')
    -- vim.cmd('sleep 30m')
    -- echo filter(getwininfo(), 'v:val.quickfix && !v:val.loclist')
-   vim.cmd('sleep 200m')
 
    Wait = function ()
       if vim.b.bqf_enabled then
@@ -27,9 +26,9 @@ Line = function()
         Wait()
       end
    end
-   -- Wait()
-   vim.cmd('sleep 200m')
-   vim.api.nvim_feedkeys('zf', 'i', false)
+   Wait()
+   -- vim.cmd('sleep 200m')
+   -- vim.api.nvim_feedkeys('zf', 'i', false)
    
    -- require('telescope.builtin').quickfix({layout_strategy='vertical',layout_config={width=0.9}})
 end
