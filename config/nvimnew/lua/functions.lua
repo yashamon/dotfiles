@@ -21,8 +21,6 @@ end
 
 Sentence = function ()
    vim.fn.jobwait({IdSentence})
-   local command = "cg " .. "@_" .. filenameshort
-   vim.cmd(command)
    vim.cmd('copen')
   Wait = function ()
       if vim.b.bqf_enabled then
