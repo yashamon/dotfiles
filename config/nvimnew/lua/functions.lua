@@ -15,7 +15,7 @@ Line = function()
    local filenameshort = vim.fn.substitute(vim.fn.expand('%'), "\\", "/", "g")
    local execstr = "nu C:/Users/yasha/dotfiles/scripts/line.nu " .. filename
    -- vim.cmd("let filename = filename")
-   vim.cmd("let id = jobstart(['nu', 'C:/Users/yasha/dotfiles/scripts/line.nu', substitute(expand('%:p'), "\\", "/", "g")], {'rpc': v:true})")
+   vim.cmd('let id = jobstart([\'nu\', \'C:/Users/yasha/dotfiles/scripts/line.nu\', expand(\'%:p\')], {\'rpc\': v:true})')
    vim.cmd('jobwait([id])')
    local command = "cg " .. "@_" .. filenameshort
    vim.cmd(command)
