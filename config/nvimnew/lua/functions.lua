@@ -22,7 +22,7 @@ Line = function()
    vim.cmd('copen')
    vim.cmd('sleep 100m')
    if vim.b.bqf_enabled then
-        vim.cmd('sleep 20m')
+        vim.cmd('sleep 30m')
         vim.api.nvim_feedkeys('zf', 'i', false)
    end
    -- vim.api.nvim_feedkeys('zf', 'i', false)
