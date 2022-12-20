@@ -51,7 +51,7 @@ SetCapsLockState, AlwaysOff
 CapsLock::Esc
 h::Send {Left}
 Hotkey, h,off
-CapsLock & h::
+$CapsLock & h::
 GetKeyState, state,CapsLock,P
 If state=D
 {
@@ -61,7 +61,7 @@ If state=D
    Hotkey, h, off
    return
 }
-Send CapsLock & h 
+Send {CapsLock & h} 
 Return
 #A::
 switchDesktopByNumber(1)
