@@ -18,9 +18,9 @@ Line = function()
    -- vim.cmd('sleep 30m')
    -- echo filter(getwininfo(), 'v:val.quickfix && !v:val.loclist')
    Wait = function ()
-      local qf = vim.fn.filter(vim.fn.getwininfo(), 'v:val.quickfix && !v:val.loclist')
-      if not next(qf) == nil and vim.b.bqf_enabled then
-        vim.cmd('sleep 50m')
+      -- local qf = vim.fn.filter(vim.fn.getwininfo(), vim.api.nvim_eval("v:val.quickfix"))
+      if vim.b.bqf_enabled then
+        vim.cmd('sleep 150m')
         vim.api.nvim_feedkeys('zf', 'i', false)
       else
         Wait()
