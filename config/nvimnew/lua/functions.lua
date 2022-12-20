@@ -38,4 +38,4 @@ Sentence = function ()
 -- end
    vim.cmd('sleep 400m')
    vim.api.nvim_input("zf")
-d
+end
