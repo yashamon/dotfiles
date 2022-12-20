@@ -21,7 +21,7 @@
  C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:21::    vim.cmd(command)
  C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:22::    vim.cmd('copen')
  C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:23::    vim.cmd('sleep 100m')
- C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:24::    vim.fn.feedkeys("zf")
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:24::    vim.api.nvim_feedkeys('zf', 'i', false) 
  C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:25::    
  C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:26::       require('telescope.builtin').quickfix({layout_strategy='vertical',layout_config={width=0.9)
  C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:27:: end
