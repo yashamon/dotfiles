@@ -1,7 +1,4 @@
-if vim.b.bqf_enabled then
-    vim.defer_fn(function()
-        vim.api.nvim_feedkeys('zf', 'im', false)
-    end, 10)
+
 Server = function ()
    local buff = vim.fn.bufname()
    local servername = vim.api.nvim_eval("v:servername")
@@ -20,6 +17,10 @@ Line = function()
    vim.cmd('cg @_%')
    vim.cmd('copen')
    -- vim.cmd('sleep 600m')
+   if vim.b.bqf_enabled then
+    vim.defer_fn(function()
+        vim.api.nvim_feedkeys('zf', 'im', false)
+    end, 10)
 end
    -- vim.cmd('sleep 600m')
    -- vim.fn.feedkeys("zf")
