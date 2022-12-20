@@ -6,7 +6,7 @@ Server = function ()
 end
 
 Line = function()
-   local filename = vim.fn.substitute(vim.fn.expand('%:p'), "\\", "/", "g")
+   -- local filename = vim.fn.substitute(vim.fn.expand('%:p'), "\\", "/", "g")
    local filenameshort = vim.fn.substitute(vim.fn.expand('%'), "\\", "/", "g")
    -- local execstr = "nu C:/Users/yasha/dotfiles/scripts/line.nu " .. filename
    -- vim.cmd("let filename = filename") test
@@ -19,7 +19,7 @@ Line = function()
 
    Wait = function ()
       if vim.b.bqf_enabled then
-        vim.cmd('sleep 200m')
+        vim.cmd('sleep 10m')
         vim.api.nvim_feedkeys('zf', 'i', false)
       else
         Wait()
@@ -33,11 +33,11 @@ Line = function()
 end
 
 Sentence = function ()
-   local filename = vim.fn.substitute(vim.fn.expand('%:p'), "\\", "/", "g")
+   -- local filename = vim.fn.substitute(vim.fn.expand('%:p'), "\\", "/", "g")
    local filenameshort = vim.fn.substitute(vim.fn.expand('%'), "\\", "/", "g")
-   local execstr = "nu C:/Users/yasha/dotfiles/scripts/sentence.nu " .. filename
-   local id = vim.fn.jobstart({"nu", "C:/Users/yasha/dotfiles/scripts/sentence.nu", filename})
-   vim.fn.jobwait({id})
+   -- local execstr = "nu C:/Users/yasha/dotfiles/scripts/sentence.nu " .. filename
+   -- local id = vim.fn.jobstart({"nu", "C:/Users/yasha/dotfiles/scripts/sentence.nu", filename})
+   vim.fn.jobwait({Idline})
    local command = "cg " .. "@_" .. filenameshort
    vim.cmd(command)
    vim.cmd('copen')

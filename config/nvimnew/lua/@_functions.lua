@@ -6,7 +6,7 @@
  C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:6:: end
  C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:7:: 
  C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:8:: Line = function()
- C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:9::    local filename = vim.fn.substitute(vim.fn.expand('%:p'), "  ", "/", "g")
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:9::       local filename = vim.fn.substitute(vim.fn.expand('%:p'), "  ", "/", "g")
  C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:10::    local filenameshort = vim.fn.substitute(vim.fn.expand('%'), "  ", "/", "g")
  C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:11::       local execstr = "nu C:/Users/yasha/dotfiles/scripts/line.nu " .. filename
  C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:12::       vim.cmd("let filename = filename") test
@@ -19,7 +19,7 @@
  C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:19:: 
  C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:20::    Wait = function ()
  C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:21::       if vim.b.bqf_enabled then
- C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:22::         vim.cmd('sleep 200m')
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:22::         vim.cmd('sleep 10m')
  C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:23::         vim.api.nvim_feedkeys('zf', 'i', false)
  C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:24::       else
  C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:25::         Wait()
@@ -33,11 +33,11 @@
  C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:33:: end
  C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:34:: 
  C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:35:: Sentence = function ()
- C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:36::    local filename = vim.fn.substitute(vim.fn.expand('%:p'), "  ", "/", "g")
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:36::       local filename = vim.fn.substitute(vim.fn.expand('%:p'), "  ", "/", "g")
  C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:37::    local filenameshort = vim.fn.substitute(vim.fn.expand('%'), "  ", "/", "g")
- C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:38::    local execstr = "nu C:/Users/yasha/dotfiles/scripts/sentence.nu " .. filename
- C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:39::    local id = vim.fn.jobstart({"nu", "C:/Users/yasha/dotfiles/scripts/sentence.nu", filename)
- C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:40::    vim.fn.jobwait({id)
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:38::       local execstr = "nu C:/Users/yasha/dotfiles/scripts/sentence.nu " .. filename
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:39::       local id = vim.fn.jobstart({"nu", "C:/Users/yasha/dotfiles/scripts/sentence.nu", filename)
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:40::    vim.fn.jobwait({Idline)
  C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:41::    local command = "cg " .. "@_" .. filenameshort
  C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:42::    vim.cmd(command)
  C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:43::    vim.cmd('copen')
