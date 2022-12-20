@@ -5,11 +5,6 @@ Server = function ()
    os.execute("echo " .. buff .. ' > C:/Users/yasha/filename.txt')
 end
 
-Line2 = function()
-   vim.cmd('cg @_blah.tex')
-   vim.cmd('sleep 600m')
-   vim.cmd('copen')
-end
 Line = function()
    local filename = vim.fn.substitute(vim.fn.expand('%:p'), "\\", "/", "g")
    local filenameshort = vim.fn.substitute(vim.fn.expand('%'), "\\", "/", "g")
@@ -20,7 +15,7 @@ Line = function()
    local command = "cg " .. "@_" .. filenameshort
    vim.cmd(command)
    vim.cmd('copen')
-   vim.cmd('sleep 100m')
+   vim.cmd('sleep 50m')
    Wait = function ()
       if vim.b.bqf_enabled then
         vim.cmd('sleep 30m')
