@@ -18,7 +18,7 @@ Line = function()
    vim.cmd('sleep 30m')
    Wait = function ()
       if vim.b.bqf_enabled then
-        vim.cmd('sleep 12m')
+        vim.cmd('sleep 120m')
         vim.api.nvim_feedkeys('zf', 'i', false)
       else
         Wait()
