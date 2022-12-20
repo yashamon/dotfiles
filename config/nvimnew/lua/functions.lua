@@ -29,6 +29,7 @@ Line = function()
         Wait()
       end
    end
+   Wait()
    -- vim.api.nvim_feedkeys('zf', 'i', false)
    
    -- require('telescope.builtin').quickfix({layout_strategy='vertical',layout_config={width=0.9}})
