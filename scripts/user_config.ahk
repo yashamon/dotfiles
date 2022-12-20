@@ -56,9 +56,6 @@ GetKeyState, state,CapsLock,P
 If state=D
 {
    Send {Left}
-   Hotkey, h, on
-   Keywait,CapsLock
-   Hotkey, h, off
    return
 }
 Return
