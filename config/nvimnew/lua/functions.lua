@@ -27,7 +27,8 @@ Sentence = function ()
    local filename = vim.fn.substitute(vim.fn.expand('%:p'), "\\", "/", "g")
    local filenameshort = vim.fn.substitute(vim.fn.expand('%'), "\\", "/", "g")
    local execstr = "nu C:/Users/yasha/dotfiles/scripts/sentence.nu " .. filename
-   -- print(execstr)
+   local vimcmd = 'let id = jobstart([\'nu\', \'C:/Users/yasha/dotfiles/scripts/sentence.nu\', substitute(expand(\'%:p\'), "\\\\", "/", "g")], {\'rpc\': v:true})'
+   print(vimcmd)
    vim.cmd('let id = jobstart([\'nu\', \'C:/Users/yasha/dotfiles/scripts/sentence.nu\', substitute(expand(\'%:p\'), "\\\\", "/", "g")], {\'rpc\': v:true})')
    vim.cmd('call jobwait([id])') 
    local command = "cg " .. "@_" .. filenameshort
