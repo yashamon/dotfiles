@@ -17,7 +17,8 @@ Line = function()
    os.execute(execstr)
    local command = "cg " .. "@_" .. filenameshort
    vim.cmd(command)
-   vim.cmd('copen')
+   -- vim.cmd('copen')
+   require('telescope.builtin').quickfix({layout_strategy='vertical',layout_config={width=0.9}})
 end
 
 Sentence = function ()
