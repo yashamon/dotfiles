@@ -5,6 +5,10 @@ Server = function ()
    os.execute("echo " .. buff .. ' > C:/Users/yasha/filename.txt')
 end
 
+Line2 = function()
+   vim.cmd('cg @_blah.tex')
+   vim.cmd('copen')
+end
 Line = function()
    local filename = vim.fn.substitute(vim.fn.expand('%:p'), "\\", "/", "g")
    local filenameshort = vim.fn.substitute(vim.fn.expand('%'), "\\", "/", "g")
