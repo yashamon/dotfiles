@@ -10,8 +10,7 @@ Line = function()
    local filenameshort = vim.fn.substitute(vim.fn.expand('%'), "\\", "/", "g")
    -- local execstr = "nu C:/Users/yasha/dotfiles/scripts/line.nu " .. filename
    -- vim.cmd("let filename = filename")
-   local id = vim.fn.jobstart({"nu", "C:/Users/yasha/dotfiles/scripts/line.nu", filename})
-   vim.fn.jobwait({id})
+   vim.fn.jobwait({idline})
    local command = "cg " .. "@_" .. filenameshort
    vim.cmd(command)
    vim.cmd('copen')
@@ -50,5 +49,13 @@ Sentence = function ()
 -- end
    vim.cmd('sleep 100m')
    vim.fn.feedkeys("zf")
+end
+
+GitAsync = function ()
+idline = vim.fn.jobstart({"nu", "C:/Users/yasha/dotfiles/scripts/line.nu", filename})
+Server()
+-- let g:bufdude = bufname()
+silent te pwsh -c if ( (git rev-parse --is-inside-work-tree) -and (git rev-parse --git-dir) ) { git add . ; git commit -m -a; git push --all origin; ctags -R }
+-- execute "buffer" g:bufdude
 end
 
