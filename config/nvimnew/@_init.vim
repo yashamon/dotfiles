@@ -154,7 +154,7 @@
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:154:: autocmd TextChangedI * call s:on_text_changed()
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:155:: function! s:on_text_changed() abort
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:156::   call timer_stop(s:timer)
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:157::   let s:timer = timer_start(150, function('s:complete'))
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:157::   let s:timer = timer_start(200, function('s:complete'))
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:158:: endfunction
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:159:: function! s:complete(...) abort
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:160::   lua require('cmp').complete({ reason = require('cmp').ContextReason.Auto )
