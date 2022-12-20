@@ -29,8 +29,7 @@ Sentence = function ()
    os.execute(execstr)
    local command = "cg " .. "@_" .. filenameshort
    vim.cmd(command)
-   require('telescope.builtin').quickfix({layout_strategy='vertical',layout_config={width=0.9}})
-   -- vim.cmd('copen')
+   vim.cmd('copen')
    -- vim.cmd('sleep 600m')
    -- vim.fn.feedkeys("zf")
 end
