@@ -16,7 +16,7 @@ Line = function()
    local command = "cg " .. "@_" .. filenameshort
    vim.cmd(command)
    vim.cmd('copen')
-   vim.cmd('setqflist([])')
+   vim.fn.setqflist([])
 --    if vim.b.bqf_enabled then
 --     vim.defer_fn(function()
 --         vim.api.nvim_feedkeys('zf', 'im', false)
