@@ -10,7 +10,7 @@ Line = function()
    local filenameshort = vim.fn.substitute(vim.fn.expand('%'), "\\", "/", "g")
    -- local execstr = "nu C:/Users/yasha/dotfiles/scripts/line.nu " .. filename
    -- vim.cmd("let filename = filename")
-   vim.fn.jobwait({idline})
+   vim.fn.jobwait({Idline})
    local command = "cg " .. "@_" .. filenameshort
    vim.cmd(command)
    vim.cmd('copen')
