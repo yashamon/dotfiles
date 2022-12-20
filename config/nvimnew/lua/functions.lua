@@ -20,7 +20,7 @@ Line = function()
    local command = "cg " .. "@_" .. filenameshort
    vim.cmd(command)
    vim.cmd('copen')
-   vim.cmd('sleep 100m')
+   vim.cmd('sleep 50m')
    vim.api.nvim_feedkeys('zf', 'i', false) 
    
    -- require('telescope.builtin').quickfix({layout_strategy='vertical',layout_config={width=0.9}})
