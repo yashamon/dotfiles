@@ -517,7 +517,7 @@
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:517:: nnoremap <m t> :w<cr>:BTags<cr>
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:518:: nnoremap SS :w<cr>:lua Sentence()<cr>
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:519:: nnoremap S :w<cr>:lua Line()<cr>
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:520:: " TODO:Add :w
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:520:: " TODO:Add :up
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:521:: "noremap L <Esc>:AsyncRun sentence.sh %;nvr sentence_%<cr>:echo 'press any key'<cr>:execute 'call getchar()' | BLines<cr>
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:522:: " Line search mapping 
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:523:: " function! Jumpback() 
@@ -651,12 +651,12 @@
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:651:: endfunction
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:652:: noremap gs :call SentenceLL()<cr>
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:653:: 
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:654:: function GitAsync()
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:655:: silent execute "!echo " . v:servername . ' > ~/servername.txt'
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:656:: let g:bufdude = bufname()
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:657:: silent te pwsh  c if ( (git rev parse   is inside work tree)  and (git rev parse   git dir) ) { git add . ; git commit  m  a; git push   all origin; ctags  R 
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:658:: execute "buffer" g:bufdude
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:659:: endfunction
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:654:: " function GitAsync()
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:655:: " silent execute "!echo " . v:servername . ' > ~/servername.txt'
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:656:: " let g:bufdude = bufname()
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:657:: " silent te pwsh  c if ( (git rev parse   is inside work tree)  and (git rev parse   git dir) ) { git add . ; git commit  m  a; git push   all origin; ctags  R 
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:658:: " execute "buffer" g:bufdude
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:659:: " endfunction
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:660::   
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:661:: function ToggleQuickFix()
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:662::       if empty(filter(getwininfo(), 'v:val.quickfix'))
@@ -750,7 +750,7 @@
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:750:: let g:auto_save_silent = 1
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:751:: 
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:752:: "Git autocommit  (nonmain branch)
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:753:: autocmd BufWritePost * call GitAsync()
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:753:: autocmd BufWritePost * lua GitAsync()
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:754:: set completeopt=menu,menuone,noselect,noinsert
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:755:: 
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:756:: " Avoid showing message extra message when using completion
