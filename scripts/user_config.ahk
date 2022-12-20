@@ -48,10 +48,10 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory. */
 ;-- when pressing CapsLock alone, it will activate the Escpae button
 
 SetCapsLockState, AlwaysOff
-CapsLock & h::Esc
+CapsLock::Esc
 h::Send {Left}
 Hotkey, h,off
-$CapsLock::
+CapsLock & h::
 GetKeyState, state,CapsLock,P
 If state=D
 {
