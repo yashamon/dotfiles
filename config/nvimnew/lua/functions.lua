@@ -10,10 +10,8 @@ Line = function()
    vim.cmd('copen')
    Wait = function ()
       if vim.b.bqf_enabled then
-        vim.cmd('sleep 200m')
+        vim.cmd('sleep 20m')
         vim.api.nvim_feedkeys('zf', 'i', false)
-      else
-        Wait()
       end
    end
    Wait()
@@ -22,14 +20,20 @@ end
 Sentence = function ()
    vim.fn.jobwait({IdSentence})
    vim.cmd('copen')
-  Wait = function ()
+  -- Wait = function ()
+  --     if vim.b.bqf_enabled then
+  --       vim.cmd('sleep 200m')
+  --       vim.api.nvim_feedkeys('zf', 'i', false)
+  --     else
+  --       Wait()
+  --     end
+  --  end
+   Wait = function ()
       if vim.b.bqf_enabled then
-        vim.cmd('sleep 200m')
+        vim.cmd('sleep 20m')
         vim.api.nvim_feedkeys('zf', 'i', false)
-      else
-        Wait()
       end
-   end
+   end 
    Wait()
 end
 

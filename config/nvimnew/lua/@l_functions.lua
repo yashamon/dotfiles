@@ -10,41 +10,45 @@
  C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:10::    vim.cmd('copen')
  C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:11::    Wait = function ()
  C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:12::       if vim.b.bqf_enabled then
- C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:13::         vim.cmd('sleep 200m')
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:13::         vim.cmd('sleep 20m')
  C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:14::         vim.api.nvim_feedkeys('zf', 'i', false)
- C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:15::       else
- C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:16::         Wait()
- C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:17::       end
- C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:18::    end
- C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:19::    Wait()
- C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:20:: end
- C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:21:: 
- C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:22:: Sentence = function ()
- C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:23::    vim.fn.jobwait({IdSentence)
- C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:24::    vim.cmd('copen')
- C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:25::   Wait = function ()
- C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:26::       if vim.b.bqf_enabled then
- C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:27::         vim.cmd('sleep 200m')
- C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:28::         vim.api.nvim_feedkeys('zf', 'i', false)
- C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:29::       else
- C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:30::         Wait()
- C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:31::       end
- C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:32::    end
- C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:33::    Wait()
- C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:34:: end
- C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:35:: 
- C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:36:: GitAsync = function ()
- C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:37::    Server()
- C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:38:: local buff = vim.fn.bufname()
- C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:39:: vim.cmd('te pwsh  c if ( (git rev parse   is inside work tree)  and (git rev parse   git dir) ) { git add . ; git commit  m  a; git push   all origin; ctags  R ')
- C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:40:: vim.cmd("buffer " .. buff)
- C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:41::    local filenameshort = vim.fn.substitute(vim.fn.expand('%'), "  ", "/", "g")
- C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:42::    local filename = vim.fn.substitute(vim.fn.expand('%:p'), "  ", "/", "g")
- C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:43::    Idline = vim.fn.jobstart({"nu", "C:/Users/yasha/dotfiles/scripts/Line.nu", filename)
- C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:44::    IdSentence = vim.fn.jobstart({"nu", "C:/Users/yasha/dotfiles/scripts/sentence.nu", filename)
- C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:45::    local commandsentence = "cg " .. "@s_" .. filenameshort
- C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:46::    vim.cmd(commandsentence)
- C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:47::    local commandline = "cg " .. "@l_" .. filenameshort
- C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:48::    vim.cmd(commandline)
- C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:49:: end
- C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:50::    asdf
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:15::       end
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:16::    end
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:17::    Wait()
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:18:: end
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:19:: 
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:20:: Sentence = function ()
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:21::    vim.fn.jobwait({IdSentence)
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:22::    vim.cmd('copen')
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:23::      Wait = function ()
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:24::          if vim.b.bqf_enabled then
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:25::            vim.cmd('sleep 200m')
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:26::            vim.api.nvim_feedkeys('zf', 'i', false)
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:27::          else
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:28::            Wait()
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:29::          end
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:30::       end
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:31::    Wait = function ()
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:32::       if vim.b.bqf_enabled then
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:33::         vim.cmd('sleep 20m')
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:34::         vim.api.nvim_feedkeys('zf', 'i', false)
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:35::       end
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:36::    end 
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:37::    Wait()
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:38:: end
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:39:: 
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:40:: GitAsync = function ()
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:41::    Server()
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:42:: local buff = vim.fn.bufname()
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:43:: vim.cmd('te pwsh  c if ( (git rev parse   is inside work tree)  and (git rev parse   git dir) ) { git add . ; git commit  m  a; git push   all origin; ctags  R ')
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:44:: vim.cmd("buffer " .. buff)
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:45::    local filenameshort = vim.fn.substitute(vim.fn.expand('%'), "  ", "/", "g")
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:46::    local filename = vim.fn.substitute(vim.fn.expand('%:p'), "  ", "/", "g")
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:47::    Idline = vim.fn.jobstart({"nu", "C:/Users/yasha/dotfiles/scripts/Line.nu", filename)
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:48::    IdSentence = vim.fn.jobstart({"nu", "C:/Users/yasha/dotfiles/scripts/sentence.nu", filename)
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:49::    local commandsentence = "cg " .. "@s_" .. filenameshort
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:50::    vim.cmd(commandsentence)
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:51::    local commandline = "cg " .. "@l_" .. filenameshort
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:52::    vim.cmd(commandline)
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:53:: end
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:54::    asdf
