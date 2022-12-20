@@ -19,11 +19,11 @@
  C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:19::    vim.fn.jobwait({id)
  C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:20::    local command = "cg " .. "@_" .. filenameshort
  C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:21::    vim.cmd(command)
- C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:22::    vim.cmd('sleep 100m')
- C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:23::    vim.cmd('copen')
- C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:24::    vim.fn.feedkeys("zf")
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:22::       vim.cmd('sleep 100m')
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:23::       vim.cmd('copen')
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:24::       vim.fn.feedkeys("zf")
  C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:25::    
- C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:26::       require('telescope.builtin').quickfix({layout_strategy='vertical',layout_config={width=0.9)
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:26::    require('telescope.builtin').quickfix({layout_strategy='vertical',layout_config={width=0.9)
  C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:27:: end
  C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:28:: 
  C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:29:: Sentence = function ()
