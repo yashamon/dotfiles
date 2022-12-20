@@ -12,7 +12,7 @@ Line = function()
    -- print(execstr)
    os.execute(execstr)
    -- require('telescope.builtin').quickfix({layout_strategy='vertical',layout_config={width=0.9}})
-   local command = cg @_% 
+   local command = "cg " .. "@_" .. filename
    vim.cmd(command)
    vim.cmd('copen')
 --    if vim.b.bqf_enabled then
