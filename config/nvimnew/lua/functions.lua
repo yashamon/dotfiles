@@ -18,10 +18,12 @@ end
 
 Sentence = function ()
    local filename = vim.fn.substitute(vim.fn.expand('%:p'), "\\", "/", "g")
+   local filenameshort = vim.fn.substitute(vim.fn.expand('%'), "\\", "/", "g")
    local execstr = "nu C:/Users/yasha/dotfiles/scripts/sentence.nu " .. filename
    -- print(execstr)
    os.execute(execstr)
-   vim.cmd('cg @_%')
+   local command = "cg " .. "@_" .. filenameshort
+   vim.cmd(command)   
    vim.cmd('copen')
    -- vim.cmd('sleep 600m')
    -- vim.fn.feedkeys("zf")
