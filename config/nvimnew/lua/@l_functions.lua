@@ -47,4 +47,4 @@
  C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:47::    local commandline = "cg " .. "@l_" .. filenameshort
  C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:48::    vim.cmd(commandline)
  C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:49:: end
- C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:50:: 
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:50::    asdf
