@@ -34,8 +34,6 @@ end
 
 Sentence = function ()
    local filenameshort = vim.fn.substitute(vim.fn.expand('%'), "\\", "/", "g")
-   -- local execstr = "nu C:/Users/yasha/dotfiles/scripts/sentence.nu " .. filename
-   -- local id = vim.fn.jobstart({"nu", "C:/Users/yasha/dotfiles/scripts/sentence.nu", filename})
    vim.fn.jobwait({Idline})
    local command = "cg " .. "@_" .. filenameshort
    vim.cmd(command)
