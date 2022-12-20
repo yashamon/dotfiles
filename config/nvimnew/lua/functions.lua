@@ -30,12 +30,12 @@ Sentence = function ()
    local command = "cg " .. "@_" .. filenameshort
    vim.cmd(command)
    vim.cmd('copen')
-   if vim.b.bqf_enabled then
-    vim.defer_fn(function()
-       vim.api.nvim_input("Gzf")
+   -- if vim.b.bqf_enabled then
+    -- vim.defer_fn(function()
+       -- vim.api.nvim_input("Gzf")
         -- vim.api.nvim_feedkeys('zf', 'i', false)
-    end, 200)
-end
-   -- vim.cmd('sleep 600m')
-   -- vim.fn.feedkeys("zf")
-end
+    -- end, 200)
+-- end
+   vim.cmd('sleep 400m')
+   vim.api.nvim_input("zf")
+d
