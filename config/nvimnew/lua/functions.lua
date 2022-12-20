@@ -33,7 +33,6 @@ Line = function()
 end
 
 Sentence = function ()
-   -- local filename = vim.fn.substitute(vim.fn.expand('%:p'), "\\", "/", "g")
    local filenameshort = vim.fn.substitute(vim.fn.expand('%'), "\\", "/", "g")
    -- local execstr = "nu C:/Users/yasha/dotfiles/scripts/sentence.nu " .. filename
    -- local id = vim.fn.jobstart({"nu", "C:/Users/yasha/dotfiles/scripts/sentence.nu", filename})
