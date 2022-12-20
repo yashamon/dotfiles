@@ -29,7 +29,7 @@
  C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:29::       vim.cmd('sleep 200m')
  C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:30::       vim.api.nvim_feedkeys('zf', 'i', false)
  C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:31::    
- C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:32::       require('telescope.builtin'). test quickfix({layout_strategy='vertical',layout_config={width=0.9)
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:32::       require('telescope.builtin'). test test2 quickfix({layout_strategy='vertical',layout_config={width=0.9)
  C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:33:: end
  C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:34:: 
  C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:35:: Sentence = function ()
