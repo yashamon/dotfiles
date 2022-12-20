@@ -6,15 +6,8 @@ Server = function ()
 end
 
 Line = function()
-   -- local filename = vim.fn.substitute(vim.fn.expand('%:p'), "\\", "/", "g")
-   local filenameshort = vim.fn.substitute(vim.fn.expand('%'), "\\", "/", "g")
-   -- local execstr = "nu C:/Users/yasha/dotfiles/scripts/line.nu " .. filename
-   -- vim.cmd("let filename = filename") test
    vim.fn.jobwait({Idline})
    vim.cmd('copen')
-   -- vim.cmd('sleep 30m')
-   -- echo filter(getwininfo(), 'v:val.quickfix && !v:val.loclist')
-
    Wait = function ()
       if vim.b.bqf_enabled then
         vim.cmd('sleep 200m')
@@ -24,14 +17,10 @@ Line = function()
       end
    end
    Wait()
-   -- vim.cmd('sleep 200m')
-   -- vim.api.nvim_feedkeys('zf', 'i', false)
-   
-   -- require('telescope.builtin'). test test2 test3 quickfix({layout_strategy='vertical',layout_config={width=0.9}})
 end
 
 Sentence = function ()
-   vim.fn.jobwait({Idline})
+   vim.fn.jobwait({IdSentence})
    local command = "cg " .. "@_" .. filenameshort
    vim.cmd(command)
    vim.cmd('copen')
