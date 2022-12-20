@@ -46,8 +46,10 @@ vim.cmd("buffer " .. buff)
    local filename = vim.fn.substitute(vim.fn.expand('%:p'), "\\", "/", "g")
    Idline = vim.fn.jobstart({"nu", "C:/Users/yasha/dotfiles/scripts/Line.nu", filename})
    IdSentence = vim.fn.jobstart({"nu", "C:/Users/yasha/dotfiles/scripts/sentence.nu", filename})
+   vim.fn.jobwait({IdSentence})
    local commandsentence = "cg " .. "@s_" .. filenameshort
    vim.cmd(commandsentence)
+   vim.fn.jobwait({IdLine})
    local commandline = "cg " .. "@l_" .. filenameshort
    vim.cmd(commandline)
 end

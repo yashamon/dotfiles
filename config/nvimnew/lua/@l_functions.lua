@@ -46,9 +46,11 @@
  C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:46::    local filename = vim.fn.substitute(vim.fn.expand('%:p'), "  ", "/", "g")
  C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:47::    Idline = vim.fn.jobstart({"nu", "C:/Users/yasha/dotfiles/scripts/Line.nu", filename)
  C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:48::    IdSentence = vim.fn.jobstart({"nu", "C:/Users/yasha/dotfiles/scripts/sentence.nu", filename)
- C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:49::    local commandsentence = "cg " .. "@s_" .. filenameshort
- C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:50::    vim.cmd(commandsentence)
- C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:51::    local commandline = "cg " .. "@l_" .. filenameshort
- C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:52::    vim.cmd(commandline)
- C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:53:: end
- C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:54::    asdf
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:49::    vim.fn.jobwait({IdSentence)
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:50::    local commandsentence = "cg " .. "@s_" .. filenameshort
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:51::    vim.cmd(commandsentence)
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:52::    vim.fn.jobwait({IdLine)
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:53::    local commandline = "cg " .. "@l_" .. filenameshort
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:54::    vim.cmd(commandline)
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:55:: end
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:56::    asdf
