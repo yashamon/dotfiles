@@ -259,7 +259,6 @@ set undofile                " Save undo's after file closes
 set undodir=~/.undo " where to save undo histories
 set undolevels=1000000         " How many undos
 set undoreload=1000000		
-set ruler		" show the cursor position all the time
 set nohlsearch
 set noswapfile
 set showmatch		" Cursor shows matching ) and }
