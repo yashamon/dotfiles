@@ -54,13 +54,6 @@ vim.cmd("buffer " .. buff)
    vim.cmd(commandline)
 end
 
-Btags = function ()
-   vim.cmd('up')
-   vim.cmd('BTags')
-   vim.api.input("<c-a><c-q>")
-   vim.cmd('sleep 30m')
-   vim.cmd('copen')
-end
 
 
 -- asdf
