@@ -516,7 +516,7 @@
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:516:: let g:fzf_layout = { 'window': { 'width': 1, 'height': 1  
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:517:: " let g:fzf_preview_window = [ 
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:518:: nnoremap <m t> :up<cr>:BTags<cr>
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:519:: nnoremap SS :up<cr>:lua Sentence()<cr>
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:519:: nnoremap <m s> :up<cr>:lua Sentence()<cr>
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:520:: nnoremap S :up<cr>:lua Line()<cr>
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:521:: " TODO:Add :up
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:522:: "noremap L <Esc>:AsyncRun sentence.sh %;nvr sentence_%<cr>:echo 'press any key'<cr>:execute 'call getchar()' | BLines<cr>

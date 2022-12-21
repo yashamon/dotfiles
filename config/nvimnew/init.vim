@@ -516,7 +516,7 @@ inoremap <C-]> <C-x><C-]>
 let g:fzf_layout = { 'window': { 'width': 1, 'height': 1 } }
 " let g:fzf_preview_window = []
 nnoremap <m-t> :up<cr>:BTags<cr>
-nnoremap SS :up<cr>:lua Sentence()<cr>
+nnoremap <m-s> :up<cr>:lua Sentence()<cr>
 nnoremap S :up<cr>:lua Line()<cr>
 " TODO:Add :up
 "noremap L <Esc>:AsyncRun sentence.sh %;nvr sentence_%<cr>:echo 'press any key'<cr>:execute 'call getchar()' | BLines<cr>
