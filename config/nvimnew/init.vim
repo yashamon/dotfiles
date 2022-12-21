@@ -172,7 +172,6 @@ let g:neovide_floating_blur_amount_y = 3.0
 set title
 set cmdheight=0
 set signcolumn=yes
-" set noshowcmd    
 set scrolloff=10
 " set shell=nu
 " let &shell = 'nu'
@@ -272,7 +271,6 @@ set wildignore=*.o,*.class,*.pyc
 set nobackup		" no *~ backup files
 set ignorecase		" ignore case when searching
 set smartcase		" ignore case if search pattern is all lowercase,case-sensitive otherwise
-set smarttab		" insert tabs on the start of a line according to context
 set spell   
 
 " disable sound on errors
