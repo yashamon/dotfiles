@@ -181,7 +181,6 @@ set hidden
 " let &shellcmdflag = '-c'
 " let &shellquote = ""
 " let &shellxquote = ""
-set autoindent
 set indentexpr=
 set noshowmatch
 set wrap
