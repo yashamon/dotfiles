@@ -147,6 +147,7 @@ call plug#end()
 lua <<EOF
 require('settings')
 require('functions')
+require('keymaps')
 -- require('telescope').load_extension('fzf')
 EOF
 " cmp
@@ -528,7 +529,7 @@ let g:fzf_action = {
 
 let $FZF_DEFAULT_OPTS = '--bind ctrl-a:select-all'
 " let g:fzf_preview_window = []
-nnoremap <m-t> :up<cr>:BTags<cr>:
+" nnoremap <m-t> :up<cr>:BTags<cr>:call feedkeys("\<c-a>\<c-q>")<cr>:copen<cr>
 nnoremap <m-s> :up<cr>:lua Sentence()<cr>
 nnoremap S :up<cr>:lua Line()<cr>
 " TODO:Add :up
