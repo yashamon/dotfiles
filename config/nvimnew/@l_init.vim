@@ -8,8 +8,8 @@
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:8:: Plug 'LhKipp/nvim nu', { 'branch': 'main' 
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:9:: Plug 'folke/which key.nvim', { 'branch': 'main' 
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:10:: Plug 'ggandor/leap.nvim', { 'branch': 'main' 
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:11:: " Plug 'ibhagwan/fzf lua', { 'branch': 'main' 
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:12:: " Plug 'romgrk/fzy lua native'
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:11:: Plug 'ibhagwan/fzf lua', { 'branch': 'main' 
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:12:: Plug 'romgrk/fzy lua native'
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:13:: Plug 'vijaymarupudi/nvim fzf'
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:14:: Plug 'kyazdani42/nvim web devicons'
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:15:: Plug 'glacambre/firenvim', { 'do': { _  > firenvim#install(0)  
