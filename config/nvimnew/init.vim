@@ -514,6 +514,11 @@ inoremap <C-]> <C-x><C-]>
 
 " FZF 
 let g:fzf_layout = { 'window': { 'width': 1, 'height': 1 } }
+let g:fzf_action = {
+  \ 'ctrl-t': 'tab split',
+  \ 'ctrl-x': 'split',
+  \ 'ctrl-v': 'vsplit',
+  \ 'ctrl-q': 'fill_quickfix'}
 " let g:fzf_preview_window = []
 nnoremap <m-t> :up<cr>:BTags<cr>
 nnoremap <m-s> :up<cr>:lua Sentence()<cr>
