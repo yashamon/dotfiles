@@ -36,7 +36,7 @@ Plug 'junegunn/fzf.vim'
 Plug 'yuki-yano/fzf-preview.vim', { 'branch': 'release/remote', 'do': ':UpdateRemotePlugins' }
 Plug 'mbbill/undotree', { 'on': 'UndotreeToggle' }
 Plug 'lewis6991/spellsitter.nvim'
-Plug 'kevinhwang91/nvim-bqf', { 'branch': 'main' }
+Plug 'kevinhwang91/nvim-bqf', { 'branch': 'dev' }
 Plug 'nvim-lua/plenary.nvim'
 Plug 'nvim-telescope/telescope.nvim'
 Plug 'simnalamburt/vim-mundo'
@@ -174,6 +174,7 @@ set signcolumn=yes
 set nojoinspaces
 " set noshowcmd    
 set scrolloff=10
+set hidden
 " set shell=nu
 " let &shell = 'nu'
 " let &shellcmdflag = '-c'
@@ -264,7 +265,7 @@ set undoreload=1000000
 set ruler		" show the cursor position all the time
 set autoread		" auto read when file is changed from outside
 set nohlsearch
-" set noswapfile
+set noswapfile
 set showmatch		" Cursor shows matching ) and }
 set nocursorline
 set showmode		" Show current mode
@@ -1159,5 +1160,5 @@ smap <silent><expr> <C-E> luasnip#choice_active() ? '<Plug>luasnip-next-choice' 
 "  		on_off_commands = true,
 "  		ui_elements_commands = false,
 "  		cursor_by_mode = false,
-"  	} test
+"  	} test test2
 "  })
