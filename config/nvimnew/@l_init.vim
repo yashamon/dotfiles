@@ -381,7 +381,7 @@
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:381:: inoremap <m l> <right>
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:382:: " vnoremap <m s> :s///gc<left><left><left><left>
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:383:: " inoremap <m s> <esc>:%s///gc<left><left><left><left>
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:384:: " nnoremap <m s> :%s///gc<left><left><left><left> test
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:384:: " nnoremap <m s> :%s///gc<left><left><left><left> 
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:385:: vmap <M .> t.<CR>h
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:386:: nmap <M .> t.<CR>h
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:387:: nnoremap <up> 1<C U>

@@ -381,7 +381,7 @@ inoremap <m-h> <left>
 inoremap <m-l> <right>
 " vnoremap <m-s> :s///gc<left><left><left><left>
 " inoremap <m-s> <esc>:%s///gc<left><left><left><left>
-" nnoremap <m-s> :%s///gc<left><left><left><left> test
+" nnoremap <m-s> :%s///gc<left><left><left><left> 
 vmap <M-.> t.<CR>h
 nmap <M-.> t.<CR>h
 nnoremap <up> 1<C-U>
