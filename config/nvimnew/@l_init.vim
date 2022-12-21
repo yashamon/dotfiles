@@ -9,7 +9,7 @@
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:9:: Plug 'folke/which key.nvim', { 'branch': 'main' 
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:10:: Plug 'ggandor/leap.nvim', { 'branch': 'main' 
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:11:: Plug 'ibhagwan/fzf lua', { 'branch': 'main' 
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:12:: Plug 'romgrk/fzy lua native'
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:12:: " Plug 'romgrk/fzy lua native'
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:13:: Plug 'vijaymarupudi/nvim fzf'
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:14:: Plug 'kyazdani42/nvim web devicons'
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:15:: Plug 'glacambre/firenvim', { 'do': { _  > firenvim#install(0)  
@@ -32,7 +32,7 @@
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:32:: Plug 'Shougo/denite.nvim', { 'do': ':UpdateRemotePlugins'  
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:33:: Plug 'skywind3000/asyncrun.vim'
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:34:: Plug 'junegunn/fzf', { 'do': {  > fzf#install()   
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:35:: " Plug 'junegunn/fzf.vim'
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:35:: Plug 'junegunn/fzf.vim'
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:36:: Plug 'yuki yano/fzf preview.vim', { 'branch': 'release/remote', 'do': ':UpdateRemotePlugins' 
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:37:: Plug 'mbbill/undotree', { 'on': 'UndotreeToggle' 
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:38:: Plug 'lewis6991/spellsitter.nvim'
