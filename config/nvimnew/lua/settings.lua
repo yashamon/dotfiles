@@ -19,7 +19,6 @@
 
 
 -- Keymaps
-vim.keymap.set('t', '<m-p>', [[getreg('+')]], {expr = true})
 -- LSP
 
 require'nvim-treesitter.configs'.setup {
