@@ -281,7 +281,6 @@ set smarttab		" insert tabs on the start of a line according to context
 set spell   
 
 " disable sound on errors
-set noerrorbells
 " set novisualbell 
 " set font=Fira\ Code:h18
 set background=light
