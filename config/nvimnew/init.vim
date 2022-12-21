@@ -172,7 +172,6 @@ let g:neovide_floating_blur_amount_y = 3.0
 set title
 set cmdheight=0
 set signcolumn=yes
-set nojoinspaces
 " set noshowcmd    
 set scrolloff=10
 " set shell=nu
@@ -272,7 +271,6 @@ set wildmenu            " wild char completion menu
 let maplocalleader = "\\"
 " ignore these files while expanding wild chars
 set wildignore=*.o,*.class,*.pyc
-set incsearch		" incremental search
 set nobackup		" no *~ backup files
 set ignorecase		" ignore case when searching
 set smartcase		" ignore case if search pattern is all lowercase,case-sensitive otherwise
