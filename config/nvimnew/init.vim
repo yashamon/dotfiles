@@ -250,7 +250,6 @@ set autochdir
 set guioptions-=r
 set guioptions-=l
 set inccommand=split
-set mouse=n
 noremap! <LeftDrag> <nop>
 noremap! <RightDrag> <nop>
 noremap! <LeftDrag> <nop>
