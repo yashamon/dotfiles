@@ -11,7 +11,7 @@
  C:/Users/yasha/dotfiles/config/nvimnew/lua/keymaps.lua:11::       Wait()
  C:/Users/yasha/dotfiles/config/nvimnew/lua/keymaps.lua:12::    end
  C:/Users/yasha/dotfiles/config/nvimnew/lua/keymaps.lua:13:: end
- C:/Users/yasha/dotfiles/config/nvimnew/lua/keymaps.lua:14::    Wait()
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/keymaps.lua:14::       Wait()
  C:/Users/yasha/dotfiles/config/nvimnew/lua/keymaps.lua:15::    end, { buffer=true )
  C:/Users/yasha/dotfiles/config/nvimnew/lua/keymaps.lua:16:: 
  C:/Users/yasha/dotfiles/config/nvimnew/lua/keymaps.lua:17::    nnoremap <m t> :up<cr>:BTags<cr>:call feedkeys(" <c a> <c q>")<cr>:copen<cr>

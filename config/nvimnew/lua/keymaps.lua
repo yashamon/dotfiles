@@ -11,7 +11,7 @@ vim.keymap.set({'i','n'}, '<m-t>', function ()  vim.cmd('up')
       Wait()
    end
 end
-   Wait()
+   -- Wait()
    end, { buffer=true })
 
 -- nnoremap <m-t> :up<cr>:BTags<cr>:call feedkeys("\<c-a>\<c-q>")<cr>:copen<cr>
