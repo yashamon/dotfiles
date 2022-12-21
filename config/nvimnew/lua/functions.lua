@@ -53,10 +53,13 @@ vim.cmd("buffer " .. buff)
    local commandline = "cg " .. "@l_" .. filenameshort
    vim.cmd(commandline)
 end
+
 Btags = function ()
    vim.cmd('up')
    vim.cmd('BTags')
-   vim.api.feedkeys("\<c-a>\<c-q>")<cr>:copen<cr>
+   vim.api.input("<c-a><c-q>")
+   vim.cmd('sleep 30m')
+   vim.cmd('copen')
 end
 
 
