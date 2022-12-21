@@ -8,13 +8,13 @@ end
 Line = function()
    vim.fn.jobwait({Idline})
    vim.cmd('copen')
-   Wait = function ()
-      if vim.b.bqf_enabled then
-        vim.cmd('sleep 150m')
-        vim.api.nvim_feedkeys('zf', 'i', false)
-      end
-   end
-   Wait()
+   -- Wait = function ()
+      -- if vim.b.bqf_enabled then
+        -- vim.cmd('sleep 150m')
+        -- vim.api.nvim_feedkeys('zf', 'i', false)
+      -- end
+   -- end
+   -- Wait()
 end
 
 Sentence = function ()
@@ -28,13 +28,13 @@ Sentence = function ()
   --       Wait()
   --     end
   --  end
-   Wait = function ()
-      if vim.b.bqf_enabled then
-        vim.cmd('sleep 150m')
-        vim.api.nvim_feedkeys('zf', 'i', false)
-      end
-   end 
-   Wait()
+   -- Wait = function ()
+      -- if vim.b.bqf_enabled then
+        -- vim.cmd('sleep 150m')
+        -- vim.api.nvim_feedkeys('zf', 'i', false)
+      -- end
+   -- end 
+   -- Wait()
 end
 
 GitAsync = function ()

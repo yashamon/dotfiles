@@ -1160,5 +1160,5 @@
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:1160:: "  		on_off_commands = true,
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:1161:: "  		ui_elements_commands = false,
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:1162:: "  		cursor_by_mode = false,
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:1163:: "  	 test test2
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:1163:: "  	 
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:1164:: "  )
