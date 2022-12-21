@@ -53,7 +53,9 @@
  C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:53::    local commandline = "cg " .. "@l_" .. filenameshort
  C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:54::    vim.cmd(commandline)
  C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:55:: end
- C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:56:: 
- C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:57:: 
- C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:58:: 
- C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:59::    asdf
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:56:: Btags = function ()
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:57::    
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:58:: end
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:59:: 
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:60:: 
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:61::    asdf
