@@ -1,5 +1,5 @@
  C:/Users/yasha/dotfiles/config/nvimnew/lua/keymaps.lua:1:: vim.keymap.set('t', '<m p>', [[getreg('+')  , {expr = true)
- C:/Users/yasha/dotfiles/config/nvimnew/lua/keymaps.lua:2:: vim.keymap.set('i,n', '<m t>', function ()  vim.cmd('up')
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/keymaps.lua:2:: vim.keymap.set({i,n, '<m t>', function ()  vim.cmd('up')
  C:/Users/yasha/dotfiles/config/nvimnew/lua/keymaps.lua:3::    vim.cmd('BTags')
  C:/Users/yasha/dotfiles/config/nvimnew/lua/keymaps.lua:4::    vim.api.input("<c a><c q>")
  C:/Users/yasha/dotfiles/config/nvimnew/lua/keymaps.lua:5::    vim.cmd('sleep 30m')
