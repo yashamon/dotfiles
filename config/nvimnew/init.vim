@@ -175,7 +175,6 @@ set signcolumn=yes
 set nojoinspaces
 " set noshowcmd    
 set scrolloff=10
-set hidden
 " set shell=nu
 " let &shell = 'nu'
 " let &shellcmdflag = '-c'
@@ -333,13 +332,6 @@ vnoremap > >gv
 " :cd. change working directory to that of the current file
 cmap cd. lcd %:p:h
 autocmd Filetype tex setlocal wrapmargin=0
-
-"--------------------------------------------------------------------------- 
-" ENCODING SETTINGS
-"--------------------------------------------------------------------------- 
-set encoding=utf-8                                  
-set termencoding=utf-8
-set fileencoding=utf-8
 
 "maps remaps mappings  
 "
