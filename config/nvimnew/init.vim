@@ -258,7 +258,7 @@ noremap! <LeftDrag> <nop>
 noremap! <RightDrag> <nop>
 noremap! <LeftDrag> <nop>
 " set selectmode=mouse, key
-set bs=2		" allow backspacing over everything in insert mode 
+" set bs=2		" allow backspacing over everything in insert mode 
 set undofile                " Save undo's after file closes
 set undodir=~/.undo " where to save undo histories
 set undolevels=1000000         " How many undos
