@@ -49,7 +49,7 @@
  C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:49::    vim.fn.jobwait({IdSentence)
  C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:50::    local commandsentence = "cg " .. "@s_" .. filenameshort
  C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:51::    vim.cmd(commandsentence)
- C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:52::    vim.fn.jobwait({IdLine)
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:52::    vim.fn.jobwait({Idline)
  C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:53::    local commandline = "cg " .. "@l_" .. filenameshort
  C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:54::    vim.cmd(commandline)
  C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:55:: end

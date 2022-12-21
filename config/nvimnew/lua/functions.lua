@@ -49,7 +49,7 @@ vim.cmd("buffer " .. buff)
    vim.fn.jobwait({IdSentence})
    local commandsentence = "cg " .. "@s_" .. filenameshort
    vim.cmd(commandsentence)
-   vim.fn.jobwait({IdLine})
+   vim.fn.jobwait({Idline})
    local commandline = "cg " .. "@l_" .. filenameshort
    vim.cmd(commandline)
 end
