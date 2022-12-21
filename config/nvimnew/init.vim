@@ -264,7 +264,6 @@ set showmatch		" Cursor shows matching ) and }
 set nocursorline
 set showmode		" Show current mode
 set wildchar=<TAB>	" start wild expansion in the command line using <TAB>
-set wildmenu            " wild char completion menu
 let maplocalleader = "\\"
 " ignore these files while expanding wild chars
 set wildignore=*.o,*.class,*.pyc
