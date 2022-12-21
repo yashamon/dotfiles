@@ -528,7 +528,7 @@
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:528:: 
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:529:: let  FZF_DEFAULT_OPTS = '  bind ctrl a:select all'
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:530:: " let g:fzf_preview_window = [ 
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:531:: nnoremap <m t> :up<cr>:BTags<cr>
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:531:: nnoremap <m t> :up<cr>:BTags<cr>:
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:532:: nnoremap <m s> :up<cr>:lua Sentence()<cr>
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:533:: nnoremap S :up<cr>:lua Line()<cr>
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:534:: " TODO:Add :up
