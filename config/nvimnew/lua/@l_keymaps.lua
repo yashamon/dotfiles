@@ -2,7 +2,7 @@
  C:/Users/yasha/dotfiles/config/nvimnew/lua/keymaps.lua:2:: vim.keymap.set({'i','n', '<m t>', function ()  vim.cmd('up')
  C:/Users/yasha/dotfiles/config/nvimnew/lua/keymaps.lua:3::    vim.cmd('BTags')
  C:/Users/yasha/dotfiles/config/nvimnew/lua/keymaps.lua:4::    vim.cmd('sleep 100m')
- C:/Users/yasha/dotfiles/config/nvimnew/lua/keymaps.lua:5::    vim.api.nvim_feedkeys(vim.api.nvim_replace_termcodes('<C a><C q><C w>j', true, false, true), 'i', false)
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/keymaps.lua:5::    vim.api.nvim_feedkeys(vim.api.nvim_replace_termcodes('<C a><C q>', true, false, true), 'i', false)
  C:/Users/yasha/dotfiles/config/nvimnew/lua/keymaps.lua:6::    Wait  = function ()
  C:/Users/yasha/dotfiles/config/nvimnew/lua/keymaps.lua:7::    if vim.w.bqf_enabled then
  C:/Users/yasha/dotfiles/config/nvimnew/lua/keymaps.lua:8::       vim.cmd('sleep 100m')
