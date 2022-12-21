@@ -54,8 +54,10 @@
  C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:54::    vim.cmd(commandline)
  C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:55:: end
  C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:56:: Btags = function ()
- C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:57::    
- C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:58:: end
- C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:59:: 
- C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:60:: 
- C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:61::    asdf
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:57::    vim.cmd('up')
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:58::    vim.cmd('BTags')
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:59::    vim.api.feedkeys(" <c a> <c q>")<cr>:copen<cr>
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:60:: end
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:61:: 
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:62:: 
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:63::    asdf

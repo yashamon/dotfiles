@@ -54,7 +54,9 @@ vim.cmd("buffer " .. buff)
    vim.cmd(commandline)
 end
 Btags = function ()
-   
+   vim.cmd('up')
+   vim.cmd('BTags')
+   vim.api.feedkeys("\<c-a>\<c-q>")<cr>:copen<cr>
 end
 
 
