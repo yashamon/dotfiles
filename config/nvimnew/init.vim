@@ -276,7 +276,7 @@ let maplocalleader = "\\"
 " ignore these files while expanding wild chars
 set wildignore=*.o,*.class,*.pyc
 set incsearch		" incremental search
-set nobackup		" no *~ backup files
+" set nobackup		" no *~ backup files
 set ignorecase		" ignore case when searching
 set smartcase		" ignore case if search pattern is all lowercase,case-sensitive otherwise
 set smarttab		" insert tabs on the start of a line according to context
