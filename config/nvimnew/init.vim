@@ -181,7 +181,6 @@ set scrolloff=10
 set indentexpr=
 set noshowmatch
 set wrap
-" set wildoptions=pum
 set pumblend=20
 " set winblend=15 
 set switchbuf=newtab
