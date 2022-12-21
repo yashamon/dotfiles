@@ -6,7 +6,7 @@
  C:/Users/yasha/dotfiles/config/nvimnew/lua/keymaps.lua:6::    Wait  = function ()
  C:/Users/yasha/dotfiles/config/nvimnew/lua/keymaps.lua:7::    if vim.w.bqf_enabled then
  C:/Users/yasha/dotfiles/config/nvimnew/lua/keymaps.lua:8::       vim.cmd('sleep 100m')
- C:/Users/yasha/dotfiles/config/nvimnew/lua/keymaps.lua:9::       vim.api.nvim_feedkeys(vim.api.nvim_replace_termcodes('<C w>jzf', true, false, true), 'im', false) 
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/keymaps.lua:9::       vim.api.nvim_feedkeys(vim.api.nvim_replace_termcodes('<C w>jzf', true, false, true), 'im', false)
  C:/Users/yasha/dotfiles/config/nvimnew/lua/keymaps.lua:10::       else
  C:/Users/yasha/dotfiles/config/nvimnew/lua/keymaps.lua:11::       Wait()
  C:/Users/yasha/dotfiles/config/nvimnew/lua/keymaps.lua:12::    end
