@@ -157,47 +157,47 @@
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:157:: " endfunction
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:158:: " function! s:complete(...) abort
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:159:: "   lua require('cmp').complete({ reason = require('cmp').ContextReason.Auto )
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:160:: " " endfunction
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:161:: " "Neovide 
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:162:: " "
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:163:: " " let g:neovide_maximized=v:true
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:164:: " let g:neovide_fullscreen=v:true
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:165:: " let g:neovide_floating_blur_amount_x = 3.0
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:166:: " let g:neovide_floating_blur_amount_y = 3.0
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:167:: " " let g:neovide_transparency=0.15
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:168:: "
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:169:: " "General Settings    
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:170:: " set title
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:171:: " set cmdheight=0
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:172:: " set signcolumn=yes
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:173:: " set scrolloff=10
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:174:: " " set shell=nu
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:175:: " " let &shell = 'nu'
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:176:: " " let &shellcmdflag = ' c'
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:177:: " " let &shellquote = ""
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:178:: " " let &shellxquote = ""
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:179:: " set indentexpr=
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:180:: " set noshowmatch
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:181:: " set wrap
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:182:: " set pumblend=20
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:183:: " " set winblend=15 
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:184:: " set switchbuf=newtab
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:185:: " " let g:python3_host_prog='/usr/bin/python3.9'
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:186:: " " let g:python3_host_prog='/usr/bin/python3.9'
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:187:: " set clipboard+=unnamedplus	
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:188:: " " TAB setting{
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:189:: " set expandtab        "replace <TAB> with spaces
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:190:: " set softtabstop=3
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:191:: " set shiftwidth=3
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:192:: " " set shell="C: Program Files PowerShell 7 pwsh.EXE"
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:193:: " " set termguicolors
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:194:: " " set guicursor=n v c:block,i ci ve:ver25,r cr:hor20,o:hor50
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:195:: "  		   ,a:blinkwait700 blinkoff400 blinkon250 Cursor/lCursor
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:196:: "  		   ,sm:block blinkwait175 blinkoff150 blinkon175
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:197:: " set spelllang=en_us
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:198:: " set timeoutlen=0
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:199::  function! OnUIEnter(event)
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:200::  	let l:ui = nvim_get_chan_info(a:event.chan)
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:160:: " endfunction
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:161:: "Neovide 
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:162:: "
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:163:: " let g:neovide_maximized=v:true
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:164:: let g:neovide_fullscreen=v:true
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:165:: let g:neovide_floating_blur_amount_x = 3.0
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:166:: let g:neovide_floating_blur_amount_y = 3.0
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:167:: " let g:neovide_transparency=0.15
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:168:: 
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:169:: "General Settings    
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:170:: set title
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:171:: set cmdheight=0
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:172:: set signcolumn=yes
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:173:: set scrolloff=10
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:174:: " set shell=nu
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:175:: " let &shell = 'nu'
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:176:: " let &shellcmdflag = ' c'
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:177:: " let &shellquote = ""
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:178:: " let &shellxquote = ""
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:179:: set indentexpr=
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:180:: set noshowmatch
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:181:: set wrap
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:182:: set pumblend=20
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:183:: " set winblend=15 
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:184:: set switchbuf=newtab
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:185:: " let g:python3_host_prog='/usr/bin/python3.9'
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:186:: " let g:python3_host_prog='/usr/bin/python3.9'
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:187:: set clipboard+=unnamedplus	
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:188:: " TAB setting{
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:189:: set expandtab        "replace <TAB> with spaces
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:190:: set softtabstop=3
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:191:: set shiftwidth=3
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:192:: " set shell="C: Program Files PowerShell 7 pwsh.EXE"
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:193:: set termguicolors
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:194:: " set guicursor=n v c:block,i ci ve:ver25,r cr:hor20,o:hor50
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:195::  		   ,a:blinkwait700 blinkoff400 blinkon250 Cursor/lCursor
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:196::  		   ,sm:block blinkwait175 blinkoff150 blinkon175
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:197:: set spelllang=en_us
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:198:: set timeoutlen=0
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:199:: function! OnUIEnter(event)
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:200:: 	let l:ui = nvim_get_chan_info(a:event.chan)
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:201:: 	if has_key(l:ui, 'client') && has_key(l:ui.client, 'name')
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:202:: 		if l:ui.client.name ==# 'Firenvim'
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:203:: 			set guifont=Fira  Code:h20
@@ -207,10 +207,10 @@
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:207:: 		endif
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:208:: 	endif
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:209:: endfunction
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:210:: " autocmd UIEnter * call OnUIEnter(deepcopy(v:event))
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:211:: " " autocmd ColorScheme * lua vim.api.nvim_set_hl(0, 'LeapMatch', { fg = "black" )
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:212:: "
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:213:: " "remember cursor location
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:210:: autocmd UIEnter * call OnUIEnter(deepcopy(v:event))
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:211:: " autocmd ColorScheme * lua vim.api.nvim_set_hl(0, 'LeapMatch', { fg = "black" )
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:212:: 
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:213:: "remember cursor location
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:214:: " autocmd BufReadPost * if @ !~# ' .git[ /   COMMIT_EDITMSG ' && line("' "") > 1 && line("' "") <= line(" ") | exe "normal! g` "" | endif
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:215:: "
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:216:: " au VIMEnter * let g:surround_108 = {

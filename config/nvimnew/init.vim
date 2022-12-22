@@ -157,47 +157,47 @@ EOF
 " endfunction
 " function! s:complete(...) abort
 "   lua require('cmp').complete({ reason = require('cmp').ContextReason.Auto })
-" " endfunction
-" "Neovide 
-" "
-" " let g:neovide_maximized=v:true
-" let g:neovide_fullscreen=v:true
-" let g:neovide_floating_blur_amount_x = 3.0
-" let g:neovide_floating_blur_amount_y = 3.0
-" " let g:neovide_transparency=0.15
+" endfunction
+"Neovide 
 "
-" "General Settings    
-" set title
-" set cmdheight=0
-" set signcolumn=yes
-" set scrolloff=10
-" " set shell=nu
-" " let &shell = 'nu'
-" " let &shellcmdflag = '-c'
-" " let &shellquote = ""
-" " let &shellxquote = ""
-" set indentexpr=
-" set noshowmatch
-" set wrap
-" set pumblend=20
-" " set winblend=15 
-" set switchbuf=newtab
-" " let g:python3_host_prog='/usr/bin/python3.9'
-" " let g:python3_host_prog='/usr/bin/python3.9'
-" set clipboard+=unnamedplus	
-" " TAB setting{
-" set expandtab        "replace <TAB> with spaces
-" set softtabstop=3
-" set shiftwidth=3
-" " set shell="C:\Program Files\PowerShell\7\pwsh.EXE"
-" " set termguicolors
-" " set guicursor=n-v-c:block,i-ci-ve:ver25,r-cr:hor20,o:hor50
-"  		  \,a:blinkwait700-blinkoff400-blinkon250-Cursor/lCursor
-"  		  \,sm:block-blinkwait175-blinkoff150-blinkon175
-" set spelllang=en_us
-" set timeoutlen=0
- function! OnUIEnter(event)
- 	let l:ui = nvim_get_chan_info(a:event.chan)
+" let g:neovide_maximized=v:true
+let g:neovide_fullscreen=v:true
+let g:neovide_floating_blur_amount_x = 3.0
+let g:neovide_floating_blur_amount_y = 3.0
+" let g:neovide_transparency=0.15
+
+"General Settings    
+set title
+set cmdheight=0
+set signcolumn=yes
+set scrolloff=10
+" set shell=nu
+" let &shell = 'nu'
+" let &shellcmdflag = '-c'
+" let &shellquote = ""
+" let &shellxquote = ""
+set indentexpr=
+set noshowmatch
+set wrap
+set pumblend=20
+" set winblend=15 
+set switchbuf=newtab
+" let g:python3_host_prog='/usr/bin/python3.9'
+" let g:python3_host_prog='/usr/bin/python3.9'
+set clipboard+=unnamedplus	
+" TAB setting{
+set expandtab        "replace <TAB> with spaces
+set softtabstop=3
+set shiftwidth=3
+" set shell="C:\Program Files\PowerShell\7\pwsh.EXE"
+set termguicolors
+" set guicursor=n-v-c:block,i-ci-ve:ver25,r-cr:hor20,o:hor50
+ 		  \,a:blinkwait700-blinkoff400-blinkon250-Cursor/lCursor
+ 		  \,sm:block-blinkwait175-blinkoff150-blinkon175
+set spelllang=en_us
+set timeoutlen=0
+function! OnUIEnter(event)
+	let l:ui = nvim_get_chan_info(a:event.chan)
 	if has_key(l:ui, 'client') && has_key(l:ui.client, 'name')
 		if l:ui.client.name ==# 'Firenvim'
 			set guifont=Fira\ Code:h20
@@ -207,10 +207,10 @@ EOF
 		endif
 	endif
 endfunction
-" autocmd UIEnter * call OnUIEnter(deepcopy(v:event))
-" " autocmd ColorScheme * lua vim.api.nvim_set_hl(0, 'LeapMatch', { fg = "black" })
-"
-" "remember cursor location
+autocmd UIEnter * call OnUIEnter(deepcopy(v:event))
+" autocmd ColorScheme * lua vim.api.nvim_set_hl(0, 'LeapMatch', { fg = "black" })
+
+"remember cursor location
 " autocmd BufReadPost * if @% !~# '\.git[\/\\]COMMIT_EDITMSG$' && line("'\"") > 1 && line("'\"") <= line("$") | exe "normal! g`\"" | endif
 "
 " au VIMEnter * let g:surround_108 = {
