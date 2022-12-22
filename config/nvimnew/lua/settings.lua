@@ -21,23 +21,6 @@
 -- Keymaps
 -- LSP
 
-require'nvim-treesitter.configs'.setup {
--- ensure_installed = "all", -- one of "all", "maintained" (parsers with maintainers), or a list of languages
-  incremental_selection = {
-    enable = true,
-    keymaps = {
-      init_selection = '<m-CR>',
-      --scope_incremental = '<CR>',
-      node_incremental = '<TAB>',
-      node_decremental = '<S-TAB>',
-    },
-  },
-  highlight = {
-    enable = true,              -- false will disable the whole extension
-    -- Instead of true it can also be a list of languages
-    additional_vim_regex_highlighting = false,
-  },
-}
 require('leap').setup {
   max_aot_targets = nil,
   highlight_unlabeled = true,
@@ -56,11 +39,6 @@ require('leap').setup {
 }
 vim.api.nvim_set_hl(0, 'LeapMatch', { fg='white' })
 
-require("todo-comments").setup {
-    -- your configuration comes here
-    -- or leave it empty to use the default settings
-    -- refer to the configuration section below
-  }
 
 -- require('telescope').setup({
 --   defaults = {
@@ -334,75 +312,7 @@ require('nvim_comment').setup({
    -- Hook function to call before commenting takes place
    --hook = nil 
  })
-require('spellsitter').setup {
-  hl = 'SpellBad',
-  captures = {},  -- set to {} to spellcheck everything
 
-  -- Spellchecker to use. values:
-  -- * vimfn: built-in spell checker using vim.fn.spellbadword()
-  -- * ffi: built-in spell checker using the FFI to access the
-  --   internal spell_check() function
-spellchecker = 'vimfn'
-}
-
-require('lualine').setup {
-  options = {
-    -- theme = 
-    theme = require('theme').theme(),
-    icons_enabled = true,
-    component_separators = { left = '', right = ''},
-    section_separators = { left = '', right = ''},
-    disabled_filetypes = {
-      statusline = {},
-      winbar = {},
-    },
-    ignore_focus = {'tex', 'md', 'text', 'lua', 'latex', 'nu'},
-    always_divide_middle = true,
-    globalstatus = true,
-    refresh = {
-      statusline = 1000,
-      tabline = 1000,
-      winbar = 1000,
-    }
-  },
-  sections = {
-  lualine_a = {
-        {
-          'filename',
-          color = 'lualine_a_normal',
-          file_status = true,      -- Displays file status (readonly status, modified status)
-          newfile_status = false,   -- Display new file status (new file means no write after created)
-          path = 3,                -- 0: Just the filename
-                                   -- 1: Relative path
-                                   -- 2: Absolute path
-                                   -- 3: Absolute path, with tilde as the home directory
-          symbols = {
-            modified = '[+]',      -- Text to show when the file is modified.
-            readonly = '[-]',      -- Text to show when the file is non-modifiable or readonly.
-            unnamed = '[No Name]', -- Text to show for unnamed buffers.
-            newfile = '[New]',     -- Text to show for new created file before first writting
-         }
-        }
-      },
-      lualine_b = {{'branch', 'diff', 'diagnostics', color = 'lualine_b_normal'}},
-    lualine_c = {},
-    lualine_x = {},
-    lualine_y = {},
-    lualine_z = {{'location', color = 'lualine_z_normal'}}
-  },
-  inactive_sections = {
-    lualine_a = {},
-    lualine_b = {},
-    lualine_c = {},
-    lualine_x = {},
-    lualine_y = {},
-    lualine_z = {}
-  },
-  tabline = {},
-  winbar = {},
-  inactive_winbar = {},
-  extension = {}
-}
 
 
 -- --gitgutter
