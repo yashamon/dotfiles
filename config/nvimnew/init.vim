@@ -1,6 +1,6 @@
 call plug#begin('~/.vim/plugged')
 "Plug 'nvim-telescope/telescope-fzf-native.nvim', { 'do': 'make' } asdf
-Plug 'folke/todo-comments'.nvim', { 'branch': 'main' }
+" Plug 'folke/todo-comments'.nvim', { 'branch': 'main' }
 " Plug 'folke/noice.nvim', { 'branch': 'main' }
 Plug 'L3MON4D3/LuaSnip'
 Plug 'saadparwaiz1/cmp_luasnip'
@@ -17,7 +17,7 @@ Plug 'neovim/nvim-lspconfig'
 Plug 'williamboman/mason.nvim', { 'branch': 'main' } 
 Plug 'williamboman/mason-lspconfig.nvim', { 'branch': 'main' }
 Plug 'hrsh7th/nvim-cmp', { 'branch': 'main' }
-Plug 'hrsh7th/cmp-buffer', { 'branch': 'main' }
+" Plug 'hrsh7th/cmp-buffer', { 'branch': 'main' }
 Plug 'hrsh7th/cmp-nvim-lsp', { 'branch': 'main' } 
 " Plug 'ray-x/cmp-treesitter'
 Plug 'quangnguyen30192/cmp-nvim-tags',  { 'branch': 'main' }  
