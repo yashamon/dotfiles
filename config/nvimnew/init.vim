@@ -4,7 +4,7 @@ call plug#begin('~/.vim/plugged')
 " Plug 'folke/noice.nvim', { 'branch': 'main' }
 Plug 'L3MON4D3/LuaSnip'
 Plug 'saadparwaiz1/cmp_luasnip'
-" Plug 'nvim-treesitter/playground'
+Plug 'nvim-treesitter/playground'
 " Plug 'LhKipp/nvim-nu', { 'branch': 'main' }
 " Plug 'folke/which-key.nvim', { 'branch': 'main' }
 Plug 'ggandor/leap.nvim', { 'branch': 'main' }
@@ -218,18 +218,19 @@ au VIMEnter * let g:surround_108 = {
      \ }
 au VIMEnter * let g:buffmain=bufname()
 nnoremap <m-y> viwy:buffer g:buffmain<cr>:<c-r>+<cr><cr>
-let g:tex_flavor = "latex"
+" let g:tex_flavor = "latex"
 let g:tex_isk = '@,48-57,58,_,192-255,:' 
-au FileType tex setlocal iskeyword+=:
+" au FileType tex setlocal iskeyword+=:
 au Filetype tex,text,md set tw=60
 set foldmethod=expr
-set foldexpr=nvim_treesitter#foldexpr()
+" set foldexpr=nvim_treesitter#foldexpr()
+
 autocmd BufReadPost,FileReadPost * normal zR
 " au FileType tex setlocal indentexpr=
 " set foldmethod=expr
 " au FileType tex, text, md setlocal foldexpr=getline(v:lnum)=~'^\s*'.&commentstring[0]
-" au FileType lua, vim, c, haskell  set foldexpr=nvim_treesitter#foldexpr()
-let g:tex_conceal = ""
+
+au FileType lua, vim, c, haskell  set foldexpr=nvim_treesitter#foldexpr() 
 set tags+=~/workspacemodules/tags
 set tags+=~\workspacemodules\tags
 set tags+=.\tags
