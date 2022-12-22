@@ -262,7 +262,7 @@
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:262:: " ignore these files while expanding wild chars
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:263:: set nobackup		" no *~ backup files
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:264:: " set ignorecase		" ignore case when searching
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:265:: " set smartcase		" ignore case if search pattern is all lowercase,case sensitive otherwise
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:265:: set smartcase		" ignore case if search pattern is all lowercase,case sensitive otherwise
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:266:: set spell   
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:267:: 
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:268:: " disable sound on errors
