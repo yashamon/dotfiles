@@ -36,7 +36,7 @@
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:36:: Plug 'yuki yano/fzf preview.vim', { 'branch': 'release/remote', 'do': ':UpdateRemotePlugins' 
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:37:: Plug 'mbbill/undotree', { 'on': 'UndotreeToggle' 
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:38:: Plug 'lewis6991/spellsitter.nvim'
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:39:: Plug 'kevinhwang91/nvim bqf' 
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:39:: Plug 'kevinhwang91/nvim bqf', { 'branch': 'main' 
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:40:: Plug 'nvim lua/plenary.nvim'
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:41:: Plug 'nvim telescope/telescope.nvim'
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:42:: Plug 'simnalamburt/vim mundo'
@@ -804,4 +804,3 @@
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:804:: imap <silent><expr> <C E> luasnip#choice_active() ? '<Plug>luasnip next choice' : '<C E>'
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:805:: smap <silent><expr> <C E> luasnip#choice_active() ? '<Plug>luasnip next choice' : '<C E>'
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:806:: 
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:807:: 
