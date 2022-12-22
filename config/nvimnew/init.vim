@@ -8,10 +8,10 @@ Plug 'nvim-treesitter/playground'
 Plug 'LhKipp/nvim-nu', { 'branch': 'main' }
 Plug 'folke/which-key.nvim', { 'branch': 'main' }
 Plug 'ggandor/leap.nvim', { 'branch': 'main' }
-" Plug 'ibhagwan/fzf-lua', { 'branch': 'main' }
-" Plug 'romgrk/fzy-lua-native'
-" Plug 'vijaymarupudi/nvim-fzf'
-" Plug 'kyazdani42/nvim-web-devicons'
+Plug 'ibhagwan/fzf-lua', { 'branch': 'main' }
+Plug 'romgrk/fzy-lua-native'
+Plug 'vijaymarupudi/nvim-fzf'
+Plug 'kyazdani42/nvim-web-devicons'
 Plug 'glacambre/firenvim', { 'do': { _ -> firenvim#install(0) } }
 Plug 'neovim/nvim-lspconfig'
 Plug 'williamboman/mason.nvim', { 'branch': 'main' } 
@@ -19,7 +19,7 @@ Plug 'williamboman/mason-lspconfig.nvim', { 'branch': 'main' }
 Plug 'hrsh7th/nvim-cmp', { 'branch': 'main' }
 Plug 'hrsh7th/cmp-buffer', { 'branch': 'main' }
 Plug 'hrsh7th/cmp-nvim-lsp', { 'branch': 'main' } 
-" Plug 'ray-x/cmp-treesitter'
+Plug 'ray-x/cmp-treesitter'
 Plug 'quangnguyen30192/cmp-nvim-tags',  { 'branch': 'main' }  
 Plug 'terrortylor/nvim-comment', { 'branch': 'main' }
 Plug 'nvim-lualine/lualine.nvim'
@@ -30,15 +30,17 @@ Plug 'ellisonleao/gruvbox.nvim', { 'branch': 'main' }
 Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}  
 Plug 'Shougo/neoyank.vim' 
 Plug 'Shougo/denite.nvim', { 'do': ':UpdateRemotePlugins' } 
-" Plug 'skywind3000/asyncrun.vim'
+Plug 'skywind3000/asyncrun.vim'
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } } 
 Plug 'junegunn/fzf.vim'
+Plug 'yuki-yano/fzf-preview.vim', { 'branch': 'release/remote', 'do': ':UpdateRemotePlugins' }
 Plug 'mbbill/undotree', { 'on': 'UndotreeToggle' }
 Plug 'lewis6991/spellsitter.nvim'
 Plug 'kevinhwang91/nvim-bqf', { 'branch': 'main' }
 Plug 'nvim-lua/plenary.nvim'
 Plug 'nvim-telescope/telescope.nvim'
-" Plug 'simnalamburt/vim-mundo'
+Plug 'simnalamburt/vim-mundo'
+Plug 'rlane/pounce.nvim'
 Plug 'mg979/vim-visual-multi'
 Plug 'tpope/vim-surround'
 
@@ -149,15 +151,15 @@ require('keymaps')
 -- require('telescope').load_extension('fzf')
 EOF
 " cmp
-let s:timer = 0
-autocmd TextChangedI * call s:on_text_changed()
-function! s:on_text_changed() abort
-  call timer_stop(s:timer)
-  let s:timer = timer_start(200, function('s:complete'))
-endfunction
-function! s:complete(...) abort
-  lua require('cmp').complete({ reason = require('cmp').ContextReason.Auto })
-endfunction
+" let s:timer = 0
+" autocmd TextChangedI * call s:on_text_changed()
+" function! s:on_text_changed() abort
+"   call timer_stop(s:timer)
+"   let s:timer = timer_start(200, function('s:complete'))
+" endfunction
+" function! s:complete(...) abort
+"   lua require('cmp').complete({ reason = require('cmp').ContextReason.Auto })
+" endfunction
 "Neovide 
 "
 " let g:neovide_maximized=v:true
@@ -191,7 +193,7 @@ set softtabstop=3
 set shiftwidth=3
 " set shell="C:\Program Files\PowerShell\7\pwsh.EXE"
 set termguicolors
-" set guicursor=n-v-c:block,i-ci-ve:ver25,r-cr:hor20,o:hor50
+set guicursor=n-v-c:block,i-ci-ve:ver25,r-cr:hor20,o:hor50
  		  \,a:blinkwait700-blinkoff400-blinkon250-Cursor/lCursor
  		  \,sm:block-blinkwait175-blinkoff150-blinkon175
 set spelllang=en_us
@@ -208,23 +210,23 @@ function! OnUIEnter(event)
 	endif
 endfunction
 autocmd UIEnter * call OnUIEnter(deepcopy(v:event))
-" autocmd ColorScheme * lua vim.api.nvim_set_hl(0, 'LeapMatch', { fg = "black" })
+autocmd ColorScheme * lua vim.api.nvim_set_hl(0, 'LeapMatch', { fg = "black" })
 
 "remember cursor location
-" autocmd BufReadPost * if @% !~# '\.git[\/\\]COMMIT_EDITMSG$' && line("'\"") > 1 && line("'\"") <= line("$") | exe "normal! g`\"" | endif
-"
-" au VIMEnter * let g:surround_108 = {
-"      \'q':  " ``\r''"
-"      \ }
-" au VIMEnter * let g:buffmain=bufname()
-" nnoremap <m-y> viwy:buffer g:buffmain<cr>:<c-r>+<cr><cr>
-" let g:tex_flavor = "latex"
-" let g:tex_isk = '@,48-57,58,_,192-255,:' 
-" au FileType tex setlocal iskeyword+=:
-" au Filetype tex,text,md set tw=60
-" set foldmethod=expr
-" set foldexpr=nvim_treesitter#foldexpr()
-" autocmd BufReadPost,FileReadPost * normal zR
+autocmd BufReadPost * if @% !~# '\.git[\/\\]COMMIT_EDITMSG$' && line("'\"") > 1 && line("'\"") <= line("$") | exe "normal! g`\"" | endif
+
+au VIMEnter * let g:surround_108 = {
+     \'q':  " ``\r''"
+     \ }
+au VIMEnter * let g:buffmain=bufname()
+nnoremap <m-y> viwy:buffer g:buffmain<cr>:<c-r>+<cr><cr>
+let g:tex_flavor = "latex"
+let g:tex_isk = '@,48-57,58,_,192-255,:' 
+au FileType tex setlocal iskeyword+=:
+au Filetype tex,text,md set tw=60
+set foldmethod=expr
+set foldexpr=nvim_treesitter#foldexpr()
+autocmd BufReadPost,FileReadPost * normal zR
 " au FileType tex setlocal indentexpr=
 " set foldmethod=expr
 " au FileType tex, text, md setlocal foldexpr=getline(v:lnum)=~'^\s*'.&commentstring[0]
@@ -251,7 +253,10 @@ noremap! <RightDrag> <nop>
 noremap! <LeftDrag> <nop>
 " set selectmode=mouse, key
 " set bs=2		" allow backspacing over everything in insert mode 
-
+set undofile                " Save undo's after file closes
+set undodir=~/.undo " where to save undo histories
+set undolevels=1000000         " How many undos
+set undoreload=1000000		
 set nohlsearch
 set noswapfile
 set showmatch		" Cursor shows matching ) and }
@@ -260,15 +265,18 @@ set showmode		" Show current mode
 set wildchar=<TAB>	" start wild expansion in the command line using <TAB>
 let maplocalleader = "\\"
 " ignore these files while expanding wild chars
+set wildignore=*.o,*.class,*.pyc
 set nobackup		" no *~ backup files
-" set ignorecase		" ignore case when searching
+set ignorecase		" ignore case when searching
 set smartcase		" ignore case if search pattern is all lowercase,case-sensitive otherwise
 set spell   
 
 " disable sound on errors
+" set novisualbell 
 " set font=Fira\ Code:h18
 set background=light
 colorscheme gruvbox
+set background=light
 " colorscheme material  
 " let g:material_style = 'palenight'  
 " let g:material_style = 'lighter'
@@ -284,7 +292,7 @@ au FileType Makefile set noexpandtab
 au FileType tex,text set spelllang=en_us
 au FileType tex,text,md set indentexpr=
 au FileType vim set list
-au VimEnter * lua CG()
+au FileType * lua CG()
 command! Ser lua Server()
 
 au Filetype tex,text,md vmap q xi<CR><CR><CR><CR><ESC>kki/begin{comment}<cr><cr>/end{comment}<esc>kp  
@@ -473,7 +481,7 @@ noremap <m-1> <C-o>
 noremap <m-2> <C-i>
 inoremap <m-d> <C-d>
 noremap ;w <Esc>:up<CR>
-" noremap <C-t> <Esc>:AsyncRun ctags -R<CR>
+noremap <C-t> <Esc>:AsyncRun ctags -R<CR>
 noremap <D-u> <C-u>
 noremap <A-u> <C-u>
 " windows stuff, comment out on windows
@@ -746,8 +754,6 @@ let g:auto_save_silent = 1
 
 "Git autocommit  (nonmain branch)
 autocmd BufWritePost * lua GitAsync()
-autocmd VimEnter * lua GitAsync()
-
 set completeopt=menu,menuone,noselect,noinsert
 
 " Avoid showing message extra message when using completion
@@ -786,7 +792,7 @@ xnoremap <silent> <cr> "*y:silent! let searchTerm = '\V'.substitute(escape(@*, '
 inoremap <m-d> <C-w>
 
 
-imap <silent><expr> <Tab> luasnip#expand_or_jumpable() ? '<Plug>luasnip-expand-or-jump' : '<Tab>' 
+" imap <silent><expr> <Tab> luasnip#expand_or_jumpable() ? '<Plug>luasnip-expand-or-jump' : '<Tab>' 
 " -1 for jumping backwards.
 inoremap <silent> <S-Tab> <cmd>lua require'luasnip'.jump(-1)<Cr>
 inoremap <silent> <m-j> <cmd>lua require('luasnip').jump(1)<Cr>
@@ -796,8 +802,3 @@ nnoremap <silent> <m-k> <cmd>lua require('luasnip').jump(-1)<Cr>
 " For changing choices in choiceNodes (not strictly necessary for a basic setup). 
 imap <silent><expr> <C-E> luasnip#choice_active() ? '<Plug>luasnip-next-choice' : '<C-E>'
 smap <silent><expr> <C-E> luasnip#choice_active() ? '<Plug>luasnip-next-choice' : '<C-E>'
-
-set undofile                " Save undo's after file closes
-set undodir=~/.undo " where to save undo histories
-set undolevels=1000000         " How many undos
-set undoreload=1000000		
