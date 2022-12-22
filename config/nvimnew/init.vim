@@ -292,7 +292,7 @@ au FileType Makefile set noexpandtab
 au FileType tex,text set spelllang=en_us
 au FileType tex,text,md set indentexpr=
 au FileType vim set list
-au VimEnter * lua CG()
+au  * lua CG()
 command! Ser lua Server()
 
 au Filetype tex,text,md vmap q xi<CR><CR><CR><CR><ESC>kki/begin{comment}<cr><cr>/end{comment}<esc>kp  
@@ -790,7 +790,7 @@ end
 nnoremap <C-c> :set hlsearch!<cr>
 xnoremap <silent> <cr> "*y:silent! let searchTerm = '\V'.substitute(escape(@*, '\/'), "\n", '\\n', "g") <bar> let @/ = searchTerm <bar> echo '/'.@/ <bar> call histadd("search", searchTerm) <bar> set hls<cr>
 inoremap <m-d> <C-w>
-goadf
+
 
 imap <silent><expr> <Tab> luasnip#expand_or_jumpable() ? '<Plug>luasnip-expand-or-jump' : '<Tab>' 
 " -1 for jumping backwards.

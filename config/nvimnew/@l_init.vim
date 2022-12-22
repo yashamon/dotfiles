@@ -292,7 +292,7 @@
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:292:: au FileType tex,text set spelllang=en_us
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:293:: au FileType tex,text,md set indentexpr=
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:294:: au FileType vim set list
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:295:: au VimEnter * lua CG()
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:295:: au  * lua CG()
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:296:: command! Ser lua Server()
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:297:: 
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:298:: au Filetype tex,text,md vmap q xi<CR><CR><CR><CR><ESC>kki/begin{comment<cr><cr>/end{comment<esc>kp  
@@ -790,7 +790,7 @@
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:790:: nnoremap <C c> :set hlsearch!<cr>
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:791:: xnoremap <silent> <cr> "*y:silent! let searchTerm = ' V'.substitute(escape(@*, ' /'), " n", '  n', "g") <bar> let @/ = searchTerm <bar> echo '/'.@/ <bar> call histadd("search", searchTerm) <bar> set hls<cr>
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:792:: inoremap <m d> <C w>
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:793:: goadf
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:793:: 
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:794:: 
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:795:: imap <silent><expr> <Tab> luasnip#expand_or_jumpable() ? '<Plug>luasnip expand or jump' : '<Tab>' 
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:796:: "  1 for jumping backwards.
