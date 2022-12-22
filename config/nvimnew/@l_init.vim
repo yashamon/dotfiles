@@ -25,7 +25,7 @@
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:25:: Plug 'nvim lualine/lualine.nvim'
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:26:: Plug 'justinhoward/fzf neoyank'
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:27:: Plug 'folke/tokyonight.nvim', { 'branch': 'main' 
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:28:: Plug 'ellisonleao/gruvbox.nvim', { 'branch': 'main' 
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:28:: " Plug 'ellisonleao/gruvbox.nvim', { 'branch': 'main' 
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:29:: " Plug 'eddyekofo94/gruvbox flat.nvim'
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:30:: Plug 'nvim treesitter/nvim treesitter', {'do': ':TSUpdate'  
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:31:: Plug 'Shougo/neoyank.vim' 

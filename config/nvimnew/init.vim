@@ -25,7 +25,7 @@ Plug 'terrortylor/nvim-comment', { 'branch': 'main' }
 Plug 'nvim-lualine/lualine.nvim'
 Plug 'justinhoward/fzf-neoyank'
 Plug 'folke/tokyonight.nvim', { 'branch': 'main' }
-Plug 'ellisonleao/gruvbox.nvim', { 'branch': 'main' }
+" Plug 'ellisonleao/gruvbox.nvim', { 'branch': 'main' }
 " Plug 'eddyekofo94/gruvbox-flat.nvim'
 Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}  
 Plug 'Shougo/neoyank.vim' 
