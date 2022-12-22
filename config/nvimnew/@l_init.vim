@@ -292,7 +292,7 @@
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:292:: au FileType tex,text set spelllang=en_us
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:293:: au FileType tex,text,md set indentexpr=
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:294:: au FileType vim set list
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:295:: au UIEnter lua Server()
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:295:: au UIEnter lua CG()
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:296:: command! Ser lua Server()
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:297:: 
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:298:: au Filetype tex,text,md vmap q xi<CR><CR><CR><CR><ESC>kki/begin{comment<cr><cr>/end{comment<esc>kp  
