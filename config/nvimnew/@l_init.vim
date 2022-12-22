@@ -197,7 +197,7 @@
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:197::  		   ,a:blinkwait700 blinkoff400 blinkon250 Cursor/lCursor
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:198::  		   ,sm:block blinkwait175 blinkoff150 blinkon175
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:199:: set spelllang=en_us
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:200:: set timeoutlen=0
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:200:: " set timeoutlen=0
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:201:: function! OnUIEnter(event)
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:202:: 	let l:ui = nvim_get_chan_info(a:event.chan)
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:203:: 	if has_key(l:ui, 'client') && has_key(l:ui.client, 'name')
@@ -799,7 +799,6 @@
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:799:: nnoremap <silent> <m j> <cmd>lua require('luasnip').jump(1)<Cr>
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:800:: inoremap <silent> <m k> <cmd>lua require('luasnip').jump( 1)<Cr>
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:801:: nnoremap <silent> <m k> <cmd>lua require('luasnip').jump( 1)<Cr>
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:802:: 
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:803:: " For changing choices in choiceNodes (not strictly necessary for a basic setup).
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:804:: imap <silent><expr> <C E> luasnip#choice_active() ? '<Plug>luasnip next choice' : '<C E>'
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:805:: smap <silent><expr> <C E> luasnip#choice_active() ? '<Plug>luasnip next choice' : '<C E>'
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:802:: " For changing choices in choiceNodes (not strictly necessary for a basic setup). 
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:803:: imap <silent><expr> <C E> luasnip#choice_active() ? '<Plug>luasnip next choice' : '<C E>'
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:804:: smap <silent><expr> <C E> luasnip#choice_active() ? '<Plug>luasnip next choice' : '<C E>'

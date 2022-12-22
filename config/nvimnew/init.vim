@@ -197,7 +197,7 @@ set guicursor=n-v-c:block,i-ci-ve:ver25,r-cr:hor20,o:hor50
  		  \,a:blinkwait700-blinkoff400-blinkon250-Cursor/lCursor
  		  \,sm:block-blinkwait175-blinkoff150-blinkon175
 set spelllang=en_us
-set timeoutlen=0
+" set timeoutlen=0
 function! OnUIEnter(event)
 	let l:ui = nvim_get_chan_info(a:event.chan)
 	if has_key(l:ui, 'client') && has_key(l:ui.client, 'name')
@@ -799,7 +799,6 @@ inoremap <silent> <m-j> <cmd>lua require('luasnip').jump(1)<Cr>
 nnoremap <silent> <m-j> <cmd>lua require('luasnip').jump(1)<Cr>
 inoremap <silent> <m-k> <cmd>lua require('luasnip').jump(-1)<Cr>
 nnoremap <silent> <m-k> <cmd>lua require('luasnip').jump(-1)<Cr>
-
-" For changing choices in choiceNodes (not strictly necessary for a basic setup).
+" For changing choices in choiceNodes (not strictly necessary for a basic setup). 
 imap <silent><expr> <C-E> luasnip#choice_active() ? '<Plug>luasnip-next-choice' : '<C-E>'
 smap <silent><expr> <C-E> luasnip#choice_active() ? '<Plug>luasnip-next-choice' : '<C-E>'
