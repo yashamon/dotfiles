@@ -151,15 +151,15 @@
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:151::    require('telescope').load_extension('fzf')
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:152:: EOF
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:153:: " cmp
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:154:: let s:timer = 0
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:155:: autocmd TextChangedI * call s:on_text_changed()
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:156:: function! s:on_text_changed() abort
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:157::   call timer_stop(s:timer)
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:158::   let s:timer = timer_start(200, function('s:complete'))
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:159:: endfunction
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:160:: function! s:complete(...) abort
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:161::   lua require('cmp').complete({ reason = require('cmp').ContextReason.Auto )
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:162:: endfunction
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:154:: " let s:timer = 0
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:155:: " autocmd TextChangedI * call s:on_text_changed()
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:156:: " function! s:on_text_changed() abort
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:157:: "   call timer_stop(s:timer)
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:158:: "   let s:timer = timer_start(200, function('s:complete'))
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:159:: " endfunction
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:160:: " function! s:complete(...) abort
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:161:: "   lua require('cmp').complete({ reason = require('cmp').ContextReason.Auto )
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:162:: " endfunction
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:163:: "Neovide 
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:164:: "
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:165:: " let g:neovide_maximized=v:true
