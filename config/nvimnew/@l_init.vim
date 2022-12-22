@@ -672,7 +672,7 @@
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:672::     local winid = vim.api.nvim_get_current_win()
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:673::     vim.schedule(function()
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:674::         vim.api.nvim_win_call(winid, function()
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:675::             vim.api.nvim_feedkeys('fatal', 'im', false)
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:675::             vim.api.nvim_feedkeys('zffatal', 'im', false)
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:676::         end)
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:677::     end)
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:678:: end
