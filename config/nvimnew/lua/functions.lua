@@ -70,19 +70,19 @@ vim.cmd("buffer " .. buff)
    vim.cmd(commandline)
 end
 
-local timer = 0
-  local function do_complete()
-    cmp.complete({ reason = cmp.ContextReason.Auto })
-  end
-  vim.api.nvim_create_autocmd(
-    { "TextChangedI", },
-    {
-      callback = function()
-        vim.fn.timer_stop(timer)
-        timer = vim.fn.timer_start(500, do_complete)
-      end,
-      pattern = "*",
-    }
-  )
+-- local timer = 0
+--   local function do_complete()
+--     cmp.complete({ reason = cmp.ContextReason.Auto })
+--   end
+--   vim.api.nvim_create_autocmd(
+--     { "TextChangedI", },
+--     {
+--       callback = function()
+--         vim.fn.timer_stop(timer)
+--         timer = vim.fn.timer_start(500, do_complete)
+--       end,
+--       pattern = "*",
+--     }
+--   )
 
--- asdf
+-- asdfa;slkdfja;sldkfja;sldkf j
