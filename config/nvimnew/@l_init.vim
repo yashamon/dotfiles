@@ -197,7 +197,7 @@
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:197::  		   ,a:blinkwait700 blinkoff400 blinkon250 Cursor/lCursor
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:198::  		   ,sm:block blinkwait175 blinkoff150 blinkon175
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:199:: set spelllang=en_us
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:200:: " set timeoutlen=0
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:200:: set timeoutlen=0
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:201:: function! OnUIEnter(event)
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:202:: 	let l:ui = nvim_get_chan_info(a:event.chan)
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:203:: 	if has_key(l:ui, 'client') && has_key(l:ui.client, 'name')
