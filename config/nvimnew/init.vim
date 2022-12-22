@@ -190,41 +190,41 @@ set expandtab        "replace <TAB> with spaces
 set softtabstop=3
 set shiftwidth=3
 " set shell="C:\Program Files\PowerShell\7\pwsh.EXE"
-set termguicolors
-set guicursor=n-v-c:block,i-ci-ve:ver25,r-cr:hor20,o:hor50
+" set termguicolors
+" set guicursor=n-v-c:block,i-ci-ve:ver25,r-cr:hor20,o:hor50
  		  \,a:blinkwait700-blinkoff400-blinkon250-Cursor/lCursor
  		  \,sm:block-blinkwait175-blinkoff150-blinkon175
 set spelllang=en_us
-set timeoutlen=0
-function! OnUIEnter(event)
-	let l:ui = nvim_get_chan_info(a:event.chan)
-	if has_key(l:ui, 'client') && has_key(l:ui.client, 'name')
-		if l:ui.client.name ==# 'Firenvim'
-			set guifont=Fira\ Code:h20
-                        set lines=100
-                        set columns=100
-                        noremap q <esc>:wq<cr>
-		endif
-	endif
-endfunction
-autocmd UIEnter * call OnUIEnter(deepcopy(v:event))
-" autocmd ColorScheme * lua vim.api.nvim_set_hl(0, 'LeapMatch', { fg = "black" })
-
-"remember cursor location
-autocmd BufReadPost * if @% !~# '\.git[\/\\]COMMIT_EDITMSG$' && line("'\"") > 1 && line("'\"") <= line("$") | exe "normal! g`\"" | endif
-
-au VIMEnter * let g:surround_108 = {
-     \'q':  " ``\r''"
-     \ }
-au VIMEnter * let g:buffmain=bufname()
-nnoremap <m-y> viwy:buffer g:buffmain<cr>:<c-r>+<cr><cr>
-let g:tex_flavor = "latex"
-let g:tex_isk = '@,48-57,58,_,192-255,:' 
-au FileType tex setlocal iskeyword+=:
-au Filetype tex,text,md set tw=60
-set foldmethod=expr
-set foldexpr=nvim_treesitter#foldexpr()
-autocmd BufReadPost,FileReadPost * normal zR
+" set timeoutlen=0
+" function! OnUIEnter(event)
+" 	let l:ui = nvim_get_chan_info(a:event.chan)
+" 	if has_key(l:ui, 'client') && has_key(l:ui.client, 'name')
+" 		if l:ui.client.name ==# 'Firenvim'
+" 			set guifont=Fira\ Code:h20
+"                         set lines=100
+"                         set columns=100
+"                         noremap q <esc>:wq<cr>
+" 		endif
+" 	endif
+" endfunction
+" autocmd UIEnter * call OnUIEnter(deepcopy(v:event))
+" " autocmd ColorScheme * lua vim.api.nvim_set_hl(0, 'LeapMatch', { fg = "black" })
+"
+" "remember cursor location
+" autocmd BufReadPost * if @% !~# '\.git[\/\\]COMMIT_EDITMSG$' && line("'\"") > 1 && line("'\"") <= line("$") | exe "normal! g`\"" | endif
+"
+" au VIMEnter * let g:surround_108 = {
+"      \'q':  " ``\r''"
+"      \ }
+" au VIMEnter * let g:buffmain=bufname()
+" nnoremap <m-y> viwy:buffer g:buffmain<cr>:<c-r>+<cr><cr>
+" let g:tex_flavor = "latex"
+" let g:tex_isk = '@,48-57,58,_,192-255,:' 
+" au FileType tex setlocal iskeyword+=:
+" au Filetype tex,text,md set tw=60
+" set foldmethod=expr
+" set foldexpr=nvim_treesitter#foldexpr()
+" autocmd BufReadPost,FileReadPost * normal zR
 " au FileType tex setlocal indentexpr=
 " set foldmethod=expr
 " au FileType tex, text, md setlocal foldexpr=getline(v:lnum)=~'^\s*'.&commentstring[0]
