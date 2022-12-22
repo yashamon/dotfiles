@@ -229,45 +229,44 @@ autocmd UIEnter * call OnUIEnter(deepcopy(v:event))
 " set foldmethod=expr
 " au FileType tex, text, md setlocal foldexpr=getline(v:lnum)=~'^\s*'.&commentstring[0]
 " au FileType lua, vim, c, haskell  set foldexpr=nvim_treesitter#foldexpr()
-let g:tex_conceal = ""
-set tags+=~/workspacemodules/tags
-set tags+=~\workspacemodules\tags
-set tags+=.\tags
-set tags+=./tags
-" set wrapmargin=1
-set listchars=eol:¬,tab:>·,trail:~,extends:>,precedes:<,space:␣
-set linebreak 
-set formatoptions+=w " set breakat=" "
-" set list  " list disables linebreak whitespace
-" set textwidth=0
-" set wrapmargin=-1
+" let g:tex_conceal = ""
+" set tags+=~/workspacemodules/tags
+" set tags+=~\workspacemodules\tags
+" set tags+=.\tags
+" set tags+=./tags
+" " set wrapmargin=1
+" set listchars=eol:¬,tab:>·,trail:~,extends:>,precedes:<,space:␣
+" set linebreak 
+" set formatoptions+=w " set breakat=" "
+" " set list  " list disables linebreak whitespace
+" " set textwidth=0
+" " set wrapmargin=-1
 set hid
 set autochdir
-set guioptions-=r
-set guioptions-=l
-set inccommand=split
-noremap! <LeftDrag> <nop>
-noremap! <RightDrag> <nop>
-noremap! <LeftDrag> <nop>
-" set selectmode=mouse, key
-" set bs=2		" allow backspacing over everything in insert mode 
-
+" set guioptions-=r
+" set guioptions-=l
+" set inccommand=split
+" noremap! <LeftDrag> <nop>
+" noremap! <RightDrag> <nop>
+" noremap! <LeftDrag> <nop>
+" " set selectmode=mouse, key
+" " set bs=2		" allow backspacing over everything in insert mode 
+"
 set nohlsearch
-set noswapfile
-set showmatch		" Cursor shows matching ) and }
-set nocursorline
-set showmode		" Show current mode
-set wildchar=<TAB>	" start wild expansion in the command line using <TAB>
-let maplocalleader = "\\"
-" ignore these files while expanding wild chars
-set wildignore=*.o,*.class,*.pyc
-set nobackup		" no *~ backup files
+" set noswapfile
+" set showmatch		" Cursor shows matching ) and }
+" set nocursorline
+" set showmode		" Show current mode
+" set wildchar=<TAB>	" start wild expansion in the command line using <TAB>
+" let maplocalleader = "\\"
+" " ignore these files while expanding wild chars
+" set wildignore=*.o,*.class,*.pyc
+" set nobackup		" no *~ backup files
 set ignorecase		" ignore case when searching
 set smartcase		" ignore case if search pattern is all lowercase,case-sensitive otherwise
 set spell   
-
-" disable sound on errors
-" set font=Fira\ Code:h18
+"
+" " set font=Fira\ Code:h18
 set background=light
 colorscheme gruvbox
 " colorscheme material  
