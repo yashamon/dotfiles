@@ -754,6 +754,8 @@ let g:auto_save_silent = 1
 
 "Git autocommit  (nonmain branch)
 autocmd BufWritePost * lua GitAsync()
+autocmd VimEnter * lua GitAsync()
+
 set completeopt=menu,menuone,noselect,noinsert
 
 " Avoid showing message extra message when using completion
