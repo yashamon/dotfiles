@@ -69,7 +69,7 @@ CG = function ()
 end
 
 GitAsync = function ()
-   Server()
+Server()
 local buff = vim.fn.bufname()
 vim.cmd('te pwsh -c if ( (git rev-parse --is-inside-work-tree) -and (git rev-parse --git-dir) ) { git add . ; git commit -m -a; git push --all origin; ctags -R }')
 vim.cmd("buffer " .. buff)

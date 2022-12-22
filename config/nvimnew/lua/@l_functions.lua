@@ -69,7 +69,7 @@
  C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:69:: end
  C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:70:: 
  C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:71:: GitAsync = function ()
- C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:72::    Server()
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:72:: Server()
  C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:73:: local buff = vim.fn.bufname()
  C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:74:: vim.cmd('te pwsh  c if ( (git rev parse   is inside work tree)  and (git rev parse   git dir) ) { git add . ; git commit  m  a; git push   all origin; ctags  R ')
  C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:75:: vim.cmd("buffer " .. buff)
