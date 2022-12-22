@@ -151,15 +151,15 @@ require('keymaps')
 -- require('telescope').load_extension('fzf')
 EOF
 " cmp
-" let s:timer = 0
-" autocmd TextChangedI * call s:on_text_changed()
-" function! s:on_text_changed() abort
-"   call timer_stop(s:timer)
-"   let s:timer = timer_start(200, function('s:complete'))
-" endfunction
-" function! s:complete(...) abort
-"   lua require('cmp').complete({ reason = require('cmp').ContextReason.Auto })
-" endfunction
+let s:timer = 0
+autocmd TextChangedI * call s:on_text_changed()
+function! s:on_text_changed() abort
+  call timer_stop(s:timer)
+  let s:timer = timer_start(200, function('s:complete'))
+endfunction
+function! s:complete(...) abort
+  lua require('cmp').complete({ reason = require('cmp').ContextReason.Auto })
+endfunction
 "Neovide 
 "
 " let g:neovide_maximized=v:true
@@ -215,14 +215,10 @@ autocmd ColorScheme * lua vim.api.nvim_set_hl(0, 'LeapMatch', { fg = "black" })
 "remember cursor location
 autocmd BufReadPost * if @% !~# '\.git[\/\\]COMMIT_EDITMSG$' && line("'\"") > 1 && line("'\"") <= line("$") | exe "normal! g`\"" | endif
 
-au VIMEnter * let g:surround_108 = {
-     \'q':  " ``\r''"
-     \ }
+
 au VIMEnter * let g:buffmain=bufname()
 nnoremap <m-y> viwy:buffer g:buffmain<cr>:<c-r>+<cr><cr>
-let g:tex_flavor = "latex"
-let g:tex_isk = '@,48-57,58,_,192-255,:' 
-au FileType tex setlocal iskeyword+=:
+ au FileType tex setlocal iskeyword+=:
 au Filetype tex,text,md set tw=60
 set foldmethod=expr
 set foldexpr=nvim_treesitter#foldexpr()
@@ -231,7 +227,7 @@ autocmd BufReadPost,FileReadPost * normal zR
 " set foldmethod=expr
 " au FileType tex, text, md setlocal foldexpr=getline(v:lnum)=~'^\s*'.&commentstring[0]
 " au FileType lua, vim, c, haskell  set foldexpr=nvim_treesitter#foldexpr()
-let g:tex_conceal = ""
+" let g:tex_conceal = ""
 set tags+=~/workspacemodules/tags
 set tags+=~\workspacemodules\tags
 set tags+=.\tags
@@ -258,16 +254,15 @@ set undodir=~/.undo " where to save undo histories
 set undolevels=1000000         " How many undos
 set undoreload=1000000		
 set nohlsearch
-set noswapfile
+" set noswapfile
 set showmatch		" Cursor shows matching ) and }
 set nocursorline
 set showmode		" Show current mode
 set wildchar=<TAB>	" start wild expansion in the command line using <TAB>
-let maplocalleader = "\\"
+" let maplocalleader = "\\"
 " ignore these files while expanding wild chars
-set wildignore=*.o,*.class,*.pyc
 set nobackup		" no *~ backup files
-set ignorecase		" ignore case when searching
+" set ignorecase		" ignore case when searching
 set smartcase		" ignore case if search pattern is all lowercase,case-sensitive otherwise
 set spell   
 
@@ -292,7 +287,7 @@ au FileType Makefile set noexpandtab
 au FileType tex,text set spelllang=en_us
 au FileType tex,text,md set indentexpr=
 au FileType vim set list
-au FileType * lua CG()
+au  * lua CG()
 command! Ser lua Server()
 
 au Filetype tex,text,md vmap q xi<CR><CR><CR><CR><ESC>kki/begin{comment}<cr><cr>/end{comment}<esc>kp  
@@ -485,7 +480,7 @@ noremap <C-t> <Esc>:AsyncRun ctags -R<CR>
 noremap <D-u> <C-u>
 noremap <A-u> <C-u>
 " windows stuff, comment out on windows
-" nnoremap ;ww :%s///gc
+" nnoremap ;ww :%s///gc
 " this mapping Enter key to <C-y> to chose the current highlight item 
 " and close he selection list, same as other IDEs.
 inoremap <expr> <CR> pumvisible() ? "\<C-y>" : "\<C-g>u\<CR>"
@@ -792,7 +787,7 @@ xnoremap <silent> <cr> "*y:silent! let searchTerm = '\V'.substitute(escape(@*, '
 inoremap <m-d> <C-w>
 
 
-" imap <silent><expr> <Tab> luasnip#expand_or_jumpable() ? '<Plug>luasnip-expand-or-jump' : '<Tab>' 
+imap <silent><expr> <Tab> luasnip#expand_or_jumpable() ? '<Plug>luasnip-expand-or-jump' : '<Tab>' 
 " -1 for jumping backwards.
 inoremap <silent> <S-Tab> <cmd>lua require'luasnip'.jump(-1)<Cr>
 inoremap <silent> <m-j> <cmd>lua require('luasnip').jump(1)<Cr>
@@ -802,3 +797,7 @@ nnoremap <silent> <m-k> <cmd>lua require('luasnip').jump(-1)<Cr>
 " For changing choices in choiceNodes (not strictly necessary for a basic setup). 
 imap <silent><expr> <C-E> luasnip#choice_active() ? '<Plug>luasnip-next-choice' : '<C-E>'
 smap <silent><expr> <C-E> luasnip#choice_active() ? '<Plug>luasnip-next-choice' : '<C-E>'
+" au VIMEnter * let g:surround_108 = {
+     " \'q':  " ``\r''"
+  " let g:tex_flavor = "latex"
+" let g:tex_isk = '@,48-57,58,_,192-255,:'   " \ }
