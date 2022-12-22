@@ -12,7 +12,7 @@
  C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:12::     local winid = vim.api.nvim_get_current_win()
  C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:13::     vim.schedule(function()
  C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:14::         vim.api.nvim_win_call(winid, function()
- C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:15::             vim.api.nvim_feedkeys('fatal', 'im', false)
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:15::             vim.api.nvim_feedkeys('zf', 'im', false)
  C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:16::         end)
  C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:17::     end)
  C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:18::  end
@@ -32,7 +32,7 @@
  C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:32::     local winid = vim.api.nvim_get_current_win()
  C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:33::     vim.schedule(function()
  C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:34::         vim.api.nvim_win_call(winid, function()
- C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:35::             vim.api.nvim_feedkeys('fatal', 'im', false)
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:35::             vim.api.nvim_feedkeys('zf', 'im', false)
  C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:36::         end)
  C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:37::     end)
  C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:38::  end
