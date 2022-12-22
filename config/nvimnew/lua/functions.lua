@@ -27,6 +27,7 @@ Sentence = function ()
             vim.api.nvim_feedkeys('fatal', 'im', false)
         end)
     end)
+ end
   -- Wait = function ()
   --     if vim.b.bqf_enabled then
   --       vim.cmd('sleep 200m')
