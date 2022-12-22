@@ -350,7 +350,7 @@ sources = cmp.config.sources({
       -- For vsnip user. 
 { name = 'tags' },
 { name = 'nvim_lsp', keyword_length = 2 },
-{ name = 'luasnip', keyword_length = 4 },
+{ name = 'luasnip', keyword_length = 2 },
 -- { name = 'omni', keyword_length = 4},
        -- { name = 'spell' }, 
       --{ name = 'treesitter', keyword_length = 4 },

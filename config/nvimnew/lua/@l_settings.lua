@@ -350,7 +350,7 @@
  c:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:350::          For vsnip user. 
  c:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:351:: { name = 'tags' ,
  c:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:352:: { name = 'nvim_lsp', keyword_length = 2 ,
- c:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:353:: { name = 'luasnip', keyword_length = 4 ,
+ c:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:353:: { name = 'luasnip', keyword_length = 2 ,
  c:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:354::    { name = 'omni', keyword_length = 4,
  c:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:355::           { name = 'spell' , 
  c:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:356::         { name = 'treesitter', keyword_length = 4 ,
