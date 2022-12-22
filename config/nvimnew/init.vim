@@ -179,7 +179,7 @@ set scrolloff=10
 set indentexpr=
 set noshowmatch
 set wrap
-set pumblend=20
+" set pumblend=20
 " set winblend=15 
 set switchbuf=newtab
 " let g:python3_host_prog='/usr/bin/python3.9'
