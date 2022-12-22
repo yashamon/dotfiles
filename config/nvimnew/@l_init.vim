@@ -207,7 +207,7 @@
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:207:: 		endif
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:208:: 	endif
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:209:: endfunction
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:210:: autocmd UIEnter * call OnUIEnter(deepcopy(v:event))
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:210:: " autocmd UIEnter * call OnUIEnter(deepcopy(v:event))
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:211:: " " autocmd ColorScheme * lua vim.api.nvim_set_hl(0, 'LeapMatch', { fg = "black" )
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:212:: "
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:213:: " "remember cursor location

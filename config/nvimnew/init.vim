@@ -207,7 +207,7 @@ function! OnUIEnter(event)
 		endif
 	endif
 endfunction
-autocmd UIEnter * call OnUIEnter(deepcopy(v:event))
+" autocmd UIEnter * call OnUIEnter(deepcopy(v:event))
 " " autocmd ColorScheme * lua vim.api.nvim_set_hl(0, 'LeapMatch', { fg = "black" })
 "
 " "remember cursor location
