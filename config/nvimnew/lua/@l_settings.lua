@@ -62,134 +62,134 @@
  C:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:62::        refer to the configuration section below
  C:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:63::   
  C:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:64:: 
- C:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:65:: require('telescope').setup({
- C:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:66::   defaults = {
- C:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:67::     layout_config = {
- C:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:68::       vertical = { width = 0.9 
- C:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:69::          other layout configuration here
- C:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:70::     ,
- C:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:71::     scroll_strategy = 'limit',
- C:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:72::      previewers = {
- C:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:73::     {
- C:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:74::       filesize_limit = 25,
- C:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:75::       timeout = 300,
- C:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:76::       use_highlighter = false
- C:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:77::     
- C:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:78::  ,
- C:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:79::        other defaults configuration here
- C:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:80::   ,
- C:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:81::      other configuration values here
- C:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:82:: )
- C:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:83:: require("tokyonight").setup({
- C:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:84::      your configuration comes here
- C:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:85::      or leave it empty to use the default settings
- C:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:86::   style = "storm",    The theme comes in three styles, `storm`, `moon`, a darker variant `night` and `day`
- C:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:87::   light_style = "day",    The theme is used when the background is set to light
- C:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:88::   transparent = false,    Enable this to disable setting the background color
- C:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:89::   terminal_colors = true,    Configure the colors used when opening a `:terminal` in Neovim
- C:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:90::   styles = {
- C:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:91::        Style to be applied to different syntax groups
- C:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:92::        Value is any valid attr list value for `:help nvim_set_hl`
- C:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:93::     comments = { italic = true ,
- C:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:94::     keywords = { italic = true ,
- C:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:95::     functions = {,
- C:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:96::     variables = {,
- C:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:97::        Background styles. Can be "dark", "transparent" or "normal"
- C:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:98::     sidebars = "dark",    style for sidebars, see below
- C:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:99::     floats = "dark",    style for floating windows
- C:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:100::   ,
- C:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:101::   sidebars = { "qf", "help" ,    Set a darker background on sidebar like windows. For example: `["qf", "vista_kind", "terminal", "packer" `
- C:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:102::   day_brightness = 0.1,    Adjusts the brightness of the colors of the **Day** style. Number between 0 and 1, from dull to vibrant colors
- C:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:103::   hide_inactive_statusline = true,    Enabling this option, will hide inactive statuslines and replace them with a thin border instead. Should work with the standard **StatusLine** and **LuaLine**.
- C:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:104::   dim_inactive = true,    dims inactive windows
- C:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:105::   lualine_bold = false,    When `true`, section headers in the lualine theme will be bold
- C:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:106:: 
- C:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:107::       You can override specific color groups to use other groups or a hex color
- C:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:108::       function will be called with a ColorScheme table
- C:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:109::      @param colors ColorScheme
- C:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:110::     on_colors = function(colors) 
- C:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:111::     colors.normal = colors.black 
- C:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:112::     end,
- C:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:113:: 
- C:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:114::       You can override specific highlights to use other groups or a hex color
- C:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:115::       function will be called with a Highlights and ColorScheme table
- C:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:116::      @param highlights Highlights
- C:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:117::      @param colors ColorScheme
- C:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:118::      on_highlights = function(highlights, colors)
- C:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:119::      end,
- C:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:120:: )
- C:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:121:: require("which key").setup({
- C:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:122::   plugins = {
- C:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:123::     marks = true,    shows a list of your marks on ' and `
- C:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:124::     registers = true,    shows your registers on " in NORMAL or <C r> in INSERT mode
- C:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:125::     spelling = {
- C:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:126::       enabled = false,    enabling this will show WhichKey when pressing z= to select spelling suggestions
- C:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:127::       suggestions = 50,    how many suggestions should be shown in the list?
- C:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:128::     ,
- C:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:129::        the presets plugin, adds help for a bunch of default keybindings in Neovim
- C:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:130::        No actual key bindings are created
- C:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:131::     presets = {
- C:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:132::       operators = true,    adds help for operators like d, y, ... and registers them for motion / text object completion
- C:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:133::       motions = true,    adds help for motions
- C:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:134::       text_objects = true,    help for text objects triggered after entering an operator
- C:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:135::       windows = true,    default bindings on <c w>
- C:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:136::       nav = true,    misc bindings to work with windows
- C:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:137::       z = true,    bindings for folds, spelling and others prefixed with z
- C:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:138::       g = true,    bindings for prefixed with g
- C:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:139::     ,
- C:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:140::   ,
- C:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:141::      add operators that will trigger motion and text object completion
- C:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:142::      to enable all native operators, set the preset / operators plugin above
- C:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:143::   operators = { gc = "Comments" ,
- C:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:144::   key_labels = {
- C:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:145::        override the label used to display some keys. It doesn't effect WK in any other way.
- C:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:146::        For example:
- C:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:147::        ["<space>"  = "SPC",
- C:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:148::        ["<cr>"  = "RET",
- C:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:149::        ["<tab>"  = "TAB",
- C:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:150::   ,
- C:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:151::   icons = {
- C:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:152::     breadcrumb = "»",    symbol used in the command line area that shows your active key combo
- C:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:153::     separator = "➜",    symbol used between a key and it's label
- C:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:154::     group = "+",    symbol prepended to a group
- C:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:155::   ,
- C:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:156::   popup_mappings = {
- C:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:157::     scroll_down = '<c d>',    binding to scroll down inside the popup
- C:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:158::     scroll_up = '<c u>',    binding to scroll up inside the popup
- C:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:159::   ,
- C:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:160::   window = {
- C:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:161::     border = "none",    none, single, double, shadow
- C:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:162::     position = "bottom",    bottom, top
- C:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:163::     margin = { 1, 0, 1, 0 ,    extra window margin [top, right, bottom, left 
- C:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:164::     padding = { 2, 2, 2, 2 ,    extra window padding [top, right, bottom, left 
- C:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:165::     winblend = 0
- C:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:166::   ,
- C:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:167::   layout = {
- C:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:168::     height = { min = 50, max = 50 ,    min and max height of the columns
- C:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:169::     width = { min = 10, max = 50 ,    min and max width of the columns
- C:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:170::     spacing = 3,    spacing between columns
- C:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:171::     align = "left",    align columns left, center or right
- C:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:172::   ,
- C:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:173::   ignore_missing = false,    enable this to hide mappings for which you didn't specify a label
- C:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:174::   hidden = { "<silent>", "<cmd>", "<Cmd>", "<CR>", "call", "lua", "^:", "^ ",    hide mapping boilerplate
- C:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:175::   show_help = true,    show help message on the command line when the popup is visible
- C:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:176::   show_keys = true,    show the currently pressed key and its label as a message in the command line
- C:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:177::   triggers = {"<leader>", "g", ";",    automatically setup triggers
- C:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:178::      triggers = {"<leader>"    or specify a list manually
- C:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:179::   triggers_blacklist = {
- C:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:180::        list of mode / prefixes that should never be hooked by WhichKey
- C:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:181::        this is mostly relevant for key maps that start with a native binding
- C:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:182::        most people should not need to change this
- C:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:183::     i = { "j", "k" ,
- C:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:184::     v = { "j", "k" ,
- C:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:185::   ,
- C:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:186::      disable the WhichKey popup for certain buf types and file types.
- C:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:187::      Disabled by deafult for Telescope
- C:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:188::   disable = {
- C:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:189::     buftypes = {,
- C:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:190::     filetypes = { "TelescopePrompt" ,
- C:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:191::   ,
- C:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:192:: )
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:65::    require('telescope').setup({
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:66::      defaults = {
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:67::        layout_config = {
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:68::          vertical = { width = 0.9 
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:69::             other layout configuration here
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:70::        ,
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:71::        scroll_strategy = 'limit',
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:72::         previewers = {
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:73::        {
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:74::          filesize_limit = 25,
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:75::          timeout = 300,
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:76::          use_highlighter = false
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:77::        
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:78::     ,
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:79::           other defaults configuration here
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:80::      ,
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:81::         other configuration values here
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:82::    )
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:83::    require("tokyonight").setup({
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:84::         your configuration comes here
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:85::         or leave it empty to use the default settings
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:86::      style = "storm",    The theme comes in three styles, `storm`, `moon`, a darker variant `night` and `day`
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:87::      light_style = "day",    The theme is used when the background is set to light
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:88::      transparent = false,    Enable this to disable setting the background color
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:89::      terminal_colors = true,    Configure the colors used when opening a `:terminal` in Neovim
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:90::      styles = {
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:91::           Style to be applied to different syntax groups
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:92::           Value is any valid attr list value for `:help nvim_set_hl`
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:93::        comments = { italic = true ,
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:94::        keywords = { italic = true ,
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:95::        functions = {,
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:96::        variables = {,
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:97::           Background styles. Can be "dark", "transparent" or "normal"
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:98::        sidebars = "dark",    style for sidebars, see below
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:99::        floats = "dark",    style for floating windows
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:100::      ,
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:101::      sidebars = { "qf", "help" ,    Set a darker background on sidebar like windows. For example: `["qf", "vista_kind", "terminal", "packer" `
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:102::      day_brightness = 0.1,    Adjusts the brightness of the colors of the **Day** style. Number between 0 and 1, from dull to vibrant colors
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:103::      hide_inactive_statusline = true,    Enabling this option, will hide inactive statuslines and replace them with a thin border instead. Should work with the standard **StatusLine** and **LuaLine**.
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:104::      dim_inactive = true,    dims inactive windows
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:105::      lualine_bold = false,    When `true`, section headers in the lualine theme will be bold
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:106::   
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:107::          You can override specific color groups to use other groups or a hex color
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:108::          function will be called with a ColorScheme table
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:109::         @param colors ColorScheme
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:110::        on_colors = function(colors) 
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:111::        colors.normal = colors.black 
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:112::        end,
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:113::   
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:114::          You can override specific highlights to use other groups or a hex color
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:115::          function will be called with a Highlights and ColorScheme table
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:116::         @param highlights Highlights
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:117::         @param colors ColorScheme
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:118::         on_highlights = function(highlights, colors)
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:119::         end,
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:120::    )
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:121::    require("which key").setup({
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:122::      plugins = {
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:123::        marks = true,    shows a list of your marks on ' and `
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:124::        registers = true,    shows your registers on " in NORMAL or <C r> in INSERT mode
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:125::        spelling = {
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:126::          enabled = false,    enabling this will show WhichKey when pressing z= to select spelling suggestions
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:127::          suggestions = 50,    how many suggestions should be shown in the list?
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:128::        ,
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:129::           the presets plugin, adds help for a bunch of default keybindings in Neovim
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:130::           No actual key bindings are created
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:131::        presets = {
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:132::          operators = true,    adds help for operators like d, y, ... and registers them for motion / text object completion
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:133::          motions = true,    adds help for motions
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:134::          text_objects = true,    help for text objects triggered after entering an operator
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:135::          windows = true,    default bindings on <c w>
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:136::          nav = true,    misc bindings to work with windows
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:137::          z = true,    bindings for folds, spelling and others prefixed with z
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:138::          g = true,    bindings for prefixed with g
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:139::        ,
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:140::      ,
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:141::         add operators that will trigger motion and text object completion
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:142::         to enable all native operators, set the preset / operators plugin above
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:143::      operators = { gc = "Comments" ,
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:144::      key_labels = {
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:145::           override the label used to display some keys. It doesn't effect WK in any other way.
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:146::           For example:
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:147::           ["<space>"  = "SPC",
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:148::           ["<cr>"  = "RET",
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:149::           ["<tab>"  = "TAB",
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:150::      ,
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:151::      icons = {
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:152::        breadcrumb = "»",    symbol used in the command line area that shows your active key combo
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:153::        separator = "➜",    symbol used between a key and it's label
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:154::        group = "+",    symbol prepended to a group
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:155::      ,
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:156::      popup_mappings = {
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:157::        scroll_down = '<c d>',    binding to scroll down inside the popup
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:158::        scroll_up = '<c u>',    binding to scroll up inside the popup
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:159::      ,
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:160::      window = {
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:161::        border = "none",    none, single, double, shadow
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:162::        position = "bottom",    bottom, top
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:163::        margin = { 1, 0, 1, 0 ,    extra window margin [top, right, bottom, left 
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:164::        padding = { 2, 2, 2, 2 ,    extra window padding [top, right, bottom, left 
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:165::        winblend = 0
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:166::      ,
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:167::      layout = {
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:168::        height = { min = 50, max = 50 ,    min and max height of the columns
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:169::        width = { min = 10, max = 50 ,    min and max width of the columns
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:170::        spacing = 3,    spacing between columns
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:171::        align = "left",    align columns left, center or right
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:172::      ,
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:173::      ignore_missing = false,    enable this to hide mappings for which you didn't specify a label
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:174::      hidden = { "<silent>", "<cmd>", "<Cmd>", "<CR>", "call", "lua", "^:", "^ ",    hide mapping boilerplate
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:175::      show_help = true,    show help message on the command line when the popup is visible
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:176::      show_keys = true,    show the currently pressed key and its label as a message in the command line
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:177::      triggers = {"<leader>", "g", ";",    automatically setup triggers
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:178::         triggers = {"<leader>"    or specify a list manually
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:179::      triggers_blacklist = {
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:180::           list of mode / prefixes that should never be hooked by WhichKey
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:181::           this is mostly relevant for key maps that start with a native binding
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:182::           most people should not need to change this
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:183::        i = { "j", "k" ,
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:184::        v = { "j", "k" ,
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:185::      ,
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:186::         disable the WhichKey popup for certain buf types and file types.
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:187::         Disabled by deafult for Telescope
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:188::      disable = {
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:189::        buftypes = {,
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:190::        filetypes = { "TelescopePrompt" ,
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:191::      ,
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:192::    )
  C:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:193:: require("gruvbox").setup({
  C:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:194:: undercurl = true,
  C:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:195::   underline = true,
