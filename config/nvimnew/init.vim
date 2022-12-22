@@ -1,5 +1,6 @@
 call plug#begin('~/.vim/plugged')
 "Plug 'nvim-telescope/telescope-fzf-native.nvim', { 'do': 'make' } asdf
+test3
 Plug 'folke/todo-comments.nvim', { 'branch': 'main' }
 " Plug 'folke/noice.nvim', { 'branch': 'main' }
 Plug 'L3MON4D3/LuaSnip'
@@ -292,7 +293,7 @@ au FileType Makefile set noexpandtab
 au FileType tex,text set spelllang=en_us
 au FileType tex,text,md set indentexpr=
 au FileType vim set list
-au UIEnter lua CG()
+au VimEnter * lua CG()
 command! Ser lua Server()
 
 au Filetype tex,text,md vmap q xi<CR><CR><CR><CR><ESC>kki/begin{comment}<cr><cr>/end{comment}<esc>kp  
@@ -790,7 +791,7 @@ end
 nnoremap <C-c> :set hlsearch!<cr>
 xnoremap <silent> <cr> "*y:silent! let searchTerm = '\V'.substitute(escape(@*, '\/'), "\n", '\\n', "g") <bar> let @/ = searchTerm <bar> echo '/'.@/ <bar> call histadd("search", searchTerm) <bar> set hls<cr>
 inoremap <m-d> <C-w>
-
+test1
 
 imap <silent><expr> <Tab> luasnip#expand_or_jumpable() ? '<Plug>luasnip-expand-or-jump' : '<Tab>' 
 " -1 for jumping backwards.
@@ -802,3 +803,4 @@ nnoremap <silent> <m-k> <cmd>lua require('luasnip').jump(-1)<Cr>
 " For changing choices in choiceNodes (not strictly necessary for a basic setup). 
 imap <silent><expr> <C-E> luasnip#choice_active() ? '<Plug>luasnip-next-choice' : '<C-E>'
 smap <silent><expr> <C-E> luasnip#choice_active() ? '<Plug>luasnip-next-choice' : '<C-E>'
+test2
