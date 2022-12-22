@@ -39,8 +39,8 @@
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:39:: Plug 'nvim lua/plenary.nvim'
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:40:: Plug 'nvim telescope/telescope.nvim'
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:41:: " Plug 'simnalamburt/vim mundo'
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:42:: " Plug 'mg979/vim visual multi'
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:43:: " Plug 'tpope/vim surround'
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:42:: Plug 'mg979/vim visual multi'
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:43:: Plug 'tpope/vim surround'
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:44:: 
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:45:: " Plug 'lewis6991/gitsigns.nvim', { 'branch': 'main' 
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:46:: " Plug 'airblade/vim gitgutter'
