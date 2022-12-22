@@ -11,7 +11,7 @@ Plug 'ggandor/leap.nvim', { 'branch': 'main' }
 " Plug 'ibhagwan/fzf-lua', { 'branch': 'main' }
 " Plug 'romgrk/fzy-lua-native'
 " Plug 'vijaymarupudi/nvim-fzf'
-Plug 'kyazdani42/nvim-web-devicons'
+" Plug 'kyazdani42/nvim-web-devicons'
 Plug 'glacambre/firenvim', { 'do': { _ -> firenvim#install(0) } }
 Plug 'neovim/nvim-lspconfig'
 Plug 'williamboman/mason.nvim', { 'branch': 'main' } 
