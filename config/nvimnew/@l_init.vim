@@ -792,7 +792,7 @@
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:792:: inoremap <m d> <C w>
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:793:: 
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:794:: 
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:795:: imap <silent><expr> <Tab> luasnip#expand_or_jumpable() ? '<Plug>luasnip expand or jump' : '<Tab>' 
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:795:: " imap <silent><expr> <Tab> luasnip#expand_or_jumpable() ? '<Plug>luasnip expand or jump' : '<Tab>' 
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:796:: "  1 for jumping backwards.
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:797:: inoremap <silent> <S Tab> <cmd>lua require'luasnip'.jump( 1)<Cr>
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:798:: inoremap <silent> <m j> <cmd>lua require('luasnip').jump(1)<Cr>
