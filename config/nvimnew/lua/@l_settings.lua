@@ -356,10 +356,10 @@
  c:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:356:: { name = 'luasnip', keyword_length = 4 ,
  c:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:357::    For ultisnips user.
  c:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:358::          { name = 'ultisnips' ,  
- c:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:359:: { name = 'omni', keyword_length = 4,
+ c:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:359::    { name = 'omni', keyword_length = 4,
  c:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:360::           { name = 'spell' , 
  c:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:361::         { name = 'treesitter', keyword_length = 4 ,
- c:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:362:: { name = 'buffer', keyword_length = 4 ,
+ c:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:362::    { name = 'buffer', keyword_length = 4 ,
  c:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:363::   { name = 'fuzzy_buffer', keyword_length = 8 
  c:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:364:: ),
  c:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:365:: completion = { autocomplete = false 
