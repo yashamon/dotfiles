@@ -217,7 +217,7 @@ autocmd BufReadPost * if @% !~# '\.git[\/\\]COMMIT_EDITMSG$' && line("'\"") > 1 
 
 
 au VIMEnter * let g:buffmain=bufname()
-au VIMEnter * call GitAsync() 
+au UiEnter * lua GitAsync() 
 nnoremap <m-y> viwy:buffer g:buffmain<cr>:<c-r>+<cr><cr>
  au FileType tex setlocal iskeyword+=:
 au Filetype tex,text,md set tw=60

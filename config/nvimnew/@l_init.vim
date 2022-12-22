@@ -217,7 +217,7 @@
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:217:: 
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:218:: 
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:219:: au VIMEnter * let g:buffmain=bufname()
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:220:: au VIMEnter * call GitAsync() 
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:220:: au UiEnter * lua GitAsync() 
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:221:: nnoremap <m y> viwy:buffer g:buffmain<cr>:<c r>+<cr><cr>
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:222::  au FileType tex setlocal iskeyword+=:
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:223:: au Filetype tex,text,md set tw=60
