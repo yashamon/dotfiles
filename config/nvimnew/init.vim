@@ -260,10 +260,9 @@ set showmode		" Show current mode
 set wildchar=<TAB>	" start wild expansion in the command line using <TAB>
 let maplocalleader = "\\"
 " ignore these files while expanding wild chars
-set wildignore=*.o,*.class,*.pyc
 set nobackup		" no *~ backup files
-set ignorecase		" ignore case when searching
-set smartcase		" ignore case if search pattern is all lowercase,case-sensitive otherwise
+" set ignorecase		" ignore case when searching
+" set smartcase		" ignore case if search pattern is all lowercase,case-sensitive otherwise
 set spell   
 
 " disable sound on errors
