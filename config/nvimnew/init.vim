@@ -196,17 +196,17 @@ set shiftwidth=3
  		  \,sm:block-blinkwait175-blinkoff150-blinkon175
 set spelllang=en_us
 " set timeoutlen=0
-function! OnUIEnter(event)
-	let l:ui = nvim_get_chan_info(a:event.chan)
-	if has_key(l:ui, 'client') && has_key(l:ui.client, 'name')
-		if l:ui.client.name ==# 'Firenvim'
-			set guifont=Fira\ Code:h20
-                        set lines=100
-                        set columns=100
-                        noremap q <esc>:wq<cr>
-		endif
-	endif
-endfunction
+" function! OnUIEnter(event)
+" 	let l:ui = nvim_get_chan_info(a:event.chan)
+" 	if has_key(l:ui, 'client') && has_key(l:ui.client, 'name')
+" 		if l:ui.client.name ==# 'Firenvim'
+" 			set guifont=Fira\ Code:h20
+"                         set lines=100
+"                         set columns=100
+"                         noremap q <esc>:wq<cr>
+" 		endif
+" 	endif
+" endfunction
 " autocmd UIEnter * call OnUIEnter(deepcopy(v:event))
 " " autocmd ColorScheme * lua vim.api.nvim_set_hl(0, 'LeapMatch', { fg = "black" })
 "

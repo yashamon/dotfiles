@@ -196,17 +196,17 @@
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:196::  		   ,sm:block blinkwait175 blinkoff150 blinkon175
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:197:: set spelllang=en_us
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:198:: " set timeoutlen=0
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:199:: function! OnUIEnter(event)
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:200:: 	let l:ui = nvim_get_chan_info(a:event.chan)
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:201:: 	if has_key(l:ui, 'client') && has_key(l:ui.client, 'name')
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:202:: 		if l:ui.client.name ==# 'Firenvim'
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:203:: 			set guifont=Fira  Code:h20
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:204::                         set lines=100
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:205::                         set columns=100
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:206::                         noremap q <esc>:wq<cr>
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:207:: 		endif
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:208:: 	endif
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:209:: endfunction
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:199:: " function! OnUIEnter(event)
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:200:: " 	let l:ui = nvim_get_chan_info(a:event.chan)
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:201:: " 	if has_key(l:ui, 'client') && has_key(l:ui.client, 'name')
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:202:: " 		if l:ui.client.name ==# 'Firenvim'
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:203:: " 			set guifont=Fira  Code:h20
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:204:: "                         set lines=100
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:205:: "                         set columns=100
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:206:: "                         noremap q <esc>:wq<cr>
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:207:: " 		endif
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:208:: " 	endif
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:209:: " endfunction
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:210:: " autocmd UIEnter * call OnUIEnter(deepcopy(v:event))
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:211:: " " autocmd ColorScheme * lua vim.api.nvim_set_hl(0, 'LeapMatch', { fg = "black" )
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:212:: "
