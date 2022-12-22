@@ -1,6 +1,6 @@
 call plug#begin('~/.vim/plugged')
 "Plug 'nvim-telescope/telescope-fzf-native.nvim', { 'do': 'make' } asdf
-Plug 'folke/todo-comments.nvim', { 'branch': 'main' }
+Plug 'folke/todo-comments'.nvim', { 'branch': 'main' }
 " Plug 'folke/noice.nvim', { 'branch': 'main' }
 Plug 'L3MON4D3/LuaSnip'
 Plug 'saadparwaiz1/cmp_luasnip'
@@ -25,7 +25,7 @@ Plug 'terrortylor/nvim-comment', { 'branch': 'main' }
 " Plug 'nvim-lualine/lualine.nvim'
 Plug 'justinhoward/fzf-neoyank'
 " Plug 'folke/tokyonight.nvim', { 'branch': 'main' }
-" Plug 'ellisonleao/gruvbox.nvim', { 'branch': 'main' }
+Plug 'ellisonleao/gruvbox.nvim', { 'branch': 'main' }
 " Plug 'eddyekofo94/gruvbox-flat.nvim'
 Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}  
 " Plug 'Shougo/neoyank.vim' 
