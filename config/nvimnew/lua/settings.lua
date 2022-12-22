@@ -351,12 +351,10 @@ sources = cmp.config.sources({
 { name = 'tags' },
 { name = 'nvim_lsp', keyword_length = 2 },
 { name = 'luasnip', keyword_length = 4 },
--- For ultisnips user.
-      -- { name = 'ultisnips' },  
 -- { name = 'omni', keyword_length = 4},
        -- { name = 'spell' }, 
       --{ name = 'treesitter', keyword_length = 4 },
---{ name = 'buffer', keyword_length = 4 },
+{ name = 'buffer', keyword_length = 4 },
 --{ name = 'fuzzy_buffer', keyword_length = 8 }
 }),
 completion = { autocomplete = false }

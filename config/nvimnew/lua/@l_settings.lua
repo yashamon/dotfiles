@@ -351,145 +351,143 @@
  c:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:351:: { name = 'tags' ,
  c:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:352:: { name = 'nvim_lsp', keyword_length = 2 ,
  c:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:353:: { name = 'luasnip', keyword_length = 4 ,
- c:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:354::    For ultisnips user.
- c:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:355::          { name = 'ultisnips' ,  
- c:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:356::    { name = 'omni', keyword_length = 4,
- c:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:357::           { name = 'spell' , 
- c:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:358::         { name = 'treesitter', keyword_length = 4 ,
- c:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:359::   { name = 'buffer', keyword_length = 4 ,
- c:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:360::   { name = 'fuzzy_buffer', keyword_length = 8 
- c:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:361:: ),
- c:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:362:: completion = { autocomplete = false 
- c:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:363:: )
- c:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:364:: 
- c:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:365:: require('nvim_comment').setup({
- c:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:366::       Linters prefer comment and line to have a space in between markers
- c:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:367::    marker_padding = true,
- c:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:368::       should comment out empty or whitespace only lines
- c:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:369::    comment_empty = true,
- c:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:370::       Should key mappings be created
- c:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:371::    create_mappings = true,
- c:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:372::       Normal mode mapping left hand side
- c:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:373::    line_mapping = "gc",
- c:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:374::       Visual/Operator mapping left hand side
- c:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:375::    operator_mapping = "<leader>c",
- c:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:376::       Hook function to call before commenting takes place
- c:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:377::      hook = nil 
- c:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:378::  )
- c:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:379:: require('spellsitter').setup {
- c:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:380::   hl = 'SpellBad',
- c:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:381::   captures = {,     set to { to spellcheck everything
- c:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:382:: 
- c:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:383::      Spellchecker to use. values:
- c:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:384::      * vimfn: built in spell checker using vim.fn.spellbadword()
- c:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:385::      * ffi: built in spell checker using the FFI to access the
- c:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:386::        internal spell_check() function
- c:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:387:: spellchecker = 'vimfn'
- c:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:388:: 
- c:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:389:: 
- c:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:390:: require('lualine').setup {
- c:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:391::   options = {
- c:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:392::        theme = 
- c:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:393::     theme = require('theme').theme(),
- c:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:394::     icons_enabled = true,
- c:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:395::     component_separators = { left = '', right = '',
- c:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:396::     section_separators = { left = '', right = '',
- c:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:397::     disabled_filetypes = {
- c:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:398::       statusline = {,
- c:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:399::       winbar = {,
- c:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:400::     ,
- c:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:401::     ignore_focus = {'tex', 'md', 'text', 'lua', 'latex', 'nu',
- c:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:402::     always_divide_middle = true,
- c:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:403::     globalstatus = true,
- c:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:404::     refresh = {
- c:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:405::       statusline = 1000,
- c:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:406::       tabline = 1000,
- c:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:407::       winbar = 1000,
- c:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:408::     
- c:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:409::   ,
- c:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:410::   sections = {
- c:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:411::   lualine_a = {
- c:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:412::         {
- c:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:413::           'filename',
- c:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:414::           color = 'lualine_a_normal',
- c:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:415::           file_status = true,         Displays file status (readonly status, modified status)
- c:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:416::           newfile_status = false,      Display new file status (new file means no write after created)
- c:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:417::           path = 3,                   0: Just the filename
- c:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:418::                                       1: Relative path
- c:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:419::                                       2: Absolute path
- c:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:420::                                       3: Absolute path, with tilde as the home directory
- c:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:421::           symbols = {
- c:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:422::             modified = '[+ ',         Text to show when the file is modified.
- c:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:423::             readonly = '[  ',         Text to show when the file is non modifiable or readonly.
- c:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:424::             unnamed = '[No Name ',    Text to show for unnamed buffers.
- c:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:425::             newfile = '[New ',        Text to show for new created file before first writting
- c:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:426::          
- c:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:427::         
- c:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:428::       ,
- c:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:429::       lualine_b = {{'branch', 'diff', 'diagnostics', color = 'lualine_b_normal',
- c:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:430::     lualine_c = {,
- c:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:431::     lualine_x = {,
- c:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:432::     lualine_y = {,
- c:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:433::     lualine_z = {{'location', color = 'lualine_z_normal'
- c:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:434::   ,
- c:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:435::   inactive_sections = {
- c:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:436::     lualine_a = {,
- c:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:437::     lualine_b = {,
- c:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:438::     lualine_c = {,
- c:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:439::     lualine_x = {,
- c:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:440::     lualine_y = {,
- c:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:441::     lualine_z = {
- c:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:442::   ,
- c:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:443::   tabline = {,
- c:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:444::   winbar = {,
- c:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:445::   inactive_winbar = {,
- c:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:446::   extension = {
+ c:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:354::    { name = 'omni', keyword_length = 4,
+ c:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:355::           { name = 'spell' , 
+ c:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:356::         { name = 'treesitter', keyword_length = 4 ,
+ c:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:357:: { name = 'buffer', keyword_length = 4 ,
+ c:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:358::   { name = 'fuzzy_buffer', keyword_length = 8 
+ c:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:359:: ),
+ c:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:360:: completion = { autocomplete = false 
+ c:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:361:: )
+ c:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:362:: 
+ c:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:363:: require('nvim_comment').setup({
+ c:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:364::       Linters prefer comment and line to have a space in between markers
+ c:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:365::    marker_padding = true,
+ c:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:366::       should comment out empty or whitespace only lines
+ c:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:367::    comment_empty = true,
+ c:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:368::       Should key mappings be created
+ c:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:369::    create_mappings = true,
+ c:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:370::       Normal mode mapping left hand side
+ c:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:371::    line_mapping = "gc",
+ c:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:372::       Visual/Operator mapping left hand side
+ c:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:373::    operator_mapping = "<leader>c",
+ c:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:374::       Hook function to call before commenting takes place
+ c:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:375::      hook = nil 
+ c:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:376::  )
+ c:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:377:: require('spellsitter').setup {
+ c:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:378::   hl = 'SpellBad',
+ c:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:379::   captures = {,     set to { to spellcheck everything
+ c:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:380:: 
+ c:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:381::      Spellchecker to use. values:
+ c:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:382::      * vimfn: built in spell checker using vim.fn.spellbadword()
+ c:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:383::      * ffi: built in spell checker using the FFI to access the
+ c:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:384::        internal spell_check() function
+ c:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:385:: spellchecker = 'vimfn'
+ c:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:386:: 
+ c:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:387:: 
+ c:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:388:: require('lualine').setup {
+ c:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:389::   options = {
+ c:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:390::        theme = 
+ c:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:391::     theme = require('theme').theme(),
+ c:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:392::     icons_enabled = true,
+ c:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:393::     component_separators = { left = '', right = '',
+ c:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:394::     section_separators = { left = '', right = '',
+ c:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:395::     disabled_filetypes = {
+ c:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:396::       statusline = {,
+ c:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:397::       winbar = {,
+ c:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:398::     ,
+ c:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:399::     ignore_focus = {'tex', 'md', 'text', 'lua', 'latex', 'nu',
+ c:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:400::     always_divide_middle = true,
+ c:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:401::     globalstatus = true,
+ c:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:402::     refresh = {
+ c:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:403::       statusline = 1000,
+ c:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:404::       tabline = 1000,
+ c:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:405::       winbar = 1000,
+ c:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:406::     
+ c:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:407::   ,
+ c:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:408::   sections = {
+ c:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:409::   lualine_a = {
+ c:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:410::         {
+ c:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:411::           'filename',
+ c:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:412::           color = 'lualine_a_normal',
+ c:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:413::           file_status = true,         Displays file status (readonly status, modified status)
+ c:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:414::           newfile_status = false,      Display new file status (new file means no write after created)
+ c:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:415::           path = 3,                   0: Just the filename
+ c:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:416::                                       1: Relative path
+ c:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:417::                                       2: Absolute path
+ c:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:418::                                       3: Absolute path, with tilde as the home directory
+ c:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:419::           symbols = {
+ c:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:420::             modified = '[+ ',         Text to show when the file is modified.
+ c:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:421::             readonly = '[  ',         Text to show when the file is non modifiable or readonly.
+ c:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:422::             unnamed = '[No Name ',    Text to show for unnamed buffers.
+ c:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:423::             newfile = '[New ',        Text to show for new created file before first writting
+ c:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:424::          
+ c:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:425::         
+ c:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:426::       ,
+ c:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:427::       lualine_b = {{'branch', 'diff', 'diagnostics', color = 'lualine_b_normal',
+ c:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:428::     lualine_c = {,
+ c:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:429::     lualine_x = {,
+ c:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:430::     lualine_y = {,
+ c:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:431::     lualine_z = {{'location', color = 'lualine_z_normal'
+ c:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:432::   ,
+ c:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:433::   inactive_sections = {
+ c:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:434::     lualine_a = {,
+ c:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:435::     lualine_b = {,
+ c:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:436::     lualine_c = {,
+ c:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:437::     lualine_x = {,
+ c:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:438::     lualine_y = {,
+ c:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:439::     lualine_z = {
+ c:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:440::   ,
+ c:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:441::   tabline = {,
+ c:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:442::   winbar = {,
+ c:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:443::   inactive_winbar = {,
+ c:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:444::   extension = {
+ c:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:445:: 
+ c:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:446:: 
  c:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:447:: 
- c:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:448:: 
- c:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:449:: 
- c:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:450::      gitgutter
- c:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:451::    require('gitsigns').setup{
- c:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:452::      on_attach = function(bufnr)
- c:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:453::        local gs = package.loaded.gitsigns
- c:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:454::   
- c:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:455::        local function map(mode, l, r, opts)
- c:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:456::          opts = opts or {
- c:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:457::          opts.buffer = bufnr
- c:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:458::          vim.keymap.set(mode, l, r, opts)
- c:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:459::        end
- c:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:460::   
- c:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:461::           Navigation
- c:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:462::        map('n', ' c', function()
- c:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:463::          if vim.wo.diff then return ' c' end
- c:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:464::          vim.schedule(function() gs.next_hunk() end)
- c:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:465::          return '<Ignore>'
- c:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:466::        end, {expr=true)
- c:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:467::   
- c:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:468::        map('n', '[c', function()
- c:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:469::          if vim.wo.diff then return '[c' end
- c:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:470::          vim.schedule(function() gs.prev_hunk() end)
- c:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:471::          return '<Ignore>'
- c:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:472::        end, {expr=true)
- c:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:473::   
- c:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:474::           Actions
- c:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:475::        map({'n', 'v', '<leader>hs', ':Gitsigns stage_hunk<CR>')
- c:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:476::        map({'n', 'v', '<leader>hr', ':Gitsigns reset_hunk<CR>')
- c:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:477::        map('n', '<leader>hS', gs.stage_buffer)
- c:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:478::        map('n', '<leader>hu', gs.undo_stage_hunk)
- c:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:479::        map('n', '<leader>hR', gs.reset_buffer)
- c:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:480::        map('n', '<leader>hp', gs.preview_hunk)
- c:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:481::        map('n', '<leader>hb', function() gs.blame_line{full=true end)
- c:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:482::        map('n', '<leader>tb', gs.toggle_current_line_blame)
- c:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:483::        map('n', '<leader>hd', gs.diffthis)
- c:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:484::        map('n', '<leader>hD', function() gs.diffthis('~') end)
- c:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:485::        map('n', '<leader>td', gs.toggle_deleted)
- c:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:486::   
- c:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:487::           Text object
- c:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:488::        map({'o', 'x', 'ih', ':<C U>Gitsigns select_hunk<CR>')
- c:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:489::      end
- c:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:490::    
- c:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:491:: 
- c:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:492::    load snippets from path/of/your/nvim/config/my cool snippets
- c:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:493::   vim.o.runtimepath = vim.o.runtimepath .. 'C:/Users/yasha/.config/nvim/lua/snippets,'
- c:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:494::    require("luasnip/loaders/from_vscode").lazy_load()    load snippets of friendly/snippets
- c:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:495::    require("luasnip/loaders/from_vscode").load({ paths = "C:/Users/yasha/dotfiles/snippets" )    load your own snippets
+ c:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:448::      gitgutter
+ c:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:449::    require('gitsigns').setup{
+ c:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:450::      on_attach = function(bufnr)
+ c:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:451::        local gs = package.loaded.gitsigns
+ c:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:452::   
+ c:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:453::        local function map(mode, l, r, opts)
+ c:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:454::          opts = opts or {
+ c:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:455::          opts.buffer = bufnr
+ c:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:456::          vim.keymap.set(mode, l, r, opts)
+ c:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:457::        end
+ c:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:458::   
+ c:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:459::           Navigation
+ c:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:460::        map('n', ' c', function()
+ c:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:461::          if vim.wo.diff then return ' c' end
+ c:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:462::          vim.schedule(function() gs.next_hunk() end)
+ c:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:463::          return '<Ignore>'
+ c:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:464::        end, {expr=true)
+ c:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:465::   
+ c:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:466::        map('n', '[c', function()
+ c:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:467::          if vim.wo.diff then return '[c' end
+ c:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:468::          vim.schedule(function() gs.prev_hunk() end)
+ c:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:469::          return '<Ignore>'
+ c:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:470::        end, {expr=true)
+ c:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:471::   
+ c:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:472::           Actions
+ c:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:473::        map({'n', 'v', '<leader>hs', ':Gitsigns stage_hunk<CR>')
+ c:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:474::        map({'n', 'v', '<leader>hr', ':Gitsigns reset_hunk<CR>')
+ c:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:475::        map('n', '<leader>hS', gs.stage_buffer)
+ c:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:476::        map('n', '<leader>hu', gs.undo_stage_hunk)
+ c:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:477::        map('n', '<leader>hR', gs.reset_buffer)
+ c:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:478::        map('n', '<leader>hp', gs.preview_hunk)
+ c:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:479::        map('n', '<leader>hb', function() gs.blame_line{full=true end)
+ c:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:480::        map('n', '<leader>tb', gs.toggle_current_line_blame)
+ c:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:481::        map('n', '<leader>hd', gs.diffthis)
+ c:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:482::        map('n', '<leader>hD', function() gs.diffthis('~') end)
+ c:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:483::        map('n', '<leader>td', gs.toggle_deleted)
+ c:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:484::   
+ c:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:485::           Text object
+ c:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:486::        map({'o', 'x', 'ih', ':<C U>Gitsigns select_hunk<CR>')
+ c:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:487::      end
+ c:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:488::    
+ c:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:489:: 
+ c:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:490::    load snippets from path/of/your/nvim/config/my cool snippets
+ c:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:491::   vim.o.runtimepath = vim.o.runtimepath .. 'C:/Users/yasha/.config/nvim/lua/snippets,'
+ c:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:492::    require("luasnip/loaders/from_vscode").lazy_load()    load snippets of friendly/snippets
+ c:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:493::    require("luasnip/loaders/from_vscode").load({ paths = "C:/Users/yasha/dotfiles/snippets" )    load your own snippets
