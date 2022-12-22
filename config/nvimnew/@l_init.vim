@@ -804,4 +804,3 @@
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:804:: imap <silent><expr> <C E> luasnip#choice_active() ? '<Plug>luasnip next choice' : '<C E>'
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:805:: smap <silent><expr> <C E> luasnip#choice_active() ? '<Plug>luasnip next choice' : '<C E>'
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:806:: 
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:807:: 
