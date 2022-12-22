@@ -20,6 +20,13 @@ end
 Sentence = function ()
    vim.fn.jobwait({IdSentence})
    vim.cmd('copen')
+   if vim.w.bqf_enabled then
+    local winid = vim.api.nvim_get_current_win()
+    vim.schedule(function()
+        vim.api.nvim_win_call(winid, function()
+            vim.api.nvim_feedkeys('fatal', 'im', false)
+        end)
+    end)
   -- Wait = function ()
   --     if vim.b.bqf_enabled then
   --       vim.cmd('sleep 200m')
