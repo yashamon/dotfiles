@@ -667,8 +667,17 @@ function ToggleQuickFix()
         exec "cg" b:errors
         copen
         " lua require('telescope.builtin').quickfix({layout_strategy='vertical',layout_config={width=0.9}})
-        call feedkeys("fatal")
+        lua <<EOF
+        if vim.w.bqf_enabled then
+    local winid = vim.api.nvim_get_current_win()
+    vim.schedule(function()
+        vim.api.nvim_win_call(winid, function()
+            vim.api.nvim_feedkeys('fatal', 'im', false)
+        end)
+    end)
+end
         endif
+        EOF
 endfunction
 
 nnoremap <leader>e :silent call ToggleQuickFix()<CR>
