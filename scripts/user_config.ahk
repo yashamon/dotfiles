@@ -90,28 +90,32 @@ CapsLock::Esc
 ;   return
 ;}
 ;Return
-#A::
+#A::{
 switchDesktopByNumber(1)
 Send !{Esc}
 sleep 100
 Send !{Esc}
 return
-#S::
+}
+#S::{
 switchDesktopByNumber(2)
 Send !{Esc}
 sleep 100
 Send !{Esc}
 return
-#X::
+}
+#X::{
 WinClose A 
 return
-#J::
+}
+#J::{
 switchDesktopByNumber(4)
 Send !{Esc}
 sleep 100
 Send !{Esc}
 return
-#D::
+}
+#D::{
 switchDesktopByNumber(5)
 Send !{Esc}
 sleep 100
