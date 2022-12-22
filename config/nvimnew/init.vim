@@ -8,9 +8,9 @@ Plug 'nvim-treesitter/playground'
 Plug 'LhKipp/nvim-nu', { 'branch': 'main' }
 Plug 'folke/which-key.nvim', { 'branch': 'main' }
 Plug 'ggandor/leap.nvim', { 'branch': 'main' }
-Plug 'ibhagwan/fzf-lua', { 'branch': 'main' }
-Plug 'romgrk/fzy-lua-native'
-Plug 'vijaymarupudi/nvim-fzf'
+" Plug 'ibhagwan/fzf-lua', { 'branch': 'main' }
+" Plug 'romgrk/fzy-lua-native'
+" Plug 'vijaymarupudi/nvim-fzf'
 Plug 'kyazdani42/nvim-web-devicons'
 Plug 'glacambre/firenvim', { 'do': { _ -> firenvim#install(0) } }
 Plug 'neovim/nvim-lspconfig'
@@ -19,7 +19,7 @@ Plug 'williamboman/mason-lspconfig.nvim', { 'branch': 'main' }
 Plug 'hrsh7th/nvim-cmp', { 'branch': 'main' }
 Plug 'hrsh7th/cmp-buffer', { 'branch': 'main' }
 Plug 'hrsh7th/cmp-nvim-lsp', { 'branch': 'main' } 
-Plug 'ray-x/cmp-treesitter'
+" Plug 'ray-x/cmp-treesitter'
 Plug 'quangnguyen30192/cmp-nvim-tags',  { 'branch': 'main' }  
 Plug 'terrortylor/nvim-comment', { 'branch': 'main' }
 Plug 'nvim-lualine/lualine.nvim'
@@ -272,7 +272,6 @@ set smartcase		" ignore case if search pattern is all lowercase,case-sensitive o
 set spell   
 
 " disable sound on errors
-" set novisualbell 
 " set font=Fira\ Code:h18
 set background=light
 colorscheme gruvbox
