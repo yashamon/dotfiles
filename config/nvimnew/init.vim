@@ -36,7 +36,7 @@ Plug 'junegunn/fzf.vim'
 Plug 'yuki-yano/fzf-preview.vim', { 'branch': 'release/remote', 'do': ':UpdateRemotePlugins' }
 Plug 'mbbill/undotree', { 'on': 'UndotreeToggle' }
 Plug 'lewis6991/spellsitter.nvim'
-Plug 'kevinhwang91/nvim-bqf', { 'branch': 'dev' }
+Plug 'kevinhwang91/nvim-bqf' 
 Plug 'nvim-lua/plenary.nvim'
 Plug 'nvim-telescope/telescope.nvim'
 Plug 'simnalamburt/vim-mundo'
@@ -151,15 +151,15 @@ require('keymaps')
 -- require('telescope').load_extension('fzf')
 EOF
 " cmp
-let s:timer = 0
-autocmd TextChangedI * call s:on_text_changed()
-function! s:on_text_changed() abort
-  call timer_stop(s:timer)
-  let s:timer = timer_start(200, function('s:complete'))
-endfunction
-function! s:complete(...) abort
-  lua require('cmp').complete({ reason = require('cmp').ContextReason.Auto })
-endfunction
+" let s:timer = 0
+" autocmd TextChangedI * call s:on_text_changed()
+" function! s:on_text_changed() abort
+"   call timer_stop(s:timer)
+"   let s:timer = timer_start(200, function('s:complete'))
+" endfunction
+" function! s:complete(...) abort
+"   lua require('cmp').complete({ reason = require('cmp').ContextReason.Auto })
+" endfunction
 "Neovide 
 "
 " let g:neovide_maximized=v:true
@@ -676,9 +676,9 @@ function ToggleQuickFix()
         end)
     end)
 end
+EOF
         endif
-        EOF
-endfunction
+endfunction 
 
 nnoremap <leader>e :silent call ToggleQuickFix()<CR>
 function! ClearLatex()
@@ -803,4 +803,5 @@ nnoremap <silent> <m-k> <cmd>lua require('luasnip').jump(-1)<Cr>
 " For changing choices in choiceNodes (not strictly necessary for a basic setup).
 imap <silent><expr> <C-E> luasnip#choice_active() ? '<Plug>luasnip-next-choice' : '<C-E>'
 smap <silent><expr> <C-E> luasnip#choice_active() ? '<Plug>luasnip-next-choice' : '<C-E>'
+
 

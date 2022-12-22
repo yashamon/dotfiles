@@ -36,7 +36,7 @@
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:36:: Plug 'yuki yano/fzf preview.vim', { 'branch': 'release/remote', 'do': ':UpdateRemotePlugins' 
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:37:: Plug 'mbbill/undotree', { 'on': 'UndotreeToggle' 
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:38:: Plug 'lewis6991/spellsitter.nvim'
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:39:: Plug 'kevinhwang91/nvim bqf', { 'branch': 'dev' 
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:39:: Plug 'kevinhwang91/nvim bqf' 
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:40:: Plug 'nvim lua/plenary.nvim'
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:41:: Plug 'nvim telescope/telescope.nvim'
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:42:: Plug 'simnalamburt/vim mundo'
@@ -151,15 +151,15 @@
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:151::    require('telescope').load_extension('fzf')
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:152:: EOF
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:153:: " cmp
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:154:: let s:timer = 0
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:155:: autocmd TextChangedI * call s:on_text_changed()
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:156:: function! s:on_text_changed() abort
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:157::   call timer_stop(s:timer)
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:158::   let s:timer = timer_start(200, function('s:complete'))
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:159:: endfunction
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:160:: function! s:complete(...) abort
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:161::   lua require('cmp').complete({ reason = require('cmp').ContextReason.Auto )
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:162:: endfunction
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:154:: " let s:timer = 0
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:155:: " autocmd TextChangedI * call s:on_text_changed()
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:156:: " function! s:on_text_changed() abort
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:157:: "   call timer_stop(s:timer)
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:158:: "   let s:timer = timer_start(200, function('s:complete'))
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:159:: " endfunction
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:160:: " function! s:complete(...) abort
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:161:: "   lua require('cmp').complete({ reason = require('cmp').ContextReason.Auto )
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:162:: " endfunction
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:163:: "Neovide 
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:164:: "
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:165:: " let g:neovide_maximized=v:true
@@ -676,9 +676,9 @@
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:676::         end)
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:677::     end)
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:678:: end
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:679::         endif
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:680::         EOF
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:681:: endfunction
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:679:: EOF
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:680::         endif
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:681:: endfunction 
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:682:: 
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:683:: nnoremap <leader>e :silent call ToggleQuickFix()<CR>
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:684:: function! ClearLatex()
@@ -804,3 +804,4 @@
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:804:: imap <silent><expr> <C E> luasnip#choice_active() ? '<Plug>luasnip next choice' : '<C E>'
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:805:: smap <silent><expr> <C E> luasnip#choice_active() ? '<Plug>luasnip next choice' : '<C E>'
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:806:: 
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:807:: 
