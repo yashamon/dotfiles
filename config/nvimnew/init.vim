@@ -30,17 +30,15 @@ Plug 'ellisonleao/gruvbox.nvim', { 'branch': 'main' }
 Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}  
 Plug 'Shougo/neoyank.vim' 
 Plug 'Shougo/denite.nvim', { 'do': ':UpdateRemotePlugins' } 
-Plug 'skywind3000/asyncrun.vim'
+" Plug 'skywind3000/asyncrun.vim'
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } } 
 Plug 'junegunn/fzf.vim'
-Plug 'yuki-yano/fzf-preview.vim', { 'branch': 'release/remote', 'do': ':UpdateRemotePlugins' }
 Plug 'mbbill/undotree', { 'on': 'UndotreeToggle' }
 Plug 'lewis6991/spellsitter.nvim'
 Plug 'kevinhwang91/nvim-bqf', { 'branch': 'main' }
 Plug 'nvim-lua/plenary.nvim'
 Plug 'nvim-telescope/telescope.nvim'
 Plug 'simnalamburt/vim-mundo'
-Plug 'rlane/pounce.nvim'
 Plug 'mg979/vim-visual-multi'
 Plug 'tpope/vim-surround'
 
@@ -480,7 +478,7 @@ noremap <m-1> <C-o>
 noremap <m-2> <C-i>
 inoremap <m-d> <C-d>
 noremap ;w <Esc>:up<CR>
-noremap <C-t> <Esc>:AsyncRun ctags -R<CR>
+" noremap <C-t> <Esc>:AsyncRun ctags -R<CR>
 noremap <D-u> <C-u>
 noremap <A-u> <C-u>
 " windows stuff, comment out on windows
