@@ -38,7 +38,7 @@ Plug 'lewis6991/spellsitter.nvim'
 Plug 'kevinhwang91/nvim-bqf', { 'branch': 'main' }
 Plug 'nvim-lua/plenary.nvim'
 Plug 'nvim-telescope/telescope.nvim'
-Plug 'simnalamburt/vim-mundo'
+" Plug 'simnalamburt/vim-mundo'
 " Plug 'mg979/vim-visual-multi'
 " Plug 'tpope/vim-surround'
 
