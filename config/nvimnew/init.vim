@@ -142,7 +142,7 @@ Plug 'tpope/vim-surround'
  "  " Plug 'tpope/vim-surround'
 " Unmanaged plugin (manually installed and updated)
 " Plug '~/my-prototype-plugin'
-" Add plugins to &runtimepath 
+" Add plugins to &runtimepath
 call plug#end()
 lua <<EOF
 require('settings')
@@ -151,15 +151,15 @@ require('keymaps')
 -- require('telescope').load_extension('fzf')
 EOF
 " cmp
-" let s:timer = 0
-" autocmd TextChangedI * call s:on_text_changed()
-" function! s:on_text_changed() abort
-"   call timer_stop(s:timer)
-"   let s:timer = timer_start(200, function('s:complete'))
-" endfunction
-" function! s:complete(...) abort
-"   lua require('cmp').complete({ reason = require('cmp').ContextReason.Auto })
-" endfunction
+let s:timer = 0
+autocmd TextChangedI * call s:on_text_changed()
+function! s:on_text_changed() abort
+  call timer_stop(s:timer)
+  let s:timer = timer_start(200, function('s:complete'))
+endfunction
+function! s:complete(...) abort
+  lua require('cmp').complete({ reason = require('cmp').ContextReason.Auto })
+endfunction
 "Neovide 
 "
 " let g:neovide_maximized=v:true
