@@ -20,7 +20,6 @@
 ; === END OF INSTRUCTIONS ===
 ; ===========================
 
-#NoEnv  ; Recommended for performance and compatibility with future AutoHotkey releases.
 SendMode Input  ; Recommended for new scripts due to its superior speed and reliability.
 SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory. */
 
@@ -47,60 +46,60 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory. */
 ; ---
 ;-- when pressing CapsLock alone, it will activate the Escpae button
 
-SetCapsLockState, AlwaysOff
+SetCapsLockState AlwaysOff
 CapsLock::Esc
-k::Send {Up}
-Hotkey, k,off
-CapsLock & k::
-GetKeyState, state,CapsLock,P
-If state=D
-{
-   Send {Up}
-   Hotkey, k, off  
-   return
-}
-Return
-j::Send {Down}
-Hotkey, j,off
-CapsLock & j::
-GetKeyState, state,CapsLock,P
-If state=D
-{
-   Send {Down}
-   Hotkey, j, off  
-   return
-}
-Return
-l::Send {Right}
-Hotkey, l,off
-CapsLock & l::
-GetKeyState, state,CapsLock,P
-If state=D
-{
-   Send {Right}
-   Hotkey, l, off  
-   return
-}
-Return
-CapsLock & h::
-GetKeyState, state,CapsLock,P
-If state=D
-{
-   Send {Left}
-;   Hotkey, h, off
-   return
-}
-Return
+;k::Send {Up}
+;Hotkey, k,off
+;CapsLock & k::
+;GetKeyState, state,CapsLock,P
+;If state=D
+;{
+;   Send {Up}
+;   Hotkey, k, off  
+;   return
+;}
+;Return
+;j::Send {Down}
+;Hotkey, j,off
+;CapsLock & j::
+;GetKeyState, state,CapsLock,P
+;If state=D
+;{
+;   Send {Down}
+;   Hotkey, j, off  
+;   return
+;}
+;Return
+;l::Send {Right}
+;Hotkey, l,off
+;CapsLock & l::
+;GetKeyState, state,CapsLock,P
+;If state=D
+;{
+;   Send {Right}
+;   Hotkey, l, off  
+;   return
+;}
+;Return
+;CapsLock & h::
+;GetKeyState, state,CapsLock,P
+;If state=D
+;{
+;   Send {Left}
+;;   Hotkey, h, off
+;   return
+;}
+;Return
 #A::
 switchDesktopByNumber(1)
 Send !{Esc}
-sleep, 100
+sleep 100
 Send !{Esc}
 return
 #S::
 switchDesktopByNumber(2)
 Send !{Esc}
-sleep, 100
+sleep 100
 Send !{Esc}
 return
 #X::
@@ -109,19 +108,19 @@ return
 #J::
 switchDesktopByNumber(4)
 Send !{Esc}
-sleep, 100
+sleep 100
 Send !{Esc}
 return
 #D::
 switchDesktopByNumber(5)
 Send !{Esc}
-sleep, 100
+sleep 100
 Send !{Esc}
 return
 #C::
 switchDesktopByNumber(3)
 Send !{Esc}
-sleep, 100
+sleep 100
 Send !{Esc} 
 return
 
@@ -170,11 +169,11 @@ WinKill, A
     Return
 #e::
 ; Run microsoft-edge:https://this-page-intentionally-left-blank.org/ 
-Run, chrome
+Run chrome
 Return   
 #+j::
 ; Run microsoft-edge:https://this-page-intentionally-left-blank.org/ 
-Run, xournalpp
+Run xournalpp
 Return   
 ; Win+Shift+Break - Edit this file
 #+Break::
@@ -277,4 +276,4 @@ CapsLock & Left::MoveCurrentWindowToLeftDesktop()
 ; === END OF INSTRUCTIONS ===
 
 ; ^#+Right::MoveCurrentWindowToRightDesktop()
-; ^#+Left::MoveCurrentWindowToLeftDesktop()
+; ^#+Left::MoveCurrentWindowToLeftDesktop() 
