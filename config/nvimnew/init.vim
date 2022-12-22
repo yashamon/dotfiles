@@ -251,10 +251,7 @@ noremap! <RightDrag> <nop>
 noremap! <LeftDrag> <nop>
 " set selectmode=mouse, key
 " set bs=2		" allow backspacing over everything in insert mode 
-set undofile                " Save undo's after file closes
-set undodir=~/.undo " where to save undo histories
-set undolevels=1000000         " How many undos
-set undoreload=1000000		
+
 set nohlsearch
 set noswapfile
 set showmatch		" Cursor shows matching ) and }
@@ -800,3 +797,8 @@ nnoremap <silent> <m-k> <cmd>lua require('luasnip').jump(-1)<Cr>
 " For changing choices in choiceNodes (not strictly necessary for a basic setup). 
 imap <silent><expr> <C-E> luasnip#choice_active() ? '<Plug>luasnip-next-choice' : '<C-E>'
 smap <silent><expr> <C-E> luasnip#choice_active() ? '<Plug>luasnip-next-choice' : '<C-E>'
+
+set undofile                " Save undo's after file closes
+set undodir=~/.undo " where to save undo histories
+set undolevels=1000000         " How many undos
+set undoreload=1000000		
