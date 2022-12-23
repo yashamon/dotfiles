@@ -151,7 +151,8 @@ require('keymaps')
 require('set')
 -- require('telescope').load_extension('fzf')
 EOF
-" cmp
+
+" cmp te 
 " let s:timer = 0
 " autocmd TextChangedI * call s:on_text_changed()
 " function! s:on_text_changed() abort
