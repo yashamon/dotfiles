@@ -117,7 +117,6 @@ set nohlsearch
 " set noswapfile
 set showmatch		" Cursor shows matching ) and }
 set nocursorline
-set showmode		" Show current mode
 set wildchar=<TAB>	" start wild expansion in the command line using <TAB>
 set background=light
 colorscheme gruvbox
