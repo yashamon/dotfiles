@@ -148,6 +148,7 @@ lua <<EOF
 require('settings')
 require('functions')
 require('keymaps')
+require('set')
 -- require('telescope').load_extension('fzf')
 EOF
 " cmp
@@ -249,7 +250,6 @@ noremap! <LeftDrag> <nop>
 noremap! <RightDrag> <nop>
 noremap! <LeftDrag> <nop>
 " set selectmode=mouse, key
-" set bs=2		" allow backspacing over everything in insert mode 
 set undofile                " Save undo's after file closes
 set undodir=~/.undo " where to save undo histories
 set undolevels=1000000         " How many undos
@@ -262,10 +262,7 @@ set showmode		" Show current mode
 set wildchar=<TAB>	" start wild expansion in the command line using <TAB>
 " let maplocalleader = "\\"
 " ignore these files while expanding wild chars
-set nobackup		" no *~ backup files
-" set ignorecase		" ignore case when searching
-set smartcase		" ignore case if search pattern is all lowercase,case-sensitive otherwise
-set spell   
+
 
 " disable sound on errors
 " set novisualbell 
