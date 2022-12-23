@@ -41,8 +41,8 @@
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:41:: Plug 'nvim telescope/telescope.nvim'
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:42:: Plug 'simnalamburt/vim mundo'
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:43:: Plug 'rlane/pounce.nvim'
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:44:: Plug 'mg979/vim visual multi'
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:45:: Plug 'tpope/vim surround'
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:44:: " Plug 'mg979/vim visual multi'
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:45:: " Plug 'tpope/vim surround'
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:46:: 
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:47:: call plug#end()
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:48:: lua <<EOF

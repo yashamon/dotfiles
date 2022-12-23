@@ -41,8 +41,8 @@ Plug 'nvim-lua/plenary.nvim'
 Plug 'nvim-telescope/telescope.nvim'
 Plug 'simnalamburt/vim-mundo'
 Plug 'rlane/pounce.nvim'
-Plug 'mg979/vim-visual-multi'
-Plug 'tpope/vim-surround'
+" Plug 'mg979/vim-visual-multi'
+" Plug 'tpope/vim-surround'
 
 call plug#end()
 lua <<EOF
