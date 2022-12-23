@@ -33,13 +33,15 @@ cmp.setup {
   },
 
   mapping = {
-    ['<CR>'] = cmp.mapping.confirm({ select = true })
+    ['<CR>'] = cmp.mapping.confirm({ select = true }),
+    ["<Tab>"] = cmp.complete()
   },
 
-  sources = cmp.config.sources({
+completion = { autocomplete = false },
+sources = cmp.config.sources({
     { name = "nvim_lsp" },
     { name = "buffer" },
-  }),
+    }),
 }
 EOF
 
