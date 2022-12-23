@@ -76,18 +76,18 @@
  C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:76:: CG()
  C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:77:: end
  C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:78:: 
- C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:79::    local timer = 0
- C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:80::      local function do_complete()
- C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:81::        cmp.complete({ reason = cmp.ContextReason.Auto )
- C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:82::      end
- C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:83::      vim.api.nvim_create_autocmd(
- C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:84::        { "TextChangedI", ,
- C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:85::        {
- C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:86::          callback = function()
- C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:87::            vim.fn.timer_stop(timer)
- C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:88::            timer = vim.fn.timer_start(500, do_complete)
- C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:89::          end,
- C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:90::          pattern = "*",
- C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:91::        
- C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:92::      )
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:79:: local timer = 0
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:80::   local function do_complete()
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:81::     cmp.complete({ reason = cmp.ContextReason.Auto )
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:82::   end
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:83::   vim.api.nvim_create_autocmd(
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:84::     { "TextChangedI", ,
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:85::     {
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:86::       callback = function()
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:87::         vim.fn.timer_stop(timer)
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:88::         timer = vim.fn.timer_start(500, do_complete)
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:89::       end,
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:90::       pattern = "*",
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:91::     
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:92::   )
  C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:93:: 
