@@ -1,5 +1,5 @@
 local opt = vim.opt
-opt.nobackup = true
+vim.opt.backup = false
 opt.ignorecase = true
 opt.smartcase = true
 --
