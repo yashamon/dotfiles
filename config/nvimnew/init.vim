@@ -81,7 +81,6 @@ set switchbuf=newtab
 " let g:python3_host_prog='/usr/bin/python3.9'
 set clipboard+=unnamedplus	
 " TAB setting{
-set expandtab        "replace <TAB> with spaces
 set softtabstop=3
 set shiftwidth=3
 " set shell="C:\Program Files\PowerShell\7\pwsh.EXE"
@@ -467,17 +466,36 @@ map T <Plug>(leap-backward)
 " Replace the default dictionary completion with fzf-based fuzzy completion
 inoremap <expr> <c-x><c-k> fzf#vim#complete('cat /usr/share/dict/words')  
 
+""other maps
+inoremap <cr> <cr><space><esc>"_s
+nnoremap o o<space><esc>"_s
+" map cr
+" inoremap <cr> <esc>$a<cr><space><esc>"_s
+" inoremap <m-cr> <cr><space><esc>"_s
+let g:neovide_fullscreen=v:true
+if exists('g:gonvim_running')
+ set guifont=Fira\ Code\ Light:h18
+"goneovim specific stuff
+elseif exists('g:neovide')
+   set guifont=JetBrains\ Mono:h18
+end
+nnoremap <C-c> :set hlsearch!<cr>
+xnoremap <silent> <cr> "*y:silent! let searchTerm = '\V'.substitute(escape(@*, '\/'), "\n", '\\n', "g") <bar> let @/ = searchTerm <bar> echo '/'.@/ <bar> call histadd("search", searchTerm) <bar> set hls<cr>
+inoremap <m-d> <C-w>
+
+imap <silent><expr> <Tab> luasnip#expand_or_jumpable() ? '<Plug>luasnip-expand-or-jump' : '<Tab>' 
+" -1 for jumping backwards.
+inoremap <silent> <S-Tab> <cmd>lua require'luasnip'.jump(-1)<Cr>
+inoremap <silent> <m-j> <cmd>lua require('luasnip').jump(1)<Cr>
+nnoremap <silent> <m-j> <cmd>lua require('luasnip').jump(1)<Cr>
+inoremap <silent> <m-k> <cmd>lua require('luasnip').jump(-1)<Cr>
+nnoremap <silent> <m-k> <cmd>lua require('luasnip').jump(-1)<Cr>
+" For changing choices in choiceNodes (not strictly necessary for a basic setup). 
+imap <silent><expr> <C-E> luasnip#choice_active() ? '<Plug>luasnip-next-choice' : '<C-E>'
+smap <silent><expr> <C-E> luasnip#choice_active() ? '<Plug>luasnip-next-choice' : '<C-E>'
+
 "Functions
 
-" function Light()
-" set background=light
-" " colorscheme oceanlight 
-" colorscheme material 
-" let g:material_style = 'lighter'  
-"    " highlight Normal ctermfg=black
-" " highlight  CursorLine cterm=NONE ctermbg=black ctermfg=none
-" " hi MatchParen cterm=underline ctermbg=none ctermfg=magenta
-" endfunction   
 function Bluemoon()
    set background=dark
    colorscheme blue-moon
@@ -593,35 +611,3 @@ exec execstrWindows
 silent execute "buffer" buf
 endfunction
 
-""other maps
-inoremap <cr> <cr><space><esc>"_s
-nnoremap o o<space><esc>"_s
-" map cr
-" inoremap <cr> <esc>$a<cr><space><esc>"_s
-" inoremap <m-cr> <cr><space><esc>"_s
-let g:neovide_fullscreen=v:true
-if exists('g:gonvim_running')
- set guifont=Fira\ Code\ Light:h18
-"goneovim specific stuff
-elseif exists('g:neovide')
-   set guifont=JetBrains\ Mono:h18
-end
-nnoremap <C-c> :set hlsearch!<cr>
-xnoremap <silent> <cr> "*y:silent! let searchTerm = '\V'.substitute(escape(@*, '\/'), "\n", '\\n', "g") <bar> let @/ = searchTerm <bar> echo '/'.@/ <bar> call histadd("search", searchTerm) <bar> set hls<cr>
-inoremap <m-d> <C-w>
-
-
-imap <silent><expr> <Tab> luasnip#expand_or_jumpable() ? '<Plug>luasnip-expand-or-jump' : '<Tab>' 
-" -1 for jumping backwards.
-inoremap <silent> <S-Tab> <cmd>lua require'luasnip'.jump(-1)<Cr>
-inoremap <silent> <m-j> <cmd>lua require('luasnip').jump(1)<Cr>
-nnoremap <silent> <m-j> <cmd>lua require('luasnip').jump(1)<Cr>
-inoremap <silent> <m-k> <cmd>lua require('luasnip').jump(-1)<Cr>
-nnoremap <silent> <m-k> <cmd>lua require('luasnip').jump(-1)<Cr>
-" For changing choices in choiceNodes (not strictly necessary for a basic setup). 
-imap <silent><expr> <C-E> luasnip#choice_active() ? '<Plug>luasnip-next-choice' : '<C-E>'
-smap <silent><expr> <C-E> luasnip#choice_active() ? '<Plug>luasnip-next-choice' : '<C-E>'
-" au VIMEnter * let g:surround_108 = {
-     " \'q':  " ``\r''"
-  " let g:tex_flavor = "latex"
-" let g:tex_isk = '@,48-57,58,_,192-255,:'   " \ }
