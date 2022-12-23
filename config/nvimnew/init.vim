@@ -16,7 +16,7 @@ Plug 'williamboman/mason-lspconfig.nvim', { 'branch': 'main' }
 Plug 'hrsh7th/nvim-cmp', { 'branch': 'main' }
 Plug 'hrsh7th/cmp-buffer', { 'branch': 'main' }
 Plug 'hrsh7th/cmp-nvim-lsp', { 'branch': 'main' } 
-Plug 'ray-x/cmp-treesitter'
+" Plug 'ray-x/cmp-treesitter'
 Plug 'quangnguyen30192/cmp-nvim-tags',  { 'branch': 'main' }  
 Plug 'terrortylor/nvim-comment', { 'branch': 'main' }
 Plug 'nvim-lualine/lualine.nvim'
@@ -588,7 +588,7 @@ let b:filenamedir=expand('%:p:h')
 let filenametex=expand('%:p:t')
 let filenametexwhole=expand('%:p')
 let filenameroot=expand('%:t:r')
-" let filenamePDF=filename[:-4]."pdf"
+" let filenamePDF=filename[:-4]."pdf" 
 let filenamePDFLinux=b:filenamedir . "/buildback/" . filenameroot . ".pdf"
 let b:filenamePDFWindows="build\\" . filenameroot . ".pdf"
 " echo b:filenamePDFWindows
