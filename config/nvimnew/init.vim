@@ -26,6 +26,7 @@ Plug 'nvim-lualine/lualine.nvim'
 Plug 'justinhoward/fzf-neoyank'
 Plug 'folke/tokyonight.nvim', { 'branch': 'main' }
 Plug 'ellisonleao/gruvbox.nvim', { 'branch': 'main' }
+" Plug 'eddyekofo94/gruvbox-flat.nvim'
 Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}  
 Plug 'Shougo/neoyank.vim' 
 Plug 'Shougo/denite.nvim', { 'do': ':UpdateRemotePlugins' } 
@@ -60,7 +61,7 @@ let g:neovide_floating_blur_amount_x = 3.0
 let g:neovide_floating_blur_amount_y = 3.0
 " let g:neovide_transparency=0.15
 
-"General Settings    
+"General Settings, set
 set title
 set cmdheight=0
 set signcolumn=yes
@@ -90,7 +91,45 @@ set guicursor=n-v-c:block,i-ci-ve:ver25,r-cr:hor20,o:hor50
  		  \,sm:block-blinkwait175-blinkoff150-blinkon175
 set spelllang=en_us
 set timeoutlen=0
-
+set foldmethod=expr
+set foldexpr=nvim_treesitter#foldexpr()
+set tags+=~/workspacemodules/tags
+set tags+=~\workspacemodules\tags
+set tags+=.\tags
+set tags+=./tags
+" set wrapmargin=1
+set listchars=eol:¬,tab:>·,trail:~,extends:>,precedes:<,space:␣
+set linebreak 
+set formatoptions+=w " set breakat=" "
+" set list  " list disables linebreak whitespace
+set autochdir
+set guioptions-=r
+set guioptions-=l
+let mapleader=';'
+let g:mapleader=';'
+set inccommand=split
+noremap! <LeftDrag> <nop>
+noremap! <RightDrag> <nop>
+noremap! <LeftDrag> <nop>
+set undofile                " Save undo's after file closes
+set undodir=~/.undo " where to save undo histories
+set undolevels=1000000         " How many undos
+set undoreload=1000000		
+set nohlsearch
+" set noswapfile
+set showmatch		" Cursor shows matching ) and }
+set nocursorline
+set showmode		" Show current mode
+set wildchar=<TAB>	" start wild expansion in the command line using <TAB>
+set background=light
+colorscheme gruvbox
+set background=light
+set tm=1000
+hi SpellBad cterm=underline
+hi SpellBad gui=undercurl guisp=white
+"
+" Autocommands, au
+ 
 function! OnUIEnter(event)
 	let l:ui = nvim_get_chan_info(a:event.chan)
 	if has_key(l:ui, 'client') && has_key(l:ui.client, 'name')
@@ -108,70 +147,12 @@ autocmd ColorScheme * lua vim.api.nvim_set_hl(0, 'LeapMatch', { fg = "black" })
 "remember cursor location
 autocmd BufReadPost * if @% !~# '\.git[\/\\]COMMIT_EDITMSG$' && line("'\"") > 1 && line("'\"") <= line("$") | exe "normal! g`\"" | endif
 
-
 au VIMEnter * let g:buffmain=bufname()
 au FileType tex, vim, lua * lua GitAsync() 
 nnoremap <m-y> viwy:buffer g:buffmain<cr>:<c-r>+<cr><cr>
- au FileType tex setlocal iskeyword+=:
+au FileType tex setlocal iskeyword+=:
 au Filetype tex,text,md set tw=60
-set foldmethod=expr
-set foldexpr=nvim_treesitter#foldexpr()
 autocmd BufReadPost,FileReadPost * normal zR
-" au FileType tex setlocal indentexpr=
-" set foldmethod=expr
-" au FileType tex, text, md setlocal foldexpr=getline(v:lnum)=~'^\s*'.&commentstring[0]
-" au FileType lua, vim, c, haskell  set foldexpr=nvim_treesitter#foldexpr()
-" let g:tex_conceal = ""
-set tags+=~/workspacemodules/tags
-set tags+=~\workspacemodules\tags
-set tags+=.\tags
-set tags+=./tags
-" set wrapmargin=1
-set listchars=eol:¬,tab:>·,trail:~,extends:>,precedes:<,space:␣
-set linebreak 
-set formatoptions+=w " set breakat=" "
-" set list  " list disables linebreak whitespace
-" set textwidth=0
-" set wrapmargin=-1
-set autochdir
-set guioptions-=r
-set guioptions-=l
-set inccommand=split
-noremap! <LeftDrag> <nop>
-noremap! <RightDrag> <nop>
-noremap! <LeftDrag> <nop>
-" set selectmode=mouse, key
-set undofile                " Save undo's after file closes
-set undodir=~/.undo " where to save undo histories
-set undolevels=1000000         " How many undos
-set undoreload=1000000		
-set nohlsearch
-" set noswapfile
-set showmatch		" Cursor shows matching ) and }
-set nocursorline
-set showmode		" Show current mode
-set wildchar=<TAB>	" start wild expansion in the command line using <TAB>
-" let maplocalleader = "\\"
-" ignore these files while expanding wild chars
-
-
-" disable sound on errors
-" set novisualbell 
-" set font=Fira\ Code:h18
-set background=light
-colorscheme gruvbox
-set background=light
-" colorscheme material  
-" let g:material_style = 'palenight'  
-" let g:material_style = 'lighter'
-" highlight Normal ctermbg=none
-set tm=1000
-" set macreta 
-hi SpellBad cterm=underline
-" Set style for gVim
-hi SpellBad gui=undercurl guisp=white
-"
-"Autocommands, au
 au FileType Makefile set noexpandtab
 au FileType tex,text set spelllang=en_us
 au FileType tex,text,md set indentexpr=
@@ -191,10 +172,7 @@ set shiftwidth=3
 " USEFUL SHORTCUTS
 "--------------------------------------------------------------------------- 
 " set leader to ; 
-let mapleader=';'
-let g:mapleader=';'
-
-
+'
 " Bash like keys for the command line
 cnoremap <C-A>      <Home>
 cnoremap <C-E>      <End>
