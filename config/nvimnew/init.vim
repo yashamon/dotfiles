@@ -72,7 +72,6 @@ set scrolloff=10
 " let &shellquote = ""
 " let &shellxquote = ""
 set indentexpr=
-set noshowmatch
 set wrap
 set pumblend=20
 " set winblend=15 
