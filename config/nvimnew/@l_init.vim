@@ -750,54 +750,53 @@
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:750:: "Git autocommit  (nonmain branch)
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:751:: autocmd BufWritePost * lua GitAsync()
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:752:: set completeopt=menu,menuone,noselect,noinsert
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:753:: 
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:754:: " Avoid showing message extra message when using completion
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:755:: set shortmess+=c
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:756:: 
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:757:: let g:firenvim_config = { 
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:758::       'globalSettings': {
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:759::           'alt': 'all',
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:760::        ,
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:761::       'localSettings': {
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:762::           '.*': {
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:763::               'cmdline': 'neovim',
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:764::               'content': 'text',
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:765::               'priority': 0,
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:766::               'selector': 'textarea',
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:767::               'takeover': 'never',
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:768::           ,
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:769::       
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:770::   
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:771:: 
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:772:: ""other maps
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:773:: inoremap <cr> <cr><space><esc>"_s
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:774:: nnoremap o o<space><esc>"_s
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:775:: " map cr
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:776:: " inoremap <cr> <esc> a<cr><space><esc>"_s
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:777:: " inoremap <m cr> <cr><space><esc>"_s
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:778:: let g:neovide_fullscreen=v:true
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:779:: if exists('g:gonvim_running')
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:780::  set guifont=Fira  Code  Light:h18
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:781:: "goneovim specific stuff
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:782:: elseif exists('g:neovide')
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:783::    set guifont=JetBrains  Mono:h18
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:784:: end
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:785:: nnoremap <C c> :set hlsearch!<cr>
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:786:: xnoremap <silent> <cr> "*y:silent! let searchTerm = ' V'.substitute(escape(@*, ' /'), " n", '  n', "g") <bar> let @/ = searchTerm <bar> echo '/'.@/ <bar> call histadd("search", searchTerm) <bar> set hls<cr>
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:787:: inoremap <m d> <C w>
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:788:: 
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:789:: 
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:790:: imap <silent><expr> <Tab> luasnip#expand_or_jumpable() ? '<Plug>luasnip expand or jump' : '<Tab>' 
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:791:: "  1 for jumping backwards.
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:792:: inoremap <silent> <S Tab> <cmd>lua require'luasnip'.jump( 1)<Cr>
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:793:: inoremap <silent> <m j> <cmd>lua require('luasnip').jump(1)<Cr>
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:794:: nnoremap <silent> <m j> <cmd>lua require('luasnip').jump(1)<Cr>
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:795:: inoremap <silent> <m k> <cmd>lua require('luasnip').jump( 1)<Cr>
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:796:: nnoremap <silent> <m k> <cmd>lua require('luasnip').jump( 1)<Cr>
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:797:: " For changing choices in choiceNodes (not strictly necessary for a basic setup). 
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:798:: imap <silent><expr> <C E> luasnip#choice_active() ? '<Plug>luasnip next choice' : '<C E>'
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:799:: smap <silent><expr> <C E> luasnip#choice_active() ? '<Plug>luasnip next choice' : '<C E>'
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:800:: " au VIMEnter * let g:surround_108 = {
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:801::      "  'q':  " `` r''"
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:802::   " let g:tex_flavor = "latex"
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:803:: " let g:tex_isk = '@,48 57,58,_,192 255,:'   "   
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:753:: " Avoid showing message extra message when using completion
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:754:: set shortmess+=c
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:755:: 
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:756:: let g:firenvim_config = { 
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:757::       'globalSettings': {
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:758::           'alt': 'all',
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:759::        ,
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:760::       'localSettings': {
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:761::           '.*': {
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:762::               'cmdline': 'neovim',
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:763::               'content': 'text',
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:764::               'priority': 0,
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:765::               'selector': 'textarea',
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:766::               'takeover': 'never',
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:767::           ,
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:768::       
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:769::   
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:770:: 
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:771:: ""other maps
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:772:: inoremap <cr> <cr><space><esc>"_s
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:773:: nnoremap o o<space><esc>"_s
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:774:: " map cr
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:775:: " inoremap <cr> <esc> a<cr><space><esc>"_s
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:776:: " inoremap <m cr> <cr><space><esc>"_s
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:777:: let g:neovide_fullscreen=v:true
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:778:: if exists('g:gonvim_running')
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:779::  set guifont=Fira  Code  Light:h18
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:780:: "goneovim specific stuff
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:781:: elseif exists('g:neovide')
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:782::    set guifont=JetBrains  Mono:h18
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:783:: end
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:784:: nnoremap <C c> :set hlsearch!<cr>
+xnoremap <silent> <cr> "*y:silent! let searchTerm = ' V'.substitute(escape(@*, ' /'), " n", '  n', "g") <bar> let @/ = searchTerm <bar> echo '/'.@/ <bar> call histadd("search", searchTerm) <bar> set hls<cr>
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:785:: inoremap <m d> <C w>
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:786:: 
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:787:: 
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:788:: imap <silent><expr> <Tab> luasnip#expand_or_jumpable() ? '<Plug>luasnip expand or jump' : '<Tab>' 
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:789:: "  1 for jumping backwards.
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:790:: inoremap <silent> <S Tab> <cmd>lua require'luasnip'.jump( 1)<Cr>
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:791:: inoremap <silent> <m j> <cmd>lua require('luasnip').jump(1)<Cr>
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:792:: nnoremap <silent> <m j> <cmd>lua require('luasnip').jump(1)<Cr>
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:793:: inoremap <silent> <m k> <cmd>lua require('luasnip').jump( 1)<Cr>
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:794:: nnoremap <silent> <m k> <cmd>lua require('luasnip').jump( 1)<Cr>
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:795:: " For changing choices in choiceNodes (not strictly necessary for a basic setup). 
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:796:: imap <silent><expr> <C E> luasnip#choice_active() ? '<Plug>luasnip next choice' : '<C E>'
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:797:: smap <silent><expr> <C E> luasnip#choice_active() ? '<Plug>luasnip next choice' : '<C E>'
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:798:: " au VIMEnter * let g:surround_108 = {
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:799::      "  'q':  " `` r''"
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:800::   " let g:tex_flavor = "latex"
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:801:: " let g:tex_isk = '@,48 57,58,_,192 255,:'   "   
