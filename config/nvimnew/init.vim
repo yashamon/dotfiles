@@ -198,6 +198,7 @@ set guicursor=n-v-c:block,i-ci-ve:ver25,r-cr:hor20,o:hor50
  		  \,sm:block-blinkwait175-blinkoff150-blinkon175
 set spelllang=en_us
 set timeoutlen=0
+
 function! OnUIEnter(event)
 	let l:ui = nvim_get_chan_info(a:event.chan)
 	if has_key(l:ui, 'client') && has_key(l:ui.client, 'name')
