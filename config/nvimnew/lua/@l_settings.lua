@@ -250,7 +250,7 @@
  C:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:250::    local nvim_lsp = require('lspconfig')
  C:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:251::    Use an on_attach function to only map the following keys
  C:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:252::    after the language server attaches to the current buffer
- C:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:253::    local on_attach = function(client, bufnr)
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:253:: local on_attach = function(client, bufnr)
  C:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:254:: local function buf_set_keymap(...) vim.api.nvim_buf_set_keymap(bufnr, ...) end
  C:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:255::   
  C:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:256::    local function buf_set_option(...) vim.api.nvim_buf_set_option(bufnr, ...) end
