@@ -50,7 +50,6 @@ require('leap').setup {
     },
   -- Leaving the] $appropriate list emapty effectively disables "smart" mode,
   -- and forces auto-jump to be on or off.%
-  
 }
 vim.api.nvim_set_hl(0, 'LeapMatch', { fg='white' })
 
@@ -58,7 +57,7 @@ require("todo-comments").setup {
     -- your configuration comes here
     -- or leave it empty to use the default settings
     -- refer to the configuration section below
-  }
+}
 
 require('telescope').setup({
   defaults = {
@@ -251,13 +250,12 @@ local lspconfig = require("lspconfig")
 -- local nvim_lsp = require('lspconfig')
 -- Use an on_attach function to only map the following keys
 -- after the language server attaches to the current buffer
-local on_attach = function(client, bufnr)
+-- local on_attach = function(client, bufnr)
 local function buf_set_keymap(...) vim.api.nvim_buf_set_keymap(bufnr, ...) end
-local function buf_set_option(...) vim.api.nvim_buf_set_option(bufnr, ...) end
-
- -- Enable completion triggered by <c-x><c-o>
+--
+-- local function buf_set_option(...) vim.api.nvim_buf_set_option(bufnr, ...) end
+-- Enable completion triggered by <c-x><c-o>
 buf_set_keymap('omnifunc', 'v:lua.vim.lsp.omnifunc')
-
 require'lspconfig'.sumneko_lua.setup(require("lualsp")) -- Mappings.
 local opts = { noremap=true, silent=true }
 
@@ -334,7 +332,6 @@ mapping = cmp.mapping.preset.insert({
 
 requires = {
     {
-      'tzachar/fuzzy.nvim',
       'quangnguyen30192/cmp-nvim-tags',
       -- if you want the sources is available for some file types
       ft = {
