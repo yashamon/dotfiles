@@ -55,88 +55,88 @@ let g:neovide_floating_blur_amount_y = 3.0
 " let g:neovide_transparency=0.15
 
 "General Settings, set
-set title
-set cmdheight=0
-set signcolumn=yes
-set scrolloff=10
-" set shell=nu
-" let &shell = 'nu'
-" let &shellcmdflag = '-c'
-" let &shellquote = ""
-" let &shellxquote = ""
-set indentexpr=
-set wrap
-set pumblend=20
-" set winblend=15 
-set switchbuf=newtab
-" let g:python3_host_prog='/usr/bin/python3.9'
-" let g:python3_host_prog='/usr/bin/python3.9'
-set clipboard+=unnamedplus	
-" TAB setting{
-set softtabstop=3
-set shiftwidth=3
-" set shell="C:\Program Files\PowerShell\7\pwsh.EXE"
-set termguicolors
-set guicursor=n-v-c:block,i-ci-ve:ver25,r-cr:hor20,o:hor50
- 		  \,a:blinkwait700-blinkoff400-blinkon250-Cursor/lCursor
- 		  \,sm:block-blinkwait175-blinkoff150-blinkon175
-set spelllang=en_us
-" set timeoutlen=0
-set foldmethod=expr
-" set foldexpr=nvim_treesitter#foldexpr()
-set tags+=~/workspacemodules/tags
-set tags+=~\workspacemodules\tags
-set tags+=.\tags
-set tags+=./tags
-" set wrapmargin=1
-" set listchars=eol:¬,tab:>·,trail:~,extends:>,precedes:<,space:␣
-set linebreak 
-set formatoptions+=w " set breakat=" "
-" set list  " list disables linebreak whitespace
-set autochdir
-set guioptions-=r
-set guioptions-=l
-let mapleader=';'
-let g:mapleader=';'
-set inccommand=split
-noremap! <LeftDrag> <nop>
-noremap! <RightDrag> <nop>
-noremap! <LeftDrag> <nop>
-set undofile                " Save undo's after file closes
-set undodir=~/.undo " where to save undo histories
-set undolevels=1000000         " How many undos
-set undoreload=1000000		
-set nohlsearch
-" set noswapfile
-set showmatch		" Cursor shows matching ) and }
-set nocursorline
-set wildchar=<TAB>	" start wild expansion in the command line using <TAB>
-set background=light
-colorscheme gruvbox
-set background=light
-" set tm=1000
-set expandtab        "replace <TAB> with spaces
-set softtabstop=3
-set shiftwidth=3
-"Git autocommit  (nonmain branch)
-set completeopt=menu,menuone,noselect,noinsert
-" Avoid showing message extra message when using completion
-set shortmess+=c
-
-let g:firenvim_config = { 
-    \ 'globalSettings': {
-        \ 'alt': 'all',
-    \  },
-    \ 'localSettings': {
-        \ '.*': {
-            \ 'cmdline': 'neovim',
-            \ 'content': 'text',
-            \ 'priority': 0,
-            \ 'selector': 'textarea',
-            \ 'takeover': 'never',
-        \ },
-    \ }
-\ }
+" set title
+" set cmdheight=0
+" set signcolumn=yes
+" set scrolloff=10
+" " set shell=nu
+" " let &shell = 'nu'
+" " let &shellcmdflag = '-c'
+" " let &shellquote = ""
+" " let &shellxquote = ""
+" set indentexpr=
+" set wrap
+" set pumblend=20
+" " set winblend=15 
+" set switchbuf=newtab
+" " let g:python3_host_prog='/usr/bin/python3.9'
+" " let g:python3_host_prog='/usr/bin/python3.9'
+" set clipboard+=unnamedplus	
+" " TAB setting{
+" set softtabstop=3
+" set shiftwidth=3
+" " set shell="C:\Program Files\PowerShell\7\pwsh.EXE"
+" set termguicolors
+" set guicursor=n-v-c:block,i-ci-ve:ver25,r-cr:hor20,o:hor50
+"  		  \,a:blinkwait700-blinkoff400-blinkon250-Cursor/lCursor
+"  		  \,sm:block-blinkwait175-blinkoff150-blinkon175
+" set spelllang=en_us
+" " set timeoutlen=0
+" set foldmethod=expr
+" " set foldexpr=nvim_treesitter#foldexpr()
+" set tags+=~/workspacemodules/tags
+" set tags+=~\workspacemodules\tags
+" set tags+=.\tags
+" set tags+=./tags
+" " set wrapmargin=1
+" " set listchars=eol:¬,tab:>·,trail:~,extends:>,precedes:<,space:␣
+" set linebreak 
+" set formatoptions+=w " set breakat=" "
+" " set list  " list disables linebreak whitespace
+" set autochdir
+" set guioptions-=r
+" set guioptions-=l
+" let mapleader=';'
+" let g:mapleader=';'
+" set inccommand=split
+" noremap! <LeftDrag> <nop>
+" noremap! <RightDrag> <nop>
+" noremap! <LeftDrag> <nop>
+" set undofile                " Save undo's after file closes
+" set undodir=~/.undo " where to save undo histories
+" set undolevels=1000000         " How many undos
+" set undoreload=1000000		
+" set nohlsearch
+" " set noswapfile
+" set showmatch		" Cursor shows matching ) and }
+" set nocursorline
+" set wildchar=<TAB>	" start wild expansion in the command line using <TAB>
+" set background=light
+" colorscheme gruvbox
+" set background=light
+" " set tm=1000
+" set expandtab        "replace <TAB> with spaces
+" set softtabstop=3
+" set shiftwidth=3
+" "Git autocommit  (nonmain branch)
+" set completeopt=menu,menuone,noselect,noinsert
+" " Avoid showing message extra message when using completion
+" set shortmess+=c
+"
+" let g:firenvim_config = { 
+"     \ 'globalSettings': {
+"         \ 'alt': 'all',
+"     \  },
+"     \ 'localSettings': {
+"         \ '.*': {
+"             \ 'cmdline': 'neovim',
+"             \ 'content': 'text',
+"             \ 'priority': 0,
+"             \ 'selector': 'textarea',
+"             \ 'takeover': 'never',
+"         \ },
+"     \ }
+" \ }
 "Autosave and autocommit   
 " let g:updatetime = 10000
 " let g:auto_save = 0

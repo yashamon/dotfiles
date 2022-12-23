@@ -55,88 +55,88 @@
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:55:: " let g:neovide_transparency=0.15
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:56:: 
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:57:: "General Settings, set
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:58:: set title
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:59:: set cmdheight=0
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:60:: set signcolumn=yes
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:61:: set scrolloff=10
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:62:: " set shell=nu
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:63:: " let &shell = 'nu'
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:64:: " let &shellcmdflag = ' c'
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:65:: " let &shellquote = ""
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:66:: " let &shellxquote = ""
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:67:: set indentexpr=
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:68:: set wrap
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:69:: set pumblend=20
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:70:: " set winblend=15 
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:71:: set switchbuf=newtab
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:72:: " let g:python3_host_prog='/usr/bin/python3.9'
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:73:: " let g:python3_host_prog='/usr/bin/python3.9'
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:74:: set clipboard+=unnamedplus	
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:75:: " TAB setting{
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:76:: set softtabstop=3
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:77:: set shiftwidth=3
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:78:: " set shell="C: Program Files PowerShell 7 pwsh.EXE"
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:79:: set termguicolors
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:80:: set guicursor=n v c:block,i ci ve:ver25,r cr:hor20,o:hor50
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:81::  		   ,a:blinkwait700 blinkoff400 blinkon250 Cursor/lCursor
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:82::  		   ,sm:block blinkwait175 blinkoff150 blinkon175
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:83:: set spelllang=en_us
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:84:: " set timeoutlen=0
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:85:: set foldmethod=expr
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:86:: " set foldexpr=nvim_treesitter#foldexpr()
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:87:: set tags+=~/workspacemodules/tags
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:88:: set tags+=~ workspacemodules tags
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:89:: set tags+=. tags
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:90:: set tags+=./tags
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:91:: " set wrapmargin=1
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:92:: " set listchars=eol:¬,tab:>·,trail:~,extends:>,precedes:<,space:␣
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:93:: set linebreak 
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:94:: set formatoptions+=w " set breakat=" "
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:95:: " set list  " list disables linebreak whitespace
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:96:: set autochdir
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:97:: set guioptions =r
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:98:: set guioptions =l
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:99:: let mapleader=';'
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:100:: let g:mapleader=';'
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:101:: set inccommand=split
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:102:: noremap! <LeftDrag> <nop>
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:103:: noremap! <RightDrag> <nop>
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:104:: noremap! <LeftDrag> <nop>
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:105:: set undofile                " Save undo's after file closes
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:106:: set undodir=~/.undo " where to save undo histories
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:107:: set undolevels=1000000         " How many undos
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:108:: set undoreload=1000000		
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:109:: set nohlsearch
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:110:: " set noswapfile
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:111:: set showmatch		" Cursor shows matching ) and 
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:112:: set nocursorline
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:113:: set wildchar=<TAB>	" start wild expansion in the command line using <TAB>
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:114:: set background=light
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:115:: colorscheme gruvbox
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:116:: set background=light
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:117:: " set tm=1000
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:118:: set expandtab        "replace <TAB> with spaces
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:119:: set softtabstop=3
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:120:: set shiftwidth=3
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:121:: "Git autocommit  (nonmain branch)
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:122:: set completeopt=menu,menuone,noselect,noinsert
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:123:: " Avoid showing message extra message when using completion
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:124:: set shortmess+=c
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:125:: 
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:126:: let g:firenvim_config = { 
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:127::       'globalSettings': {
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:128::           'alt': 'all',
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:129::        ,
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:130::       'localSettings': {
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:131::           '.*': {
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:132::               'cmdline': 'neovim',
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:133::               'content': 'text',
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:134::               'priority': 0,
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:135::               'selector': 'textarea',
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:136::               'takeover': 'never',
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:137::           ,
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:138::       
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:139::   
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:58:: " set title
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:59:: " set cmdheight=0
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:60:: " set signcolumn=yes
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:61:: " set scrolloff=10
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:62:: " " set shell=nu
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:63:: " " let &shell = 'nu'
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:64:: " " let &shellcmdflag = ' c'
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:65:: " " let &shellquote = ""
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:66:: " " let &shellxquote = ""
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:67:: " set indentexpr=
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:68:: " set wrap
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:69:: " set pumblend=20
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:70:: " " set winblend=15 
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:71:: " set switchbuf=newtab
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:72:: " " let g:python3_host_prog='/usr/bin/python3.9'
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:73:: " " let g:python3_host_prog='/usr/bin/python3.9'
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:74:: " set clipboard+=unnamedplus	
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:75:: " " TAB setting{
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:76:: " set softtabstop=3
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:77:: " set shiftwidth=3
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:78:: " " set shell="C: Program Files PowerShell 7 pwsh.EXE"
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:79:: " set termguicolors
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:80:: " set guicursor=n v c:block,i ci ve:ver25,r cr:hor20,o:hor50
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:81:: "  		   ,a:blinkwait700 blinkoff400 blinkon250 Cursor/lCursor
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:82:: "  		   ,sm:block blinkwait175 blinkoff150 blinkon175
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:83:: " set spelllang=en_us
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:84:: " " set timeoutlen=0
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:85:: " set foldmethod=expr
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:86:: " " set foldexpr=nvim_treesitter#foldexpr()
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:87:: " set tags+=~/workspacemodules/tags
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:88:: " set tags+=~ workspacemodules tags
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:89:: " set tags+=. tags
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:90:: " set tags+=./tags
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:91:: " " set wrapmargin=1
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:92:: " " set listchars=eol:¬,tab:>·,trail:~,extends:>,precedes:<,space:␣
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:93:: " set linebreak 
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:94:: " set formatoptions+=w " set breakat=" "
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:95:: " " set list  " list disables linebreak whitespace
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:96:: " set autochdir
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:97:: " set guioptions =r
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:98:: " set guioptions =l
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:99:: " let mapleader=';'
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:100:: " let g:mapleader=';'
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:101:: " set inccommand=split
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:102:: " noremap! <LeftDrag> <nop>
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:103:: " noremap! <RightDrag> <nop>
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:104:: " noremap! <LeftDrag> <nop>
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:105:: " set undofile                " Save undo's after file closes
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:106:: " set undodir=~/.undo " where to save undo histories
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:107:: " set undolevels=1000000         " How many undos
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:108:: " set undoreload=1000000		
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:109:: " set nohlsearch
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:110:: " " set noswapfile
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:111:: " set showmatch		" Cursor shows matching ) and 
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:112:: " set nocursorline
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:113:: " set wildchar=<TAB>	" start wild expansion in the command line using <TAB>
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:114:: " set background=light
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:115:: " colorscheme gruvbox
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:116:: " set background=light
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:117:: " " set tm=1000
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:118:: " set expandtab        "replace <TAB> with spaces
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:119:: " set softtabstop=3
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:120:: " set shiftwidth=3
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:121:: " "Git autocommit  (nonmain branch)
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:122:: " set completeopt=menu,menuone,noselect,noinsert
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:123:: " " Avoid showing message extra message when using completion
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:124:: " set shortmess+=c
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:125:: "
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:126:: " let g:firenvim_config = { 
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:127:: "       'globalSettings': {
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:128:: "           'alt': 'all',
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:129:: "        ,
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:130:: "       'localSettings': {
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:131:: "           '.*': {
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:132:: "               'cmdline': 'neovim',
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:133:: "               'content': 'text',
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:134:: "               'priority': 0,
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:135:: "               'selector': 'textarea',
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:136:: "               'takeover': 'never',
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:137:: "           ,
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:138:: "       
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:139:: "   
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:140:: "Autosave and autocommit   
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:141:: " let g:updatetime = 10000
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:142:: " let g:auto_save = 0
