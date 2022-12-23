@@ -1,6 +1,6 @@
 local opt = vim.opt
 vim.opt.backup = false
-opt.ignorecase = true
+-- opt.ignorecase = true
 opt.smartcase = true
 --
 -- " set ignorecase		" ignore case when searching
