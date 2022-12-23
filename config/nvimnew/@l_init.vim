@@ -90,7 +90,7 @@
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:90:: set spelllang=en_us
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:91:: " set timeoutlen=0
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:92:: set foldmethod=expr
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:93:: set foldexpr=nvim_treesitter#foldexpr()
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:93:: " set foldexpr=nvim_treesitter#foldexpr()
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:94:: set tags+=~/workspacemodules/tags
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:95:: set tags+=~ workspacemodules tags
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:96:: set tags+=. tags
