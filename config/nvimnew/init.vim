@@ -125,6 +125,15 @@ set background=light
 colorscheme gruvbox
 set background=light
 set tm=1000
+"Autosave and autocommit   
+" let g:updatetime = 10000
+let g:auto_save = 0
+" .vimrc
+let g:auto_save_events = ["CursorHold"]
+"au FileType vim let g:autosave = 0
+let g:auto_save_in_insert_mode = 0
+let g:auto_save_silent = 1
+
 hi SpellBad cterm=underline
 hi SpellBad gui=undercurl guisp=white
 "
@@ -418,6 +427,7 @@ nnoremap <leader>p :FZFNeoyank +<cr>
 nnoremap <leader>1 :FZFNeoyank 1<cr>
 nnoremap <leader>P :FZFNeoyank " P+<cr>
 vnoremap <leader>p :FZFNeoyankSelection +<cr>
+
 " Latex maps
 nmap <leader>v :call ViewPdf()<cr><cr>
 map <m-v> <esc>:call ViewPdf()<cr><cr>
@@ -547,8 +557,6 @@ endfunction
 
 function! ViewPdf() 
 wa
-" let g:buffmain=bufname()
-" silent execute "!echo " . v:servername . ' > C:/Users/yasha/servername.txt'
 let buf=bufname()
 lua Server()
 let linenumber=line(".")
@@ -566,14 +574,6 @@ let execstrWindows="silent te pwsh -c C:/Users/yasha/scoop/shims/sumatrapdf.EXE 
 exec execstrWindows
 silent execute "buffer" buf
 endfunction
-"Autosave and autocommit   
-" let g:updatetime = 10000
-let g:auto_save = 0
-" .vimrc
-let g:auto_save_events = ["CursorHold"]
-"au FileType vim let g:autosave = 0
-let g:auto_save_in_insert_mode = 0
-let g:auto_save_silent = 1
 
 "Git autocommit  (nonmain branch)
 autocmd BufWritePost * lua GitAsync()
