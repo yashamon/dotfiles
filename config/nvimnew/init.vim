@@ -542,16 +542,12 @@ command! -bang -nargs=* BLinesB
 function ToggleQuickFix()
       if empty(filter(getwininfo(), 'v:val.quickfix'))
       exec "w"
-        " lua require("true-zen.ataraxis") .off()
-        " lua require("zen-mode").close()
         let b:filenamedir=expand('%:p:h')
         echo b:filenamedir
         let b:filename=expand('%:t:r')
         let b:errors=b:filenamedir . "/build/" . b:filename .".log"
-        echo b:errors
         exec "cg" b:errors
         copen
-        " lua require('telescope.builtin').quickfix({layout_strategy='vertical',layout_config={width=0.9}})
         lua <<EOF
         if vim.w.bqf_enabled then
     local winid = vim.api.nvim_get_current_win()

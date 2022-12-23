@@ -542,72 +542,68 @@
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:542:: function ToggleQuickFix()
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:543::       if empty(filter(getwininfo(), 'v:val.quickfix'))
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:544::       exec "w"
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:545::         " lua require("true zen.ataraxis") .off()
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:546::         " lua require("zen mode").close()
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:547::         let b:filenamedir=expand('%:p:h')
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:548::         echo b:filenamedir
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:549::         let b:filename=expand('%:t:r')
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:550::         let b:errors=b:filenamedir . "/build/" . b:filename .".log"
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:551::         echo b:errors
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:552::         exec "cg" b:errors
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:553::         copen
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:554::         " lua require('telescope.builtin').quickfix({layout_strategy='vertical',layout_config={width=0.9)
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:555::         lua <<EOF
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:556::         if vim.w.bqf_enabled then
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:557::     local winid = vim.api.nvim_get_current_win()
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:558::     vim.schedule(function()
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:559::         vim.api.nvim_win_call(winid, function()
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:560::             vim.api.nvim_feedkeys('zffatal', 'im', false)
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:561::         end)
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:562::     end)
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:563:: end
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:564:: EOF
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:565::         endif
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:566:: endfunction 
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:567:: 
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:568:: nnoremap <leader>e :silent call ToggleQuickFix()<CR>
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:569:: function! ClearLatex()
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:570::   silent !rm ./build/* 
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:571:: endfunction 
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:572:: command! SEND call Send()
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:573:: function! Send()
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:574::   " silent call ClearLatex()
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:575::   let b:filenamedir=expand('%:p:h')
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:576::   let b:filename=expand('%:t:r')
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:577::   let buf=bufname()
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:578::   let b:pdf=b:filenamedir . "/build/" . b:filename .".pdf" 
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:579::   let execstr="silent te pwsh  c send " . b:pdf
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:580::   echo execstr
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:581::   exec execstr
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:582::   silent execute "buffer" buf
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:583::   " call feedkeys(" <cr>")
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:584:: endfunction
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:585:: function! CompileLatex()
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:586::   " silent call ClearLatex()
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:587::   let buf=bufname()
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:588::   silent te pwsh  c latexmk  pvc  halt on error  synctex=1  file line error  f %
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:589::   silent execute "buffer" buf
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:590::   call ViewPdf()
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:591::   call feedkeys(" <cr>")
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:592:: endfunction
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:593:: 
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:594:: function! ViewPdf() 
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:595:: wa
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:596:: let buf=bufname()
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:597:: lua Server()
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:598:: let linenumber=line(".")
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:599:: let colnumber=col(".")
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:600:: let b:filenamedir=expand('%:p:h')
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:601:: let filenametex=expand('%:p:t')
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:602:: let filenametexwhole=expand('%:p')
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:603:: let filenameroot=expand('%:t:r')
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:604:: " let filenamePDF=filename[: 4 ."pdf"
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:605:: let filenamePDFLinux=b:filenamedir . "/buildback/" . filenameroot . ".pdf"
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:606:: let b:filenamePDFWindows="build  " . filenameroot . ".pdf"
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:607:: " echo b:filenamePDFWindows
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:608:: let execstrLinux="silent te zathura   synctex forward " . linenumber . ":" . colnumber . ":" . filenametexwhole . " " . filenamePDFLinux
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:609:: let execstrWindows="silent te pwsh  c C:/Users/yasha/scoop/shims/sumatrapdf.EXE  reuse instance " . b:filenamePDFWindows . "  forward search " . filenametex . " " . linenumber
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:610:: exec execstrWindows
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:611:: silent execute "buffer" buf
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:612:: endfunction
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:613:: 
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:545::         let b:filenamedir=expand('%:p:h')
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:546::         echo b:filenamedir
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:547::         let b:filename=expand('%:t:r')
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:548::         let b:errors=b:filenamedir . "/build/" . b:filename .".log"
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:549::         exec "cg" b:errors
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:550::         copen
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:551::         lua <<EOF
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:552::         if vim.w.bqf_enabled then
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:553::     local winid = vim.api.nvim_get_current_win()
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:554::     vim.schedule(function()
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:555::         vim.api.nvim_win_call(winid, function()
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:556::             vim.api.nvim_feedkeys('zffatal', 'im', false)
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:557::         end)
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:558::     end)
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:559:: end
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:560:: EOF
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:561::         endif
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:562:: endfunction 
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:563:: 
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:564:: nnoremap <leader>e :silent call ToggleQuickFix()<CR>
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:565:: function! ClearLatex()
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:566::   silent !rm ./build/* 
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:567:: endfunction 
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:568:: command! SEND call Send()
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:569:: function! Send()
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:570::   " silent call ClearLatex()
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:571::   let b:filenamedir=expand('%:p:h')
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:572::   let b:filename=expand('%:t:r')
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:573::   let buf=bufname()
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:574::   let b:pdf=b:filenamedir . "/build/" . b:filename .".pdf" 
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:575::   let execstr="silent te pwsh  c send " . b:pdf
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:576::   echo execstr
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:577::   exec execstr
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:578::   silent execute "buffer" buf
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:579::   " call feedkeys(" <cr>")
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:580:: endfunction
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:581:: function! CompileLatex()
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:582::   " silent call ClearLatex()
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:583::   let buf=bufname()
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:584::   silent te pwsh  c latexmk  pvc  halt on error  synctex=1  file line error  f %
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:585::   silent execute "buffer" buf
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:586::   call ViewPdf()
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:587::   call feedkeys(" <cr>")
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:588:: endfunction
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:589:: 
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:590:: function! ViewPdf() 
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:591:: wa
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:592:: let buf=bufname()
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:593:: lua Server()
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:594:: let linenumber=line(".")
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:595:: let colnumber=col(".")
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:596:: let b:filenamedir=expand('%:p:h')
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:597:: let filenametex=expand('%:p:t')
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:598:: let filenametexwhole=expand('%:p')
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:599:: let filenameroot=expand('%:t:r')
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:600:: " let filenamePDF=filename[: 4 ."pdf"
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:601:: let filenamePDFLinux=b:filenamedir . "/buildback/" . filenameroot . ".pdf"
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:602:: let b:filenamePDFWindows="build  " . filenameroot . ".pdf"
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:603:: " echo b:filenamePDFWindows
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:604:: let execstrLinux="silent te zathura   synctex forward " . linenumber . ":" . colnumber . ":" . filenametexwhole . " " . filenamePDFLinux
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:605:: let execstrWindows="silent te pwsh  c C:/Users/yasha/scoop/shims/sumatrapdf.EXE  reuse instance " . b:filenamePDFWindows . "  forward search " . filenametex . " " . linenumber
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:606:: exec execstrWindows
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:607:: silent execute "buffer" buf
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:608:: endfunction
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:609:: 
