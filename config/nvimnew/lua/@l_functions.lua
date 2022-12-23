@@ -85,7 +85,7 @@
  C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:85::     {
  C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:86::       callback = function()
  C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:87::         vim.fn.timer_stop(timer)
- C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:88::         timer = vim.fn.timer_start(500, do_complete)
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:88::         timer = vim.fn.timer_start(200, do_complete)
  C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:89::       end,
  C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:90::       pattern = "*",
  C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:91::     

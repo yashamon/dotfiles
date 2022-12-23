@@ -85,7 +85,7 @@ local timer = 0
     {
       callback = function()
         vim.fn.timer_stop(timer)
-        timer = vim.fn.timer_start(500, do_complete)
+        timer = vim.fn.timer_start(200, do_complete)
       end,
       pattern = "*",
     }
