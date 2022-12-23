@@ -14,11 +14,11 @@
  C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:14:: 
  C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:15:: execute 'set runtimepath+=' . s:plug_dir
  C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:16:: call plug#begin(s:plug_dir)
- C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:17:: Plug 'hrsh7th/nvim cmp'
- C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:18:: Plug 'hrsh7th/cmp buffer'
- C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:19:: Plug 'hrsh7th/cmp nvim lsp'
- C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:20:: Plug 'hrsh7th/vim vsnip'
- C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:21:: Plug 'neovim/nvim lspconfig'
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:17:: Plug 'hrsh7th/nvim cmp',  { 'branch': 'main' 
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:18:: Plug 'hrsh7th/cmp buffer',  { 'branch': 'main' 
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:19:: Plug 'hrsh7th/cmp nvim lsp',  { 'branch': 'main' 
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:20:: Plug 'hrsh7th/vim vsnip',  { 'branch': 'main' 
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:21:: Plug 'neovim/nvim lspconfig',  { 'branch': 'main' 
  C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:22:: call plug#end()
  C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:23:: PlugInstall | quit
  C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:24:: 
