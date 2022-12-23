@@ -78,7 +78,7 @@
  C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:78:: 
  C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:79:: local timer = 0
  C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:80::   local function do_complete()
- C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:81::      require('cmp').complete({ reason = require('cmp').ContextReason.Auto )
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:81::     require('cmp').complete({ reason = require('cmp').ContextReason.Auto )
  C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:82::   end
  C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:83::   vim.api.nvim_create_autocmd(
  C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:84::     { "TextChangedI", ,
