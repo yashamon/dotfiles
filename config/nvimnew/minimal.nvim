@@ -58,3 +58,8 @@ EOF
 set ignorecase    " ignore case when searching
 set smartcase     " ignore case if search patte
 
+function! Profile()
+profile start profile.log
+profile func *
+profile file *
+endfunction

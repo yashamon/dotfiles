@@ -58,3 +58,8 @@
  C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:58:: set ignorecase    " ignore case when searching
  C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:59:: set smartcase     " ignore case if search patte
  C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:60:: 
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:61:: function! Profile()
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:62:: profile start profile.log
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:63:: profile func *
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:64:: profile file *
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:65:: endfunction
