@@ -88,7 +88,7 @@
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:88::  		   ,a:blinkwait700 blinkoff400 blinkon250 Cursor/lCursor
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:89::  		   ,sm:block blinkwait175 blinkoff150 blinkon175
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:90:: set spelllang=en_us
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:91:: set timeoutlen=0
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:91:: " set timeoutlen=0
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:92:: set foldmethod=expr
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:93:: set foldexpr=nvim_treesitter#foldexpr()
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:94:: set tags+=~/workspacemodules/tags
@@ -121,7 +121,7 @@
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:121:: set background=light
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:122:: colorscheme gruvbox
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:123:: set background=light
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:124:: set tm=1000
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:124:: " set tm=1000
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:125:: set expandtab        "replace <TAB> with spaces
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:126:: set softtabstop=3
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:127:: set shiftwidth=3

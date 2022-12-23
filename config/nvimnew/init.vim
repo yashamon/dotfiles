@@ -88,7 +88,7 @@ set guicursor=n-v-c:block,i-ci-ve:ver25,r-cr:hor20,o:hor50
  		  \,a:blinkwait700-blinkoff400-blinkon250-Cursor/lCursor
  		  \,sm:block-blinkwait175-blinkoff150-blinkon175
 set spelllang=en_us
-set timeoutlen=0
+" set timeoutlen=0
 set foldmethod=expr
 set foldexpr=nvim_treesitter#foldexpr()
 set tags+=~/workspacemodules/tags
@@ -121,7 +121,7 @@ set wildchar=<TAB>	" start wild expansion in the command line using <TAB>
 set background=light
 colorscheme gruvbox
 set background=light
-set tm=1000
+" set tm=1000
 set expandtab        "replace <TAB> with spaces
 set softtabstop=3
 set shiftwidth=3
