@@ -76,7 +76,6 @@ vim.cmd("buffer " .. buff)
 CG()
 end
 
-require('cmp')
 local timer = 0
   local function do_complete()
     cmp.complete({ reason = cmp.ContextReason.Auto })
@@ -91,4 +90,4 @@ local timer = 0
       pattern = "*",
     }
   )
-test
+
