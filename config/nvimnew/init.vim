@@ -96,7 +96,7 @@ set tags+=~\workspacemodules\tags
 set tags+=.\tags
 set tags+=./tags
 " set wrapmargin=1
-set listchars=eol:¬,tab:>·,trail:~,extends:>,precedes:<,space:␣
+" set listchars=eol:¬,tab:>·,trail:~,extends:>,precedes:<,space:␣
 set linebreak 
 set formatoptions+=w " set breakat=" "
 " set list  " list disables linebreak whitespace

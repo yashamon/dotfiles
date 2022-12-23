@@ -96,7 +96,7 @@
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:96:: set tags+=. tags
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:97:: set tags+=./tags
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:98:: " set wrapmargin=1
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:99:: set listchars=eol:¬,tab:>·,trail:~,extends:>,precedes:<,space:␣
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:99:: " set listchars=eol:¬,tab:>·,trail:~,extends:>,precedes:<,space:␣
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:100:: set linebreak 
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:101:: set formatoptions+=w " set breakat=" "
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:102:: " set list  " list disables linebreak whitespace
