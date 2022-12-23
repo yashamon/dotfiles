@@ -151,45 +151,45 @@ hi SpellBad gui=undercurl guisp=white
 "
 " Autocommands, au
  
-function! OnUIEnter(event)
-	let l:ui = nvim_get_chan_info(a:event.chan)
-	if has_key(l:ui, 'client') && has_key(l:ui.client, 'name')
-		if l:ui.client.name ==# 'Firenvim'
-			set guifont=Fira\ Code:h20
-                        set lines=100
-                        set columns=100
-                        noremap q <esc>:wq<cr>
-		endif
-	endif
-endfunction
-autocmd UIEnter * call OnUIEnter(deepcopy(v:event))
-autocmd ColorScheme * lua vim.api.nvim_set_hl(0, 'LeapMatch', { fg = "black" })
-
-"remember cursor location
-autocmd BufReadPost * if @% !~# '\.git[\/\\]COMMIT_EDITMSG$' && line("'\"") > 1 && line("'\"") <= line("$") | exe "normal! g`\"" | endif
-
-au VIMEnter * let g:buffmain=bufname()
-au FileType tex, vim, lua * lua GitAsync() 
-nnoremap <m-y> viwy:buffer g:buffmain<cr>:<c-r>+<cr><cr>
-au FileType tex setlocal iskeyword+=:
-au Filetype tex,text,md set tw=60
-autocmd BufReadPost,FileReadPost * normal zR
-au FileType Makefile set noexpandtab
-au FileType tex,text set spelllang=en_us
-au FileType tex,text,md set indentexpr=
-au FileType vim set list
-autocmd Filetype tex setlocal wrapmargin=0
-"maps remaps mappings  
+" function! OnUIEnter(event)
+" 	let l:ui = nvim_get_chan_info(a:event.chan)
+" 	if has_key(l:ui, 'client') && has_key(l:ui.client, 'name')
+" 		if l:ui.client.name ==# 'Firenvim'
+" 			set guifont=Fira\ Code:h20
+"                         set lines=100
+"                         set columns=100
+"                         noremap q <esc>:wq<cr>
+" 		endif
+" 	endif
+" endfunction
+" autocmd UIEnter * call OnUIEnter(deepcopy(v:event))
+" autocmd ColorScheme * lua vim.api.nvim_set_hl(0, 'LeapMatch', { fg = "black" })
 "
-" terminal stuff 
-
-autocmd TermClose * if v:event.status ==1 || v:event.status ==0  | exe 'bdelete! '..expand('<abuf>') | endif
-command! Ser lua Server()
-autocmd BufWritePost * lua GitAsync()
-au Filetype tex,text,md vmap q xi<CR><CR><CR><CR><ESC>kki/begin{comment}<cr><cr>/end{comment}<esc>kp  
-au TextYankPost * lua vim.highlight.on_yank {higroup="IncSearch", timeout=150, on_visual=true}
-au TextYankPost * call neoyank#_append()
-
+" "remember cursor location
+" autocmd BufReadPost * if @% !~# '\.git[\/\\]COMMIT_EDITMSG$' && line("'\"") > 1 && line("'\"") <= line("$") | exe "normal! g`\"" | endif
+"
+" au VIMEnter * let g:buffmain=bufname()
+" au FileType tex, vim, lua * lua GitAsync() 
+" nnoremap <m-y> viwy:buffer g:buffmain<cr>:<c-r>+<cr><cr>
+" au FileType tex setlocal iskeyword+=:
+" au Filetype tex,text,md set tw=60
+" autocmd BufReadPost,FileReadPost * normal zR
+" au FileType Makefile set noexpandtab
+" au FileType tex,text set spelllang=en_us
+" au FileType tex,text,md set indentexpr=
+" au FileType vim set list
+" autocmd Filetype tex setlocal wrapmargin=0
+" "maps remaps mappings  
+" "
+" " terminal stuff 
+"
+" autocmd TermClose * if v:event.status ==1 || v:event.status ==0  | exe 'bdelete! '..expand('<abuf>') | endif
+" command! Ser lua Server()
+" autocmd BufWritePost * lua GitAsync()
+" au Filetype tex,text,md vmap q xi<CR><CR><CR><CR><ESC>kki/begin{comment}<cr><cr>/end{comment}<esc>kp  
+" au TextYankPost * lua vim.highlight.on_yank {higroup="IncSearch", timeout=150, on_visual=true}
+" au TextYankPost * call neoyank#_append()
+"
 
 "--------------------------------------------------------------------------- 
 " USEFUL SHORTCUTS
@@ -474,7 +474,6 @@ nnoremap <C-c> :set hlsearch!<cr>
 xnoremap <silent> <cr> "*y:silent! let searchTerm = '\V'.substitute(escape(@*, '\/'), "\n", '\\n', "g") <bar> let @/ = searchTerm <bar> echo '/'.@/ <bar> call histadd("search", searchTerm) <bar> set hls<cr>
 inoremap <m-d> <C-w>
 
-imap <silent><expr> <Tab> luasnip#expand_or_jumpable() ? '<Plug>luasnip-expand-or-jump' : '<Tab>' 
 " -1 for jumping backwards.
 inoremap <silent> <S-Tab> <cmd>lua require'luasnip'.jump(-1)<Cr>
 inoremap <silent> <m-j> <cmd>lua require('luasnip').jump(1)<Cr>
