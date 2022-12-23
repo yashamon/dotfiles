@@ -152,16 +152,6 @@ require('set')
 -- require('telescope').load_extension('fzf')
 EOF
 
-" cmp te 
-" let s:timer = 0
-" autocmd TextChangedI * call s:on_text_changed()
-" function! s:on_text_changed() abort
-"   call timer_stop(s:timer)
-"   let s:timer = timer_start(200, function('s:complete'))
-" endfunction
-" function! s:complete(...) abort
-"   lua require('cmp').complete({ reason = require('cmp').ContextReason.Auto })
-" endfunction
 "Neovide 
 "
 " let g:neovide_maximized=v:true
