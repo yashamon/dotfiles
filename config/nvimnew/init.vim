@@ -157,6 +157,12 @@ au FileType Makefile set noexpandtab
 au FileType tex,text set spelllang=en_us
 au FileType tex,text,md set indentexpr=
 au FileType vim set list
+autocmd Filetype tex setlocal wrapmargin=0
+"maps remaps mappings  
+"
+" terminal stuff 
+
+autocmd TermClose * if v:event.status ==1 || v:event.status ==0  | exe 'bdelete! '..expand('<abuf>') | endif
 command! Ser lua Server()
 
 au Filetype tex,text,md vmap q xi<CR><CR><CR><CR><ESC>kki/begin{comment}<cr><cr>/end{comment}<esc>kp  
@@ -184,13 +190,6 @@ vnoremap > >gv
 
 " :cd. change working directory to that of the current file
 cmap cd. lcd %:p:h
-autocmd Filetype tex setlocal wrapmargin=0
-
-"maps remaps mappings  
-"
-" terminal stuff 
-
-autocmd TermClose * if v:event.status ==1 || v:event.status ==0  | exe 'bdelete! '..expand('<abuf>') | endif
 tnoremap <m-d> <C-\><C-n>:bdelete!<cr>
 tnoremap <A-`> <C-\><C-n>
 tnoremap <A-Esc> <C-\><C-n>
@@ -419,23 +418,28 @@ nnoremap <leader>p :FZFNeoyank +<cr>
 nnoremap <leader>1 :FZFNeoyank 1<cr>
 nnoremap <leader>P :FZFNeoyank " P+<cr>
 vnoremap <leader>p :FZFNeoyankSelection +<cr>
+" Latex maps
+nmap <leader>v :call ViewPdf()<cr><cr>
+map <m-v> <esc>:call ViewPdf()<cr><cr>
+nmap <leader>ll :call CompileLatex()<cr>
+nmap <leader>lcl :call ClearLatex()<cr>
+nmap gtd :TodoQuickFix<cr>
+nmap <leader>ga :TZAtaraxis<CR>
+nmap <leader>gm :up<cr>:silent ! cat % >> ~/workspace/email.txt; cp % /tmp/temp; make4ht /tmp/temp "mathml,mathjax"; pandoc /tmp/temp.html --from html --to markdown_strict -o /tmp/temp.md; mv /tmp/temp.md %<cr>:e %<cr>:up<cr>:qa<cr>
 
-"Pounce
+" Lsp mappings
+nnoremap <silent> g? <cmd>lua vim.diagnostic.open_float()<CR>
+noremap ga  :lua vim.lsp.buf.code_action()<CR>
+noremap <leader>la  :lua vim.lsp.buf.code_action()<CR>
+nmap <leader>c gc
+
+"Leap
 map t <Plug>(leap-forward)
 map T <Plug>(leap-backward)
-" " nmap S <cmd>PounceRepeat<CR>
-" vmap t <cmd>Pounce<CR>
-" omap gt <cmd>Pounce<CR>
-" 's' is used by vim-surround
-
 " Replace the default dictionary completion with fzf-based fuzzy completion
-
 inoremap <expr> <c-x><c-k> fzf#vim#complete('cat /usr/share/dict/words')  
 
-
 "Functions
-
-
 
 " function Light()
 " set background=light
@@ -489,32 +493,6 @@ command! -bang -nargs=* BLinesB
     \   'rg --with-filename --line-number --no-heading --smart-case . '.fnameescape(expand('%')),1,
     \   fzf#vim#with_preview({'options': '--keep-right --layout reverse --query '.shellescape(<q-args>).' --preview "bat -p --color always {}"'}, 'up:50%'))
 
-
-function SentenceLL()
- let g:buf = bufname()
-  " silent execute "!bash /mnt/c/Users/yasha/dotfiles/scripts/sentence.sh %"
-  let b:filenamedir = substitute(expand('%:p:h'), "\\", "/", "g")
-  let b:file = expand('%:p')
-  let b:filename = substitute(b:file, "\\", "/", "g")
-  let b:execstr = "!nu C:/Users/yasha/dotfiles/scripts/sentence.nu " . b:filename
-  exec b:execstr
-  cg @_% 
-  copen 
-  sleep 300m
-  call feedkeys("zf")
-  sleep 100m
-  " lua require('telescope.builtin').quickfix({layout_strategy='vertical',layout_config={width=0.9}})
-  call feedkeys("\<c-r>+\<cr>")
-endfunction
-noremap gs :call SentenceLL()<cr>
-
-" function GitAsync()
-" silent execute "!echo " . v:servername . ' > ~/servername.txt'
-" let g:bufdude = bufname()
-" silent te pwsh -c if ( (git rev-parse --is-inside-work-tree) -and (git rev-parse --git-dir) ) { git add . ; git commit -m -a; git push --all origin; ctags -R }
-" execute "buffer" g:bufdude
-" endfunction
-  
 function ToggleQuickFix()
       if empty(filter(getwininfo(), 'v:val.quickfix'))
       exec "w"
@@ -588,22 +566,6 @@ let execstrWindows="silent te pwsh -c C:/Users/yasha/scoop/shims/sumatrapdf.EXE 
 exec execstrWindows
 silent execute "buffer" buf
 endfunction
-nmap <leader>v :call ViewPdf()<cr><cr>
-map <m-v> <esc>:call ViewPdf()<cr><cr>
-
-" nmap <leader>v :VimtexView<cr>
-" let  g:vimtex_fold_types_defaults = 'preamble, sections, comments'
-nmap <leader>ll :call CompileLatex()<cr>
-nmap <leader>lcl :call ClearLatex()<cr>
-nmap gtd :TodoQuickFix<cr>
-nmap <leader>ga :TZAtaraxis<CR>
-nmap <leader>gm :up<cr>:silent ! cat % >> ~/workspace/email.txt; cp % /tmp/temp; make4ht /tmp/temp "mathml,mathjax"; pandoc /tmp/temp.html --from html --to markdown_strict -o /tmp/temp.md; mv /tmp/temp.md %<cr>:e %<cr>:up<cr>:qa<cr>
-
-" Lsp mappings
-nnoremap <silent> g? <cmd>lua vim.diagnostic.open_float()<CR>
-noremap ga  :lua vim.lsp.buf.code_action()<CR>
-noremap <leader>la  :lua vim.lsp.buf.code_action()<CR>
-nmap <leader>c gc
 "Autosave and autocommit   
 " let g:updatetime = 10000
 let g:auto_save = 0
