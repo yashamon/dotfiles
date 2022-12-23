@@ -125,6 +125,28 @@ set background=light
 colorscheme gruvbox
 set background=light
 set tm=1000
+set expandtab        "replace <TAB> with spaces
+set softtabstop=3
+set shiftwidth=3
+"Git autocommit  (nonmain branch)
+set completeopt=menu,menuone,noselect,noinsert
+" Avoid showing message extra message when using completion
+set shortmess+=c
+
+let g:firenvim_config = { 
+    \ 'globalSettings': {
+        \ 'alt': 'all',
+    \  },
+    \ 'localSettings': {
+        \ '.*': {
+            \ 'cmdline': 'neovim',
+            \ 'content': 'text',
+            \ 'priority': 0,
+            \ 'selector': 'textarea',
+            \ 'takeover': 'never',
+        \ },
+    \ }
+\ }
 "Autosave and autocommit   
 " let g:updatetime = 10000
 let g:auto_save = 0
@@ -173,15 +195,11 @@ autocmd Filetype tex setlocal wrapmargin=0
 
 autocmd TermClose * if v:event.status ==1 || v:event.status ==0  | exe 'bdelete! '..expand('<abuf>') | endif
 command! Ser lua Server()
-
+autocmd BufWritePost * lua GitAsync()
 au Filetype tex,text,md vmap q xi<CR><CR><CR><CR><ESC>kki/begin{comment}<cr><cr>/end{comment}<esc>kp  
-
 au TextYankPost * lua vim.highlight.on_yank {higroup="IncSearch", timeout=150, on_visual=true}
 au TextYankPost * call neoyank#_append()
 
-set expandtab        "replace <TAB> with spaces
-set softtabstop=3
-set shiftwidth=3
 
 "--------------------------------------------------------------------------- 
 " USEFUL SHORTCUTS
@@ -574,27 +592,6 @@ let execstrWindows="silent te pwsh -c C:/Users/yasha/scoop/shims/sumatrapdf.EXE 
 exec execstrWindows
 silent execute "buffer" buf
 endfunction
-
-"Git autocommit  (nonmain branch)
-autocmd BufWritePost * lua GitAsync()
-set completeopt=menu,menuone,noselect,noinsert
-" Avoid showing message extra message when using completion
-set shortmess+=c
-
-let g:firenvim_config = { 
-    \ 'globalSettings': {
-        \ 'alt': 'all',
-    \  },
-    \ 'localSettings': {
-        \ '.*': {
-            \ 'cmdline': 'neovim',
-            \ 'content': 'text',
-            \ 'priority': 0,
-            \ 'selector': 'textarea',
-            \ 'takeover': 'never',
-        \ },
-    \ }
-\ }
 
 ""other maps
 inoremap <cr> <cr><space><esc>"_s
