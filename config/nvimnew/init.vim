@@ -30,7 +30,6 @@ Plug 'Shougo/denite.nvim', { 'do': ':UpdateRemotePlugins' }
 Plug 'skywind3000/asyncrun.vim'
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } } 
 Plug 'junegunn/fzf.vim'
-Plug 'yuki-yano/fzf-preview.vim', { 'branch': 'release/remote', 'do': ':UpdateRemotePlugins' }
 Plug 'mbbill/undotree', { 'on': 'UndotreeToggle' }
 Plug 'lewis6991/spellsitter.nvim'
 Plug 'kevinhwang91/nvim-bqf', { 'branch': 'main' }
