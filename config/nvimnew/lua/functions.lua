@@ -78,7 +78,7 @@ end
 
 local timer = 0
   local function do_complete()
-    cmp.complete({ reason = cmp.ContextReason.Auto })
+     require('cmp').complete({ reason = require('cmp').ContextReason.Auto })
   end
   vim.api.nvim_create_autocmd(
     { "TextChangedI", },
