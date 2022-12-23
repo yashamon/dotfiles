@@ -241,7 +241,6 @@ set formatoptions+=w " set breakat=" "
 " set list  " list disables linebreak whitespace
 " set textwidth=0
 " set wrapmargin=-1
-set hid
 set autochdir
 set guioptions-=r
 set guioptions-=l
