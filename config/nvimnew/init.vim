@@ -139,12 +139,12 @@ let g:firenvim_config = {
 \ }
 "Autosave and autocommit   
 " let g:updatetime = 10000
-let g:auto_save = 0
-" .vimrc
-let g:auto_save_events = ["CursorHold"]
-"au FileType vim let g:autosave = 0
-let g:auto_save_in_insert_mode = 0
-let g:auto_save_silent = 1
+" let g:auto_save = 0
+" " .vimrc
+" let g:auto_save_events = ["CursorHold"]
+" "au FileType vim let g:autosave = 0
+" let g:auto_save_in_insert_mode = 0
+" let g:auto_save_silent = 1
 
 hi SpellBad cterm=underline
 hi SpellBad gui=undercurl guisp=white

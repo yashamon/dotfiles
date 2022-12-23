@@ -139,12 +139,12 @@
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:139::   
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:140:: "Autosave and autocommit   
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:141:: " let g:updatetime = 10000
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:142:: let g:auto_save = 0
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:143:: " .vimrc
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:144:: let g:auto_save_events = ["CursorHold" 
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:145:: "au FileType vim let g:autosave = 0
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:146:: let g:auto_save_in_insert_mode = 0
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:147:: let g:auto_save_silent = 1
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:142:: " let g:auto_save = 0
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:143:: " " .vimrc
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:144:: " let g:auto_save_events = ["CursorHold" 
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:145:: " "au FileType vim let g:autosave = 0
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:146:: " let g:auto_save_in_insert_mode = 0
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:147:: " let g:auto_save_silent = 1
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:148:: 
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:149:: hi SpellBad cterm=underline
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:150:: hi SpellBad gui=undercurl guisp=white
