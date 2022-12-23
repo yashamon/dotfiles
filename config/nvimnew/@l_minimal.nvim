@@ -33,7 +33,7 @@
  C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:33::   ,
  C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:34:: 
  C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:35::   mapping = {
- C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:36::     ['<CR>'  = cmp.mapping.confirm({ select = true )
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:36::     ['<CR>'  = cmp.mapping.confirm({ select = true ),
  C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:37::     ['<Tab>'  = cmp.mapping.complete()
  C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:38:: 
  C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:39::   ,
