@@ -34,8 +34,8 @@
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:34:: Plug 'kevinhwang91/nvim bqf', { 'branch': 'main' 
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:35:: Plug 'nvim lua/plenary.nvim'
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:36:: Plug 'nvim telescope/telescope.nvim'
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:37:: " Plug 'mg979/vim visual multi'
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:38:: " Plug 'tpope/vim surround'
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:37:: Plug 'mg979/vim visual multi'
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:38:: Plug 'tpope/vim surround'
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:39:: 
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:40:: call plug#end()
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:41:: lua <<EOF
