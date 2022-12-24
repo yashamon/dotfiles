@@ -376,7 +376,7 @@
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:376:: function! s:mybuild_quickfix_list(lines)
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:377::   call setloclist(1000, [ )
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:378::   " call setloclist(1000, map(copy(a:lines), '{ "filename": v:val '))
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:379::   lua  Feedkey('<m c>')
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:379::   lua  Feedkey('<esc><m c>')
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:380:: endfunction
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:381:: " function! s:myquick()
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:382:: "    lua Feedkey('<c a>')

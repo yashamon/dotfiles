@@ -376,7 +376,7 @@ let g:fzf_layout = { 'window': { 'width': 1, 'height': 1 } }
 function! s:mybuild_quickfix_list(lines)
   call setloclist(1000, [])
   " call setloclist(1000, map(copy(a:lines), '{ "filename": v:val }'))
-  lua  Feedkey('<m-c>')
+  lua  Feedkey('<esc><m-c>')
 endfunction
 " function! s:myquick()
 "    lua Feedkey('<c-a>')
