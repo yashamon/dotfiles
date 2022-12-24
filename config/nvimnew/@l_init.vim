@@ -386,7 +386,7 @@
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:386::     'ctrl q': function('s:build_quickfix_list'),
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:387::     'ctrl t': 'tab split',
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:388::     'ctrl x': 'split',
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:389::     'ctrl m': function('s:myquick()') 
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:389::     'ctrl m': function('s:myquick') 
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:390:: 
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:391:: let  FZF_DEFAULT_OPTS = '  bind ctrl a:select all'
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:392:: " let g:fzf_preview_window = [ 

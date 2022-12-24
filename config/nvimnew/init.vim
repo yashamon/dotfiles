@@ -386,7 +386,7 @@ let g:fzf_action = {
   \ 'ctrl-q': function('s:build_quickfix_list'),
   \ 'ctrl-t': 'tab split',
   \ 'ctrl-x': 'split',
-  \ 'ctrl-m': function('s:myquick()') }
+  \ 'ctrl-m': function('s:myquick') }
 
 let $FZF_DEFAULT_OPTS = '--bind ctrl-a:select-all'
 " let g:fzf_preview_window = []
