@@ -374,14 +374,14 @@
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:374:: " FZF 
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:375:: let g:fzf_layout = { 'window': { 'width': 1, 'height': 1  
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:376:: 
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:377:: function! s:build_quickfix_list(lines)
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:377:: function! s:newquick()
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:378::   lua Feedkey('<c a>', 'im')
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:379::   " call setqflist(map(copy(a:lines), '{ "filename": v:val '))
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:380::  " call feedkeys(" <m c>")
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:379::   call setqflist(map(copy(a:lines), '{ "filename": v:val '))
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:380::   call feedkeys(" <m c>")
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:381:: endfunction
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:382:: 
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:383:: let g:fzf_action = {
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:384::     'ctrl q': function('s:build_quickfix_list'),
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:384::     'ctrl q': function('s:newquick'),
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:385::     'ctrl t': 'tab split',
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:386::     'ctrl x': 'split',
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:387::     'ctrl v': 'vsplit' 
