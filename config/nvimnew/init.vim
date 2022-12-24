@@ -377,7 +377,7 @@ let g:fzf_layout = { 'window': { 'width': 1, 'height': 1 } }
 function! s:build_quickfix_list(lines)
   call feedkeys("\<c-a>")
   " call setqflist(map(copy(a:lines), '{ "filename": v:val }'))
- call feedkeys("\<m-c>")
+ " call feedkeys("\<m-c>")
 endfunction
 
 let g:fzf_action = {
