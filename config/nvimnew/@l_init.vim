@@ -373,11 +373,11 @@
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:373:: 
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:374:: " FZF 
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:375:: let g:fzf_layout = { 'window': { 'width': 1, 'height': 1  
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:376:: function! s:mybuild_quickfix_list(lines)
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:377::   call feedkeys(' <esc>')
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:376:: " function! s:mybuild_quickfix_list(lines)
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:377::   " call feedkeys(' <esc>')
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:378::   " lua  Feedkey('<esc><m c>')
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:379::   " call setloclist(1000, map(copy(a:lines), '{ "filename": v:val '))
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:380:: endfunction
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:380:: " endfunction
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:381:: " function! s:myquick()
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:382:: "    lua Feedkey('<c a>')
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:383:: "    lua Feedkey('<c q>')
