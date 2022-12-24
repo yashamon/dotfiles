@@ -83,7 +83,7 @@ cmd namepaste $cp-p --lf-paste $id
 # map gc :namepaste
 map p $pwsh -c robo.ps1 $Env:fx 
 map gp :paste
-cmd findfile $pwsh -c nu "C:\Users\yasha\dotfiles\scripts\findfile.nu"
+cmd findfile %nu "C:\\Users\\yasha\\dotfiles\\scripts\\findfile.nu"
 map <a-f> :findfile
 
 cmd findfileroot ${{
@@ -104,7 +104,7 @@ map d :cut
 map D :trash
 map gd :delete
 
-cmd fzf_jump $nu "C:\\Users\\yasha\\dotfiles\\scripts\\lfsimplejump.nu"
+cmd fzf_jump $pwsh -c nu "C:\\Users\\yasha\\dotfiles\\scripts\\lfsimplejump.nu"
 #
 # ${{
 #    $res= fd . -H -I -d 1 | fzf --reverse --header='Jump to location'

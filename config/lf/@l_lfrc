@@ -83,7 +83,7 @@
  C:/Users/yasha/dotfiles/config/lf/lfrc:83:: # map gc :namepaste
  C:/Users/yasha/dotfiles/config/lf/lfrc:84:: map p  pwsh  c robo.ps1  Env:fx 
  C:/Users/yasha/dotfiles/config/lf/lfrc:85:: map gp :paste
- C:/Users/yasha/dotfiles/config/lf/lfrc:86:: cmd findfile  pwsh  c nu "C: Users yasha dotfiles scripts findfile.nu"
+ C:/Users/yasha/dotfiles/config/lf/lfrc:86:: cmd findfile %nu "C:  Users  yasha  dotfiles  scripts  findfile.nu"
  C:/Users/yasha/dotfiles/config/lf/lfrc:87:: map <a f> :findfile
  C:/Users/yasha/dotfiles/config/lf/lfrc:88:: 
  C:/Users/yasha/dotfiles/config/lf/lfrc:89:: cmd findfileroot  {{
@@ -104,7 +104,7 @@
  C:/Users/yasha/dotfiles/config/lf/lfrc:104:: map D :trash
  C:/Users/yasha/dotfiles/config/lf/lfrc:105:: map gd :delete
  C:/Users/yasha/dotfiles/config/lf/lfrc:106:: 
- C:/Users/yasha/dotfiles/config/lf/lfrc:107:: cmd fzf_jump  nu "C:  Users  yasha  dotfiles  scripts  lfsimplejump.nu"
+ C:/Users/yasha/dotfiles/config/lf/lfrc:107:: cmd fzf_jump  pwsh  c nu "C:  Users  yasha  dotfiles  scripts  lfsimplejump.nu"
  C:/Users/yasha/dotfiles/config/lf/lfrc:108:: #
  C:/Users/yasha/dotfiles/config/lf/lfrc:109:: #  {{
  C:/Users/yasha/dotfiles/config/lf/lfrc:110:: #     res= fd .  H  I  d 1 | fzf   reverse   header='Jump to location'
