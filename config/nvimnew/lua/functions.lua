@@ -11,14 +11,14 @@ end
 Line = function()
    vim.fn.jobwait({Idline})
    vim.cmd('lopen')
-   if vim.w.bqf_enabled then
-    local winid = vim.api.nvim_get_current_win()
-    vim.schedule(function()
-        vim.api.nvim_win_call(winid, function()
-            vim.api.nvim_feedkeys('zf', 'im', false)
-        end)
-    end)
- end
+ --   if vim.w.bqf_enabled then
+ --    local winid = vim.api.nvim_get_current_win()
+ --    vim.schedule(function()
+ --        vim.api.nvim_win_call(winid, function()
+ --            vim.api.nvim_feedkeys('zf', 'im', false)
+ --        end)
+ --    end)
+ -- end
 end
 
 Sentence = function ()

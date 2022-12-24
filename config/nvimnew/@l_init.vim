@@ -377,16 +377,16 @@
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:377::   call setqflist([ )
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:378::   call setqflist(map(copy(a:lines), '{ "filename": v:val '))
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:379:: endfunction
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:380:: function! s:myquick()
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:381::    lua Feedkey('<c a>')
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:382::    lua Feedkey('<c q>')
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:383::    lua Feedkey('<m c>')
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:384:: endfunction
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:385:: let g:fzf_action = {
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:386::     'ctrl q': function('s:build_quickfix_list'),
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:387::     'ctrl t': 'tab split',
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:388::     'ctrl x': 'split',
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:389::     'ctrl m': function('s:myquick') 
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:380:: " function! s:myquick()
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:381:: "    lua Feedkey('<c a>')
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:382:: "    lua Feedkey('<c q>')
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:383:: "    lua Feedkey('<m c>')
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:384:: " endfunction
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:385:: " let g:fzf_action = {
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:386:: "     'ctrl q': function('s:build_quickfix_list'),
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:387:: "     'ctrl t': 'tab split',
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:388:: "     'ctrl x': 'split',
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:389:: "     'ctrl m': function('s:myquick') 
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:390:: 
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:391:: let  FZF_DEFAULT_OPTS = '  bind ctrl a:select all'
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:392:: " let g:fzf_preview_window = [ 
