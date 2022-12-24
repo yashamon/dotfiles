@@ -383,11 +383,11 @@ let g:fzf_layout = { 'window': { 'width': 1, 'height': 1 } }
 "    lua Feedkey('<c-q>')
 "    lua Feedkey('<m-c>')
 " endfunction
- let g:fzf_action = {
-   \ 'ctrl-q': function('s:mybuild_quickfix_list'),
-   \ 'ctrl-t': 'tab split',
-   \ 'ctrl-x': 'split',
-   \ 'ctrl-m': function('s:mybuild_quickfix_list') }
+ " let g:fzf_action = {
+ "   \ 'ctrl-q': function('s:mybuild_quickfix_list'),
+ "   \ 'ctrl-t': 'tab split',
+ "   \ 'ctrl-x': 'split',
+ "   \ 'ctrl-m': function('s:mybuild_quickfix_list') }
 
 let $FZF_DEFAULT_OPTS = '--bind ctrl-a:select-all'
 " let g:fzf_preview_window = []
