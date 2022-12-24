@@ -11,14 +11,14 @@
  C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:11:: Line = function()
  C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:12::    vim.fn.jobwait({Idline)
  C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:13::    vim.cmd('lopen')
- C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:14::       if vim.w.bqf_enabled then
- C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:15::        local winid = vim.api.nvim_get_current_win()
- C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:16::        vim.schedule(function()
- C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:17::            vim.api.nvim_win_call(winid, function()
- C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:18::                vim.api.nvim_feedkeys('zf', 'im', false)
- C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:19::            end)
- C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:20::        end)
- C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:21::     end
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:14::    if vim.w.bqf_enabled then
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:15::     local winid = vim.api.nvim_get_current_win()
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:16::     vim.schedule(function()
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:17::         vim.api.nvim_win_call(winid, function()
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:18::             vim.api.nvim_feedkeys('zf', 'im', false)
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:19::         end)
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:20::     end)
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:21::  end
  C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:22:: end
  C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:23:: 
  C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:24:: Sentence = function ()
