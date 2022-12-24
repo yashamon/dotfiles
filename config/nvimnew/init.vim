@@ -376,17 +376,18 @@ let g:fzf_layout = { 'window': { 'width': 1, 'height': 1 } }
 function! s:build_quickfix_list(lines)
   call setqflist([])
   call setqflist(map(copy(a:lines), '{ "filename": v:val }'))
+  lua Feedkey('<m-c>')
 endfunction
 " function! s:myquick()
 "    lua Feedkey('<c-a>')
 "    lua Feedkey('<c-q>')
 "    lua Feedkey('<m-c>')
 " endfunction
-" let g:fzf_action = {
-"   \ 'ctrl-q': function('s:build_quickfix_list'),
-"   \ 'ctrl-t': 'tab split',
-"   \ 'ctrl-x': 'split',
-"   \ 'ctrl-m': function('s:myquick') }
+ let g:fzf_action = {
+   \ 'ctrl-q': function('s:build_quickfix_list'),
+   \ 'ctrl-t': 'tab split',
+   \ 'ctrl-x': 'split',
+   \ 'ctrl-m': function('s:myquick') }
 
 let $FZF_DEFAULT_OPTS = '--bind ctrl-a:select-all'
 " let g:fzf_preview_window = []
