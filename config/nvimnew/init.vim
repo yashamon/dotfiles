@@ -373,7 +373,7 @@ inoremap <C-]> <C-x><C-]>
 
 " FZF 
 let g:fzf_layout = { 'window': { 'width': 1, 'height': 1 } }
-function! s:build_quickfix_list(lines)
+function! s:mybuild_quickfix_list(lines)
   call setqflist([])
   " call setqflist(map(copy(a:lines), '{ "filename": v:val }'))
 endfunction
@@ -383,7 +383,7 @@ endfunction
 "    lua Feedkey('<m-c>')
 " endfunction
  let g:fzf_action = {
-   \ 'ctrl-q': function('s:build_quickfix_list'),
+   \ 'ctrl-q': function('s:mybuild_quickfix_list'),
    \ 'ctrl-t': 'tab split',
    \ 'ctrl-x': 'split',
    \ 'ctrl-m': function('s:myquick') }
