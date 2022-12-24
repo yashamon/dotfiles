@@ -389,7 +389,7 @@
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:389:: 
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:390:: let  FZF_DEFAULT_OPTS = '  bind ctrl a:select all'
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:391:: " let g:fzf_preview_window = [ 
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:392:: nnoremap <m t> :up<cr>:BTags<cr>:call feedkeys(" <c a> <c q>")<cr>:copen<cr>
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:392:: nnoremap <m t> :up<cr>:BTags<cr>:call s:myquick()<cr>:lopen<cr>
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:393:: nnoremap <m s> :up<cr>:lua Sentence()<cr>
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:394:: nnoremap S :up<cr>:lua Line()<cr>
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:395:: " TODO:Add :up
