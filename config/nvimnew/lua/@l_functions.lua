@@ -30,7 +30,7 @@
  C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:30:: 
  C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:31:: Sentence = function ()
  C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:32::    vim.fn.jobwait({IdSentence)
- C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:33::    vim.cmd('copen')
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:33::    vim.cmd('lopen')
  C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:34::    if vim.w.bqf_enabled then
  C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:35::     local winid = vim.api.nvim_get_current_win()
  C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:36::     vim.schedule(function()
