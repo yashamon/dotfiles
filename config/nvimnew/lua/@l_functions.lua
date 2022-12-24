@@ -61,10 +61,10 @@
  C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:61::    Idline = vim.fn.jobstart({"nu", "C:/Users/yasha/dotfiles/scripts/Line.nu", filename)
  C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:62::    IdSentence = vim.fn.jobstart({"nu", "C:/Users/yasha/dotfiles/scripts/sentence.nu", filename)
  C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:63::    vim.fn.jobwait({IdSentence)
- C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:64::    local commandsentence = "cg " .. "@s_" .. filenameshort
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:64::    local commandsentence = "lg " .. "@s_" .. filenameshort
  C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:65::    vim.cmd(commandsentence)
  C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:66::    vim.fn.jobwait({Idline)
- C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:67::    local commandline = "cg " .. "@l_" .. filenameshort
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:67::    local commandline = "lg " .. "@l_" .. filenameshort
  C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:68::    vim.cmd(commandline)
  C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:69:: end
  C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:70:: 
