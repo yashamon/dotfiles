@@ -374,8 +374,8 @@ inoremap <C-]> <C-x><C-]>
 " FZF 
 let g:fzf_layout = { 'window': { 'width': 1, 'height': 1 } }
 function! s:mybuild_quickfix_list(lines)
-  call setloclist(0, [])
-  " call setloclist(0, map(copy(a:lines), '{ "filename": v:val }'))
+  " call setloclist(1000, [])
+  call setloclist(1000, map(copy(a:lines), '{ "filename": v:val }'))
   lua  Feedkey('<m-c>')
 endfunction
 " function! s:myquick()
@@ -387,7 +387,7 @@ endfunction
    \ 'ctrl-q': function('s:mybuild_quickfix_list'),
    \ 'ctrl-t': 'tab split',
    \ 'ctrl-x': 'split',
-   \ 'ctrl-m': function('s:myquick') }
+   \ 'ctrl-m': function('s:mybuild_quickfix_list') }
 
 let $FZF_DEFAULT_OPTS = '--bind ctrl-a:select-all'
 " let g:fzf_preview_window = []

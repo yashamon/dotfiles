@@ -374,8 +374,8 @@
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:374:: " FZF 
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:375:: let g:fzf_layout = { 'window': { 'width': 1, 'height': 1  
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:376:: function! s:mybuild_quickfix_list(lines)
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:377::   call setloclist(0, [ )
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:378::   " call setloclist(0, map(copy(a:lines), '{ "filename": v:val '))
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:377::   " call setloclist(1000, [ )
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:378::   call setloclist(1000, map(copy(a:lines), '{ "filename": v:val '))
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:379::   lua  Feedkey('<m c>')
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:380:: endfunction
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:381:: " function! s:myquick()
@@ -387,7 +387,7 @@
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:387::      'ctrl q': function('s:mybuild_quickfix_list'),
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:388::      'ctrl t': 'tab split',
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:389::      'ctrl x': 'split',
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:390::      'ctrl m': function('s:myquick') 
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:390::      'ctrl m': function('s:mybuild_quickfix_list') 
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:391:: 
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:392:: let  FZF_DEFAULT_OPTS = '  bind ctrl a:select all'
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:393:: " let g:fzf_preview_window = [ 
