@@ -90,32 +90,32 @@
  C:/Users/yasha/dotfiles/scripts/user_config.ahk:90:: ;   return
  C:/Users/yasha/dotfiles/scripts/user_config.ahk:91:: ;
  C:/Users/yasha/dotfiles/scripts/user_config.ahk:92:: ;Return
- C:/Users/yasha/dotfiles/scripts/user_config.ahk:93:: #A::{
+ C:/Users/yasha/dotfiles/scripts/user_config.ahk:93:: #A::
  C:/Users/yasha/dotfiles/scripts/user_config.ahk:94:: switchDesktopByNumber(1)
  C:/Users/yasha/dotfiles/scripts/user_config.ahk:95:: Send !{Esc
  C:/Users/yasha/dotfiles/scripts/user_config.ahk:96:: sleep 100
  C:/Users/yasha/dotfiles/scripts/user_config.ahk:97:: Send !{Esc
  C:/Users/yasha/dotfiles/scripts/user_config.ahk:98:: return
  C:/Users/yasha/dotfiles/scripts/user_config.ahk:99:: 
- C:/Users/yasha/dotfiles/scripts/user_config.ahk:100:: #S::{
+ C:/Users/yasha/dotfiles/scripts/user_config.ahk:100:: #S::
  C:/Users/yasha/dotfiles/scripts/user_config.ahk:101:: switchDesktopByNumber(2)
  C:/Users/yasha/dotfiles/scripts/user_config.ahk:102:: Send !{Esc
  C:/Users/yasha/dotfiles/scripts/user_config.ahk:103:: sleep 100
  C:/Users/yasha/dotfiles/scripts/user_config.ahk:104:: Send !{Esc
  C:/Users/yasha/dotfiles/scripts/user_config.ahk:105:: return
  C:/Users/yasha/dotfiles/scripts/user_config.ahk:106:: 
- C:/Users/yasha/dotfiles/scripts/user_config.ahk:107:: #X::{
+ C:/Users/yasha/dotfiles/scripts/user_config.ahk:107:: #X::
  C:/Users/yasha/dotfiles/scripts/user_config.ahk:108:: WinClose A 
  C:/Users/yasha/dotfiles/scripts/user_config.ahk:109:: return
  C:/Users/yasha/dotfiles/scripts/user_config.ahk:110:: 
- C:/Users/yasha/dotfiles/scripts/user_config.ahk:111:: #J::{
+ C:/Users/yasha/dotfiles/scripts/user_config.ahk:111:: #J::
  C:/Users/yasha/dotfiles/scripts/user_config.ahk:112:: switchDesktopByNumber(4)
  C:/Users/yasha/dotfiles/scripts/user_config.ahk:113:: Send !{Esc
  C:/Users/yasha/dotfiles/scripts/user_config.ahk:114:: sleep 100
  C:/Users/yasha/dotfiles/scripts/user_config.ahk:115:: Send !{Esc
  C:/Users/yasha/dotfiles/scripts/user_config.ahk:116:: return
  C:/Users/yasha/dotfiles/scripts/user_config.ahk:117:: 
- C:/Users/yasha/dotfiles/scripts/user_config.ahk:118:: #D::{
+ C:/Users/yasha/dotfiles/scripts/user_config.ahk:118:: #D::
  C:/Users/yasha/dotfiles/scripts/user_config.ahk:119:: switchDesktopByNumber(5)
  C:/Users/yasha/dotfiles/scripts/user_config.ahk:120:: Send !{Esc
  C:/Users/yasha/dotfiles/scripts/user_config.ahk:121:: sleep 100
