@@ -166,7 +166,7 @@ WinKill, A
     Run "nu" 
     Return
 #+f::
-    Run nu lf
+    Run lf
     Return
 #n::
     Run nu C:\Users\yasha\dotfiles\scripts\nf.nu

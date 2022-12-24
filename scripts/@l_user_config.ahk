@@ -166,7 +166,7 @@
  C:/Users/yasha/dotfiles/scripts/user_config.ahk:166::     Run "nu" 
  C:/Users/yasha/dotfiles/scripts/user_config.ahk:167::     Return
  C:/Users/yasha/dotfiles/scripts/user_config.ahk:168:: #+f::
- C:/Users/yasha/dotfiles/scripts/user_config.ahk:169::     Run nu lf
+ C:/Users/yasha/dotfiles/scripts/user_config.ahk:169::     Run lf
  C:/Users/yasha/dotfiles/scripts/user_config.ahk:170::     Return
  C:/Users/yasha/dotfiles/scripts/user_config.ahk:171:: #n::
  C:/Users/yasha/dotfiles/scripts/user_config.ahk:172::     Run nu C: Users yasha dotfiles scripts nf.nu
