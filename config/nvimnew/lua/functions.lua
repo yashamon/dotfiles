@@ -10,7 +10,7 @@ end
 
 Line = function()
    vim.fn.jobwait({Idline})
-   vim.cmd('copen')
+   vim.cmd('lopen')
    if vim.w.bqf_enabled then
     local winid = vim.api.nvim_get_current_win()
     vim.schedule(function()
