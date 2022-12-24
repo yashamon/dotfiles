@@ -374,8 +374,8 @@
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:374:: " FZF 
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:375:: let g:fzf_layout = { 'window': { 'width': 1, 'height': 1  
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:376:: function! s:mybuild_quickfix_list(lines)
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:377::   call setqflist([ )
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:378::   " call setqflist(map(copy(a:lines), '{ "filename": v:val '))
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:377::   call setllist([ )
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:378::   call setllist(map(copy(a:lines), '{ "filename": v:val '))
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:379:: endfunction
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:380:: " function! s:myquick()
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:381:: "    lua Feedkey('<c a>')
