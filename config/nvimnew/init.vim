@@ -378,14 +378,14 @@ function! s:build_quickfix_list(lines)
 endfunction
 function! s:myquick()
    lua Feedkey('<c-a>')
-   call function('s:build_quickfix_list')
+   lua Feedkey('<c-q>')
    lua Feedkey('<m-c>')
 endfunction
 let g:fzf_action = {
-  \ 'ctrl-q': s:myquick(),
+  \ 'ctrl-q': function('s:build_quickfix_list'),
   \ 'ctrl-t': 'tab split',
   \ 'ctrl-x': 'split',
-  \ 'ctrl-v': 'vsplit' }
+  \ 'ctrl-v': function('s:myquick()') }
 
 let $FZF_DEFAULT_OPTS = '--bind ctrl-a:select-all'
 " let g:fzf_preview_window = []

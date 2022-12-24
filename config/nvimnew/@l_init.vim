@@ -378,14 +378,14 @@
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:378:: endfunction
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:379:: function! s:myquick()
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:380::    lua Feedkey('<c a>')
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:381::    call function('s:build_quickfix_list')
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:381::    lua Feedkey('<c q>')
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:382::    lua Feedkey('<m c>')
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:383:: endfunction
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:384:: let g:fzf_action = {
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:385::     'ctrl q': s:myquick(),
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:385::     'ctrl q': function('s:build_quickfix_list'),
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:386::     'ctrl t': 'tab split',
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:387::     'ctrl x': 'split',
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:388::     'ctrl v': 'vsplit' 
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:388::     'ctrl v': function('s:myquick()') 
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:389:: 
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:390:: let  FZF_DEFAULT_OPTS = '  bind ctrl a:select all'
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:391:: " let g:fzf_preview_window = [ 
