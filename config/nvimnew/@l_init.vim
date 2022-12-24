@@ -375,7 +375,7 @@
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:375:: let g:fzf_layout = { 'window': { 'width': 1, 'height': 1  
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:376:: 
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:377:: function! s:build_quickfix_list(lines)
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:378::   call feedkeys(" <c a>")
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:378::   lua Feedkey('<c a>', 'im')
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:379::   " call setqflist(map(copy(a:lines), '{ "filename": v:val '))
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:380::  " call feedkeys(" <m c>")
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:381:: endfunction

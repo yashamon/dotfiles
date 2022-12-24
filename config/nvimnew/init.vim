@@ -375,7 +375,7 @@ inoremap <C-]> <C-x><C-]>
 let g:fzf_layout = { 'window': { 'width': 1, 'height': 1 } }
 
 function! s:build_quickfix_list(lines)
-  call feedkeys("\<c-a>")
+  lua Feedkey('<c-a>', 'im')
   " call setqflist(map(copy(a:lines), '{ "filename": v:val }'))
  " call feedkeys("\<m-c>")
 endfunction
