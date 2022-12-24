@@ -19,14 +19,6 @@ Line = function()
         end)
     end)
  end
- 
-   -- Wait = function ()
-      -- if vim.b.bqf_enabled then
-        -- vim.cmd('sleep 150m')
-        -- vim.api.nvim_feedkeys('zf', 'i', false)
-      -- end
-   -- end
-   -- Wait()
 end
 
 Sentence = function ()
