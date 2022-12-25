@@ -20,7 +20,7 @@
  C:/Users/yasha/dotfiles/config/nvimnew/lua/set.lua:20:: opt.smartcase = true
  C:/Users/yasha/dotfiles/config/nvimnew/lua/set.lua:21:: opt.foldmethod='expr'
  C:/Users/yasha/dotfiles/config/nvimnew/lua/set.lua:22:: opt.linebreak='true'
- C:/Users/yasha/dotfiles/config/nvimnew/lua/set.lua:23:: vim.opt.formatoptions.append{"w"
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/set.lua:23:: vim.opt.formatoptions.append {"w"
  C:/Users/yasha/dotfiles/config/nvimnew/lua/set.lua:24:: opt.autochdir = true
  C:/Users/yasha/dotfiles/config/nvimnew/lua/set.lua:25:: opt.mapleader=';'
  C:/Users/yasha/dotfiles/config/nvimnew/lua/set.lua:26:: opt.inccommand=split
@@ -32,7 +32,7 @@
  C:/Users/yasha/dotfiles/config/nvimnew/lua/set.lua:32:: opt.nocursorline=true
  C:/Users/yasha/dotfiles/config/nvimnew/lua/set.lua:33:: opt.wildchar='<TAB>'
  C:/Users/yasha/dotfiles/config/nvimnew/lua/set.lua:34:: opt.background='light'
- C:/Users/yasha/dotfiles/config/nvimnew/lua/set.lua:35:: opt.shortmess.append='c'
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/set.lua:35:: opt.shortmess.append {'c'
  C:/Users/yasha/dotfiles/config/nvimnew/lua/set.lua:36:: 
  C:/Users/yasha/dotfiles/config/nvimnew/lua/set.lua:37:: 
  C:/Users/yasha/dotfiles/config/nvimnew/lua/set.lua:38::    opt.foldexpr = fn.nvim_treesitter#foldexpr()
