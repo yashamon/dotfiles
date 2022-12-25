@@ -18,7 +18,7 @@ opt.pumblend=20
 opt.switchbuf='newtab'
 -- opt.ignorecase = true
 opt.smartcase = true
--- opt.foldmethod=expr
+opt.foldmethod=expr
 -- opt.foldexpr = fn.nvim_treesitter#foldexpr()
 -- opt.foldexpr=set foldmethod=expr
 
