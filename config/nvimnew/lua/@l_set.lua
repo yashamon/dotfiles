@@ -18,6 +18,10 @@
  C:/Users/yasha/dotfiles/config/nvimnew/lua/set.lua:18:: opt.switchbuf='newtab'
  C:/Users/yasha/dotfiles/config/nvimnew/lua/set.lua:19::    opt.ignorecase = true
  C:/Users/yasha/dotfiles/config/nvimnew/lua/set.lua:20:: opt.smartcase = true
- C:/Users/yasha/dotfiles/config/nvimnew/lua/set.lua:21::    opt.guicursor = n v c:block,i ci ve:ver25,r cr:hor20,o:hor50,a:blinkwait700 blinkoff400 blinkon250 Cursor/lCursor,sm:block blinkwait175 blinkoff150 blinkon175 
- C:/Users/yasha/dotfiles/config/nvimnew/lua/set.lua:22::   
- C:/Users/yasha/dotfiles/config/nvimnew/lua/set.lua:23:: opt.spell = true
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/set.lua:21:: opt.foldmethod=expr
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/set.lua:22::    opt.foldexpr = fn.nvim_treesitter#foldexpr()
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/set.lua:23::    opt.foldexpr=set foldmethod=expr
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/set.lua:24:: 
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/set.lua:25::    opt.guicursor = n v c:block,i ci ve:ver25,r cr:hor20,o:hor50,a:blinkwait700 blinkoff400 blinkon250 Cursor/lCursor,sm:block blinkwait175 blinkoff150 blinkon175 
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/set.lua:26::   
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/set.lua:27:: opt.spell = true
