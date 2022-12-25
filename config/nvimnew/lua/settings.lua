@@ -306,15 +306,15 @@ mapping = cmp.mapping.preset.insert({
       ['<C-e>'] = cmp.mapping.close(),
       ['<CR>'] = cmp.mapping.confirm({ select = true }),
 -- ... Your other mappings ...
-["<Tab>"] = cmp.mapping(function(fallback)
+["<Tab>"] = cmp.mapping(function()
 			if luasnip.expandable() then
 				luasnip.expand()
                         elseif cmp.visible() then
                              cmp.select_next_item()
-			elseif has_words_before() then
-				cmp.complete()
-                             else
-				fallback()
+			-- elseif has_words_before() then
+			-- 	cmp.complete()
+			--                              else
+			-- 	fallback()
 			end
 		end, { "i", "s" }),
 		["<S-Tab>"] = cmp.mapping(function(fallback)
