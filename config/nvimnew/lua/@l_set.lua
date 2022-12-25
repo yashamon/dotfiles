@@ -7,8 +7,11 @@
  C:/Users/yasha/dotfiles/config/nvimnew/lua/set.lua:7:: opt.termguicolors = true
  C:/Users/yasha/dotfiles/config/nvimnew/lua/set.lua:8:: opt.spelllang = 'en_us'
  C:/Users/yasha/dotfiles/config/nvimnew/lua/set.lua:9:: opt.clipboard = 'unnamedplus'
- C:/Users/yasha/dotfiles/config/nvimnew/lua/set.lua:10::    opt.ignorecase = true
- C:/Users/yasha/dotfiles/config/nvimnew/lua/set.lua:11:: opt.smartcase = true
- C:/Users/yasha/dotfiles/config/nvimnew/lua/set.lua:12::    opt.guicursor = n v c:block,i ci ve:ver25,r cr:hor20,o:hor50,a:blinkwait700 blinkoff400 blinkon250 Cursor/lCursor,sm:block blinkwait175 blinkoff150 blinkon175 
- C:/Users/yasha/dotfiles/config/nvimnew/lua/set.lua:13::   
- C:/Users/yasha/dotfiles/config/nvimnew/lua/set.lua:14:: opt.spell = true
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/set.lua:10:: opt.wrap = true
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/set.lua:11:: opt.indentexpr = ''
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/set.lua:12:: 
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/set.lua:13::    opt.ignorecase = true
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/set.lua:14:: opt.smartcase = true
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/set.lua:15::    opt.guicursor = n v c:block,i ci ve:ver25,r cr:hor20,o:hor50,a:blinkwait700 blinkoff400 blinkon250 Cursor/lCursor,sm:block blinkwait175 blinkoff150 blinkon175 
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/set.lua:16::   
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/set.lua:17:: opt.spell = true
