@@ -73,6 +73,7 @@ local timer = 0
   local function do_complete()
     require('cmp').complete({ reason = require('cmp').ContextReason.Auto })
   end
+
 vim.api.nvim_create_autocmd(
     { "BufReadPost","FileReadPost", "FileType tex, vim, lua"},
     {
