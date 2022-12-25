@@ -55,25 +55,11 @@ let g:neovide_floating_blur_amount_y = 3.0
 " let g:neovide_transparency=0.15
 
 "General Settings, set
-" set signcolumn=yes
-" set scrolloff=10
 " set shell=nu
 " let &shell = 'nu'
 " let &shellcmdflag = '-c'
 " let &shellquote = ""
 " let &shellxquote = ""
-" set indentexpr=
-" set wrap
-" set pumblend=20
-" set winblend=15 
-" set switchbuf=newtab
-" let g:python3_host_prog='/usr/bin/python3.9'
-" let g:python3_host_prog='/usr/bin/python3.9'
-" set clipboard+=unnamedplus	
-" TAB setting{
-" set shell="C:\Program Files\PowerShell\7\pwsh.EXE"
-" " set guioptions-=r
-" set guioptions-=l
 set guicursor=n-v-c:block,i-ci-ve:ver25,r-cr:hor20,o:hor50
  		  \,a:blinkwait700-blinkoff400-blinkon250-Cursor/lCursor
  		  \,sm:block-blinkwait175-blinkoff150-blinkon175
