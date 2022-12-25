@@ -14,12 +14,11 @@ Plug 'neovim/nvim-lspconfig',  { 'branch': 'main' }
 Plug 'L3MON4D3/LuaSnip'
 Plug 'saadparwaiz1/cmp_luasnip'
 " Plug 'nvim-treesitter/playground'
-" Plug 'LhKipp/nvim-nu', { 'branch': 'main' }
-" Plug 'folke/which-key.nvim', { 'branch': 'main' }
-" Plug 'ggandor/leap.nvim', { 'branch': 'main' }
+Plug 'LhKipp/nvim-nu', { 'branch': 'main' }
+Plug 'folke/which-key.nvim', { 'branch': 'main' }
+Plug 'ggandor/leap.nvim', { 'branch': 'main' }
 " Plug 'kyazdani42/nvim-web-devicons'
-" Plug 'glacambre/firenvim', { 'do': { _ -> firenvim#install(0) } }
-" Plug 'neovim/nvim-lspconfig'
+Plug 'glacambre/firenvim', { 'do': { _ -> firenvim#install(0) } }
 " Plug 'williamboman/mason.nvim', { 'branch': 'main' } 
 " Plug 'williamboman/mason-lspconfig.nvim', { 'branch': 'main' }
 " " Plug 'ray-x/cmp-treesitter'
