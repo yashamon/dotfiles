@@ -35,14 +35,17 @@ opt.hlsearch=false
 opt.cursorline=false
 opt.background='light'
 vim.o.guicursor = 'n-v-c:block,i-ci-ve:ver25,r-cr:hor20,o:hor50,a:blinkwait700-blinkoff400-blinkon250-Cursor/lCursor,sm:block-blinkwait175-blinkoff150-blinkon175'
--- opt.tags:append {"/workspacemodules/tags", "./tags"}
+vim.cmd [[set shortmess+=c]]
+opt.tags:append {"/workspacemodules/tags"}
+opt.tags:append {"./tags"}
+
 -- set tags+=~\workspacemodules\tags
 -- opt.tags:append {'/workspacemodules/tags'}
 -- set tags+=.\tags
 -- set tags+=./tags
 -- Set colorscheme
 vim.cmd.colorscheme('gruvbox')
--- opt.shortmess:append {'c'}
+vim.cmd [[set shortmess+=c]]
 vim.cmd [[let g:neovide_fullscreen=v:true]]
 vim.cmd [[let g:neovide_floating_blur_amount_x = 3.0]]
 vim.cmd [[let g:neovide_floating_blur_amount_y = 3.0]]
