@@ -31,7 +31,7 @@
  C:/Users/yasha/dotfiles/config/nvimnew/lua/set.lua:31:: opt.undodir='~/.undo'
  C:/Users/yasha/dotfiles/config/nvimnew/lua/set.lua:32:: opt.undolevels=1000000
  C:/Users/yasha/dotfiles/config/nvimnew/lua/set.lua:33:: opt.undoreload=1000000
- C:/Users/yasha/dotfiles/config/nvimnew/lua/set.lua:34:: opt.nohlsearch=true
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/set.lua:34:: opt.hlsearch=false
  C:/Users/yasha/dotfiles/config/nvimnew/lua/set.lua:35:: opt.nocursorline=true
  C:/Users/yasha/dotfiles/config/nvimnew/lua/set.lua:36:: opt.wildchar='<TAB>'
  C:/Users/yasha/dotfiles/config/nvimnew/lua/set.lua:37:: opt.background='light'
