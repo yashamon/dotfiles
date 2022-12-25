@@ -42,7 +42,7 @@ vim.o.guicursor = 'n-v-c:block,i-ci-ve:ver25,r-cr:hor20,o:hor50,a:blinkwait700-b
 -- set tags+=./tags
 -- Set colorscheme
 vim.cmd.colorscheme('gruvbox')
-opt.shortmess:append {'c'}
+-- opt.shortmess:append {'c'}
 vim.cmd [[let g:neovide_fullscreen=v:true]]
 vim.cmd [[let g:neovide_floating_blur_amount_x = 3.0]]
 vim.cmd [[let g:neovide_floating_blur_amount_y = 3.0]]
