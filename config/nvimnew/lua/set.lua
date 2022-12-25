@@ -22,7 +22,8 @@ opt.foldmethod='expr'
 opt.linebreak = true
 vim.opt.formatoptions:append{"w"}
 opt.autochdir = true
-opt.mapleader= ';'
+vim.cmd [[let mapleader=';']]
+vim.cmd [[let g:mapleader=';']]
 opt.inccommand = 'split'
 opt.undofile = true
 opt.undodir='~/.undo'
