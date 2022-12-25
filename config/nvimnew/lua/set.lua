@@ -9,6 +9,10 @@ opt.spelllang = 'en_us'
 opt.clipboard = 'unnamedplus'
 opt.wrap = true
 opt.indentexpr = ''
+opt.title = true
+opt.cmdheight = 0
+opt.signcolumn = true
+opt.scrolloff=10
 
 -- opt.ignorecase = true
 opt.smartcase = true
