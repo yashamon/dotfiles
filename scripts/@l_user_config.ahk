@@ -47,7 +47,7 @@
  C:/Users/yasha/dotfiles/scripts/user_config.ahk:47:: ;   when pressing CapsLock alone, it will activate the Escpae button
  C:/Users/yasha/dotfiles/scripts/user_config.ahk:48:: 
  C:/Users/yasha/dotfiles/scripts/user_config.ahk:49:: SetCapsLockState AlwaysOff
- C:/Users/yasha/dotfiles/scripts/user_config.ahk:50:: m + Space::
+ C:/Users/yasha/dotfiles/scripts/user_config.ahk:50:: m & Space::
  C:/Users/yasha/dotfiles/scripts/user_config.ahk:51:: CapsLock::Esc
  C:/Users/yasha/dotfiles/scripts/user_config.ahk:52:: ;k::Send {Up
  C:/Users/yasha/dotfiles/scripts/user_config.ahk:53:: ;Hotkey, k,off
