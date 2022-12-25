@@ -102,7 +102,6 @@ set undolevels=1000000         " How many undos
 set undoreload=1000000		
 set nohlsearch
 " set noswapfile
-set showmatch		" Cursor shows matching ) and }
 set nocursorline
 set wildchar=<TAB>	" start wild expansion in the command line using <TAB>
 set background=light
