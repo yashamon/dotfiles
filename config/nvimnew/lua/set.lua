@@ -41,7 +41,7 @@ opt.tags.append {'/workspacemodules/tags', './tags'}
 -- Set colorscheme
 vim.cmd.colorscheme('gruvbox')
 opt.shortmess.append {'c'}
-
+vim.cmd [[set foldexpr=nvim_treesitter#foldexpr()]]
 
 -- opt.foldexpr = fn.nvim_treesitter#foldexpr()
 -- opt.foldexpr=set foldmethod=expr

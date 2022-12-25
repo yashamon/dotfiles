@@ -41,7 +41,7 @@
  C:/Users/yasha/dotfiles/config/nvimnew/lua/set.lua:41::    Set colorscheme
  C:/Users/yasha/dotfiles/config/nvimnew/lua/set.lua:42:: vim.cmd.colorscheme('gruvbox')
  C:/Users/yasha/dotfiles/config/nvimnew/lua/set.lua:43:: opt.shortmess.append {'c'
- C:/Users/yasha/dotfiles/config/nvimnew/lua/set.lua:44:: 
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/set.lua:44:: vim.cmd [[set foldexpr=nvim_treesitter#foldexpr()  
  C:/Users/yasha/dotfiles/config/nvimnew/lua/set.lua:45:: 
  C:/Users/yasha/dotfiles/config/nvimnew/lua/set.lua:46::    opt.foldexpr = fn.nvim_treesitter#foldexpr()
  C:/Users/yasha/dotfiles/config/nvimnew/lua/set.lua:47::    opt.foldexpr=set foldmethod=expr
