@@ -212,7 +212,7 @@
  C:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:212::         texType = { fg = "#808080" ,
  C:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:213::         texMath = { fg = "#650000" ,
  C:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:214::         Special = { fg = "#808080" ,
- C:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:215::         texDelimiter = { fg = "#808080" ,
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:215::         texDelimiter = { fg = "#af6000" ,
  C:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:216::         texStatement = { fg = "#580058" ,
  C:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:217::            Operator = { fg = "#808080" ,
  C:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:218::         Type = { fg = "#008800" ,
