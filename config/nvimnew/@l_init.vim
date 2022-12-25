@@ -77,9 +77,9 @@
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:77:: set shiftwidth=3
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:78:: " set shell="C: Program Files PowerShell 7 pwsh.EXE"
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:79:: set termguicolors
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:80:: set guicursor=n v c:block,i ci ve:ver25,r cr:hor20,o:hor50
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:81::  		   ,a:blinkwait700 blinkoff400 blinkon250 Cursor/lCursor
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:82::  		   ,sm:block blinkwait175 blinkoff150 blinkon175
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:80:: " set guicursor=n v c:block,i ci ve:ver25,r cr:hor20,o:hor50
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:81::  		  "  ,a:blinkwait700 blinkoff400 blinkon250 Cursor/lCursor
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:82::  		  "  ,sm:block blinkwait175 blinkoff150 blinkon175
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:83:: set spelllang=en_us
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:84:: " set timeoutlen=0
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:85:: set foldmethod=expr
@@ -600,4 +600,3 @@
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:600:: exec execstrWindows
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:601:: silent execute "buffer" buf
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:602:: endfunction
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:603:: 

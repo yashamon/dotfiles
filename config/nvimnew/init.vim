@@ -77,9 +77,9 @@ set softtabstop=3
 set shiftwidth=3
 " set shell="C:\Program Files\PowerShell\7\pwsh.EXE"
 set termguicolors
-set guicursor=n-v-c:block,i-ci-ve:ver25,r-cr:hor20,o:hor50
- 		  \,a:blinkwait700-blinkoff400-blinkon250-Cursor/lCursor
- 		  \,sm:block-blinkwait175-blinkoff150-blinkon175
+" set guicursor=n-v-c:block,i-ci-ve:ver25,r-cr:hor20,o:hor50
+ 		  " \,a:blinkwait700-blinkoff400-blinkon250-Cursor/lCursor
+ 		  " \,sm:block-blinkwait175-blinkoff150-blinkon175
 set spelllang=en_us
 " set timeoutlen=0
 set foldmethod=expr
@@ -600,4 +600,3 @@ let execstrWindows="silent te pwsh -c C:/Users/yasha/scoop/shims/sumatrapdf.EXE 
 exec execstrWindows
 silent execute "buffer" buf
 endfunction
-
