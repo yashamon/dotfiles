@@ -17,7 +17,7 @@ Plug 'hrsh7th/nvim-cmp', { 'branch': 'main' }
 Plug 'hrsh7th/cmp-buffer', { 'branch': 'main' }
 Plug 'hrsh7th/cmp-nvim-lsp', { 'branch': 'main' } 
 " Plug 'ray-x/cmp-treesitter'
-" Plug 'quangnguyen30192/cmp-nvim-tags',  { 'branch': 'main' }  
+Plug 'quangnguyen30192/cmp-nvim-tags',  { 'branch': 'main' }  
 Plug 'terrortylor/nvim-comment', { 'branch': 'main' }
 Plug 'nvim-lualine/lualine.nvim'
 Plug 'justinhoward/fzf-neoyank'
@@ -56,6 +56,7 @@ let g:neovide_floating_blur_amount_y = 3.0
 
 "General Settings, set
 set title
+set ignorecase
 set cmdheight=0
 " set signcolumn=yes
 " set scrolloff=10
@@ -566,8 +567,7 @@ function! Send()
   echo execstr
   exec execstr
   silent execute "buffer" buf
-  " call feedkeys("\<cr>")
-endfunction
+  endfunction
 function! CompileLatex()
   " silent call ClearLatex()
   let buf=bufname()
