@@ -38,7 +38,6 @@ vim.o.guicursor = 'n-v-c:block,i-ci-ve:ver25,r-cr:hor20,o:hor50,a:blinkwait700-b
 vim.cmd [[set shortmess+=c]]
 opt.tags:append {"/workspacemodules/tags"}
 opt.tags:append {"./tags"}
-
 -- set tags+=~\workspacemodules\tags
 -- opt.tags:append {'/workspacemodules/tags'}
 -- set tags+=.\tags
