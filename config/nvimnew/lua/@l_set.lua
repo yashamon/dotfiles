@@ -35,7 +35,7 @@
  C:/Users/yasha/dotfiles/config/nvimnew/lua/set.lua:35:: opt.cursorline=false
  C:/Users/yasha/dotfiles/config/nvimnew/lua/set.lua:36:: opt.background='light'
  C:/Users/yasha/dotfiles/config/nvimnew/lua/set.lua:37:: vim.o.guicursor = 'n v c:block,i ci ve:ver25,r cr:hor20,o:hor50,a:blinkwait700 blinkoff400 blinkon250 Cursor/lCursor,sm:block blinkwait175 blinkoff150 blinkon175'
- C:/Users/yasha/dotfiles/config/nvimnew/lua/set.lua:38:: opt.tags:append {'/workspacemodules/tags', './tags'
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/set.lua:38:: opt.tags:append {"/workspacemodules/tags", "./tags"
  C:/Users/yasha/dotfiles/config/nvimnew/lua/set.lua:39::    set tags+=~ workspacemodules tags
  C:/Users/yasha/dotfiles/config/nvimnew/lua/set.lua:40::    opt.tags:append {'/workspacemodules/tags'
  C:/Users/yasha/dotfiles/config/nvimnew/lua/set.lua:41::    set tags+=. tags
