@@ -55,7 +55,7 @@
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:55:: " let g:neovide_transparency=0.15
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:56:: 
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:57:: "General Settings, set
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:58:: " set title
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:58:: set title
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:59:: set cmdheight=0
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:60:: " set signcolumn=yes
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:61:: " set scrolloff=10

@@ -55,7 +55,7 @@ let g:neovide_floating_blur_amount_y = 3.0
 " let g:neovide_transparency=0.15
 
 "General Settings, set
-" set title
+set title
 set cmdheight=0
 " set signcolumn=yes
 " set scrolloff=10
