@@ -1,5 +1,5 @@
  C:/Users/yasha/dotfiles/config/nvimnew/lua/set.lua:1:: local opt = vim.opt
- C:/Users/yasha/dotfiles/config/nvimnew/lua/set.lua:2:: local indent = 3
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/set.lua:2:: local indent = 2
  C:/Users/yasha/dotfiles/config/nvimnew/lua/set.lua:3:: vim.opt.tabstop = indent
  C:/Users/yasha/dotfiles/config/nvimnew/lua/set.lua:4:: vim.opt.shiftwidth = indent
  C:/Users/yasha/dotfiles/config/nvimnew/lua/set.lua:5:: vim.opt.softtabstop = indent

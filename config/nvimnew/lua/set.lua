@@ -1,5 +1,5 @@
 local opt = vim.opt
-local indent = 3
+local indent = 2
 vim.opt.tabstop = indent
 vim.opt.shiftwidth = indent
 vim.opt.softtabstop = indent
