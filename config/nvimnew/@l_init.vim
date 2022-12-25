@@ -66,7 +66,7 @@
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:66:: " let &shellxquote = ""
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:67:: set indentexpr=
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:68:: set wrap
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:69:: set pumblend=20
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:69:: set pumblend=20 
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:70:: " set winblend=15 
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:71:: set switchbuf=newtab
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:72:: " let g:python3_host_prog='/usr/bin/python3.9'
@@ -600,4 +600,3 @@
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:600:: exec execstrWindows
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:601:: silent execute "buffer" buf
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:602:: endfunction
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:603:: 

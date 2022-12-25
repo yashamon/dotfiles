@@ -66,7 +66,7 @@ set scrolloff=10
 " let &shellxquote = ""
 set indentexpr=
 set wrap
-set pumblend=20
+set pumblend=20 
 " set winblend=15 
 set switchbuf=newtab
 " let g:python3_host_prog='/usr/bin/python3.9'
@@ -600,4 +600,3 @@ let execstrWindows="silent te pwsh -c C:/Users/yasha/scoop/shims/sumatrapdf.EXE 
 exec execstrWindows
 silent execute "buffer" buf
 endfunction
-

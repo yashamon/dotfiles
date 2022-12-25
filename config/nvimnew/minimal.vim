@@ -50,7 +50,7 @@ call plug#end()
 
 call plug#end()
 lua <<EOF
-require('settings')
+require('test')
 EOF
 " require('functions')
 " require('keymaps')
@@ -65,6 +65,8 @@ let g:neovide_floating_blur_amount_y = 3.0
 
 "General Settings, set
 set title
+set ignorecase
+set smartcase
 set cmdheight=0
 set signcolumn=yes
 set scrolloff=10
