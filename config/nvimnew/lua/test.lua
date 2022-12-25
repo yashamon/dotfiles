@@ -311,9 +311,7 @@ mapping = cmp.mapping.preset.insert({
 				luasnip.expand()
                         elseif cmp.visible() then
                              cmp.select_next_item()
-			elseif cmp.complete()
-                             else
-				fallback()
+			else cmp.complete()
 			end
 		end, { "i", "s" }),
 		["<S-Tab>"] = cmp.mapping(function(fallback)
