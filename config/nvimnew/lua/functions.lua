@@ -73,7 +73,8 @@ local timer = 0
   local function do_complete()
     require('cmp').complete({ reason = require('cmp').ContextReason.Auto })
   end
-  vim.api.nvim_create_autocmd(
+
+vim.api.nvim_create_autocmd(
     { "BufReadPost","FileReadPost", "FileType tex, vim, lua"},
     {
       callback = GitAsync(),
@@ -81,7 +82,7 @@ local timer = 0
     }
   )
 
-  vim.api.nvim_create_autocmd(
+vim.api.nvim_create_autocmd(
     { "TextChangedI", },
     {
       callback = function()
