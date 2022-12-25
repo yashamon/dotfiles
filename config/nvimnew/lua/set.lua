@@ -22,9 +22,9 @@ opt.foldmethod='expr'
 opt.linebreak = true
 vim.opt.formatoptions.append {"w"}
 opt.autochdir = true
-opt.mapleader=';'
-opt.inccommand=split
-opt.undofile='true'
+opt.mapleader= ';'
+opt.inccommand = 'split'
+opt.undofile = true
 opt.undodir='~/.undo'
 opt.undolevels=1000000
 opt.undoreload=1000000
@@ -33,7 +33,11 @@ opt.nocursorline=true
 opt.wildchar='<TAB>'
 opt.background='light'
 vim.o.guicuror = 'n-v-c:block,i-ci-ve:ver25,r-cr:hor20,o:hor50,a:blinkwait700-blinkoff400-blinkon250-Cursor/lCursor,sm:block-blinkwait175-blinkoff150-blinkon175'
-
+opt.tags.append {'/workspacemodules/tags', './tags'}
+-- set tags+=~\workspacemodules\tags
+-- opt.tags.append {'/workspacemodules/tags'}
+-- set tags+=.\tags
+-- set tags+=./tags
 -- Set colorscheme
 vim.cmd.colorscheme('gruvbox')
 opt.shortmess.append {'c'}
