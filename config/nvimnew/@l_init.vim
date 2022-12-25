@@ -74,25 +74,25 @@
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:74:: " set clipboard+=unnamedplus	
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:75:: " TAB setting{
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:76:: " set shell="C: Program Files PowerShell 7 pwsh.EXE"
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:77:: set guicursor=n v c:block,i ci ve:ver25,r cr:hor20,o:hor50
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:78::  		   ,a:blinkwait700 blinkoff400 blinkon250 Cursor/lCursor
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:79::  		   ,sm:block blinkwait175 blinkoff150 blinkon175
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:80:: " set spelllang=en_us
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:81:: " set timeoutlen=0
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:82:: set foldmethod=expr
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:83:: set foldexpr=nvim_treesitter#foldexpr()
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:84:: set tags+=~/workspacemodules/tags
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:85:: set tags+=~ workspacemodules tags
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:86:: set tags+=. tags
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:87:: set tags+=./tags
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:88:: " set wrapmargin=1
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:89:: " set listchars=eol:¬,tab:>·,trail:~,extends:>,precedes:<,space:␣
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:90:: set linebreak 
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:91:: set formatoptions+=w " set breakat=" "
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:92:: " set list  " list disables linebreak whitespace
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:93:: set autochdir
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:94:: set guioptions =r
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:95:: set guioptions =l
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:77:: " " set guioptions =r
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:78:: " set guioptions =l
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:79:: set guicursor=n v c:block,i ci ve:ver25,r cr:hor20,o:hor50
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:80::  		   ,a:blinkwait700 blinkoff400 blinkon250 Cursor/lCursor
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:81::  		   ,sm:block blinkwait175 blinkoff150 blinkon175
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:82:: " set spelllang=en_us
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:83:: " set timeoutlen=0
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:84:: set foldmethod=expr
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:85:: set foldexpr=nvim_treesitter#foldexpr()
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:86:: set tags+=~/workspacemodules/tags
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:87:: set tags+=~ workspacemodules tags
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:88:: set tags+=. tags
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:89:: set tags+=./tags
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:90:: " set wrapmargin=1
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:91:: " set listchars=eol:¬,tab:>·,trail:~,extends:>,precedes:<,space:␣
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:92:: set linebreak 
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:93:: set formatoptions+=w " set breakat=" "
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:94:: " set list  " list disables linebreak whitespace
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:95:: set autochdir
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:96:: let mapleader=';'
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:97:: let g:mapleader=';'
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:98:: set inccommand=split

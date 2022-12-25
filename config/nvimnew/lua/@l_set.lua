@@ -11,7 +11,7 @@
  C:/Users/yasha/dotfiles/config/nvimnew/lua/set.lua:11:: opt.indentexpr = ''
  C:/Users/yasha/dotfiles/config/nvimnew/lua/set.lua:12:: opt.title = true
  C:/Users/yasha/dotfiles/config/nvimnew/lua/set.lua:13:: opt.cmdheight = 0
- C:/Users/yasha/dotfiles/config/nvimnew/lua/set.lua:14:: opt.signcolumn = true
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/set.lua:14:: opt.signcolumn = 'yes'
  C:/Users/yasha/dotfiles/config/nvimnew/lua/set.lua:15:: opt.scrolloff=10
  C:/Users/yasha/dotfiles/config/nvimnew/lua/set.lua:16:: opt.pumblend=20
  C:/Users/yasha/dotfiles/config/nvimnew/lua/set.lua:17::     set winblend=15 
