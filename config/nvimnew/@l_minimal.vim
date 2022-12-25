@@ -35,17 +35,17 @@
  C:/Users/yasha/dotfiles/config/nvimnew/minimal.vim:35:: Plug 'ellisonleao/gruvbox.nvim', { 'branch': 'main' 
  C:/Users/yasha/dotfiles/config/nvimnew/minimal.vim:36:: " " Plug 'eddyekofo94/gruvbox flat.nvim'
  C:/Users/yasha/dotfiles/config/nvimnew/minimal.vim:37:: Plug 'nvim treesitter/nvim treesitter', {'do': ':TSUpdate'  
- C:/Users/yasha/dotfiles/config/nvimnew/minimal.vim:38:: " Plug 'Shougo/neoyank.vim' 
- C:/Users/yasha/dotfiles/config/nvimnew/minimal.vim:39:: " Plug 'Shougo/denite.nvim', { 'do': ':UpdateRemotePlugins'  
- C:/Users/yasha/dotfiles/config/nvimnew/minimal.vim:40:: " Plug 'junegunn/fzf', { 'do': {  > fzf#install()   
- C:/Users/yasha/dotfiles/config/nvimnew/minimal.vim:41:: " Plug 'junegunn/fzf.vim'
- C:/Users/yasha/dotfiles/config/nvimnew/minimal.vim:42:: " Plug 'mbbill/undotree', { 'on': 'UndotreeToggle' 
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.vim:38:: Plug 'Shougo/neoyank.vim' 
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.vim:39:: Plug 'Shougo/denite.nvim', { 'do': ':UpdateRemotePlugins'  
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.vim:40:: Plug 'junegunn/fzf', { 'do': {  > fzf#install()   
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.vim:41:: Plug 'junegunn/fzf.vim'
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.vim:42:: Plug 'mbbill/undotree', { 'on': 'UndotreeToggle' 
  C:/Users/yasha/dotfiles/config/nvimnew/minimal.vim:43:: " Plug 'lewis6991/spellsitter.nvim'
- C:/Users/yasha/dotfiles/config/nvimnew/minimal.vim:44:: " Plug 'kevinhwang91/nvim bqf', { 'branch': 'main' 
- C:/Users/yasha/dotfiles/config/nvimnew/minimal.vim:45:: " Plug 'nvim lua/plenary.nvim'
- C:/Users/yasha/dotfiles/config/nvimnew/minimal.vim:46:: " Plug 'nvim telescope/telescope.nvim'
- C:/Users/yasha/dotfiles/config/nvimnew/minimal.vim:47:: " Plug 'mg979/vim visual multi'
- C:/Users/yasha/dotfiles/config/nvimnew/minimal.vim:48:: " Plug 'tpope/vim surround'
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.vim:44:: Plug 'kevinhwang91/nvim bqf', { 'branch': 'main' 
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.vim:45:: Plug 'nvim lua/plenary.nvim'
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.vim:46:: Plug 'nvim telescope/telescope.nvim'
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.vim:47:: Plug 'mg979/vim visual multi'
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.vim:48:: Plug 'tpope/vim surround'
  C:/Users/yasha/dotfiles/config/nvimnew/minimal.vim:49:: call plug#end()
  C:/Users/yasha/dotfiles/config/nvimnew/minimal.vim:50:: 
  C:/Users/yasha/dotfiles/config/nvimnew/minimal.vim:51:: call plug#end()

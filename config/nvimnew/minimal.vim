@@ -35,17 +35,17 @@ Plug 'saadparwaiz1/cmp_luasnip'
 Plug 'ellisonleao/gruvbox.nvim', { 'branch': 'main' }
 " " Plug 'eddyekofo94/gruvbox-flat.nvim'
 Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}  
-" Plug 'Shougo/neoyank.vim' 
-" Plug 'Shougo/denite.nvim', { 'do': ':UpdateRemotePlugins' } 
-" Plug 'junegunn/fzf', { 'do': { -> fzf#install() } } 
-" Plug 'junegunn/fzf.vim'
-" Plug 'mbbill/undotree', { 'on': 'UndotreeToggle' }
+Plug 'Shougo/neoyank.vim' 
+Plug 'Shougo/denite.nvim', { 'do': ':UpdateRemotePlugins' } 
+Plug 'junegunn/fzf', { 'do': { -> fzf#install() } } 
+Plug 'junegunn/fzf.vim'
+Plug 'mbbill/undotree', { 'on': 'UndotreeToggle' }
 " Plug 'lewis6991/spellsitter.nvim'
-" Plug 'kevinhwang91/nvim-bqf', { 'branch': 'main' }
-" Plug 'nvim-lua/plenary.nvim'
-" Plug 'nvim-telescope/telescope.nvim'
-" Plug 'mg979/vim-visual-multi'
-" Plug 'tpope/vim-surround'
+Plug 'kevinhwang91/nvim-bqf', { 'branch': 'main' }
+Plug 'nvim-lua/plenary.nvim'
+Plug 'nvim-telescope/telescope.nvim'
+Plug 'mg979/vim-visual-multi'
+Plug 'tpope/vim-surround'
 call plug#end()
 
 call plug#end()
