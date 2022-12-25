@@ -220,7 +220,7 @@
  C:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:220::         String = { fg = "#580058" ,
  C:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:221::         Operator = { fg = "#580058" ,
  C:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:222::         Pmenu = { bg = "#ffa546", fg = "#1e2030" ,
- C:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:223:: 				texTypeStyle = { fg = "GruvboxAqua" 
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:223:: 				texTypeStyle = { fg = "#427b58" 
  C:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:224::           bright orange  #fd8432
  C:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:225::           texComment = { fg = "#00ff00" ,
  C:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:226::            texString = { fg = "#0000ff" ,
