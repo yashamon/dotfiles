@@ -328,7 +328,6 @@ mapping = cmp.mapping.preset.insert({
 		end, { "i", "s" }),
 }),
 
-
 requires = {
     {
       'quangnguyen30192/cmp-nvim-tags',
