@@ -19,7 +19,7 @@
  C:/Users/yasha/dotfiles/config/nvimnew/lua/set.lua:19:: opt.ignorecase = true
  C:/Users/yasha/dotfiles/config/nvimnew/lua/set.lua:20:: opt.smartcase = true
  C:/Users/yasha/dotfiles/config/nvimnew/lua/set.lua:21:: opt.foldmethod='expr'
- C:/Users/yasha/dotfiles/config/nvimnew/lua/set.lua:22:: opt.linebreak='true'
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/set.lua:22:: opt.linebreak = true
  C:/Users/yasha/dotfiles/config/nvimnew/lua/set.lua:23:: vim.opt.formatoptions.append {"w"
  C:/Users/yasha/dotfiles/config/nvimnew/lua/set.lua:24:: opt.autochdir = true
  C:/Users/yasha/dotfiles/config/nvimnew/lua/set.lua:25:: opt.mapleader=';'

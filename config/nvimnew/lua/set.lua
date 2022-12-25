@@ -19,7 +19,7 @@ opt.switchbuf='newtab'
 opt.ignorecase = true
 opt.smartcase = true
 opt.foldmethod='expr'
-opt.linebreak='true'
+opt.linebreak = true
 vim.opt.formatoptions.append {"w"}
 opt.autochdir = true
 opt.mapleader=';'
