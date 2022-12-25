@@ -161,7 +161,7 @@
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:161:: autocmd BufReadPost * if @ !~# ' .git[ /   COMMIT_EDITMSG ' && line("' "") > 1 && line("' "") <= line(" ") | exe "normal! g` "" | endif
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:162:: 
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:163:: au VIMEnter * let g:buffmain=bufname()
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:164:: au FileType tex, vim, lua * lua GitAsync() 
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:164:: au BufReadPost,FileReadPost, FileType tex, vim, lua  * lua GitAsync() 
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:165:: nnoremap <m y> viwy:buffer g:buffmain<cr>:<c r>+<cr><cr>
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:166:: au FileType tex setlocal iskeyword+=:
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:167:: au Filetype tex,text,md set tw=60

@@ -161,7 +161,7 @@ autocmd ColorScheme * lua vim.api.nvim_set_hl(0, 'LeapMatch', { fg = "black" })
 autocmd BufReadPost * if @% !~# '\.git[\/\\]COMMIT_EDITMSG$' && line("'\"") > 1 && line("'\"") <= line("$") | exe "normal! g`\"" | endif
 
 au VIMEnter * let g:buffmain=bufname()
-au FileType tex, vim, lua * lua GitAsync() 
+au BufReadPost,FileReadPost, FileType tex, vim, lua  * lua GitAsync() 
 nnoremap <m-y> viwy:buffer g:buffmain<cr>:<c-r>+<cr><cr>
 au FileType tex setlocal iskeyword+=:
 au Filetype tex,text,md set tw=60
