@@ -311,8 +311,8 @@
  C:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:311:: 				luasnip.expand()
  C:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:312::                         elseif cmp.visible() then
  C:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:313::                              cmp.select_next_item()
- C:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:314:: 			   elseif has_words_before() then
- C:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:315:: 			   	cmp.complete()
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:314:: 			elseif has_words_before() then
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:315:: 				cmp.complete()
  C:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:316:: 			                             else
  C:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:317:: 				fallback()
  C:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:318:: 			end
