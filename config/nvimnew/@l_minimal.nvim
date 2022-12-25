@@ -51,15 +51,503 @@
  C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:51:: 
  C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:52:: require'lspconfig'.cssls.setup {
  C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:53::   capabilities = capabilities,
- C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:54:: 
- C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:55:: EOF
- C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:56:: 
- C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:57:: "" Problem config
- C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:58:: set ignorecase    " ignore case when searching
- C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:59:: set smartcase     " ignore case if search patte
- C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:60:: 
- C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:61:: function! Profile()
- C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:62:: profile start profile.log
- C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:63:: profile func *
- C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:64:: profile file *
- C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:65:: endfunction
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:54::   
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:55::    require("noice").setup({
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:56::      lsp = {
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:57::           override markdown rendering so that **cmp** and other plugins use **Treesitter**
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:58::        override = {
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:59::          ["vim.lsp.util.convert_input_to_markdown_lines"  = true,
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:60::          ["vim.lsp.util.stylize_markdown"  = true,
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:61::          ["cmp.entry.get_documentation"  = true,
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:62::        ,
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:63::      ,
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:64::         you can enable a preset for easier configuration
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:65::      presets = {
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:66::        bottom_search = true,    use a classic bottom cmdline for search
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:67::        command_palette = true,    position the cmdline and popupmenu together
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:68::        long_message_to_split = true,    long messages will be sent to a split
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:69::        inc_rename = false,    enables an input dialog for inc rename.nvim
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:70::        lsp_doc_border = false,    add a border to hover docs and signature help
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:71::      ,
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:72::    )
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:73:: 
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:74:: 
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:75:: 
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:76:: require'nvim treesitter.configs'.setup {
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:77::    ensure_installed = "all",    one of "all", "maintained" (parsers with maintainers), or a list of languages
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:78::   incremental_selection = {
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:79::     enable = true,
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:80::     keymaps = {
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:81::       init_selection = '<m CR>',
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:82::         scope_incremental = '<CR>',
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:83::       node_incremental = '<TAB>',
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:84::       node_decremental = '<S TAB>',
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:85::     ,
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:86::   ,
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:87::   highlight = {
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:88::     enable = true,                 false will disable the whole extension
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:89::        Instead of true it can also be a list of languages
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:90::     additional_vim_regex_highlighting = false,
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:91::   ,
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:92:: 
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:93:: require('leap').setup {
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:94::   max_aot_targets = nil,
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:95::   highlight_unlabeled = true,
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:96::   max_highlighted_traversal_targets = 20,
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:97::   case_sensitive = false,
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:98::      Sets of characters that should match each other.
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:99::      Obvious candidates are braces and quotes ('([{', ') ', '`" '').
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:100::   equivalence_classes =
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:101::   {
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:102::       {' ', " r", " n" ,
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:103::       {' '','"', ':', '=', '#', '&', '%','^', '_', '<', '>', '?', '|', '!', '*', '+', ' ', '`', '/', '  ', ',', '.',';', ' ', '[', '', '{', ')', '(', ' '
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:104::     ,
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:105::      Leaving the   appropriate list emapty effectively disables "smart" mode,
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:106::      and forces auto jump to be on or off.%
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:107:: 
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:108:: vim.api.nvim_set_hl(0, 'LeapMatch', { fg='white' )
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:109:: 
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:110:: require("todo comments").setup {
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:111::        your configuration comes here
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:112::        or leave it empty to use the default settings
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:113::        refer to the configuration section below
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:114:: 
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:115:: 
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:116:: require('telescope').setup({
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:117::   defaults = {
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:118::     layout_config = {
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:119::       vertical = { width = 0.9 
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:120::          other layout configuration here
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:121::     ,
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:122::     scroll_strategy = 'limit',
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:123::      previewers = {
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:124::     {
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:125::       filesize_limit = 25,
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:126::       timeout = 300,
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:127::       use_highlighter = false
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:128::     
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:129::  ,
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:130::        other defaults configuration here
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:131::   ,
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:132::      other configuration values here
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:133:: )
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:134::    require("tokyonight").setup({
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:135::         your configuration comes here
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:136::         or leave it empty to use the default settings
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:137::      style = "storm",    The theme comes in three styles, `storm`, `moon`, a darker variant `night` and `day`
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:138::      light_style = "day",    The theme is used when the background is set to light
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:139::      transparent = false,    Enable this to disable setting the background color
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:140::      terminal_colors = true,    Configure the colors used when opening a `:terminal` in Neovim
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:141::      styles = {
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:142::           Style to be applied to different syntax groups
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:143::           Value is any valid attr list value for `:help nvim_set_hl`
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:144::        comments = { italic = true ,
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:145::        keywords = { italic = true ,
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:146::        functions = {,
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:147::        variables = {,
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:148::           Background styles. Can be "dark", "transparent" or "normal"
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:149::        sidebars = "dark",    style for sidebars, see below
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:150::        floats = "dark",    style for floating windows
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:151::      ,
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:152::      sidebars = { "qf", "help" ,    Set a darker background on sidebar like windows. For example: `["qf", "vista_kind", "terminal", "packer" `
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:153::      day_brightness = 0.1,    Adjusts the brightness of the colors of the **Day** style. Number between 0 and 1, from dull to vibrant colors
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:154::      hide_inactive_statusline = true,    Enabling this option, will hide inactive statuslines and replace them with a thin border instead. Should work with the standard **StatusLine** and **LuaLine**.
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:155::      dim_inactive = true,    dims inactive windows
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:156::      lualine_bold = false,    When `true`, section headers in the lualine theme will be bold
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:157::   
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:158::          You can override specific color groups to use other groups or a hex color
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:159::          function will be called with a ColorScheme table
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:160::         @param colors ColorScheme
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:161::        on_colors = function(colors) 
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:162::        colors.normal = colors.black 
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:163::        end,
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:164::   
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:165::          You can override specific highlights to use other groups or a hex color
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:166::          function will be called with a Highlights and ColorScheme table
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:167::         @param highlights Highlights
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:168::         @param colors ColorScheme
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:169::         on_highlights = function(highlights, colors)
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:170::         end,
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:171::    )
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:172:: require("which key").setup({
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:173::   plugins = {
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:174::     marks = true,    shows a list of your marks on ' and `
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:175::     registers = true,    shows your registers on " in NORMAL or <C r> in INSERT mode
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:176::     spelling = {
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:177::       enabled = false,    enabling this will show WhichKey when pressing z= to select spelling suggestions
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:178::       suggestions = 50,    how many suggestions should be shown in the list?
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:179::     ,
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:180::        the presets plugin, adds help for a bunch of default keybindings in Neovim
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:181::        No actual key bindings are created
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:182::     presets = {
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:183::       operators = true,    adds help for operators like d, y, ... and registers them for motion / text object completion
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:184::       motions = true,    adds help for motions
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:185::       text_objects = true,    help for text objects triggered after entering an operator
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:186::       windows = true,    default bindings on <c w>
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:187::       nav = true,    misc bindings to work with windows
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:188::       z = true,    bindings for folds, spelling and others prefixed with z
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:189::       g = true,    bindings for prefixed with g
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:190::     ,
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:191::   ,
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:192::      add operators that will trigger motion and text object completion
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:193::      to enable all native operators, set the preset / operators plugin above
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:194::   operators = { gc = "Comments" ,
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:195::   key_labels = {
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:196::        override the label used to display some keys. It doesn't effect WK in any other way.
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:197::        For example:
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:198::        ["<space>"  = "SPC",
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:199::        ["<cr>"  = "RET",
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:200::        ["<tab>"  = "TAB",
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:201::   ,
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:202::   icons = {
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:203::     breadcrumb = "»",    symbol used in the command line area that shows your active key combo
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:204::     separator = "➜",    symbol used between a key and it's label
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:205::     group = "+",    symbol prepended to a group
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:206::   ,
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:207::   popup_mappings = {
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:208::     scroll_down = '<c d>',    binding to scroll down inside the popup
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:209::     scroll_up = '<c u>',    binding to scroll up inside the popup
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:210::   ,
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:211::   window = {
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:212::     border = "none",    none, single, double, shadow
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:213::     position = "bottom",    bottom, top
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:214::     margin = { 1, 0, 1, 0 ,    extra window margin [top, right, bottom, left 
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:215::     padding = { 2, 2, 2, 2 ,    extra window padding [top, right, bottom, left 
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:216::     winblend = 0
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:217::   ,
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:218::   layout = {
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:219::     height = { min = 50, max = 50 ,    min and max height of the columns
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:220::     width = { min = 10, max = 50 ,    min and max width of the columns
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:221::     spacing = 3,    spacing between columns
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:222::     align = "left",    align columns left, center or right
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:223::   ,
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:224::   ignore_missing = false,    enable this to hide mappings for which you didn't specify a label
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:225::   hidden = { "<silent>", "<cmd>", "<Cmd>", "<CR>", "call", "lua", "^:", "^ ",    hide mapping boilerplate
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:226::   show_help = true,    show help message on the command line when the popup is visible
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:227::   show_keys = true,    show the currently pressed key and its label as a message in the command line
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:228::   triggers = {"<leader>", "g", ";",    automatically setup triggers
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:229::      triggers = {"<leader>"    or specify a list manually
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:230::   triggers_blacklist = {
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:231::        list of mode / prefixes that should never be hooked by WhichKey
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:232::        this is mostly relevant for key maps that start with a native binding
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:233::        most people should not need to change this
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:234::     i = { "j", "k" ,
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:235::     v = { "j", "k" ,
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:236::   ,
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:237::      disable the WhichKey popup for certain buf types and file types.
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:238::      Disabled by deafult for Telescope
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:239::   disable = {
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:240::     buftypes = {,
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:241::     filetypes = { "TelescopePrompt" ,
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:242::   ,
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:243:: )
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:244:: require("gruvbox").setup({
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:245:: undercurl = true,
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:246::   underline = true,
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:247::   bold = true,
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:248::   italic = true,
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:249::   strikethrough = false,
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:250::   invert_selection = false,
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:251::   invert_signs = false,
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:252::   invert_tabline = false,
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:253::   invert_intend_guides = false,
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:254::   inverse = false,    invert background for search, diffs, statuslines and errors
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:255::   contrast = "hard",    can be "hard", "soft" or empty string
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:256::   palette_overrides = {,
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:257::   dim_inactive = false,
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:258::   transparent_mode = false,
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:259::     overrides = {
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:260::         SignColumn = {bg = "#ffa546",
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:261::         Normal = {bg = "#ffa546",
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:262::         DiagnosticSignError = { bg = "#ffa546" ,
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:263::         DiagnosticSignWarn = { bg = "#ffa546" ,
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:264::         DiagnosticSignInfo = { bg = "#ffa546" ,
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:265::         DiagnosticSignHint = { bg = "#ffa546" ,
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:266::         texType = { fg = "#808080" ,
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:267::         texMath = { fg = "#808080" ,
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:268::         Special = { fg = "#650000" ,
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:269::         texDelimiter = { fg = "#808080" ,
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:270::         texStatement = { fg = "#808080" ,
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:271::            Operator = { fg = "#808080" ,
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:272::         Type = { fg = "#008800" ,
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:273::         Comment = { fg = "#af6000" ,
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:274::         String = { fg = "#580058" ,
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:275::         Operator = { fg = "#580058" ,
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:276::         Pmenu = { bg = "#ffa546", fg = "#1e2030" 
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:277::           bright orange  #fd8432
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:278::           texComment = { fg = "#00ff00" ,
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:279::            texString = { fg = "#0000ff" ,
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:280::            Special = {fg = "#0000ff" ,
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:281::            texCmdName = { fg = "#0000ff" ,
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:282::            SpecialChar = { fg = "#0000ff" ,
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:283::            Statement = { fg = "#0000ff" 
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:284::     
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:285:: )
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:286:: 
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:287::    nvim LSP
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:288:: require('snippets')
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:289:: require("mason").setup()
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:290:: require("mason lspconfig").setup()
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:291:: require("lspconfig")
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:292::    LSP config
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:293:: local lspconfig = require("lspconfig")
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:294:: 
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:295::     lspconfig.sumneko_lua.setup { on_attach = on_attach 
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:296::     lspconfig.tsserver.setup { on_attach = on_attach 
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:297::     lspconfig.jsonls.setup { on_attach = on_attach 
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:298::     lspconfig.rome.setup { on_attach = on_attach 
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:299::     lspconfig.vimls.setup { on_attach = on_attach 
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:300::     lspconfig.ltex.setup { autostart = false;
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:301::        on_attach = on_attach 
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:302::     lspconfig.texlab.setup { on_attach = on_attach 
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:303::    lspconfig stuff    
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:304::    local nvim_lsp = require('lspconfig')
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:305::    Use an on_attach function to only map the following keys
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:306::    after the language server attaches to the current buffer
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:307:: local on_attach = function(client, bufnr)
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:308:: local function buf_set_keymap(...) vim.api.nvim_buf_set_keymap(bufnr, ...) end
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:309::   
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:310::    local function buf_set_option(...) vim.api.nvim_buf_set_option(bufnr, ...) end
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:311::    Enable completion triggered by <c x><c o>
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:312:: buf_set_keymap('omnifunc', 'v:lua.vim.lsp.omnifunc')
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:313:: require'lspconfig'.sumneko_lua.setup(require("lualsp"))    Mappings.
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:314:: local opts = { noremap=true, silent=true 
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:315:: 
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:316::      See `:help vim.lsp.*` for documentation on any of the below functions
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:317::   buf_set_keymap('n', 'gD', '<cmd>lua vim.lsp.buf.declaration()<CR>', opts)
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:318::   buf_set_keymap('n', 'gd', '<cmd>lua vim.lsp.buf.definition()<CR>', opts)
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:319::     buf_set_keymap('n', 'K', '<cmd>lua vim.lsp.buf.hover()<CR>', opts)
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:320::   buf_set_keymap('n', 'gi', '<cmd>lua vim.lsp.buf.implementation()<CR>', opts)
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:321::   buf_set_keymap('n', '<S C k>', '<cmd>lua vim.lsp.buf.signature_help()<CR>', opts)
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:322::   buf_set_keymap('n', 'gwa', '<cmd>lua vim.lsp.buf.add_workspace_folder()<CR>', opts)
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:323::   buf_set_keymap('n', 'gwr', '<cmd>lua vim.lsp.buf.remove_workspace_folder()<CR>', opts)
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:324::   buf_set_keymap('n', 'gwl', '<cmd>lua print(vim.inspect(vim.lsp.buf.list_workspace_folders()))<CR>', opts)
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:325::   buf_set_keymap('n', 'gtD', '<cmd>lua vim.lsp.buf.type_definition()<CR>', opts)
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:326::   buf_set_keymap('n', '<space>rn', '<cmd>lua vim.lsp.buf.rename()<CR>', opts)
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:327::   buf_set_keymap('n', 'ga', '<cmd>lua vim.lsp.buf.code_action()<CR>', opts)
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:328::   buf_set_keymap('n', 'gr', '<cmd>lua vim.lsp.buf.references()<CR>', opts)
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:329::   buf_set_keymap('n', 'gld', '<cmd>lua vim.lsp.diagnostic.show_line_diagnostics()<CR>', opts)
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:330::   buf_set_keymap('n', '[d', '<cmd>lua vim.lsp.diagnostic.goto_prev()<CR>', opts)
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:331::   buf_set_keymap('n', ' d', '<cmd>lua vim.lsp.diagnostic.goto_next()<CR>', opts)
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:332::   buf_set_keymap('n', 'gq', '<cmd>lua vim.lsp.diagnostic.set_loclist()<CR>', opts)
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:333::   buf_set_keymap('n', 'gf', '<cmd>lua vim.lsp.buf.formatting()<CR>', opts)
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:334:: end
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:335:: 
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:336::      Setup cmp.
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:337:: 
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:338:: local has_words_before = function()
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:339::   unpack = unpack or table.unpack
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:340::   local line, col = unpack(vim.api.nvim_win_get_cursor(0))
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:341::   return col ~= 0 and vim.api.nvim_buf_get_lines(0, line   1, line, true)[1 :sub(col, col):match("%s") == nil
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:342:: end
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:343:: 
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:344:: 
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:345:: local luasnip = require("luasnip")
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:346:: local cmp = require'cmp'
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:347:: cmp.setup ({
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:348:: snippet = {
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:349::   expand = function(args)
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:350::     luasnip.lsp_expand(args.body)
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:351::   end
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:352:: ,
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:353:: 
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:354:: mapping = cmp.mapping.preset.insert({
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:355::         ["<C p>"  = cmp.mapping.select_prev_item(),
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:356::         ["<C n>"  = cmp.mapping.select_next_item(),
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:357::        ['<C d>'  = cmp.mapping.scroll_docs( 4),
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:358::       ['<C f>'  = cmp.mapping.scroll_docs(4),
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:359::       ['<C x>'  = cmp.mapping.complete(),
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:360::       ['<C e>'  = cmp.mapping.close(),
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:361::       ['<CR>'  = cmp.mapping.confirm({ select = true ),
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:362::    ... Your other mappings ...
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:363:: ["<Tab>"  = cmp.mapping(function(fallback)
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:364:: 			if luasnip.expandable() then
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:365:: 				luasnip.expand()
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:366::                         elseif cmp.visible() then
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:367::                              cmp.select_next_item()
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:368:: 			elseif has_words_before() then
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:369:: 				cmp.complete()
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:370::                              else
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:371:: 				fallback()
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:372:: 			end
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:373:: 		end, { "i", "s" ),
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:374:: 		["<S Tab>"  = cmp.mapping(function(fallback)
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:375:: 			if cmp.visible() then
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:376:: 				cmp.select_prev_item()
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:377:: 			elseif luasnip.jumpable( 1) then
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:378:: 				luasnip.jump( 1)
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:379:: 			else
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:380:: 				fallback()
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:381:: 			end
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:382:: 		end, { "i", "s" ),
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:383:: ),
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:384:: 
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:385:: 
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:386:: requires = {
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:387::     {
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:388::       'quangnguyen30192/cmp nvim tags',
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:389::          if you want the sources is available for some file types
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:390::       ft = {
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:391::         'tex',
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:392::         'latex'
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:393::       
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:394::     
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:395::     ,
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:396::    ... Your other configuration ...
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:397:: sources = cmp.config.sources({
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:398::          For vsnip user. 
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:399:: { name = 'tags' ,
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:400:: { name = 'nvim_lsp', keyword_length = 2 ,
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:401:: { name = 'luasnip', keyword_length = 2 ,
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:402::    { name = 'omni', keyword_length = 4,
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:403::           { name = 'spell' , 
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:404::         { name = 'treesitter', keyword_length = 4 ,
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:405:: { name = 'buffer', keyword_length = 4 ,
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:406::   { name = 'fuzzy_buffer', keyword_length = 8 
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:407:: ),
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:408:: completion = { autocomplete = false 
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:409:: )
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:410:: 
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:411:: require('nvim_comment').setup({
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:412::       Linters prefer comment and line to have a space in between markers
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:413::    marker_padding = true,
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:414::       should comment out empty or whitespace only lines
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:415::    comment_empty = true,
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:416::       Should key mappings be created
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:417::    create_mappings = true,
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:418::       Normal mode mapping left hand side
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:419::    line_mapping = "gc",
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:420::       Visual/Operator mapping left hand side
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:421::    operator_mapping = "<leader>c",
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:422::       Hook function to call before commenting takes place
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:423::      hook = nil 
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:424::  )
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:425:: require('spellsitter').setup {
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:426::   hl = 'SpellBad',
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:427::   captures = {,     set to { to spellcheck everything
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:428:: 
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:429::      Spellchecker to use. values:
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:430::      * vimfn: built in spell checker using vim.fn.spellbadword()
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:431::      * ffi: built in spell checker using the FFI to access the
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:432::        internal spell_check() function
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:433:: spellchecker = 'vimfn'
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:434:: 
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:435:: 
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:436:: require('lualine').setup {
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:437::   options = {
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:438::        theme = 
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:439::     theme = require('theme').theme(),
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:440::     icons_enabled = true,
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:441::     component_separators = { left = '', right = '',
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:442::     section_separators = { left = '', right = '',
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:443::     disabled_filetypes = {
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:444::       statusline = {,
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:445::       winbar = {,
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:446::     ,
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:447::     ignore_focus = {'tex', 'md', 'text', 'lua', 'latex', 'nu',
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:448::     always_divide_middle = true,
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:449::     globalstatus = true,
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:450::     refresh = {
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:451::       statusline = 1000,
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:452::       tabline = 1000,
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:453::       winbar = 1000,
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:454::     
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:455::   ,
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:456::   sections = {
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:457::   lualine_a = {
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:458::         {
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:459::           'filename',
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:460::           color = 'lualine_a_normal',
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:461::           file_status = true,         Displays file status (readonly status, modified status)
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:462::           newfile_status = false,      Display new file status (new file means no write after created)
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:463::           path = 3,                   0: Just the filename
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:464::                                       1: Relative path
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:465::                                       2: Absolute path
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:466::                                       3: Absolute path, with tilde as the home directory
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:467::           symbols = {
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:468::             modified = '[+ ',         Text to show when the file is modified.
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:469::             readonly = '[  ',         Text to show when the file is non modifiable or readonly.
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:470::             unnamed = '[No Name ',    Text to show for unnamed buffers.
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:471::             newfile = '[New ',        Text to show for new created file before first writting
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:472::          
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:473::         
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:474::       ,
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:475::       lualine_b = {{'branch', 'diff', 'diagnostics', color = 'lualine_b_normal',
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:476::     lualine_c = {,
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:477::     lualine_x = {,
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:478::     lualine_y = {,
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:479::     lualine_z = {{'location', color = 'lualine_z_normal'
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:480::   ,
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:481::   inactive_sections = {
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:482::     lualine_a = {,
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:483::     lualine_b = {,
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:484::     lualine_c = {,
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:485::     lualine_x = {,
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:486::     lualine_y = {,
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:487::     lualine_z = {
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:488::   ,
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:489::   tabline = {,
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:490::   winbar = {,
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:491::   inactive_winbar = {,
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:492::   extension = {
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:493:: 
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:494:: 
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:495:: 
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:496::      gitgutter
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:497::    require('gitsigns').setup{
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:498::      on_attach = function(bufnr)
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:499::        local gs = package.loaded.gitsigns
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:500::   
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:501::        local function map(mode, l, r, opts)
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:502::          opts = opts or {
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:503::          opts.buffer = bufnr
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:504::          vim.keymap.set(mode, l, r, opts)
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:505::        end
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:506::   
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:507::           Navigation
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:508::        map('n', ' c', function()
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:509::          if vim.wo.diff then return ' c' end
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:510::          vim.schedule(function() gs.next_hunk() end)
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:511::          return '<Ignore>'
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:512::        end, {expr=true)
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:513::   
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:514::        map('n', '[c', function()
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:515::          if vim.wo.diff then return '[c' end
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:516::          vim.schedule(function() gs.prev_hunk() end)
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:517::          return '<Ignore>'
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:518::        end, {expr=true)
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:519::   
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:520::           Actions
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:521::        map({'n', 'v', '<leader>hs', ':Gitsigns stage_hunk<CR>')
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:522::        map({'n', 'v', '<leader>hr', ':Gitsigns reset_hunk<CR>')
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:523::        map('n', '<leader>hS', gs.stage_buffer)
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:524::        map('n', '<leader>hu', gs.undo_stage_hunk)
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:525::        map('n', '<leader>hR', gs.reset_buffer)
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:526::        map('n', '<leader>hp', gs.preview_hunk)
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:527::        map('n', '<leader>hb', function() gs.blame_line{full=true end)
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:528::        map('n', '<leader>tb', gs.toggle_current_line_blame)
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:529::        map('n', '<leader>hd', gs.diffthis)
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:530::        map('n', '<leader>hD', function() gs.diffthis('~') end)
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:531::        map('n', '<leader>td', gs.toggle_deleted)
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:532::   
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:533::           Text object
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:534::        map({'o', 'x', 'ih', ':<C U>Gitsigns select_hunk<CR>')
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:535::      end
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:536::    
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:537:: 
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:538::    load snippets from path/of/your/nvim/config/my cool snippets
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:539::   vim.o.runtimepath = vim.o.runtimepath .. 'C:/Users/yasha/.config/nvim/lua/snippets,'
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:540::    require("luasnip/loaders/from_vscode").lazy_load()    load snippets of friendly/snippets
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:541::    require("luasnip/loaders/from_vscode").load({ paths = "C:/Users/yasha/dotfiles/snippets" )    load your own snippets 
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:542:: 
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:543:: EOF
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:544:: 
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:545:: "" Problem config
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:546:: set ignorecase    " ignore case when searching
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:547:: set smartcase     " ignore case if search patte
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:548:: 
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:549:: function! Profile()
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:550:: profile start profile.log
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:551:: profile func *
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:552:: profile file *
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.nvim:553:: endfunction
