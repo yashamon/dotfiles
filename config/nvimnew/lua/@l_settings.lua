@@ -306,15 +306,15 @@
  C:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:306::       ['<C e>'  = cmp.mapping.close(),
  C:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:307::       ['<CR>'  = cmp.mapping.confirm({ select = true ),
  C:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:308::    ... Your other mappings ...
- C:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:309:: ["<Tab>"  = cmp.mapping(function()
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:309:: ["<Tab>"  = cmp.mapping(function(fallback)
  C:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:310:: 			if luasnip.expandable() then
  C:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:311:: 				luasnip.expand()
  C:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:312::                         elseif cmp.visible() then
  C:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:313::                              cmp.select_next_item()
  C:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:314:: 			   elseif has_words_before() then
  C:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:315:: 			   	cmp.complete()
- C:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:316:: 			                                else
- C:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:317:: 			   	fallback()
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:316:: 			                             else
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:317:: 				fallback()
  C:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:318:: 			end
  C:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:319:: 		end, { "i", "s" ),
  C:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:320:: 		["<S Tab>"  = cmp.mapping(function(fallback)
