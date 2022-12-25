@@ -73,8 +73,6 @@ set switchbuf=newtab
 " let g:python3_host_prog='/usr/bin/python3.9'
 set clipboard+=unnamedplus	
 " TAB setting{
-set softtabstop=3
-set shiftwidth=3
 " set shell="C:\Program Files\PowerShell\7\pwsh.EXE"
 set termguicolors
 set guicursor=n-v-c:block,i-ci-ve:ver25,r-cr:hor20,o:hor50
