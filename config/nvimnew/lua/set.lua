@@ -20,7 +20,7 @@ opt.switchbuf='newtab'
 opt.smartcase = true
 opt.foldmethod='expr'
 opt.linebreak='true'
-vim.opt.formatoptions.append{'w'}
+vim.opt.formatoptions.append{"w"}
 opt.autochdir = true
 opt.mapleader=';'
 opt.inccommand=split
@@ -32,7 +32,8 @@ opt.nohlsearch=true
 opt.nocursorline=true
 opt.wildchar='<TAB>'
 opt.background='light'
-vim.cmd[[set shortmess+=c]]
+opt.shortmess.append='c'
+
 
 -- opt.foldexpr = fn.nvim_treesitter#foldexpr()
 -- opt.foldexpr=set foldmethod=expr
