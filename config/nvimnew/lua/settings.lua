@@ -306,7 +306,7 @@ mapping = cmp.mapping.preset.insert({
       ['<C-e>'] = cmp.mapping.close(),
       ['<CR>'] = cmp.mapping.confirm({ select = true }),
 -- ... Your other mappings ...
-["<m-Space>"] = cmp.mapping(function()
+["<C-Tab>"] = cmp.mapping(function()
 			if luasnip.expandable() then
 				luasnip.expand()
                         elseif cmp.visible() then
