@@ -96,9 +96,6 @@ set autochdir
 let mapleader=';'
 let g:mapleader=';'
 set inccommand=split
-noremap! <LeftDrag> <nop>
-noremap! <RightDrag> <nop>
-noremap! <LeftDrag> <nop>
 set undofile                " Save undo's after file closes
 set undodir=~/.undo " where to save undo histories
 set undolevels=1000000         " How many undos
@@ -257,6 +254,9 @@ noremap <C-ScrollWheelLeft>  <nop>
 noremap <ScrollWheelRight>   <nop>
 noremap <S-ScrollWheelRight> <nop>
 noremap <C-ScrollWheelRight> <nop>
+noremap! <LeftDrag> <nop>
+noremap! <RightDrag> <nop>
+noremap! <LeftDrag> <nop>
 inoremap \ /
 inoremap / \
 

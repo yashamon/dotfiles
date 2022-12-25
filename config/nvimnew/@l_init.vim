@@ -96,167 +96,167 @@
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:96:: let mapleader=';'
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:97:: let g:mapleader=';'
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:98:: set inccommand=split
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:99:: noremap! <LeftDrag> <nop>
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:100:: noremap! <RightDrag> <nop>
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:101:: noremap! <LeftDrag> <nop>
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:102:: set undofile                " Save undo's after file closes
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:103:: set undodir=~/.undo " where to save undo histories
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:104:: set undolevels=1000000         " How many undos
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:105:: set undoreload=1000000		
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:106:: set nohlsearch
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:107:: " set noswapfile
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:108:: set showmatch		" Cursor shows matching ) and 
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:109:: set nocursorline
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:110:: set wildchar=<TAB>	" start wild expansion in the command line using <TAB>
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:111:: set background=light
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:112:: colorscheme gruvbox
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:113:: set background=light
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:114:: " set tm=1000
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:115:: set expandtab        "replace <TAB> with spaces
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:116:: set softtabstop=3
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:117:: set shiftwidth=3
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:118:: "Git autocommit  (nonmain branch)
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:119:: set completeopt=menu,menuone,noselect,noinsert
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:120:: " Avoid showing message extra message when using completion
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:121:: set shortmess+=c
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:122:: 
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:123:: let g:firenvim_config = { 
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:124::       'globalSettings': {
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:125::           'alt': 'all',
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:126::        ,
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:127::       'localSettings': {
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:128::           '.*': {
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:129::               'cmdline': 'neovim',
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:130::               'content': 'text',
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:131::               'priority': 0,
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:132::               'selector': 'textarea',
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:133::               'takeover': 'never',
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:134::           ,
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:135::       
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:136::   
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:137:: "Autosave and autocommit   
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:138:: " let g:updatetime = 10000
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:139:: " let g:auto_save = 0
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:140:: " " .vimrc
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:141:: " let g:auto_save_events = ["CursorHold" 
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:142:: " "au FileType vim let g:autosave = 0
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:143:: " let g:auto_save_in_insert_mode = 0
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:144:: " let g:auto_save_silent = 1
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:145:: 
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:146:: hi SpellBad cterm=underline
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:147:: hi SpellBad gui=undercurl guisp=white
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:148:: "
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:149:: " Autocommands, au
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:150::  
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:151:: function! OnUIEnter(event)
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:152:: 	let l:ui = nvim_get_chan_info(a:event.chan)
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:153:: 	if has_key(l:ui, 'client') && has_key(l:ui.client, 'name')
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:154:: 		if l:ui.client.name ==# 'Firenvim'
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:155:: 			set guifont=Fira  Code:h20
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:156::                         set lines=100
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:157::                         set columns=100
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:158::                         noremap q <esc>:wq<cr>
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:159:: 		endif
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:160:: 	endif
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:161:: endfunction
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:162:: autocmd UIEnter * call OnUIEnter(deepcopy(v:event))
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:163:: autocmd ColorScheme * lua vim.api.nvim_set_hl(0, 'LeapMatch', { fg = "black" )
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:99:: set undofile                " Save undo's after file closes
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:100:: set undodir=~/.undo " where to save undo histories
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:101:: set undolevels=1000000         " How many undos
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:102:: set undoreload=1000000		
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:103:: set nohlsearch
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:104:: " set noswapfile
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:105:: set showmatch		" Cursor shows matching ) and 
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:106:: set nocursorline
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:107:: set wildchar=<TAB>	" start wild expansion in the command line using <TAB>
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:108:: set background=light
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:109:: colorscheme gruvbox
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:110:: set background=light
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:111:: " set tm=1000
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:112:: set expandtab        "replace <TAB> with spaces
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:113:: set softtabstop=3
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:114:: set shiftwidth=3
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:115:: "Git autocommit  (nonmain branch)
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:116:: set completeopt=menu,menuone,noselect,noinsert
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:117:: " Avoid showing message extra message when using completion
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:118:: set shortmess+=c
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:119:: 
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:120:: let g:firenvim_config = { 
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:121::       'globalSettings': {
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:122::           'alt': 'all',
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:123::        ,
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:124::       'localSettings': {
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:125::           '.*': {
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:126::               'cmdline': 'neovim',
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:127::               'content': 'text',
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:128::               'priority': 0,
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:129::               'selector': 'textarea',
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:130::               'takeover': 'never',
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:131::           ,
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:132::       
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:133::   
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:134:: "Autosave and autocommit   
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:135:: " let g:updatetime = 10000
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:136:: " let g:auto_save = 0
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:137:: " " .vimrc
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:138:: " let g:auto_save_events = ["CursorHold" 
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:139:: " "au FileType vim let g:autosave = 0
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:140:: " let g:auto_save_in_insert_mode = 0
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:141:: " let g:auto_save_silent = 1
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:142:: 
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:143:: hi SpellBad cterm=underline
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:144:: hi SpellBad gui=undercurl guisp=white
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:145:: "
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:146:: " Autocommands, au
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:147::  
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:148:: function! OnUIEnter(event)
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:149:: 	let l:ui = nvim_get_chan_info(a:event.chan)
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:150:: 	if has_key(l:ui, 'client') && has_key(l:ui.client, 'name')
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:151:: 		if l:ui.client.name ==# 'Firenvim'
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:152:: 			set guifont=Fira  Code:h20
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:153::                         set lines=100
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:154::                         set columns=100
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:155::                         noremap q <esc>:wq<cr>
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:156:: 		endif
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:157:: 	endif
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:158:: endfunction
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:159:: autocmd UIEnter * call OnUIEnter(deepcopy(v:event))
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:160:: autocmd ColorScheme * lua vim.api.nvim_set_hl(0, 'LeapMatch', { fg = "black" )
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:161:: 
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:162:: "remember cursor location
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:163:: autocmd BufReadPost * if @ !~# ' .git[ /   COMMIT_EDITMSG ' && line("' "") > 1 && line("' "") <= line(" ") | exe "normal! g` "" | endif
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:164:: 
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:165:: "remember cursor location
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:166:: autocmd BufReadPost * if @ !~# ' .git[ /   COMMIT_EDITMSG ' && line("' "") > 1 && line("' "") <= line(" ") | exe "normal! g` "" | endif
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:167:: 
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:168:: au VIMEnter * let g:buffmain=bufname()
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:169:: au FileType tex, vim, lua * lua GitAsync() 
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:170:: nnoremap <m y> viwy:buffer g:buffmain<cr>:<c r>+<cr><cr>
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:171:: au FileType tex setlocal iskeyword+=:
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:172:: au Filetype tex,text,md set tw=60
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:173:: autocmd BufReadPost,FileReadPost * normal zR
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:174:: au FileType Makefile set noexpandtab
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:175:: au FileType tex,text set spelllang=en_us
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:176:: au FileType tex,text,md set indentexpr=
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:177:: au FileType vim set list
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:178:: autocmd Filetype tex setlocal wrapmargin=0
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:179:: "maps remaps mappings  
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:180:: "
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:181:: " terminal stuff 
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:182:: 
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:183:: autocmd TermClose * if v:event.status ==1 || v:event.status ==0  | exe 'bdelete! '..expand('<abuf>') | endif
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:184:: command! Ser lua Server()
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:185:: autocmd BufWritePost * lua GitAsync()
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:186:: au Filetype tex,text,md vmap q xi<CR><CR><CR><CR><ESC>kki/begin{comment<cr><cr>/end{comment<esc>kp  
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:187:: au TextYankPost * lua vim.highlight.on_yank {higroup="IncSearch", timeout=150, on_visual=true
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:188:: au TextYankPost * call neoyank#_append()
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:189:: 
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:190:: 
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:191:: "                                                                            
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:192:: " USEFUL SHORTCUTS
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:193:: "                                                                            
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:194:: " set leader to ; 
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:195:: '
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:196:: " Bash like keys for the command line
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:197:: cnoremap <C A>      <Home>
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:198:: cnoremap <C E>      <End>
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:199:: cnoremap <C K>      <C U>
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:200:: 
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:201:: " allow multiple indentation/deindentation in visual mode
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:202:: vnoremap < <gv
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:203:: vnoremap > >gv
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:204:: 
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:205:: " :cd. change working directory to that of the current file
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:206:: cmap cd. lcd %:p:h
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:207:: tnoremap <m d> <C  ><C n>:bdelete!<cr>
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:208:: tnoremap <A `> <C  ><C n>
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:209:: tnoremap <A Esc> <C  ><C n>
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:210:: nmap <A S t> :te<cr>
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:211:: " other mappings 
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:212:: noremap <leader>r :up<cr>:e<cr> 
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:213:: " inoremap . .<esc>:up<cr>a
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:214:: command Tw50 set tw=50
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:215:: command Tw0 set tw=0
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:216:: noremap q :q<cr>
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:217:: noremap <leader>q q
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:218:: nmap <m 7> :ZenMode<cr>:mksession!<cr>
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:219:: nnoremap <leader>u <cr>:UndotreeToggle<CR>
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:220:: noremap <leader>c :'<,'>CommentToggle<cr>
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:221:: 
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:222:: " language
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:223:: command! ES set spelllang=es
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:224:: " cmap ES set spelllang=es<cr>
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:225:: command! EN set spelllang=en_us
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:226:: " LSP
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:227:: command! LT LspStart ltex
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:228:: command! LTo LspStop ltex
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:229:: 
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:230:: nnoremap <leader>f :up<cr>:lua Server()<cr>:te pwsh  c lf<cr>i
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:231:: nnoremap <leader>lg :up<cr>:lua Server()<cr>:te pwsh  c lazygit<cr>i
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:232:: " nnoremap <leader>tt :FloatermToggle<cr>
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:233:: nnoremap <leader>t :up<cr>:lua Server()<cr>:edit term://pwsh<cr><cr>
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:234:: nnoremap <c ,> :cprevious<cr>
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:235:: nnoremap <c .> :cnext<cr> 
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:236:: inoremap <m h> <left>
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:237:: inoremap <m l> <right>
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:238:: " vnoremap <m s> :s///gc<left><left><left><left>
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:239:: " inoremap <m s> <esc>:%s///gc<left><left><left><left>
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:240:: " nnoremap <m s> :%s///gc<left><left><left><left> 
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:241:: vmap <M .> t.<CR>h
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:242:: nmap <M .> t.<CR>h
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:243:: nnoremap <up> 1<C U>
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:244:: nnoremap <m g> gqip
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:245:: " imap <up> <nop>
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:246:: nnoremap <down> 1<C D>
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:247:: " imap <down> <nop>
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:248:: noremap <ScrollWheelUp>      <nop>
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:249:: noremap <S ScrollWheelUp>    <nop>
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:250:: noremap <C ScrollWheelUp>    <nop>
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:251:: noremap <ScrollWheelDown>    <nop>
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:252:: noremap <S ScrollWheelDown>  <nop>
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:253:: noremap <C ScrollWheelDown>  <nop>
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:254:: noremap <ScrollWheelLeft>    <nop>
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:255:: noremap <S ScrollWheelLeft>  <nop>
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:256:: noremap <C ScrollWheelLeft>  <nop>
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:257:: noremap <ScrollWheelRight>   <nop>
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:258:: noremap <S ScrollWheelRight> <nop>
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:259:: noremap <C ScrollWheelRight> <nop>
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:165:: au VIMEnter * let g:buffmain=bufname()
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:166:: au FileType tex, vim, lua * lua GitAsync() 
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:167:: nnoremap <m y> viwy:buffer g:buffmain<cr>:<c r>+<cr><cr>
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:168:: au FileType tex setlocal iskeyword+=:
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:169:: au Filetype tex,text,md set tw=60
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:170:: autocmd BufReadPost,FileReadPost * normal zR
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:171:: au FileType Makefile set noexpandtab
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:172:: au FileType tex,text set spelllang=en_us
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:173:: au FileType tex,text,md set indentexpr=
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:174:: au FileType vim set list
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:175:: autocmd Filetype tex setlocal wrapmargin=0
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:176:: "maps remaps mappings  
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:177:: "
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:178:: " terminal stuff 
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:179:: 
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:180:: autocmd TermClose * if v:event.status ==1 || v:event.status ==0  | exe 'bdelete! '..expand('<abuf>') | endif
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:181:: command! Ser lua Server()
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:182:: autocmd BufWritePost * lua GitAsync()
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:183:: au Filetype tex,text,md vmap q xi<CR><CR><CR><CR><ESC>kki/begin{comment<cr><cr>/end{comment<esc>kp  
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:184:: au TextYankPost * lua vim.highlight.on_yank {higroup="IncSearch", timeout=150, on_visual=true
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:185:: au TextYankPost * call neoyank#_append()
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:186:: 
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:187:: 
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:188:: "                                                                            
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:189:: " USEFUL SHORTCUTS
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:190:: "                                                                            
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:191:: " set leader to ; 
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:192:: '
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:193:: " Bash like keys for the command line
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:194:: cnoremap <C A>      <Home>
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:195:: cnoremap <C E>      <End>
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:196:: cnoremap <C K>      <C U>
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:197:: 
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:198:: " allow multiple indentation/deindentation in visual mode
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:199:: vnoremap < <gv
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:200:: vnoremap > >gv
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:201:: 
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:202:: " :cd. change working directory to that of the current file
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:203:: cmap cd. lcd %:p:h
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:204:: tnoremap <m d> <C  ><C n>:bdelete!<cr>
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:205:: tnoremap <A `> <C  ><C n>
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:206:: tnoremap <A Esc> <C  ><C n>
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:207:: nmap <A S t> :te<cr>
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:208:: " other mappings 
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:209:: noremap <leader>r :up<cr>:e<cr> 
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:210:: " inoremap . .<esc>:up<cr>a
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:211:: command Tw50 set tw=50
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:212:: command Tw0 set tw=0
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:213:: noremap q :q<cr>
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:214:: noremap <leader>q q
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:215:: nmap <m 7> :ZenMode<cr>:mksession!<cr>
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:216:: nnoremap <leader>u <cr>:UndotreeToggle<CR>
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:217:: noremap <leader>c :'<,'>CommentToggle<cr>
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:218:: 
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:219:: " language
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:220:: command! ES set spelllang=es
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:221:: " cmap ES set spelllang=es<cr>
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:222:: command! EN set spelllang=en_us
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:223:: " LSP
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:224:: command! LT LspStart ltex
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:225:: command! LTo LspStop ltex
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:226:: 
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:227:: nnoremap <leader>f :up<cr>:lua Server()<cr>:te pwsh  c lf<cr>i
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:228:: nnoremap <leader>lg :up<cr>:lua Server()<cr>:te pwsh  c lazygit<cr>i
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:229:: " nnoremap <leader>tt :FloatermToggle<cr>
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:230:: nnoremap <leader>t :up<cr>:lua Server()<cr>:edit term://pwsh<cr><cr>
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:231:: nnoremap <c ,> :cprevious<cr>
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:232:: nnoremap <c .> :cnext<cr> 
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:233:: inoremap <m h> <left>
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:234:: inoremap <m l> <right>
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:235:: " vnoremap <m s> :s///gc<left><left><left><left>
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:236:: " inoremap <m s> <esc>:%s///gc<left><left><left><left>
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:237:: " nnoremap <m s> :%s///gc<left><left><left><left> 
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:238:: vmap <M .> t.<CR>h
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:239:: nmap <M .> t.<CR>h
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:240:: nnoremap <up> 1<C U>
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:241:: nnoremap <m g> gqip
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:242:: " imap <up> <nop>
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:243:: nnoremap <down> 1<C D>
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:244:: " imap <down> <nop>
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:245:: noremap <ScrollWheelUp>      <nop>
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:246:: noremap <S ScrollWheelUp>    <nop>
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:247:: noremap <C ScrollWheelUp>    <nop>
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:248:: noremap <ScrollWheelDown>    <nop>
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:249:: noremap <S ScrollWheelDown>  <nop>
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:250:: noremap <C ScrollWheelDown>  <nop>
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:251:: noremap <ScrollWheelLeft>    <nop>
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:252:: noremap <S ScrollWheelLeft>  <nop>
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:253:: noremap <C ScrollWheelLeft>  <nop>
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:254:: noremap <ScrollWheelRight>   <nop>
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:255:: noremap <S ScrollWheelRight> <nop>
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:256:: noremap <C ScrollWheelRight> <nop>
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:257:: noremap! <LeftDrag> <nop>
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:258:: noremap! <RightDrag> <nop>
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:259:: noremap! <LeftDrag> <nop>
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:260:: inoremap   /
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:261:: inoremap /  
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:262:: 
