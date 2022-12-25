@@ -19,6 +19,21 @@ opt.switchbuf='newtab'
 -- opt.ignorecase = true
 opt.smartcase = true
 opt.foldmethod='expr'
+opt.linebreak='true'
+vim.opt.formatoptions.append{'w'}
+opt.autochdir = true
+opt.mapleader=';'
+opt.inccommand=split
+opt.undofile='true'
+opt.undodir='~/.undo'
+opt.undolevels=1000000
+opt.undoreload=1000000
+opt.nohlsearch=true
+opt.nocursorline=true
+opt.wildchar='<TAB>'
+opt.background='light'
+vim.cmd[[set shortmess+=c]]
+
 -- opt.foldexpr = fn.nvim_treesitter#foldexpr()
 -- opt.foldexpr=set foldmethod=expr
 
