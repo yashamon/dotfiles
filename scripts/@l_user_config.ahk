@@ -20,7 +20,7 @@
  C:/Users/yasha/dotfiles/scripts/user_config.ahk:20:: ; === END OF INSTRUCTIONS ===
  C:/Users/yasha/dotfiles/scripts/user_config.ahk:21:: ; ===========================
  C:/Users/yasha/dotfiles/scripts/user_config.ahk:22:: 
- C:/Users/yasha/dotfiles/scripts/user_config.ahk:23:: SendMode Input  ; Recommended for new scripts due to its superior speed and reliability.
+ C:/Users/yasha/dotfiles/scripts/user_config.ahk:23:: /* SendMode Input  ; Recommended for new scripts due to its superior speed and reliability. */
  C:/Users/yasha/dotfiles/scripts/user_config.ahk:24:: SetWorkingDir %A_ScriptDir  ; Ensures a consistent starting directory. */
  C:/Users/yasha/dotfiles/scripts/user_config.ahk:25:: 
  C:/Users/yasha/dotfiles/scripts/user_config.ahk:26:: ; General remapping script for AutoHotkey

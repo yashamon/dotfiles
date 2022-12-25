@@ -20,7 +20,7 @@
 ; === END OF INSTRUCTIONS ===
 ; ===========================
 
-SendMode Input  ; Recommended for new scripts due to its superior speed and reliability.
+/* SendMode Input  ; Recommended for new scripts due to its superior speed and reliability. */
 SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory. */
 
 ; General remapping script for AutoHotkey
