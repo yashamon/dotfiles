@@ -19,8 +19,8 @@
  C:/Users/yasha/dotfiles/config/nvimnew/minimal.vim:19:: Plug 'ggandor/leap.nvim', { 'branch': 'main' 
  C:/Users/yasha/dotfiles/config/nvimnew/minimal.vim:20:: " Plug 'kyazdani42/nvim web devicons'
  C:/Users/yasha/dotfiles/config/nvimnew/minimal.vim:21:: Plug 'glacambre/firenvim', { 'do': { _  > firenvim#install(0)  
- C:/Users/yasha/dotfiles/config/nvimnew/minimal.vim:22:: " Plug 'williamboman/mason.nvim', { 'branch': 'main'  
- C:/Users/yasha/dotfiles/config/nvimnew/minimal.vim:23:: " Plug 'williamboman/mason lspconfig.nvim', { 'branch': 'main' 
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.vim:22:: Plug 'williamboman/mason.nvim', { 'branch': 'main'  
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.vim:23:: Plug 'williamboman/mason lspconfig.nvim', { 'branch': 'main' 
  C:/Users/yasha/dotfiles/config/nvimnew/minimal.vim:24:: " " Plug 'ray x/cmp treesitter'
  C:/Users/yasha/dotfiles/config/nvimnew/minimal.vim:25:: " Plug 'quangnguyen30192/cmp nvim tags',  { 'branch': 'main'   
  C:/Users/yasha/dotfiles/config/nvimnew/minimal.vim:26:: " Plug 'terrortylor/nvim comment', { 'branch': 'main' 
