@@ -18,7 +18,7 @@
  C:/Users/yasha/dotfiles/config/nvimnew/lua/set.lua:18:: opt.switchbuf='newtab'
  C:/Users/yasha/dotfiles/config/nvimnew/lua/set.lua:19::    opt.ignorecase = true
  C:/Users/yasha/dotfiles/config/nvimnew/lua/set.lua:20:: opt.smartcase = true
- C:/Users/yasha/dotfiles/config/nvimnew/lua/set.lua:21:: opt.foldmethod=expr
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/set.lua:21::    opt.foldmethod=expr
  C:/Users/yasha/dotfiles/config/nvimnew/lua/set.lua:22::    opt.foldexpr = fn.nvim_treesitter#foldexpr()
  C:/Users/yasha/dotfiles/config/nvimnew/lua/set.lua:23::    opt.foldexpr=set foldmethod=expr
  C:/Users/yasha/dotfiles/config/nvimnew/lua/set.lua:24:: 
