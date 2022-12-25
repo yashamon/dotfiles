@@ -219,7 +219,8 @@ undercurl = true,
         Comment = { fg = "#af6000" },
         String = { fg = "#580058" },
         Operator = { fg = "#580058" },
-        Pmenu = { bg = "#ffa546", fg = "#1e2030" }
+        Pmenu = { bg = "#ffa546", fg = "#1e2030" },
+				texTypeStyle = { fg = "aqua" }
         --bright orange  #fd8432
         --texComment = { fg = "#00ff00" },
         -- texString = { fg = "#0000ff" },
