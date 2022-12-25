@@ -49,15 +49,15 @@
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:49:: "Neovide 
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:50:: "
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:51:: " let g:neovide_maximized=v:true
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:52:: let g:neovide_fullscreen=v:true
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:53:: let g:neovide_floating_blur_amount_x = 3.0
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:54:: let g:neovide_floating_blur_amount_y = 3.0
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:55:: " let g:neovide_transparency=0.15
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:56:: 
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:57:: "General Settings, set
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:58:: set title
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:59:: set ignorecase
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:60:: set cmdheight=0
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:52:: " let g:neovide_fullscreen=v:true
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:53:: " let g:neovide_floating_blur_amount_x = 3.0
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:54:: " let g:neovide_floating_blur_amount_y = 3.0
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:55:: " " let g:neovide_transparency=0.15
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:56:: "
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:57:: " "General Settings, set
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:58:: " set title
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:59:: " set ignorecase
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:60:: " set cmdheight=0
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:61:: " set signcolumn=yes
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:62:: " set scrolloff=10
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:63:: " set shell=nu
