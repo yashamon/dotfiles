@@ -45,7 +45,7 @@ require('keymaps')
 require('set')
 -- require('telescope').load_extension('fzf')
 EOF
-set formatoptions+=w 
+
 "Neovide 
 "
 " let g:neovide_maximized=v:true
@@ -55,18 +55,33 @@ let g:neovide_floating_blur_amount_y = 3.0
 " let g:neovide_transparency=0.15
 
 "General Settings, set
-set guicursor=n-v-c:block,i-ci-ve:ver25,r-cr:hor20,o:hor50
+" set guicursor=n-v-c:block,i-ci-ve:ver25,r-cr:hor20,o:hor50
  		  \,a:blinkwait700-blinkoff400-blinkon250-Cursor/lCursor
  		  \,sm:block-blinkwait175-blinkoff150-blinkon175
 " set spelllang=en_us
 " set timeoutlen=0
-set foldexpr=nvim_treesitter#foldexpr()
-set tags+=~/workspacemodules/tags
-set tags+=~\workspacemodules\tags
-set tags+=.\tags
-set tags+=./tags
 " set wrapmargin=1
-" set listchars=eol:¬,tab:>·,trail:~,extends:>,precedes:<,space:␣ set tm=1000
+" set listchars=eol:¬,tab:>·,trail:~,extends:>,precedes:<,space:␣
+" set linebreak 
+" set formatoptions+=w " set breakat=" "
+" " set list  " list disables linebreak whitespace
+" set autochdir
+" let mapleader=';'
+" let g:mapleader=';'
+" set inccommand=split
+" set undofile                " Save undo's after file closes
+" set undodir=~/.undo " where to save undo histories
+" set undolevels=1000000         " How many undos
+" set undoreload=1000000		
+" set nohlsearch
+" " set noswapfile
+" set nocursorline
+" set wildchar=<TAB>	" start wild expansion in the command line using <TAB>
+" set background=light
+" colorscheme gruvbox
+" set background=light
+" set shortmess+=c
+" set tm=1000
 " set expandtab        "replace <TAB> with spaces
 " set softtabstop=3
 " set shiftwidth=3
