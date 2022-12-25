@@ -33,7 +33,7 @@
  C:/Users/yasha/dotfiles/config/nvimnew/lua/set.lua:33:: opt.undoreload=1000000
  C:/Users/yasha/dotfiles/config/nvimnew/lua/set.lua:34:: opt.hlsearch=false
  C:/Users/yasha/dotfiles/config/nvimnew/lua/set.lua:35:: opt.cursorline=false
- C:/Users/yasha/dotfiles/config/nvimnew/lua/set.lua:36:: opt.wildchar='<TAB>'
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/set.lua:36:: opt.wildchar=vim.api.nvim_replace_termcodes('<TAB>', true, true, true)
  C:/Users/yasha/dotfiles/config/nvimnew/lua/set.lua:37:: opt.background='light'
  C:/Users/yasha/dotfiles/config/nvimnew/lua/set.lua:38:: vim.o.guicuror = 'n v c:block,i ci ve:ver25,r cr:hor20,o:hor50,a:blinkwait700 blinkoff400 blinkon250 Cursor/lCursor,sm:block blinkwait175 blinkoff150 blinkon175'
  C:/Users/yasha/dotfiles/config/nvimnew/lua/set.lua:39:: opt.tags:append {'/workspacemodules/tags', './tags'
