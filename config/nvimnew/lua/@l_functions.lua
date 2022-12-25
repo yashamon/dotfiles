@@ -65,7 +65,7 @@
  C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:65:: Server()
  C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:66:: local buff = vim.fn.bufname()
  C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:67:: vim.cmd('te pwsh  c if ( (git rev parse   is inside work tree)  and (git rev parse   git dir) ) { git add . ; git commit  m  a; git push   all origin; ctags  R ')
- C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:68:: vim.cmd("buffer " .. buff)
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:68::    vim.cmd("buffer " .. buff)
  C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:69:: CG()
  C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:70:: end
  C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:71:: 
