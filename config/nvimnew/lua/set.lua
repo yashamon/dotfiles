@@ -4,6 +4,7 @@ vim.opt.tabstop = indent
 vim.opt.shiftwidth = indent
 vim.opt.softtabstop = indent
 vim.opt.backup = false
+opt.termguicolors = true
 -- vim.clipboard = unnamedplus
 -- opt.ignorecase = true
 opt.smartcase = true
