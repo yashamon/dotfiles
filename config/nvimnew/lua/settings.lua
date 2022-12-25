@@ -215,6 +215,8 @@ undercurl = true,
         texDelimiter = { fg = "#af6000" },
         texStatement = { fg = "#580058" },
 				texRefzone = { fg = "#af6000" },
+				texCite = { fg = "#af6000" },
+
 
         -- Operator = { fg = "#808080" },
         Type = { fg = "#008800" },
