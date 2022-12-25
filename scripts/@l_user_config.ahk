@@ -44,238 +44,237 @@
  C:/Users/yasha/dotfiles/scripts/user_config.ahk:44:: ;   when pressing CapsLock alone, it will activate the Escpae button
  C:/Users/yasha/dotfiles/scripts/user_config.ahk:45:: 
  C:/Users/yasha/dotfiles/scripts/user_config.ahk:46:: SetCapsLockState AlwaysOff
- C:/Users/yasha/dotfiles/scripts/user_config.ahk:47:: !Space::^Tab
- C:/Users/yasha/dotfiles/scripts/user_config.ahk:48:: CapsLock::Esc
- C:/Users/yasha/dotfiles/scripts/user_config.ahk:49:: ;k::Send {Up
- C:/Users/yasha/dotfiles/scripts/user_config.ahk:50:: ;Hotkey, k,off
- C:/Users/yasha/dotfiles/scripts/user_config.ahk:51:: ;CapsLock & k::
- C:/Users/yasha/dotfiles/scripts/user_config.ahk:52:: ;GetKeyState, state,CapsLock,P
- C:/Users/yasha/dotfiles/scripts/user_config.ahk:53:: ;If state=D
- C:/Users/yasha/dotfiles/scripts/user_config.ahk:54:: ;{
- C:/Users/yasha/dotfiles/scripts/user_config.ahk:55:: ;   Send {Up
- C:/Users/yasha/dotfiles/scripts/user_config.ahk:56:: ;   Hotkey, k, off  
- C:/Users/yasha/dotfiles/scripts/user_config.ahk:57:: ;   return
- C:/Users/yasha/dotfiles/scripts/user_config.ahk:58:: ;
- C:/Users/yasha/dotfiles/scripts/user_config.ahk:59:: ;Return
- C:/Users/yasha/dotfiles/scripts/user_config.ahk:60:: ;j::Send {Down
- C:/Users/yasha/dotfiles/scripts/user_config.ahk:61:: ;Hotkey, j,off
- C:/Users/yasha/dotfiles/scripts/user_config.ahk:62:: ;CapsLock & j::
- C:/Users/yasha/dotfiles/scripts/user_config.ahk:63:: ;GetKeyState, state,CapsLock,P
- C:/Users/yasha/dotfiles/scripts/user_config.ahk:64:: ;If state=D
- C:/Users/yasha/dotfiles/scripts/user_config.ahk:65:: ;{
- C:/Users/yasha/dotfiles/scripts/user_config.ahk:66:: ;   Send {Down
- C:/Users/yasha/dotfiles/scripts/user_config.ahk:67:: ;   Hotkey, j, off  
- C:/Users/yasha/dotfiles/scripts/user_config.ahk:68:: ;   return
- C:/Users/yasha/dotfiles/scripts/user_config.ahk:69:: ;
- C:/Users/yasha/dotfiles/scripts/user_config.ahk:70:: ;Return
- C:/Users/yasha/dotfiles/scripts/user_config.ahk:71:: ;l::Send {Right
- C:/Users/yasha/dotfiles/scripts/user_config.ahk:72:: ;Hotkey, l,off
- C:/Users/yasha/dotfiles/scripts/user_config.ahk:73:: ;CapsLock & l::
- C:/Users/yasha/dotfiles/scripts/user_config.ahk:74:: ;GetKeyState, state,CapsLock,P
- C:/Users/yasha/dotfiles/scripts/user_config.ahk:75:: ;If state=D
- C:/Users/yasha/dotfiles/scripts/user_config.ahk:76:: ;{
- C:/Users/yasha/dotfiles/scripts/user_config.ahk:77:: ;   Send {Right
- C:/Users/yasha/dotfiles/scripts/user_config.ahk:78:: ;   Hotkey, l, off  
- C:/Users/yasha/dotfiles/scripts/user_config.ahk:79:: ;   return
- C:/Users/yasha/dotfiles/scripts/user_config.ahk:80:: ;
- C:/Users/yasha/dotfiles/scripts/user_config.ahk:81:: ;Return
- C:/Users/yasha/dotfiles/scripts/user_config.ahk:82:: ;CapsLock & h::
- C:/Users/yasha/dotfiles/scripts/user_config.ahk:83:: ;GetKeyState, state,CapsLock,P
- C:/Users/yasha/dotfiles/scripts/user_config.ahk:84:: ;If state=D
- C:/Users/yasha/dotfiles/scripts/user_config.ahk:85:: ;{
- C:/Users/yasha/dotfiles/scripts/user_config.ahk:86:: ;   Send {Left
- C:/Users/yasha/dotfiles/scripts/user_config.ahk:87:: ;;   Hotkey, h, off
- C:/Users/yasha/dotfiles/scripts/user_config.ahk:88:: ;   return
- C:/Users/yasha/dotfiles/scripts/user_config.ahk:89:: ;
- C:/Users/yasha/dotfiles/scripts/user_config.ahk:90:: ;Return
- C:/Users/yasha/dotfiles/scripts/user_config.ahk:91:: #A::
- C:/Users/yasha/dotfiles/scripts/user_config.ahk:92:: switchDesktopByNumber(1)
- C:/Users/yasha/dotfiles/scripts/user_config.ahk:93:: Send !{Esc
- C:/Users/yasha/dotfiles/scripts/user_config.ahk:94:: sleep 100
- C:/Users/yasha/dotfiles/scripts/user_config.ahk:95:: Send !{Esc
- C:/Users/yasha/dotfiles/scripts/user_config.ahk:96:: return
- C:/Users/yasha/dotfiles/scripts/user_config.ahk:97:: 
- C:/Users/yasha/dotfiles/scripts/user_config.ahk:98:: #S::
- C:/Users/yasha/dotfiles/scripts/user_config.ahk:99:: switchDesktopByNumber(2)
- C:/Users/yasha/dotfiles/scripts/user_config.ahk:100:: Send !{Esc
- C:/Users/yasha/dotfiles/scripts/user_config.ahk:101:: sleep 100
- C:/Users/yasha/dotfiles/scripts/user_config.ahk:102:: Send !{Esc
- C:/Users/yasha/dotfiles/scripts/user_config.ahk:103:: return
- C:/Users/yasha/dotfiles/scripts/user_config.ahk:104:: 
- C:/Users/yasha/dotfiles/scripts/user_config.ahk:105:: #X::
- C:/Users/yasha/dotfiles/scripts/user_config.ahk:106:: WinClose A 
- C:/Users/yasha/dotfiles/scripts/user_config.ahk:107:: return
- C:/Users/yasha/dotfiles/scripts/user_config.ahk:108:: 
- C:/Users/yasha/dotfiles/scripts/user_config.ahk:109:: #J::
- C:/Users/yasha/dotfiles/scripts/user_config.ahk:110:: switchDesktopByNumber(4)
- C:/Users/yasha/dotfiles/scripts/user_config.ahk:111:: Send !{Esc
- C:/Users/yasha/dotfiles/scripts/user_config.ahk:112:: sleep 100
- C:/Users/yasha/dotfiles/scripts/user_config.ahk:113:: Send !{Esc
- C:/Users/yasha/dotfiles/scripts/user_config.ahk:114:: return
- C:/Users/yasha/dotfiles/scripts/user_config.ahk:115:: 
- C:/Users/yasha/dotfiles/scripts/user_config.ahk:116:: #D::
- C:/Users/yasha/dotfiles/scripts/user_config.ahk:117:: switchDesktopByNumber(5)
- C:/Users/yasha/dotfiles/scripts/user_config.ahk:118:: Send !{Esc
- C:/Users/yasha/dotfiles/scripts/user_config.ahk:119:: sleep 100
- C:/Users/yasha/dotfiles/scripts/user_config.ahk:120:: Send !{Esc
- C:/Users/yasha/dotfiles/scripts/user_config.ahk:121:: return
- C:/Users/yasha/dotfiles/scripts/user_config.ahk:122:: #C::
- C:/Users/yasha/dotfiles/scripts/user_config.ahk:123:: switchDesktopByNumber(3)
- C:/Users/yasha/dotfiles/scripts/user_config.ahk:124:: Send !{Esc
- C:/Users/yasha/dotfiles/scripts/user_config.ahk:125:: sleep 100
- C:/Users/yasha/dotfiles/scripts/user_config.ahk:126:: Send !{Esc 
- C:/Users/yasha/dotfiles/scripts/user_config.ahk:127:: return
- C:/Users/yasha/dotfiles/scripts/user_config.ahk:128:: 
- C:/Users/yasha/dotfiles/scripts/user_config.ahk:129:: #Space::
- C:/Users/yasha/dotfiles/scripts/user_config.ahk:130:: send {F11
- C:/Users/yasha/dotfiles/scripts/user_config.ahk:131:: return
- C:/Users/yasha/dotfiles/scripts/user_config.ahk:132:: home::CapsLock
- C:/Users/yasha/dotfiles/scripts/user_config.ahk:133:: #!a::MoveCurrentWindowToDesktop(1)
- C:/Users/yasha/dotfiles/scripts/user_config.ahk:134:: #!s::MoveCurrentWindowToDesktop(2)
- C:/Users/yasha/dotfiles/scripts/user_config.ahk:135:: #!d::MoveCurrentWindowToDesktop(3)
- C:/Users/yasha/dotfiles/scripts/user_config.ahk:136:: #!f::MoveCurrentWindowToDesktop(4)
- C:/Users/yasha/dotfiles/scripts/user_config.ahk:137:: #!c::MoveCurrentWindowToDesktop(5)
- C:/Users/yasha/dotfiles/scripts/user_config.ahk:138:: return
- C:/Users/yasha/dotfiles/scripts/user_config.ahk:139:: #!h::
- C:/Users/yasha/dotfiles/scripts/user_config.ahk:140:: return
- C:/Users/yasha/dotfiles/scripts/user_config.ahk:141:: #h::
- C:/Users/yasha/dotfiles/scripts/user_config.ahk:142:: return
- C:/Users/yasha/dotfiles/scripts/user_config.ahk:143:: #k::
- C:/Users/yasha/dotfiles/scripts/user_config.ahk:144:: return
- C:/Users/yasha/dotfiles/scripts/user_config.ahk:145:: #^a::
- C:/Users/yasha/dotfiles/scripts/user_config.ahk:146:: return
- C:/Users/yasha/dotfiles/scripts/user_config.ahk:147:: #^f::
- C:/Users/yasha/dotfiles/scripts/user_config.ahk:148:: return
- C:/Users/yasha/dotfiles/scripts/user_config.ahk:149:: #^d::
- C:/Users/yasha/dotfiles/scripts/user_config.ahk:150:: return
- C:/Users/yasha/dotfiles/scripts/user_config.ahk:151:: #^s::
- C:/Users/yasha/dotfiles/scripts/user_config.ahk:152:: return
- C:/Users/yasha/dotfiles/scripts/user_config.ahk:153:: #!k::
- C:/Users/yasha/dotfiles/scripts/user_config.ahk:154:: return
- C:/Users/yasha/dotfiles/scripts/user_config.ahk:155:: #^l::
- C:/Users/yasha/dotfiles/scripts/user_config.ahk:156:: return
- C:/Users/yasha/dotfiles/scripts/user_config.ahk:157:: #^j::
- C:/Users/yasha/dotfiles/scripts/user_config.ahk:158:: return
- C:/Users/yasha/dotfiles/scripts/user_config.ahk:159:: 
- C:/Users/yasha/dotfiles/scripts/user_config.ahk:160:: ; Win+Alt+G   Open Gmail in Chrome
- C:/Users/yasha/dotfiles/scripts/user_config.ahk:161:: #q::
- C:/Users/yasha/dotfiles/scripts/user_config.ahk:162:: WinKill, A
- C:/Users/yasha/dotfiles/scripts/user_config.ahk:163:: #Enter::
- C:/Users/yasha/dotfiles/scripts/user_config.ahk:164::     Run "nu" 
- C:/Users/yasha/dotfiles/scripts/user_config.ahk:165::     Return
- C:/Users/yasha/dotfiles/scripts/user_config.ahk:166:: #+f::
- C:/Users/yasha/dotfiles/scripts/user_config.ahk:167::     Run lf
- C:/Users/yasha/dotfiles/scripts/user_config.ahk:168::     Return
- C:/Users/yasha/dotfiles/scripts/user_config.ahk:169:: #n::
- C:/Users/yasha/dotfiles/scripts/user_config.ahk:170::     Run nu C: Users yasha dotfiles scripts nf.nu
- C:/Users/yasha/dotfiles/scripts/user_config.ahk:171::     Return
- C:/Users/yasha/dotfiles/scripts/user_config.ahk:172:: #e::
- C:/Users/yasha/dotfiles/scripts/user_config.ahk:173:: ; Run microsoft edge:https://this page intentionally left blank.org/ 
- C:/Users/yasha/dotfiles/scripts/user_config.ahk:174:: Run chrome
- C:/Users/yasha/dotfiles/scripts/user_config.ahk:175:: Return   
- C:/Users/yasha/dotfiles/scripts/user_config.ahk:176:: #+j::
- C:/Users/yasha/dotfiles/scripts/user_config.ahk:177:: ; Run microsoft edge:https://this page intentionally left blank.org/ 
- C:/Users/yasha/dotfiles/scripts/user_config.ahk:178:: Run xournalpp
- C:/Users/yasha/dotfiles/scripts/user_config.ahk:179:: Return   
- C:/Users/yasha/dotfiles/scripts/user_config.ahk:180:: ; Win+Shift+Break   Edit this file
- C:/Users/yasha/dotfiles/scripts/user_config.ahk:181:: #+Break::
- C:/Users/yasha/dotfiles/scripts/user_config.ahk:182::     Run "neo" "d: AutoHotkey.ahk"
- C:/Users/yasha/dotfiles/scripts/user_config.ahk:183::     Return
- C:/Users/yasha/dotfiles/scripts/user_config.ahk:184:: CapsLock & Numpad1::switchDesktopByNumber(1)
- C:/Users/yasha/dotfiles/scripts/user_config.ahk:185:: CapsLock & Numpad2::switchDesktopByNumber(2)
- C:/Users/yasha/dotfiles/scripts/user_config.ahk:186:: CapsLock & Numpad3::switchDesktopByNumber(3)
- C:/Users/yasha/dotfiles/scripts/user_config.ahk:187:: CapsLock & Numpad4::switchDesktopByNumber(4)
- C:/Users/yasha/dotfiles/scripts/user_config.ahk:188:: CapsLock & Numpad5::switchDesktopByNumber(5)
- C:/Users/yasha/dotfiles/scripts/user_config.ahk:189:: CapsLock & Numpad6::switchDesktopByNumber(6)
- C:/Users/yasha/dotfiles/scripts/user_config.ahk:190:: CapsLock & Numpad7::switchDesktopByNumber(7)
- C:/Users/yasha/dotfiles/scripts/user_config.ahk:191:: CapsLock & Numpad8::switchDesktopByNumber(8)
- C:/Users/yasha/dotfiles/scripts/user_config.ahk:192:: CapsLock & Numpad9::switchDesktopByNumber(9)
- C:/Users/yasha/dotfiles/scripts/user_config.ahk:193:: 
- C:/Users/yasha/dotfiles/scripts/user_config.ahk:194:: /* #n::switchDesktopToRight() */
- C:/Users/yasha/dotfiles/scripts/user_config.ahk:195:: /* #p::switchDesktopToLeft() */
- C:/Users/yasha/dotfiles/scripts/user_config.ahk:196:: CapsLock & s::switchDesktopToRight()
- C:/Users/yasha/dotfiles/scripts/user_config.ahk:197:: CapsLock & a::switchDesktopToLeft()
- C:/Users/yasha/dotfiles/scripts/user_config.ahk:198:: CapsLock & tab::switchDesktopToLastOpened()
- C:/Users/yasha/dotfiles/scripts/user_config.ahk:199:: 
- C:/Users/yasha/dotfiles/scripts/user_config.ahk:200:: CapsLock & c::createVirtualDesktop()
- C:/Users/yasha/dotfiles/scripts/user_config.ahk:201:: CapsLock & d::deleteVirtualDesktop()
- C:/Users/yasha/dotfiles/scripts/user_config.ahk:202:: 
- C:/Users/yasha/dotfiles/scripts/user_config.ahk:203:: #!a::MoveCurrentWindowToDesktop(1)
- C:/Users/yasha/dotfiles/scripts/user_config.ahk:204:: 
- C:/Users/yasha/dotfiles/scripts/user_config.ahk:205:: CapsLock & w::MoveCurrentWindowToDesktop(2)
- C:/Users/yasha/dotfiles/scripts/user_config.ahk:206:: CapsLock & e::MoveCurrentWindowToDesktop(3)
- C:/Users/yasha/dotfiles/scripts/user_config.ahk:207:: CapsLock & r::MoveCurrentWindowToDesktop(4)
- C:/Users/yasha/dotfiles/scripts/user_config.ahk:208:: CapsLock & t::MoveCurrentWindowToDesktop(5)
- C:/Users/yasha/dotfiles/scripts/user_config.ahk:209:: CapsLock & y::MoveCurrentWindowToDesktop(6)
- C:/Users/yasha/dotfiles/scripts/user_config.ahk:210:: CapsLock & u::MoveCurrentWindowToDesktop(7)
- C:/Users/yasha/dotfiles/scripts/user_config.ahk:211:: CapsLock & i::MoveCurrentWindowToDesktop(8)
- C:/Users/yasha/dotfiles/scripts/user_config.ahk:212:: CapsLock & o::MoveCurrentWindowToDesktop(9)
- C:/Users/yasha/dotfiles/scripts/user_config.ahk:213:: 
- C:/Users/yasha/dotfiles/scripts/user_config.ahk:214:: CapsLock & Right::MoveCurrentWindowToRightDesktop()
- C:/Users/yasha/dotfiles/scripts/user_config.ahk:215:: CapsLock & Left::MoveCurrentWindowToLeftDesktop()
- C:/Users/yasha/dotfiles/scripts/user_config.ahk:216:: 
- C:/Users/yasha/dotfiles/scripts/user_config.ahk:217:: ; === INSTRUCTIONS ===
- C:/Users/yasha/dotfiles/scripts/user_config.ahk:218:: ; Below is the alternate key configuration. Delete symbol ; in the beginning of the line to enable.
- C:/Users/yasha/dotfiles/scripts/user_config.ahk:219:: ; Note, that  ^!1  means "Ctrl + Alt + 1" and  ^#1  means "Ctrl + Win + 1"
- C:/Users/yasha/dotfiles/scripts/user_config.ahk:220:: ; === END OF INSTRUCTIONS ===
- C:/Users/yasha/dotfiles/scripts/user_config.ahk:221:: 
- C:/Users/yasha/dotfiles/scripts/user_config.ahk:222:: ; ^!1::switchDesktopByNumber(1)
- C:/Users/yasha/dotfiles/scripts/user_config.ahk:223:: ; ^!2::switchDesktopByNumber(2)
- C:/Users/yasha/dotfiles/scripts/user_config.ahk:224:: ; ^!3::switchDesktopByNumber(3)
- C:/Users/yasha/dotfiles/scripts/user_config.ahk:225:: ; ^!4::switchDesktopByNumber(4)
- C:/Users/yasha/dotfiles/scripts/user_config.ahk:226:: ; ^!5::switchDesktopByNumber(5)
- C:/Users/yasha/dotfiles/scripts/user_config.ahk:227:: ; ^!6::switchDesktopByNumber(6)
- C:/Users/yasha/dotfiles/scripts/user_config.ahk:228:: ; ^!7::switchDesktopByNumber(7)
- C:/Users/yasha/dotfiles/scripts/user_config.ahk:229:: ; ^!8::switchDesktopByNumber(8)
- C:/Users/yasha/dotfiles/scripts/user_config.ahk:230:: ; ^!9::switchDesktopByNumber(9)
- C:/Users/yasha/dotfiles/scripts/user_config.ahk:231:: 
- C:/Users/yasha/dotfiles/scripts/user_config.ahk:232:: ; ^!Numpad1::switchDesktopByNumber(1)
- C:/Users/yasha/dotfiles/scripts/user_config.ahk:233:: ; ^!Numpad2::switchDesktopByNumber(2)
- C:/Users/yasha/dotfiles/scripts/user_config.ahk:234:: ; ^!Numpad3::switchDesktopByNumber(3)
- C:/Users/yasha/dotfiles/scripts/user_config.ahk:235:: ; ^!Numpad4::switchDesktopByNumber(4)
- C:/Users/yasha/dotfiles/scripts/user_config.ahk:236:: ; ^!Numpad5::switchDesktopByNumber(5)
- C:/Users/yasha/dotfiles/scripts/user_config.ahk:237:: ; ^!Numpad6::switchDesktopByNumber(6)
- C:/Users/yasha/dotfiles/scripts/user_config.ahk:238:: ; ^!Numpad7::switchDesktopByNumber(7)
- C:/Users/yasha/dotfiles/scripts/user_config.ahk:239:: ; ^!Numpad8::switchDesktopByNumber(8)
- C:/Users/yasha/dotfiles/scripts/user_config.ahk:240:: ; ^!Numpad9::switchDesktopByNumber(9)
- C:/Users/yasha/dotfiles/scripts/user_config.ahk:241:: 
- C:/Users/yasha/dotfiles/scripts/user_config.ahk:242:: ; ^!n::switchDesktopToRight()
- C:/Users/yasha/dotfiles/scripts/user_config.ahk:243:: ; ^!p::switchDesktopToLeft()
- C:/Users/yasha/dotfiles/scripts/user_config.ahk:244:: ; ^!s::switchDesktopToRight()
- C:/Users/yasha/dotfiles/scripts/user_config.ahk:245:: ; ^!a::switchDesktopToLeft()
- C:/Users/yasha/dotfiles/scripts/user_config.ahk:246:: ; ^!tab::switchDesktopToLastOpened()
- C:/Users/yasha/dotfiles/scripts/user_config.ahk:247:: 
- C:/Users/yasha/dotfiles/scripts/user_config.ahk:248:: ; ^!c::createVirtualDesktop()
- C:/Users/yasha/dotfiles/scripts/user_config.ahk:249:: ; ^!d::deleteVirtualDesktop()
- C:/Users/yasha/dotfiles/scripts/user_config.ahk:250:: 
- C:/Users/yasha/dotfiles/scripts/user_config.ahk:251:: ; ^#1::MoveCurrentWindowToDesktop(1)
- C:/Users/yasha/dotfiles/scripts/user_config.ahk:252:: ; ^#2::MoveCurrentWindowToDesktop(2)
- C:/Users/yasha/dotfiles/scripts/user_config.ahk:253:: ; ^#3::MoveCurrentWindowToDesktop(3)
- C:/Users/yasha/dotfiles/scripts/user_config.ahk:254:: ; ^#4::MoveCurrentWindowToDesktop(4)
- C:/Users/yasha/dotfiles/scripts/user_config.ahk:255:: ; ^#5::MoveCurrentWindowToDesktop(5)
- C:/Users/yasha/dotfiles/scripts/user_config.ahk:256:: ; ^#6::MoveCurrentWindowToDesktop(6)
- C:/Users/yasha/dotfiles/scripts/user_config.ahk:257:: ; ^#7::MoveCurrentWindowToDesktop(7)
- C:/Users/yasha/dotfiles/scripts/user_config.ahk:258:: ; ^#8::MoveCurrentWindowToDesktop(8)
- C:/Users/yasha/dotfiles/scripts/user_config.ahk:259:: ; ^#9::MoveCurrentWindowToDesktop(9)
- C:/Users/yasha/dotfiles/scripts/user_config.ahk:260:: 
- C:/Users/yasha/dotfiles/scripts/user_config.ahk:261:: ; ^#Numpad1::MoveCurrentWindowToDesktop(1)
- C:/Users/yasha/dotfiles/scripts/user_config.ahk:262:: ; ^#Numpad2::MoveCurrentWindowToDesktop(2)
- C:/Users/yasha/dotfiles/scripts/user_config.ahk:263:: ; ^#Numpad3::MoveCurrentWindowToDesktop(3)
- C:/Users/yasha/dotfiles/scripts/user_config.ahk:264:: ; ^#Numpad4::MoveCurrentWindowToDesktop(4)
- C:/Users/yasha/dotfiles/scripts/user_config.ahk:265:: ; ^#Numpad5::MoveCurrentWindowToDesktop(5)
- C:/Users/yasha/dotfiles/scripts/user_config.ahk:266:: ; ^#Numpad6::MoveCurrentWindowToDesktop(6)
- C:/Users/yasha/dotfiles/scripts/user_config.ahk:267:: ; ^#Numpad7::MoveCurrentWindowToDesktop(7)
- C:/Users/yasha/dotfiles/scripts/user_config.ahk:268:: ; ^#Numpad8::MoveCurrentWindowToDesktop(8)
- C:/Users/yasha/dotfiles/scripts/user_config.ahk:269:: ; ^#Numpad9::MoveCurrentWindowToDesktop(9)
- C:/Users/yasha/dotfiles/scripts/user_config.ahk:270:: 
- C:/Users/yasha/dotfiles/scripts/user_config.ahk:271:: ; ^#Right::MoveCurrentWindowToRightDesktop()
- C:/Users/yasha/dotfiles/scripts/user_config.ahk:272:: ; ^#Left::MoveCurrentWindowToLeftDesktop()
+ C:/Users/yasha/dotfiles/scripts/user_config.ahk:47:: CapsLock::Esc
+ C:/Users/yasha/dotfiles/scripts/user_config.ahk:48:: ;k::Send {Up
+ C:/Users/yasha/dotfiles/scripts/user_config.ahk:49:: ;Hotkey, k,off
+ C:/Users/yasha/dotfiles/scripts/user_config.ahk:50:: ;CapsLock & k::
+ C:/Users/yasha/dotfiles/scripts/user_config.ahk:51:: ;GetKeyState, state,CapsLock,P
+ C:/Users/yasha/dotfiles/scripts/user_config.ahk:52:: ;If state=D
+ C:/Users/yasha/dotfiles/scripts/user_config.ahk:53:: ;{
+ C:/Users/yasha/dotfiles/scripts/user_config.ahk:54:: ;   Send {Up
+ C:/Users/yasha/dotfiles/scripts/user_config.ahk:55:: ;   Hotkey, k, off  
+ C:/Users/yasha/dotfiles/scripts/user_config.ahk:56:: ;   return
+ C:/Users/yasha/dotfiles/scripts/user_config.ahk:57:: ;
+ C:/Users/yasha/dotfiles/scripts/user_config.ahk:58:: ;Return
+ C:/Users/yasha/dotfiles/scripts/user_config.ahk:59:: ;j::Send {Down
+ C:/Users/yasha/dotfiles/scripts/user_config.ahk:60:: ;Hotkey, j,off
+ C:/Users/yasha/dotfiles/scripts/user_config.ahk:61:: ;CapsLock & j::
+ C:/Users/yasha/dotfiles/scripts/user_config.ahk:62:: ;GetKeyState, state,CapsLock,P
+ C:/Users/yasha/dotfiles/scripts/user_config.ahk:63:: ;If state=D
+ C:/Users/yasha/dotfiles/scripts/user_config.ahk:64:: ;{
+ C:/Users/yasha/dotfiles/scripts/user_config.ahk:65:: ;   Send {Down
+ C:/Users/yasha/dotfiles/scripts/user_config.ahk:66:: ;   Hotkey, j, off  
+ C:/Users/yasha/dotfiles/scripts/user_config.ahk:67:: ;   return
+ C:/Users/yasha/dotfiles/scripts/user_config.ahk:68:: ;
+ C:/Users/yasha/dotfiles/scripts/user_config.ahk:69:: ;Return
+ C:/Users/yasha/dotfiles/scripts/user_config.ahk:70:: ;l::Send {Right
+ C:/Users/yasha/dotfiles/scripts/user_config.ahk:71:: ;Hotkey, l,off
+ C:/Users/yasha/dotfiles/scripts/user_config.ahk:72:: ;CapsLock & l::
+ C:/Users/yasha/dotfiles/scripts/user_config.ahk:73:: ;GetKeyState, state,CapsLock,P
+ C:/Users/yasha/dotfiles/scripts/user_config.ahk:74:: ;If state=D
+ C:/Users/yasha/dotfiles/scripts/user_config.ahk:75:: ;{
+ C:/Users/yasha/dotfiles/scripts/user_config.ahk:76:: ;   Send {Right
+ C:/Users/yasha/dotfiles/scripts/user_config.ahk:77:: ;   Hotkey, l, off  
+ C:/Users/yasha/dotfiles/scripts/user_config.ahk:78:: ;   return
+ C:/Users/yasha/dotfiles/scripts/user_config.ahk:79:: ;
+ C:/Users/yasha/dotfiles/scripts/user_config.ahk:80:: ;Return
+ C:/Users/yasha/dotfiles/scripts/user_config.ahk:81:: ;CapsLock & h::
+ C:/Users/yasha/dotfiles/scripts/user_config.ahk:82:: ;GetKeyState, state,CapsLock,P
+ C:/Users/yasha/dotfiles/scripts/user_config.ahk:83:: ;If state=D
+ C:/Users/yasha/dotfiles/scripts/user_config.ahk:84:: ;{
+ C:/Users/yasha/dotfiles/scripts/user_config.ahk:85:: ;   Send {Left
+ C:/Users/yasha/dotfiles/scripts/user_config.ahk:86:: ;;   Hotkey, h, off
+ C:/Users/yasha/dotfiles/scripts/user_config.ahk:87:: ;   return
+ C:/Users/yasha/dotfiles/scripts/user_config.ahk:88:: ;
+ C:/Users/yasha/dotfiles/scripts/user_config.ahk:89:: ;Return
+ C:/Users/yasha/dotfiles/scripts/user_config.ahk:90:: #A::
+ C:/Users/yasha/dotfiles/scripts/user_config.ahk:91:: switchDesktopByNumber(1)
+ C:/Users/yasha/dotfiles/scripts/user_config.ahk:92:: Send !{Esc
+ C:/Users/yasha/dotfiles/scripts/user_config.ahk:93:: sleep 100
+ C:/Users/yasha/dotfiles/scripts/user_config.ahk:94:: Send !{Esc
+ C:/Users/yasha/dotfiles/scripts/user_config.ahk:95:: return
+ C:/Users/yasha/dotfiles/scripts/user_config.ahk:96:: 
+ C:/Users/yasha/dotfiles/scripts/user_config.ahk:97:: #S::
+ C:/Users/yasha/dotfiles/scripts/user_config.ahk:98:: switchDesktopByNumber(2)
+ C:/Users/yasha/dotfiles/scripts/user_config.ahk:99:: Send !{Esc
+ C:/Users/yasha/dotfiles/scripts/user_config.ahk:100:: sleep 100
+ C:/Users/yasha/dotfiles/scripts/user_config.ahk:101:: Send !{Esc
+ C:/Users/yasha/dotfiles/scripts/user_config.ahk:102:: return
+ C:/Users/yasha/dotfiles/scripts/user_config.ahk:103:: 
+ C:/Users/yasha/dotfiles/scripts/user_config.ahk:104:: #X::
+ C:/Users/yasha/dotfiles/scripts/user_config.ahk:105:: WinClose A 
+ C:/Users/yasha/dotfiles/scripts/user_config.ahk:106:: return
+ C:/Users/yasha/dotfiles/scripts/user_config.ahk:107:: 
+ C:/Users/yasha/dotfiles/scripts/user_config.ahk:108:: #J::
+ C:/Users/yasha/dotfiles/scripts/user_config.ahk:109:: switchDesktopByNumber(4)
+ C:/Users/yasha/dotfiles/scripts/user_config.ahk:110:: Send !{Esc
+ C:/Users/yasha/dotfiles/scripts/user_config.ahk:111:: sleep 100
+ C:/Users/yasha/dotfiles/scripts/user_config.ahk:112:: Send !{Esc
+ C:/Users/yasha/dotfiles/scripts/user_config.ahk:113:: return
+ C:/Users/yasha/dotfiles/scripts/user_config.ahk:114:: 
+ C:/Users/yasha/dotfiles/scripts/user_config.ahk:115:: #D::
+ C:/Users/yasha/dotfiles/scripts/user_config.ahk:116:: switchDesktopByNumber(5)
+ C:/Users/yasha/dotfiles/scripts/user_config.ahk:117:: Send !{Esc
+ C:/Users/yasha/dotfiles/scripts/user_config.ahk:118:: sleep 100
+ C:/Users/yasha/dotfiles/scripts/user_config.ahk:119:: Send !{Esc
+ C:/Users/yasha/dotfiles/scripts/user_config.ahk:120:: return
+ C:/Users/yasha/dotfiles/scripts/user_config.ahk:121:: #C::
+ C:/Users/yasha/dotfiles/scripts/user_config.ahk:122:: switchDesktopByNumber(3)
+ C:/Users/yasha/dotfiles/scripts/user_config.ahk:123:: Send !{Esc
+ C:/Users/yasha/dotfiles/scripts/user_config.ahk:124:: sleep 100
+ C:/Users/yasha/dotfiles/scripts/user_config.ahk:125:: Send !{Esc 
+ C:/Users/yasha/dotfiles/scripts/user_config.ahk:126:: return
+ C:/Users/yasha/dotfiles/scripts/user_config.ahk:127:: 
+ C:/Users/yasha/dotfiles/scripts/user_config.ahk:128:: #Space::
+ C:/Users/yasha/dotfiles/scripts/user_config.ahk:129:: send {F11
+ C:/Users/yasha/dotfiles/scripts/user_config.ahk:130:: return
+ C:/Users/yasha/dotfiles/scripts/user_config.ahk:131:: home::CapsLock
+ C:/Users/yasha/dotfiles/scripts/user_config.ahk:132:: #!a::MoveCurrentWindowToDesktop(1)
+ C:/Users/yasha/dotfiles/scripts/user_config.ahk:133:: #!s::MoveCurrentWindowToDesktop(2)
+ C:/Users/yasha/dotfiles/scripts/user_config.ahk:134:: #!d::MoveCurrentWindowToDesktop(3)
+ C:/Users/yasha/dotfiles/scripts/user_config.ahk:135:: #!f::MoveCurrentWindowToDesktop(4)
+ C:/Users/yasha/dotfiles/scripts/user_config.ahk:136:: #!c::MoveCurrentWindowToDesktop(5)
+ C:/Users/yasha/dotfiles/scripts/user_config.ahk:137:: return
+ C:/Users/yasha/dotfiles/scripts/user_config.ahk:138:: #!h::
+ C:/Users/yasha/dotfiles/scripts/user_config.ahk:139:: return
+ C:/Users/yasha/dotfiles/scripts/user_config.ahk:140:: #h::
+ C:/Users/yasha/dotfiles/scripts/user_config.ahk:141:: return
+ C:/Users/yasha/dotfiles/scripts/user_config.ahk:142:: #k::
+ C:/Users/yasha/dotfiles/scripts/user_config.ahk:143:: return
+ C:/Users/yasha/dotfiles/scripts/user_config.ahk:144:: #^a::
+ C:/Users/yasha/dotfiles/scripts/user_config.ahk:145:: return
+ C:/Users/yasha/dotfiles/scripts/user_config.ahk:146:: #^f::
+ C:/Users/yasha/dotfiles/scripts/user_config.ahk:147:: return
+ C:/Users/yasha/dotfiles/scripts/user_config.ahk:148:: #^d::
+ C:/Users/yasha/dotfiles/scripts/user_config.ahk:149:: return
+ C:/Users/yasha/dotfiles/scripts/user_config.ahk:150:: #^s::
+ C:/Users/yasha/dotfiles/scripts/user_config.ahk:151:: return
+ C:/Users/yasha/dotfiles/scripts/user_config.ahk:152:: #!k::
+ C:/Users/yasha/dotfiles/scripts/user_config.ahk:153:: return
+ C:/Users/yasha/dotfiles/scripts/user_config.ahk:154:: #^l::
+ C:/Users/yasha/dotfiles/scripts/user_config.ahk:155:: return
+ C:/Users/yasha/dotfiles/scripts/user_config.ahk:156:: #^j::
+ C:/Users/yasha/dotfiles/scripts/user_config.ahk:157:: return
+ C:/Users/yasha/dotfiles/scripts/user_config.ahk:158:: 
+ C:/Users/yasha/dotfiles/scripts/user_config.ahk:159:: ; Win+Alt+G   Open Gmail in Chrome
+ C:/Users/yasha/dotfiles/scripts/user_config.ahk:160:: #q::
+ C:/Users/yasha/dotfiles/scripts/user_config.ahk:161:: WinKill, A
+ C:/Users/yasha/dotfiles/scripts/user_config.ahk:162:: #Enter::
+ C:/Users/yasha/dotfiles/scripts/user_config.ahk:163::     Run "nu" 
+ C:/Users/yasha/dotfiles/scripts/user_config.ahk:164::     Return
+ C:/Users/yasha/dotfiles/scripts/user_config.ahk:165:: #+f::
+ C:/Users/yasha/dotfiles/scripts/user_config.ahk:166::     Run lf
+ C:/Users/yasha/dotfiles/scripts/user_config.ahk:167::     Return
+ C:/Users/yasha/dotfiles/scripts/user_config.ahk:168:: #n::
+ C:/Users/yasha/dotfiles/scripts/user_config.ahk:169::     Run nu C: Users yasha dotfiles scripts nf.nu
+ C:/Users/yasha/dotfiles/scripts/user_config.ahk:170::     Return
+ C:/Users/yasha/dotfiles/scripts/user_config.ahk:171:: #e::
+ C:/Users/yasha/dotfiles/scripts/user_config.ahk:172:: ; Run microsoft edge:https://this page intentionally left blank.org/ 
+ C:/Users/yasha/dotfiles/scripts/user_config.ahk:173:: Run chrome
+ C:/Users/yasha/dotfiles/scripts/user_config.ahk:174:: Return   
+ C:/Users/yasha/dotfiles/scripts/user_config.ahk:175:: #+j::
+ C:/Users/yasha/dotfiles/scripts/user_config.ahk:176:: ; Run microsoft edge:https://this page intentionally left blank.org/ 
+ C:/Users/yasha/dotfiles/scripts/user_config.ahk:177:: Run xournalpp
+ C:/Users/yasha/dotfiles/scripts/user_config.ahk:178:: Return   
+ C:/Users/yasha/dotfiles/scripts/user_config.ahk:179:: ; Win+Shift+Break   Edit this file
+ C:/Users/yasha/dotfiles/scripts/user_config.ahk:180:: #+Break::
+ C:/Users/yasha/dotfiles/scripts/user_config.ahk:181::     Run "neo" "d: AutoHotkey.ahk"
+ C:/Users/yasha/dotfiles/scripts/user_config.ahk:182::     Return
+ C:/Users/yasha/dotfiles/scripts/user_config.ahk:183:: CapsLock & Numpad1::switchDesktopByNumber(1)
+ C:/Users/yasha/dotfiles/scripts/user_config.ahk:184:: CapsLock & Numpad2::switchDesktopByNumber(2)
+ C:/Users/yasha/dotfiles/scripts/user_config.ahk:185:: CapsLock & Numpad3::switchDesktopByNumber(3)
+ C:/Users/yasha/dotfiles/scripts/user_config.ahk:186:: CapsLock & Numpad4::switchDesktopByNumber(4)
+ C:/Users/yasha/dotfiles/scripts/user_config.ahk:187:: CapsLock & Numpad5::switchDesktopByNumber(5)
+ C:/Users/yasha/dotfiles/scripts/user_config.ahk:188:: CapsLock & Numpad6::switchDesktopByNumber(6)
+ C:/Users/yasha/dotfiles/scripts/user_config.ahk:189:: CapsLock & Numpad7::switchDesktopByNumber(7)
+ C:/Users/yasha/dotfiles/scripts/user_config.ahk:190:: CapsLock & Numpad8::switchDesktopByNumber(8)
+ C:/Users/yasha/dotfiles/scripts/user_config.ahk:191:: CapsLock & Numpad9::switchDesktopByNumber(9)
+ C:/Users/yasha/dotfiles/scripts/user_config.ahk:192:: 
+ C:/Users/yasha/dotfiles/scripts/user_config.ahk:193:: /* #n::switchDesktopToRight() */
+ C:/Users/yasha/dotfiles/scripts/user_config.ahk:194:: /* #p::switchDesktopToLeft() */
+ C:/Users/yasha/dotfiles/scripts/user_config.ahk:195:: CapsLock & s::switchDesktopToRight()
+ C:/Users/yasha/dotfiles/scripts/user_config.ahk:196:: CapsLock & a::switchDesktopToLeft()
+ C:/Users/yasha/dotfiles/scripts/user_config.ahk:197:: CapsLock & tab::switchDesktopToLastOpened()
+ C:/Users/yasha/dotfiles/scripts/user_config.ahk:198:: 
+ C:/Users/yasha/dotfiles/scripts/user_config.ahk:199:: CapsLock & c::createVirtualDesktop()
+ C:/Users/yasha/dotfiles/scripts/user_config.ahk:200:: CapsLock & d::deleteVirtualDesktop()
+ C:/Users/yasha/dotfiles/scripts/user_config.ahk:201:: 
+ C:/Users/yasha/dotfiles/scripts/user_config.ahk:202:: #!a::MoveCurrentWindowToDesktop(1)
+ C:/Users/yasha/dotfiles/scripts/user_config.ahk:203:: 
+ C:/Users/yasha/dotfiles/scripts/user_config.ahk:204:: CapsLock & w::MoveCurrentWindowToDesktop(2)
+ C:/Users/yasha/dotfiles/scripts/user_config.ahk:205:: CapsLock & e::MoveCurrentWindowToDesktop(3)
+ C:/Users/yasha/dotfiles/scripts/user_config.ahk:206:: CapsLock & r::MoveCurrentWindowToDesktop(4)
+ C:/Users/yasha/dotfiles/scripts/user_config.ahk:207:: CapsLock & t::MoveCurrentWindowToDesktop(5)
+ C:/Users/yasha/dotfiles/scripts/user_config.ahk:208:: CapsLock & y::MoveCurrentWindowToDesktop(6)
+ C:/Users/yasha/dotfiles/scripts/user_config.ahk:209:: CapsLock & u::MoveCurrentWindowToDesktop(7)
+ C:/Users/yasha/dotfiles/scripts/user_config.ahk:210:: CapsLock & i::MoveCurrentWindowToDesktop(8)
+ C:/Users/yasha/dotfiles/scripts/user_config.ahk:211:: CapsLock & o::MoveCurrentWindowToDesktop(9)
+ C:/Users/yasha/dotfiles/scripts/user_config.ahk:212:: 
+ C:/Users/yasha/dotfiles/scripts/user_config.ahk:213:: CapsLock & Right::MoveCurrentWindowToRightDesktop()
+ C:/Users/yasha/dotfiles/scripts/user_config.ahk:214:: CapsLock & Left::MoveCurrentWindowToLeftDesktop()
+ C:/Users/yasha/dotfiles/scripts/user_config.ahk:215:: 
+ C:/Users/yasha/dotfiles/scripts/user_config.ahk:216:: ; === INSTRUCTIONS ===
+ C:/Users/yasha/dotfiles/scripts/user_config.ahk:217:: ; Below is the alternate key configuration. Delete symbol ; in the beginning of the line to enable.
+ C:/Users/yasha/dotfiles/scripts/user_config.ahk:218:: ; Note, that  ^!1  means "Ctrl + Alt + 1" and  ^#1  means "Ctrl + Win + 1"
+ C:/Users/yasha/dotfiles/scripts/user_config.ahk:219:: ; === END OF INSTRUCTIONS ===
+ C:/Users/yasha/dotfiles/scripts/user_config.ahk:220:: 
+ C:/Users/yasha/dotfiles/scripts/user_config.ahk:221:: ; ^!1::switchDesktopByNumber(1)
+ C:/Users/yasha/dotfiles/scripts/user_config.ahk:222:: ; ^!2::switchDesktopByNumber(2)
+ C:/Users/yasha/dotfiles/scripts/user_config.ahk:223:: ; ^!3::switchDesktopByNumber(3)
+ C:/Users/yasha/dotfiles/scripts/user_config.ahk:224:: ; ^!4::switchDesktopByNumber(4)
+ C:/Users/yasha/dotfiles/scripts/user_config.ahk:225:: ; ^!5::switchDesktopByNumber(5)
+ C:/Users/yasha/dotfiles/scripts/user_config.ahk:226:: ; ^!6::switchDesktopByNumber(6)
+ C:/Users/yasha/dotfiles/scripts/user_config.ahk:227:: ; ^!7::switchDesktopByNumber(7)
+ C:/Users/yasha/dotfiles/scripts/user_config.ahk:228:: ; ^!8::switchDesktopByNumber(8)
+ C:/Users/yasha/dotfiles/scripts/user_config.ahk:229:: ; ^!9::switchDesktopByNumber(9)
+ C:/Users/yasha/dotfiles/scripts/user_config.ahk:230:: 
+ C:/Users/yasha/dotfiles/scripts/user_config.ahk:231:: ; ^!Numpad1::switchDesktopByNumber(1)
+ C:/Users/yasha/dotfiles/scripts/user_config.ahk:232:: ; ^!Numpad2::switchDesktopByNumber(2)
+ C:/Users/yasha/dotfiles/scripts/user_config.ahk:233:: ; ^!Numpad3::switchDesktopByNumber(3)
+ C:/Users/yasha/dotfiles/scripts/user_config.ahk:234:: ; ^!Numpad4::switchDesktopByNumber(4)
+ C:/Users/yasha/dotfiles/scripts/user_config.ahk:235:: ; ^!Numpad5::switchDesktopByNumber(5)
+ C:/Users/yasha/dotfiles/scripts/user_config.ahk:236:: ; ^!Numpad6::switchDesktopByNumber(6)
+ C:/Users/yasha/dotfiles/scripts/user_config.ahk:237:: ; ^!Numpad7::switchDesktopByNumber(7)
+ C:/Users/yasha/dotfiles/scripts/user_config.ahk:238:: ; ^!Numpad8::switchDesktopByNumber(8)
+ C:/Users/yasha/dotfiles/scripts/user_config.ahk:239:: ; ^!Numpad9::switchDesktopByNumber(9)
+ C:/Users/yasha/dotfiles/scripts/user_config.ahk:240:: 
+ C:/Users/yasha/dotfiles/scripts/user_config.ahk:241:: ; ^!n::switchDesktopToRight()
+ C:/Users/yasha/dotfiles/scripts/user_config.ahk:242:: ; ^!p::switchDesktopToLeft()
+ C:/Users/yasha/dotfiles/scripts/user_config.ahk:243:: ; ^!s::switchDesktopToRight()
+ C:/Users/yasha/dotfiles/scripts/user_config.ahk:244:: ; ^!a::switchDesktopToLeft()
+ C:/Users/yasha/dotfiles/scripts/user_config.ahk:245:: ; ^!tab::switchDesktopToLastOpened()
+ C:/Users/yasha/dotfiles/scripts/user_config.ahk:246:: 
+ C:/Users/yasha/dotfiles/scripts/user_config.ahk:247:: ; ^!c::createVirtualDesktop()
+ C:/Users/yasha/dotfiles/scripts/user_config.ahk:248:: ; ^!d::deleteVirtualDesktop()
+ C:/Users/yasha/dotfiles/scripts/user_config.ahk:249:: 
+ C:/Users/yasha/dotfiles/scripts/user_config.ahk:250:: ; ^#1::MoveCurrentWindowToDesktop(1)
+ C:/Users/yasha/dotfiles/scripts/user_config.ahk:251:: ; ^#2::MoveCurrentWindowToDesktop(2)
+ C:/Users/yasha/dotfiles/scripts/user_config.ahk:252:: ; ^#3::MoveCurrentWindowToDesktop(3)
+ C:/Users/yasha/dotfiles/scripts/user_config.ahk:253:: ; ^#4::MoveCurrentWindowToDesktop(4)
+ C:/Users/yasha/dotfiles/scripts/user_config.ahk:254:: ; ^#5::MoveCurrentWindowToDesktop(5)
+ C:/Users/yasha/dotfiles/scripts/user_config.ahk:255:: ; ^#6::MoveCurrentWindowToDesktop(6)
+ C:/Users/yasha/dotfiles/scripts/user_config.ahk:256:: ; ^#7::MoveCurrentWindowToDesktop(7)
+ C:/Users/yasha/dotfiles/scripts/user_config.ahk:257:: ; ^#8::MoveCurrentWindowToDesktop(8)
+ C:/Users/yasha/dotfiles/scripts/user_config.ahk:258:: ; ^#9::MoveCurrentWindowToDesktop(9)
+ C:/Users/yasha/dotfiles/scripts/user_config.ahk:259:: 
+ C:/Users/yasha/dotfiles/scripts/user_config.ahk:260:: ; ^#Numpad1::MoveCurrentWindowToDesktop(1)
+ C:/Users/yasha/dotfiles/scripts/user_config.ahk:261:: ; ^#Numpad2::MoveCurrentWindowToDesktop(2)
+ C:/Users/yasha/dotfiles/scripts/user_config.ahk:262:: ; ^#Numpad3::MoveCurrentWindowToDesktop(3)
+ C:/Users/yasha/dotfiles/scripts/user_config.ahk:263:: ; ^#Numpad4::MoveCurrentWindowToDesktop(4)
+ C:/Users/yasha/dotfiles/scripts/user_config.ahk:264:: ; ^#Numpad5::MoveCurrentWindowToDesktop(5)
+ C:/Users/yasha/dotfiles/scripts/user_config.ahk:265:: ; ^#Numpad6::MoveCurrentWindowToDesktop(6)
+ C:/Users/yasha/dotfiles/scripts/user_config.ahk:266:: ; ^#Numpad7::MoveCurrentWindowToDesktop(7)
+ C:/Users/yasha/dotfiles/scripts/user_config.ahk:267:: ; ^#Numpad8::MoveCurrentWindowToDesktop(8)
+ C:/Users/yasha/dotfiles/scripts/user_config.ahk:268:: ; ^#Numpad9::MoveCurrentWindowToDesktop(9)
+ C:/Users/yasha/dotfiles/scripts/user_config.ahk:269:: 
+ C:/Users/yasha/dotfiles/scripts/user_config.ahk:270:: ; ^#Right::MoveCurrentWindowToRightDesktop()
+ C:/Users/yasha/dotfiles/scripts/user_config.ahk:271:: ; ^#Left::MoveCurrentWindowToLeftDesktop()
+ C:/Users/yasha/dotfiles/scripts/user_config.ahk:272:: 
  C:/Users/yasha/dotfiles/scripts/user_config.ahk:273:: 
  C:/Users/yasha/dotfiles/scripts/user_config.ahk:274:: 
- C:/Users/yasha/dotfiles/scripts/user_config.ahk:275:: 
- C:/Users/yasha/dotfiles/scripts/user_config.ahk:276:: ; === INSTRUCTIONS ===
- C:/Users/yasha/dotfiles/scripts/user_config.ahk:277:: ; Additional alternative shortcut for moving current window to left or right desktop (ctrl+shift+Win+left/right)
- C:/Users/yasha/dotfiles/scripts/user_config.ahk:278:: ; === END OF INSTRUCTIONS ===
- C:/Users/yasha/dotfiles/scripts/user_config.ahk:279:: 
- C:/Users/yasha/dotfiles/scripts/user_config.ahk:280:: ; ^#+Right::MoveCurrentWindowToRightDesktop()
- C:/Users/yasha/dotfiles/scripts/user_config.ahk:281:: ; ^#+Left::MoveCurrentWindowToLeftDesktop() 
+ C:/Users/yasha/dotfiles/scripts/user_config.ahk:275:: ; === INSTRUCTIONS ===
+ C:/Users/yasha/dotfiles/scripts/user_config.ahk:276:: ; Additional alternative shortcut for moving current window to left or right desktop (ctrl+shift+Win+left/right)
+ C:/Users/yasha/dotfiles/scripts/user_config.ahk:277:: ; === END OF INSTRUCTIONS ===
+ C:/Users/yasha/dotfiles/scripts/user_config.ahk:278:: 
+ C:/Users/yasha/dotfiles/scripts/user_config.ahk:279:: ; ^#+Right::MoveCurrentWindowToRightDesktop()
+ C:/Users/yasha/dotfiles/scripts/user_config.ahk:280:: ; ^#+Left::MoveCurrentWindowToLeftDesktop() 

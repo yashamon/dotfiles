@@ -44,7 +44,6 @@
 ;-- when pressing CapsLock alone, it will activate the Escpae button
 
 SetCapsLockState AlwaysOff
-!Space::^Tab
 CapsLock::Esc
 ;k::Send {Up}
 ;Hotkey, k,off
