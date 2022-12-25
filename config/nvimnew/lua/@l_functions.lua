@@ -74,22 +74,23 @@
  C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:74::     require('cmp').complete({ reason = require('cmp').ContextReason.Auto )
  C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:75::   end
  C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:76:: 
- C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:77:: vim.api.nvim_create_autocmd(
- C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:78::     { "BufReadPost","FileReadPost", "FileType tex, vim, lua",
- C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:79::     {
- C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:80::       callback = GitAsync(),
- C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:81::       pattern = "*",
- C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:82::     
- C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:83::   )
- C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:84:: 
- C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:85:: vim.api.nvim_create_autocmd(
- C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:86::     { "TextChangedI", ,
- C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:87::     {
- C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:88::       callback = function()
- C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:89::         vim.fn.timer_stop(timer)
- C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:90::         timer = vim.fn.timer_start(200, do_complete)
- C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:91::       end,
- C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:92::       pattern = "*",
- C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:93::     
- C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:94::   )
- C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:95:: 
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:77::    autocommands
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:78:: vim.api.nvim_create_autocmd(
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:79::     { "BufReadPost","FileReadPost", "FileType tex, vim, lua",
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:80::     {
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:81::       callback = GitAsync(),
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:82::       pattern = "*",
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:83::     
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:84::   )
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:85:: 
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:86:: vim.api.nvim_create_autocmd(
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:87::     { "TextChangedI", ,
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:88::     {
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:89::       callback = function()
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:90::         vim.fn.timer_stop(timer)
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:91::         timer = vim.fn.timer_start(200, do_complete)
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:92::       end,
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:93::       pattern = "*",
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:94::     
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:95::   )
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/functions.lua:96:: 
