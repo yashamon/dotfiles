@@ -113,7 +113,6 @@ set softtabstop=3
 set shiftwidth=3
 "Git autocommit  (nonmain branch)
 set completeopt=menu,menuone,noselect,noinsert
-Avoid showing message extra message when using completion
 
 let g:firenvim_config = { 
     \ 'globalSettings': {
