@@ -20,7 +20,7 @@ opt.ignorecase = true
 opt.smartcase = true
 opt.foldmethod='expr'
 opt.linebreak = true
-vim.opt.formatoptions.append {"w"}
+vim.opt.formatoptions:append{"w"}
 opt.autochdir = true
 opt.mapleader= ';'
 opt.inccommand = 'split'
@@ -33,14 +33,14 @@ opt.nocursorline=true
 opt.wildchar='<TAB>'
 opt.background='light'
 vim.o.guicuror = 'n-v-c:block,i-ci-ve:ver25,r-cr:hor20,o:hor50,a:blinkwait700-blinkoff400-blinkon250-Cursor/lCursor,sm:block-blinkwait175-blinkoff150-blinkon175'
-opt.tags.append {'/workspacemodules/tags', './tags'}
+opt.tags:append {'/workspacemodules/tags', './tags'}
 -- set tags+=~\workspacemodules\tags
--- opt.tags.append {'/workspacemodules/tags'}
+-- opt.tags:append {'/workspacemodules/tags'}
 -- set tags+=.\tags
 -- set tags+=./tags
 -- Set colorscheme
 vim.cmd.colorscheme('gruvbox')
-opt.shortmess.append {'c'}
+opt.shortmess:append {'c'}
 vim.cmd [[let g:neovide_fullscreen=v:true]]
 vim.cmd [[let g:neovide_floating_blur_amount_x = 3.0]]
 vim.cmd [[let g:neovide_floating_blur_amount_y = 3.0]]
