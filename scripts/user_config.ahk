@@ -20,7 +20,6 @@
 ; === END OF INSTRUCTIONS ===
 ; ===========================
 
-
 ; General remapping script for AutoHotkey
 
 ; The behaviour is such that the control key is located on the home
