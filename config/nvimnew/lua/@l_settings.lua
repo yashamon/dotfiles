@@ -216,7 +216,7 @@
  C:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:216::         texStatement = { fg = "#580058" ,
  C:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:217:: 				texRefzone = { fg = "#af6000" ,
  C:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:218:: 				texCite = { fg = "#af6000" ,
- C:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:219:: 				Special = { fg = '#580058' 
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:219:: 				Special = { fg = '#580058' ,
  C:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:220:: 
  C:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:221:: 
  C:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:222::            Operator = { fg = "#808080" ,

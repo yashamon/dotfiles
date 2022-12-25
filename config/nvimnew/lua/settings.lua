@@ -216,7 +216,7 @@ undercurl = true,
         texStatement = { fg = "#580058" },
 				texRefzone = { fg = "#af6000" },
 				texCite = { fg = "#af6000" },
-				Special = { fg = '#580058' }
+				Special = { fg = '#580058' },
 
 
         -- Operator = { fg = "#808080" },
