@@ -49,10 +49,7 @@
  C:/Users/yasha/dotfiles/config/nvimnew/lua/set.lua:49:: vim.cmd [[let g:neovide_floating_blur_amount_y = 3.0  
  C:/Users/yasha/dotfiles/config/nvimnew/lua/set.lua:50:: vim.cmd [[let g:neovide_fullscreen=v:true  
  C:/Users/yasha/dotfiles/config/nvimnew/lua/set.lua:51:: vim.cmd [[set foldexpr=nvim_treesitter#foldexpr()  
- C:/Users/yasha/dotfiles/config/nvimnew/lua/set.lua:52:: 
- C:/Users/yasha/dotfiles/config/nvimnew/lua/set.lua:53::    opt.foldexpr = fn.nvim_treesitter#foldexpr()
- C:/Users/yasha/dotfiles/config/nvimnew/lua/set.lua:54::    opt.foldexpr=set foldmethod=expr
- C:/Users/yasha/dotfiles/config/nvimnew/lua/set.lua:55:: 
- C:/Users/yasha/dotfiles/config/nvimnew/lua/set.lua:56::    opt.guicursor = n v c:block,i ci ve:ver25,r cr:hor20,o:hor50,a:blinkwait700 blinkoff400 blinkon250 Cursor/lCursor,sm:block blinkwait175 blinkoff150 blinkon175 
- C:/Users/yasha/dotfiles/config/nvimnew/lua/set.lua:57::   
- C:/Users/yasha/dotfiles/config/nvimnew/lua/set.lua:58:: opt.spell = true
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/set.lua:52::    opt.foldexr = 'vim.fn.nvim_treesitter#foldexpr()
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/set.lua:53::    opt.guicursor = n v c:block,i ci ve:ver25,r cr:hor20,o:hor50,a:blinkwait700 blinkoff400 blinkon250 Cursor/lCursor,sm:block blinkwait175 blinkoff150 blinkon175 
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/set.lua:54::   
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/set.lua:55:: opt.spell = true

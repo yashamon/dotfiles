@@ -49,10 +49,7 @@ vim.cmd [[let g:neovide_floating_blur_amount_x = 3.0]]
 vim.cmd [[let g:neovide_floating_blur_amount_y = 3.0]]
 vim.cmd [[let g:neovide_fullscreen=v:true]]
 vim.cmd [[set foldexpr=nvim_treesitter#foldexpr()]]
-
--- opt.foldexpr = fn.nvim_treesitter#foldexpr()
--- opt.foldexpr=set foldmethod=expr
-
+-- opt.foldexr = 'vim.fn.nvim_treesitter#foldexpr()
 -- opt.guicursor = n-v-c:block,i-ci-ve:ver25,r-cr:hor20,o:hor50,a:blinkwait700-blinkoff400-blinkon250-Cursor/lCursor,sm:block-blinkwait175-blinkoff150-blinkon175 
 --
 opt.spell = true
