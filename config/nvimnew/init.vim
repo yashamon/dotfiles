@@ -56,12 +56,14 @@ let g:neovide_floating_blur_amount_y = 3.0
 
 "General Settings, set
 " set guicursor=n-v-c:block,i-ci-ve:ver25,r-cr:hor20,o:hor50
- 		  \,a:blinkwait700-blinkoff400-blinkon250-Cursor/lCursor
- 		  \,sm:block-blinkwait175-blinkoff150-blinkon175
-" set spelllang=en_us
-" set timeoutlen=0
-" set wrapmargin=1
-" set listchars=eol:¬,tab:>·,trail:~,extends:>,precedes:<,space:␣
+"  		  \,a:blinkwait700-blinkoff400-blinkon250-Cursor/lCursor
+"  		  \,sm:block-blinkwait175-blinkoff150-blinkon175
+" " set spelllang=en_us
+" " set timeoutlen=0
+" set foldexpr=nvim_treesitter#foldexpr()
+"
+" " set wrapmargin=1
+" " set listchars=eol:¬,tab:>·,trail:~,extends:>,precedes:<,space:␣
 " set linebreak 
 " set formatoptions+=w " set breakat=" "
 " " set list  " list disables linebreak whitespace
