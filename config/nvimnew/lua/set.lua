@@ -41,6 +41,10 @@ opt.tags.append {'/workspacemodules/tags', './tags'}
 -- Set colorscheme
 vim.cmd.colorscheme('gruvbox')
 opt.shortmess.append {'c'}
+vim.cmd [[let g:neovide_fullscreen=v:true]]
+vim.cmd [[let g:neovide_floating_blur_amount_x = 3.0]]
+vim.cmd [[let g:neovide_floating_blur_amount_y = 3.0]]
+vim.cmd [[let g:neovide_fullscreen=v:true]]
 vim.cmd [[set foldexpr=nvim_treesitter#foldexpr()]]
 
 -- opt.foldexpr = fn.nvim_treesitter#foldexpr()
