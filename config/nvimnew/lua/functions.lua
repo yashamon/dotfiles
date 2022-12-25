@@ -83,7 +83,6 @@ local timer = 0
 --       pattern = "*",
 --     }
 --   )
-
   vim.api.nvim_create_autocmd(
     { "TextChangedI", },
     {
