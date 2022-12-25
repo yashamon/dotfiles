@@ -126,10 +126,10 @@ FileStates [
 		]
 		IsPinned = false
 		IsMissing = false
-		OpenCount = 9
+		OpenCount = 2
 		UseDefaultState = false
 		DisplayMode = continuous
-		ScrollPos = 83.1418 64.3487
+		ScrollPos = -1 64.163
 		PageNo = 27
 		Zoom = fit content
 		Rotation = 0
@@ -166,7 +166,7 @@ FileStates [
 		]
 		IsPinned = false
 		IsMissing = false
-		OpenCount = 1
+		OpenCount = 0
 		UseDefaultState = false
 		DisplayMode = continuous
 		ScrollPos = 0 0
@@ -226,7 +226,7 @@ FileStates [
 		]
 		IsPinned = false
 		IsMissing = false
-		OpenCount = 2
+		OpenCount = 1
 		UseDefaultState = false
 		DisplayMode = continuous
 		ScrollPos = -1 -1
@@ -266,7 +266,7 @@ FileStates [
 		]
 		IsPinned = false
 		IsMissing = false
-		OpenCount = 1
+		OpenCount = 0
 		UseDefaultState = false
 		DisplayMode = continuous
 		ScrollPos = 0 0
@@ -286,7 +286,7 @@ FileStates [
 		]
 		IsPinned = false
 		IsMissing = false
-		OpenCount = 1
+		OpenCount = 0
 		UseDefaultState = false
 		DisplayMode = continuous
 		ScrollPos = -1 -1
@@ -1665,7 +1665,7 @@ FileStates [
 		Favorites [
 		]
 		IsPinned = false
-		IsMissing = true
+		IsMissing = false
 		OpenCount = 0
 		UseDefaultState = false
 		DisplayMode = continuous
@@ -1682,35 +1682,9 @@ FileStates [
 	]
 ]
 SessionData [
-	[
-		TabStates [
-			[
-				FilePath = C:\Users\yasha\conformalsymplectic\build\conformalsymplectic.pdf
-				DisplayMode = continuous
-				PageNo = 12
-				Zoom = fit content
-				Rotation = 0
-				ScrollPos = 83.1998 64.3396
-				ShowToc = false
-			]
-			[
-				FilePath = C:\Users\yasha\workspacemodules\conformalsymplectic\build\conformalsymplectic.pdf
-				DisplayMode = continuous
-				PageNo = 27
-				Zoom = fit content
-				Rotation = 0
-				ScrollPos = 83.1418 64.3487
-				ShowToc = false
-			]
-		]
-		TabIndex = 2
-		WindowState = 3
-		WindowPos = 451 0 1480 1872
-		SidebarDx = 364
-	]
 ]
 TimeOfLastUpdateCheck = 0 0
-OpenCountWeek = 624
+OpenCountWeek = 625
 
 # Settings below are not recognized by the current version
 "C = \Users\yasha\dotfiles\scripts\remote2.nu" %l $

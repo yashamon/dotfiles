@@ -1,6 +1,6 @@
  C:/Users/yasha/dotfiles/config/lf/lfrc:1:: set ratios 1:2:3
  C:/Users/yasha/dotfiles/config/lf/lfrc:2:: set filesep " "
- C:/Users/yasha/dotfiles/config/lf/lfrc:3:: set shell pwsh 
+ C:/Users/yasha/dotfiles/config/lf/lfrc:3:: set shell nu 
  C:/Users/yasha/dotfiles/config/lf/lfrc:4:: # set shell "C:  Users  yasha  scoop  shims  nu.exe"
  C:/Users/yasha/dotfiles/config/lf/lfrc:5:: 
  C:/Users/yasha/dotfiles/config/lf/lfrc:6:: # Shell commands with multiline definitions and/or positional arguments and/or

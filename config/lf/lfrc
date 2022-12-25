@@ -1,6 +1,6 @@
 set ratios 1:2:3
 set filesep " "
-set shell pwsh 
+set shell nu 
 # set shell "C:\\Users\\yasha\\scoop\\shims\\nu.exe"
 
 # Shell commands with multiline definitions and/or positional arguments and/or
