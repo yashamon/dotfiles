@@ -108,14 +108,14 @@ set wildchar=<TAB>	" start wild expansion in the command line using <TAB>
 set background=light
 colorscheme gruvbox
 set background=light
-" set tm=1000
-set expandtab        "replace <TAB> with spaces
-set softtabstop=3
-set shiftwidth=3
-"Git autocommit  (nonmain branch)
-set completeopt=menu,menuone,noselect,noinsert
-" Avoid showing message extra message when using completion
 set shortmess+=c
+" set tm=1000
+" set expandtab        "replace <TAB> with spaces
+" set softtabstop=3
+" set shiftwidth=3
+"Git autocommit  (nonmain branch)
+" set completeopt=menu,menuone,noselect,noinsert
+" Avoid showing message extra message when using completion
 
 let g:firenvim_config = { 
     \ 'globalSettings': {

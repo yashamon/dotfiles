@@ -108,14 +108,14 @@
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:108:: set background=light
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:109:: colorscheme gruvbox
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:110:: set background=light
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:111:: " set tm=1000
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:112:: set expandtab        "replace <TAB> with spaces
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:113:: set softtabstop=3
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:114:: set shiftwidth=3
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:115:: "Git autocommit  (nonmain branch)
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:116:: set completeopt=menu,menuone,noselect,noinsert
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:117:: " Avoid showing message extra message when using completion
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:118:: set shortmess+=c
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:111:: set shortmess+=c
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:112:: " set tm=1000
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:113:: " set expandtab        "replace <TAB> with spaces
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:114:: " set softtabstop=3
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:115:: " set shiftwidth=3
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:116:: "Git autocommit  (nonmain branch)
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:117:: " set completeopt=menu,menuone,noselect,noinsert
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:118:: " Avoid showing message extra message when using completion
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:119:: 
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:120:: let g:firenvim_config = { 
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:121::       'globalSettings': {
