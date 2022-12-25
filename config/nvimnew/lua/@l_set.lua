@@ -54,3 +54,4 @@
  C:/Users/yasha/dotfiles/config/nvimnew/lua/set.lua:54::    opt.guicursor = n v c:block,i ci ve:ver25,r cr:hor20,o:hor50,a:blinkwait700 blinkoff400 blinkon250 Cursor/lCursor,sm:block blinkwait175 blinkoff150 blinkon175 
  C:/Users/yasha/dotfiles/config/nvimnew/lua/set.lua:55::   
  C:/Users/yasha/dotfiles/config/nvimnew/lua/set.lua:56:: opt.spell = true
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/set.lua:57:: opt.filetype = true
