@@ -33,23 +33,24 @@
  C:/Users/yasha/dotfiles/config/nvimnew/lua/set.lua:33:: opt.undoreload=1000000
  C:/Users/yasha/dotfiles/config/nvimnew/lua/set.lua:34:: opt.hlsearch=false
  C:/Users/yasha/dotfiles/config/nvimnew/lua/set.lua:35:: opt.cursorline=false
- C:/Users/yasha/dotfiles/config/nvimnew/lua/set.lua:36:: opt.wildchar=vim.api.nvim_replace_termcodes('<TAB>', true, true, true)
- C:/Users/yasha/dotfiles/config/nvimnew/lua/set.lua:37:: opt.background='light'
- C:/Users/yasha/dotfiles/config/nvimnew/lua/set.lua:38:: vim.o.guicuror = 'n v c:block,i ci ve:ver25,r cr:hor20,o:hor50,a:blinkwait700 blinkoff400 blinkon250 Cursor/lCursor,sm:block blinkwait175 blinkoff150 blinkon175'
- C:/Users/yasha/dotfiles/config/nvimnew/lua/set.lua:39:: opt.tags:append {'/workspacemodules/tags', './tags'
- C:/Users/yasha/dotfiles/config/nvimnew/lua/set.lua:40::    set tags+=~ workspacemodules tags
- C:/Users/yasha/dotfiles/config/nvimnew/lua/set.lua:41::    opt.tags:append {'/workspacemodules/tags'
- C:/Users/yasha/dotfiles/config/nvimnew/lua/set.lua:42::    set tags+=. tags
- C:/Users/yasha/dotfiles/config/nvimnew/lua/set.lua:43::    set tags+=./tags
- C:/Users/yasha/dotfiles/config/nvimnew/lua/set.lua:44::    Set colorscheme
- C:/Users/yasha/dotfiles/config/nvimnew/lua/set.lua:45:: vim.cmd.colorscheme('gruvbox')
- C:/Users/yasha/dotfiles/config/nvimnew/lua/set.lua:46:: opt.shortmess:append {'c'
- C:/Users/yasha/dotfiles/config/nvimnew/lua/set.lua:47:: vim.cmd [[let g:neovide_fullscreen=v:true  
- C:/Users/yasha/dotfiles/config/nvimnew/lua/set.lua:48:: vim.cmd [[let g:neovide_floating_blur_amount_x = 3.0  
- C:/Users/yasha/dotfiles/config/nvimnew/lua/set.lua:49:: vim.cmd [[let g:neovide_floating_blur_amount_y = 3.0  
- C:/Users/yasha/dotfiles/config/nvimnew/lua/set.lua:50:: vim.cmd [[let g:neovide_fullscreen=v:true  
- C:/Users/yasha/dotfiles/config/nvimnew/lua/set.lua:51:: vim.cmd [[set foldexpr=nvim_treesitter#foldexpr()  
- C:/Users/yasha/dotfiles/config/nvimnew/lua/set.lua:52::    opt.foldexr = 'vim.fn.nvim_treesitter#foldexpr()
- C:/Users/yasha/dotfiles/config/nvimnew/lua/set.lua:53::    opt.guicursor = n v c:block,i ci ve:ver25,r cr:hor20,o:hor50,a:blinkwait700 blinkoff400 blinkon250 Cursor/lCursor,sm:block blinkwait175 blinkoff150 blinkon175 
- C:/Users/yasha/dotfiles/config/nvimnew/lua/set.lua:54::   
- C:/Users/yasha/dotfiles/config/nvimnew/lua/set.lua:55:: opt.spell = true
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/set.lua:36::    opt.wildchar=vim.api.nvim_replace_termcodes('<TAB>', true, true, true)
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/set.lua:37:: vim.cmd [[set wildchar=<TAB>  
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/set.lua:38:: opt.background='light'
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/set.lua:39:: vim.o.guicuror = 'n v c:block,i ci ve:ver25,r cr:hor20,o:hor50,a:blinkwait700 blinkoff400 blinkon250 Cursor/lCursor,sm:block blinkwait175 blinkoff150 blinkon175'
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/set.lua:40:: opt.tags:append {'/workspacemodules/tags', './tags'
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/set.lua:41::    set tags+=~ workspacemodules tags
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/set.lua:42::    opt.tags:append {'/workspacemodules/tags'
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/set.lua:43::    set tags+=. tags
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/set.lua:44::    set tags+=./tags
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/set.lua:45::    Set colorscheme
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/set.lua:46:: vim.cmd.colorscheme('gruvbox')
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/set.lua:47:: opt.shortmess:append {'c'
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/set.lua:48:: vim.cmd [[let g:neovide_fullscreen=v:true  
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/set.lua:49:: vim.cmd [[let g:neovide_floating_blur_amount_x = 3.0  
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/set.lua:50:: vim.cmd [[let g:neovide_floating_blur_amount_y = 3.0  
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/set.lua:51:: vim.cmd [[let g:neovide_fullscreen=v:true  
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/set.lua:52:: vim.cmd [[set foldexpr=nvim_treesitter#foldexpr()  
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/set.lua:53::    opt.foldexr = 'vim.fn.nvim_treesitter#foldexpr()
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/set.lua:54::    opt.guicursor = n v c:block,i ci ve:ver25,r cr:hor20,o:hor50,a:blinkwait700 blinkoff400 blinkon250 Cursor/lCursor,sm:block blinkwait175 blinkoff150 blinkon175 
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/set.lua:55::   
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/set.lua:56:: opt.spell = true
