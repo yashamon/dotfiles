@@ -342,7 +342,7 @@
  C:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:342::    ... Your other configuration ...
  C:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:343:: sources = cmp.config.sources({
  C:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:344::          For vsnip user. 
- C:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:345:: { name = 'tags' ,
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:345:: { name = 'tags', keyword_length = 4 ,
  C:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:346:: { name = 'nvim_lsp', keyword_length = 2 ,
  C:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:347:: { name = 'luasnip', keyword_length = 2 ,
  C:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:348::    { name = 'omni', keyword_length = 4,
