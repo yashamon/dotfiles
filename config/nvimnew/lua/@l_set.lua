@@ -16,7 +16,7 @@
  C:/Users/yasha/dotfiles/config/nvimnew/lua/set.lua:16:: opt.pumblend=20
  C:/Users/yasha/dotfiles/config/nvimnew/lua/set.lua:17::     set winblend=15 
  C:/Users/yasha/dotfiles/config/nvimnew/lua/set.lua:18:: opt.switchbuf='newtab'
- C:/Users/yasha/dotfiles/config/nvimnew/lua/set.lua:19::    opt.ignorecase = true
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/set.lua:19:: opt.ignorecase = true
  C:/Users/yasha/dotfiles/config/nvimnew/lua/set.lua:20:: opt.smartcase = true
  C:/Users/yasha/dotfiles/config/nvimnew/lua/set.lua:21:: opt.foldmethod='expr'
  C:/Users/yasha/dotfiles/config/nvimnew/lua/set.lua:22:: opt.linebreak='true'
@@ -32,12 +32,14 @@
  C:/Users/yasha/dotfiles/config/nvimnew/lua/set.lua:32:: opt.nocursorline=true
  C:/Users/yasha/dotfiles/config/nvimnew/lua/set.lua:33:: opt.wildchar='<TAB>'
  C:/Users/yasha/dotfiles/config/nvimnew/lua/set.lua:34:: opt.background='light'
- C:/Users/yasha/dotfiles/config/nvimnew/lua/set.lua:35:: opt.shortmess.append {'c'
- C:/Users/yasha/dotfiles/config/nvimnew/lua/set.lua:36:: 
- C:/Users/yasha/dotfiles/config/nvimnew/lua/set.lua:37:: 
- C:/Users/yasha/dotfiles/config/nvimnew/lua/set.lua:38::    opt.foldexpr = fn.nvim_treesitter#foldexpr()
- C:/Users/yasha/dotfiles/config/nvimnew/lua/set.lua:39::    opt.foldexpr=set foldmethod=expr
- C:/Users/yasha/dotfiles/config/nvimnew/lua/set.lua:40:: 
- C:/Users/yasha/dotfiles/config/nvimnew/lua/set.lua:41::    opt.guicursor = n v c:block,i ci ve:ver25,r cr:hor20,o:hor50,a:blinkwait700 blinkoff400 blinkon250 Cursor/lCursor,sm:block blinkwait175 blinkoff150 blinkon175 
- C:/Users/yasha/dotfiles/config/nvimnew/lua/set.lua:42::   
- C:/Users/yasha/dotfiles/config/nvimnew/lua/set.lua:43:: opt.spell = true
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/set.lua:35::    Set colorscheme
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/set.lua:36:: vim.cmd.colorscheme('gruvbox')
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/set.lua:37:: opt.shortmess.append {'c'
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/set.lua:38:: 
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/set.lua:39:: 
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/set.lua:40::    opt.foldexpr = fn.nvim_treesitter#foldexpr()
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/set.lua:41::    opt.foldexpr=set foldmethod=expr
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/set.lua:42:: 
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/set.lua:43::    opt.guicursor = n v c:block,i ci ve:ver25,r cr:hor20,o:hor50,a:blinkwait700 blinkoff400 blinkon250 Cursor/lCursor,sm:block blinkwait175 blinkoff150 blinkon175 
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/set.lua:44::   
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/set.lua:45:: opt.spell = true

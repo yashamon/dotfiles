@@ -16,7 +16,7 @@ opt.scrolloff=10
 opt.pumblend=20
  -- set winblend=15 
 opt.switchbuf='newtab'
--- opt.ignorecase = true
+opt.ignorecase = true
 opt.smartcase = true
 opt.foldmethod='expr'
 opt.linebreak='true'
@@ -32,6 +32,8 @@ opt.nohlsearch=true
 opt.nocursorline=true
 opt.wildchar='<TAB>'
 opt.background='light'
+-- Set colorscheme
+vim.cmd.colorscheme('gruvbox')
 opt.shortmess.append {'c'}
 
 
