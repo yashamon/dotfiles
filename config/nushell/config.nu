@@ -20,7 +20,7 @@ let $ho = (fd . $HOME -H -E /.undo/* -E /undo/* -E /tmp/* -E *.pdf | fzf | str t
 neovide --multigrid $ho 
 }
 
-def killn [name: string] { ps | where name == $name | each {|it| kill --force $it.pid} }
+def killn [name: string] { ps | where name =~ $name | each {|it| kill --force $it.pid} }
 
 alias hello = ( echo "hello" )
 alias j = __zoxide_z

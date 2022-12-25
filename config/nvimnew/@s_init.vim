@@ -19,7 +19,7 @@ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:591:"/buildback/"
 C:/Users/yasha/dotfiles/config/nvimnew/init.vim:591:filenameroot  
 C:/Users/yasha/dotfiles/config/nvimnew/init.vim:591:".pdf"@ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:592: let b:filenamePDFWindows="build  "  
 C:/Users/yasha/dotfiles/config/nvimnew/init.vim:592:filenameroot  
-C:/Users/yasha/dotfiles/config/nvimnew/init.vim:592:".pdf"@ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:593: " echo b:filenamePDFWindows@ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:594: let execstrLinux="silent te zathura   synctex forward "  
+C:/Users/yasha/dotfiles/config/nvimnew/init.vim:592:".pdf"@ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:593: " echo b:filenamePDFWindows @ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:594: let execstrLinux="silent te zathura   synctex forward "  
 C:/Users/yasha/dotfiles/config/nvimnew/init.vim:594:linenumber  
 C:/Users/yasha/dotfiles/config/nvimnew/init.vim:594:":"  
 C:/Users/yasha/dotfiles/config/nvimnew/init.vim:594:colnumber  

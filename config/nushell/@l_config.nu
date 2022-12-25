@@ -20,7 +20,7 @@
  C:/Users/yasha/dotfiles/config/nushell/config.nu:20:: neovide   multigrid  ho 
  C:/Users/yasha/dotfiles/config/nushell/config.nu:21:: 
  C:/Users/yasha/dotfiles/config/nushell/config.nu:22:: 
- C:/Users/yasha/dotfiles/config/nushell/config.nu:23:: def killn [name: string  { ps | where name ==  name | each {|it| kill   force  it.pid 
+ C:/Users/yasha/dotfiles/config/nushell/config.nu:23:: def killn [name: string  { ps | where name =~  name | each {|it| kill   force  it.pid 
  C:/Users/yasha/dotfiles/config/nushell/config.nu:24:: 
  C:/Users/yasha/dotfiles/config/nushell/config.nu:25:: alias hello = ( echo "hello" )
  C:/Users/yasha/dotfiles/config/nushell/config.nu:26:: alias j = __zoxide_z

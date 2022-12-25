@@ -590,7 +590,7 @@
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:590:: " let filenamePDF=filename[: 4 ."pdf" 
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:591:: let filenamePDFLinux=b:filenamedir . "/buildback/" . filenameroot . ".pdf"
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:592:: let b:filenamePDFWindows="build  " . filenameroot . ".pdf"
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:593:: " echo b:filenamePDFWindows
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:593:: " echo b:filenamePDFWindows 
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:594:: let execstrLinux="silent te zathura   synctex forward " . linenumber . ":" . colnumber . ":" . filenametexwhole . " " . filenamePDFLinux
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:595:: let execstrWindows="silent te pwsh  c C:/Users/yasha/scoop/shims/sumatrapdf.EXE  reuse instance " . b:filenamePDFWindows . "  forward search " . filenametex . " " . linenumber
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:596:: exec execstrWindows
