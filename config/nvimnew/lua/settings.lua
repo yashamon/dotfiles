@@ -220,7 +220,7 @@ undercurl = true,
         String = { fg = "#580058" },
         Operator = { fg = "#580058" },
         Pmenu = { bg = "#ffa546", fg = "#1e2030" },
-				texTypeStyle = { fg = "aqua" }
+				texTypeStyle = { fg = "GruvboxAqua" }
         --bright orange  #fd8432
         --texComment = { fg = "#00ff00" },
         -- texString = { fg = "#0000ff" },
