@@ -1,4 +1,8 @@
 local opt = vim.opt
+local indent = 3
+vim.opt.tabstop = indent
+vim.opt.shiftwidth = indent
+vim.opt.softtabstop = indent
 vim.opt.backup = false
 -- opt.ignorecase = true
 opt.smartcase = true
