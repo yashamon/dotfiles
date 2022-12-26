@@ -118,9 +118,7 @@ au FileType tex,text set spelllang=en_us
 au FileType tex,text,md set indentexpr=
 au FileType vim set list
 autocmd Filetype tex setlocal wrapmargin=0
-"maps remaps mappings  
-"
-" terminal stuff 
+
 
 autocmd TermClose * if v:event.status ==1 || v:event.status ==0  | exe 'bdelete! '..expand('<abuf>') | endif
 command! Ser lua Server()
@@ -129,12 +127,13 @@ au Filetype tex,text,md vmap q xi<CR><CR><CR><CR><ESC>kki/begin{comment}<cr><cr>
 au TextYankPost * lua vim.highlight.on_yank {higroup="IncSearch", timeout=150, on_visual=true}
 au TextYankPost * call neoyank#_append()
 
-
-"--------------------------------------------------------------------------- 
-" USEFUL SHORTCUTS
-"--------------------------------------------------------------------------- 
-" set leader to ; 
-'
+"maps remaps mappings  
+"
+noremap <leader>f <cmd>lua require("fzf-commands").files()<cr>
+" or
+command! Files lua require("fzf-commands").files()
+" or with configuration
+noremap <leader>f <cmd>lua require("fzf-commands").files({ fzf = custom_fzf_function })<cr>
 " Bash like keys for the command line
 cnoremap <C-A>      <Home>
 cnoremap <C-E>      <End>
