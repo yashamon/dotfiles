@@ -48,7 +48,6 @@ require('settings')
 require('functions')
 require('keymaps')
 require('set')
-
 EOF
 "Neovide 
 "
