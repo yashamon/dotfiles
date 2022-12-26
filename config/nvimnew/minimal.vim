@@ -40,6 +40,8 @@ Plug 'nvim-telescope/telescope.nvim'
 Plug 'mg979/vim-visual-multi'
 Plug 'tpope/vim-surround'
 Plug 'dcampos/nvim-snippy'
+Plug 'honza/vim-snippets'
+Plug 'dcampos/cmp-snippy'
 
 call plug#end()
 lua <<EOF
