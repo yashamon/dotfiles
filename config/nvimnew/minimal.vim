@@ -9,11 +9,11 @@ Plug 'hrsh7th/nvim-cmp',  { 'branch': 'main' }
 Plug 'hrsh7th/cmp-buffer',  { 'branch': 'main' }
 Plug 'hrsh7th/cmp-nvim-lsp',  { 'branch': 'main' }
 Plug 'neovim/nvim-lspconfig',  { 'branch': 'main' }
-" Plug 'folke/todo-comments.nvim', { 'branch': 'main' }
+Plug 'folke/todo-comments.nvim', { 'branch': 'main' }
 " Plug 'folke/noice.nvim', { 'branch': 'main' }
 Plug 'L3MON4D3/LuaSnip'
 Plug 'saadparwaiz1/cmp_luasnip'
-" Plug 'nvim-treesitter/playground'
+Plug 'nvim-treesitter/playground'
 Plug 'LhKipp/nvim-nu', { 'branch': 'main' }
 Plug 'folke/which-key.nvim', { 'branch': 'main' }
 Plug 'ggandor/leap.nvim', { 'branch': 'main' }
