@@ -75,14 +75,14 @@ local timer = 0
   end
 
 -- autocommands
-vim.api.nvim_create_autocmd(
-    { "BufReadPost","FileReadPost", "FileType tex, vim, lua"},
-    {
-      callback = function() GitAsync()
-			end,
-      pattern = "*",
-    }
-  )
+-- vim.api.nvim_create_autocmd(
+--     { "BufReadPost","FileReadPost", "FileType tex, vim, lua"},
+--     {
+--       callback = function() GitAsync()
+-- 			end,
+--       pattern = "*",
+--     }
+--   )
   vim.api.nvim_create_autocmd(
     { "TextChangedI", },
     {

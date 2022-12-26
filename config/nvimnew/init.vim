@@ -112,7 +112,7 @@ let g:neovide_floating_blur_amount_y = 3.0
 " set softtabstop=3
 " set shiftwidth=3
 "Git autocommit  (nonmain branch)
-set completeopt=menu,menuone,noselect,noinsert
+" set completeopt=menu,menuone,noselect,noinsert
 
 let g:firenvim_config = { 
     \ 'globalSettings': {

@@ -112,7 +112,7 @@
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:112:: " set softtabstop=3
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:113:: " set shiftwidth=3
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:114:: "Git autocommit  (nonmain branch)
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:115:: set completeopt=menu,menuone,noselect,noinsert
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:115:: " set completeopt=menu,menuone,noselect,noinsert
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:116:: 
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:117:: let g:firenvim_config = { 
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:118::       'globalSettings': {
