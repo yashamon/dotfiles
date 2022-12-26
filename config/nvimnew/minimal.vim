@@ -22,7 +22,7 @@ Plug 'glacambre/firenvim', { 'do': { _ -> firenvim#install(0) } }
 Plug 'williamboman/mason.nvim', { 'branch': 'main' } 
 Plug 'williamboman/mason-lspconfig.nvim', { 'branch': 'main' }
 " " Plug 'ray-x/cmp-treesitter'
-" Plug 'quangnguyen30192/cmp-nvim-tags',  { 'branch': 'main' }  
+Plug 'quangnguyen30192/cmp-nvim-tags',  { 'branch': 'main' }  
 Plug 'terrortylor/nvim-comment', { 'branch': 'main' }
 Plug 'nvim-lualine/lualine.nvim'
 Plug 'justinhoward/fzf-neoyank'
