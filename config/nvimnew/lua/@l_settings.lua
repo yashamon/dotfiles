@@ -308,7 +308,7 @@
  C:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:308::         ["<C n>"  = cmp.mapping.select_next_item(),
  C:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:309::        ['<C d>'  = cmp.mapping.scroll_docs( 4),
  C:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:310::       ['<C f>'  = cmp.mapping.scroll_docs(4),
- C:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:311::       ['<C x>'  = cmp.mapping.complete(),
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:311::       ['<C Space>'  = cmp.mapping.complete(),
  C:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:312::       ['<C e>'  = cmp.mapping.close(),
  C:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:313::       ['<CR>'  = cmp.mapping.confirm({ select = true ),
  C:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:314::    ... Your other mappings ...

@@ -41,7 +41,7 @@ vim.cmd [[set tags+=./tags]]
 -- vim.cmd [[set shortmess+=c]]
 -- vim.cmd [[set shortmess+=c]]
 -- " set tags+=~\workspacemodules\tags
-" " -- opt.tags:append {"C:\\Users\\yasha\\workspacemodules\\tags"}
+-- " " -- opt.tags:append {"C:\\Users\\yasha\\workspacemodules\\tags"}
 -- opt.tags:append {".\\tags"}
 -- set tags+=~\workspacemodules\tags
 -- opt.tags:append {'/workspacemodules/tags'}

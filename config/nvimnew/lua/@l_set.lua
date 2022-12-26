@@ -41,7 +41,7 @@
  C:/Users/yasha/dotfiles/config/nvimnew/lua/set.lua:41::    vim.cmd [[set shortmess+=c  
  C:/Users/yasha/dotfiles/config/nvimnew/lua/set.lua:42::    vim.cmd [[set shortmess+=c  
  C:/Users/yasha/dotfiles/config/nvimnew/lua/set.lua:43::    " set tags+=~ workspacemodules tags
- C:/Users/yasha/dotfiles/config/nvimnew/lua/set.lua:44:: " "    opt.tags:append {"C:  Users  yasha  workspacemodules  tags"
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/set.lua:44::    " "    opt.tags:append {"C:  Users  yasha  workspacemodules  tags"
  C:/Users/yasha/dotfiles/config/nvimnew/lua/set.lua:45::    opt.tags:append {".  tags"
  C:/Users/yasha/dotfiles/config/nvimnew/lua/set.lua:46::    set tags+=~ workspacemodules tags
  C:/Users/yasha/dotfiles/config/nvimnew/lua/set.lua:47::    opt.tags:append {'/workspacemodules/tags'
