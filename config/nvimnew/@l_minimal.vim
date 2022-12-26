@@ -2,44 +2,44 @@
  C:/Users/yasha/dotfiles/config/nvimnew/minimal.vim:2:: " if !filereadable(s:plug_dir .. '/plug.vim')
  C:/Users/yasha/dotfiles/config/nvimnew/minimal.vim:3:: "   execute printf('!curl  fLo %s/autoload/plug.vim   create dirs https://raw.githubusercontent.com/junegunn/vim plug/master/plug.vim', s:plug_dir)
  C:/Users/yasha/dotfiles/config/nvimnew/minimal.vim:4:: " end
- C:/Users/yasha/dotfiles/config/nvimnew/minimal.vim:5:: 
- C:/Users/yasha/dotfiles/config/nvimnew/minimal.vim:6:: execute 'set runtimepath+=' . s:plug_dir
- C:/Users/yasha/dotfiles/config/nvimnew/minimal.vim:7:: call plug#begin(s:plug_dir)
- C:/Users/yasha/dotfiles/config/nvimnew/minimal.vim:8:: Plug 'hrsh7th/nvim cmp',  { 'branch': 'main' 
- C:/Users/yasha/dotfiles/config/nvimnew/minimal.vim:9:: Plug 'hrsh7th/cmp buffer',  { 'branch': 'main' 
- C:/Users/yasha/dotfiles/config/nvimnew/minimal.vim:10:: Plug 'hrsh7th/cmp nvim lsp',  { 'branch': 'main' 
- C:/Users/yasha/dotfiles/config/nvimnew/minimal.vim:11:: Plug 'neovim/nvim lspconfig',  { 'branch': 'main' 
- C:/Users/yasha/dotfiles/config/nvimnew/minimal.vim:12:: Plug 'folke/todo comments.nvim', { 'branch': 'main' 
- C:/Users/yasha/dotfiles/config/nvimnew/minimal.vim:13:: " Plug 'folke/noice.nvim', { 'branch': 'main' 
- C:/Users/yasha/dotfiles/config/nvimnew/minimal.vim:14:: Plug 'L3MON4D3/LuaSnip'
- C:/Users/yasha/dotfiles/config/nvimnew/minimal.vim:15:: Plug 'saadparwaiz1/cmp_luasnip'
- C:/Users/yasha/dotfiles/config/nvimnew/minimal.vim:16:: Plug 'nvim treesitter/playground'
- C:/Users/yasha/dotfiles/config/nvimnew/minimal.vim:17:: Plug 'LhKipp/nvim nu', { 'branch': 'main' 
- C:/Users/yasha/dotfiles/config/nvimnew/minimal.vim:18:: Plug 'folke/which key.nvim', { 'branch': 'main' 
- C:/Users/yasha/dotfiles/config/nvimnew/minimal.vim:19:: Plug 'ggandor/leap.nvim', { 'branch': 'main' 
- C:/Users/yasha/dotfiles/config/nvimnew/minimal.vim:20:: Plug 'kyazdani42/nvim web devicons'
- C:/Users/yasha/dotfiles/config/nvimnew/minimal.vim:21:: Plug 'glacambre/firenvim', { 'do': { _  > firenvim#install(0)  
- C:/Users/yasha/dotfiles/config/nvimnew/minimal.vim:22:: Plug 'williamboman/mason.nvim', { 'branch': 'main'  
- C:/Users/yasha/dotfiles/config/nvimnew/minimal.vim:23:: Plug 'williamboman/mason lspconfig.nvim', { 'branch': 'main' 
- C:/Users/yasha/dotfiles/config/nvimnew/minimal.vim:24:: Plug 'quangnguyen30192/cmp nvim tags',  { 'branch': 'main'   
- C:/Users/yasha/dotfiles/config/nvimnew/minimal.vim:25:: Plug 'terrortylor/nvim comment', { 'branch': 'main' 
- C:/Users/yasha/dotfiles/config/nvimnew/minimal.vim:26:: Plug 'nvim lualine/lualine.nvim'
- C:/Users/yasha/dotfiles/config/nvimnew/minimal.vim:27:: Plug 'justinhoward/fzf neoyank'
- C:/Users/yasha/dotfiles/config/nvimnew/minimal.vim:28:: " Plug 'folke/tokyonight.nvim', { 'branch': 'main' 
- C:/Users/yasha/dotfiles/config/nvimnew/minimal.vim:29:: Plug 'ellisonleao/gruvbox.nvim', { 'branch': 'main' 
- C:/Users/yasha/dotfiles/config/nvimnew/minimal.vim:30:: " Plug 'eddyekofo94/gruvbox flat.nvim'
- C:/Users/yasha/dotfiles/config/nvimnew/minimal.vim:31:: Plug 'nvim treesitter/nvim treesitter', {'do': ':TSUpdate'  
- C:/Users/yasha/dotfiles/config/nvimnew/minimal.vim:32:: Plug 'Shougo/neoyank.vim' 
- C:/Users/yasha/dotfiles/config/nvimnew/minimal.vim:33:: Plug 'Shougo/denite.nvim', { 'do': ':UpdateRemotePlugins'  
- C:/Users/yasha/dotfiles/config/nvimnew/minimal.vim:34:: Plug 'junegunn/fzf', { 'do': {  > fzf#install()   
- C:/Users/yasha/dotfiles/config/nvimnew/minimal.vim:35:: Plug 'junegunn/fzf.vim'
- C:/Users/yasha/dotfiles/config/nvimnew/minimal.vim:36:: Plug 'mbbill/undotree', { 'on': 'UndotreeToggle' 
- C:/Users/yasha/dotfiles/config/nvimnew/minimal.vim:37:: " Plug 'lewis6991/spellsitter.nvim'
- C:/Users/yasha/dotfiles/config/nvimnew/minimal.vim:38:: Plug 'kevinhwang91/nvim bqf', { 'branch': 'main' 
- C:/Users/yasha/dotfiles/config/nvimnew/minimal.vim:39:: Plug 'nvim lua/plenary.nvim'
- C:/Users/yasha/dotfiles/config/nvimnew/minimal.vim:40:: Plug 'nvim telescope/telescope.nvim'
- C:/Users/yasha/dotfiles/config/nvimnew/minimal.vim:41:: Plug 'mg979/vim visual multi'
- C:/Users/yasha/dotfiles/config/nvimnew/minimal.vim:42:: Plug 'tpope/vim surround'
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.vim:5:: execute 'set runtimepath+=' . s:plug_dir
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.vim:6:: call plug#begin(s:plug_dir)
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.vim:7:: Plug 'hrsh7th/nvim cmp',  { 'branch': 'main' 
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.vim:8:: Plug 'hrsh7th/cmp buffer',  { 'branch': 'main' 
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.vim:9:: Plug 'hrsh7th/cmp nvim lsp',  { 'branch': 'main' 
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.vim:10:: Plug 'neovim/nvim lspconfig',  { 'branch': 'main' 
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.vim:11:: Plug 'folke/todo comments.nvim', { 'branch': 'main' 
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.vim:12:: " Plug 'folke/noice.nvim', { 'branch': 'main' 
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.vim:13:: " Plug 'L3MON4D3/LuaSnip'
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.vim:14:: " Plug 'saadparwaiz1/cmp_luasnip'
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.vim:15:: Plug 'nvim treesitter/playground'
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.vim:16:: Plug 'LhKipp/nvim nu', { 'branch': 'main' 
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.vim:17:: Plug 'folke/which key.nvim', { 'branch': 'main' 
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.vim:18:: Plug 'ggandor/leap.nvim', { 'branch': 'main' 
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.vim:19:: Plug 'kyazdani42/nvim web devicons'
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.vim:20:: Plug 'glacambre/firenvim', { 'do': { _  > firenvim#install(0)  
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.vim:21:: Plug 'williamboman/mason.nvim', { 'branch': 'main'  
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.vim:22:: Plug 'williamboman/mason lspconfig.nvim', { 'branch': 'main' 
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.vim:23:: Plug 'quangnguyen30192/cmp nvim tags',  { 'branch': 'main'   
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.vim:24:: Plug 'terrortylor/nvim comment', { 'branch': 'main' 
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.vim:25:: Plug 'nvim lualine/lualine.nvim'
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.vim:26:: Plug 'justinhoward/fzf neoyank'
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.vim:27:: " Plug 'folke/tokyonight.nvim', { 'branch': 'main' 
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.vim:28:: Plug 'ellisonleao/gruvbox.nvim', { 'branch': 'main' 
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.vim:29:: " Plug 'eddyekofo94/gruvbox flat.nvim'
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.vim:30:: Plug 'nvim treesitter/nvim treesitter', {'do': ':TSUpdate'  
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.vim:31:: Plug 'Shougo/neoyank.vim' 
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.vim:32:: Plug 'Shougo/denite.nvim', { 'do': ':UpdateRemotePlugins'  
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.vim:33:: Plug 'junegunn/fzf', { 'do': {  > fzf#install()   
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.vim:34:: Plug 'junegunn/fzf.vim'
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.vim:35:: Plug 'mbbill/undotree', { 'on': 'UndotreeToggle' 
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.vim:36:: " Plug 'lewis6991/spellsitter.nvim'
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.vim:37:: Plug 'kevinhwang91/nvim bqf', { 'branch': 'main' 
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.vim:38:: Plug 'nvim lua/plenary.nvim'
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.vim:39:: Plug 'nvim telescope/telescope.nvim'
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.vim:40:: Plug 'mg979/vim visual multi'
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.vim:41:: Plug 'tpope/vim surround'
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.vim:42:: Plug 'dcampos/nvim snippy'
  C:/Users/yasha/dotfiles/config/nvimnew/minimal.vim:43:: 
  C:/Users/yasha/dotfiles/config/nvimnew/minimal.vim:44:: call plug#end()
  C:/Users/yasha/dotfiles/config/nvimnew/minimal.vim:45:: lua <<EOF

@@ -2,7 +2,6 @@ let s:plug_dir = expand('/tmp/plugged/vim-plug')
 " if !filereadable(s:plug_dir .. '/plug.vim')
 "   execute printf('!curl -fLo %s/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim', s:plug_dir)
 " end
-
 execute 'set runtimepath+=' . s:plug_dir
 call plug#begin(s:plug_dir)
 Plug 'hrsh7th/nvim-cmp',  { 'branch': 'main' }
@@ -11,8 +10,8 @@ Plug 'hrsh7th/cmp-nvim-lsp',  { 'branch': 'main' }
 Plug 'neovim/nvim-lspconfig',  { 'branch': 'main' }
 Plug 'folke/todo-comments.nvim', { 'branch': 'main' }
 " Plug 'folke/noice.nvim', { 'branch': 'main' }
-Plug 'L3MON4D3/LuaSnip'
-Plug 'saadparwaiz1/cmp_luasnip'
+" Plug 'L3MON4D3/LuaSnip'
+" Plug 'saadparwaiz1/cmp_luasnip'
 Plug 'nvim-treesitter/playground'
 Plug 'LhKipp/nvim-nu', { 'branch': 'main' }
 Plug 'folke/which-key.nvim', { 'branch': 'main' }
@@ -40,6 +39,7 @@ Plug 'nvim-lua/plenary.nvim'
 Plug 'nvim-telescope/telescope.nvim'
 Plug 'mg979/vim-visual-multi'
 Plug 'tpope/vim-surround'
+Plug 'dcampos/nvim-snippy'
 
 call plug#end()
 lua <<EOF
