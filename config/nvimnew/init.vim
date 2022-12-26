@@ -30,7 +30,7 @@ Plug 'Shougo/denite.nvim', { 'do': ':UpdateRemotePlugins' }
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } } 
 Plug 'junegunn/fzf.vim'
 Plug 'mbbill/undotree', { 'on': 'UndotreeToggle' }
-Plug 'lewis6991/spellsitter.nvim'
+" Plug 'lewis6991/spellsitter.nvim'
 Plug 'kevinhwang91/nvim-bqf', { 'branch': 'main' }
 Plug 'nvim-lua/plenary.nvim'
 Plug 'nvim-telescope/telescope.nvim'
@@ -55,6 +55,7 @@ let g:neovide_floating_blur_amount_y = 3.0
 " let g:neovide_transparency=0.15
 
 "General Settings, set
+
 " set title
 " set ignorecase
 " set cmdheight=0
