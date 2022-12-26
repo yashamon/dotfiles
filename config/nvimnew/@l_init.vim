@@ -123,7 +123,7 @@
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:123:: autocmd TermClose * if v:event.status ==1 || v:event.status ==0  | exe 'bdelete! '..expand('<abuf>') | endif
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:124:: command! Ser lua Server()
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:125:: autocmd BufWritePost * lua GitAsync()
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:126:: au Filetype tex,text,md vmap q xi<CR><CR><CR><CR><ESC>kki/begin{comment<cr><cr>/end{comment<esc>kp  
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:126:: au Filetype tex vmap q xi<CR><CR><CR><CR><ESC>kki/begin{comment<cr><cr>/end{comment<esc>kp  
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:127:: au TextYankPost * lua vim.highlight.on_yank {higroup="IncSearch", timeout=150, on_visual=true
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:128:: au TextYankPost * call neoyank#_append()
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:129:: 
