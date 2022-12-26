@@ -43,7 +43,7 @@ require('settings')
 require('functions')
 require('keymaps')
 require('set')
--- require('telescope').load_extension('fzf')
+require('telescope').load_extension('fzf')
 EOF
 
 "Neovide 
@@ -57,7 +57,6 @@ EOF
 "General Settings, set
 
 " set title
-=menu,menuone,noselect,noinsert
 
 let g:firenvim_config = { 
     \ 'globalSettings': {
