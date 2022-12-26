@@ -51,9 +51,6 @@ require('set')
 require('telescope').load_extension('fzf')
 
 EOF
-" require('functions')
-" require('keymaps')
-" require('set')
 "Neovide 
 "
 " let g:neovide_maximized=v:true
@@ -63,7 +60,6 @@ EOF
 " let g:neovide_transparency=0.15
 
 "General Settings, set
-" set title
 let g:firenvim_config = { 
     \ 'globalSettings': {
         \ 'alt': 'all',
