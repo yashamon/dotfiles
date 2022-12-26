@@ -87,7 +87,7 @@ let g:firenvim_config = {
 hi SpellBad cterm=underline
 hi SpellBad gui=undercurl guisp=white
 "
-" Autocommands, au
+" Autocommands, au test
  
 function! OnUIEnter(event)
 	let l:ui = nvim_get_chan_info(a:event.chan)
