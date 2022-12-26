@@ -48,10 +48,10 @@
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:48:: 
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:49:: "Neovide 
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:50:: "
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:51:: let g:neovide_maximized=v:true
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:52:: let g:neovide_fullscreen=v:true
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:53:: let g:neovide_floating_blur_amount_x = 3.0
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:54:: let g:neovide_floating_blur_amount_y = 3.0
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:51:: " let g:neovide_maximized=v:true
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:52:: " let g:neovide_fullscreen=v:true
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:53:: " let g:neovide_floating_blur_amount_x = 3.0
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:54:: " let g:neovide_floating_blur_amount_y = 3.0
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:55:: " let g:neovide_transparency=0.15
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:56:: 
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:57:: "General Settings, set
