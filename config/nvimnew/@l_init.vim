@@ -521,7 +521,7 @@
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:521:: endfunction
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:522:: 
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:523:: function! ViewPdf() 
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:524:: wa
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:524:: w
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:525:: let buf=bufname()
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:526:: lua Server()
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:527:: let linenumber=line(".")

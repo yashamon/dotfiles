@@ -521,7 +521,7 @@ function! CompileLatex()
 endfunction
 
 function! ViewPdf() 
-wa
+w
 let buf=bufname()
 lua Server()
 let linenumber=line(".")
