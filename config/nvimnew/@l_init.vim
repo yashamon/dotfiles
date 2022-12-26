@@ -87,7 +87,7 @@
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:87:: hi SpellBad cterm=underline
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:88:: hi SpellBad gui=undercurl guisp=white
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:89:: "
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:90:: " Autocommands, au test
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:90:: " Autocommands, au
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:91::  
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:92:: function! OnUIEnter(event)
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:93:: 	let l:ui = nvim_get_chan_info(a:event.chan)
