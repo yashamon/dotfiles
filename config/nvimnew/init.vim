@@ -3,7 +3,6 @@ let s:plug_dir = expand('/tmp/plugged/vim-plug')
 "   execute printf('!curl -fLo %s/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim', s:plug_dir)
 " end
 
-execute 'set runtimepath+=' . s:plug_dir
 call plug#begin(s:plug_dir)
 "Plug 'nvim-telescope/telescope-fzf-native.nvim', { 'do': 'make' } asdf
 Plug 'folke/todo-comments.nvim', { 'branch': 'main' }
@@ -27,7 +26,7 @@ Plug 'quangnguyen30192/cmp-nvim-tags',  { 'branch': 'main' }
 Plug 'terrortylor/nvim-comment', { 'branch': 'main' }
 Plug 'nvim-lualine/lualine.nvim'
 Plug 'justinhoward/fzf-neoyank'
-" Plug 'folke/tokyonight.nvim', { 'branch': 'main' }
+Plug 'folke/tokyonight.nvim', { 'branch': 'main' }
 Plug 'ellisonleao/gruvbox.nvim', { 'branch': 'main' }
 " Plug 'eddyekofo94/gruvbox-flat.nvim'
 Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}  
@@ -79,7 +78,7 @@ let g:firenvim_config = {
 "Autosave and autocommit   
 " let g:updatetime = 10000
 " let g:auto_save = 0
-" " .vimrc
+" " .vimrc 
 " let g:auto_save_events = ["CursorHold"]
 " "au FileType vim let g:autosave = 0
 " let g:auto_save_in_insert_mode = 0
