@@ -45,8 +45,8 @@ call plug#end()
 
 call plug#end()
 lua <<EOF
-require('test')
--- require('settings')
+-- require('test')
+require('settings')
 require('functions')
 require('keymaps')
 require('set')

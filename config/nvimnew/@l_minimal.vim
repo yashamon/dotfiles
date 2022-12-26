@@ -45,8 +45,8 @@
  C:/Users/yasha/dotfiles/config/nvimnew/minimal.vim:45:: 
  C:/Users/yasha/dotfiles/config/nvimnew/minimal.vim:46:: call plug#end()
  C:/Users/yasha/dotfiles/config/nvimnew/minimal.vim:47:: lua <<EOF
- C:/Users/yasha/dotfiles/config/nvimnew/minimal.vim:48:: require('test')
- C:/Users/yasha/dotfiles/config/nvimnew/minimal.vim:49::    require('settings')
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.vim:48::    require('test')
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.vim:49:: require('settings')
  C:/Users/yasha/dotfiles/config/nvimnew/minimal.vim:50:: require('functions')
  C:/Users/yasha/dotfiles/config/nvimnew/minimal.vim:51:: require('keymaps')
  C:/Users/yasha/dotfiles/config/nvimnew/minimal.vim:52:: require('set')
