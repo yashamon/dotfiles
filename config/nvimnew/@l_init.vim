@@ -473,7 +473,7 @@
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:473:: 
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:474:: function ToggleQuickFix()
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:475::       if empty(filter(getwininfo(), 'v:val.quickfix'))
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:476::       exec "w"
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:476::       exec "up"
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:477::         let b:filenamedir=expand('%:p:h')
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:478::         echo b:filenamedir
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:479::         let b:filename=expand('%:t:r')

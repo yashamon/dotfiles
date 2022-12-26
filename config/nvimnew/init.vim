@@ -473,7 +473,7 @@ command! -bang -nargs=* BLinesB
 
 function ToggleQuickFix()
       if empty(filter(getwininfo(), 'v:val.quickfix'))
-      exec "w"
+      exec "up"
         let b:filenamedir=expand('%:p:h')
         echo b:filenamedir
         let b:filename=expand('%:t:r')
