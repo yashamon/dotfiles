@@ -274,7 +274,7 @@
  C:/Users/yasha/dotfiles/config/nvimnew/lua/test.lua:274:: end
  C:/Users/yasha/dotfiles/config/nvimnew/lua/test.lua:275:: 
  C:/Users/yasha/dotfiles/config/nvimnew/lua/test.lua:276:: 
- C:/Users/yasha/dotfiles/config/nvimnew/lua/test.lua:277:: local luasnip = require("luasnip")
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/test.lua:277:: local snippy = require("snippy")
  C:/Users/yasha/dotfiles/config/nvimnew/lua/test.lua:278:: local cmp = require'cmp'
  C:/Users/yasha/dotfiles/config/nvimnew/lua/test.lua:279:: cmp.setup ({
  C:/Users/yasha/dotfiles/config/nvimnew/lua/test.lua:280:: snippet = {
@@ -293,7 +293,7 @@
  C:/Users/yasha/dotfiles/config/nvimnew/lua/test.lua:293::       ['<CR>'  = cmp.mapping.confirm({ select = true ),
  C:/Users/yasha/dotfiles/config/nvimnew/lua/test.lua:294::    ... Your other mappings ...
  C:/Users/yasha/dotfiles/config/nvimnew/lua/test.lua:295:: ["<Tab>"  = cmp.mapping(function(fallback)
- C:/Users/yasha/dotfiles/config/nvimnew/lua/test.lua:296:: 			if luasnip.expandable() then
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/test.lua:296:: 			if snippy.can_expand_or_advance() then
  C:/Users/yasha/dotfiles/config/nvimnew/lua/test.lua:297:: 				luasnip.expand()
  C:/Users/yasha/dotfiles/config/nvimnew/lua/test.lua:298::                         elseif cmp.visible() then
  C:/Users/yasha/dotfiles/config/nvimnew/lua/test.lua:299::                              cmp.select_next_item()

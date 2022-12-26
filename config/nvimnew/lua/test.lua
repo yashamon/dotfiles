@@ -274,7 +274,7 @@ local has_words_before = function()
 end
 
 
-local luasnip = require("luasnip")
+local snippy = require("snippy")
 local cmp = require'cmp'
 cmp.setup ({
 snippet = {
@@ -293,7 +293,7 @@ mapping = cmp.mapping.preset.insert({
       ['<CR>'] = cmp.mapping.confirm({ select = true }),
 -- ... Your other mappings ...
 ["<Tab>"] = cmp.mapping(function(fallback)
-			if luasnip.expandable() then
+			if snippy.can_expand_or_advance() then
 				luasnip.expand()
                         elseif cmp.visible() then
                              cmp.select_next_item()
