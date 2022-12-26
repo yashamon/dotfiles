@@ -17,7 +17,7 @@ Plug 'nvim-treesitter/playground'
 Plug 'LhKipp/nvim-nu', { 'branch': 'main' }
 Plug 'folke/which-key.nvim', { 'branch': 'main' }
 Plug 'ggandor/leap.nvim', { 'branch': 'main' }
-" Plug 'kyazdani42/nvim-web-devicons'
+Plug 'kyazdani42/nvim-web-devicons'
 Plug 'glacambre/firenvim', { 'do': { _ -> firenvim#install(0) } }
 Plug 'williamboman/mason.nvim', { 'branch': 'main' } 
 Plug 'williamboman/mason-lspconfig.nvim', { 'branch': 'main' }
