@@ -56,7 +56,6 @@ EOF
 
 "General Settings, set
 
-" set title
 
 let g:firenvim_config = { 
     \ 'globalSettings': {

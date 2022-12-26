@@ -48,7 +48,6 @@ require('settings')
 require('functions')
 require('keymaps')
 require('set')
-require('telescope').load_extension('fzf')
 
 EOF
 "Neovide 
