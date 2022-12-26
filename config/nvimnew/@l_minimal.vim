@@ -60,8 +60,8 @@
  C:/Users/yasha/dotfiles/config/nvimnew/minimal.vim:60:: 
  C:/Users/yasha/dotfiles/config/nvimnew/minimal.vim:61:: "General Settings, set
  C:/Users/yasha/dotfiles/config/nvimnew/minimal.vim:62:: " set title
- C:/Users/yasha/dotfiles/config/nvimnew/minimal.vim:63::  set ignorecase
- C:/Users/yasha/dotfiles/config/nvimnew/minimal.vim:64::  set smartcase
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.vim:63:: set ignorecase
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.vim:64:: set smartcase
  C:/Users/yasha/dotfiles/config/nvimnew/minimal.vim:65:: set cmdheight=0
  C:/Users/yasha/dotfiles/config/nvimnew/minimal.vim:66:: set signcolumn=yes
  C:/Users/yasha/dotfiles/config/nvimnew/minimal.vim:67:: set scrolloff=10

@@ -60,8 +60,8 @@ EOF
 
 "General Settings, set
 " set title
- set ignorecase
- set smartcase
+set ignorecase
+set smartcase
 set cmdheight=0
 set signcolumn=yes
 set scrolloff=10
