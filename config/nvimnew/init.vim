@@ -330,12 +330,10 @@ let g:fzf_layout = { 'window': { 'width': 1, 'height': 1 } }
  "   \ 'ctrl-m': function('s:mybuild_quickfix_list') }
 
 let $FZF_DEFAULT_OPTS = '--bind ctrl-a:select-all'
-" let g:fzf_preview_window = []
 nnoremap <m-t> :up<cr>:BTags<cr>:call s:myquick()<cr>:lopen<cr>
 nnoremap <m-s> :up<cr>:lua Sentence()<cr>
 nnoremap S :up<cr>:lua Line()<cr>
-" TODO:Add :up
-"noremap L <Esc>:AsyncRun sentence.sh %;nvr sentence_%<cr>:echo 'press any key'<cr>:execute 'call getchar()' | BLines<cr>
+
 " Line search mapping 
 " function! Jumpback() 
 "   K=bufname()
@@ -521,7 +519,7 @@ function! CompileLatex()
 endfunction
 
 function! ViewPdf() 
-w
+up
 let buf=bufname()
 lua Server()
 let linenumber=line(".")

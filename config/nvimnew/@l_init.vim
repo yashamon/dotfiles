@@ -330,212 +330,210 @@
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:330::  "     'ctrl m': function('s:mybuild_quickfix_list') 
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:331:: 
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:332:: let  FZF_DEFAULT_OPTS = '  bind ctrl a:select all'
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:333:: " let g:fzf_preview_window = [ 
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:334:: nnoremap <m t> :up<cr>:BTags<cr>:call s:myquick()<cr>:lopen<cr>
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:335:: nnoremap <m s> :up<cr>:lua Sentence()<cr>
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:336:: nnoremap S :up<cr>:lua Line()<cr>
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:337:: " TODO:Add :up
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:338:: "noremap L <Esc>:AsyncRun sentence.sh %;nvr sentence_%<cr>:echo 'press any key'<cr>:execute 'call getchar()' | BLines<cr>
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:339:: " Line search mapping 
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:340:: " function! Jumpback() 
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:341:: "   K=bufname()
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:342:: "   normal viwhy<esc>:bdelete<cr>:buffer K<c r>+<cr>:ZenMode<cr>
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:343:: " endfunction
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:344:: " 
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:345:: nnoremap <m b> :Buffers<cr>
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:346:: " nnoremap <m b> :lua require('telescope.builtin').buffers({layout_strategy='vertical',layout_config={width=0.9)<cr>
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:347:: nnoremap <m i> :lua require('telescope.builtin').git_bcommits({layout_strategy='vertical',layout_config={width=0.9)<cr>
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:348:: nnoremap <m u> :<Esc>:cg C:/Users/yasha/_vim_mru_files<cr>:copen<cr>:call feedkeys("zf")<CR>
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:349:: " noremap F <Esc>:GFiles<CR>
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:350:: " map <A e> :FZF ~<CR> test test2 test3
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:351:: map <m f> :FZF ~<CR> 
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:352:: " map <m f> :lua require('telescope.builtin').find_files({layout_strategy='vertical',layout_config={width=0.9) ~<CR> 
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:353:: "miscellaneous
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:333:: nnoremap <m t> :up<cr>:BTags<cr>:call s:myquick()<cr>:lopen<cr>
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:334:: nnoremap <m s> :up<cr>:lua Sentence()<cr>
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:335:: nnoremap S :up<cr>:lua Line()<cr>
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:336:: 
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:337:: " Line search mapping 
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:338:: " function! Jumpback() 
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:339:: "   K=bufname()
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:340:: "   normal viwhy<esc>:bdelete<cr>:buffer K<c r>+<cr>:ZenMode<cr>
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:341:: " endfunction
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:342:: " 
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:343:: nnoremap <m b> :Buffers<cr>
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:344:: " nnoremap <m b> :lua require('telescope.builtin').buffers({layout_strategy='vertical',layout_config={width=0.9)<cr>
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:345:: nnoremap <m i> :lua require('telescope.builtin').git_bcommits({layout_strategy='vertical',layout_config={width=0.9)<cr>
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:346:: nnoremap <m u> :<Esc>:cg C:/Users/yasha/_vim_mru_files<cr>:copen<cr>:call feedkeys("zf")<CR>
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:347:: " noremap F <Esc>:GFiles<CR>
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:348:: " map <A e> :FZF ~<CR> test test2 test3
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:349:: map <m f> :FZF ~<CR> 
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:350:: " map <m f> :lua require('telescope.builtin').find_files({layout_strategy='vertical',layout_config={width=0.9) ~<CR> 
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:351:: "miscellaneous
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:352:: 
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:353:: " nmap <leader>p :Denite neoyank  default action=append<CR>
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:354:: 
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:355:: " nmap <leader>p :Denite neoyank  default action=append<CR>
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:356:: 
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:357:: " Latex stuff
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:358:: " 
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:359:: nnoremap <leader>gs :up<cr>:source  MYVIMRC<cr> 
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:360:: nnoremap <c e> viwy:cclose<cr>:<c r>+<cr><cr>
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:361:: nnoremap <c p> :<c r>+<cr>
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:362:: nnoremap <m l> viwy:bdelete<cr>:execute "buffer" g:buf<cr>:<c r>+<cr><cr>
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:363:: " noremap <m l> viwy<esc>:bp<cr>:<c r>+<cr>
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:364:: 
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:365:: " nvim comment
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:366:: " 
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:367:: vnoremap <leader>c :'<,'>CommentToggle<cr>
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:368:: nnoremap <leader>c :gc
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:369:: 
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:355:: " Latex stuff
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:356:: " 
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:357:: nnoremap <leader>gs :up<cr>:source  MYVIMRC<cr> 
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:358:: nnoremap <c e> viwy:cclose<cr>:<c r>+<cr><cr>
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:359:: nnoremap <c p> :<c r>+<cr>
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:360:: nnoremap <m l> viwy:bdelete<cr>:execute "buffer" g:buf<cr>:<c r>+<cr><cr>
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:361:: " noremap <m l> viwy<esc>:bp<cr>:<c r>+<cr>
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:362:: 
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:363:: " nvim comment
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:364:: " 
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:365:: vnoremap <leader>c :'<,'>CommentToggle<cr>
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:366:: nnoremap <leader>c :gc
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:367:: 
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:368:: 
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:369:: " FZF Neoyank yank     
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:370:: 
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:371:: " FZF Neoyank yank     
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:372:: 
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:373:: nnoremap <leader>y :FZFNeoyank<cr>
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:374:: nnoremap <leader>Y :FZFNeoyank  P<cr>
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:375:: vnoremap <leader>y :FZFNeoyankSelection<cr>
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:371:: nnoremap <leader>y :FZFNeoyank<cr>
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:372:: nnoremap <leader>Y :FZFNeoyank  P<cr>
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:373:: vnoremap <leader>y :FZFNeoyankSelection<cr>
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:374:: 
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:375:: nnoremap <leader>p :FZFNeoyank +<cr> 
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:376:: 
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:377:: nnoremap <leader>p :FZFNeoyank +<cr> 
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:378:: 
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:379:: nnoremap <leader>1 :FZFNeoyank 1<cr>
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:380:: nnoremap <leader>P :FZFNeoyank " P+<cr>
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:381:: vnoremap <leader>p :FZFNeoyankSelection +<cr>
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:382:: 
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:383:: " Latex maps
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:384:: nmap <leader>v :call ViewPdf()<cr><cr>
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:385:: map <m v> <esc>:call ViewPdf()<cr><cr>
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:386:: nmap <leader>ll :call CompileLatex()<cr>
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:387:: nmap <leader>lcl :call ClearLatex()<cr>
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:388:: nmap gtd :TodoQuickFix<cr>
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:389:: nmap <leader>ga :TZAtaraxis<CR>
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:390:: nmap <leader>gm :up<cr>:silent ! cat  >> ~/workspace/email.txt; cp  /tmp/temp; make4ht /tmp/temp "mathml,mathjax"; pandoc /tmp/temp.html   from html   to markdown_strict  o /tmp/temp.md; mv /tmp/temp.md %<cr>:e %<cr>:up<cr>:qa<cr>
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:391:: 
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:392:: " Lsp mappings
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:393:: nnoremap <silent> g? <cmd>lua vim.diagnostic.open_float()<CR>
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:394:: noremap ga  :lua vim.lsp.buf.code_action()<CR>
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:395:: noremap <leader>la  :lua vim.lsp.buf.code_action()<CR>
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:396:: nmap <leader>c gc
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:397:: 
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:398:: "Leap
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:399:: map t <Plug>(leap forward)
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:400:: map T <Plug>(leap backward)
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:401:: " Replace the default dictionary completion with fzf based fuzzy completion
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:402:: inoremap <expr> <c x><c k> fzf#vim#complete('cat /usr/share/dict/words')  
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:403:: 
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:404:: ""other maps
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:405:: inoremap <cr> <cr><space><esc>"_s
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:406:: nnoremap o o<space><esc>"_s
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:407:: " map cr
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:408:: " inoremap <cr> <esc> a<cr><space><esc>"_s
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:409:: " inoremap <m cr> <cr><space><esc>"_s
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:410:: let g:neovide_fullscreen=v:true
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:411:: if exists('g:gonvim_running')
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:412::  set guifont=Fira  Code  Light:h18
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:413:: "goneovim specific stuff
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:414:: elseif exists('g:neovide')
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:415::    set guifont=JetBrains  Mono:h18
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:416:: end
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:417:: nnoremap <C c> :set hlsearch!<cr>
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:418:: xnoremap <silent> <cr> "*y:silent! let searchTerm = ' V'.substitute(escape(@*, ' /'), " n", '  n', "g") <bar> let @/ = searchTerm <bar> echo '/'.@/ <bar> call histadd("search", searchTerm) <bar> set hls<cr>
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:419:: inoremap <m d> <C w>
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:420:: 
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:421:: "  1 for jumping backwards.
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:422:: inoremap <silent> <S Tab> <cmd>lua require'luasnip'.jump( 1)<Cr>
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:423:: inoremap <silent> <m j> <cmd>lua require('luasnip').jump(1)<Cr>
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:424:: nnoremap <silent> <m j> <cmd>lua require('luasnip').jump(1)<Cr>
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:425:: inoremap <silent> <m k> <cmd>lua require('luasnip').jump( 1)<Cr>
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:426:: nnoremap <silent> <m k> <cmd>lua require('luasnip').jump( 1)<Cr>
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:427:: " For changing choices in choiceNodes (not strictly necessary for a basic setup). 
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:428:: imap <silent><expr> <C E> luasnip#choice_active() ? '<Plug>luasnip next choice' : '<C E>'
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:429:: smap <silent><expr> <C E> luasnip#choice_active() ? '<Plug>luasnip next choice' : '<C E>'
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:377:: nnoremap <leader>1 :FZFNeoyank 1<cr>
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:378:: nnoremap <leader>P :FZFNeoyank " P+<cr>
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:379:: vnoremap <leader>p :FZFNeoyankSelection +<cr>
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:380:: 
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:381:: " Latex maps
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:382:: nmap <leader>v :call ViewPdf()<cr><cr>
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:383:: map <m v> <esc>:call ViewPdf()<cr><cr>
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:384:: nmap <leader>ll :call CompileLatex()<cr>
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:385:: nmap <leader>lcl :call ClearLatex()<cr>
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:386:: nmap gtd :TodoQuickFix<cr>
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:387:: nmap <leader>ga :TZAtaraxis<CR>
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:388:: nmap <leader>gm :up<cr>:silent ! cat  >> ~/workspace/email.txt; cp  /tmp/temp; make4ht /tmp/temp "mathml,mathjax"; pandoc /tmp/temp.html   from html   to markdown_strict  o /tmp/temp.md; mv /tmp/temp.md %<cr>:e %<cr>:up<cr>:qa<cr>
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:389:: 
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:390:: " Lsp mappings
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:391:: nnoremap <silent> g? <cmd>lua vim.diagnostic.open_float()<CR>
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:392:: noremap ga  :lua vim.lsp.buf.code_action()<CR>
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:393:: noremap <leader>la  :lua vim.lsp.buf.code_action()<CR>
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:394:: nmap <leader>c gc
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:395:: 
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:396:: "Leap
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:397:: map t <Plug>(leap forward)
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:398:: map T <Plug>(leap backward)
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:399:: " Replace the default dictionary completion with fzf based fuzzy completion
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:400:: inoremap <expr> <c x><c k> fzf#vim#complete('cat /usr/share/dict/words')  
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:401:: 
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:402:: ""other maps
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:403:: inoremap <cr> <cr><space><esc>"_s
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:404:: nnoremap o o<space><esc>"_s
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:405:: " map cr
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:406:: " inoremap <cr> <esc> a<cr><space><esc>"_s
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:407:: " inoremap <m cr> <cr><space><esc>"_s
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:408:: let g:neovide_fullscreen=v:true
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:409:: if exists('g:gonvim_running')
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:410::  set guifont=Fira  Code  Light:h18
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:411:: "goneovim specific stuff
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:412:: elseif exists('g:neovide')
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:413::    set guifont=JetBrains  Mono:h18
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:414:: end
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:415:: nnoremap <C c> :set hlsearch!<cr>
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:416:: xnoremap <silent> <cr> "*y:silent! let searchTerm = ' V'.substitute(escape(@*, ' /'), " n", '  n', "g") <bar> let @/ = searchTerm <bar> echo '/'.@/ <bar> call histadd("search", searchTerm) <bar> set hls<cr>
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:417:: inoremap <m d> <C w>
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:418:: 
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:419:: "  1 for jumping backwards.
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:420:: inoremap <silent> <S Tab> <cmd>lua require'luasnip'.jump( 1)<Cr>
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:421:: inoremap <silent> <m j> <cmd>lua require('luasnip').jump(1)<Cr>
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:422:: nnoremap <silent> <m j> <cmd>lua require('luasnip').jump(1)<Cr>
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:423:: inoremap <silent> <m k> <cmd>lua require('luasnip').jump( 1)<Cr>
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:424:: nnoremap <silent> <m k> <cmd>lua require('luasnip').jump( 1)<Cr>
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:425:: " For changing choices in choiceNodes (not strictly necessary for a basic setup). 
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:426:: imap <silent><expr> <C E> luasnip#choice_active() ? '<Plug>luasnip next choice' : '<C E>'
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:427:: smap <silent><expr> <C E> luasnip#choice_active() ? '<Plug>luasnip next choice' : '<C E>'
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:428:: 
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:429:: "Functions
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:430:: 
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:431:: "Functions
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:432:: 
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:433:: function Bluemoon()
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:434::    set background=dark
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:435::    colorscheme blue moon
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:436::    " colorscheme material  
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:437:: endfunction
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:438:: 
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:439:: function Deepocean()
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:440::    set background=dark
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:441::    colorscheme material  
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:442::    let g:material_style = 'deep ocean'  
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:443:: endfunction
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:444:: 
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:445:: function Palenight()
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:446::    set background=dark
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:447::    " colorscheme blue moon
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:448::    colorscheme material  
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:449::    let g:material_style = 'palenight'  
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:450:: endfunction
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:451:: function Light()
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:452::    colorscheme gruvbox 
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:453::    set background=light
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:454:: endfunction
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:455:: function Lighter()
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:456::    " colorscheme blue moon
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:457::    colorscheme tokyonight day
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:458:: endfunction
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:459:: 
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:460:: function Dark()
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:461::    set background=dark
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:462::    colorscheme tokyonight moon
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:463:: endfunction
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:464:: 
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:465:: function! Profile()
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:466:: profile start profile.log
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:467:: profile func *
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:468:: profile file *
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:469:: endfunction
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:470:: 
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:471:: command!  bang  nargs=* BLinesB
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:472::       call fzf#vim#grep(
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:473::         'rg   with filename   line number   no heading   smart case . '.fnameescape(expand('%')),1,
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:474::         fzf#vim#with_preview({'options': '  keep right   layout reverse   query '.shellescape(<q args>).'   preview "bat  p   color always {"', 'up:50%'))
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:475:: 
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:476:: function ToggleQuickFix()
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:477::       if empty(filter(getwininfo(), 'v:val.quickfix'))
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:478::       exec "w"
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:479::         let b:filenamedir=expand('%:p:h')
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:480::         echo b:filenamedir
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:481::         let b:filename=expand('%:t:r')
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:482::         let b:errors=b:filenamedir . "/build/" . b:filename .".log"
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:483::         exec "cg" b:errors
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:484::         copen
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:485::         lua <<EOF
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:486::         if vim.w.bqf_enabled then
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:487::     local winid = vim.api.nvim_get_current_win()
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:488::     vim.schedule(function()
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:489::         vim.api.nvim_win_call(winid, function()
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:490::             vim.api.nvim_feedkeys('zffatal', 'im', false)
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:491::         end)
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:492::     end)
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:493:: end
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:494:: EOF
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:495::         endif
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:496:: endfunction 
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:497:: 
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:498:: nnoremap <leader>e :silent call ToggleQuickFix()<CR>
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:499:: function! ClearLatex()
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:500::   silent !rm ./build/* 
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:501:: endfunction 
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:502:: command! SEND call Send()
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:503:: function! Send()
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:504::   " silent call ClearLatex()
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:505::   let b:filenamedir=expand('%:p:h')
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:506::   let b:filename=expand('%:t:r')
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:507::   let buf=bufname()
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:508::   let b:pdf=b:filenamedir . "/build/" . b:filename .".pdf" 
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:509::   let execstr="silent te pwsh  c send " . b:pdf
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:510::   echo execstr
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:511::   exec execstr
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:512::   silent execute "buffer" buf
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:513::   endfunction
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:514:: function! CompileLatex()
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:515::   " silent call ClearLatex()
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:516::   let buf=bufname()
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:517::   silent te pwsh  c latexmk  pvc  halt on error  synctex=1  file line error  f %
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:518::   silent execute "buffer" buf
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:519::   call ViewPdf()
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:520::   call feedkeys(" <cr>")
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:521:: endfunction
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:522:: 
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:523:: function! ViewPdf() 
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:524:: w
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:525:: let buf=bufname()
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:526:: lua Server()
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:527:: let linenumber=line(".")
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:528:: let colnumber=col(".")
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:529:: let b:filenamedir=expand('%:p:h')
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:530:: let filenametex=expand('%:p:t')
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:531:: let filenametexwhole=expand('%:p')
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:532:: let filenameroot=expand('%:t:r')
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:533:: " let filenamePDF=filename[: 4 ."pdf" 
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:534:: let filenamePDFLinux=b:filenamedir . "/buildback/" . filenameroot . ".pdf"
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:535:: let b:filenamePDFWindows="build  " . filenameroot . ".pdf"
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:536:: " echo b:filenamePDFWindows
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:537:: let execstrLinux="silent te zathura   synctex forward " . linenumber . ":" . colnumber . ":" . filenametexwhole . " " . filenamePDFLinux
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:538:: let execstrWindows="silent te pwsh  c C:/Users/yasha/scoop/shims/sumatrapdf.EXE  reuse instance " . b:filenamePDFWindows . "  forward search " . filenametex . " " . linenumber
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:539:: exec execstrWindows
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:540:: silent execute "buffer" buf
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:541:: endfunction
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:431:: function Bluemoon()
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:432::    set background=dark
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:433::    colorscheme blue moon
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:434::    " colorscheme material  
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:435:: endfunction
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:436:: 
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:437:: function Deepocean()
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:438::    set background=dark
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:439::    colorscheme material  
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:440::    let g:material_style = 'deep ocean'  
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:441:: endfunction
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:442:: 
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:443:: function Palenight()
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:444::    set background=dark
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:445::    " colorscheme blue moon
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:446::    colorscheme material  
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:447::    let g:material_style = 'palenight'  
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:448:: endfunction
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:449:: function Light()
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:450::    colorscheme gruvbox 
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:451::    set background=light
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:452:: endfunction
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:453:: function Lighter()
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:454::    " colorscheme blue moon
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:455::    colorscheme tokyonight day
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:456:: endfunction
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:457:: 
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:458:: function Dark()
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:459::    set background=dark
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:460::    colorscheme tokyonight moon
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:461:: endfunction
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:462:: 
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:463:: function! Profile()
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:464:: profile start profile.log
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:465:: profile func *
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:466:: profile file *
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:467:: endfunction
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:468:: 
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:469:: command!  bang  nargs=* BLinesB
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:470::       call fzf#vim#grep(
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:471::         'rg   with filename   line number   no heading   smart case . '.fnameescape(expand('%')),1,
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:472::         fzf#vim#with_preview({'options': '  keep right   layout reverse   query '.shellescape(<q args>).'   preview "bat  p   color always {"', 'up:50%'))
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:473:: 
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:474:: function ToggleQuickFix()
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:475::       if empty(filter(getwininfo(), 'v:val.quickfix'))
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:476::       exec "w"
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:477::         let b:filenamedir=expand('%:p:h')
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:478::         echo b:filenamedir
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:479::         let b:filename=expand('%:t:r')
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:480::         let b:errors=b:filenamedir . "/build/" . b:filename .".log"
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:481::         exec "cg" b:errors
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:482::         copen
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:483::         lua <<EOF
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:484::         if vim.w.bqf_enabled then
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:485::     local winid = vim.api.nvim_get_current_win()
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:486::     vim.schedule(function()
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:487::         vim.api.nvim_win_call(winid, function()
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:488::             vim.api.nvim_feedkeys('zffatal', 'im', false)
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:489::         end)
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:490::     end)
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:491:: end
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:492:: EOF
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:493::         endif
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:494:: endfunction 
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:495:: 
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:496:: nnoremap <leader>e :silent call ToggleQuickFix()<CR>
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:497:: function! ClearLatex()
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:498::   silent !rm ./build/* 
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:499:: endfunction 
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:500:: command! SEND call Send()
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:501:: function! Send()
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:502::   " silent call ClearLatex()
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:503::   let b:filenamedir=expand('%:p:h')
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:504::   let b:filename=expand('%:t:r')
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:505::   let buf=bufname()
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:506::   let b:pdf=b:filenamedir . "/build/" . b:filename .".pdf" 
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:507::   let execstr="silent te pwsh  c send " . b:pdf
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:508::   echo execstr
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:509::   exec execstr
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:510::   silent execute "buffer" buf
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:511::   endfunction
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:512:: function! CompileLatex()
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:513::   " silent call ClearLatex()
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:514::   let buf=bufname()
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:515::   silent te pwsh  c latexmk  pvc  halt on error  synctex=1  file line error  f %
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:516::   silent execute "buffer" buf
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:517::   call ViewPdf()
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:518::   call feedkeys(" <cr>")
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:519:: endfunction
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:520:: 
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:521:: function! ViewPdf() 
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:522:: up
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:523:: let buf=bufname()
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:524:: lua Server()
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:525:: let linenumber=line(".")
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:526:: let colnumber=col(".")
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:527:: let b:filenamedir=expand('%:p:h')
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:528:: let filenametex=expand('%:p:t')
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:529:: let filenametexwhole=expand('%:p')
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:530:: let filenameroot=expand('%:t:r')
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:531:: " let filenamePDF=filename[: 4 ."pdf" 
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:532:: let filenamePDFLinux=b:filenamedir . "/buildback/" . filenameroot . ".pdf"
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:533:: let b:filenamePDFWindows="build  " . filenameroot . ".pdf"
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:534:: " echo b:filenamePDFWindows
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:535:: let execstrLinux="silent te zathura   synctex forward " . linenumber . ":" . colnumber . ":" . filenametexwhole . " " . filenamePDFLinux
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:536:: let execstrWindows="silent te pwsh  c C:/Users/yasha/scoop/shims/sumatrapdf.EXE  reuse instance " . b:filenamePDFWindows . "  forward search " . filenametex . " " . linenumber
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:537:: exec execstrWindows
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:538:: silent execute "buffer" buf
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:539:: endfunction
