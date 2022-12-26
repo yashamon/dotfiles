@@ -129,7 +129,7 @@
  C:/Users/yasha/dotfiles/config/nvimnew/minimal.vim:129:: 
  C:/Users/yasha/dotfiles/config/nvimnew/minimal.vim:130:: "maps remaps mappings  
  C:/Users/yasha/dotfiles/config/nvimnew/minimal.vim:131:: "
- C:/Users/yasha/dotfiles/config/nvimnew/minimal.vim:132:: noremap <leader>f <cmd>lua require("fzf commands").files()<cr>
+ C:/Users/yasha/dotfiles/config/nvimnew/minimal.vim:132:: noremap <leader>ff <cmd>lua require("fzf commands").files()<cr>
  C:/Users/yasha/dotfiles/config/nvimnew/minimal.vim:133:: " or
  C:/Users/yasha/dotfiles/config/nvimnew/minimal.vim:134:: command! Files lua require("fzf commands").files()
  C:/Users/yasha/dotfiles/config/nvimnew/minimal.vim:135:: " or with configuration

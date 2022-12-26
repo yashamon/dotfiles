@@ -129,7 +129,7 @@ au TextYankPost * call neoyank#_append()
 
 "maps remaps mappings  
 "
-noremap <leader>f <cmd>lua require("fzf-commands").files()<cr>
+noremap <leader>ff <cmd>lua require("fzf-commands").files()<cr>
 " or
 command! Files lua require("fzf-commands").files()
 " or with configuration
