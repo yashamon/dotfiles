@@ -187,48 +187,48 @@
  C:/Users/yasha/dotfiles/config/nvimnew/lua/test.lua:187::        filetypes = { "TelescopePrompt" ,
  C:/Users/yasha/dotfiles/config/nvimnew/lua/test.lua:188::      ,
  C:/Users/yasha/dotfiles/config/nvimnew/lua/test.lua:189::    )
- C:/Users/yasha/dotfiles/config/nvimnew/lua/test.lua:190::    require("gruvbox").setup({
- C:/Users/yasha/dotfiles/config/nvimnew/lua/test.lua:191::    undercurl = true,
- C:/Users/yasha/dotfiles/config/nvimnew/lua/test.lua:192::      underline = true,
- C:/Users/yasha/dotfiles/config/nvimnew/lua/test.lua:193::      bold = true,
- C:/Users/yasha/dotfiles/config/nvimnew/lua/test.lua:194::      italic = true,
- C:/Users/yasha/dotfiles/config/nvimnew/lua/test.lua:195::      strikethrough = false,
- C:/Users/yasha/dotfiles/config/nvimnew/lua/test.lua:196::      invert_selection = false,
- C:/Users/yasha/dotfiles/config/nvimnew/lua/test.lua:197::      invert_signs = false,
- C:/Users/yasha/dotfiles/config/nvimnew/lua/test.lua:198::      invert_tabline = false,
- C:/Users/yasha/dotfiles/config/nvimnew/lua/test.lua:199::      invert_intend_guides = false,
- C:/Users/yasha/dotfiles/config/nvimnew/lua/test.lua:200::      inverse = false,    invert background for search, diffs, statuslines and errors
- C:/Users/yasha/dotfiles/config/nvimnew/lua/test.lua:201::      contrast = "hard",    can be "hard", "soft" or empty string
- C:/Users/yasha/dotfiles/config/nvimnew/lua/test.lua:202::      palette_overrides = {,
- C:/Users/yasha/dotfiles/config/nvimnew/lua/test.lua:203::      dim_inactive = false,
- C:/Users/yasha/dotfiles/config/nvimnew/lua/test.lua:204::      transparent_mode = false,
- C:/Users/yasha/dotfiles/config/nvimnew/lua/test.lua:205::        overrides = {
- C:/Users/yasha/dotfiles/config/nvimnew/lua/test.lua:206::            SignColumn = {bg = "#ffa546",
- C:/Users/yasha/dotfiles/config/nvimnew/lua/test.lua:207::            Normal = {bg = "#ffa546",
- C:/Users/yasha/dotfiles/config/nvimnew/lua/test.lua:208::            DiagnosticSignError = { bg = "#ffa546" ,
- C:/Users/yasha/dotfiles/config/nvimnew/lua/test.lua:209::            DiagnosticSignWarn = { bg = "#ffa546" ,
- C:/Users/yasha/dotfiles/config/nvimnew/lua/test.lua:210::            DiagnosticSignInfo = { bg = "#ffa546" ,
- C:/Users/yasha/dotfiles/config/nvimnew/lua/test.lua:211::            DiagnosticSignHint = { bg = "#ffa546" ,
- C:/Users/yasha/dotfiles/config/nvimnew/lua/test.lua:212::            texType = { fg = "#808080" ,
- C:/Users/yasha/dotfiles/config/nvimnew/lua/test.lua:213::            texMath = { fg = "#808080" ,
- C:/Users/yasha/dotfiles/config/nvimnew/lua/test.lua:214::            Special = { fg = "#650000" ,
- C:/Users/yasha/dotfiles/config/nvimnew/lua/test.lua:215::            texDelimiter = { fg = "#808080" ,
- C:/Users/yasha/dotfiles/config/nvimnew/lua/test.lua:216::            texStatement = { fg = "#808080" ,
- C:/Users/yasha/dotfiles/config/nvimnew/lua/test.lua:217::               Operator = { fg = "#808080" ,
- C:/Users/yasha/dotfiles/config/nvimnew/lua/test.lua:218::            Type = { fg = "#008800" ,
- C:/Users/yasha/dotfiles/config/nvimnew/lua/test.lua:219::            Comment = { fg = "#af6000" ,
- C:/Users/yasha/dotfiles/config/nvimnew/lua/test.lua:220::            String = { fg = "#580058" ,
- C:/Users/yasha/dotfiles/config/nvimnew/lua/test.lua:221::            Operator = { fg = "#580058" ,
- C:/Users/yasha/dotfiles/config/nvimnew/lua/test.lua:222::            Pmenu = { bg = "#ffa546", fg = "#1e2030" 
- C:/Users/yasha/dotfiles/config/nvimnew/lua/test.lua:223::              bright orange  #fd8432
- C:/Users/yasha/dotfiles/config/nvimnew/lua/test.lua:224::              texComment = { fg = "#00ff00" ,
- C:/Users/yasha/dotfiles/config/nvimnew/lua/test.lua:225::               texString = { fg = "#0000ff" ,
- C:/Users/yasha/dotfiles/config/nvimnew/lua/test.lua:226::               Special = {fg = "#0000ff" ,
- C:/Users/yasha/dotfiles/config/nvimnew/lua/test.lua:227::               texCmdName = { fg = "#0000ff" ,
- C:/Users/yasha/dotfiles/config/nvimnew/lua/test.lua:228::               SpecialChar = { fg = "#0000ff" ,
- C:/Users/yasha/dotfiles/config/nvimnew/lua/test.lua:229::               Statement = { fg = "#0000ff" 
- C:/Users/yasha/dotfiles/config/nvimnew/lua/test.lua:230::        
- C:/Users/yasha/dotfiles/config/nvimnew/lua/test.lua:231::    )
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/test.lua:190:: require("gruvbox").setup({
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/test.lua:191:: undercurl = true,
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/test.lua:192::   underline = true,
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/test.lua:193::   bold = true,
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/test.lua:194::   italic = true,
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/test.lua:195::   strikethrough = false,
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/test.lua:196::   invert_selection = false,
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/test.lua:197::   invert_signs = false,
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/test.lua:198::   invert_tabline = false,
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/test.lua:199::   invert_intend_guides = false,
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/test.lua:200::   inverse = false,    invert background for search, diffs, statuslines and errors
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/test.lua:201::   contrast = "hard",    can be "hard", "soft" or empty string
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/test.lua:202::   palette_overrides = {,
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/test.lua:203::   dim_inactive = false,
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/test.lua:204::   transparent_mode = false,
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/test.lua:205::     overrides = {
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/test.lua:206::         SignColumn = {bg = "#ffa546",
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/test.lua:207::         Normal = {bg = "#ffa546",
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/test.lua:208::         DiagnosticSignError = { bg = "#ffa546" ,
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/test.lua:209::         DiagnosticSignWarn = { bg = "#ffa546" ,
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/test.lua:210::         DiagnosticSignInfo = { bg = "#ffa546" ,
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/test.lua:211::         DiagnosticSignHint = { bg = "#ffa546" ,
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/test.lua:212::         texType = { fg = "#808080" ,
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/test.lua:213::         texMath = { fg = "#808080" ,
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/test.lua:214::         Special = { fg = "#650000" ,
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/test.lua:215::         texDelimiter = { fg = "#808080" ,
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/test.lua:216::         texStatement = { fg = "#808080" ,
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/test.lua:217::            Operator = { fg = "#808080" ,
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/test.lua:218::         Type = { fg = "#008800" ,
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/test.lua:219::         Comment = { fg = "#af6000" ,
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/test.lua:220::         String = { fg = "#580058" ,
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/test.lua:221::         Operator = { fg = "#580058" ,
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/test.lua:222::         Pmenu = { bg = "#ffa546", fg = "#1e2030" 
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/test.lua:223::           bright orange  #fd8432
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/test.lua:224::           texComment = { fg = "#00ff00" ,
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/test.lua:225::            texString = { fg = "#0000ff" ,
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/test.lua:226::            Special = {fg = "#0000ff" ,
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/test.lua:227::            texCmdName = { fg = "#0000ff" ,
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/test.lua:228::            SpecialChar = { fg = "#0000ff" ,
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/test.lua:229::            Statement = { fg = "#0000ff" 
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/test.lua:230::     
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/test.lua:231:: )
  C:/Users/yasha/dotfiles/config/nvimnew/lua/test.lua:232::   
  C:/Users/yasha/dotfiles/config/nvimnew/lua/test.lua:233::       nvim LSP
  C:/Users/yasha/dotfiles/config/nvimnew/lua/test.lua:234::    require('snippets')
