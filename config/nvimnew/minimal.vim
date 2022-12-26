@@ -4,6 +4,8 @@ if !filereadable(s:plug_dir .. '/plug.vim')
 end
 execute 'set runtimepath+=' . s:plug_dir
 call plug#begin(s:plug_dir)
+Plug 'vijaymarupudi/nvim-fzf' " requires the nvim-fzf library
+Plug 'vijaymarupudi/nvim-fzf-commands'
 Plug 'hrsh7th/nvim-cmp',  { 'branch': 'main' }
 Plug 'hrsh7th/cmp-buffer',  { 'branch': 'main' }
 Plug 'hrsh7th/cmp-nvim-lsp',  { 'branch': 'main' }
