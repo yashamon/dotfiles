@@ -46,7 +46,7 @@ Plug 'dcampos/cmp-snippy'
 call plug#end()
 lua <<EOF
 -- require('test')
-require('settings')
+require('test')
 require('functions')
 require('keymaps')
 require('set')
