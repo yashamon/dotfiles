@@ -294,7 +294,7 @@
  C:/Users/yasha/dotfiles/config/nvimnew/lua/test.lua:294::    ... Your other mappings ...
  C:/Users/yasha/dotfiles/config/nvimnew/lua/test.lua:295:: ["<Tab>"  = cmp.mapping(function(fallback)
  C:/Users/yasha/dotfiles/config/nvimnew/lua/test.lua:296:: 			if snippy.can_expand() then
- C:/Users/yasha/dotfiles/config/nvimnew/lua/test.lua:297:: 				luasnip.expand()
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/test.lua:297:: 				snippy.expand()
  C:/Users/yasha/dotfiles/config/nvimnew/lua/test.lua:298::                         elseif cmp.visible() then
  C:/Users/yasha/dotfiles/config/nvimnew/lua/test.lua:299::                              cmp.select_next_item()
  C:/Users/yasha/dotfiles/config/nvimnew/lua/test.lua:300:: 			elseif has_words_before() then

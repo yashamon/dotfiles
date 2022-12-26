@@ -294,7 +294,7 @@ mapping = cmp.mapping.preset.insert({
 -- ... Your other mappings ...
 ["<Tab>"] = cmp.mapping(function(fallback)
 			if snippy.can_expand() then
-				luasnip.expand()
+				snippy.expand()
                         elseif cmp.visible() then
                              cmp.select_next_item()
 			elseif has_words_before() then
