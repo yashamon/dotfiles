@@ -340,7 +340,7 @@
       "\\begin{remark} \\label{remark:$1}", 
       "$2", 
       "\\end{remark}",
-      "$0"
+      "$0",
 			""
    ],
     "description": "proposition"
