@@ -5,6 +5,7 @@ let s:plug_dir = expand('/tmp/plugged/vim-plug')" if !filereadable(s:plug_dir ..
 call plug#begin(s:plug_dir)
 "Plug 'nvim-telescope/telescope-fzf-native.nvim', { 'do': 'make' } asdf
 Plug 'folke/todo-comments.nvim', { 'branch': 'main' }
+Plug 'lewis6991/gitsigns.nvim'
 " Plug 'folke/noice.nvim', { 'branch': 'main' }
 Plug 'L3MON4D3/LuaSnip'
 Plug 'saadparwaiz1/cmp_luasnip'
