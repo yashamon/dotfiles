@@ -82,7 +82,7 @@
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:82:: " let g:auto_save_silent = 1
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:83:: 
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:84:: hi SpellBad cterm=underline
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:85:: hi SpellBad gui=undercurl guisp=white
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:85:: hi SpellBad gui=undercurl guisp=#af6000
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:86:: "
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:87:: " Autocommands, au
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:88::  
