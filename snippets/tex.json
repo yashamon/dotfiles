@@ -358,11 +358,12 @@
 "example": {
     "prefix": ["ex", "example"],
     "body": [
+			"",
       "\\begin{example} \\label{example:$1}", 
       "\\end{example}",
       "$0"
    ],
-    "description": "Add a theorem"
+    "description": "Add a example"
   },
 
  "lemma": {
@@ -375,7 +376,7 @@
       "",
       "$0"
    ],
-    "description": "Add a theorem"
+    "description": "Add a lemma"
   },
  
  "Corollary": {
