@@ -65,4 +65,4 @@ opt.spell = true
 lua vim.api.nvim_set_hl(0, 'IndentBlanklineSpaceChar', { fg = '#af6000'})
  
  
- highlight IndentBlanklineSpaceChar guifg=#00FF00 gui=nocombine
+ -- highlight IndentBlanklineSpaceChar guifg=#00FF00 gui=nocombine
