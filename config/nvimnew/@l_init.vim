@@ -257,7 +257,7 @@
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:257:: map <m D> :bdelete!<CR>
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:258:: noremap gf gq
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:259:: nmap f /
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:260:: nmap gv   / 
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:260:: nmap gv   /
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:261:: vmap s   /
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:262:: " vim multiple  cursors
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:263:: nnoremap <m n> <c n>
