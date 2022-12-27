@@ -417,7 +417,7 @@
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:417:: imap <silent><expr> <C E> luasnip#choice_active() ? '<Plug>luasnip next choice' : '<C E>'
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:418:: smap <silent><expr> <C E> luasnip#choice_active() ? '<Plug>luasnip next choice' : '<C E>'
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:419:: 
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:420:: "Functions
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:420:: "Functions test
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:421:: 
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:422:: function Bluemoon()
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:423::    set background=dark
