@@ -486,7 +486,7 @@
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:486:: function! ClearLatex()
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:487::   silent !rm ./build/* 
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:488:: endfunction 
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:489:: command! SEND call Send()
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:489:: command! SEND silent call Send()
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:490:: function! Send()
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:491::   " silent call ClearLatex()
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:492::   let b:filenamedir=expand('%:p:h')

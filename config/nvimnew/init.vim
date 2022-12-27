@@ -486,7 +486,7 @@ nnoremap <leader>e :silent call ToggleQuickFix()<CR>
 function! ClearLatex()
   silent !rm ./build/* 
 endfunction 
-command! SEND call Send()
+command! SEND silent call Send()
 function! Send()
   " silent call ClearLatex()
   let b:filenamedir=expand('%:p:h')
