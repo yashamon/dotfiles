@@ -226,9 +226,11 @@
 "Align(ed)": {
     "prefix": ["ali", "aligned"],
     "body": [
+				"",
         "\\begin{align*}",
         "\t$0",    
-        "\\end{align*}"
+        "\\end{align*}",
+				""
 ],
     "description": "Align(ed)"
 },
@@ -287,20 +289,24 @@
 "Equation": {
     "prefix": "eq",
     "body": [
+			"",
       "\\begin{equation*}",
       "$1",
       "\\end{equation*}",
-      "$0"
+      "$0",
+			""
     ],
     "description": "Add a Equation"
   },
 "EquationNumbered": {
     "prefix": "eqnum",
     "body": [
+			"",
       "\\begin{equation} \\label{eq:$1}",
             "$2", 
       "\\end{equation}",
-      "$0" 
+      "$0", 
+			""
       ],
     "description": "Add a Equation"
   }, 
@@ -317,10 +323,12 @@
 "question": {
     "prefix": "question",
     "body": [
+			"",
       "\\begin{question} \\label{question:$1}", 
             "$2", 
       "\\end{question}",
-      "$0"
+      "$0",
+			""
    ],
     "description": "question"
   },
@@ -328,10 +336,12 @@
 "remark": {
     "prefix": ["rem", "remark"],
     "body": [
+			"",
       "\\begin{remark} \\label{remark:$1}", 
       "$2", 
       "\\end{remark}",
       "$0"
+			""
    ],
     "description": "proposition"
   },
