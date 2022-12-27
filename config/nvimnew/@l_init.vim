@@ -368,10 +368,10 @@
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:368:: vnoremap <leader>p :FZFNeoyankSelection +<cr>
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:369:: 
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:370:: " Latex maps
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:371:: nmap <leader>v :call ViewPdf()<cr><cr>
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:372:: map <m v> <esc>:call ViewPdf()<cr><cr>
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:373:: nmap <leader>ll :call CompileLatex()<cr>
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:374:: nmap <leader>lcl :call ClearLatex()<cr>
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:371:: nmap <leader>v :silent call ViewPdf()<cr><cr>
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:372:: map <m v> <esc>:silent call ViewPdf()<cr><cr>
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:373:: nmap <leader>ll :silent call CompileLatex()<cr>
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:374:: nmap <leader>lcl :silent call ClearLatex()<cr>
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:375:: nmap gtd :TodoQuickFix<cr>
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:376:: nmap <leader>ga :TZAtaraxis<CR>
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:377:: nmap <leader>gm :up<cr>:silent ! cat  >> ~/workspace/email.txt; cp  /tmp/temp; make4ht /tmp/temp "mathml,mathjax"; pandoc /tmp/temp.html   from html   to markdown_strict  o /tmp/temp.md; mv /tmp/temp.md %<cr>:e %<cr>:up<cr>:qa<cr>

@@ -368,10 +368,10 @@ nnoremap <leader>P :FZFNeoyank " P+<cr>
 vnoremap <leader>p :FZFNeoyankSelection +<cr>
 
 " Latex maps
-nmap <leader>v :call ViewPdf()<cr><cr>
-map <m-v> <esc>:call ViewPdf()<cr><cr>
-nmap <leader>ll :call CompileLatex()<cr>
-nmap <leader>lcl :call ClearLatex()<cr>
+nmap <leader>v :silent call ViewPdf()<cr><cr>
+map <m-v> <esc>:silent call ViewPdf()<cr><cr>
+nmap <leader>ll :silent call CompileLatex()<cr>
+nmap <leader>lcl :silent call ClearLatex()<cr>
 nmap gtd :TodoQuickFix<cr>
 nmap <leader>ga :TZAtaraxis<CR>
 nmap <leader>gm :up<cr>:silent ! cat % >> ~/workspace/email.txt; cp % /tmp/temp; make4ht /tmp/temp "mathml,mathjax"; pandoc /tmp/temp.html --from html --to markdown_strict -o /tmp/temp.md; mv /tmp/temp.md %<cr>:e %<cr>:up<cr>:qa<cr>
