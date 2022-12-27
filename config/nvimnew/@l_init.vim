@@ -11,7 +11,7 @@
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:11:: Plug 'saadparwaiz1/cmp_luasnip'
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:12:: Plug 'nvim treesitter/playground'
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:13:: Plug 'LhKipp/nvim nu', { 'branch': 'main' 
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:14:: Plug 'lukas reineke/indent blankline'
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:14:: Plug 'lukas reineke/indent blankline', , { 'branch': 'main' 
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:15:: Plug 'folke/which key.nvim', { 'branch': 'main' 
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:16:: Plug 'ggandor/leap.nvim', { 'branch': 'main' 
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:17:: Plug 'kyazdani42/nvim web devicons'
