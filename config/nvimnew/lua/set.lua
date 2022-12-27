@@ -61,8 +61,8 @@ vim.opt.runtimepath:append(',/tmp/pluggedtest/vim-plug')
 --
 opt.spell = true
 -- highlights
-vim.cmd [[highlight IndentBlanklineChar guifg=#af6000 gui=nocombine]]
-vim.cmd [[hi SpellBad gui=undercurl guisp=#580058 ]]
+-- vim.cmd [[highlight IndentBlanklineChar guifg=#af6000 gui=nocombine]]
+-- vim.cmd [[hi SpellBad gui=undercurl guisp=#580058 ]]
 -- 
--- vim.api.nvim_set_hl(0, 'SpellBad', { fg = '#580058' })
+vim.api.nvim_set_hl(0, 'SpellBad', { fg = '#580058' })
 vim.api.nvim_set_hl(0, 'IndentBlanklineChar', { fg = '#af6000', nocombine = true })
