@@ -11,6 +11,7 @@ Plug 'L3MON4D3/LuaSnip'
 Plug 'saadparwaiz1/cmp_luasnip'
 Plug 'nvim-treesitter/playground'
 Plug 'LhKipp/nvim-nu', { 'branch': 'main' }
+Plug 'lukas-reineke/indent-blankline'
 Plug 'folke/which-key.nvim', { 'branch': 'main' }
 Plug 'ggandor/leap.nvim', { 'branch': 'main' }
 Plug 'kyazdani42/nvim-web-devicons'
