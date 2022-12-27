@@ -1557,4 +1557,5 @@
         "description": ["template"]
     }
 }
-
+Filename = vim.fn.substitute(vim.fn.expand('%:p'), "\\", "/", "g")
+   Idline = vim.fn.jobstart({"nu", "C:/Users/yasha/dotfiles/scripts/Line.nu", Filename})
