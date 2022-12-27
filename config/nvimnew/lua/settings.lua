@@ -219,6 +219,7 @@ undercurl = true,
         texDelimiter = { fg = "#af6000" },
         texStatement = { fg = "#580058" },
 				texRefzone = { fg = "#af6000" },
+				texBeginEnd = { fg = "#00008b" },
 				texCite = { fg = "#af6000" },
 				Special = { fg = '#580058' },
 
