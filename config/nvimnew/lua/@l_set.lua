@@ -61,7 +61,9 @@
  C:/Users/yasha/dotfiles/config/nvimnew/lua/set.lua:61::   
  C:/Users/yasha/dotfiles/config/nvimnew/lua/set.lua:62:: opt.spell = true
  C:/Users/yasha/dotfiles/config/nvimnew/lua/set.lua:63::    highlights
- C:/Users/yasha/dotfiles/config/nvimnew/lua/set.lua:64::    vim.cmd [[highlight IndentBlanklineSpaceChar guifg=#af6000 gui=nocombine  
- C:/Users/yasha/dotfiles/config/nvimnew/lua/set.lua:65::    
- C:/Users/yasha/dotfiles/config/nvimnew/lua/set.lua:66:: vim.api.nvim_set_hl(0, 'SpellBad', { fg = '#580058', undercurl = true )
- C:/Users/yasha/dotfiles/config/nvimnew/lua/set.lua:67:: vim.api.nvim_set_hl(0, 'IndentBlanklineSpaceChar', { fg = '#af6000', nocombine = true )
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/set.lua:64:: vim.cmd [[highlight IndentBlanklineSpaceChar guifg=#af6000 gui=nocombine  
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/set.lua:65:: vim.cmd [[hi SpellBad gui=undercurl guisp=#580058
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/set.lua:66::   
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/set.lua:67::    
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/set.lua:68::    vim.api.nvim_set_hl(0, 'SpellBad', { fg = '#580058', undercurl = true )
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/set.lua:69::    vim.api.nvim_set_hl(0, 'IndentBlanklineSpaceChar', { fg = '#af6000', nocombine = true )
