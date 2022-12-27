@@ -61,8 +61,7 @@ vim.opt.runtimepath:append(',/tmp/pluggedtest/vim-plug')
 --
 opt.spell = true
 -- highlights
+vim.cmd [[highlight IndentBlanklineSpaceChar guifg=#af6000 gui=nocombine]]
 
-vim.api.nvim_set_hl(0, 'IndentBlanklineSpaceChar', { fg = '#af6000'})
- 
- 
- -- highlight IndentBlanklineSpaceChar guifg=#00FF00 gui=nocombine
+-- vim.api.nvim_set_hl(0, 'IndentBlanklineSpaceChar', { fg = '#af6000'})
+-- highlight IndentBlanklineSpaceChar guifg=#00FF00 gui=nocombine
