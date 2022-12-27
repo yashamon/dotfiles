@@ -5,7 +5,7 @@
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:5:: call plug#begin(s:plug_dir)
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:6:: "Plug 'nvim telescope/telescope fzf native.nvim', { 'do': 'make'  
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:7:: Plug 'folke/todo comments.nvim', { 'branch': 'main' 
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:8:: Plug 'lewis6991/gitsigns.nvim', { 'branch': 'main' 
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:8:: " Plug 'lewis6991/gitsigns.nvim', { 'branch': 'main' 
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:9:: " Plug 'folke/noice.nvim', { 'branch': 'main' 
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:10:: Plug 'L3MON4D3/LuaSnip'
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:11:: Plug 'saadparwaiz1/cmp_luasnip'
