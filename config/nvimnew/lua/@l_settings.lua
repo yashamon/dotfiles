@@ -17,7 +17,7 @@
  C:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:17::      ,
  C:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:18::    )
  C:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:19:: 
- C:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:20:: vim.opt.listchars:append "eol:↴"
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:20::    vim.opt.listchars:append "eol:↴"
  C:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:21:: 
  C:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:22:: require("indent_blankline").setup {
  C:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:23::     show_end_of_line = true,
