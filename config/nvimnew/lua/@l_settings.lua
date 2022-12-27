@@ -451,13 +451,13 @@
  C:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:451::     end
  C:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:452:: 
  C:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:453::        Navigation
- C:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:454::     map('n', ' c', function()
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:454::     map('n', 'gn', function()
  C:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:455::       if vim.wo.diff then return ' c' end
  C:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:456::       vim.schedule(function() gs.next_hunk() end)
  C:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:457::       return '<Ignore>'
  C:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:458::     end, {expr=true)
  C:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:459:: 
- C:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:460::     map('n', '[c', function()
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:460::     map('n', 'gp', function()
  C:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:461::       if vim.wo.diff then return '[c' end
  C:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:462::       vim.schedule(function() gs.prev_hunk() end)
  C:/Users/yasha/dotfiles/config/nvimnew/lua/settings.lua:463::       return '<Ignore>'
