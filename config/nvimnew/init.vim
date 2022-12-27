@@ -1,5 +1,4 @@
-let s:plug_dir = expand('/tmp/plugged/vim-plug')
-" if !filereadable(s:plug_dir .. '/plug.vim')
+let s:plug_dir = expand('/tmp/plugged/vim-plug')" if !filereadable(s:plug_dir .. '/plug.vim')
 "   execute printf('!curl -fLo %s/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim', s:plug_dir)
 " end
 
@@ -324,15 +323,14 @@ let $FZF_DEFAULT_OPTS = '--bind ctrl-a:select-all'
 nnoremap <m-t> :up<cr>:BTags<cr>:call s:myquick()<cr>:lopen<cr>
 nnoremap <m-s> :up<cr>:lua Sentence()<cr>
 nnoremap S :up<cr>:lua Line()<cr>
-
 " Line search mapping 
 " function! Jumpback() 
 "   K=bufname()
 "   normal viwhy<esc>:bdelete<cr>:buffer K<c-r>+<cr>:ZenMode<cr>
 " endfunction
 " 
-nnoremap <m-b> :Buffers<cr>
-" nnoremap <m-b> :lua require('telescope.builtin').buffers({layout_strategy='vertical',layout_config={width=0.9}})<cr>
+" nnoremap <m-b> :Buffers<cr>
+nnoremap <m-b> :lua require('telescope.builtin').buffers({layout_strategy='vertical',layout_config={width=0.9}})<cr>
 nnoremap <m-i> :lua require('telescope.builtin').git_bcommits({layout_strategy='vertical',layout_config={width=0.9}})<cr>
 nnoremap <m-u> :<Esc>:cg C:/Users/yasha/_vim_mru_files<cr>:copen<cr>:call feedkeys("zf")<CR>
 " noremap F <Esc>:GFiles<CR>
