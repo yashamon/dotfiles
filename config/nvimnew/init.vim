@@ -144,7 +144,7 @@ noremap <leader>r :up<cr>:e<cr>
 command Tw50 set tw=50
 command Tw0 set tw=0
 noremap q :q<cr>
-noremap <leader>q q
+nnoremap <leader>q q
 nmap <m-7> :ZenMode<cr>:mksession!<cr>
 nnoremap <leader>u <cr>:UndotreeToggle<CR>
 noremap <leader>c :'<,'>CommentToggle<cr>
