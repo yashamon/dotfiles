@@ -949,9 +949,12 @@
     "Itemize": {
         "prefix": ["itemize", "\\itemize", "itemize"],
         "body": [
+						"",
             "\\begin{itemize}",
             "\t\\item $1",
-            "\\end{itemize}$0"
+            "\\end{itemize}$0",
+						""
+
         ]
     },
     
@@ -967,9 +970,11 @@
     "Definition": {
         "prefix": ["def", "\\definition"],
         "body": [
+						"",
             "\\begin{definition}\\label{def:$1}", 
             "\t$0",
-            "\\end{definition}"
+            "\\end{definition}",
+						""
         ],
         "description": "Insert a definition, whose style is already defined in the template. The serial number is automatically generated according to the section."
     },
