@@ -17,7 +17,11 @@
 --   },
 -- })
 
+vim.opt.listchars:append "eol:↴"
 
+require("indent_blankline").setup {
+    show_end_of_line = true,
+}
 
 require'nvim-treesitter.configs'.setup {
 -- ensure_installed = "all", -- one of "all", "maintained" (parsers with maintainers), or a list of languages
