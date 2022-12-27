@@ -143,7 +143,7 @@
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:143:: " inoremap . .<esc>:up<cr>a
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:144:: command Tw50 set tw=50
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:145:: command Tw0 set tw=0
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:146:: noremap q :q<cr>
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:146:: nnoremap q :q<cr>
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:147:: nnoremap <leader>q q
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:148:: nmap <m 7> :ZenMode<cr>:mksession!<cr>
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:149:: nnoremap <leader>u <cr>:UndotreeToggle<CR>
