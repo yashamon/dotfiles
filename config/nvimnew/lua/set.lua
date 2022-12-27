@@ -62,7 +62,7 @@ vim.opt.runtimepath:append(',/tmp/pluggedtest/vim-plug')
 opt.spell = true
 -- highlights
 
-lua vim.api.nvim_set_hl(0, 'IndentBlanklineSpaceChar', { fg = '#00FF00' })
+lua vim.api.nvim_set_hl(0, 'IndentBlanklineSpaceChar', { fg = '#af6000'})
  
  
  highlight IndentBlanklineSpaceChar guifg=#00FF00 gui=nocombine

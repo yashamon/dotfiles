@@ -62,7 +62,7 @@
  C:/Users/yasha/dotfiles/config/nvimnew/lua/set.lua:62:: opt.spell = true
  C:/Users/yasha/dotfiles/config/nvimnew/lua/set.lua:63::    highlights
  C:/Users/yasha/dotfiles/config/nvimnew/lua/set.lua:64:: 
- C:/Users/yasha/dotfiles/config/nvimnew/lua/set.lua:65:: lua vim.api.nvim_set_hl(0, 'IndentBlanklineSpaceChar', { fg = '#00FF00' )
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/set.lua:65:: lua vim.api.nvim_set_hl(0, 'IndentBlanklineSpaceChar', { fg = '#af6000')
  C:/Users/yasha/dotfiles/config/nvimnew/lua/set.lua:66::  
  C:/Users/yasha/dotfiles/config/nvimnew/lua/set.lua:67::  
  C:/Users/yasha/dotfiles/config/nvimnew/lua/set.lua:68::  highlight IndentBlanklineSpaceChar guifg=#00FF00 gui=nocombine
