@@ -124,8 +124,6 @@ au TextYankPost * call neoyank#_append()
 "
 " terminal stuff 
 
-
-
 " Bash like keys for the command line
 cnoremap <C-A>      <Home>
 cnoremap <C-E>      <End>
