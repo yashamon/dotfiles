@@ -3,7 +3,7 @@ let s:plug_dir = expand('/tmp/plugged/vim-plug')" if !filereadable(s:plug_dir ..
 " end
 
 call plug#begin(s:plug_dir)
-"Plug 'nvim-telescope/telescope-fzf-native.nvim', { 'do': 'make' } asdf
+"Plug 'nvim-telescope/telescope-fzf-native.nvim', { 'do': 'make' } 
 Plug 'folke/todo-comments.nvim', { 'branch': 'main' }
 Plug 'lewis6991/gitsigns.nvim', { 'branch': 'main' }
 " Plug 'folke/noice.nvim', { 'branch': 'main' }
@@ -29,7 +29,7 @@ Plug 'nvim-lualine/lualine.nvim'
 Plug 'justinhoward/fzf-neoyank'
 Plug 'folke/tokyonight.nvim', { 'branch': 'main' }
 Plug 'ellisonleao/gruvbox.nvim', { 'branch': 'main' }
-" Plug 'eddyekofo94/gruvbox-flat.nvim'
+" Plug 'eddyekofo94/gruvbox-flat.nvim' test
 Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}  
 Plug 'Shougo/neoyank.vim' 
 Plug 'Shougo/denite.nvim', { 'do': ':UpdateRemotePlugins' } 

@@ -3,7 +3,7 @@
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:3:: " end
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:4:: 
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:5:: call plug#begin(s:plug_dir)
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:6:: "Plug 'nvim telescope/telescope fzf native.nvim', { 'do': 'make'  asdf
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:6:: "Plug 'nvim telescope/telescope fzf native.nvim', { 'do': 'make'  
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:7:: Plug 'folke/todo comments.nvim', { 'branch': 'main' 
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:8:: Plug 'lewis6991/gitsigns.nvim', { 'branch': 'main' 
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:9:: " Plug 'folke/noice.nvim', { 'branch': 'main' 
@@ -29,7 +29,7 @@
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:29:: Plug 'justinhoward/fzf neoyank'
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:30:: Plug 'folke/tokyonight.nvim', { 'branch': 'main' 
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:31:: Plug 'ellisonleao/gruvbox.nvim', { 'branch': 'main' 
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:32:: " Plug 'eddyekofo94/gruvbox flat.nvim'
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:32:: " Plug 'eddyekofo94/gruvbox flat.nvim' test
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:33:: Plug 'nvim treesitter/nvim treesitter', {'do': ':TSUpdate'  
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:34:: Plug 'Shougo/neoyank.vim' 
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:35:: Plug 'Shougo/denite.nvim', { 'do': ':UpdateRemotePlugins'  
