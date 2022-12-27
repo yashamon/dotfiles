@@ -402,7 +402,7 @@
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:402::    set guifont=JetBrains  Mono:h18
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:403:: end
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:404:: nnoremap <C c> :set hlsearch!<cr>
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:405:: xnoremap <silent> <cr> "*y:silent! let searchTerm = ' V'.substitute(escape(@*, ' /'), " n", '  n', "g") <bar> let @/ = searchTerm <bar> echo '/'.@/ <bar> call histadd("search", searchTerm) <bar> set hls<cr>
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:405:: xnoremap <silent> <cr> "*y:silent! let searchTerm = ' V'.substitute(escape(@*, ' /'), " n", '  n', "g") <bar> let @/ = searchTerm <bar> echo '/'.@/ <bar> call histadd("search", searchTerm) <bar> set hls<cr><cr>
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:406:: inoremap <m d> <C w>
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:407:: 
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:408:: "  1 for jumping backwards.

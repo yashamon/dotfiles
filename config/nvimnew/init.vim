@@ -402,7 +402,7 @@ elseif exists('g:neovide')
    set guifont=JetBrains\ Mono:h18
 end
 nnoremap <C-c> :set hlsearch!<cr>
-xnoremap <silent> <cr> "*y:silent! let searchTerm = '\V'.substitute(escape(@*, '\/'), "\n", '\\n', "g") <bar> let @/ = searchTerm <bar> echo '/'.@/ <bar> call histadd("search", searchTerm) <bar> set hls<cr>
+xnoremap <silent> <cr> "*y:silent! let searchTerm = '\V'.substitute(escape(@*, '\/'), "\n", '\\n', "g") <bar> let @/ = searchTerm <bar> echo '/'.@/ <bar> call histadd("search", searchTerm) <bar> set hls<cr><cr>
 inoremap <m-d> <C-w>
 
 " -1 for jumping backwards.
