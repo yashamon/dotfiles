@@ -55,10 +55,10 @@ CG = function ()
    IdSentence = vim.fn.jobstart({"nu", "C:/Users/yasha/dotfiles/scripts/sentence.nu", filename})
    vim.fn.jobwait({IdSentence})
    local commandsentence = "lg " .. "@s_" .. filenameshort
-   vim.cmd(commandsentence)
+   -- vim.cmd(commandsentence)
    vim.fn.jobwait({Idline})
    local commandline = "lg " .. "@l_" .. filenameshort
-   vim.cmd(commandline)
+   -- vim.cmd(commandline)
 end
 
 GitAsync = function ()
