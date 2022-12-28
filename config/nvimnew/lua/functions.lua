@@ -67,7 +67,6 @@ CGSentence = function ()
    IdSentence = vim.fn.jobstart({"nu", "C:/Users/yasha/dotfiles/scripts/sentence.nu", filename})
    vim.fn.jobwait({IdSentence})
    local commandsentence = "lg " .. "/tmp/@s_" .. filenameshort
-	 print(commandsentence)
    vim.cmd(commandsentence)
 end
 CG = function ()
@@ -77,7 +76,6 @@ CG = function ()
    IdSentence = vim.fn.jobstart({"nu", "C:/Users/yasha/dotfiles/scripts/sentence.nu", filename})
    vim.fn.jobwait({IdSentence})
    local commandsentence = "lg " .. "/tmp/@s_" .. filenameshort
-	 print(commandsentence)
    vim.cmd(commandsentence)
    vim.fn.jobwait({Idline})
    local commandline = "lg " .. "/tmp/@l_" .. filenameshort
