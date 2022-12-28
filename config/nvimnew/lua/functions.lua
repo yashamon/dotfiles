@@ -48,16 +48,20 @@ Sentence = function ()
    -- end 
    -- Wait()
 end
+local Getname = function(file)
+      return file:match("[^/]*.*$")
+end
 CG = function ()
    local filenameshort = vim.fn.substitute(vim.fn.expand('%'), "\\", "/", "g")
    local filename = vim.fn.substitute(vim.fn.expand('%:p'), "\\", "/", "g")
    Idline = vim.fn.jobstart({"nu", "C:/Users/yasha/dotfiles/scripts/Line.nu", filename})
    IdSentence = vim.fn.jobstart({"nu", "C:/Users/yasha/dotfiles/scripts/sentence.nu", filename})
    vim.fn.jobwait({IdSentence})
-   local commandsentence = "lg " .. "/tmp/@s_" .. filenameshort
+   local commandsentence = "lg " .. "/tmp/@s_" .. vim.fn.bufname()
+   print(commandsentence)
    vim.cmd(commandsentence)
    vim.fn.jobwait({Idline})
-   local commandline = "lg " .. "/tmp/@l_" .. filenameshort
+   local commandline = "lg " .. "/tmp/@l_" .. vim.fn.bufname()
    vim.cmd(commandline)
 end
 
