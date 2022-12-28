@@ -49,12 +49,29 @@ Sentence = function ()
    -- Wait()
 end
 --This function finds the filename when given a complete path
-function GetFilename(path)
+local getFilename = function(path)
     local start, finish = path:find('[%w%s!-={-|]+[_%.].+')
     return path:sub(start,#path)
 end
+CGLine = function ()
+   local filenameshort = getFilename(vim.fn.bufname())
+   local filename = vim.fn.substitute(vim.fn.expand('%:p'), "\\", "/", "g")
+   Idline = vim.fn.jobstart({"nu", "C:/Users/yasha/dotfiles/scripts/Line.nu", filename})
+   vim.fn.jobwait({Idline})
+   local commandline = "lg " .. "/tmp/@l_" .. filenameshort
+vim.cmd(commandline)
+end
+CGSentence = function ()
+   local filenameshort = getFilename(vim.fn.bufname())
+   local filename = vim.fn.substitute(vim.fn.expand('%:p'), "\\", "/", "g")
+   IdSentence = vim.fn.jobstart({"nu", "C:/Users/yasha/dotfiles/scripts/sentence.nu", filename})
+   vim.fn.jobwait({IdSentence})
+   local commandsentence = "lg " .. "/tmp/@s_" .. filenameshort
+	 print(commandsentence)
+   vim.cmd(commandsentence)
+end
 CG = function ()
-   local filenameshort = GetFilename(vim.fn.bufname())
+   local filenameshort = getFilename(vim.fn.bufname())
    local filename = vim.fn.substitute(vim.fn.expand('%:p'), "\\", "/", "g")
    Idline = vim.fn.jobstart({"nu", "C:/Users/yasha/dotfiles/scripts/Line.nu", filename})
    IdSentence = vim.fn.jobstart({"nu", "C:/Users/yasha/dotfiles/scripts/sentence.nu", filename})
