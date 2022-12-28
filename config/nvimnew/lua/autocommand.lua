@@ -11,11 +11,11 @@ autocmd(
     {
       callback = function()
         vim.fn.timer_stop(timer)
-        timer = vim.fn.timer_start(200, do_complete)
+        timer = vim.fn.timer_start(150, do_complete)
       end,
       pattern = "*",
     }
-)
+) 
 autocmd('FocusLost', { pattern = '*', command = 'silent! wa' })
 autocmd('VIMEnter',  { pattern = '*', command = 'let g:buffmain=bufname()' })
 autocmd('FileType', { pattern = 'tex', command = 'vim.opt.iskeyword:append{":"}'})
@@ -26,7 +26,7 @@ au('FileType', {pattern = 'tex,text,md', command = 'vim.opt.indentexpr=""'})
 au('FileType', {pattern = 'vim', command = 'set list'})
 au('FileType', {pattern = 'tex', command = 'vim.opt.wrapmargin=0'})
 au('BufWritePost', { callback = function() GitAsync() end })
-au('UIEnter', {pattern = 'tex,lua,vim', callback = function() CG() end })
+au('BufReadPost, FileReadPost', {pattern = 'tex,lua,vim', callback = function() CG() end })
 au('FileType', { pattern = 'tex', command = 'vmap q xi<CR><CR><CR><CR><ESC>kki/begin{comment}<cr><cr>/end{comment}<esc>kp'})
 local yankGrp = ag("YankHighlight", { clear = true })
 au("TextYankPost", {
