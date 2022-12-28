@@ -96,8 +96,7 @@ autocmd TermClose * if v:event.status ==1 || v:event.status ==0  | exe 'bdelete!
 "remember cursor location
 autocmd BufReadPost * if @% !~# '\.git[\/\\]COMMIT_EDITMSG$' && line("'\"") > 1 && line("'\"") <= line("$") | exe "normal! g`\"" | endif
 
-"maps remaps mappings  test
-" terminal stuff 
+"maps remaps mappings  test terminal stuff 
 
 " Bash like keys for the command line
 cnoremap <C-A>      <Home>
@@ -200,7 +199,6 @@ inoremap <m-p> <c-r>+
 noremap d "_d
 noremap cg "_cgn
 nnoremap dd "_dd
-noremap c "_c
 noremap c "_c
 noremap s "_s
 noremap C "_C
