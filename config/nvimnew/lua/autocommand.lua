@@ -1,14 +1,15 @@
 local au = vim.api.nvim_create_autocmd
 local ag = vim.api.nvim_create_augroup
 local autocmd = vim.api.nvim_create_autocmd
-autocmd(
-    { "UIEnter"},
-    {
-      callback = function() CG()
-			end,
-      pattern = "markdown, txt",
-    }
-)
+local opt = vim.opt
+-- autocmd(
+--     { "UIEnter"},
+--     {
+--       callback = function() CG()
+-- 			end,
+--       pattern = "markdown, txt",
+--     }
+-- )
 local timer = 0
 local function do_complete()
 	require('cmp').complete({ reason = require('cmp').ContextReason.Auto })
@@ -25,13 +26,13 @@ autocmd(
 )
 autocmd('FocusLost', { pattern = '*', command = 'silent! wa' })
 autocmd('VIMEnter',  { pattern = '*', command = 'let g:buffmain=bufname()' })
-autocmd('FileType tex', { pattern = '*', command = 'vim.opt.iskeyword:append {":"}'})
-autocmd('Filetype tex,text,md', {command =  'vim.opt.tw=60'})
-autocmd('BufReadPost, FileReadPost', {command = 'normal zR'})
+-- autocmd('FileType tex', { pattern = '*', command = 'vim.opt.iskeyword:append {":"}'})
+-- autocmd('Filetype tex,text,md', {command =  'vim.opt.tw=60'})
+-- autocmd('BufReadPost, FileReadPost', {command = 'normal zR'})
 au('FileType tex,text', {command = 'set spelllang=en_us'})
-au('FileType tex,text,md', {command = 'opt.vim.indentexpr=""'})
-au('FileType vim', {command = 'opt.vim.list = true'})
-au('Filetype tex', {command = 'opt.vim.wrapmargin=0'})
+au('FileType tex,text,md', {command = 'vim.opt.indentexpr=""'})
+au('FileType vim', {command = 'vim.opt.list = true'})
+au('Filetype tex', {command = 'vim.opt.wrapmargin=0'})
 au('BufWritePost', { callback = function() GitAsync() end })
 au('Filetype tex', { command = 'vmap q xi<CR><CR><CR><CR><ESC>kki/begin{comment}<cr><cr>/end{comment}<esc>kp'})
 local yankGrp = ag("YankHighlight", { clear = true })
