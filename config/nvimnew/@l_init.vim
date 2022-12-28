@@ -95,7 +95,7 @@
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:95:: autocmd TermClose * if v:event.status ==1 || v:event.status ==0  | exe 'bdelete! '..expand('<abuf>') | endif
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:96:: 
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:97:: "remember cursor location
- C:/Users/yasha/dotfiles/config/nvimnew/init.vim:98:: autocmd BufReadPost * if @ !~# ' .git[ /   COMMIT_EDITMSG ' && line("' "") > 1 && line("' "") <= line(" ") | exe "normal! g` "" | endif
+ C:/Users/yasha/dotfiles/config/nvimnew/init.vim:98:: " autocmd BufReadPost * if @ !~# ' .git[ /   COMMIT_EDITMSG ' && line("' "") > 1 && line("' "") <= line(" ") | exe "normal! g` "" | endif
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:99:: 
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:100:: " au VIMEnter * let g:buffmain=bufname()
  C:/Users/yasha/dotfiles/config/nvimnew/init.vim:101:: au FileType tex setlocal iskeyword+=:
