@@ -51,6 +51,8 @@ opt.tags:append {home .. "/workspacemodules/tags", "./tags"}
 -- Set colorscheme
 vim.cmd.colorscheme('gruvbox')
 vim.cmd [[set shortmess+=c]]
+vim.cmd [[set shortmess+=c]]
+vim.cmd [[set shortmess-=F]]
 vim.cmd [[let g:firenvim_config = { 
     \ 'globalSettings': {
         \ 'alt': 'all',
