@@ -51,6 +51,20 @@ opt.tags:append {home .. "/workspacemodules/tags", "./tags"}
 -- Set colorscheme
 vim.cmd.colorscheme('gruvbox')
 vim.cmd [[set shortmess+=c]]
+vim.cmd [[let g:firenvim_config = { 
+    \ 'globalSettings': {
+        \ 'alt': 'all',
+    \  },
+    \ 'localSettings': {
+        \ '.*': {
+            \ 'cmdline': 'neovim',
+            \ 'content': 'text',
+            \ 'priority': 0,
+            \ 'selector': 'textarea',
+            \ 'takeover': 'never',
+        \ },
+    \ }
+\ }]]
 vim.cmd [[let g:neovide_fullscreen=v:true]]
 vim.cmd [[let g:neovide_floating_blur_amount_x = 3.0]]
 vim.cmd [[let g:neovide_floating_blur_amount_y = 3.0]]
