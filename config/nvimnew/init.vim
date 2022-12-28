@@ -89,29 +89,14 @@ function! OnUIEnter(event)
 	endif
 endfunction
 autocmd UIEnter * call OnUIEnter(deepcopy(v:event))
-autocmd ColorScheme * lua vim.api.nvim_set_hl(0, 'LeapMatch', { fg = "black" })
-
+" autocmd ColorScheme * lua vim.api.nvim_set_hl(0, 'LeapMatch', { fg = "black" })
 
 autocmd TermClose * if v:event.status ==1 || v:event.status ==0  | exe 'bdelete! '..expand('<abuf>') | endif
 
 "remember cursor location
-" autocmd BufReadPost * if @% !~# '\.git[\/\\]COMMIT_EDITMSG$' && line("'\"") > 1 && line("'\"") <= line("$") | exe "normal! g`\"" | endif
+autocmd BufReadPost * if @% !~# '\.git[\/\\]COMMIT_EDITMSG$' && line("'\"") > 1 && line("'\"") <= line("$") | exe "normal! g`\"" | endif
 
-" au VIMEnter * let g:buffmain=bufname()
-au FileType tex setlocal iskeyword+=:
-" au Filetype tex,text,md set tw=60
-" autocmd BufReadPost,FileReadPost * normal zR
-" au FileType Makefile set noexpandtab
-" au FileType tex,text set spelllang=en_us
-" au FileType tex,text,md set indentexpr=
-" au FileType vim set list
-" autocmd Filetype tex setlocal wrapmargin=0
-" autocmd BufWritePost * lua GitAsync()
-" au Filetype tex vmap q xi<CR><CR><CR><CR><ESC>kki/begin{comment}<cr><cr>/end{comment}<esc>kp  
-" au TextYankPost * lua vim.highlight.on_yank {higroup="IncSearch", timeout=150, on_visual=true}
-" au TextYankPost * call neoyank#_append()
 "maps remaps mappings  test
-"
 " terminal stuff 
 
 " Bash like keys for the command line

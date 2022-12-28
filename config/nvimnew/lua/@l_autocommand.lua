@@ -23,7 +23,7 @@
  C:/Users/yasha/dotfiles/config/nvimnew/lua/autocommand.lua:23:: autocmd('BufReadPost, FileReadPost', {command = 'normal zR')
  C:/Users/yasha/dotfiles/config/nvimnew/lua/autocommand.lua:24:: au('FileType', {pattern = 'tex,text', command = 'set spelllang=en_us')
  C:/Users/yasha/dotfiles/config/nvimnew/lua/autocommand.lua:25:: au('FileType', {pattern = 'tex,text,md', command = 'vim.opt.indentexpr=""')
- C:/Users/yasha/dotfiles/config/nvimnew/lua/autocommand.lua:26:: au('FileType', {pattern = 'vim', command = 'vim.opt.list=true')
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/autocommand.lua:26::    au('FileType', {pattern = 'vim', command = 'vim.opt.list=true')
  C:/Users/yasha/dotfiles/config/nvimnew/lua/autocommand.lua:27:: au('FileType', {pattern = 'tex', command = 'vim.opt.wrapmargin=0')
  C:/Users/yasha/dotfiles/config/nvimnew/lua/autocommand.lua:28:: au('BufWritePost', { callback = function() GitAsync() end )
  C:/Users/yasha/dotfiles/config/nvimnew/lua/autocommand.lua:29:: au('FileType', {pattern = 'tex, lua, vim', callback = function() CG() end )
