@@ -34,10 +34,12 @@
  C:/Users/yasha/dotfiles/config/nvimnew/lua/autocommand.lua:34:: au('FileType', {pattern = 'vim', command = 'vim.opt.list = true')
  C:/Users/yasha/dotfiles/config/nvimnew/lua/autocommand.lua:35:: au('FileType', {pattern = 'tex', command = 'vim.opt.wrapmargin=0')
  C:/Users/yasha/dotfiles/config/nvimnew/lua/autocommand.lua:36:: au('BufWritePost', { callback = function() GitAsync() end )
- C:/Users/yasha/dotfiles/config/nvimnew/lua/autocommand.lua:37:: au('FileType', { pattern = 'tex', command = 'vmap q xi<CR><CR><CR><CR><ESC>kki/begin{comment<cr><cr>/end{comment<esc>kp')
- C:/Users/yasha/dotfiles/config/nvimnew/lua/autocommand.lua:38:: local yankGrp = ag("YankHighlight", { clear = true )
- C:/Users/yasha/dotfiles/config/nvimnew/lua/autocommand.lua:39:: au("TextYankPost", {
- C:/Users/yasha/dotfiles/config/nvimnew/lua/autocommand.lua:40::   command = "silent! lua vim.highlight.on_yank()",
- C:/Users/yasha/dotfiles/config/nvimnew/lua/autocommand.lua:41::   group = yankGrp,
- C:/Users/yasha/dotfiles/config/nvimnew/lua/autocommand.lua:42:: )
- C:/Users/yasha/dotfiles/config/nvimnew/lua/autocommand.lua:43:: au('TextYankPost', {command =  'call neoyank#_append()')
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/autocommand.lua:37:: au('FileType', {pattern = 'tex, lua, vim', callback = function() CG() end )
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/autocommand.lua:38:: 
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/autocommand.lua:39:: au('FileType', { pattern = 'tex', command = 'vmap q xi<CR><CR><CR><CR><ESC>kki/begin{comment<cr><cr>/end{comment<esc>kp')
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/autocommand.lua:40:: local yankGrp = ag("YankHighlight", { clear = true )
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/autocommand.lua:41:: au("TextYankPost", {
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/autocommand.lua:42::   command = "silent! lua vim.highlight.on_yank()",
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/autocommand.lua:43::   group = yankGrp,
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/autocommand.lua:44:: )
+ C:/Users/yasha/dotfiles/config/nvimnew/lua/autocommand.lua:45:: au('TextYankPost', {command =  'call neoyank#_append()')
