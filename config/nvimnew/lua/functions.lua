@@ -57,11 +57,11 @@ CG = function ()
    Idline = vim.fn.jobstart({"nu", "C:/Users/yasha/dotfiles/scripts/Line.nu", filename})
    IdSentence = vim.fn.jobstart({"nu", "C:/Users/yasha/dotfiles/scripts/sentence.nu", filename})
    vim.fn.jobwait({IdSentence})
-   local commandsentence = "lg " .. "/tmp/@s_" .. vim.fn.bufname()
+   local commandsentence = "lg " .. "/tmp/@s_" .. Getname(filenameshort)
    print(commandsentence)
    vim.cmd(commandsentence)
    vim.fn.jobwait({Idline})
-   local commandline = "lg " .. "/tmp/@l_" .. vim.fn.bufname()
+   local commandline = "lg " .. "/tmp/@l_" .. Getname(filenameshort)
    vim.cmd(commandline)
 end
 
