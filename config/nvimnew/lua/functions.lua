@@ -49,7 +49,7 @@ Sentence = function ()
    -- Wait()
 end
 local Getname = function(file)
-      return file:match("[^/]*.*$")
+  return file:match("^.+/(.+)$")
 end
 CG = function ()
    local filenameshort = vim.fn.substitute(vim.fn.expand('%'), "\\", "/", "g")
