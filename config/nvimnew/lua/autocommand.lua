@@ -26,7 +26,7 @@ au('FileType', {pattern = 'tex,text,md', command = 'vim.opt.indentexpr=""'})
 au('FileType', {pattern = 'vim', command = 'set list'})
 au('FileType', {pattern = 'tex', command = 'vim.opt.wrapmargin=0'})
 au('BufWritePost', { callback = function() GitAsync() end })
-au('BufReadPost, FileReadPost', {pattern = 'tex,lua,vim', callback = function() CG() end })
+au('BufReadPost, FileReadPost', {pattern = 'tex,lua,vim', callback = CG })
 au('FileType', { pattern = 'tex', command = 'vmap q xi<CR><CR><CR><CR><ESC>kki/begin{comment}<cr><cr>/end{comment}<esc>kp'})
 local yankGrp = ag("YankHighlight", { clear = true })
 au("TextYankPost", {
