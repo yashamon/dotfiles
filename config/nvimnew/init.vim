@@ -2,7 +2,6 @@ let s:plug_dir = expand('/tmp/plugged/vim-plug')"
 " if !filereadable(s:plug_dir .. '/plug.vim')
 "    execute printf('!curl -fLo %s/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim', s:plug_dir)
 " end
-
 call plug#begin(s:plug_dir)
 "Plug 'nvim-telescope/telescope-fzf-native.nvim', { 'do': 'make' } 
 Plug 'folke/todo-comments.nvim', { 'branch': 'main' }
@@ -53,28 +52,6 @@ require('set')
 require('autocommand')
 EOF
 
-"Neovide 
-"
-" let g:neovide_maximized=v:true
-" let g:neovide_fullscreen=v:true
-
-"General Settings, set
-
-
-let g:firenvim_config = { 
-    \ 'globalSettings': {
-        \ 'alt': 'all',
-    \  },
-    \ 'localSettings': {
-        \ '.*': {
-            \ 'cmdline': 'neovim',
-            \ 'content': 'text',
-            \ 'priority': 0,
-            \ 'selector': 'textarea',
-            \ 'takeover': 'never',
-        \ },
-    \ }
-\ }
 " Autocommands, au
  
 function! OnUIEnter(event)
@@ -96,7 +73,7 @@ autocmd TermClose * if v:event.status ==1 || v:event.status ==0  | exe 'bdelete!
 "remember cursor location
 autocmd BufReadPost * if @% !~# '\.git[\/\\]COMMIT_EDITMSG$' && line("'\"") > 1 && line("'\"") <= line("$") | exe "normal! g`\"" | endif
 
-"maps remaps mappings  test terminal stuff 
+"maps remaps mappings  
 
 " Bash like keys for the command line
 cnoremap <C-A>      <Home>
