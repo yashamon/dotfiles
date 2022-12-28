@@ -284,7 +284,6 @@ nnoremap <m-b> :lua require('telescope.builtin').buffers({layout_strategy='verti
 nnoremap <m-i> :lua require('telescope.builtin').git_bcommits({layout_strategy='vertical',layout_config={width=0.9}})<cr>
 nnoremap <m-u> :<Esc>:cg C:/Users/yasha/_vim_mru_files<cr>:copen<cr>:call feedkeys("zf")<CR>
 map <m-f> :FZF ~<CR> 
-"miscellaneous
 nnoremap <leader>gs :up<cr>:source $MYVIMRC<cr> 
 nnoremap <c-e> viwy:cclose<cr>:<c-r>+<cr><cr>
 nnoremap <c-p> :<c-r>+<cr>
@@ -292,10 +291,8 @@ nnoremap <m-l> viwy:bdelete<cr>:execute "buffer" g:buf<cr>:<c-r>+<cr><cr>
 " noremap <m-l> viwy<esc>:bp<cr>:<c-r>+<cr>
 
 " nvim-comment
-" 
-vnoremap <leader>c :'<,'>CommentToggle<cr>
+" vnoremap <leader>c :'<,'>CommentToggle<cr>
 nnoremap <leader>c :gc
-
 
 " FZF Neoyank yank     
 
