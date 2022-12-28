@@ -19,7 +19,7 @@ autocmd(
 autocmd('FocusLost', { pattern = '*', command = 'silent! wa' })
 autocmd('VIMEnter',  { pattern = '*', command = 'let g:buffmain=bufname()' })
 autocmd('FileType', { pattern = 'tex', command = 'vim.opt.iskeyword:append{":"}'})
-autocmd('FileType', {pattern = 'tex,text,md', command =  'vim.opt.tw=60'})
+autocmd('FileType', {pattern = 'tex,text,md', command = 'vim.opt.tw=60'})
 autocmd('BufReadPost, FileReadPost', {command = 'normal zR'})
 au('FileType', {pattern = 'tex,text', command = 'set spelllang=en_us'})
 au('FileType', {pattern = 'tex,text,md', command = 'vim.opt.indentexpr=""'})
