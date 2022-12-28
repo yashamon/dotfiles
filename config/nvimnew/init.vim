@@ -255,7 +255,6 @@ inoremap <D-]> <C-x><C-]>
 inoremap <C-]> <C-x><C-]>
 
 " FZF 
-let g:fzf_layout = { 'window': { 'width': 1, 'height': 1 } }
 " function! s:mybuild_quickfix_list(lines)
   " call feedkeys('\<esc>')
   " lua  Feedkey('<esc><m-c>')
@@ -271,8 +270,6 @@ let g:fzf_layout = { 'window': { 'width': 1, 'height': 1 } }
  "   \ 'ctrl-t': 'tab split',
  "   \ 'ctrl-x': 'split',
  "   \ 'ctrl-m': function('s:mybuild_quickfix_list') }
-
-let $FZF_DEFAULT_OPTS = '--bind ctrl-a:select-all'
 nnoremap <m-t> :up<cr>:BTags<cr>:call s:myquick()<cr>:lopen<cr>
 nnoremap <m-s> :up<cr>:lua Sentence()<cr>
 nnoremap S :up<cr>:lua Line()<cr>
@@ -286,16 +283,8 @@ nnoremap S :up<cr>:lua Line()<cr>
 nnoremap <m-b> :lua require('telescope.builtin').buffers({layout_strategy='vertical',layout_config={width=0.9}})<cr>
 nnoremap <m-i> :lua require('telescope.builtin').git_bcommits({layout_strategy='vertical',layout_config={width=0.9}})<cr>
 nnoremap <m-u> :<Esc>:cg C:/Users/yasha/_vim_mru_files<cr>:copen<cr>:call feedkeys("zf")<CR>
-" noremap F <Esc>:GFiles<CR>
-" map <A-e> :FZF ~<CR> test test2 test3
 map <m-f> :FZF ~<CR> 
-" map <m-f> :lua require('telescope.builtin').find_files({layout_strategy='vertical',layout_config={width=0.9}}) ~<CR> 
 "miscellaneous
-
-" nmap <leader>p :Denite neoyank -default-action=append<CR>
-
-" Latex stuff
-" 
 nnoremap <leader>gs :up<cr>:source $MYVIMRC<cr> 
 nnoremap <c-e> viwy:cclose<cr>:<c-r>+<cr><cr>
 nnoremap <c-p> :<c-r>+<cr>
