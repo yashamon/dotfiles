@@ -15,7 +15,7 @@ autocmd(
       end,
       pattern = "*",
     }
-) 
+)
 autocmd('FocusLost', { pattern = '*', command = 'silent! wa' })
 autocmd('VIMEnter',  { pattern = '*', command = 'let g:buffmain=bufname()' })
 autocmd('FileType', { pattern = 'tex', command = 'vim.opt.iskeyword:append{":"}'})
