@@ -1,4 +1,5 @@
 local opt = vim.opt
+local home = '/Users/yasha'
 local indent = 2
 vim.opt.tabstop = indent
 vim.opt.shiftwidth = indent
@@ -28,7 +29,7 @@ vim.g.mapleader=';'
 -- vim.cmd [[let g:mapleader=';']]
 opt.inccommand = 'split'
 opt.undofile = true
-opt.undodir='~/.undo'
+opt.undodir=home .. '/.undo'
 opt.undolevels=1000000
 opt.undoreload=1000000
 opt.hlsearch=false
@@ -41,7 +42,7 @@ vim.o.guicursor = 'n-v-c:block,i-ci-ve:ver25,r-cr:hor20,o:hor50,a:blinkwait700-b
 -- vim.cmd [[set shortmess+=c]]
 -- vim.cmd [[set shortmess+=c]]
 -- " set tags+=~\workspacemodules\tags
-opt.tags:append {"C:\\Users\\yasha\\workspacemodules\\tags", "./tags"}
+opt.tags:append {home .. "/workspacemodules/tags", "./tags"}
 -- opt.tags:append {".\\tags"}
 -- set tags+=~\workspacemodules\tags
 -- opt.tags:append {'/workspacemodules/tags'}
@@ -53,7 +54,6 @@ vim.cmd [[set shortmess+=c]]
 vim.cmd [[let g:neovide_fullscreen=v:true]]
 vim.cmd [[let g:neovide_floating_blur_amount_x = 3.0]]
 vim.cmd [[let g:neovide_floating_blur_amount_y = 3.0]]
-vim.cmd [[let g:neovide_fullscreen=v:true]]
 vim.cmd [[set foldexpr=nvim_treesitter#foldexpr()]]
 vim.opt.runtimepath:append(',/tmp/pluggedtest/vim-plug')
 -- opt.foldexr = 'vim.fn.nvim_treesitter#foldexpr()
@@ -62,7 +62,7 @@ vim.opt.runtimepath:append(',/tmp/pluggedtest/vim-plug')
 opt.spell = true
 -- highlights
 -- vim.cmd [[highlight IndentBlanklineChar guifg=#af6000 gui=nocombine]]
--- vim.cmd [[hi SpellBad gui=undercurl guisp=#580058 ]]
+-- vim.cmd [[hi SpellBad gui=undercurl guisp=#580058 ]] test
 -- 
 vim.api.nvim_set_hl(0, 'SpellBad', { sp = '#580058', undercurl = true })
 vim.api.nvim_set_hl(0, 'IndentBlanklineChar', { fg = '#af6000', nocombine = true })

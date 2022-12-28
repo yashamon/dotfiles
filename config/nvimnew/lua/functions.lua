@@ -69,28 +69,5 @@ vim.cmd("buffer " .. buff)
 CG()
 end
 
-local timer = 0
-  local function do_complete()
-    require('cmp').complete({ reason = require('cmp').ContextReason.Auto })
-  end
 
--- autocommands
--- vim.api.nvim_create_autocmd(
---     { "BufReadPost","FileReadPost", "FileType tex, vim, lua"},
---     {
---       callback = function() GitAsync()
--- 			end,
---       pattern = "*",
---     }
---   )
-  vim.api.nvim_create_autocmd(
-    { "TextChangedI", },
-    {
-      callback = function()
-        vim.fn.timer_stop(timer)
-        timer = vim.fn.timer_start(200, do_complete)
-      end,
-      pattern = "*",
-    }
-  )
 

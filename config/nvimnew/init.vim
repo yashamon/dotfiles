@@ -1,5 +1,6 @@
-let s:plug_dir = expand('/tmp/plugged/vim-plug')" if !filereadable(s:plug_dir .. '/plug.vim')
-"   execute printf('!curl -fLo %s/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim', s:plug_dir)
+let s:plug_dir = expand('/tmp/plugged/vim-plug')" 
+" if !filereadable(s:plug_dir .. '/plug.vim')
+"    execute printf('!curl -fLo %s/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim', s:plug_dir)
 " end
 
 call plug#begin(s:plug_dir)
@@ -49,6 +50,7 @@ require('settings')
 require('functions')
 require('keymaps')
 require('set')
+require('autocommand')
 EOF
 
 "Neovide 
@@ -73,15 +75,6 @@ let g:firenvim_config = {
         \ },
     \ }
 \ }
-"Autosave and autocommit   
-" let g:updatetime = 10000
-" let g:auto_save = 0
-" " .vimrc 
-" let g:auto_save_events = ["CursorHold"]
-" "au FileType vim let g:autosave = 0
-" let g:auto_save_in_insert_mode = 0
-" let g:auto_save_silent = 1
-"
 " Autocommands, au
  
 function! OnUIEnter(event)
@@ -98,26 +91,26 @@ endfunction
 autocmd UIEnter * call OnUIEnter(deepcopy(v:event))
 autocmd ColorScheme * lua vim.api.nvim_set_hl(0, 'LeapMatch', { fg = "black" })
 
+
+autocmd TermClose * if v:event.status ==1 || v:event.status ==0  | exe 'bdelete! '..expand('<abuf>') | endif
+
 "remember cursor location
 autocmd BufReadPost * if @% !~# '\.git[\/\\]COMMIT_EDITMSG$' && line("'\"") > 1 && line("'\"") <= line("$") | exe "normal! g`\"" | endif
 
-au VIMEnter * let g:buffmain=bufname()
-nnoremap <m-y> viwy:buffer g:buffmain<cr>:<c-r>+<cr><cr>
+" au VIMEnter * let g:buffmain=bufname()
 au FileType tex setlocal iskeyword+=:
-au Filetype tex,text,md set tw=60
-autocmd BufReadPost,FileReadPost * normal zR
-au FileType Makefile set noexpandtab
-au FileType tex,text set spelllang=en_us
-au FileType tex,text,md set indentexpr=
-au FileType vim set list
-autocmd Filetype tex setlocal wrapmargin=0
-autocmd TermClose * if v:event.status ==1 || v:event.status ==0  | exe 'bdelete! '..expand('<abuf>') | endif
-command! Ser lua Server()
-autocmd BufWritePost * lua CG()
-au Filetype tex vmap q xi<CR><CR><CR><CR><ESC>kki/begin{comment}<cr><cr>/end{comment}<esc>kp  
-au TextYankPost * lua vim.highlight.on_yank {higroup="IncSearch", timeout=150, on_visual=true}
-au TextYankPost * call neoyank#_append()
-"maps remaps mappings  
+" au Filetype tex,text,md set tw=60
+" autocmd BufReadPost,FileReadPost * normal zR
+" au FileType Makefile set noexpandtab
+" au FileType tex,text set spelllang=en_us
+" au FileType tex,text,md set indentexpr=
+" au FileType vim set list
+" autocmd Filetype tex setlocal wrapmargin=0
+" autocmd BufWritePost * lua GitAsync()
+" au Filetype tex vmap q xi<CR><CR><CR><CR><ESC>kki/begin{comment}<cr><cr>/end{comment}<esc>kp  
+" au TextYankPost * lua vim.highlight.on_yank {higroup="IncSearch", timeout=150, on_visual=true}
+" au TextYankPost * call neoyank#_append()
+"maps remaps mappings  test
 "
 " terminal stuff 
 
@@ -125,11 +118,12 @@ au TextYankPost * call neoyank#_append()
 cnoremap <C-A>      <Home>
 cnoremap <C-E>      <End>
 cnoremap <C-K>      <C-U>
+nnoremap <m-y> viwy:buffer g:buffmain<cr>:<c-r>+<cr><cr>
 
 " allow multiple indentation/deindentation in visual mode
 vnoremap < <gv
 vnoremap > >gv
-
+nnoremap <m-y> viwy:buffer g:buffmain<cr>:<c-r>+<cr><cr>
 " :cd. change working directory to that of the current file
 cmap cd. lcd %:p:h
 tnoremap <m-d> <C-\><C-n>:bdelete!<cr>
@@ -151,6 +145,7 @@ noremap <leader>c :'<,'>CommentToggle<cr>
 command! ES set spelllang=es
 " cmap ES set spelllang=es<cr>
 command! EN set spelllang=en_us
+command! Ser lua Server()
 " LSP
 command! LT LspStart ltex
 command! LTo LspStop ltex
