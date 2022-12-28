@@ -35,3 +35,4 @@ au("TextYankPost", {
   group = yankGrp,
 })
 au('TextYankPost',  {command =  'call neoyank#_append()'} )
+-- test

@@ -24,9 +24,6 @@ opt.linebreak = true
 vim.opt.formatoptions:append{"w"}
 opt.autochdir = true
 vim.g.mapleader=';'
--- vim.g.mapleader=';'
--- vim.cmd [[let mapleader=';']]
--- vim.cmd [[let g:mapleader=';']]
 opt.inccommand = 'split'
 opt.undofile = true
 opt.undodir=home .. '/.undo'
@@ -36,23 +33,11 @@ opt.hlsearch=false
 opt.cursorline=false
 opt.background='light'
 vim.o.guicursor = 'n-v-c:block,i-ci-ve:ver25,r-cr:hor20,o:hor50,a:blinkwait700-blinkoff400-blinkon250-Cursor/lCursor,sm:block-blinkwait175-blinkoff150-blinkon175'
--- vim.cmd [[set tags+=~/workspacemodules/tags]]
--- vim.cmd [[set tags+=./tags]]
--- vim.cmd [[set shortmess+=c]]
--- vim.cmd [[set shortmess+=c]]
--- vim.cmd [[set shortmess+=c]]
--- " set tags+=~\workspacemodules\tags
 opt.tags:append {home .. "/workspacemodules/tags", "./tags"}
--- opt.tags:append {".\\tags"}
--- set tags+=~\workspacemodules\tags
--- opt.tags:append {'/workspacemodules/tags'}
--- set tags+=.\tags
--- set tags+=./tags
 -- Set colorscheme
 vim.cmd.colorscheme('gruvbox')
 vim.cmd [[set shortmess+=c]]
-vim.cmd [[set shortmess+=c]]
-vim.cmd [[set shortmess-=F]]
+-- vim.cmd [[set shortmess-=F]]
 vim.cmd [[let g:firenvim_config = { 
     \ 'globalSettings': {
         \ 'alt': 'all',
