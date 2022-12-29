@@ -3,7 +3,8 @@
    "neovim mapping": {
     "prefix": "nmap",
     "body": [
-        "map('${1:key}', '${2:action}', {$3}) $0" 
+        "map('${1:key}', '${2:action}', {$3})",
+				"$0"
        ],
     "description": "opname"
 }
