@@ -2,6 +2,7 @@ local opt = vim.opt
 local home = '/Users/yasha'
 local indent = 2
 local g = vim.g
+local fn = vim.fn
 vim.opt.tabstop = indent
 vim.opt.shiftwidth = indent
 vim.opt.softtabstop = indent
@@ -61,14 +62,14 @@ vim.cmd [[let $FZF_DEFAULT_OPTS = '--bind ctrl-a:select-all'
 -- vim.cmd [[let g:neovide_profiler = v:true]]
 g.neovide_fullscreen = true
 -- vim.cmd [[let g:neovide_refresh_rate = 120]]
-vim.cmd [[let g:neovide_floating_blur_amount_x = 3.0]]
-vim.cmd [[let g:neovide_floating_blur_amount_y = 3.0]]
-vim.cmd [[set foldexpr=nvim_treesitter#foldexpr()]]
-vim.opt.runtimepath:append(',/tmp/pluggedtest/vim-plug')
+g.neovide_floating_blur_amount_x = 3.0
+g.neovide_floating_blur_amount_y = 3.0
+vim.cmd [[foldexpr = nvim_treesitter#foldexpr()]]
+opt.runtimepath:append(',/tmp/pluggedtest/vim-plug')
+opt.spell = true
+
 -- opt.foldexr = 'vim.fn.nvim_treesitter#foldexpr()
 -- opt.guicursor = n-v-c:block,i-ci-ve:ver25,r-cr:hor20,o:hor50,a:blinkwait700-blinkoff400-blinkon250-Cursor/lCursor,sm:block-blinkwait175-blinkoff150-blinkon175 
---
-opt.spell = true
 -- highlights
 -- vim.cmd [[highlight IndentBlanklineChar guifg=#af6000 gui=nocombine]]
 -- vim.cmd [[hi SpellBad gui=undercurl guisp=#580058 ]] test
