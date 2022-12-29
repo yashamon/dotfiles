@@ -15,5 +15,6 @@ map({'i','n'}, '<m-t>', function ()  vim.cmd('up')
 -- end
 --    -- Wait()
 end, { buffer=true })
-command('SA', 'saveas <q-args>', { nargs=1 })
+command('SA', 'saveas <q-args>', { nargs = 1 })
+-- vim.api.nvim_create_user_command('SA', 'saveas <q-args>', { nargs = 1 })
 
