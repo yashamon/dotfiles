@@ -15,5 +15,5 @@ map({'i','n'}, '<m-t>', function ()  vim.cmd('up')
 -- end
 --    -- Wait()
 end, { buffer=true })
-command('Sa', 'saveas <q-args>', { nargs=1 })
+command('SA', 'saveas <q-args>', { nargs=1 })
 
