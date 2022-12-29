@@ -52,6 +52,7 @@ require('set')
 require('au')
 EOF
 
+" Autocommands, au
  
 function! OnUIEnter(event)
 	let l:ui = nvim_get_chan_info(a:event.chan)
@@ -64,6 +65,13 @@ function! OnUIEnter(event)
 		endif
 	endif
 endfunction
+" autocmd UIEnter * call OnUIEnter(deepcopy(v:event))
+" autocmd ColorScheme * lua vim.api.nvim_set_hl(0, 'LeapMatch', { fg = "black" })
+
+" autocmd TermClose * if v:event.status ==1 || v:event.status ==0  | exe 'bdelete! '..expand('<abuf>') | endif
+
+"remember cursor location
+autocmd BufReadPost * if @% !~# '\.git[\/\\]COMMIT_EDITMSG$' && line("'\"") > 1 && line("'\"") <= line("$") | exe "normal! g`\"" | endif
 
 "maps remaps mappings  
 
