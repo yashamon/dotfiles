@@ -17,3 +17,5 @@ map({'i','n'}, '<m-t>', function ()  vim.cmd('up')
 end, { buffer=true })
 command('Sa', function(file) vim.cmd('saveas ' .. file.arg) end, { nargs=1 })
 command('Sao', function(file) vim.cmd('saveas! ' .. file.args) end, { nargs=1 })
+command('Keymap', 'lua require('telescope.builtin').keymaps({layout_strategy='vertical',layout_config={width=0.9}})', {})
+
