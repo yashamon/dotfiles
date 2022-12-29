@@ -334,12 +334,13 @@ nnoremap o o<space><esc>"_s
 " inoremap <cr> <esc>$a<cr><space><esc>"_s
 " inoremap <m-cr> <cr><space><esc>"_s
 let g:neovide_fullscreen=v:true
-if exists('g:gonvim_running')
- set guifont = JetBrains\ Mono:h18
-"goneovim specific stuff
-elseif exists('g:neovide')
-   set guifont=JetBrains\ Mono:h18
-end
+set guifont = JetBrains\ Mono:h18
+" if exists('g:gonvim_running')
+" set guifont = JetBrains\ Mono:h18
+" "goneovim specific stuff
+" elseif exists('g:neovide')
+"    set guifont=JetBrains\ Mono:h18
+" end
 nnoremap <C-c> :set hlsearch!<cr>
 xnoremap <silent> <cr> "*y:silent! let searchTerm = '\V'.substitute(escape(@*, '\/'), "\n", '\\n', "g") <bar> let @/ = searchTerm <bar> echo '/'.@/ <bar> call histadd("search", searchTerm) <bar> set hls<cr><cr>
 inoremap <m-d> <C-w>

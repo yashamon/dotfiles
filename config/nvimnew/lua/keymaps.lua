@@ -16,7 +16,8 @@ map({'i','n'}, '<m-t>', function ()  vim.cmd('up')
 -- end
 --    -- Wait()
 end, { buffer=true })
-	map('<m-b>', 'lua require('telescope.builtin').find_files({layout_strategy='vertical',layout_config={width=0.9}})', {})
+
+-- map('<m-b>', 'lua require('telescope.builtin').find_files({layout_strategy='vertical',layout_config={width=0.9}})', {})
 
 -- commands
 command('Sa', function(file) vim.cmd('saveas ' .. file.arg) end, { nargs=1 })
