@@ -1,6 +1,7 @@
 local opt = vim.opt
 local home = '/Users/yasha'
 local indent = 2
+local g = vim.g
 vim.opt.tabstop = indent
 vim.opt.shiftwidth = indent
 vim.opt.softtabstop = indent
@@ -23,7 +24,7 @@ opt.foldmethod='expr'
 opt.linebreak = true
 vim.opt.formatoptions:append{"w"}
 opt.autochdir = true
-vim.g.mapleader=';'
+g.mapleader=';'
 opt.inccommand = 'split'
 opt.undofile = true
 opt.undodir=home .. '/.undo'
