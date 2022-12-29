@@ -56,7 +56,9 @@ vim.cmd [[let g:fzf_layout = { 'window': { 'width': 1, 'height': 1 } }
 ]]
 vim.cmd [[let $FZF_DEFAULT_OPTS = '--bind ctrl-a:select-all'
 ]]
+--neovide
 vim.cmd [[let g:neovide_fullscreen=v:true]]
+vim.cmd [[let g:neovide_refresh_rate = 120]]
 vim.cmd [[let g:neovide_floating_blur_amount_x = 3.0]]
 vim.cmd [[let g:neovide_floating_blur_amount_y = 3.0]]
 vim.cmd [[set foldexpr=nvim_treesitter#foldexpr()]]
