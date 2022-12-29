@@ -5,7 +5,7 @@ let s:plug_dir = expand('/tmp/plugged/vim-plug')"
 call plug#begin(s:plug_dir)
 Plug 'nvim-telescope/telescope-fzf-native.nvim', { 'branch': 'main', 'do': 'make' } 
 Plug 'folke/todo-comments.nvim', { 'branch': 'main' }
-" Plug 'lewis6991/gitsigns.nvim', { 'branch': 'main' } 
+" Plug 'lewis6991/gitsigns.nvim', { 'branch': 'main' }
 " Plug 'folke/noice.nvim', { 'branch': 'main' }
 Plug 'L3MON4D3/LuaSnip'
 Plug 'saadparwaiz1/cmp_luasnip'
@@ -333,7 +333,6 @@ nnoremap o o<space><esc>"_s
 " map cr
 " inoremap <cr> <esc>$a<cr><space><esc>"_s
 " inoremap <m-cr> <cr><space><esc>"_s
-set guifont = JetBrains\ Mono:h18
 " if exists('g:gonvim_running')
 " set guifont = JetBrains\ Mono:h18
 " "goneovim specific stuff
