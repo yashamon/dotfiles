@@ -15,6 +15,5 @@ map({'i','n'}, '<m-t>', function ()  vim.cmd('up')
 -- end
 --    -- Wait()
 end, { buffer=true })
-command('SA', 'saveas <f-args>', { nargs=1 })
-vim.api.nvim_create_user_command('Upper', 'echo toupper(<q-args>)', { nargs = 1 })
+command('SA', 'function(file) saveas file end', { nargs=1 })
 
