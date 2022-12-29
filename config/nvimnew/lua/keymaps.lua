@@ -1,5 +1,6 @@
 local map = vim.keymap.set
 local command = vim.api.nvim_create_user_command
+
 map('t', '<m-p>', [[getreg('+')]], {expr = true})
 map({'i','n'}, '<m-t>', function ()  vim.cmd('up')
    vim.cmd('BTags')
