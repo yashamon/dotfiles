@@ -333,7 +333,6 @@ nnoremap o o<space><esc>"_s
 " map cr
 " inoremap <cr> <esc>$a<cr><space><esc>"_s
 " inoremap <m-cr> <cr><space><esc>"_s
-let g:neovide_fullscreen=v:true
 set guifont = JetBrains\ Mono:h18
 " if exists('g:gonvim_running')
 " set guifont = JetBrains\ Mono:h18
