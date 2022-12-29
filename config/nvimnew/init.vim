@@ -335,7 +335,7 @@ nnoremap o o<space><esc>"_s
 " inoremap <m-cr> <cr><space><esc>"_s
 let g:neovide_fullscreen=v:true
 if exists('g:gonvim_running')
- set guifont=Fira\ Code\ Light:h18
+ set guifont = JetBrains\ Mono:h18
 "goneovim specific stuff
 elseif exists('g:neovide')
    set guifont=JetBrains\ Mono:h18
