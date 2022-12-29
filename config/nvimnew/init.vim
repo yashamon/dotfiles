@@ -3,7 +3,7 @@ let s:plug_dir = expand('/tmp/plugged/vim-plug')"
 "    execute printf('!curl -fLo %s/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim', s:plug_dir) 
 " end
 call plug#begin(s:plug_dir)
-"Plug 'nvim-telescope/telescope-fzf-native.nvim', { 'do': 'make' } 
+Plug 'nvim-telescope/telescope-fzf-native.nvim', { 'branch': 'main', 'do': 'make' } 
 Plug 'folke/todo-comments.nvim', { 'branch': 'main' }
 " Plug 'lewis6991/gitsigns.nvim', { 'branch': 'main' } 
 " Plug 'folke/noice.nvim', { 'branch': 'main' }
