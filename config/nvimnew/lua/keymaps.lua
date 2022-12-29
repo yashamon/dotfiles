@@ -1,4 +1,5 @@
 local map = vim.keymap.set
+local command = vim.api.nvim_create_user_command
 map('t', '<m-p>', [[getreg('+')]], {expr = true})
 map({'i','n'}, '<m-t>', function ()  vim.cmd('up')
    vim.cmd('BTags')
@@ -13,6 +14,6 @@ map({'i','n'}, '<m-t>', function ()  vim.cmd('up')
 --    end
 -- end
 --    -- Wait()
-   end, { buffer=true })
+end, { buffer=true })
+command('sa', 'saveas <q-args>', {{ nargs='1' }})
 
--- nnoremap <m-t> :up<cr>:BTags<cr>:call feedkeys("\<c-a>\<c-q>")<cr>:copen<cr>
