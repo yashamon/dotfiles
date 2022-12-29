@@ -90,5 +90,17 @@ vim.cmd("buffer " .. buff)
 CG()
 end
 
+--  OnUIEnter = function(event)
+-- 	local ui = nvim_get_chan_info(event.chan)
+-- 	if has_key(l:ui, 'client') and has_key(l:ui.client, 'name')
+-- 		if l:ui.client.name ==# 'Firenvim'
+-- 			set guifont=Fira\ Code:h20
+--                         set lines=100
+--                         set columns=100
+--                         noremap q <esc>:wq<cr>
+-- 		end
+-- 	end
+-- end
+
 
 
