@@ -68,16 +68,16 @@ end
 -- 	local filenameshort = getFilename(vim.fn.bufname())
 -- 	local commandline = "lg " .. "/tmp/@l_" .. filenameshort
 CGLine = function ()
-   local filenameshort = getFilename(vim.fn.bufname())
-   vim.fn.jobwait({Idline})
-   local commandline = "lg " .. "/tmp/@l_" .. filenameshort
-vim.cmd(commandline)
+	local filenameshort = getFilename(vim.fn.bufname())
+  vim.fn.jobwait({Idline})
+  local commandline = "lg " .. "/tmp/@l_" .. filenameshort
+	vim.cmd(commandline)
 end
 CGSentence = function ()
-   local filenameshort = getFilename(vim.fn.bufname())
-   vim.fn.jobwait({IdSentence})
-   local commandsentence = "lg " .. "/tmp/@s_" .. filenameshort
-   vim.cmd(commandsentence)
+  local filenameshort = getFilename(vim.fn.bufname())
+  vim.fn.jobwait({IdSentence})
+  local commandsentence = "lg " .. "/tmp/@s_" .. filenameshort
+  vim.cmd(commandsentence)
 end
 
 
@@ -86,7 +86,7 @@ Server()
 local buff = vim.fn.bufname()
 vim.cmd('te pwsh -c if ( (git rev-parse --is-inside-work-tree) -and (git rev-parse --git-dir) ) { git add . ; git commit -m -a; git push --all origin; ctags -R }')
 vim.cmd("buffer " .. buff)
-CG()
+CreateList()
 end
 
 -- OnUIEnter = function(event)
