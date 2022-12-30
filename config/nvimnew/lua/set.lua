@@ -74,6 +74,5 @@ opt.spell = true
 -- highlights
 -- vim.cmd [[highlight IndentBlanklineChar guifg=#af6000 gui=nocombine]]
 -- vim.cmd [[hi SpellBad gui=undercurl guisp=#580058 ]] test
--- 
-vim.api.nvim_set_hl(0, 'SpellBad', { sp = '#580058', undercurl = true })
+vim.api.nvim_set_hl(0, 'SpellBad', { sp = '#580058', underline = true })
 vim.api.nvim_set_hl(0, 'IndentBlanklineChar', { fg = '#af6000', nocombine = true })
