@@ -353,7 +353,7 @@ requires = {
 sources = cmp.config.sources({
       -- For vsnip user. 
 { name = 'tags', keyword_length = 1000 },
-{ name = 'nvim_lsp', keyword_length = 3 },
+{ name = 'nvim_lsp', keyword_length = 2 },
 { name = 'luasnip', keyword_length = 2 },
 -- { name = 'omni', keyword_length = 4},
        -- { name = 'spell' }, 
