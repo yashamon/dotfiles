@@ -272,8 +272,7 @@ inoremap <C-]> <C-x><C-]>
  "   \ 'ctrl-m': function('s:mybuild_quickfix_list') }
 nnoremap <m-t> :up<cr>:BTags<cr>:call s:myquick()<cr>:lopen<cr>
 nnoremap <m-s> :up<cr>:lua Sentence()<cr>
-nnoremap S :up<cr>:lua Line()<cr>
-" Line search mapping 
+
 " function! Jumpback() 
 "   K=bufname()
 "   normal viwhy<esc>:bdelete<cr>:buffer K<c-r>+<cr>:ZenMode<cr>
