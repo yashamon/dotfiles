@@ -17,6 +17,7 @@ map({'i','n'}, '<m-t>', function ()  vim.cmd('up')
 --    -- Wait()
 end, { buffer=true })
 map('S', function() Line() end, {})
+map('<m-s>', function() Sentence() end, {})
 
 -- map('<m-b>', 'lua require('telescope.builtin').find_files({layout_strategy='vertical',layout_config={width=0.9}})', {})
 
