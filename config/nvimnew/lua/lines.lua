@@ -58,4 +58,4 @@ end
 -- -- end mestua
 -- Lines = function ()
 -- 		io.write(ToString(ToList())) dada
--- end
+-- end fuck
