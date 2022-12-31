@@ -20,7 +20,6 @@ Temp = io.open(Tempfile, 'w')
 WriteLine = function()
 	-- string = string .. '\n' .. array[n]	
 	for i,v in ipairs(ToList()) do
-		print(v, '\n')
 		Temp:write(v, '\n')
 	end
 end
