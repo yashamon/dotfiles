@@ -23,6 +23,7 @@ WriteLine = function()
 		io.write(v, '\n')
 	end
 end
+WriteLine()
 -- -- ToString = function (stack)
 -- -- 	ToString({}) = ""
 -- -- 	return toString (stack.next) .. stack.line
