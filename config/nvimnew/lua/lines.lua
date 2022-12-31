@@ -27,7 +27,8 @@ print(Newlines)
 	-- Temp = io.open(tempfile, 'w')
 	-- Temp:write(toString())
 	-- Temp:close()
-vim.fn.setloclist(0, Newlines)
+vim.fn.echo(Newlines)
+-- vim.fn.setloclist(0, Newlines)
 end
 
 
