@@ -1,5 +1,5 @@
 -- local ModuleLines = {}
-Filename = vim.fn.substitute(vim.fn.expand('%:p'), "\\", "/", "g")
+
 GetFilename = function(path)
     local start, finish = path:find('[%w%s!-={-|]+[_%.].+')
     return path:sub(start,#path)
@@ -7,11 +7,12 @@ end
 local filenameshort = GetFilename(vim.fn.bufname())
 Tempfile = 'C:\\tmp\\@l_' .. filenameshort
 ToList = function()
-	local newlines = {}
+local filename = vim.fn.substitute(vim.fn.expand('%:p'), "\\", "/", "g")
+		local newlines = {}
 	local i = 1
-	for line in io.lines(Filename) do
+	for line in io.lines(filename) do
 		-- line = line:gsub("%^a", "")
-		newlines[i] = Filename .. ":" .. i .. ": " .. line
+		newlines[i] = filename .. ":" .. i .. ": " .. line
 		i = i + 1
 	end
 	return newlines
