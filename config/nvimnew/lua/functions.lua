@@ -56,7 +56,8 @@ end
 -- end
 CreateLineList = function ()
 	require('lines').WriteLine()
-end-- CreateLineList = function ()
+end
+-- CreateLineList = function ()
 	-- local filename = vim.fn.substitute(vim.fn.expand('%:p'), "\\", "/", "g--")
  	--Idline = vim.fn.jobstart({"nu", "C:/Users/yasha/dotfiles/scripts/Line.n--u" filename})
 --end
@@ -114,7 +115,7 @@ end
 --                         noremap q <esc>:wq<cr>
 -- 		end
 -- 	end
--- end
+-- end gogu
 
 
 
