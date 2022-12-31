@@ -26,6 +26,7 @@ WriteLine = function()
 end
 io.write('blah')
 WriteLine()
+io.close('blah')
 -- -- ToString = function (stack)
 -- -- 	ToString({}) = ""
 -- -- 	return toString (stack.next) .. stack.line
