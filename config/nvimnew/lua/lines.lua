@@ -11,20 +11,30 @@ local toList = function ()
 	local i = 1
 	for line in io.lines(Filename) do
 		-- line = line:gsub("%^a", "")
-		newlines[i] = Filename .. ":" .. "i" .. " " .. line .. " \n"
+		newlines[i] = Filename .. ":" .. "i" .. " " .. line
 		i = i + 1
 	end
 	return newlines
 end
--- convert to a string and write to Tempfile
+ToString = function()
+	local string = ""
+	for i,v in ipairs(toList()) do
+		string = string .. v .. '\n'
+	end
+end
 WriteLine = function()
 	Temp = io.open(Tempfile, 'a')
-	-- string = string .. '\n' .. array[n]	
-	for i,v in ipairs(toList()) do
-		Temp:write(v, "\r\n")
-	end
+		Temp:write(ToString())
 	Temp:close()
 end
+-- convert to a string and write to Tempfile
+-- WriteLine = function()
+-- 	Temp = io.open(Tempfile, 'a')
+-- 	for i,v in ipairs(toList()) do
+-- 		Temp:write(v, "\r\n")
+-- 	end
+-- 	Temp:close()
+-- end
 -- io.write('blah')
 -- -- ToString = function (stack)
 -- -- 	ToString({}) = ""
