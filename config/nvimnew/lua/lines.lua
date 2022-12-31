@@ -10,6 +10,7 @@ ToList = function()
 local filename = vim.fn.substitute(vim.fn.expand('%:p'), "\\", "/", "g")
 	local newlines = {}
 	local i = 1
+	io.close(filename)
 	io.flush()
 	for line in io.lines(filename) do
 		-- line = line:gsub("%^a", "")
