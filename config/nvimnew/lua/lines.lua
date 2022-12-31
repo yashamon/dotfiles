@@ -9,7 +9,7 @@ Tempfile = 'C:\\tmp\\@l_' .. filenameshort
 WriteLine = function()
 ToList = function()
 local filename = vim.fn.expand('%:p')
-local Lines = vim.api.nvim_buf_get_lines(0, 1,-2, {strictindexing = false})
+local Lines = vim.api.nvim_buf_get_lines(0, 1,-1, {strictindexing = false})
 local newlines = {}
 	local i = 1
 	io.input(filename)
