@@ -20,8 +20,8 @@ ToString = function()
 	local string = ""
 	for i,v in ipairs(ToList()) do
 		string = string .. v .. '\n'
-		return string
 	end
+	return string
 end
 WriteLine = function()
 	Temp = io.open(Tempfile, 'w')
