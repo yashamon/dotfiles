@@ -4,7 +4,7 @@ GetFilename = function(path)
     return path:sub(start,#path)
 end
 local filenameshort = GetFilename(vim.fn.bufname())
-Tempfile = '\\tmp\\@l_' .. filenameshort
+Tempfile = 'C:\\tmp\\@l_' .. filenameshort
 ToList = function ()
 	local newlines = {}
 	local i = 1
@@ -20,6 +20,7 @@ io.open(Tempfile, 'w')
 WriteLine = function()
 	-- string = string .. '\n' .. array[n]	
 	for i,v in ipairs(ToList()) do
+		print(v, '\n')
 		io.write(v, '\n')
 	end
 end
