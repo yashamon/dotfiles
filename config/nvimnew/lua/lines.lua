@@ -24,7 +24,6 @@ WriteLine = function()
 	end
 end
 -- io.write('blah')
-WriteLine()
 Temp:close()
 -- -- ToString = function (stack)
 -- -- 	ToString({}) = ""
