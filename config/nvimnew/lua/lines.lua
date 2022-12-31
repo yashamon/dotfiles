@@ -17,9 +17,9 @@ local newlines = {}
 		newlines[i] = filename .. ":" .. i .. ": " .. line
 		i = i + 1
 	end	
-	return newlines
 	io.close()
-end
+	return newlines
+	end
 ToString = function()
 	local string = ""
 	for i,v in ipairs(ToList()) do
@@ -55,7 +55,7 @@ end
 -- -- 		string = 
 -- -- 	else return 
 -- -- 	end
--- -- end testu
+-- -- end mestu
 -- Lines = function ()
 -- 		io.write(ToString(ToList())) duduu
 -- end
