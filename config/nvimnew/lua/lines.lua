@@ -28,9 +28,8 @@ ToString = function()
 	end
 	return string
 end
-local string = ToString()
 Temp = io.open(Tempfile, 'w')
-Temp:write(string)
+Temp:write(ToString())
 Temp:close()
 end
 
