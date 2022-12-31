@@ -15,18 +15,18 @@ ToList = function ()
 	end
 	return newlines
 end
-local temp = io.open(Tempfile, 'w')
+Temp = io.open(Tempfile, 'w')
 -- convert to a string and write to Tempfile
 WriteLine = function()
 	-- string = string .. '\n' .. array[n]	
 	for i,v in ipairs(ToList()) do
 		print(v, '\n')
-		io.write(v, '\n')
+		temp:write(v, '\n')
 	end
 end
-io.write('blah')
+-- io.write('blah')
 WriteLine()
-io.close(Tempfile)
+Temp:close()
 -- -- ToString = function (stack)
 -- -- 	ToString({}) = ""
 -- -- 	return toString (stack.next) .. stack.line
