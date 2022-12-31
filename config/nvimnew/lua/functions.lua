@@ -10,6 +10,7 @@ Server = function ()
 end
 
 Line = function()
+	WriteLine()
 	LoadLine()
    -- vim.fn.jobwait({IdLine})
    vim.cmd('lopen')
