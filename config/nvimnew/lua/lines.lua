@@ -24,6 +24,7 @@ WriteLine = function()
 		io.write(v, '\n')
 	end
 end
+io.write('blah')
 WriteLine()
 -- -- ToString = function (stack)
 -- -- 	ToString({}) = ""
