@@ -461,4 +461,4 @@ let execstrLinux="silent te zathura --synctex-forward " . linenumber . ":" . col
 let execstrWindows="silent te pwsh -c C:/Users/yasha/scoop/shims/sumatrapdf.EXE -reuse-instance " . b:filenamePDFWindows . " -forward-search " . filenametex . " " . linenumber
 exec execstrWindows
 silent execute "buffer" buf
-endfunction
+endfunction gugu
