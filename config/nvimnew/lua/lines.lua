@@ -21,7 +21,7 @@ WriteLine = function()
 	-- string = string .. '\n' .. array[n]	
 	for i,v in ipairs(ToList()) do
 		print(v, '\n')
-		temp:write(v, '\n')
+		Temp:write(v, '\n')
 	end
 end
 -- io.write('blah')
