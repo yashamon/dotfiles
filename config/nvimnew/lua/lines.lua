@@ -19,7 +19,7 @@ io.open(Tempfile, 'w')
 -- convert to a string and write to Tempfile
 WriteLine = function()
 	-- string = string .. '\n' .. array[n]	
-	for i,v in ipairs(ToList()) do
+	for v in ipairs(ToList()) do
 		io.write(v, '\n')
 	end
 end
