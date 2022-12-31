@@ -18,7 +18,6 @@ local newlines = {}
 		i = i + 1
 	end	
 	return newlines
-	io.flush()
 end
 ToString = function()
 	local string = ""
