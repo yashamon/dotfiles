@@ -1,4 +1,4 @@
--- local ModuleLines = {} 1 2 3 4 5 6 7
+-- local ModuleLines = {} 1 2 3 4 5 6 7 8
 
 GetFilename = function(path)
     local start, finish = path:find('[%w%s!-={-|]+[_%.].+')
