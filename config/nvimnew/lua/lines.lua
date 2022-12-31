@@ -22,9 +22,9 @@ WriteLine = function()
 	for i,v in ipairs(ToList()) do
 		Temp:write(v, '\n')
 	end
+Temp:close()
 end
 -- io.write('blah')
-Temp:close()
 -- -- ToString = function (stack)
 -- -- 	ToString({}) = ""
 -- -- 	return toString (stack.next) .. stack.line
