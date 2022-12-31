@@ -1,3 +1,4 @@
+require('lines')
 Feedkey = function(key, mode)
   vim.api.nvim_feedkeys(vim.api.nvim_replace_termcodes(key, true, true, true), mode, true)
 end
@@ -49,10 +50,10 @@ Sentence = function ()
    -- Wait()
 end
 --This function finds the filename when given a complete path
-GetFilename = function(path)
-    local start, finish = path:find('[%w%s!-={-|]+[_%.].+')
-    return path:sub(start,#path)
-end
+-- GetFilename = function(path)
+--     local start, finish = path:find('[%w%s!-={-|]+[_%.].+')
+--     return path:sub(start,#path)
+-- end
 CreateLineList = function ()
 	local filename = vim.fn.substitute(vim.fn.expand('%:p'), "\\", "/", "g")
 	Idline = vim.fn.jobstart({"nu", "C:/Users/yasha/dotfiles/scripts/Line.nu", filename})
