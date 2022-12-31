@@ -71,10 +71,11 @@ end
 -- 	local filenameshort = getFilename(vim.fn.bufname())
 -- 	local commandline = "lg " .. "/tmp/@l_" .. filenameshort
 LoadLine = function()
-	local filenameshort = GetFilename(vim.fn.bufname())
-  -- vim.fn.jobwait({Idline})
-  local commandline = "lg " .. "/tmp/@l_" .. filenameshort
-	vim.cmd(commandline)
+	WriteLine()
+	-- local filenameshort = GetFilename(vim.fn.bufname())
+	--   -- vim.fn.jobwait({Idline})
+	--   local commandline = "lg " .. "/tmp/@l_" .. filenameshort
+	-- vim.cmd(commandline)
 end
 LoadSentence = function()
   local filenameshort = GetFilename(vim.fn.bufname())
