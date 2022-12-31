@@ -16,7 +16,7 @@ WriteLine = function()
 	  Newlines[i] = filename .. ":" .. i .. ": " .. v
 	end
 print(Newlines)
-local ToString = function()
+ToString = function()
 	local string = ""
 	for i,v in ipairs(Newlines) do
 		string = string .. v .. '\n'
