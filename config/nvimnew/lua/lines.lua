@@ -1,4 +1,4 @@
--- local ModuleLines = {} fuck
+-- local ModuleLines = {} fuck fuck
 
 GetFilename = function(path)
     local start, finish = path:find('[%w%s!-={-|]+[_%.].+')
