@@ -64,7 +64,7 @@ local filename = vim.fn.substitute(vim.fn.expand('%:p'), "\\", "/", "g")
   IdSentence = vim.fn.jobstart({"nu", "C:/Users/yasha/dotfiles/scripts/sentence.nu", filename})
 end
 CreateList = function ()
-	require('lines').WriteLine()
+	CreateLineList()
 	CreateSentenceList()
 end
 -- 	local filenameshort = getFilename(vim.fn.bufname())
