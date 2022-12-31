@@ -54,17 +54,18 @@ end
 --     local start, finish = path:find('[%w%s!-={-|]+[_%.].+')
 --     return path:sub(start,#path)
 -- end
-CreateLineList = function ()
-	local filename = vim.fn.substitute(vim.fn.expand('%:p'), "\\", "/", "g")
-	Idline = vim.fn.jobstart({"nu", "C:/Users/yasha/dotfiles/scripts/Line.nu", filename})
-end
-CreateFunctionList = function ()
+CreateLineList = require('lines').WriteLine()
+-- CreateLineList = function ()
+-- 	local filename = vim.fn.substitute(vim.fn.expand('%:p'), "\\", "/", "g")
+-- 	Idline = vim.fn.jobstart({"nu", "C:/Users/yasha/dotfiles/scripts/Line.nu", filename})
+-- end
+CreateSentenceList = function ()
 local filename = vim.fn.substitute(vim.fn.expand('%:p'), "\\", "/", "g")
   IdSentence = vim.fn.jobstart({"nu", "C:/Users/yasha/dotfiles/scripts/sentence.nu", filename})
 end
 CreateList = function ()
-	CreateLineList()
-	CreateFunctionList()
+	require('lines').WriteLine()
+	CreateSentenceList()
 end
 -- 	local filenameshort = getFilename(vim.fn.bufname())
 -- 	local commandline = "lg " .. "/tmp/@l_" .. filenameshort
