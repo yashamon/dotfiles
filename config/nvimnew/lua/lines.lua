@@ -10,14 +10,15 @@ ToList = function()
 local filename = vim.fn.expand('%:p')
 local newlines = {}
 	local i = 1
-	io.close()
 	io.flush()
-	for line in io.lines(filename) do
+	io.input(filename)
+		for line in io.lines() do
 		-- line = line:gsub("%^a", "")
 		newlines[i] = filename .. ":" .. i .. ": " .. line
 		i = i + 1
 	end	
 	return newlines
+	io.flush()
 end
 ToString = function()
 	local string = ""
