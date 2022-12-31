@@ -28,8 +28,8 @@ end
 Temp = io.open(Tempfile, 'w')
 Temp:write(ToString())
 Temp:close()
-io.close()
 io.flush()
+io.close()
 end
 
 
