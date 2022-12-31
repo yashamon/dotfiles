@@ -10,13 +10,13 @@ WriteLine = function()
 -- ToList = function()
 	local filename = vim.fn.expand('%:p')
 	local lines = vim.api.nvim_buf_get_lines(0, 1,-1, {strictindexing = false})
-	local newlines = {}
+	Newlines = {}
 	-- 	io.input(filename)
 	for i,v in ipairs(lines) do
-	  newlines[i] = filename .. ":" .. i .. ": " .. v
-		print(newlines[i])
+	  Newlines[i] = filename .. ":" .. i .. ": " .. v
+		print(Newlines[i])
 	end
-vim.fn.setloclist(0, newlines)
+vim.fn.setloclist(0, Newlines)
 		-- return newlines
 	-- 	end
 	-- local toString = function()
