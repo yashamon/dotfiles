@@ -14,8 +14,9 @@ WriteLine = function()
 	-- 	io.input(filename)
 	for i,v in ipairs(lines) do
 	  Newlines[i] = filename .. ":" .. i .. ": " .. v
-		print(Newlines[i])
+		-- print(Newlines[i])
 	end
+print(Newlines[1])
 vim.fn.setloclist(0, Newlines)
 		-- return newlines
 	-- 	end
