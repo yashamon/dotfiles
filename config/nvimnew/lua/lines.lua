@@ -9,20 +9,18 @@ Tempfile = 'C:\\tmp\\@l_' .. filenameshort
 WriteLine = function()
 ToList = function()
 local filename = vim.fn.expand('%:p')
-local Lines = vim.api.nvim_buf_get_lines(0, 1,-1, {strictindexing = false})
-local newlines = {}
-	local i = 1
-	io.input(filename)
-		for line in Lines do
-		-- line = line:gsub("%^a", "")
-		newlines[i] = filename .. ":" .. i .. ": " .. line
-		i = i + 1
-	end
-	return newlines
-	end
+local lines = vim.api.nvim_buf_get_lines(0, 1,-1, {strictindexing = false})
+-- local newlines = {}
+-- 	io.input(filename)
+-- 		for i,v in ipairs(Lines) do
+-- 		-- line = line:gsub("%^a", "")
+-- 		newlines[i] = filename .. ":" .. i .. ": " .. v
+-- 	end
+-- 	return newlines
+-- 	end
 ToString = function()
 	local string = ""
-	for i,v in ipairs(ToList()) do
+	for i,v in ipairs(lines) do
 		string = string .. v .. '\n' 
 	end
 	return string
