@@ -16,7 +16,7 @@ WriteLine = function()
 	  Newlines[i] = filename .. ":" .. i .. ": " .. v
 		-- print(Newlines[i])
 	end
-print(Newlines[1])
+print(Newlines[2])
 vim.fn.setloclist(0, Newlines)
 		-- return newlines
 	-- 	end
