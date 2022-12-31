@@ -3,40 +3,40 @@ GetFilename = function(path)
     local start, finish = path:find('[%w%s!-={-|]+[_%.].+')
     return path:sub(start,#path)
 end
-local basename = GetFilename(vim.fn.bufname())
-Tempfile = '/tmp' .. '/@l_' .. basename
+local filenameshort = GetFilename(vim.fn.bufname())
+Tempfile = '/tmp/@l_' .. filenameshort
 ToList = function ()
 	local newlines = {}
 	local i = 1
 	for line in io.lines(Filename) do
 		-- line = line:gsub("%^a", "")
-		newlines[i] = basename .. ":" .. "i" .. " " .. line
+		newlines[i] = filenameshort .. ":" .. "i" .. " " .. line
 		i = i + 1
 	end
 	return newlines
 end
--- print(LinesLua())
+io.open(Tempfile, 'w')
+-- convert to a string and write to Tempfile
 ToString = function(array)
 	local string = ""
 	local n = 1
 	-- string = string .. '\n' .. array[n]	
 	for i,v in ipairs(array) do
-		string = string .. v .. '\n'
+		io.write(v, '\n')
 	end
 	return string
 end
--- ToString = function (stack)
--- 	ToString({}) = ""
--- 	return toString (stack.next) .. stack.line
--- local string = ""
--- 	for lines in stack do
--- 		string = string .. stack.line
--- 	while not stack.next == {} do
--- 		string = 
--- 	else return 
--- 	end
--- end testu
-Lines = function ()
-	io.open(Tempfile, 'w')
-	io.write(ToString(ToList()))
-end
+-- -- ToString = function (stack)
+-- -- 	ToString({}) = ""
+-- -- 	return toString (stack.next) .. stack.line
+-- -- local string = ""
+-- -- 	for lines in stack do
+-- -- 		string = string .. stack.line
+-- -- 	while not stack.next == {} do
+-- -- 		string = 
+-- -- 	else return 
+-- -- 	end
+-- -- end testu
+-- Lines = function ()
+-- 		io.write(ToString(ToList()))
+-- end
