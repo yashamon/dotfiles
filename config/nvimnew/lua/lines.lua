@@ -19,7 +19,7 @@ end
 ToString = function()
 	local string = ""
 	for i,v in ipairs(toList()) do
-		string = string .. v .. '\n'
+		string = string .. v .. '\\r\\n'
 	end
 end
 WriteLine = function()
