@@ -23,7 +23,6 @@ ToString = function(array)
 	for i,v in ipairs(array) do
 		string = string .. v .. '\n'
 	end
-	print (string)
 	return string
 end
 -- ToString = function (stack)
