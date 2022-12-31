@@ -1,3 +1,4 @@
+local ModuleLines = {}
 Filename = vim.fn.substitute(vim.fn.expand('%:p'), "\\", "/", "g")
 GetFilename = function(path)
     local start, finish = path:find('[%w%s!-={-|]+[_%.].+')
@@ -24,6 +25,7 @@ WriteLine = function()
 	end
 	Temp:close()
 end
+return ModuleLines
 -- io.write('blah')
 -- -- ToString = function (stack)
 -- -- 	ToString({}) = ""
