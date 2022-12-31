@@ -10,7 +10,8 @@ Server = function ()
 end
 
 Line = function()
-   vim.fn.jobwait({Idline})
+	LoadLine()
+   -- vim.fn.jobwait({IdLine})
    vim.cmd('lopen')
    if vim.w.bqf_enabled then
     local winid = vim.api.nvim_get_current_win()
@@ -71,12 +72,12 @@ end
 -- 	local commandline = "lg " .. "/tmp/@l_" .. filenameshort
 LoadLine = function()
 	local filenameshort = GetFilename(vim.fn.bufname())
-  vim.fn.jobwait({Idline})
+  -- vim.fn.jobwait({Idline})
   local commandline = "lg " .. "/tmp/@l_" .. filenameshort
 	vim.cmd(commandline)
 end
 LoadSentence = function()
-  local filenameshort = GetFilename(vim.fn.bufname())
+  -- local filenameshort = GetFilename(vim.fn.bufname())
   vim.fn.jobwait({IdSentence})
   local commandsentence = "lg " .. "/tmp/@s_" .. filenameshort
   vim.cmd(commandsentence)
