@@ -27,8 +27,6 @@ WriteLine = function()
 	Temp = io.open(tempfile, 'w')
 	Temp:write(toString())
 	Temp:close()
-	io.flush()
-	io.close()
 end
 
 
