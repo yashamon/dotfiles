@@ -4,7 +4,7 @@ GetFilename = function(path)
     return path:sub(start,#path)
 end
 local filenameshort = GetFilename(vim.fn.bufname())
-Tempfile = 'C:\\tmp\\@l_' .. filenameshort
+Tempfile = 'C:\\tmp\\@l_' .. filenameshort .. 2
 ToList = function ()
 	local newlines = {}
 	local i = 1
