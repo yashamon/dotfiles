@@ -10,23 +10,22 @@ WriteLine = function()
 -- ToList = function()
 	local filename = vim.fn.expand('%:p')
 	local lines = vim.api.nvim_buf_get_lines(0, 1,-1, {strictindexing = false})
-	-- local newlines = {}
+	local newlines = {}
 	-- 	io.input(filename)
-	-- 		for i,v in ipairs(Lines) do
-	-- 		-- line = line:gsub("%^a", "")
-	-- 		newlines[i] = filename .. ":" .. i .. ": " .. v
+	for i,v in ipairs(Lines) do
+	  newlines[i] = filename .. ":" .. i .. ": " .. v
+	end
+		-- return newlines
 	-- 	end
-	-- 	return newlines
-	-- 	end
-	ToString = function()
+	local toString = function()
 		local string = ""
-		for i,v in ipairs(lines) do
-			string = string .. filename .. ":" .. i .. ": " .. v .. '\n'
+		for i,v in ipairs(newlines) do
+			string = string .. v .. '\n'
 		end
 		return string
 	end
 	Temp = io.open(tempfile, 'w')
-	Temp:write(ToString())
+	Temp:write(toString())
 	Temp:close()
 	io.flush()
 	io.close()
