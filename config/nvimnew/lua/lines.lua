@@ -17,8 +17,6 @@ local newlines = {}
 		newlines[i] = filename .. ":" .. i .. ": " .. line
 		i = i + 1
 	end
-	io.close()
-	io.flush()
 	return newlines
 	end
 ToString = function()
@@ -31,6 +29,8 @@ end
 Temp = io.open(Tempfile, 'w')
 Temp:write(ToString())
 Temp:close()
+io.close()
+io.flush()
 end
 
 
