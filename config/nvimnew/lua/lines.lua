@@ -21,7 +21,7 @@ WriteLine = function()
 	ToString = function()
 		local string = ""
 		for i,v in ipairs(lines) do
-			string = string .. v .. '\n' 
+			string = string .. filename .. ":" .. i .. ": " .. v .. '\n'
 		end
 		return string
 	end
