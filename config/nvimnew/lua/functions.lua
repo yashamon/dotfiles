@@ -59,36 +59,36 @@ CreateLineList = WriteLine
 	-- local filename = vim.fn.substitute(vim.fn.expand('%:p'), "\\", "/", "g--")
  	--Idline = vim.fn.jobstart({"nu", "C:/Users/yasha/dotfiles/scripts/Line.n--u" filename})
 --end
-CreateSentenceList = function ()
+CreateSentenceList = function()
 local filename = vim.fn.substitute(vim.fn.expand('%:p'), "\\", "/", "g")
   IdSentence = vim.fn.jobstart({"nu", "C:/Users/yasha/dotfiles/scripts/sentence.nu", filename})
 end
-CreateList = function ()
+CreateList = function()
 	CreateLineList()
 	CreateSentenceList()
 end
 -- 	local filenameshort = getFilename(vim.fn.bufname())
 -- 	local commandline = "lg " .. "/tmp/@l_" .. filenameshort
-LoadLine = function ()
+LoadLine = function()
 	local filenameshort = GetFilename(vim.fn.bufname())
   vim.fn.jobwait({Idline})
   local commandline = "lg " .. "/tmp/@l_" .. filenameshort
 	vim.cmd(commandline)
 end
-LoadSentence = function ()
+LoadSentence = function()
   local filenameshort = GetFilename(vim.fn.bufname())
   vim.fn.jobwait({IdSentence})
   local commandsentence = "lg " .. "/tmp/@s_" .. filenameshort
   vim.cmd(commandsentence)
 end
-CG = function ()
+CG = function()
 	CreateList()
 	LoadLine()
 	LoadSentence()
 end
 
 
-GitAsync = function ()
+GitAsync = function()
 Server()
 local buff = vim.fn.bufname()
 vim.cmd('te pwsh -c if ( (git rev-parse --is-inside-work-tree) -and (git rev-parse --git-dir) ) { git add . ; git commit -m -a; git push --all origin; ctags -R }')
