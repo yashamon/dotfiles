@@ -15,9 +15,9 @@ ToList = function ()
 	end
 	return newlines
 end
-Temp = io.open(Tempfile, 'w')
 -- convert to a string and write to Tempfile
 WriteLine = function()
+	Temp = io.open(Tempfile, 'w')
 	-- string = string .. '\n' .. array[n]	
 	for i,v in ipairs(ToList()) do
 		Temp:write(v, '\n')
