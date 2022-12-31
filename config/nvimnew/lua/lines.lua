@@ -21,7 +21,7 @@ WriteLine = function()
 	Temp = io.open(Tempfile, 'r')
 	-- string = string .. '\n' .. array[n]	
 	for i,v in ipairs(toList()) do
-		Temp:write(v)
+		Temp:write(v, "\n")
 	end
 	Temp:close()
 end
