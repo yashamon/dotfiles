@@ -17,14 +17,11 @@ ToList = function ()
 end
 io.open(Tempfile, 'w')
 -- convert to a string and write to Tempfile
-ToString = function(array)
-	local string = ""
-	local n = 1
+WriteLine = function()
 	-- string = string .. '\n' .. array[n]	
-	for i,v in ipairs(array) do
+	for i,v in ipairs(ToList()) do
 		io.write(v, '\n')
 	end
-	return string
 end
 -- -- ToString = function (stack)
 -- -- 	ToString({}) = ""
