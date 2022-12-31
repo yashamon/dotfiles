@@ -6,6 +6,7 @@ GetFilename = function(path)
 end
 local filenameshort = GetFilename(vim.fn.bufname())
 Tempfile = 'C:\\tmp\\@l_' .. filenameshort
+WriteLine = function()
 ToList = function()
 local filename = vim.fn.expand('%:p')
 local newlines = {}
@@ -15,7 +16,7 @@ local newlines = {}
 		-- line = line:gsub("%^a", "")
 		newlines[i] = filename .. ":" .. i .. ": " .. line
 		i = i + 1
-	end	
+	end
 	io.close()
 	io.flush()
 	return newlines
@@ -28,7 +29,6 @@ ToString = function()
 	return string
 end
 local string=ToString()
-WriteLine = function()
 	Temp = io.open(Tempfile, 'w')
 		Temp:write(string)
 	Temp:close()
