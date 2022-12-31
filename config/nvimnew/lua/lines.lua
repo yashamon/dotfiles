@@ -23,9 +23,10 @@ ToString = function()
 	end
 	return string
 end
+local string=ToString()
 WriteLine = function()
 	Temp = io.open(Tempfile, 'w')
-		Temp:write(ToString())
+		Temp:write(string)
 	Temp:close()
 end
 -- convert testing to a string and write to Tempfile
