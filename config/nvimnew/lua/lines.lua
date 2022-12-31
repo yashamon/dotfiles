@@ -11,7 +11,7 @@ local toList = function ()
 	local i = 1
 	for line in io.lines(Filename) do
 		-- line = line:gsub("%^a", "")
-		newlines[i] = Filename .. ":" .. "i" .. " " .. line .. "\n"
+		newlines[i] = Filename .. ":" .. "i" .. " " .. line .. " \n"
 		i = i + 1
 	end
 	return newlines
@@ -21,7 +21,7 @@ WriteLine = function()
 	Temp = io.open(Tempfile, 'r')
 	-- string = string .. '\n' .. array[n]	
 	for i,v in ipairs(toList()) do
-		Temp:write(v, "\n")
+		Temp:write(v, " \n")
 	end
 	Temp:close()
 end
