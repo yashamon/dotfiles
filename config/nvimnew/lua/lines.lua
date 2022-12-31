@@ -6,7 +6,7 @@ GetFilename = function(path)
 end
 local filenameshort = GetFilename(vim.fn.bufname())
 Tempfile = 'C:\\tmp\\@l_' .. filenameshort .. 2
-local toList = function ()
+ToList = function ()
 	local newlines = {}
 	local i = 1
 	for line in io.lines(Filename) do
@@ -18,7 +18,7 @@ local toList = function ()
 end
 ToString = function()
 	local string = ""
-	for i,v in ipairs(toList()) do
+	for i,v in ipairs(ToList()) do
 		string = string .. v .. '\n'
 	end
 end
