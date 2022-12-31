@@ -17,13 +17,13 @@ WriteLine = function()
 		-- print(Newlines[i])
 	end
 print(Newlines)
-local toString = function()
-	local string = ""
-	for i,v in ipairs(newlines) do
-		string = string .. v .. '\n'
-	end
-	return string
-end
+-- local toString = function()
+-- 	local string = ""
+-- 	for i,v in ipairs(newlines) do
+-- 		string = string .. v .. '\n'
+-- 	end
+-- 	return string
+-- end
 	-- Temp = io.open(tempfile, 'w')
 	-- Temp:write(toString())
 	-- Temp:close()
