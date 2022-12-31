@@ -7,29 +7,29 @@ end
 local filenameshort = GetFilename(vim.fn.bufname())
 Tempfile = 'C:\\tmp\\@l_' .. filenameshort
 WriteLine = function()
-ToList = function()
-local filename = vim.fn.expand('%:p')
-local lines = vim.api.nvim_buf_get_lines(0, 1,-1, {strictindexing = false})
--- local newlines = {}
--- 	io.input(filename)
--- 		for i,v in ipairs(Lines) do
--- 		-- line = line:gsub("%^a", "")
--- 		newlines[i] = filename .. ":" .. i .. ": " .. v
--- 	end
--- 	return newlines
--- 	end
-ToString = function()
-	local string = ""
-	for i,v in ipairs(lines) do
-		string = string .. v .. '\n' 
+	-- ToList = function()
+	local filename = vim.fn.expand('%:p')
+	local lines = vim.api.nvim_buf_get_lines(0, 1,-1, {strictindexing = false})
+	-- local newlines = {}
+	-- 	io.input(filename)
+	-- 		for i,v in ipairs(Lines) do
+	-- 		-- line = line:gsub("%^a", "")
+	-- 		newlines[i] = filename .. ":" .. i .. ": " .. v
+	-- 	end
+	-- 	return newlines
+	-- 	end
+	ToString = function()
+		local string = ""
+		for i,v in ipairs(lines) do
+			string = string .. v .. '\n' 
+		end
+		return string
 	end
-	return string
-end
-Temp = io.open(Tempfile, 'w')
-Temp:write(ToString())
-Temp:close()
-io.flush()
-io.close()
+	Temp = io.open(Tempfile, 'w')
+	Temp:write(ToString())
+	Temp:close()
+	io.flush()
+	io.close()
 end
 
 
