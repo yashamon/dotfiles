@@ -54,8 +54,9 @@ end
 --     local start, finish = path:find('[%w%s!-={-|]+[_%.].+')
 --     return path:sub(start,#path)
 -- end
-CreateLineList = require('lines').WriteLine
--- CreateLineList = function ()
+CreateLineList = function ()
+	require('lines').WriteLine
+end-- CreateLineList = function ()
 	-- local filename = vim.fn.substitute(vim.fn.expand('%:p'), "\\", "/", "g--")
  	--Idline = vim.fn.jobstart({"nu", "C:/Users/yasha/dotfiles/scripts/Line.n--u" filename})
 --end
