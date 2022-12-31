@@ -19,14 +19,14 @@ end
 ToString = function()
 	local string = ""
 	for i,v in ipairs(ToList()) do
-		string = string .. v .. '\r\n'
+		string = [[string .. v .. '\r\n']]
 	end
 	return string
 end
 local string=ToString()
 WriteLine = function()
 	Temp = io.open(Tempfile, 'w')
-		Temp:write(string)
+		Temp:write([[string]])
 	Temp:close()
 end
 
