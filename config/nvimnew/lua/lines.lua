@@ -1,4 +1,4 @@
-local ModuleLines = {}
+-- local ModuleLines = {}
 Filename = vim.fn.substitute(vim.fn.expand('%:p'), "\\", "/", "g")
 GetFilename = function(path)
     local start, finish = path:find('[%w%s!-={-|]+[_%.].+')
@@ -17,7 +17,7 @@ local toList = function ()
 	return newlines
 end
 -- convert to a string and write to Tempfile
-ModuleLines.writeLine = function()
+WriteLine = function()
 	Temp = io.open(Tempfile, 'w')
 	-- string = string .. '\n' .. array[n]	
 	for i,v in ipairs(toList()) do
@@ -25,7 +25,6 @@ ModuleLines.writeLine = function()
 	end
 	Temp:close()
 end
-return ModuleLines
 -- io.write('blah')
 -- -- ToString = function (stack)
 -- -- 	ToString({}) = ""
