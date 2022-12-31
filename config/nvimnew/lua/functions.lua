@@ -57,12 +57,12 @@ end
 -- end
 CreateLineList = WriteLine
 -- CreateLineList = function ()
-	-- local filename = vim.fn.substitute(vim.fn.expand('%:p'), "\\", "/", "g--")
- 	--Idline = vim.fn.jobstart({"nu", "C:/Users/yasha/dotfiles/scripts/Line.n--u" filename})
---end
+	-- local filename = vim.fn.substitute(vim.fn.expand('%:p'), "\\", "/", "g")
+	-- Idline = vim.fn.jobstart({"nu", "C:/Users/yasha/dotfiles/scripts/Line.nu" filename})
+-- end
 CreateSentenceList = function()
 local filename = vim.fn.substitute(vim.fn.expand('%:p'), "\\", "/", "g")
-  IdSentence = vim.fn.jobstart({"nu", "C:/Users/yasha/dotfiles/scripts/sentence.nu", filename})
+IdSentence = vim.fn.jobstart({"nu", "C:/Users/yasha/dotfiles/scripts/sentence.nu", filename})
 end
 CreateList = function()
 	CreateLineList()
@@ -71,11 +71,10 @@ end
 -- 	local filenameshort = getFilename(vim.fn.bufname())
 -- 	local commandline = "lg " .. "/tmp/@l_" .. filenameshort
 LoadLine = function()
-	WriteLine()
-	-- local filenameshort = GetFilename(vim.fn.bufname())
-	--   -- vim.fn.jobwait({Idline})
-	--   local commandline = "lg " .. "/tmp/@l_" .. filenameshort
-	-- vim.cmd(commandline)
+	local filenameshort = GetFilename(vim.fn.bufname())
+  -- vim.fn.jobwait({Idline})
+  local commandline = "lg " .. "/tmp/@l_" .. filenameshort
+	vim.cmd(commandline)
 end
 LoadSentence = function()
   local filenameshort = GetFilename(vim.fn.bufname())
