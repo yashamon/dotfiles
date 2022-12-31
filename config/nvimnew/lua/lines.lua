@@ -37,7 +37,7 @@ end
 -- 	else return 
 -- 	end
 -- end
-LinesLua = function ()
+Lines = function ()
 	io.open(Tempfile, 'w')
 	io.write(ToString(ToList()))
 end
