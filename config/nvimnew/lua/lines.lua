@@ -12,7 +12,7 @@ local filename = vim.fn.expand('%:p')
 local newlines = {}
 	local i = 1
 	io.input(filename)
-		for line in nvim_buf_get_lines() do
+		for line in io.lines() do
 		-- line = line:gsub("%^a", "")
 		newlines[i] = filename .. ":" .. i .. ": " .. line
 		i = i + 1
