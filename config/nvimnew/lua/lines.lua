@@ -15,7 +15,7 @@ ToList = function ()
 	end
 	return newlines
 end
-io.open(Tempfile, 'w')
+local temp = io.open(Tempfile, 'w')
 -- convert to a string and write to Tempfile
 WriteLine = function()
 	-- string = string .. '\n' .. array[n]	
