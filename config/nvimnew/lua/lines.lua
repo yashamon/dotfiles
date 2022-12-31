@@ -8,13 +8,14 @@ local filenameshort = GetFilename(vim.fn.bufname())
 Tempfile = 'C:\\tmp\\@l_' .. filenameshort
 ToList = function()
 local filename = vim.fn.substitute(vim.fn.expand('%:p'), "\\", "/", "g")
-		local newlines = {}
+	local newlines = {}
 	local i = 1
+	io.flush(filename)
 	for line in io.lines(filename) do
 		-- line = line:gsub("%^a", "")
 		newlines[i] = filename .. ":" .. i .. ": " .. line
 		i = i + 1
-	end
+	end	
 	return newlines
 end
 ToString = function()
