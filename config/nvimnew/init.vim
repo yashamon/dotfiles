@@ -462,3 +462,4 @@ let execstrWindows="silent te pwsh -c C:/Users/yasha/scoop/shims/sumatrapdf.EXE 
 exec execstrWindows
 silent execute "buffer" buf
 endfunction
+" testu
