@@ -1,12 +1,12 @@
 local ModuleLines = {}
 Filename = vim.fn.substitute(vim.fn.expand('%:p'), "\\", "/", "g")
-ModuleLines.getFilename = function(path)
+GetFilename = function(path)
     local start, finish = path:find('[%w%s!-={-|]+[_%.].+')
     return path:sub(start,#path)
 end
 local filenameshort = GetFilename(vim.fn.bufname())
 Tempfile = 'C:\\tmp\\@l_' .. filenameshort .. 2
-ToList = function ()
+local toList = function ()
 	local newlines = {}
 	local i = 1
 	for line in io.lines(Filename) do
@@ -20,7 +20,7 @@ end
 ModuleLines.writeLine = function()
 	Temp = io.open(Tempfile, 'w')
 	-- string = string .. '\n' .. array[n]	
-	for i,v in ipairs(ToList()) do
+	for i,v in ipairs(toList()) do
 		Temp:write(v, '\n')
 	end
 	Temp:close()
