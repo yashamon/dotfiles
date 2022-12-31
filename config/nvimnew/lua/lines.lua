@@ -11,7 +11,7 @@ ToList = function()
 	local i = 1
 	for line in io.lines(Filename) do
 		-- line = line:gsub("%^a", "")
-		newlines[i] = '@' .. Filename .. ":" .. i .. ": " .. line
+		newlines[i] = Filename .. ":" .. i .. ": " .. line
 		i = i + 1
 	end
 	return newlines
@@ -19,7 +19,7 @@ end
 ToString = function()
 	local string = ""
 	for i,v in ipairs(ToList()) do
-		string = string .. v .. '\r\n' .. " "
+		string = string .. v .. '\n' .. " "
 	end
 	return string
 end
