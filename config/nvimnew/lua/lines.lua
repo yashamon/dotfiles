@@ -7,10 +7,10 @@ end
 local filenameshort = GetFilename(vim.fn.bufname())
 Tempfile = 'C:\\tmp\\@l_' .. filenameshort
 ToList = function()
-local filename = vim.fn.substitute(vim.fn.expand('%:p'), "\\", "/", "g")
-	local newlines = {}
+local filename = vim.fn.expand('%:p')
+local newlines = {}
 	local i = 1
-	io.close(filename)
+	io.close()
 	io.flush()
 	for line in io.lines(filename) do
 		-- line = line:gsub("%^a", "")
