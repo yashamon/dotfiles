@@ -24,9 +24,10 @@ WriteLine = function()
 		end
 		return string
 	end
-	Temp = io.open(tempfile, 'w')
-	Temp:write(toString())
-	Temp:close()
+	vim.fn.set_loclist(toString())
+	-- Temp = io.open(tempfile, 'w')
+	-- Temp:write(toString())
+	-- Temp:close()
 end
 
 
