@@ -29,7 +29,7 @@ WriteLine = function()
 		Temp:write(string)
 	Temp:close()
 end
--- convert testing to a string and write to Tempfile
+-- convert Testing to a string and write to Tempfile
 -- WriteLine = function()
 -- 	Temp = io.open(Tempfile, 'a')
 -- 	for i,v in ipairs(toList()) do
