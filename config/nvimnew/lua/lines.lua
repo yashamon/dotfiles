@@ -18,10 +18,10 @@ local toList = function ()
 end
 -- convert to a string and write to Tempfile
 WriteLine = function()
-	Temp = io.open(Tempfile, 'a')
+	Temp = io.open(Tempfile, 'r')
 	-- string = string .. '\n' .. array[n]	
 	for i,v in ipairs(toList()) do
-		Temp:write(v, '\r\n')
+		Temp:write(v .. 'n')
 	end
 	Temp:close()
 end
