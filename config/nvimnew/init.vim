@@ -456,9 +456,10 @@ let filenameroot=expand('%:t:r')
 " let filenamePDF=filename[:-4]."pdf" 
 let filenamePDFLinux=b:filenamedir . "/buildback/" . filenameroot . ".pdf"
 let b:filenamePDFWindows="build\\" . filenameroot . ".pdf"
-" echo b:filenamePDFWindows
+" echo b:filenamePDFWindows tsting
 let execstrLinux="silent te zathura --synctex-forward " . linenumber . ":" . colnumber . ":" . filenametexwhole . " " . filenamePDFLinux
 let execstrWindows="silent te pwsh -c C:/Users/yasha/scoop/shims/sumatrapdf.EXE -reuse-instance " . b:filenamePDFWindows . " -forward-search " . filenametex . " " . linenumber
 exec execstrWindows
 silent execute "buffer" buf
 endfunction
+
