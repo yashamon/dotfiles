@@ -32,6 +32,7 @@ local string=ToString()
 	Temp = io.open(Tempfile, 'w')
 		Temp:write(string)
 	Temp:close()
+ToString()
 end
 
 
