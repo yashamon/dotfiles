@@ -26,7 +26,7 @@ WriteLine = function()
 end
 io.write('blah')
 WriteLine()
-io.close('blah')
+io.close(Tempfile)
 -- -- ToString = function (stack)
 -- -- 	ToString({}) = ""
 -- -- 	return toString (stack.next) .. stack.line
