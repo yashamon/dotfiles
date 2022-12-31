@@ -23,7 +23,7 @@ ToString = function()
 	end
 end
 WriteLine = function()
-	Temp = io.open(Tempfile, 'a')
+	Temp = io.open(Tempfile, 'w')
 		Temp:write(ToString())
 	Temp:close()
 end
