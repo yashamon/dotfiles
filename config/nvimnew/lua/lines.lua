@@ -14,22 +14,19 @@ WriteLine = function()
 	-- 	io.input(filename)
 	for i,v in ipairs(lines) do
 	  Newlines[i] = filename .. ":" .. i .. ": " .. v
-		-- print(Newlines[i])
 	end
 print(Newlines)
-vim.fn.setloclist(0, Newlines)
-		-- return newlines
-	-- 	end
-	-- local toString = function()
-	-- 	local string = ""
-	-- 	for i,v in ipairs(newlines) do
-	-- 		string = string .. v .. '\n'
-	-- 	end
-	-- 	return string
-	-- end
+local toString = function()
+	local string = ""
+	for i,v in ipairs(Newlines) do
+		string = string .. v .. '\n'
+	end
+	return string
+end
 	-- Temp = io.open(tempfile, 'w')
 	-- Temp:write(toString())
 	-- Temp:close()
+vim.fn.setloclist(0, toString())
 end
 
 
