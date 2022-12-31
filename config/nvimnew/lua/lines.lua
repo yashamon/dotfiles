@@ -1,13 +1,13 @@
--- local ModuleLines = {} 
+-- local ModuleLines = {} 1
 
 GetFilename = function(path)
     local start, finish = path:find('[%w%s!-={-|]+[_%.].+')
     return path:sub(start,#path)
 end
-local filenameshort = GetFilename(vim.fn.bufname())
-Tempfile = 'C:\\tmp\\@l_' .. filenameshort
 WriteLine = function()
-	-- ToList = function()
+	local filenameshort = GetFilename(vim.fn.bufname())
+	local tempfile = 'C:\\tmp\\@l_' .. filenameshort
+-- ToList = function()
 	local filename = vim.fn.expand('%:p')
 	local lines = vim.api.nvim_buf_get_lines(0, 1,-1, {strictindexing = false})
 	-- local newlines = {}
@@ -33,7 +33,7 @@ WriteLine = function()
 end
 
 
--- Find me
+-- Find me 1
 -- convert Testing to a string and write to Tempfile
 -- WriteLine = function()
 -- 	Temp = io.open(Tempfile, 'a')
