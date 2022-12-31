@@ -5,26 +5,26 @@ GetFilename = function(path)
     return path:sub(start,#path)
 end
 WriteLine = function()
-	local filenameshort = GetFilename(vim.fn.bufname())
-	local tempfile = 'C:\\tmp\\@l_' .. filenameshort
+	-- local filenameshort = GetFilename(vim.fn.bufname())
+	-- local tempfile = 'C:\\tmp\\@l_' .. filenameshort
 -- ToList = function()
-	local filename = vim.fn.expand('%:p')
+	-- local filename = vim.fn.expand('%:p')
 	local lines = vim.api.nvim_buf_get_lines(0, 1,-1, {strictindexing = false})
 	local newlines = {}
 	-- 	io.input(filename)
 	for i,v in ipairs(Lines) do
 	  newlines[i] = filename .. ":" .. i .. ": " .. v
 	end
+vim.fn.setloclist(0, newlines)
 		-- return newlines
 	-- 	end
-	local toString = function()
-		local string = ""
-		for i,v in ipairs(newlines) do
-			string = string .. v .. '\n'
-		end
-		return string
-	end
-	vim.fn.setloclist(0, newlines)
+	-- local toString = function()
+	-- 	local string = ""
+	-- 	for i,v in ipairs(newlines) do
+	-- 		string = string .. v .. '\n'
+	-- 	end
+	-- 	return string
+	-- end
 	-- Temp = io.open(tempfile, 'w')
 	-- Temp:write(toString())
 	-- Temp:close()
