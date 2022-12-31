@@ -16,7 +16,8 @@ local newlines = {}
 		newlines[i] = filename .. ":" .. i .. ": " .. line
 		i = i + 1
 	end	
-	io.close(filename)
+	io.close()
+	io.flush()
 	return newlines
 	end
 ToString = function()
@@ -54,7 +55,7 @@ end
 -- -- 		string = 
 -- -- 	else return 
 -- -- 	end
--- -- end mestu
+-- -- end mestua
 -- Lines = function ()
 -- 		io.write(ToString(ToList())) dada
 -- end
