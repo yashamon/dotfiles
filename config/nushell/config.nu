@@ -5,7 +5,7 @@ let-env Path = ["C:/Users/yasha/scoop/shims" "C:/Users/yasha/dotfiles/scripts" "
 
 source ~/.zoxide.nu
 source ~/.cache/starship/init.nu
-def neo [file: string] {
+def neo [file = ""] {
 neovide --multigrid --novsync $file
 }
 let-env HOME = "C:/Users/yasha"
