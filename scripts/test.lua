@@ -1,2 +1,2 @@
-local res = os.execute('fd . -H -I -d 1 | fzf')
-print(res)
+local res = io.popen ('fd . -H -I -d 1 | fzf', 'r')
+os.execute('echo ' .. res)
