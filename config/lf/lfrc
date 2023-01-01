@@ -1,6 +1,7 @@
 set ratios 1:2:3
-set filesep " "
-set shell pwsh 
+set filesep ' '
+set shell powershell 
+
 # set shell "C:\\Users\\yasha\\scoop\\shims\\nu.exe"
 
 # Shell commands with multiline definitions and/or positional arguments and/or
@@ -24,7 +25,7 @@ cmd open &start $Env:f
 # pager. You may instead install a pager of your choice and replace the default
 # pager keybinding accordingly.
 map i $less $Env:f
-map Y %echo $Env:fx | clip 
+map Y $echo $Env:fx | clip 
 # change the shell used in default shell keybinding
 map w $pwsh
 # change 'doc' command to use a different pager
@@ -83,7 +84,7 @@ cmd namepaste $cp-p --lf-paste $id
 # map gc :namepaste
 map p $pwsh -c robo.ps1 $Env:fx 
 map gp :paste
-cmd findfile %nu "C:\\Users\\yasha\\dotfiles\\scripts\\findfile.nu"
+cmd findfile $nu "C:\\Users\\yasha\\dotfiles\\scripts\\findfile.nu"
 map <a-f> :findfile
 
 cmd findfileroot ${{
@@ -104,7 +105,7 @@ map d :cut
 map D :trash
 map gd :delete
 
-cmd fzf_jump $pwsh -c nu "C:\\Users\\yasha\\dotfiles\\scripts\\lfsimplejump.nu"
+cmd fzf_jump $nu "C:\\Users\\yasha\\dotfiles\\scripts\\lfsimplejump.nu"
 #
 # ${{
 #    $res= fd . -H -I -d 1 | fzf --reverse --header='Jump to location'
