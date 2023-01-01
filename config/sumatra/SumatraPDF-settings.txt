@@ -113,7 +113,7 @@ TreeFontSize = 0
 SmoothScroll = false
 ShowStartPage = true
 CheckForUpdates = false
-WindowState = 1
+WindowState = 3
 WindowPos = 451 0 1480 1872
 UseTabs = true
 UseSysColors = false
@@ -133,7 +133,7 @@ FileStates [
 		PageNo = 1
 		Zoom = 100
 		Rotation = 0
-		WindowState = 1
+		WindowState = 3
 		WindowPos = 451 0 1480 1872
 		ShowToc = false
 		SidebarDx = 364
