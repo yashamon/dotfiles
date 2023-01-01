@@ -6,8 +6,7 @@ let-env Path = ["C:/Users/yasha/scoop/shims" "C:/Users/yasha/dotfiles/scripts" "
 source ~/.zoxide.nu
 source ~/.cache/starship/init.nu
 def neo [file: string] {
-# Invoke-Expression $neo --multigrid $1
-neovide --multigrid $file
+neovide --multigrid --novsync $file
 }
 let-env HOME = "C:/Users/yasha"
 let HOME = "C:/Users/yasha"
@@ -30,6 +29,7 @@ def lfrc [] { neo $"($HOME)/dotfiles/config/lf/lfrc" }
 def nurc [] { neo $"($HOME)/dotfiles/config/nushell/config.nu"}
 def texi [file:string] { pdflatex -file-line-error -synctex=1  -interaction=nonstopmode -recorder $file }
 def latexi [file:string] { latexmk -g -pdf -file-line-error -synctex=1  -interaction=nonstopmode -recorder -f $file}
+def pdf [file:string] { C:/Users/yasha/scoop/shims/sumatrapdf.exe $file} 
 def pvc [file:string] { latexmk -pdf -pvc -file-line-error -synctex=1  -interaction=nonstopmode -recorder -f $file} 
 def lat [file:string] { latexmk -pvc -pdf -file-line-error -synctex=1 -interaction=nonstopmode -recorder -f -g $file}
 #
@@ -40,8 +40,6 @@ def pullmaster [] { git pull --recurse-submodules ; git submodule update --recur
 }
 def pushgh [] { cd $"($HOME)/web" ; pandoc index.md -o index.html ; git add . ; git commit -m -a ; git push origin gh-pages }
 def hw [] { pandoc $"($HOME)/web/classes/AlgTop/2022.md" -o $"($HOME)/web/classes/AlgTop/2022.html" ; pandoc $"($HOME)/web/classes/CalcIII/2022.md"  -o $"($HOME)/web/classes/CalcIII/2022.html" ; cd "($HOME)/web" ; git add . ; git commit -m -a ; git push origin gh-pages } 
-def pdf [file:string] { zathura $file }
-
 alias config = ( cd $"($HOME)/dotfiles"; push; cd $"($HOME)/workspacemodules"; pushmod; cd $"($HOME)/workspace"; push; cd web pushgh; pacman -Qqe > $"($HOME)/dotfiles/pkglist.txt" )
 
 def sendFunction [file:string] {
