@@ -4,7 +4,7 @@ GetFilename = function(path)
     return path:sub(start,#path)
 end
 WriteLine = function()	
-local filenameshort = GetFilename(vim.fn.bufname())
+local filenameshort = vim.fn.bufname()
 local tempfile = 'C:\\tmp\\@l_' .. filenameshort
 -- ToList = function()
 	local filename = vim.fn.expand('%:p')
