@@ -95,8 +95,7 @@ nmap <A-S-t> :te<cr>
 " other mappings 
 noremap <leader>r :up<cr>:e<cr> 
 " inoremap . .<esc>:up<cr>a
-command Tw50 set tw=50
-command Tw0 set tw=0
+
 nnoremap q :q<cr>
 nnoremap <leader>q q
 nmap <m-7> :ZenMode<cr>:mksession!<cr>
@@ -104,6 +103,8 @@ nnoremap <leader>u <cr>:UndotreeToggle<CR>
 noremap <leader>c :'<,'>CommentToggle<cr>
 
 " commands
+command Tw50 set tw=50
+command Tw0 set tw=0
 command! SEND silent call Send()
 command! ES set spelllang=es
 " cmap ES set spelllang=es<cr>
