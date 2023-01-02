@@ -122,7 +122,7 @@ set scrolloff 10
 map <enter> shell
 
 # execute current file (must be executable)
-map x $$Env:f
+map <cr> $$Env:f
 map X !$Env:f
 
 # dedicated keys for file opener actions
