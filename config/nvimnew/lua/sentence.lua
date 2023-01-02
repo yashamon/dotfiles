@@ -24,12 +24,9 @@ local tempfile = 'C:\\tmp\\@s_' .. filenameshort
 -- local toString = function()
 		-- Temp:write(Newlines[1])
 
-	string = ""
+	local string = ""
 	for i,v in ipairs(Newlines) do
 		string = string .. v
-	
-	-- return string
--- end
 	Temp = io.open(tempfile, 'w')
 	Temp:write(string)
 	Temp:close()
