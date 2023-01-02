@@ -21,7 +21,7 @@ WriteSentence = function()
 			a[i] = filenameshort .. ":" .. i .. ": " .. v
 		end
 		-- b[i] = string.gsub(a[i], '%.%s+@',  '%.@@@')
-		Newlines[i] = string.gsub(string.gsub(string.gsub(b[i], '%.', '\n' .. filenameshort .. ":" .. i .. ": "), '\\', ' '), '%$', '')
+		Newlines[i] = string.gsub(string.gsub(string.gsub(a[i], '%.', '\n' .. filenameshort .. ":" .. i .. ": "), '\\', ' '), '%$', '')
 	end
 	local string = ""
 	for i,v in ipairs(Newlines) do
