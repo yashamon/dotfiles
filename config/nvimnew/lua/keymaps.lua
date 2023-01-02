@@ -22,7 +22,7 @@ map('n', '<m-s>', Sentence, {})
 -- map('<m-b>', 'lua require('telescope.builtin').find_files({layout_strategy='vertical',layout_config={width=0.9}})', {})
 
 -- commands
-command('Sa', function(file) vim.cmd('saveas ' .. file.arg) end, { nargs=1 })
+command('Sa', function(file) vim.cmd('saveas ' .. file) end, { nargs=1 })
 command('Sao', function(file) vim.cmd('saveas! ' .. file.args) end, { nargs=1 })
 command('Keymap', "lua require('telescope.builtin').keymaps({layout_strategy='vertical',layout_config={width=0.9}})", {})
 command('Cmd', "lua require('telescope.builtin').commands({layout_strategy='vertical',layout_config={width=0.9}})", {})
