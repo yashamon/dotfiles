@@ -112,10 +112,10 @@ command! Ser lua Server()
 command! LT LspStart ltex
 command! LTo LspStop ltex
 
-nnoremap <leader>f :up<cr>:lua Server()<cr>:te pwsh -c lf<cr>i
-nnoremap <leader>lg :up<cr>:lua Server()<cr>:te pwsh -c lazygit<cr>i
+nnoremap <leader>f :up<cr>:lua Server()<cr>:te lf<cr>i
+nnoremap <leader>lg :up<cr>:lua Server()<cr>:lazygit<cr>i
 " nnoremap <leader>tt :FloatermToggle<cr>
-nnoremap <leader>t :up<cr>:lua Server()<cr>:edit term://pwsh<cr><cr>
+nnoremap <leader>t :up<cr>:lua Server()<cr>:edit term://nu<cr><cr>
 nnoremap <c-,> :cprevious<cr>
 nnoremap <c-.> :cnext<cr> 
 inoremap <m-h> <left>
