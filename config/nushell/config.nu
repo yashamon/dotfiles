@@ -22,7 +22,10 @@ neovide --multigrid $ho
 def killn [name: string] { ps | where name =~ $name | each {|it| kill --force $it.pid} }
 
 alias hello = ( echo "hello" )
-alias j = __zoxide_z
+def j [file: string] {
+if ($file | str trim | path type) == dir then {
+zoxide add $file}
+__zoxide_z $file}
 def vrc [] { neo $"($HOME)/dotfiles/config/nvimnew/init.vim" }
 def lfrc [] { neo $"($HOME)/dotfiles/config/lf/lfrc" } 
 # def psrc [] { neo $profile } 
