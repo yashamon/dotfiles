@@ -10,11 +10,13 @@ local tempfile = 'C:\\tmp\\@l_' .. filenameshort
 	local filename = vim.fn.expand('%:p')
 	local lines = vim.api.nvim_buf_get_lines(0, 1,-1, {strictindexing = false})
 	Newlines = {}
+	local a = {}
+	local b = {}
 	-- 	io.input(filename)
 	for i,v in ipairs(lines) do
-	  local a = filename .. ":" .. i .. ": " .. v .."@"
-		local b = string.gsub(a, '%.%s+@',  '%.@@@')
-		Newlines[i] = string.gsub(b, '%.%s+', '\n' .. filename .. ":" .. i .. ":")
+	  a[i] = filename .. ":" .. i .. ": " .. v .."@"
+		b[i] = string.gsub(a, '%.%s+@',  '.@@@')
+		Newlines[i] = string.gsub(b[i], '%.%s+', '\n' .. filename .. ":" .. i .. ":")
 	end
 local toString = function()
 	local string = ""
