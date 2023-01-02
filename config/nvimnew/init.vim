@@ -272,7 +272,7 @@ inoremap <C-]> <C-x><C-]>
  "   \ 'ctrl-t': 'tab split',
  "   \ 'ctrl-x': 'split',
  "   \ 'ctrl-m': function('s:mybuild_quickfix_list') }
-nnoremap <m-t> :up<cr>:BTags<cr>:call s:myquick()<cr>:lopen<cr>
+nnoremap <m-t> :up<cr>:BTags<cr>
 nnoremap <m-s> :up<cr>:lua Sentence()<cr>
 
 " function! Jumpback() 
@@ -438,6 +438,7 @@ function! Send()
   endfunction
 function! CompileLatex()
   " silent call ClearLatex()
+	up
   let buf=bufname()
   silent te pwsh -c latexmk -pvc -halt-on-error -synctex=1 -file-line-error -f %
   silent execute "buffer" buf
