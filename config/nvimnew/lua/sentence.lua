@@ -20,7 +20,7 @@ local tempfile = 'C:\\tmp\\@s_' .. filenameshort
 	end
 	local string = ""
 	for i,v in ipairs(Newlines) do
-		string = string .. v
+		string = string .. ' ' .. v
 	end
 	Temp = io.open(tempfile, 'w')
 	Temp:write(Newlines[2])
