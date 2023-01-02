@@ -22,15 +22,16 @@ local tempfile = 'C:\\tmp\\@s_' .. filenameshort
 		-- Newlines[i] = string.gsub(c[i], )
 	end
 local toString = function()
-	local string = ""
+	temp = io.open(tempfile, 'a')
 	for i,v in ipairs(Newlines) do
-		string = string .. v
+		Temp:write(Newlines[i])
 	end
-	return string
+	Temp:close()
+	-- return string
 end
-Temp = io.open(tempfile, 'w')
-Temp:write(toString())
-Temp:close()
+-- Temp = io.open(tempfile, 'w')
+-- Temp:write(toString())
+-- Temp:close()
 -- vim.fn.echo(Newlines)
 -- vim.fn.setloclist(0, Newlines)
 end
