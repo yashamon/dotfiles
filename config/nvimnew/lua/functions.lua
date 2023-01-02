@@ -52,10 +52,10 @@ Sentence = function ()
    -- Wait()
 end
 --This function finds the filename when given a complete path
--- GetFilename = function(path)
---     local start, finish = path:find('[%w%s!-={-|]+[_%.].+')
---     return path:sub(start,#path)
--- end
+local getFilename = function(path)
+     local start, finish = path:find('[%w%s!-={-|]+[_%.].+')
+     return path:sub(start,#path)
+end
 CreateLineList = WriteLine
 -- CreateLineList = function ()
 	-- local filename = vim.fn.substitute(vim.fn.expand('%:p'), "\\", "/", "g")
@@ -72,13 +72,14 @@ end
 -- 	local filenameshort = getFilename(vim.fn.bufname())
 -- 	local commandline = "lg " .. "/tmp/@l_" .. filenameshort
 LoadLine = function()
-	local filenameshort = GetFilename(vim.fn.bufname())
+	-- local filenameshort = GetFilename(vim.fn.bufname())
+	local filenameshort = vim.fn.bufname()
   -- vim.fn.jobwait({Idline})
   local commandline = "lg " .. "/tmp/@l_" .. filenameshort
 	vim.cmd(commandline)
 end
 LoadSentence = function()
-  local filenameshort = GetFilename(vim.fn.bufname())
+  local filenameshort = vim.fn.bufname()
   vim.fn.jobwait({IdSentence})
   local commandsentence = "lg " .. "/tmp/@s_" .. filenameshort
   vim.cmd(commandsentence)
