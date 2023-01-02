@@ -13,7 +13,8 @@ local tempfile = 'C:\\tmp\\@l_' .. filenameshort
 	Newlines = {}
 	-- 	io.input(filename)
 	for i,v in ipairs(lines) do
-	  Newlines[i] = filename .. ":" .. i .. ": " .. v
+	  -- Newlines[i] = filename .. ":" .. i .. ": " .. v
+		Newlines[i] = v
 		-- print(Newlines[i])
 	end
 local toString = function()
