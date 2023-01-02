@@ -1,12 +1,12 @@
 let s:plug_dir = expand('/tmp/plugged/vim-plug')" 
-" if !filereadable(s:plug_dir .. '/plug.vim') 3 4 5 6 7 8
+" if !filereadable(s:plug_dir .. '/plug.vim') 3 4 5 6
 "    execute printf('!curl -fLo %s/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim', s:plug_dir) 
 " end
 call plug#begin(s:plug_dir)
 Plug 'nvim-telescope/telescope-fzf-native.nvim', { 'branch': 'main', 'do': 'make' } 
 Plug 'folke/todo-comments.nvim', { 'branch': 'main' }
 Plug 'nvim-telescope/telescope-file-browser.nvim'
-Plug 'lmburns/lf.nvim'
+" Plug 'lmburns/lf.nvim'
 " Plug 'lewis6991/gitsigns.nvim', { 'branch': 'main' }
 " Plug 'folke/noice.nvim', { 'branch': 'main' }
 Plug 'L3MON4D3/LuaSnip'
@@ -461,6 +461,7 @@ let filenameroot=expand('%:t:r')
 let filenamePDFLinux=b:filenamedir . "/buildback/" . filenameroot . ".pdf"
 let b:filenamePDFWindows="build\\" . filenameroot . ".pdf"
 " echo b:filenamePDFWindows testingu
+" asdf
 let execstrLinux="silent te zathura --synctex-forward " . linenumber . ":" . colnumber . ":" . filenametexwhole . " " . filenamePDFLinux
 let execstrWindows="silent te pwsh -c C:/Users/yasha/scoop/shims/sumatrapdf.EXE -reuse-instance " . b:filenamePDFWindows . " -forward-search " . filenametex . " " . linenumber
 exec execstrWindows
