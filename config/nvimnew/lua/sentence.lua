@@ -24,7 +24,7 @@ local tempfile = 'C:\\tmp\\@l_' .. filenameshort
 local toString = function()
 	local string = ""
 	for i,v in ipairs(Newlines) do
-		string = string .. v .. '\n'
+		string = string .. v
 	end
 	return string
 end
