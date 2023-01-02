@@ -427,6 +427,7 @@ function! ClearLatex()
 endfunction 
 function! Send()
   " silent call ClearLatex()
+	up
   let b:filenamedir=expand('%:p:h')
   let b:filename=expand('%:t:r')
   let buf=bufname()
