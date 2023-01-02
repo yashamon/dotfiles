@@ -103,7 +103,8 @@ nmap <m-7> :ZenMode<cr>:mksession!<cr>
 nnoremap <leader>u <cr>:UndotreeToggle<CR>
 noremap <leader>c :'<,'>CommentToggle<cr>
 
-" language
+" commands
+command! SEND silent call Send()
 command! ES set spelllang=es
 " cmap ES set spelllang=es<cr>
 command! EN set spelllang=en_us
@@ -113,7 +114,7 @@ command! LT LspStart ltex
 command! LTo LspStop ltex
 
 nnoremap <leader>f :up<cr>:lua Server()<cr>:te lf<cr>i
-nnoremap <leader>lg :up<cr>:lua Server()<cr>:lazygit<cr>i
+nnoremap <leader>lg :up<cr>:lua Server()<cr>:te lazygit<cr>i
 " nnoremap <leader>tt :FloatermToggle<cr>
 nnoremap <leader>t :up<cr>:lua Server()<cr>:edit term://nu<cr><cr>
 nnoremap <c-,> :cprevious<cr>
@@ -162,7 +163,6 @@ noremap gww /{\\|}<CR>
 noremap gbw ?{\\|}<CR>
 noremap gwc /[\\|]<CR>
 noremap gbc ?[\\|]<CR>
-
 
 
 " copy paste stuff 
@@ -424,7 +424,6 @@ nnoremap <leader>e :silent call ToggleQuickFix()<CR>
 function! ClearLatex()
   silent !rm ./build/* 
 endfunction 
-command! SEND silent call Send()
 function! Send()
   " silent call ClearLatex()
   let b:filenamedir=expand('%:p:h')
