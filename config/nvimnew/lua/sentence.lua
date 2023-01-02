@@ -18,7 +18,7 @@ WriteSentence = function()
 		if i > 1 then
 			a[i] = v .."@"
 		else
-			a[i] = filenameshort .. ":" .. i .. ": " .. v 
+			a[i] = filenameshort .. ":" .. i .. ": " .. v
 		end
 		b[i] = string.gsub(a[i], '%.%s+@',  '%.@@@')
 		Newlines[i] = string.gsub(string.gsub(string.gsub(b[i], '%.%s+', '\n' .. filenameshort .. ":" .. i .. ": "), '\\', ' '), '%$', '')
