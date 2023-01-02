@@ -25,6 +25,7 @@ Line = function()
 end
 
 Sentence = function ()
+	
    vim.fn.jobwait({IdSentence})
    vim.cmd('lopen 20')
    if vim.w.bqf_enabled then
