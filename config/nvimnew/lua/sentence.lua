@@ -10,8 +10,8 @@ WriteSentence = function()
 	local filename = vim.fn.expand('%:p')
 	local lines = vim.api.nvim_buf_get_lines(0, 0,-1, {strictindexing = false})
 	Newlines = {}
-	local a = {}
-	local b = {}
+	a = {}
+	b = {}
 	-- local c = {} filenameshort .. ":" .. i .. ": " ..
 	
 	for i,v in ipairs(lines) do
