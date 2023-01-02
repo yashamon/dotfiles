@@ -1,9 +1,9 @@
--- local ModuleLines = {} 1 2 3 4 5 6 7 8 9 10 11
+-- local ModuleLines = {} 
 GetFilename = function(path)
     local start, finish = path:find('[%w%s!-={-|]+[_%.].+')
     return path:sub(start,#path)
 end
-WriteLine = function()	
+WriteSentence = function()	
 local filenameshort = vim.fn.bufname()
 local tempfile = 'C:\\tmp\\@l_' .. filenameshort
 -- ToList = function()
