@@ -25,8 +25,6 @@ local tempfile = 'C:\\tmp\\@s_' .. filenameshort
 	Temp = io.open(tempfile, 'w')
 	Temp:write(string)
 	Temp:close()
--- vim.fn.echo(Newlines)
--- vim.fn.setloclist(0, Newlines)
 end
 
 
