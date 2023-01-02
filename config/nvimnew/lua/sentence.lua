@@ -5,7 +5,7 @@ GetFilename = function(path)
     return path:sub(start,#path)
 end
 WriteSentence = function()	
-local filenameshort = string.gsub(vim.fn.bufname(), '\\', '/')
+local filenameshort = vim.fn.bufname()
 local tempfile = 'C:\\tmp\\@s_' .. vim.fn.bufname()
 	local filename = vim.fn.expand('%:p')
 	local lines = vim.api.nvim_buf_get_lines(0, 0,-1, {strictindexing = false})
