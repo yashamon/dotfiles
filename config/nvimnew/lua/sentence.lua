@@ -19,14 +19,11 @@ local tempfile = 'C:\\tmp\\@s_' .. filenameshort
 	  a[i] = filename .. ":" .. i .. ": " .. v .."@"
 		b[i] = string.gsub(a[i], '%.%s+@',  '%.@@@')
 		Newlines[i] = string.gsub(b[i], '%.%s+', '\n' .. filename .. ":" .. i .. ": ")
-		-- Newlines[i] = string.gsub(c[i], )
 	end
--- local toString = function()
-		-- Temp:write(Newlines[1])
-
 	local string = ""
 	for i,v in ipairs(Newlines) do
 		string = string .. v
+	end
 	Temp = io.open(tempfile, 'w')
 	Temp:write(string)
 	Temp:close()
