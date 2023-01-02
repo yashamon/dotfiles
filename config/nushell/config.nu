@@ -18,7 +18,7 @@ def nf [] {
 let $ho = (fd . $HOME -H -E /.undo/* -E /undo/* -E /tmp/* -E *.pdf | fzf | str trim)
 neovide --multigrid $ho 
 }
-
+def r [name: string] { rm --recursive --trash $name }
 def killn [name: string] { ps | where name =~ $name | each {|it| kill --force $it.pid} }
 
 alias hello = ( echo "hello" )
