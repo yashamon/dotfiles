@@ -15,7 +15,7 @@ local tempfile = 'C:\\tmp\\@l_' .. filenameshort
 	-- 	io.input(filename)
 	for i,v in ipairs(lines) do
 	  a[i] = filename .. ":" .. i .. ": " .. v .."@"
-		b[i] = string.gsub(a, '%.%s+@',  '.@@@')
+		b[i] = string.gsub(a[i], '%.%s+@',  '.@@@')
 		Newlines[i] = string.gsub(b[i], '%.%s+', '\n' .. filename .. ":" .. i .. ":")
 	end
 local toString = function()
