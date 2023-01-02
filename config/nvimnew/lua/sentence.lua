@@ -1,4 +1,5 @@
--- local ModuleLines = {} 
+-- local ModuleLines = {}. test
+-- 
 GetFilename = function(path)
     local start, finish = path:find('[%w%s!-={-|]+[_%.].+')
     return path:sub(start,#path)
@@ -10,8 +11,8 @@ local tempfile = 'C:\\tmp\\@l_' .. filenameshort
 	local filename = vim.fn.expand('%:p')
 	local lines = vim.api.nvim_buf_get_lines(0, 1,-1, {strictindexing = false})
 	Newlines = {}
-	local a = {}
-	local b = {}
+	a = {}
+	b = {}
 	-- 	io.input(filename)
 	for i,v in ipairs(lines) do
 	  a[i] = filename .. ":" .. i .. ": " .. v .."@"
