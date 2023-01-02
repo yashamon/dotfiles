@@ -6,6 +6,7 @@ call plug#begin(s:plug_dir)
 Plug 'nvim-telescope/telescope-fzf-native.nvim', { 'branch': 'main', 'do': 'make' } 
 Plug 'folke/todo-comments.nvim', { 'branch': 'main' }
 Plug 'nvim-telescope/telescope-file-browser.nvim'
+Plug 'lmburns/lf.nvim'
 " Plug 'lewis6991/gitsigns.nvim', { 'branch': 'main' }
 " Plug 'folke/noice.nvim', { 'branch': 'main' }
 Plug 'L3MON4D3/LuaSnip'
