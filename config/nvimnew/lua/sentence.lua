@@ -12,9 +12,9 @@ local tempfile = 'C:\\tmp\\@s_' .. filenameshort
 	Newlines = {}
 	local a = {}
 	local b = {}
-	-- local c = {}
+	-- local c = {} filenameshort .. ":" .. i .. ": " ..
 	for i,v in ipairs(lines) do
-	  a[i] = filenameshort .. ":" .. i .. ": " .. v .."@"
+	  a[i] = v .."@"
 		b[i] = string.gsub(a[i], '%.%s+@',  '%.@@@')
 		Newlines[i] = string.gsub(string.gsub(string.gsub(b[i], '%.%s+', '\n' .. filenameshort .. ":" .. i .. ": "), '\\', ' '), '%$', '')
 	end
