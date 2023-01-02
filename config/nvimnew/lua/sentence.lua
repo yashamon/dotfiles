@@ -23,9 +23,11 @@ local tempfile = 'C:\\tmp\\@s_' .. filenameshort
 	end
 local toString = function()
 	Temp = io.open(tempfile, 'a')
-	for i,v in ipairs(Newlines) do
-		Temp:write(Newlines[i])
-	end
+	Temp:write(Newlines[1])
+
+	-- for i,v in ipairs(Newlines) do
+		-- Temp:write(Newlines[i])
+	-- end
 	Temp:close()
 	-- return string
 end
