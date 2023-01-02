@@ -7,14 +7,12 @@ end
 WriteSentence = function()	
 local filenameshort = vim.fn.bufname()
 local tempfile = 'C:\\tmp\\@s_' .. filenameshort
--- ToList = function()
 	local filename = vim.fn.expand('%:p')
 	local lines = vim.api.nvim_buf_get_lines(0, 0,-1, {strictindexing = false})
 	Newlines = {}
 	a = {}
 	b = {}
 	c = {}
-	-- 	io.input(filename)
 	for i,v in ipairs(lines) do
 	  a[i] = filename .. ":" .. i .. ": " .. v .."@"
 		b[i] = string.gsub(a[i], '%.%s+@',  '%.@@@')
