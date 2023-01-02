@@ -25,7 +25,11 @@ WriteSentence = function()
 	end
 	local string = ""
 	for i,v in ipairs(Newlines) do
-		string = string .. ' ' .. v
+		if not string == "" then
+			string = string .. ' ' .. v
+		else
+			string = string .. v
+		end
 	end
 	local temp = io.open(tempfile, 'w')
 	temp:write(string)
