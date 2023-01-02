@@ -14,13 +14,13 @@ local tempfile = 'C:\\tmp\\@s_' .. filenameshort
 	b = {}
 	c = {}
 	for i,v in ipairs(lines) do
-	  a[i] = filename .. ":" .. i .. ": " .. v .."@"
+	  a[i] = filenameshort .. ":" .. i .. ": " .. v .."@"
 		b[i] = string.gsub(a[i], '%.%s+@',  '%.@@@')
 		Newlines[i] = string.gsub(b[i], '%.%s+', '\n' .. filename .. ":" .. i .. ": ")
 	end
 	local string = ""
 	for i,v in ipairs(Newlines) do
-		string = string .. '\n' .. v
+		string = string .. ' ' .. v
 	end
 	Temp = io.open(tempfile, 'w')
 	Temp:write(string)
