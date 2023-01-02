@@ -21,7 +21,7 @@ local tempfile = 'C:\\tmp\\@s_' .. filenameshort
 		Newlines[i] = string.gsub(b[i], '%.%s+', '\n' .. filename .. ":" .. i .. ": ")
 		-- Newlines[i] = string.gsub(c[i], )
 	end
-local toString = function()
+-- local toString = function()
 	Temp = io.open(tempfile, 'w')
 	Temp:write(Newlines[1])
 
@@ -30,7 +30,7 @@ local toString = function()
 	-- end
 	Temp:close()
 	-- return string
-end
+-- end
 -- Temp = io.open(tempfile, 'w')
 -- Temp:write(toString())
 -- Temp:close()
