@@ -38,6 +38,7 @@ WriteSentence = function()
 	temp:close()
 end
 
+test2. test
 -- test.
 -- Find me 1
 -- convert Testing to a string and write to Tempfile.
