@@ -28,7 +28,7 @@ end
 Sentence = function ()
 	WriteSentence()
 	LoadSentence()
-	vim.fn.jobwait({IdSentence})
+	-- vim.fn.jobwait({IdSentence})
 	vim.cmd('lopen 20')
 	if vim.w.bqf_enabled then
 	local winid = vim.api.nvim_get_current_win()
@@ -64,10 +64,7 @@ CreateLineList = WriteLine
 	-- local filename = vim.fn.substitute(vim.fn.expand('%:p'), "\\", "/", "g")
 	-- Idline = vim.fn.jobstart({"nu", "C:/Users/yasha/dotfiles/scripts/Line.nu" filename})
 -- end
-CreateSentenceList = function()
-local filename = vim.fn.substitute(vim.fn.expand('%:p'), "\\", "/", "g")
-IdSentence = vim.fn.jobstart({"nu", "C:/Users/yasha/dotfiles/scripts/sentence.nu", filename})
-end
+CreateSentenceList = WriteSentence
 CreateList = function()
 	CreateLineList()
 	CreateSentenceList()
@@ -84,7 +81,7 @@ end
 LoadSentence = function()
 	-- local filenameshort = getFilename(vim.fn.bufname())
   local filenameshort = vim.fn.bufname()
-  vim.fn.jobwait({IdSentence})
+  -- vim.fn.jobwait({IdSentence})
   local commandsentence = "lg " .. "/tmp/@s_" .. filenameshort
   vim.cmd(commandsentence)
 end
