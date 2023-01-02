@@ -16,12 +16,12 @@ WriteSentence = function()
 	
 	for i,v in ipairs(lines) do
 		if i > 1 then
-			a[i] = v .."@"
+			a[i] = v
 		else
 			a[i] = filenameshort .. ":" .. i .. ": " .. v
 		end
-		b[i] = string.gsub(a[i], '%.%s+@',  '%.@@@')
-		Newlines[i] = string.gsub(string.gsub(string.gsub(b[i], '%.%s+', '\n' .. filenameshort .. ":" .. i .. ": "), '\\', ' '), '%$', '')
+		-- b[i] = string.gsub(a[i], '%.%s+@',  '%.@@@')
+		Newlines[i] = string.gsub(string.gsub(string.gsub(b[i], '%.', '\n' .. filenameshort .. ":" .. i .. ": "), '\\', ' '), '%$', '')
 	end
 	local string = ""
 	for i,v in ipairs(Newlines) do
