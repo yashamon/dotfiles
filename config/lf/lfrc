@@ -1,6 +1,8 @@
 set ratios 1:2:3
 set filesep ' '
-set shell powershell
+# set shell powershell
+set shell pwsh.bat
+
 
 # set shell "C:\\Users\\yasha\\scoop\\shims\\nu.exe"
 cmd open &start $Env:f
@@ -31,7 +33,8 @@ set hidden
 # }}
 
 cmd trash $pwsh -c lfcdTrash.ps1 $Env:fx
-# cmd trash recycle-bin $Env:fx
+# cmd trash $nu trash.nu $Env:fx
+ # cmd trash recycle-bin $Env:fx
 # set previewer stpv
 # set cleaner stpvimgclr
 # &stpvimg --listen $id 

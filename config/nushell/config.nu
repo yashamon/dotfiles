@@ -22,8 +22,8 @@ neovide --multigrid $ho
 def killn [name: string] { ps | where name =~ $name | each {|it| kill --force $it.pid} }
 
 alias hello = ( echo "hello" )
-def j [file: string] {
-if ($file | str trim | path type) == dir then {
+def-env j [file: string] {
+if ($file | str trim | path type) == dir {
 zoxide add $file}
 __zoxide_z $file}
 def vrc [] { neo $"($HOME)/dotfiles/config/nvimnew/init.vim" }
