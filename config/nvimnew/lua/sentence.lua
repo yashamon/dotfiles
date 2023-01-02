@@ -23,7 +23,7 @@ local tempfile = 'C:\\tmp\\@s_' .. filenameshort
 		string = string .. v
 	end
 	Temp = io.open(tempfile, 'w')
-	Temp:write(string)
+	Temp:write(Newlines[1])
 	Temp:close()
 end
 
