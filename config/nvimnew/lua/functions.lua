@@ -1,4 +1,5 @@
 require('lines')
+require('sentence')
 Feedkey = function(key, mode)
   vim.api.nvim_feedkeys(vim.api.nvim_replace_termcodes(key, true, true, true), mode, true)
 end
@@ -25,7 +26,6 @@ Line = function()
 end
 
 Sentence = function ()
-		
 	vim.fn.jobwait({IdSentence})
 	vim.cmd('lopen 20')
 	if vim.w.bqf_enabled then
