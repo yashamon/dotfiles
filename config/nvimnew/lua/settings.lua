@@ -19,6 +19,9 @@
 
 -- vim.opt.listchars:append "eol:↴"
 -- You don't need to set any of these options.
+
+
+
 require("telescope").setup {
   extensions = {
     file_browser = {
