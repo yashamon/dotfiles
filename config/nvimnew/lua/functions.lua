@@ -13,7 +13,7 @@ Line = function()
 	WriteLine()
 	LoadLine()
    -- vim.fn.jobwait({IdLine})
-   vim.cmd('lopen 40')
+   vim.cmd('lopen 20')
    if vim.w.bqf_enabled then
     local winid = vim.api.nvim_get_current_win()
     vim.schedule(function()
@@ -26,7 +26,7 @@ end
 
 Sentence = function ()
    vim.fn.jobwait({IdSentence})
-   vim.cmd('lopen')
+   vim.cmd('lopen 20')
    if vim.w.bqf_enabled then
     local winid = vim.api.nvim_get_current_win()
     vim.schedule(function()
