@@ -22,7 +22,7 @@ local tempfile = 'C:\\tmp\\@s_' .. filenameshort
 		-- Newlines[i] = string.gsub(c[i], )
 	end
 local toString = function()
-	Temp = io.open(tempfile, 'a')
+	Temp = io.open(tempfile, 'w')
 	Temp:write(Newlines[1])
 
 	-- for i,v in ipairs(Newlines) do
