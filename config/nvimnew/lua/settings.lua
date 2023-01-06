@@ -1,26 +1,5 @@
-require("noice").setup({
-  lsp = {
-    -- override markdown rendering so that **cmp** and other plugins use **Treesitter**
-    override = {
-      ["vim.lsp.util.convert_input_to_markdown_lines"] = true,
-      ["vim.lsp.util.stylize_markdown"] = true,
-      ["cmp.entry.get_documentation"] = true,
-    },
-  },
-  -- you can enable a preset for easier configuration
-  presets = {
-    bottom_search = true, -- use a classic bottom cmdline for search
-    command_palette = true, -- position the cmdline and popupmenu together
-    long_message_to_split = true, -- long messages will be sent to a split
-    inc_rename = false, -- enables an input dialog for inc-rename.nvim
-    lsp_doc_border = false, -- add a border to hover docs and signature help
-  },
-})
 
 -- vim.opt.listchars:append "eol:↴"
--- You don't need to set any of these options.
-
-
 
 require("telescope").setup {
   extensions = {
@@ -64,11 +43,23 @@ require'nvim-treesitter.configs'.setup {
   },
 }
 require('leap').setup {
-  max_aot_targets = nil,
-  highlight_unlabeled = true,
-  max_highlighted_traversal_targets = 20,
-  case_sensitive = false,
-  -- Sets of characters that should match each other.
+-- max_phase_one_targets = nil,
+highlight_unlabeled_phase_one_targets = false,
+max_highlighted_traversal_targets = 20,
+case_sensitive = false,
+substitute_chars = {},
+safe_labels = { 'f', 'n', 'u', 't', 'j', 'k', 'g', ';', 'e', 'z', 'o', 'm', 'b' },
+labels = { 'f', 'n', 'u', 't', 'j', 'k', 'g', ';', 'e', 'z', 'o', 'm', 'b' },
+special_keys = {
+  repeat_search = '<enter>',
+  next_phase_one_target = '<enter>',
+  next_target = {'<enter>', ';'},
+  prev_target = {'<tab>', ','},
+  next_group = '<space>',
+  prev_group = '<tab>',
+  multi_accept = '<enter>',
+  multi_revert = '<backspace>',
+},
   -- Obvious candidates are braces and quotes ('([{', ')]}', '`"\'').
   equivalence_classes =
   {
