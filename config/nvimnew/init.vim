@@ -8,7 +8,7 @@ Plug 'folke/todo-comments.nvim', { 'branch': 'main' }
 Plug 'nvim-telescope/telescope-file-browser.nvim'
 " Plug 'lmburns/lf.nvim'
 " Plug 'lewis6991/gitsigns.nvim', { 'branch': 'main' }
-" Plug 'folke/noice.nvim', { 'branch': 'main' }
+Plug 'folke/noice.nvim', { 'branch': 'main' }
 Plug 'L3MON4D3/LuaSnip'
 Plug 'saadparwaiz1/cmp_luasnip'
 Plug 'nvim-treesitter/playground'
@@ -108,6 +108,9 @@ command Tw50 set tw=50
 command Tw0 set tw=0
 command! SEND silent call Send()
 command! ES set spelllang=es
+command! FR set spelllang=fr
+command! PT set spelllang=pt
+
 " cmap ES set spelllang=es<cr>
 command! EN set spelllang=en_us
 command! Ser lua Server()
