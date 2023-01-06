@@ -8,7 +8,7 @@ Plug 'folke/todo-comments.nvim', { 'branch': 'main' }
 Plug 'nvim-telescope/telescope-file-browser.nvim'
 " Plug 'lmburns/lf.nvim'
 " Plug 'lewis6991/gitsigns.nvim', { 'branch': 'main' }
-Plug 'folke/noice.nvim', { 'branch': 'main' }
+" Plug 'folke/noice.nvim', { 'branch': 'main' }
 Plug 'L3MON4D3/LuaSnip'
 Plug 'saadparwaiz1/cmp_luasnip'
 Plug 'nvim-treesitter/playground'
