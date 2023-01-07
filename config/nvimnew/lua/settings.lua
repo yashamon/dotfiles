@@ -1,4 +1,3 @@
-
 -- vim.opt.listchars:append "eol:↴"
 
 require("telescope").setup {

@@ -8,8 +8,8 @@ Plug 'folke/todo-comments.nvim', { 'branch': 'main' }
 Plug 'nvim-telescope/telescope-file-browser.nvim'
 " Plug 'lmburns/lf.nvim'
 " Plug 'lewis6991/gitsigns.nvim', { 'branch': 'main' }
-Plug 'folke/noice.nvim', { 'branch': 'main' }
-Plug 'MunifTanjim/nui.nvim', { 'branch': 'main' }
+" Plug 'folke/noice.nvim', { 'branch': 'main' }
+" Plug 'MunifTanjim/nui.nvim', { 'branch': 'main' }
 Plug 'L3MON4D3/LuaSnip'
 Plug 'saadparwaiz1/cmp_luasnip'
 Plug 'nvim-treesitter/playground'
@@ -181,7 +181,7 @@ noremap <m-p> <c-r>+
 inoremap <m-p> <c-r>+
 " noremap D "0D:wa<cr>
 noremap d "_d
-noremap cg "_cgn
+nnoremap cg "_cgn
 nnoremap dd "_dd
 noremap c "_c
 noremap s "_s
