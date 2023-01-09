@@ -462,7 +462,7 @@
   "Section": {
     "prefix": ["sec", "section"],
     "body": [
-      "\\section{${1:name}} \\label{sec:$1}"
+      "\\section{$1} \\label{sec:$1}"
       ],
     "description": "Section"
   },
@@ -497,7 +497,7 @@
   "Sub Sub Section": {
     "prefix": "subsubs",
     "body": [
-    "\\subsubsection{${1:subsection name}} % (fold)",
+    "\\subsubsection{${1:}}",
       "\\label{sec:$1}"
       ],
     "description": "Sub Sub Section"
@@ -505,7 +505,7 @@
   "Table:Ref": {
     "prefix": "table:ref",
     "body": [
-      "${1:Table}~\\ref{tab:$2}$0"
+      "${1:}~\\ref{$2}$0"
     ],
     "description": "Table Reference"
   },
