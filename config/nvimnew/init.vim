@@ -181,7 +181,7 @@ noremap <m-p> <c-r>+
 inoremap <m-p> <c-r>+
 " noremap D "0D:wa<cr>
 noremap d "_d
-nnoremap cgn "_cgn
+nnoremap cg "_cgn
 nnoremap dd "_dd
 noremap c "_c
 noremap s "_s
@@ -278,8 +278,6 @@ inoremap <C-]> <C-x><C-]>
  "   \ 'ctrl-x': 'split',
  "   \ 'ctrl-m': function('s:mybuild_quickfix_list') }
 nnoremap <m-t> :up<cr>:BTags<cr>
-nnoremap <m-s> :up<cr>:lua Sentence()<cr>
-
 " function! Jumpback() 
 "   K=bufname()
 "   normal viwhy<esc>:bdelete<cr>:buffer K<c-r>+<cr>:ZenMode<cr>
