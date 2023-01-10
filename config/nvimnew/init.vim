@@ -27,10 +27,18 @@ require("lazy").setup({
 {'neovim/nvim-lspconfig', lazy = true },
 {'williamboman/mason.nvim', lazy = true},
 {'williamboman/mason-lspconfig.nvim', lazy = true},
-'hrsh7th/nvim-cmp', 
-'hrsh7th/cmp-buffer', 
-'hrsh7th/cmp-nvim-lsp', 
-{'quangnguyen30192/cmp-nvim-tags', lazy = true},
+{
+    "hrsh7th/nvim-cmp",
+    -- load cmp on InsertEnter
+    event = "InsertEnter",
+    -- these dependencies will only be loaded when cmp loads
+    -- dependencies are always lazy-loaded unless specified otherwise
+    dependencies = {
+      "hrsh7th/cmp-nvim-lsp",
+      "hrsh7th/cmp-buffer",
+			'quangnguyen30192/cmp-nvim-tags',
+    },
+ },
 {'terrortylor/nvim-comment', cmd = "CommentToggle"},
 'nvim-lualine/lualine.nvim', 
 {'justinhoward/fzf-neoyank', lazy = true},
@@ -42,8 +50,8 @@ lazy = false, priority = 1000,
 			end,},
 {'nvim-treesitter/nvim-treesitter', build = ":TSUpdate"},
 'Shougo/neoyank.vim', 'Shougo/denite.nvim', 
-{'junegunn/fzf', build = ":call fzf#install()" }, 
-'junegunn/fzf.vim',
+{'junegunn/fzf', lazy = true, build = ":call fzf#install()" }, 
+{'junegunn/fzf.vim', lazy = true},
 {'mbbill/undotree', cmd = "UndotreeToggle"}, 
 'kevinhwang91/nvim-bqf', 
 'nvim-lua/plenary.nvim', 
