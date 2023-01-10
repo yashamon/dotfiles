@@ -12,16 +12,6 @@ if not vim.loop.fs_stat(lazypath) then
 end
 vim.opt.rtp:prepend(lazypath)
 require("lazy").setup({
-{'kevinhwang91/nvim-ufo', dependencies = 'kevinhwang91/promise-async',
-config = function()
-	vim.o.foldcolumn = '1' -- '0' is not bad
-	vim.o.foldlevel = 99 -- Using ufo provider need a large value, feel free to decrease the value
-	vim.o.foldlevelstart = 99
-	vim.o.foldenable = true
-	vim.keymap.set('n', 'zR', require('ufo').openAllFolds)
-vim.keymap.set('n', 'zM', require('ufo').closeAllFolds)
-	end
-},
 {
 	"arsham/yanker.nvim",
   dependencies = { "arsham/arshlib.nvim", "junegunn/fzf.vim" },
@@ -353,7 +343,8 @@ nnoremap o o<space><esc>"_s
 nnoremap <C-c> :set hlsearch!<cr>
 vnoremap <silent> <cr> "*y:silent! let searchTerm = '\V'.substitute(escape(@*, '\/'), "\n", '\\n', "g") <bar> let @/ = searchTerm <bar> echo '/'.@/ <bar> call histadd("search", searchTerm) <bar> set hls<cr><cr>
 inoremap <m-d> <C-w>
-
+"Quickfix
+nnoremap <leader>e :silent call ToggleQuickFix()<CR>
 " -1 for jumping backwards.
 inoremap <silent> <S-Tab> <cmd>lua require'luasnip'.jump(-1)<Cr>
 inoremap <silent> <m-j> <cmd>lua require('luasnip').jump(1)<Cr>
@@ -420,7 +411,6 @@ end
 EOF
         endif
 endfunction 
-
 nnoremap <leader>e :silent call ToggleQuickFix()<CR>
 function! ClearLatex()
   silent !rm ./build/* 
