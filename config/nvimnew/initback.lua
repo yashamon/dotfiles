@@ -38,7 +38,7 @@ require("lazy").setup({
 'Shougo/neoyank.vim', 'Shougo/denite.nvim', 
 {'junegunn/fzf', build = ":call fzf#install()" }, 
 'junegunn/fzf.vim',
-{'mbbill/undotree'}, 
+{'mbbill/undotree', cmd = "UndotreeToggle"}, 
 'kevinhwang91/nvim-bqf', 
 'nvim-lua/plenary.nvim', 
 'nvim-telescope/telescope.nvim', 

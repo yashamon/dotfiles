@@ -38,7 +38,7 @@ vim.o.guicursor = 'n-v-c:block,i-ci-ve:ver25,r-cr:hor20,o:hor50,a:blinkwait700-b
 opt.tags:append {home .. "/workspacemodules/tags", "./tags"}
 -- Set colorscheme font
 opt.guifont = "JetBrains Mono:h18"
-vim.cmd.colorscheme('gruvbox')
+-- vim.cmd.colorscheme('gruvbox')
 vim.cmd [[set shortmess+=c]]
 -- vim.cmd [[set shortmess-=F]]
 vim.cmd [[let g:firenvim_config = { 

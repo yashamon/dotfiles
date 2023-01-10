@@ -1,57 +1,57 @@
-" let s:plug_dir = expand('/tmp/plugged/vim-plug')" 
-" " " if !filereadable(s:plug_dir .. '/plug.vim') 3 4 5 6
-" " "    execute printf('!curl -fLo %s/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim', s:plug_dir) testu
-" " " end
-"  call plug#begin(s:plug_dir)
-"  " Plug 'arsham/yanker.nvim'
-"  " Plug 'arsham/arshlib.nvim"
-"  Plug 'nvim-telescope/telescope-fzf-native.nvim', { 'branch': 'main', 'do': 'make' } 
-"  Plug 'folke/todo-comments.nvim', { 'branch': 'main' }
-"  Plug 'nvim-telescope/telescope-file-browser.nvim'
-"  " Plug 'lmburns/lf.nvim'
-"  " Plug 'lewis6991/gitsigns.nvim', { 'branch': 'main' }
-"  " Plug 'folke/noice.nvim', { 'branch': 'main' }
-"  " Plug 'MunifTanjim/nui.nvim', { 'branch': 'main' }
-"  Plug 'L3MON4D3/LuaSnip'
-"  Plug 'saadparwaiz1/cmp_luasnip'
-"  Plug 'nvim-treesitter/playground'
-"  Plug 'LhKipp/nvim-nu', { 'branch': 'main' }
-"  Plug 'lukas-reineke/indent-blankline.nvim'
-"  Plug 'folke/which-key.nvim', { 'branch': 'main' }
-"  Plug 'ggandor/leap.nvim', { 'branch': 'main' }
-"  Plug 'kyazdani42/nvim-web-devicons'
-"  Plug 'glacambre/firenvim', { 'do': { _ -> firenvim#install(0) } }
-"  Plug 'neovim/nvim-lspconfig'
-"  Plug 'williamboman/mason.nvim', { 'branch': 'main' } 
-"  Plug 'williamboman/mason-lspconfig.nvim', { 'branch': 'main' }
-"  Plug 'hrsh7th/nvim-cmp', { 'branch': 'main' }
-"  Plug 'hrsh7th/cmp-buffer', { 'branch': 'main' }
-"  Plug 'hrsh7th/cmp-nvim-lsp', { 'branch': 'main' } 
-"  " Plug 'ray-x/cmp-treesitter'
-"  Plug 'quangnguyen30192/cmp-nvim-tags',  { 'branch': 'main' }  
-"  Plug 'terrortylor/nvim-comment', { 'branch': 'main' }
-"  Plug 'nvim-lualine/lualine.nvim'
-"  Plug 'justinhoward/fzf-neoyank'
-"  Plug 'folke/tokyonight.nvim', { 'branch': 'main' }
-"  Plug 'ellisonleao/gruvbox.nvim', { 'branch': 'main' }
-"  " Plug 'eddyekofo94/gruvbox-flat.nvim' test
-"  Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}  
-"  Plug 'Shougo/neoyank.vim' 
-"  Plug 'Shougo/denite.nvim', { 'do': ':UpdateRemotePlugins' } 
-"  Plug 'junegunn/fzf', { 'do': { -> fzf#install() } } 
-"  Plug 'junegunn/fzf.vim'
-"  Plug 'mbbill/undotree', { 'on': 'UndotreeToggle' }
-"  " Plug 'lewis6991/spellsitter.nvim'
-"  Plug 'kevinhwang91/nvim-bqf', { 'branch': 'main' }
-"  Plug 'nvim-lua/plenary.nvim'
-"  Plug 'nvim-telescope/telescope.nvim'
-"  Plug 'mg979/vim-visual-multi'
-"  Plug 'tpope/vim-surround'
-" "
-"  call plug#end()
+
 lua <<EOF
-require('init')
-require('keymaps')
+local lazypath = vim.fn.stdpath("data") .. "/lazy/lazy.nvim"
+if not vim.loop.fs_stat(lazypath) then
+  vim.fn.system({
+    "git",
+    "clone",
+    "--filter=blob:none",
+    "https://github.com/folke/lazy.nvim.git",
+    "--branch=stable", -- latest stable release
+    lazypath,
+  })
+end
+vim.opt.rtp:prepend(lazypath)
+require("lazy").setup({
+'nvim-telescope/telescope-fzf-native.nvim',
+{'folke/todo-comments.nvim', lazy = true},
+{'L3MON4D3/LuaSnip', lazy = true },
+{'saadparwaiz1/cmp_luasnip', lazy = true},
+{'nvim-treesitter/playground', lazy = true},
+{'LhKipp/nvim-nu', lazy = true},
+'lukas-reineke/indent-blankline.nvim',
+{'folke/which-key.nvim', lazy = false},
+'ggandor/leap.nvim', 
+{'kyazdani42/nvim-web-devicons', lazy = true},
+{'glacambre/firenvim', build = ":call firenvim#install(0)" }, 
+{'neovim/nvim-lspconfig', lazy = true },
+{'williamboman/mason.nvim', lazy = true},
+{'williamboman/mason-lspconfig.nvim', lazy = true},
+'hrsh7th/nvim-cmp', 
+'hrsh7th/cmp-buffer', 
+'hrsh7th/cmp-nvim-lsp', 
+{'quangnguyen30192/cmp-nvim-tags', lazy = true},
+{'terrortylor/nvim-comment', cmd = "CommentToggle"},
+'nvim-lualine/lualine.nvim', 
+{'justinhoward/fzf-neoyank', lazy = true},
+{'folke/tokyonight.nvim', lazy = true},
+{'ellisonleao/gruvbox.nvim', 
+lazy = false, priority = 1000, 
+    config = function()
+      vim.cmd([[colorscheme gruvbox]])
+			end,},
+{'nvim-treesitter/nvim-treesitter', build = ":TSUpdate"},
+'Shougo/neoyank.vim', 'Shougo/denite.nvim', 
+{'junegunn/fzf', build = ":call fzf#install()" }, 
+'junegunn/fzf.vim',
+{'mbbill/undotree', cmd = "UndotreeToggle"}, 
+'kevinhwang91/nvim-bqf', 
+'nvim-lua/plenary.nvim', 
+'nvim-telescope/telescope.nvim', 
+'mg979/vim-visual-multi', 
+'tpope/vim-surround',
+})
+--require('keymaps')
 require('settings')
 require('functions')
 require('set')
@@ -71,7 +71,7 @@ function! OnUIEnter(event)
 		endif
 	endif
 endfunction
-" autocmd UIEnter * call OnUIEnter(deepcopy(v:event))
+autocmd UIEnter * call OnUIEnter(deepcopy(v:event))
 " autocmd ColorScheme * lua vim.api.nvim_set_hl(0, 'LeapMatch', { fg = "black" })
 
 " autocmd TermClose * if v:event.status ==1 || v:event.status ==0  | exe 'bdelete! '..expand('<abuf>') | endif
