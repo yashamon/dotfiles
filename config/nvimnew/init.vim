@@ -53,11 +53,11 @@ lazy = false, priority = 1000,
 {'junegunn/fzf', lazy = true, build = ":call fzf#install()" }, 
 {'junegunn/fzf.vim', lazy = true},
 {'mbbill/undotree', cmd = "UndotreeToggle"}, 
-'kevinhwang91/nvim-bqf', 
-'nvim-lua/plenary.nvim', 
-'nvim-telescope/telescope.nvim', 
-'mg979/vim-visual-multi', 
-'tpope/vim-surround',
+{'kevinhwang91/nvim-bqf', lazy = true},
+{'nvim-telescope/telescope.nvim', lazy = true, dependencies = "nvim-lua/plenary.nvim",
+},
+{'mg979/vim-visual-multi', lazy = true},
+{'tpope/vim-surround', lazy = true}
 })
 --require('keymaps')
 require('settings')
