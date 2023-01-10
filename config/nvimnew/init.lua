@@ -23,6 +23,8 @@ require("lazy").setup({
 'kyazdani42/nvim-web-devicons', 
 {'glacambre/firenvim', build = ":call firenvim#install(0)" }, 
 'neovim/nvim-lspconfig',
+'williamboman/mason.nvim', 
+'williamboman/mason-lspconfig.nvim', 
 'hrsh7th/nvim-cmp', 
 'hrsh7th/cmp-buffer', 
 'hrsh7th/cmp-nvim-lsp', 
@@ -36,14 +38,14 @@ require("lazy").setup({
 'Shougo/neoyank.vim', 'Shougo/denite.nvim', 
 {'junegunn/fzf', build = ":call fzf#install()" }, 
 'junegunn/fzf.vim',
-{'mbbill/undotree', cmd = ":UndotreeToggle" }, 
+{'mbbill/undotree'}, 
 'kevinhwang91/nvim-bqf', 
 'nvim-lua/plenary.nvim', 
 'nvim-telescope/telescope.nvim', 
 'mg979/vim-visual-multi', 
 'tpope/vim-surround',
 })
-require('keymaps')
+--require('keymaps')
 require('settings')
 require('functions')
 require('set')
