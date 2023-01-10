@@ -1,61 +1,61 @@
-let s:plug_dir = expand('/tmp/plugged/vim-plug')" 
-" if !filereadable(s:plug_dir .. '/plug.vim') 3 4 5 6
-"    execute printf('!curl -fLo %s/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim', s:plug_dir) testu
-" end
-call plug#begin(s:plug_dir)
-" Plug 'arsham/yanker.nvim'
-" Plug 'arsham/arshlib.nvim"
-Plug 'nvim-telescope/telescope-fzf-native.nvim', { 'branch': 'main', 'do': 'make' } 
-Plug 'folke/todo-comments.nvim', { 'branch': 'main' }
-Plug 'nvim-telescope/telescope-file-browser.nvim'
-" Plug 'lmburns/lf.nvim'
-" Plug 'lewis6991/gitsigns.nvim', { 'branch': 'main' }
-" Plug 'folke/noice.nvim', { 'branch': 'main' }
-" Plug 'MunifTanjim/nui.nvim', { 'branch': 'main' }
-Plug 'L3MON4D3/LuaSnip'
-Plug 'saadparwaiz1/cmp_luasnip'
-Plug 'nvim-treesitter/playground'
-Plug 'LhKipp/nvim-nu', { 'branch': 'main' }
-Plug 'lukas-reineke/indent-blankline.nvim'
-Plug 'folke/which-key.nvim', { 'branch': 'main' }
-Plug 'ggandor/leap.nvim', { 'branch': 'main' }
-Plug 'kyazdani42/nvim-web-devicons'
-Plug 'glacambre/firenvim', { 'do': { _ -> firenvim#install(0) } }
-Plug 'neovim/nvim-lspconfig'
-Plug 'williamboman/mason.nvim', { 'branch': 'main' } 
-Plug 'williamboman/mason-lspconfig.nvim', { 'branch': 'main' }
-Plug 'hrsh7th/nvim-cmp', { 'branch': 'main' }
-Plug 'hrsh7th/cmp-buffer', { 'branch': 'main' }
-Plug 'hrsh7th/cmp-nvim-lsp', { 'branch': 'main' } 
-" Plug 'ray-x/cmp-treesitter'
-Plug 'quangnguyen30192/cmp-nvim-tags',  { 'branch': 'main' }  
-Plug 'terrortylor/nvim-comment', { 'branch': 'main' }
-Plug 'nvim-lualine/lualine.nvim'
-Plug 'justinhoward/fzf-neoyank'
-Plug 'folke/tokyonight.nvim', { 'branch': 'main' }
-Plug 'ellisonleao/gruvbox.nvim', { 'branch': 'main' }
-" Plug 'eddyekofo94/gruvbox-flat.nvim' test
-Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}  
-Plug 'Shougo/neoyank.vim' 
-Plug 'Shougo/denite.nvim', { 'do': ':UpdateRemotePlugins' } 
-Plug 'junegunn/fzf', { 'do': { -> fzf#install() } } 
-Plug 'junegunn/fzf.vim'
-Plug 'mbbill/undotree', { 'on': 'UndotreeToggle' }
-" Plug 'lewis6991/spellsitter.nvim'
-Plug 'kevinhwang91/nvim-bqf', { 'branch': 'main' }
-Plug 'nvim-lua/plenary.nvim'
-Plug 'nvim-telescope/telescope.nvim'
-Plug 'mg979/vim-visual-multi'
-Plug 'tpope/vim-surround'
-
-call plug#end()
+" let s:plug_dir = expand('/tmp/plugged/vim-plug')" 
+" " if !filereadable(s:plug_dir .. '/plug.vim') 3 4 5 6
+" "    execute printf('!curl -fLo %s/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim', s:plug_dir) testu
+" " end
+" call plug#begin(s:plug_dir)
+" " Plug 'arsham/yanker.nvim'
+" " Plug 'arsham/arshlib.nvim"
+" Plug 'nvim-telescope/telescope-fzf-native.nvim', { 'branch': 'main', 'do': 'make' } 
+" Plug 'folke/todo-comments.nvim', { 'branch': 'main' }
+" Plug 'nvim-telescope/telescope-file-browser.nvim'
+" " Plug 'lmburns/lf.nvim'
+" " Plug 'lewis6991/gitsigns.nvim', { 'branch': 'main' }
+" " Plug 'folke/noice.nvim', { 'branch': 'main' }
+" " Plug 'MunifTanjim/nui.nvim', { 'branch': 'main' }
+" Plug 'L3MON4D3/LuaSnip'
+" Plug 'saadparwaiz1/cmp_luasnip'
+" Plug 'nvim-treesitter/playground'
+" Plug 'LhKipp/nvim-nu', { 'branch': 'main' }
+" Plug 'lukas-reineke/indent-blankline.nvim'
+" Plug 'folke/which-key.nvim', { 'branch': 'main' }
+" Plug 'ggandor/leap.nvim', { 'branch': 'main' }
+" Plug 'kyazdani42/nvim-web-devicons'
+" Plug 'glacambre/firenvim', { 'do': { _ -> firenvim#install(0) } }
+" Plug 'neovim/nvim-lspconfig'
+" Plug 'williamboman/mason.nvim', { 'branch': 'main' } 
+" Plug 'williamboman/mason-lspconfig.nvim', { 'branch': 'main' }
+" Plug 'hrsh7th/nvim-cmp', { 'branch': 'main' }
+" Plug 'hrsh7th/cmp-buffer', { 'branch': 'main' }
+" Plug 'hrsh7th/cmp-nvim-lsp', { 'branch': 'main' } 
+" " Plug 'ray-x/cmp-treesitter'
+" Plug 'quangnguyen30192/cmp-nvim-tags',  { 'branch': 'main' }  
+" Plug 'terrortylor/nvim-comment', { 'branch': 'main' }
+" Plug 'nvim-lualine/lualine.nvim'
+" Plug 'justinhoward/fzf-neoyank'
+" Plug 'folke/tokyonight.nvim', { 'branch': 'main' }
+" Plug 'ellisonleao/gruvbox.nvim', { 'branch': 'main' }
+" " Plug 'eddyekofo94/gruvbox-flat.nvim' test
+" Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}  
+" Plug 'Shougo/neoyank.vim' 
+" Plug 'Shougo/denite.nvim', { 'do': ':UpdateRemotePlugins' } 
+" Plug 'junegunn/fzf', { 'do': { -> fzf#install() } } 
+" Plug 'junegunn/fzf.vim'
+" Plug 'mbbill/undotree', { 'on': 'UndotreeToggle' }
+" " Plug 'lewis6991/spellsitter.nvim'
+" Plug 'kevinhwang91/nvim-bqf', { 'branch': 'main' }
+" Plug 'nvim-lua/plenary.nvim'
+" Plug 'nvim-telescope/telescope.nvim'
+" Plug 'mg979/vim-visual-multi'
+" Plug 'tpope/vim-surround'
+"
+" call plug#end()
 lua <<EOF
 require('settings')
 require('functions')
 require('keymaps')
 require('set')
 require('au')
-require('init.lua')
+-- require('init')
 EOF
 
 " Autocommands, au
