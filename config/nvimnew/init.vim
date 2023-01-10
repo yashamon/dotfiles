@@ -179,8 +179,6 @@ cmap <m-p> <c-r>+
 
 noremap <m-p> <c-r>+
 inoremap <m-p> <c-r>+
-" noremap D "0D:wa<cr>
-
 noremap d "_d
 nnoremap cg "_cgn
 nnoremap dd "0dd
