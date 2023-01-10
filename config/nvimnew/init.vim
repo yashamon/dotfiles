@@ -171,30 +171,28 @@ noremap gwc /[\\|]<CR>
 noremap gbc ?[\\|]<CR>
 
 
-" copy paste stuff 
+" copy paste stuff
 " 
 vnoremap p "_dP
 cmap <m-p> <c-r>+
-" command! -bar SA saveas
-
 noremap <m-p> <c-r>+
 inoremap <m-p> <c-r>+
-noremap d "_d
-nnoremap cg "_cgn
+noremap d "0d
+nnoremap cg "0cgn
 nnoremap dd "0dd
-noremap c "_c
-noremap s "_s
-noremap C "_C
-noremap x "_x
+noremap c "0c
+noremap s "0s
+noremap C "0C
+noremap x "0x
 
 vnoremap x "+x
-vnoremap d "_d
-vnoremap c "_c
+vnoremap d "0d
+vnoremap c "0c
 vnoremap y "+y
 vnoremap <C-y> y
 nnoremap y "+y
 nnoremap p "+p
-nnoremap <C-p> p
+nnoremap <C-p> "0p
 
 nnoremap <leader>q q
 " map cr
@@ -254,10 +252,6 @@ noremap ;w <Esc>:up<CR>
 noremap <C-t> <Esc>:AsyncRun ctags -R<CR>
 noremap <D-u> <C-u>
 noremap <A-u> <C-u>
-" windows stuff, comment out on windows
-" nnoremap ;ww :%s///gc
-" this mapping Enter key to <C-y> to chose the current highlight item 
-" and close he selection list, same as other IDEs.
 inoremap <expr> <CR> pumvisible() ? "\<C-y>" : "\<C-g>u\<CR>"
 nnoremap <silent> <Leader>y :YRGetElem<CR>
 map ' "
@@ -295,10 +289,6 @@ nnoremap <leader>gs :up<cr>:source $MYVIMRC<cr>
 nnoremap <c-e> viwy:cclose<cr>:<c-r>+<cr><cr>
 nnoremap <c-p> :<c-r>+<cr>
 nnoremap <m-l> viwy:bdelete<cr>:execute "buffer" g:buf<cr>:<c-r>+<cr><cr>
-" noremap <m-l> viwy<esc>:bp<cr>:<c-r>+<cr>
-
-" nvim-comment
-" vnoremap <leader>c :'<,'>CommentToggle<cr>
 nnoremap <leader>c :gc
 
 " FZF Neoyank yank     
@@ -306,11 +296,9 @@ nnoremap <leader>c :gc
 nnoremap <leader>y :FZFNeoyank<cr>
 nnoremap <leader>Y :FZFNeoyank  P<cr>
 vnoremap <leader>y :FZFNeoyankSelection<cr>
-
 nnoremap <leader>p :FZFNeoyank +<cr> 
-
-nnoremap <leader>1 :FZFNeoyank 1<cr>
 nnoremap <leader>P :FZFNeoyank " P+<cr>
+nnoremap <leader>0p :FZFNeoyank " p0<cr>
 vnoremap <leader>p :FZFNeoyankSelection +<cr>
 
 " Latex maps
@@ -337,15 +325,6 @@ inoremap <expr> <c-x><c-k> fzf#vim#complete('cat /usr/share/dict/words')
 ""other maps
 inoremap <cr> <cr><space><esc>"_s
 nnoremap o o<space><esc>"_s
-" map cr
-" inoremap <cr> <esc>$a<cr><space><esc>"_s
-" inoremap <m-cr> <cr><space><esc>"_s
-" if exists('g:gonvim_running')
-" set guifont = JetBrains\ Mono:h18
-" "goneovim specific stuff
-" elseif exists('g:neovide')
-"    set guifont=JetBrains\ Mono:h18
-" end
 nnoremap <C-c> :set hlsearch!<cr>
 vnoremap <silent> <cr> "*y:silent! let searchTerm = '\V'.substitute(escape(@*, '\/'), "\n", '\\n', "g") <bar> let @/ = searchTerm <bar> echo '/'.@/ <bar> call histadd("search", searchTerm) <bar> set hls<cr><cr>
 inoremap <m-d> <C-w>
@@ -471,5 +450,5 @@ let execstrWindows="silent te pwsh -c C:/Users/yasha/scoop/shims/sumatrapdf.EXE 
 exec execstrWindows
 silent execute "buffer" buf
 endfunction
-nnoremap <C-p> p
+nnoremap <C-p> "0p
 
