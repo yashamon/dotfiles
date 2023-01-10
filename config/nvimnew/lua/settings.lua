@@ -254,9 +254,7 @@ undercurl = true,
         -- Statement = { fg = "#0000ff" }
     }
 })
-require("yanker").config({
-  history = "<leader>yh",
-})
+
 -- nvim LSP
 require('snippets')
 require("mason").setup()

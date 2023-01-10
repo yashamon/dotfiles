@@ -3,8 +3,8 @@ let s:plug_dir = expand('/tmp/plugged/vim-plug')"
 "    execute printf('!curl -fLo %s/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim', s:plug_dir) testu
 " end
 call plug#begin(s:plug_dir)
-Plug 'arsham/yanker.nvim'
-Plug 'arsham/arshlib.nvim'
+" Plug 'arsham/yanker.nvim'
+" Plug 'arsham/arshlib.nvim"
 Plug 'nvim-telescope/telescope-fzf-native.nvim', { 'branch': 'main', 'do': 'make' } 
 Plug 'folke/todo-comments.nvim', { 'branch': 'main' }
 Plug 'nvim-telescope/telescope-file-browser.nvim'
@@ -50,6 +50,7 @@ Plug 'tpope/vim-surround'
 
 call plug#end()
 lua <<EOF
+require('init.lua')
 require('settings')
 require('functions')
 require('keymaps')
