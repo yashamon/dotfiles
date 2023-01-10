@@ -13,7 +13,7 @@ if not vim.loop.fs_stat(lazypath) then
 end
 vim.opt.rtp:prepend(lazypath)
 require("lazy").setup({
-'nvim-telescope/telescope-fzf-native.nvim',
+{'nvim-telescope/telescope-fzf-native.nvim', lazy =true},
 {'folke/todo-comments.nvim', lazy = true},
 {'L3MON4D3/LuaSnip', lazy = true },
 {'saadparwaiz1/cmp_luasnip', lazy = true},
@@ -21,7 +21,7 @@ require("lazy").setup({
 {'LhKipp/nvim-nu', lazy = true},
 'lukas-reineke/indent-blankline.nvim',
 {'folke/which-key.nvim', lazy = true},
-'ggandor/leap.nvim', 
+{'ggandor/leap.nvim', lazy = true},
 {'kyazdani42/nvim-web-devicons', lazy = true},
 {'glacambre/firenvim', build = ":call firenvim#install(0)", lazy = true }, 
 {'neovim/nvim-lspconfig', lazy = true },
@@ -49,15 +49,15 @@ lazy = false, priority = 1000,
       vim.cmd([[colorscheme gruvbox]])
 			end,},
 {'nvim-treesitter/nvim-treesitter', build = ":TSUpdate", lazy = true},
-{'Shougo/neoyank.vim', lazy = true, dependencies = 'Shougo/denite.nvim'} 
-{'junegunn/fzf', lazy = true, build = ":call fzf#install()" }, 
-{'junegunn/fzf.vim', lazy = true},
+{'Shougo/neoyank.vim', lazy = false, dependencies = 'Shougo/denite.nvim'},
+{'junegunn/fzf', lazy = false, build = ":call fzf#install()" }, 
+{'junegunn/fzf.vim', lazy = false},
 {'mbbill/undotree', cmd = "UndotreeToggle"}, 
 {'kevinhwang91/nvim-bqf', lazy = true},
 {'nvim-telescope/telescope.nvim', lazy = true, dependencies = "nvim-lua/plenary.nvim",
 },
-{'mg979/vim-visual-multi', lazy = true},
-{'tpope/vim-surround', lazy = true}
+{'mg979/vim-visual-multi', lazy = false},
+{'tpope/vim-surround', lazy = false}
 })
 --require('keymaps')
 require('settings')
