@@ -1,6 +1,6 @@
 let s:plug_dir = expand('/tmp/plugged/vim-plug')" 
 " if !filereadable(s:plug_dir .. '/plug.vim') 3 4 5 6
-"    execute printf('!curl -fLo %s/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim', s:plug_dir)
+"    execute printf('!curl -fLo %s/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim', s:plug_dir) testu
 " end
 call plug#begin(s:plug_dir)
 Plug 'nvim-telescope/telescope-fzf-native.nvim', { 'branch': 'main', 'do': 'make' } 
@@ -180,6 +180,7 @@ cmap <m-p> <c-r>+
 noremap <m-p> <c-r>+
 inoremap <m-p> <c-r>+
 " noremap D "0D:wa<cr>
+
 noremap d "_d
 nnoremap cg "_cgn
 nnoremap dd "_dd
@@ -191,8 +192,11 @@ vnoremap x "+x
 vnoremap d "_d
 vnoremap c "_c
 vnoremap y "+y
+vnoremap <C-y> y
 nnoremap y "+y
 nnoremap p "+p
+nnoremap <C-p> p
+
 nnoremap <leader>q q
 " map cr
 inoremap <cr> <esc>$a<cr><space><esc>"_s
@@ -468,4 +472,3 @@ let execstrWindows="silent te pwsh -c C:/Users/yasha/scoop/shims/sumatrapdf.EXE 
 exec execstrWindows
 silent execute "buffer" buf
 endfunction
-
