@@ -63,8 +63,7 @@ function! OnUIEnter(event)
 		endif
 	endif
 endfunction
-" autocmd UIEnter * call OnUIEnter(deepcopy(v:event))
-" autocmd ColorScheme * lua vim.api.nvim_set_hl(0, 'LeapMatch', { fg = "black" })
+autocmd UIEnter * call OnUIEnter(deepcopy(v:event))
 
 " autocmd TermClose * if v:event.status ==1 || v:event.status ==0  | exe 'bdelete! '..expand('<abuf>') | endif
 
@@ -446,6 +445,5 @@ exec execstrWindows
 silent execute "buffer" buf
 endfunction
 nnoremap <C-p> "0p
-
 ]]
 
