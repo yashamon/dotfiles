@@ -188,6 +188,7 @@ noremap c "_c
 noremap s "_s
 noremap C "_C
 noremap x "_x
+noremap X Vg$x
 vnoremap x "+x
 vnoremap d "_d
 vnoremap c "_c
@@ -472,3 +473,5 @@ let execstrWindows="silent te pwsh -c C:/Users/yasha/scoop/shims/sumatrapdf.EXE 
 exec execstrWindows
 silent execute "buffer" buf
 endfunction
+nnoremap <C-p> p
+
