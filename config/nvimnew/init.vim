@@ -183,12 +183,12 @@ inoremap <m-p> <c-r>+
 
 noremap d "_d
 nnoremap cg "_cgn
-nnoremap dd "_dd
+nnoremap dd "0dd
 noremap c "_c
 noremap s "_s
 noremap C "_C
 noremap x "_x
-noremap X Vg$x
+
 vnoremap x "+x
 vnoremap d "_d
 vnoremap c "_c
@@ -202,10 +202,10 @@ nnoremap <leader>q q
 " map cr
 inoremap <cr> <esc>$a<cr><space><esc>"_s
 inoremap <m-cr> <cr><space><esc>"_s
-" Softwrap  
 
 nnoremap D "0dg$
 nnoremap V vg$
+noremap X Vg$x
 nnoremap A g$a
 noremap H g^
 noremap L g$
