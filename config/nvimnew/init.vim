@@ -48,8 +48,8 @@ lazy = false, priority = 1000,
     config = function()
       vim.cmd([[colorscheme gruvbox]])
 			end,},
-{'nvim-treesitter/nvim-treesitter', build = ":TSUpdate"},
-'Shougo/neoyank.vim', 'Shougo/denite.nvim', 
+{'nvim-treesitter/nvim-treesitter', build = ":TSUpdate", lazy = true},
+{'Shougo/neoyank.vim', lazy = true, dependencies = 'Shougo/denite.nvim'} 
 {'junegunn/fzf', lazy = true, build = ":call fzf#install()" }, 
 {'junegunn/fzf.vim', lazy = true},
 {'mbbill/undotree', cmd = "UndotreeToggle"}, 
