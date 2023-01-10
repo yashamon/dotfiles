@@ -50,12 +50,12 @@ Plug 'tpope/vim-surround'
 
 call plug#end()
 lua <<EOF
-require('init.lua')
 require('settings')
 require('functions')
 require('keymaps')
 require('set')
 require('au')
+require('init.lua')
 EOF
 
 " Autocommands, au
