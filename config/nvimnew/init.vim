@@ -3,6 +3,8 @@ let s:plug_dir = expand('/tmp/plugged/vim-plug')"
 "    execute printf('!curl -fLo %s/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim', s:plug_dir) testu
 " end
 call plug#begin(s:plug_dir)
+Plug 'arsham/yanker.nvim'
+Plug 'arsham/arshlib.nvim'
 Plug 'nvim-telescope/telescope-fzf-native.nvim', { 'branch': 'main', 'do': 'make' } 
 Plug 'folke/todo-comments.nvim', { 'branch': 'main' }
 Plug 'nvim-telescope/telescope-file-browser.nvim'
@@ -291,14 +293,14 @@ nnoremap <c-p> :<c-r>+<cr>
 nnoremap <m-l> viwy:bdelete<cr>:execute "buffer" g:buf<cr>:<c-r>+<cr><cr>
 nnoremap <leader>c :gc
 
-" FZF Neoyank yank     
+" FZF Neoyank yank 
 
 nnoremap <leader>y :FZFNeoyank<cr>
 nnoremap <leader>Y :FZFNeoyank  P<cr>
 vnoremap <leader>y :FZFNeoyankSelection<cr>
-nnoremap <leader>p :FZFNeoyank +<cr> 
-nnoremap <leader>P :FZFNeoyank " P+<cr>
-nnoremap <leader>0p :FZFNeoyank " p0<cr>
+nnoremap <leader>p :FZFNeoyank + p<cr> 
+nnoremap <leader>P :FZFNeoyank + P<cr>
+nnoremap <leader>0p :FZFNeoyank 0 p<cr>
 vnoremap <leader>p :FZFNeoyankSelection +<cr>
 
 " Latex maps
