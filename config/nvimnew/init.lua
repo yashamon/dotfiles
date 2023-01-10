@@ -11,7 +11,7 @@ if not vim.loop.fs_stat(lazypath) then
 end
 vim.opt.rtp:prepend(lazypath)
 require("lazy").setup({
---'nvim-telescope/telescope-fzf-native.nvim', 
+'nvim-telescope/telescope-fzf-native.nvim',
 'folke/todo-comments.nvim', 
 'L3MON4D3/LuaSnip', 
 'saadparwaiz1/cmp_luasnip',
@@ -51,7 +51,7 @@ require('functions')
 require('set')
 require('au')
 
-[[
+vim.cmd [[
 function! OnUIEnter(event)
 	let l:ui = nvim_get_chan_info(a:event.chan)
 	if has_key(l:ui, 'client') && has_key(l:ui.client, 'name')
@@ -64,8 +64,6 @@ function! OnUIEnter(event)
 	endif
 endfunction
 autocmd UIEnter * call OnUIEnter(deepcopy(v:event))
-
-" autocmd TermClose * if v:event.status ==1 || v:event.status ==0  | exe 'bdelete! '..expand('<abuf>') | endif
 
 "remember cursor location
 autocmd BufReadPost * if @% !~# '\.git[\/\\]COMMIT_EDITMSG$' && line("'\"") > 1 && line("'\"") <= line("$") | exe "normal! g`\"" | endif
@@ -446,4 +444,3 @@ silent execute "buffer" buf
 endfunction
 nnoremap <C-p> "0p
 ]]
-

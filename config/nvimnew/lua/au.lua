@@ -37,7 +37,6 @@ au("TextYankPost", {
 })
 au('TextYankPost',  {command =  'call neoyank#_append()'} )
 
-au('UIEnter', {command = 'call OnUIEnter(deepcopy(v:event))'})
 -- " autocmd ColorScheme * lua vim.api.nvim_set_hl(0, 'LeapMatch', { fg = "black" })
 
 au('TermClose', {command = "if v:event.status ==1 || v:event.status ==0  | exe 'bdelete! '..expand('<abuf>') | endif"})
