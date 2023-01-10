@@ -53,7 +53,7 @@ let-env NU_LIB_DIRS = [
 let-env NU_PLUGIN_DIRS = [
     ($nu.config-path | path dirname | path join 'plugins')
 ]
-zoxide init nushell --hook prompt | save -f ~/.zoxide.nu
+zoxide init nushell | save -f ~/.zoxide.nu
 mkdir ~/.cache/starship
 starship init nu | save -f ~/.cache/starship/init.nu
 # To add entries to PATH (on Windows you might use Path), you can use the following pattern:

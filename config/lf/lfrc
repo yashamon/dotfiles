@@ -1,6 +1,6 @@
 set ratios 1:2:3
 set filesep ' '
-# set shell powershell
+# set shell nu
 set shell pwsh.bat
 
 
