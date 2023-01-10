@@ -12,11 +12,21 @@ if not vim.loop.fs_stat(lazypath) then
 end
 vim.opt.rtp:prepend(lazypath)
 require("lazy").setup({
+{'kevinhwang91/nvim-ufo', dependencies = 'kevinhwang91/promise-async',
+config = function()
+	vim.o.foldcolumn = '1' -- '0' is not bad
+	vim.o.foldlevel = 99 -- Using ufo provider need a large value, feel free to decrease the value
+	vim.o.foldlevelstart = 99
+	vim.o.foldenable = true
+	vim.keymap.set('n', 'zR', require('ufo').openAllFolds)
+vim.keymap.set('n', 'zM', require('ufo').closeAllFolds)
+	end
+},
 {
 	"arsham/yanker.nvim",
   dependencies = { "arsham/arshlib.nvim", "junegunn/fzf.vim" },
   config = true, lazy = true
-},
+}, 
 {'gbprod/yanky.nvim', lazy = true},
 {'nvim-telescope/telescope-fzf-native.nvim', lazy = true},
 {'folke/todo-comments.nvim', lazy = true},
@@ -26,7 +36,7 @@ require("lazy").setup({
 {'LhKipp/nvim-nu', cmd = "Filetype"},
 {'lukas-reineke/indent-blankline.nvim', event = { "BufRead", "BufNewFile" }},
 {'folke/which-key.nvim', lazy = true},
-{'lambdalisue/nerdfont'},
+{'lambdalisue/nerdfont.vim'},
 {'ggandor/leap.nvim', lazy = true},
 {'kyazdani42/nvim-web-devicons', lazy = true},
 {'glacambre/firenvim', build = ":call firenvim#install(0)", lazy = true }, 
@@ -122,6 +132,10 @@ nnoremap <leader>u <cr>:UndotreeToggle<CR>
 noremap <leader>c :'<,'>CommentToggle<cr>
 
 " commands
+command! -bang -nargs=* BLinesB
+    \ call fzf#vim#grep(
+    \   'rg --with-filename --line-number --no-heading --smart-case . '.fnameescape(expand('%')),1,
+    \   fzf#vim#with_preview({'options': '--keep-right --layout reverse --query '.shellescape(<q-args>).' --preview "bat -p --color always {}"'}, 'up:50%')) 
 command Tw50 set tw=50
 command Tw0 set tw=0
 command! SEND silent call Send()
@@ -357,13 +371,11 @@ function Bluemoon()
    colorscheme blue-moon
    " colorscheme material  
 endfunction
-
 function Deepocean()
    set background=dark
    colorscheme material  
    let g:material_style = 'deep ocean'  
 endfunction
-
 function Palenight()
    set background=dark
    " colorscheme blue-moon
@@ -378,23 +390,15 @@ function Lighter()
    " colorscheme blue-moon
    colorscheme tokyonight-day
 endfunction
-
 function Dark()
    set background=dark
    colorscheme tokyonight-moon
 endfunction
-
 function! Profile()
 profile start profile.log
 profile func *
 profile file *
 endfunction
-
-command! -bang -nargs=* BLinesB
-    \ call fzf#vim#grep(
-    \   'rg --with-filename --line-number --no-heading --smart-case . '.fnameescape(expand('%')),1,
-    \   fzf#vim#with_preview({'options': '--keep-right --layout reverse --query '.shellescape(<q-args>).' --preview "bat -p --color always {}"'}, 'up:50%'))
-
 function ToggleQuickFix()
       if empty(filter(getwininfo(), 'v:val.quickfix'))
       exec "up"
