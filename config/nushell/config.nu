@@ -64,7 +64,7 @@ $dir | clip
 cd $dir
 }
 def update [] { scoop update -a; scoop export > ~/dotfiles/scoopPackageList.json }
-
+def winupdate [] { winget upgrade --all --accept-package-agreements --accept-source-agreements}
 module completions {
   # Custom completions for external commands (those outside of Nushell)
   # Each completions has two parts: the form of the external command, including its flags and parameters
