@@ -1,4 +1,3 @@
-
 lua <<EOF
 local lazypath = vim.fn.stdpath("data") .. "/lazy/lazy.nvim"
 if not vim.loop.fs_stat(lazypath) then
@@ -13,7 +12,13 @@ if not vim.loop.fs_stat(lazypath) then
 end
 vim.opt.rtp:prepend(lazypath)
 require("lazy").setup({
-{'nvim-telescope/telescope-fzf-native.nvim', lazy =true},
+{
+	"arsham/yanker.nvim",
+  dependencies = { "arsham/arshlib.nvim", "junegunn/fzf.vim" },
+  config = true, lazy = true
+},
+{'gbprod/yanky.nvim', lazy = true},
+{'nvim-telescope/telescope-fzf-native.nvim', lazy = true},
 {'folke/todo-comments.nvim', lazy = true},
 {'L3MON4D3/LuaSnip', lazy = true },
 {'saadparwaiz1/cmp_luasnip', lazy = true},
@@ -41,7 +46,7 @@ require("lazy").setup({
  },
 {'terrortylor/nvim-comment', cmd = "CommentToggle"},
 'nvim-lualine/lualine.nvim', 
-{'justinhoward/fzf-neoyank', lazy = true},
+{'justinhoward/fzf-neoyank', lazy=false }, 
 {'folke/tokyonight.nvim', lazy = true},
 {'ellisonleao/gruvbox.nvim', 
 lazy = false, priority = 1000, 
@@ -49,9 +54,9 @@ lazy = false, priority = 1000,
       vim.cmd([[colorscheme gruvbox]])
 			end,},
 {'nvim-treesitter/nvim-treesitter', build = ":TSUpdate", lazy = true},
-{'Shougo/neoyank.vim', lazy = false, dependencies = 'Shougo/denite.nvim'},
+{'Shougo/neoyank.vim', dependencies = 'Shougo/denite.nvim'}, 
 {'junegunn/fzf', lazy = false, build = ":call fzf#install()" }, 
-{'junegunn/fzf.vim', lazy = false},
+{'junegunn/fzf.vim', lazy = true},
 {'mbbill/undotree', cmd = "UndotreeToggle"}, 
 {'kevinhwang91/nvim-bqf', lazy = true},
 {'nvim-telescope/telescope.nvim', lazy = true, dependencies = "nvim-lua/plenary.nvim",
@@ -59,11 +64,11 @@ lazy = false, priority = 1000,
 {'mg979/vim-visual-multi', lazy = false},
 {'tpope/vim-surround', lazy = false}
 })
---require('keymaps')
 require('settings')
 require('functions')
 require('set')
 require('au')
+require('keymaps')
 EOF
 
 " Autocommands, au
@@ -212,7 +217,7 @@ inoremap <m-cr> <cr><space><esc>"_s
 
 nnoremap D "0dg$
 nnoremap V vg$
-noremap X Vg$x
+noremap X vg$x
 nnoremap A g$a
 noremap H g^
 noremap L g$
@@ -233,8 +238,6 @@ nmap gv \\/
 vmap s \\/
 " vim-multiple-\cursors
 nnoremap <m-n> <c-n>
-
-" vnoremap f /\%V\%V<left><left><left>
 noremap F ?
 noremap gfm /\$<CR>v?\$<CR>
 noremap gm /\$<CR>hv?\$<CR>l
@@ -264,7 +267,6 @@ noremap <C-t> <Esc>:AsyncRun ctags -R<CR>
 noremap <D-u> <C-u>
 noremap <A-u> <C-u>
 inoremap <expr> <CR> pumvisible() ? "\<C-y>" : "\<C-g>u\<CR>"
-nnoremap <silent> <Leader>y :YRGetElem<CR>
 map ' "
 inoremap <D-]> <C-x><C-]>
 inoremap <C-]> <C-x><C-]>
@@ -304,9 +306,6 @@ nnoremap <leader>c :gc
 
 " FZF Neoyank yank 
 
-nnoremap <leader>y :FZFNeoyank<cr>
-nnoremap <leader>Y :FZFNeoyank  P<cr>
-vnoremap <leader>y :FZFNeoyankSelection<cr>
 nnoremap <leader>p :FZFNeoyank + p<cr> 
 nnoremap <leader>P :FZFNeoyank + P<cr>
 nnoremap <leader>0p :FZFNeoyank 0 p<cr>
@@ -460,6 +459,5 @@ let execstrLinux="silent te zathura --synctex-forward " . linenumber . ":" . col
 let execstrWindows="silent te pwsh -c C:/Users/yasha/scoop/shims/sumatrapdf.EXE -reuse-instance " . b:filenamePDFWindows . " -forward-search " . filenametex . " " . linenumber
 exec execstrWindows
 silent execute "buffer" buf
-endfunction
-nnoremap <C-p> "0p
-
+endfunction 
+nnoremap <C-p> "0p 

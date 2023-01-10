@@ -311,7 +311,6 @@ local has_words_before = function()
   return col ~= 0 and vim.api.nvim_buf_get_lines(0, line - 1, line, true)[1]:sub(col, col):match("%s") == nil
 end
 
-
 local luasnip = require("luasnip")
 local cmp = require'cmp'
 cmp.setup ({
@@ -391,7 +390,9 @@ require('nvim_comment').setup({
    -- Hook function to call before commenting takes place
    --hook = nil 
  })
-
+require("yanker").config({
+  history = ";h",
+})
 
 require('lualine').setup {
   options = {
@@ -451,7 +452,13 @@ require('lualine').setup {
   inactive_winbar = {},
   extension = {}
 }
-
+require("yanky").setup({
+  highlight = {
+    on_put = true,
+    on_yank = true,
+    timer = 500,
+  },
+})
 
 --gitgutter
 -- require('gitsigns').setup{
