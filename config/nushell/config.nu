@@ -625,10 +625,10 @@ let-env config = {
 {
         name: redo
         modifier: none
-        keycode: char_space
+        keycode: Space
         mode: [vi_normal] 
         event: [
-            { edit:  redo }
+            { edit: redo }
         ]
 }
 {
