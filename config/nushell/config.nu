@@ -623,6 +623,15 @@ let-env config = {
 
 
 {
+        name: redo
+        modifier: none
+        keycode: char_space
+        mode: [vi_normal] 
+        event: [
+            { edit:  redo }
+        ]
+}
+{
         name: movetolineEnd
         modifier: shift
         keycode: char_l
