@@ -620,7 +620,27 @@ let-env config = {
         ]
       }
     }
-  {
+
+
+{
+        name: movetolineEnd
+        modifier: none
+        keycode: L
+        mode: [vi_normal] 
+        event: [
+            { send:  MoveToLineEnd }
+        ]
+}
+{
+        name: movetolinestart
+        modifier: none
+        keycode: H
+        mode: [vi_normal] 
+        event: [
+            { send:  MoveToLineStart }
+        ]
+}
+{
         name: histUp
         modifier: alt
         keycode: char_j
@@ -628,7 +648,7 @@ let-env config = {
         event: [
             { send: NextHistory }
         ]
-  }
+}
 
   {
         name: histDown
