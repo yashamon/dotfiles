@@ -627,8 +627,8 @@ let-env config = {
         modifier: shift
         keycode: char_l
         mode: [vi_normal] 
-        edit: [
-            { send:  MoveToLineEnd }
+        event: [
+            { edit:  MoveToLineEnd }
         ]
 }
 {
@@ -636,8 +636,8 @@ let-env config = {
         modifier: shift
         keycode: char_h
         mode: [vi_normal] 
-        edit: [
-            { send:  MoveToLineStart }
+        event: [
+            { edit:  MoveToLineStart }
         ]
 }
 {
