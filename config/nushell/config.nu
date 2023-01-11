@@ -625,7 +625,7 @@ let-env config = {
 {
         name: capitalize
         modifier: none
-        keycode: char_\`
+        keycode: char_~
         mode: [vi_normal] 
         event: [
             { edit: CapitalizeChar }
