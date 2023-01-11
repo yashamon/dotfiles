@@ -623,12 +623,12 @@ let-env config = {
 
 
 {
-        name: redo
+        name: capitalize
         modifier: none
-        keycode: Space
+        keycode: char_~
         mode: [vi_normal] 
         event: [
-            { edit: redo }
+            { edit: CapitalizeChar }
         ]
 }
 {
