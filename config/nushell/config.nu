@@ -20,10 +20,11 @@ def r [name: string] { rm --recursive --trash $name }
 def killn [name: string] { ps | where name =~ $name | each {|it| kill --force $it.pid} }
 
 alias hello = ( echo "hello" )
-def-env j [file: string] {
-if ($file | str trim | path type) == dir {
-zoxide add $file}
-__zoxide_z $file}
+alias j = z
+# def-env j [file: string] {
+# if ($file | str trim | path type) == dir {
+# zoxide add $file}
+# __zoxide_z $file}
 def vrc [] { neo $"($HOME)/dotfiles/config/nvimnew/init.vim" }
 def lfrc [] { neo $"($HOME)/dotfiles/config/lf/lfrc" } 
 # def psrc [] { neo $profile } 
@@ -63,8 +64,8 @@ let dir = ((open "C:\\Users\\yasha\\AppData\\Local\\Temp\\tmp9E2XX.tmp") | str t
 $dir | clip
 cd $dir
 }
-def update [] { scoop update -a; scoop export > ~/dotfiles/scoopPackageList.json }
-def winupdate [] { winget upgrade --all --accept-package-agreements --accept-source-agreements }
+def upscoop [] { scoop update -a; echo "saving"; scoop export | save -f ~/dotfiles/scoopPackageList.json }
+def upwin [] { winget upgrade --all --accept-source-agreements --silent; echo "saving"; winget export -o ~/dotfiles/WingetList.json }
 module completions {
   # Custom completions for external commands (those outside of Nushell)
   # Each completions has two parts: the form of the external command, including its flags and parameters
@@ -740,4 +741,5 @@ let-env config = {
   ]
 }
 source ~/.cache/starship/init.nu
+source ~/.zoxide.nu
 
