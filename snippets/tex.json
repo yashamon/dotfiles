@@ -45,13 +45,6 @@
        ],
     "description": "range"
     },
-"NFuk": {
-    "prefix": "NF",
-    "body": [
-        "\\operatorname {NFuk} (M, \\omega) $0" 
-       ],
-    "description": "NFuk"
-    },  
   "plus": {
     "prefix": "p",
     "body": [
