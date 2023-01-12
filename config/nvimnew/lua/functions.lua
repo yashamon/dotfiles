@@ -16,11 +16,11 @@ Line = function()
    -- vim.fn.jobwait({IdLine})
    vim.cmd('lopen 20')
    if vim.w.bqf_enabled then
-    local winid = vim.api.nvim_get_current_win()
+    -- local winid = vim.api.nvim_get_current_win()
     vim.schedule(function()
-        vim.api.nvim_win_call(winid, function()
+        -- vim.api.nvim_win_call(winid, function()
             vim.api.nvim_feedkeys('zf', 'im', false)
-        end)
+        -- end)
     end)
  end
 end
