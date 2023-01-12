@@ -127,22 +127,22 @@ require("tokyonight").setup({
   ---@param highlights Highlights
   ---@param colors ColorScheme
   on_highlights = function(highlights, colors) 
-		SignColumn = {bg = "#ffa546"},
-        Normal = {bg = "#ffa546"},
-        DiagnosticSignError = { bg = "#ffa546" },
-        DiagnosticSignWarn = { bg = "#ffa546" },
-        DiagnosticSignInfo = { bg = "#ffa546" },
-        DiagnosticSignHint = { bg = "#ffa546" },
-        texType = { fg = "#808080" },
-        texMath = { fg = "#650000" },
-        TexSpecial = { fg = "#af6000" },
-        texDelimiter = { fg = "#af6000" },
-        texStatement = { fg = "#580058" },
-				texRefzone = { fg = "#af6000" },
-				texBeginEnd = { fg = "#00008b" },
-				texCite = { fg = "#af6000" },
-				Special = { fg = '#580058' }
-	end,
+	highlights.SignColumn = {bg = "#ffa546"}
+        highlights.Normal = {bg = "#ffa546", fg = "black"}
+        highlights.DiagnosticSignError = { bg = "#ffa546" }
+        highlights.DiagnosticSignWarn = { bg = "#ffa546" }
+        highlights.DiagnosticSignInfo = { bg = "#ffa546" }
+        highlights.DiagnosticSignHint = { bg = "#ffa546" }
+        highlights.texType = { fg = "#808080" }
+        highlights.texMath = { fg = "#650000" }
+        highlights.TexSpecial = { fg = "#af6000" }
+        highlights.texDelimiter = { fg = "#af6000" }
+        highlights.texStatement = { fg = "#580058" }
+				highlights.texRefzone = { fg = "#af6000" }
+				highlights.texBeginEnd = { fg = "#00008b" }
+				highlights.texCite = { fg = "#af6000" }
+				highlights.Special = { fg = '#580058' }
+end,
 })
 require("which-key").setup({
   plugins = {
