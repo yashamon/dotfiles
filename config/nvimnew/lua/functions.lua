@@ -11,7 +11,7 @@ Server = function ()
 end
 
 Line = function()
-	Idline = vim.fn.jobstart({WriteLine()})
+	Idline = vim.fn.jobstart(WriteLine())
 	-- WriteLine()
 	LoadLine()
 	vim.fn.jobwait({IdLine})
