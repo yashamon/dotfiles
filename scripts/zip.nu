@@ -1,2 +1,2 @@
-def main [$f] { zip -r $f.zip $f
+def main [$f] { zip -r $"($f) + ".zip"" $f
 }
