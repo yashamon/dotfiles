@@ -1,3 +1,4 @@
+echo $args
 foreach ($f in $args) {
 switch (Split-Path $f -Extension)
 {
