@@ -7,7 +7,7 @@
     "description": "opname"
  }, 
 "Fukinfinity": {
-    "prefix": "fukin",
+    "prefix": "[fukin, fuki]",
     "body": [
         "\\operatorname {Fuk} _{\\infty} ($1) $0" 
        ],
