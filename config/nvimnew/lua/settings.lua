@@ -126,7 +126,23 @@ require("tokyonight").setup({
   --- function will be called with a Highlights and ColorScheme table
   ---@param highlights Highlights
   ---@param colors ColorScheme
-  on_highlights = function(highlights, colors) end,
+  on_highlights = function(highlights, colors) 
+		SignColumn = {bg = "#ffa546"},
+        Normal = {bg = "#ffa546"},
+        DiagnosticSignError = { bg = "#ffa546" },
+        DiagnosticSignWarn = { bg = "#ffa546" },
+        DiagnosticSignInfo = { bg = "#ffa546" },
+        DiagnosticSignHint = { bg = "#ffa546" },
+        texType = { fg = "#808080" },
+        texMath = { fg = "#650000" },
+        TexSpecial = { fg = "#af6000" },
+        texDelimiter = { fg = "#af6000" },
+        texStatement = { fg = "#580058" },
+				texRefzone = { fg = "#af6000" },
+				texBeginEnd = { fg = "#00008b" },
+				texCite = { fg = "#af6000" },
+				Special = { fg = '#580058' }
+	end,
 })
 require("which-key").setup({
   plugins = {
