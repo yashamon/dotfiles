@@ -32,7 +32,7 @@ set hidden
 #     lf -remote "send echomsg "deletesucess""
 # }}
 
-cmd trash $pwsh -c lfcdTrash.ps1 $Env:fx
+cmd trash $pwsh.bat -c "/Users/yasha/dotfiles/scripts/lfcdTrash.ps1" $Env:fx
 # cmd trash $nu trash.nu $Env:fx
  # cmd trash recycle-bin $Env:fx
 # set previewer stpv
@@ -205,14 +205,7 @@ map gE :extract
 # }
 
 # compress current file or selected files with zip
-# cmd zip ${param ([string]$f) 
-#     set -f
-#     mkdir $f
-#     cp -r $Env:fx $f
-#     zip -r $f.zip $f
-#     rm -rf $f
-# }.Invoke($Args)
-
+cmd zip $nu "/Users/yasha/dotfiles/scripts/zip.nu" $Env:fx
 map gz zip
 # cmd open ${{
 #     case "$f" in
