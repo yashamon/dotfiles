@@ -205,7 +205,7 @@ map gE :extract
 # }
 
 # compress current file or selected files with zip
-cmd zip $nu "/Users/yasha/dotfiles/scripts/zip.nu" $Env:fx
+cmd zip $nu "/Users/yasha/dotfiles/scripts/zip.ps1" $Env:fx
 map gz zip
 # cmd open ${{
 #     case "$f" in
