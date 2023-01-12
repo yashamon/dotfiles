@@ -64,7 +64,7 @@ set -- $(cat ~/.local/share/lf/files)
 # set cleaner ~/.config/lf/cleaner
 cmd namepaste $cp-p --lf-paste $id  
 # map gc :namepaste
-map p $pwsh -nop -c robo.ps1 $Env:fx 
+map p $pwsh -nop -c "/Users/yasha/dotfiles/scripts/robo.ps1" $Env:fx 
 map gp :paste
 cmd findfile $nu "C:\\Users\\yasha\\dotfiles\\scripts\\findfile.nu"
 map <a-f> :findfile
