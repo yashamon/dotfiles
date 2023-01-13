@@ -24,31 +24,43 @@ require("indent_blankline").setup {
 }
 local ts_config = require("nvim-treesitter.configs")
 ts_config.setup {
-    ensure_installed = {
-        -- "latex",
-        "nu",
-        "python",
-        "lua"
-    },
-    highlight = {
-        enable = true,
-        use_languagetree = true
-    },
-		keymaps = {
-      init_selection = '<m-CR>',
-      --scope_incremental = '<CR>',
-      node_incremental = '<TAB>',
-      node_decremental = '<S-TAB>',
-    },
-		indent = {enable = true},
-    -- playground = {
-    --     enable = true,
-    --     disable = {},
-    --     updatetime = 25, -- Debounced time for highlighting nodes in the playground from source code
-    --     persist_queries = false -- Whether the query persists across vim sessions
-    -- },
-    autotag = {enable = true},
-    rainbow = {enable = true},
+	ensure_installed = {
+			-- "latex",
+			"nu",
+			"python",
+			"lua"
+	},
+	highlight = {
+			enable = true,
+			use_languagetree = true
+	},
+	keymaps = {
+		init_selection = '<m-CR>',
+		--scope_incremental = '<CR>',
+		node_incremental = '<TAB>',
+		node_decremental = '<S-TAB>',
+	},
+	indent = {enable = true},
+	-- playground = {
+	--     enable = true,
+	--     disable = {},
+	--     updatetime = 25, -- Debounced time for highlighting nodes in the playground from source code
+	--     persist_queries = false -- Whether the query persists across vim sessions
+	-- },
+	autotag = {enable = true},
+	rainbow = {enable = true},
+}
+local parser_config = require "nvim-treesitter.parsers".get_parser_configs()
+parser_config.zimbu = {
+  install_info = {
+    url = "~/", -- local path or git repo
+    files = {"src/parser.c"},
+    -- optional entries:
+    branch = "main", -- default branch in case of git repo if different from master
+    generate_requires_npm = false, -- if stand-alone parser without npm dependencies
+    requires_generate_from_grammar = false, -- if folder contains pre-generated src/parser.c
+  },
+  filetype = "zu", -- if filetype does not match the parser name
 }
 -- require'nvim-treesitter.configs'.setup {
 -- -- ensure_installed = "all", -- one of "all", "maintained" (parsers with maintainers), or a list of languages
