@@ -24,6 +24,7 @@ opt.smartcase = true
 opt.foldmethod='expr'
 opt.foldexpr='nvim_treesitter#foldexpr()'
 opt.linebreak = true
+opt.foldenable = false
 vim.opt.formatoptions:append{"w"}
 opt.autochdir = true
 g.mapleader=';'
