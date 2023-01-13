@@ -19,6 +19,7 @@ require("lazy").setup({
   config = true, lazy = true
 }, 
 {'gbprod/yanky.nvim', lazy = true},
+{'null-ls.nvim', dependencies = "nvim-lua/plenary.nvim" },
 {'nvim-telescope/telescope-fzf-native.nvim', lazy = true},
 {'folke/todo-comments.nvim', lazy = true},
 {'L3MON4D3/LuaSnip', lazy = true },
