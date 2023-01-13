@@ -27,7 +27,7 @@ ts_config.setup {
     ensure_installed = {
         "latex",
         "nu",
-        "pwsh",
+        "ps",
         "python",
         "lua"
     },
