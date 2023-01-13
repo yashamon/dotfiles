@@ -23,7 +23,7 @@ require("lazy").setup({
 {'folke/todo-comments.nvim', lazy = true},
 {'L3MON4D3/LuaSnip', lazy = true },
 {'saadparwaiz1/cmp_luasnip', lazy = true},
-{'nvim-treesitter/playground', lazy = true},
+{'nvim-treesitter/playground', lazy = false},
 {'LhKipp/nvim-nu', cmd = "Filetype"},
 {'lukas-reineke/indent-blankline.nvim', event = { "BufRead", "BufNewFile" }},
 {'folke/which-key.nvim', lazy = true},

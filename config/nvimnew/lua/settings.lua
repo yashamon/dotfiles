@@ -25,7 +25,7 @@ require("indent_blankline").setup {
 local ts_config = require("nvim-treesitter.configs")
 ts_config.setup {
     ensure_installed = {
-        "latex",
+        -- "latex",
         "nu",
         "python",
         "lua"

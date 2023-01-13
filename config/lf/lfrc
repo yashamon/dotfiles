@@ -64,7 +64,7 @@ set -- $(cat ~/.local/share/lf/files)
 # set cleaner ~/.config/lf/cleaner
 cmd namepaste $cp-p --lf-paste $id  
 # map gc :namepaste
-map p $pwsh -nop -c "/Users/yasha/dotfiles/scripts/robo.ps1" $Env:fx 
+map p !pwsh.bat -c "/Users/yasha/dotfiles/scripts/robo.ps1" $Env:fx 
 map gp :paste
 cmd findfile $nu "C:\\Users\\yasha\\dotfiles\\scripts\\findfile.nu"
 map <a-f> :findfile
@@ -162,7 +162,7 @@ set -- $(cat ~/.local/share/lf/files)
     lf -remote "send reload" 
     lf -remote "send echomsg "copysucessblah""
 }}
-cmd echod $pwsh -nop -c echo $1 > blah
+cmd echod $pwsh.bat -c echo $1 > blah
 
 cmd rename $pwsh -nop -c mv $Env:f.Trim('"') $args[0]
 
@@ -205,7 +205,7 @@ map gE :extract
 # }
 
 # compress current file or selected files with zip
-cmd zip $pwsh -c -nop "/Users/yasha/dotfiles/scripts/zip.ps1" $Env:fx
+cmd zip !pwsh -nop -c "/Users/yasha/dotfiles/scripts/zip.ps1" $Env:fx
 map gz zip
 # cmd open ${{
 #     case "$f" in

@@ -114,23 +114,63 @@ SmoothScroll = false
 ShowStartPage = true
 CheckForUpdates = false
 WindowState = 3
-WindowPos = 451 0 1480 1872
+WindowPos = 682 0 1480 1872
 UseTabs = true
 UseSysColors = false
 CustomScreenDPI = 0
 
 FileStates [
 	[
+		FilePath = C:\Users\yasha\workspacemodules\fukaya\build\fukayaII.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 6
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = 124.761 95.5737
+		PageNo = 7
+		Zoom = fit content
+		Rotation = 0
+		WindowState = 3
+		WindowPos = 682 0 1480 1872
+		ShowToc = false
+		SidebarDx = 364
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = C:\Users\yasha\workspacemodules\various\research\SamplePublications\DATOS BANCARIOS.doc
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 -1
+		PageNo = 1
+		Zoom = 100
+		Rotation = 0
+		WindowState = 3
+		WindowPos = 451 0 1480 1872
+		ShowToc = false
+		SidebarDx = 364
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
 		FilePath = C:\Users\yasha\workspacemodules\conformalsymplectic\build\conformalsymplectic.pdf
 		Favorites [
 		]
 		IsPinned = false
 		IsMissing = false
-		OpenCount = 4
+		OpenCount = 2
 		UseDefaultState = false
 		DisplayMode = continuous
-		ScrollPos = 83.1418 64.3487
-		PageNo = 27
+		ScrollPos = 83.0126 64.3796
+		PageNo = 12
 		Zoom = fit content
 		Rotation = 0
 		WindowState = 3
@@ -186,7 +226,7 @@ FileStates [
 		]
 		IsPinned = false
 		IsMissing = false
-		OpenCount = 1
+		OpenCount = 0
 		UseDefaultState = false
 		DisplayMode = continuous
 		ScrollPos = -1 -1
@@ -281,6 +321,26 @@ FileStates [
 		ReparseIdx = 0
 	]
 	[
+		FilePath = C:\Users\yasha\workspacemodules\fukaya\build\fukayaI.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = 124.688 95.5123
+		PageNo = 18
+		Zoom = fit content
+		Rotation = 0
+		WindowState = 3
+		WindowPos = 451 0 1480 1872
+		ShowToc = false
+		SidebarDx = 364
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
 		FilePath = C:\Users\yasha\workspacemodules\various\vita\build\CV2022.pdf
 		Favorites [
 		]
@@ -292,26 +352,6 @@ FileStates [
 		ScrollPos = -1 -1
 		PageNo = 1
 		Zoom = 100
-		Rotation = 0
-		WindowState = 3
-		WindowPos = 451 0 1480 1872
-		ShowToc = false
-		SidebarDx = 364
-		DisplayR2L = false
-		ReparseIdx = 0
-	]
-	[
-		FilePath = C:\Users\yasha\workspacemodules\fukaya\build\fukayaI.pdf
-		Favorites [
-		]
-		IsPinned = false
-		IsMissing = false
-		OpenCount = 1
-		UseDefaultState = false
-		DisplayMode = continuous
-		ScrollPos = 124.688 95.5123
-		PageNo = 18
-		Zoom = fit content
 		Rotation = 0
 		WindowState = 3
 		WindowPos = 451 0 1480 1872
@@ -1241,26 +1281,6 @@ FileStates [
 		ReparseIdx = 0
 	]
 	[
-		FilePath = C:\Users\yasha\workspacemodules\fukaya\build\fukayaII.pdf
-		Favorites [
-		]
-		IsPinned = false
-		IsMissing = false
-		OpenCount = 0
-		UseDefaultState = false
-		DisplayMode = continuous
-		ScrollPos = -1 -1
-		PageNo = 1
-		Zoom = 100
-		Rotation = 0
-		WindowState = 3
-		WindowPos = 698 0 1480 1920
-		ShowToc = true
-		SidebarDx = 364
-		DisplayR2L = false
-		ReparseIdx = 0
-	]
-	[
 		FilePath = C:\Users\yasha\workspace\research\build\protocolo2022.pdf
 		Favorites [
 		]
@@ -1702,35 +1722,9 @@ FileStates [
 	]
 ]
 SessionData [
-	[
-		TabStates [
-			[
-				FilePath = C:\Users\yasha\workspacemodules\fukaya\build\fukayaI.pdf
-				DisplayMode = continuous
-				PageNo = 18
-				Zoom = fit content
-				Rotation = 0
-				ScrollPos = 124.688 95.5123
-				ShowToc = false
-			]
-			[
-				FilePath = C:\Users\yasha\workspacemodules\conformalsymplectic\build\conformalsymplectic.pdf
-				DisplayMode = continuous
-				PageNo = 27
-				Zoom = fit content
-				Rotation = 0
-				ScrollPos = 83.1418 64.3487
-				ShowToc = false
-			]
-		]
-		TabIndex = 2
-		WindowState = 3
-		WindowPos = 451 0 1480 1872
-		SidebarDx = 364
-	]
 ]
 TimeOfLastUpdateCheck = 0 0
-OpenCountWeek = 627
+OpenCountWeek = 628
 
 # Settings below are not recognized by the current version
 "C = \Users\yasha\dotfiles\scripts\remote2.nu" %l $
