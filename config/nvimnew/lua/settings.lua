@@ -22,24 +22,53 @@ require("telescope").setup {
 require("indent_blankline").setup {
     show_end_of_line = true,
 }
-
-require'nvim-treesitter.configs'.setup {
--- ensure_installed = "all", -- one of "all", "maintained" (parsers with maintainers), or a list of languages
-  incremental_selection = {
-    enable = true,
-    keymaps = {
+local ts_config = require("nvim-treesitter.configs")
+ts_config.setup {
+    ensure_installed = {
+        "html",
+        "css",
+        "bash",
+        "python",
+        "lua"
+    },
+    highlight = {
+        enable = true,
+        use_languagetree = true
+    },
+		keymaps = {
       init_selection = '<m-CR>',
       --scope_incremental = '<CR>',
       node_incremental = '<TAB>',
       node_decremental = '<S-TAB>',
     },
-  },
-  highlight = {
-    enable = true,              -- false will disable the whole extension
-    -- Instead of true it can also be a list of languages
-    additional_vim_regex_highlighting = false,
-  },
+		indent = {enable = true},
+    -- playground = {
+    --     enable = true,
+    --     disable = {},
+    --     updatetime = 25, -- Debounced time for highlighting nodes in the playground from source code
+    --     persist_queries = false -- Whether the query persists across vim sessions
+    -- },
+    autotag = {enable = true},
+    rainbow = {enable = true},
 }
+-- require'nvim-treesitter.configs'.setup {
+-- -- ensure_installed = "all", -- one of "all", "maintained" (parsers with maintainers), or a list of languages
+--   incremental_selection = {
+--     enable = true,
+--     keymaps = {
+--       init_selection = '<m-CR>',
+--       --scope_incremental = '<CR>',
+--       node_incremental = '<TAB>',
+--       node_decremental = '<S-TAB>',
+--     },
+--   },
+-- 	folding = { enable = true },
+--   highlight = {
+--     enable = true,              -- false will disable the whole extension
+--     -- Instead of true it can also be a list of languages
+--     additional_vim_regex_highlighting = false,
+--   },
+-- }
 require('leap').setup {
 -- max_phase_one_targets = nil,
 highlight_unlabeled_phase_one_targets = false,
