@@ -1,9 +1,10 @@
 Trash/
 .tmp*/
-google-chrome-beta\
-google-chrome-unstable\
+google-chrome-beta/
+google-chrome-unstable/
+*google*
 firefox/
-google-chrome\
+google-chrome/
 chromium/
 config/pulse/
 config/PowerToys/
