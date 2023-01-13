@@ -22,6 +22,7 @@ opt.switchbuf='newtab'
 opt.ignorecase = true
 opt.smartcase = true
 opt.foldmethod='expr'
+opt.foldexpr='nvim_treesitter#foldexpr()'
 opt.linebreak = true
 vim.opt.formatoptions:append{"w"}
 opt.autochdir = true
@@ -65,7 +66,6 @@ g.neovide_fullscreen = true
 -- vim.cmd [[let g:neovide_refresh_rate = 120]]
 g.neovide_floating_blur_amount_x = 3.0
 g.neovide_floating_blur_amount_y = 3.0
-vim.cmd [[set foldexpr=nvim_treesitter#foldexpr()]]
 opt.runtimepath:append(',/tmp/pluggedtest/vim-plug')
 opt.spell = true
 -- vim.o.foldcolumn = '1'
