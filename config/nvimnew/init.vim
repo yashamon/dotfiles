@@ -24,7 +24,7 @@ require("lazy").setup({
 {'L3MON4D3/LuaSnip', lazy = true },
 {'saadparwaiz1/cmp_luasnip', lazy = true},
 {'nvim-treesitter/playground', lazy = false},
-{'LhKipp/nvim-nu', cmd = "Filetype"},
+{'LhKipp/nvim-nu', build = ':TSInstall nu'},
 {'lukas-reineke/indent-blankline.nvim', event = { "BufRead", "BufNewFile" }},
 {'folke/which-key.nvim', lazy = true},
 {'lambdalisue/nerdfont.vim'},
