@@ -1,5 +1,5 @@
 lua <<EOF
-vim.opt.runtimepath = '~/dotfiles/config/nvim' 
+vim.opt.runtimepath = '~/dotfiles/config/nvim'
 -- .. vim.fn.stdpath("data")
 local lazypath = vim.fn.stdpath("data") .. "/lazy/lazy.nvim"
 if not vim.loop.fs_stat(lazypath) then
@@ -21,15 +21,15 @@ require("lazy").setup({
   config = true, lazy = true
 }, 
 {'gbprod/yanky.nvim', lazy = true},
-{'jose-elias-alvarez/null-ls.nvim', dependencies = "nvim-lua/plenary.nvim" },
+-- {'jose-elias-alvarez/null-ls.nvim', dependencies = "nvim-lua/plenary.nvim" },
 {'nvim-telescope/telescope-fzf-native.nvim', lazy = true},
 {'folke/todo-comments.nvim', lazy = true},
 {'L3MON4D3/LuaSnip', lazy = true },
 {'saadparwaiz1/cmp_luasnip', lazy = true},
 {'nvim-treesitter/playground', lazy = false},
-{'LhKipp/nvim-nu', 
-	dependencies = { "nvim-treesitter/nvim-treesitter", "jose-elias-alvarez/null-ls.nvim"}
-},
+--{'LhKipp/nvim-nu', 
+--	dependencies = { "nvim-treesitter/nvim-treesitter", "jose-elias-alvarez/null-ls.nvim"}
+--},
 {'lukas-reineke/indent-blankline.nvim', event = { "BufRead", "BufNewFile" }},
 {'folke/which-key.nvim', lazy = true},
 {'lambdalisue/nerdfont.vim'},
@@ -56,10 +56,10 @@ require("lazy").setup({
 {'justinhoward/fzf-neoyank', lazy=false }, 
 {'folke/tokyonight.nvim', lazy = true},
 {'ellisonleao/gruvbox.nvim', 
-lazy = false, priority = 1000, 
-    config = function()
-      vim.cmd([[colorscheme gruvbox]])
-			end,},
+-- lazy = false, priority = 1000, 
+--     config = function()
+--       vim.cmd([[colorscheme gruvbox]])
+-- 			end,},
 {'nvim-treesitter/nvim-treesitter', build = ":TSUpdate", lazy = false},
 {'Shougo/neoyank.vim', dependencies = 'Shougo/denite.nvim'}, 
 {'junegunn/fzf', lazy = false, build = ":call fzf#install()" }, 

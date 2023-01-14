@@ -50,7 +50,7 @@ ts_config.setup {
 	autotag = {enable = true},
 	rainbow = {enable = true},
 }
-require'nu'.setup{}
+--require'nu'.setup{}
 -- require'nvim-treesitter.configs'.setup {
 -- -- ensure_installed = "all", -- one of "all", "maintained" (parsers with maintainers), or a list of languages
 --   incremental_selection = {
