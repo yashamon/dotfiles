@@ -24,7 +24,7 @@ require("lazy").setup({
 {'folke/todo-comments.nvim', lazy = true},
 {'L3MON4D3/LuaSnip', lazy = true },
 {'saadparwaiz1/cmp_luasnip', lazy = true},
-{'nvim-treesitter/playground', lazy = true},
+{'nvim-treesitter/playground', lazy = false},
 {'LhKipp/nvim-nu', 
 	dependencies = { "nvim-treesitter/nvim-treesitter", "jose-elias-alvarez/null-ls.nvim"}
 },
