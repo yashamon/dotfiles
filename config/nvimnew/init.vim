@@ -1,5 +1,5 @@
 lua <<EOF
-vim.opt.runtimepath = '~/dotfiles/config/nvim,' 
+vim.opt.runtimepath = '~/dotfiles/config/nvim' 
 -- .. vim.fn.stdpath("data")
 local lazypath = vim.fn.stdpath("data") .. "/lazy/lazy.nvim"
 if not vim.loop.fs_stat(lazypath) then
