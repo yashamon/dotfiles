@@ -1,5 +1,5 @@
 lua <<EOF
-vim.opt.runtimepath = '~/dotfiles/config/nvim'
+local path = '~/dotfiles/config/nvim'
 -- .. vim.fn.stdpath("data")
 local lazypath = vim.fn.stdpath("data") .. "/lazy/lazy.nvim"
 if not vim.loop.fs_stat(lazypath) then
@@ -12,7 +12,7 @@ if not vim.loop.fs_stat(lazypath) then
     lazypath,
   })
 end
-vim.opt.rtp:prepend(lazypath)
+vim.opt.rtp = {lazypath, path}
 require("lazy").setup({
 { 'sindrets/diffview.nvim', dependencies = 'nvim-lua/plenary.nvim' },
 {
@@ -53,9 +53,9 @@ require("lazy").setup({
  },
 {'terrortylor/nvim-comment', cmd = "CommentToggle"},
 'nvim-lualine/lualine.nvim', 
-{'justinhoward/fzf-neoyank', lazy=false }, 
-{'folke/tokyonight.nvim', lazy = true},
-{'ellisonleao/gruvbox.nvim', 
+{'justinhoward/fzf-neoyank', lazy=false },
+{'folke/tokyonight.nvim', lazy = false},
+--{'ellisonleao/gruvbox.nvim', 
 -- lazy = false, priority = 1000, 
 --     config = function()
 --       vim.cmd([[colorscheme gruvbox]])

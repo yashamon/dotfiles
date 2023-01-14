@@ -256,55 +256,55 @@ require("which-key").setup({
     filetypes = { "TelescopePrompt" },
   },
 })
-require("gruvbox").setup({
-undercurl = true,
-  underline = true,
-  bold = true,
-  italic = true,
-  strikethrough = false,
-  invert_selection = false,
-  invert_signs = false,
-  invert_tabline = false,
-  invert_intend_guides = false,
-  inverse = false, -- invert background for search, diffs, statuslines and errors
-  contrast = "hard", -- can be "hard", "soft" or empty string
-  palette_overrides = {},
-  dim_inactive = false,
-  transparent_mode = false,
-    overrides = {
-        SignColumn = {bg = "#ffa546"},
-        Normal = {bg = "#ffa546"},
-        DiagnosticSignError = { bg = "#ffa546" },
-        DiagnosticSignWarn = { bg = "#ffa546" },
-        DiagnosticSignInfo = { bg = "#ffa546" },
-        DiagnosticSignHint = { bg = "#ffa546" },
-        texType = { fg = "#808080" },
-        texMath = { fg = "#650000" },
-        TexSpecial = { fg = "#af6000" },
-        texDelimiter = { fg = "#af6000" },
-        texStatement = { fg = "#580058" },
-				texRefzone = { fg = "#af6000" },
-				texBeginEnd = { fg = "#00008b" },
-				texCite = { fg = "#af6000" },
-				Special = { fg = '#580058' },
-        -- Operator = { fg = "#808080" },
-        Type = { fg = "#008800" },
-        Comment = { fg = "#af6000" },
-        String = { fg = "#580058" },
-        Operator = { fg = "#580058" },
-        -- Pmenu = { bg = "#ffa546", fg = "#1e2030" },
-				Pmenu = { bg = "#ffa546", fg = "white" },
-				texTypeStyle = { fg = "#427b58" },
-				Cursor =  { fg = 'black', bg = 'white' }
-        --bright orange  #fd8432
-        --texComment = { fg = "#00ff00" },
-        -- texString = { fg = "#0000ff" },
-        -- Special = {fg = "#0000ff" },
-        -- texCmdName = { fg = "#0000ff" },
-        -- SpecialChar = { fg = "#0000ff" },
-        -- Statement = { fg = "#0000ff" }
-    }
-})
+-- require("gruvbox").setup({
+-- undercurl = true,
+--   underline = true,
+--   bold = true,
+--   italic = true,
+--   strikethrough = false,
+--   invert_selection = false,
+--   invert_signs = false,
+--   invert_tabline = false,
+--   invert_intend_guides = false,
+--   inverse = false, -- invert background for search, diffs, statuslines and errors
+--   contrast = "hard", -- can be "hard", "soft" or empty string
+--   palette_overrides = {},
+--   dim_inactive = false,
+--   transparent_mode = false,
+--     overrides = {
+--         SignColumn = {bg = "#ffa546"},
+--         Normal = {bg = "#ffa546"},
+--         DiagnosticSignError = { bg = "#ffa546" },
+--         DiagnosticSignWarn = { bg = "#ffa546" },
+--         DiagnosticSignInfo = { bg = "#ffa546" },
+--         DiagnosticSignHint = { bg = "#ffa546" },
+--         texType = { fg = "#808080" },
+--         texMath = { fg = "#650000" },
+--         TexSpecial = { fg = "#af6000" },
+--         texDelimiter = { fg = "#af6000" },
+--         texStatement = { fg = "#580058" },
+-- 				texRefzone = { fg = "#af6000" },
+-- 				texBeginEnd = { fg = "#00008b" },
+-- 				texCite = { fg = "#af6000" },
+-- 				Special = { fg = '#580058' },
+--         -- Operator = { fg = "#808080" },
+--         Type = { fg = "#008800" },
+--         Comment = { fg = "#af6000" },
+--         String = { fg = "#580058" },
+--         Operator = { fg = "#580058" },
+--         -- Pmenu = { bg = "#ffa546", fg = "#1e2030" },
+-- 				Pmenu = { bg = "#ffa546", fg = "white" },
+-- 				texTypeStyle = { fg = "#427b58" },
+-- 				Cursor =  { fg = 'black', bg = 'white' }
+--         --bright orange  #fd8432
+--         --texComment = { fg = "#00ff00" },
+--         -- texString = { fg = "#0000ff" },
+--         -- Special = {fg = "#0000ff" },
+--         -- texCmdName = { fg = "#0000ff" },
+--         -- SpecialChar = { fg = "#0000ff" },
+--         -- Statement = { fg = "#0000ff" }
+--     }
+-- })
 
 -- nvim LSP
 require('snippets')
