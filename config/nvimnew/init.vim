@@ -209,18 +209,17 @@ noremap c "0c
 noremap s "0s
 noremap C "0C
 noremap x "0x
-
 vnoremap x "+x
 vnoremap d "0d
 vnoremap c "0c
-vnoremap y "+y
+vnoremap y my"+y`y
 vnoremap <C-y> y
-nnoremap y "+y
+nnoremap y my"+y`y
 nnoremap p "+p
 nnoremap <C-p> "0p
 
 nnoremap <leader>q q
-" map cr
+" cr
 inoremap <cr> <esc>$a<cr><space><esc>"_s
 inoremap <m-cr> <cr><space><esc>"_s
 
