@@ -294,7 +294,8 @@ undercurl = true,
         Operator = { fg = "#580058" },
         -- Pmenu = { bg = "#ffa546", fg = "#1e2030" },
 				Pmenu = { bg = "#ffa546", fg = "white" },
-				texTypeStyle = { fg = "#427b58" }
+				texTypeStyle = { fg = "#427b58" },
+				Cursor =  { fg = 'black', bg = 'white' }
         --bright orange  #fd8432
         --texComment = { fg = "#00ff00" },
         -- texString = { fg = "#0000ff" },
