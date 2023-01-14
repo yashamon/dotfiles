@@ -20,6 +20,7 @@
   "mason.nvim": { "branch": "main", "commit": "5ab101aa11849c2424d5b87726105daae8cb49e8" },
   "neoyank.vim": { "branch": "master", "commit": "8b3c9f7d8109744766d13eaf6c17eb195dd61d9d" },
   "nerdfont.vim": { "branch": "master", "commit": "3daf10116daad5da257486c9043c658cced4dd31" },
+  "null-ls.nvim": { "branch": "main", "commit": "915558963709ea17c5aa246ca1c9786bfee6ddb4" },
   "nvim-bqf": { "branch": "main", "commit": "22e9551468c8d9d9d2d4e682c6d25a1204f389a3" },
   "nvim-cmp": { "branch": "main", "commit": "11a95792a5be0f5a40bab5fc5b670e5b1399a939" },
   "nvim-comment": { "branch": "main", "commit": "e9ac16ab056695cad6461173693069ec070d2b23" },

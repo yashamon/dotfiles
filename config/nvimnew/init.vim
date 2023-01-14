@@ -19,13 +19,15 @@ require("lazy").setup({
   config = true, lazy = true
 }, 
 {'gbprod/yanky.nvim', lazy = true},
-{'null-ls.nvim', dependencies = "nvim-lua/plenary.nvim" },
+{'jose-elias-alvarez/null-ls.nvim', dependencies = "nvim-lua/plenary.nvim" },
 {'nvim-telescope/telescope-fzf-native.nvim', lazy = true},
 {'folke/todo-comments.nvim', lazy = true},
 {'L3MON4D3/LuaSnip', lazy = true },
 {'saadparwaiz1/cmp_luasnip', lazy = true},
 {'nvim-treesitter/playground', lazy = false},
-{'LhKipp/nvim-nu', build = ':TSInstall nu'},
+{'LhKipp/nvim-nu', 
+	dependencies = { "nvim-treesitter/nvim-treesitter", "jose-elias-alvarez/null-ls.nvim"}
+},
 {'lukas-reineke/indent-blankline.nvim', event = { "BufRead", "BufNewFile" }},
 {'folke/which-key.nvim', lazy = true},
 {'lambdalisue/nerdfont.vim'},
