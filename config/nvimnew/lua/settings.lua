@@ -176,7 +176,7 @@ on_highlights = function(highlights, colors)
     highlights.String = { fg = "#580058" }
     highlights.Operator = { fg = "#580058" }
 		highlights.texBeginEndName = { fg = "#af6000" }
-		highlights.texInputFile = highlights.TexStatement
+		highlights.texInputFile = { fg = "#580058" }
         -- Pmenu = { bg = "#ffa546", fg = "#1e2030" },
 		highlights.Pmenu = { bg = "#ffa546", fg = "white" },
 		highlights.texTypeStyle = { fg = "#427b58" }
