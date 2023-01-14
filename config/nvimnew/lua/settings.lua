@@ -25,7 +25,7 @@ require("indent_blankline").setup {
 local ts_config = require("nvim-treesitter.configs")
 ts_config.setup {
 	ensure_installed = {
-			-- "latex",
+			"latex",
 			"nu",
 			"python",
 			"lua"
@@ -40,7 +40,7 @@ ts_config.setup {
 		node_incremental = '<TAB>',
 		node_decremental = '<S-TAB>',
 	},
-	indent = {enable = true},
+	indent = {enable = false},
 	-- playground = {
 	--     enable = true,
 	--     disable = {},
