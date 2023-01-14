@@ -26,7 +26,7 @@ local ts_config = require("nvim-treesitter.configs")
 ts_config.setup {
 	ensure_installed = {
 			"latex",
-			"nu",
+			-- "nu",
 			"python",
 			"lua"
 	},
