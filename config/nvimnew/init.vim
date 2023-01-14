@@ -24,7 +24,7 @@ require("lazy").setup({
 {'folke/todo-comments.nvim', lazy = true},
 {'L3MON4D3/LuaSnip', lazy = true },
 {'saadparwaiz1/cmp_luasnip', lazy = true},
-{'nvim-treesitter/playground', lazy = false},
+{'nvim-treesitter/playground', lazy = true},
 {'LhKipp/nvim-nu', 
 	dependencies = { "nvim-treesitter/nvim-treesitter", "jose-elias-alvarez/null-ls.nvim"}
 },
@@ -33,7 +33,7 @@ require("lazy").setup({
 {'lambdalisue/nerdfont.vim'},
 {'ggandor/leap.nvim', lazy = true},
 {'kyazdani42/nvim-web-devicons', lazy = true},
-{'glacambre/firenvim', build = ":call firenvim#install(0)", lazy = true }, 
+{'glacambre/firenvim', build = ":call firenvim#install(0)", lazy = false }, 
 {'neovim/nvim-lspconfig', lazy = true },
 {'williamboman/mason.nvim', lazy = true},
 {'williamboman/mason-lspconfig.nvim', lazy = true},
