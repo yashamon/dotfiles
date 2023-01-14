@@ -65,8 +65,8 @@ vim.cmd [[let $FZF_DEFAULT_OPTS = '--bind ctrl-a:select-all'
 -- vim.cmd [[let g:neovide_profiler = v:true]]
 g.neovide_fullscreen = true
 -- vim.cmd [[let g:neovide_refresh_rate = 120]]
-g.neovide_floating_blur_amount_x = 3.0
-g.neovide_floating_blur_amount_y = 3.0
+g.neovide_floating_blur_amount_x = 2.0
+g.neovide_floating_blur_amount_y = 2.0
 opt.runtimepath:append(',/tmp/pluggedtest/vim-plug')
 opt.spell = true
 -- vim.o.foldcolumn = '1'
