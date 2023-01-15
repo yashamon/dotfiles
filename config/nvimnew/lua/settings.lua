@@ -173,6 +173,8 @@ on_highlights = function(highlights, colors)
     }
 		highlights["@function"] = { fg = "#650000",
     style = {}
+    }highlights["@text.environment"] = { fg = "#580058",
+    style = {}
     }
 		highlights["@text.environment.name"] = { fg = "#00008b",
     style = {}
