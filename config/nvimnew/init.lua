@@ -75,6 +75,7 @@ require('functions')
 require('set')
 require('au')
 require('keymaps')
+require('mini.trailspace').setup()
 require('mini.comment').setup(
 {
   -- Module mappings. Use `''` (empty string) to disable one.
@@ -130,8 +131,8 @@ require('mini.surround').setup(
 require('mini.move').setup(
 {
   -- Module mappings. Use `''` (empty string) to disable one.
+	-- Move visual selection in Visual mode. Defaults are Alt (Meta) + hjkl.
   mappings = {
-    -- Move visual selection in Visual mode. Defaults are Alt (Meta) + hjkl.
     left = '<left>',
     right = '<right>',
     down = '<down>',
