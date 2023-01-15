@@ -25,14 +25,15 @@ require("indent_blankline").setup {
 local ts_config = require("nvim-treesitter.configs")
 ts_config.setup {
 	ensure_installed = {
-			"latex",
-			-- "nu",
+			-- "latex",
+			"nu",
 			"python",
 			"lua"
 	},
 	highlight = {
 			enable = true,
-			use_languagetree = true
+			use_languagetree = true,
+			additional_vim_regex_highlighting = false
 	},
 	keymaps = {
 		init_selection = '<m-CR>',
@@ -50,7 +51,7 @@ ts_config.setup {
 	autotag = {enable = true},
 	rainbow = {enable = true},
 }
---require'nu'.setup{}
+require'nu'.setup{}
 -- require'nvim-treesitter.configs'.setup {
 -- -- ensure_installed = "all", -- one of "all", "maintained" (parsers with maintainers), or a list of languages
 --   incremental_selection = {
@@ -164,6 +165,9 @@ on_highlights = function(highlights, colors)
 		highlights.DiagnosticSignHint = { bg = "#ffa546" }
 		highlights.texType = { fg = "#808080" }
 		highlights.texMath = { fg = "#650000" }
+		["@text.math"] = { fg = "#650000",
+    style = {}
+    }
 		highlights.TexSpecial = { fg = "#af6000" }
 		highlights.texDelimiter = { fg = "#af6000" }
 		highlights.texStatement = { fg = "#580058" }
