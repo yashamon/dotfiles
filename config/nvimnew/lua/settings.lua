@@ -164,8 +164,8 @@ on_highlights = function(highlights, colors)
 		highlights.DiagnosticSignInfo = { bg = "#ffa546" }
 		highlights.DiagnosticSignHint = { bg = "#ffa546" }
 		highlights.texType = { fg = "#808080" }
-		highlights.texMath = { fg = "#650000" }
-		highlights["@text.math"] = { fg = "#650000",
+		-- highlights.texMath = { fg = "#650000" }
+		highlights["@text.math"] = { fg = "#9b5500",
     style = {}
     }
 		highlights.TexSpecial = { fg = "#af6000" }
