@@ -332,39 +332,27 @@ undercurl = true,
         -- Pmenu = { bg = "#ffa546", fg = "#1e2030" },
 				Pmenu = { bg = "#ffa546", fg = "white" },
 				texTypeStyle = { fg = "#427b58" },
-		["@namespace"] = { fg = "#580058", style = {}
+		["@namespace"] = { fg = "#580058"
     },
-		["@text.math"] = { fg = "darkgreen", style = {}
+		["@text.math"] = { fg = "darkgreen"
     },
-		["@function"] = { fg = "#650000", style = {}
+		["@function"] = { fg = "#650000"
     },
-		["@text.title"] = { fg = "darkblue",
-    style = {}
+		["@text.title"] = { fg = "darkblue"
     },
-		["@text.environment"] = { fg = "#580058",
-    style = {}
+		["@text.environment"] = { fg = "#580058"
     },
-		["@text.environment.name"] = { fg = "#00008b",
-    style = {}
+		["@text.environment.name"] = { fg = "#00008b"
     },
-		["@function.macro"] = { fg = "#af6000",
-    style = {}
+		["@function.macro"] = { fg = "#af6000"
     },
-		["@include"] = { fg = "#af6000",
-    style = {}
+		["@include"] = { fg = "#af6000"
     },
-		["@punctuation.bracket"] = { fg = "darkred",
-    style = {}
+		["@punctuation.bracket"] = { fg = "darkred"
     },
-		["@parameter"] = { fg = "darkblue",
-    style = {}
-    },
-		["@text.reference"] = { fg = "#af6000",
-    style = {}
-    },
-		["@operator"] = { fg = "#af6000",
-    style = {}
-    },
+		["@parameter"] = { fg = "darkblue" },
+		["@text.reference"] = { fg = "#af6000" },
+		["@operator"] = { fg = "#af6000" },
 				Cursor =  { fg = 'black', bg = 'white' }
         --bright orange  #fd8432
         --texComment = { fg = "#00ff00" },
