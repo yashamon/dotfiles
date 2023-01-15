@@ -79,7 +79,7 @@ vim.cmd([[
 imap <silent><expr> <C-E> luasnip#choice_active() ? '<Plug>luasnip-next-choice' : '<C-E>'
 smap <silent><expr> <C-E> luasnip#choice_active() ? '<Plug>luasnip-next-choice' : '<C-E>'
 
-" Replace the default dictionary completion with fzf-based fuzzy completion
+" Replace  default dictionary completion with fzf-based fuzzy completion
 ""other maps
 inoremap <cr> <cr><space><esc>"_s
 vnoremap <silent> <cr> "*y:silent! let searchTerm = '\V'.substitute(escape(@*, '\/'), "\n", '\\n', "g") <bar> let @/ = searchTerm <bar> echo '/'.@/ <bar> call histadd("search", searchTerm) <bar> set hls<cr><cr>
