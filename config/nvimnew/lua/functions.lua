@@ -123,6 +123,7 @@ OnUIEnter = function(event)
   end
 end
 end
+
 -- -- 	
 -- 	local ui = nvim_get_chan_info(event.chan)
 -- 	if has_key(l:ui, 'client') and has_key(l:ui.client, 'name')

@@ -1,3 +1,5 @@
+local path = '~/dotfiles/config/nvim'
+-- .. vim.fn.stdpath("data")
 local lazypath = vim.fn.stdpath("data") .. "/lazy/lazy.nvim"
 if not vim.loop.fs_stat(lazypath) then
   vim.fn.system({
@@ -9,50 +11,73 @@ if not vim.loop.fs_stat(lazypath) then
     lazypath,
   })
 end
-vim.opt.rtp:prepend(lazypath)
+vim.opt.rtp = {lazypath}
 require("lazy").setup({
-'nvim-telescope/telescope-fzf-native.nvim',
-'folke/todo-comments.nvim', 
-'L3MON4D3/LuaSnip', 
-'saadparwaiz1/cmp_luasnip',
-'nvim-treesitter/playground', 
-'LhKipp/nvim-nu', 
-'lukas-reineke/indent-blankline.nvim', 
-'folke/which-key.nvim', 
-'ggandor/leap.nvim', 
-'kyazdani42/nvim-web-devicons', 
-{'glacambre/firenvim', build = ":call firenvim#install(0)" }, 
-'neovim/nvim-lspconfig',
-'williamboman/mason.nvim', 
-'williamboman/mason-lspconfig.nvim', 
-'hrsh7th/nvim-cmp', 
-'hrsh7th/cmp-buffer', 
-'hrsh7th/cmp-nvim-lsp', 
-'quangnguyen30192/cmp-nvim-tags', 
-'terrortylor/nvim-comment', 
+{ 'sindrets/diffview.nvim', dependencies = 'nvim-lua/plenary.nvim' },
+{
+	"arsham/yanker.nvim",
+  dependencies = { "arsham/arshlib.nvim", "junegunn/fzf.vim" },
+  config = true, lazy = true
+},
+{'gbprod/yanky.nvim', lazy = true},
+{'jose-elias-alvarez/null-ls.nvim', dependencies = "nvim-lua/plenary.nvim" },
+{'nvim-telescope/telescope-fzf-native.nvim', lazy = true},
+{'folke/todo-comments.nvim', lazy = true},
+{'L3MON4D3/LuaSnip', lazy = true },
+{'saadparwaiz1/cmp_luasnip', lazy = true},
+{'nvim-treesitter/playground', lazy = false},
+{'LhKipp/nvim-nu', dependencies = { "nvim-treesitter/nvim-treesitter", "jose-elias-alvarez/null-ls.nvim"}
+},
+{'lukas-reineke/indent-blankline.nvim', event = { "BufRead", "BufNewFile" }},
+{'folke/which-key.nvim', lazy = true},
+{'lambdalisue/nerdfont.vim'},
+{'ggandor/leap.nvim', lazy = true},
+{'kyazdani42/nvim-web-devicons', lazy = true},
+{'glacambre/firenvim', build = ":call firenvim#install(0)", lazy = false }, 
+{'neovim/nvim-lspconfig', lazy = true },
+{'williamboman/mason.nvim', lazy = true},
+{'williamboman/mason-lspconfig.nvim', lazy = true},
+{
+    "hrsh7th/nvim-cmp",
+    -- load cmp on InsertEnter
+    event = "InsertEnter",
+    -- these dependencies will only be loaded when cmp loads
+    -- dependencies are always lazy-loaded unless specified otherwise
+    dependencies = {
+      "hrsh7th/cmp-nvim-lsp",
+      "hrsh7th/cmp-buffer",
+			'quangnguyen30192/cmp-nvim-tags',
+    },
+ },
+{'terrortylor/nvim-comment', cmd = "CommentToggle"},
 'nvim-lualine/lualine.nvim', 
-'justinhoward/fzf-neoyank', 
-'folke/tokyonight.nvim', 
-'ellisonleao/gruvbox.nvim', 
-{'nvim-treesitter/nvim-treesitter', build = ":TSUpdate"},
-'Shougo/neoyank.vim', 'Shougo/denite.nvim', 
-{'junegunn/fzf', build = ":call fzf#install()" }, 
-'junegunn/fzf.vim',
+{'justinhoward/fzf-neoyank', lazy=false },
+{'folke/tokyonight.nvim', lazy = true
+},
+{'ellisonleao/gruvbox.nvim', 
+lazy = false, priority = 1000, 
+config = function()
+vim.cmd([[colorscheme gruvbox]])
+end,},
+{'nvim-treesitter/nvim-treesitter', build = ":TSUpdate", lazy = false},
+{'Shougo/neoyank.vim', dependencies = 'Shougo/denite.nvim'}, 
+{'junegunn/fzf', lazy = false, build = ":call fzf#install()" }, 
+{'junegunn/fzf.vim', lazy = true},
 {'mbbill/undotree', cmd = "UndotreeToggle"}, 
-'kevinhwang91/nvim-bqf', 
-'nvim-lua/plenary.nvim', 
-'nvim-telescope/telescope.nvim', 
-'mg979/vim-visual-multi', 
-'tpope/vim-surround',
+{'kevinhwang91/nvim-bqf', lazy = false},
+{'nvim-telescope/telescope.nvim', lazy = true, dependencies = "nvim-lua/plenary.nvim",
+},
+{'mg979/vim-visual-multi', lazy = false},
+{'tpope/vim-surround', lazy = false}
 })
---require('keymaps')
 require('settings')
 require('functions')
 require('set')
 require('au')
-
-vim.cmd [[
-function! OnUIEnter(event)
+require('keymaps')
+vim.cmd([[
+" Autocommands, au
+ function! OnUIEnter(event)
 	let l:ui = nvim_get_chan_info(a:event.chan)
 	if has_key(l:ui, 'client') && has_key(l:ui.client, 'name')
 		if l:ui.client.name ==# 'Firenvim'
@@ -63,10 +88,8 @@ function! OnUIEnter(event)
 		endif
 	endif
 endfunction
-autocmd UIEnter * call OnUIEnter(deepcopy(v:event))
-
-"remember cursor location
-autocmd BufReadPost * if @% !~# '\.git[\/\\]COMMIT_EDITMSG$' && line("'\"") > 1 && line("'\"") <= line("$") | exe "normal! g`\"" | endif
+ autocmd UIEnter * call OnUIEnter(deepcopy(v:event))
+" autocmd UIEnter * lua OnUIEnter(v:event)
 
 "maps remaps mappings  
 
@@ -97,6 +120,10 @@ nnoremap <leader>u <cr>:UndotreeToggle<CR>
 noremap <leader>c :'<,'>CommentToggle<cr>
 
 " commands
+command! -bang -nargs=* BLinesB
+    \ call fzf#vim#grep(
+    \   'rg --with-filename --line-number --no-heading --smart-case . '.fnameescape(expand('%')),1,
+    \   fzf#vim#with_preview({'options': '--keep-right --layout reverse --query '.shellescape(<q-args>).' --preview "bat -p --color always {}"'}, 'up:50%')) 
 command Tw50 set tw=50
 command Tw0 set tw=0
 command! SEND silent call Send()
@@ -176,24 +203,23 @@ noremap c "0c
 noremap s "0s
 noremap C "0C
 noremap x "0x
-
 vnoremap x "+x
 vnoremap d "0d
 vnoremap c "0c
-vnoremap y "+y
+vnoremap y my"+y`y
 vnoremap <C-y> y
-nnoremap y "+y
+nnoremap y my"+y`y
 nnoremap p "+p
 nnoremap <C-p> "0p
 
 nnoremap <leader>q q
-" map cr
+" cr
 inoremap <cr> <esc>$a<cr><space><esc>"_s
 inoremap <m-cr> <cr><space><esc>"_s
 
 nnoremap D "0dg$
 nnoremap V vg$
-noremap X Vg$x
+noremap X vg$x
 nnoremap A g$a
 noremap H g^
 noremap L g$
@@ -214,8 +240,6 @@ nmap gv \\/
 vmap s \\/
 " vim-multiple-\cursors
 nnoremap <m-n> <c-n>
-
-" vnoremap f /\%V\%V<left><left><left>
 noremap F ?
 noremap gfm /\$<CR>v?\$<CR>
 noremap gm /\$<CR>hv?\$<CR>l
@@ -245,7 +269,6 @@ noremap <C-t> <Esc>:AsyncRun ctags -R<CR>
 noremap <D-u> <C-u>
 noremap <A-u> <C-u>
 inoremap <expr> <CR> pumvisible() ? "\<C-y>" : "\<C-g>u\<CR>"
-nnoremap <silent> <Leader>y :YRGetElem<CR>
 map ' "
 inoremap <D-]> <C-x><C-]>
 inoremap <C-]> <C-x><C-]>
@@ -285,9 +308,6 @@ nnoremap <leader>c :gc
 
 " FZF Neoyank yank 
 
-nnoremap <leader>y :FZFNeoyank<cr>
-nnoremap <leader>Y :FZFNeoyank  P<cr>
-vnoremap <leader>y :FZFNeoyankSelection<cr>
 nnoremap <leader>p :FZFNeoyank + p<cr> 
 nnoremap <leader>P :FZFNeoyank + P<cr>
 nnoremap <leader>0p :FZFNeoyank 0 p<cr>
@@ -320,7 +340,8 @@ nnoremap o o<space><esc>"_s
 nnoremap <C-c> :set hlsearch!<cr>
 vnoremap <silent> <cr> "*y:silent! let searchTerm = '\V'.substitute(escape(@*, '\/'), "\n", '\\n', "g") <bar> let @/ = searchTerm <bar> echo '/'.@/ <bar> call histadd("search", searchTerm) <bar> set hls<cr><cr>
 inoremap <m-d> <C-w>
-
+"Quickfix
+nnoremap <leader>e :silent call ToggleQuickFix()<CR>
 " -1 for jumping backwards.
 inoremap <silent> <S-Tab> <cmd>lua require'luasnip'.jump(-1)<Cr>
 inoremap <silent> <m-j> <cmd>lua require('luasnip').jump(1)<Cr>
@@ -338,13 +359,11 @@ function Bluemoon()
    colorscheme blue-moon
    " colorscheme material  
 endfunction
-
 function Deepocean()
    set background=dark
    colorscheme material  
    let g:material_style = 'deep ocean'  
 endfunction
-
 function Palenight()
    set background=dark
    " colorscheme blue-moon
@@ -359,23 +378,15 @@ function Lighter()
    " colorscheme blue-moon
    colorscheme tokyonight-day
 endfunction
-
 function Dark()
    set background=dark
    colorscheme tokyonight-moon
 endfunction
-
 function! Profile()
 profile start profile.log
 profile func *
 profile file *
 endfunction
-
-command! -bang -nargs=* BLinesB
-    \ call fzf#vim#grep(
-    \   'rg --with-filename --line-number --no-heading --smart-case . '.fnameescape(expand('%')),1,
-    \   fzf#vim#with_preview({'options': '--keep-right --layout reverse --query '.shellescape(<q-args>).' --preview "bat -p --color always {}"'}, 'up:50%'))
-
 function ToggleQuickFix()
       if empty(filter(getwininfo(), 'v:val.quickfix'))
       exec "up"
@@ -397,7 +408,6 @@ end
 EOF
         endif
 endfunction 
-
 nnoremap <leader>e :silent call ToggleQuickFix()<CR>
 function! ClearLatex()
   silent !rm ./build/* 
@@ -441,6 +451,6 @@ let execstrLinux="silent te zathura --synctex-forward " . linenumber . ":" . col
 let execstrWindows="silent te pwsh -c C:/Users/yasha/scoop/shims/sumatrapdf.EXE -reuse-instance " . b:filenamePDFWindows . " -forward-search " . filenametex . " " . linenumber
 exec execstrWindows
 silent execute "buffer" buf
-endfunction
-nnoremap <C-p> "0p
-]]
+endfunction 
+nnoremap <C-p> "0p 
+]])
