@@ -50,14 +50,13 @@ nmap gtd :TodoQuickFix<cr>]])
 
 -- "nmap <leader>gm :up<cr>:silent ! cat % >> ~/workspace/email.txt; cp % /tmp/temp; make4ht /tmp/temp "mathml,mathjax"; pandoc /tmp/temp.html --from html --to markdown_strict -o /tmp/temp.md; mv /tmp/temp.md %<cr>:e %<cr>:up<cr>:qa<cr>
 
-map('n', '<C-c>', function() vim.cmd('set hlsearch!') end, {}) 
+map('n', '<C-c>', function() vim.cmd('set hlsearch!') end, {})
 map('n', '<leader>e', function() vim.cmd('silent call ToggleQuickFix()') end, {})
 vim.cmd([["Leap
 map t <Plug>(leap-forward)
 map T <Plug>(leap-backward)
 " Replace the default dictionary completion with fzf-based fuzzy completion
 inoremap <expr> <c-x><c-k> fzf#vim#complete('cat /usr/share/dict/words')  
-
 ""other maps
 inoremap <cr> <cr><space><esc>"_s
 nnoremap o o<space><esc>"_s
