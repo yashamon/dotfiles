@@ -37,21 +37,13 @@ map('n', '<m-t>', function() vim.cmd('up'); vim.cmd('BTags') end, {})
 map('n', '<m-b>', function()  require('telescope.builtin').buffers({layout_strategy='vertical',layout_config={width=0.9}}) end, {})
 map('n', '<m-i>', function() require('telescope.builtin').git_bcommits({layout_strategy='vertical',layout_config={width=0.9}}) end, {})
 map('n', '<m-u>', function() vim.cmd('cg C:/Users/yasha/_vim_mru_files | copen call feedkeys("zf")') end, {})
--- map <m-f> :FZF ~<CR> 
+map('n', '<m-f>', function ()
+vim.cmd('FZF ~') end, {})
 map('n', '<leader>gs', function() vim.cmd('up | source $MYVIMRC') end, {})
-map('q:', 'nop', {})
--- Latex maps
-vim.cmd([[nmap <leader>v :silent call ViewPdf()<cr><cr>
-nmap <m-v> <esc>:silent call ViewPdf()<cr><cr>
-nmap <leader>ll :silent call CompileLatex()<cr>
-nmap <leader>lcl :silent call ClearLatex()<cr>
-nmap gtd :TodoQuickFix<cr>]])
-
-
--- "nmap <leader>gm :up<cr>:silent ! cat % >> ~/workspace/email.txt; cp % /tmp/temp; make4ht /tmp/temp "mathml,mathjax"; pandoc /tmp/temp.html --from html --to markdown_strict -o /tmp/temp.md; mv /tmp/temp.md %<cr>:e %<cr>:up<cr>:qa<cr>
-
+map('q:', '<nop>', {})
 map('n', '<C-c>', function() vim.cmd('set hlsearch!') end, {})
 map('n', '<leader>e', function() vim.cmd('silent call ToggleQuickFix()') end, {})
+
 vim.cmd([["Leap
 map t <Plug>(leap-forward)
 map T <Plug>(leap-backward)
@@ -74,6 +66,16 @@ smap <silent><expr> <C-E> luasnip#choice_active() ? '<Plug>luasnip-next-choice' 
 ]])
 
 
+
+-- Latex maps
+vim.cmd([[nmap <leader>v :silent call ViewPdf()<cr><cr>
+nmap <m-v> <esc>:silent call ViewPdf()<cr><cr>
+nmap <leader>ll :silent call CompileLatex()<cr>
+nmap <leader>lcl :silent call ClearLatex()<cr>
+nmap gtd :TodoQuickFix<cr>]])
+
+
+-- "nmap <leader>gm :up<cr>:silent ! cat % >> ~/workspace/email.txt; cp % /tmp/temp; make4ht /tmp/temp "mathml,mathjax"; pandoc /tmp/temp.html --from html --to markdown_strict -o /tmp/temp.md; mv /tmp/temp.md %<cr>:e %<cr>:up<cr>:qa<cr>
 
 --
 -- -- " Lsp mappings
