@@ -26,15 +26,13 @@ map('v', '<leader>p',  function () vim.cmd('FZFNeoyankSelection +') end, {})
 map('n', '<leader>f', function() vim.cmd('up'); Server(); vim.cmd('te lf'); Feedkey('i','i') end, {})
 map('n', '<leader>lg', function() vim.cmd('up'); Server(); vim.cmd('te lazygit'); Feedkey('i','i') end, {})
 map('n', '<leader>t', function() vim.cmd('up'); Server(); vim.cmd('edit term://') end, {})
-
--- nmap <m-7> :ZenMode<cr>:mksession!<cr>
--- map('n', '<leader>u ', function()<vim.cmd('cr>:UndotreeToggle<CR>
+map('n', '<leader>u', function() vim.cmd('UndotreeToggle') end, {})
 -- noremap <leader>c :'<,'>CommentToggle<cr>
--- map('n', '<leader>c ', function():vim.cmd('gc
+map('n', '<leader>c', 'gc', {})
 -- tnoremap <m-d> <C-\><C-n>:bdelete!<cr>
 -- nmap <m-8> :set laststatus=0<cr>:set lines=100<cr>:set guifont=Fira\ Code:h18<cr>:set columns=100<cr>
--- map('n', '<c-l>', function() vim.cmd(':bnext<CR>
--- map('n', '<c-h>', function() vim.cmd(':bprevious<CR>
+map('n', '<c-l>', function() vim.cmd('bnext') end, {})
+map('n', '<c-h>', function() vim.cmd('bprevious') end, {})
 -- map <S-C-q> <Esc>:qa!<CR>
 -- map <m-q> <esc>:wq<cr>
 -- map <m-Q> <esc>:q<cr>
@@ -48,12 +46,15 @@ map('n', '<leader>t', function() vim.cmd('up'); Server(); vim.cmd('edit term://'
 -- map('n', '<c-.> :c', function()vim.cmd('next<cr> 
 -- noremap ;w <Esc>:up<CR>
 -- noremap <C-t> <Esc>:AsyncRun ctags -R<CR>
--- map('n', '<m-t>', function() vim.cmd(':up<cr>:BTags<cr>
--- map('n', '<m-b>', function() vim.cmd(':lua require('telescope.builtin').buffers({layout_strategy='vertical',layout_config={width=0.9}})<cr>
--- map('n', '<m-i>', function() vim.cmd(':lua require('telescope.builtin').git_bcommits({layout_strategy='vertical',layout_config={width=0.9}})<cr>
--- map('n', '<m-u>', function() vim.cmd(':<Esc>:cg C:/Users/yasha/_vim_mru_files<cr>:copen<cr>:call feedkeys("zf")<CR>
+map('n', '<m-t>', function() vim.cmd('up'); vim.cmd('BTags') end, {})
+map('n', '<m-b>', function()  require('telescope.builtin').buffers({layout_strategy='vertical',layout_config={width=0.9}}) end, {})
+map('n', '<m-i>', function() require('telescope.builtin').git_bcommits({layout_strategy='vertical',layout_config={width=0.9}}) end, {})
+map('n', '<m-u>', function() vim.cmd('cg C:/Users/yasha/_vim_mru_files
+copen
+call feedkeys("zf")') end, {})
 -- map <m-f> :FZF ~<CR> 
--- map('<len', 'ader>gs', function() vim.cmd(':up<cr>:source $MYVIMRC<cr> 
+map('n', '<leader>gs', function() vim.cmd('up | source $MYVIMRC') end, {})
+
 -- map('n', '<c-e>', function() vim.cmd('viwy:cclose<cr>:<c-r>+<cr><cr>
 -- map('n', '<c-p>', function() vim.cmd(':<c-r>+<cr>
 -- map('n', '<m-l>', function() vim.cmd('viwy:bdelete<cr>:execute "buffer" g:buf<cr>:<c-r>+<cr><cr>
