@@ -62,10 +62,18 @@ require('luasnip').jump(-1) end, {})
 map('n', '<m-j>', function() require('luasnip').jump(1) end, {})
 map('n', '<m-k>', function() require('luasnip').jump(-1) end, {})
 
--- " Lsp mappings test
+-- " Lsp mappings 
 map('n','<leader>w', function () vim.cmd('up') end, {})
 map('n','ga', vim.lsp.buf.code_action, {})
 map('n','o', 'o<space><esc>"_s', {})
+
+--quiting
+map('n', '<m-q>', function () vim.cmd('wq') end, {})
+map('n', '<m-Q>', function () vim.cmd('q') end, {})
+map('n', '<m-c>', function () vim.cmd('close') end, {})
+map('n', '<m-d>', function () vim.cmd('up | bdelete') end, {})
+map('n', '<m-D>', function () vim.cmd('up | bdelete!') end, {})
+map('n', '<leader>r', function () vim.cmd('up | e') end, {})
 
 vim.cmd([[ 
 imap <silent><expr> <C-E> luasnip#choice_active() ? '<Plug>luasnip-next-choice' : '<C-E>'
@@ -92,12 +100,6 @@ nmap gtd :TodoQuickFix<cr>
 
 
 map <S-C-q> <Esc>:qa!<CR>
-map <m-q> <esc>:wq<cr>
-map <m-Q> <esc>:q<cr>
-map <m-c> :close<cr>
-map <m-d> <Esc>:up<CR>:bdelete<CR>
-map <m-D> :bdelete!<CR>
-noremap <leader>r :up<cr>:e<cr> 
 
 vnoremap < <gv
 vnoremap > >gv
