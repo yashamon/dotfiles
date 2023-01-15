@@ -168,6 +168,9 @@ on_highlights = function(highlights, colors)
 		highlights["@text.math"] = { fg = "#9b5500",
     style = {}
     }
+		highlights["@function"] = { fg = "#650000",
+    style = {}
+    }
 		highlights.TexSpecial = { fg = "#af6000" }
 		highlights.texDelimiter = { fg = "#af6000" }
 		highlights.texStatement = { fg = "#580058" }
