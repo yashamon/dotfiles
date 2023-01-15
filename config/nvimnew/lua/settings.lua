@@ -486,20 +486,20 @@ sources = cmp.config.sources({
 completion = { autocomplete = false }
 })
 
-require('nvim_comment').setup({
+--require('nvim_comment').setup({
    -- Linters prefer comment and line to have a space in between markers
-   marker_padding = true,
+ --  marker_padding = true,
    -- should comment out empty or whitespace only lines
-   comment_empty = true,
+  -- comment_empty = true,
    -- Should key mappings be created
-   create_mappings = true,
+   --create_mappings = true,
    -- Normal mode mapping left hand side
-   line_mapping = "gc",
+ --  line_mapping = "gc",
    -- Visual/Operator mapping left hand side
-   operator_mapping = "<leader>c",
+  -- operator_mapping = "<leader>c",
    -- Hook function to call before commenting takes place
    --hook = nil 
- })
+ --})
 require("yanker").config({
   history = ";h",
 })

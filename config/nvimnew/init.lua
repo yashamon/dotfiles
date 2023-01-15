@@ -28,7 +28,7 @@ require("lazy").setup({
 {'nvim-treesitter/playground', lazy = false},
 {'LhKipp/nvim-nu', dependencies = { "nvim-treesitter/nvim-treesitter", "jose-elias-alvarez/null-ls.nvim"}
 },
-{'echasnovski/mini.nvim', lazy = true},
+{'echasnovski/mini.nvim', lazy =true },
 {'lukas-reineke/indent-blankline.nvim', event = { "BufRead", "BufNewFile" }},
 {'folke/which-key.nvim', lazy = true},
 {'lambdalisue/nerdfont.vim'},
@@ -102,14 +102,14 @@ require('mini.surround').setup(
 {
   -- Add custom surroundings to be used on top of builtin ones. For more
   -- information with examples, see `:h MiniSurround.config`.
-  custom_surroundings = {'$'},
+  custom_surroundings = {'\\['},
 
   -- Duration (in ms) of highlight when calling `MiniSurround.highlight()`
   highlight_duration = 500,
 
   -- Module mappings. Use `''` (empty string) to disable one.
   mappings = {
-    add = ';sa', -- Add surrounding in Normal and Visual modes
+    add = ';sa', --Add surrounding in Normal and Visual modes
     delete = ';sd', -- Delete surrounding
     find = ';sf', -- Find surrounding (to the right)
     find_left = ';sF', -- Find surrounding (to the left)
