@@ -352,7 +352,7 @@ undercurl = true,
     },
 		["@parameter"] = { fg = "darkblue" },
 		["@text.reference"] = { fg = "#af6000" },
-		["@operator"] = { fg = "#af6000" },
+		["@operator"] = { fg = "darkred" },
 				Cursor =  { fg = 'black', bg = 'white' }
         --bright orange  #fd8432
         --texComment = { fg = "#00ff00" },
