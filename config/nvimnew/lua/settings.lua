@@ -177,6 +177,9 @@ on_highlights = function(highlights, colors)
 		highlights["@text.environment.name"] = { fg = "#00008b",
     style = {}
     }
+		highlights["@test.reference"] = { fg = "#af6000",
+    style = {}
+    }
 		highlights["@operator"] = { fg = "#af6000",
     style = {}
     }
