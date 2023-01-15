@@ -33,41 +33,23 @@ map('n', '<leader>c', 'gc', {})
 -- nmap <m-8> :set laststatus=0<cr>:set lines=100<cr>:set guifont=Fira\ Code:h18<cr>:set columns=100<cr>
 map('n', '<c-l>', function() vim.cmd('bnext') end, {})
 map('n', '<c-h>', function() vim.cmd('bprevious') end, {})
--- map <S-C-q> <Esc>:qa!<CR>
--- map <m-q> <esc>:wq<cr>
--- map <m-Q> <esc>:q<cr>
--- map <m-c> :close<cr>
--- map <m-d> <Esc>:up<CR>:bdelete<CR>
--- map <m-D> :bdelete!<CR>
--- nmap <A-S-t> :te<cr>
--- noremap <leader>r :up<cr>:e<cr> 
--- map('q n', ':q<cr', functionvim.cmd('()>
--- map('n', '<c-,> :c', function()vim.cmd('previous<cr>
--- map('n', '<c-.> :c', function()vim.cmd('next<cr> 
--- noremap ;w <Esc>:up<CR>
--- noremap <C-t> <Esc>:AsyncRun ctags -R<CR>
 map('n', '<m-t>', function() vim.cmd('up'); vim.cmd('BTags') end, {})
 map('n', '<m-b>', function()  require('telescope.builtin').buffers({layout_strategy='vertical',layout_config={width=0.9}}) end, {})
 map('n', '<m-i>', function() require('telescope.builtin').git_bcommits({layout_strategy='vertical',layout_config={width=0.9}}) end, {})
-map('n', '<m-u>', function() vim.cmd('cg C:/Users/yasha/_vim_mru_files
-copen
-call feedkeys("zf")') end, {})
+map('n', '<m-u>', function() vim.cmd('cg C:/Users/yasha/_vim_mru_files | copen call feedkeys("zf")') end, {})
 -- map <m-f> :FZF ~<CR> 
 map('n', '<leader>gs', function() vim.cmd('up | source $MYVIMRC') end, {})
+map('q:', 'nop', {})
 
--- map('n', '<c-e>', function() vim.cmd('viwy:cclose<cr>:<c-r>+<cr><cr>
--- map('n', '<c-p>', function() vim.cmd(':<c-r>+<cr>
--- map('n', '<m-l>', function() vim.cmd('viwy:bdelete<cr>:execute "buffer" g:buf<cr>:<c-r>+<cr><cr>
--- map q: nop
 -- nmap <leader>v :silent call ViewPdf()<cr><cr>
 -- map <m-v> <esc>:silent call ViewPdf()<cr><cr>
 -- nmap <leader>ll :silent call CompileLatex()<cr>
 -- nmap <leader>lcl :silent call ClearLatex()<cr>
 -- nmap gtd :TodoQuickFix<cr>
--- -- " nmap <leader>ga :TZAtaraxis<CR>
 -- -- "nmap <leader>gm :up<cr>:silent ! cat % >> ~/workspace/email.txt; cp % /tmp/temp; make4ht /tmp/temp "mathml,mathjax"; pandoc /tmp/temp.html --from html --to markdown_strict -o /tmp/temp.md; mv /tmp/temp.md %<cr>:e %<cr>:up<cr>:qa<cr>
--- map('n', '<C-c>', function() vim.cmd(':set hlsearch!<cr>
--- map('n', '<leader>e ', function():vim.cmd('silent call ToggleQuickFix()<CR>
+
+map('n', '<C-c>', function() vim.cmd('set hlsearch!') end, {}) 
+map('n', '<leader>e', ToggleQuickfix, {})
 --
 -- -- " Lsp mappings
 -- map('n', '<silent> g?', function() vim.cmd('<cmd>lua vim.diagnostic.open_float()<CR>
@@ -76,7 +58,16 @@ map('n', '<leader>gs', function() vim.cmd('up | source $MYVIMRC') end, {})
 -- nmap <leader>c gc
 --
 --
---
+--map <S-C-q> <Esc>:qa!<CR>
+-- map <m-q> <esc>:wq<cr>
+-- map <m-Q> <esc>:q<cr>
+-- map <m-c> :close<cr>
+-- map <m-d> <Esc>:up<CR>:bdelete<CR>
+-- map <m-D> :bdelete!<CR>
+-- nmap <A-S-t> :te<cr>
+-- noremap <leader>r :up<cr>:e<cr> 
+-- map('q n', ':q<cr', functionvim.cmd('()>
+-- noremap ;w <Esc>:up<CR>
 --
 -- vnoremap < <gv
 -- vnoremap > >gv
