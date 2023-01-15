@@ -26,7 +26,7 @@ map('n', '<leader>f', function() vim.cmd('up'); Server(); vim.cmd('te lf'); Feed
 map('n', '<leader>lg', function() vim.cmd('up'); Server(); vim.cmd('te lazygit'); Feedkey('i','i') end, {})
 map('n', '<leader>t', function() vim.cmd('up'); Server(); vim.cmd('edit term://nu') end, {})
 map('n', '<leader>u', function() vim.cmd('UndotreeToggle') end, {})
-map('v', '<leader>c', function() vim.cmd('\'<\'>CommentToggle') end, {})
+map('v', '<leader>c', function() vim.cmd('\'<,\'>CommentToggle') end, {})
 map('n', '<leader>c', 'gc', {})
 -- tnoremap <m-d> <C-\><C-n>:bdelete!<cr>
 -- nmap <m-8> :set laststatus=0<cr>:set lines=100<cr>:set guifont=Fira\ Code:h18<cr>:set columns=100<cr>
