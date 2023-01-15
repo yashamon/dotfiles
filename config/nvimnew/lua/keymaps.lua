@@ -53,17 +53,20 @@ map('n', 't',  '<Plug>(leap-forward)', {})
 map('n', 'T', '<Plug>(leap-backward)', {})
 
 -- Luasnip
-inoremap <silent> <S-Tab> <cmd>lua require'luasnip'.jump(-1)<Cr>
-inoremap <silent> <m-j> <cmd>lua require('luasnip').jump(1)<Cr>
-nnoremap <silent> <m-j> <cmd>lua require('luasnip').jump(1)<Cr>
-inoremap <silent> <m-k> <cmd>lua require('luasnip').jump(-1)<Cr>
-nnoremap <silent> <m-k> <cmd>lua require('luasnip').jump(-1)<Cr>
-" For changing choices in choiceNodes (not strictly necessary for a basic setup). 
+map('i', '<S-Tab>', function ()
+require'luasnip'.jump(-1) end, {})
+map('i', '<m-j>', function ()
+require('luasnip').jump(1) end, {})
+map('i', '<m-k>', function ()
+require('luasnip').jump(-1) end, {})
+map('n', '<m-j>', function() require('luasnip').jump(1) end, {})
+map('n', '<m-k>', function() require('luasnip').jump(-1) end, {})
 
+vim.cmd([[ 
 imap <silent><expr> <C-E> luasnip#choice_active() ? '<Plug>luasnip-next-choice' : '<C-E>'
 smap <silent><expr> <C-E> luasnip#choice_active() ? '<Plug>luasnip-next-choice' : '<C-E>'
 
-vim.cmd([[ " Replace the default dictionary completion with fzf-based fuzzy completion
+" Replace the default dictionary completion with fzf-based fuzzy completion
 ""other maps
 inoremap <cr> <cr><space><esc>"_s
 nnoremap o o<space><esc>"_s
