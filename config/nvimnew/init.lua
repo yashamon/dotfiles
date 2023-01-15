@@ -28,7 +28,7 @@ require("lazy").setup({
 {'nvim-treesitter/playground', lazy = false},
 {'LhKipp/nvim-nu', dependencies = { "nvim-treesitter/nvim-treesitter", "jose-elias-alvarez/null-ls.nvim"}
 },
-{'echasnovski/mini.nvim'},
+{'echasnovski/mini.nvim', lazy = true},
 {'lukas-reineke/indent-blankline.nvim', event = { "BufRead", "BufNewFile" }},
 {'folke/which-key.nvim', lazy = true},
 {'lambdalisue/nerdfont.vim'},
@@ -50,7 +50,7 @@ require("lazy").setup({
 			'quangnguyen30192/cmp-nvim-tags',
     },
  },
-{'terrortylor/nvim-comment', cmd = "CommentToggle"},
+-- {'terrortylor/nvim-comment', cmd = "CommentToggle"},
 'nvim-lualine/lualine.nvim', 
 {'justinhoward/fzf-neoyank', lazy=false },
 {'folke/tokyonight.nvim', lazy = true
@@ -85,7 +85,7 @@ require('mini.comment').setup(
     comment = 'gc',
 
     -- Toggle comment on current line
-    comment_line = 'gcc',
+    comment_line = 'gc',
 
     -- Define 'comment' textobject (like `dgc` - delete whole comment block)
     textobject = 'gc',
