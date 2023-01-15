@@ -198,7 +198,7 @@ on_highlights = function(highlights, colors)
 		highlights["@text.reference"] = { fg = "#af6000",
     style = {}
     }
-		highlights["@operator"] = { fg = "#af6000",
+		highlights["@operator"] = { fg = "darkred",
     style = {}
     }
 				highlights.TexSpecial = { fg = "#af6000" }
