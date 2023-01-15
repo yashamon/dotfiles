@@ -183,6 +183,9 @@ on_highlights = function(highlights, colors)
 		highlights["@include"] = { fg = "#af6000",
     style = {}
     }
+		highlights["@punctuation.bracket"] = { fg = "darkred",
+    style = {}
+    }
 		highlights["@parameter"] = { fg = "darkblue",
     style = {}
     }
