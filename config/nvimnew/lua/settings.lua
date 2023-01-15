@@ -180,7 +180,7 @@ on_highlights = function(highlights, colors)
 		highlights["@function.macro"] = { fg = "#af6000",
     style = {}
     }
-		highlights["@test.reference"] = { fg = "#af6000",
+		highlights["@text.reference"] = { fg = "#af6000",
     style = {}
     }
 		highlights["@operator"] = { fg = "#af6000",
