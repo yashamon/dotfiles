@@ -67,7 +67,6 @@ g.neovide_fullscreen = true
 -- vim.cmd [[let g:neovide_refresh_rate = 120]]
 g.neovide_floating_blur_amount_x = 2.0
 g.neovide_floating_blur_amount_y = 2.0
-opt.runtimepath:append(',/tmp/pluggedtest/vim-plug')
 opt.spell = true
 -- vim.o.foldcolumn = '1'
 -- vim.o.foldlevel = 99

@@ -55,11 +55,11 @@ require("lazy").setup({
 'nvim-lualine/lualine.nvim', 
 {'justinhoward/fzf-neoyank', lazy=false },
 {'folke/tokyonight.nvim', lazy = false},
---{'ellisonleao/gruvbox.nvim', 
--- lazy = false, priority = 1000, 
---     config = function()
---       vim.cmd([[colorscheme gruvbox]])
--- 			end,},
+{'ellisonleao/gruvbox.nvim', 
+lazy = false, priority = 1000, 
+config = function()
+vim.cmd([[colorscheme gruvbox]])
+end,},
 {'nvim-treesitter/nvim-treesitter', build = ":TSUpdate", lazy = false},
 {'Shougo/neoyank.vim', dependencies = 'Shougo/denite.nvim'}, 
 {'junegunn/fzf', lazy = false, build = ":call fzf#install()" }, 
