@@ -62,6 +62,11 @@ require('luasnip').jump(-1) end, {})
 map('n', '<m-j>', function() require('luasnip').jump(1) end, {})
 map('n', '<m-k>', function() require('luasnip').jump(-1) end, {})
 
+-- " Lsp mappings test
+map('n','<leader>w', function () vim.cmd('up') end, {})
+map('n','ga', vim.lsp.buf.code_action, {})
+map('n','o', 'o<space><esc>"_s', {})
+
 vim.cmd([[ 
 imap <silent><expr> <C-E> luasnip#choice_active() ? '<Plug>luasnip-next-choice' : '<C-E>'
 smap <silent><expr> <C-E> luasnip#choice_active() ? '<Plug>luasnip-next-choice' : '<C-E>'
@@ -69,7 +74,6 @@ smap <silent><expr> <C-E> luasnip#choice_active() ? '<Plug>luasnip-next-choice' 
 " Replace the default dictionary completion with fzf-based fuzzy completion
 ""other maps
 inoremap <cr> <cr><space><esc>"_s
-nnoremap o o<space><esc>"_s
 vnoremap <silent> <cr> "*y:silent! let searchTerm = '\V'.substitute(escape(@*, '\/'), "\n", '\\n', "g") <bar> let @/ = searchTerm <bar> echo '/'.@/ <bar> call histadd("search", searchTerm) <bar> set hls<cr><cr>
 inoremap <m-d> <C-w>
 " -1 for jumping backwards.
@@ -87,20 +91,12 @@ nmap gtd :TodoQuickFix<cr>
 "nmap <leader>gm :up<cr>:silent ! cat % >> ~/workspace/email.txt; cp % /tmp/temp; make4ht /tmp/temp "mathml,mathjax"; pandoc /tmp/temp.html --from html --to markdown_strict -o /tmp/temp.md; mv /tmp/temp.md %<cr>:e %<cr>:up<cr>:qa<cr>
 
 
-" Lsp mappings
-noremap ;w <Esc>:up<CR>
-noremap ga  :lua vim.lsp.buf.code_action()<CR>
-noremap <leader>la  :lua vim.lsp.buf.code_action()<CR>
-nmap <leader>c gc
-
-
 map <S-C-q> <Esc>:qa!<CR>
 map <m-q> <esc>:wq<cr>
 map <m-Q> <esc>:q<cr>
 map <m-c> :close<cr>
 map <m-d> <Esc>:up<CR>:bdelete<CR>
 map <m-D> :bdelete!<CR>
-nmap <A-S-t> :te<cr>
 noremap <leader>r :up<cr>:e<cr> 
 
 vnoremap < <gv
@@ -176,7 +172,6 @@ noremap X vg$x
 nnoremap A g$a
 noremap H g^
 noremap L g$
-imap <M-j> <C-j>
 
 noremap gf gq
 nmap f /
@@ -215,3 +210,4 @@ map ' "
 inoremap <D-]> <C-x><C-]>
 inoremap <C-]> <C-x><C-]>
 ]])
+
