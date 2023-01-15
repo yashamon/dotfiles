@@ -100,25 +100,40 @@ vim.cmd('te pwsh -c if ( (git rev-parse --is-inside-work-tree) -and (git rev-par
 vim.cmd("buffer " .. buff)
 end
 
+--  function! OnUIEnter(event)
+-- 	let l:ui = nvim_get_chan_info(a:event.chan)
+-- 	if has_key(l:ui, 'client') && has_key(l:ui.client, 'name')
+-- 		if l:ui.client.name ==# 'Firenvim'
+-- 			set guifont=Fira\ Code:h20
+--                         set lines=100
+--                         set columns=100
+--                         noremap q <esc>:wq<cr>
+-- 		endif
+-- 	endif
+-- endfunction
+--
 OnUIEnter = function(event)
-  if 'Firenvim' ==# vim.api.nvim_get_chan_info(event.chan), 'client', {}), 'name', '')
-    vim.opt.laststatus = 0
-		 vim.opt.columns = 100
-		 vim.opt.lines = 100
-		 vim.cmd('noremap q <esc>:wq<cr>')
+	 	local ui = vim.api.nvim_get_chan_info(event.chan)
+		if vim.fn.has_key(ui, 'client') and vim.fn.has_key(ui.client, 'name') then
+			if ui.client.name == 'Firenvim' then
+					vim.opt.laststatus = 0
+					vim.opt.columns = 100
+					vim.opt.lines = 100
+					vim.cmd('noremap q <esc>:wq<cr>')
   end
 end
--- 	
-	local ui = nvim_get_chan_info(event.chan)
-	if has_key(l:ui, 'client') and has_key(l:ui.client, 'name')
-		if l:ui.client.name ==# 'Firenvim'
-			set guifont=Fira\ Code:h20
-                        set lines=100
-                        set columns=100
-                        noremap q <esc>:wq<cr>
-		end
-	end
-end 
+end
+-- -- 	
+-- 	local ui = nvim_get_chan_info(event.chan)
+-- 	if has_key(l:ui, 'client') and has_key(l:ui.client, 'name')
+-- 		if l:ui.client.name ==# 'Firenvim'
+-- 			set guifont=Fira\ Code:h20
+--                         set lines=100
+--                         set columns=100
+--                         noremap q <esc>:wq<cr>
+-- 		end
+-- 	end
+-- end 
 
 
 
