@@ -402,6 +402,7 @@ exec execstrWindows
 silent execute "buffer" buf
 endfunction 
 nnoremap <C-p> "0p 
+
 " rewritten to lua
 " nnoremap <leader>f :up<cr>:lua Server()<cr>:te lf<cr>i
 "nnoremap <leader>lg :up<cr>:lua Server()<cr>:te lazygit<cr>i
