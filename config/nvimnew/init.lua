@@ -28,12 +28,13 @@ require("lazy").setup({
 {'nvim-treesitter/playground', lazy = false},
 {'LhKipp/nvim-nu', dependencies = { "nvim-treesitter/nvim-treesitter", "jose-elias-alvarez/null-ls.nvim"}
 },
+{'echasnovski/mini.nvim'},
 {'lukas-reineke/indent-blankline.nvim', event = { "BufRead", "BufNewFile" }},
 {'folke/which-key.nvim', lazy = true},
 {'lambdalisue/nerdfont.vim'},
 {'ggandor/leap.nvim', lazy = true},
 {'kyazdani42/nvim-web-devicons', lazy = true},
-{'glacambre/firenvim', build = ":call firenvim#install(0)", lazy = false }, 
+{'glacambre/firenvim', build = ":call firenvim#install(0)", lazy = false },
 {'neovim/nvim-lspconfig', lazy = true },
 {'williamboman/mason.nvim', lazy = true},
 {'williamboman/mason-lspconfig.nvim', lazy = true},
@@ -75,6 +76,77 @@ require('functions')
 require('set')
 require('au')
 require('keymaps')
+require('mini.comment').setup(
+{
+  -- Module mappings. Use `''` (empty string) to disable one.
+  mappings = {
+    -- Toggle comment (like `gcip` - comment inner paragraph) for both
+    -- Normal and Visual modes
+    comment = 'gc',
+
+    -- Toggle comment on current line
+    comment_line = 'gcc',
+
+    -- Define 'comment' textobject (like `dgc` - delete whole comment block)
+    textobject = 'gc',
+  },
+  -- Hook functions to be executed at certain stage of commenting
+  hooks = {
+    -- Before successful commenting. Does nothing by default.
+    pre = function() end,
+    -- After successful commenting. Does nothing by default.
+    post = function() end,
+  },
+})
+require('mini.surround').setup(
+{
+  -- Add custom surroundings to be used on top of builtin ones. For more
+  -- information with examples, see `:h MiniSurround.config`.
+  custom_surroundings = {'$'},
+
+  -- Duration (in ms) of highlight when calling `MiniSurround.highlight()`
+  highlight_duration = 500,
+
+  -- Module mappings. Use `''` (empty string) to disable one.
+  mappings = {
+    add = ';sa', -- Add surrounding in Normal and Visual modes
+    delete = ';sd', -- Delete surrounding
+    find = ';sf', -- Find surrounding (to the right)
+    find_left = ';sF', -- Find surrounding (to the left)
+    highlight = ';sh', -- Highlight surrounding
+    replace = ';sr', -- Replace surrounding
+    update_n_lines = ';sn', -- Update `n_lines`
+
+    suffix_last = 'l', -- Suffix to search with "prev" method
+    suffix_next = 'n', -- Suffix to search with "next" method
+  },
+
+  -- Number of lines within which surrounding is searched
+  n_lines = 20,
+
+  -- How to search for surrounding (first inside current line, then inside
+  -- neighborhood). One of 'cover', 'cover_or_next', 'cover_or_prev',
+  -- 'cover_or_nearest', 'next', 'prev', 'nearest'. For more details,
+  -- see `:h MiniSurround.config`.
+  search_method = 'cover',
+})
+require('mini.move').setup(
+{
+  -- Module mappings. Use `''` (empty string) to disable one.
+  mappings = {
+    -- Move visual selection in Visual mode. Defaults are Alt (Meta) + hjkl.
+    left = '<left>',
+    right = '<right>',
+    down = '<down>',
+    up = '<up>',
+
+		-- Move current line in Normal mode
+    line_left = '<left>',
+    line_right = '<right>',
+    line_down = '<down>',
+    line_up = '<up>',
+  },
+})
 vim.cmd([[
 " Autocommands, au
  function! OnUIEnter(event)
@@ -404,5 +476,5 @@ nnoremap <C-p> "0p
  -- nnoremap <silent> <m-k> <cmd>lua require('luasnip').jump(-1)<Cr>
  -- " For changing choices in choiceNodes (not strictly necessary for a basic setup). 
  -- imap <silent><expr> <C-E> luasnip#choice_active() ? '<Plug>luasnip-next-choice' : '<C-E>'
- -- smap <silent><expr> <C-E> luasnip#choice_active() ? '<Plug>luasnip-next-choice' : '<C-E>'
  --
+ -- smap <silent><expr> <C-E> luasnip#choice_active() ? '<Plug>luasnip-next-choice' : '<C-E>'
