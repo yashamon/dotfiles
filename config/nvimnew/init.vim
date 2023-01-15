@@ -77,10 +77,8 @@ require('set')
 require('au')
 require('keymaps')
 EOF
-
 " Autocommands, au
- 
-function! OnUIEnter(event)
+ function! OnUIEnter(event)
 	let l:ui = nvim_get_chan_info(a:event.chan)
 	if has_key(l:ui, 'client') && has_key(l:ui.client, 'name')
 		if l:ui.client.name ==# 'Firenvim'
@@ -461,4 +459,4 @@ exec execstrWindows
 silent execute "buffer" buf
 endfunction 
 nnoremap <C-p> "0p 
-set shada="NONE"
+
