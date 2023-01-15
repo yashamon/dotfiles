@@ -45,12 +45,13 @@ map('n', '<C-c>', function() vim.cmd('set hlsearch!') end, {})
 map('n', '<leader>e', function() vim.cmd('silent call ToggleQuickFix()') end, {})
 map('n', 'g?',  vim.diagnostic.open_float, {})
 map('n', 'q',  function() vim.cmd('q') end, {})
-map('n, 't',  '<Plug>(leap-forward)', {})
+
+--Leap
+--
+map('n', 't',  '<Plug>(leap-forward)', {})
 map('n', 'T', '<Plug>(leap-backward)', {})
 
-vim.cmd([[ "Leap
-
-" Replace the default dictionary completion with fzf-based fuzzy completion
+vim.cmd([[ " Replace the default dictionary completion with fzf-based fuzzy completion
 inoremap <expr> <c-x><c-k> fzf#vim#complete('cat /usr/share/dict/words')  
 ""other maps
 inoremap <cr> <cr><space><esc>"_s
