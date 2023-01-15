@@ -332,6 +332,42 @@ undercurl = true,
         -- Pmenu = { bg = "#ffa546", fg = "#1e2030" },
 				Pmenu = { bg = "#ffa546", fg = "white" },
 				texTypeStyle = { fg = "#427b58" },
+				["@namespace"] = { fg = "#580058",
+    style = {}
+    },
+		["@text.math"] = { fg = "darkgreen",
+    style = {}
+    },
+		["@function"] = { fg = "#650000",
+    style = {}
+    },
+		["@text.title"] = { fg = "darkblue",
+    style = {}
+    },
+		["@text.environment"] = { fg = "#580058",
+    style = {}
+    },
+		["@text.environment.name"] = { fg = "#00008b",
+    style = {}
+    },
+		["@function.macro"] = { fg = "#af6000",
+    style = {}
+    },
+		["@include"] = { fg = "#af6000",
+    style = {}
+    },
+		["@punctuation.bracket"] = { fg = "darkred",
+    style = {}
+    },
+		["@parameter"] = { fg = "darkblue",
+    style = {}
+    },
+		["@text.reference"] = { fg = "#af6000",
+    style = {}
+    },
+		["@operator"] = { fg = "#af6000",
+    style = {}
+    },
 				Cursor =  { fg = 'black', bg = 'white' }
         --bright orange  #fd8432
         --texComment = { fg = "#00ff00" },
