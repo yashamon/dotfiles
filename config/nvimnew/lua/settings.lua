@@ -332,14 +332,11 @@ undercurl = true,
         -- Pmenu = { bg = "#ffa546", fg = "#1e2030" },
 				Pmenu = { bg = "#ffa546", fg = "white" },
 				texTypeStyle = { fg = "#427b58" },
-				["@namespace"] = { fg = "#580058",
-    style = {}
+		["@namespace"] = { fg = "#580058", style = {}
     },
-		["@text.math"] = { fg = "darkgreen",
-    style = {}
+		["@text.math"] = { fg = "darkgreen", style = {}
     },
-		["@function"] = { fg = "#650000",
-    style = {}
+		["@function"] = { fg = "#650000", style = {}
     },
 		["@text.title"] = { fg = "darkblue",
     style = {}
