@@ -11,6 +11,7 @@
   "fzf": { "branch": "master", "commit": "1c83b3969185393f0427463a39ef1523c273c16c" },
   "fzf-neoyank": { "branch": "master", "commit": "d5be69a3b48605eb297e8f13941cb11838fbdea0" },
   "fzf.vim": { "branch": "master", "commit": "9c37e6801b432a4046511b14414f488487b61973" },
+  "gruvbox.nvim": { "branch": "main", "commit": "e863942494d7c72a7c8d2c54cf651f28fc5a76ab" },
   "indent-blankline.nvim": { "branch": "master", "commit": "c4c203c3e8a595bc333abaf168fcb10c13ed5fb7" },
   "lazy.nvim": { "branch": "main", "commit": "0d0d5870a3265f1c92a89dccef4a592c44e70179" },
   "leap.nvim": { "branch": "main", "commit": "a968ab4250840dc879e805f918b4f3b892310a12" },

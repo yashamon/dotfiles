@@ -12,7 +12,7 @@ if not vim.loop.fs_stat(lazypath) then
     lazypath,
   })
 end
-vim.opt.rtp = {lazypath, path}
+vim.opt.rtp = {'~/dotfiles/config/nvim'}
 require("lazy").setup({
 { 'sindrets/diffview.nvim', dependencies = 'nvim-lua/plenary.nvim' },
 {
