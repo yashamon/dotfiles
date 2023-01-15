@@ -121,16 +121,36 @@ CustomScreenDPI = 0
 
 FileStates [
 	[
+		FilePath = C:\Users\yasha\workspacemodules\fukaya\build\fukayaI.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 3
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = 124.262 95.5123
+		PageNo = 49
+		Zoom = fit content
+		Rotation = 0
+		WindowState = 3
+		WindowPos = 682 0 1480 1872
+		ShowToc = false
+		SidebarDx = 364
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
 		FilePath = C:\Users\yasha\workspacemodules\fukaya\build\fukayaII.pdf
 		Favorites [
 		]
 		IsPinned = false
 		IsMissing = false
-		OpenCount = 6
+		OpenCount = 9
 		UseDefaultState = false
 		DisplayMode = continuous
-		ScrollPos = 124.761 95.5737
-		PageNo = 7
+		ScrollPos = 124.775 95.5291
+		PageNo = 13
 		Zoom = fit content
 		Rotation = 0
 		WindowState = 3
@@ -312,26 +332,6 @@ FileStates [
 		ScrollPos = -1 506.063
 		PageNo = 4
 		Zoom = 100
-		Rotation = 0
-		WindowState = 3
-		WindowPos = 451 0 1480 1872
-		ShowToc = false
-		SidebarDx = 364
-		DisplayR2L = false
-		ReparseIdx = 0
-	]
-	[
-		FilePath = C:\Users\yasha\workspacemodules\fukaya\build\fukayaI.pdf
-		Favorites [
-		]
-		IsPinned = false
-		IsMissing = false
-		OpenCount = 0
-		UseDefaultState = false
-		DisplayMode = continuous
-		ScrollPos = 124.688 95.5123
-		PageNo = 18
-		Zoom = fit content
 		Rotation = 0
 		WindowState = 3
 		WindowPos = 451 0 1480 1872
@@ -1722,6 +1722,32 @@ FileStates [
 	]
 ]
 SessionData [
+	[
+		TabStates [
+			[
+				FilePath = C:\Users\yasha\workspacemodules\fukaya\build\fukayaII.pdf
+				DisplayMode = continuous
+				PageNo = 13
+				Zoom = fit content
+				Rotation = 0
+				ScrollPos = 124.775 95.5291
+				ShowToc = false
+			]
+			[
+				FilePath = C:\Users\yasha\workspacemodules\fukaya\build\fukayaI.pdf
+				DisplayMode = continuous
+				PageNo = 49
+				Zoom = fit content
+				Rotation = 0
+				ScrollPos = 124.262 95.5123
+				ShowToc = false
+			]
+		]
+		TabIndex = 2
+		WindowState = 3
+		WindowPos = 682 0 1480 1872
+		SidebarDx = 364
+	]
 ]
 TimeOfLastUpdateCheck = 0 0
 OpenCountWeek = 628

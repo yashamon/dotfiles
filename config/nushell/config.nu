@@ -465,7 +465,7 @@ let-env config = {
   use_grid_icons: true
   footer_mode: "25" # always, never, number_of_rows, auto
   float_precision: 2
-  buffer_editor: "neo" # command that will be used to edit the current line buffer with ctrl+o, if unset fallback to $env.EDITOR and $env.VISUAL
+  buffer_editor: "nvim" # command that will be used to edit the current line buffer with ctrl+o, if unset fallback to $env.EDITOR and $env.VISUAL
   use_ansi_coloring: true
   edit_mode: vi # emacs, vi
   shell_integration: true # enables terminal markers and a workaround to arrow keys stop working issue
@@ -629,6 +629,15 @@ let-env config = {
         mode: [vi_normal] 
         event: [
             { edit: CapitalizeChar }
+        ]
+}
+{
+        name: Paste
+        modifier: alt
+        keycode: char_p
+        mode: [vi_normal, vi_insert] 
+        event: [
+            { edit: pastecutbufferbefore }
         ]
 }
 {

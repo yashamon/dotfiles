@@ -53,10 +53,8 @@ require("lazy").setup({
 {'terrortylor/nvim-comment', cmd = "CommentToggle"},
 'nvim-lualine/lualine.nvim', 
 {'justinhoward/fzf-neoyank', lazy=false },
-{'folke/tokyonight.nvim', lazy = false, priority = 1000, 
-config = function()
-vim.cmd([[colorscheme tokyonight-day]])
-end,},
+{'folke/tokyonight.nvim', lazy = true
+},
 {'ellisonleao/gruvbox.nvim', 
 lazy = false, priority = 1000, 
 config = function()
