@@ -110,12 +110,10 @@ command! PT set spelllang=pt
 
 " cmap ES set spelllang=es<cr>
 command! EN set spelllang=en_us
+command! Ser lua Server()
 " LSP
 command! LT LspStart ltex
 command! LTo LspStop ltex
-
-"lua maps
-command! Ser lua Server()
 
 
 " allow multiple indentation/deindentation in visual mode
@@ -133,6 +131,8 @@ nnoremap <leader>q q
 nmap <m-7> :ZenMode<cr>:mksession!<cr>
 nnoremap <leader>u <cr>:UndotreeToggle<CR>
 noremap <leader>c :'<,'>CommentToggle<cr>
+nnoremap <leader>f :up<cr>:lua Server()<cr>:te lf<cr>i
+nnoremap <leader>lg :up<cr>:lua Server()<cr>:te lazygit<cr>i
 nnoremap <leader>t :up<cr>:lua Server()<cr>:edit term://nu<cr><cr>
 nnoremap <c-,> :cprevious<cr>
 nnoremap <c-.> :cnext<cr> 
@@ -270,6 +270,10 @@ map <m-v> <esc>:silent call ViewPdf()<cr><cr>
 nmap <leader>ll :silent call CompileLatex()<cr>
 nmap <leader>lcl :silent call ClearLatex()<cr>
 nmap gtd :TodoQuickFix<cr>
+"Quickfix
+nnoremap <C-c> :set hlsearch!<cr>
+nnoremap <leader>e :silent call ToggleQuickFix()<CR>
+
 " nmap <leader>ga :TZAtaraxis<CR>
 "nmap <leader>gm :up<cr>:silent ! cat % >> ~/workspace/email.txt; cp % /tmp/temp; make4ht /tmp/temp "mathml,mathjax"; pandoc /tmp/temp.html --from html --to markdown_strict -o /tmp/temp.md; mv /tmp/temp.md %<cr>:e %<cr>:up<cr>:qa<cr>
 
@@ -290,7 +294,6 @@ inoremap <cr> <cr><space><esc>"_s
 nnoremap o o<space><esc>"_s
 vnoremap <silent> <cr> "*y:silent! let searchTerm = '\V'.substitute(escape(@*, '\/'), "\n", '\\n', "g") <bar> let @/ = searchTerm <bar> echo '/'.@/ <bar> call histadd("search", searchTerm) <bar> set hls<cr><cr>
 inoremap <m-d> <C-w>
-"Quickfix
 " -1 for jumping backwards.
 inoremap <silent> <S-Tab> <cmd>lua require'luasnip'.jump(-1)<Cr>
 inoremap <silent> <m-j> <cmd>lua require('luasnip').jump(1)<Cr>
@@ -402,11 +405,4 @@ exec execstrWindows
 silent execute "buffer" buf
 endfunction 
 nnoremap <C-p> "0p 
-
-" rewritten to lua
-" nnoremap <leader>f :up<cr>:lua Server()<cr>:te lf<cr>i
-"nnoremap <leader>lg :up<cr>:lua Server()<cr>:te lazygit<cr>i
 ]])
-
-
-
