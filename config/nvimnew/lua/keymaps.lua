@@ -26,8 +26,8 @@ map('n', '<leader>f', function() vim.cmd('up'); Server(); vim.cmd('te lf'); Feed
 map('n', '<leader>lg', function() vim.cmd('up'); Server(); vim.cmd('te lazygit'); Feedkey('i','i') end, {})
 map('n', '<leader>t', function() vim.cmd('up'); Server(); vim.cmd('edit term://nu') end, {})
 map('n', '<leader>u', function() vim.cmd('UndotreeToggle') end, {})
-map('v', '<leader>c', function() vim.cmd('\'<,\'>CommentToggle') end, {})
-map('n', '<leader>c', 'gc', {})
+map('v', '<leader>c', 'CommentToggle', {})
+map('n', '<leader>c', 'gc', {remap = true})
 -- tnoremap <m-d> <C-\><C-n>:bdelete!<cr>
 -- nmap <m-8> :set laststatus=0<cr>:set lines=100<cr>:set guifont=Fira\ Code:h18<cr>:set columns=100<cr>
 map('n', '<c-l>', function() vim.cmd('bnext') end, {})
@@ -75,6 +75,10 @@ map('n', '<m-d>', function () vim.cmd('up | bdelete') end, {})
 map('n', '<m-D>', function () vim.cmd('up | bdelete!') end, {})
 map('n', '<leader>r', function () vim.cmd('up | e') end, {})
 
+
+--terminal
+--tnoremap <A-`> <C-\><C-n>
+--tnoremap <A-Esc> <C-\><C-n>
 vim.cmd([[ 
 imap <silent><expr> <C-E> luasnip#choice_active() ? '<Plug>luasnip-next-choice' : '<C-E>'
 smap <silent><expr> <C-E> luasnip#choice_active() ? '<Plug>luasnip-next-choice' : '<C-E>'
@@ -103,14 +107,11 @@ map <S-C-q> <Esc>:qa!<CR>
 
 vnoremap < <gv
 vnoremap > >gv
-tnoremap <A-`> <C-\><C-n>
-tnoremap <A-Esc> <C-\><C-n>
 nnoremap <leader>q q 
 inoremap <m-h> <left>
 inoremap <m-l> <right>
 vmap <M-.> t.<CR>h
 nmap <M-.> t.<CR>h
-nnoremap <up> 1<C-U>
 nnoremap <m-g> gqip
 nnoremap <down> 1<C-D>
 noremap <ScrollWheelUp>      <nop>
