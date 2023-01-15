@@ -12,7 +12,7 @@ if not vim.loop.fs_stat(lazypath) then
     lazypath,
   })
 end
-vim.opt.rtp = {'~/dotfiles/config/nvim'}
+vim.opt.rtp = {lazypath}
 require("lazy").setup({
 { 'sindrets/diffview.nvim', dependencies = 'nvim-lua/plenary.nvim' },
 {
@@ -21,15 +21,14 @@ require("lazy").setup({
   config = true, lazy = true
 }, 
 {'gbprod/yanky.nvim', lazy = true},
--- {'jose-elias-alvarez/null-ls.nvim', dependencies = "nvim-lua/plenary.nvim" },
+{'jose-elias-alvarez/null-ls.nvim', dependencies = "nvim-lua/plenary.nvim" },
 {'nvim-telescope/telescope-fzf-native.nvim', lazy = true},
 {'folke/todo-comments.nvim', lazy = true},
 {'L3MON4D3/LuaSnip', lazy = true },
 {'saadparwaiz1/cmp_luasnip', lazy = true},
 {'nvim-treesitter/playground', lazy = false},
---{'LhKipp/nvim-nu', 
---	dependencies = { "nvim-treesitter/nvim-treesitter", "jose-elias-alvarez/null-ls.nvim"}
---},
+{'LhKipp/nvim-nu', dependencies = { "nvim-treesitter/nvim-treesitter", "jose-elias-alvarez/null-ls.nvim"}
+},
 {'lukas-reineke/indent-blankline.nvim', event = { "BufRead", "BufNewFile" }},
 {'folke/which-key.nvim', lazy = true},
 {'lambdalisue/nerdfont.vim'},
@@ -54,7 +53,10 @@ require("lazy").setup({
 {'terrortylor/nvim-comment', cmd = "CommentToggle"},
 'nvim-lualine/lualine.nvim', 
 {'justinhoward/fzf-neoyank', lazy=false },
-{'folke/tokyonight.nvim', lazy = false},
+{'folke/tokyonight.nvim', lazy = false, priority = 1000, 
+config = function()
+vim.cmd([[colorscheme tokyonight-day]])
+end,},
 {'ellisonleao/gruvbox.nvim', 
 lazy = false, priority = 1000, 
 config = function()
@@ -461,3 +463,4 @@ exec execstrWindows
 silent execute "buffer" buf
 endfunction 
 nnoremap <C-p> "0p 
+set shada="NONE"
