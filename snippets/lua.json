@@ -9,7 +9,7 @@
     "description": "opname"
 },
 {
-   "neovim mapping": {
+   "neovim vcmd": {
     "prefix": "vcmd",
     "body": [
         "vim.cmd('${1:}')",
