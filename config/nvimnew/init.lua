@@ -88,7 +88,7 @@ vim.cmd([[
 		endif
 	endif
 endfunction
- autocmd UIEnter * call OnUIEnter(deepcopy(v:event))
+autocmd UIEnter * call OnUIEnter(deepcopy(v:event))
 " autocmd UIEnter * lua OnUIEnter(v:event)
 
 "maps remaps mappings  
@@ -97,33 +97,10 @@ endfunction
 cnoremap <C-A>      <Home>
 cnoremap <C-E>      <End>
 cnoremap <C-K>      <C-U>
-nnoremap <m-y> viwy:buffer g:buffmain<cr>:<c-r>+<cr><cr>
-
-" allow multiple indentation/deindentation in visual mode
-vnoremap < <gv
-vnoremap > >gv
-nnoremap <m-y> viwy:buffer g:buffmain<cr>:<c-r>+<cr><cr>
-" :cd. change working directory to that of the current file
+" nnoremap <m-y> viwy:buffer g:buffmain<cr>:<c-r>+<cr><cr>
 cmap cd. lcd %:p:h
-tnoremap <m-d> <C-\><C-n>:bdelete!<cr>
-tnoremap <A-`> <C-\><C-n>
-tnoremap <A-Esc> <C-\><C-n>
-nmap <A-S-t> :te<cr>
-" other mappings 
-noremap <leader>r :up<cr>:e<cr> 
-" inoremap . .<esc>:up<cr>a
-
-nnoremap q :q<cr>
-nnoremap <leader>q q
-nmap <m-7> :ZenMode<cr>:mksession!<cr>
-nnoremap <leader>u <cr>:UndotreeToggle<CR>
-noremap <leader>c :'<,'>CommentToggle<cr>
-
+cmap <m-p> <c-r>+
 " commands
-command! -bang -nargs=* BLinesB
-    \ call fzf#vim#grep(
-    \   'rg --with-filename --line-number --no-heading --smart-case . '.fnameescape(expand('%')),1,
-    \   fzf#vim#with_preview({'options': '--keep-right --layout reverse --query '.shellescape(<q-args>).' --preview "bat -p --color always {}"'}, 'up:50%')) 
 command Tw50 set tw=50
 command Tw0 set tw=0
 command! SEND silent call Send()
@@ -133,29 +110,39 @@ command! PT set spelllang=pt
 
 " cmap ES set spelllang=es<cr>
 command! EN set spelllang=en_us
-command! Ser lua Server()
 " LSP
 command! LT LspStart ltex
 command! LTo LspStop ltex
 
-nnoremap <leader>f :up<cr>:lua Server()<cr>:te lf<cr>i
-nnoremap <leader>lg :up<cr>:lua Server()<cr>:te lazygit<cr>i
-" nnoremap <leader>tt :FloatermToggle<cr>
+"lua maps
+command! Ser lua Server()
+
+
+" allow multiple indentation/deindentation in visual mode
+vnoremap < <gv
+vnoremap > >gv
+nnoremap <m-y> viwy:buffer g:buffmain<cr>:<c-r>+<cr><cr>
+tnoremap <m-d> <C-\><C-n>:bdelete!<cr>
+tnoremap <A-`> <C-\><C-n>
+tnoremap <A-Esc> <C-\><C-n>
+nmap <A-S-t> :te<cr>
+" other mappings 
+noremap <leader>r :up<cr>:e<cr> 
+nnoremap q :q<cr>
+nnoremap <leader>q q
+nmap <m-7> :ZenMode<cr>:mksession!<cr>
+nnoremap <leader>u <cr>:UndotreeToggle<CR>
+noremap <leader>c :'<,'>CommentToggle<cr>
 nnoremap <leader>t :up<cr>:lua Server()<cr>:edit term://nu<cr><cr>
 nnoremap <c-,> :cprevious<cr>
 nnoremap <c-.> :cnext<cr> 
 inoremap <m-h> <left>
 inoremap <m-l> <right>
-" vnoremap <m-s> :s///gc<left><left><left><left>
-" inoremap <m-s> <esc>:%s///gc<left><left><left><left>
-" nnoremap <m-s> :%s///gc<left><left><left><left> 
 vmap <M-.> t.<CR>h
 nmap <M-.> t.<CR>h
 nnoremap <up> 1<C-U>
 nnoremap <m-g> gqip
-" imap <up> <nop>
 nnoremap <down> 1<C-D>
-" imap <down> <nop>
 noremap <ScrollWheelUp>      <nop>
 noremap <S-ScrollWheelUp>    <nop>
 noremap <C-ScrollWheelUp>    <nop>
@@ -176,8 +163,6 @@ inoremap / \
 
 " Movement
 inoremap <m-d> <C-w>
-" noremap W /\$<CR>
-" noremap B ?\$<CR>
 noremap gwm /\$<CR>
 noremap gbm ?\$<CR>
 noremap gwo /(\\|)<CR>
@@ -189,11 +174,8 @@ noremap gbw ?{\\|}<CR>
 noremap gwc /[\\|]<CR>
 noremap gbc ?[\\|]<CR>
 
-
 " copy paste stuff
-" 
 vnoremap p "_dP
-cmap <m-p> <c-r>+
 noremap <m-p> <c-r>+
 inoremap <m-p> <c-r>+
 noremap d "0d
@@ -213,7 +195,6 @@ nnoremap p "+p
 nnoremap <C-p> "0p
 
 nnoremap <leader>q q
-" cr
 inoremap <cr> <esc>$a<cr><space><esc>"_s
 inoremap <m-cr> <cr><space><esc>"_s
 
@@ -272,30 +253,7 @@ inoremap <expr> <CR> pumvisible() ? "\<C-y>" : "\<C-g>u\<CR>"
 map ' "
 inoremap <D-]> <C-x><C-]>
 inoremap <C-]> <C-x><C-]>
-
-" FZF 
-" function! s:mybuild_quickfix_list(lines)
-  " call feedkeys('\<esc>')
-  " lua  Feedkey('<esc><m-c>')
-  " call setloclist(1000, map(copy(a:lines), '{ "filename": v:val }'))
-" endfunction
-" function! s:myquick()
-"    lua Feedkey('<c-a>')
-"    lua Feedkey('<c-q>')
-"    lua Feedkey('<m-c>')
-" endfunction
- " let g:fzf_action = {
- "   \ 'ctrl-q': function('s:mybuild_quickfix_list'),
- "   \ 'ctrl-t': 'tab split',
- "   \ 'ctrl-x': 'split',
- "   \ 'ctrl-m': function('s:mybuild_quickfix_list') }
 nnoremap <m-t> :up<cr>:BTags<cr>
-" function! Jumpback() 
-"   K=bufname()
-"   normal viwhy<esc>:bdelete<cr>:buffer K<c-r>+<cr>:ZenMode<cr>
-" endfunction
-" 
-" nnoremap <m-b> :Buffers<cr>
 nnoremap <m-b> :lua require('telescope.builtin').buffers({layout_strategy='vertical',layout_config={width=0.9}})<cr>
 nnoremap <m-i> :lua require('telescope.builtin').git_bcommits({layout_strategy='vertical',layout_config={width=0.9}})<cr>
 nnoremap <m-u> :<Esc>:cg C:/Users/yasha/_vim_mru_files<cr>:copen<cr>:call feedkeys("zf")<CR>
@@ -306,21 +264,14 @@ nnoremap <c-p> :<c-r>+<cr>
 nnoremap <m-l> viwy:bdelete<cr>:execute "buffer" g:buf<cr>:<c-r>+<cr><cr>
 nnoremap <leader>c :gc
 
-" FZF Neoyank yank 
-
-nnoremap <leader>p :FZFNeoyank + p<cr> 
-nnoremap <leader>P :FZFNeoyank + P<cr>
-nnoremap <leader>0p :FZFNeoyank 0 p<cr>
-vnoremap <leader>p :FZFNeoyankSelection +<cr>
-
-" Latex maps
+" Latex maps 
 nmap <leader>v :silent call ViewPdf()<cr><cr>
 map <m-v> <esc>:silent call ViewPdf()<cr><cr>
 nmap <leader>ll :silent call CompileLatex()<cr>
 nmap <leader>lcl :silent call ClearLatex()<cr>
 nmap gtd :TodoQuickFix<cr>
-nmap <leader>ga :TZAtaraxis<CR>
-nmap <leader>gm :up<cr>:silent ! cat % >> ~/workspace/email.txt; cp % /tmp/temp; make4ht /tmp/temp "mathml,mathjax"; pandoc /tmp/temp.html --from html --to markdown_strict -o /tmp/temp.md; mv /tmp/temp.md %<cr>:e %<cr>:up<cr>:qa<cr>
+" nmap <leader>ga :TZAtaraxis<CR>
+"nmap <leader>gm :up<cr>:silent ! cat % >> ~/workspace/email.txt; cp % /tmp/temp; make4ht /tmp/temp "mathml,mathjax"; pandoc /tmp/temp.html --from html --to markdown_strict -o /tmp/temp.md; mv /tmp/temp.md %<cr>:e %<cr>:up<cr>:qa<cr>
 
 " Lsp mappings
 nnoremap <silent> g? <cmd>lua vim.diagnostic.open_float()<CR>
@@ -337,11 +288,9 @@ inoremap <expr> <c-x><c-k> fzf#vim#complete('cat /usr/share/dict/words')
 ""other maps
 inoremap <cr> <cr><space><esc>"_s
 nnoremap o o<space><esc>"_s
-nnoremap <C-c> :set hlsearch!<cr>
 vnoremap <silent> <cr> "*y:silent! let searchTerm = '\V'.substitute(escape(@*, '\/'), "\n", '\\n', "g") <bar> let @/ = searchTerm <bar> echo '/'.@/ <bar> call histadd("search", searchTerm) <bar> set hls<cr><cr>
 inoremap <m-d> <C-w>
 "Quickfix
-nnoremap <leader>e :silent call ToggleQuickFix()<CR>
 " -1 for jumping backwards.
 inoremap <silent> <S-Tab> <cmd>lua require'luasnip'.jump(-1)<Cr>
 inoremap <silent> <m-j> <cmd>lua require('luasnip').jump(1)<Cr>
@@ -453,4 +402,10 @@ exec execstrWindows
 silent execute "buffer" buf
 endfunction 
 nnoremap <C-p> "0p 
+" rewritten to lua
+" nnoremap <leader>f :up<cr>:lua Server()<cr>:te lf<cr>i
+"nnoremap <leader>lg :up<cr>:lua Server()<cr>:te lazygit<cr>i
 ]])
+
+
+
