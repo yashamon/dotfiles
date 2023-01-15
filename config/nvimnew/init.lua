@@ -69,7 +69,6 @@ end,},
 {'nvim-telescope/telescope.nvim', lazy = true, dependencies = "nvim-lua/plenary.nvim",
 },
 {'mg979/vim-visual-multi', lazy = false},
-{'tpope/vim-surround', lazy = false}
 })
 require('settings')
 require('functions')
@@ -100,10 +99,8 @@ require('mini.comment').setup(
 })
 require('mini.surround').setup(
 {
-  -- Add custom surroundings to be used on top of builtin ones. For more
   -- information with examples, see `:h MiniSurround.config`.
   custom_surroundings = {'$'},
-
   -- Duration (in ms) of highlight when calling `MiniSurround.highlight()`
   highlight_duration = 500,
 
