@@ -183,7 +183,7 @@ on_highlights = function(highlights, colors)
 		highlights["@include"] = { fg = "#af6000",
     style = {}
     }
-		highlights["@parameter"] = { fg = "#af6000",
+		highlights["@parameter"] = { fg = "darkblue",
     style = {}
     }
 		highlights["@text.reference"] = { fg = "#af6000",
