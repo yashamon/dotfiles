@@ -165,6 +165,9 @@ on_highlights = function(highlights, colors)
 		highlights.DiagnosticSignHint = { bg = "#ffa546" }
 		highlights.texType = { fg = "#808080" }
 		-- highlights.texMath = { fg = "#650000" }
+		highlights["@namespace"] = { fg = "#580058",
+    style = {}
+    }
 		highlights["@text.math"] = { fg = "darkgreen",
     style = {}
     }
@@ -174,7 +177,10 @@ on_highlights = function(highlights, colors)
 		highlights["@text.environment.name"] = { fg = "#00008b",
     style = {}
     }
-		highlights.TexSpecial = { fg = "#af6000" }
+		highlights["@operator"] = { fg = "#af6000 ",
+    style = {}
+    }
+				highlights.TexSpecial = { fg = "#af6000" }
 		highlights.texDelimiter = { fg = "#af6000" }
 		highlights.texStatement = { fg = "#580058" }
 		highlights.texRefzone = { fg = "#af6000" }
