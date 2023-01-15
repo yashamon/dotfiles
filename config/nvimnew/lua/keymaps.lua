@@ -24,7 +24,7 @@ map('v', '<leader>p',  function () vim.cmd('FZFNeoyankSelection +') end, {})
 
 
 map('n', '<leader>f', function() vim.cmd('up'); Server(); vim.cmd('te lf'); Feedkey('i','i') end, {})
--- map('<len', 'ader>lg', function() vim.cmd(':up<cr>:lua Server()<cr>:te lazygit<cr>i
+map('n', '<leader>lg', function() vim.cmd('up'); Server(); vim.cmd('te lazygit'); Feedkey('i','i') end, {})
 -- map('n', '<leader>t ', function():vim.cmd('up<cr>:lua Server()<cr>:edit term://
 -- nmap <m-7> :ZenMode<cr>:mksession!<cr>
 -- map('n', '<leader>u ', function()<vim.cmd('cr>:UndotreeToggle<CR>
