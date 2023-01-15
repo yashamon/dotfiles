@@ -44,7 +44,8 @@ map('q:', '<nop>', {})
 map('n', '<C-c>', function() vim.cmd('set hlsearch!') end, {})
 map('n', '<leader>e', function() vim.cmd('silent call ToggleQuickFix()') end, {})
 
-vim.cmd([["Leap
+vim.cmd([[
+"Leap
 map t <Plug>(leap-forward)
 map T <Plug>(leap-backward)
 " Replace the default dictionary completion with fzf-based fuzzy completion
