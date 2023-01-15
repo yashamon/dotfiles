@@ -7,7 +7,6 @@ end, { buffer=true })
 map('n','S', Line, {} )
 map('n', '<m-s>', Sentence, {})
 
-map('n', '<m-b>', function() require('telescope.builtin').find_files({layout_strategy='vertical',layout_config={width=0.9}}) end, {})
 
 -- commands
 command('Sa', function(file) vim.cmd('saveas ' .. file.args) end, { nargs=1 })
@@ -27,18 +26,20 @@ map('n', '<leader>f', function() vim.cmd('up'); Server(); vim.cmd('te lf'); Feed
 map('n', '<leader>lg', function() vim.cmd('up'); Server(); vim.cmd('te lazygit'); Feedkey('i','i') end, {})
 map('n', '<leader>t', function() vim.cmd('up'); Server(); vim.cmd('edit term://nu') end, {})
 map('n', '<leader>u', function() vim.cmd('UndotreeToggle') end, {})
-map('v', '<leader>c', function() vim.cmd("'<,'>CommentToggle") end, {})
+map('v', '<leader>c', function() vim.cmd('\'<,\'>CommentToggle') end, {})
 map('n', '<leader>c', 'gc', {})
 -- tnoremap <m-d> <C-\><C-n>:bdelete!<cr>
 -- nmap <m-8> :set laststatus=0<cr>:set lines=100<cr>:set guifont=Fira\ Code:h18<cr>:set columns=100<cr>
 map('n', '<c-l>', function() vim.cmd('bnext') end, {})
 map('n', '<c-h>', function() vim.cmd('bprevious') end, {})
 map('n', '<m-t>', function() vim.cmd('up'); vim.cmd('BTags') end, {})
+
+-- Telescope
+map('n', '<m-b>', function() require('telescope.builtin').find_files({layout_strategy='vertical',layout_config={width=0.9}}) end, {})
 map('n', '<m-b>', function()  require('telescope.builtin').buffers({layout_strategy='vertical',layout_config={width=0.9}}) end, {})
 map('n', '<m-i>', function() require('telescope.builtin').git_bcommits({layout_strategy='vertical',layout_config={width=0.9}}) end, {})
 map('n', '<m-u>', function() vim.cmd('cg C:/Users/yasha/_vim_mru_files | copen call feedkeys("zf")') end, {})
-map('n', '<m-f>', function ()
-vim.cmd('FZF ~') end, {})
+map('n', '<m-f>', function () vim.cmd('FZF ~') end, {})
 map('n', '<leader>gs', function() vim.cmd('up | source $MYVIMRC') end, {})
 map({'n', 'v'}, 'q:', '<nop>', {})
 map('n', '<C-c>', function() vim.cmd('set hlsearch!') end, {})
@@ -51,22 +52,24 @@ map('n', 'q',  function() vim.cmd('q') end, {})
 map('n', 't',  '<Plug>(leap-forward)', {})
 map('n', 'T', '<Plug>(leap-backward)', {})
 
-vim.cmd([[ " Replace the default dictionary completion with fzf-based fuzzy completion
-inoremap <expr> <c-x><c-k> fzf#vim#complete('cat /usr/share/dict/words')  
-""other maps
-inoremap <cr> <cr><space><esc>"_s
-nnoremap o o<space><esc>"_s
-vnoremap <silent> <cr> "*y:silent! let searchTerm = '\V'.substitute(escape(@*, '\/'), "\n", '\\n', "g") <bar> let @/ = searchTerm <bar> echo '/'.@/ <bar> call histadd("search", searchTerm) <bar> set hls<cr><cr>
-inoremap <m-d> <C-w>
-" -1 for jumping backwards.
+-- Luasnip
 inoremap <silent> <S-Tab> <cmd>lua require'luasnip'.jump(-1)<Cr>
 inoremap <silent> <m-j> <cmd>lua require('luasnip').jump(1)<Cr>
 nnoremap <silent> <m-j> <cmd>lua require('luasnip').jump(1)<Cr>
 inoremap <silent> <m-k> <cmd>lua require('luasnip').jump(-1)<Cr>
 nnoremap <silent> <m-k> <cmd>lua require('luasnip').jump(-1)<Cr>
 " For changing choices in choiceNodes (not strictly necessary for a basic setup). 
+
 imap <silent><expr> <C-E> luasnip#choice_active() ? '<Plug>luasnip-next-choice' : '<C-E>'
 smap <silent><expr> <C-E> luasnip#choice_active() ? '<Plug>luasnip-next-choice' : '<C-E>'
+
+vim.cmd([[ " Replace the default dictionary completion with fzf-based fuzzy completion
+""other maps
+inoremap <cr> <cr><space><esc>"_s
+nnoremap o o<space><esc>"_s
+vnoremap <silent> <cr> "*y:silent! let searchTerm = '\V'.substitute(escape(@*, '\/'), "\n", '\\n', "g") <bar> let @/ = searchTerm <bar> echo '/'.@/ <bar> call histadd("search", searchTerm) <bar> set hls<cr><cr>
+inoremap <m-d> <C-w>
+" -1 for jumping backwards.
 ]])
 
 
