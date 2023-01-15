@@ -25,7 +25,7 @@ map('v', '<leader>p',  function () vim.cmd('FZFNeoyankSelection +') end, {})
 
 map('n', '<leader>f', function() vim.cmd('up'); Server(); vim.cmd('te lf'); Feedkey('i','i') end, {})
 map('n', '<leader>lg', function() vim.cmd('up'); Server(); vim.cmd('te lazygit'); Feedkey('i','i') end, {})
-map('n', '<leader>t', function() vim.cmd('up'); Server(); vim.cmd('edit term://') end, {})
+map('n', '<leader>t', function() vim.cmd('up'); Server(); vim.cmd('edit term://nu') end, {})
 map('n', '<leader>u', function() vim.cmd('UndotreeToggle') end, {})
 -- noremap <leader>c :'<,'>CommentToggle<cr>
 map('n', '<leader>c', 'gc', {})
@@ -40,16 +40,42 @@ map('n', '<m-u>', function() vim.cmd('cg C:/Users/yasha/_vim_mru_files | copen c
 -- map <m-f> :FZF ~<CR> 
 map('n', '<leader>gs', function() vim.cmd('up | source $MYVIMRC') end, {})
 map('q:', 'nop', {})
+-- Latex maps
+vim.cmd([[nmap <leader>v :silent call ViewPdf()<cr><cr>
+nmap <m-v> <esc>:silent call ViewPdf()<cr><cr>
+nmap <leader>ll :silent call CompileLatex()<cr>
+nmap <leader>lcl :silent call ClearLatex()<cr>
+nmap gtd :TodoQuickFix<cr>]])
 
--- nmap <leader>v :silent call ViewPdf()<cr><cr>
--- map <m-v> <esc>:silent call ViewPdf()<cr><cr>
--- nmap <leader>ll :silent call CompileLatex()<cr>
--- nmap <leader>lcl :silent call ClearLatex()<cr>
--- nmap gtd :TodoQuickFix<cr>
--- -- "nmap <leader>gm :up<cr>:silent ! cat % >> ~/workspace/email.txt; cp % /tmp/temp; make4ht /tmp/temp "mathml,mathjax"; pandoc /tmp/temp.html --from html --to markdown_strict -o /tmp/temp.md; mv /tmp/temp.md %<cr>:e %<cr>:up<cr>:qa<cr>
+
+-- "nmap <leader>gm :up<cr>:silent ! cat % >> ~/workspace/email.txt; cp % /tmp/temp; make4ht /tmp/temp "mathml,mathjax"; pandoc /tmp/temp.html --from html --to markdown_strict -o /tmp/temp.md; mv /tmp/temp.md %<cr>:e %<cr>:up<cr>:qa<cr>
 
 map('n', '<C-c>', function() vim.cmd('set hlsearch!') end, {}) 
-map('n', '<leader>e', ToggleQuickfix, {})
+map('n', '<leader>e', function() vim.cmd('silent call ToggleQuickFix()') end, {})
+vim.cmd([["Leap
+map t <Plug>(leap-forward)
+map T <Plug>(leap-backward)
+" Replace the default dictionary completion with fzf-based fuzzy completion
+inoremap <expr> <c-x><c-k> fzf#vim#complete('cat /usr/share/dict/words')  
+
+""other maps
+inoremap <cr> <cr><space><esc>"_s
+nnoremap o o<space><esc>"_s
+vnoremap <silent> <cr> "*y:silent! let searchTerm = '\V'.substitute(escape(@*, '\/'), "\n", '\\n', "g") <bar> let @/ = searchTerm <bar> echo '/'.@/ <bar> call histadd("search", searchTerm) <bar> set hls<cr><cr>
+inoremap <m-d> <C-w>
+" -1 for jumping backwards.
+inoremap <silent> <S-Tab> <cmd>lua require'luasnip'.jump(-1)<Cr>
+inoremap <silent> <m-j> <cmd>lua require('luasnip').jump(1)<Cr>
+nnoremap <silent> <m-j> <cmd>lua require('luasnip').jump(1)<Cr>
+inoremap <silent> <m-k> <cmd>lua require('luasnip').jump(-1)<Cr>
+nnoremap <silent> <m-k> <cmd>lua require('luasnip').jump(-1)<Cr>
+" For changing choices in choiceNodes (not strictly necessary for a basic setup). 
+imap <silent><expr> <C-E> luasnip#choice_active() ? '<Plug>luasnip-next-choice' : '<C-E>'
+smap <silent><expr> <C-E> luasnip#choice_active() ? '<Plug>luasnip-next-choice' : '<C-E>'
+]])
+
+
+
 --
 -- -- " Lsp mappings
 -- map('n', '<silent> g?', function() vim.cmd('<cmd>lua vim.diagnostic.open_float()<CR>
