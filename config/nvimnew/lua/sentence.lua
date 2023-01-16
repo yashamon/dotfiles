@@ -7,7 +7,7 @@ end
 WriteSentence = function()
 	local filenameshort = vim.fn.bufname()
 	local tempfile = 'C:\\tmp\\@s_' .. filenameshort
-	local filename = vim.fn.expand('%:p')
+	-- local filename = vim.fn.expand('%:p')
 	local lines = vim.api.nvim_buf_get_lines(0, 0,-1, {strictindexing = false})
 	Newlines = {}
 	local a = {}
