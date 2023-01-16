@@ -13,7 +13,7 @@ command('Sa', function(file) vim.cmd('saveas ' .. file.args) end, { nargs=1 })
 command('Sao', function(file) vim.cmd('saveas! ' .. file.args) end, { nargs=1 })
 command('Keymap', "lua require('telescope.builtin').keymaps({layout_strategy='vertical',layout_config={width=0.9}})", {})
 command('Cmd', "lua require('telescope.builtin').commands({layout_strategy='vertical',layout_config={width=0.9}})", {})
-
+command('Trim', "lua MiniTrailspace.trim()", {}) 
 -- FZF Neoyank yank 
 
 map('n', '<leader>p', function()vim.cmd('FZFNeoyank + p')  end,{})
@@ -49,18 +49,18 @@ map('n', 'q',  function() vim.cmd('q') end, {})
 
 --Leap
 --
-map('n', 't',  '<Plug>(leap-forward)', {})
-map('n', 'T', '<Plug>(leap-backward)', {})
+map({'n', 'v'}, 't',  '<Plug>(leap-forward)', {})
+map({'n', 'v'}, 'T', '<Plug>(leap-backward)', {})
 
 -- Luasnip
 map('i', '<S-Tab>', function ()
 require'luasnip'.jump(-1) end, {})
-map('i', '<m-j>', function ()
+map({'i', 'n', 'v'}, '<m-j>', function ()
 require('luasnip').jump(1) end, {})
-map('i', '<m-k>', function ()
+map({'i', 'n', 'v'}, '<m-k>', function ()
 require('luasnip').jump(-1) end, {})
-map('n', '<m-j>', function() require('luasnip').jump(1) end, {})
-map('n', '<m-k>', function() require('luasnip').jump(-1) end, {})
+-- map('n', '<m-j>', function() require('luasnip').jump(1) end, {})
+-- map('n', '<m-k>', function() require('luasnip').jump(-1) end, {})
 
 -- " Lsp mappings 
 map('n','<leader>w', function () vim.cmd('up') end, {})
