@@ -13,8 +13,8 @@ command('Sa', function(file) vim.cmd('saveas ' .. file.args) end, { nargs=1 })
 command('Sao', function(file) vim.cmd('saveas! ' .. file.args) end, { nargs=1 })
 command('Keymap', "lua require('telescope.builtin').keymaps({layout_strategy='vertical',layout_config={width=0.9}})", {})
 command('Cmd', "lua require('telescope.builtin').commands({layout_strategy='vertical',layout_config={width=0.9}})", {})
-command('Trim', "lua MiniTrailspace.trim()", {}) 
--- FZF Neoyank yank 
+command('Trim', "lua MiniTrailspace.trim()", {})
+-- FZF Neoyank yank
 
 map('n', '<leader>p', function()vim.cmd('FZFNeoyank + p')  end,{})
 map('n', '<leader>P', function()vim.cmd('FZFNeoyank + P') end,{})
@@ -62,7 +62,7 @@ require('luasnip').jump(-1) end, {})
 -- map('n', '<m-j>', function() require('luasnip').jump(1) end, {})
 -- map('n', '<m-k>', function() require('luasnip').jump(-1) end, {})
 
--- " Lsp mappings 
+-- " Lsp mappings
 map('n','<leader>w', function () vim.cmd('up') end, {})
 map('n','ga', vim.lsp.buf.code_action, {})
 map('n','o', 'o<space><esc>"_s', {})
@@ -80,7 +80,7 @@ map('n', '<leader>r', function () vim.cmd('up | e') end, {})
 map('t', '<A-`>', '<C-\\><C-n>', {remap=true})
 
 
-vim.cmd([[ 
+vim.cmd([[
 imap <silent><expr> <C-E> luasnip#choice_active() ? '<Plug>luasnip-next-choice' : '<C-E>'
 smap <silent><expr> <C-E> luasnip#choice_active() ? '<Plug>luasnip-next-choice' : '<C-E>'
 
@@ -108,7 +108,7 @@ map <S-C-q> <Esc>:qa!<CR>
 
 vnoremap < <gv
 vnoremap > >gv
-nnoremap <leader>q q 
+nnoremap <leader>q q
 inoremap <m-h> <left>
 inoremap <m-l> <right>
 vmap <M-.> t.<CR>h
