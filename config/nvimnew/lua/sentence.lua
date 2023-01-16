@@ -1,18 +1,18 @@
 -- 1. 2
--- 3. 4 
+-- 3. 4
 GetFilename = function(path)
     local start, finish = path:find('[%w%s!-={-|]+[_%.].+')
     return path:sub(start,#path)
 end
-WriteSentence = function()	
+WriteSentence = function()
 	local filenameshort = vim.fn.bufname()
-	local tempfile = 'C:\\tmp\\@s_' .. filenameshort 
+	local tempfile = 'C:\\tmp\\@s_' .. filenameshort
 	local filename = vim.fn.expand('%:p')
 	local lines = vim.api.nvim_buf_get_lines(0, 0,-1, {strictindexing = false})
 	Newlines = {}
-	a = {}
-	b = {}
-	c = {} 
+	local a = {}
+	local b = {}
+	local c = {}
 	-- filenameshort .. ":" .. i .. ": " ..
 	for i,v in ipairs(lines) do
 		if i > 1 then
@@ -56,8 +56,8 @@ end
 -- -- 	for lines in stack do
 -- -- 		string = string .. stack.line
 -- -- 	while not stack.next == {} do
--- -- 		string = 
--- -- 	else return 
+-- -- 		string =
+-- -- 	else return
 -- -- 	end
 -- -- end mestua
 -- Lines = function ()
