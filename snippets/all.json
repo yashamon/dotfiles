@@ -1,0 +1,24 @@
+{
+"basic bracket": {
+    "prefix": "w",
+    "body": [
+      "{$1} $0"
+    ],
+    "description": "brackets"
+  },
+"open bracket": {
+    "prefix": "o",
+    "body": [
+      "($1) $0"
+    ],
+    "description": "open brackets"
+  },
+
+"square bracket": {
+    "prefix": "s",
+    "body": [
+      "[$1] $0"
+    ],
+    "description": "square brackets"
+  }
+}
