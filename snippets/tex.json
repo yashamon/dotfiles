@@ -1161,6 +1161,13 @@
     ],
     "description": "Delta d-simplex"
   },   
+"caligraphic K": {
+    "prefix": ["cK"],
+    "body": [
+      "\\mathcal{K} $0"
+    ],
+    "description": "cal K"
+  },
 "caligraphic V": {
     "prefix": ["cV"],
     "body": [
