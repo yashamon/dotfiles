@@ -20,8 +20,8 @@ WriteSentence = function()
 		else
 			a[i] = filenameshort .. ":" .. i .. ": " .. v
 		end
-		b[i] = string.gsub(a[i], '%.%s+@',  '%.@')
-		c[i] = string.gsub(b[i], '%.%s', '%.@')
+		b[i] = string.gsub(a[i], '%.%s+@ ',  '%.@ ')
+		c[i] = string.gsub(b[i], '%.%s', '%.@ ')
 		Newlines[i] = string.gsub(string.gsub(string.gsub(c[i], '%.@', '\n' .. filenameshort .. ":" .. i .. ": "), '\\', ' '), '%$', '')
 		-- c[i] = string.gsub(c[i], '%.%s+', '\n')
 	end
