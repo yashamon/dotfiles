@@ -285,15 +285,15 @@ let filenamePDFLinux=b:filenamedir . "/buildback/" . filenameroot . ".pdf"
 let b:filenamePDFWindows="build\\" . filenameroot . ".pdf"
 " echo b:filenamePDFWindows
 let execstrLinux="silent te zathura --synctex-forward " . linenumber . ":" . colnumber . ":" . filenametexwhole . " " . filenamePDFLinux
-let execstrWindows="silent te pwsh -c tectonic " . filenametex . " --outdir build --synctex " . ";C:/Users/yasha/scoop/shims/sumatrapdf.EXE -reuse-instance " . b:filenamePDFWindows . " -forward-search " . filenametex . " " . linenumber
-echo execstrWindows
-exec execstrWindows
+let execstrWindowsTectonic="silent te pwsh -c tectonic " . filenametex . " --outdir build --synctex " . ";C:/Users/yasha/scoop/shims/sumatrapdf.EXE -reuse-instance " . b:filenamePDFWindows . " -forward-search " . filenametex . " " . linenumber
+" let execstrWindows="silent te pwsh -c C:/Users/yasha/scoop/shims/sumatrapdf.EXE -reuse-instance " . b:filenamePDFWindows . " -forward-search " . filenametex . " " . linenumber
+exec execstrWindowsTectonic
 silent execute "buffer" buf
 endfunction
 nnoremap <C-p> "0p
 ]])
 
- -- " allow multiple indentation/deindentation in visual mode
+ -- " multiple indentation/deindentation in visual mode
  -- vnoremap < <gv
  -- vnoremap > >gv
  -- nnoremap <m-y> viwy:buffer g:buffmain<cr>:<c-r>+<cr><cr>
