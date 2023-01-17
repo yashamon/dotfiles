@@ -14,6 +14,8 @@ command('Sao', function(file) vim.cmd('saveas! ' .. file.args) end, { nargs=1 })
 command('Keymap', "lua require('telescope.builtin').keymaps({layout_strategy='vertical',layout_config={width=0.9}})", {})
 command('Cmd', "lua require('telescope.builtin').commands({layout_strategy='vertical',layout_config={width=0.9}})", {})
 command('Trim', "lua MiniTrailspace.trim()", {})
+command('CTags', 'te ctags -R', {})
+
 -- FZF Neoyank yank
 
 map('n', '<leader>p', function()vim.cmd('FZFNeoyank + p')  end,{})
