@@ -352,6 +352,7 @@ undercurl = true,
     },
 		["@parameter"] = { fg = "darkblue" },
 		["@text.reference"] = { fg = "grey" },
+		["@include"] = { fg = "grey" },
 		["@operator"] = { fg = "darkred" },
 				Cursor =  { fg = 'black', bg = 'white' }
         --bright orange  #fd8432
