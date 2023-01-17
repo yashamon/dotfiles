@@ -344,14 +344,14 @@ undercurl = true,
     },
 		["@text.environment.name"] = { fg = "#00008b"
     },
-		["@function.macro"] = { fg = "#af6000"
+		["@function.macro"] = { fg = "darkyellow"
     },
 		["@include"] = { fg = "#af6000"
     },
 		["@punctuation.bracket"] = { fg = "darkred"
     },
 		["@parameter"] = { fg = "darkblue" },
-		["@text.reference"] = { fg = "#af6000" },
+		["@text.reference"] = { fg = "darkyellow" },
 		["@operator"] = { fg = "darkred" },
 				Cursor =  { fg = 'black', bg = 'white' }
         --bright orange  #fd8432
