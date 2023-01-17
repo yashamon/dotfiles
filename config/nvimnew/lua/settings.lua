@@ -332,29 +332,19 @@ undercurl = true,
         -- Pmenu = { bg = "#ffa546", fg = "#1e2030" },
 				Pmenu = { bg = "#ffa546", fg = "white" },
 				texTypeStyle = { fg = "#427b58" },
-		["@namespace"] = { fg = "#580058"
-    },
-		["@text.math"] = { fg = "darkgreen"
-    },
-		["@function"] = { fg = "#650000"
-    },
-		["@text.title"] = { fg = "darkblue"
-    },
-		["@text.environment"] = { fg = "#580058"
-    },
-		["@text.environment.name"] = { fg = "#00008b"
-    },
-		["@function.macro"] = { fg = "grey"
-    },
-		["@include"] = { fg = "#af6000"
-    },
-		["@punctuation.bracket"] = { fg = "darkred"
-    },
+		["@namespace"] = { fg = "#580058" },
+		["@text.math"] = { fg = "darkgreen" },
+		["@function"] = { fg = "#650000" },
+		["@text.title"] = { fg = "darkblue" },
+		["@text.environment"] = { fg = "#580058" },
+		["@text.environment.name"] = { fg = "#00008b" },
+		["@function.macro"] = { fg = "grey" },
+		["@punctuation.bracket"] = { fg = "darkred" },
 		["@parameter"] = { fg = "darkblue" },
 		["@text.reference"] = { fg = "grey" },
 		["@include"] = { fg = "grey" },
 		["@operator"] = { fg = "darkred" },
-				Cursor =  { fg = 'black', bg = 'white' }
+		Cursor =  { fg = 'black', bg = 'white' }
         --bright orange  #fd8432
         --texComment = { fg = "#00ff00" },
         -- texString = { fg = "#0000ff" },
