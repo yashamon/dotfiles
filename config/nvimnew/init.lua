@@ -51,20 +51,20 @@ require("lazy").setup({
     },
  },
 -- {'terrortylor/nvim-comment', cmd = "CommentToggle"},
-'nvim-lualine/lualine.nvim', 
+'nvim-lualine/lualine.nvim',
 {'justinhoward/fzf-neoyank', lazy=false },
 {'folke/tokyonight.nvim', lazy = true
 },
-{'ellisonleao/gruvbox.nvim', 
-lazy = false, priority = 1000, 
+{'ellisonleao/gruvbox.nvim',
+lazy = false, priority = 1000,
 config = function()
 vim.cmd([[colorscheme gruvbox]])
 end,},
 {'nvim-treesitter/nvim-treesitter', build = ":TSUpdate", lazy = false},
-{'Shougo/neoyank.vim', dependencies = 'Shougo/denite.nvim'}, 
-{'junegunn/fzf', lazy = false, build = ":call fzf#install()" }, 
+{'Shougo/neoyank.vim', dependencies = 'Shougo/denite.nvim'},
+{'junegunn/fzf', lazy = false, build = ":call fzf#install()" },
 {'junegunn/fzf.vim', lazy = true},
-{'mbbill/undotree', cmd = "UndotreeToggle"}, 
+{'mbbill/undotree', cmd = "UndotreeToggle"},
 {'kevinhwang91/nvim-bqf', lazy = false},
 {'nvim-telescope/telescope.nvim', lazy = true, dependencies = "nvim-lua/plenary.nvim",
 },
@@ -76,6 +76,7 @@ require('set')
 require('au')
 require('keymaps')
 require('mini.trailspace').setup()
+-- require('mini.pairs').setup()
 require('mini.comment').setup(
 {
   -- Module mappings. Use `''` (empty string) to disable one.
@@ -101,7 +102,7 @@ require('mini.comment').setup(
 require('mini.surround').setup(
 {
   -- information with examples, see `:h MiniSurround.config`.
-  custom_surroundings = {'$'},
+  -- custom_surroundings = {'$'},
   -- Duration (in ms) of highlight when calling `MiniSurround.highlight()`
   highlight_duration = 500,
 
@@ -188,26 +189,26 @@ command! LTo LspStop ltex
 
 
 
-"Functions 
+"Functions
 
 function Bluemoon()
    set background=dark
    colorscheme blue-moon
-   " colorscheme material  
+   " colorscheme material
 endfunction
 function Deepocean()
    set background=dark
-   colorscheme material  
-   let g:material_style = 'deep ocean'  
+   colorscheme material
+   let g:material_style = 'deep ocean'
 endfunction
 function Palenight()
    set background=dark
    " colorscheme blue-moon
-   colorscheme material  
-   let g:material_style = 'palenight'  
+   colorscheme material
+   let g:material_style = 'palenight'
 endfunction
 function Light()
-   colorscheme gruvbox 
+   colorscheme gruvbox
    set background=light
 endfunction
 function Lighter()
@@ -243,18 +244,18 @@ function ToggleQuickFix()
 end
 EOF
         endif
-endfunction 
+endfunction
 nnoremap <leader>e :silent call ToggleQuickFix()<CR>
 function! ClearLatex()
-  silent !rm ./build/* 
-endfunction 
+  silent !rm ./build/*
+endfunction
 function! Send()
   " silent call ClearLatex()
 	up
   let b:filenamedir=expand('%:p:h')
   let b:filename=expand('%:t:r')
   let buf=bufname()
-  let b:pdf=b:filenamedir . "/build/" . b:filename .".pdf" 
+  let b:pdf=b:filenamedir . "/build/" . b:filename .".pdf"
   let execstr="silent te pwsh -c send " . b:pdf
   exec execstr
   silent execute "buffer" buf
@@ -269,7 +270,7 @@ function! CompileLatex()
   call feedkeys("\<cr>")
 endfunction
 
-function! ViewPdf() 
+function! ViewPdf()
 up
 let buf=bufname()
 lua Server()
@@ -279,16 +280,16 @@ let b:filenamedir=expand('%:p:h')
 let filenametex=expand('%:p:t')
 let filenametexwhole=expand('%:p')
 let filenameroot=expand('%:t:r')
-" let filenamePDF=filename[:-4]."pdf" 
+" let filenamePDF=filename[:-4]."pdf"
 let filenamePDFLinux=b:filenamedir . "/buildback/" . filenameroot . ".pdf"
 let b:filenamePDFWindows="build\\" . filenameroot . ".pdf"
 " echo b:filenamePDFWindows
 let execstrLinux="silent te zathura --synctex-forward " . linenumber . ":" . colnumber . ":" . filenametexwhole . " " . filenamePDFLinux
-let execstrWindows="silent te pwsh -c C:/Users/yasha/scoop/shims/sumatrapdf.EXE -reuse-instance " . b:filenamePDFWindows . " -forward-search " . filenametex . " " . linenumber
+let execstrWindows="silent te pwsh -c tectonic " . filenametex . " ;C:/Users/yasha/scoop/shims/sumatrapdf.EXE -reuse-instance " . b:filenamePDFWindows . " -forward-search " . filenametex . " " . linenumber
 exec execstrWindows
 silent execute "buffer" buf
 endfunction
-nnoremap <C-p> "0p 
+nnoremap <C-p> "0p
 ]])
 
  -- " allow multiple indentation/deindentation in visual mode
@@ -299,8 +300,8 @@ nnoremap <C-p> "0p
  -- tnoremap <A-`> <C-\><C-n>
  -- tnoremap <A-Esc> <C-\><C-n>
  -- nmap <A-S-t> :te<cr>
- -- " other mappings 
- -- noremap <leader>r :up<cr>:e<cr> 
+ -- " other mappings
+ -- noremap <leader>r :up<cr>:e<cr>
  -- nnoremap q :q<cr>
  -- nnoremap <leader>q q
  -- nmap <m-7> :ZenMode<cr>:mksession!<cr>
@@ -430,13 +431,13 @@ nnoremap <C-p> "0p
  --
  --
  -- nnoremap <m-u> :<Esc>:cg C:/Users/yasha/_vim_mru_files<cr>:copen<cr>:call feedkeys("zf")<CR>
- -- map <m-f> :FZF ~<CR> 
- -- nnoremap <leader>gs :up<cr>:source $MYVIMRC<cr> 
+ -- map <m-f> :FZF ~<CR>
+ -- nnoremap <leader>gs :up<cr>:source $MYVIMRC<cr>
  -- nnoremap <c-e> viwy:cclose<cr>:<c-r>+<cr><cr>
  -- nnoremap <c-p> :<c-r>+<cr>
  -- nnoremap <leader>c :gc
  --
- -- " Latex maps 
+ -- " Latex maps
  -- nmap <leader>v :silent call ViewPdf()<cr><cr>
  -- map <m-v> <esc>:silent call ViewPdf()<cr><cr>
  -- nmap <leader>ll :silent call CompileLatex()<cr>
@@ -472,7 +473,7 @@ nnoremap <C-p> "0p
  -- nnoremap <silent> <m-j> <cmd>lua require('luasnip').jump(1)<Cr>
  -- inoremap <silent> <m-k> <cmd>lua require('luasnip').jump(-1)<Cr>
  -- nnoremap <silent> <m-k> <cmd>lua require('luasnip').jump(-1)<Cr>
- -- " For changing choices in choiceNodes (not strictly necessary for a basic setup). 
+ -- " For changing choices in choiceNodes (not strictly necessary for a basic setup).
  -- imap <silent><expr> <C-E> luasnip#choice_active() ? '<Plug>luasnip-next-choice' : '<C-E>'
  --
  -- smap <silent><expr> <C-E> luasnip#choice_active() ? '<Plug>luasnip-next-choice' : '<C-E>'
