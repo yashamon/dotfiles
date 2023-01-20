@@ -9,6 +9,7 @@ map('n', '<m-s>', Sentence, {})
 
 
 -- commands
+command('Gtd', 'TodoQuickFix', {})
 command('Sa', function(file) vim.cmd('saveas ' .. file.args) end, { nargs=1 })
 command('Sao', function(file) vim.cmd('saveas! ' .. file.args) end, { nargs=1 })
 command('Keymap', "lua require('telescope.builtin').keymaps({layout_strategy='vertical',layout_config={width=0.9}})", {})
@@ -81,6 +82,11 @@ map('n', '<leader>r', function () vim.cmd('up | e') end, {})
 --terminal
 map('t', '<A-`>', '<C-\\><C-n>', {remap=true})
 
+-- Latex maps
+map('n', '<leader>v :silent call ViewPdf()<cr><cr>
+map('n', '<m-v> <esc>:silent call ViewPdf()<cr><cr>
+map('n', '<leader>ll :silent call CompileLatex()<cr>
+map('n', '<leader>lcl :silent call ClearLatex()<cr>
 
 vim.cmd([[
 imap <silent><expr> <C-E> luasnip#choice_active() ? '<Plug>luasnip-next-choice' : '<C-E>'
@@ -94,13 +100,6 @@ inoremap <m-d> <C-w>
 " -1 for jumping backwards.
 ]])
 
-
--- Latex maps
-vim.cmd([[nmap <leader>v :silent call ViewPdf()<cr><cr>
-nmap <m-v> <esc>:silent call ViewPdf()<cr><cr>
-nmap <leader>ll :silent call CompileLatex()<cr>
-nmap <leader>lcl :silent call ClearLatex()<cr>
-nmap gtd :TodoQuickFix<cr>
 
 
 "nmap <leader>gm :up<cr>:silent ! cat % >> ~/workspace/email.txt; cp % /tmp/temp; make4ht /tmp/temp "mathml,mathjax"; pandoc /tmp/temp.html --from html --to markdown_strict -o /tmp/temp.md; mv /tmp/temp.md %<cr>:e %<cr>:up<cr>:qa<cr>
