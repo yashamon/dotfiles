@@ -91,7 +91,7 @@ map('n', '<leader>lcl', vim.fn.ClearLatex, {})
 
 -- map ('i', '<silent><expr> <C-E> luasnip#choice_active() ? '<Plug>luasnip-next-choice' : '<C-E>'
 vim.keymap.set ('i', '<cr>', '<cmd><cr><space><esc>"_s')
-map ('i', '<m-d>',  '<C-w>')
+vim.keymap.set ('i', '<m-d>',  '<C-w>')
 -- map ('i', '<m-h> <left>
 -- map ('i', '<m-l> <right>
 -- map ('i', '\ /
