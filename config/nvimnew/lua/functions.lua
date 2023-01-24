@@ -92,7 +92,6 @@ CG = function()
 	LoadSentence()
 end
 
-
 GitAsync = function()
 Server()
 local buff = vim.fn.bufname()

@@ -1,6 +1,7 @@
 local map = vim.keymap.set
 local command = vim.api.nvim_create_user_command
 
+vim.keymap.set({'n', 'v'}, '<leader>lr', vim.lsp.buf.references, { buffer=true })
 map('t', '<m-p>', [[getreg('+')]], {expr = true})
 map({'i','n'}, '<m-t>', function ()  vim.cmd('up')
 end, { buffer=true })
@@ -83,35 +84,53 @@ map('n', '<leader>r', function () vim.cmd('up | e') end, {})
 map('t', '<A-`>', '<C-\\><C-n>', {remap=true})
 
 -- Latex maps
-map('n', '<leader>v :silent call ViewPdf()<cr><cr>
-map('n', '<m-v> <esc>:silent call ViewPdf()<cr><cr>
-map('n', '<leader>ll :silent call CompileLatex()<cr>
-map('n', '<leader>lcl :silent call ClearLatex()<cr>
+map('n', '<leader>v', vim.fn.ViewPdf)
+map('n', '<m-v>', vim.fn.ViewPdf)
+map('n', '<leader>ll',  vim.fn.CompileLatex, {})
+map('n', '<leader>lcl', vim.fn.ClearLatex, {})
+
+-- map ('i', '<silent><expr> <C-E> luasnip#choice_active() ? '<Plug>luasnip-next-choice' : '<C-E>'
+vim.keymap.set ('i', '<cr>', '<cmd><cr><space><esc>"_s')
+-- map ('i', '<m-d> <C-w>
+-- map ('i', '<m-h> <left>
+-- map ('i', '<m-l> <right>
+-- map ('i', '\ /
+-- map ('i', '/ \
+-- map ('i', '<m-d> <C-w>
+-- map ('i', '<m-p> <c-r>+
+-- map ('i', '<cr> <esc>$a<cr><space><esc>"_s
+-- map ('i', '<m-cr> <cr><space><esc>"_s
+-- map ('i', '<m-d> <C-d>
+-- map ('i', '<expr> <CR> pumvisible() ? "\<C-y>" : "\<C-g>u\<CR>"
+-- map ('i', '' "
+-- map ('i', '<D-]> <C-x><C-]>
+-- map ('i', '<C-]> <C-x><C-]>
 
 vim.cmd([[
-imap <silent><expr> <C-E> luasnip#choice_active() ? '<Plug>luasnip-next-choice' : '<C-E>'
 smap <silent><expr> <C-E> luasnip#choice_active() ? '<Plug>luasnip-next-choice' : '<C-E>'
 
 " Replace  default dictionary completion with fzf-based fuzzy completion
 ""other maps
-inoremap <cr> <cr><space><esc>"_s
+
+
+
+
+" movement
+
 vnoremap <silent> <cr> "*y:silent! let searchTerm = '\V'.substitute(escape(@*, '\/'), "\n", '\\n', "g") <bar> let @/ = searchTerm <bar> echo '/'.@/ <bar> call histadd("search", searchTerm) <bar> set hls<cr><cr>
-inoremap <m-d> <C-w>
 " -1 for jumping backwards.
-]])
-
-
 
 "nmap <leader>gm :up<cr>:silent ! cat % >> ~/workspace/email.txt; cp % /tmp/temp; make4ht /tmp/temp "mathml,mathjax"; pandoc /tmp/temp.html --from html --to markdown_strict -o /tmp/temp.md; mv /tmp/temp.md %<cr>:e %<cr>:up<cr>:qa<cr>
 
 
 map <S-C-q> <Esc>:qa!<CR>
-
 vnoremap < <gv
 vnoremap > >gv
 nnoremap <leader>q q
-inoremap <m-h> <left>
-inoremap <m-l> <right>
+
+
+
+
 vmap <M-.> t.<CR>h
 nmap <M-.> t.<CR>h
 nnoremap <m-g> gqip
@@ -130,11 +149,7 @@ noremap <S-ScrollWheelRight> <nop>
 noremap <C-ScrollWheelRight> <nop>
 noremap! <LeftDrag> <nop>
 noremap! <RightDrag> <nop>
-inoremap \ /
-inoremap / \
 
-" movement
-inoremap <m-d> <C-w>
 noremap gwm /\$<CR>
 noremap gbm ?\$<CR>
 noremap gwo /(\\|)<CR>
@@ -149,7 +164,6 @@ noremap gbc ?[\\|]<CR>
  " copy paste stuff
 vnoremap p "_dP
 noremap <m-p> <c-r>+
-inoremap <m-p> <c-r>+
 noremap d "0d
 nnoremap cg "0cgn
 nnoremap dd "0dd
@@ -167,9 +181,6 @@ nnoremap p "+p
 nnoremap <C-p> "0p
 
 nnoremap <leader>q q
-inoremap <cr> <esc>$a<cr><space><esc>"_s
-inoremap <m-cr> <cr><space><esc>"_s
-
 nnoremap D "0dg$
 nnoremap V vg$
 noremap X vg$x
@@ -206,12 +217,7 @@ nnoremap ` ~
 nnoremap . `
 noremap <m-1> <C-o>
 noremap <m-2> <C-i>
-inoremap <m-d> <C-d>
 noremap <D-u> <C-u>
 noremap <A-u> <C-u>
-inoremap <expr> <CR> pumvisible() ? "\<C-y>" : "\<C-g>u\<CR>"
-map ' "
-inoremap <D-]> <C-x><C-]>
-inoremap <C-]> <C-x><C-]>
 ]])
 
