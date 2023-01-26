@@ -45,6 +45,9 @@
 
 SetCapsLockState AlwaysOff
 CapsLock::Esc
+!Tab::!Esc
+!Esc::^!Tab
+
 ;k::Send {Up}
 ;Hotkey, k,off
 ;CapsLock & k::
@@ -128,7 +131,7 @@ return
 #Space::
 send {F11}
 return
-home::CapsLock
+PgUp::CapsLock
 #!a::MoveCurrentWindowToDesktop(1)
 #!s::MoveCurrentWindowToDesktop(2)
 #!d::MoveCurrentWindowToDesktop(3)
@@ -170,7 +173,7 @@ WinKill, A
     Return
 #e::
 ; Run microsoft-edge:https://this-page-intentionally-left-blank.org/ 
-Run chrome
+Run "brave -fullscreen"
 Return   
 #+j::
 ; Run microsoft-edge:https://this-page-intentionally-left-blank.org/ 
