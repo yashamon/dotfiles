@@ -90,28 +90,31 @@ map('n', '<leader>ll',  vim.fn.CompileLatex, {})
 map('n', '<leader>lcl', vim.fn.ClearLatex, {})
 
 -- map ('i', '<silent><expr> <C-E> luasnip#choice_active() ? '<Plug>luasnip-next-choice' : '<C-E>'
-vim.keymap.set ('i', '<cr>', '<cmd><cr><space><esc>"_s')
+vim.keymap.set ('i', '<cr>', '<cr><space><esc>"_s', {})
 vim.keymap.set ('i', '<m-d>',  '<C-w>')
--- map ('i', '<m-h> <left>
--- map ('i', '<m-l> <right>
--- map ('i', '\ /
--- map ('i', '/ \
--- map ('i', '<m-d> <C-w>
--- map ('i', '<m-p> <c-r>+
+map ('i', '<c-h>',  '<backspace>')
+map ('i', '<c-l>', '<right><backspace>')
+map ('i', '<m-h>',  '<left>')
+map ('i', '<m-l>', '<right>')
+map ('i', '\\', '/')
+map ('i', '/',  '\\')
+map ('i', '<m-d>', '<C-w>')
+map ('i', '<m-p>', '<c-r>+')
 -- map ('i', '<cr> <esc>$a<cr><space><esc>"_s
--- map ('i', '<m-cr> <cr><space><esc>"_s
--- map ('i', '<m-d> <C-d>
+vim.keymap.set('i', '<CR>', function()
+         return vim.fn.pumvisible() == 1 and "<C-y>" or "<CR>"
+       end, { expr = true })
+			 
 -- map ('i', '<expr> <CR> pumvisible() ? "\<C-y>" : "\<C-g>u\<CR>"
 -- map ('i', '' "
--- map ('i', '<D-]> <C-x><C-]>
--- map ('i', '<C-]> <C-x><C-]>
+map ('i', '<D-]>', '<C-x><C-]>')
+map ('i', '<C-]>', '<C-x><C-]>')
 
 vim.cmd([[
 smap <silent><expr> <C-E> luasnip#choice_active() ? '<Plug>luasnip-next-choice' : '<C-E>'
 
 " Replace  default dictionary completion with fzf-based fuzzy completion
 ""other maps
-
 
 
 

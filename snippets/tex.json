@@ -16,7 +16,7 @@
   "NFuk": {
     "prefix": "nfuk",
     "body": [
-        "\\operatorname {N}\\operatorname {Fuk} (M, $1 \\omega) $0" 
+        "\\operatorname {NFuk} (M, $1 \\omega) $0" 
        ],
     "description": "fuk"
     },  
