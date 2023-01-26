@@ -173,7 +173,7 @@ WinKill, A
     Return
 #e::
 ; Run microsoft-edge:https://this-page-intentionally-left-blank.org/ 
-Run "brave -fullscreen"
+Run "brave"
 Return   
 #+j::
 ; Run microsoft-edge:https://this-page-intentionally-left-blank.org/ 
