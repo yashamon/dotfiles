@@ -100,19 +100,14 @@ map ('i', '\\', '/')
 map ('i', '/',  '\\')
 map ('i', '<m-d>', '<C-w>')
 map ('i', '<m-p>', '<c-r>+')
--- map ('i', '<cr> <esc>$a<cr><space><esc>"_s
-vim.keymap.set('i', '<CR>', function()
-         return vim.fn.pumvisible() == 1 and "<C-y>" or "<CR>"
-       end, { expr = true })
-			 
--- map ('i', '<expr> <CR> pumvisible() ? "\<C-y>" : "\<C-g>u\<CR>"
--- map ('i', '' "
+vim.keymap.set("c", "<cr>", function()
+  if vim.fn.pumvisible() == 1 then return '<c-y>' end
+  return '<cr>'
+  end, { expr = true })
 map ('i', '<D-]>', '<C-x><C-]>')
 map ('i', '<C-]>', '<C-x><C-]>')
-
 vim.cmd([[
-smap <silent><expr> <C-E> luasnip#choice_active() ? '<Plug>luasnip-next-choice' : '<C-E>'
-
+smap <silent><expr> <C-E> luasnip#choice_active() ? '<Plug>luasnip-next-choice' : '<C-E>'	
 " Replace  default dictionary completion with fzf-based fuzzy completion
 ""other maps
 
@@ -120,11 +115,11 @@ smap <silent><expr> <C-E> luasnip#choice_active() ? '<Plug>luasnip-next-choice' 
 
 " movement
 
-vnoremap <silent> <cr> "*y:silent! let searchTerm = '\V'.substitute(escape(@*, '\/'), "\n", '\\n', "g") <bar> let @/ = searchTerm <bar> echo '/'.@/ <bar> call histadd("search", searchTerm) <bar> set hls<cr><cr>
+
 " -1 for jumping backwards.
 
 "nmap <leader>gm :up<cr>:silent ! cat % >> ~/workspace/email.txt; cp % /tmp/temp; make4ht /tmp/temp "mathml,mathjax"; pandoc /tmp/temp.html --from html --to markdown_strict -o /tmp/temp.md; mv /tmp/temp.md %<cr>:e %<cr>:up<cr>:qa<cr>
-
+vnoremap <cr> *y:silent! let searchTerm = '\V'.substitute(escape(@*, '\/'), "\n", '\\n', "g") <bar> let @/ = searchTerm <bar> echo '/'.@/ <bar> call histadd("search", searchTerm) <bar> set hls<cr><cr>
 
 map <S-C-q> <Esc>:qa!<CR>
 vnoremap < <gv
