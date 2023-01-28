@@ -1552,7 +1552,7 @@
   },
 
 "sigma": {
-    "prefix": ["s"],
+    "prefix": ["si"],
     "body": [
       "\\sigma $0"
     ],
