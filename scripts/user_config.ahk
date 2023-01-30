@@ -49,6 +49,7 @@ CapsLock::Esc
 !Esc::^!Tab
 
 #h::^#{left}
+#l::^#{right}
 
 ;k::Send {Up}
 ;Hotkey, k,off
