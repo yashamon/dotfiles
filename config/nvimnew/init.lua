@@ -287,6 +287,7 @@ let b:filenamePDFWindows="build\\" . filenameroot . ".pdf"
 let execstrLinux="silent te zathura --synctex-forward " . linenumber . ":" . colnumber . ":" . filenametexwhole . " " . filenamePDFLinux
 let execstrWindowsTectonic="silent te pwsh -nop -c tectonic " . filenametex . " --outdir build --synctex --keep-logs"
 let execstrViewer="silent te pwsh -nop -c C:/Users/yasha/scoop/shims/sumatrapdf.EXE -reuse-instance " . b:filenamePDFWindows . " -forward-search " . filenametex . " " . linenumber
+echo execstrViewer
 " let execstrWindows="silent te pwsh -c C:/Users/yasha/scoop/shims/sumatrapdf.EXE -reuse-instance " . b:filenamePDFWindows . " -forward-search " . filenametex . " " . linenumber
 exec execstrViewer
 exec execstrWindowsTectonic
