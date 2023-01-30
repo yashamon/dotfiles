@@ -285,8 +285,8 @@ let filenamePDFLinux=b:filenamedir . "/buildback/" . filenameroot . ".pdf"
 let b:filenamePDFWindows="build\\" . filenameroot . ".pdf"
 " echo b:filenamePDFWindows
 let execstrLinux="silent te zathura --synctex-forward " . linenumber . ":" . colnumber . ":" . filenametexwhole . " " . filenamePDFLinux
-let execstrWindowsTectonic="silent te pwsh -c tectonic " . filenametex . " --outdir build --synctex --keep-logs"
-let execstrViewer="C:/Users/yasha/scoop/shims/sumatrapdf.EXE -reuse-instance " . b:filenamePDFWindows . " -forward-search " . filenametex . " " . linenumber
+let execstrWindowsTectonic="silent te pwsh -nop -c tectonic " . filenametex . " --outdir build --synctex --keep-logs"
+let execstrViewer="silent te pwsh -nop -c C:/Users/yasha/scoop/shims/sumatrapdf.EXE -reuse-instance " . b:filenamePDFWindows . " -forward-search " . filenametex . " " . linenumber
 " let execstrWindows="silent te pwsh -c C:/Users/yasha/scoop/shims/sumatrapdf.EXE -reuse-instance " . b:filenamePDFWindows . " -forward-search " . filenametex . " " . linenumber
 exec execstrViewer
 exec execstrWindowsTectonic
