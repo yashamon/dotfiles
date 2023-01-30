@@ -1117,6 +1117,13 @@
     ],
     "description": "Theta"
   },
+	"theta": {
+    "prefix": ["th", "\\th"],
+    "body": [
+      "\\theta $0"
+    ],
+    "description": "theta"
+  },
 "nabla": {
     "prefix": ["nabla"],
     "body": [
