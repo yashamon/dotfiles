@@ -48,8 +48,10 @@ CapsLock::Esc
 !Tab::!Esc
 !Esc::^!Tab
 
-#h::^#{left}
-#l::^#{right}
+#h::
+Send ^#{Left}
+#l::
+Send ^#{Right}
 
 ;k::Send {Up}
 ;Hotkey, k,off
