@@ -48,10 +48,10 @@ CapsLock::Esc
 !Tab::!Esc
 !Esc::^!Tab
 
-#h::
++!h::
 Send ^#{Left}
 return
-#l::
++!l::
 Send ^#{Right}
 return
 
