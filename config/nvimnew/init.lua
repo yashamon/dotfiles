@@ -289,8 +289,8 @@ let execstrWindowsTectonic="silent te pwsh -nop -c tectonic " . filenametex . " 
 let execstrViewer="silent te pwsh -nop -c C:/Users/yasha/scoop/shims/sumatrapdf.EXE -reuse-instance " . b:filenamePDFWindows . " -forward-search " . filenametex . " " . linenumber
 echo execstrViewer
 " let execstrWindows="silent te pwsh -c C:/Users/yasha/scoop/shims/sumatrapdf.EXE -reuse-instance " . b:filenamePDFWindows . " -forward-search " . filenametex . " " . linenumber
-exec execstrViewer
-exec execstrWindowsTectonic
+silent exec execstrViewer
+silent exec execstrWindowsTectonic
 exec execstrViewer
 silent execute "buffer" buf
 endfunction
