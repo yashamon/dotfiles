@@ -86,6 +86,7 @@ map('t', '<A-`>', '<C-\\><C-n>', {remap=true})
 -- Latex maps
 map('n', '<leader>v', function ()
 	vim.fn.ViewPdf()
+	Feedkey('<cr>', 'im')
 end)
 map({'i', 'n'}, '<m-v>', function ()
 	vim.fn.ViewPdf()
