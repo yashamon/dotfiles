@@ -93,8 +93,6 @@ map({'i', 'n'}, '<m-v>', function ()
 	Feedkey('<cr>', 'im')
 	print("wtf")
 end)
-
-map('n', '<m-v>', vim.fn.ViewPdf)
 map('n', '<leader>ll',  vim.fn.CompileLatex, {})
 map('n', '<leader>lcl', vim.fn.ClearLatex, {})
 
