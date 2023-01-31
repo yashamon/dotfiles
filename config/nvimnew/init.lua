@@ -290,9 +290,11 @@ let execstrViewer="silent te pwsh -nop -c C:/Users/yasha/scoop/shims/sumatrapdf.
 echo execstrViewer
 " let execstrWindows="silent te pwsh -c C:/Users/yasha/scoop/shims/sumatrapdf.EXE -reuse-instance " . b:filenamePDFWindows . " -forward-search " . filenametex . " " . linenumber
 silent exec execstrViewer
+call feedkeys("\<cr>")
 silent exec execstrWindowsTectonic
 exec execstrViewer
 silent execute "buffer" buf
+call feedkeys("\<cr>")
 call feedkeys("\<cr>")
 endfunction
 nnoremap <C-p> "0p
