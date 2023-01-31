@@ -293,6 +293,7 @@ silent exec execstrViewer
 silent exec execstrWindowsTectonic
 exec execstrViewer
 silent execute "buffer" buf
+call feedkeys("\<cr>")
 endfunction
 nnoremap <C-p> "0p
 ]])
