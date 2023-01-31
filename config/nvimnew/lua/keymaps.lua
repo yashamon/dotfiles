@@ -90,6 +90,7 @@ end)
 map({'i', 'n'}, '<m-v>', function ()
 	vim.fn.ViewPdf()
 	Feedkey('<cr>', 'im')
+	print("wtf")
 end)
 
 map('n', '<m-v>', vim.fn.ViewPdf)
