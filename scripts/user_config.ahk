@@ -50,8 +50,10 @@ CapsLock::Esc
 
 #h::
 Send ^#{Left}
+return
 #l::
 Send ^#{Right}
+return
 
 ;k::Send {Up}
 ;Hotkey, k,off
@@ -144,8 +146,6 @@ PgUp::CapsLock
 #!c::MoveCurrentWindowToDesktop(5)
 return
 #!h::
-return
-#h::
 return
 #k::
 return
