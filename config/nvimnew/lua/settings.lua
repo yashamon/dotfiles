@@ -491,7 +491,16 @@ completion = { autocomplete = false }
    -- Hook function to call before commenting takes place
    --hook = nil 
  --})
-require("yanker").config({
+require('ufo').setup()
+-- Option 2: nvim lsp as LSP client
+-- Tell the server the capability of foldingRange,
+-- Neovim hasn't added foldingRange to default capabilities, users must add it manually
+local capabilities = vim.lsp.protocol.make_client_capabilities()
+capabilities.textDocument.foldingRange = {
+    dynamicRegistration = false,
+    lineFoldingOnly = true
+}
+ require("yanker").config({
   --history = ";h",
 })
 

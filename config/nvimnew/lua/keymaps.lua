@@ -22,8 +22,8 @@ command('Ctags', 'te ctags ~/workspacemodules/link.bib', {})
 
 map('n', '<leader>p', function()vim.cmd('FZFNeoyank + p')  end,{})
 map('n', '<leader>P', function()vim.cmd('FZFNeoyank + P') end,{})
-map('n', '<leader>0p', function()vim.cmd('FZFNeoyank 0 p') end,{})
-map('n', '<leader>h', '<cmd>Telescop yank_history')
+map('n', '<leader>0p', function() vim.cmd('FZFNeoyank 0 p') end,{})
+map('n', '<leader>h', function() vim.cmd('Telescope yank_history') end,{})
 map('v', '<leader>p',  function () vim.cmd('FZFNeoyankSelection +') end, {})
 
 
