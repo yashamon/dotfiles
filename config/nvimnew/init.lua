@@ -291,7 +291,6 @@ let execstrViewer="silent te pwsh -nop -c C:/Users/yasha/scoop/shims/sumatrapdf.
 silent exec execstrViewer
 silent exec execstrWindowsTectonic
 silent execute "buffer" buf
-call feedkeys("\<cr>")
 endfunction
 nnoremap <C-p> "0p
 ]])
