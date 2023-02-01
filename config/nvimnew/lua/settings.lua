@@ -492,7 +492,7 @@ completion = { autocomplete = false }
    --hook = nil 
  --})
 require("yanker").config({
-  history = ";h",
+  --history = ";h",
 })
 
 require('lualine').setup {
