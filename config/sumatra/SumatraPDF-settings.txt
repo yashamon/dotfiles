@@ -121,15 +121,55 @@ CustomScreenDPI = 0
 
 FileStates [
 	[
+		FilePath = G:\My Drive\downloads\Of 032_2022 Yakov Savelyev.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 2
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 -1
+		PageNo = 1
+		Zoom = 100
+		Rotation = 0
+		WindowState = 3
+		WindowPos = -13 0 1946 2069
+		ShowToc = false
+		SidebarDx = 364
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = G:\My Drive\downloads\Oficio No. 013-2023.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 1
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 -1
+		PageNo = 1
+		Zoom = 100
+		Rotation = 0
+		WindowState = 3
+		WindowPos = -13 0 1946 2069
+		ShowToc = false
+		SidebarDx = 364
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
 		FilePath = C:\Users\yasha\workspacemodules\various\letters\build\carta2023CIDPA.pdf
 		Favorites [
 		]
 		IsPinned = false
 		IsMissing = false
-		OpenCount = 13
+		OpenCount = 14
 		UseDefaultState = false
 		DisplayMode = continuous
-		ScrollPos = 132.359 156.936
+		ScrollPos = 132.387 157.074
 		PageNo = 3
 		Zoom = fit content
 		Rotation = 0

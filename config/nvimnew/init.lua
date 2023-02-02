@@ -19,6 +19,7 @@ require("lazy").setup({
   dependencies = { "arsham/arshlib.nvim", "junegunn/fzf.vim" },
   config = true, lazy = true
 },
+{'kevinhwang91/nvim-ufo', dependencies = 'kevinhwang91/promise-async', lazy = true},
 {'gbprod/yanky.nvim', lazy = true},
 {'jose-elias-alvarez/null-ls.nvim', dependencies = "nvim-lua/plenary.nvim" },
 {'nvim-telescope/telescope-fzf-native.nvim', lazy = true},
@@ -77,6 +78,7 @@ require('au')
 require('keymaps')
 require('mini.trailspace').setup()
 -- require('mini.pairs').setup()
+require("telescope").load_extension("yank_history")
 require('mini.comment').setup(
 {
   -- Module mappings. Use `''` (empty string) to disable one.
