@@ -360,12 +360,14 @@ require("luasnip/loaders/from_vscode").lazy_load({ paths = "C:/Users/yasha/dotfi
 -- You can also use lazy loading so you only get in memory snippets of languages you use
 
 ls.add_snippets(nil, {
-latex = {
+lua = {
 snip({
 trig = "trig",
 },
 {
-text({"","$"}),insert(1,""),text({"$"})
+text({"$"}),insert(1,""),text({"$"}),
+text({''}),
+text({'blah'}),
 })
 },
 })
