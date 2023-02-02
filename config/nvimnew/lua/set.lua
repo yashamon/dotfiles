@@ -21,10 +21,17 @@ opt.pumblend=20
 opt.switchbuf='newtab'
 opt.ignorecase = true
 opt.smartcase = true
-opt.foldmethod='expr'
-opt.foldexpr='nvim_treesitter#foldexpr()'
+vim.o.foldcolumn = '0' -- '0' is not bad
+vim.o.foldlevel = 99 -- Using ufo provider need a large value, feel free to decrease the value
+vim.o.foldlevelstart = 99
+vim.o.foldenable = true
+
+-- Using ufo provider need remap `zR` and `zM`. If Neovim is 0.6.1, remap yourself
+vim.keymap.set('n', 'zR', require('ufo').openAllFolds)
+vim.keymap.set('n', 'zM', require('ufo').closeAllFolds)
+-- opt.foldmethod='expr'
+-- opt.foldexpr='nvim_treesitter#foldexpr()'
 opt.linebreak = true
-opt.foldenable = false
 vim.opt.formatoptions:append{"w"}
 opt.autochdir = true
 g.mapleader=';'

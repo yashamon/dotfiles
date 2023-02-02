@@ -197,8 +197,8 @@ ls.add_snippets(nil, {
             trig = "letter",
             namr = "Latex template",
             dscr = "Latex template",
-        }, 
-        { text({"","\\documentclass{letter}"}), 
+        },
+        { text({"","\\documentclass{letter}"}),
 text({"","\\usepackage{appendix}"}),
 text({"","\\usepackage{graphicx}"}),
 text({"","\\usepackage{amsfonts, mathrsfs, amsmath, amssymb, amsthm}"}),
@@ -241,8 +241,8 @@ ls.add_snippets(nil, {
             trig = "tex",
             namr = "Latex template",
             dscr = "Latex template",
-        }, 
-        { text({"","\\documentclass{amsart}"}), 
+        },
+        { text({"","\\documentclass{amsart}"}),
 text({"","\\usepackage{appendix}"}),
 text({"","\\usepackage{graphicx}"}),
 text({"","\\usepackage{amsfonts, mathrsfs, amsmath, amssymb, amsthm}"}),
@@ -334,23 +334,23 @@ text({"","\\email{yasha.savelyev@gmail.com}"}),
 text({"","\\address{University of Colima, CUICBAS}"}),
 text({"","\\keywords{}"}),
 text({"","\\begin{abstract}   "}),
-text({""}), insert(2, "abstract here"), 
+text({""}), insert(2, "abstract here"),
 text({"","\\end{abstract}"}),
 text({"","\\maketitle"}),
 text({"","\\section{Introduction}"}),
-text({""}), insert(3, "write intro"), 
-text({"","\\bibliographystyle{siam}"}),  
-text({"","\\bibliography{C:/Users/yasha/texmf/bibtex/bib/link}"}), 
-text({"","%  \bibliography{/root/texmf/bibtex/bib/link}"}),  
-text({"","% \bibliography{/home/yashasavelyev/texmf/bibtex/bib/link}"}), 
+text({""}), insert(3, "write intro"),
+text({"","\\bibliographystyle{siam}"}),
+text({"","\\bibliography{C:/Users/yasha/texmf/bibtex/bib/link}"}),
+text({"","%  \bibliography{/root/texmf/bibtex/bib/link}"}),
+text({"","% \bibliography{/home/yashasavelyev/texmf/bibtex/bib/link}"}),
 text({"","% \bibliography{/home/yasha/texmf/bibtex/bib/link}"}),
 text({"","\\end{document}"}),
-           }), 
+           }),
          },
     })
 
-   
-    
+
+
 
 --[[
 -- Beside defining your own snippets you can also load snippets from "vscode-like" packages
