@@ -366,7 +366,7 @@ trig = "trig",
 },
 {
 text({"$"}),insert(1,""),text({"$"}),
-text({''}),
+text({""}),
 text({'blah'}),
 })
 },
