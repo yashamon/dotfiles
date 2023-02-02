@@ -199,20 +199,13 @@ ls.add_snippets(nil, {
         { text({"","\\documentclass{letter}"}),
 text({"","\\usepackage{appendix}"}),
 text({"","\\usepackage{graphicx}"}),
-text({"","\\usepackage{amsfonts, mathrsfs, amsmath, amssymb, amsthm}"}),
+text({"","\\usepackage{amsfonts, amscd, mathrsfs, amsmath, amssymb, amsthm}"}),
 text({"","\\usepackage{url}"}),
 text({"","\\usepackage{hyperref} "}),
 text({"","\\hypersetup{backref,pdfpagemode=FullScreen,colorlinks=true}"}),
 text({"","\\usepackage{tikz-cd}"}),
-text({"","\\usepackage{amscd}"}),
-text({"","\\usepackage{pst-plot,pst-eucl}"}),
-text({"","%\\usepackage[svgnames,pdf]{pstricks}"}),
-text({"","\\usepackage{amssymb}"}),
-text({"","\\usepackage{amscd}"}),
 text({"","\\usepackage{color, verbatim}"}),
-text({"","\\usepackage{amsthm}"}),
 text({"","\\usepackage{bm}"}),
-text({"","\\usepackage[hmargin=3cm,vmargin=3cm]{geometry}"}),
 text({"",'\\signature{Yasha Savelyev}'}),
 text({"",'\\name{Yasha (Yakov) Savelyev}'}),
 -- text({"","\\email{yasha.savelyev@gmail.com}"}),
@@ -359,15 +352,4 @@ text({"","\\end{document}"}),
 require("luasnip/loaders/from_vscode").lazy_load({ paths = "C:/Users/yasha/dotfiles/snippets"})
 -- You can also use lazy loading so you only get in memory snippets of languages you use
 
-ls.add_snippets(nil, {
-lua = {
-snip({
-trig = "trig",
-},
-{
-text({"$"}),insert(1,""),text({"$"}),
-text({""}),
-text({'blah'}),
-})
-},
-})
+
