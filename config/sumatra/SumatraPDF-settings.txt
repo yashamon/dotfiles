@@ -113,15 +113,35 @@ TreeFontSize = 0
 SmoothScroll = false
 ShowStartPage = true
 CheckForUpdates = false
-WindowState = 3
-WindowPos = -13 0 1946 2069
+WindowState = 1
+WindowPos = -13 0 1920 2069
 UseTabs = true
 UseSysColors = false
 CustomScreenDPI = 0
 
 FileStates [
 	[
-		FilePath = G:\My Drive\downloads\Of 032_2022 Yakov Savelyev.pdf
+		FilePath = C:\Users\yasha\workspacemodules\fukaya\build\fukayaII.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 1
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = 20.1955 95.3403
+		PageNo = 49
+		Zoom = fit content
+		Rotation = 0
+		WindowState = 1
+		WindowPos = -13 0 1920 2069
+		ShowToc = false
+		SidebarDx = 364
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = ?:\My Drive\downloads\Of 032_2022 Yakov Savelyev.pdf
 		Favorites [
 		]
 		IsPinned = false
@@ -141,7 +161,7 @@ FileStates [
 		ReparseIdx = 0
 	]
 	[
-		FilePath = G:\My Drive\downloads\Oficio No. 013-2023.pdf
+		FilePath = ?:\My Drive\downloads\Oficio No. 013-2023.pdf
 		Favorites [
 		]
 		IsPinned = false
@@ -221,27 +241,7 @@ FileStates [
 		ReparseIdx = 0
 	]
 	[
-		FilePath = C:\Users\yasha\workspacemodules\fukaya\build\fukayaII.pdf
-		Favorites [
-		]
-		IsPinned = false
-		IsMissing = false
-		OpenCount = 15
-		UseDefaultState = false
-		DisplayMode = continuous
-		ScrollPos = 124.262 95.5123
-		PageNo = 49
-		Zoom = fit content
-		Rotation = 0
-		WindowState = 3
-		WindowPos = -13 0 1946 2069
-		ShowToc = false
-		SidebarDx = 364
-		DisplayR2L = false
-		ReparseIdx = 0
-	]
-	[
-		FilePath = G:\My Drive\downloads\J-holomorphic curves and symplectic topology  0821834851.pdf
+		FilePath = ?:\My Drive\downloads\J-holomorphic curves and symplectic topology  0821834851.pdf
 		Favorites [
 		]
 		IsPinned = false
