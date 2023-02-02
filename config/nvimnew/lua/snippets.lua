@@ -164,11 +164,10 @@ snip({
 trig = "text",
 },
 {
-text({'text({\''}), insert(1,"text"), text({"\'})"})
+text({'text({\''}), insert(1,""), text({"\'})"})
 })
 },
 })
-
 ls.add_snippets(nil, {
 lua = {
 snip({
