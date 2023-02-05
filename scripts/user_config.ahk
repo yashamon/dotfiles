@@ -122,13 +122,13 @@ Send !{Esc}
 ;Send !{Esc}
 return
 
-#D::
+#M::
 switchDesktopByNumber(5)
 Send !{Esc}
 ;sleep 100
 ;Send !{Esc}
 return
-#M::
+#D::
 switchDesktopByNumber(6)
 Send !{Esc}
 ;sleep 100
