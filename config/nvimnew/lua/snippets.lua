@@ -163,7 +163,7 @@ snip({
 trig = "text",
 },
 {
-text({'text({\''}), insert(1,""), text({"\'})"})
+text({'text({"'}), insert(1,""), text({"\"})"})
 })
 },
 })
@@ -416,6 +416,9 @@ text({"","\\newtheorem{question}{Question}"}),
 text({"","\\newcommand {\\vol}{\\operatorname{vol}}"}),
 text({"","\\newcommand{\\hatcp}{\\widehat{\\mathbb {CP}} ^{r-1}}"}),
 text({"","\\DeclareMathOperator {\\spann} {span}"}),
+text({"","\\DeclareMathOperator {\\D} {Delta}"}),
+\DeclareMathOperator {\obj} {obj}
+\DeclareMathOperator {\colim} {colim}
 text({"","\\DeclareMathOperator {\\period} {period}"}),
 text({"","\\DeclareMathOperator {\\sign} {sign}"}),
 text({"","\\DeclareMathOperator {\\Id} {Id}"}),
