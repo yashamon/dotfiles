@@ -45,7 +45,7 @@
 
 SetCapsLockState AlwaysOff
 CapsLock::Esc
-!Tab::!Esc
+;!Tab::!Esc
 !Esc::^!Tab
 
 +!h::

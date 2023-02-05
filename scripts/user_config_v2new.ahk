@@ -165,12 +165,6 @@ Send("{F11}")
 return
 } ; V1toV2: Added Bracket before hotkey or Hotstring
 PgUp::CapsLock
-#!a::MoveCurrentWindowToDesktop(1)
-#!s::MoveCurrentWindowToDesktop(2)
-#!d::MoveCurrentWindowToDesktop(3)
-#!f::MoveCurrentWindowToDesktop(4)
-#!c::MoveCurrentWindowToDesktop(5)
-return
 #!h::
 { ; V1toV2: Added bracket
 return
@@ -251,28 +245,6 @@ CapsLock & Numpad7::switchDesktopByNumber(7)
 CapsLock & Numpad8::switchDesktopByNumber(8)
 CapsLock & Numpad9::switchDesktopByNumber(9)
 
-switchDesktopToRight() */
-/* #p::switchDesktopToLeft() */
-CapsLock & s::switchDesktopToRight()
-CapsLock & a::switchDesktopToLeft()
-CapsLock & tab::switchDesktopToLastOpened()
-
-CapsLock & c::createVirtualDesktop()
-CapsLock & d::deleteVirtualDesktop()
-
-#!a::MoveCurrentWindowToDesktop(1)
-
-CapsLock & w::MoveCurrentWindowToDesktop(2)
-CapsLock & e::MoveCurrentWindowToDesktop(3)
-CapsLock & r::MoveCurrentWindowToDesktop(4)
-CapsLock & t::MoveCurrentWindowToDesktop(5)
-CapsLock & y::MoveCurrentWindowToDesktop(6)
-CapsLock & u::MoveCurrentWindowToDesktop(7)
-CapsLock & i::MoveCurrentWindowToDesktop(8)
-CapsLock & o::MoveCurrentWindowToDesktop(9)
-
-CapsLock & Right::MoveCurrentWindowToRightDesktop()
-CapsLock & Left::MoveCurrentWindowToLeftDesktop()
 
 ; === INSTRUCTIONS ===
 ; Below is the alternate key configuration. Delete symbol ; in the beginning of the line to enable.
