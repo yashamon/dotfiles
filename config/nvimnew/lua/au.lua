@@ -11,7 +11,7 @@ autocmd(
     {
       callback = function()
         vim.fn.timer_stop(timer)
-        timer = vim.fn.timer_start(150, do_complete)
+        timer = vim.fn.timer_start(100, do_complete)
       end,
       pattern = "*",
     }
