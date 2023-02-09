@@ -1419,7 +1419,7 @@
     "description": "square cup"
   },
 "union cup": {
-    "prefix": ["uc"],
+    "prefix": ["uc", "cup"],
     "body": [
       "\\cup $0"
     ],
