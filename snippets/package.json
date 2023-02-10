@@ -345,6 +345,7 @@
       },
       {
         "language": [
+					"txt",
           "plaintex",
           "tex"
         ],
