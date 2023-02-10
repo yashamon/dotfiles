@@ -353,17 +353,9 @@
       },
       {
         "language": [
-          "vim",
           "vim"
         ],
         "path": "./vim.json"
-      },
-      {
-        "language": [
-          "plaintex",
-          "tex"
-        ],
-        "path": "./latex/vscode-latex-snippets.json"
       },
       {
         "language": "twig",
