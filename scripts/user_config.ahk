@@ -184,7 +184,7 @@ WinKill, A
     Return
 #e::
 ; Run microsoft-edge:https://this-page-intentionally-left-blank.org/ 
-Run "google-chrome"
+Run "chrome"
 Return   
 #+j::
 ; Run microsoft-edge:https://this-page-intentionally-left-blank.org/ 
