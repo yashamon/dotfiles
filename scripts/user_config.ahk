@@ -184,6 +184,7 @@ WinKill, A
     Return
 #e::
 ; Run microsoft-edge:https://this-page-intentionally-left-blank.org/ 
+;Run "brave"
 Run "chrome"
 Return   
 #+j::
