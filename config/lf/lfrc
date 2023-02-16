@@ -7,7 +7,7 @@ set shell pwsh.bat
 # set shell "C:\\Users\\yasha\\scoop\\shims\\nu.exe"
 cmd open &start $Env:f
 map i $less $Env:f
-map Y $$Env:f.Trim('"') | clip
+map Y %echo $Env:f.Trim('"') | clip
 map w $pwsh
 # change 'doc' command to use a different pager
 cmd doc $lf -doc | less

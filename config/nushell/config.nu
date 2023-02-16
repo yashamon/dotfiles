@@ -42,7 +42,10 @@ def pull [] { git pull --recurse-submodules ; git submodule update --recursive -
 def pullmaster [] { git pull --recurse-submodules ; git submodule update --recursive --remote ; git submodule foreach git checkout master ; git submodule foreach git pull --all
 }
 def pushgh [] { cd $"($HOME)/web" ; pandoc index.md -o index.html ; git add . ; git commit -m -a ; git push origin gh-pages }
-def hw [] { pandoc $"($HOME)/web/classes/AlgTop/2022.md" -o $"($HOME)/web/classes/AlgTop/2022.html" ; pandoc $"($HOME)/web/classes/CalcIII/2022.md"  -o $"($HOME)/web/classes/CalcIII/2022.html" ; cd "($HOME)/web" ; git add . ; git commit -m -a ; git push origin gh-pages } 
+
+def hw [] { pandoc $"($HOME)/web/classes/discreet/2023.md" -o $"($HOME)/web/classes/discreet/2023.html" ; cd $"($HOME)/web"; git add . ; git commit -m -a ; git push origin gh-pages 
+} 
+
 alias config = ( cd $"($HOME)/dotfiles"; push; cd $"($HOME)/workspacemodules"; pushmod; cd $"($HOME)/workspace"; push; cd web pushgh; pacman -Qqe > $"($HOME)/dotfiles/pkglist.txt" )
 
 def sendFunction [file:string] {
@@ -365,7 +368,11 @@ let light_theme = {
 # The default config record. This is where much of your global configuration is setup.
 let-env config = {
 # completion_algorithm: "fuzzy"  # prefix, fuzzy
-
+ cursor_shape: {
+    vi_insert: line 
+    vi_normal: block
+    emacs: line
+  }
   ls: {
     use_ls_colors: true # use the LS_COLORS environment variable to colorize output
     clickable_links: true # enable or disable clickable links. Your terminal has to support links.
