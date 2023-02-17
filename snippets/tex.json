@@ -46,14 +46,14 @@
     "description": "range"
     },
   "plus": {
-    "prefix": "p",
+    "prefix": "pl",
     "body": [
         "+ $0"
        ],
     "description": "plus sign "
     },    
   "minus": {
-    "prefix": "p",
+    "prefix": "min",
     "body": [
         "- $0"
        ],
