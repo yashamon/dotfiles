@@ -1018,7 +1018,7 @@
     "description": "infinity"
   },
 "partial": {
-    "prefix": ["pa", "part"],
+    "prefix": ["p", "pa"],
     "body": [
       "\\partial $0"
     ],
