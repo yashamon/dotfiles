@@ -7,7 +7,7 @@
     "description": "site"
  },
 		"papers": {
-    "prefix": "papers",
+    "prefix": "paper",
     "body": [
         "http://yashamon.github.io/web2/papers/$0"
        ],
