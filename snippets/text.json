@@ -1,5 +1,19 @@
 {
-"G-bundle": {
+		"site": {
+    "prefix": "site",
+    "body": [
+        "https://sites.google.com/site/yashasavelyev/"
+       ],
+    "description": "site"
+ },
+		"papers": {
+    "prefix": "papers",
+    "body": [
+        "http://yashamon.github.io/web2/papers/$0"
+       ],
+    "description": "papers"
+		},
+	"G-bundle": {
     "prefix": "Gbun",
     "body": [
         "\\$$1\\$-Bundle $0" 
