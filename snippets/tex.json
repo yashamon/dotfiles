@@ -1,4 +1,18 @@
 {  
+			"site": {
+    "prefix": "site",
+    "body": [
+        "https://sites.google.com/site/yashasavelyev/"
+       ],
+    "description": "site"
+ },
+		"papers": {
+    "prefix": "papers",
+    "body": [
+        "http://yashamon.github.io/web2/papers/$0"
+       ],
+    "description": "papers"
+		},
    "operatorname": {
     "prefix": "op",
     "body": [
