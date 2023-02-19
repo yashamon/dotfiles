@@ -1,12 +1,11 @@
 {  
-   "papers": {
+		"papers": {
     "prefix": "papers",
     "body": [
-        "http://yashamon.github.io/web2/papers/$0" 
+        "http://yashamon.github.io/web2/papers/$0"
        ],
-    "description": "opname"
- }, 
-{  
+    "description": "papers"
+ },
    "operatorname": {
     "prefix": "op",
     "body": [
