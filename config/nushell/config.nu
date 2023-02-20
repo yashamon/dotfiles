@@ -43,7 +43,7 @@ def pullmaster [] { git pull --recurse-submodules ; git submodule update --recur
 }
 def pushgh [] { cd $"($HOME)/web" ; pandoc index.md -o index.html ; git add . ; git commit -m -a ; git push origin gh-pages }
 
-def init [dir:string] {mkdir $dir ; cd $dir ; git init ; git remote add $dir $"https://yashamon@bitbucket.org/yashamon/$dir"
+def init [dir:string] {mkdir $dir ; cd $dir ; git init ; git remote add $dir $"https://yashamon@bitbucket.org/yashamon/($dir)"
 } 
 
 def hw [] { pandoc $"($HOME)/web/classes/discreet/2023.md" -o $"($HOME)/web/classes/discreet/2023.html" ; cd $"($HOME)/web"; git add . ; git commit -m -a ; git push origin gh-pages 
