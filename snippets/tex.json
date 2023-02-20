@@ -13,12 +13,12 @@
        ],
     "description": "papers"
 		},
-   "operatorname": {
+   "oplus": {
     "prefix": "op",
     "body": [
-        "\\operatorname {$1} $0" 
+        "\\oplus{$1} $0" 
        ],
-    "description": "opname"
+    "description": "oplus"
  }, 
 "Fukinfinity": {
     "prefix": "fuki",
