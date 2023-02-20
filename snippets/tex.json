@@ -1168,9 +1168,9 @@
     "description": "Delta d-simplex"
   },
 "Delta d-simplex bullet": {
-    "prefix": ["Db"],
+    "prefix": ["Ddb"],
     "body": [
-      "\\Delta^{$1} _{\bullet} $0"
+      "\\Delta^{$1} _{\\bullet} $0"
     ],
     "description": "Delta d-simplex bullet"
   },   
