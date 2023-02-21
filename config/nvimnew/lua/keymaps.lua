@@ -189,10 +189,10 @@ noremap L g$
 
 noremap gf gq
 nmap f /
-nmap gv \\/
-vmap s \\/
 " vim-multiple-\cursors
 nnoremap <m-n> <c-n>
+nmap gv \\/
+vmap s \\/
 noremap F ?
 noremap gfm /\$<CR>v?\$<CR>
 noremap gm /\$<CR>hv?\$<CR>l
