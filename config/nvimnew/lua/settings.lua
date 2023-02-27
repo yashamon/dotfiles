@@ -363,7 +363,7 @@ require("lspconfig")
 -- LSP config
 local lspconfig = require("lspconfig")
 
-    lspconfig.sumneko_lua.setup { on_attach = on_attach }
+    lspconfig.lua_ls.setup { on_attach = on_attach }
     lspconfig.tsserver.setup { on_attach = on_attach }
     lspconfig.jsonls.setup { on_attach = on_attach }
     lspconfig.rome.setup { on_attach = on_attach }
