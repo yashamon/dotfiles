@@ -290,7 +290,7 @@ let execstrLinux="silent te zathura --synctex-forward " . linenumber . ":" . col
 let execstrWindowsTectonic="silent te pwsh -nop -c tectonic " . filenametex . " --outdir build --file-line-error --synctex --keep-logs"
 let execstrViewer="silent te pwsh -nop -c C:/Users/yasha/scoop/shims/sumatrapdf.EXE -reuse-instance " . b:filenamePDFWindows . " -forward-search " . filenametex . " " . linenumber
 let execstrWindows2="silent te pwsh -nop -c C:/Users/yasha/scoop/shims/sumatrapdf.EXE -reuse-instance " . b:filenamePDFWindows . " -forward-search " . filenametex . " " . linenumber
-let execstrWindows1="silent te pwsh -nop -c latexmk  -synctex=1 -file-line-error -f % " . filenametex  " 
+let execstrWindows1="silent te pwsh -nop -c latexmk  -synctex=1 -file-line-error -f " . %  
 silent exec execstrViewer
 silent exec execstrWindows
 silent execute "buffer" buf
