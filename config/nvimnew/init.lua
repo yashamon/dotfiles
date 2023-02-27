@@ -292,7 +292,7 @@ let execstrViewer="silent te pwsh -nop -c C:/Users/yasha/scoop/shims/sumatrapdf.
 let execstrWindows2="silent te pwsh -nop -c C:/Users/yasha/scoop/shims/sumatrapdf.EXE -reuse-instance " . b:filenamePDFWindows . " -forward-search " . filenametex . " " . linenumber
 let execstrWindows1="silent te pwsh -nop -c latexmk  -synctex=1 -file-line-error -f " . filenametex  
 silent exec execstrViewer
-silent exec execstrWindows
+silent exec execstrWindows1
 silent execute "buffer" buf
 endfunction
 nnoremap <C-p> "0p
