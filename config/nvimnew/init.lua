@@ -266,7 +266,7 @@ function! CompileLatex()
   " silent call ClearLatex()
 	up
   let buf=bufname()
-  silent te pwsh -c latexmk -pvc -halt-on-error -synctex=1 -file-line-error -f %
+  silent te pwsh -nop -c latexmk -pvc -halt-on-error -synctex=1 -file-line-error -f %
   silent execute "buffer" buf
   call ViewPdf()
   call feedkeys("\<cr>")
@@ -287,11 +287,12 @@ let filenamePDFLinux=b:filenamedir . "/buildback/" . filenameroot . ".pdf"
 let b:filenamePDFWindows="build\\" . filenameroot . ".pdf"
 " echo b:filenamePDFWindows
 let execstrLinux="silent te zathura --synctex-forward " . linenumber . ":" . colnumber . ":" . filenametexwhole . " " . filenamePDFLinux
-let execstrWindowsTectonic="silent te pwsh -nop -c tectonic " . filenametex . " --outdir build --synctex --keep-logs"
+let execstrWindowsTectonic="silent te pwsh -nop -c tectonic " . filenametex . " --outdir build --file-line-error --synctex --keep-logs"
 let execstrViewer="silent te pwsh -nop -c C:/Users/yasha/scoop/shims/sumatrapdf.EXE -reuse-instance " . b:filenamePDFWindows . " -forward-search " . filenametex . " " . linenumber
-" let execstrWindows="silent te pwsh -c C:/Users/yasha/scoop/shims/sumatrapdf.EXE -reuse-instance " . b:filenamePDFWindows . " -forward-search " . filenametex . " " . linenumber
+let execstrWindows2="silent te pwsh -nop -c C:/Users/yasha/scoop/shims/sumatrapdf.EXE -reuse-instance " . b:filenamePDFWindows . " -forward-search " . filenametex . " " . linenumber
+let execstrWindows1="silent te pwsh -nop -c latexmk  -synctex=1 -file-line-error -f % " filenametex  " " . linenumber
 silent exec execstrViewer
-silent exec execstrWindowsTectonic
+silent exec execstrWindows
 silent execute "buffer" buf
 endfunction
 nnoremap <C-p> "0p
