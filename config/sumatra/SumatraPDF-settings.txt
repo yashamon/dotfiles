@@ -113,7 +113,7 @@ TreeFontSize = 0
 SmoothScroll = false
 ShowStartPage = true
 CheckForUpdates = false
-WindowState = 3
+WindowState = 2
 WindowPos = -13 0 1946 2069
 UseTabs = true
 UseSysColors = false
@@ -121,15 +121,175 @@ CustomScreenDPI = 0
 
 FileStates [
 	[
+		FilePath = C:\Users\yasha\workspacemodules\universalKan\build\universal.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 3
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = 82.6765 64.5366
+		PageNo = 10
+		Zoom = fit content
+		Rotation = 0
+		WindowState = 2
+		WindowPos = -13 0 1946 2069
+		ShowToc = false
+		SidebarDx = 364
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = C:\Users\yasha\workspacemodules\various\exams\examDiscreet\build\exam2021.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 1
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 506.063
+		PageNo = 4
+		Zoom = 100
+		Rotation = 0
+		WindowState = 2
+		WindowPos = -13 0 1946 2069
+		ShowToc = true
+		SidebarDx = 364
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = C:\Users\yasha\workspacemodules\novikov\build\kan.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 4
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = 124.719 95.5778
+		PageNo = 26
+		Zoom = fit content
+		Rotation = 0
+		WindowState = 2
+		WindowPos = -13 0 1946 2069
+		ShowToc = false
+		SidebarDx = 364
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = G:\My Drive\books\hott-online-1355-g95ed534.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = 66.8083 73.673
+		PageNo = 16
+		Zoom = fit content
+		Rotation = 0
+		WindowState = 3
+		WindowPos = -13 0 1946 2069
+		ShowToc = false
+		SidebarDx = 364
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = C:\Users\yasha\workspacemodules\conformalsymplectic\build\conformalsymplectic.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = 79.7941 118.114
+		PageNo = 1
+		Zoom = fit content
+		Rotation = 0
+		WindowState = 3
+		WindowPos = -13 0 1946 2069
+		ShowToc = false
+		SidebarDx = 364
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = C:\Users\yasha\workspacemodules\thematrix\build\stableincompleteness.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = 82.9419 64.3295
+		PageNo = 10
+		Zoom = fit content
+		Rotation = 0
+		WindowState = 3
+		WindowPos = -13 0 1946 2069
+		ShowToc = false
+		SidebarDx = 364
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = C:\Users\yasha\workspacemodules\deformGromov\build\gromov.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = 79.816 118.146
+		PageNo = 1
+		Zoom = fit content
+		Rotation = 0
+		WindowState = 3
+		WindowPos = -13 0 1946 2069
+		ShowToc = false
+		SidebarDx = 364
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = G:\My Drive\downloads\PolyfoldGromov.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = 124.728 95.5849
+		PageNo = 22
+		Zoom = fit content
+		Rotation = 0
+		WindowState = 3
+		WindowPos = -13 0 1946 2069
+		ShowToc = false
+		SidebarDx = 364
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
 		FilePath = C:\Users\yasha\workspacemodules\fukaya\build\fukayaII.pdf
 		Favorites [
 		]
 		IsPinned = false
 		IsMissing = false
-		OpenCount = 9
+		OpenCount = 0
 		UseDefaultState = false
 		DisplayMode = continuous
-		ScrollPos = 124.805 95.5749
+		ScrollPos = 124.807 95.5765
 		PageNo = 5
 		Zoom = fit content
 		Rotation = 0
@@ -146,7 +306,7 @@ FileStates [
 		]
 		IsPinned = false
 		IsMissing = false
-		OpenCount = 2
+		OpenCount = 0
 		UseDefaultState = false
 		DisplayMode = continuous
 		ScrollPos = -1 -1
@@ -161,96 +321,16 @@ FileStates [
 		ReparseIdx = 0
 	]
 	[
-		FilePath = C:\Users\yasha\workspacemodules\novikov\build\kan.pdf
-		Favorites [
-		]
-		IsPinned = false
-		IsMissing = false
-		OpenCount = 5
-		UseDefaultState = false
-		DisplayMode = continuous
-		ScrollPos = 124.691 95.6
-		PageNo = 6
-		Zoom = fit content
-		Rotation = 0
-		WindowState = 3
-		WindowPos = -13 0 1946 2069
-		ShowToc = false
-		SidebarDx = 364
-		DisplayR2L = false
-		ReparseIdx = 0
-	]
-	[
-		FilePath = C:\Users\yasha\workspacemodules\universalKan\build\universal.pdf
-		Favorites [
-		]
-		IsPinned = false
-		IsMissing = false
-		OpenCount = 5
-		UseDefaultState = false
-		DisplayMode = continuous
-		ScrollPos = 82.6213 64.4423
-		PageNo = 3
-		Zoom = fit content
-		Rotation = 0
-		WindowState = 3
-		WindowPos = -13 0 1946 2069
-		ShowToc = false
-		SidebarDx = 364
-		DisplayR2L = false
-		ReparseIdx = 0
-	]
-	[
-		FilePath = C:\Users\yasha\workspacemodules\conformalsymplectic\build\conformalsymplectic.pdf
-		Favorites [
-		]
-		IsPinned = false
-		IsMissing = false
-		OpenCount = 5
-		UseDefaultState = false
-		DisplayMode = continuous
-		ScrollPos = 79.7949 118.115
-		PageNo = 1
-		Zoom = fit content
-		Rotation = 0
-		WindowState = 3
-		WindowPos = -13 0 1946 2069
-		ShowToc = false
-		SidebarDx = 364
-		DisplayR2L = false
-		ReparseIdx = 0
-	]
-	[
 		FilePath = C:\Users\yasha\workspacemodules\conformalsymplectic\build\nonsqueezing.pdf
 		Favorites [
 		]
 		IsPinned = false
 		IsMissing = false
-		OpenCount = 8
+		OpenCount = 0
 		UseDefaultState = false
 		DisplayMode = continuous
-		ScrollPos = 82.954 64.4678
-		PageNo = 2
-		Zoom = fit content
-		Rotation = 0
-		WindowState = 3
-		WindowPos = -13 0 1946 2069
-		ShowToc = false
-		SidebarDx = 364
-		DisplayR2L = false
-		ReparseIdx = 0
-	]
-	[
-		FilePath = C:\Users\yasha\workspacemodules\thematrix\build\stableincompleteness.pdf
-		Favorites [
-		]
-		IsPinned = false
-		IsMissing = false
-		OpenCount = 4
-		UseDefaultState = false
-		DisplayMode = continuous
-		ScrollPos = 83.0454 64.4618
-		PageNo = 8
+		ScrollPos = 79.9088 118.284
+		PageNo = 1
 		Zoom = fit content
 		Rotation = 0
 		WindowState = 3
@@ -266,7 +346,7 @@ FileStates [
 		]
 		IsPinned = false
 		IsMissing = false
-		OpenCount = 1
+		OpenCount = 0
 		UseDefaultState = false
 		DisplayMode = continuous
 		ScrollPos = -1 -1
@@ -286,7 +366,7 @@ FileStates [
 		]
 		IsPinned = false
 		IsMissing = false
-		OpenCount = 3
+		OpenCount = 0
 		UseDefaultState = false
 		DisplayMode = continuous
 		ScrollPos = 124.897 95.4353
@@ -306,7 +386,7 @@ FileStates [
 		]
 		IsPinned = false
 		IsMissing = false
-		OpenCount = 1
+		OpenCount = 0
 		UseDefaultState = false
 		DisplayMode = continuous
 		ScrollPos = -1 -1
@@ -326,7 +406,7 @@ FileStates [
 		]
 		IsPinned = false
 		IsMissing = false
-		OpenCount = 1
+		OpenCount = 0
 		UseDefaultState = false
 		DisplayMode = continuous
 		ScrollPos = -1 503.063
@@ -346,7 +426,7 @@ FileStates [
 		]
 		IsPinned = false
 		IsMissing = false
-		OpenCount = 1
+		OpenCount = 0
 		UseDefaultState = false
 		DisplayMode = continuous
 		ScrollPos = -1 -1
@@ -366,7 +446,7 @@ FileStates [
 		]
 		IsPinned = false
 		IsMissing = false
-		OpenCount = 1
+		OpenCount = 0
 		UseDefaultState = false
 		DisplayMode = continuous
 		ScrollPos = 124.968 95.5393
@@ -466,7 +546,7 @@ FileStates [
 		]
 		IsPinned = false
 		IsMissing = false
-		OpenCount = 3
+		OpenCount = 0
 		UseDefaultState = false
 		DisplayMode = continuous
 		ScrollPos = 132.387 157.074
@@ -486,7 +566,7 @@ FileStates [
 		]
 		IsPinned = false
 		IsMissing = false
-		OpenCount = 2
+		OpenCount = 0
 		UseDefaultState = false
 		DisplayMode = continuous
 		ScrollPos = 5.86964 14.5076
@@ -1922,80 +2002,9 @@ FileStates [
 	]
 ]
 SessionData [
-	[
-		TabStates [
-			[
-				FilePath = C:\Users\yasha\workspacemodules\thematrix\build\stableincompleteness.pdf
-				DisplayMode = continuous
-				PageNo = 8
-				Zoom = fit content
-				Rotation = 0
-				ScrollPos = 83.0454 64.4618
-				ShowToc = false
-			]
-			[
-				FilePath = C:\Users\yasha\workspacemodules\conformalsymplectic\build\nonsqueezing.pdf
-				DisplayMode = continuous
-				PageNo = 2
-				Zoom = fit content
-				Rotation = 0
-				ScrollPos = 82.954 64.4678
-				ShowToc = false
-			]
-			[
-				FilePath = C:\Users\yasha\workspacemodules\conformalsymplectic\build\conformalsymplectic.pdf
-				DisplayMode = continuous
-				PageNo = 1
-				Zoom = fit content
-				Rotation = 0
-				ScrollPos = 79.7949 118.115
-				ShowToc = false
-			]
-			[
-				FilePath = C:\Users\yasha\workspacemodules\universalKan\build\universal.pdf
-				DisplayMode = continuous
-				PageNo = 3
-				Zoom = fit content
-				Rotation = 0
-				ScrollPos = 82.6213 64.4423
-				ShowToc = false
-			]
-			[
-				FilePath = C:\Users\yasha\workspacemodules\novikov\build\kan.pdf
-				DisplayMode = continuous
-				PageNo = 6
-				Zoom = fit content
-				Rotation = 0
-				ScrollPos = 124.691 95.6
-				ShowToc = false
-			]
-			[
-				FilePath = C:\Users\yasha\workspacemodules\various\vita\build\coverletter2022Postech.pdf
-				DisplayMode = continuous
-				PageNo = 1
-				Zoom = 100
-				Rotation = 0
-				ScrollPos = -1 -1
-				ShowToc = false
-			]
-			[
-				FilePath = C:\Users\yasha\workspacemodules\fukaya\build\fukayaII.pdf
-				DisplayMode = continuous
-				PageNo = 5
-				Zoom = fit content
-				Rotation = 0
-				ScrollPos = 124.805 95.5749
-				ShowToc = false
-			]
-		]
-		TabIndex = 7
-		WindowState = 3
-		WindowPos = -13 0 1946 2069
-		SidebarDx = 364
-	]
 ]
 TimeOfLastUpdateCheck = 0 0
-OpenCountWeek = 632
+OpenCountWeek = 637
 
 # Settings below are not recognized by the current version
 "C = \Users\yasha\dotfiles\scripts\remote2.nu" %l $

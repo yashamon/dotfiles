@@ -297,7 +297,7 @@ require("gruvbox").setup({
 undercurl = true,
   underline = true,
   bold = true,
-  italic = true,
+  -- italic = true,
   strikethrough = false,
   invert_selection = false,
   invert_signs = false,
