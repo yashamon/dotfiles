@@ -139,8 +139,9 @@ map O $mimeopen --ask $Env:f
 #         text/*) nvim $fx;;
 #         *) for f in $fx; do setsid $OPENER $f > /dev/null 2> /dev/null & done;;
 #     esac
-# }}
-map e %pwsh -nop -c remotelf.ps1 $Env:f.Trim('"') 
+#     
+# note that -nop requires full path name
+map e %pwsh -nop -c C:\Users\yasha\dotfiles\scripts\remotelf.ps1 $Env:f.Trim('"') 
 map n %neovide $Env:f.Trim('"') 
 map gn %neovide $Env:f.Trim('"') 
 # define a custom 'rename' command without prompt for overwrite 
