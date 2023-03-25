@@ -173,9 +173,9 @@ noremap x "0x
 vnoremap x "+x
 vnoremap d "0d
 vnoremap c "0c
-vnoremap y my"+y`y
+vnoremap y "+y
 vnoremap <C-y> y
-nnoremap y my"+y`y
+nnoremap y "+y
 nnoremap p "+p
 nnoremap <C-p> "0p
 
