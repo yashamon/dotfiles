@@ -329,7 +329,7 @@
  "proposition": {
     "prefix": "prop",
     "body": [
-      "\\begin{proposition}, \\label{prop:$1}",   
+      "\\begin{proposition} \\label{prop:$1}",   
             "$2",
       "\\end{proposition}",
       "$0"
