@@ -30,12 +30,12 @@ au('BufWritePost', { callback = GitAsync })
 -- au({'Filetype', 'BufReadPost'}, { pattern = 'text,lua,vim,nu,py', callback = LoadLine } )
 au('UIEnter', { pattern = 'tex,lua,vim', command = 'silent! w' })
 au('Filetype', { pattern = 'tex', command = 'vmap q xi<CR><CR><CR><CR><ESC>kki/begin{comment}<cr><cr>/end{comment}<esc>kp'})
-local yankGrp = ag("YankHighlight", { clear = true })
-au("TextYankPost", {
-  command = "silent! lua vim.highlight.on_yank()",
-  group = yankGrp,
-})
-au('TextYankPost',  {command =  'call neoyank#_append()'} )
+-- local yankGrp = ag("YankHighlight", { clear = true })
+-- au("TextYankPost", {
+--   command = "silent! lua vim.highlight.on_yank()",
+--   group = yankGrp,
+-- })
+-- au('TextYankPost',  {command =  'silent! call neoyank#_append()'} )
 
 au('TermClose', {command = "if v:event.status ==1 || v:event.status ==0  | exe 'bdelete! '..expand('<abuf>') | endif"})
 

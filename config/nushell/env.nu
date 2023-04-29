@@ -9,7 +9,7 @@ def create_left_prompt [] {
 def create_right_prompt [] {
     let time_segment = ([
         (date now | date format '%m/%d/%Y %r')
-    ] | str collect)
+    ] | str join)
 
     $time_segment
 }
@@ -29,16 +29,16 @@ let-env PROMPT_MULTILINE_INDICATOR = { "::: " }
 # - converted from a string to a value on Nushell startup (from_string)
 # - converted from a value back to a string when running external commands (to_string)
 # Note: The conversions happen *after* config.nu is loaded
-let-env ENV_CONVERSIONS = {
-  "PATH": {
-    from_string: { |s| $s | split row (char esep) }
-    to_string: { |v| $v | str collect (char esep) }
-  }
-  "Path": {
-    from_string: { |s| $s | split row (char esep) }
-    to_string: { |v| $v | str collect (char esep) }
-  }
-}
+# let-env ENV_CONVERSIONS = {
+#   "PATH": {
+#     from_string: { |s| $s | split row (char esep) }
+#     to_string: { |v| $v | str collect (char esep) }
+#   }
+#   "Path": {
+#     from_string: { |s| $s | split row (char esep) }
+#     to_string: { |v| $v | str collect (char esep) }
+#   }
+# }
 
 # Directories to search for scripts when calling source or use
 #

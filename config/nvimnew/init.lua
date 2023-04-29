@@ -16,7 +16,7 @@ require("lazy").setup({
 { 'sindrets/diffview.nvim', dependencies = 'nvim-lua/plenary.nvim' },
 {
 	"arsham/yanker.nvim",
-  dependencies = { "arsham/arshlib.nvim", "junegunn/fzf.vim" },
+  dependencies = { "arsham/arshlib.nvim", "junegunn/fzf.vim", "MunifTanjim/nui.nvim" },
   config = true, lazy = true
 },
 {'kevinhwang91/nvim-ufo', dependencies = 'kevinhwang91/promise-async', lazy = true},

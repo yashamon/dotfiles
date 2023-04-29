@@ -1,10 +1,10 @@
-# Nushell Config File
-let-env Path = ["C:/Users/yasha/scoop/shims" "C:/Users/yasha/dotfiles/scripts" "C:/Users/yasha/scoop/apps" "C:/Users/yasha/scoop/apps/python39/current" "C:/Users/yasha/scoop/apps/nodejs/current/bin" "C:/Users/yasha/scoop/apps/nodejs/current" "C:/Users/yasha/scoop/apps/latex/current/texmfs/install/miktex/bin/x64" "C:/Program Files/PowerShell/7" "C:/windows/system32" "C:/windows" "C:/windows/System32/Wbem" "C:/windows/System32/WindowsPowerShell/v1.0" "C:/windows/System32/OpenSSH" "C:/Program Files/dotnet" "C:/Program Files/PowerShell/7" "C:/Users/yasha/AppData/Local/Microsoft/WindowsApps" "C:/Users/yasha/scoop/apps/perl/current/perl/bin" "C:/Users/yasha/scoop/apps/gcc/current/bin" "C:/Users/yasha/scoop/apps/llvm/14.0.4/bin"]
+# Nushell Config Filelet-env Path = ["C:/Users/yasha/scoop/shims" "C:/Users/yasha/dotfiles/scripts" "C:/Users/yasha/scoop/apps" "C:/Users/yasha/scoop/apps/python39/current" "C:/Users/yasha/scoop/apps/nodejs/current/bin" "C:/Users/yasha/scoop/apps/nodejs/current" "C:/Users/yasha/scoop/apps/latex/current/texmfs/install/miktex/bin/x64" "C:/Program Files/PowerShell/7" "C:/windows/system32" "C:/windows" "C:/windows/System32/Wbem" "C:/windows/System32/WindowsPowerShell/v1.0" "C:/windows/System32/OpenSSH" "C:/Program Files/dotnet" "C:/Program Files/PowerShell/7" "C:/Users/yasha/AppData/Local/Microsoft/WindowsApps" "C:/Users/yasha/scoop/apps/perl/current/perl/bin" "C:/Users/yasha/scoop/apps/gcc/current/bin" "C:/Users/yasha/scoop/apps/llvm/14.0.4/bin"]
 
 # ($env.Path | append ["C:\\Users\\yasha\\dotfiles\\scripts" "C:\\Users\\yasha\\scoop\\apps" "C:\\Users\\yasha\\scoop\\shims"])
 
 def neo [file = ""] {
 neovide --multigrid --novsync $file
+# nvy --maximize $file
 }
 let-env HOME = "C:/Users/yasha"
 let HOME = "C:/Users/yasha"
@@ -14,13 +14,13 @@ rm $"($HOME)/AppData/Local/nvim-data/swap/*"
 # let profile = $"($HOME)/dotfiles/config/nvim/init.vim"
 def nf [] {
 let $ho = (fd . $HOME -H -E /.undo/* -E /undo/* -E /tmp/* -E *.pdf | fzf | str trim)
-neovide --multigrid $ho 
+# neovide --multigrid $ho 
+neo $ho
 }
 def r [name: string] { rm --recursive --trash $name }
 def killn [name: string] { ps | where name =~ $name | each {|it| kill --force $it.pid} }
 
-alias hello = ( echo "hello" )
-alias j = z
+# alias hello = ( echo "hello" )
 # def-env j [file: string] {
 # if ($file | str trim | path type) == dir {
 # zoxide add $file}
@@ -31,7 +31,7 @@ def lfrc [] { neo $"($HOME)/dotfiles/config/lf/lfrc" }
 def nurc [] { neo $"($HOME)/dotfiles/config/nushell/config.nu"}
 def texi [file:string] { pdflatex -file-line-error -synctex=1  -interaction=nonstopmode -recorder $file }
 def latexi [file:string] { latexmk -g -pdf -file-line-error -synctex=1  -interaction=nonstopmode -recorder -f $file}
-def pdf [file:string] { C:/Users/yasha/scoop/shims/sumatrapdf.exe $file} 
+def pdf [file:string] { nu -c C:/Users/yasha/scoop/shims/sumatrapdf.exe $file} 
 def ink [file = ""] { inkscape $file} 
 def pvc [file:string] { latexmk -pdf -pvc -file-line-error -synctex=1  -interaction=nonstopmode -recorder -f $file} 
 def lat [file:string] { latexmk -pvc -pdf -file-line-error -synctex=1 -interaction=nonstopmode -recorder -f -g $file}
@@ -49,7 +49,7 @@ def init [dir:string] {mkdir $dir ; cd $dir ; git init ; git remote add origin $
 def hw [] { pandoc $"($HOME)/web/classes/discreet/2023.md" -o $"($HOME)/web/classes/discreet/2023.html" ; cd $"($HOME)/web"; git add . ; git commit -m -a ; git push origin gh-pages 
 } 
 
-alias config = ( cd $"($HOME)/dotfiles"; push; cd $"($HOME)/workspacemodules"; pushmod; cd $"($HOME)/workspace"; push; cd web pushgh; pacman -Qqe > $"($HOME)/dotfiles/pkglist.txt" )
+# alias config = ( cd $"($HOME)/dotfiles"; push; cd $"($HOME)/workspacemodules"; pushmod; cd $"($HOME)/workspace"; push; cd web pushgh; pacman -Qqe > $"($HOME)/dotfiles/pkglist.txt" )
 
 def sendFunction [file:string] {
 let cwdb = $env.PWD
@@ -64,7 +64,7 @@ git push origin gh-pages
 cd $cwdb
 }
 alias send = sendFunction
-def-env lf [...opt] { source C:/Users/yasha/dotfiles/scripts/lfcd.nu
+def-env lf [...opt] { source "C:/Users/yasha/dotfiles/scripts/lfcd.nu"
 main $opt
 let dir = ((open "C:\\Users\\yasha\\AppData\\Local\\Temp\\tmp9E2XX.tmp") | str trim)
 $dir | clip
@@ -792,4 +792,5 @@ let-env config = {
 }
 source ~/.cache/starship/init.nu
 source ~/.zoxide.nu
+alias j = z 
 
