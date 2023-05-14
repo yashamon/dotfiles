@@ -4,5 +4,6 @@ $dvi_mode = 0;
 $view= 'none';
 $postscript_mode = 0;
 $out_dir = 'build';
+$hash_calc_ignore_pattern{'pdf'}='^';
 
 
