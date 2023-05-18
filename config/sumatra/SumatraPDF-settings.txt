@@ -121,15 +121,55 @@ CustomScreenDPI = 0
 
 FileStates [
 	[
+		FilePath = C:\Users\yasha\workspacemodules\various\exams\examDiscreet\build\exams2023.parcial2.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 2
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 -1
+		PageNo = 1
+		Zoom = 100
+		Rotation = 0
+		WindowState = 3
+		WindowPos = -13 0 1920 2069
+		ShowToc = true
+		SidebarDx = 364
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = C:\Users\yasha\workspacemodules\deformGromov\build\gromov.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 3
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = 79.8168 118.148
+		PageNo = 1
+		Zoom = fit content
+		Rotation = 0
+		WindowState = 3
+		WindowPos = -13 0 1920 2069
+		ShowToc = false
+		SidebarDx = 364
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
 		FilePath = C:\Users\yasha\workspacemodules\conformalsymplectic\build\conformalsymplectic.pdf
 		Favorites [
 		]
 		IsPinned = false
 		IsMissing = false
-		OpenCount = 6
+		OpenCount = 3
 		UseDefaultState = false
 		DisplayMode = continuous
-		ScrollPos = 79.7941 118.114
+		ScrollPos = 79.8745 118.233
 		PageNo = 1
 		Zoom = fit content
 		Rotation = 0
@@ -146,7 +186,7 @@ FileStates [
 		]
 		IsPinned = false
 		IsMissing = false
-		OpenCount = 3
+		OpenCount = 5
 		UseDefaultState = false
 		DisplayMode = continuous
 		ScrollPos = -1 447.563
@@ -154,6 +194,26 @@ FileStates [
 		Zoom = 100
 		Rotation = 0
 		WindowState = 3
+		WindowPos = -13 0 1920 2069
+		ShowToc = false
+		SidebarDx = 364
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = C:\Users\yasha\workspacemodules\various\exams\examDiscreet\build\exam2023Parcial1.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 1
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 -1
+		PageNo = 1
+		Zoom = 100
+		Rotation = 0
+		WindowState = 2
 		WindowPos = -13 0 1920 2069
 		ShowToc = false
 		SidebarDx = 364
@@ -206,7 +266,7 @@ FileStates [
 		]
 		IsPinned = false
 		IsMissing = false
-		OpenCount = 2
+		OpenCount = 1
 		UseDefaultState = false
 		DisplayMode = continuous
 		ScrollPos = -1 506.063
@@ -275,26 +335,6 @@ FileStates [
 		Rotation = 0
 		WindowState = 3
 		WindowPos = -13 0 1946 2069
-		ShowToc = false
-		SidebarDx = 364
-		DisplayR2L = false
-		ReparseIdx = 0
-	]
-	[
-		FilePath = C:\Users\yasha\workspacemodules\deformGromov\build\gromov.pdf
-		Favorites [
-		]
-		IsPinned = false
-		IsMissing = false
-		OpenCount = 0
-		UseDefaultState = false
-		DisplayMode = continuous
-		ScrollPos = 79.816 118.146
-		PageNo = 1
-		Zoom = fit content
-		Rotation = 0
-		WindowState = 3
-		WindowPos = -13 0 1920 2069
 		ShowToc = false
 		SidebarDx = 364
 		DisplayR2L = false
@@ -372,26 +412,6 @@ FileStates [
 		ScrollPos = 124.797 95.5225
 		PageNo = 32
 		Zoom = fit content
-		Rotation = 0
-		WindowState = 2
-		WindowPos = -13 0 1920 2069
-		ShowToc = false
-		SidebarDx = 364
-		DisplayR2L = false
-		ReparseIdx = 0
-	]
-	[
-		FilePath = C:\Users\yasha\workspacemodules\various\exams\examDiscreet\build\exam2023Parcial1.pdf
-		Favorites [
-		]
-		IsPinned = false
-		IsMissing = false
-		OpenCount = 0
-		UseDefaultState = false
-		DisplayMode = continuous
-		ScrollPos = -1 -1
-		PageNo = 1
-		Zoom = 100
 		Rotation = 0
 		WindowState = 2
 		WindowPos = -13 0 1920 2069
@@ -2122,35 +2142,9 @@ FileStates [
 	]
 ]
 SessionData [
-	[
-		TabStates [
-			[
-				FilePath = C:\Users\yasha\workspacemodules\various\vita\build\CV2022Savelyev.pdf
-				DisplayMode = continuous
-				PageNo = 2
-				Zoom = 100
-				Rotation = 0
-				ScrollPos = -1 447.563
-				ShowToc = false
-			]
-			[
-				FilePath = C:\Users\yasha\workspacemodules\conformalsymplectic\build\conformalsymplectic.pdf
-				DisplayMode = continuous
-				PageNo = 1
-				Zoom = fit content
-				Rotation = 0
-				ScrollPos = 79.7941 118.114
-				ShowToc = false
-			]
-		]
-		TabIndex = 2
-		WindowState = 3
-		WindowPos = -13 0 1920 2069
-		SidebarDx = 364
-	]
 ]
 TimeOfLastUpdateCheck = 0 0
-OpenCountWeek = 644
+OpenCountWeek = 645
 
 # Settings below are not recognized by the current version
 "C = \Users\yasha\dotfiles\scripts\remote2.nu" %l $
