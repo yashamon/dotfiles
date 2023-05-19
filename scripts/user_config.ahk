@@ -115,21 +115,15 @@ return
 WinClose A 
 return
 
-#J::
+#D::
 switchDesktopByNumber(4)
 Send !{Esc}
 ;sleep 100
 ;Send !{Esc}
 return
 
-#M::
+#F::
 switchDesktopByNumber(5)
-Send !{Esc}
-;sleep 100
-;Send !{Esc}
-return
-#D::
-switchDesktopByNumber(6)
 Send !{Esc}
 ;sleep 100
 ;Send !{Esc}
