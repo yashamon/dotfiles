@@ -113,7 +113,7 @@ TreeFontSize = 0
 SmoothScroll = false
 ShowStartPage = true
 CheckForUpdates = false
-WindowState = 3
+WindowState = 2
 WindowPos = -13 0 1920 2069
 UseTabs = true
 UseSysColors = false
@@ -121,7 +121,247 @@ CustomScreenDPI = 0
 
 FileStates [
 	[
-		FilePath = C:\Users\yasha\workspacemodules\various\exams\examDiscreet\build\exams2023.parcial2.pdf
+		FilePath = C:\Users\yasha\workspacemodules\conformalsymplectic\build\conformalsymplectic.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 5
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = 83.0662 64.3734
+		PageNo = 5
+		Zoom = fit content
+		Rotation = 0
+		WindowState = 2
+		WindowPos = -13 0 1920 2069
+		ShowToc = false
+		SidebarDx = 364
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = C:\Users\yasha\workspacemodules\various\oh-savelyev\build\Oh-SavelyevJuly2023.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 1
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = 124.749 94.663
+		PageNo = 14
+		Zoom = fit content
+		Rotation = 0
+		WindowState = 2
+		WindowPos = -13 0 1920 2069
+		ShowToc = false
+		SidebarDx = 364
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = C:\Users\yasha\workspacemodules\various\oh-savelyev\build\lcs-AdG-revised-052023.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 1
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = 121.761 232.401
+		PageNo = 1
+		Zoom = fit content
+		Rotation = 0
+		WindowState = 2
+		WindowPos = -13 0 1920 2069
+		ShowToc = false
+		SidebarDx = 364
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = G:\My Drive\2023classes\Mariana Landín\examen_parcial2Graded.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 1
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 -1
+		PageNo = 1
+		Zoom = 100
+		Rotation = 0
+		WindowState = 3
+		WindowPos = -13 0 1920 2069
+		ShowToc = true
+		SidebarDx = 364
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = G:\My Drive\2023classes\América Atayde\exams2023.parcial2Graded.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 1
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 -1
+		PageNo = 1
+		Zoom = 100
+		Rotation = 0
+		WindowState = 3
+		WindowPos = -13 0 1920 2069
+		ShowToc = false
+		SidebarDx = 364
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = G:\My Drive\2023classes\Mariana Landín\examen_parcial2.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 1
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 -1
+		PageNo = 1
+		Zoom = 100
+		Rotation = 0
+		WindowState = 3
+		WindowPos = -13 0 1920 2069
+		ShowToc = true
+		SidebarDx = 364
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = G:\My Drive\2023classes\Ivan Santa Cruz\Examen 2 - Discretas.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 1
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 -1
+		PageNo = 1
+		Zoom = 100
+		Rotation = 0
+		WindowState = 3
+		WindowPos = -13 0 1920 2069
+		ShowToc = false
+		SidebarDx = 364
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = G:\My Drive\2023classes\Erik Tejeda\exam_2.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 1
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 -1
+		PageNo = 1
+		Zoom = 100
+		Rotation = 0
+		WindowState = 3
+		WindowPos = -13 0 1920 2069
+		ShowToc = false
+		SidebarDx = 364
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = G:\My Drive\2023classes\Mariana Landín\exam2023Parcial1_MarianaLandín.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 1
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 -1
+		PageNo = 1
+		Zoom = 100
+		Rotation = 0
+		WindowState = 3
+		WindowPos = -13 0 1920 2069
+		ShowToc = true
+		SidebarDx = 364
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = G:\My Drive\2023classes\Ivan Santa Cruz\Examen 1 - Discretas.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 1
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 149.438
+		PageNo = 1
+		Zoom = 100
+		Rotation = 0
+		WindowState = 3
+		WindowPos = -13 0 1920 2069
+		ShowToc = false
+		SidebarDx = 364
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = G:\My Drive\2023classes\América Atayde\Exam of discrete mathematicsGraded.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 3
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 467.063
+		PageNo = 1
+		Zoom = 100
+		Rotation = 0
+		WindowState = 3
+		WindowPos = -13 0 1920 2069
+		ShowToc = false
+		SidebarDx = 364
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = G:\My Drive\2023classes\América Atayde\Exam of discrete mathematics.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 1
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 -1
+		PageNo = 1
+		Zoom = 100
+		Rotation = 0
+		WindowState = 3
+		WindowPos = -13 0 1920 2069
+		ShowToc = false
+		SidebarDx = 364
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = C:\Users\yasha\Downloads\lcs-AdG-revision-051723.pdf
 		Favorites [
 		]
 		IsPinned = false
@@ -141,16 +381,16 @@ FileStates [
 		ReparseIdx = 0
 	]
 	[
-		FilePath = C:\Users\yasha\workspacemodules\deformGromov\build\gromov.pdf
+		FilePath = C:\Users\yasha\Downloads\J-holomorphic curves and symplectic topology  0821834851.pdf
 		Favorites [
 		]
 		IsPinned = false
 		IsMissing = false
-		OpenCount = 3
+		OpenCount = 2
 		UseDefaultState = false
 		DisplayMode = continuous
-		ScrollPos = 79.8168 118.148
-		PageNo = 1
+		ScrollPos = -1 18.0088
+		PageNo = 156
 		Zoom = fit content
 		Rotation = 0
 		WindowState = 3
@@ -161,15 +401,35 @@ FileStates [
 		ReparseIdx = 0
 	]
 	[
-		FilePath = C:\Users\yasha\workspacemodules\conformalsymplectic\build\conformalsymplectic.pdf
+		FilePath = C:\Users\yasha\workspacemodules\various\exams\examDiscreet\build\exams2023.parcial2.pdf
 		Favorites [
 		]
 		IsPinned = false
 		IsMissing = false
-		OpenCount = 3
+		OpenCount = 1
 		UseDefaultState = false
 		DisplayMode = continuous
-		ScrollPos = 79.8745 118.233
+		ScrollPos = -1 -1
+		PageNo = 1
+		Zoom = 100
+		Rotation = 0
+		WindowState = 3
+		WindowPos = -13 0 1920 2069
+		ShowToc = true
+		SidebarDx = 364
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = C:\Users\yasha\workspacemodules\deformGromov\build\gromov.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 1
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = 79.8168 118.148
 		PageNo = 1
 		Zoom = fit content
 		Rotation = 0
@@ -186,7 +446,7 @@ FileStates [
 		]
 		IsPinned = false
 		IsMissing = false
-		OpenCount = 5
+		OpenCount = 2
 		UseDefaultState = false
 		DisplayMode = continuous
 		ScrollPos = -1 447.563
@@ -206,7 +466,7 @@ FileStates [
 		]
 		IsPinned = false
 		IsMissing = false
-		OpenCount = 1
+		OpenCount = 0
 		UseDefaultState = false
 		DisplayMode = continuous
 		ScrollPos = -1 -1
@@ -266,7 +526,7 @@ FileStates [
 		]
 		IsPinned = false
 		IsMissing = false
-		OpenCount = 1
+		OpenCount = 0
 		UseDefaultState = false
 		DisplayMode = continuous
 		ScrollPos = -1 506.063
@@ -731,26 +991,6 @@ FileStates [
 		DisplayMode = continuous
 		ScrollPos = 132.387 157.074
 		PageNo = 3
-		Zoom = fit content
-		Rotation = 0
-		WindowState = 3
-		WindowPos = -13 0 1946 2069
-		ShowToc = false
-		SidebarDx = 364
-		DisplayR2L = false
-		ReparseIdx = 0
-	]
-	[
-		FilePath = ?:\My Drive\downloads\J-holomorphic curves and symplectic topology  0821834851.pdf
-		Favorites [
-		]
-		IsPinned = false
-		IsMissing = false
-		OpenCount = 0
-		UseDefaultState = false
-		DisplayMode = continuous
-		ScrollPos = 5.86964 14.5076
-		PageNo = 579
 		Zoom = fit content
 		Rotation = 0
 		WindowState = 3
@@ -2142,9 +2382,44 @@ FileStates [
 	]
 ]
 SessionData [
+	[
+		TabStates [
+			[
+				FilePath = C:\Users\yasha\workspacemodules\various\oh-savelyev\build\lcs-AdG-revised-052023.pdf
+				DisplayMode = continuous
+				PageNo = 1
+				Zoom = fit content
+				Rotation = 0
+				ScrollPos = 121.761 232.401
+				ShowToc = false
+			]
+			[
+				FilePath = C:\Users\yasha\workspacemodules\various\oh-savelyev\build\Oh-SavelyevJuly2023.pdf
+				DisplayMode = continuous
+				PageNo = 14
+				Zoom = fit content
+				Rotation = 0
+				ScrollPos = 124.749 94.663
+				ShowToc = false
+			]
+			[
+				FilePath = C:\Users\yasha\workspacemodules\conformalsymplectic\build\conformalsymplectic.pdf
+				DisplayMode = continuous
+				PageNo = 5
+				Zoom = fit content
+				Rotation = 0
+				ScrollPos = 83.0662 64.3734
+				ShowToc = false
+			]
+		]
+		TabIndex = 3
+		WindowState = 2
+		WindowPos = -13 0 1920 2069
+		SidebarDx = 364
+	]
 ]
 TimeOfLastUpdateCheck = 0 0
-OpenCountWeek = 645
+OpenCountWeek = 646
 
 # Settings below are not recognized by the current version
 "C = \Users\yasha\dotfiles\scripts\remote2.nu" %l $
