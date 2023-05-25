@@ -77,7 +77,7 @@ map('n', '<m-q>', function () vim.cmd('wq') end, {})
 map('n', '<m-Q>', function () vim.cmd('q') end, {})
 map('n', '<m-c>', function () vim.cmd('close') end, {})
 map('n', '<c-d>', function () vim.cmd('up | bdelete') end, {})
-map('n', '<m-D>', function () vim.cmd('up | bdelete!') end, {})
+map('n', '<c-D>', function () vim.cmd('up | bdelete!') end, {})
 map('n', '<leader>r', function () vim.cmd('up | e') end, {})
 
 
