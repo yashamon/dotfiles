@@ -188,28 +188,28 @@ noremap H g^
 noremap L g$
 
 noremap gf gq
-nmap f /
+nnoremap f /
 " vim-multiple-\cursors
 nnoremap <m-n> <c-n>
-nmap gv \\/
-vmap s \\/
+nnoremap gv \\/
+vnoremap s \\/
 noremap F ?
 noremap gfm /\$<CR>v?\$<CR>
 noremap gm /\$<CR>hv?\$<CR>l
 noremap gwb /}<CR>hv?{<CR>l
 noremap gsb /]<CR>hv?[<CR>l
 noremap gob /)<CR>hv?(<CR>l
-map j gj
-map k gk
+noremap j gj
+noremap k gk
 noremap <Space> .
 vnoremap <Space> t <cr>
-map K <C-u>
-map J <C-d>
-map <C-j> <C-e>jj
-map <C-k> <C-y>kk
+noremap K <C-u>
+noremap J <C-d>
+noremap <C-j> <C-e>jj
+noremap <C-k> <C-y>kk
 nnoremap <leader>j J
 nnoremap <leader>k K
-map ' "
+noremap ' "
 nnoremap <Backspace> i<Backspace><Esc>
 noremap <A-r> <C-r>
 nnoremap ` ~
