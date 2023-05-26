@@ -177,9 +177,9 @@ WinKill, A
     Run nu C:\Users\yasha\dotfiles\scripts\nf.nu
     Return
 #e::
-; Run microsoft-edge:https://this-page-intentionally-left-blank.org/ 
+Run microsoft-edge:https://this-page-intentionally-left-blank.org/
 ;Run "brave"
-Run "chrome"
+;Run "chrome"
 Return   
 #+j::
 ; Run microsoft-edge:https://this-page-intentionally-left-blank.org/ 
