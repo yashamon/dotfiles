@@ -105,7 +105,7 @@ map ('i', '\\', '/')
 map ('i', '/',  '\\')
 map ('i', '<m-d>', '<C-w>')
 map ('i', '<m-p>', '<c-r>+')
-map ('n', '<c-L>', 'viwy;e:<c-r>+<cr>')
+map ('n', '<c-L>', 'viwy<leader>e:<c-r>+<cr>')
 
 vim.keymap.set("c", "<cr>", function()
   if vim.fn.pumvisible() == 1 then return '<c-y>' end
