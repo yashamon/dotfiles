@@ -50,6 +50,10 @@ EnableTeXEnhancements = true
 DefaultDisplayMode = automatic
 DefaultZoom = 100
 Shortcuts [
+  [
+		Cmd = ShowFavorites
+		Key = . 
+	]
 	[
 		Cmd = CmdScrollUpPage
 		Key = K
@@ -113,7 +117,7 @@ TreeFontSize = 0
 SmoothScroll = false
 ShowStartPage = true
 CheckForUpdates = false
-WindowState = 2
+WindowState = 3
 WindowPos = -13 0 1920 2069
 UseTabs = true
 UseSysColors = false
@@ -121,19 +125,43 @@ CustomScreenDPI = 0
 
 FileStates [
 	[
-		FilePath = C:\Users\yasha\workspacemodules\conformalsymplectic\build\conformalsymplectic.pdf
+		FilePath = C:\Users\yasha\scoop\apps\sioyek\2.0.0\tutorial.pdf
 		Favorites [
 		]
 		IsPinned = false
 		IsMissing = false
-		OpenCount = 5
+		OpenCount = 1
 		UseDefaultState = false
 		DisplayMode = continuous
-		ScrollPos = 83.0662 64.3734
-		PageNo = 5
+		ScrollPos = -1 -1
+		PageNo = 1
+		Zoom = 100
+		Rotation = 0
+		WindowState = 3
+		WindowPos = -13 0 1920 2069
+		ShowToc = false
+		SidebarDx = 364
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = C:\Users\yasha\workspacemodules\conformalsymplectic\build\conformalsymplectic.pdf
+		Favorites [
+			[
+				Name = 1. Introduction
+				PageNo = 2
+			]
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 4
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = 82.3652 64.3734
+		PageNo = 2
 		Zoom = fit content
 		Rotation = 0
-		WindowState = 2
+		WindowState = 3
 		WindowPos = -13 0 1920 2069
 		ShowToc = false
 		SidebarDx = 364
@@ -146,14 +174,14 @@ FileStates [
 		]
 		IsPinned = false
 		IsMissing = false
-		OpenCount = 1
+		OpenCount = 2
 		UseDefaultState = false
 		DisplayMode = continuous
-		ScrollPos = 124.749 94.663
+		ScrollPos = 124.904 94.6695
 		PageNo = 14
 		Zoom = fit content
 		Rotation = 0
-		WindowState = 2
+		WindowState = 3
 		WindowPos = -13 0 1920 2069
 		ShowToc = false
 		SidebarDx = 364
@@ -166,14 +194,14 @@ FileStates [
 		]
 		IsPinned = false
 		IsMissing = false
-		OpenCount = 1
+		OpenCount = 2
 		UseDefaultState = false
 		DisplayMode = continuous
 		ScrollPos = 121.761 232.401
 		PageNo = 1
 		Zoom = fit content
 		Rotation = 0
-		WindowState = 2
+		WindowState = 3
 		WindowPos = -13 0 1920 2069
 		ShowToc = false
 		SidebarDx = 364
@@ -186,7 +214,7 @@ FileStates [
 		]
 		IsPinned = false
 		IsMissing = false
-		OpenCount = 1
+		OpenCount = 0
 		UseDefaultState = false
 		DisplayMode = continuous
 		ScrollPos = -1 -1
@@ -206,7 +234,7 @@ FileStates [
 		]
 		IsPinned = false
 		IsMissing = false
-		OpenCount = 1
+		OpenCount = 0
 		UseDefaultState = false
 		DisplayMode = continuous
 		ScrollPos = -1 -1
@@ -226,7 +254,7 @@ FileStates [
 		]
 		IsPinned = false
 		IsMissing = false
-		OpenCount = 1
+		OpenCount = 0
 		UseDefaultState = false
 		DisplayMode = continuous
 		ScrollPos = -1 -1
@@ -246,7 +274,7 @@ FileStates [
 		]
 		IsPinned = false
 		IsMissing = false
-		OpenCount = 1
+		OpenCount = 0
 		UseDefaultState = false
 		DisplayMode = continuous
 		ScrollPos = -1 -1
@@ -266,7 +294,7 @@ FileStates [
 		]
 		IsPinned = false
 		IsMissing = false
-		OpenCount = 1
+		OpenCount = 0
 		UseDefaultState = false
 		DisplayMode = continuous
 		ScrollPos = -1 -1
@@ -286,7 +314,7 @@ FileStates [
 		]
 		IsPinned = false
 		IsMissing = false
-		OpenCount = 1
+		OpenCount = 0
 		UseDefaultState = false
 		DisplayMode = continuous
 		ScrollPos = -1 -1
@@ -306,7 +334,7 @@ FileStates [
 		]
 		IsPinned = false
 		IsMissing = false
-		OpenCount = 1
+		OpenCount = 0
 		UseDefaultState = false
 		DisplayMode = continuous
 		ScrollPos = -1 149.438
@@ -326,7 +354,7 @@ FileStates [
 		]
 		IsPinned = false
 		IsMissing = false
-		OpenCount = 3
+		OpenCount = 1
 		UseDefaultState = false
 		DisplayMode = continuous
 		ScrollPos = -1 467.063
@@ -346,7 +374,7 @@ FileStates [
 		]
 		IsPinned = false
 		IsMissing = false
-		OpenCount = 1
+		OpenCount = 0
 		UseDefaultState = false
 		DisplayMode = continuous
 		ScrollPos = -1 -1
@@ -366,7 +394,7 @@ FileStates [
 		]
 		IsPinned = false
 		IsMissing = false
-		OpenCount = 2
+		OpenCount = 1
 		UseDefaultState = false
 		DisplayMode = continuous
 		ScrollPos = -1 -1
@@ -386,7 +414,7 @@ FileStates [
 		]
 		IsPinned = false
 		IsMissing = false
-		OpenCount = 2
+		OpenCount = 1
 		UseDefaultState = false
 		DisplayMode = continuous
 		ScrollPos = -1 18.0088
@@ -406,7 +434,7 @@ FileStates [
 		]
 		IsPinned = false
 		IsMissing = false
-		OpenCount = 1
+		OpenCount = 0
 		UseDefaultState = false
 		DisplayMode = continuous
 		ScrollPos = -1 -1
@@ -426,7 +454,7 @@ FileStates [
 		]
 		IsPinned = false
 		IsMissing = false
-		OpenCount = 1
+		OpenCount = 0
 		UseDefaultState = false
 		DisplayMode = continuous
 		ScrollPos = 79.8168 118.148
@@ -446,7 +474,7 @@ FileStates [
 		]
 		IsPinned = false
 		IsMissing = false
-		OpenCount = 2
+		OpenCount = 1
 		UseDefaultState = false
 		DisplayMode = continuous
 		ScrollPos = -1 447.563
@@ -2399,27 +2427,36 @@ SessionData [
 				PageNo = 14
 				Zoom = fit content
 				Rotation = 0
-				ScrollPos = 124.749 94.663
+				ScrollPos = 124.904 94.6695
 				ShowToc = false
 			]
 			[
 				FilePath = C:\Users\yasha\workspacemodules\conformalsymplectic\build\conformalsymplectic.pdf
 				DisplayMode = continuous
-				PageNo = 5
+				PageNo = 2
 				Zoom = fit content
 				Rotation = 0
-				ScrollPos = 83.0662 64.3734
+				ScrollPos = 82.3652 64.3734
+				ShowToc = false
+			]
+			[
+				FilePath = C:\Users\yasha\scoop\apps\sioyek\2.0.0\tutorial.pdf
+				DisplayMode = continuous
+				PageNo = 1
+				Zoom = 100
+				Rotation = 0
+				ScrollPos = -1 -1
 				ShowToc = false
 			]
 		]
 		TabIndex = 3
-		WindowState = 2
+		WindowState = 3
 		WindowPos = -13 0 1920 2069
 		SidebarDx = 364
 	]
 ]
 TimeOfLastUpdateCheck = 0 0
-OpenCountWeek = 646
+OpenCountWeek = 647
 
 # Settings below are not recognized by the current version
 "C = \Users\yasha\dotfiles\scripts\remote2.nu" %l $
