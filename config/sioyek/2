@@ -1,4 +1,4 @@
-# you can edit this file to change keybindings lines that start With '#' are comments
+# you can edit this file to change keybindings lines that start with '#' are comments
 # the syntax is pretty simple. Some examples:
 #command        k             (command is executed when k is pressed)
 #command        <C-k>         (command is executed when k is pressed while holding control)
