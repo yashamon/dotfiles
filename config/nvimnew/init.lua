@@ -288,6 +288,13 @@ let b:filenamePDFWindows="build\\" . filenameroot . ".pdf"
 " echo b:filenamePDFWindows
 let execstrLinux="silent te zathura --synctex-forward " . linenumber . ":" . colnumber . ":" . filenametexwhole . " " . filenamePDFLinux
 let execstrWindowsTectonic="silent te pwsh -nop -c tectonic " . filenametex . " --outdir build --synctex --keep-logs"
+let execstrViewerSio="silent te pwsh -nop -c C:/Users/yasha/scoop/apps/sioyek/sioyek.exe --reuse-instance --forward-search-file " . filenametex . " --forward-search-line " . linenumber . " " . b:filenamePDFWindows
+ "--reuse-instance",
+ "--forward-search-file",
+ "%TEX%",
+ "--forward-search-line",
+ "%LINE%",
+ "%PDF%" 
 let execstrViewer="silent te pwsh -nop -c C:/Users/yasha/scoop/shims/sumatrapdf.EXE -reuse-instance " . b:filenamePDFWindows . " -forward-search " . filenametex . " " . linenumber
 let execstrWindows2="silent te pwsh -nop -c C:/Users/yasha/scoop/shims/sumatrapdf.EXE -reuse-instance " . b:filenamePDFWindows . " -forward-search " . filenametex . " " . linenumber
 let execstrWindows1="silent te pwsh -nop -c latexmk  -synctex=1 -file-line-error -f -interaction=nonstopmode " . filenametex  
