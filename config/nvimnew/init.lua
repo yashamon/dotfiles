@@ -300,7 +300,7 @@ let execstrWindows2="silent te pwsh -nop -c C:/Users/yasha/scoop/shims/sumatrapd
 let execstrWindows1="silent te pwsh -nop -c latexmk  -synctex=1 -file-line-error -f -interaction=nonstopmode " . filenametex  
 silent te mkdir build
 silent exec execstrWindowsTectonic 
-silent exec execstrViewer
+silent exec execstrViewerSio
 silent execute "buffer" buf
 endfunction
 nnoremap <C-p> "0p
