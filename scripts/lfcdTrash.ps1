@@ -1,2 +1,2 @@
-foreach ($x in $args) { Remove-ItemSafely -Option AllScope $x }
+foreach ($x in $args) { Remove-ItemSafely $x }
 echo $args > 'C:/Users/yasha/args.txt'
