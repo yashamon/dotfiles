@@ -32,7 +32,7 @@ set hidden
 #     lf -remote "send echomsg "deletesucess""
 # }}
 
-cmd trash $pwsh.bat -c "/Users/yasha/dotfiles/scripts/lfcdTrash.ps1" $Env:fx
+cmd trash $nu "/Users/yasha/dotfiles/scripts/trash.nu" $Env:fx
 # cmd trash $nu trash.nu $Env:fx
  # cmd trash recycle-bin $Env:fx
 # set previewer stpv
@@ -84,7 +84,7 @@ map gf :findfileroot
 # map <a-f> fzffile   
 # map <a-r> fzffileroot  
 map x :cut
-map d :trash
+map zd :trash
 map gdd :delete
 
 cmd fzf_jump $nu "C:\\Users\\yasha\\dotfiles\\scripts\\lfsimplejump.nu"
