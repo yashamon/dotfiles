@@ -50,9 +50,9 @@ EnableTeXEnhancements = true
 DefaultDisplayMode = automatic
 DefaultZoom = 100
 Shortcuts [
-  [
+	[
 		Cmd = ShowFavorites
-		Key = . 
+		Key = .
 	]
 	[
 		Cmd = CmdScrollUpPage
@@ -117,33 +117,13 @@ TreeFontSize = 0
 SmoothScroll = false
 ShowStartPage = true
 CheckForUpdates = false
-WindowState = 3
+WindowState = 2
 WindowPos = -13 0 1920 2069
 UseTabs = true
 UseSysColors = false
 CustomScreenDPI = 0
 
 FileStates [
-	[
-		FilePath = C:\Users\yasha\scoop\apps\sioyek\2.0.0\tutorial.pdf
-		Favorites [
-		]
-		IsPinned = false
-		IsMissing = false
-		OpenCount = 1
-		UseDefaultState = false
-		DisplayMode = continuous
-		ScrollPos = -1 -1
-		PageNo = 1
-		Zoom = 100
-		Rotation = 0
-		WindowState = 3
-		WindowPos = -13 0 1920 2069
-		ShowToc = false
-		SidebarDx = 364
-		DisplayR2L = false
-		ReparseIdx = 0
-	]
 	[
 		FilePath = C:\Users\yasha\workspacemodules\conformalsymplectic\build\conformalsymplectic.pdf
 		Favorites [
@@ -154,14 +134,54 @@ FileStates [
 		]
 		IsPinned = false
 		IsMissing = false
+		OpenCount = 9
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = 0 0
+		PageNo = 34
+		Zoom = fit content
+		Rotation = 0
+		WindowState = 2
+		WindowPos = -13 0 1920 2069
+		ShowToc = false
+		SidebarDx = 364
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = C:\Users\yasha\workspacemodules\various\oh-savelyev\build\Oh-Savelyev26May.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 2
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 -1
+		PageNo = 1
+		Zoom = 100
+		Rotation = 0
+		WindowState = 3
+		WindowPos = -13 0 1920 2069
+		ShowToc = true
+		SidebarDx = 364
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = C:\Users\yasha\scoop\apps\sioyek\2.0.0\tutorial.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
 		OpenCount = 4
 		UseDefaultState = false
 		DisplayMode = continuous
-		ScrollPos = 82.3652 64.3734
-		PageNo = 2
-		Zoom = fit content
+		ScrollPos = 0 0
+		PageNo = 1
+		Zoom = 100
 		Rotation = 0
-		WindowState = 3
+		WindowState = 2
 		WindowPos = -13 0 1920 2069
 		ShowToc = false
 		SidebarDx = 364
@@ -174,14 +194,14 @@ FileStates [
 		]
 		IsPinned = false
 		IsMissing = false
-		OpenCount = 2
+		OpenCount = 5
 		UseDefaultState = false
 		DisplayMode = continuous
-		ScrollPos = 124.904 94.6695
+		ScrollPos = 0 0
 		PageNo = 14
 		Zoom = fit content
 		Rotation = 0
-		WindowState = 3
+		WindowState = 2
 		WindowPos = -13 0 1920 2069
 		ShowToc = false
 		SidebarDx = 364
@@ -194,14 +214,14 @@ FileStates [
 		]
 		IsPinned = false
 		IsMissing = false
-		OpenCount = 2
+		OpenCount = 5
 		UseDefaultState = false
 		DisplayMode = continuous
 		ScrollPos = 121.761 232.401
 		PageNo = 1
 		Zoom = fit content
 		Rotation = 0
-		WindowState = 3
+		WindowState = 2
 		WindowPos = -13 0 1920 2069
 		ShowToc = false
 		SidebarDx = 364
@@ -2410,50 +2430,6 @@ FileStates [
 	]
 ]
 SessionData [
-	[
-		TabStates [
-			[
-				FilePath = C:\Users\yasha\workspacemodules\various\oh-savelyev\build\lcs-AdG-revised-052023.pdf
-				DisplayMode = continuous
-				PageNo = 1
-				Zoom = fit content
-				Rotation = 0
-				ScrollPos = 121.761 232.401
-				ShowToc = false
-			]
-			[
-				FilePath = C:\Users\yasha\workspacemodules\various\oh-savelyev\build\Oh-SavelyevJuly2023.pdf
-				DisplayMode = continuous
-				PageNo = 14
-				Zoom = fit content
-				Rotation = 0
-				ScrollPos = 124.904 94.6695
-				ShowToc = false
-			]
-			[
-				FilePath = C:\Users\yasha\workspacemodules\conformalsymplectic\build\conformalsymplectic.pdf
-				DisplayMode = continuous
-				PageNo = 2
-				Zoom = fit content
-				Rotation = 0
-				ScrollPos = 82.3652 64.3734
-				ShowToc = false
-			]
-			[
-				FilePath = C:\Users\yasha\scoop\apps\sioyek\2.0.0\tutorial.pdf
-				DisplayMode = continuous
-				PageNo = 1
-				Zoom = 100
-				Rotation = 0
-				ScrollPos = -1 -1
-				ShowToc = false
-			]
-		]
-		TabIndex = 3
-		WindowState = 3
-		WindowPos = -13 0 1920 2069
-		SidebarDx = 364
-	]
 ]
 TimeOfLastUpdateCheck = 0 0
 OpenCountWeek = 647

@@ -254,7 +254,7 @@ cmd zle-init :{{
 # y (select for copy) and P to paste soft-link
 # d (select for cut) and P to paste hard-link
 cmd link %pwsh -nop -c C:\Users\yasha\dotfiles\scripts\lfLn.ps1 $Env:fx
-map P :link
+map gP :link
 
 
 cmd yank-dirname $dirname -- "$f" | head -c-1 | xclip -i -selection clipboard
