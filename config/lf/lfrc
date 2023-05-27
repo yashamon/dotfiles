@@ -32,8 +32,8 @@ set hidden
 #     lf -remote "send echomsg "deletesucess""
 # }}
 
-# cmd trash $nu "/Users/yasha/dotfiles/scripts/trash.nu" $Env:fx
-cmd trash $nu trash.nu $Env:fx
+cmd trash $pwsh -nop -c "/Users/yasha/dotfiles/scripts/lfcdTrash.ps1" $Env:fx
+# cmd trash $nu trash.nu $Env:fx
  # cmd trash recycle-bin $Env:fx
 # set previewer stpv
 # set cleaner stpvimgclr
