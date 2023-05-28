@@ -14,6 +14,13 @@ end
 vim.opt.rtp = {lazypath}
 require("lazy").setup({
 { 'sindrets/diffview.nvim', dependencies = 'nvim-lua/plenary.nvim' },
+-- {
+--     "yuki-yano/highlight-undo.nvim",
+--     config = function()
+--         require('highlight-undo').setup({})
+--     end,
+--     dependencies = { "vim-denops/denops.vim" },
+-- },
 {
 	"arsham/yanker.nvim",
   dependencies = { "arsham/arshlib.nvim", "junegunn/fzf.vim", "MunifTanjim/nui.nvim" },
@@ -294,8 +301,7 @@ let execstrWindows2="silent te pwsh -nop -c C:/Users/yasha/scoop/shims/sumatrapd
 let execstrWindows1="silent te pwsh -nop -c latexmk  -synctex=1 -file-line-error -f -interaction=nonstopmode " . filenametex  
 silent te mkdir build
 silent exec execstrWindowsTectonic 
-echo execstrViewerSio
-silent exec execstrViewerSio
+silent exec execstrViewer
 silent execute "buffer" buf
 endfunction
 nnoremap <C-p> "0p
@@ -486,3 +492,4 @@ nnoremap <C-p> "0p
  -- imap <silent><expr> <C-E> luasnip#choice_active() ? '<Plug>luasnip-next-choice' : '<C-E>'
  --
  -- smap <silent><expr> <C-E> luasnip#choice_active() ? '<Plug>luasnip-next-choice' : '<C-E>'
+ -- 
