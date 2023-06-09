@@ -72,7 +72,7 @@ Shortcuts [
 	]
 	[
 		Cmd = CmdFindPrev
-		Key = N 
+		Key = N
 	]
 	[
 		Cmd = CmdFindNext
@@ -80,7 +80,7 @@ Shortcuts [
 	]
 	[
 		Cmd = CmdFindFirst
-		Key = \
+		Key = f
 	]
 	[
 		Cmd = CmdGoToPage
@@ -125,16 +125,16 @@ CustomScreenDPI = 0
 
 FileStates [
 	[
-		FilePath = C:\Users\yasha\Downloads\J-holomorphic curves and symplectic topology  0821834851.pdf
+		FilePath = G:\My Drive\2023classes\exam2.pdf
 		Favorites [
 		]
 		IsPinned = false
 		IsMissing = false
-		OpenCount = 1
+		OpenCount = 3
 		UseDefaultState = false
 		DisplayMode = continuous
-		ScrollPos = -1 18.0088
-		PageNo = 156
+		ScrollPos = -1 -1
+		PageNo = 4
 		Zoom = fit content
 		Rotation = 0
 		WindowState = 3
@@ -145,19 +145,19 @@ FileStates [
 		ReparseIdx = 0
 	]
 	[
-		FilePath = C:\Users\yasha\workspacemodules\various\exams\complexCalculus\build\exam2.pdf
+		FilePath = C:\Users\yasha\Downloads\J-holomorphic curves and symplectic topology  0821834851.pdf
 		Favorites [
 		]
 		IsPinned = false
 		IsMissing = false
-		OpenCount = 2
+		OpenCount = 1
 		UseDefaultState = false
 		DisplayMode = continuous
-		ScrollPos = 125.107 95.4636
-		PageNo = 6
+		ScrollPos = 24.7958 14.5796
+		PageNo = 41
 		Zoom = fit content
 		Rotation = 0
-		WindowState = 3
+		WindowState = 2
 		WindowPos = -13 0 1920 2069
 		ShowToc = false
 		SidebarDx = 364
@@ -381,7 +381,7 @@ FileStates [
 		PageNo = 3
 		Zoom = fit content
 		Rotation = 0
-		WindowState = 3
+		WindowState = 2
 		WindowPos = -13 0 1920 2069
 		ShowToc = false
 		SidebarDx = 364
@@ -2570,32 +2570,6 @@ FileStates [
 	]
 ]
 SessionData [
-	[
-		TabStates [
-			[
-				FilePath = C:\Users\yasha\workspacemodules\conformalsymplectic\build\conformalsymplectic.pdf
-				DisplayMode = continuous
-				PageNo = 3
-				Zoom = fit content
-				Rotation = 0
-				ScrollPos = 82.5988 64.3734
-				ShowToc = false
-			]
-			[
-				FilePath = C:\Users\yasha\Downloads\J-holomorphic curves and symplectic topology  0821834851.pdf
-				DisplayMode = continuous
-				PageNo = 156
-				Zoom = fit content
-				Rotation = 0
-				ScrollPos = -1 18.0088
-				ShowToc = false
-			]
-		]
-		TabIndex = 2
-		WindowState = 3
-		WindowPos = -13 0 1920 2069
-		SidebarDx = 364
-	]
 ]
 TimeOfLastUpdateCheck = 0 0
 OpenCountWeek = 648
