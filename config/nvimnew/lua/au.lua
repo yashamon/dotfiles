@@ -2,20 +2,20 @@ local au = vim.api.nvim_create_autocmd
 local ag = vim.api.nvim_create_augroup
 local autocmd = vim.api.nvim_create_autocmd
 local opt = vim.opt
-local timer = 0
-local function do_complete()
-	require('cmp').complete({ reason = require('cmp').ContextReason.Auto })
-end
-autocmd(
-    { "TextChangedI", },
-    {
-      callback = function()
-        vim.fn.timer_stop(timer)
-        timer = vim.fn.timer_start(100, do_complete)
-      end,
-      pattern = "*",
-    }
-)
+-- local timer = 0
+-- local function do_complete()
+	-- require('cmp').complete({ reason = require('cmp').ContextReason.Auto })
+-- end
+-- autocmd(
+--     { "TextChangedI", },
+--     {
+--       callback = function()
+--         vim.fn.timer_stop(timer)
+--         timer = vim.fn.timer_start(100, do_complete)
+--       end,
+--       pattern = "*",
+--     }
+-- )
 autocmd('FocusLost', { pattern = '*', command = 'silent! wa' })
 autocmd('VIMEnter',  { pattern = '*', command = 'let g:buffmain=bufname()' })
 autocmd('FileType', { pattern = 'tex', command = 'lua vim.opt.iskeyword:append{":"}'})

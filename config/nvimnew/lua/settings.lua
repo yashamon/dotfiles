@@ -474,7 +474,7 @@ sources = cmp.config.sources({
 { name = 'buffer', keyword_length = 3 },
 --{ name = 'fuzzy_buffer', keyword_length = 8 }
 }),
-completion = { autocomplete = false }
+-- completion = { autocomplete = false }
 })
 
 --require('nvim_comment').setup({
