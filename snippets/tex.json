@@ -1405,7 +1405,7 @@
   },
 
 "delta": {
-    "prefix": ["d", "\\d"],
+    "prefix": ["de", "\\de"],
     "body": [
       "\\delta $0"
     ],
