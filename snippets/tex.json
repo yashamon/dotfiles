@@ -77,7 +77,7 @@
  "bracket plus minus": {
     "prefix": "bpm",
     "body": [
-        "\\{\\pm \\\\} $0"
+        "\\{\\pm \\\\}$0"
        ],
     "description": "bracket plus minus"
     },  
@@ -297,7 +297,7 @@
   "Math": {
     "prefix": "m",
     "body": [
-      "\\$$1\\$ $0"
+      "\\$$1\\$$0"
     ],
     "description": "Add a Math"
   },
@@ -694,7 +694,7 @@
 "basic bracket": {
     "prefix": "wb",
     "body": [
-      "{$1} $0"
+      "{$1}$0"
     ],
     "description": "brackets"
   },
@@ -722,10 +722,11 @@
     "description": "left ob"
   },
  
+	 
 "open bracket": {
     "prefix": "ob",
     "body": [
-      "($1) $0"
+      "($1)$0"
     ],
     "description": "open brackets"
   },
@@ -733,7 +734,7 @@
 "square bracket": {
     "prefix": "sb",
     "body": [
-      "[$1] $0"
+      "[$1]$0"
     ],
     "description": "square brackets"
   },
