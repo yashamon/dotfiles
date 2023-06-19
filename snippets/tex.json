@@ -20,12 +20,20 @@
        ],
     "description": "oplus"
  }, 
+  "GWF": {
+    "prefix": "gwf",
+    "body": [
+        "\\operatorname {GWF} ^n ($1) $0" 
+       ],
+    "description": "Invariant GWF"
+},
+
  "operatorname": {
     "prefix": "opn",
     "body": [
         "\\operatorname {$1} $0" 
        ],
-    "description": "fukfibration"
+    "description": "operator name"
 },
 "Fukinfinity": {
     "prefix": "fuki",
