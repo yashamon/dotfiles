@@ -20,6 +20,13 @@
        ],
     "description": "oplus"
  }, 
+ "operatorname": {
+    "prefix": "opn",
+    "body": [
+        "\\operatorname {$1} $0" 
+       ],
+    "description": "fukfibration"
+},
 "Fukinfinity": {
     "prefix": "fuki",
     "body": [
