@@ -27,6 +27,13 @@
        ],
     "description": "Invariant GWF"
 },
+"gwf": {
+    "prefix": "gwf",
+    "body": [
+        "\\operatorname {GWF} ($1)$0" 
+       ],
+    "description": "operator name GWF"
+},
 
  "operatorname": {
     "prefix": "opn",
