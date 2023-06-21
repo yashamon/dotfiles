@@ -157,6 +157,14 @@
        ],
     "description": "bar"
     }, 
+	"dimension": {
+    "prefix": "dim",
+    "body": [
+        "\\dim $0"
+       ],
+    "description": "limit"
+    }, 
+	
 "limit": {
     "prefix": "lim",
     "body": [
