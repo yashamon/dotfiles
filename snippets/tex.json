@@ -157,6 +157,13 @@
        ],
     "description": "bar"
     }, 
+"limit": {
+    "prefix": "lim",
+    "body": [
+        "\\lim _{$1 \to $2} $0"
+       ],
+    "description": "dots"
+    }, 
 
 
 "three dots": {
