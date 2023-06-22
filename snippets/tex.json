@@ -20,6 +20,14 @@
        ],
     "description": "oplus"
  }, 
+ "fuller functional": {
+    "prefix": "ful",
+    "body": [
+        "\\operatorname {Ful}($1)$0" 
+       ],
+    "description": "Invariant Ful"
+},
+
   "GWF": {
     "prefix": "gwf",
     "body": [
