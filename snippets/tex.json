@@ -27,6 +27,14 @@
        ],
     "description": "Invariant Ful"
 },
+"diffeomorphisms": {
+    "prefix": "diff",
+    "body": [
+        "\\operatorname {Diff}($1)$0" 
+       ],
+    "description": "diffeomorphisms"
+},
+
 
   "GWF": {
     "prefix": "gwf",
