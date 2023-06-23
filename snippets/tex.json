@@ -1493,6 +1493,14 @@
     ],
     "description": "intersection"
   },
+	"equivalent": {
+    "prefix": ["equiv"],
+    "body": [
+      "\\equiv $0"
+    ],
+    "description": "equivalent"
+  }, 
+
 "isomorphic": {
     "prefix": ["isom", "seq"],
     "body": [
