@@ -1504,7 +1504,7 @@
 	"equivalent": {
     "prefix": ["equiv"],
     "body": [
-      "\\equiv $0"
+      "\\sim $0"
     ],
     "description": "equivalent"
   }, 
