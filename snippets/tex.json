@@ -1493,6 +1493,14 @@
     ],
     "description": "intersection"
   },
+	"quad": {
+    "prefix": ["quad"],
+    "body": [
+      "\\quad $0"
+    ],
+    "description": "quad"
+  }, 
+
 	"equivalent": {
     "prefix": ["equiv"],
     "body": [
