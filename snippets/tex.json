@@ -1516,6 +1516,13 @@
     ],
     "description": "overline"
   },
+"dot": {
+    "prefix": ["dot"],
+    "body": [
+      "\\dot $0"
+    ],
+    "description": "over tilde"
+  },
 
 "widetilda": {
     "prefix": ["wt"],
