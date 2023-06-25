@@ -13,7 +13,7 @@ if not vim.loop.fs_stat(lazypath) then
 end
 vim.opt.rtp = {lazypath}
 require("lazy").setup({
-{ 'sindrets/diffview.nvim', dependencies = 'nvim-lua/plenary.nvim' },
+{ 'sindrets/diffview.nvim', dependencies = 'nvim-lua/plenary.nvim', lazy = true },
 -- {
 --     "yuki-yano/highlight-undo.nvim",
 --     config = function()
@@ -33,7 +33,7 @@ require("lazy").setup({
 {'folke/todo-comments.nvim', lazy = true},
 {'L3MON4D3/LuaSnip', lazy = true },
 {'saadparwaiz1/cmp_luasnip', lazy = true},
-{'nvim-treesitter/playground', lazy = false},
+{'nvim-treesitter/playground', lazy = true},
 {'LhKipp/nvim-nu', dependencies = { "nvim-treesitter/nvim-treesitter", "jose-elias-alvarez/null-ls.nvim"}
 },
 {'echasnovski/mini.nvim', lazy =true },
@@ -83,6 +83,7 @@ require('functions')
 require('set')
 require('au')
 require('keymaps')
+require('mini.indentscope').setup()
 require('mini.trailspace').setup()
 -- require('mini.pairs').setup()
 require("telescope").load_extension("yank_history")
@@ -247,7 +248,7 @@ function ToggleQuickFix()
     local winid = vim.api.nvim_get_current_win()
     vim.schedule(function()
         vim.api.nvim_win_call(winid, function()
-            vim.api.nvim_feedkeys('zffatal', 'im', false)
+            vim.api.nvim_feedkeys('zl.', 'im', false)
         end)
     end)
 end
