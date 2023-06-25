@@ -39,7 +39,7 @@
   "GWF": {
     "prefix": "gwf",
     "body": [
-        "\\operatorname {GWF}($1)$0" 
+        "\\operatorname {GWF}(g, \\phi, \\beta, n) $0" 
        ],
     "description": "Invariant GWF"
 },
