@@ -248,7 +248,7 @@ function ToggleQuickFix()
     local winid = vim.api.nvim_get_current_win()
     vim.schedule(function()
         vim.api.nvim_win_call(winid, function()
-            vim.api.nvim_feedkeys('zl.', 'im', false)
+            vim.api.nvim_feedkeys('zfl.<esc>', 'im', false)
         end)
     end)
 end
