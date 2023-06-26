@@ -43,6 +43,7 @@
 ; ---
 ;-- when pressing CapsLock alone, it will activate the Escpae button
 
+#Requires AutoHotkey >=1.1.36 <2
 SetCapsLockState AlwaysOff
 CapsLock::Esc
 ;!Tab::!Esc
