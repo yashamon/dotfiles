@@ -249,7 +249,7 @@ function ToggleQuickFix()
     vim.schedule(function()
         vim.api.nvim_win_call(winid, function()
             vim.api.nvim_feedkeys('zfl.', 'im', false)
-						vim.api.nvim_feedkeys('<esc>', 'im', false)
+						Feedkey('<esc>', 'im')
 
         end)
     end)
