@@ -47,7 +47,7 @@
 #IfWinActive, ahk_class SUMATRA_PDF_FRAME
 #A::Send #ACACA
 #IfWinActive, ahk_class SUMATRA_PDF_FRAME
-#B::Send #ACACB
+#B::Send #ACACA
 
 SetCapsLockState AlwaysOff
 CapsLock::Esc
