@@ -220,7 +220,9 @@ jump := false
 if mark
 {
 msgbox, mark
-Send ^Ba{Enter}
+Send ^Ba
+Sleep 50
+SendInput {enter}
 }
 period := false
 mark := false
