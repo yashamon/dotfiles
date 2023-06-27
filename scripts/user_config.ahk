@@ -225,17 +225,17 @@ period := false
 mark := false
 return
 
-#IfWinActive, ahk_class SUMATRA_PDF_FRAME
-m::expectanotherkey := true
-#If expectanotherkey 
-A::
-Send ^BA{enter}
-B::
-Send ^BB{enter} 
-C::
-Send ^BC{enter} 
-expectanotherkey := false
-return
+;#IfWinActive, ahk_class SUMATRA_PDF_FRAME
+;m::expectanotherkey := true
+;#If expectanotherkey 
+;A::
+;Send ^BA{enter}
+;B::
+;Send ^BB{enter} 
+;C::
+;Send ^BC{enter} 
+;expectanotherkey := false
+;return
 
 ;#IfWinActive, ahk_class SUMATRA_PDF_FRAME
 ;!A::
