@@ -202,15 +202,27 @@ CapsLock & Numpad9::switchDesktopByNumber(9)
 
 
 #IfWinActive, ahk_class SUMATRA_PDF_FRAME
-.::expectanotherkey := true
-#If expectanotherkey 
+.:: period := true
+m:: mark := true
+
 A::
+If period 
+{
 Send !ACA
+}
+else 
+{
+if mark
+{
+Send ^BA{enter}
+}
+}
 B::
 Send !ACB
 C::
 Send !ACC
-expectanotherkey := false
+period := false
+mark := false
 return
 
 #IfWinActive, ahk_class SUMATRA_PDF_FRAME
