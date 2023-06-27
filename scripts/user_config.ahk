@@ -223,8 +223,12 @@ if mark
 Send ^BA{enter}
 }
 }
+period := false
+mark := false
 B::
 Send !ACB
+period := false
+mark := false
 C::
 Send !ACC
 period := false
