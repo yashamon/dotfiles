@@ -217,12 +217,9 @@ If jump
 Send !ACA
 jump := false
 }
-else 
-{
 if mark
 {
 Send ^BA{enter}
-}
 }
 period := false
 mark := false
