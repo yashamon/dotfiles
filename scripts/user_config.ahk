@@ -218,14 +218,13 @@ If jump
 Send !ACa
 jump := false
 }
-if (mark && !marka)
+if mark 
 {
 Send ^b
 Sleep 50
 send a
 sleep 50
 SendInput {enter}
-marka := true
 }
 period := false
 mark := false
