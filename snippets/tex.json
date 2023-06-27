@@ -428,10 +428,10 @@
     "description": "Add a example"
   },
 "conjecture": {
-    "prefix": ["conj", "conjecture"],
+    "prefix": ["conj"],
     "body": [
       "",
-      "\\begin{conjecture} \\label{conj:$1}",
+      "\\begin{conjecture} \\label{conjecture:$1}",
       "$2",
       "\\end{conjecture}",
       "",
