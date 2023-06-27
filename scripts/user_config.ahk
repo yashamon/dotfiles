@@ -45,9 +45,9 @@
 
 #Requires AutoHotkey >=1.1.36 <2
 #IfWinActive, ahk_class SUMATRA_PDF_FRAME
-#A::Send #ACACA
+.A::Send #ACACA
 #IfWinActive, ahk_class SUMATRA_PDF_FRAME
-#B::Send #ACACB
+.B::Send #ACACB
 
 SetCapsLockState AlwaysOff
 CapsLock::Esc
