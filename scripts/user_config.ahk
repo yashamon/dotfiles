@@ -44,10 +44,10 @@
 ;-- when pressing CapsLock alone, it will activate the Escpae button
 
 #Requires AutoHotkey >=1.1.36 <2
-#IfWinActive, ahk_class SUMATRA_PDF_FRAME
-A::Send #ACACA
-#IfWinActive, ahk_class SUMATRA_PDF_FRAME
-B::Send #ACACB
+;#IfWinActive, ahk_class SUMATRA_PDF_FRAME
+;A::Send #ACACA
+;#IfWinActive, ahk_class SUMATRA_PDF_FRAME
+;B::Send #ACACB
 
 SetCapsLockState AlwaysOff
 CapsLock::Esc
