@@ -44,14 +44,6 @@
 ;-- when pressing CapsLock alone, it will activate the Escpae button
 
 #Requires AutoHotkey >=1.1.36 <2
-#IfWinActive, ahk_class SUMATRA_PDF_FRAME
-!A::
-Send !ACA
-return
-#IfWinActive, ahk_class SUMATRA_PDF_FRAME
-!B::
-Send !ACB
-return
 SetCapsLockState AlwaysOff
 CapsLock::Esc
 ;!Tab::!Esc
@@ -208,6 +200,16 @@ CapsLock & Numpad7::switchDesktopByNumber(7)
 CapsLock & Numpad8::switchDesktopByNumber(8)
 CapsLock & Numpad9::switchDesktopByNumber(9)
 
+#IfWinActive, ahk_class SUMATRA_PDF_FRAME
+!A::
+Send !ACA
+return
+#IfWinActive, ahk_class SUMATRA_PDF_FRAME
+!B::
+Send !ACB
+return
+
+
 /* #n::switchDesktopToRight() */
 /* #p::switchDesktopToLeft() */
 CapsLock & s::switchDesktopToRight()
@@ -296,3 +298,5 @@ CapsLock & Left::MoveCurrentWindowToLeftDesktop()
 
 ; ^#+Right::MoveCurrentWindowToRightDesktop()
 ; ^#+Left::MoveCurrentWindowToLeftDesktop() 
+
+
