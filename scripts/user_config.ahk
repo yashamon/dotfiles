@@ -219,7 +219,7 @@ jump := false
 }
 if mark
 {
-Send ^B
+Send ^b
 Sleep 50
 send a
 sleep 50
