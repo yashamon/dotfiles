@@ -268,6 +268,27 @@ period := false
 mark := false
 return
 
+d::
+If jump 
+{
+Send !ACd
+jump := false
+}
+if (mark && !markd)
+{
+Send ^b
+Sleep 50
+send d
+sleep 50
+SendInput {enter}
+markd := true
+}
+period := false
+mark := false
+return
+
+
+
 ;#IfWinActive, ahk_class SUMATRA_PDF_FRAME
 ;m::expectanotherkey := true
 ;#If expectanotherkey 
