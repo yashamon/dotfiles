@@ -219,6 +219,7 @@ jump := false
 }
 if mark
 {
+msgbox, mark
 Send ^Ba{enter}
 }
 period := false
