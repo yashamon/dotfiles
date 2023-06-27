@@ -52,7 +52,7 @@ DefaultZoom = 100
 Shortcuts [
 	[
 		Cmd = ShowFavorites
-		Key = .
+		Key = F
 	]
 	[
 		Cmd = CmdScrollUpPage
@@ -131,14 +131,18 @@ FileStates [
 				Name = 1. Introduction
 				PageNo = 2
 			]
+			[
+				Name = 2.1. Reeb 2-curves
+				PageNo = 9
+			]
 		]
 		IsPinned = false
 		IsMissing = false
-		OpenCount = 7
+		OpenCount = 5
 		UseDefaultState = false
 		DisplayMode = continuous
 		ScrollPos = 83.0402 64.3533
-		PageNo = 28
+		PageNo = 9
 		Zoom = fit content
 		Rotation = 0
 		WindowState = 3
@@ -157,7 +161,7 @@ FileStates [
 		OpenCount = 1
 		UseDefaultState = false
 		DisplayMode = continuous
-		ScrollPos = -1 549.188
+		ScrollPos = -1 548.438
 		PageNo = 285
 		Zoom = 100
 		Rotation = 0
@@ -2590,35 +2594,9 @@ FileStates [
 	]
 ]
 SessionData [
-	[
-		TabStates [
-			[
-				FilePath = G:\My Drive\books\Petersen.pdf
-				DisplayMode = continuous
-				PageNo = 285
-				Zoom = 100
-				Rotation = 0
-				ScrollPos = -1 549.188
-				ShowToc = true
-			]
-			[
-				FilePath = C:\Users\yasha\workspacemodules\conformalsymplectic\build\conformalsymplectic.pdf
-				DisplayMode = continuous
-				PageNo = 28
-				Zoom = fit content
-				Rotation = 0
-				ScrollPos = 83.0402 64.3533
-				ShowToc = false
-			]
-		]
-		TabIndex = 2
-		WindowState = 3
-		WindowPos = -13 0 1920 2069
-		SidebarDx = 364
-	]
 ]
 TimeOfLastUpdateCheck = 0 0
-OpenCountWeek = 650
+OpenCountWeek = 651
 
 # Settings below are not recognized by the current version
 "C = \Users\yasha\dotfiles\scripts\remote2.nu" %l $
