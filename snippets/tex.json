@@ -427,6 +427,18 @@
    ],
     "description": "Add a example"
   },
+"conjecture": {
+    "prefix": ["conj", "conjecture"],
+    "body": [
+      "",
+      "\\begin{conjecture} \\label{conj:$1}",
+      "$2",
+      "\\end{conjecture}",
+      "",
+      "$0"
+   ],
+    "description": "Add a conjecture"
+  },
 
  "lemma": {
     "prefix": ["lem", "lemma"],
