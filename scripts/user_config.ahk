@@ -228,14 +228,6 @@ marka := true
 }
 period := false
 mark := false
-B::
-Send !ACB
-period := false
-mark := false
-C::
-Send !ACC
-period := false
-mark := false
 return
 
 ;#IfWinActive, ahk_class SUMATRA_PDF_FRAME
