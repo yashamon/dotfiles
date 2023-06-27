@@ -203,18 +203,19 @@ CapsLock & Numpad9::switchDesktopByNumber(9)
 
 #IfWinActive, ahk_class SUMATRA_PDF_FRAME
 .:: 
-period := true
+jump := true
 mark := false
 return
 m:: 
 mark := true
-period := false
+jump := false
 return
 
 A::
-If period 
+If jump 
 {
 Send !ACA
+jump := false
 }
 else 
 {
