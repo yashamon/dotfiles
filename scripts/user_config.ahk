@@ -206,9 +206,11 @@ CapsLock & Numpad9::switchDesktopByNumber(9)
 .:: 
 jump := true
 mark := false
+return
 m:: 
 mark := true
 jump := false
+return
 
 a::
 If jump 
