@@ -211,15 +211,15 @@ mark := true
 jump := false
 return
 
-A::
+a::
 If jump 
 {
-Send !ACA
+Send !ACa
 jump := false
 }
 if mark
 {
-Send ^BA{enter}
+Send ^Ba{enter}
 }
 period := false
 mark := false
