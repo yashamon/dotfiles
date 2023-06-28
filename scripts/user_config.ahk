@@ -225,7 +225,9 @@ send t
 sleep 50
 SendInput {enter}
 Send !ACa
-SendInput {enter}
+SendInput {esc}
+SendInput {esc}
+SendInput {esc}
 Send !Ar
 Send !ACt
 SendInput {enter}
