@@ -221,19 +221,6 @@ if mark
 {
 Send ^b
 Sleep 50
-send t
-sleep 50
-SendInput {enter}
-Send !ACa
-SendInput {esc}
-SendInput {esc}
-SendInput {esc}
-Send !Ar
-Send !ACt
-SendInput {enter}
-Send !Ar
-Send ^b
-Sleep 50
 send a
 sleep 50
 SendInput {enter}
