@@ -236,7 +236,7 @@ If jump
 Send !ACb
 jump := false
 }
-if (mark && !markb)
+if mark
 {
 Send ^b
 Sleep 50
@@ -255,7 +255,7 @@ If jump
 Send !ACc
 jump := false
 }
-if (mark && !markc)
+if mark 
 {
 Send ^b
 Sleep 50
@@ -274,7 +274,7 @@ If jump
 Send !ACd
 jump := false
 }
-if (mark && !markd)
+if mark 
 {
 Send ^b
 Sleep 50
