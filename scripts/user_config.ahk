@@ -211,7 +211,6 @@ m::
 mark := true
 jump := false
 return
-
 a::
 If jump 
 {
@@ -220,18 +219,32 @@ jump := false
 }
 if mark 
 {
-Send ^bt
+Send ^b
+Sleep 50
+send t
 sleep 50
 SendInput {enter}
 Send !ACa
+SendInput {enter}
 Send !Ar
 Send !ACt
+SendInput {enter}
 Send !Ar
 Send ^b
 Sleep 50
 send a
 sleep 50
 SendInput {enter}
+}
+else 
+{
+Send ^b
+Sleep 50
+send a
+sleep 50
+SendInput {enter}
+marka = true
+}
 }
 period := false
 mark := false
