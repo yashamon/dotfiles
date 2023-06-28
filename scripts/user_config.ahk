@@ -238,16 +238,6 @@ send a
 sleep 50
 SendInput {enter}
 }
-else 
-{
-Send ^b
-Sleep 50
-send a
-sleep 50
-SendInput {enter}
-marka = true
-}
-}
 period := false
 mark := false
 return
