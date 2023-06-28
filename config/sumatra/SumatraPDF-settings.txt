@@ -128,21 +128,29 @@ FileStates [
 		FilePath = C:\Users\yasha\workspacemodules\conformalsymplectic\build\conformalsymplectic.pdf
 		Favorites [
 			[
-				Name = 1. Introduction
-				PageNo = 2
+				Name = a
+				PageNo = 1
 			]
 			[
-				Name = 2.1. Reeb 2-curves
-				PageNo = 9
+				Name = b
+				PageNo = 14
+			]
+			[
+				Name = a
+				PageNo = 19
+			]
+			[
+				Name = a
+				PageNo = 40
 			]
 		]
 		IsPinned = false
 		IsMissing = false
-		OpenCount = 5
+		OpenCount = 7
 		UseDefaultState = false
 		DisplayMode = continuous
-		ScrollPos = 83.0402 64.3533
-		PageNo = 9
+		ScrollPos = 82.9835 64.4908
+		PageNo = 14
 		Zoom = fit content
 		Rotation = 0
 		WindowState = 3
