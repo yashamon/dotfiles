@@ -220,6 +220,12 @@ jump := false
 }
 if mark 
 {
+Send ^bt
+SendInput {enter}
+Send !ACa
+Send !Ar
+Send !ACt
+Send !Ar
 Send ^b
 Sleep 50
 send a
