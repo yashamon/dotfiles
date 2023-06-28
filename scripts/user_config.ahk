@@ -221,6 +221,7 @@ jump := false
 if mark 
 {
 Send ^bt
+sleep 50
 SendInput {enter}
 Send !ACa
 Send !Ar
