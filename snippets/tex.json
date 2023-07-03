@@ -540,7 +540,7 @@
     "description": "Split"
   },
   "Section": {
-    "prefix": ["sec", "section"],
+    "prefix": ["section"],
     "body": [
       "\\section{$1} \\label{sec:$1}"
       ],
