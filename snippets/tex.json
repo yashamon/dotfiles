@@ -487,8 +487,8 @@
     "Proof": {
     "prefix": "proof",
     "body": [
-      "\\begin{proof}",
-      "$1",
+      "\\begin{proof} [$1]",
+      "$2",
       "\\end{proof}",
       "$0"
     ],
