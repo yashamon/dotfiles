@@ -471,7 +471,7 @@ sources = cmp.config.sources({
 -- { name = 'omni', keyword_length = 4},
        -- { name = 'spell' }, 
       --{ name = 'treesitter', keyword_length = 4 },
-{ name = 'buffer', keyword_length = 3 },
+{ name = 'buffer', keyword_length = 4 },
 --{ name = 'fuzzy_buffer', keyword_length = 8 }
 }),
 -- completion = { autocomplete = false }
