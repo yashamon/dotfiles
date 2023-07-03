@@ -34,8 +34,8 @@
        ],
     "description": "diffeomorphisms"
 },
-"01": {
-    "prefix": "01",
+"zero one": {
+    "prefix": "zo",
     "body": [
         "0,1" 
        ],
