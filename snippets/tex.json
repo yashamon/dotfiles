@@ -468,7 +468,7 @@
   },
  
  "Corollary": {
-    "prefix": ["corol"],
+    "prefix": ["crl", "corol"],
     "body": [
       "",
       "\\begin{corollary} \\label{cor:$1}", 
