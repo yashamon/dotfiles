@@ -19,9 +19,9 @@ require("telescope").setup {
 }
 -- To get telescope-file-browser loaded and working with telescope,
 -- you need to call load_extension, somewhere after setup function:
-require("indent_blankline").setup {
-    show_end_of_line = true,
-}
+-- require("indent_blankline").setup {
+    -- show_end_of_line = true,
+-- }
 local ts_config = require("nvim-treesitter.configs")
 ts_config.setup {
 	ensure_installed = {
