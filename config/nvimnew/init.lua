@@ -26,6 +26,24 @@ require("lazy").setup({
   dependencies = { "arsham/arshlib.nvim", "junegunn/fzf.vim", "MunifTanjim/nui.nvim" },
   config = true, lazy = true
 },
+{  "aaronhallaert/advanced-git-search.nvim",
+    config = function()
+        -- optional: setup telescope before loading the extension
+        require("telescope").setup{
+            -- move this to the place where you call the telescope setup function
+            extensions = {
+                advanced_git_search = {
+                        -- See Config
+                    }
+            }
+        }
+
+        require("telescope").load_extension("advanced_git_search")
+    end,
+    dependencies = {
+		"nvim-telescope/telescope.nvim",
+    "sindrets/diffview.nvim",
+},
 {'kevinhwang91/nvim-ufo', dependencies = 'kevinhwang91/promise-async', lazy = true},
 {'gbprod/yanky.nvim', lazy = true},
 {'jose-elias-alvarez/null-ls.nvim', dependencies = "nvim-lua/plenary.nvim" },
@@ -37,7 +55,7 @@ require("lazy").setup({
 {'LhKipp/nvim-nu', dependencies = { "nvim-treesitter/nvim-treesitter", "jose-elias-alvarez/null-ls.nvim"}
 },
 {'echasnovski/mini.nvim', lazy =true },
-{'lukas-reineke/indent-blankline.nvim', event = { "BufRead", "BufNewFile" }},
+-- {'lukas-reineke/indent-blankline.nvim', event = { "BufRead", "BufNewFile" }},
 {'folke/which-key.nvim', lazy = true},
 {'lambdalisue/nerdfont.vim'},
 {'ggandor/leap.nvim', lazy = true},
@@ -83,7 +101,7 @@ require('functions')
 require('set')
 require('au')
 require('keymaps')
--- require('mini.indentscope').setup()
+require('mini.indentscope').setup()
 require('mini.trailspace').setup()
 -- require('mini.pairs').setup()
 require("telescope").load_extension("yank_history")
