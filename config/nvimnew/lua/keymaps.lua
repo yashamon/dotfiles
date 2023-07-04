@@ -10,6 +10,7 @@ map('n', '<m-s>', Sentence, {})
 
 
 -- commands
+command('Git', 'AdvancedGitSearch', {})
 command('Gtd', 'TodoQuickFix', {})
 command('Sa', function(file) vim.cmd('saveas ' .. file.args) end, { nargs=1 })
 command('Sao', function(file) vim.cmd('saveas! ' .. file.args) end, { nargs=1 })
