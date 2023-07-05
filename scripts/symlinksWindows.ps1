@@ -45,5 +45,5 @@ New-Item -ItemType SymbolicLink -Path "$HOME:/Users/yasha/AppData/Local/nvim" -T
 git config --global credential.helper store
 git config --global user.name "yashamon"
 git config --global user.email "yasha.savelyev@gmail.com"
-
+git config core.hooksPath ~\workspacemodules\.git\hooks
 
