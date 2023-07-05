@@ -46,4 +46,4 @@ git config --global credential.helper store
 git config --global user.name "yashamon"
 git config --global user.email "yasha.savelyev@gmail.com"
 git config core.hooksPath ~\workspacemodules\.git\hooks
-nu -c $HOME/dotfiles/scripts/installScoop.nu
+nu $HOME/dotfiles/scripts/installScoop.nu
