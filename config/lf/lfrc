@@ -84,7 +84,7 @@ map gf :findfileroot
 # map <a-f> fzffile   
 # map <a-r> fzffileroot  
 map x :cut
-map zd :trash
+map gd :trash
 map gdd :delete
 
 cmd fzf_jump $nu "C:\\Users\\yasha\\dotfiles\\scripts\\lfsimplejump.nu"
