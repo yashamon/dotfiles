@@ -117,7 +117,7 @@ TreeFontSize = 0
 SmoothScroll = false
 ShowStartPage = true
 CheckForUpdates = false
-WindowState = 3
+WindowState = 2
 WindowPos = -13 0 1920 2069
 UseTabs = true
 UseSysColors = false
@@ -128,32 +128,52 @@ FileStates [
 		FilePath = C:\Users\yasha\workspacemodules\conformalsymplectic\build\conformalsymplectic.pdf
 		Favorites [
 			[
-				Name = a
+				Name = b
 				PageNo = 1
 			]
 			[
-				Name = b
-				PageNo = 14
+				Name = a
+				PageNo = 3
 			]
 			[
 				Name = a
-				PageNo = 19
+				PageNo = 37
 			]
 			[
-				Name = a
+				Name = t
 				PageNo = 40
 			]
 		]
 		IsPinned = false
 		IsMissing = false
-		OpenCount = 7
+		OpenCount = 9
 		UseDefaultState = false
 		DisplayMode = continuous
-		ScrollPos = 82.9835 64.4908
-		PageNo = 14
+		ScrollPos = 83.0662 64.3734
+		PageNo = 37
 		Zoom = fit content
 		Rotation = 0
-		WindowState = 3
+		WindowState = 2
+		WindowPos = -13 0 1920 2069
+		ShowToc = false
+		SidebarDx = 364
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = G:\My Drive\books\milnor_morse_theory (1).pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = 225.334 125.15
+		PageNo = 55
+		Zoom = 116.411
+		Rotation = 0
+		WindowState = 2
 		WindowPos = -13 0 1920 2069
 		ShowToc = false
 		SidebarDx = 364
@@ -166,7 +186,7 @@ FileStates [
 		]
 		IsPinned = false
 		IsMissing = false
-		OpenCount = 1
+		OpenCount = 0
 		UseDefaultState = false
 		DisplayMode = continuous
 		ScrollPos = -1 548.438
@@ -2604,7 +2624,7 @@ FileStates [
 SessionData [
 ]
 TimeOfLastUpdateCheck = 0 0
-OpenCountWeek = 651
+OpenCountWeek = 652
 
 # Settings below are not recognized by the current version
 "C = \Users\yasha\dotfiles\scripts\remote2.nu" %l $
