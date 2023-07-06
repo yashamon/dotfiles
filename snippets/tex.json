@@ -16,7 +16,7 @@
    "oplus": {
     "prefix": "op",
     "body": [
-        "\\oplus{$1} $0" 
+        "\\oplus $0" 
        ],
     "description": "oplus"
  }, 
