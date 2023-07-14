@@ -115,8 +115,6 @@ return
 #X::
 WinClose A 
 return
-#q::
-return
 
 #D::
 switchDesktopByNumber(4)
@@ -168,8 +166,6 @@ return
 return
 
 ; Win+Alt+G - Open Gmail in Chrome
-#q::
-WinKill, A
 #Enter::
     Run "nu" 
     Return
