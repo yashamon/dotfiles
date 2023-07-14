@@ -115,6 +115,8 @@ return
 #X::
 WinClose A 
 return
+#q::
+return
 
 #D::
 switchDesktopByNumber(4)
