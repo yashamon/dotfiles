@@ -192,13 +192,13 @@
     "body": [
         "\\dim $0"
        ],
-    "description": "limit"
+    "description": "dimension"
     }, 
 	
 "limit": {
     "prefix": "lim",
     "body": [
-        "\\lim _{$1 \to $2} $0"
+        "\\lim _{$1 \\to $2} $0"
        ],
     "description": "limit"
     }, 
