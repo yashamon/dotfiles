@@ -194,7 +194,14 @@
        ],
     "description": "dimension"
     }, 
-	
+	"supremum": {
+    "prefix": "sup",
+    "body": [
+        "\\sup $0"
+       ],
+    "description": "sup"
+    }, 
+
 "limit": {
     "prefix": "lim",
     "body": [
