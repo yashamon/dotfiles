@@ -7,13 +7,14 @@ neovide --multigrid --novsync $file
 # nvy --maximize $file
 }
 let-env HOME = "C:/Users/yasha"
+let HOMED = "C:/Users/yasha/OneDrive"
 let HOME = "C:/Users/yasha"
 def swap [] {
 rm $"($HOME)/AppData/Local/nvim-data/swap/*"
 }
-# let profile = $"($HOME)/dotfiles/config/nvim/init.vim"
+# let profile = $"($HOMED)/dotfiles/config/nvim/init.vim"
 def nf [] {
-let $ho = (fd . $HOME -H -E /.undo/* -E /undo/* -E /tmp/* -E *.pdf | fzf | str trim)
+let $ho = (fd . $HOMED -H -E /.undo/* -E /undo/* -E /tmp/* -E *.pdf | fzf | str trim)
 # neovide --multigrid $ho 
 neo $ho
 }
@@ -25,10 +26,10 @@ def killn [name: string] { ps | where name =~ $name | each {|it| kill --force $i
 # if ($file | str trim | path type) == dir {
 # zoxide add $file}
 # __zoxide_z $file}
-def vrc [] { neo $"($HOME)/dotfiles/config/nvimnew/init.lua" }
-def lfrc [] { neo $"($HOME)/dotfiles/config/lf/lfrc" } 
+def vrc [] { neo $"($HOMED)/dotfiles/config/nvimnew/init.lua" }
+def lfrc [] { neo $"($HOMED)/dotfiles/config/lf/lfrc" } 
 # def psrc [] { neo $profile } 
-def nurc [] { neo $"($HOME)/dotfiles/config/nushell/config.nu"}
+def nurc [] { neo $"($HOMED)/dotfiles/config/nushell/config.nu"}
 def texi [file:string] { pdflatex -file-line-error -synctex=1  -interaction=nonstopmode -recorder $file }
 def latexi [file:string] { latexmk -g -pdf -file-line-error -synctex=1  -interaction=nonstopmode -recorder -f $file}
 def pdf [file:string] { nu -c C:/Users/yasha/scoop/shims/sumatrapdf.exe $file} 
@@ -41,30 +42,30 @@ def push [] { git add . ; git commit -m -a ; git push --all origin }
 def pull [] { git pull --recurse-submodules ; git submodule update --recursive --remote }
 def pullmaster [] { git pull --recurse-submodules ; git submodule update --recursive --remote ; git submodule foreach git checkout master ; git submodule foreach git pull --all
 }
-def pushgh [] { cd $"($HOME)/web" ; pandoc index.md -o index.html ; git add . ; git commit -m -a ; git push origin gh-pages }
+def pushgh [] { cd $"($HOMED)/web" ; pandoc index.md -o index.html ; git add . ; git commit -m -a ; git push origin gh-pages }
 
 def init [dir:string] {mkdir $dir ; cd $dir ; git init ; git remote add origin $"https://yashamon@bitbucket.org/yashamon/($dir).git"
 } 
 
-def hw [] { pandoc $"($HOME)/web/classes/discreet/2023.md" -o $"($HOME)/web/classes/discreet/2023.html" ; cd $"($HOME)/web"; git add . ; git commit -m -a ; git push origin gh-pages 
+def hw [] { pandoc $"($HOMED)/web/classes/discreet/2023.md" -o $"($HOMED)/web/classes/discreet/2023.html" ; cd $"($HOMED)/web"; git add . ; git commit -m -a ; git push origin gh-pages 
 } 
 
-# alias config = ( cd $"($HOME)/dotfiles"; push; cd $"($HOME)/workspacemodules"; pushmod; cd $"($HOME)/workspace"; push; cd web pushgh; pacman -Qqe > $"($HOME)/dotfiles/pkglist.txt" )
+# alias config = ( cd $"($HOMED)/dotfiles"; push; cd $"($HOMED)/workspacemodules"; pushmod; cd $"($HOMED)/workspace"; push; cd web pushgh; pacman -Qqe > $"($HOMED)/dotfiles/pkglist.txt" )
 
 def sendFunction [file:string] {
 let cwdb = $env.PWD
-cd $"($HOME)/web"
+cd $"($HOMED)/web"
 git pull
 cd $cwdb
-cp $file $"($HOME)/web/papers"
-cd $"($HOME)/web"
+cp $file $"($HOMED)/web/papers"
+cd $"($HOMED)/web"
 git add .
 git commit -m -a
 git push origin gh-pages
 cd $cwdb
 }
 alias send = sendFunction
-def-env lf [...opt] { source "C:/Users/yasha/dotfiles/scripts/lfcd.nu"
+def-env lf [...opt] { source "C:/Users/yasha/OneDrive/dotfiles/scripts/lfcd.nu"
 main $opt
 let dir = ((open "C:\\Users\\yasha\\AppData\\Local\\Temp\\tmp9E2XX.tmp") | str trim)
 $dir | clip
