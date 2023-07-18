@@ -37,14 +37,15 @@ mkdir ~/.ctags.d
 mv ~/.ctags.d/latex.ctags $olddir
 New-Item -ItemType SymbolicLink -Path "$HOME/.ctags.d/latex.ctags" -Target "$HOME/OneDrive/dotfiles/ctags"
 mv C:\Users\yasha\AppData\Roaming\nushell\config.nu $olddir
-New-Item -ItemType SymbolicLink -Path "C:\Users\yasha\AppData\Roaming\nushell\config.nu" -Target $HOME/OneDrive/dotfiles/config/nushell/config.nu
+New-Item -ItemType SymbolicLink -Path "$HOME\AppData\Roaming\nushell\config.nu" -Target $HOME/OneDrive/dotfiles/config/nushell/config.nu
 mv C:\Users\yasha\AppData\Roaming\nushell\env.nu $olddir
-New-Item -ItemType SymbolicLink -Path "C:\Users\yasha\AppData\Roaming\nushell\env.nu" -Target $HOME/OneDrive/dotfiles/config/nushell/env.nu
+New-Item -ItemType SymbolicLink -Path "$HOME\AppData\Roaming\nushell\env.nu" -Target $HOME/OneDrive/dotfiles/config/nushell/env.nu
 mv $HOME/scoop/apps/summatrapdf/current/SummatraPDF-settings.txt $olddir
 New-Item -ItemType SymbolicLink -Path "$HOME/scoop/apps/summatrapdf/current/SummatraPDF-settings.txt" -Target "$HOME/OneDrive/dotfiles/config/SummatraPDF-settings.txt"
 mv $HOME/Users/yasha/AppData/Local/nvim $olddir
-rm $HOME/Users/yasha/AppData/Local/nvim $olddir
-New-Item -ItemType SymbolicLink -Path "$HOME/Users/yasha/AppData/Local/nvim" -Target "$HOME/OneDrive/dotfiles/config/nvimnew"
+New-Item -ItemType SymbolicLink -Path "$HOME/AppData/Local/nvim" -Target "$HOME/OneDrive/dotfiles/config/nvimnew"
+mv $HOME/Users/yasha/AppData/Local/lf/lfrc $olddir
+new-Item -ItemType SymbolicLink -Path "$HOME\AppData\Local\lf\lfrc" -Target "$HOME/OneDrive/dotfiles/config/lf/lfrc"
 git config --global credential.helper store
 git config --global user.name "yashamon"
 git config --global user.email "yasha.savelyev@gmail.com"
