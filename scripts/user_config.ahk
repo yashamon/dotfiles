@@ -173,7 +173,7 @@ return
     Run lf
     Return
 #n::
-    Run nu C:\Users\yasha\dotfiles\scripts\nf.nu
+    Run nu C:\Users\yasha\OneDrive\dotfiles\scripts\nf.nu
     Return
 #e::
 Run microsoft-edge:https://this-page-intentionally-left-blank.org/
