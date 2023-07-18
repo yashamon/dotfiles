@@ -32,7 +32,7 @@ set hidden
 #     lf -remote "send echomsg "deletesucess""
 # }}
 
-cmd trash $pwsh -nop -c "/Users/yasha/dotfiles/scripts/lfcdTrash.ps1" $Env:fx
+cmd trash $pwsh -nop -c "/Users/yasha/OneDrive/dotfiles/scripts/lfcdTrash.ps1" $Env:fx
 # cmd trash $nu trash.nu $Env:fx
  # cmd trash recycle-bin $Env:fx
 # set previewer stpv
@@ -64,9 +64,9 @@ set -- $(cat ~/.local/share/lf/files)
 # set cleaner ~/.config/lf/cleaner
 cmd namepaste $cp-p --lf-paste $id  
 # map gc :namepaste
-map p !pwsh.bat -c "/Users/yasha/dotfiles/scripts/robo.ps1" $Env:fx 
+map p !pwsh.bat -c "/Users/yasha/OneDrive/dotfiles/scripts/robo.ps1" $Env:fx 
 map gp :paste
-cmd findfile $nu "C:\\Users\\yasha\\dotfiles\\scripts\\findfile.nu"
+cmd findfile $nu "C:\\Users\\yasha\\OneDrive\\dotfiles\\scripts\\findfile.nu"
 map <a-f> :findfile
 
 cmd findfileroot ${{
@@ -87,7 +87,7 @@ map x :cut
 map gd :trash
 map gDD :delete
 
-cmd fzf_jump $nu "C:\\Users\\yasha\\dotfiles\\scripts\\lfsimplejump.nu"
+cmd fzf_jump $nu "C:\\Users\\yasha\\OneDrive\\dotfiles\\scripts\\lfsimplejump.nu"
 #
 # ${{
 #    $res= fd . -H -I -d 1 | fzf --reverse --header='Jump to location'
@@ -110,10 +110,10 @@ cmd fasd_dir ${{
 
 # map  :fasd_dir
 map J  :fasd_dir 
-cmd Jhomedir  $nu "C:\Users\yasha\dotfiles\scripts\jumpdir.nu"
+cmd Jhomedir  $nu "C:\Users\yasha\OneDrive\dotfiles\scripts\jumpdir.nu"
 map <a-j> :Jhomedir
 
-cmd Jrootdir  $nu "C:\Users\yasha\dotfiles\scripts\jumprootdir.nu"
+cmd Jrootdir  $nu "C:\Users\yasha\OneDrive\dotfiles\scripts\jumprootdir.nu"
 map gj :Jrootdir
 
 
@@ -141,7 +141,7 @@ map O $mimeopen --ask $Env:f
 #     esac
 #     
 # note that -nop requires full path name
-map e %pwsh -nop -c C:\Users\yasha\dotfiles\scripts\remotelf.ps1 $Env:f.Trim('"') 
+map e %pwsh -nop -c C:\Users\yasha\OneDrive\dotfiles\scripts\remotelf.ps1 $Env:f.Trim('"') 
 map n %neovide $Env:f.Trim('"') 
 map gn %neovide $Env:f.Trim('"') 
 # define a custom 'rename' command without prompt for overwrite 
@@ -194,7 +194,7 @@ map gc :spastename
 
 # extract the current file with the right command
 # (xkcd link: https://xkcd.com/1168/)
-cmd extract $pwsh.bat -c "/Users/yasha/dotfiles/scripts/lfcdextract.ps1" $Env:fx
+cmd extract $pwsh.bat -c "/Users/yasha/OneDrive/dotfiles/scripts/lfcdextract.ps1" $Env:fx
 map gE :extract
 # compress current file or selected files with tar and gunzip
 # cmd tar ${param 
@@ -206,7 +206,7 @@ map gE :extract
 # }
 
 # compress current file or selected files with zip
-cmd zip !pwsh -nop -c "/Users/yasha/dotfiles/scripts/zip.ps1" $Env:fx
+cmd zip !pwsh -nop -c "/Users/yasha/OneDrive/dotfiles/scripts/zip.ps1" $Env:fx
 map gz zip
 # cmd open ${{
 #     case "$f" in
@@ -253,7 +253,7 @@ cmd zle-init :{{
 
 # y (select for copy) and P to paste soft-link
 # d (select for cut) and P to paste hard-link
-cmd link %pwsh -nop -c C:\Users\yasha\dotfiles\scripts\lfLn.ps1 $Env:fx
+cmd link %pwsh -nop -c C:\Users\yasha\OneDrive\dotfiles\scripts\lfLn.ps1 $Env:fx
 map gP :link
 
 
