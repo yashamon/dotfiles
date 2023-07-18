@@ -47,7 +47,7 @@ New-Item -ItemType SymbolicLink -Path "$HOME/AppData/Local/nvim" -Target "$HOME/
 mv $HOME/Users/yasha/AppData/Local/lf/lfrc $olddir
 new-Item -ItemType SymbolicLink -Path "$HOME\AppData\Local\lf\lfrc" -Target "$HOME/OneDrive/dotfiles/config/lf/lfrc"
 mv $HOME\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\desktop-switcher.ahk $olddir
-new-Item -ItemType SymbolicLink -Path "$HOME\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\desktop-switcher.ahk" -Target "$HOME/OneDrive/dotfiles/scripts/desktop-switcher.ahk"
+new-Item -ItemType SymbolicLink -Path "$HOME\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\desktop_switcher.ahk" -Target "$HOME/OneDrive/dotfiles/scripts/desktop_switcher.ahk"
 
 git config --global credential.helper store
 git config --global user.name "yashamon"
