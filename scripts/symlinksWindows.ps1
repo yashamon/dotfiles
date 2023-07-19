@@ -3,7 +3,7 @@
 ############################
 
 ########## Variables
-scoop install nu pwsh 
+scoop install nu 
 nu "$HOME/OneDrive/dotfiles/scripts/installScoop.nu"
 $dir="$HOME/OneDrive/dotfiles"                    # dotfiles directory
 $olddir="$HOME/dotfiles_old"             # old dotfiles backup directory
