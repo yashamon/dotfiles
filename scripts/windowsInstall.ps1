@@ -3,6 +3,8 @@
 ############################
 
 ########## Variables
+Set-ExecutionPolicy RemoteSigned -Scope CurrentUser # Optional: Needed to run a remote script the first time
+irm get.scoop.sh | iex
 scoop install nu 
 nu "$HOME/OneDrive/dotfiles/scripts/installScoop.nu"
 $dir="$HOME/OneDrive/dotfiles"                    # dotfiles directory
