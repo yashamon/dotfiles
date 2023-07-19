@@ -5,5 +5,5 @@
 # # git push -u origin master
 # }
  def main [name: string] {
-   $x 
+   $name 
 }
