@@ -1,6 +1,6 @@
 # def main [name: string] {
 def main [name: string] {
-let credentials = open "C:\\Users\\yasha\\.gitcredentials"
+$credentials = open "C:\\Users\\yasha\\.gitcredentials"
 $credentials
 curl -u yashamon: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 https://api.github.com/user/repos -d $'{"name":"($name)", "private":"true"}'
 git remote add origin $"https://yashamon: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@github.com/yashamon/($name).git"
