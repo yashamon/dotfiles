@@ -7,11 +7,7 @@ Set-ExecutionPolicy RemoteSigned -Scope CurrentUser # Optional: Needed to run a 
 irm get.scoop.sh | iex
 scoop install nu 
 nu "$HOME/OneDrive/dotfiles/scripts/installScoop.nu"
-$homey="C:\Users\yasha"
-$homeyd="$homey\OneDrive"
-$olddir="$homey\dotfiles_old"
-nu -c "mv $homey\scoop\apps\sumatrapdf\current\SumatraPDF-settings.txt $olddir"
-nu -c "sudo ln -s $homeyd\dotfiles\config\sumatra\SumatraPDF-settings.txt $homey\scoop\apps\sumatrapdf\current\SumatraPDF-settings.txt"
+$olddir="$HOME/dotfiles_old"
 $dir="$HOME/OneDrive/dotfiles"                    # dotfiles directory
 $filesmain = "ctags", "gitconfig", "latexmkrc"    # list of files/folders to symlink in homedir
 $homed="$HOME/OneDrive"
@@ -47,8 +43,8 @@ mv C:\Users\yasha\AppData\Roaming\nushell\config.nu $olddir
 New-Item -ItemType SymbolicLink -Path "$HOME\AppData\Roaming\nushell\config.nu" -Target $HOME/OneDrive/dotfiles/config/nushell/config.nu
 mv C:\Users\yasha\AppData\Roaming\nushell\env.nu $olddir
 New-Item -ItemType SymbolicLink -Path "$HOME\AppData\Roaming\nushell\env.nu" -Target $HOME/OneDrive/dotfiles/config/nushell/env.nu
-nu -c "mv $HOME//scoop//apps/summatrapdf//current//SummatraPDF-settings.txt $olddir"
-nu -c "sudo ln -s $HOMED//dotfile//config//sumatra//SumatraPDF-settings.txt $HOME//scoop//apps//sumatrapdf//current//SumatraPDF-settings.txt"
+nu -c "mv $HOME\scoop\apps\sumatrapdf\current\SumatraPDF-settings.txt $olddir"
+nu -c "sudo ln -s $homed\dotfiles\config\sumatra\SumatraPDF-settings.txt $homey\scoop\apps\sumatrapdf\current\SumatraPDF-settings.txt"
 New-Item -ItemType SymbolicLink -Path "$HOME/scoop/apps/summatrapdf/current/SummatraPDF-settings.txt" -Target "$HOME/OneDrive/dotfiles/config/SummatraPDF-settings.txt"
 mv $HOME/Users/yasha/AppData/Local/nvim $olddir
 New-Item -ItemType SymbolicLink -Path "$HOME/AppData/Local/nvim" -Target "$HOME/OneDrive/dotfiles/config/nvimnew"
