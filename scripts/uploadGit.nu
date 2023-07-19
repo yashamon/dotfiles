@@ -4,6 +4,6 @@
 # # git remote add origin $"https://yashamon:yNJgYzPVU2SSse4cyhU8@github.com/yashamon/($name).git"
 # # git push -u origin master
 # }
- def main [x: string] {
+ def main [name: string] {
    $x 
 }
