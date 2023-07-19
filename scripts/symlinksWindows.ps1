@@ -3,7 +3,8 @@
 ############################
 
 ########## Variables
-
+scoop install nu pwsh 
+nu "$HOME/OneDrive/dotfiles/scripts/installScoop.nu"
 $dir="$HOME/OneDrive/dotfiles"                    # dotfiles directory
 $olddir="$HOME/dotfiles_old"             # old dotfiles backup directory
 $filesmain = "ctags", "gitconfig", "latexmkrc"    # list of files/folders to symlink in homedir
@@ -40,7 +41,8 @@ mv C:\Users\yasha\AppData\Roaming\nushell\config.nu $olddir
 New-Item -ItemType SymbolicLink -Path "$HOME\AppData\Roaming\nushell\config.nu" -Target $HOME/OneDrive/dotfiles/config/nushell/config.nu
 mv C:\Users\yasha\AppData\Roaming\nushell\env.nu $olddir
 New-Item -ItemType SymbolicLink -Path "$HOME\AppData\Roaming\nushell\env.nu" -Target $HOME/OneDrive/dotfiles/config/nushell/env.nu
-mv $HOME/scoop/apps/summatrapdf/current/SummatraPDF-settings.txt $olddir
+nu "rm $HOME/scoop/apps/summatrapdf/current/SummatraPDF-settings.txt $olddir"
+nu "sudo ln -s $HOMED\dotfiles\config\sumatra\SumatraPDF-settings.txt $HOME\scoop\apps\sumatrapdf\current\SumatraPDF-settings.txt"
 New-Item -ItemType SymbolicLink -Path "$HOME/scoop/apps/summatrapdf/current/SummatraPDF-settings.txt" -Target "$HOME/OneDrive/dotfiles/config/SummatraPDF-settings.txt"
 mv $HOME/Users/yasha/AppData/Local/nvim $olddir
 New-Item -ItemType SymbolicLink -Path "$HOME/AppData/Local/nvim" -Target "$HOME/OneDrive/dotfiles/config/nvimnew"
@@ -53,4 +55,3 @@ git config --global credential.helper store
 git config --global user.name "yashamon"
 git config --global user.email "yasha.savelyev@gmail.com"
 git config core.hooksPath $HOME\OneDrive\workspacemodules\.git\hooks
-nu "$HOME/OneDrive/dotfiles/scripts/installScoop.nu"
