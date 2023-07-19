@@ -1,6 +1,4 @@
-$homey="C:\Users\yasha"
-$homeyd="$homey\OneDrive"
-$olddir="$homey\dotfiles_old"
-nu -c "mv C:\Users\yasha\scoop\apps\sumatrapdf\current\SumatraPDF-settings.txt $olddir"
-nu -c "sudo ln -s $homeyd\dotfiles\config\sumatra\SumatraPDF-settings.txt $homey\scoop\apps\sumatrapdf\current\SumatraPDF-settings.txt"
+$olddir="$HOME\dotfiles_old"
+nu -c "mv $HOME\scoop\apps\sumatrapdf\current\SumatraPDF-settings.txt $olddir"
+nu -c "sudo ln -s $HOME\OneDrive\dotfiles\config\sumatra\SumatraPDF-settings.txt $HOME\scoop\apps\sumatrapdf\current\SumatraPDF-settings.txt"
 
