@@ -7,8 +7,12 @@ Set-ExecutionPolicy RemoteSigned -Scope CurrentUser # Optional: Needed to run a 
 irm get.scoop.sh | iex
 scoop install nu 
 nu "$HOME/OneDrive/dotfiles/scripts/installScoop.nu"
+$homey="C:\Users\yasha"
+$homeyd="$homey\OneDrive"
+$olddir="$homey\dotfiles_old"
+nu -c "mv $homey\scoop\apps\sumatrapdf\current\SumatraPDF-settings.txt $olddir"
+nu -c "sudo ln -s $homeyd\dotfiles\config\sumatra\SumatraPDF-settings.txt $homey\scoop\apps\sumatrapdf\current\SumatraPDF-settings.txt"
 $dir="$HOME/OneDrive/dotfiles"                    # dotfiles directory
-$olddir="$HOME/dotfiles_old"             # old dotfiles backup directory
 $filesmain = "ctags", "gitconfig", "latexmkrc"    # list of files/folders to symlink in homedir
 $homed="$HOME/OneDrive"
 ##########
