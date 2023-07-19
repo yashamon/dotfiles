@@ -5,7 +5,7 @@ let-env HOME = "C:/Users/yasha"
 let HOMED = "C:/Users/yasha/OneDrive"
 let HOME = "C:/Users/yasha"
 
-def uploadGit [name:string] { nu $"($HOMED)/dotfiles/scripts/uploadGit.nu" $name }
+def uploadGit [name:string, credential:string] { nu $"($HOMED)/dotfiles/scripts/uploadGit.nu" $name $credential }
 def neo [file = ""] {
 neovide --multigrid --novsync $file
 # nvy --maximize $file
