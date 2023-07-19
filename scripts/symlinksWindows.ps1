@@ -41,8 +41,8 @@ mv C:\Users\yasha\AppData\Roaming\nushell\config.nu $olddir
 New-Item -ItemType SymbolicLink -Path "$HOME\AppData\Roaming\nushell\config.nu" -Target $HOME/OneDrive/dotfiles/config/nushell/config.nu
 mv C:\Users\yasha\AppData\Roaming\nushell\env.nu $olddir
 New-Item -ItemType SymbolicLink -Path "$HOME\AppData\Roaming\nushell\env.nu" -Target $HOME/OneDrive/dotfiles/config/nushell/env.nu
-nu "rm $HOME/scoop/apps/summatrapdf/current/SummatraPDF-settings.txt $olddir"
-nu -c "sudo ln -s $HOME//scoop//apps//sumatrapdf//current//SumatraPDF-settings.txt $HOMED//dotfile//confi//sumatr//SumatraPDF-settings.txt"
+nu -c "mv $HOME//scoop//apps/summatrapdf//current//SummatraPDF-settings.txt $olddir"
+nu -c "sudo ln -s $HOMED//dotfile//config//sumatra//SumatraPDF-settings.txt $HOME//scoop//apps//sumatrapdf//current//SumatraPDF-settings.txt"
 New-Item -ItemType SymbolicLink -Path "$HOME/scoop/apps/summatrapdf/current/SummatraPDF-settings.txt" -Target "$HOME/OneDrive/dotfiles/config/SummatraPDF-settings.txt"
 mv $HOME/Users/yasha/AppData/Local/nvim $olddir
 New-Item -ItemType SymbolicLink -Path "$HOME/AppData/Local/nvim" -Target "$HOME/OneDrive/dotfiles/config/nvimnew"
