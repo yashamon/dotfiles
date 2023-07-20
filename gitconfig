@@ -6,4 +6,6 @@
 [credential]
 	helper = store
 [commit]
-	verbose = 1
+	verbose = true
+[core]
+	editor = nvim
