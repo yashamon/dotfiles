@@ -5,3 +5,5 @@
 	selected = manager-core
 [credential]
 	helper = store
+[commit]
+	verbose = 1
