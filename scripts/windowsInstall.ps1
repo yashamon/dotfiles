@@ -50,6 +50,7 @@ New-Item -ItemType SymbolicLink -Path "$HOME\AppData\Roaming\nushell\env.nu" -Ta
 nu -c "mv $HOME\scoop\apps\sumatrapdf\current\SumatraPDF-settings.txt $olddir"
 nu -c "sudo ln -s $HOME\OneDrive\dotfiles\config\sumatra\SumatraPDF-settings.txt $HOME\scoop\apps\sumatrapdf\current\SumatraPDF-settings.txt"
 nu -c "mv $HOME\textmf\bibtex\bib\link $olddir"
+mkdir -p $HOME\textmf\bibtex\bib
 nu -c "sudo ln -s $HOME\OneDrive\workspacemodules\link.bib $HOME\OneDrive\scoop\apps\sumatrapdf\current\SumatraPDF-settings.txt"
 
 

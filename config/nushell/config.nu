@@ -7,8 +7,10 @@ let-env HOMED = $"($env.HOMEPATH)/OneDrive"
 let HOME = $"($env.HOMEPATH)"
 let HOMED = $"($HOME)/OneDrive"
 
-
-def uploadGit [name:string, credential:string] { nu $"($HOMED)/dotfiles/scripts/uploadGit.nu" $name $credential }
+def keyGH [] { open $"($HOMED)/authenticateGH.txt" }
+def uploadGit [name:string] { 
+let key = (keyGH)
+nu $"($HOMED)/dotfiles/scripts/uploadGit.nu" $name (keyGH) }
 def neo [file = ""] {
 neovide --multigrid --novsync $file
 # nvy --maximize $file
