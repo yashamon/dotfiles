@@ -38,6 +38,7 @@ au('Filetype', { pattern = 'tex', command = 'vmap q xi<CR><CR><CR><CR><ESC>kki/b
 -- au('TextYankPost',  {command =  'silent! call neoyank#_append()'} )
 
 au('TermClose', {command = "if v:event.status ==1 || v:event.status ==0  | exe 'bdelete! '..expand('<abuf>') | endif"})
+au('BufLeave', { command = "lua if vim.api.nvim_buf_get_option(0, 'buftype') == 'terminal' then vim.cmd('exe \"bdelete!\"') end" })
 
 -- adapted from https://github.com/ethanholz/nvim-lastplace/blob/main/lua/nvim-lastplace/init.lua
 local ignore_buftype = { "quickfix", "nofile", "help" }
