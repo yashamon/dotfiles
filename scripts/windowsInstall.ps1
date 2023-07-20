@@ -7,6 +7,10 @@ Set-ExecutionPolicy RemoteSigned -Scope CurrentUser # Optional: Needed to run a 
 irm get.scoop.sh | iex
 scoop install nu 
 nu "$HOME/OneDrive/dotfiles/scripts/installScoop.nu"
+
+# may need developer mode
+# sudo reg add "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\AppModelUnlock" /t REG_DWORD /f /v "AllowDevelopmentWithoutDevLicense" /d "1"
+
 $olddir="$HOME/dotfiles_old"
 $dir="$HOME/OneDrive/dotfiles"                    # dotfiles directory
 $filesmain = "ctags", "gitconfig", "latexmkrc"    # list of files/folders to symlink in homedir
@@ -44,8 +48,11 @@ New-Item -ItemType SymbolicLink -Path "$HOME\AppData\Roaming\nushell\config.nu" 
 mv C:\Users\yasha\AppData\Roaming\nushell\env.nu $olddir
 New-Item -ItemType SymbolicLink -Path "$HOME\AppData\Roaming\nushell\env.nu" -Target $HOME/OneDrive/dotfiles/config/nushell/env.nu
 nu -c "mv $HOME\scoop\apps\sumatrapdf\current\SumatraPDF-settings.txt $olddir"
-nu -c "sudo ln -s $homed\dotfiles\config\sumatra\SumatraPDF-settings.txt $homey\scoop\apps\sumatrapdf\current\SumatraPDF-settings.txt"
-New-Item -ItemType SymbolicLink -Path "$HOME/scoop/apps/summatrapdf/current/SummatraPDF-settings.txt" -Target "$HOME/OneDrive/dotfiles/config/SummatraPDF-settings.txt"
+nu -c "sudo ln -s $HOME\OneDrive\dotfiles\config\sumatra\SumatraPDF-settings.txt $HOME\scoop\apps\sumatrapdf\current\SumatraPDF-settings.txt"
+nu -c "mv $HOME\textmf\bibtex\bib\link $olddir"
+nu -c "sudo ln -s $HOME\OneDrive\workspacemodules\link.bib $HOME\OneDrive\scoop\apps\sumatrapdf\current\SumatraPDF-settings.txt"
+
+
 mv $HOME/Users/yasha/AppData/Local/nvim $olddir
 New-Item -ItemType SymbolicLink -Path "$HOME/AppData/Local/nvim" -Target "$HOME/OneDrive/dotfiles/config/nvimnew"
 mv $HOME/Users/yasha/AppData/Local/lf/lfrc $olddir
@@ -56,4 +63,3 @@ new-Item -ItemType SymbolicLink -Path "$HOME\AppData\Roaming\Microsoft\Windows\S
 git config --global credential.helper store
 git config --global user.name "yashamon"
 git config --global user.email "yasha.savelyev@gmail.com"
-git config core.hooksPath $HOME\OneDrive\workspacemodules\.git\hooks
