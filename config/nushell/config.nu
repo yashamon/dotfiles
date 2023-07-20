@@ -41,8 +41,8 @@ def ink [file = ""] { inkscape $file}
 def pvc [file:string] { latexmk -pdf -pvc -file-line-error -synctex=1  -interaction=nonstopmode -recorder -f $file} 
 def lat [file:string] { latexmk -pvc -pdf -file-line-error -synctex=1 -interaction=nonstopmode -recorder -f -g $file}
 #
-def pushmod [] { git submodule foreach git add . ; git submodule foreach git commit -m -a ; git submodule foreach git push origin master; git add . ; git commit -m -a; git push --all origin }
-def push [] { git add . ; git commit -m -a ; git push --all origin }
+def pushmod [] { git submodule foreach git add . ; git submodule foreach git commit -m -a ; git submodule foreach git push origin master; git add . ; git commit -m $"(git diff --staged)"; git push --all origin }
+def push [] { git add . ; git commit -m $"(git diff --staged)" ; git push --all origin }
 def pull [] { git pull --recurse-submodules ; git submodule update --recursive --remote }
 def pullmaster [] { git pull --recurse-submodules ; git submodule update --recursive --remote ; git submodule foreach git checkout master ; git submodule foreach git pull --all
 }
