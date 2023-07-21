@@ -117,13 +117,33 @@ TreeFontSize = 0
 SmoothScroll = false
 ShowStartPage = true
 CheckForUpdates = false
-WindowState = 2
-WindowPos = -13 0 1920 2069
+WindowState = 3
+WindowPos = -13 0 1920 1920
 UseTabs = true
 UseSysColors = false
 CustomScreenDPI = 0
 
 FileStates [
+	[
+		FilePath = C:\Users\yasha\OneDrive\workspacemodules\GromovFuller\build\GromovFuller.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 14
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 -1
+		PageNo = 1
+		Zoom = 100
+		Rotation = 0
+		WindowState = 3
+		WindowPos = -13 0 1920 1920
+		ShowToc = true
+		SidebarDx = 364
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
 	[
 		FilePath = C:\Users\yasha\workspacemodules\conformalsymplectic\build\conformalsymplectic.pdf
 		Favorites [
@@ -146,7 +166,7 @@ FileStates [
 		]
 		IsPinned = false
 		IsMissing = false
-		OpenCount = 9
+		OpenCount = 1
 		UseDefaultState = false
 		DisplayMode = continuous
 		ScrollPos = 83.0662 64.3734
@@ -161,7 +181,7 @@ FileStates [
 		ReparseIdx = 0
 	]
 	[
-		FilePath = G:\My Drive\books\milnor_morse_theory (1).pdf
+		FilePath = ?:\My Drive\books\milnor_morse_theory (1).pdf
 		Favorites [
 		]
 		IsPinned = false
@@ -181,7 +201,7 @@ FileStates [
 		ReparseIdx = 0
 	]
 	[
-		FilePath = G:\My Drive\books\Petersen.pdf
+		FilePath = ?:\My Drive\books\Petersen.pdf
 		Favorites [
 		]
 		IsPinned = false
@@ -221,7 +241,7 @@ FileStates [
 		ReparseIdx = 0
 	]
 	[
-		FilePath = G:\My Drive\2023classes\exam2.pdf
+		FilePath = ?:\My Drive\2023classes\exam2.pdf
 		Favorites [
 		]
 		IsPinned = false
@@ -241,7 +261,7 @@ FileStates [
 		ReparseIdx = 0
 	]
 	[
-		FilePath = G:\My Drive\2023classes\Mariana Landín\examen_parcial2Graded.pdf
+		FilePath = ?:\My Drive\2023classes\Mariana Landín\examen_parcial2Graded.pdf
 		Favorites [
 		]
 		IsPinned = false
@@ -261,7 +281,7 @@ FileStates [
 		ReparseIdx = 0
 	]
 	[
-		FilePath = G:\My Drive\2023classes\Mariana Landín\exam2023Parcial1_MarianaLandínGraded.pdf
+		FilePath = ?:\My Drive\2023classes\Mariana Landín\exam2023Parcial1_MarianaLandínGraded.pdf
 		Favorites [
 		]
 		IsPinned = false
@@ -281,7 +301,7 @@ FileStates [
 		ReparseIdx = 0
 	]
 	[
-		FilePath = G:\My Drive\2023classes\Ivan Santa Cruz\Examen 2 - DiscretasGraded.pdf
+		FilePath = ?:\My Drive\2023classes\Ivan Santa Cruz\Examen 2 - DiscretasGraded.pdf
 		Favorites [
 		]
 		IsPinned = false
@@ -301,7 +321,7 @@ FileStates [
 		ReparseIdx = 0
 	]
 	[
-		FilePath = G:\My Drive\2023classes\Ivan Santa Cruz\Examen 1 - DiscretasGraded.pdf
+		FilePath = ?:\My Drive\2023classes\Ivan Santa Cruz\Examen 1 - DiscretasGraded.pdf
 		Favorites [
 		]
 		IsPinned = false
@@ -2624,7 +2644,7 @@ FileStates [
 SessionData [
 ]
 TimeOfLastUpdateCheck = 0 0
-OpenCountWeek = 652
+OpenCountWeek = 655
 
 # Settings below are not recognized by the current version
 "C = \Users\yasha\dotfiles\scripts\remote2.nu" %l $

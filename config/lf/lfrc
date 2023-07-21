@@ -64,8 +64,9 @@ set -- $(cat ~/.local/share/lf/files)
 # set cleaner ~/.config/lf/cleaner
 cmd namepaste $cp-p --lf-paste $id  
 # map gc :namepaste
-map p !pwsh.bat -c "/Users/yasha/OneDrive/dotfiles/scripts/robo.ps1" $Env:fx 
-map gp :paste
+cmd robopaste $pwsh -nop -c "/Users/yasha/OneDrive/dotfiles/scripts/robo.ps1" $Env:fx
+map gp :robopaste 
+map p :paste
 cmd findfile $nu "C:\\Users\\yasha\\OneDrive\\dotfiles\\scripts\\findfile.nu"
 map <a-f> :findfile
 
@@ -254,7 +255,7 @@ cmd zle-init :{{
 # y (select for copy) and P to paste soft-link
 # d (select for cut) and P to paste hard-link
 cmd link %pwsh -nop -c C:\Users\yasha\OneDrive\dotfiles\scripts\lfLn.ps1 $Env:fx
-map gP :link
+map gL :link
 
 
 cmd yank-dirname $dirname -- "$f" | head -c-1 | xclip -i -selection clipboard
