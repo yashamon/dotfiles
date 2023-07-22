@@ -95,7 +95,7 @@ end
 
 Job = function(string)
 -- local buff = vim.fn.bufname()
-local jobstring = 'call jobstart(\'' .. 'nu -c \'' .. string .. '\'\')'
+local jobstring = 'call jobstart(\'' .. 'nu -c \'' .. string .. '\')'
 vim.cmd(jobstring)
 -- vim.cmd('echo "job start success"')
 end
