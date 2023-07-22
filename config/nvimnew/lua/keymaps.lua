@@ -38,6 +38,8 @@ map({'n', 'v'}, '<leader>c', 'gc', {remap = true})
 -- nmap <m-8> :set laststatus=0<cr>:set lines=100<cr>:set guifont=Fira\ Code:h18<cr>:set columns=100<cr>
 map('n', '<c-l>', function() vim.cmd('bnext') end, {})
 map('n', '<c-h>', function() vim.cmd('bprevious') end, {})
+map('t', '<c-h>', function() vim.cmd('bprevious') end, {})
+map('t', '<c-l>', function() vim.cmd('bnext') end, {})
 map('n', '<m-t>', function() vim.cmd('up'); vim.cmd('BTags') end, {})
 -- map('n', 'z=', function() Feedkey('i', 'z=') end)
 -- Telescope
@@ -86,12 +88,8 @@ map('n', '<leader>r', function () vim.cmd('up | e') end, {})
 map('t', '<A-`>', '<C-\\><C-n>', {remap=true})
 
 -- Latex maps
-map('n', '<leader>v', function ()
-	vim.fn.ViewPdf()
-end)
-map({'i', 'n'}, '<m-v>', function ()
-	vim.fn.ViewPdf()
-end)
+map('n', '<leader>v', ViewPdf2, {})
+map({'i', 'n'}, '<m-v>', ViewPdf2, {})
 map('n', '<leader>ll',  vim.fn.CompileLatex, {})
 map('n', '<leader>lcl', vim.fn.ClearLatex, {})
 

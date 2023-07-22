@@ -1,4 +1,4 @@
-local path = '~/dotfiles/config/nvim'
+local path = '~/OneDrive/dotfiles/config/nvim'
 -- .. vim.fn.stdpath("data")
 local lazypath = vim.fn.stdpath("data") .. "/lazy/lazy.nvim"
 if not vim.loop.fs_stat(lazypath) then
@@ -343,7 +343,6 @@ silent exec execstrWindowsTectonic
 silent exec execstrViewer
 silent execute "buffer" buf
 endfunction
-nnoremap <C-p> "0p
 ]])
 
  -- " multiple indentation/deindentation in visual mode

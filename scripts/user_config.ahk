@@ -223,6 +223,10 @@ send a
 sleep 50
 SendInput {enter}
 }
+else 
+{
+send a
+}
 period := false
 mark := false
 return

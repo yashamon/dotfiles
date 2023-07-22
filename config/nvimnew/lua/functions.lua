@@ -97,17 +97,36 @@ Job = function(string)
 -- local buff = vim.fn.bufname()
 local jobstring = 'call jobstart(\'' .. 'nu -c "' .. string .. '"\')'
 vim.cmd(jobstring)
-vim.cmd('echo "job start success"')
--- vim.cmd("buffer " .. buff) test
+-- vim.cmd('echo "job start success"')
 end
 
 GitAsync = function()
 -- local buff = vim.fn.bufname()
 local commandsentence = 'if ((git rev-parse --is-inside-work-tree) | into bool ) {rm git.log; git add . | save --append git.log; git commit -m (git diff --staged) | save --append git.log; git push --all origin} | save --append git.log'
-GitJobId = Job(commandsentence)
+Job(commandsentence)
 -- vim.cmd("buffer " .. buff) 
 end
 
+ViewPdf2 = function()
+vim.cmd('up')
+Server()
+local linenumber = vim.api.nvim_win_get_cursor(0)[1]
+local colnumber = vim.api.nvim_win_get_cursor(0)[2] 
+local filenamedir = vim.fn.expand('%:p:h')
+local filenametex = vim.fn.expand('%:p:t')
+local filenametexwhole = vim.fn.expand('%:p')
+local filenameroot = vim.fn.expand('%:t:r')
+-- local filenamePDFLinux=filenamedir .. "/buildback/" .. filenameroot .. ".pdf"
+local filenamePDFWindows="build/" .. filenameroot .. ".pdf"
+local execstrWindowsTectonic="tectonic " .. filenametex .. " --outdir build --synctex --keep-logs"
+-- let execstrViewerSio="silent te pwsh -nop -c C:/Users/yasha/scoop/apps/sioyek/current/sioyek --forward-search-file " . filenametex . " --forward-search-line " . linenumber
+local execstrViewer = "C:/Users/yasha/scoop/shims/sumatrapdf.EXE -reuse-instance " .. filenamePDFWindows .. " -forward-search " .. filenametex .. " " .. linenumber
+-- let execstrWindows2="silent te pwsh -nop -c C:/Users/yasha/scoop/shims/sumatrapdf.EXE -reuse-instance " . b:filenamePDFWindows . " -forward-search " . filenametex . " " . linenumber
+-- let execstrWindows1="silent te pwsh -nop -c latexmk  -synctex=1 -file-line-error -f -interaction=nonstopmode " . filenametex
+Job("mkdir build")
+Job(execstrWindowsTectonic)
+Job(execstrViewer)
+end
 --
 OnUIEnter = function(event)
 	 	local ui = vim.api.nvim_get_chan_info(event.chan)

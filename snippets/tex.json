@@ -174,7 +174,7 @@
     },  
 
 "cdot": {
-    "prefix": "cd",
+    "prefix": ["cd", "cdot"],
     "body": [
         "\\cdot $0"
        ],
