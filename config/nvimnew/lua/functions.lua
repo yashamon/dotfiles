@@ -104,7 +104,7 @@ GitAsync = function()
 Command1 = 'if ((git rev-parse --is-inside-work-tree) | into bool) {git add .; git diff --staged | save --force message.txt; git commit -F message.txt; git push --all origin}'
 Job(Command1)
 end
-
+-- test
 ViewPdf2 = function()
 vim.cmd('up')
 Server()
