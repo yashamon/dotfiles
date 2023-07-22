@@ -1,8 +1,16 @@
 diff --git a/config/nvimnew/lua/functions.lua b/config/nvimnew/lua/functions.lua
-index bfce9ad02..a816650ab 100644
+index bfce9ad02..8d7f154d5 100644
 --- a/config/nvimnew/lua/functions.lua
 +++ b/config/nvimnew/lua/functions.lua
-@@ -101,11 +101,12 @@ end
+@@ -95,17 +95,18 @@ end
+ 
+ Job = function(string)
+ -- local buff = vim.fn.bufname()
+-local jobstring = 'call jobstart("' .. 'nu -c \'' .. string .. '\'")'
+-vim.cmd(jobstring)
++local jobstring = 'call jobstart(\'' .. 'nu -c "' .. string .. '"\')'
++print(jobstring)
+ end
  
  GitAsync = function()
  -- local buff = vim.fn.bufname()
@@ -19,3 +27,30 @@ index bfce9ad02..a816650ab 100644
  ViewPdf2 = function()
  vim.cmd('up')
  Server()
+diff --git a/config/nvimnew/lua/message.txt b/config/nvimnew/lua/message.txt
+new file mode 100644
+index 000000000..d8777d022
+--- /dev/null
++++ b/config/nvimnew/lua/message.txt
+@@ -0,0 +1,21 @@
++diff --git a/config/nvimnew/lua/functions.lua b/config/nvimnew/lua/functions.lua
++index bfce9ad02..a816650ab 100644
++--- a/config/nvimnew/lua/functions.lua
+++++ b/config/nvimnew/lua/functions.lua
++@@ -101,11 +101,12 @@ end
++ 
++ GitAsync = function()
++ -- local buff = vim.fn.bufname()
++-Job("git diff --staged | save --force message.txt")
++-local commandsentence = 'if ((git rev-parse --is-inside-work-tree) | into bool ) {git add . ; git commit -F message.txt; git push --all origin}'
++-Job(commandsentence)
+++Command1 = 'if ((git rev-parse --is-inside-work-tree) | into bool) {git add .; git diff --staged | save --force message.txt}'
+++Job(Command1)
+++local command2 = 'if ((git rev-parse --is-inside-work-tree) | into bool) {git commit -F message.txt; git push --all origin}'
+++Job(command2)
++ end
++--- test2 test3
+++-- test2 test3 test4asdflkj
++ ViewPdf2 = function()
++ vim.cmd('up')
++ Server()
