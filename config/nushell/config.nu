@@ -21,7 +21,7 @@ nvy --maximize $file
 def swap [] {
 rm $"($HOME)/AppData/Local/nvim-data/swap/*"
 }
-# let profile = $"($HOMED)/dotfiles/config/nvim/init.vim"
+# test let profile = $"($HOMED)/dotfiles/config/nvim/init.vim"
 def nf [] {
 let $ho = (fd . $HOMED -H -E /.undo/* -E /undo/* -E /tmp/* -E *.pdf | fzf | str trim)
 # neovide --multigrid $ho 
