@@ -95,17 +95,18 @@ end
 
 Job = function(string)
 -- local buff = vim.fn.bufname()
-local jobstring = 'call jobstart("' .. 'nu -c \'' .. string .. '\'")'
-vim.cmd(jobstring)
+local jobstring = 'call jobstart(\'' .. 'nu -c "' .. string .. '"\')'
+print(jobstring)
 end
 
 GitAsync = function()
 -- local buff = vim.fn.bufname()
-Job("git diff --staged | save --force message.txt")
-local commandsentence = 'if ((git rev-parse --is-inside-work-tree) | into bool ) {git add . ; git commit -F message.txt; git push --all origin}'
-Job(commandsentence)
+Command1 = 'if ((git rev-parse --is-inside-work-tree) | into bool) {git add .; git diff --staged | save --force message.txt}'
+Job(Command1)
+local command2 = 'if ((git rev-parse --is-inside-work-tree) | into bool) {git commit -F message.txt; git push --all origin}'
+Job(command2)
 end
--- test2 test3
+-- test2 test3 test4asdflkj
 ViewPdf2 = function()
 vim.cmd('up')
 Server()
