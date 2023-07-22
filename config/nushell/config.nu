@@ -13,7 +13,6 @@ let key = (keyGH)
 nu $"($HOMED)/dotfiles/scripts/uploadGit.nu" $name (keyGH) }
 def neo [file = ""] {
 neovide --multigrid --novsync $file
-# nvy --maximize $file
 }
 def vi [file = ""] {
 nvy --maximize $file
