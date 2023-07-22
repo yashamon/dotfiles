@@ -95,16 +95,16 @@ end
 
 Job = function(string)
 -- local buff = vim.fn.bufname()
-local jobstring = 'call jobstart(\'' .. 'nu -c \'' .. string .. '\')'
-print(jobstring)
--- vim.cmd('echo "job start success"')
+local jobstring = 'call jobstart("' .. 'nu -c \'' .. string .. '\'")'
+vim.cmd(jobstring)
+-- vim.cmd('echo "job start success"') test
 end
 
 GitAsync = function()
 -- local buff = vim.fn.bufname()
-local commandsentence = 'if ((git rev-parse --is-inside-work-tree) | into bool ) {rm git.log; touch git.log; git add . | save --append git.log; git commit -m $"\n (git diff --staged)" | save --append git.log; git push --all origin} | save --append git.log'
-Job(commandsentence)
--- vim.cmd("buffer " .. buff) 
+Commandsentence = 'if ((git rev-parse --is-inside-work-tree) | into bool ) {rm git.log; touch git.log; git add . | save --append git.log; git commit -m $\\"\\n (git diff --staged)\\" | save --append git.log; git push --all origin} | save --append git.log'
+Command2 = 'git commit -m $\\"\\n (git diff --staged)\\"'
+Job(Commandsentence)
 end
 
 ViewPdf2 = function()
