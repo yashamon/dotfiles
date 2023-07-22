@@ -16,8 +16,7 @@ neovide --multigrid --novsync $file
 # nvy --maximize $file
 }
 def vi [file = ""] {
-nvy $file
-# nvy --maximize $file
+nvy --maximize $file
 }
 
 def swap [] {
