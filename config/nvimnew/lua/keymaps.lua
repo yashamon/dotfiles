@@ -39,7 +39,7 @@ map({'n', 'v'}, '<leader>c', 'gc', {remap = true})
 map('n', '<c-l>', function() vim.cmd('bnext') end, {})
 map('n', '<c-h>', function() vim.cmd('bprevious') end, {})
 map('n', '<m-t>', function() vim.cmd('up'); vim.cmd('BTags') end, {})
-
+-- map('n', 'z=', function() Feedkey('i', 'z=') end)
 -- Telescope
 map('n', '<m-b>', function() require('telescope.builtin').find_files({layout_strategy='vertical',layout_config={width=0.9}}) end, {})
 map('n', '<m-b>', function()  require('telescope.builtin').buffers({layout_strategy='vertical',layout_config={width=0.9}}) end, {})

@@ -492,7 +492,7 @@ text({"","\\end{document}"}),
 -- Mind that this will extend  `ls.snippets` so you need to do it after your own snippets or you
 -- will need to extend the table yourself instead of setting a new one.
 ]]
-require("luasnip/loaders/from_vscode").lazy_load({ paths = "C:/Users/yasha/dotfiles/snippets"})
+require("luasnip/loaders/from_vscode").lazy_load({ paths = "C:/Users/yasha/OneDrive/dotfiles/snippets"})
 -- You can also use lazy loading so you only get in memory snippets of languages you use
 
 

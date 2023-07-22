@@ -92,16 +92,20 @@ CG = function()
 	LoadSentence()
 end
 
-JobStartString = function(string)
-	local jobstring = 'call jobstart(\'' .. string .. '\')'
-	print(jobstring)
+
+Job = function(string)
+-- local buff = vim.fn.bufname()
+local jobstring = 'call jobstart(\'' .. 'nu -c "' .. string .. '"\')'
+vim.cmd(jobstring)
+vim.cmd('echo "job start success"')
+-- vim.cmd("buffer " .. buff) test
 end
+
 GitAsync = function()
-Server()
-local buff = vim.fn.bufname()
-local commandsentence = 'call jobstart(\'' .. 'nu -c "if ( ((git rev-parse --is-inside-work-tree) | into bool) and ((git rev-parse --git-dir) == ".git") ) { git add . ; git commit -m (git diff --staged); git push --all origin} | save ./git.log"' .. '\')'
-vim.cmd(commandsentence)
-vim.cmd("buffer " .. buff)
+-- local buff = vim.fn.bufname()
+local commandsentence = 'if ((git rev-parse --is-inside-work-tree) | into bool ) { git add . | save --append git.log; git commit -m (git diff --staged) | save --append git.log; git push --all origin} | save --append git.log'
+Job(commandsentence)
+-- vim.cmd("buffer " .. buff) test
 end
 
 --
