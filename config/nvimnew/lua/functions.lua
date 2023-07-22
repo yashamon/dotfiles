@@ -105,7 +105,7 @@ GitAsync = function()
 -- local buff = vim.fn.bufname()
 local commandsentence = 'if ((git rev-parse --is-inside-work-tree) | into bool ) { git add . | save --append git.log; git commit -m (git diff --staged) | save --append git.log; git push --all origin} | save --append git.log'
 Job(commandsentence)
--- vim.cmd("buffer " .. buff) test
+-- vim.cmd("buffer " .. buff) 
 end
 
 --
