@@ -446,7 +446,7 @@ requires = {
     },
 -- ... Your other configuration ...
 sources = cmp.config.sources({
--- { name = 'tags', keyword_length = 4 },
+{ name = 'tags', keyword_length = 4 },
 { name = 'nvim_lsp', keyword_length = 2 },
 { name = 'luasnip', keyword_length = 2 },
 -- { name = 'omni', keyword_length = 4},
