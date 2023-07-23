@@ -13,7 +13,7 @@ nu "$HOME/OneDrive/dotfiles/scripts/installScoop.nu"
 
 $olddir="$HOME/dotfiles_old"
 $dir="$HOME/OneDrive/dotfiles"                    # dotfiles directory
-$filesmain = "ctags", "gitconfig", "latexmkrc"    # list of files/folders to symlink in homedir
+$filesmain = "ctags", "gitconfig", "latexmkrc", "gitignore"    # list of files/folders to symlink in homedir
 $homed="$HOME/OneDrive"
 ##########
 
