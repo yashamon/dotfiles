@@ -1,0 +1,11 @@
+[user]
+	email = yasha.savelyev@gmail.com
+	name = yashamon
+[credential "helperselector"]
+	selected = manager-core
+[credential]
+	helper = store
+[commit]
+	verbose = true
+[core]
+	editor = nvim
