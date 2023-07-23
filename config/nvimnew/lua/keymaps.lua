@@ -17,7 +17,7 @@ command('Sao', function(file) vim.cmd('saveas! ' .. file.args) end, { nargs=1 })
 command('Keymap', "lua require('telescope.builtin').keymaps({layout_strategy='vertical',layout_config={width=0.9}})", {})
 command('Cmd', "lua require('telescope.builtin').commands({layout_strategy='vertical',layout_config={width=0.9}})", {})
 command('Trim', "lua MiniTrailspace.trim()", {})
-command('Ctags', 'lua Job('ctags ~/OneDrive/dotfiles/link.bib', {})
+command('Ctags', "lua Job('ctags ~/OneDrive/dotfiles/link.bib')", {})
 
 -- FZF Neoyank yank
 
@@ -26,7 +26,6 @@ map('n', '<leader>P', function()vim.cmd('FZFNeoyank + P') end,{})
 map('n', '<leader>0p', function() vim.cmd('FZFNeoyank 0 p') end,{})
 map('n', '<leader>h', function() vim.cmd('Telescope yank_history') end,{})
 map('v', '<leader>p',  function () vim.cmd('FZFNeoyankSelection +') end, {})
-
 
 map('n', '<leader>f', function() vim.cmd('up'); Server(); vim.cmd('te lf'); Feedkey('i','i') end, {})
 map('n', '<leader>lg', function() vim.cmd('up'); Server(); vim.cmd('te lazygit'); Feedkey('i','i') end, {})
