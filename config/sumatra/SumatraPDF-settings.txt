@@ -117,7 +117,7 @@ TreeFontSize = 0
 SmoothScroll = false
 ShowStartPage = true
 CheckForUpdates = false
-WindowState = 1
+WindowState = 3
 WindowPos = -13 0 1920 1920
 UseTabs = true
 UseSysColors = false
@@ -134,14 +134,14 @@ FileStates [
 		]
 		IsPinned = false
 		IsMissing = false
-		OpenCount = 32
+		OpenCount = 34
 		UseDefaultState = false
 		DisplayMode = continuous
-		ScrollPos = -1 64.0161
+		ScrollPos = -1 63.9795
 		PageNo = 2
 		Zoom = fit content
 		Rotation = 0
-		WindowState = 1
+		WindowState = 3
 		WindowPos = -13 0 1920 1920
 		ShowToc = false
 		SidebarDx = 364
@@ -170,14 +170,14 @@ FileStates [
 		]
 		IsPinned = false
 		IsMissing = false
-		OpenCount = 3
+		OpenCount = 4
 		UseDefaultState = false
 		DisplayMode = continuous
-		ScrollPos = 83.0662 64.3734
-		PageNo = 2
+		ScrollPos = -1 64.1978
+		PageNo = 38
 		Zoom = fit content
 		Rotation = 0
-		WindowState = 2
+		WindowState = 3
 		WindowPos = -13 0 1920 1920
 		ShowToc = false
 		SidebarDx = 364
@@ -2646,6 +2646,32 @@ FileStates [
 	]
 ]
 SessionData [
+	[
+		TabStates [
+			[
+				FilePath = C:\Users\yasha\OneDrive\workspacemodules\conformalsymplectic\build\conformalsymplectic.pdf
+				DisplayMode = continuous
+				PageNo = 38
+				Zoom = fit content
+				Rotation = 0
+				ScrollPos = -1 64.1978
+				ShowToc = false
+			]
+			[
+				FilePath = C:\Users\yasha\OneDrive\workspacemodules\GromovFuller\build\GromovFuller.pdf
+				DisplayMode = continuous
+				PageNo = 2
+				Zoom = fit content
+				Rotation = 0
+				ScrollPos = -1 63.9795
+				ShowToc = false
+			]
+		]
+		TabIndex = 2
+		WindowState = 3
+		WindowPos = -13 0 1920 1920
+		SidebarDx = 364
+	]
 ]
 TimeOfLastUpdateCheck = 0 0
 OpenCountWeek = 655
