@@ -308,41 +308,41 @@ function! Send()
   exec execstr
   silent execute "buffer" buf
   endfunction
-function! CompileLatex()
-  " silent call ClearLatex()
-	up
-  let buf=bufname()
-  silent te pwsh -nop -c latexmk -pvc -halt-on-error -synctex=1 -file-line-error -f %
-  silent execute "buffer" buf
-  call ViewPdf()
-  call feedkeys("\<cr>")
-endfunction
-
-function! ViewPdf()
-up
-let buf=bufname()
-lua Server()
-let linenumber=line(".")
-let colnumber=col(".")
-let b:filenamedir=expand('%:p:h')
-let filenametex=expand('%:p:t')
-let filenametexwhole=expand('%:p')
-let filenameroot=expand('%:t:r')
-" let filenamePDF=filename[:-4]."pdf"
-let filenamePDFLinux=b:filenamedir . "/buildback/" . filenameroot . ".pdf"
-let b:filenamePDFWindows="build/" . filenameroot . ".pdf"
-" echo b:filenamePDFWindows
-let execstrLinux="silent te zathura --synctex-forward " . linenumber . ":" . colnumber . ":" . filenametexwhole . " " . filenamePDFLinux
-let execstrWindowsTectonic="call jobstart(\"pwsh -nop -c tectonic " . filenametex . " --outdir build --synctex --keep-logs \")"
-let execstrViewerSio="silent te pwsh -nop -c C:/Users/yasha/scoop/apps/sioyek/current/sioyek --forward-search-file " . filenametex . " --forward-search-line " . linenumber 
-let execstrViewer="call jobstart(\"C:/Users/yasha/scoop/shims/sumatrapdf.EXE -reuse-instance " . b:filenamePDFWindows . " -forward-search " . filenametex . " " . linenumber . "\")"
-let execstrWindows2="silent te pwsh -nop -c C:/Users/yasha/scoop/shims/sumatrapdf.EXE -reuse-instance " . b:filenamePDFWindows . " -forward-search " . filenametex . " " . linenumber
-let execstrWindows1="silent te pwsh -nop -c latexmk  -synctex=1 -file-line-error -f -interaction=nonstopmode " . filenametex  
-silent te nu -c "mkdir build"
-silent exec execstrWindowsTectonic 
-silent exec execstrViewer
-silent execute "buffer" buf
-endfunction
+" function! CompileLatex()
+"   " silent call ClearLatex()
+" 	up
+"   let buf=bufname()
+"   silent te pwsh -nop -c latexmk -pvc -halt-on-error -synctex=1 -file-line-error -f %
+"   silent execute "buffer" buf
+"   call ViewPdf()
+"   call feedkeys("\<cr>")
+" endfunction
+"
+" function! ViewPdf()
+" up
+" let buf=bufname()
+" lua Server()
+" let linenumber=line(".")
+" let colnumber=col(".")
+" let b:filenamedir=expand('%:p:h')
+" let filenametex=expand('%:p:t')
+" let filenametexwhole=expand('%:p')
+" let filenameroot=expand('%:t:r')
+" " let filenamePDF=filename[:-4]."pdf"
+" let filenamePDFLinux=b:filenamedir . "/buildback/" . filenameroot . ".pdf"
+" let b:filenamePDFWindows="build/" . filenameroot . ".pdf"
+" " echo b:filenamePDFWindows
+" let execstrLinux="silent te zathura --synctex-forward " . linenumber . ":" . colnumber . ":" . filenametexwhole . " " . filenamePDFLinux
+" let execstrWindowsTectonic="call jobstart(\"pwsh -nop -c tectonic " . filenametex . " --outdir build --synctex --keep-logs \")"
+" let execstrViewerSio="silent te pwsh -nop -c C:/Users/yasha/scoop/apps/sioyek/current/sioyek --forward-search-file " . filenametex . " --forward-search-line " . linenumber 
+" let execstrViewer="call jobstart(\"C:/Users/yasha/scoop/shims/sumatrapdf.EXE -reuse-instance " . b:filenamePDFWindows . " -forward-search " . filenametex . " " . linenumber . "\")"
+" let execstrWindows2="silent te pwsh -nop -c C:/Users/yasha/scoop/shims/sumatrapdf.EXE -reuse-instance " . b:filenamePDFWindows . " -forward-search " . filenametex . " " . linenumber
+" let execstrWindows1="silent te pwsh -nop -c latexmk  -synctex=1 -file-line-error -f -interaction=nonstopmode " . filenametex  
+" silent te nu -c "mkdir build"
+" silent exec execstrWindowsTectonic 
+" silent exec execstrViewer
+" silent execute "buffer" buf
+" endfunction
 ]])
 
  -- " multiple indentation/deindentation in visual mode
