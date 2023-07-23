@@ -1,5 +1,6 @@
 local opt = vim.opt
 local home = '/Users/yasha'
+local homed = '/Users/yasha/OneDrive'
 local indent = 2
 local g = vim.g
 local fn = vim.fn
