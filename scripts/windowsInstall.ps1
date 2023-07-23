@@ -53,7 +53,6 @@ nu -c "mv $HOME\textmf\bibtex\bib\link $olddir"
 mkdir -p $HOME\textmf\bibtex\bib
 nu -c "sudo ln -s $HOME\OneDrive\workspacemodules\link.bib $HOME\OneDrive\scoop\apps\sumatrapdf\current\SumatraPDF-settings.txt"
 
-
 mv $HOME/Users/yasha/AppData/Local/nvim $olddir
 New-Item -ItemType SymbolicLink -Path "$HOME/AppData/Local/nvim" -Target "$HOME/OneDrive/dotfiles/config/nvimnew"
 mv $HOME/Users/yasha/AppData/Local/lf/lfrc $olddir
