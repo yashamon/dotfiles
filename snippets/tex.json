@@ -475,7 +475,7 @@
   },
  
  "Corollary": {
-    "prefix": ["crl", "corol"],
+    "prefix": ["corol"],
     "body": [
       "",
       "\\begin{corollary} \\label{cor:$1}", 
@@ -488,7 +488,7 @@
   },
 
 "Theorem": {
-    "prefix": ["thm", "theorem"],
+    "prefix": ["theorem"],
     "body": [
       "",
       "\\begin{theorem} \\label{thm:$1}", 
