@@ -106,26 +106,26 @@ return
 ;;Send !{Esc}
 ;return
 #a::
-Send {LWin down}{LCtrl down}{Right down}{LWin up}{LCtrl up}{Right up}
+Send {LWin down}{LCtrl down}{Left down}{LWin up}{LCtrl up}{Left up}
 sleep 20
-Send {LWin down}{LCtrl down}{Right down}{LWin up}{LCtrl up}{Right up}
+Send {LWin down}{LCtrl down}{Left down}{LWin up}{LCtrl up}{Left up}
 sleep 20
-Send {LWin down}{LCtrl down}{Right down}{LWin up}{LCtrl up}{Right up}
+Send {LWin down}{LCtrl down}{Left down}{LWin up}{LCtrl up}{Left up}
 sleep 20
-Send {LWin down}{LCtrl down}{Right down}{LWin up}{LCtrl up}{Right up}
+Send {LWin down}{LCtrl down}{Left down}{LWin up}{LCtrl up}{Left up}
 sleep 20
-Send {LWin down}{LCtrl down}{Right down}{LWin up}{LCtrl up}{Right up}
+Send {LWin down}{LCtrl down}{Left down}{LWin up}{LCtrl up}{Left up}
 return
 #S::
-Send {LWin down}{LCtrl down}{Right down}{LWin up}{LCtrl up}{Right up}
+Send {LWin down}{LCtrl down}{Left down}{LWin up}{LCtrl up}{Left up}
 sleep 20
-Send {LWin down}{LCtrl down}{Right down}{LWin up}{LCtrl up}{Right up}
+Send {LWin down}{LCtrl down}{Left down}{LWin up}{LCtrl up}{Left up}
 sleep 20
-Send {LWin down}{LCtrl down}{Right down}{LWin up}{LCtrl up}{Right up}
+Send {LWin down}{LCtrl down}{Left down}{LWin up}{LCtrl up}{Left up}
 sleep 20
-Send {LWin down}{LCtrl down}{Right down}{LWin up}{LCtrl up}{Right up}
+Send {LWin down}{LCtrl down}{Left down}{LWin up}{LCtrl up}{Left up}
 sleep 20
-Send {LWin down}{LCtrl down}{Right down}{LWin up}{LCtrl up}{Right up}
+Send {LWin down}{LCtrl down}{Left down}{LWin up}{LCtrl up}{Left up}
 sleep 20
 Send {LWin down}{LCtrl down}{Right down}{LWin up}{LCtrl up}{Right up}
 ;switchDesktopByNumber(2)
