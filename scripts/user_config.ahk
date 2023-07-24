@@ -102,22 +102,31 @@ return
 ;#A::
 ;switchDesktopByNumber(1)
 ;Send !{Esc}
-;;sleep 100
+;;sleep 20
 ;;Send !{Esc}
 ;return
 #a::
 Send ^#{Left}
+sleep 20
 Send ^#{Left}
+sleep 20
 Send ^#{Left}
+sleep 20
 Send ^#{Left}
+sleep 20
 Send ^#{Left}
 return
 #S::
 Send ^#{Left}
+sleep 20
 Send ^#{Left}
+sleep 20
 Send ^#{Left}
+sleep 20
 Send ^#{Left}
+sleep 20
 Send ^#{Left}
+sleep 20
 Send ^#{Right}
 ;switchDesktopByNumber(2)
 ;Send !{Esc}
@@ -131,39 +140,64 @@ return
 
 #D::
 Send ^#{Left}
+sleep 20
 Send ^#{Left}
+sleep 20
 Send ^#{Left}
+sleep 20
 Send ^#{Left}
+sleep 20
 Send ^#{Left}
+sleep 20
 Send ^#{Left}
+sleep 20
 Send ^#{Right}
+sleep 20
 Send ^#{Right}
+sleep 20
 Send ^#{Right}
+sleep 20
 Send ^#{Right}
 return
 
 #F::
 Send ^#{Left}
+sleep 20
 Send ^#{Left}
+sleep 20
 Send ^#{Left}
+sleep 20
 Send ^#{Left}
+sleep 20
 Send ^#{Left}
+sleep 20
 Send ^#{Left}
+sleep 20
 Send ^#{Right}
+sleep 20
 Send ^#{Right}
+sleep 20
 Send ^#{Right}
+sleep 20
 Send ^#{Right}
 return
 #C::
-switchDesktopByNumber(3)
 Send ^#{Left}
+sleep 20
 Send ^#{Left}
+sleep 20
 Send ^#{Left}
+sleep 20
 Send ^#{Left}
+sleep 20
 Send ^#{Left}
+sleep 20
 Send ^#{Left}
+sleep 20
 Send ^#{Right}
+sleep 20
 Send ^#{Right}
+sleep 20
 Send ^#{Right} 
 return
 
