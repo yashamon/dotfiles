@@ -300,7 +300,7 @@
 "Align numbered": {
     "prefix": ["alin", "alignedn"],
     "body": [
-        "\\begin{align} \\label{eq:$1}",
+        "\\begin{align} \\label{eq_$1}",
         "\t$0",    
         "\\end{align}"
 ],
@@ -385,7 +385,7 @@
     "prefix": "eqnum",
     "body": [
 			"",
-      "\\begin{equation} \\label{eq:$1}",
+      "\\begin{equation} \\label{eq_$1}",
             "$2", 
       "\\end{equation}",
       "$0", 
@@ -396,7 +396,7 @@
  "proposition": {
     "prefix": "proposition",
     "body": [
-      "\\begin{proposition} \\label{prop:$1}",   
+      "\\begin{proposition} \\label{prop_$1}",   
             "$2",
       "\\end{proposition}",
       "$0"
@@ -407,7 +407,7 @@
     "prefix": "question",
     "body": [
 			"",
-      "\\begin{question} \\label{question:$1}", 
+      "\\begin{question} \\label{question_$1}", 
             "$2", 
       "\\end{question}",
       "$0",
@@ -420,7 +420,7 @@
     "prefix": ["remark"],
     "body": [
 			"",
-      "\\begin{remark} \\label{remark:$1}", 
+      "\\begin{remark} \\label{remark_$1}", 
       "$2", 
       "\\end{remark}",
       "$0",
@@ -442,7 +442,7 @@
     "prefix": ["example"],
     "body": [
 			"",
-      "\\begin{example} \\label{example:$1}", 
+      "\\begin{example} \\label{example_$1}", 
       "\\end{example}",
       "$0"
    ],
@@ -452,7 +452,7 @@
     "prefix": ["conjecture"],
     "body": [
       "",
-      "\\begin{conjecture} \\label{conjecture:$1}",
+      "\\begin{conjecture} \\label{conjecture_$1}",
       "$2",
       "\\end{conjecture}",
       "",
@@ -465,7 +465,7 @@
     "prefix": ["lemma"],
     "body": [
       "",
-      "\\begin{lemma} \\label{lemma:$1}",
+      "\\begin{lemma} \\label{lemma_$1}",
       "$2",
       "\\end{lemma}",
       "",
@@ -478,7 +478,7 @@
     "prefix": ["corol"],
     "body": [
       "",
-      "\\begin{corollary} \\label{cor:$1}", 
+      "\\begin{corollary} \\label{cor_$1}", 
       "$2",
       "\\end{corollary}",
       "",
@@ -491,7 +491,7 @@
     "prefix": ["theorem"],
     "body": [
       "",
-      "\\begin{theorem} \\label{thm:$1}", 
+      "\\begin{theorem} \\label{thm_$1}", 
       "$2",
       "\\end{theorem}",
       "",
@@ -557,7 +557,7 @@
   "Section": {
     "prefix": ["section"],
     "body": [
-      "\\section{$1} \\label{sec:$1}"
+      "\\section{$1} \\label{sec_$1}"
       ],
     "description": "Section"
   },
@@ -565,7 +565,7 @@
   "Sub Section": {
     "prefix": ["subsec", "subsection"],
     "body": [
-      "\\subsection{$1} \\label{sec:$1}"
+      "\\subsection{$1} \\label{sec_$1}"
       ],
     "description": "Sub Section"
   },   
@@ -593,7 +593,7 @@
     "prefix": "subsubs",
     "body": [
     "\\subsubsection{${1:}}",
-      "\\label{sec:$1}"
+      "\\label{sec_$1}"
       ],
     "description": "Sub Sub Section"
   },
@@ -630,7 +630,7 @@
       "\t\t\\includegraphics[width=0.95\\textwidth]{figures/$1}",
       "\t\\end{center}",
       "\t\\caption{$3}",
-      "\t\\label{fig:$4}",
+      "\t\\label{fig_$4}",
       "\\end{figure}",
       "$0"
     ],
@@ -642,7 +642,7 @@
       "\\begin{figure}",
       "\t\\includegraphics[width=0.45\\textwidth]{figures/$1}",
       "\t\\caption{$2}",
-      "\t\\label{fig:$3}",
+      "\t\\label{fig_$3}",
       "\\end{figure}",
       "$0"
     ],
@@ -654,7 +654,7 @@
       "\\begin{figure*}",
       "\t\\includegraphics[width=0.45\\textwidth]{figures/$1}",
       "\t\\caption{$2}",
-      "\t\\label{fig:$3}",
+      "\t\\label{fig_$3}",
       "\\end{figure*}",
       "$0"
     ],
@@ -665,7 +665,7 @@
     "body": [
       "\\begin{table}",
       "\t\\caption{$1}",
-      "\t\\label{tab:$2}",
+      "\t\\label{tab_$2}",
       "\t\\begin{center}",
       "\t\t\\begin{tabular}[c]{l|l}",
       "\t\t\t\\hline",
@@ -688,7 +688,7 @@
     "body": [
       "\\begin{table}",
       "\t\\caption{$1}",
-      "\t\\label{tab:$2}",
+      "\t\\label{tab_$2}",
       "\t\\begin{tabular}{${3:ccl}}",
       "\t\t\\toprule",
       "\t\t$4",
@@ -707,7 +707,7 @@
     "body": [
       "\\begin{table*}",
       "\t\\caption{$1}",
-      "\t\\label{tab:$2}",
+      "\t\\label{tab_$2}",
       "\t\\begin{tabular}{${3:ccl}}",
       "\t\t\\toprule",
       "\t\t$4",
@@ -743,7 +743,7 @@
   "Cite": {
     "prefix": "cite",
     "body": [
-      "~\\cite{cite$1} $0"
+      "~\\cite{cite_$1} $0"
     ],
     "description": "Add a cite"
   },
@@ -838,7 +838,7 @@
 "equation reference": {
     "prefix": "eqref",
     "body": [
-      "\\eqref{eq:$2}$0"
+      "\\eqref{eq_$2}$0"
     ],
     "description": "equation Reference"
   },
@@ -1078,7 +1078,7 @@
         "prefix": ["def", "\\definition"],
         "body": [
 						"",
-            "\\begin{definition}\\label{def:$1}", 
+            "\\begin{definition}\\label{def_$1}", 
             "\t$0",
             "\\end{definition}",
 						""
