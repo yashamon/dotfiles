@@ -488,7 +488,7 @@
   },
 
 "Theorem": {
-    "prefix": ["theorem"],
+    "prefix": ["thm", "theorem"],
     "body": [
       "",
       "\\begin{theorem} \\label{thm_$1}", 
