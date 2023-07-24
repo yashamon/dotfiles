@@ -73,7 +73,7 @@ special_keys = {
   -- Obvious candidates are braces and quotes ('([{', ')]}', '`"\'').
   equivalence_classes =
   {
-      {' ', "\r", "\n" },
+      {' ', "\r", "\n", ";" },
       {'\'','"', ':', '=', '#', '&', '%','^', '_', '<', '>', '?', '|', '!', '*', '+', '-', '`', '/', '\\', ',', '.', ';', ']', '[', '}', '{', ')', '(', '$'} },
   -- Leaving the] $appropriate list emapty effectively disables "smart" mode,
   -- and forces auto-jump to be on or off.%
