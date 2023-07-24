@@ -106,13 +106,21 @@ return
 ;;Send !{Esc}
 ;return
 #a::
-Send ^#{Right}
-Send ^#{Right}
-Send ^#{Right}
+Send ^#{Left}
+Send ^#{Left}
+Send ^#{Left}
+Send ^#{Left}
+Send ^#{Left}
 return
 #S::
-switchDesktopByNumber(2)
-Send !{Esc}
+Send ^#{Left}
+Send ^#{Left}
+Send ^#{Left}
+Send ^#{Left}
+Send ^#{Left}
+Send ^#{Right}
+;switchDesktopByNumber(2)
+;Send !{Esc}
 ;sleep 100
 ;Send !{Esc}
 return
