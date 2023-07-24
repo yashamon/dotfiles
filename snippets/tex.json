@@ -478,7 +478,7 @@
     "prefix": ["corol"],
     "body": [
       "",
-      "\\begin{corollary} \\label{cor_$1}", 
+      "\\begin{corollary} \\label{corollary_$1}", 
       "$2",
       "\\end{corollary}",
       "",
