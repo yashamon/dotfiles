@@ -98,13 +98,18 @@ return
 ;   return
 ;}
 ;Return
-#A::
-switchDesktopByNumber(1)
-Send !{Esc}
+
+;#A::
+;switchDesktopByNumber(1)
+;Send !{Esc}
+;;sleep 100
+;;Send !{Esc}
+;return
+#S::
+Send #{Right}#{Right}#{Right}
 ;sleep 100
 ;Send !{Esc}
 return
-
 #S::
 switchDesktopByNumber(2)
 Send !{Esc}
