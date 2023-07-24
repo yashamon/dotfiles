@@ -106,7 +106,9 @@ return
 ;;Send !{Esc}
 ;return
 #a::
-Send ^#{Right},^#{Right},^#{Right}
+Send ^#{Right}
+Send ^#{Right}
+Send ^#{Right}
 return
 #S::
 switchDesktopByNumber(2)
