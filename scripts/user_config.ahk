@@ -106,6 +106,7 @@ return
 ;;Send !{Esc}
 ;return
 #a::
+WinActivate, ahk_class Shell_TrayWnd
 Send {LWin down}{LCtrl down}{Left down}{LWin up}{LCtrl up}{Left up}
 sleep 20
 Send {LWin down}{LCtrl down}{Left down}{LWin up}{LCtrl up}{Left up}
@@ -117,6 +118,8 @@ sleep 20
 Send {LWin down}{LCtrl down}{Left down}{LWin up}{LCtrl up}{Left up}
 return
 #S::
+WinActivate, ahk_class Shell_TrayWnd
+
 Send {LWin down}{LCtrl down}{Left down}{LWin up}{LCtrl up}{Left up}
 sleep 20
 Send {LWin down}{LCtrl down}{Left down}{LWin up}{LCtrl up}{Left up}
@@ -139,6 +142,8 @@ WinClose A
 return
 
 #D::
+WinActivate, ahk_class Shell_TrayWnd
+
 Send {LWin down}{LCtrl down}{Left down}{LWin up}{LCtrl up}{Left up}
 sleep 20
 Send {LWin down}{LCtrl down}{Left down}{LWin up}{LCtrl up}{Left up}
@@ -160,6 +165,8 @@ Send {LWin down}{LCtrl down}{Right down}{LWin up}{LCtrl up}{Right up}
 return
 
 #F::
+WinActivate, ahk_class Shell_TrayWnd
+
 Send {LWin down}{LCtrl down}{Left down}{LWin up}{LCtrl up}{Left up}
 sleep 20
 Send {LWin down}{LCtrl down}{Left down}{LWin up}{LCtrl up}{Left up}
