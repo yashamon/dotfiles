@@ -152,6 +152,11 @@ sleep 20
 Send {LWin down}{LCtrl down}{Right down}{LWin up}{LCtrl up}{Right up}
 sleep 20
 Send {LWin down}{LCtrl down}{Right down}{LWin up}{LCtrl up}{Right up}
+sleep 20
+Send {LWin down}{LCtrl down}{Right down}{LWin up}{LCtrl up}{Right up}
+sleep 20
+Send {LWin down}{LCtrl down}{Right down}{LWin up}{LCtrl up}{Right up}
+
 return
 
 #F::
