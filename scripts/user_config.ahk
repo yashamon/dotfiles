@@ -107,6 +107,7 @@ Send !{Esc}
 return
 
 #S::
+ControlFocus, MSTaskListWClass1, ahk_class Shell_TrayWnd
 switchDesktopByNumber(2)
 Send !{Esc}
 ;sleep 100
