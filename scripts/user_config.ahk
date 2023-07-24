@@ -105,8 +105,8 @@ return
 ;;sleep 100
 ;;Send !{Esc}
 ;return
-#S::
-Send #{Right}#{Right}#{Right}
+#a::
+Send ^#{Right},^#{Right},^#{Right}
 return
 #S::
 switchDesktopByNumber(2)
