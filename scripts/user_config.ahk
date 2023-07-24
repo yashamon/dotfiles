@@ -98,38 +98,16 @@ return
 ;   return
 ;}
 ;Return
-
-;#A::
-;switchDesktopByNumber(1)
+#A::
+switchDesktopByNumber(1)
+Send !{Esc}
+;sleep 100
 ;Send !{Esc}
-;;sleep 20
-;;Send !{Esc}
-;return
-#a::
-Send ^#{Left}
-sleep 20
-Send ^#{Left}
-sleep 20
-Send ^#{Left}
-sleep 20
-Send ^#{Left}
-sleep 20
-Send ^#{Left}
 return
+
 #S::
-Send ^#{Left}
-sleep 20
-Send ^#{Left}
-sleep 20
-Send ^#{Left}
-sleep 20
-Send ^#{Left}
-sleep 20
-Send ^#{Left}
-sleep 20
-Send ^#{Right}
-;switchDesktopByNumber(2)
-;Send !{Esc}
+switchDesktopByNumber(2)
+Send !{Esc}
 ;sleep 100
 ;Send !{Esc}
 return
@@ -139,66 +117,23 @@ WinClose A
 return
 
 #D::
-Send ^#{Left}
-sleep 20
-Send ^#{Left}
-sleep 20
-Send ^#{Left}
-sleep 20
-Send ^#{Left}
-sleep 20
-Send ^#{Left}
-sleep 20
-Send ^#{Left}
-sleep 20
-Send ^#{Right}
-sleep 20
-Send ^#{Right}
-sleep 20
-Send ^#{Right}
-sleep 20
-Send ^#{Right}
+switchDesktopByNumber(4)
+Send !{Esc}
+;sleep 100
+;Send !{Esc}
 return
 
 #F::
-Send ^#{Left}
-sleep 20
-Send ^#{Left}
-sleep 20
-Send ^#{Left}
-sleep 20
-Send ^#{Left}
-sleep 20
-Send ^#{Left}
-sleep 20
-Send ^#{Left}
-sleep 20
-Send ^#{Right}
-sleep 20
-Send ^#{Right}
-sleep 20
-Send ^#{Right}
-sleep 20
-Send ^#{Right}
+switchDesktopByNumber(5)
+Send !{Esc}
+;sleep 100
+;Send !{Esc}
 return
 #C::
-Send ^#{Left}
-sleep 20
-Send ^#{Left}
-sleep 20
-Send ^#{Left}
-sleep 20
-Send ^#{Left}
-sleep 20
-Send ^#{Left}
-sleep 20
-Send ^#{Left}
-sleep 20
-Send ^#{Right}
-sleep 20
-Send ^#{Right}
-sleep 20
-Send ^#{Right} 
+switchDesktopByNumber(3)
+Send !{Esc}
+;sleep 100
+;Send !{Esc} 
 return
 
 #Space::
