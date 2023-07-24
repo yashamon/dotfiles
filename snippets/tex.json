@@ -385,7 +385,7 @@
     "prefix": "eqnum",
     "body": [
 			"",
-      "\\begin{equation} \\label{eq_$1}",
+      "\\begin{equation} \\label{equation_$1}",
             "$2", 
       "\\end{equation}",
       "$0", 
