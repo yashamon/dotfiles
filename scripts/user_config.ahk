@@ -130,23 +130,41 @@ WinClose A
 return
 
 #D::
-switchDesktopByNumber(4)
-Send !{Esc}
-;sleep 100
-;Send !{Esc}
+Send ^#{Left}
+Send ^#{Left}
+Send ^#{Left}
+Send ^#{Left}
+Send ^#{Left}
+Send ^#{Left}
+Send ^#{Right}
+Send ^#{Right}
+Send ^#{Right}
+Send ^#{Right}
 return
 
 #F::
-switchDesktopByNumber(5)
-Send !{Esc}
-;sleep 100
-;Send !{Esc}
+Send ^#{Left}
+Send ^#{Left}
+Send ^#{Left}
+Send ^#{Left}
+Send ^#{Left}
+Send ^#{Left}
+Send ^#{Right}
+Send ^#{Right}
+Send ^#{Right}
+Send ^#{Right}
 return
 #C::
 switchDesktopByNumber(3)
-Send !{Esc}
-;sleep 100
-;Send !{Esc} 
+Send ^#{Left}
+Send ^#{Left}
+Send ^#{Left}
+Send ^#{Left}
+Send ^#{Left}
+Send ^#{Left}
+Send ^#{Right}
+Send ^#{Right}
+Send ^#{Right} 
 return
 
 #Space::
