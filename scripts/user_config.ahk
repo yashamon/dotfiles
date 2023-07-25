@@ -116,6 +116,7 @@ Send ^#{Left}
 sleep 20
 Send ^#{Left}
 sleep 20
+Send !{Esc}
 ;sleep 20
 ;Send {LWin down}{LCtrl down}{Left down}{LWin up}{LCtrl up}{Left up}
 ;sleep 20
