@@ -156,10 +156,10 @@ WinClose A
 return
 
 #D::
-switchDesktopByNumber(4)
+switchDesktopByNumber(3)
 return
 #F::
-switchDesktopByNumber(3)
+switchDesktopByNumber(4)
 return
 #C::
 Send {LWin down}{LCtrl down}{Left down}{LWin up}{LCtrl up}{Left up}
