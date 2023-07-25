@@ -70,7 +70,7 @@
     "body": [
         "\\operatorname {morse} ($1) $0" 
        ],
-    "description": "fukfibration"
+    "description": "morse index"
 },
 
 "Fukinfinity": {
