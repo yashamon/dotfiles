@@ -55,8 +55,6 @@ return
 #l::
 SendInput ^#{Right}
 return
-#h::
-return
 ;k::Send {Up}
 ;Hotkey, k,off
 ;CapsLock & k::
