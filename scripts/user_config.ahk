@@ -141,7 +141,7 @@ sleep 20
 Send ^#{Right}
 sleep 20
 Send !{Esc}
-ControlFocus, Nvim
+ControlFocus, Neovide
 return
 
 ;sleep 20
