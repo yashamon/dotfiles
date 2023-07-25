@@ -110,7 +110,7 @@ _switchDesktopToTarget(targetDesktop)
     LastOpenedDesktop := CurrentDesktop
 
     ; Fixes the issue of active windows in intermediate desktops capturing the switch shortcut and therefore delaying or stopping the switching sequence. This also fixes the flashing window button after switching in the taskbar. More info: https://github.com/pmb6tz/windows-desktop-switcher/pull/19
-    WinActivate, ahk_class Shell_TrayWnd
+    ;WinActivate, ahk_class Shell_TrayWnd
 
     ; Go right until we reach the desktop we want
     while(CurrentDesktop < targetDesktop) {
