@@ -136,6 +136,7 @@ Send ^#{Left}
 sleep 20
 Send ^#{Right}
 sleep 20
+Send !{Esc}
 return
 ;sleep 20
 ;Send {LWin down}{LCtrl down}{Left down}{LWin up}{LCtrl up}{Left up}
@@ -157,9 +158,11 @@ return
 
 #D::
 switchDesktopByNumber(4)
+Send !{Esc}
 return
 #F::
 switchDesktopByNumber(5)
+Send !{Esc}
 return
 #C::
 Send {LWin down}{LCtrl down}{Left down}{LWin up}{LCtrl up}{Left up}
@@ -175,6 +178,7 @@ sleep 20
 Send {LWin down}{LCtrl down}{Right down}{LWin up}{LCtrl up}{Right up}
 sleep 20
 Send {LWin down}{LCtrl down}{Right down}{LWin up}{LCtrl up}{Right up}
+Send !{Esc}
 return
 #Space::
 send {F11}
