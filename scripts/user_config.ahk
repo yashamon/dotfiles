@@ -105,17 +105,17 @@ return
 ;;sleep 20
 ;;Send !{Esc}
 ;return
-#a::
+#A::
 Send {LWin down}{LCtrl down}{Left down}{LWin up}{LCtrl up}{Left up}
-sleep 20
-Send {LWin down}{LCtrl down}{Left down}{LWin up}{LCtrl up}{Left up}
-sleep 20
-Send {LWin down}{LCtrl down}{Left down}{LWin up}{LCtrl up}{Left up}
-sleep 20
-Send {LWin down}{LCtrl down}{Left down}{LWin up}{LCtrl up}{Left up}
-sleep 20
-Send {LWin down}{LCtrl down}{Left down}{LWin up}{LCtrl up}{Left up}
-return
+;sleep 20
+;Send {LWin down}{LCtrl down}{Left down}{LWin up}{LCtrl up}{Left up}
+;sleep 20
+;Send {LWin down}{LCtrl down}{Left down}{LWin up}{LCtrl up}{Left up}
+;sleep 20
+;Send {LWin down}{LCtrl down}{Left down}{LWin up}{LCtrl up}{Left up}
+;sleep 20
+;Send {LWin down}{LCtrl down}{Left down}{LWin up}{LCtrl up}{Left up}
+;return
 #S::
 
 Send {LWin down}{LCtrl down}{Left down}{LWin up}{LCtrl up}{Left up}
