@@ -146,48 +146,11 @@ WinClose A
 return
 
 #D::
-Send ^#{Left}
-Send ^#{Left}
-Send ^#{Left}
-Send ^#{Left}
-Send ^#{Right}
-Send ^#{Right}
-;Send {LWin down}{LCtrl down}{Left down}{LWin up}{LCtrl up}{Left up}
-;sleep 20
-;Send {LWin down}{LCtrl down}{Left down}{LWin up}{LCtrl up}{Left up}
-;sleep 20
-;Send {LWin down}{LCtrl down}{Left down}{LWin up}{LCtrl up}{Left up}
-;sleep 20
-;Send {LWin down}{LCtrl down}{Left down}{LWin up}{LCtrl up}{Left up}
-;sleep 20
-;Send {LWin down}{LCtrl down}{Left down}{LWin up}{LCtrl up}{Left up}
-;sleep 20
-;Send {LWin down}{LCtrl down}{Right down}{LWin up}{LCtrl up}{Right up}
-;sleep 20
-;Send {LWin down}{LCtrl down}{Right down}{LWin up}{LCtrl up}{Right up}
-;sleep 20
-;Send {LWin down}{LCtrl down}{Right down}{LWin up}{LCtrl up}{Right up}
+
 return
 
 #F::
 
-Send {LWin down}{LCtrl down}{Left down}{LWin up}{LCtrl up}{Left up}
-sleep 20
-Send {LWin down}{LCtrl down}{Left down}{LWin up}{LCtrl up}{Left up}
-sleep 20
-Send {LWin down}{LCtrl down}{Left down}{LWin up}{LCtrl up}{Left up}
-sleep 20
-Send {LWin down}{LCtrl down}{Left down}{LWin up}{LCtrl up}{Left up}
-sleep 20
-Send {LWin down}{LCtrl down}{Left down}{LWin up}{LCtrl up}{Left up}
-sleep 20
-Send {LWin down}{LCtrl down}{Right down}{LWin up}{LCtrl up}{Right up}
-sleep 20
-Send {LWin down}{LCtrl down}{Right down}{LWin up}{LCtrl up}{Right up}
-sleep 20
-Send {LWin down}{LCtrl down}{Right down}{LWin up}{LCtrl up}{Right up}
-sleep 20
-Send {LWin down}{LCtrl down}{Right down}{LWin up}{LCtrl up}{Right up}
 return
 #C::
 Send {LWin down}{LCtrl down}{Left down}{LWin up}{LCtrl up}{Left up}
