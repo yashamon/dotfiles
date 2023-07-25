@@ -52,9 +52,13 @@ CapsLock::Esc
 return
 +#h::
 SendInput ^#{Left}
+sleep 20
+Send !{Esc}
 return
 +#l::
 SendInput ^#{Right}
+sleep 20
+Send !{Esc}
 return
 ;k::Send {Up}
 ;Hotkey, k,off
