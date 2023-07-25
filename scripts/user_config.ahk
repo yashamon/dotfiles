@@ -55,7 +55,8 @@ return
 +!l::
 Send ^#{Right}
 return
-
+#h::
+return
 ;k::Send {Up}
 ;Hotkey, k,off
 ;CapsLock & k::
