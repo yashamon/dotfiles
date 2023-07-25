@@ -122,9 +122,13 @@ Send ^#{Left}
 return
 #S::
 Send ^#{Left}
+sleep 20
 Send ^#{Left}
+sleep 20
 Send ^#{Left}
+sleep 20
 Send ^#{Left}
+sleep 20
 Send ^#{Right}
 return
 ;sleep 20
