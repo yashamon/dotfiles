@@ -110,13 +110,13 @@ return
 ;;Send !{Esc}
 ;return
 #A::
-SendEvent {LWin down}{LCtrl down}{Left down}{LWin up}{LCtrl up}{Left up}
+SendInput {LWin down}{LCtrl down}{Left down}{LWin up}{LCtrl up}{Left up}
 sleep 20
-SendEvent {LWin down}{LCtrl down}{Left down}{LWin up}{LCtrl up}{Left up}
+SendInput {LWin down}{LCtrl down}{Left down}{LWin up}{LCtrl up}{Left up}
 sleep 20
-SendEvent {LWin down}{LCtrl down}{Left down}{LWin up}{LCtrl up}{Left up}
+SendInput {LWin down}{LCtrl down}{Left down}{LWin up}{LCtrl up}{Left up}
 sleep 20
-SendEvent {LWin down}{LCtrl down}{Left down}{LWin up}{LCtrl up}{Left up}
+SendInput {LWin down}{LCtrl down}{Left down}{LWin up}{LCtrl up}{Left up}
 sleep 20
 Send !{Esc}
 ;sleep 20
@@ -129,15 +129,15 @@ Send !{Esc}
 ;Send {LWin down}{LCtrl down}{Left down}{LWin up}{LCtrl up}{Left up}
 return
 #S::
-SendEvent {LWin down}{LCtrl down}{Left down}{LWin up}{LCtrl up}{Left up}
+SendInput {LWin down}{LCtrl down}{Left down}{LWin up}{LCtrl up}{Left up}
 sleep 20
-SendEvent {LWin down}{LCtrl down}{Left down}{LWin up}{LCtrl up}{Left up}
+SendInput {LWin down}{LCtrl down}{Left down}{LWin up}{LCtrl up}{Left up}
 sleep 20
-SendEvent {LWin down}{LCtrl down}{Left down}{LWin up}{LCtrl up}{Left up}
+SendInput {LWin down}{LCtrl down}{Left down}{LWin up}{LCtrl up}{Left up}
 sleep 20
-SendEvent {LWin down}{LCtrl down}{Left down}{LWin up}{LCtrl up}{Left up}
+SendInput {LWin down}{LCtrl down}{Left down}{LWin up}{LCtrl up}{Left up}
 sleep 20
-SendEvent {LWin down}{LCtrl down}{Right down}{LWin up}{LCtrl up}{Right up}
+SendInput {LWin down}{LCtrl down}{Right down}{LWin up}{LCtrl up}{Right up}
 sleep 20
 Send !{Esc}
 return
