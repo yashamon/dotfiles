@@ -65,6 +65,14 @@
        ],
     "description": "operator name"
 },
+"morse": {
+    "prefix": "morse",
+    "body": [
+        "\\operatorname {morse} ($1) $0" 
+       ],
+    "description": "fukfibration"
+},
+
 "Fukinfinity": {
     "prefix": "fuki",
     "body": [
