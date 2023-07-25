@@ -50,10 +50,10 @@ CapsLock::Esc
 !Esc::^!Tab
 #h::
 return
-#h::
++#h::
 SendInput ^#{Left}
 return
-#l::
++#l::
 SendInput ^#{Right}
 return
 ;k::Send {Up}
