@@ -130,6 +130,8 @@ Send !{Esc}
 ;Send {LWin down}{LCtrl down}{Left down}{LWin up}{LCtrl up}{Left up}
 return
 #S::
+Send #{Tab}
+sleep 20
 Send ^#{Left}
 sleep 20
 Send ^#{Left}
@@ -139,6 +141,8 @@ sleep 20
 Send ^#{Left}
 sleep 20
 Send ^#{Right}
+sleep 20
+Send #{Tab}
 sleep 20
 Send !{Esc}
 return
