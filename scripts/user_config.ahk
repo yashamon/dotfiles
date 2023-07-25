@@ -108,14 +108,14 @@ return
 ;return
 #A::
 ;Send {LWin down}{Tab down}{Left down}{LWin up}{LCtrl up}{Left up}
-Send {LWin down}{LCtrl down}{Left down}{LWin up}{LCtrl up}{Left up}
-;sleep 20
-;Send ^#{Left}
-;sleep 20
-;Send ^#{Left}
-;sleep 20
-;Send ^#{Left}
-;sleep 20
+Send ^#{Left}
+sleep 20
+Send ^#{Left}
+sleep 20
+Send ^#{Left}
+sleep 20
+Send ^#{Left}
+sleep 20
 Send !{Esc}
 ;sleep 20
 ;Send {LWin down}{LCtrl down}{Left down}{LWin up}{LCtrl up}{Left up}
@@ -127,15 +127,15 @@ Send !{Esc}
 ;Send {LWin down}{LCtrl down}{Left down}{LWin up}{LCtrl up}{Left up}
 return
 #S::
-;Send ^#{Left}
-;sleep 20
-;Send ^#{Left}
-;sleep 20
-;Send ^#{Left}
-;sleep 20
-;Send ^#{Left}
-;sleep 20
-Send {LWin down}{LCtrl down}{Right down}{LWin up}{LCtrl up}{Right up}
+Send ^#{Left}
+sleep 20
+Send ^#{Left}
+sleep 20
+Send ^#{Left}
+sleep 20
+Send ^#{Left}
+sleep 20
+Send ^#{Right}
 sleep 20
 Send !{Esc}
 return
