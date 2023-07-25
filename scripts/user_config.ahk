@@ -129,15 +129,15 @@ Send !{Esc}
 ;Send {LWin down}{LCtrl down}{Left down}{LWin up}{LCtrl up}{Left up}
 return
 #S::
-Send ^#{Left}
+SendEvent {LWin down}{Tab down}{Left down}{LWin up}{LCtrl up}{Left up}
 sleep 20
-Send ^#{Left}
+SendEvent {LWin down}{Tab down}{Left down}{LWin up}{LCtrl up}{Left up}
 sleep 20
-Send ^#{Left}
+SendEvent {LWin down}{Tab down}{Left down}{LWin up}{LCtrl up}{Left up}
 sleep 20
-Send ^#{Left}
+SendEvent {LWin down}{Tab down}{Left down}{LWin up}{LCtrl up}{Left up}
 sleep 20
-Send ^#{Right}
+SendEvent {LWin down}{Tab down}{Right down}{LWin up}{LCtrl up}{Right up}
 sleep 20
 Send !{Esc}
 return
