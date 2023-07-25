@@ -48,7 +48,8 @@ SetCapsLockState AlwaysOff
 CapsLock::Esc
 ;!Tab::!Esc
 !Esc::^!Tab
-
+#h::
+return
 #h::
 SendInput ^#{Left}
 return
