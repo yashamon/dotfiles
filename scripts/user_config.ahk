@@ -126,6 +126,7 @@ Send ^#{Left}
 Send ^#{Left}
 Send ^#{Left}
 Send ^#{Right}
+return
 ;sleep 20
 ;Send {LWin down}{LCtrl down}{Left down}{LWin up}{LCtrl up}{Left up}
 ;sleep 20
@@ -140,7 +141,6 @@ Send ^#{Right}
 ;Send !{Esc}
 ;sleep 100
 ;Send !{Esc}
-return
 #X::
 WinClose A 
 return
@@ -167,7 +167,6 @@ Send {LWin down}{LCtrl down}{Right down}{LWin up}{LCtrl up}{Right up}
 sleep 20
 Send {LWin down}{LCtrl down}{Right down}{LWin up}{LCtrl up}{Right up}
 return
-
 #Space::
 send {F11}
 return
