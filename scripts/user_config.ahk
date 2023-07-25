@@ -346,7 +346,7 @@ Loop {
 }
 
 >!Left::
->!Right:: {
+#{Right}:: {
  Send StrReplace(A_ThisHotkey, '>!', '#^{') '}'
  Try WinActivate hWnd[VirtualDesktops.GetCurrentVirtualDesktopName()]
  SoundBeep 1000
