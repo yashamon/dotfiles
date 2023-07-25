@@ -121,6 +121,10 @@ Send ^#{Left}
 ;Send {LWin down}{LCtrl down}{Left down}{LWin up}{LCtrl up}{Left up}
 return
 #S::
+Send ^#{Left}
+Send ^#{Left}
+Send ^#{Left}
+Send ^#{Left}
 Send ^#{Right}
 ;sleep 20
 ;Send {LWin down}{LCtrl down}{Left down}{LWin up}{LCtrl up}{Left up}
