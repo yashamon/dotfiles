@@ -51,12 +51,12 @@ CapsLock::Esc
 #h::
 return
 +#h::
-SendInput ^#{Left}
+SendEvent ^#{Left}
 sleep 20
 Send !{Esc}
 return
 +#l::
-SendInput ^#{Right}
+SendEvent ^#{Right}
 sleep 20
 Send !{Esc}
 return
