@@ -120,6 +120,7 @@ Send ^#{Left}
 sleep 20
 Send #{Tab}
 Send !{Esc}
+ControlFocus, MSTaskListWClass1, ahk_class Shell_TrayWnd
 ;sleep 20
 ;Send {LWin down}{LCtrl down}{Left down}{LWin up}{LCtrl up}{Left up}
 ;sleep 20
@@ -146,6 +147,8 @@ Send #{Tab}
 sleep 20
 Send !{Esc}
 return
+ControlFocus, MSTaskListWClass1, ahk_class Shell_TrayWnd
+
 ;sleep 20
 ;Send {LWin down}{LCtrl down}{Left down}{LWin up}{LCtrl up}{Left up}
 ;sleep 20
