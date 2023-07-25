@@ -140,6 +140,7 @@ Send ^#{Left}
 sleep 20
 Send ^#{Right}
 sleep 20
+Send !{Esc}
 ControlFocus, MSTaskListWClass1, ahk_class Shell_TrayWnd
 return
 
