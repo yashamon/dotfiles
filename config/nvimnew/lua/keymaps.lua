@@ -29,7 +29,7 @@ map('v', '<leader>p',  function () vim.cmd('FZFNeoyankSelection +') end, {})
 
 map('n', '<leader>f', function() vim.cmd('up'); Server(); vim.cmd('te lf'); Feedkey('i','i') end, {})
 map('n', '<leader>lg', function() vim.cmd('up'); Server(); vim.cmd('te lazygit'); Feedkey('i','i') end, {})
-map('n', '<leader>t', function() vim.cmd('up'); Server(); vim.cmd('edit term://nu') end, {})
+map('n', '<leader>t', function() vim.cmd('up'); Server(); vim.cmd('edit term://nu'); Feedkey('i','i') end, {})
 map('n', '<leader>u', function() vim.cmd('UndotreeToggle') end, {})
 -- map('v', '<leader>c', ':CommentToggle<cr>', {})
 map({'n', 'v'}, '<leader>c', 'gc', {remap = true})
