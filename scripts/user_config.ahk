@@ -49,10 +49,10 @@ CapsLock::Esc
 ;!Tab::!Esc
 !Esc::^!Tab
 
-+!h::
+#h::
 SendInput ^#{Left}
 return
-+!l::
+#l::
 SendInput ^#{Right}
 return
 #h::
