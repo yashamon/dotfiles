@@ -131,8 +131,6 @@ ControlFocus, MSTaskListWClass1, ahk_class Shell_TrayWnd
 ;Send {LWin down}{LCtrl down}{Left down}{LWin up}{LCtrl up}{Left up}
 return
 #S::
-Send #{Tab}
-sleep 20
 Send ^#{Left}
 sleep 20
 Send ^#{Left}
@@ -142,8 +140,6 @@ sleep 20
 Send ^#{Left}
 sleep 20
 Send ^#{Right}
-sleep 20
-Send #{Tab}
 sleep 20
 ControlFocus, MSTaskListWClass1, ahk_class Shell_TrayWnd
 return
