@@ -130,6 +130,7 @@ sleep 20
 Send ^#{Left}
 sleep 20
 Send ^#{Right}
+sleep 20
 return
 ;sleep 20
 ;Send {LWin down}{LCtrl down}{Left down}{LWin up}{LCtrl up}{Left up}
