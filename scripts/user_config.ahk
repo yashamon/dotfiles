@@ -108,7 +108,6 @@ return
 #A::
 ;Send {LWin down}{Tab down}{Left down}{LWin up}{LCtrl up}{Left up}
 Send ^#{Left}
-
 ;sleep 20
 ;Send {LWin down}{LCtrl down}{Left down}{LWin up}{LCtrl up}{Left up}
 ;sleep 20
@@ -120,7 +119,6 @@ Send ^#{Left}
 ;return
 #S::
 Send ^#{Right}
-
 ;sleep 20
 ;Send {LWin down}{LCtrl down}{Left down}{LWin up}{LCtrl up}{Left up}
 ;sleep 20
