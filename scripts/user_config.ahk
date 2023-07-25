@@ -99,7 +99,6 @@ return
 ;}
 ;Return
 #A::
-switchDesktopByNumber(1)
 Send !{Esc}
 ;sleep 100
 ;Send !{Esc}
