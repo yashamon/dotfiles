@@ -110,14 +110,13 @@ return
 ;;Send !{Esc}
 ;return
 #A::
-;Send {LWin down}{Tab down}{Left down}{LWin up}{LCtrl up}{Left up}
-Send ^#{Left}
+SendEvent {LWin down}{Tab down}{Left down}{LWin up}{LCtrl up}{Left up}
 sleep 20
-Send ^#{Left}
+SendEvent {LWin down}{Tab down}{Left down}{LWin up}{LCtrl up}{Left up}
 sleep 20
-Send ^#{Left}
+SendEvent {LWin down}{Tab down}{Left down}{LWin up}{LCtrl up}{Left up}
 sleep 20
-Send ^#{Left}
+SendEvent {LWin down}{Tab down}{Left down}{LWin up}{LCtrl up}{Left up}
 sleep 20
 Send !{Esc}
 ;sleep 20
