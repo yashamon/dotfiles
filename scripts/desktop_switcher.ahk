@@ -127,8 +127,8 @@ _switchDesktopToTarget(targetDesktop)
     }
 
     ; Makes the WinActivate fix less intrusive
-    Sleep, 50
-    focusTheForemostWindow(targetDesktop)
+    ;Sleep, 50
+    ;focusTheForemostWindow(targetDesktop)
 }
 
 updateGlobalVariables()
