@@ -46,6 +46,9 @@
 #Requires AutoHotkey >=1.1.36 <2
 SetCapsLockState AlwaysOff
 CapsLock::Esc
+Esc::
+Send !{Esc}
+return
 ;!Tab::!Esc
 !Esc::^!Tab
 #h::
