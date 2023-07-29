@@ -973,7 +973,7 @@
     "description": "mapsto"
   },
 "composition": {
-    "prefix": "c",
+    "prefix": ["c", "circ"],
     "body": [
      "\\circ $0"
     ],
