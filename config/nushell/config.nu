@@ -7,7 +7,7 @@ let-env HOMED = $"($env.HOMEPATH)/OneDrive"
 let HOME = $"($env.HOMEPATH)"
 let HOMED = $"($HOME)/OneDrive"
 
-def keyGH [] { echo $"($HOMED)/authenticateGH.txt" }
+def keyGH [] { open $"($HOMED)/authenticateGH.txt" }
 def uploadGit [name:string] { 
 let key = (keyGH)
 nu $"($HOMED)/dotfiles/scripts/uploadGit.nu" $name (keyGH) }
