@@ -46,8 +46,7 @@
 #Requires AutoHotkey >=1.1.36 <2
 SetCapsLockState AlwaysOff
 CapsLock::Esc
-Esc::
-Send !{Esc}
+
 return
 ;!Tab::!Esc
 !Esc::^!Tab
@@ -113,15 +112,16 @@ return
 ;;Send !{Esc}
 ;return
 #A::
-SendInput {LWin down}{LCtrl down}{Left down}{LWin up}{LCtrl up}{Left up}
-sleep 20
-SendInput {LWin down}{LCtrl down}{Left down}{LWin up}{LCtrl up}{Left up}
-sleep 20
-SendInput {LWin down}{LCtrl down}{Left down}{LWin up}{LCtrl up}{Left up}
-sleep 20
-SendInput {LWin down}{LCtrl down}{Left down}{LWin up}{LCtrl up}{Left up}
-sleep 20
-Send !{Esc}
+switchDesktopByNumber(1)
+;SendInput {LWin down}{LCtrl down}{Left down}{LWin up}{LCtrl up}{Left up}
+;sleep 20
+;SendInput {LWin down}{LCtrl down}{Left down}{LWin up}{LCtrl up}{Left up}
+;sleep 20
+;SendInput {LWin down}{LCtrl down}{Left down}{LWin up}{LCtrl up}{Left up}
+;sleep 20
+;SendInput {LWin down}{LCtrl down}{Left down}{LWin up}{LCtrl up}{Left up}
+;sleep 20
+;Send !{Esc}
 ;sleep 20
 ;Send {LWin down}{LCtrl down}{Left down}{LWin up}{LCtrl up}{Left up}
 ;sleep 20
@@ -132,17 +132,19 @@ Send !{Esc}
 ;Send {LWin down}{LCtrl down}{Left down}{LWin up}{LCtrl up}{Left up}
 return
 #S::
-SendInput {LWin down}{LCtrl down}{Left down}{LWin up}{LCtrl up}{Left up}
-sleep 20
-SendInput {LWin down}{LCtrl down}{Left down}{LWin up}{LCtrl up}{Left up}
-sleep 20
-SendInput {LWin down}{LCtrl down}{Left down}{LWin up}{LCtrl up}{Left up}
-sleep 20
-SendInput {LWin down}{LCtrl down}{Left down}{LWin up}{LCtrl up}{Left up}
-sleep 20
-SendInput {LWin down}{LCtrl down}{Right down}{LWin up}{LCtrl up}{Right up}
-sleep 20
-Send !{Esc}
+switchDesktopByNumber(2)
+
+;SendInput {LWin down}{LCtrl down}{Left down}{LWin up}{LCtrl up}{Left up}
+;sleep 20
+;SendInput {LWin down}{LCtrl down}{Left down}{LWin up}{LCtrl up}{Left up}
+;sleep 20
+;SendInput {LWin down}{LCtrl down}{Left down}{LWin up}{LCtrl up}{Left up}
+;sleep 20
+;SendInput {LWin down}{LCtrl down}{Left down}{LWin up}{LCtrl up}{Left up}
+;sleep 20
+;SendInput {LWin down}{LCtrl down}{Right down}{LWin up}{LCtrl up}{Right up}
+;sleep 20
+;Send !{Esc}
 return
 
 ;sleep 20
