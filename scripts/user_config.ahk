@@ -255,7 +255,9 @@ CapsLock & Numpad7::switchDesktopByNumber(7)
 CapsLock & Numpad8::switchDesktopByNumber(8)
 CapsLock & Numpad9::switchDesktopByNumber(9)
 
-
+#IfWinActive, ahk_class Edge_FRAME
+{
+}
 #IfWinActive, ahk_class SUMATRA_PDF_FRAME
 {
 .:: 
