@@ -1083,7 +1083,7 @@
         "description": "Insert a problem, whose style is already defined in the template. The serial number is automatically generated according to the section."
     },
     "Definition": {
-        "prefix": ["def", "\\definition"],
+        "prefix": ["definition", "\\definition"],
         "body": [
 						"",
             "\\begin{definition}\\label{def_$1}", 
