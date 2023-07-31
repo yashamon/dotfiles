@@ -16,6 +16,12 @@ local opt = vim.opt
 --       pattern = "*",
 --     }
 -- )
+vim.api.nvim_create_autocmd("VimLeavePre", {
+  callback = function()
+    -- Always save a special session named "last"
+    resession.save("last")
+  end,
+})
 autocmd('FocusLost', { pattern = '*', command = 'silent! wa' })
 autocmd('VIMEnter',  { pattern = '*', command = 'let g:buffmain=bufname()' })
 autocmd('FileType', { pattern = 'tex', command = 'lua vim.opt.iskeyword:append{":"}'})
