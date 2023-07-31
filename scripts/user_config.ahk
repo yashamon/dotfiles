@@ -16,32 +16,6 @@
 ; #!space::switchDesktopToRight()        <- <Win> + <Alt> + <Space> will switch to next desktop
 ; CapsLock & n::switchDesktopToRight()   <- <CapsLock> + <N> will switch to the next desktop (& is necessary when using non-modifier key such as CapsLock)
 
-; ===========================
-; === END OF INSTRUCTIONS ===
-; ===========================
-
-; General remapping script for AutoHotkey
-
-; The behaviour is such that the control key is located on the home
-; row. CapsLock serve as Control, but with one detail: when
-; pressed alone (fast enough), it has a different behaviour. When
-; CapsLock is pressed fast, it behaves as a Escape key
-
-; These ideas came from three blog posts, targeted at Mac users:
-; 
-; http://batsov.com/articles/2012/12/06/emacs-tip-number-7-remap-return-to-control-in-osx/
-; http://brettterpstra.com/2012/12/08/a-useful-caps-lock-key/
-; http://stevelosh.com/blog/2012/10/a-modern-space-cadet/
-
-; The basic algorithm come from this discussion:
-; https://superuser.com/questions/223831/remap-a-key-depending-on-whether-it-was-pressed-alone-or-not
-
-; The limit for 'fast enough' is 150 ms, but this may change
-
-; I am still learning AutoHotkey, so there is much room to improve
-
-; ---
-;-- when pressing CapsLock alone, it will activate the Escpae button
 
 #Requires AutoHotkey >=1.1.36 <2
 SetCapsLockState AlwaysOff
@@ -232,6 +206,10 @@ return
 #n::
     Run nu C:\Users\yasha\OneDrive\dotfiles\scripts\nf.nu
     Return
+!#n::
+    Run neovide
+    Return
+
 #e::
 Run microsoft-edge:https://this-page-intentionally-left-blank.org/
 ;Run "brave"
