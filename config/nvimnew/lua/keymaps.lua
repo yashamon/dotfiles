@@ -19,6 +19,11 @@ command('Cmd', "lua require('telescope.builtin').commands({layout_strategy='vert
 command('Trim', "lua MiniTrailspace.trim()", {})
 command('Ctags', "lua Job('ctags ~/OneDrive/dotfiles/link.bib')", {})
 
+--Session
+vim.keymap.set('n', '<leader>ss', resession.save)
+vim.keymap.set('n', '<leader>sl', resession.load)
+vim.keymap.set('n', '<leader>sd', resession.delete)
+
 -- FZF Neoyank yank
 
 map('n', '<leader>p', function()vim.cmd('FZFNeoyank + p')  end,{})
