@@ -20,6 +20,7 @@ command('Trim', "lua MiniTrailspace.trim()", {})
 command('Ctags', "lua Job('ctags ~/OneDrive/dotfiles/link.bib')", {})
 
 --Session
+local resession = require('resession')
 vim.keymap.set('n', '<leader>ss', resession.save)
 vim.keymap.set('n', '<leader>sl', resession.load)
 vim.keymap.set('n', '<leader>sd', resession.delete)
