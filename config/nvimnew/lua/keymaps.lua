@@ -155,6 +155,8 @@ noremap! <RightDrag> <nop>
 " noremap gbo /(\\|)<CR>
 noremap gw vi{
 noremap go vi(
+noremap gs vi[
+
 " noremap gbb ?{\\|}<CR>
 " noremap gww /{\\|}<CR>
 " noremap gbw ?{\\|}<CR>
