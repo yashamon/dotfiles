@@ -207,7 +207,7 @@ return
     Run nu C:\Users\yasha\OneDrive\dotfiles\scripts\nf.nu
     Return
 !#n::
-    Run neovide
+    Run nu neo
     Return
 
 #e::
