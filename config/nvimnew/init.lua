@@ -13,6 +13,10 @@ if not vim.loop.fs_stat(lazypath) then
 end
 vim.opt.rtp = {lazypath}
 require("lazy").setup({
+{
+  'stevearc/resession.nvim',
+  opts = {},
+},
 { 'sindrets/diffview.nvim', dependencies = 'nvim-lua/plenary.nvim', lazy = false },
 -- {
 --     "yuki-yano/highlight-undo.nvim",
