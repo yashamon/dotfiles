@@ -149,16 +149,17 @@ noremap <C-ScrollWheelRight> <nop>
 noremap! <LeftDrag> <nop>
 noremap! <RightDrag> <nop>
 
-noremap gwm /\$<CR>
-noremap gbm ?\$<CR>
-noremap gwo /(\\|)<CR>
-noremap gbo /(\\|)<CR>
-noremap gwb /{\\|}<CR>
-noremap gbb ?{\\|}<CR>
-noremap gww /{\\|}<CR>
-noremap gbw ?{\\|}<CR>
-noremap gwc /[\\|]<CR>
-noremap gbc ?[\\|]<CR>
+" noremap gwm /\$<CR>
+" noremap gbm ?\$<CR>
+" noremap gwo /(\\|)<CR>
+" noremap gbo /(\\|)<CR>
+noremap gw vi{
+noremap go vi(
+" noremap gbb ?{\\|}<CR>
+" noremap gww /{\\|}<CR>
+" noremap gbw ?{\\|}<CR>
+" noremap gwc /[\\|]<CR>
+" noremap gbc ?[\\|]<CR>
 
  " copy paste stuff
 vnoremap p "_dP
