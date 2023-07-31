@@ -55,7 +55,7 @@ require'nu'.setup{}
 require("resession").setup({
   -- Options for automatically saving sessions on a timer
   autosave = {
-    enabled = false,
+    enabled = true,
     -- How often to save (in seconds)
     interval = 60,
     -- Notify when autosaved
