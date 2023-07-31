@@ -1,4 +1,4 @@
 def main [] {
-neovide --multigrid 
+neovide --multigrid $ho 
 }
 
