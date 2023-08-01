@@ -1,4 +1,4 @@
-Add-Type -TypeDefinition $code -Language CSharp
+
 $code =  @"
 using System;
 using System.Diagnostics;
@@ -15,4 +15,5 @@ class Program {
     }
 }
 "@
-
+Add-Type -TypeDefinition $code -Language CSharp
+iex "[openfile.Program]::Main()"
