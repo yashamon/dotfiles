@@ -1,3 +1,8 @@
+Add-Type -TypeDefinition 'your code here' -Language CSharp
+
+
+
+$code =  @"
 using System;
 using System.Diagnostics;
 using System.IO;
@@ -12,3 +17,5 @@ class Program {
         Process.Start("rundll32.exe", args);
     }
 }
+"@
+
