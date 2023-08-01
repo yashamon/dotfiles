@@ -1,3 +1,14 @@
-Add-Type -AssemblyName System.Windows.Forms
+using System;
+using System.Diagnostics;
+using System.IO;
 
-$FileBrowser = New-Object System.Windows.Forms.OpenFileDialog -Property @{ InitialDirectory = Env.PWD 
+class Program {
+    static void Main(string[] args) {
+        ShowOpenWithDialog(@"c:\temp\test.txt");
+    }
+    public static void ShowOpenWithDialog(string path) {
+        var args = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.System), "shell32.dll");
+        args += ",OpenAs_RunDLL " + path;
+        Process.Start("rundll32.exe", args);
+    }
+}
