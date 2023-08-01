@@ -1,7 +1,4 @@
-Add-Type -TypeDefinition 'your code here' -Language CSharp
-
-
-
+Add-Type -TypeDefinition $code -Language CSharp
 $code =  @"
 using System;
 using System.Diagnostics;
