@@ -90,6 +90,8 @@ switchDesktopByNumber(1)
 sleep 20
 
 switchDesktopByNumber(1)
+sleep 20
+
 switchDesktopByNumber(1)
 
 Send !{Esc}
@@ -116,6 +118,8 @@ switchDesktopByNumber(2)
 sleep 20
 
 switchDesktopByNumber(2)
+sleep 20
+
 switchDesktopByNumber(2)
 
 Send !{Esc}
@@ -154,6 +158,9 @@ return
 switchDesktopByNumber(4)
 sleep 20
 switchDesktopByNumber(4)
+sleep 20
+switchDesktopByNumber(4)
+
 
 Send !{Esc}
 return
