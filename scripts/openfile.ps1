@@ -1,6 +1,6 @@
 $file = $args[0]
 $code =  @"
-using Windows;
+using System.Windows.Forms;
 var options = new Windows.System.LauncherOptions();
 options.DisplayApplicationPicker = true;
 
