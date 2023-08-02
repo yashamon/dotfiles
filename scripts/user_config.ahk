@@ -87,10 +87,10 @@ return
 ;return
 #A::
 switchDesktopByNumber(1)
-sleep 20
+sleep 50
 
 switchDesktopByNumber(1)
-sleep 20
+sleep 50
 
 switchDesktopByNumber(1)
 
@@ -115,36 +115,36 @@ Send !{Esc}
 return
 #S::
 switchDesktopByNumber(2)
-sleep 20
+sleep 50
 
 switchDesktopByNumber(2)
-sleep 20
+sleep 50
 
 switchDesktopByNumber(2)
 
 Send !{Esc}
 ;SendInput {LWin down}{LCtrl down}{Left down}{LWin up}{LCtrl up}{Left up}
-;sleep 20
+;sleep 50
 ;SendInput {LWin down}{LCtrl down}{Left down}{LWin up}{LCtrl up}{Left up}
-;sleep 20
+;sleep 50
 ;SendInput {LWin down}{LCtrl down}{Left down}{LWin up}{LCtrl up}{Left up}
-;sleep 20
+;sleep 50
 ;SendInput {LWin down}{LCtrl down}{Left down}{LWin up}{LCtrl up}{Left up}
-;sleep 20
+;sleep 50
 ;SendInput {LWin down}{LCtrl down}{Right down}{LWin up}{LCtrl up}{Right up}
-;sleep 20
+;sleep 50
 ;Send !{Esc}
 return
 
-;sleep 20
+;sleep 50
 ;Send {LWin down}{LCtrl down}{Left down}{LWin up}{LCtrl up}{Left up}
-;sleep 20
+;sleep 50
 ;Send {LWin down}{LCtrl down}{Left down}{LWin up}{LCtrl up}{Left up}
-;sleep 20
+;sleep 50
 ;Send {LWin down}{LCtrl down}{Left down}{LWin up}{LCtrl up}{Left up}
-;sleep 20
+;sleep 50
 ;Send {LWin down}{LCtrl down}{Left down}{LWin up}{LCtrl up}{Left up}
-;sleep 20
+;sleep 50
 ;Send {LWin down}{LCtrl down}{Right down}{LWin up}{LCtrl up}{Right up}
 ;switchDesktopByNumber(2)
 ;Send !{Esc}
@@ -156,9 +156,9 @@ return
 
 #D::
 switchDesktopByNumber(4)
-sleep 20
+sleep 50
 switchDesktopByNumber(4)
-sleep 20
+sleep 50
 switchDesktopByNumber(4)
 
 
@@ -166,10 +166,10 @@ Send !{Esc}
 return
 #F::
 switchDesktopByNumber(5)
-sleep 20
+sleep 50
 
 switchDesktopByNumber(5)
-sleep 20
+sleep 50
 
 switchDesktopByNumber(5)
 
@@ -178,27 +178,27 @@ Send !{Esc}
 return
 #C::
 switchDesktopByNumber(3)
-sleep 20
+sleep 50
 
 switchDesktopByNumber(3)
-sleep 20
+sleep 50
 
 switchDesktopByNumber(3)
 
 
 Send !{Esc}
 ;Send {LWin down}{LCtrl down}{Left down}{LWin up}{LCtrl up}{Left up}
-;sleep 20
+;sleep 50
 ;Send {LWin down}{LCtrl down}{Left down}{LWin up}{LCtrl up}{Left up}
-;sleep 20
+;sleep 50
 ;Send {LWin down}{LCtrl down}{Left down}{LWin up}{LCtrl up}{Left up}
-;sleep 20
+;sleep 50
 ;Send {LWin down}{LCtrl down}{Left down}{LWin up}{LCtrl up}{Left up}
-;sleep 20
+;sleep 50
 ;Send {LWin down}{LCtrl down}{Left down}{LWin up}{LCtrl up}{Left up}
-;sleep 20
+;sleep 50
 ;Send {LWin down}{LCtrl down}{Right down}{LWin up}{LCtrl up}{Right up}
-;sleep 20
+;sleep 50
 ;Send {LWin down}{LCtrl down}{Right down}{LWin up}{LCtrl up}{Right up}
 ;Send !{Esc}
 return
