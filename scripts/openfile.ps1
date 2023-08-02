@@ -1,6 +1,7 @@
 $file = $args[0]
 echo $file
 $code =  @"
+import Windows
 var options = new Windows.System.LauncherOptions();
 options.DisplayApplicationPicker = true;
 
