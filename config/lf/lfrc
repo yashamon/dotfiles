@@ -42,7 +42,7 @@ cmd trash $pwsh -nop -c "/Users/yasha/OneDrive/dotfiles/scripts/lfcdTrash.ps1" $
 map . mark-load
 # cmd aj %lf -remote "send $id cd '$(autojump $1)'"
 map gmd push %mkdir<space> 
-map gt push %nu<space>-c<space>'touch'
+map gt push %nu<space>-c<space>'touch<space>'
 map gch push %chmod<space>
 # map m push %mv<space>"$fs"<space>
 
