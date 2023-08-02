@@ -6,6 +6,7 @@ set shell pwsh.bat
 
 # set shell "C:\\Users\\yasha\\scoop\\shims\\nu.exe"
 cmd open &start $Env:f
+map <right> cmd-right
 map i $less $Env:f
 map Y %echo $Env:f.Trim('"') | clip
 map w $pwsh
@@ -14,7 +15,7 @@ cmd doc $lf -doc | less
 # leave some space at the top and the bottom of the screen
 set scrolloff 10
 # use enter for shell commands
-map <enter> shell
+map <enter> shelllfrc
 # set previewer "D:\\lf_scripts\\preview.bat"
 # set cleaner ~/.config/lf/cleaner
 # set previewer ~/.config/lf/preview
@@ -41,7 +42,7 @@ cmd trash $pwsh -nop -c "/Users/yasha/OneDrive/dotfiles/scripts/lfcdTrash.ps1" $
 map . mark-load
 # cmd aj %lf -remote "send $id cd '$(autojump $1)'"
 map gmd push %mkdir<space> 
-map gt push %touch<space>
+map gt push %nu -c 'touch<space>
 map gch push %chmod<space>
 # map m push %mv<space>"$fs"<space>
 
@@ -127,9 +128,8 @@ map <cr> $$Env:f
 map X !$Env:f
 
 # dedicated keys for file opener actions
-map o &mimeopen $Env:f 
-map O $mimeopen --ask $Env:f 
-
+map o &pwsh -nop -c explorer $Env:f.Trim('"') 
+map O $pwsh -nop -c openwith $Env:f.Trim('"') 
 # define a custom 'open' command
 # This command is called when current file is not a directory. You may want to
 # use either file extensions and/or mime types here. Below uses an editor for
@@ -142,6 +142,7 @@ map O $mimeopen --ask $Env:f
 #     esac
 #     
 # note that -nop requires full path name
+map gj %pwsh -nop -c C:/Users/yasha/scoop/shims/xournalpp.exe $Env:f.Trim('"')
 map e %pwsh -nop -c C:\Users\yasha\OneDrive\dotfiles\scripts\remotelf.ps1 $Env:f.Trim('"') 
 map n %neovide $Env:f.Trim('"') 
 map gn %neovide $Env:f.Trim('"') 
