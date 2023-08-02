@@ -87,6 +87,7 @@ return
 ;return
 #A::
 switchDesktopByNumber(1)
+switchDesktopByNumber(1)
 Send !{Esc}
 ;SendInput {LWin down}{LCtrl down}{Left down}{LWin up}{LCtrl up}{Left up}
 ;sleep 20
@@ -107,6 +108,7 @@ Send !{Esc}
 ;Send {LWin down}{LCtrl down}{Left down}{LWin up}{LCtrl up}{Left up}
 return
 #S::
+switchDesktopByNumber(2)
 switchDesktopByNumber(2)
 Send !{Esc}
 ;SendInput {LWin down}{LCtrl down}{Left down}{LWin up}{LCtrl up}{Left up}
@@ -142,13 +144,18 @@ return
 
 #D::
 switchDesktopByNumber(4)
+switchDesktopByNumber(4)
+
 Send !{Esc}
 return
 #F::
 switchDesktopByNumber(5)
+switchDesktopByNumber(5)
+
 Send !{Esc}
 return
 #C::
+switchDesktopByNumber(3)
 switchDesktopByNumber(3)
 
 Send !{Esc}
