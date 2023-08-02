@@ -1,4 +1,5 @@
 $file = $args[0]
+echio $file
 $code =  @"
 var options = new Windows.System.LauncherOptions();
 options.DisplayApplicationPicker = true;
