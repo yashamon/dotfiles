@@ -9,6 +9,15 @@ Server = function ()
    os.execute("echo " .. servername .. ' > C:/Users/yasha/servername.txt')
    os.execute("echo " .. buff .. ' > C:/Users/yasha/filename.txt')
 end
+Send = function 
+	vim.cmd('up')
+  local filenamedir = vim.fn.expand('%:p:h')
+  local filename = vim.fn.expand('%:t:r')
+  local pdf = filenamedir .. "/build/" .. filename .. ".pdf"
+  local execstr = "send " .. pdf
+	Job
+	
+end 
 
 Line = function()
 	-- Idline = vim.fn.jobstart(WriteLine())
