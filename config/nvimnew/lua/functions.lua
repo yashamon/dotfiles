@@ -9,7 +9,7 @@ Server = function ()
    os.execute("echo " .. servername .. ' > C:/Users/yasha/servername.txt')
    os.execute("echo " .. buff .. ' > C:/Users/yasha/filename.txt')
 end
-Send = function 
+Send = function
 	vim.cmd('up')
   local filenamedir = vim.fn.expand('%:p:h')
   local filename = vim.fn.expand('%:t:r')
