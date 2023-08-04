@@ -224,7 +224,7 @@ cmap <m-p> <c-r>+
 " commands
 command Tw50 set tw=50
 command Tw0 set tw=0
-command! SEND silent call Send()
+command! Send lua Send()
 command! ES set spelllang=es
 command! FR set spelllang=fr
 command! PT set spelllang=pt
@@ -301,17 +301,7 @@ nnoremap <leader>e :silent call ToggleQuickFix()<CR>
 function! ClearLatex()
   silent !rm ./build/*
 endfunction
-function! Send()
-  " silent call ClearLatex()
-	up
-  let b:filenamedir=expand('%:p:h')
-  let b:filename=expand('%:t:r')
-  let buf=bufname()
-  let b:pdf=b:filenamedir . "/build/" . b:filename .".pdf"
-  let execstr="silent te pwsh -c send " . b:pdf
-  exec execstr
-  silent execute "buffer" buf
-  endfunction
+
 " function! CompileLatex()
 "   " silent call ClearLatex()
 " 	up
