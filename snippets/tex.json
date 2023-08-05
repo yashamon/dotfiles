@@ -306,7 +306,7 @@
     }, 
 
 "Align numbered": {
-    "prefix": ["alin", "alignedn"],
+    "prefix": ["align", "alignn"],
     "body": [
         "\\begin{align} \\label{eq_$1}",
         "\t$0",    
@@ -315,7 +315,7 @@
    "description": "Align(ed)"
 },   
 "Align(ed)": {
-    "prefix": ["ali", "aligned"],
+    "prefix": ["align"],
     "body": [
 				"",
         "\\begin{align*}",
