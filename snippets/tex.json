@@ -306,7 +306,7 @@
     }, 
 
 "Align numbered": {
-    "prefix": ["align", "alignn"],
+    "prefix": ["alignn"],
     "body": [
         "\\begin{align} \\label{eq_$1}",
         "\t$0",    
