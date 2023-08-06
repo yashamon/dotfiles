@@ -114,7 +114,6 @@ Job(command1)
 end
 ViewPdf2 = function()
 vim.cmd('up')
--- Job('ctags -R')
 Server()
 local linenumber = vim.api.nvim_win_get_cursor(0)[1]
 local colnumber = vim.api.nvim_win_get_cursor(0)[2] 
