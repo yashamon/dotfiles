@@ -15,7 +15,6 @@ Send = function()
   local filename = vim.fn.expand('%:t:r')
   local pdf = filenamedir .. "/build/" .. filename .. ".pdf"
   local execstr = "send " .. pdf
-	print(execstr)
 	Job(execstr)
 end
 
