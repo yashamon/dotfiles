@@ -93,6 +93,76 @@ autosave = {
     quickfix = {},
   },
 })
+--mini stuff
+require('mini.comment').setup(
+{
+  -- Module mappings. Use `''` (empty string) to disable one.
+  mappings = {
+    -- Toggle comment (like `gcip` - comment inner paragraph) for both
+    -- Normal and Visual modes
+    comment = 'gc',
+
+    -- Toggle comment on current line
+    comment_line = 'gc',
+
+    -- Define 'comment' textobject (like `dgc` - delete whole comment block)
+    textobject = 'gc',
+  },
+  -- Hook functions to be executed at certain stage of commenting
+  hooks = {
+    -- Before successful commenting. Does nothing by default.
+    pre = function() end,
+    -- After successful commenting. Does nothing by default.
+    post = function() end,
+  },
+})
+require('mini.surround').setup(
+{
+  -- information with examples, see `:h MiniSurround.config`.
+  -- custom_surroundings = {'$'},
+  -- Duration (in ms) of highlight when calling `MiniSurround.highlight()`
+  highlight_duration = 500,
+
+  -- Module mappings. Use `''` (empty string) to disable one.
+  mappings = {
+    add = ';sa', --Add surrounding in Normal and Visual modes
+    delete = ';sd', -- Delete surrounding
+    find = ';sf', -- Find surrounding (to the right)
+    find_left = ';sF', -- Find surrounding (to the left)
+    highlight = ';sh', -- Highlight surrounding
+    replace = ';sr', -- Replace surrounding
+    update_n_lines = ';sn', -- Update `n_lines`
+
+    suffix_last = 'l', -- Suffix to search with "prev" method
+    suffix_next = 'n', -- Suffix to search with "next" method
+  },
+
+  -- Number of lines within which surrounding is searched
+  n_lines = 20,
+
+  -- How to search for surrounding (first inside current line, then inside
+  -- neighborhood). One of 'cover', 'cover_or_next', 'cover_or_prev',
+  -- 'cover_or_nearest', 'next', 'prev', 'nearest'. For more details,
+  -- see `:h MiniSurround.config`.
+  search_method = 'cover',
+})
+require('mini.move').setup(
+{
+  -- Module mappings. Use `''` (empty string) to disable one.
+	-- Move visual selection in Visual mode. Defaults are Alt (Meta) + hjkl.
+  mappings = {
+    left = '<left>',
+    right = '<right>',
+    down = '<down>',
+    up = '<up>',
+
+		-- Move current line in Normal mode
+    line_left = '<left>',
+    line_right = '<right>',
+    line_down = '<down>',
+    line_up = '<up>',
+  },
+})
 require('leap').setup {
 -- max_phase_one_targets = nil,
 highlight_unlabeled_phase_one_targets = false,
