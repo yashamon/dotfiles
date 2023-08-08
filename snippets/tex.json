@@ -988,6 +988,14 @@
     "description": "hook"
   },
 
+"bra": {
+    "prefix": "bra",
+    "body": [
+     "\\langle $1 \bar $0"
+    ],
+    "description": "bra-ket"
+  }, 
+
 "duality": {
     "prefix": "dual",
     "body": [
