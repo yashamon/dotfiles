@@ -913,7 +913,7 @@
     "description": "caligraphic"
   },
  "underline": {
-    "prefix": ["ul", "uline"],
+    "prefix": ["ul", "underline"],
     "body": [
       "\\underline{$2}$0"
     ],
