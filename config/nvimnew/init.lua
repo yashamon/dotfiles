@@ -37,7 +37,7 @@ require("telescope").setup{
     advanced_git_search = {
                         -- See Config
     -- fugitive or diffview
-			diff_plugin = "diffview",
+			diff_plugin = "fugitive",
 			-- customize git in previewer
 			-- e.g. flags such as { "--no-pager" }, or { "-c", "delta.side-by-side=false" }
 			git_flags = {},
