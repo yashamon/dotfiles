@@ -125,12 +125,52 @@ CustomScreenDPI = 0
 
 FileStates [
 	[
-		FilePath = C:\Users\yasha\OneDrive\Documents\Math\AdM23-00081-report.pdf
+		FilePath = C:\Users\yasha\OneDrive\Documents\UCOL\PROACT\POA 2023.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 1
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 -1
+		PageNo = 1
+		Zoom = 100
+		Rotation = 0
+		WindowState = 3
+		WindowPos = -13 0 1920 1920
+		ShowToc = true
+		SidebarDx = 364
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = C:\Users\yasha\OneDrive\workspacemodules\fuller\build\fuller5.pdf
 		Favorites [
 		]
 		IsPinned = false
 		IsMissing = false
 		OpenCount = 2
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 -1
+		PageNo = 1
+		Zoom = 100
+		Rotation = 0
+		WindowState = 3
+		WindowPos = -13 0 1920 1920
+		ShowToc = true
+		SidebarDx = 364
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = C:\Users\yasha\OneDrive\Documents\Math\AdM23-00081-report.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 4
 		UseDefaultState = false
 		DisplayMode = continuous
 		ScrollPos = 116.02 128.461
@@ -150,7 +190,7 @@ FileStates [
 		]
 		IsPinned = false
 		IsMissing = false
-		OpenCount = 1
+		OpenCount = 5
 		UseDefaultState = false
 		DisplayMode = continuous
 		ScrollPos = 79.9088 118.284
@@ -174,12 +214,12 @@ FileStates [
 		]
 		IsPinned = false
 		IsMissing = false
-		OpenCount = 1
+		OpenCount = 3
 		UseDefaultState = false
 		DisplayMode = continuous
-		ScrollPos = 83.1573 64.444
-		PageNo = 3
-		Zoom = fit content
+		ScrollPos = 115.3 -1
+		PageNo = 2
+		Zoom = 283.446
 		Rotation = 0
 		WindowState = 3
 		WindowPos = -13 0 1920 1920
@@ -210,7 +250,7 @@ FileStates [
 		]
 		IsPinned = false
 		IsMissing = false
-		OpenCount = 4
+		OpenCount = 6
 		UseDefaultState = false
 		DisplayMode = continuous
 		ScrollPos = 83.0662 64.3734
@@ -2733,10 +2773,10 @@ SessionData [
 			[
 				FilePath = C:\Users\yasha\OneDrive\workspacemodules\GromovFuller\build\GromovFuller.pdf
 				DisplayMode = continuous
-				PageNo = 3
-				Zoom = fit content
+				PageNo = 2
+				Zoom = 283.446
 				Rotation = 0
-				ScrollPos = 83.1573 64.444
+				ScrollPos = 115.3 -1
 				ShowToc = false
 			]
 			[
@@ -2757,8 +2797,26 @@ SessionData [
 				ScrollPos = 116.02 128.461
 				ShowToc = false
 			]
+			[
+				FilePath = C:\Users\yasha\OneDrive\workspacemodules\fuller\build\fuller5.pdf
+				DisplayMode = continuous
+				PageNo = 1
+				Zoom = 100
+				Rotation = 0
+				ScrollPos = -1 -1
+				ShowToc = true
+			]
+			[
+				FilePath = C:\Users\yasha\OneDrive\Documents\UCOL\PROACT\POA 2023.pdf
+				DisplayMode = continuous
+				PageNo = 1
+				Zoom = 100
+				Rotation = 0
+				ScrollPos = -1 -1
+				ShowToc = true
+			]
 		]
-		TabIndex = 5
+		TabIndex = 7
 		WindowState = 3
 		WindowPos = -13 0 1920 1920
 		SidebarDx = 364

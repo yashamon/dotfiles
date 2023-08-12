@@ -37,7 +37,7 @@ require("telescope").setup{
     advanced_git_search = {
                         -- See Config
     -- fugitive or diffview
-			diff_plugin = "fugitive",
+			diff_plugin = "diffview",
 			-- customize git in previewer
 			-- e.g. flags such as { "--no-pager" }, or { "-c", "delta.side-by-side=false" }
 			git_flags = {},
@@ -66,7 +66,7 @@ require("telescope").load_extension("advanced_git_search") end,
 		"nvim-telescope/telescope.nvim",
     "sindrets/diffview.nvim"}
 },
-{'tpope/vim-fugitive'},
+-- {'tpope/vim-fugitive'},
 {'kevinhwang91/nvim-ufo', dependencies = 'kevinhwang91/promise-async', lazy = true},
 {'gbprod/yanky.nvim', lazy = true},
 {'jose-elias-alvarez/null-ls.nvim', dependencies = "nvim-lua/plenary.nvim" },
