@@ -15,15 +15,15 @@ def create_right_prompt [] {
 }
 
 # Use nushell functions to define your right and left prompt
-let-env PROMPT_COMMAND = { create_left_prompt }
-let-env PROMPT_COMMAND_RIGHT = { create_right_prompt }
+$PROMPT_COMMAND = { create_left_prompt }
+$PROMPT_COMMAND_RIGHT = { create_right_prompt }
 
 # The prompt indicators are environmental variables that represent
 # the state of the prompt
-let-env PROMPT_INDICATOR = { "〉" }
-let-env PROMPT_INDICATOR_VI_INSERT = { ": " }
-let-env PROMPT_INDICATOR_VI_NORMAL = { "〉" }
-let-env PROMPT_MULTILINE_INDICATOR = { "::: " }
+$PROMPT_INDICATOR = { "〉" }
+$PROMPT_INDICATOR_VI_INSERT = { ": " }
+$PROMPT_INDICATOR_VI_NORMAL = { "〉" }
+$PROMPT_MULTILINE_INDICATOR = { "::: " }
 
 # Specifies how environment variables are:
 # - converted from a string to a value on Nushell startup (from_string)
@@ -43,14 +43,14 @@ let-env PROMPT_MULTILINE_INDICATOR = { "::: " }
 # Directories to search for scripts when calling source or use
 #
 # By default, <nushell-config-dir>/scripts is added
-let-env NU_LIB_DIRS = [
+$NU_LIB_DIRS = [
     ($nu.config-path | path dirname | path join 'scripts')
 ]
 
 # Directories to search for plugin binaries when calling register
 #
 # By default, <nushell-config-dir>/plugins is added
-let-env NU_PLUGIN_DIRS = [
+$NU_PLUGIN_DIRS = [
     ($nu.config-path | path dirname | path join 'plugins')
 ]
 zoxide init nushell | save -f ~/.zoxide.nu
