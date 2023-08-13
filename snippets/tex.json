@@ -1531,7 +1531,7 @@
     "description": "Sigma"
   },
 "big cup": {
-    "prefix": ["buc"],
+    "prefix": ["buc", "bigcup"],
     "body": [
       "\\bigcup_{$1} $0"
     ],
