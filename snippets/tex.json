@@ -912,6 +912,14 @@
     ],
     "description": "caligraphic"
   },
+"pi1incompress": {
+    "prefix": ["piinc"],
+    "body": [
+      "\\pi_{1} ^{inc}($2)$0"
+    ],
+    "description": "underline"
+},
+
  "underline": {
     "prefix": ["ul", "underline"],
     "body": [
