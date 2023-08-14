@@ -560,8 +560,8 @@ requires = {
 -- ... Your other configuration ...
 sources = cmp.config.sources({
 { name = 'tags', keyword_length = 1000 },
-{ name = 'nvim_lsp', keyword_length = 2 },
-{ name = 'luasnip', keyword_length = 2 },
+{ name = 'nvim_lsp', keyword_length = 3 },
+{ name = 'luasnip', keyword_length = 3 },
 -- { name = 'omni', keyword_length = 4},
        -- { name = 'spell' }, 
       --{ name = 'treesitter', keyword_length = 4 },
