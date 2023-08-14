@@ -41,6 +41,13 @@
        ],
     "description": ""
 },
+"interval": {
+    "prefix": "interval",
+    "body": [
+        "[0,1]" 
+       ],
+    "description": ""
+},
 
 "zero one": {
     "prefix": "zo",
