@@ -202,6 +202,18 @@ Send !{Esc}
 ;Send {LWin down}{LCtrl down}{Right down}{LWin up}{LCtrl up}{Right up}
 ;Send !{Esc}
 return
+#m::
+switchDesktopByNumber(7)
+sleep 50
+
+switchDesktopByNumber(7)
+sleep 50
+
+switchDesktopByNumber(7)
+
+
+Send !{Esc}
+return
 #z::
 switchDesktopByNumber(6)
 sleep 50
