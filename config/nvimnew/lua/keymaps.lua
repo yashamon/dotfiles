@@ -94,7 +94,9 @@ map('t', '<A-`>', '<C-\\><C-n>', {remap=true})
 
 -- Latex maps
 map('n', '<leader>v', ViewPdf2, {})
-map({'i', 'n'}, '<m-v>', function () vim.cmd('up')
+map({'i', 'n'}, '<m-v>', function () 
+Feedkey('<esc>', 'in')
+vim.cmd('up')
 ViewPdf2() end, {})
 -- map('n', '<leader>ll',  vim.fn.CompileLatex, {})
 -- map('n', '<leader>lcl', vim.fn.ClearLatex, {})
