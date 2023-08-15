@@ -94,10 +94,10 @@ map('t', '<A-`>', '<C-\\><C-n>', {remap=true})
 
 -- Latex maps
 map('n', '<leader>v', ViewPdf2, {})
-map({'i', 'n'}, '<m-v>', ViewPdf2, {})
-map('n', '<leader>ll',  vim.fn.CompileLatex, {})
-map('n', '<leader>lcl', vim.fn.ClearLatex, {})
-
+map({'i', 'n'}, '<m-v>', function () vim.cmd('up')
+ViewPdf2() end, {})
+-- map('n', '<leader>ll',  vim.fn.CompileLatex, {})
+-- map('n', '<leader>lcl', vim.fn.ClearLatex, {})
 -- map ('i', '<silent><expr> <C-E> luasnip#choice_active() ? '<Plug>luasnip-next-choice' : '<C-E>'
 vim.keymap.set ('i', '<cr>', '<cr><space><esc>"_s', {})
 vim.keymap.set ('i', '<m-d>',  '<C-w>')
