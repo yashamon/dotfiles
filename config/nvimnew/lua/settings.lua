@@ -87,7 +87,7 @@ autosave = {
   dir = "session",
   -- Show more detail about the sessions when selecting one to load.
   -- Disable if it causes lag.
-  load_detail = true,
+  -- load_detail = true,
   -- Configuration for extensions
   extensions = {
     quickfix = {},
