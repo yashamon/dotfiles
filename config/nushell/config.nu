@@ -83,7 +83,7 @@ let dir = ((open "C:\\Users\\yasha\\AppData\\Local\\Temp\\tmp9E2XX.tmp") | str t
 $dir | clip
 cd $dir
 }
-def upscoop [] { scoop update -a; echo "saving"; scoop export | save -f $"($HOMED)/dotfiles/scoopPackageList.json"; pwsh -nop -c scoop cleanup * }
+def upscoop [] { scoop update -a; echo "saving"; scoop export | save -f $"($HOMED)/dotfiles/scoopPackageList.json"; pwsh -nop -c 'scoop cleanup *' }
 def upwin [] { winget upgrade --all --accept-source-agreements --silent; echo "saving"; winget export -o $"($HOMED)/dotfiles/WingetList.json" }
 module completions {
   # Custom completions for external commands (those outside of Nushell)
