@@ -125,6 +125,46 @@ CustomScreenDPI = 0
 
 FileStates [
 	[
+		FilePath = C:\Users\yasha\OneDrive\workspacemodules\fuller\build\fuller5.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 3
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 -1
+		PageNo = 1
+		Zoom = 100
+		Rotation = 0
+		WindowState = 3
+		WindowPos = -13 0 1920 1920
+		ShowToc = true
+		SidebarDx = 364
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = C:\Users\yasha\OneDrive\workspacemodules\conformalsymplectic\build\nonsqueezing.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 5
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = 82.9507 64.4653
+		PageNo = 7
+		Zoom = fit content
+		Rotation = 0
+		WindowState = 3
+		WindowPos = -13 0 1920 1920
+		ShowToc = false
+		SidebarDx = 364
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
 		FilePath = C:\Users\yasha\OneDrive\workspacemodules\GromovFuller\build\GromovFuller.pdf
 		Favorites [
 			[
@@ -138,51 +178,11 @@ FileStates [
 		]
 		IsPinned = false
 		IsMissing = false
-		OpenCount = 1
+		OpenCount = 3
 		UseDefaultState = false
 		DisplayMode = continuous
-		ScrollPos = 79.9115 118.288
-		PageNo = 1
-		Zoom = fit content
-		Rotation = 0
-		WindowState = 3
-		WindowPos = -13 0 1920 1920
-		ShowToc = false
-		SidebarDx = 364
-		DisplayR2L = false
-		ReparseIdx = 0
-	]
-	[
-		FilePath = C:\Users\yasha\OneDrive\workspacemodules\conformalsymplectic\build\conformalsymplectic.pdf
-		Favorites [
-			[
-				Name = b
-				PageNo = 1
-			]
-			[
-				Name = a
-				PageNo = 3
-			]
-			[
-				Name = a
-				PageNo = 13
-			]
-			[
-				Name = a
-				PageNo = 37
-			]
-			[
-				Name = t
-				PageNo = 40
-			]
-		]
-		IsPinned = false
-		IsMissing = false
-		OpenCount = 7
-		UseDefaultState = false
-		DisplayMode = continuous
-		ScrollPos = 79.9118 64.4677
-		PageNo = 12
+		ScrollPos = 82.9518 64.4661
+		PageNo = 10
 		Zoom = fit content
 		Rotation = 0
 		WindowState = 3
@@ -198,7 +198,7 @@ FileStates [
 		]
 		IsPinned = false
 		IsMissing = false
-		OpenCount = 1
+		OpenCount = 0
 		UseDefaultState = false
 		DisplayMode = continuous
 		ScrollPos = -1 498.188
@@ -218,7 +218,7 @@ FileStates [
 		]
 		IsPinned = false
 		IsMissing = false
-		OpenCount = 1
+		OpenCount = 0
 		UseDefaultState = false
 		DisplayMode = continuous
 		ScrollPos = -1 -1
@@ -238,7 +238,7 @@ FileStates [
 		]
 		IsPinned = false
 		IsMissing = false
-		OpenCount = 1
+		OpenCount = 0
 		UseDefaultState = false
 		DisplayMode = continuous
 		ScrollPos = -1 -1
@@ -258,27 +258,7 @@ FileStates [
 		]
 		IsPinned = false
 		IsMissing = false
-		OpenCount = 1
-		UseDefaultState = false
-		DisplayMode = continuous
-		ScrollPos = -1 -1
-		PageNo = 1
-		Zoom = 100
-		Rotation = 0
-		WindowState = 3
-		WindowPos = -13 0 1920 1920
-		ShowToc = true
-		SidebarDx = 364
-		DisplayR2L = false
-		ReparseIdx = 0
-	]
-	[
-		FilePath = C:\Users\yasha\OneDrive\workspacemodules\fuller\build\fuller5.pdf
-		Favorites [
-		]
-		IsPinned = false
-		IsMissing = false
-		OpenCount = 2
+		OpenCount = 0
 		UseDefaultState = false
 		DisplayMode = continuous
 		ScrollPos = -1 -1
@@ -298,31 +278,11 @@ FileStates [
 		]
 		IsPinned = false
 		IsMissing = false
-		OpenCount = 3
+		OpenCount = 1
 		UseDefaultState = false
 		DisplayMode = continuous
 		ScrollPos = 116.02 128.461
 		PageNo = 1
-		Zoom = fit content
-		Rotation = 0
-		WindowState = 3
-		WindowPos = -13 0 1920 1920
-		ShowToc = false
-		SidebarDx = 364
-		DisplayR2L = false
-		ReparseIdx = 0
-	]
-	[
-		FilePath = C:\Users\yasha\OneDrive\web\papers\nonsqueezing.pdf
-		Favorites [
-		]
-		IsPinned = false
-		IsMissing = false
-		OpenCount = 4
-		UseDefaultState = false
-		DisplayMode = continuous
-		ScrollPos = 83.1046 64.5078
-		PageNo = 7
 		Zoom = fit content
 		Rotation = 0
 		WindowState = 3
@@ -347,6 +307,50 @@ FileStates [
 		DisplayMode = continuous
 		ScrollPos = 82.7091 86.4316
 		PageNo = 1
+		Zoom = fit content
+		Rotation = 0
+		WindowState = 3
+		WindowPos = -13 0 1920 1920
+		ShowToc = false
+		SidebarDx = 364
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = C:\Users\yasha\OneDrive\workspacemodules\conformalsymplectic\build\conformalsymplectic.pdf
+		Favorites [
+			[
+				Name = b
+				PageNo = 1
+			]
+			[
+				Name = a
+				PageNo = 2
+			]
+			[
+				Name = a
+				PageNo = 3
+			]
+			[
+				Name = a
+				PageNo = 13
+			]
+			[
+				Name = a
+				PageNo = 37
+			]
+			[
+				Name = t
+				PageNo = 40
+			]
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = 82.5988 64.3734
+		PageNo = 2
 		Zoom = fit content
 		Rotation = 0
 		WindowState = 3
@@ -2818,9 +2822,53 @@ FileStates [
 	]
 ]
 SessionData [
+	[
+		TabStates [
+			[
+				FilePath = C:\Users\yasha\OneDrive\workspacemodules\GromovFuller\build\GromovFuller.pdf
+				DisplayMode = continuous
+				PageNo = 10
+				Zoom = fit content
+				Rotation = 0
+				ScrollPos = 82.9518 64.4661
+				ShowToc = false
+			]
+			[
+				FilePath = C:\Users\yasha\OneDrive\workspacemodules\conformalsymplectic\build\conformalsymplectic.pdf
+				DisplayMode = continuous
+				PageNo = 2
+				Zoom = fit content
+				Rotation = 0
+				ScrollPos = 82.5988 64.3734
+				ShowToc = false
+			]
+			[
+				FilePath = C:\Users\yasha\OneDrive\workspacemodules\conformalsymplectic\build\nonsqueezing.pdf
+				DisplayMode = continuous
+				PageNo = 7
+				Zoom = fit content
+				Rotation = 0
+				ScrollPos = 82.9507 64.4653
+				ShowToc = false
+			]
+			[
+				FilePath = C:\Users\yasha\OneDrive\workspacemodules\fuller\build\fuller5.pdf
+				DisplayMode = continuous
+				PageNo = 1
+				Zoom = 100
+				Rotation = 0
+				ScrollPos = -1 -1
+				ShowToc = true
+			]
+		]
+		TabIndex = 1
+		WindowState = 3
+		WindowPos = -13 0 1920 1920
+		SidebarDx = 364
+	]
 ]
 TimeOfLastUpdateCheck = 0 0
-OpenCountWeek = 658
+OpenCountWeek = 659
 
 # Settings below are not recognized by the current version
 "C = \Users\yasha\dotfiles\scripts\remote2.nu" %l $
