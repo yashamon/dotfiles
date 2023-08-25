@@ -6,7 +6,7 @@ map('t', '<m-p>', [[getreg('+')]], {expr = true})
 map({'i','n'}, '<m-t>', function ()  vim.cmd('up')
 end, { buffer=true })
 map('n','S', Line, {} )
-map('n','Tab', function() vim.cmd('edit #') end, {} )
+map('n','<Tab>', function() vim.cmd('edit #') end, {} )
 
 -- map('n','M', function() require("harpoon.mark").add_file() end, {})
 -- map('n','<Tab>', function() require("harpoon.ui").nav_next() end,{})
