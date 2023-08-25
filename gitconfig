@@ -13,3 +13,5 @@
     cmd = "nvim -d -u ~/.vimrc \"$LOCAL\" \"$REMOTE\""
 [core]
 	excludesfile = gitignore_global
+[credential "helperselector"]
+	selected = <no helper>
