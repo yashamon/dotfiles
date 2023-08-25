@@ -7,7 +7,7 @@ map({'i','n'}, '<m-t>', function ()  vim.cmd('up')
 end, { buffer=true })
 map('n','S', Line, {} )
 map('n','M', require("harpoon.mark").add_file, {})
-map('n','<Tab>', require("harpoon.ui").nav_next, {})            map('n','S-<Tab>', require("harpoon.ui").nav_prev, {})
+map('n','<Tab>', require("harpoon.ui").nav_next, {})            map('n','<S-Tab>', require("harpoon.ui").nav_prev, {})
 map('n', '<m-s>', Sentence, {})
 
 
