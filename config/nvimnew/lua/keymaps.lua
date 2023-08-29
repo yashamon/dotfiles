@@ -51,6 +51,8 @@ map('n', '<c-l>', function() vim.cmd('bnext') end, {})
 map('n', '<c-h>', function() vim.cmd('bprevious') end, {})
 map('t', '<c-h>', function() vim.cmd('bprevious') end, {})
 map('t', '<c-l>', function() vim.cmd('bnext') end, {})
+map('t', '<c-Tab>', function() vim.cmd('edit #') end, {})
+
 map('n', '<m-t>', function() vim.cmd('up'); vim.cmd('BTags') end, {})
 -- map('n', 'z=', function() Feedkey('i', 'z=') end)
 -- Telescope
