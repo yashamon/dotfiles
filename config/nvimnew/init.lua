@@ -1,5 +1,6 @@
-local path = '~/OneDrive/dotfiles/config/nvimnew'
+local path = 'C:/Users/yasha/OneDrive/dotfiles/config/nvimnew'
 -- .. vim.fn.stdpath("data")
+
 local lazypath = vim.fn.stdpath("data") .. "/lazy/lazy.nvim"
 if not vim.loop.fs_stat(lazypath) then
   vim.fn.system({
@@ -11,7 +12,7 @@ if not vim.loop.fs_stat(lazypath) then
     lazypath,
   })
 end
-vim.opt.rtp = {lazypath}
+vim.opt.rtp:prepend(lazypath)
 require("lazy").setup({
 {'stevearc/resession.nvim'},
 { 'sindrets/diffview.nvim', dependencies = 'nvim-lua/plenary.nvim', lazy = false },

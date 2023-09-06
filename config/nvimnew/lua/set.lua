@@ -5,6 +5,7 @@ local indent = 2
 local g = vim.g
 local fn = vim.fn
 vim.opt.tabstop = indent
+opt.smoothscroll = true
 vim.opt.shiftwidth = indent
 vim.opt.softtabstop = indent
 vim.opt.backup = false
