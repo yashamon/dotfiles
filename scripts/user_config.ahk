@@ -266,8 +266,10 @@ return
     Run nu C:\Users\yasha\OneDrive\dotfiles\scripts\nf.nu
     Return
 !+n::
-    Run nu C:\Users\yasha\OneDrive\dotfiles\scripts\neo.nu
-    Return
+return
+!+n::
+Run nu C:\Users\yasha\OneDrive\dotfiles\scripts\neo.nu
+Return
 
 #e::
 Run microsoft-edge:https://this-page-intentionally-left-blank.org/
