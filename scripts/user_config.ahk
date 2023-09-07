@@ -265,7 +265,7 @@ return
 #n::
     Run nu C:\Users\yasha\OneDrive\dotfiles\scripts\nf.nu
     Return
-!#n::
+!+n::
     Run nu C:\Users\yasha\OneDrive\dotfiles\scripts\neo.nu
     Return
 
