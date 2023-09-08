@@ -8,11 +8,12 @@ if not vim.loop.fs_stat(lazypath) then
     "clone",
     "--filter=blob:none",
     "https://github.com/folke/lazy.nvim.git",
-    "--branch=stable", -- latest stable release
+    "--branch=stable", -- latest stable releasevim.opt.rtp
     lazypath,
   })
 end
-vim.opt.rtp.append(lazypath)
+--vim.opt.rtp = lazypath
+vim.opt.rtp:append(lazypath)
 require("lazy").setup({
 {'stevearc/resession.nvim'},
 { 'sindrets/diffview.nvim', dependencies = 'nvim-lua/plenary.nvim', lazy = false },
