@@ -12,8 +12,8 @@ if not vim.loop.fs_stat(lazypath) then
     lazypath,
   })
 end
---vim.opt.rtp = lazypath
-vim.opt.rtp:append(lazypath)
+vim.opt.rtp = lazypath
+--vim.opt.rtp:append(lazypath)
 require("lazy").setup({
 {'stevearc/resession.nvim'},
 { 'sindrets/diffview.nvim', dependencies = 'nvim-lua/plenary.nvim', lazy = false },
