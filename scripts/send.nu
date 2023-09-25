@@ -1,4 +1,4 @@
-main [file:string] {
+function [file:string] {
 let cwdb = $env.PWD
 cd $"($HOMED)/web"
 git pull
