@@ -125,37 +125,25 @@ CustomScreenDPI = 0
 
 FileStates [
 	[
-		FilePath = C:\Users\yasha\Downloads\asdf.pdf
+		FilePath = C:\Users\yasha\OneDrive\web\papers\GromovFuller.pdf
 		Favorites [
+			[
+				Name = a
+				PageNo = 2
+			]
+			[
+				Name = a
+				PageNo = 7
+			]
 		]
 		IsPinned = false
 		IsMissing = false
-		OpenCount = 2
+		OpenCount = 9
 		UseDefaultState = false
 		DisplayMode = continuous
-		ScrollPos = -1 -1
-		PageNo = 1
-		Zoom = 100
-		Rotation = 0
-		WindowState = 3
-		WindowPos = -13 0 1920 1920
-		ShowToc = false
-		SidebarDx = 364
-		DisplayR2L = false
-		ReparseIdx = 0
-	]
-	[
-		FilePath = C:\Users\yasha\OneDrive\Documents\UCOL\InformeMathUpdated.pdf
-		Favorites [
-		]
-		IsPinned = false
-		IsMissing = false
-		OpenCount = 2
-		UseDefaultState = false
-		DisplayMode = continuous
-		ScrollPos = -1 503.063
-		PageNo = 1
-		Zoom = 100
+		ScrollPos = 83.1075 64.4055
+		PageNo = 3
+		Zoom = fit content
 		Rotation = 0
 		WindowState = 3
 		WindowPos = -13 0 1920 1920
@@ -214,12 +202,152 @@ FileStates [
 		]
 		IsPinned = false
 		IsMissing = false
-		OpenCount = 4
+		OpenCount = 10
 		UseDefaultState = false
 		DisplayMode = continuous
-		ScrollPos = 79.8452 64.3686
-		PageNo = 4
+		ScrollPos = 83.0402 64.3533
+		PageNo = 3
 		Zoom = fit content
+		Rotation = 0
+		WindowState = 3
+		WindowPos = -13 0 1920 1920
+		ShowToc = false
+		SidebarDx = 364
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = C:\Users\yasha\Downloads\1204.2802.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 204.563
+		PageNo = 56
+		Zoom = 100
+		Rotation = 0
+		WindowState = 2
+		WindowPos = -13 0 1920 1920
+		ShowToc = true
+		SidebarDx = 364
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = C:\Users\yasha\OneDrive\books\(Chicago Lectures in Mathematics) Patrick B. Eberlein - Geometry of nonpositively curved manifolds-University Of Chicago Press (1997).djvu
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 2
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 26.4955
+		PageNo = 1
+		Zoom = fit content
+		Rotation = 0
+		WindowState = 3
+		WindowPos = -13 0 1920 1920
+		ShowToc = false
+		SidebarDx = 364
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = C:\Users\yasha\OneDrive\workspacemodules\conformalsymplectic\build\nonsqueezing.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 2
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = 79.9088 118.284
+		PageNo = 1
+		Zoom = fit content
+		Rotation = 0
+		WindowState = 3
+		WindowPos = -13 0 1920 1920
+		ShowToc = false
+		SidebarDx = 364
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = C:\Users\yasha\OneDrive\books\(Graduate Texts in Mathematics 200) D. Bao, S.-S. Chern, Z. Shen (auth.) - An Introduction to Riemann-Finsler Geometry-Springer-Verlag New York (2000).djvu
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 2
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 46.2067
+		PageNo = 250
+		Zoom = fit content
+		Rotation = 0
+		WindowState = 3
+		WindowPos = -13 0 1920 1920
+		ShowToc = false
+		SidebarDx = 364
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = C:\Users\yasha\OneDrive\books\8132251398dd76490da3a2a3343b6122.djvu
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 -1
+		PageNo = 1
+		Zoom = 100
+		Rotation = 0
+		WindowState = 3
+		WindowPos = -13 0 1920 1920
+		ShowToc = false
+		SidebarDx = 364
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = C:\Users\yasha\Downloads\asdf.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 1
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 -1
+		PageNo = 1
+		Zoom = 100
+		Rotation = 0
+		WindowState = 3
+		WindowPos = -13 0 1920 1920
+		ShowToc = false
+		SidebarDx = 364
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = C:\Users\yasha\OneDrive\Documents\UCOL\InformeMathUpdated.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 1
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 503.063
+		PageNo = 1
+		Zoom = 100
 		Rotation = 0
 		WindowState = 3
 		WindowPos = -13 0 1920 1920
@@ -234,7 +362,7 @@ FileStates [
 		]
 		IsPinned = false
 		IsMissing = false
-		OpenCount = 5
+		OpenCount = 1
 		UseDefaultState = false
 		DisplayMode = continuous
 		ScrollPos = -1 -1
@@ -244,54 +372,6 @@ FileStates [
 		WindowState = 3
 		WindowPos = -13 0 1920 1920
 		ShowToc = true
-		SidebarDx = 364
-		DisplayR2L = false
-		ReparseIdx = 0
-	]
-	[
-		FilePath = C:\Users\yasha\OneDrive\workspacemodules\conformalsymplectic\build\nonsqueezing.pdf
-		Favorites [
-		]
-		IsPinned = false
-		IsMissing = false
-		OpenCount = 5
-		UseDefaultState = false
-		DisplayMode = continuous
-		ScrollPos = 82.7167 64.4653
-		PageNo = 4
-		Zoom = fit content
-		Rotation = 0
-		WindowState = 3
-		WindowPos = -13 0 1920 1920
-		ShowToc = false
-		SidebarDx = 364
-		DisplayR2L = false
-		ReparseIdx = 0
-	]
-	[
-		FilePath = C:\Users\yasha\OneDrive\workspacemodules\GromovFuller\build\GromovFuller.pdf
-		Favorites [
-			[
-				Name = a
-				PageNo = 2
-			]
-			[
-				Name = a
-				PageNo = 7
-			]
-		]
-		IsPinned = false
-		IsMissing = false
-		OpenCount = 3
-		UseDefaultState = false
-		DisplayMode = continuous
-		ScrollPos = 79.8931 118.26
-		PageNo = 1
-		Zoom = fit content
-		Rotation = 0
-		WindowState = 3
-		WindowPos = -13 0 1920 1920
-		ShowToc = false
 		SidebarDx = 364
 		DisplayR2L = false
 		ReparseIdx = 0
@@ -337,26 +417,6 @@ FileStates [
 		ReparseIdx = 0
 	]
 	[
-		FilePath = C:\Users\yasha\OneDrive\booksTeaching\myclasses\James Stewart, Saleem Watson, Daniel K. Clegg - Multivariable Calculus, Metric Edition-Cengage Learning (2020).pdf
-		Favorites [
-		]
-		IsPinned = false
-		IsMissing = false
-		OpenCount = 0
-		UseDefaultState = false
-		DisplayMode = continuous
-		ScrollPos = -1 -1
-		PageNo = 192
-		Zoom = 100
-		Rotation = 0
-		WindowState = 3
-		WindowPos = -13 0 1920 1920
-		ShowToc = true
-		SidebarDx = 364
-		DisplayR2L = false
-		ReparseIdx = 0
-	]
-	[
 		FilePath = C:\Users\yasha\OneDrive\booksTeaching\myclasses\(Universitext) Volker Runde-A taste of topology-Springer (2007).pdf
 		Favorites [
 		]
@@ -372,66 +432,6 @@ FileStates [
 		WindowState = 3
 		WindowPos = -13 0 1920 1920
 		ShowToc = true
-		SidebarDx = 364
-		DisplayR2L = false
-		ReparseIdx = 0
-	]
-	[
-		FilePath = C:\Users\yasha\OneDrive\Documents\UCOL\evidencias\students.pdf
-		Favorites [
-		]
-		IsPinned = false
-		IsMissing = false
-		OpenCount = 0
-		UseDefaultState = false
-		DisplayMode = continuous
-		ScrollPos = -1 -1
-		PageNo = 1
-		Zoom = 100
-		Rotation = 0
-		WindowState = 2
-		WindowPos = -13 0 1920 1920
-		ShowToc = false
-		SidebarDx = 364
-		DisplayR2L = false
-		ReparseIdx = 0
-	]
-	[
-		FilePath = C:\Users\yasha\OneDrive\Documents\UCOL\informeMateVer2.pdf
-		Favorites [
-		]
-		IsPinned = false
-		IsMissing = false
-		OpenCount = 0
-		UseDefaultState = false
-		DisplayMode = continuous
-		ScrollPos = -1 -1
-		PageNo = 1
-		Zoom = 100
-		Rotation = 0
-		WindowState = 2
-		WindowPos = -13 0 1920 1920
-		ShowToc = false
-		SidebarDx = 364
-		DisplayR2L = false
-		ReparseIdx = 0
-	]
-	[
-		FilePath = C:\Users\yasha\OneDrive\Documents\UCOL\evidencias\studentsFisica.pdf
-		Favorites [
-		]
-		IsPinned = false
-		IsMissing = false
-		OpenCount = 0
-		UseDefaultState = false
-		DisplayMode = continuous
-		ScrollPos = -1 -1
-		PageNo = 1
-		Zoom = 100
-		Rotation = 0
-		WindowState = 2
-		WindowPos = -13 0 1920 1920
-		ShowToc = false
 		SidebarDx = 364
 		DisplayR2L = false
 		ReparseIdx = 0
@@ -2960,6 +2960,106 @@ FileStates [
 		DisplayR2L = false
 		ReparseIdx = 0
 	]
+	[
+		FilePath = C:\Users\yasha\OneDrive\books\FinslerChernBook.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = true
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 -1
+		PageNo = 1
+		Zoom = fit content
+		Rotation = 0
+		WindowState = 3
+		WindowPos = -13 0 1920 1920
+		ShowToc = false
+		SidebarDx = 364
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = C:\Users\yasha\OneDrive\booksTeaching\myclasses\James Stewart, Saleem Watson, Daniel K. Clegg - Multivariable Calculus, Metric Edition-Cengage Learning (2020).pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = true
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 -1
+		PageNo = 192
+		Zoom = 100
+		Rotation = 0
+		WindowState = 3
+		WindowPos = -13 0 1920 1920
+		ShowToc = true
+		SidebarDx = 364
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = C:\Users\yasha\OneDrive\Documents\UCOL\evidencias\students.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = true
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 -1
+		PageNo = 1
+		Zoom = 100
+		Rotation = 0
+		WindowState = 2
+		WindowPos = -13 0 1920 1920
+		ShowToc = false
+		SidebarDx = 364
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = C:\Users\yasha\OneDrive\Documents\UCOL\informeMateVer2.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = true
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 -1
+		PageNo = 1
+		Zoom = 100
+		Rotation = 0
+		WindowState = 2
+		WindowPos = -13 0 1920 1920
+		ShowToc = false
+		SidebarDx = 364
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = C:\Users\yasha\OneDrive\Documents\UCOL\evidencias\studentsFisica.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = true
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 -1
+		PageNo = 1
+		Zoom = 100
+		Rotation = 0
+		WindowState = 2
+		WindowPos = -13 0 1920 1920
+		ShowToc = false
+		SidebarDx = 364
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
 ]
 SessionData [
 	[
@@ -2967,66 +3067,39 @@ SessionData [
 			[
 				FilePath = C:\Users\yasha\OneDrive\workspacemodules\GromovFuller\build\GromovFuller.pdf
 				DisplayMode = continuous
-				PageNo = 1
+				PageNo = 3
 				Zoom = fit content
 				Rotation = 0
-				ScrollPos = 79.8931 118.26
+				ScrollPos = 83.1075 64.4055
 				ShowToc = false
-			]
-			[
-				FilePath = C:\Users\yasha\OneDrive\workspacemodules\conformalsymplectic\build\nonsqueezing.pdf
-				DisplayMode = continuous
-				PageNo = 4
-				Zoom = fit content
-				Rotation = 0
-				ScrollPos = 82.7167 64.4653
-				ShowToc = false
-			]
-			[
-				FilePath = C:\Users\yasha\OneDrive\workspacemodules\fuller\build\fuller5.pdf
-				DisplayMode = continuous
-				PageNo = 1
-				Zoom = 100
-				Rotation = 0
-				ScrollPos = -1 -1
-				ShowToc = true
 			]
 			[
 				FilePath = C:\Users\yasha\OneDrive\workspacemodules\conformalsymplectic\build\conformalsymplectic.pdf
 				DisplayMode = continuous
-				PageNo = 4
+				PageNo = 3
 				Zoom = fit content
 				Rotation = 0
-				ScrollPos = 79.8452 64.3686
+				ScrollPos = 83.0402 64.3533
 				ShowToc = false
 			]
 			[
-				FilePath = C:\Users\yasha\OneDrive\Documents\UCOL\InformeMathUpdated.pdf
+				FilePath = C:\Users\yasha\OneDrive\web\papers\GromovFuller.pdf
 				DisplayMode = continuous
-				PageNo = 1
-				Zoom = 100
+				PageNo = 3
+				Zoom = fit content
 				Rotation = 0
-				ScrollPos = -1 503.063
-				ShowToc = false
-			]
-			[
-				FilePath = C:\Users\yasha\Downloads\asdf.pdf
-				DisplayMode = continuous
-				PageNo = 1
-				Zoom = 100
-				Rotation = 0
-				ScrollPos = -1 -1
+				ScrollPos = 83.1075 64.4055
 				ShowToc = false
 			]
 		]
-		TabIndex = 4
+		TabIndex = 3
 		WindowState = 3
 		WindowPos = -13 0 1920 1920
 		SidebarDx = 364
 	]
 ]
 TimeOfLastUpdateCheck = 0 0
-OpenCountWeek = 662
+OpenCountWeek = 664
 
 # Settings below are not recognized by the current version
 "C = \Users\yasha\dotfiles\scripts\remote2.nu" %l $
