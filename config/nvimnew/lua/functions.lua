@@ -15,7 +15,7 @@ Send = function()
   local filename = vim.fn.expand('%:t:r')
   local pdf = filenamedir .. "/build/" .. filename .. ".pdf"
   local execstr = "nu C:/Users/yasha/OneDrive/dotfiles/scripts/send.nu " .. pdf
-	print(execstr)
+	-- print(execstr)
 	Job(execstr)
 end
 
