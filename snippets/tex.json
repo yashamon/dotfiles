@@ -13,6 +13,14 @@
        ],
     "description": "papers"
 		},
+"implies": {
+    "prefix": "implies",
+    "body": [
+        "\\implies $0" 
+       ],
+    "description": "oplus"
+ }, 
+
    "oplus": {
     "prefix": "op",
     "body": [
