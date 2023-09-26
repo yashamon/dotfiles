@@ -13,12 +13,20 @@
        ],
     "description": "papers"
 		},
+"logicor": {
+    "prefix": "lor",
+    "body": [
+        "\\lor $0" 
+       ],
+    "description": "or"
+ }, 
+
 "implies": {
     "prefix": "implies",
     "body": [
         "\\implies $0" 
        ],
-    "description": "implies"
+    "description": "oplus"
  }, 
 
    "oplus": {
