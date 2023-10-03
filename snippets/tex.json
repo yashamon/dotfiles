@@ -13,6 +13,14 @@
        ],
     "description": "papers"
 		},
+"href": {
+    "prefix": "href",
+    "body": [
+        "\\href{$1} $0" 
+       ],
+    "description": "href"
+ }, 
+
 "logicor": {
     "prefix": "lor",
     "body": [
