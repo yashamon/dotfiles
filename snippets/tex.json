@@ -20,6 +20,13 @@
        ],
     "description": "href"
  }, 
+"url": {
+    "prefix": "url",
+    "body": [
+        "\\url{$1} $0" 
+       ],
+    "description": "url"
+ }, 
 
 "logicor": {
     "prefix": "lor",
