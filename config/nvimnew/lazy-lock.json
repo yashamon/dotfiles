@@ -7,7 +7,7 @@
   "cmp-nvim-tags": { "branch": "main", "commit": "30bdc2eec86eb66730af541bb06d24d4a67e3eeb" },
   "cmp_luasnip": { "branch": "master", "commit": "18095520391186d634a0045dacaa346291096566" },
   "denite.nvim": { "branch": "master", "commit": "94e3a79b1b97dc335785e0c2d5d7fedf0f34ea9d" },
-  "diffview.nvim": { "branch": "main", "commit": "a111d19ccceac6530448d329c63f998f77b5626e" },
+  "diffview.nvim": { "branch": "main", "commit": "d38c1b5266850f77f75e006bcc26213684e1e141" },
   "firenvim": { "branch": "master", "commit": "138424db463e6c0e862a05166a4ccc781cd7c19d" },
   "fzf": { "branch": "master", "commit": "2bed7d370e3ff654542aec0e9ad698dac64f244b" },
   "fzf-neoyank": { "branch": "master", "commit": "d5be69a3b48605eb297e8f13941cb11838fbdea0" },
