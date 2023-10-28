@@ -59,7 +59,7 @@ def pushgh [] { cd $"($HOMED)/web" ; pandoc index.md -o index.html ; git add . ;
 # def init [dir:string] {mkdir $dir ; cd $dir ; git init ; git branch -M master; git commit -m "fist commit"
 # } 
 
-def hw [] { pandoc $"($HOMED)/web/classes/CalcIII/2023.md" -o $"($HOMED)/web/classes/CalcIII/2023.html" ; cd $"($HOMED)/web"; git add . ; git commit -m -a ; git push origin gh-pages 
+def hw [] { pandoc $"($HOMED)/web/classes/CalcIII/2023.md" -o $"($HOMED)/web/classes/CalcIII/2023.html" ; $"($HOMED)/web/classes/ModernGeometry/2023.md" -o $"($HOMED)/web/classes/ModernGeometry/2023.html"; cd $"($HOMED)/web"; git add . ; git commit -m -a ; git push origin gh-pages 
 } 
 
 # alias config = ( cd $"($HOMED)/dotfiles"; push; cd $"($HOMED)/workspacemodules"; pushmod; cd $"($HOMED)/workspace"; push; cd web pushgh; pacman -Qqe > $"($HOMED)/dotfiles/pkglist.txt" )
