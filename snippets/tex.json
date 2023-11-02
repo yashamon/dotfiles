@@ -1,6 +1,7 @@
+
 {  
 		"site": {
-    "prefix": "site",
+  "prefix": "site",
     "body": [
         "https://sites.google.com/site/yashasavelyev/"
        ],
@@ -20,6 +21,14 @@
        ],
     "description": "href"
  }, 
+ "frechet": {
+    "prefix": "frechet",
+    "body": [
+        "Fr\\'echet $0" 
+       ],
+    "description": "url"
+ }, 
+
 "url": {
     "prefix": "url",
     "body": [
