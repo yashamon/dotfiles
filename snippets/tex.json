@@ -31,11 +31,11 @@
 "article": {
     "prefix": "bibarxiv",
     "body": [
-        "@article{cite_cant2022contactomorphisms,",
-      "title={$1}", 
-      "author={$2}",
-      "year={$3}",
-			"journal= {\\url{$4}}",
+        "@article{cite_$1,",
+      "title={$2}", 
+      "author={$3}",
+      "year={$4}",
+			"journal= {\\url{$5}}",
       "}, $0" 
 ],
     "description": "bib arxiv citation"
