@@ -28,6 +28,18 @@
        ],
     "description": "frechet"
  }, 
+"article": {
+    "prefix": "bibarxiv",
+    "body": [
+        "@article{cite_cant2022contactomorphisms,",
+      "title={$1}", 
+      "author={$2}",
+      "year={$3}",
+			"journal= {\\url{$4}}",
+      "}, $0" 
+],
+    "description": "bib arxiv citation"
+ }, 
 
 "url": {
     "prefix": "url",
