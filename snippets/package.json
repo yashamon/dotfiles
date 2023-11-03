@@ -153,7 +153,8 @@
       {
         "language": [
           "latex",
-          "tex"
+          "tex",
+					"bib"
         ],
         "path": "./tex.json"
       },
