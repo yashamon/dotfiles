@@ -29,7 +29,7 @@
     "description": "frechet"
  }, 
 "article": {
-    "prefix": "bib",
+    "prefix": "arxiv",
     "body": [
         "@article{cite_$1,",
       "title={$2}", 
