@@ -350,7 +350,8 @@
 					"text",
 					"txt",
           "plaintex",
-          "tex"
+          "tex",
+					"bib"
         ],
         "path": "./tex.json"
       },
