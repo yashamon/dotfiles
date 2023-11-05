@@ -21,7 +21,26 @@
        ],
     "description": "href"
  }, 
- 
+ "frechet": {
+    "prefix": "frechet",
+    "body": [
+        "Fr\\'echet $0" 
+       ],
+    "description": "frechet"
+ }, 
+"article": {
+    "prefix": "arxiv",
+    "body": [
+      "@article{cite_$1",
+      "title={$2}",
+      "author={$3}",
+      "year={$4}",
+			"journal= {\\url{$5}}",
+      "} $0"
+],
+    "description": "bib arxiv citation"
+ },
+
 "url": {
     "prefix": "url",
     "body": [
