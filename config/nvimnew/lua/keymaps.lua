@@ -184,8 +184,7 @@ noremap gs vi[
 vnoremap p "_dP
 noremap <m-p> <c-r>+
 noremap d "0d
-nnoremap cg "0cgn
-vnoremap cg "0cgn
+nnoremap cg "_cgn
 nnoremap dd "0dd
 nnoremap vv ^v$
 vnoremap c "0c
