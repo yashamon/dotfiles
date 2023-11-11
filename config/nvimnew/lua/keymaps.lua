@@ -188,6 +188,7 @@ nnoremap cg "0cgn
 vnoremap cg "0cgn
 nnoremap dd "0dd
 nnoremap vv ^v$
+vnoremap c "0c
 noremap c "0c
 noremap s "0s
 noremap C "0C
