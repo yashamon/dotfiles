@@ -237,6 +237,7 @@ ls.add_snippets(nil, {
         { text({"","\\documentclass{amsart}"}),
 text({"","\\usepackage{appendix}"}),
 text({"","\\usepackage{graphicx}"}),
+text({"","\\usepackage[parfill]{parskip} "}),
 text({"","\\usepackage{amsfonts, amscd, mathrsfs, amsmath, amssymb, amsthm}"}),
 text({"","\\usepackage{url}"}),
 text({"","\\usepackage{hyperref} "}),
