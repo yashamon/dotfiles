@@ -228,7 +228,7 @@ text({"", '\\end{document}'}),
 
 
 ls.add_snippets(nil, {
-    tex = {
+    plaintex = {
         snip({
             trig = "tex",
             namr = "Latex template",
