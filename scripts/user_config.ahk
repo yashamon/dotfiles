@@ -229,7 +229,7 @@ return
 #Space::
 send {F11}
 return
-PgUp::CapsLock
+home::CapsLock
 #!a::MoveCurrentWindowToDesktop(1)
 #!s::MoveCurrentWindowToDesktop(2)
 #!d::MoveCurrentWindowToDesktop(3)
