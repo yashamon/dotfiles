@@ -34,7 +34,7 @@ def r [name: string] { rm --recursive --trash $name }
 def killn [name: string] { ps | where name =~ $name | each {|it| kill --force $it.pid} }
 
 # alias hello = ( echo "hello" )
-# def-env j [file: string] {
+# def --env j [file: string] {
 # if ($file | str trim | path type) == dir {
 # zoxide add $file}
 # __zoxide_z $file}
@@ -77,7 +77,7 @@ git push origin gh-pages
 cd $cwdb
 }
 alias send = sendFunction
-def-env lf [...opt] { source "C:/Users/yasha/OneDrive/dotfiles/scripts/lfcd.nu"
+def --env lf [...opt] { source "C:/Users/yasha/OneDrive/dotfiles/scripts/lfcd.nu"
 main $opt
 let dir = ((open "C:\\Users\\yasha\\AppData\\Local\\Temp\\tmp9E2XX.tmp") | str trim)
 $dir | clip
@@ -396,9 +396,9 @@ $env.config = {
   rm: {
     always_trash: false # always act as if -t was given. Can be overridden with -p
   }
-  cd: {
-    abbreviations: false # allows `cd s/o/f` to expand to `cd some/other/folder`
-  }
+  # cd: {
+  #   abbreviations: false # allows `cd s/o/f` to expand to `cd some/other/folder`
+  # }
   table: {
     mode: rounded # basic, compact, compact_double, light, thin, with_love, rounded, reinforced, heavy, none, other
     index_mode: always # "always" show indexes, "never" show indexes, "auto" = show indexes when a table has "index" column
