@@ -367,7 +367,7 @@
 "Align numbered": {
     "prefix": ["alignn"],
     "body": [
-        "\\begin{align} \\label{eq_$1}",
+        "\\begin{align} \\label{equation_$1}",
         "\t$0",    
         "\\end{align}"
 ],
@@ -905,7 +905,7 @@
 "equation reference": {
     "prefix": "eqref",
     "body": [
-      "\\eqref{eq_$2}$0"
+      "\\eqref{equation_$2}$0"
     ],
     "description": "equation Reference"
   },
