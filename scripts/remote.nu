@@ -9,6 +9,7 @@ let buf = (open ~/filename.txt | str trim)
 # let buf = ''
 let exec = "nvim --server " + $var + " --remote-send '<esc>:buffer " + $buf + "<cr><esc>:" + $line + "<cr>'"
 echo $exec
-nvim --server $var --remote-send $"\'<esc>:buffer ($buf)<cr><esc>:($line)<cr>\'"
+^$"($exec)"
+# nvim --server $var --remote-send $"\'<esc>:buffer ($buf)<cr><esc>:($line)<cr>\'"
 }
 
