@@ -127,7 +127,8 @@ local filenamePDFWindows="build/" .. filenameroot .. ".pdf"
 local execstrWindowsTectonic="tectonic " .. filenametex .. " --outdir build --synctex --keep-logs --keep-intermediates"
 
 -- let execstrViewerSio="silent te pwsh -nop -c C:/Users/yasha/scoop/apps/sioyek/current/sioyek --forward-search-file " . filenametex . " --forward-search-line " . linenumber
-local execstrViewerSummatra = "C:/Users/yasha/scoop/shims/sumatrapdf.EXE -reuse-instance " .. filenamePDFWindows .. " -forward-search " .. filenametex .. " " .. linenumber
+-- local execstrViewerSummatra = "C:/Users/yasha/scoop/shims/sumatrapdf.EXE -reuse-instance " .. filenamePDFWindows .. " -forward-search " .. filenametex .. " " .. linenumber
+
 local execstrViewerSio = "C:/Users/yasha/scoop/apps/sioyek/current/sioyek " .. "--forward-search-file " .. filenametex . " --forward-search-line " .. linenumber
 
 -- let execstrWindows2="silent te pwsh -nop -c C:/Users/yasha/scoop/shims/sumatrapdf.EXE -reuse-instance " . b:filenamePDFWindows . " -forward-search " . filenametex . " " . linenumber
