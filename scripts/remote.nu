@@ -3,8 +3,8 @@ def main [line: string, buffer?: string] {
 echo $line
 # let buf = ( $duf | sed 's/.*\\//' )
 # echo $buf
-let var = $"(cat ~/servername.txt | str trim )"
-let buf = (cat ~/filename.txt | str trim) 
+let var = $"(open ~/servername.txt | str trim )"
+let buf = (open ~/filename.txt | str trim) 
 # echo $buffer > ~/buffer.txt
 # let buf = ''
 let exec = "--server " + $var + " --remote-send '<esc>:buffer " + $buf + "<cr><esc>:" + $line + "<cr>'"
