@@ -7,8 +7,8 @@ let var = $"(open ~/servername.txt | str trim )"
 let buf = (open ~/filename.txt | str trim) 
 # echo $buffer > ~/buffer.txt
 # let buf = ''
-let exec = $"("nvim --server " + ($var) + ($buf)") 
-
+let exec = $"("nvim --server " + $var + $buf") 
+echo $exec
 # + "<cr><esc>:" + ($line) + "<cr>'")"
 # echo $exec
 # ^$exec
