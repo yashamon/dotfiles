@@ -130,7 +130,7 @@ map X !$Env:f
 # dedicated keys for file opener actions
 map go &pwsh -nop -c explorer $Env:f.Trim('"') 
 map gO $pwsh -nop -c openwith $Env:f.Trim('"') 
-map mE $pwsh -nop -c "explorer /select, $Env:f"
+map 'E $pwsh -nop -c "explorer /select, $Env:f"
 
 # define a custom 'open' command
 # This command is called when current file is not a directory. You may want to
