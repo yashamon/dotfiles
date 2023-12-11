@@ -277,7 +277,7 @@ Run microsoft-edge:https://this-page-intentionally-left-blank.org/
 ;Run "chrome"
 Return   
 #+j::
-Run xournalpp
+Run onenote
 Return   
 ; Win+Shift+Break - Edit this file
 #+Break::
