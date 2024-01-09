@@ -13,7 +13,7 @@ def uploadGit [name:string] {
 let key = (keyGH)
 nu $"($HOMED)/dotfiles/scripts/uploadGit.nu" $name (keyGH) }
 def neo [file = ""] {
-neovide $file
+pwsh -nop -c neovide $file
 }
 def vi [file = ""] {
 nvy --maximize $file
