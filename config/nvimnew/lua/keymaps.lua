@@ -65,7 +65,7 @@ map({'n', 'v'}, 'q:', '<nop>', {})
 map('n', '<C-c>', function() vim.cmd('set hlsearch!') end, {})
 map('n', '<leader>e', function() vim.cmd('silent call ToggleQuickFix()') end, {})
 map('n', 'g?',  vim.diagnostic.open_float, {})
-map('n', 'q',  function() vim.cmd('q') end, {})
+-- map('n', 'q',  function() vim.cmd('q') end, {})
 
 --Leap
 --
@@ -89,7 +89,7 @@ map('n','o', 'o<space><esc>"_s', {})
 
 --quiting
 map('n', '<m-q>', function () vim.cmd('wq') end, {})
-map('n', '<m-Q>', function () vim.cmd('q') end, {})
+-- map('n', '<m-Q>', function () vim.cmd('q') end, {})
 map('n', '<m-c>', function () vim.cmd('close') end, {})
 map('n', '<c-d>', function () vim.cmd('up | bdelete') end, {})
 map('n', '<c-D>', function () vim.cmd('up | bdelete!') end, {})

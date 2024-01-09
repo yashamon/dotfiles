@@ -1,4 +1,4 @@
 def main [] {
-neovide --multigrid 
+pwsh -nop -c C:\Users\yasha\scoop\apps\neovide\current\neovide.exe
 }
 
