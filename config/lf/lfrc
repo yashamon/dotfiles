@@ -128,8 +128,8 @@ map <cr> $$Env:f
 map X !$Env:f
 
 # dedicated keys for file opener actions
-map go &pwsh -nop -c explorer $Env:f.Trim('"') 
-map gO $pwsh -nop -c openwith $Env:f.Trim('"') 
+map go &pwsh -nop -c "explorer $Env:f"
+map gO $nu C:\Users\yasha\OneDrive\dotfiles\scripts\explorer.nu $Env:f.Trim('"')
 map gS $pwsh -nop -c "explorer /select, $Env:f"
 
 # define a custom 'open' command

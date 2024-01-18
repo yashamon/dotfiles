@@ -1,6 +1,5 @@
 local map = vim.keymap.set
 local command = vim.api.nvim_create_user_command
-
 vim.keymap.set({'n', 'v'}, '<leader>lr', vim.lsp.buf.references, { buffer=true })
 map('t', '<m-p>', [[getreg('+')]], {expr = true})
 map({'i','n'}, '<m-t>', function ()  vim.cmd('up')
@@ -88,8 +87,9 @@ map('n','ga', vim.lsp.buf.code_action, {})
 map('n','o', 'o<space><esc>"_s', {})
 
 --quiting
-map('n', '<m-q>', function () vim.cmd('wq') end, {})
--- map('n', '<m-Q>', function () vim.cmd('q') end, {})
+
+map('n', '<m-q>', function () vim.cmd{ cmd = 'wq', mods = {silent = true} } end, {})
+map('n', '<m-Q>', function () vim.cmd{ cmd = 'q', mods = {silent = true} } end, {})
 map('n', '<m-c>', function () vim.cmd('close') end, {})
 map('n', '<c-d>', function () vim.cmd('up | bdelete') end, {})
 map('n', '<c-D>', function () vim.cmd('up | bdelete!') end, {})
