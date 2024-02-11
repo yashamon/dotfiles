@@ -171,15 +171,8 @@
        ],
     "description": "range"
     },
-  "plus": {
-    "prefix": "pl",
-    "body": [
-        "+ $0"
-       ],
-    "description": "plus sign "
-    },    
   "minus": {
-    "prefix": "min",
+    "prefix": "mi",
     "body": [
         "- $0"
        ],
@@ -1194,8 +1187,15 @@
     ],
     "description": "infinity"
   },
+"plus": {
+    "prefix": ["p"],
+    "body": [
+      "+ $0"
+    ],
+    "description": "plus sign"
+}, 
 "partial": {
-    "prefix": ["p", "pa"],
+    "prefix": ["pa", "pa"],
     "body": [
       "\\partial $0"
     ],
