@@ -21,6 +21,21 @@
        ],
     "description": "href"
  }, 
+  "lie": {
+    "prefix": "lie",
+    "body": [
+        "\\mathfrak{lie} ($1) $0" 
+       ],
+    "description": ""
+ }, 
+  "derham": {
+    "prefix": "derham",
+    "body": [
+        "De Rham $0" 
+       ],
+    "description": ""
+ }, 
+
  "frechet": {
     "prefix": "frechet",
     "body": [

@@ -66,6 +66,16 @@ require("telescope").load_extension("advanced_git_search") end,
     "sindrets/diffview.nvim"}
 },
 -- {'tpope/vim-fugitive'},
+{
+  "ibhagwan/fzf-lua",
+  -- optional for icon support
+  dependencies = { "nvim-tree/nvim-web-devicons" },
+	branch = "windows",
+  config = function()
+    -- calling `setup` is optional for customization
+    require("fzf-lua").setup({})
+  end
+},
 {'kevinhwang91/nvim-ufo', dependencies = 'kevinhwang91/promise-async', lazy = true},
 {'gbprod/yanky.nvim', lazy = true},
 {'ThePrimeagen/harpoon', dependencies = "nvim-lua/plenary.nvim"},
