@@ -104,7 +104,7 @@ end
 
 Job = function(string)
 -- local buff = vim.fn.bufname()
-local jobstring = 'call jobstart(\'' .. 'pwsh -nop -c "' .. string .. '"\')'
+local jobstring = 'call jobstart(\'' .. 'nu -c "' .. string .. '"\')'
 vim.cmd(jobstring)
 end
 
@@ -113,6 +113,7 @@ GitAsync = function()
 local command1 = 'if ((git rev-parse --is-inside-work-tree) | into bool) {git add .; git diff --staged | save --force message.log; git commit -F message.log; git push --all origin}'
 Job(command1)
 end
+
 ViewPdf2 = function()
 vim.cmd('up')
 Server()
@@ -129,12 +130,14 @@ local execstrWindowsTectonic="tectonic " .. filenametex .. " --outdir build --sy
 -- let execstrViewerSio="silent te pwsh -nop -c C:/Users/yasha/scoop/apps/sioyek/current/sioyek --forward-search-file " . filenametex . " --forward-search-line " . linenumber
 local execstrViewerSummatra = "C:/Users/yasha/scoop/shims/sumatrapdf.EXE -reuse-instance " .. filenamePDFWindows .. " -forward-search " .. filenametex .. " " .. linenumber
 
-local execstrViewerSio="C:/Users/yasha/scoop/apps/sioyek/current/sioyek " .. "--forward-search-file " .. filenametex .. " --forward-search-line " .. linenumber
+local execstrViewerSio="C:/Users/yasha/scoop/apps/sioyek/current/sioyek " .. "--forward-search-file " .. filenametex .. " --forward-search-line " .. linenumber --new_window 
+
 
 -- let execstrWindows2="silent te pwsh -nop -c C:/Users/yasha/scoop/shims/sumatrapdf.EXE -reuse-instance " . b:filenamePDFWindows . " -forward-search " . filenametex . " " . linenumber
 -- let execstrWindows1="silent te pwsh -nop -c latexmk  -synctex=1 -file-line-error -f -interaction=nonstopmode " . filenametex
 Job("mkdir build")
 Job(execstrWindowsTectonic)
+-- Job(execstrViewerSio)
 Job(execstrViewerSummatra)
 end
 --
