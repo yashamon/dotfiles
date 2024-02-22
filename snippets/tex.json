@@ -115,6 +115,13 @@
        ],
     "description": ""
 },
+"tikz arrow": {
+    "prefix": "ar",
+    "body": [
+        "\\ar [$1, \"$2\"] $0"
+       ],
+    "description": "arrow"
+},
 
 "zero one": {
     "prefix": "zo",
