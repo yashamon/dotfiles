@@ -137,6 +137,7 @@ local execstrViewerSio = "C:/Users/yasha/scoop/apps/sioyek/current/sioyek " .. f
 Job("mkdir build")
 Job(execstrWindowsTectonic)
 Job(killSio)
+vim.cmd('sleep 300m')
 Job(execstrViewerSio)
 -- vim.cmd('sleep 300m')
 -- Job(afterSio)
