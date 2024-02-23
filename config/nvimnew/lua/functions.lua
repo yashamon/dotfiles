@@ -129,7 +129,7 @@ local execstrWindowsTectonic="tectonic " .. filenametex .. " --outdir build --sy
 
 -- let execstrViewerSio="silent te pwsh -nop -c C:/Users/yasha/scoop/apps/sioyek/current/sioyek --forward-search-file " . filenametex . " --forward-search-line " . linenumber
 local execstrViewerSummatra = "C:/Users/yasha/scoop/shims/sumatrapdf.EXE -reuse-instance " .. filenamePDFWindows .. " -forward-search " .. filenametex .. " " .. linenumber
-local afterSio = "C:/Users/yasha/scoop/apps/sioyek/current/sioyek C:/Users/yasha/scoop/apps/sioyek/current/sioyek --execute-command   fit_to_page_height_smart"
+local afterSio = "C:/Users/yasha/scoop/apps/sioyek/current/sioyek --execute-command   fit_to_page_height_smart"
 local killSio = "C:/Users/yasha/scoop/apps/sioyek/current/sioyek --execute-command quit"
 local execstrViewerSio = "C:/Users/yasha/scoop/apps/sioyek/current/sioyek " .. filenamePDFWindows .. " --forward-search-file " .. filenametex .. " --forward-search-line " .. linenumber
 -- let execstrWindows2="silent te pwsh -nop -c C:/Users/yasha/scoop/shims/sumatrapdf.EXE -reuse-instance " . b:filenamePDFWindows . " -forward-search " . filenametex . " " . linenumber
