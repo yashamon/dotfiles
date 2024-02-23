@@ -136,11 +136,10 @@ local execstrViewerSio = "C:/Users/yasha/scoop/apps/sioyek/current/sioyek " .. f
 -- let execstrWindows1="silent te pwsh -nop -c latexmk  -synctex=1 -file-line-error -f -interaction=nonstopmode " . filenametex
 Job("mkdir build")
 Job(execstrWindowsTectonic)
--- Job(killSio)
-vim.cmd('sleep 300m')
+Job(killSio)
 Job(execstrViewerSio)
-vim.cmd('sleep 300m')
-Job(afterSio)
+-- vim.cmd('sleep 300m')
+-- Job(afterSio)
 -- Job(execstrViewerSummatra)
 end
 --
