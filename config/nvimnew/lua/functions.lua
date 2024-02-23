@@ -124,21 +124,21 @@ local filenametex = vim.fn.expand('%:p:t')
 local filenametexwhole = vim.fn.expand('%:p')
 local filenameroot = vim.fn.expand('%:t:r')
 -- local filenamePDFLinux=filenamedir .. "/buildback/" .. filenameroot .. ".pdf"
-local filenamePDFWindows="build/" .. filenameroot .. ".pdf"
+local filenamePDFWindows = filenamedir .. "/build/" .. filenameroot .. ".pdf"
 local execstrWindowsTectonic="tectonic " .. filenametex .. " --outdir build --synctex --keep-logs --keep-intermediates"
 
 -- let execstrViewerSio="silent te pwsh -nop -c C:/Users/yasha/scoop/apps/sioyek/current/sioyek --forward-search-file " . filenametex . " --forward-search-line " . linenumber
 local execstrViewerSummatra = "C:/Users/yasha/scoop/shims/sumatrapdf.EXE -reuse-instance " .. filenamePDFWindows .. " -forward-search " .. filenametex .. " " .. linenumber
 
-local execstrViewerSio="C:/Users/yasha/scoop/apps/sioyek/current/sioyek " .. "--forward-search-file " .. filenametex .. " --forward-search-line " .. linenumber --new_window 
-
-
+local execstrViewerSio = "C:/Users/yasha/scoop/apps/sioyek/current/sioyek " .. filenamePDFWindows .. " --forward-search-file " .. filenametex .. " --forward-search-line " .. linenumber
+local afterSio = "C:/Users/yasha/scoop/apps/sioyek/current/sioyek C:/Users/yasha/scoop/apps/sioyek/current/sioyek --execute-command   fit_to_page_height_smart"
 -- let execstrWindows2="silent te pwsh -nop -c C:/Users/yasha/scoop/shims/sumatrapdf.EXE -reuse-instance " . b:filenamePDFWindows . " -forward-search " . filenametex . " " . linenumber
 -- let execstrWindows1="silent te pwsh -nop -c latexmk  -synctex=1 -file-line-error -f -interaction=nonstopmode " . filenametex
 Job("mkdir build")
 Job(execstrWindowsTectonic)
--- Job(execstrViewerSio)
-Job(execstrViewerSummatra)
+Job(execstrViewerSio)
+Job(afterSio)
+-- Job(execstrViewerSummatra)
 end
 --
 OnUIEnter = function(event)
