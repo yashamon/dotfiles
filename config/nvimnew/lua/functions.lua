@@ -137,10 +137,13 @@ local execstrViewerSio = "C:/Users/yasha/scoop/apps/sioyek/current/sioyek " .. f
 Job("mkdir build")
 Job(execstrWindowsTectonic)
 -- Job(killSio)
-Job(execstrViewerSio)
-vim.cmd('sleep 500m')
-Job(afterSio)
--- Job(execstrViewerSummatra)
+-- Job(execstrViewerSio)
+-- Job(killSio)
+-- vim.cmd('sleep 2000m')
+-- Job(execstrViewerSio)
+-- vim.cmd('sleep 500m')
+-- Job(afterSio)
+Job(execstrViewerSummatra)
 end
 --
 OnUIEnter = function(event)
