@@ -1685,6 +1685,13 @@
     ],
     "description": "over dot"
   },
+"hat": {
+    "prefix": ["hat"],
+    "body": [
+      "\\hat{$1} $0"
+    ],
+    "description": "over hat"
+  },
 
 "widetilda": {
     "prefix": ["wt"],
