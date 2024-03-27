@@ -108,6 +108,14 @@
        ],
     "description": ""
 },
+"interval01": {
+    "prefix": "01",
+    "body": [
+        "[0,1]" 
+       ],
+    "description": ""
+},
+
 "interval": {
     "prefix": "interval",
     "body": [
