@@ -661,7 +661,7 @@
   },
 
 "comment": {
-    "prefix": ["com", "comment"],
+    "prefix": ["latcomment"],
     "body": [
       "\\begin{comment}", 
       "$1",
