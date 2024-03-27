@@ -557,7 +557,7 @@
   },
  
  "Corollary": {
-    "prefix": ["corollary"],
+    "prefix": ["latcorollary"],
     "body": [
       "",
       "\\begin{corollary} \\label{corollary_$1}", 
