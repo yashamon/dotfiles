@@ -637,7 +637,7 @@
     "description": "Split"
   },
   "Section": {
-    "prefix": ["section"],
+    "prefix": ["latsec"],
     "body": [
       "\\section{$1} \\label{sec_$1}"
       ],
