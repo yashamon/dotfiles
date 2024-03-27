@@ -705,7 +705,7 @@
     "description": "Begin - End"
   },
   "Figure": {
-    "prefix": "figure",
+    "prefix": "latfigure",
     "body": [
       "\\begin{figure}",
       "\t\\begin{center}",
