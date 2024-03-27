@@ -452,7 +452,7 @@
   },
 
 "Equation": {
-    "prefix": "eq",
+    "prefix": "lateq",
     "body": [
 			"",
       "\\begin{equation*}",
@@ -464,7 +464,7 @@
     "description": "Add a Equation"
   },
 "EquationNumbered": {
-    "prefix": "eqnum",
+    "prefix": "lateqnum",
     "body": [
 			"",
       "\\begin{equation} \\label{equation_$1}",
@@ -570,7 +570,7 @@
   },
 
 "Theorem": {
-    "prefix": ["theorem"],
+    "prefix": ["latthm"],
     "body": [
       "",
       "\\begin{theorem} \\label{theorem_$1}", 
