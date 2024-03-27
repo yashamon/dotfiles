@@ -804,7 +804,7 @@
     "description": "Add a table (ACM)"
   },
   "enumerate": {
-    "prefix": "enumerate",
+    "prefix": "latenumerate",
     "body": [
       "\\begin{enumerate}",
       "\t\\item $0",
