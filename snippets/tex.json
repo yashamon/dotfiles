@@ -645,7 +645,7 @@
   },
 
   "Sub Section": {
-    "prefix": ["subsec", "subsection"],
+    "prefix": ["latsubsec", "latsubsection"],
     "body": [
       "\\subsection{$1} \\label{sec_$1}"
       ],
