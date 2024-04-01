@@ -34,7 +34,7 @@ set hidden
 # }}
 
 # cmd trash $pwsh -nop -c "/Users/yasha/OneDrive/dotfiles/scripts/lfcdTrash.ps1" $Env:fx
-cmd trash $nu C:\\Users\\yasha\\OneDrive\\dotfiles\\scripts\\trash.nu $Env:fx
+cmd trash $nu "C:\\Users\\yasha\\OneDrive\\dotfiles\\scripts\\trash.nu" $Env:fx
  # cmd trash recycle-bin $Env:fx
 # set previewer stpv
 # set cleaner stpvimgclr
