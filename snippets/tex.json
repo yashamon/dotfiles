@@ -519,10 +519,10 @@
     "description": "remark"
   },
  "notation":{
-    "prefix": ["notation"],
+    "prefix": ["latnotation"],
     "body": [
       "\\begin{notation}", 
-      "\\label{notation:$1}",
+      "\\label{notation_$1}",
       "\\end{notation}",
       "$0"
     ],
