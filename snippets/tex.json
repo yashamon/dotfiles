@@ -577,8 +577,8 @@
     "description": "Add a theorem"
   },
 
-"Theorem": {
-    "prefix": ["latcorollary"],
+"corollary": {
+    "prefix": ["latthm", "lattheorem"],
     "body": [
       "",
       "\\begin{theorem} \\label{theorem_$1}", 
