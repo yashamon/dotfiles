@@ -1701,6 +1701,14 @@
     ],
     "description": "over dot"
   },
+	"widehat": {
+    "prefix": ["wh"],
+    "body": [
+      "\\widehat{$1} $0"
+    ],
+    "description": "over widehat"
+  },
+
 "hat": {
     "prefix": ["hat"],
     "body": [
