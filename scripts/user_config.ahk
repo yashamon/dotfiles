@@ -79,7 +79,7 @@ return
 ;}
 ;Return
 
-;#A::
+#A::
 ;switchDesktopByNumber(1)
 ;Send !{Esc}
 ;;sleep 20
@@ -113,7 +113,7 @@ return
 ;sleep 20
 ;Send {LWin down}{LCtrl down}{Left down}{LWin up}{LCtrl up}{Left up}
 ;return
-;#S::
+#S::
 ;switchDesktopByNumber(2)
 ;sleep 50
 ;
