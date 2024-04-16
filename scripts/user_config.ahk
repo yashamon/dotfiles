@@ -80,127 +80,19 @@ return
 ;Return
 
 #A::
-;switchDesktopByNumber(1)
-;Send !{Esc}
-;;sleep 20
-;;Send !{Esc}
-;return
-;#A::
-;switchDesktopByNumber(1)
-;sleep 50
-;
-;switchDesktopByNumber(1)
-;sleep 50
-;
-;switchDesktopByNumber(1)
-;
-;Send !{Esc}
-;SendInput {LWin down}{LCtrl down}{Left down}{LWin up}{LCtrl up}{Left up}
-;sleep 20
-;SendInput {LWin down}{LCtrl down}{Left down}{LWin up}{LCtrl up}{Left up}
-;sleep 20
-;SendInput {LWin down}{LCtrl down}{Left down}{LWin up}{LCtrl up}{Left up}
-;sleep 20
-;SendInput {LWin down}{LCtrl down}{Left down}{LWin up}{LCtrl up}{Left up}
-;sleep 20
-;Send !{Esc}
-;sleep 20
-;Send {LWin down}{LCtrl down}{Left down}{LWin up}{LCtrl up}{Left up}
-;sleep 20
-;Send {LWin down}{LCtrl down}{Left down}{LWin up}{LCtrl up}{Left up}
-;sleep 20
-;Send {LWin down}{LCtrl down}{Left down}{LWin up}{LCtrl up}{Left up}
-;sleep 20
-;Send {LWin down}{LCtrl down}{Left down}{LWin up}{LCtrl up}{Left up}
-;return
+!6
+return
 #S::
-;switchDesktopByNumber(2)
-;sleep 50
-;
-;switchDesktopByNumber(2)
-;sleep 50
-;
-;switchDesktopByNumber(2)
-
-;Send !{Esc}
-;SendInput {LWin down}{LCtrl down}{Left down}{LWin up}{LCtrl up}{Left up}
-;sleep 50
-;SendInput {LWin down}{LCtrl down}{Left down}{LWin up}{LCtrl up}{Left up}
-;sleep 50
-;SendInput {LWin down}{LCtrl down}{Left down}{LWin up}{LCtrl up}{Left up}
-;sleep 50
-;SendInput {LWin down}{LCtrl down}{Left down}{LWin up}{LCtrl up}{Left up}
-;sleep 50
-;SendInput {LWin down}{LCtrl down}{Right down}{LWin up}{LCtrl up}{Right up}
-;sleep 50
-;Send !{Esc}
-;return
-
-;sleep 50
-;Send {LWin down}{LCtrl down}{Left down}{LWin up}{LCtrl up}{Left up}
-;sleep 50
-;Send {LWin down}{LCtrl down}{Left down}{LWin up}{LCtrl up}{Left up}
-;sleep 50
-;Send {LWin down}{LCtrl down}{Left down}{LWin up}{LCtrl up}{Left up}
-;sleep 50
-;Send {LWin down}{LCtrl down}{Left down}{LWin up}{LCtrl up}{Left up}
-;sleep 50
-;Send {LWin down}{LCtrl down}{Right down}{LWin up}{LCtrl up}{Right up}
-;switchDesktopByNumber(2)
-;Send !{Esc}
-;sleep 100
-;Send !{Esc}
-;#X::
-;WinClose A 
-;return
-;
-;#D::
-;switchDesktopByNumber(4)
-;sleep 50
-;switchDesktopByNumber(4)
-;sleep 50
-;switchDesktopByNumber(4)
-;
-;
-;Send !{Esc}
-;return
-;#F::
-;switchDesktopByNumber(5)
-;sleep 50
-;
-;switchDesktopByNumber(5)
-;sleep 50
-;
-;switchDesktopByNumber(5)
-;
-;
-;Send !{Esc}
-;return
-;#C::
-;switchDesktopByNumber(3)
-;sleep 50
-;
-;switchDesktopByNumber(3)
-;sleep 50
-;
-;switchDesktopByNumber(3)
-;
-;
-;Send !{Esc}
-;Send {LWin down}{LCtrl down}{Left down}{LWin up}{LCtrl up}{Left up}
-;sleep 50
-;Send {LWin down}{LCtrl down}{Left down}{LWin up}{LCtrl up}{Left up}
-;sleep 50
-;Send {LWin down}{LCtrl down}{Left down}{LWin up}{LCtrl up}{Left up}
-;sleep 50
-;Send {LWin down}{LCtrl down}{Left down}{LWin up}{LCtrl up}{Left up}
-;sleep 50
-;Send {LWin down}{LCtrl down}{Left down}{LWin up}{LCtrl up}{Left up}
-;sleep 50
-;Send {LWin down}{LCtrl down}{Right down}{LWin up}{LCtrl up}{Right up}
-;sleep 50
-;Send {LWin down}{LCtrl down}{Right down}{LWin up}{LCtrl up}{Right up}
-;Send !{Esc}
+!7
+return
+#C::
+!8
+return
+#F::
+!8
+return
+#Z::
+!3
 return
 #!h::
 return
