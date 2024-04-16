@@ -85,16 +85,16 @@ return
 ;;sleep 20
 ;;Send !{Esc}
 ;return
-#A::
-switchDesktopByNumber(1)
-sleep 50
-
-switchDesktopByNumber(1)
-sleep 50
-
-switchDesktopByNumber(1)
-
-Send !{Esc}
+;#A::
+;switchDesktopByNumber(1)
+;sleep 50
+;
+;switchDesktopByNumber(1)
+;sleep 50
+;
+;switchDesktopByNumber(1)
+;
+;Send !{Esc}
 ;SendInput {LWin down}{LCtrl down}{Left down}{LWin up}{LCtrl up}{Left up}
 ;sleep 20
 ;SendInput {LWin down}{LCtrl down}{Left down}{LWin up}{LCtrl up}{Left up}
@@ -112,17 +112,17 @@ Send !{Esc}
 ;Send {LWin down}{LCtrl down}{Left down}{LWin up}{LCtrl up}{Left up}
 ;sleep 20
 ;Send {LWin down}{LCtrl down}{Left down}{LWin up}{LCtrl up}{Left up}
-return
-#S::
-switchDesktopByNumber(2)
-sleep 50
+;return
+;#S::
+;switchDesktopByNumber(2)
+;sleep 50
+;
+;switchDesktopByNumber(2)
+;sleep 50
+;
+;switchDesktopByNumber(2)
 
-switchDesktopByNumber(2)
-sleep 50
-
-switchDesktopByNumber(2)
-
-Send !{Esc}
+;Send !{Esc}
 ;SendInput {LWin down}{LCtrl down}{Left down}{LWin up}{LCtrl up}{Left up}
 ;sleep 50
 ;SendInput {LWin down}{LCtrl down}{Left down}{LWin up}{LCtrl up}{Left up}
@@ -134,7 +134,7 @@ Send !{Esc}
 ;SendInput {LWin down}{LCtrl down}{Right down}{LWin up}{LCtrl up}{Right up}
 ;sleep 50
 ;Send !{Esc}
-return
+;return
 
 ;sleep 50
 ;Send {LWin down}{LCtrl down}{Left down}{LWin up}{LCtrl up}{Left up}
@@ -150,43 +150,43 @@ return
 ;Send !{Esc}
 ;sleep 100
 ;Send !{Esc}
-#X::
-WinClose A 
-return
-
-#D::
-switchDesktopByNumber(4)
-sleep 50
-switchDesktopByNumber(4)
-sleep 50
-switchDesktopByNumber(4)
-
-
-Send !{Esc}
-return
-#F::
-switchDesktopByNumber(5)
-sleep 50
-
-switchDesktopByNumber(5)
-sleep 50
-
-switchDesktopByNumber(5)
-
-
-Send !{Esc}
-return
-#C::
-switchDesktopByNumber(3)
-sleep 50
-
-switchDesktopByNumber(3)
-sleep 50
-
-switchDesktopByNumber(3)
-
-
-Send !{Esc}
+;#X::
+;WinClose A 
+;return
+;
+;#D::
+;switchDesktopByNumber(4)
+;sleep 50
+;switchDesktopByNumber(4)
+;sleep 50
+;switchDesktopByNumber(4)
+;
+;
+;Send !{Esc}
+;return
+;#F::
+;switchDesktopByNumber(5)
+;sleep 50
+;
+;switchDesktopByNumber(5)
+;sleep 50
+;
+;switchDesktopByNumber(5)
+;
+;
+;Send !{Esc}
+;return
+;#C::
+;switchDesktopByNumber(3)
+;sleep 50
+;
+;switchDesktopByNumber(3)
+;sleep 50
+;
+;switchDesktopByNumber(3)
+;
+;
+;Send !{Esc}
 ;Send {LWin down}{LCtrl down}{Left down}{LWin up}{LCtrl up}{Left up}
 ;sleep 50
 ;Send {LWin down}{LCtrl down}{Left down}{LWin up}{LCtrl up}{Left up}
@@ -201,40 +201,6 @@ Send !{Esc}
 ;sleep 50
 ;Send {LWin down}{LCtrl down}{Right down}{LWin up}{LCtrl up}{Right up}
 ;Send !{Esc}
-return
-#m::
-switchDesktopByNumber(7)
-sleep 50
-
-switchDesktopByNumber(7)
-sleep 50
-
-switchDesktopByNumber(7)
-
-
-Send !{Esc}
-return
-#z::
-switchDesktopByNumber(6)
-sleep 50
-
-switchDesktopByNumber(6)
-sleep 50
-
-switchDesktopByNumber(6)
-
-
-Send !{Esc}
-return
-#Space::
-send {F11}
-return
-home::CapsLock
-#!a::MoveCurrentWindowToDesktop(1)
-#!s::MoveCurrentWindowToDesktop(2)
-#!d::MoveCurrentWindowToDesktop(3)
-#!f::MoveCurrentWindowToDesktop(4)
-#!c::MoveCurrentWindowToDesktop(5)
 return
 #!h::
 return
