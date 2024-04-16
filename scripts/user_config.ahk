@@ -79,8 +79,6 @@ return
 ;}
 ;Return
 #A::
-return
-#A::
 SendEvent !6
 return
 #S::
