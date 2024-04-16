@@ -236,8 +236,8 @@ nnoremap <Backspace> i<Backspace><Esc>
 noremap <A-r> <C-r>
 nnoremap ` ~
 nnoremap . `
-noremap <C-o> <esc><C-o>
-noremap <C-i> <esc><C-i>
+noremap <C-o> <Esc><C-o>
+noremap <C-i> <Esc><C-i>
 noremap <D-u> <C-u>
 noremap <A-u> <C-u>
 ]])
