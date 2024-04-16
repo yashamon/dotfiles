@@ -80,7 +80,9 @@ return
 ;Return
 #A::
 return
-#A::!6
+#A::
+SendEvent !6
+return
 #S::
 return
 #S::
