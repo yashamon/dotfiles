@@ -78,9 +78,12 @@ return
 ;   return
 ;}
 ;Return
-
+#A::
+return
 #A::
 !6
+return
+#S::
 return
 #S::
 !7
