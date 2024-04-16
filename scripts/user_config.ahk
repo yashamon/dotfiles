@@ -83,16 +83,16 @@ SendEvent !1
 return
 return
 #S::
-SendEvent !7
+SendEvent !2
 return
 #C::
-SendEvent !8
+SendEvent !3
 return
 #F::
-SendEvent !9
+SendEvent !4
 return
 #Z::
-SendEvent !3
+SendEvent !7
 return
 #!h::
 return
