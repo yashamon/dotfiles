@@ -80,9 +80,7 @@ return
 ;Return
 #A::
 return
-#A::
-!6
-return
+#A::!6
 #S::
 return
 #S::
