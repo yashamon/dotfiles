@@ -92,7 +92,7 @@ return
 SendEvent !9
 return
 #Z::
-!3
+SendEvent !3
 return
 #!h::
 return
