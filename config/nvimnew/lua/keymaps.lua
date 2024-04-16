@@ -237,9 +237,9 @@ noremap <A-r> <C-r>
 nnoremap ` ~
 nnoremap . `
 noremap <C-o> <Esc><C-o>
-inoremap <C-o> <Esc><C-o>
+imap <C-o> <Esc><C-o>
 noremap <C-i> <Esc><C-i>
-inoremap <C-i> <Esc><C-i>
+imap <C-i> <Esc><C-i>
 noremap <D-u> <C-u>
 noremap <A-u> <C-u>
 ]])
