@@ -81,20 +81,15 @@ return
 #A::
 SendEvent !6
 return
-#S::
 return
 #S::
-!7
+SendEvent !7
 return
 #C::
-return
-#C::
-!8
+SendEvent !8
 return
 #F::
-return
-#F::
-!8
+SendEvent !9
 return
 #Z::
 !3
