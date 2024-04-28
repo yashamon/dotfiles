@@ -1,0 +1,649 @@
+ACCEPT;Accept
+ACCOUNT_RECOVERY;Account recovery
+ACCOUNT_RECOVERY_TITLE;Recover Your Account
+ACTIVATION_KEY;Activation Key
+ADD_A_FRIEND;Add a friend via their id
+ADD_NEW_DECK;New Deck
+ADVENTURE_POUCH_POINTS;Adventure Pouch Points
+ALLY_TURN;Ally Turn
+AMBIENT;Ambient
+ARENA_RUN_DECK_NAME;Pandora Deck
+BACK;BACK
+BIND_ACCOUNT_BUTTON;Bind to {0}
+BIND_ACCOUNT_LABEL;Already have a Faeria account?
+BLUEPRINT_PANEL_TEXT1;Try altering one of the pre-made decks first.
+BLUEPRINT_PANEL_TEXT2;You can also build a custom deck by pressing the button below.
+BLUEPRINT_PANEL_TITLE;Want to Build Your Own Deck?
+BLUEPRINT_REQUIREMENT_LEVEL;REACH LEVEL
+BLUEPRINT_REQUIREMENT_QUEST;COMPLETE MORE MISSIONS TO UNLOCK THIS FORMULA
+BOOSTER_OPENING_GEMSTITLE;Rarity Gems
+BOSS_DEFEATED;Defeated
+BOSS_NOT_RELEASED;To be released
+BUILD_YOUR_DECK;Custom Deck
+CANCEL;Cancel
+CARD_LIMIT_MESSAGE;Each card is limited to 3 copies per deck.
+CHAT_ERROR_MESSAGE_TOO_LONG;Message is too long (max. {0} characters).
+CHAT_ERROR_NOBODY_TO_REPLY_TO;There is nobody to reply to.
+CHAT_ERROR_NOT_CONNECTED;Your connection was lost. Try logging out and logging back in again.
+CHAT_ERROR_NO_INTERLOCUTOR;You aren't chatting to anyone. Use the /w command, the friend list or click on a username in the chat to send a message.
+CHAT_ERROR_ONLY_WITH_FRIENDS;You may only chat with people that you are friends with on Faeria.
+CHAT_ERROR_RECIPIENT_IS_OFFLINE;{0} is offline: You can only send messages to online users.
+CHAT_GENERIC_WARNING;Please remember that Abrakam Entertainment employees will never ask for your password when assisting you. Do not communicate sensitive data in chats.
+CHAT_HINT_USER_BACK_ONLINE;{0} came back online!
+CHAT_HINT_USER_WENT_OFFLINE;{0} went offline.
+CHAT_INPUT_PLACEHOLDER;/w userName Your message.
+CHAT_TOOLTIP_DND_MODE;Do not disturb mode. While this is enabled, this window won't open when you receive a message. Messages will be logged silently.
+CHAT_TO_SOMEBODY;To [{0}]: {1}
+CHEST_OPENING_NO_MORE_CHEST;Level up or complete Daily Quests to gain more Chests!
+CHEST_OPENING_NO_MORE_MYTHIC_ITEMS;You currently have all the mythic items. Come back later.
+CHOOSE_OTHER_BLUEPRINT;Change Formula
+CLAIM_REWARDS;Claim your prize
+CLEAR;Clear
+COLLECTION_FILTER_CARD_TYPE;Filter by card type
+COLLECTION_FILTER_FAERIA_COST;Filter by Faeria cost
+COLLECTION_MODE;Crafting
+COLLECTION_SEARCH_PLACEHOLDER;Search...
+CONFIRM;Confirm
+CONNECTION_LOST_RECONNECTING;Connection lost\nAttempting to reconnect...
+CONNECTION_QUEUE_CAPTION;Your place in the queue:
+CONNECTION_QUEUE_TITLE;Servers are full!
+CONSTRUCTED_MODE;Ranked Mode
+CONSTRUCTED_RUN_DECK_NAME;Ranked Deck
+CO_OP_POPUP_JOIN_BUTTON_TEXT;Join
+CO_OP_POPUP_LOCKED_BUTTON_TEXT;Play
+CO_OP_POPUP_LOCKED_BUTTON_NOTIFICATION_TEXT;You must complete previous missions to unlock this
+CO_OP_POPUP_ALLY_SELECTION_TITLE;Invite your ally
+CO_OP_POPUP_NO_ALLY;No allies available
+CO_OP_LOBBY_CANCELLED;Your ally canceled the mission
+COUPON_REDEEM;Redeem
+CRAFT_CANNOT_DISENCHANT_CARD_FROM_DECK_WHILE_SEARCHING;Cannot disenchant this card while in search for a game.
+CRAFT_LEGENDARY_ERROR;You cannot craft legendary cards
+CRAFT_GOLD_CARD_ERROR;You cannot craft mythic cards
+CRAFT_FOURTH_CARD;You already have 3 or more copies of this card
+CRAFT_NOT_ENOUGH_CHARGES;You don't have enough charges to craft a card
+CRAFT_FULLY_CHARGED;Full
+CRAFT_ACCOUNT_LEVEL_TOO_LOW;You must be at least level {0} to craft this card
+CRAFT_MODE_BUTTON_TEXT_CONFIRM_CRAFT;Craft
+CRAFT_MODE_BUTTON_TEXT_CONFIRM_DISENCHANT;Disenchant
+CRAFT_MODE_BUTTON_TEXT_DISENCHANT_ALL_IN_EXCESS;Disenchant all in Excess
+CRAFT_MODE_UNAVAILABLE_TOOTIP;You need to be level {0} to use Crafting
+CRAFT_SECOND_LEGENDARY_CARD;You already have this legendary card
+CREATE_BLUEPRINT_DECK;Create
+CREATE_YOUR_ACCOUNT;Create your account
+DAILY_REWARD_NEXT;Next
+DAILY_REWARD_TITLE;Daily Login Reward
+DAILY_REWARD_POPUP_TITLE;Daily Connection Bonus!
+DECKEDITOR_GOLD_CARD_FILTER_TOGGLE_TEXT;Show mythics?
+DECKEDITOR_NON_GOLD_CARD_FILTER_TOGGLE_TEXT;Standard
+DECKEDITOR_SAVETEXT;Save
+DECKLAYOUT_INCOMPLETE_TEXT;Incomplete
+DECKSELECTION_SOLO_INFO;This is the Deck Selection screen for the Missions mode. Go back to the main menu to create or edit decks.
+DECK_EDITOR_BUY_BATTLE_CHEST;Buy Battle Chests to get more cards.
+DECK_EDITOR_FILTER_NO_RESULT;No card matches your search criteria.
+DECK_EDITOR_NO_FILTERED_CARD_IN_COLLECTION_BLUE;You have no blue cards.
+DECK_EDITOR_NO_FILTERED_CARD_IN_COLLECTION_GREEN;You have no green cards.
+DECK_EDITOR_NO_FILTERED_CARD_IN_COLLECTION_HUMAN;You have no neutral cards.
+DECK_EDITOR_NO_FILTERED_CARD_IN_COLLECTION_RED;You have no red cards.
+DECK_EDITOR_NO_FILTERED_CARD_IN_COLLECTION_YELLOW;You have no yellow cards.
+DECK_SIZE;Deck Size:
+DECK_SLOT_PURCHASE;+5 Deck Slots
+DELETE;Delete
+DISCONNECT;Disconnected
+DISENCHANT_ALL_FOR_MEMORIA;+{0}
+DISENCHANT_UNAVAILABLE_TOOTIP;You need to have more than {0} cards for Disenchanting
+DONE;Done
+DROP_RUN;Quit
+DYNAMIC_BUNDLE_CONFIRM_WARNING;Dynamic Bundle: You already own items from this bundle, the price below has been discounted accordingly.
+EDIT;Edit
+ELITE_MISSIONS_BUTTON_TEXT;World Bosses
+ELITE_MISSIONS_BUTTON_TOOLTIP;Requires level {0}
+EMAIL_ADDRESS;Email address
+EMOTE_MENU_GREETINGS;Greetings
+EMOTE_MENU_OOPS;Oops
+EMOTE_MENU_TAUNT;Taunt
+EMOTE_MENU_UNIQUE;Unique
+EMOTE_MENU_WELL_PLAYED;Well played
+EMOTE_MENU_WOW;Wow
+END_TURN;End Turn
+ENEMY_TURN;Enemy Turn
+ENTER_DECK_NAME;Enter Deck Name
+ENTER_YOUR_RECRUITERS_NAME;Enter your recruiter's name...
+EVENING;Evening
+EVENT_BUTTON_TEXT_SEND;send
+EVENT_EGG_HATCHING_HAS_EGG;It looks like your incubator is empty right now. If you find another egg, you can look after it here!\n\nWatch our streaming events on the FaeriaTV Twitch channel for a chance to receive your very own egg.\n\n<align="center"><link="https://www.twitch.tv/faeriatv">https://www.twitch.tv/faeriatv</link></align>
+EVENT_EGG_HATCHING_NO_EGG;Welcome to your incubator. Your egg is being kept safe and warm until it's ready to hatch!\nLook below to check your egg is still safe, and who knows: maybe you won't have long to wait...\nOnce your egg has hatched, you can search for another one to keep safe here. Check out our next Monthly Cup Finals!
+EVENT_HATCH_EGG_BUTTON;Hatch your egg
+EVENT_INPUT_FIELD_HINT_ENTER_EMAIL;Enter your friend's email address
+EVENT_TEXT_LOCK_OVERLAY;Unlock the second key by winning 5 Pandora games.
+EVENT_TEXT_TITLE;Event: Invite your Friends
+EXIT_CRAFT_MODE;Crafting
+FAERIA_AVERAGE;Faeria Average
+FRIENDLIST;Friendlist
+FRIENDLIST_FRIEND_REQUEST;View friend request
+FRIENDLIST_RECENTLY_PLAYED_SUGGESTION;View suggestion
+FRIENDLIST_STEAM_FRIEND_SUGGESTION;View Steam suggestion
+FRIENDLIST_GAME_INVITE;View game invite
+FRIENDLIST_DISCORD_HINT;Join our Discord channel to stay in touch!
+FRIENDLIST_FRIEND;Friend
+FRIENDLIST_INGAME;Ingame
+FRIENDLIST_INVITE_TO_LOBBY;Invite to lobby
+FRIENDLIST_INVITE_TO_TOURNAMENT;Invite to tournament
+FRIENDLIST_IN_LOBBY;In a lobby
+FRIENDLIST_OFFLINE;Offline
+FRIENDLIST_ONLINE;Online
+FRIENDLIST_RECENTLY_PLAYED;Recently played
+FRIENDLIST_REFUSED;
+FRIENDLIST_REMOVE;Remove friend
+FRIENDLIST_REQUEST_INITIATOR;Waiting for Response
+FRIENDLIST_REQUEST_RECIPIENT;Friend Requested
+FRIENDLIST_SEND_MESSAGE;Send message
+FRIENDLIST_SPECTATE_GAME;Spectate game
+FRIENDLIST_SPECTATING;Spectating
+FRIENDLIST_SPECTATING_YOU;Spectating you
+FRIENDLIST_SUGGESTED;Suggested
+FRIENDLIST_SUGGEST_TO_LOBBY;Suggest to lobby
+FRIENDLIST_VIEW_PROFILE;View profile
+FRIENDLIST_WAITING_FOR_RECIPIENT_ACCEPTANCE;Friend Requested
+FX;Fx
+GAME_CONNECTION_LOST_RECONNECTING;Game connection lost\nAttempting to reconnect...
+GAME_HAS_CRASHED;The game has crashed ({0}). It was too beautiful for this world.
+GEM_BONUS_AMOUNT;+ {0} Bonus
+GEM_PURCHASE_POPUP_TITLE;Select Gems
+GEM_PURCHASE_POPUP_TITLE_NOT_ENOUGH_GEM;You don't have enough Gems. Time to get some!
+GENERAL;General
+GENERIC_BUTTON_TEXT_PLAY;Play
+GENERIC_BUTTON_TEXT_SHOP;Shop
+GENERIC_GAMEPLAY_ATTACK;Attack
+GENERIC_GAMEPLAY_COST;Cost
+GENERIC_GAMEPLAY_LIFE;Life
+GENERIC_GAMEPLAY_WILD_COST;Wild Cost
+GOT_IT;Got it!
+GO_TO_CRAFT_MODE;Crafting
+GO_TO_SHOP_BUTTON_TEXT;Go to the shop
+GOLD_MINER_HIRING_TITLE;Thanks for hiring me!\nI'll get right to work.
+GOLD_MINER_REGULAR_GOLD;Hello {0}.\nHere's your shards.
+GOLD_MINER_ABOVE_AVERAGE_GOLD;I've had some great luck in the mines!
+GOLD_MINER_JACKPOT;Holy yak, we hit the jackpot!
+GOLD_MINER_LONG_DELAY_REGULAR_GOLD;Good to see you again! Here's your shards.
+GOLD_MINER_LONG_DELAY_ABOVE_AVERAGE_GOLD;Good to see you again! Here's your shards.
+GOLD_MINER_LONG_DELAY_JACKPOT;You're finally back! We hit the jackpot!
+GRAPHIC_QUALITY_HIGHER;Higher
+GRAPHIC_QUALITY_HIGHEST;Highest
+GRAPHIC_QUALITY_HIGH_IPAD;High
+GRAPHIC_QUALITY_LOWER;Lower
+GRAPHIC_QUALITY_LOWEST;Lowest
+GRAPHIC_QUALITY_LOW_IPAD;Low
+GRAPHIC_QUALITY_TITLE;Quality :
+GUEST_ACCOUNT_NAME;Guest
+INFO_NB_CONNECTED;Connected players: {0}
+INFO_NB_FINDING_ARENA;Finding Pandora: {0}
+INFO_NB_FINDING_CLASSIC;Finding Casual: {0}
+INFO_NB_FINDING_CONSTRUCTED;Finding Ranked: {0}
+INFO_NB_GAMES;Game in progress: {0}
+INFO_TIME_TO_FIND_GAME;Approx. search time: {0}
+INGAME_DEFEAT;Defeat
+INGAME_OPPONENT_STILL_MULLIGAN;Your opponent is still choosing to replace cards
+INGAME_ALLY_STILL_MULLIGAN;Your ally is still choosing to replace cards
+INGAME_PANDORA_OPENS;Pandora awakens!
+INGAME_PLAYER_TURN;{0}'s turn
+INGAME_PUZZLE_SOLVED;Puzzle solved
+INGAME_PUZZLE_WIN_THIS_TURN;Win this turn!
+INGAME_VERSUS;Versus
+INGAME_VICTORY;Victory
+INGAME_YOUR_TURN;Your turn!
+INVITED_TO_LOBBY;{0} is inviting you to a game.
+ITEM_RARITY_COMMON;Common
+ITEM_RARITY_EPIC;Epic
+ITEM_RARITY_LEGENDARY;Legendary
+ITEM_RARITY_RARE;Rare
+ITEM_VALUE;Value
+KEEP;KEEP
+KICKED_FROM_LOBBY;You were kicked out of the lobby.
+LANE_COMPLETED_QUEST;Completed!
+LANE_NEW_QUEST;New!
+LANE_UNLOCKED;Unlocked!
+LANGUAGE;Language :
+LEAGUE_UP;League up!
+LEGENDARY_CARD_LIMIT_MESSAGE;Legendary cards are limited to 1 copy per deck.
+LEVEL;Level {0}
+LOADING;Loading
+LOADING_LONG;Loading is taking longer than expected.
+LOBBY_ACCOUNT_SUGGESTED;Suggested
+LOBBY_DECK_PICKING_CANCELED;Deck selection was canceled by {0}.
+LOBBY_GAME_INVITE_PENDING;Invite pending...
+LOBBY_KICK_PLAYER;Kick player out
+LOBBY_PLAYERS_IN_GAME;Waiting for players still in game...
+LOBBY_PLAYERS_PICKING_DECKS;Players are selecting their decks...
+LOBBY_PLAYER_1_STATUS;Player 1
+LOBBY_PLAYER_2_STATUS;Player 2
+LOBBY_READY_BUTTON_TEXT;Ready
+LOBBY_SET_PLAYER_1;Set as player 1
+LOBBY_SET_PLAYER_2;Set as player 2
+LOBBY_SET_SPECTATOR;Set as spectator
+LOBBY_SPECTATOR_STATUS;Spectator
+LOBBY_CO_OP_WITH;With
+MAINMENU_BUTTON_BOOSTERS;Chests
+MAINMENU_BUTTON_COLLECTION;Collection
+MAINMENU_BUTTON_DAILY_QUESTS;Daily quests
+MAINMENU_BUTTON_EVENT_END_TIME;Event ends in {0} hours and {1} minutes.
+MAINMENU_BUTTON_FRIEND_LIST;Friend list
+MAINMENU_BUTTON_HOME;Home
+MAINMENU_BUTTON_SETTINGS;Settings
+MAINMENU_TITLE_BATTLE;BATTLE
+MAINMENU_TITLE_PANDORA;PANDORA
+MAINMENU_TITLE_SOLO;ADVENTURE
+MAINMENU_TITLE_VIEWPROFILE;View Profile
+MAP_QUEST_LOCKED;Locked
+MARKET_BUTTON_BUY_GEMS;Info
+MARKET_CATEGORY_AVATAR;Avatar
+MARKET_CATEGORY_BUNDLE;Bundle
+MARKET_CATEGORY_CARD_BACK;Card Back
+MARKET_CATEGORY_CHEST;
+MARKET_CATEGORY_EMOTES;Emote
+MARKET_CATEGORY_NONE;
+MARKET_CATEGORY_ORB;Orb
+MARKET_CATEGORY_PANDORA;
+MARKET_CATEGORY_WELL;Well
+MARKET_FEATURED_TAB_AVATAR;Avatars
+MARKET_FEATURED_TAB_BUNDLE;Bundles
+MARKET_FEATURED_TAB_CARD_BACK;Card Backs
+MARKET_FEATURED_TAB_EMOTE;Emotes
+MARKET_FEATURED_TAB_ORB;Orbs
+MARKET_FEATURED_TAB_WELL;Wells
+MARKET_HOW_MANY_CHEST;How many do you want?
+MARKET_ITEM_CONFIRM_PURCHASE;BUY
+MARKET_ITEM_OWNED;Owned
+MARKET_MENU_FEATURED;Featured
+MARKET_PROCESSING_ORDER;Processing...
+MARKET_ROTATINGITEMS_TITLE;Deals of the Day
+MARKET_TITLE;Shop
+MATCHES_FORMAT;Match format:
+MISSION_PACK_NPC_REWARD_TOOLTIP;Completing the last mission of this pack will reward you with a unique ally
+MISSION_PACK_XP_REWARD_TOOLTIP;This is the total XP you can earn by completing the missions of this pack
+MORNING;Morning
+MULLIGAN;Do you want to keep your cards or redraw?
+MULLIGAN_BUTTON_TEXT_CONFIRM;Confirm
+MULLIGAN_HINT_TEXT;Redrawn
+MUSIC;Music
+MY_CHESTS;My Chests
+NEW_ACCOUNT_BUTTON;Create an account
+NEW_ACCOUNT_LABEL;New to Faeria?
+NEW_ACCOUNT_WARNING;If you already have a Faeria account, you won't be able to use it with this {0} account!
+NEW_CARD_HINT;New
+NEW_DAILY_QUEST_RECEIVED;You received a new daily quest!
+NEW_DECK_NAME;My Deck
+NIGHT;Night
+NO_DAILY_QUESTS_LEFT;You have no Daily Quests left. Check back in tomorrow!
+OBJECTIVES;Objectives
+OK;Yes
+OVERSKY;Oversky
+OVERSKY_ALL_CARDS_NAME;All Oversky Cards
+OVERSKY_BUY_ISLAND_BUTTON_TEXT;Purchase island
+OVERSKY_BUY_ISLAND_TEXT;You don't own this island.\nYou need to purchase it to be eligible for the rewards of this mission.
+OVERSKY_CARD_REWARD;<size=200%><color=white>{0}</color></size> new cards will be added to your collection upon purchase
+OVERSKY_ISLAND_BUNDLE_DISCOUNTED_TOOLTIP;The bundle price has been adjusted because you already own this island
+OVERSKY_COSMETIC_SET_TOOLTIP;Including unique legendary items: Card Back, Faeria Well, Avatar and Orb
+OVERSKY_GET_POINTS_EMPEROR;Emperor's Challenge
+OVERSKY_GET_POINTS_MISSION;Oversky Mission
+OVERSKY_GET_POINTS_PVP;PvP Win
+OVERSKY_GET_POINTS_WILD_PACK;Wild Pack Completed
+OVERSKY_GET_POINTS_WORLD_BOSS;World Boss Defeated
+OVERSKY_GETTING_POINTS;Getting points for your pouch
+OVERSKY_LIMITED_BOSS_BATTLE_DESCRIPTION_OWNED;The mighty Emperor of Mirnast will bring you a new challenge every day. Get points for your pouch the first time you defeat him, each day.
+OVERSKY_LIMITED_BOSS_BATTLE_DESCRIPTION_NOT_OWNED;Each day, the mighty Emperor of Mirnast will bring you a new challenge. Get your pouch to access this limited mode!
+OVERSKY_LIMITED_BOSS_BATTLE_NAME;Emperor's Challenge
+OVERSKY_ONE_ISLAND;This Island
+OVERSKY_POINTS_REWARD;points for your pouch
+OVERSKY_POUCH_OWNED_CONTENT_TITLE;Your Adventure Pouch Rewards
+OVERSKY_POUCH_OWNED_CONTENT_DESCRIPTION;Keep on earning Adventure Pouch points to unlock as many rewards as you can! Below you can find the list of rewards and see your progress.
+OVERSKY_POUCH_OWNED_ENDED;Your Adventure Pouch has closed
+OVERSKY_POUCH_OWNED_END_DAYS;Your Adventure Pouch will open immediately, and close in {0} day(s)
+OVERSKY_POUCH_OWNED_END_HOURS;Your Adventure Pouch will open immediately, and close in {0} hour(s) and {1} minute(s)
+OVERSKY_POUCH_NOT_OWNED_CONTENT_TITLE;Adventure Pouch Rewards
+OVERSKY_POUCH_NOT_OWNED_CONTENT_DESCRIPTION;Purchase your Adventure Pouch now to unlock the rewards shown below - how many points can you earn before the Adventure Pouch closes?
+OVERSKY_POUCH_NOT_OWNED_ENDED;Time's up! The Adventure Pouch is not available anymore.
+OVERSKY_POUCH_NOT_OWNED_END_DAYS;Your Adventure Pouch will close in {0} day(s)
+OVERSKY_POUCH_NOT_OWNED_END_HOURS;Your Adventure Pouch will close in {0} hour(s) and {1} minute(s)
+OVERSKY_POUCH_NAME;The Adventure Pouch
+OVERSKY_POUCH_TIER_REWARD_EVERY_TEN;A mythic copy of one of your Oversky cards\n<size=60%>If you already have a full set of mythic versions of all the Oversky cards you own, you will receive this reward the next time you purchase an island.</size>
+OVERSKY_POUCH_TIER_REWARD_KAIOS_AVATAR_AND_EMOTES;Kaios' Avatar and Emotes
+OVERSKY_POUCH_TOOLTIP;Level-up your pouch to unlock exclusive adventuring rewards! More info on faeria.com/oversky.
+OVERSKY_SHOP_SLIDER_ITEM_NAME;Oversky content
+OVERSKY_SHOP_SLIDER_ITEM_DESCRIPTION;Oversky has arrived - grab new content here!
+OWNED_CARD_COUNT;You own {0} of this card
+PANDORA_GATE_OPENED;Your Run Begins!
+PANDORA_KEY_POOL_HELP_TEXT;Drag a coin to the center of the gate to enter Pandora!
+PANDORA_LOSSES;Losses
+PANDORA_SHARD_1_FOUND;First Shard Found
+PANDORA_SHARD_2_FOUND;Second Shard Found
+PANDORA_SHARD_3_FOUND;Third Shard Found
+PANDORA_SHARD_4_FOUND;Fourth Shard Found
+PANDORA_SHARD_5_FOUND;Final Shard Found
+PANDORA_VICTORIES;Wins
+PANTHEON_DECK_LEGENDARY_NOT_RESPECTED;Your decks contain too many {0}s. You can't have more than {1} copy of a Legendary card across all 3 decks.
+PANTHEON_DECK_NOT_RESPECTED;Your decks contain too many {0}s. You can't have more than {1} copies of a non-Legendary card across all 3 decks.
+PASSWORDS_DO_NOT_MATCH;The passwords do not match
+PASSWORD_FIELD_CONFIRM;Confirm password*
+PASSWORD_FIELD_MANDATORY;Password*
+PASSWORD_FIELD_NEW;New password*
+PASSWORD_MANDATORY;Password is mandatory
+PASSWORD_TOO_LONG;Password too long (max {0} characters).
+PASSWORD_TOO_SHORT;Password too short.
+PAUSE_MENU_TEXT;Pause
+PAUSE_MENU_TEXT_LEFT_NAME_COUNT;{0}: {1} left
+PINK_CHESTS_NOT_YET_AVAILABLE;An unknown force prevents you from approaching these chests. They won't open... for now.
+PLAY_MENU_SOLO_STANDARD;Missions
+PLAY_MENU_SOLO_OVERSKY;Oversky
+PLAYER_LEFT_TOURNAMENT;Player '{0}' left the tournament. The winner by default is '{1}'.
+PLAYER_LOST_CONNECTION;Player {0} lost connection\nHas {1} seconds to reconnect
+PRACTICE_BUTTON_TEXT;Practice
+PRIVATE_LOBBY;Private Lobby
+PRIVATE_LOBBY_INFO;Welcome to the private lobby! The game starts when both players are ready.
+PRIVATE_PLAY_ALLY_READY;Ally ready!
+PRIVATE_PLAY_OPPONENT_READY;Opponent ready!
+PRIVATE_PLAY_PLAYER_READY;You are ready!
+PRIVATE_PLAY_READY;Cancel
+PROFILE_BATTLERANK_TITLE;Battle
+PROFILE_MENU_PROFILE;Profile
+PROFILE_PANDORARANK_TITLE;Pandora
+PROFILE_RANKINGS_TITLE;Rankings
+PROLOGUE_HINT_ATTACK;Deals this much damage in fights
+PROLOGUE_HINT_COST;Costs this much Faeria to play
+PROLOGUE_HINT_LIFE;Takes this much damage to kill
+PROLOGUE_SPEECH_BUBBLE;Complete these missions to unlock your powers!
+PROMPT_ACCOUNT_INFO_HELP_TEXT;<size=150%>Hello {0}!</size>\n\nYou are currently playing as a guest.\n\nValidate your account by entering and confirming your email address and you'll be rewarded with 2 Battle Chests (8 cards)!
+PROMPT_ACCOUNT_INFO_WELCOME;Account Creation
+PROMPT_ACTIVATION_CODE_SENDING_SUCCESS;Activation code was sent to your email address.
+PROMPT_BINDING_SUCCESS;A binding link was sent to your email address.
+PROMPT_CANCEL_GAME_SEARCHES;This will cancel your game search. Do you want to continue?
+PROMPT_CHALLENGE_CONFIRMATION;You only have one chance to win this challenge. Are you ready?
+PROMPT_CONFIRM_USER_NAME;Choose carefully, you won't be able to change your name later on!
+PROMPT_CRASH;The game has crashed :(
+PROMPT_DECKEMPTY;A player lost due to drawing from an empty deck.
+PROMPT_DEFEAT;Defeat
+PROMPT_DELETE_DECK_CONFIRMATION;Are you sure you want to delete your deck?
+PROMPT_DELETE_FRIEND_CONFIRMATION;Are you sure you want to remove this friend?
+PROMPT_DISENCHANT_ALL_IN_EXCESS;Are you sure you want to disenchant all your excess?
+PROMPT_DISENCHANT_WILL_ALTER_DECKS;If you disenchant this card, some decks will be altered, are you sure?
+PROMPT_DOUBLE_KO;Game ended in a draw!
+PROMPT_DROP_RUN_CONFIRMATION;Are you sure you want to quit? It will count as {0} loss(es)!
+PROMPT_DUEL_PROPOSED;{0} has challenged you to a duel.
+PROMPT_EMAIL_HELP_TEXT;Validating your account also has the following advantages:\n\n\t- Password recovery\n\t- Access to our forums
+PROMPT_TEXT_LATER;Later
+PROMPT_EMAIL_TITLE_TEXT;Email address
+PROMPT_EMAIL_WELCOME;Validate your account and get 2 Battle Chests (8 cards)!
+PROMPT_EXIT_CONFIRMATION;Are you sure you want to quit?
+PROMPT_FRIENDLIST_ACCEPT_GAME_INVITE;Accept this game invitation?
+PROMPT_FRIENDLIST_ACCEPT_REQUEST;Accept this friend request?
+PROMPT_FRIENDLIST_ACCEPT_STEAM_SUGGESTION;Accept this Steam friend suggestion?
+PROMPT_FRIENDLIST_ACCEPT_SUGGESTION;Accept this friend suggestion?
+PROMPT_GAME_HAS_CRASHED;The game has crashed!
+PROMPT_LOBBY_CANCEL_CONFIRMATION;Are you sure you want to cancel and exit the lobby?
+PROMPT_LOBBY_LEAVE_CONFIRMATION;Are you sure you want to leave the lobby?
+PROMPT_MODIFICATION_CANCEL_CONFIRMATION;Your changes aren't applied. Do you want to discard them?
+PROMPT_NEW_BINDING;Do you already have a Faeria account?
+PROMPT_NO_DECK_FOUND;You have to create a deck in order to play
+PROMPT_PASSWORD_CHANGE_SUCCESS;Password modified successfully for account {0}.
+PROMPT_REFUSED_INVITEE_PLAYING;Your friend is playing
+PROMPT_REFUSED_INVITEE_SEARCHING_GAME;Your friend is already searching for a game.
+PROMPT_RESET_PASSWORD;Reset Your Password
+PROMPT_SAVE_DECK_FIRST;Do you want to save the changes to your deck?
+PROMPT_SKIP_TUTORIAL_MESSAGE_TEXT;You seem to handle card games well. Do you want to skip the tutorial?
+PROMPT_SKIP_TUTORIAL_TITLE_TEXT;Skip Tutorial
+PROMPT_STEAM_CONNECTION_REQUIRED;Steam connection required. Please launch Faeria from Steam.
+PROMPT_SURRENDER_CONFIRMATION;Are you sure you want to surrender?
+PROMPT_TEXT_NO;No
+PROMPT_TEXT_OK;Ok
+PROMPT_TEXT_YES;Yes
+PROMPT_TOURNAMENT_LEAD_DECK_PICK_CONFIRM;The first deck you pick will be the one you MUST use for the first game of a match, until your first loss. Are you sure you want to proceed?
+PROMPT_TOURNAMENT_LOBBY_LEAVE_CONFIRMATION;Leaving a tournament lobby before all remaining games are completed will make you lose your games. Do you really want to leave?
+PROMPT_TOURNAMENT_SIGNUP_CONFIRM;Are you sure you want to use these decks? Once you sign up, you will not be able to change them.
+PROMPT_TRANSACTION_FAILED;Transaction failed
+PROMPT_USERNAME_SKIP_BUTTON_TEXT;Skip
+PROMPT_USER_NAME_TITLE_TEXT;Player Name
+PROMPT_VICTORY;Victory!
+PROMPT_VICTORY_CONTINUE_BUTTON_TEXT;Continue
+PUBLIC_ARENA_GAME_SEARCH;Searching
+PUBLIC_GAME_SEARCH;Searching
+QUEST_HINT_WILD_COST;Requires this many special lands (total).
+QUEST_HOW_TO_UNLOCK_LANE;Reach level {0} to unlock this lane.
+QUEST_LANE_ACT_NAME;Mission Pack
+QUEST_LANE_COMPLETED;Lane Completed!
+QUEST_LANE_PROGRESSION;{0}/{1}
+QUEST_LANE_WILD_NAME;Wild
+QUEST_LOCKED_NAME;Mission locked
+QUEST_OPPONENT_LEVEL;Lvl {0}
+QUEST_PACK_COMPLETED;Mission Pack Completed
+QUEST_REQUIRED_LEVEL;Requires\nLevel {0}
+QUEST_REWARD_EXPERIENCE_ABBREVIATION;XP
+QUEST_TYPE_CHALLENGE;Challenge
+QUEST_TYPE_EPIC;Epic Mission
+QUEST_TYPE_EPIC_FORCED_DECK;Mission
+QUEST_TYPE_INTRO;Mission
+QUEST_TYPE_MYSTERY;Mystery Mission
+QUEST_TYPE_PUZZLE;Puzzle
+QUEST_TYPE_QUEST;Quest
+QUEST_TYPE_SURVIVAL;Survival
+RANK_DOWN;Rank Down
+RANK_STAR_DEFEAT;Defeat
+RANK_STAR_FIRST_WIN_OF_THE_DAY;First win of the day!
+RANK_STAR_HIGHER_LEAGUE_OPPONENT;You defeated a much stronger opponent!
+RANK_STAR_VICTORY;Victory
+RANK_STAR_WIN_STREAK;Win streak!
+RANK_UP;Rank Up
+RECOVERY_CODE;Recovery Code
+RECOVERY_STEAM;I have created my account on PC/macOS/Linux.
+RECOVERY_SUPPORT;The above option(s) did not work for me.
+RECOVERY_VALIDATED;My Faeria account is validated (I gave my email address).
+RECRUITER;Recruiter
+REFUSE;Decline
+REFUSE_FRIEND_REQUESTS;Refuse friend requests
+REFUSE_FRIEND_SPECTATE;Refuse friend spectate
+REPLAY_BUTTON_TEXT;Replay Mode
+REQUEST_CANCELED_BY_HOST;The request was canceled by host
+REROLL;Reroll
+RESOLUTION;Resolution : {0}
+RUSH_TUTORIAL;The Rush Opening
+SAVE;SAVE
+SEARCH_MODE_CASUAL_BUTTON_TEXT;Casual
+SEARCH_MODE_RANKED_BUTTON_TEXT;Ranked
+SEARCH_TIME_ARENA_MODE_NAME;Pandora
+SEARCH_TIME_CONSTRUCTED_MODE_NAME;Constructed
+SERVER_INFO_CUSTOM;{0}
+SERVER_INFO_LAST_ANNOUNCEMENT;Latest announcement available <u><link={0}>here</link></u>.
+SERVER_INFO_MAINTENANCE_SCHEDULED;A server maintenance is scheduled for {0}
+SERVER_INFO_MAINTENANCE_IN_PROGRESS;Our Yaknicians are performing server maintenance. We expect our servers to be back around {0}
+SERVER_INFO_NEW_VERSION_CHANGELOG;Latest patch notes are available <u><link={0}>here</link></u>.
+SERVER_INFO_SERVER_IS_DOWN;Server is down.
+SERVER_IP;Ip Server
+SETTING_ANIMATED_BACKGROUND;Animated background:
+SETTING_BUTTON_TEXT_EXIT;Exit
+SETTING_BUTTON_TEXT_OPTIONS;Options
+SETTING_BUTTON_TEXT_PAUSE;Pause
+SETTING_MUTE_IN_BACKGROUND;Mute in background
+SETTING_PERMANENT_DECK_HAND_INFO;Permanent deck/hand information
+SETTING_POWER_SAVING_MODE;Power saving mode
+SETTING_TEXT_AUDIO_TITLE;Audio Settings
+SETTING_TEXT_GAMEPLAY_TITLE;Gameplay Settings
+SETTING_TEXT_VIDEO_TITLE;Video Settings
+SETTING_TOGGLE_TEXT_MUTE_EMOTES;Mute emotes
+SETTING_TOGGLE_TEXT_SHOW_LAND_COUNT;Show land count
+SETTING_TOGGLE_TEXT_UNMUTE_EMOTES;Reactivate emotes
+SETTING_WINDOWED;Windowed:
+SET_RECRUITER_NAME;Add a friend as a recruiter so you can both receive some amazing rewards through your Faeria journey!\nMore information on <link="faeria.com/recruit-your-friends">faeria.com/recruit-your-friends</link>.
+SHOP;Click to open Box
+SHOP_ANNUITY_DAYS_LEFT;{0} days left
+SHOP_INPUT_FIELD_HINT_COUPON;Type your coupon here
+SIGN_IN;Sign in
+SIGN_OUT;Sign Out
+SOLO_COMPLETED;Missions completed!
+SPECTATORS_CANNOT_PAUSE;Spectators can not pause the game.
+SPECTATOR_JOINED_GAME;{0} has joined as a spectator.
+SPECTATOR_LEFT_GAME;Spectator {0} left the game.
+STOP_SPECTATING;Stop spectating
+SURRENDER;Surrender
+TOPBAR_BUTTON_PLAY;PLAY
+TUTORIAL_DECK_CREATED;This is your new deck!
+TUTORIAL_DECK_CREATED_BACK;Press the Back button to select your game mode
+UPDATE_VERSION_OUTDATED;Your client needs to be updated.
+UPDATE_VERSION_TIP_IOS;*If the required version is not available on your App Store, you will need to wait for it before you are able to play.
+USER_NAME_WELCOME;Welcome to Faeria!\nWhat will your name be?
+USE_THIS_SET;Use Formula
+USE_TIMEBANK;Use time bank:
+WELCOME_BUTTON_TEXT_ENTER_GAME;Login
+WELCOME_BUTTON_TEXT_EXIT;Exit
+WELCOME_BUTTON_TEXT_OFFICIAL_PAGE;Official Page
+WELCOME_BUTTON_TEXT_STEAM_LOGIN;Click anywhere to sign in
+WELCOME_BUTTON_TEXT_START_AS_GUEST;Start as guest
+WELCOME_BUTTON_TEXT_START_AS_ACCOUNT;I already have an account
+WELCOME_INPUT_FIELD_HINT_PASSWORD;Password
+WELCOME_INPUT_FIELD_HINT_SERVER_IP;Server Ip
+WELCOME_INPUT_FIELD_HINT_USERNAME;Account name
+WELCOME_USE_ANOTHER_ACCOUNT;Log out
+WINNER;Winner
+WORLD_BOSS_OBJECTIVE_PROGRESS;Defeat 3 bosses ({0}/3)
+WORLD_BOSS_OBJECTIVE_TEXT1;Unlock the Orb of Champions
+WORLD_BOSS_OBJECTIVE_TEXT2;Upgrade your Orb of Champions
+WORLD_BOSS_OBJECTIVE_TITLE;World objective
+WORLD_BOSS_REWARD;Boss reward
+WORLD_LOCATION;Location
+XP;{0} xp
+YOU_PLAY_FIRST;You play first
+YOU_PLAY_SECOND;You play second
+CARD_WAS_PROMOTED_AS_DECK_COVER;The card was promoted as the deck cover.
+CURRENT_DECK_COVER;Current Deck Cover
+PROMOTE_DECK_COVER;Promote as Deck Cover
+CARD_ZOOM_PROMOTE_AS_DECK_COVER_BUTTON_TOOLTIP;Promote as Deck Cover
+CARD_ZOOM_VIEW_LORE_PAGE_BUTTON_TOOLTIP;View Lore Page
+LORE_BOOK_EXPLANATION_TEXT;Collect fragments of lore, exploring the legends and mysteries of Faeria's history.
+LORE_PAGE_ARTISTS;<b>Artists</b> {0}
+LORE_PAGE_NOT_AVAILABLE;You must be at least level {0} to access the Lore Pages
+CO_OP_LOBBY;Co-op lobby
+LOBBY_CRUCIBLE_RULES_TITLE;Crucible rules
+LOBBY_DECK_FORMAT;Deck format:
+LOBBY_DECK_FORMAT_CLASSIC;Classic
+LOBBY_DECK_FORMAT_CRUCIBLE;Crucible
+LOBBY_MINUTES_PER_GAME;Minutes per game:
+LOBBY_SECONDS_PER_TURN;Seconds per turn:
+LORE_BOOK_EMPTY_SECTION;No results in this section
+LORE_PAGE_NOT_YET_AVAILABLE;This lore page is not yet available
+LOBBY_GO_TO_COLLECTION;Go to collection
+LOBBY_START_OVER;Start over
+PROMPT_LOBBY_BACK_CONFIRMATION;You will bring everyone back to the lobby setup screen. Continue?
+PROMPT_LOBBY_START_OVER_CONFIRMATION;This will reset the lobby scores and unlock the settings. Continue?
+REGISTER_YOUR_DECKS;Register your decks!
+TOURNAMENT_DECKS_REGISTERED;Decks registered!
+LORE_BOOK_UNAVAILABLE_TOOTIP;Unlocks at level {0}
+CREDIT_RATE_US_ON_STEAM_BUTTON_TEXT;Rate us on Steam
+HOME_CREDITS_BUTTON_TEXT;Credits
+PROMPT_FRIEND_CALLED;An email was sent to your lost yak.\nYou can reach out to him on your favourite communiyaktion channel too - he just needs to log in!
+PROMPT_FRIENDS_CALLED;An email was sent to each of your {0} lost yaks.\nYou can reach out to them on your favourite communiyaktion channel too - they just need to log in!
+FRIEND_CALL_SEND;Send
+FRIEND_CALL_NO_ELIGIBLE;You have already called all your friends!
+FRIEND_CALL_DESCRIPTION;Call your friends back to Faeria to experience all the new updates. Any friends that return get <sprite="icon_coin" index=0><b>{0}</b>, and you get <sprite="icon_coin" index=0><b>{0}</b> for each friend that returns.
+FRIENDLIST_CALL_FRIEND;Call old friends!
+MAINMENU_TITLE_PUZZLES;PUZZLES
+SETTING_CLEAR_CACHE;Clear cache
+CACHE_CLEARED;This will be effective after you restart the game.
+CACHE_CLEAR_FAIL_PERMISSION;Operation failed, try launching Faeria as Administrator.
+CACHE_CLEAR_FAIL_IN_USE;Operation failed, file is in use - restart your machine and try again.
+XP_WITH_NEXT_LEVEL;{0}/{1}xp
+SET_COSMETICS;Set cosmetics
+PLAY_MENU_SOLO_DRAGONS_LAIR;Dragon's Lair
+MARKET_ITEM_SPECIAL_PROMO;Special promo
+MARKET_ITEM_COMPLETE_YOUR_SET;Complete your set!
+DRAGON_TODAYS_CHALLENGES;Today's challenges
+DRAGON_SOLO_MISSION;Solo mission
+DRAGON_REWARD;Dragon reward
+DRAGON_CO_OP_MISSION;Co-op mission
+APPLY;Apply
+MOUSE_PROMPT_CLICK_ANYWHERE;Click anywhere to continue
+PROFILE_RANKINGS_INFO;Each month, compete in Battle and Pandora modes to earn exclusive card backs and more.\n\nFind out more at https://www.faeria.com/esport/home
+PLAY_MENU_SOLO_WORLDBOSS_INFO;Highly difficult boss battles that will test your deck building abilities.
+PLAY_MENU_SOLO_STANDARD_INFO;Master Faeria’s basics in a variety of mission packs.
+PLAY_MENU_SOLO_OVERSKY_INFO;Co-op campaign! Join the battle with a friend or an AI ally.
+PLAY_MENU_SOLO_DRAGONS_LAIR_INFO;Daily challenges! Return here daily to slay new dragons. Both solo and co-op battles.
+MAINMENU_TITLE_SOLO_INFO;Discover the world of Faeria in these Solo and Co-op challenges!
+MAINMENU_TITLE_PUZZLES_INFO;Complete challenging puzzles and learn some neat tricks along the way.
+MAINMENU_TITLE_PANDORA_INFO;Draft mode. Try new cards and make a unique deck. Survive as long as you can!
+MAINMENU_TITLE_BATTLE_INFO;Classic Faeria. Join Casual or Ranked multiplayer, or practice against the AI.
+MOUSE_HOME_LINKS_INFO;Click here to read important news from our official blog.
+DEFAULT_BUTTON_TEXT;Default
+BACK_TO_WORLD_BOSSES;Back to world bosses
+BACK_TO_PUZZLES;Back to puzzles
+BACK_TO_PANDORA;Back to Pandora
+BACK_TO_OVERSKY;Back to oversky
+BACK_TO_MISSIONS;Back to missions
+BACK_TO_DRAGONS_LAIR;Back to Dragon's Lair
+BACK_TO_BATTLE;Back to battle
+LORE_BOOK_TOGGLE_TEXT;Lore Book
+SHOW;Show
+INGAME_OPPONENT_DISCOVERING_CARD;Your opponent is discovering a card
+INGAME_ALLY_DISCOVERING_CARD;Your ally is discovering a card
+HIDE;Hide
+GEMS_INFO_POPUP_DESCRIPTION;Gems are now a promotional currency that you can get only via special events.
+GEMS_INFO_POPUP_TITLE;About gems
+SHORTCUT_TEXT_TOGGLE;Toggle
+SHORTCUT_TEXT_MODIFY_SLIDER;Modify Slider
+SHORTCUT_TEXT_CLOSE;Close
+SETTING_TEXT_LANGUAGE_TITLE;Language
+SERVER_INFO_UNAVAILABLE;The servers are currently unavailable
+CHAT_ERROR_RECIPIENT_CANNOT_CHAT;{0} is not allowed to chat
+YOUR_SUPPORT_ID;Your id:
+PROBLEM_OCCURED_AND_GAME_NEEDS_RESTART;A problem occured and the game needs to be restarted
+MOUSE_PROMPT_CLICK_TO_CLOSE;Click to close
+LOADING_HERDING_YAKS;Herding yaks
+LOADING_DOWNLOADING_CONTENT;Downloading content
+LOADING_CHECKING_CONTENT;Checking content
+GAMEPAD_PROMPT_CLICK_TO_CLOSE;Press {GAMEPAD_ACTION_CANCEL} to close
+GAMEPAD_PROMPT_CLICK_ANYWHERE;Press {GAMEPAD_ACTION_CONFIRM} to continue
+GAMEPAD_HOME_LINKS_INFO;Press {GAMEPAD_ACTION_CONFIRM} to read important news from our official blog.
+CHAT_ERROR_MULTIPLE_FRIENDS_WITH_NAME;Multiple friends are using this user name. Please use the friend list context menu to chat to this person instead.
+GO_TO_STORE_BUTTON_TEXT;Go to store
+CHAT_ERROR_MESSAGE_REFUSED;Your message was automatically rejected by the recipient's platform because of its content.
+CHAT_ERROR_SANITIZATION_ERROR;Your message was rejected because of its content.
+ID_COPIED_TO_CLIPBOARD;ID copied to clipboard.
+SPECIAL_LADDER_MAPS_EVENT_TITLE;Special ladder maps
+PROMPT_SIGN_IN_CHANGED;SignIn status changed
+PROMPT_GAMEPAD_DISCONNECTED;A gamepad was disconnected
+PLAYER_PLATFORM_XBOX_LIVE;Xbox Live
+PLAYER_PLATFORM_PS4;PS4
+PLAYER_PLATFORM_SWITCH;Switch
+PLAYER_UNKNOWN_USER_NAME;Unknown player
+PLAYER;Player
+NOT_ENOUGH_COINS;You don't have enough shards.
+NOT_ENOUGH_GEMS;You don't have enough gems.
+LADDER_RANKED_BUTTON;Ranked
+LADDER_PANDORA_BUTTON;Pandora
+LADDER_ARENA_DESCRIPTION;Top 64 players sorted by Pandora points
+LADDER_RANKED_DESCRIPTION;God rank players sorted by ELO
+HOME_LADDER_BUTTON_TEXT;Ladder
+COSMETIC_ITEM_NOT_OWNED;You don't own this cosmetic item
+SETTING_BUTTON_TEXT_CHANGE_PROFILE;Change profile
+DOWNLOADED;Downloaded
+PROMPT_LANGUAGE_CHANGED_PROMPT_SIGNOUT;You changed the language of the game. You will be signed out
+PROMPT_PUZZLE_IS_PART_OF_A_DLC;This puzzle is part of a DLC
+SETTING_CROSS_PLATFORM_PLAY_ENABLED;Cross-Platform play enabled
+PLAYER_REPORT_SENT;Player report sent
+PLAYER_REPORT_REASON_UNSPORTSMANLIKE_CONDUCT;Unsportsmanlike Conduct
+PLAYER_REPORT_REASON_THREATS;Threats
+PLAYER_REPORT_REASON_OFFENSIVE_LANGUAGE;Offensive Language
+PLAYER_REPORT_REASON_CHEATING;Cheating
+PLAYER_REPORT_SELECT_THE_REASON;Why do you want to report this player?
+PLAYER_REPORT_POPUP_TITLE;Report player
+FRIENDLIST_REPORT_PLAYER;Report player
+PROMPT_UPSELL_MUST_LOGOUT;You must reconnect to apply the changes.
+PLATFORM_PS4_PROMPT_GAMEPAD_DISCONNECTED;A <nobr>DUALSHOCK®4 wireless controller</nobr> has been disconnected.
+PLATFORM_SWITCH_PROMPT_GAMEPAD_DISCONNECTED;A Joy-Con™ has been disconnected.
+PLATFORM_DEFAULT_PROMPT_GAMEPAD_DISCONNECTED;A controller has been disconnected.
+PROMPT_TEXT_CANCEL;Cancel
+PLATFORM_DEFAULT_PROMPT_DISPLAY_CONSOLE_WEB_BROWSER;You will be redirected to a website on the web browser.
+PLATFORM_XBOX_LIVE_PROMPT_DISPLAY_CONSOLE_STORE;You will be redirected to the <nobr>Microsoft Store</nobr>.
+PLATFORM_PS4_PROMPT_DISPLAY_CONSOLE_STORE;You will be redirected to the <nobr>PlayStation™Store</nobr>.
+PLATFORM_SWITCH_PROMPT_DISPLAY_CONSOLE_STORE;You will be redirected to the <nobr>Nintendo eShop</nobr>.
+PROMPT_KOTH_INVITE;You have been elected King of the Hill!\nDo you want to face the challenge?
+PROMPT_KOTH_SAVE_DECK_CONFIRMATION;You won't be able to modify the deck after this.\nWould you like to continue?
+PROMPT_KOTH_DROP_RUN_CONFIRMATION;Do you really want to drop the run?
+PROMPT_KOTH_CANCEL_SEARCH_CONFIRMATION;Do you really want to leave the King of the Hill queue?
+PROMPT_BIND_DISCORD_ACCOUNT_CONFIRMATION_TEXT;Join our Discord to link your account to Faeria and enable betting in King of the Hill mode!
+PRIVATE_LOBBY_CLOSED;The lobby was closed.

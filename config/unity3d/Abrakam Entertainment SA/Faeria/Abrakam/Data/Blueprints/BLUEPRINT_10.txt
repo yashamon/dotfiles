@@ -1,0 +1,17 @@
+# Name: BLUEPRINT_10
+# Order: 10
+# RequirementType: LEVEL
+# RequirementParam: 24
+--------
+2 Steamforge Enforcer
+2 Sagami Grovecaller
+2 Living Willow
+2 Syland Horsemaster
+2 Ruunin's Guidance
+2 Feed the Forest
+3 Elderwood Embrace
+3 Sagami Warrior
+3 God Hunter
+3 Tiki Caretaker
+3 Ruunin's Messenger
+3 Verduran Force

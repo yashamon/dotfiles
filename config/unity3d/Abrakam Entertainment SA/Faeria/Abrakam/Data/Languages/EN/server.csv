@@ -1,0 +1,94 @@
+ACCOUNT_DOES_NOT_EXIST;This account does not exist.
+ACTIVATION_CODE_FAILED;It looks like there is an issue with your activation code.
+ACTIVATION_KEY_FAILED;It looks like there is an issue with your activation key.
+ALREADY_IN_GAME;It looks like you're already ingame. Try signing out and in again.
+BAD_CLIENT_VERSION;It seems that your version is outdated. Try to restart your game.
+CANNOT_BE_PLAYER_HAS_NO_DECK;The moderator tried to set you as a player, but you have no deck.
+CANNOT_INVITE_FRIEND_DECLINED;The player you tried to invite already declined. The friend request must now come from them.
+CANNOT_INVITE_FRIEND_DOES_NOT_EXIST;This player does not exist. Please make sure to enter a correct player id.
+CANNOT_INVITE_FRIEND_OPPONENT;Cannot invite someone you are playing against. Wait until after the match.
+CANNOT_INVITE_FRIEND_PROLOGUE;Cannot invite a friend who did not finish the prologue yet.
+CANNOT_INVITE_FRIEND_REFUSED;The player you tried to invite does not accept friend requests.
+CANNOT_MODIFY_DECK_WHILE_SEARCHING;You cannot modify your deck while searching for a game.
+CANNOT_PAUSE_DURING_MULLIGAN;A game cannot be paused during mulligan phase.
+CANNOT_SET_AS_PLAYER_HAS_NO_DECK;Cannot set as a player because he has no deck.
+CANNOT_SET_YOURSELF_AS_RECRUITER;You cannot set yourself as a recruiter.
+CANNOT_SIGN_UP_FREEZE_MODE_ON;Maintenance is underway, please try signing up later.
+CANNOT_SPECTATE_TOURNAMENT_GAME;Cannot spectate tournament games.
+CANNOT_START_FREEZE_MODE_ON;Cannot start games right now – servers are full. Sorry!
+CANNOT_START_SERVER_REBOOTING;Cannot start games, server is going to restart soon.
+CARD_COPIES_LIMITED;Each card is limited to 3 copies per deck.
+COMMUNITY_EVENT_INACTIVE_OR_DOES_NOT_EXIST;Community Event is inactive or does not exist
+COMMUNITY_EVENT_NO_STEAM_KEYS_LEFT;No steam keys left please try again later
+CONSTRUCTED_CLOSED;Ranked is closed today, only Pandora is open.
+COUPON_ALREADY_USED;This coupon has already been used.
+COUPON_DOES_NOT_EXIST;Coupon code is invalid.
+COUPON_EXPIRED;The coupon code that you entered has expired.
+COUPON_ITEM_ALREADY_OWNED;You already own the item(s) from this coupon.
+COUPON_MAX_ACTIVATIONS_REACHED;This coupon can no longer be activated because its maximum activation count has already been reached.
+COUPON_RESERVED;This coupon is reserved for another account.
+DECK_SIZE_LIMITED;A deck is limited to {0} cards.
+DISCONNECTED_FROM_WORLD;The match has ended but it seems your connection to the main server was lost. Please reconnect!
+FRIEND_DOES_NOT_ALLOW_SPECTATE;Your friend does not allow spectating on his games.
+FRIEND_NO_LONGER_IN_GAME;Your friend is no longer in a game.
+GAME_CANCELED_NO_GAMESERVER_FOUND;No game servers were found in your region! Please try again later.
+GAME_CANCELED_PLAYER_DID_NOT_REPLY_IN_TIME;Your game was canceled (a player didn't reply in time).
+GAME_CANCELED_SERVER_DID_NOT_REPLY_IN_TIME;Your game was canceled (the server didn't respond in time).
+GAME_CANCELED_SERVER_STOPPING;Your game was canceled (the server is stopping).
+GAME_CANCELED_VERSION;The game was canceled because your client version is not up to date.
+INVALID_HIGHLANDER_DECK_DUPLICATE;Invalid Highlander deck: You cannot have the same card more than once.
+INVALID_STEAM_KEY;Invalid Steam key.
+LEGENDARY_CARD_LIMITED;Legendary cards are limited to 1 copy per deck.
+MAIL_ALREADY_EXISTS;Mail address already exists.
+MARKET_ITEM_ALREADY_OWNED;You already own this item.
+NEW_BOSS_MISSION_UNLOCKED;New boss mission unlocked!
+NO_ACTIONS_LEFT_RETRYING_PUZZLE;You're out of moves! Try again...
+ORB_DIED_RETRYING_PUZZLE;I've defeated you! Try again...
+PAUSE_LIMIT_REACHED;You can no longer pause the game (the limit of {0} pauses has been reached).
+PICK_TOURNAMENT_MATCHES_FORMAT;Please pick a tournament match format
+PLAYER_LEFT_GAME;Player {0} left the game!
+RECIPIENT_IS_OFFLINE;{0} is offline
+RECRUITER_SET;Recruiter successfully set!
+SELECT_A_DECK;You need to select a deck.
+SERVER_BUSY_TRY_AGAIN;The server is busy, please try again in a minute.
+SERVER_COULD_NOT_FIND_GAME;The server could not find the requested game.
+SERVER_SHUTDOWN;Server update in {0} minute(s). You may need to reconnect after your game.
+SERVER_SHUTDOWN_CANCELED;Server is no longer shutting down.
+SERVER_SHUTDOWN_WARNING;Server update in {0} minute(s). Queues will be disabled in {1} minute(s).
+SPECTATED_PLAYER_LEFT_GAME;The player you were spectating left the game.
+STEAM_FINALISE_TXN_FAILED;Could not finalize transaction.
+STEAM_ID_NOT_FOUND;Steam id was not found.
+STEAM_INIT_TXN_FAILED;Could not initialize transaction.
+STEAM_PRICE_CHANGED;The price of this item has changed. Please try again.
+STEAM_USER_INFO_NOT_FOUND;Could not retrieve Steam user info.
+UPDATE_CLIENT_TO_PLAY;You need to update your client to be able to play.
+UPGRADE_ACCOUNT_FAILED;Account upgrade failed.
+USER_ALREADY_SET_YOU_AS_RECRUITER;{0} already set you as his recruiter.
+USER_ALREADY_SIGNED_IN;User already signed in, retry in 1 minute. Contact support@faeria.com if the problem persists.
+USER_NAME_INVALID;User names may only contain letters, digits, hyphens and underscores.
+USER_NAME_RESERVED;User name is reserved
+USER_NAME_SIZE_MAX_INVALID;User name maximum length is {0}.
+USER_NAME_SIZE_MIN_INVALID;User name minimum length is {0}.
+USER_NOT_FOUND;User does not exist : {0}
+WRONG_ACTIVATION_KEY;It looks like the activation key entered is incorrect.
+WRONG_DECK_SIZE;Your deck needs {0} cards to be usable.
+WRONG_LEVEL_FOR_ARENA;You need to be level {0} to enter Pandora.
+WRONG_LEVEL_FOR_RANKED;You need to be level {0} to play Ranked Games.
+ACCOUNT_IS_BANNED;This account is banned at the moment.
+NO_AVAILABLE_LORE_PAGES_LEFT;No available lore pages left!
+WRONG_LEVEL_FOR_OVERSKY;You need to be level {0} to play Oversky.
+WRONG_LEVEL_FOR_PUZZLE;You need to be level {0} to play Puzzles.
+WRONG_LEVEL_FOR_BOSS;You need to be level {0} to play World Bosses.
+WRONG_LEVEL_FOR_DRAGONS_LAIR;You need to be level {0} to enter the Dragon's Lair.
+PLATFORM_FRIENDS_ONLY_APPEAR_WHEN_ONLINE;Friends on that platform only appear when they are connected.
+FRIEND_ADDED_SUCCESSFULLY;Friend successfully added!
+ALREADY_FRIENDS;You are already friend with that player.
+WRONG_LEVEL_FOR_OVERSKY_INVITED;Your friend needs to be level {0} to play Oversky.
+FRIENDS_ON_PLATFORM_ONLY_APPEAR_WHEN_ONLINE;Friends on that platform only appear when they are connected.
+KOTH_GAME_COULD_NOT_START_CHALLENGER_STATE_INVALID;Game could not start because challenger was not ready
+KOTH_GAME_COULD_NOT_START_CHALLENGER_DISCONNECTED;Game could not start because challenger was offline
+KOTH_INVITE_PENDING;You are invited to be King of the Hill!\nGo to home screen to accept
+KOTH_INVITE_EXPIRED;The koth invite expired,\ntry again another time!
+KOTH_EVENT_ENDED_DURING_GAME;The current KOTH event ended! The result of this match will be ignored.
+KOTH_DISCONNECTION_TIMEOUT_RUNNING;You are not in a state where you can be matched for a KOTH match. You have {0} seconds until a new KOTH is selected.
+GAME_CANCELED_SERVER_NOT_RESPONDING;Your game was canceled (the server is not responding anymore).

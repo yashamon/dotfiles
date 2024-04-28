@@ -1,0 +1,7 @@
+Tier;Points;Avatar Reward;Orb Reward;Well Reward;Card back Reward;Emote Reward;Shore Reward;DescriptionLocalisationKey
+1;50;;;;CardBackKaios;;;
+2;100;;;WellKaios;;;;
+3;200;;OrbKaios;;;;;
+4;300;AvatarKaios;;;;EmoteKaiosGreetings|EmoteKaiosTaunt|EmoteKaiosWellPlayed|EmoteKaiosWow|EmoteKaiosOops|EmoteKaiosUnique;;OVERSKY_POUCH_TIER_REWARD_KAIOS_AVATAR_AND_EMOTES
+5;400;;;;;;ShoreOverskyDay;
+6;500;;;;;;ShoreOverskyNight;

@@ -1,0 +1,124 @@
+LOADING_HINT_QUEST_0;Tipp: Du bekommst jeden Zug {faeria|3} Faeria.
+LOADING_HINT_QUEST_1;Tipp: Jegliches Faeria, das du nicht ausgibst, wird für den folgenden Zug gespart.
+LOADING_HINT_QUEST_2;Tipp: Fähigkeiten werden am Kopfende jeder Karte erläutert.
+LOADING_HINT_QUEST_3;Tipp: Platziere ein Land direkt neben der gegnerischen Sphäre.
+LOADING_HINT_QUEST_4;Tipp: Vernichte Dornen-Irrlichter bevor sie wachsen.
+LOADING_HINT_QUEST_5;Tipp: Bei Faeria gibt es 4 Farben. Jede Farbe verfügt über ihren eigenen Typ Land.
+LOADING_HINT_QUEST_6;Tipp: Ruunin ist die uralte, unsterbliche Wächterin des Waldes.
+LOADING_HINT_QUEST_7;Tipp: Rote Karten nutzen die feurige Macht der Berge.
+LOADING_HINT_QUEST_8;Seifer hat seinen Namen in die Überreste zerstörter Königreiche eingebrannt. Er bezwang die Teufel, erlangte ihre Macht und genießt nichts mehr als den Schrei eines sterbenden Feindes.
+LOADING_HINT_QUEST_9;Tipp: Eine Kreatur mit Sprung kann an einen beliebigen Ort in einem Radius von 2 Feldern springen.
+LOADING_HINT_QUEST_10;Tipp: Platziere Länder, um aquatische Gegner zu blockieren.
+LOADING_HINT_QUEST_11;Tipp: Khalim ist aggressiv. Sei vorsichtig und verteidige deine Sphäre!
+LOADING_HINT_QUEST_13;Als sie noch ein Kind war, brannten Sharra's Ängste mit ihrem Dorf davon.
+LOADING_HINT_QUEST_20;Magda ist die Königin von Meroval. Helden und Schurken sind bloß Werkzeuge in ihren allumfassenden Plänen.
+LOADING_HINT_QUEST_25;Aus großer Entfernung kann man Krogs Tanzparties leicht mit Donnergrollen verwechseln.
+LOADING_HINT_QUEST_26;Tarum wuchs aus dem allerersten Samen. Er sah zu, wie sich Berge erhoben, Drachen geboren wurden und wie alte Götter fielen.
+LOADING_HINT_QUEST_29;Tipp: Tarums Kräfte wachsen mit der Zeit. Besiege ihn also möglichst schnell!
+LOADING_HINT_QUEST_30;Hoaka erfindet ständig neue Spielfelder.
+LOADING_HINT_QUEST_48;Aurora verbringt ihre Zeit gerne damit, zukünftige Helden zu beraten, den Verlauf der Geschichte zu gestalten und neue Teesorten zu probieren.
+LOADING_HINT_QUEST_49;Khalim, ein Wunderkind des Djidan-Ordens, forderte seine Meister heraus und brach einen weltumspannenden Krieg vom Zaum.
+LOADING_HINT_QUEST_54;Manche Fische wollen einfach nur die Welt brennen sehen.
+LOADING_HINT_QUEST_64;Der mysteriöse Jalmyr wacht über den Kosmos und tritt als Lehrmeister der Götter auf.
+LOADING_HINT_QUEST_117;Tipp: Schätze sind mächtige Karten, die üblicherweise nur im Pandora-Modus zu finden sind.
+LOADING_HINT_QUEST_118;Fugoro reist um die Welt und sammelt die wichtigsten Relikte der Geschichte.
+LOADING_HINT_RANDOM_DEATHTOUCH_ONLY_IF_DAMAGE;Tipp: Todesberührung vernichtet die Kreatur nur, wenn auch Schaden zugeteilt wird. Ein Schutzschild verhindert dies.
+LOADING_HINT_RANDOM_TIKIS_CAN_TARGET_THEMSELVES;Tipp: Der Tiki-Pfeifer und Tiki-Wächter können auch selbst das Ziel ihrer Gabe werden.
+LOADING_HINT_RANDOM_FROGS_PLACED_ON_LAKES;Tipp: Die Kröten der Kampfkröten-Karte können nur auf Seen beschworen werden.
+LOADING_HINT_RANDOM_HEAL_ORB_MAX_20;Tipp: Du kannst dich nicht über 20 Leben hinaus heilen.
+LOADING_HINT_RANDOM_COMPLETE_SOLO_CONTENT;Tipp: Solo-Missionen sind die beste Startmöglichkeit für neue Spieler.
+LOADING_HINT_RANDOM_RED_COLOR_EXPLAINED;Tipp: Rot ist die Farbe der Flammen und des Krieges.
+LOADING_HINT_RANDOM_BLUE_COLOR_EXPLAINED;Tipp: Blau ist die Farbe der Verwandlungen und Tricksereien.
+LOADING_HINT_RANDOM_GREEN_COLOR_EXPLAINED;Tipp: Grün ist die Farbe des ungestümen Wachstums und der wilden Raubtiere.
+LOADING_HINT_RANDOM_YELLOW_COLOR_EXPLAINED;Tipp: Gelb ist die Farbe des Windes und des Tempos.
+LOADING_HINT_RANDOM_CHARGE_CANT_PASS_THROUGH;Tipp: Mit Ansturm kannst du dich nicht durch andere Kreaturen hindurchbewegen.
+LOADING_HINT_RANDOM_BLOCK_AQUATIC_WITH_LANDS;Tipp: Platziere Länder, um aquatische Gegner zu blockieren.
+LOADING_HINT_RANDOM_DAILY_QUEST_1;Tipp: Die effektivste Weise um Truhen zu erhalten ist jeden Tag wiederzukommen und deine täglichen Quests zu erfüllen.
+LOADING_HINT_RANDOM_THE_HUB;Wußtest du schon: faeria.com/the-hub ist die offizielle Website für Spieler, die Decks oder Ratgeber veröffentlichen möchten.
+LOADING_HINT_RANDOM_CARDBACK_FROM_SOLO;Tipp: Schließe alle Solo-Missionen erfolgreich ab und du erhältst den Drachen-Kartenrücken als Belohnung.
+LOADING_HINT_RANDOM_PANDORA_ECONMY;Tipp: Wenn Pandora erwacht, werden die Faeria-Brunnen geleert, dafür bekommen die Spieler aber doppelt soviel Faeria wie zuvor bei Zugbeginn.
+LOADING_HINT_RANDOM_TAUNT_BEST_DEFENSE;Tipp: Kreaturen mit Spott sind häufig die beste Möglichkeit, dich zu schützen.
+LOADING_HINT_RANDOM_BUILD_LANDS_EARLY_GAME;Platziere Länder früh im Spielverlauf. Spar den Gebrauch der Aktionen für +1 Karte oder +1 Faeria für später auf.
+LOADING_HINT_RANDOM_GIANT_LATEGAME_CREATURES_EXIST;Tipp: Viele Decks arbeiten auf sehr mächtige Bedrohungen im späten Spielverlauf hin. Spar dir dafür Zestörungszauber auf!
+LOADING_HINT_RANDOM_COUNTERING_RUSH_1;Tipp: Wenn du gegen ein Rush-Deck spielst, besetze seine aggressiven Länder mit deinen Kreaturen.
+LOADING_HINT_RANDOM_STRUCTURES_LEGAL_PLACEMENT;Tipp: Bauwerke kannst du auf Ländern jedes Typs errichten.
+LOADING_HINT_RANDOM_STRUCTURES_DIRECTLY_ACTIVATES;Tipp: Du kannst Bauwerke im gleichen Zug aktivieren, in dem du sie errichtet hast.
+LOADING_HINT_RANDOM_GET_LANDS_NEAR_OPPONENT;Tipp: Versuche Länder direkt neben dem gegnerischen Gott zu platzieren.
+LOADING_HINT_RANDOM_OVERDRAWING_DESTROYS_CARDS;Tipp: Du kannst immer nur maximal 9 Handkarten gleichzeitig halten. Alle überzähligen werden zerstört, wenn sie gezogen werden.
+LOADING_HINT_RANDOM_COUNTERING_RUSH_2;Tipp: Besiege einen Rush-Spieler, indem du seine aggressiven Länder blockierst. Dann geh zum Gegenangriff über, bevor er durchbrechen kann.
+LOADING_HINT_RANDOM_YAK_LORE_1;<i>Wenn du ein Yak verletzt, dann leidet die ganze Welt.</i>\n<align=right>Syländisches Sprichwort</align>
+LOADING_HINT_RANDOM_FRIENDS_BLOCK_RANGED;Tipp: Kreaturen mit Fernkampf können nicht durch verbündete Einheiten hindurch feuern.
+LOADING_HINT_RANDOM_LANDS_ARE_BETTER_THAN_CARDS;Tipp: Länder zu platzieren ist häufig wichtiger, als Karten zu ziehen.
+LOADING_HINT_RANDOM_ENDGAME_THREATS_EXIST;Tipp: Es gibt viele Möglichkeiten, dich für zu vorsichtiges Spielen zu bestrafen. Wenn du im Vorteil bist, greif an!
+LOADING_HINT_RANDOM_FATIGUE_HURTS;Tipp: Wenn dein Deck erschöpft wurde, nimmst du immer mehr Schaden für jeden Versuch, eine Karte zu ziehen.
+LOADING_HINT_RANDOM_JALMYR_LORE_2;Jalmyrs immer komplexere Rätsel verwirren sogar die kompetentesten Spieler.
+LOADING_HINT_RANDOM_STEAM_FORGE_LORE;Die faeria-betriebenen imperialen Dampfschmieden sind zwar unberechenbar, aber sehr effektiv.
+LOADING_HINT_RANDOM_JALMYR_LORE_3;Jalmyr konnte sich nicht dazu durchringen, seinen Bruder, den Herr der Finsternis, vollständig zu vernichten.
+LOADING_HINT_RANDOM_YELLOW_USES_HASTE;Tipp: Gelbe Decks setzen häufig Kreaturen mit Eile ein. Stell dich bei deiner Verteidigung darauf ein.
+LOADING_HINT_RANDOM_RED_DIRECT_DAMAGE;Tipp: Rote Decks setzen häufig direkten Schaden ein. Sei auf der Hut, wenn deine Leben niedrig sind!
+LOADING_HINT_RANDOM_FIRESTORM_EXISTS;Tipp: Feuersturm ist eine rote Karte, die allen gegnerischen Kreaturen 3 Schaden zufügen kann.
+LOADING_HINT_RANDOM_UNIQUE_EMOTES_EXIST;Tipp: Manche Avatare verfügen über einzigartige Emotes.
+LOADING_HINT_RANDOM_BYPASSING_TAUNT;Tipp: Eine verspottete Kreatur kann sich nicht selbständig fortbewegen, aber sie kann durch andere Effekte bewegt werden. Sogar durch Sprint.
+LOADING_HINT_RANDOM_DON'T_OVERBUFF_CREATURES;Tipp: Überlege genau, ob du die Werte einer Kreatur noch über 6/6 hinaus erhöhen möchtest, denn Zerstörungseffekte können dich dafür bestrafen.
+LOADING_HINT_RANDOM_JOIN_FAERIA'S_DISCORD;Tipp: Du hast eine Frage oder möchtest etwas loswerden? Komm in den offiziellen Faeria Discord-Channel. Den Link findest du in deiner Freundesliste.
+LOADING_HINT_RANDOM_ESPORTS_FAERIA_EXISTS;Tipp: Gehe auf esports.faeria.com für alle Infos bezüglich der Faeria-Turnierszene und der möglichen Gewinne.
+LOADING_HINT_RANDOM_TOP_8_GODS_ON_LADDER_INVITED;Tipp: Jede Saison werden die 10 besten Spieler der Rangliste zu einem besonderen Turnier eingeladen.
+LOADING_HINT_RANDOM_HARD_REMOVAL_COSTS_6;Tipp: Der beste Zerstörungszauber kostet ungefähr 6 Faeria.
+LOADING_HINT_RANDOM_KILL_BURN_FAST;Tipp: Wenn du gegen Decks mit direktem Schaden spielst, versuch das Spiel so bald wie möglich zu beenden.
+LOADING_HINT_RANDOM_REVIEW_FAERIA_PLEASE;Wenn dir Faeria gefällt, dann hast du vielleicht Lust ein Review zu schreiben? Das hilft uns dabei, neue Spieler zu gewinnen.
+LOADING_HINT_RANDOM_RAPALA_LORE_2;Der meistgefürchtete Anblick in einem Küstendorf ist nicht der eines Tsunami, sondern eines grinsenden Fisches.
+LOADING_HINT_RANDOM_TIPS_EXIST;Tipp: Tipps werden ab und an auf dem Ladebildschirm angezeigt.
+LOADING_HINT_RANDOM_PROTECT_YOUR_ORB;Tipp: Verhindere nach Möglichkeit, dass dein Gegner Länder direkt neben deinem Gott platziert.
+LOADING_HINT_RANDOM_EMPEROR_LORE;Der Imperator sehnt den Tag herbei, an dem Bürger nicht länger notwendig sein werden.
+LOADING_HINT_RANDOM_WISDOM_IS_BAD;Tipp: Weise Spieler nutzen setzen nur selten die Karte 'Weisheit' ein...
+LOADING_HINT_RANDOM_IONA_LORE_1;Vor dem Erscheinen von Iona hatten die Schaitan kein Wort für 'Erbarmen'.
+LOADING_HINT_RANDOM_OUTLAND_RANGER_LORE_1;Die Wildnishüter sind ein uralter Orden von Adligen, welche die Steinmauern ihrer Schlösser gegen den offenen Himmel eingetauscht haben.
+LOADING_HINT_RANDOM_SYLAND_FARMERS_LORE;Ausnahmslos jede Generation syländischer Farmer bringt mindestens einen großen Helden hervor.
+LOADING_HINT_RANDOM_IONA_LORE_2;Es ist der Traum jedes Barden, einen Epos zu kreieren, das Iona würdig ist.
+LOADING_HINT_RANDOM_YAK_LEVEL;Tipp: Es gibt kein Yak-Level.
+LOADING_HINT_RANDOM_KROG_LORE_1;Krog läuft im Wesentlichen rum und *erzählt* jedem, dass er der König der Oger ist.
+LOADING_HINT_RANDOM_RAPALA_LORE_1;Manche Fische wollen einfach nur die Welt brennen sehen.
+LOADING_HINT_RANDOM_THYRIAN_LORE_1;Thyrianische Golems sollen aus einem mythischen Paradies jenseits der Wolken stammen.
+LOADING_HINT_RANDOM_YAKNUS_LORE_1;Lord Yaknus, der Erste seines Namens, ist bekannt als der Brecher aller Joche und Träger aller Lasten.
+LOADING_HINT_RANDOM_MAGNUS_LORE_1;Als kleiner Junge wurde Magnus von Aurora ein Traum gesandt, welcher ihn zur Krone führte.
+LOADING_HINT_RANDOM_RUUNIN_LORE_1;Trotz ihrer beständigen Proteste beharren Ruunins Anhänger darauf, sie nach jedem Tod ehrfurchtsvoll zu begraben.
+LOADING_HINT_RANDOM_JALMYR_LORE_1;Gerüchte behaupten, dass Jalmur jedem, der ihm etwas Neues beibringt, einen Wunsch erfüllt.
+LOADING_HINT_RANDOM_GARUDAN_LORE_1;Garudan ist echt ein ziemlich unsympathischer Typ.
+LOADING_HINT_RANDOM_HEXAGON_JOKE;Tipp: Ein Sechseck ist wirklich eine fantastische Form. Es hat sechs fantastische Seiten.
+LOADING_HINT_RANDOM_SAGAMI_LORE_1;In den Händen der Sagami werden selbst die grauenerregendsten Geisterwesen zu heiligen Wächtern.
+LOADING_HINT_RANDOM_SAGAMI_LORE_2;Die Sagami verpflichten auch mörderische Geisterseelen als Wächter ihrer Heiligtümer.
+LOADING_HINT_RANDOM_SEIFER_LORE_1;Seifer hat ein Frettchen als Haustier. Es heißt Todesfunke.
+LOADING_HINT_RANDOM_SEIFER_LORE_2;Seifer hat einmal die Sonne zu einem Wettkampf im Anstarren herausgefordert. Wer gewonnen hat, ist nicht überliefert.
+LOADING_HINT_RANDOM_DROWNING;Tipp: Kreaturen ohne die Fähigkeit Fliegend oder Aquatisch sterben am Ende ihrer Beherrsches, wenn sie sich über einem leeren Ozeanfeld befinden.
+LOADING_HINT_RANDOM_PANDORA_GODS;Pandora ist der Ort, an dem Träume die Träume leben. Glücklicherweise können die Götter sich Zutritt verschaffen.
+LOADING_HINT_RANDOM_AURORA_DREAMS;Dank ihrer Fähigkeit, in den Träumen anderer Wesen zu erscheinen, kann Aurora Einfluss auf ihr Schicksal nehmen.
+LOADING_HINT_RANDOM_MULTI_TAUNT;Tipp: Wenn mehrere Kreaturen das gleiche Ziel verspotten, dann kann sich diese aussuchen, welche von ihnen sie angreift.
+LOADING_HINT_RANDOM_HOLD_EXPLORE;Tipp: Du kannst deine <i>Erkunden</i> Karte behalten um später deine Ereignis-basierten Kreaturen zu stärken.
+LOADING_HINT_RANDOM_FALCON_DIVE;Tipp: Sturzflug ist ein exzellentes, vielseitig einsetzbares Werkzeug, das in fast jedes Deck passt.
+LOADING_HINT_RANDOM_SYLAND_HORSEMASTER;Tipp: Der Stallmeister aus Syland erlaubt es Rot und Grün, Überraschungsangriffe auszuführen.
+LOADING_HINT_RANDOM_GOD_HUNTER;Tipp: Der Gottesjäger kann weder angreifen noch sich bewegen, wenn eine Kreatur mit Spott neben ihm steht.
+LOADING_HINT_RANDOM_UNLIKELY_HERO;Tipp: Die Fähigkeit des Helden der Stunde kann durch einen Angriff auf die Sphäre deines Gegners aktiviert werden.
+LOADING_HINT_RANDOM_MOVING_WITH_JUMP_AND_CHARGE;Tipp: Wenn du eine Kreatur mit einer anderen Karte bewegst, kannst du auch Sprung, Ansturm und Fliegend benutzen.
+LOADING_HINT_RANDOM_RADIANCE;Tipp: Die Kosten Silberstrahls können nicht durch die Effekte anderer Karten reduziert werden.
+LOADING_HINT_RANDOM_ELEMENTALS;Tipp: Die Elementare sind eine tolle Möglichkeit, deine Produktion besonderer Länder zu beschleunigen.
+LOADING_HINT_RANDOM_PANDORA_POINTS;Tipp: Sammele jede Saison Pandorapunkte, um besondere Preise zu gewinnen.
+LOADING_HINT_RANDOM_PANDORA_CARD_BACK;Tipp: Wenn du die Saison mit Rang 15 oder besser beendest, erhältst du einen besonderen Kartenrücken.
+LOADING_HINT_RANDOM_GOD_CARD_BACK;Tipp: Erreiche jede Saison den Rang eines Gottes um dir einen einzigartigen goldenen Kartenrücken zu verdienen.
+LOADING_HINT_RANDOM_SEASON_RESET;Tipp: Ranglisten- und Pandorasaison werden jeweils am ersten Montag jedes Monats zurückgesetzt.
+LOADING_HINT_RANDOM_HARVEST_ORDER;Tipp: Kreaturen sammeln Faeria von links nach rechts und von oben nach unten, jeweils aus der Perspektive des aktiven Spielers.
+LOADING_HINT_RANDOM_TRANSFORM_WITH_HASTE;Tipp: Wenn du eine Kreatur mit Eile verwandelst, kann sie unter Umständen nicht mehr angreifen.
+LOADING_HINT_RANDOM_LAND_LOCK_COUNTER;Tipp: Wenn der Gegner dir das Setzen weiterer Länder unmöglich macht, bewege eine Kreatur auf eines seiner Länder um von dort ein eigenes Land auf einem Ozean-Feld zu platzieren.
+LOADING_HINT_RANDOM_CANNOT_CANCEL_GIFT;Tipp: Du kannst das Spielen einer Kreatur mit Gabe nicht rückgängig machen
+LOADING_HINT_RANDOM_OROSEI_LORE;Orosei wacht über das Reich von Pandora und dessen Schätze.
+LOADING_HINT_RANDOM_FUGORO_LORE;Fugoro plündert Schätze aus dem Reich von Pandora.
+LOADING_HINT_RANDOM_GOKI_01;Fugoro hat einen Neffen namens Goki. Du kannst ihn im Shop antreffen.
+LOADING_HINT_RANDOM_WORLD_BOSSES;Besiege alle Weltenbosse um die Sphäre der Meister und ihre 3 Edelsteine freizuschalten.
+LOADING_HINT_RANDOM_WILD_LANDS;Alle farbigen Länder zählen als Wilde Länder wenn Landkosten bezahlt werden.
+LOADING_HINT_RANDOM_CORRUPT_1;Tipp: Verderbende Kreaturen lieben Bewegungstricks!
+LOADING_HINT_RANDOM_CORRUPT_2;Tipp: Lass nicht zu, dass feindliche Kreaturen deine Länder verderben!
+LOADING_HINT_RANDOM_CRUCIBLE;Du kannst mit Freunden in einer privaten Lobby nach Turnierregeln üben.
+LOADING_HINT_RANDOM_FALL_OF_EVERLIFE;Seit Kaios die Frucht des Ewigen Lebens gegessen hat, breitet sich die Verdorbenheit in der Wolkenwelt aus.
+LOADING_HINT_RANDOM_TRIBAL;Manche Karten bekommen Art-Boni. Yaks lieben es Herden zu bilden <3.
+LOADING_HINT_RANDOM_LORE_BOOK;Sammle Geschichten indem du die täglichen Geschichtsquests abschließt, oder mythische Kisten öffnest.
+LOADING_HINT_RANDOM_DECK_COSMETICS;Weißt du schon die perfekten kosmetischen Gegenstände für dein Deck? Wähle ein kosmetisches Set speziell für dieses Deck im Deck Editor aus.
+LOADING_HINT_RANDOM_DRAGONS_LAIR;Fordere jeden Tag neue Drachen in der Drachenhöhle heraus.

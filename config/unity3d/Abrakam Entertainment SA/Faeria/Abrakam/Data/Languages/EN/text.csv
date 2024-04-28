@@ -1,0 +1,233 @@
+ACTIVATE;<b>Activate</b>
+AQUATIC;<b>Aquatic</b>
+ARTIFACT;Artifact
+AUTO_HARVEST;<b>Auto Harvest</b>
+BLUE;<sprite="icon_blue" index=0>
+BLUEPRINT_01.name;Green Starter
+BLUEPRINT_01.shortdescription;Harness the strength of the forest and support your army of humans with extra health and mobility. Establish a foothold near a Faeria well, then dash toward the orb!
+BLUEPRINT_02.name;Red Starter
+BLUEPRINT_02.shortdescription;The ogres march menacingly down from the mountains. Assail your opponent with their massive forms, then finish the job with fire.
+BLUEPRINT_03.name;Blue Starter
+BLUEPRINT_03.shortdescription;Make a splash with the power of events! Use jumping creatures and aquatic fish to harvest from multiple Faeria wells at once. Strike your opponent when the time is right.
+BLUEPRINT_04.name;Yellow Starter
+BLUEPRINT_04.shortdescription;Savor the dark delights of the desert. Practice forbidden rituals and gain power from the death of your own creatures. Use your own life as a resource to gain an advantage over your opponent and consume their orb.
+BLUEPRINT_05.name;Blue Invasion
+BLUEPRINT_05.shortdescription;Let your greed for collecting more Faeria empower you. Focus on harvesting from enemy wells, and your massive colossi become cheaper with each gathering.
+BLUEPRINT_06.name;Glory in Combat
+BLUEPRINT_06.shortdescription;Crush your enemies, see them driven before you, and hear the lamentations of the yaks. Command an army that thrives in combat. The Gift of Steel shines brightest in times of war.
+BLUEPRINT_07.name;Deadly Crusade
+BLUEPRINT_07.shortdescription;Show no mercy. Head directly for your opponent and attack their orb at all costs, empowering your Zealous Crusaders in the process.
+BLUEPRINT_08.name;The Ultimate Bargain
+BLUEPRINT_08.shortdescription;Strike a bargain with the ogres and play these expensive cards at a fraction of their normal cost. Unleash Dragons and Behemoths to reap epic victories.
+BLUEPRINT_09.name;Sky Armada
+BLUEPRINT_09.shortdescription;Command the skies. Your aviaries will bolster the strength of your flying armada. Soar to the heart of the enemy and unleash death from above.
+BLUEPRINT_10.name;Nature's Wrath
+BLUEPRINT_10.shortdescription;The forest is not always so patient. Strike out for the orb and clear a path for your God Hunters to seek their natural prey: your enemy's face.
+CHARGE;<b>Charge {0}</b>
+COMBAT;<b>Combat</b>
+CONVOKE;<b>Convoke</b>
+CORRUPT;<b>Corrupt</b>
+CREATURE;Creature
+CURRENCY_COIN;Shards
+CURRENCY_GEM;Gems
+DAILY_QUEST_00_NAME;Ultima
+DAILY_QUEST_01_NAME;Rampage
+DAILY_QUEST_02_NAME;Deicide
+DAILY_QUEST_03_NAME;Judgement
+DAILY_QUEST_04_NAME;Conquest
+DAILY_QUEST_05_NAME;Tsunami
+DAILY_QUEST_06_NAME;Flourish
+DAILY_QUEST_07_NAME;Inferno
+DAILY_QUEST_08_NAME;Sandstorm
+DAILY_QUEST_09_NAME;Balance
+DAILY_QUEST_11_NAME;Miracle
+DAILY_QUEST_12_NAME;Creation
+DAILY_QUEST_13_NAME;Divine Trial
+DAILY_QUEST_14_NAME;Duelist
+DAILY_QUEST_15_NAME;Veteran
+DAILY_QUEST_16_NAME;Quest for friends
+DAILY_QUEST_18_NAME;Quest for friends
+DAILY_QUEST_27_NAME;Treasure Hunt
+DAILY_QUEST_28_NAME;Validate Yourself
+DAILY_QUEST_30_NAME;Pandora Awakens
+DAILY_QUEST_31_NAME;Watch and Learn
+DAILY_QUEST_32_NAME;Friends till the End
+DAILY_QUEST_33_NAME;Dressed for Success
+DAILY_QUEST_34_NAME;Do it Yourself
+DAILY_QUEST_35_NAME;Master Crafstman
+DAILY_QUEST_COMPLETE_ANY_ACT;Complete a mission or puzzle pack
+DAILY_QUEST_COMPLETE_2_WILD_ACTS;Complete 4 wild mission packs
+DAILY_QUEST_COMPLETE_ANY_LANE;Complete a lane
+DAILY_QUEST_COMPLETE_QUESTS;Complete {0} missions
+DAILY_QUEST_COMPLETE_QUESTS_OR_PUZZLES;Complete {0} missions or puzzles
+DAILY_QUEST_COMPLETE_TRAINING_ACT;Complete the training pack
+DAILY_QUEST_CRAFT_CARD;Craft one card of your choice
+DAILY_QUEST_CRAFT_GOLD_CARD;Craft one mythic card of your choice
+DAILY_QUEST_CREATE_LANDS;Create {0} lands
+DAILY_QUEST_DEAL_DAMAGE_TO_ENEMIES;Deal {0} damage to enemies
+DAILY_QUEST_DEAL_DAMAGE_TO_GODS;Deal {0} damage to Gods
+DAILY_QUEST_DEFEAT_RUUNIN;Defeat Ruunin in Missions
+DAILY_QUEST_DEFEAT_SEIFER;Defeat Seifer in Missions
+DAILY_QUEST_DEFEAT_SOLO_OPPONENTS;Defeat {0} opponents in Missions
+DAILY_QUEST_DESTROY_CREATURES;Destroy {0} creatures
+DAILY_QUEST_FIND_AND_DEFEAT_RAPALA;Battle in Missions until you find Rapala, then defeat him
+DAILY_QUEST_OPEN_BATTLE_CHEST;Open a battle chest
+DAILY_QUEST_PERFECT;Win one game without taking any damage
+DAILY_QUEST_PLAY_AGAINST_FRIEND;Play a private game against a friend
+DAILY_QUEST_PLAY_ARENA_RUN;Complete a Pandora Run
+DAILY_QUEST_PLAY_BLUE_CARDS;Play {0} blue cards
+DAILY_QUEST_PLAY_CREATURES;Play {0} creatures
+DAILY_QUEST_PLAY_EVENTS;Play {0} events
+DAILY_QUEST_PLAY_GREEN_CARDS;Play {0} green cards
+DAILY_QUEST_PLAY_NEUTRAL_CARDS;Play {0} neutral cards
+DAILY_QUEST_PLAY_PVP_GAMES;Play {0} game(s) in Casual, Ranked or Multiplayer Pandora mode
+DAILY_QUEST_PLAY_RED_CARDS;Play {0} red cards
+DAILY_QUEST_PLAY_WITH_SPECIAL_COSMETIC;Play a game with a special orb or avatar
+DAILY_QUEST_PLAY_YELLOW_CARDS;Play {0} yellow cards
+DAILY_QUEST_REACH_LEVEL_8;Reach level 8
+DAILY_QUEST_SOLVE_PUZZLES;Solve {0} puzzles in Missions
+DAILY_QUEST_SPECTATE_FRIEND_WINNING_GAME;Spectate a friend winning a game
+DAILY_QUEST_VALIDATE_YOUR_EMAIL;Validate your email
+DAILY_QUEST_WAIT_FOR_SEIFER;Battle in Missions until Seifer returns
+DAILY_QUEST_WIN_DIVINE_CHALLENGES;Complete a mission from the Solo Campaign
+DAILY_QUEST_WIN_HIGHLANDER_GAMES;Win {0} games in Highlander mode. Highlander decks must have 30 different cards in them!
+DAILY_QUEST_WIN_PANDORA_GAMES;Win {0} games in Pandora mode
+DAILY_QUEST_WIN_PVP_GAMES;Win {0} game(s) in Casual, Ranked or Multiplayer Pandora mode
+DASH;<b>Dash {0}</b>
+DEATHTOUCH;<b>Deathtouch</b>
+DIVINE;<b>Divine</b>
+EMOTE_FUGORO_LASTWORDS_NAME;The customer always wins.
+EMOTE_FUGORO_OPENING_NAME;Welcome valued customer!
+EMOTE_FUGORO_THINKING_NAME;So many attractive options.
+EMOTE_KHALIM_LASTWORDS_NAME;Well fought. I yield.
+EMOTE_KHALIM_OPENING_NAME;Embrace the wild wind.
+EMOTE_KHALIM_THINKING_NAME;There must be a way...
+EMOTE_KROG_LASTWORDS_NAME;Gotta go. I’m hungry!
+EMOTE_KROG_OPENING_NAME;Hail to the king!
+EMOTE_KROG_THINKING_NAME;... Oh! It’s my turn!
+EMOTE_MAGDA_LASTWORDS_NAME;Impressive. I concede.
+EMOTE_MAGDA_OPENING_NAME;Welcome to my court.
+EMOTE_MAGDA_THINKING_NAME;So many possibilities.
+EMOTE_RUUNIN_LASTWORDS_NAME;Enjoy your victory.
+EMOTE_RUUNIN_OPENING_NAME;The huntress is here.
+EMOTE_RUUNIN_THINKING_NAME;I wonder…
+EVENT;Event
+FAERIA;<sprite="icon_faeria_cost" index={0}>
+FLYING;<b>Flying</b>
+GIFT;<b>Gift</b>
+GREEN;<sprite="icon_green" index=0>
+HASTE;<b>Haste</b>
+ICON_COIN;<sprite="icon_coin" index=0><b>{0}</b>
+ICON_GEM;<sprite="icon_gem" index=0><b>{0}</b>
+IGNORE;Ignore
+JUMP;<b>Jump</b>
+LANGUAGE_NAME_NATIVE;English
+LAST_WORDS;<b>Last Words</b>
+OPTIONS;<b>Choose one</b>
+PRODUCTION;<b>Production</b>
+PROTECTION;<b>Protection</b>
+QUEST_LANE_ACT_AURORA_NAME;Aurora
+QUEST_LANE_ACT_FUGORO_NAME;Fugoro
+QUEST_LANE_ACT_HOAKA_NAME;Hoaka
+QUEST_LANE_ACT_JALMYR_01_NAME;Jalmyr I
+QUEST_LANE_ACT_JALMYR_02_NAME;Jalmyr II
+QUEST_LANE_ACT_JALMYR_03_NAME;Jalmyr III
+QUEST_LANE_ACT_JALMYR_04_NAME;Jalmyr IV
+QUEST_LANE_ACT_MAGDA_NAME;Magda
+QUEST_LANE_ACT_RAPALA_NAME;Rapala
+QUEST_LANE_ACT_SEIFER_NAME;Seifer
+QUEST_LANE_ACT_SHARRA_NAME;Sharra
+QUEST_LANE_ACT_TRAINING_NAME;Training
+RANGED_ATTACK;<b>Ranged</b>
+RED;<sprite="icon_red" index=0>
+SLAM;<b>Slam</b>
+SUBTYPE_YAK;Yak
+SUBTYPE_TRITON;Triton
+SUBTYPE_BEAST;Beast
+SUBTYPE_MECHA;Mecha
+SUBTYPE_RAKOAN;Rakoan
+SWALLOW;<b>Swallow</b>
+STRUCTURE;Structure
+TAUNT;<b>Taunt</b>
+TOOLTIP_AQUATIC;<color=white><b>Aquatic:</b></color> Can only move in lakes and the sea.
+TOOLTIP_CHARGE;<color=white><b>Charge {0}:</b></color> Moves up to {0} spaces in a straight line.
+TOOLTIP_COMBAT;<color=white><b>Combat:</b></color> Does something whenever this creature fights.
+TOOLTIP_CONVOKE;<color=white><b>Convoke:</b></color> You may play creatures on any land adjacent to this one, even if it's enemy land.
+TOOLTIP_CORRUPT;<color=white><b>Corrupt:</b></color> Does something the first time this creature moves onto enemy land any turn after it is played.
+TOOLTIP_DARK_RITUAL;<color=white><b>Dark Ritual:</b> You MAY sacrifice a creature when you play this card. Get extra benefits if you do.
+TOOLTIP_DASH;<color=white><b>Dash {0}:</b></color> When summoned, move this creature up to {0} spaces in a straight line.
+TOOLTIP_DEATHTOUCH;<color=white><b>Deathtouch:</b></color> Destroy any creature this damages.
+TOOLTIP_DIVINE;<color=white><b>Divine:</b></color> Cannot be targeted by events or abilities.
+TOOLTIP_FAERIA;
+TOOLTIP_FLYING;<color=white><b>Flying:</b></color> Can move over the sea.
+TOOLTIP_GIFT;<color=white><b>Gift:</b></color> Does something when played from your hand.
+TOOLTIP_HASTE;<color=white><b>Haste:</b></color> Doesn't have to wait a turn to attack, move or harvest.
+TOOLTIP_JUMP;<color=white><b>Jump:</b></color> Moves 2 spaces. Jumps over obstacles.
+TOOLTIP_LAST_WORDS;<color=white><b>Last Words:</b></color> Does something when this dies.
+TOOLTIP_OPTIONS;<color=white><b>Choose one:</b></color> Allows you to choose between different options.
+TOOLTIP_PRODUCTION;<color=white><b>Production:</b></color> Does something at the start of your turns.
+TOOLTIP_PROTECTION;<color=white><b>Protection:</b></color> Prevents the first damage this card would take.
+TOOLTIP_RANGED_ATTACK;<color=white><b>Ranged:</b></color> Attacks the first enemy in a straight line (friendly units block the way). Cannot move and attack in the same turn.
+TOOLTIP_SWALLOW;<color=white><b>Swallow:</b></color> Imprisons a creature inside this. When this dies, the creature is released (you can't swallow a creature which swallowed another one).
+TOOLTIP_TAUNT;<color=white><b>Taunt:</b></color> Adjacent enemies must attack this.
+TOOLTIP_WILD;<color=white><b>Wild:</b></color> A card is wild when all the lands it requires are wild.
+WILD;<b>Wild</b>
+YELLOW;<sprite="icon_yellow" index=0>
+NEWS_DEFENDING;Defending against rush
+NEWS_FAERIA_TALES;Faeria Tales: Road to 1.0
+NEWS_OVERSKY;Expansion: Oversky has arrived
+NEWS_PATCH_ANALYSIS;Balance patch analysis
+NEWS_PATCH_NOTES;Patch Notes
+NEWS_RECRUIT_FRIEND;Recruit a friend
+NEWS_STEAM_NEWS;Exclusivity: Faeria Steam Pack
+NEWS_WAR_EFFORT;Join the War Effort
+NEWS_WELCOME;Faeria Academy
+DAILY_QUEST_1400_NAME;Lore page
+DAILY_QUEST_PLAY_CARD_3_TIMES;Play {0} 3 times
+NEWS_B2P_RELEASE;New features and economy changes
+NEWS_FOE_DLC;Fall of Everlife expansion
+NEWS_PREMIUM_DLC;Premium Upgrade
+NWILD;<sprite="icon_wild_cost" index={0}>
+NEWS_THE_HUB;The Hub
+NEWS_RESURGENCE_CARDS;Cards of Resurgence
+NEWS_RESURGENCE;Resurgence Expansion
+NYELLOW;<nobr><b>{0}</b><sprite="icon_yellow" index=0></nobr>
+NRED;<nobr><b>{0}</b><sprite="icon_red" index=0></nobr>
+NHUMAN;<nobr><b>{0}</b><sprite="icon_human" index=0></nobr>
+NGREEN;<nobr><b>{0}</b><sprite="icon_green" index=0></nobr>
+NBLUE;<nobr><b>{0}</b><sprite="icon_blue" index=0></nobr>
+MUTAGEN_SETUP_TETHRA_LAND_4;The Dragon starts with a 5f 5 Wild land <b>Tethra</b> in their hand.
+MUTAGEN_SETUP_OROSEI_LAND_4;The Dragon starts with a 5f 5 Wild land <b>Orosei</b> in their hand.
+MUTAGEN_SETUP_MONO_COLOR_COSTS_MORE;Mono Colored cards cost 2 more.
+MUTAGEN_SETUP_HARVEST_COSTS_2_LIFE;Whenever you collect faeria, take 2 damage.
+MUTAGEN_SETUP_GARUDAN_LAND_4;The Dragon starts with a 5f 5 Wild land <b>Garudan</b> in their hand.
+MUTAGEN_SETUP_FAERIA_LIMITED_TO_6;You can't go above 6 faeria.
+MUTAGEN_SETUP_EVERYONE_IS_SHOZEN;Whenever one of the Dragon's creatures would kill a creature in combat, instead they swallow and gain control of it.
+MUTAGEN_SETUP_EVENTS_COST_MORE;Your events cost 2 more.
+MUTAGEN_SETUP_ENEMIES_HAVE_DEATHTOUCH;The Dragon's creatures have Deathtouch.
+MUTAGEN_SETUP_EMPOWER_ENEMIES_WHEN_YOUR_CREATURES_DIE;Whenever your creatures die, all the Dragon's creatures gain +1/+1.
+MUTAGEN_SETUP_DRAW_TWICE_ON_PLAY;Whenever you play a card, you draw 2 cards.
+MUTAGEN_SETUP_DAMAGE_ON_PLAYED_CREATURES;Whenever you summon a creature, it takes 2 damage.
+MUTAGEN_SETUP_CREATE_RANDOM_AI_LANDS;The Dragon creates 3 random neutral lands at the start of the game
+MUTAGEN_SETUP_CREATURES_COST_MORE;Your creatures cost 2 more.
+MUTAGEN_SETUP_AZARAI_LAND_4;The Dragon starts with a 5f 5 Wild land <b>Azarai</b> in their hand.
+MUTAGEN_SETUP_ALL_CARDS_COST_AT_LEAST_5;Every card in your deck that cost less than 5 now costs 5.
+HUMAN;<sprite="icon_human" index=0>
+DRAGON_TYPE_TETHRA;Tethra
+DRAGON_TYPE_OROSEI;Orosei
+DRAGON_TYPE_GARUDAN;Garudan
+DRAGON_TYPE_CELESTE;Celeste
+DRAGON_TYPE_AZARAI;Azarai
+TOOLTIP_DISCOVER;<color=white><b>Discover:</b></color> Choose a card among 3 then add it to your hand.
+DISCOVER;<b>Discover</b>
+TOOLTIP_DRAGONS_LAIR_REWARD;Beat {0} {1} more time(s) to unlock this reward.
+NEWS_GAGANA_CARDS;Cards of Gagana
+NEWS_GAGANA;Gagana Expansion
+GAMEPAD_RIGHT_BUTTONS_LEFT;<sprite="icon_gamepad_button_{gamepad_type}" index=9>
+GAMEPAD_RIGHT_BUTTONS_TOP;<sprite="icon_gamepad_button_{gamepad_type}" index=11>
+GAMEPAD_TOOLTIP_ACTIVATE;<color=white><b>Activate:</b></color> Press {GAMEPAD_ACTION_CONFIRM} on this Structure to activate its effect.
+MOUSE_TOOLTIP_ACTIVATE;<color=white><b>Activate:</b></color> Click this Structure to activate its effect.
+NEWS_ADDITIONAL_CONTENT;Additional Content
+NEWS_TWITCH;Watch Faeria on Twitch
+NEWS_FAERIA_ALL_IN_BUNDLE;Faeria All-in Bundle
+NEWS_CROSSPLAY_TOURNAMENT;Faeria Crossplay Tournament

@@ -1,0 +1,47 @@
+AUTHENTICATION_LOCAL_ERROR;Could not authenticate with {0}, try to restart your client.
+DECK_LIMIT_MESSAGE;A deck is limited to {0} cards.
+EMAIL_INVALID;The email address entered is invalid.
+EMPTY_USERNAME_PASSWORD_NOT_ALLOWED;Empty username/password is not permitted.
+ERROR_MESSAGE;Error message : {0}
+ERROR_RESOURCES_CORRUPTED;Resources seem corrupted and the game has to exit. Please consider reinstalling the game if this error persists.
+GAMECENTER_HTTP_ERROR;Could not connect to Apple authentication servers. Try again later.
+GAMECENTER_RUNTIME_ERROR;Could not authenticate. Try again later.
+GAMECENTER_SIGNATURE_MISMTACH;Authentication failed. Try again.
+GAME_SERVER_CONNECTION_FAILED;Couldn't connect to the game.
+GAME_SERVER_RECONNECTION_FAILED;Couldn't reconnect to the game.
+MAIL_INVALID;The email address entered is invalid.
+MUST_WAIT;You have to wait {0} minutes to do that.
+RECOVERY_CODE_EXPIRED;Recovery Code Expired.
+RECOVERY_CODE_INVALID;Recovery Code Invalid.
+SERVER_CONNECTION_FAILED;Couldn't connect to the server.
+SERVER_UNREACHABLE;Server is unreachable.
+STEAM_ACCOUNT_DLC_NOT_SYNCHRONISED;This account is unavailable because your Steam DLCs are not synchronized.
+STEAM_ACCOUNT_NOT_FOUND;This account has no Steam binding yet.
+TOKEN_INVALID;Authentication failed, please try signing in again.
+UNAUTHORIZED_ACCESS;Unauthorized access attempt, try to restart your client.
+UNKNOWN_ERROR;An unknown error occurred. Please try contacting support if the error persists.
+WORLD_SERVER_RECONNECTION_FAILED;Couldn't reconnect to the server.
+FRIEND_ALREADY_IN_LOBBY;Friend already in lobby!
+LOBBY_INVALID_MINUTES_PER_GAME;Enter a positive value in the 'minutes per game' field
+LOBBY_INVALID_TURN_DURATION;Enter a positive value in the 'turn duration' field
+LOBBY_TIMER_EMPTY_MATCH_FORMAT;Pick a match format when using the game timer
+INTERNAL_ERROR;Internal server error. Please try again.
+PLATFORM_PRIVILEGES_DO_NOT_ALLOW;Platform privileges do not allow to perform this action.
+ACHIEVEMENT_INITIALIZATION_FAILED_TITLE;Initialization failed
+ACHIEVEMENT_INITIALIZATION_FAILED_TEXT;Could not initialize achievements. Please check your connection.
+PLAYER_CANNOT_PLAY_MULTIPLAYER_GAMES;This player is not allowed to play in multiplayer.
+DEBUG_PANEL_EXIT_BUTTON;EXIT
+CANNOT_RENAME_ON_PLATFORM;Impossible to rename on this platform
+CANNOT_LOGIN;Error during login
+PLATFORM_PRIVILEGES_CANNOT_LOGIN;Couldn't login because you don't have the required permissions to play the game
+YOU_CANNOT_PLAY_MULTIPLAYER_GAMES;You are not allowed to play in multiplayer.
+NETWORK_LOST;There is no network connection
+PLATFORM_XBOX_LIVE_PLAYER_INVALID;You must select a valid profile
+PLATFORM_SWITCH_PLAYER_INVALID;You must select a valid user account
+PLATFORM_STEAM_PLAYER_INVALID;You must select a valid user account
+PLATFORM_PS4_PLAYER_INVALID;You must select a valid registered user (with account)
+PLATFORM_EPIC_GAMES_STORE_PLAYER_INVALID;You must select a valid user account
+PLAYER_CANNOT_RECEIVE_INVITES;You and this player are not allowed to play together in multiplayer.
+YOU_MUST_LEAVE_YOUR_GAME_TO_JOIN_THE_GAME;You must leave your current game to be able to join a new one.
+YOU_HAVE_BLOCKED_THAT_PLAYER;You have blocked that player
+FAILED_TO_CREATE_LOBBY_SESSION;Failed to create the lobby session

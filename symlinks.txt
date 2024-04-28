@@ -1,0 +1,31 @@
+
+[32;1mFullName                              Length                                                 Attributes LinkType     Target[0m
+[32;1m--------                              ------                                                 ---------- --------     ------[0m
+C:\Windows\bfsvc.exe                  102400                                                    Archive HardLink     
+C:\Windows\explorer.exe              4992848                                                    Archive HardLink     
+C:\Windows\HelpPane.exe              1089536                                                    Archive HardLink     
+C:\Windows\hh.exe                      36864                                                    Archive HardLink     
+C:\Windows\mib.bin                     43131                                                    Archive HardLink     
+C:\Windows\notepad.exe                360448                                                    Archive HardLink     
+C:\Windows\regedit.exe                552960                                                    Archive HardLink     
+C:\Windows\splwow64.exe               192512                                                    Archive HardLink     
+C:\Windows\TbtP2pShortcutService.exe  253576                                                    Archive HardLink     
+C:\Windows\twain_32.dll                69120                                                    Archive HardLink     
+C:\Windows\WindowsShell.Manifest         670                                  ReadOnly, Hidden, Archive HardLink     
+C:\Windows\winhlp32.exe                12288                                                    Archive HardLink     
+C:\Windows\WMSysPr9.prx               316640                                                    Archive HardLink     
+C:\Windows\write.exe                   28672                                                    Archive HardLink     
+C:\Documents and Settings                  1 Hidden, System, Directory, ReparsePoint, NotContentIndexed Junction     C:\Users
+C:\Users\yasha\.config                     1                                    Directory, ReparsePoint SymbolicLink C:\Users\yasha\dotfiles\config\
+C:\Users\yasha\Application Data            1 Hidden, System, Directory, ReparsePoint, NotContentIndexed Junction     C:\Users\yasha\AppData\Roaming
+C:\Users\yasha\Cookies                     1 Hidden, System, Directory, ReparsePoint, NotContentIndexed Junction     C:\Users\yasha\AppData\Local\Mi…
+C:\Users\yasha\Local Settings              1 Hidden, System, Directory, ReparsePoint, NotContentIndexed Junction     C:\Users\yasha\AppData\Local
+C:\Users\yasha\My Documents                1 Hidden, System, Directory, ReparsePoint, NotContentIndexed Junction     C:\Users\yasha\Documents
+C:\Users\yasha\NetHood                     1 Hidden, System, Directory, ReparsePoint, NotContentIndexed Junction     C:\Users\yasha\AppData\Roaming\…
+C:\Users\yasha\PrintHood                   1 Hidden, System, Directory, ReparsePoint, NotContentIndexed Junction     C:\Users\yasha\AppData\Roaming\…
+C:\Users\yasha\Recent                      1 Hidden, System, Directory, ReparsePoint, NotContentIndexed Junction     C:\Users\yasha\AppData\Roaming\…
+C:\Users\yasha\SendTo                      1 Hidden, System, Directory, ReparsePoint, NotContentIndexed Junction     C:\Users\yasha\AppData\Roaming\…
+C:\Users\yasha\Start Menu                  1 Hidden, System, Directory, ReparsePoint, NotContentIndexed Junction     C:\Users\yasha\AppData\Roaming\…
+C:\Users\yasha\Templates                   1 Hidden, System, Directory, ReparsePoint, NotContentIndexed Junction     C:\Users\yasha\AppData\Roaming\…
+C:\Users\yasha\.latexmkrc                  0                                      Archive, ReparsePoint SymbolicLink C:\Users\yasha\dotfiles\latexmk…
+

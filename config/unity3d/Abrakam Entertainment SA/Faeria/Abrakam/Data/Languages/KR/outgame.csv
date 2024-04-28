@@ -1,0 +1,167 @@
+CARD_ALREADY_OWNED_TOOLTIP_TEXT;이 카드를 {0}개 가지고 있습니다.
+CARD_FILTER_CREATURE;생물
+CARD_FILTER_EVENT;이벤트
+CARD_FILTER_FALL_OF_EVERLIFE;영생의 몰락
+CARD_FILTER_OVERSKY;창공
+CARD_FILTER_STRUCTURE;건물
+PANDORA_MYTHIC_RUN_NOT_ENOUGH_COINS_ERROR_TEXT;샤드가 부족하여 이 판도라 모드를 시작할 수 없습니다.
+PANDORA_MYTHIC_RUN_TOOLTIP_TEXT;신화 판도라를 시작하세요. 샤드를 위해 최대 6승까지 하실 수 있습니다.
+PANDORA_POINT_TOOLTIP_TEXT;시즌이 끝날 때 보상을 얻기 위해 포인트를 쟁취하세요.
+PANDORA_POP_UP_MULTI_PLAYER_TITLE_TEXT;멀티 플레이
+PANDORA_POP_UP_MYTHIC_MULTI_PLAYER_INFO_TEXT;다른 플레이어와 경쟁하여 더욱 많은 보상을 획득하세요.
+PANDORA_POP_UP_MYTHIC_RUN_MULTI_PLAYER_TITLE_TEXT;신화적 멀티 플레이
+PANDORA_POP_UP_MYTHIC_RUN_SINGLE_PLAYER_TITLE_TEXT;신화적 싱글 플레이
+PANDORA_POP_UP_MYTHIC_SINGLE_PLAYER_INFO_TEXT;샤드를 위해 아주 강력한 AI에게 도전하세요.
+PANDORA_POP_UP_SINGLE_PLAYER_TITLE_TEXT;싱글 플레이
+PANDORA_POP_UP_STANDARD_MULTI_PLAYER_INFO_TEXT;다른 플레이어와 경쟁하여 더욱 많은 보상을 획득하세요.
+PANDORA_POP_UP_STANDARD_RUN_MULTI_PLAYER_TITLE_TEXT;멀티 플레이
+PANDORA_POP_UP_STANDARD_RUN_SINGLE_PLAYER_TITLE_TEXT;싱글 플레이
+PANDORA_POP_UP_STANDARD_SINGLE_PLAYER_INFO_TEXT;점점 강해지는 인공지능과 대결하여 전리품 상자와 카드를 획득하세요.
+PANDORA_STANDARD_RUN_HAS_FULL_COLLECTION_ERROR_TEXT;가능한 모든 카드를 가지고 계시기에 일반 모드를 시작하실 수 없습니다.
+PANDORA_STANDARD_RUN_NOT_ENOUGH_CHEST_ERROR_TEXT;이 판도라 모드를 시작하기에 보유한 전리품 상자의 양이 충분하지 않습니다.
+PANDORA_STANDARD_RUN_TOOLTIP_TEXT;일반 판도라 모드를 시작해보세요. 전리품 상자와 카드를 얻기 위해 6번까지 이길 수 있답니다.
+PURCHASE_PANEL_BUY_MISSING_SOFT_CURRENCY_TEXT;현재 보유하지 않은 {0} {1}을 살까요?
+PURCHASE_PANEL_GO_TO_SHOP_BUTTON_TEXT;상점으로 가기
+PURCHASE_PANEL_OUT_OF_CURRENCY_TEXT;{0}가 다 떨어졌습니다. 상점에서 더 얻을 수 있습니다.
+REWARD;보상
+REWARD_ACT;미션 팩 잠금 해제
+REWARD_ARENA_POINTS;{0}
+REWARD_AVATAR;아바타 획득
+REWARD_BLUEPRINT;새 견본 덱 획득!
+REWARD_BOOSTER;{0}
+REWARD_CARD;카드 {0}장 획득
+REWARD_CARD_BACK;새 카드 뒷면 획득
+REWARD_EMOTE;새 감정 표현 획득
+REWARD_FEATURE_ARENA_ID;판도라 모드에 입장할 수 있습니다!
+REWARD_FEATURE_CRAFTING_ID;카드를 제작할 수 있게 되었습니다!
+REWARD_FEATURE_EPIC_CRAFTING_ID;영웅 카드 제작이 해금되었습니다!
+REWARD_FEATURE_HIGHLANDER_ID;하이랜더 모드를 사용할 수 있게 되었습니다!
+REWARD_FEATURE_MAIN_MENU_ID;덱을 만들 수 있게 되었습니다!
+REWARD_FEATURE_RANKED_ID;경쟁전을 할 수 있게 되었습니다!
+REWARD_FEATURE_RARE_CRAFTING_ID;희귀 카드 제작이 해금되었습니다!
+REWARD_ORIGIN_ACCOUNTACTIVATED;계정 활성화 보상
+REWARD_ORIGIN_ANNUITY;고키가 채광한 샤드
+REWARD_ORIGIN_ARENA;보상
+REWARD_ORIGIN_CRAFT;제작 성공!
+REWARD_ORIGIN_DAILYASSIGNMENT;일일 퀘스트
+REWARD_ORIGIN_DAILYQUEST;일일 퀘스트 완료
+REWARD_ORIGIN_DEFEAT;보상
+REWARD_ORIGIN_DLCPREMIUM;프리미엄 계정
+REWARD_ORIGIN_DLCFALLOFEVERLIFE;영생의 몰락
+REWARD_ORIGIN_EARLYACCESSBUNDLE;얼리 액세스 번들
+REWARD_ORIGIN_FIRSTDAYVICTORY;오늘 첫 승리
+REWARD_ORIGIN_HATCH;알 부화
+REWARD_ORIGIN_LADDERRESET;래더 시즌 보상
+REWARD_ORIGIN_LEVEL;레벨 {0} 보상
+REWARD_ORIGIN_LOYALTYPATCH;로얄티 패치 보상
+REWARD_ORIGIN_MARKET;결제 완료!
+REWARD_ORIGIN_POUCH;모험 보따리 보상
+REWARD_ORIGIN_QUEST;미션 보상
+REWARD_ORIGIN_RECRUITMENT;추천인
+REWARD_ORIGIN_SOLOOBJECTIVE;목표 완료
+REWARD_ORIGIN_STEAMPACK;스팀 팩
+REWARD_ORIGIN_VICTORY;보상
+REWARD_POUCH_POINTS;{0}
+REWARD_WELL;새 페어리아 우물
+TOURNAMENT_ALREADY_SIGNED_UP;등록이 완료되었습니다.
+TOURNAMENT_DECK_ALREADY_PICKED;이 덱은 이미 선택되었습니다.
+TOURNAMENT_DECK_CHANGE_LOST_A_GAME;경기에서 패배한 덱은 유지할 수 없습니다.
+TOURNAMENT_DECK_FIXED_UNTIL_LOSS;패배할 때까지 덱을 변경할 수 없습니다.
+TOURNAMENT_DECK_LOCKED;토너먼트에 등록된 덱은 토너먼트 참가가 완료 될 때 까지 수정할 수 없습니다.
+TOURNAMENT_DECK_LOST_A_GAME;경기에서 패배한 덱을 선택할 수 없습니다.
+TOURNAMENT_DECK_MUST_BE_LEAD;첫번째 게임에서는 시작 덱을 사용해야 합니다.
+TOURNAMENT_DISCARD_DECKS;다시 하기
+TOURNAMENT_LOBBY;토너먼트 로비
+TOURNAMENT_PICKED_DECK;등록된 덱 #{0}
+TOURNAMENT_SIGNUP;등록하기
+TOURNAMENT_SIGNUP_DECK_1;첫번째 덱 등록
+TOURNAMENT_SIGNUP_DECK_2;두번째 덱 등록
+TOURNAMENT_SIGNUP_DECK_3;세번째 덱 등록
+TOURNAMENT_SIGNUP_SUCCESSFUL;토너먼트 참가에 성공하였습니다!
+REWARD_DECK_SLOT;덱 슬롯을 받았습니다.
+REWARD_LORE_PAGE;새로운 이야기를 보실 수 있습니다!
+REWARD_FEATURE_LORE_BOOK_ID;설화집이 해제되었습니다!
+TOURNAMENT_CRUCIBLE_RULES;토너먼트에 참여하기 위해서 4개의 덱을 등록해야 합니다. 각 덱을 구성하고 있는 카드가 12장 이상 중복 되어선 안됩니다.\n\n각 덱을 선택하고 하나씩<b>등록</b> 하세요. 4개의 덱이 등록되면 토너먼트 로비에 입장할 준비가 완료됩니다. \n\n<b>주의!</b> 한번 덱을 등록하면 <b>취소</b>할수 없습니다. 신중하게 등록할 덱을 선택하세요.
+LOBBY_CRUCIBLE_RULES;참여하기 위해서 4개의 덱을 등록해야 합니다. 각 덱을 구성하고 있는 카드가 12장 이상 중복 되어선 안됩니다.\n\n각 덱을 선택하고 하나씩<b>등록</b> 하세요. 4개의 덱이 등록되면 시작 할 수 있습니다.
+TOURNAMENT_DECK_BANNED;금지된 덱은 선택할 수 없습니다.
+TOURNAMENT_DECK_CONFLICT_MESSAGE_TEXT;{0} 개의 덱이 {1} 장 이상의 같은 카드를 공유 합니다. 중복되는 덱: "{2}"
+TOURNAMENT_DECK_PICK_CONFIRM_BUTTON_TEXT;확인
+TOURNAMENT_COUNTDOWN_TEXT;{0}초 후 다음 단계가 진행 됩니다...
+TOURNAMENT_COUNTDOWN_GAME_START_TEXT;{0}초 후 게임이 시작 됩니다...
+TOURNAMENT_BAN_DECK_TEXT;금지할 덱 선택
+TOURNAMENT_BAN_DECK_SPECTATOR_TEXT;플레이어가 금지 중
+TOURNAMENT_BAN_PHASE_NAME_TEXT;금지 단계
+TOURNAMENT_PICK_DECK_LOCKED_TEXT;승자는 덱을 변경할 수 없습니다. 준비가 되면 확인을 누르세요.
+TOURNAMENT_PICK_DECK_TEXT;사용할 덱을 선택
+TOURNAMENT_PICK_DECK_SPECTATOR_TEXT;플레이어들이 덱을 선택중입니다
+TOURNAMENT_PICK_PHASE_NAME_TEXT;선택 단계
+TOURNAMENT_SIGNUP_DECK_4;네번째 덱 등록
+TOURNAMENT_PHASE_TIME_LEFT;남은 시간 : {0}
+INVALID_DECK_CARDS_QUANTITY;덱은 정확히 {0} 개의 카드로 구성되야 합니다.
+CARD_FILTER_INCOMPLETE;미보유
+MOUSE_REWARD_LORE_PAGE_CLICK_TO_READ;클릭하여 읽으세요
+CARD_FILTER_RESURGENCE;소생
+REWARD_ORIGIN_YOUBACK;{0} 덕분에 돌아오셨군요!
+REWARD_ORIGIN_FRIENDBACK;{0}가 돌아왔습니다!
+REWARD_ORIGIN_DLCRESURGENCE;소생
+REWARD_FEATURE_PUZZLE_PACKS_ID;이제 퍼즐에 도전할 수 있습니다!
+PUZZLES_MENU_TITLE_ELEMENTS;엘리먼츠
+PUZZLES_MENU_TITLE_CORE;코어 퍼즐
+PUZZLES_DLC_PURCHASE_REWARDS;다음과 같은 보상을 포함하고 있습니다.
+PUZZLES_DLC_PURCHASE_BUTTON;스팀 스토어로 이동
+PUZZLE_NEED_LANE_UNLOCK;이 퍼즐을 다시하려면, 먼저 모험 모드에서 퍼즐을 해결해야 합니다.
+REWARD_FEATURE_DLC_385;엘리먼츠 퍼즐 해금!
+REWARD_FEATURE_DLC_383;소생 해금!
+REWARD_FEATURE_DLC_316;영생의 몰락 해금!
+REWARD_FEATURE_DLC_315;프리미엄 계정이 되었습니다!
+REWARD_FEATURE_DLC_187;스팀 팩 해금!
+REWARD_FEATURE_DLC_16;G2A 번들 해금!
+REWARD_FEATURE_DLC_15;얼리 억세스 번들 해금!
+PUZZLES_ACT_COMPLETION_TOOLTIP;충분한 갯수의 퍼즐을 풀면 보상을 받을 수 있습니다!
+MARKET_TAB_WELLS;우물
+MARKET_TAB_SETS;세트
+MARKET_TAB_ORBS;오브
+MARKET_TAB_FEATURED;특가 할인
+MARKET_TAB_CARD_BACKS;카드 뒷면
+MARKET_TAB_AVATARS;아바타
+COSMETIC_SET_SELECT;이 덱 전용의 치장품 세트를 선택하세요
+REWARD_ORIGIN_DLCGAGANA;가가나의 연대기
+REWARD_FEATURE_DLC_386;가가나의 연대기 해금!
+CARD_FILTER_GAGANA;가가나
+REWARD_FEATURE_DLC_390;모든 우물 해금!
+REWARD_FEATURE_DLC_389;모든 오브 해금!
+REWARD_FEATURE_DLC_388;모든 카드 뒷면 해금!
+REWARD_FEATURE_DLC_387;모든 아바타 해금!
+GAMEPAD_REWARD_LORE_PAGE_CLICK_TO_READ;{GAMEPAD_RIGHT_BUTTONS_LEFT} 눌러서 읽기
+MOUSE_ENGAGEMENT_PRESS_CONFIRM_TEXT;클릭하여 시작하세요
+GAMEPAD_ENGAGEMENT_PRESS_CONFIRM_TEXT;아무 버튼이나 누르세요
+NON_XBOX_LIVE_PLAYERS_MIGHT_BE_PRESENT;이 게임 모드에는 Xbox Live 회원이 아닌 플레이어가 있을 수 있습니다.
+GAMEPAD_QUEST_BUTTON_TOOLTIP_TEXT;{GAMEPAD_ACTION_CONFIRM} 누르면 전투 시작
+PLATFORM_EPIC_GAMES_STORE_ACCOUNT_BINDING_MESSAGE;<nobr>Epic Games Store</nobr> 계정으로 페어리아를 플레이하는 게 이번이 처음이라면, 페어리아 계정이 새로 생성되며 귀하의 <nobr>Epic Games Store</nobr> 계정과 연동됩니다.
+PLATFORM_STEAM_ACCOUNT_BINDING_MESSAGE;Steam 계정으로 페어리아를 플레이하는 게 이번이 처음이라면, 페어리아 계정이 새로 생성되며 귀하의 Steam 계정과 연동됩니다.
+PLATFORM_SWITCH_ACCOUNT_BINDING_MESSAGE;Nintendo 계정으로 페어리아를 플레이하는 게 이번이 처음이라면, 페어리아 계정이 새로 생성되며 귀하의 Nintendo 계정과 연동됩니다.
+LORE_PAGE_LABEL;설화 페이지
+ENTER_A_DECK_NAME;덱 이름을 입력하세요
+ENTER_COUPON_CODE;쿠폰 번호를 입력하세요
+ENTER_CARD_NAME;카드 이름을 입력하세요
+ENTER_FRIEND_ID;친구 지원 ID 입력
+DLC_FEATURES_WELLS_PACK;이 패키지에는 현재 게임에 구현된 20개 이상의 우물이 포함되어 있으며, 추가 우물이 출시될 때마다 이 또한 포함됩니다.
+DLC_FEATURES_ORBS_PACK;이 패키지에는 현재 게임에 구현된 30개 이상의 오브가 포함되어 있으며, 추가 오브가 출시될 때마다 이 또한 포함됩니다.
+DLC_FEATURES_CARDBACKS_PACK;이 패키지에는 20개 이상의 카드 뒷면이 포함되어 있으며 추가 카드 뒷면이 출시 될 때마다 포함됩니다.
+DLC_FEATURES_AVATARS_PACK;이 패키지에는 50개 이상의 아바타가 포함되어 있으며 추가 아바타가 출시 될 때마다 포함됩니다.
+DLC_FEATURES_PREMIUM_EDITION;- 모든 경험치 두 배!\n- 전리품 상자와 샤드를 두 배 빨리 획득할 수 있습니다.\n- 10개의 덱 슬롯 추가\n- 프리미엄 카드 뒷면\n- 황금 페어리아 로고\n- 치장품이 가득 든 신화 상자 5개\n- 보너스 샤드
+DLC_FEATURES_PUZZLE_ELEMENTS;- 낮은 난이도부터 극악 난이도까지 40개의 신규 퍼즐.\n- 신화 상자 10개에 해당하는 보상\n- '원소' 카드 뒷면 획득 능력 해금
+DLC_FEATURES_FALL_OF_EVERLIFE;- 40장의 신규 카드 해제\n- 오염 키워드 도입\n- 신규 하위유형 도입: 야크, 라코아, 야수!\n- 고유한 치장품 세트
+DLC_FEATURES_RESURGENCE;- 40장의 신규 카드 해제\n- 트라이튼 하위유형 도입\n- 고유한 치장품 세트
+DLC_FEATURES_CHRONICLES_OF_GAGANA;- 40장의 신규 카드 해제\n- 발견 키워드 도입\n- 신규 메카 하위유형\n- 고유한 치장품 세트
+DLC_DESCRIPTION_WELLS_PACK;이 DLC는 게임 내 진행을 통해 잠금을 해제 할 수있는 모든 우물을 즉시 잠금 해제합니다.
+DLC_DESCRIPTION_ORBS_PACK;이 DLC는 게임 내 진행을 통해 잠금을 해제 할 수있는 모든 오브를 즉시 잠금 해제합니다.
+DLC_DESCRIPTION_CARDBACKS_PACK;이 DLC는 게임 내 진행을 통해 잠금을 해제 할 수있는 모든 카드 뒷면을 즉시 잠금 해제합니다.
+DLC_DESCRIPTION_AVATARS_PACK;이 DLC는 게임 내 진행을 통해 잠금을 해제 할 수있는 모든 아바타를 즉시 잠금 해제합니다.
+DLC_DESCRIPTION_PREMIUM_EDITION;페어리아를 더 재밌게 즐기고 싶으신가요? 그런 당신을 위해 준비했습니다!\n\n프리미엄 페어리아를 경험해보세요!\n\n이 패키지는 두배의 경험치를 통한 빠른 성장과 추가 덱 슬롯, 독점 아이템을 제공합니다.
+DLC_DESCRIPTION_PUZZLE_ELEMENTS;원래 퍼즐 마스터인 잘미르가 이번에는 원소들에게 역할을 양보했습니다.\n\n이 페어리아 퍼즐 팩에는 푸는 데 고급 두뇌 활동이 필요한 추가 퍼즐이 40개 들어 있습니다.\n\n원소들을 극복할 자신이 있나요?\n\n주의: 퍼즐의 난이도가 대체로 매우 높습니다!
+DLC_DESCRIPTION_FALL_OF_EVERLIFE;카이오스 황제는 창공을 끔찍하게 오염시키고 영원한 생명의 열매를 먹었습니다. 야크와 라코안들과 함께 맞서 싸우세요!
+DLC_DESCRIPTION_RESURGENCE;오염이 세계 곳곳으로 퍼져 나가며 모든 선하고 순수한 것을 더럽힐 위기에 처했습니다. 전쟁의 약탈품을 노리고 새로운 괴물과 악인이 제국의 기치 아래로 모여듭니다.\n\n이에 저항하여 싸우는 이들은 크나큰 희생을 치르면서도 마음에 희망의 꽃을 피웁니다. 가망이 없어 보이던 싸움이지만, 새로운 동료들이 합류하면서 승리의 가능성이 다시 고개를 듭니다.
+DLC_DESCRIPTION_CHRONICLES_OF_GAGANA;카이오스 황제가 패배하고 창공이 구원받았습니다.\n\nIn새로이 임박한 대격변에 대한 해결책을 찾기 위해 가가나 대원들은 미지의 영역으로 모험을 떠납니다.\n\n그들은 새로운 문명, 새로운 대륙, 새로운 생물을 마나게 될 것입니다! 그리고 가가나의 보물 또한..
+DLC_SHOP_OPEN_SHOP;상점 열기
+DLC_SHOP_CONTENT_TITLE_TEXT;구성:

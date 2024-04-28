@@ -1,0 +1,169 @@
+CARD_ALREADY_OWNED_TOOLTIP_TEXT;Tuto kartu máte {0}krát.
+CARD_FILTER_CREATURE;Bytost
+CARD_FILTER_EVENT;Událost
+CARD_FILTER_FALL_OF_EVERLIFE;Zkáza Nesmrtelna
+CARD_FILTER_OVERSKY;Zánebí
+CARD_FILTER_STRUCTURE;Budova
+PANDORA_MYTHIC_RUN_NOT_ENOUGH_COINS_ERROR_TEXT;Na tuto cestu nemáte dostatek střípků
+PANDORA_MYTHIC_RUN_TOOLTIP_TEXT;Vydat se na mytickou cestu Pandorou. Vyhrajte až 6 her a získejte střípky.
+PANDORA_POINT_TOOLTIP_TEXT;Získejte body, které vám na konci sezóny přinesou odměny.
+PANDORA_POP_UP_MULTI_PLAYER_TITLE_TEXT;Hra více hráčů
+PANDORA_POP_UP_MYTHIC_MULTI_PLAYER_INFO_TEXT;Bojujte se skutečnými hráči a čeká vás MNOHEM větší odměna.
+PANDORA_POP_UP_MYTHIC_RUN_MULTI_PLAYER_TITLE_TEXT;Mytická hra více hráčů
+PANDORA_POP_UP_MYTHIC_RUN_SINGLE_PLAYER_TITLE_TEXT;Mytická hra pro jednoho
+PANDORA_POP_UP_MYTHIC_SINGLE_PLAYER_INFO_TEXT;Bojujte proti stále silnějším počítačovým protivníkům a vyhrajte střípky.
+PANDORA_POP_UP_SINGLE_PLAYER_TITLE_TEXT;Hra pro jednoho
+PANDORA_POP_UP_STANDARD_MULTI_PLAYER_INFO_TEXT;Bojujte se skutečnými hráči a čeká vás MNOHEM větší odměna.
+PANDORA_POP_UP_STANDARD_RUN_MULTI_PLAYER_TITLE_TEXT;Hra více hráčů
+PANDORA_POP_UP_STANDARD_RUN_SINGLE_PLAYER_TITLE_TEXT;Hra pro jednoho
+PANDORA_POP_UP_STANDARD_SINGLE_PLAYER_INFO_TEXT;Bojujte se stále silnější AI a získejte truhly a karty.
+PANDORA_STANDARD_RUN_HAS_FULL_COLLECTION_ERROR_TEXT;Již vlastníte všechny dostupné karty, takže se již nemůžete vydat na standardní cestu.
+PANDORA_STANDARD_RUN_NOT_ENOUGH_CHEST_ERROR_TEXT;Na tuto cestu nemáte dostatek bitevních truhel
+PANDORA_STANDARD_RUN_TOOLTIP_TEXT;Vydejte se na standardní cestu Pandorou. Vyhrajte až 6 her a získejte bitevní truhly a karty.
+PURCHASE_PANEL_BUY_MISSING_SOFT_CURRENCY_TEXT;Koupit si chybějící {0} {1}?
+PURCHASE_PANEL_GO_TO_SHOP_BUTTON_TEXT;Jít do obchodu
+PURCHASE_PANEL_OUT_OF_CURRENCY_TEXT;Již nemáte {0}. Podívejte se do obchodu a nějaké si přikupte.
+REWARD;Odměna
+REWARD_ACT;Balík misí odemčen
+REWARD_ARENA_POINTS;{0}
+REWARD_AVATAR;Obdržíte avatar
+REWARD_BLUEPRINT;Nový Vzorec odemčen!
+REWARD_BOOSTER;{0}
+REWARD_CARD;Obdržíte {0} karet
+REWARD_CARD_BACK;Nový rub karet
+REWARD_EMOTE;Nová hláška
+REWARD_FEATURE_ARENA_ID;Odemkli jste Pandoru!
+REWARD_FEATURE_CRAFTING_ID;Odemkli jste tvorbu!
+REWARD_FEATURE_EPIC_CRAFTING_ID;Můžete kovat epické karty!
+REWARD_FEATURE_HIGHLANDER_ID;Odemkli jste Horalský režim!
+REWARD_FEATURE_MAIN_MENU_ID;Odemkli jste stavění balíčků!
+REWARD_FEATURE_RANKED_ID;Odemkli jste Hodnocený režim!
+REWARD_FEATURE_RARE_CRAFTING_ID;Můžete kovat vzácné karty!
+REWARD_ORIGIN_ACCOUNTACTIVATED;Odměna za ověření účtu
+REWARD_ORIGIN_ANNUITY;Střípky, které našel Goki
+REWARD_ORIGIN_ARENA;Vaše výhra
+REWARD_ORIGIN_CRAFT;Tvorba dokončena!
+REWARD_ORIGIN_DAILYASSIGNMENT;Denní úkol
+REWARD_ORIGIN_DAILYQUEST;Denní úkol dokončen
+REWARD_ORIGIN_DEFEAT;Vaše odměna
+REWARD_ORIGIN_DLCPREMIUM;Prémiový účet
+REWARD_ORIGIN_DLCFALLOFEVERLIFE;Zkáza Nesmrtelna
+REWARD_ORIGIN_EARLYACCESSBUNDLE;Nabídka pro předběžný přístup
+REWARD_ORIGIN_FIRSTDAYVICTORY;První výhra dne!
+REWARD_ORIGIN_HATCH;Vejce se vylíhlo
+REWARD_ORIGIN_LADDERRESET;Odměna za resetování žebříčku
+REWARD_ORIGIN_LEVEL;Odměna za úroveň {0}
+REWARD_ORIGIN_LOYALTYPATCH;Odměna za věrnost
+REWARD_ORIGIN_MARKET;Nákup dokončen!
+REWARD_ORIGIN_POUCH;Odměna z Vaku dobrodružství
+REWARD_ORIGIN_QUEST;Odměna za misi
+REWARD_ORIGIN_RECRUITMENT;Nábor
+REWARD_ORIGIN_SOLOOBJECTIVE;Úkol dokončen
+REWARD_ORIGIN_STEAMPACK;Steam nabídka
+REWARD_ORIGIN_VICTORY;Vaše odměna
+REWARD_POUCH_POINTS;{0}
+REWARD_WELL;Nová studna faerie
+TOURNAMENT_ALREADY_SIGNED_UP;Jste přihlášeni.
+TOURNAMENT_DECK_ALREADY_PICKED;Tento balíček byl již pro turnaj vybrán
+TOURNAMENT_DECK_CHANGE_LOST_A_GAME;Nesmíte si nechat balíček, s nímž jste prohráli
+TOURNAMENT_DECK_FIXED_UNTIL_LOSS;Nesmíte změnit balíček, dokud neprohrajete.
+TOURNAMENT_DECK_LOCKED;Tento balíček byl zapsán do turnaje a až do jeho konce jej nelze měnit
+TOURNAMENT_DECK_LOST_A_GAME;Nesmíte si vybrat balíček, s nímž jste prohráli
+TOURNAMENT_DECK_MUST_BE_LEAD;Pro první hru je třeba použít startovací balíček
+TOURNAMENT_DISCARD_DECKS;Začít znovu
+TOURNAMENT_LOBBY;Turnajová místnost
+TOURNAMENT_PICKED_DECK;Zapsáno #{0}
+TOURNAMENT_SIGNUP;Zapsat se
+TOURNAMENT_SIGNUP_DECK_1;Registrovat 1. balíček
+TOURNAMENT_SIGNUP_DECK_2;Registrovat 2. balíček
+TOURNAMENT_SIGNUP_DECK_3;Registrovat 3. balíček
+TOURNAMENT_SIGNUP_SUCCESSFUL;Zapsání do turnaje proběhlo úspěšně!
+REWARD_DECK_SLOT;Můžete mít více balíčků
+REWARD_LORE_PAGE;Našli jste nový příběh!
+REWARD_FEATURE_LORE_BOOK_ID;Odemkli jste knihu příběhů !
+TOURNAMENT_CRUCIBLE_RULES;Musíte zapsat 4 balíčky, abyste se mohli zúčastnit dnešního turnaje. Žádný z nich nesmí s jiným sdílet více než 12 karet.\n\nVyberte jednotlivé balíčky a postupně je <b>zapiště</b>. Jakmile budou všechny 4 zapsány. jste připraveni vstoupit do turnajové místnosti. \n\n<b>OPATRNĚ!</B>, jakmile zapíšete poslední balíček, <b>NELZE</b> již tento krok vzít zpět. Buďte si proto zcela jisti, že volíte ty správné.
+LOBBY_CRUCIBLE_RULES;Abyste se mohli zúčastnit, musíte zapsat 4 balíčky. Žádný z nich nesmí mít více než 12 společných karet s ostatními.\n\nZvolte jednotlivé balíčky a <b>zapište</b> je všechny najednou. Jakmile budou všechny zapsány, můžete začít.
+TOURNAMENT_DECK_BANNED;Nelze si vybrat balíček zabanovaný soupeřem
+TOURNAMENT_DECK_CONFLICT_MESSAGE_TEXT;{0} z vašich balíčků sídlí více než {1} karet. Řečené balíčky:"{2}"
+TOURNAMENT_DECK_PICK_CONFIRM_BUTTON_TEXT;Potvrdit
+TOURNAMENT_COUNTDOWN_TEXT;Další fáze za {0} sekund...
+TOURNAMENT_COUNTDOWN_GAME_START_TEXT;Hra začne za {0} sekund...
+TOURNAMENT_BAN_DECK_TEXT;Zvolit balíček k zabanování
+TOURNAMENT_BAN_DECK_SPECTATOR_TEXT;Hřáči banují
+TOURNAMENT_BAN_PHASE_NAME_TEXT;Fáze banů
+TOURNAMENT_PICK_DECK_LOCKED_TEXT;Jako vítěz nesmíte změnit balíček. Potvrďte, že jste připraveni.
+TOURNAMENT_PICK_DECK_TEXT;Zvolte balíček pro hru
+TOURNAMENT_PICK_DECK_SPECTATOR_TEXT;Hráči volí balíčky
+TOURNAMENT_PICK_PHASE_NAME_TEXT;Fáze volby
+TOURNAMENT_SIGNUP_DECK_4;Registrovat 4. balíček
+TOURNAMENT_PHASE_TIME_LEFT;Zbývající čas : {0}
+INVALID_DECK_CARDS_QUANTITY;Váš balíček musí obsahovat přesně {0} karet
+CARD_FILTER_INCOMPLETE;Nekompletní
+MOUSE_REWARD_LORE_PAGE_CLICK_TO_READ;Kliknutím si přečtěte
+CARD_FILTER_RESURGENCE;Zhojení
+REWARD_ORIGIN_YOUBACK;Vrátili jste se díky hráči {0}!
+REWARD_ORIGIN_FRIENDBACK;{0} se vrátil!
+REWARD_ORIGIN_DLCRESURGENCE;Zhojení
+REWARD_FEATURE_PUZZLE_PACKS_ID;Odemkli jste hádanky!
+PUZZLES_MENU_TITLE_ELEMENTS;Elementy
+PUZZLES_MENU_TITLE_CORE;Základní hádanky
+PUZZLES_DLC_PURCHASE_REWARDS;Uvnitř čekají odměny
+PUZZLES_DLC_PURCHASE_BUTTON;Jít do obchodu služby Steam
+PUZZLE_NEED_LANE_UNLOCK;Než si budete moci znovu zahrát tuto hádanku, měli byste ji vyřešit v Dobrodružném módu.
+REWARD_FEATURE_DLC_385;Odemčeny Hádanky živlů!
+REWARD_FEATURE_DLC_383;Odemčeno Zhojení!
+REWARD_FEATURE_DLC_316;Odemčen Pád Nesmrtelna!
+REWARD_FEATURE_DLC_315;Váš účet je nyní prémiový!
+REWARD_FEATURE_DLC_187;Odemčen balíček Steam!
+REWARD_FEATURE_DLC_16;Odemčen balíček G2A!
+REWARD_FEATURE_DLC_15;Odemčen balíček předběžného přístupu!
+PUZZLES_ACT_COMPLETION_TOOLTIP;Vyřeště hádanky a odměny jsou vaše!
+MARKET_TAB_WELLS;Studny
+MARKET_TAB_SETS;Sady
+MARKET_TAB_ORBS;Orby
+MARKET_TAB_FEATURED;Vybrané
+MARKET_TAB_CARD_BACKS;Ruby karet
+MARKET_TAB_AVATARS;Avataři
+COSMETIC_SET_SELECT;Zvolte si vlastní sadu pro váš balíček
+REWARD_ORIGIN_DLCGAGANA;Gaganská kronika
+REWARD_FEATURE_DLC_386;Odemčena Gaganská kronika!
+CARD_FILTER_GAGANA;Gagana
+REWARD_FEATURE_DLC_390;Všechny studny odemčeny!
+REWARD_FEATURE_DLC_389;Všechny orby odemčeny!
+REWARD_FEATURE_DLC_388;Všechny ruby karet odemčeny!
+REWARD_FEATURE_DLC_387;Všichni avataři odemčeni!
+GAMEPAD_REWARD_LORE_PAGE_CLICK_TO_READ;Číst stisknutím {GAMEPAD_RIGHT_BUTTONS_LEFT}
+MOUSE_ENGAGEMENT_PRESS_CONFIRM_TEXT;Kliknutím začněte hrát
+GAMEPAD_ENGAGEMENT_PRESS_CONFIRM_TEXT;Začněte hrát stiskem libovolného tlačítka
+NON_XBOX_LIVE_PLAYERS_MIGHT_BE_PRESENT;V tomto herním režimu mohou být hráči bez Xbox Live
+GAMEPAD_QUEST_BUTTON_TOOLTIP_TEXT;Stisknutím {GAMEPAD_ACTION_CONFIRM} zahajte bitvu
+PLATFORM_EPIC_GAMES_STORE_ACCOUNT_BINDING_MESSAGE;Pokud pod svým účtem v <nobr>Epic Games Store</nobr> hrajete Faerii poprvé, bude pro vás vytvořen účet Faeria, který se přidruží k vašemu účtu <nobr>Epic Games Store</nobr>.
+PLATFORM_STEAM_ACCOUNT_BINDING_MESSAGE;Pokud pod svým účtem Steam hrajete Faerii poprvé, bude pro vás vytvořen účet Faeria, který se přidruží k vašemu účtu Steam.
+PLATFORM_SWITCH_ACCOUNT_BINDING_MESSAGE;Pokud pod svým účtem Nintendo hrajete Faerii poprvé, bude pro vás vytvořen účet Faeria, který se přidruží k vašemu účtu Nintendo.
+LORE_PAGE_LABEL;Příběh
+ENTER_A_DECK_NAME;Zadejte název balíčku
+ENTER_COUPON_CODE;Zadejte kód kupónu
+ENTER_CARD_NAME;Zadejte název karty
+ENTER_FRIEND_ID;Zadejte id přítele
+DLC_FEATURES_WELLS_PACK;Tento balíček obsahuje 20+ studní, které jsou momentálně ve hře, a rozšíří se postupně o další vydávané.
+DLC_FEATURES_ORBS_PACK;Tento balíček obsahuje 30+ orbů, které jsou momentálně ve hře, a rozšíří se postupně o další vydávané.
+DLC_FEATURES_CARDBACKS_PACK;Tento balíček obsahuje 20+ rubů karet, které jsou momentálně ve hře, a rozšíří se postupně o další vydávané.
+DLC_FEATURES_AVATARS_PACK;Tento balíček obsahuje 50+ avatarů, kteří jsou momentálně ve hře, a rozšíří se postupně o další vydávané.
+DLC_FEATURES_PREMIUM_EDITION;- Dvojitá zkušenost – ze všeho!\n- Získávejte bitevní truhly a střepy dvojnásobnou rychlostí.\n- 10 DODATEČNÝCH míst pro balíčky\n- Prémiový rub karet\n- Zlaté logo Faerie\n- 5 mytické truhly plné kosmetických předmětů\n- Bonusové střepy
+DLC_FEATURES_PUZZLE_ELEMENTS;- 40 nových hádanek, od jednoduchých po extrémně obtížné.\n- Odměny s hodnotou 10 mytických truhel\n- Odemkněte možnost získat rub karet Živly
+DLC_FEATURES_FALL_OF_EVERLIFE;- odemčeno 40 nových karet\n- Zavedení klíčového slova Zkáza\n- Nová třída: jakové, Rakoané a šelmy\n- Unikátní kosmetická sada
+DLC_FEATURES_RESURGENCE;- odemčeno 40 nových karet\n- Nová třída: Triton\n- Unikátní kosmetická sada
+DLC_FEATURES_CHRONICLES_OF_GAGANA;- odemčeno 40 nových karet\n- Zavedení klíčového slova Objevení\n- Nová třída: mech\n- Unikátní kosmetická sada
+DLC_DESCRIPTION_WELLS_PACK;Toto rozšíření okamžitě odemyká všechny kosmetické předměty z kategorie studní, které se dají odemknout i herním postupem.
+DLC_DESCRIPTION_ORBS_PACK;Toto rozšíření okamžitě odemyká všechny kosmetické předměty z kategorie orbů, které se dají odemknout i herním postupem.
+DLC_DESCRIPTION_CARDBACKS_PACK;Toto rozšíření okamžitě odemyká všechny kosmetické předměty z kategorie rubů karet, které se dají odemknout i herním postupem.
+DLC_DESCRIPTION_AVATARS_PACK;Toto rozšíření okamžitě odemyká všechny kosmetické předměty z kategorie avatarů, které se dají odemknout i herním postupem.
+DLC_DESCRIPTION_PREMIUM_EDITION;Zajistěte si prémiový herní zážitek ve Faerii!\n\nTento balíček přináší kombinaci zrychleného herního postupu a exkluzivních předmětů. Využijte svůj čas strávený ve Faerii na maximum s DVOJITOU ZKUŠENOSTÍ, více balíčky, speciálními kosmetickými předměty a dalšími výhodami.\n\nChcete si Faerii užít naplno? Pak je tento obsah určený právě vám.
+DLC_DESCRIPTION_PUZZLE_ELEMENTS;Mistr hádanek Jalmyr ustoupil a udělal místo živlům.\n\nTento balík hádanek pro Faerii obsahuje 40 dodatečných rébusů na trénování mozkových závitů.\n\nDokážete překonat živly?\n\nUpozornění: Obsahuje i skutečně náročné hádanky!
+DLC_DESCRIPTION_FALL_OF_EVERLIFE;Císař Kaios pozřel ovoce Nesmrtelna a vypustil do Zánebí strašlivou zkázy. Spojte síly s jaky a Rakoany a společně se této pohroměí postavte!
+DLC_DESCRIPTION_RESURGENCE;Světem se šíří zkáza a hrozí poskvrnit všechno, co je čisté a dobré. Pod císařovým praporem se shromáždily nové nestvůry a zákeřní lidé, aby se přiživili na válečné kořisti.\n\nV srdcích těch, kdo se jim postavili, přežívá navzdory velkým ztrátám optimismus. Noví spojenci přinášejí naději na nepravděpodobné, ale nikoliv nemožné vítězství.
+DLC_DESCRIPTION_CHRONICLES_OF_GAGANA;Císař Kaios byl poražen a Zánebí je zachráněno.\n\nPosádka Gagany se vydává do nezmapovaných zemí s cílem zjistit, jak odvrátit hrozící katastrofu.\n\nČeká je nová civilizace, nové kontinenty, nové bytosti... a na konci i Gaganské poklady.
+DLC_SHOP_OPEN_SHOP;Otevřít obchod
+DLC_SHOP_CONTENT_TITLE_TEXT;Obsah:
+INTRO_FOURTH_SENTENCE;Ale ke kterým bohům se vlastně máme modlit?
+INTRO_THIRD_SENTENCE;Voják se – více než kdokoliv jiný – modlí za mír.

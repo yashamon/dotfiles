@@ -1,0 +1,1006 @@
+1.cardName;ファームボーイ
+2.cardName;ヒルトップアーチャー
+2.cardText;{ranged_attack}
+3.cardName;サイランドの戦士
+4.cardName;サイランドの馬術家
+4.cardText;{gift} - このターン対象の他の味方クリーチャー1体は {charge|3} を得る。
+9.cardName;帝国のエンジニア
+9.cardText;{gift} - 味方全ての生産能力を起動させる。
+10.cardName;戦線を維持せよ！
+10.cardText;{taunt} を持つ<b>帝国の番人</b>を2枚手札に加える。
+11.cardName;歩く要塞
+12.cardName;蒸気精製所
+12.cardText;{production} - ランダムに選ばれた味方クリーチャー1体は+1/+0を得る。
+13.cardName;収税官
+13.cardText;{combat} - {faeria|1} を得る。
+14.cardName;治癒の歌
+14.cardText;あなたはカードを１枚引き、5ライフを得る。
+15.cardName;保護措置
+15.cardText;対象のクリーチャー1体は{protection}を得る。
+16.cardName;帝国の番人
+16.cardText;{taunt}\n{last_words} - あなたは2ライフを得る。
+22.cardName;自由の闘士
+22.cardText;{haste}
+23.cardName;キャンプファイアー
+23.cardText;対象のクリーチャー1体は+1/+1を得る。
+24.cardName;ハヤブサの急降下
+24.cardText;対象のクリーチャー1体に1ダメージを与える。
+29.cardName;剣の達人
+29.cardText;あなたのターンの間+2/+0を得る。（手札の中にあるかプレイしている間）
+30.cardName;草原のヤク
+32.cardName;ヤクアタック
+32.cardText;{haste}を持つ2/2の<b>怒ったヤク</b>を3体召喚する。
+33.cardName;処罰
+33.cardText;対象のクリーチャー1体に2ダメージを与える。それがニュートラルのクリーチャーならば、代わりに5ダメージを与える。
+34.cardName;女王のお気に入り
+34.cardText;{protection}
+35.cardName;女王の護衛
+35.cardText;{taunt}\n{combat} - {faeria|1}を得る。
+36.cardName;マーロバルの女王　マグダー
+36.cardText;あなたのレジェンドのカードのコストは{faeria|1}少なくなる。\n{production} - ランダムなレジェンドのカードを手札に加え、それを{wild}にする。
+37.cardName;宮廷の道化師
+37.cardText;{taunt}\n{gift} - ランダムに選ばれたあなたの手札のクリーチャー1体に+2/+2を与える。
+38.cardName;王の護衛
+38.cardText;{taunt}\n{combat} - カードを1枚引く。
+39.cardName;見込みのないヒーロー
+39.cardText;このクリーチャーが初めて戦闘して生き残った時、+3/+3と{charge|2}を得る。
+40.cardName;マーロバルの王　マグナス
+40.cardText;{charge|3}\n{combat} - カードを1枚引く。 それのコストを{faeria|0}にする。
+41.cardName;伝染病の運搬人
+41.cardText;{last_words} - 全てのクリーチャーに2ダメージを与える。
+42.cardName;攻城兵器
+42.cardText;{ranged_attack}\nこのクリーチャーが攻撃するたび、+1/+0を得る。
+43.cardName;ドラゴンスレイヤー　シャーラー
+43.cardText;このクリーチャーは4以上のダメージを無効化する。
+44.cardName;飢饉
+44.cardText;全てのクリーチャーに1ダメージを与える。
+45.cardName;王家の裁判官
+45.cardText;{options|{faeria|0}コストの<b>保護措置</b> を1枚手札に加える。|{faeria|0}コストの<b>処罰</b>を1枚手札に加える。}\n-  {faeria|0}コストの<b>保護措置</b> を1枚手札に加える。\n- {faeria|0}コストの<b>処罰</b>を1枚手札に加える。
+46.cardName;地図製作者
+46.cardText;{last_words} - <b>探検</b>を1枚手札に加える。
+47.cardName;キラキラ光る像
+47.cardText;{taunt}\n{production} - あなたは1ライフを得る。
+48.cardName;村の長老
+48.cardText;{last_words} - カードを1枚引く。
+49.cardName;ストーリーテラー
+49.cardText;{gift} - それぞれのプレイヤーは、カードを2枚引き、2ライフを得る。
+50.cardName;さすらう修道士
+50.cardText;あなたがカードを1枚引くたび、+1/+0を得る。
+51.cardName;鍛冶場の執行者
+52.cardName;忠実な信者
+52.cardText;{protection}
+53.cardName;竜の日
+53.cardText;4枚の<b>竜</b>を手札に加え、それらを{wild}にする。それらのコストは{faeria|3}少なくなる。
+54.cardName;向こう見ずな冒険家
+54.cardText;{gift} - 隣接する敵クリーチャー1体ごとに+2/+2を得る。
+55.cardName;メイスマン
+56.cardName;サルガー男爵
+56.cardText;{last_words} - それぞれのプレイヤーはカードを1枚引く。それのコストは{faeria|0}になる。
+57.cardName;知恵
+57.cardText;カードを2枚引く。
+58.cardName;戦いのヤク
+58.cardText;対戦相手のライフが10以下の場合+2/+0を持つ。
+59.cardName;母国の擁護者
+59.cardText;{taunt}\n{gift} - あなたのオーブが前のターンに攻撃されていた場合、<b>母国の擁護者</b>を召喚する。
+60.cardName;女王の暗殺者
+60.cardText;{deathtouch}
+61.cardName;追われた無法者
+61.cardText;{last_words} - 対戦相手はカードを1枚引き、{faeria|2}を得る。
+62.cardName;幸運の狩人
+62.cardText;このクリーチャーがフェアリアを収穫するたび、ランダムな味方クリーチャーに+1/+1を与える。
+63.cardName;辺境のレンジャー
+63.cardText;{gift} - <b>キャンプファイアー</b>を1枚手札に加える。
+64.cardName;帝国の配水管
+64.cardText;全ての井戸を空にする。\n{production} - このストラクチャーに1ダメージを与える。\n{last_words} - 全ての井戸にフェアリアが再び湧く。
+65.cardName;雨林の探検家
+65.cardText;あなたが{blue}{blue}をコントロールしている間+1/+1を、{green}{green}をコントロールしている間+0/+2を得る。
+66.cardName;カルデラの探検家
+66.cardText;あなたが{blue}{blue}をコントロールしている間+1/+1を、{red}{red}をコントロールしている間+2/+0を得る。
+67.cardName;オアシスの探検家
+67.cardText;あなたが{blue}{blue}をコントロールしている間+1/+1を、{yellow}{yellow}をコントロールしている間+1/+1を得る。
+68.cardName;タイガの探検家
+68.cardText;あなたが{red}{red}をコントロールしている間+2/+0を、{green}{green}をコントロールしている間+0/+2を得る。
+69.cardName;サバンナの探検家
+69.cardText;あなたが{yellow}{yellow}をコントロールしている間+1/+1を、{green}{green}をコントロールしている間+0/+2を得る。
+70.cardName;砂岩の探検家
+70.cardText;あなたが{red}{red}をコントロールしている間+2/+0を、{yellow}{yellow}をコントロールしている間+1/+1を得る。
+71.cardName;ルビーフィッシュ
+71.cardText;{aquatic}
+72.cardName;ロアーの泥棒
+72.cardText;{options|+2/+2を得る。|カードを2枚引く。}\n- +2/+2を得る。\n- カードを2枚引く。
+73.cardName;ギャブリアの貯水槽
+73.cardText;{production} - {faeria|3}を得る。このストラクチャーに1ダメージを与える。
+74.cardName;ティラナックス
+75.cardName;ギャブリアの女魔術師
+75.cardText;{gift} - 対象の他のクリーチャー1体の攻撃値をライフと同じにする。
+76.cardName;ギャブリアの海軍中佐
+76.cardText;{aquatic}, {charge|2}\nこのクリーチャーが召喚されてから初めて元のコストが{faeria|7}以上のカードを引いた時、+1/+1と{flying}を得る。
+77.cardName;ギャブリアの刑務所長
+77.cardText;{gift} - 対象のクリーチャー1体は{protection}を得る。
+82.cardName;春のモチ
+82.cardText;{gift} - あなたが次に引いたベースコスト{faeria|7} 以上のカードは、コストが{faeria|3}少なくなる。
+83.cardName;トライトンの戦士
+83.cardText;{jump}
+84.cardName;神秘的な獣
+84.cardText;{gift} - 対戦相手の井戸と隣接したマスに召喚した場合、+2/+0と{jump}を得る。
+85.cardName;鏡合わせの幻想
+85.cardText;{gift} - 対象の他のクリーチャー1体は 5/5<b>鏡の幽霊</b>に変身する。
+86.cardName;トライトンシェフ
+86.cardText;{gift} - <b>トライトンの祝宴</b>を手札に加える。
+87.cardName;カエルニンジャ
+87.cardText;{jump}, {haste}
+88.cardName;カエル変身
+88.cardText;対象のクリーチャー1体を{jump}を持つ2/2の<b>カエル</b>に変身させる。
+93.cardName;ギャブリアの魔術
+93.cardText;対象のクリーチャー1体の攻撃値をライフと同じにする。\nカードを1枚引く。
+94.cardName;アーロラーの創造
+94.cardText;対象のクリーチャー1体のコピーをあなたの手札に加えて、それのコストを{faeria|5}少なくする。
+95.cardName;ダークストーカー
+95.cardText;あなたがこのターン中にイベントをプレイしていた場合、これのコストは{faeria|2}少なくなる。
+96.cardName;魔力回転
+96.cardText;ランダムに選ばれた青のカードを2枚手札に加える。
+97.cardName;ギャブリアの貴族
+97.cardText;{gift} - <b>ルビーフィッシュ</b>を1体召喚する。これは海に召喚することができる。
+102.cardName;アーロラーの弟子
+102.cardText;あなたがイベントをプレイするたび、+1/+1を得る。
+103.cardName;頑丈な亀
+103.cardText;{aquatic}
+104.cardName;最初の波 バエル
+104.cardText;{aquatic}\n{production} - 隣接する土地を全て{blue}に変える。
+105.cardName;ストームスポーン
+105.cardText;{last_words} - {faeria|10}を得る。
+106.cardName;老いた亀の話
+106.cardText;カードを3枚引く。この効果で引かれたクリーチャーのコストは{faeria|2}少なくなる。
+107.cardName;波衝突の巨像
+107.cardText;このゲーム中に対戦相手の井戸からフェアリアを収穫した回数だけ、コストが{faeria|1}少なくなる。（最少{faeria|4}）
+108.cardName;怪夢 オローセイ
+108.cardText;{flying}, {charge|2}\n{gift} - 全ての他の味方クリーチャーはコストが{faeria|2}上のクリーチャーに変身する。
+109.cardName;ウォーターエレメンタル
+109.cardText;{jump}\n{gift} - {blue}を１つ作成する。
+110.cardName;ジェムシルクの妖精
+110.cardText;{flying}\nこのクリーチャーが召喚されてからあなたが初めてイベントを引いた時、+2/+2と{charge|2}を得る。
+111.cardName;沈没した塔
+111.cardText;{activate} - 対象の土地を1回移動させる。このストラクチャーに1ダメージを与える。
+112.cardName;青空のウィスプ
+112.cardText;あなたが対戦相手のフェアリアを収穫するたび、+1/+1を得る。
+113.cardName;トライトンの聖域
+113.cardText;あなたがフェアリアを収穫するたび、このストラクチャーは1ライフを得る。\n{activate} - このストラクチャーを破壊し、ライフと等しい{faeria|1}を得る。
+114.cardName;アーロラーの夢
+114.cardText;手札が9枚になるまでカードを引き、その後手札のカード全てのコストを{faeria|0}にする。
+115.cardName;スノーストームの槍騎兵
+115.cardText;{jump}\nあなたがイベントをプレイするたび、ターン終了時まで+2/+0を得る。（最大+6/+0まで）
+116.cardName;ルドアン
+116.cardText;このクリーチャーが対戦相手の井戸からフェアリアを収穫するたび、ランダムに選ばれた青のカード1枚を手札に加え、それのコストを{faeria|2}少なくする。
+117.cardName;不可思議な卵
+117.cardText;このストラクチャーが召喚されてからあなたがレジェンド以外のクリーチャーを初めて引いた時、このストラクチャーは引いたカードのコピーになる。
+118.cardName;ギャブリアの支配者
+118.cardText;{charge|2}\nこのゲーム中にあなたが元のコストが{faeria|7}以上のカードを2枚以上プレイしている場合、+2/+2を得る。
+119.cardName;トライトンのダイバー
+119.cardText;{aquatic}, {jump}
+120.cardName;推移する潮汐
+120.cardText;{options|土地を1つ移動させる。|カードを1枚引く。}\n- 土地を1つ移動させる。\n- カードを1枚引く。
+121.cardName;潮汐の預言者
+121.cardText;{gift} - このクリーチャーがいる土地を2回まで移動させる。
+122.cardName;謙虚な空想
+122.cardText;対象のクリーチャー1体の攻撃値とライフを半分にする。（小数点以下切り捨て）
+123.cardName;古代の伝令
+123.cardText;{gift} - あなたが次に引いた5ライフ以上のクリーチャーは、コストが{faeria|2}少なくなる。
+124.cardName;トライトンの祝宴
+124.cardText;対象のクリーチャー1体は+1/+1と{jump}を得る。
+125.cardName;神話の作り手　アーロラー
+125.cardText;{gift} - 対象の他の味方クリーチャー1体の攻撃値とライフを6/6に変える。
+126.cardName;波を生み出すもの
+126.cardText;対戦相手のターン終了時に、全てのプレイヤーのフェアリアを{faeria|3}にする。
+127.cardName;失敗した実験
+127.cardText;あなたがこのターンにプレイする次のクリーチャーはコストが{faeria|4}少なくなる。それは即座に破壊される。
+128.cardName;アーロラーの奇術
+128.cardText;攻撃値が2以下のクリーチャー1体を選びそのコントロールを得る。
+129.cardName;カエル召喚
+129.cardText;{jump}を持つ2/2の<b>カエル</b>を2体召喚する。
+130.cardName;ウインドフォール
+130.cardText;{faeria|12}を得る。
+131.cardName;サガミ族の戦士
+131.cardText;{dash|2}
+132.cardName;骨収集家
+132.cardText;隣接するマスでクリーチャーが破壊されるたび、+1/+1を得る。
+133.cardName;サガミ族の魂縛り
+133.cardText;{last_words} - ランダムに選ばれた味方クリーチャー1体は+3/+5を得る。
+134.cardName;サガミ族の木立訪問者
+134.cardText;{gift} - 他の味方クリーチャー1体を、あなたのコントロールする{green}にテレポートさせてもよい。
+135.cardName;古代の獣使い
+135.cardText;あなたがライフ5以上のクリーチャーを召喚するたび、それに+1/+1を与える。
+136.cardName;ガイアの恩寵
+136.cardText;対象のクリーチャー1体は+0/+3を得る。あなたは3ライフを得る。
+137.cardName;ティキ族の長
+137.cardText;{gift} - 対象のクリーチャー1体は{taunt}を得る。
+138.cardName;ブルームスプライト
+138.cardText;{last_words} - ランダムに選ばれた緑のカードを1枚手札に加える。それのコストは{faeria|3}少なくなる。
+139.cardName;古代樹の仙人
+139.cardText;{last_words} - ランダムに選ばれた味方クリーチャー1体は+2/+4を得る。
+140.cardName;ティキ族の世話人
+140.cardText;{gift} - 対象のクリーチャー1体は+2/+2を得る。
+141.cardName;ティキ族の笛吹き
+141.cardText;{gift} - 対象のクリーチャー1体は+0/+4を得る。
+142.cardName;シャーマンの踊り
+142.cardText;対象のクリーチャー1体は+0/+4と{taunt}を得る。
+143.cardName;ティキ族のトーテム
+143.cardText;毎ターンあなたがターンの最初に召喚するクリーチャーは+1/+1を得る。
+144.cardName;憑かれたクマ
+144.cardText;このクリーチャーにダメージが与えられるたび、攻撃値を倍にする。
+149.cardName;オークの苗木
+149.cardText;{last_words} - ランダムに選ばれたあなたの手札の緑のクリーチャー1体は+5/+5を得る。
+150.cardName;サイリアのゴーレム
+151.cardName;種を蒔くもの
+151.cardText;{gift} - ランダムに選ばれた作成可能な隣接するマスに{green}を1つ作成する。
+152.cardName;蔦の壁
+152.cardText;{taunt}\n{last_words} - {green}をランダムに1つ作成する。
+153.cardName;深森のグリズリー
+154.cardName;ティキ族の治療者
+154.cardText;{gift} - あなたは5ライフを得る。
+155.cardName;ルーニンの祭壇
+155.cardText;{gift} - {faeria|2}を得る。\n{last_words} - 対戦相手は{faeria|2}を得る。
+156.cardName;オークの父
+156.cardText;{gift} - あなたがコントロールする{green}の数だけ、+0/+1を得る。
+157.cardName;フェアリアツリー
+157.cardText;{production} - このストラクチャーは1ライフを得る。\nライフが5以上になった時このストラクチャーは破壊され、{faeria|10}を得る。
+158.cardName;生きている柳
+158.cardText;{taunt}
+159.cardName;野生の繁栄
+159.cardText;ランダムに選ばれた作成可能なマスに{green}を1つ作成する。
+168.cardName;太古の巨像
+168.cardText;あなたがコントロールする特殊な土地の数につき、コストが{faeria|1}少なくなる。（最少{faeria|6}）
+169.cardName;野生の霊魂　テスラ
+169.cardText;{flying}, {charge|2}\n{gift} - 対象のクリーチャー1体は+5/+5を得る。
+170.cardName;ウッドエレメンタル
+170.cardText;{taunt}\n{gift} - {green}を1つ作成する。
+171.cardName;フラワーシルクの妖精
+171.cardText;{flying}\nこのクリーチャーが召喚されてからあなたが初めてイベントを引いた時、+1/+4と{taunt}、{charge|2}を得る。
+172.cardName;伸び過ぎた塔
+172.cardText;{activate} - 対象のクリーチャー1体は+1/+1を得る。このストラクチャーに1ダメージを与える。
+173.cardName;枯れないウィスプ
+173.cardText;あなたが{green}を作成するたび、+1/+1を得る。
+174.cardName;再生の精霊
+174.cardText;他の味方クリーチャーが破壊されるたび、ランダムに選ばれたあなたの手札のクリーチャー1体に+1/+1を与える。
+175.cardName;老木の抱擁
+175.cardText;対象のクリーチャー1体は+2/+4を得る。
+176.cardName;ルーニンの使者
+176.cardText;{jump}\nこのクリーチャーがゴッドを攻撃するたび、ランダムに選ばれた緑のクリーチャー1体を手札に加える。それはコストが{faeria|2}少なくなる。
+177.cardName;バーダランの力
+178.cardName;木立の守護者
+178.cardText;{taunt}
+179.cardName;森の世界 タラム
+179.cardText;{taunt}\n{last_words} - 草原と海を全て森にする。
+180.cardName;嘆き悲しむ神像
+180.cardText;あなたにダメージが与えられるたび、{faeria|1}を得る。
+181.cardName;大地創造
+181.cardText;色を{options|あなたの土地を1つ{green}に変える。|あなたの土地を1つ{blue}に変える。|あなたの土地を1つ{red}に変える。|あなたの土地を1つ{yellow}に変える。}する。\nあなたがコントロールしている土地を1つ選択した色に変え、カードを1枚引く。
+182.cardName;野生の復讐者
+182.cardText;{taunt}, {dash|2}\nこのゲーム中にあなたがダメージを受けた回数だけ、+0/+1を得る。
+183.cardName;古代のイノシシ
+183.cardText;{dash|2}\nライフ5以上のクリーチャーをコントロールしている場合、コストは{faeria|2}少なくなる。
+184.cardName;ルーニンの導き
+184.cardText;対象に以下の効果を与える。\n- クリーチャー: +2/+2\n- ゴッド: 5ライフを得る
+185.cardName;空腹の声
+185.cardText;{gift} - 隣接する全ての味方クリーチャーを破壊する。破壊したクリーチャーのライフの合計値分、このクリーチャーは攻撃値とライフを得る。
+186.cardName;実生
+186.cardText;{production} - このクリーチャーのライフが5未満の時、+1/+1を得る。
+187.cardName;万物の声　エラドン
+187.cardText;{last_words} - あなたの手札とデッキの全てのクリーチャーに+1/+1を与える。
+188.cardName;森の肥料
+188.cardText;対象の味方クリーチャーを破壊し、そのライフと等しいフェアリアを得る。カードを1枚引く。
+189.cardName;ルーニンの霊気
+189.cardText;ランダムに選ばれた緑のクリーチャー1体を手札に加える。それに+6/+6を与える。
+190.cardName;慈悲無き者　ルーニン
+190.cardText;{dash|2}\n{last_words} - ターン終了時に手札に戻り、+2/+2を得る。この効果は累積する。
+191.cardName;地下組織の盗賊
+191.cardText;{combat} - {faeria|2}を得る。
+192.cardName;コボルドの大将軍
+192.cardText;{combat} - ランダムに選ばれた味方クリーチャー1体に+3/+0を与える。
+193.cardName;コボルドの戦争獣
+194.cardName;鋼の贈り物
+194.cardText;対象のクリーチャー1体に+3/+0を与える。そのクリーチャーが<b>戦闘</b>を持っている場合、代わりに+3/+3を与える。
+195.cardName;地下組織のボス
+195.cardText;{combat} - {faeria|2}を得る。
+196.cardName;建築家
+196.cardText;{gift} - 対象のストラクチャー1体に2ライフを与える。
+197.cardName;高揚したオーガ
+197.cardText;{gift} - 対戦相手のライフが10以下の場合、+2/+2を得る。
+198.cardName;コボルドの兵舎
+198.cardText;隣接する味方のクリーチャーは+2/+0を持つ。
+199.cardName;嫌悪の種
+199.cardText;このゲーム中にあなたが召喚したライフより攻撃値が高いクリーチャー1体につき、コストが{faeria|1}少なくなる。
+200.cardName;オーガの闘士
+200.cardText;{taunt}
+201.cardName;大胆な交渉人
+201.cardText;{gift} - ランダムに選ばれたあなたの手札1枚のコストを{faeria|7}少なくする。
+202.cardName;血の暴君　サイファー
+202.cardText;このクリーチャーが敵クリーチャーを破壊した時、破壊したクリーチャーの元の攻撃値とライフの数値分、攻撃値とライフを得る。
+203.cardName;野蛮なオーガ
+204.cardName;オーガの王　クログ
+204.cardText;{combat} - ランダムに選ばれたあなたの手札1枚のコストを{faeria|7}少なくする。
+205.cardName;斧を砥ぐもの
+205.cardText;{gift} - 対戦相手の井戸に隣接するマスに召喚した場合、+1/+1を得る。
+206.cardName;巨岩を投げるオーガ
+206.cardText;{ranged_attack}\nこのクリーチャーが攻撃した場合、攻撃した敵に隣接する全ての敵にもダメージを与える。
+211.cardName;シェディムの粗暴者
+211.cardText;{combat} - 対戦相手に2ダメージを与える。
+212.cardName;血を歌うもの
+212.cardText;敵クリーチャーが破壊されるたび、対戦相手に1ダメージ与える。
+213.cardName;サイファーの雑兵
+213.cardText;{last_words} - 対戦相手に2ダメージを与える。
+214.cardName;炎を吐く鬼
+214.cardText;{gift} - 対象の敵1体に1ダメージを与える。
+215.cardName;恐怖の王
+215.cardText;ゴッドにダメージが与えられるたび、それと等しい攻撃値を得る。
+216.cardName;シェディムの邪魔者
+216.cardText;{gift}­ - 他にライフより攻撃値が高いクリーチャーをコントロールしている場合、+2/+2を得る。
+217.cardName;ブラッドオベリスク
+217.cardText;敵クリーチャーが戦闘で破壊されるたび、対戦相手に1ダメージを与え、あなたは{faeria|1}を得る。
+218.cardName;恐ろしい護衛
+218.cardText;{taunt}\n{combat} - 対戦相手に2ダメージを与える。
+223.cardName;爆弾投げ
+223.cardText;{gift} - 対象の隣接するクリーチャーかストラクチャー1体に4ダメージを与える。
+224.cardName;大砲運搬人
+224.cardText;{gift} - 直線状の任意の土地に4/2のメカを発射する。
+225.cardName;フレイムバースト
+225.cardText;対象に3ダメージを与える。
+226.cardName;火炎放射器
+226.cardText;{ranged_attack}\nこのクリーチャーがゴッドを攻撃するたび、全ての敵クリーチャーに1ダメージを与える。
+231.cardName;火山の巨像
+231.cardText;{ranged_attack}\nこのゲーム中にあなたが対戦相手にダメージを与えたターンの数だけ、コストが{faeria|1}少なくなる。（最少{faeria|5}）
+232.cardName;山の心 ガルダン
+233.cardName;ファイアーエレメンタル
+233.cardText;{gift} - {red}を1つ作成する。
+234.cardName;フレイムシルクの妖精
+234.cardText;{flying}\nこのクリーチャーが召喚されてからあなたが初めてイベントを引いた時、+3/+1と{ranged_attack}を得る。
+235.cardName;遺棄された塔
+235.cardText;{activate} - 対象に1ダメージを与える。このストラクチャーに1ダメージを与える。
+236.cardName;ブラッドファイアウィスプ
+236.cardText;敵クリーチャーが破壊されるたび、+2/+1を得る。
+237.cardName;グランドシェイカー
+237.cardText;{gift} - 全ての敵（ゴッドを含む）に1ダメージを与える。
+238.cardName;火をもたらす者
+238.cardText;あなたがライフより攻撃値が高いクリーチャーを召喚するたび、+1/+1を得る。（デッキと手札の中にある間）
+239.cardName;灼熱のサラマンダー
+239.cardText;{gift} - 隣接する敵全てに2ダメージを与える。
+240.cardName;血石の妖精
+240.cardText;あなたが対戦相手の井戸からフェアリアを収穫するたび、対戦相手に1ダメージを与える。
+241.cardName;サイファーの怒り
+241.cardText;対象のクリーチャー1体に2ダメージを与える。そのクリーチャーが破壊された場合、そのコントローラーに2ダメージを与える。
+242.cardName;貪る植物
+242.cardText;{taunt}\n{production} - 隣接する全ての敵クリーチャーに2ダメージを与える。
+243.cardName;ファイアーボム
+243.cardText;対象のクリーチャーかストラクチャー1体に4ダメージ与える。
+244.cardName;ファイアーストーム
+244.cardText;マスを1つ指定する。そのマスと隣接するマスにある全ての敵クリーチャーに3ダメージを与える。
+245.cardName;バトルレイジャー
+245.cardText;このクリーチャーにダメージが与えられるたび、それと等しいダメージを対戦相手に与える。
+246.cardName;使い古されたゴーレム
+246.cardText;対戦相手がクリーチャーを召喚するたび、このクリーチャーに1ダメージを与える。
+247.cardName;オーガの踊り
+247.cardText;ランダムに選ばれたあなたの手札1枚のコストを{faeria|7}少なくする。
+248.cardName;隕石
+248.cardText;マスを1つ指定する。そのマスと隣接するマスにある全ての土地とクリーチャー、ストラクチャーを破壊する。
+249.cardName;赤い悪魔
+249.cardText;{gift} - {faeria|5}を得る。
+250.cardName;原初の炎　イグナス
+250.cardText;パワーホイールから+{faeria|1}を選ぶたび、合計4ダメージを敵へランダムに与える。
+251.cardName;オードリムの僧兵
+251.cardText;{haste}\nこのクリーチャーがゴッドを攻撃するたび、カードを1枚引く。
+252.cardName;カリムの祈願
+252.cardText;カードを1枚引き、{faeria|2}を得る。このターンにゴッドを攻撃した場合のみプレイでき、1ターンに1回しかプレイできない。
+253.cardName;カリムの信奉者
+253.cardText;{haste}\nゴッドに対して+2/+0を得る。
+254.cardName;オードリムの院僧
+254.cardText;{dash|1}\nゴッドに対して+3/+0を得る。
+255.cardName;オードリムの射手
+255.cardText;{ranged_attack}\n味方クリーチャーがゴッドを攻撃するたび、{faeria|1}を得る。
+256.cardName;オードリムの狂信者
+256.cardText;{jump}\n{gift} - 対象の味方クリーチャー1体を移動させてもよい。
+257.cardName;砂漠の竜巻
+257.cardText;対象のクリーチャー1体をあなたがコントロールする{yellow}へテレポートさせる。
+258.cardName;ウインドゲート
+258.cardText;隣接するマスにクリーチャーを召喚することができる。\n{activate} - 移動する。
+259.cardName;邪悪な魂
+259.cardText;{gift} - あなたは対戦相手から2ライフを奪う。
+260.cardName;空の天才 カリム
+260.cardText;{flying}, {charge|2}\nこのクリーチャーがゴッドを攻撃した時、<b>カリムの信奉者</b>を1枚手札に加える。それのコストを{faeria|0}にする。
+261.cardName;畜殺する影
+262.cardName;デスウィッシュグール
+262.cardText;{last_words} - {faeria|2}を得る。
+263.cardName;最後の悪夢
+263.cardText;対象のクリーチャー1体を破壊する。
+264.cardName;霊魂条約
+264.cardText;{faeria|2}を得る。あなたに2ダメージを与える。
+265.cardName;霊魂の祭壇
+265.cardText;{activate} - あなたに2ダメージを与える。6/1 <b>畜殺する影</b>をあなたの手札に加え、それのコストを{faeria|2}にする。
+266.cardName;シェータンデーモン
+266.cardText;{production} - あなたに2ダメージを与える。
+267.cardName;カリムの空の護衛
+267.cardText;{flying}\n味方クリーチャーの隣接するマスに召喚できる。
+268.cardName;カリムのトレーニング
+268.cardText;対象のクリーチャー1体は+1/+0と{flying}、{charge|2}を得る。
+273.cardName;風の兵士
+273.cardText;{haste}, {charge|3}\nこのクリーチャーはターン終了時に破壊される。
+274.cardName;ドラッカーの飛空隊長
+274.cardText;{flying}\nあなたが{flying}を持つクリーチャーを引くたび、それに+1/+1を与える。
+275.cardName;風をまとう使者
+275.cardText;{flying}\n他の飛行を持つクリーチャーをコントロールしている場合、+2/+0を持つ。
+276.cardName;シェータンスカベンジャー
+276.cardText;このターン中にゴッドを攻撃していた場合、コストが{faeria|2}少なくなる。
+277.cardName;デューンドレイク
+277.cardText;{flying}, {charge|2}\nフェアリアを収穫できない。
+278.cardName;風をまとう覇者
+278.cardText;{flying}, {charge|5}\n{gift} - 対象のクリーチャー1体を移動する。
+287.cardName;暴風の巨像
+287.cardText;{dash|3}\nこのゲーム中にあなたがイベントをプレイした回数だけ、コストが{faeria|1}少なくなる。（最少{faeria|5}）
+288.cardName;砂漠の怒り　アザライ
+288.cardText;{flying}, {charge|2}\n{gift} - 全ての敵クリーチャーから攻撃値を2吸収する。
+289.cardName;エアーエレメンタル
+289.cardText;{flying}\n{gift} - {yellow}を１つ作成する。
+290.cardName;サンシルクの妖精
+290.cardText;{flying}\nこのクリーチャーが召喚されてからあなたが初めてイベントを引いた時、+3/+1と{charge|3}を得る。
+291.cardName;神聖な塔
+291.cardText;{activate} - ターン終了時まで対象のクリーチャー1体に{charge|3}を与える。このストラクチャーに1ダメージを与える。
+292.cardName;ウインドウィスプ
+292.cardText;{flying}, {charge|3}\n味方クリーチャーがゴッドを攻撃するたび、+3/+0を得る。
+293.cardName;フラッシュウィンド
+294.cardName;金の鳥小屋
+294.cardText;全ての飛行を持つ味方クリーチャーは+1/+0を持つ。
+295.cardName;盲信した聖戦士
+295.cardText;{charge|2}\n味方クリーチャーがゴッドを攻撃した回数だけ、+1/+1を得る。（デッキと手札の中にある間）
+296.cardName;ケルドランの兵士
+297.cardName;廃棄物の王
+297.cardText;{gift} - 対象の他の味方クリーチャー1体を破壊してもよい。そうした場合{faeria|3}を得る。
+298.cardName;シェータンの暗殺者
+298.cardText;{deathtouch}\n{gift} - 対象の他の味方クリーチャー1体を破壊してもよい。そうした場合、{protection}を得る。
+299.cardName;悪魔の世話人
+299.cardText;{gift} - 対象の他の味方クリーチャー1体を破壊してもよい。そうした場合、その場所に{flying}を持つ5/2の<b>デーモンウィング</b>を召喚する。
+300.cardName;デスウォーカー
+300.cardText;{deathtouch}\nあなたはこのクリーチャーを召喚するために、追加のコストとしてクリーチャー1体を破壊する必要がある。
+301.cardName;忘却への誓い
+301.cardText;対象の味方クリーチャー1体を破壊する。{charge|3}を持つ6/3の<b>忘却のライダー</b>をその場所に召喚する。
+302.cardName;シェータンの怪物
+302.cardText;{charge|2}\n味方クリーチャーが破壊されるたび、そのクリーチャーの攻撃値を吸収する。
+303.cardName;すべてから愛されるもの アイオナ
+303.cardText;{flying}\n攻撃されない。
+304.cardName;デーモンウィング
+304.cardText;{flying}
+305.cardName;忘却のライダー
+305.cardText;{charge|3}
+306.cardName;霊魂吸収
+306.cardText;あなたはクリーチャー1体のライフを2吸収する
+307.cardName;チョーキングサンド
+307.cardText;対象の攻撃値が3以下のクリーチャーを破壊する。
+308.cardName;忘却への扉　ドゥームゲート
+308.cardText;このストラクチャーのライフが13以上になった時、これを破壊し<b>オストレゴス</b>をこの場所に召喚する。\n{activate} - 対象の味方クリーチャー1体を破壊する。カードを1枚引き、このストラクチャーは2ライフを得る。
+309.cardName;暴風の射手
+309.cardText;{ranged_attack}\nあなたがイベントをプレイするたび、ターン終了時まで+1/+0を得る。
+310.cardName;暴風の突撃者
+310.cardText;{charge|2}\nあなたがイベントをプレイするたび、ターン終了時まで+2/+0を得る。（最大+6/+0まで）
+311.cardName;頂点捕食者
+311.cardText;{jump}\n{gift} - 対象のクリーチャー1体の攻撃値とライフと同数の攻撃値とライフを得る。
+312.cardName;氷岩ビヒモス
+312.cardText;{taunt}, {protection}
+313.cardName;双子の魂
+313.cardText;{flying}\n味方クリーチャーに隣接するマスに召喚できる。\n{gift} - <b>双子の魂</b>を召喚する。
+314.cardName;クラックソーンビースト
+314.cardText;{dash|2}\n{gift} - 合計4ダメージをランダムに敵（ゴッドを含む）へ与える。味方クリーチャーはランダムに合計+4/+4を得る。
+315.cardName;ソウルイーター
+315.cardText;{flying}, {charge|3}\nこのゲーム中に破壊された味方クリーチャーの数だけ、+1/+1を得る。（デッキと手札の中にある間）
+316.cardName;惨めな炎の霊
+316.cardText;{flying}, {haste}, {charge|2}\n{combat} - 対戦相手に3ダメージを与える。
+317.cardName;ギャブリアの兵士
+317.cardText;{aquatic}, {charge|3}
+318.cardName;カエル
+318.cardText;{jump}
+319.cardName;地図製作者
+319.cardText;{last_words} - ランダムな場所に{blue}と{green}と{red}と{yellow}をそれぞれ一つ作成する。
+321.cardName;空を飲み込むもの
+321.cardText;{flying}
+322.cardName;怒れる草原のヤク
+322.cardText;{haste}
+323.cardName;探検
+323.cardText;草原を一つ作成して{faeria|2}を得る。
+324.cardName;怒ったヤク
+324.cardText;{haste}
+325.cardName;とげウィスプ
+325.cardText;あなたが{green}を作成するたび、+1/+0を得る。
+328.cardName;忘却の支配　オストレゴス
+328.cardText;{flying}, {haste}, {charge|13}\nフェアリアの井戸を空にする。
+329.cardName;残酷なバンデット
+330.cardName;粗野な馬術家
+331.cardName;知恵
+331.cardText;カードを2枚引く。
+332.cardName;治癒の祈り
+332.cardText;あなたは3ライフを得る。
+333.cardName;俺をプレイできない
+333.cardText;僕をプレイできません。
+334.cardName;大いなる叡智
+334.cardText;カードを5枚を引く。
+335.cardName;レベルスリンガー
+335.cardText;{gift} - 対戦相手に2ダメージを与える。
+336.cardName;霊魂の絆
+336.cardText;{last_words} - このクリーチャーのオーナーのライフを1にする。
+337.cardName;神の炎
+337.cardText;全ての愚かな敵クリーチャーへ10ダメージ与える。
+338.cardName;タイダルフォース
+338.cardText;土地を1つ移動させる。
+339.cardName;突風
+339.cardText;対象の味方クリーチャー1体を移動させる。
+340.cardName;サイランドの戦士
+342.cardName;神聖の炎　コジン
+342.cardText;{divine}\nコジンのマスターであるパイロスは、彼がいる間落ち着いている。\n{production} - コジンは1ライフを失う。
+350.cardName;3つの願い
+350.cardText;あなたは3ライフを得る。対戦相手のデッキの上から3枚のコピーをあなたの手札に加える。それらのコストは{faeria|1}少なくなり、{wild}になる。3つの願いが含まれていた場合、それを飛ばす。
+351.cardName;反逆者
+351.cardText;{flying}, {dash|2}\nフェアリアを収穫できない。
+352.cardName;帝国の飛行船　レディアンス
+352.cardText;{flying}, {dash|3}\nこのクリーチャーのコストはあなたのライフと等しい数値になる。\n{gift} - あなたの手札の枚数だけ、あなたはライフを得る。
+353.cardName;禁忌の図書館
+353.cardText;{production} - カードを1枚引き、{faeria|1}を得る。あなたに2ダメージを与える。
+354.cardName;夢の強奪者
+354.cardText;{dash|3}\n{gift} - 対象のゴッド1体のライフを10にする。
+355.cardName;野生のコダマ
+355.cardText;{jump}\nフェアリアを収穫できない。\nこのクリーチャーがゴッドを攻撃するたび、あなたは5ライフを得る。
+356.cardName;ゴッドハンター
+356.cardText;{jump}\nゴッドにのみ攻撃することが出来る。\nフェアリアを収穫できない。
+357.cardName;血の歌
+357.cardText;ランダムに選ばれたあなたの手札1枚のコストを{faeria|2}少なくする。これを4回行う。あなたに4ダメージを与える。
+358.cardName;地獄の火
+358.cardText;合計9ダメージをランダムに敵(ゴッドを含む)へ与える。
+359.cardName;この世の終わり
+359.cardText;あなたのフェアリアは{faeria|0}.になり、ライフは半分になる（小数切捨て）。全てのクリーチャーとストラクチャーを破壊する。あなたのターンを終了する。
+360.cardName;うるさいブヨ
+360.cardText;{flying}\nフェアリアを収穫できない。\n{last_words} - あなたに2ダメージを与える。ランダムに選ばれたマスにこのクリーチャーを召喚する。
+361.cardName;長い角のヤク
+361.cardText;{last_words} - あなたが次に引くクリーチャーは、このクリーチャーの攻撃値と等しい攻撃値を得る。
+362.cardName;伝説の到来
+362.cardText;あなたのデッキからレジェンドのカードを1枚引く。該当するカードがない場合、ランダムなレジェンドのカードを1枚手札に加え、それを{wild}にする。
+363.cardName;トライトントレーナー
+363.cardText;{jump}\n{gift} - あなたが次に召喚する{jump}を持つクリーチャーに+1/+1を与える。
+364.cardName;真実の声
+364.cardText;{gift} - 対象のクリーチャー1体の攻撃値とライフを元の数値にしてもよい。
+365.cardName;戦争の伝令
+365.cardText;{combat} - あなたが次に場に出す{combat}を持つクリーチャーは+1/+1を得る。
+366.cardName;ミストラルガイド
+366.cardText;{flying}\nこのクリーチャーに隣接して召喚された味方クリーチャーに、{flying}と{dash|2}を与える。
+367.cardName;神聖なる守護者
+367.cardText;{divine}\nあなたが致命的なダメージを受ける時、それを防ぎ、代わりにこのクリーチャーを破壊する。
+368.cardName;皇帝の命令
+368.cardText;対象に以下の効果を与える。\n- クリーチャー: -2/-1\n- ストラクチャー: 3ダメージ\n- ゴッド: 4ライフを得る
+369.cardName;壮大な幻影
+369.cardText;{charge|2}\n{faeria|1}以下のクリーチャーを召喚したとき、このクリーチャーは召喚したクリーチャーの攻撃値とライフと同数の攻撃値とライフを得る。（あなたの手札とデッキの中にある間）
+370.cardName;深森の追跡者
+370.cardText;{gift} - このクリーチャーは対象の敵クリーチャーと戦闘してもよい。
+371.cardName;クログの食事
+371.cardText;あなたのクログのコストは{faeria|7}少なくなる。あなたがクログを召喚した時、このクリーチャーは破壊される。\n{gift} - クログがあなたのデッキの中にあるか、既に破壊されている場合、クログを1枚引く。
+372.cardName;アイオナの微笑み
+372.cardText;あなたのデッキから{flying}を持つクリーチャーを2枚引く。
+400.cardName;パンドラの破片
+401.cardName;パンドラの覚醒！
+401.cardText;パンドラが開いた。両プレイヤーは<b>トレジャー</b>をもらう。
+402.cardName;トレジャーを見つけた！
+402.cardText;両プレイヤーは<b>トレジャー</b>をもらう。カード1枚を引く。
+403.cardName;闇の結晶
+403.cardText;対戦相手から4ライフ吸収し、全ての敵クリーチャーへ3ダメージ与える。カードを2枚引く。
+404.cardName;ヤク呼びの角笛
+404.cardText;{haste}を持つ2/4の<b>怒れる草原のヤク</b>を3体召喚する。
+405.cardName;アストラルウェポン
+405.cardText;{flying}\n{gift} - 隣接する全てのクリーチャーとストラクチャー、土地を破壊する。
+406.cardName;オカリナ
+406.cardText;この後追加のターンを得る。
+407.cardName;ジンのランプ
+407.cardText;{options|ランダムの緑カードを3枚手札に加え、それらのコストを{faeria|3}少なくする|ランダムの青カードを3枚手札に加え、それらのコストを{faeria|3}少なくする|ランダムの赤カードを3枚手札に加え、それらのコストを{faeria|3}少なくする|ランダムの黄カードを3枚手札に加え、それらのコストを{faeria|3}少なくする}\n色を選ぶ。ランダムに選ばれた「あなたが選んだ色のカードを3枚手札に加え、それらのコストを{faeria|3}少なくする。
+408.cardName;ギャブリアの壺
+408.cardText;カードを2枚引く。{faeria|2}を得る。
+409.cardName;アイオナの鏡
+409.cardText;対戦相手が最後にプレイした<b>トレジャー</b>をコピーし、それを2枚手札に加える。
+410.cardName;血石ゴーレム
+410.cardText;{production} - 全ての井戸にフェアリアが再び湧く。\nフェアリアが収穫されるたび、対戦相手に1ダメージを与える。
+411.cardName;パラスの聖杯
+411.cardText;味方クリーチャーはランダムに合計+6/+6を得る。
+412.cardName;エラドンのドラム
+412.cardText;あらゆる場所のあなたのクリーチャーは+2/+2を得る。（場の味方クリーチャー、手札、デッキ）
+413.cardName;クラウドマシーン
+413.cardText;全ての味方クリーチャーは+1/+0と{flying}、{jump}を得る。
+414.cardName;支配の指輪
+414.cardText;{options|対象の土地1つを{green}に変身させ、それのコントロールを得る。|対象の土地1つを{blue}に変身させ、それのコントロールを得る。|対象の土地1つを{red}に変身させ、それのコントロールを得る。|対象の土地1つを{yellow}に変身させ、それのコントロールを得る。}\n対象の土地1つを「あなたが選んだ地形」に変身させ、それのコントロールを得る。
+415.cardName;世界の涙
+415.cardText;対象のこのターン中にゴッドを攻撃したクリーチャー1体を{flying}の10/10<b>Sky Swallower</b>に変身させる。
+416.cardName;クロックワークヤク
+416.cardText;{dash|2}
+417.cardName;イークウィナックスオートマトン
+417.cardText;{gift} - あなたは6ライフを得る。\n{last_words} - 対戦相手に6ダメージを与える。
+418.cardName;マグダーの薔薇
+418.cardText;対象の敵クリーチャー1体のコントロールを得る。
+419.cardName;アーロラーのティーポット
+419.cardText;全ての味方クリーチャーの攻撃値とライフを6/6に変える。
+420.cardName;公平な幸福の石
+420.cardText;ランダムに選ばれた3枚の<b>トレジャー</b>をあなたのデッキにまぜる。
+421.cardName;強さの秘密
+421.cardText;対象のクリーチャー1体に+4/+4と{flying}、{charge|3}を与える。
+422.cardName;虚空の守護者
+422.cardText;{gift} - あなたのデッキを破壊する。（0枚にする）
+423.cardName;クリスタルドラゴン
+423.cardText;{flying}, {charge|3}
+424.cardName;フレイムバーストルビー
+424.cardText;{options|対象のクリーチャーか構造物、またはゴッド1体に3ダメージを与える。|全てのクリーチャー、構造物、ゴッドに3ダメージを与える。}\n- 対象のクリーチャーか構造物、またはゴッド1体に3ダメージを与える。\n-全てのクリーチャー、構造物、ゴッドに3ダメージを与える。
+425.cardName;破壊の鉄槌
+425.cardText;対象のクリーチャーか構造物、またはゴッド1体に5ダメージを与える。<b>破壊の鉄槌</b>を1枚デッキにまぜる。
+426.cardName;アースファイアシェイカー
+426.cardText;{gift} - 全ての敵に2ダメージを与える。破壊された敵1体につき、+2/+2を得る。
+427.cardName;死のデザイア
+427.cardText;対象のクリーチャー1体を破壊する。そのコントローラーはカードを2枚引き、破壊されたクリーチャーのコストと等しい{faeria|1}を得る。
+428.cardName;瓶詰めのライトニング
+428.cardText;対象のクリーチャー1体に6ダメージを与え、それに隣接する全ての敵に3ダメージを与える。
+429.cardName;踊る刃
+429.cardText;{flying}, {jump}\nあなたのターン終了時、隣接する全ての敵クリーチャーと構造物、ゴッドに3ダメージを与える。
+430.cardName;破滅の鎌
+430.cardText;対象のクリーチャー1体を破壊し、その場所に6/1<b>畜殺する影</b>を1体召喚する。
+431.cardName;宝石で飾られたカササギ
+431.cardText;{flying}, {haste}\nこのクリーチャーがゴッドを攻撃するたび、ランダムに選ばれた<b>トレジャー</b>を1枚手札に加える。
+432.cardName;混沌の車輪
+432.cardText;{options|対象の空いている土地2つを破壊する。|対象の攻撃値5以下のクリーチャー1体を破壊する。|あなたは7ライフを得る。}\n- 対象の空いている土地2つを破壊する。\n- 対象の攻撃値5以下のクリーチャー1体を破壊する。\n- あなたは7ライフを得る。
+433.cardName;ウラニのメダリオン
+433.cardText;味方クリーチャー1体を選ぶ。あなたの他のすべてのクリーチャーはそれのコピーになる。
+500.cardName;サルの守護霊
+500.cardText;{taunt}\n{gift} - 次の対戦相手のターン、敵クリーチャーがフェアリアを収穫するたび、+2/+2を得る。
+501.cardName;勇敢な探検家
+501.cardText;{gift} - <b>探検</b>のカードをそれぞれのプレイヤーの手札に加える。
+502.cardName;水晶の花
+502.cardText;{gift} - 対象のクリーチャー1体を{swallow}する。\nあなたのターン終了時、このストラクチャーに1ダメージを与える。
+503.cardName;ヤカパルト
+503.cardText;{ranged_attack}\nこのクリーチャーが攻撃するたび, 2/2の<b>怒ったヤク</b>を対象に隣接するランダムなマスに召喚する。
+504.cardName;優しき鉱夫 ゴキ
+504.cardText;{gift} - 味方ゴッドの手札にランダムな<b>トレジャー</b>を1枚加える。
+505.cardName;紺碧の空鯨 モービィ
+505.cardText;{flying}, {charge|3}\nフェアリアを収穫できない。\n{gift} - クリーチャー1体を{swallow}する。
+506.cardName;バルーンフィッシュ
+506.cardText;{flying}, {dash|2}\n{gift} - 味方のクリーチャー1体を{swallow}する。もしできなければ、これを破壊する。
+507.cardName;カイオス皇帝
+507.cardText;{production} - 全ての敵クリーチャーに-1/-0を与える。攻撃値が0の敵クリーチャーを全て破壊する。
+508.cardName;楽園の種
+508.cardText;{flying}, {dash|1}\n{gift} - {options|このクリーチャーが海の上で収穫したとき、これを破壊し{green}を作成する。|このクリーチャーが海の上で収穫したとき、これを破壊し{blue}を作成する。|このクリーチャーが海の上で収穫したとき、これを破壊し{red}を作成する。|このクリーチャーが海の上で収穫したとき、これを破壊し{yellow}を作成する。}\nこのクリーチャーが海の上で収穫したとき、これを破壊し選択した色の土地を作成する。\n
+509.cardName;永遠の命の樹
+509.cardText;{production} - あなたは7ライフを得る。\nランダムに選ばれたあなたの手札のクリーチャー1体に+7/+7を与える。
+510.cardName;ラコア族の贈り物
+510.cardText;対象のクリーチャー1体に、味方クリーチャー1体につき+1/+1を与える。
+511.cardName;好奇心旺盛なバイオマンサー
+511.cardText;{gift} - 敵クリーチャー1体につき、青以外のクリーチャーをデッキからドローする。
+512.cardName;不思議の商人 フーゴロ
+512.cardText;{jump}\n{gift} - {options|<b>ギャブリアの壺</b>を引く。|<b>クリスタルドラゴン</b>を引く。|<b>ウラニのメダリオン</b>を引く。}\n- <b>ギャブリアの壺</b>を引く。\n- <b>クリスタルドラゴン</b>を引く。\n- <b>ウラニのメダリオン</b>を引く。
+513.cardName;飛び跳ねるフグ
+513.cardText;{jump}\n{gift} - あなたが特殊な土地を8個以上コントロールしている場合、+3/+3を得る。
+514.cardName;グラップリングフック
+514.cardText;クリーチャー1体にこのターン{ranged_attack}を与える。攻撃後、攻撃した対象に隣接する土地にこのクリーチャーを移動させてもよい。
+515.cardName;ラコア族のお祭り好き
+515.cardText;{last_words} - このクリーチャーの攻撃値に等しい{faeria|1}を得る。
+516.cardName;空賊 CAP-10
+516.cardText;{combat} - デッキから<b>鋼の贈り物</b>を1枚引く。もし無かった場合、1枚をデッキにシャッフルする。
+517.cardName;フラッシュサーモン
+517.cardText;{divine}, {flying}, {haste}, {charge|2}\nフェアリアを収穫できない。\nあなたのターン終了時、このクリーチャーを破壊しカードを1枚引く。
+518.cardName;マンタライダー
+518.cardText;{flying}\n{last_words} - {flying} と{charge|2} を持つ2/2の<b>マンタ</b>をこの場所に召喚する。
+519.cardName;不滅の光 イスタヌ
+519.cardText;{flying}, {charge|3}\n{last_words} - ランダムな味方クリーチャー1体は新しい<b>イスタヌ</b>になる。
+520.cardName;変移するタコ
+520.cardText;2回{options|+2/+0を得る。|+0/+2を得る。|{jump}を得る。|{taunt}を得る。}:\n- +2/+0を得る\n- +0/+2を得る\n- {jump}を得る\n- {taunt}を得る。
+521.cardName;フロッグトサー
+521.cardText;{gift} - このクリーチャーは対象の敵クリーチャーと戦闘する。対象に隣接するランダムのマスに{jump}を持つ2/2の<b>カエル</b>を召喚する。
+522.cardName;楽園への通り道
+522.cardText;{options|{green}を1つ作成する。|{blue}を1つ作成する。|{red}を1つ作成する。|{yellow}を1つ作成する。} - 選択した特殊な土地を1つ作成する。\nこのターンに初めて作成した土地に召喚したクリーチャーに+2/+0を与える。
+523.cardName;エメラルドのサラマンダー
+523.cardText;{gift} - 隣接する敵クリーチャー全てに2ダメージを与える。 隣接する味方クリーチャー全てに+2/+2を与える。
+524.cardName;天空のカジキ
+524.cardText;{flying}, {taunt}, {dash|1}
+525.cardName;群泳するキンギョ
+525.cardText;{flying}\n味方クリーチャーの隣接するマスに召喚できる。\n{gift} - このゲームで破壊された味方の<b>群泳するキンギョ</b>をその数だけ召喚する。
+526.cardName;夢の護り手
+526.cardText;{taunt}\n{gift} - あなたの全ての手札のカードのコストを {faeria|1}下げ、デッキにシャッフルする。その後、同じ枚数だけカードを引く。
+527.cardName;宝石殻の亀
+527.cardText;{gift} - カードを1枚引き、そのコピーを手札に加える。それらのカードのコストは{faeria|2}少なくなる。
+528.cardName;マンタの群れ
+528.cardText;このカードを引く時、それをコピーする。\n{flying}と{charge|2}を持つ2/2の<b>マンタ</b>を召喚する。
+529.cardName;オーバースカイの牽引船
+529.cardText;{flying}, {dash|1}\nこのクリーチャーが土地から離れて移動するとき、その土地も一緒に移動する。
+530.cardName;ラコア族の族長
+530.cardText;{dash|1}\n隣接する味方クリーチャーは+1/+0を得る。
+531.cardName;スカイアネモネ
+531.cardText;{flying}, {taunt}\nどこにでも召喚できる。
+532.cardName;オーバースカイの祈祷師 ウラニ
+532.cardText;{gift} - あなたのデッキから緑のカード、青のカード、赤のカード、黄色のカードを1枚ずつ引く。
+549.cardName;現実破壊装置
+549.cardText;{flying}\n{production} - 2ライフを得る。\nこのストラクチャーのライフが10以上になった時、<b>ゲームをクラッシュする</b>。
+550.cardName;水晶の花
+550.cardText;中に閉じ込められている。
+551.cardName;水晶の花
+551.cardText;中に閉じ込められている。
+552.cardName;水晶の花
+552.cardText;中に閉じ込められている。
+553.cardName;飛行マンタ
+553.cardText;{flying}, {charge|2}
+555.cardName;怒ったヤク
+556.cardName;勝者は君だ！
+556.cardText;あなたの対戦相手に100ダメージを与える。
+557.cardName;偉大なる皇帝 カイオス
+557.cardText;{production} - 全ての敵クリーチャーに-1/-0を与える。攻撃値が0の敵クリーチャーを全て破壊する。
+601.cardName;悲しみの貴婦人 ラヤ
+601.cardText;{deathtouch}\n{last_words} - <b>キラキラ光る像</b>をこの場所に召喚する。
+602.cardName;帝国のドレイクライダー
+602.cardText;{flying}, {charge|2}\n{corrupt} - +2/+2を得る。
+603.cardName;気が狂ったサル
+603.cardText;{gift} - 全ての井戸を空にする。空にした井戸の数だけ+1/+1を得る。
+604.cardName;帝国の機動兵
+604.cardText;{corrupt} - このクリーチャーがいる土地のコントロールを得る。
+605.cardName;失意の探検家
+605.cardText;{corrupt} - カードを1枚引き、{faeria|1}を得る。
+606.cardName;邪剣の騎士
+606.cardText;このクリーチャーにダメージが与えられるたび、あなたはそれと等しいダメージを受ける。
+607.cardName;シャドウシルクの妖精
+607.cardText;{flying}, {charge|2}, {protection}\n{corrupt} - あなたのデッキからイベントを2枚引く。
+608.cardName;狂乱の超越精神体 カイオス
+608.cardText;{divine}\nこのクリーチャーの攻撃力は常にライフと等しい数値となる。\n{corrupt} - あらゆるものから1ライフを吸収する。
+609.cardName;魚の雨
+609.cardText;ランダムに選ばれた場所に<b>ルビーフィッシュ</b>を6体召喚する。それらのうち土地に乗ったものは隣接する全ての敵に1ダメージを与える。
+610.cardName;空飛ぶピラニア
+610.cardText;{flying}\n隣接するマスでクリーチャーが破壊された時、{deathtouch}と{jump}を得る。
+611.cardName;怪物ヒドラ
+611.cardText;{corrupt} - 隣接する全ての土地に{haste}を持つ2/1の<b>ヒドラヘッド</b>を召喚する。それらはターン終了時に破壊される。
+612.cardName;呪われた柳
+612.cardText;{taunt}
+613.cardName;腐りゆくイノシシ
+613.cardText;{dash|1}\n{corrupt} - あなたのデッキからライフ5以上のクリーチャーを1枚引き、それに+2/+2を与える。
+614.cardName;ネコマタ
+614.cardText;{taunt}\n{corrupt} - このクリーチャーの攻撃値を倍にする。
+615.cardName;邪悪なる鍛冶師の王 バルデュリオン
+615.cardText;{protection}\n{corrupt} - <b>破壊の鉄槌</b>1枚を手札に加える。
+616.cardName;スパイトスプライト
+616.cardText;{last_words} - あなたに2ダメージを与える。
+617.cardName;大破壊
+617.cardText;対象の敵クリーチャーかストラクチャー1体に9ダメージを与える。
+618.cardName;デモニックサーモン
+618.cardText;{haste}, {flying}, {charge|2}\nフェアリアを収穫できない。\nこのクリーチャーがゴッドを攻撃するたび、+1/+1を得る。
+619.cardName;魂の略奪
+619.cardText;対象の敵クリーチャー1体から1ライフを吸収する。そのクリーチャーが破壊された場合、それをコピーする。それは{wild}になる。
+620.cardName;ソレム
+620.cardText;{flying}, {divine}\n{corrupt} - 対象の井戸を1つ破壊する。
+622.cardName;母なるヤク
+622.cardText;{gift} - このクリーチャーに隣接するマスに{taunt}と{flying}を持つ4/4の<b>ヤクの用心棒</b>を2体召喚する。\nこのゲーム中に破壊された味方のヤクの数だけ、コストが{faeria|1}少なくなる。
+623.cardName;ラコア族の王者
+623.cardText;{dash|2}\n{gift} - 他の味方のラコア族の数だけ+1/+1を得る。
+624.cardName;孤独なフグ
+624.cardText;他のビーストをコントロールしている間、+2/+0と{jump}を得る。
+625.cardName;イカれたサカナ ラパラー
+625.cardText;{aquatic}\n{gift} - <b>ルビーフィッシュ</b>で対戦相手の手札をいっぱいにしてやろう。バーカ！
+626.cardName;サファイアヤク
+626.cardText;味方のヤクが対戦相手の井戸からフェアリアを回収したとき、それに+2/+2を与える。
+627.cardName;追い討ち
+627.cardText;対象の味方のビースト1体に+2/+0を与える。その後、そのクリーチャーは敵クリーチャーと戦闘する。
+628.cardName;エメラルドヤク
+628.cardText;{gift} - {taunt}と<b>フェアリアを収穫できない</b>を持つ1/1の<b>ベイビーヤク</b>1体を、あなたがコントロールしている草原に召喚する。
+629.cardName;永遠の命の樹霊 マジナタ
+629.cardText;{protection}, {divine}\n{gift} - 対象の味方クリーチャー1体に嚥下される。そのクリーチャーに+5/+5と{flying}、{charge|2}を与える。
+630.cardName;溶岩波のサンショウウオ
+640.cardName;ラコアコプター
+640.cardText;{flying}, {dash|1}\n{gift} - 隣接する全ての敵クリーチャーに2ダメージを与える。
+641.cardName;ルビーヤク
+641.cardText;味方のヤクがダメージを受けるたび、対戦相手に1ダメージを与える。
+642.cardName;ゴーストドラゴン
+642.cardText;{flying}, {charge|2}, {protection}
+643.cardName;ミノカサゴ
+643.cardText;{flying}, {deathtouch}
+644.cardName;トパーズヤク
+644.cardText;味方のヤクの隣の土地に召喚することができる。その場合、このクリーチャーは{haste}を得る。
+645.cardName;ラコア族の戦闘機関
+645.cardText;{charge|2}\n{gift} - 味方のラコア族を{swallow}してもよい。そうした場合、+2/+0を得る。
+646.cardName;ラコア族の砲撃手
+646.cardText;{gift} - 対象の他の味方のラコア族1体を破壊してもよい。そうした場合、敵クリーチャー1体に3ダメージを与える。
+647.cardName;ラコア族の奇術師
+647.cardText;{gift} - あなたの次のターン開始時まで、他の味方のラコア族1体を{flying}と{charge|2}を持つ4/4の<b>デューンドレイク</b>に変身させてもよい。
+648.cardName;ラコア族の盾兵
+648.cardText;{last_words} - 1/1のラコア族をこの場所に召喚する。
+649.cardName;ラコア族の戦隊長
+649.cardText;{combat} - ランダムに選ばれた手札のラコア族1体に+1/+1を与える。
+650.cardName;ラコア族の募兵官
+650.cardText;{gift} - 1/1のラコア族1枚をあなたの手札に加え、それのコストを{faeria|0}にする。
+653.cardName;呪いの塔
+653.cardText;{activate} - 対象のクリーチャー1体に-1/-1を与える。このストラクチャーに1ダメージを与える。
+654.cardName;空の捕食者 ショーズン
+654.cardText;{flying}, {charge|3}\nこのクリーチャーが初めて戦闘によって敵クリーチャーを破壊する時、代わりにそのクリーチャーを嚥下しコントロールを得る。
+655.cardName;帝国の前哨
+655.cardText;全ての味方のニュートラルのクリーチャーは+1/+0を持つ。
+656.cardName;破壊的な斉射
+656.cardText;対象のクリーチャー1体に2ダメージを与える。それが{flying}を持っている場合、代わりに5ダメージを与える。
+658.cardName;オーバースカイの厄災 レディアンス
+658.cardText;{flying}\n{gift} - 次のターンの間、敵クリーチャーは移動することができない。
+659.cardName;爆発するカバ
+659.cardText;{combat} - 隣接する全ての敵に2ダメージを与える。
+660.cardName;ビーストトレーナー
+660.cardText;{gift} - ランダムに選ばれたあなたの手札のビースト1体のコストを{faeria|5}少なくする。
+661.cardName;コボルトの密輸人
+661.cardText;{corrupt} - ランダムに選ばれた隣接する土地に4/3の<b>サイファーの雑兵</b>1体を召喚する。
+662.cardName;イグナスの怒り
+662.cardText;合計{dynamic_number|0|0}ダメージを敵へランダムに与える。\nこのゲーム中にあなたがパワーホイールから+{faeria|1}を選ぶたび、与えるダメージを1増やす。（デッキと手札の中にある間）
+663.cardName;イグナスの儀式執行者
+663.cardText;{gift} - あなたのパワーホイールを再び使用できるようにする。\n{corrupt} - あなたのパワーホイールを再び使用できるようにする。
+664.cardName;炎を焼べるもの
+664.cardText;あなたがパワーホイールから+{faeria|1}を選ぶたび、+1/+1を得る。
+665.cardName;荒れ果て空の害獣
+665.cardText;{gift} - このクリーチャーは対戦相手と戦闘する。
+666.cardName;卑しいフクレアブ
+666.cardText;{flying}\n{corrupt} - <b>卑しいフクレアブ</b>1枚をあなたの手札に加える。
+667.cardName;邪より生まれし霊
+667.cardText;{charge|2}\n{production} - 対戦相手の手札が4枚以上の時、+1/+1を得る。
+668.cardName;塵をもたらす死霊
+668.cardText;{corrupt} - 対戦相手の手札のカードそれぞれのコストを{faeria|1}増やす。
+669.cardName;荒れ果て空のハゲタカ
+669.cardText;{flying}\n{gift} - 対象のライフ1のクリーチャー1体を破壊し、その攻撃値を吸収する。
+671.cardName;カミナリウナギ
+671.cardText;{flying}\n{gift} - 対象のクリーチャー1体に2ダメージを与えてもよい。そのクリーチャーが海の上にいる場合、代わりに4ダメージを与える。
+676.cardName;放浪するヤク
+676.cardText;{gift} - 草原を1つ作成する。\n{dash|1}
+677.cardName;ヤク飼いの少女
+677.cardText;{gift} - ターン終了時まで味方のヤク2体に+2/+0と{charge|2}を与える。
+678.cardName;オーバースカイのヤク
+678.cardText;{flying}\nあなたが草原を6つコントロールしている間、+2/+2を得る。
+679.cardName;フクレカエル
+679.cardText;{jump}\n{jump}を持つ2/2の対戦相手の<b>カエル</b>を嚥下した状態で召喚される。
+680.cardName;姿見の幻影
+680.cardText;{gift} - 対象のクリーチャー1体を5/3の<b>影幻の見姿</b>に変身させる。
+685.cardName;サナギ
+685.cardText;{gift} - 対象の味方のクリーチャー1体を{swallow}する。\n{production} - 嚥下されたクリーチャーは+1/+1を得る。\n{activate} - このストラクチャーを破壊する。
+686.cardName;バーダランの密偵
+686.cardText;{last_words} - あなたの手札の全てのクリーチャーに+1/+1を与える。
+692.cardName;弱きものの救世主
+692.cardText;{gift} - 攻撃値が1の他の味方クリーチャー1体に+2/+2と{divine}を与える。
+694.cardName;ヒドラヘッド
+694.cardText;{haste}\nターン終了時に破壊される。
+695.cardName;ヤクの用心棒
+695.cardText;{flying}, {taunt}
+696.cardName;ベイビーヤク
+696.cardText;{taunt}\nフェアリアを収穫できない。
+697.cardName;デューンドレイク
+697.cardText;{charge|2}, {flying}\nフェアリアを収穫できない。
+698.cardName;影幻の見姿
+698.cardText;{gift} - 対象のクリーチャー1体を3/5の<b>姿見の幻影</b>に変身させる。
+699.cardName;ラコア族
+9991.cardName;速攻を与える
+9992.cardName;フェアリアをください
+9992.cardText;{faeria|100}を得てランダムな場所に池と森と山と砂漠をそれぞれ一つ作成する。
+9993.cardName;死ね！
+9993.cardText;100ダメージを与える。
+9994.cardName;山
+9995.cardName;池
+9996.cardName;砂漠
+9997.cardName;森
+9998.cardName;草原
+9999.cardName;オーブ
+682.cardName;潮汐の王
+682.cardText;{jump}\n味方のトライトンに隣接する土地に召喚することができる。その場合、このクリーチャーは+1/+1を得る。
+670.cardName;霊を生む骸
+670.cardText;あなたのターン終了時、対戦相手の手札が4枚以上ならば、カードを1枚引き、対戦相手から1ライフを吸収する。
+675.cardName;ラマコーン
+675.cardText;{combat} - それぞれのプレイヤーはカードを1枚引き、2ライフを得る。
+681.cardName;トライトンの戦術家
+681.cardText;{jump}\n{gift} - 隣接する味方のトライトンの数だけ+1/+0を得る。
+683.cardName;動き回るごちそう
+683.cardText;{dash|1}\nあなたのターン終了時、隣接するランダムな味方クリーチャーに嚥下される。そのクリーチャーは+1/+1を得る。
+688.cardName;開花のコダマ
+688.cardText;{gift} - {green} {green} {green}を作成する。
+689.cardName;そよ風のキツネ
+689.cardText;このクリーチャーが{green}に移動するたび、このクリーチャーをあなたがコントロールする{green}にテレポートさせてもよい。
+691.cardName;勝利の祝典
+691.cardText;このゲーム中、それぞれのプレイヤーはターン毎に{faeria|1}を追加で得る。
+9989.cardName;土地のコントロールを得る
+9990.cardName;コントロールを得る
+657.cardText;{flying}\nあなたの手札のカードを{wild}として扱う。\n{gift} - ランダムに選ばれたガガナーの船員1枚をあなたの手札に加える。それのコストを{faeria|0}にする。
+657.cardName;虹の鳥舟 ガガナー
+652.cardText;あなたがコントロールするクリーチャーが{corrupt}を発動するたび、あなたは対戦相手から2ライフを吸収する。
+652.cardName;隷属する聖職者
+9988.cardText;対象のクリーチャー1体に{haste}を与える。
+9988.cardName;襲撃！
+9987.cardText;{activate} - カードを1枚引く。
+9987.cardName;知恵の塔
+690.cardText;このクリーチャーが{green}に移動するたび、このクリーチャーをあなたがコントロールする{green}にテレポートさせてもよい。そうした場合、これは+1/+1を得る。
+690.cardName;ブライトフォックス族の長 ドゥオーディア
+687.cardText;{gift} - あなたが次に引くクリーチャーに+2/+4を与える。
+687.cardName;永遠の命の聖職者
+684.cardText;このクリーチャーはプレイしたターンでもフェアリアを収穫できる。\n{gift} - あなたはこのクリーチャーがいる土地を移動させてもよい。
+684.cardName;珊瑚のオタマジャクシ
+674.cardText;{gift} - このクリーチャーがあなたの唯一のクリーチャーである場合、これは{taunt}と{protection}、{divine}を得る。
+674.cardName;オーバースカイの守護者 ウラニ
+673.cardText;{gift} - あなたのデッキにクリーチャーが残っていない場合、<b>帝国の飛行船 レディアンス</b>とランダムなニュートラルのクリーチャー10体をあなたのデッキに加え、シャッフルする。それらは+2/+2を得る。
+673.cardName;レディアンスの船長 バノン
+9986.cardText;手札を捨てる
+9986.cardName;AIの手札を見る
+800.cardText;カードを1枚引く。\n<b>宝の地図</b>を3枚プレイするたび、代わりに<b>ガガナーの宝物</b>を1枚{discover}する。\nプレイした宝の地図: {dynamic_number|0|0}枚。
+800.cardName;宝の地図
+749.cardText;ビーッ！ブーッ！
+749.cardName;メカ
+746.cardText;ビーッ！ブーッ！
+746.cardName;メカ
+745.cardText;{taunt}, {divine}
+745.cardName;守護者
+744.cardText;{taunt}, {divine}
+744.cardName;守護者
+743.cardText;{taunt}と{divine}を持つ5/5の守護者を2体召喚する。
+743.cardName;守護者の鍵
+742.cardText;クリーチャーを1体{discover}する。それは+6/+6を得て{wild}になる。
+742.cardName;巨人の鍵
+741.cardText;{options|緑のクリーチャーを1体{discover}する。|青のクリーチャーを1体{discover}する。|赤のクリーチャーを1体{discover}する。|黄色のクリーチャーを1体{discover}する。}\n色を選択する。選択した色のクリーチャーを{discover}する。それを{wild}にし、コストを{faeria|3}少なくする。
+741.cardName;元素の鍵
+740.cardText;{divine},{flying},{dash|5}\n味方クリーチャーに隣接するマスにのみ召喚できる。
+740.cardName;守護者の槍
+739.cardText;あなたの手札のカードのコストは{faeria|1}少なくなる。
+739.cardName;忠順の像
+738.cardText;{flying}, {dash|5}\n{gift} - あなたの手札を<b>フラッシュウィンド</b>でいっぱいにする。それらを{wild}にする。
+738.cardName;魔法の絨毯
+737.cardText;友好的なクリーチャー{gift}-{swallow}。\n{production}-嚥下されたクリーチャーは＋４/＋４を得る。\n{activate}.を破壊する。
+737.cardName;クリスタリス
+736.cardText;{charge|3}, {flying}\n{gift} - あなたのデッキの<b>宝の地図</b>を全て破壊し、破壊した数だけこのクリーチャーは+1/+1を得る。\n破壊した宝の地図: {dynamic_number|0|0}枚。
+736.cardName;古代のガーゴイル
+735.cardText;{charge|5}, {flying}\n{last_words} - 隣接する全ての敵に5ダメージを与える。
+735.cardName;サイリアの球体
+734.cardText;{jump}\nこのクリーチャーが移動した土地に隣接する全ての敵に3ダメージを与える。
+734.cardName;一等航海士 ソロッコ
+733.cardText;{flying}, {jump}
+733.cardName;グライドホッパー
+732.cardText;４かそれ以上の土地コスト {discover} カード。それを {wild}.にする。
+732.cardName;サイリアの探検隊
+731.cardText;{flying}, {dash|2}
+731.cardName;エアボット
+730.cardText;コスト{faeria|7}以上のレジェンド以外のカードを2枚{discover}する。それらを{wild}にする。
+730.cardName;水晶のスパイス
+729.cardText;対象のクリーチャー1体に+3/+3と{charge|3}、{flying}を与える。このターンに破壊された味方クリーチャーの数だけ、コストを{faeria|3}少なくする。
+729.cardName;魂のスパイス
+728.cardText;あなたの対戦相手のデッキからイベントを{discover}する。それを{wild}にし、コストを{faeria|2}少なくする。
+728.cardName;物々交換
+727.cardText;{flying}\n{gift} - あなたのデッキの一番上に<b>宝の地図</b>を1枚加える。\n{last_words} - あなたの手札にこのクリーチャーを戻す。
+727.cardName;ガガナーの霊魂 アリアナ
+726.cardText;{gift} - <b>宝の地図</b>を1枚デッキに加え、シャッフルする。
+726.cardName;アマイの地図売人
+724.cardText;レジェンダリーでないコスト {faeria|5} の{flying}\n{gift}-{discover} カード。あなたが引かなかったカードを２枚相手の手札に加える。それら全てを.{wild}.にする。
+724.cardName;アマイの商人
+723.cardText;{dash|1}\nあなたのターン終了時、このクリーチャーが対戦相手の土地にいる場合、あなたのデッキに<b>宝の地図</b>を2枚加え、シャッフルする。
+723.cardName;ケルドランの冒険者
+722.cardText;あなたのターン終了時、他の全ての味方のメカに+1/+1を与え、このクリーチャーは1ダメージを受ける。
+722.cardName;屑鉄の集合体 ジャンクフィート
+721.cardText;全ての味方のメカは隣接する敵に2ダメージを与える。
+721.cardName;起爆
+720.cardText;{combat} - 隣接するランダムなマスに4/2のメカ1体を召喚する。
+720.cardName;分裂するもの
+719.cardText;{production} - +3/+0を得る。
+719.cardName;不安定な溶鉄器
+717.cardText;{dash|1}\nあなたのターン終了時、このクリーチャーが対戦相手の土地にいる場合、あなたの手札1枚のコストを{faeria|1}少なくする。
+717.cardName;オーガの冒険者
+715.cardText;あなたはこのクリーチャーを緑以外の味方クリーチャーに隣接するマスにプレイしてもよい。
+715.cardName;異国のペット
+714.cardText;{taunt} を持つクリーチャーを1体{discover}する。それは{wild}になり、+0/+3を得る。
+714.cardName;避難
+713.cardText;{jump}\n隣接する味方のビーストは+2/+0を得る。
+713.cardName;獣を愛するコダマ
+712.cardText;{gift} - ビーストを1体{discover}する。それを{wild}にする。
+712.cardName;ティキ族の動物学者
+711.cardText;{dash|1}\nあなたのターン終了時、このクリーチャーが対戦相手の土地にいる場合、隣接する全ての味方クリーチャーに+1/+1を与える。
+711.cardName;ティキ族の冒険者
+710.cardText;{jump}\nあなたが宝物を発見するたび、このクリーチャーは+3/+3を得る。
+710.cardName;ガガナーの船長 フーゴロ
+709.cardText;{jump}\n{gift} - カードを3枚引く。その中に<b>宝の地図</b>が含まれていた場合、このクリーチャーは+2/+2を得る。
+709.cardName;トライトンの占星家
+707.cardText;{gift} - あなたのデッキに<b>宝の地図</b>を1枚加えシャッフルし、カードを1枚引く。
+707.cardName;星殻の護り手
+706.cardText;あなたのデッキに<b>宝の地図</b>を2枚加えシャッフルし、カードを1枚引く。
+706.cardName;メッセージインアボトル
+705.cardText;{jump}\n{gift} - このクリーチャーを移動させる。\nあなたのターン終了時、このクリーチャーが対戦相手の土地にいる場合、カードを1枚引く。
+705.cardName;トライトンの冒険者
+704.cardText;{flying}\n{gift} - あなたの手札のカード1枚につき、あなたのデッキに<b>宝の地図</b>を1枚加える。あなたの手札をデッキに戻してシャッフルし、同じ枚数だけカードを引く。
+704.cardName;トレジャーシーカー ガガナー
+703.cardText;{flying}, {charge|2}\n{gift} - あなたのデッキのカードすべてがデッキの中に同じ名前のカードをもたない場合、{haste}と{protection}を得る。\n{last_words} - このクリーチャーをデッキに加え、シャッフルする。
+703.cardName;水晶の竜 チェレステ
+702.cardText;隣接する敵ごとに友好的なクリーチャーを+1/+1与える。
+702.cardName;シャーラーの閃き
+701.cardText;あなたのターン終了時、あなたのデッキから<b>宝の地図</b>を見つけ出しデッキの一番上に置く。あなたのデッキに宝の地図がない場合、代わりに宝の地図を1枚デッキに加え、シャッフルする。
+701.cardName;ガガナーの羅針儀
+9985.cardText;全ての全画面アニメーションを再生する
+9985.cardName;全て活性化する

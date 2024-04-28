@@ -1,0 +1,1006 @@
+1.cardName;Bauernjunge
+2.cardName;Hügelschütze
+2.cardText;{ranged_attack}
+3.cardName;Krieger aus Syland
+4.cardName;Stallmeister aus Syland
+4.cardText;{gift} - Gib einer verbündeten Kreatur für diesen Zug {charge|3}.
+9.cardName;Ingenieur des Imperiums
+9.cardText;{gift} - Löse alle verbündeten Produktion-Effekte aus.
+10.cardName;Stellung halten!
+10.cardText;Nimm zwei 2/3 <b>Imperiale Wächter</b> mit {taunt} auf deine Hand.
+11.cardName;Wandelnde Festung
+12.cardName;Dampfschmiede
+12.cardText;{production} - Gib einer zufälligen Verbündeten Kreatur +1/+0.
+13.cardName;Steuereintreiber
+13.cardText;{combat} – Erhalte {faeria|1}.
+14.cardName;Heilender Gesang
+14.cardText;Ziehe eine Karte und erhalte 5 Leben.
+15.cardName;Schutzkuppel
+15.cardText;Gewährt einer Kreatur {protection}.
+16.cardName;Imperialer Wächter
+16.cardText;{taunt}\n{last_words} - Erhalte 2 Leben.
+22.cardName;Freiheitskämpfer
+22.cardText;{haste}
+23.cardName;Lagerfeuer
+23.cardText;Gib einer Kreatur +1/+1.
+24.cardName;Sturzflug
+24.cardText;Füge einer Kreatur 1 Schaden zu.
+29.cardName;Schwertmeister
+29.cardText;Hat +2/+0 während deines Zuges (während in deiner Hand oder im Spiel).
+30.cardName;Prärie-Yak
+32.cardName;Yak-Angriff
+32.cardText;Beschwöre drei 2/2 <b>Wilde Yaks</b> mit {haste}.
+33.cardName;Bestrafung
+33.cardText;Füge einer Kreatur 2 Schaden zu. Wenn es eine neutrale Kreatur ist, füge ihr stattdessen 5 Schaden zu.
+34.cardName;Günstling der Königin
+34.cardText;{protection}
+35.cardName;Ehrenwache der Königin
+35.cardText;{taunt}\n{combat} – Erhalte {faeria|1}.
+36.cardName;Magda, Königin von Meroval
+36.cardText;Deine Legenden kosten {faeria|1} weniger.\n{production} - Nimm eine zufällige Legende auf die Hand. Sie wird {wild}.
+37.cardName;Hofnarr
+37.cardText;{taunt}\n{gift} - Gib einer zufälligen Kreatur in deiner Hand +2/+2.
+38.cardName;Ehrenwache des Königs
+38.cardText;{taunt}\n{combat} – Ziehe eine Karte.
+39.cardName;Held der Stunde
+39.cardText;Das erste Mal, wenn diese Kreatur kämpft und überlebt, erhält sie +3/+3 und {charge|2}.
+40.cardName;Magnus, König von Meroval
+40.cardText;{charge|3}\n{combat} – Ziehe eine Karte. Diese kostet {faeria|0}.
+41.cardName;Seuchenbringer
+41.cardText;{last_words} – Füge ALLEN Kreaturen 2 Schaden zu.
+42.cardName;Belagerungsmaschine
+42.cardText;{ranged_attack}\nNachdem diese Kreatur angegriffen hat, erhält sie +1/+0.
+43.cardName;Sharra, die Drachentöterin
+43.cardText;Sharra ist immun gegen jeden Schaden von 4 oder höher.
+44.cardName;Hungersnot
+44.cardText;Füge ALLEN Kreaturen 1 Schaden zu.
+45.cardName;Königlicher Richter
+45.cardText;{options|Ziehe eine Schutzkuppel.|Ziehe eine Bestrafung.}\nNimm eine <b>Schutzkuppel</b> auf deine Hand. Sie kostet {faeria|0}.\nNimm eine <b>Bestrafung</b> auf deine Hand. Sie kostet {faeria|0}.
+46.cardName;Kartograph
+46.cardText;{last_words} – Nimm ein <b>Erkunden</b> auf deine Hand.
+47.cardName;Schimmernde Statue
+47.cardText;{taunt}\n{production} - Erhalte 1 Leben.
+48.cardName;Dorfältester
+48.cardText;{last_words} – Ziehe eine Karte.
+49.cardName;Geschichtenerzähler
+49.cardText;{gift} – Jeder Spieler zieht 2 Karten und erhält 2 Leben.
+50.cardName;Wandermönch
+50.cardText;Erhält +1/+0, immer wenn du eine Karte ziehst.
+51.cardName;Vollstrecker der Dampfschmiede
+52.cardName;Getreuer des Königs
+52.cardText;{protection}
+53.cardName;Tag der Drachen
+53.cardText;Nimm die vier elementaren <b>Drachen</b> auf die Hand. Sie kosten {faeria|3} weniger und werden {wild}.
+54.cardName;Wagemutiger Abenteurer
+54.cardText;{gift} - Erhält +2/+2 für jede benachbarte feindliche Kreatur.
+55.cardName;Keulenschwinger
+56.cardName;Baron Thulgar
+56.cardText;{last_words} – Jeder Spieler zieht eine Karte. Diese kosten {faeria|0}.
+57.cardName;Weisheit
+57.cardText;Ziehe zwei Karten.
+58.cardName;Kriegs-Yak
+58.cardText;Hat +2/+0, solange dein Gegner 10 Leben oder weniger hat.
+59.cardName;Verteidiger der Heimat
+59.cardText;{taunt}\n{gift} - Wenn du letzten Zug angegriffen wurdest, beschwöre einen weiteren <b>Verteidiger der Heimat</b>.
+60.cardName;Meuchelmörder der Königin
+60.cardText;{deathtouch}
+61.cardName;Vogelfreier
+61.cardText;{last_words} – Dein Gegner zieht eine Karte und erhält {faeria|2}.
+62.cardName;Glücksritter
+62.cardText;Wenn diese Kreatur Faeria sammelt, erhält eine zufällige verbündete Kreatur +1/+1.
+63.cardName;Wildnishüter
+63.cardText;{gift} – Nimm ein <b>Lagerfeuer</b> auf deine Hand.
+64.cardName;Imperiale Pumpstation
+64.cardText;Faeria-Brunnen sind leer.\n{production} - Diese Karte erhält 1 Schaden.\n{last_words} - Fülle jeden Faeria-Brunnen wieder auf.
+65.cardName;Regenwald-Forscher
+65.cardText;Hat +1/+1 solange du mindestens {blue}{blue} kontrollierst und +0/+2 solange du mindestens {green}{green} kontrollierst.
+66.cardName;Kratersee-Forscher
+66.cardText;Hat +1/+1 solange du mindestens {blue}{blue} kontrollierst und +2/+0 solange du mindestens {red}{red} kontrollierst.
+67.cardName;Oasen-Forscher
+67.cardText;Hat +1/+1 solange du mindestens {blue}{blue} kontrollierst und +1/+1 solange du mindestens {yellow}{yellow} kontrollierst.
+68.cardName;Taiga-Forscher
+68.cardText;Hat +2/+0 solange du mindestens {red}{red} kontrollierst und +0/+2 solange du mindestens {green}{green} kontrollierst.
+69.cardName;Savannen-Forscher
+69.cardText;Hat +1/+1 solange du mindestens {yellow}{yellow} kontrollierst und +0/+2 solange du mindestens {green}{green} kontrollierst.
+70.cardName;Sandsteinwüsten-Forscher
+70.cardText;Hat +2/+0 solange du mindestens {red}{red} kontrollierst und +1/+1 solange du mindestens {yellow}{yellow} kontrollierst.
+71.cardName;Rubinroter Fisch
+71.cardText;{aquatic}
+72.cardName;Märchendieb
+72.cardText;{options|Dies erhält +2/+2|Ziehe 2 Karten.}\n - Dies erhält +2/+2.\n - Ziehe 2 Karten.
+73.cardName;Gabrianische Zisterne
+73.cardText;{production} - Du erhälst {faeria|3}. Füge diesem Bauwerk 1 Schaden zu.
+74.cardName;Tyranax
+75.cardName;Gabrianische Verzauberin
+75.cardText;{gift} – Setze den Angriff einer anderen Kreatur auf die Höhe ihres Lebens.
+76.cardName;Gabrianischer Befehlshaber
+76.cardText;{aquatic}, {charge|2}\n Das erste Mal, wenn du eine Karte mit Grundkosten {faeria|7} oder höher ziehst, erhält diese Kreatur +1/+1 und {flying}.
+77.cardName;Gabrianischer Aufseher
+77.cardText;{gift} – Gib einer Kreatur {protection}.
+82.cardName;Mochi des Frühlings
+82.cardText;{gift} – Die nächste Karte mit Grundkosten von {faeria|7} oder höher, die du ziehst, kostet {faeria|3} weniger.
+83.cardName;Triton-Krieger
+83.cardText;{jump}
+84.cardName;Mystische Bestie
+84.cardText;{gift} – Erhält +2/+0 und {jump}, wenn sie angrenzend zu einem gegnerischen Brunnen beschworen wird.
+85.cardName;Spiegelndes Trugbild
+85.cardText;{gift} – Verwandle eine andere Kreatur in ein 5/5 <b>Spiegelndes Trugbild</b>.
+86.cardName;Triton-Chefkoch
+86.cardText;{gift} – Nimm ein <b>Triton-Bankett</b> auf deine Hand.
+87.cardName;Ninja-Kröte
+87.cardText;{jump}, {haste}
+88.cardName;Verfroschen
+88.cardText;Verwandle eine Kreatur in einen 2/2 <b>Frosch</b> mit {jump}.
+93.cardName;Gabrianische Verzauberung
+93.cardText;Setze den Angriff einer Kreatur auf die Höhe ihres Lebens.\nZiehe eine Karte.
+94.cardName;Auroras Schöpfung
+94.cardText;Nimm die Kopie einer Kreatur auf deine Hand. Sie kostet {faeria|5} weniger.
+95.cardName;Dunkler Pirscher
+95.cardText;Kostet {faeria|2} weniger, wenn du in diesem Zug ein Ereignis gespielt hast.
+96.cardName;Zauberstrudel
+96.cardText;Nimm 2 zufällige blaue Karten auf die Hand.
+97.cardName;Gabrianischer Adliger
+97.cardText;{gift} – Beschwöre einen 1/1 <b>Rubinroten Fisch</b> (du kannst ihn auf einem Ozean beschwören).
+102.cardName;Auroras Schüler
+102.cardText;Erhält immer, wenn du ein Ereginis spielst, +1/+1.
+103.cardName;Panzerschildkröte
+103.cardText;{aquatic}
+104.cardName;Baeru, die Erste Sturmflut
+104.cardText;{aquatic}\n{production} - Verwandle alle angrenzenden Länder in {blue}
+105.cardName;Sturmgeborener
+105.cardText;{last_words} – Erhalte {faeria|10}.
+106.cardName;Sage der Alten Schildkröte
+106.cardText;Ziehe 3 Karten. Alle Kreaturen, die auf diese Art gezogen werden, kosten {faeria|2} weniger.
+107.cardName;Wellenbrecher-Koloss
+107.cardText;Kostet {faeria|1} weniger für jedes mal, das du Faeria von einem Brunnen deines Gegners gesammelt hast (Mininum: {faeria|4}).
+108.cardName;Orosei, Traum aus der Tiefe
+108.cardText;{flying}, {charge|2}\n{gift} – Verwandele alle deine anderen Kreaturen in zufällige Kreaturen, die {faeria|2} mehr kosten.
+109.cardName;Wasserelementar
+109.cardText;{jump}\n{gift} - Platziere {blue}
+110.cardName;Seidengemmen-Fee
+110.cardText;{flying} \n Erhält das erste mal, wenn du ein Ereignis ziehst +2/+2 und {charge|2}.
+111.cardName;Versunkener Turm
+111.cardText;{activate} - Bewege ein Land. Füge diesem Bauwerk 1 Schaden zu.
+112.cardName;Azurblaues Irrlicht
+112.cardText;Erhalte jedes Mal +1/+1, wenn du Faeria von einem Brunnen eines Gegners sammelst.
+113.cardName;Triton-Heiligtum
+113.cardText;Erhält +0/+1 immer wenn du Faeria sammelst. \n {activate} - Zerstöre dieses Bauwerk und erhalte {faeria|1} in Höhe seines Lebens.
+114.cardName;Auroras Traum
+114.cardText;Ziehe Karten, bis du 9 auf der Hand hast. Senke die Kosten aller Karten auf deiner Hand auf {faeria|0}.
+115.cardName;Lanzenreiter des Schneesturms
+115.cardText;{jump}\n Immer wenn du ein Ereignis spielst, erhält diese Kreatur +2/+0 bis zum Ende des Zuges (Maximal +6/+0).
+116.cardName;Luduan
+116.cardText;Füge jedes Mal, wenn diese Kreatur Faeria von einem gegnerischen Brunnen sammelt, eine blaue Karte deiner Hand hinzu. Diese kostet {faeria|2} weniger.
+117.cardName;Wundersames Ei
+117.cardText;Wenn du eine nicht-legendäre Kreatur ziehst, wird das Wundersame Ei zu einer Kopie dieser Kreatur.
+118.cardName;Gabrianischer Archon
+118.cardText;{charge|2}\nHat +2/+2, wenn du mindestens zwei Karten mit Grundkosten von {faeria|7} oder mehr in diesem Spiel gespielt hast.
+119.cardName;Triton-Taucher
+119.cardText;{aquatic}, {jump}
+120.cardName;Gezeitenwechsel
+120.cardText;{options|Bewege ein Land.|Ziehe eine Karte.}\nBewege ein Land.\nZiehe eine Karte.
+121.cardName;Prophet der Gezeiten
+121.cardText;{gift} - Bewege das Land, auf dem diese Kreatur steht, zweimal.
+122.cardName;Vision von Demut
+122.cardText;Halbiere den Angriff und die Verteidigung einer Kreatur (runded ab).
+123.cardName;Uralter Bote
+123.cardText;{gift} – Die nächste Kreatur mit 5 oder mehr Leben, die du ziehst, kostet {faeria|2} weniger.
+124.cardName;Triton-Bankett
+124.cardText;Gib einer Kreatur +1/+1 und {jump}.
+125.cardName;Aurora, Schöpferin der Sagen
+125.cardText;{gift} - Setze Leben und Angriff einer anderen verbündeten Kreatur auf 6/6.
+126.cardName;Wellenformer
+126.cardText;Setze am Ende des gegnerischen Zugs das Faeria ALLER Spieler auf {faeria|3}.
+127.cardName;Fehlgeschlagenes Experiment
+127.cardText;Die nächste Kreatur, die du in diesem Zug spielst, kostet {faeria|4} weniger, allerdings stirbt sie sofort.
+128.cardName;Auroras List
+128.cardText;Erhalte die Kontrolle über eine Kreatur mit 2 oder weniger Angriff.
+129.cardName;Kampfkröten
+129.cardText;Beschwöre zwei 2/2 <b>Frösche</b> mit {jump}.
+130.cardName;Glücksfall
+130.cardText;Erhalte {faeria|12}.
+131.cardName;Krieger der Sagami
+131.cardText;{dash|2}
+132.cardName;Knochensammler
+132.cardText;Erhält immer, wenn eine benachbarte Kreature stirbt, +1/+1.
+133.cardName;Seelengebundener Sagami
+133.cardText;{last_words} - Eine zufällige verbündete Kreatur erhält +3/+5.
+134.cardName;Hainrufer der Sagami
+134.cardText;{gift} - Du kannst eine verbündete Kreatur auf {green} unter deiner Kontrolle teleportieren.
+135.cardName;Uralter Bändiger
+135.cardText;Wenn du eine Kreatur mit 5 oder mehr Leben beschwörst, erhält sie +1/+1.
+136.cardName;Gaias Gnade
+136.cardText;Eine Kreatur erhält +0/+3. Erhalte 3 Leben.
+137.cardName;Tiki-Häuptling
+137.cardText;{gift} – Gewährt einer Kreatur {taunt}.
+138.cardName;Blütengeist
+138.cardText;{last_words} – Nimm eine zufällige grüne Karte auf deine Hand. Sie kostet {faeria|3} weniger.
+139.cardName;Einsiedler des Elderwalds
+139.cardText;{last_words} - Eine zufällige verbündete Kreatur erhält +2/+4.
+140.cardName;Tiki-Wächter
+140.cardText;{gift} – Gib einer Kreatur +2/+2.
+141.cardName;Tiki-Pfeifer
+141.cardText;{gift} – Gib einer Kreatur +0/+4.
+142.cardName;Schamanentanz
+142.cardText;Gib einer Kreatur +0/+4 und {taunt}.
+143.cardName;Tiki-Totem
+143.cardText;Jeden Zug erhält die erste Kreatur die du beschwörst +1/+1.
+144.cardName;Besessener Bär
+144.cardText;Nachdem diese Kreatur Schaden erleidet, verdopple ihren Angriff.
+149.cardName;Eichenholzgestalt
+149.cardText;{last_words} - Gib einer zufälligen grünen Kreatur in deiner Hand +5/+5.
+150.cardName;Thyrianischer Golem
+151.cardName;Saatsetzer
+151.cardText;{gift} - Erschaffe {green} auf einem zufälligen angrenzenden Feld.
+152.cardName;Rankenwall
+152.cardText;{taunt}\n{last_words} - Erschaffe {green} auf einem zufälligen Feld.
+153.cardName;Düsterforst-Bär
+154.cardName;Tiki-Heiler
+154.cardText;{gift} - Erhalte 5 Leben.
+155.cardName;Ruunins Schrein
+155.cardText;{gift} - Erhalte {faeria|2}.\n{last_words} - Dein Gegner erhält {faeria|2}.
+156.cardName;Eichenvater
+156.cardText;{gift} - Dies erhält +0/+1 für jeden {green} unter deiner Kontrolle.
+157.cardName;Faeria-Baum
+157.cardText;{production} - Dieses Bauwerk erhält +0/+1.\n Wenn dies 5 oder mehr Leben hat, zerstöre es und erhalte {faeria|10}.
+158.cardName;Lebende Weide
+158.cardText;{taunt}
+159.cardName;Wildwuchs
+159.cardText;Erschaffe {green} auf einem zufälligen Feld.
+168.cardName;Urzeit-Koloss
+168.cardText;Kostet {faeria|1} weniger für jedes farbige Land unter deiner Kontrolle. (Minimum: {faeria|6})
+169.cardName;Tethra, Seele der Wildnis
+169.cardText;{flying}, {charge|2}\n{gift} – Gib einer Kreatur +5/+5.
+170.cardName;Holzelementar
+170.cardText;{taunt}\n{gift} - Platziere {green}
+171.cardName;Seidenblumen-Fee
+171.cardText;{flying}\n Erhält +1/+4 {taunt} und {charge|2} wenn du das erste mal ein Ereignis ziehst.
+172.cardName;Überwucherter Turm
+172.cardText;{activate} - Gib einer Kreatur +1/+1. Füge diesem Bauwerk 1 Schaden zu.
+173.cardName;Immerblühendes Irrlicht
+173.cardText;Erhält +1/+1, immer wenn du {green} erschaffst.
+174.cardName;Geisterwesen der Wiedergeburt
+174.cardText;Immer wenn eine verbündete Kreatur stirbt, gib einer zufälligen Kreatur in deiner Hand +1/+1.
+175.cardName;Umarmung des Elderwalds
+175.cardText;Gib einer Kreatur +2/+4.
+176.cardName;Ruunins Botschafter
+176.cardText;{jump}\n Wann immer diese Kreatur einen Gott angreift, füge deiner Hand eine grüne Kreatur hinzu. Sie kostet {faeria|2} weniger.
+177.cardName;Naturgewalt der Pflanzenwelt
+178.cardName;Wächter des Hains
+178.cardText;{taunt}
+179.cardName;Tarum, der Weltenwald
+179.cardText;{taunt}\n{last_words} – Fülle das Spielbrett mit Wäldern.
+180.cardName;Weinendes Götzenbild
+180.cardText;Erhalte immer, wenn dir Schaden zugefügt wird, {faeria|1}.
+181.cardName;Bodenkunde
+181.cardText;{options|Verwandle eines deiner Länder in {green}|Verwandle eines deiner Länder in {blue}|Verwandle eines deiner Länder in {red}|Verwandle eines deiner Länder in {yellow}} color.\nVerwandle eines deiner Länder in ein Land deiner Wahl, dann ziehe eine Karte.
+182.cardName;Wilder Rächer
+182.cardText;{taunt},{dash|2}\n Hat +0/+1 für jedes mal das du dieses Spiel Schaden erlitten hast.
+183.cardName;Uralter Eber
+183.cardText;{dash|2}\nKostet {faeria|2} weniger, wenn du eine Kreatur mit 5 oder mehr Leben unter deiner Kontrolle hast.
+184.cardName;Ruunins Ratschlag
+184.cardText;Das Ziel erhält:\n- Kreatur: +2/+2\n- Gott: 5 Leben
+185.cardName;Stimme des Hungers
+185.cardText;{gift} - Zerstöre alle angrenzenden Verbündeten Kreaturen. Diese Kreatur erhält Angriff UND Leben gleich der zerstörten Leben.
+186.cardName;Setzling
+186.cardText;{production} - Wenn diese Kreatur weniger als 5 Leben hat, erhält sie +1/+1.
+187.cardName;Eredon, die Stimme von Allen
+187.cardText;{last_words} - Alle Karten in deinem Deck und deiner Hand bekommen +1/+1.
+188.cardName;Den Wald nähren
+188.cardText;Zerstöre eine verbündete Kreatur, um Faeria in Höhe ihres Lebens zu erhalten, und ziehe eine Karte.
+189.cardName;Ruunins Gegenwart
+189.cardText;Füge deiner Hand eine zufällige Kreatur hinzu. Sie bekommt +6/+6.
+190.cardName;Ruunin, die Unnachgiebige
+190.cardText;{dash|2}\n{last_words} - Ruunin kehrt am Ende des Zuges in deine Hand zurück. Sie erhält +2/+2.
+191.cardName;Räuber aus dem Untergrund
+191.cardText;{combat} – Erhalte {faeria|2}.
+192.cardName;Kriegsherr der Kobolde
+192.cardText;{combat} - Gib einer zufälligen verbündeten Kreatur +3/+0.
+193.cardName;Kriegsbestie der Kobolde
+194.cardName;Geschenk des Stahls
+194.cardText;Gib einer Kreatur +3/+0. Die Kreatur erhält außerdem 3 Leben wenn sie die <b>Gefecht</b> Fähigkeit besitzt.
+195.cardName;Untergrund-Boss
+195.cardText;{combat} – Erhalte {faeria|2}.
+196.cardName;Architekt
+196.cardText;{gift} - Gib einem Bauwerk +0/+2.
+197.cardName;Mächtiger Oger
+197.cardText;{gift} - Wenn dein Gegner 10 oder weniger Leben hat, erhält diese Kreatur +2/+2
+198.cardName;Kobold-Kaserne
+198.cardText;Angrenzende verbündete Kreaturen erhalten +2/+0.
+199.cardName;Saat des Hasses
+199.cardText;Kostet {faeria|1} weniger für jeder Kreatur mit mehr Angriff als Leben, die du dieses Spiel beschworen hast.
+200.cardName;Kampflustiger Oger
+200.cardText;{taunt}
+201.cardName;Dreister Feilscher
+201.cardText;{gift} – Eine zufällige Karte auf deiner Hand kostet {faeria|7} weniger.
+202.cardName;Seifer, Blutdürstiger Tyrann
+202.cardText;Wenn Seifer eine Kreatur zerstört, erhält er Angriff und Leben gleich der ursprünglichen Angriff und Leben der zerstörten Kreatur.
+203.cardName;Barbarischer Oger
+204.cardName;Krog, König der Oger
+204.cardText;{combat} – Eine zufällige Karte auf deiner Hand kostet {faeria|7} weniger.
+205.cardName;Axtschleifer
+205.cardText;{gift} - Bekommt +1/+1 wenn er angrenzend zu einem gegnerischen Brunnen beschworen wird.
+206.cardName;Felsenschleuderer
+206.cardText;{ranged_attack}\n Wenn diese Kreatur angreift, fügt sie auch am Ziel benachbarten Gegnern Schaden zu.
+211.cardName;Shedim-Rohling
+211.cardText;{combat} – Fügt deinem Gegner 2 Schaden zu.
+212.cardName;Blutsänger
+212.cardText;Fügt deinem Gegner immer 1 Schaden zu, wenn eine feindliche Kreatur stirbt.
+213.cardName;Seifers Kanonenfutter
+213.cardText;{last_words} – Fügt deinem Gegner 2 Schaden zu.
+214.cardName;Feuerspucker
+214.cardText;{gift} – Fügt einem gegnerischen Ziel 1 Schaden zu.
+215.cardName;Herr des Schreckens
+215.cardText;Immer, wenn ein Gott Schaden erleidet, erhält diese Kreatur genauso viel Angriff.
+216.cardName;Shedim-Quälgeist
+216.cardText;{gift} - Bekommt +2/+2 wenn du eine andere Kreatur mit mehr Angriff als Leben kontrollierst.
+217.cardName;Blutobelisk
+217.cardText;Füge jedes Mal, wenn eine gegnerische Kreatur im Kampf stirbt, deinem Gegner 1 Schaden zu und erhalte {faeria|1}.
+218.cardName;Grausiger Wächter
+218.cardText;{taunt}\n{combat} – Fügt deinem Gegner 2 Schaden zu.
+223.cardName;Bombenwerfer
+223.cardText;{gift} – Fügt einer angrenzenden feindlichen Kreatur oder Bauwerk 4 Schaden zu.
+224.cardName;Kanonenträger
+224.cardText;{gift} - Wirf einen 4/2 Mecha in einer geraden Linie auf ein Land.
+225.cardName;Flammenexplosion
+225.cardText;Füge einem Ziel 3 Schaden zu.
+226.cardName;Flammenwerfer
+226.cardText;{ranged_attack}\nFügt allen gegnerischen Kreaturen jedes Mal 1 Schaden zu, wenn diese Kreatur einen Gott angreift.
+231.cardName;Vulkan-Koloss
+231.cardText;{ranged_attack}\nKostet {faeria|1} weniger für jeden Zug, in dem du deinem Gegner in diesem Spiel Schaden zugefügt hast. (Minimalkosten: {faeria|5}).
+232.cardName;Garudan, Herz des Berges
+233.cardName;Feuerelementar
+233.cardText;{gift} - Platziere {red}
+234.cardName;Seidenfeuer-Fee
+234.cardText;{flying}\n Erhält +3/+1 und {ranged_attack} wenn du das erste mal ein Event ziehst.
+235.cardName;Verfallener Turm
+235.cardText;{activate} - Füge 1 Schaden zu. Füge diesem Bauwerk einen Schaden zu.
+236.cardName;Blutrotes Irrlicht
+236.cardText;Erhält, immer wenn eine gegnerische Kreatur stirbt, +2/+1.
+237.cardName;Erdkrustenbrecher
+237.cardText;{gift} – Fügt ALLEN Feinden 1 Schaden zu.
+238.cardName;Flammender Bote
+238.cardText;Erhält immer, wenn du eine Kreatur mit mehr Angriff als Leben beschwörst, +1/+1. (Solange in deinem Deck oder deiner Hand.
+239.cardName;Lodernder Salamander
+239.cardText;{gift} - Füge allen benachbarten Gegnern 2 Schaden zu.
+240.cardName;Blutstein-Elementar
+240.cardText;Immer wenn eine verbündete Kreatur von einem Brunnen deines Gegners Faeria sammelt, füge deinem Gegner 1 Schaden zu.
+241.cardName;Seifers Zorn
+241.cardText;Füge einer Kreatur 2 Schaden zu. Stirbt sie, füge ihrem Beherrscher 2 Schaden zu.
+242.cardName;Schlingpflanze
+242.cardText;{taunt} \n {production} - Füge allen benachbarten feindlichen Kreaturen 2 Schaden zu.
+243.cardName;Flammenbombe
+243.cardText;Füge einer Kreatur oder einem Bauwerk 4 Schaden zu.
+244.cardName;Feuersturm
+244.cardText;Wähle ein Feld aus. Füge allen feindlichen Kreaturen auf oder neben diesem Feld 3 Schaden zu.
+245.cardName;Kampfwüter
+245.cardText;Immer wenn diese Kreatur Schaden erleidet, füge deinem Gegner denselben Schaden zu.
+246.cardName;Zerbröckelnder Golem
+246.cardText;Immer wenn dein Gegner eine Kreatur beschwört, füge <b> Zerbröckelnder Golem </b> 1 Schaden zu.
+247.cardName;Oger-Tanz
+247.cardText;Eine zufällige Karte auf deiner Hand kostet {faeria|7} weniger.
+248.cardName;Meteor
+248.cardText;Wähle ein Feld. Zerstöre alle Kreaturen, Bauwerke und Länder auf diesem und angrenzenden Feldern.
+249.cardName;Roter Teufel
+249.cardText;{gift} – Erhalte {faeria|5}.
+250.cardName;Ignus, die Flamme des Ursprungs
+250.cardText;Jedes Mal, wenn du +{faeria|1} vom Kraftrad wählst, verteile insgesamt 4 Schaden auf zufällige Gegner.
+251.cardName;Mönch der Oradrim
+251.cardText;{haste}\n Immer wenn diese Kreatur einen Gott angreift, ziehe eine Karte.
+252.cardName;Khalims Gebet
+252.cardText;Erhalte {faeria|2} und ziehe eine Karte. Kann nur gespielt werden, wenn du in diesem Zug einen Gott angegriffen hast, und nur einmal pro Zug.
+253.cardName;Khalims Anhänger
+253.cardText;{haste}\n Hat +2/+0 beim Angriff auf Götter
+254.cardName;Templer der Oradrim
+254.cardText;{dash|1}\n Hat +3/+0 beim Angriff auf Götter.
+255.cardName;Schütze der Oradrim
+255.cardText;{ranged_attack}\n Immer wenn eine verbündete Kreatur einen Gott angreift, erhälst du {faeria|1}.
+256.cardName;Fanatiker der Oradrim
+256.cardText;{jump}\n{gift} - Du kannst eine befreundete Kreatur bewegen.
+257.cardName;Wirbelnder Wüstenwind
+257.cardText;Teleportiere eine Kreatur auf {yellow} unter deiner Kontrolle.
+258.cardName;Windportal
+258.cardText;Du kannst Kreaturen auf an dieses Bauwerk angrenzenden Feldern beschwören.\n{activate} - Bewege das Windportal.
+259.cardName;Heimtückisches Geisterwesen
+259.cardText;{gift} – Du entziehst deinem Gegner 2 Leben.
+260.cardName;Khalim, Sturmzauberer
+260.cardText;{flying}, {charge|2}\nWenn Khalim einen Gott angreift, nimm einen <b>Khalims Anhänger</b> auf deine Hand. Er kostet {faeria|0}.
+261.cardName;Mörderisches Schattenwesen
+262.cardName;Todeswunsch-Ghul
+262.cardText;{last_words} – Erhalte {faeria|2}.
+263.cardName;Letzter Alptraum
+263.cardText;Zerstöre eine Kreatur.
+264.cardName;Seelenpakt
+264.cardText;Füge dir selbst 2 Schaden zu und erhalte {faeria|2}.
+265.cardName;Altar der Seelen
+265.cardText;{activate} – Füge dir selbst 2 Schaden zu und nimm ein 6/1 <b>Mörderisches Schattenwesen</b> auf deine Hand. Es kostet {faeria|2}.
+266.cardName;Dämonischer Schaitan
+266.cardText;{production} – Fügt dir selbst 2 Schaden zu.
+267.cardName;Khalims Himmelswächter
+267.cardText;{flying}\nKann angrenzend zu verbündeten Kreaturen beschworen werden.
+268.cardName;Khalims Unterweisung
+268.cardText;Gib einer Kreatur +1/+0, {flying} und {charge|2}.
+273.cardName;Windsoldat
+273.cardText;{haste}, {charge|3}\nDer Windsoldat stirbt am Ende des Zuges.
+274.cardName;Himmelsfahrer der Drakkar
+274.cardText;{flying}\nWenn du eine Kreatur mit {flying} ziehst, erhält diese +1/+1.
+275.cardName;Windgetragener Botschafter
+275.cardText;{flying}\nHat +2/+0, solange du eine weitere fliegende Kreatur kontrollierst.
+276.cardName;Plündernder Schaitan
+276.cardText;Kostet {faeria|2} weniger, wenn du in diesem Zug einen Gott angegriffen hast.
+277.cardName;Dünendrache
+277.cardText;{flying}, {charge|2}\nKann kein Faeria sammeln.
+278.cardName;Windgetragener Held
+278.cardText;{flying}, {charge|5}\n{gift} – Bewege eine Kreatur.
+287.cardName;Sturm-Koloss
+287.cardText;{dash|3}\nKostet {faeria|1} weniger für jedes Ereignis, das du in diesem Spiel gespielt hast (Minimalkosten: {faeria|5}).
+288.cardName;Azarai, Zorn der Wüste
+288.cardText;{flying}, {charge|2}\n{gift} – Azarai entzieht jeder feindlichen Kreatur 2 Angriff.
+289.cardName;Luftelementar
+289.cardText;{flying}\n{gift} - Platziere {yellow}
+290.cardName;Seidensonnen-Fee
+290.cardText;{flying}\nDas erste Mal, wenn du ein Ereignis ziehst, erhält diese Karte +3/+1 und {charge|3}.
+291.cardName;Himmlischer Turm
+291.cardText;{activate} - Gib einer Kreatur {charge|3} für diesen Zug. Diese Karte erhält 1 Schaden.
+292.cardName;Wolkenweißes Irrlicht
+292.cardText;{flying}, {charge|3}\nErhält +3/+0, wenn eine verbündete Kreatur einen Gott angreift.
+293.cardName;Plötzlicher Windstoß
+294.cardName;Goldenes Aviarium
+294.cardText;Alle deine fliegenden Kreaturen haben +1/+0.
+295.cardName;Fanatischer Kreuzritter
+295.cardText;{charge|2}\nWährend diese Karte in deinem Deck oder deiner Hand ist, erhält sie +1/+1, wenn eine verbündete Kreatur einen Gott angreift.
+296.cardName;Soldat der Keldran
+297.cardName;Fürst der Ödlande
+297.cardText;{gift} – Du kannst eine andere Kreatur opfern, um {faeria|3} zu erhalten.
+298.cardName;Meuchelnder Schaitan
+298.cardText;{deathtouch}\n{gift} – Du kannst eine andere Kreatur opfern, um dieser Kreatur {protection} zu gewähren.
+299.cardName;Dämonenzüchter
+299.cardText;{gift} – Du kannst eine andere Kreatur opfern, um an seiner Stelle eine 5/2 {flying}e <b>Dämonenschwinge</b> zu beschwören.
+300.cardName;Todeswandler
+300.cardText;{deathtouch}\nDu musst eine andere Kreatur opfern, um diese Kreatur zu beschwören.
+301.cardName;Schwur der Verwüstung
+301.cardText;Opfere eine Kreatur. Beschwöre einen 6/3 <b>Reiter der Verwüstung</b> mit {charge|3} an ihrer Stelle.
+302.cardName;Monströser Schaitan
+302.cardText;{charge|2}\n Immer wenn eine verbündete Kreatur stirbt, absorbiert diese Kreatur ihren Angriff.
+303.cardName;Iona, von allen geliebt
+303.cardText;{flying}\nKann nicht angegriffen werden.
+304.cardName;Dämonenschwinge
+304.cardText;{flying}
+305.cardName;Reiter der Verwüstung
+305.cardText;{charge|3}
+306.cardName;Seelenentzug
+306.cardText;Entziehe einer Kreatur 2 Leben.
+307.cardName;Erstickender Sandsturm
+307.cardText;Zerstöre eine Kreatur mit 3 Angriff oder weniger.
+308.cardName;Schicksalspforte, Tor zur Verwüstung
+308.cardText;Wenn Schicksalspforte 13 oder mehr Leben hat, zerstöre sie und beschwöre <b>Ostregoth</b> an ihrer Position.\n{activate} - Opfere eine Kreatur, ziehe eine Karte und Schicksalspforte erhält +0/+2.
+309.cardName;Sturmschütze
+309.cardText;{ranged_attack}\nErhält jedes Mal, wenn du ein Ereignis spielst, +1/+0 für diesen Zug.
+310.cardName;Sturmreiter
+310.cardText;{charge|2}\nErhält jedes Mal, wenn du ein Ereignis spielst, +2/+0 für diesen Zug (Limit: +6/+0).
+311.cardName;Oberstes Raubtier
+311.cardText;{jump}\n{gift} – Erhält Angriff und Leben in Höhe des Angriffs und Lebens einer beliebigen anderen Kreatur.
+312.cardName;Eisfels-Behemoth
+312.cardText;{taunt}, {protection}
+313.cardName;Zwillingsseelen-Geist
+313.cardText;{flying}\nKann angrenzend zu einer verbündeten Kreatur beschworen werden.\n{gift} – Beschwöre einen weiteren <b>Zwillingsseelen-Geist</b>.
+314.cardName;Splitterdornen-Bestie
+314.cardText;{dash|2}\n{gift} - Verteile insgesamt 4 Schaden auf zufällige Gegner. Verteile insgesamt +4/+4 auf zufällige verbündete Kreaturen.
+315.cardName;Seelenfresser
+315.cardText;{flying}, {charge|3}\nWährend diese Karte in deinem Deck oder deiner Hand ist, erhält sie +1/+1 für jede verbündete Kreatur, die in diesem Spiel gestorben ist.
+316.cardName;Flammengeißel-Gespenst
+316.cardText;{flying}, {haste}, {charge|2}\n{combat} – Fügt deinem Gegner 3 Schaden zu.
+317.cardName;Gabrianischer Soldat
+317.cardText;{aquatic}, {charge|3}
+318.cardName;Frosch
+318.cardText;{jump}
+319.cardName;Kartograph
+319.cardText;{last_words} - Erschaffe {green}{blue}{red}{yellow} auf zufälligen Feldern.
+321.cardName;Himmelsverschlinger
+321.cardText;{flying}
+322.cardName;Wilder Prärie-Yak
+322.cardText;{haste}
+323.cardName;Erkunden
+323.cardText;Platziere eine Prärie und erhalte {faeria|2}.
+324.cardName;Wilder Yak
+324.cardText;{haste}
+325.cardName;Dornen-Irrlicht
+325.cardText;Dies erhält +1/+0, immer wenn du {green} erschaffst.
+328.cardName;Ostregoth, Hand der Verwüstung
+328.cardText;{flying}, {haste}, {charge|13}\nFaeria Brunnen sind leer.
+329.cardName;Halsabschneider
+330.cardName;Wilder Reiter
+331.cardName;Weisheit
+331.cardText;Ziehe zwei Karten.
+332.cardName;Heilendes Gebet
+332.cardText;Erhalte 3 Leben.
+333.cardName;Ich nicht spielbar
+333.cardText;Du kannst mich nicht spielen.
+334.cardName;Größere Weisheit
+334.cardText;Ziehe FÜNF Karten.
+335.cardName;Rebellen-Schleuderer
+335.cardText;{gift} – Fügt deinem Gegner 2 Schaden zu.
+336.cardName;Geist des Nexus
+336.cardText;{last_words} – Senkt das Leben seines Meisters auf 1.
+337.cardName;Göttliches Feuer
+337.cardText;Füge ALLEN mickrigen Kreaturen deines Feindes 10 Schaden zu.
+338.cardName;Macht der Gezeiten
+338.cardText;Bewege ein Land.
+339.cardName;Reißender Wind
+339.cardText;Bewege eine verbündete Kreatur.
+340.cardName;Syland-Krieger
+342.cardName;Kojin, Heilige Flamme
+342.cardText;{divine}\nKojin beruhigt seinen Meister Pyhros, solange er im Spiel ist.\n{production} - Kojin verliert 1 Leben.
+350.cardName;Drei Wünsche
+350.cardText;Erhalte 3 Leben. Kopiere die obersten 3 Karten des Decks deines Gegners. Sie kosten {faeria|1} weniger und sind {wild}. Du kannst dir nicht mehr Wünsche wünschen.
+351.cardName;Rebellengleiter
+351.cardText;{flying}, {dash|2}\nKann kein Faeria sammeln.
+352.cardName;Silberstrahl, Imperiales Luftschiff
+352.cardText;{flying},{dash|3}\n Die Kosten für Silberstrahl sind gleich deines aktuellen Lebens.\n{gift} - Erhalte 1 Leben für jede Karte in deiner Hand.
+353.cardName;Verbotene Bibliothek
+353.cardText;{production} - Ziehe eine Karte und erhalte {faeria|1}. Füge dir selbst 2 Schaden zu.
+354.cardName;Traumräuber
+354.cardText;{dash|3}\n{gift} - Setze die Leben eines Gottes auf 10.
+355.cardName;Ungezähmtes Kodama
+355.cardText;{jump}\nKann kein Faeria sammeln.\nErhalte 5 Leben, wenn diese Kreatur einen Gott angreift.
+356.cardName;Gottesjäger
+356.cardText;{jump}\nKann nur Götter angreifen.\nKann kein Faeria sammeln.
+357.cardName;Blutgesang
+357.cardText;Reduziere vier mal die Kosten einer zufälligen Karte in deiner Hand um {faeria|2}. Du nimmst 4 Schaden.
+358.cardName;Höllenfeuer
+358.cardText;Verteile insgesamt 9 Schaden auf zufällige Gegner.
+359.cardName;Weltuntergang
+359.cardText;Dein Faeria-Vorrat wird auf {faeria|0} gesetzt. Halbiere deine Leben (abgerundet). Zerstöre ALLE Kreaturen und Strukturen. Beende den Zug.
+360.cardName;Lästige Stechmücke
+360.cardText;{flying}\nKann kein Faeria sammeln.\n{last_words} - Füge dir selbst 2 Schaden zu. Beschwöre diese Karte in einer zufälligen Position.
+361.cardName;Langhorn-Yak
+361.cardText;{last_words} - Die nächste Kreatur, die du ziehst, erhält Angriff in Höhe des Angriffs dieser Kreatur.
+362.cardName;Zeitalter der Legenden
+362.cardText;Ziehe die oberste Legende aus deinem Deck. Wenn keine Legenden deinem Ruf folgen können, nimm eine zufällige Legende auf die Hand. Sie wird {wild}.
+363.cardName;Triton-Ausbilder
+363.cardText;{jump}\n{gift} - Die nächste Kreatur mit {jump}, die du beschwörst, erhält +1/+1.
+364.cardName;Stimme der Wahrheit
+364.cardText;{gift} - Du kannst eine Kreatur auf ihren Originalen angriffs und verteidigungs-Wert zurücksetzen.
+365.cardName;Vorbote des Krieges
+365.cardText;{combat} - Die nächste von dir beschworene {combat} Kreatur erhält +1/+1.
+366.cardName;Wolken-Wegweiser
+366.cardText;{flying}\nVerbündete Kreaturen, die neben dieser Kreatur beschworen werden, erhalten {dash|2} und {flying}.
+367.cardName;Heilige Wächterin
+367.cardText;{divine}\n Wenn du tödlichen Schaden erleiden würdest, verhindere ihn und zerstöre stattdessen diese Kreatur.
+368.cardName;Befehl des Imperators
+368.cardText;Das Ziel erhält:\n- Kreatur: -2/-1\n- Struktur: 3 Schaden \n- Gott: 4 Leben
+369.cardName;Illusion von Erhabenheit
+369.cardText;{charge|2}\nJedes Mal, wenn du eine Kreatur beschwörst, die {faeria|1} oder weniger kostet, erhält diese Karte Angriff und Leben gleich den Werten jener Kreatur (solange sie in deiner Hand oder deinem Deck ist).
+370.cardName;Düsterforst-Pirscher
+370.cardText;{gift} - Dies kann eine gegnerische Kreatur bekämpfen.
+371.cardName;Krogs Abendessen
+371.cardText;Dein Krog kostet {faeria|7} weniger. Wenn du Krog beschwörst, zerstöre diese Kreatur. \n {gift} Wenn Krog gestorben ist oder in deinem Deck ist, ziehe ihn.
+372.cardName;Ionas Lächeln
+372.cardText;Ziehe die obersten 2 Kreaturen mit {flying} aus deinem Deck.
+400.cardName;Splitter von Pandora
+401.cardName;Pandora erwacht!
+401.cardText;Pandora öffnet die Pforten, beide Spieler erhalten einen <b>Schatz</b>!
+402.cardName;Schatz gefunden!
+402.cardText;Beide Spieler erhalten einen <b>Schatz</b>!\nZiehe eine Karte.
+403.cardName;Dunkler Kristall
+403.cardText;Entziehe deinem Gegner 4 Leben, füge allen feindlichen Kreaturen 3 Schaden zu und ziehe 2 Karten.
+404.cardName;Kriegshorn aus Yakbein
+404.cardText;Beschwöre drei <b>Wilde Prärie-Yaks</b> mit {haste}.
+405.cardName;Astral-Waffe
+405.cardText;{flying}\n{gift} – Zerstöre alle angrenzenden Kreaturen, Bauwerke und Länder.
+406.cardName;Okarina
+406.cardText;Führe nach diesem Zug einen weiteren Zug durch.
+407.cardName;Dschinnenlampe
+407.cardText;{options|Nimm 3 zufällige grüne Karten auf deine Hand. Sie kosten {faeria|3} weniger.|Nimm 3 zufällige blaue Karten auf deine Hand. Sie kosten {faeria|3} weniger.|Nimm 3 zufällige rote Karten auf deine Hand. Sie kosten {faeria|3} weniger.|Nimm 3 zufällige gelbe Karten auf deine Hand. Sie kosten {faeria|3} weniger.}\nWähle eine Farbe. Nimm 3 zufällige Karten von dieser Farbe auf deine Hand. Sie kosten {faeria|3} weniger.
+408.cardName;Urne aus Gabria
+408.cardText;Ziehe 2 Karten und erhalte {faeria|2}.
+409.cardName;Ionas Spiegel
+409.cardText;Nimm zwei Exemplare des <b>Schatzes</b> auf deine Hand, den dein Gegner zuletzt gespielt hat.
+410.cardName;Blutsteingolem
+410.cardText;{production} - Fülle alle Faeria-Brunnen. \n Füge deinem Gegner immer 1 Schaden zu, wenn Faeria gesammelt wird.
+411.cardName;Der Pokal mit dem Portal
+411.cardText;Verteile insgesamt +6/+6 zufällig auf freundliche Kreaturen.
+412.cardName;Eredons Trommel
+412.cardText;All deine Kreaturen erhalten +2/+2, egal, wo sie sich befinden.
+413.cardName;Wolkenmaschine
+413.cardText;Verbündete Kreaturen haben +1/+0, {flying} und {jump}.
+414.cardName;Ring der Herrschaft
+414.cardText;{options|Verwandle ein Land in {green}. Du erhältst die Kontrolle darüber.|Verwandle ein Land in {blue}. Du erhältst die Kontrolle darüber.|Verwandle ein Land in {red}. Du erhältst die Kontrolle darüber.|Verwandle ein Land in {yellow}. Du erhältst die Kontrolle darüber.}\nVerwandle ein Land in ein Land deiner Wahl. Du erhältst die Kontrolle darüber.
+415.cardName;Die Träne der Welt
+415.cardText;Verwandle eine Kreatur, die in diesem Zug einen Gott angegriffen hat, in einen <b>Himmelsschlucker</b> mit 10/10 und {flying}.
+416.cardName;Uhrwerk-Yak
+416.cardText;{dash|2}
+417.cardName;Equinox-Roboter
+417.cardText;{gift} - Erhalte 6 Leben. \n {last_words} - Füge deinem Gegner 6 Schaden zu.
+418.cardName;Magdas Rose
+418.cardText;Erhalte die Kontrolle über eine feindliche Kreatur.
+419.cardName;Auroras Teekessel
+419.cardText;Setze alle verbündeten Kreaturen auf 6/6.
+420.cardName;Stein des Glückssegens
+420.cardText;Mische 3 zufällige <b>Schätze</b> in dein Deck.
+421.cardName;Geheimnis der Stärke
+421.cardText;Gib einer Kreatur +4/+4, {flying}, und {charge|3}.
+422.cardName;Hüter der Leere
+422.cardText;{gift} – Zerstört dein Deck.
+423.cardName;Kristalldrache
+423.cardText;{flying}, {charge|3}
+424.cardName;Rubin der Flammenexplosion
+424.cardText;{options|Füge 3 Schaden zu.|Füge allem 3 Schaden zu.}\n– Füge 3 Schaden zu.\n– Füge allem 3 Schaden zu.
+425.cardName;Hammer der Zerstörung
+425.cardText;Füge einem Ziel deiner Wahl 5 Schaden zu. Mische den <b>Hammer der Zerstörung</b> in deinen Kartenstapel.
+426.cardName;Erdfeuerbrecher
+426.cardText;{gift} Füge allen Gegnern 2 Schaden zu. Für jeden zerstörten Gegner erhält diese Kreatur +2/+2.
+427.cardName;Des Todes Gier
+427.cardText;Zerstöre eine Kreatur. Ihr Besitzer erhält {faeria|1} in Höhe ihrer Kosten und zieht 2 Karten.
+428.cardName;Flaschenblitz
+428.cardText;Füge einer Kreatur 6 Schaden und allen angrenzenden Gegnern 3 Schaden zu.
+429.cardName;Tanzende Klinge
+429.cardText;{flying}, {jump}\nFügt am Ende deines Zuges allen Gegnern auf angrenzenden Feldern 3 Schaden zu.
+430.cardName;Sense des Untergangs
+430.cardText;Zerstöre eine Kreatur. Beschwöre an ihrer Stelle ein 6/1 <b>Mörderisches Schattenwesen</b>.
+431.cardName;Juwelenbesetzte Elster
+431.cardText;{flying}, {haste}\n Immer wenn diese Kreatur einen Gott angreift, erhältst du einen zufälligen <b>Schatz</b> auf die Hand.
+432.cardName;Rad des Chaos
+432.cardText;{options|Zerstöre 2 unbesetzte Länder.|Zerstöre eine Kreatur mit 5 oder weniger Angriff.|Erhalte 7 Leben.}\n– Zerstöre 2 unbesetzte Länder.\n– Zerstöre eine Kreatur mit 5 oder weniger Angriff.\n– Erhalte 7 Leben.
+433.cardName;Ulanis Medaillon
+433.cardText;Wähle eine verbündete Kreatur. Alle anderen Kreaturen verwandeln sich in eine Kopie davon.
+500.cardName;Affen-Meisterstratege
+500.cardText;{taunt}\n{gift} - Erhält jedes Mal +2/+2, wenn eine gegnerische Kreatur während des nächsten Zuges deines Gegners Faeria sammelt.
+501.cardName;Unerschrockener Entdecker
+501.cardText;{gift} - Jeder Spieler bekommt ein <b>Erkunden</b> auf die Hand.
+502.cardName;Kristallblume
+502.cardText;{gift} - {swallow} eine Kreatur. \nErhält 1 Schaden am Ende deines Zuges.
+503.cardName;Yakkapult
+503.cardText;{ranged_attack}\nJedes Mal, wenn diese Kreatur angreift, beschwöre ein 2/2 <b>Wütendes Yak</b> auf einem zufällig ausgewählten, dem Ziel angrenzenden Feld.
+504.cardName;Goki, Freundlicher Bergmann
+504.cardText;{gift} - Füge der Hand deines Verbündeten einen zufälligen <b>Schatz</b> hinzu.
+505.cardName;Mobie, Azurblauer Himmelswal
+505.cardText;{flying}, {charge|3}\nKann kein Faeria sammeln.\n{gift} - {swallow}: Eine Kreatur.
+506.cardName;Ballonfisch
+506.cardText;{flying}, {dash|2}\n{gift} - {swallow} eine verbündete Kreatur. Wenn das nicht geht, stirbt der Ballonfisch.
+507.cardName;Kaios, der Imperator
+507.cardText;{production} - Alle gegnerischen Kreaturen erhalten -1/-0. Dann zerstöre alle gegnerischen Kreaturen mit 0 Angriff.
+508.cardName;Samenkorn aus dem Paradies
+508.cardText;{flying}, {dash|1}\n{gift} - {options|Wenn diese Kreatur über einem Ozean sammelt, stirbt sie und erschafft {green}|Wenn diese Kreatur über einem Ozean sammelt, stirbt sie und erschafft {blue}|Wenn diese Kreatur über einem Ozean sammelt, stirbt sie und erschafft {red}|Wenn diese Kreatur über einem Ozean sammelt, stirbt sie und erschafft {yellow}}\nWenn diese Kreatur über einem Ozean sammelt, stirbt sie und erschafft ein Land der gewählten Farbe.\n
+509.cardName;Der Baum des Ewigen Lebens
+509.cardText;{production} - Erhalte 7 Leben.\nEine zufällig ausgewählte Kreatur in deiner Hand erhält +7/+7.
+510.cardName;Geschenk der Rakoa
+510.cardText;Gib einer Kreatur +1/+1 für jede verbündete Kreatur.
+511.cardName;Neugieriger Biomant
+511.cardText;{gift} - Ziehe für jede gegnerische Kreatur eine nicht-blaue Kreatur aus deinem Deck.
+512.cardName;Fugoro, Wunderhändler
+512.cardText;{jump}\n{gift} - {options|Ziehe eine <b>Urne aus Gabria</b>|Ziehe einen <b>Kristalldrachen</b>|Ziehe <b>Ulanis Medaillon</b>}\n- Ziehe eine <b>Urne aus Gabria</b>\n- Ziehe einen <b>Kristalldrachen</b>\n- Ziehe <b>Ulanis Medaillon</b>
+513.cardName;Hüpfender Fugu
+513.cardText;{jump}\n{gift} - Erhält +3/+3, wenn du 8 oder mehr farbige Länder kontrollierst.
+514.cardName;Enterhaken
+514.cardText;Die Zielkreatur erhält {ranged_attack} bis zum Ende des Zuges. Nachdem sie angreift, kannst du sie auf ein Land neben der angegriffenen Kreatur bewegen.
+515.cardName;Nachtschwärmer der Rakoan
+515.cardText;{last_words} - Du erhältst {faeria|1} in Höhe des Angriffs dieser Kreatur.
+516.cardName;CAP-10, Schrecken der Lüfte
+516.cardText;{combat} - Ziehe ein <b>Geschenk des Stahls</b> aus deinem Deck. Wenn das nicht geht, mische eines hinein.
+517.cardName;Lichtblitz-Lachs
+517.cardText;{divine}, {flying}, {haste}, {charge|2}\n Kann kein Faeria sammeln. \nZerstöre diese Kreatur am Ende deines Zuges und ziehe eine Karte.
+518.cardName;Manta-Reiter
+518.cardText;{flying}\n{last_words} - Beschwöre einen 2/2 <b>Manta</b> mit {flying} und {charge|2} wo diese Kreatur gestorben ist.
+519.cardName;Istanu, das Ewige Licht
+519.cardText;{flying}, {charge|3}\n{last_words} - Eine zufällig ausgewählte verbündete Kreatur wird der neue <b>Istanu</b>.
+520.cardName;Wandelbarer Oktopus
+520.cardText;{options|Erhält +2/+0.|Erhält +0/+2.|Erhält {jump}.|Erhält {taunt}.}, zweimal:\n- Erhält +2/+0\n- Erhält +0/+2\n- Erhält {jump}\n- Erhält {taunt}
+521.cardName;Frosch-Werfer
+521.cardText;{gift} - Dies bekämpft eine gegnerische Kreatur. Beschwöre einen 2/2 <b>Frosch</b> mit {jump} auf einem zufälligen Feld, das an das Ziel angrenzt.
+522.cardName;Weg ins Paradies
+522.cardText;{options|Erschaffe {green}|Erschaffe {blue}|Erschaffe {red}|Erschaffe {yellow}} - Erschaffe ein Land der gewählten Farbe.\nDie erste Kreatur, die du in diesem Zug darauf beschwörst, erhält +2/+0.
+523.cardName;Smaragdgrüner Salamander
+523.cardText;{gift} - Füge angrenzenden gegnerischen Kreaturen 2 Schaden zu. Gib angrenzenden verbündeten Kreaturen +2/+2.
+524.cardName;Himmelstrebender Schwertfisch
+524.cardText;{flying}, {taunt}, {dash|1}
+525.cardName;Karpfenschwarm
+525.cardText;{flying}\n Kann neben verbündeten Kreaturen beschworen werden. \n {gift} Beschwöre einen <b>Karpfenschwarm </b> für jeden der in diesem Spiel gestorben ist.
+526.cardName;Traumbewahrer
+526.cardText;{taunt}\n{gift} - Reduziere die Kosten aller deiner Handkarten um {faeria|1}, dann mische sie in dein Deck und ziehe soviele Karten nach.
+527.cardName;Edelsteinpanzer-Schildkröte
+527.cardText;{gift} - Ziehe eine Karte und kopiere diese. Sie kosten {faeria|2} weniger.
+528.cardName;Flug der Mantas
+528.cardText;Wenn du diese Karte ziehst, kopiere sie.\nBeschwöre einen 2/2 <b>Manta</b> mit {flying} und {charge|2}.
+529.cardName;Schleppkahn der Wolkenwelt
+529.cardText;{flying}, {dash|1}\nJedes Mal, wenn diese Kreatur ein Land verlassen würde, nimmt sie stattdessen das Land bei seiner Bewegung mit.
+530.cardName;Häuptling der Rakoan
+530.cardText;{dash|1}\nBenachbarte verbündete Kreaturen haben +1/+0.
+531.cardName;Wolkenrose
+531.cardText;{flying}, {taunt}\nKann überall beschworen werden.
+532.cardName;Ulani, Schamanin der Wolkenwelt
+532.cardText;{gift} - Ziehe eine grüne, eine blaue, eine rote und eine gelbe Karte aus deinem Deck.
+549.cardName;Realitätsbrecher
+549.cardText;{flying}\n{production} - Erhalte +0/+2.\nWenn diese Karte 10 oder mehr leben hat, <b>bring das Spiel zum Absturz</b>.
+550.cardName;Kristallblume
+550.cardText;Ein Gefangener wird darin festgehalten.
+551.cardName;Kristallblume
+551.cardText;Ein Gefangener wird darin festgehalten.
+552.cardName;Kristallblume
+552.cardText;Ein Gefangener wird darin festgehalten.
+553.cardName;Fliegender Manta
+553.cardText;{flying}, {charge|2}
+555.cardName;Wütendes Yak
+556.cardName;Der Gewinner bist du!
+556.cardText;Füge deinem Gegner 100 Schaden zu.
+557.cardName;Imperator Kaios der Große
+557.cardText;{production} - Alle gegnerischen Kreaturen erhalten -1/-0. Dann werden alle gegnerischen Kreaturen mit 0 Angriff zerstört.
+601.cardName;Laya, Herrin des Leids
+601.cardText;{deathtouch}\n{last_words} - Beschwöre eine <b>Schimmernde Statue</b> in Layas Position.
+602.cardName;Imperialer Drachenreiter
+602.cardText;{flying}, {charge|2}\n{corrupt} - Erhalte +2/+2.
+603.cardName;Wahnsinniger Affe
+603.cardText;{gift} - Leere alle Brunnen. Diese Kreatur erhält +1/+1 für jeden geleerten Brunnen.
+604.cardName;Imperialer Sturmsoldat
+604.cardText;{corrupt} - Übernehme die Kontrolle über dieses Land.
+605.cardName;Verlaufener Erkunder
+605.cardText;{corrupt} - Ziehe eine Karte und erhalte {faeria|1}
+606.cardName;Pestklingen-Ritter
+606.cardText;Schaden, den diese Kreatur erleidet, wird auch dir zugefügt.
+607.cardName;Seidenschatten-Fee
+607.cardText;{flying}, {charge|2}, {protection}\n{corrupt} - Ziehe 2 Ereignisse aus deinem Deck.
+608.cardName;Kaios, Wahnsinniger Drahtzieher
+608.cardText;{divine}\nKaios' Angriff ist immer so hoch wie sein Leben.\n{corrupt} - Entziehe ALLEM 1 Leben.
+609.cardName;Fischregen
+609.cardText;Beschwöre 6 <b>Rubinfische</b> auf zufälligen Feldern. Jeder Fisch, der ein Land trifft, fügt benachbarten Gegnern 1 Schaden zu.
+610.cardName;Fliegender Piranha
+610.cardText;{flying}\n Erhält {deathtouch} und {jump}, wenn eine benachbarte Kreatur stirbt.
+611.cardName;Monströse Hydra
+611.cardText;{corrupt} - Beschwöre einen 2/1 <b> Hydrakopf </b> mit {haste} auf jedem benachbarten Land. Sie sterben am Ende des Zuges.
+612.cardName;Spukende Weide
+612.cardText;{taunt}
+613.cardName;Rottender Eber
+613.cardText;{dash|1}\n{corrupt} - Ziehe die oberste Kreatur mit 5 oder mehr Leben aus deinem Deck. Sie erhält +2/+2.
+614.cardName;Nekomata
+614.cardText;{taunt} \n {corrupt} - Verdopple den Angriff dieser Kreatur.
+615.cardName;Baldurion, Dunkler Meisterschmied
+615.cardText;{protection}\n{corrupt} - Füge deiner Hand einen <b>Hammer der Zerstörung</b> hinzu.
+616.cardName;Boshafte Elfe
+616.cardText;{last_words} - Füge dir selbst 2 Schaden zu.
+617.cardName;Verwüstung
+617.cardText;Füge einer gegnerischen Kreatur oder Bauwerk 9 Schaden zu.
+618.cardName;Dämonischer Lachs
+618.cardText;{haste}, {flying}, {charge|2}\n Kann kein Faeria sammeln.\nWenn diese Kreatur einen Gott angreift, erhält sie +1/+1.
+619.cardName;Seelenraub
+619.cardText;Entziehe einer gegnerischen Kreatur 1 Leben. Wenn dies die Kreatur tötet, nimm eine Kopie von ihr auf die Hand. Sie ist {wild}.
+620.cardName;Solem
+620.cardText;{flying}, {divine}\n{corrupt} - Zerstöre einen Faeria-Brunnen.
+622.cardName;Mutter aller Yaks
+622.cardText;{gift} - Beschwöre zwei 4/4 <b>Yak Wächter</b> mit {taunt} und {flying} neben Mutter aller Yaks.\n Kostet {faeria|1} weniger für jeden verbündeten Yak der in diesem Spiel gestorben ist.
+623.cardName;Champion der Rakoa
+623.cardText;{dash|2}\n{gift}- Erhält +1/+1 für jeden anderen Rakoan auf dem Spielfeld.
+624.cardName;Waisenfugu
+624.cardText;Hat +2/+0 und {jump} solange du eine andere Bestie kontrollierst.
+625.cardName;Rapala, der Dummfisch
+625.cardText;{aquatic}\n{gift}- Fülle die Hand deines Gegners mit <b>Rubinfisch</b>. Was ein Idiot.
+626.cardName;Saphiryak
+626.cardText;Immer wenn ein verbündetes Yak Faeria von einem gegnerischen Brunnen sammelt erhält es +2/+2.
+627.cardName;Erlegen
+627.cardText;Gib einer verbündeten Bestie +2/+0. Dann bekämpft sie eine gegnerische Kreatur.
+628.cardName;Smaragdtyak
+628.cardText;{gift}- Beschwöre ein 1/1 <b>Baby Yak</b> mit {taunt} und <b> Kann kein Faeria sammeln</b> auf einer Prärie unter deiner Kontrolle.
+629.cardName;Majinata, Geist des Ewigen Lebens
+629.cardText;{protection}, {divine}\n{gift} - Eine verbündete Kreatur verschlingt Majinata. Sie erhält +5/+5, {flying} und {charge|2}.
+630.cardName;Lavastrom Axolotl
+640.cardName;Rakoakopter
+640.cardText;{flying}, {dash|1}\n{gift} - Füge angrenzenden feindlichen Kreaturen 2 Schaden zu.
+641.cardName;Rubinyak
+641.cardText;Immer wenn ein verbündeter Yak schaden erleidet, füge deinem Gegner 1 Schaden zu.
+642.cardName;Geisterdrache
+642.cardText;{flying}, {charge|2}, {protection}
+643.cardName;Löwenfisch
+643.cardText;{flying}, {deathtouch}
+644.cardName;Topazyak
+644.cardText;Kann neben verbündeten Yaks beschworen werden. Wenn dies passiert, erhält diese Kreatur {haste}.
+645.cardName;Rakoan Kriegsmaschine
+645.cardText;{charge|2}\n{gift} - Diese Kreatur kann einen anderen verbündeten Rakoan {swallow} um +2/+0 zu erhalten.
+646.cardName;Rakoan Kanonier
+646.cardText;{gift} - Du kannst einen verbündeten Rakoan opfern. Falls du dies tust, füge einer gegnerischen Kreatur 3 Schaden zu.
+647.cardName;Rakoan Illusionist
+647.cardText;{gift} - Du kannst einen anderen Rakoan, bis zum Ende deines nächsten Zuges, in einen 4/4 {flying} {charge|2} <b>Dünendrache</b> verwandeln.
+648.cardName;Rakoanische Schildbrüder
+648.cardText;{last_words} - Beschwöre einen 1/1 Rakoaner an dieser Position.
+649.cardName;Rakoan Truppführer
+649.cardText;{combat} - Gib einem zufälligen Rakoan in deiner Hand +1/+1.
+650.cardName;Rakoan Rekrutierer
+650.cardText;{gift} - Füge deiner Hand einen 1/1 Rakoan hinzu. Er kostet {faeria|0}.
+653.cardName;Turm der Flüche
+653.cardText;{activate} - Gib einer Kreatur -1/-1. Füge diesem Bauwerk 1 Schaden zu.
+654.cardName;Shozen, der Himmelsschlinger
+654.cardText;{flying}, {charge|3}\n Wenn Shozen das erste mal eine Kreatur im Kampf zerstören würde, verschlingt er sie und du erhälst die kontrolle über die Kreatur.
+655.cardName;Imperialer Außenposten
+655.cardText;Alle verbündeten neutralen Kreaturen haben +1/+0
+656.cardName;Zerstörerische Salve
+656.cardText;Füge einer Kreatur 2 Schaden zu. Falls es eine {flying} Kreatur ist, füge ihr stattdessen 5 Schaden zu.
+658.cardName;Silberstrahl, Geißel der Wolkenwelt
+658.cardText;{flying}\n{gift} - Gegnerische Kreaturen können sich im nächsten Zug nicht bewegen.
+659.cardName;Sprenghippo
+659.cardText;{combat} - Füge allen anliegenden Gegnern 2 Schaden zu.
+660.cardName;Bestien Trainer
+660.cardText;{gift} - Eine zufällige Bestie in deiner Hand kostet {faeria|5} weniger.
+661.cardName;Kobold Schmuggler
+661.cardText;{corrupt} - Beschwöre einen 4/3 <b>Seifers Kanonenfutter</b> auf einem zufälligen anliegenden Land.
+662.cardName;Zorn des Ignus
+662.cardText;Verteile insgesamt {dynamic_number|0|0} Schaden auf zufällige Gegner. .\nFügt +1 Schaden für jedes mal, das du +{faeria|1} von dem Kraftrad gewählt hast, zu (während diese Karte in deinem Deck oder deiner Hand ist).
+663.cardName;Ignusi Ritualist
+663.cardText;{gift} - Lade das Kraftrad neu auf. \n{corrupt} - Lade das Kraftrad neu auf.
+664.cardName;Flammenentfacher
+664.cardText;Erhält +1/+1 jedes mal das du +{faeria|1} von dem Kraftrad wählst.
+665.cardName;Wolkenödlands Pest
+665.cardText;{gift} - Dies bekämpft deinen Gegner.
+666.cardName;Aasige Blähfliege
+666.cardText;{flying}\{corrupt} - Nimm eine <b>Aasige Blähfliege</b> auf die Hand.
+667.cardName;Schandbrut Gespenst
+667.cardText;{charge|2}\n{production} - Falls dein gegner 4 oder mehr Karten in der Hand hat, erhällt diese Kreatur +1/+1.
+668.cardName;Sandsturm Geist
+668.cardText;{corrupt} - Erhöhe die Kosten aller Karten in der gegnerischen Hand um {faeria|1}.
+669.cardName;Wolkenödlands Geier
+669.cardText;{flying}\n{gift} - Zerstöre eine kreatur mit 1 Leben und entziehe ihre Angriffskraft.
+671.cardName;Donner Aal
+671.cardText;{flying}\n {gift} - Du kannst einer Kreatur 2 Schaden zufügen. Falls Sie sich auf einem Ozeanfeld befindet, füge Ihr stattdessen 4 Schaden zu.
+676.cardName;Wandernder Yak
+676.cardText;{dash|1}\n{gift} - Erschaffe eine Prärie.
+677.cardName;Yakhirtin
+677.cardText;{gift} - Gib 2 verbündeten Yaks +2/+0 und {charge|2} bis zum Ende der Runde.
+678.cardName;Himmelswelt Yak
+678.cardText;{flying}\nHat +2/+2 solange du 6 Prärien kontrollierst.
+679.cardName;Aufgeblähte Kröte
+679.cardText;{jump}\nDiese Kreatur wird mit einem verschlungenen gegnerischen 2/2 <b>Frosch</b> beschworen.
+680.cardName;Verzerrtes Trugbild
+680.cardText;{gift} - Verwandle eine gegnerische Kreatur in ein 5/3 <b>dlibgurT setrrezreV</b>.
+685.cardName;Kokon
+685.cardText;{gift} - {swallow} eine verbündete Kreatur.\n{production} - Die verschlungene Kreatur erhält +1/+1.\n{activate} - Zerstöre dies.
+686.cardName;Botschafter der Pflanzenwelt
+686.cardText;{last_words} - Gib allen Kreaturen in deiner Hand +1/+1.
+692.cardName;Retter der Sanftmütigen
+692.cardText;{gift} - Gib einer verbündeten Kreatur mit genau 1 Angriff +2/+2 und {divine}.
+694.cardName;Hydrakopf
+694.cardText;{haste}\nStirbt am Ende des Zuges
+695.cardName;Yakwächter
+695.cardText;{flying}, {taunt}
+696.cardName;Yakbaby
+696.cardText;{taunt}\nKann kein Faeria sammeln.
+697.cardName;Dünendrache
+697.cardText;{charge|2}, {flying}\nKann kein Faeria sammeln.
+698.cardName;dlibgurtlegeipS
+698.cardText;{gift} - Verwandle eine verbündete Kreatur in ein 3/5 <b>Verzerrtes Trugbild</b>.
+699.cardName;Rakoaner
+9991.cardName;Gib Eile
+9992.cardName;Faeria her
+9992.cardText;Erhalte {faeria|100} und platziere zufällig ein Land jeder Farbe.
+9993.cardName;Stirb!
+9993.cardText;Füge 100 Schaden zu.
+9994.cardName;Berg
+9995.cardName;See
+9996.cardName;Wüste
+9997.cardName;Wald
+9998.cardName;Prärie
+9999.cardName;Sphäre
+682.cardName;Gezeitenlord
+682.cardText;{jump}\nKann neben angrenzenden verbündeten Tritons beschworen werden. Wenn dies passiert, erhält diese Kreatur +1/+1.
+670.cardName;Ruhelose Hülle
+670.cardText;Am Ende deines Zugs, wenn dein Gegner mehr als 4 Karten in der Hand hat, ziehe 1 Karte und entziehe deinem Gegner 1 Leben.
+675.cardName;Llamacorn
+675.cardText;{combat} - Jeder Spieler zieht eine Karte und erhält 2 Leben.
+681.cardName;Triton Taktiker
+681.cardText;{jump}\n{gift} - Erhält +1/+0 für jeden angrenzenden verbündeten Triton.
+683.cardName;Lebendiges Bankett
+683.cardText;{dash|1}\nAm Ende deiner Runde verschlingt eine zufällige angrenzende verbündete Kreatur dies und erhält +1/+1.
+688.cardName;Blühendes Kodama
+688.cardText;{gift} - Erschaffe {green}{green}{green} auf zufälligen Feldern.
+689.cardName;Wirbelwindfuchs
+689.cardText;Immer wenn diese Kreatur {green} betritt, kann sie auf {green} unter deiner Kontrolle teleportiert werden.
+691.cardName;Siegesfeier
+691.cardText;Für den Rest des Spiels erhält jeder Spieler {faeria|1} mehr pro Runde.
+9989.cardName;Übernehme die Kontrolle eines Landes
+9990.cardName;Übernehme die Kontrolle
+657.cardText;{flying}\nKarten in deiner Hand sind {wild}.\n{gift} - Nimm ein zufälliges Mannschaftsmitglied der Gagana auf die Hand. Es kostet {faeria|0}.
+657.cardName;Gagana, Regenbogen Vogelschiff
+652.cardText;Wenn eine andere verbündete Kreatur ihre {corrupt} Fähigkeit auslöst, entziehe deinem Gegner 2 Leben.
+652.cardName;Versklavter Prister
+9988.cardText;Gib einer Kreatur {haste}.
+9988.cardName;Angriff!
+9987.cardText;{activate} - Ziehe eine Karte.
+9987.cardName;Turm der Weisheit
+690.cardText;Immer wenn Dwordia {green} betritt, kann er auf {green} unter deiner Kontrolle teleportiert werden. Passiert dies, erhält er +1/+1.
+690.cardName;Dwordia, Häuptling des Stammes des Strahlenden Fuchses
+687.cardText;{gift} - Gib der nächsten Kreatur, die du ziehst, +2/+4.
+687.cardName;Priester des Ewigen Lebens
+684.cardText;Diese Kreatur kann in der Runde Faeria sammeln, in der sie gespielt wurde.\n{gift} - Du kannst das Land, auf dem diese Kreatur steht, einmal bewegen.
+684.cardName;Korallenkaulquappe
+674.cardText;{gift} - Wenn dies deine einzige Kreatur ist, erhält sie {taunt},{protection} und {divine}.
+674.cardName;Ulani, Verteidigerin der Himmelswelt
+673.cardText;{gift} - Wenn du keine Kreaturen mehr in deinem Deck hast, mische <b>Silberstrahl, Imperiales Lufschiff</b> und 10 zufällige neutrale Kreaturen in dein Deck. Sie erhaIten +2/+2.
+673.cardName;Banon, Kapitän von Silberstrahl
+9986.cardText;Wirft ihre Hand ab.
+9986.cardName;Zeige KI Hand.
+800.cardText;Ziehe eine Karte.\nNachdem du drei <b>Schatzkarten</b> gespielt hast, {discover} stattdessen einen </b>Schatz von Gagana</b>\nKarten gespielt: {dynamic_number|0|0}.
+800.cardName;Schatzkarte
+749.cardText;Biep biep.
+749.cardName;Mecha
+746.cardText;Biep boop.
+746.cardName;Mecha
+745.cardText;{taunt},{divine}
+745.cardName;Wächter
+744.cardText;{taunt},{divine}
+744.cardName;Wächter
+743.cardText;Beschwöre zwei 5/5 Wächter mit {taunt} und {divine}.
+743.cardName;Schlüssel der Wächter
+742.cardText;{discover} eine Kreatur. Sie erhält +6/+6 und wird {wild}.
+742.cardName;Schlüssel der Riesen
+741.cardText;{options|{discover} eine grüne Kreatur.|{discover} eine blaue Kreatur.|{discover} eine rote Kreatur.|{discover} eine gelbe Kreatur.}\nWähle eine Farbe.{discover} eine Kreatur derselben Farbe. Sie wird {wild} und kostet {faeria|3} weniger.
+741.cardName;Schlüssel der Elemente
+740.cardText;{divine},{flying},{dash|5}\n Muss neben einer verbündeten Kreatur beschworen werden.
+740.cardName;Speer der Wächter
+739.cardText;Karten in deiner Hand kosten {faeria|1} weniger.
+739.cardName;Abbild der Gehorsamkeit
+738.cardText;{flying},{dash|5}\n{gift} - Fülle deine Hand mit <b>Plötzlicher Windstoß</b>. Sie werden {wild}.
+738.cardName;Magischer Teppich
+737.cardText;{gift} - {swallow} eine verbündete Kreatur.\n{production} - Die verschluckte Kreatur erhätl +4/+4.\n{activate}-Zerstöre diese Struktur.
+737.cardName;Krystallis
+736.cardText;{charge|3}, {flying}{gift} - Zerstöre alle <b>Schatzkarten</b> in deinem Deck und erhalte +1/+1 für jede zerstörte Karte.\nZerstörte Karten:{dynamic_number|0|0}.
+736.cardName;Uralter Gargoyle
+735.cardText;{charge|5}, {flying}\n{last_words} Verursache 5 Schaden an allen benachbarten Gegnern.
+735.cardName;Thyrianischer Globus
+734.cardText;{jump}\nFüge allen benachbarten Gegnern 3 Schaden zu, wenn diese Karte landet.
+734.cardName;Sorocco, Erster Maat
+733.cardText;{flying}, {jump}
+733.cardName;Gleitschirmhüpfer
+732.cardText;{discover} eine Karte mit 4 oder mehr Landkosten. Sie wird {wild}.
+732.cardName;Thyrianische Expedition
+731.cardText;{flying}, {dash|2}
+731.cardName;Luftbot
+730.cardText;{discover} 2 nichtlegendäre Karten die {faeria|7} oder mehr kosten. Sie werden {wild}.
+730.cardName;Kristallgewürz
+729.cardText;Gib einer Kreatur +3/+3, {charge|3} und {flying}. Kostet {faeria|3} weniger für jede verbündete Kreatur die in diesem Zug gestorben ist.
+729.cardName;Geistergewürz
+728.cardText;{discover} ein Ereignis vom Deck deines Gegners. Es wird {wild} und kostet {faeria|2} weniger.
+728.cardName;Feilschen
+727.cardText;{flying}\n{gift} - Füge eine <b>Schatzkarte</b> oben auf deinem Deck hinzu.\n{last_words} - Gib Aryana in deine Hand zurück.
+727.cardName;Aryana, Seele von Gargana
+726.cardText;{gift} - Mische eine <b>Schatzkarte</b> in dein Deck.
+726.cardName;Kartenhändler der Amai
+724.cardText;{flying}\n{gift} - {discover} eine nicht-legendäre Karte, die {faeria|5} kostet. Füge die 2 Karten hinzu, die du nicht aus dem Blatt deines Gegners gewählt hast. Sie werden alle {wild}.
+724.cardName;Händler der Amai
+723.cardText;{dash|1}\n Am Ende deines Zuges, falls sich diese Kreatur auf einem gegnerischen Land befindet, mische zwei <b>Schatzkarten</b> in dein Deck.
+723.cardName;Keldran Abenteurer
+722.cardText;Am Ende deines Zuges, gib allen anderen verbündeten Mecha +1/+1 und verursache 1 Schaden an dieser Kreatur.
+722.cardName;Schrottfuß, der Ramschhaufen
+721.cardText;Alle verbündeten Mecha verursachen 2 Schaden an allen benachbarten Gegnern.
+721.cardName;Detonieren
+720.cardText;{combat} - Beschwöre einen 4/2 Mecha auf einem zufälligen benachbarten Feld.
+720.cardName;Fragmentierer
+719.cardText;{production} - Erhalte +3/+0.
+719.cardName;Instabiler Schmiedling
+717.cardText;{dash|1}\n Am Ende deines Zuges, reduziere die Kosten einer Karte in deiner Hand um {faeria|1} falls sich diese Kreatur auf einem gegnerischen Land befindet.
+717.cardName;Oger Abenteurer
+715.cardText;Du kannst diese Kreatur neben einer verbündeten nicht-grünen Kreatur ausspielen.
+715.cardName;Exotisches Haustier
+714.cardText;{discover} eine Kreatur mit {taunt}. Sie wird {wild} und erhält +0/+3.
+714.cardName;Suche Schutz
+713.cardText;{jump}\n Angrenzende verbündete Bestien haben +2/+0.
+713.cardName;Kodama Bestienzähmer
+712.cardText;{gift} - {discover} eine Bestie. Sie wird {wild}.
+712.cardName;Tiki Tierkundler
+711.cardText;{dash|1}\n Am Ende deines Zuges, falls sich diese Kreatur auf einem gegnerischen Land befindet, gib allen benachbarten, verbündeten Kreaturen +1/+1.
+711.cardName;Tiki Abenteurer
+710.cardText;{jump}\n Wann immer du einen Schatz entdeckst, erhält Fugoro +3/+3.
+710.cardName;Fugoro, Captain der Gagana
+709.cardText;{jump}\n{gift} - Ziehe 3 Karten. Falls mindestens eine von ihnen eine <b>Schatzkarte<\b> ist, erhält diese Kreatur +2/+2.
+709.cardName;Triton Sternenseher
+707.cardText;{gift} - Mische eine <b> Schatzkarte </b> in dein Deck und ziehe eine Karte.
+707.cardName;Sternschalenbewacher
+706.cardText;Mische 2 <b> Schatzkarte </b> in dein deck und ziehe eine Karte.
+706.cardName;Flaschenpost
+705.cardText;{jump}\n{gift}-Bewege diese Kreatur.\nAm Ende deines Zuges, ziehe eine Karte falls diese Kreatur sich auf einem gegnerischen Land befindet.
+705.cardName;Triton Abenteurer
+704.cardText;{flying}\n{gift} - Für jede Karte in deiner Hand, mische eine <b>Schatzkarte</b> in dein Deck. Mische deine Hand in dein Deck und ziehe dieselbe Anzahl Karten.
+704.cardName;Gagana, Schatzsucher
+703.cardText;{flying},{charge|2}\n{gift} - Wenn dein Deck nur eine Kopie jeder Karte enthält, erhält dies {haste} und {protection}.\n{last_words} - Mische Celeste zurück in dein Deck.
+703.cardName;Celeste, Kristalldrache
+702.cardText;Gib einer verbündeten Kreatur +1/+1 für jeden benachbarten Gegner.
+702.cardName;Sharra's Inspiration
+701.cardText;Am Ende deines Zugs, suche eine <b> Schatzkarte </b> in deinem Deck und lege sie obenauf. Wenn dein Deck keine Schatzkarten enthält, mische stattdessen eine hinein.
+701.cardName;Kompass der Gagana
+9985.cardText;Spiele alle globalen Animationen.
+9985.cardName;Animiert all die Dinge!

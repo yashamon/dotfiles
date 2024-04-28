@@ -1,0 +1,124 @@
+LOADING_HINT_QUEST_0;Tip: You gain {faeria|3} faeria each turn.
+LOADING_HINT_QUEST_1;Tip: Unspent faeria is saved for next turn.
+LOADING_HINT_QUEST_2;Tip: Abilities are explained at the top of each card.
+LOADING_HINT_QUEST_3;Tip: Build land near your opponent's orb.
+LOADING_HINT_QUEST_4;Tip: Kill Thorn Wisps before they grow.
+LOADING_HINT_QUEST_5;Tip: There are 4 colors in Faeria. Each color has its own land type.
+LOADING_HINT_QUEST_6;Tip: Ruunin is the ancient, undying guardian of the forest.
+LOADING_HINT_QUEST_7;Tip: Red cards use the power of fiery mountains.
+LOADING_HINT_QUEST_8;Seifer has burned his name into the ashes of broken kingdoms.
+LOADING_HINT_QUEST_9;Tip: Creatures with Jump can move up to 2 spaces in any direction, jumping over obstacles.
+LOADING_HINT_QUEST_10;Tip: Build lands to block Aquatic enemies.
+LOADING_HINT_QUEST_11;Tip: Khalim is aggressive. Defend your orb carefully.
+LOADING_HINT_QUEST_13;When she was only a child, Sharra's fear burned away with her village.
+LOADING_HINT_QUEST_20;Magda is the Queen of Meroval. Heroes and villains are mere tools in her grand schemes.
+LOADING_HINT_QUEST_25;From miles away, Krog's dance parties are often mistaken for distant thunder.
+LOADING_HINT_QUEST_26;Tarum was the first seed planted. He has seen the birth of dragons and the fall of ancient gods.
+LOADING_HINT_QUEST_29;Tip: Tarum's power grows over time. Defeat him quickly.
+LOADING_HINT_QUEST_30;Hoaka constantly invents new boards to play on.
+LOADING_HINT_QUEST_48;Aurora's hobbies include mentoring future heroes and tasting new kinds of tea.
+LOADING_HINT_QUEST_49;A prodigy of the Djidan order, Khalim defied his masters and entered a worldly war.
+LOADING_HINT_QUEST_54;Some fish just want to watch the world burn.
+LOADING_HINT_QUEST_64;The mysterious Jalmyr watches over the cosmos and plays tutor to gods.
+LOADING_HINT_QUEST_117;Tip: Treasures are powerful cards normally found in Pandora.
+LOADING_HINT_QUEST_118;Fugoro travels the world collecting history's greatest relics.
+LOADING_HINT_RANDOM_DEATHTOUCH_ONLY_IF_DAMAGE;Tip: Deathtouch only kills a creature if damage is dealt. Protection stops damage.
+LOADING_HINT_RANDOM_TIKIS_CAN_TARGET_THEMSELVES;Tip: Tiki Caretaker and Tiki Piper can target themselves.
+LOADING_HINT_RANDOM_FROGS_PLACED_ON_LAKES;Tip: Frogs from Battle Toads can only be summoned on lakes.
+LOADING_HINT_RANDOM_HEAL_ORB_MAX_20;Tip: You cannot heal yourself over 20 life.
+LOADING_HINT_RANDOM_COMPLETE_SOLO_CONTENT;Tip: Completing Solo content is the best way to get started.
+LOADING_HINT_RANDOM_RED_COLOR_EXPLAINED;Tip: Red is the color of fire and war.
+LOADING_HINT_RANDOM_BLUE_COLOR_EXPLAINED;Tip: Blue is the color of transformation and trickery.
+LOADING_HINT_RANDOM_GREEN_COLOR_EXPLAINED;Tip: Green is the color of growth and wild predators.
+LOADING_HINT_RANDOM_YELLOW_COLOR_EXPLAINED;Tip: Yellow is the color of wind and speed.
+LOADING_HINT_RANDOM_CHARGE_CANT_PASS_THROUGH;Tip: You can't charge through other creatures.
+LOADING_HINT_RANDOM_BLOCK_AQUATIC_WITH_LANDS;Tip: Build lands to block aquatic enemies.
+LOADING_HINT_RANDOM_DAILY_QUEST_1;Tip: The most effective way to gain battle chests is to come back every day and complete your daily quest.
+LOADING_HINT_RANDOM_THE_HUB;Did you know: faeria.com/the-hub is our official site where players publish their own guides
+LOADING_HINT_RANDOM_CARDBACK_FROM_SOLO;Tip: Complete all of solo mode to unlock the Dragon cardback.
+LOADING_HINT_RANDOM_PANDORA_ECONMY;Tip: When Pandora awakens, all faeria wells are destroyed but players get double faeria each turn.
+LOADING_HINT_RANDOM_TAUNT_BEST_DEFENSE;Tip: Creatures with Taunt are often the best way to protect yourself.
+LOADING_HINT_RANDOM_BUILD_LANDS_EARLY_GAME;Tip: Build lands in the early game. Save the +1 card and +1 faeria buttons for later.
+LOADING_HINT_RANDOM_GIANT_LATEGAME_CREATURES_EXIST;Tip: Many decks build up powerful late-game threats. Save removal for them.
+LOADING_HINT_RANDOM_COUNTERING_RUSH_1;Tip: When playing against rush, move your creatures onto their aggressive lands.
+LOADING_HINT_RANDOM_STRUCTURES_LEGAL_PLACEMENT;Tip: Structures can be played on lands of any color.
+LOADING_HINT_RANDOM_STRUCTURES_DIRECTLY_ACTIVATES;Tip: Structures can be activated on the turn they were summoned.
+LOADING_HINT_RANDOM_GET_LANDS_NEAR_OPPONENT;Tip: Try to build lands adjacent to your enemy's god.
+LOADING_HINT_RANDOM_OVERDRAWING_DESTROYS_CARDS;Tip: You can only hold 9 cards at a time. Excess cards are destroyed when drawn.
+LOADING_HINT_RANDOM_COUNTERING_RUSH_2;Tip: Defeat rush players by blocking their aggressive lands. Counter-attack before they can break through.
+LOADING_HINT_RANDOM_YAK_LORE_1;<i>If you harm a yak, you harm the world</i>\n<align=right>Syland saying</align>
+LOADING_HINT_RANDOM_FRIENDS_BLOCK_RANGED;Tip: Ranged creatures can't shoot through friendly units.
+LOADING_HINT_RANDOM_LANDS_ARE_BETTER_THAN_CARDS;Tip: Creating lands is often more important than drawing cards.
+LOADING_HINT_RANDOM_ENDGAME_THREATS_EXIST;Tip: Many threats will punish you for stalling. Once have an advantage, attack!
+LOADING_HINT_RANDOM_FATIGUE_HURTS;Tip: Once your deck runs out of cards, you take increasing damage each draw.
+LOADING_HINT_RANDOM_JALMYR_LORE_2;Jalmyr's progressive puzzles often perplex the most proficient players.
+LOADING_HINT_RANDOM_STEAM_FORGE_LORE;Fed by faeria, imperial steam forges are unpredictable but effective.
+LOADING_HINT_RANDOM_JALMYR_LORE_3;Jalmyr could not bring himself to fully destroy his brother, the lord of darkness.
+LOADING_HINT_RANDOM_YELLOW_USES_HASTE;Tip: Yellow decks often use Haste creatures. Set up defenses ahead of time.
+LOADING_HINT_RANDOM_RED_DIRECT_DAMAGE;Tip: Red decks often use direct damage. Be careful when you're at low life.
+LOADING_HINT_RANDOM_FIRESTORM_EXISTS;Tip: Fire Storm is a red card that can deal 3 damage to all enemy creatures.
+LOADING_HINT_RANDOM_UNIQUE_EMOTES_EXIST;Tip: Many avatars have unique emotes.
+LOADING_HINT_RANDOM_BYPASSING_TAUNT;Tip: A taunted creature cannot move itself, but it can be moved by another effect. Even Dash.
+LOADING_HINT_RANDOM_DON'T_OVERBUFF_CREATURES;Tip: Be careful before boosting a creature beyond 6/6. Removal can punish you.
+LOADING_HINT_RANDOM_JOIN_FAERIA'S_DISCORD;Tip: Got a question or comment? Join the official Faeria Discord server. A link's in your friend's list.
+LOADING_HINT_RANDOM_ESPORTS_FAERIA_EXISTS;Tip: Go to esports.faeria.com for information on faeria tournaments and prizes.
+LOADING_HINT_RANDOM_TOP_8_GODS_ON_LADDER_INVITED;Tip: Each season, the top 10 players in god rank are invited to a special tournament
+LOADING_HINT_RANDOM_HARD_REMOVAL_COSTS_6;Tip: The best removal card costs about 6 faeria to play.
+LOADING_HINT_RANDOM_KILL_BURN_FAST;Tip: When playing against burn decks, end the game as fast as possible.
+LOADING_HINT_RANDOM_REVIEW_FAERIA_PLEASE;If you like faeria, don't forget to leave a review. It helps grow the community.
+LOADING_HINT_RANDOM_RAPALA_LORE_2;The most feared sight in a seaside village is not a tsunami, but a grinning fish.
+LOADING_HINT_RANDOM_TIPS_EXIST;Tip: Tips are sometimes shown during loading screens.
+LOADING_HINT_RANDOM_PROTECT_YOUR_ORB;Tip: Don't let your opponent get lands next to your god.
+LOADING_HINT_RANDOM_EMPEROR_LORE;The Emperor looks forward to the day when citizens are no longer necessary.
+LOADING_HINT_RANDOM_WISDOM_IS_BAD;Tip: Wise players rarely use the Wisdom card.
+LOADING_HINT_RANDOM_IONA_LORE_1;Before Iona the Shaytan had no word for 'mercy'.
+LOADING_HINT_RANDOM_OUTLAND_RANGER_LORE_1;The Outland Rangers are an ancient order of nobles that traded stone castles for open sky.
+LOADING_HINT_RANDOM_SYLAND_FARMERS_LORE;Without fail, each generation of syland farmers gives birth to a great hero.
+LOADING_HINT_RANDOM_IONA_LORE_2;It's the dream of every bard to compose a tribute worthy of Iona.
+LOADING_HINT_RANDOM_YAK_LEVEL;Tip: There's no Yak level
+LOADING_HINT_RANDOM_KROG_LORE_1;Krog mostly just goes around *telling* everyone he's the ogre king.
+LOADING_HINT_RANDOM_RAPALA_LORE_1;Some fish just want to watch the world burn.
+LOADING_HINT_RANDOM_THYRIAN_LORE_1;Thyrian Golems are said to come from a mythical paradise above the clouds.
+LOADING_HINT_RANDOM_YAKNUS_LORE_1;King Yaknus, first of his name, is known as the breaker of yokes and the beast of all burdens.
+LOADING_HINT_RANDOM_MAGNUS_LORE_1;As a boy Magnus was sent a dream by Aurora, which led him to the crown.
+LOADING_HINT_RANDOM_RUUNIN_LORE_1;Despite her protests, Ruunin's followers insist on honorably burying her each time she dies.
+LOADING_HINT_RANDOM_JALMYR_LORE_1;Rumor has it that Jalmyr will grant a wish to any that can teach him something new.
+LOADING_HINT_RANDOM_GARUDAN_LORE_1;Garudan is kind of a jerk.
+LOADING_HINT_RANDOM_HEXAGON_JOKE;Tip: A hexagon is an amazing shape. It has six fantastic sides.
+LOADING_HINT_RANDOM_SAGAMI_LORE_1;In the hands of the Sagami, the most hideous spirits become sacred guardians.
+LOADING_HINT_RANDOM_SAGAMI_LORE_2;The Sagami bind murderous spirits as sacred guardians.
+LOADING_HINT_RANDOM_SEIFER_LORE_1;Seifer has a pet ferret named Deathspark.
+LOADING_HINT_RANDOM_SEIFER_LORE_2;Seifer once challenged the sun to a staring contest. History does not record the winner.
+LOADING_HINT_RANDOM_DROWNING;Tip: Creatures in empty ocean tiles without flying or aquatic die at the end of their controller's turn.
+LOADING_HINT_RANDOM_PANDORA_GODS;Pandora is the world where dreams happens. Thankfully, gods are allowed to enter it.
+LOADING_HINT_RANDOM_AURORA_DREAMS;Thanks to her ability to enter persons' dreams, Aurora can change one's destiny.
+LOADING_HINT_RANDOM_MULTI_TAUNT;Tip: If several creatures are taunting the same creature, that creature can attack any of the taunts.
+LOADING_HINT_RANDOM_HOLD_EXPLORE;Tip: You can hold your <i>Explore</i> card to buff your event-based creatures later.
+LOADING_HINT_RANDOM_FALCON_DIVE;Tip: Falcon Dive is an excellent, versatile tool that can be included in almost any deck.
+LOADING_HINT_RANDOM_SYLAND_HORSEMASTER;Tip: Syland Horsemaster allows Green and Red decks to make surprise attacks.
+LOADING_HINT_RANDOM_GOD_HUNTER;Tip: God Hunter can't attack or move if there is a taunt creature nearby.
+LOADING_HINT_RANDOM_UNLIKELY_HERO;Tip: Unlikely Hero's ability can be activated by hitting the opponent's orb.
+LOADING_HINT_RANDOM_MOVING_WITH_JUMP_AND_CHARGE;Tip: Moving a creature with a card takes into account its Jump and Charge abilities.
+LOADING_HINT_RANDOM_RADIANCE;Tip: Radiance is not affected by cost reduction cards.
+LOADING_HINT_RANDOM_ELEMENTALS;Tip: Elementals are a great way to accelerate your special land production.
+LOADING_HINT_RANDOM_PANDORA_POINTS;Tip: Accumulate Pandora Points each season to win special prizes.
+LOADING_HINT_RANDOM_PANDORA_CARD_BACK;Tip: End each season at Rank 15 or better to earn a special card back.
+LOADING_HINT_RANDOM_GOD_CARD_BACK;Tip: Reach God rank to receive a unique golden card back each season.
+LOADING_HINT_RANDOM_SEASON_RESET;Tip: Ranked and Pandora seasons reset on the first Monday of every month.
+LOADING_HINT_RANDOM_HARVEST_ORDER;Tip: Creatures harvest Faeria from left to right, top to bottom, from the active player's perspective.
+LOADING_HINT_RANDOM_TRANSFORM_WITH_HASTE;Tip: Transforming a creature with Haste can remove its Haste property and make it unable to attack.
+LOADING_HINT_RANDOM_LAND_LOCK_COUNTER;Tip: If your opponent land-locks you, move a creature on to one of their lands and create one of your own on an empty ocean tile.
+LOADING_HINT_RANDOM_CANNOT_CANCEL_GIFT;Tip: You cannot cancel playing a creature with a Gift effect once you place it on board
+LOADING_HINT_RANDOM_OROSEI_LORE;Orosei keeps watch over the realm of Pandora and its treasures.
+LOADING_HINT_RANDOM_FUGORO_LORE;Fugoro pillages treasures from the realm of Pandora.
+LOADING_HINT_RANDOM_GOKI_01;Fugoro has a nephew named Goki. You can find him in the shop.
+LOADING_HINT_RANDOM_WORLD_BOSSES;Defeat all of the World Bosses to unlock the Orb of Champions and its 3 Jewels.
+LOADING_HINT_RANDOM_WILD_LANDS;All coloured lands count as wild lands when paying land costs.
+LOADING_HINT_RANDOM_CORRUPT_1;Tip: Corrupt creatures love movement tricks!
+LOADING_HINT_RANDOM_CORRUPT_2;Tip: Don't let enemy creatures Corrupt your lands!
+LOADING_HINT_RANDOM_CRUCIBLE;You can practice tournament format games in private lobby with friends.
+LOADING_HINT_RANDOM_FALL_OF_EVERLIFE;Corruption spreads in Oversky ever since Kaios ate the fruit of Everlife.
+LOADING_HINT_RANDOM_TRIBAL;Some cards gain tribal benefits. Yaks love forming a herd <3.
+LOADING_HINT_RANDOM_LORE_BOOK;Collect lore by completing the daily Lore Quest or by opening mythic chests.
+LOADING_HINT_RANDOM_DECK_COSMETICS;Know the perfect cosmetics for your new deck? Choose a cosmetic set just for it in the deck editor.
+LOADING_HINT_RANDOM_DRAGONS_LAIR;Challenge new dragons every day in the Dragons Lair.

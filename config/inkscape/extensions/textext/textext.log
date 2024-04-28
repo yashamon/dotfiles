@@ -1,0 +1,49 @@
+[2020-09-26 10:52:44,062][DEBUG   ]: First run of TexText. Enforcing DEBUG mode.          //  (unknown file):0    
+[2020-09-26 10:52:44,062][DEBUG   ]: TexText initialized          //  (unknown file):0    
+[2020-09-26 10:52:44,062][DEBUG   ]: TexText version = '1.1.0' (md5sum = 91ab4266f61ab5eb315e8e5749efc973)          //  (unknown file):0    
+[2020-09-26 10:52:44,063][DEBUG   ]: platform.system() = 'Linux'          //  (unknown file):0    
+[2020-09-26 10:52:44,063][DEBUG   ]: platform.release() = '5.4.58-07649-ge120df5deade'          //  (unknown file):0    
+[2020-09-26 10:52:44,063][DEBUG   ]: platform.version() = '#1 SMP PREEMPT Wed Aug 26 04:56:33 PDT 2020'          //  (unknown file):0    
+[2020-09-26 10:52:44,063][DEBUG   ]: platform.machine() = 'x86_64'          //  (unknown file):0    
+[2020-09-26 10:52:44,063][DEBUG   ]: platform.uname() = uname_result(system='Linux', node='penguin', release='5.4.58-07649-ge120df5deade', version='#1 SMP PREEMPT Wed Aug 26 04:56:33 PDT 2020', machine='x86_64', processor='')          //  (unknown file):0    
+[2020-09-26 10:52:44,063][DEBUG   ]: platform.mac_ver() = ('', ('', '', ''), '')          //  (unknown file):0    
+[2020-09-26 10:52:44,063][DEBUG   ]: sys.executable = '/usr/bin/python3'          //  (unknown file):0    
+[2020-09-26 10:52:44,063][DEBUG   ]: sys.version = '3.8.5 (default, Aug  2 2020, 15:09:07) \n[GCC 10.2.0]'          //  (unknown file):0    
+[2020-09-26 10:52:44,063][DEBUG   ]: os.environ = environ({'USER': 'yashasavelyev', 'XCURSOR_SIZE': '38', 'BROWSER': '/usr/bin/garcon-url-handler', 'HOME': '/home/yashasavelyev', 'SOMMELIER_VERSION': '0.20', 'XCURSOR_SIZE_LOW_DENSITY': '19', 'MANAGERPID': '107', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'LD_ARGV0': '/opt/google/cros-containers/bin/garcon', 'WAYLAND_DISPLAY': 'wayland-0', 'QT_QPA_PLATFORMTHEME': 'gtk2', 'LOGNAME': 'yashasavelyev', 'SOMMELIER_DRM_DEVICE': '/dev/dri/renderD128', 'WAYLAND_DISPLAY_LOW_DENSITY': 'wayland-1', 'JOURNAL_STREAM': '8:6660', 'QT_AUTO_SCREEN_SCALE_FACTOR': '1', 'NCURSES_NO_UTF8_ACS': '1', 'PATH': '/usr/bin:/data/data/com.termux/files/usr/bin/applets:/data/data/com.termux/files/usr/bin:bin:/usr/local/sbin:/usr/bin:/usr/local/bin:/usr/sbin:/sbin:/bin:~/.local/bin:/root/.cabal/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:~/.cabal/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:/home/yashasavelyev/.local/bin:/home/yashasavelyev/.vim/plugged/fzf/bin', 'INVOCATION_ID': '43b96fe3fef94992b1244df16dad6125', 'XDG_RUNTIME_DIR': '/run/user/1000', 'XCURSOR_THEME': 'Adwaita', 'DISPLAY': ':0.0', 'SOMMELIER_GLAMOR': '1', 'LANG': 'en_US.UTF-8', 'DISPLAY_LOW_DENSITY': ':1', 'XDG_CONFIG_HOME': '/home/yashasavelyev/.config', 'SHELL': '/bin/zsh', 'QT_ACCESSIBILITY': '1', 'PWD': '/home/yashasavelyev/workspacemodules/globalfukaya', 'XDG_DATA_DIRS': '/home/yashasavelyev/.local/share:/home/yashasavelyev/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share', 'KITTY_WINDOW_ID': '1', 'WINDOWID': '4194318', 'TERM': 'xterm-kitty', 'COLORTERM': 'truecolor', 'SHLVL': '1', 'OLDPWD': '/home/yashasavelyev', 'ZSH': '/home/yashasavelyev/.oh-my-zsh', 'ANDROID_HOME': '/root/android-sdk-linux', 'PAGER': 'less', 'LESS': '-R', 'LC_CTYPE': 'en_US.UTF-8', 'LSCOLORS': 'Gxfxcxdxbxegedabagacad', '_': '/usr/bin/inkscape', 'PYTHONPATH': '/home/yashasavelyev/.config/inkscape/extensions:/usr/share/inkscape/extensions:/usr/share/inkscape/extensions/inkex/deprecated-simple', 'PYTHONIOENCODING': 'UTF-8', 'INKEX_GETTEXT_DOMAIN': 'inkscape', 'INKEX_GETTEXT_DIRECTORY': '/usr/share/locale'})          //  (unknown file):0    
+[2020-09-26 10:52:44,510][SUCCESS ]: + [Succ] TexText requirements          //  (unknown file):0    
+[2020-09-26 10:52:44,511][SUCCESS ]: /-and-* [Succ] Detect inkscape>=1.0          //  (unknown file):0    
+[2020-09-26 10:52:44,511][SUCCESS ]: |      inkscape=1.0 is found          //  (unknown file):0    
+[2020-09-26 10:52:44,511][SUCCESS ]: /-and-+ [Succ] Detect *latex          //  (unknown file):0    
+[2020-09-26 10:52:44,511][SUCCESS ]: |     /--or-* [Succ] `pdflatex` is found at `/usr/bin`          //  (unknown file):0    
+[2020-09-26 10:52:44,511][SUCCESS ]: |     |      `pdflatex` is found at `/usr/bin`          //  (unknown file):0    
+[2020-09-26 10:52:44,511][SUCCESS ]: |     /--or-* [Succ] `lualatex` is found at `/usr/bin`          //  (unknown file):0    
+[2020-09-26 10:52:44,511][SUCCESS ]: |     |      `lualatex` is found at `/usr/bin`          //  (unknown file):0    
+[2020-09-26 10:52:44,511][SUCCESS ]: |     /--or-* [Succ] `xelatex` is found at `/usr/bin`          //  (unknown file):0    
+[2020-09-26 10:52:44,511][SUCCESS ]: |            `xelatex` is found at `/usr/bin`          //  (unknown file):0    
+[2020-09-26 10:52:44,511][SUCCESS ]: /-and-+ [Succ] Detect GUI library          //  (unknown file):0    
+[2020-09-26 10:52:44,511][SUCCESS ]:       /--or-* [Succ] GTK3 is found          //  (unknown file):0    
+[2020-09-26 10:52:44,511][INFO    ]:       /--or-* [Fail] TkInter is not found          //  (unknown file):0    
+[2020-09-26 10:52:44,511][INFO    ]:              Please follow installation instructions at           //  (unknown file):0    
+[2020-09-26 10:52:44,512][INFO    ]:                     [94m[4mhttps://textext.github.io/textext/install/linux.html#linux-install-tkinter[0m          //  (unknown file):0    
+[2020-09-26 10:52:44,627][DEBUG   ]: TexText.effect          //  (unknown file):0    
+[2020-09-26 10:52:44,627][DEBUG   ]:   Using default preamble file `default_packages.tex`          //  (unknown file):0    
+[2020-09-26 10:52:44,627][DEBUG   ]:   Run TexText GUI          //  (unknown file):0    
+[2020-09-26 10:53:02,845][DEBUG   ]:     TexText.do_convert          //  (unknown file):0    
+[2020-09-26 10:53:02,848][DEBUG   ]:       args:          //  (unknown file):0    
+[2020-09-26 10:53:02,848][DEBUG   ]:         self = <textext.base.TexText object at 0x78aadb9edf40>          //  (unknown file):0    
+[2020-09-26 10:53:02,849][DEBUG   ]:         text = ''          //  (unknown file):0    
+[2020-09-26 10:53:02,849][DEBUG   ]:         preamble_file = '/home/yashasavelyev/dotfiles/config/inkscape/extensions/textext/default_packages.tex'          //  (unknown file):0    
+[2020-09-26 10:53:02,849][DEBUG   ]:         user_scale_factor = 1.0          //  (unknown file):0    
+[2020-09-26 10:53:02,850][DEBUG   ]:         old_svg_ele = None          //  (unknown file):0    
+[2020-09-26 10:53:02,850][DEBUG   ]:         alignment = 'middle center'          //  (unknown file):0    
+[2020-09-26 10:53:02,850][DEBUG   ]:         tex_command = 'xelatex'          //  (unknown file):0    
+[2020-09-26 10:53:02,850][DEBUG   ]:         original_scale = None          //  (unknown file):0    
+[2020-09-26 10:53:02,850][DEBUG   ]:         Transform = <class 'inkex.transforms.Transform'>          //  (unknown file):0    
+[2020-09-26 10:53:02,851][DEBUG   ]:         tex_executable = '/usr/bin/xelatex'          //  (unknown file):0    
+[2020-09-26 10:53:02,851][DEBUG   ]:       args: done          //  (unknown file):0    
+[2020-09-26 10:53:02,851][DEBUG   ]:       no text, return          //  (unknown file):0    
+[2020-09-26 10:53:02,851][DEBUG   ]:     TexText.do_convert done          //  (unknown file):0    
+[2020-09-26 10:53:02,862][DEBUG   ]:   Run TexText GUI done          //  (unknown file):0    
+[2020-09-26 10:53:02,862][DEBUG   ]:   Saving global GUI settings          //  (unknown file):0    
+[2020-09-26 10:53:02,864][DEBUG   ]:   Saving global GUI settings done          //  (unknown file):0    
+[2020-09-26 10:53:02,865][DEBUG   ]: TexText.effect done          //  (unknown file):0    

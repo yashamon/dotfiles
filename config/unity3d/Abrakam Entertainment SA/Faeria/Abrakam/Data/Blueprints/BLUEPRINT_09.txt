@@ -1,0 +1,17 @@
+# Name: BLUEPRINT_09
+# Order: 9
+# RequirementType: LEVEL
+# RequirementParam: 21
+-------- 
+1 Khalim, Sky Prodigy
+2 Choking Sand
+2 Last Nightmare
+2 Demon Wing
+2 Khalim's Skyguard
+3 Soul Drain
+3 Annoying Gnat
+3 Golden Aviary
+3 Windborne Emissary
+3 Dune Drake
+3 Windborne Champion
+3 Drakkar Skycaptain

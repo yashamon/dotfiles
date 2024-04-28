@@ -1,0 +1,16 @@
+Trash/
+.tmp*/
+google-chrome-beta/
+google-chrome-unstable/
+*google*
+firefox/
+google-chrome/
+chromium/
+config/pulse/
+config/PowerToys/
+vifminfo  
+tags
+*.log
+!./config/PowerToys/Keyboard Manager/settings.json
+newtest/
+

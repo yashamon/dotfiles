@@ -1,0 +1,25 @@
+PROLOGUE_1_0001;Construye tierras e invoca criaturas para atacar al enemigo. ¡Destruye su orbe para ganar!
+PROLOGUE_1_0023;¡Bienvenido a Faeria! Yo soy Fugoro, tu amigo --
+PROLOGUE_1_0002;¡Deja de correr, chico rana!
+PROLOGUE_1_0024;¡Ay, Ayúdame! ¡Te daré una recompensa!
+PROLOGUE_1_0007;¡3 faeria! Puedo convocar a una criatura.
+PROLOGUE_1_0008;¡Espero que estés listo para recibir un poco de dolor!
+PROLOGUE_1_0025;Necesitarás tierras para invocar ese Yak.
+PROLOGUE_1_0011;Invócalo aquí.
+PROLOGUE_1_0012;Las criaturas deben esperar un turno antes de atacar.
+PROLOGUE_1_0013;¡Ataca!
+PROLOGUE_1_0026;Aplasta a ese bandido para que podamos contraatacar.
+PROLOGUE_1_0014;Selecciona tu yak.
+PROLOGUE_1_0015;Ataca a este bandido.
+PROLOGUE_1_0027;¡Santo Yak!
+PROLOGUE_1_0028;Avanza y ataca a Sharra directamente.
+PROLOGUE_1_0022;¡Bien luchado!
+GAMEPAD_PROLOGUE_1_0029;También puedes pulsar {GAMEPAD_BACK_BUTTONS_R2} como acceso rápido a la rueda
+GAMEPAD_PROLOGUE_1_0010;Mueve tu cursor a la carta de Yak y pulsa {GAMEPAD_ACTION_CONFIRM}
+MOUSE_PROLOGUE_1_0010;Selecciona tu yak.
+GAMEPAD_PROLOGUE_1_0006;Mueve tu cursor aquí y MANTÉN {GAMEPAD_ACTION_CONFIRM} para pasar turno.
+MOUSE_PROLOGUE_1_0006;Pasa el turno.
+GAMEPAD_PROLOGUE_1_0004;Pulsa {GAMEPAD_ACTION_CONFIRM} para construir aquí.
+MOUSE_PROLOGUE_1_0004;Construye aquí.
+GAMEPAD_PROLOGUE_1_0003;Mueve el cursor aquí y pulsa {GAMEPAD_ACTION_CONFIRM} para construir tierras.
+MOUSE_PROLOGUE_1_0003;Construye tierras hacia tu enemigo.

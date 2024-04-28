@@ -1,0 +1,511 @@
+AVATAR_ADVENTURER_NAME;Fugoro
+AVATAR_AURORA_NAME;Aurora
+AVATAR_BASIC_NAME;Dobrodruh
+AVATAR_BLUE_ELEMENTAL_1_NAME;Azurový skřítek
+AVATAR_BLUE_ELEMENTAL_2_NAME;Azurové vědomí
+AVATAR_BLUE_ELEMENTAL_3_NAME;Azurový džin
+AVATAR_BOMB_SLINGER_NAME;Bom-R
+AVATAR_CAP_10_NAME;CAP-10
+AVATAR_DARK_WISP_NAME;Temná bludička
+AVATAR_FUGORO_NAME;Fugoro
+AVATAR_GREEN_ELEMENTAL_1_NAME;Zelenající se skřítek
+AVATAR_GREEN_ELEMENTAL_2_NAME;Zelenající se vědomí
+AVATAR_GREEN_ELEMENTAL_3_NAME;Zelenající se džin
+AVATAR_HOAKA_NAME;Hoaka
+AVATAR_JALMYR_NAME;Jalmyr
+AVATAR_KAIOS_NAME;Kaios
+AVATAR_KELDRAN_EMISSARY_NAME;Větrorozený vyslanec
+AVATAR_KHALIM_NAME;Khalim
+AVATAR_KINGS_GUARD_NAME;Balhar
+AVATAR_KOBOLD_MERCENARY_NAME;Šéf Podsvětí
+AVATAR_KROG_NAME;Krog
+AVATAR_MAGDA_NAME;Magda
+AVATAR_OGRE_BATTLER_NAME;Zlobří bojovník
+AVATAR_RAIZEON_NAME;Raizeon
+AVATAR_RAPALA_NAME;Rapala
+AVATAR_RED_ELEMENTAL_1_NAME;Karmínový skřítek
+AVATAR_RED_ELEMENTAL_2_NAME;Karmínové vědomí
+AVATAR_RED_ELEMENTAL_3_NAME;Karmínový džin
+AVATAR_RUUNIN_NAME;Ruunin
+AVATAR_SAGAMI_ELDER_NAME;Sagamský stařec
+AVATAR_SEIFER_NAME;Seifer
+AVATAR_SHARRA_NAME;Sharra
+AVATAR_SHAYTAN_ASSASSIN_NAME;Shaytanský vrah
+AVATAR_TAESA_NAME;Grabijská kouzelnice
+AVATAR_TARANGA_NAME;Taranga
+AVATAR_TARUM_NAME;Tarum
+AVATAR_THE_EGG_NAME;Vejce
+AVATAR_ULANI_NAME;Ulani
+AVATAR_VERDURAN_FORCE_NAME;Síla zeleně
+AVATAR_YAKKAR_NAME;Jakkar
+AVATAR_YAK_CYNICAL_NAME;Cynický jak
+AVATAR_YAK_DRAGON_NAME;Fafnir
+AVATAR_YAK_FANCY_NAME;Sir Jakkinton
+AVATAR_YAK_FARMER_NAME;Slámovec
+AVATAR_YAK_FAT_NAME;Mazlík
+AVATAR_YAK_FORCER_NAME;Sekuriťák
+AVATAR_YAK_HIPPIE_NAME;Květ míru
+AVATAR_YAK_KING_NAME;Král Jaknus
+AVATAR_YAK_PIRATE_NAME;Jak Sparrow
+AVATAR_YELLOW_ELEMENTAL_1_NAME;Zpustlý skřítek
+AVATAR_YELLOW_ELEMENTAL_2_NAME;Zpustlé vědomí
+AVATAR_YELLOW_ELEMENTAL_3_NAME;Zpustlý džin
+CARD_BACK_1605_GOLD_NAME;Zlatý rub karet z 1. sezóny
+CARD_BACK_1605_SILVER_NAME;Stříbrný rub karet z 1. sezóny
+CARD_BACK_1606_GOLD_NAME;Zlatý rub karet ze 2. sezóny
+CARD_BACK_1606_SILVER_NAME;Stříbrný rub karet ze 2. sezóny
+CARD_BACK_1607_GOLD_NAME;Zlatý rub karet ze 3. sezóny
+CARD_BACK_1607_SILVER_NAME;Stříbrný rub karet ze 3. sezóny
+CARD_BACK_1608_GOLD_NAME;Zlatý rub karet ze 4. sezóny
+CARD_BACK_1608_SILVER_NAME;Stříbrný rub karet ze 4. sezóny
+CARD_BACK_1609_GOLD_NAME;Zlatý rub karet z 5. sezóny
+CARD_BACK_1609_SILVER_NAME;Stříbrný rub karet z 5. sezóny
+CARD_BACK_1610_GOLD_NAME;Zlatý rub karet z 6. sezóny
+CARD_BACK_1610_SILVER_NAME;Stříbrný rub karet z 6. sezóny
+CARD_BACK_1611_GOLD_NAME;Zlatý rub karet ze 7. sezóny
+CARD_BACK_1611_SILVER_NAME;Stříbrný rub karet ze 7. sezóny
+CARD_BACK_1612_GOLD_NAME;Zlatý rub karet z 8. sezóny
+CARD_BACK_1612_SILVER_NAME;Stříbrný rub karet z 8. sezóny
+CARD_BACK_1701_GOLD_NAME;Zlatý rub karet z 9. sezóny
+CARD_BACK_1701_SILVER_NAME;Stříbrný rub karet z 9. sezóny
+CARD_BACK_1702_GOLD_NAME;Zlatý rub karet z 10. sezóny
+CARD_BACK_1702_SILVER_NAME;Stříbrný rub karet z 10. sezóny
+CARD_BACK_1703_GOLD_NAME;Zlatý rub karet z 11. sezóny
+CARD_BACK_1703_SILVER_NAME;Stříbrný rub karet z 11. sezóny
+CARD_BACK_1704_GOLD_NAME;Zlatý rub karet ze 12. sezóny
+CARD_BACK_1704_SILVER_NAME;Stříbrný rub karet ze 12. sezóny
+CARD_BACK_1705_GOLD_NAME;Zlatý rub karet ze 13. sezóny
+CARD_BACK_1705_SILVER_NAME;Stříbrný rub karet ze 13. sezóny
+CARD_BACK_1706_GOLD_NAME;Zlatý rub karet za Sezónu 14
+CARD_BACK_1706_SILVER_NAME;Stříbrný rub karet za Sezónu 14
+CARD_BACK_1707_GOLD_NAME;Zlatý rub karet z 15. sezóny
+CARD_BACK_1707_SILVER_NAME;Stříbrný rub karet z 15. sezóny
+CARD_BACK_1708_GOLD_NAME;Zlatý rub karet z 16. sezóny
+CARD_BACK_1708_SILVER_NAME;Stříbrný rub karet z 16. sezóny
+CARD_BACK_1709_GOLD_NAME;Zlatý rub karet ze 17. sezóny
+CARD_BACK_1709_SILVER_NAME;Stříbrný rub karet ze 17. sezóny
+CARD_BACK_1710_GOLD_NAME;Zlatý rub karet z 18. sezóny
+CARD_BACK_1710_SILVER_NAME;Stříbrný rub karet z 18. sezóny
+CARD_BACK_1711_GOLD_NAME;Zlatý rub karet z 19. sezóny
+CARD_BACK_1711_SILVER_NAME;Stříbrný rub karet z 19. sezóny
+CARD_BACK_1712_GOLD_NAME;Zlatý rub karet z 20. sezóny
+CARD_BACK_1712_SILVER_NAME;Stříbrný rub karet z 20. sezóny
+CARD_BACK_1801_GOLD_NAME;Zlatý rub karet z 21. sezóny
+CARD_BACK_1801_SILVER_NAME;Stříbrný rub karet z 21. sezóny
+CARD_BACK_1802_GOLD_NAME;Zlatý rub karet z 22. sezóny
+CARD_BACK_1802_SILVER_NAME;Stříbrný rub karet z 22. sezóny
+CARD_BACK_1803_GOLD_NAME;Zlatý rub karet z 23. sezóny
+CARD_BACK_1803_SILVER_NAME;Stříbrný rub karet z 23. sezóny
+CARD_BACK_1804_GOLD_NAME;Zlatý rub karet z 24. sezóny
+CARD_BACK_1804_SILVER_NAME;Stříbrný rub karet z 24. sezóny
+CARD_BACK_1805_GOLD_NAME;Zlatý rub karet z 25. sezóny
+CARD_BACK_1805_SILVER_NAME;Stříbrný rub karet z 25. sezóny
+CARD_BACK_ADVENTURER_NAME;Fugorův rub karet
+CARD_BACK_ADVENTURE_POUCH_NAME;Dobrodruhův rub karet
+CARD_BACK_AURORA_NAME;Aurořin rub karet
+CARD_BACK_BASIC_COPPER_NAME;Rub karet Fialový diamant
+CARD_BACK_BASIC_DIAMOND_NAME;Rub karet Stříbrný diamant
+CARD_BACK_BASIC_NAME;Základní rub karet
+CARD_BACK_BOMB_SLINGER_NAME;Bom-Rův rub karet
+CARD_BACK_DRAGON_NAME;Rub karet Černý drak
+CARD_BACK_FAERIA_WORLD_CIRCUIT_NAME;Faeria World Circuit
+CARD_BACK_FUGORO_NAME;Fugorův rub karet
+CARD_BACK_HOAKA_NAME;Hoakův rub karet
+CARD_BACK_JALMYR_NAME;Jalmyrův rub karet
+CARD_BACK_KAIOS_NAME;Kaiův rub karet
+CARD_BACK_KHALIM_NAME;Khalimův rub karet
+CARD_BACK_KROG_NAME;Krogův rub karet
+CARD_BACK_MAGDA_NAME;Magdin rub karet
+CARD_BACK_MOSAIC_FLOWER_NAME;Rub karet Mozaiková květina
+CARD_BACK_MOSAIC_SOLAR_NAME;Rub karet Mozaikové slunce
+CARD_BACK_MUCHA_NAME;Rub karet Art Nouveau
+CARD_BACK_PANDORA_1610_GOLD_NAME;Pandorský zlatý rub karet ze 6. sezóny
+CARD_BACK_PANDORA_1610_SILVER_NAME;Pandorský stříbrný rub karet ze 6. sezóny
+CARD_BACK_PANDORA_1611_GOLD_NAME;Pandorský zlatý rub karet ze 7. sezóny
+CARD_BACK_PANDORA_1611_SILVER_NAME;Pandorský stříbrný rub karet ze 7. sezóny
+CARD_BACK_PANDORA_1612_GOLD_NAME;Pandorský zlatý rub karet z 8. sezóny
+CARD_BACK_PANDORA_1612_SILVER_NAME;Pandorský stříbrný rub karet z 8. sezóny
+CARD_BACK_PANDORA_1701_GOLD_NAME;Pandorský zlatý rub karet z 9. sezóny
+CARD_BACK_PANDORA_1701_SILVER_NAME;Pandroský stříbrný rub karet z 9. sezóny
+CARD_BACK_PANDORA_1702_GOLD_NAME;Pandorský zlatý rub karet z 10. sezóny
+CARD_BACK_PANDORA_1702_SILVER_NAME;Pandorský stříbrný rub karet z 10. sezóny
+CARD_BACK_PANDORA_1703_GOLD_NAME;Pandorský zlatý rub karet z 11. sezóny
+CARD_BACK_PANDORA_1703_SILVER_NAME;Pandorský stříbrný rub karet z 11. sezóny
+CARD_BACK_PANDORA_1704_GOLD_NAME;Pandorský zlatý rub karet ze 12. sezóny
+CARD_BACK_PANDORA_1704_SILVER_NAME;Pandorský stříbrný rub karet ze 12. sezóny
+CARD_BACK_PANDORA_1705_GOLD_NAME;Pandorský zlatý rub karet ze 13. sezóny
+CARD_BACK_PANDORA_1705_SILVER_NAME;Pandroský stříbrný rub karet ze 13. sezóny
+CARD_BACK_PANDORA_1706_GOLD_NAME;Zlatý rub karet za Pandora Sezónu 14
+CARD_BACK_PANDORA_1706_SILVER_NAME;Stříbrný rub karet za Pandora Sezónu 14
+CARD_BACK_PANDORA_1707_GOLD_NAME;Pandorský zlatý rub karet z 15. sezóny
+CARD_BACK_PANDORA_1707_SILVER_NAME;Pandorský stříbrný rub karet z 15. sezóny
+CARD_BACK_PANDORA_1708_GOLD_NAME;Pandorský zlatý rub karet z 16. sezóny
+CARD_BACK_PANDORA_1708_SILVER_NAME;Pandorský stříbrný rub karet z 16. sezóny
+CARD_BACK_PANDORA_1709_GOLD_NAME;Pandorský zlatý rub karet ze 17. sezóny
+CARD_BACK_PANDORA_1709_SILVER_NAME;Pandorský stříbrný rub karet ze 17. sezóny
+CARD_BACK_PANDORA_1710_GOLD_NAME;Pandorský zlatý rub karet z 18. sezóny
+CARD_BACK_PANDORA_1710_SILVER_NAME;Pandorský stříbrný rub karet z 18. sezóny
+CARD_BACK_PANDORA_1711_GOLD_NAME;Pandorský zlatý rub karet z 19. sezóny
+CARD_BACK_PANDORA_1711_SILVER_NAME;Pandorský stříbrný rub karet z 19. sezóny
+CARD_BACK_PANDORA_1712_GOLD_NAME;Pandorský zlatý rub karet z 20. sezóny
+CARD_BACK_PANDORA_1712_SILVER_NAME;Pandorský stříbrný rub karet z 20. sezóny
+CARD_BACK_PANDORA_1801_GOLD_NAME;Pandorský zlatý rub karet z 21. sezóny
+CARD_BACK_PANDORA_1801_SILVER_NAME;Pandorský stříbrný rub karet z 21. sezóny
+CARD_BACK_PANDORA_1802_GOLD_NAME;Pandorský zlatý rub karet z 22. sezóny
+CARD_BACK_PANDORA_1802_SILVER_NAME;Pandorský stříbrný rub karet z 22. sezóny
+CARD_BACK_PANDORA_1803_GOLD_NAME;Pandorský zlatý rub karet z 23. sezóny
+CARD_BACK_PANDORA_1803_SILVER_NAME;Pandorský stříbrný rub karet z 23. sezóny
+CARD_BACK_PANDORA_1804_GOLD_NAME;Pandorský zlatý rub karet z 24. sezóny
+CARD_BACK_PANDORA_1804_SILVER_NAME;Pandorský stříbrný rub karet z 24. sezóny
+CARD_BACK_PANDORA_1805_GOLD_NAME;Pandorský zlatý rub karet z 25. sezóny
+CARD_BACK_PANDORA_1805_SILVER_NAME;Pandorský stříbrný rub karet z 25. sezóny
+CARD_BACK_PREMIUM_NAME;Prémiový rub karet
+CARD_BACK_RAPALA_NAME;Rapalův rub karet
+CARD_BACK_RUUNIN_NAME;Ruuninin rub karet
+CARD_BACK_SEIFER_NAME;Seiferův rub karet
+CARD_BACK_SHARRA_NAME;Sharrin rub karet
+CARD_BACK_TARUM_NAME;Tarumův rub karet
+EMOTE_ADVENTURER_GREETINGS_NAME;Ať vyhraje ta lepší žába.
+EMOTE_ADVENTURER_OOPS_NAME;Jejda.
+EMOTE_ADVENTURER_TAUNT_NAME;Možná by sis měl koupit víc karet.
+EMOTE_ADVENTURER_UNIQUE_NAME;Už sis koupil můj zánebský poklad?
+EMOTE_ADVENTURER_WELL_PLAYED_NAME;Brilantní.
+EMOTE_ADVENTURER_WOW_NAME;U všech žabáků!
+EMOTE_AURORA_GREETINGS_NAME;Tak ráda tě vidím.
+EMOTE_AURORA_OOPS_NAME;Chybami se člověk učí.
+EMOTE_AURORA_TAUNT_NAME;Rozkošné!
+EMOTE_AURORA_UNIQUE_NAME;Žádná úcta ke starším...
+EMOTE_AURORA_WELL_PLAYED_NAME;Zasloužíš si můj respekt.
+EMOTE_AURORA_WOW_NAME;Vypadá to, že jsem ještě neviděla všechno.
+EMOTE_BASIC_GREETINGS_NAME;Vítej.
+EMOTE_BASIC_OOPS_NAME;To byla chyba.
+EMOTE_BASIC_TAUNT_NAME;Nepřežiješ!
+EMOTE_BASIC_WELL_PLAYED_NAME;Dobře zahráno.
+EMOTE_BASIC_WOW_NAME;Ohromující!
+EMOTE_BOMB_SLINGER_GREETINGS_NAME;Uvítací sekvence zahájena!
+EMOTE_BOMB_SLINGER_OOPS_NAME;CHYBA. CHYBA.
+EMOTE_BOMB_SLINGER_TAUNT_NAME;Vyhladit!
+EMOTE_BOMB_SLINGER_UNIQUE_NAME;Instaluji aktualizace...
+EMOTE_BOMB_SLINGER_WELL_PLAYED_NAME;Dobře zahráno = True!
+EMOTE_BOMB_SLINGER_WOW_NAME;Úrovně zábavy nastaveny na maximum!
+EMOTE_FUGORO_GREETINGS_NAME;Vítej, příteli.
+EMOTE_FUGORO_OOPS_NAME;Za peníze si moudrost nekoupíš.
+EMOTE_FUGORO_TAUNT_NAME;Chceš svou prohru i dárkově zabalit?
+EMOTE_FUGORO_UNIQUE_NAME;Nakupte více truhel, podpořte místní obchodníky!
+EMOTE_FUGORO_WELL_PLAYED_NAME;Dobře zahráno. Jsi můj oblíbený zákazník.
+EMOTE_FUGORO_WOW_NAME;Úžasné! Měl bych si účtovat vstupné!
+EMOTE_HOAKA_GREETINGS_NAME;Vítej! Vítej!
+EMOTE_HOAKA_OOPS_NAME;To jsem neměl dělat.
+EMOTE_HOAKA_TAUNT_NAME;Už jsi prohrál. Jen to ještě nevíš.
+EMOTE_HOAKA_UNIQUE_NAME;Jsem tak chytrý, že ohromuji sám sebe!
+EMOTE_HOAKA_WELL_PLAYED_NAME;Jsi osvěžující výzva!
+EMOTE_HOAKA_WOW_NAME;Skvělé!
+EMOTE_JALMYR_GREETINGS_NAME;Uvítání
+EMOTE_JALMYR_OOPS_NAME;Hmm. Nemalá chyba.
+EMOTE_JALMYR_TAUNT_NAME;Možná by ti prospělo více hádanek.
+EMOTE_JALMYR_UNIQUE_NAME;Nepospíchej
+EMOTE_JALMYR_WELL_PLAYED_NAME;Učíš se dobře.
+EMOTE_JALMYR_WOW_NAME;Báječné.
+EMOTE_KAIOS_GREETINGS_NAME;Vítej v mé říši.
+EMOTE_KAIOS_OOPS_NAME;Pošetilé.
+EMOTE_KAIOS_TAUNT_NAME;Pokloň se mi.
+EMOTE_KAIOS_UNIQUE_NAME;Přidej se ke mně. Je to tvůj osud.
+EMOTE_KAIOS_WELL_PLAYED_NAME;Překonal jsi má očekávání.
+EMOTE_KAIOS_WOW_NAME;Působivé!
+EMOTE_KHALIM_GREETINGS_NAME;Skvělé setkání.
+EMOTE_KHALIM_OOPS_NAME;Neodpustitelné.
+EMOTE_KHALIM_TAUNT_NAME;Tvoje schopnosti nejsou úplné.
+EMOTE_KHALIM_UNIQUE_NAME;Nesnáším písek. Dostane se všude.
+EMOTE_KHALIM_WELL_PLAYED_NAME;Dobře zahráno. Cítím z tebe nebezpečí.
+EMOTE_KHALIM_WOW_NAME;U všech divokých větrů!
+EMOTE_KROG_GREETINGS_NAME;Budeme kamarádi!
+EMOTE_KROG_OOPS_NAME;I králové dělat bú-bú.
+EMOTE_KROG_TAUNT_NAME;Udělám z tebe jaka!
+EMOTE_KROG_UNIQUE_NAME;Byl jsi zkrogován!
+EMOTE_KROG_WELL_PLAYED_NAME;Ty chytrá sušenka!
+EMOTE_KROG_WOW_NAME;*rozjařený smích*
+EMOTE_MAGDA_GREETINGS_NAME;Uvítání
+EMOTE_MAGDA_OOPS_NAME;Menší chyba.
+EMOTE_MAGDA_TAUNT_NAME;Bavíš mě.
+EMOTE_MAGDA_UNIQUE_NAME;Všechno je součástí mého plánu.
+EMOTE_MAGDA_WELL_PLAYED_NAME;Dobře zahráno. Podcenila jsem tě.
+EMOTE_MAGDA_WOW_NAME;Nemám slov.
+EMOTE_RAPALA_GREETINGS_NAME;Hodně štěstí a bav se!
+EMOTE_RAPALA_OOPS_NAME;Když se nedaří, tak se nedaří.
+EMOTE_RAPALA_TAUNT_NAME;Proč to tak hrotíš?
+EMOTE_RAPALA_UNIQUE_NAME;Pojďmě tomu obličeji vykouzlit úsměv!
+EMOTE_RAPALA_WELL_PLAYED_NAME;GG, dobře zahráno.
+EMOTE_RAPALA_WOW_NAME;To půjde na Youtube!
+EMOTE_RUUNIN_GREETINGS_NAME;Uvítání
+EMOTE_RUUNIN_OOPS_NAME;*Zavrčení*
+EMOTE_RUUNIN_TAUNT_NAME;Příroda nikdy nezemře.
+EMOTE_RUUNIN_UNIQUE_NAME;Co mě *zabije*, to mě posílí.
+EMOTE_RUUNIN_WELL_PLAYED_NAME;Jsi vynikající lovec.
+EMOTE_RUUNIN_WOW_NAME;U mých děsivých tesáků!
+EMOTE_SEIFER_GREETINGS_NAME;Heh. Vítej.
+EMOTE_SEIFER_OOPS_NAME;Jen menší nezdar.
+EMOTE_SEIFER_TAUNT_NAME;Pohřbím tě!
+EMOTE_SEIFER_UNIQUE_NAME;Může být jen jeden!
+EMOTE_SEIFER_WELL_PLAYED_NAME;Dobře zahráno! Zapácháš, ale nějaký rozum asi máš.
+EMOTE_SEIFER_WOW_NAME;Úžasné!
+EMOTE_SHARRA_GREETINGS_NAME;Skvělé setkání.
+EMOTE_SHARRA_OOPS_NAME;Přešlap. Neočekávej další.
+EMOTE_SHARRA_TAUNT_NAME;Zemři důstojně.
+EMOTE_SHARRA_UNIQUE_NAME;Proudit jako řeka, zasáhnout jako vítr.
+EMOTE_SHARRA_WELL_PLAYED_NAME;Jsi důstojným protivníkem.
+EMOTE_SHARRA_WOW_NAME;U všech jaků!
+EMOTE_TARUM_GREETINGS_NAME;Země tě vítá.
+EMOTE_TARUM_OOPS_NAME;I já dělám chyby.
+EMOTE_TARUM_TAUNT_NAME;Bude z tebe skvělé hnojivo.
+EMOTE_TARUM_UNIQUE_NAME;Jsi tak mrňavý.
+EMOTE_TARUM_WELL_PLAYED_NAME;Dobře záhráno, maličký.
+EMOTE_TARUM_WOW_NAME;Jménem dávné matky...
+ORB_ADVENTURER_NAME;Fugorův orb
+ORB_ARCANE_NAME;Tajemný orb
+ORB_AURORA_NAME;Aurořin orb
+ORB_BASIC_NAME;Základní orb
+ORB_BOMB_SLINGER_NAME;Bom-Rův orb
+ORB_CHAMPION_1_NAME;Šampionův orb
+ORB_CHAMPION_2_NAME;Šampionův orb
+ORB_CHAMPION_3_NAME;Šampionův orb
+ORB_CHAMPION_4_NAME;Šampionův orb
+ORB_DRAGON_NAME;Orb zlatého draka
+ORB_FUGORO_NAME;Fugurův orb
+ORB_GAEA_NAME;Orb Gaey
+ORB_GIANTS_NAME;Orb obrů
+ORB_HOAKA_NAME;Hoakův orb
+ORB_JALMYR_NAME;Jalmyrův orb
+ORB_KAIOS_NAME;Kaiův orb
+ORB_KHALIM_NAME;Khalimův orb
+ORB_KROG_NAME;Krogův orb
+ORB_LOYALTY_NAME;Orb věrnosti
+ORB_MAGDA_NAME;Magdin orb
+ORB_PACK_NAME;Exkluzivní orb pro podporovatele z Kickstarteru
+ORB_POWER_NAME;Tajemný kámen
+ORB_RAPALA_NAME;Rapalův orb
+ORB_RUUNIN_NAME;Ruuninin orb
+ORB_SEIFER_NAME;Seiferův orb
+ORB_SHARRA_NAME;Sharrin orb
+ORB_TARUM_NAME;Tarumův orb
+ORB_VALOR_NAME;Orb chrabrosti
+SHORE_AMAI_NAME;Amaiské pobřeží
+SHORE_FOREST_NAME;Lesní pobřeží
+SHORE_GABRIA_NAME;Gabrijské pobřeží
+SHORE_MENETHYR_NAME;Menethyrské pobřeží
+SHORE_OVERSKY_CORRUPT_NAME;Pobřeží zkázy Zánebí
+SHORE_OVERSKY_DAY_NAME;Pobřeží Zánebí ve dne
+SHORE_OVERSKY_NIGHT_NAME;Pobřeží Zánebí v noci
+SHORE_PANDORA_NAME;Pandorské pobřeží
+SHORE_SYLAND_NAME;Sylandské pobřeží
+SHORE_VOID_NAME;Pobřeží prázdnoty
+WELL_ADVENTURER_NAME;Fugorovy studny
+WELL_ARCANE_NAME;Tajemné studny
+WELL_AURORA_NAME;Aurořiny studny
+WELL_BASIC_NAME;Základní studny
+WELL_BOMB_SLINGER_NAME;Bom-R-ovy studny
+WELL_CARNIVOROUS_PLANT_NAME;Studny masožravých roslin
+WELL_FUGORO_NAME;Fugorovy studny
+WELL_GABRIA_NAME;Gabrijské studny
+WELL_HOAKA_NAME;Hoakovy studny
+WELL_JALMYR_NAME;Jalmyrovy studny
+WELL_KAIOS_NAME;Kaiovy studny
+WELL_KHALIM_NAME;Khalimovy studny
+WELL_KROG_NAME;Krogovy studny
+WELL_MAGDA_NAME;Magdiny studny
+WELL_RAPALA_NAME;Rapalovy studny
+WELL_RUUNIN_NAME;Ruunininy studny
+WELL_SEIFER_NAME;Seiferovy studny
+WELL_SHARRA_NAME;Sharriny studny
+WELL_TARUM_NAME;Tarumovy studny
+AVATAR_AURORA_DARK_NAME;Aurora z nočních můr
+AVATAR_AURORA_HIPPIE_NAME;Mírová Aurora
+AVATAR_EXPLORER_BLUE_NAME;Cestovatel
+AVATAR_EXPLORER_PINK_NAME;Poutník
+AVATAR_FUGORO_RAINBOW_NAME;Duhový Fugoro
+AVATAR_KAIOS_CORRUPTED_NAME;Zkažený Kaios
+AVATAR_KELDRAN_EMISSARY_BLUE_NAME;Větrorozený posel
+AVATAR_KHALIM_BLACK_NAME;Mudrc Khalim
+AVATAR_KHALIM_SUNGLASSES_NAME;Khalim, jezdec bouře
+AVATAR_KINGS_GUARD_SILVER_NAME;Stříbrný Balhar
+AVATAR_KOBOLD_MERCENARY_GOLD_NAME;Podzemní skrblík
+AVATAR_KROG_BIKER_NAME;The Notorious K.R.O.G.
+AVATAR_KROG_SUIT_NAME;Don Krog
+AVATAR_MAGDA_SECRETARY_NAME;Knihovnice Magda
+AVATAR_OGRE_BATTLER_BLUE_NAME;Indigový bojovník
+AVATAR_RAIZEON_ALTERED_NAME;Geometrický Raizeon
+AVATAR_RUUNIN_BLACK_NAME;Půlnoční Ruunin
+AVATAR_SEIFER_SUNGLASSES_NAME;Drsňák Seifer
+AVATAR_SHARRA_HAT_NAME;Uvolněná Sharra
+AVATAR_SHARRA_PINK_NAME;Stylová Sharra
+AVATAR_SHAYTAN_ASSASSIN_BLUE_NAME;Azurový vrah
+AVATAR_TARUM_EVIL_NAME;Tarum, hněv příprody
+AVATAR_VERDURAN_FORCE_GREY_NAME;Podzimní síla zeleně
+AVATAR_WISP_RAINBOW_NAME;Duhová bludička
+AVATAR_WISP_WHITE_NAME;Jasná bludička
+AVATAR_YAK_SHEPHERD_NAME;Pastýřka
+CARD_BACK_FALL_OF_EVERLIFE_NAME;Zkažený rub karet
+CARD_BACK_MOSAIC_FLOWER_GREEN_NAME;Modrá mozaiková květina
+CARD_BACK_MOSAIC_FLOWER_RED_NAME;Rudá mozaiková květina
+CARD_BACK_MOSAIC_SOLAR_BLUE_NAME;Zelené mozaikové slunce
+CARD_BACK_MOSAIC_SOLAR_MAGENTA_NAME;Fialové mozaikové slunce
+CARD_BACK_MUCHA_GREEN_NAME;Zelená secese
+CARD_BACK_MUCHA_MAGENTA_NAME;Fialová secese
+ORB_ARCANE_GOLD_NAME;Zlatý tajemný orb
+ORB_ARCANE_PURPLE_NAME;Fialový tajemný orb
+ORB_ARCANE_RED_NAME;Rudý tajemný orb
+ORB_CRYSTAL_STONE_GOLD_NAME;Zlatý krystalový orb
+ORB_CRYSTAL_STONE_NAME;Modrý krystalový orb
+ORB_CRYSTAL_STONE_PURPLE_NAME;Fialový krystalový orb
+ORB_DRAGON_SILVER_NAME;Stříbrný dračí orb
+ORB_FALL_OF_EVERLIFE_NAME;Zkažený orb
+ORB_HAND_ARCANE_NAME;Tajuplná dlaň
+ORB_HAND_GRASP_NAME;Stisk země
+ORB_SPIDEREGG_GREEN_NAME;Pavoučí doupě
+ORB_SPIDEREGG_ORANGE_NAME;Pavoučí hnízdo
+ORB_SPIDEREGG_RAINBOW_NAME;Pavoučí sklepení
+ORB_STAR_CRYSTAL_NAME;Nebeský orb
+ORB_STAR_CRYSTAL_ORANGE_NAME;Oranžový nebeský orb
+ORB_STAR_CRYSTAL_PURPLE_NAME;Fialový nebeský orb
+ORB_TRIBAL_NAME;Tikijský orb
+ORB_VALOR_GREEN_NAME;Zelený orb Valoru
+ORB_VALOR_MAGENTA_NAME;Fialový orb Valoru
+ORB_VALOR_SILVER_NAME;Stříbrný orb Valoru
+WELL_ARCANE_GOLD_NAME;Zlaté tajemné studny
+WELL_ARCANE_PURPLE_NAME;Fialové tajemné studny
+WELL_ARCANE_RED_NAME;Rudé tajemné studny
+WELL_FALL_OF_EVERLIFE_NAME;Zkažené studny
+WELL_FLOATING_STONES_NAME;Levkamové studny
+WELL_ROOTS_NAME;Studny rév
+WELL_RUNIC_BLUE_NAME;Studny osudu
+WELL_RUNIC_GREEN_NAME;Studny sudby
+WELL_RUNIC_RED_NAME;Studny štěstí
+WELL_RUNIC_YELLOW_NAME;Studny zdaru
+CARD_BACK_1806_GOLD_NAME;Zlatý rub karet z 26. sezóny
+CARD_BACK_1806_SILVER_NAME;Stříbrný rub karet z 26. sezóny
+CARD_BACK_PANDORA_1806_GOLD_NAME;Pandorský zlatý rub karet z 26. sezóny
+CARD_BACK_PANDORA_1806_SILVER_NAME;Pandorský stříbrný rub karet z 26. sezóny
+CARD_BACK_1807_GOLD_NAME;Zlatý rub karet z 27. sezóny
+CARD_BACK_1807_SILVER_NAME;Stříbrný rub karet z 27. sezóny
+CARD_BACK_PANDORA_1807_GOLD_NAME;Pandorský zlatý rub karet z 27. sezóny
+CARD_BACK_PANDORA_1807_SILVER_NAME;Pandorský stříbrný rub karet z 27. sezóny
+CARD_BACK_PANDORA_1808_SILVER_NAME;Pandorský stříbrný rub karet z 28. sezóny
+CARD_BACK_PANDORA_1808_GOLD_NAME;Pandorský zlatý rub karet z 28. sezóny
+CARD_BACK_1808_SILVER_NAME;Stříbrný rub karet z 28. sezóny
+CARD_BACK_1808_GOLD_NAME;Zlatý rub karet z 28. sezóny
+CARD_BACK_PANDORA_1809_SILVER_NAME;Pandorský stříbrný rub karet z 29. sezóny
+CARD_BACK_PANDORA_1809_GOLD_NAME;Pandorský zlatý rub karet z 29. sezóny
+CARD_BACK_1809_SILVER_NAME;Stříbrný rub karet z 29. sezóny
+CARD_BACK_1809_GOLD_NAME;Zlatý rub karet z 29. sezóny
+WELL_RESURGENCE_NAME;Studny Zhojení
+SHORE_RESURGENCE_NAME;Pobřeží Zhojení
+ORB_RESURGENCE_NAME;Orb Zhojení
+CARD_BACK_RESURGENCE_NAME;Rub karet Zhojení
+CARD_BACK_MOSAIC_YAK_NAME;Rub karet jačí mozaika
+AVATAR_BANON_NAME;Banon
+CARD_BACK_ELEMENTS_NAME;Rub karet živlů
+CARD_BACK_PANDORA_1810_SILVER_NAME;Pandorský stříbrný rub karet ze 30. sezóny
+CARD_BACK_PANDORA_1810_GOLD_NAME;Pandorský zlatý rub karet ze 30. sezóny
+CARD_BACK_1810_SILVER_NAME;Stříbrný rub karet ze 30. sezóny
+CARD_BACK_1810_GOLD_NAME;Zlatý rub karet ze 30. sezóny
+AVATAR_YAK_UNICORN_NAME;Jakorožec
+AVATAR_YAK_TEDDY_NAME;Teddy
+AVATAR_YAK_METALHEAD_NAME;Yak metalista
+AVATAR_YAK_MC_NAME;Yak MC
+AVATAR_YAK_LIZARD_NAME;Jakštěr
+AVATAR_YAK_INDIAN_CHIEF_NAME;Pocjakhontas
+AVATAR_YAK_DEVIL_NAME;Ďábelský jak
+AVATAR_YAK_BF_YC_NAME;Jakuza
+WELL_TETHRA_NAME;Tethřiny studny
+WELL_OROSEI_NAME;Oroseiny studny
+WELL_GARUDAN_NAME;Garudanovy studny
+WELL_CELESTE_NAME;Celestiny studny
+WELL_AZARAI_NAME;Azarainy studny
+SHORE_DRAGON_NAME;Pobřeží Dračí sluje
+ORB_TETHRA_NAME;Tethřin orb
+ORB_OROSEI_NAME;Orosein orb
+ORB_GARUDAN_NAME;Garudanův orb
+ORB_CELESTE_NAME;Celestin orb
+ORB_AZARAI_NAME;Azarain orb
+CARD_BACK_TETHRA_NAME;Tethřin rub karet
+CARD_BACK_OROSEI_NAME;Orosein rub karet
+CARD_BACK_GARUDAN_NAME;Garudanův rub karet
+CARD_BACK_CELESTE_NAME;Celestin rub karet
+CARD_BACK_AZARAI_NAME;Azarain rub karet
+AVATAR_TETHRA_NAME;Tethra
+AVATAR_OROSEI_NAME;Orosei
+AVATAR_GARUDAN_NAME;Garudan
+AVATAR_CELESTE_NAME;Celeste
+AVATAR_AZARAI_NAME;Azarai
+CARD_BACK_PANDORA_1811_SILVER_NAME;Pandorský stříbrný rub karet ze 31. sezóny
+CARD_BACK_PANDORA_1811_GOLD_NAME;Pandorský zlatý rub karet ze 31. sezóny
+CARD_BACK_1811_SILVER_NAME;Stříbrný rub karet ze 31. sezóny
+CARD_BACK_1811_GOLD_NAME;Zlatý rub karet ze 31. sezóny
+CARD_BACK_PANDORA_1901_SILVER_NAME;Pandorský stříbrný rub karet ze 33. sezóny
+CARD_BACK_PANDORA_1901_GOLD_NAME;Pandorský zlatý rub karet ze 33. sezóny
+CARD_BACK_PANDORA_1812_SILVER_NAME;Pandorský stříbrný rub karet ze 32. sezóny
+CARD_BACK_PANDORA_1812_GOLD_NAME;Pandorský zlatý rub karet ze 32. sezóny
+CARD_BACK_1901_SILVER_NAME;Stříbrný rub karet ze 33. sezóny
+CARD_BACK_1901_GOLD_NAME;Zlatý rub karet ze 33. sezóny
+CARD_BACK_1812_SILVER_NAME;Stříbrný rub karet ze 32. sezóny
+CARD_BACK_1812_GOLD_NAME;Zlatý rub karet ze 32. sezóny
+CARD_BACK_PANDORA_1902_SILVER_NAME;Pandorský stříbrný rub karet ze 34. sezóny
+CARD_BACK_PANDORA_1902_GOLD_NAME;Pandorský zlatý rub karet ze 34. sezóny
+CARD_BACK_1902_SILVER_NAME;Stříbrný rub karet ze 34. sezóny
+CARD_BACK_1902_GOLD_NAME;Zlatý rub karet ze 34. sezóny
+CARD_BACK_PANDORA_1903_SILVER_NAME;Pandorský stříbrný rub karet ze 35. sezóny
+CARD_BACK_PANDORA_1903_GOLD_NAME;Pandorský zlatý rub karet ze 35. sezóny
+CARD_BACK_1903_SILVER_NAME;Stříbrný rub karet ze 35. sezóny
+CARD_BACK_1903_GOLD_NAME;Zlatý rub karet ze 35. sezóny
+WELL_GAGANA_NAME;Gaganské studny
+SHORE_MECHA_NAME;Pobřeží Mechů
+ORB_GAGANA_NAME;Gaganský orb
+CARD_BACK_GAGANA_NAME;Gaganský rub karet
+AVATAR_SOROCCO_NAME;Sorocco
+CARD_BACK_PANDORA_1904_SILVER_NAME;Pandorský stříbrný rub karet ze 36. sezóny
+CARD_BACK_PANDORA_1904_GOLD_NAME;Pandorský zlatý rub karet ze 36. sezóny
+CARD_BACK_1904_SILVER_NAME;Stříbrný rub karet ze 36. sezóny
+CARD_BACK_1904_GOLD_NAME;Zlatý rub karet ze 36. sezóny
+CARD_BACK_PANDORA_1905_SILVER_NAME;Pandorský stříbrný rub karet ze 37. sezóny
+CARD_BACK_PANDORA_1905_GOLD_NAME;Pandorský zlatý rub karet ze 37. sezóny
+CARD_BACK_1905_SILVER_NAME;Stříbrný rub karet ze 37. sezóny
+CARD_BACK_1905_GOLD_NAME;Zlatý rub karet ze 37. sezóny
+CARD_BACK_PANDORA_1906_SILVER_NAME;Pandorský stříbrný rub karet ze 38. sezóny
+CARD_BACK_PANDORA_1906_GOLD_NAME;Pandorský zlatý rub karet ze 38. sezóny
+CARD_BACK_1906_SILVER_NAME;Stříbrný rub karet ze 38. sezóny
+CARD_BACK_1906_GOLD_NAME;Zlatý rub karet ze 38. sezóny
+CARD_BACK_PANDORA_1907_SILVER_NAME;Pandorský stříbrný rub karet ze 39. sezóny
+CARD_BACK_PANDORA_1907_GOLD_NAME;Pandorský zlatý rub karet ze 39. sezóny
+CARD_BACK_1907_SILVER_NAME;Stříbrný rub karet ze 39. sezóny
+CARD_BACK_1907_GOLD_NAME;Zlatý rub karet ze 39. sezóny
+CARD_BACK_PANDORA_1908_SILVER_NAME;Pandorský stříbrný rub karet ze 40. sezóny
+CARD_BACK_PANDORA_1908_GOLD_NAME;Pandorský zlatý rub karet ze 40. sezóny
+CARD_BACK_1908_SILVER_NAME;Stříbrný rub karet ze 40. sezóny
+CARD_BACK_1908_GOLD_NAME;Zlatý rub karet ze 40. sezóny
+CARD_BACK_PANDORA_1909_SILVER_NAME;Pandorský stříbrný rub karet ze 41. sezóny
+CARD_BACK_PANDORA_1909_GOLD_NAME;Pandorský zlatý rub karet ze 41. sezóny
+CARD_BACK_1909_SILVER_NAME;Stříbrný rub karet ze 41. sezóny
+CARD_BACK_1909_GOLD_NAME;Zlatý rub karet ze 41. sezóny
+WELL_SEASONAL_CUP_SEIFER_NAME;Studny sezónního poháru Seifera
+WELL_SEASONAL_CUP_RUUNIN_NAME;Studny sezónního poháru Ruunin
+WELL_SEASONAL_CUP_KHALIM_NAME;Studny sezónního poháru Khalima
+WELL_SEASONAL_CUP_AURORA_NAME;Studny sezónního poháru Aurory
+ORB_SEASONAL_CUP_SEIFER_NAME;Orb sezónního poháru Seifera
+ORB_SEASONAL_CUP_RUUNIN_NAME;Orb sezónního poháru Ruunin
+ORB_SEASONAL_CUP_KHALIM_NAME;Orb sezónního poháru Khalima
+ORB_SEASONAL_CUP_AURORA_NAME;Orb sezónního poháru Aurory
+CARD_BACK_SEASONAL_CUP_SEIFER_NAME;Rub karet sezónního poháru Seifera
+CARD_BACK_SEASONAL_CUP_RUUNIN_NAME;Rub karet sezónního poháru Ruunin
+CARD_BACK_SEASONAL_CUP_KHALIM_NAME;Rub karet sezónního poháru Khalima
+CARD_BACK_SEASONAL_CUP_AURORA_NAME;Rub karet sezónního poháru Aurory
+CARD_BACK_PANDORA_1912_SILVER_NAME;Pandorský stříbrný rub karet ze 44. sezóny
+CARD_BACK_PANDORA_1912_GOLD_NAME;Pandorský zlatý rub karet ze 44. sezóny
+CARD_BACK_PANDORA_1911_SILVER_NAME;Pandorský stříbrný rub karet ze 43. sezóny
+CARD_BACK_PANDORA_1911_GOLD_NAME;Pandorský zlatý rub karet ze 43. sezóny
+CARD_BACK_PANDORA_1910_SILVER_NAME;Pandorský stříbrný rub karet ze 42. sezóny
+CARD_BACK_PANDORA_1910_GOLD_NAME;Pandorský zlatý rub karet ze 42. sezóny
+CARD_BACK_1912_SILVER_NAME;Stříbrný rub karet ze 44. sezóny
+CARD_BACK_1912_GOLD_NAME;Zlatý rub karet ze 44. sezóny
+CARD_BACK_1911_SILVER_NAME;Stříbrný rub karet ze 43. sezóny
+CARD_BACK_1911_GOLD_NAME;Zlatý rub karet ze 43. sezóny
+CARD_BACK_1910_SILVER_NAME;Stříbrný rub karet ze 42. sezóny
+CARD_BACK_1910_GOLD_NAME;Zlatý rub karet ze 42. sezóny

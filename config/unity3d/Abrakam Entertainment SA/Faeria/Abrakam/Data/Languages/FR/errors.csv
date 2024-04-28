@@ -1,0 +1,34 @@
+AUTHENTICATION_LOCAL_ERROR;Authentification impossible avec {0}, essayez de redémarrer le client.
+DECK_LIMIT_MESSAGE;Un deck comporte {0} cartes maximum.
+EMAIL_INVALID;L'adresse e-mail saisie est invalide.
+EMPTY_USERNAME_PASSWORD_NOT_ALLOWED;Veuillez saisir un nom d'utilisateur/mot de passe.
+ERROR_MESSAGE;Message d'erreur : {0}
+ERROR_RESOURCES_CORRUPTED;Les ressources semblent corrompues et le jeu doit redémarrer. Veuillez réinstaller le jeu si le problème persiste.
+GAMECENTER_HTTP_ERROR;Connexion aux serveurs d'authentification Apple impossible. Veuillez réessayer ultérieurement.
+GAMECENTER_RUNTIME_ERROR;Authentification impossible. Veuillez réessayer ultérieurement.
+GAMECENTER_SIGNATURE_MISMTACH;Échec de l'authentification. Veuillez réessayer.
+GAME_SERVER_CONNECTION_FAILED;Impossible de se connecter au jeu.
+GAME_SERVER_RECONNECTION_FAILED;Échec de reconnexion au serveur du jeu.
+MAIL_INVALID;L'adresse e-mail saisie est invalide.
+MUST_WAIT;Vous devez attendre {0} mins pour effectuer cette action.
+RECOVERY_CODE_EXPIRED;Code de récupération expiré.
+RECOVERY_CODE_INVALID;Code de récupération invalide.
+SERVER_CONNECTION_FAILED;Impossible de se connecter au serveur.
+SERVER_UNREACHABLE;Connexion au serveur impossible.
+STEAM_ACCOUNT_DLC_NOT_SYNCHRONISED;Ce compte n'est pas disponible car vos contenus additionnels Steam n'ont pas été synchronisés.
+STEAM_ACCOUNT_NOT_FOUND;Ce compte n'a pas encore été lié à Steam.
+TOKEN_INVALID;L'authentification a échoué, essayez à nouveau de rentrer vos identifiants.
+UNAUTHORIZED_ACCESS;Tentative d'accès non autorisée, essayez de redémarrer le client.
+UNKNOWN_ERROR;Une erreur inconnue s'est produite
+WORLD_SERVER_RECONNECTION_FAILED;Impossible de se reconnecter au serveur.
+FRIEND_ALREADY_IN_LOBBY;Cet ami est déjà dans le salon !
+LOBBY_INVALID_MINUTES_PER_GAME;Entrez une valeur positive dans le champ "minutes par partie"
+LOBBY_INVALID_TURN_DURATION;Entrez une valeur positive dans le champ "durée d'un tour"
+LOBBY_TIMER_EMPTY_MATCH_FORMAT;Choisissez un type de match en même temps que vous fixez une limite de temps
+INTERNAL_ERROR;Erreur interne au serveur. Veuillez essayer à nouveau.
+PLATFORM_PRIVILEGES_DO_NOT_ALLOW;Les privilèges de la plate-forme ne permettent pas d'effectuer cette action.
+ACHIEVEMENT_INITIALIZATION_FAILED_TITLE;Échec de l'initialisation
+ACHIEVEMENT_INITIALIZATION_FAILED_TEXT;Initialisation des succès impossible. Veuillez vérifier votre connexion.
+PLAYER_CANNOT_PLAY_MULTIPLAYER_GAMES;Ce joueur n'est pas autorisé à jouer en multijoueur.
+DEBUG_PANEL_EXIT_BUTTON;QUITTER
+CANNOT_RENAME_ON_PLATFORM;Impossible de vous renommez sur cette plateforme

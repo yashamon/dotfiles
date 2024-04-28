@@ -1,0 +1,20 @@
+# Name: BLUEPRINT_02
+# Order: 2
+# RequirementType: QUEST
+# RequirementParam: SEIFER_INTRO_01
+--------
+2 Farm Boy
+2 Steam Forge
+2 Village Elder
+2 Imperial Guard
+2 Rebel Slinger
+2 Maceman
+2 Steamforge Enforcer
+2 Flame Spitter
+2 Flame Burst
+2 Underground Brigand
+2 Kobold Warbeast
+2 Blazing Salamander
+2 Barbarian Ogre
+2 Ogre Battler
+2 Red Devil

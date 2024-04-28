@@ -1,0 +1,229 @@
+ACTIVATE;<b>激活</b>
+AQUATIC;<b>水生</b>
+ARTIFACT;神器
+AUTO_HARVEST;<b>自动采集</b>
+BLUE;<sprite="icon_blue" index=0>
+BLUEPRINT_01.name;绿色新手卡组
+BLUEPRINT_01.shortdescription;收集森林的力量来给你的人类军队提供额外的生命和机动性。在faeria灵泉附近创造一个立足点，然后冲向对方
+BLUEPRINT_02.name;红色新手卡组
+BLUEPRINT_02.shortdescription;大批食人魔气势汹汹的从山上冲下来，用他们巨大的身体摧毁你的对手，然后一把火结束战斗
+BLUEPRINT_03.name;蓝色新手卡组
+BLUEPRINT_03.shortdescription;利用事件的力量激起水花！运用跳跃和水生生物来一次性收集多个faeria灵泉。当时机成熟的时候突袭你的对手。
+BLUEPRINT_04.name;黄色新手卡组
+BLUEPRINT_04.shortdescription;品尝过沙漠中黑暗的喜悦，施展禁忌的仪式并从己方阵亡生物获得力量。消耗生命来获得优势以碾压并吞噬对手。
+BLUEPRINT_05.name;蓝色入侵
+BLUEPRINT_05.shortdescription;因贪婪收集更多faeria强化自己。专注于抢夺敌方的faeria灵泉，每次收集都会使得自己的庞然大物消耗更低。
+BLUEPRINT_06.name;战斗中的荣耀
+BLUEPRINT_06.shortdescription;在牦牛的哀歌中击垮并驾驭你的敌人。指挥一支骁勇的军队，让钢铁之礼在战时尤为闪耀。
+BLUEPRINT_07.name;致命远征
+BLUEPRINT_07.shortdescription;毫不留情冲向你的对手，在强化自己狂热圣徒的同时不计损失的攻击对手的神座。
+BLUEPRINT_08.name;超大减价
+BLUEPRINT_08.shortdescription;与食人魔达成协议并且用最少的代价去使用最昂贵的卡牌。释放龙和巨兽收获史诗的胜利。
+BLUEPRINT_09.name;空中舰队
+BLUEPRINT_09.shortdescription;号令苍穹。 你的天兵天将们将使你飞翔的无敌舰队如虎添翼。 让从天而降的死亡直刺敌人的心脏。
+BLUEPRINT_10.name;自然之怒
+BLUEPRINT_10.shortdescription;森林不会永远的隐忍，而是会主动出击猎杀对手，你的猎手会为你扫清障碍，寻找他们的猎物：你敌人的气息。
+CHARGE;<b>冲锋{0}</b>
+COMBAT;<b>战斗</b>
+CONVOKE;<b>召集</b>
+CORRUPT;<b>腐蚀</b>
+CREATURE;生物
+CURRENCY_COIN;碎片
+CURRENCY_GEM;宝石
+DAILY_QUEST_00_NAME;终极
+DAILY_QUEST_01_NAME;狂暴
+DAILY_QUEST_02_NAME;决定
+DAILY_QUEST_03_NAME;审判
+DAILY_QUEST_04_NAME;征服
+DAILY_QUEST_05_NAME;海啸
+DAILY_QUEST_06_NAME;茂盛
+DAILY_QUEST_07_NAME;炼狱
+DAILY_QUEST_08_NAME;沙尘风暴
+DAILY_QUEST_09_NAME;平衡
+DAILY_QUEST_11_NAME;奇迹
+DAILY_QUEST_12_NAME;创造
+DAILY_QUEST_13_NAME;神之审判
+DAILY_QUEST_14_NAME;决斗
+DAILY_QUEST_15_NAME;老兵
+DAILY_QUEST_16_NAME;友情任务
+DAILY_QUEST_18_NAME;友情任務
+DAILY_QUEST_27_NAME;寻宝
+DAILY_QUEST_28_NAME;证明自己
+DAILY_QUEST_30_NAME;潘多拉觉醒
+DAILY_QUEST_31_NAME;观察与学习
+DAILY_QUEST_32_NAME;永远的朋友
+DAILY_QUEST_33_NAME;花枝招展
+DAILY_QUEST_34_NAME;自己动手
+DAILY_QUEST_35_NAME;手艺师傅
+DAILY_QUEST_COMPLETE_ANY_ACT;完成一个任务或者谜题包
+DAILY_QUEST_COMPLETE_2_WILD_ACTS;完成4组随机任务包
+DAILY_QUEST_COMPLETE_ANY_LANE;完成1条故事线
+DAILY_QUEST_COMPLETE_QUESTS;完成 {0} 个任务
+DAILY_QUEST_COMPLETE_QUESTS_OR_PUZZLES;完成 {0} 个任务或者谜题
+DAILY_QUEST_COMPLETE_TRAINING_ACT;完成训练任务包
+DAILY_QUEST_CRAFT_CARD;合成一张卡牌
+DAILY_QUEST_CRAFT_GOLD_CARD;合成一张金卡
+DAILY_QUEST_CREATE_LANDS;创造{0}块地块
+DAILY_QUEST_DEAL_DAMAGE_TO_ENEMIES;对敌军造成{0}点伤害
+DAILY_QUEST_DEAL_DAMAGE_TO_GODS;对神明造成{0}点伤害
+DAILY_QUEST_DEFEAT_RUUNIN;在任务中击败茹妮
+DAILY_QUEST_DEFEAT_SEIFER;在任务中击败塞弗
+DAILY_QUEST_DEFEAT_SOLO_OPPONENTS;在任务中击败 {0} 个对手
+DAILY_QUEST_DESTROY_CREATURES;摧毁{0}个生物
+DAILY_QUEST_FIND_AND_DEFEAT_RAPALA;做任务直到找到让帕拉，然后击败他
+DAILY_QUEST_OPEN_BATTLE_CHEST;打开一个战斗宝箱
+DAILY_QUEST_PERFECT;赢得一场胜利并且不受到任何伤害
+DAILY_QUEST_PLAY_AGAINST_FRIEND;与一位好友玩一场私人游戏
+DAILY_QUEST_PLAY_ARENA_RUN;玩一场潘多拉正式比赛
+DAILY_QUEST_PLAY_BLUE_CARDS;打出{0}张蓝色卡牌
+DAILY_QUEST_PLAY_CREATURES;打出{0}张生物卡牌
+DAILY_QUEST_PLAY_EVENTS;打出{0}张事件卡牌
+DAILY_QUEST_PLAY_GREEN_CARDS;打出{0}张绿色卡牌
+DAILY_QUEST_PLAY_NEUTRAL_CARDS;打出{0}张中立卡牌
+DAILY_QUEST_PLAY_PVP_GAMES;在潘多拉玩 {0} 次休闲，排名或者多人模式
+DAILY_QUEST_PLAY_RED_CARDS;打出{0}张红卡牌
+DAILY_QUEST_PLAY_WITH_SPECIAL_COSMETIC;用一个特殊的神座或者头像玩一场比赛
+DAILY_QUEST_PLAY_YELLOW_CARDS;打出{0}张黄卡牌
+DAILY_QUEST_REACH_LEVEL_8;达到8级
+DAILY_QUEST_SOLVE_PUZZLES;在任务中完成 {0} 个谜题
+DAILY_QUEST_SPECTATE_FRIEND_WINNING_GAME;观看好友赢得一场比赛
+DAILY_QUEST_VALIDATE_YOUR_EMAIL;验证你的邮件
+DAILY_QUEST_WAIT_FOR_SEIFER;做任务直到塞弗回来
+DAILY_QUEST_WIN_DIVINE_CHALLENGES;完成一个单人关卡任务
+DAILY_QUEST_WIN_HIGHLANDER_GAMES;在高地之战模式赢得{0}场胜利。高地之战模式套牌是由30张不同的卡牌组成！
+DAILY_QUEST_WIN_PANDORA_GAMES;在潘多拉模式下赢得{0}场胜利
+DAILY_QUEST_WIN_PVP_GAMES;在休闲，排名或者多人潘多拉模式下，赢得 {0} 场比赛
+DASH;<b>突进{0}</b>
+DEATHTOUCH;<b>死触</b>
+DIVINE;<b>神佑</b>
+EMOTE_FUGORO_LASTWORDS_NAME;顾客永远是赢家。
+EMOTE_FUGORO_OPENING_NAME;您好啊！尊贵的客人。
+EMOTE_FUGORO_THINKING_NAME;好多吸引人的选择啊。
+EMOTE_KHALIM_LASTWORDS_NAME;打得不错，我投降。
+EMOTE_KHALIM_OPENING_NAME;拥抱狂风吧。
+EMOTE_KHALIM_THINKING_NAME;一定还有办法...
+EMOTE_KROG_LASTWORDS_NAME;妈妈叫我回家吃饭了！
+EMOTE_KROG_OPENING_NAME;为你们的国王欢呼吧！
+EMOTE_KROG_THINKING_NAME;...哦！到我了！
+EMOTE_MAGDA_LASTWORDS_NAME;真厉害。我认输了。
+EMOTE_MAGDA_OPENING_NAME;欢迎来的我的宫廷。
+EMOTE_MAGDA_THINKING_NAME;好多选择。
+EMOTE_RUUNIN_LASTWORDS_NAME;你赢了。回去偷着乐吧。
+EMOTE_RUUNIN_OPENING_NAME;女猎人在此。
+EMOTE_RUUNIN_THINKING_NAME;我想想...
+EVENT;事件
+FAERIA;<sprite="icon_faeria_cost" index={0}>
+FLYING;<b>飞行</b>
+GIFT;<b>赋礼</b>
+GREEN;<sprite="icon_green" index=0>
+HASTE;<b>急速</b>
+ICON_COIN;<sprite="icon_coin" index=0><b>{0}</b>
+ICON_GEM;<sprite="icon_gem" index=0><b>{0}</b>
+IGNORE;无视
+JUMP;<b>跳跃</b>
+LANGUAGE_NAME_NATIVE;简体中文
+LAST_WORDS;<b>亡语</b>
+OPTIONS;<b>择一</b>
+PRODUCTION;<b>生产</b>
+PROTECTION;<b>护盾</b>
+QUEST_LANE_ACT_AURORA_NAME;奥罗拉
+QUEST_LANE_ACT_FUGORO_NAME;福咕噜
+QUEST_LANE_ACT_HOAKA_NAME;霍阿卡
+QUEST_LANE_ACT_JALMYR_01_NAME;加尔玛 一
+QUEST_LANE_ACT_JALMYR_02_NAME;加尔玛 二
+QUEST_LANE_ACT_JALMYR_03_NAME;加尔玛 三
+QUEST_LANE_ACT_JALMYR_04_NAME;加尔玛 四
+QUEST_LANE_ACT_MAGDA_NAME;玛格妲
+QUEST_LANE_ACT_RAPALA_NAME;让帕拉
+QUEST_LANE_ACT_SEIFER_NAME;塞弗
+QUEST_LANE_ACT_SHARRA_NAME;莎拉
+QUEST_LANE_ACT_TRAINING_NAME;训练
+RANGED_ATTACK;<b>远程</b>
+RED;<sprite="icon_red" index=0>
+SLAM;<b>猛击</b>
+SUBTYPE_YAK;牦牛
+SUBTYPE_TRITON;崔顿
+SUBTYPE_BEAST;野兽
+SUBTYPE_MECHA;机人
+SUBTYPE_RAKOAN;瑞寇
+SWALLOW;<b>吞噬</b>
+STRUCTURE;建筑
+TAUNT;<b>嘲讽</b>
+TOOLTIP_AQUATIC;<color=white><b>水生 :</b></color> 只能在湖泊和海洋地形中移动。
+TOOLTIP_CHARGE;<color=white><b>冲锋 {0} :</b></color> 在一条直线上移动{0}个格子。
+TOOLTIP_COMBAT;<color=white><b>战斗 :</b>在这个生物战斗时触发效果。
+TOOLTIP_CONVOKE;<color=white><b>召集 :</b> 你可以在这个单位周围的任意地块上召唤生物，即便是敌方地块也可以。
+TOOLTIP_CORRUPT;<color=white><b>腐蚀：</b></color> 此生物在打出的回合结束后第一次移动到敌方的地块时，触发其效果。
+TOOLTIP_DARK_RITUAL;<color=white><b>黑暗仪式 :</b> 在你打这张卡时你可以牺牲一个生物。如果这样做会带来额外的好处。
+TOOLTIP_DASH;<color=white><b>突进 {0}:</b></color> 当被召唤出来时，这个生物可以沿着一条直线移动 {0} 个格子。
+TOOLTIP_DEATHTOUCH;<color=white><b>死触 :</b> 摧毁所有受到此生物伤害的生物。
+TOOLTIP_DIVINE;<color=white><b>神佑 :</b></color> 无法成为事件或技能施放的目标。
+TOOLTIP_FLYING;<color=white><b>飞行 :</b></color> 可以在海洋上移动。
+TOOLTIP_GIFT;<color=white><b>赋礼 :</b></color> 从你手牌中打出时触发效果。
+TOOLTIP_HASTE;<color=white><b>急速 :</b></color> 不需要等一回合，就可以进行攻击，移动或者收集。
+TOOLTIP_JUMP;<color=white><b>跳跃 :</b></color> 移动2个格子。跳过障碍物。
+TOOLTIP_LAST_WORDS;<color=white><b>亡语 :</b></color> 死亡后触发效果。
+TOOLTIP_OPTIONS;<b>择一 :</b> 允许你在不同的选项之间进行选择。
+TOOLTIP_PRODUCTION;<color=white><b>生产 :</b></color>在你回合开始时触发效果。
+TOOLTIP_PROTECTION;<color=white><b>护盾 :</b></color>抵消这张卡牌第一次所受到的伤害。
+TOOLTIP_RANGED_ATTACK;<color=white><b>远程 :</b></color> 攻击在直线的第一个敌人(友方产生阻挡)。移动和攻击不能在同一回合进行。
+TOOLTIP_SWALLOW;<color=white><b>吞噬:</b></color> 囚禁一个生物于此单元内。此单位死亡时释放该生物。（已吞噬別的生物的生物，不能被吞噬）
+TOOLTIP_TAUNT;<color=white><b>嘲讽 :</b></color>相邻的敌人必须攻击它。
+TOOLTIP_WILD;<color=white><b>野性：</b></color>野性卡牌的土地需求可以用任何颜色的特殊地满足。
+WILD;<b>野性</b>
+YELLOW;<sprite="icon_yellow" index=0>
+NEWS_DEFENDING;针对快攻的防战
+NEWS_FAERIA_TALES;Faeria的故事：1.0之路
+NEWS_OVERSKY;扩展包：云巅已经到来
+NEWS_PATCH_ANALYSIS;平衡补丁分析
+NEWS_PATCH_NOTES;更新项目
+NEWS_RECRUIT_FRIEND;招募一位好友
+NEWS_STEAM_NEWS;Faeria Steam 礼包
+NEWS_WAR_EFFORT;加入大战贡献活动
+NEWS_WELCOME;Faeria学院
+DAILY_QUEST_1400_NAME;故事散页
+DAILY_QUEST_PLAY_CARD_3_TIMES;打出{0}3次
+NEWS_B2P_RELEASE;全新内容与经济系统革新
+NEWS_FOE_DLC;永生沦落扩展包
+NEWS_PREMIUM_DLC;尊贵升级包
+NWILD;<sprite="icon_wild_cost" index={0}>
+NEWS_THE_HUB;社区
+NEWS_RESURGENCE_CARDS;苏生卡牌
+NEWS_RESURGENCE;苏生扩展包
+NYELLOW;<nobr><b>{0}</b><sprite="icon_yellow" index=0></nobr>
+NRED;<nobr><b>{0}</b><sprite="icon_red" index=0></nobr>
+NHUMAN;<nobr><b>{0}</b><sprite="icon_human" index=0></nobr>
+NGREEN;<nobr><b>{0}</b><sprite="icon_green" index=0></nobr>
+NBLUE;<nobr><b>{0}</b><sprite="icon_blue" index=0></nobr>
+MUTAGEN_SETUP_TETHRA_LAND_4;巨龙手中有一张消耗为5个faeria，5野性地块的<b>泰斯拉</b>。
+MUTAGEN_SETUP_OROSEI_LAND_4;巨龙手中有一张消耗为5个faeria，5野性地块的<b>欧罗塞</b>。
+MUTAGEN_SETUP_MONO_COLOR_COSTS_MORE;单色卡牌额外消耗2个faeria。
+MUTAGEN_SETUP_HARVEST_COSTS_2_LIFE;每当你收集faeria时，受到2点伤害。
+MUTAGEN_SETUP_GARUDAN_LAND_4;巨龙手中有一张消耗为5个faeria，5野性地块的<b>格鲁丹</b>。
+MUTAGEN_SETUP_FAERIA_LIMITED_TO_6;你的faeria上限为6。
+MUTAGEN_SETUP_EVERYONE_IS_SHOZEN;每当巨龙所控制的生物首次将要通过战斗摧毁生物时，改为吞噬该生物，并获得其控制权。
+MUTAGEN_SETUP_EVENTS_COST_MORE;你的事件额外消耗2个faeria。
+MUTAGEN_SETUP_ENEMIES_HAVE_DEATHTOUCH;巨龙的生物拥有死触异能。
+MUTAGEN_SETUP_EMPOWER_ENEMIES_WHEN_YOUR_CREATURES_DIE;每当你的生物死亡时，巨龙的所有生物获得+1/+1。
+MUTAGEN_SETUP_DRAW_TWICE_ON_PLAY;每当你打出一张牌时，你抓两张牌。
+MUTAGEN_SETUP_DAMAGE_ON_PLAYED_CREATURES;每当你召唤一只生物时，该生物受到2点伤害。
+MUTAGEN_SETUP_CREATE_RANDOM_AI_LANDS;游戏开始时巨龙随机创造3块中立地块。
+MUTAGEN_SETUP_CREATURES_COST_MORE;你的生物额外消耗2个faeria。
+MUTAGEN_SETUP_AZARAI_LAND_4;巨龙手中有一张消耗为5个faeria，5野性地块的<b>阿扎莱</b>。
+MUTAGEN_SETUP_ALL_CARDS_COST_AT_LEAST_5;你牌库中所有消耗小于5个faeria的卡牌现在消耗为5个faeria。
+HUMAN;<sprite="icon_human" index=0>
+DRAGON_TYPE_TETHRA;泰斯拉
+DRAGON_TYPE_OROSEI;欧罗塞
+DRAGON_TYPE_GARUDAN;格鲁丹
+DRAGON_TYPE_CELESTE;希莱斯忒
+DRAGON_TYPE_AZARAI;阿扎莱
+TOOLTIP_DISCOVER;<color=white><b>发现：</b></color>从三张随机卡牌中选取一张，并将其加入你的手牌。
+DISCOVER;<b>发现</b>
+TOOLTIP_DRAGONS_LAIR_REWARD;再完成{0} {1}次战役即可解锁该奖励。
+NEWS_GAGANA_CARDS;嘎嘎娜的卡牌
+NEWS_GAGANA;嘎嘎娜补充包
+GAMEPAD_RIGHT_BUTTONS_LEFT;<sprite="icon_gamepad_button_{gamepad_type}" index=9>
+GAMEPAD_RIGHT_BUTTONS_TOP;<sprite="icon_gamepad_button_{gamepad_type}" index=11>
+GAMEPAD_TOOLTIP_ACTIVATE;<color=white><b>激活：</b></color>在该结构上按{GAMEPAD_ACTION_CONFIRM}以激活其效果。
+MOUSE_TOOLTIP_ACTIVATE;<color=white><b>激活：</b></color>点击该结构以激活其效果。
+NEWS_ADDITIONAL_CONTENT;其它内容

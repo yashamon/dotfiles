@@ -1,0 +1,20 @@
+# Name: BLUEPRINT_01
+# Order: 1
+# RequirementType: QUEST
+# RequirementParam: PROLOGUE_5
+-------- 
+2 Farm Boy
+2 Falcon Dive
+2 Village Elder
+2 Imperial Guard
+2 Syland Horsemaster
+2 Syland Warrior
+2 Steamforge Enforcer
+2 Prairie Yak
+2 Bloomsprite
+2 Tiki Caretaker
+2 Ancient Beastmaster
+2 Grove Guardian
+2 Ancient Boar
+2 Seed Sower
+2 Verduran Force

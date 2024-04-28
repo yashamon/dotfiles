@@ -1,0 +1,41 @@
+ID;Name;Rarity;IsPinkChestAvailable;IsHidden;IsSetItem;ProfileName
+0;Basic;RARE;;;;Basic Wells
+1;Magda;EPIC;TRUE;;TRUE;Magda's Wells
+2;Sharra;EPIC;TRUE;;TRUE;Sharra's Wells
+3;Ruunin;EPIC;TRUE;;TRUE;Ruunin's Wells
+4;Rapala;LEGENDARY;;TRUE;TRUE;Rapala's Wells
+5;Hoaka;LEGENDARY;TRUE;;TRUE;Hoaka's Wells
+6;Aurora;EPIC;TRUE;;TRUE;Aurora's Wells
+7;Krog;LEGENDARY;TRUE;;TRUE;Krog's Wells
+8;Seifer;EPIC;TRUE;;TRUE;Seifer's Wells
+9;Khalim;EPIC;TRUE;;TRUE;Khalim's Wells
+10;Fugoro;LEGENDARY;TRUE;;TRUE;Fugoro's Wells
+11;Jalmyr;LEGENDARY;;TRUE;TRUE;Jalmyr's Wells
+12;BombSlinger;LEGENDARY;;;TRUE;Bom-R's Wells
+13;Arcane;RARE;TRUE;;;Wells of the Arcane
+14;CarnivorousPlant;RARE;TRUE;;;Carnivorous Plant Wells
+15;Gabria;RARE;TRUE;;;Gabria Wells
+16;Tarum;LEGENDARY;TRUE;;TRUE;Tarum's Wells
+17;Adventurer;LEGENDARY;;TRUE;TRUE;Fugoro's Wells
+18;Kaios;LEGENDARY;;TRUE;TRUE;Kaios' Wells
+19;RunicBlue;RARE;TRUE;;;Wells of Fate
+20;RunicGreen;RARE;TRUE;;;Wells of Destiny
+21;RunicRed;RARE;TRUE;;;Wells of Fortune
+22;RunicYellow;RARE;TRUE;;;Wells of the Luck
+23;FallOfEverlife;EPIC;;;;Corrupted Wells
+24;Roots;RARE;TRUE;;;Wells of Vines
+25;FloatingStones;RARE;TRUE;;;Floatstone Wells
+26;ArcaneGold;RARE;TRUE;;;Gold Arcane Wells
+27;ArcaneRed;RARE;TRUE;;;Red Arcane Wells
+28;ArcanePurple;RARE;TRUE;;;Purple Arcane Wells
+29;Resurgence;EPIC;;;;Resurgence Wells
+30;Orosei;LEGENDARY;;;;Orosei's Wells
+31;Tethra;LEGENDARY;;;;Tethra's Wells
+32;Garudan;LEGENDARY;;;;Garudan's Wells
+33;Azarai;LEGENDARY;;;;Azarai's Wells
+34;Celeste;LEGENDARY;;;;Celeste's Wells
+35;Gagana;EPIC;;;;Gagana Wells
+36;SeasonalCupAurora;EPIC;;TRUE;;Aurora Seasonal Cup Wells
+37;SeasonalCupRuunin;EPIC;;TRUE;;Ruunin Seasonal Cup Wells
+38;SeasonalCupKhalim;EPIC;;TRUE;;Khalim Seasonal Cup Wells
+39;SeasonalCupSeifer;EPIC;;TRUE;;Seifer Seasonal Cup Wells

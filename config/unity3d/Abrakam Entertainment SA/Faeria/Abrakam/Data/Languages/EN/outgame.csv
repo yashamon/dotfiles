@@ -1,0 +1,215 @@
+CARD_ALREADY_OWNED_TOOLTIP_TEXT;You own {0} of this card.
+CARD_FILTER_CREATURE;Creature
+CARD_FILTER_EVENT;Event
+CARD_FILTER_FALL_OF_EVERLIFE;Fall of Everlife
+CARD_FILTER_OVERSKY;Oversky
+CARD_FILTER_STRUCTURE;Structure
+PANDORA_MYTHIC_RUN_NOT_ENOUGH_COINS_ERROR_TEXT;You don't have enough shards to start this type of run
+PANDORA_MYTHIC_RUN_TOOLTIP_TEXT;Start a mythic Pandora run. Win up to 6 games for shards.
+PANDORA_POINT_TOOLTIP_TEXT;Win points to earn rewards at the end of each season.
+PANDORA_POP_UP_MULTI_PLAYER_TITLE_TEXT;Multi Player
+PANDORA_POP_UP_MYTHIC_MULTI_PLAYER_INFO_TEXT;Compete against other players for MUCH higher rewards.
+PANDORA_POP_UP_MYTHIC_RUN_MULTI_PLAYER_TITLE_TEXT;Mythic Multi Player
+PANDORA_POP_UP_MYTHIC_RUN_SINGLE_PLAYER_TITLE_TEXT;Mythic Single Player
+PANDORA_POP_UP_MYTHIC_SINGLE_PLAYER_INFO_TEXT;Fight increasingly powerful AI for shards.
+PANDORA_POP_UP_SINGLE_PLAYER_TITLE_TEXT;Single Player
+PANDORA_POP_UP_STANDARD_MULTI_PLAYER_INFO_TEXT;Compete against other players for MUCH higher rewards.
+PANDORA_POP_UP_STANDARD_RUN_MULTI_PLAYER_TITLE_TEXT;Multi Player
+PANDORA_POP_UP_STANDARD_RUN_SINGLE_PLAYER_TITLE_TEXT;Single Player
+PANDORA_POP_UP_STANDARD_SINGLE_PLAYER_INFO_TEXT;Fight increasingly powerful AI for battle chests and cards.
+PANDORA_STANDARD_RUN_HAS_FULL_COLLECTION_ERROR_TEXT;You already own all the available cards so you cannot start standard runs anymore
+PANDORA_STANDARD_RUN_NOT_ENOUGH_CHEST_ERROR_TEXT;You don't have enough battle chests to start this type of run
+PANDORA_STANDARD_RUN_TOOLTIP_TEXT;Start a standard Pandora run. Win up to 6 games for battle chests and cards.
+PURCHASE_PANEL_BUY_MISSING_SOFT_CURRENCY_TEXT;Buy the missing {0} {1}?
+PURCHASE_PANEL_GO_TO_SHOP_BUTTON_TEXT;Go to shop
+PURCHASE_PANEL_OUT_OF_CURRENCY_TEXT;You're out of {0}. You can visit the shop to get more.
+REWARD;Reward
+REWARD_ACT;Mission pack unlocked
+REWARD_ARENA_POINTS;{0}
+REWARD_AVATAR;You receive an avatar
+REWARD_BLUEPRINT;New Formula unlocked!
+REWARD_BOOSTER;{0}
+REWARD_CARD;You receive {0} card(s)
+REWARD_CARD_BACK;New card back
+REWARD_EMOTE;New Emote
+REWARD_FEATURE_ARENA_ID;You've unlocked Pandora mode!
+REWARD_FEATURE_CRAFTING_ID;You've unlocked crafting!
+REWARD_FEATURE_EPIC_CRAFTING_ID;You've unlocked epic crafting!
+REWARD_FEATURE_HIGHLANDER_ID;You've unlocked Highlander mode!
+REWARD_FEATURE_MAIN_MENU_ID;You've unlocked the deck builder!
+REWARD_FEATURE_RANKED_ID;You've unlocked ranked mode!
+REWARD_FEATURE_RARE_CRAFTING_ID;You've unlocked rare crafting!
+REWARD_ORIGIN_ACCOUNTACTIVATED;Account activation reward
+REWARD_ORIGIN_ANNUITY;Shards found by Goki
+REWARD_ORIGIN_ARENA;Your prize
+REWARD_ORIGIN_CRAFT;Crafting complete!
+REWARD_ORIGIN_DAILYASSIGNMENT;Daily assignment
+REWARD_ORIGIN_DAILYQUEST;Daily quest completed
+REWARD_ORIGIN_DEFEAT;Your reward
+REWARD_ORIGIN_DLCPREMIUM;Premium account
+REWARD_ORIGIN_DLCFALLOFEVERLIFE;Fall of Everlife
+REWARD_ORIGIN_EARLYACCESSBUNDLE;Early Access Bundle
+REWARD_ORIGIN_EMPTY;
+REWARD_ORIGIN_FIRSTDAYVICTORY;First win of the day
+REWARD_ORIGIN_HATCH;Egg hatch
+REWARD_ORIGIN_LADDERRESET;Ladder reset reward
+REWARD_ORIGIN_LEVEL;Level {0} reward
+REWARD_ORIGIN_LOYALTYPATCH;Loyalty patch reward
+REWARD_ORIGIN_MARKET;Purchase complete!
+REWARD_ORIGIN_POUCH;Adventure pouch reward
+REWARD_ORIGIN_QUEST;Mission reward
+REWARD_ORIGIN_RECRUITMENT;Recruitment
+REWARD_ORIGIN_SOLOOBJECTIVE;Objective completed
+REWARD_ORIGIN_STEAMPACK;Steam Pack
+REWARD_ORIGIN_VICTORY;Your reward
+REWARD_POUCH_POINTS;{0}
+REWARD_WELL;New Faeria Well
+TOURNAMENT_ALREADY_SIGNED_UP;You are signed up.
+TOURNAMENT_DECK_ALREADY_PICKED;This deck was already selected for the tournament.
+TOURNAMENT_DECK_CHANGE_LOST_A_GAME;You cannot keep a deck with which you lost a game.
+TOURNAMENT_DECK_FIXED_UNTIL_LOSS;You cannot switch decks until you lose a game.
+TOURNAMENT_DECK_LOCKED;This deck is signed up for a tournament, you cannot edit it until the tournament signup is completed.
+TOURNAMENT_DECK_LOST_A_GAME;You cannot pick a deck with which you lost a game.
+TOURNAMENT_DECK_MUST_BE_LEAD;You must use your starting deck for the first game.
+TOURNAMENT_DISCARD_DECKS;Start over
+TOURNAMENT_LOBBY;Tournament Lobby
+TOURNAMENT_PICKED_DECK;Registered #{0}
+TOURNAMENT_SIGNUP;Sign up
+TOURNAMENT_SIGNUP_DECK_1;Register 1st deck
+TOURNAMENT_SIGNUP_DECK_2;Register 2nd deck
+TOURNAMENT_SIGNUP_DECK_3;Register 3rd deck
+TOURNAMENT_SIGNUP_SUCCESSFUL;Tournament sign up successful!
+REWARD_DECK_SLOT;You received deck slots
+REWARD_LORE_PAGE;You got a new lore page!
+REWARD_FEATURE_LORE_BOOK_ID;You've unlocked the Lore Book !
+TOURNAMENT_CRUCIBLE_RULES;You must register 4 decks to participate in today's tournament. Each deck cannot share more than 12 cards with any other.\n\nSelect each deck and <b>Register</b> them one at a time. Once all 4 decks are registered, you are ready to join tournament lobbies. \n\n<b>BE CAREFUL!</b> Once you register the last deck, you <b>CANNOT</b> undo this. Please be completely sure you are registering the decks you wish to use.
+LOBBY_CRUCIBLE_RULES;You must register 4 decks to participate. Each deck cannot share more than 12 cards with any other.\n\nSelect each deck and <b>Register</b> them one at a time. Once all 4 decks are registered, you are ready to start.
+TOURNAMENT_DECK_BANNED;You cannot pick a deck banned by your opponent.
+TOURNAMENT_DECK_CONFLICT_MESSAGE_TEXT;{0} of your deck share more than {1} of the same cards. Conflicting decks :"{2}"
+TOURNAMENT_DECK_PICK_CONFIRM_BUTTON_TEXT;Confirm
+TOURNAMENT_COUNTDOWN_TEXT;Next phase in {0} seconds...
+TOURNAMENT_COUNTDOWN_GAME_START_TEXT;Game starting in {0} seconds...
+TOURNAMENT_BAN_DECK_TEXT;Select a deck to ban
+TOURNAMENT_BAN_DECK_SPECTATOR_TEXT;Players are banning
+TOURNAMENT_BAN_PHASE_NAME_TEXT;Ban Phase
+TOURNAMENT_PICK_DECK_LOCKED_TEXT;As the winner you can't change deck. Confirm when you are ready.
+TOURNAMENT_PICK_DECK_TEXT;Select a deck to play
+TOURNAMENT_PICK_DECK_SPECTATOR_TEXT;Players are selecting decks
+TOURNAMENT_PICK_PHASE_NAME_TEXT;Pick Phase
+TOURNAMENT_SIGNUP_DECK_4;Register 4th deck
+TOURNAMENT_PHASE_TIME_LEFT;Time Left : {0}
+INVALID_DECK_CARDS_QUANTITY;Your deck must contain exactly {0} cards
+CARD_FILTER_INCOMPLETE;Incomplete
+MOUSE_REWARD_LORE_PAGE_CLICK_TO_READ;Click to read
+CARD_FILTER_RESURGENCE;Resurgence
+REWARD_ORIGIN_YOUBACK;You came back thanks to {0}!
+REWARD_ORIGIN_FRIENDBACK;{0} came back!
+REWARD_ORIGIN_DLCRESURGENCE;Resurgence
+REWARD_FEATURE_PUZZLE_PACKS_ID;You've unlocked the Puzzle section!
+PUZZLES_MENU_TITLE_ELEMENTS;Elements
+PUZZLES_MENU_TITLE_CORE;Core Puzzles
+PUZZLES_DLC_PURCHASE_REWARDS;Rewards to earn inside
+PUZZLES_DLC_PURCHASE_BUTTON;Go to Steam Store
+PUZZLE_NEED_LANE_UNLOCK;Before replaying this puzzle, you should defeat it in Adventure Mode
+REWARD_FEATURE_DLC_385;Elements Puzzles Unlocked!
+REWARD_FEATURE_DLC_383;Resurgence Unlocked!
+REWARD_FEATURE_DLC_316;Fall of Everlife Unlocked!
+REWARD_FEATURE_DLC_315;Your account is now Premium!
+REWARD_FEATURE_DLC_187;Steam Pack Unlocked!
+REWARD_FEATURE_DLC_16;G2A Bundle Unlocked!
+REWARD_FEATURE_DLC_15;Early Access Bundle Unlocked!
+PUZZLES_ACT_COMPLETION_TOOLTIP;Solve that many puzzles to reap these rewards!
+MARKET_TAB_WELLS;Wells
+MARKET_TAB_SETS;Sets
+MARKET_TAB_ORBS;Orbs
+MARKET_TAB_FEATURED;Featured
+MARKET_TAB_CARD_BACKS;Card Backs
+MARKET_TAB_AVATARS;Avatars
+COSMETIC_SET_SELECT;Select a custom set for your deck
+REWARD_ORIGIN_DLCGAGANA;Chronicles of Gagana
+REWARD_FEATURE_DLC_386;Chronicles of Gagana Unlocked!
+CARD_FILTER_GAGANA;Gagana
+REWARD_FEATURE_DLC_390;All Wells Unlocked!
+REWARD_FEATURE_DLC_389;All Orbs Unlocked!
+REWARD_FEATURE_DLC_388;All Card Backs Unlocked!
+REWARD_FEATURE_DLC_387;All Avatars Unlocked!
+GAMEPAD_REWARD_LORE_PAGE_CLICK_TO_READ;Press {GAMEPAD_RIGHT_BUTTONS_LEFT} to read
+MOUSE_ENGAGEMENT_PRESS_CONFIRM_TEXT;Click to play
+GAMEPAD_ENGAGEMENT_PRESS_CONFIRM_TEXT;Press any button to play
+NON_XBOX_LIVE_PLAYERS_MIGHT_BE_PRESENT;<nobr>Non-Xbox</nobr> Live players might be present in this game mode
+PLATFORM_PS4_ACCOUNT_BINDING_MESSAGE;If it's the first time you play Faeria with your Account on <nobr>PlayStation™Network</nobr>, a Faeria account will be created and bound to your Account on <nobr>PlayStation™Network</nobr>.
+GAMEPAD_QUEST_BUTTON_TOOLTIP_TEXT;Press {GAMEPAD_ACTION_CONFIRM} to start the battle
+PLATFORM_EPIC_GAMES_STORE_ACCOUNT_BINDING_MESSAGE;If it's the first time you play Faeria with your <nobr>Epic Games Store</nobr> account, a Faeria account will be created and bound to your <nobr>Epic Games Store</nobr> account.
+PLATFORM_STEAM_ACCOUNT_BINDING_MESSAGE;If it's the first time you play Faeria with your Steam account, a Faeria account will be created and bound to your Steam account.
+PLATFORM_SWITCH_ACCOUNT_BINDING_MESSAGE;If it's the first time you play Faeria with your Nintendo account, a Faeria account will be created and bound to your Nintendo account.
+PLATFORM_XBOX_LIVE_ACCOUNT_BINDING_MESSAGE;If it's the first time you play Faeria with your <nobr>Xbox Live</nobr> account, a Faeria account will be created and bound to your <nobr>Xbox Live</nobr> account.
+LORE_PAGE_LABEL;Lore Page
+ENTER_A_DECK_NAME;Enter a deck name
+ENTER_COUPON_CODE;Enter a coupon code
+ENTER_CARD_NAME;Enter a card name
+ENTER_FRIEND_ID;Enter a friend support id
+DLC_FEATURES_WELLS_PACK;This package includes 20+ Wells currently in-game and will include additional wells as they are released.
+DLC_FEATURES_ORBS_PACK;This package includes all 30+ Orbs currently in-game and will include additional orbs as they are released.
+DLC_FEATURES_CARDBACKS_PACK;This package includes 20+ Cardbacks currently in-game and will include additional cardbacks as they are released.
+DLC_FEATURES_AVATARS_PACK;This package includes 50+ Avatars currently in-game and will include additional avatars as they are released.
+DLC_FEATURES_PREMIUM_EDITION;- Doubled XP - from everything!\n- Earn Battle Chests and Shards at twice the normal rate.\n- 10 ADDITIONAL Deck Slots\n- Premium card back\n- Golden Faeria logo\n- 5 Mythic Chests full of cosmetics\n- Bonus shards
+DLC_FEATURES_PUZZLE_ELEMENTS;- 40 new puzzles, from low to extreme difficulty.\n- The equivalent of 10 Mythic Chests in rewards\n- Unlock the ability to earn the 'Elements' card back
+DLC_FEATURES_FALL_OF_EVERLIFE;- 40 new cards unlocked\n- Introduction of the Corrupt keyword\n- Introduction of Subtypes: Yaks, Rakoans, and Beasts!\n- Unique cosmetic set
+DLC_FEATURES_RESURGENCE;- 40 new cards unlocked\n- Introduction of the Triton subtype\n- Unique cosmetic set
+DLC_FEATURES_CHRONICLES_OF_GAGANA;- 40 new cards unlocked\n- Introduction of the Discover keyword\n- New Mecha subtype\n- Unique cosmetic set
+DLC_DESCRIPTION_WELLS_PACK;This DLC immediately unlocks all of the Well cosmetic items that are also able to be unlocked through in-game progression.
+DLC_DESCRIPTION_ORBS_PACK;This DLC immediately unlocks all of the Orb cosmetic items that are also able to be unlocked through in-game progression.
+DLC_DESCRIPTION_CARDBACKS_PACK;This DLC immediately unlocks all of the Cardback cosmetic items are also able to be unlocked through in-game progression.
+DLC_DESCRIPTION_AVATARS_PACK;This DLC immediately unlocks all of the Avatar cosmetic items that are also able to be unlocked through in-game progression.
+DLC_DESCRIPTION_PREMIUM_EDITION;Unlock the Premium Faeria experience!\n\nThis package provides a mixture of accelerated progress and exclusive items. Maximize your time spent in Faeria with DOUBLE XP, more deck slots, special cosmetics and more.\n\nLooking to get the most out of Faeria? This content is for you.
+DLC_DESCRIPTION_PUZZLE_ELEMENTS;Your usual puzzle master, Jalmyr, has stepped aside and allowed the elements to take over.\n\nThis Puzzle Pack for Faeria contains 40 additional brain-twisting challenges for you to complete.\n\nCan you overcome the elements?\n\nWarning: Many of these puzzles are quite difficult!
+DLC_DESCRIPTION_FALL_OF_EVERLIFE;Emperor Kaios has consumed the Fruit of Everlife, unleashing a terrible corruption into the Oversky. Band together with the Yaks and Rakoans to fight it off!
+DLC_DESCRIPTION_RESURGENCE;Corruption spreads across the world, threatening to taint all things good and pure. New monsters and wicked men flock to the Imperial banner, hoping to share in the spoils of war.\n\nDespite suffering great losses, hope blooms in the hearts of those who choose to fight back. Victory, against all odds, appears to be possible with new allies joining the cause.
+DLC_DESCRIPTION_CHRONICLES_OF_GAGANA;Emperor Kaios has been defeated and the Oversky is saved.\n\nIn search for a solution to a new impending cataclysm, the crew of the Gagana venture out into uncharted territory.\n\nThey will encounter new civilizations, new continents, new creatures.... and in the end: the Treasures of Gagana.
+DLC_SHOP_OPEN_SHOP;Open Store
+DLC_SHOP_CONTENT_TITLE_TEXT;Content:
+INTRO_FOURTH_SENTENCE;But which gods, exactly, are we to pray to?
+INTRO_THIRD_SENTENCE;The soldier, above all others, prays for peace.
+INTRO_SECOND_SENTENCE;Our gods do not determine who is right... only who is left.
+INTRO_FIRST_SENTENCE;As much as our world changes... It always stays the same.
+REWARD_FEATURE_DLC_409;All DLC Bundle Unlocked!
+REWARD_FEATURE_DLC_408;Epic Launch Bundle Unlocked!
+REWARD_FEATURE_DLC_407;Premium Bundle Unlocked!
+PLATFORM_SWITCH_DLC_SHOP_OPEN_STORE;Open <nobr>Nintendo eShop</nobr>
+PLATFORM_XBOX_LIVE_DLC_SHOP_OPEN_STORE;Open <nobr>Microsoft Store</nobr>
+PLATFORM_PS4_DLC_SHOP_OPEN_STORE;Open <nobr>PlayStation™Store</nobr>
+PLATFORM_DEFAULT_DLC_SHOP_OPEN_STORE;Open Store
+CARD_DLC_NOT_OWNED;You cannot play with this deck because it contains card '{0}' from a DLC that you don't own
+REWARD_ORIGIN_KOTHEVENTWINNER;You won the\nKing of the Hill event!
+REWARD_ORIGIN_KOTHVICTORY;King of the Hill\nvictory
+REWARD_ORIGIN_KOTHCHALLENGER;You have been chosen as Challenger for the King of the Hill!
+REWARD_ORIGIN_KOTHELECTED;You are the\nKing of the Hill!
+REWARD_FEATURE_KOTH_CHALLENGER_ID;<size=50>Players are now placing their bets, then the battle will begin. Good luck!</size>
+REWARD_FEATURE_KOTH_ID;<size=50>Make your deck and defend your title. A new challenger will be chosen soon.</size>
+KOTH_UNABLE_TO_PERFORM_ACTION_BECAUSE_CHALLENGER;You cannot perform this action because you are about to be matched against the King of the Hill.
+KOTH_UNABLE_TO_PERFORM_ACTION_BECAUSE_KOTH;You cannot perform this action because you are about to be matched against a challenger.
+KOTH_WIN_STREAK_TEXT;{0} win(s)
+KOTH_VIEW_DECK_BUTTON_TEXT;View deck
+KOTH_STATUS_PLAYING;In battle
+KOTH_STATUS_BETTING;Placing bets
+KOTH_STATUS_PENDING_MATCHMAKING;Choosing challenger
+KOTH_STATUS_QUEUING;Challengers queuing
+KOTH_STATUS_CREATING_DECK;Making deck
+KOTH_SPECTATE_BUTTON_TEXT;Spectate
+KOTH_SEARCHING_BUTTON_TEXT;Searching
+KOTH_RANKINGS_BUTTON_TEXT;Rankings
+KOTH_POPUP_DESCRIPTION;This is an awesome description!
+KOTH_POPUP_TITLE;Krog's King of the Hill
+KOTH_PLACE_BET_BUTTON_TEXT;Place bet
+KOTH_MAKE_DECK_BUTTON_TEXT;Edit deck
+KOTH_SELECT_DECK_BUTTON_TEXT;Select deck
+KOTH_DROP_RUN_BUTTON_TEXT;Drop run
+KOTH_STOP_QUEUEING_BUTTON_TEXT;Stop queueing
+KOTH_CHALLENGE_BUTTON_TEXT;Challenge
+KOTH_CARD_TITLE_TEXT;Today's special card
+KOTH_CANNOT_DECKOUT_KOTH_SPECIAL_CARDS;The King of the Hill special card cannot be removed from the deck.
+KOTH_CANNOT_EDIT_COMPLETE_DECK_TEXT;You cannot edit a completed King of the Hill deck.
+KOTH_BETS_TEXT;Bets
+KING_OF_THE_HILL;King of the Hill
+ENTER_TURN_DURATION;Enter turn duration
+ENTER_MINUTES_PER_GAME;Enter minutes per game

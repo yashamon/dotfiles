@@ -1,0 +1,18 @@
+#!/usr/bin/env bash
+
+export QT_API=5.12.0
+export QT_PKG_CONFIG=true
+export QT_QPA_PLATFORM=wayland
+
+sudo pacman -S $(pacman -Ssq ^qt5-.*)
+
+go get -u github.com/therecipe/qt/cmd/...
+
+qtsetup
+
+go get -d github.com/akiyosi/gonvim/editor/
+
+cd ${HOME}/go/src/github.com/akiyosi/gonvim/cmd/gonvim/
+
+qtmoc
+qtdeploy build desktop

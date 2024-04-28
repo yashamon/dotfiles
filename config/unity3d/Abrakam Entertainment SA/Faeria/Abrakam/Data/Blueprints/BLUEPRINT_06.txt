@@ -1,0 +1,16 @@
+# Name: BLUEPRINT_06
+# Order: 6
+# RequirementType: LEVEL
+# RequirementParam: 9
+-------- 
+1 Garudan, Heart of the Mountain
+2 Underground Boss
+3 Flame Spitter
+3 Gift of Steel
+3 Underground Brigand
+3 Shedim Brute
+3 Grim Guard
+3 Kobold Warlord
+3 Syland Horsemaster
+3 Bomb Slinger
+3 Flame Burst

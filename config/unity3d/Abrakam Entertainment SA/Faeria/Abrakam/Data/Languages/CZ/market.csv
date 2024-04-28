@@ -1,0 +1,389 @@
+ACT_FUGORO.marketDescription;Hrajte s mocnými kartami pokladů and překonejte Fugora v jeho vlastní hře.\nObsahuje 7 misí.\nCelková odměna: 4 bitevní truhly a 600 zlaťáků.
+ACT_FUGORO.marketName;Fugorův balík misí
+ACT_FUGORO.marketShortDescription;Balík misí
+ACT_HOAKA.marketDescription;Vyzvěte slavného Tritonského taktika na jeho neotřelých hracích plochách.\nObsahuje 7 misí.\nCelková odměna: 4 bitevní truhly a 600 zlaťáků.
+ACT_HOAKA.marketName;Hoakův balík misí
+ACT_HOAKA.marketShortDescription;Balík misí
+ACT_JALMYR_02.marketDescription;Vyřešte hádanky Sfingy a zdokonalte své schopnosti.\nObsahuje 10 hádanek\nCelková odměna: 4 bitevní truhly a 600 zlaťáků.
+ACT_JALMYR_02.marketName;Jalmyr, Akt II
+ACT_JALMYR_02.marketShortDescription;Balík misí
+ACT_JALMYR_03.marketDescription;Vyřešte hádanky Sfingy a zdokonalte své schopnosti.\nObsahuje 10 hádanek\nCelková odměna: 4 bitevní truhly a 600 zlaťáků.
+ACT_JALMYR_03.marketName;Jalmyr, Akt III
+ACT_JALMYR_03.marketShortDescription;Balík misí
+ACT_JALMYR_04.marketDescription;Vyřešte hádanky Sfingy a zdokonalte své schopnosti.\nObsahuje 10 hádanek\nCelková odměna: 4 bitevní truhly a 600 zlaťáků.
+ACT_JALMYR_04.marketName;Jalmyr, Akt IV
+ACT_JALMYR_04.marketShortDescription;Balík misí
+ACT_MAGDA.marketDescription;Osvojte si unikátní kombinace pokladů a porazte mocnou královnu.\nObsahuje 7 misí.\nCelková odměna: 4 bitevní truhly a 600 zlaťáků.
+ACT_MAGDA.marketName;Magdin balík misí
+ACT_MAGDA.marketShortDescription;Balík misí
+AVATAR_ADVENTURER.marketDescription;Vydejte se ve stopách mladého Fugora na jeho nebeské pouti!\n\nTato položka odemkne nový avatar pro váš orb.
+AVATAR_AURORA.marketDescription;Mezi Aurořiny koníčky patří výuka budoucích hrdinů, řízení směru historie a ochutnávání nových druhů čaje.\n\nTato položka odemkne nový avatar pro váš orb.
+AVATAR_BLUE_ELEMENTAL_2.marketDescription;Mudrci občas zahlédnou tuto bytost v troskách zapomenutých měst.\n\nTato položka odemkne nový avatar pro váš orb.
+AVATAR_BLUE_ELEMENTAL_3.marketDescription;Zjevuje se prorokům a plní jejich přání. Zjevuje jejich zrakům budoucnost.\n\nTato položka odemkne nový avatar pro váš orb.
+AVATAR_BOMB_SLINGER.marketDescription;Život není o počtu nadechnutí, ale o všech těch bombách, co nám dech berou.\n\nTato Položka odemkne nový avatar pro váš orb.
+AVATAR_CAP_10.marketDescription;Tento stroj byl původně stvořen jako obránce. To už je ale dávno, nyní byl přeprogramován pro pirátské účely!
+AVATAR_DARK_WISP.marketDescription;Zlomyslný duch, který žije ve škvírách a prázdných místech.\n\nTato položka odemkne nový avatar pro váš orb.
+AVATAR_FUGORO.marketDescription;Fuguro je nejtroufalejší obchodník na světě. Často se plíží okolo Orosei, aby ukradl poklady z Pandory.\n\nTato položka odemkne nový avatar pro váš orb.
+AVATAR_GREEN_ELEMENTAL_2.marketDescription;Pomatenci občas zahlédnou tuto bytost v nejdivočejších hlubinách nezkroceného lesa.\n\nTato položka odemkne nový avatar pro váš orb.
+AVATAR_GREEN_ELEMENTAL_3.marketDescription;Zjevuje se bláznům a plní jejich přání. Překrucuje lesy dle jejich vůle.\n\nTato položka odemkne nový avatar pro váš orb.
+AVATAR_HOAKA.marketDescription;Jako mistr válčení by byl Hoaka nezastavitelný, kdyby pořád nevymýšlel nové nepraktické taktiky.\n\nTato položka odemkne nový avatar pro váš orb.
+AVATAR_JALMYR.marketDescription;Záhadná sfinga opatruje kosmos a hraje roli učitele bohů.\n\nTato položka odemkne nový avatar pro váš orb.
+AVATAR_KELDRAN_EMISSARY.marketDescription;Větrorození vyslaneci vynáší napsané modlitby obyčejných lidí vzhůru, až do posvátných mraků.\n\nTato položka odemkne nový avatar pro váš orb.
+AVATAR_KHALIM.marketDescription;Khalim, zázračné dítě z Djidanského řádu, se vzepřel svým mistrům a vstoupil do pozemské války.\n\nTato položka odemkne nový avatar pro váš orb.
+AVATAR_KINGS_GUARD.marketDescription;Čepele se mohou zlomit, ale rytířské ideály ne. Králova stráž nikdy neselže.\n\nTato položka odemkne nový avatar pro váš orb.
+AVATAR_KOBOLD_MERCENARY.marketDescription;Šéfové podsvětí jsou vládci koboldího zločineckého podzemí. V tomto místě, kde slabí slouží silným, se tito děsiví válečníci vyšplhali až na vrchol po hřbetech svých zlomených nepřátel.\n\nTato položka odemkne nový avatar pro váš orb.
+AVATAR_KROG.marketDescription;Krog má za to, že je králem zlobrů. Jenže je jediný.\n\nTato položka odemkne nový avatar pro váš orb.
+AVATAR_MAGDA.marketDescription;Největší legendy světa jsou jen pouhé figurky na šachovnici královny Magdy.\n\nTato položka odemkne nový avatar pro váš orb.
+AVATAR_OGRE_BATTLER.marketDescription;Tento zlobří bojovník jménem Brutar je mezi přáteli znám jako Paličáček."\n\nTento předmět odemyká nového avatara pro tvůj orb."
+AVATAR_RAIZEON.marketDescription;Vládce všech elementů. Toto stvoření otestuje všechny, kdo by se odvážili vstoupit na jeho území.\n\nTato položka odemkne nový avatar pro váš orb.
+AVATAR_RAPALA.marketDescription;Některé ryby prostě jen chtějí vidět svět shořet.\n\nTato položka odemkne nový avatar pro váš orb.
+AVATAR_RED_ELEMENTAL_2.marketDescription;Vojevůdci občas zahlédnou tuto bytost za východu slunce před začátkem bitvy.\n\nTato položka odemkne nový avatar pro váš orb.
+AVATAR_RED_ELEMENTAL_3.marketDescription;Zjevuje se vojevůdcům a plní jejich přání. Sjednocuje hory pod jeden prapor.\n\nTato položka odemkne nový avatar pro váš orb.
+AVATAR_RUUNIN.marketDescription;Ruunin je nesmrtelná strážkyně přirozeného řádu. Přežila všechny přátele, které kdy poznala.\n\nTato položka odemkne nový avatar pro váš orb.
+AVATAR_SAGAMI_ELDER.marketDescription;Sagamové nepočítají svůj věk podle prožitých let, ale podle nepřátel které povraždily.\n\nTato položka odemkne nový avatar pro váš orb.
+AVATAR_SEIFER.marketDescription;Seifer vypálil své jmeno do popela padlých království. Od dob, kdy si podmanil démony a získal jejich síly, si Seifer nevychutnává nic tak jako křik svých nepřátel.\n\nTato položka odemkne nový avatar pro váš orb.
+AVATAR_SHARRA.marketDescription;Shařina vesnice shořela, když byla ještě dítě. A s ní také její strach.\n\nTato položka odemkne nový avatar pro váš orb.
+AVATAR_SHAYTAN_ASSASSIN.marketDescription;Shaytanští vrahové jsou poslové Velekněze. Jeho zpráva je vždy stejná.\n\nTato položka odemkne nový avatar pro váš orb.
+AVATAR_TAESA.marketDescription;Gabrijská Kouzelnice vládne prastaré magii stvoření. Společně s vlnotvůrci jsou kouzelnice ochránkyně duchovní rovnováhy v Gabrijském království.\n\nTato položka odemkne nový avatar pro váš orb.
+AVATAR_TARANGA.marketDescription;Rakoané nemívali žádné slovo pro válku, ale Taranga věděl, že je s tím potřeba něco udělat.
+AVATAR_TARUM.marketDescription;Tarum byl prvním zasazeným semínkem, jeho kořeny sahají až k samému srdci světa. Spatřil vzestup hor, zrod draků a pád dávných bohů.\n\nTato položka odemkne nový avatar pro váš orb.
+AVATAR_THE_EGG.marketDescription;Někteří věří, že je toto Vejce, nalezené ve snu draka, předzvěstí světlejších zítřků. Jednoho dne se však vylíhne.\n\nTato položka odemkne nový avatar pro váš orb.
+AVATAR_ULANI.marketDescription;Rakoanské děti se smějí společně s větrem, tančí s vlnami, spí obklopeny listím a vyměňují si svá tajemství s ohněm. Ulani nikdy tak docela nevyrostla.
+AVATAR_VERDURAN_FORCE.marketDescription;Žádný dřevorubec nesekne do jednoho z těchto tvorů dvakrát.\n\nTato položka odemkne nový avatar pro váš orb.
+AVATAR_YAKKAR.marketDescription;Nejlepší z nejlepších. Tito jakové chrání rovnováhu reality samotné.
+AVATAR_YAK_CYNICAL.marketDescription;Tento jak má položit a zodpovědět jedinou otázku: Jaký je nejlepší balíček faerie?""
+AVATAR_YAK_DRAGON.marketDescription;Někteří draci mají rádi jaky. OPRAVDU rádi jaky.
+AVATAR_YAK_FANCY.marketDescription;Sir Jakkinton je nejžádanější host světa.
+AVATAR_YAK_FARMER.marketDescription;Buď zemřeš jako hrdina, nebo žiješ dost dlouho na to, abys viděl, jak se staneš farmářem.
+AVATAR_YAK_FAT.marketDescription;Jak je nejspokojenější těsně před tím, než přijde na talíř." -Kniha Seifera"
+AVATAR_YAK_FORCER.marketDescription;Máte právo zůstat načechraní.
+AVATAR_YAK_HIPPIE.marketDescription;Nezapomeň se občas zastavit a sníst pár růží.
+AVATAR_YAK_KING.marketDescription;Král Jaknus, první svého jména, Ničitel třmenů a Bestie všech břemen.
+AVATAR_YAK_PIRATE.marketDescription;Legendární kapitán Jak Sparrow. Plenitel sedmi nebes.
+AVATAR_YELLOW_ELEMENTAL_2.marketDescription;Vrahové občas zahlédnou tuto bytost pár hodin předtím než dojde k masakru.\n\nTato položka odemkne nový avatar pro váš orb.
+AVATAR_YELLOW_ELEMENTAL_3.marketDescription;Zjevuje se vrahům a plní jejich přání. Máčí písky krví.\n\nTato položka odemkne nový avatar pro váš orb.
+BACKER_STARTER_PACK_BUNDLE.marketDescription;30 bitevních truhel, 10 pandorských mincí, 1 orb a 1 avatar.
+BACKER_STARTER_PACK_BUNDLE.marketName;Kickstarter nabídka
+BLUE_CHEST_1.marketDescription;Každá bitevní truhla obsahuje 4 náhodné karty, od nichž ještě nemáte celý set.
+BLUE_CHEST_1.marketName;1 bitevní truhla
+BLUE_CHEST_1.marketShortDescription;4 nové karty!
+BLUE_CHEST_12.marketDescription;Každá bitevní truhla obsahuje 4 náhodné karty, od nichž ještě nemáte celý set.
+BLUE_CHEST_12.marketName;12 bitevních truhel
+BLUE_CHEST_12.marketShortDescription;48 nových karet!
+BLUE_CHEST_14.marketDescription;Každá bitevní truhla obsahuje 5 náhodných karet. Nejvzácnější kartu můžete vyměnit za náhodnou jinou (stejně vzácnou).
+BLUE_CHEST_14.marketName;14 bitevních truhel
+BLUE_CHEST_14.marketShortDescription;70 nových karet!
+BLUE_CHEST_2.marketDescription;Každá bitevní truhla obsahuje 4 náhodné karty, od nichž ještě nemáte celý set.
+BLUE_CHEST_2.marketName;2 bitevní truhly
+BLUE_CHEST_2.marketShortDescription;8 nových karet!
+BLUE_CHEST_25.marketDescription;Každá bitevní truhla obsahuje 5 náhodných karet. Nejvzácnější kartu můžete vyměnit za náhodnou jinou (stejně vzácnou).
+BLUE_CHEST_25.marketName;25 bitevních truhel
+BLUE_CHEST_25.marketShortDescription;125 nových karet!
+BLUE_CHEST_26.marketDescription;Každá bitevní truhla obsahuje 5 náhodných karet. Nejvzácnější kartu můžete vyměnit za náhodnou jinou (stejně vzácnou).
+BLUE_CHEST_26.marketName;26 bitevních truhel
+BLUE_CHEST_26.marketShortDescription;130 nových karet!
+BLUE_CHEST_4.marketDescription;Každá bitevní truhla obsahuje 5 náhodných karet. Nejvzácnější kartu můžete vyměnit za náhodnou jinou (stejně vzácnou).
+BLUE_CHEST_4.marketName;4 bitevní truhly
+BLUE_CHEST_4.marketShortDescription;20 nových karet!
+BLUE_CHEST_5.marketDescription;Každá bitevní truhla obsahuje 4 náhodné karty, od nichž ještě nemáte celý set.
+BLUE_CHEST_5.marketName;5 bitevních truhel
+BLUE_CHEST_5.marketShortDescription;20 nových karet!
+BLUE_CHEST_55.marketDescription;Každá bitevní truhla obsahuje 5 náhodných karet. Nejvzácnější kartu můžete vyměnit za náhodnou jinou (stejně vzácnou).
+BLUE_CHEST_55.marketName;55 bitevních truhel
+BLUE_CHEST_55.marketShortDescription;275 nových karet!
+BUNDLE_BLUE_CHEST_24.marketDescription;Obsahuje 12 bitevních truhel (60 karet) a 1 náhodnou Legendární kartu. Může být zakoupeno jen jednou.
+BUNDLE_BLUE_CHEST_24.marketName;Začátečnická nabídka pro bitvu
+BUNDLE_BLUE_CHEST_24.marketShortDescription;120 nových karet!
+BUNDLE_EMOTE_AURORA.marketName;Nabídka Aurořiných hlášek
+BUNDLE_EMOTE_SEIFER.marketName;Nabídka Seiferových hlášek
+BUNDLE_EMOTE_SHARRA.marketName;Nabídka Sharriných hlášek
+BUNDLE_PINK_CHEST_8.marketName;Nabídka balíček pro začátečníky
+BUNDLE_PREMIUM_1.marketName;Prémiová nabídka
+BUNDLE_SET_ADVENTURER.marketDescription;Vydejte se ve stopách mladého Fugora na jeho nebeské pouti!\n\nTato sada odemkne speciální avatar dané postavy, orb, studny, rub karet a 6 hlášek.
+BUNDLE_SET_ADVENTURER.marketName;Sada dobrodruha
+BUNDLE_SET_AURORA.marketDescription;Mezi Aurořiny koníčky patří výuka budoucích hrdinů, řízení směru historie a ochutnávání nových druhů čaje.\n\nTato sada odemkne speciální avatar dané postavy, orb, studny, rub karet a 6 hlášek.
+BUNDLE_SET_AURORA.marketName;Aurořina sada
+BUNDLE_SET_FUGORO.marketDescription;Dobrodruh, mudrc, zloděj, opovážlivec, romantik. Je to.... Ten nejzajímavější žabák na světě (a majitel tohoto obchodu)!\n\nTato sada odemkne speciální avatar dané postavy, orb, studny, rub karet a 6 hlášek.
+BUNDLE_SET_FUGORO.marketName;Fugorova sada
+BUNDLE_SET_HOAKA.marketDescription;Jako mistr válčení by byl Hoaka nezastavitelný, kdyby pořád nevymýšlel nové nepraktické taktiky.\n\nTato sada odemkne speciální avatar dané postavy, orb, studny, rub karet a 6 hlášek.
+BUNDLE_SET_HOAKA.marketName;Hoakova sada
+BUNDLE_SET_KHALIM.marketDescription;Khalim, zázračné dítě z Djidanského řádu, se vzepřel svým mistrům a vstoupil do pozemské války.\n\nTato sada odemkne speciální avatar dané postavy, orb, studny, rub karet a 6 hlášek.
+BUNDLE_SET_KHALIM.marketName;Khalimova sada
+BUNDLE_SET_KROG.marketDescription;Krog má za to, že je králem zlobrů. Jenže je jediný.\n\nTato sada odemkne speciální avatar dané postavy, orb, studny, rub karet a 6 hlášek.
+BUNDLE_SET_KROG.marketName;Krogova sada
+BUNDLE_SET_MAGDA.marketDescription;Největší legendy světa jsou jen pouhé figurky na šachovnici královny Magdy.\n\nTato sada odemkne speciální avatar dané postavy, orb, studny, rub karet a 6 hlášek.
+BUNDLE_SET_MAGDA.marketName;Magdina sada
+BUNDLE_SET_RUUNIN.marketDescription;Ruunin je nesmrtelná strážkyně přirozeného řádu. Přežila všechny přátele, které kdy poznala.\n\nTato sada odemkne speciální avatar dané postavy, orb, studny, rub karet a 6 hlášek.
+BUNDLE_SET_RUUNIN.marketName;Ruuninina sada
+BUNDLE_SET_SEIFER.marketDescription;Seifer vypálil své jmeno do popela padlých království. Od dob, kdy si podmanil démony a získal jejich síly, si Seifer nevychutnává nic tak jako křik svých nepřátel.\n\nTato sada odemkne speciální avatar dané postavy, orb, studny, rub karet a 6 hlášek.
+BUNDLE_SET_SEIFER.marketName;Seiferova sada
+BUNDLE_SET_SHARRA.marketDescription;Shařina vesnice shořela, když byla ještě dítě. A s ní také její strach.\n\nTato sada odemkne speciální avatar dané postavy, orb, studny, rub karet a 6 hlášek.
+BUNDLE_SET_SHARRA.marketName;Sharrina sada
+BUNDLE_SET_TARUM.marketDescription;Tarum byl prvním zasazeným semínkem. Spatřil vzestup hor, zrození draků a pád dávných bohů.\n\nTato sada odemkne speciální avatar dané postavy, orb, studny, rub karet a 6 hlášek.
+BUNDLE_SET_TARUM.marketName;Tarumova sada
+CARD_BACK_ADVENTURER.marketDescription;Vydejte se ve stopách mladého Fugora na jeho nebeské pouti!\n\nTato položka odemkne nový rub karet pro váš balíček.
+CARD_BACK_AURORA.marketDescription;Mezi Aurořiny koníčky patří výuka budoucích hrdinů, řízení směru historie a ochutnávání nových druhů čaje.\n\nTato položka odemkne nový rub karet pro váš balíček.
+CARD_BACK_BASIC_COPPER.marketDescription;Baldurion tyto ukoval z roztavené mědi a safírů.\n\nTato položka odemkne nový rub karet pro váš balíček.
+CARD_BACK_BASIC_DIAMOND.marketDescription;Baldurion tyto ukoval z roztaveného stříbra a safírů.\n\nTato položka odemkne nový rub karet pro váš balíček.
+CARD_BACK_BOMB_SLINGER.marketDescription;Život není o počtu nadechnutí, ale o všech těch bombách, co nám dech berou.\n\nTato Položka odemkne nový rub karet pro váš balíček.
+CARD_BACK_FAERIA_WORLD_CIRCUIT.marketDescription;Vydobyli jste si úctu draků.\n\nTato položka odemkne nový rub karet pro vaše balíčky.
+CARD_BACK_FUGORO.marketDescription;Fuguro je nejtroufalejší obchodník na světě. Často se plíží okolo Orosei, aby ukradl poklady z Pandory.\n\nTato položka odemkne nový rub karet pro váš balíček.
+CARD_BACK_HOAKA.marketDescription;Jako mistr válčení by byl Hoaka nezastavitelný, kdyby pořád nevymýšlel nové nepraktické taktiky.\n\nTato položka odemkne nový rub karet pro váš balíček.
+CARD_BACK_JALMYR.marketDescription;Záhadná sfinga opatruje kosmos a hraje roli učitele bohů.\n\nTato položka odemkne nový rub karet pro váš balíček.
+CARD_BACK_KHALIM.marketDescription;Khalim, zázračné dítě z Djidanského řádu, se vzepřel svým mistrům a vstoupil do pozemské války.\n\nTato položka odemkne nový rub karet pro váš balíček.
+CARD_BACK_KROG.marketDescription;Krog má za to, že je králem zlobrů. Jenže je jediný.\n\nTato položka odemkne nový rub karet pro váš balíček.
+CARD_BACK_MAGDA.marketDescription;Největší legendy světa jsou jen pouhé figurky na šachovnici královny Magdy.\n\nTato položka odemkne nový rub karet pro váš balíček.
+CARD_BACK_MOSAIC_FLOWER.marketDescription;Stovka kappů vytváří podobnou mozaiku celý den. Celý balíček jim tedy zabere 30 dnů práce.\n\nTato položka odemkne nový rub karet pro vaše balíčky.
+CARD_BACK_MOSAIC_SOLAR.marketDescription;Stovka kappů vytváří podobnou mozaiku celý den. Celý balíček jim tedy zabere 30 dnů práce.\n\nTato položka odemkne nový rub karet pro vaše balíčky.
+CARD_BACK_MUCHA.marketDescription;Tato položka odemkne nový rub karet pro váš balíček.
+CARD_BACK_RAPALA.marketDescription;Některé ryby prostě jen chtějí vidět svět shořet.\n\nTato položka odemkne nový rub karet pro váš balíček.
+CARD_BACK_RUUNIN.marketDescription;Ruunin je nesmrtelná strážkyně přirozeného řádu. Přežila všechny přátele, které kdy poznala.\n\nTato položka odemkne nový rub karet pro váš balíček.
+CARD_BACK_SEIFER.marketDescription;Seifer vypálil své jmeno do popela padlých království. Od dob, kdy si podmanil démony a získal jejich síly, si Seifer nevychutnává nic tak jako křik svých nepřátel.\n\nTato položka odemkne nový rub karet pro váš balíček.
+CARD_BACK_SHARRA.marketDescription;Shařina vesnice shořela, když byla ještě dítě. A s ní také její strach.\n\nTato položka odemkne nový rub karet pro váš balíček.
+CARD_BACK_TARUM.marketDescription;Tarum byl prvním zasazeným semínkem. Spatřil vzestup hor, zrození draků a pád dávných bohů.\n\nTato položka odemkne nový rub karet pro váš balíček.
+CORE_SET_FULL.marketDescription;Ultimátní soutěžní balíček: Dostaňte se do nejvyšší úrovně hry s úplnou sadou základních karet. Tato koupě odemkne vše, co je třeba k sestavení jakéhokoliv balíčku ve hře. Zároveň vám také vrátíme 100 zlaťáků za každou bitevní truhlu, kterou jste do této chvíle zakoupili.
+CORE_SET_FULL.marketName;Kopletní základní sada
+DECK_SLOT_5.marketDescription;Každý stratég potřebuje široký arzenál.\nPři koupi této položky trvale získáte možnost mít o 5 balíčků více.
+DECK_SLOT_5.marketName;5 balíčků navíc
+DECK_SLOT_5.marketShortDescription;5 balíčků navíc!
+DREAMHACK_SUMMER_2016_BUNDLE.marketDescription;4 bitevní truhly a 5 pandorských mincí
+DREAMHACK_SUMMER_2016_BUNDLE.marketName;Dreamhack nabídka
+EARLY_ACCESS_BUNDLE.marketDescription;20 bitevních truhel, 10 pandorských mincí a exkluzivní avatar a orb.
+EARLY_ACCESS_BUNDLE.marketName;Nabídka pro předběžný přístup
+EMOTE_AURORA_GREETINGS.marketName;Aurora hláška 1
+EMOTE_AURORA_OOPS.marketName;Aurora hláška 5
+EMOTE_AURORA_TAUNT.marketName;Aurora hláška 2
+EMOTE_AURORA_UNIQUE.marketName;Aurora hláška 6
+EMOTE_AURORA_WELL_PLAYED.marketName;Aurora hláška 3
+EMOTE_AURORA_WOW.marketName;Aurora hláška 1
+EMOTE_SEIFER_GREETINGS.marketName;Seifer hláška 1
+EMOTE_SEIFER_OOPS.marketName;Seifer hláška 5
+EMOTE_SEIFER_TAUNT.marketName;Seifer hláška 2
+EMOTE_SEIFER_UNIQUE.marketName;Seifer hláška 6
+EMOTE_SEIFER_WELL_PLAYED.marketName;Seifer hláška 3
+EMOTE_SEIFER_WOW.marketName;Seifer hláška 4
+EMOTE_SHARRA_GREETINGS.marketName;Sharra hláška 1
+EMOTE_SHARRA_OOPS.marketName;Sharra hláška 5
+EMOTE_SHARRA_TAUNT.marketName;Sharra hláška 2
+EMOTE_SHARRA_UNIQUE.marketName;Sharra hláška 6
+EMOTE_SHARRA_WELL_PLAYED.marketName;Sharra hláška 3
+EMOTE_SHARRA_WOW.marketName;Sharra hláška 4
+G2A_BUNDLE.marketDescription;20 bitevních truhel, 10 pandorských mincí a exkluzivní avatar a orb.
+G2A_BUNDLE.marketName;G2A nabídka
+GEM_STARTER_BUNDLE.marketDescription;Obsahuje 5000 klenotů, 1 mytickou truhlu a 1 legendární kartu, kterou zatím nemáte ve sbírce (pokud máte všechny, získáte tučnou kompenzaci ve střípcích). Lze zakoupit pouze jednou.
+GEM_STARTER_BUNDLE.marketName;Začátečnická nabídka klenotů
+GEM_STARTER_BUNDLE.marketShortDescription;Obsahuje klenoty, kosmetické prvky a i něco Legendárního!
+GOLD_100.marketDescription;Zlaťáky vám umožní nakoupit položky v obchodě.
+GOLD_100.marketName;100 zlaťáků
+GOLD_1000.marketDescription;Zlaťáky vám umožní nakoupit položky v obchodě.
+GOLD_1000.marketName;1000 zlaťáků
+GOLD_250.marketDescription;Zlaťáky vám umožní nakoupit položky v obchodě.
+GOLD_250.marketName;250 zlaťáků
+GOLD_2500.marketDescription;Zlaťáky vám umožní nakoupit položky v obchodě.
+GOLD_2500.marketName;2500 zlaťáků
+GOLD_500.marketDescription;Zlaťáky vám umožní nakoupit položky v obchodě.
+GOLD_500.marketName;500 zlaťáků
+GOLD_5000.marketDescription;Zlaťáky vám umožní nakoupit položky v obchodě.
+GOLD_5000.marketName;5000 zlaťáků
+LINK_AVATAR.marketName;Odkaz na stránku s avatary
+LINK_AVATAR.sliderDescription;Ztělesnětě nové Avatary.
+LINK_BUNDLE.marketName;Odkaz na stránku s nabídkami
+LINK_BUNDLE.sliderDescription;Podívejte se na naše naše nabídky pro výhodné koupě!
+LINK_CARD_BACK.marketName;Odkaz na stránku s ruby karet
+LINK_CARD_BACK.sliderDescription;Okořeňte si svoji sbírku pěkným rubem karet.
+LINK_ORB.marketName;Odkaz na stránku s orby
+LINK_ORB.sliderDescription;Vyberte si nový orb, do něhož usadíte svůj avatar.
+LINK_WELL.marketName;Odkaz na stránku se studnami
+LINK_WELL.sliderDescription;Vyzdobte svou polovinu hrací plochy s těmito studnami.
+MEMORIA_100.marketDescription;Memorie se používá na tvorbu karet.
+MEMORIA_100.marketName;100 memorie
+MEMORIA_1600.marketDescription;Memorie se používá na tvorbu karet.
+MEMORIA_1600.marketName;1600 memorie
+MEMORIA_20.marketDescription;Memorie se používá na tvorbu karet.
+MEMORIA_20.marketName;20 memorie
+MEMORIA_320.marketDescription;Memorie se používá na tvorbu karet.
+MEMORIA_320.marketName;320 memorie
+MEMORIA_3200.marketDescription;Memorie se používá na tvorbu karet.
+MEMORIA_3200.marketName;3000 memorie
+MEMORIA_400.marketDescription;Memorie se používá na tvorbu karet.
+MEMORIA_400.marketName;400 memorie
+MEMORIA_5.marketDescription;Memorie se používá na tvorbu karet.
+MEMORIA_5.marketName;5 memorie
+MEMORIA_50.marketDescription;Memorie se používá na tvorbu karet.
+MEMORIA_50.marketName;50 memorie
+MEMORIA_80.marketDescription;Memorie se používá na tvorbu karet.
+MEMORIA_80.marketName;80 memorie
+ONE_MONTH_ANNUITY.marketDescription;Goki pro vás bude denně těžit střípky po dobu 30 dní. Vždy jich najde alespoň 350, ale občas i MNOHEM více! Když si najmete Gokiho, získáte navíc ihned odměnu 6000 střípků.
+ONE_MONTH_ANNUITY.marketName;Goki, horník-dobrodruh
+ONE_MONTH_ANNUITY.marketShortDescription;Trvalé bohatství!
+ORB_ADVENTURER.marketDescription;Vydejte se ve stopách mladého Fugora na jeho nebeské pouti!\n\nTato položka odemkne nový orb pro váš avatar.
+ORB_ARCANE.marketDescription;Tento orb byl vytvořen z kamene studny faerie. Oblibu si získal u bohů, kteří chtějí rozplést tajemtství kosmu.\n\nTato položka odemkne nový orb pro váš avatar.
+ORB_ARCANE.marketName;Tajemný orb
+ORB_AURORA.marketDescription;Mezi Aurořiny koníčky patří výuka budoucích hrdinů, řízení směru historie a ochutnávání nových druhů čaje.\n\nTato položka odemkne nový orb pro váš avatar.
+ORB_BOMB_SLINGER.marketDescription;Život není o počtu nadechnutí, ale o všech těch bombách, co nám dech berou.\n\nTato položka odemkne nový orb pro váš avatar.
+ORB_DRAGON.marketDescription;Dračí orb je památkou na časy, kdy draci zachránili svět před chaosem, který rozpoutali prastaří obři. Když byla válka vyhrána, čtyři nejmocnější draci společně ukovali tento orb.\n\nTato položka odemkne nový orb pro váš avatar.
+ORB_FUGORO.marketDescription;Fuguro je nejtroufalejší obchodník na světě. Často se plíží okolo Orosei, aby ukradl poklady z Pandory.\n\nTato položka odemkne nový orb pro váš avatar.
+ORB_GAEA.marketDescription;Révy tohoto orbu jsou obdařeny Gaeiným požehnáním a poskytují lektvar věčného mládí.\n\nTato položka odemkne nový orb pro váš avatar.
+ORB_GIANTS.marketDescription;Tento orb byl vytesán z prvních kamenů, na něž vstoupili prastaří obři. Oblíbený je u nejstarších bohů, veteránů, kteří za sebou mají tisíce válek dávno zapomenutých prostými smrtelníky.\n\nTato položka odemkne nový orb pro váš avatar.
+ORB_GIANTS.marketName;Orb obrů
+ORB_HOAKA.marketDescription;Jako mistr válčení by byl Hoaka nezastavitelný, kdyby pořád nevymýšlel nové nepraktické taktiky.\n\nTato položka odemkne nový orb pro váš avatar.
+ORB_JALMYR.marketDescription;Záhadná sfinga opatruje kosmos a hraje roli učitele bohů.\n\nTato položka odemkne nový orb pro váš avatar.
+ORB_KHALIM.marketDescription;Khalim, zázračné dítě z Djidanského řádu, se vzepřel svým mistrům a vstoupil do pozemské války.\n\nTato položka odemkne nový orb pro váš avatar.
+ORB_KROG.marketDescription;Krog má za to, že je králem zlobrů. Jenže je jediný.\n\nTato položka odemkne nový orb pro váš avatar.
+ORB_MAGDA.marketDescription;Největší legendy světa jsou jen pouhé figurky na šachovnici královny Magdy.\n\nTato položka odemkne nový orb pro váš avatar.
+ORB_PACK.marketDescription;Exkluzivní orb pro podporovatele Kickstarteru.
+ORB_PACK.marketName;Exkluzivní orb pro podporovatele Kickstarteru
+ORB_POWER.marketDescription;Ukuto z kamenů staré faerijské studny. Tyto kameny pomáhají novorozeným bohům ovládnout moc faerie.\n\nTato položka odemkne nový orb pro váš avatar.
+ORB_RAPALA.marketDescription;Některé ryby prostě jen chtějí vidět svět shořet.\n\nTato položka odemkne nový orb pro váš avatar.
+ORB_RUUNIN.marketDescription;Ruunin je nesmrtelná strážkyně přirozeného řádu. Přežila všechny přátele, které kdy poznala.\n\nTato položka odemkne nový orb pro váš avatar.\n\nTato položka odemkne nový orb pro váš avatar.
+ORB_SEIFER.marketDescription;Seifer vypálil své jmeno do popela padlých království. Od dob, kdy si podmanil démony a získal jejich síly, si Seifer nevychutnává nic tak jako křik svých nepřátel.\n\nTato položka odemkne nový orb pro váš avatar.
+ORB_SHARRA.marketDescription;Shařina vesnice shořela, když byla ještě dítě. A s ní také její strach.\n\nTato položka odemkne nový orb pro váš avatar.
+ORB_TARUM.marketDescription;Tarum byl prvním zasazeným semínkem. Spatřil vzestup hor, zrození draků a pád dávných bohů.\n\nTato položka odemkne nový orb pro váš avatar.
+ORB_VALOR.marketDescription;Tento orb byl vytesán z prvních kamenů, které prastaří obři drželi v rukou. Oblíben je u starších bohů, kteří byli svědky zrození světa.\n\nTato položka odemkne nový orb pro váš avatar.
+ORB_VALOR.marketName;Orb chrabrosti
+OVERSKY_ISLE_02.marketDescription;Odemkněte <color=white>Ulaninu říši</color> a získejte věrnost největšího šamana Zánebí! Tento ostrov ukrývá <color=white>4 kooperativní mise</color>, <color=white>7 karet ze Zánebí</color>, <color=white>speciálního spojence</color>, který vám pomůže při dalších dobrodružstvích, a <color=white>bonusové body pro váš Vak dobrodružství</color> (pokud jej máte)!
+OVERSKY_ISLE_02.marketName;Nabídka ostrova Ulanina říše
+OVERSKY_ISLE_03.marketDescription;Odemkněte <color=white>Bludné světlopády</color> a odhalte společně se Sirem Jakkintonem tajemství duchů živlů! Tento ostrov ukrývá <color=white>4 kooperativní mise</color>, <color=white>7 karet ze Zánebí</color>, <color=white>speciálního spojence</color>, který vám pomůže při dalších dobrodružstvích, a <color=white>bonusové body pro váš Vak dobrodružství</color> (pokud jej máte)!
+OVERSKY_ISLE_03.marketName;Nabídka ostrova Bludné světlopády
+OVERSKY_ISLE_04.marketDescription;Odemkněte <color=white>Hnízdo pirátů</color> a vyzvěte na souboj CAP-10, mechanického piráta nebes! Tento ostrov ukrývá <color=white>4 kooperativní mise</color>, <color=white>7 karet ze Zánebí</color>, <color=white>speciálního spojence</color>, který vám pomůže při dalších dobrodružstvích, a <color=white>bonusové body pro váš Vak dobrodružství</color> (pokud jej máte)!
+OVERSKY_ISLE_04.marketName;Nabídka ostrova Hnízdo pirátů
+OVERSKY_ISLE_05.marketDescription;Odemkněte překrásný ostrov <color=white>Gaein břich</color> a dojděte až ke Stromu Nesmrtelna! Tento ostrov ukrývá <color=white>4 kooperativní mise</color>, <color=white>7 karet ze Zánebí</color>, <color=white>speciálního spojence</color>, který vám pomůže při dalších dobrodružstvích, a <color=white>bonusové body pro váš Vak dobrodružství</color> (pokud jej máte)!
+OVERSKY_ISLE_05.marketName;Nabídka ostrova Gaein břich
+OVERSKY_ISLE_BUNDLE.marketDescription;Odemkněte <color=white>všechny ostrovy</color> mytického Zánebí! Obsahuje <color=white>16 kooperativních misí</color>, <color=white>všechny ze Zánebí</color> a <color=white>bonusové body pro váš Vak dobrodružství</color> (pokud jej máte)!
+OVERSKY_ISLE_BUNDLE.marketName;Nabídka ostrovů Zánebí
+OVERSKY_PIONEER_BUNDLE.marketDescription;Odemkněte svůj <color=white>Vak dobrodružství</color> a získejte <color=white>mytickou truhlu</color> zdarma. Získejte přístup k exkluzivním <color=white>Císařovým každodenním výzvám</color>, které jsou dostupné pouze majitelům Vaku dobrodružství!
+OVERSKY_PIONEER_BUNDLE.marketName;Vak průkopníka
+OVERSKY_SUPPORTER_BUNDLE.marketDescription;Odemkněte <color=white>všechny ostrovy</color> mytického Zánebí a k nim svůj vlastní Vak dobrodružství! Obsahuje <color=white>16 kooperativních misí</color>, <color=white>exkluzivní odměny</color>, <color=white>Vak dobrodružství</color>, přístup k <color=white>Císařovým každodenním výzvám</color>, mytickou truhlu zdarma a <color=white>Sadu dobrodruha</color>!
+OVERSKY_SUPPORTER_BUNDLE.marketName;Vak podporovatele
+PINK_CHEST_1.marketDescription;Každá mytická truhla obsahuje 4 náhodné položky. Mezi těmi mohou být kosmetické prvky nebo mytické karty.
+PINK_CHEST_1.marketName;1 mytická truhla
+PINK_CHEST_1.marketShortDescription;4 mytické položky!
+PINK_CHEST_11.marketDescription;Každá mytická truhla obsahuje 4 náhodné položky. Mezi těmi mohou být kosmetické prvky nebo mytické karty.
+PINK_CHEST_11.marketName;11 mytických truhel
+PINK_CHEST_2.marketDescription;Každá mytická truhla obsahuje 4 náhodné položky. Mezi těmi mohou být kosmetické prvky nebo mytické karty.
+PINK_CHEST_2.marketName;2 mytické truhly
+PINK_CHEST_20.marketDescription;Každá mytická truhla obsahuje 4 náhodné položky. Mezi těmi mohou být kosmetické prvky nebo mytické karty.
+PINK_CHEST_20.marketName;20 mytických truhel
+PINK_CHEST_25.marketDescription;Každá mytická truhla obsahuje 4 náhodné položky. Mezi těmi mohou být kosmetické prvky nebo mytické karty.
+PINK_CHEST_25.marketName;25 mytických truhel
+PINK_CHEST_4.marketDescription;Každá mytická truhla obsahuje 4 náhodné položky. Mezi těmi mohou být kosmetické prvky nebo mytické karty.
+PINK_CHEST_4.marketName;4 mytické truhly
+PRESS_BUNDLE.marketDescription;4 bitevní truhly a 2 pandorské mince.
+PRESS_BUNDLE.marketName;Nabídka pro tisk
+PRESS_BUNDLE.marketShortDescription;Vylepši svoji sbírku
+SHORE_OVERSKY_CORRUPT.marketName;Pobřeží zkaženého Zánebí
+SHORE_OVERSKY_DAY.marketName;Pobřeží Zánebí ve dne
+SHORE_OVERSKY_NIGHT.marketName;Pobřeží Zánebí v noci
+WELL_ADVENTURER.marketDescription;Vydejte se ve stopách mladého Fugora na jeho nebeské pouti!\n\nTato položka odemkne nové studny pro vaši hrací plochu.
+WELL_ARCANE.marketDescription;Tyto studny jsou oblíbené u bohů, kteří chtějí rozluštit tajemství kosmu.\n\nTato položka odemkne nové studny pro vaši hrací plochu.
+WELL_AURORA.marketDescription;Mezi Aurořiny koníčky patří výuka budoucích hrdinů, řízení směru historie a ochutnávání nových druhů čaje.\n\nTato položka odemkne nové studny pro vaši hrací plochu.
+WELL_BOMB_SLINGER.marketDescription;Život není o počtu nadechnutí, ale o všech těch bombách, co nám dech berou.\n\nTato položka odemkne nové studny pro vaši hrací plochu.
+WELL_CARNIVOROUS_PLANT.marketDescription;Tyto hladové květiny rostou okolo faerijských pramenů. Pomáhá jim to přilákat kořist.\n\nTato položka odemkne nové studny pro vaši hrací plochu.
+WELL_FUGORO.marketDescription;Fuguro je nejtroufalejší obchodník na světě. Často se plíží okolo Orosei, aby ukradl poklady z Pandory.\n\nTato položka odemkne nový pár studen pro vaši hrací plochu.
+WELL_GABRIA.marketDescription;Gabrijská architektura představuje dokonalou rovnováhu.\n\nTato položka odemkne nové studny pro vaši hrací plochu.
+WELL_HOAKA.marketDescription;Jako mistr válčení by byl Hoaka nezastavitelný, kdyby pořád nevymýšlel nové nepraktické taktiky.\n\nTato položka odemkne nový pár studen pro vaši hrací plochu.
+WELL_JALMYR.marketDescription;Záhadná sfinga opatruje kosmos a hraje roli učitele bohů.\n\nTato položka odemkne nový pár studen pro vaši hrací plochu.
+WELL_KHALIM.marketDescription;Khalim, zázračné dítě z Djidanského řádu, se vzepřel svým mistrům a vstoupil do pozemské války.\n\nTato položka odemkne nový pár studen pro vaši hrací plochu.
+WELL_KROG.marketDescription;Krog má za to, že je králem zlobrů. Jenže je jediný.\n\nTato položka odemkne nový pár studen pro vaši hrací plochu.
+WELL_MAGDA.marketDescription;Největší legendy světa jsou jen pouhé figurky na šachovnici královny Magdy.\n\nTato položka odemkne nový pár studen pro vaši hrací plochu.
+WELL_RAPALA.marketDescription;Některé ryby prostě jen chtějí vidět svět shořet.\n\nTato položka odemkne nový pár studen pro vaši hrací plochu.
+WELL_RUUNIN.marketDescription;Ruunin je nesmrtelná strážkyně přirozeného řádu. Přežila všechny přátele, které kdy poznala.\n\nTato položka odemkne nový pár studen pro vaši hrací plochu.
+WELL_SEIFER.marketDescription;Seifer vypálil své jmeno do popela padlých království. Od dob, kdy si podmanil démony a získal jejich síly, si Seifer nevychutnává nic tak jako křik svých nepřátel.\n\nTato položka odemkne nové studny pro vaši hrací plochu.
+WELL_SHARRA.marketDescription;Shařina vesnice shořela, když byla ještě dítě. A s ní také její strach.\n\nTato položka odemkne nové studny pro vaši hrací desku.
+WELL_TARUM.marketDescription;Tarum byl prvním zasazeným semínkem. Spatřil vzestup hor, zrození draků a pád dávných bohů.\n\nTato položka odemkne nové studny pro vaši hrací plochu.
+WILD_ACT_1.marketDescription;Obsahuje 7 misí. Za jejich dokončení budete odměněni dostatkem zkušeností na získání 2 nebo 3 úrovní.\nMise uvnitř balíku jsou vybrány náhodně.
+WILD_ACT_1.marketName;Bláznivý balík misí
+WILD_ACT_10.marketDescription;Obsahuje 7 misí. Za jejich dokončení budete odměněni dostatkem zkušeností na získání 2 nebo 3 úrovní.\nMise uvnitř balíku jsou vybrány náhodně.
+WILD_ACT_10.marketName;Bláznivý balík misí
+WILD_ACT_11.marketDescription;Obsahuje 7 misí. Za jejich dokončení budete odměněni dostatkem zkušeností na získání 2 nebo 3 úrovní.\nMise uvnitř balíku jsou vybrány náhodně.
+WILD_ACT_11.marketName;Bláznivý balík misí
+WILD_ACT_12.marketDescription;Obsahuje 7 misí. Za jejich dokončení budete odměněni dostatkem zkušeností na získání 2 nebo 3 úrovní.\nMise uvnitř balíku jsou vybrány náhodně.
+WILD_ACT_12.marketName;Bláznivý balík misí
+WILD_ACT_13.marketDescription;Obsahuje 7 misí. Za jejich dokončení budete odměněni dostatkem zkušeností na získání 2 nebo 3 úrovní.\nMise uvnitř balíku jsou vybrány náhodně.
+WILD_ACT_13.marketName;Bláznivý balík misí
+WILD_ACT_14.marketDescription;Obsahuje 7 misí. Za jejich dokončení budete odměněni dostatkem zkušeností na získání 2 nebo 3 úrovní.\nMise uvnitř balíku jsou vybrány náhodně.
+WILD_ACT_14.marketName;Bláznivý balík misí
+WILD_ACT_15.marketDescription;Obsahuje 7 misí. Za jejich dokončení budete odměněni dostatkem zkušeností na získání 2 nebo 3 úrovní.\nMise uvnitř balíku jsou vybrány náhodně.
+WILD_ACT_15.marketName;Bláznivý balík misí
+WILD_ACT_2.marketDescription;Obsahuje 7 misí. Za jejich dokončení budete odměněni dostatkem zkušeností na získání 2 nebo 3 úrovní.\nMise uvnitř balíku jsou vybrány náhodně.
+WILD_ACT_2.marketName;Bláznivý balík misí
+WILD_ACT_3.marketDescription;Obsahuje 7 misí. Za jejich dokončení budete odměněni dostatkem zkušeností na získání 2 nebo 3 úrovní.\nMise uvnitř balíku jsou vybrány náhodně.
+WILD_ACT_3.marketName;Bláznivý balík misí
+WILD_ACT_4.marketDescription;Obsahuje 7 misí. Za jejich dokončení budete odměněni dostatkem zkušeností na získání 2 nebo 3 úrovní.\nMise uvnitř balíku jsou vybrány náhodně.
+WILD_ACT_4.marketName;Bláznivý balík misí
+WILD_ACT_5.marketDescription;Obsahuje 7 misí. Za jejich dokončení budete odměněni dostatkem zkušeností na získání 2 nebo 3 úrovní.\nMise uvnitř balíku jsou vybrány náhodně.
+WILD_ACT_5.marketName;Bláznivý balík misí
+WILD_ACT_6.marketDescription;Obsahuje 7 misí. Za jejich dokončení budete odměněni dostatkem zkušeností na získání 2 nebo 3 úrovní.\nMise uvnitř balíku jsou vybrány náhodně.
+WILD_ACT_6.marketName;Bláznivý balík misí
+WILD_ACT_7.marketDescription;Obsahuje 7 misí. Za jejich dokončení budete odměněni dostatkem zkušeností na získání 2 nebo 3 úrovní.\nMise uvnitř balíku jsou vybrány náhodně.
+WILD_ACT_7.marketName;Bláznivý balík misí
+WILD_ACT_8.marketDescription;Obsahuje 7 misí. Za jejich dokončení budete odměněni dostatkem zkušeností na získání 2 nebo 3 úrovní.\nMise uvnitř balíku jsou vybrány náhodně.
+WILD_ACT_8.marketName;Bláznivý balík misí
+WILD_ACT_9.marketDescription;Obsahuje 7 misí. Za jejich dokončení budete odměněni dostatkem zkušeností na získání 2 nebo 3 úrovní.\nMise uvnitř balíku jsou vybrány náhodně.
+WILD_ACT_9.marketName;Bláznivý balík misí
+AVATAR_AURORA_DARK.marketDescription;Kdo příliš dlouho hledí do očí hrůzy, brzy spatří i její oči, jak se zabodávají do jeho nitra. \n\nTato položka odemkne nový avatar pro váš orb.
+AVATAR_AURORA_HIPPIE.marketDescription;Jedině světový mír je sen, za nímž má smysl jít. \n\nTato položka odemkne nový avatar pro váš orb.
+AVATAR_EXPLORER_BLUE.marketDescription;Průzkumník modrých hlubin, safírových zátok a tyrkysových zálivů. \n\nTato položka odemkne nový avatar pro váš orb.
+AVATAR_EXPLORER_PINK.marketDescription;Průzkumník exotických zemí, cizích kultur a zvyklostí. \n\nTato položka odemkne nový avatar pro váš orb.
+AVATAR_FUGORO_RAINBOW.marketDescription;Kdo stráví příliš dlouhou dobu v Říši snů, často si nechtěně odnese kousek s sebou. A věřte, že duha se pere opravdu špatně. \n\nTato položka odemkne nový avatar pro váš orb.
+AVATAR_KAIOS_CORRUPTED.marketDescription;Žádný smrtelník neunese sílu čiré faerie, která se skrývá v ovoci Nesmrtelna. Ani tak silná a bystrá mysl, jako je mysl Císaře. \n\nTato položka odemkne nový avatar pro váš orb.
+AVATAR_KELDRAN_EMISSARY_BLUE.marketDescription;Nejstarší a nejvěrnější vyslanci se odívají do modré, aby dokázali svou věčnou oddanost širé obloze. \n\nTato položka odemkne nový avatar pro váš orb.
+AVATAR_KHALIM_BLACK.marketDescription;Tolik mladých vojáků je připraveno k bitvě, ale nechápe válku. Je snadné ovládat švih vlastního meče, ale ukázat cestu celému národu je těžší než odklonit písečnou bouři z její cesty.\n\nTato položka odemkne nový avatar pro váš orb.
+AVATAR_KHALIM_SUNGLASSES.marketDescription;Netřeba hřebců, lodí či strojů. Osedláme si samu oblohu a vezeme se na hřbetu bouře! \n\nTato položka odemkne nový avatar pro váš orb.
+AVATAR_KINGS_GUARD_SILVER.marketDescription;Pokud je stráž zraněna ve službě, dostane na důkaz své oddanosti a věrnosti leptáním zdobené stříbrné brnění. \n\nTato položka odemkne nový avatar pro váš orb.
+AVATAR_KOBOLD_MERCENARY_GOLD.marketDescription;Někteří žoldáci jsou úspěšnější než jiní. A (stejně jako vše ostatní v koboldí společnosti) úspěch se měří velikostí vaší hromádky zlaťáků. \n\nTato položka odemkne nový avatar pro váš orb.
+AVATAR_KROG_BIKER.marketDescription;Když Krog jezdit dost rychle, všichni jezdit za Krog. Všichni mít jezdit za Krog. \n\nTato položka odemkne nový avatar pro váš orb.
+AVATAR_KROG_SUIT.marketDescription;Krog obléct na práci on chtít. Krog chtít být Don. A on teď být Don! \n\nTato položka odemkne nový avatar pro váš orb.
+AVATAR_MAGDA_SECRETARY.marketDescription;Královna ví, že informace znamenají moc. A nezdráhá se trávit dny a noci v knihovně, kde spřádá své plány. \n\nTato položka odemkne nový avatar pro váš orb.
+AVATAR_OGRE_BATTLER_BLUE.marketDescription;Zlobři si cení síly svých nepřátel, proto často přejímají jejich styl oblékání či bojové značky na poctu svých obětí. \n\nTato položka odemkne nový avatar pro váš orb.
+AVATAR_RAIZEON_ALTERED.marketDescription;Mistr všech barev. Tato bytost zkouší sílu všech, kdo vstoupí na její území. \n\nTato položka odemkne nový avatar pro váš orb.
+AVATAR_RUUNIN_BLACK.marketDescription;Zrozená ze stínů, ebenový běžec, vždy na lovu, oči prázdnoty. \n\nTato položka odemkne nový avatar pro váš orb.
+AVATAR_SEIFER_SUNGLASSES.marketDescription;Řekněte sýr! \n\nTato položka odemkne nový avatar pro váš orb.
+AVATAR_SHARRA_HAT.marketDescription;Pusťte mě tam, kouči. Dneska mám v levačce pořádnej švih. \n\nTato položka odemkne nový avatar pro váš orb.
+AVATAR_SHARRA_PINK.marketDescription;Vraždí draky a vypadá u toho zatraceně dobře. \n\nTato položka odemkne nový avatar pro váš orb.
+AVATAR_SHAYTAN_ASSASSIN_BLUE.marketDescription;Ze všech shaytanských vrahů je Azurový řád ten nejvzácnější i nejvíce smrtící. Zaměřuje se pouze na bohy a jejich božskou esenci poté nabízí Shaytanu. \n\nTato položka odemkne nový avatar pro váš orb.
+AVATAR_TARUM_EVIL.marketDescription;Z lesa, jeho domova, jej vypudilo kácení a plameny. Je překvapivé, že k tomu nedošlo již dříve. \n\nTato položka odemkne nový avatar pro váš orb.
+AVATAR_VERDURAN_FORCE_GREY.marketDescription;S měnícími se obdobími se mění i dryjády, od těch nejmenších lístečků po ta nejurostlejší dubiska. \n\nTato položka odemkne nový avatar pro váš orb.
+AVATAR_WISP_RAINBOW.marketDescription;Nikdo přesně netuší, zda tyto bludičky vynáší duhu na nebesa, nebo odnáší její esenci, když mizí. \n\nTato položka odemkne nový avatar pro váš orb.
+AVATAR_WISP_WHITE.marketDescription;Zářící duch, který za dne sbírá světlo, aby se o něj mohl dělit v těch nejtemnějších nocích. \n\nTato položka odemkne nový avatar pro váš orb.
+AVATAR_YAK_SHEPHERD.marketDescription;Na světě není poklidnější povolání než pást jaky v sylandských stepích. Dokonce i barbaři mají respekt z dusotu kopyt početných stád. \n\nTato položka odemkne nový avatar pro váš orb.
+CARD_BACK_FALL_OF_EVERLIFE.marketDescription;Císařova zkaženost se již rozšířila i na karty ve vašem balíčku.\n\nTato položka odemkne nový rub karet pro vaše balíčky.
+CARD_BACK_MOSAIC_FLOWER_GREEN.marketDescription;Stovka kappů vytváří podobnou mozaiku celý den. Celý balíček jim tedy zabere 30 dnů práce.\n\nTato položka odemkne nový rub karet pro vaše balíčky.
+CARD_BACK_MOSAIC_FLOWER_RED.marketDescription;Stovka kappů vytváří podobnou mozaiku celý den. Celý balíček jim tedy zabere 30 dnů práce.\n\nTato položka odemkne nový rub karet pro vaše balíčky.
+CARD_BACK_MOSAIC_SOLAR_BLUE.marketDescription;Stovka kappů vytváří podobnou mozaiku celý den. Celý balíček jim tedy zabere 30 dnů práce.\n\nTato položka odemkne nový rub karet pro vaše balíčky.
+CARD_BACK_MOSAIC_SOLAR_MAGENTA.marketDescription;Stovka kappů vytváří podobnou mozaiku celý den. Celý balíček jim tedy zabere 30 dnů práce.\n\nTato položka odemkne nový rub karet pro vaše balíčky.
+CARD_BACK_MUCHA_GREEN.marketDescription;Tyto prastaré vzory pochází již od prvních Rakoanů, kteří je trpělivě tvořili za pomoci obarvených písků.\n\nTato položka odemkne nový rub karet pro vaše balíčky.
+CARD_BACK_MUCHA_MAGENTA.marketDescription;Tyto prastaré vzory pochází již od prvních Rakoanů, kteří je trpělivě tvořili za pomoci obarvených písků.\n\nTato položka odemkne nový rub karet pro vaše balíčky.
+ORB_ARCANE_GOLD.marketDescription;Vytesáno z kamene faerijských studen poblíž srdce Solarisu. Tento orb používají bohové, kteří hledají tajemství vesmíru.\n\nTato položka odemkne nový orb pro váš avatar.
+ORB_ARCANE_PURPLE.marketDescription;Vytesáno z kamene faerijských studen poblíž bran Pandory. Tento orb používají bohové, kteří hledají tajemství vesmíru.\n\nTato položka odemkne nový orb pro váš avatar.
+ORB_ARCANE_RED.marketDescription;Vytesáno z kamene faerijských studen z lávových jezer pod sopkou. Tento orb používají bohové, kteří hledají tajemství vesmíru.\n\nTato položka odemkne nový orb pro váš avatar.
+ORB_CRYSTAL_STONE.marketDescription;Nikdo netuší, proč kolem tohoto orbu vyrůstají namodralé krystalky, ale zdá se, že posilují jeho moc.\n\nTato položka odemkne nový orb pro váš avatar.
+ORB_CRYSTAL_STONE_GOLD.marketDescription;Nikdo netuší, proč kolem tohoto orbu vyrůstají zlaté krystalky, ale zdá se, že posilují jeho moc.\n\nTato položka odemkne nový orb pro váš avatar.
+ORB_CRYSTAL_STONE_PURPLE.marketDescription;Nikdo netuší, proč kolem tohoto orbu vyrůstají fialové krystalky, ale zdá se, že posilují jeho moc.\n\nTato položka odemkne nový orb pro váš avatar.
+ORB_DRAGON_SILVER.marketDescription;Dračí orby jsou památníky na chvíli, kdy Draci zachránili svět před chaosem, který způsobili prastaří Obři. Tyto čtyři orby ukovali právě Draci sami, když vyhráli válku.\n\nTato položka odemkne nový orb pro váš avatar.
+ORB_FALL_OF_EVERLIFE.marketDescription;Obří pavouci vycítili, že skrytá magie orbů prospívá správnému vývoji jejich vajíček. Není divu, že jsou stále větší a větší.\n\nTato položka odemkne nový orb pro váš avatar.
+ORB_HAND_ARCANE.marketDescription;Legendy vypráví o prastarých obrech, kteří dokázali přetvářet svět k obrazu svému pouhým mávnutím ruky či šepotem, který vycházel z jejich kamenných rtů.\n\nTato položka odemkne nový orb pro váš avatar.
+ORB_HAND_GRASP.marketDescription;Ne všichni obři přežili své zrození z kamene, ale kouzlo těch několika nešťastných stále přetrvává.\n\nTato položka odemkne nový orb pro váš avatar.
+ORB_SPIDEREGG_GREEN.marketDescription;Obří pavouci vycítili, že skrytá magie orbů prospívá správnému vývoji jejich vajíček. Není divu, že jsou stále větší a větší.\n\nTato položka odemkne nový orb pro váš avatar.
+ORB_SPIDEREGG_ORANGE.marketDescription;Tento orb k sobě láká duše zesnulých a svazuje je k sobě ve věčných mukách, aby ukojil svůj krutý hlad.\n\nTato položka odemkne nový orb pro váš avatar.
+ORB_SPIDEREGG_RAINBOW.marketDescription;Obří pavouci vycítili, že skrytá magie orbů prospívá správnému vývoji jejich vajíček. Není divu, že jsou stále větší a větší.\n\nTato položka odemkne nový orb pro váš avatar.
+ORB_STAR_CRYSTAL.marketDescription;Prapředci dnešních lidí dříve uctívali orby jako takové a vytvářeli pro ně nádherné oltáře.\n\nTato položka odemkne nový orb pro váš avatar.
+ORB_STAR_CRYSTAL_ORANGE.marketDescription;Prapředci dnešních lidí dříve uctívali orby jako takové a vytvářeli pro ně nádherné oltáře.\n\nTato položka odemkne nový orb pro váš avatar.
+ORB_STAR_CRYSTAL_PURPLE.marketDescription;Prapředci dnešních lidí dříve uctívali orby jako takové a vytvářeli pro ně nádherné oltáře.\n\nTato položka odemkne nový orb pro váš avatar.
+ORB_TRIBAL.marketDescription;S požehnáním těch nejmocnějších šamanů Dvanácti tikijských kmenů. \n\nTato položka odemkne nový orb pro váš avatar.
+ORB_VALOR_GREEN.marketDescription;Vytesáno z mechem zarostlých kamenů, z nichž byli sestaveni prastaří obři. Tento orb rádi používají bohové, kteří přihlíželi stvoření světa.\n\nTato položka odemkne nový orb pro váš avatar.
+ORB_VALOR_MAGENTA.marketDescription;Vytesáno z krví nasáklých kamenů, z nichž byli sestaveni prastaří obři. Tento orb rádi používají bohové, kteří přihlíželi stvoření světa.\n\nTato položka odemkne nový orb pro váš avatar.
+ORB_VALOR_SILVER.marketDescription;Vytesáno ze stříbrné rudy, z níž byli sestaveni prastaří obři. Tento orb rádi používají bohové, kteří přihlíželi stvoření světa.\n\nTato položka odemkne nový orb pro váš avatar.
+WELL_ARCANE_GOLD.marketDescription;Již před dávnými časy bylo na tyto studny sesláno kouzlo, které faerii uvnitř přetváří pro tajuplné a podivné účely. \n\nTato položka odemkne nový druh studny pro váš herní plán.
+WELL_ARCANE_PURPLE.marketDescription;Již před dávnými časy bylo na tyto studny sesláno kouzlo, které faerii uvnitř přetváří pro tajuplné a podivné účely. \n\nTato položka odemkne nový druh studny pro váš herní plán.
+WELL_ARCANE_RED.marketDescription;Již před dávnými časy bylo na tyto studny sesláno kouzlo, které faerii uvnitř přetváří pro tajuplné a podivné účely. \n\nTato položka odemkne nový druh studny pro váš herní plán.
+WELL_FALL_OF_EVERLIFE.marketDescription;Po pádu Stromu Nesmrtelna začala zkaženost prorůstat jeho kořeny, až zkalila i tu nejčistší faerii ukrytou hluboko pod zemským povrchem. \n\nTato položka odemkne nový druh studny pro váš herní plán.
+WELL_FLOATING_STONES.marketDescription;Mnozí se domnívají, že tyto studny, které jsou roztroušeny po Zánebí, způsobují levitaci jeho ostrovů.\n\nTato položka odemkne nový druh studny pro váš herní plán.
+WELL_ROOTS.marketDescription;Každé živé bytosti se daří, když má dostatek výživné faerie. \n\nTato položka odekne nový druh studny pro váš herní plán.
+WELL_RUNIC_BLUE.marketDescription;Jak se některé studny třou o pobřeží Pandory, proniká do nich tajemná moc štěstí a osudu, která s nimi poté splývá v jedno. \n\nTato položka odemkne nový druh studny pro váš herní plán.
+WELL_RUNIC_GREEN.marketDescription;Jak se některé studny třou o pobřeží Pandory, proniká do nich tajemná moc štěstí a osudu, která s nimi poté splývá v jedno. \n\nTato položka odemkne nový druh studny pro váš herní plán.
+WELL_RUNIC_RED.marketDescription;Jak se některé studny třou o pobřeží Pandory, proniká do nich tajemná moc štěstí a osudu, která s nimi poté splývá v jedno. \n\nTato položka odemkne nový druh studny pro váš herní plán.
+WELL_RUNIC_YELLOW.marketDescription;Jak se některé studny třou o pobřeží Pandory, proniká do nich tajemná moc štěstí a osudu, která s nimi poté splývá v jedno. \n\nTato položka odemkne nový druh studny pro váš herní plán.
+CARD_BACK_MOSAIC_YAK.marketDescription;Prastará mozaika nerozpoznatelného jaka
+DLC_ELEMENTS.marketName;Rozšíření Hádanky živlů
+DLC_ELEMENTS.marketDescription;Vyzkoušejte své schopnosti ve 40 dechberoucích hádankách, které čekají v balíčku Hádanek živlů. Při svém postupu sbírejte odměny, například jedinečný rub karet.

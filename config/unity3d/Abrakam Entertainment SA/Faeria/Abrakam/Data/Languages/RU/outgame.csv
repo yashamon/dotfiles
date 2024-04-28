@@ -1,0 +1,167 @@
+CARD_ALREADY_OWNED_TOOLTIP_TEXT;Вы владеете {0} копиями этой карты.
+CARD_FILTER_CREATURE;Существо
+CARD_FILTER_EVENT;Событие
+CARD_FILTER_FALL_OF_EVERLIFE;Гибель Древа
+CARD_FILTER_OVERSKY;Сверхнебесье
+CARD_FILTER_STRUCTURE;Строение
+PANDORA_MYTHIC_RUN_NOT_ENOUGH_COINS_ERROR_TEXT;У вас недостаточно осколков для такого типа Пандоры.
+PANDORA_MYTHIC_RUN_TOOLTIP_TEXT;Сыграйте в мифическую Пандору. Выиграйте до 6 игр, чтобы получить осколки.
+PANDORA_POINT_TOOLTIP_TEXT;Выигрывайте очки, чтобы получить награды в конце каждого сезона.
+PANDORA_POP_UP_MULTI_PLAYER_TITLE_TEXT;Сетевая игра
+PANDORA_POP_UP_MYTHIC_MULTI_PLAYER_INFO_TEXT;Сражайтесь против других игроков, чтобы получить НАМНОГО большие награды.
+PANDORA_POP_UP_MYTHIC_RUN_MULTI_PLAYER_TITLE_TEXT;Мифическая сетевая игра
+PANDORA_POP_UP_MYTHIC_RUN_SINGLE_PLAYER_TITLE_TEXT;Мифическая одиночная игра
+PANDORA_POP_UP_MYTHIC_SINGLE_PLAYER_INFO_TEXT;Сражайтесь против ИИ, становящегося сильнее с каждой битвой, чтобы получить осколки.
+PANDORA_POP_UP_SINGLE_PLAYER_TITLE_TEXT;Одиночная игра
+PANDORA_POP_UP_STANDARD_MULTI_PLAYER_INFO_TEXT;Сражайтесь против других игроков, чтобы получить НАМНОГО большие награды.
+PANDORA_POP_UP_STANDARD_RUN_MULTI_PLAYER_TITLE_TEXT;Сетевая игра
+PANDORA_POP_UP_STANDARD_RUN_SINGLE_PLAYER_TITLE_TEXT;Одиночная игра
+PANDORA_POP_UP_STANDARD_SINGLE_PLAYER_INFO_TEXT;Сражайтесь против ИИ, становящегося сильнее с каждой битвой, чтобы получить боевые сундуки и карты.
+PANDORA_STANDARD_RUN_HAS_FULL_COLLECTION_ERROR_TEXT;У вас уже есть все доступные карты, поэтому вы больше не сможете сыграть в стандартную Пандору
+PANDORA_STANDARD_RUN_NOT_ENOUGH_CHEST_ERROR_TEXT;У вас недостаточно боевых сундуков для начала этого типа Пандоры
+PANDORA_STANDARD_RUN_TOOLTIP_TEXT;Сыграйте в стандартную Пандору. Выиграйте до 6 игр, чтобы получить боевые сундуки и карты.
+PURCHASE_PANEL_BUY_MISSING_SOFT_CURRENCY_TEXT;Купить недостающие {1}: {0}?
+PURCHASE_PANEL_GO_TO_SHOP_BUTTON_TEXT;В магазин
+PURCHASE_PANEL_OUT_OF_CURRENCY_TEXT;Недостаточно валюты: {0}. Вы можете пополнить свои запасы в магазине.
+REWARD;Награда
+REWARD_ACT;Открыт набор миссий
+REWARD_ARENA_POINTS;{0}
+REWARD_AVATAR;Вы получили аватар
+REWARD_BLUEPRINT;Новая Формула открыта!
+REWARD_BOOSTER;{0}
+REWARD_CARD;Вы получили {0} карт(ы)
+REWARD_CARD_BACK;Новая рубашка карты
+REWARD_EMOTE;Новая эмоция
+REWARD_FEATURE_ARENA_ID;Теперь вам доступен режим Пандора!
+REWARD_FEATURE_CRAFTING_ID;Вы открыли создание карт!
+REWARD_FEATURE_EPIC_CRAFTING_ID;Вы открыли создание эпических карт!
+REWARD_FEATURE_HIGHLANDER_ID;Теперь вам доступен режим Горец!
+REWARD_FEATURE_MAIN_MENU_ID;Вы открыли конструктор колод!
+REWARD_FEATURE_RANKED_ID;Вы открыли рейтинговый режим!
+REWARD_FEATURE_RARE_CRAFTING_ID;Вы открыли создание редких карт!
+REWARD_ORIGIN_ACCOUNTACTIVATED;Награда за активацию учётной записи
+REWARD_ORIGIN_ANNUITY;Гоки нашёл осколки
+REWARD_ORIGIN_ARENA;Ваша награда
+REWARD_ORIGIN_CRAFT;Создание завершено!
+REWARD_ORIGIN_DAILYASSIGNMENT;Ежедневное задание
+REWARD_ORIGIN_DAILYQUEST;Ежедневное задание завершено
+REWARD_ORIGIN_DEFEAT;Ваша награда
+REWARD_ORIGIN_DLCPREMIUM;Премиумная учётная запись
+REWARD_ORIGIN_DLCFALLOFEVERLIFE;Гибель Древа
+REWARD_ORIGIN_EARLYACCESSBUNDLE;Комплект раннего доступа
+REWARD_ORIGIN_FIRSTDAYVICTORY;Первая победа дня
+REWARD_ORIGIN_HATCH;Вылупление яйца
+REWARD_ORIGIN_LADDERRESET;Награда конца рейтингового сезона
+REWARD_ORIGIN_LEVEL;Награда за уровень {0}
+REWARD_ORIGIN_LOYALTYPATCH;Награда за обновление "Верность"
+REWARD_ORIGIN_MARKET;Покупка завершена!
+REWARD_ORIGIN_POUCH;Награда за Кисет путешественника
+REWARD_ORIGIN_QUEST;Награда за миссию
+REWARD_ORIGIN_RECRUITMENT;Спасибо наёмнику!
+REWARD_ORIGIN_SOLOOBJECTIVE;Цель выполнена
+REWARD_ORIGIN_STEAMPACK;Набор Steam
+REWARD_ORIGIN_VICTORY;Ваша награда
+REWARD_POUCH_POINTS;{0}
+REWARD_WELL;Новый колодец фейри
+TOURNAMENT_ALREADY_SIGNED_UP;Вы зарегистрированы.
+TOURNAMENT_DECK_ALREADY_PICKED;Эта колода уже зарегистрирована на турнир.
+TOURNAMENT_DECK_CHANGE_LOST_A_GAME;Нельзя играть колодой, которой вы уже проиграли игру.
+TOURNAMENT_DECK_FIXED_UNTIL_LOSS;Нельзя менять колоду, пока вы не проиграете игру.
+TOURNAMENT_DECK_LOCKED;Эта колода зарегистрирована на турнир. Вы не можете её редактировать, пока турнир не закончится.
+TOURNAMENT_DECK_LOST_A_GAME;Нельзя играть колодой, которой вы уже проиграли игру.
+TOURNAMENT_DECK_MUST_BE_LEAD;Для первой игры обязательно брать первую колоду.
+TOURNAMENT_DISCARD_DECKS;Начать заново
+TOURNAMENT_LOBBY;Турнирное лобби
+TOURNAMENT_PICKED_DECK;Зарегистрирована колода #{0}
+TOURNAMENT_SIGNUP;Зарегистрироваться
+TOURNAMENT_SIGNUP_DECK_1;Зарегистрировать первую колоду
+TOURNAMENT_SIGNUP_DECK_2;Зарегистрировать вторую колоду
+TOURNAMENT_SIGNUP_DECK_3;Зарегистрировать третью колоду
+TOURNAMENT_SIGNUP_SUCCESSFUL;Регистрация на турнир успешна!
+REWARD_DECK_SLOT;Вы получили слоты для колод
+REWARD_LORE_PAGE;Вы открыли новую страницу истории!
+REWARD_FEATURE_LORE_BOOK_ID;Вы открыли Книгу Историй!
+TOURNAMENT_CRUCIBLE_RULES;Для участия необходимо зарегистрировать четыре колоды для участия в сегодняшнем турнире. Каждая колода не может иметь более двенадцати общих карт с любой другой колодой.\n\nВыберите каждую колоду и <b>Зарегистрируйте</b> их поочерёдно. Как только будут зарегистрированы четыре колоды, вы готовы к турниру. \n\n<b>БУДЬТЕ ВНИМАТЕЛЬНЫ!</b> Как только вы зарегистрируете последнюю колоду, пути назад <b>НЕ БУДЕТ<b>. Пожалуйста, убедитесь, что регистрируете именно те колоды, которыми собираетесь играть.
+LOBBY_CRUCIBLE_RULES;Для участия необходимо зарегистрировать четыре колоды. Каждая колода не может иметь более двенадцати общих карт с любой другой колодой.\n\nВыберите каждую колоду и <b>Зарегистрируйте</b> их поочерёдно. Как только будут зарегистрированы четыре колоды, вы готовы.
+TOURNAMENT_DECK_BANNED;Нельзя играть колодой, которую забанил противник.
+TOURNAMENT_DECK_CONFLICT_MESSAGE_TEXT;{0} из ваших колод имеют более {1} общих карт. Конфликтующие колоды: "{2}"
+TOURNAMENT_DECK_PICK_CONFIRM_BUTTON_TEXT;Подтвердить
+TOURNAMENT_COUNTDOWN_TEXT;Следующая фаза начнётся через {0} секунд(ы)...
+TOURNAMENT_COUNTDOWN_GAME_START_TEXT;Игра начнётся через {0} секунд(ы)...
+TOURNAMENT_BAN_DECK_TEXT;Выберите колоду для бана
+TOURNAMENT_BAN_DECK_SPECTATOR_TEXT;Игроки банят
+TOURNAMENT_BAN_PHASE_NAME_TEXT;Фаза банов
+TOURNAMENT_PICK_DECK_LOCKED_TEXT;Вы победили, и потому не можете менять колоду. Подтвердите, когда будете готовы.
+TOURNAMENT_PICK_DECK_TEXT;Выберите колоду для игры
+TOURNAMENT_PICK_DECK_SPECTATOR_TEXT;Игроки выбирают колоды
+TOURNAMENT_PICK_PHASE_NAME_TEXT;Фаза выбора
+TOURNAMENT_SIGNUP_DECK_4;Зарегистрировать четвёртую колоду
+TOURNAMENT_PHASE_TIME_LEFT;Времени осталось: {0}
+INVALID_DECK_CARDS_QUANTITY;В колоде должно быть ровно {0} карт
+CARD_FILTER_INCOMPLETE;Не хватает
+MOUSE_REWARD_LORE_PAGE_CLICK_TO_READ;Щёлкните, чтобы прочесть
+CARD_FILTER_RESURGENCE;Возрождение
+REWARD_ORIGIN_YOUBACK;Вы вернулись в игру по зову {0}!
+REWARD_ORIGIN_FRIENDBACK;{0} вернулся в игру!
+REWARD_ORIGIN_DLCRESURGENCE;Возрождение
+REWARD_FEATURE_PUZZLE_PACKS_ID;Вы открыли раздел головоломок!
+PUZZLES_MENU_TITLE_ELEMENTS;Стихии
+PUZZLES_MENU_TITLE_CORE;Классические головоломки
+PUZZLES_DLC_PURCHASE_REWARDS;Награды внутри
+PUZZLES_DLC_PURCHASE_BUTTON;Идите в магазин Steam
+PUZZLE_NEED_LANE_UNLOCK;Чтобы повторно сыграть в эту головоломку, вы должны пройти её в режиме Приключений.
+REWARD_FEATURE_DLC_385;Дополнение "Стихийные головоломки" Открыты!
+REWARD_FEATURE_DLC_383;Дополнение "Возрождение" Открыто!
+REWARD_FEATURE_DLC_316;Дополнение "Гибель Древа" Открыто!
+REWARD_FEATURE_DLC_315;Теперь вы - владелец Премиум-аккаунта!
+REWARD_FEATURE_DLC_187;Набор Steam Открыт!
+REWARD_FEATURE_DLC_16;Набор G2A Открыт!
+REWARD_FEATURE_DLC_15;Набор Раннего доступа Открыт!
+PUZZLES_ACT_COMPLETION_TOOLTIP;Решайте головоломки, чтобы получить награды!
+MARKET_TAB_WELLS;Колодцы
+MARKET_TAB_SETS;Наборы
+MARKET_TAB_ORBS;Сферы
+MARKET_TAB_FEATURED;В центре внимания
+MARKET_TAB_CARD_BACKS;Рубашки
+MARKET_TAB_AVATARS;Аватары
+COSMETIC_SET_SELECT;Выберите набор косметики для вашей колоды
+REWARD_ORIGIN_DLCGAGANA;Хроники Гаганы
+REWARD_FEATURE_DLC_386;Дополнение "Хроники Гаганы" открыто!
+CARD_FILTER_GAGANA;Гагана
+REWARD_FEATURE_DLC_390;Все колодцы открыты!
+REWARD_FEATURE_DLC_389;Все сферы открыты!
+REWARD_FEATURE_DLC_388;Все рубашки карт открыты!
+REWARD_FEATURE_DLC_387;Все аватары открыты!
+GAMEPAD_REWARD_LORE_PAGE_CLICK_TO_READ;Нажимайте {GAMEPAD_RIGHT_BUTTONS_LEFT}, чтобы читать
+MOUSE_ENGAGEMENT_PRESS_CONFIRM_TEXT;Щёлкните, чтобы сыграть
+GAMEPAD_ENGAGEMENT_PRESS_CONFIRM_TEXT;Нажмите любую кнопку, чтобы сыграть
+NON_XBOX_LIVE_PLAYERS_MIGHT_BE_PRESENT;В данном режиме могут играть пользователи не из службы Xbox Live
+GAMEPAD_QUEST_BUTTON_TOOLTIP_TEXT;Нажмите {GAMEPAD_ACTION_CONFIRM}, чтобы начать бой
+PLATFORM_EPIC_GAMES_STORE_ACCOUNT_BINDING_MESSAGE;Если вы впервые играете в Faeria, используя учётную запись <nobr>Epic Games Store</nobr>, для вас будет создана учётная запись в Faeria, а затем она будет привязана к <nobr>Epic Games Store</nobr>.
+PLATFORM_STEAM_ACCOUNT_BINDING_MESSAGE;Если вы впервые играете в Faeria, используя учётную запись Steam, для вас будет создана учётная запись в Faeria, а затем она будет привязана к Steam.
+PLATFORM_SWITCH_ACCOUNT_BINDING_MESSAGE;Если вы впервые играете в Faeria, используя учётную запись Nintendo, для вас будет создана учётная запись в Faeria, а затем она будет привязана к Nintendo.
+LORE_PAGE_LABEL;Сведения
+ENTER_A_DECK_NAME;Введите название колоды
+ENTER_COUPON_CODE;Введите код купона
+ENTER_CARD_NAME;Введите название карты
+ENTER_FRIEND_ID;Введите идентификатор друга
+DLC_FEATURES_WELLS_PACK;В набор входит более 20 уже имеющихся в игре колодцев и по мере выпуска войдут новые.
+DLC_FEATURES_ORBS_PACK;В набор входит более 30 уже имеющихся в игре сфер и по мере выпуска войдут новые.
+DLC_FEATURES_CARDBACKS_PACK;В набор входит более 20 уже имеющихся в игре рубашек и по мере выпуска войдут новые.
+DLC_FEATURES_AVATARS_PACK;В набор входит более 50 уже имеющихся в игре аватаров и по мере выпуска войдут новые.
+DLC_FEATURES_PREMIUM_EDITION;— двойной опыт за всё!\n— вдвое больше боевых сундуков и осколков\n— 10 дополнительных ячеек для колод\n— премиальная рубашка\n— золотой логотип Faeria\n— 5 мифических сундуков, полных косметики\n— дополнительные осколки
+DLC_FEATURES_PUZZLE_ELEMENTS;— 40 новых головоломок от простых до экстремально сложных\n— награды, равноценные 10 мифическим сундукам\n— возможность заработать «Стихийную» рубашку
+DLC_FEATURES_FALL_OF_EVERLIFE;— разблокировано 40 новых карт\n— новое ключевое слово: «Осквернение»\n— новые подтипы: яки, ракоанцы и звери\n— уникальный косметический набор
+DLC_FEATURES_RESURGENCE;— открыто 40 новых карт\n— новый подтип: тритон\n— уникальный косметический набор
+DLC_FEATURES_CHRONICLES_OF_GAGANA;— разблокировано 40 новых карт\n— новое ключевое слово: «Открывание»\n— новый подтип: мех\n— уникальный косметический набор
+DLC_DESCRIPTION_WELLS_PACK;Данное дополнение открывает все косметические предметы для колодцев, которые можно получить по мере продвижения в игре.
+DLC_DESCRIPTION_ORBS_PACK;Это дополнение разблокирует все косметические предметы сферы, которые так же могут разблокированы во время игры.
+DLC_DESCRIPTION_CARDBACKS_PACK;Это дополнение разблокирует все косметические элементы рубашек карт, которые так же могут быть разблокированы во время игры.
+DLC_DESCRIPTION_AVATARS_PACK;Это дополнение разблокирует все косметические предметы Аватара, которые так же могут быть разблокированы во время игры.
+DLC_DESCRIPTION_PREMIUM_EDITION;Откроте премиум опыт Faeria! \n\nНабор сочетает ускоренный игровой прогресс и эсклюзивные предметы. Проводите больше времени в любимой игре, получая УДВОЕННЫЙ ОПЫТ, больше ячеек в колоде, особые косметические предметы и многое другое.\n\nХотите получить в Faeria лучшее? Тогда этот набор для вас.
+DLC_DESCRIPTION_PUZZLE_ELEMENTS;Знакомый мастер головоломок, Джалмир, отошёл от дел и оставил всё на волю стихий.\n\nДанный набор головоломок для Faeria содержит 40 дополнительных испытаний.\n\nСумеете ли вы одолеть стихии?\n\nВнимание: многие из этих головоломок довольно сложны!
+DLC_DESCRIPTION_FALL_OF_EVERLIFE;Император Кайос поглотил плод Древа Жизни, наведя страшную порчу на Сверхнебесье. Объединитесь вместе с яками и ракоанцами, чтобы побороть напасть!
+DLC_DESCRIPTION_RESURGENCE;Скверна расползлась по всему миру, угрожая всему чистому и светлому. Новые чудовища и злодеи собираются под имперским знаменем в надежде урвать трофеев.\n\nНесмотря на большие потери, в сердцах тех, кто решил дать отпор врагам, есть надежда. Новые союзники спешат на помощь, и, несмотря на бедственное положение, победа не кажется невозможной.
+DLC_DESCRIPTION_CHRONICLES_OF_GAGANA;Император Кайос потерпел поражение, и Сверхнебесье теперь в безопасности.\n\nВ поисках спасения от нового надвигающегося катаклизма, экипаж Гаганы отправляется на неизведанную территорию.\n\nОни встретят новые цивилизации, новые континенты, новых существ...и в конце концов: сокровища Гаганы.
+DLC_SHOP_OPEN_SHOP;В магазин
+DLC_SHOP_CONTENT_TITLE_TEXT;Материалы:

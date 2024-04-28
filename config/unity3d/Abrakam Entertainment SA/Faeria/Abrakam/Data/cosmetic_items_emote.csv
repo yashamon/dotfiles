@@ -1,0 +1,97 @@
+ID;Name;Rarity;IsPinkChestAvailable;IsHidden;IsSetItem;Text;AvatarReference;EmoteType
+0;BasicGreetings;RARE;;TRUE;TRUE;Greetings.;AvatarBasic;GREETINGS
+1;BasicTaunt;RARE;;TRUE;TRUE;You Will Not Survive.;AvatarBasic;TAUNT
+2;BasicWellPlayed;RARE;;TRUE;TRUE;Well Played.;AvatarBasic;WELL_PLAYED
+3;BasicWow;RARE;;TRUE;TRUE;Amazing!;AvatarBasic;WOW
+4;BasicOops;RARE;;TRUE;TRUE;That Was A Mistake.;AvatarBasic;OOPS
+5;BasicUnique;RARE;;TRUE;TRUE;;AvatarBasic;UNIQUE
+6;SharraGreetings;EPIC;;TRUE;TRUE;Well met.;AvatarSharra;GREETINGS
+7;SharraTaunt;EPIC;;TRUE;TRUE;Die With Dignity.;AvatarSharra;TAUNT
+8;SharraWellPlayed;EPIC;;TRUE;TRUE;You Are A Worthy Opponent.;AvatarSharra;WELL_PLAYED
+9;SharraWow;EPIC;;TRUE;TRUE;Holy Yak!;AvatarSharra;WOW
+10;SharraOops;EPIC;;TRUE;TRUE;A Misstep. Don't Expect Another.;AvatarSharra;OOPS
+11;SharraUnique;EPIC;;TRUE;TRUE;Flow Like A River. Strike Like The Wind.;AvatarSharra;UNIQUE
+12;HoakaGreetings;LEGENDARY;;TRUE;TRUE;Welcome! Welcome!;AvatarHoaka;GREETINGS
+13;HoakaTaunt;LEGENDARY;;TRUE;TRUE;You've already lost. You just don't know it.;AvatarHoaka;TAUNT
+14;HoakaWellPlayed;LEGENDARY;;TRUE;TRUE;You're a refreshing challenge!;AvatarHoaka;WELL_PLAYED
+15;HoakaWow;LEGENDARY;;TRUE;TRUE;Splendiferous!;AvatarHoaka;WOW
+16;HoakaOops;LEGENDARY;;TRUE;TRUE;Shouldn't have done that.;AvatarHoaka;OOPS
+17;HoakaUnique;LEGENDARY;;TRUE;TRUE;I'm so smart, I astound myself!;AvatarHoaka;UNIQUE
+18;AuroraGreetings;EPIC;;TRUE;TRUE;So good to see you.;AvatarAurora;GREETINGS
+19;AuroraTaunt;EPIC;;TRUE;TRUE;You're Adorable!;AvatarAurora;TAUNT
+20;AuroraWellPlayed;EPIC;;TRUE;TRUE;You've earned my respect.;AvatarAurora;WELL_PLAYED
+21;AuroraWow;EPIC;;TRUE;TRUE;It Seems I Haven't Yet Seen Everything.;AvatarAurora;WOW
+22;AuroraOops;EPIC;;TRUE;TRUE;Mistakes Are How We Learn.;AvatarAurora;OOPS
+23;AuroraUnique;EPIC;;TRUE;TRUE;No respect for an elder...;AvatarAurora;UNIQUE
+24;SeiferGreetings;EPIC;;TRUE;TRUE;Heh. Greetings.;AvatarSeifer;GREETINGS
+25;SeiferTaunt;EPIC;;TRUE;TRUE;I Will BURY You!;AvatarSeifer;TAUNT
+26;SeiferWellPlayed;EPIC;;TRUE;TRUE;Well Played! You're Smarter Than You Smell.;AvatarSeifer;WELL_PLAYED
+27;SeiferWow;EPIC;;TRUE;TRUE;Glorious!;AvatarSeifer;WOW
+28;SeiferOops;EPIC;;TRUE;TRUE;A Minor Setback.;AvatarSeifer;OOPS
+29;SeiferUnique;EPIC;;TRUE;TRUE;There Can Be Only One!;AvatarSeifer;UNIQUE
+30;KhalimGreetings;EPIC;;TRUE;TRUE;Well met.;AvatarKhalim;GREETINGS
+31;KhalimTaunt;EPIC;;TRUE;TRUE;Your skills are not complete.;AvatarKhalim;TAUNT
+32;KhalimWellPlayed;EPIC;;TRUE;TRUE;Well played. You are dangerous.;AvatarKhalim;WELL_PLAYED
+33;KhalimWow;EPIC;;TRUE;TRUE;By the wild winds!;AvatarKhalim;WOW
+34;KhalimOops;EPIC;;TRUE;TRUE;Unforgivable.;AvatarKhalim;OOPS
+35;KhalimUnique;EPIC;;TRUE;TRUE;I hate sand. It gets everywhere.;AvatarKhalim;UNIQUE
+36;TarumGreetings;LEGENDARY;;TRUE;TRUE;The earth greets you.;AvatarTarum;GREETINGS
+37;TarumTaunt;LEGENDARY;;TRUE;TRUE;You'll make fine fertilizer.;AvatarTarum;TAUNT
+38;TarumWellPlayed;LEGENDARY;;TRUE;TRUE;Well played little one.;AvatarTarum;WELL_PLAYED
+39;TarumWow;LEGENDARY;;TRUE;TRUE;By the ancient mother...;AvatarTarum;WOW
+40;TarumOops;LEGENDARY;;TRUE;TRUE;Even I make mistakes.;AvatarTarum;OOPS
+41;TarumUnique;LEGENDARY;;TRUE;TRUE;You are tiny.;AvatarTarum;UNIQUE
+42;MagdaGreetings;EPIC;;TRUE;TRUE;Greetings.;AvatarMagda;GREETINGS
+43;MagdaTaunt;EPIC;;TRUE;TRUE;You amuse me.;AvatarMagda;TAUNT
+44;MagdaWellPlayed;EPIC;;TRUE;TRUE;Well played. I underestimated you.;AvatarMagda;WELL_PLAYED
+45;MagdaWow;EPIC;;TRUE;TRUE;I am speechless.;AvatarMagda;WOW
+46;MagdaOops;EPIC;;TRUE;TRUE;A minor mistake.;AvatarMagda;OOPS
+47;MagdaUnique;EPIC;;TRUE;TRUE;Everything is part of my plan.;AvatarMagda;UNIQUE
+48;RuuninGreetings;EPIC;;TRUE;TRUE;Greetings.;AvatarRuunin;GREETINGS
+49;RuuninTaunt;EPIC;;TRUE;TRUE;Nature never dies.;AvatarRuunin;TAUNT
+50;RuuninWellPlayed;EPIC;;TRUE;TRUE;You are a fine hunter.;AvatarRuunin;WELL_PLAYED
+51;RuuninWow;EPIC;;TRUE;TRUE;By my fearsome fangs!;AvatarRuunin;WOW
+52;RuuninOops;EPIC;;TRUE;TRUE;*Growls*;AvatarRuunin;OOPS
+53;RuuninUnique;EPIC;;TRUE;TRUE;What *kills* me only makes me stronger.;AvatarRuunin;UNIQUE
+54;RapalaGreetings;LEGENDARY;;TRUE;TRUE;Good luck, have fun!;AvatarRapala;GREETINGS
+55;RapalaTaunt;LEGENDARY;;TRUE;TRUE;Why so serious?;AvatarRapala;TAUNT
+56;RapalaWellPlayed;LEGENDARY;;TRUE;TRUE;GG, well played.;AvatarRapala;WELL_PLAYED
+57;RapalaWow;LEGENDARY;;TRUE;TRUE;That's a Youtube moment!;AvatarRapala;WOW
+58;RapalaOops;LEGENDARY;;TRUE;TRUE;Feels bad man.;AvatarRapala;OOPS
+59;RapalaUnique;LEGENDARY;;TRUE;TRUE;Let's put a smile on that face!;AvatarRapala;UNIQUE
+60;FugoroGreetings;LEGENDARY;;TRUE;TRUE;Greetings friend.;AvatarFugoro;GREETINGS
+61;FugoroTaunt;LEGENDARY;;TRUE;TRUE;Would you like your defeat gift-wrapped?;AvatarFugoro;TAUNT
+62;FugoroWellPlayed;LEGENDARY;;TRUE;TRUE;Well played. You're my favorite customer.;AvatarFugoro;WELL_PLAYED
+63;FugoroWow;LEGENDARY;;TRUE;TRUE;Incredible! I should have charged admission!;AvatarFugoro;WOW
+64;FugoroOops;LEGENDARY;;TRUE;TRUE;Money can't buy wisdom.;AvatarFugoro;OOPS
+65;FugoroUnique;LEGENDARY;;TRUE;TRUE;Buy more chests, support your local merchant!;AvatarFugoro;UNIQUE
+66;JalmyrGreetings;LEGENDARY;;TRUE;TRUE;Greetings.;AvatarJalmyr;GREETINGS
+67;JalmyrTaunt;LEGENDARY;;TRUE;TRUE;Perhaps you should play more puzzles.;AvatarJalmyr;TAUNT
+68;JalmyrWellPlayed;LEGENDARY;;TRUE;TRUE;You've learned well.;AvatarJalmyr;WELL_PLAYED
+69;JalmyrWow;LEGENDARY;;TRUE;TRUE;Magnificent.;AvatarJalmyr;WOW
+70;JalmyrOops;LEGENDARY;;TRUE;TRUE;Hmm. A non-trivial error.;AvatarJalmyr;OOPS
+71;JalmyrUnique;LEGENDARY;;TRUE;TRUE;Take your time.;AvatarJalmyr;UNIQUE
+72;KrogGreetings;LEGENDARY;;TRUE;TRUE;Let's be friends!;AvatarKrog;GREETINGS
+73;KrogTaunt;LEGENDARY;;TRUE;TRUE;I'll make a yak out of you!;AvatarKrog;TAUNT
+74;KrogWellPlayed;LEGENDARY;;TRUE;TRUE;You smart cookie!;AvatarKrog;WELL_PLAYED
+75;KrogWow;LEGENDARY;;TRUE;TRUE;*jolly laughter*;AvatarKrog;WOW
+76;KrogOops;LEGENDARY;;TRUE;TRUE;Even kings make boo-boos.;AvatarKrog;OOPS
+77;KrogUnique;LEGENDARY;;TRUE;TRUE;You got Krogged!;AvatarKrog;UNIQUE
+78;BombSlingerGreetings;LEGENDARY;;TRUE;TRUE;Greeting sequence initiated!;AvatarBombSlinger;GREETINGS
+79;BombSlingerTaunt;LEGENDARY;;TRUE;TRUE;Exterminate!;AvatarBombSlinger;TAUNT
+80;BombSlingerWellPlayed;LEGENDARY;;TRUE;TRUE;Well Played = True!;AvatarBombSlinger;WELL_PLAYED
+81;BombSlingerWow;LEGENDARY;;TRUE;TRUE;Fun levels set to maximum!;AvatarBombSlinger;WOW
+82;BombSlingerOops;LEGENDARY;;TRUE;TRUE;ERROR. ERROR.;AvatarBombSlinger;OOPS
+83;BombSlingerUnique;LEGENDARY;;TRUE;TRUE;Installing updates...;AvatarBombSlinger;UNIQUE
+84;AdventurerGreetings;LEGENDARY;;TRUE;TRUE;May the best frog win.;AvatarAdventurer;GREETINGS
+85;AdventurerTaunt;LEGENDARY;;TRUE;TRUE;Maybe you should buy more cards.;AvatarAdventurer;TAUNT
+86;AdventurerWellPlayed;LEGENDARY;;TRUE;TRUE;Brilliant.;AvatarAdventurer;WELL_PLAYED
+87;AdventurerWow;LEGENDARY;;TRUE;TRUE;For frog's sake!;AvatarAdventurer;WOW
+88;AdventurerOops;LEGENDARY;;TRUE;TRUE;Oopsie.;AvatarAdventurer;OOPS
+89;AdventurerUnique;LEGENDARY;;TRUE;TRUE;Have you bought my oversky adventure yet?;AvatarAdventurer;UNIQUE
+90;KaiosGreetings;LEGENDARY;;TRUE;TRUE;Welcome to my realm.;AvatarKaios;GREETINGS
+91;KaiosTaunt;LEGENDARY;;TRUE;TRUE;Bow to me.;AvatarKaios;TAUNT
+92;KaiosWellPlayed;LEGENDARY;;TRUE;TRUE;You exceeded my expectations.;AvatarKaios;WELL_PLAYED
+93;KaiosWow;LEGENDARY;;TRUE;TRUE;Astonishing!;AvatarKaios;WOW
+94;KaiosOops;LEGENDARY;;TRUE;TRUE;Foolish.;AvatarKaios;OOPS
+95;KaiosUnique;LEGENDARY;;TRUE;TRUE;Join me. It is your destiny.;AvatarKaios;UNIQUE

@@ -1,0 +1,46 @@
+TUTORIAL_ADVENTURE_POUCH_AVAILABLE_GOT_IT;Una nueva aventura comienza... \n¡La Bolsa de Aventura ha sido revelada, es hora de que descubras las novedades de Faeria!\n¿Qu-Qué es ese medallón?
+TUTORIAL_BATTLE_CASUAL_MODE_HINT;Si estás buscando relajarte con otros jugadores, selecciona el modo casual.
+TUTORIAL_BATTLE_CHOOSE_MODE_GOT_IT;Antes de jugar una partida, puedes elegir entre el modo Práctica, Casual o Clasificatoria.
+TUTORIAL_BATTLE_PRACTICE_MODE_HINT;Si lo que buscas es entrenar contra una I.A., selecciona el modo Práctica.
+TUTORIAL_BATTLE_RANKED_MODE_HINT;Si estás buscando probar tu habilidad, selecciona el modo Clasificatoria.
+TUTORIAL_CRAFTING_HIT_CRAFT_MODE_BUTTON;¡Ahora tienes la posibilidad de crear nuevas cartas!
+TUTORIAL_DECK_EDITION_NEW_CARD_RECEIVED_GOT_IT;Haz recibido una nueva carta, veamos como puedes añadirla a tu mazo.
+TUTORIAL_FIRST_FORMULA_DECK_CREATED;Este es tu primer mazo, ¡ahora estás listo para jugar!
+TUTORIAL_FIRST_FORMULA_HIT_BLUEPRINT_SELECT_BUTTON;Esto es una plantilla, utilízala para crear un mazo rapidamente.
+TUTORIAL_FIRST_FORMULA_HIT_PLAY_BUTTON;Vamos a probar tu nuevo mazo en una partida.
+TUTORIAL_FIRST_FORMULA_HOME_UNLOCKED_GOT_IT;Felicidades, has desbloqueado la interfaz principal de Faeria! Comencemos creando tu primer mazo.
+TUTORIAL_FIRST_FORMULA_SOLO_GOT_IT;¡Bienvenido al modo Misiones! Completálas para subir de nivel y ganar más cartas.
+TUTORIAL_SECOND_FORMULA_CREATE_DECK;Crea el mazo de todas formas, luego añadirás 2 cartas de tu gusto.
+TUTORIAL_SECOND_FORMULA_FINISH_DECK_GOT_IT;Si no tienes todas las cartas de una plantilla, siempre puedes completar el mazo eligiendo cartas individualmente.
+TUTORIAL_SECOND_FORMULA_NEW_FORMULA_RECEIVED_GOT_IT;Haz recibido una nueva plantilla, vamos a utilizarla.
+TUTORIAL_SECOND_FORMULA_NOT_COMPLETED_FORMULA_HINT;Tienes 28 de las 30 cartas de esta plantilla.
+TUTORIAL_SHOP_MYTHIC_CHEST_HINT;Los cofres míticos contienen versiones míticas (doradas) de las cartas y otros items cosméticos.
+TUTORIAL_PANDORA_PRACTICE_COIN_HINT;Apuesta 2 cofres de combate y batalla con un mazo construido desde 0. Gana hasta 6 partidas para ganar cofres de combate y cartas.
+TUTORIAL_PANDORA_FULL_COIN_HINT;Apuesta fragmentos en su lugar para ganar cartas míticas y fragmentos.
+MOUSE_TUTORIAL_PANDORA_REWARD_GOT_IT;Colecciona puntos Pandora para obtener recompensas al final de cada temporada. Dale un vistazo a las recompensas en <u><link=https://esports.faeria.com/pandora-season>https://esports.faeria.com/pandora-season</link></u>
+DAILY_REWARDS_TUTORIAL_GOT_IT;Esta fue tu primera recompensa diaria. Inicia sesión todos los días para obtener recompensas cada vez mejores. No te preocupes, tu progreso no se perderá si no puedes hacerlo alguna vez.
+LOYALTY_PATCH_PUZZLES_GOT_IT;¡Aquí tienes algunos Rompecabezas para probar la Caida de la Vida Eterna!
+TUTORIAL_WORLD_MAP_GOT_IT;¡Bienvenidos al Mundo de Faeria! Aquí encontrarás a los enemigos más imponentes y, a la larga, podrás desbloquear la Orbe de Campeones.
+TUTORIAL_PANDORA_FIRST_GAME_GOT_IT;Se han mezclado fragmentos de Pandora en cada mazo. Pandora despertará cuando se hayan encontrado 5 fragmentos.
+TUTORIAL_PANDORA_AWAKENS_GOT_IT;Pandora Despierta: Se pueden encontrar Tesoros en los mazos. Gana 3 de faeria extra en cada turno.
+TUTORIAL_CRAFTING_CRAFT_CHARGES_GOT_IT;Las cargas de Creación se usan para crear nuevas cartas. Puedes almacenar hasta {0} y se recargan con el tiempo.
+TUTORIAL_CRAFTING_CRAFT_GOT_IT;¡Por ahora solo puedes Crear cartas comunes, pero a medida que subes de nivel puedes Crear cartas Raras y Épicas!
+TUTORIAL_SHOP_DEAL_OF_THE_DAY_HINT;También puedes comprar items directamente en la Tienda. La selección de items cambia todos los días.
+TUTORIAL_SHOP_GOT_IT;Aquí puedes comprar items cosméticos, dándole a tus cartas bordes brillantes o dejándote personalizar tu apariencia en tu perfil.
+TUTORIAL_LORE_BOOK_GOT_IT;¡Has desbloqueado el libro de historias!
+TUTORIAL_DRAGONS_LAIR_IS_HERE_GOT_IT;Ingresa a la Guarida del Dragón por aquí, si te atreves...
+TUTORIAL_DRAGONS_LAIR_IS_DAILY_GOT_IT;Nuevos dragones entran a la Guarida cada día. ¡Derrota a cada uno de ellos suficientes veces para ganar sus conjuntos cosméticos!
+TUTORIAL_DRAGONS_LAIR_GOT_IT;¡La Guarida del Dragón está disponible!\n¡Lucha contra poderosos dragones solo o con amigos en este desafío diario!
+TUTORIAL_DECK_COSMETIC_SET_POPUP_GOT_IT;Elige los cosméticos que quieres para este mazo y cliquea en aplicar para confirmar los cambios.
+TUTORIAL_DECK_COSMETIC_SET_EDIT_DECK_GOT_IT;¡Ahora puedes asignar conjuntos cosméticos específicos para cada mazo!
+GAMEPAD_TUTORIAL_PANDORA_REWARD_GOT_IT;Colecciona puntos Pandora para obtener recompensas al final de cada temporada. Dale un vistazo a las recompensas en <u><link=https://esports.faeria.com/pandora-season>https://esports.faeria.com/pandora-season</link></u>
+GAMEPAD_TUTORIAL_LORE_BOOK_ZOOM_ON_LORE_ITEM;Pulsa {GAMEPAD_ACTION_CONFIRM} en páginas desbloqueadas de conocimiento para leerlas.
+MOUSE_TUTORIAL_LORE_BOOK_ZOOM_ON_LORE_ITEM;Pulsa en páginas desbloqueadas de conocimiento para leerlas.
+GAMEPAD_TUTORIAL_DECK_EDITION_REMOVE_ANY_CARD_FROM_DECK;Pulsa {GAMEPAD_ACTION_CONFIRM} en cualquier carta para removerla de tu mazo.
+MOUSE_TUTORIAL_DECK_EDITION_REMOVE_ANY_CARD_FROM_DECK;Pulsa en cualquier carta para removerla de tu mazo.
+GAMEPAD_TUTORIAL_DECK_EDITION_CLICK_SAVE;Selecciona guardar y estas listo.
+MOUSE_TUTORIAL_DECK_EDITION_CLICK_SAVE;Pulsa en guardar y estas listo.
+GAMEPAD_TUTORIAL_DECK_EDITION_ADD_ANY_CARD_TO_DECK;Selecciona ahora esta carta para adicionarla a tu mazo.
+MOUSE_TUTORIAL_DECK_EDITION_ADD_ANY_CARD_TO_DECK;Ahora pulsa en esta carta para adicionarla a tu mazo.
+GAMEPAD_TUTORIAL_ADVENTURE_POUCH_MEDALLION_GOT_IT;Pulsa {GAMEPAD_ACTION_CONFIRM} para juntarte a la aventura
+MOUSE_TUTORIAL_ADVENTURE_POUCH_MEDALLION_GOT_IT;Pulsa para juntarte a la aventura

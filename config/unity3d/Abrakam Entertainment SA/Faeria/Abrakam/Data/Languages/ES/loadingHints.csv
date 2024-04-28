@@ -1,0 +1,124 @@
+LOADING_HINT_QUEST_0;Tip: Ganas {faeria|3} Faeria cada turno.
+LOADING_HINT_QUEST_1;Tip: La Faeria no usada es guardadada para el próximo turno.
+LOADING_HINT_QUEST_2;Ayuda: Las habilidades están explicadas en la parte superior de cada carta.
+LOADING_HINT_QUEST_3;Ayuda: Construye tierras cerca del orbe de tu oponente.
+LOADING_HINT_QUEST_4;Ayuda: Mata a las Briznas antes de que crezcan
+LOADING_HINT_QUEST_5;Tip: Existen 4 colores en Faeria. Cada uno tiene su propio tipo de tierra.
+LOADING_HINT_QUEST_6;Ayuda: Ruunin es el eterno antiguo guardián del bosque.
+LOADING_HINT_QUEST_7;Ayuda: Las cartas rojas utilizan el poder de las montañas ardientes.
+LOADING_HINT_QUEST_8;Seifer ha grabado su nombre a fuego sobre las cenizas de los reinos destruidos.
+LOADING_HINT_QUEST_9;Tip: Las criaturas con salto pueden moverse hasta 2 espacios en cualquier dirección, saltando cualquier obstáculo en su camino.
+LOADING_HINT_QUEST_10;Ayuda: Construye tierras para bloquear enemigos acuáticos.
+LOADING_HINT_QUEST_11;Ayuda: Khalim es agresivo. Defiende cuidadosamente tu orbe.
+LOADING_HINT_QUEST_13;Cuando ella era solo una niña, el miedo de Sharra se quemó con su pueblo.
+LOADING_HINT_QUEST_20;Magda es la reina de Meroval. Heroes y villanos son simples herramientas para sus grandes planes.
+LOADING_HINT_QUEST_25;A kilómetros de distancia, las fiestas de danza de Krog con frecuencia son confundidas por truenos distantes.
+LOADING_HINT_QUEST_26;Tarum fue la primera semilla plantada. Él presenció el nacimiento de los dragones y la caida de los dioses antiguos.
+LOADING_HINT_QUEST_29;Ayuda: el poder de Tarum crece con el tiempo. Derrótalo rápido.
+LOADING_HINT_QUEST_30;Hoaka inventa constantemente nuevos tableros para jugar.
+LOADING_HINT_QUEST_48;Entre las aficiones de Aurora se incluyen instruir a futuros héroes, guiar el curso de la historia y probar nuevos tipos de té.
+LOADING_HINT_QUEST_49;Khalim, un prodigio de la orden Djidan, desafió a sus maestros y entró en la guerra del mundo.
+LOADING_HINT_QUEST_54;Algunos peces solo quieren ver el mundo arder.
+LOADING_HINT_QUEST_64;Jalmyr el misterioso cuida del cosmos y juega a ser el tutor de los dioses.
+LOADING_HINT_QUEST_117;Ayuda: Los tesoros son cartas poderosas que normalmente se encuentran en Pandora.
+LOADING_HINT_QUEST_118;Fugoro viaja por el mundo coleccionando la reliquias mas grandiosas de la historia.
+LOADING_HINT_RANDOM_DEATHTOUCH_ONLY_IF_DAMAGE;Tip: La habilidad Toque Mortal solo mata a una criatura si le causa daño. La habilidad Protección absorbe el daño.
+LOADING_HINT_RANDOM_TIKIS_CAN_TARGET_THEMSELVES;Tip: El Vigilante Tiki y el Flautista Tiki pueden seleccionarse a si mismos.
+LOADING_HINT_RANDOM_FROGS_PLACED_ON_LAKES;Tip: Las ranas de la carta Sapos Guerreros solo pueden ser invocadas en lagos.
+LOADING_HINT_RANDOM_HEAL_ORB_MAX_20;Ayuda: No puedes curarte por encima de 20 de vida.
+LOADING_HINT_RANDOM_COMPLETE_SOLO_CONTENT;Ayuda: La mejor forma de comenzar a jugar es completando el modo individual.
+LOADING_HINT_RANDOM_RED_COLOR_EXPLAINED;Tip: El rojo es el color del fuego y de la guerra.
+LOADING_HINT_RANDOM_BLUE_COLOR_EXPLAINED;Ayuda: Azul es el color de la transformación y la astucia.
+LOADING_HINT_RANDOM_GREEN_COLOR_EXPLAINED;Ayuda: Verde es el color del crecimiento y de los depredadores salvajes.
+LOADING_HINT_RANDOM_YELLOW_COLOR_EXPLAINED;Tip: El Amarillo es el color del viento y la velocidad.
+LOADING_HINT_RANDOM_CHARGE_CANT_PASS_THROUGH;Ayuda: No puedes cargar a través de otras criaturas.
+LOADING_HINT_RANDOM_BLOCK_AQUATIC_WITH_LANDS;Ayuda: Construye tierras para bloquear enemigos acuáticos.
+LOADING_HINT_RANDOM_DAILY_QUEST_1;Tip: La forma más efectiva de ganar cofres de batalla es volver cada día y completar tu misión diaria.
+LOADING_HINT_RANDOM_THE_HUB;Sabías que: faeria.com/the-hub es nuestro sitio oficial donde los jugadores publican sus propias guías
+LOADING_HINT_RANDOM_CARDBACK_FROM_SOLO;Ayuda: Completa todo el modo individual para obtener el dorso del dragón.
+LOADING_HINT_RANDOM_PANDORA_ECONMY;Tip: Cuando Pandora despierta, todos los pozos de Faeria son destruidos, pero los jugadores obtendrán el doble de Faeria por turno.
+LOADING_HINT_RANDOM_TAUNT_BEST_DEFENSE;Tip: Las criaturas con Provocar son generalmente la mejor forma de protegerte a ti mismo.
+LOADING_HINT_RANDOM_BUILD_LANDS_EARLY_GAME;Tip: Construye tierras en el comienzo de la partida. Deja los botones de +1 carta y +1 faeria para más tarde.
+LOADING_HINT_RANDOM_GIANT_LATEGAME_CREATURES_EXIST;Tip: Muchos mazos tienen un Finisher poderoso. Guarda eventos de eliminación para ello.
+LOADING_HINT_RANDOM_COUNTERING_RUSH_1;Tip: Cuando juegas contra un mazo agresivo, mueve tus criaturas sobre sus tierras agresivas para denegar que invoque criaturas en las mismas.
+LOADING_HINT_RANDOM_STRUCTURES_LEGAL_PLACEMENT;Tip: Las Estructuras pueden ser jugadas en cualquier tipo de tierra (sin importar si es de color o neutral).
+LOADING_HINT_RANDOM_STRUCTURES_DIRECTLY_ACTIVATES;Tip: Las Estructuras pueden ser activadas en el mismo turno en el que fueron invocadas.
+LOADING_HINT_RANDOM_GET_LANDS_NEAR_OPPONENT;Tip: Intenta construir tierras adyacentes al dios enemigo.
+LOADING_HINT_RANDOM_OVERDRAWING_DESTROYS_CARDS;Tip: Solo puedes tener hasta 9 cartas en tu mano. Las cartas que robes de más serán destruidas.
+LOADING_HINT_RANDOM_COUNTERING_RUSH_2;Tip: Derrota a los jugadores agresivos bloqueando sus tierras agresivas. Contraataca antes de que puedan acercarse a tu orbe.
+LOADING_HINT_RANDOM_YAK_LORE_1;<I> Si haces daño a un yak, le haces daño al mundo </ i> \ n <align = right> Dice Syland </ align>
+LOADING_HINT_RANDOM_FRIENDS_BLOCK_RANGED;Tip: Las criaturas con la habilidad A Distancia, no pueden disparar a través de criaturas amistosas.
+LOADING_HINT_RANDOM_LANDS_ARE_BETTER_THAN_CARDS;Tip: Crear tierras es usualmente más importante que robar cartas.
+LOADING_HINT_RANDOM_ENDGAME_THREATS_EXIST;Tip: Muchas amenazas te castigarán por tardar mucho en avanzar hacia tu oponente. Una vez que tengas la ventaja, ¡ataca!.
+LOADING_HINT_RANDOM_FATIGUE_HURTS;Tip: Una vez que tu mazo se quede sin cartas, comenzarás a recibir daño por Fatiga, que se incrementará en 1 cada vez que robes.
+LOADING_HINT_RANDOM_JALMYR_LORE_2;Los rompecabezas progresivos de Jalmyr dejan a menudo confundidos a los jugadores más experimentados
+LOADING_HINT_RANDOM_STEAM_FORGE_LORE;Alimentados por faeria, las forjas imperiales de vapor son impredecibles pero efectivas.
+LOADING_HINT_RANDOM_JALMYR_LORE_3;Jalmyr no podía destruir a su hermano, el señor de las tinieblas.
+LOADING_HINT_RANDOM_YELLOW_USES_HASTE;Tip: Los mazos amarillos a menudo usan criaturas con la habilidad Prisa. Pon defensas antes de que sea tarde.
+LOADING_HINT_RANDOM_RED_DIRECT_DAMAGE;Tip: Los mazos rojos suelen usar cartas de daño directo. Ten cuidado cuando tengas poca vida.
+LOADING_HINT_RANDOM_FIRESTORM_EXISTS;Tip: Tormenta de Fuego es una carta roja que inflige 3 de daño a una criatura enemiga y a todas las adyacentes a la misma.
+LOADING_HINT_RANDOM_UNIQUE_EMOTES_EXIST;Tip: Muchos avatares tienen emociones únicas.
+LOADING_HINT_RANDOM_BYPASSING_TAUNT;Ayuda: Una criatura provocada no puede moverse por si misma, pero puede moverse gracias a otro efecto. Incluso deslizarse.
+LOADING_HINT_RANDOM_DON'T_OVERBUFF_CREATURES;Ayuda: Ten cuidado en hacer crecer una criatura por encima de 6/6. Los eventos de eliminación pueden castigarte.
+LOADING_HINT_RANDOM_JOIN_FAERIA'S_DISCORD;Tip: ¿Tienes una pregunta o comentario? Únete al servidor oficial de Faeria en Discord. El link se encuentra en tu lista de Amigos.
+LOADING_HINT_RANDOM_ESPORTS_FAERIA_EXISTS;Tip: Ve a https://www.faeria.com/esport/home para obtener información sobre torneos y premios.
+LOADING_HINT_RANDOM_TOP_8_GODS_ON_LADDER_INVITED;Ayuda: Al final de cada temporada, los 10 mejores jugadores del modo clasificatoria participarán en un torneo especial.
+LOADING_HINT_RANDOM_HARD_REMOVAL_COSTS_6;Tip: La mejor carta de eliminación singular cuesta aproximadamente 6 faeria.
+LOADING_HINT_RANDOM_KILL_BURN_FAST;Tip: Cuando juegues contra mazos de daño directo, termina la partida lo más rápido posible.
+LOADING_HINT_RANDOM_REVIEW_FAERIA_PLEASE;Si te gusta Faeria, no te olvides de dejar un análisis en Steam. Nos ayuda a hacer crecer la comunidad.
+LOADING_HINT_RANDOM_RAPALA_LORE_2;La vista más temida en un pueblo costero no es un tsunami, sino un pez sonriente.
+LOADING_HINT_RANDOM_TIPS_EXIST;Tip: Los Tips son mostrados usualmente durante las pantallas de carga.
+LOADING_HINT_RANDOM_PROTECT_YOUR_ORB;Ayuda: No dejes que el oponente ponga tierras al lado de tu orbe.
+LOADING_HINT_RANDOM_EMPEROR_LORE;El Emperador espera con ansias el día en que los ciudadanos no sean necesarios.
+LOADING_HINT_RANDOM_WISDOM_IS_BAD;Tip: Los jugadores sabios raramente utilizan la carta Sabiduría.
+LOADING_HINT_RANDOM_IONA_LORE_1;Antes de Iona, Shaytan no tenía palabra para misericordia
+LOADING_HINT_RANDOM_OUTLAND_RANGER_LORE_1;Los Exploradores Extraños son una orden antigua de los nobles que negociaron los castillos de piedra para el cielo abierto.
+LOADING_HINT_RANDOM_SYLAND_FARMERS_LORE;Sin lugar a dudas, cada generación de granjeros de Syland da a luz a un gran héroe.
+LOADING_HINT_RANDOM_IONA_LORE_2;Es el sueño de cada poeta componer un tributo digno de Iona.
+LOADING_HINT_RANDOM_YAK_LEVEL;Tip: No existe el Nivel Yak.
+LOADING_HINT_RANDOM_KROG_LORE_1;Krog pasa el tiempo caminando diciéndole a todos que el es el rey ogro.
+LOADING_HINT_RANDOM_RAPALA_LORE_1;Algunos peces quieren ver el mundo arder.
+LOADING_HINT_RANDOM_THYRIAN_LORE_1;Se dice que los Golems Thyrianos provienen de un paraíso mítico sobre las nubes.
+LOADING_HINT_RANDOM_YAKNUS_LORE_1;El Rey Yaknus, primero de su nombre, es conocido como el rompedor de yugos y bestia de todas las cargas.
+LOADING_HINT_RANDOM_MAGNUS_LORE_1;De niño Magnus fue enviado a un sueño por Aurora, que lo llevó a la corona.
+LOADING_HINT_RANDOM_RUUNIN_LORE_1;A pesar de sus protestas, los seguidores de Ruunin insisten en enterrarla honorablemente cada vez que muere.
+LOADING_HINT_RANDOM_JALMYR_LORE_1;Se rumorea que Jalmyr concederá un deseo a cualquiera que pueda enseñarle algo nuevo.
+LOADING_HINT_RANDOM_GARUDAN_LORE_1;Garudan es un malvado.
+LOADING_HINT_RANDOM_HEXAGON_JOKE;Ayuda: Un hexágono es una figura increíble. Tiene seis lados fantásticos.
+LOADING_HINT_RANDOM_SAGAMI_LORE_1;En manos de los Sagami, los espíritus más horribles se convierten en guardianes sagrados.
+LOADING_HINT_RANDOM_SAGAMI_LORE_2;Los Sagami convierten espíritus asesinos en guardianes sagrados.
+LOADING_HINT_RANDOM_SEIFER_LORE_1;Seifer tiene un hurón de mascota llamado Rayomortal.
+LOADING_HINT_RANDOM_SEIFER_LORE_2;Seifer desafió una vez el sol a un concurso de miradas. La historia no registra al ganador.
+LOADING_HINT_RANDOM_DROWNING;Ayuda: Las criaturas que se encuentran en el océano y no sean voladoras o acuáticas, morirán al final del turno del jugador que las posea.
+LOADING_HINT_RANDOM_PANDORA_GODS;Pandora es el mundo donde suceden los sueños. Afortunadamente, a los dioses se les permite entrar.
+LOADING_HINT_RANDOM_AURORA_DREAMS;Gracias a su habilidad de entrar en los sueños, Aurora puede cambiar el destino de las personas.
+LOADING_HINT_RANDOM_MULTI_TAUNT;Tip: Si varias criaturas están provocando a una misma criatura, esa criatura puede atacar a cualquiera de ellas.
+LOADING_HINT_RANDOM_HOLD_EXPLORE;Tip: Puedes mantener en la mano la carta <i>Explorar</i> para potenciar a tus criaturas basadas en eventos más adelante.
+LOADING_HINT_RANDOM_FALCON_DIVE;Ayuda: Vuelo del Halcón es una herramienta excelente y versátil que se puede incluir en  casi cualquier mazo
+LOADING_HINT_RANDOM_SYLAND_HORSEMASTER;Tip: El Maestro de Caballos de Syland permite que los mazos Verdes y Rojos hagan ataques sorpresa.
+LOADING_HINT_RANDOM_GOD_HUNTER;Tip: El Cazador de Dioses no puede atacar o moverse si tiene a su lado una criatura con Provocar.
+LOADING_HINT_RANDOM_UNLIKELY_HERO;Tip: La habilidad de la Heroína Improbable puede ser activada atacando el orbe del oponente.
+LOADING_HINT_RANDOM_MOVING_WITH_JUMP_AND_CHARGE;Ayuda: Mover una criatura por el efecto de una carta toma en cuenta los efectos de Salto y  Cargar.
+LOADING_HINT_RANDOM_RADIANCE;Tip: Resplandor no es afectada por las cartas con efectos de reducción de coste de Faeria.
+LOADING_HINT_RANDOM_ELEMENTALS;Tip: Usar elementales es una buena forma de acelerar la creación de tierras especiales.
+LOADING_HINT_RANDOM_PANDORA_POINTS;Ayuda: Acumula Puntos de Pandora cada temporada para ganar premios especiales.
+LOADING_HINT_RANDOM_PANDORA_CARD_BACK;Tip: Termina en Rango 15 o mejor para recibir un dorso de carta especial.
+LOADING_HINT_RANDOM_GOD_CARD_BACK;Tip: Alcanza el Rango Dios para recibir un Dorso Dorado único cada temporada.
+LOADING_HINT_RANDOM_SEASON_RESET;Tip: Las temporadas de Clasificatoria y de Pandora se reinician el primer Lunes de cada mes.
+LOADING_HINT_RANDOM_HARVEST_ORDER;Tip: Las criaturas recolectan Faeria de izquierda a derecha, y de arriba a abajo, desde la perspectiva del jugador activo.
+LOADING_HINT_RANDOM_TRANSFORM_WITH_HASTE;Tip: Transformar a una criatura con Prisa puede remover su habilidad y volverla incapaz de atacar.
+LOADING_HINT_RANDOM_LAND_LOCK_COUNTER;Tip: Si tu oponente te bloquea y no te permite colocar más tierras, mueve una de tus criaturas a una de sus tierras, para así poder poner otra tierra adyacente a tu criatura en una casilla libre de océano.
+LOADING_HINT_RANDOM_CANNOT_CANCEL_GIFT;Ayuda: No puedes cancelar la invocación de una criatura con Don una vez la hayas puesto en el tablero.
+LOADING_HINT_RANDOM_OROSEI_LORE;Orosei vigila el reino de Pandora y sus tesoros.
+LOADING_HINT_RANDOM_FUGORO_LORE;Fugoro saquea tesoros del reino de Pandora.
+LOADING_HINT_RANDOM_GOKI_01;Fugoro tiene un sobrino llamado Goki. Puedes encontrarlo en la tienda.
+LOADING_HINT_RANDOM_WORLD_BOSSES;Derrota a todos los Jefes del Mundo para desbloquear la Orbe de Campeones y sus 3 joyas.
+LOADING_HINT_RANDOM_WILD_LANDS;Todas las tierras coloreadas cuentan como tierras salvajes cuando se paga coste de tierras.
+LOADING_HINT_RANDOM_CORRUPT_1;Tip: ¡Las criaturas corruptas adoran los trucos de movimiento!.
+LOADING_HINT_RANDOM_CORRUPT_2;Tip: ¡No dejes que las criaturas enemigas corrompan tus tierras!
+LOADING_HINT_RANDOM_CRUCIBLE;Puedes practicar partidas a modo de torneo en una sala privada con amigos.
+LOADING_HINT_RANDOM_FALL_OF_EVERLIFE;La corrupción se esparce por el Oversky desde que Kaios comió la fruta de la Vida Eterna.
+LOADING_HINT_RANDOM_TRIBAL;Algunas cartas ganan beneficios tribales. Los Yaks aman formar rebaños <3.
+LOADING_HINT_RANDOM_LORE_BOOK;Colecciona páginas de historia completando la misión de historia diaria o abriendo cofres míticos.
+LOADING_HINT_RANDOM_DECK_COSMETICS;¿Tienes los accesorios perfectos para tu nuevo mazo? Escoge un set de accesorios justo para él en el editor de mazos.
+LOADING_HINT_RANDOM_DRAGONS_LAIR;Enfrenta nuevos dragones cada día en la Guarida del Dragón.

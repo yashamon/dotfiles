@@ -1,0 +1,94 @@
+ID;Name;Rarity;IsPinkChestAvailable;IsHidden;IsSetItem;ProfileName;AvatarType
+0;Basic;RARE;;;;Explorer;DEFAULT
+1;GreenElemental1;RARE;TRUE;;;Verdant Sprite;DEFAULT
+2;GreenElemental2;EPIC;TRUE;;;Verdant Presence;DEFAULT
+3;GreenElemental3;LEGENDARY;TRUE;;;Verdant Genie;DEFAULT
+4;BlueElemental1;RARE;;;;Azure Sprite;DEFAULT
+5;BlueElemental2;EPIC;TRUE;;;Azure Presence;DEFAULT
+6;BlueElemental3;LEGENDARY;TRUE;;;Azure Genie;DEFAULT
+7;RedElemental1;RARE;;;;Crimson Sprite;DEFAULT
+8;RedElemental2;EPIC;TRUE;;;Crimson Presence;DEFAULT
+9;RedElemental3;LEGENDARY;TRUE;;;Crimson Genie;DEFAULT
+10;YellowElemental1;RARE;TRUE;;;Desolate Sprite;DEFAULT
+11;YellowElemental2;EPIC;TRUE;;;Desolate Presence;DEFAULT
+12;YellowElemental3;LEGENDARY;TRUE;;;Desolate Genie;DEFAULT
+13;Sharra;EPIC;TRUE;;TRUE;Sharra;DEFAULT
+14;KingsGuard;RARE;TRUE;;;Balhar;DEFAULT
+15;VerduranForce;RARE;TRUE;;;Verduran Force;DEFAULT
+16;SagamiElder;RARE;TRUE;;;Sagami Elder;DEFAULT
+17;Raizeon;EPIC;;TRUE;;Raizeon;DEFAULT
+18;Taesa;RARE;TRUE;;;Gabrian Enchantress;DEFAULT
+19;Hoaka;LEGENDARY;TRUE;;TRUE;Hoaka;DEFAULT
+20;Aurora;EPIC;TRUE;;TRUE;Aurora;DEFAULT
+21;KoboldMercenary;RARE;TRUE;;;Underground Boss;DEFAULT
+22;OgreBattler;RARE;TRUE;;;Ogre Battler;DEFAULT
+23;Seifer;EPIC;TRUE;;TRUE;Seifer;DEFAULT
+24;KeldranEmissary;RARE;TRUE;;;Windborne Emissary;DEFAULT
+25;ShaytanAssassin;RARE;TRUE;;;Shaytan Assassin;DEFAULT
+26;Khalim;EPIC;TRUE;;TRUE;Khalim;DEFAULT
+27;Tarum;LEGENDARY;TRUE;;TRUE;Tarum;DEFAULT
+28;TheEgg;EPIC;;TRUE;;The Egg;DEFAULT
+29;Magda;EPIC;TRUE;;TRUE;Magda;DEFAULT
+30;Ruunin;EPIC;TRUE;;TRUE;Ruunin;DEFAULT
+31;Rapala;LEGENDARY;;TRUE;TRUE;Rapala;DEFAULT
+32;Fugoro;LEGENDARY;TRUE;;TRUE;Fugoro;DEFAULT
+33;Jalmyr;LEGENDARY;;TRUE;TRUE;Jalmyr;DEFAULT
+34;Krog;LEGENDARY;TRUE;;TRUE;Krog;DEFAULT
+35;YakFarmer;EPIC;;;;Strawfield;YAK
+36;YakHippie;EPIC;;;;Peace Blossom;YAK
+37;YakFancy;EPIC;;;;Sir Yakkinton;YAK
+38;BombSlinger;LEGENDARY;;;TRUE;Bom-R;DEFAULT
+39;DarkWisp;RARE;TRUE;;;Dark Wisp;DEFAULT
+40;YakCynical;LEGENDARY;;;;The Cynical Yak;YAK
+41;YakDragon;LEGENDARY;;;;Fafnir;YAK
+42;YakFat;EPIC;;;;Fluffie;YAK
+43;YakPirate;EPIC;;;;Yak Sparrow;YAK
+44;YakKing;LEGENDARY;;;;King Yaknus;YAK
+45;YakForcer;EPIC;;;;Yak Forcer;DEFAULT
+46;Yakkar;EPIC;;;;Yakkar;DEFAULT
+47;Adventurer;LEGENDARY;;TRUE;TRUE;Fugoro;DEFAULT
+48;Taranga;RARE;TRUE;;;Taranga;DEFAULT
+49;Ulani;EPIC;TRUE;;;Ulani;DEFAULT
+50;Cap10;LEGENDARY;TRUE;;;CAP-10;DEFAULT
+51;Kaios;LEGENDARY;;TRUE;TRUE;Kaios;DEFAULT
+52;YakShepherd;RARE;TRUE;;;Shepherdess;DEFAULT
+53;ExplorerBlue;RARE;TRUE;;;Voyager;DEFAULT
+54;ExplorerPink;RARE;TRUE;;;Sojourner;DEFAULT
+55;SeiferSunglasses;LEGENDARY;;TRUE;;Cool Rat Seifer;DEFAULT
+56;KhalimSunglasses;LEGENDARY;TRUE;;;Stormrider Khalim;DEFAULT
+57;KhalimBlack;LEGENDARY;TRUE;;;Khalim the Wise;DEFAULT
+58;SharraPink;LEGENDARY;TRUE;;;Stylish Sharra;DEFAULT
+59;SharraHat;LEGENDARY;TRUE;;;Casual Sharra;DEFAULT
+60;KingsGuardSilver;RARE;TRUE;;;Silver Balhar;DEFAULT
+61;VerduranForceGrey;RARE;TRUE;;;Autumn Verduran Force;DEFAULT
+62;RaizeonAltered;EPIC;TRUE;;;Prismatic Raizeon;DEFAULT
+63;AuroraHippie;LEGENDARY;;TRUE;;Peacenik Aurora;DEFAULT
+64;AuroraDark;EPIC;TRUE;;;Nightmare Aurora;DEFAULT
+65;KoboldMercenaryGold;RARE;;TRUE;;Underground Miser;DEFAULT
+66;OgreBattlerBlue;RARE;TRUE;;;Woad Battler;DEFAULT
+67;KeldranEmissaryBlue;RARE;TRUE;;;Windborne Messenger;DEFAULT
+68;ShaytanAssassinBlue;RARE;TRUE;;;Azure Assassin;DEFAULT
+69;TarumEvil;LEGENDARY;TRUE;;;Nature's Wrath Tarum;DEFAULT
+70;MagdaSecretary;LEGENDARY;TRUE;;;Librarian Magda;DEFAULT
+71;RuuninBlack;LEGENDARY;TRUE;;;Nightrunner Ruunin;DEFAULT
+72;FugoroRainbow;LEGENDARY;TRUE;;;Chromatic Fugoro;DEFAULT
+73;WispWhite;RARE;TRUE;;;Bright Wisp;DEFAULT
+74;WispRainbow;RARE;TRUE;;;Rainbow Wisp;DEFAULT
+75;KrogSuit;LEGENDARY;TRUE;;;Don Krog;DEFAULT
+76;KrogBiker;LEGENDARY;TRUE;;;The Notorious K.R.O.G;DEFAULT
+77;KaiosCorrupted;LEGENDARY;;;;Demented Kaios;DEFAULT
+78;Banon;LEGENDARY;;;;Banon;DEFAULT
+79;Orosei;LEGENDARY;;TRUE;;Orosei;DRAGON
+80;Tethra;LEGENDARY;;TRUE;;Tethra;DRAGON
+81;Garudan;LEGENDARY;;TRUE;;Garudan;DRAGON
+82;Azarai;LEGENDARY;;TRUE;;Azarai;DRAGON
+83;Celeste;LEGENDARY;;TRUE;;Celeste;DRAGON
+84;YakLizard;LEGENDARY;;;;Yakizard;YAK
+85;YakTeddy;LEGENDARY;;;;Teddy;YAK
+86;YakBFYC;LEGENDARY;;;;Yakuza;YAK
+87;YakDevil;LEGENDARY;;;;Yak Devil;YAK
+88;YakIndianChief;LEGENDARY;;;;Pocyakontas;YAK
+89;YakMC;LEGENDARY;;;;Yak MC;YAK
+90;YakMetalhead;LEGENDARY;;;;Yak Metalhead;YAK
+91;YakUnicorn;LEGENDARY;;;;Yakkicorn;YAK
+92;Sorocco;LEGENDARY;;;;Sorocco;DEFAULT

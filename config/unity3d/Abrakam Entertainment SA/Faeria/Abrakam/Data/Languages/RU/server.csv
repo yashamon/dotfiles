@@ -1,0 +1,85 @@
+ACCOUNT_DOES_NOT_EXIST;Такой учётной записи не существует.
+ACTIVATION_CODE_FAILED;Похоже, возникла проблема с вашим кодом активации.
+ACTIVATION_KEY_FAILED;Похоже, возникла проблема с вашим ключом активации.
+ALREADY_IN_GAME;Похоже, вы уже находитесь в игре. Попробуйте выйти и снова зайти.
+BAD_CLIENT_VERSION;Похоже, ваша версия устарела. Попробуйте перезапустить игру.
+CANNOT_BE_PLAYER_HAS_NO_DECK;Модератор хотел выбрать вас в качестве игрока, но у вас нет колоды.
+CANNOT_INVITE_FRIEND_DECLINED;Игрок, которого вы хотели добавить в друзья, ответил отказом. Теперь запрос на добавление в друзья должен исходить от него.
+CANNOT_INVITE_FRIEND_DOES_NOT_EXIST;Такого игрока нет. Введите правильный идентификатор.
+CANNOT_INVITE_FRIEND_OPPONENT;Нельзя добавлять в друзья игрока, против которого вы в настоящий момент сражаетесь. Дождитесь окончания партии.
+CANNOT_INVITE_FRIEND_PROLOGUE;Нельзя добавить в  друзья игрока, который еще не завершил пролог.
+CANNOT_INVITE_FRIEND_REFUSED;Игрок, которого вы хотели добавить в список друзей, не принимает запросы на добавление в друзья.
+CANNOT_MODIFY_DECK_WHILE_SEARCHING;Нельзя изменять колоду во время поиска игры.
+CANNOT_PAUSE_DURING_MULLIGAN;Игру нельзя поставить на паузу во время фазы пересдачи.
+CANNOT_SET_AS_PLAYER_HAS_NO_DECK;У этого игрока нет колоды, поэтому его выбрать нельзя.
+CANNOT_SET_YOURSELF_AS_RECRUITER;Вы не можете выбрать себя в качестве нанимателя.
+CANNOT_SIGN_UP_FREEZE_MODE_ON;Ведутся профилактические работы. Пожалуйста, попробуйте войти в игру попозже.
+CANNOT_SPECTATE_TOURNAMENT_GAME;За играми турнира наблюдать нельзя.
+CANNOT_START_FREEZE_MODE_ON;Серверы заполнены, и запустить игру в данный момент невозможно. Нам очень жаль!
+CANNOT_START_SERVER_REBOOTING;Игры отключены: сервер готовится к перезапуску.
+CARD_COPIES_LIMITED;Нельзя иметь более трёх одинаковых карт в колоде.
+COMMUNITY_EVENT_INACTIVE_OR_DOES_NOT_EXIST;Событие сообщества неактивно или не существует.
+COMMUNITY_EVENT_NO_STEAM_KEYS_LEFT;Ключей Steam не осталось, повторите попытку позже.
+CONSTRUCTED_CLOSED;Рейтинговые игры сегодня недоступны, открыта только Пандора.
+COUPON_ALREADY_USED;Этот купон уже использован.
+COUPON_DOES_NOT_EXIST;Код купона не действителен.
+COUPON_EXPIRED;Вы ввели код просроченного купона.
+COUPON_ITEM_ALREADY_OWNED;У вас уже есть предмет(ы) этого купона.
+COUPON_MAX_ACTIVATIONS_REACHED;Этот купон больше нельзя активировать: вы уже достигли максимально допустимого числа активаций.
+COUPON_RESERVED;Этот купон связан с другой учётной записью.
+DECK_SIZE_LIMITED;Размер колоды ограничен {0} картами.
+DISCONNECTED_FROM_WORLD;Матч завершился, но, похоже, у вас нет соединения с главным сервером. Пожалуйста, восстановите соединение!
+FRIEND_DOES_NOT_ALLOW_SPECTATE;Ваш друг не разрешает наблюдать за своей игрой.
+FRIEND_NO_LONGER_IN_GAME;Ваш друг уже не в игре.
+GAME_CANCELED_NO_GAMESERVER_FOUND;В вашем регионе не найдено ни одного игрового сервера! Повторите попытку позже.
+GAME_CANCELED_PLAYER_DID_NOT_REPLY_IN_TIME;Ваша игра отменена (игрок не ответил вовремя).
+GAME_CANCELED_SERVER_DID_NOT_REPLY_IN_TIME;Ваша игра отменена (сервер не ответил вовремя).
+GAME_CANCELED_SERVER_STOPPING;Ваша игра отменена (остановка сервера).
+GAME_CANCELED_VERSION;Игра отменена, так как вы используете устаревшую версию игры.
+INVALID_HIGHLANDER_DECK_DUPLICATE;Эта колода не подходит для режима Горец: каждая карта должна быть в единственном экземпляре.
+INVALID_STEAM_KEY;Неверный ключ Steam.
+LEGENDARY_CARD_LIMITED;Легендарные карты уникальны.
+MAIL_ALREADY_EXISTS;Такой адрес уже существует.
+MARKET_ITEM_ALREADY_OWNED;У вас уже есть этот предмет.
+NEW_BOSS_MISSION_UNLOCKED;Новая миссия босса разблокирована!
+NO_ACTIONS_LEFT_RETRYING_PUZZLE;Ходы кончились! Попробуйте еще раз...
+ORB_DIED_RETRYING_PUZZLE;Победа за мной! Попробуйте еще раз...
+PAUSE_LIMIT_REACHED;Вы больше не можете ставить игру на паузу (достигнут лимит пауз - {0} раз).
+PICK_TOURNAMENT_MATCHES_FORMAT;Выберите формат игры турнира
+PLAYER_LEFT_GAME;Игрок {0} покинул игру!
+RECIPIENT_IS_OFFLINE;{0} не в сети
+RECRUITER_SET;Наниматель успешно выбран!
+SELECT_A_DECK;Вам нужно выбрать колоду.
+SERVER_BUSY_TRY_AGAIN;Сервер переполнен, пожалуйста, попробуйте через минуту.
+SERVER_COULD_NOT_FIND_GAME;Сервер не смог найти запрашиваемую игру.
+SERVER_SHUTDOWN;Обновление на сервере через {0} мин. После игры может потребоваться повторное подключение.
+SERVER_SHUTDOWN_CANCELED;Работа сервера стабилизирована.
+SERVER_SHUTDOWN_WARNING;Обновление на сервере через {0} мин. Очереди будут отключены через {1} мин.
+SPECTATED_PLAYER_LEFT_GAME;Игрок, за которым вы наблюдали, покинул игру.
+STEAM_FINALISE_TXN_FAILED;Не удалось завершить транзакцию.
+STEAM_ID_NOT_FOUND;Идентификатор Steam не найден.
+STEAM_INIT_TXN_FAILED;Не удалось начать транзакцию.
+STEAM_PRICE_CHANGED;Цена этого предмета изменилась. Пожалуйста, повторите попытку.
+STEAM_USER_INFO_NOT_FOUND;Не удалось получить данные пользователя Steam.
+UPDATE_CLIENT_TO_PLAY;Для игры требуется обновить клиент.
+UPGRADE_ACCOUNT_FAILED;Не удалось обновить учётную запись.
+USER_ALREADY_SET_YOU_AS_RECRUITER;Игрок {0} уже выбрал вас в качестве своего нанимателя.
+USER_ALREADY_SIGNED_IN;Пользователь уже выполнил вход, повторите попытку через минуту. Если проблема не исчезнет, свяжитесь с нами: support@faeria.com.
+USER_NAME_INVALID;Имя пользователя может содержать только буквы, цифры, дефисы и подчёркивания.
+USER_NAME_RESERVED;Имя пользователя зарезервировано
+USER_NAME_SIZE_MAX_INVALID;Максимальная длина имени пользователя - {0}.
+USER_NAME_SIZE_MIN_INVALID;Минимальная длина имени пользователя - {0}.
+USER_NOT_FOUND;Пользователь не существует: {0}
+WRONG_ACTIVATION_KEY;Похоже, был введен неверный ключ активации.
+WRONG_DECK_SIZE;Чтобы использовать колоду, необходимо добавить карт: {0}.
+WRONG_LEVEL_FOR_ARENA;Для доступа к режиму Пандора необходимо иметь {0} уровень.
+WRONG_LEVEL_FOR_RANKED;Вы должны быть {0} уровня, чтобы принять участие в рейтинговых играх.
+ACCOUNT_IS_BANNED;Этот аккаунт заблокирован на данный момент.
+NO_AVAILABLE_LORE_PAGES_LEFT;Вы уже открыли все Страницы Истории!
+WRONG_LEVEL_FOR_OVERSKY;Вы должны быть {0} уровня, чтобы отправиться в Сверхнебесье.
+WRONG_LEVEL_FOR_PUZZLE;Вы должны быть {0} уровня, чтобы открыть головоломки.
+WRONG_LEVEL_FOR_BOSS;Вы должны быть {0} уровня, чтобы сразиться с Мировыми боссами.
+WRONG_LEVEL_FOR_DRAGONS_LAIR;Вы должны быть {0} уровня, чтобы войти в Логово Дракона.
+PLATFORM_FRIENDS_ONLY_APPEAR_WHEN_ONLINE;Друзья с этой платформы видны лишь будучи в сети.
+FRIEND_ADDED_SUCCESSFULLY;Друг добавлен!
+ALREADY_FRIENDS;Игрок уже у вас в друзьях.

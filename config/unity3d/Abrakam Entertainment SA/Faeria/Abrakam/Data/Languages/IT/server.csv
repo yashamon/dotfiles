@@ -1,0 +1,85 @@
+ACCOUNT_DOES_NOT_EXIST;Questo account non esiste:
+ACTIVATION_CODE_FAILED;Sembra che ci sia un problema con il tuo codice di attivazione.
+ACTIVATION_KEY_FAILED;Sembra che ci sia un problema con la tua chiave di attivazione.
+ALREADY_IN_GAME;Sembra che tu stia già giocando. Prova a uscire e accedere nuovamente.
+BAD_CLIENT_VERSION;Sembra che la tua versione non sia aggiornata. Prova a riavviare il gioco.
+CANNOT_BE_PLAYER_HAS_NO_DECK;Il moderatore ha tentato di aggiungerti come giocatore, ma non possiede un mazzo.
+CANNOT_INVITE_FRIEND_DECLINED;Il giocatore che hai cercato di invitare ha già rifiutato l'invito. Ora dovrà essere lui a effettuare la richiesta di amicizia.
+CANNOT_INVITE_FRIEND_DOES_NOT_EXIST;Questo giocatore non esiste. Assicurati di inserire un id giocatore corretto.
+CANNOT_INVITE_FRIEND_OPPONENT;Non puoi invitare qualcuno contro cui stai giocando. Aspetta la fine della partita.
+CANNOT_INVITE_FRIEND_PROLOGUE;Non puoi invitare un amico che non ha completato il prologo.
+CANNOT_INVITE_FRIEND_REFUSED;Il giocatore che hai cercato di invitare non accetta richieste di amicizia.
+CANNOT_MODIFY_DECK_WHILE_SEARCHING;Non puoi modificare il tuo mazzo mentre cerchi una partita.
+CANNOT_PAUSE_DURING_MULLIGAN;Non puoi mettere in pausa una partita durante la fase di mulligan.
+CANNOT_SET_AS_PLAYER_HAS_NO_DECK;Non può essere aggiunto ai giocatori poiché non possiede un mazzo.
+CANNOT_SET_YOURSELF_AS_RECRUITER;Non puoi impostare te stesso come reclutatore.
+CANNOT_SIGN_UP_FREEZE_MODE_ON;La manutenzione è in corso, per favore prova a connetterti più tardi.
+CANNOT_SPECTATE_TOURNAMENT_GAME;Non puoi assistere a una partita di torneo.
+CANNOT_START_FREEZE_MODE_ON;Impossibile iniziare partite: server occupati. Ci scusiamo per il disagio!
+CANNOT_START_SERVER_REBOOTING;Impossibile iniziare partite: i server verranno riavviati a breve. Ci scusiamo per il disagio!
+CARD_COPIES_LIMITED;Ci possono essere massimo 3 copie di una carta in un mazzo.
+COMMUNITY_EVENT_INACTIVE_OR_DOES_NOT_EXIST;L'evento della community non è attivo o non esiste
+COMMUNITY_EVENT_NO_STEAM_KEYS_LEFT;Non ci sono più chiavi di Steam, riprova più tardi
+CONSTRUCTED_CLOSED;Oggi la modalità Classificata non è disponibile, prova una sfida Pandora.
+COUPON_ALREADY_USED;Questo buono è già stato utilizzato.
+COUPON_DOES_NOT_EXIST;Il buono non è valido.
+COUPON_EXPIRED;Il buono che hai inserito è scaduto.
+COUPON_ITEM_ALREADY_OWNED;Gli articoli di questo buono sono già in tuo possesso.
+COUPON_MAX_ACTIVATIONS_REACHED;Questo buono ha raggiunto il limite massimo di attivazioni e non può più essere attivato.
+COUPON_RESERVED;Questo buono è riservato per un altro account.
+DECK_SIZE_LIMITED;Un mazzo non può contenere più di {0} carte.
+DISCONNECTED_FROM_WORLD;La partita è terminata, ma sembra che tu non sia più connesso al server principale. Riconnettiti!
+FRIEND_DOES_NOT_ALLOW_SPECTATE;Il tuo amico non ammette spettatori durante le sue partite.
+FRIEND_NO_LONGER_IN_GAME;Il tuo amico non è più in una partita.
+GAME_CANCELED_NO_GAMESERVER_FOUND;Nessun server di gioco è stato trovato nella tua zona! Riprova più tardi.
+GAME_CANCELED_PLAYER_DID_NOT_REPLY_IN_TIME;La tua partita è stata annullata (uno dei giocatori non ha risposto in tempo).
+GAME_CANCELED_SERVER_DID_NOT_REPLY_IN_TIME;La tua partita è stata annullata (il server non ha risposto in tempo).
+GAME_CANCELED_SERVER_STOPPING;La tua partita è stata annullata (il server si è bloccato).
+GAME_CANCELED_VERSION;La partita è stata annullata poiché la versione del tuo client non è aggiornata.
+INVALID_HIGHLANDER_DECK_DUPLICATE;Mazzo Highlander non valido: non puoi avere piú di una copia di ogni carta.
+INVALID_STEAM_KEY;Chiave di Steam non valida
+LEGENDARY_CARD_LIMITED;Può esserci soltanto 1 copia di una carta leggendaria in ciascun mazzo.
+MAIL_ALREADY_EXISTS;L'indirizzo e-mail è già stato utilizzato.
+MARKET_ITEM_ALREADY_OWNED;Possiedi già questo oggetto.
+NEW_BOSS_MISSION_UNLOCKED;Nuovo boss di missione sbloccato!
+NO_ACTIONS_LEFT_RETRYING_PUZZLE;Mosse terminate! Riprova...
+ORB_DIED_RETRYING_PUZZLE;Ti ho sconfitto! Riprova...
+PAUSE_LIMIT_REACHED;Non puoi più mettere in pausa il gioco (hai raggiunto il limite massimo di {0} pause).
+PICK_TOURNAMENT_MATCHES_FORMAT;Seleziona un formato per il torneo
+PLAYER_LEFT_GAME;Il giocatore {0} ha abbandonato la partita!
+RECIPIENT_IS_OFFLINE;{0} è offline
+RECRUITER_SET;Reclutatore impostato con successo!
+SELECT_A_DECK;Devi selezionare un mazzo.
+SERVER_BUSY_TRY_AGAIN;Il server è occupato, per favore riprova in un minuto.
+SERVER_COULD_NOT_FIND_GAME;Il server non è riuscito a trovare la partita desiderata.
+SERVER_SHUTDOWN;Aggiornamento server tra {0} minuto/i. È possibile che ti venga chiesto di riconnetterti al termine della partita.
+SERVER_SHUTDOWN_CANCELED;Riavvio del server annullata.
+SERVER_SHUTDOWN_WARNING;Aggiornamento server tra {0} minuto/i. Le code saranno disattivate tra {1} minuto/i.
+SPECTATED_PLAYER_LEFT_GAME;Il giocatore che stavi osservando ha lasciato il gioco
+STEAM_FINALISE_TXN_FAILED;La transazione non è andata a buon fine.
+STEAM_ID_NOT_FOUND;SteamID non trovato.
+STEAM_INIT_TXN_FAILED;Impossibile avviare la transazione.
+STEAM_PRICE_CHANGED;Il prezzo di questo articolo è cambiato. Riprova.
+STEAM_USER_INFO_NOT_FOUND;Non è stato possibile trovare i dati di Steam dell'utente.
+UPDATE_CLIENT_TO_PLAY;Devi aggiornare il tuo client per giocare.
+UPGRADE_ACCOUNT_FAILED;Aggiornamento account non riuscito.
+USER_ALREADY_SET_YOU_AS_RECRUITER;{0} ti ha già nominato come reclutatore.
+USER_ALREADY_SIGNED_IN;Questo utente ha già effettuato l'accesso, riprova tra 1 minuto. Se il problema persiste, contatta support@faeria.com.
+USER_NAME_INVALID;I nomi utente possono contenere soltanto lettere, cifre, trattini e trattini bassi.
+USER_NAME_RESERVED;Nome utente riservato
+USER_NAME_SIZE_MAX_INVALID;La lunghezza massima del nome utente è {0}.
+USER_NAME_SIZE_MIN_INVALID;La lunghezza minima del nome utente è {0}.
+USER_NOT_FOUND;Questo utente non esiste: {0}
+WRONG_ACTIVATION_KEY;Sembra che la chiave di attivazione inserita non sia corretta.
+WRONG_DECK_SIZE;Il tuo mazzo deve contenere {0} carte per poter essere utilizzato.
+WRONG_LEVEL_FOR_ARENA;Devi essere al livello {0} per accedere a Pandora.
+WRONG_LEVEL_FOR_RANKED;Devi raggiungere il livello {0} per affrontare le Partite Classificate
+ACCOUNT_IS_BANNED;Questo account è temporaneamente bloccato.
+NO_AVAILABLE_LORE_PAGES_LEFT;Non sono rimaste pagine di storia disponibili!
+WRONG_LEVEL_FOR_OVERSKY;Devi raggiungere il livello {0} per affrontare Altocielo.
+WRONG_LEVEL_FOR_PUZZLE;Devi raggiungere il livello {0} per affrontare i Puzzles.
+WRONG_LEVEL_FOR_BOSS;Devi raggiungere il livello {0} per sfidare i Boss del Mondo.
+WRONG_LEVEL_FOR_DRAGONS_LAIR;Devi raggiungere il livello {0} per entrare nel Nido del Drago.
+PLATFORM_FRIENDS_ONLY_APPEAR_WHEN_ONLINE;Gli amici su quella piattaforma sono visualizzabili solo quando sono connessi.
+FRIEND_ADDED_SUCCESSFULLY;Amico aggiunto correttamente!
+ALREADY_FRIENDS;Sei già amico di quel giocatore.

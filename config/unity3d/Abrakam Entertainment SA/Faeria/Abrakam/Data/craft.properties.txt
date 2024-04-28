@@ -1,0 +1,7 @@
+chargingDuration=6h
+initialChargeCount=3
+maxChargeCount=6
+commonCraftAccountLevel=4
+rareCraftAccountLevel=10
+epicCraftAccountLevel=15
+legendaryCraftAccountLevel=-1

@@ -1,0 +1,124 @@
+LOADING_HINT_QUEST_0;Dica: Você ganha {faeria|3} de faeria por turno.
+LOADING_HINT_QUEST_1;Dica: A faeria não gasta é guardada para o próximo turno.
+LOADING_HINT_QUEST_2;Dica: Habilidades são explicadas no topo de cada carta.
+LOADING_HINT_QUEST_3;Dica: Crie terrenos perto do orbe do seu oponente.
+LOADING_HINT_QUEST_4;Dica: Mate Centelhas de Espinhos antes que elas cresçam.
+LOADING_HINT_QUEST_5;Dica: Existem 4 cores em Faeria. Cada cor possui seu próprio tipo de terreno.
+LOADING_HINT_QUEST_6;Dica: Ruunin é a guardiã ancestral e imortal da floresta.
+LOADING_HINT_QUEST_7;Dica: Cartas vermelhas usam o poder de montanhas ardentes.
+LOADING_HINT_QUEST_8;Seifer queimou seu nome nas cinzas de reinos destruídos.
+LOADING_HINT_QUEST_9;Dica: Criaturas com Pular podem se mover por até 2 hexágonos em qualquer direção, pulando sobre obstáculos.
+LOADING_HINT_QUEST_10;Dica: Crie terrenos para bloquear inimigos Aquáticos.
+LOADING_HINT_QUEST_11;Dica: Khalim é agressivo. Defenda seu orbe cuidadosamente.
+LOADING_HINT_QUEST_13;Quando ela era apenas uma criança, o medo que Sharra sentia queimou junto com seu vilarejo.
+LOADING_HINT_QUEST_20;Magda é a Rainha de Meroval. Heróis e vilões são meras ferramentas nos seus grandes esquemas.
+LOADING_HINT_QUEST_25;A milhas de distância, as festas de dança de Krog são frequentemente confundidas com distantes trovões.
+LOADING_HINT_QUEST_26;Tarum foi a primeira semente a ser plantada. Ele viu o surgimento das montanhas, o nascimento dos dragões e a ruína dos antigos deuses.
+LOADING_HINT_QUEST_29;Dica: O poder de Tarum cresce com o tempo. Derrote-o rapidamente.
+LOADING_HINT_QUEST_30;Hoaka constantemente inventa novos tabuleiros para jogar.
+LOADING_HINT_QUEST_48;Os passatempos da Aurora incluem aconselhar futuros heróis, guiar o curso da história e degustar novos chás.
+LOADING_HINT_QUEST_49;Um prodígio da ordem de Djidan, Khalim desafiou seus mestres e se engajou em uma guerra mundana.
+LOADING_HINT_QUEST_54;Alguns peixes só querem ver o mundo queimar.
+LOADING_HINT_QUEST_64;O misterioso Jalmyr vigia o cosmos e tutoria os deuses.
+LOADING_HINT_QUEST_117;Dica: Tesouros são poderosas cartas normalmente encontradas na Pandora.
+LOADING_HINT_QUEST_118;Fugoro viaja pelo mundo coletando as maiores relíquias da história.
+LOADING_HINT_RANDOM_DEATHTOUCH_ONLY_IF_DAMAGE;Dica: Toque Fatal mata uma criatura somente se o dano foi dado. Proteção evita dano.
+LOADING_HINT_RANDOM_TIKIS_CAN_TARGET_THEMSELVES;Dica: Cuidadora Tiki e Flautista Tiki podem alvejar a si mesmo.
+LOADING_HINT_RANDOM_FROGS_PLACED_ON_LAKES;Dica: Sapos da carta Sapos de Batalha só podem ser invocados em lagos.
+LOADING_HINT_RANDOM_HEAL_ORB_MAX_20;Dica: Você não pode se curar além de 20 de vida.
+LOADING_HINT_RANDOM_COMPLETE_SOLO_CONTENT;Dica: Completar o Modo Solo é o melhor jeito de começar.
+LOADING_HINT_RANDOM_RED_COLOR_EXPLAINED;Dica: Vermelho é a cor do fogo e da guerra.
+LOADING_HINT_RANDOM_BLUE_COLOR_EXPLAINED;Dica: Azul é a cor da transformação e dos truques.
+LOADING_HINT_RANDOM_GREEN_COLOR_EXPLAINED;Dica: Verde é a cor do crescimento e dos predadores selvagens.
+LOADING_HINT_RANDOM_YELLOW_COLOR_EXPLAINED;Dica: Amarelo é a cor do vento e da agilidade.
+LOADING_HINT_RANDOM_CHARGE_CANT_PASS_THROUGH;Dica: Criaturas com Avançar não podem atravessar outras criaturas.
+LOADING_HINT_RANDOM_BLOCK_AQUATIC_WITH_LANDS;Dica: Crie terrenos para bloquear inimigos Aquáticos.
+LOADING_HINT_RANDOM_DAILY_QUEST_1;Dica: O método mais efetivo de ganhar baús de batalha é jogar todos dias, sempre completando sua missão diária.
+LOADING_HINT_RANDOM_THE_HUB;Você Sabia? faeria.com/the-hub é o nosso site oficial onde jogadores publicam seus próprios guias.
+LOADING_HINT_RANDOM_CARDBACK_FROM_SOLO;Dica: Complete todo o Modo Solo para desbloquear o verso de carta do Dragão.
+LOADING_HINT_RANDOM_PANDORA_ECONMY;Dica: Quando a Pandora  desperta, todos os poços de faeria são destruidos mas os jogadores recebem o dobro de faeria por turno.
+LOADING_HINT_RANDOM_TAUNT_BEST_DEFENSE;Dica: Criaturas com Provocar são geralmente a melhor forma de se proteger.
+LOADING_HINT_RANDOM_BUILD_LANDS_EARLY_GAME;Dica: Crie terrenos cedo na partida. Deixe os botões +1 carta e +1 faeria para depois.
+LOADING_HINT_RANDOM_GIANT_LATEGAME_CREATURES_EXIST;Dica: Muitos baralhos constroem poderosas ameaças para o fim de jogo. Guarde remoções para elas.
+LOADING_HINT_RANDOM_COUNTERING_RUSH_1;Dica: Quando jogar contrar ataques agressivos, mova suas criaturas para os terrenos agressivos deles.
+LOADING_HINT_RANDOM_STRUCTURES_LEGAL_PLACEMENT;Dica: Estrututas podem ser colocadas em terrenos de qualquer cor.
+LOADING_HINT_RANDOM_STRUCTURES_DIRECTLY_ACTIVATES;Dica: Estruturas podem ser ativadas no turno em que são invocadas.
+LOADING_HINT_RANDOM_GET_LANDS_NEAR_OPPONENT;Dica: Tente criar terrenos adjacentes ao deus inimigo.
+LOADING_HINT_RANDOM_OVERDRAWING_DESTROYS_CARDS;Dica: Você só pode segurar 9 cartas por vez. Cartas excedentes são destruídas quando compradas.
+LOADING_HINT_RANDOM_COUNTERING_RUSH_2;Dica: Derrote jogadores de ataque agressivo bloqueando seus terrenos agressivos. Contra-ataque antes que eles possam quebrar sua defesa.
+LOADING_HINT_RANDOM_YAK_LORE_1;<i>Se você ofende um Iaque, você ofende o mundo</i>\n<align=right>Dito Syland</align>
+LOADING_HINT_RANDOM_FRIENDS_BLOCK_RANGED;Dica: Criaturas com Projéteis não podem atirar através de unidades aliadas.
+LOADING_HINT_RANDOM_LANDS_ARE_BETTER_THAN_CARDS;Dica: Criar terrenos é geralmente mais importante do que comprar cartas.
+LOADING_HINT_RANDOM_ENDGAME_THREATS_EXIST;Dica: Muitas ameaças te punirão por segurar o jogo. Uma vez que tiver a vantagem, ataque!
+LOADING_HINT_RANDOM_FATIGUE_HURTS;Dica: Uma vez que acabam as cartas do seu baralho, você recebe mais dano a cada vez que compra carta.
+LOADING_HINT_RANDOM_JALMYR_LORE_2;Os enigmas progressivos de Jalmyr constantemente confundem até os mais capacitados jogadores.
+LOADING_HINT_RANDOM_STEAM_FORGE_LORE;Alimentadas com faeria, Forjas a Vapor Imperiais são imprevisíveis mas efetivas.
+LOADING_HINT_RANDOM_JALMYR_LORE_3;Jalmyr não conseguiu forças para destruir totalmente seu irmão, o senhor das trevas.
+LOADING_HINT_RANDOM_YELLOW_USES_HASTE;Dica: Baralhos amarelos geralmente usam criaturas com Rapidez. Monte defesas o quanto antes.
+LOADING_HINT_RANDOM_RED_DIRECT_DAMAGE;Dica: Baralhos vermelhos geralmente usam dano direto. Tome cuidado quando você estiver de vida baixa.
+LOADING_HINT_RANDOM_FIRESTORM_EXISTS;Dica: Tempestade de Fogo é uma carta vermelha que causa 3 de dano a todas as criaturas inimigas.
+LOADING_HINT_RANDOM_UNIQUE_EMOTES_EXIST;Dica: Muitos avatares tem expressões únicas.
+LOADING_HINT_RANDOM_BYPASSING_TAUNT;Dica: Uma criatura provocada não pode se mover, mas ela pode ser movida por outros efeitos. Até Arrancada.
+LOADING_HINT_RANDOM_DON'T_OVERBUFF_CREATURES;Dica: Seja cauteloso antes de melhorar sua criatura para além de 6/6. Remoções podem te punir.
+LOADING_HINT_RANDOM_JOIN_FAERIA'S_DISCORD;Dica: Tem uma dúvida ou comentário? Junte-se ao servidor oficial do Faeria no Discord. Há um link na sua lista de amigos.
+LOADING_HINT_RANDOM_ESPORTS_FAERIA_EXISTS;Dica: Vá em esports.faeria.com para mais informações sobre torneios de Faeria e prêmios.
+LOADING_HINT_RANDOM_TOP_8_GODS_ON_LADDER_INVITED;Dica: A cada temporada, os 10 melhores jogadores no Ranking God são convidados à um torneio especial.
+LOADING_HINT_RANDOM_HARD_REMOVAL_COSTS_6;Dica: A melhor carta de remoção custa 6 de faeria para ser jogada.
+LOADING_HINT_RANDOM_KILL_BURN_FAST;Dica: Quando jogar contra baralhos de queimadura, termine a partida o mais rápido possível.
+LOADING_HINT_RANDOM_REVIEW_FAERIA_PLEASE;Se você gosta do Faeria, não esqueça de deixar uma análise. Isso ajuda a crescer a comunidade.
+LOADING_HINT_RANDOM_RAPALA_LORE_2;A visão mais assustadora nas vilas litorâneas não é um tsunami, mas um peixe sorridente.
+LOADING_HINT_RANDOM_TIPS_EXIST;Dica: Dicas aparecem as vezes durante as telas de carregamento.
+LOADING_HINT_RANDOM_PROTECT_YOUR_ORB;Dica: Não deixe seu oponente criar terrenos próximos ao seu deus.
+LOADING_HINT_RANDOM_EMPEROR_LORE;O Imperador aguarda ansiosamente o dia em que os cidadãos não serão mais necessários.
+LOADING_HINT_RANDOM_WISDOM_IS_BAD;Dica: Jogadores sábios raramente usam a carta Sabedoria.
+LOADING_HINT_RANDOM_IONA_LORE_1;Antes de Iona, Shaytan não conhecia a palavra 'piedade'.
+LOADING_HINT_RANDOM_OUTLAND_RANGER_LORE_1;Os Patrulheiros Estrangeiros são uma ordem ancestral de nobres que trocam castelos de pedra por céu aberto.
+LOADING_HINT_RANDOM_SYLAND_FARMERS_LORE;Sem falha, cada geração de fazendeiros de Syland dá a luz a um grande herói.
+LOADING_HINT_RANDOM_IONA_LORE_2;É o sonho de todo bardo compor um tributo digno à Iona.
+LOADING_HINT_RANDOM_YAK_LEVEL;Dica: Não há nível Iaque.
+LOADING_HINT_RANDOM_KROG_LORE_1;Krog sempre sai por aí *contando* a todos que ele é o rei dos ogros.
+LOADING_HINT_RANDOM_RAPALA_LORE_1;Alguns peixes só querem ver o mundo queimar.
+LOADING_HINT_RANDOM_THYRIAN_LORE_1;É dito que os Golens Thyrianos vem de um paraíso mítico acima das nuvens.
+LOADING_HINT_RANDOM_YAKNUS_LORE_1;Rei Yaknus, primeiro de seu nome, é conhecido como o Libertador dos Iaques e a Besta de Todo Fardo.
+LOADING_HINT_RANDOM_MAGNUS_LORE_1;Quando menino, Magnus foi levado a um sonho por Aurora, o que o levou à coroa.
+LOADING_HINT_RANDOM_RUUNIN_LORE_1;Apesar dos protestos de Ruunin, seus seguidores insistem em enterrá-la com honras a cada vez que ela morre.
+LOADING_HINT_RANDOM_JALMYR_LORE_1;Rumores dizem que Jalmyr concederá um desejo a qualquer um que lhe ensinar algo novo.
+LOADING_HINT_RANDOM_GARUDAN_LORE_1;Garudan é meio babaca.
+LOADING_HINT_RANDOM_HEXAGON_JOKE;Dica: Um hexágono é uma forma maravilhosa. Ele tem 6 lados fantásticos.
+LOADING_HINT_RANDOM_SAGAMI_LORE_1;Nas mãos dos Sagami, os mais terríveis espíritos se tornam guardiões sagrados.
+LOADING_HINT_RANDOM_SAGAMI_LORE_2;Os Sagami associam espíritos mortíferos com guardiões sagrados.
+LOADING_HINT_RANDOM_SEIFER_LORE_1;Seifer tem um furão de estimação chamado Faísca-da-Morte.
+LOADING_HINT_RANDOM_SEIFER_LORE_2;Uma vez Seifer desafiou o sol em uma disputa de encarar. A história não tem relatos do vencedor.
+LOADING_HINT_RANDOM_DROWNING;Dica: Criaturas em oceanos vazios sem Voar ou Aquático morrem no fim do turno de seu controlador.
+LOADING_HINT_RANDOM_PANDORA_GODS;Pandora é o mundo onde sonhos acontecem. Felizmente, a entrada de deuses é permitida.
+LOADING_HINT_RANDOM_AURORA_DREAMS;Graças à sua habilidade de entrar nos sonhos das pessoas, Aurora pode mudar o destino de alguém.
+LOADING_HINT_RANDOM_MULTI_TAUNT;Dica: Se várias criaturas estão provocando a mesma criatura, essa pode atacar qualquer um dos provocadores.
+LOADING_HINT_RANDOM_HOLD_EXPLORE;Dica: Você pode guardar sua carta <i>Explorar</i> para melhorar uma criatura baseada em eventos mais tarde.
+LOADING_HINT_RANDOM_FALCON_DIVE;Dica: Mergulho do Falcão é uma excelente ferramenta versátil que pode ser incluída em quase qualquer baralho.
+LOADING_HINT_RANDOM_SYLAND_HORSEMASTER;Dica: Mestre dos Cavalos de Syland permite que baralhos Verdes e Vermelhos façam ataques surpresas.
+LOADING_HINT_RANDOM_GOD_HUNTER;Dica: Caçador de Deuses não pode atacar nem se mover se estiver perto de uma criatura com provocar.
+LOADING_HINT_RANDOM_UNLIKELY_HERO;Dica: A habilidade do Herói Improvável pode ser ativada atacando o orbe do oponente.
+LOADING_HINT_RANDOM_MOVING_WITH_JUMP_AND_CHARGE;Dica: Mover uma criatura com uma carta leva em conta suas habilidades de Pular e Avançar.
+LOADING_HINT_RANDOM_RADIANCE;Dica: Esplendor não é afetada por cartas de redução de custo.
+LOADING_HINT_RANDOM_ELEMENTALS;Dica: Elementais são um ótimo jeito de acelerar a sua produção de terrenos especiais.
+LOADING_HINT_RANDOM_PANDORA_POINTS;Dica: Acumule Pontos Pandora em cada temporada para ganhar prêmios especiais.
+LOADING_HINT_RANDOM_PANDORA_CARD_BACK;Dica: Termine cada temporada no Ranking 15 ou superior para ganhar um verso de carta especial.
+LOADING_HINT_RANDOM_GOD_CARD_BACK;Dica: Alcance o Ranking God para receber um verso de carta dourado único cada temporada.
+LOADING_HINT_RANDOM_SEASON_RESET;Dica: Temporadas Ranqueada e Pandora resetam na primeira segunda-feira de cada mês.
+LOADING_HINT_RANDOM_HARVEST_ORDER;Dica: Criaturas colhem faeria da esquerda para a direita, de cima para baixo, na perspectiva do jogador atual.
+LOADING_HINT_RANDOM_TRANSFORM_WITH_HASTE;Dica: Transformar uma criatura com Rapidez remove sua propriedade de Rapidez fazendo com que não possa atacar imediatamente.
+LOADING_HINT_RANDOM_LAND_LOCK_COUNTER;Dica: Se o seu oponente bloquear seus terrenos, mova uma criatura para um de seus terrenos e crie seu próprio terreno em um hexágono de oceano vazio.
+LOADING_HINT_RANDOM_CANNOT_CANCEL_GIFT;Dica: Você não pode cancelar a jogada de uma criatura com efeito Presentear se você já a colocou no tabuleiro.
+LOADING_HINT_RANDOM_OROSEI_LORE;Orosei continua vigiando o reino de Pandora e seus tesouros.
+LOADING_HINT_RANDOM_FUGORO_LORE;Fugoro saqueia tesouros do reino de Pandora.
+LOADING_HINT_RANDOM_GOKI_01;Fugoro tem um sobrinho chamado Goki. Você pode encontrá-lo na loja.
+LOADING_HINT_RANDOM_WORLD_BOSSES;Derrote todos os Chefões Mundiais para desbloquear o Orbe dos Campeões e suas 3 jóias.
+LOADING_HINT_RANDOM_WILD_LANDS;Todos os terrenos coloridos contam como terrenos selvagens para pagar os custos de terreno.
+LOADING_HINT_RANDOM_CORRUPT_1;Dica: Criaturas corrompidas adoram truques de movimentos!
+LOADING_HINT_RANDOM_CORRUPT_2;Dica: Não deixe criaturas inimigas corromperem seus terrenos!
+LOADING_HINT_RANDOM_CRUCIBLE;Você pode praticar os formatos de campeonato em salas privadas com seus amigos.
+LOADING_HINT_RANDOM_FALL_OF_EVERLIFE;A Corrupção se espalha pelo Céu-acima desde que Kaios comeu a fruta da Árvore da Vida Eterna.
+LOADING_HINT_RANDOM_TRIBAL;Algumas cartas ganham benefícios tribais. Iaques adoram formar uma manada <3.
+LOADING_HINT_RANDOM_LORE_BOOK;Colecione páginas de históra completando as Missões de História diárias ou abrindo baús míticos.
+LOADING_HINT_RANDOM_DECK_COSMETICS;Tem os cosméticos perfeitos para o seu novo baralho? Escolha um conjunto de cosméticos apenas para ele no editor de baralhos.
+LOADING_HINT_RANDOM_DRAGONS_LAIR;Desafie novos dragões todos os dias no Covil dos Dragões.

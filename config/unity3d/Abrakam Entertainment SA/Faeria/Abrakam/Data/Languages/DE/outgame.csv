@@ -1,0 +1,169 @@
+CARD_ALREADY_OWNED_TOOLTIP_TEXT;Du besitzt diese Karte {0} mal.
+CARD_FILTER_CREATURE;Kreatur
+CARD_FILTER_EVENT;Ereignis
+CARD_FILTER_FALL_OF_EVERLIFE;Ende des Ewigen Lebens
+CARD_FILTER_OVERSKY;Wolkenwelt
+CARD_FILTER_STRUCTURE;Bauwerk
+PANDORA_MYTHIC_RUN_NOT_ENOUGH_COINS_ERROR_TEXT;Du hast nicht genügend Splitter um diesen Lauftyp zu starten.
+PANDORA_MYTHIC_RUN_TOOLTIP_TEXT;Starte einen Mystischen Pandora-lauf. Gewinne bis zu 6 Spiele für Scherben.
+PANDORA_POINT_TOOLTIP_TEXT;Gewinne Punkte um Belohnungen am Ende jeder Saison zu erhalten.
+PANDORA_POP_UP_MULTI_PLAYER_TITLE_TEXT;Mehrspieler
+PANDORA_POP_UP_MYTHIC_MULTI_PLAYER_INFO_TEXT;Spiele gegen andere Spieler um deutlich höhere Belohnungen zu erhalten.
+PANDORA_POP_UP_MYTHIC_RUN_MULTI_PLAYER_TITLE_TEXT;Mythischer Mehrspieler
+PANDORA_POP_UP_MYTHIC_RUN_SINGLE_PLAYER_TITLE_TEXT;Mythischer Einzelspieler
+PANDORA_POP_UP_MYTHIC_SINGLE_PLAYER_INFO_TEXT;Bekämpfe immer stärker werdende KI für Scherben.
+PANDORA_POP_UP_SINGLE_PLAYER_TITLE_TEXT;Einzelspieler
+PANDORA_POP_UP_STANDARD_MULTI_PLAYER_INFO_TEXT;Spiele gegen andere Spieler um deutlich höhere Belohnungen zu erhalten.
+PANDORA_POP_UP_STANDARD_RUN_MULTI_PLAYER_TITLE_TEXT;Mehrspieler
+PANDORA_POP_UP_STANDARD_RUN_SINGLE_PLAYER_TITLE_TEXT;Einzelspieler
+PANDORA_POP_UP_STANDARD_SINGLE_PLAYER_INFO_TEXT;Kämpfe gegen zunehmend starke künstliche Intelligenz für Beutetruhen und Karten.
+PANDORA_STANDARD_RUN_HAS_FULL_COLLECTION_ERROR_TEXT;Du kannst keine Standardläufe mehr starten, da du besitzt bereits alle Karten besitzt.
+PANDORA_STANDARD_RUN_NOT_ENOUGH_CHEST_ERROR_TEXT;Du besitzt nicht genügend Beutetruhen um diesen Lauftyp zu wählen.
+PANDORA_STANDARD_RUN_TOOLTIP_TEXT;Starte einen Pandoralauf. Gewinne bis zu 6 Spiele für Beutetruhen und Karten.
+PURCHASE_PANEL_BUY_MISSING_SOFT_CURRENCY_TEXT;Fehlende {0} {1} kaufen?
+PURCHASE_PANEL_GO_TO_SHOP_BUTTON_TEXT;Zum Laden gehen
+PURCHASE_PANEL_OUT_OF_CURRENCY_TEXT;Du hast keine {0} mehr. Besuche den Laden um mehr zu erhalten.
+REWARD;Belohnung
+REWARD_ACT;Missionspaket freigeschaltet
+REWARD_ARENA_POINTS;{0}
+REWARD_AVATAR;Du hast einen Avatar erhalten.
+REWARD_BLUEPRINT;Neues Rezept freigeschaltet!
+REWARD_BOOSTER;{0}
+REWARD_CARD;Du hast {0} Karte(n) erhalten.
+REWARD_CARD_BACK;Neuer Kartenrücken
+REWARD_EMOTE;Neues Emote
+REWARD_FEATURE_ARENA_ID;Du hast den Pandora-Modus freigeschaltet!
+REWARD_FEATURE_CRAFTING_ID;Du hast die Herstellung freigeschaltet!
+REWARD_FEATURE_EPIC_CRAFTING_ID;Du hast epische Herstellung freigeschaltet!
+REWARD_FEATURE_HIGHLANDER_ID;Du hast den Highlandermodus freigeschaltet!
+REWARD_FEATURE_MAIN_MENU_ID;Du kannst jetzt Decks bauen!
+REWARD_FEATURE_RANKED_ID;Du hast den Ranglistenmodus freigeschalten!
+REWARD_FEATURE_RARE_CRAFTING_ID;Du hast seltene Herstellung freigeschaltet!
+REWARD_ORIGIN_ACCOUNTACTIVATED;Belohnung zur Accountaktivierung
+REWARD_ORIGIN_ANNUITY;Goki hat Scherben gefunden
+REWARD_ORIGIN_ARENA;Dein Preis
+REWARD_ORIGIN_CRAFT;Herstellung abgeschlossen!
+REWARD_ORIGIN_DAILYASSIGNMENT;Täglicher Auftrag
+REWARD_ORIGIN_DAILYQUEST;Tägliche Quest abgeschlossen.
+REWARD_ORIGIN_DEFEAT;Deine Belohnung
+REWARD_ORIGIN_DLCPREMIUM;Premiumaccount
+REWARD_ORIGIN_DLCFALLOFEVERLIFE;Der Untergang von Ewigleben
+REWARD_ORIGIN_EARLYACCESSBUNDLE;Early-Access-Paket
+REWARD_ORIGIN_FIRSTDAYVICTORY;Erster Sieg des Tages
+REWARD_ORIGIN_HATCH;Das Ei schlüpft
+REWARD_ORIGIN_LADDERRESET;Belohnung zum Ranglistenneustart
+REWARD_ORIGIN_LEVEL;Belohnung für Stufe {0}
+REWARD_ORIGIN_LOYALTYPATCH;Loyalitäts-Update Belohnung
+REWARD_ORIGIN_MARKET;Kauf abgeschlossen!
+REWARD_ORIGIN_POUCH;Abenteuerbeutel-Belohnung
+REWARD_ORIGIN_QUEST;Missionsbelohnung
+REWARD_ORIGIN_RECRUITMENT;Anwerbung
+REWARD_ORIGIN_SOLOOBJECTIVE;Aufgabe abgeschlossen!
+REWARD_ORIGIN_STEAMPACK;Steam-Paket
+REWARD_ORIGIN_VICTORY;Deine Belohnung
+REWARD_POUCH_POINTS;{0}
+REWARD_WELL;Neuer Faeria-Brunnen
+TOURNAMENT_ALREADY_SIGNED_UP;Du bist angemeldet.
+TOURNAMENT_DECK_ALREADY_PICKED;Dieses deck wurde schon für dieses Turnier ausgewählt
+TOURNAMENT_DECK_CHANGE_LOST_A_GAME;Du kannst nicht das selbe Deck wählen mit dem du ein Spiel verloren hast.
+TOURNAMENT_DECK_FIXED_UNTIL_LOSS;Du kannst dein Deck nicht ändern, bis du ein Spiel verlierst.
+TOURNAMENT_DECK_LOCKED;Dieses deck ist für ein Turnier registriert. Du kannst es nicht verändern bis die Turnieranmeldung abgeschlossen ist.
+TOURNAMENT_DECK_LOST_A_GAME;Du kannst nicht das selbe Deck wählen mit dem du ein Spiel verloren hast.
+TOURNAMENT_DECK_MUST_BE_LEAD;Du musst dein anfangs Deck dür das erste Spiel auswählen.
+TOURNAMENT_DISCARD_DECKS;Neu starten
+TOURNAMENT_LOBBY;Turnier Lobby
+TOURNAMENT_PICKED_DECK;#{0} Registriert
+TOURNAMENT_SIGNUP;Anmeldung
+TOURNAMENT_SIGNUP_DECK_1;Registriere dein 1stes Deck
+TOURNAMENT_SIGNUP_DECK_2;Registriere dein 2tes Deck
+TOURNAMENT_SIGNUP_DECK_3;Registriere dein 3tes Deck
+TOURNAMENT_SIGNUP_SUCCESSFUL;Turnieranmeldung erfolgreich!
+REWARD_DECK_SLOT;Du hast weitere Plätze für Decks erhalten!
+REWARD_LORE_PAGE;Du hast eine neue Geschichtsseite erhalten!
+REWARD_FEATURE_LORE_BOOK_ID;Du hast das Geschichtsbuch freigeschaltet!
+TOURNAMENT_CRUCIBLE_RULES;Du musst 4 Decks registrieren um an dem heutigen Turnier teil zu nehmen. Jedes Deck kann nicht mehr als 12 der selben Karten mit einem anderen Deck teilen. \n\nWähle jedes Deck und <b>registriere</b> sie Eines nach dem Anderen. Sobald alle 4 Decks registriert sind, bist du bereit den Turnierlobbys beizutreten.\n\n<b>SEI VORSICHTIG!</b> Sobald du das letzte Deck registriert hast, kannst du diese nicht neu wählen.
+LOBBY_CRUCIBLE_RULES;Du musst 4 decks registrieren um teil zu nehmen. Jedes Deck kann nicht mehr als 12 der selben Karten mit einem anderen Deck teilen. \n\nWähle jedes Deck und <b>registriere</b> sie Eines nach dem Anderen. Sobald alle 4 Decks registriert sind, bist du bereit zu starten.
+TOURNAMENT_DECK_BANNED;Du kannst kein Deck wählen das von deinem Gegner verbannt wurde.
+TOURNAMENT_DECK_CONFLICT_MESSAGE_TEXT;{0} deiner Decks teilen mehr als {1} der selben Karten. Widersprüchige Decks:"{2}"
+TOURNAMENT_DECK_PICK_CONFIRM_BUTTON_TEXT;Bestätigen
+TOURNAMENT_COUNTDOWN_TEXT;Nächste Phase in {0} Sekunden...
+TOURNAMENT_COUNTDOWN_GAME_START_TEXT;Spiel startet in {0} Sekunden...
+TOURNAMENT_BAN_DECK_TEXT;Wähle ein Deck aus, welches du bannen möchtest
+TOURNAMENT_BAN_DECK_SPECTATOR_TEXT;Spieler bannen gerade
+TOURNAMENT_BAN_PHASE_NAME_TEXT;Bannphase
+TOURNAMENT_PICK_DECK_LOCKED_TEXT;Als Sieger kannst du dein Deck nicht wechseln. Bestätige sobald du bereit bist.
+TOURNAMENT_PICK_DECK_TEXT;Wähle ein Deck zum Spielen aus.
+TOURNAMENT_PICK_DECK_SPECTATOR_TEXT;Spieler wählen Decks aus
+TOURNAMENT_PICK_PHASE_NAME_TEXT;Auswahlphase
+TOURNAMENT_SIGNUP_DECK_4;Registriere dein 4tes Deck
+TOURNAMENT_PHASE_TIME_LEFT;Zeit übrig : {0}
+INVALID_DECK_CARDS_QUANTITY;Dein Deck muss genau {0} Karten enthalten
+CARD_FILTER_INCOMPLETE;Unvollständig
+MOUSE_REWARD_LORE_PAGE_CLICK_TO_READ;Zum Lesen klicken
+CARD_FILTER_RESURGENCE;Resurgence
+REWARD_ORIGIN_YOUBACK;Du bist dank {0} zurückgekehrt!
+REWARD_ORIGIN_FRIENDBACK;{0} ist zurückgekehrt!
+REWARD_ORIGIN_DLCRESURGENCE;Resurgence
+REWARD_FEATURE_PUZZLE_PACKS_ID;Du hast den Puzzlebereich freigeschaltet!
+PUZZLES_MENU_TITLE_ELEMENTS;Elemente
+PUZZLES_MENU_TITLE_CORE;Hauptpuzzles
+PUZZLES_DLC_PURCHASE_REWARDS;Hier kannst du Belohnungen verdienen
+PUZZLES_DLC_PURCHASE_BUTTON;Gehe zum Steam Store
+PUZZLE_NEED_LANE_UNLOCK;Bevor du dieses Puzzle spielst, solltest du es im Abenteuer Modus lösen
+REWARD_FEATURE_DLC_385;Elemente Puzzles freigeschaltet!
+REWARD_FEATURE_DLC_383;Widerstand freigeschaltet!
+REWARD_FEATURE_DLC_316;Fall des Ewigen Lebens freigeschaltet!
+REWARD_FEATURE_DLC_315;Dein Konto ist nun Premium!
+REWARD_FEATURE_DLC_187;Steam Paket freigeschaltet!
+REWARD_FEATURE_DLC_16;G2A Bündel freigeschaltet!
+REWARD_FEATURE_DLC_15;Early Access Bündel freigeschaltet!
+PUZZLES_ACT_COMPLETION_TOOLTIP;Löse so viele Puzzles, um diese Belohnungen zu erhalten!
+MARKET_TAB_WELLS;Brunnen
+MARKET_TAB_SETS;Sets
+MARKET_TAB_ORBS;Sphären
+MARKET_TAB_FEATURED;Vorgestellt
+MARKET_TAB_CARD_BACKS;Kartenrücken
+MARKET_TAB_AVATARS;Avatare
+COSMETIC_SET_SELECT;Wähle ein eigenes Set für dieses Deck
+REWARD_ORIGIN_DLCGAGANA;Chroniken von Gagana
+REWARD_FEATURE_DLC_386;Chroniken von Gagana freigeschaltet!
+CARD_FILTER_GAGANA;Gagana
+REWARD_FEATURE_DLC_390;Alle Brunnen freigeschaltet!
+REWARD_FEATURE_DLC_389;Alle Orbs freigeschaltet!
+REWARD_FEATURE_DLC_388;Alle Kartenrücken freigeschaltet!
+REWARD_FEATURE_DLC_387;Alle Avatare freigeschaltet!
+GAMEPAD_REWARD_LORE_PAGE_CLICK_TO_READ;{GAMEPAD_RIGHT_BUTTONS_LEFT} drücken, um zu lesen
+MOUSE_ENGAGEMENT_PRESS_CONFIRM_TEXT;Zum Spielen klicken
+GAMEPAD_ENGAGEMENT_PRESS_CONFIRM_TEXT;Zum Spielen eine beliebige Taste drücken
+NON_XBOX_LIVE_PLAYERS_MIGHT_BE_PRESENT;In diesem Spielmodus können Spieler anwesend sein, die nicht auf Xbox Live spielen
+GAMEPAD_QUEST_BUTTON_TOOLTIP_TEXT;{GAMEPAD_ACTION_CONFIRM} drücken, um die Schlacht zu beginnen
+PLATFORM_EPIC_GAMES_STORE_ACCOUNT_BINDING_MESSAGE;Wenn du Faeria zum ersten Mal mit deinem Shop-Konto von <nobr>Epic Games Store</nobr> spielst, wird ein Faeria-Konto erstellt und mit deinem Shop-Konto von <nobr>Epic Games Store</nobr> verknüpft.
+PLATFORM_STEAM_ACCOUNT_BINDING_MESSAGE;Wenn du Faeria zum ersten Mal mit deinem Steam-Konto spielst, wird ein Faeria-Konto erstellt und mit deinem Steam-Konto verknüpft.
+PLATFORM_SWITCH_ACCOUNT_BINDING_MESSAGE;Wenn du Faeria zum ersten Mal mit deinem Nintendo-Konto spielst, wird ein Faeria-Konto erstellt und mit deinem Nintendo-Konto verknüpft.
+LORE_PAGE_LABEL;Überlieferungsseite
+ENTER_A_DECK_NAME;Einen Decknamen eingeben
+ENTER_COUPON_CODE;Einen Gutschein-Code eingeben
+ENTER_CARD_NAME;Einen Kartennamen eingeben
+ENTER_FRIEND_ID;Die Support-ID eines Freundes eingeben
+DLC_FEATURES_WELLS_PACK;Dieses Paket enthält die über 20 Brunnen, die es momentan im Spiel gibt und die künftigen Brunnen, sobald sie freigegeben werden.
+DLC_FEATURES_ORBS_PACK;Dieses Paket enthält die über 30 Orbs, die es momentan im Spiel gibt und die künftigen Orbs, sobald sie freigegeben werden.
+DLC_FEATURES_CARDBACKS_PACK;Dieses Paket enthält die über 20 Kartenrücken, die es momentan im Spiel gibt und die künftigen Kartenrücken, sobald sie freigegeben werden.
+DLC_FEATURES_AVATARS_PACK;Dieses Paket enthält die über 50 Avatare, die es momentan im Spiel gibt und die künftigen Avatare, sobald sie freigegeben werden.
+DLC_FEATURES_PREMIUM_EDITION;- Doppelte EP - von allem!\n- Verdiene Kampfkisten und Scherben doppelt so schnell wie normal.\n- 10 ZUSÄTZLICHE Deck-Slots\n- Premium Kartenrücken\n- Goldenes Faeria-Logo\n- 5 Mythische Kisten voller Kosmetik\n- Bonus-Scherben
+DLC_FEATURES_PUZZLE_ELEMENTS;- 40 neue Rätsel von einfach bis extrem schwierig.\n- Das Äquivalent von 10 mythischen Kisten in Belohnungen\n- Die Fähigkeit freischalten, den Kartenrücken „Elemente“ freizuschalten.
+DLC_FEATURES_FALL_OF_EVERLIFE;- 40 neue Karten freigeschaltet\n- Einführung des neuen Korrumpieren-Stichworts\n- Einführung der Untertypen: Yaks, Rakoans und Bestien!\n- Einzigartiges Kosmetikset
+DLC_FEATURES_RESURGENCE;- 40 neue Karten freigeschaltet\n- Einführung des neuen Untertyp Triton\n- Einzigartiges Kosmetikset
+DLC_FEATURES_CHRONICLES_OF_GAGANA;- 40 neue Karten freigeschaltet\n- Einführung des neuen Entdecken-Stichworts\n- Neuer Mecha-Untertyp\n- Einzigartiges Kosmetikset
+DLC_DESCRIPTION_WELLS_PACK;Dieser DLC schaltet unverzüglich alle Brunnen-Kosmetikgegenstände frei, die sich auch durch Spielfortschritte freischalten lassen.
+DLC_DESCRIPTION_ORBS_PACK;Dieser DLC schaltet unverzüglich alle Orb-Kosmetikgegenstände frei, die sich auch durch Spielfortschritte freischalten lassen.
+DLC_DESCRIPTION_CARDBACKS_PACK;Dieser DLC schaltet unverzüglich alle Kosmetikgegenstände für Kartenrücken frei, die sich auch durch Spielfortschritte freischalten lassen.
+DLC_DESCRIPTION_AVATARS_PACK;Dieser DLC schaltet unverzüglich alle Avatar-Kosmetikgegenstände frei, die sich auch durch Spielfortschritte freischalten lassen.
+DLC_DESCRIPTION_PREMIUM_EDITION;Schalte des Premium Faeria-Erlebnis frei!\n\nDieses Bündel enthält eine Mischung aus beschleunigtem Fortschritt und exklusiven Gegenständen. Maximiere deine Zeit in Faeria mit DOPPEL-EP, mehr Deck-Slots, Sonderkosmetik und mehr.\n\nMöchtest du das meiste aus Faeria holen? Dann ist dieser Inhalt genau das Richtige für dich.
+DLC_DESCRIPTION_PUZZLE_ELEMENTS;Dein üblicher Rätselmeister, Jalmyr, ist zur Seite getreten und hat die Elemente übernehmen lassen.\n\nDieses Rätselpaket für Faeria enthält 40 zusätzliche Denkspiele für dich.\n\nKannst du die Elemente überwinden?\n\nWarnung: Viele dieser Rätsel sind schwer zu knacken!
+DLC_DESCRIPTION_FALL_OF_EVERLIFE;Kaiser Kaios hat die Frucht des ewigen Lebens gegessen und damit ein schreckliches Verderben über Oversky beschworen. Tu dich mit den Yaks und den Rakoans zusammen, um es zu bekämpfen.
+DLC_DESCRIPTION_RESURGENCE;Verderben breitet sich über der Welt aus und droht alles Gute und Reine zu schwärzen. Neue Monster und Bösewichte versammeln sich um das kaiserliche Banner, in der Hoffnung auf ihren Anteil an der Kriegsbeute.\n\nTrotz großer Verluste blüht Hoffnung in den Herzen derer auf, die gegen sie ankämpfen möchten. Allen Widrigkeiten zum Trotz scheint der Sieg dank der neuen Verbündeten möglich.
+DLC_DESCRIPTION_CHRONICLES_OF_GAGANA;Kaiser Kaois wurde besiegt und Oversky ist gerettet.\n\nAuf der Suche nach einer Lösung für eine drohende neue Katastrophe wagt sich die Crew der Gagana auf Neuland.\n\nDort wird sie auf neue Zivilisationen, neue Kontinente, neue Wesen stoßen ... und zum Schluss den Schatz von Gagana finden.
+DLC_SHOP_OPEN_SHOP;Shop öffnen
+DLC_SHOP_CONTENT_TITLE_TEXT;Inhalt:
+INTRO_FOURTH_SENTENCE;Aber welche Götter sind es genau, die wir anbeten sollen?
+INTRO_THIRD_SENTENCE;Der Soldat betet, mehr noch als alle anderen, für den Frieden.

@@ -1,0 +1,85 @@
+ACCOUNT_DOES_NOT_EXIST;Compte introuvable.
+ACTIVATION_CODE_FAILED;Il semble y avoir un problème avec votre code d'activation.
+ACTIVATION_KEY_FAILED;Il semble y avoir un problème avec votre clé d'activation.
+ALREADY_IN_GAME;Il semblerait que vous soyez déjà en jeu. Essayez de vous déconnecter et de vous reconnecter.
+BAD_CLIENT_VERSION;Il semble que votre version soit obsolète. Essayez de relancer le jeu.
+CANNOT_BE_PLAYER_HAS_NO_DECK;Le modérateur a essayé de vous définir comme joueur, mais vous ne possédez pas de deck.
+CANNOT_INVITE_FRIEND_DECLINED;Le joueur invité a déjà refusé l'invitation. La demande d'ami doit à présent venir de sa part.
+CANNOT_INVITE_FRIEND_DOES_NOT_EXIST;Ce joueur n'existe pas. Veuillez vous assurer de saisir un identifiant correct.
+CANNOT_INVITE_FRIEND_OPPONENT;Impossible d'inviter la personne contre laquelle vous jouez. Attendez la fin du match.
+CANNOT_INVITE_FRIEND_PROLOGUE;Impossible d'inviter un ami n'ayant pas encore effectué le prologue.
+CANNOT_INVITE_FRIEND_REFUSED;Le joueur invité n'accepte pas les demandes d'amis.
+CANNOT_MODIFY_DECK_WHILE_SEARCHING;Vous ne pouvez pas modifier votre deck tout en cherchant une partie.
+CANNOT_PAUSE_DURING_MULLIGAN;La partie ne peut pas être mise en pause pendant la phase de mulligan.
+CANNOT_SET_AS_PLAYER_HAS_NO_DECK;Impossible de définir comme joueur : pas de deck.
+CANNOT_SET_YOURSELF_AS_RECRUITER;Vous ne pouvez pas être votre propre recruteur.
+CANNOT_SIGN_UP_FREEZE_MODE_ON;Maintenance en cours, réessayez de vous connecter plus tard.
+CANNOT_SPECTATE_TOURNAMENT_GAME;Impossible d'être spectateur d'une partie de tournoi.
+CANNOT_START_FREEZE_MODE_ON;Impossible de lancer une partie : les serveurs sont saturés. Désolé !
+CANNOT_START_SERVER_REBOOTING;Impossible de lancer la partie : le serveur va bientôt redémarrer.
+CARD_COPIES_LIMITED;Chaque carte est limitée à 3 exemplaires par deck.
+COMMUNITY_EVENT_INACTIVE_OR_DOES_NOT_EXIST;Événement de communauté inactif ou inexistant.
+COMMUNITY_EVENT_NO_STEAM_KEYS_LEFT;Clés Steam épuisées, veuillez réessayer plus tard.
+CONSTRUCTED_CLOSED;Le mode Classé est fermé pour aujourd'hui
+COUPON_ALREADY_USED;Ce coupon a déjà été utilisé.
+COUPON_DOES_NOT_EXIST;Code coupon invalide.
+COUPON_EXPIRED;Le code coupon que vous avez saisi a expiré.
+COUPON_ITEM_ALREADY_OWNED;Vous possédez déjà le(s) objet(s) correspondant à ce coupon.
+COUPON_MAX_ACTIVATIONS_REACHED;Ce coupon ne peut plus être activé car son nombre maximal d'activations a été atteint.
+COUPON_RESERVED;Ce coupon est réservé à un autre compte.
+DECK_SIZE_LIMITED;Un deck comporte {0} cartes maximum.
+DISCONNECTED_FROM_WORLD;La partie est terminée, mais votre connexion au serveur a été interrompue. Veuillez vous reconnecter.
+FRIEND_DOES_NOT_ALLOW_SPECTATE;Votre ami n'autorise pas les spectateurs lors de ses parties.
+FRIEND_NO_LONGER_IN_GAME;Votre ami n'a aucune partie en cours.
+GAME_CANCELED_NO_GAMESERVER_FOUND;Serveur introuvable pour votre région ! Veuillez réessayer plus tard.
+GAME_CANCELED_PLAYER_DID_NOT_REPLY_IN_TIME;Partie annulée (un joueur n'a pas répondu à temps).
+GAME_CANCELED_SERVER_DID_NOT_REPLY_IN_TIME;Partie annulée (le serveur n'a pas répondu à temps).
+GAME_CANCELED_SERVER_STOPPING;Partie annulée (le serveur va bientôt redémarrer).
+GAME_CANCELED_VERSION;La partie a été annulée car votre version du client est obsolète.
+INVALID_HIGHLANDER_DECK_DUPLICATE;Deck invalide en mode Insurrection : vous ne pouvez pas avoir plusieurs cartes identiques.
+INVALID_STEAM_KEY;Clé Steam invalide.
+LEGENDARY_CARD_LIMITED;Les cartes légendaires sont limitées à 1 exemplaire par deck.
+MAIL_ALREADY_EXISTS;L'adresse e-mail existe déjà.
+MARKET_ITEM_ALREADY_OWNED;Vous possédez déjà cet objet de la boutique.
+NEW_BOSS_MISSION_UNLOCKED;Nouvelle mission de boss débloquée !
+NO_ACTIONS_LEFT_RETRYING_PUZZLE;Vous ne pouvez plus rien faire ! Retentez votre chance...
+ORB_DIED_RETRYING_PUZZLE;Je vous ai vaincu ! Retentez votre chance…
+PAUSE_LIMIT_REACHED;Vous ne pouvez plus mettre le jeu en pause (limite de {0} mises en pause atteinte).
+PICK_TOURNAMENT_MATCHES_FORMAT;Veuillez choisir un format de match pour le tournoi
+PLAYER_LEFT_GAME;Le joueur {0} a quitté la partie !
+RECIPIENT_IS_OFFLINE;{0} est hors ligne
+RECRUITER_SET;Recruteur enregistré !
+SELECT_A_DECK;Vous devez sélectionner un deck.
+SERVER_BUSY_TRY_AGAIN;Le serveur est occupé, veuillez essayer à nouveau dans une minute.
+SERVER_COULD_NOT_FIND_GAME;Impossible de trouver la partie demandée sur le serveur.
+SERVER_SHUTDOWN;Mise à jour du serveur dans {0} minute(s). Vous devrez peut-être vous reconnecter après votre partie.
+SERVER_SHUTDOWN_CANCELED;Arrêt du serveur terminé.
+SERVER_SHUTDOWN_WARNING;Mise à jour du serveur dans {0} minute(s). Les files d'attente seront désactivées dans {1} minute(s).
+SPECTATED_PLAYER_LEFT_GAME;Le joueur que vous regardiez a quitté la partie.
+STEAM_FINALISE_TXN_FAILED;Impossible de finaliser la transaction.
+STEAM_ID_NOT_FOUND;Steam ID introuvable.
+STEAM_INIT_TXN_FAILED;Impossible d'initialiser la transaction.
+STEAM_PRICE_CHANGED;Le prix de cet article a changé. Veuillez réessayer.
+STEAM_USER_INFO_NOT_FOUND;Échec de la récupération des infos utilisateur de Steam.
+UPDATE_CLIENT_TO_PLAY;Vous devez mettre votre client à jour pour pouvoir jouer.
+UPGRADE_ACCOUNT_FAILED;Échec de la mise à niveau du compte.
+USER_ALREADY_SET_YOU_AS_RECRUITER;{0} vous a déjà enregistré comme recruteur.
+USER_ALREADY_SIGNED_IN;Utilisateur déjà connecté. Veuillez réessayer dans 1 minute. Contactez support@faeria.com si le problème persiste.
+USER_NAME_INVALID;Les noms d'utilisateur ne peuvent contenir que des lettres, chiffres, tirets et tirets bas.
+USER_NAME_RESERVED;Ce nom d'utilisateur est réservé.
+USER_NAME_SIZE_MAX_INVALID;Longueur maximale de nom d'utilisateur : {0}.
+USER_NAME_SIZE_MIN_INVALID;Longueur minimale de nom d'utilisateur : {0}.
+USER_NOT_FOUND;Utilisateur introuvable : {0}.
+WRONG_ACTIVATION_KEY;Il semble que la clé d'activation saisie soit incorrecte.
+WRONG_DECK_SIZE;Votre deck nécessite {0} cartes pour être utilisable.
+WRONG_LEVEL_FOR_ARENA;Vous devez atteindre le niveau {0} pour accéder à Pandore.
+WRONG_LEVEL_FOR_RANKED;Vous devez atteindre le niveau {0} pour accéder aux Parties Classées !
+ACCOUNT_IS_BANNED;Ce compte est banni pour le moment.
+NO_AVAILABLE_LORE_PAGES_LEFT;Aucune pages d'histoire disponibles !
+WRONG_LEVEL_FOR_OVERSKY;Vous devez atteindre le niveau {0} pour accéder à Outreciel !
+WRONG_LEVEL_FOR_PUZZLE;Vous devez atteindre le niveau {0} pour accéder aux Puzzles !
+WRONG_LEVEL_FOR_BOSS;Vous devez atteindre le niveau {0} pour accéder aux Boss du Monde !
+WRONG_LEVEL_FOR_DRAGONS_LAIR;Vous devez atteindre le niveau {0} pour pénétrer l'Antre du Dragon !
+PLATFORM_FRIENDS_ONLY_APPEAR_WHEN_ONLINE;Vos amis sur cette plateforme n'apparaissent que lorsqu'ils sont connectés.
+FRIEND_ADDED_SUCCESSFULLY;Ami ajouté avec succès !
+ALREADY_FRIENDS;Vous êtes déjà ami avec ce joueur.

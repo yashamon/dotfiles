@@ -1,0 +1,34 @@
+AUTHENTICATION_LOCAL_ERROR;Não foi possível autenticar com {0}, tente reiniciar o seu jogo.
+DECK_LIMIT_MESSAGE;Um baralho é limitado a {0} cartas.
+EMAIL_INVALID;O endereço de email inserido é inválido.
+EMPTY_USERNAME_PASSWORD_NOT_ALLOWED;Não é permitido deixar vazio o espaço para nome de usuário/senha.
+ERROR_MESSAGE;Mensagem de erro: {0}
+ERROR_RESOURCES_CORRUPTED;Os recursos parecem corrompidos e o jogo tem que fechar. Por favor, considere reinstalar o jogo se o problema persistir.
+GAMECENTER_HTTP_ERROR;Não foi possível conectar aos servidores de autenticação da Apple. Tente novamente mais tarde.
+GAMECENTER_RUNTIME_ERROR;Não foi possível autenticar. Tente novamente mais tarde.
+GAMECENTER_SIGNATURE_MISMTACH;A autenticação falhou. Tente novamente.
+GAME_SERVER_CONNECTION_FAILED;Não foi possível conectar ao jogo.
+GAME_SERVER_RECONNECTION_FAILED;Não foi possível reconectar ao jogo.
+MAIL_INVALID;O endereço de email inserido é inválido.
+MUST_WAIT;Você precisa esperar {0} minutos para fazer isto.
+RECOVERY_CODE_EXPIRED;Código de Recuperação expirado.
+RECOVERY_CODE_INVALID;Código de Recuperação inválido.
+SERVER_CONNECTION_FAILED;Não possível conectar ao servidor.
+SERVER_UNREACHABLE;Servidor inacessível.
+STEAM_ACCOUNT_DLC_NOT_SYNCHRONISED;Esta conta está indisponível porque seus DLCs no Steam não estão sincronizados.
+STEAM_ACCOUNT_NOT_FOUND;Esta conta ainda não está vinculada à Steam.
+TOKEN_INVALID;Falha na autentificação, por favor, tente novamente.
+UNAUTHORIZED_ACCESS;Tentativa de acesso não autorizada, tente reinicar o jogo.
+UNKNOWN_ERROR;Ocorreu um erro desconhecido
+WORLD_SERVER_RECONNECTION_FAILED;Não foi possível reconectar ao servidor.
+FRIEND_ALREADY_IN_LOBBY;O amigo já está na sala de espera!
+LOBBY_INVALID_MINUTES_PER_GAME;Insira um valor positivo no campo "minutos por jogo"
+LOBBY_INVALID_TURN_DURATION;Insira um valor positivo no campo "duração do turno"
+LOBBY_TIMER_EMPTY_MATCH_FORMAT;Escolha um formato de partida ao usar o cronômetro de jogo
+INTERNAL_ERROR;Erro interno de servidor. Por favor, tente novamente.
+PLATFORM_PRIVILEGES_DO_NOT_ALLOW;Privilégios de plataforma não permitem realizar essa ação.
+ACHIEVEMENT_INITIALIZATION_FAILED_TITLE;Inicialização falhou
+ACHIEVEMENT_INITIALIZATION_FAILED_TEXT;Não foi possível inicializar conquistas. Por favor, cheque sua conexão.
+PLAYER_CANNOT_PLAY_MULTIPLAYER_GAMES;Esse jogador não tem permissão de jogar no multijogador.
+DEBUG_PANEL_EXIT_BUTTON;SAIR
+CANNOT_RENAME_ON_PLATFORM;Impossível renomear nesta plataforma.

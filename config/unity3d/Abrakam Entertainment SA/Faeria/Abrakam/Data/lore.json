@@ -1,0 +1,1670 @@
+[
+    {
+        "id": 61,
+        "comment": "Farm boy",
+        "type": "CARD",
+        "reference": 1,
+        "artists": "Christophe Bultiau, Andrey Egorov"
+    },
+    {
+        "id": 54,
+        "comment": "Freedom Fighter",
+        "type": "CARD",
+        "reference": 22,
+        "artists": "Conceptopolis LLC"
+    },
+    {
+        "id": 62,
+        "comment": "Falcon Dive",
+        "type": "CARD",
+        "reference": 24,
+        "artists": "Conceptopolis LLC"
+    },
+    {
+        "id": 1,
+        "comment": "Prairie Yak",
+        "type": "CARD",
+        "reference": 30,
+        "isPinkChestDroppable": false,
+        "artists": "Jen Berger"
+    },
+    {
+        "id": 41,
+        "comment": "Queen's Favourite",
+        "type": "CARD",
+        "reference": 34,
+        "artists": "Andrey Egorov"
+    },
+    {
+        "id": 6,
+        "comment": "Magda",
+        "type": "CARD",
+        "reference": 36,
+        "isPinkChestDroppable": false,
+        "artists": "Andrey Egorov"
+    },
+    {
+        "id": 29,
+        "comment": "Magnus",
+        "type": "CARD",
+        "reference": 40,
+        "artists": "Andrey Egorov"
+    },
+    {
+        "id": 2,
+        "comment": "Sharra",
+        "type": "CARD",
+        "reference": 43,
+        "isPinkChestDroppable": false,
+        "artists": "Loic Holzemer"
+    },
+    {
+        "id": 59,
+        "comment": "Shimmering Statue",
+        "type": "CARD",
+        "reference": 47,
+        "artists": "Franck Hames, Jordi Versteege, Vitaliy Shushko"
+    },
+    {
+        "id": 51,
+        "comment": "Steamforge Enforcer",
+        "type": "CARD",
+        "reference": 51,
+        "artists": "Franck Hames, Jordi Versteege, Vitaliy Shushko"
+    },
+    {
+        "id": 40,
+        "comment": "King's Faithful",
+        "type": "CARD",
+        "reference": 52,
+        "artists": "Franck Hames, Jordi Versteege, Vitaliy Shushko"
+    },
+    {
+        "id": 30,
+        "comment": "Day of the Dragons",
+        "type": "CARD",
+        "reference": 53,
+        "artists": "Franck Hames, Jordi Versteege, Andrey Egorov"
+    },
+    {
+        "id": 24,
+        "comment": "Baron Thulgar",
+        "type": "CARD",
+        "reference": 56,
+        "artists": "Franck Hames, Jordi Versteege, Vitaliy Shushko"
+    },
+    {
+        "id": 56,
+        "comment": "Queen's Assassin",
+        "type": "CARD",
+        "reference": 60,
+        "artists": "Franck Hames, Jordi Versteege, Vitaliy Shushko"
+    },
+    {
+        "id": 44,
+        "comment": "Imperial Drain",
+        "type": "CARD",
+        "reference": 64,
+        "artists": "Franck Hames, Jordi Versteege, Vitaliy Shushko"
+    },
+    {
+        "id": 7,
+        "comment": "Ruby Fish",
+        "type": "CARD",
+        "reference": 71,
+        "isPinkChestDroppable": false,
+        "artists": "Ibrahem Swaid"
+    },
+    {
+        "id": 8,
+        "comment": "Triton Warrior",
+        "type": "CARD",
+        "reference": 83,
+        "isPinkChestDroppable": false,
+        "artists": "Jen Berger"
+    },
+    {
+        "id": 27,
+        "comment": "Baeru",
+        "type": "CARD",
+        "reference": 104,
+        "artists": "Mike Ackerman"
+    },
+    {
+        "id": 12,
+        "comment": "Orosei",
+        "type": "CARD",
+        "reference": 108,
+        "isPinkChestDroppable": false,
+        "artists": "Chang Yuan Jou, Andrey Egorov"
+    },
+    {
+        "id": 34,
+        "comment": "Aurora's Dream",
+        "type": "CARD",
+        "reference": 114,
+        "artists": "Franck Hames, Jordi Versteege, Andrey Egorov"
+    },
+    {
+        "id": 4,
+        "comment": "Aurora",
+        "type": "CARD",
+        "reference": 125,
+        "isPinkChestDroppable": false,
+        "artists": "Franck Hames, Jordi Versteege, Remi Leflere, Andrey Egorov"
+    },
+    {
+        "id": 52,
+        "comment": "Soulbound Sagami",
+        "type": "CARD",
+        "reference": 133,
+        "artists": "Andrey Egorov"
+    },
+    {
+        "id": 55,
+        "comment": "Tiki Caretaker",
+        "type": "CARD",
+        "reference": 140,
+        "artists": "Jen Berger"
+    },
+    {
+        "id": 38,
+        "comment": "Possessed Ursus",
+        "type": "CARD",
+        "reference": 144,
+        "artists": "Sarah Webb"
+    },
+    {
+        "id": 46,
+        "comment": "Thyrian Golem",
+        "type": "CARD",
+        "reference": 150,
+        "artists": "Ibrahem Swaid"
+    },
+    {
+        "id": 11,
+        "comment": "Tethra",
+        "type": "CARD",
+        "reference": 169,
+        "isPinkChestDroppable": false,
+        "artists": "Chang Yuan Jou, Andrey Egorov"
+    },
+    {
+        "id": 58,
+        "comment": "Elderwood Embrace",
+        "type": "CARD",
+        "reference": 175,
+        "artists": "Andrey Egorov"
+    },
+    {
+        "id": 32,
+        "comment": "Taurum",
+        "type": "CARD",
+        "reference": 179,
+        "artists": "Andrey Egorov"
+    },
+    {
+        "id": 37,
+        "comment": "Voice of Hunger",
+        "type": "CARD",
+        "reference": 185,
+        "artists": "Andrey Egorov"
+    },
+    {
+        "id": 21,
+        "comment": "Eredon",
+        "type": "CARD",
+        "reference": 187,
+        "artists": "Sarah Webb"
+    },
+    {
+        "id": 42,
+        "comment": "Ruunin's Presence",
+        "type": "CARD",
+        "reference": 189,
+        "artists": "Sarah Webb"
+    },
+    {
+        "id": 23,
+        "comment": "Ruunin",
+        "type": "CARD",
+        "reference": 190,
+        "artists": "Sarah Webb"
+    },
+    {
+        "id": 3,
+        "comment": "Seifer",
+        "type": "CARD",
+        "reference": 202,
+        "isPinkChestDroppable": false,
+        "artists": "Remi Leflere, Andrey Egorov"
+    },
+    {
+        "id": 31,
+        "comment": "Krog",
+        "type": "CARD",
+        "reference": 204,
+        "artists": "Christophe Bultiau, Andrey Egorov"
+    },
+    {
+        "id": 36,
+        "comment": "Lord of Terror",
+        "type": "CARD",
+        "reference": 215,
+        "artists": "Rik Wielheesen"
+    },
+    {
+        "id": 48,
+        "comment": "Grim Guard",
+        "type": "CARD",
+        "reference": 218,
+        "artists": "Remi Leflere, Andrey Egorov"
+    },
+    {
+        "id": 10,
+        "comment": "Garudan",
+        "type": "CARD",
+        "reference": 232,
+        "isPinkChestDroppable": false,
+        "artists": "Chang Yuan Jou, Andrey Egorov"
+    },
+    {
+        "id": 28,
+        "comment": "Ignus",
+        "type": "CARD",
+        "reference": 250,
+        "artists": "Mike Ackerman"
+    },
+    {
+        "id": 63,
+        "comment": "Khalim's Follower",
+        "type": "CARD",
+        "reference": 253,
+        "artists": "Franck Hames, Jordi Versteege, Vitaliy Shushko"
+    },
+    {
+        "id": 57,
+        "comment": "Oradrim Fanatic",
+        "type": "CARD",
+        "reference": 256,
+        "artists": "Ibrahem Swaid"
+    },
+    {
+        "id": 22,
+        "comment": "Khalim's Follower",
+        "type": "CARD",
+        "reference": 260,
+        "artists": "Franck Hames, Jordi Versteege, Vitaliy Shushko"
+    },
+    {
+        "id": 45,
+        "comment": "Last Nightmare",
+        "type": "CARD",
+        "reference": 263,
+        "artists": "Chang Yuan Jou"
+    },
+    {
+        "id": 9,
+        "comment": "Azarai",
+        "type": "CARD",
+        "reference": 288,
+        "isPinkChestDroppable": false,
+        "artists": "Chang Yuan Jou, Andrey Egorov"
+    },
+    {
+        "id": 53,
+        "comment": "Lord of the Wastes",
+        "type": "CARD",
+        "reference": 297,
+        "artists": "Rik Wielheesen"
+    },
+    {
+        "id": 60,
+        "comment": "Demon Wrangler",
+        "type": "CARD",
+        "reference": 299,
+        "artists": "Chang Yuan Jou"
+    },
+    {
+        "id": 16,
+        "comment": "Iona",
+        "type": "CARD",
+        "reference": 303,
+        "artists": "Franck Hames, Jordi Versteege, Vitaliy Shushko"
+    },
+    {
+        "id": 17,
+        "comment": "Doomgate",
+        "type": "CARD",
+        "reference": 308,
+        "artists": "Franck Hames, Jordi Versteege, Andrey Egorov"
+    },
+    {
+        "id": 50,
+        "comment": "Windstorm Archer",
+        "type": "CARD",
+        "reference": 309,
+        "artists": "Franck Hames, Jordi Versteege, Vitaliy Shushko"
+    },
+    {
+        "id": 13,
+        "comment": "Three Wishes",
+        "type": "CARD",
+        "reference": 350,
+        "isPinkChestDroppable": false,
+        "artists": "Franck Hames, Jordi Versteege, Vitaliy Shushko"
+    },
+    {
+        "id": 33,
+        "comment": "Radiance",
+        "type": "CARD",
+        "reference": 352,
+        "artists": "Franck Hames, Jordi Versteege, Vitaliy Shushko"
+    },
+    {
+        "id": 43,
+        "comment": "God Hunter",
+        "type": "CARD",
+        "reference": 356,
+        "artists": "Franck Hames, Jordi Versteege, Vitaliy Shushko"
+    },
+    {
+        "id": 49,
+        "comment": "Blood Song",
+        "type": "CARD",
+        "reference": 357,
+        "artists": "Franck Hames, Jordi Versteege, Vitaliy Shushko"
+    },
+    {
+        "id": 14,
+        "comment": "Time of Legends",
+        "type": "CARD",
+        "reference": 362,
+        "artists": "Jen Berger, Andrey Egorov"
+    },
+    {
+        "id": 47,
+        "comment": "Mistral Guide",
+        "type": "CARD",
+        "reference": 366,
+        "artists": "Franck Hames, Jordi Versteege, Andrey Egorov"
+    },
+    {
+        "id": 15,
+        "comment": "Goki",
+        "type": "CARD",
+        "reference": 504,
+        "artists": "Jen Berger, Andrey Egorov"
+    },
+    {
+        "id": 35,
+        "comment": "Mobie",
+        "type": "CARD",
+        "reference": 505,
+        "artists": "Andrey Egorov"
+    },
+    {
+        "id": 20,
+        "comment": "Emperor Kaios",
+        "type": "CARD",
+        "reference": 507,
+        "artists": "Andrey Egorov"
+    },
+    {
+        "id": 26,
+        "comment": "Tree of Everlife",
+        "type": "CARD",
+        "reference": 509,
+        "artists": "Andrey Egorov"
+    },
+    {
+        "id": 5,
+        "comment": "Fugoro",
+        "type": "CARD",
+        "reference": 512,
+        "isPinkChestDroppable": false,
+        "artists": "Franck Hames, Jordi Versteege, Andrey Egorov"
+    },
+    {
+        "id": 18,
+        "comment": "Cap-1o",
+        "type": "CARD",
+        "reference": 516,
+        "artists": "Guille Garcia"
+    },
+    {
+        "id": 25,
+        "comment": "Istanu",
+        "type": "CARD",
+        "reference": 519,
+        "artists": "Jen Berger, Andrey Egorov"
+    },
+    {
+        "id": 39,
+        "comment": "Frog-Tosser",
+        "type": "CARD",
+        "reference": 521,
+        "artists": "Jen Berger, Andrey Egorov"
+    },
+    {
+        "id": 19,
+        "comment": "Ulani",
+        "type": "CARD",
+        "reference": 532,
+        "artists": "Jen Berger, Andrey Egorov"
+    },
+    {
+        "id": 64,
+        "comment": "Laya, Lady of Sorrows",
+        "type": "CARD",
+        "reference": 601,
+        "linkedDlc": "DLC_FALL_OF_EVERLIFE",
+        "artists": "Guille Garcia, Vincent Christiaens"
+    },
+    {
+        "id": 65,
+        "comment": "Imperial Drakerider",
+        "type": "CARD",
+        "reference": 602,
+        "linkedDlc": "DLC_FALL_OF_EVERLIFE",
+        "artists": "Guille Garcia, Mike Jordana"
+    },
+    {
+        "id": 66,
+        "comment": "Deranged Monkey",
+        "type": "CARD",
+        "reference": 603,
+        "linkedDlc": "DLC_FALL_OF_EVERLIFE",
+        "artists": "Guille Garcia, Mike Jordana"
+    },
+    {
+        "id": 67,
+        "comment": "Imperial Trooper",
+        "type": "CARD",
+        "reference": 604,
+        "linkedDlc": "DLC_FALL_OF_EVERLIFE",
+        "artists": "Guille Garcia"
+    },
+    {
+        "id": 68,
+        "comment": "Lost Explorer",
+        "type": "CARD",
+        "reference": 605,
+        "linkedDlc": "DLC_FALL_OF_EVERLIFE",
+        "artists": "Guille Garcia, Andrey Egorov"
+    },
+    {
+        "id": 69,
+        "comment": "Blightblade Knight",
+        "type": "CARD",
+        "reference": 606,
+        "linkedDlc": "DLC_FALL_OF_EVERLIFE",
+        "artists": "Guille Garcia, Andrey Egorov"
+    },
+    {
+        "id": 70,
+        "comment": "Shadowsilk Faerie",
+        "type": "CARD",
+        "reference": 607,
+        "linkedDlc": "DLC_FALL_OF_EVERLIFE",
+        "artists": "Guille Garcia, Andrey Egorov"
+    },
+    {
+        "id": 71,
+        "comment": "Kaios, Demented Overmind",
+        "type": "CARD",
+        "reference": 608,
+        "linkedDlc": "DLC_FALL_OF_EVERLIFE",
+        "artists": "Andrey Egorov"
+    },
+    {
+        "id": 72,
+        "comment": "Rain of Fish",
+        "type": "CARD",
+        "reference": 609,
+        "linkedDlc": "DLC_FALL_OF_EVERLIFE",
+        "artists": "Guille Garcia"
+    },
+    {
+        "id": 73,
+        "comment": "Flying Piranha",
+        "type": "CARD",
+        "reference": 610,
+        "linkedDlc": "DLC_FALL_OF_EVERLIFE",
+        "artists": "Guille Garcia, Andrey Egorov, Vincent Christiaens"
+    },
+    {
+        "id": 74,
+        "comment": "Monstrous Hydra",
+        "type": "CARD",
+        "reference": 611,
+        "linkedDlc": "DLC_FALL_OF_EVERLIFE",
+        "artists": "Guille Garcia, Mike Jordana"
+    },
+    {
+        "id": 75,
+        "comment": "Haunted Willow",
+        "type": "CARD",
+        "reference": 612,
+        "linkedDlc": "DLC_FALL_OF_EVERLIFE",
+        "artists": "Guille Garcia, Andrey Egorov"
+    },
+    {
+        "id": 76,
+        "comment": "Rotting Boar",
+        "type": "CARD",
+        "reference": 613,
+        "linkedDlc": "DLC_FALL_OF_EVERLIFE",
+        "artists": "Vincent Christiaens"
+    },
+    {
+        "id": 77,
+        "comment": "Nekomata",
+        "type": "CARD",
+        "reference": 614,
+        "linkedDlc": "DLC_FALL_OF_EVERLIFE",
+        "artists": "Vincent Christiaens"
+    },
+    {
+        "id": 78,
+        "comment": "Baldurion, Evil Archsmith",
+        "type": "CARD",
+        "reference": 615,
+        "linkedDlc": "DLC_FALL_OF_EVERLIFE",
+        "artists": "Guille Garcia, Mike Jordana"
+    },
+    {
+        "id": 79,
+        "comment": "Spite Sprite",
+        "type": "CARD",
+        "reference": 616,
+        "linkedDlc": "DLC_FALL_OF_EVERLIFE",
+        "artists": "Guille Garcia, Vincent Christiaens"
+    },
+    {
+        "id": 80,
+        "comment": "Havoc",
+        "type": "CARD",
+        "reference": 617,
+        "linkedDlc": "DLC_FALL_OF_EVERLIFE",
+        "artists": "Guille Garcia, Mike Jordana, Andrey Egorov"
+    },
+    {
+        "id": 81,
+        "comment": "Demonic Salmon",
+        "type": "CARD",
+        "reference": 618,
+        "linkedDlc": "DLC_FALL_OF_EVERLIFE",
+        "artists": "Andrey Egorov, Vincent Christiaens"
+    },
+    {
+        "id": 82,
+        "comment": "Spirit Theft",
+        "type": "CARD",
+        "reference": 619,
+        "linkedDlc": "DLC_FALL_OF_EVERLIFE",
+        "artists": "Guille Garcia, Mike Jordana"
+    },
+    {
+        "id": 83,
+        "comment": "Solem",
+        "type": "CARD",
+        "reference": 620,
+        "linkedDlc": "DLC_FALL_OF_EVERLIFE",
+        "artists": "Guille Garcia, Mike Jordana, Vincent Christiaens"
+    },
+    {
+        "id": 84,
+        "comment": "Mother of All Yaks",
+        "type": "CARD",
+        "reference": 622,
+        "linkedDlc": "DLC_FALL_OF_EVERLIFE",
+        "artists": "Guille Garcia, Andrey Egorov"
+    },
+    {
+        "id": 85,
+        "comment": "Rakoan Champion",
+        "type": "CARD",
+        "reference": 623,
+        "linkedDlc": "DLC_FALL_OF_EVERLIFE",
+        "artists": "Guille Garcia, Andrey Egorov"
+    },
+    {
+        "id": 86,
+        "comment": "Orphan Fugu",
+        "type": "CARD",
+        "reference": 624,
+        "linkedDlc": "DLC_FALL_OF_EVERLIFE",
+        "artists": "Guille Garcia, Andrey Egorov"
+    },
+    {
+        "id": 87,
+        "comment": "Rapala, the Dopefish",
+        "type": "CARD",
+        "reference": 625,
+        "linkedDlc": "DLC_FALL_OF_EVERLIFE",
+        "artists": "Guille Garcia"
+    },
+    {
+        "id": 88,
+        "comment": "Sapphire Yak",
+        "type": "CARD",
+        "reference": 626,
+        "linkedDlc": "DLC_FALL_OF_EVERLIFE",
+        "artists": "Guille Garcia, Andrey Egorov"
+    },
+    {
+        "id": 89,
+        "comment": "Hunt Down",
+        "type": "CARD",
+        "reference": 627,
+        "linkedDlc": "DLC_FALL_OF_EVERLIFE",
+        "artists": "Guille Garcia, Andrey Egorov"
+    },
+    {
+        "id": 90,
+        "comment": "Emerald Yak",
+        "type": "CARD",
+        "reference": 628,
+        "linkedDlc": "DLC_FALL_OF_EVERLIFE",
+        "artists": "Guille Garcia, Andrey Egorov"
+    },
+    {
+        "id": 91,
+        "comment": "Majinata, Spirit of Everlife",
+        "type": "CARD",
+        "reference": 629,
+        "linkedDlc": "DLC_FALL_OF_EVERLIFE",
+        "artists": "Guille Garcia, Mike Jordana"
+    },
+    {
+        "id": 92,
+        "comment": "Lavasurge Axolotl",
+        "type": "CARD",
+        "reference": 630,
+        "linkedDlc": "DLC_FALL_OF_EVERLIFE",
+        "artists": "Guille Garcia, Mike Jordana"
+    },
+    {
+        "id": 93,
+        "comment": "Rakoakopter",
+        "type": "CARD",
+        "reference": 640,
+        "linkedDlc": "DLC_FALL_OF_EVERLIFE",
+        "artists": "Guille Garcia"
+    },
+    {
+        "id": 94,
+        "comment": "Ruby Yak",
+        "type": "CARD",
+        "reference": 641,
+        "linkedDlc": "DLC_FALL_OF_EVERLIFE",
+        "artists": "Guille Garcia, Andrey Egorov"
+    },
+    {
+        "id": 95,
+        "comment": "Ghost Dragon",
+        "type": "CARD",
+        "reference": 642,
+        "linkedDlc": "DLC_FALL_OF_EVERLIFE",
+        "artists": "Andrey Egorov"
+    },
+    {
+        "id": 96,
+        "comment": "Lion Fish",
+        "type": "CARD",
+        "reference": 643,
+        "linkedDlc": "DLC_FALL_OF_EVERLIFE",
+        "artists": "Guille Garcia"
+    },
+    {
+        "id": 97,
+        "comment": "Topaz Yak",
+        "type": "CARD",
+        "reference": 644,
+        "linkedDlc": "DLC_FALL_OF_EVERLIFE",
+        "artists": "Guille Garcia, Andrey Egorov"
+    },
+    {
+        "id": 98,
+        "comment": "Rakoan War Machine",
+        "type": "CARD",
+        "reference": 645,
+        "linkedDlc": "DLC_FALL_OF_EVERLIFE",
+        "artists": "Guille Garcia, Andrey Egorov"
+    },
+    {
+        "id": 99,
+        "comment": "Rakoan Cannoneer",
+        "type": "CARD",
+        "reference": 646,
+        "linkedDlc": "DLC_FALL_OF_EVERLIFE",
+        "artists": "Guille Garcia, Andrey Egorov"
+    },
+    {
+        "id": 100,
+        "comment": "Rakoan Illusionist",
+        "type": "CARD",
+        "reference": 647,
+        "linkedDlc": "DLC_FALL_OF_EVERLIFE",
+        "artists": "Guille Garcia, Mike Jordana"
+    },
+    {
+        "id": 101,
+        "comment": "Rakoan Shield Mates",
+        "type": "CARD",
+        "reference": 648,
+        "linkedDlc": "DLC_FALL_OF_EVERLIFE",
+        "artists": "Guille Garcia, Andrey Egorov"
+    },
+    {
+        "id": 102,
+        "comment": "Rakoan Warleader",
+        "type": "CARD",
+        "reference": 649,
+        "linkedDlc": "DLC_FALL_OF_EVERLIFE",
+        "artists": "Guille Garcia, Mike Jordana"
+    },
+    {
+        "id": 103,
+        "comment": "Rakoan Recruiter",
+        "type": "CARD",
+        "reference": 650,
+        "linkedDlc": "DLC_FALL_OF_EVERLIFE",
+        "artists": "Guille Garcia, Mike Jordana"
+    },
+    {
+        "id": 104,
+        "comment": "Famine",
+        "type": "CARD",
+        "reference": 44,
+        "artists": "Loic Holzemer, Andrey Egorov"
+    },
+    {
+        "id": 105,
+        "comment": "Village Elder",
+        "type": "CARD",
+        "reference": 48,
+        "artists": "Jen Berger"
+    },
+    {
+        "id": 106,
+        "comment": "Mirror Phantasm",
+        "type": "CARD",
+        "reference": 85,
+        "artists": "Mike Ackerman"
+    },
+    {
+        "id": 107,
+        "comment": "Water Elemental",
+        "type": "CARD",
+        "reference": 109,
+        "artists": "Mike Ackerman"
+    },
+    {
+        "id": 108,
+        "comment": "Ancient Beastmaster",
+        "type": "CARD",
+        "reference": 135,
+        "artists": "Sarah Webb"
+    },
+    {
+        "id": 109,
+        "comment": "Hate Seed",
+        "type": "CARD",
+        "reference": 199,
+        "artists": "Franck Hames, Jordi Versteege, Andrey Egorov"
+    },
+    {
+        "id": 110,
+        "comment": "Apex Predator",
+        "type": "CARD",
+        "reference": 311,
+        "artists": "Jordi Versteege"
+    },
+    {
+        "id": 111,
+        "comment": "Icerock Behemoth",
+        "type": "CARD",
+        "reference": 312,
+        "artists": "Jordi Versteege"
+    },
+    {
+        "id": 112,
+        "comment": "Twinsoul Spirit",
+        "type": "CARD",
+        "reference": 313,
+        "artists": "Jordi Versteege"
+    },
+    {
+        "id": 113,
+        "comment": "Crackthorn Beast",
+        "type": "CARD",
+        "reference": 314,
+        "artists": "Jordi Versteege"
+    },
+    {
+        "id": 114,
+        "comment": "Soul Eater",
+        "type": "CARD",
+        "reference": 315,
+        "artists": "Jordi Versteege"
+    },
+    {
+        "id": 115,
+        "comment": "Scourgeflame Specter",
+        "type": "CARD",
+        "reference": 316,
+        "artists": "Jordi Versteege"
+    },
+    {
+        "id": 116,
+        "comment": "Healing Song",
+        "type": "CARD",
+        "reference": 14,
+        "artists": "Franck Hames, Jordi Versteege, Vitaliy Shushko"
+    },
+    {
+        "id": 117,
+        "comment": "Rebel Slinger",
+        "type": "CARD",
+        "reference": 335,
+        "artists": "Franck Hames, Jordi Versteege, Vitaliy Shushko"
+    },
+    {
+        "id": 118,
+        "comment": "Divine Guardian",
+        "type": "CARD",
+        "reference": 367,
+        "artists": "Jen Berger, Andrey Egorov"
+    },
+    {
+        "id": 119,
+        "comment": "Dreamkeeper",
+        "type": "CARD",
+        "reference": 526,
+        "artists": "Jen Berger, Andrey Egorov"
+    },
+    {
+        "id": 120,
+        "comment": "Gemshell Tortoise",
+        "type": "CARD",
+        "reference": 527,
+        "artists": "Jen Berger, Andrey Egorov"
+    },
+    {
+        "id": 121,
+        "comment": "Sky Anemone",
+        "type": "CARD",
+        "reference": 531,
+        "artists": "Andrey Egorov"
+    },
+    {
+        "id": 122,
+        "comment": "Unlikely Hero",
+        "type": "CARD",
+        "reference": 39,
+        "artists": "Jen Berger"
+    },
+    {
+        "id": 123,
+        "comment": "Enslaved Priest",
+        "type": "CARD",
+        "reference": 652,
+        "linkedDlc": "DLC_RESURGENCE",
+        "artists": "Guille Garcia, Mike Jordana"
+    },
+    {
+        "id": 124,
+        "comment": "Tower of Curses",
+        "type": "CARD",
+        "reference": 653,
+        "linkedDlc": "DLC_RESURGENCE",
+        "artists": "Guille Garcia, Andrey Egorov, Vincent Christiaens"
+    },
+    {
+        "id": 125,
+        "comment": "Shozen, the Sky Eater",
+        "type": "CARD",
+        "reference": 654,
+        "linkedDlc": "DLC_RESURGENCE",
+        "artists": "Vincent Christiaens"
+    },
+    {
+        "id": 126,
+        "comment": "Imperial Outpost",
+        "type": "CARD",
+        "reference": 655,
+        "linkedDlc": "DLC_RESURGENCE",
+        "artists": "Guille Garcia, Andrey Egorov"
+    },
+    {
+        "id": 127,
+        "comment": "Destructive Volley",
+        "type": "CARD",
+        "reference": 656,
+        "linkedDlc": "DLC_RESURGENCE",
+        "artists": "Vincent Christiaens"
+    },
+    {
+        "id": 128,
+        "comment": "Gagana, Rainbow Birdship",
+        "type": "CARD",
+        "reference": 657,
+        "linkedDlc": "DLC_RESURGENCE",
+        "artists": "Guille Garcia, Vincent Christiaens"
+    },
+    {
+        "id": 129,
+        "comment": "Radiance, Scourge of Oversky",
+        "type": "CARD",
+        "reference": 658,
+        "linkedDlc": "DLC_RESURGENCE",
+        "artists": "Vincent Christiaens"
+    },
+    {
+        "id": 130,
+        "comment": "Bursting Hippo",
+        "type": "CARD",
+        "reference": 659,
+        "linkedDlc": "DLC_RESURGENCE",
+        "artists": "Guille Garcia"
+    },
+    {
+        "id": 131,
+        "comment": "Beast Trainer",
+        "type": "CARD",
+        "reference": 660,
+        "linkedDlc": "DLC_RESURGENCE",
+        "artists": "Vincent Christiaens"
+    },
+    {
+        "id": 132,
+        "comment": "Kobold Smuggler",
+        "type": "CARD",
+        "reference": 661,
+        "linkedDlc": "DLC_RESURGENCE",
+        "artists": "Vincent Christiaens"
+    },
+    {
+        "id": 133,
+        "comment": "Flamesnap",
+        "type": "CARD",
+        "reference": 662,
+        "linkedDlc": "DLC_RESURGENCE",
+        "artists": "Vincent Christiaens"
+    },
+    {
+        "id": 134,
+        "comment": "Ignusi Ritualist",
+        "type": "CARD",
+        "reference": 663,
+        "linkedDlc": "DLC_RESURGENCE",
+        "artists": "Guille Garcia, Vincent Christiaens"
+    },
+    {
+        "id": 135,
+        "comment": "Flamestoker",
+        "type": "CARD",
+        "reference": 664,
+        "linkedDlc": "DLC_RESURGENCE",
+        "artists": "Vincent Christiaens"
+    },
+    {
+        "id": 136,
+        "comment": "Barrensky Vermin",
+        "type": "CARD",
+        "reference": 665,
+        "linkedDlc": "DLC_RESURGENCE",
+        "artists": "Guille Garcia, Mike Jordana"
+    },
+    {
+        "id": 137,
+        "comment": "Vile Bloatfly",
+        "type": "CARD",
+        "reference": 666,
+        "linkedDlc": "DLC_RESURGENCE",
+        "artists": "Vincent Christiaens"
+    },
+    {
+        "id": 138,
+        "comment": "Blightborn Spectre",
+        "type": "CARD",
+        "reference": 667,
+        "linkedDlc": "DLC_RESURGENCE",
+        "artists": "Vincent Christiaens"
+    },
+    {
+        "id": 139,
+        "comment": "Dustbringer Wraith",
+        "type": "CARD",
+        "reference": 668,
+        "linkedDlc": "DLC_RESURGENCE",
+        "artists": "Vincent Christiaens"
+    },
+    {
+        "id": 140,
+        "comment": "Barrensky Vulture",
+        "type": "CARD",
+        "reference": 669,
+        "linkedDlc": "DLC_RESURGENCE",
+        "artists": "Vincent Christiaens"
+    },
+    {
+        "id": 141,
+        "comment": "Haunted Husk",
+        "type": "CARD",
+        "reference": 670,
+        "linkedDlc": "DLC_RESURGENCE",
+        "artists": "Vincent Christiaens"
+    },
+    {
+        "id": 142,
+        "comment": "Thunder Eel",
+        "type": "CARD",
+        "reference": 671,
+        "linkedDlc": "DLC_RESURGENCE",
+        "artists": "Guille Garcia, Andrey Egorov"
+    },
+    {
+        "id": 143,
+        "comment": "Banon, Captain of Radiance",
+        "type": "CARD",
+        "reference": 673,
+        "linkedDlc": "DLC_RESURGENCE",
+        "artists": "Ibrahem Swaid, Vincent Christiaens"
+    },
+    {
+        "id": 144,
+        "comment": "Ulani, Defender of Oversky",
+        "type": "CARD",
+        "reference": 674,
+        "linkedDlc": "DLC_RESURGENCE",
+        "artists": "Vincent Christiaens"
+    },
+    {
+        "id": 145,
+        "comment": "Llamacorn",
+        "type": "CARD",
+        "reference": 675,
+        "linkedDlc": "DLC_RESURGENCE",
+        "artists": "Guille Garcia, Vincent Christiaens"
+    },
+    {
+        "id": 146,
+        "comment": "Roaming Yak",
+        "type": "CARD",
+        "reference": 676,
+        "linkedDlc": "DLC_RESURGENCE",
+        "artists": "Guille Garcia, Vincent Christiaens"
+    },
+    {
+        "id": 147,
+        "comment": "Yak Shepherd",
+        "type": "CARD",
+        "reference": 677,
+        "linkedDlc": "DLC_RESURGENCE",
+        "artists": "Guille Garcia, Andrey Egorov"
+    },
+    {
+        "id": 148,
+        "comment": "Oversky Yak",
+        "type": "CARD",
+        "reference": 678,
+        "linkedDlc": "DLC_RESURGENCE",
+        "artists": "Jen Berger, Andrey Egorov"
+    },
+    {
+        "id": 149,
+        "comment": "Bloated Toad",
+        "type": "CARD",
+        "reference": 679,
+        "linkedDlc": "DLC_RESURGENCE",
+        "artists": "Guille Garcia, Andrey Egorov"
+    },
+    {
+        "id": 150,
+        "comment": "Looking Glass Phantasm",
+        "type": "CARD",
+        "reference": 680,
+        "linkedDlc": "DLC_RESURGENCE",
+        "artists": "Guille Garcia, Andrey Egorov"
+    },
+    {
+        "id": 151,
+        "comment": "Triton Tactican",
+        "type": "CARD",
+        "reference": 681,
+        "linkedDlc": "DLC_RESURGENCE",
+        "artists": "Vincent Christiaens"
+    },
+    {
+        "id": 152,
+        "comment": "Tide Lord",
+        "type": "CARD",
+        "reference": 682,
+        "linkedDlc": "DLC_RESURGENCE",
+        "artists": "Guille Garcia, Mike Jordana"
+    },
+    {
+        "id": 153,
+        "comment": "Animated Banquet",
+        "type": "CARD",
+        "reference": 683,
+        "linkedDlc": "DLC_RESURGENCE",
+        "artists": "Vincent Christiaens"
+    },
+    {
+        "id": 154,
+        "comment": "Coral Elemental",
+        "type": "CARD",
+        "reference": 684,
+        "linkedDlc": "DLC_RESURGENCE",
+        "artists": "Vincent Christiaens"
+    },
+    {
+        "id": 155,
+        "comment": "Chrysalis",
+        "type": "CARD",
+        "reference": 685,
+        "linkedDlc": "DLC_RESURGENCE",
+        "artists": "Guille Garcia, Andrey Egorov"
+    },
+    {
+        "id": 156,
+        "comment": "Verduran Emissary ",
+        "type": "CARD",
+        "reference": 686,
+        "linkedDlc": "DLC_RESURGENCE",
+        "artists": "Guille Garcia"
+    },
+    {
+        "id": 157,
+        "comment": "Priest of Everlife",
+        "type": "CARD",
+        "reference": 687,
+        "linkedDlc": "DLC_RESURGENCE",
+        "artists": "Guille Garcia, Mike Jordana"
+    },
+    {
+        "id": 158,
+        "comment": "Blossoming Kodama",
+        "type": "CARD",
+        "reference": 688,
+        "linkedDlc": "DLC_RESURGENCE",
+        "artists": "Vincent Christiaens"
+    },
+    {
+        "id": 159,
+        "comment": "Zephyr Vulpine",
+        "type": "CARD",
+        "reference": 689,
+        "linkedDlc": "DLC_RESURGENCE",
+        "artists": "Vincent Christiaens"
+    },
+    {
+        "id": 160,
+        "comment": "Dwordia, Chief of the Bright Fox Tribe",
+        "type": "CARD",
+        "reference": 690,
+        "linkedDlc": "DLC_RESURGENCE",
+        "artists": "Vincent Christiaens"
+    },
+    {
+        "id": 161,
+        "comment": "Victory Celebratation",
+        "type": "CARD",
+        "reference": 691,
+        "linkedDlc": "DLC_RESURGENCE",
+        "artists": "Vincent Christiaens"
+    },
+    {
+        "id": 162,
+        "comment": "Savior of the Meek",
+        "type": "CARD",
+        "reference": 692,
+        "linkedDlc": "DLC_RESURGENCE",
+        "artists": "Guille Garcia, Vincent Christiaens"
+    },
+    {
+        "id": 163,
+        "comment": "Desert Twister",
+        "type": "CARD",
+        "reference": 257,
+        "artists": "Ibrahem Swaid"
+    },
+    {
+        "id": 164,
+        "comment": "Ruunin's Shrine",
+        "type": "CARD",
+        "reference": 155,
+        "artists": "Andrey Egorov"
+    },
+    {
+        "id": 165,
+        "comment": "Weeping Idol",
+        "type": "CARD",
+        "reference": 180,
+        "artists": "Sarah Webb"
+    },
+    {
+        "id": 166,
+        "comment": "Failed Experiment",
+        "type": "CARD",
+        "reference": 127,
+        "artists": "Mike Ackerman"
+    },
+    {
+        "id": 167,
+        "comment": "Flash Salmon",
+        "type": "CARD",
+        "reference": 517,
+        "artists": "Jen Berger, Andrey Egorov"
+    },
+    {
+        "id": 168,
+        "comment": "Wind Gate",
+        "type": "CARD",
+        "reference": 258,
+        "artists": "Ibrahem Swaid"
+    },
+    {
+        "id": 169,
+        "comment": "Altar of Souls",
+        "type": "CARD",
+        "reference": 265,
+        "artists": "Chang Yuan Jou"
+    },
+    {
+        "id": 170,
+        "comment": "Annoying Gnat",
+        "type": "CARD",
+        "reference": 360,
+        "artists": "Andrey Egorov"
+    },
+    {
+        "id": 171,
+        "comment": "Architect",
+        "type": "CARD",
+        "reference": 196,
+        "artists": "Franck Hames, Jordi Versteege, Vitaliy Shushko"
+    },
+    {
+        "id": 172,
+        "comment": "Earthcraft",
+        "type": "CARD",
+        "reference": 181,
+        "artists": "Chang Yuan Jou"
+    },
+    {
+        "id": 173,
+        "comment": "Faeria Tree",
+        "type": "CARD",
+        "reference": 157,
+        "artists": "Mike Ackerman"
+    },
+    {
+        "id": 174,
+        "comment": "Flamesilk Faerie",
+        "type": "CARD",
+        "reference": 234,
+        "artists": "Chang Yuan Jou"
+    },
+    {
+        "id": 175,
+        "comment": "Flight of the Mantas",
+        "type": "CARD",
+        "reference": 528,
+        "artists": "Jen Berger, Andrey Egorov"
+    },
+    {
+        "id": 176,
+        "comment": "Flowersilk Faerie",
+        "type": "CARD",
+        "reference": 171,
+        "artists": "Chang Yuan Jou"
+    },
+    {
+        "id": 177,
+        "comment": "Gemsilk Faerie",
+        "type": "CARD",
+        "reference": 110,
+        "artists": "Chang Yuan Jou"
+    },
+    {
+        "id": 178,
+        "comment": "Golden Aviary",
+        "type": "CARD",
+        "reference": 294,
+        "artists": "Ibrahem Swaid"
+    },
+    {
+        "id": 179,
+        "comment": "Iona's Smile",
+        "type": "CARD",
+        "reference": 372,
+        "artists": "Andrey Egorov"
+    },
+    {
+        "id": 180,
+        "comment": "Seed of Paradise",
+        "type": "CARD",
+        "reference": 508,
+        "artists": "Jen Berger, Andrey Egorov"
+    },
+    {
+        "id": 181,
+        "comment": "Sunsilk Faerie",
+        "type": "CARD",
+        "reference": 290,
+        "artists": "Chang Yuan Jou"
+    },
+    {
+        "id": 182,
+        "comment": "The Emperor's Command",
+        "type": "CARD",
+        "reference": 368,
+        "artists": "Andrey Egorov"
+    },
+    {
+        "id": 183,
+        "comment": "Triton Chef",
+        "type": "CARD",
+        "reference": 86,
+        "artists": "Jen Berger"
+    },
+    {
+        "id": 184,
+        "comment": "Cartographer",
+        "type": "CARD",
+        "reference": 319,
+        "artists": "Jiahui Gao"
+    },
+    {
+        "id": 185,
+        "comment": "Deepwood Stalker",
+        "type": "CARD",
+        "reference": 370,
+        "artists": "Jen Berger, Andrey Egorov"
+    },
+    {
+        "id": 186,
+        "comment": "Flame Thrower",
+        "type": "CARD",
+        "reference": 226,
+        "artists": "Andrey Egorov"
+    },
+    {
+        "id": 187,
+        "comment": "Fortune Hunter",
+        "type": "CARD",
+        "reference": 62,
+        "artists": "Mathieu Loiseau"
+    },
+    {
+        "id": 188,
+        "comment": "Gift of the Rakoa",
+        "type": "CARD",
+        "reference": 510,
+        "artists": "Jen Berger, Andrey Egorov"
+    },
+    {
+        "id": 189,
+        "comment": "Hunted Outlaw",
+        "type": "CARD",
+        "reference": 61,
+        "artists": "Franck Hames, Jordi Versteege, Vitaliy Shushko"
+    },
+    {
+        "id": 190,
+        "comment": "Imperial Engineer",
+        "type": "CARD",
+        "reference": 9,
+        "artists": "Conceptopolis"
+    },
+    {
+        "id": 191,
+        "comment": "Krog's Dinner",
+        "type": "CARD",
+        "reference": 371,
+        "artists": "Jen Berger, Andrey Egorov"
+    },
+    {
+        "id": 192,
+        "comment": "Luduan",
+        "type": "CARD",
+        "reference": 116,
+        "artists": "Jen Berger"
+    },
+    {
+        "id": 193,
+        "comment": "Oradrim Sagittarius",
+        "type": "CARD",
+        "reference": 255,
+        "artists": "Ibrahem Swaid"
+    },
+    {
+        "id": 194,
+        "comment": "Shaytan Assassin",
+        "type": "CARD",
+        "reference": 298,
+        "artists": "Chang Yuan Jou"
+    },
+    {
+        "id": 195,
+        "comment": "Aurora's Trick",
+        "type": "CARD",
+        "reference": 128,
+        "artists": "Jordi Versteege, Andrey Egorov"
+    },
+    {
+        "id": 196,
+        "comment": "Bloodstone Sprite",
+        "type": "CARD",
+        "reference": 240,
+        "artists": "Franck Hames, Jordi Versteege"
+    },
+    {
+        "id": 197,
+        "comment": "Choking Sand",
+        "type": "CARD",
+        "reference": 307,
+        "artists": "Franck Hames, Jordi Versteege, Vitaliy Shushko"
+    },
+    {
+        "id": 198,
+        "comment": "Daring Adventurer",
+        "type": "CARD",
+        "reference": 54,
+        "artists": "Franck Hames, Jordi Versteege, Vitaliy Shushko"
+    },
+    {
+        "id": 199,
+        "comment": "Gabrian Cistern",
+        "type": "CARD",
+        "reference": 73,
+        "artists": "Ibrahem Swaid"
+    },
+    {
+        "id": 200,
+        "comment": "Yakkapult",
+        "type": "CARD",
+        "reference": 503,
+        "artists": "Jen Berger, Andrey Egorov"
+    },
+    {
+        "id": 201,
+        "comment": "Aurora's Creation",
+        "type": "CARD",
+        "reference": 94,
+        "artists": "Franck Hames, Jordi Versteege, Andrey Egorov"
+    },
+    {
+        "id": 202,
+        "comment": "Bomb Slinger",
+        "type": "CARD",
+        "reference": 223,
+        "artists": "Franck Hames, Jordi Versteege, Tokkun Studio"
+    },
+    {
+        "id": 203,
+        "comment": "Crumbling Golem",
+        "type": "CARD",
+        "reference": 246,
+        "artists": "Christophe Bultiau"
+    },
+    {
+        "id": 204,
+        "comment": "Egg of Wonders",
+        "type": "CARD",
+        "reference": 117,
+        "artists": "Mike Ackerman"
+    },
+    {
+        "id": 205,
+        "comment": "Feral Kodama",
+        "type": "CARD",
+        "reference": 355,
+        "artists": "Franck Hames, Jordi Versteege, Andrey Egorov"
+    },
+    {
+        "id": 206,
+        "comment": "Oversky Towship",
+        "type": "CARD",
+        "reference": 529,
+        "artists": "Jen Berger, Andrey Egorov"
+    },
+    {
+        "id": 207,
+        "comment": "Royal Judge",
+        "type": "CARD",
+        "reference": 45,
+        "artists": "Franck Hames, Jordi Versteege, Vitaliy Shushko"
+    },
+    {
+        "id": 208,
+        "comment": "Ruunin's Messenger",
+        "type": "CARD",
+        "reference": 176,
+        "artists": "Franck Hames, Jordi Versteege"
+    },
+    {
+        "id": 209,
+        "comment": "Shaytan Monstrosity",
+        "type": "CARD",
+        "reference": 302,
+        "artists": "Chang Yuan Jou"
+    },
+    {
+        "id": 210,
+        "comment": "Skyward Swordfish",
+        "type": "CARD",
+        "reference": 524,
+        "artists": "Jen Berger, Andrey Egorov"
+    },
+    {
+        "id": 211,
+        "comment": "Windborne Champion",
+        "type": "CARD",
+        "reference": 278,
+        "artists": "Christophe Bultiau"
+    },
+    {
+        "id": 212,
+        "comment": "Emerald Salamander",
+        "type": "CARD",
+        "reference": 523,
+        "artists": "Guille Garcia"
+    },
+    {
+        "id": 213,
+        "comment": "Firestorm",
+        "type": "CARD",
+        "reference": 244,
+        "artists": "Andrey Egorov"
+    },
+    {
+        "id": 214,
+        "comment": "Groundshaker",
+        "type": "CARD",
+        "reference": 237,
+        "artists": "Franck Hames, Jordi Versteege, Vitaliy Shushko"
+    },
+    {
+        "id": 215,
+        "comment": "Tale of the Old Turtle",
+        "type": "CARD",
+        "reference": 106,
+        "artists": "Mike Ackerman"
+    },
+    {
+        "id": 216,
+        "comment": "Wavecrafter",
+        "type": "CARD",
+        "reference": 126,
+        "artists": "Ibrahem Swaid"
+    },
+    {
+        "id": 217,
+        "comment": "Cannon Carrier",
+        "type": "CARD",
+        "reference": 224,
+        "artists": "Franck Hames, Jordi Versteege, Tokkun Studio"
+    },
+    {
+        "id": 218,
+        "comment": "Dream Reaver",
+        "type": "CARD",
+        "reference": 354,
+        "artists": "Franck Hames, Jordi Versteege, Vitaliy Shushko"
+    },
+    {
+        "id": 219,
+        "comment": "Hellfire",
+        "type": "CARD",
+        "reference": 358,
+        "artists": "Jordi Versteege, Andrey Egorov"
+    },
+    {
+        "id": 220,
+        "comment": "Illusion of Grandeur",
+        "type": "CARD",
+        "reference": 369,
+        "artists": "Vitaliy Shushko, Andrey Egorov"
+    },
+    {
+        "id": 221,
+        "comment": "Siege Engine",
+        "type": "CARD",
+        "reference": 42,
+        "artists": "Franck Hames, Jordi Versteege, Vitaliy Shushko"
+    },
+    {
+        "id": 222,
+        "comment": "Doomsday",
+        "type": "CARD",
+        "reference": 359,
+        "artists": "Franck Hames, Jordi Versteege, Andrey Egorov"
+    },
+    {
+        "id": 223,
+        "comment": "Yak Attack",
+        "type": "CARD",
+        "reference": 32,
+        "artists": "Jiahui Gao"
+    },
+    {
+        "id": 224,
+        "comment": "Meteor",
+        "type": "CARD",
+        "reference": 248,
+        "artists": "Franck Hames, Jordi Versteege, Andrey Egorov"
+    },
+    {
+        "id": 225,
+        "comment": "Flash Wind",
+        "type": "CARD",
+        "reference": 293,
+        "artists": "Conceptopolis"
+    }
+]
