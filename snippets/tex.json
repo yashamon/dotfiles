@@ -552,7 +552,6 @@
 "latconjecture": {
     "prefix": ["latconjecture"],
     "body": [
-      "",
       "\\begin{conjecture} \\label{conjecture_$1}",
       "$2",
       "\\end{conjecture}",
