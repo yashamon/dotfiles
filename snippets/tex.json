@@ -521,7 +521,6 @@
 "remark": {
     "prefix": ["latremark"],
     "body": [
-			"",
       "\\begin{remark} \\label{remark_$1}", 
       "$2", 
       "\\end{remark}",
