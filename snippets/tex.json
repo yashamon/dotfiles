@@ -543,7 +543,6 @@
 "example": {
     "prefix": ["example"],
     "body": [
-			"",
       "\\begin{example} \\label{example_$1}", 
       "\\end{example}",
       "$0"
