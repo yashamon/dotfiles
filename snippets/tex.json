@@ -540,7 +540,7 @@
     ],
     "description": "Add notation"
   }, 
-"example": {
+"latexample": {
     "prefix": ["example"],
     "body": [
       "\\begin{example} \\label{example_$1}", 
