@@ -508,7 +508,6 @@
 "question": {
     "prefix": "latquestion",
     "body": [
-			"",
       "\\begin{question} \\label{question_$1}", 
             "$2", 
       "\\end{question}",
