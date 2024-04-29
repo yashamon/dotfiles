@@ -574,7 +574,7 @@
  "Corollary": {
     "prefix": ["latcor"],
     "body": [
-      "\\begin{corollary} \\label{corollary_$1}", 
+      "\\begin{corollary} \\label{cor_$1}", 
       "$2",
       "\\end{corollary}",
       "",
