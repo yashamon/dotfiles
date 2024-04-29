@@ -548,7 +548,7 @@
     "description": "Add a example"
   },
 "latconjecture": {
-    "prefix": ["latconjecture"],
+    "prefix": ["latconjecture", "latconj"],
     "body": [
       "\\begin{conjecture} \\label{conjecture_$1}",
       "$2",
