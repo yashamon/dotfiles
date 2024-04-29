@@ -10,7 +10,7 @@ map({'i','n'},'<c-Tab>', function() vim.cmd('edit #') end, {} )
 -- map('n','<Tab>', function() require("harpoon.ui").nav_next() end,{})
 -- map('n','<S-Tab>', function() require("harpoon.ui").nav_prev() end, {})
 -- map('n',';hl', function() require("harpoon.ui").toggle_quick_menu() end, {})
-map('n', '<S>', Sentence, {})
+map('n', 'S', Sentence, {})
 
 
 -- commands
