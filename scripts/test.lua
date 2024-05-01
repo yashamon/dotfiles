@@ -6,6 +6,7 @@ x = {
   bar = "hello",
 }
 local y = 5
-print(y+2)
----@type Foo
+---@type integer
+x = 2.3
+print(x)
 
