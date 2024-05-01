@@ -7,6 +7,6 @@ x = {
 }
 local y = 5
 ---@type integer
-x = 2.3
+local x = 2.3
 print(x)
 
