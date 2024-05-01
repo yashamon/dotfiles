@@ -7,6 +7,6 @@ x = {
 }
 local y = 5
 ---@type integer
-local x = 2.3
-print(x)
+local z = 2.3
+print(z)
 
