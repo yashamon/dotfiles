@@ -5,7 +5,7 @@
 x = {
   bar = "hello",
 }
----@type number
+---@type integer
 local y
 y = print('blah')
 
