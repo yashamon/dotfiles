@@ -20,7 +20,7 @@
 #Requires AutoHotkey >=1.1.36 <2
 SetCapsLockState AlwaysOff
 CapsLock::Esc
-
+home::CapsLock
 #Space::
 send {F11}
 return
