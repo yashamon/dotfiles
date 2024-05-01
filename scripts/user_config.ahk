@@ -21,6 +21,9 @@
 SetCapsLockState AlwaysOff
 CapsLock::Esc
 
+#Space::
+send {F11}
+return
 return
 ;!Tab::!Esc
 !Esc::^!Tab
