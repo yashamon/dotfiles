@@ -149,6 +149,7 @@ end,},
 {'nvim-telescope/telescope.nvim', lazy = true, dependencies = "nvim-lua/plenary.nvim",
 },
 {'mg979/vim-visual-multi', lazy = false},
+
 })
 require('settings')
 require('functions')
