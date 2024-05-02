@@ -22,7 +22,7 @@ command('Keymap', "lua require('telescope.builtin').keymaps({layout_strategy='ve
 command('Cmd', "lua require('telescope.builtin').commands({layout_strategy='vertical',layout_config={width=0.9}})", {})
 command('Trim', "lua MiniTrailspace.trim()", {})
 command('Ctags', "lua Job('ctags -R C:/Users/Yasha/OneDrive/dotfiles/link.bib')", {})
-
+command('Snip', 'source C:/Users/Yasha/OneDrive/dotfiles/config/nvimnew/lua/snippets.lua', {})
 --Session
 local resession = require('resession')
 vim.keymap.set('n', '<leader>ss', resession.save)
