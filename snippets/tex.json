@@ -1534,6 +1534,13 @@
     ],
     "description": "cal I"
   },
+"caligraphic W": {
+    "prefix": ["cW"],
+    "body": [
+      "\\mathcal{W} $0"
+    ],
+    "description": "cal W"
+  },
 
 "caligraphic A": {
     "prefix": ["cA"],
