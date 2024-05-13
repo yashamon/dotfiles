@@ -386,6 +386,15 @@ ls.add_snippets("tex", {
 ls.add_snippets("tex", {
 	-- rec_ls is self-referencing. That makes this snippet 'infinite' eg. have as many
 	-- \item as necessary by utilizing a choiceNode.
+	s("footnote", {
+		t({"\\footnote}"}),
+		i("1",""),
+	}, { condition = not Is_math }),
+})
+
+ls.add_snippets("tex", {
+	-- rec_ls is self-referencing. That makes this snippet 'infinite' eg. have as many
+	-- \item as necessary by utilizing a choiceNode.
 	s("Ainf", {
 		t({"A _{\\infty}"}),
 		i("1",""),
