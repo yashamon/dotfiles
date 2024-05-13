@@ -350,6 +350,14 @@ end
 --   },
 -- }
 ls.add_snippets("tex", {
+	s("im", {
+		t({"\\image"}),
+		i("1",""),
+	}, { condition = Is_math }),
+})
+
+		
+ls.add_snippets("tex", {
 	s("times", {
 		t({"\\times"}),
 		i("1",""),
