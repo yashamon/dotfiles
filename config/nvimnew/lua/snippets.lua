@@ -349,6 +349,7 @@ end
 --     }, {condition = is_math}),
 --   },
 -- }
+
 ls.add_snippets("tex", {
 	s("im", {
 		t({"\\image"}),
