@@ -357,7 +357,6 @@ ls.add_snippets("tex", {
 	}, { condition = Is_math }),
 })
 
-		
 ls.add_snippets("tex", {
 	s("times", {
 		t({"\\times"}),
