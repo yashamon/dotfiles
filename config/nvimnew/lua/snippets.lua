@@ -349,6 +349,12 @@ end
 --     }, {condition = is_math}),
 --   },
 -- }
+ls.add_snippets("tex", {
+	s("times", {
+		t({"\\times"}),
+		i("1",""),
+	}, { condition = Is_math }),
+})
 
 ls.add_snippets("tex", {
 	s("neq", {
