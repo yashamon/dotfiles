@@ -351,16 +351,12 @@ end
 -- }
 
 ls.add_snippets("tex", {
-	-- rec_ls is self-referencing. That makes this snippet 'infinite' eg. have as many
-	-- \item as necessary by utilizing a choiceNode.
 	s("neq", {
 		t({"\\neq"}),
 		i("1",""),
 	}, { condition = Is_math }),
 })
 ls.add_snippets("tex", {
-	-- rec_ls is self-referencing. That makes this snippet 'infinite' eg. have as many
-	-- \item as necessary by utilizing a choiceNode.
 	s("equiv", {
 		t({"\\simu"}),
 		i("1",""),
@@ -368,24 +364,18 @@ ls.add_snippets("tex", {
 })
 
 ls.add_snippets("tex", {
-	-- rec_ls is self-referencing. That makes this snippet 'infinite' eg. have as many
-	-- \item as necessary by utilizing a choiceNode.
 	s("equiv", {
 		t({"\\sim"}),
 		i("1",""),
 	}, { condition = Is_math }),
 })
 ls.add_snippets("tex", {
-	-- rec_ls is self-referencing. That makes this snippet 'infinite' eg. have as many
-	-- \item as necessary by utilizing a choiceNode.
 	s("isom", {
 		t({"\\simeq"}),
 		i("1",""),
 	}, { condition = Is_math }),
 })
 ls.add_snippets("tex", {
-	-- rec_ls is self-referencing. That makes this snippet 'infinite' eg. have as many
-	-- \item as necessary by utilizing a choiceNode.
 	s("footnote", {
 		t({"\\footnote}"}),
 		i("1",""),
