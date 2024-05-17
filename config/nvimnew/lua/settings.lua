@@ -329,7 +329,7 @@ on_highlights = function(highlights, colors)
 		highlights.texInputFile = { fg = "#580058" }
 		vim.cmd("highlight Pmenu guibg=NONE")
         -- Pmenu = { bg = "#ffa546", fg = "#1e2030" },
-		highlights.Pmenu = { bg = "#ffa546", fg = "white", guibg = "NONE" }
+		highlights.Pmenu = { guibg = "NONE" }
 		highlights.texTypeStyle = { fg = "#427b58" }
 		highlights.texAbstract = highlights.texBeginEnd
 
