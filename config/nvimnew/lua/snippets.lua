@@ -393,7 +393,7 @@ ls.add_snippets("tex", {
 	s("footnote", {
 		t({"\\footnote{"}),
 		i("1",""),
-		t({"}"}),
+		t({" }"}),
 	}, { condition = not Is_math }),
 })
 
