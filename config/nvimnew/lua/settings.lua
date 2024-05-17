@@ -269,71 +269,71 @@ require("tokyonight").setup({
   --- function will be called with a Highlights and ColorScheme table
   ---@param highlights Highlights
   ---@param colors ColorScheme
-on_highlights = function(highlights, colors) 
-		highlights.SignColumn = {bg = "#ffa546"}
-		highlights.Normal = {bg = "#ffa546", fg = "black"}
-		highlights.DiagnosticSignError = { bg = "#ffa546" }
-		highlights.DiagnosticSignWarn = { bg = "#ffa546" }
-		highlights.DiagnosticSignInfo = { bg = "#ffa546" }
-		highlights.DiagnosticSignHint = { bg = "#ffa546" }
-		highlights.texType = { fg = "#808080" }
-		-- highlights.texMath = { fg = "#650000" }
-		highlights["@namespace"] = { fg = "#580058",
-    style = {}
-    }
-		highlights["@text.math"] = { fg = "darkgreen",
-    style = {}
-    }
-		highlights["@function"] = { fg = "#650000",
-    style = {}
-    }
-		highlights["@text.title"] = { fg = "darkblue",
-    style = {}
-    }
-		highlights["@text.environment"] = { fg = "#580058",
-    style = {}
-    }
-		highlights["@text.environment.name"] = { fg = "#00008b",
-    style = {}
-    }
-		highlights["@function.macro"] = { fg = "#af6000",
-    style = {}
-    }
-		highlights["@include"] = { fg = "#af6000",
-    style = {}
-    }
-		highlights["@punctuation.bracket"] = { fg = "darkred",
-    style = {}
-    }
-		highlights["@parameter"] = { fg = "darkblue",
-    style = {}
-    }
-		highlights["@text.reference"] = { fg = "#af6000",
-    style = {}
-    }
-		highlights["@operator"] = { fg = "darkred",
-    style = {}
-    }
-				highlights.TexSpecial = { fg = "#af6000" }
-		highlights.texDelimiter = { fg = "#af6000" }
-		highlights.texStatement = { fg = "#580058" }
-		highlights.texRefzone = { fg = "#af6000" }
-		highlights.texBeginEnd = { fg = "#00008b" }
-		highlights.texCite = { fg = "#af6000" }
-		highlights.Special = { fg = '#580058' }
-		highlights.Type = { fg = "#008800" }
-    highlights.Comment = { fg = "#af6000" }
-    highlights.String = { fg = "#580058" }
-    highlights.Operator = { fg = "#580058" }
-		highlights.texBeginEndName = { fg = "#af6000" }
-		highlights.texInputFile = { fg = "#580058" }
-		-- vim.cmd("highlight Pmenu guibg=NONE")
-        -- Pmenu = { bg = "#ffa546", fg = "#1e2030" },
-		-- highlights.Pmenu = { bg = "#ffa546", fg = "white", guibg = "NONE" }
-		highlights.texTypeStyle = { fg = "#427b58" }
-		highlights.texAbstract = highlights.texBeginEnd
-
-end,
+-- on_highlights = function(highlights, colors) 
+-- 		highlights.SignColumn = {bg = "#ffa546"}
+-- 		highlights.Normal = {bg = "#ffa546", fg = "black"}
+-- 		highlights.DiagnosticSignError = { bg = "#ffa546" }
+-- 		highlights.DiagnosticSignWarn = { bg = "#ffa546" }
+-- 		highlights.DiagnosticSignInfo = { bg = "#ffa546" }
+-- 		highlights.DiagnosticSignHint = { bg = "#ffa546" }
+-- 		highlights.texType = { fg = "#808080" }
+-- 		-- highlights.texMath = { fg = "#650000" }
+-- 		highlights["@namespace"] = { fg = "#580058",
+--     style = {}
+--     }
+-- 		highlights["@text.math"] = { fg = "darkgreen",
+--     style = {}
+--     }
+-- 		highlights["@function"] = { fg = "#650000",
+--     style = {}
+--     }
+-- 		highlights["@text.title"] = { fg = "darkblue",
+--     style = {}
+--     }
+-- 		highlights["@text.environment"] = { fg = "#580058",
+--     style = {}
+--     }
+-- 		highlights["@text.environment.name"] = { fg = "#00008b",
+--     style = {}
+--     }
+-- 		highlights["@function.macro"] = { fg = "#af6000",
+--     style = {}
+--     }
+-- 		highlights["@include"] = { fg = "#af6000",
+--     style = {}
+--     }
+-- 		highlights["@punctuation.bracket"] = { fg = "darkred",
+--     style = {}
+--     }
+-- 		highlights["@parameter"] = { fg = "darkblue",
+--     style = {}
+--     }
+-- 		highlights["@text.reference"] = { fg = "#af6000",
+--     style = {}
+--     }
+-- 		highlights["@operator"] = { fg = "darkred",
+--     style = {}
+--     }
+-- 				highlights.TexSpecial = { fg = "#af6000" }
+-- 		highlights.texDelimiter = { fg = "#af6000" }
+-- 		highlights.texStatement = { fg = "#580058" }
+-- 		highlights.texRefzone = { fg = "#af6000" }
+-- 		highlights.texBeginEnd = { fg = "#00008b" }
+-- 		highlights.texCite = { fg = "#af6000" }
+-- 		highlights.Special = { fg = '#580058' }
+-- 		highlights.Type = { fg = "#008800" }
+--     highlights.Comment = { fg = "#af6000" }
+--     highlights.String = { fg = "#580058" }
+--     highlights.Operator = { fg = "#580058" }
+-- 		highlights.texBeginEndName = { fg = "#af6000" }
+-- 		highlights.texInputFile = { fg = "#580058" }
+-- 		-- vim.cmd("highlight Pmenu guibg=NONE")
+--         -- Pmenu = { bg = "#ffa546", fg = "#1e2030" },
+-- 		-- highlights.Pmenu = { bg = "#ffa546", fg = "white", guibg = "NONE" }
+-- 		highlights.texTypeStyle = { fg = "#427b58" }
+-- 		highlights.texAbstract = highlights.texBeginEnd
+--
+-- end,
 })
 require("which-key").setup({
   plugins = {
@@ -443,7 +443,7 @@ undercurl = true,
         Comment = { fg = "#af6000" },
         String = { fg = "#580058" },
         Operator = { fg = "#580058" },
-				Pmenu = { bg = "#ffa546", fg = "#1e2030", guibg = "NONE"},
+				Pmenu = { bg = "#ffa546", fg = "#1e2030"},
 				-- Pmenu = { bg = "#ffa546", fg = "white" },
 				texTypeStyle = { fg = "#427b58" },
 		["@namespace"] = { fg = "#580058" },
