@@ -719,4 +719,12 @@ t({"","\\end{document}"}),
 -- will need to extend the table yourself instead of setting a new one.
 ]]
 require("luasnip/loaders/from_vscode").lazy_load({ paths = "C:/Users/yasha/OneDrive/dotfiles/snippets"})
+require("luasnip.loaders.from_lua").load({
+                paths = "~/.config/nvim/snippets/",
+                fs_event_providers = {
+                    autocmd = true,
+                    libuv = true,
+                },
+            })
+
 -- You can also use lazy loading so you only get in memory snippets of languages you use
