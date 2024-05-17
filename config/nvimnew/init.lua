@@ -16,7 +16,7 @@ vim.opt.rtp = lazypath
 --vim.opt.rtp:append(lazypath)
 require("lazy").setup({
 {'stevearc/resession.nvim'},
-{ 'sindrets/diffview.nvim', dependencies = 'nvim-lua/plenary.nvim', lazy = false },
+{ 'sindrets/diffview.nvim', dependencies = 'nvim-lua/plenary.nvim', lazy = true },
 -- {
 --     "yuki-yano/highlight-undo.nvim",
 --     config = function()
