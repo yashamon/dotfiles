@@ -683,7 +683,7 @@ require("yanky").setup({
     timer = 500,
   },
 })
-
+-- C:/Users/yasha/OneDrive/dotfiles/config/nvimnew/lua/snippets/all.lua
 --gitgutter
 -- require('gitsigns').setup{
 --   on_attach = function(bufnr)
