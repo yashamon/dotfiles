@@ -720,7 +720,7 @@ t({"","\\end{document}"}),
 ]]
 require("luasnip.loaders.from_lua").load({
                 paths = "~/.config/nvimnew/lua/",
-                fs_event_providers = {
+                -- fs_event_providers = {
                     -- autocmd = true,
                     -- libuv = true,
                 },
