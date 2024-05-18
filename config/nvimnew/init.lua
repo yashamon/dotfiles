@@ -12,8 +12,8 @@ if not vim.loop.fs_stat(lazypath) then
     lazypath,
   })
 end
-vim.opt.rtp = lazypath
---vim.opt.rtp:append(lazypath)
+--vim.opt.rtp = lazypath
+vim.opt.rtp:append(lazypath)
 require("lazy").setup({
 "MysticalDevil/inlay-hints.nvim",
     event = "LspAttach",
@@ -45,7 +45,7 @@ require("lazy").setup({
   "ibhagwan/fzf-lua",
   -- optional for icon support
   dependencies = { "nvim-tree/nvim-web-devicons" },
-	branch = "windows",
+	branch = "main",
   config = function()
     -- calling `setup` is optional for customization
     require("fzf-lua").setup({})
