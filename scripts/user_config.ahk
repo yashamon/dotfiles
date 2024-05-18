@@ -128,9 +128,6 @@ return
 #+n::
 Run nu C:\Users\yasha\OneDrive\dotfiles\scripts\neo.nu
 Return
-#j::
-Run nu C:\Users\yasha\OneDrive\dotfiles\scripts\neo.nu
-Return
 #e::
 Run microsoft-edge:https://this-page-intentionally-left-blank.org/
 ;Run "brave"
