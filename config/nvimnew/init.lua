@@ -35,43 +35,6 @@ require("lazy").setup({
     -- Use init for configuration, don't use the more common "config".
   end
 },
--- {  "aaronhallaert/advanced-git-search.nvim", config = function()
--- require("telescope").setup{
---             -- move this to the place where you call the telescope setup function
---   extensions = {
---     advanced_git_search = {
---                         -- See Config
---     -- fugitive or diffview
--- 			diff_plugin = "diffview",
--- 			-- customize git in previewer
--- 			-- e.g. flags such as { "--no-pager" }, or { "-c", "delta.side-by-side=false" }
--- 			git_flags = {},
--- 			-- customize git diff in previewer
--- 			-- e.g. flags such as { "--raw" }
--- 			git_diff_flags = {},
--- 			-- Show builtin git pickers when executing "show_custom_functions" or :AdvancedGitSearch
--- 			show_builtin_git_pickers = false,
---
--- 			-- Telescope layout setup
--- 			telescope_theme = {
--- 					function_name_1 = {
--- 							-- Theme options
--- 					},
--- 					function_name_2 = "dropdown",
--- 					-- e.g. realistic example
--- 					show_custom_functions = {
--- 							layout_config = { width = .9, height = .9 },
--- 					},
--- 		  }
--- 		}
---   }
--- }
-require("telescope").load_extension("advanced_git_search") end,
-    dependencies = {
-		"nvim-telescope/telescope.nvim",
-    "sindrets/diffview.nvim"}
-},
--- {'tpope/vim-fugitive'},
 {
   "ibhagwan/fzf-lua",
   -- optional for icon support
@@ -151,6 +114,20 @@ end,},
 {'mg979/vim-visual-multi', lazy = false},
 
 })
+-- luasnip
+require("luasnip/loaders/from_vscode").lazy_load({ paths = "C:/Users/yasha/OneDrive/dotfiles/snippets",  fs_event_providers = {
+                    autocmd = true,
+                    libuv = true}
+})
+require("luasnip.loaders.from_lua").lazy_load({
+                paths = "C:/Users/yasha/OneDrive/dotfiles/config/nvimnew/lua/snippets",
+                fs_event_providers = {
+                    autocmd = true,
+                    libuv = true,
+                },
+            })
+
+
 require('settings')
 require('functions')
 require('set')
