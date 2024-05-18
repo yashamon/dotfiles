@@ -114,7 +114,7 @@ end,},
 {'mg979/vim-visual-multi', lazy = false},
 
 })
-luasnip
+-- luasnip
 require("luasnip/loaders/from_vscode").load({ paths = "C:/Users/yasha/OneDrive/dotfiles/snippets",  fs_event_providers = {
                     autocmd = true,
                     libuv = true}
