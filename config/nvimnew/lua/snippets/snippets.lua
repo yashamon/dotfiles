@@ -391,7 +391,7 @@ ls.add_snippets("tex", {
 })
 ls.add_snippets("tex", {
 	s("footnote", {
-		t({"\\footnote{"}), i(1, "test"), t({"}"}),
+		t({"\\footnote{"}), i(1, "testuuu"), t({"}"}),
 	}, { condition = not Is_math }),
 })
 ls.add_snippets("tex", {
@@ -723,7 +723,7 @@ require("luasnip/loaders/from_vscode").lazy_load({ paths = "C:/Users/yasha/OneDr
                     libuv = true}
 })
 require("luasnip.loaders.from_lua").load({
-                paths = "~/.config/nvimnew/lua/snippets",
+                paths = "~/.config/nvimnew/lua/snippets/",
                 fs_event_providers = {
                     autocmd = true,
                     libuv = true,
