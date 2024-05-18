@@ -119,7 +119,7 @@ end,},
 --                     autocmd = true,
 --                     libuv = true}
 -- })
-require("luasnip.loaders.from_lua").load({
+ls_tracked_dofile("luasnip.loaders.from_lua").load({
                 paths = "C:/Users/yasha/OneDrive/dotfiles/config/nvimnew/lua/snippets",
                 fs_event_providers = {
                     autocmd = true,
