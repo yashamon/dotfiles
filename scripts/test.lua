@@ -8,4 +8,3 @@ x = {
 ---@type number
 local y
 y = print('blah')
-

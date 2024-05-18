@@ -329,14 +329,7 @@
        ],
     "description": "subset"
     },  
-   "image": {
-    "prefix": "im",
-    "body": [
-        "\\image $0"
-       ],
-    "description": "image"
-    },  
-
+   
 "tensor times": {
     "prefix": "ot",
     "body": [
@@ -345,13 +338,6 @@
     "description": "tensor times"
     },  
 
-"times": {
-    "prefix": "t",
-    "body": [
-        "\\times $0"
-       ],
-    "description": "times"
-    },  
 "quotes": {
     "prefix": "\"",
     "body": [
