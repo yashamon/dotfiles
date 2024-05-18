@@ -55,7 +55,8 @@ return {
         preloadFileSize = 50000
       },
       -- Do not send telemetry data containing a randomized but unique identifier
-      telemetry = { enable = false }
+      telemetry = { enable = false },
+			hint = { enable = true}
     }
   }
 }
