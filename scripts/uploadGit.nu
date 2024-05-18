@@ -5,7 +5,7 @@ git init
 git branch -M master
 touch .gitignore
 cp $"($env.HOMED)/workspacemodules/.gitignore" ./.gitignore
-sudo ln -s ./link.bib $"($env.HOMED)/workspacemodules/link.bib"  
+# sudo ln -s ./link.bib $"($env.HOMED)/workspacemodules/link.bib"  
 pwsh -s $"New-Item -ItemType SymbolicLink -Path ./link.bib  -Target ($env.HOMED)/workspacemodules/link.bib"
 git add .
 git commit -m "fist commit"
