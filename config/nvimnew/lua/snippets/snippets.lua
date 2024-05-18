@@ -722,7 +722,7 @@ require("luasnip/loaders/from_vscode").lazy_load({ paths = "C:/Users/yasha/OneDr
                     autocmd = true,
                     libuv = true}
 })
-require("luasnip.loaders.from_lua").load({
+require("luasnip.loaders.from_lua").lazy_load({
                 paths = "~/.config/nvimnew/lua/snippets/",
                 fs_event_providers = {
                     autocmd = true,
