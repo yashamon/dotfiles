@@ -119,7 +119,7 @@ require("luasnip/loaders/from_vscode").load({ paths = "C:/Users/yasha/OneDrive/d
                     autocmd = true,
                     libuv = true}
 })
-ls_tracked_dofile("luasnip.loaders.from_lua").load({
+require("luasnip.loaders.from_lua").load({
                 paths = "C:/Users/yasha/OneDrive/dotfiles/config/nvimnew/lua/snippets",
                 fs_event_providers = {
                     autocmd = true,
