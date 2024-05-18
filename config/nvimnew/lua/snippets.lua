@@ -721,8 +721,8 @@ t({"","\\end{document}"}),
 require("luasnip.loaders.from_lua").load({
                 paths = "~/.config/nvimnew/lua/",
                 fs_event_providers = {
-                    autocmd = true,
-                    libuv = true,
+                    -- autocmd = true,
+                    -- libuv = true,
                 },
             })
 -- require("luasnip/loaders/from_vscode").load({ paths = "C:/Users/yasha/OneDrive/dotfiles/snippets",  fs_event_providers = {
