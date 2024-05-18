@@ -119,6 +119,7 @@ require("luasnip/loaders/from_vscode").load({ paths = "C:/Users/yasha/OneDrive/d
                     autocmd = true,
                     libuv = true}
 })
+Reload = function()
 require("luasnip.loaders.from_lua").load({
                 paths = "C:/Users/yasha/OneDrive/dotfiles/config/nvimnew/lua/snippets",
                 fs_event_providers = {
@@ -126,7 +127,14 @@ require("luasnip.loaders.from_lua").load({
                     libuv = true,
                 },
             })
-
+					end
+require("luasnip.loaders.from_lua").load({
+                paths = "C:/Users/yasha/OneDrive/dotfiles/config/nvimnew/lua/snippets",
+                fs_event_providers = {
+                    autocmd = true,
+                    libuv = true,
+                },
+            })
 
 require('settings')
 require('functions')
