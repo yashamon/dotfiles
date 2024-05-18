@@ -391,7 +391,7 @@ ls.add_snippets("tex", {
 })
 ls.add_snippets("tex", {
 	s("footnote", {
-		t({"\\footnote{"}), i(1, "tust"), t({"}"}),
+		t({"\\footnote{"}), i(1, "test"), t({"}"}),
 	}, { condition = not Is_math }),
 })
 ls.add_snippets("tex", {
@@ -718,16 +718,16 @@ t({"","\\end{document}"}),
 -- Mind that this will extend  `ls.snippets` so you need to do it after your own snippets or you
 -- will need to extend the table yourself instead of setting a new one.
 ]]
--- require("luasnip.loaders.from_lua").load({
---                 paths = "~/.config/nvimnew/lua/",
---                 -- fs_event_providers = {
---                 --     autocmd = true,
---                 --     libuv = true,
---                 -- },
---             })
--- require("luasnip/loaders/from_vscode").load({ paths = "C:/Users/yasha/OneDrive/dotfiles/snippets",  fs_event_providers = {
---                     autocmd = true,
---                     libuv = true}
--- })
+require("luasnip/loaders/from_vscode").lazy_load({ paths = "C:/Users/yasha/OneDrive/dotfiles/snippets",  fs_event_providers = {
+                    autocmd = true,
+                    libuv = true}
+})
+require("luasnip.loaders.from_lua").load({
+                paths = "~/.config/nvimnew/lua/snippets",
+                fs_event_providers = {
+                    autocmd = true,
+                    libuv = true,
+                },
+            })
 
 -- You can also use lazy loading so you only get in memory snippets of languages you use
