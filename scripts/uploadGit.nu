@@ -5,6 +5,7 @@ git init
 git branch -M master
 touch .gitignore
 cp $"($env.HOMED)/workspacemodules/.gitignore" ./.gitignore
+ln -s $"($env.HOMED)/workspacemodules/link.bib" ./link.bib
 git add .
 git commit -m "fist commit"
 curl -u $"yashamon:($credential)" https://api.github.com/user/repos -d $'{"name":"($name)", "private":"true"}'
