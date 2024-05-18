@@ -35,6 +35,14 @@ require("lazy").setup({
     -- Use init for configuration, don't use the more common "config".
   end
 },
+require("lazy").setup({
+    "MysticalDevil/inlay-hints.nvim",
+    event = "LspAttach",
+    dependencies = { "neovim/nvim-lspconfig" },
+    config = function()
+        require("inlay-hints").setup()
+    end
+})
 {
   "ibhagwan/fzf-lua",
   -- optional for icon support
