@@ -110,7 +110,7 @@ end,},
 {'mbbill/undotree', cmd = "UndotreeToggle"},
 {'kevinhwang91/nvim-bqf', lazy = false},
 {'nvim-telescope/telescope.nvim', lazy = true, dependencies = "nvim-lua/plenary.nvim",
--- },
+},
 {'mg979/vim-visual-multi', lazy = false},
 
 })
