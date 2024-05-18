@@ -470,7 +470,7 @@ undercurl = true,
 })
 
 -- nvim LSP
-require('snippets')
+-- require('snippets')
 require("mason").setup()
 require("mason-lspconfig").setup()
 require("lspconfig")
