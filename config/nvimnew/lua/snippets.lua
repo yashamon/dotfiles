@@ -725,9 +725,9 @@ require("luasnip.loaders.from_lua").load({
                     libuv = true,
                 },
             })
-require("luasnip/loaders/from_vscode").load({ paths = "C:/Users/yasha/OneDrive/dotfiles/snippets",  fs_event_providers = {
-                    autocmd = true,
-                    libuv = true}
-})
+-- require("luasnip/loaders/from_vscode").load({ paths = "C:/Users/yasha/OneDrive/dotfiles/snippets",  fs_event_providers = {
+--                     autocmd = true,
+--                     libuv = true}
+-- })
 
 -- You can also use lazy loading so you only get in memory snippets of languages you use
