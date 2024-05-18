@@ -719,7 +719,7 @@ t({"","\\end{document}"}),
 -- will need to extend the table yourself instead of setting a new one.
 ]]
 require("luasnip.loaders.from_lua").load({
-                paths = "~/.config/nvim/snippets/",
+                paths = "~/.config/nvimnew/snippets/",
                 fs_event_providers = {
                     autocmd = true,
                     libuv = true,
