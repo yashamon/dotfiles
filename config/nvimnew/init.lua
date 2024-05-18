@@ -15,6 +15,12 @@ end
 vim.opt.rtp = lazypath
 --vim.opt.rtp:append(lazypath)
 require("lazy").setup({
+"MysticalDevil/inlay-hints.nvim",
+    event = "LspAttach",
+    dependencies = { "neovim/nvim-lspconfig" },
+    config = function()
+        require("inlay-hints").setup()
+    end,
 {'stevearc/resession.nvim'},
 { 'sindrets/diffview.nvim', dependencies = 'nvim-lua/plenary.nvim', lazy = true },
 -- {
@@ -35,14 +41,6 @@ require("lazy").setup({
     -- Use init for configuration, don't use the more common "config".
   end
 },
-require("lazy").setup({
-    "MysticalDevil/inlay-hints.nvim",
-    event = "LspAttach",
-    dependencies = { "neovim/nvim-lspconfig" },
-    config = function()
-        require("inlay-hints").setup()
-    end
-})
 {
   "ibhagwan/fzf-lua",
   -- optional for icon support
