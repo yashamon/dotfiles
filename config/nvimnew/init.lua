@@ -49,7 +49,7 @@ require("lazy").setup({
 {'gbprod/yanky.nvim', lazy = true},
 -- {'ThePrimeagen/harpoon', dependencies = "nvim-lua/plenary.nvim"},
 -- {'jose-elias-alvarez/null-ls.nvim', dependencies = "nvim-lua/plenary.nvim" },
-{'nvim-telescope/telescope-fzf-native.nvim', lazy = true},
+-- {'nvim-telescope/telescope-fzf-native.nvim', lazy = true},
 {'folke/todo-comments.nvim', lazy = true},
 {'L3MON4D3/LuaSnip', lazy = true },
 {'saadparwaiz1/cmp_luasnip', lazy = true},
@@ -110,7 +110,7 @@ end,},
 {'mbbill/undotree', cmd = "UndotreeToggle"},
 {'kevinhwang91/nvim-bqf', lazy = false},
 {'nvim-telescope/telescope.nvim', lazy = true, dependencies = "nvim-lua/plenary.nvim",
-},
+-- },
 {'mg979/vim-visual-multi', lazy = false},
 
 })
