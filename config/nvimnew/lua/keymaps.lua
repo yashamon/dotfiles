@@ -85,7 +85,7 @@ require('luasnip').jump(-1) end, {})
 map('n','<leader>w', function () vim.cmd('up') end, {})
 map('n','ga', vim.lsp.buf.code_action, {})
 map('n','o', 'o<space><esc>"_s', {})
-vim.keymap.set('n', '<leader>i', function() vim.lsp.inlay_hint.enable(not vim.lsp.inlay_hint.is_enabled()) end)
+-- vim.keymap.set('n', '<leader>i', function() vim.lsp.inlay_hint.enable(not vim.lsp.inlay_hint.is_enabled()) end)
 --quiting
 
 map('n', '<m-q>', function () vim.cmd{ cmd = 'wq', mods = {silent = true} } end, {})
