@@ -488,10 +488,6 @@ lspconfig.texlab.setup { on_attach = on_attach }
 -- after the language server attaches to the current buffer
 local on_attach = function(client, bufnr)
 local function buf_set_keymap(...) vim.api.nvim_buf_set_keymap(bufnr, ...) end
---
--- local function buf_set_option(...) vim.api.nvim_buf_set_option(bufnr, ...) end
--- Enable completion triggered by <c-x><c-o>
-buf_set_keymap('omnifunc', 'v:lua.vim.lsp.omnifunc')
 
 require'lspconfig'.lua_ls.setup {
   on_init = function(client)
@@ -526,7 +522,13 @@ require'lspconfig'.lua_ls.setup {
             enable = true
         } 
   }
-}
+}}
+
+--
+-- local function buf_set_option(...) vim.api.nvim_buf_set_option(bufnr, ...) end
+-- Enable completion triggered by <c-x><c-o>
+buf_set_keymap('omnifunc', 'v:lua.vim.lsp.omnifunc')
+
 -- require'lspconfig'.sumneko_lua.setup(require("config.lua-lsp"))
 -- require'lspconfig'.lua_ls.setup(require("lualsp")) -- Mappings.
 local opts = { noremap=true, silent=true }
