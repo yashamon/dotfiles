@@ -492,6 +492,7 @@ local function buf_set_keymap(...) vim.api.nvim_buf_set_keymap(bufnr, ...) end
 -- local function buf_set_option(...) vim.api.nvim_buf_set_option(bufnr, ...) end
 -- Enable completion triggered by <c-x><c-o>
 buf_set_keymap('omnifunc', 'v:lua.vim.lsp.omnifunc')
+
 require'lspconfig'.lua_ls.setup {
   on_init = function(client)
     local path = client.workspace_folders[1].name
@@ -520,7 +521,10 @@ require'lspconfig'.lua_ls.setup {
     })
   end,
   settings = {
-    Lua = {}
+   Lua = { 
+        hint = {
+            enable = true
+        } 
   }
 }
 -- require'lspconfig'.sumneko_lua.setup(require("config.lua-lsp"))
