@@ -477,6 +477,7 @@ require("lspconfig")
 -- LSP config
 local lspconfig = require("lspconfig")
 lspconfig.tsserver.setup { on_attach = on_attach }
+lspconfig.lua_ls.setup { on_attach = on_attach }
 lspconfig.jsonls.setup { on_attach = on_attach }
 lspconfig.rome.setup { on_attach = on_attach }
 lspconfig.vimls.setup { on_attach = on_attach }
