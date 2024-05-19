@@ -481,7 +481,7 @@ lspconfig.lua_ls.setup {  LspAttach  = on_attach }
 lspconfig.jsonls.setup {  LspAttach  = on_attach }
 lspconfig.rome.setup {  LspAttach  = on_attach }
 lspconfig.vimls.setup {  LspAttach  = on_attach }
-lspconfig.ltex.setup { autostart = false; on_attach = on_attach }
+lspconfig.ltex.setup { autostart = false; LspAttach = on_attach }
 lspconfig.texlab.setup {  LspAttach  = on_attach }
 -- lspconfig stuff    
 -- local nvim_lsp = require('lspconfig')
