@@ -476,13 +476,13 @@ require("mason-lspconfig").setup()
 require("lspconfig")
 -- LSP config
 local lspconfig = require("lspconfig")
-lspconfig.tsserver.setup { on_attach = on_attach }
-lspconfig.lua_ls.setup { on_attach = on_attach }
-lspconfig.jsonls.setup { on_attach = on_attach }
-lspconfig.rome.setup { on_attach = on_attach }
-lspconfig.vimls.setup { on_attach = on_attach }
+lspconfig.tsserver.setup {  LspAttach  = on_attach }
+lspconfig.lua_ls.setup {  LspAttach  = on_attach }
+lspconfig.jsonls.setup {  LspAttach  = on_attach }
+lspconfig.rome.setup {  LspAttach  = on_attach }
+lspconfig.vimls.setup {  LspAttach  = on_attach }
 lspconfig.ltex.setup { autostart = false; on_attach = on_attach }
-lspconfig.texlab.setup { on_attach = on_attach }
+lspconfig.texlab.setup {  LspAttach  = on_attach }
 -- lspconfig stuff    
 -- local nvim_lsp = require('lspconfig')
 -- Use an on_attach function to only map the following keys
