@@ -518,10 +518,10 @@ require'lspconfig'.lua_ls.setup {
     })
   end,
   settings = {
-   Lua = { 
+   Lua = {
         hint = {
             enable = true
-        } 
+        }
   }
 }}
 

@@ -1,4 +1,4 @@
-local map = vim.keymap.set
+local map= vim.keymap.set
 local command = vim.api.nvim_create_user_command
 vim.keymap.set({'n', 'v'}, '<leader>lr', vim.lsp.buf.references, { buffer=true })
 map('t', '<m-p>', [[getreg('+')]], {expr = true})
