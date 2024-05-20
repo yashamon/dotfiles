@@ -524,6 +524,7 @@ on_init = function(client)
 require("lspconfig").lua_ls.setup({
   settings = {
     Lua = {
+			inlay_hint = { enable = true},
       hint = {
         enable = true, -- necessary
       }
