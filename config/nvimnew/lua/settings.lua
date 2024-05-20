@@ -519,9 +519,6 @@ require'lspconfig'.lua_ls.setup {
   end,
   settings = {
    Lua = {
-        hint = {
-            enable = true
-        }
   }
 }}
 
