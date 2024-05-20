@@ -521,6 +521,15 @@ require'lspconfig'.lua_ls.setup {
    Lua = {
   }
 }}
+require("lspconfig").lua_ls.setup({
+  settings = {
+    Lua = {
+      hint = {
+        enable = true, -- necessary
+      }
+    }
+  }
+})
 
 --
 -- local function buf_set_option(...) vim.api.nvim_buf_set_option(bufnr, ...) end
