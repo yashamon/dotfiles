@@ -536,7 +536,7 @@
 "latconjecture": {
     "prefix": ["latcon"],
     "body": [
-      "\\begin{conjecture} \\label{conjecture_$1}",
+      "\\begin{conjecture} \\label{con_$1}",
       "$2",
       "\\end{conjecture}",
       "",
