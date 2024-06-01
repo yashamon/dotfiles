@@ -1308,27 +1308,6 @@
     ],
     "description": "mathfrak g"
   },
-"rho": {
-    "prefix": ["rho", "\\e"],
-    "body": [
-      "\\rho $0"
-    ],
-    "description": "rho"
-  },
-"Theta": {
-    "prefix": ["Th", "\\Th"],
-    "body": [
-      "\\Theta $0"
-    ],
-    "description": "Theta"
-  },
-	"theta": {
-    "prefix": ["th", "\\th"],
-    "body": [
-      "\\theta $0"
-    ],
-    "description": "theta"
-  },
 "nabla": {
     "prefix": ["nabla"],
     "body": [
@@ -1336,21 +1315,7 @@
     ],
     "description": "nabla"
   },
-"gamma": {
-    "prefix": ["g", "ga"],
-    "body": [
-      "\\gamma $0"
-    ],
-    "description": "gamma"
-},
 
-"Gamma": {
-    "prefix": ["G"],
-    "body": [
-      "\\Gamma $0"
-    ],
-    "description": "Gamma"
-  },
 "Delta d-simplex bullet": {
     "prefix": ["Ddb"],
     "body": [
