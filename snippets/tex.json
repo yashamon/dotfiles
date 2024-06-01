@@ -546,7 +546,7 @@
   },
 
  "latlemma": {
-    "prefix": ["latlemma"],
+    "prefix": ["latlem"],
     "body": [
       "\\begin{lemma} \\label{lemma_$1}",
       "$2",
