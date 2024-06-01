@@ -349,6 +349,20 @@ end
 --     }, {condition = is_math}),
 --   },
 -- }
+-- latex
+ls.add_snippets("tex", {
+	s("G", {
+		t({"\\Gamma"}),
+		i("1",""),
+	}, { condition = Is_math }),
+})
+
+ls.add_snippets("tex", {
+	s("D", {
+		t({"\\Delta"}),
+		i("1",""),
+	}, { condition = Is_math }),
+})
 
 ls.add_snippets("tex", {
 	s("im", {
