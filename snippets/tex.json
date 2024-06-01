@@ -515,10 +515,10 @@
     "description": "remark"
   },
  "notation":{
-    "prefix": ["latnotation"],
+    "prefix": ["latnot"],
     "body": [
       "\\begin{notation}", 
-      "\\label{notation_$1}",
+      "\\label{not_$1}",
       "\\end{notation}",
       "$0"
     ],
