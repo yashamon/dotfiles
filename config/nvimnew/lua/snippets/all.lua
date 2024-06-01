@@ -351,7 +351,21 @@ end
 -- }
 -- latex
 ls.add_snippets("tex", {
-	s("ga", {
+	s("Th", {
+		t({"\\Theta"}),
+		i("1",""),
+	}, { condition = Is_math }),
+})
+
+ls.add_snippets("tex", {
+	s("th", {
+		t({"\\theta"}),
+		i("1",""),
+	}, { condition = Is_math }),
+})
+
+ls.add_snippets("tex", {
+	s("g", {
 		t({"\\gamma"}),
 		i("1",""),
 	}, { condition = Is_math }),
