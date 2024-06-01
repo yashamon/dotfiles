@@ -388,7 +388,7 @@
     }, 
 
 "Align numbered": {
-    "prefix": ["alignn"],
+    "prefix": ["latalin"],
     "body": [
         "\\begin{align} \\label{equation_$1}",
         "\t$0",    
