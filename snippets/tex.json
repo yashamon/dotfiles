@@ -504,9 +504,9 @@
   },
 
 "remark": {
-    "prefix": ["latremark"],
+    "prefix": ["latrem"],
     "body": [
-      "\\begin{remark} \\label{remark_$1}", 
+      "\\begin{remark} \\label{rem_$1}", 
       "$2", 
       "\\end{remark}",
       "$0",
