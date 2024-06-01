@@ -527,7 +527,7 @@
 "latexample": {
     "prefix": ["latexa"],
     "body": [
-      "\\begin{example} \\label{example_$1}", 
+      "\\begin{example} \\label{exa_$1}", 
       "\\end{example}",
       "$0"
    ],
