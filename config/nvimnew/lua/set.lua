@@ -73,6 +73,7 @@ vim.cmd [[let $FZF_DEFAULT_OPTS = '--bind ctrl-a:select-all'
 --neovide
 -- vim.cmd [[let g:neovide_profiler = v:true]]
 g.neovide_fullscreen = true
+g.neovide_frame = "none"
 -- vim.cmd [[let g:neovide_refresh_rate = 120]]
 g.neovide_floating_blur_amount_x = 2.0
 g.neovide_floating_blur_amount_y = 2.0
