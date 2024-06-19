@@ -130,7 +130,7 @@ Run nu C:\Users\yasha\OneDrive\dotfiles\scripts\neo.nu
 Return
 #e::
 Run microsoft-edge:https://this-page-intentionally-left-blank.org/
-;Run "brave"
+;Run "brave" 
 ;Run "chrome"
 Return   
 #+j::
@@ -140,15 +140,6 @@ Return
 #+Break::
     Run "neo" "d:\AutoHotkey.ahk"
     Return
-CapsLock & Numpad1::switchDesktopByNumber(1)
-CapsLock & Numpad2::switchDesktopByNumber(2)
-CapsLock & Numpad3::switchDesktopByNumber(3)
-CapsLock & Numpad4::switchDesktopByNumber(4)
-CapsLock & Numpad5::switchDesktopByNumber(5)
-CapsLock & Numpad6::switchDesktopByNumber(6)
-CapsLock & Numpad7::switchDesktopByNumber(7)
-CapsLock & Numpad8::switchDesktopByNumber(8)
-CapsLock & Numpad9::switchDesktopByNumber(9)
 #X::
 WinClose A 
 return
