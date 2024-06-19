@@ -33,18 +33,18 @@ echo "done"
 #pwsh -nop -c ~\scoop\apps\sudo\current\sudo.ps1 New-Item -ItemType SymbolicLink -Path "$HOME/.$file" -Target "$dir/$file" 
 #$files = Get-ChildItem $HOME/OneDrive/dotfiles/scripts
 #$foreach ($file in $files) echo "my file is $file" New-Item -ItemType SymbolicLink -Path "$HOME/.local/bin/$file" "$HOME/dotfiles/scripts/$file" } 
-rm ~/.config 
+rm -r ~/.config 
 # echo "link config"
 pwsh -nop -c ~\scoop\apps\sudo\current\sudo.ps1 New-Item -ItemType SymbolicLink -Path "$HOME/.config" -Target "$HOME/OneDrive/dotfiles/config" 
 mkdir ~/.ctags.d
-rm ~/.ctags.d/latex.ctags 
+rm -r ~/.ctags.d/latex.ctags 
 pwsh -nop -c ~\scoop\apps\sudo\current\sudo.ps1 New-Item -ItemType SymbolicLink -Path "$HOME/.ctags.d/latex.ctags" -Target "$HOME/OneDrive/dotfiles/ctags"
 rm -r C:/Users/yasha/AppData/Roaming/nushell/config.nu 
 pwsh -nop -c ~\scoop\apps\sudo\current\sudo.ps1 New-Item -ItemType SymbolicLink -Path "$HOME/AppData/Roaming/nushell/config.nu" -Target $HOME/OneDrive/dotfiles/config/nushell/config.nu
 rm -r C:/Users/yasha/AppData/Roaming/nushell/env.nu 
 pwsh -nop -c ~\scoop\apps\sudo\current\sudo.ps1 New-Item -ItemType SymbolicLink -Path "$HOME/AppData/Roaming/nushell/env.nu" -Target $HOME/OneDrive/dotfiles/config/nushell/env.nu
-rm $HOME/scoop/apps/sumatrapdf/current/SumatraPDF-settings.txt 
-nu -c "~\scoop\apps\sudo\current\sudo.ps1 ln -s $HOME/OneDrive/dotfiles/config/sumatra/SumatraPDF-settings.txt $HOME/scoop/apps/sumatrapdf/current/SumatraPDF-settings.txt"
+rm -r $HOME/scoop/apps/sumatrapdf/current/SumatraPDF-settings.txt 
+pwsh -nop -c ~\scoop\apps\sudo\current\sudo.ps1 New-Item -ItemType SymbolicLink -Path $HOME/scoop/apps/sumatrapdf/current/SumatraPDF-settings.txt -Target $HOME/OneDrive/dotfiles/config/sumatra/SumatraPDF-settings.txt
 rm $HOME/textmf/bibtex/bib/link
 mkdir -p $HOME/textmf/bibtex/bib
 nu -c "~\scoop\apps\sudo\current\sudo.ps1 ln -s $HOME/OneDrive/workspacemodules/link.bib $HOME/OneDrive/scoop/apps/sumatrapdf/current/SumatraPDF-settings.txt"
