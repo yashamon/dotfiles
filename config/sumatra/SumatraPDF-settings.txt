@@ -3197,5 +3197,3 @@ TimeOfLastUpdateCheck = 0 0
 OpenCountWeek = 667
 
 # Settings below are not recognized by the current version
-"C = \Users\yasha\dotfiles\scripts\remote2.nu" %l $
-https = //www.sumatrapdfreader.org/settings/settings3-4-6.html
