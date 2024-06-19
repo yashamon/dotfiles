@@ -45,9 +45,9 @@ rm -r C:/Users/yasha/AppData/Roaming/nushell/env.nu
 pwsh -nop -c ~\scoop\apps\sudo\current\sudo.ps1 New-Item -ItemType SymbolicLink -Path "$HOME/AppData/Roaming/nushell/env.nu" -Target $HOME/OneDrive/dotfiles/config/nushell/env.nu
 rm -r $HOME/scoop/apps/sumatrapdf/current/SumatraPDF-settings.txt 
 pwsh -nop -c ~\scoop\apps\sudo\current\sudo.ps1 New-Item -ItemType SymbolicLink -Path $HOME/scoop/apps/sumatrapdf/current/SumatraPDF-settings.txt -Target $HOME/OneDrive/dotfiles/config/sumatra/SumatraPDF-settings.txt
-rm $HOME/textmf/bibtex/bib/link
+rm -r $HOME/textmf/bibtex/bib/link
 mkdir -p $HOME/textmf/bibtex/bib
-nu -c "~\scoop\apps\sudo\current\sudo.ps1 ln -s $HOME/OneDrive/workspacemodules/link.bib $HOME/OneDrive/scoop/apps/sumatrapdf/current/SumatraPDF-settings.txt"
+pwsh -nop -c ~\scoop\apps\sudo\current\sudo.ps1 New-Item -ItemType SymbolicLink -Path $HOME/OneDrive/scoop/apps/sumatrapdf/current/SumatraPDF-settings.txt -Target $HOME/OneDrive/workspacemodules/link.bib
 
 rm $HOME/Users/yasha/AppData/Local/nvim 
 pwsh -nop -c ~\scoop\apps\sudo\current\sudo.ps1 New-Item -ItemType SymbolicLink -Path "$HOME/AppData/Local/nvim" -Target "$HOME/OneDrive/dotfiles/config/nvimnew"
