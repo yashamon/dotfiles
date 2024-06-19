@@ -81,20 +81,25 @@ return
 ;}
 ;Return
 #A::
-SendEvent !1
-return
+switchDesktopByNumber(1)
+;SendEvent !1
+;return
 return
 #S::
-SendEvent !2
+switchDesktopByNumber(2)
+;SendEvent !2
 return
 #C::
-SendEvent !3
+switchDesktopByNumber(3)
+;SendEvent !3
 return
 #F::
-SendEvent !4
+switchDesktopByNumber(4)
+;SendEvent !4
 return
 #Z::
-SendEvent !7
+switchDesktopByNumber(7)
+;SendEvent !7
 return
 #!h::
 return
