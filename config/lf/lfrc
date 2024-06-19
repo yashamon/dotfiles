@@ -1,7 +1,6 @@
 set ratios 1:2:3
 set filesep ' '
-set shell nu
-# set shell pwsh.bat
+set shell pwshnop.bat
 
 
 # set shell "C:\\Users\\yasha\\scoop\\shims\\nu.exe"
