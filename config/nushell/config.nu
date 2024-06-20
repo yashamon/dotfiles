@@ -9,7 +9,7 @@ let HOME = $"($env.HOMEPATH)"
 let HOMED = $"($HOME)/OneDrive"
 ~\scoop\apps\sudo\current\sudo.ps1
 def keyGH [] { open $"($HOMED)/authenticateGH.txt" }
-def sudo [command:string] {~\scoop\apps\sudo\current\sudo.ps1 $command}
+def sudo [command:string] {pwsh -c $"~\scoop\apps\sudo\current\sudo.ps1 ($command)"}
 
 def uploadGit [name:string] { 
 let key = (keyGH)
