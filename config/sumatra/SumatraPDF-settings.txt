@@ -1,10 +1,12 @@
-﻿# For documentation, see https://www.sumatrapdfreader.org/settings/settings3-4-6.html
+﻿# For documentation, see https://www.sumatrapdfreader.org/settings/settings3-5-1.html
+Theme = Light
 FixedPageUI [
 	TextColor = #000000
 	BackgroundColor = #ffa546
 	SelectionColor = #f5fc0c
 	WindowMargin = 2 4 2 4
 	PageSpacing = 4 4
+	InvertColors = false
 	HideScrollbars = true
 ]
 ComicBookUI [
@@ -36,6 +38,11 @@ ForwardSearch [
 Annotations [
 	HighlightColor = #ffff00
 	UnderlineColor = #00ff00
+	SquigglyColor = #ff00ff
+	StrikeOutColor = #ff0000
+	FreeTextColor = 
+	FreeTextSize = 12
+	FreeTextBorderWidth = 1
 	TextIconColor = #ffff00
 	TextIconType = 
 	DefaultAuthor = 
@@ -87,7 +94,7 @@ Shortcuts [
 		Key = Alt+g
 	]
 	[
-		Cmd = CmdZoomFitContent 
+		Cmd = CmdZoomFitContent
 		Key = a
 	]
 	[
@@ -109,15 +116,18 @@ ShowMenubar = true
 ShowToolbar = false
 ShowFavorites = false
 ShowToc = true
+NoHomeTab = false
 TocDy = 0
 SidebarDx = 364
 ToolbarSize = 18
 TabWidth = 300
 TreeFontSize = 0
+TreeFontWeightOffset = 0
+TreeFontName = automatic
 SmoothScroll = false
 ShowStartPage = true
 CheckForUpdates = false
-WindowState = 3
+WindowState = 2
 WindowPos = -13 0 1920 1920
 UseTabs = true
 UseSysColors = false
@@ -142,14 +152,14 @@ FileStates [
 		]
 		IsPinned = false
 		IsMissing = false
-		OpenCount = 6
+		OpenCount = 2
 		UseDefaultState = false
 		DisplayMode = continuous
-		ScrollPos = 83.1075 64.4055
-		PageNo = 3
+		ScrollPos = 79.8373 118.178
+		PageNo = 1
 		Zoom = fit content
 		Rotation = 0
-		WindowState = 3
+		WindowState = 2
 		WindowPos = -13 0 1920 1920
 		ShowToc = false
 		SidebarDx = 364
@@ -206,14 +216,14 @@ FileStates [
 		]
 		IsPinned = false
 		IsMissing = false
-		OpenCount = 7
+		OpenCount = 1
 		UseDefaultState = false
 		DisplayMode = continuous
-		ScrollPos = 79.8056 118.235
+		ScrollPos = 79.7949 118.115
 		PageNo = 1
 		Zoom = fit content
 		Rotation = 0
-		WindowState = 3
+		WindowState = 2
 		WindowPos = -13 0 1920 1920
 		ShowToc = false
 		SidebarDx = 364
@@ -246,7 +256,7 @@ FileStates [
 		]
 		IsPinned = false
 		IsMissing = false
-		OpenCount = 1
+		OpenCount = 0
 		UseDefaultState = false
 		DisplayMode = continuous
 		ScrollPos = -1 -1
@@ -266,7 +276,7 @@ FileStates [
 		]
 		IsPinned = false
 		IsMissing = false
-		OpenCount = 2
+		OpenCount = 0
 		UseDefaultState = false
 		DisplayMode = continuous
 		ScrollPos = -1 -1
@@ -286,7 +296,7 @@ FileStates [
 		]
 		IsPinned = false
 		IsMissing = false
-		OpenCount = 5
+		OpenCount = 0
 		UseDefaultState = false
 		DisplayMode = continuous
 		ScrollPos = -1 -1
@@ -306,7 +316,7 @@ FileStates [
 		]
 		IsPinned = false
 		IsMissing = false
-		OpenCount = 2
+		OpenCount = 0
 		UseDefaultState = false
 		DisplayMode = continuous
 		ScrollPos = -1 -1
@@ -3169,31 +3179,22 @@ SessionData [
 	[
 		TabStates [
 			[
-				FilePath = C:\Users\yasha\OneDrive\workspacemodules\conformalsymplectic\build\conformalsymplectic.pdf
+				FilePath = C:\Users\yasha\OneDrive\workspacemodules\GromovFuller\build\GromovFuller.pdf
 				DisplayMode = continuous
 				PageNo = 1
 				Zoom = fit content
 				Rotation = 0
-				ScrollPos = 79.8056 118.235
-				ShowToc = false
-			]
-			[
-				FilePath = C:\Users\yasha\OneDrive\workspacemodules\GromovFuller\build\GromovFuller.pdf
-				DisplayMode = continuous
-				PageNo = 3
-				Zoom = fit content
-				Rotation = 0
-				ScrollPos = 83.1075 64.4055
+				ScrollPos = 79.8373 118.178
 				ShowToc = false
 			]
 		]
-		TabIndex = 2
-		WindowState = 3
+		TabIndex = 1
+		WindowState = 2
 		WindowPos = -13 0 1920 1920
 		SidebarDx = 364
 	]
 ]
 TimeOfLastUpdateCheck = 0 0
-OpenCountWeek = 667
+OpenCountWeek = 702
 
 # Settings below are not recognized by the current version
