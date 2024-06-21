@@ -101,7 +101,7 @@ switchDesktopByNumber(4)
 ;SendEvent !4
 return
 #Z::
-switchDesktopByNumber(7)
+switchDesktopByNumber(5)
 ;SendEvent !7
 return
 #!h::
