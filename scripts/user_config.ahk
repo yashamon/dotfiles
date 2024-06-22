@@ -137,7 +137,7 @@ return
 Run nu C:\Users\yasha\OneDrive\dotfiles\scripts\neo.nu
 Return
 #e::
-Run microsoft-edge:https://this-page-intentionally-left-blank.org/
+Run microsoft-edge:https://this-page-intentionally-left-blank.org/ --start-fullscreen
 ;Run "brave" 
 ;Run "chrome"
 Return   
