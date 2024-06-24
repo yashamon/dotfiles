@@ -581,7 +581,7 @@
     "description": "Add a theorem"
   },
     "Proof": {
-    "prefix": "latprf",
+    "prefix": "latprf, latproof",
     "body": [
       "\\begin{proof} [Proof$1]",
       "$2",
