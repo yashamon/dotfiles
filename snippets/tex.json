@@ -443,7 +443,7 @@
     "description": "Chapter"
   },
   "Description": {
-    "prefix": "description",
+    "prefix": "latdes",
     "body": [
       "\\\\begin{description}",
       "\\item[$1] $0",
