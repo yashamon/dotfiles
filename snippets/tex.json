@@ -298,6 +298,14 @@
        ],
     "description": "sup"
     }, 
+"max": {
+    "prefix": "max",
+    "body": [
+        "\\max $0"
+       ],
+    "description": "sup"
+    }, 
+
 "colimit": {
     "prefix": "colim",
     "body": [
