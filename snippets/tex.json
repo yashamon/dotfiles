@@ -540,9 +540,9 @@
     "description": "Add notation"
   }, 
 "latexample": {
-    "prefix": ["latexa"],
+    "prefix": ["latexa", "latexm"],
     "body": [
-      "\\begin{example} \\label{exa_$1}", 
+      "\\begin{example} \\label{exm_$1}", 
       "\\end{example}",
       "$0"
    ],
