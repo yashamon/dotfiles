@@ -450,7 +450,7 @@ tex = {
 s({
 trig = "test",
 },
-{ t({"dude"}), i(1, "snippet"),  t({"dude"})
+{ t({"dudo"}), i(1, "snippet"),  t({"dude"})
 })
 },
 })
