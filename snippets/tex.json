@@ -305,6 +305,13 @@
        ],
     "description": "sup"
     }, 
+"area": {
+    "prefix": "area",
+    "body": [
+        "\\area $0"
+       ],
+    "description": "sup"
+    }, 
 
 "colimit": {
     "prefix": "colim",
