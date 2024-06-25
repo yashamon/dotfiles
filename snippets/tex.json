@@ -482,7 +482,7 @@
     "description": "Add a Equation"
   }, 
  "proposition": {
-    "prefix": ["latpro", "latpro"],
+    "prefix": ["latprp", "latpro"],
     "body": [
       "\\begin{proposition} \\label{pro_$1}",   
             "$2",
