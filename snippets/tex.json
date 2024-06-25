@@ -1151,7 +1151,7 @@
     }, 
 
     "Itemize": {
-        "prefix": ["latitemize", "\\itemize"],
+        "prefix": ["latitm"],
         "body": [
             "\\begin{itemize}",
             "\t\\item $1",
