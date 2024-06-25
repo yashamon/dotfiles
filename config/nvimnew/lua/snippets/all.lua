@@ -446,7 +446,7 @@ ls.add_snippets("tex", {
 })
 
 ls.add_snippets(nil, {
-all = {
+tex = {
 s({
 trig = "test",
 },
