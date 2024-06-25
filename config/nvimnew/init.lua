@@ -131,14 +131,6 @@ require("luasnip.loaders.from_lua").load({
                 },
             })
 					end
-require("luasnip.loaders.from_lua").load({
-                paths = "C:/Users/yasha/OneDrive/dotfiles/config/nvimnew/lua/snippets",
-                fs_event_providers = {
-                    autocmd = true,
-                    libuv = true,
-                },
-            })
-
 -- vim.lsp.inlay_hint.enable(not vim.lsp.inlay_hint.is_enabled())
 require('settings')
 require('functions')
