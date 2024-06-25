@@ -450,7 +450,7 @@ all = {
 s({
 trig = "test",
 },
-{ t({"duda"}), i(1, "snippet"),  t({"dude"})
+{ t({"duda"}), i(1, "snippet"),  t({"dudy"})
 })
 },
 })
