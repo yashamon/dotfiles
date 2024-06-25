@@ -1162,7 +1162,7 @@
     },
     
 "Problem": {
-        "prefix": ["problem", "\\problem"],
+        "prefix": ["latprb"],
         "body": [
             "\\begin{problem}[${1:name of the problem}]",
             "\t$0",
