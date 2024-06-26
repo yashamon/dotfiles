@@ -34,6 +34,8 @@ WriteSentence = function()
 		end
 	end
 	local temp = io.open(tempfile, 'w')
+	handle_name, err = io.open(tempfile,"w")
+  print(err)
 	temp:write(string)
 	temp:close()
 end
