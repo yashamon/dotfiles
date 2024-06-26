@@ -654,7 +654,7 @@
     "prefix": ["latapp"],
     "body": [
       "\\begin{appendices}",
-			"\\section{$1} \\label{sec_$1}"
+			"\\section{$1} \\label{sec_$1}",
 			"\\end{appendices}"
       ],
     "description": "Section"
