@@ -6,7 +6,7 @@ GetFilename = function(path)
 end
 WriteSentence = function()
 	local filenameshort = vim.fn.bufname()
-	Tempfile = 'C:\\Users\\yasha\\tmp\\@s_' .. filenameshort
+	local tempfile = 'C:\\Users\\yasha\\tmp\\@s_' .. filenameshort
 	-- local filename = vim.fn.expand('%:p')
 	local lines = vim.api.nvim_buf_get_lines(0, 0,-1, {strictindexing = false})
 	Newlines = {}
@@ -34,8 +34,6 @@ WriteSentence = function()
 		end
 	end
 	local temp = io.open(tempfile, 'w')
--- 	handle_name, err = io.open(tempfile,"w")
--- print(err)
 	temp:write(string)
 	temp:close()
 end
