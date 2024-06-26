@@ -85,7 +85,7 @@ LoadLine = function()
 	-- local filenameshort = GetFilename(vim.fn.bufname())
 	local filenameshort = vim.fn.bufname()
   -- vim.fn.jobwait({Idline})
-  local commandline = "lg " .. "/tmp/@l_" .. filenameshort
+  local commandline = "lg " .. "C:/Users/yasha/tmp/@l_" .. filenameshort
 	vim.cmd(commandline)
 end
 LoadSentence = function()
