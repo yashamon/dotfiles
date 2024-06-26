@@ -34,8 +34,7 @@ WriteSentence = function()
 		end
 	end
 	-- local temp = io.open(tempfile, 'w')
-	Tempfile = 'C:\\tmp\\@s_' .. filenameshort
-	handle_name, err = io.open(Tempfile,"w")
+	handle_name, err = io.open(tempfile,"w")
 print(err)
 	temp:write(string)
 	temp:close()
