@@ -92,7 +92,7 @@ LoadSentence = function()
 	-- local filenameshort = getFilename(vim.fn.bufname())
   local filenameshort = vim.fn.bufname()
   -- vim.fn.jobwait({IdSentence})
-  local commandsentence = "lg " .. "/tmp/@s_" .. filenameshort
+  local commandsentence = "lg " .. "C:/Users/yasha/tmp/@s_" .. filenameshort
   vim.cmd(commandsentence)
 end
 CG = function()
