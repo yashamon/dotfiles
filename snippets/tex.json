@@ -360,21 +360,13 @@
        ],
     "description": "subset"
     },  
- "times": {
-    "prefix": "t",
-    "body": [
-        "\\times $0"
-       ],
-    "description": "times"
-    },  
-  
 "tensor times": {
     "prefix": "ot",
     "body": [
         "\\otimes $0"
        ],
     "description": "tensor times"
-    },  
+},  
 
 "quotes": {
     "prefix": "\"",
