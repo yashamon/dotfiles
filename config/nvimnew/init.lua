@@ -131,15 +131,15 @@ require("luasnip/loaders/from_vscode").load({ paths = "C:/Users/yasha/OneDrive/d
                     -- autocmd = true,
                     -- libuv = true} 
 })
-Reload = function()
+-- Reload = function()
 require("luasnip.loaders.from_lua").load({
                 paths = "C:/Users/yasha/OneDrive/dotfiles/config/nvimnew/lua/snippets/all.lua",
                 -- fs_event_providers = {
                 --     autocmd = true,
                 --     libuv = true,
                 -- },
-            })
-					end
+})
+					-- end
 -- vim.lsp.inlay_hint.enable(not vim.lsp.inlay_hint.is_enabled())
 -- require 'nvim-treesitter.install'.compilers = { 'clang' }
 require('settings')
