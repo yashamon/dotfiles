@@ -642,7 +642,7 @@ t({"", '\\end{document}'}),
 
 
 ls.add_snippets(nil, {
-    plaintex = {
+    all = {
         s({
             trig = "tex",
             namr = "Latex template",
