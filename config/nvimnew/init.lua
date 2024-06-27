@@ -134,10 +134,6 @@ require("luasnip/loaders/from_vscode").load({ paths = "C:/Users/yasha/OneDrive/d
 Reload = function()
 require("luasnip.loaders.from_lua").load({
                 paths = "C:/Users/yasha/OneDrive/dotfiles/config/nvimnew/lua/snippets",
-                fs_event_providers = {
-                    autocmd = true,
-                    libuv = true,
-                },
             })
 					end
 -- vim.lsp.inlay_hint.enable(not vim.lsp.inlay_hint.is_enabled())
