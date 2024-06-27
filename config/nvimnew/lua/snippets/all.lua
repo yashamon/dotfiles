@@ -351,7 +351,7 @@ end
 -- }
 -- 
 -- latex snippets
-ls.add_snippets("tex", {
+ls.add_snippets("all", {
 	s("rho", {
 		t({"\\rho"}),
 		i("1",""),
