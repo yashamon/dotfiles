@@ -349,7 +349,7 @@ end
 --     }, {condition = is_math}),
 --   },
 -- }
--- 
+--  
 -- latex snippets
 ls.add_snippets("all", {
 	s("rho", {
