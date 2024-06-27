@@ -33,7 +33,7 @@
     "body": [
         "\\operatorname{energy} _{$1}($2) $0" 
        ],
-    "description": "length"
+    "description": "energy"
 }, 
 
   "length": {
