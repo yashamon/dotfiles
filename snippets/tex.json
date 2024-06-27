@@ -21,6 +21,14 @@
        ],
     "description": "href"
  }, 
+  "length": {
+    "prefix": "len",
+    "body": [
+        "\\length _{$1} ($2) $0" 
+       ],
+    "description": "length"
+}, 
+
   "lie": {
     "prefix": "lie",
     "body": [
