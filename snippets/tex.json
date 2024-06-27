@@ -28,6 +28,13 @@
        ],
     "description": "multi"
 }, 
+"energy": {
+    "prefix": "energy",
+    "body": [
+        "\\operatorname{energy} _{$1}($2) $0" 
+       ],
+    "description": "length"
+}, 
 
   "length": {
     "prefix": "len",
