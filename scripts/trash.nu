@@ -1,4 +1,4 @@
 def main [files] { 
-$files | each { |x| rm --trash $x }
+$files | split row " " | each { |x| rm --trash $x }
 }
 
