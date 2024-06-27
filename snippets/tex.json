@@ -24,7 +24,7 @@
   "length": {
     "prefix": "len",
     "body": [
-        "\\length _{$1} ($2) $0" 
+        "\\length _{$1}($2) $0" 
        ],
     "description": "length"
 }, 
