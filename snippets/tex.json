@@ -21,6 +21,14 @@
        ],
     "description": "href"
  }, 
+"multiplicity": {
+    "prefix": "mult",
+    "body": [
+        "\\mult ($1) $0" 
+       ],
+    "description": "length"
+}, 
+
   "length": {
     "prefix": "len",
     "body": [
