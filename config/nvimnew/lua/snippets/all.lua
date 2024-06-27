@@ -355,7 +355,7 @@ ls.add_snippets("all", {
 	s("rho", {
 		t({"\\rho"}),
 		i("1",""),
-	},
+	}, {}),
 })
 
 ls.add_snippets("tex", {
