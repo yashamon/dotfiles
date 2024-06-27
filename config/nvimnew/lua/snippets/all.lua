@@ -349,7 +349,8 @@ end
 --     }, {condition = is_math}),
 --   },
 -- }
--- latex
+-- 
+-- latex snippets
 ls.add_snippets("tex", {
 	s("rho", {
 		t({"\\rho"}),
