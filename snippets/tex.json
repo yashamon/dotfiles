@@ -26,7 +26,7 @@
     "body": [
         "\\mult ($1) $0" 
        ],
-    "description": "length"
+    "description": "multi"
 }, 
 
   "length": {
