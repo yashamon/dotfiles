@@ -20,6 +20,9 @@ nu -c $"C:/Users/yasha/scoop/apps/neovide/current/neovide.exe --opengl ($file)"
 def vi [file = ""] {
 nvy --maximize $file
 }
+def pwsh []{
+powershell -NoExit -Command $"Set-Location '($env.PWD)'"
+}
 
 def swap [] {
 rm $"($HOME)/AppData/Local/nvim-data/swap/*"
