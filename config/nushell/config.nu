@@ -23,7 +23,7 @@ nvy --maximize $file
 def pwshd [] {
 let $command = $"Set-Location '($env.PWD)'"
 echo $command
-# pwsh -NoExit -Command $command
+pwsh -NoExit -Command $command
 }
 
 def swap [] {
