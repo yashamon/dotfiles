@@ -34,12 +34,6 @@ rm $"($HOME)/AppData/Local/nvim-data/swap/*"
 def n [] {
 neo
 }
-def devnu [] {
-p
-# $command = 'cmd -c C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Auxiliary\Build\vcvarsarm64.bat`
-# nu -c $command
-nu
-}
 
 def nf [] {
 let $ho = (fd . $HOMED -H -E /.undo/* -E /undo/* -E /tmp/* -E *.pdf | fzf | str trim)
