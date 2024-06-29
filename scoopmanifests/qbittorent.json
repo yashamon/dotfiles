@@ -1,6 +1,6 @@
 {
     "version": "4.6.5",
-    "url": "https://github.com/lukesampson/cowsay-psh/archive/master.zip",
-    "extract_dir": "cowsay-psh-master",
+    "url": "https://github.com/minnyres/qbittorrent-windows-arm64/releases/download/v4.6.5/qbittorrent_4.6.5_arm64.zip",
+    "extract_dir": "C:/Users/yasha/scoop/apps/qbittorentarm",
     "bin": "cowsay.ps1"
 }
