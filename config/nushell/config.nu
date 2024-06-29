@@ -21,9 +21,8 @@ def vi [file = ""] {
 nvy --maximize $file
 }
 def pwshd [] {
-echo "blah"
-# $command = $"Set-Location '($env.PWD)'"
-# echo $command
+$command = $"Set-Location '($env.PWD)'"
+echo $command
 # pwsh -NoExit -Command $command
 }
 
