@@ -5,6 +5,7 @@ let scoop2 = (ls C:/Users/yasha/scoop/apps/*/current/bin).name
 let path = $env.Path | append $scoop1 | append $scoop2 | append "C:/Users/yasha/scoop/shims" | append "C:/Users/yasha/.cargo/bin" | append "C:/Users/yasha/scoop/apps/autohotkey/current/installer/AutoHotkeyU64.exe"
 $env.CARGO_HOME = "C:/Users/yasha/Cargo"
 $env.Path = $path
+$env.SKIA_GN_COMMAND = C:\Users\yasha\OneDrive\executables\gn-windows-amd64\gn.exe"
 $env.HOMED = $"($env.HOMEPATH)/OneDrive"
 let HOME = $"($env.HOMEPATH)"
 let HOMED = $"($HOME)/OneDrive"
