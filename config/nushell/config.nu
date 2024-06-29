@@ -20,7 +20,7 @@ nu -c $"C:/Users/yasha/scoop/apps/neovide/current/neovide.exe --opengl ($file)"
 def vi [file = ""] {
 nvy --maximize $file
 }
-def pwsh []{
+def pwshd []{
 pwsh -NoExit -c $"Set-Location '($env.PWD)'"
 }
 
