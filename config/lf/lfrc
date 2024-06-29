@@ -197,7 +197,8 @@ map gc :spastename
 
 # extract the current file with the right command
 # (xkcd link: https://xkcd.com/1168/)
-cmd extract $C:\\Users\\yasha\\OneDrive\\dotfiles\\scripts\\pwsh.bat -c "/Users/yasha/OneDrive/dotfiles/scripts/lfcdextract.ps1" $Env:fx
+cmd extract $nu -c "C:\\Users\\yasha\\OneDrive\\dotfiles\\scripts\\extract.nu" $Env:fx
+
 map gE :extract
 # compress current file or selected files with tar and gunzip
 # cmd tar ${param 
