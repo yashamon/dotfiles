@@ -21,7 +21,7 @@ def vi [file = ""] {
 nvy --maximize $file
 }
 def pwshd []{
-pwsh -NoExit -c $"Set-Location '($env.PWD)'"
+pwsh -c $"Set-Location '($env.PWD)'"
 }
 
 def swap [] {
