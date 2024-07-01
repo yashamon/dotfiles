@@ -12,12 +12,11 @@ let HOME = $"($env.HOMEPATH)"
 let HOMED = $"($HOME)/OneDrive"
 def keyGH [] { open $"($HOMED)/authenticateGH.txt" }
 def sudo [command:string] {pwsh -c $command}
-def uploadGit [name:string] { 
-let key = (keyGH)
+def uploadGit [name:string] { let key = (keyGH)
 nu $"($HOMED)/dotfiles/scripts/uploadGit.nu" $name (keyGH) }
 def neo [file = ""] {
 # nu -c $"C:/Users/yasha/scoop/apps/neovide/current/neovide.exe ($file)"
-nu -c $"C:/Users/yasha/onedrive/nvy/nvy.exe --fullscreen ($file)"
+nu -c $"C:/Users/yasha/onedrive/nvy/build/nvy.exe --fullscreen ($file)"
 }
 def vi [file = ""] {
 nvy --maximize $file
