@@ -675,7 +675,7 @@ $env.config = {
         mode: [vi_normal]
         event: {
         until: [
-          {edit: Paste }
+          {edit: PasteSystem }
         ]
       }
 }
