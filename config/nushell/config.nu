@@ -672,7 +672,7 @@ $env.config = {
         keycode: char_p
         mode: [vi_normal]
         event: [
-            { edit: paste }
+            { edit: Paste }
         ]
 }
 {
