@@ -20,7 +20,6 @@ require("lazy").setup({
     '<C-b>', '<C-f>',
     '<C-y>', '<C-e>',
     'zt', 'zz', 'zb',
-		'J', 'K'
   },
   hide_cursor = true,          -- Hide cursor while scrolling
   stop_eof = true,             -- Stop at <EOF> when scrolling downwards
