@@ -760,10 +760,22 @@ $env.config = {
        }
     }
 		{
+        name: undo
+        modifier: none
+        keycode: char_u
+        mode: [vi_normal]
+        event: {
+        until: [
+          {edit: Redo }
+        ]
+      }
+}
+
+		{
         name: redo
         modifier: alt
         keycode: char_r
-        mode: [vi_normal]
+        mode: [vi_normal, vi_insert]
         event: {
         until: [
           {edit: Redo }
