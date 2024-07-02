@@ -762,9 +762,11 @@ $env.config = {
         modifier: none
         keycode: space
         mode: [vi_normal]
-        event: [
-            { edit: Redo }
+        event: {
+        until: [
+          {edit: Redo }
         ]
+      }
 }
 
     {
