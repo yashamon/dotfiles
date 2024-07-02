@@ -761,8 +761,8 @@ $env.config = {
     }
 		{
         name: redo
-        modifier: none
-        keycode: char_;
+        modifier: alt
+        keycode: char_r
         mode: [vi_normal]
         event: {
         until: [
