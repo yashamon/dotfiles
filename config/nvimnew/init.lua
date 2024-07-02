@@ -16,8 +16,8 @@ require("lazy").setup({
   config = function ()
    neoscroll = require('neoscroll')
 local keymap = {
-  ["<C-u>"] = function() neoscroll.ctrl_u({ duration = 250 }) end;
-  ["<C-d>"] = function() neoscroll.ctrl_d({ duration = 250 }) end;
+  ["J"] = function() neoscroll.ctrl_u({ duration = 250 }) end;
+  ["K"] = function() neoscroll.ctrl_d({ duration = 250 }) end;
   ["<C-b>"] = function() neoscroll.ctrl_b({ duration = 450 }) end;
   ["<C-f>"] = function() neoscroll.ctrl_f({ duration = 450 }) end;
   ["<C-y>"] = function() neoscroll.scroll(-0.1, { move_cursor=false; duration = 100 }) end;
