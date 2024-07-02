@@ -768,10 +768,10 @@ $env.config = {
 }
 
     {
-      name: yank
-      modifier: control
+      name: yankEmacs
+      modifier: 
       keycode: char_y
-      mode: emacs
+      mode: [vi_normal]
       event: {
         until: [
           {edit: CopySelection }
