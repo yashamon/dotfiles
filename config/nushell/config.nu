@@ -670,7 +670,7 @@ $env.config = {
         name: Paste
         modifier: none
         keycode: char_p
-        mode: [vi_normal, vi_insert] 
+        mode: [vi_normal] 
         event: [
             { edit: pastecutbufferbefore }
         ]
