@@ -766,7 +766,7 @@ $env.config = {
         mode: [vi_normal]
         event: {
         until: [
-          {edit: Redo }
+          {edit: Undo }
         ]
       }
 }
