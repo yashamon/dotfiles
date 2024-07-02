@@ -11,6 +11,12 @@ if not (vim.uv or vim.loop).fs_stat(lazypath) then
 end
 vim.opt.rtp:prepend(lazypath)
 require("lazy").setup({
+{
+  "karb94/neoscroll.nvim",
+  config = function ()
+    require('neoscroll').setup({})
+  end
+},
 -- "MysticalDevil/inlay-hints.nvim",
 --     event = "LspAttach",
 --     dependencies = { "neovim/nvim-lspconfig" },
