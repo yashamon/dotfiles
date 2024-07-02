@@ -673,9 +673,11 @@ $env.config = {
         modifier: none
         keycode: char_p
         mode: [vi_normal]
-        event: [
-            { edit: Paste }
+        event: {
+        until: [
+          {edit: Paste }
         ]
+      }
 }
 {
         name: movetolineEnd
