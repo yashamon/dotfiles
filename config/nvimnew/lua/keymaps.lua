@@ -225,8 +225,8 @@ noremap j gj
 noremap k gk
 noremap <Space> .
 vnoremap <Space> t <cr>
-noremap K <C-u>
-noremap J <C-d>
+["J"] = function() neoscroll.ctrl_u({ duration = 250 }) end;
+["K"] = function() neoscroll.ctrl_d({ duration = 250 }) end;
 noremap <C-j> <C-e>jj
 noremap <C-k> <C-y>kk
 nnoremap <leader>j J
