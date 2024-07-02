@@ -660,8 +660,8 @@ $env.config = {
 {
         name: capitalize
         modifier: none
-        keycode: char_`
-        mode: [vi_normal] 
+        keycode: char_~
+        mode: [vi_normal]
         event: [
             { edit: CapitalizeChar }
         ]
@@ -670,7 +670,7 @@ $env.config = {
         name: Paste
         modifier: none
         keycode: char_p
-        mode: [vi_normal] 
+        mode: [vi_normal]
         event: [
             { edit: pastecutbufferbefore }
         ]
