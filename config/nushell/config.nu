@@ -672,7 +672,7 @@ $env.config = {
         keycode: char_p
         mode: [vi_normal]
         event: [
-            { edit: pastecutbufferbefore }
+            { edit: paste }
         ]
 }
 {
@@ -762,7 +762,7 @@ $env.config = {
       mode: emacs
       event: {
         until: [
-          {edit: pastecutbufferafter}
+          {edit: }
         ]
       }
     }
