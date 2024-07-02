@@ -668,7 +668,7 @@ $env.config = {
 }
 {
         name: Paste
-        modifier: alt
+        modifier: none
         keycode: char_p
         mode: [vi_normal, vi_insert] 
         event: [
