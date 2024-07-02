@@ -762,7 +762,7 @@ $env.config = {
 		{
         name: redo
         modifier: none
-        keycode: space
+        keycode: SPACE
         mode: [vi_normal]
         event: {
         until: [
