@@ -666,6 +666,8 @@ $env.config = {
             { edit: CapitalizeChar }
         ]
 }
+
+
 {
         name: Paste
         modifier: none
@@ -762,7 +764,7 @@ $env.config = {
       mode: emacs
       event: {
         until: [
-          {edit: }
+          {edit: CopySelection }
         ]
       }
     }
