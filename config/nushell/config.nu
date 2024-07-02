@@ -763,7 +763,7 @@ $env.config = {
         keycode: space
         mode: [vi_normal]
         event: [
-            { edit: Paste }
+            { edit: PasteSystem  }
         ]
 }
 
