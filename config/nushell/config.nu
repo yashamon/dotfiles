@@ -757,6 +757,16 @@ $env.config = {
         ]
        }
     }
+		{
+        name: redo
+        modifier: none
+        keycode: space
+        mode: [vi_normal]
+        event: [
+            { edit: Paste }
+        ]
+}
+
     {
       name: yank
       modifier: control
