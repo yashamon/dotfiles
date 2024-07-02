@@ -225,8 +225,8 @@ noremap j gj
 noremap k gk
 noremap <Space> .
 vnoremap <Space> t <cr>
-map K <C-u>
-map J <C-d>
+noremap K <C-u>
+noremap J <C-d>
 noremap <C-j> <C-e>jj
 noremap <C-k> <C-y>kk
 nnoremap <leader>j J
