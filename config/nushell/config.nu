@@ -773,7 +773,7 @@ $env.config = {
 
     {
       name: yank
-      modifier: 
+      modifier: none
       keycode: char_y
       mode: [vi_normal]
       event: {
