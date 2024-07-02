@@ -768,7 +768,7 @@ $env.config = {
 }
 
     {
-      name: yankEmacs
+      name: yank
       modifier: 
       keycode: char_y
       mode: [vi_normal]
