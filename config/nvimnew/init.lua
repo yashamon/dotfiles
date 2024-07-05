@@ -11,9 +11,8 @@ if not (vim.uv or vim.loop).fs_stat(lazypath) then
 end
 vim.opt.rtp:prepend(lazypath)
 require("lazy").setup({
-{ 'danilamihailov/beacon.nvim's, config = function ()
-beacon = require('beacon')
-{enabled = true,
+{ 'danilamihailov/beacon.nvim's,
+enabled = true,
 speed = 2, --- integer speed at wich animation goes
 width = 40, --- integer width of the beacon window
 winblend = 70, --- integer starting transparency of beacon window :h winblend
@@ -22,8 +21,7 @@ min_jump = 10, --- integer what is considered a jump. Number of lines
 cursor_events = { 'CursorMoved' }, -- table<string> what events trigger check for cursor moves
 window_events = { 'WinEnter', 'FocusGained' }, -- table<string> what events trigger cursor highlight
 highlight = { bg = 'white', ctermbg = 15 }, -- vim.api.keyset.highlight table passed to vim.api.nvim_set_hl
-}
-end}, -- lazy calls setup() by itself
+},
 { "karb94/neoscroll.nvim",
 config = function ()
 neoscroll = require('neoscroll')
