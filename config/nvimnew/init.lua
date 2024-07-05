@@ -11,6 +11,7 @@ if not (vim.uv or vim.loop).fs_stat(lazypath) then
 end
 vim.opt.rtp:prepend(lazypath)
 require("lazy").setup({
+{ 'danilamihailov/beacon.nvim' }, -- lazy calls setup() by itself
 {
   "karb94/neoscroll.nvim",
   config = function ()
