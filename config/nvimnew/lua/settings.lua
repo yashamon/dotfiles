@@ -4,7 +4,7 @@
 -- require("indent_blankline").setup {
     -- show_end_of_line = true,
 -- }
-local ts_config = require("nvim-treesitter.configs")
+local ts_config = require("nvim-treesitter.configs") 
 ts_config.setup {
 	ensure_installed = {
 			"latex",
