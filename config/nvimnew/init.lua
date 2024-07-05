@@ -20,7 +20,7 @@ fps = 120, --- integer how smooth the animation going to be
 min_jump = 10, --- integer what is considered a jump. Number of lines
 cursor_events = { 'CursorMoved' }, -- table<string> what events trigger check for cursor moves
 window_events = { 'WinEnter', 'FocusGained' }, -- table<string> what events trigger cursor highlight
-highlight = { bg = 'black', ctermbg = 15 }, -- vim.api.keyset.highlight table passed to vim.api.nvim_set_hl
+highlight = { bg = 'white', ctermbg = 15 }, -- vim.api.keyset.highlight table passed to vim.api.nvim_set_hl
 },
 { "karb94/neoscroll.nvim",
 config = function ()
