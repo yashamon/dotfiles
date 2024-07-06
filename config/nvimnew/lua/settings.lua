@@ -107,7 +107,7 @@ require'flash'.setup(
     -- add pattern to search register
     register = false,
     -- clear highlight after jump
-    nohlsearch = true,
+    nohlsearch = false,
     -- automatically jump when there is only one match
     autojump = false,
     -- You can force inclusive/exclusive jumps by setting the
@@ -193,7 +193,7 @@ require'flash'.setup(
     search = {
       -- when `true`, flash will be activated during regular search by default.
       -- You can always toggle when searching with `require("flash").toggle()`
-			fuzzy = true,
+			fuzzy = false,
       enabled = true,
       highlight = { backdrop = false },
       jump = { history = true, register = true, nohlsearch = true },
