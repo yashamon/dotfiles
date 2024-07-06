@@ -1,6 +1,6 @@
 -- vim.opt.listchars:append "eol:↴"
 -- To get telescope-file-browser loaded and working with telescope,
--- you need to call load_extension, somewhere after setup function:
+-- you need to call load_extension, somewhere after setup function: so
 -- require("indent_blankline").setup {
     -- show_end_of_line = true,
 -- }
@@ -107,7 +107,7 @@ require'flash'.setup(
     -- add pattern to search register
     register = false,
     -- clear highlight after jump
-    nohlsearch = false,
+    nohlsearch = true,
     -- automatically jump when there is only one match
     autojump = false,
     -- You can force inclusive/exclusive jumps by setting the
@@ -222,7 +222,7 @@ require'flash'.setup(
         -- Show jump labels only in operator-pending mode
         -- opts.jump_labels = vim.v.count == 0 and vim.fn.mode(true):find("o")
       end,
-      -- hide after jump when not using jump labels
+      -- hide after jump when not using jump labels aabbbb
       autohide = false,
       -- show jump labels
       jump_labels = false,
