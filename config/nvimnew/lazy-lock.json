@@ -9,6 +9,7 @@
   "diffview.nvim": { "branch": "main", "commit": "4516612fe98ff56ae0415a259ff6361a89419b0a" },
   "firenvim": { "branch": "master", "commit": "992e57666c0d4c301c5a231354b8237d7bae0282" },
   "flare.nvim": { "branch": "main", "commit": "66792f185d974a26f60e44d2d94aff11dada643b" },
+  "flash.nvim": { "branch": "main", "commit": "3ea3a80a42d40f4f6b2a17c0348697a3de47931a" },
   "fzf": { "branch": "master", "commit": "0420ed4f2a7edcc7f91dc233665f914ce023b7b3" },
   "fzf-lua": { "branch": "main", "commit": "41ea49cfc1b3f0586753bbeb7850474f28dc22cf" },
   "fzf-neoyank": { "branch": "master", "commit": "d5be69a3b48605eb297e8f13941cb11838fbdea0" },
