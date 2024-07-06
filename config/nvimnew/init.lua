@@ -11,16 +11,20 @@ if not (vim.uv or vim.loop).fs_stat(lazypath) then
 end
 vim.opt.rtp:prepend(lazypath)
 require("lazy").setup({
-{ 'danilamihailov/beacon.nvim's,
-enabled = true,
-speed = 2, --- integer speed at wich animation goes
-width = 40, --- integer width of the beacon window
-winblend = 70, --- integer starting transparency of beacon window :h winblend
-fps = 120, --- integer how smooth the animation going to be
-min_jump = 10, --- integer what is considered a jump. Number of lines
-cursor_events = { 'CursorMoved' }, -- table<string> what events trigger check for cursor moves
-window_events = { 'WinEnter', 'FocusGained' }, -- table<string> what events trigger cursor highlight
-highlight = { bg = 'white', fg = 'black' }, -- vim.api.keyset.highlight table passed to vim.api.nvim_set_hl
+{ 'stonelasley/flare.nvim' },
+{
+  "folke/flash.nvim",
+  event = "VeryLazy",
+  ---@type Flash.Config
+  opts = {},
+  -- stylua: ignore
+  keys = {
+    { "s", mode = { "n", "x", "o" }, function() require("flash").jump() end, desc = "Flash" },
+    { "S", mode = { "n", "x", "o" }, function() require("flash").treesitter() end, desc = "Flash Treesitter" },
+    { "r", mode = "o", function() require("flash").remote() end, desc = "Remote Flash" },
+    { "R", mode = { "o", "x" }, function() require("flash").treesitter_search() end, desc = "Treesitter Search" },
+    { "<c-s>", mode = { "c" }, function() require("flash").toggle() end, desc = "Toggle Flash Search" },
+  },
 },
 { "karb94/neoscroll.nvim",
 config = function ()
@@ -182,6 +186,34 @@ require('keymaps')
 require('mini.trailspace').setup()
 -- require('mini.pairs').setup()
 require("telescope").load_extension("yank_history")
+require('flare').setup {
+  enabled = true, -- disable highlighting
+  hl_group = "IncSearch", -- set highlight group used for highlight
+  x_threshold = 10, -- column changes greater than this number trigger highlight
+  y_threshold = 1,  -- row changes greater than this number trigger highlight
+  expanse = 10,  -- highlight will expand to the left and right of cursor up to this amount (depending on space available)
+  file_ignore = { -- suppress highlighting for files of this type
+    "NvimTree",
+    "fugitive",
+    "TelescopePrompt",
+    "TelescopeResult",
+  },
+  fade = true, -- if false will flash highlight for entire area similar to 'vim.highlight.on_yank'
+  underline = false, -- if true will use more subtle underline highlight. Underline highlight can also be accomplished by setting hl_group
+  timeout = 150, -- timeout delay
+}
+-- require('beacon').setup({
+-- 	enable = true,
+-- 	size = 1,
+-- 	fade = true,
+-- 	minimal_jump = 1,
+-- 	show_jumps = true,
+-- 	focus_gained = false,
+-- 	shrink = true,
+-- 	timeout = 500,
+-- 	ignore_buffers = {},
+-- 	ignore_filetypes = {},
+-- })
 vim.cmd([[
 " Autocommands, au
  function! OnUIEnter(event)
@@ -510,3 +542,4 @@ endfunction
  -- imap <silent><expr> <C-E> luasnip#choice_active() ? '<Plug>luasnip-next-choice' : '<C-E>'
  --
  -- smap <silent><expr> <C-E> luasnip#choice_active() ? '<Plug>luasnip-next-choice' : '<C-E>'
+ 
