@@ -121,8 +121,8 @@ map ('i', '<m-p>', '<c-r>+')
 -- jump to error
 map ('n', 'gE', 'viwy<m-c>:<c-r>+<cr>', {remap = true})
 map ('n', 'gL', 'viwy<m-c>:<c-r>+<cr>', {remap = true})
-map ('n', 'K', function() neoscroll.ctrl_u({ duration = 100 }) end)
-map ('n', 'J', function() neoscroll.ctrl_d({ duration = 100 }) end)
+map ('n,v,o', 'K', function() neoscroll.ctrl_u({ duration = 100 }) end)
+map ('n,v,o', 'J', function() neoscroll.ctrl_d({ duration = 100 }) end)
 vim.keymap.set("c", "<cr>", function()
   if vim.fn.pumvisible() == 1 then return '<c-y>' end
   return '<cr>'
