@@ -1,7 +1,7 @@
 local opt = vim.opt
-local home = '/Users/yasha'
+local home = '/Users/yasha' 
 local homed = '/Users/yasha/OneDrive'
-local indent = 2
+local indent = 2 
 local g = vim.g
 local fn = vim.fn
 vim.opt.tabstop = indent
