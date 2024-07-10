@@ -187,7 +187,7 @@ noremap <m-p> <c-r>+
 noremap d "0d
 nnoremap cg "_cgn
 nnoremap dd 0vg$"0d
-nnoremap vv ^v$
+nnoremap vv ^vg$
 vnoremap c "0c
 noremap c "0c
 noremap s "0s
