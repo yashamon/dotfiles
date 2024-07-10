@@ -11,7 +11,7 @@ if not (vim.uv or vim.loop).fs_stat(lazypath) then
 end
 vim.opt.rtp:prepend(lazypath)
 require("lazy").setup({
-{ 'stonelasley/flare.nvim' },
+-- { 'stonelasley/flare.nvim' },
 -- {
 --   "folke/flash.nvim",
 --   event = "VeryLazy",
@@ -186,22 +186,22 @@ require('keymaps')
 require('mini.trailspace').setup()
 -- require('mini.pairs').setup()
 require("telescope").load_extension("yank_history")
-require('flare').setup {
-  enabled = true, -- disable highlighting
-  hl_group = "IncSearch", -- set highlight group used for highlight
-  x_threshold = 10, -- column changes greater than this number trigger highlight
-  y_threshold = 1,  -- row changes greater than this number trigger highlight
-  expanse = 10,  -- highlight will expand to the left and right of cursor up to this amount (depending on space available)
-  file_ignore = { -- suppress highlighting for files of this type
-    "NvimTree",
-    "fugitive",
-    "TelescopePrompt",
-    "TelescopeResult",
-  },
-  fade = true, -- if false will flash highlight for entire area similar to 'vim.highlight.on_yank'
-  underline = false, -- if true will use more subtle underline highlight. Underline highlight can also be accomplished by setting hl_group
-  timeout = 150, -- timeout delay
-}
+-- require('flare').setup {
+--   enabled = true, -- disable highlighting
+--   hl_group = "IncSearch", -- set highlight group used for highlight
+--   x_threshold = 10, -- column changes greater than this number trigger highlight
+--   y_threshold = 1,  -- row changes greater than this number trigger highlight
+--   expanse = 10,  -- highlight will expand to the left and right of cursor up to this amount (depending on space available)
+--   file_ignore = { -- suppress highlighting for files of this type
+--     "NvimTree",
+--     "fugitive",
+--     "TelescopePrompt",
+--     "TelescopeResult",
+--   },
+--   fade = true, -- if false will flash highlight for entire area similar to 'vim.highlight.on_yank'
+--   underline = false, -- if true will use more subtle underline highlight. Underline highlight can also be accomplished by setting hl_group
+--   timeout = 150, -- timeout delay
+-- }
 -- require('beacon').setup({
 -- 	enable = true,
 -- 	size = 1,
