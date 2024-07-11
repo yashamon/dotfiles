@@ -1262,7 +1262,7 @@
     "description": "plus sign"
 }, 
 "partial": {
-    "prefix": ["pa", "pa"],
+    "prefix": ["pa", "partial", "part"],
     "body": [
       "\\partial $0"
     ],
