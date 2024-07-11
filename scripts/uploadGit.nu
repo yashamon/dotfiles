@@ -12,5 +12,5 @@ git add .
 git commit -m "fist commit"
 curl -u $"yashamon:($credential)" https://api.github.com/user/repos -d $'{"name":"($name)", "private":"true"}'
 git remote set-url $"https://yashamon:($credential)@github.com/yashamon/($name).git"
-git push -u origin master
+git push origin master
 }
