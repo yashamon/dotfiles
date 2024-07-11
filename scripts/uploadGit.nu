@@ -6,6 +6,7 @@ git branch -M master
 touch .gitignore
 cp $"($env.HOMED)/workspacemodules/.gitignore" ./.gitignore
 # sudo ln -s ./link.bib $"($env.HOMED)/workspacemodules/link.bib"  
+rm ./link.bib
 pwsh -nop -c New-Item -ItemType SymbolicLink -Path ./link.bib -Target C:/Users/yasha/onedrive/dotfiles/link.bib 
 git add .
 git commit -m "fist commit"
