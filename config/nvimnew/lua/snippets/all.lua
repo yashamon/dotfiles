@@ -352,6 +352,13 @@ end
 --  
 -- latex snippets
 ls.add_snippets("tex", {
+	s("sqrt", {
+		t({"\\sqrt"}),
+		i("1",""),
+	}, { condition = Is_math }),
+})
+
+ls.add_snippets("tex", {
 	s("rho", {
 		t({"\\rho"}),
 		i("1",""),
