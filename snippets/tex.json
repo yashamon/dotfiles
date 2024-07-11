@@ -654,7 +654,7 @@
     "description": "Matrix"
   },
     "Paragraph": {
-    "prefix": "par",
+    "prefix": "latpar",
     "body": [
       "\\paragraph{${1:paragraph name}} % (fold)",
       "\\label{par:$1}",
