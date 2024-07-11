@@ -529,7 +529,7 @@
     "description": "proposition"
   },  
 "question": {
-    "prefix": "latque",
+    "prefix": ["latque", "latquestion"],
     "body": [
       "\\begin{question} \\label{que_$1}", 
             "$2", 
