@@ -362,7 +362,7 @@ ls.add_snippets("tex", {
 	s("rho", {
 		t({"\\rho"}),
 		i("1",""),
-	}, {}),
+	}, { condition = Is_math }),
 })
 
 ls.add_snippets("tex", {
