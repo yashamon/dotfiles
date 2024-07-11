@@ -12,5 +12,6 @@ curl -u $"yashamon:($credential)" https://api.github.com/user/repos -d $'{"name"
 git remote add origin $"https://yashamon:($credential)@github.com/yashamon/($name).git"
 do --ignore-errors { git add . }
 do --ignore-errors { git commit -m "fist commit" --ignore }
+echo "blah"
 git push -u origin master
 }
