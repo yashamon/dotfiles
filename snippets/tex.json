@@ -966,7 +966,7 @@
 "equation reference": {
     "prefix": "eqref",
     "body": [
-      "\\eqref{equation_$2}$0"
+      "\\eqref{eq_$2}$0"
     ],
     "description": "equation Reference"
   },
