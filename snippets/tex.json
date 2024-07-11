@@ -427,7 +427,7 @@
 "Align numbered": {
     "prefix": ["latalin"],
     "body": [
-        "\\begin{align} \\label{equation_$1}",
+        "\\begin{align} \\label{eq_$1}",
         "\t$0",    
         "\\end{align}"
 ],
@@ -497,7 +497,7 @@
   },
 
 "Equation": {
-    "prefix": "lateq",
+    "prefix": ["lateqn", "lateq"],
     "body": [
       "\\begin{equation*}",
       "$1",
