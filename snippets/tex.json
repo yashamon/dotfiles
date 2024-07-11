@@ -238,7 +238,8 @@
        ],
     "description": "minus sign"
     },      
-  "bracket plus minus": {
+   
+ "bracket plus minus": {
     "prefix": "bpm",
     "body": [
         "\\{\\pm \\\\}$0"
