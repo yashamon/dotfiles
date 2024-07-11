@@ -8,9 +8,9 @@ cp $"($env.HOMED)/workspacemodules/.gitignore" ./.gitignore
 # sudo ln -s ./link.bib $"($env.HOMED)/workspacemodules/link.bib"  
 rm ./link.bib
 pwsh -nop -c New-Item -ItemType SymbolicLink -Path ./link.bib -Target C:/Users/yasha/onedrive/dotfiles/link.bib 
+curl -u $"yashamon:($credential)" https://api.github.com/user/repos -d $'{"name":"($name)", "private":"true"}'
+git remote add origin $"https://yashamon:($credential)@github.com/yashamon/($name).git"
 git add .
 git commit -m "fist commit"
-curl -u $"yashamon:($credential)" https://api.github.com/user/repos -d $'{"name":"($name)", "private":"true"}'
-git remote add origin $"https://github.com/yashamon/($name).git"
 git push -u origin master
 }
