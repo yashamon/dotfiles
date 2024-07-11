@@ -11,5 +11,5 @@ pwsh -nop -c New-Item -ItemType SymbolicLink -Path ./link.bib -Target C:/Users/y
 curl -u $"yashamon:($credential)" https://api.github.com/user/repos -d $'{"name":"($name)", "private":"true"}'
 git remote add origin $"https://yashamon:($credential)@github.com/yashamon/($name).git"
 do --ignore-errors { git add . }
-pwsh -nop -c 'git commit -m "fist commit"; git push origin master'
+pwsh -nop -c 'git commit -m "fist commit"; git push origin master; echo "dude"'
 }
