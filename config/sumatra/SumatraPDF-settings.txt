@@ -128,12 +128,52 @@ SmoothScroll = false
 ShowStartPage = true
 CheckForUpdates = false
 WindowState = 2
-WindowPos = -13 -13 1946 2084
+WindowPos = -13 -13 2906 1124
 UseTabs = true
 UseSysColors = false
 CustomScreenDPI = 0
 
 FileStates [
+	[
+		FilePath = C:\Users\yasha\OneDrive\workspacemodules\KtheoryCycles\build\KtheoryCycles.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 1
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = 79.9109 117.819
+		PageNo = 1
+		Zoom = fit content
+		Rotation = 0
+		WindowState = 2
+		WindowPos = -13 -13 2906 1124
+		ShowToc = false
+		SidebarDx = 364
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = C:\Users\yasha\OneDrive\workspacemodules\deformGromov\build\gromov.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 4
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 -1
+		PageNo = 1
+		Zoom = 100
+		Rotation = 0
+		WindowState = 2
+		WindowPos = -13 -13 2906 1124
+		ShowToc = false
+		SidebarDx = 364
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
 	[
 		FilePath = C:\Users\yasha\OneDrive\workspacemodules\GromovFuller\build\GromovFuller.pdf
 		Favorites [
@@ -152,11 +192,11 @@ FileStates [
 		]
 		IsPinned = false
 		IsMissing = false
-		OpenCount = 1
+		OpenCount = 2
 		UseDefaultState = false
 		DisplayMode = continuous
-		ScrollPos = 82.6427 64.4076
-		PageNo = 2
+		ScrollPos = 83.7072 64.7284
+		PageNo = 18
 		Zoom = fit content
 		Rotation = 0
 		WindowState = 2
@@ -172,10 +212,10 @@ FileStates [
 		]
 		IsPinned = false
 		IsMissing = false
-		OpenCount = 6
+		OpenCount = 4
 		UseDefaultState = false
 		DisplayMode = continuous
-		ScrollPos = 79.9259 118.336
+		ScrollPos = -1 117.786
 		PageNo = 1
 		Zoom = fit content
 		Rotation = 0
@@ -192,7 +232,7 @@ FileStates [
 		]
 		IsPinned = false
 		IsMissing = false
-		OpenCount = 7
+		OpenCount = 4
 		UseDefaultState = false
 		DisplayMode = continuous
 		ScrollPos = -1 -1
@@ -212,7 +252,7 @@ FileStates [
 		]
 		IsPinned = false
 		IsMissing = false
-		OpenCount = 2
+		OpenCount = 1
 		UseDefaultState = false
 		DisplayMode = continuous
 		ScrollPos = -1 105.895
@@ -3239,7 +3279,7 @@ SessionData [
 	[
 		TabStates [
 			[
-				FilePath = C:\Users\yasha\OneDrive\math.papers\toREAD\s1-ln20323413255345431-1939656818Hwf1887813665IdV102416459720323413PDF_HI0001.pdf
+				FilePath = C:\Users\yasha\OneDrive\workspacemodules\deformGromov\build\gromov.pdf
 				DisplayMode = continuous
 				PageNo = 1
 				Zoom = 100
@@ -3248,31 +3288,22 @@ SessionData [
 				ShowToc = false
 			]
 			[
-				FilePath = C:\Users\yasha\OneDrive\workspacemodules\fuller\build\fuller5.pdf
+				FilePath = C:\Users\yasha\OneDrive\workspacemodules\KtheoryCycles\build\KtheoryCycles.pdf
 				DisplayMode = continuous
 				PageNo = 1
 				Zoom = fit content
 				Rotation = 0
-				ScrollPos = 79.9259 118.336
-				ShowToc = false
-			]
-			[
-				FilePath = C:\Users\yasha\OneDrive\workspacemodules\GromovFuller\build\GromovFuller.pdf
-				DisplayMode = continuous
-				PageNo = 2
-				Zoom = fit content
-				Rotation = 0
-				ScrollPos = 82.6427 64.4076
+				ScrollPos = 79.9109 117.819
 				ShowToc = false
 			]
 		]
-		TabIndex = 4
+		TabIndex = 3
 		WindowState = 2
-		WindowPos = -13 -13 1946 2084
+		WindowPos = -13 -13 2906 1124
 		SidebarDx = 364
 	]
 ]
 TimeOfLastUpdateCheck = 0 0
-OpenCountWeek = 704
+OpenCountWeek = 705
 
 # Settings below are not recognized by the current version
