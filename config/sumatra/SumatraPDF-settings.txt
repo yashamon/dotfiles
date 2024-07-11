@@ -135,7 +135,7 @@ CustomScreenDPI = 0
 
 FileStates [
 	[
-		FilePath = C:\Users\yasha\OneDrive\workspacemodules\KtheoryCycles\build\KtheoryCycles.pdf
+		FilePath = C:\Users\yasha\OneDrive\books\McDuff D., Salamon D. Introduction to symplectic topology.djvu
 		Favorites [
 		]
 		IsPinned = false
@@ -143,7 +143,27 @@ FileStates [
 		OpenCount = 1
 		UseDefaultState = false
 		DisplayMode = continuous
-		ScrollPos = 79.9109 117.819
+		ScrollPos = -1 -1
+		PageNo = 1
+		Zoom = 100
+		Rotation = 0
+		WindowState = 2
+		WindowPos = -13 -13 2906 1124
+		ShowToc = false
+		SidebarDx = 364
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = C:\Users\yasha\OneDrive\workspacemodules\KtheoryCycles\build\KtheoryCycles.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 2
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = 79.8941 117.829
 		PageNo = 1
 		Zoom = fit content
 		Rotation = 0
@@ -160,7 +180,7 @@ FileStates [
 		]
 		IsPinned = false
 		IsMissing = false
-		OpenCount = 4
+		OpenCount = 5
 		UseDefaultState = false
 		DisplayMode = continuous
 		ScrollPos = -1 -1
@@ -3293,11 +3313,20 @@ SessionData [
 				PageNo = 1
 				Zoom = fit content
 				Rotation = 0
-				ScrollPos = 79.9109 117.819
+				ScrollPos = 79.8941 117.829
+				ShowToc = false
+			]
+			[
+				FilePath = C:\Users\yasha\OneDrive\books\McDuff D., Salamon D. Introduction to symplectic topology.djvu
+				DisplayMode = continuous
+				PageNo = 1
+				Zoom = 100
+				Rotation = 0
+				ScrollPos = -1 -1
 				ShowToc = false
 			]
 		]
-		TabIndex = 3
+		TabIndex = 4
 		WindowState = 2
 		WindowPos = -13 -13 2906 1124
 		SidebarDx = 364

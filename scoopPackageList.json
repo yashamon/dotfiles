@@ -1,36 +1,4 @@
 {
-    "buckets": [
-        {
-            "Name": "main",
-            "Source": "https://github.com/ScoopInstaller/Main",
-            "Updated": "2024-06-27T16:26:37-04:00",
-            "Manifests": 1331
-        },
-        {
-            "Name": "extras",
-            "Source": "https://github.com/ScoopInstaller/Extras",
-            "Updated": "2024-06-27T16:28:35-04:00",
-            "Manifests": 2043
-        },
-        {
-            "Name": "versions",
-            "Source": "https://github.com/ScoopInstaller/Versions",
-            "Updated": "2024-06-27T16:29:19-04:00",
-            "Manifests": 465
-        },
-        {
-            "Name": "nerd-fonts",
-            "Source": "https://github.com/matthewjberger/scoop-nerd-fonts",
-            "Updated": "2024-06-15T16:21:22-04:00",
-            "Manifests": 336
-        },
-        {
-            "Name": "CrypticButter",
-            "Source": "https://github.com/CrypticButter/ScoopBucket",
-            "Updated": "2024-05-01T08:51:07-04:00",
-            "Manifests": 1
-        }
-    ],
     "apps": [
         {
             "Info": "",
@@ -69,10 +37,10 @@
         },
         {
             "Info": "64bit",
-            "Version": "2024-03-11",
+            "Version": "2024-07-02",
             "Source": "main",
             "Name": "cacert",
-            "Updated": "2024-06-18T20:16:42.1333895-04:00"
+            "Updated": "2024-07-11T12:55:48.6365098-04:00"
         },
         {
             "Info": "64bit",
@@ -90,10 +58,10 @@
         },
         {
             "Info": "",
-            "Version": "3.29.6",
+            "Version": "3.30.0",
             "Source": "main",
             "Name": "cmake",
-            "Updated": "2024-06-19T11:07:27.5769164-04:00"
+            "Updated": "2024-07-11T12:56:21.0160983-04:00"
         },
         {
             "Info": "64bit",
@@ -111,10 +79,10 @@
         },
         {
             "Info": "64bit",
-            "Version": "1.44.4",
+            "Version": "1.45.0",
             "Source": "main",
             "Name": "deno",
-            "Updated": "2024-06-27T19:58:01.0734238-04:00"
+            "Updated": "2024-07-11T12:56:24.7649274-04:00"
         },
         {
             "Info": "64bit",
@@ -153,6 +121,13 @@
         },
         {
             "Info": "",
+            "Version": "0.3.543",
+            "Source": "extras",
+            "Name": "fvim",
+            "Updated": "2024-07-02T18:38:56.2375902-04:00"
+        },
+        {
+            "Info": "",
             "Version": "0.53.0",
             "Source": "main",
             "Name": "fzf",
@@ -170,7 +145,7 @@
             "Version": "13.2.0",
             "Source": "main",
             "Name": "gcc",
-            "Updated": "2024-06-27T16:07:59.6651714-04:00"
+            "Updated": "2024-07-02T15:50:25.8231076-04:00"
         },
         {
             "Info": "",
@@ -185,13 +160,6 @@
             "Source": "main",
             "Name": "git",
             "Updated": "2024-06-18T20:19:50.0792858-04:00"
-        },
-        {
-            "Info": "64bit",
-            "Version": "126.0.6478.127",
-            "Source": "extras",
-            "Name": "googlechrome",
-            "Updated": "2024-06-27T19:58:15.6900691-04:00"
         },
         {
             "Info": "64bit",
@@ -237,10 +205,10 @@
         },
         {
             "Info": "",
-            "Version": "643",
+            "Version": "661",
             "Source": "main",
             "Name": "less",
-            "Updated": "2024-06-18T20:22:24.6621986-04:00"
+            "Updated": "2024-07-11T12:56:25.2715705-04:00"
         },
         {
             "Info": "64bit",
@@ -251,10 +219,10 @@
         },
         {
             "Info": "",
-            "Version": "18.1.7",
+            "Version": "18.1.8",
             "Source": "main",
             "Name": "llvm",
-            "Updated": "2024-06-19T11:25:46.4801825-04:00"
+            "Updated": "2024-07-11T12:57:42.4311854-04:00"
         },
         {
             "Info": "64bit",
@@ -269,6 +237,13 @@
             "Source": "main",
             "Name": "lua",
             "Updated": "2024-06-18T20:22:32.2386718-04:00"
+        },
+        {
+            "Info": "64bit",
+            "Version": "4.4.1",
+            "Source": "main",
+            "Name": "make",
+            "Updated": "2024-07-01T14:03:50.8567532-04:00"
         },
         {
             "Info": "64bit",
@@ -292,13 +267,6 @@
             "Updated": "2024-06-27T19:53:49.9741338-04:00"
         },
         {
-            "Info": "64bit",
-            "Version": "0.11.0-282",
-            "Source": "versions",
-            "Name": "neovim-nightly",
-            "Updated": "2024-06-19T08:33:54.3350349-04:00"
-        },
-        {
             "Info": "",
             "Version": "1.12.1",
             "Source": "main",
@@ -307,10 +275,10 @@
         },
         {
             "Info": "",
-            "Version": "22.3.0",
+            "Version": "22.4.1",
             "Source": "main",
             "Name": "nodejs",
-            "Updated": "2024-06-18T20:22:48.5652014-04:00"
+            "Updated": "2024-07-11T12:57:58.6299478-04:00"
         },
         {
             "Info": "64bit",
@@ -335,10 +303,17 @@
         },
         {
             "Info": "",
-            "Version": "21.16.2",
+            "Version": "21.23.4",
             "Source": "main",
             "Name": "Oh-my-posh",
-            "Updated": "2024-06-27T19:58:17.6697264-04:00"
+            "Updated": "2024-07-11T12:58:00.4690097-04:00"
+        },
+        {
+            "Info": "64bit",
+            "Version": "9.5.0.0p1",
+            "Source": "main",
+            "Name": "openssh",
+            "Updated": "2024-06-30T17:40:18.5369732-04:00"
         },
         {
             "Info": "64bit",
@@ -385,9 +360,16 @@
         {
             "Info": "64bit",
             "Version": "4.6.5",
-            "Source": "extras",
+            "Source": "C:\\Users\\yasha\\OneDrive\\dotfiles\\scoopmanifests\\qbittorent.json",
+            "Name": "qbittorent",
+            "Updated": "2024-06-28T23:15:14.3719318-04:00"
+        },
+        {
+            "Info": "Install failed",
+            "Version": null,
+            "Source": null,
             "Name": "qbittorrent",
-            "Updated": "2024-06-18T20:40:45.2940393-04:00"
+            "Updated": "2024-06-28T22:46:20.9635976-04:00"
         },
         {
             "Info": "64bit",
@@ -450,7 +432,7 @@
             "Version": "1.23",
             "Source": "main",
             "Name": "tar",
-            "Updated": "2024-06-18T20:25:39.7577093-04:00"
+            "Updated": "2024-06-29T17:56:07.9874278-04:00"
         },
         {
             "Info": "64bit",
@@ -461,10 +443,10 @@
         },
         {
             "Info": "64bit",
-            "Version": "5.1.7",
+            "Version": "5.2.3",
             "Source": "extras",
             "Name": "telegram",
-            "Updated": "2024-06-18T20:41:16.6098196-04:00"
+            "Updated": "2024-07-11T12:58:05.8150403-04:00"
         },
         {
             "Info": "64bit",
@@ -496,10 +478,17 @@
         },
         {
             "Info": "",
-            "Version": "20240627",
+            "Version": "20240711",
             "Source": "versions",
             "Name": "vlc-nightly",
-            "Updated": "2024-06-27T10:20:04.8976597-04:00"
+            "Updated": "2024-07-11T12:58:16.2235365-04:00"
+        },
+        {
+            "Info": "",
+            "Version": "1.91.0",
+            "Source": "extras",
+            "Name": "vscode",
+            "Updated": "2024-07-11T12:58:40.3720742-04:00"
         },
         {
             "Info": "64bit",
@@ -531,10 +520,10 @@
         },
         {
             "Info": "",
-            "Version": "6.1.0.41135",
+            "Version": "6.1.1.41705",
             "Source": "extras",
             "Name": "zoom",
-            "Updated": "2024-06-18T20:43:08.576528-04:00"
+            "Updated": "2024-07-11T12:58:52.386933-04:00"
         },
         {
             "Info": "",
@@ -542,6 +531,38 @@
             "Source": "main",
             "Name": "zoxide",
             "Updated": "2024-06-19T07:02:33.9598838-04:00"
+        }
+    ],
+    "buckets": [
+        {
+            "Name": "main",
+            "Source": "https://github.com/ScoopInstaller/Main",
+            "Updated": "2024-07-11T08:39:42-04:00",
+            "Manifests": 1332
+        },
+        {
+            "Name": "extras",
+            "Source": "https://github.com/ScoopInstaller/Extras",
+            "Updated": "2024-07-11T09:45:31-04:00",
+            "Manifests": 2044
+        },
+        {
+            "Name": "versions",
+            "Source": "https://github.com/ScoopInstaller/Versions",
+            "Updated": "2024-07-11T08:53:17-04:00",
+            "Manifests": 465
+        },
+        {
+            "Name": "nerd-fonts",
+            "Source": "https://github.com/matthewjberger/scoop-nerd-fonts",
+            "Updated": "2024-07-05T02:27:51-04:00",
+            "Manifests": 336
+        },
+        {
+            "Name": "CrypticButter",
+            "Source": "https://github.com/CrypticButter/ScoopBucket",
+            "Updated": "2024-05-01T08:51:07-04:00",
+            "Manifests": 1
         }
     ]
 }
