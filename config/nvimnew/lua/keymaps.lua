@@ -35,7 +35,7 @@ map({'n', 'v'}, '<leader>p', function() vim.cmd('FzfLua registers')  end,{})
 map('n', '<leader>P', function()vim.cmd('FZFNeoyank + P') end,{})
 map('n', '<leader>0p', function() vim.cmd('FZFNeoyank 0 p') end,{})
 map('n', '<leader>h', function() vim.cmd('Telescope yank_history') end,{})
-map('v', '<leader>p',  function () vim.cmd('FZFNeoyankSelection +') end, {})
+-- map('v', '<leader>p',  function () vim.cmd('FZFNeoyankSelection +') end, {})
 
 map('n', '<leader>f', function() vim.cmd('up'); Server(); vim.cmd('te lf'); Feedkey('i','i') end, {})
 map('n', '<leader>lg', function() vim.cmd('up'); Server(); vim.cmd('te lazygit'); Feedkey('i','i') end, {})
