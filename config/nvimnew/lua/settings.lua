@@ -656,7 +656,7 @@ capabilities.textDocument.foldingRange = {
     dynamicRegistration = false,
     lineFoldingOnly = true
 }
- require("yanker").config({
+require("yanker").config({
   --history = ";h",
 })
 
