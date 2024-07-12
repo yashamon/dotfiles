@@ -52,7 +52,7 @@ require("lazy").setup({
 -- --     config = function()
 -- --         require("inlay-hints").setup()
 -- --     end,
--- {'stevearc/resession.nvim'},
+{'stevearc/resession.nvim'},
 -- { 'sindrets/diffview.nvim', dependencies = 'nvim-lua/plenary.nvim', lazy = true },
 -- -- {
 -- --     "yuki-yano/highlight-undo.nvim",
