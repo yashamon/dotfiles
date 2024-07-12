@@ -183,7 +183,7 @@ require('set')
 require('au')
 require('keymaps')
 -- require('mini.indentscope').setup()
-require('mini.trailspace').setup()
+-- require('mini.trailspace').setup()
 -- require('mini.pairs').setup()
 require("telescope").load_extension("yank_history")
 -- require('flare').setup {
