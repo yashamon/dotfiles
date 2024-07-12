@@ -31,7 +31,7 @@ vim.keymap.set('n', '<leader>sd', resession.delete)
 
 -- FZF Neoyank yank
 
-map({'n', 'v'}, '<leader>p', function()vim.cmd('FzfLua registers')  end,{})
+map({'n', 'v'}, '<leader>p', function() vim.cmd('FzfLua registers')  end,{})
 map('n', '<leader>P', function()vim.cmd('FZFNeoyank + P') end,{})
 map('n', '<leader>0p', function() vim.cmd('FZFNeoyank 0 p') end,{})
 map('n', '<leader>h', function() vim.cmd('Telescope yank_history') end,{})
