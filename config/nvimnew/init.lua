@@ -179,7 +179,7 @@ end
 -- 					-- end
 -- -- vim.lsp.inlay_hint.enable(not vim.lsp.inlay_hint.is_enabled())
 -- -- require 'nvim-treesitter.install'.compilers = { 'clang' }
--- require('settings')
+require('settings')
 require('functions')
 require('set')
 require('au')
