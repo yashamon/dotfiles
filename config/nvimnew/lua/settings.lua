@@ -733,7 +733,7 @@ require("yanky").setup({
       action = nil, -- nil to use default put action
     },
     telescope = {
-      use_default_mappings = true, -- if default mappings should be used
+      use_default_mappings = false, -- if default mappings should be used
       mappings = nil, -- nil to use default mappings or no mappings (see `use_default_mappings`)
     },
   },
