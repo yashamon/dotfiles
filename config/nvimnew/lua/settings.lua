@@ -718,7 +718,7 @@ require('lualine').setup {
   inactive_winbar = {},
   extension = {}
 }
-require("yanky").setup({
+require("yanky").setup{
   ring = {
     history_length = 100,
     storage = "shada",
@@ -753,7 +753,6 @@ require("yanky").setup({
    enabled = true,
   },
 },
-})
 vim.keymap.set({"n","x"}, ";p", "<Plug>(YankyPutAfter)")
 vim.keymap.set({"n","x"}, ";P", "<Plug>(YankyPutBefore)")
 vim.keymap.set({"n","x"}, "gp", "<Plug>(YankyGPutAfter)")
