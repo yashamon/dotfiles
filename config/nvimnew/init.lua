@@ -26,134 +26,136 @@ require("lazy").setup({
 --     { "<c-s>", mode = { "c" }, function() require("flash").toggle() end, desc = "Toggle Flash Search" },
 --   },
 -- },
-{ "karb94/neoscroll.nvim",
-config = function ()
-neoscroll = require('neoscroll')
-local keymap = {
-  ["J"] = function() neoscroll.ctrl_u({ duration = 250 }) end;
-  ["K"] = function() neoscroll.ctrl_d({ duration = 250 }) end;
-  ["<C-b>"] = function() neoscroll.ctrl_b({ duration = 450 }) end;
-  ["<C-f>"] = function() neoscroll.ctrl_f({ duration = 450 }) end;
-  ["<C-y>"] = function() neoscroll.scroll(-0.1, { move_cursor=false; duration = 100 }) end;
-  ["<C-e>"] = function() neoscroll.scroll(0.1, { move_cursor=false; duration = 100 }) end;
-  ["zt"]    = function() neoscroll.zt({ half_screen_duration = 250 }) end;
-  ["zz"]    = function() neoscroll.zz({ half_screen_duration = 250 }) end;
-  ["zb"]    = function() neoscroll.zb({ half_screen_duration = 250 }) end;
-}
-local modes = { 'n', 'v', 'x' }
-for key, func in pairs(keymap) do
-  vim.keymap.set(modes, key, func)
-end  
-end
-},
--- "MysticalDevil/inlay-hints.nvim",
---     event = "LspAttach",
---     dependencies = { "neovim/nvim-lspconfig" },
---     config = function()
---         require("inlay-hints").setup()
---     end,
-{'stevearc/resession.nvim'},
-{ 'sindrets/diffview.nvim', dependencies = 'nvim-lua/plenary.nvim', lazy = true },
--- {
---     "yuki-yano/highlight-undo.nvim",
---     config = function()
---         require('highlight-undo').setup({})
---     end,
---     dependencies = { "vim-denops/denops.vim" },
+-- { "karb94/neoscroll.nvim",
+-- config = function ()
+-- neoscroll = require('neoscroll')
+-- local keymap = {
+--   ["J"] = function() neoscroll.ctrl_u({ duration = 250 }) end;
+--   ["K"] = function() neoscroll.ctrl_d({ duration = 250 }) end;
+--   ["<C-b>"] = function() neoscroll.ctrl_b({ duration = 450 }) end;
+--   ["<C-f>"] = function() neoscroll.ctrl_f({ duration = 450 }) end;
+--   ["<C-y>"] = function() neoscroll.scroll(-0.1, { move_cursor=false; duration = 100 }) end;
+--   ["<C-e>"] = function() neoscroll.scroll(0.1, { move_cursor=false; duration = 100 }) end;
+--   ["zt"]    = function() neoscroll.zt({ half_screen_duration = 250 }) end;
+--   ["zz"]    = function() neoscroll.zz({ half_screen_duration = 250 }) end;
+--   ["zb"]    = function() neoscroll.zb({ half_screen_duration = 250 }) end;
+-- }
+-- local modes = { 'n', 'v', 'x' }
+-- for key, func in pairs(keymap) do
+--   vim.keymap.set(modes, key, func)
+-- end  
+-- end
 -- },
-{
-	"arsham/yanker.nvim",
-  dependencies = { "arsham/arshlib.nvim", "junegunn/fzf.vim", "MunifTanjim/nui.nvim" },
-  config = true, lazy = true
-},
-{
-  "lervag/vimtex",
-	syntax = true,
-  lazy = false,     -- we don't want to lazy load VimTeX
-  -- tag = "v2.15", -- uncomment to pin to a specific release
-  init = function()
-    -- VimTeX configuration goes here, e.g.
-    -- vim.g.vimtex_view_method = "sumatrapdf"
-		vim.g.vimtex_compiler_enabled = 'false'
-  end
-},
-{
-  "ibhagwan/fzf-lua",
-  -- optional for icon support
-  dependencies = { "nvim-tree/nvim-web-devicons" },
-	branch = "main",
-  config = function()
-    -- calling `setup` is optional for customization
-    require("fzf-lua").setup({})
-  end
-},
+-- -- "MysticalDevil/inlay-hints.nvim",
+-- --     event = "LspAttach",
+-- --     dependencies = { "neovim/nvim-lspconfig" },
+-- --     config = function()
+-- --         require("inlay-hints").setup()
+-- --     end,
+-- {'stevearc/resession.nvim'},
+-- { 'sindrets/diffview.nvim', dependencies = 'nvim-lua/plenary.nvim', lazy = true },
+-- -- {
+-- --     "yuki-yano/highlight-undo.nvim",
+-- --     config = function()
+-- --         require('highlight-undo').setup({})
+-- --     end,
+-- --     dependencies = { "vim-denops/denops.vim" },
+-- -- },
+-- {
+-- 	"arsham/yanker.nvim",
+--   dependencies = { "arsham/arshlib.nvim", "junegunn/fzf.vim", "MunifTanjim/nui.nvim" },
+--   config = true, lazy = true
+-- },
+-- {
+--   "lervag/vimtex",
+-- 	syntax = true,
+--   lazy = false,     -- we don't want to lazy load VimTeX
+--   -- tag = "v2.15", -- uncomment to pin to a specific release
+--   init = function()
+--     -- VimTeX configuration goes here, e.g.
+--     -- vim.g.vimtex_view_method = "sumatrapdf"
+-- 		vim.g.vimtex_compiler_enabled = 'false'
+--   end
+-- },
+-- {
+--   "ibhagwan/fzf-lua",
+--   -- optional for icon support
+--   dependencies = { "nvim-tree/nvim-web-devicons" },
+-- 	branch = "main",
+--   config = function()
+--     -- calling `setup` is optional for customization
+--     require("fzf-lua").setup({})
+--   end
+-- },
+
 {'kevinhwang91/nvim-ufo', dependencies = 'kevinhwang91/promise-async', lazy = true},
-{'gbprod/yanky.nvim', lazy = true},
--- {'ThePrimeagen/harpoon', dependencies = "nvim-lua/plenary.nvim"},
--- {'jose-elias-alvarez/null-ls.nvim', dependencies = "nvim-lua/plenary.nvim" },
--- {'nvim-telescope/telescope-fzf-native.nvim', lazy = true},
-{'folke/todo-comments.nvim', lazy = true},
-{'L3MON4D3/LuaSnip', lazy = true },
-{'saadparwaiz1/cmp_luasnip', lazy = true},
-{'nvim-treesitter/playground', lazy = true},
-{'LhKipp/nvim-nu', dependencies = { "nvim-treesitter/nvim-treesitter", "jose-elias-alvarez/null-ls.nvim", lazy = true}
-},
-{'echasnovski/mini.nvim', lazy =true },
-{'lukas-reineke/indent-blankline.nvim', event = { "BufRead", "BufNewFile" }},
-{'folke/which-key.nvim', lazy = true},
-{'lambdalisue/nerdfont.vim'},
-{'ggandor/leap.nvim', lazy = true},
-{'kyazdani42/nvim-web-devicons', lazy = true},
-{'glacambre/firenvim', build = ":call firenvim#install(0)", lazy = false },
-{'neovim/nvim-lspconfig', lazy = true },
-{'williamboman/mason.nvim', lazy = true},
-{'williamboman/mason-lspconfig.nvim', lazy = true},
-{
-    "hrsh7th/nvim-cmp",
-    -- load cmp on InsertEnter
-    event = "InsertEnter",
-    -- these dependencies will only be loaded when cmp loads
-    -- dependencies are always lazy-loaded unless specified otherwise
-    dependencies = {
-      "hrsh7th/cmp-nvim-lsp",
-      "hrsh7th/cmp-buffer",
-			'quangnguyen30192/cmp-nvim-tags',
-    },
- },
--- {'terrortylor/nvim-comment', cmd = "CommentToggle"},
-'nvim-lualine/lualine.nvim',
-{'justinhoward/fzf-neoyank', lazy=false },
-{'folke/tokyonight.nvim', lazy = true
-},
--- {
---   "folke/noice.nvim",
---   event = "VeryLazy",
---   opts = {
---     -- add any options here
---   },
---   dependencies = {
---     -- if you lazy-load any plugin below, make sure to add proper `module="..."` entries
---     "MunifTanjim/nui.nvim",
---     -- OPTIONAL:
---     --   `nvim-notify` is only needed, if you want to use the notification view.
---     --   If not available, we use `mini` as the fallback
---     -- "rcarriga/nvim-notify",
---     }
+
+-- {'gbprod/yanky.nvim', lazy = true},
+-- -- {'ThePrimeagen/harpoon', dependencies = "nvim-lua/plenary.nvim"},
+-- -- {'jose-elias-alvarez/null-ls.nvim', dependencies = "nvim-lua/plenary.nvim" },
+-- -- {'nvim-telescope/telescope-fzf-native.nvim', lazy = true},
+-- {'folke/todo-comments.nvim', lazy = true},
+-- {'L3MON4D3/LuaSnip', lazy = true },
+-- {'saadparwaiz1/cmp_luasnip', lazy = true},
+-- {'nvim-treesitter/playground', lazy = true},
+-- {'LhKipp/nvim-nu', dependencies = { "nvim-treesitter/nvim-treesitter", "jose-elias-alvarez/null-ls.nvim", lazy = true}
 -- },
+-- {'echasnovski/mini.nvim', lazy =true },
+-- {'lukas-reineke/indent-blankline.nvim', event = { "BufRead", "BufNewFile" }},
+-- {'folke/which-key.nvim', lazy = true},
+-- {'lambdalisue/nerdfont.vim'},
+-- {'ggandor/leap.nvim', lazy = true},
+-- {'kyazdani42/nvim-web-devicons', lazy = true},
+-- {'glacambre/firenvim', build = ":call firenvim#install(0)", lazy = false },
+-- {'neovim/nvim-lspconfig', lazy = true },
+-- {'williamboman/mason.nvim', lazy = true},
+-- {'williamboman/mason-lspconfig.nvim', lazy = true},
+-- {
+--     "hrsh7th/nvim-cmp",
+--     -- load cmp on InsertEnter
+--     event = "InsertEnter",
+--     -- these dependencies will only be loaded when cmp loads
+--     -- dependencies are always lazy-loaded unless specified otherwise
+--     dependencies = {
+--       "hrsh7th/cmp-nvim-lsp",
+--       "hrsh7th/cmp-buffer",
+-- 			'quangnguyen30192/cmp-nvim-tags',
+--     },
+--  },
+-- -- {'terrortylor/nvim-comment', cmd = "CommentToggle"},
+-- 'nvim-lualine/lualine.nvim',
+-- {'justinhoward/fzf-neoyank', lazy=false },
+-- {'folke/tokyonight.nvim', lazy = true
+-- },
+-- -- {
+-- --   "folke/noice.nvim",
+-- --   event = "VeryLazy",
+-- --   opts = {
+-- --     -- add any options here
+-- --   },
+-- --   dependencies = {
+-- --     -- if you lazy-load any plugin below, make sure to add proper `module="..."` entries
+-- --     "MunifTanjim/nui.nvim",
+-- --     -- OPTIONAL:
+-- --     --   `nvim-notify` is only needed, if you want to use the notification view.
+-- --     --   If not available, we use `mini` as the fallback
+-- --     -- "rcarriga/nvim-notify",
+-- --     }
+-- -- },
 {'ellisonleao/gruvbox.nvim',
 lazy = false, priority = 1000,
 config = function()
 vim.cmd([[colorscheme gruvbox]])
 end,},
-{'nvim-treesitter/nvim-treesitter', build = ":TSUpdate", lazy = false},
-{'Shougo/neoyank.vim', dependencies = 'Shougo/denite.nvim'},
-{'junegunn/fzf', lazy = false, build = ":call fzf#install()" },
-{'junegunn/fzf.vim', lazy = true},
-{'mbbill/undotree', cmd = "UndotreeToggle"},
-{'kevinhwang91/nvim-bqf', lazy = false},
-{'nvim-telescope/telescope.nvim', lazy = true, dependencies = "nvim-lua/plenary.nvim",
-},
-{'mg979/vim-visual-multi', lazy = false},
+-- {'nvim-treesitter/nvim-treesitter', build = ":TSUpdate", lazy = false},
+-- {'Shougo/neoyank.vim', dependencies = 'Shougo/denite.nvim'},
+-- {'junegunn/fzf', lazy = false, build = ":call fzf#install()" },
+-- {'junegunn/fzf.vim', lazy = true},
+-- {'mbbill/undotree', cmd = "UndotreeToggle"},
+-- {'kevinhwang91/nvim-bqf', lazy = false},
+-- {'nvim-telescope/telescope.nvim', lazy = true, dependencies = "nvim-lua/plenary.nvim",
+-- },
+-- {'mg979/vim-visual-multi', lazy = false},
 
 })
 -- luasnip
@@ -161,31 +163,31 @@ function Is_math()
     return vim.api.nvim_eval('vimtex#syntax#in_mathzone()') == 1
 end
 
-require("luasnip/loaders/from_vscode").load({ paths = "C:/Users/yasha/OneDrive/dotfiles/snippets"
--- fs_event_providers = {
-                    -- autocmd = true,
-                    -- libuv = true} 
-})
--- Reload = function()
-require("luasnip.loaders.from_lua").load({
-                paths = "C:/Users/yasha/OneDrive/dotfiles/config/nvimnew/lua/snippets",
-                fs_event_providers = {
-                    autocmd = true,
-                    libuv = true,
-                },
-})
-					-- end
--- vim.lsp.inlay_hint.enable(not vim.lsp.inlay_hint.is_enabled())
--- require 'nvim-treesitter.install'.compilers = { 'clang' }
-require('settings')
+-- require("luasnip/loaders/from_vscode").load({ paths = "C:/Users/yasha/OneDrive/dotfiles/snippets"
+-- -- fs_event_providers = {
+--                     -- autocmd = true,
+--                     -- libuv = true} 
+-- })
+-- -- Reload = function()
+-- require("luasnip.loaders.from_lua").load({
+--                 paths = "C:/Users/yasha/OneDrive/dotfiles/config/nvimnew/lua/snippets",
+--                 fs_event_providers = {
+--                     autocmd = true,
+--                     libuv = true,
+--                 },
+-- })
+-- 					-- end
+-- -- vim.lsp.inlay_hint.enable(not vim.lsp.inlay_hint.is_enabled())
+-- -- require 'nvim-treesitter.install'.compilers = { 'clang' }
+-- require('settings')
 require('functions')
 require('set')
 require('au')
 require('keymaps')
 -- require('mini.indentscope').setup()
-require('mini.trailspace').setup()
+-- require('mini.trailspace').setup()
 -- require('mini.pairs').setup()
-require("telescope").load_extension("yank_history")
+-- require("telescope").load_extension("yank_history")
 -- require('flare').setup {
 --   enabled = true, -- disable highlighting
 --   hl_group = "IncSearch", -- set highlight group used for highlight
