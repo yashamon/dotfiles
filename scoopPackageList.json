@@ -1,568 +1,548 @@
 {
-    "apps": [
-        {
-            "Info": "",
-            "Version": "24.07",
-            "Source": "main",
-            "Name": "7zip",
-            "Updated": "2024-06-27T19:57:57.1341926-04:00"
-        },
-        {
-            "Info": "64bit",
-            "Version": "35.0.0",
-            "Source": "main",
-            "Name": "adb",
-            "Updated": "2024-06-18T20:16:35.9960459-04:00"
-        },
-        {
-            "Info": "Install failed",
-            "Version": null,
-            "Source": null,
-            "Name": "autohotkey",
-            "Updated": "2024-06-19T17:30:42.7698818-04:00"
-        },
-        {
-            "Info": "64bit",
-            "Version": "0.24.0",
-            "Source": "main",
-            "Name": "bat",
-            "Updated": "2024-06-18T20:16:37.8224197-04:00"
-        },
-        {
-            "Info": "64bit",
-            "Version": "1.14.0",
-            "Source": "main",
-            "Name": "bfg",
-            "Updated": "2024-06-18T20:16:40.7719357-04:00"
-        },
-        {
-            "Info": "64bit",
-            "Version": "2024-07-02",
-            "Source": "main",
-            "Name": "cacert",
-            "Updated": "2024-07-11T12:55:48.6365098-04:00"
-        },
-        {
-            "Info": "64bit",
-            "Version": "2404.23",
-            "Source": "nerd-fonts",
-            "Name": "Cascadia-Code",
-            "Updated": "2024-06-18T20:38:21.5570417-04:00"
-        },
-        {
-            "Info": "64bit",
-            "Version": "3.2.1",
-            "Source": "nerd-fonts",
-            "Name": "CascadiaCode-Nf",
-            "Updated": "2024-06-18T20:43:15.2982421-04:00"
-        },
-        {
-            "Info": "",
-            "Version": "3.30.0",
-            "Source": "main",
-            "Name": "cmake",
-            "Updated": "2024-07-11T12:56:21.0160983-04:00"
-        },
-        {
-            "Info": "64bit",
-            "Version": "6.3.0",
-            "Source": "main",
-            "Name": "cwrsync",
-            "Updated": "2024-06-18T20:17:17.9741962-04:00"
-        },
-        {
-            "Info": "64bit",
-            "Version": "3.14",
-            "Source": "main",
-            "Name": "dark",
-            "Updated": "2024-06-18T20:17:19.7653493-04:00"
-        },
-        {
-            "Info": "64bit",
-            "Version": "1.45.0",
-            "Source": "main",
-            "Name": "deno",
-            "Updated": "2024-07-11T12:56:24.7649274-04:00"
-        },
-        {
-            "Info": "64bit",
-            "Version": "3.6",
-            "Source": "main",
-            "Name": "diffutils",
-            "Updated": "2024-06-18T20:17:27.2411128-04:00"
-        },
-        {
-            "Info": "64bit",
-            "Version": "7.5.2",
-            "Source": "main",
-            "Name": "dos2unix",
-            "Updated": "2024-06-18T20:17:29.2886736-04:00"
-        },
-        {
-            "Info": "64bit",
-            "Version": "10.1.0",
-            "Source": "main",
-            "Name": "fd",
-            "Updated": "2024-06-18T20:17:30.8218725-04:00"
-        },
-        {
-            "Info": "",
-            "Version": "2.1.5",
-            "Source": "extras",
-            "Name": "foobar2000",
-            "Updated": "2024-06-18T20:38:31.5926399-04:00"
-        },
-        {
-            "Info": "64bit",
-            "Version": "2024-04-23",
-            "Source": "extras",
-            "Name": "foobar2000-encoders",
-            "Updated": "2024-06-18T20:38:36.1026601-04:00"
-        },
-        {
-            "Info": "",
-            "Version": "0.3.543",
-            "Source": "extras",
-            "Name": "fvim",
-            "Updated": "2024-07-02T18:38:56.2375902-04:00"
-        },
-        {
-            "Info": "",
-            "Version": "0.53.0",
-            "Source": "main",
-            "Name": "fzf",
-            "Updated": "2024-06-18T20:17:33.5630129-04:00"
-        },
-        {
-            "Info": "64bit",
-            "Version": "5.3.0-2",
-            "Source": "main",
-            "Name": "gawk",
-            "Updated": "2024-06-18T20:17:38.7009774-04:00"
-        },
-        {
-            "Info": "64bit",
-            "Version": "13.2.0",
-            "Source": "main",
-            "Name": "gcc",
-            "Updated": "2024-07-02T15:50:25.8231076-04:00"
-        },
-        {
-            "Info": "",
-            "Version": "2.52.0",
-            "Source": "main",
-            "Name": "gh",
-            "Updated": "2024-06-27T19:58:02.5898369-04:00"
-        },
-        {
-            "Info": "64bit",
-            "Version": "2.45.2",
-            "Source": "main",
-            "Name": "git",
-            "Updated": "2024-06-18T20:19:50.0792858-04:00"
-        },
-        {
-            "Info": "64bit",
-            "Version": "3.11",
-            "Source": "main",
-            "Name": "grep",
-            "Updated": "2024-06-18T20:19:52.1083188-04:00"
-        },
-        {
-            "Info": "64bit",
-            "Version": "1.3.12",
-            "Source": "main",
-            "Name": "gzip",
-            "Updated": "2024-06-18T20:19:56.5260068-04:00"
-        },
-        {
-            "Info": "64bit",
-            "Version": "24.03",
-            "Source": "main",
-            "Name": "helix",
-            "Updated": "2024-06-18T20:20:03.4996925-04:00"
-        },
-        {
-            "Info": "64bit",
-            "Version": "1.3.1_2023-11-16_91b66b0783",
-            "Source": "extras",
-            "Name": "inkscape",
-            "Updated": "2024-06-18T20:39:54.8101704-04:00"
-        },
-        {
-            "Info": "64bit",
-            "Version": "2.304",
-            "Source": "nerd-fonts",
-            "Name": "jetbrains-mono",
-            "Updated": "2024-06-18T20:43:17.6211186-04:00"
-        },
-        {
-            "Info": "64bit",
-            "Version": "0.42.0",
-            "Source": "extras",
-            "Name": "lazygit",
-            "Updated": "2024-06-18T20:39:58.0321399-04:00"
-        },
-        {
-            "Info": "",
-            "Version": "661",
-            "Source": "main",
-            "Name": "less",
-            "Updated": "2024-07-11T12:56:25.2715705-04:00"
-        },
-        {
-            "Info": "64bit",
-            "Version": "r32",
-            "Source": "main",
-            "Name": "lf",
-            "Updated": "2024-06-18T20:22:26.7730499-04:00"
-        },
-        {
-            "Info": "",
-            "Version": "18.1.8",
-            "Source": "main",
-            "Name": "llvm",
-            "Updated": "2024-07-11T12:57:42.4311854-04:00"
-        },
-        {
-            "Info": "64bit",
-            "Version": "0.2018.07.25",
-            "Source": "main",
-            "Name": "ln",
-            "Updated": "2024-06-18T20:22:27.9769789-04:00"
-        },
-        {
-            "Info": "64bit",
-            "Version": "5.4.2",
-            "Source": "main",
-            "Name": "lua",
-            "Updated": "2024-06-18T20:22:32.2386718-04:00"
-        },
-        {
-            "Info": "64bit",
-            "Version": "4.4.1",
-            "Source": "main",
-            "Name": "make",
-            "Updated": "2024-07-01T14:03:50.8567532-04:00"
-        },
-        {
-            "Info": "64bit",
-            "Version": "3.2.1",
-            "Source": "nerd-fonts",
-            "Name": "Monoid-NF-mono",
-            "Updated": "2024-06-18T20:43:22.3349304-04:00"
-        },
-        {
-            "Info": "64bit",
-            "Version": "0.13.1",
-            "Source": "extras",
-            "Name": "neovide",
-            "Updated": "2024-06-18T20:40:03.4377945-04:00"
-        },
-        {
-            "Info": "64bit",
-            "Version": "0.10.0",
-            "Source": "main",
-            "Name": "neovim",
-            "Updated": "2024-06-27T19:53:49.9741338-04:00"
-        },
-        {
-            "Info": "",
-            "Version": "1.12.1",
-            "Source": "main",
-            "Name": "ninja",
-            "Updated": "2024-06-19T10:56:55.0417964-04:00"
-        },
-        {
-            "Info": "",
-            "Version": "22.4.1",
-            "Source": "main",
-            "Name": "nodejs",
-            "Updated": "2024-07-11T12:57:58.6299478-04:00"
-        },
-        {
-            "Info": "64bit",
-            "Version": "0.3.4",
-            "Source": "main",
-            "Name": "ntop",
-            "Updated": "2024-06-18T20:22:49.9949085-04:00"
-        },
-        {
-            "Info": "",
-            "Version": "0.93.0",
-            "Source": "main",
-            "Name": "nu",
-            "Updated": "2024-06-18T20:16:23.2986894-04:00"
-        },
-        {
-            "Info": "64bit",
-            "Version": "0.3.9",
-            "Source": "extras",
-            "Name": "nvy",
-            "Updated": "2024-06-18T20:40:08.1035746-04:00"
-        },
-        {
-            "Info": "",
-            "Version": "21.23.4",
-            "Source": "main",
-            "Name": "Oh-my-posh",
-            "Updated": "2024-07-11T12:58:00.4690097-04:00"
-        },
-        {
-            "Info": "64bit",
-            "Version": "9.5.0.0p1",
-            "Source": "main",
-            "Name": "openssh",
-            "Updated": "2024-06-30T17:40:18.5369732-04:00"
-        },
-        {
-            "Info": "64bit",
-            "Version": "3.2.1",
-            "Source": "main",
-            "Name": "pandoc",
-            "Updated": "2024-06-27T19:58:24.1010308-04:00"
-        },
-        {
-            "Info": "64bit",
-            "Version": "5.38.2.2",
-            "Source": "main",
-            "Name": "perl",
-            "Updated": "2024-06-18T20:24:47.3317235-04:00"
-        },
-        {
-            "Info": "64bit",
-            "Version": "0.26-1",
-            "Source": "main",
-            "Name": "pkg-config",
-            "Updated": "2024-06-23T15:06:17.6759305-04:00"
-        },
-        {
-            "Info": "64bit",
-            "Version": "2.6.1",
-            "Source": "extras",
-            "Name": "psfzf",
-            "Updated": "2024-06-18T20:40:11.2756621-04:00"
-        },
-        {
-            "Info": "",
-            "Version": "7.4.2",
-            "Source": "main",
-            "Name": "pwsh",
-            "Updated": "2024-06-18T19:48:00.8271179-04:00"
-        },
-        {
-            "Info": "",
-            "Version": "7.5.0-preview.3",
-            "Source": "versions",
-            "Name": "pwsh-beta",
-            "Updated": "2024-06-18T20:40:23.9644941-04:00"
-        },
-        {
-            "Info": "64bit",
-            "Version": "4.6.5",
-            "Source": "C:\\Users\\yasha\\OneDrive\\dotfiles\\scoopmanifests\\qbittorent.json",
-            "Name": "qbittorent",
-            "Updated": "2024-06-28T23:15:14.3719318-04:00"
-        },
-        {
-            "Info": "Install failed",
-            "Version": null,
-            "Source": null,
-            "Name": "qbittorrent",
-            "Updated": "2024-06-28T22:46:20.9635976-04:00"
-        },
-        {
-            "Info": "64bit",
-            "Version": "2.0.0",
-            "Source": "main",
-            "Name": "recycle-bin",
-            "Updated": "2024-06-18T20:24:50.8287887-04:00"
-        },
-        {
-            "Info": "64bit",
-            "Version": "14.1.0",
-            "Source": "main",
-            "Name": "ripgrep",
-            "Updated": "2024-06-18T20:24:52.5068458-04:00"
-        },
-        {
-            "Info": "",
-            "Version": "1.27.1",
-            "Source": "main",
-            "Name": "rustup",
-            "Updated": "2024-06-18T20:25:22.2520272-04:00"
-        },
-        {
-            "Info": "64bit",
-            "Version": "4.9",
-            "Source": "main",
-            "Name": "sed",
-            "Updated": "2024-06-18T20:25:23.6553834-04:00"
-        },
-        {
-            "Info": "64bit",
-            "Version": "2.0.0",
-            "Source": "extras",
-            "Name": "sioyek",
-            "Updated": "2024-06-18T20:40:53.9713622-04:00"
-        },
-        {
-            "Info": "",
-            "Version": "1.19.0",
-            "Source": "main",
-            "Name": "starship",
-            "Updated": "2024-06-18T20:25:27.0699764-04:00"
-        },
-        {
-            "Info": "64bit",
-            "Version": "0.2020.01.26",
-            "Source": "main",
-            "Name": "sudo",
-            "Updated": "2024-06-18T20:25:28.499687-04:00"
-        },
-        {
-            "Info": "",
-            "Version": "3.5.2",
-            "Source": "extras",
-            "Name": "sumatrapdf",
-            "Updated": "2024-06-18T20:41:10.8350861-04:00"
-        },
-        {
-            "Info": "64bit",
-            "Version": "1.23",
-            "Source": "main",
-            "Name": "tar",
-            "Updated": "2024-06-29T17:56:07.9874278-04:00"
-        },
-        {
-            "Info": "64bit",
-            "Version": "0.15.0",
-            "Source": "main",
-            "Name": "tectonic",
-            "Updated": "2024-06-18T20:25:42.8767446-04:00"
-        },
-        {
-            "Info": "64bit",
-            "Version": "5.2.3",
-            "Source": "extras",
-            "Name": "telegram",
-            "Updated": "2024-07-11T12:58:05.8150403-04:00"
-        },
-        {
-            "Info": "64bit",
-            "Version": "0.2018.07.25",
-            "Source": "main",
-            "Name": "touch",
-            "Updated": "2024-06-18T20:25:44.683606-04:00"
-        },
-        {
-            "Info": "64bit",
-            "Version": "6.1.0",
-            "Source": "extras",
-            "Name": "universal-ctags",
-            "Updated": "2024-06-18T20:41:20.1991425-04:00"
-        },
-        {
-            "Info": "64bit",
-            "Version": "6.00",
-            "Source": "main",
-            "Name": "unzip",
-            "Updated": "2024-06-18T20:25:47.0775923-04:00"
-        },
-        {
-            "Info": "64bit",
-            "Version": "14.40.33810.0",
-            "Source": "extras",
-            "Name": "vcredist2022",
-            "Updated": "2024-06-18T20:41:50.5514423-04:00"
-        },
-        {
-            "Info": "",
-            "Version": "20240711",
-            "Source": "versions",
-            "Name": "vlc-nightly",
-            "Updated": "2024-07-11T12:58:16.2235365-04:00"
-        },
-        {
-            "Info": "",
-            "Version": "1.91.0",
-            "Source": "extras",
-            "Name": "vscode",
-            "Updated": "2024-07-11T12:58:40.3720742-04:00"
-        },
-        {
-            "Info": "64bit",
-            "Version": "1.21.4",
-            "Source": "main",
-            "Name": "wget",
-            "Updated": "2024-06-18T20:25:51.3126404-04:00"
-        },
-        {
-            "Info": "64bit",
-            "Version": "2.20",
-            "Source": "main",
-            "Name": "which",
-            "Updated": "2024-06-18T20:25:53.2673932-04:00"
-        },
-        {
-            "Info": "64bit",
-            "Version": "1.2.3",
-            "Source": "extras",
-            "Name": "xournalpp",
-            "Updated": "2024-06-18T20:42:58.8818953-04:00"
-        },
-        {
-            "Info": "64bit",
-            "Version": "0.2.5",
-            "Source": "main",
-            "Name": "yazi",
-            "Updated": "2024-06-18T20:25:56.051266-04:00"
-        },
-        {
-            "Info": "",
-            "Version": "6.1.1.41705",
-            "Source": "extras",
-            "Name": "zoom",
-            "Updated": "2024-07-11T12:58:52.386933-04:00"
-        },
-        {
-            "Info": "",
-            "Version": "0.9.4",
-            "Source": "main",
-            "Name": "zoxide",
-            "Updated": "2024-06-19T07:02:33.9598838-04:00"
-        }
-    ],
     "buckets": [
         {
             "Name": "main",
             "Source": "https://github.com/ScoopInstaller/Main",
-            "Updated": "2024-07-11T08:39:42-04:00",
-            "Manifests": 1332
+            "Updated": "2024-08-13T14:26:43-06:00",
+            "Manifests": 1337
         },
         {
             "Name": "extras",
             "Source": "https://github.com/ScoopInstaller/Extras",
-            "Updated": "2024-07-11T09:45:31-04:00",
-            "Manifests": 2044
+            "Updated": "2024-08-13T14:40:57-06:00",
+            "Manifests": 2054
         },
         {
             "Name": "versions",
             "Source": "https://github.com/ScoopInstaller/Versions",
-            "Updated": "2024-07-11T08:53:17-04:00",
-            "Manifests": 465
+            "Updated": "2024-08-13T14:37:53-06:00",
+            "Manifests": 468
         },
         {
             "Name": "nerd-fonts",
             "Source": "https://github.com/matthewjberger/scoop-nerd-fonts",
-            "Updated": "2024-07-05T02:27:51-04:00",
+            "Updated": "2024-08-10T15:20:00-06:00",
             "Manifests": 336
+        }
+    ],
+    "apps": [
+        {
+            "Updated": "2024-08-13T15:21:04.3856343-06:00",
+            "Version": "24.08",
+            "Name": "7zip",
+            "Source": "main",
+            "Info": ""
         },
         {
-            "Name": "CrypticButter",
-            "Source": "https://github.com/CrypticButter/ScoopBucket",
-            "Updated": "2024-05-01T08:51:07-04:00",
-            "Manifests": 1
+            "Updated": "2024-08-01T14:27:38.2256522-06:00",
+            "Version": "35.0.0",
+            "Name": "adb",
+            "Source": "main",
+            "Info": ""
+        },
+        {
+            "Updated": "2024-08-01T14:27:44.7752315-06:00",
+            "Version": "2.0.18",
+            "Name": "autohotkey",
+            "Source": "extras",
+            "Info": ""
+        },
+        {
+            "Updated": "2024-08-01T14:27:48.322184-06:00",
+            "Version": "0.24.0",
+            "Name": "bat",
+            "Source": "main",
+            "Info": ""
+        },
+        {
+            "Updated": "2024-08-01T14:27:51.8021167-06:00",
+            "Version": "1.14.0",
+            "Name": "bfg",
+            "Source": "main",
+            "Info": ""
+        },
+        {
+            "Updated": "2024-08-01T14:40:45.9725088-06:00",
+            "Version": null,
+            "Name": "cacert",
+            "Source": null,
+            "Info": "Install failed"
+        },
+        {
+            "Updated": "2024-08-01T14:28:17.3459725-06:00",
+            "Version": "2404.23",
+            "Name": "Cascadia-Code",
+            "Source": "nerd-fonts",
+            "Info": ""
+        },
+        {
+            "Updated": "2024-08-01T14:28:27.4736484-06:00",
+            "Version": "3.2.1",
+            "Name": "CascadiaCode-Nf",
+            "Source": "nerd-fonts",
+            "Info": ""
+        },
+        {
+            "Updated": "2024-08-13T15:21:42.5356875-06:00",
+            "Version": "3.30.2",
+            "Name": "cmake",
+            "Source": "main",
+            "Info": ""
+        },
+        {
+            "Updated": "2024-08-01T14:29:03.4401985-06:00",
+            "Version": "6.3.0",
+            "Name": "cwrsync",
+            "Source": "main",
+            "Info": ""
+        },
+        {
+            "Updated": "2024-08-01T14:29:07.3033088-06:00",
+            "Version": "3.14",
+            "Name": "dark",
+            "Source": "main",
+            "Info": ""
+        },
+        {
+            "Updated": "2024-08-01T14:29:16.0410147-06:00",
+            "Version": "1.45.5",
+            "Name": "deno",
+            "Source": "main",
+            "Info": ""
+        },
+        {
+            "Updated": "2024-08-01T14:29:22.5507224-06:00",
+            "Version": "3.6",
+            "Name": "diffutils",
+            "Source": "main",
+            "Info": ""
+        },
+        {
+            "Updated": "2024-08-01T14:29:27.1665092-06:00",
+            "Version": "7.5.2",
+            "Name": "dos2unix",
+            "Source": "main",
+            "Info": ""
+        },
+        {
+            "Updated": "2024-08-01T14:29:30.1671307-06:00",
+            "Version": "10.1.0",
+            "Name": "fd",
+            "Source": "main",
+            "Info": ""
+        },
+        {
+            "Updated": "2024-08-01T14:29:36.6944191-06:00",
+            "Version": "2.1.5",
+            "Name": "foobar2000",
+            "Source": "extras",
+            "Info": ""
+        },
+        {
+            "Updated": "2024-08-01T14:29:41.5572112-06:00",
+            "Version": "2024-04-23",
+            "Name": "foobar2000-encoders",
+            "Source": "extras",
+            "Info": ""
+        },
+        {
+            "Updated": "2024-08-01T14:29:53.2115118-06:00",
+            "Version": "0.3.543",
+            "Name": "fvim",
+            "Source": "extras",
+            "Info": ""
+        },
+        {
+            "Updated": "2024-08-01T14:29:56.8652868-06:00",
+            "Version": "0.54.3",
+            "Name": "fzf",
+            "Source": "main",
+            "Info": ""
+        },
+        {
+            "Updated": "2024-08-01T14:30:03.4402901-06:00",
+            "Version": "5.3.0-2",
+            "Name": "gawk",
+            "Source": "main",
+            "Info": ""
+        },
+        {
+            "Updated": "2024-08-01T14:30:29.47609-06:00",
+            "Version": "13.2.0",
+            "Name": "gcc",
+            "Source": "main",
+            "Info": ""
+        },
+        {
+            "Updated": "2024-08-13T15:21:45.2877658-06:00",
+            "Version": "2.54.0",
+            "Name": "gh",
+            "Source": "main",
+            "Info": ""
+        },
+        {
+            "Updated": "2024-08-01T14:26:54.9203728-06:00",
+            "Version": "2.46.0",
+            "Name": "git",
+            "Source": "main",
+            "Info": ""
+        },
+        {
+            "Updated": "2024-08-01T14:30:37.6417366-06:00",
+            "Version": "3.11",
+            "Name": "grep",
+            "Source": "main",
+            "Info": ""
+        },
+        {
+            "Updated": "2024-08-01T14:30:42.8516854-06:00",
+            "Version": "1.3.12",
+            "Name": "gzip",
+            "Source": "main",
+            "Info": ""
+        },
+        {
+            "Updated": "2024-08-01T14:30:55.6847951-06:00",
+            "Version": "24.07",
+            "Name": "helix",
+            "Source": "main",
+            "Info": ""
+        },
+        {
+            "Updated": "2024-08-01T14:32:38.8599553-06:00",
+            "Version": "1.3.2_2023-11-25_091e20e",
+            "Name": "inkscape",
+            "Source": "extras",
+            "Info": ""
+        },
+        {
+            "Updated": "2024-08-01T14:32:43.1660017-06:00",
+            "Version": "2.304",
+            "Name": "jetbrains-mono",
+            "Source": "nerd-fonts",
+            "Info": ""
+        },
+        {
+            "Updated": "2024-08-01T14:32:48.2572424-06:00",
+            "Version": "0.43.1",
+            "Name": "lazygit",
+            "Source": "extras",
+            "Info": ""
+        },
+        {
+            "Updated": "2024-08-01T14:32:51.4066757-06:00",
+            "Version": "661",
+            "Name": "less",
+            "Source": "main",
+            "Info": ""
+        },
+        {
+            "Updated": "2024-08-01T14:32:55.0955128-06:00",
+            "Version": "r32",
+            "Name": "lf",
+            "Source": "main",
+            "Info": ""
+        },
+        {
+            "Updated": "2024-08-01T14:34:12.9147959-06:00",
+            "Version": "18.1.8",
+            "Name": "llvm",
+            "Source": "main",
+            "Info": ""
+        },
+        {
+            "Updated": "2024-08-01T14:34:14.9518934-06:00",
+            "Version": "0.2018.07.25",
+            "Name": "ln",
+            "Source": "main",
+            "Info": ""
+        },
+        {
+            "Updated": "2024-08-01T14:34:19.3927719-06:00",
+            "Version": "5.4.7-2",
+            "Name": "lua",
+            "Source": "main",
+            "Info": ""
+        },
+        {
+            "Updated": "2024-08-01T14:34:22.4237683-06:00",
+            "Version": "4.4.1",
+            "Name": "make",
+            "Source": "main",
+            "Info": ""
+        },
+        {
+            "Updated": "2024-08-01T14:34:26.4531762-06:00",
+            "Version": "3.2.1",
+            "Name": "Monoid-NF-mono",
+            "Source": "nerd-fonts",
+            "Info": ""
+        },
+        {
+            "Updated": "2024-08-01T14:34:30.4971155-06:00",
+            "Version": "0.13.3",
+            "Name": "neovide",
+            "Source": "extras",
+            "Info": ""
+        },
+        {
+            "Updated": "2024-08-01T14:34:39.5321087-06:00",
+            "Version": "0.10.1",
+            "Name": "neovim",
+            "Source": "main",
+            "Info": ""
+        },
+        {
+            "Updated": "2024-08-01T14:34:43.0389838-06:00",
+            "Version": "1.12.1",
+            "Name": "ninja",
+            "Source": "main",
+            "Info": ""
+        },
+        {
+            "Updated": "2024-08-13T15:22:12.4197856-06:00",
+            "Version": "22.6.0",
+            "Name": "nodejs",
+            "Source": "main",
+            "Info": ""
+        },
+        {
+            "Updated": "2024-08-01T14:35:12.791045-06:00",
+            "Version": "0.3.4",
+            "Name": "ntop",
+            "Source": "main",
+            "Info": ""
+        },
+        {
+            "Updated": "2024-08-01T14:27:02.0608242-06:00",
+            "Version": "0.96.1",
+            "Name": "nu",
+            "Source": "main",
+            "Info": ""
+        },
+        {
+            "Updated": "2024-08-01T14:35:16.5350866-06:00",
+            "Version": "0.3.9",
+            "Name": "nvy",
+            "Source": "extras",
+            "Info": ""
+        },
+        {
+            "Updated": "2024-08-13T15:22:15.8439369-06:00",
+            "Version": "23.6.3",
+            "Name": "Oh-my-posh",
+            "Source": "main",
+            "Info": ""
+        },
+        {
+            "Updated": "2024-08-01T14:35:24.7705612-06:00",
+            "Version": "9.5.0.0p1",
+            "Name": "openssh",
+            "Source": "main",
+            "Info": ""
+        },
+        {
+            "Updated": "2024-08-01T14:35:32.109162-06:00",
+            "Version": "3.3",
+            "Name": "pandoc",
+            "Source": "main",
+            "Info": ""
+        },
+        {
+            "Updated": "2024-08-01T14:36:34.733054-06:00",
+            "Version": "5.38.2.2",
+            "Name": "perl",
+            "Source": "main",
+            "Info": ""
+        },
+        {
+            "Updated": "2024-08-01T14:36:44.6551754-06:00",
+            "Version": "0.26-1",
+            "Name": "pkg-config",
+            "Source": "main",
+            "Info": ""
+        },
+        {
+            "Updated": "2024-08-01T14:36:48.6607625-06:00",
+            "Version": "2.6.1",
+            "Name": "psfzf",
+            "Source": "extras",
+            "Info": ""
+        },
+        {
+            "Updated": "2024-08-01T14:37:07.8120746-06:00",
+            "Version": "7.4.4",
+            "Name": "pwsh",
+            "Source": "main",
+            "Info": ""
+        },
+        {
+            "Updated": "2024-08-01T14:37:36.4133811-06:00",
+            "Version": "7.5.0-preview.3",
+            "Name": "pwsh-beta",
+            "Source": "versions",
+            "Info": ""
+        },
+        {
+            "Updated": "2024-08-01T14:37:53.3482685-06:00",
+            "Version": "4.6.5",
+            "Name": "qbittorrent",
+            "Source": "extras",
+            "Info": ""
+        },
+        {
+            "Updated": "2024-08-01T14:37:55.924192-06:00",
+            "Version": "2.0.0",
+            "Name": "recycle-bin",
+            "Source": "main",
+            "Info": ""
+        },
+        {
+            "Updated": "2024-08-01T14:37:59.2767353-06:00",
+            "Version": "14.1.0",
+            "Name": "ripgrep",
+            "Source": "main",
+            "Info": ""
+        },
+        {
+            "Updated": "2024-08-01T14:38:51.8808059-06:00",
+            "Version": "1.27.1",
+            "Name": "rustup",
+            "Source": "main",
+            "Info": ""
+        },
+        {
+            "Updated": "2024-08-01T14:38:54.3200614-06:00",
+            "Version": "4.9",
+            "Name": "sed",
+            "Source": "main",
+            "Info": ""
+        },
+        {
+            "Updated": "2024-08-01T14:39:05.1558707-06:00",
+            "Version": "2.0.0",
+            "Name": "sioyek",
+            "Source": "extras",
+            "Info": ""
+        },
+        {
+            "Updated": "2024-08-01T14:39:08.6173009-06:00",
+            "Version": "1.20.1",
+            "Name": "starship",
+            "Source": "main",
+            "Info": ""
+        },
+        {
+            "Updated": "2024-08-01T14:27:02.5510849-06:00",
+            "Version": "0.2020.01.26",
+            "Name": "sudo",
+            "Source": "main",
+            "Info": ""
+        },
+        {
+            "Updated": "2024-08-01T14:39:13.916967-06:00",
+            "Version": "3.5.2",
+            "Name": "sumatrapdf",
+            "Source": "extras",
+            "Info": ""
+        },
+        {
+            "Updated": "2024-08-01T14:39:24.7556544-06:00",
+            "Version": "1.23",
+            "Name": "tar",
+            "Source": "main",
+            "Info": ""
+        },
+        {
+            "Updated": "2024-08-01T14:39:30.5843056-06:00",
+            "Version": "0.15.0",
+            "Name": "tectonic",
+            "Source": "main",
+            "Info": ""
+        },
+        {
+            "Updated": "2024-08-13T15:22:25.0248888-06:00",
+            "Version": "5.3.1",
+            "Name": "telegram",
+            "Source": "extras",
+            "Info": ""
+        },
+        {
+            "Updated": "2024-08-01T14:39:41.8420916-06:00",
+            "Version": "0.2018.07.25",
+            "Name": "touch",
+            "Source": "main",
+            "Info": ""
+        },
+        {
+            "Updated": "2024-08-01T14:39:45.2987242-06:00",
+            "Version": "6.1.0",
+            "Name": "universal-ctags",
+            "Source": "extras",
+            "Info": ""
+        },
+        {
+            "Updated": "2024-08-01T14:39:47.9888928-06:00",
+            "Version": "6.00",
+            "Name": "unzip",
+            "Source": "main",
+            "Info": ""
+        },
+        {
+            "Updated": "2024-08-01T14:40:05.5937944-06:00",
+            "Version": "14.40.33810.0",
+            "Name": "vcredist2022",
+            "Source": "extras",
+            "Info": ""
+        },
+        {
+            "Updated": "2024-08-13T15:22:39.0689915-06:00",
+            "Version": "20240813",
+            "Name": "vlc-nightly",
+            "Source": "versions",
+            "Info": ""
+        },
+        {
+            "Updated": "2024-08-13T15:22:57.5432575-06:00",
+            "Version": "1.92.1",
+            "Name": "vscode",
+            "Source": "extras",
+            "Info": ""
+        },
+        {
+            "Updated": "2024-08-01T14:40:49.2938387-06:00",
+            "Version": "2.20",
+            "Name": "which",
+            "Source": "main",
+            "Info": ""
+        },
+        {
+            "Updated": "2024-08-01T14:41:14.9530578-06:00",
+            "Version": "1.2.3",
+            "Name": "xournalpp",
+            "Source": "extras",
+            "Info": ""
+        },
+        {
+            "Updated": "2024-08-01T14:41:20.1532347-06:00",
+            "Version": "0.3.0",
+            "Name": "yazi",
+            "Source": "main",
+            "Info": ""
+        },
+        {
+            "Updated": "2024-08-01T14:41:37.9690722-06:00",
+            "Version": "6.1.6.43767",
+            "Name": "zoom",
+            "Source": "extras",
+            "Info": ""
+        },
+        {
+            "Updated": "2024-08-01T14:41:40.4785938-06:00",
+            "Version": "0.9.4",
+            "Name": "zoxide",
+            "Source": "main",
+            "Info": ""
         }
     ]
 }

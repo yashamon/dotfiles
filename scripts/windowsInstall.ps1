@@ -37,6 +37,7 @@ if ($myWindowsPrincipal.IsInRole($adminRole))
     {
         Enable-WindowsOptionalFeature -FeatureName Microsoft-Windows-Subsystem-Linux -Online -All -LimitAccess -NoRestart
     }
+}
 scoop install git
 scoop install nu 
 scoop install sudo
@@ -71,27 +72,29 @@ pwsh -nop -c ~\scoop\apps\sudo\current\sudo.ps1 New-Item -ItemType SymbolicLink 
 mkdir ~/.ctags.d
 rm -r ~/.ctags.d/latex.ctags 
 pwsh -nop -c New-Item -ItemType SymbolicLink -Path "$HOME/.ctags.d/latex.ctags" -Target "$HOME/OneDrive/dotfiles/ctags"
-rm -r C:/Users/yasha/AppData/Roaming/nushell/config.nu 
+rm C:/Users/yasha/AppData/Roaming/nushell/config.nu 
 pwsh -nop -c New-Item -ItemType SymbolicLink -Path "$HOME/AppData/Roaming/nushell/config.nu" -Target $HOME/OneDrive/dotfiles/config/nushell/config.nu
-rm -r C:/Users/yasha/AppData/Roaming/nushell/env.nu 
+rm C:/Users/yasha/AppData/Roaming/nushell/env.nu 
 pwsh -nop -c New-Item -ItemType SymbolicLink -Path "$HOME/AppData/Roaming/nushell/env.nu" -Target $HOME/OneDrive/dotfiles/config/nushell/env.nu
-rm -r $HOME/scoop/apps/sumatrapdf/current/SumatraPDF-settings.txt 
+rm $HOME/scoop/apps/sumatrapdf/current/SumatraPDF-settings.txt 
 pwsh -nop -c New-Item -ItemType SymbolicLink -Path $HOME/scoop/apps/sumatrapdf/current/SumatraPDF-settings.txt -Target $HOME/OneDrive/dotfiles/config/sumatra/SumatraPDF-settings.txt
-rm -r $HOME/textmf/bibtex/bib/link
+rm $HOME/textmf/bibtex/bib/link
 mkdir -p $HOME/textmf/bibtex/bib
 pwsh -nop -c New-Item -ItemType SymbolicLink -Path $HOME/OneDrive/scoop/apps/sumatrapdf/current/SumatraPDF-settings.txt -Target $HOME/OneDrive/workspacemodules/link.bib
 
 rm -r $HOME/AppData/Local/nvim 
 pwsh -nop -c New-Item -ItemType SymbolicLink -Path "$HOME/AppData/Local/nvim" -Target "$HOME/OneDrive/dotfiles/config/nvimnew"
-rm -r $HOME/AppData/Local/lf/lfrc 
+rm $HOME/AppData/Local/lf/lfrc 
+mkdir -p $HOME/AppData/Local/lf
 pwsh -nop -c New-Item -ItemType SymbolicLink -Path "$HOME/AppData/Local/lf/lfrc" -Target "$HOME/onedrive/dotfiles/config/lf/lfrc"
 rm $HOME/AppData/Roaming/Microsoft/Windows/Start Menu/Programs/Startup/desktop-switcher.ahk 
 pwsh -nop -c 'New-Item -ItemType SymbolicLink -Path "$HOME/AppData/Roaming/Microsoft/Windows/Start Menu/Programs/Startup/desktop_switcher.ahk" -Target "$HOME/OneDrive/dotfiles/scripts/desktop_switcher.ahk"'
 pwsh -nop -c 'New-Item -ItemType SymbolicLink -Path "$HOME\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\WinJump.exe" -Target "$HOME\OneDrive\WinJump.exe"'
 pwsh -nop -c 'New-Item -ItemType SymbolicLink -Path "$HOME/AppData/Roaming/Microsoft/Windows/Start Menu/Programs/Startup/taskbar.exe" -Target "C:\Users\yasha\scoop\shims\buttery-taskbar.EXE"'
 # winget install Microsoft.VisualStudio.2022.BuildTools --force --override "--wait --passive --add Microsoft.VisualStudio.Component.VC.Tools.x86.x64 --add Microsoft.VisualStudio.Component.Windows11SDK.22000"
-Install-Module -Name PSFzf
+Install-Module -Name PSFzf -Confirm
 # pwsh -nop -c ~\scoop\apps\sudo\current\sudo.ps1 New-Item -ItemType SymbolicLink -Path "$HOME/windows-desktop-switcher" -Target "$HOME/OneDrive/windows-desktop-switcher"
+npm install -g tree-sitter-cli
 git config --global core.longpaths true
 git config --global credential.helper store
 git config --global user.name "yashamon"

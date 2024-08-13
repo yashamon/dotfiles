@@ -18,12 +18,10 @@
 
 
 #Requires AutoHotkey >=1.1.36 <2
+Increments 			:= 10 ; < lower for a more granular change, higher for larger jump in brightness 
 SetCapsLockState AlwaysOff
 CapsLock::Esc
-home::CapsLock
-end::
-send {up}
-return
+Delete::CapsLock
 #Space::
 send {F11}
 return
@@ -85,23 +83,32 @@ return
 ;Return
 #A::
 switchDesktopByNumber(1)
-;SendEvent !1
+WinActivate
+CoordMode, Mouse, Screen
+MouseMove, A_ScreenWidth/2, A_ScreenHeight/2
+Click
 ;return
 return
 #S::
 switchDesktopByNumber(2)
-;SendEvent !2
+WinActivate
+CoordMode, Mouse, Screen
+MouseMove, A_ScreenWidth/2, A_ScreenHeight/2
+Click
 return
 #C::
 switchDesktopByNumber(3)
+WinActivate
 ;SendEvent !3
 return
 #F::
 switchDesktopByNumber(4)
+WinActivate
 ;SendEvent !4
 return
 #Z::
 switchDesktopByNumber(5)
+WinActivate
 ;SendEvent !7
 return
 #!h::
