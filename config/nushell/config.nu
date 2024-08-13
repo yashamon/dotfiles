@@ -1,9 +1,9 @@
 # Nushell Config File
-$env.Path = ["C:/Users/yasha/OneDrive/dotfiles/scripts" "C:/Users/yasha/scoop/apps/python39/current" "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.40.33807/bin/Hostarm64/arm64" "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/Tools"
+let path0 = ["C:/Users/yasha/OneDrive/dotfiles/scripts" "C:/Users/yasha/scoop/apps/python39/current" "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.40.33807/bin/Hostarm64/arm64" "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/Tools"
 "C:/Users/yasha/scoop/apps/nodejs/current/bin" "C:/Users/yasha/scoop/apps/nodejs/current" "C:/Users/yasha/scoop/apps/latex/current/texmfs/install/miktex/bin/x64" "C:/Program Files/PowerShell/7" "C:/windows/system32" "C:/windows" "C:/windows/System32/Wbem" "C:/windows/System32/WindowsPowerShell/v1.0" "C:/windows/System32/OpenSSH" "C:/Program Files/dotnet" "C:/Program Files/PowerShell/7" "C:/Users/yasha/AppData/Local/Microsoft/WindowsApps" "C:/Users/yasha/scoop/apps/perl/current/perl/bin" "C:/Users/yasha/scoop/apps/gcc/current/bin" "C:/Users/yasha/scoop/apps/llvm/14.0.4/bin"]
-let scoop1 = (ls C:/Users/yasha/scoop/apps/*/current).name  
-let scoop2 = (ls C:/Users/yasha/scoop/apps/*/current/bin).name  
-let path = $env.Path | append $scoop1 | append $scoop2 | append "C:/Users/yasha/scoop/shims" | append "C:/Users/yasha/.cargo/bin" | append "C:/Users/yasha/scoop/apps/autohotkey/current/installer/AutoHotkeyU64.exe"
+let scoop1 = (ls C:/Users/yasha/scoop/apps/*/current).name
+let scoop2 = (ls C:/Users/yasha/scoop/apps/*/current/bin).name
+let path = $path0 | append $scoop1 | append $scoop2 | append ["C:/Users/yasha/scoop/shims"] | append ["C:/Users/yasha/.cargo/bin"] | append ["C:/Users/yasha/scoop/apps/autohotkey/current/installer/AutoHotkeyU64.exe"]
 $env.CARGO_HOME = "C:/Users/yasha/Cargo"
 $env.Path = $path
 $env.SKIA_GN_COMMAND = "C:/Users/yasha/OneDrive/executables/gn-windows-amd64/gn.exe"
@@ -12,6 +12,7 @@ let HOME = $"($env.HOMEPATH)"
 let HOMED = $"($HOME)/OneDrive"
 def keyGH [] { open $"($HOMED)/authenticateGH.txt" }
 def sudo [command:string] {pwsh -c $command}
+def link [] {pwsh -nop -c New-Item -ItemType SymbolicLink -Path ./link.bib -Target C:/Users/yasha/onedrive/dotfiles/link.bib}
 def uploadGit [name:string] { let key = (keyGH)
 nu $"($HOMED)/dotfiles/scripts/uploadGit.nu" $name (keyGH) }
 def neo [file = ""] {
@@ -503,7 +504,7 @@ $env.config = {
   buffer_editor: "nvim" # command that will be used to edit the current line buffer with ctrl+o, if unset fallback to $env.EDITOR and $env.VISUAL
   use_ansi_coloring: true
   edit_mode: vi # emacs, vi
-  shell_integration: true # enables terminal markers and a workaround to arrow keys stop working issue
+  # shell_integration: true # enables terminal markers and a workaround to arrow keys stop working issue
   show_banner: false # true or false to enable or disable the banner
   render_right_prompt_on_last_line: false # true or false to enable or disable right prompt to be rendered on last line of the prompt.
 

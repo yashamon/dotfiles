@@ -88,7 +88,7 @@ end
   end
 },
 {'kevinhwang91/nvim-ufo', dependencies = 'kevinhwang91/promise-async', lazy = true},
-{'gbprod/yanky.nvim', lazy = true},
+-- {'gbprod/yanky.nvim', lazy = true},
 -- {'ThePrimeagen/harpoon', dependencies = "nvim-lua/plenary.nvim"},
 -- {'jose-elias-alvarez/null-ls.nvim', dependencies = "nvim-lua/plenary.nvim" },
 -- {'nvim-telescope/telescope-fzf-native.nvim', lazy = true},
@@ -185,7 +185,7 @@ require('keymaps')
 -- require('mini.indentscope').setup()
 -- require('mini.trailspace').setup()
 -- require('mini.pairs').setup()
-require("telescope").load_extension("yank_history")
+-- require("telescope").load_extension("yank_history")
 -- require('flare').setup {
 --   enabled = true, -- disable highlighting
 --   hl_group = "IncSearch", -- set highlight group used for highlight

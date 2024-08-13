@@ -352,6 +352,63 @@ end
 --  
 -- latex snippets
 ls.add_snippets("tex", {
+	s("de", {
+		t({"\\delta"}),
+		i("1",""),
+	}, { condition = Is_math }),
+})
+
+
+ ls.add_snippets("tex", {
+	s("Si", {
+		t({"\\Sigma"}),
+		i("1",""),
+	}, { condition = Is_math }),
+})
+
+ls.add_snippets("tex", {
+	s("om", {
+		t({"\\omega"}),
+		i("1",""),
+	}, { condition = Is_math }),
+})
+
+ls.add_snippets("tex", {
+	s("Om", {
+		t({"\\Omega"}),
+		i("1",""),
+	}, { condition = Is_math }),
+})
+
+ls.add_snippets("tex", {
+	s("be", {
+		t({"\\beta"}),
+		i("1",""),
+	}, { condition = Is_math }),
+})
+
+ls.add_snippets("tex", {
+	s("al", {
+		t({"\\alpha"}),
+		i("1",""),
+	}, { condition = Is_math }),
+})
+
+ls.add_snippets("tex", {
+	s("La", {
+		t({"\\Lambda"}),
+		i("1",""),
+	}, { condition = Is_math }),
+})
+
+ls.add_snippets("tex", {
+	s("la", {
+		t({"\\la"}),
+		i("1",""),
+	}, { condition = Is_math }),
+})
+
+ls.add_snippets("tex", {
 	s("sqrt", {
 		t({"\\sqrt"}),
 		i("1",""),
