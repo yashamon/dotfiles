@@ -656,9 +656,9 @@ capabilities.textDocument.foldingRange = {
     dynamicRegistration = false,
     lineFoldingOnly = true
 }
--- require("yanker").config({
---   --history = ";h",
--- })
+require("yanker").config({
+  history = ";h"
+})
 
 require('lualine').setup {
   options = {
