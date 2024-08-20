@@ -502,7 +502,7 @@ t({"", '\\end{document}'}),
 
 
 ls.add_snippets(nil, {
-    plaintex = {
+    tex = {
         s({
             trig = "article",
             namr = "Latex template",
@@ -522,10 +522,10 @@ t({"","\\usepackage{color, verbatim}"}),
 t({"","\\usepackage{bm}"}),
 t({"","\\usepackage[hmargin=3cm,vmargin=3cm]{geometry}"}),
 t({"","\\numberwithin{equation}{section}"}),
-t({"","\\newtheorem{thm}[equation]{Theorem} "}),
-t({"","\\newtheorem{axiom}[equation]{Axiom} "}),
-t({"","\\newtheorem{theorem}[equation]{Theorem} "}),
-t({"", "\newtheorem{condition}[Condition]{Theorem} "}),
+t({"","\\newtheorem{thm}[equation]{Theorem}"}),
+t({"","\\newtheorem{axiom}[equation]{Axiom}"}),
+t({"","\\newtheorem{theorem}[equation]{Theorem}"}),
+t({"","\\newtheorem{condition}[Condition]{Theorem}"}),
 t({"","\\newtheorem{proposition}[equation]{Proposition}"}),
 t({"","\\newtheorem{lma}[equation]{Lemma} "}),
 t({"","\\newtheorem{lemma}[equation]{Lemma} "}),
