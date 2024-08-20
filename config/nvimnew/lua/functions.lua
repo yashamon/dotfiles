@@ -104,7 +104,7 @@ end
 
 Job = function(string)
 -- local buff = vim.fn.bufname()
-local jobstring = 'call jobstart(\'' .. 'pwsh -nop -c "' .. string .. '"\')'
+local jobstring = 'call jobstart(\'' .. 'nu -c "' .. string .. '"\')'
 vim.cmd(jobstring)
 end
 
@@ -112,8 +112,9 @@ GitAsync = function()
 -- local buff = vim.fn.bufname()
 local command1 = 'if ((git rev-parse --is-inside-work-tree) | into bool) {git add .; git diff --staged | save --force message.log; git commit -F message.log; git push --all origin}'
 Job(command1)
+print("synced")
 end
-
+-- test
 ViewPdf2 = function()
 vim.cmd('up')
 Server()
