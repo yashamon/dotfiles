@@ -113,7 +113,7 @@ GitAsync = function()
 local command1 = 'if ((git rev-parse --is-inside-work-tree) | into bool) {git add .; git diff --staged | save --force message.log; git commit -F message.log; git push --all origin; echo "synced"}'
 Job(command1)
 end
--- test2
+-- test3
 ViewPdf2 = function()
 vim.cmd('up')
 Server()
