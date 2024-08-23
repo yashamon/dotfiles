@@ -1,5 +1,5 @@
 def main [name: string, credential: string] {
-# let credentials = (open C:\\Users\yasha\.git-credentials --list)
+let credentials = (open C:\\Users\yasha\.git-credentials --list)
 # use forward slash
 git init 
 git branch -M master
