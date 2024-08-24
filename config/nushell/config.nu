@@ -1,4 +1,3 @@
-
 # Nushell Config File
 let path0 = ["C:/Users/yasha/OneDrive/dotfiles/scripts" "C:/Users/yasha/scoop/apps/python39/current" "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.40.33807/bin/Hostarm64/arm64" "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/Tools"
 "C:/Users/yasha/scoop/apps/nodejs/current/bin" "C:/Users/yasha/scoop/apps/nodejs/current" "C:/Users/yasha/scoop/apps/latex/current/texmfs/install/miktex/bin/x64" "C:/Program Files/PowerShell/7" "C:/windows/system32" "C:/windows" "C:/windows/System32/Wbem" "C:/windows/System32/WindowsPowerShell/v1.0" "C:/windows/System32/OpenSSH" "C:/Program Files/dotnet" "C:/Program Files/PowerShell/7" "C:/Users/yasha/AppData/Local/Microsoft/WindowsApps" "C:/Users/yasha/scoop/apps/perl/current/perl/bin" "C:/Users/yasha/scoop/apps/gcc/current/bin" "C:/Users/yasha/scoop/apps/llvm/14.0.4/bin"]
@@ -13,12 +12,16 @@ let HOME = $"($env.HOMEPATH)"
 let HOMED = $"($HOME)/OneDrive"
 def keyGH [] { open $"($HOMED)/authenticateGH.txt" }
 def sudo [command:string] {pwsh -c $command}
-def restorelink [] {rm -rf link.bib; pwsh -nop -c New-Item -ItemType SymbolicLink -Path ./link.bib -Target C:/Users/yasha/onedrive/dotfiles/link.bib}
+def run [command: string] {do --ignore-errors { $command }
+}
+def restorelink [] {
+run "rm link.bib"; pwsh -nop -c New-Item -ItemType SymbolicLink -Path ./link.bib -Target C:/Users/yasha/onedrive/dotfiles/link.bib}
+
 def uploadGit [name:string] { let key = (keyGH)
 nu $"($HOMED)/dotfiles/scripts/uploadGit.nu" $name (keyGH) }
 def neo [file = ""] {
 # nu -c $"C:/Users/yasha/scoop/apps/neovide/current/neovide.exe ($file)"
-nu -c $"C:/Users/yasha/onedrive/nvy/build/nvy.exe --fullscreen ($file)"
+nu -c $"nvy.exe --fullscreen ($file)"
 }
 def vi [file = ""] {
 nvy --maximize $file
@@ -71,7 +74,7 @@ def pushgh [] { cd $"($HOMED)/web" ; pandoc index.md -o index.html ; git add . ;
 # def init [dir:string] {mkdir $dir ; cd $dir ; git init ; git branch -M master; git commit -m "fist commit"
 # } 
 
-def hw [] { pandoc $"($HOMED)/web/classes/topology/2024.md" -o $"($HOMED)/web/classes/topology/2024.html" ;  pandoc $"($HOMED)/web/classes/algtop/2024.tex" -o $"($HOMED)/web/classes/algtop/2024.html" ; cd $"($HOMED)/web"; git add . ; git commit -m -a ; git push origin gh-pages 
+def hw [] { pandoc $"($HOMED)/web/classes/CalcIII/2023.md" -o $"($HOMED)/web/classes/CalcIII/2023.html" ;  pandoc $"($HOMED)/web/classes/ModernGeometry/2023.tex" -o $"($HOMED)/web/classes/ModernGeometry/2023.html" ; cd $"($HOMED)/web"; git add . ; git commit -m -a ; git push origin gh-pages 
 } 
 
 # alias config = ( cd $"($HOMED)/dotfiles"; push; cd $"($HOMED)/workspacemodules"; pushmod; cd $"($HOMED)/workspace"; push; cd web pushgh; pacman -Qqe > $"($HOMED)/dotfiles/pkglist.txt" )
@@ -846,3 +849,4 @@ $env.config = {
 source ~/.cache/starship/init.nu
 source ~/.zoxide.nu
 alias j = z 
+
