@@ -12,7 +12,10 @@ let HOME = $"($env.HOMEPATH)"
 let HOMED = $"($HOME)/OneDrive"
 def keyGH [] { open $"($HOMED)/authenticateGH.txt" }
 def sudo [command:string] {pwsh -c $command}
-def link [] {pwsh -nop -c New-Item -ItemType SymbolicLink -Path ./link.bib -Target C:/Users/yasha/onedrive/dotfiles/link.bib}
+def run [command:string] {do --ignore-errors { $command }
+}
+def restorelink [] {
+pwsh -nop -c New-Item -ItemType SymbolicLink -Path ./link.bib -Target C:/Users/yasha/onedrive/dotfiles/link.bib}
 def uploadGit [name:string] { let key = (keyGH)
 nu $"($HOMED)/dotfiles/scripts/uploadGit.nu" $name (keyGH) }
 def neo [file = ""] {
