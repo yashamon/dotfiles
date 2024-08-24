@@ -292,6 +292,13 @@
        ],
     "description": "colored text"
     },  
+"red": {
+    "prefix": "red",
+    "body": [
+        "\\textcolor{red}{$1} $0"
+       ],
+    "description": "red text"
+    },  
 
 "cdot": {
     "prefix": ["cd", "cdot"],
