@@ -292,6 +292,13 @@
        ],
     "description": "colored text"
     },  
+"red": {
+    "prefix": "red",
+    "body": [
+        "\\textcolor{red}{$1} $0"
+       ],
+    "description": "red text"
+    },  
 
 "cdot": {
     "prefix": ["cd", "cdot"],
@@ -1555,7 +1562,51 @@
     ],
     "description": "cal T"
   }, 
- "caligraphic U": {
+"omega": {
+    "prefix": ["om"],
+    "body": [
+      "\\omega $0"
+    ],
+    "description": "omega"
+  },
+"Omega": {
+    "prefix": ["Om"],
+    "body": [
+      "\\Omega $0"
+    ],
+    "description": "Omega"
+  },
+ "beta": {
+    "prefix": ["be"],
+    "body": [
+      "\\beta $0"
+    ],
+    "description": "beta"
+  },
+"alpha": {
+    "prefix": ["al"],
+    "body": [
+      "\\alpha $0"
+    ],
+    "description": "alpha"
+  },
+ "lambda": {
+    "prefix": ["la"],
+    "body": [
+      "\\lambda $0"
+    ],
+    "description": " lambda"
+  },
+ 
+"Lambda": {
+    "prefix": ["L"],
+    "body": [
+      "\\Lambda $0"
+    ],
+    "description": " U"
+  },
+
+"caligraphic U": {
     "prefix": ["cU"],
     "body": [
       "\\mathcal{U} $0"
@@ -1571,6 +1622,20 @@
     "description": "cal D"
   },
 
+"delta": {
+    "prefix": ["de", "\\de"],
+    "body": [
+      "\\delta $0"
+    ],
+    "description": "delta"
+  },
+"Sigma": {
+    "prefix": ["Si"],
+    "body": [
+      "\\Sigma $0"
+    ],
+    "description": "Sigma"
+  },
 "big cup": {
     "prefix": ["buc", "bigcup"],
     "body": [
