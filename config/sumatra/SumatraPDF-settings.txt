@@ -135,6 +135,26 @@ CustomScreenDPI = 0
 
 FileStates [
 	[
+		FilePath = C:\Users\yasha\OneDrive\workspacemodules\strictcontact2\build\strictcontact.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 1
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 -1
+		PageNo = 1
+		Zoom = 100
+		Rotation = 0
+		WindowState = 2
+		WindowPos = -13 -13 2906 1124
+		ShowToc = false
+		SidebarDx = 364
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
 		FilePath = C:\Users\yasha\OneDrive\books\McDuff D., Salamon D. Introduction to symplectic topology.djvu
 		Favorites [
 		]
@@ -3325,14 +3345,23 @@ SessionData [
 				ScrollPos = -1 -1
 				ShowToc = false
 			]
+			[
+				FilePath = C:\Users\yasha\OneDrive\workspacemodules\strictcontact2\build\strictcontact.pdf
+				DisplayMode = continuous
+				PageNo = 1
+				Zoom = 100
+				Rotation = 0
+				ScrollPos = -1 -1
+				ShowToc = false
+			]
 		]
-		TabIndex = 3
+		TabIndex = 5
 		WindowState = 2
 		WindowPos = -13 -13 2906 1124
 		SidebarDx = 364
 	]
 ]
 TimeOfLastUpdateCheck = 0 0
-OpenCountWeek = 711
+OpenCountWeek = 712
 
 # Settings below are not recognized by the current version
