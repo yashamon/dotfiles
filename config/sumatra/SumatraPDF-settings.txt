@@ -135,6 +135,26 @@ CustomScreenDPI = 0
 
 FileStates [
 	[
+		FilePath = C:\Users\yasha\worklocal\strictcontact2\build\strictcontact.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 1
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 -1
+		PageNo = 1
+		Zoom = 100
+		Rotation = 0
+		WindowState = 2
+		WindowPos = -13 -13 1446 1124
+		ShowToc = false
+		SidebarDx = 364
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
 		FilePath = C:\Users\yasha\OneDrive\workspacemodules\thematrix\build\stableincompleteness.pdf
 		Favorites [
 			[
@@ -159,52 +179,12 @@ FileStates [
 		ReparseIdx = 0
 	]
 	[
-		FilePath = C:\Users\yasha\Downloads\Constancia tutoria 14 de marzo_240320_140933_compressed.pdf
-		Favorites [
-		]
-		IsPinned = false
-		IsMissing = false
-		OpenCount = 2
-		UseDefaultState = false
-		DisplayMode = continuous
-		ScrollPos = -1 -1
-		PageNo = 1
-		Zoom = 100
-		Rotation = 0
-		WindowState = 2
-		WindowPos = -13 -13 1446 1124
-		ShowToc = false
-		SidebarDx = 364
-		DisplayR2L = false
-		ReparseIdx = 0
-	]
-	[
-		FilePath = C:\Users\yasha\Downloads\SAVELYEV YAKOV_compressed.pdf
-		Favorites [
-		]
-		IsPinned = false
-		IsMissing = false
-		OpenCount = 2
-		UseDefaultState = false
-		DisplayMode = continuous
-		ScrollPos = -1 683.063
-		PageNo = 1
-		Zoom = 100
-		Rotation = 0
-		WindowState = 2
-		WindowPos = -13 -13 1446 1124
-		ShowToc = false
-		SidebarDx = 364
-		DisplayR2L = false
-		ReparseIdx = 0
-	]
-	[
 		FilePath = C:\Users\yasha\OneDrive\Constancias2022SNI\CONSTANCIA YASHA 3.pdf
 		Favorites [
 		]
 		IsPinned = false
 		IsMissing = false
-		OpenCount = 2
+		OpenCount = 1
 		UseDefaultState = false
 		DisplayMode = continuous
 		ScrollPos = -1 -1
@@ -224,31 +204,11 @@ FileStates [
 		]
 		IsPinned = false
 		IsMissing = false
-		OpenCount = 2
+		OpenCount = 1
 		UseDefaultState = false
 		DisplayMode = continuous
 		ScrollPos = -1 -1
 		PageNo = 1
-		Zoom = 100
-		Rotation = 0
-		WindowState = 2
-		WindowPos = -13 -13 1446 1124
-		ShowToc = false
-		SidebarDx = 364
-		DisplayR2L = false
-		ReparseIdx = 0
-	]
-	[
-		FilePath = C:\Users\yasha\Downloads\tutoria.pdf
-		Favorites [
-		]
-		IsPinned = false
-		IsMissing = false
-		OpenCount = 2
-		UseDefaultState = false
-		DisplayMode = continuous
-		ScrollPos = -1 45.5629
-		PageNo = 5
 		Zoom = 100
 		Rotation = 0
 		WindowState = 2
@@ -264,7 +224,7 @@ FileStates [
 		]
 		IsPinned = false
 		IsMissing = false
-		OpenCount = 6
+		OpenCount = 1
 		UseDefaultState = false
 		DisplayMode = continuous
 		ScrollPos = -1 64.0369
@@ -279,32 +239,12 @@ FileStates [
 		ReparseIdx = 0
 	]
 	[
-		FilePath = C:\Users\yasha\Downloads\Constancia GESTIÓN ACADEMICA 14 de marzo (1)_240802_114057.pdf
-		Favorites [
-		]
-		IsPinned = false
-		IsMissing = false
-		OpenCount = 3
-		UseDefaultState = false
-		DisplayMode = continuous
-		ScrollPos = -1 108.938
-		PageNo = 1
-		Zoom = 100
-		Rotation = 0
-		WindowState = 2
-		WindowPos = -13 -13 1446 1124
-		ShowToc = false
-		SidebarDx = 364
-		DisplayR2L = false
-		ReparseIdx = 0
-	]
-	[
 		FilePath = C:\Users\yasha\OneDrive\Documents\documentos_Yasha\SNI-nombramiento.pdf
 		Favorites [
 		]
 		IsPinned = false
 		IsMissing = false
-		OpenCount = 3
+		OpenCount = 1
 		UseDefaultState = false
 		DisplayMode = continuous
 		ScrollPos = -1 -1
@@ -324,7 +264,7 @@ FileStates [
 		]
 		IsPinned = false
 		IsMissing = false
-		OpenCount = 3
+		OpenCount = 1
 		UseDefaultState = false
 		DisplayMode = continuous
 		ScrollPos = -1 -1
@@ -344,7 +284,7 @@ FileStates [
 		]
 		IsPinned = false
 		IsMissing = false
-		OpenCount = 3
+		OpenCount = 1
 		UseDefaultState = false
 		DisplayMode = continuous
 		ScrollPos = -1 -1
@@ -364,7 +304,7 @@ FileStates [
 		]
 		IsPinned = false
 		IsMissing = false
-		OpenCount = 3
+		OpenCount = 1
 		UseDefaultState = false
 		DisplayMode = continuous
 		ScrollPos = -1 -1
@@ -384,7 +324,7 @@ FileStates [
 		]
 		IsPinned = false
 		IsMissing = false
-		OpenCount = 3
+		OpenCount = 1
 		UseDefaultState = false
 		DisplayMode = continuous
 		ScrollPos = -1 -1
@@ -404,7 +344,7 @@ FileStates [
 		]
 		IsPinned = false
 		IsMissing = false
-		OpenCount = 3
+		OpenCount = 1
 		UseDefaultState = false
 		DisplayMode = continuous
 		ScrollPos = -1 -1
@@ -424,7 +364,7 @@ FileStates [
 		]
 		IsPinned = false
 		IsMissing = false
-		OpenCount = 3
+		OpenCount = 1
 		UseDefaultState = false
 		DisplayMode = continuous
 		ScrollPos = -1 -1
@@ -444,7 +384,7 @@ FileStates [
 		]
 		IsPinned = false
 		IsMissing = false
-		OpenCount = 3
+		OpenCount = 1
 		UseDefaultState = false
 		DisplayMode = continuous
 		ScrollPos = -1 -1
@@ -476,7 +416,7 @@ FileStates [
 		]
 		IsPinned = false
 		IsMissing = false
-		OpenCount = 6
+		OpenCount = 1
 		UseDefaultState = false
 		DisplayMode = continuous
 		ScrollPos = -1 117.786
@@ -496,12 +436,92 @@ FileStates [
 		]
 		IsPinned = false
 		IsMissing = false
-		OpenCount = 4
+		OpenCount = 1
 		UseDefaultState = false
 		DisplayMode = continuous
 		ScrollPos = -1 64.1511
 		PageNo = 10
 		Zoom = fit content
+		Rotation = 0
+		WindowState = 2
+		WindowPos = -13 -13 1446 1124
+		ShowToc = false
+		SidebarDx = 364
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = C:\Users\yasha\Downloads\Constancia tutoria 14 de marzo_240320_140933_compressed.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 -1
+		PageNo = 1
+		Zoom = 100
+		Rotation = 0
+		WindowState = 2
+		WindowPos = -13 -13 1446 1124
+		ShowToc = false
+		SidebarDx = 364
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = C:\Users\yasha\Downloads\SAVELYEV YAKOV_compressed.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 683.063
+		PageNo = 1
+		Zoom = 100
+		Rotation = 0
+		WindowState = 2
+		WindowPos = -13 -13 1446 1124
+		ShowToc = false
+		SidebarDx = 364
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = C:\Users\yasha\Downloads\tutoria.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 45.5629
+		PageNo = 5
+		Zoom = 100
+		Rotation = 0
+		WindowState = 2
+		WindowPos = -13 -13 1446 1124
+		ShowToc = false
+		SidebarDx = 364
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = C:\Users\yasha\Downloads\Constancia GESTIÓN ACADEMICA 14 de marzo (1)_240802_114057.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 108.938
+		PageNo = 1
+		Zoom = 100
 		Rotation = 0
 		WindowState = 2
 		WindowPos = -13 -13 1446 1124
@@ -576,7 +596,7 @@ FileStates [
 		]
 		IsPinned = false
 		IsMissing = false
-		OpenCount = 2
+		OpenCount = 0
 		UseDefaultState = false
 		DisplayMode = continuous
 		ScrollPos = -1 644.813
@@ -596,7 +616,7 @@ FileStates [
 		]
 		IsPinned = false
 		IsMissing = false
-		OpenCount = 3
+		OpenCount = 0
 		UseDefaultState = false
 		DisplayMode = continuous
 		ScrollPos = -1 900.783
@@ -616,7 +636,7 @@ FileStates [
 		]
 		IsPinned = false
 		IsMissing = false
-		OpenCount = 1
+		OpenCount = 0
 		UseDefaultState = false
 		DisplayMode = continuous
 		ScrollPos = -1 555.188
@@ -3769,30 +3789,12 @@ SessionData [
 				ShowToc = false
 			]
 			[
-				FilePath = C:\Users\yasha\Downloads\Constancia GESTIÓN ACADEMICA 14 de marzo (1)_240802_114057.pdf
-				DisplayMode = continuous
-				PageNo = 1
-				Zoom = 100
-				Rotation = 0
-				ScrollPos = -1 108.938
-				ShowToc = false
-			]
-			[
 				FilePath = C:\Users\yasha\OneDrive\workspacemodules\deformGromov\build\gromov.pdf
 				DisplayMode = continuous
 				PageNo = 2
 				Zoom = fit content
 				Rotation = 0
 				ScrollPos = -1 64.0369
-				ShowToc = false
-			]
-			[
-				FilePath = C:\Users\yasha\Downloads\tutoria.pdf
-				DisplayMode = continuous
-				PageNo = 5
-				Zoom = 100
-				Rotation = 0
-				ScrollPos = -1 45.5629
 				ShowToc = false
 			]
 			[
@@ -3814,24 +3816,6 @@ SessionData [
 				ShowToc = false
 			]
 			[
-				FilePath = C:\Users\yasha\Downloads\SAVELYEV YAKOV_compressed.pdf
-				DisplayMode = continuous
-				PageNo = 1
-				Zoom = 100
-				Rotation = 0
-				ScrollPos = -1 683.063
-				ShowToc = false
-			]
-			[
-				FilePath = C:\Users\yasha\Downloads\Constancia tutoria 14 de marzo_240320_140933_compressed.pdf
-				DisplayMode = continuous
-				PageNo = 1
-				Zoom = 100
-				Rotation = 0
-				ScrollPos = -1 -1
-				ShowToc = false
-			]
-			[
 				FilePath = C:\Users\yasha\OneDrive\workspacemodules\thematrix\build\stableincompleteness.pdf
 				DisplayMode = continuous
 				PageNo = 1
@@ -3840,14 +3824,23 @@ SessionData [
 				ScrollPos = -1 86.1053
 				ShowToc = false
 			]
+			[
+				FilePath = C:\Users\yasha\worklocal\strictcontact2\build\strictcontact.pdf
+				DisplayMode = continuous
+				PageNo = 1
+				Zoom = 100
+				Rotation = 0
+				ScrollPos = -1 -1
+				ShowToc = false
+			]
 		]
-		TabIndex = 19
+		TabIndex = 16
 		WindowState = 2
 		WindowPos = -13 -13 1446 1124
 		SidebarDx = 364
 	]
 ]
 TimeOfLastUpdateCheck = 0 0
-OpenCountWeek = 709
+OpenCountWeek = 712
 
 # Settings below are not recognized by the current version
