@@ -147,7 +147,6 @@ xnoremap <silent> <cr> "1y:silent! let searchTerm = '\V'.substitute(escape(@1, '
 map <S-C-q> <Esc>:qa!<CR>
 vnoremap < <gv
 vnoremap > >gv
-nnoremap <leader>q q
 vmap <M-.> t.<CR>h
 nmap <M-.> t.<CR>h
 nnoremap <m-g> gqip
