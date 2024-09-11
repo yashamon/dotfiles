@@ -128,14 +128,134 @@ SmoothScroll = false
 ShowStartPage = true
 CheckForUpdates = false
 WindowState = 2
-WindowPos = -13 -13 2906 1124
+WindowPos = -13 -13 1446 1124
 UseTabs = true
 UseSysColors = false
 CustomScreenDPI = 0
 
 FileStates [
 	[
+		FilePath = C:\Users\yasha\worklocal\KtheoryCycles\build\KtheoryCycles.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 1
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 -1
+		PageNo = 1
+		Zoom = 100
+		Rotation = 0
+		WindowState = 2
+		WindowPos = -13 -13 1446 1124
+		ShowToc = true
+		SidebarDx = 364
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = C:\Users\yasha\OneDrive\workspacemodules\strictcontact2\build\strict-contact-090324.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 4
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 -1
+		PageNo = 1
+		Zoom = 100
+		Rotation = 0
+		WindowState = 2
+		WindowPos = -13 -13 1446 1124
+		ShowToc = false
+		SidebarDx = 364
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = C:\Users\yasha\OneDrive\workspacemodules\KtheoryCycles\build\KtheoryCycles.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 5
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 117.786
+		PageNo = 1
+		Zoom = fit content
+		Rotation = 0
+		WindowState = 2
+		WindowPos = -13 -13 1446 1124
+		ShowToc = false
+		SidebarDx = 364
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = C:\Users\yasha\OneDrive\workspacemodules\strictcontact2\build\nonprojectible.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 4
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 -1
+		PageNo = 1
+		Zoom = 100
+		Rotation = 0
+		WindowState = 2
+		WindowPos = -13 -13 1446 1124
+		ShowToc = true
+		SidebarDx = 364
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = C:\Users\yasha\OneDrive\web\classes\topology\build\2024.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 8
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 -1
+		PageNo = 1
+		Zoom = 100
+		Rotation = 0
+		WindowState = 2
+		WindowPos = -13 -13 1446 1124
+		ShowToc = true
+		SidebarDx = 364
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
 		FilePath = C:\Users\yasha\OneDrive\workspacemodules\strictcontact2\build\strictcontact.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 59.0629
+		PageNo = 1
+		Zoom = 100
+		Rotation = 0
+		WindowState = 2
+		WindowPos = -13 -13 2906 1124
+		ShowToc = false
+		SidebarDx = 364
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = C:\Users\yasha\OneDrive\books\McDuff D., Salamon D. Introduction to symplectic topology.djvu
 		Favorites [
 		]
 		IsPinned = false
@@ -155,52 +275,12 @@ FileStates [
 		ReparseIdx = 0
 	]
 	[
-		FilePath = C:\Users\yasha\OneDrive\books\McDuff D., Salamon D. Introduction to symplectic topology.djvu
-		Favorites [
-		]
-		IsPinned = false
-		IsMissing = false
-		OpenCount = 2
-		UseDefaultState = false
-		DisplayMode = continuous
-		ScrollPos = -1 -1
-		PageNo = 1
-		Zoom = 100
-		Rotation = 0
-		WindowState = 2
-		WindowPos = -13 -13 2906 1124
-		ShowToc = false
-		SidebarDx = 364
-		DisplayR2L = false
-		ReparseIdx = 0
-	]
-	[
-		FilePath = C:\Users\yasha\OneDrive\workspacemodules\KtheoryCycles\build\KtheoryCycles.pdf
-		Favorites [
-		]
-		IsPinned = false
-		IsMissing = false
-		OpenCount = 2
-		UseDefaultState = false
-		DisplayMode = continuous
-		ScrollPos = -1 117.786
-		PageNo = 1
-		Zoom = fit content
-		Rotation = 0
-		WindowState = 2
-		WindowPos = -13 -13 2906 1124
-		ShowToc = false
-		SidebarDx = 364
-		DisplayR2L = false
-		ReparseIdx = 0
-	]
-	[
 		FilePath = C:\Users\yasha\OneDrive\workspacemodules\deformGromov\build\gromov.pdf
 		Favorites [
 		]
 		IsPinned = false
 		IsMissing = false
-		OpenCount = 2
+		OpenCount = 1
 		UseDefaultState = false
 		DisplayMode = continuous
 		ScrollPos = -1 -1
@@ -3319,13 +3399,22 @@ SessionData [
 	[
 		TabStates [
 			[
-				FilePath = C:\Users\yasha\OneDrive\workspacemodules\deformGromov\build\gromov.pdf
+				FilePath = C:\Users\yasha\OneDrive\web\classes\topology\build\2024.pdf
 				DisplayMode = continuous
 				PageNo = 1
 				Zoom = 100
 				Rotation = 0
 				ScrollPos = -1 -1
-				ShowToc = false
+				ShowToc = true
+			]
+			[
+				FilePath = C:\Users\yasha\OneDrive\workspacemodules\strictcontact2\build\nonprojectible.pdf
+				DisplayMode = continuous
+				PageNo = 1
+				Zoom = 100
+				Rotation = 0
+				ScrollPos = -1 -1
+				ShowToc = true
 			]
 			[
 				FilePath = C:\Users\yasha\OneDrive\workspacemodules\KtheoryCycles\build\KtheoryCycles.pdf
@@ -3337,7 +3426,7 @@ SessionData [
 				ShowToc = false
 			]
 			[
-				FilePath = C:\Users\yasha\OneDrive\books\McDuff D., Salamon D. Introduction to symplectic topology.djvu
+				FilePath = C:\Users\yasha\OneDrive\workspacemodules\strictcontact2\build\strict-contact-090324.pdf
 				DisplayMode = continuous
 				PageNo = 1
 				Zoom = 100
@@ -3346,22 +3435,22 @@ SessionData [
 				ShowToc = false
 			]
 			[
-				FilePath = C:\Users\yasha\OneDrive\workspacemodules\strictcontact2\build\strictcontact.pdf
+				FilePath = C:\Users\yasha\worklocal\KtheoryCycles\build\KtheoryCycles.pdf
 				DisplayMode = continuous
 				PageNo = 1
 				Zoom = 100
 				Rotation = 0
 				ScrollPos = -1 -1
-				ShowToc = false
+				ShowToc = true
 			]
 		]
-		TabIndex = 5
+		TabIndex = 6
 		WindowState = 2
-		WindowPos = -13 -13 2906 1124
+		WindowPos = -13 -13 1446 1124
 		SidebarDx = 364
 	]
 ]
 TimeOfLastUpdateCheck = 0 0
-OpenCountWeek = 712
+OpenCountWeek = 714
 
 # Settings below are not recognized by the current version
