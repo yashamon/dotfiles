@@ -125,7 +125,7 @@ return
 
 ; Win+Alt+G - Open Gmail in Chrome
 #Enter::
-    Run "nu" 
+    Run "wt" 
     Return
 #+f::
     Run lf
