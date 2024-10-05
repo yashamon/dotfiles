@@ -1,7 +1,7 @@
 def main [name: string, credential: string] {
 # let credentials = (open C:\\Users\yasha\.git-credentials --list)
 # use forward slash
-git init 
+# git init 
 touch .gitignore
 cp $"($env.HOMED)/workspacemodules/.gitignore" ./.gitignore
 # sudo ln -s ./link.bib $"($env.HOMED)/workspacemodules/link.bib"  
