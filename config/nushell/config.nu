@@ -783,6 +783,7 @@ $env.config = {
         ]
       }
 }
+
 		{
         name: redo
         modifier: alt
