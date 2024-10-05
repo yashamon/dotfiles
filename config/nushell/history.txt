@@ -253,3 +253,5 @@ upscoop
 lf
 j nushell
 nvim con
+keybindings
+keybindings list

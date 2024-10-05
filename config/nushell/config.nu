@@ -803,7 +803,7 @@ $env.config = {
       mode: [vi_normal, emacs, vi_insert]
       event: {
         until: [
-          {edit: CutSelectionSystem }
+          {edit: CutSelection }
         ]
       }
     }
