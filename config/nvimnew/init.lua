@@ -1,15 +1,19 @@
+--vim.opt.rtp = {"~/AppData/local/nvim", "~/AppData/local/nvim-data", "~/neovim/runtime", "~/neovim/runtime/syntax"}
 local lazypath = vim.fn.stdpath("data") .. "/lazy/lazy.nvim"
 if not (vim.uv or vim.loop).fs_stat(lazypath) then
-  vim.fn.system({
-    "git",
-    "clone",
-    "--filter=blob:none",
-    "https://github.com/folke/lazy.nvim.git",
-    "--branch=stable", -- latest stable release
-    lazypath,
-  })
-end
-vim.opt.rtp:prepend(lazypath)
+  local lazyrepo = "https://github.com/folke/lazy.nvim.git"
+    local out = vim.fn.system({ "git", "clone", "--filter=blob:none", "--branch=stable", lazyrepo, lazypath })
+      if vim.v.shell_error ~= 0 then
+          vim.api.nvim_echo({
+                  { "Failed to clone lazy.nvim:\n", "ErrorMsg" },
+                        { out, "WarningMsg" },
+                              { "\nPress any key to exit..." },
+                                  }, true, {})
+                                      vim.fn.getchar()
+                                          os.exit(1)
+                                            end
+                                            end
+vim.opt.rtp:append(lazypath)
 require("lazy").setup({
 -- { 'stonelasley/flare.nvim' },
 -- {
@@ -62,9 +66,15 @@ end
 --     dependencies = { "vim-denops/denops.vim" },
 -- },
 {
-	"arsham/yanker.nvim",
-  dependencies = { "arsham/arshlib.nvim", "junegunn/fzf.vim", "MunifTanjim/nui.nvim" },
-  config = true, lazy = true
+  "AckslD/nvim-neoclip.lua",
+  dependencies = {
+    -- you'll need at least one of these
+    -- {'nvim-telescope/telescope.nvim'},
+    {'ibhagwan/fzf-lua'},
+  },
+  config = function()
+    require('neoclip').setup()
+  end,
 },
 {
   "lervag/vimtex",
@@ -145,7 +155,6 @@ lazy = false, priority = 1000,
 config = function()
 vim.cmd([[colorscheme gruvbox]])
 end,},
-{'nvim-treesitter/nvim-treesitter', build = ":TSUpdate", lazy = false},
 {'Shougo/neoyank.vim', dependencies = 'Shougo/denite.nvim'},
 {'junegunn/fzf', lazy = false, build = ":call fzf#install()" },
 {'junegunn/fzf.vim', lazy = true},
@@ -176,7 +185,7 @@ require("luasnip.loaders.from_lua").load({
 })
 					-- end
 -- vim.lsp.inlay_hint.enable(not vim.lsp.inlay_hint.is_enabled())
--- require 'nvim-treesitter.install'.compilers = { 'clang' }
+require 'nvim-treesitter.install'.compilers = { 'clang' }
 require('settings')
 require('functions')
 require('set')

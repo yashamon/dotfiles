@@ -94,3 +94,137 @@ echo $a
 let a = (ls -l | where $it.type == dir | each { $it.name + "blah"} )
 let a = (ls -l | where $it.type == dir | each { |it| $it.name + "blah"} )
 let a = (ls -l | where $it.type == dir | each { |a| $a.name + "blah"} )
+neovim
+nvim
+nurc
+$env.VIMRUNTIME
+$env.VIMRUNTIME = ~
+$env.VIMRUNTIME
+nvim
+$env.VIMRUNTIME
+$env.VIMRUNTIME=
+$env.VIMRUNTIME =
+$env.VIMRUNTIME = ''
+nvim
+vrc
+nvim
+vrc
+nurc
+nvim
+j nushell
+nvim config.nu
+nvim
+echo $env.VIMRUNTIME
+nvim
+lf
+git status
+rm CMakeLists.txt
+lf
+rm autoload
+rm -r autoload
+rm -r colors
+rm -r compiler
+rm -r delmenu.vim
+rm -r doc
+rm -r filetype.lua
+rm -r pack
+rm -r plugin
+rm -r queries
+rm -r synmenu.vim
+rm -r syntax
+rm -r tools
+rm -r tutor
+lf
+j nushell
+nvim config.nu
+j neovim
+ls
+lf
+cd ..
+rm -r neovim
+killn nvim
+rm -r neovim
+git clone https://github.com/neovim/neovim
+cd neovim
+nurc
+nvim
+nurc
+nvim
+nvy
+which nvim
+which nu
+which nvim
+nvim
+echo $env.VIMRUNTIME
+nurc
+nvim
+nushell
+nurc
+which cl
+lf
+nurc
+nvim
+which nvim
+nurc
+clang-cl
+cl
+nurc
+cl
+j neovim
+which cl
+cd ..
+git clone https://github.com/neovim/neovim
+git clone https://github.com/neovim/neovim neovim2
+cd neovim2
+cmake -S cmake.deps -B .deps -G Ninja -D CMAKE_BUILD_TYPE=Release
+cl
+nvim
+j neovim
+lf
+nurc
+nvim
+lf
+nvim
+nvim config.nu
+vrc
+which rustup
+which cargo
+cargo
+which rustc
+lf
+scoop uninstall cargo
+lf
+scoop uninstall rust
+lf
+rm rustup\
+rm -r rustup\
+lf
+scoop install rustup
+scoop update rustup
+scoop install cargo
+rustup cargo
+which rustup
+lf
+./rustup install cargo
+lf
+j texlab
+lf
+C:\Users\yasha\texlab
+nvim
+lf
+which rustup
+which rustc
+nurc
+cd ~
+which rustc
+cd C:\Users\yasha\scoop\apps\rustup\current\.cargo\bin
+nurc
+which rustc
+j texlab
+lf
+j scripts
+cd ~
+mkdir executables
+nurc
+nvim
+which nvy

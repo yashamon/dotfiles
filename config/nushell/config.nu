@@ -1,11 +1,15 @@
 # Nushell Config File
-let path0 = ["C:/Users/yasha/OneDrive/dotfiles/scripts" "C:/Users/yasha/scoop/apps/python39/current" "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.40.33807/bin/Hostarm64/arm64" "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/Tools"
-"C:/Users/yasha/scoop/apps/nodejs/current/bin" "C:/Users/yasha/scoop/apps/nodejs/current" "C:/Users/yasha/scoop/apps/latex/current/texmfs/install/miktex/bin/x64" "C:/Program Files/PowerShell/7" "C:/windows/system32" "C:/windows" "C:/windows/System32/Wbem" "C:/windows/System32/WindowsPowerShell/v1.0" "C:/windows/System32/OpenSSH" "C:/Program Files/dotnet" "C:/Program Files/PowerShell/7" "C:/Users/yasha/AppData/Local/Microsoft/WindowsApps" "C:/Users/yasha/scoop/apps/perl/current/perl/bin" "C:/Users/yasha/scoop/apps/gcc/current/bin" "C:/Users/yasha/scoop/apps/llvm/14.0.4/bin"]
+let path0 = ["C:/Users/yasha/neovim/build/bin"  "C:/Users/yasha/executables" "C:/Users/yasha/OneDrive/dotfiles/scripts" "C:/Users/yasha/scoop/apps/python39/current" "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.40.33807/bin/Hostarm64/arm64" "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/Tools" "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.40.33807/bin/HostARM64/ARM64" "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/VC/VCPackages" "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/TestWindow" "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/TeamFoundation/Team Explorer" "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/bin/Roslyn" "C:/Program Files/Microsoft Visual Studio/2022/Community//MSBuild/Current/Bin/arm64" "C:/Windows/Microsoft.NET/Framework64/v4.0.30319" "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/" "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/Tools/" 
+"C:/Users/yasha/scoop/apps/nodejs/current/bin" "C:/Users/yasha/scoop/apps/nodejs/current" "C:/Users/yasha/scoop/apps/latex/current/texmfs/install/miktex/bin/x64" "C:/Program Files/PowerShell/7" "C:/windows/system32" "C:/windows" "C:/windows/System32/Wbem" "C:/windows/System32/WindowsPowerShell/v1.0" "C:/windows/System32/OpenSSH" "C:/Program Files/dotnet" "C:/Program Files/PowerShell/7" "C:/Users/yasha/AppData/Local/Microsoft/WindowsApps" "C:/Users/yasha/scoop/apps/perl/current/perl/bin" "C:/Users/yasha/scoop/apps/gcc/current/bin"]
 let scoop1 = (ls C:/Users/yasha/scoop/apps/*/current).name
 let scoop2 = (ls C:/Users/yasha/scoop/apps/*/current/bin).name
-let path = $path0 | append $scoop1 | append $scoop2 | append ["C:/Users/yasha/scoop/shims"] | append ["C:/Users/yasha/.cargo/bin"] | append ["C:/Users/yasha/scoop/apps/autohotkey/current/installer/AutoHotkeyU64.exe"]
+let path = $path0 | append $scoop1 | append $scoop2 | append ["C:/Users/yasha/scoop/shims"] | append ["C:/Users/yasha/scoop/apps/rustup/current/.cargo/bin"] | append ["C:/Users/yasha/scoop/apps/autohotkey/current/installer/AutoHotkeyU64.exe"]
 $env.CARGO_HOME = "C:/Users/yasha/Cargo"
+$env.XDG_CONFIG_HOME = "C:/Users/yasha/AppData/local"
+$env.XDG_CONFIG_HOME = "C:/Users/yasha/AppData/local"
+$env.VSCMD_ARG_TGT_ARCH = "arm64"
 $env.Path = $path
+$env.VIMRUNTIME = "~/neovim/runtime"
 $env.SKIA_GN_COMMAND = "C:/Users/yasha/OneDrive/executables/gn-windows-amd64/gn.exe"
 $env.HOMED = $"($env.HOMEPATH)/OneDrive"
 let HOME = $"($env.HOMEPATH)"
@@ -54,6 +58,8 @@ def killn [name: string] { ps | where name =~ $name | each {|it| kill --force $i
 # if ($file | str trim | path type) == dir {
 # zoxide add $file}
 # __zoxide_z $file}
+
+# def cl [file:string] { clang-cl $file }
 def vrc [] { neo $"($HOMED)/dotfiles/config/nvimnew/init.lua" }
 def lfrc [] { neo $"($HOMED)/dotfiles/config/lf/lfrc" } 
 # def psrc [] { neo $profile } 

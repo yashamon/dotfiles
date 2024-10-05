@@ -63,8 +63,16 @@
     "body": [
         "To\\\"en $0" 
        ],
-    "description": "frechet"
+    "description": "toen"
  }, 
+"godel": {
+    "prefix": "godel",
+    "body": [
+        "G\\\"odel $0" 
+       ],
+    "description": "godel"
+ }, 
+
 
  "frechet": {
     "prefix": "frechet",

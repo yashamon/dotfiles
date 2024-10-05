@@ -4,6 +4,25 @@
 -- require("indent_blankline").setup {
     -- show_end_of_line = true,
 -- }
+
+-- require("lazy").setup({{
+--     "nvim-treesitter/nvim-treesitter",
+--     build = ":TSUpdate",
+--     config = function () 
+--       local configs = require("nvim-treesitter.configs")
+--
+--       configs.setup({
+--           ensure_installed = {"lua", "vim", "vimdoc", "nu", "latex", "html" },
+--           sync_install = false,
+--          highlight = {
+-- 			enable = true,
+-- 			use_languagetree = true,
+-- 			additional_vim_regex_highlighting = true },
+--       indent = { enable = true },  
+--         })
+--     end
+--  }})
+--
 local ts_config = require("nvim-treesitter.configs") 
 ts_config.setup {
 	ensure_installed = {
@@ -417,7 +436,7 @@ require("mason-lspconfig").setup()
 require("lspconfig")
 -- LSP config
 local lspconfig = require("lspconfig")
-lspconfig.tsserver.setup {  LspAttach  = on_attach }
+-- lspconfig.tsserver.setup {  LspAttach  = on_attach }
 lspconfig.lua_ls.setup {  LspAttach  = on_attach }
 lspconfig.jsonls.setup {  LspAttach  = on_attach }
 lspconfig.rome.setup {  LspAttach  = on_attach }
@@ -597,10 +616,69 @@ capabilities.textDocument.foldingRange = {
     dynamicRegistration = false,
     lineFoldingOnly = true
 }
-require("yanker").config({
-  history = ";h"
-})
 
+require('neoclip').setup({
+  history = 1000,
+  enable_persistent_history = false,
+  length_limit = 1048576,
+  continuous_sync = false,
+  db_path = vim.fn.stdpath("data") .. "/databases/neoclip.sqlite3",
+  filter = nil,
+  preview = true,
+  prompt = nil,
+  default_register = {'"','_','+'},
+  default_register_macros = 'q',
+  enable_macro_history = true,
+  content_spec_column = false,
+  disable_keycodes_parsing = false,
+  on_select = {
+	move_to_front = false,
+	close_telescope = true,
+  },
+  on_paste = {
+	set_reg = false,
+	move_to_front = false,
+	close_telescope = true,
+  },
+  on_replay = {
+	set_reg = false,
+	move_to_front = false,
+	close_telescope = true,
+  },
+  on_custom_action = {
+	close_telescope = true,
+  },
+  keys = {
+	telescope = {
+	  i = {
+		select = '<cr>',
+		paste = '<c-p>',
+		paste_behind = '<c-k>',
+		replay = '<c-q>',  -- replay a macro
+		delete = '<c-d>',  -- delete an entry
+		edit = '<c-e>',  -- edit an entry
+		custom = {},
+	  },
+	  n = {
+		select = '<cr>',
+		paste = 'p',
+		--- It is possible to map to more than one key.
+		-- paste = { 'p', '<c-p>' },
+		paste_behind = 'P',
+		replay = 'q',
+		delete = 'd',
+		edit = 'e',
+		custom = {},
+	  },
+	},
+	fzf = {
+	  select = 'default',
+	  paste = ';p',
+	  paste_behind = ';P',
+	  custom = {},
+	},
+  },
+})
 require('lualine').setup {
   options = {
     -- theme = 
