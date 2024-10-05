@@ -331,3 +331,24 @@ nu -c "nvim\\ blah"
 nu -c "\"nvim blah\""
 nvim blah
 keybindings list -e -d -k
+which cl
+clang-cl
+cmake -S cmake.deps -B .deps -G Ninja -D CMAKE_BUILD_TYPE=Release
+cmake --build .deps --config Release
+which cl
+cl
+rm -r build
+$env.Path=''
+$env.Path = ''
+cmake --build .deps --config Release
+nu
+cd C:\Users\yasha\scoop\apps\nushell\
+cd C:\Users\yasha\scoop\apps\nu
+cd C:\Users\yasha\scoop\apps
+ls
+cd nu
+ls
+cd current
+ls
+cl
+cmake
