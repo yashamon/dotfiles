@@ -279,3 +279,14 @@ nvy C:/Users/yasha/OneDrive/dotfiles/config/nushell/config.nu
 cd  C:/Users/yasha/OneDrive/dotfiles/config/nushell
 ls
 which nvy
+neo
+nvim
+j scripts
+rm nvim.bat
+nvim
+neo
+neovide -h
+neovide --neovim-bin ~/neovim/build/bin/nvim
+nvim
+nvy
+nvy --fullscreen
