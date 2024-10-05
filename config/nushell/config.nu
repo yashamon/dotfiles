@@ -11,6 +11,7 @@ $env.VSCMD_ARG_TGT_ARCH = "arm64"
 $env.Path = $path
 # $env.VIMRUNTIME = "~/neovim/runtime"
 $env.VIMRUNTIME = "C:/Users/yasha/AppData/local/nvim-data/runtime"
+$env.CMAKE_INSTALL_PREFIX = "C:/Users/yasha/executables"
 $env.SKIA_GN_COMMAND = "C:/Users/yasha/OneDrive/executables/gn-windows-amd64/gn.exe"
 $env.HOMED = $"($env.HOMEPATH)/OneDrive"
 let HOME = $"($env.HOMEPATH)"
@@ -510,7 +511,6 @@ $env.config = {
     format: "auto" # b, kb, kib, mb, mib, gb, gib, tb, tib, pb, pib, eb, eib, zb, zib, auto
   }
   color_config: $light_theme   # if you want a light theme, replace `$dark_theme` to `$light_theme`
-  use_grid_icons: true
   footer_mode: "25" # always, never, number_of_rows, auto
   float_precision: 2
   buffer_editor: "nvim" # command that will be used to edit the current line buffer with ctrl+o, if unset fallback to $env.EDITOR and $env.VISUAL
@@ -688,7 +688,7 @@ $env.config = {
         mode: [vi_normal]
         event: {
         until: [
-          {edit: PasteSystem }
+          {edit: Paste}
         ]
       }
 }

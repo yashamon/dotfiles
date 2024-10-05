@@ -229,3 +229,27 @@ nurc
 nvim
 which nvy
 nu C:\Users\yasha\OneDrive\dotfiles\scripts\neo.nu
+nvim
+lf
+rm -r runtime
+killn nvim
+rm -r runtime
+killn nvim
+rm -r runtime
+j neovim
+make install
+j execu
+lf
+j neovim
+cmake -S cmake.deps -B .deps -G Ninja -D CMAKE_BUILD_TYPE=Release
+cmake --build .deps --config Release
+cmake -B build -G Ninja -D CMAKE_BUILD_TYPE=Release
+cmake --build build --config Release
+which nvim
+nvim
+j neovim2
+cmake -S cmake.deps -B .deps -G Ninja -D CMAKE_BUILD_TYPE=Release
+upscoop
+lf
+j nushell
+nvim con
