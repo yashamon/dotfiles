@@ -47,7 +47,7 @@ local keymap = {
 local modes = { 'n', 'v', 'x' }
 for key, func in pairs(keymap) do
   vim.keymap.set(modes, key, func)
-end  
+end
 end
 },
 -- "MysticalDevil/inlay-hints.nvim",
