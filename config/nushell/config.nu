@@ -783,6 +783,18 @@ $env.config = {
         ]
       }
 }
+		{
+        name: uppercase
+        modifier: shift
+        keycode: char_`
+        mode: [vi_normal, vi_insert]
+        event: {
+        until: [
+          {edit: SwitchcaseChar }
+        ]
+      }
+}
+
 
 		{
         name: redo
