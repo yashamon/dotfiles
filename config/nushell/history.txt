@@ -255,3 +255,7 @@ j nushell
 nvim con
 keybindings
 keybindings list
+> keybindings list -e -d
+keybindings list -e -d
+--keycodes, -k
+keybindings list -e -d -k
