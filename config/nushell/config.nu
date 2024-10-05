@@ -9,6 +9,7 @@ $env.XDG_CONFIG_HOME = "C:/Users/yasha/AppData/local"
 $env.XDG_CONFIG_HOME = "C:/Users/yasha/AppData/local"
 $env.VSCMD_ARG_TGT_ARCH = "arm64"
 $env.Path = $path
+# $env.VIMRUNTIME = "~/neovim/runtime"
 $env.VIMRUNTIME = "C:/Users/yasha/AppData/local/nvim-data/runtime"
 $env.SKIA_GN_COMMAND = "C:/Users/yasha/OneDrive/executables/gn-windows-amd64/gn.exe"
 $env.HOMED = $"($env.HOMEPATH)/OneDrive"
