@@ -228,3 +228,4 @@ mkdir executables
 nurc
 nvim
 which nvy
+nu C:\Users\yasha\OneDrive\dotfiles\scripts\neo.nu
