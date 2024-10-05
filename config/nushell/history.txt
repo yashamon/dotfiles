@@ -263,3 +263,7 @@ j dotfiles
 git status
 push
 git status
+git add .
+git commit -m -a
+git push origin * windows.main.new
+git push origin windows.main.new
