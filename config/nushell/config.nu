@@ -772,18 +772,7 @@ $env.config = {
         ]
        }
     }
-	{
-        name: repaint
-        modifier: none
-        keycode: Space
-        mode: [vi_normal]
-        event: {
-        until: [
-          {edit: . }
-        ]
-      }
-}
-		{
+			{
         name: undo
         modifier: none
         keycode: char_u
