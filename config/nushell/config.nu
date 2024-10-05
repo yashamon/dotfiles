@@ -787,7 +787,7 @@ $env.config = {
         name: uppercase
         modifier:none 
         keycode: char_~
-        mode: [vi_normal, vi_insert]
+        mode: [vi_normal]
         event: {
         until: [
           {edit: SwitchcaseChar }
