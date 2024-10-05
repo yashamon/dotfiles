@@ -138,16 +138,20 @@ FileStates [
 		FilePath = C:\Users\yasha\OneDrive\workspacemodules\thematrix\build\stableincompleteness.pdf
 		Favorites [
 			[
+				Name = c
+				PageNo = 1
+			]
+			[
 				Name = a
 				PageNo = 13
 			]
 		]
 		IsPinned = false
 		IsMissing = false
-		OpenCount = 3
+		OpenCount = 5
 		UseDefaultState = false
 		DisplayMode = continuous
-		ScrollPos = 79.9991 86.5012
+		ScrollPos = 79.9404 86.4948
 		PageNo = 1
 		Zoom = fit content
 		Rotation = 0
@@ -164,10 +168,10 @@ FileStates [
 		]
 		IsPinned = false
 		IsMissing = false
-		OpenCount = 4
+		OpenCount = 5
 		UseDefaultState = false
 		DisplayMode = continuous
-		ScrollPos = 79.8929 64.355
+		ScrollPos = 79.8929 79.1972
 		PageNo = 2
 		Zoom = fit content
 		Rotation = 0
@@ -184,7 +188,7 @@ FileStates [
 		]
 		IsPinned = false
 		IsMissing = false
-		OpenCount = 4
+		OpenCount = 5
 		UseDefaultState = false
 		DisplayMode = continuous
 		ScrollPos = 82.4587 149.449
@@ -3413,7 +3417,7 @@ SessionData [
 				PageNo = 2
 				Zoom = fit content
 				Rotation = 0
-				ScrollPos = 79.8929 64.355
+				ScrollPos = 79.8929 79.1972
 				ShowToc = false
 			]
 			[
@@ -3422,7 +3426,7 @@ SessionData [
 				PageNo = 1
 				Zoom = fit content
 				Rotation = 0
-				ScrollPos = 79.9991 86.5012
+				ScrollPos = 79.9404 86.4948
 				ShowToc = false
 			]
 		]

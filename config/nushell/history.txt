@@ -259,3 +259,7 @@ keybindings list
 keybindings list -e -d
 --keycodes, -k
 keybindings list -e -d -k
+j dotfiles
+git status
+push
+git status
