@@ -61,7 +61,7 @@ def killn [name: string] { ps | where name =~ $name | each {|it| kill --force $i
 # zoxide add $file}
 # __zoxide_z $file}
 
-def cl [file:string] { clang-cl $file }
+alias cl clang-cl 
 def vrc [] { nvim $"($HOMED)/dotfiles/config/nvimnew/init.lua" }
 def lfrc [] { nvim $"($HOMED)/dotfiles/config/lf/lfrc" } 
 # def psrc [] { neo $profile } 
