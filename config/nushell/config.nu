@@ -800,7 +800,7 @@ $env.config = {
       name: yank
       modifier: none
       keycode: char_y
-      mode: [vi_normal]
+      mode: [vi_visual]
       event: {
         until: [
           {edit: CopySelection }
