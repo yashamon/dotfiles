@@ -798,8 +798,8 @@ $env.config = {
 
     {
       name: yank
-      modifier: CONTROL
-      keycode: char_c
+      modifier: none
+      keycode: char_y
       mode: [vi_normal, emacs, vi_insert]
       event: {
         until: [
