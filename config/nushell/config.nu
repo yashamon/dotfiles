@@ -800,7 +800,7 @@ $env.config = {
       name: yank
       modifier: none
       keycode: char_y
-      mode: [vi_normal, emacs, vi_insert]
+      mode: [vi_normal]
       event: {
         until: [
           {edit: CopySelection }
