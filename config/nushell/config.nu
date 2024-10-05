@@ -798,12 +798,12 @@ $env.config = {
 
     {
       name: yank
-      modifier: CONTROL
-      keycode: char_c
+      modifier: none
+      keycode: y
       mode: [vi_normal, emacs, vi_insert]
       event: {
         until: [
-          {edit: CutSelection }
+          {edit: CopySelection }
         ]
       }
     }
