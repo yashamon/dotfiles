@@ -267,3 +267,15 @@ git add .
 git commit -m -a
 git push origin * windows.main.new
 git push origin windows.main.new
+nvy
+neo
+nurc
+C:/Users/yasha/executables/nvy.exe
+C:/Users/yasha/executables/nvy.exe --fullscreen \Users\yasha/OneDrive/dotfiles/config/nushell/config.nu
+cd ~
+C:/Users/yasha/executables/nvy.exe --fullscreen \Users\yasha/OneDrive/dotfiles/config/nushell/config.nu
+C:/Users/yasha/executables/nvy.exe --fullscreen C:/Users/yasha/OneDrive/dotfiles/config/nushell/config.nu
+nvy C:/Users/yasha/OneDrive/dotfiles/config/nushell/config.nu
+cd  C:/Users/yasha/OneDrive/dotfiles/config/nushell
+ls
+which nvy

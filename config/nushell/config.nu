@@ -28,7 +28,7 @@ def uploadGit [name:string] { let key = (keyGH)
 nu $"($HOMED)/dotfiles/scripts/uploadGit.nu" $name (keyGH) }
 def neo [file = ""] {
 # nu -c $"C:/Users/yasha/scoop/apps/neovide/current/neovide.exe ($file)"
-nu -c $"C:/Users/yasha/executables/nvy.exe --fullscreen ($file)"
+nu -c $"neovide --maximized --no-vsync --no-idle ($file)"
 }
 def vi [file = ""] {
 nvy --maximize $file
@@ -62,10 +62,10 @@ def killn [name: string] { ps | where name =~ $name | each {|it| kill --force $i
 # __zoxide_z $file}
 
 # def cl [file:string] { clang-cl $file }
-def vrc [] { neo $"($HOMED)/dotfiles/config/nvimnew/init.lua" }
-def lfrc [] { neo $"($HOMED)/dotfiles/config/lf/lfrc" } 
+def vrc [] { nvim $"($HOMED)/dotfiles/config/nvimnew/init.lua" }
+def lfrc [] { nvim $"($HOMED)/dotfiles/config/lf/lfrc" } 
 # def psrc [] { neo $profile } 
-def nurc [] { neo $"($HOMED)/dotfiles/config/nushell/config.nu"}
+def nurc [] { nvim $"($HOMED)/dotfiles/config/nushell/config.nu"}
 def texi [file:string] { pdflatex -file-line-error -synctex=1  -interaction=nonstopmode -recorder $file }
 def latexi [file:string] { latexmk -g -pdf -file-line-error -synctex=1  -interaction=nonstopmode -recorder -f $file}
 def pdf [file:string] { nu -c C:/Users/yasha/scoop/shims/sumatrapdf.exe $file} 
