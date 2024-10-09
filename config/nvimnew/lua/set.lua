@@ -9,6 +9,7 @@ vim.opt.tabstop = indent
 vim.opt.shiftwidth = indent
 vim.opt.softtabstop = indent
 vim.opt.backup = false
+
 opt.termguicolors = true
 opt.spelllang = 'en_us'
 opt.clipboard = 'unnamedplus'
@@ -51,6 +52,8 @@ opt.tags:append {homed .. "/dotfiles/tags", "./tags"}
 opt.guifont = "JetBrains Mono NL:h18"
 -- vim.cmd.colorscheme('gruvbox')
 vim.cmd [[set shortmess+=c]]
+vim.cmd [[set noh]]
+
 -- vim.cmd [[set shortmess-=F]]
 vim.cmd [[let g:firenvim_config = { 
     \ 'globalSettings': {
