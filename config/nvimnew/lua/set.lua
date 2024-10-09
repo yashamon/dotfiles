@@ -52,8 +52,7 @@ opt.tags:append {homed .. "/dotfiles/tags", "./tags"}
 opt.guifont = "JetBrains Mono NL:h18"
 -- vim.cmd.colorscheme('gruvbox')
 vim.cmd [[set shortmess+=c]]
-vim.cmd [[set noh]]
-
+vim.cmd [[noh]]
 -- vim.cmd [[set shortmess-=F]]
 vim.cmd [[let g:firenvim_config = { 
     \ 'globalSettings': {
