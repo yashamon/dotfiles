@@ -53,6 +53,7 @@ opt.guifont = "JetBrains Mono NL:h18"
 -- vim.cmd.colorscheme('gruvbox')
 vim.cmd [[set shortmess+=c]]
 vim.cmd [[noh]]
+vim.cmd('hi! link CurSearch Search')
 -- vim.cmd [[set shortmess-=F]]
 vim.cmd [[let g:firenvim_config = { 
     \ 'globalSettings': {
