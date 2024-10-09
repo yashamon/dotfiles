@@ -1236,7 +1236,7 @@
         "prefix": ["latdef", "\\definition"],
         "body": [
 						"",
-            "\\begin{definition}\\label{definition_$1}", 
+            "\\begin{definition}\\label{def_$1}", 
             "\t$0",
             "\\end{definition}",
 						""
