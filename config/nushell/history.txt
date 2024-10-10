@@ -379,3 +379,7 @@ j web
 git status
 hw
 vrc
+nurc
+hx
+lf
+nvim
