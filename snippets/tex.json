@@ -523,7 +523,7 @@
     "description": "Add a Equation"
   },
 "EquationNumbered": {
-    "prefix": "[lateqn", "lateqnum"],
+    "prefix": "lateqn",
     "body": [
       "\\begin{equation} \\label{eq_$1}",
             "$2", 
