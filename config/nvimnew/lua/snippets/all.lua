@@ -426,6 +426,12 @@ ls.add_snippets("tex", {
 		i("1",""),
 	}, { condition = Is_math }),
 })
+ls.add_snippets("tex", {
+	s("sp", {
+		t({"\\;"}),
+		i("1",""),
+	}, { condition = Is_math }),
+})
 
 ls.add_snippets("tex", {
 	s("equiv", {
