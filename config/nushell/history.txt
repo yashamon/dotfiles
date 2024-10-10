@@ -353,3 +353,29 @@ ls
 cl
 cmake
 nurc
+nvim C:\Users\yasha\AppData\Local\nushell\config.nu
+cl
+j neovim2
+cmake --build .deps --config Release
+git checkout master
+lf
+git patch BuildGettext.patch
+git-patch BuildGettext.patch
+git apply BuildGettext.patch
+git status
+nu
+nu -c "nvim --server  \\.\pipe\nvm.4748.0 --remote-send a"
+nu -c 'nvim --server  \\.\pipe\nvm.4748.0 --remote-send a'
+nvim ~/filename.txt
+neo
+C:/Users/yasha/nvy/build/nvy --fullscreen --neovim-bin=C:/Users/yasha/neovim/build/bin/nvim.exe
+nvy
+:/Users/yasha/neovim/build/bin/nvim.exe
+C:/Users/yasha/neovim/build/bin/nvim.exe
+nvy
+j neovim
+lf
+j web
+git status
+hw
+vrc

@@ -224,7 +224,7 @@ require('keymaps')
 -- 	ignore_filetypes = {},
 -- })
 vim.cmd([[
-let $VIMRUNTIME = "C:/Users/yasha/AppData/local/nvim-data/runtime"
+let $VIMRUNTIME = "C:/Users/yasha/executable/share/nvim/runtime"
 " Autocommands, au
  function! OnUIEnter(event)
 	let l:ui = nvim_get_chan_info(a:event.chan)
