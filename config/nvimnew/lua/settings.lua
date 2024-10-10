@@ -438,7 +438,7 @@ require("lspconfig")
 local lspconfig = require("lspconfig")
 -- lspconfig.tsserver.setup {  LspAttach  = on_attach }
 lspconfig.lua_ls.setup {  LspAttach  = on_attach }
--- lspconfig.jsonls.setup {  LspAttach  = on_attach }
+lspconfig.jsonls.setup {  LspAttach  = on_attach }
 lspconfig.biome.setup {  LspAttach  = on_attach }
 lspconfig.vimls.setup {  LspAttach  = on_attach }
 lspconfig.ltex.setup { autostart = false; LspAttach = on_attach }
