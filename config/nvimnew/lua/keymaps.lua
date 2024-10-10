@@ -142,7 +142,8 @@ smap <silent><expr> <C-E> luasnip#choice_active() ? '<Plug>luasnip-next-choice' 
 " -1 for jumping backwards.
 
 "nmap <leader>gm :up<cr>:silent ! cat % >> ~/workspace/email.txt; cp % /tmp/temp; make4ht /tmp/temp "mathml,mathjax"; pandoc /tmp/temp.html --from html --to markdown_strict -o /tmp/temp.md; mv /tmp/temp.md %<cr>:e %<cr>:up<cr>:qa<cr>
-xnoremap <silent> <cr> "1y:silent! let searchTerm = '\V'.substitute(escape(@1, '\/'), "\n", '\\n', "g") <bar> let @/ = searchTerm <bar> echo '/'.@/ <bar> call histadd("search", searchTerm) <bar> set hls<cr><cr>
+
+xnoremap <silent> <cr> "1y:silent! let searchTerm = '\V'.substitute(escape(@1, '\/'), "\n", '\\n', "g") <bar> let @/ = searchTerm <bar> echo '/'.@/ <bar> call histadd("search", searchTerm) <bar> highlight CurSearch guifg=red guibg=none <bar> set hls<cr><cr>
 
 map <S-C-q> <Esc>:qa!<CR>
 vnoremap < <gv
