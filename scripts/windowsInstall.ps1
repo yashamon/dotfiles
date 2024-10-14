@@ -89,6 +89,7 @@ rm $HOME/AppData/Roaming/Microsoft/Windows/Start Menu/Programs/Startup/desktop-s
 pwsh -nop -c 'New-Item -ItemType SymbolicLink -Path "$HOME/AppData/Roaming/Microsoft/Windows/Start Menu/Programs/Startup/desktop_switcher.ahk" -Target "$HOME/OneDrive/dotfiles/scripts/desktop_switcher.ahk"'
 pwsh -nop -c 'New-Item -ItemType SymbolicLink -Path "$HOME\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\WinJump.exe" -Target "$HOME\OneDrive\WinJump.exe"'
 pwsh -nop -c 'New-Item -ItemType SymbolicLink -Path "$HOME/AppData/Roaming/Microsoft/Windows/Start Menu/Programs/Startup/taskbar.exe" -Target "C:\Users\yasha\scoop\shims\buttery-taskbar.EXE"'
+new-Item -ItemType SymbolicLink -Path "C:\Users\yasha\AppData\Local\Microsoft\Windows Terminal\settings.json" -Target "C:\Users\yasha\OneDrive\dotfiles\config\windowsterm\settings.json"
 # winget install Microsoft.VisualStudio.2022.BuildTools --force --override "--wait --passive --add Microsoft.VisualStudio.Component.VC.Tools.x86.x64 --add Microsoft.VisualStudio.Component.Windows11SDK.22000"
 Install-Module -Name PSFzf
 # pwsh -nop -c ~\scoop\apps\sudo\current\sudo.ps1 New-Item -ItemType SymbolicLink -Path "$HOME/windows-desktop-switcher" -Target "$HOME/OneDrive/windows-desktop-switcher"
