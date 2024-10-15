@@ -8,8 +8,8 @@ $env.CARGO_HOME = "C:/Users/yasha/Cargo"
 $env.XDG_CONFIG_HOME = "C:/Users/yasha/AppData/local"
 $env.XDG_CONFIG_HOME = "C:/Users/yasha/AppData/local"
 $env.VSCMD_ARG_TGT_ARCH = "arm64"
-let pathstr = ($path | into string)
-$env.Path = $pathstr
+#let pathstr = ($path | into string)
+$env.Path = $path
 # $env.VIMRUNTIME = "~/neovim/runtime"
 $env.VIMRUNTIME = "C:/Users/yasha/AppData/local/nvim-data/runtime"
 $env.CMAKE_INSTALL_PREFIX = "C:/Users/yasha/executables"
@@ -29,10 +29,10 @@ def uploadGit [name:string] { let key = (keyGH)
 nu $"($HOMED)/dotfiles/scripts/uploadGit.nu" $name (keyGH) }
 def neo [file = ""] {
 # nu -c $"C:/Users/yasha/scoop/apps/neovide/current/neovide.exe ($file)"
-nu -c $"neovide --maximized --no-vsync --no-idle ($file)"
+nu -c $"C:/Users/yasha/nvy/build/nvy --fullscreen --neovim-bin=C:/Users/yasha/neovim/build/bin/nvim.exe ($file)"
 }
 def vi [file = ""] {
-nvy --maximize $file
+C:/Users/yasha/nvy/build/nvy --fullscreen --neovim-bin=C:/Users/yasha/neovim/build/bin/nvim.exe $file
 }
 def p [] {
 let $command = $"Set-Location '($env.PWD)'"
