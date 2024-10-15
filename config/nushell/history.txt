@@ -398,3 +398,4 @@ j web
 nvim
 scoop install zoxide
 j web
+chmod +x neo.nu
