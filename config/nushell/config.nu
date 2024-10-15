@@ -27,7 +27,7 @@ pwsh -nop -c New-Item -ItemType SymbolicLink -Path ./link.bib -Target C:/Users/y
 
 def uploadGit [name:string] { let key = (keyGH)
 nu $"($HOMED)/dotfiles/scripts/uploadGit.nu" $name (keyGH) }
-def neo [file = ""] {
+def neo [file?:string] {
 # nu -c $"C:/Users/yasha/scoop/apps/neovide/current/neovide.exe ($file)"
 nu -c $"C:/Users/yasha/nvy/build/nvy --fullscreen --neovim-bin=C:/Users/yasha/neovim/build/bin/nvim.exe ($file)"
 }

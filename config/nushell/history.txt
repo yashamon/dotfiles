@@ -399,3 +399,15 @@ nvim
 scoop install zoxide
 j web
 chmod +x neo.nu
+chmod +x neo.bat
+./neo.bat
+nu -c C:\users\yasha\onedrive\dotfiles\scripts\neo.nu
+nu -c "C:\users\yasha\onedrive\dotfiles\scripts\neo.nu"
+nu -c "C:/users/yasha/onedrive/dotfiles/scripts/neo.nu"
+nu -c C:\Users\yasha\OneDrive\dotfiles\scripts\neo.bat<\n>
+nu -c C:\Users\yasha\OneDrive\dotfiles\scripts\neo.bat
+nu -c C:/Users/yasha/OneDrive/dotfiles/scripts/neo.bat
+nu C:/Users/yasha/OneDrive/dotfiles/scripts/neo.bat
+neo blah
+nvim neo.nu
+neo blah
