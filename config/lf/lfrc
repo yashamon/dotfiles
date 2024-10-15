@@ -145,7 +145,7 @@ map gS $pwsh -nop -c "explorer /select, $Env:f"
 # note that -nop requires full path name
 map gj %pwsh -nop -c C:/Users/yasha/scoop/shims/xournalpp.exe $Env:f.Trim('"')
 map e %pwsh -nop -c C:\Users\yasha\OneDrive\dotfiles\scripts\remotelf.ps1 $Env:f.Trim('"') 
-map n %\Users\yasha\nvy.exe --fullscreen $Env:f.Trim('"') 
+map n %C:/Users/yasha/nvy/build/nvy --fullscreen --neovim-bin=C:/Users/yasha/neovim/build/bin/nvim.exe $Env:f.Trim('"') 
 map gn %neovide $Env:f.Trim('"') 
 # define a custom 'rename' command without prompt for overwrite 
 cmd spastename &{{
