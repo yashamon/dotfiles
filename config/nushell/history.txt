@@ -411,3 +411,32 @@ nu C:/Users/yasha/OneDrive/dotfiles/scripts/neo.bat
 neo blah
 nvim neo.nu
 neo blah
+nvim C:\Users\yasha\AppData\Local\nushell\config.nu
+neo blah
+./neo.bat 
+nvim neo.nu
+./neo.bat 
+nvim neo.bat
+./neo.bat blah
+nvim neo.nu
+C:/Users/yasha/neovim/build/bin/nvim.exe blah
+nvim neo.nu
+./neo.bat blah
+nvim neo.nu
+./neo.bat blah
+nvim neo.bat
+nu -c 'C:/users/yasha/onedrive/dotfiles/scripts/neo.nu' blah
+nu C:/users/yasha/onedrive/dotfiles/scripts/neo.nu blah
+nvim neo.nu
+nu C:/users/yasha/onedrive/dotfiles/scripts/neo.nu blah
+nvim neo.nu
+./neo.bat blah
+nvim ./neo.bat
+which neo
+neo
+neo blah
+j neovide
+j nvyu
+j nvy
+cd build
+./Nvy.exe --f blah
