@@ -440,3 +440,64 @@ j nvyu
 j nvy
 cd build
 ./Nvy.exe --f blah
+hw
+j dotfiles
+cd .git
+ls
+hw
+nurc
+hw
+j dotfiles
+cd .git
+ls
+rm index.lock
+hw
+rm index.lock
+j dotfiles
+hw
+rm C:/Users/yasha/OneDrive/dotfiles/.git/index.lock
+hw
+cd ~
+hw
+j algtop
+touch test
+cd ~
+hw
+j algtop
+rm text
+rm test
+do --ignore-errors {git add .}; do --ignore-errors {git commit -m -a}; do --ignore-errors {git push origin gh-pages}
+touch test
+do --ignore-errors {git commit -m -a}
+do --ignore-errors {git push origin gh-pages}
+rm test
+do --ignore-errors {git add .; git commit -m -a}; do --ignore-errors {git push origin gh-pages}
+git status
+do --ignore-errors {git add .; git commit -m -a; git push origin gh-pages}
+git commit -m -a
+git status
+do --ignore-errors {git add .; git commit -m -a; git push origin gh-pages}; git push origin gh-page
+do --ignore-errors {git add .; git commit -m -a; git push origin gh-pages}; git push origin gh-pages
+touch test
+do --ignore-errors {git add .; git commit -m -a; git push origin gh-pages}; git push origin gh-pages
+git status
+do --ignore-errors {git add .; git commit -m -a; git push origin gh-pages}; git push origin gh-pages
+rm touch
+rm test
+do --ignore-errors {git add .; git commit -m -a}; do --ignore-errors {git push origin gh-pages}
+do --ignore-errors {git add .; git commit -m -a}; do --ignore-errors {git push origin gh-pages:gh-pages}
+touch test
+do --ignore-errors {git add .; git commit -m -a}; do --ignore-errors {git push origin gh-pages:gh-pages}
+rm test
+do --ignore-errors {git add .; git commit -m -a}; do --ignore-errors {git push origin gh-pages}
+touch test
+do --ignore-errors {git add .; git commit -m -a}; do --ignore-errors {git push origin gh-pages}
+rm test
+git status
+do --ignore-errors {git add .; git commit -m -a}; do --ignore-errors {git push origin gh-pages}
+do --ignore-errors {git add .; git commit -m -a}; do --ignore-errors {git push origin gh-pages:gh-pages}
+rm test
+touch test
+do --ignore-errors {git add .; git commit -m -a}; do --ignore-errors {git push origin gh-pages:gh-pages}
+rm test
+do --ignore-errors {git add .; git commit -m -a}; do --ignore-errors {git push origin gh-pages:gh-pages}
