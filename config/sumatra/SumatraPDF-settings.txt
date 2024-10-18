@@ -128,7 +128,7 @@ SmoothScroll = false
 ShowStartPage = true
 CheckForUpdates = false
 WindowState = 2
-WindowPos = -13 -13 1446 1124
+WindowPos = -13 -13 1946 2084
 UseTabs = true
 UseSysColors = false
 CustomScreenDPI = 0
@@ -143,20 +143,28 @@ FileStates [
 			]
 			[
 				Name = a
+				PageNo = 8
+			]
+			[
+				Name = b
+				PageNo = 11
+			]
+			[
+				Name = a
 				PageNo = 13
 			]
 		]
 		IsPinned = false
 		IsMissing = false
-		OpenCount = 5
+		OpenCount = 3
 		UseDefaultState = false
 		DisplayMode = continuous
-		ScrollPos = 79.9404 86.4948
-		PageNo = 1
+		ScrollPos = 83.1431 64.5377
+		PageNo = 18
 		Zoom = fit content
 		Rotation = 0
 		WindowState = 2
-		WindowPos = -13 -13 1446 1124
+		WindowPos = -13 -13 1946 2084
 		ShowToc = false
 		SidebarDx = 364
 		DisplayR2L = false
@@ -168,15 +176,15 @@ FileStates [
 		]
 		IsPinned = false
 		IsMissing = false
-		OpenCount = 5
+		OpenCount = 3
 		UseDefaultState = false
 		DisplayMode = continuous
-		ScrollPos = 79.8929 79.1972
+		ScrollPos = 79.8929 64.355
 		PageNo = 2
 		Zoom = fit content
 		Rotation = 0
 		WindowState = 2
-		WindowPos = -13 -13 1446 1124
+		WindowPos = -13 -13 1946 2084
 		ShowToc = false
 		SidebarDx = 364
 		DisplayR2L = false
@@ -188,7 +196,7 @@ FileStates [
 		]
 		IsPinned = false
 		IsMissing = false
-		OpenCount = 5
+		OpenCount = 3
 		UseDefaultState = false
 		DisplayMode = continuous
 		ScrollPos = 82.4587 149.449
@@ -196,7 +204,7 @@ FileStates [
 		Zoom = fit content
 		Rotation = 0
 		WindowState = 2
-		WindowPos = -13 -13 1446 1124
+		WindowPos = -13 -13 1946 2084
 		ShowToc = false
 		SidebarDx = 364
 		DisplayR2L = false
@@ -208,7 +216,7 @@ FileStates [
 		]
 		IsPinned = false
 		IsMissing = false
-		OpenCount = 2
+		OpenCount = 1
 		UseDefaultState = false
 		DisplayMode = continuous
 		ScrollPos = -1 -1
@@ -228,7 +236,7 @@ FileStates [
 		]
 		IsPinned = false
 		IsMissing = false
-		OpenCount = 2
+		OpenCount = 1
 		UseDefaultState = false
 		DisplayMode = continuous
 		ScrollPos = -1 -1
@@ -248,7 +256,7 @@ FileStates [
 		]
 		IsPinned = false
 		IsMissing = false
-		OpenCount = 2
+		OpenCount = 1
 		UseDefaultState = false
 		DisplayMode = continuous
 		ScrollPos = -1 497.063
@@ -268,7 +276,7 @@ FileStates [
 		]
 		IsPinned = false
 		IsMissing = false
-		OpenCount = 2
+		OpenCount = 1
 		UseDefaultState = false
 		DisplayMode = continuous
 		ScrollPos = -1 -1
@@ -3417,26 +3425,26 @@ SessionData [
 				PageNo = 2
 				Zoom = fit content
 				Rotation = 0
-				ScrollPos = 79.8929 79.1972
+				ScrollPos = 79.8929 64.355
 				ShowToc = false
 			]
 			[
 				FilePath = C:\Users\yasha\OneDrive\workspacemodules\thematrix\build\stableincompleteness.pdf
 				DisplayMode = continuous
-				PageNo = 1
+				PageNo = 18
 				Zoom = fit content
 				Rotation = 0
-				ScrollPos = 79.9404 86.4948
+				ScrollPos = 83.1431 64.5377
 				ShowToc = false
 			]
 		]
 		TabIndex = 4
 		WindowState = 2
-		WindowPos = -13 -13 1446 1124
+		WindowPos = -13 -13 1946 2084
 		SidebarDx = 364
 	]
 ]
 TimeOfLastUpdateCheck = 0 0
-OpenCountWeek = 718
+OpenCountWeek = 719
 
 # Settings below are not recognized by the current version
