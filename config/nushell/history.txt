@@ -518,3 +518,25 @@ nvim link.bib
 git commit -m -a
 git status
 push
+git status
+nvim link.bib
+exit
+nvim
+j config
+cd ..
+lf
+j config
+cd ~
+cd OneDrive\dotfiles\config\
+ls
+cd nushell
+lf
+git status
+git restore config.nu
+git restore env.nu
+lf
+nvim config.nu
+lf
+j dotfiles
+nvim test.tex
+git status
