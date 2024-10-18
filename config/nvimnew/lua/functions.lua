@@ -23,7 +23,7 @@ Line = function()
 	-- Idline = vim.fn.jobstart(WriteLine())
 	WriteLine()
 	LoadLine()
-	-- vim.fn.jobwait({IdLine})
+	-- vim.fn.jobwait({IdLine}) testu
   vim.cmd('lopen 20')
    if vim.w.bqf_enabled then
     -- local winid = vim.api.nvim_get_current_win()
