@@ -583,3 +583,6 @@ if ((git rev-parse --is-inside-work-tree) | into bool) {do -i {git add .}; do -i
 git status
 nvim message.log
 git status
+nvim message.log
+git status
+j dotfiles
