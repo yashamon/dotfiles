@@ -110,7 +110,7 @@ end
 
 GitAsync = function()
 -- local buff = vim.fn.bufname()
-local command1 = 'if ((git rev-parse --is-inside-work-tree) | into bool) {git add .; git diff --staged | save --force message.log; git commit -F message.log; git push --all origin; echo "synced"}'
+local command1 = 'if ((git rev-parse --is-inside-work-tree) | into bool) do -i {git add .}; do -i {git diff --staged | save --force message.log}; do -i {git commit -F message.log}; do -i {git push --all origin}; do -i {echo "synced"}'
 Job(command1)
 end
 -- test3
