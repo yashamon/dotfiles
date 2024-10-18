@@ -557,3 +557,9 @@ git add .
 git status
 nvim link.bib
 git status
+nvim .gitignore
+git status
+nvim .gitignore
+git status
+nvim .gitignore
+git status
