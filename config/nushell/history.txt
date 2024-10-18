@@ -586,3 +586,17 @@ git status
 nvim message.log
 git status
 j dotfiles
+git restore config/nushell/history.txt
+git status
+nvim .gitignore
+touch test
+git status
+cd config\nushell\history.txt
+cd config\nushell
+git status
+nvim .gitignore
+j dotfiles
+nvim .gitignore
+git status
+nvim .gitignore
+git status
