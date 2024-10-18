@@ -11,6 +11,7 @@ config/PowerToys/
 vifminfo  
 !./config/nvimnew/lazy-lock.json
 tags
+history.tex
 *.log
 !./config/PowerToys/Keyboard Manager/settings.json
 newtest/

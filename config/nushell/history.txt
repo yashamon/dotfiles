@@ -551,3 +551,9 @@ git status
 if ((git rev-parse --is-inside-work-tree) | into bool) {do -i {git add .}; do -i {git diff --staged | save --force message.log}; do -i {git commit -F message.log}; do -i {git push --all origin}; do -i {echo "synced"}}
 if ((git rev-parse --is-inside-work-tree) | into bool) {echo "synced"}
 git status
+if ((git rev-parse --is-inside-work-tree) | into bool) {do -i {git add .}; do -i {git diff --staged | save --force message.log}; do -i {git commit -F message.log}; do -i {git push --all origin}; do -i {echo "synced"}}
+git status
+git add .
+git status
+nvim link.bib
+git status
