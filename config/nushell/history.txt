@@ -503,3 +503,10 @@ rm test
 do --ignore-errors {git add .; git commit -m -a}; do --ignore-errors {git push origin gh-pages:gh-pages}
 nurc
 j config
+exit
+nvim
+j dotfiles
+git status
+nvim link.bib
+git status
+lazygit
