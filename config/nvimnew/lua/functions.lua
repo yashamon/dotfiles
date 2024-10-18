@@ -110,7 +110,7 @@ end
 
 GitAsync = function()
 -- local buff = vim.fn.bufname()
-local command1 = 'if ((git rev-parse --is-inside-work-tree) | into bool) {push; push}'
+local command1 = 'if ((git rev-parse --is-inside-work-tree) | into bool) {push}'
 Job(command1)
 end
 -- test3
