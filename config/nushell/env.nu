@@ -41,6 +41,17 @@ $env.PROMPT_MULTILINE_INDICATOR = { "::: " }
 # Directories to search for scripts when calling source or use
 #
 # By default, <nushell-config-dir>/scripts is added
+
+$env.ENV_CONVERSIONS = {
+    "PATH": {
+        from_string: {|s| $s | split row (char esep) | path expand --no-symlink }
+        to_string: {|v| $v | path expand --no-symlink | str join (char esep) }
+    }
+    "Path": {
+        from_string: {|s| $s | split row (char esep) | path expand --no-symlink }
+        to_string: {|v| $v | path expand --no-symlink | str join (char esep) }
+    }
+}
 $env.NU_LIB_DIRS = [
     ($nu.config-path | path dirname | path join 'scripts')
 ]
