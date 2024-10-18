@@ -569,3 +569,13 @@ nvim .gitignore
 git status
 nvim .gitignore
 git status
+push
+git status
+nurc
+git status
+nvim message.log
+git diff --staged
+do -i {git diff --staged | save --force message.log}
+nvim message.log
+rm message.log
+git status
