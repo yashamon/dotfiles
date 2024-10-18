@@ -510,3 +510,11 @@ git status
 nvim link.bib
 git status
 lazygit
+nvim link.bib
+j themat
+lf
+j dotfiles
+nvim link.bib
+git commit -m -a
+git status
+push
