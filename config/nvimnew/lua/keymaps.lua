@@ -46,6 +46,7 @@ map({'n', 'v'}, '<leader>c', 'gc', {remap = true})
 -- tnoremap <m-d> <C-\><C-n>:bdelete!<cr>
 -- nmap <m-8> :set laststatus=0<cr>:set lines=100<cr>:set guifont=Fira\ Code:h18<cr>:set columns=100<cr>
 map('n', '<c-l>', function() vim.cmd('bnext') end, {})
+map('n', '<c-l>', function() vim.cmd('bnext') end, {})
 map('n', '<c-h>', function() vim.cmd('bprevious') end, {})
 map('t', '<c-h>', function() vim.cmd('bprevious') end, {})
 map('t', '<c-l>', function() vim.cmd('bnext') end, {})
