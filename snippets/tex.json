@@ -1820,6 +1820,13 @@
     ],
     "description": "big intersection"
   },
+"Von Neumann ": {
+    "prefix": ["von"],
+    "body": [
+      "Von Neumann"
+    ],
+    "description": ""
+  },
 
 "sigma": {
     "prefix": ["si"],
