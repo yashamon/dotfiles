@@ -65,6 +65,14 @@
        ],
     "description": "toen"
  }, 
+"vonNeumann": {
+    "prefix": "von",
+    "body": [
+        "von Neumann $0" 
+       ],
+    "description": "godel"
+ }, 
+
 "godel": {
     "prefix": "godel",
     "body": [
