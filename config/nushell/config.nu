@@ -32,8 +32,7 @@ def neo [file?:string] {
 nu -c $"C:/Users/yasha/nvy/build/nvy --fullscreen --neovim-bin=C:/Users/yasha/neovim/build/bin/nvim.exe ($file)"
 }
 def vi [file = ""] {
-$"C:/Users/yasha/nvy/build/nvy --fullscreen
---neovim-bin=C:/Users/yasha/neovim/build/bin/nvim.exe $file"
+C:/Users/yasha/nvy/build/nvy --fullscreen --neovim-bin=C:/Users/yasha/neovim/build/bin/nvim.exe $file
 }
 def p [] {
 let $command = $"Set-Location '($env.PWD)'"
