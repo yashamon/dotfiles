@@ -27,7 +27,6 @@ local ts_config = require("nvim-treesitter.configs")
 ts_config.setup {
 	ensure_installed = {
 			"latex",
-			"nu",
 			"python",
 			"lua"
 	},
@@ -71,7 +70,6 @@ ts_config.setup {
 --   },
 -- })
 
-require'nu'.setup{}
 -- require'nvim-treesitter.configs'.setup {
 -- -- ensure_installed = "all", -- one of "all", "maintained" (parsers with maintainers), or a list of languages
 --   incremental_selection = {
