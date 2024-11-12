@@ -135,48 +135,12 @@ CustomScreenDPI = 0
 
 FileStates [
 	[
-		FilePath = C:\Users\yasha\OneDrive\workspacemodules\thematrix\build\stableincompleteness.pdf
-		Favorites [
-			[
-				Name = c
-				PageNo = 1
-			]
-			[
-				Name = a
-				PageNo = 8
-			]
-			[
-				Name = b
-				PageNo = 11
-			]
-			[
-				Name = a
-				PageNo = 13
-			]
-		]
-		IsPinned = false
-		IsMissing = false
-		OpenCount = 3
-		UseDefaultState = false
-		DisplayMode = continuous
-		ScrollPos = 83.1431 64.5377
-		PageNo = 18
-		Zoom = fit content
-		Rotation = 0
-		WindowState = 2
-		WindowPos = -13 -13 1946 2084
-		ShowToc = false
-		SidebarDx = 364
-		DisplayR2L = false
-		ReparseIdx = 0
-	]
-	[
 		FilePath = C:\Users\yasha\OneDrive\workspacemodules\KtheoryCycles\build\KtheoryCycles.pdf
 		Favorites [
 		]
 		IsPinned = false
 		IsMissing = false
-		OpenCount = 3
+		OpenCount = 1
 		UseDefaultState = false
 		DisplayMode = continuous
 		ScrollPos = 79.8929 64.355
@@ -191,15 +155,47 @@ FileStates [
 		ReparseIdx = 0
 	]
 	[
-		FilePath = C:\Users\yasha\OneDrive\workspacemodules\strictcontact2\build\nonprojectible.pdf
+		FilePath = C:\Users\yasha\OneDrive\workspacemodules\thematrix\build\stableincompleteness.pdf
+		Favorites [
+			[
+				Name = c
+				PageNo = 1
+			]
+			[
+				Name = a
+				PageNo = 3
+			]
+			[
+				Name = a
+				PageNo = 13
+			]
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 7
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = 79.8929 64.355
+		PageNo = 14
+		Zoom = fit content
+		Rotation = 0
+		WindowState = 2
+		WindowPos = -13 -13 1946 2084
+		ShowToc = false
+		SidebarDx = 364
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = C:\Users\yasha\OneDrive\workspacemodules\thematrix\stableincompleteness.pdf
 		Favorites [
 		]
 		IsPinned = false
 		IsMissing = false
-		OpenCount = 3
+		OpenCount = 1
 		UseDefaultState = false
 		DisplayMode = continuous
-		ScrollPos = 82.4587 149.449
+		ScrollPos = 82.717 86.4609
 		PageNo = 1
 		Zoom = fit content
 		Rotation = 0
@@ -211,12 +207,104 @@ FileStates [
 		ReparseIdx = 0
 	]
 	[
+		FilePath = C:\Users\yasha\OneDrive\workspacemodules\GromovFuller\build\GromovFuller.pdf
+		Favorites [
+			[
+				Name = a
+				PageNo = 2
+			]
+			[
+				Name = b
+				PageNo = 4
+			]
+			[
+				Name = a
+				PageNo = 7
+			]
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 4
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = 79.8227 118.183
+		PageNo = 1
+		Zoom = fit content
+		Rotation = 0
+		WindowState = 2
+		WindowPos = -13 -13 1946 2084
+		ShowToc = false
+		SidebarDx = 364
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = C:\Users\yasha\OneDrive\trips\busGuadalajara.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 4
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 13.5503
+		PageNo = 1
+		Zoom = fit content
+		Rotation = 0
+		WindowState = 2
+		WindowPos = -13 -13 1946 2084
+		ShowToc = false
+		SidebarDx = 364
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = C:\Users\yasha\OneDrive\workspacemodules\various\exams\examTopology\build\exam1.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 5
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 682.688
+		PageNo = 3
+		Zoom = 100
+		Rotation = 0
+		WindowState = 2
+		WindowPos = -13 -13 1946 2084
+		ShowToc = true
+		SidebarDx = 364
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = C:\Users\yasha\OneDrive\workspacemodules\strictcontact2\build\nonprojectible.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = 82.4587 149.449
+		PageNo = 1
+		Zoom = fit content
+		Rotation = 0
+		WindowState = 2
+		WindowPos = -13 -13 1446 1124
+		ShowToc = false
+		SidebarDx = 364
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
 		FilePath = C:\Users\yasha\OneDrive\workspacemodules\various\letters\build\movilidadPlan.pdf
 		Favorites [
 		]
 		IsPinned = false
 		IsMissing = false
-		OpenCount = 1
+		OpenCount = 0
 		UseDefaultState = false
 		DisplayMode = continuous
 		ScrollPos = -1 -1
@@ -236,7 +324,7 @@ FileStates [
 		]
 		IsPinned = false
 		IsMissing = false
-		OpenCount = 1
+		OpenCount = 0
 		UseDefaultState = false
 		DisplayMode = continuous
 		ScrollPos = -1 -1
@@ -256,7 +344,7 @@ FileStates [
 		]
 		IsPinned = false
 		IsMissing = false
-		OpenCount = 1
+		OpenCount = 0
 		UseDefaultState = false
 		DisplayMode = continuous
 		ScrollPos = -1 497.063
@@ -276,7 +364,7 @@ FileStates [
 		]
 		IsPinned = false
 		IsMissing = false
-		OpenCount = 1
+		OpenCount = 0
 		UseDefaultState = false
 		DisplayMode = continuous
 		ScrollPos = -1 -1
@@ -345,38 +433,6 @@ FileStates [
 		Rotation = 0
 		WindowState = 2
 		WindowPos = -13 -13 2906 1124
-		ShowToc = false
-		SidebarDx = 364
-		DisplayR2L = false
-		ReparseIdx = 0
-	]
-	[
-		FilePath = C:\Users\yasha\OneDrive\workspacemodules\GromovFuller\build\GromovFuller.pdf
-		Favorites [
-			[
-				Name = a
-				PageNo = 2
-			]
-			[
-				Name = b
-				PageNo = 4
-			]
-			[
-				Name = a
-				PageNo = 7
-			]
-		]
-		IsPinned = false
-		IsMissing = false
-		OpenCount = 0
-		UseDefaultState = false
-		DisplayMode = continuous
-		ScrollPos = 83.7072 64.7284
-		PageNo = 18
-		Zoom = fit content
-		Rotation = 0
-		WindowState = 2
-		WindowPos = -13 -13 1946 2084
 		ShowToc = false
 		SidebarDx = 364
 		DisplayR2L = false
@@ -3411,12 +3467,12 @@ SessionData [
 	[
 		TabStates [
 			[
-				FilePath = C:\Users\yasha\OneDrive\workspacemodules\strictcontact2\build\nonprojectible.pdf
+				FilePath = C:\Users\yasha\OneDrive\workspacemodules\thematrix\build\stableincompleteness.pdf
 				DisplayMode = continuous
-				PageNo = 1
+				PageNo = 14
 				Zoom = fit content
 				Rotation = 0
-				ScrollPos = 82.4587 149.449
+				ScrollPos = 79.8929 64.355
 				ShowToc = false
 			]
 			[
@@ -3428,23 +3484,14 @@ SessionData [
 				ScrollPos = 79.8929 64.355
 				ShowToc = false
 			]
-			[
-				FilePath = C:\Users\yasha\OneDrive\workspacemodules\thematrix\build\stableincompleteness.pdf
-				DisplayMode = continuous
-				PageNo = 18
-				Zoom = fit content
-				Rotation = 0
-				ScrollPos = 83.1431 64.5377
-				ShowToc = false
-			]
 		]
-		TabIndex = 4
+		TabIndex = 3
 		WindowState = 2
 		WindowPos = -13 -13 1946 2084
 		SidebarDx = 364
 	]
 ]
 TimeOfLastUpdateCheck = 0 0
-OpenCountWeek = 719
+OpenCountWeek = 723
 
 # Settings below are not recognized by the current version

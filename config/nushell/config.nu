@@ -11,7 +11,7 @@ $env.VSCMD_ARG_TGT_ARCH = "arm64"
 #let pathstr = ($path | into string)
 $env.Path = $path
 # $env.VIMRUNTIME = "~/neovim/runtime"
-$env.VIMRUNTIME = "C:/Users/yasha/AppData/local/nvim-data/runtime"
+# $env.VIMRUNTIME = "C:/Users/yasha/AppData/local/nvim-data/runtime"
 $env.CMAKE_INSTALL_PREFIX = "C:/Users/yasha/executables"
 $env.SKIA_GN_COMMAND = "C:/Users/yasha/OneDrive/executables/gn-windows-amd64/gn.exe"
 $env.HOMED = $"($env.HOMEPATH)/OneDrive"
@@ -33,7 +33,7 @@ nu -c $"C:/Users/yasha/nvy/build/nvy --fullscreen --neovim-bin=C:/Users/yasha/ne
 }
 def vi [file?= string] {
 nu -c $"C:/Users/yasha/nvy/build/nvy --fullscreen
---neovim-bin=C:/Users/yasha/neovim/build/bin/nvim.exe $file"
+--neovim-bin=C:/Users/yasha/neovim/build/bin/nvim.exe ($file)"
 }
 def p [] {
 let $command = $"Set-Location '($env.PWD)'"

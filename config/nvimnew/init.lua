@@ -106,8 +106,19 @@ end
 {'L3MON4D3/LuaSnip', lazy = true },
 {'saadparwaiz1/cmp_luasnip', lazy = true},
 {'nvim-treesitter/playground', lazy = true},
-{'LhKipp/nvim-nu', dependencies = { "nvim-treesitter/nvim-treesitter", "jose-elias-alvarez/null-ls.nvim", lazy = true}
+{
+    "nvim-treesitter/nvim-treesitter",
+    config = function()
+        -- setup treesitter with config
+    end,
+    dependencies = {
+        -- NOTE: additional parser
+        { "nushell/tree-sitter-nu", build = ":TSUpdate nu" },
+    },
+    build = ":TSUpdate",
 },
+-- {'LhKipp/nvim-nu', dependencies = { "nvim-treesitter/nvim-treesitter", "jose-elias-alvarez/null-ls.nvim", lazy = true}
+-- },
 {'echasnovski/mini.nvim', lazy =true },
 {'lukas-reineke/indent-blankline.nvim', event = { "BufRead", "BufNewFile" }},
 {'folke/which-key.nvim', lazy = true},
