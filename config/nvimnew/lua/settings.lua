@@ -20,7 +20,7 @@
 -- 			additional_vim_regex_highlighting = true },
 --       indent = { enable = true },  
 --         })
---     end
+--     
 --  }})
 -- API usage example:
 local neophyte = require('neophyte')
@@ -66,7 +66,7 @@ neophyte.setup({
 })
 
 -- Alternatively, the guifont option is supported:
-vim.opt.guifont = 'Cascadia Code PL:w10, Symbols Nerd Font, Noto Color Emoji'
+-- vim.opt.guifont = 'Cascadia Code PL:w10, Symbols Nerd Font, Noto Color Emoji'
 
 -- There are also freestanding functions to set these options as desired:
 
