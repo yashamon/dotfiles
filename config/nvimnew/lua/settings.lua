@@ -38,24 +38,13 @@ neophyte.setup({
         'ss02',
       },
     },
-    -- Fallback fonts
-    {
-      name = 'Monaspace Argon Var',
-      -- Variable font axes
-      variations = {
-        {
-          name = 'slnt',
-          value = -11,
-        },
-      },
-    },
     -- Shorthand for no features or variations
     'Symbols Nerd Font',
     'Noto Color Emoji',
   },
   font_size = {
     kind = 'width', -- 'width' | 'height'
-    size = 10,
+    size = 20,
   },
   -- Multipliers of the base animation speed.
   -- To disable animations, set these to large values like 1000.
@@ -92,11 +81,6 @@ vim.keymap.set('n', '<c-->', function()
 end)
 
 -- Use cmd-ctrl-f to toggle fullsreen on MacOS
-if this_os:find('Darwin') then
-  vim.keymap.set('n', '<DC-f>', function()
-    neophyte.set_fullscreen(not neophyte.get_fullscreen())
-  end)
-end
 
 -- Neophyte can also record frames to a PNG sequence.
 -- You can convert to a video with ffmpeg:
