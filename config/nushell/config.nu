@@ -23,7 +23,7 @@ def run [command: string] {do --ignore-errors { $command }
 }
 def restorelink [] {
 do --ignore-errors {rm link.bib}
-pwsh -nop -c New-Item -ItemType SymbolicLink -Path ./link.bib -Target C:/Users/yasha/onedrive/dotfiles/link.bib}
+pwsh -nop -c New-Item -ItemType SymbolicLink -Path ./link.bib -Target C:/Users/yasha/onedrive/workspacemodules/bib/link.bib}
 
 def uploadGit [name:string] { let key = (keyGH)
 nu $"($HOMED)/dotfiles/scripts/uploadGit.nu" $name (keyGH) }
