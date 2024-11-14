@@ -19,65 +19,66 @@
 -- 			use_languagetree = true,
 -- 			additional_vim_regex_highlighting = true },
 --       indent = { enable = true },  
---     
+--         })
+--     end
 --  }})
 -- API usage example:
-local neophyte = require('neophyte')
-neophyte.setup({
-  fonts = {
-    {
-      name = 'Cascadia Code PL',
-      features = {
-        {
-          name = 'calt',
-          value = 1,
-        },
-        -- Shorthand to set a feature to 1
-        'ss01',
-        'ss02',
-      },
-    },
-    -- Shorthand for no features or variations
-    'Symbols Nerd Font',
-    'Noto Color Emoji',
-  },
-  font_size = {
-    kind = 'width', -- 'width' | 'height'
-    size = 20,
-  },
-  -- Multipliers of the base animation speed.
-  -- To disable animations, set these to large values like 1000.
-  cursor_speed = 2,
-  scroll_speed = 2,
-  -- Increase or decrease the distance from the baseline for underlines.
-  underline_offset = 1,
-  -- For transparent window effects, use this to set the default background color.
-  -- This is because most colorschemes in transparent mode unset the background,
-  -- which normally defaults to the terminal background, but we don't have that here.
-  -- You must also pass --transparent as a command-line argument to see the effect.
-  -- Channel values are in the range 0-255.
-  bg_override = {
-    r = 48,
-    g = 52,
-    b = 70,
-    a = 128,
-  },
-})
-
--- Alternatively, the guifont option is supported:
--- vim.opt.guifont = 'Cascadia Code PL:w10, Symbols Nerd Font, Noto Color Emoji'
-
--- There are also freestanding functions to set these options as desired:
-
--- Increase font size
-vim.keymap.set('n', '<c-+>', function()
-  neophyte.set_font_width(neophyte.get_font_width() + 1)
-end)
-
--- Decrease font size
-vim.keymap.set('n', '<c-->', function()
-  neophyte.set_font_width(neophyte.get_font_width() - 1)
-end)
+-- local neophyte = require('neophyte')
+-- neophyte.setup({
+--   fonts = {
+--     {
+--       name = 'Cascadia Code PL',
+--       features = {
+--         {
+--           name = 'calt',
+--           value = 1,
+--         },
+--         -- Shorthand to set a feature to 1
+--         'ss01',
+--         'ss02',
+--       },
+--     },
+--     -- Shorthand for no features or variations
+--     'Symbols Nerd Font',
+--     'Noto Color Emoji',
+--   },
+--   font_size = {
+--     kind = 'width', -- 'width' | 'height'
+--     size = 20,
+--   },
+--   -- Multipliers of the base animation speed.
+--   -- To disable animations, set these to large values like 1000.
+--   cursor_speed = 2,
+--   scroll_speed = 2,
+--   -- Increase or decrease the distance from the baseline for underlines.
+--   underline_offset = 1,
+--   -- For transparent window effects, use this to set the default background color.
+--   -- This is because most colorschemes in transparent mode unset the background,
+--   -- which normally defaults to the terminal background, but we don't have that here.
+--   -- You must also pass --transparent as a command-line argument to see the effect.
+--   -- Channel values are in the range 0-255.
+--   bg_override = {
+--     r = 48,
+--     g = 52,
+--     b = 70,
+--     a = 128,
+--   },
+-- })
+--
+-- -- Alternatively, the guifont option is supported:
+-- -- vim.opt.guifont = 'Cascadia Code PL:w10, Symbols Nerd Font, Noto Color Emoji'
+--
+-- -- There are also freestanding functions to set these options as desired:
+--
+-- -- Increase font size
+-- vim.keymap.set('n', '<c-+>', function()
+--   neophyte.set_font_width(neophyte.get_font_width() + 1)
+-- end)
+--
+-- -- Decrease font size
+-- vim.keymap.set('n', '<c-->', function()
+--   neophyte.set_font_width(neophyte.get_font_width() - 1)
+-- end)
 
 -- Use cmd-ctrl-f to toggle fullsreen on MacOS
 
@@ -88,8 +89,8 @@ end)
 -- -pix_fmt yuv420p -c:v libx264 -vf
 -- "colorspace=all=bt709:iprimaries=bt709:itrc=srgb:ispace=bt709:range=tv:irange=pc"
 -- -color_range 1 -colorspace 1 -color_primaries 1 -crf 23 -y /my/output/video.mp4
-neophyte.start_render('/directory/to/output/frames/')
-neophyte.end_render()
+-- neophyte.start_render('/directory/to/output/frames/')
+-- neophyte.end_render()
 -- { 'stonelasley/flare.nvim' },
 -- {
 --   "folke/flash.nvim",
