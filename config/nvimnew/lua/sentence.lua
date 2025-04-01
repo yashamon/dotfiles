@@ -1,8 +1,8 @@
 -- 1. 2
 -- 3. 4
 GetFilename = function(path)
-    local start, finish = path:find('[%w%s!-={-|]+[_%.].+')
-    return path:sub(start,#path)
+	local start, finish = path:find('[%w%s!-={-|]+[_%.].+')
+	return path:sub(start, #path)
 end
 WriteSentence = function()
 	local filenameshort = vim.fn.bufname()

@@ -14,7 +14,8 @@ opt.termguicolors = true
 opt.spelllang = 'en_us'
 opt.clipboard = 'unnamedplus'
 opt.wrap = true
-opt.indentexpr = ''
+-- opt.indentexpr = 'nvim_treesitter#foldexpr()'
+opt.breakindent = true
 opt.title = true
 opt.cmdheight = 0
 opt.signcolumn = 'yes'
@@ -73,6 +74,7 @@ vim.cmd [[let g:fzf_layout = { 'window': { 'width': 1, 'height': 1 } }
 ]]
 vim.cmd [[let $FZF_DEFAULT_OPTS = '--bind ctrl-a:select-all'
 ]]
+vim.cmd [[syntax off]]
 --neovide
 -- vim.cmd [[let g:neovide_profiler = v:true]]
 g.neovide_fullscreen = true
@@ -97,4 +99,5 @@ opt.spell = true
 vim.api.nvim_set_hl(0, 'SpellBad', { sp = '#580058', underline = true })
 vim.api.nvim_set_hl(0, 'IndentBlanklineChar', { fg = '#af6000', nocombine = true })
 vim.api.nvim_set_hl(0, 'cursor', { fg = 'black', bg = 'white' })
+vim.opt.syntax = 'off'
 

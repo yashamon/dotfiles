@@ -191,43 +191,43 @@ end
 --
 -- opts can also specify a key. By passing an unique key to each add_snippets, it's possible to reload snippets by
 -- re-`:luafile`ing the file in which they are defined (eg. this one).
-ls.add_snippets("java", {
-	-- Very long example for a java class.
-	s("fn", {
-		d(6, jdocsnip, { 2, 4, 5 }),
-		t({ "", "" }),
-		c(1, {
-			t("public "),
-			t("private "),
-		}),
-		c(2, {
-			t("void"),
-			t("String"),
-			t("char"),
-			t("int"),
-			t("double"),
-			t("boolean"),
-			i(nil, ""),
-		}),
-		t(" "),
-		i(3, "myFunc"),
-		t("("),
-		i(4),
-		t(")"),
-		c(5, {
-			t(""),
-			sn(nil, {
-				t({ "", " throws " }),
-				i(1),
-			}),
-		}),
-		t({ " {", "\t" }),
-		i(0),
-		t({ "", "}" }),
-	}),
-}, {
-	key = "java",
-})
+-- ls.add_snippets("java", {
+-- 	-- Very long example for a java class.
+-- 	s("fn", {
+-- 		d(6, jdocsnip, { 2, 4, 5 }),
+-- 		t({ "", "" }),
+-- 		c(1, {
+-- 			t("public "),
+-- 			t("private "),
+-- 		}),
+-- 		c(2, {
+-- 			t("void"),
+-- 			t("String"),
+-- 			t("char"),
+-- 			t("int"),
+-- 			t("double"),
+-- 			t("boolean"),
+-- 			i(nil, ""),
+-- 		}),
+-- 		t(" "),
+-- 		i(3, "myFunc"),
+-- 		t("("),
+-- 		i(4),
+-- 		t(")"),
+-- 		c(5, {
+-- 			t(""),
+-- 			sn(nil, {
+-- 				t({ "", " throws " }),
+-- 				i(1),
+-- 			}),
+-- 		}),
+-- 		t({ " {", "\t" }),
+-- 		i(0),
+-- 		t({ "", "}" }),
+-- 	}),
+-- }, {
+-- 	key = "java",
+-- })
 
 ls.add_snippets("tex", {
 	-- rec_ls is self-referencing. That makes this snippet 'infinite' eg. have as many
@@ -343,107 +343,162 @@ function Is_math()
 end
 -- ls.add_snippets = {
 --   tex = {
---     s("neqq", {
+--     s("neq", {
 --       t("\\neq"),
 --       i(0),
---     }, {condition = is_math}),
+--     }, {condition = Is_math}),
 --   },
 -- }
+-- ls.add_snippets = {
+--   tex = {
+--     s("del", {
+--       t("\\delta"),
+--       i(0),
+--     }, {condition = Is_math}),
+--   },
+-- }
+
+ls.add_snippets("tex", {
+	s("t", {
+		t({"\\times"}),
+		i("1",""),
+	}, {condition = Is_math}),
+})
+ls.add_snippets("tex", {
+	s("test", {
+		t({"\\footnote{"}), i(1, ""), t({"}"}),
+	}, { condition = not Is_math }),
+})
+
+
 --  
 -- latex snippets
+-- "Equation": {
+--     "prefix": ["leq"],
+--     "body": [
+--       "\\begin{equation*}",
+--       "$1",
+--       "\\end{equation*}",
+--       "$0",
+-- 			""
+--     ],
+--     "description": "Add a Equation"
+--   },
+-- "EquationNumbered": {
+--     "prefix": ["lateqn", "lateqnum"],
+--     "body": [
+--       "\\begin{equation} \\label{eq_$1}",
+--             "$2", 
+--       "\\end{equation}",
+--       "$0", 
+-- 			""
+--       ],
+--     "description": "Add a Equation"
+--   }, 
+-- ls.add_snippets("tex", {
+-- 	s("lateq", {
+-- 		t({"\\begin{equation}"}),
+-- 		t({""}, {""}), i("1",""),
+-- 	  t({"\\end{equation}"}),
+-- })
+ls.add_snippets("tex", {
+	s("lateq", {
+		t({"\\begin{equation*}"}),
+		t({"", "  "}), i(1,""),
+		t({"","\\end{equation*}"}),
+		t({"", "%."}), i(2,""),
+}),
+})
+ls.add_snippets("tex", {
+	s("lateqn", {
+		t({"\\begin{equation}"}), t({"\\label{eq_"}), i(1,""), t({"}"}),
+		t({"", "  "}), i(2,""),
+		t({"","\\end{equation}"}),
+		t({"", "%."}), i(3,""),
+}),
+})
+
 ls.add_snippets("tex", {
 	s("sqrt", {
 		t({"\\sqrt"}),
 		i("1",""),
-	}, { condition = Is_math }),
+	}),
 })
 
 ls.add_snippets("tex", {
 	s("rho", {
 		t({"\\rho"}),
 		i("1",""),
-	}, { condition = Is_math }),
+	}),
 })
 
 ls.add_snippets("tex", {
 	s("Th", {
 		t({"\\Theta"}),
 		i("1",""),
-	}, { condition = Is_math }),
+	}),
 })
 
 ls.add_snippets("tex", {
 	s("th", {
 		t({"\\theta"}),
 		i("1",""),
-	}, { condition = Is_math }),
+	}),
 })
 
 ls.add_snippets("tex", {
 	s("g", {
 		t({"\\gamma"}),
 		i("1",""),
-	}, { condition = Is_math }),
+	}),
 })
 
 ls.add_snippets("tex", {
 	s("G", {
 		t({"\\Gamma"}),
 		i("1",""),
-	}, { condition = Is_math }),
+	}),
 })
 
 ls.add_snippets("tex", {
 	s("D", {
 		t({"\\Delta"}),
 		i("1",""),
-	}, { condition = Is_math }),
+	}),
 })
 
 ls.add_snippets("tex", {
 	s("im", {
 		t({"\\image"}),
 		i("1",""),
-	}, { condition = Is_math }),
+	}),
 })
 
-ls.add_snippets("tex", {
-	s("t", {
-		t({"\\times"}),
-		i("1",""),
-	}, { condition = Is_math }),
-})
 
-ls.add_snippets("tex", {
-	s("neq", {
-		t({"\\neq"}),
-		i("1",""),
-	}, { condition = Is_math }),
-})
 ls.add_snippets("tex", {
 	s("equiv", {
-		t({"\\simu"}),
+		t({"\\sim"}),
 		i("1",""),
-	}, { condition = Is_math }),
+	}),
 })
 ls.add_snippets("tex", {
 	s("sp", {
 		t({"\\;"}),
 		i("1",""),
-	}, { condition = Is_math }),
+	}),
 })
 
 ls.add_snippets("tex", {
 	s("equiv", {
 		t({"\\sim"}),
 		i("1",""),
-	}, { condition = Is_math }),
+	}),
 })
 ls.add_snippets("tex", {
 	s("isom", {
 		t({"\\simeq"}),
 		i("1",""),
-	}, { condition = Is_math }),
+	}),
 })
 ls.add_snippets("tex", {
 	s("footnote", {
@@ -456,7 +511,7 @@ ls.add_snippets("tex", {
 	s("Ainf", {
 		t({"A _{\\infty}"}),
 		i("1",""),
-	}, { condition = Is_math }),
+	}),
 })
 
 ls.add_snippets(nil, {
@@ -595,6 +650,9 @@ t({"","\\DeclareMathOperator{\\id}{\\mathrm{1}}"}),
 t({"","\\DeclareMathOperator{\\lcs}{lcs}"}),
 t({"","\\DeclareMathOperator{\\lcsm}{lcsm}"}),
 t({"","\\DeclareMathOperator{\\coker}{coker}"}),
+t({"", "\\DeclareMathOperator{\\D}{\\Delta}"}),
+t({"", "\\DeclareMathOperator{\\obj}{obj}"}),
+t({"","\\DeclareMathOperator{\\colim}{colim}"}),
 t({"","\\begin{document}"}),
 t({"","\\title{"}), i(1, ""), t({"}"}),
 t({"","\\author{Yasha Savelyev}"}),

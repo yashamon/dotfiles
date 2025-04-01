@@ -48,7 +48,8 @@ rm $"($HOME)/AppData/Local/nvim-data/swap/*"
 def n [] {
 neo
 }
-
+def branchlist [] {git branch --sort=-committerdate  # DESC
+}
 def nf [] {
 let $ho = (fd . $HOMED -H -E /.undo/* -E /undo/* -E /tmp/* -E *.pdf | fzf | str trim)
 # neovide --multigrid $ho 
@@ -85,7 +86,7 @@ def pushgh [] { cd $"($HOMED)/web" ; pandoc index.md -o index.html ; git add . ;
 # def init [dir:string] {mkdir $dir ; cd $dir ; git init ; git branch -M master; git commit -m "fist commit"
 # } 
 
-def hw [] { do -i {pandoc $"($HOMED)/web/classes/algtop/2024.tex" -o $"($HOMED)/web/classes/algtop/2024.html" ;  pandoc $"($HOMED)/web/classes/topology/2024.tex" -o $"($HOMED)/web/classes/topology/2024.html"}; cd $"($HOMED)/web"; do --ignore-errors {git add .}; do --ignore-errors {git commit -m -a}; do --ignore-errors {git push origin gh-pages:gh-pages} 
+def hw [] { do -i {pandoc $"($HOMED)/web/classes/Spivak/2025.tex" -o $"($HOMED)/web/classes/Spivak/2025.html" ;  pandoc $"($HOMED)/web/classes/symplectic/2025.tex" -o $"($HOMED)/web/classes/symplectic/2025.html"}; cd $"($HOMED)/web"; do --ignore-errors {git add .}; do --ignore-errors {git commit -m -a}; do --ignore-errors {git push origin gh-pages:gh-pages} 
 } 
 
 # alias config = ( cd $"($HOMED)/dotfiles"; push; cd $"($HOMED)/workspacemodules"; pushmod; cd $"($HOMED)/workspace"; push; cd web pushgh; pacman -Qqe > $"($HOMED)/dotfiles/pkglist.txt" )
@@ -508,13 +509,7 @@ $env.config = {
       completer: null # check 'carapace_completer' above as an example
     }
   }
-  filesize: {
-    metric: true # true => KB, MB, GB (ISO standard), false => KiB, MiB, GiB (Windows standard)
-    format: "auto" # b, kb, kib, mb, mib, gb, gib, tb, tib, pb, pib, eb, eib, zb, zib, auto
-  }
-  color_config: $light_theme   # if you want a light theme, replace `$dark_theme` to `$light_theme`
-  footer_mode: "auto" # always, never, number_of_rows, auto
-  float_precision: 2
+   color_config: $light_theme   # if you want a light theme, replace `$dark_theme` to `$light_theme`
   buffer_editor: "nvim" # command that will be used to edit the current line buffer with ctrl+o, if unset fallback to $env.EDITOR and $env.VISUAL
   use_ansi_coloring: true
   edit_mode: vi # emacs, vi
@@ -797,6 +792,7 @@ $env.config = {
         ]
       }
 }
+		
 
     {
       name: yank

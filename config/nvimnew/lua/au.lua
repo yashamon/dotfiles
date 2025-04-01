@@ -16,13 +16,8 @@ local opt = vim.opt
 --       pattern = "*",
 --     }
 -- )
-vim.api.nvim_create_autocmd("VimLeavePre", {
-  callback = function()
-    -- Always save a special session named "last"
-    resession.save("last")
-  end,
-})
 autocmd('FocusLost', { pattern = '*', command = 'silent! wa' })
+-- autocmd('CursorMoved', { pattern = '*', command = 'lua require'vim.highlight'.on_yank()' })
 autocmd('VIMEnter',  { pattern = '*', command = 'let g:buffmain=bufname()' })
 autocmd('FileType', { pattern = 'tex', command = 'lua vim.opt.iskeyword:append{":"}'})
 autocmd('FileType', { pattern = 'tex,text,md', command = 'lua vim.opt.tw=60'})
@@ -36,12 +31,12 @@ au('BufWritePost', { callback = function() GitAsync() GitAsync() end })
 -- au({'Filetype', 'BufReadPost'}, { pattern = 'text,lua,vim,nu,py', callback = LoadLine } )
 au('UIEnter', { pattern = 'tex,lua,vim', command = 'silent! w' })
 au('Filetype', { pattern = 'tex', command = 'vmap q xi<CR><CR><CR><CR><ESC>kki/begin{comment}<cr><cr>/end{comment}<esc>kp'})
--- local yankGrp = ag("YankHighlight", { clear = true })
--- au("TextYankPost", {
---   command = "silent! lua vim.highlight.on_yank()",
---   group = yankGrp,
--- })
--- au('TextYankPost',  {command =  'silent! call neoyank#_append()'} )
+local yankGrp = ag("YankHighlight", { clear = true })
+au("TextYankPost", {
+  command = "silent! lua vim.highlight.on_yank()",
+  group = yankGrp,
+})
+au('TextYankPost',  {command =  'silent! call neoyank#_append()'} )
 
 au('TermClose', {command = "if v:event.status ==1 || v:event.status ==0  | exe 'bdelete! '..expand('<abuf>') | endif"})
 au('BufLeave', { command = "lua if vim.api.nvim_buf_get_option(0, 'buftype') == 'terminal' then vim.cmd('exe \"bdelete!\"') end" })

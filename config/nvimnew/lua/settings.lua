@@ -1,8 +1,7 @@
 -- vim.opt.listchars:append "eol:↴"
 -- To get telescope-file-browser loaded and working with telescope,
 -- you need to call load_extension, somewhere after setup function:
--- require("indent_blankline").setup {
-    -- show_end_of_line = true,
+	    -- show_end_of_line = true,
 -- }
 
 -- require("lazy").setup({{
@@ -106,8 +105,19 @@
 --     { "<c-s>", mode = { "c" }, function() require("flash").toggle() end, desc = "Toggle Flash Search" },
 --   },
 -- },
+vim.diagnostic.config({
+  -- Use the default configuration
+  virtual_lines = true
 
-local ts_config = require("nvim-treesitter.configs") 
+  -- Alternatively, customize specific options
+  -- virtual_lines = {
+  --  -- Only show virtual line diagnostics for the current cursor line
+  --  current_line = true,
+  -- },
+})
+
+
+local ts_config = require("nvim-treesitter.configs")
 ts_config.setup {
 	ensure_installed = {
 			"latex",
@@ -125,7 +135,7 @@ ts_config.setup {
 		node_incremental = '<TAB>',
 		node_decremental = '<S-TAB>',
 	},
-	indent = {enable = false},
+	indent = {enable = true},
 	-- playground = {
 	--     enable = true,
 	--     disable = {},
@@ -171,7 +181,37 @@ ts_config.setup {
 --     -- Instead of true it can also be a list of languages
 --     additional_vim_regex_highlighting = false,
 --   },
--- }
+vim.api.nvim_set_hl(0, 'Beacon', { bg = 'white' })
+local function has_value (tab, val)
+    for index, value in ipairs(tab) do
+        if value == val then
+            return true
+        end
+    end
+
+    return false
+end
+vim.api.nvim_create_autocmd("VimEnter", {
+		callback = function()
+		    local resession = require("resession")
+-- Only load the session if nvim was started with no args
+		if has_value(resession.list(), "last") then
+			if vim.fn.argc(-1) == 0 then
+					resession.load("last", { silence_errors = true })
+			end
+				resession.delete("last", { silence_errors = true })
+				-- Open the last session if it exists
+		end
+    end,
+		nested = true,
+	})
+vim.api.nvim_create_autocmd("VimLeavePre", {
+		callback = function()
+			local resession = require("resession")
+			-- Always save a special session named "last"
+			resession.save("last", { notify = false })
+		end,
+	})
 require("resession").setup({
   -- Options for automatically saving sessions on a timer
 -- Resession does NOTHING automagically, so we have to set up some keymaps
@@ -305,7 +345,7 @@ special_keys = {
   equivalence_classes =
   {
       {" ","\r", "\n"},
-			{'\'','"', ':', '=', '#', '&', '%','^', '_', '<', '>', '?', '|', '!', '*', '+', '-', '`', '/', '\\', ',', '.', ';', ']', '[', '}', '{', ')', '(', '$', '.', '~'}
+			{'\'','"', ':', '=', '#', '&', '%','^', '_', '<', '>', '?', '|', '!', '*', '+', '-', '`', '/', '\\', ',', '.', ';', ']', '[', '}', '{', ')', '(', '$', '.', '~', ','}
 	}
 -- {'\'','"', ':', '=', '#', '&', '%','^', '_', '<', '>', '?', '|', '!', '*', '+', '-', '`', '/', '\\', ',', '.', ';', ']', '[', '}', '{', ')', '(', '$'}
   -- Leaving the] $appropriate list emapty effectively disables "smart" mode,
@@ -473,6 +513,11 @@ undercurl = true,
         DiagnosticSignHint = { bg = "#ffa546" },
         texType = { fg = "#808080" },
         texMath = { fg = "#650000" },
+				texCmdEnv = {fg = "darkblue" },
+				texRefArg = {fg = "darkgreen" },
+				texDelim = {fg = "darkgreen" },
+				texMathSymbol = { fg = "darkblue" },
+				texMathZoneTI = { fg = "#650000" },
         TexSpecial = { fg = "#af6000" },
         texDelimiter = { fg = "#af6000" },
         texStatement = { fg = "#580058" },
@@ -482,6 +527,7 @@ undercurl = true,
 				Special = { fg = '#580058' },
         -- Operator = { fg = "#808080" },
         Type = { fg = "#008800" },
+		    Search = { fg = "black" },
         Comment = { fg = "#af6000" },
         String = { fg = "#580058" },
         Operator = { fg = "#580058" },
@@ -489,13 +535,20 @@ undercurl = true,
 				-- Pmenu = { bg = "#ffa546", fg = "white" },
 				texTypeStyle = { fg = "#427b58" },
 		["@namespace"] = { fg = "#580058" },
+		["@module.latex"] = { fg = "darkblue" },
+		["@markup.link.latex"] = { fg = "darkgreen" },
+		["@label.latex"] = { fg = "darkgreen" },
+		["@markup.heading.4.latex"] = { fg = "darkgreen" },
 		["@text.math"] = { fg = "darkgreen" },
+		["@text.math.marker"] = { fg = "orange" },
+		["@markup.math.latex"] = { fg = "#650000" },
 		["@function"] = { fg = "#650000" },
+		["@function.latex"] = { fg = "darkblue" },
 		["@text.title"] = { fg = "darkblue" },
 		["@text.environment"] = { fg = "#580058" },
 		["@text.environment.name"] = { fg = "#00008b" },
 		["@function.macro"] = { fg = "grey" },
-		["@punctuation.bracket"] = { fg = "darkred" },
+		["@punctuation.bracket"] = { fg = "green" },
 		["@parameter"] = { fg = "darkblue" },
 		["@text.reference"] = { fg = "grey" },
 		["@include"] = { fg = "grey" },

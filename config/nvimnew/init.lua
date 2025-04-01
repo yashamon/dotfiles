@@ -45,6 +45,20 @@ require("lazy").setup({
 --     -- Same as neophyte.setup({ ... })
 --   },
 -- },
+-- { 'danilamihailov/beacon.nvim', 
+--   enabled = true, --- (boolean | fun():boolean) check if enabled
+--   speed = 2, --- integer speed at wich animation goes
+--   width = 40, --- integer width of the beacon window
+--   winblend = 70, --- integer starting transparency of beacon window :h winblend
+--   fps = 120, --- integer how smooth the animation going to be
+--   min_jump = 0, --- integer what is considered a jump. Number of lines
+--   cursor_events = { 'CursorMoved' }, -- table<string> what events trigger check for cursor moves
+--   window_events = { 'WinEnter', 'FocusGained' }, -- table<string> what events trigger cursor highlight
+--   highlight = { bg = 'white', ctermbg = 15 }, -- vim.api.keyset.highlight table passed to vim.api.nvim_set_hl
+-- },
+
+{"nvim-treesitter/nvim-treesitter-textobjects",
+  dependencies = "nvim-treesitter/nvim-treesitter"},
 { "karb94/neoscroll.nvim",
 config = function ()
 neoscroll = require('neoscroll')
@@ -120,7 +134,7 @@ end
 {'folke/todo-comments.nvim', lazy = true},
 {'L3MON4D3/LuaSnip', lazy = true },
 {'saadparwaiz1/cmp_luasnip', lazy = true},
-{'nvim-treesitter/playground', lazy = true},
+{'nvim-treesitter/playground', lazy = false},
 {
     "nvim-treesitter/nvim-treesitter",
     config = function()
@@ -211,12 +225,15 @@ require("luasnip.loaders.from_lua").load({
 })
 					-- end
 -- vim.lsp.inlay_hint.enable(not vim.lsp.inlay_hint.is_enabled())
-require 'nvim-treesitter.install'.compilers = { 'clang' }
+require 'nvim-treesitter.install'.compilers = { 'cl', 'clang' }
 require('settings')
 require('functions')
 require('set')
 require('au')
 require('keymaps')
+
+
+
 -- require('mini.indentscope').setup()
 -- require('mini.trailspace').setup()
 -- require('mini.pairs').setup()
