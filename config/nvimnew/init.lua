@@ -217,6 +217,12 @@ require('functions')
 require('set')
 require('au')
 require('keymaps')
+vim.lsp.enable({
+  -- lua
+  "luals",
+  "ltex",
+	"nu-lsp",
+})
 -- require('mini.indentscope').setup()
 -- require('mini.trailspace').setup()
 -- require('mini.pairs').setup()
