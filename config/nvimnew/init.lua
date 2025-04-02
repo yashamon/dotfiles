@@ -181,7 +181,7 @@ lazy = false, priority = 1000,
 config = function()
 vim.cmd([[colorscheme gruvbox]])
 end,},
-{'Shougo/neoyank.vim', dependencies = 'Shougo/denite.nvim'},
+-- {'Shougo/neoyank.vim', dependencies = 'Shougo/denite.nvim'},
 {'junegunn/fzf', lazy = false, build = ":call fzf#install()" },
 {'junegunn/fzf.vim', lazy = true},
 {'mbbill/undotree', cmd = "UndotreeToggle"},
