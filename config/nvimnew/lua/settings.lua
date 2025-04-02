@@ -369,14 +369,13 @@ undercurl = true,
 -- require('snippets')
 require("mason").setup()
 require("mason-lspconfig").setup()
-require("lspconfig")
 -- -- LSP config
--- local lspconfig = require("lspconfig")
+local lspconfig = require("lspconfig")
 -- -- lspconfig.tsserver.setup {  LspAttach  = on_attach }
 -- lspconfig.lua_ls.setup {  LspAttach  = on_attach }
--- lspconfig.jsonls.setup {  LspAttach  = on_attach }
+lspconfig.jsonls.setup {  LspAttach  = on_attach }
 lspconfig.biome.setup {  LspAttach  = on_attach }
--- lspconfig.vimls.setup {  LspAttach  = on_attach }
+lspconfig.vimls.setup {  LspAttach  = on_attach }
 -- lspconfig.ltex.setup { autostart = false; LspAttach = on_attach }
 -- lspconfig.texlab.setup {  LspAttach  = on_attach }
 -- -- lspconfig stuff    
