@@ -209,9 +209,15 @@ require("luasnip.loaders.from_lua").load({
                     libuv = true,
                 },
 })
-					-- end
 vim.diagnostic.config({
-  virtual_text = { current_line = true }
+  -- Use the default configuration
+  virtual_lines = true
+
+  -- Alternatively, customize specific options
+  -- virtual_lines = {
+  --  -- Only show virtual line diagnostics for the current cursor line
+  --  current_line = true,
+  -- },
 })
 require 'nvim-treesitter.install'.compilers = { 'clang' }
 require('settings')
@@ -222,7 +228,7 @@ require('keymaps')
 vim.lsp.enable({
   -- lua
   "luals",
-	"texlab",
+	-- "texlab",
 	-- "nuls",
 	-- "jsonls"
 })
