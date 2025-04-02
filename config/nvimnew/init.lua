@@ -222,6 +222,7 @@ vim.lsp.enable({
   "luals",
   "ltex",
 	"nu-lsp",
+	"jsonls"
 })
 -- require('mini.indentscope').setup()
 -- require('mini.trailspace').setup()
