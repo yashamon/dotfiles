@@ -368,8 +368,8 @@ undercurl = true,
 -- nvim LSP
 -- require('snippets')
 require("mason").setup()
-require("mason-lspconfig").setup()
-require("lspconfig")
+-- require("mason-lspconfig").setup()
+-- require("lspconfig")
 -- -- LSP config
 -- local lspconfig = require("lspconfig")
 -- -- lspconfig.tsserver.setup {  LspAttach  = on_attach }

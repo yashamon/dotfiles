@@ -221,7 +221,7 @@ vim.lsp.enable({
   -- lua
   "luals",
 	"texlab",
-	"nu-lsp",
+	"nuls",
 	"jsonls"
 })
 -- require('mini.indentscope').setup()
