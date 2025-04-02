@@ -210,7 +210,9 @@ require("luasnip.loaders.from_lua").load({
                 },
 })
 					-- end
--- vim.lsp.inlay_hint.enable(not vim.lsp.inlay_hint.is_enabled())
+vim.diagnostic.config({
+  virtual_text = { current_line = true }
+})
 require 'nvim-treesitter.install'.compilers = { 'clang' }
 require('settings')
 require('functions')
