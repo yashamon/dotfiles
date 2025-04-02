@@ -220,7 +220,6 @@ require('keymaps')
 vim.lsp.enable({
   -- lua
   "luals",
-  "ltex",
 	"texlab",
 	"nu-lsp",
 	"jsonls"
