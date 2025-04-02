@@ -223,8 +223,8 @@ vim.lsp.enable({
   -- lua
   "luals",
 	"texlab",
-	"nuls",
-	"jsonls"
+	-- "nuls",
+	-- "jsonls"
 })
 -- require('mini.indentscope').setup()
 -- require('mini.trailspace').setup()

@@ -1,4 +1,4 @@
 return {
-  cmd = { "vscode-json-language-server.cmd" },
+  cmd = { "biome.cmd" },
   filetypes = { "json"}
 }
