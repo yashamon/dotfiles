@@ -377,7 +377,7 @@ lspconfig.jsonls.setup {  LspAttach  = on_attach }
 -- lspconfig.biome.setup {  LspAttach  = on_attach }
 lspconfig.vimls.setup {  LspAttach  = on_attach }
 -- lspconfig.ltex.setup { autostart = false; LspAttach = on_attach }
--- lspconfig.texlab.setup {  LspAttach  = on_attach }
+lspconfig.texlab.setup {  LspAttach  = on_attach }
 -- -- lspconfig stuff    
 -- -- local nvim_lsp = require('lspconfig')
 -- -- Use an on_attach function to only map the following keys
