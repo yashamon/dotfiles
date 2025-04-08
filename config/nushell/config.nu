@@ -8,7 +8,7 @@ $env.CARGO_HOME = "C:/Users/yasha/scoop/apps/rustup/current/.cargo"
 $env.XDG_CONFIG_HOME = "C:/Users/yasha/AppData/local"
 $env.XDG_CONFIG_HOME = "C:/Users/yasha/AppData/local"
 $env.VSCMD_ARG_TGT_ARCH = "arm64"
-$env.BIBINPUTS = "arm64"
+$env.BIBINPUTS = "C:/Users/yasha/OneDrive/workspacemodules/bib/link.bib"
 
 #let pathstr = ($path | into string)
 $env.Path = $path
