@@ -8,6 +8,8 @@ $env.CARGO_HOME = "C:/Users/yasha/scoop/apps/rustup/current/.cargo"
 $env.XDG_CONFIG_HOME = "C:/Users/yasha/AppData/local"
 $env.XDG_CONFIG_HOME = "C:/Users/yasha/AppData/local"
 $env.VSCMD_ARG_TGT_ARCH = "arm64"
+$env.BIBINPUTS = "arm64"
+
 #let pathstr = ($path | into string)
 $env.Path = $path
 # $env.VIMRUNTIME = "~/neovim/runtime"
@@ -507,10 +509,6 @@ $env.config = {
       max_results: 100 # setting it lower can improve completion performance at the cost of omitting some options
       completer: null # check 'carapace_completer' above as an example
     }
-  }
-  filesize: {
-    metric: true # true => KB, MB, GB (ISO standard), false => KiB, MiB, GiB (Windows standard)
-    format: "auto" # b, kb, kib, mb, mib, gb, gib, tb, tib, pb, pib, eb, eib, zb, zib, auto
   }
   color_config: $light_theme   # if you want a light theme, replace `$dark_theme` to `$light_theme`
   footer_mode: "auto" # always, never, number_of_rows, auto
