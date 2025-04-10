@@ -1,1 +1,1 @@
-git rm config/nushell/history.txt -f
+rm config/nushell/history.txt
