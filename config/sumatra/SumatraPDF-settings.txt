@@ -135,6 +135,86 @@ CustomScreenDPI = 0
 
 FileStates [
 	[
+		FilePath = C:\Users\yasha\OneDrive\workspacemodules\fukaya\build\fukayaII.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 6
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = 124.68 95.4463
+		PageNo = 8
+		Zoom = fit content
+		Rotation = 0
+		WindowState = 2
+		WindowPos = -13 -13 1946 2084
+		ShowToc = false
+		SidebarDx = 364
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = C:\Users\yasha\OneDrive\workspacemodules\deformGromov\build\gromov.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 7
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = 79.9121 118.289
+		PageNo = 1
+		Zoom = fit content
+		Rotation = 0
+		WindowState = 2
+		WindowPos = -13 -13 1946 2084
+		ShowToc = false
+		SidebarDx = 364
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = C:\Users\yasha\OneDrive\workspacemodules\deformGromov\build\response.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 9
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 -1
+		PageNo = 1
+		Zoom = 100
+		Rotation = 0
+		WindowState = 2
+		WindowPos = -13 -13 1946 2084
+		ShowToc = true
+		SidebarDx = 364
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = C:\Users\yasha\OneDrive\workspacemodules\deformGromov\Report_Savelyev.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 10
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 -1
+		PageNo = 1
+		Zoom = 100
+		Rotation = 0
+		WindowState = 2
+		WindowPos = -13 -13 1946 2084
+		ShowToc = false
+		SidebarDx = 364
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
 		FilePath = C:\Users\yasha\OneDrive\workspacemodules\GromovFuller\build\GromovFuller.pdf
 		Favorites [
 			[
@@ -152,10 +232,10 @@ FileStates [
 		]
 		IsPinned = false
 		IsMissing = false
-		OpenCount = 2
+		OpenCount = 11
 		UseDefaultState = false
 		DisplayMode = continuous
-		ScrollPos = 79.8372 118.149
+		ScrollPos = 79.8452 118.189
 		PageNo = 1
 		Zoom = fit content
 		Rotation = 0
@@ -172,11 +252,11 @@ FileStates [
 		]
 		IsPinned = false
 		IsMissing = false
-		OpenCount = 3
+		OpenCount = 12
 		UseDefaultState = false
 		DisplayMode = continuous
-		ScrollPos = 82.9817 118.137
-		PageNo = 1
+		ScrollPos = 83.0056 64.3788
+		PageNo = 4
 		Zoom = fit content
 		Rotation = 0
 		WindowState = 2
@@ -192,11 +272,11 @@ FileStates [
 		]
 		IsPinned = false
 		IsMissing = false
-		OpenCount = 3
+		OpenCount = 12
 		UseDefaultState = false
 		DisplayMode = continuous
-		ScrollPos = 124.88 117.415
-		PageNo = 1
+		ScrollPos = 124.786 95.4116
+		PageNo = 45
 		Zoom = fit content
 		Rotation = 0
 		WindowState = 2
@@ -212,7 +292,7 @@ FileStates [
 		]
 		IsPinned = false
 		IsMissing = false
-		OpenCount = 3
+		OpenCount = 12
 		UseDefaultState = false
 		DisplayMode = continuous
 		ScrollPos = 79.9115 64.4675
@@ -440,26 +520,6 @@ FileStates [
 	]
 	[
 		FilePath = C:\Users\yasha\OneDrive\books\McDuff D., Salamon D. Introduction to symplectic topology.djvu
-		Favorites [
-		]
-		IsPinned = false
-		IsMissing = false
-		OpenCount = 0
-		UseDefaultState = false
-		DisplayMode = continuous
-		ScrollPos = -1 -1
-		PageNo = 1
-		Zoom = 100
-		Rotation = 0
-		WindowState = 2
-		WindowPos = -13 -13 2906 1124
-		ShowToc = false
-		SidebarDx = 364
-		DisplayR2L = false
-		ReparseIdx = 0
-	]
-	[
-		FilePath = C:\Users\yasha\OneDrive\workspacemodules\deformGromov\build\gromov.pdf
 		Favorites [
 		]
 		IsPinned = false
@@ -3518,19 +3578,19 @@ SessionData [
 			[
 				FilePath = C:\Users\yasha\OneDrive\workspacemodules\fukaya\build\fukayaI.pdf
 				DisplayMode = continuous
-				PageNo = 1
+				PageNo = 45
 				Zoom = fit content
 				Rotation = 0
-				ScrollPos = 124.88 117.415
+				ScrollPos = 124.786 95.4116
 				ShowToc = false
 			]
 			[
 				FilePath = C:\Users\yasha\OneDrive\workspacemodules\quantumMaslov\build\QuantumMaslov.pdf
 				DisplayMode = continuous
-				PageNo = 1
+				PageNo = 4
 				Zoom = fit content
 				Rotation = 0
-				ScrollPos = 82.9817 118.137
+				ScrollPos = 83.0056 64.3788
 				ShowToc = false
 			]
 			[
@@ -3539,17 +3599,53 @@ SessionData [
 				PageNo = 1
 				Zoom = fit content
 				Rotation = 0
-				ScrollPos = 79.8372 118.149
+				ScrollPos = 79.8452 118.189
+				ShowToc = false
+			]
+			[
+				FilePath = C:\Users\yasha\OneDrive\workspacemodules\deformGromov\Report_Savelyev.pdf
+				DisplayMode = continuous
+				PageNo = 1
+				Zoom = 100
+				Rotation = 0
+				ScrollPos = -1 -1
+				ShowToc = false
+			]
+			[
+				FilePath = C:\Users\yasha\OneDrive\workspacemodules\deformGromov\build\response.pdf
+				DisplayMode = continuous
+				PageNo = 1
+				Zoom = 100
+				Rotation = 0
+				ScrollPos = -1 -1
+				ShowToc = true
+			]
+			[
+				FilePath = C:\Users\yasha\OneDrive\workspacemodules\deformGromov\build\gromov.pdf
+				DisplayMode = continuous
+				PageNo = 1
+				Zoom = fit content
+				Rotation = 0
+				ScrollPos = 79.9121 118.289
+				ShowToc = false
+			]
+			[
+				FilePath = C:\Users\yasha\OneDrive\workspacemodules\fukaya\build\fukayaII.pdf
+				DisplayMode = continuous
+				PageNo = 8
+				Zoom = fit content
+				Rotation = 0
+				ScrollPos = 124.68 95.4463
 				ShowToc = false
 			]
 		]
-		TabIndex = 5
+		TabIndex = 9
 		WindowState = 2
 		WindowPos = -13 -13 1946 2084
 		SidebarDx = 364
 	]
 ]
 TimeOfLastUpdateCheck = 0 0
-OpenCountWeek = 744
+OpenCountWeek = 745
 
 # Settings below are not recognized by the current version
