@@ -77,7 +77,7 @@ def ink [file = ""] { inkscape $file}
 def pvc [file:string] { latexmk -pdf -pvc -file-line-error -synctex=1  -interaction=nonstopmode -recorder -f $file} 
 def lat [file:string] { latexmk -pvc -pdf -file-line-error -synctex=1 -interaction=nonstopmode -recorder -f -g $file}
 #
-def branchlist [] {git branch --sort=-committerdater}
+def branchlist [] {git branch --sort=-committerdate}
 def pushmod [] { git submodule foreach git add . ; git submodule foreach git commit -m -a ; git submodule foreach git push origin master; git add . ; git commit -m $"(git diff --staged)"; git push --all origin }
 def push [] { do --ignore-errors { git add . }; do --ignore-errors {git diff --staged | save --force message.log}; do --ignore-errors {git commit -F message.log}; do --ignore-errors {git push --all origin}}
 def pull [] { git pull --recurse-submodules ; git submodule update --recursive --remote }
@@ -88,7 +88,7 @@ def pushgh [] { cd $"($HOMED)/web" ; pandoc index.md -o index.html ; git add . ;
 # def init [dir:string] {mkdir $dir ; cd $dir ; git init ; git branch -M master; git commit -m "fist commit"
 # } 
 
-def hw [] { do -i {pandoc $"($HOMED)/web/classes/algtop/2024.tex" -o $"($HOMED)/web/classes/algtop/2024.html" ;  pandoc $"($HOMED)/web/classes/topology/2024.tex" -o $"($HOMED)/web/classes/topology/2024.html"}; cd $"($HOMED)/web"; do --ignore-errors {git add .}; do --ignore-errors {git commit -m -a}; do --ignore-errors {git push origin gh-pages:gh-pages} 
+def hw [] { do -i {pandoc $"($HOMED)/web/classes/Spivak/2025.tex" -o $"($HOMED)/web/classes/Spivak/2024.html" ;  pandoc $"($HOMED)/web/classes/symplectic/2025.tex" -o $"($HOMED)/web/classes/symplectic/2025.html"}; cd $"($HOMED)/web"; do --ignore-errors {git add .}; do --ignore-errors {git commit -m -a}; do --ignore-errors {git push origin gh-pages:gh-pages} 
 } 
 
 # alias config = ( cd $"($HOMED)/dotfiles"; push; cd $"($HOMED)/workspacemodules"; pushmod; cd $"($HOMED)/workspace"; push; cd web pushgh; pacman -Qqe > $"($HOMED)/dotfiles/pkglist.txt" )
