@@ -422,7 +422,7 @@ ls.add_snippets("tex", {
 })
 ls.add_snippets("tex", {
 	s("equiv", {
-		t({"\\simu"}),
+		t({"\\sim"}),
 		i("1",""),
 	}, { condition = Is_math }),
 })
