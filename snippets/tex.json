@@ -686,7 +686,7 @@
     "description": "Paragraph"
   },
         "Split": {
-    "prefix": "spl",
+    "prefix": "latspl",
     "body": [
       "\\begin{split}",
       "\t$1",
