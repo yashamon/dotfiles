@@ -40,7 +40,7 @@ map({'n'}, ';h', function() vim.cmd('Telescope neoclip')  end,{})
 map('n', '<leader>f', function() vim.cmd('up'); Server(); vim.cmd('te lf'); Feedkey('i','i') end, {})
 map('n', '<leader>lg', function() vim.cmd('up'); Server(); vim.cmd('te lazygit'); Feedkey('i','i') end, {})
 map('n', '<leader>t', function() vim.cmd('up'); Server(); vim.cmd('edit term://nu'); Feedkey('i','i') end, {})
--- map('n', '<leader>u', function() vim.cmd('UndotreeToggle') end, {})
+map('n', '<leader>u', function() lua require('undotree').toggle() end, {})
 -- map('v', '<leader>c', ':CommentToggle<cr>', {})
 map({'n', 'v'}, '<leader>c', 'gc', {remap = true})
 -- tnoremap <m-d> <C-\><C-n>:bdelete!<cr>
