@@ -232,7 +232,7 @@ ls.add_snippets("java", {
 ls.add_snippets("tex", {
 	-- rec_ls is self-referencing. That makes this snippet 'infinite' eg. have as many
 	-- \item as necessary by utilizing a choiceNode.
-	s("ls", {
+	s("latitm", {
 		t({ "\\begin{itemize}", "\t\\item " }),
 		i(1),
 		d(2, rec_ls, {}),
