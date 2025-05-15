@@ -112,6 +112,17 @@ end
     require("fzf-lua").setup({})
   end
 },
+{
+  'stevearc/oil.nvim',
+  ---@module 'oil'
+  ---@type oil.SetupOpts
+  opts = {},
+  -- Optional dependencies
+  dependencies = { { "echasnovski/mini.icons", opts = {} } },
+  -- dependencies = { "nvim-tree/nvim-web-devicons" }, -- use if you prefer nvim-web-devicons
+  -- Lazy loading is not recommended because it is very tricky to make it work correctly in all situations.
+  lazy = false,
+}
 {'kevinhwang91/nvim-ufo', dependencies = 'kevinhwang91/promise-async', lazy = true},
 -- {'gbprod/yanky.nvim', lazy = true},
 -- {'ThePrimeagen/harpoon', dependencies = "nvim-lua/plenary.nvim"},
@@ -187,26 +198,31 @@ end,},
 {'mbbill/undotree', cmd = "UndotreeToggle"},
 {'kevinhwang91/nvim-bqf', lazy = false},
 {
-  "nvim-telescope/telescope.nvim",
-  dependencies = {
-    "nvim-lua/plenary.nvim",
-    "debugloop/telescope-undo.nvim",
-  },
-  config = function()
-    require("telescope").setup({
-      -- the rest of your telescope config goes here
-      extensions = {
-        undo = {
-          -- telescope-undo.nvim config, see below
-        },
-        -- other extensions:
-        -- file_browser = { ... }
-      },
-    })
-    require("telescope").load_extension("undo")
-    -- optional: vim.keymap.set("n", "<leader>u", "<cmd>Telescope undo<cr>")
-  end,
+    'nvim-telescope/telescope.nvim',
+      dependencies = { 'nvim-lua/plenary.nvim' }
 },
+
+-- {
+--   "nvim-telescope/telescope.nvim",
+--   dependencies = {
+--     "nvim-lua/plenary.nvim",
+--     "debugloop/telescope-undo.nvim",
+--   },
+--   config = function()
+--     require("telescope").setup({
+--       -- the rest of your telescope config goes here
+--       extensions = {
+--         undo = {
+--           -- telescope-undo.nvim config, see below
+--         },
+--         -- other extensions:
+--         -- file_browser = { ... }
+--       },
+--     })
+--     require("telescope").load_extension("undo")
+--     -- optional: vim.keymap.set("n", "<leader>u", "<cmd>Telescope undo<cr>")
+--   end,
+-- },
 {'mg979/vim-visual-multi', lazy = false},
 
 })
