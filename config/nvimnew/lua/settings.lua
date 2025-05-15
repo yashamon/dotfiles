@@ -365,6 +365,7 @@ undercurl = true,
     }
 })
 require("oil").setup()
+require('undotree').setup()
 -- nvim LSP
 -- require('snippets')
 require("mason").setup()
