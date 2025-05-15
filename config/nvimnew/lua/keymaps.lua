@@ -40,7 +40,7 @@ map({'n'}, ';h', function() vim.cmd('Telescope neoclip')  end,{})
 map('n', '<leader>f', function() vim.cmd('up'); Server(); vim.cmd('te lf'); Feedkey('i','i') end, {})
 map('n', '<leader>lg', function() vim.cmd('up'); Server(); vim.cmd('te lazygit'); Feedkey('i','i') end, {})
 map('n', '<leader>t', function() vim.cmd('up'); Server(); vim.cmd('edit term://nu'); Feedkey('i','i') end, {})
-map('n', '<leader>u', function() lua require('undotree').toggle() end, {})
+map('n', '<leader>u', function() require('undotree').toggle() end, {})
 -- map('v', '<leader>c', ':CommentToggle<cr>', {})
 map({'n', 'v'}, '<leader>c', 'gc', {remap = true})
 -- tnoremap <m-d> <C-\><C-n>:bdelete!<cr>
@@ -144,7 +144,7 @@ smap <silent><expr> <C-E> luasnip#choice_active() ? '<Plug>luasnip-next-choice' 
 
 "nmap <leader>gm :up<cr>:silent ! cat % >> ~/workspace/email.txt; cp % /tmp/temp; make4ht /tmp/temp "mathml,mathjax"; pandoc /tmp/temp.html --from html --to markdown_strict -o /tmp/temp.md; mv /tmp/temp.md %<cr>:e %<cr>:up<cr>:qa<cr>
 
-xnoremap <silent> <cr> "1y:silent! let searchTerm = '\V'.substitute(escape(@1, '\/'), "\n", '\\n', "g") <bar> let @/ = searchTerm <bar> echo '/'.@/ <bar> call histadd("search", searchTerm) <bar> highlight CurSearch guifg=black guibg=white <bar> set hls<cr><cr>
+xnoremap <silent> <cr> "1y:silent! let searchTerm = '\V'.substitute(escape(@1, '\/'), "\n", '\\n', "g") <bar> let @/ = searchTerm <bar> echo '/'.@/ <bar> call histadd("search", searchTerm) <bar> highlight CurSearch guifg=white guibg=black <bar> set hls<cr><cr>
 
 map <S-C-q> <Esc>:qa!<CR>
 vnoremap < <gv
