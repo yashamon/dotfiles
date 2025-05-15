@@ -15,6 +15,14 @@ if not (vim.uv or vim.loop).fs_stat(lazypath) then
                                             end
 vim.opt.rtp:append(lazypath)
 require("lazy").setup({
+{
+  "jiaoshijie/undotree",
+  dependencies = "nvim-lua/plenary.nvim",
+  config = true,
+  keys = { -- load the plugin only when using it's keybinding:
+    { "<leader>u", "<cmd>lua require('undotree').toggle()<cr>" },
+  },
+},
 -- {
 --     "lmburns/lf.nvim",
 --     config = function()
