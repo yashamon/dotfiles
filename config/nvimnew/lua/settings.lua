@@ -364,7 +364,7 @@ undercurl = true,
         -- Statement = { fg = "#0000ff" }
     }
 })
-
+require("oil").setup()
 -- nvim LSP
 -- require('snippets')
 require("mason").setup()
