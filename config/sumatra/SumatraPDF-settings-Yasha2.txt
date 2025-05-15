@@ -140,136 +140,16 @@ FileStates [
 		]
 		IsPinned = false
 		IsMissing = false
-		OpenCount = 3
+		OpenCount = 1
 		UseDefaultState = false
 		DisplayMode = continuous
-		ScrollPos = -1 -1
-		PageNo = 1
-		Zoom = 100
+		ScrollPos = -1 95.2558
+		PageNo = 12
+		Zoom = fit content
 		Rotation = 0
 		WindowState = 2
 		WindowPos = -13 -13 1946 2084
 		ShowToc = true
-		SidebarDx = 364
-		DisplayR2L = false
-		ReparseIdx = 0
-	]
-	[
-		FilePath = C:\Users\yasha\OneDrive\math.papers\highertopoi.lurie.pdf
-		Favorites [
-		]
-		IsPinned = false
-		IsMissing = false
-		OpenCount = 2
-		UseDefaultState = false
-		DisplayMode = continuous
-		ScrollPos = -1 -1
-		PageNo = 1
-		Zoom = 100
-		Rotation = 0
-		WindowState = 2
-		WindowPos = -13 -13 1946 2084
-		ShowToc = false
-		SidebarDx = 364
-		DisplayR2L = false
-		ReparseIdx = 0
-	]
-	[
-		FilePath = C:\Users\yasha\OneDrive\math.papers\ktheory\Kbook.pdf
-		Favorites [
-		]
-		IsPinned = false
-		IsMissing = false
-		OpenCount = 2
-		UseDefaultState = false
-		DisplayMode = continuous
-		ScrollPos = -1 12.5629
-		PageNo = 486
-		Zoom = 100
-		Rotation = 0
-		WindowState = 2
-		WindowPos = -13 -13 1946 2084
-		ShowToc = false
-		SidebarDx = 364
-		DisplayR2L = false
-		ReparseIdx = 0
-	]
-	[
-		FilePath = C:\Users\yasha\OneDrive\OneSyncFiles\weibel.pdf
-		Favorites [
-		]
-		IsPinned = false
-		IsMissing = false
-		OpenCount = 2
-		UseDefaultState = false
-		DisplayMode = continuous
-		ScrollPos = -1 -1
-		PageNo = 1
-		Zoom = 100
-		Rotation = 0
-		WindowState = 2
-		WindowPos = -13 -13 1946 2084
-		ShowToc = false
-		SidebarDx = 364
-		DisplayR2L = false
-		ReparseIdx = 0
-	]
-	[
-		FilePath = C:\Users\yasha\OneDrive\workspacemodules\KtheoryCycles\build\KtheoryCycles.pdf
-		Favorites [
-		]
-		IsPinned = false
-		IsMissing = false
-		OpenCount = 5
-		UseDefaultState = false
-		DisplayMode = continuous
-		ScrollPos = 79.8929 64.355
-		PageNo = 2
-		Zoom = fit content
-		Rotation = 0
-		WindowState = 2
-		WindowPos = -13 -13 1946 2084
-		ShowToc = false
-		SidebarDx = 364
-		DisplayR2L = false
-		ReparseIdx = 0
-	]
-	[
-		FilePath = C:\Users\yasha\OneDrive\worklocal\KtheoryCycles\build\KtheoryCycles.pdf
-		Favorites [
-		]
-		IsPinned = false
-		IsMissing = false
-		OpenCount = 5
-		UseDefaultState = false
-		DisplayMode = continuous
-		ScrollPos = 82.9615 64.3968
-		PageNo = 3
-		Zoom = fit content
-		Rotation = 0
-		WindowState = 2
-		WindowPos = -13 -13 1946 2084
-		ShowToc = false
-		SidebarDx = 364
-		DisplayR2L = false
-		ReparseIdx = 0
-	]
-	[
-		FilePath = C:\Users\yasha\OneDrive\workspacemodules\fukaya\build\fukayaII.pdf
-		Favorites [
-		]
-		IsPinned = false
-		IsMissing = false
-		OpenCount = 9
-		UseDefaultState = false
-		DisplayMode = continuous
-		ScrollPos = 124.68 95.4463
-		PageNo = 9
-		Zoom = fit content
-		Rotation = 0
-		WindowState = 2
-		WindowPos = -13 -13 1946 2084
-		ShowToc = false
 		SidebarDx = 364
 		DisplayR2L = false
 		ReparseIdx = 0
@@ -280,52 +160,12 @@ FileStates [
 		]
 		IsPinned = false
 		IsMissing = false
-		OpenCount = 9
+		OpenCount = 1
 		UseDefaultState = false
 		DisplayMode = continuous
-		ScrollPos = 124.683 95.4997
-		PageNo = 2
+		ScrollPos = -1 159.063
+		PageNo = 15
 		Zoom = fit content
-		Rotation = 0
-		WindowState = 2
-		WindowPos = -13 -13 1946 2084
-		ShowToc = false
-		SidebarDx = 364
-		DisplayR2L = false
-		ReparseIdx = 0
-	]
-	[
-		FilePath = C:\Users\yasha\OneDrive\math.papers\Dropbox\papers\weibel.pdf
-		Favorites [
-		]
-		IsPinned = false
-		IsMissing = false
-		OpenCount = 1
-		UseDefaultState = false
-		DisplayMode = continuous
-		ScrollPos = -1 -1
-		PageNo = 1
-		Zoom = 100
-		Rotation = 0
-		WindowState = 2
-		WindowPos = -13 -13 1946 2084
-		ShowToc = false
-		SidebarDx = 364
-		DisplayR2L = false
-		ReparseIdx = 0
-	]
-	[
-		FilePath = C:\Users\yasha\OneDrive\workspacemodules\KtheoryCycles\KtheoryCycles.pdf
-		Favorites [
-		]
-		IsPinned = false
-		IsMissing = false
-		OpenCount = 1
-		UseDefaultState = false
-		DisplayMode = continuous
-		ScrollPos = -1 -1
-		PageNo = 1
-		Zoom = 100
 		Rotation = 0
 		WindowState = 2
 		WindowPos = -13 -13 1946 2084
@@ -335,16 +175,16 @@ FileStates [
 		ReparseIdx = 0
 	]
 	[
-		FilePath = C:\Users\yasha\OneDrive\workspacemodules\curvature\build\curvature.pdf
+		FilePath = C:\Users\yasha\OneDrive\workspacemodules\fukaya\build\fukayaII.pdf
 		Favorites [
 		]
 		IsPinned = false
 		IsMissing = false
-		OpenCount = 2
+		OpenCount = 4
 		UseDefaultState = false
 		DisplayMode = continuous
-		ScrollPos = 83.4415 118.181
-		PageNo = 1
+		ScrollPos = -1 94.9937
+		PageNo = 5
 		Zoom = fit content
 		Rotation = 0
 		WindowState = 2
@@ -363,7 +203,7 @@ FileStates [
 		OpenCount = 3
 		UseDefaultState = false
 		DisplayMode = continuous
-		ScrollPos = 56.5918 61.8386
+		ScrollPos = -1 60.1207
 		PageNo = 156
 		Zoom = fit content
 		Rotation = 0
@@ -380,10 +220,10 @@ FileStates [
 		]
 		IsPinned = false
 		IsMissing = false
-		OpenCount = 3
+		OpenCount = 4
 		UseDefaultState = false
 		DisplayMode = continuous
-		ScrollPos = 79.9121 118.289
+		ScrollPos = -1 117.786
 		PageNo = 1
 		Zoom = fit content
 		Rotation = 0
@@ -400,7 +240,7 @@ FileStates [
 		]
 		IsPinned = false
 		IsMissing = false
-		OpenCount = 3
+		OpenCount = 5
 		UseDefaultState = false
 		DisplayMode = continuous
 		ScrollPos = -1 -1
@@ -420,7 +260,7 @@ FileStates [
 		]
 		IsPinned = false
 		IsMissing = false
-		OpenCount = 3
+		OpenCount = 5
 		UseDefaultState = false
 		DisplayMode = continuous
 		ScrollPos = -1 -1
@@ -452,10 +292,10 @@ FileStates [
 		]
 		IsPinned = false
 		IsMissing = false
-		OpenCount = 3
+		OpenCount = 5
 		UseDefaultState = false
 		DisplayMode = continuous
-		ScrollPos = 79.8452 118.189
+		ScrollPos = -1 117.786
 		PageNo = 1
 		Zoom = fit content
 		Rotation = 0
@@ -472,10 +312,10 @@ FileStates [
 		]
 		IsPinned = false
 		IsMissing = false
-		OpenCount = 3
+		OpenCount = 6
 		UseDefaultState = false
 		DisplayMode = continuous
-		ScrollPos = 83.0179 64.4406
+		ScrollPos = -1 64.1431
 		PageNo = 4
 		Zoom = fit content
 		Rotation = 0
@@ -492,11 +332,31 @@ FileStates [
 		]
 		IsPinned = false
 		IsMissing = false
-		OpenCount = 0
+		OpenCount = 6
 		UseDefaultState = false
 		DisplayMode = continuous
 		ScrollPos = -1 95.2385
 		PageNo = 45
+		Zoom = fit content
+		Rotation = 0
+		WindowState = 2
+		WindowPos = -13 -13 1946 2084
+		ShowToc = false
+		SidebarDx = 364
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = C:\Users\yasha\OneDrive\workspacemodules\KtheoryCycles\build\KtheoryCycles.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 6
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 63.9519
+		PageNo = 2
 		Zoom = fit content
 		Rotation = 0
 		WindowState = 2
@@ -3767,43 +3627,43 @@ SessionData [
 	[
 		TabStates [
 			[
-				FilePath = C:\Users\yasha\OneDrive\worklocal\fukaya\build\fukayaII.pdf
-				DisplayMode = continuous
-				PageNo = 2
-				Zoom = fit content
-				Rotation = 0
-				ScrollPos = 124.683 95.4997
-				ShowToc = false
-			]
-			[
-				FilePath = C:\Users\yasha\OneDrive\workspacemodules\fukaya\build\fukayaII.pdf
-				DisplayMode = continuous
-				PageNo = 9
-				Zoom = fit content
-				Rotation = 0
-				ScrollPos = 124.68 95.4463
-				ShowToc = false
-			]
-			[
-				FilePath = C:\Users\yasha\OneDrive\worklocal\KtheoryCycles\build\KtheoryCycles.pdf
-				DisplayMode = continuous
-				PageNo = 3
-				Zoom = fit content
-				Rotation = 0
-				ScrollPos = 82.9615 64.3968
-				ShowToc = false
-			]
-			[
 				FilePath = C:\Users\yasha\OneDrive\workspacemodules\KtheoryCycles\build\KtheoryCycles.pdf
 				DisplayMode = continuous
 				PageNo = 2
 				Zoom = fit content
 				Rotation = 0
-				ScrollPos = 79.8929 64.355
+				ScrollPos = -1 63.9519
 				ShowToc = false
 			]
 			[
-				FilePath = C:\Users\yasha\OneDrive\OneSyncFiles\weibel.pdf
+				FilePath = C:\Users\yasha\OneDrive\workspacemodules\fukaya\build\fukayaI.pdf
+				DisplayMode = continuous
+				PageNo = 45
+				Zoom = fit content
+				Rotation = 0
+				ScrollPos = -1 95.2385
+				ShowToc = false
+			]
+			[
+				FilePath = C:\Users\yasha\OneDrive\workspacemodules\quantumMaslov\build\QuantumMaslov.pdf
+				DisplayMode = continuous
+				PageNo = 4
+				Zoom = fit content
+				Rotation = 0
+				ScrollPos = -1 64.1431
+				ShowToc = false
+			]
+			[
+				FilePath = C:\Users\yasha\OneDrive\workspacemodules\GromovFuller\build\GromovFuller.pdf
+				DisplayMode = continuous
+				PageNo = 1
+				Zoom = fit content
+				Rotation = 0
+				ScrollPos = -1 117.786
+				ShowToc = false
+			]
+			[
+				FilePath = C:\Users\yasha\OneDrive\workspacemodules\deformGromov\Report_Savelyev.pdf
 				DisplayMode = continuous
 				PageNo = 1
 				Zoom = 100
@@ -3812,25 +3672,7 @@ SessionData [
 				ShowToc = false
 			]
 			[
-				FilePath = C:\Users\yasha\OneDrive\math.papers\ktheory\Kbook.pdf
-				DisplayMode = continuous
-				PageNo = 486
-				Zoom = 100
-				Rotation = 0
-				ScrollPos = -1 12.5629
-				ShowToc = false
-			]
-			[
-				FilePath = C:\Users\yasha\OneDrive\math.papers\highertopoi.lurie.pdf
-				DisplayMode = continuous
-				PageNo = 1
-				Zoom = 100
-				Rotation = 0
-				ScrollPos = -1 -1
-				ShowToc = false
-			]
-			[
-				FilePath = C:\Users\yasha\OneDrive\worklocal\fukaya\build\fukayaI.pdf
+				FilePath = C:\Users\yasha\OneDrive\workspacemodules\deformGromov\build\response.pdf
 				DisplayMode = continuous
 				PageNo = 1
 				Zoom = 100
@@ -3838,14 +3680,59 @@ SessionData [
 				ScrollPos = -1 -1
 				ShowToc = true
 			]
+			[
+				FilePath = C:\Users\yasha\OneDrive\workspacemodules\deformGromov\build\gromov.pdf
+				DisplayMode = continuous
+				PageNo = 1
+				Zoom = fit content
+				Rotation = 0
+				ScrollPos = -1 117.786
+				ShowToc = false
+			]
+			[
+				FilePath = C:\Users\yasha\OneDrive\2025classes\symplectic\McDuff D., Salamon D. Introduction to symplectic topology.djvu
+				DisplayMode = continuous
+				PageNo = 156
+				Zoom = fit content
+				Rotation = 0
+				ScrollPos = -1 60.1207
+				ShowToc = false
+			]
+			[
+				FilePath = C:\Users\yasha\OneDrive\workspacemodules\fukaya\build\fukayaII.pdf
+				DisplayMode = continuous
+				PageNo = 5
+				Zoom = fit content
+				Rotation = 0
+				ScrollPos = -1 94.9937
+				ShowToc = false
+			]
+			[
+				FilePath = C:\Users\yasha\OneDrive\worklocal\fukaya\build\fukayaII.pdf
+				DisplayMode = continuous
+				PageNo = 15
+				Zoom = fit content
+				Rotation = 0
+				ScrollPos = -1 159.063
+				ShowToc = true
+			]
+			[
+				FilePath = C:\Users\yasha\OneDrive\worklocal\fukaya\build\fukayaI.pdf
+				DisplayMode = continuous
+				PageNo = 12
+				Zoom = fit content
+				Rotation = 0
+				ScrollPos = -1 95.2558
+				ShowToc = true
+			]
 		]
-		TabIndex = 9
+		TabIndex = 11
 		WindowState = 2
 		WindowPos = -13 -13 1946 2084
 		SidebarDx = 364
 	]
 ]
 TimeOfLastUpdateCheck = 0 0
-OpenCountWeek = 749
+OpenCountWeek = 747
 
 # Settings below are not recognized by the current version
