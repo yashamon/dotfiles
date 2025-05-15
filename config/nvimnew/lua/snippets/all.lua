@@ -459,6 +459,146 @@ ls.add_snippets("tex", {
 	}, { condition = Is_math }),
 })
 
+-- "overline": {
+--     "prefix": ["over"],
+--     "body": [
+--       "\\overline{$1} $0"
+--     ],
+--     "description": "overline"
+--   },
+-- "dot": {
+--     "prefix": ["dot"],
+--     "body": [
+--       "\\dot $0"
+--     ],
+--     "description": "over dot"
+--   },
+-- 	"widehat": {
+--     "prefix": ["wh"],
+--     "body": [
+--       "\\widehat{$1} $0"
+--     ],
+--     "description": "over widehat"
+--   },
+--
+-- "hat": {
+--     "prefix": ["hat"],
+--     "body": [
+--       "\\hat{$1} $0"
+--     ],
+--     "description": "over hat"
+--   },
+--
+-- "widetilda": {
+--     "prefix": ["wt"],
+--     "body": [
+--       "\\widetilde{$1} $0"
+--     ],
+--     "description": "over tilde"
+--   },
+--
+--
+-- "exists": {
+--     "prefix": ["ex"],
+--     "body": [
+--       "\\exists $0 "
+--     ],
+--     "description": "exists"
+--   },
+--
+-- "for all": {
+--     "prefix": ["fa"],
+--     "body": [
+--       "\\forall $1 \\in $2 \\; $0"
+--     ],
+--     "description": "for all"
+--   },
+-- "bullet": {
+--     "prefix": ["bul"],
+--     "body": [
+--       "\\bullet $0"
+--     ],
+--     "description": "bullet"
+--   },
+--
+-- "equal": {
+--     "prefix": ["eql"],
+--     "body": [
+--       "= $0"
+--     ],
+--     "description": "equal"
+--   },
+--
+-- "not in": {
+--     "prefix": ["nin"],
+--     "body": [
+--       "\\notin $0"
+--     ],
+--     "description": "not in"
+--   },
+--
+-- "in": {
+--     "prefix": ["in"],
+--     "body": [
+--       "\\in $0"
+--     ],
+--     "description": "in"
+--   },
+-- "definition": {
+--     "prefix": ["df"],
+--     "body": [
+--       ":= $0"
+--     ],
+--     "description": "definition"
+--   }, 
+-- "greater equal": {
+--     "prefix": ["geq"],
+--     "body": [
+--       "\\geq $0"
+--     ],
+--     "description": "geq"
+--   },
+--
+-- "less equal": {
+--     "prefix": ["leq"],
+--     "body": [
+--       "\\leq $0"
+--     ],
+--     "description": "leq"
+--   },
+--
+--
+-- "product": {
+--     "prefix": ["prod"],
+--     "body": [
+--       "\\prod _{$1} $0"
+--     ],
+--     "description": "big intersection"
+--   },
+--
+-- "big intersection cap": {
+--     "prefix": ["bic"],
+--     "body": [
+--       "\\bigcap _{$1} $0"
+--     ],
+--     "description": "big intersection"
+--   },
+-- "Von Neumann ": {
+--     "prefix": ["von"],
+--     "body": [
+--       "Von Neumann"
+--     ],
+--     "description": ""
+--   },
+-- "sigma": {
+--     "prefix": ["si"],
+--     "body": [
+--       "\\sigma $0"
+--     ],
+--     "description": "sigma"
+--   },
+
+
 ls.add_snippets(nil, {
 tex = {
 s({
