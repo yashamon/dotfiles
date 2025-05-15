@@ -186,6 +186,7 @@ end,},
 {'junegunn/fzf.vim', lazy = true},
 {'mbbill/undotree', cmd = "UndotreeToggle"},
 {'kevinhwang91/nvim-bqf', lazy = false},
+{'jiaoshijie/undotree'},
 {
   "jiaoshijie/undotree",
   dependencies = "nvim-lua/plenary.nvim",
