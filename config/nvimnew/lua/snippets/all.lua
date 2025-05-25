@@ -462,7 +462,7 @@ ls.add_snippets("tex", {
 	-- rec_ls is self-referencing. That makes this snippet 'infinite' eg. have as many
 	-- \item as necessary by utilizing a choiceNode.
 	s("wt", {
-		t({"\\widetilde"}),
+		t({"\\widetilde{"}), i(1, ""), t({"}"}),
 		i("1",""),
 	}, { condition = Is_math }),
 })
