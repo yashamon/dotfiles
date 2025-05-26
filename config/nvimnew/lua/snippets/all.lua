@@ -333,8 +333,7 @@ s({
 trig = "ins",
 },
 {
-t({'i('}), i(1,"n"), t({","}),
-i(2, "i"), t({"\")"})
+t({'i('}), i(1,"n"), t({",\"\")"})
 })
 },
 })
@@ -355,6 +354,11 @@ ls.add_snippets("tex", {
 	s("sqrt", {
 		t({"\\sqrt"}),
 		i("1",""),
+	}, { condition = Is_math }),
+})
+ls.add_snippets("tex", {
+	s("fa", {
+		t({"\\forall "}), i(1,""), t({" \\in "}), i(2,""), t({"\\;"}), i(0,"")
 	}, { condition = Is_math }),
 })
 
@@ -466,7 +470,20 @@ ls.add_snippets("tex", {
 		i("1",""),
 	}, { condition = Is_math }),
 })
-
+ls.add_snippets("tex", {
+	-- rec_ls is self-referencing. That makes this snippet 'infinite' eg. have as many
+	-- \item as necessary by utilizing a choiceNode.
+	s("in", {
+		t({"\\in "}),
+	}, { condition = Is_math }),
+})
+ls.add_snippets("tex", {
+	-- rec_ls is self-referencing. That makes this snippet 'infinite' eg. have as many
+	-- \item as necessary by utilizing a choiceNode.
+	s("leq", {
+		t({"\\leq "}), i(1, ""),
+	}, { condition = Is_math }),
+})
 
 
 -- "overline": {
