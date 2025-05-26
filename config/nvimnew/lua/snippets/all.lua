@@ -484,7 +484,13 @@ ls.add_snippets("tex", {
 		t({"\\leq "}), i(1, ""),
 	}, { condition = Is_math }),
 })
-
+ls.add_snippets("tex", {
+	-- rec_ls is self-referencing. That makes this snippet 'infinite' eg. have as many
+	-- \item as necessary by utilizing a choiceNode.
+	s("over", {
+		t({"\\over "}), i(1, ""),
+	}, { condition = Is_math }),
+})
 
 -- "overline": {
 --     "prefix": ["over"],
