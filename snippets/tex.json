@@ -1645,13 +1645,6 @@
     "description": "cal D"
   },
 
-"delta": {
-    "prefix": ["de", "\\de"],
-    "body": [
-      "\\delta $0"
-    ],
-    "description": "delta"
-  },
 "Sigma": {
     "prefix": ["Si"],
     "body": [
