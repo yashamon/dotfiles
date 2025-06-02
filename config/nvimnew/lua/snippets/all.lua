@@ -402,6 +402,12 @@ ls.add_snippets("tex", {
 		i("1",""),
 	}, { condition = Is_math }),
 })
+ls.add_snippets("tex", {
+	s("del", {
+		t({"\\delta"}),
+		i("1",""),
+	}, { condition = Is_math }),
+})
 
 ls.add_snippets("tex", {
 	s("D", {
