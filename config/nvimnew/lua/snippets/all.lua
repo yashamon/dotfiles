@@ -397,7 +397,7 @@ ls.add_snippets("tex", {
 	}, { condition = Is_math }),
 })
 ls.add_snippets("tex", {
-	s("de", {
+	s("d", {
 		t({"\\delta"}),
 		i("1",""),
 	}, { condition = Is_math }),
