@@ -443,7 +443,7 @@ ls.add_snippets("tex", {
 	}, { condition = Is_math }),
 })
 ls.add_snippets("tex", {
-	s("sp", {
+	s("space", {
 		t({"\\;"}),
 		i("1",""),
 	}, { condition = Is_math }),
