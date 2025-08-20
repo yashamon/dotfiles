@@ -8,7 +8,8 @@ $env.CARGO_HOME = "C:/Users/yasha/scoop/apps/rustup/current/.cargo"
 $env.XDG_CONFIG_HOME = "C:/Users/yasha/AppData/local"
 $env.XDG_CONFIG_HOME = "C:/Users/yasha/AppData/local"
 $env.VSCMD_ARG_TGT_ARCH = "arm64"
-$env.BIBINPUTS = "C:\\Users\\yasha\\texmf\\bibtex\\bib"
+$env.BIBINPUTS = "C:/Users/yasha/OneDrive/workspacemodules/bib/link.bib"
+
 #let pathstr = ($path | into string)
 $env.Path = $path
 # $env.VIMRUNTIME = "~/neovim/runtime"
@@ -87,7 +88,7 @@ def pushgh [] { cd $"($HOMED)/web" ; pandoc index.md -o index.html ; git add . ;
 # def init [dir:string] {mkdir $dir ; cd $dir ; git init ; git branch -M master; git commit -m "fist commit"
 # } 
 
-def hw [] { do -i {pandoc $"($HOMED)/web/classes/topology/2025.tex" -o $"($HOMED)/web/classes/topology/2025.html"}; cd $"($HOMED)/web"; do --ignore-errors {git add .}; do --ignore-errors {git commit -m -a}; do --ignore-errors {git push origin gh-pages:gh-pages} 
+def hw [] { do -i {pandoc $"($HOMED)/web/classes/Spivak/2025.tex" -o $"($HOMED)/web/classes/Spivak/2025.html" ;  pandoc $"($HOMED)/web/classes/symplectic/2025.tex" -o $"($HOMED)/web/classes/symplectic/2025.html"}; cd $"($HOMED)/web"; do --ignore-errors {git add .}; do --ignore-errors {git commit -m -a}; do --ignore-errors {git push origin gh-pages:gh-pages} 
 } 
 
 # alias config = ( cd $"($HOMED)/dotfiles"; push; cd $"($HOMED)/workspacemodules"; pushmod; cd $"($HOMED)/workspace"; push; cd web pushgh; pacman -Qqe > $"($HOMED)/dotfiles/pkglist.txt" )
