@@ -151,7 +151,7 @@ end
     },
     build = ":TSUpdate",
 },
--- {'LhKipp/nvim-nu', dependencies = { "nvim-treesitter/nvim-treesitter", "jose-elias-alvarez/null-ls.nvim", lazy = true}
+{'LhKipp/nvim-nu', dependencies = { "nvim-treesitter/nvim-treesitter", "jose-elias-alvarez/null-ls.nvim", lazy = true}
 -- },
 {'echasnovski/mini.nvim', lazy =true },
 {'lukas-reineke/indent-blankline.nvim', event = { "BufRead", "BufNewFile" }},
@@ -308,7 +308,7 @@ vim.lsp.enable({
 -- 	ignore_filetypes = {},
 -- })
 vim.cmd([[
-let $VIMRUNTIME = "C:/Users/yasha/executable/share/nvim/runtime"
+" let $VIMRUNTIME = "C:/Users/yasha/executable/share/nvim/runtime"
 " Autocommands, au
  function! OnUIEnter(event)
 	let l:ui = nvim_get_chan_info(a:event.chan)
