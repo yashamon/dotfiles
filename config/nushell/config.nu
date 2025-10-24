@@ -33,7 +33,7 @@ def neo [file?:string] {
 nu -c $"C:/Users/yasha/nvy/build/nvy --fullscreen --neovim-bin=C:/Users/yasha/neovim/build/bin/nvim.exe ($file)"
 }
 def vi [file?= string] {
-nu -c $"nvy --fullscreen ($file)"
+nu -c $"neovide --no-vsync --($file)"
 }
 def p [] {
 let $command = $"Set-Location '($env.PWD)'"
