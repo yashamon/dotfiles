@@ -1,6 +1,6 @@
 #!/bin/pwsh
 $file=$args
-$var=(cat ~/servername.txt)
+$var=(open ~/servername.txt)
 echo $var
 # lf -remote "send quit"
 # $e1="nvim --server " + "$var" + " --remote-send " + "`'" + "q" +  "`'"
