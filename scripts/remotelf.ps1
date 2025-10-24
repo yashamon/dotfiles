@@ -1,3 +1,5 @@
+
+
 $file=$args
 $var=(open ~/servername.txt)
 echo $var
