@@ -1,6 +1,6 @@
 def main [file: string] {
 let var = $"(open ~/servername.txt | str trim )"
-let exec = $"neovide --server ($var) --remote-silent ($file)"
+let exec = $"nvim --server ($var) ($file)"
 echo $exec
 nu -c $exec
 }
