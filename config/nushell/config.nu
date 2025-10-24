@@ -51,7 +51,7 @@ neo
 
 def nf [] {
 let $ho = (fd . $HOMED -H -E /.undo/* -E /undo/* -E /tmp/* -E *.pdf | fzf | str trim)
-# neovide --multigrid $ho 
+# neovide --no-vsync $ho 
 neo $ho
 }
 def r [name: string] { rm --recursive --trash $name }
