@@ -9,6 +9,9 @@ api.mapkey('T', 'Search tabs with keyword', function() {
 });
 api.map('H', 'E'); 
 api.map('L', 'R'); 
+api.unmap('t')
+api.map('t', 'f'); 
+
 // Unmap the default 'E' key
 
 // api.mapkey('H', 'Go to previous tab', function() {
