@@ -7,8 +7,8 @@ api.RUNTIME('updateSettings', {settings: {"noPdfViewer": 1}});
 api.mapkey('T', 'Search tabs with keyword', function() {
   api.Front.openOmnibar({ type: 'Tabs' });
 });
-map('H', 'E'); 
-map('L', 'R'); 
+api.map('H', 'E'); 
+api.map('L', 'R'); 
 // Unmap the default 'E' key
 
 // api.mapkey('H', 'Go to previous tab', function() {
