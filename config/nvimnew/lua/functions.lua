@@ -125,7 +125,7 @@ local filenametexwhole = vim.fn.expand('%:p')
 local filenameroot = vim.fn.expand('%:t:r')
 -- local filenamePDFLinux=filenamedir .. "/buildback/" .. filenameroot .. ".pdf"
 local filenamePDFWindows = filenamedir .. "/build/" .. filenameroot .. ".pdf"
-local execstrWindowsTectonic="tectonic " .. filenametex .. " --outdir build --synctex --keep-logs --keep-intermediates"
+local execstrWindowsTectonic="tectonic --pass " .. filenametex .. " --outdir build --synctex --keep-logs --keep-intermediates"
 
 -- let execstrViewerSio="silent te pwsh -nop -c C:/Users/yasha/scoop/apps/sioyek/current/sioyek --forward-search-file " . filenametex . " --forward-search-line " . linenumber
 local execstrViewerSummatra = "C:/Users/yasha/scoop/shims/sumatrapdf.EXE -reuse-instance " .. filenamePDFWindows .. " -forward-search " .. filenametex .. " " .. linenumber
