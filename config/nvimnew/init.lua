@@ -67,12 +67,12 @@ require("lazy").setup({
 --   ["zz"]    = function() neoscroll.zz({ half_screen_duration = 250 }) end;
 --   ["zb"]    = function() neoscroll.zb({ half_screen_duration = 250 }) end;
 -- }
-local modes = { 'n', 'v', 'x' }
-for key, func in pairs(keymap) do
-  vim.keymap.set(modes, key, func)
-end
-end
-},
+--local modes = { 'n', 'v', 'x' }
+--for key, func in pairs(keymap) do
+--  vim.keymap.set(modes, key, func)
+--end
+--end
+--},
 -- "MysticalDevil/inlay-hints.nvim",
 --     event = "LspAttach",
 --     dependencies = { "neovim/nvim-lspconfig" },
