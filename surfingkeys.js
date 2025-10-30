@@ -10,9 +10,9 @@ api.mapkey('T', 'Search tabs with keyword', function() {
 
 // Unmap the default 'E' key
 
-//mapkey('H', 'Go to previous tab', function() {
-//    RUNTIME('nextTab', {step: -1});
-//});
+api.mapkey('H', 'Go to previous tab', function() {
+    RUNTIME('nextTab', {step: -1});
+});
 //mapkey('L', 'Go to next tab', function() {
  //   RUNTIME('nextTab', {step: 1});
 //});
