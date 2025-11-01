@@ -100,7 +100,7 @@ map('t', '<A-`>', '<C-\\><C-n>', {remap=true})
 
 -- Latex maps
 map('n', '<leader>v', ViewPdf2, {})
-map('n', '<leader>u', ViewPdf3, {})
+map('n', '<leader>o', ViewPdf3, {})
 
 map({'i', 'n'}, '<m-v>', function ()
 Feedkey('<esc>', 'in')
