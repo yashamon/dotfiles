@@ -15,6 +15,14 @@ if not (vim.uv or vim.loop).fs_stat(lazypath) then
                                             end
 vim.opt.rtp:append(lazypath)
 require("lazy").setup({
+{
+  "jiaoshijie/undotree",
+  dependencies = "nvim-lua/plenary.nvim",
+  config = true,
+  keys = { -- load the plugin only when using it's keybinding:
+    { "<leader>u", "<cmd>lua require('undotree').toggle()<cr>" },
+  },
+},
 -- {
 --     "lmburns/lf.nvim",
 --     config = function()
@@ -45,40 +53,26 @@ require("lazy").setup({
 --     -- Same as neophyte.setup({ ... })
 --   },
 -- },
--- { 'danilamihailov/beacon.nvim', 
---   enabled = true, --- (boolean | fun():boolean) check if enabled
---   speed = 2, --- integer speed at wich animation goes
---   width = 40, --- integer width of the beacon window
---   winblend = 70, --- integer starting transparency of beacon window :h winblend
---   fps = 120, --- integer how smooth the animation going to be
---   min_jump = 0, --- integer what is considered a jump. Number of lines
---   cursor_events = { 'CursorMoved' }, -- table<string> what events trigger check for cursor moves
---   window_events = { 'WinEnter', 'FocusGained' }, -- table<string> what events trigger cursor highlight
---   highlight = { bg = 'white', ctermbg = 15 }, -- vim.api.keyset.highlight table passed to vim.api.nvim_set_hl
--- },
-
-{"nvim-treesitter/nvim-treesitter-textobjects",
-  dependencies = "nvim-treesitter/nvim-treesitter"},
-{ "karb94/neoscroll.nvim",
-config = function ()
-neoscroll = require('neoscroll')
-local keymap = {
-  ["J"] = function() neoscroll.ctrl_u({ duration = 250 }) end;
-  ["K"] = function() neoscroll.ctrl_d({ duration = 250 }) end;
-  ["<C-b>"] = function() neoscroll.ctrl_b({ duration = 450 }) end;
-  ["<C-f>"] = function() neoscroll.ctrl_f({ duration = 450 }) end;
-  ["<C-y>"] = function() neoscroll.scroll(-0.1, { move_cursor=false; duration = 100 }) end;
-  ["<C-e>"] = function() neoscroll.scroll(0.1, { move_cursor=false; duration = 100 }) end;
-  ["zt"]    = function() neoscroll.zt({ half_screen_duration = 250 }) end;
-  ["zz"]    = function() neoscroll.zz({ half_screen_duration = 250 }) end;
-  ["zb"]    = function() neoscroll.zb({ half_screen_duration = 250 }) end;
-}
-local modes = { 'n', 'v', 'x' }
-for key, func in pairs(keymap) do
-  vim.keymap.set(modes, key, func)
-end
-end
-},
+-- { "karb94/neoscroll.nvim",
+-- config = function ()
+-- neoscroll = require('neoscroll')
+-- local keymap = {
+--   ["J"] = function() neoscroll.ctrl_u({ duration = 250 }) end;
+--   ["K"] = function() neoscroll.ctrl_d({ duration = 250 }) end;
+--   ["<C-b>"] = function() neoscroll.ctrl_b({ duration = 450 }) end;
+--   ["<C-f>"] = function() neoscroll.ctrl_f({ duration = 450 }) end;
+--   ["<C-y>"] = function() neoscroll.scroll(-0.1, { move_cursor=false; duration = 100 }) end;
+--   ["<C-e>"] = function() neoscroll.scroll(0.1, { move_cursor=false; duration = 100 }) end;
+--   ["zt"]    = function() neoscroll.zt({ half_screen_duration = 250 }) end;
+--   ["zz"]    = function() neoscroll.zz({ half_screen_duration = 250 }) end;
+--   ["zb"]    = function() neoscroll.zb({ half_screen_duration = 250 }) end;
+-- }
+--local modes = { 'n', 'v', 'x' }
+--for key, func in pairs(keymap) do
+--  vim.keymap.set(modes, key, func)
+--end
+--end
+--},
 -- "MysticalDevil/inlay-hints.nvim",
 --     event = "LspAttach",
 --     dependencies = { "neovim/nvim-lspconfig" },
@@ -86,7 +80,12 @@ end
 --         require("inlay-hints").setup()
 --     end,
 {'stevearc/resession.nvim'},
-{ 'sindrets/diffview.nvim', dependencies = 'nvim-lua/plenary.nvim', lazy = true },
+{
+  "esmuellert/codediff.nvim",
+  dependencies = { "MunifTanjim/nui.nvim" },
+  cmd = "CodeDiff",
+},
+-- { 'sindrets/diffview.nvim', dependencies = 'nvim-lua/plenary.nvim', lazy = true },
 -- {
 --     "yuki-yano/highlight-undo.nvim",
 --     config = function()
@@ -126,28 +125,40 @@ end
     require("fzf-lua").setup({})
   end
 },
+{
+  'stevearc/oil.nvim',
+  ---@module 'oil'
+  ---@type oil.SetupOpts
+  opts = {},
+  -- Optional dependencies
+  dependencies = { { "echasnovski/mini.icons", opts = {} } },
+  -- dependencies = { "nvim-tree/nvim-web-devicons" }, -- use if you prefer nvim-web-devicons
+  -- Lazy loading is not recommended because it is very tricky to make it work correctly in all situations.
+  lazy = false,
+},
 {'kevinhwang91/nvim-ufo', dependencies = 'kevinhwang91/promise-async', lazy = true},
--- {'gbprod/yanky.nvim', lazy = true},
+{'gbprod/yanky.nvim', lazy = true},
 -- {'ThePrimeagen/harpoon', dependencies = "nvim-lua/plenary.nvim"},
 -- {'jose-elias-alvarez/null-ls.nvim', dependencies = "nvim-lua/plenary.nvim" },
 -- {'nvim-telescope/telescope-fzf-native.nvim', lazy = true},
 {'folke/todo-comments.nvim', lazy = true},
+{ "nvim-treesitter/nvim-treesitter", branch = "main", build = ":TSUpdate" },
 {'L3MON4D3/LuaSnip', lazy = true },
 {'saadparwaiz1/cmp_luasnip', lazy = true},
-{'nvim-treesitter/playground', lazy = false},
-{
-    "nvim-treesitter/nvim-treesitter",
-    config = function()
-        -- setup treesitter with config
-    end,
-    dependencies = {
-        -- NOTE: additional parser
-        { "nushell/tree-sitter-nu", build = ":TSUpdate nu" },
-    },
-    build = ":TSUpdate",
-},
--- {'LhKipp/nvim-nu', dependencies = { "nvim-treesitter/nvim-treesitter", "jose-elias-alvarez/null-ls.nvim", lazy = true}
+{'nvim-treesitter/playground', lazy = true},
+-- {
+--     "nvim-treesitter/nvim-treesitter",
+--     config = function()
+--         -- setup treesitter with config
+--     end,
+--     dependencies = {
+--         -- NOTE: additional parser
+--         { "nushell/tree-sitter-nu", build = ":TSUpdate nu" },
+--     },
+--     build = ":TSUpdate",
 -- },
+{'LhKipp/nvim-nu', dependencies = { "nvim-treesitter/nvim-treesitter", "jose-elias-alvarez/null-ls.nvim", lazy = true}
+},
 {'echasnovski/mini.nvim', lazy =true },
 {'lukas-reineke/indent-blankline.nvim', event = { "BufRead", "BufNewFile" }},
 {'folke/which-key.nvim', lazy = true},
@@ -171,7 +182,7 @@ end
     },
  },
 -- {'terrortylor/nvim-comment', cmd = "CommentToggle"},
-'nvim-lualine/lualine.nvim',
+{'nvim-lualine/lualine.nvim', lazy=false },
 {'justinhoward/fzf-neoyank', lazy=false },
 {'folke/tokyonight.nvim', lazy = true
 },
@@ -195,13 +206,37 @@ lazy = false, priority = 1000,
 config = function()
 vim.cmd([[colorscheme gruvbox]])
 end,},
-{'Shougo/neoyank.vim', dependencies = 'Shougo/denite.nvim'},
+-- {'Shougo/neoyank.vim', dependencies = 'Shougo/denite.nvim'},
 {'junegunn/fzf', lazy = false, build = ":call fzf#install()" },
 {'junegunn/fzf.vim', lazy = true},
-{'mbbill/undotree', cmd = "UndotreeToggle"},
+-- {'mbbill/undotree', cmd = "UndotreeToggle"},
 {'kevinhwang91/nvim-bqf', lazy = false},
-{'nvim-telescope/telescope.nvim', lazy = true, dependencies = "nvim-lua/plenary.nvim",
+{
+    'nvim-telescope/telescope.nvim',
+      dependencies = { 'nvim-lua/plenary.nvim' }
 },
+
+-- {
+--   "nvim-telescope/telescope.nvim",
+--   dependencies = {
+--     "nvim-lua/plenary.nvim",
+--     "debugloop/telescope-undo.nvim",
+--   },
+--   config = function()
+--     require("telescope").setup({
+--       -- the rest of your telescope config goes here
+--       extensions = {
+--         undo = {
+--           -- telescope-undo.nvim config, see below
+--         },
+--         -- other extensions:
+--         -- file_browser = { ... }
+--       },
+--     })
+--     require("telescope").load_extension("undo")
+--     -- optional: vim.keymap.set("n", "<leader>u", "<cmd>Telescope undo<cr>")
+--   end,
+-- },
 {'mg979/vim-visual-multi', lazy = false},
 
 })
@@ -223,17 +258,29 @@ require("luasnip.loaders.from_lua").load({
                     libuv = true,
                 },
 })
-					-- end
--- vim.lsp.inlay_hint.enable(not vim.lsp.inlay_hint.is_enabled())
+vim.diagnostic.config({
+  -- Use the default configuration
+  virtual_lines = true
+
+  -- Alternatively, customize specific options
+  -- virtual_lines = {
+  --  -- Only show virtual line diagnostics for the current cursor line
+  --  current_line = true,
+  -- },
+})
 require 'nvim-treesitter.install'.compilers = { 'clang' }
 require('settings')
 require('functions')
 require('set')
 require('au')
 require('keymaps')
-
-
-
+vim.lsp.enable({
+  -- lua
+  "luals",
+	-- "texlab",
+	-- "nuls",
+	-- "jsonls"
+})
 -- require('mini.indentscope').setup()
 -- require('mini.trailspace').setup()
 -- require('mini.pairs').setup()

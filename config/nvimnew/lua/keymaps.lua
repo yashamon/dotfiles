@@ -2,17 +2,13 @@ local map= vim.keymap.set
 local command = vim.api.nvim_create_user_command
 vim.keymap.set({'n', 'v'}, '<leader>lr', vim.lsp.buf.references, { buffer=true })
 map('t', '<m-p>', [[getreg('+')]], {expr = true})
-map({'i','n'}, '<m-t>', function ()  vim.cmd('up')
-end, { buffer=true })
 map('n','m-s', Line, {} )
 map({'i','n'},'<c-Tab>', function() vim.cmd('edit #') end, {} )
 -- map('n','M', function() require("harpoon.mark").add_file() end, {})
 -- map('n','<Tab>', function() require("harpoon.ui").nav_next() end,{})
 -- map('n','<S-Tab>', function() require("harpoon.ui").nav_prev() end, {})
 -- map('n',';hl', function() require("harpoon.ui").toggle_quick_menu() end, {})
-map('n', 'S', Sentence, {})
-
-
+map('n', 'S', Sentence, {}) --search mapping bqf
 -- commands
 command('Git', 'FzfLua git_bcommits', {})
 command('Gtd', 'TodoQuickFix', {})
@@ -40,7 +36,7 @@ map({'n'}, ';h', function() vim.cmd('Telescope neoclip')  end,{})
 map('n', '<leader>f', function() vim.cmd('up'); Server(); vim.cmd('te lf'); Feedkey('i','i') end, {})
 map('n', '<leader>lg', function() vim.cmd('up'); Server(); vim.cmd('te lazygit'); Feedkey('i','i') end, {})
 map('n', '<leader>t', function() vim.cmd('up'); Server(); vim.cmd('edit term://nu'); Feedkey('i','i') end, {})
-map('n', '<leader>u', function() vim.cmd('UndotreeToggle') end, {})
+map('n', '<leader>u', function() require('undotree').toggle() end, {})
 -- map('v', '<leader>c', ':CommentToggle<cr>', {})
 map({'n', 'v'}, '<leader>c', 'gc', {remap = true})
 -- tnoremap <m-d> <C-\><C-n>:bdelete!<cr>
@@ -59,7 +55,7 @@ map('n', '<m-b>', function() vim.cmd('up'); vim.cmd('FzfLua buffers') end, {})
 -- map('n', '<m-b>', function()  require('telescope.builtin').buffers({layout_strategy='vertical',layout_config={width=0.9}}) end, {})
 map('n', '<m-i>', function() require('telescope.builtin').git_bcommits({layout_strategy='vertical',layout_config={width=0.9}}) end, {})
 map('n', '<m-u>', function() vim.cmd('cg C:/Users/yasha/_vim_mru_files | copen call feedkeys("zf")') end, {})
-map('n', '<m-f>', function () vim.cmd('FZF ~') end, {})
+map('n', '<m-f>', function () vim.cmd(':FzfLua files cwd=~/OneDrive/workspacemodules') end, {})
 map('n', '<leader>gs', function() vim.cmd('up | source $MYVIMRC') end, {})
 map({'n', 'v'}, 'q:', '<nop>', {})
 map('n', '<C-c>', function() vim.cmd('set hlsearch!') end, {})
@@ -69,8 +65,8 @@ map('n', 'g?',  vim.diagnostic.open_float, {})
 
 --Leap
 --
-map({'n', 'v'}, 't',  '<Plug>(leap-forward)', {})
-map({'n', 'v'}, 'T', '<Plug>(leap-backward)', {})
+map({'n', 'v'}, 't',  'mj<Plug>(leap-forward)', {})
+map({'n', 'v'}, 'T', 'mj<Plug>(leap-backward)', {})
 
 -- Luasnip
 map('i', '<S-Tab>', function ()
@@ -102,6 +98,8 @@ map('t', '<A-`>', '<C-\\><C-n>', {remap=true})
 
 -- Latex maps
 map('n', '<leader>v', ViewPdf2, {})
+map('n', '<leader>o', ViewPdfRef, {})
+
 map({'i', 'n'}, '<m-v>', function ()
 Feedkey('<esc>', 'in')
 vim.cmd('up')
@@ -122,8 +120,8 @@ map ('i', '<m-p>', '<c-r>+')
 -- jump to error
 map ('n', 'gE', 'viwy<m-c>:<c-r>+<cr>', {remap = true})
 map ('n', 'gL', 'viwy<m-c>:<c-r>+<cr>', {remap = true})
-map ({'n','v'}, 'K', function() neoscroll.ctrl_u({ duration = 100 }) end)
-map ({'n','v'}, 'J', function() neoscroll.ctrl_d({ duration = 100 }) end)
+-- map ({'n','v'}, 'K', function() neoscroll.ctrl_u({ duration = 100 }) end)
+-- map ({'n','v'}, 'J', function() neoscroll.ctrl_d({ duration = 100 }) end)
 vim.keymap.set("c", "<cr>", function()
   if vim.fn.pumvisible() == 1 then return '<c-y>' end
   return '<cr>'
@@ -227,8 +225,8 @@ noremap j gj
 noremap k gk
 noremap <Space> .
 vnoremap <Space> t <cr>
-" noremap K <C-u>
-" noremap J <C-d>
+noremap K <C-u>
+noremap J <C-d>
 noremap <C-j> <C-e>jj
 noremap <C-k> <C-y>kk
 nnoremap <leader>j J

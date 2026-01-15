@@ -17,7 +17,7 @@
 "href": {
     "prefix": "href",
     "body": [
-        "\\href{$1} $0" 
+        "\\href{$1} $0"
        ],
     "description": "href"
  }, 
@@ -664,7 +664,7 @@
     "description": "Paragraph"
   },
         "Split": {
-    "prefix": "spl",
+    "prefix": ["latspl", "latsplit"],
     "body": [
       "\\begin{split}",
       "\t$1",
@@ -743,7 +743,7 @@
     "description": "Tabular"  
   },
   "\\begin{}…\\end{}": {
-    "prefix": ["b", "begin"],
+    "prefix": ["latb", "latbegin"],
     "body": [
       "\\\\begin{${1:env}}",
       "\t${2/(enumerate|itemize|list)|(description)|.*/(?1:\\item )(?2:\\item)/}$0",
@@ -752,7 +752,7 @@
     "description": "Begin - End"
   },
   "Figure": {
-    "prefix": "latfigure",
+    "prefix": ["latfigure", "latfig"],
     "body": [
       "\\begin{figure}",
       "\t\\begin{center}",
@@ -1666,14 +1666,6 @@
     "description": "quad"
   }, 
 
-"isomorphic": {
-    "prefix": ["isom", "seq"],
-    "body": [
-      "\\simeq $0"
-    ],
-    "description": "isomorphic"
-  }, 
-
 
 "defined by": {
     "prefix": ["db"],
@@ -1682,144 +1674,6 @@
     ],
     "description": "defined by"
   }, 
-"overline": {
-    "prefix": ["over"],
-    "body": [
-      "\\overline{$1} $0"
-    ],
-    "description": "overline"
-  },
-"dot": {
-    "prefix": ["dot"],
-    "body": [
-      "\\dot $0"
-    ],
-    "description": "over dot"
-  },
-	"widehat": {
-    "prefix": ["wh"],
-    "body": [
-      "\\widehat{$1} $0"
-    ],
-    "description": "over widehat"
-  },
-
-"hat": {
-    "prefix": ["hat"],
-    "body": [
-      "\\hat{$1} $0"
-    ],
-    "description": "over hat"
-  },
-
-"widetilda": {
-    "prefix": ["wt"],
-    "body": [
-      "\\widetilde{$1} $0"
-    ],
-    "description": "over tilde"
-  },
-
-
-"exists": {
-    "prefix": ["ex"],
-    "body": [
-      "\\exists $0 "
-    ],
-    "description": "exists"
-  },
-
-"for all": {
-    "prefix": ["fa"],
-    "body": [
-      "\\forall $1 \\in $2 \\; $0"
-    ],
-    "description": "for all"
-  },
-"bullet": {
-    "prefix": ["bul"],
-    "body": [
-      "\\bullet $0"
-    ],
-    "description": "bullet"
-  },
-
-"equal": {
-    "prefix": ["eql"],
-    "body": [
-      "= $0"
-    ],
-    "description": "equal"
-  },
-
-"not in": {
-    "prefix": ["nin"],
-    "body": [
-      "\\notin $0"
-    ],
-    "description": "not in"
-  },
-
-"in": {
-    "prefix": ["in"],
-    "body": [
-      "\\in $0"
-    ],
-    "description": "in"
-  },
-"definition": {
-    "prefix": ["df"],
-    "body": [
-      ":= $0"
-    ],
-    "description": "definition"
-  }, 
-"greater equal": {
-    "prefix": ["geq"],
-    "body": [
-      "\\geq $0"
-    ],
-    "description": "geq"
-  },
-
-"less equal": {
-    "prefix": ["leq"],
-    "body": [
-      "\\leq $0"
-    ],
-    "description": "leq"
-  },
-
- 
-"product": {
-    "prefix": ["prod"],
-    "body": [
-      "\\prod _{$1} $0"
-    ],
-    "description": "big intersection"
-  },
-
-"big intersection cap": {
-    "prefix": ["bic"],
-    "body": [
-      "\\bigcap _{$1} $0"
-    ],
-    "description": "big intersection"
-  },
-"Von Neumann ": {
-    "prefix": ["von"],
-    "body": [
-      "Von Neumann"
-    ],
-    "description": ""
-  },
-"sigma": {
-    "prefix": ["si"],
-    "body": [
-      "\\sigma $0"
-    ],
-    "description": "sigma"
-  },
 
 
 

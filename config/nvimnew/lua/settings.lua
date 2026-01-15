@@ -1,217 +1,60 @@
--- vim.opt.listchars:append "eol:↴"
--- To get telescope-file-browser loaded and working with telescope,
--- you need to call load_extension, somewhere after setup function:
-	    -- show_end_of_line = true,
--- }
+local treesitter = require("nvim-treesitter")
 
--- require("lazy").setup({{
---     "nvim-treesitter/nvim-treesitter",
---     build = ":TSUpdate",
---     config = function () 
---       local configs = require("nvim-treesitter.configs")
---
---       configs.setup({
---           ensure_installed = {"lua", "vim", "vimdoc", "nu", "latex", "html" },
---           sync_install = false,
---          highlight = {
--- 			enable = true,
--- 			use_languagetree = true,
--- 			additional_vim_regex_highlighting = true },
---       indent = { enable = true },  
---         })
---     end
---  }})
--- API usage example:
--- local neophyte = require('neophyte')
--- neophyte.setup({
---   fonts = {
---     {
---       name = 'Cascadia Code PL',
---       features = {
---         {
---           name = 'calt',
---           value = 1,
---         },
---         -- Shorthand to set a feature to 1
---         'ss01',
---         'ss02',
---       },
---     },
---     -- Shorthand for no features or variations
---     'Symbols Nerd Font',
---     'Noto Color Emoji',
---   },
---   font_size = {
---     kind = 'width', -- 'width' | 'height'
---     size = 20,
---   },
---   -- Multipliers of the base animation speed.
---   -- To disable animations, set these to large values like 1000.
---   cursor_speed = 2,
---   scroll_speed = 2,
---   -- Increase or decrease the distance from the baseline for underlines.
---   underline_offset = 1,
---   -- For transparent window effects, use this to set the default background color.
---   -- This is because most colorschemes in transparent mode unset the background,
---   -- which normally defaults to the terminal background, but we don't have that here.
---   -- You must also pass --transparent as a command-line argument to see the effect.
---   -- Channel values are in the range 0-255.
---   bg_override = {
---     r = 48,
---     g = 52,
---     b = 70,
---     a = 128,
---   },
--- })
---
--- -- Alternatively, the guifont option is supported:
--- -- vim.opt.guifont = 'Cascadia Code PL:w10, Symbols Nerd Font, Noto Color Emoji'
---
--- -- There are also freestanding functions to set these options as desired:
---
--- -- Increase font size
--- vim.keymap.set('n', '<c-+>', function()
---   neophyte.set_font_width(neophyte.get_font_width() + 1)
--- end)
---
--- -- Decrease font size
--- vim.keymap.set('n', '<c-->', function()
---   neophyte.set_font_width(neophyte.get_font_width() - 1)
--- end)
-
--- Use cmd-ctrl-f to toggle fullsreen on MacOS
-
--- Neophyte can also record frames to a PNG sequence.
--- You can convert to a video with ffmpeg:
---
--- ffmpeg -framerate 60 -pattern_type glob -i '/my/frames/location/*.png'
--- -pix_fmt yuv420p -c:v libx264 -vf
--- "colorspace=all=bt709:iprimaries=bt709:itrc=srgb:ispace=bt709:range=tv:irange=pc"
--- -color_range 1 -colorspace 1 -color_primaries 1 -crf 23 -y /my/output/video.mp4
--- neophyte.start_render('/directory/to/output/frames/')
--- neophyte.end_render()
--- { 'stonelasley/flare.nvim' },
--- {
---   "folke/flash.nvim",
---   event = "VeryLazy",
---   ---@type Flash.Config
---   opts = {},
---   -- stylua: ignore
---   keys = {
---     { "s", mode = { "n", "x", "o" }, function() require("flash").jump() end, desc = "Flash" },
---     { "S", mode = { "n", "x", "o" }, function() require("flash").treesitter() end, desc = "Flash Treesitter" },
---     { "r", mode = "o", function() require("flash").remote() end, desc = "Remote Flash" },
---     { "R", mode = { "o", "x" }, function() require("flash").treesitter_search() end, desc = "Treesitter Search" },
---     { "<c-s>", mode = { "c" }, function() require("flash").toggle() end, desc = "Toggle Flash Search" },
---   },
--- },
-vim.diagnostic.config({
-  -- Use the default configuration
-  virtual_lines = true
-
-  -- Alternatively, customize specific options
-  -- virtual_lines = {
-  --  -- Only show virtual line diagnostics for the current cursor line
-  --  current_line = true,
-  -- },
+-- 1. Setup parser management
+treesitter.setup({
+  -- Optional: Specify custom install directory
+  -- install_dir = vim.fn.stdpath("data") .. "/site"
 })
 
+-- 2. Install desired parsers (replaces ensure_installed)
+treesitter.install({ "latex", "python", "lua", "nu" })
 
-local ts_config = require("nvim-treesitter.configs")
-ts_config.setup {
-	ensure_installed = {
-			"latex",
-			"python",
-			"lua"
-	},
-	highlight = {
-			enable = true,
-			use_languagetree = true,
-			additional_vim_regex_highlighting = true
-	},
-	keymaps = {
-		init_selection = '<m-CR>',
-		--scope_incremental = '<CR>',
-		node_incremental = '<TAB>',
-		node_decremental = '<S-TAB>',
-	},
-	indent = {enable = true},
-	-- playground = {
-	--     enable = true,
-	--     disable = {},
-	--     updatetime = 25, -- Debounced time for highlighting nodes in the playground from source code
-	--     persist_queries = false -- Whether the query persists across vim sessions
-	-- },
-	autotag = {enable = true},
-	rainbow = {enable = true},
-}
--- require("noice").setup({
---   lsp = {
---     -- override markdown rendering so that **cmp** and other plugins use **Treesitter**
---     override = {
---       ["vim.lsp.util.convert_input_to_markdown_lines"] = true,
---       ["vim.lsp.util.stylize_markdown"] = true,
---       ["cmp.entry.get_documentation"] = true, -- requires hrsh7th/nvim-cmp
---     },
---   },
---   -- you can enable a preset for easier configuration
---   presets = {
---     bottom_search = false, -- use a classic bottom cmdline for search
---     command_palette = true, -- position the cmdline and popupmenu together
---     long_message_to_split = true, -- long messages will be sent to a split
---     inc_rename = false, -- enables an input dialog for inc-rename.nvim
---     lsp_doc_border = false, -- add a border to hover docs and signature help
---   },
--- })
+-- 3. Enable Highlighting & Indentation via Autocommands
+vim.api.nvim_create_autocmd("FileType", {
+  callback = function()
+    -- Enable Treesitter highlighting for the current buffer
+    pcall(vim.treesitter.start)
+    
+    -- Enable Treesitter-based indentation (experimental)
+    -- Replaces indent = { enable = true }
+    vim.bo.indentexpr = "v:lua.require'nvim-treesitter'.indentexpr()"
+  end,
+})
 
--- require'nvim-treesitter.configs'.setup {
--- -- ensure_installed = "all", -- one of "all", "maintained" (parsers with maintainers), or a list of languages
---   incremental_selection = {
---     enable = true,
---     keymaps = {
---       init_selection = '<m-CR>',
---       --scope_incremental = '<CR>',
---       node_incremental = '<TAB>',
---       node_decremental = '<S-TAB>',
---     },
---   },
--- 	folding = { enable = true },
---   highlight = {
---     enable = true,              -- false will disable the whole extension
---     -- Instead of true it can also be a list of languages
---     additional_vim_regex_highlighting = false,
---   },
-vim.api.nvim_set_hl(0, 'Beacon', { bg = 'white' })
-local function has_value (tab, val)
-    for index, value in ipairs(tab) do
-        if value == val then
-            return true
-        end
-    end
+-- 4. Incremental Selection
+-- This feature was removed from nvim-treesitter core. 
+-- For a similar experience, use the 'treesitter-modules' plugin 
+-- or 'flash.nvim'.
 
-    return false
-end
-vim.api.nvim_create_autocmd("VimEnter", {
-		callback = function()
-		    local resession = require("resession")
--- Only load the session if nvim was started with no args
-		if has_value(resession.list(), "last") then
-			if vim.fn.argc(-1) == 0 then
-					resession.load("last", { silence_errors = true })
-			end
-				resession.delete("last", { silence_errors = true })
-				-- Open the last session if it exists
-		end
-    end,
-		nested = true,
-	})
-vim.api.nvim_create_autocmd("VimLeavePre", {
-		callback = function()
-			local resession = require("resession")
-			-- Always save a special session named "last"
-			resession.save("last", { notify = false })
-		end,
-	})
+
+-- local ts_config = require("nvim-treesitter.configs") 
+-- ts_config.setup {
+-- 	ensure_installed = {
+-- 			"latex",
+-- 			"python",
+-- 			"lua"
+-- 	},
+-- 	highlight = {
+-- 			enable = true,
+-- 			use_languagetree = true,
+-- 			additional_vim_regex_highlighting = true
+-- 	},
+-- 	keymaps = {
+-- 		init_selection = '<m-CR>',
+-- 		--scope_incremental = '<CR>',
+-- 		node_incremental = '<TAB>',
+-- 		node_decremental = '<S-TAB>',
+-- 	},
+-- 	indent = {enable = false},
+-- 	-- playground = {
+-- 	--     enable = true,
+-- 	--     disable = {},
+-- 	--     updatetime = 25, -- Debounced time for highlighting nodes in the playground from source code
+-- 	--     persist_queries = false -- Whether the query persists across vim sessions
+-- 	-- },
+-- 	autotag = {enable = true},
+-- 	rainbow = {enable = true},
+-- }
 require("resession").setup({
   -- Options for automatically saving sessions on a timer
 -- Resession does NOTHING automagically, so we have to set up some keymaps
@@ -563,100 +406,90 @@ undercurl = true,
         -- Statement = { fg = "#0000ff" }
     }
 })
-
+require("oil").setup()
+require('undotree').setup()
 -- nvim LSP
 -- require('snippets')
 require("mason").setup()
-require("mason-lspconfig").setup()
-require("lspconfig")
--- LSP config
-local lspconfig = require("lspconfig")
--- lspconfig.tsserver.setup {  LspAttach  = on_attach }
-lspconfig.lua_ls.setup {  LspAttach  = on_attach }
-lspconfig.jsonls.setup {  LspAttach  = on_attach }
--- lspconfig.biome.setup {  LspAttach  = on_attach }
-lspconfig.vimls.setup {  LspAttach  = on_attach }
-lspconfig.ltex.setup { autostart = false; LspAttach = on_attach }
-lspconfig.texlab.setup {  LspAttach  = on_attach }
--- lspconfig stuff    
--- local nvim_lsp = require('lspconfig')
--- Use an on_attach function to only map the following keys
--- after the language server attaches to the current buffer
-local on_attach = function(client, bufnr)
-local function buf_set_keymap(...) vim.api.nvim_buf_set_keymap(bufnr, ...) end
-
-require'lspconfig'.lua_ls.setup {
-on_init = function(client)
-    local path = client.workspace_folders[1].name
-    if vim.loop.fs_stat(path..'/.luarc.json') or vim.loop.fs_stat(path..'/.luarc.jsonc') then
-      return
-    end
-
-    client.config.settings.Lua = vim.tbl_deep_extend('force', client.config.settings.Lua, {
-      runtime = {
-        -- Tell the language server which version of Lua you're using
-        -- (most likely LuaJIT in the case of Neovim)
-        version = 'LuaJIT'
-      },
-      -- Make the server aware of Neovim runtime files
-      workspace = {
-        checkThirdParty = false,
-        library = {
-          vim.env.VIMRUNTIME
-          -- Depending on the usage, you might want to add additional paths here.
-          -- "${3rd}/luv/library"
-          -- "${3rd}/busted/library",
-        }
-        -- or pull in all of 'runtimepath'. NOTE: this is a lot slower
-        -- library = vim.api.nvim_get_runtime_file("", true)
-      }
-    })
-  end,
-  settings = {
-   Lua = {
-  }
-}}
-require("lspconfig").lua_ls.setup({
-  settings = {
-    Lua = {
-			inlay_hint = { enable = true},
-      hint = {
-        enable = true, -- necessary
-      }
-    }
-  }
+-- require("mason-lspconfig").setup()
+-- -- LSP config
+-- local lspconfig = vim.lsp.config()
+-- local lspconfig = require("lspconfig")
+vim.lsp.config("jsonls.setup", {
+	{ LspAttach  = on_attach }
 })
+vim.lsp.enable({"jsonls"})
+vim.lsp.config("lua_ls", {
+	{ LspAttach  = on_attach }
+})
+vim.lsp.enable({"lua_ls"})
+vim.lsp.config("vimls", {
+	{ LspAttach  = on_attach }
+})
+vim.lsp.enable({"vimls"})
+
+-- -- lspconfig.tsserver.setup {  LspAttach  = on_attach }
+-- lspconfig.lua_ls.setup {  LspAttach  = on_attach }
+-- lspconfig("jsonls.setup", {  LspAttach  = on_attach })
+-- lspconfig.biome.setup {  LspAttach  = on_attach }
+-- lspconfig("vimls.setup",  { LspAttach  = on_attach })
+-- lspconfig.ltex.setup { autostart = false; LspAttach = on_attach }
+-- lspconfig.texlab.setup {  LspAttach  = on_attach }
+-- -- lspconfig stuff    
+-- -- local nvim_lsp = require('lspconfig')
+-- -- Use an on_attach function to only map the following keys
+-- -- after the language server attaches to the current buffer
+-- local on_attach = function(client, bufnr)
+-- local function buf_set_keymap(...) vim.api.nvim_buf_set_keymap(bufnr, ...) end
+--
+-- require'lspconfig'.lua_ls.setup {
+-- on_init = function(client)
+--     local path = client.workspace_folders[1].name
+--     if vim.loop.fs_stat(path..'/.luarc.json') or vim.loop.fs_stat(path..'/.luarc.jsonc') then
+--       return
+--     end
+--
+--     client.config.settings.Lua = vim.tbl_deep_extend('force', client.config.settings.Lua, {
+--       runtime = {
+--         -- Tell the language server which version of Lua you're using
+--         -- (most likely LuaJIT in the case of Neovim)
+--         version = 'LuaJIT'
+--       },
+--       -- Make the server aware of Neovim runtime files
+--       workspace = {
+--         checkThirdParty = false,
+--         library = {
+--           vim.env.VIMRUNTIME
+--           -- Depending on the usage, you might want to add additional paths here.
+--           -- "${3rd}/luv/library"
+--           -- "${3rd}/busted/library",
+--         }
+--         -- or pull in all of 'runtimepath'. NOTE: this is a lot slower
+--         -- library = vim.api.nvim_get_runtime_file("", true)
+--       }
+--     })
+--   end,
+--   settings = {
+--    Lua = {
+--   }
+-- }}
+-- require("lspconfig").lua_ls.setup({
+--   settings = {
+--     Lua = {
+-- 			inlay_hint = { enable = true},
+--       hint = {
+--         enable = true, -- necessary
+--       }
+--     }
+--   }
+-- })
 
 --
 -- local function buf_set_option(...) vim.api.nvim_buf_set_option(bufnr, ...) end
 -- Enable completion triggered by <c-x><c-o>
-buf_set_keymap('omnifunc', 'v:lua.vim.lsp.omnifunc')
-
 -- require'lspconfig'.sumneko_lua.setup(require("config.lua-lsp"))
--- require'lspconfig'.lua_ls.setup(require("lualsp")) -- Mappings.
-local opts = { noremap=true, silent=true }
-
-  -- See `:help vim.lsp.*` for documentation on any of the below functions
-  buf_set_keymap('n', 'gD', '<cmd>lua vim.lsp.buf.declaration()<CR>', opts)
-  buf_set_keymap('n', 'gd', '<cmd>lua vim.lsp.buf.definition()<CR>', opts)
-  buf_set_keymap('n', 'gh', '<cmd>lua vim.lsp.buf.hover()<CR>', opts)
-  buf_set_keymap('n', 'gi', '<cmd>lua vim.lsp.buf.implementation()<CR>', opts)
-  buf_set_keymap('n', '<S-C-k>', '<cmd>lua vim.lsp.buf.signature_help()<CR>', opts)
-  buf_set_keymap('n', 'gwa', '<cmd>lua vim.lsp.buf.add_workspace_folder()<CR>', opts)
-  buf_set_keymap('n', 'gwr', '<cmd>lua vim.lsp.buf.remove_workspace_folder()<CR>', opts)
-  buf_set_keymap('n', 'gwl', '<cmd>lua print(vim.inspect(vim.lsp.buf.list_workspace_folders()))<CR>', opts)
-  buf_set_keymap('n', 'gtD', '<cmd>lua vim.lsp.buf.type_definition()<CR>', opts)
-  buf_set_keymap('n', '<space>rn', '<cmd>lua vim.lsp.buf.rename()<CR>', opts)
-  buf_set_keymap('n', 'ga', '<cmd>lua vim.lsp.buf.code_action()<CR>', opts)
-  buf_set_keymap('n', 'gr', '<cmd>lua vim.lsp.buf.references()<CR>', opts)
-  buf_set_keymap('n', 'gld', '<cmd>lua vim.lsp.diagnostic.show_line_diagnostics()<CR>', opts)
-  buf_set_keymap('n', '[d', '<cmd>lua vim.lsp.diagnostic.goto_prev()<CR>', opts)
-  buf_set_keymap('n', ']d', '<cmd>lua vim.lsp.diagnostic.goto_next()<CR>', opts)
-  buf_set_keymap('n', 'gq', '<cmd>lua vim.lsp.diagnostic.set_loclist()<CR>', opts)
-  buf_set_keymap('n', 'gf', '<cmd>lua vim.lsp.buf.formatting()<CR>', opts)
-end
-
-  -- Setup cmp.
+-- require'lspconfig'.lua_ls.setup(require("lualsp")) -- Mappings. 
+-- Setup cmp.
 
 local has_words_before = function()
   unpack = unpack or table.unpack
@@ -727,7 +560,6 @@ sources = cmp.config.sources({
 }),
 -- completion = { autocomplete = false }
 })
-
 --require('nvim_comment').setup({
    -- Linters prefer comment and line to have a space in between markers
  --  marker_padding = true,
@@ -872,41 +704,41 @@ require('lualine').setup {
   inactive_winbar = {},
   extension = {}
 }
--- require("yanky").setup{
---   ring = {
---     history_length = 100,
---     storage = "shada",
---     storage_path = vim.fn.stdpath("data") .. "/databases/yanky.db", -- Only for sqlite storage
---     sync_with_numbered_registers = true,
---     cancel_event = "update",
---     ignore_registers = { "_" },
---     update_register_on_cycle = false,
---   },
---   picker = {
---     select = {
---       action = nil, -- nil to use default put action
---     },
---     telescope = {
---       use_default_mappings = false, -- if default mappings should be used
---       mappings = nil, -- nil to use default mappings or no mappings (see `use_default_mappings`)
---     },
---   },
---   system_clipboard = {
---     sync_with_ring = true,
---     clipboard_register = nil,
---   },
---   highlight = {
---     on_put = true,
---     on_yank = true,
---     timer = 500,
---   },
---   preserve_cursor_position = {
---     enabled = true,
---   },
---   textobj = {
---    enabled = true,
---   },
--- }
+require("yanky").setup{
+  ring = {
+    history_length = 100,
+    storage = "shada",
+    storage_path = vim.fn.stdpath("data") .. "/databases/yanky.db", -- Only for sqlite storage
+    sync_with_numbered_registers = true,
+    cancel_event = "update",
+    ignore_registers = { "_" },
+    update_register_on_cycle = false,
+  },
+  picker = {
+    select = {
+      action = nil, -- nil to use default put action
+    },
+    telescope = {
+      use_default_mappings = false, -- if default mappings should be used
+      mappings = nil, -- nil to use default mappings or no mappings (see `use_default_mappings`)
+    },
+  },
+  system_clipboard = {
+    sync_with_ring = true,
+    clipboard_register = nil,
+  },
+  highlight = {
+    on_put = true,
+    on_yank = true,
+    timer = 500,
+  },
+  preserve_cursor_position = {
+    enabled = true,
+  },
+  textobj = {
+   enabled = true,
+  },
+}
 -- vim.keymap.set({"n","x"}, ";p", "<Plug>(YankyPutAfter)")
 -- vim.keymap.set({"n","x"}, ";P", "<Plug>(YankyPutBefore)")
 -- vim.keymap.set({"n","x"}, "gp", "<Plug>(YankyGPutAfter)")

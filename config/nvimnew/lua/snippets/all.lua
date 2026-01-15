@@ -232,7 +232,7 @@ end
 ls.add_snippets("tex", {
 	-- rec_ls is self-referencing. That makes this snippet 'infinite' eg. have as many
 	-- \item as necessary by utilizing a choiceNode.
-	s("ls", {
+	s("latitm", {
 		t({ "\\begin{itemize}", "\t\\item " }),
 		i(1),
 		d(2, rec_ls, {}),
@@ -333,8 +333,7 @@ s({
 trig = "ins",
 },
 {
-t({'i('}), i(1,"n"), t({","}),
-i(2, "i"), t({"\")"})
+t({'i('}), i(1,"n"), t({",\"\")"})
 })
 },
 })
@@ -419,10 +418,22 @@ ls.add_snippets("tex", {
 })
 
 ls.add_snippets("tex", {
+	s("in", {
+		t({"\\in"}),
+		i("1",""),
+	}, { condition = Is_math }),
+})
+
+ls.add_snippets("tex", {
 	s("sqrt", {
 		t({"\\sqrt"}),
 		i("1",""),
 	}),
+})
+ls.add_snippets("tex", {
+	s("fa", {
+		t({"\\forall "}), i(1,""), t({" \\in "}), i(2,""), t({"\\;"}), i(0,"")
+	}, { condition = Is_math }),
 })
 
 ls.add_snippets("tex", {
@@ -459,6 +470,18 @@ ls.add_snippets("tex", {
 		i("1",""),
 	}),
 })
+ls.add_snippets("tex", {
+	s("d", {
+		t({"\\delta"}),
+		i("1",""),
+	}, { condition = Is_math }),
+})
+ls.add_snippets("tex", {
+	s("del", {
+		t({"\\delta"}),
+		i("1",""),
+	}, { condition = Is_math }),
+})
 
 ls.add_snippets("tex", {
 	s("D", {
@@ -482,7 +505,7 @@ ls.add_snippets("tex", {
 	}),
 })
 ls.add_snippets("tex", {
-	s("sp", {
+	s("space", {
 		t({"\\;"}),
 		i("1",""),
 	}),
@@ -502,7 +525,7 @@ ls.add_snippets("tex", {
 })
 ls.add_snippets("tex", {
 	s("footnote", {
-		t({"\\footnote{"}), i(1, "tengu"), t({"}"}),
+		t({"\\footnote{"}), i(1, ""), t({"}"}),
 	}, { condition = not Is_math }),
 })
 ls.add_snippets("tex", {
@@ -513,6 +536,196 @@ ls.add_snippets("tex", {
 		i("1",""),
 	}),
 })
+ls.add_snippets("tex", {
+	-- rec_ls is self-referencing. That makes this snippet 'infinite' eg. have as many
+	-- \item as necessary by utilizing a choiceNode.
+	s("infi", {
+		t({"\\infty}"}),
+		i("1",""),
+	}, { condition = Is_math }),
+})
+
+ls.add_snippets("tex", {
+	-- rec_ls is self-referencing. That makes this snippet 'infinite' eg. have as many
+	-- \item as necessary by utilizing a choiceNode.
+	s("wt", {
+		t({"\\widetilde{"}), i(1, ""), t({"}"}),
+		i("1",""),
+	}, { condition = Is_math }),
+})
+ls.add_snippets("tex", {
+	-- rec_ls is self-referencing. That makes this snippet 'infinite' eg. have as many
+	-- \item as necessary by utilizing a choiceNode.
+	s("leq", {
+		t({"\\leq "}), i(1, ""),
+	}, { condition = Is_math }),
+})
+ls.add_snippets("tex", {
+	-- rec_ls is self-referencing. That makes this snippet 'infinite' eg. have as many
+	-- \item as necessary by utilizing a choiceNode.
+	s("dne", {
+		t({"\\nexists "}), i(1, ""), 
+		i("1",""),
+	}, { condition = Is_math }),
+})
+
+ls.add_snippets("tex", {
+	-- rec_ls is self-referencing. That makes this snippet 'infinite' eg. have as many
+	-- \item as necessary by utilizing a choiceNode.
+	s("over", {
+		t({"\\overline{"}), i(1, ""), t({"}"}),
+		i("1",""),
+	}, { condition = Is_math }),
+})
+
+ls.add_snippets("tex", {
+	-- rec_ls is self-referencing. That makes this snippet 'infinite' eg. have as many
+	-- \item as necessary by utilizing a choiceNode.
+	s("bul", {
+		t({"\\bullet "}), i("1",""),
+	}, { condition = Is_math }),
+})
+
+
+-- "overline": {
+--     "prefix": ["over"],
+--     "body": [
+--       "\\overline{$1} $0"
+--     ],
+--     "description": "overline"
+--   },
+-- "dot": {
+--     "prefix": ["dot"],
+--     "body": [
+--       "\\dot $0"
+--     ],
+--     "description": "over dot"
+--   },
+-- 	"widehat": {
+--     "prefix": ["wh"],
+--     "body": [
+--       "\\widehat{$1} $0"
+--     ],
+--     "description": "over widehat"
+--   },
+--
+-- "hat": {
+--     "prefix": ["hat"],
+--     "body": [
+--       "\\hat{$1} $0"
+--     ],
+--     "description": "over hat"
+--   },
+--
+-- "widetilda": {
+--     "prefix": ["wt"],
+--     "body": [
+--       "\\widetilde{$1} $0"
+--     ],
+--     "description": "over tilde"
+--   },
+--
+--
+-- "exists": {
+--     "prefix": ["ex"],
+--     "body": [
+--       "\\exists $0 "
+--     ],
+--     "description": "exists"
+--   },
+--
+-- "for all": {
+--     "prefix": ["fa"],
+--     "body": [
+--       "\\forall $1 \\in $2 \\; $0"
+--     ],
+--     "description": "for all"
+--   },
+-- "bullet": {
+--     "prefix": ["bul"],
+--     "body": [
+--       "\\bullet $0"
+--     ],
+--     "description": "bullet"
+--   },
+--
+-- "equal": {
+--     "prefix": ["eql"],
+--     "body": [
+--       "= $0"
+--     ],
+--     "description": "equal"
+--   },
+--
+-- "not in": {
+--     "prefix": ["nin"],
+--     "body": [
+--       "\\notin $0"
+--     ],
+--     "description": "not in"
+--   },
+--
+-- "in": {
+--     "prefix": ["in"],
+--     "body": [
+--       "\\in $0"
+--     ],
+--     "description": "in"
+--   },
+-- "definition": {
+--     "prefix": ["df"],
+--     "body": [
+--       ":= $0"
+--     ],
+--     "description": "definition"
+--   }, 
+-- "greater equal": {
+--     "prefix": ["geq"],
+--     "body": [
+--       "\\geq $0"
+--     ],
+--     "description": "geq"
+--   },
+--
+-- "less equal": {
+--     "prefix": ["leq"],
+--     "body": [
+--       "\\leq $0"
+--     ],
+--     "description": "leq"
+--   },
+--
+--
+-- "product": {
+--     "prefix": ["prod"],
+--     "body": [
+--       "\\prod _{$1} $0"
+--     ],
+--     "description": "big intersection"
+--   },
+--
+-- "big intersection cap": {
+--     "prefix": ["bic"],
+--     "body": [
+--       "\\bigcap _{$1} $0"
+--     ],
+--     "description": "big intersection"
+--   },
+-- "Von Neumann ": {
+--     "prefix": ["von"],
+--     "body": [
+--       "Von Neumann"
+--     ],
+--     "description": ""
+--   },
+-- "sigma": {
+--     "prefix": ["si"],
+--     "body": [
+--       "\\sigma $0"
+--     ],
+--     "description": "sigma"
+--   },
+
 
 ls.add_snippets(nil, {
 tex = {

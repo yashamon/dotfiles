@@ -125,6 +125,37 @@ local filenametexwhole = vim.fn.expand('%:p')
 local filenameroot = vim.fn.expand('%:t:r')
 -- local filenamePDFLinux=filenamedir .. "/buildback/" .. filenameroot .. ".pdf"
 local filenamePDFWindows = filenamedir .. "/build/" .. filenameroot .. ".pdf"
+local execstrWindowsTectonic="tectonic -r 0 " .. filenametex .. " --outdir build --synctex --keep-logs --keep-intermediates"
+
+-- let execstrViewerSio="silent te pwsh -nop -c C:/Users/yasha/scoop/apps/sioyek/current/sioyek --forward-search-file " . filenametex . " --forward-search-line " . linenumber
+local execstrViewerSummatra = "C:/Users/yasha/scoop/shims/sumatrapdf.EXE -reuse-instance " .. filenamePDFWindows .. " -forward-search " .. filenametex .. " " .. linenumber
+local afterSio = "C:/Users/yasha/scoop/apps/sioyek/current/sioyek --execute-command   fit_to_page_height_smart"
+local killSio = "C:/Users/yasha/scoop/apps/sioyek/current/sioyek --execute-command quit"
+local execstrViewerSio = "C:/Users/yasha/scoop/apps/sioyek/current/sioyek " .. filenamePDFWindows .. " --forward-search-file " .. filenametex .. " --forward-search-line " .. linenumber
+-- let execstrWindows2="silent te pwsh -nop -c C:/Users/yasha/scoop/shims/sumatrapdf.EXE -reuse-instance " . b:filenamePDFWindows . " -forward-search " . filenametex . " " . linenumber
+-- let execstrWindows1="silent te pwsh -nop -c latexmk  -synctex=1 -file-line-error -f -interaction=nonstopmode " . filenametex
+Job("mkdir build")
+Job(execstrWindowsTectonic)
+-- Job(killSio)
+-- Job(execstrViewerSio)
+-- Job(killSio)
+-- vim.cmd('sleep 2000m')
+-- Job(execstrViewerSio)
+-- vim.cmd('sleep 500m')
+-- Job(afterSio)
+Job(execstrViewerSummatra)
+end
+ViewPdfRef = function()
+vim.cmd('up')
+Server()
+local linenumber = vim.api.nvim_win_get_cursor(0)[1]
+local colnumber = vim.api.nvim_win_get_cursor(0)[2] 
+local filenamedir = vim.fn.expand('%:p:h')
+local filenametex = vim.fn.expand('%:p:t')
+local filenametexwhole = vim.fn.expand('%:p')
+local filenameroot = vim.fn.expand('%:t:r')
+-- local filenamePDFLinux=filenamedir .. "/buildback/" .. filenameroot .. ".pdf"
+local filenamePDFWindows = filenamedir .. "/build/" .. filenameroot .. ".pdf"
 local execstrWindowsTectonic="tectonic " .. filenametex .. " --outdir build --synctex --keep-logs --keep-intermediates"
 
 -- let execstrViewerSio="silent te pwsh -nop -c C:/Users/yasha/scoop/apps/sioyek/current/sioyek --forward-search-file " . filenametex . " --forward-search-line " . linenumber
@@ -145,6 +176,7 @@ Job(execstrWindowsTectonic)
 -- Job(afterSio)
 Job(execstrViewerSummatra)
 end
+
 --
 OnUIEnter = function(event)
 	 	local ui = vim.api.nvim_get_chan_info(event.chan)
