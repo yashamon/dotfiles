@@ -80,7 +80,12 @@ require("lazy").setup({
 --         require("inlay-hints").setup()
 --     end,
 {'stevearc/resession.nvim'},
-{ 'sindrets/diffview.nvim', dependencies = 'nvim-lua/plenary.nvim', lazy = true },
+{
+  "esmuellert/codediff.nvim",
+  dependencies = { "MunifTanjim/nui.nvim" },
+  cmd = "CodeDiff",
+},
+-- { 'sindrets/diffview.nvim', dependencies = 'nvim-lua/plenary.nvim', lazy = true },
 -- {
 --     "yuki-yano/highlight-undo.nvim",
 --     config = function()
@@ -132,25 +137,26 @@ require("lazy").setup({
   lazy = false,
 },
 {'kevinhwang91/nvim-ufo', dependencies = 'kevinhwang91/promise-async', lazy = true},
--- {'gbprod/yanky.nvim', lazy = true},
+{'gbprod/yanky.nvim', lazy = true},
 -- {'ThePrimeagen/harpoon', dependencies = "nvim-lua/plenary.nvim"},
 -- {'jose-elias-alvarez/null-ls.nvim', dependencies = "nvim-lua/plenary.nvim" },
 -- {'nvim-telescope/telescope-fzf-native.nvim', lazy = true},
 {'folke/todo-comments.nvim', lazy = true},
+{ "nvim-treesitter/nvim-treesitter", branch = "main", build = ":TSUpdate" },
 {'L3MON4D3/LuaSnip', lazy = true },
 {'saadparwaiz1/cmp_luasnip', lazy = true},
 {'nvim-treesitter/playground', lazy = true},
-{
-    "nvim-treesitter/nvim-treesitter",
-    config = function()
-        -- setup treesitter with config
-    end,
-    dependencies = {
-        -- NOTE: additional parser
-        { "nushell/tree-sitter-nu", build = ":TSUpdate nu" },
-    },
-    build = ":TSUpdate",
-},
+-- {
+--     "nvim-treesitter/nvim-treesitter",
+--     config = function()
+--         -- setup treesitter with config
+--     end,
+--     dependencies = {
+--         -- NOTE: additional parser
+--         { "nushell/tree-sitter-nu", build = ":TSUpdate nu" },
+--     },
+--     build = ":TSUpdate",
+-- },
 {'LhKipp/nvim-nu', dependencies = { "nvim-treesitter/nvim-treesitter", "jose-elias-alvarez/null-ls.nvim", lazy = true}
 },
 {'echasnovski/mini.nvim', lazy =true },
@@ -176,7 +182,7 @@ require("lazy").setup({
     },
  },
 -- {'terrortylor/nvim-comment', cmd = "CommentToggle"},
-'nvim-lualine/lualine.nvim',
+{'nvim-lualine/lualine.nvim', lazy=false },
 {'justinhoward/fzf-neoyank', lazy=false },
 {'folke/tokyonight.nvim', lazy = true
 },

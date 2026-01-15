@@ -128,7 +128,7 @@ SmoothScroll = false
 ShowStartPage = true
 CheckForUpdates = false
 WindowState = 2
-WindowPos = -13 -13 1946 2084
+WindowPos = -11 0 1920 1920
 UseTabs = true
 UseSysColors = false
 CustomScreenDPI = 0
@@ -229,10 +229,23 @@ FileStates [
 		OpenCount = 0
 		UseDefaultState = true
 	]
+	[
+		FilePath = C:\Users\yasha\OneDrive\workspacemodules\conformalsymplectic\build\ellitpicinvariants.pdf
+		Favorites [
+			[
+				Name = a
+				PageNo = 16
+			]
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = true
+	]
 ]
 SessionData [
 ]
 TimeOfLastUpdateCheck = 0 0
-OpenCountWeek = 773
+OpenCountWeek = 782
 
 # Settings below are not recognized by the current version

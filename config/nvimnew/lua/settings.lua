@@ -1,31 +1,60 @@
-local ts_config = require("nvim-treesitter.configs") 
-ts_config.setup {
-	ensure_installed = {
-			"latex",
-			"python",
-			"lua"
-	},
-	highlight = {
-			enable = true,
-			use_languagetree = true,
-			additional_vim_regex_highlighting = true
-	},
-	keymaps = {
-		init_selection = '<m-CR>',
-		--scope_incremental = '<CR>',
-		node_incremental = '<TAB>',
-		node_decremental = '<S-TAB>',
-	},
-	indent = {enable = false},
-	-- playground = {
-	--     enable = true,
-	--     disable = {},
-	--     updatetime = 25, -- Debounced time for highlighting nodes in the playground from source code
-	--     persist_queries = false -- Whether the query persists across vim sessions
-	-- },
-	autotag = {enable = true},
-	rainbow = {enable = true},
-}
+local treesitter = require("nvim-treesitter")
+
+-- 1. Setup parser management
+treesitter.setup({
+  -- Optional: Specify custom install directory
+  -- install_dir = vim.fn.stdpath("data") .. "/site"
+})
+
+-- 2. Install desired parsers (replaces ensure_installed)
+treesitter.install({ "latex", "python", "lua", "nu" })
+
+-- 3. Enable Highlighting & Indentation via Autocommands
+vim.api.nvim_create_autocmd("FileType", {
+  callback = function()
+    -- Enable Treesitter highlighting for the current buffer
+    pcall(vim.treesitter.start)
+    
+    -- Enable Treesitter-based indentation (experimental)
+    -- Replaces indent = { enable = true }
+    vim.bo.indentexpr = "v:lua.require'nvim-treesitter'.indentexpr()"
+  end,
+})
+
+-- 4. Incremental Selection
+-- This feature was removed from nvim-treesitter core. 
+-- For a similar experience, use the 'treesitter-modules' plugin 
+-- or 'flash.nvim'.
+
+
+-- local ts_config = require("nvim-treesitter.configs") 
+-- ts_config.setup {
+-- 	ensure_installed = {
+-- 			"latex",
+-- 			"python",
+-- 			"lua"
+-- 	},
+-- 	highlight = {
+-- 			enable = true,
+-- 			use_languagetree = true,
+-- 			additional_vim_regex_highlighting = true
+-- 	},
+-- 	keymaps = {
+-- 		init_selection = '<m-CR>',
+-- 		--scope_incremental = '<CR>',
+-- 		node_incremental = '<TAB>',
+-- 		node_decremental = '<S-TAB>',
+-- 	},
+-- 	indent = {enable = false},
+-- 	-- playground = {
+-- 	--     enable = true,
+-- 	--     disable = {},
+-- 	--     updatetime = 25, -- Debounced time for highlighting nodes in the playground from source code
+-- 	--     persist_queries = false -- Whether the query persists across vim sessions
+-- 	-- },
+-- 	autotag = {enable = true},
+-- 	rainbow = {enable = true},
+-- }
 require("resession").setup({
   -- Options for automatically saving sessions on a timer
 -- Resession does NOTHING automagically, so we have to set up some keymaps
@@ -369,16 +398,30 @@ require('undotree').setup()
 -- nvim LSP
 -- require('snippets')
 require("mason").setup()
-require("mason-lspconfig").setup()
+-- require("mason-lspconfig").setup()
 -- -- LSP config
-local lspconfig = require("lspconfig")
+-- local lspconfig = vim.lsp.config()
+-- local lspconfig = require("lspconfig")
+vim.lsp.config("jsonls.setup", {
+	{ LspAttach  = on_attach }
+})
+vim.lsp.enable({"jsonls"})
+vim.lsp.config("lua_ls", {
+	{ LspAttach  = on_attach }
+})
+vim.lsp.enable({"lua_ls"})
+vim.lsp.config("vimls", {
+	{ LspAttach  = on_attach }
+})
+vim.lsp.enable({"vimls"})
+
 -- -- lspconfig.tsserver.setup {  LspAttach  = on_attach }
 -- lspconfig.lua_ls.setup {  LspAttach  = on_attach }
-lspconfig.jsonls.setup {  LspAttach  = on_attach }
+-- lspconfig("jsonls.setup", {  LspAttach  = on_attach })
 -- lspconfig.biome.setup {  LspAttach  = on_attach }
-lspconfig.vimls.setup {  LspAttach  = on_attach }
+-- lspconfig("vimls.setup",  { LspAttach  = on_attach })
 -- lspconfig.ltex.setup { autostart = false; LspAttach = on_attach }
-lspconfig.texlab.setup {  LspAttach  = on_attach }
+-- lspconfig.texlab.setup {  LspAttach  = on_attach }
 -- -- lspconfig stuff    
 -- -- local nvim_lsp = require('lspconfig')
 -- -- Use an on_attach function to only map the following keys
@@ -504,7 +547,6 @@ sources = cmp.config.sources({
 }),
 -- completion = { autocomplete = false }
 })
-
 --require('nvim_comment').setup({
    -- Linters prefer comment and line to have a space in between markers
  --  marker_padding = true,
@@ -649,41 +691,41 @@ require('lualine').setup {
   inactive_winbar = {},
   extension = {}
 }
--- require("yanky").setup{
---   ring = {
---     history_length = 100,
---     storage = "shada",
---     storage_path = vim.fn.stdpath("data") .. "/databases/yanky.db", -- Only for sqlite storage
---     sync_with_numbered_registers = true,
---     cancel_event = "update",
---     ignore_registers = { "_" },
---     update_register_on_cycle = false,
---   },
---   picker = {
---     select = {
---       action = nil, -- nil to use default put action
---     },
---     telescope = {
---       use_default_mappings = false, -- if default mappings should be used
---       mappings = nil, -- nil to use default mappings or no mappings (see `use_default_mappings`)
---     },
---   },
---   system_clipboard = {
---     sync_with_ring = true,
---     clipboard_register = nil,
---   },
---   highlight = {
---     on_put = true,
---     on_yank = true,
---     timer = 500,
---   },
---   preserve_cursor_position = {
---     enabled = true,
---   },
---   textobj = {
---    enabled = true,
---   },
--- }
+require("yanky").setup{
+  ring = {
+    history_length = 100,
+    storage = "shada",
+    storage_path = vim.fn.stdpath("data") .. "/databases/yanky.db", -- Only for sqlite storage
+    sync_with_numbered_registers = true,
+    cancel_event = "update",
+    ignore_registers = { "_" },
+    update_register_on_cycle = false,
+  },
+  picker = {
+    select = {
+      action = nil, -- nil to use default put action
+    },
+    telescope = {
+      use_default_mappings = false, -- if default mappings should be used
+      mappings = nil, -- nil to use default mappings or no mappings (see `use_default_mappings`)
+    },
+  },
+  system_clipboard = {
+    sync_with_ring = true,
+    clipboard_register = nil,
+  },
+  highlight = {
+    on_put = true,
+    on_yank = true,
+    timer = 500,
+  },
+  preserve_cursor_position = {
+    enabled = true,
+  },
+  textobj = {
+   enabled = true,
+  },
+}
 -- vim.keymap.set({"n","x"}, ";p", "<Plug>(YankyPutAfter)")
 -- vim.keymap.set({"n","x"}, ";P", "<Plug>(YankyPutBefore)")
 -- vim.keymap.set({"n","x"}, "gp", "<Plug>(YankyGPutAfter)")

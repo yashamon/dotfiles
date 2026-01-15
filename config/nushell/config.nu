@@ -30,10 +30,11 @@ def uploadGit [name:string] { let key = (keyGH)
 nu $"($HOMED)/dotfiles/scripts/uploadGit.nu" $name (keyGH) }
 def neo [file?:string] {
 # nu -c $"C:/Users/yasha/scoop/apps/neovide/current/neovide.exe ($file)"
-nu -c $"C:/Users/yasha/nvy/build/nvy --fullscreen --neovim-bin=C:/Users/yasha/neovim/build/bin/nvim.exe ($file)"
+# nu -c $"C:/Users/yasha/nvy/build/nvy --fullscreen --neovim-bin=C:/Users/yasha/neovim/build/bin/nvim.exe ($file)"
+nu -c $"neovide --maximized --no-vsync ($file)"
 }
 def vi [file?= string] {
-nu -c $"neovide --no-vsync --($file)"
+nu -c $"neovide --no-vsync ($file)"
 }
 def p [] {
 let $command = $"Set-Location '($env.PWD)'"
@@ -81,23 +82,22 @@ def push [] { do --ignore-errors { git add . }; do --ignore-errors {git diff --s
 def pull [] { git pull --recurse-submodules ; git submodule update --recursive --remote }
 def pullmaster [] { git pull --recurse-submodules ; git submodule update --recursive --remote ; git submodule foreach git checkout master ; git submodule foreach git pull --all
 }
-def pushgh [] { cd $"($HOMED)/web" ; pandoc index.md -o index.html ; git add . ; git commit -m -a ; git push origin gh-pages }
+def pushgh [] { cd $"($HOMED)/workspacemodules/web" ; pandoc index.md -o index.html ; git add . ; git commit -m -a ; git push origin gh-pages }
 
 # def init [dir:string] {mkdir $dir ; cd $dir ; git init ; git branch -M master; git commit -m "fist commit"
 # } 
 
-def hw [] { do -i {pandoc $"($HOMED)/web/classes/topology/2025.tex" -o $"($HOMED)/web/classes/topology/2025.html"}; cd $"($HOMED)/web"; do --ignore-errors {git add .}; do --ignore-errors {git commit -m -a}; do --ignore-errors {git push origin gh-pages:gh-pages} 
+def hw [] { do -i {pandoc $"($HOMED)/workspacemodules/web/classes/topology/2025.tex" -o $"($HOMED)/workspacemodules/web/classes/topology/2025.html"}; cd $"($HOMED)/workspacemodules/web"; do --ignore-errors {git add .}; do --ignore-errors {git commit -m -a}; do --ignore-errors {git push origin gh-pages:gh-pages} 
 } 
 
-# alias config = ( cd $"($HOMED)/dotfiles"; push; cd $"($HOMED)/workspacemodules"; pushmod; cd $"($HOMED)/workspace"; push; cd web pushgh; pacman -Qqe > $"($HOMED)/dotfiles/pkglist.txt" )
 
 def sendFunction [file:string] {
 let cwdb = $env.PWD
-cd $"($HOMED)/web"
+cd $"($HOMED)/workspacemodules/web"
 git pull
 cd $cwdb
-cp $file $"($HOMED)/web/papers"
-cd $"($HOMED)/web"
+cp $file $"($HOMED)/workspacemodules/web/papers"
+cd $"($HOMED)/workspacemodules/web"
 git add .
 git commit -m -a
 git push origin gh-pages

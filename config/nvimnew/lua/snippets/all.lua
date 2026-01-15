@@ -351,6 +351,13 @@ end
 --  
 -- latex snippets
 ls.add_snippets("tex", {
+	s("in", {
+		t({"\\in"}),
+		i("1",""),
+	}, { condition = Is_math }),
+})
+
+ls.add_snippets("tex", {
 	s("sqrt", {
 		t({"\\sqrt"}),
 		i("1",""),
@@ -477,16 +484,18 @@ ls.add_snippets("tex", {
 ls.add_snippets("tex", {
 	-- rec_ls is self-referencing. That makes this snippet 'infinite' eg. have as many
 	-- \item as necessary by utilizing a choiceNode.
-	s("wt", {
-		t({"\\widetilde{"}), i(1, ""), t({"}"}),
+	s("infi", {
+		t({"\\infty}"}),
 		i("1",""),
 	}, { condition = Is_math }),
 })
+
 ls.add_snippets("tex", {
 	-- rec_ls is self-referencing. That makes this snippet 'infinite' eg. have as many
 	-- \item as necessary by utilizing a choiceNode.
-	s("in", {
-		t({"\\in "}),
+	s("wt", {
+		t({"\\widetilde{"}), i(1, ""), t({"}"}),
+		i("1",""),
 	}, { condition = Is_math }),
 })
 ls.add_snippets("tex", {
@@ -496,6 +505,15 @@ ls.add_snippets("tex", {
 		t({"\\leq "}), i(1, ""),
 	}, { condition = Is_math }),
 })
+ls.add_snippets("tex", {
+	-- rec_ls is self-referencing. That makes this snippet 'infinite' eg. have as many
+	-- \item as necessary by utilizing a choiceNode.
+	s("dne", {
+		t({"\\nexists "}), i(1, ""), 
+		i("1",""),
+	}, { condition = Is_math }),
+})
+
 ls.add_snippets("tex", {
 	-- rec_ls is self-referencing. That makes this snippet 'infinite' eg. have as many
 	-- \item as necessary by utilizing a choiceNode.

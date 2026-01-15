@@ -22,6 +22,7 @@ opt.scrolloff=10
 opt.pumblend = 20
 opt.winblend = 20
 opt.switchbuf='newtab'
+-- opt.messagesopt='history:500'
 opt.ignorecase = true
 opt.smartcase = true
 vim.o.foldcolumn = '0' -- '0' is not bad

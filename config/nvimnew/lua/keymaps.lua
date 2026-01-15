@@ -2,8 +2,6 @@ local map= vim.keymap.set
 local command = vim.api.nvim_create_user_command
 vim.keymap.set({'n', 'v'}, '<leader>lr', vim.lsp.buf.references, { buffer=true })
 map('t', '<m-p>', [[getreg('+')]], {expr = true})
-map({'i','n'}, '<m-t>', function ()  vim.cmd('up')
-end, { buffer=true })
 map('n','m-s', Line, {} )
 map({'i','n'},'<c-Tab>', function() vim.cmd('edit #') end, {} )
 -- map('n','M', function() require("harpoon.mark").add_file() end, {})
@@ -57,7 +55,7 @@ map('n', '<m-b>', function() vim.cmd('up'); vim.cmd('FzfLua buffers') end, {})
 -- map('n', '<m-b>', function()  require('telescope.builtin').buffers({layout_strategy='vertical',layout_config={width=0.9}}) end, {})
 map('n', '<m-i>', function() require('telescope.builtin').git_bcommits({layout_strategy='vertical',layout_config={width=0.9}}) end, {})
 map('n', '<m-u>', function() vim.cmd('cg C:/Users/yasha/_vim_mru_files | copen call feedkeys("zf")') end, {})
-map('n', '<m-f>', function () vim.cmd('FZF ~') end, {})
+map('n', '<m-f>', function () vim.cmd(':FzfLua files cwd=~/OneDrive/workspacemodules') end, {})
 map('n', '<leader>gs', function() vim.cmd('up | source $MYVIMRC') end, {})
 map({'n', 'v'}, 'q:', '<nop>', {})
 map('n', '<C-c>', function() vim.cmd('set hlsearch!') end, {})
@@ -67,8 +65,8 @@ map('n', 'g?',  vim.diagnostic.open_float, {})
 
 --Leap
 --
-map({'n', 'v'}, 't',  '<Plug>(leap-forward)', {})
-map({'n', 'v'}, 'T', '<Plug>(leap-backward)', {})
+map({'n', 'v'}, 't',  'mj<Plug>(leap-forward)', {})
+map({'n', 'v'}, 'T', 'mj<Plug>(leap-backward)', {})
 
 -- Luasnip
 map('i', '<S-Tab>', function ()
@@ -100,7 +98,7 @@ map('t', '<A-`>', '<C-\\><C-n>', {remap=true})
 
 -- Latex maps
 map('n', '<leader>v', ViewPdf2, {})
-map('n', '<leader>o', ViewPdf3, {})
+map('n', '<leader>o', ViewPdfRef, {})
 
 map({'i', 'n'}, '<m-v>', function ()
 Feedkey('<esc>', 'in')
