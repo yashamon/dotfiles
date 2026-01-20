@@ -27,7 +27,7 @@ require("lazy").setup({
       default = { 'lsp', 'path', 'snippets', 'buffer' },
     },
   }
-}
+},
 {
   "jiaoshijie/undotree",
   dependencies = "nvim-lua/plenary.nvim",
