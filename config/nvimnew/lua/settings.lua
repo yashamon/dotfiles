@@ -491,62 +491,131 @@ vim.lsp.enable({"vimls"})
 -- require'lspconfig'.lua_ls.setup(require("lualsp")) -- Mappings. 
 -- Setup cmp.
 
-local has_words_before = function()
-  unpack = unpack or table.unpack
+-- Equivalent helper
+local function has_words_before()
   local line, col = unpack(vim.api.nvim_win_get_cursor(0))
-  return col ~= 0 and vim.api.nvim_buf_get_lines(0, line - 1, line, true)[1]:sub(col, col):match("%s") == nil
+  if col == 0 then return false end
+  local text = vim.api.nvim_buf_get_lines(0, line - 1, line, true)[1]
+  return text:sub(col, col):match("%s") == nil
 end
 
 local luasnip = require("luasnip")
-local cmp = require'cmp'
-cmp.setup ({
-snippet = {
-  expand = function(args)
-    luasnip.lsp_expand(args.body)
-  end
-},
+local blink = require("blink.cmp")
 
-mapping = cmp.mapping.preset.insert({
-        ["<C-p>"] = cmp.mapping.select_prev_item(),
-        ["<C-n>"] = cmp.mapping.select_next_item(),
-       ['<C-d>'] = cmp.mapping.scroll_docs(-4),
-      ['<C-f>'] = cmp.mapping.scroll_docs(4),
-      ['<C-Space>'] = cmp.mapping.complete(),
-      ['<C-e>'] = cmp.mapping.close(),
-      ['<CR>'] = cmp.mapping.confirm({ select = true }),
--- ... Your other mappings ...
-["<Tab>"] = cmp.mapping(function(fallback)
-			if luasnip.expandable() then
-				luasnip.expand()
-                        elseif cmp.visible() then
-                             cmp.select_next_item()
-			elseif has_words_before() then
-				cmp.complete()
-			                             else
-				fallback()
-			end
-		end, { "i", "s" }),
-		["<S-Tab>"] = cmp.mapping(function(fallback)
-			if cmp.visible() then
-				cmp.select_prev_item()
-			elseif luasnip.jumpable(-1) then
-				luasnip.jump(-1)
-			else
-				fallback()
-			end
-		end, { "i", "s" }),
-}),
+blink.setup({
+  snippets = {
+    expand = function(args)
+      luasnip.lsp_expand(args.body)
+    end,
+  },
 
-requires = {
-    {
-      'quangnguyen30192/cmp-nvim-tags',
-      -- if you want the sources is available for some file types
-      ft = {
-        'tex',
-        'latex'
-      }
-    }
+  keymap = {
+    ["<C-p>"] = { "select_prev", "fallback" },
+    ["<C-n>"] = { "select_next", "fallback" },
+
+    ["<C-d>"] = { "scroll_documentation_up", "fallback" },
+    ["<C-f>"] = { "scroll_documentation_down", "fallback" },
+
+    ["<C-Space>"] = { "show", "fallback" },
+    ["<C-e>"] = { "hide", "fallback" },
+
+    ["<CR>"] = { "accept", "fallback" },
+
+    -- TAB: luasnip > completion menu > trigger completion > fallback
+    ["<Tab>"] = {
+      function(cmp)
+        if luasnip.expandable() then
+          luasnip.expand()
+        elseif cmp.is_visible() then
+          cmp.select_next()
+        elseif has_words_before() then
+          cmp.show()
+        else
+          return "fallback"
+        end
+      end,
+      "fallback",
     },
+
+    ["<S-Tab>"] = {
+      function(cmp)
+        if cmp.is_visible() then
+          cmp.select_prev()
+        elseif luasnip.jumpable(-1) then
+          luasnip.jump(-1)
+        else
+          return "fallback"
+        end
+      end,
+      "fallback",
+    },
+  },
+
+  sources = {
+    { name = "tags",      keyword_length = 1000 },
+    { name = "nvim_lsp",  keyword_length = 3 },
+    { name = "luasnip" },
+    { name = "buffer",    keyword_length = 4 },
+  },
+})
+
+
+-- local has_words_before = function()
+--   unpack = unpack or table.unpack
+--   local line, col = unpack(vim.api.nvim_win_get_cursor(0))
+--   return col ~= 0 and vim.api.nvim_buf_get_lines(0, line - 1, line, true)[1]:sub(col, col):match("%s") == nil
+-- end
+--
+-- local luasnip = require("luasnip")
+-- local cmp = require'cmp'
+-- cmp.setup ({
+-- snippet = {
+--   expand = function(args)
+--     luasnip.lsp_expand(args.body)
+--   end
+-- },
+--
+-- mapping = cmp.mapping.preset.insert({
+--         ["<C-p>"] = cmp.mapping.select_prev_item(),
+--         ["<C-n>"] = cmp.mapping.select_next_item(),
+--        ['<C-d>'] = cmp.mapping.scroll_docs(-4),
+--       ['<C-f>'] = cmp.mapping.scroll_docs(4),
+--       ['<C-Space>'] = cmp.mapping.complete(),
+--       ['<C-e>'] = cmp.mapping.close(),
+--       ['<CR>'] = cmp.mapping.confirm({ select = true }),
+-- -- ... Your other mappings ...
+-- ["<Tab>"] = cmp.mapping(function(fallback)
+-- 			if luasnip.expandable() then
+-- 				luasnip.expand()
+--                         elseif cmp.visible() then
+--                              cmp.select_next_item()
+-- 			elseif has_words_before() then
+-- 				cmp.complete()
+-- 			                             else
+-- 				fallback()
+-- 			end
+-- 		end, { "i", "s" }),
+-- 		["<S-Tab>"] = cmp.mapping(function(fallback)
+-- 			if cmp.visible() then
+-- 				cmp.select_prev_item()
+-- 			elseif luasnip.jumpable(-1) then
+-- 				luasnip.jump(-1)
+-- 			else
+-- 				fallback()
+-- 			end
+-- 		end, { "i", "s" }),
+-- }),
+--
+-- requires = {
+--     {
+--       'quangnguyen30192/cmp-nvim-tags',
+--       -- if you want the sources is available for some file types
+--       ft = {
+--         'tex',
+--         'latex'
+--       }
+--     }
+--     },
 -- ... Your other configuration ...
 sources = cmp.config.sources({
 { name = 'tags', keyword_length = 1000 },
