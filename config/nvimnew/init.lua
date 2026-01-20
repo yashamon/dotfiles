@@ -158,7 +158,7 @@ require("lazy").setup({
 {'folke/todo-comments.nvim', lazy = true},
 { "nvim-treesitter/nvim-treesitter", branch = "main", build = ":TSUpdate" },
 {'L3MON4D3/LuaSnip', lazy = true },
-{'saadparwaiz1/cmp_luasnip', lazy = true},
+-- {'saadparwaiz1/cmp_luasnip', lazy = true},
 {'nvim-treesitter/playground', lazy = true},
 -- {
 --     "nvim-treesitter/nvim-treesitter",
@@ -183,18 +183,18 @@ require("lazy").setup({
 {'neovim/nvim-lspconfig', lazy = true },
 {'williamboman/mason.nvim', lazy = true},
 {'williamboman/mason-lspconfig.nvim', lazy = true},
-{
-    "hrsh7th/nvim-cmp",
-    -- load cmp on InsertEnter
-    event = "InsertEnter",
-    -- these dependencies will only be loaded when cmp loads
-    -- dependencies are always lazy-loaded unless specified otherwise
-    dependencies = {
-      "hrsh7th/cmp-nvim-lsp",
-      "hrsh7th/cmp-buffer",
-			'quangnguyen30192/cmp-nvim-tags',
-    },
- },
+-- {
+--     "hrsh7th/nvim-cmp",
+--     -- load cmp on InsertEnter
+--     event = "InsertEnter",
+--     -- these dependencies will only be loaded when cmp loads
+--     -- dependencies are always lazy-loaded unless specified otherwise
+--     dependencies = {
+--       "hrsh7th/cmp-nvim-lsp",
+--       "hrsh7th/cmp-buffer",
+-- 			'quangnguyen30192/cmp-nvim-tags',
+--     },
+--  },
 -- {'terrortylor/nvim-comment', cmd = "CommentToggle"},
 {'nvim-lualine/lualine.nvim', lazy=false },
 {'justinhoward/fzf-neoyank', lazy=false },
