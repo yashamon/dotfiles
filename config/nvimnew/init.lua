@@ -156,7 +156,7 @@ require("lazy").setup({
 -- {'jose-elias-alvarez/null-ls.nvim', dependencies = "nvim-lua/plenary.nvim" },
 -- {'nvim-telescope/telescope-fzf-native.nvim', lazy = true},
 {'folke/todo-comments.nvim', lazy = true},
-{ "nvim-treesitter/nvim-treesitter", branch = "main", build = ":TSUpdate" },
+-- { "nvim-treesitter/nvim-treesitter", branch = "main", build = ":TSUpdate" },
 {'L3MON4D3/LuaSnip', lazy = true },
 -- {'saadparwaiz1/cmp_luasnip', lazy = true},
 {'nvim-treesitter/playground', lazy = true},
