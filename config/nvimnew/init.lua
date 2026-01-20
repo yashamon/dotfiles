@@ -156,7 +156,7 @@ require("lazy").setup({
 -- {'jose-elias-alvarez/null-ls.nvim', dependencies = "nvim-lua/plenary.nvim" },
 -- {'nvim-telescope/telescope-fzf-native.nvim', lazy = true},
 {'folke/todo-comments.nvim', lazy = true},
--- { "nvim-treesitter/nvim-treesitter", branch = "main", build = ":TSUpdate" },
+{ "nvim-treesitter/nvim-treesitter", branch = "main", build = ":TSUpdate" },
 {'L3MON4D3/LuaSnip', lazy = true },
 -- {'saadparwaiz1/cmp_luasnip', lazy = true},
 {'nvim-treesitter/playground', lazy = true},
@@ -171,8 +171,8 @@ require("lazy").setup({
 --     },
 --     build = ":TSUpdate",
 -- },
--- {'LhKipp/nvim-nu', dependencies = { "nvim-treesitter/nvim-treesitter", "jose-elias-alvarez/null-ls.nvim", lazy = true}
--- },
+{'LhKipp/nvim-nu', dependencies = { "nvim-treesitter/nvim-treesitter", "jose-elias-alvarez/null-ls.nvim", lazy = true}
+},
 {'echasnovski/mini.nvim', lazy =true },
 {'lukas-reineke/indent-blankline.nvim', event = { "BufRead", "BufNewFile" }},
 {'folke/which-key.nvim', lazy = true},
@@ -282,7 +282,7 @@ vim.diagnostic.config({
   --  current_line = true,
   -- },
 })
--- require 'nvim-treesitter.install'.compilers = { 'clang' }
+require 'nvim-treesitter.install'.compilers = { 'clang' }
 require('settings')
 require('functions')
 require('set')
