@@ -25,7 +25,7 @@ require("lazy").setup({
     keymap = { preset = "super-tab" },
     -- ensure you have the `snippets` source (enabled by default)
     sources = {
-      default = { 'lsp', 'buffer', 'path', 'snippets',  },
+      default = { 'lsp', 'buffer', 'path', 'snippets' },
     },
   }
 },
