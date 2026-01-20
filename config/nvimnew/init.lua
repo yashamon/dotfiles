@@ -180,9 +180,9 @@ require("lazy").setup({
 {'ggandor/leap.nvim', lazy = true},
 {'kyazdani42/nvim-web-devicons', lazy = true},
 {'glacambre/firenvim', build = ":call firenvim#install(0)", lazy = false },
-{'neovim/nvim-lspconfig', lazy = true },
+-- {'neovim/nvim-lspconfig', lazy = true },
 {'williamboman/mason.nvim', lazy = true},
-{'williamboman/mason-lspconfig.nvim', lazy = true},
+-- {'williamboman/mason-lspconfig.nvim', lazy = true},
 -- {
 --     "hrsh7th/nvim-cmp",
 --     -- load cmp on InsertEnter
