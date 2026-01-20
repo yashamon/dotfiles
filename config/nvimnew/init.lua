@@ -265,7 +265,7 @@ function Is_math()
     return vim.api.nvim_eval('vimtex#syntax#in_mathzone()') == 1
 end
 
-require("luasnip/loaders/from_vscode").lazy.load({
+require("luasnip/loaders/from_vscode").lazy_load({
 	paths = "C:/Users/yasha/OneDrive/dotfiles/snippets",
   -- fs_event_providers = {
                     -- autocmd = true,
