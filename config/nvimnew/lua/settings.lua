@@ -553,7 +553,8 @@ blink.setup({
 
   sources = {
     { name = "tags",      keyword_length = 1000 },
-    { name = "nvim_lsp",  keyword_length = 3 },
+		{ name = "lsp"},
+    -- { name = "nvim_lsp",  keyword_length = 3 },
     { name = "luasnip" },
     { name = "buffer",    keyword_length = 4 },
   },
