@@ -270,7 +270,7 @@ vim.diagnostic.config({
   --  current_line = true,
   -- },
 })
-require 'nvim-treesitter.install'.compilers = { 'clang' }
+require'nvim-treesitter.install'.compilers = { 'clang' }
 require('settings')
 require('functions')
 require('set')
