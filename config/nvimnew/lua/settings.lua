@@ -617,18 +617,18 @@ blink.setup({
 --     }
 --     },
 -- ... Your other configuration ...
-sources = cmp.config.sources({
-{ name = 'tags', keyword_length = 1000 },
-{ name = 'nvim_lsp', keyword_length = 3 },
-{ name = 'luasnip' },
--- { name = 'omni', keyword_length = 4},
-       -- { name = 'spell' }, 
-      --{ name = 'treesitter', keyword_length = 4 },
-{ name = 'buffer', keyword_length = 4 },
---{ name = 'fuzzy_buffer', keyword_length = 8 }
-}),
--- completion = { autocomplete = false }
-})
+-- sources = cmp.config.sources({
+-- { name = 'tags', keyword_length = 1000 },
+-- { name = 'nvim_lsp', keyword_length = 3 },
+-- { name = 'luasnip' },
+-- -- { name = 'omni', keyword_length = 4},
+--        -- { name = 'spell' }, 
+--       --{ name = 'treesitter', keyword_length = 4 },
+-- { name = 'buffer', keyword_length = 4 },
+-- --{ name = 'fuzzy_buffer', keyword_length = 8 }
+-- }),
+-- -- completion = { autocomplete = false }
+-- })
 --require('nvim_comment').setup({
    -- Linters prefer comment and line to have a space in between markers
  --  marker_padding = true,
