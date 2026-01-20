@@ -265,13 +265,13 @@ function Is_math()
     return vim.api.nvim_eval('vimtex#syntax#in_mathzone()') == 1
 end
 
-require("luasnip/loaders/from_vscode").load({
-	paths = "C:/Users/yasha/OneDrive/dotfiles/snippets",
-  -- fs_event_providers = {
-                    -- autocmd = true,
-                    -- libuv = true,
-	-- },
-})
+-- require("luasnip/loaders/from_vscode").load({
+-- 	paths = "C:/Users/yasha/OneDrive/dotfiles/snippets",
+--   -- fs_event_providers = {
+--                     -- autocmd = true,
+--                     -- libuv = true,
+-- 	-- },
+-- })
 -- Reload = function()
 require("luasnip.loaders.from_lua").load({
                 paths = "C:/Users/yasha/OneDrive/dotfiles/config/nvimnew/lua/snippets",
