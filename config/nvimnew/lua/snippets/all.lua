@@ -1038,6 +1038,19 @@ t({"","\\end{document}"}),
     })
 
 
+require("luasnip/loaders/from_vscode").load({ paths = "C:/Users/yasha/OneDrive/dotfiles/snippets"
+-- fs_event_providers = {
+                    -- autocmd = true,
+                    -- libuv = true} 
+})
+-- Reload = function()
+-- require("luasnip.loaders.from_lua").load({
+--                 paths = "C:/Users/yasha/OneDrive/dotfiles/config/nvimnew/lua/snippets",
+--                 fs_event_providers = {
+--                     autocmd = true,
+--                     libuv = true,
+--                 },
+-- })
 
 --[[
 -- Beside defining your own snippets you can also load snippets from "vscode-like" packages

@@ -21,40 +21,6 @@ vim.api.nvim_create_autocmd("FileType", {
   end,
 })
 
--- 4. Incremental Selection
--- This feature was removed from nvim-treesitter core. 
--- For a similar experience, use the 'treesitter-modules' plugin 
--- or 'flash.nvim'.
-
-
--- local ts_config = require("nvim-treesitter.configs") 
--- ts_config.setup {
--- 	ensure_installed = {
--- 			"latex",
--- 			"python",
--- 			"lua"
--- 	},
--- 	highlight = {
--- 			enable = true,
--- 			use_languagetree = true,
--- 			additional_vim_regex_highlighting = true
--- 	},
--- 	keymaps = {
--- 		init_selection = '<m-CR>',
--- 		--scope_incremental = '<CR>',
--- 		node_incremental = '<TAB>',
--- 		node_decremental = '<S-TAB>',
--- 	},
--- 	indent = {enable = false},
--- 	-- playground = {
--- 	--     enable = true,
--- 	--     disable = {},
--- 	--     updatetime = 25, -- Debounced time for highlighting nodes in the playground from source code
--- 	--     persist_queries = false -- Whether the query persists across vim sessions
--- 	-- },
--- 	autotag = {enable = true},
--- 	rainbow = {enable = true},
--- }
 require("resession").setup({
   -- Options for automatically saving sessions on a timer
 -- Resession does NOTHING automagically, so we have to set up some keymaps

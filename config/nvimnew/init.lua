@@ -157,8 +157,26 @@ require("lazy").setup({
 -- {'nvim-telescope/telescope-fzf-native.nvim', lazy = true},
 {'folke/todo-comments.nvim', lazy = true},
 { "nvim-treesitter/nvim-treesitter", branch = "main", build = ":TSUpdate" },
-{'L3MON4D3/LuaSnip', lazy = true },
--- {'saadparwaiz1/cmp_luasnip', lazy = true},
+{
+	"L3MON4D3/LuaSnip",
+	-- follow latest release.
+	version = "v2.*", -- Replace <CurrentMajor> by the latest released major (first number of latest release)
+	-- install jsregexp (optional!).
+	build = "make install_jsregexp",
+		require("luasnip/loaders/from_vscode").load({ paths = "C:/Users/yasha/OneDrive/dotfiles/snippets" -- fs_event_providers = { autocmd = true,
+                    -- libuv = true} 
+}),
+-- Reload = function()
+require("luasnip.loaders.from_lua").load({
+                paths = "C:/Users/yasha/OneDrive/dotfiles/config/nvimnew/lua/snippets",
+                fs_event_providers = {
+                    autocmd = true,
+                    libuv = true,
+                },
+})
+
+		
+},-- {'saadparwaiz1/cmp_luasnip', lazy = true},
 {'nvim-treesitter/playground', lazy = true},
 -- {
 --     "nvim-treesitter/nvim-treesitter",
@@ -255,23 +273,23 @@ end,},
 
 })
 -- luasnip
-function Is_math()
-    return vim.api.nvim_eval('vimtex#syntax#in_mathzone()') == 1
-end
+-- function Is_math()
+--     return vim.api.nvim_eval('vimtex#syntax#in_mathzone()') == 1
+-- end
 
-require("luasnip/loaders/from_vscode").load({ paths = "C:/Users/yasha/OneDrive/dotfiles/snippets"
--- fs_event_providers = {
-                    -- autocmd = true,
-                    -- libuv = true} 
-})
--- Reload = function()
-require("luasnip.loaders.from_lua").load({
-                paths = "C:/Users/yasha/OneDrive/dotfiles/config/nvimnew/lua/snippets",
-                fs_event_providers = {
-                    autocmd = true,
-                    libuv = true,
-                },
-})
+-- require("luasnip/loaders/from_vscode").load({ paths = "C:/Users/yasha/OneDrive/dotfiles/snippets"
+-- -- fs_event_providers = {
+--                     -- autocmd = true,
+--                     -- libuv = true} 
+-- })
+-- -- Reload = function()
+-- require("luasnip.loaders.from_lua").load({
+--                 paths = "C:/Users/yasha/OneDrive/dotfiles/config/nvimnew/lua/snippets",
+--                 fs_event_providers = {
+--                     autocmd = true,
+--                     libuv = true,
+--                 },
+-- })
 vim.diagnostic.config({
   -- Use the default configuration
   virtual_lines = true
