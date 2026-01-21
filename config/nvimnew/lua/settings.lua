@@ -385,7 +385,7 @@ require("mason").setup()
 vim.lsp.config("ctags_lsp", {
 			cmd = { "C:/Users/yasha/go/ctags-lsp" },
 			filetypes = { "latex", "tex" },
-			root_dir = vim.uv.cwd(),
+			-- root_dir = vim.uv.cwd(),
 		})
 vim.lsp.enable("ctags_lsp")
 vim.lsp.config("jsonls.setup", {
