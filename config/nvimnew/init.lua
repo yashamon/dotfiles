@@ -26,17 +26,21 @@ require("lazy").setup({
 				["<m-j>"] = { "select_next", "snippet_forward", "fallback" },
 			},
     -- ensure you have the `snippets` source (enabled by default)
-    sources = {min_keyword_length = 0,
-				providers = {
+    sources = {
+            providers = {
                 -- Add the ctags provider
                 ctags = {
                     name = "Ctags",
                     module = "blink-cmp-ctags",
+                    fallback_for = { "lsp" },
                 },
             },
-      default = {'snippets', 'lsp', 'buffer', 'path','ctags'},
-    },
-  }
+            completion = {
+                -- Add ctags to the list
+                enabled_providers = { "lsp", "path", "snippets", "buffer", "ctags" },
+            },
+			}
+},
 },
 {
   "jiaoshijie/undotree",
