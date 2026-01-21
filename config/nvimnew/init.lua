@@ -22,7 +22,9 @@ require("lazy").setup({
   dependencies = { 'L3MON4D3/LuaSnip', version = 'v2.*' },
   opts = {
     snippets = { preset = 'luasnip' },
-    keymap = { preset = "super-tab" },
+    keymap = { preset = "super-tab", ["<m-j>"] = { "select_prev", "snippet_backward", "fallback" },
+      ["<m-k>"] = { "select_next", "snippet_forward", "fallback" },
+			},
     -- ensure you have the `snippets` source (enabled by default)
     sources = {
       default = { 'lsp', 'buffer', 'path', 'snippets' },
