@@ -34,14 +34,13 @@ require("lazy").setup({
                     module = "blink-cmp-ctags",
                 },
             },
+			},
             completion = {
                 -- Add ctags to the list
                 enabled_providers = { "lsp", "path", "snippets", "buffer", "ctags" },
             },
 			}
 },
-},
-{
   "jiaoshijie/undotree",
   dependencies = "nvim-lua/plenary.nvim",
   config = true,
