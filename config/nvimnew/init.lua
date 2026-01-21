@@ -20,7 +20,11 @@ require("lazy").setup({
   version = '1.*',
   -- `main` is untested, please open a PR if you've confirmed it works as expected
   dependencies = {
-			{'L3MON4D3/LuaSnip', version = 'v2.*'}
+			{'L3MON4D3/LuaSnip', version = 'v2.*'},
+			{
+            'Kaiser-Yang/blink-cmp-dictionary',
+            dependencies = { 'nvim-lua/plenary.nvim' }
+        }
 		},
   opts = {
     snippets = { preset = 'luasnip', score_offset = 40000 },
