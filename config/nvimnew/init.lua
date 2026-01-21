@@ -19,6 +19,14 @@ require("lazy").setup({
   'saghen/blink.cmp',
   version = '1.*',
   -- `main` is untested, please open a PR if you've confirmed it works as expected
+	providers = {
+                -- Add the ctags provider
+                ctags = {
+                    name = "Ctags",
+                    module = "blink-cmp-ctags",
+                    fallback_for = { "lsp" },
+                },
+            },
   dependencies = { 'L3MON4D3/LuaSnip', version = 'v2.*' },
   opts = {
     snippets = { preset = 'luasnip', score_offset = 40000 },
