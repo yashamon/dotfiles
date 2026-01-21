@@ -24,7 +24,10 @@ require("lazy").setup({
 			{
             'Kaiser-Yang/blink-cmp-dictionary',
             dependencies = { 'nvim-lua/plenary.nvim' }
-      }
+      },
+			{
+        "netmute/blink-cmp-ctags",
+    },
 		},
   opts = {
     snippets = { preset = 'luasnip', score_offset = 40000 },
