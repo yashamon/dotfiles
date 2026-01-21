@@ -48,7 +48,10 @@ require("lazy").setup({
                     opts = {
                         -- options for blink-cmp-dictionary
                     }
-                }
+                },
+					ctags = {
+                    name = "Ctags",
+                    module = "blink-cmp-ctags",
             }
         }
   }
