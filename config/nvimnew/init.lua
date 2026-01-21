@@ -20,7 +20,14 @@ require("lazy").setup({
   version = '1.*',
   -- `main` is untested, please open a PR if you've confirmed it works as expected
 	dependencies = {'L3MON4D3/LuaSnip', 'netmute/blink-cmp-ctags'},
-	providers = {
+	opts = {
+    snippets = { preset = 'luasnip', score_offset = 40000 },
+    keymap = { preset = "super-tab", ["<m-k>"] = { "select_prev", "snippet_backward", "fallback" },
+				["<m-j>"] = { "select_next", "snippet_forward", "fallback" },
+			},
+    -- ensure you have the `snippets` source (enabled by default)
+    sources = {min_keyword_length = 0,
+				providers = {
                 -- Add the ctags provider
                 ctags = {
                     name = "Ctags",
@@ -28,13 +35,6 @@ require("lazy").setup({
                     fallback_for = { "lsp" },
                 },
             },
-  opts = {
-    snippets = { preset = 'luasnip', score_offset = 40000 },
-    keymap = { preset = "super-tab", ["<m-k>"] = { "select_prev", "snippet_backward", "fallback" },
-				["<m-j>"] = { "select_next", "snippet_forward", "fallback" },
-			},
-    -- ensure you have the `snippets` source (enabled by default)
-    sources = {min_keyword_length = 0,
       default = {'snippets', 'lsp', 'buffer', 'path','ctags'},
     },
   }
