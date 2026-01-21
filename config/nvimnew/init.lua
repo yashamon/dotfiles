@@ -26,9 +26,7 @@ require("lazy").setup({
 				["<m-j>"] = { "select_next", "snippet_forward", "fallback" },
 			},
     -- ensure you have the `snippets` source (enabled by default)
-    sources = {min_keyword_length = function(ctx)
-    return ctx.trigger.kind == "trigger_character" and 0 or 3
-  end,
+    sources = {min_keyword_length = 3,
       default = { 'lsp', 'buffer', 'path', 'snippets' },
     },
   }
