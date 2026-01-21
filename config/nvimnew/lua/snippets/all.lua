@@ -419,14 +419,14 @@ ls.add_snippets("tex", {
 
 ls.add_snippets("tex", {
 	s("in", {
-		t({"\\in"}),
+		t({"\\in "}),
 		i("1",""),
 	}, { condition = Is_math }),
 })
 
 ls.add_snippets("tex", {
 	s("sqrt", {
-		t({"\\sqrt"}),
+		t({"\\sqrt "}),
 		i("1",""),
 	}),
 })
@@ -438,61 +438,61 @@ ls.add_snippets("tex", {
 
 ls.add_snippets("tex", {
 	s("rho", {
-		t({"\\rho"}),
+		t({"\\rho "}),
 		i("1",""),
 	}),
 })
 
 ls.add_snippets("tex", {
 	s("Th", {
-		t({"\\Theta"}),
+		t({"\\Theta "}),
 		i("1",""),
 	}),
 })
 
 ls.add_snippets("tex", {
 	s("th", {
-		t({"\\theta"}),
+		t({"\\theta "}),
 		i("1",""),
 	}),
 })
 
 ls.add_snippets("tex", {
 	s("g", {
-		t({"\\gamma"}),
+		t({"\\gamma "}),
 		i("1",""),
 	}),
 })
 
 ls.add_snippets("tex", {
 	s("G", {
-		t({"\\Gamma"}),
+		t({"\\Gamma "}),
 		i("1",""),
 	}),
 })
 ls.add_snippets("tex", {
 	s("d", {
-		t({"\\delta"}),
+		t({"\\delta "}),
 		i("1",""),
 	}, { condition = Is_math }),
 })
 ls.add_snippets("tex", {
 	s("del", {
-		t({"\\delta"}),
+		t({"\\delta "}),
 		i("1",""),
 	}, { condition = Is_math }),
 })
 
 ls.add_snippets("tex", {
 	s("D", {
-		t({"\\Delta"}),
+		t({"\\Delta "}),
 		i("1",""),
 	}),
 })
 
 ls.add_snippets("tex", {
 	s("im", {
-		t({"\\image"}),
+		t({"\\image "}),
 		i("1",""),
 	}),
 })
@@ -500,26 +500,26 @@ ls.add_snippets("tex", {
 
 ls.add_snippets("tex", {
 	s("equiv", {
-		t({"\\sim"}),
+		t({"\\sim "}),
 		i("1",""),
 	}),
 })
 ls.add_snippets("tex", {
 	s("space", {
-		t({"\\;"}),
+		t({"\\; "}),
 		i("1",""),
 	}),
 })
 
 ls.add_snippets("tex", {
 	s("equiv", {
-		t({"\\sim"}),
+		t({"\\sim "}),
 		i("1",""),
 	}),
 })
 ls.add_snippets("tex", {
 	s("isom", {
-		t({"\\simeq"}),
+		t({"\\simeq "}),
 		i("1",""),
 	}),
 })
@@ -532,7 +532,7 @@ ls.add_snippets("tex", {
 	-- rec_ls is self-referencing. That makes this snippet 'infinite' eg. have as many
 	-- \item as necessary by utilizing a choiceNode.
 	s("Ainf", {
-		t({"A _{\\infty}"}),
+		t({"A _{\\infty} "}),
 		i("1",""),
 	}),
 })
@@ -540,7 +540,7 @@ ls.add_snippets("tex", {
 	-- rec_ls is self-referencing. That makes this snippet 'infinite' eg. have as many
 	-- \item as necessary by utilizing a choiceNode.
 	s("infi", {
-		t({"\\infty}"}),
+		t({"\\infty }"}),
 		i("1",""),
 	}, { condition = Is_math }),
 })
