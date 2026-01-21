@@ -28,7 +28,6 @@ require("lazy").setup({
                     fallback_for = { "lsp" },
                 },
             },
-	
   opts = {
     snippets = { preset = 'luasnip', score_offset = 40000 },
     keymap = { preset = "super-tab", ["<m-k>"] = { "select_prev", "snippet_backward", "fallback" },
