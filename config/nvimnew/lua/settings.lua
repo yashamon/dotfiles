@@ -381,6 +381,13 @@ require("mason").setup()
 -- -- LSP config
 -- local lspconfig = vim.lsp.config()
 -- local lspconfig = require("lspconfig")
+-- lazy.nvim
+vim.lsp.config("ctags_lsp", {
+			cmd = { "ctags-lsp" },
+			filetypes = { "latex", "tex" },
+			root_dir = vim.uv.cwd(),
+		})
+vim.lsp.enable("ctags_lsp")
 vim.lsp.config("jsonls.setup", {
 	{ LspAttach  = on_attach }
 })
