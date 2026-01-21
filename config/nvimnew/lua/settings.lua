@@ -393,6 +393,10 @@ vim.lsp.config("vimls", {
 	{ LspAttach  = on_attach }
 })
 vim.lsp.enable({"vimls"})
+vim.lsp.config("texlab", {
+	{ LspAttach  = on_attach }
+})
+vim.lsp.enable({"texlab"})
 
 require('ufo').setup()
 -- Option 2: nvim lsp as LSP client
