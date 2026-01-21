@@ -39,9 +39,8 @@ require("lazy").setup({
                 -- Add ctags to the list
                 enabled_providers = { "lsp", "path", "snippets", "buffer", "ctags" },
             },
-			}
+			},
 },
-})
 {
   "jiaoshijie/undotree",
   dependencies = "nvim-lua/plenary.nvim",
