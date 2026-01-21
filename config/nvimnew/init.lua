@@ -19,27 +19,17 @@ require("lazy").setup({
   'saghen/blink.cmp',
   version = '1.*',
   -- `main` is untested, please open a PR if you've confirmed it works as expected
-	dependencies = {'L3MON4D3/LuaSnip', 'netmute/blink-cmp-ctags'},
-	opts = {
+  dependencies = { 'L3MON4D3/LuaSnip', version = 'v2.*' },
+  opts = {
     snippets = { preset = 'luasnip', score_offset = 40000 },
     keymap = { preset = "super-tab", ["<m-k>"] = { "select_prev", "snippet_backward", "fallback" },
 				["<m-j>"] = { "select_next", "snippet_forward", "fallback" },
 			},
     -- ensure you have the `snippets` source (enabled by default)
-    sources = {
-            providers = {
-                -- Add the ctags provider
-                ctags = {
-                    name = "Ctags",
-                    module = "blink-cmp-ctags",
-                },
-            },
-			},
-            completion = {
-                -- Add ctags to the list
-                enabled_providers = { "lsp", "path", "snippets", "buffer", "ctags" },
-            },
-			},
+    sources = {min_keyword_length = 0,
+      default = {'snippets', 'lsp', 'buffer', 'path' },
+    },
+  }
 },
 {
   "jiaoshijie/undotree",
