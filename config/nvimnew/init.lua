@@ -28,8 +28,8 @@ require("lazy").setup({
 		},
   opts = {
     snippets = { preset = 'luasnip', score_offset = 40000 },
-    keymap = { preset = "super-tab", ["<m-k>"] = { "select_prev", "snippet_backward", "fallback" },
-				["<m-j>"] = { "select_next", "snippet_forward", "fallback" },
+    keymap = { preset = "super-tab", ["<m-k>"] = { "snippet_backward", "select_prev", "fallback" },
+				["<m-j>"] = { "snippet_forward", "select_next",  "fallback" },
 			},
     -- ensure you have the `snippets` source (enabled by default)
     sources = {
