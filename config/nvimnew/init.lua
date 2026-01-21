@@ -53,6 +53,7 @@ require("lazy").setup({
                     name = "Ctags",
                     module = "blink-cmp-ctags",
             }
+				}
         }
   }
 },
