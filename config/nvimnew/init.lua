@@ -26,7 +26,7 @@ require("lazy").setup({
 				["<m-j>"] = { "select_next", "snippet_forward", "fallback" },
 			},
     -- ensure you have the `snippets` source (enabled by default)
-    sources = {min_keyword_length = 3,
+    sources = {min_keyword_length = 0,
       default = { 'lsp', 'buffer', 'path', 'snippets' },
     },
   }
