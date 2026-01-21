@@ -24,7 +24,7 @@ require("lazy").setup({
 			{
             'Kaiser-Yang/blink-cmp-dictionary',
             dependencies = { 'nvim-lua/plenary.nvim' }
-        }
+      }
 		},
   opts = {
     snippets = { preset = 'luasnip', score_offset = 40000 },
