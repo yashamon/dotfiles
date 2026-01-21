@@ -18,7 +18,6 @@ require("lazy").setup({
 {
   'saghen/blink.cmp',
   version = '1.*',
-	min_keyword_length = 3,
   -- `main` is untested, please open a PR if you've confirmed it works as expected
   dependencies = { 'L3MON4D3/LuaSnip', version = 'v2.*' },
   opts = {
@@ -27,7 +26,7 @@ require("lazy").setup({
       ["<m-j>"] = { "select_next", "snippet_forward", "fallback" },
 			},
     -- ensure you have the `snippets` source (enabled by default)
-    sources = {
+    sources = {min_keyword_length = 3,
       default = { 'lsp', 'buffer', 'path', 'snippets' },
     },
   }
