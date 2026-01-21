@@ -383,7 +383,7 @@ require("mason").setup()
 -- local lspconfig = require("lspconfig")
 -- lazy.nvim
 vim.lsp.config("ctags_lsp", {
-			cmd = { "C:/Users/yasha/go/ctags_lsp" },
+			cmd = { "C:/Users/yasha/go/ctags-lsp" },
 			filetypes = { "latex", "tex" },
 			root_dir = vim.uv.cwd(),
 		})
