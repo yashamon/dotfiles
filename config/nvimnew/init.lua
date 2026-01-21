@@ -27,7 +27,7 @@ require("lazy").setup({
 			},
     -- ensure you have the `snippets` source (enabled by default)
     sources = {min_keyword_length = 0,
-      default = {'lsp', 'buffer', 'path' },
+      default = {'snippets', 'lsp', 'buffer', 'path' },
     },
   }
 },
