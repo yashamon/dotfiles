@@ -32,7 +32,6 @@ require("lazy").setup({
                 ctags = {
                     name = "Ctags",
                     module = "blink-cmp-ctags",
-                    fallback_for = { "lsp" },
                 },
             },
             completion = {
