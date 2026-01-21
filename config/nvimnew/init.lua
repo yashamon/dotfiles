@@ -26,9 +26,22 @@ require("lazy").setup({
 				["<m-j>"] = { "select_next", "snippet_forward", "fallback" },
 			},
     -- ensure you have the `snippets` source (enabled by default)
-    sources = {min_keyword_length = 0,
-      default = {'snippets', 'lsp', 'buffer', 'path' },
-    },
+    sources = {
+            -- Add 'dictionary' to the list
+            default = { 'dictionary', 'lsp', 'path', 'luasnip', 'buffer' },
+            providers = {
+                dictionary = {
+                    module = 'blink-cmp-dictionary',
+                    name = 'Dict',
+                    -- Make sure this is at least 2.
+                    -- 3 is recommended
+                    min_keyword_length = 3,
+                    opts = {
+                        -- options for blink-cmp-dictionary
+                    }
+                }
+            }
+        }
   }
 },
 {
