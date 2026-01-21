@@ -22,10 +22,30 @@ require("lazy").setup({
   dependencies = { 'L3MON4D3/LuaSnip', version = 'v2.*' },
   opts = {
     snippets = { preset = 'luasnip', score_offset = 40000 },
-    keymap = { preset = "super-tab", ["<m-k>"] = { "select_prev", "snippet_backward", "fallback" },
-				["<m-j>"] = { "select_next", "snippet_forward", "fallback" },
-			},
-    -- ensure you have the `snippets` source (enabled by default)
+    keymap = {
+		preset = "enter",
+		["<Tab>"] = {
+			function(cmp)
+				if cmp.is_menu_visible() then
+					return require("blink.cmp").select_next()
+				elseif cmp.snippet_active() then
+					return cmp.snippet_forward()
+				end
+			end,
+			"fallback",
+		},
+		["<S-Tab>"] = {
+			function(cmp)
+				if cmp.is_menu_visible() then
+					return require("blink.cmp").select_prev()
+				elseif cmp.snippet_active() then
+					return cmp.snippet_backward()
+				end
+			end,
+			"fallback",
+		},
+		["<C-k>"] = {},
+	},    -- ensure you have the `snippets` source (enabled by default)
     sources = {min_keyword_length = 0,
       default = {'snippets', 'lsp', 'buffer', 'path' },
     },
