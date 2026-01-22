@@ -1230,7 +1230,7 @@
         "description": "Insert a definition, whose style is already defined in the template. The serial number is automatically generated according to the section."
     },
         "Large Integral": {
-        "prefix": ["integrallarge", "\\integrallarge"],
+        "prefix": ["latintegrallarge"],
 		"body": [
 			"\\displaystyle\\int_{$1}^{$2}$3"
 		],
