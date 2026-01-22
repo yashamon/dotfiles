@@ -53,8 +53,8 @@ rm $HOME/AppData/Local/nvim
 pwsh -nop -c ~\scoop\apps\sudo\current\sudo.ps1 New-Item -ItemType SymbolicLink -Path "$HOME/AppData/Local/nvim" -Target "$dir/config/nvimnew"
 rm $HOME/AppData/Local/lf/lfrc 
 pwsh -nop -c ~\scoop\apps\sudo\current\sudo.ps1 New-Item -ItemType SymbolicLink -Path "$HOME/AppData/Local/lf/lfrc" -Target "$dir/config/lf/lfrc"
-rm $HOME/AppData/Roaming/Microsoft/Windows/Start Menu/Programs/Startup/desktop-switcher.ahk 
-pwsh -nop -c ~\scoop\apps\sudo\current\sudo.ps1 New-Item -ItemType SymbolicLink -Path "$HOME/AppData/Roaming/Microsoft/Windows/Start Menu/Programs/Startup/desktop_switcher.ahk" -Target "$dir/scripts/desktop_switcher.ahk"
+rm $HOME/AppData/Roaming/Microsoft/Windows/'Start Menu'/Programs/Startup/desktop-switcher.ahk 
+pwsh -nop -c ~\scoop\apps\sudo\current\sudo.ps1 New-Item -ItemType SymbolicLink -Path "$HOME/AppData/Roaming/Microsoft/Windows/'Start Menu'/Programs/Startup/desktop_switcher.ahk" -Target "$dir/scripts/desktop_switcher.ahk"
 pwsh -nop -c ~\scoop\apps\sudo\current\sudo.ps1 New-Item -ItemType SymbolicLink -Path "$HOME/AppData/Roaming/Microsoft/Windows/Start Menu/Programs/Startup/WinJump.exe" -Target "$HOME/OneDrive/WinJump.exe"
 
 pwsh -nop -c ~\scoop\apps\sudo\current\sudo.ps1 New-Item -ItemType SymbolicLink -Path "$HOME/windows-desktop-switcher" -Target "$HOME/OneDrive/windows-desktop-switcher"
