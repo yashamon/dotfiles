@@ -37,7 +37,7 @@ require("lazy").setup({
     -- ensure you have the `snippets` source (enabled by default)
     sources = {
             -- Add 'dictionary' to the list
-            default = {{'dictionary', score_offset = 30000}, 'lsp', 'path', 'buffer', 'snippets' },
+            default = {'buffer', 'lsp', 'path', 'snippets' },
             providers = {
                 dictionary = {
                     module = 'blink-cmp-dictionary',
