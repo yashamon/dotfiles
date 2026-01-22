@@ -49,7 +49,7 @@ nu -c "~\scoop\apps\sudo\current\sudo.ps1 ln -s $dir/config/sumatra/SumatraPDF-s
 rm $HOME/textmf/bibtex/bib/link
 mkdir -p $HOME/textmf/bibtex/bib
 
-rm $HOME/Users/yasha/AppData/Local/nvim 
+rm $HOME/AppData/Local/nvim 
 pwsh -nop -c ~\scoop\apps\sudo\current\sudo.ps1 New-Item -ItemType SymbolicLink -Path "$HOME/AppData/Local/nvim" -Target "$dir/config/nvimnew"
 rm $HOME/Users/yasha/AppData/Local/lf/lfrc 
 pwsh -nop -c ~\scoop\apps\sudo\current\sudo.ps1 New-Item -ItemType SymbolicLink -Path "$HOME/AppData/Local/lf/lfrc" -Target "$dir/config/lf/lfrc"
