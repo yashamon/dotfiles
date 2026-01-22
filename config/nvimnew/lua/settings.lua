@@ -132,7 +132,15 @@ require('mini.move').setup(
     line_up = '<up>',
   },
 })
+require('leap.user').set_repeat_keys('<enter>', '<backspace>', {
+      -- When true, repeat in the direction of the last motion
+      -- (by default, <cr>/<bs> always goes forward/backward).
+      relative_directions = false,
+      modes = {'n', 'x', 'o'},
+    })
+
 require('leap').setup {
+	
 -- max_phase_one_targets = nil,
 highlight_unlabeled_phase_one_targets = false,
 max_highlighted_traversal_targets = 20,
