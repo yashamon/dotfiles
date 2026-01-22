@@ -67,7 +67,7 @@ require("lazy").setup({
       fallbacks = {},
       score_offset = 2000, -- Boost/penalize the score of the items
       override = nil, -- Override the source's functions
-    }
+    },
 
 									}
         }
