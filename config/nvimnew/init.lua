@@ -310,7 +310,7 @@ function Is_math()
 end
 
 require("luasnip/loaders/from_vscode").lazy_load({
-	paths = "C:/Users/yasha/OneDrive/dotfiles/snippets",
+	paths = "C:/Users/yasha/OneDrive/workspacemodules/dotfiles/snippets",
   -- fs_event_providers = {
                     -- autocmd = true,
                     -- libuv = true,
@@ -318,7 +318,7 @@ require("luasnip/loaders/from_vscode").lazy_load({
 })
 -- Reload = function()
 require("luasnip.loaders.from_lua").load({
-                paths = "C:/Users/yasha/OneDrive/dotfiles/config/nvimnew/lua/snippets",
+                paths = "C:/Users/yasha/OneDrive/workspacemodules/dotfiles/config/nvimnew/lua/snippets",
                 fs_event_providers = {
                     autocmd = true,
                     libuv = true,
