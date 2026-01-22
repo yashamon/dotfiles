@@ -14,9 +14,9 @@ nu "$HOME/OneDrive/dotfiles/scripts/installScoop.nu"
 sudo reg add "HKEY_LOCAL_MACHINE/SOFTWARE/Microsoft/Windows/CurrentVersion/AppModelUnlock" /t REG_DWORD /f /v "AllowDevelopmentWithoutDevLicense" /d "1"
 
 $olddir="$HOME/dotfiles_old"
-$dir="$HOME/OneDrive/dotfiles"                    # dotfiles directory
+$dir="$HOME/OneDrive/workspacemodules/dotfiles"                    # dotfiles directory
 $filesmain = "ctags", "gitconfig", "latexmkrc", "gitignore"    # list of files/folders to symlink in homedir
-$homed="$HOME/OneDrive"
+$homed="$HOME/OneDrive/workspacemodules/"
 ##########
 
 # create dotfiles_old in homedir
@@ -31,23 +31,22 @@ echo "done"
 # foreach ($file in $filesmain){
 #     move-Item  ~/.$file $olddir -Force -ErrorAction SilentlyContinue
 #pwsh -nop -c ~\scoop\apps\sudo\current\sudo.ps1 New-Item -ItemType SymbolicLink -Path "$HOME/.$file" -Target "$dir/$file" 
-#$files = Get-ChildItem $HOME/OneDrive/dotfiles/scripts
-#$foreach ($file in $files) echo "my file is $file" New-Item -ItemType SymbolicLink -Path "$HOME/.local/bin/$file" "$HOME/dotfiles/scripts/$file" } 
+#$files = Get-ChildItem $dir/scripts
+#$foreach ($file in $files) echo "my file is $file" New-Item -ItemType SymbolicLink -Path "$HOME/.local/bin/$file" "$dir/scripts/$file" } 
 rm ~/.config 
 # echo "link config"
-pwsh -nop -c ~\scoop\apps\sudo\current\sudo.ps1 New-Item -ItemType SymbolicLink -Path "$HOME/.config" -Target "$HOME/OneDrive/dotfiles/config" 
+pwsh -nop -c ~\scoop\apps\sudo\current\sudo.ps1 New-Item -ItemType SymbolicLink -Path "$HOME/.config" -Target "$dir/config" 
 mkdir ~/.ctags.d
 rm ~/.ctags.d/latex.ctags 
-pwsh -nop -c ~\scoop\apps\sudo\current\sudo.ps1 New-Item -ItemType SymbolicLink -Path "$HOME/.ctags.d/latex.ctags" -Target "$HOME/OneDrive/dotfiles/ctags"
+pwsh -nop -c ~\scoop\apps\sudo\current\sudo.ps1 New-Item -ItemType SymbolicLink -Path "$HOME/.ctags.d/latex.ctags" -Target "$dir/ctags"
 rm -r C:/Users/yasha/AppData/Roaming/nushell/config.nu 
-pwsh -nop -c ~\scoop\apps\sudo\current\sudo.ps1 New-Item -ItemType SymbolicLink -Path "$HOME/AppData/Roaming/nushell/config.nu" -Target $HOME/OneDrive/dotfiles/config/nushell/config.nu
+pwsh -nop -c ~\scoop\apps\sudo\current\sudo.ps1 New-Item -ItemType SymbolicLink -Path "$HOME/AppData/Roaming/nushell/config.nu" -Target $dir/config/nushell/config.nu
 rm -r C:/Users/yasha/AppData/Roaming/nushell/env.nu 
-pwsh -nop -c ~\scoop\apps\sudo\current\sudo.ps1 New-Item -ItemType SymbolicLink -Path "$HOME/AppData/Roaming/nushell/env.nu" -Target $HOME/OneDrive/dotfiles/config/nushell/env.nu
+pwsh -nop -c ~\scoop\apps\sudo\current\sudo.ps1 New-Item -ItemType SymbolicLink -Path "$HOME/AppData/Roaming/nushell/env.nu" -Target $dir/config/nushell/env.nu
 rm $HOME/scoop/apps/sumatrapdf/current/SumatraPDF-settings.txt 
-nu -c "~\scoop\apps\sudo\current\sudo.ps1 ln -s $HOME/OneDrive/dotfiles/config/sumatra/SumatraPDF-settings.txt $HOME/scoop/apps/sumatrapdf/current/SumatraPDF-settings.txt"
+nu -c "~\scoop\apps\sudo\current\sudo.ps1 ln -s $dir/config/sumatra/SumatraPDF-settings.txt $HOME/scoop/apps/sumatrapdf/current/SumatraPDF-settings.txt"
 rm $HOME/textmf/bibtex/bib/link
 mkdir -p $HOME/textmf/bibtex/bib
-nu -c "~\scoop\apps\sudo\current\sudo.ps1 ln -s $HOME/OneDrive/workspacemodules/link.bib $HOME/OneDrive/scoop/apps/sumatrapdf/current/SumatraPDF-settings.txt"
 
 rm $HOME/Users/yasha/AppData/Local/nvim 
 pwsh -nop -c ~\scoop\apps\sudo\current\sudo.ps1 New-Item -ItemType SymbolicLink -Path "$HOME/AppData/Local/nvim" -Target "$HOME/OneDrive/dotfiles/config/nvimnew"
