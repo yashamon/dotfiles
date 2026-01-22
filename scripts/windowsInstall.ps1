@@ -16,8 +16,6 @@ nu "$dir/scripts/installScoop.nu"
 # may need developer mode
 sudo reg add "HKEY_LOCAL_MACHINE/SOFTWARE/Microsoft/Windows/CurrentVersion/AppModelUnlock" /t REG_DWORD /f /v "AllowDevelopmentWithoutDevLicense" /d "1"
 
-$olddir="$HOME/dotfiles_old"
-$dir="$HOME/OneDrive/workspacemodules/dotfiles"                    # dotfiles directory
 $filesmain = "ctags", "gitconfig", "latexmkrc", "gitignore"    # list of files/folders to symlink in homedir
 $homed="$HOME/OneDrive/workspacemodules/"
 ##########
