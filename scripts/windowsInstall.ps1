@@ -5,10 +5,13 @@
 ########## Variables
 # Set-ExecutionPolicy RemoteSigned -Scope CurrentUser # Optional: Needed to run a remote script the first time
 # irm get.scoop.sh | iex
+$olddir="$HOME/dotfiles_old"
+$dir="$HOME/OneDrive/workspacemodules/dotfiles"                    # dotfiles directory
+
 scoop install git
 scoop install nu 
 scoop install sudo
-nu "$HOME/OneDrive/dotfiles/scripts/installScoop.nu"
+nu "$dir/scripts/installScoop.nu"
 
 # may need developer mode
 sudo reg add "HKEY_LOCAL_MACHINE/SOFTWARE/Microsoft/Windows/CurrentVersion/AppModelUnlock" /t REG_DWORD /f /v "AllowDevelopmentWithoutDevLicense" /d "1"
@@ -49,11 +52,11 @@ rm $HOME/textmf/bibtex/bib/link
 mkdir -p $HOME/textmf/bibtex/bib
 
 rm $HOME/Users/yasha/AppData/Local/nvim 
-pwsh -nop -c ~\scoop\apps\sudo\current\sudo.ps1 New-Item -ItemType SymbolicLink -Path "$HOME/AppData/Local/nvim" -Target "$HOME/OneDrive/dotfiles/config/nvimnew"
+pwsh -nop -c ~\scoop\apps\sudo\current\sudo.ps1 New-Item -ItemType SymbolicLink -Path "$HOME/AppData/Local/nvim" -Target "$dir/config/nvimnew"
 rm $HOME/Users/yasha/AppData/Local/lf/lfrc 
-pwsh -nop -c ~\scoop\apps\sudo\current\sudo.ps1 New-Item -ItemType SymbolicLink -Path "$HOME/AppData/Local/lf/lfrc" -Target "$HOME/OneDrive/dotfiles/config/lf/lfrc"
+pwsh -nop -c ~\scoop\apps\sudo\current\sudo.ps1 New-Item -ItemType SymbolicLink -Path "$HOME/AppData/Local/lf/lfrc" -Target "$dir/config/lf/lfrc"
 rm $HOME/AppData/Roaming/Microsoft/Windows/Start Menu/Programs/Startup/desktop-switcher.ahk 
-pwsh -nop -c ~\scoop\apps\sudo\current\sudo.ps1 New-Item -ItemType SymbolicLink -Path "$HOME/AppData/Roaming/Microsoft/Windows/Start Menu/Programs/Startup/desktop_switcher.ahk" -Target "$HOME/OneDrive/dotfiles/scripts/desktop_switcher.ahk"
+pwsh -nop -c ~\scoop\apps\sudo\current\sudo.ps1 New-Item -ItemType SymbolicLink -Path "$HOME/AppData/Roaming/Microsoft/Windows/Start Menu/Programs/Startup/desktop_switcher.ahk" -Target "$dir/scripts/desktop_switcher.ahk"
 pwsh -nop -c ~\scoop\apps\sudo\current\sudo.ps1 New-Item -ItemType SymbolicLink -Path "$HOME/AppData/Roaming/Microsoft/Windows/Start Menu/Programs/Startup/WinJump.exe" -Target "$HOME/OneDrive/WinJump.exe"
 
 pwsh -nop -c ~\scoop\apps\sudo\current\sudo.ps1 New-Item -ItemType SymbolicLink -Path "$HOME/windows-desktop-switcher" -Target "$HOME/OneDrive/windows-desktop-switcher"
