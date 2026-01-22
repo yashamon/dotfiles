@@ -1237,7 +1237,7 @@
 		"description": "Insert large integral notation."
     },
     "Inline Integral": {
-        "prefix": ["int", "integralinline", "\\integralinline"],
+        "prefix": ["latint"],
         "body": [
             "\\int_{$1}^{$2}$3"
         ],
