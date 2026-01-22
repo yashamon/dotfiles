@@ -54,8 +54,8 @@ RestoreSession = true
 UiLanguage = en
 InverseSearchCmdLine = nu  "C:/Users/yasha/OneDrive/dotfiles/scripts/remote.nu" %l $
 EnableTeXEnhancements = true
-DefaultDisplayMode = single page
-DefaultZoom = fit content
+DefaultDisplayMode = automatic
+DefaultZoom = 100
 Shortcuts [
 	[
 		Cmd = ShowFavorites
@@ -118,7 +118,7 @@ ShowFavorites = false
 ShowToc = true
 NoHomeTab = false
 TocDy = 0
-SidebarDx = 364
+SidebarDx = 366
 ToolbarSize = 18
 TabWidth = 300
 TreeFontSize = 0
@@ -246,6 +246,6 @@ FileStates [
 SessionData [
 ]
 TimeOfLastUpdateCheck = 0 0
-OpenCountWeek = 782
+OpenCountWeek = 785
 
 # Settings below are not recognized by the current version

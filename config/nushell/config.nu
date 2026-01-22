@@ -1,6 +1,6 @@
 # Nushell Config File
 # C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.40.33807/bin/Hostarm64/arm64" "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/Tools" "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.40.33807/bin/HostARM64/ARM64" "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/VC/VCPackages" "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/TestWindow" "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/TeamFoundation/Team Explorer" "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/bin/Roslyn" "C:/Program Files/Microsoft Visual Studio/2022/Community//MSBuild/Current/Bin/arm64" "C:/Windows/Microsoft.NET/Framework64/v4.0.30319" "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/" "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/Tools/" 
-let path0 = ["C:/Users/yasha/neovim/build/bin"  "C:/Users/yasha/executable" "C:/Users/yasha/OneDrive/dotfiles/scripts" "C:/Users/yasha/scoop/apps/python39/current" "C:/Users/yasha/scoop/apps/nodejs/current/bin" "C:/Users/yasha/scoop/apps/nodejs/current" "C:/Users/yasha/scoop/apps/latex/current/texmfs/install/miktex/bin/x64" "C:/Program Files/PowerShell/7" "C:/windows/system32" "C:/windows" "C:/windows/System32/Wbem" "C:/windows/System32/WindowsPowerShell/v1.0" "C:/windows/System32/OpenSSH" "C:/Program Files/dotnet" "C:/Program Files/PowerShell/7" "C:/Users/yasha/AppData/Local/Microsoft/WindowsApps" "C:/Users/yasha/scoop/apps/perl/current/perl/bin" "C:/Users/yasha/scoop/apps/gcc/current/bin"]
+let path0 = ["C:/Users/yasha/neovim/build/bin"  "C:/Users/yasha/executable" "C:/Users/yasha/OneDrive/workspacemodules/dotfiles/scripts" "C:/Users/yasha/scoop/apps/python39/current" "C:/Users/yasha/scoop/apps/nodejs/current/bin" "C:/Users/yasha/scoop/apps/nodejs/current" "C:/Users/yasha/scoop/apps/latex/current/texmfs/install/miktex/bin/x64" "C:/Program Files/PowerShell/7" "C:/windows/system32" "C:/windows" "C:/windows/System32/Wbem" "C:/windows/System32/WindowsPowerShell/v1.0" "C:/windows/System32/OpenSSH" "C:/Program Files/dotnet" "C:/Program Files/PowerShell/7" "C:/Users/yasha/AppData/Local/Microsoft/WindowsApps" "C:/Users/yasha/scoop/apps/perl/current/perl/bin" "C:/Users/yasha/scoop/apps/gcc/current/bin"]
 let scoop1 = (ls C:/Users/yasha/scoop/apps/*/current).name
 let scoop2 = (ls C:/Users/yasha/scoop/apps/*/current/bin).name
 let path = $path0 | append $scoop1 | append $scoop2 | append ["C:/Users/yasha/scoop/shims"] | append ["C:/Users/yasha/scoop/apps/rustup/current/.cargo/bin"] | append ["C:/Users/yasha/scoop/apps/autohotkey/current/installer/AutoHotkeyU64.exe"]
@@ -27,7 +27,7 @@ do --ignore-errors {rm link.bib}
 pwsh -nop -c New-Item -ItemType SymbolicLink -Path ./link.bib -Target C:/Users/yasha/onedrive/workspacemodules/bib/link.bib}
 
 def uploadGit [name:string] { let key = (keyGH)
-nu $"($HOMED)/dotfiles/scripts/uploadGit.nu" $name (keyGH) }
+nu $"($HOMED)/workspacemodules/dotfiles/scripts/uploadGit.nu" $name (keyGH) }
 def neo [file?:string] {
 # nu -c $"C:/Users/yasha/scoop/apps/neovide/current/neovide.exe ($file)"
 # nu -c $"C:/Users/yasha/nvy/build/nvy --fullscreen --neovim-bin=C:/Users/yasha/neovim/build/bin/nvim.exe ($file)"
@@ -45,7 +45,7 @@ pwsh -NoExit -Command $command
 def swap [] {
 rm $"($HOME)/AppData/Local/nvim-data/swap/*"
 }
-# test let profile = $"($HOMED)/dotfiles/config/nvim/init.vim"|ZCXVBNM<>=
+# test let profile = $"($HOMED)/workspacemodules/dotfiles/config/nvim/init.vim"|ZCXVBNM<>=
 def n [] {
 neo
 }
@@ -66,10 +66,10 @@ def killn [name: string] { ps | where name =~ $name | each {|it| kill --force $i
 # __zoxide_z $file}
 
 alias cl = clang-cl 
-def vrc [] { nvim $"($HOMED)/dotfiles/config/nvimnew/init.lua" }
-def lfrc [] { nvim $"($HOMED)/dotfiles/config/lf/lfrc" } 
+def vrc [] { nvim $"($HOMED)/workspacemodules/dotfiles/config/nvimnew/init.lua" }
+def lfrc [] { nvim $"($HOMED)/workspacemodules/dotfiles/config/lf/lfrc" } 
 # def psrc [] { neo $profile } 
-def nurc [] { nvim $"($HOMED)/dotfiles/config/nushell/config.nu"}
+def nurc [] { nvim $"($HOMED)/workspacemodules/dotfiles/config/nushell/config.nu"}
 def texi [file:string] { pdflatex -file-line-error -synctex=1  -interaction=nonstopmode -recorder $file }
 def latexi [file:string] { latexmk -g -pdf -file-line-error -synctex=1  -interaction=nonstopmode -recorder -f $file}
 def pdf [file:string] { nu -c C:/Users/yasha/scoop/shims/sumatrapdf.exe $file} 
@@ -77,7 +77,6 @@ def ink [file = ""] { inkscape $file}
 def pvc [file:string] { latexmk -pdf -pvc -file-line-error -synctex=1  -interaction=nonstopmode -recorder -f $file} 
 def lat [file:string] { latexmk -pvc -pdf -file-line-error -synctex=1 -interaction=nonstopmode -recorder -f -g $file}
 #
-def branchlist [] {git branch --sort=-committerdate}
 def pushmod [] { git submodule foreach git add . ; git submodule foreach git commit -m -a ; git submodule foreach git push origin master; git add . ; git commit -m $"(git diff --staged)"; git push --all origin }
 def push [] { do --ignore-errors { git add . }; do --ignore-errors {git diff --staged | save --force message.log}; do --ignore-errors {git commit -F message.log}; do --ignore-errors {git push --all origin}}
 def pull [] { git pull --recurse-submodules ; git submodule update --recursive --remote }
@@ -105,14 +104,14 @@ git push origin gh-pages
 cd $cwdb
 }
 alias send = sendFunction
-def --env lf [...opt] { source "C:/Users/yasha/OneDrive/dotfiles/scripts/lfcd.nu"
+def --env lf [...opt] { source "C:/Users/yasha/OneDrive/workspacemodules/dotfiles/scripts/lfcd.nu"
 main $opt
 let dir = ((open "C:\\Users\\yasha\\AppData\\Local\\Temp\\tmp9E2XX.tmp") | str trim)
 $dir | clip
 cd $dir
 }
-def upscoop [] { scoop update -a; echo "saving"; scoop export | save -f $"($HOMED)/dotfiles/scoopPackageList.json"; pwsh -nop -c 'scoop cleanup *' }
-def upwin [] { winget upgrade --all --accept-source-agreements --silent; echo "saving"; winget export -o $"($HOMED)/dotfiles/WingetList.json" }
+def upscoop [] { scoop update -a; echo "saving"; scoop export | save -f $"($HOMED)/workspacemodules/dotfiles/scoopPackageList.json"; pwsh -nop -c 'scoop cleanup *' }
+def upwin [] { winget upgrade --all --accept-source-agreements --silent; echo "saving"; winget export -o $"($HOMED)/workspacemodules/dotfiles/WingetList.json" }
 module completions {
   # Custom completions for external commands (those outside of Nushell)
   # Each completions has two parts: the form of the external command, including its flags and parameters
