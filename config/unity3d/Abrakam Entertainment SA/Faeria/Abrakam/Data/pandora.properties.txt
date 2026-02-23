@@ -1,0 +1,4 @@
+arenaRunMaxWin=6
+arenaRunMaxLoss=2
+standardPandoraCost=2
+mythicPandoraCost=2400

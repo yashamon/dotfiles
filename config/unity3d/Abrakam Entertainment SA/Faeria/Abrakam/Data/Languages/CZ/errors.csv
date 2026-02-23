@@ -1,0 +1,35 @@
+AUTHENTICATION_LOCAL_ERROR;Ověření s {0} se nepodařilo, zkuste restartovat vašeho klienta.
+DECK_LIMIT_MESSAGE;Balíčky jsou limitovány na {0} karet.
+EMAIL_INVALID;Zadaná e-mailová adresa je neplatná.
+EMPTY_USERNAME_PASSWORD_NOT_ALLOWED;Prázdné jméno/heslo není povoleno.
+ERROR_MESSAGE;Chybová hláška : {0}
+ERROR_RESOURCES_CORRUPTED;Vypadá to, že soubory jsou poškozeny a hra se musí ukončit. Pokud tato chyba přetrvává, zvažte prosím opětovnou instalaci.
+GAMECENTER_HTTP_ERROR;Připojení na ověřovací servery Apple se nepodařilo. Zkuste to znovu později.
+GAMECENTER_RUNTIME_ERROR;Ověření se nepodařilo. Zkuste to znovu později.
+GAMECENTER_SIGNATURE_MISMTACH;Ověření selhalo. Zkuste to znovu později.
+GAME_SERVER_CONNECTION_FAILED;Nepodařilo se připojit do hry.
+GAME_SERVER_RECONNECTION_FAILED;Nepodařilo se opětovně připojit do hry.
+MAIL_INVALID;Zadaná e-mailová adresa je neplatná.
+MUST_WAIT;Musíte počkat {0} minut.
+RECOVERY_CODE_EXPIRED;Obnovovací kód vypršel.
+RECOVERY_CODE_INVALID;Neplatný obnovovací kód.
+SERVER_CONNECTION_FAILED;Nepodařilo se připojit k serveru.
+SERVER_UNREACHABLE;Server je nedosažitelný.
+STEAM_ACCOUNT_DLC_NOT_SYNCHRONISED;Váš účet je nedostupný, protože vaše Steam DLC nejsou synchronizovány.
+STEAM_ACCOUNT_NOT_FOUND;Tento účet zatím není vázan se Steamem.
+TOKEN_INVALID;Ověření selhalo. Zkuste se přihlásit znovu později.
+UNAUTHORIZED_ACCESS;Neautorizovaný pokus o přístup, zkuste restartovat vašeho klienta.
+UNKNOWN_ERROR;Došlo k neznámé chybě. Pokud tento problém přetrvává, kontaktujte prosím podporu.
+WORLD_SERVER_RECONNECTION_FAILED;Nepodařilo se opětovně připojit na server.
+FRIEND_ALREADY_IN_LOBBY;Přítel je již v místnosti!
+LOBBY_INVALID_MINUTES_PER_GAME;Do pole 'minuty za hru' vepište kladnou hodnotu.
+LOBBY_INVALID_TURN_DURATION;Do pole 'délka tahu' vepište kladnou hodnotu.
+LOBBY_TIMER_EMPTY_MATCH_FORMAT;Zvolte si formát zápasu během používání časovače.
+INTERNAL_ERROR;Interní chyba serveru. Zkuste to prosím znovu.
+PLATFORM_PRIVILEGES_DO_NOT_ALLOW;K provedení této akce nemáte na této platformě dostatečná oprávnění.
+ACHIEVEMENT_INITIALIZATION_FAILED_TITLE;Chyba inicializace
+ACHIEVEMENT_INITIALIZATION_FAILED_TEXT;Nebylo možné zahájit inicializaci úspěchů. Zkontrolujte prosím připojení k internetu.
+PLAYER_CANNOT_PLAY_MULTIPLAYER_GAMES;Tento hráč nemá oprávnění hrát ve hře více hráčů.
+DEBUG_PANEL_EXIT_BUTTON;ODEJÍT
+CANNOT_RENAME_ON_PLATFORM;Na této platformě není možné přejmenovávat
+PLATFORM_PRIVILEGES_CANNOT_LOGIN;Nemohli jsme váš přihlásit, protože nemáte potřebná oprávnění

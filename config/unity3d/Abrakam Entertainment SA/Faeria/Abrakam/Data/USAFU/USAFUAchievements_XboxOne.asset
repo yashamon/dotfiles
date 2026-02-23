@@ -1,0 +1,123 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 25f721e2985213b418019a9706ee19ab, type: 3}
+  m_Name: USAFUAchievements_XboxOne
+  m_EditorClassIdentifier: Assembly-CSharp-firstpass:FishingCactus.Unity:AchievementMappingList
+  AchievementMappings:
+  - AchievementId: 1500
+    Index: 1
+  - AchievementId: 1503
+    Index: 2
+  - AchievementId: 1504
+    Index: 3
+  - AchievementId: 1505
+    Index: 4
+  - AchievementId: 1506
+    Index: 5
+  - AchievementId: 1507
+    Index: 6
+  - AchievementId: 1509
+    Index: 7
+  - AchievementId: 1510
+    Index: 8
+  - AchievementId: 1511
+    Index: 9
+  - AchievementId: 1512
+    Index: 10
+  - AchievementId: 1513
+    Index: 11
+  - AchievementId: 1514
+    Index: 12
+  - AchievementId: 1515
+    Index: 13
+  - AchievementId: 1516
+    Index: 14
+  - AchievementId: 1517
+    Index: 15
+  - AchievementId: 1519
+    Index: 16
+  - AchievementId: 1520
+    Index: 17
+  - AchievementId: 1521
+    Index: 18
+  - AchievementId: 1522
+    Index: 19
+  - AchievementId: 1523
+    Index: 20
+  - AchievementId: 1524
+    Index: 21
+  - AchievementId: 1525
+    Index: 22
+  - AchievementId: 1526
+    Index: 23
+  - AchievementId: 1527
+    Index: 24
+  - AchievementId: 1528
+    Index: 25
+  - AchievementId: 1529
+    Index: 26
+  - AchievementId: 1530
+    Index: 27
+  - AchievementId: 1531
+    Index: 28
+  - AchievementId: 1532
+    Index: 29
+  - AchievementId: 1533
+    Index: 30
+  - AchievementId: 1534
+    Index: 31
+  - AchievementId: 1536
+    Index: 32
+  - AchievementId: 1537
+    Index: 33
+  - AchievementId: 1538
+    Index: 34
+  - AchievementId: 1539
+    Index: 35
+  - AchievementId: 1540
+    Index: 36
+  - AchievementId: 1541
+    Index: 37
+  - AchievementId: 1542
+    Index: 38
+  - AchievementId: 1543
+    Index: 39
+  - AchievementId: 1544
+    Index: 40
+  - AchievementId: 1545
+    Index: 41
+  - AchievementId: 1546
+    Index: 42
+  - AchievementId: 1547
+    Index: 43
+  - AchievementId: 1548
+    Index: 44
+  - AchievementId: 1549
+    Index: 45
+  - AchievementId: 1550
+    Index: 46
+  - AchievementId: 1551
+    Index: 47
+  - AchievementId: 1552
+    Index: 48
+  - AchievementId: 1553
+    Index: 49
+  - AchievementId: 1554
+    Index: 50
+  - AchievementId: 1555
+    Index: 51
+  - AchievementId: 1556
+    Index: 52
+  - AchievementId: 1557
+    Index: 53
+  - AchievementId: 1558
+    Index: 54

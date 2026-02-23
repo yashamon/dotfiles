@@ -1,0 +1,46 @@
+TUTORIAL_ADVENTURE_POUCH_AVAILABLE_GOT_IT;새로운 여정이 시작됩니다... \n모험 보따리가 공개되었습니다. 페어리아에 무엇이 새로 등장할지 확인할 시간입니다.\n메.. 메달리온이 뭐죠?
+TUTORIAL_BATTLE_CASUAL_MODE_HINT;캐주얼 모드에서는 부담없는 게임을 할 수 있습니다.
+TUTORIAL_BATTLE_CHOOSE_MODE_GOT_IT;게임을 시작하기 전에, 연습, 캐주얼, 경쟁전 중에서 선택할 수 있습니다.
+TUTORIAL_BATTLE_PRACTICE_MODE_HINT;연습 모드를 선택하면, AI를 상대로 연습할 수 있습니다.
+TUTORIAL_BATTLE_RANKED_MODE_HINT;경쟁전 모드에서는 실력을 증명할 수 있습니다.
+TUTORIAL_CRAFTING_HIT_CRAFT_MODE_BUTTON;새로운 카드를 만들 수 있게 되었습니다!
+TUTORIAL_DECK_EDITION_NEW_CARD_RECEIVED_GOT_IT;새로운 카드를 얻었습니다. 이제 그 카드를 덱에 넣어보도록 합시다.
+TUTORIAL_FIRST_FORMULA_DECK_CREATED;첫번째 덱입니다. 플레이할 준비가 되었습니다!
+TUTORIAL_FIRST_FORMULA_HIT_BLUEPRINT_SELECT_BUTTON;추천 덱을 사용하면 간단하게 덱을 만들 수 있습니다.
+TUTORIAL_FIRST_FORMULA_HIT_PLAY_BUTTON;새로운 덱을 사용해 봅시다.
+TUTORIAL_FIRST_FORMULA_HOME_UNLOCKED_GOT_IT;페어리아의 메인 화면에 오신 것을 환영합니다. 첫 번째 덱을 만드는 것부터 시작해 봅시다.
+TUTORIAL_FIRST_FORMULA_SOLO_GOT_IT;미션에 어서 오세요. 미션을 진행해 레벨을 올리고 새로운 카드를 모으세요.
+TUTORIAL_SECOND_FORMULA_CREATE_DECK;일단 덱을 만들고, 나머지 두 장은 원하는 카드를 추가할 수 있습니다.
+TUTORIAL_SECOND_FORMULA_FINISH_DECK_GOT_IT;추천 덱의 카드를 모두 가지고 있지 않더라도 다른 카드를 추가해 덱을 완성할 수 있습니다.
+TUTORIAL_SECOND_FORMULA_NEW_FORMULA_RECEIVED_GOT_IT;새로운 추천 덱을 얻었습니다. 사용해 봅시다.
+TUTORIAL_SECOND_FORMULA_NOT_COMPLETED_FORMULA_HINT;추천 덱의 카드 30장 중 28장을 가지고 있습니다.
+TUTORIAL_SHOP_MYTHIC_CHEST_HINT;신화 상자는 신화 버젼의 카드들과 다른 치장품들이 들어 있어요.
+TUTORIAL_PANDORA_PRACTICE_COIN_HINT;전리품 상자 2개를 걸고 새로이 짠 덱으로 싸우세요. 전리품 상자와 카드를 얻기 위해 최대 6번까지 이길 수 있습니다.
+TUTORIAL_PANDORA_FULL_COIN_HINT;신화 카드와 샤드를 얻기 위해 샤드를 거세요.
+MOUSE_TUTORIAL_PANDORA_REWARD_GOT_IT;판도라 포인트를 모아 매 시즌이 끝날 때마다 보상을 획득하세요. 클릭하여 보상을 확인하세요! <u><link=https://esports.faeria.com/pandora-season>https://esports.faeria.com/pandora-season</link></u>
+DAILY_REWARDS_TUTORIAL_GOT_IT;처음으로 접속 보상을 받았습니다. 매일 로그인해서 더 많은 보상을 받으세요. 중간에 접속하지 못하는 날이 있더라도 진행과정이 초기화되지 않습니다.
+LOYALTY_PATCH_PUZZLES_GOT_IT;영생의 몰락을 시작하기에 앞서 퍼즐을 준비해 봤습니다!
+TUTORIAL_WORLD_MAP_GOT_IT;페어리아 세계에 어서오세요! 이곳에서는 강력한 적들에게 도전하고 챔피언 오브를 획득할 수 있습니다.
+TUTORIAL_PANDORA_FIRST_GAME_GOT_IT;판도라의 조각들이 덱에 섞여 들어갑니다. 조각을 5개 찾으면, 판도라가 열립니다.
+TUTORIAL_PANDORA_AWAKENS_GOT_IT;판도라가 눈을 떴습니다. 덱에 보물들이 들어갑니다. 매 턴마다 3 페어리아를 추가로 얻습니다.
+TUTORIAL_CRAFTING_CRAFT_CHARGES_GOT_IT;새로운 카드를 만들 수 있습니다. 시간이 지남에 따라 충전되며 최대 {0}번까지 충전됩니다.
+TUTORIAL_CRAFTING_CRAFT_GOT_IT;이제부터 일반 카드를 제작할 수 있습니다. 그러나 좀 더 레벨이 높아지면 희귀와 영웅카드도 제작할 수 있습니다!
+TUTORIAL_SHOP_DEAL_OF_THE_DAY_HINT;또한 상점에서 아이템을 바로 구매할 수 있습니다. 상품은 매일 달라집니다.
+TUTORIAL_SHOP_GOT_IT;이곳에서는 치장품들을 살 수 있습니다. 카드 둘레를 반짝이게 만들 수도 있고 프로필 설정을 마음대로 꾸밀 수도 있죠.
+TUTORIAL_LORE_BOOK_GOT_IT;설화집을 해제하였습니다!
+TUTORIAL_DRAGONS_LAIR_IS_HERE_GOT_IT;자신이 있다면, 여기를 눌러 용의 둥지에 입장하십시오.
+TUTORIAL_DRAGONS_LAIR_IS_DAILY_GOT_IT;매일 새로운 드래곤이 둥지에 들어옵니다. 충분한 횟수만큼 용을 격퇴하면 그 용의 치장품 세트를 얻을 수 있습니다!
+TUTORIAL_DRAGONS_LAIR_GOT_IT;이제 용의 둥지에 도전할 수 있습니다!\n매일매일 혼자서 또는 친구와 함께 강력한 드래곤들에게 도전하세요!
+TUTORIAL_DECK_COSMETIC_SET_POPUP_GOT_IT;이 덱에 쓰고 싶은 치장품들을 선택한 후 적용하기를 눌러 변경사항을 저장하세요.
+TUTORIAL_DECK_COSMETIC_SET_EDIT_DECK_GOT_IT;이제 덱마다 전용 치장품 세트를 설정할 수 있습니다!
+GAMEPAD_TUTORIAL_PANDORA_REWARD_GOT_IT;판도라 포인트를 모아 매 시즌이 끝날 때마다 보상을 획득하세요. 보상 확인: <u><link=https://esports.faeria.com/pandora-season>https://esports.faeria.com/pandora-season</link></u>
+GAMEPAD_TUTORIAL_LORE_BOOK_ZOOM_ON_LORE_ITEM;해금된 설화에 대고 {GAMEPAD_ACTION_CONFIRM}을 누르면 읽을 수 있습니다.
+MOUSE_TUTORIAL_LORE_BOOK_ZOOM_ON_LORE_ITEM;해금된 설화를 클릭하여 읽으세요.
+GAMEPAD_TUTORIAL_DECK_EDITION_REMOVE_ANY_CARD_FROM_DECK;카드에 대고 {GAMEPAD_ACTION_CONFIRM}을 누르면 덱에서 카드를 제거할 수 있습니다.
+MOUSE_TUTORIAL_DECK_EDITION_REMOVE_ANY_CARD_FROM_DECK;카드를 클릭하면 덱에서 카드를 제거할 수 있습니다.
+GAMEPAD_TUTORIAL_DECK_EDITION_CLICK_SAVE;저장을 선택하면 완료됩니다.
+MOUSE_TUTORIAL_DECK_EDITION_CLICK_SAVE;저장을 클릭하면 완료됩니다.
+GAMEPAD_TUTORIAL_DECK_EDITION_ADD_ANY_CARD_TO_DECK;이제 카드를 선택하여 덱에 추가하세요.
+MOUSE_TUTORIAL_DECK_EDITION_ADD_ANY_CARD_TO_DECK;이제 카드를 클릭하여 덱에 추가하세요.
+GAMEPAD_TUTORIAL_ADVENTURE_POUCH_MEDALLION_GOT_IT;{GAMEPAD_ACTION_CONFIRM}을 눌러 모험에 참여하세요.
+MOUSE_TUTORIAL_ADVENTURE_POUCH_MEDALLION_GOT_IT;클릭하여 모험에 참여하세요.

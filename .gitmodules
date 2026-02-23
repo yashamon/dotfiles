@@ -1,0 +1,15 @@
+[submodule "vifm/colors"]
+	path = vifm/colors
+	url = https://github.com/vifm/vifm-colors.git
+[submodule "fasd"]
+	path = fasd
+	url = https://github.com/clvv/fasd.git
+[submodule "vim-plug"]
+	path = vim-plug
+	url = https://github.com/junegunn/vim-plug.git
+[submodule "gitwatch"]
+	path = gitwatch
+	url = https://github.com/gitwatch/gitwatch.git
+[submodule "PDFViewer"]
+	path = PDFViewer
+	url = https://github.com/larki/PDFViewer.git

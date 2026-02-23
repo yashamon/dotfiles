@@ -1,0 +1,124 @@
+LOADING_HINT_QUEST_0;Tip: Na začátku každého tahu získáš {faeria|3} faerie.
+LOADING_HINT_QUEST_1;Tip: Nepoužitá faerie je uchována pro další tah.
+LOADING_HINT_QUEST_2;Tip: Schopnosti jsou vysvětleny nad každou kartou.
+LOADING_HINT_QUEST_3;Tip: Tvořte pevniny poblíž nepřátelského orbu.
+LOADING_HINT_QUEST_4;Tip: Zabijte Trnové bludičky dříve, než vyrostou.
+LOADING_HINT_QUEST_5;Tip: Ve Faerii jsou 4 barvy. Každá barva má svůj vlastní typ pevniny.
+LOADING_HINT_QUEST_6;Tip: Ruunin je pradávná, nesmrtelná strážkyně lesa.
+LOADING_HINT_QUEST_7;Tip: Červené karty používají moc ohnivých hor.
+LOADING_HINT_QUEST_8;Seifer vypálil své jmeno do popela padlých království.
+LOADING_HINT_QUEST_9;Tip: Bytost se schopností Skok se může pohnout až o 2 políčka jakýmkoliv směrem a přes jakoukoliv překážku.
+LOADING_HINT_QUEST_10;Tip: Stav pevninu, abys zablokoval Vodní nepřátele.
+LOADING_HINT_QUEST_11;Tip: Khalim je agresivní. Dávejte si na svůj orb velký pozor.
+LOADING_HINT_QUEST_13;Shařina vesnice shořela, když byla ještě dítě. A s ní také její strach.
+LOADING_HINT_QUEST_20;Magda je královna Merovalu. Hrdinové a zločinci jsou pouhými nástroji v jejích velkých plánech.
+LOADING_HINT_QUEST_25;Krogovy taneční oslavy z dálky často zní jako blížící se bouře.
+LOADING_HINT_QUEST_26;Tarum byl prvním zasazeným semínkem. Spatřil vzestup hor, zrod draků a pád dávných bohů.
+LOADING_HINT_QUEST_29;Tip: Vyhrajte rychle! Tarumova moc postupně roste.
+LOADING_HINT_QUEST_30;Hoaka neustále vymýšlí nové hrací plochy.
+LOADING_HINT_QUEST_48;Mezi Aurořiny koníčky patří výuka budoucích hrdinů a ochutnávání nových druhů čaje.
+LOADING_HINT_QUEST_49;Khalim, zázračné dítě z Djidanského řádu, se vzepřel svým mistrům a vstoupil do pozemské války.
+LOADING_HINT_QUEST_54;Některé ryby prostě jen chtějí vidět svět shořet.
+LOADING_HINT_QUEST_64;Záhadný Jalmyr opatruje kosmos a hraje roli učitele bohů.
+LOADING_HINT_QUEST_117;Tip: Poklady jsou mocné karty, které naleznete v Pandoře.
+LOADING_HINT_QUEST_118;Fugoro cestuje světem a sbírá ty nejroztodivnější bájné relikvie.
+LOADING_HINT_RANDOM_DEATHTOUCH_ONLY_IF_DAMAGE;Tip: Dotyk Smrti zabije bytost, jenom pokud udělí nějaké poškození. Ochrana poškození blokuje.
+LOADING_HINT_RANDOM_TIKIS_CAN_TARGET_THEMSELVES;Tip: Tikijský domovník a Tikijský dudák mohou zaměřit sami sebe.
+LOADING_HINT_RANDOM_FROGS_PLACED_ON_LAKES;Tip: Žáby z karty Bojové ropuchy mohou být vyvolány jen na jezeře.
+LOADING_HINT_RANDOM_HEAL_ORB_MAX_20;Tip: Nemůžete si doplnit své zdraví na více než 20 životů.
+LOADING_HINT_RANDOM_COMPLETE_SOLO_CONTENT;Tip: Dokončení Sólo misí je nejlepší způsob, jak začít.
+LOADING_HINT_RANDOM_RED_COLOR_EXPLAINED;Tip: Červená je barva ohně a války.
+LOADING_HINT_RANDOM_BLUE_COLOR_EXPLAINED;Tip: Modrá je barva přeměny a lstí.
+LOADING_HINT_RANDOM_GREEN_COLOR_EXPLAINED;Tip: Zelená je barva růstu a divokých predátorů.
+LOADING_HINT_RANDOM_YELLOW_COLOR_EXPLAINED;Tip: Žlutá je barva větru a rychlosti.
+LOADING_HINT_RANDOM_CHARGE_CANT_PASS_THROUGH;Tip: Schopnost Nájezd neumožňuje pohyb skrz ostatní bytosti.
+LOADING_HINT_RANDOM_BLOCK_AQUATIC_WITH_LANDS;Tip: Stavte pevninu, abyste zablokovali vodní nepřátele.
+LOADING_HINT_RANDOM_DAILY_QUEST_1;Tip: Nejefektivnější cestou k získání bitevních truhel je přihlásit se každý den a plnit denní úkoly.
+LOADING_HINT_RANDOM_THE_HUB;Věděli jste: faeria.com/the-hub je naše oficiální stránka, kde mohou hráči publikovat své vlastní návody
+LOADING_HINT_RANDOM_CARDBACK_FROM_SOLO;Tip: Dokončete všechny sólo mise pro odemknutí Dračího rubu karty.
+LOADING_HINT_RANDOM_PANDORA_ECONMY;Tip: Když se Pandora probudí, všechny studny faerie jsou zničeny a hráči dostávají dvojnásobek faerie každý tah.
+LOADING_HINT_RANDOM_TAUNT_BEST_DEFENSE;Tip: Bytosti se schopností Provokace jsou často nejlepším nástrojem obrany.
+LOADING_HINT_RANDOM_BUILD_LANDS_EARLY_GAME;Tip: Ze začátku hry stavte pevninu. Šetřete si tlačítka +1 karta nebo +1 faerie na později.
+LOADING_HINT_RANDOM_GIANT_LATEGAME_CREATURES_EXIST;Tip: Mnoho balíčků má v sobě mocné karty pro pozdější fázi hry. Sežeňte si nástroje na jejich odstranění.
+LOADING_HINT_RANDOM_COUNTERING_RUSH_1;Tip: Pokud hrajete proti agresivní taktice, posuňte své bytosti na nepřátelské pevniny blízko vašeho orbu.
+LOADING_HINT_RANDOM_STRUCTURES_LEGAL_PLACEMENT;Tip: Budovy můžou být zahrány na pevnině jakékoliv barvy.
+LOADING_HINT_RANDOM_STRUCTURES_DIRECTLY_ACTIVATES;Tip: Budovy mohou být aktitovávny už během tahu, ve kterém jsou přivolány.
+LOADING_HINT_RANDOM_GET_LANDS_NEAR_OPPONENT;Tip: Zkuste stavět pevninu hned vedle nepřátelského boha.
+LOADING_HINT_RANDOM_OVERDRAWING_DESTROYS_CARDS;Tip: Můžete držet jenom 9 karet najednou. Přebytečné karty jsou při líznutí zničeny.
+LOADING_HINT_RANDOM_COUNTERING_RUSH_2;Tip: Tip: Porazte agresivní hráče blokováním jejich pevnin. Proveďte protiútok, než se k vám dostanou.
+LOADING_HINT_RANDOM_YAK_LORE_1;<i>pokud ublížíš jakovi, ublížíš celému světu</i>\n<align=right>Sylandské rčení</align>
+LOADING_HINT_RANDOM_FRIENDS_BLOCK_RANGED;Tip: Bytosti se schopností Střelba nemůžou střílet skrz spojenecké bytosti.
+LOADING_HINT_RANDOM_LANDS_ARE_BETTER_THAN_CARDS;Tip: Vytváření pevnin je většinou důležitější než lizání karet.
+LOADING_HINT_RANDOM_ENDGAME_THREATS_EXIST;Tip: Některé hrozby vás potrestají za zdržovaní. Jakmile máte výhodu, zaútočte!
+LOADING_HINT_RANDOM_FATIGUE_HURTS;Tip: Jakmile vám dojdou karty v balíčku, bude vám udělováno místo karet postupně se zvyšující poškození.
+LOADING_HINT_RANDOM_JALMYR_LORE_2;Jalmyrovy pokrokové hádanky často zmatou i ty nejvíce zběhlé hráče.
+LOADING_HINT_RANDOM_STEAM_FORGE_LORE;Říšské parní kovárny, v nichž je zatápěno faerií, jsou nepředvídatelné, ale efektivní.
+LOADING_HINT_RANDOM_JALMYR_LORE_3;Jalmyr se nedokázal přimět k tomu, aby zcela zničil svého bratra, pána temnoty.
+LOADING_HINT_RANDOM_YELLOW_USES_HASTE;Tip: Žluté balíčky často využívají schopnosti Spěch. Vytvořte obranu včas.
+LOADING_HINT_RANDOM_RED_DIRECT_DAMAGE;Tip: Červené balíčky často využívají přímé poškození. Buďte opatrní, pokud máte málo života.
+LOADING_HINT_RANDOM_FIRESTORM_EXISTS;Tip: Ohnivá bouře je červená karta, která udělí 3 poškození všem nepřátelským bytostem.
+LOADING_HINT_RANDOM_UNIQUE_EMOTES_EXIST;Tip: Mnoho avatarů má jedinečné hlášky.
+LOADING_HINT_RANDOM_BYPASSING_TAUNT;Tip: Provokovaná bytost se sice sama nemůže pohnout, může ji však posunout jiný efekt. Dokonce i Výpad.
+LOADING_HINT_RANDOM_DON'T_OVERBUFF_CREATURES;Tip: Buďte opatrní při posilování bytosti nad 6/6. Nějaké karty ji můžou jednoduše odstranit a postavit vás do velké nevýhody.
+LOADING_HINT_RANDOM_JOIN_FAERIA'S_DISCORD;Tip: Máte nějaké otázky nebo komentáře ke hře? Připojte se na oficiální Faeria Discord Server. Odkaz je ve vašem Seznamu přátel.
+LOADING_HINT_RANDOM_ESPORTS_FAERIA_EXISTS;Tip: Navštivte esports.faeria.com, kde najdete informace o faeria turnajích a cenách.
+LOADING_HINT_RANDOM_TOP_8_GODS_ON_LADDER_INVITED;Tip: Každou sezónu je 10 nejlepších hráčů v Božském stupni pozváno na speciální turnaj
+LOADING_HINT_RANDOM_HARD_REMOVAL_COSTS_6;Tip: Nejlepší odstraňovací karta stojí zhruba 6 faerie.
+LOADING_HINT_RANDOM_KILL_BURN_FAST;Tip: Když hrajete proti spalujícímu balíčku, ukončete hru jak rychle to jen půjde.
+LOADING_HINT_RANDOM_REVIEW_FAERIA_PLEASE;Pokud se vám Faeria líbí, nezapomeňte ji ohodnotit. Pomáhá to růstu komunity.
+LOADING_HINT_RANDOM_RAPALA_LORE_2;Nejděsivější pohled v pobřežní vesnici není tsunami, ale šklebící se ryba.
+LOADING_HINT_RANDOM_TIPS_EXIST;Tip: Tipy se občas zobrazí během načítacích obrazovek.
+LOADING_HINT_RANDOM_PROTECT_YOUR_ORB;Tip: Nenechte svého protivníka vytvořit pevniny vedle vašeho boha.
+LOADING_HINT_RANDOM_EMPEROR_LORE;Císař se teší na den, kdy již občané nebudou nezbytní.
+LOADING_HINT_RANDOM_WISDOM_IS_BAD;Tip: Moudří hráči zřídka používají kartu Moudrost.
+LOADING_HINT_RANDOM_IONA_LORE_1;Než přišla Iona, Shaytanové neměli žádné slovo pro slitování.
+LOADING_HINT_RANDOM_OUTLAND_RANGER_LORE_1;Hraničáři z Daleka jsou prastarý řád šlechticů, kteří vyměnili kamené hrady za otevřené nebe.
+LOADING_HINT_RANDOM_SYLAND_FARMERS_LORE;V každé generaci sylandských farmářů se vždy narodí velký hrdina.
+LOADING_HINT_RANDOM_IONA_LORE_2;Snem každého barda je složit Ioně takový hold, který jí bude hoden.
+LOADING_HINT_RANDOM_YAK_LEVEL;Tip: V této hře není žádná bonusová úroveň s jaky
+LOADING_HINT_RANDOM_KROG_LORE_1;Krog většinou jen chodí po okolí a všem *říká*, že je král zlobrů.
+LOADING_HINT_RANDOM_RAPALA_LORE_1;Některé ryby prostě jen chtějí vidět svět shořet.
+LOADING_HINT_RANDOM_THYRIAN_LORE_1;Říká se, že Thyrijští Golemové pochází z mytického ráje kdesi nad mraky.
+LOADING_HINT_RANDOM_YAKNUS_LORE_1;Král Jaknus, první svého jména, známý jako Ničitel třmenů a Bestie všech břemen.
+LOADING_HINT_RANDOM_MAGNUS_LORE_1;Když byl Magnus ještě chlapec, seslala mu Aurora sen, který jej dovedl ke koruně.
+LOADING_HINT_RANDOM_RUUNIN_LORE_1;Navzdory jejím protestům trvají Ruuninini stoupenci na jejím počestném pohřbu pokaždé, když zemře.
+LOADING_HINT_RANDOM_JALMYR_LORE_1;Říká se, že Jalmyr splní přání komukoliv, kdo jej naučí něco nového.
+LOADING_HINT_RANDOM_GARUDAN_LORE_1;Garudan je tak trochu prevít.
+LOADING_HINT_RANDOM_HEXAGON_JOKE;Tip: Šestiúhelník má díky svým šesti fantastickým stranám skvělý tvar.
+LOADING_HINT_RANDOM_SAGAMI_LORE_1;V rukou Sagamů se i ti nejvíce ohyzdní duchové stanou posvátnými ochránci.
+LOADING_HINT_RANDOM_SAGAMI_LORE_2;Sagamové spoutají zabijácké duchy a udělají z nich posvátné ochránce.
+LOADING_HINT_RANDOM_SEIFER_LORE_1;Seifer má mazlíčka, fretku s jménem Smrtkojiskra.
+LOADING_HINT_RANDOM_SEIFER_LORE_2;Seifer jednou vyzval Slunce na soutěž v zírání. Vítěz není znám.
+LOADING_HINT_RANDOM_DROWNING;Tip: Bytosti na políčku oceánu, které nejsou vodní ani nemají schopnost Let, zemřou na konci tahu svého majitele.
+LOADING_HINT_RANDOM_PANDORA_GODS;Pandora je svět, v němž se odehrávají sny. Naštěstí mají bohové povoleno vstoupit.
+LOADING_HINT_RANDOM_AURORA_DREAMS;Pomocí své schopnosti vejít do něčího snu dokáže Aurora změnit osud druhých.
+LOADING_HINT_RANDOM_MULTI_TAUNT;Tip: Pokud bytost provokuje více bytostí, daná bytost může útočit do kterékoliv z provokujících bytostí.
+LOADING_HINT_RANDOM_HOLD_EXPLORE;Tip: Můžete si šetřit kartu <i>Průzkum</i> a později posílit své bytosti, které čerpají sílu z událostí.
+LOADING_HINT_RANDOM_FALCON_DIVE;Tip: Sokolí nálet je výborná univerzální pomůcka, která může být zařazena skoro do každého balíčku.
+LOADING_HINT_RANDOM_SYLAND_HORSEMASTER;Tip: Sylandský jezdec umožnuje zeleným a modrým balíčkům provádět překvapivé útoky.
+LOADING_HINT_RANDOM_GOD_HUNTER;Tip: Lovec bohů se nemůže hýbat nebo útočit, pokud je blízko bytost se schopností Provokace.
+LOADING_HINT_RANDOM_UNLIKELY_HERO;Tip: Schopnost Nepravděpodobného hrdiny je možné aktivovat i útokem na nepřátelský orb.
+LOADING_HINT_RANDOM_MOVING_WITH_JUMP_AND_CHARGE;Tip: Posouvání bytosti pomocí karet bere v úvahu její schopnosti Skok a Nájezd.
+LOADING_HINT_RANDOM_RADIANCE;Tip: Vzducholoď Třpyt není ovlivněna kartami na snížení ceny.
+LOADING_HINT_RANDOM_ELEMENTALS;Tip: Přivolávání Živlů je skvělý způsob, jak zrychlit produkci vašich speciálních pevnin.
+LOADING_HINT_RANDOM_PANDORA_POINTS;Tip: Každou sezónu nasbírejte co nejvíce pandorských bodů a vyhrajte speciální ceny.
+LOADING_HINT_RANDOM_PANDORA_CARD_BACK;Tip: Dokončete každou sezónu na Stupni 15 nebo lepším a získejte speciální rub karet.
+LOADING_HINT_RANDOM_GOD_CARD_BACK;Tip: Dosáhněte Božského stupně pro získání jedinečného zlatého rubu karty.
+LOADING_HINT_RANDOM_SEASON_RESET;Tip: Sezóna Hodnocených her a Pandory se resetuje každé první pondělí v měsíci.
+LOADING_HINT_RANDOM_HARVEST_ORDER;Tip: Bytostí sklízí faerii zleva doprava a shora dolů z pohledu hráče, který je na tahu.
+LOADING_HINT_RANDOM_TRANSFORM_WITH_HASTE;Tip: Přetvoření bytosti se schopností Spěch může danou schopnost odstranit a znemožnit bytosti útočit.
+LOADING_HINT_RANDOM_LAND_LOCK_COUNTER;Tip: Pokud vás nepřítel obklíčí pevninami, posuňte své bytosti na jejich pevniny a vytvořte nové na volném políčku oceánu.
+LOADING_HINT_RANDOM_CANNOT_CANCEL_GIFT;Tip: Nemůžete zrušit zahrání bytosti se schopností Dar, jakmile ji položíte na hrací plochu.
+LOADING_HINT_RANDOM_OROSEI_LORE;Orosei hlídá říši Pandory a její poklady.
+LOADING_HINT_RANDOM_FUGORO_LORE;Fugoro z Pandory krade poklady.
+LOADING_HINT_RANDOM_GOKI_01;Fuguro má synovce jménem Goki. Můžete ho najít v obchodě.
+LOADING_HINT_RANDOM_WORLD_BOSSES;Porazte všechny bosse světa a získekte Orb šampiónů a jeho 3 drahokamy.
+LOADING_HINT_RANDOM_WILD_LANDS;Všechny barevné pevniny se počítají jako divoké.
+LOADING_HINT_RANDOM_CORRUPT_1;Tip: Zkažené bytosti milují triky na pohyb!
+LOADING_HINT_RANDOM_CORRUPT_2;Tip: Nenechte nepřátele, aby zkazili vaše pevniny!
+LOADING_HINT_RANDOM_CRUCIBLE;Můžete cvičit na turnajové formáty v soukromé místnosti s přáteli.
+LOADING_HINT_RANDOM_FALL_OF_EVERLIFE;Od chvíle, kdy Kaios pozřel ovoce Nesmrtelna, se Zánebím šíří zkáza.
+LOADING_HINT_RANDOM_TRIBAL;Některé karty mají kmenové výhody. Třeba takoví jaci přímo milují stáda <3.
+LOADING_HINT_RANDOM_LORE_BOOK;Sbírejte příběhy plněním denních úkolů a otevíráním mytických truhel.
+LOADING_HINT_RANDOM_DECK_COSMETICS;Máte nápad na skvělou sadu k vašemu balíčku? Vyberte si ji přímo v editoru balíčků.
+LOADING_HINT_RANDOM_DRAGONS_LAIR;Každý den můžete v Dračí sluji vyzvat nové draky.

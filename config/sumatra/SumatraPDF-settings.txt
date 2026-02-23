@@ -1,0 +1,251 @@
+﻿# For documentation, see https://www.sumatrapdfreader.org/settings/settings3-5-1.html
+Theme = Light
+FixedPageUI [
+	TextColor = #000000
+	BackgroundColor = #ffa546
+	SelectionColor = #f5fc0c
+	WindowMargin = 2 4 2 4
+	PageSpacing = 4 4
+	InvertColors = false
+	HideScrollbars = true
+]
+ComicBookUI [
+	WindowMargin = 0 0 0 0
+	PageSpacing = 4 4
+	CbxMangaMode = false
+]
+ChmUI [
+	UseFixedPageUI = false
+]
+
+SelectionHandlers [
+]
+ExternalViewers [
+]
+
+ZoomLevels = 8.33 12.5 18 25 33.33 50 66.67 75 100 125 150 200 300 400 600 800 1000 1200 1600 2000 2400 3200 4800 6400
+ZoomIncrement = 0
+
+PrinterDefaults [
+	PrintScale = shrink
+]
+ForwardSearch [
+	HighlightOffset = 0
+	HighlightWidth = 15
+	HighlightColor = #6581ff
+	HighlightPermanent = false
+]
+Annotations [
+	HighlightColor = #ffff00
+	UnderlineColor = #00ff00
+	SquigglyColor = #ff00ff
+	StrikeOutColor = #ff0000
+	FreeTextColor = 
+	FreeTextSize = 12
+	FreeTextBorderWidth = 1
+	TextIconColor = #ffff00
+	TextIconType = 
+	DefaultAuthor = 
+]
+
+RememberOpenedFiles = false
+RememberStatePerDocument = true
+RestoreSession = true
+UiLanguage = en
+InverseSearchCmdLine = nu "C:/Users/yasha/OneDrive/workspacemodules/dotfiles/scripts/remote.nu" %l $
+EnableTeXEnhancements = true
+DefaultDisplayMode = automatic
+DefaultZoom = 100
+Shortcuts [
+	[
+		Cmd = ShowFavorites
+		Key = F
+	]
+	[
+		Cmd = CmdScrollUpPage
+		Key = K
+	]
+	[
+		Cmd = CmdScrollDownPage
+		Key = J
+	]
+	[
+		Cmd = CmdGoToLastPage
+		Key = G
+	]
+	[
+		Cmd = CmdGoToFirstPage
+		Key = gg
+	]
+	[
+		Cmd = CmdFindPrev
+		Key = N
+	]
+	[
+		Cmd = CmdFindNext
+		Key = n
+	]
+	[
+		Cmd = CmdFindFirst
+		Key = f
+	]
+	[
+		Cmd = CmdGoToPage
+		Key = Alt+g
+	]
+	[
+		Cmd = CmdZoomFitContent
+		Key = a
+	]
+	[
+		Cmd = CmdToggleFullscreen
+		Key = s
+	]
+	[
+		Cmd = CmdCopySelection
+		Key = Space
+	]
+]
+EscToExit = false
+ReuseInstance = false
+ReloadModifiedDocuments = true
+
+MainWindowBackground = #80fff200
+FullPathInTitle = false
+ShowMenubar = true
+ShowToolbar = false
+ShowFavorites = false
+ShowToc = true
+NoHomeTab = false
+TocDy = 0
+SidebarDx = 367
+ToolbarSize = 18
+TabWidth = 300
+TreeFontSize = 0
+TreeFontWeightOffset = 0
+TreeFontName = automatic
+SmoothScroll = false
+ShowStartPage = true
+CheckForUpdates = false
+WindowState = 1
+WindowPos = -11 0 1920 1920
+UseTabs = true
+UseSysColors = false
+CustomScreenDPI = 0
+
+FileStates [
+	[
+		FilePath = C:\Users\yasha\OneDrive\workspacemodules\curvature\build\GromovFuller.pdf
+		Favorites [
+			[
+				Name = a
+				PageNo = 2
+			]
+			[
+				Name = b
+				PageNo = 4
+			]
+			[
+				Name = a
+				PageNo = 7
+			]
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = true
+	]
+	[
+		FilePath = C:\Users\yasha\OneDrive\workspacemodules\thematrix\build\stableincompleteness.pdf
+		Favorites [
+			[
+				Name = c
+				PageNo = 1
+			]
+			[
+				Name = a
+				PageNo = 3
+			]
+			[
+				Name = a
+				PageNo = 13
+			]
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = true
+	]
+	[
+		FilePath = C:\Users\yasha\OneDrive\workspacemodules\conformalsymplectic\build\conformalsymplectic.pdf
+		Favorites [
+			[
+				Name = b
+				PageNo = 1
+			]
+			[
+				Name = a
+				PageNo = 2
+			]
+			[
+				Name = a
+				PageNo = 3
+			]
+			[
+				Name = a
+				PageNo = 4
+			]
+			[
+				Name = a
+				PageNo = 13
+			]
+			[
+				Name = a
+				PageNo = 21
+			]
+			[
+				Name = b
+				PageNo = 23
+			]
+			[
+				Name = a
+				PageNo = 26
+			]
+			[
+				Name = a
+				PageNo = 28
+			]
+			[
+				Name = a
+				PageNo = 37
+			]
+			[
+				Name = t
+				PageNo = 40
+			]
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = true
+	]
+	[
+		FilePath = C:\Users\yasha\OneDrive\workspacemodules\conformalsymplectic\build\ellitpicinvariants.pdf
+		Favorites [
+			[
+				Name = a
+				PageNo = 16
+			]
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = true
+	]
+]
+SessionData [
+]
+TimeOfLastUpdateCheck = 0 0
+OpenCountWeek = 790
+
+# Settings below are not recognized by the current version

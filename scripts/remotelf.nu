@@ -1,0 +1,20 @@
+def main [file: string] {
+let var = $"(open ~/servername.txt | str trim )"
+let exec = $"nvim --server ($var) --remote ($file)"
+echo $exec
+nu -c $exec
+}
+
+
+# $file=$args
+# $var=(open ~/servername.txt)
+# echo $var
+# # lf -remote "send quit"
+# # $e1="nvim --server " + "$var" + " --remote-send " + "`'" + "q" +  "`'"
+# # Invoke-Expression $e1
+# # Start-Sleep -Milliseconds 2000
+# $e2="neovide --server " + "$var" + " --remote-silent " + "$file"
+# Invoke-Expression $e2
+
+# Invoke-Expression $e1
+# Invoke-Expression $e2

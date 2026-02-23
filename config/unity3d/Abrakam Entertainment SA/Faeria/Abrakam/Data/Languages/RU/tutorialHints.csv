@@ -1,0 +1,46 @@
+TUTORIAL_ADVENTURE_POUCH_AVAILABLE_GOT_IT;Начинается новое путешествие...\nНастал час узнать будущее Faeria!\nЧто... что это за медальон?
+TUTORIAL_BATTLE_CASUAL_MODE_HINT;Для тех, кто хочет расслабиться, существует Обычный режим игры.
+TUTORIAL_BATTLE_CHOOSE_MODE_GOT_IT;Перед игрой вы можете сделать выбор между тренировочным, обычным или рейтинговым режимами игры.
+TUTORIAL_BATTLE_PRACTICE_MODE_HINT;Если вы хотите потренироваться против ИИ, выберите режим тренировки.
+TUTORIAL_BATTLE_RANKED_MODE_HINT;Для тех, кто хочет испытать свои умения, существует Соревновательный режим игры.
+TUTORIAL_CRAFTING_HIT_CRAFT_MODE_BUTTON;Вы получили способность создавать новые карты!
+TUTORIAL_DECK_EDITION_NEW_CARD_RECEIVED_GOT_IT;Вы получили новую карту, давайте посмотрим, как мы можем добавить её в колоду.
+TUTORIAL_FIRST_FORMULA_DECK_CREATED;Это ваша первая колода. Теперь вы можете играть!
+TUTORIAL_FIRST_FORMULA_HIT_BLUEPRINT_SELECT_BUTTON;Это Формула, используйте её, чтобы создать колоду за несколько секунд.
+TUTORIAL_FIRST_FORMULA_HIT_PLAY_BUTTON;Опробуйте свою новую колоду в игре.
+TUTORIAL_FIRST_FORMULA_HOME_UNLOCKED_GOT_IT;Поздравляем, вы открыли основные возможности игры Faeria! Давайте начнём с создания вашей первой колоды.
+TUTORIAL_FIRST_FORMULA_SOLO_GOT_IT;Добро пожаловать в Миссии! Проходите их, чтобы повысить уровень и получить новые карты.
+TUTORIAL_SECOND_FORMULA_CREATE_DECK;Всё равно создайте эту колоду, добавив 2 карты по своему усмотрению.
+TUTORIAL_SECOND_FORMULA_FINISH_DECK_GOT_IT;Ничего страшного, если у вас нет каких-то карт для Формулы. Вы всегда можете заменить недостающие карты картами на свой вкус.
+TUTORIAL_SECOND_FORMULA_NEW_FORMULA_RECEIVED_GOT_IT;Вы получили новую Формулу, давайте используем её.
+TUTORIAL_SECOND_FORMULA_NOT_COMPLETED_FORMULA_HINT;У вас есть только 28 из 30 карт для этой Формулы.
+TUTORIAL_SHOP_MYTHIC_CHEST_HINT;Мифические сундуки содержат мифические версии карт и другую косметику.
+TUTORIAL_PANDORA_PRACTICE_COIN_HINT;Заплатите за вход двумя боевыми сундуками и соберите колоду из случайно выбранных карт. Выиграйте до шести игр и получите в награду боевые сундуки и карты.
+TUTORIAL_PANDORA_FULL_COIN_HINT;Или заплатите за вход осколками, чтобы получить в награду мифические карты и осколки.
+MOUSE_TUTORIAL_PANDORA_REWARD_GOT_IT;В конце каждого сезона за очки Пандоры можно получить награды. Нажмите, чтобы посмотреть, какие! <u><link=https://esports.faeria.com/pandora-season>https://esports.faeria.com/pandora-season</link></u>
+DAILY_REWARDS_TUTORIAL_GOT_IT;Это была ваша первая ежедневная награда. Заходите в игру каждый день, чтобы получать более высокие награды. Не волнуйтесь, ваш прогресс сохраняется, даже если вы пропустили один день.
+LOYALTY_PATCH_PUZZLES_GOT_IT;А вот и головоломки для ознакомления с Гибелью Древа!
+TUTORIAL_WORLD_MAP_GOT_IT;Добро пожаловать в мир Faeria! Здесь вы можете сразиться с самыми впечатляющими врагами, и в конце концов получить Сферу Чемпионов.
+TUTORIAL_PANDORA_FIRST_GAME_GOT_IT;Осколки Пандоры были замешаны в каждую колоду. Как только находится пятый осколок, Пандора пробуждается.
+TUTORIAL_PANDORA_AWAKENS_GOT_IT;Пандора пробудилась! В колодах теперь можно найти сокровища, оба игрока теперь получают 3 фейри каждый ход дополнительно.
+TUTORIAL_CRAFTING_CRAFT_CHARGES_GOT_IT;Искры творения используются, чтобы создавать новые карты. Вы не можете иметь больше {0} искр, и они восстанавливаются со временем.
+TUTORIAL_CRAFTING_CRAFT_GOT_IT;Пока что вы можете создавать только обычные карты, но на более высоких уровнях вы сможете создавать также редкие и эпические карты!
+TUTORIAL_SHOP_DEAL_OF_THE_DAY_HINT;Вы также можете покупать предметы прямо в магазине, ассортимент меняется каждый день.
+TUTORIAL_SHOP_GOT_IT;Тут вы можете купить косметику, чтобы дать своим картам сияющую оправу или принарядиться в своём профиле.
+TUTORIAL_LORE_BOOK_GOT_IT;Вы открыли Книгу Историй!
+TUTORIAL_DRAGONS_LAIR_IS_HERE_GOT_IT;Войдите в Логово Дракона, если посмеете.
+TUTORIAL_DRAGONS_LAIR_IS_DAILY_GOT_IT;Новые драконы появляются в Логове каждый день. Победите каждого из них достаточное количество раз, чтобы получить их косметические наборы!
+TUTORIAL_DRAGONS_LAIR_GOT_IT;Логово Дракона теперь доступно!\nСразитесь против могущественных драконов в одиночку или с друзьями в этом ежедневном испытание!
+TUTORIAL_DECK_COSMETIC_SET_POPUP_GOT_IT;Выберите внешний вид, который вы хотите установить для этой колоды, а затем нажмите Применить, чтобы подтвердить изменения.
+TUTORIAL_DECK_COSMETIC_SET_EDIT_DECK_GOT_IT;Теперь вы можете назначить отдельные косметические наборы на каждую колоду !
+GAMEPAD_TUTORIAL_PANDORA_REWARD_GOT_IT;В конце каждого сезона за очки Пандоры можно получить награды. Какие именно, можно узнать здесь: <u><link=https://esports.faeria.com/pandora-season>https://esports.faeria.com/pandora-season</link></u>
+GAMEPAD_TUTORIAL_LORE_BOOK_ZOOM_ON_LORE_ITEM;Нажимайте {GAMEPAD_ACTION_CONFIRM} на открытых страницах сведений, чтобы читать их.
+MOUSE_TUTORIAL_LORE_BOOK_ZOOM_ON_LORE_ITEM;Щёлкайте по открытым страницам истории, чтобы читать их.
+GAMEPAD_TUTORIAL_DECK_EDITION_REMOVE_ANY_CARD_FROM_DECK;Нажмите {GAMEPAD_ACTION_CONFIRM} на любой карте, чтобы убрать её из колоды.
+MOUSE_TUTORIAL_DECK_EDITION_REMOVE_ANY_CARD_FROM_DECK;Щёлкните по любой карте, чтобы убрать её из колоды.
+GAMEPAD_TUTORIAL_DECK_EDITION_CLICK_SAVE;Выберите "Сохранить", и готово.
+MOUSE_TUTORIAL_DECK_EDITION_CLICK_SAVE;Щёлкните на «Сохранить», и готово.
+GAMEPAD_TUTORIAL_DECK_EDITION_ADD_ANY_CARD_TO_DECK;Выберите карту, чтобы добавить её в колоду.
+MOUSE_TUTORIAL_DECK_EDITION_ADD_ANY_CARD_TO_DECK;Щёлкните по карте, чтобы добавить её в колоду.
+GAMEPAD_TUTORIAL_ADVENTURE_POUCH_MEDALLION_GOT_IT;Нажмите {GAMEPAD_ACTION_CONFIRM}, чтобы отправиться в приключение
+MOUSE_TUTORIAL_ADVENTURE_POUCH_MEDALLION_GOT_IT;Щёлкните, чтобы отправиться в приключение

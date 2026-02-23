@@ -1,0 +1,124 @@
+LOADING_HINT_QUEST_0;Astuce : Vous gagnez {faeria|3} faeria au début de votre tour.
+LOADING_HINT_QUEST_1;Astuce : La faeria que vous n'avez pas utilisée est conservée pour le tour suivant.
+LOADING_HINT_QUEST_2;Astuce : Les capacités sont expliquées au dessus de chaque carte.
+LOADING_HINT_QUEST_3;Astuce : Construisez des terrains près de l'orbe adverse.
+LOADING_HINT_QUEST_4;Astuce : Tuez les Follets Broussailleux avant qu'ils ne grandissent.
+LOADING_HINT_QUEST_5;Astuce : Il y a 4 couleurs dans Faeria. Chaque couleur a son propre type de terrain associé.
+LOADING_HINT_QUEST_6;Astuce : Ruunin est la gardienne ancestrale et immortelle de la forêt.
+LOADING_HINT_QUEST_7;Astuce : Les cartes rouges utilisent le pouvoir des montagnes ardentes.
+LOADING_HINT_QUEST_8;Seifer a consumé son nom dans les cendres de royaumes anéantis.
+LOADING_HINT_QUEST_9;Astuce : Les créatures avec Saut peuvent se déplacer de 2 cases dans n'importe quelle direction en sautant par dessus les obstacles.
+LOADING_HINT_QUEST_10;Astuce : Construisez des terrains pour bloquer les créatures aquatiques.
+LOADING_HINT_QUEST_11;Astuce : Khalim est aggressif. Attention à bien défendre votre orbe.
+LOADING_HINT_QUEST_13;Les peurs de Sharra sont parties en fumée quand elle n'était qu'une enfant, tout comme son village.
+LOADING_HINT_QUEST_20;Magda est la reine de Meroval. Les héros et les traîtres ne sont que les rouages de ses machinations grandioses.
+LOADING_HINT_QUEST_25;Les bals de Krog sont souvent confondus avec le tonnerre plusieurs lieues à la ronde.
+LOADING_HINT_QUEST_26;Tarum fut la première graine à être jamais plantée. Il a été témoin de la naissance des dragons et de la chute d'anciens dieux.
+LOADING_HINT_QUEST_29;Astuce : Le pouvoir de Tarum grandit avec le temps. Vainquez-le sans tarder !
+LOADING_HINT_QUEST_30;Hoaka invente constamment de nouveaux plateaux de jeu.
+LOADING_HINT_QUEST_48;Les passe-temps d'Aurora incluent l'entraînement de futurs héros et la dégustation de toutes sortes de thés.
+LOADING_HINT_QUEST_49;Prodige de l'ordre Djidan, Khalim a défié ses maîtres et déclenché une guerre mondiale.
+LOADING_HINT_QUEST_54;Un certain poisson veut juste voir le monde périr dans les flammes.
+LOADING_HINT_QUEST_64;Le mystérieux Jalmyr veille sur le Cosmos et joue le rôle de mentor pour les dieux.
+LOADING_HINT_QUEST_117;Astuce : Les trésors sont de puissantes cartes que vous pouvez rencontrer dans Pandore.
+LOADING_HINT_QUEST_118;Fugoro voyage dans le monde entier pour collectionner les plus grandes reliques de l'Histoire.
+LOADING_HINT_RANDOM_DEATHTOUCH_ONLY_IF_DAMAGE;Astuce : Le Toucher mortel tue une créature uniquement si elle reçoit des dégâts. La Protection annule les dégâts.
+LOADING_HINT_RANDOM_TIKIS_CAN_TARGET_THEMSELVES;Astuce : Le Gardien de la forêt Tiki et le Flûtiste Tiki peuvent se cibler eux-même.
+LOADING_HINT_RANDOM_FROGS_PLACED_ON_LAKES;Astuce : Les grenouilles générées par le sort Grenouilles de Combat ne peuvent être invoquées que sur des lacs.
+LOADING_HINT_RANDOM_HEAL_ORB_MAX_20;Astuce : Vous ne pouvez pas vous soigner au-delà de 20 PV.
+LOADING_HINT_RANDOM_COMPLETE_SOLO_CONTENT;Astuce : Finir le mode solo est le meilleur moyen pour se lancer dans le jeu.
+LOADING_HINT_RANDOM_RED_COLOR_EXPLAINED;Astuce : Le rouge est la couleur du feu et de la guerre.
+LOADING_HINT_RANDOM_BLUE_COLOR_EXPLAINED;Astuce : Le bleu est la couleur des métamorphoses et de la tromperie.
+LOADING_HINT_RANDOM_GREEN_COLOR_EXPLAINED;Astuce : Le vert est la couleur de la croissance et des prédateurs sauvages.
+LOADING_HINT_RANDOM_YELLOW_COLOR_EXPLAINED;Astuce : Le jaune est la couleur du vent et de la vitesse.
+LOADING_HINT_RANDOM_CHARGE_CANT_PASS_THROUGH;Astuce : Vous ne pouvez pas charger à travers une autre créature.
+LOADING_HINT_RANDOM_BLOCK_AQUATIC_WITH_LANDS;Astuce : Construisez des terrains pour bloquer les créatures aquatiques.
+LOADING_HINT_RANDOM_DAILY_QUEST_1;Le moyen le plus efficace de gagner des coffres de combat est de jouer tous les jours et de compléter vos quêtes journalières.
+LOADING_HINT_RANDOM_THE_HUB;Le saviez-vous ?  faeria.com/the-hub est notre site officiel, sur lequel les joueurs peuvent publier leurs propres guides.
+LOADING_HINT_RANDOM_CARDBACK_FROM_SOLO;Astuce : Finissez tout le mode solo pour obtenir le dos de carte Dragon.
+LOADING_HINT_RANDOM_PANDORA_ECONMY;Astuce : Quand Pandore s'ouvre, tous les puits à faeria sont détruits, mais les joueurs gagnent le double de faeria chaque tour.
+LOADING_HINT_RANDOM_TAUNT_BEST_DEFENSE;Astuce : Les créatures avec Provocation sont souvent la meilleure façon de vous protéger.
+LOADING_HINT_RANDOM_BUILD_LANDS_EARLY_GAME;Astuce : Construisez des terrains en début de partie. Conservez les boutons +1 carte et +1 faeria pour plus tard.
+LOADING_HINT_RANDOM_GIANT_LATEGAME_CREATURES_EXIST;Astuce : De nombreux decks vont chercher à invoquer des grosses créatures en fin de partie. Conserver des sorts de destruction pour pouvoir les éliminer.
+LOADING_HINT_RANDOM_COUNTERING_RUSH_1;Astuce : Lorsque vous jouez contre un rush, déplacez vos créatures sur ses terrains aggressifs.
+LOADING_HINT_RANDOM_STRUCTURES_LEGAL_PLACEMENT;Astuce : Les structures peuvent être jouées sur des terrains de n'importe quelle couleur.
+LOADING_HINT_RANDOM_STRUCTURES_DIRECTLY_ACTIVATES;Astuce : Les Structures peuvent être activées le tour même où elles sont invoquées.
+LOADING_HINT_RANDOM_GET_LANDS_NEAR_OPPONENT;Astuce : Essayez de construire des terrains près de l'orbe adverse.
+LOADING_HINT_RANDOM_OVERDRAWING_DESTROYS_CARDS;Astuce : Vous pouvez avoir 9 cartes au maximum dans votre main. Les cartes en excès sont détruites à l'instant où elles sont piochées.
+LOADING_HINT_RANDOM_COUNTERING_RUSH_2;Astuce : Gagnez contre les joueurs rush en bloquant leurs terrains agressifs. Ripostez avant qu'ils ne réussissent à se faufiler.
+LOADING_HINT_RANDOM_YAK_LORE_1;<i>Le mal que vous faîtes à un yak, vous le faîtes au monde entier !</i>\n<align=right>Proverbe des Sylandes</align>
+LOADING_HINT_RANDOM_FRIENDS_BLOCK_RANGED;Astuce : Les créatures À distance ne peuvent pas tirer à travers les unités alliées.
+LOADING_HINT_RANDOM_LANDS_ARE_BETTER_THAN_CARDS;Astuce : Créer des terrains est souvent plus important que piocher des cartes.
+LOADING_HINT_RANDOM_ENDGAME_THREATS_EXIST;Astuce : Beaucoup de menaces peuvent vous punir si vous attendez. Une fois que vous avez l'avantage, attaquez !
+LOADING_HINT_RANDOM_FATIGUE_HURTS;Astuce : Une fois que votre deck est vide, vous subissez de plus en plus de dégâts chaque fois que vous piochez.
+LOADING_HINT_RANDOM_JALMYR_LORE_2;Les puzzles progressifs de Jalmyr peuvent rendre perplexes les joueurs les plus aguerris.
+LOADING_HINT_RANDOM_STEAM_FORGE_LORE;Alimentées par la Faeria, les Forgevapeurs impériales sont imprévisibles mais efficaces.
+LOADING_HINT_RANDOM_JALMYR_LORE_3;Jalmyr n'a pu se résoudre à détruire complètement son frère, le seigneur des ténèbres.
+LOADING_HINT_RANDOM_YELLOW_USES_HASTE;Astuce : Les decks jaunes utilisent souvent des créatures avec Célérité. Mettez en place votre défense à temps.
+LOADING_HINT_RANDOM_RED_DIRECT_DAMAGE;Astuce : Les decks rouges peuvent souvent infliger des dégâts directs : soyez vigilants lorsqu'il vous reste peu de PV.
+LOADING_HINT_RANDOM_FIRESTORM_EXISTS;Astuce : Tempête de feu est une carte rouge qui inflige 3 dégâts à toutes les créatures ennemies
+LOADING_HINT_RANDOM_UNIQUE_EMOTES_EXIST;Astuce : Plusieurs avatars disposent d'emotes uniques.
+LOADING_HINT_RANDOM_BYPASSING_TAUNT;Astuce : Une créature bloquée par une provocation ne peut pas se déplacer elle-même, mais elle peut-être déplacée par un autre moyen.
+LOADING_HINT_RANDOM_DON'T_OVERBUFF_CREATURES;Astuce : Attention avant de booster une créature au-delà de 6/6. Vous pourriez le regretter en cas de sort de destruction.
+LOADING_HINT_RANDOM_JOIN_FAERIA'S_DISCORD;Astuce : Une question ou un commentaire ? Rejoignez le serveur officiel de Faeria sur Discord. Il y a un lien dans votre liste d'amis.
+LOADING_HINT_RANDOM_ESPORTS_FAERIA_EXISTS;Astuce : Allez sur esports.faeria.com pour obtenir tous les informations  sur les tournois et les lots Faeria.
+LOADING_HINT_RANDOM_TOP_8_GODS_ON_LADDER_INVITED;Astuce : Chaque saison, les 10 meilleurs joueurs sont invités à un tournoi spécial.
+LOADING_HINT_RANDOM_HARD_REMOVAL_COSTS_6;Astuce : La meilleure carte de destruction coûte 6 Faeria.
+LOADING_HINT_RANDOM_KILL_BURN_FAST;Astuce : Quand vous jouez contre les decks brûlure, finissez la partie le plus vite possible.
+LOADING_HINT_RANDOM_REVIEW_FAERIA_PLEASE;Si vous aimez Faeria, n'oubliez pas de laisser un avis. Cela encourage d'autres joueurs à rejoindre notre communauté.
+LOADING_HINT_RANDOM_RAPALA_LORE_2;Le spectacle le plus horrifiant pour un village côtier n'est pas un tsunami, mais plutôt un poisson ricanant.
+LOADING_HINT_RANDOM_TIPS_EXIST;Astuce : L'écran de chargement vous permet de profiter des conseils qui y sont affichés.
+LOADING_HINT_RANDOM_PROTECT_YOUR_ORB;Astuce : Ne laissez pas votre adversaire poser un terrain contre votre dieu.
+LOADING_HINT_RANDOM_EMPEROR_LORE;L'Empereur attend avec impatience le jour où il pourra se passer de citoyens.
+LOADING_HINT_RANDOM_WISDOM_IS_BAD;Astuce : Les joueurs sages utilisent rarement la carte Sagesse.
+LOADING_HINT_RANDOM_IONA_LORE_1;Avant de connaître Iona, les Shaytans ne connaissaient pas le mot « Clémence ».
+LOADING_HINT_RANDOM_OUTLAND_RANGER_LORE_1;Astuce : Les Patrouilleurs des Marches sont un ordre ancien de nobles qui ont échangé le confort de leur château contre le grand air.
+LOADING_HINT_RANDOM_SYLAND_FARMERS_LORE;Chaque génération de fermiers des Sylandes donne naissance à un grand héros, sans exception.
+LOADING_HINT_RANDOM_IONA_LORE_2;Le rêve de tout barde ? Composer une ode digne d'Iona.
+LOADING_HINT_RANDOM_YAK_LEVEL;Astuce : Il n'y a pas de niveau secret des Yaks.
+LOADING_HINT_RANDOM_KROG_LORE_1;Krog passe son temps à *dire* à tout le monde qu'il est le roi des ogres.
+LOADING_HINT_RANDOM_RAPALA_LORE_1;Un certain poisson veut juste voir le monde périr dans les flammes.
+LOADING_HINT_RANDOM_THYRIAN_LORE_1;On dit que les Golems Thyrians viennent d'un paradis mythique au dessus des nuages.
+LOADING_HINT_RANDOM_YAKNUS_LORE_1;Lord Yaknus, premier du nom, est reconnu comme le libérateur du joug et le porteur de toutes les charges.
+LOADING_HINT_RANDOM_MAGNUS_LORE_1;Quand Magnus était enfant, Aurora lui a envoyé un rêve qui l'a mené jusqu'à la couronne.
+LOADING_HINT_RANDOM_RUUNIN_LORE_1;Malgré ses protestations, les fidèles de Ruunin insistent pour l'enterrer convenablement à chaque fois qu'elle meurt.
+LOADING_HINT_RANDOM_JALMYR_LORE_1;On dit que Jalmyr accordera un vœu à quiconque lui enseignera quelque chose de nouveau.
+LOADING_HINT_RANDOM_GARUDAN_LORE_1;Garudan a toujours voulu être un artiste.
+LOADING_HINT_RANDOM_HEXAGON_JOKE;Astuce : L'hexagone est une forme fantastique : il a six magnifiques côtés !
+LOADING_HINT_RANDOM_SAGAMI_LORE_1;Entre les mains des Sagami, les esprits les plus hideux deviennent des gardiens sacrés.
+LOADING_HINT_RANDOM_SAGAMI_LORE_2;Les Sagami assujettissent les esprits meurtriers au rôle de sentinelles sacrées.
+LOADING_HINT_RANDOM_SEIFER_LORE_1;Le furet domestique de Seifer s'appelle Mortincelle.
+LOADING_HINT_RANDOM_SEIFER_LORE_2;Un jour, Seifer a provoqué le Soleil en duel de regard. L'histoire ne dit pas qui a gagné...
+LOADING_HINT_RANDOM_DROWNING;Astuce : Les créatures présentes sur des cases océan sans avoir Vol ou Aquatique meurent à la fin du tour de celui qui les contrôlent.
+LOADING_HINT_RANDOM_PANDORA_GODS;Pandore est le monde où les rêves prennent forme. Fort heureusement, les dieux y sont admis.
+LOADING_HINT_RANDOM_AURORA_DREAMS;Grâce à sa capacité d'entrer dans les rêves des gens, Aurora peut changer les destinées.
+LOADING_HINT_RANDOM_MULTI_TAUNT;Astuce : Si plusieurs créatures provoquent la même cible, cette dernière peut attaquer n'importe laquelle.
+LOADING_HINT_RANDOM_HOLD_EXPLORE;Astuce : Vous pouvez garder pour plus tard votre carte Explorer afin de renforcer vos créatures en synergie avec les évènements.
+LOADING_HINT_RANDOM_FALCON_DIVE;Astuce : <i>Piqué du Faucon</i> est un excellent outil, très polyvalent, qui peut être intégré dans presque n'importe quel deck.
+LOADING_HINT_RANDOM_SYLAND_HORSEMASTER;Astuce : Le <i>Cavalier des Sylandes</i> permet aux decks Rouge et Vert d'attaquer par surprise.
+LOADING_HINT_RANDOM_GOD_HUNTER;Astuce : Le <i>Traqueur de Dieux</i> ne peut ni attaquer, ni bouger s'il est adjacent à une créature ayant Provocation.
+LOADING_HINT_RANDOM_UNLIKELY_HERO;Astuce : L'effet de l'<i>Héroïne improbable</i> peut être activé en tapant l'orbe de l'adversaire.
+LOADING_HINT_RANDOM_MOVING_WITH_JUMP_AND_CHARGE;Astuce : Les capacités Saut et Charge sont prises en compte dans le mouvement d'une créature provoqué par l'effet d'une carte.
+LOADING_HINT_RANDOM_RADIANCE;Astuce : <i>Radiance</i> n'est pas affecté par les effets de réduction de coût.
+LOADING_HINT_RANDOM_ELEMENTALS;Astuce : Les Élémentaires sont un bon moyen d'accélérer la création de terrains spéciaux.
+LOADING_HINT_RANDOM_PANDORA_POINTS;Astuce : Accumulez des Points de Pandore chaque saison pour gagner des récompenses spéciales.
+LOADING_HINT_RANDOM_PANDORA_CARD_BACK;Astuce : Finissez chaque saison au rang 15 ou supérieur pour gagner un dos de carte spécial.
+LOADING_HINT_RANDOM_GOD_CARD_BACK;Astuce : Atteignez le rang divin pour recevoir un dos de carte unique chaque saison.
+LOADING_HINT_RANDOM_SEASON_RESET;Astuce : La remise à zéro saisonnière des modes Classé et Pandore a lieu le premier lundi de chaque mois.
+LOADING_HINT_RANDOM_HARVEST_ORDER;Astuce : Les créatures récoltent la Faeria de gauche à droite et de haut en bas du point de vue du joueur actif.
+LOADING_HINT_RANDOM_TRANSFORM_WITH_HASTE;Astuce : Transformer une créature possédant Célérité peut lui faire perdre cette capacité et l'empêcher d'attaquer lors de ce tour.
+LOADING_HINT_RANDOM_LAND_LOCK_COUNTER;Astuce : Si votre adversaire vous bloque à l'aide de ses terrains, déplacez l'une de vos créatures sur son territoire et créez un terrain vous appartenant sur une case océan vide.
+LOADING_HINT_RANDOM_CANNOT_CANCEL_GIFT;Astuce : Vous ne pouvez pas annuler la mise en jeu d'une créature avec Don une fois que vous l'avez posée sur le plateau
+LOADING_HINT_RANDOM_OROSEI_LORE;Orosei garde le royaume de Pandore et ses trésors.
+LOADING_HINT_RANDOM_FUGORO_LORE;Fugoro pille les trésors du royaume de Pandore.
+LOADING_HINT_RANDOM_GOKI_01;Fugoro a un neveu qui s'appelle Goki. Vous pouvez le trouver dans le boutique.
+LOADING_HINT_RANDOM_WORLD_BOSSES;Venez à bout de tous les Boss Mondiaux pour débloquer l'Orbe des Champions et ses 3 joyaux.
+LOADING_HINT_RANDOM_WILD_LANDS;Tous les terrains colorés permettent de payer le coût d'une carte en terrains prismatiques.
+LOADING_HINT_RANDOM_CORRUPT_1;Astuce : Les créatures corrompues adorent les ruses de déplacements !
+LOADING_HINT_RANDOM_CORRUPT_2;Astuce : Ne laissez pas les créatures ennemies corrompre vos terrains !
+LOADING_HINT_RANDOM_CRUCIBLE;Vous pouvez vous entraîner aux tournois dans les salons privés avec vos amis.
+LOADING_HINT_RANDOM_FALL_OF_EVERLIFE;La corruption se répand en Outreciel depuis que Kaios a mangé le fruit de l'Arbre d'Éternité.
+LOADING_HINT_RANDOM_TRIBAL;Certaines cartes gagnent des avantages tribaux. Les yaks adorent former un troupeau <3.
+LOADING_HINT_RANDOM_LORE_BOOK;Collectez des histoires en complétant la Quête d'Histoire quotidienne ou en ouvrant des coffres mythiques.
+LOADING_HINT_RANDOM_DECK_COSMETICS;Vous pensez avoir trouvé le cosmétique parfait pour votre nouveau deck ? Choisissez un set de cosmétiques assortis dans l'éditeur de decks.
+LOADING_HINT_RANDOM_DRAGONS_LAIR;Combattez de nouveaux dragons tous les jours dans l'Antre des Dragons.

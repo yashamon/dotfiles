@@ -1,0 +1,1007 @@
+1.cardName;农场男孩
+2.cardName;山顶弓箭手
+2.cardText;{ranged_attack}
+3.cardName;塞兰德战士
+4.cardName;塞兰德马术大师
+4.cardText;{gift} - 给予一个友方生物在当前回合{charge|3}。
+9.cardName;帝国工程师
+9.cardText;{gift} - 激活所有友方的生产技能。
+10.cardName;坚守阵线！
+10.cardText;加入两张2/3带有{taunt}的 <b>帝国护卫队</b> 到手中。
+11.cardName;机动碉堡
+12.cardName;蒸汽熔炉
+12.cardText;{production} - 给予一个随机友方生物+1/+0。
+13.cardName;收税人
+13.cardText;{combat} - 获得 {faeria|1}。
+14.cardName;治愈之歌
+14.cardText;抽1张牌并且获得5点生命。
+15.cardName;守护
+15.cardText;给予一个生物 {protection}。
+16.cardName;帝国守卫队
+16.cardText;{taunt}\n{last_words} - 获得2点生命。
+22.cardName;自由战士
+22.cardText;{haste}
+23.cardName;篝火
+23.cardText;给予一个生物+1/+1。
+24.cardName;猎鹰俯冲
+24.cardText;对一个生物造成1点伤害。
+29.cardName;剑术大师
+29.cardText;在你的回合拥有+2/+0(当此生物在你手牌中或在场上时)。
+30.cardName;草原牦牛
+32.cardName;进击的牦牛
+32.cardText;召唤三只2/2带有{haste}的 <b>愤怒牦牛</b>。
+33.cardName;惩罚
+33.cardText;对目标生物造成2点伤害，若目标是中立生物，造成5点伤害。
+34.cardName;女王的宠幸者
+34.cardText;{protection}
+35.cardName;女王卫士
+35.cardText;{taunt}\n{combat} - 获得 {faeria|1}。
+36.cardName;玛格妲，莫尔欧女王
+36.cardText;减少你所有传说牌的费用 {faeria|1} 。\n{production} - 随机加入一张传说卡到你手牌，该牌费用转化为{wild}。
+37.cardName;宫廷小丑
+37.cardText;{taunt}\n{gift} - 给予你手牌中的一个随机生物+2/+2。
+38.cardName;国王卫士
+38.cardText;{taunt}\n{combat} - 抽1张牌。
+39.cardName;小小英雄
+39.cardText;此生物在第一次战斗后存活，它获得+3/+3和 {charge|2}。
+40.cardName;马格努斯，莫尔欧国王
+40.cardText;{charge|3}\n{combat} - 抽一张牌。 此牌消耗 {faeria|0}。
+41.cardName;瘟疫散布者
+41.cardText;{last_words} - 对所有生物造成2点伤害。
+42.cardName;攻城机械
+42.cardText;{ranged_attack}\n此生物在每次攻击之后获得+1/+0。
+43.cardName;莎拉，屠龙少女
+43.cardText;无视大于或等于4点的伤害。
+44.cardName;饥荒
+44.cardText;对场上所有生物造成1点伤害。
+45.cardName;皇室法官
+45.cardText;{options|抽1张免费守护|抽1张免费惩罚}\n- 添加一张 <b>守护</b> 到你手牌。它消耗 {faeria|0}。\n- 添加一张 <b>惩罚</b> 到你手牌。它消耗 {faeria|0}。
+46.cardName;制图者
+46.cardText;{last_words} - 添加一张 <b>探索</b> 到你手牌。
+47.cardName;闪烁雕像
+47.cardText;{taunt}\n{production} - 获得1点生命。
+48.cardName;乡村老者
+48.cardText;{last_words} - 抽一张牌。
+49.cardName;说书人
+49.cardText;{gift} - 每个玩家抽2张牌并且获得2点生命。
+50.cardName;漫游的修道士
+50.cardText;每当你抽1张牌，此生物获得+1/+0。
+51.cardName;蒸汽熔炉执法者
+52.cardName;国王信徒
+52.cardText;{protection}
+53.cardName;巨龙的黎明
+53.cardText;将4张<b>龙</b>放入您的手牌。它们的费用减少{faeria|3}并转化为{wild}。
+54.cardName;勇敢的冒险者
+54.cardText;{gift}：每有一个相邻的敌方生物便获得+2/+2。
+55.cardName;钉锤手
+56.cardName;索加男爵
+56.cardText;{last_words} - 每个玩家抽一张牌。他们消耗 {faeria|0}。
+57.cardName;知识
+57.cardText;抽2张牌。
+58.cardName;战争牦牛
+58.cardText;当敌方神明生命小于或等于10的时候，战争牦牛获得+2/+0。
+59.cardName;家园守护者
+59.cardText;{taunt}\n{gift} - 如果你上个回合被攻击，召唤另一个 <b>家园守护者</b>。
+60.cardName;女王的刺客
+60.cardText;{deathtouch}
+61.cardName;通缉要犯
+61.cardText;{last_words} - 你的对手抽一张卡以及获得{faeria|2}。
+62.cardName;财富猎人
+62.cardText;每当此生物收faeria，给予一个随机的友方生物+1/+1。
+63.cardName;域外游侠
+63.cardText;{gift} - 添加一个 <b>篝火</b> 到你的手牌。
+64.cardName;帝国吸魔器
+64.cardText;清空所有灵泉。\n{production} - 对此建筑造成1点伤害。\n{last_words} - 刷新所有灵泉。
+65.cardName;雨林探索者
+65.cardText;当你控制{blue}{blue}之后，获得+1/+1。当你控制{green}{green}之后，获得+0/+2。
+66.cardName;火山口探索者
+66.cardText;当你控制{blue}{blue}之后，获得+1/+1。当你控制{red}{red}之后，获得+2/+0。
+67.cardName;绿洲探索者
+67.cardText;当你控制{blue}{blue}之后，获得+1/+1。当你控制{yellow}{yellow}之后，获得+1/+1。
+68.cardName;针叶林探索者
+68.cardText;当你控制{red}{red}之后，获得+2/+0。当你控制{green}{green}之后，获得+0/+2。
+69.cardName;草原探索者
+69.cardText;当你控制{yellow}{yellow}之后，获得+1/+1。当你控制{green}{green}之后，获得+0/+2。
+70.cardName;砂岩探索者
+70.cardText;当你控制{red}{red}之后，获得+2/+0。当你控制{yellow}{yellow}之后，获得+1/+1。
+71.cardName;红宝石鱼
+71.cardText;{aquatic}
+72.cardName;知识盗贼
+72.cardText;{options|获得+2/+2|抽2张牌}\n- 获得+2/+2。\n- 抽2张牌。
+73.cardName;加百兰蓄水池
+73.cardText;{production} - 获得 {faeria|3}。对此建筑造成1点伤害。
+74.cardName;暴君恐兽
+75.cardName;加百兰女巫
+75.cardText;{gift} - 将另外一个生物的攻击等同于生命。
+76.cardName;加百兰指挥官
+76.cardText;{aquatic}, {charge|2}\n当你第一次抽到1张初始费用为{faeria|7}或更多的牌时，此生物获得{flying}和+1/+1。
+77.cardName;加百兰典狱长
+77.cardText;{gift} - 给予一个生物{protection}。
+82.cardName;泉中精灵
+82.cardText;{gift} - 下一张卡是{faeria|7}及以上的卡，那么消耗减少{faeria|3}。
+83.cardName;崔顿战士
+83.cardText;{jump}
+84.cardName;神秘的野兽
+84.cardText;{gift} - 如果在敌方灵泉相邻地块召唤它，获得+2/+0和{jump}。
+85.cardName;镜像幻灵
+85.cardText;{gift} - 将另外一个生物转化成5/5的 <b>镜像幻灵</b>。
+86.cardName;崔顿大厨
+86.cardText;{gift} - 加入一张 <b>崔顿盛宴</b> 到你手牌中。
+87.cardName;忍者蟾蜍
+87.cardText;{jump}, {haste}
+88.cardName;化蛙
+88.cardText;将一个生物转化为2/2带有{jump}的<b>青蛙</b>。
+93.cardName;加百兰的魔法
+93.cardText;使一个生物的攻击力与它的生命值相等。\n抽一张牌。
+94.cardName;奥罗拉的造物
+94.cardText;将一个生物的复制加入你的手牌，它减少 {faeria|5}。
+95.cardName;暗黑尾随者
+95.cardText;如果你在本回合使用过一张事件牌，此生物的费用减{faeria|2}。
+96.cardName;魔力漩涡
+96.cardText;将2张随机的蓝色牌加入到手牌中。
+97.cardName;加百兰贵族
+97.cardText;{gift} - 召唤一条 1/1 <b>红宝石鱼</b> (你可以把它召唤在海洋)。
+102.cardName;奥罗拉的门徒
+102.cardText;每当你使用事件牌时，此生物获得+1/+1。
+103.cardName;坚硬的外壳
+103.cardText;{aquatic}
+104.cardName;巴尔鲁，原初波涛
+104.cardText;{aquatic}\n{production} - 将相邻地块转化为{blue}。
+105.cardName;风暴幼体
+105.cardText;{last_words} - 获得 {faeria|10}。
+106.cardName;老乌龟的轶事
+106.cardText;抽3张卡，抽到的生物牌消耗减 {faeria|2}。
+107.cardName;裂浪巨像
+107.cardText;每当你从敌方灵泉上获得faeria时，费用减{faeria|1}(最低费用: {faeria|4})。
+108.cardName;欧罗塞，深渊之梦
+108.cardText;{flying}, {charge|2}\n{gift} - 将在场的所有其他友方生物 随机转化为消耗多{faeria|2}的生物。
+109.cardName;水元素
+109.cardText;{jump}\n{gift} - 创造{blue}。
+110.cardName;宝锦仙灵
+110.cardText;{flying}\n当你第一次抽到一张事件牌时，此生物获得+2/+2和 {charge|2}。
+111.cardName;沉没之塔
+111.cardText;{activate} - 移动一块地块。对此建筑造成1点伤害。
+112.cardName;蔚蓝光灵
+112.cardText;每当你从敌方灵泉收集faeria时，获得+1/+1。
+113.cardName;崔顿圣地
+113.cardText;每当你收集faeria，此建筑获得+0/+1。\n{activate} - 摧毁此建筑获得与之生命等量的{faeria|1}。
+114.cardName;奥罗拉的愿望
+114.cardText;抽牌直到你有9张手牌。将所有的手牌消耗减至{faeria|0}。
+115.cardName;暴雪枪骑
+115.cardText;{jump}\n每当你使用一张事件牌，此生物本回合中获得+2/+0(上限为 +6/+0)。
+116.cardName;卢杜安
+116.cardText;每当此生物从敌方灵泉上收集faeria时，随机加入一张蓝色的牌到你手中，它的消耗减{faeria|2}。
+117.cardName;梦幻蛋
+117.cardText;在你下一次抽到一张非传说生物时，梦幻蛋会变成它的复制。
+118.cardName;加百兰执政官
+118.cardText;{charge|2}\n如果你在本场游戏使用过两张初始费用超过{faeria|7}或者更高的卡，此生物获得+2/+2。
+119.cardName;崔顿潜水员
+119.cardText;{aquatic}, {jump}
+120.cardName;潮汐移位
+120.cardText;{options|移动一块地块|抽一张牌}\n- 移动一块地块。\n- 抽一张牌。
+121.cardName;潮汐先知
+121.cardText;{gift} - 移动此生物所在的地块两次。
+122.cardName;慑心愿景
+122.cardText;将一个生物的攻击和生命变为一半(向下取整)。
+123.cardName;远古使者
+123.cardText;{gift} - 你抽的下一张生物卡生命大于或等于5，此生物消耗减少{faeria|2}。
+124.cardName;崔顿盛宴
+124.cardText;给予一个生物+1/+1和{jump}。
+125.cardName;奥罗拉，神话撰师
+125.cardText;{gift} - 使另一个友方生物的攻击和生命变成6/6。
+126.cardName;海浪创造者
+126.cardText;在你对手回合结束开始，所有玩家的faeria变为{faeria|3}。
+127.cardName;失败的实验
+127.cardText;你本回合召唤的下一个生物消耗减少{faeria|4}。他会立刻死亡。
+128.cardName;奥罗拉的诡计
+128.cardText;获得一个攻击力小于或等于2的生物的控制权。
+129.cardName;忍者蛙队
+129.cardText;召唤2只2/2具有{jump}的<b>青蛙</b>。
+130.cardName;意外之财
+130.cardText;获得{faeria|12}。
+131.cardName;萨嘎米勇士
+131.cardText;{dash|2}
+132.cardName;骸骨收集者
+132.cardText;每当一个相邻生物死亡，获得+1/+1。
+133.cardName;萨嘎米附魂师
+133.cardText;{last_words} - 随机给予一个友方生物+3/+5。
+134.cardName;萨嘎米唤林者
+134.cardText;{gift} - 你可将另一个场上友方生物传送到一个你控制的{green}。
+135.cardName;远古驯兽师
+135.cardText;每当你召唤一个生命值大于或等于5的生物，召唤生物获得+1/+1。
+136.cardName;盖亚的恩赐
+136.cardText;目标生物获得+0/+3。你获得3点生命值
+137.cardName;提基酋长
+137.cardText;{gift} - 给予一个生物 {taunt}。
+138.cardName;花妖
+138.cardText;{last_words} - 随机将一张绿色牌加入到你的手中，消耗减 {faeria|3}。
+139.cardName;密林隐者
+139.cardText;{last_words} - 随机给予一个友方生物+2/+4。
+140.cardName;提基守护者
+140.cardText;{gift} - 给予一个生物 +2/+2。
+141.cardName;提基吹笛手
+141.cardText;{gift} - 给予一个生物 +0/+4。
+142.cardName;通灵之舞
+142.cardText;给予一个生物 +0/+4和{taunt}。
+143.cardName;提基图腾
+143.cardText;每回合给予你第一次召唤的生物+1/+1。
+144.cardName;着魔巨熊
+144.cardText;当此生物受到伤害后，它的攻击翻倍。
+149.cardName;小橡精
+149.cardText;{last_words} - 随机给予你手牌中的一个绿色生物+5/+5。
+150.cardName;泰瑞尔巨像
+151.cardName;播种者
+151.cardText;{gift} - 在随机相邻地块创造{green}。
+152.cardName;藤蔓之墙
+152.cardText;{taunt}\n{last_words} - 随机创造{green}。
+153.cardName;深林灰熊
+154.cardName;提基医者
+154.cardText;{gift} - 你获得5点生命值。
+155.cardName;茹妮的神龛
+155.cardText;{gift} - 获得{faeria|2}。\n{last_words} - 你的对手获得{faeria|2}。
+156.cardName;橡树之父
+156.cardText;{gift} - 由你控制的每一个{green}会使此生物获得+0/+1。
+157.cardName;仙灵之树
+157.cardText;{production} - 此建筑获得+0/+1。\n当它的生命大于或等于5，摧毁它，并获得{faeria|10}。
+158.cardName;垂柳树人
+158.cardText;{taunt}
+159.cardName;野性成长
+159.cardText;随机创造{green}。
+168.cardName;远古巨像
+168.cardText;你每拥有一块特殊地块，此生物的费用便减少{faeria|1}(最低费用{faeria|6})。
+169.cardName;泰斯拉，荒野之魂
+169.cardText;{flying}, {charge|2}\n{gift} - 给予一个生物 +5/+5。
+170.cardName;木元素
+170.cardText;{taunt}\n{gift} - 创造{green}。
+171.cardName;花锦仙灵
+171.cardText;{flying}\n当你第一次抽到一张事件牌时，此生物获得+1/+4，{taunt} 和 {charge|2}。
+172.cardName;蔓生之塔
+172.cardText;{activate} - 给予一个生物 +1/+1，并对此建筑造成1点伤害。
+173.cardName;繁花光灵
+173.cardText;每当你创造{green}，该生物获得+1/+1。
+174.cardName;重生之魂
+174.cardText;每当一个友方生物阵亡，给予你手牌中的一个随机生物+1/+1。
+175.cardName;密林之拥
+175.cardText;给予一个生物+2/+4。
+176.cardName;茹妮的信使
+176.cardText;{jump}\n每当此生物攻击神明，增加一个随机绿色生物到你的手牌。其费用减少{faeria|2}。
+177.cardName;苍绿之力
+178.cardName;丛林守护者
+178.cardText;{taunt}
+179.cardName;塔里木，世界树祖
+179.cardText;{taunt}\n{last_words} - 使世界充满森林。
+180.cardName;垂泣神像
+180.cardText;每当你受到伤害，便获得{faeria|1}。
+181.cardName;纵地术
+181.cardText;{options|将你的一个地块转化为{green}|将你的一个地块转化为{blue}|将你的一哥地块转化为{red}|将你的一个地块转化为{yellow}}\n将你的一个地块转化为选择的颜色并抽一张卡。
+182.cardName;狂野复仇者
+182.cardText;{taunt}, {dash|2}\n在本场游戏中，每当你被攻击，给予此生物+0/+1。
+183.cardName;远古战猪
+183.cardText;{dash|2}\n如果你控制的一个生物生命大于或等于5，消耗减少{faeria|2}。
+184.cardName;茹妮的指引
+184.cardText;给予目标:\n- 生物: +2/+2\n- 神明: 5点生命值
+185.cardName;饥渴之声
+185.cardText;{gift} - 摧毁所有相邻友方生物。 此生物获得攻击<b>和</b>生命，数值等同于所有被摧毁生物的生命总和。
+186.cardName;幼苗
+186.cardText;{production} - 如果此生物的生命低于5点，获得+1/+1。
+187.cardName;艾瑞顿，万物之音
+187.cardText;{last_words} - 给予所有在你手牌及套牌中的生物+1/+1。
+188.cardName;森林献祭
+188.cardText;摧毁一个友方生物，获得与其生命等量的faeria，并抽一张卡。
+189.cardName;茹妮现灵
+189.cardText;将一张随机绿色生物加入你的手牌中，并给予其+6/+6。
+190.cardName;茹妮，百折不挠
+190.cardText;{dash|2}\n{last_words} - 在回合结束时将茹妮放回手牌，她获得+2/+2。
+191.cardName;地下暴匪
+191.cardText;{combat} - 获得{faeria|2}。
+192.cardName;地精军阀
+192.cardText;{combat} - 给予一个随机友方生物+3/+0。
+193.cardName;地精战争兽
+194.cardName;金属赠礼
+194.cardText;给予一个生物 +3/+0。如果该生物具有 <b>战斗</b> 技能，则给予+3/+3。
+195.cardName;地下首领
+195.cardText;{combat} - 获得{faeria|2}。
+196.cardName;建筑师
+196.cardText;{gift} - 给予一个建筑+0/+2。
+197.cardName;高昂的食人魔
+197.cardText;{gift} - 如果敌方神明的生命为小于或等于10，此生物获得+2/+2。
+198.cardName;地精兵营
+198.cardText;邻近的友方生物+2/+0。
+199.cardName;仇恨之种
+199.cardText;在本场游戏中，每当你召唤一个攻击大于生命的生物时，此生物的费用减少{faeria|1}。
+200.cardName;食人魔勇士
+200.cardText;{taunt}
+201.cardName;莽撞交易者
+201.cardText;{gift} - 随机使你手中的一张牌消耗减少{faeria|7}。
+202.cardName;塞弗，血色暴君
+202.cardText;每当塞弗摧毁一个生物时，他获得该被消灭生物原始攻击及生命值。
+203.cardName;食人魔蛮族
+204.cardName;克罗格，食人魔大帝
+204.cardText;{combat} - 随机一张手牌减少消耗{faeria|7}。
+205.cardName;磨斧小鬼
+205.cardText;{gift} - 召唤于敌方灵泉相邻的地时，获得+1/+1。
+206.cardName;巨砾投掷者
+206.cardText;{ranged_attack}\n当此生物攻击目标时，目标周围的敌方生物受到同等伤害。
+211.cardName;舍丁禽兽
+211.cardText;{combat} - 对你的敌方神明造成2点伤害。
+212.cardName;鲜血颂师
+212.cardText;每当一个敌方生物死亡时，对敌方神明造成1点伤害。
+213.cardName;塞弗的死士
+213.cardText;{last_words} - 对敌方神明造成2点伤害。
+214.cardName;吐火者
+214.cardText;{gift} - 对一个敌方造成1点伤害。
+215.cardName;恐怖领主
+215.cardText;每当神明受到伤害，此生物获得与伤害等量的攻击力。
+216.cardName;舍丁祸害
+216.cardText;{gift} - 如果你控制另一个攻击大于生命的生物，获得+2/+2。
+217.cardName;血色方尖碑
+217.cardText;每当一个敌方生物在战斗中死亡，获得{faeria|1}并对你的敌方神明造成1点伤害。
+218.cardName;残酷守卫
+218.cardText;{taunt}\n{combat} - 对敌方神明造成2点伤害。
+223.cardName;炸弹投手
+223.cardText;{gift} - 对一个邻近的敌方生物或建筑造成4点伤害。
+224.cardName;重炮载体
+224.cardText;{gift} - 沿直线发射一个4/2的<b>机人</b>到一个地块上。
+225.cardName;烈焰冲击
+225.cardText;造成3点伤害
+226.cardName;火焰喷射器
+226.cardText;{ranged_attack}\n每当此生物攻击神明， 对其他所有敌方生物造成1点伤害。
+231.cardName;火山巨像
+231.cardText;{ranged_attack}\n在本场游戏中，在你对敌方神明造成伤害的回合，此生物的费用减少{faeria|1} (最低费用: {faeria|5})。
+232.cardName;格鲁丹，山岳之心
+233.cardName;火元素
+233.cardText;{gift} - 创造{red}。
+234.cardName;炎锦仙灵
+234.cardText;{flying}\n当你第一次抽到一张事件牌时，获得+3/+1及 {ranged_attack}。
+235.cardName;无主之塔
+235.cardText;{activate} - 造成1点伤害。并对此建筑造成1点伤害。
+236.cardName;血焰光灵
+236.cardText;每当一个敌方生物死亡时，此生物获得+2/+1。
+237.cardName;撼地器
+237.cardText;{gift} - 对所有敌方各造成1点伤害。
+238.cardName;引火者
+238.cardText;每当你召唤一个攻击大于生命的生物，获得+1/+1(当此生物在你的套牌或手牌中)。
+239.cardName;烈焰火蜥
+239.cardText;{gift} - 对所有相邻的敌人造成2点伤害。
+240.cardName;血石精灵
+240.cardText;每当友方生物从敌方的灵泉里收获faeria，对敌方神明造成1点伤害。
+241.cardName;塞弗之怒
+241.cardText;对一个生物造成2点伤害，如果它因此死亡，则对它的操控者造成2点伤害。
+242.cardName;暴食植株
+242.cardText;{taunt}\n{production} - 对相邻的所有敌方生物造成2点伤害。
+243.cardName;火焰爆弹
+243.cardText;对一个生物或建筑造成4点伤害。
+244.cardName;烈焰风暴
+244.cardText;指定一个位置，对此位置和相邻位置上的所有敌方生物造成3点伤害。
+245.cardName;战地狂暴者
+245.cardText;每当此生物受到伤害时，对敌方神明造成等量的伤害。
+246.cardName;崩裂魔像
+246.cardText;每当敌方神明召唤一个生物，对此魔像造成1点伤害。
+247.cardName;食人魔之舞
+247.cardText;随机使你手中的一张牌消耗减少{faeria|7}。
+248.cardName;陨星坠落
+248.cardText;选择一个位置。摧毁所有在该位置及邻近位置上的生物、建筑和地块。
+249.cardName;红色魔鬼
+249.cardText;{gift} - 获得{faeria|5}。
+250.cardName;伊恩尼斯，原初烈焰
+250.cardText;每当你从神力轮选择 +{faeria|1}， 造成4点伤害，随机分配给敌人。
+251.cardName;奥拉蒂姆僧侣
+251.cardText;{haste}\n每当此生物攻击神明时，你抽一张牌。
+252.cardName;克里姆的祈福者
+252.cardText;获得{faeria|2}并抽一张牌。本回合中使用生物攻击敌方神明后才可使用，且每回合只能用一次。
+253.cardName;克里姆的追随者
+253.cardText;{haste}\n攻击神明时拥有+2/+0。
+254.cardName;奥拉蒂姆圣堂武士
+254.cardText;{dash|1}\n攻击神明时拥有+3/+0。
+255.cardName;奥拉蒂姆射手
+255.cardText;{ranged_attack}\n每当友方生物攻击神明时，获得{faeria|1}。
+256.cardName;奥拉蒂姆狂信徒
+256.cardText;{jump}\n{gift} - 你可移动一个友方生物。
+257.cardName;沙漠龙卷风
+257.cardText;将一个生物传送到一个你控制的{yellow}。
+258.cardName;风之港
+258.cardText;你能在此建筑周围召唤生物。\n{activate} - 移动该建筑。
+259.cardName;灾祸凶灵
+259.cardText;{gift} - 吸取敌方神明2点生命。
+260.cardName;克里姆，天兆奇才
+260.cardText;{flying}, {charge|2}\n当克里姆攻击神明时，将一张消耗为{faeria|0} <b>克里姆的追随者</b> 加入手牌。
+261.cardName;杀戮恶影
+262.cardName;遗愿饿鬼
+262.cardText;{last_words} - 获得 {faeria|2}。
+263.cardName;终焉梦魇
+263.cardText;摧毁一个生物。
+264.cardName;灵魂契约
+264.cardText;对自己造成2点伤害并获得{faeria|2}。
+265.cardName;灵魂祭坛
+265.cardText;{activate} - 对自己造成2点伤害，加入一个6/1 <b>杀戮恶影</b> 到你的手牌。它消耗{faeria|2}。
+266.cardName;沙丹恶魔
+266.cardText;{production} - 对你的神明造成2点伤害。
+267.cardName;克里姆哨卫
+267.cardText;{flying}\n可以召唤在友方生物周围。
+268.cardName;克里姆的试炼
+268.cardText;给予一个生物+1/+0，{flying}和{charge|2}。
+273.cardName;风之兵士
+273.cardText;{haste}, {charge|3}\n回合结束时该生物死亡。
+274.cardName;龙头旗舰
+274.cardText;{flying}\n每当你抽到一张{flying}生物，给予那个生物+1/+1。
+275.cardName;御风密使
+275.cardText;{flying}\n当你控制其它飞行的生物时，它获得+2/+0。
+276.cardName;沙丹拾荒者
+276.cardText;如果本回合你攻击了一个神明，它的消耗减少{faeria|2} 。
+277.cardName;沙丘幼龙
+277.cardText;{flying}, {charge|2}\n不能收集faeria。
+278.cardName;御风英豪
+278.cardText;{flying}, {charge|5}\n{gift} - 移动任意生物。
+287.cardName;风暴巨像
+287.cardText;{dash|3}\n在本场游戏中，每当你每使用一个事件，此生物的费用减少{faeria|1}(最低消耗: {faeria|5})。
+288.cardName;阿扎莱，沙漠之怒
+288.cardText;{flying}, {charge|2}\n{gift} - 阿扎莱从每个敌方生物上吸取2点攻击。
+289.cardName;风元素
+289.cardText;{flying}\n{gift} - 创造{yellow}。
+290.cardName;阳锦仙灵
+290.cardText;{flying}\n当你第一次抽到事件牌时，此生物获得+3/+1和{charge|3}。
+291.cardName;天界之塔
+291.cardText;{activate} - 目标生物在本回合中获得{charge|3}，并对此建筑造成1点伤害。
+292.cardName;风之光灵
+292.cardText;{flying}, {charge|3}\n每当一个友方生物攻击神明，此生物获得+3/+0。
+293.cardName;极速疾风
+293.cardText;移动一个友方生物，或者支付{faeria|2}并移动一个敌方生物。
+294.cardName;黄金鸟舍
+294.cardText;所有你的飞行生物获得 +1/+0。
+295.cardName;狂热圣徒
+295.cardText;{charge|2}\n每当一个友方生物攻击神明，此生物便获得+1/+1 (在牌堆或手牌中时)。
+296.cardName;科尔丹士兵
+297.cardName;荒芜之主
+297.cardText;{gift} - 你可以牺牲一个友方生物，获得{faeria|3}。
+298.cardName;沙丹刺客
+298.cardText;{deathtouch}\n{gift} - 你可以牺牲另外一个友方生物给予此生物{protection}。
+299.cardName;恶魔引路者
+299.cardText;{gift} - 你可以选择牺牲另一个友方生物，并在该位置召唤一个5/2具有{flying}的 <b>恶魔之翼</b>。
+300.cardName;暗行死神
+300.cardText;{deathtouch}\n你必须牺牲另一个友方生物来召唤此生物。
+301.cardName;遗渊之誓
+301.cardText;摧毁一个友方生物，并在该位置召唤一个6/3带有{charge|3}的 <b>遗渊骑士</b>。
+302.cardName;沙丹魔物
+302.cardText;{charge|2}\n每当友方生物死亡，吸取该生物的攻击力。
+303.cardName;伊欧娜，众生之爱
+303.cardText;{flying}\n无法被生物攻击。
+304.cardName;恶魔之翼
+304.cardText;{flying}
+305.cardName;遗渊骑士
+305.cardText;{charge|3}
+306.cardName;摄魂术
+306.cardText;从一个生物吸取2点生命。
+307.cardName;窒息之沙
+307.cardText;摧毁一个攻击力小于或等于3的生物。
+308.cardName;末日之门，遗渊之口
+308.cardText;当末日之门的生命等于或大于13时，摧毁它并在该地召唤<b>欧斯彻古斯</b>\n{activate} - 牺牲一只生物，抽一张牌并令末日之门获得+0/+2。
+309.cardName;暴风射手
+309.cardText;{ranged_attack}\n每当你使用一张事件牌时，它在本回合内获得+1/+0。
+310.cardName;暴风骑士
+310.cardText;{charge|2}\n每当你使用一张事件牌时，此生物在本回合内获得 +2/+0(最多+6/+0)。
+311.cardName;终极掠食者
+311.cardText;{jump}\n{gift} - 获得等同于任何在场目标生物的攻击和生命。
+312.cardName;冰岩巨兽
+312.cardText;{taunt}, {protection}
+313.cardName;双魂精灵
+313.cardText;{flying}\n可以召唤在友方生物旁。\n{gift} - 再次召唤一个 <b>双魂精灵</b>。
+314.cardName;荆棘野兽
+314.cardText;{dash|2}\n{gift} - 造成4点伤害随机分配给敌方。给予+4/+4随机分配给友方。
+315.cardName;噬魂者
+315.cardText;{flying}, {charge|3}\n每当一个友方生物死亡，此生物获得+1/+1。（在牌堆或手牌中时）
+316.cardName;天灾火灵
+316.cardText;{flying}, {haste}, {charge|2}\n{combat} - 对敌对神明造成3点伤害。
+317.cardName;加百兰士兵
+317.cardText;{aquatic}, {charge|3}
+318.cardName;青蛙
+318.cardText;{jump}
+319.cardName;制图者
+319.cardText;{last_words} - 随机创造{green}{blue}{red}{yellow}中的一个。
+321.cardName;天空吞噬者
+321.cardText;{flying}
+322.cardName;愤怒的草原牦牛
+322.cardText;{haste}
+323.cardName;探索
+323.cardText;创造一块草原并且获得{faeria|2}。
+324.cardName;愤怒牦牛
+324.cardText;{haste}
+325.cardName;荆棘光灵
+325.cardText;每当你创造{green}，该生物获得+1/+0。
+328.cardName;欧斯彻古斯，遗渊之手
+328.cardText;{flying}, {haste}, {charge|13}\nfaeria灵泉停止生产。
+329.cardName;割喉强盗
+330.cardName;野蛮的骑兵
+331.cardName;知识
+331.cardText;抽2张牌。
+332.cardName;治愈祈福者
+332.cardText;获得3点生命。
+333.cardName;老子不玩了
+333.cardText;你不能使用这张卡。
+334.cardName;伟大知识
+334.cardText;抽5张卡。
+335.cardName;叛军飞刀手
+335.cardText;{gift} - 对敌方神明造成2点伤害。
+336.cardName;纳克萨斯的精灵
+336.cardText;{last_words} - 把自己的主人生命值变成1。
+337.cardName;神火风暴
+337.cardText;对所有敌方生物将造成10点伤害。
+338.cardName;潮汐之力
+338.cardText;移动一块地块。
+339.cardName;疾风
+339.cardText;移动一个友方的生物。
+340.cardName;塞兰德勇士
+342.cardName;寇金，神圣火焰
+342.cardText;{divine}\n寇金在场上可以使他的主人派若斯冷静。\n{production} - 寇金损失1点生命。
+350.cardName;三圣愿
+350.cardText;获得3点生命并且将对手牌堆顶端的3张牌复制到你的手牌中，复制牌的费用减少{faeria|1}并转化为{wild}。你不能复制他人的三圣愿。
+351.cardName;叛军滑翔者
+351.cardText;{flying}, {dash|2}\n无法收集faeria。
+352.cardName;光辉号，帝国无敌飞艇
+352.cardText;{flying}, {dash|3}\n光辉号的faeria消耗等同于你的生命值。\n{gift} - 获得与手牌数等量的生命。
+353.cardName;禁术馆
+353.cardText;{production} - 抽一张卡， 获得{faeria|1}并对自己造成2点伤害。
+354.cardName;掠梦者
+354.cardText;{dash|3}\n{gift} - 把一个神明的生命变为10点。
+355.cardName;荒野木灵
+355.cardText;{jump}\n不能收集faeria。\n每当此生物攻击神明时，你获得5点生命。
+356.cardName;猎神者
+356.cardText;{jump}\n只能攻击神明。\n不能收集faeria。
+357.cardName;血歌
+357.cardText;随机使你一张手牌消耗减{faeria|2}，重复四次。对自己造成4点伤害。
+358.cardName;地狱火
+358.cardText;造成9点伤害，随机分配给敌人。
+359.cardName;世界末日
+359.cardText;把你的faeria值变成{faeria|0}。生命减半(向下取整)。摧毁所有建筑和生物。结束这个回合。
+360.cardName;烦人的蚊子
+360.cardText;{flying}\n不能收集faeria。\n{last_words} - 对你自身造成2点伤害。于随机位置召唤此生物。
+361.cardName;长角牦牛
+361.cardText;{last_words} - 你抽取的下一个生物获得与这个生物等同的攻击力。
+362.cardName;传奇时刻
+362.cardText;抽取套牌最顶端的一张传奇卡牌。如果套牌里没有传奇卡牌响应号召，将一张随机的传奇卡牌加入你的手牌。该牌的费用转化为{wild}。
+363.cardName;崔顿教练
+363.cardText;{jump}\n{gift} - 给予你召唤的下一个{jump}生物+1/+1。
+364.cardName;真理唤灵
+364.cardText;{gift} - 你可将目标生物的攻击力与生命值恢复至原始数值。
+365.cardName;烽火先驱
+365.cardText;{combat} - 给予你下一个召唤的{combat}生物+1/+1。
+366.cardName;寒风指引者
+366.cardText;{flying}\n给予召唤于此生物相邻的友方生物{dash|2}和 {flying}。
+367.cardName;神圣守护者
+367.cardText;{divine}\n当你的主神承受致命伤害时，此生物阻止该次伤害并且自毁。
+368.cardName;皇帝圣旨
+368.cardText;给予目标:\n- 生物: -2/-1\n- 建筑: 3点伤害\n- 神明: 4点生命值
+369.cardName;辉幻蜃像
+369.cardText;{charge|2}\n每当你召唤一个消耗小于或等于{faeria|1}的生物，此生物获得召唤生物的攻击和生命(在套牌或手牌中)。
+370.cardName;深林潜伏者
+370.cardText;{gift} - 该生物可以与目标敌方生物交战。
+371.cardName;克罗格的晚饭
+371.cardText;你的克罗格费用减少 {faeria|7}。 当你召唤出克罗格时，摧毁此生物。\n{gift} - 若克罗格已死亡或者尚在你的套牌中，将其抽入至你的手牌。
+372.cardName;伊欧娜的微笑
+372.cardText;抽取牌堆顶端的2张{flying}生物。
+400.cardName;潘多拉碎片
+401.cardName;潘多拉觉醒
+401.cardText;潘多拉大门已打开，双方玩家都将得到一个 <b>宝藏</b>！
+402.cardName;找到宝藏了！
+402.cardText;双方玩家都将得到一个 <b>宝藏</b>！\n抽一张卡。
+403.cardName;黑暗水晶
+403.cardText;从敌方神明吸取4点生命，对所有敌方生物造成3点伤害，抽2张卡。
+404.cardName;牛角战号
+404.cardText;召唤三头拥有{haste}的2/4<b>愤怒的草原牦牛</b>。
+405.cardName;星际武器
+405.cardText;{flying}\n{gift} - 摧毁所有相邻生物，建筑物以及地块。
+406.cardName;時之笛
+406.cardText;此回合结束后，获得额外一个回合。
+407.cardName;神灯
+407.cardText;{options|增加3张绿色随机卡到你的手牌，他们消耗减少{faeria|3}|增加3张蓝色随机卡到你的手牌，他们消耗减少{faeria|3}|增加3张红色随机卡到你的手牌，他们消耗减少{faeria|3}|增加3张黄色随机卡到你的手牌，他们消耗减少{faeria|3}}\n选择一种颜色，增加3张此颜色随机卡到你的手牌里，他们消耗减少{faeria|3}。
+408.cardName;加百兰的骨灰瓮
+408.cardText;抽2张卡并且获得{faeria|2}。
+409.cardName;伊欧娜的镜子
+409.cardText;添加2张敌方最后使用的 <b>宝藏</b>， 复制卡到你的手牌中。
+410.cardName;血石魔像
+410.cardText;{production} - 刷新所有灵泉。\n每当收集faeria时，对敌方神明造成1点伤害。
+411.cardName;宫廷高脚杯
+411.cardText;随机分散+6/+6到的友方生物身上。
+412.cardName;艾瑞顿之鼓
+412.cardText;给予你所有生物 +2/+2，不论他们在哪里。
+413.cardName;吐云机器
+413.cardText;友方生物拥有{flying}、{jump}和+1/+0。
+414.cardName;领主之戒
+414.cardText;{options|将一个地块转化成{green}，获得其控制权。|将一个地块转化成{blue}，获得其控制权。|将一个地块转化成{red}，获得其控制权。|将一个地块转化成{yellow}，获得其控制权。}\n根据你的选择转化一个地块的颜色。获得其控制权。
+415.cardName;世界之泪
+415.cardText;把一个攻击过神明的生物转化成一个带有{flying}的10/10 <b>天空吞噬者</b>。
+416.cardName;发条牦牛
+416.cardText;{dash|2}
+417.cardName;天平机器
+417.cardText;{gift} - 你获得6点生命。\n{last_words} - 对敌方神明造成6点伤害。
+418.cardName;玛格妲的玫瑰
+418.cardText;获得一个敌方生物的控制权。
+419.cardName;奥罗拉的茶壶
+419.cardText;将所有友方生物的数值转化为6/6.
+420.cardName;幸运之石
+420.cardText;洗入3张随机 <b>宝藏</b> 卡到你的套牌里。
+421.cardName;神秘力量
+421.cardText;给予一个生物 +4/+4， {flying}， 和 {charge|3}。
+422.cardName;虚空守护者
+422.cardText;{gift} - 摧毁你的套牌。
+423.cardName;水晶龙
+423.cardText;{flying}, {charge|3}
+424.cardName;爆裂的红宝石
+424.cardText;{options|造成3点伤害|对一切造成3点伤害}\n- 造成3点伤害。\n- 对一切造成3点伤害。
+425.cardName;毁灭之锤
+425.cardText;造成5点伤害，<b>毁灭之锤</b> 会重新洗入你的套牌。
+426.cardName;火焰撼地器
+426.cardText;{gift} - 对所有敌人造成2点伤害。每摧毁一个敌人，获得+2/+2。
+427.cardName;死亡渴望
+427.cardText;摧毁一个生物。它的控制者获得与其费用相等的 {faeria|1} 并抽两张卡。
+428.cardName;瓶装闪电
+428.cardText;对一个生物造成 6 点伤害并且对它相邻敌人造成 3 点伤害。
+429.cardName;舞动之刃
+429.cardText;{flying}, {jump}\n在你回合结束时，对临近的敌方造成3点伤害。
+430.cardName;恶魔之镰
+430.cardText;摧毁1个生物。在这个位置召唤一个 6/1 <b>杀戮恶影</b>。
+431.cardName;镶饰之鹊
+431.cardText;{flying}, {haste}\n每当此生物攻击神明，添加一张随机 <b>宝藏</b> 牌到你的手牌中。
+432.cardName;混乱之轮
+432.cardText;{options|摧毁2块空旷地块|摧毁一个小于或等于5攻击力的生物|获得7点生命}\n- 摧毁2块空旷地块。\n- 摧毁一个小于或等于5攻击力的生物。\n- 获得7点生命。
+433.cardName;乌拉妮的奖章
+433.cardText;选择一个友方生物。其他所有友方生物变成该生物的复制。
+500.cardName;猴子精
+500.cardText;{taunt}\n{gift} - 在你对手的下个回合，每当敌方生物收集faeria，此生物获得 +2/+2。
+501.cardName;无畏探险者
+501.cardText;{gift} - 添加一个 <b>探索</b> 卡牌到每个玩家手中。
+502.cardName;水晶花
+502.cardText;{gift} - {swallow} 一个生物。\n在你的回合结束时，对此建筑造成1点伤害。
+503.cardName;投牛车
+503.cardText;{ranged_attack}\n每当攻击，在被攻击目标周围随机的空位召唤一个 2/2 <b>愤怒的牦牛</b>。
+504.cardName;呱呱，友善的矿工
+504.cardText;{gift} - 为你的盟友手牌中增加一个随机宝藏。
+505.cardName;莫比，蔚蓝天鲸
+505.cardText;{flying}，{charge|3}\n无法收集 faeria。\n{gift} - {swallow} 一个生物。
+506.cardName;气球鱼
+506.cardText;{flying}, {dash|2}\n{gift} - {swallow} 一个友方生物。如果不成功，则此生物死亡。
+507.cardName;帝王凯欧思
+507.cardText;{production} - 给予所有敌方生物 -1/-0。 然后摧毁所有0点攻击的敌方生物。
+508.cardName;天堂之种
+508.cardText;{flying}, {dash|1}\n{gift} - {options|当此生物在海洋上收集了faeria，自毁并且创造{green}|当此生物在海洋上收集了faeria，自毁并且创造{blue}|当此生物在海洋上收集了faeria，自毁并且创造{red}|当此生物在海洋上收集了faeria，自毁并且创造{yellow}}\n当此生物在海洋上收集faeria，自毁并且创造一块你所选颜色的地块。
+509.cardName;永生之树
+509.cardText;{production} - 给予7点生命。\n给予手牌中一个随机生物 +7/+7。
+510.cardName;瑞寇的礼物
+510.cardText;给予目标生物与友方生物数量相等的 +1/+1。
+511.cardName;好奇的生物医师
+511.cardText;{gift} - 地图上每有一个敌方生物，抽一张非蓝色生物牌。
+512.cardName;福咕噜，不可思议的商人
+512.cardText;{jump}\n{gift} - {options|抽一张 <b>加百兰的骨灰瓮</b>|抽一张 <b>水晶龙</b>|抽一张 <b>乌拉妮的奖章</b>}\n- 抽一张 <b>加百兰的骨灰瓮</b>\n- 抽一张 <b>水晶龙</b>\n- 抽一张 <b>乌拉妮的奖章</b>
+513.cardName;跳跳蛙
+513.cardText;{jump}\n{gift} - 如果你控制大于或等于8个特殊地块，此生物获得 +3/+3。
+514.cardName;抓钩
+514.cardText;本回合给予一个生物 {ranged_attack}。它攻击过后，你可以把它移动到被攻击目标相邻的地块。
+515.cardName;瑞寇狂欢者
+515.cardText;{last_words} - 获得与此生物的攻击力相等的 {faeria|1}
+516.cardName;CAP-10, 天际海盗
+516.cardText;{combat} - 抽一张 <b>金属赠礼</b>。如果没有，加一张到套牌。
+517.cardName;闪光三文鱼
+517.cardText;{divine}, {flying}, {haste}, {charge|2}\n不能收集faeria。\n在你回合结束，摧毁这个生物并且抽一张卡。
+518.cardName;鹰鲂骑士
+518.cardText;{flying}\n{last_words} - 在此生物死亡的地方，召唤一只2/2具有{flying}和{charge|2}的<b>鹰鲂</b>。
+519.cardName;伊斯塔努，永恒之光
+519.cardText;{flying}, {charge|3}\n{last_words} - 一个随机友方生物变成新的<b>伊斯塔努</b>。
+520.cardName;变形章鱼
+520.cardText;{options|获得 +2/+0。|获得 +0/+2。|获得 {jump}。|获得 {taunt}。}，两次:\n- 获得 +2/+0\n- 获得 +0/+2\n- 获得 {jump}\n- 获得 {taunt}
+521.cardName;投蛙者
+521.cardText;{gift} - 与目标敌方生物交战，在目标生物周围的随机空地上召唤一只2/2具有{jump}的<b>青蛙</b>。
+522.cardName;天堂之路
+522.cardText;{options|创造{green}|创造{blue}|创造{red}|创造{yellow}}\n- 创造一块特殊地块。\n本回合召唤在上面的生物获得+2/+0。
+523.cardName;翡翠蝾螈
+523.cardText;{gift} - 对周围敌方生物造成2点伤害。 给予周围友方生物 +2/+2。
+524.cardName;云巅守护 剑鱼
+524.cardText;{flying}， {taunt}， {dash|1}
+525.cardName;蜂拥鲫鱼
+525.cardText;{flying}\n可以召唤在友方生物周围。\n{gift} - 在这场游戏中，每死亡一只蜂拥鲫鱼，便召唤一只 <b>蜂拥鲫鱼</b>。
+526.cardName;守梦人
+526.cardText;{taunt}\n{gift} - 降低手牌中所有卡牌消耗 {faeria|1}， 然后把他们放回套牌，并且抽取同样牌数卡牌。
+527.cardName;宝石壳龟
+527.cardText;{gift} - 抽一张卡，然后复制它。并将它们的费用减少 {faeria|2}。
+528.cardName;鹰鲂飞行小队
+528.cardText;当你抽到这张卡时，复制它。\n召唤一个拥有{flying} 以及 {charge|2} 2/2 <b>鹰鲂</b>。
+529.cardName;云巅拖船
+529.cardText;{flying}, {dash|1}\n每当它要离开陆地，它会带着脚下陆地一块移动。
+530.cardName;瑞寇酋长
+530.cardText;{dash|1}\n相邻的友方生物+1/+0。
+531.cardName;天空海葵
+531.cardText;{flying}, {taunt}\n可以被召唤到任意地方。
+532.cardName;乌拉妮，云巅萨满
+532.cardText;{gift} - 抽一张绿卡，蓝卡，红卡和黄卡。
+549.cardName;现实粉碎者
+549.cardText;{flying}\n{production} -此建筑获得2点生命。\n当此建筑物拥有大于或等于10点生命时， <b>使游戏崩溃</b>。
+550.cardName;水晶花
+550.cardText;一个囚犯被囚禁在里面
+551.cardName;水晶花
+551.cardText;一个囚犯被囚禁在里面
+552.cardName;水晶花
+552.cardText;一个囚犯被囚禁在里面
+553.cardName;飞天鹰鲂
+553.cardText;{flying}， {charge|2}
+555.cardName;愤怒牦牛
+556.cardName;你是大赢家！
+556.cardText;对你的对手造成100点伤害。
+557.cardName;大帝王凯欧思
+557.cardText;{production} - 给予所有地方生物-1/-0。 然后摧毁所有攻击力为0的敌方生物。
+601.cardName;拉雅，悲怆之女
+601.cardText;{deathtouch}\n{last_words} - 在拉雅的位置上召唤一座<b>闪烁雕像</b>。
+602.cardName;帝国驭龙者
+602.cardText;{flying}, {charge|2}\n{corrupt} - 获得+2/+2。
+603.cardName;疯狂猴子
+603.cardText;{gift} - 清空所有灵泉。获得与被清空的灵泉数量相等的+1/+1。
+604.cardName;帝国突击兵
+604.cardText;{corrupt} - 获得此生物所在地块的控制权。
+605.cardName;失落探险者
+605.cardText;{corrupt} -抽一张卡并获得 {faeria|1}.
+606.cardName;腐刃骑士
+606.cardText;当此生物受当伤害时，你也受到相等的伤害。
+607.cardName;影丝仙灵
+607.cardText;{flying}, {charge|2}, {protection}\n{corrupt} - 从牌堆里抽取2张事件牌。
+608.cardName;凯欧思，偏执主宰者
+608.cardText;{divine}\n凯欧思的攻击力永远等同于其生命值。\n{corrupt} - 吸取<b>所有事物</b>1点生命。
+609.cardName;鱼雨
+609.cardText;于随机位置召唤6条<b>红宝石鱼</b>。 每条着落在陆地上的鱼将对其相邻的敌人造成1点伤害。
+610.cardName;飞行食人鱼
+610.cardText;{flying}\n当一个相邻的生物死亡时，此生物获得 {deathtouch} 和 {jump}。
+611.cardName;残暴九头蛇
+611.cardText;{corrupt} - 在每个相邻的地块上召唤拥有{haste} 的2/1<b>九头蛇之头</b>。它们在回合结束时死亡。
+612.cardName;闹鬼垂柳树人
+612.cardText;{taunt}
+613.cardName;腐化野猪
+613.cardText;{dash|1}\n{corrupt} - 抽取牌堆最顶端的具有5点或以上生命值的生物。给予其+2/+2。
+614.cardName;猫又
+614.cardText;{taunt}\n{corrupt} - 此生物的攻击力翻倍。
+615.cardName;巴尔杜里翁，邪恶大铁匠
+615.cardText;{protection}\n{corrupt} - 将一张<B>毁灭之锤</b>加入到你的手牌。
+616.cardName;愤怒仙灵
+616.cardText;{last_words} - 对自己造成2点伤害。
+617.cardName;浩劫
+617.cardText;对目标敌方生物或建筑造成9点伤害
+618.cardName;魔化三文鱼
+618.cardText;{haste}, {flying}, {charge|2}\n不能收集faeria\n每当此生物攻击神明，获得+1/+1。
+619.cardName;灵魂盗窃
+619.cardText;吸取目标敌方生物1点生命值。若目标因此死亡，将它复制并加入你的手牌，它的费用转化为{wild}。
+620.cardName;所罗姆
+620.cardText;{flying}, {divine}\n{corrupt} - 摧毁一座灵泉。
+622.cardName;众牛之母
+622.cardText;{gift} - 在众牛之母周围召唤两个具有{taunt}和{flying}的4/4<b>牦牛护卫</b>。\n在本场游戏中，每当友方牦牛死亡时此卡费用减少{faeria|1}。
+623.cardName;瑞寇斗士
+623.cardText;{dash|2}\n{gift} - 获得与场上的友方瑞寇数量相等的+1/+1。
+624.cardName;孤儿蛙
+624.cardText;当你控制另一个野兽时，此生物获得+2/+0和{jump}。
+625.cardName;拉帕拉，蠢若木鱼
+625.cardText;{aquatic}\n{gift} - 给对手的手牌塞满<b>红宝石鱼</b>。 真是太蠢了。
+626.cardName;蓝宝石牦牛
+626.cardText;每当一只友方牦牛在敌方灵泉收集faeria时，令其获得+2/+2。
+627.cardName;追猎
+627.cardText;给予一只友方野兽+2/+0。然后其与与目标敌方生物交战。
+628.cardName;翡翠牦牛
+628.cardText;{gift} - 在你的平原召唤一个拥有1/1{taunt}但<b>无法收集faeria</b>的<b>牦牛宝宝</b>。
+629.cardName;玛基纳塔，永生之灵
+629.cardText;{protection}，{divine}\n{gift} - 令目标友方生物吞噬玛基纳塔，给予目标生物+5/+5，{flying}和{charge|2}。
+630.cardName;炎涌蝾螈
+640.cardName;瑞寇直升机
+640.cardText;{flying}, {dash|1}\n{gift} - 对周围敌方生物造成2点伤害。
+641.cardName;红宝石牦牛
+641.cardText;每当一个友方牦牛受到伤害，对敌方神明造成1点伤害。
+642.cardName;幽灵龙
+642.cardText;{flying}, {charge|2}, {protection}
+643.cardName;狮子鱼
+643.cardText;{flying}, {deathtouch}
+644.cardName;黄玉牦牛
+644.cardText;可以在友方牦牛周围召唤此生物。若这么做，此生物获得{haste}。
+645.cardName;瑞寇战争机器
+645.cardText;{charge|2}\n{gift} - 此生物可以{swallow}另一个友方瑞寇以获得+2/+0。
+646.cardName;瑞寇炮手
+646.cardText;{gift} - 你可以牺牲另一只瑞寇。当你如此做，该生物对一个敌方生物造成3点伤害。
+647.cardName;瑞寇幻术师
+647.cardText;{gift} - 在你的下回合开始为止，你可将另一个友方瑞寇转化为一个拥有{flying}和{charge|2}的4/4<b>沙丘幼龙</b>。
+648.cardName;瑞寇护盾牌队友
+648.cardText;{last_words} - 在此生物死亡的位置召唤一个1/1瑞寇。
+649.cardName;瑞寇领军者
+649.cardText;{combat} - 随机给予你手中的一个瑞寇+1/+1。
+650.cardName;瑞寇征募官
+650.cardText;{gift} - 将一张1/1的瑞寇放入你的手牌。其费用为{faeria|0}。
+653.cardName;诅咒之塔
+653.cardText;{activate} - 给予一个生物-1/-1。 对此建筑造成1点伤害。
+654.cardName;啸憎，天空吞噬者
+654.cardText;{flying}， {charge|3}\n当啸憎首次将要通过战斗摧毁生物时，改为吞噬该生物，并获得其控制权。
+655.cardName;帝国前哨站
+655.cardText;所有友方中立生物拥有+1/+0。
+656.cardName;毁灭截击
+656.cardText;对目标生物造成2点伤害。 若目标是{flying}生物，则对其造成5点伤害。
+658.cardName;光辉号，云巅之灾
+658.cardText;{flying}\n{gift} - 下个回合，敌方生物无法移动。
+659.cardName;爆裂河马
+659.cardText;{combat} - 对所有相邻的敌人各造成2点伤害。
+660.cardName;野兽训练师
+660.cardText;{gift} - 将你手牌中的一张随机野兽的消耗减少{faeria|5}。
+661.cardName;地精走私者
+661.cardText;{corrupt} - 在一个随机相邻地块召唤一只4/3的<b>塞弗的死士</b>。
+662.cardName;伊恩尼斯之怒
+662.cardText;造成{dynamic_number|0|0}点伤害，随机分配给敌人。\n本局游戏中，你每从神力轮中选择+{faeria|1}，此牌的伤害增加1点（在手牌或套牌中生效）。
+663.cardName;伊恩尼斯祭司
+663.cardText;{gift} - 刷新你的神力轮。\n{corrupt} - 刷新你的神力轮。
+664.cardName;燥火者
+664.cardText;每当你从神力轮中选择+{faeria|1}时，此生物获得+1/+1。
+665.cardName;荒空害虫
+665.cardText;{gift} - 与敌方神明交战。
+666.cardName;腐秽肿蝇
+666.cardText;{flying}\n{corrupt} - 添加一张<b>腐秽肿蝇</b>到你的手牌。
+667.cardName;枯芜幽鬼
+667.cardText;{charge|2}\n{production} - 如果你的对手有4张或更多的手牌，此生物获得+1/+1。
+668.cardName;携尘幻影
+668.cardText;{corrupt} - 你对手的所有手牌消耗各增加{faeria|1}。
+669.cardName;荒空秃鹰
+669.cardText;{flying}\n{gift} - 摧毁一个生命值为1的生物，并吸取它的攻击力。
+671.cardName;雷霆鳗鱼
+671.cardText;{flying}\n{gift} - 你可以对目标生物造成2点伤害。如果该生物位于海洋上，则对它造成4点伤害。
+676.cardName;游荡牦牛
+676.cardText;{gift} - 创造一块平原。\n{dash|1}
+677.cardName;牧牛女
+677.cardText;{gift} - 给予两只友方牦牛+2/+0与{charge|2}直到回合结束。
+678.cardName;云巅牦牛
+678.cardText;{flying}\n当你控制六块平原时，获得+2/+2
+679.cardName;肿胀蟾蜍
+679.cardText;{jump}\n该生物与一只被它吞噬的敌方2/2<b>青蛙</b>一同入场。
+680.cardName;窥镜幻灵
+680.cardText;{gift} - 将一只敌方生物转化为5/3的<b>灵幻镜窥</b>。
+685.cardName;茧
+685.cardText;{gift} - {swallow}一个友方生物。\n{production} - 被吞噬的生物获得+1/+1。\n{activate} - 摧毁该建筑。
+686.cardName;苍绿密使
+686.cardText;{last_words} - 令你手牌中的所有生物获得+1/+1。
+692.cardName;弱者的救星
+692.cardText;{gift} - 给予另一只攻击力为1的友方生物+2/+2和{divine}。
+694.cardName;九头蛇之头
+694.cardText;{haste}\n在回合结束时死亡。
+695.cardName;牦牛护卫
+695.cardText;{flying}, {taunt}
+696.cardName;牦牛宝宝
+696.cardText;{taunt}\n不能收集faeria。
+697.cardName;沙丘幼龙
+697.cardText;{charge|2}, {flying}\n不能收集faeria。
+698.cardName;灵幻镜窥
+698.cardText;{gift} - 将一只除自身外的友方生物转化成3/5的<b>窥镜幻灵</b>。
+699.cardName;瑞寇
+9991.cardName;给予急速
+9992.cardName;给我力量
+9992.cardText;获得 {faeria|100} 并且每种颜色地块随机位置创造一块。
+9993.cardName;你去死吧！
+9993.cardText;造成100点伤害。
+9994.cardName;火山
+9995.cardName;湖泊
+9996.cardName;沙漠
+9997.cardName;森林
+9998.cardName;草原
+9999.cardName;神座
+682.cardName;潮汐之主
+682.cardText;{jump}\n可以召唤在友方崔顿周围。如果这样做，该生物获得+1/+1。
+670.cardName;闹鬼枯木
+670.cardText;在你的回合结束时，如果你的对手拥有4张或更多的手牌，抽一张牌并吸取敌方神明1点生命。
+675.cardName;独角羊驼
+675.cardText;{combat} - 每个玩家抽一张牌并获得2点生命。
+681.cardName;崔顿策士
+681.cardText;{jump}\n{gift} - 每有一只相邻的友方崔顿，该生物获得+1/+0
+683.cardName;行走盛宴
+683.cardText;{dash|1}\n在你的回合结束时，令一只随机相邻友方生物吞噬此生物，并获得+1/+1。
+688.cardName;绽放木灵
+688.cardText;{gift} - 随机创造{green}{green}{green}。
+689.cardName;柔风灵狐
+689.cardText;每当该生物移动到{green}上时，你可以将其传送到一块你控制的{green}上。
+691.cardName;胜利庆典
+691.cardText;每个玩家在本局游戏接下来的每一回合均获得额外{faeria|1}。
+9989.cardName;获得地块控制权
+9990.cardName;获得控制权
+657.cardText;{flying}\n你手牌中的卡为{wild}。\n{gift} - 将一张随机的嘎嘎娜船员加入你的手牌中，其费用为{faeria|0}。
+657.cardName;嘎嘎娜，彩虹鸟船
+652.cardText;每当你控制的生物触发{corrupt}能力，吸取敌方神明2点生命。
+652.cardName;被奴役的祭司
+9988.cardText;给予一个生物{haste}。
+9988.cardName;冲锋！
+9987.cardText;{activate} - 抽一张牌。
+9987.cardName;知识之塔
+690.cardText;每当德沃迪亚移动到{green}上时，你可以将其传送到一块你控制的{green}上。若如此做，他获得+1/+1。
+690.cardName;德沃迪亚，灵狐族长
+687.cardText;{gift} - 给予你抽取的下一个生物+2/+4。
+687.cardName;永生牧师
+684.cardText;该生物可以在被打出的回合收集faeria。\n{gift} - 你可以移动该生物所在的地块。
+684.cardName;珊瑚蝌蚪
+674.cardText;{gift} - 如果乌拉妮是你唯一的生物，她获得{taunt}，{protection}和{divine}。
+674.cardName;乌拉妮，云巅捍卫者
+673.cardText;{gift} - 如果你的套牌中已没有生物剩余，将<b>光辉号，帝国无敌飞艇</b>与10只随机中立生物洗入你的套牌。它们获得+2/+2。
+673.cardName;班农，光辉号舰长
+9986.cardText;弃置他们的手牌
+9986.cardName;显示AI手牌
+800.cardText;抓一张牌。\n当你打出第三张<b>藏宝图</b>时，改为{discover}一张<b>嘎嘎娜的宝藏</b>。\n已打出{dynamic_number|0|0}张<b>藏宝图</b>。
+800.cardName;藏宝图
+749.cardText;哔哔哔哔
+749.cardName;机人
+746.cardText;哔哔嘟嘟
+746.cardName;机人
+745.cardText;{taunt}，{divine}
+745.cardName;守卫者
+744.cardText;{taunt}，{divine}
+744.cardName;守卫者
+743.cardText;召唤两只5/5具有{taunt}和{divine}的<b>守卫者</b>。
+743.cardName;守卫者之钥
+742.cardText;{discover}一张生物。它获得+6/+6并转化为{wild}。
+742.cardName;巨人之钥
+741.cardText;{options|{discover}一张绿色生物。|{discover}一张蓝色生物。|{discover}一张红色生物。|{discover}一张黄色生物。}\n选择一个颜色。{discover}一张该颜色的生物。它的消耗减少{faeria|3}并转化为{wild}。
+741.cardName;元素之钥
+740.cardText;{divine},{flying},{dash|5}\n可以召唤在任意位置。
+740.cardName;守卫者之矛
+739.cardText;你的手牌消耗减少{faeria|1}。
+739.cardName;顺从虚影
+738.cardText;{flying}，{dash|5}\n{gift} - 将你的手牌塞满<b>极速疾风</b>。它们转化为{wild}。
+738.cardName;魔毯
+737.cardText;{gift} - {swallow}一个友方生物。\n{production} - 被吞噬的生物获得+4/+4。\n{activate} - 摧毁该建筑。
+737.cardName;水晶茧
+736.cardText;{charge|3}，{flying}\n{gift} - 撕碎你牌组中所有的<b>藏宝图</b>。每撕碎一张，该生物获得+1/+1。\n可撕碎{dynamic_number|0|0}张。
+736.cardName;远古石像鬼
+735.cardText;{charge|5}，{flying}\n{last_words} - 对相邻所有敌人造成5点伤害。
+735.cardName;泰瑞尔法球
+734.cardText;{jump}\n对该生物临近的所有敌人造成3点伤害。
+734.cardName;大副索洛科
+733.cardText;{flying}，{jump}
+733.cardName;掠翼船员
+732.cardText;{discover}一张地块需求为4块及以上的卡牌，并将其转化为{wild}。
+732.cardName;泰瑞尔探秘
+731.cardText;{flying}，{dash|2}
+731.cardName;行空机体
+730.cardText;{discover}两张消耗为{faeria|7}及以上的非传奇卡牌。它们转化为{wild}。
+730.cardName;水晶香料
+729.cardText;给予一个生物+3/+3，{charge|3}和{flying}。本回合每死去一个友方生物，其消耗减少{faeria|3}。
+729.cardName;灵魂香料
+728.cardText;{discover}一张你对手牌库中的事件。将其转化为{wild}并令其消耗减少{faeria|2}。
+728.cardName;坑蒙拐骗
+727.cardText;{flying}\n{gift} - 将一张<b>藏宝图</b>置于你的牌库顶。\n{last_words} - 将阿雅纳放回你的手牌。
+727.cardName;阿雅纳，嘎嘎娜之魂
+726.cardText;{gift} - 将一张<b>藏宝图</b>洗入你的牌库。
+726.cardName;阿玛伊地图商
+724.cardText;{flying}\n{gift} - {discover}一张消耗{faeria|5}的非传奇卡牌。将2张你未挑选的卡牌放入对手的手牌。它们全部转换为{wild}。
+724.cardName;阿玛伊商人
+723.cardText;{dash|1}\n在你的回合结束时，如果该生物位于敌方地块，将2张<b>藏宝图</b>洗入你的牌库。
+723.cardName;科尔丹冒险者
+722.cardText;在你的回合结束时，令其他所有友方机人获得+1/+1，并令自身受到1点伤害。
+722.cardName;废足，废料堆积体
+721.cardText;所有友方机人对其相邻敌人造成2点伤害。
+721.cardName;引爆
+720.cardText;{combat} - 在随机相邻地块召唤一只4/2的<b>机人</b>。
+720.cardName;碎件拼接体
+719.cardText;{production} - 获得+3/+0。
+719.cardName;不稳定锻体
+717.cardText;{dash|1}\n在你的回合结束时，如果该生物位于敌方地块，则将你的一张手牌的消耗减少{faeria|1}。
+717.cardName;食人魔冒险者
+715.cardText;你可以将其召唤至友方非绿生物周围。
+715.cardName;珍奇异宠
+714.cardText;{discover}一张具有{taunt}的生物。它转化为{wild}并获得+0/+3。
+714.cardName;寻求庇护
+713.cardText;{jump}\n相邻友方野兽获得+2/+0。
+713.cardName;野兽守护灵
+712.cardText;{gift} - {discover}一张野兽。它转化为{wild}。
+712.cardName;提基动物学家
+711.cardText;{dash|1}\n在你的回合结束时，如果该生物位于敌方地块，则每有一只相邻友方生物，该生物获得+1/+1。
+711.cardName;提基冒险家
+710.cardText;{jump}\n每当你发现一张宝藏时，福咕噜获得+3/+3。
+710.cardName;福咕噜，嘎嘎娜号船长
+709.cardText;{jump}\n{gift} - 抓3张牌。如果其中有任意张<b>藏宝图</b>，则该生物获得+2/+2。
+709.cardName;崔顿观星人
+707.cardText;{gift} - 将1张<b>藏宝图</b>洗入你的牌库，抓一张牌。
+707.cardName;星壳收藏家
+706.cardText;将2张<b>藏宝图</b>洗入你的牌库，抓一张牌。
+706.cardName;瓶中讯息
+705.cardText;{jump}\n{gift} - 移动该生物。\n回合结束时，如果该生物位于敌方地块，则抓一张牌。
+705.cardName;崔顿冒险家
+704.cardText;{flying}\n{gift} - 将等于你手牌数量的<b>藏宝图</b>加入你的牌库。将你的手牌洗入牌库并抓取等量的牌。
+704.cardName;嘎嘎娜，寻宝客
+703.cardText;{flying}，{charge|2}\n{gift} - 如果你的牌组中没有相同的卡牌，则该生物获得{haste}与{protection}。\n{last_words} - 将<b>希莱斯忒</b>洗入你的牌库。
+703.cardName;希莱斯忒，水晶巨龙
+702.cardText;令一个友方生物获得若干次+1/+1，次数等同于其相邻敌人数量。
+702.cardName;莎拉的奇计
+701.cardText;在你的回合结束时，从你的牌库中检索一张<b>藏宝图</b>并将其置于牌库顶。如果你的牌库中没有<b>藏宝图</b>，则改为将一张<b>藏宝图</b>洗入你的牌库。
+701.cardName;嘎嘎娜的罗盘
+9985.cardText;播放所有全局动画
+9985.cardName;全部动画化
