@@ -248,7 +248,7 @@ require("lazy").setup({
 {'lukas-reineke/indent-blankline.nvim', event = { "BufRead", "BufNewFile" }},
 {'folke/which-key.nvim', lazy = true},
 {'lambdalisue/nerdfont.vim'},
-{'ggandor/leap.nvim', lazy = true},
+{url = "https://codeberg.org/andyg/leap.nvim", lazy = true},
 {'kyazdani42/nvim-web-devicons', lazy = true},
 {'glacambre/firenvim', build = ":call firenvim#install(0)", lazy = false },
 -- {'neovim/nvim-lspconfig', lazy = true },
