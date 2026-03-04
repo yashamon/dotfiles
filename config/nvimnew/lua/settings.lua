@@ -492,6 +492,10 @@ require("fzf-lua").setup({
     hide = false,
   },
 })
+
+require("fzf-lua").setup({
+  previewer = false,
+})
 require('lualine').setup {
   options = {
     -- theme = 
