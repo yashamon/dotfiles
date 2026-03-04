@@ -489,12 +489,9 @@ require('neoclip').setup({
 
 require("fzf-lua").setup({
   profiles = {
-    hide = false,
+    default = {},   -- override default profile
+    hide = nil,     -- completely disable the hide profile
   },
-})
-
-require("fzf-lua").setup({
-  previewer = false,
 })
 require('lualine').setup {
   options = {
