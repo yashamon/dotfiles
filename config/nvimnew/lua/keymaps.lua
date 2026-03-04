@@ -74,7 +74,7 @@ map('t', '<c-Tab>', function() vim.cmd('edit #') end, {})
 map('n', '<m-t>', function() vim.cmd('up'); vim.cmd('FzfLua btags') end, {})
 -- map('n', 'z=', function() Feedkey('i', 'z=') end)
 -- Telescope
-map('n', '<m-b>', function() vim.cmd('up'); vim.cmd('FzfLua buffers') end, {})
+map('n', '<m-b>', function() vim.cmd('up'); vim.cmd('Buffers') end, {})
 -- map('n', '<m-b>', function()  require('telescope.builtin').buffers({layout_strategy='vertical',layout_config={width=0.9}}) end, {})
 map('n', '<m-i>', function() require('telescope.builtin').git_bcommits({layout_strategy='vertical',layout_config={width=0.9}}) end, {})
 map('n', '<m-u>', function() vim.cmd('cg C:/Users/yasha/_vim_mru_files | copen call feedkeys("zf")') end, {})
