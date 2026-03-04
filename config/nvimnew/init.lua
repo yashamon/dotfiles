@@ -61,6 +61,13 @@ keymap = {
     "fallback",
   },
 },
+completion = {
+  list = {
+    selection = {
+      preselect = true,
+    },
+  },
+},
      -- ensure you have the `snippets` source (enabled by default)
     sources = {
             -- Add 'dictionary' to the list
