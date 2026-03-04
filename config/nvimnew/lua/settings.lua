@@ -487,12 +487,12 @@ require('neoclip').setup({
   },
 })
 
-local ls = require("luasnip")
 require("blink.cmp").setup({
   keymap = {
     preset = "default",
     ["<Tab>"] = {
       function()
+				local ls = require("luasnip")
         if ls.expand_or_jumpable() then
           ls.expand_or_jump()
           return
