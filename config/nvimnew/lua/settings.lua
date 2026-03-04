@@ -487,6 +487,50 @@ require('neoclip').setup({
   },
 })
 
+local ls = require("luasnip")
+require("blink.cmp").setup({
+  keymap = {
+    preset = "default",
+
+    ["<Tab>"] = {
+      function()
+        if ls.expand_or_jumpable() then
+          ls.expand_or_jump()
+          return
+        end
+
+        local cmp = require("blink.cmp")
+        if cmp.is_visible() then
+          cmp.accept()
+          return
+        end
+
+        vim.api.nvim_feedkeys(
+          vim.api.nvim_replace_termcodes("<Tab>", true, false, true),
+          "n",
+          false
+        )
+      end,
+      "snippet_or_completion_or_tab",
+    },
+
+    ["<S-Tab>"] = {
+      function()
+        if ls.jumpable(-1) then
+          ls.jump(-1)
+          return
+        end
+
+        vim.api.nvim_feedkeys(
+          vim.api.nvim_replace_termcodes("<S-Tab>", true, false, true),
+          "n",
+          false
+        )
+      end,
+      "snippet_jump_back_or_shift_tab",
+    },
+  },
+})
 require("fzf-lua").setup({
   profiles = {
     default = {},   -- override default profile
