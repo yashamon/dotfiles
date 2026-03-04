@@ -498,10 +498,25 @@ require("blink.cmp").setup({
     ["<Tab>"] = false,
     ["<S-Tab>"] = false,
   },
+  completion = {
+    list = {
+      selection = {
+        preselect = true,
+      },
+    },
+  },
   sources = {
     default = { "lsp", "path", "buffer", "luasnip" },
   },
 })
+
+local function insert_tab()
+  vim.api.nvim_feedkeys(
+    vim.api.nvim_replace_termcodes("<Tab>", true, false, true),
+    "i",
+    true
+  )
+end
 
 vim.keymap.set("i", "<Tab>", function()
   if ls.expand_or_jumpable() then
@@ -515,7 +530,7 @@ vim.keymap.set("i", "<Tab>", function()
     return
   end
 
-  vim.api.nvim_put({ "\t" }, "c", true, true)
+  insert_tab()
 end, { silent = true })
 
 vim.keymap.set("i", "<S-Tab>", function()
@@ -524,7 +539,7 @@ vim.keymap.set("i", "<S-Tab>", function()
     return
   end
 
-  vim.api.nvim_put({ "\t" }, "c", true, true)
+  insert_tab()
 end, { silent = true })
 
 require("fzf-lua").setup({
