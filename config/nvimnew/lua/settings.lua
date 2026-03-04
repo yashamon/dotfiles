@@ -490,17 +490,18 @@ require('neoclip').setup({
 local ls = require("luasnip")
 local cmp = require("blink.cmp")
 
+require("luasnip.loaders.from_vscode").lazy_load()
+
 require("blink.cmp").setup({
   keymap = {
-    preset = "default",
+    preset = "none",
     ["<Tab>"] = false,
     ["<S-Tab>"] = false,
   },
+  sources = {
+    default = { "lsp", "path", "buffer", "luasnip" },
+  },
 })
-vim.keymap.del("i", "<Plug>(blink-cmp-next)")
-vim.keymap.del("i", "<Plug>(blink-cmp-prev)")
-vim.keymap.del("i", "<Plug>(blink-cmp-accept)")
-vim.keymap.del("i", "<Plug>(blink-cmp-cancel)")
 
 vim.keymap.set("i", "<Tab>", function()
   if ls.expand_or_jumpable() then
@@ -510,7 +511,7 @@ vim.keymap.set("i", "<Tab>", function()
   else
     vim.api.nvim_feedkeys(
       vim.api.nvim_replace_termcodes("<Tab>", true, false, true),
-      "n",
+      "i",
       false
     )
   end
@@ -522,7 +523,7 @@ vim.keymap.set("i", "<S-Tab>", function()
   else
     vim.api.nvim_feedkeys(
       vim.api.nvim_replace_termcodes("<S-Tab>", true, false, true),
-      "n",
+      "i",
       false
     )
   end
