@@ -494,10 +494,13 @@ require("luasnip.loaders.from_vscode").lazy_load()
 
 require("blink.cmp").setup({
   keymap = {
-    preset = "none",
-    ["<Tab>"] = false,
-    ["<S-Tab>"] = false,
+    preset = "enter",
+
+    -- Tab cycles through items, or falls back if no menu
+    ["<Tab>"] = { "select_next", "fallback" },
+    ["<S-Tab>"] = { "select_prev", "fallback" },
   },
+
   completion = {
     list = {
       selection = {
@@ -505,42 +508,24 @@ require("blink.cmp").setup({
       },
     },
   },
+
   sources = {
     default = { "lsp", "path", "buffer", "luasnip" },
   },
 })
 
-local function insert_tab()
-  vim.api.nvim_feedkeys(
-    vim.api.nvim_replace_termcodes("<Tab>", true, false, true),
-    "i",
-    true
-  )
-end
-
+-- Snippet expansion/jump fallback
 vim.keymap.set("i", "<Tab>", function()
   if ls.expand_or_jumpable() then
     ls.expand_or_jump()
-    return
   end
-
-  local entry = cmp.get_selected_entry()
-  if cmp.is_visible() and entry then
-    cmp.accept(entry)
-    return
-  end
-
-  insert_tab()
-end, { silent = true, noremap = true })
+end, { silent = true })
 
 vim.keymap.set("i", "<S-Tab>", function()
   if ls.jumpable(-1) then
     ls.jump(-1)
-    return
   end
-
-  insert_tab()
-end, { silent = true, noremap = true })
+end, { silent = true })
 require("fzf-lua").setup({
   profiles = {
     default = {},   -- override default profile
