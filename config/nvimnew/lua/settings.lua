@@ -490,12 +490,11 @@ require('neoclip').setup({
 local ls = require("luasnip")
 local cmp = require("blink.cmp")
 
-vim.keymap.del("i", "<CR>")
 require("luasnip.loaders.from_vscode").lazy_load()
 
 require("blink.cmp").setup({
   keymap = {
-    preset = "default",
+    preset = "none",
     ["<Tab>"] = false,
     ["<S-Tab>"] = false,
     ["<CR>"] = "accept",
