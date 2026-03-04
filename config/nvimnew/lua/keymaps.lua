@@ -92,12 +92,12 @@ map({'n', 'v'}, 't',  'mj<Plug>(leap-forward)', {})
 map({'n', 'v'}, 'T', 'mj<Plug>(leap-backward)', {})
 
 -- Luasnip
-map('i', '<S-Tab>', function ()
-require'luasnip'.jump(-1) end, {})
-map({'i', 'n', 'v'}, '<m-j>', function ()
-require('luasnip').jump(1) end, {})
-map({'i', 'n', 'v'}, '<m-k>', function ()
-require('luasnip').jump(-1) end, {})
+-- map('i', '<S-Tab>', function ()
+-- require'luasnip'.jump(-1) end, {})
+-- map({'i', 'n', 'v'}, '<m-j>', function ()
+-- require('luasnip').jump(1) end, {})
+-- map({'i', 'n', 'v'}, '<m-k>', function ()
+-- require('luasnip').jump(-1) end, {})
 -- map('n', '<m-j>', function() require('luasnip').jump(1) end, {})
 -- map('n', '<m-k>', function() require('luasnip').jump(-1) end, {})
 
