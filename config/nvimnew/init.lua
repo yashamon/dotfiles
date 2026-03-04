@@ -46,21 +46,25 @@ require("lazy").setup({
 		},
   opts = {
     snippets = { preset = 'luasnip', score_offset = 0},
-		    -- ensure you have the `snippets` source (enabled by default)
-    sources = {
-            -- Add 'dictionary' to the list
-            default = {'buffer', 'lsp', 'path' },
-            providers = {
-                dictionary = {
-                    module = 'blink-cmp-dictionary',
-                    name = 'Dict',
-                    -- Make sure this is at least 2.
-                    -- 3 is recommended
-                    min_keyword_length = 3,
-                    opts = {
-                        -- options for blink-cmp-dictionary
-                    }
-                },
+  keymap = {
+    preset = "enter",
+
+    -- Tab cycles through items, or falls back if no menu
+    ["<Tab>"] = { "select_next", "fallback" },
+    ["<S-Tab>"] = { "select_prev", "fallback" },
+  },
+
+  completion = {
+    list = {
+      selection = {
+        preselect = true,
+      },
+    },
+  },
+
+  sources = {
+    default = { "lsp", "path", "buffer", "luasnip" },
+  },
 					buffer = {
       name = 'Buffer',
       module = 'blink.cmp.sources.buffer',
