@@ -30,69 +30,64 @@ require("lazy").setup({
   end,
 },
 
-{
+	{
   'saghen/blink.cmp',
   version = '1.*',
+  -- `main` is untested, please open a PR if you've confirmed it works as expected
   dependencies = {
-    { 'L3MON4D3/LuaSnip', version = 'v2.*' },
-    {
-      'Kaiser-Yang/blink-cmp-dictionary',
-      dependencies = { 'nvim-lua/plenary.nvim' }
-    },
-    { "netmute/blink-cmp-ctags" },
-  },
-
-  opts = {
-    -- Snippet engine ON, but snippet *source* will be disabled below
-    snippets = {
-      preset = 'luasnip',
-      score_offset = 40000,
-    },
-
-    keymap = {
-      preset = "super-tab",
-      ["<m-k>"] = { "snippet_backward", "select_prev", "fallback" },
-      ["<m-j>"] = { "snippet_forward", "select_next", "fallback" },
-    },
-
-    sources = {
-      -- Explicit ordering: buffer → lsp → path → dictionary
-      default = { 'buffer', 'lsp', 'path', 'dictionary' },
-      providers = {
-        -- Disable snippet completion items entirely
-      snippets = {
-          enabled = true,
-        },
-
-        buffer = {
-          name = 'Buffer',
-          module = 'blink.cmp.sources.buffer',
-          enabled = true,
-          async = true,
-          min_keyword_length = 3,
-          score_offset = 5000,   -- ensures buffer > lsp
-        },
-
-        lsp = {
-          score_offset = 0,      -- normal priority
-        },
-
-        path = {
-          score_offset = -2000,  -- lower priority
-        },
-
-        dictionary = {
-          module = 'blink-cmp-dictionary',
-          name = 'Dict',
-          min_keyword_length = 3,
-          opts = {},
-          score_offset = -3000,
-        },
+			{'L3MON4D3/LuaSnip', version = 'v2.*'},
+			{
+            'Kaiser-Yang/blink-cmp-dictionary',
+            dependencies = { 'nvim-lua/plenary.nvim' }
       },
+			{
+        "netmute/blink-cmp-ctags",
     },
-  },
-},
+		},
+  opts = {
+    snippets = { preset = 'luasnip', score_offset = 40000},
+    keymap = { preset = "super-tab", ["<m-k>"] = { "snippet_backward", "select_prev", "fallback" },
+				["<m-j>"] = { "snippet_forward", "select_next",  "fallback" },
+			},
+    -- ensure you have the `snippets` source (enabled by default)
+    sources = {
+            -- Add 'dictionary' to the list
+            default = {'buffer', 'lsp', 'path', 'snippets' },
+            providers = {
+                dictionary = {
+                    module = 'blink-cmp-dictionary',
+                    name = 'Dict',
+                    -- Make sure this is at least 2.
+                    -- 3 is recommended
+                    min_keyword_length = 3,
+                    opts = {
+                        -- options for blink-cmp-dictionary
+                    }
+                },
+					buffer = {
+      name = 'Buffer',
+      module = 'blink.cmp.sources.buffer',
+      opts = {}, -- Passed to the source directly, varies by source
+      --- NOTE: All of these options may be functions to get dynamic behavior
+      --- See the type definitions for more information
+      enabled = true, -- Whether or not to enable the provider
+      async = true, -- Whether we should show the completions before this provider returns, without waiting for it
+      timeout_ms = 2000, -- How long to wait for the provider to return before showing completions and treating it as asynchronous
+      transform_items = nil, -- Function to transform the items before they're returned
+      should_show_items = true, -- Whether or not to show the items
+      max_items = nil, -- Maximum number of items to display in the menu
+      min_keyword_length = 3, -- Minimum number of characters in the keyword to trigger the provider
+      -- If this provider returns 0 items, it will fallback to these providers.
+      -- If multiple providers fallback to the same provider, all of the providers must return 0 items for it to fallback
+      fallbacks = {},
+      score_offset = 2000, -- Boost/penalize the score of the items
+      override = nil, -- Override the source's functions
+    },
 
+									}
+        }
+  }
+},
 {
   "jiaoshijie/undotree",
   dependencies = "nvim-lua/plenary.nvim",
@@ -247,7 +242,7 @@ require("lazy").setup({
 {'lukas-reineke/indent-blankline.nvim', event = { "BufRead", "BufNewFile" }},
 {'folke/which-key.nvim', lazy = true},
 {'lambdalisue/nerdfont.vim'},
-{url = "https://codeberg.org/andyg/leap.nvim", lazy = true},
+{'ggandor/leap.nvim', lazy = true},
 {'kyazdani42/nvim-web-devicons', lazy = true},
 {'glacambre/firenvim', build = ":call firenvim#install(0)", lazy = false },
 -- {'neovim/nvim-lspconfig', lazy = true },
