@@ -487,31 +487,10 @@ require('neoclip').setup({
   },
 })
 
-local ls = require("luasnip")
-local cmp = require("blink.cmp")
 
 require("luasnip.loaders.from_vscode").lazy_load()
-require("blink.cmp").setup({
-  keymap = {
-    preset = "enter",
-
-    -- Tab cycles through items, or falls back if no menu
-    ["<Tab>"] = { "select_next", "fallback" },
-    ["<S-Tab>"] = { "select_prev", "fallback" },
-  },
-
-  completion = {
-    list = {
-      selection = {
-        preselect = true,
-      },
-    },
-  },
-
-  sources = {
-    default = { "lsp", "path", "buffer", "luasnip" },
-  },
-})
+local ls = require("luasnip")
+local cmp = require("blink.cmp")
 
 -- Snippet expansion/jump fallback
 vim.keymap.set("i", "<Tab>", function()
