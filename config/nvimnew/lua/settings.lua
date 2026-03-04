@@ -492,6 +492,9 @@ local cmp = require("blink.cmp")
 
 require("luasnip.loaders.from_vscode").lazy_load()
 
+-- Disable Neovim's built-in popupmenu Tab behavior
+vim.keymap.set("i", "<Tab>", "<Tab>", { noremap = true })
+
 require("blink.cmp").setup({
   keymap = {
     preset = "none",
@@ -541,6 +544,7 @@ vim.keymap.set("i", "<S-Tab>", function()
 
   insert_tab()
 end, { silent = true })
+
 
 require("fzf-lua").setup({
   profiles = {
