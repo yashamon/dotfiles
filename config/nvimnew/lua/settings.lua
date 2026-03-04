@@ -491,7 +491,6 @@ local ls = require("luasnip")
 require("blink.cmp").setup({
   keymap = {
     preset = "default",
-
     ["<Tab>"] = {
       function()
         if ls.expand_or_jumpable() then
