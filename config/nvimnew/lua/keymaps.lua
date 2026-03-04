@@ -167,6 +167,7 @@ smap <silent><expr> <C-E> luasnip#choice_active() ? '<Plug>luasnip-next-choice' 
 
 xnoremap <silent> <cr> "1y:silent! let searchTerm = '\V'.substitute(escape(@1, '\/'), "\n", '\\n', "g") <bar> let @/ = searchTerm <bar> echo '/'.@/ <bar> call histadd("search", searchTerm) <bar> highlight CurSearch guifg=white guibg=black <bar> set hls<cr><cr>
 
+
 map <S-C-q> <Esc>:qa!<CR>
 vnoremap < <gv
 vnoremap > >gv
