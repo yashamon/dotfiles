@@ -46,9 +46,9 @@ require("lazy").setup({
 		},
   opts = {
     snippets = { preset = 'luasnip', score_offset = 0},
-    keymap = { preset = "super-tab", ["<m-k>"] = { "snippet_backward", "select_prev", "fallback" },
-				["<m-j>"] = { "snippet_forward", "select_next",  "fallback" },
-			},
+			--  keymap = { preset = "super-tab", ["<m-k>"] = { "snippet_backward", "select_prev", "fallback" },
+			-- 	["<m-j>"] = { "snippet_forward", "select_next",  "fallback" },
+			-- },
     -- ensure you have the `snippets` source (enabled by default)
     sources = {
             -- Add 'dictionary' to the list
@@ -242,7 +242,9 @@ require("lazy").setup({
 {'lukas-reineke/indent-blankline.nvim', event = { "BufRead", "BufNewFile" }},
 {'folke/which-key.nvim', lazy = true},
 {'lambdalisue/nerdfont.vim'},
-{'ggandor/leap.nvim', lazy = true},
+{
+      url = "https://codeberg.org/andyg/leap.nvim",
+},
 {'kyazdani42/nvim-web-devicons', lazy = true},
 {'glacambre/firenvim', build = ":call firenvim#install(0)", lazy = false },
 -- {'neovim/nvim-lspconfig', lazy = true },
