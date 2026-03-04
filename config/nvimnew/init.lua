@@ -59,8 +59,8 @@ keymap = {
   --   -- "select_prev",       -- cycle backward
   --   "fallback",
   -- },
-["m-j"] = {"select_next"},
-["m-k"] = {"select_prev"},
+["<m-k>"] = { "snippet_backward", "select_prev", "fallback" },
+["<m-j>"] = { "snippet_forward", "select_next",  "fallback" }
 ["<CR>"] = {"accept"}
 },
      -- ensure you have the `snippets` source (enabled by default)
