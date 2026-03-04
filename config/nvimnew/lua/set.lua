@@ -74,8 +74,8 @@ vim.cmd [[let g:firenvim_config = {
         \ },
     \ }
 \ }]]
--- vim.cmd [[let g:fzf_layout = { 'window': { 'width': 1, 'height': 1 } }
--- ]]
+vim.cmd [[let g:fzf_layout = { 'window': { 'width': 1, 'height': 1 } }
+]]
 vim.g.fzf_preview_window = { "right:50%", "ctrl-/" }
 vim.cmd [[let $FZF_DEFAULT_OPTS = '--bind ctrl-a:select-all'
 ]]

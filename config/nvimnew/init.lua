@@ -289,7 +289,43 @@ vim.cmd([[colorscheme gruvbox]])
 end,},
 -- {'Shougo/neoyank.vim', dependencies = 'Shougo/denite.nvim'},
 {'junegunn/fzf', lazy = false, build = ":call fzf#install()" },
-{'junegunn/fzf.vim'},
+{
+  "junegunn/fzf.vim",
+  dependencies = {
+    "junegunn/fzf", -- optional if you installed fzf system-wide
+    "nvim-tree/nvim-web-devicons",
+  },
+  config = function()
+    -- Vertical preview on the right, 50% width, toggle with CTRL-/
+    vim.g.fzf_preview_window = { "right:50%", "ctrl-/" }
+
+    -- Use bat for fast syntax-highlighted previews
+    vim.env.FZF_DEFAULT_OPTS = table.concat({
+      "--ansi",
+      "--layout=reverse",
+      "--info=inline",
+      "--preview-window=right:50%",
+      "--bind=ctrl-/:toggle-preview",
+    }, " ")
+
+    -- Use bat as the default previewer for :Files, :Buffers, :Rg, etc.
+    vim.g.fzf_files_options = "--preview 'bat --style=numbers --color=always {}'"
+    vim.g.fzf_buffers_options = "--preview 'bat --style=numbers --color=always {}'"
+    vim.g.fzf_grep_preview = "--preview 'bat --style=numbers --color=always {2}'"
+
+    -- Faster ripgrep integration
+    vim.g.fzf_rg_command = table.concat({
+      "rg",
+      "--hidden",
+      "--glob '!.git'",
+      "--color=always",
+      "--line-number",
+      "--no-heading",
+      "--smart-case",
+    }, " ")
+  end,
+},
+
 -- {'mbbill/undotree', cmd = "UndotreeToggle"},
 {'kevinhwang91/nvim-bqf', lazy = false},
 {
