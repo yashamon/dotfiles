@@ -50,14 +50,14 @@ keymap = {
   preset = "none",
 
   ["<Tab>"] = {
-    "snippet_forward",
-    "select_next_or_first",
-    "fallback",
+    "snippet_forward",   -- expand or jump forward in LuaSnip
+    "select_next",       -- cycle completion items
+    "fallback",          -- literal tab
   },
 
   ["<S-Tab>"] = {
-    "snippet_backward",
-    "select_prev",
+    "snippet_backward",  -- jump backward in LuaSnip
+    "select_prev",       -- cycle backward
     "fallback",
   },
 },
