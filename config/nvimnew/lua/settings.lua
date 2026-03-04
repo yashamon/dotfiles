@@ -497,6 +497,10 @@ require("blink.cmp").setup({
     ["<S-Tab>"] = false,
   },
 })
+vim.keymap.del("i", "<Plug>(blink-cmp-next)")
+vim.keymap.del("i", "<Plug>(blink-cmp-prev)")
+vim.keymap.del("i", "<Plug>(blink-cmp-accept)")
+vim.keymap.del("i", "<Plug>(blink-cmp-cancel)")
 
 vim.keymap.set("i", "<Tab>", function()
   if ls.expand_or_jumpable() then
