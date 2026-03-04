@@ -49,37 +49,17 @@ require("lazy").setup({
 keymap = {
   preset = "none",
 
-  ["<Tab>"] = function(cmp, fallback)
-    local ls = require("luasnip")
+  ["<Tab>"] = {
+    "snippet_forward",   -- expand or jump forward in LuaSnip
+    "select_next",       -- cycle completion items
+    "fallback",          -- literal tab
+  },
 
-    if ls.expand_or_jumpable() then
-      ls.expand_or_jump()
-      return
-    end
-
-    if cmp.is_visible() then
-      cmp.select_next()
-      return
-    end
-
-    fallback()
-  end,
-
-  ["<S-Tab>"] = function(cmp, fallback)
-    local ls = require("luasnip")
-
-    if ls.jumpable(-1) then
-      ls.jump(-1)
-      return
-    end
-
-    if cmp.is_visible() then
-      cmp.select_prev()
-      return
-    end
-
-    fallback()
-  end,
+  ["<S-Tab>"] = {
+    "snippet_backward",  -- jump backward in LuaSnip
+    "select_prev",       -- cycle backward
+    "fallback",
+  },
 },
      -- ensure you have the `snippets` source (enabled by default)
     sources = {
