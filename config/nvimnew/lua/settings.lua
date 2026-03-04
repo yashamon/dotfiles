@@ -494,9 +494,10 @@ require("luasnip.loaders.from_vscode").lazy_load()
 
 require("blink.cmp").setup({
   keymap = {
-    preset = "none",
+    preset = "default",
     ["<Tab>"] = false,
     ["<S-Tab>"] = false,
+    ["<CR>"] = "accept",
   },
   sources = {
     default = { "lsp", "path", "buffer", "luasnip" },
@@ -506,25 +507,17 @@ require("blink.cmp").setup({
 vim.keymap.set("i", "<Tab>", function()
   if ls.expand_or_jumpable() then
     ls.expand_or_jump()
-    return
+  else
+    vim.api.nvim_put({ "\t" }, "c", true, true)
   end
-
-  local entry = cmp.get_selected_entry()
-  if cmp.is_visible() and entry then
-    cmp.accept(entry)
-    return
-  end
-
-  vim.api.nvim_put({ "\t" }, "c", true, true)
 end, { silent = true })
 
 vim.keymap.set("i", "<S-Tab>", function()
   if ls.jumpable(-1) then
     ls.jump(-1)
-    return
+  else
+    vim.api.nvim_put({ "\t" }, "c", true, true)
   end
-
-  vim.api.nvim_put({ "\t" }, "c", true, true)
 end, { silent = true })
 
 require("fzf-lua").setup({
