@@ -46,21 +46,41 @@ require("lazy").setup({
 		},
   opts = {
     snippets = { preset = 'luasnip', score_offset = 0},
-  keymap = {
-    preset = "enter",
+keymap = {
+  preset = "none",
 
-    -- Tab cycles through items, or falls back if no menu
-    ["<Tab>"] = { "select_next", "fallback" },
-    ["<S-Tab>"] = { "select_prev", "fallback" },
-  },
+  ["<Tab>"] = function(cmp, fallback)
+    local ls = require("luasnip")
 
-  completion = {
-    list = {
-      selection = {
-        preselect = true,
-      },
-    },
-  },
+    if ls.expand_or_jumpable() then
+      ls.expand_or_jump()
+      return
+    end
+
+    if cmp.is_visible() then
+      cmp.select_next()
+      return
+    end
+
+    fallback()
+  end,
+
+  ["<S-Tab>"] = function(cmp, fallback)
+    local ls = require("luasnip")
+
+    if ls.jumpable(-1) then
+      ls.jump(-1)
+      return
+    end
+
+    if cmp.is_visible() then
+      cmp.select_prev()
+      return
+    end
+
+    fallback()
+  end,
+},
      -- ensure you have the `snippets` source (enabled by default)
     sources = {
             -- Add 'dictionary' to the list
