@@ -4,6 +4,29 @@ vim.keymap.set({'n', 'v'}, '<leader>lr', vim.lsp.buf.references, { buffer=true }
 map('t', '<m-p>', [[getreg('+')]], {expr = true})
 map('n','m-s', Line, {} )
 map({'i','n'},'<c-Tab>', function() vim.cmd('edit #') end, {} )
+
+local luasnip = require("luasnip")
+local cmp = require("blink.cmp")
+
+vim.keymap.set({ "i", "s" }, "<Tab>", function()
+  if luasnip.expand_or_jumpable() then
+    return "<Plug>luasnip-expand-or-jump"
+  elseif cmp.is_visible() then
+    return "<Plug>(blink-cmp-next)"
+  else
+    return "<Tab>"
+  end
+end, { expr = true, silent = true })
+
+vim.keymap.set({ "i", "s" }, "<S-Tab>", function()
+  if luasnip.jumpable(-1) then
+    return "<Plug>luasnip-jump-prev"
+  elseif cmp.is_visible() then
+    return "<Plug>(blink-cmp-prev)"
+  else
+    return "<S-Tab>"
+  end
+end, { expr = true, silent = true })
 -- map('n','M', function() require("harpoon.mark").add_file() end, {})
 -- map('n','<Tab>', function() require("harpoon.ui").nav_next() end,{})
 -- map('n','<S-Tab>', function() require("harpoon.ui").nav_prev() end, {})
