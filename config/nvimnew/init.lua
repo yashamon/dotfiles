@@ -50,22 +50,15 @@ keymap = {
   preset = "none",
 
   ["<Tab>"] = {
-    "snippet_forward",   -- expand or jump forward in LuaSnip
-    "select_next",       -- cycle completion items
-    "fallback",          -- literal tab
+    "snippet_forward",
+    "select_next_or_first",
+    "fallback",
   },
 
   ["<S-Tab>"] = {
-    "snippet_backward",  -- jump backward in LuaSnip
-    "select_prev",       -- cycle backward
+    "snippet_backward",
+    "select_prev",
     "fallback",
-  },
-},
-completion = {
-  list = {
-    selection = {
-      preselect = true,
-    },
   },
 },
      -- ensure you have the `snippets` source (enabled by default)
