@@ -289,7 +289,7 @@ vim.cmd([[colorscheme gruvbox]])
 end,},
 -- {'Shougo/neoyank.vim', dependencies = 'Shougo/denite.nvim'},
 {'junegunn/fzf', lazy = false, build = ":call fzf#install()" },
-{'junegunn/fzf.vim', lazy = true},
+{'junegunn/fzf.vim'},
 -- {'mbbill/undotree', cmd = "UndotreeToggle"},
 {'kevinhwang91/nvim-bqf', lazy = false},
 {
