@@ -509,11 +509,7 @@ vim.keymap.set("i", "<Tab>", function()
   elseif cmp.is_visible() then
     cmp.accept()
   else
-    vim.api.nvim_feedkeys(
-      vim.api.nvim_replace_termcodes("<Tab>", true, false, true),
-      "i",
-      false
-    )
+    vim.api.nvim_put({ "\t" }, "c", true, true)
   end
 end, { silent = true })
 
@@ -521,11 +517,7 @@ vim.keymap.set("i", "<S-Tab>", function()
   if ls.jumpable(-1) then
     ls.jump(-1)
   else
-    vim.api.nvim_feedkeys(
-      vim.api.nvim_replace_termcodes("<S-Tab>", true, false, true),
-      "i",
-      false
-    )
+    vim.api.nvim_put({ "\t" }, "c", true, true)
   end
 end, { silent = true })
 
