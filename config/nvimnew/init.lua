@@ -61,10 +61,21 @@ require("lazy").setup({
       },
     },
   },
-
-  sources = {
-    default = { "lsp", "path", "buffer", "luasnip" },
-  },
+     -- ensure you have the `snippets` source (enabled by default)
+    sources = {
+            -- Add 'dictionary' to the list
+            default = {'buffer', 'lsp', 'path' },
+            providers = {
+                dictionary = {
+                    module = 'blink-cmp-dictionary',
+                    name = 'Dict',
+                    -- Make sure this is at least 2.
+                    -- 3 is recommended
+                    min_keyword_length = 3,
+                    opts = {
+                        -- options for blink-cmp-dictionary
+                    }
+                },
 					buffer = {
       name = 'Buffer',
       module = 'blink.cmp.sources.buffer',
