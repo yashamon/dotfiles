@@ -49,8 +49,8 @@ require("lazy").setup({
 keymap = {
   preset = "none",
   ["<Tab>"] = {
-    "select_next_or_accept",
-		"snippet_forward",
+    "snippet_forward",   -- expand or jump forward in LuaSnip
+    "select_next_or_accept",       -- cycle completion items
     "fallback",          -- literal tab
   },
 
