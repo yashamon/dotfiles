@@ -59,7 +59,7 @@ keymap = {
     "select_prev",       -- cycle backward
     "fallback",
   },
-				["<CR>"] = "select_and_accept"
+["<CR>"] = "accept"
 },
      -- ensure you have the `snippets` source (enabled by default)
     sources = {
