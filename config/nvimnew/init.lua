@@ -58,11 +58,10 @@ require("lazy").setup({
     sources = {
       -- Explicit ordering: buffer → lsp → path → dictionary
       default = { 'buffer', 'lsp', 'path', 'dictionary' },
-
       providers = {
         -- Disable snippet completion items entirely
-        snippets = {
-          enabled = false,
+      snippets = {
+          enabled = true,
         },
 
         buffer = {
