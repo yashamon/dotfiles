@@ -491,7 +491,6 @@ local ls = require("luasnip")
 local cmp = require("blink.cmp")
 
 require("luasnip.loaders.from_vscode").lazy_load()
-
 require("blink.cmp").setup({
   keymap = {
     preset = "enter",

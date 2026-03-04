@@ -46,12 +46,7 @@ require("lazy").setup({
 		},
   opts = {
     snippets = { preset = 'luasnip', score_offset = 0},
-  keymap = {
-    preset = "enter",
-    ["<Tab>"] = { "select_next", "fallback" },
-    ["<S-Tab>"] = { "select_prev", "fallback" },
-  },
-			     -- ensure you have the `snippets` source (enabled by default)
+		    -- ensure you have the `snippets` source (enabled by default)
     sources = {
             -- Add 'dictionary' to the list
             default = {'buffer', 'lsp', 'path' },
