@@ -486,6 +486,12 @@ require('neoclip').setup({
 	},
   },
 })
+
+require("fzf-lua").setup({
+  profiles = {
+    hide = false,
+  },
+})
 require('lualine').setup {
   options = {
     -- theme = 
