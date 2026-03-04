@@ -59,12 +59,14 @@ keymap = {
     -- "select_prev",       -- cycle backward
     "fallback",
   },
+["m-j"] = "select_next",
+				["m-k"] = "select_prev",
 ["<CR>"] = {"accept"}
 },
      -- ensure you have the `snippets` source (enabled by default)
     sources = {
             -- Add 'dictionary' to the list
-            default = {'buffer', 'lsp', 'path', 'snippets' },
+            default = {'buffer', 'lsp', 'path' },
             providers = {
                 dictionary = {
                     module = 'blink-cmp-dictionary',
