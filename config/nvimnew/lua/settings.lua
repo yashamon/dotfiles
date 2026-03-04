@@ -533,8 +533,12 @@ vim.keymap.set("i", "<Tab>", function()
     return
   end
 
-  insert_tab()
-end, { silent = true })
+  vim.api.nvim_feedkeys(
+    vim.api.nvim_replace_termcodes("<Tab>", true, false, true),
+    "i",
+    true
+  )
+end, { silent = true, noremap = true })
 
 vim.keymap.set("i", "<S-Tab>", function()
   if ls.jumpable(-1) then
