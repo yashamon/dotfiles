@@ -46,9 +46,9 @@ require("lazy").setup({
 		},
   opts = {
     snippets = { preset = 'luasnip', score_offset = 0},
-			--  keymap = { preset = "super-tab", ["<m-k>"] = { "snippet_backward", "select_prev", "fallback" },
-			-- 	["<m-j>"] = { "snippet_forward", "select_next",  "fallback" },
-			-- },
+			 keymap = { preset = "super-tab", ["<m-k>"] = { "snippet_backward", "select_prev", "fallback" },
+				["<m-j>"] = { "snippet_forward", "select_next",  "fallback" },
+			},
     -- ensure you have the `snippets` source (enabled by default)
     sources = {
             -- Add 'dictionary' to the list
@@ -249,7 +249,7 @@ require("lazy").setup({
       },
     })
   end,
-}
+},
 
 {
   'stevearc/oil.nvim',
