@@ -568,10 +568,10 @@ require('lualine').setup {
   inactive_winbar = {},
   extension = {}
 }
-require("luasnip").config.set_config({
-  region_check_events = "InsertEnter,CursorMoved",
-  delete_check_events = "TextChanged,InsertLeave",
-})
+-- require("luasnip").config.set_config({
+--   region_check_events = "InsertEnter,CursorMoved",
+--   delete_check_events = "TextChanged,InsertLeave",
+-- })
 -- require("luasnip").setup{
 -- }
 -- -- luasnip
