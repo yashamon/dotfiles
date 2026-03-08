@@ -503,7 +503,7 @@ vim.keymap.set("i", "<m-j>", function()
     ls.jump()
   end
 end, { silent = true })
-vim.keymap.set("i", "<m-k", function()
+vim.keymap.set("i", "<m-k>", function()
   if ls.jumpable(-1) then
     ls.jump(-1)
   end
