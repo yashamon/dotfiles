@@ -488,9 +488,9 @@ require('neoclip').setup({
 })
 
 
-require("luasnip.loaders.from_vscode").lazy_load()
-local ls = require("luasnip")
-local cmp = require("blink.cmp")
+-- require("luasnip.loaders.from_vscode").lazy_load()
+-- local ls = require("luasnip")
+-- local cmp = require("blink.cmp")
 
 -- Snippet expansion/jump fallback
 vim.keymap.set("i", "<Tab>", function()
