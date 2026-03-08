@@ -498,12 +498,17 @@ vim.keymap.set("i", "<Tab>", function()
     ls.expand_or_jump()
   end
 end, { silent = true })
-
-vim.keymap.set("i", "<S-Tab>", function()
+vim.keymap.set("i", "<m-l>", function()
+  if ls.jumpable() then
+    ls.jump()
+  end
+end, { silent = true })
+vim.keymap.set("i", "<m-h", function()
   if ls.jumpable(-1) then
     ls.jump(-1)
   end
 end, { silent = true })
+
 require("fzf-lua").setup({
   profiles = {
     default = {},   -- override default profile
