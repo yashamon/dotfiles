@@ -511,6 +511,7 @@
     ],
     "description": "Description"
   },
+  
 "proposition": {
     "prefix": ["latprp", "latproposition"],
     "body": [
