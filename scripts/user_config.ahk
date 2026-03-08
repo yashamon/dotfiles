@@ -128,7 +128,7 @@ return
     Run "wt" 
     Return
 #+f::
-    Run lf
+    Run lf -config /path/to/custom/lfrc
     Return
 #n::
     Run nu -c C:\Users\yasha\OneDrive\workspacemodules\dotfiles\scripts\nf.nu, , "Hide" 
