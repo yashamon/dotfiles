@@ -983,7 +983,7 @@
 "raise": {
     "prefix": "r",
     "body": [
-      "^{ $2}$0"
+      "^{ $2} $0"
     ],
     "description": "raise"
   },
