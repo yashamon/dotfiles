@@ -51,13 +51,11 @@ completion = {
       show_on_snippet_jump = false,
     },
   },
-require('blink.cmp').setup({
-  snippet = {
+snippet = {
     expand = function(args)
-      require('mini.snippets').expand(args.body)
+      require('luasnip').lsp_expand(args.body)
     end,
   },
-}),
 keymap = {
   preset = "none",
   -- ["<Tab>"] = {
