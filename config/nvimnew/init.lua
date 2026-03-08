@@ -46,6 +46,18 @@ require("lazy").setup({
 		},
   opts = {
     snippets = { preset = 'luasnip', score_offset = 0},
+completion = {
+    trigger = {
+      show_on_snippet_jump = false,
+    },
+  },
+require('blink.cmp').setup({
+  snippet = {
+    expand = function(args)
+      require('mini.snippets').expand(args.body)
+    end,
+  },
+}),
 keymap = {
   preset = "none",
   -- ["<Tab>"] = {
