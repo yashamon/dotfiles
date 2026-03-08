@@ -70,6 +70,9 @@ keymap = {
   --   "fallback",
   -- },
 ["<m-K>"] = { "select_prev", "fallback" },
+["<m-k>"] = { "snippet_backward"},
+["<m-j>"] = { "snippet_forward"},
+
 ["<m-J>"] = { "select_next", "fallback" },
 ["<CR>"] = {"accept", "fallback"}
 },
