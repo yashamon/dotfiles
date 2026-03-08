@@ -511,14 +511,7 @@
     ],
     "description": "Description"
   },
-  "Math": {
-    "prefix": "m",
-    "body": [
-      "\\$$1\\$$0"
-    ],
-    "description": "Add a Math"
-  },
-
+  
 "proposition": {
     "prefix": ["latprp", "latproposition"],
     "body": [
