@@ -44,8 +44,6 @@ New-Item -ItemType SymbolicLink -Path $HOME/.ctags.d/latex.ctags -Target $dir/ct
 rm -r $config/nushell 
 New-Item -ItemType SymbolicLink -Path $config/nushell -Target $dir/config/nushell
 New-Item -ItemType SymbolicLink -Path "$config/nushell/env.nu" -Target $dir/config/nushell/env.nu
-rm $HOME/scoop/apps/sumatrapdf/current/SumatraPDF-settings.txt 
-New-Item -ItemType SymbolicLink -Path $HOME/scoop/apps/sumatrapdf/current/SumatraPDF-settings.txt -Target $dir/config/sumatra/SumatraPDF-settings.txt
 rm $HOME/textmf/bibtex/bib/link
 mkdir -p $HOME/textmf/bibtex/bib
 
@@ -56,6 +54,29 @@ New-Item -ItemType SymbolicLink -Path "$HOME/AppData/Local/lf/lfrc" -Target "$di
 
 rm "C:/Users/yasha/AppData/Roaming/Microsoft/Windows/Start Menu/Programs/Startup/desktop_switcher2.ahk"
 New-Item -ItemType SymbolicLink -Path 'C:/Users/yasha/AppData/Roaming/Microsoft/Windows/Start Menu/Programs/Startup/desktop_switcher2.ahk' -Target 'C:/Users/yasha/onedrive/workspacemodules/dotfiles/scripts/desktop_switcher2.ahk'
+
+
+$target = "C:\Users\yasha\OneDrive\workspacemodules\dotfiles\config\sumatra\SumatraPDF-settings.txt"
+$scoop  = if ($env:SCOOP) { $env:SCOOP } else { "$env:USERPROFILE\scoop" }
+
+$persistDir = "$scoop\persist\sumatrapdf"
+$link       = "$persistDir\SumatraPDF-settings.txt"
+
+New-Item -ItemType Directory -Force $persistDir | Out-Null
+
+# Backup existing persisted config if it is a real file
+if (Test-Path $link) {
+    $item = Get-Item $link -Force
+
+    if (-not ($item.Attributes -band [IO.FileAttributes]::ReparsePoint)) {
+        Copy-Item $link "$link.backup" -Force
+    }
+
+    Remove-Item $link -Force
+}
+
+# Create persistent symlink from Scoop's persist file to your dotfiles config
+New-Item -ItemType SymbolicLink -Path $link -Target $target
 
 
 git config --global credential.helper store
