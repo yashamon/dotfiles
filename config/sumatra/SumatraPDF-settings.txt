@@ -75,7 +75,7 @@ Shortcuts [
 	]
 	[
 		Cmd = CmdGoToFirstPage
-		Key = gg
+		Key = g
 	]
 	[
 		Cmd = CmdFindPrev
