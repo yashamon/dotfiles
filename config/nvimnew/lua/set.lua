@@ -37,6 +37,7 @@ vim.o.foldenable = true
 -- Using ufo provider need remap `zR` and `zM`. If Neovim is 0.6.1, remap yourself
 vim.keymap.set('n', 'zR', require('ufo').openAllFolds)
 vim.keymap.set('n', 'zM', require('ufo').closeAllFolds)
+
 -- opt.foldmethod='expr'
 -- opt.foldexpr='nvim_treesitter#foldexpr()'
 opt.linebreak = true
@@ -105,4 +106,24 @@ vim.api.nvim_set_hl(0, 'SpellBad', { sp = '#580058', underline = true })
 vim.api.nvim_set_hl(0, 'IndentBlanklineChar', { fg = '#af6000', nocombine = true })
 vim.api.nvim_set_hl(0, 'cursor', { fg = 'black', bg = 'white' })
 vim.opt.syntax = 'off'
+vim.api.nvim_set_hl(0, "SpellBad", {
+  undercurl = true,
+  sp = "white",
+  italic = true,
+})
 
+vim.api.nvim_set_hl(0, "SpellCap", {
+  undercurl = true,
+  sp = "white",
+  italic = true,
+})
+
+vim.api.nvim_set_hl(0, "SpellRare", {
+  undercurl = true,
+  sp = "white",
+})
+
+vim.api.nvim_set_hl(0, "SpellLocal", {
+  undercurl = true,
+  sp = "white",
+})

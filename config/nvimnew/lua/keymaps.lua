@@ -1,32 +1,35 @@
 local map= vim.keymap.set
 local command = vim.api.nvim_create_user_command
 vim.keymap.set({'n', 'v'}, '<leader>lr', vim.lsp.buf.references, { buffer=true })
+vim.keymap.set({ "n", "v" }, ";aa", "<cmd>AvanteToggle<CR>", { noremap = true, silent = true, desc = "Toggle Avante Sidebar" })
 map('t', '<m-p>', [[getreg('+')]], {expr = true})
 map('n','m-s', Line, {} )
 map({'i','n'},'<c-Tab>', function() vim.cmd('edit #') end, {} )
-
-local luasnip = require("luasnip")
-local cmp = require("blink.cmp")
-
-vim.keymap.set({ "i", "s" }, "<Tab>", function()
-  if luasnip.expand_or_jumpable() then
-    return "<Plug>luasnip-expand-or-jump"
-  elseif cmp.is_visible() then
-    return "<Plug>(blink-cmp-next)"
-  else
-    return "<Tab>"
-  end
-end, { expr = true, silent = true })
-
-vim.keymap.set({ "i", "s" }, "<S-Tab>", function()
-  if luasnip.jumpable(-1) then
-    return "<Plug>luasnip-jump-prev"
-  elseif cmp.is_visible() then
-    return "<Plug>(blink-cmp-prev)"
-  else
-    return "<S-Tab>"
-  end
-end, { expr = true, silent = true })
+vim.keymap.set("n", "<leader>e", ToggleQuickFix, {
+  silent = true,
+  desc = "Load build log into quickfix and open fzf-lua",
+})
+-- local luasnip = require("luasnip")
+-- local cmp = require("blink.cmp")
+-- vim.keymap.set({ "i", "s" }, "<Tab>", function()
+--   if luasnip.expand_or_jumpable() then
+--     return "<Plug>luasnip-expand-or-jump"
+--   elseif cmp.is_visible() then
+--     return "<Plug>(blink-cmp-next)"
+--   else
+--     return "<Tab>"
+--   end
+-- end, { expr = true, silent = true })
+--
+-- vim.keymap.set({ "i", "s" }, "<S-Tab>", function()
+--   if luasnip.jumpable(-1) then
+--     return "<Plug>luasnip-jump-prev"
+--   elseif cmp.is_visible() then
+--     return "<Plug>(blink-cmp-prev)"
+--   else
+--     return "<S-Tab>"
+--   end
+-- end, { expr = true, silent = true })
 -- map('n','M', function() require("harpoon.mark").add_file() end, {})
 -- map('n','<Tab>', function() require("harpoon.ui").nav_next() end,{})
 -- map('n','<S-Tab>', function() require("harpoon.ui").nav_prev() end, {})
@@ -50,12 +53,16 @@ vim.keymap.set('n', '<leader>sd', resession.delete)
 
 -- FZF Neoyank 
 
-map({'n'}, '<leader>p', function() vim.cmd('FZFNeoyank +')  end,{})
-map('n', '<leader>P', function()vim.cmd('FZFNeoyank + P') end,{})
-map('n', '<leader>0p', function() vim.cmd('FZFNeoyank 0 p') end,{})
+-- vim.keymap.set({"n","x"}, ";p", "<Plug>(YankyPutAfter)")
+-- vim.keymap.set({"n","x"}, ";P", "<Plug>(YankyPutBefore)")
+-- vim.keymap.set({"n","x"}, "gp", "<Plug>(YankyGPutAfter)")
+-- vim.keymap.set({"n","x"}, "gP", "<Plug>(YankyGPutBefore)")
+-- map({'n'}, '<leader>p', function() vim.cmd('FZFNeoyank +')  end,{})
+-- map('n', '<leader>P', function()vim.cmd('FZFNeoyank + P') end,{})
+-- map('n', '<leader>0p', function() vim.cmd('FZFNeoyank 0 p') end,{})
 -- map('n', '<leader>h', function() vim.cmd('Telescope yank_history') end,{})
-map('v', '<leader>p',  function () vim.cmd('FZFNeoyankSelection +') end, {})
-map({'n'}, ';h', function() vim.cmd('Telescope neoclip')  end,{})
+-- map('v', '<leader>p',  function () vim.cmd('FZFNeoyankSelection +') end, {})
+-- map({'n'}, ';h', function() vim.cmd('Telescope neoclip')  end,{})
 map('n', '<leader>f', function() vim.cmd('up'); Server(); vim.cmd('te lf -config C:/Users/yasha/AppData/local/lf/lfrc'); Feedkey('i','i') end, {})
 map('n', '<leader>lg', function() vim.cmd('up'); Server(); vim.cmd('te lazygit'); Feedkey('i','i') end, {})
 map('n', '<leader>t', function() vim.cmd('up'); Server(); vim.cmd('edit term://nu'); Feedkey('i','i') end, {})
@@ -74,7 +81,7 @@ map('t', '<c-Tab>', function() vim.cmd('edit #') end, {})
 map('n', '<m-t>', function() vim.cmd('up'); vim.cmd('FzfLua btags') end, {})
 -- map('n', 'z=', function() Feedkey('i', 'z=') end)
 -- Telescope
-map('n', '<m-b>', function() vim.cmd('up'); vim.cmd('Buffers') end, {})
+map('n', '<m-b>', function() vim.cmd('up'); vim.cmd('FzfLua buffers') end, {})
 -- map('n', '<m-b>', function()  require('telescope.builtin').buffers({layout_strategy='vertical',layout_config={width=0.9}}) end, {})
 map('n', '<m-i>', function() require('telescope.builtin').git_bcommits({layout_strategy='vertical',layout_config={width=0.9}}) end, {})
 map('n', '<m-u>', function() vim.cmd('cg C:/Users/yasha/_vim_mru_files | copen call feedkeys("zf")') end, {})
@@ -82,7 +89,6 @@ map('n', '<m-f>', function () vim.cmd(':FzfLua files cwd=~/OneDrive/workspacemod
 map('n', '<leader>gs', function() vim.cmd('up | source $MYVIMRC') end, {})
 map({'n', 'v'}, 'q:', '<nop>', {})
 map('n', '<C-c>', function() vim.cmd('set hlsearch!') end, {})
-map('n', '<leader>e', function() vim.cmd('silent call ToggleQuickFix()') end, {})
 map('n', 'g?',  vim.diagnostic.open_float, {})
 -- map('n', 'q',  function() vim.cmd('q') end, {})
 
@@ -105,6 +111,7 @@ map({'n', 'v'}, 'T', 'mj<Plug>(leap-backward)', {})
 map('n','<leader>w', function () vim.cmd('up') end, {})
 map('n','ga', vim.lsp.buf.code_action, {})
 map('n','o', 'o<space><esc>"_s', {})
+vim.keymap.set('n', 'gd', vim.lsp.buf.definition, { buffer = bufnr })
 vim.keymap.set('n', '<leader>i', function() vim.lsp.inlay_hint.enable(not vim.lsp.inlay_hint.is_enabled()) end)
 --quiting
 
@@ -257,7 +264,7 @@ nnoremap <leader>j J
 nnoremap <leader>k K
 noremap ' "
 " nnoremap <Backspace> i<Backspace><Esc>
-noremap <A-r> <C-r>
+noremap <A-r> <C-r> 
 nnoremap ` ~
 nnoremap . `
 noremap <C-o> <Esc><C-o>

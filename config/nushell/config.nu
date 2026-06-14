@@ -25,6 +25,9 @@ def restorelink [] {
 do --ignore-errors {rm link.bib}
 pwsh -nop -c New-Item -ItemType SymbolicLink -Path ./link.bib -Target C:/Users/yasha/onedrive/workspacemodules/bib/link.bib}
 
+def link [source: string, target: string] {
+    pwsh -c $"New-Item -ItemType SymbolicLink -Path ($source) -Target ($target)"
+}
 def uploadGit [name:string] { let key = (keyGH)
 nu $"($HOMED)/workspacemodules/dotfiles/scripts/uploadGit.nu" $name (keyGH) }
 def neo [file?:string] {

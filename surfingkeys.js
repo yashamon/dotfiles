@@ -1,39 +1,30 @@
-// an example to create a new mapping `ctrl-y`
+// An example to create a new mapping `ctrl-y`
 api.mapkey('<ctrl-y>', 'Show me the money', function() {
     api.Front.showPopup('a well-known phrase uttered by characters in the 1996 film Jerry Maguire (Escape to close).');
 });
+
 api.RUNTIME('updateSettings', {settings: {"noPdfViewer": 1}});
-// an example to replace `T` with `gt`, click `Default mappings` to see how `T` works.
+
+// An example to replace `T` with `gt`
 api.mapkey('T', 'Search tabs with keyword', function() {
-  api.Front.openOmnibar({ type: 'Tabs' });
+    api.Front.openOmnibar({ type: 'Tabs' });
 });
-api.unmap('H')
-api.unmap('L')
+
+// Tab navigation remapping
+api.unmap('H');
+api.unmap('L');
 api.map('H', 'E'); 
 api.map('L', 'R'); 
-api.unmap('t')
+
+// Hint mode remapping
+api.unmap('t');
 api.map('t', 'f'); 
 
-// Unmap the default 'E' key
+// Make '.' the go-to mark command
+api.map('.', "'");
 
-// api.mapkey('H', 'Go to previous tab', function() {
-//     RUNTIME('nextTab', {step: -1});
-// });
-//mapkey('L', 'Go to next tab', function() {
- //   RUNTIME('nextTab', {step: 1});
-//});
-
-
-
-
-// Remap to a new key, e.g., 'm' for "marks"
-
-
-
-
-
-// set theme
-settings.theme = `
+// Set theme (updated to api.settings for v1.18.0)
+api.settings.theme = `
 .sk_theme {
     font-family: Input Sans Condensed, Charcoal, sans-serif;
     font-size: 10pt;
@@ -70,4 +61,3 @@ settings.theme = `
 #sk_status, #sk_find {
     font-size: 20pt;
 }`;
-// click `Save` button to make above settings to take effect.</ctrl-i></ctrl-y>

@@ -1,7 +1,9 @@
-def main [file?:string] {
-# let execute =  $"C:/Users/yasha/neovim/build/bin/nvim.exe ($file)"
-let execute =  $"C:/Users/yasha/scoop/apps/neovide/current/neovide.exe --maximized --no-vsync --no-idle ($file)"
-nu -c $execute
-# nu -c "neovide --maximized --no-vsync --no-idle --neovim-bin ~/neovim/build/bin/nvim"
-}
+def main [file?: string] {
+    let neovide = "C:/Users/yasha/scoop/apps/neovide/current/neovide.exe"
 
+    if ($file | is-empty) {
+        run-external $neovide "--maximized" "--no-vsync" "--no-idle"
+    } else {
+        run-external $neovide "--maximized" "--no-vsync" "--no-idle" $file
+    }
+}

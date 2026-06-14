@@ -45,7 +45,7 @@ rm -r $config/nushell
 New-Item -ItemType SymbolicLink -Path $config/nushell -Target $dir/config/nushell
 New-Item -ItemType SymbolicLink -Path "$config/nushell/env.nu" -Target $dir/config/nushell/env.nu
 rm $HOME/scoop/apps/sumatrapdf/current/SumatraPDF-settings.txt 
-nu -c "~\scoop\apps\sudo\current\sudo.ps1 ln -s $dir/config/sumatra/SumatraPDF-settings.txt $HOME/scoop/apps/sumatrapdf/current/SumatraPDF-settings.txt"
+New-Item -ItemType SymbolicLink -Path $HOME/scoop/apps/sumatrapdf/current/SumatraPDF-settings.txt -Target $dir/config/sumatra/SumatraPDF-settings.txt
 rm $HOME/textmf/bibtex/bib/link
 mkdir -p $HOME/textmf/bibtex/bib
 
@@ -54,8 +54,8 @@ New-Item -ItemType SymbolicLink -Path "$HOME/AppData/Local/nvim" -Target "$dir/c
 rm $HOME/AppData/Local/lf/lfrc 
 New-Item -ItemType SymbolicLink -Path "$HOME/AppData/Local/lf/lfrc" -Target "$dir/config/lf/lfrc"
 
-rm "C:/Users/yasha/AppData/Roaming/Microsoft/Windows/Start Menu/Programs/Startup/desktop_switcher.ahk"
-New-Item -ItemType SymbolicLink -Path 'C:/Users/yasha/AppData/Roaming/Microsoft/Windows/Start Menu/Programs/Startup/desktop_switcher.ahk' -Target 'C:/Users/yasha/onedrive/workspacemodules/dotfiles/scripts/desktop_switcher.ahk'
+rm "C:/Users/yasha/AppData/Roaming/Microsoft/Windows/Start Menu/Programs/Startup/desktop_switcher2.ahk"
+New-Item -ItemType SymbolicLink -Path 'C:/Users/yasha/AppData/Roaming/Microsoft/Windows/Start Menu/Programs/Startup/desktop_switcher2.ahk' -Target 'C:/Users/yasha/onedrive/workspacemodules/dotfiles/scripts/desktop_switcher2.ahk'
 
 
 git config --global credential.helper store

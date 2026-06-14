@@ -338,8 +338,12 @@ t({'i('}), i(1,"n"), t({",\"\")"})
 },
 })
 function Is_math()
-    return vim.api.nvim_eval('vimtex#syntax#in_mathzone()') == 1
+    return true
 end
+
+-- function Is_math()
+--     return vim.api.nvim_eval('vimtex#syntax#in_mathzone()') == 1
+-- end
 -- ls.add_snippets = {
 --   tex = {
 --     s("neq", {
@@ -364,9 +368,30 @@ ls.add_snippets("tex", {
 	}, {condition = Is_math}),
 })
 ls.add_snippets("tex", {
-	s("test", {
-		t({"\\footnote{"}), i(1, ""), t({"}"}),
-	}, { condition = not Is_math }),
+	s("ms", {
+		t({"$"}),
+		i("1",""),
+	}, {}),
+})
+ls.add_snippets("tex", {
+	s("star", {
+		t({"*"}),
+		i("1",""),
+	}, {}),
+})
+ls.add_snippets("tex", {
+	s("st", {
+		t({"such that "}),
+		i("1",""),
+	}, {}),
+})
+
+
+ls.add_snippets("tex", {
+	s("til", {
+		t({"~"}),
+		i("1",""),
+	}, {}),
 })
 
 
@@ -435,9 +460,10 @@ ls.add_snippets("tex", {
 		t({"\\forall "}), i(1,""), t({" \\in "}), i(2,""), t({"\\;"}), i(0,"")
 	}, { condition = Is_math }),
 })
+-- math symbol
 ls.add_snippets("tex", {
 	s("m", {
-		t({"$ "}), i(1,""), t({"$"}), i(0,"")
+		t({"$" }), i(1,""), t({"$ "}), i(0,"")
 	}, {}),
 })
 
@@ -562,6 +588,43 @@ ls.add_snippets("tex", {
 ls.add_snippets("tex", {
 	-- rec_ls is self-referencing. That makes this snippet 'infinite' eg. have as many
 	-- \item as necessary by utilizing a choiceNode.
+	s("wh", {
+		t({"\\widehat{"}), i(1, ""), t({"}"}),
+		i("1",""),
+	}, { condition = Is_math }),
+})
+ls.add_snippets("tex", {
+	-- rec_ls is self-referencing. That makes this snippet 'infinite' eg. have as many
+	-- \item as necessary by utilizing a choiceNode.
+	s("visavis", {
+		t({"vis-à-vis"}), i(1, ""),
+	}, { condition = Is_math }),
+})
+ls.add_snippets("tex", {
+	-- rec_ls is self-referencing. That makes this snippet 'infinite' eg. have as many
+	-- \item as necessary by utilizing a choiceNode.
+	s("arzela", {
+		t({"Arzelà-Ascoli"}), i(1, ""),
+	}),
+})
+ls.add_snippets("tex", {
+	-- rec_ls is self-referencing. That makes this snippet 'infinite' eg. have as many
+	-- \item as necessary by utilizing a choiceNode.
+	s("lio", {
+		t({"Liouville"}), i(1, ""),
+	}),
+})
+ls.add_snippets("tex", {
+	-- rec_ls is self-referencing. That makes this snippet 'infinite' eg. have as many
+	-- \item as necessary by utilizing a choiceNode.
+	s("ell", {
+		t({"\\ell"}), i(1, ""),
+	}),
+})
+
+ls.add_snippets("tex", {
+	-- rec_ls is self-referencing. That makes this snippet 'infinite' eg. have as many
+	-- \item as necessary by utilizing a choiceNode.
 	s("leq", {
 		t({"\\leq "}), i(1, ""),
 	}, { condition = Is_math }),
@@ -570,9 +633,9 @@ ls.add_snippets("tex", {
 	-- rec_ls is self-referencing. That makes this snippet 'infinite' eg. have as many
 	-- \item as necessary by utilizing a choiceNode.
 	s("cite", {
-		t({"\\cite{"}), i(1, ""), t({"}"}),
+		t({"~\\cite{"}), i(1, ""), t({"} "}),
 			i("1",""),
-	}, { condition = Is_math }),
+	}, {}),
 })
 
 ls.add_snippets("tex", {
@@ -589,7 +652,7 @@ ls.add_snippets("tex", {
 	-- \item as necessary by utilizing a choiceNode.
 	s("over", {
 		t({"\\overline{"}), i(1, ""), t({"}"}),
-		i("1",""),
+		i("-",""),
 	}, { condition = Is_math }),
 })
 
@@ -597,8 +660,8 @@ ls.add_snippets("tex", {
 	-- rec_ls is self-referencing. That makes this snippet 'infinite' eg. have as many
 	-- \item as necessary by utilizing a choiceNode.
 	s("bul", {
-		t({"\\bullet "}), i("1",""),
-	}, { condition = Is_math }),
+		t({"\\bullet "}), i("0",""),
+	}, { }),
 })
 
 
@@ -1039,7 +1102,7 @@ t({"","\\end{abstract}"}),
 t({"","\\maketitle"}),
 t({"","\\section{Introduction}"}),
 t({""}), i(3, ""),
-t({"","\\bibliographystyle{siam}"}),
+t({"","\\bibliographystyle{abbrvurl}"}),
 t({"","\\bibliography{C:/Users/yasha/texmf/bibtex/bib/link}"}),
 t({"","%  \bibliography{/root/texmf/bibtex/bib/link}"}),
 t({"","% \bibliography{/home/yashasavelyev/texmf/bibtex/bib/link}"}),

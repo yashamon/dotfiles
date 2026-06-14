@@ -16,102 +16,170 @@ if not (vim.uv or vim.loop).fs_stat(lazypath) then
 vim.opt.rtp:append(lazypath)
 require("lazy").setup({
 {
-  "Robitx/gp.nvim",
+  "sainnhe/everforest",
+  lazy = false,
+  priority = 1000,
   config = function()
-    require("gp").setup({
-      providers = {
-       copilot = {
-			endpoint = "https://api.githubcopilot.com/chat/completions",
-      secret = os.getenv("GITHUB_COPILOT_TOKEN"),
-		},
-      },
-      default_provider = "copilot",
-    })
+    vim.o.background = "light"
+
+    vim.g.everforest_background = "hard"
+    vim.g.everforest_enable_bold = 1
+    vim.g.everforest_enable_italic = 0
+    vim.g.everforest_better_performance = 1
+
+    vim.cmd.colorscheme("everforest")
   end,
 },
-
 	{
-  'saghen/blink.cmp',
-  version = '1.*',
-  -- `main` is untested, please open a PR if you've confirmed it works as expected
-  dependencies = {
-			{'L3MON4D3/LuaSnip', version = 'v2.*'},
-			{
-            'Kaiser-Yang/blink-cmp-dictionary',
-            dependencies = { 'nvim-lua/plenary.nvim' }
-      },
-			{
-        "netmute/blink-cmp-ctags",
-    },
-		},
-  opts = {
-    snippets = { preset = 'luasnip', score_offset = 0},
-completion = {
-    trigger = {
-      show_on_snippet_jump = false,
-    },
-  },
-snippet = {
-    expand = function(args)
-      require('luasnip').lsp_expand(args.body)
-    end,
-  },
-keymap = {
-  preset = "none",
-  -- ["<Tab>"] = {
-  --   "snippet_forward",   -- expand or jump forward in LuaSnip
-  --   -- "select_next",       -- cycle completion items
-  --   "fallback",          -- literal tab
-  -- },
-  --
-  -- ["<S-Tab>"] = {
-  --   "snippet_backward",  -- jump backward in LuaSnip
-  --   -- "select_prev",       -- cycle backward
-  --   "fallback",
-  -- },
-["<m-K>"] = { "select_prev", "fallback" },
-["<m-k>"] = { "snippet_backward"},
-["<m-j>"] = { "snippet_forward"},
-["<m-J>"] = { "select_next", "fallback" },
-["<CR>"] = {"accept", "fallback"}
-},
-     -- ensure you have the `snippets` source (enabled by default)
-    sources = {
-            -- Add 'dictionary' to the list
-            default = {'buffer', 'lsp', 'path', 'snippets' },
-            providers = {
-                dictionary = {
-                    module = 'blink-cmp-dictionary',
-                    name = 'Dict',
-                    -- Make sure this is at least 2.
-                    -- 3 is recommended
-                    min_keyword_length = 3,
-                    opts = {
-                        -- options for blink-cmp-dictionary
-                    }
-                },
-					buffer = {
-      name = 'Buffer',
-      module = 'blink.cmp.sources.buffer',
-      opts = {}, -- Passed to the source directly, varies by source
-      --- NOTE: All of these options may be functions to get dynamic behavior
-      --- See the type definitions for more information
-      enabled = true, -- Whether or not to enable the provider
-      async = true, -- Whether we should show the completions before this provider returns, without waiting for it
-      timeout_ms = 2000, -- How long to wait for the provider to return before showing completions and treating it as asynchronous
-      transform_items = nil, -- Function to transform the items before they're returned
-      should_show_items = true, -- Whether or not to show the items
-      max_items = nil, -- Maximum number of items to display in the menu
-      min_keyword_length = 3, -- Minimum number of characters in the keyword to trigger the provider
-      -- If this provider returns 0 items, it will fallback to these providers.
-      -- If multiple providers fallback to the same provider, all of the providers must return 0 items for it to fallback
-      fallbacks = {},
-      score_offset = 2000, -- Boost/penalize the score of the items
-      override = nil, -- Override the source's functions
-    },
+  "sainnhe/gruvbox-material",
+  lazy = false,
+  priority = 1000,
+  config = function()
+    vim.o.background = "light"
 
-									}
-        }
+    vim.g.gruvbox_material_background = "hard"
+    vim.g.gruvbox_material_foreground = "material"
+    vim.g.gruvbox_material_enable_bold = 1
+    vim.g.gruvbox_material_enable_italic = 0
+    vim.g.gruvbox_material_better_performance = 1
+
+    vim.cmd.colorscheme("gruvbox-material")
+  end,
+},
+	{
+  "yetone/avante.nvim",
+  event = "VeryLazy",
+  lazy = false,
+  version = false, 
+  
+  build = vim.fn.has("win32") == 1 
+    and "powershell -ExecutionPolicy Bypass -File Build.ps1 -BuildFromSource false" 
+    or "make", 
+    
+  keys = {
+    { ";aa", "<cmd>AvanteToggle<CR>", desc = "Toggle AI Chat Sidebar", mode = { "n", "v" } },
+    { ";ae", "<cmd>AvanteEdit<CR>", desc = "Edit Visual Selection Inline", mode = "v" },
+  },
+  
+  dependencies = {
+    "nvim-treesitter/nvim-treesitter",
+    "stevearc/dressing.nvim",
+    "nvim-lua/plenary.nvim",
+    "MunifTanjim/nui.nvim",
+    "nvim-tree/nvim-web-devicons", 
+    {
+      "MeanderingProgrammer/render-markdown.nvim",
+      opts = { file_types = { "markdown", "Avante" } },
+      ft = { "markdown", "Avante" },
+    },
+  },
+  
+  -- FIXED: Read the key from a local file instead of hardcoding or using system envs
+  init = function()
+    -- Define the path to your file (update this if you put it somewhere else)
+    local key_path = vim.fn.expand("~/.gemini_key.txt")
+    
+    -- Check if the file actually exists
+    if vim.fn.filereadable(key_path) == 1 then
+      -- Read the first line of the file and trim any invisible whitespace/newlines
+      local raw_key = vim.fn.readfile(key_path)[1]:gsub("^%s*(.-)%s*$", "%1")
+      
+      -- Load it exclusively into Neovim's local session memory
+      vim.env.GEMINI_API_KEY = raw_key
+    else
+      -- Pop a warning if you delete or move the file by accident
+      vim.notify("Avante: Could not find Gemini key file at " .. key_path, vim.log.levels.WARN)
+    end
+  end,
+
+  opts = {
+    provider = "gemini",
+    providers = {
+      gemini = {
+        model = "gemini-2.5-flash",
+        max_tokens = 4096,
+        temperature = 0,
+      },
+    },
+    behaviour = {
+      auto_suggestions = false,
+    },
+    -- FIXED: Strictly prevent Avante from inhaling heavy directories and crashing token counts
+    file_selector = {
+      provider = "native", -- Uses native fast string matching
+      provider_opts = {
+        -- Add patterns for folders you never want the AI to index
+        ignored_patterns = {
+          "%.git/",
+          "node_modules/",
+          "target/",      -- Rust builds
+          "build/",       -- C++ / JS builds
+          "dist/",        -- Production bundles
+          "venv/",        -- Python virtual environments
+          "%.env",        -- Keep secret keys out of the AI prompt entirely
+          "%.meta",       -- Unity metadata files
+        },
+      },
+    },
+  },
+	},
+{
+  'saghen/blink.cmp',
+  version = '1.*', 
+  build = 'cargo build --release',
+  
+  dependencies = {
+    { 'L3MON4D3/LuaSnip', version = 'v2.*' },
+    { 'Kaiser-Yang/blink-cmp-dictionary' },
+    { "netmute/blink-cmp-ctags" },
+  },
+  
+  opts = {
+    -- Explicitly tell blink to use the local Rust binary to silence the warning
+    fuzzy = { implementation = "prefer_rust" },
+
+    snippets = { preset = 'luasnip', score_offset = 0 },
+    keymap = {
+      preset = "none",
+      ["<m-k>"] = { "select_prev", "fallback" },
+      ["<m-h>"] = { "snippet_backward" },
+      ["<m-l>"] = { "snippet_forward" },
+      ["<m-j>"] = { "select_next", "fallback" },
+      ["<CR>"]  = { "accept", "fallback" }
+    },
+    
+    sources = {
+      default = { 'buffer', 'lsp', 'path', 'snippets' },
+      providers = {
+        dictionary = {
+          module = "blink-cmp-dictionary",
+          enabled = false,
+          name = "Dict",
+          min_keyword_length = 3,
+          opts = {
+            dictionary_files = {
+              vim.fn.expand("~/nvimnew/dict/words.txt"),
+            },
+            get_command = "rg",
+          },
+        },
+        buffer = {
+          name = 'Buffer',
+          module = 'blink.cmp.sources.buffer',
+          opts = {}, 
+          enabled = true,
+          async = true,
+          timeout_ms = 2000,
+          transform_items = nil,
+          should_show_items = true,
+          max_items = nil,
+          min_keyword_length = 3,
+          fallbacks = {},
+          score_offset = 2000,
+          override = nil,
+        },
+      }
+    }
   }
 },
 {
@@ -122,28 +190,33 @@ keymap = {
     { "<leader>u", "<cmd>lua require('undotree').toggle()<cr>" },
   },
 },
--- {
---     "lmburns/lf.nvim",
---     config = function()
---         -- This feature will not work if the plugin is lazy-loaded
---         vim.g.lf_netrw = 1
---
---         require("lf").setup({
---             escape_quit = false,
---             border = "rounded",
---         })
---
---         vim.keymap.set("n", "<M-o>", "<Cmd>Lf<CR>")
---         vim.api.nvim_create_autocmd({
---             event = "User",
---             pattern = "LfTermEnter",
---             callback = function(a)
---                 vim.api.nvim_buf_set_keymap(a.buf, "t", "q", "q", {nowait = true})
---             end,
---         })
---     end,
---     requires = {"toggleterm.nvim"}
--- },
+{
+  "lmburns/lf.nvim",
+  dependencies = { 
+    "akinsho/toggleterm.nvim",
+  },
+  config = function()
+    -- Optional: If you want lf to completely replace netrw (Neovim's default explorer)
+    vim.g.lf_netrw = 1
+    
+    require("lf").setup({
+      escape_quit = false, -- So hitting <Esc> doesn't accidentally close the window
+      border = "rounded",
+      
+      -- Default actions when you select a file in lf
+      default_action = "drop", 
+      default_actions = {
+        ["<C-t>"] = "tabedit",
+        ["<C-x>"] = "split",
+        ["<C-v>"] = "vsplit",
+      },
+    })
+  end,
+  keys = {
+    -- Map your preferred keybind to toggle the lf window
+    { ";lf", "<cmd>Lf<cr>", desc = "Open lf file manager" },
+  },
+},
 -- {
 --   'tim-harding/neophyte',
 --   tag = '0.3.0',
@@ -178,8 +251,100 @@ keymap = {
 --     config = function()
 --         require("inlay-hints").setup()
 --     end,
-{'stevearc/resession.nvim'},
 {
+  "stevearc/resession.nvim",
+  lazy = false,
+  config = function()
+    local resession = require("resession")
+
+    resession.setup({})
+
+    local session_name = "last"
+    local session_dir = "lastsession"
+
+    local group = vim.api.nvim_create_augroup("LastResession", {
+      clear = true,
+    })
+
+    local function should_load_session()
+      -- Only restore when nvim was opened with no file arguments.
+      return vim.fn.argc(-1) == 0 and not vim.g.using_stdin
+    end
+
+    vim.api.nvim_create_autocmd("StdinReadPre", {
+      group = group,
+      callback = function()
+        vim.g.using_stdin = true
+      end,
+    })
+
+    vim.api.nvim_create_autocmd("VimEnter", {
+      group = group,
+      nested = true,
+      once = true,
+      callback = function()
+        if not should_load_session() then
+          return
+        end
+
+        -- Schedule it so other startup/plugin nonsense has settled.
+        vim.schedule(function()
+          local ok, err = pcall(function()
+            resession.load(session_name, {
+              dir = session_dir,
+              silence_errors = true,
+              reset = true,
+            })
+          end)
+
+          if not ok then
+            vim.notify(
+              "Failed to load last session: " .. tostring(err),
+              vim.log.levels.ERROR
+            )
+          end
+        end)
+      end,
+    })
+
+    vim.api.nvim_create_autocmd("VimLeavePre", {
+      group = group,
+      callback = function()
+        local ok, err = pcall(function()
+          resession.save(session_name, {
+            dir = session_dir,
+            notify = false,
+            attach = false,
+          })
+        end)
+
+        if not ok then
+          vim.notify(
+            "Failed to save last session: " .. tostring(err),
+            vim.log.levels.ERROR
+          )
+        end
+      end,
+    })
+
+    vim.api.nvim_create_user_command("SaveLastSession", function()
+      resession.save(session_name, {
+        dir = session_dir,
+        notify = true,
+        attach = false,
+      })
+    end, {})
+
+    vim.api.nvim_create_user_command("LoadLastSession", function()
+      resession.load(session_name, {
+        dir = session_dir,
+        reset = true,
+        silence_errors = false,
+      })
+    end, {})
+  end,
+},
+	{
   "esmuellert/codediff.nvim",
   dependencies = { "MunifTanjim/nui.nvim" },
   cmd = "CodeDiff",
@@ -192,28 +357,28 @@ keymap = {
 --     end,
 --     dependencies = { "vim-denops/denops.vim" },
 -- },
-{
-  "AckslD/nvim-neoclip.lua",
-  dependencies = {
-    -- you'll need at least one of these
-    -- {'nvim-telescope/telescope.nvim'},
-    {'ibhagwan/fzf-lua'},
-  },
-  config = function()
-    require('neoclip').setup()
-  end,
-},
-{
-  "lervag/vimtex",
-	syntax = true,
-  lazy = false,     -- we don't want to lazy load VimTeX
-  -- tag = "v2.15", -- uncomment to pin to a specific release
-  init = function()
-    -- VimTeX configuration goes here, e.g.
-    -- vim.g.vimtex_view_method = "sumatrapdf"
-		vim.g.vimtex_compiler_enabled = 'false'
-  end
-},
+-- {
+--   "AckslD/nvim-neoclip.lua",
+--   dependencies = {
+--     -- you'll need at least one of these
+--     -- {'nvim-telescope/telescope.nvim'},
+--     {'ibhagwan/fzf-lua'},
+--   },
+--   config = function()
+--     require('neoclip').setup()
+--   end,
+-- },
+-- {
+--   "lervag/vimtex",
+-- 	syntax = true,
+--   lazy = false,     -- we don't want to lazy load VimTeX
+--   -- tag = "v2.15", -- uncomment to pin to a specific release
+--   init = function()
+--     -- VimTeX configuration goes here, e.g.
+--     -- vim.g.vimtex_view_method = "sumatrapdf"
+-- 		vim.g.vimtex_compiler_enabled = 'false'
+--   end
+-- },
 {
   "ibhagwan/fzf-lua",
   dependencies = { "nvim-tree/nvim-web-devicons" },
@@ -289,7 +454,25 @@ keymap = {
   lazy = false,
 },
 {'kevinhwang91/nvim-ufo', dependencies = 'kevinhwang91/promise-async', lazy = true},
-{'gbprod/yanky.nvim', lazy = true},
+{
+  "gbprod/yanky.nvim",
+  dependencies = {
+    "nvim-telescope/telescope.nvim",
+  },
+  config = function()
+    require("yanky").setup({})
+    -- Register the extension with Telescope
+    require("telescope").load_extension("yank_history")
+  end,
+  keys = {
+    { ";p", "<cmd>Telescope yank_history<cr>", mode = { "n", "x" }, desc = "Fuzzy find yank history" },
+    
+    -- Standard yanky core keymaps
+    { "y", "<Plug>(YankyYank)", mode = { "n", "x" }, desc = "Yank text" },
+    { "p", "<Plug>(YankyPutAfter)", mode = { "n", "x" }, desc = "Put yanked text after cursor" },
+    { "P", "<Plug>(YankyPutBefore)", mode = { "n", "x" }, desc = "Put yanked text before cursor" },
+  },
+},
 -- {'ThePrimeagen/harpoon', dependencies = "nvim-lua/plenary.nvim"},
 -- {'jose-elias-alvarez/null-ls.nvim', dependencies = "nvim-lua/plenary.nvim" },
 -- {'nvim-telescope/telescope-fzf-native.nvim', lazy = true},
@@ -369,8 +552,7 @@ end,},
 -- {'Shougo/neoyank.vim', dependencies = 'Shougo/denite.nvim'},
 {'junegunn/fzf', lazy = false, build = ":call fzf#install()" },
 {'junegunn/fzf.vim'},
--- {'mbbill/undotree', cmd = "UndotreeToggle"},
-{'kevinhwang91/nvim-bqf', lazy = false},
+-- {'kevinhwang91/nvim-bqf', lazy = false},
 {
     'nvim-telescope/telescope.nvim',
       dependencies = { 'nvim-lua/plenary.nvim' }
@@ -443,38 +625,6 @@ vim.lsp.enable({
 	-- "nuls",
 	-- "jsonls"
 })
--- require('mini.indentscope').setup()
--- require('mini.trailspace').setup()
--- require('mini.pairs').setup()
--- require("telescope").load_extension("yank_history")
--- require('flare').setup {
---   enabled = true, -- disable highlighting
---   hl_group = "IncSearch", -- set highlight group used for highlight
---   x_threshold = 10, -- column changes greater than this number trigger highlight
---   y_threshold = 1,  -- row changes greater than this number trigger highlight
---   expanse = 10,  -- highlight will expand to the left and right of cursor up to this amount (depending on space available)
---   file_ignore = { -- suppress highlighting for files of this type
---     "NvimTree",
---     "fugitive",
---     "TelescopePrompt",
---     "TelescopeResult",
---   },
---   fade = true, -- if false will flash highlight for entire area similar to 'vim.highlight.on_yank'
---   underline = false, -- if true will use more subtle underline highlight. Underline highlight can also be accomplished by setting hl_group
---   timeout = 150, -- timeout delay
--- }
--- require('beacon').setup({
--- 	enable = true,
--- 	size = 1,
--- 	fade = true,
--- 	minimal_jump = 1,
--- 	show_jumps = true,
--- 	focus_gained = false,
--- 	shrink = true,
--- 	timeout = 500,
--- 	ignore_buffers = {},
--- 	ignore_filetypes = {},
--- })
 vim.cmd([[
 " let $VIMRUNTIME = "C:/Users/yasha/executable/share/nvim/runtime"
 " Autocommands, au
@@ -519,7 +669,7 @@ command! LTo LspStop ltex
 
 
 
-"Functions
+"Vim Functions
 
 function Bluemoon()
    set background=dark
@@ -554,254 +704,10 @@ profile start profile.log
 profile func *
 profile file *
 endfunction
-function ToggleQuickFix()
-      if empty(filter(getwininfo(), 'v:val.quickfix'))
-      exec "up"
-        let b:filenamedir=expand('%:p:h')
-        echo b:filenamedir
-        let b:filename=expand('%:t:r')
-        let b:errors=b:filenamedir . "/build/" . b:filename .".log"
-        exec "cg" b:errors
-        copen
-        lua <<EOF
-        if vim.w.bqf_enabled then
-    local winid = vim.api.nvim_get_current_win()
-    vim.schedule(function()
-        vim.api.nvim_win_call(winid, function()
-            vim.api.nvim_feedkeys('zfl.', 'im', false)
-						-- Feedkey('zfl.<esc>', 'i')
-
-        end)
-    end)
-end
-EOF
-        endif
-endfunction
-nnoremap <leader>e :silent call ToggleQuickFix()<CR>
 function! ClearLatex()
   silent !rm ./build/*
 endfunction
-
-" function! CompileLatex()
-"   " silent call ClearLatex()
-" 	up
-"   let buf=bufname()
-"   silent te pwsh -nop -c latexmk -pvc -halt-on-error -synctex=1 -file-line-error -f %
-"   silent execute "buffer" buf
-"   call ViewPdf()
-"   call feedkeys("\<cr>")
-" endfunction
-"
-" function! ViewPdf()
-" up
-" let buf=bufname()
-" lua Server()
-" let linenumber=line(".")
-" let colnumber=col(".")
-" let b:filenamedir=expand('%:p:h')
-" let filenametex=expand('%:p:t')
-" let filenametexwhole=expand('%:p')
-" let filenameroot=expand('%:t:r')
-" " let filenamePDF=filename[:-4]."pdf"
-" let filenamePDFLinux=b:filenamedir . "/buildback/" . filenameroot . ".pdf"
-" let b:filenamePDFWindows="build/" . filenameroot . ".pdf"
-" " echo b:filenamePDFWindows
-" let execstrLinux="silent te zathura --synctex-forward " . linenumber . ":" . colnumber . ":" . filenametexwhole . " " . filenamePDFLinux
-" let execstrWindowsTectonic="call jobstart(\"pwsh -nop -c tectonic " . filenametex . " --outdir build --synctex --keep-logs \")"
-" let execstrViewerSio="silent te pwsh -nop -c C:/Users/yasha/scoop/apps/sioyek/current/sioyek --forward-search-file " . filenametex . " --forward-search-line " . linenumber 
-" let execstrViewer="call jobstart(\"C:/Users/yasha/scoop/shims/sumatrapdf.EXE -reuse-instance " . b:filenamePDFWindows . " -forward-search " . filenametex . " " . linenumber . "\")"
-" let execstrWindows2="silent te pwsh -nop -c C:/Users/yasha/scoop/shims/sumatrapdf.EXE -reuse-instance " . b:filenamePDFWindows . " -forward-search " . filenametex . " " . linenumber
-" let execstrWindows1="silent te pwsh -nop -c latexmk  -synctex=1 -file-line-error -f -interaction=nonstopmode " . filenametex  
-" silent te nu -c "mkdir build"
-" silent exec execstrWindowsTectonic 
-" silent exec execstrViewer
-" silent execute "buffer" buf
-" endfunction
 ]])
 
- -- " multiple indentation/deindentation in visual mode
- -- vnoremap < <gv
- -- vnoremap > >gv
- -- nnoremap <m-y> viwy:buffer g:buffmain<cr>:<c-r>+<cr><cr>
- -- tnoremap <m-d> <C-\><C-n>:bdelete!<cr>
- -- tnoremap <A-`> <C-\><C-n>
- -- tnoremap <A-Esc> <C-\><C-n>
- -- nmap <A-S-t> :te<cr>
- -- " other mappings
- -- noremap <leader>r :up<cr>:e<cr>
- -- nnoremap q :q<cr>
- -- nnoremap <leader>q q
- -- nmap <m-7> :ZenMode<cr>:mksession!<cr>
- -- nnoremap <leader>u <cr>:UndotreeToggle<CR>
- -- noremap <leader>c :'<,'>CommentToggle<cr>
- -- nnoremap <leader>f :up<cr>:lua Server()<cr>:te lf<cr>i
- -- nnoremap <leader>lg :up<cr>:lua Server()<cr>:te lazygit<cr>i
- -- nnoremap <leader>t :up<cr>:lua Server()<cr>:edit term://nu<cr><cr>
- --
- -- inoremap <m-h> <left>
- -- inoremap <m-l> <right>
- -- vmap <M-.> t.<CR>h
- -- nmap <M-.> t.<CR>h
- -- nnoremap <up> 1<C-U>
- -- nnoremap <m-g> gqip
- -- nnoremap <down> 1<C-D>
- -- noremap <ScrollWheelUp>      <nop>
- -- noremap <S-ScrollWheelUp>    <nop>
- -- noremap <C-ScrollWheelUp>    <nop>
- -- noremap <ScrollWheelDown>    <nop>
- -- noremap <S-ScrollWheelDown>  <nop>
- -- noremap <C-ScrollWheelDown>  <nop>
- -- noremap <ScrollWheelLeft>    <nop>
- -- noremap <S-ScrollWheelLeft>  <nop>
- -- noremap <C-ScrollWheelLeft>  <nop>
- -- noremap <ScrollWheelRight>   <nop>
- -- noremap <S-ScrollWheelRight> <nop>
- -- noremap <C-ScrollWheelRight> <nop>
- -- noremap! <LeftDrag> <nop>
- -- noremap! <RightDrag> <nop>
- -- noremap! <LeftDrag> <nop>
- -- inoremap \ /
- -- inoremap / \
- --
- -- " Movement
- -- inoremap <m-d> <C-w>
- -- noremap gwm /\$<CR>
- -- noremap gbm ?\$<CR>
- -- noremap gwo /(\\|)<CR>
- -- noremap gbo /(\\|)<CR>
- -- noremap gwb /{\\|}<CR>
- -- noremap gbb ?{\\|}<CR>
- -- noremap gww /{\\|}<CR>
- -- noremap gbw ?{\\|}<CR>
- -- noremap gwc /[\\|]<CR>
- -- noremap gbc ?[\\|]<CR>
- --
- -- " copy paste stuff
- -- vnoremap p "_dP
- -- noremap <m-p> <c-r>+
- -- inoremap <m-p> <c-r>+
- -- noremap d "0d
- -- nnoremap cg "0cgn
- -- nnoremap dd "0dd
- -- noremap c "0c
- -- noremap s "0s
- -- noremap C "0C
- -- noremap x "0x
- -- vnoremap x "+x
- -- vnoremap d "0d
- -- vnoremap c "0c
- -- vnoremap y my"+y`y
- -- vnoremap <C-y> y
- -- nnoremap y my"+y`y
- -- nnoremap p "+p
- -- nnoremap <C-p> "0p
- --
- -- nnoremap <leader>q q
- -- inoremap <cr> <esc>$a<cr><space><esc>"_s
- -- inoremap <m-cr> <cr><space><esc>"_s
- --
- -- nnoremap D "0dg$
- -- nnoremap V vg$
- -- noremap X vg$x
- -- nnoremap A g$a
- -- noremap H g^
- -- noremap L g$
- -- nmap <m-8> :set laststatus=0<cr>:set lines=100<cr>:set guifont=Fira\ Code:h18<cr>:set columns=100<cr>
- -- nnoremap <c-l> :bnext<CR>
- -- nnoremap <c-h> :bprevious<CR>
- -- imap <M-j> <C-j>
- -- map q: nop
- -- map <S-C-q> <Esc>:qa!<CR>
- -- map <m-q> <esc>:wq<cr>
- -- map <m-Q> <esc>:q<cr>
- -- map <m-c> :close<cr>
- -- map <m-d> <Esc>:up<CR>:bdelete<CR>
- -- map <m-D> :bdelete!<CR>
- -- noremap gf gq
- -- nmap f /
- -- nmap gv \\/
- -- vmap s \\/
- -- " vim-multiple-\cursors
- -- nnoremap <m-n> <c-n>
- -- noremap F ?
- -- noremap gfm /\$<CR>v?\$<CR>
- -- noremap gm /\$<CR>hv?\$<CR>l
- -- noremap gwb /}<CR>hv?{<CR>l
- -- noremap gsb /]<CR>hv?[<CR>l
- -- noremap gob /)<CR>hv?(<CR>l
- -- map j gj
- -- map k gk
- -- noremap <Space> .
- -- vnoremap <Space> t <cr>
- -- map K <C-u>
- -- map J <C-d>
- -- map <C-j> <C-e>jj
- -- map <C-k> <C-y>kk
- -- nnoremap <leader>j J
- -- nnoremap <leader>k K
- -- map ' "
- -- nnoremap <Backspace> i<Backspace><Esc>
- -- noremap <A-r> <C-r>
- -- nnoremap ` ~
- -- nnoremap . `
- -- noremap <m-1> <C-o>
- -- noremap <m-2> <C-i>
- -- inoremap <m-d> <C-d>
- -- noremap ;w <Esc>:up<CR>
- -- noremap <C-t> <Esc>:AsyncRun ctags -R<CR>
- -- noremap <D-u> <C-u>
- -- noremap <A-u> <C-u>
- -- inoremap <expr> <CR> pumvisible() ? "\<C-y>" : "\<C-g>u\<CR>"
- -- map ' "
- -- inoremap <D-]> <C-x><C-]>
- -- inoremap <C-]> <C-x><C-]>
- --
- --
- -- nnoremap <m-u> :<Esc>:cg C:/Users/yasha/_vim_mru_files<cr>:copen<cr>:call feedkeys("zf")<CR>
- -- map <m-f> :FZF ~<CR>
- -- nnoremap <leader>gs :up<cr>:source $MYVIMRC<cr>
- -- nnoremap <c-e> viwy:cclose<cr>:<c-r>+<cr><cr>
- -- nnoremap <c-p> :<c-r>+<cr>
- -- nnoremap <leader>c :gc
- --
- -- " Latex maps
- -- nmap <leader>v :silent call ViewPdf()<cr><cr>
- -- map <m-v> <esc>:silent call ViewPdf()<cr><cr>
- -- nmap <leader>ll :silent call CompileLatex()<cr>
- -- nmap <leader>lcl :silent call ClearLatex()<cr>
- -- nmap gtd :TodoQuickFix<cr>
- -- "Quickfix
- -- nnoremap <C-c> :set hlsearch!<cr>
- -- nnoremap <leader>e :silent call ToggleQuickFix()<CR>
- --
- -- " nmap <leader>ga :TZAtaraxis<CR>
- -- "nmap <leader>gm :up<cr>:silent ! cat % >> ~/workspace/email.txt; cp % /tmp/temp; make4ht /tmp/temp "mathml,mathjax"; pandoc /tmp/temp.html --from html --to markdown_strict -o /tmp/temp.md; mv /tmp/temp.md %<cr>:e %<cr>:up<cr>:qa<cr>
- --
- -- " Lsp mappings
- -- nnoremap <silent> g? <cmd>lua vim.diagnostic.open_float()<CR>
- -- noremap ga  :lua vim.lsp.buf.code_action()<CR>
- -- noremap <leader>la  :lua vim.lsp.buf.code_action()<CR>
- -- nmap <leader>c gc
- --
- -- "Leap
- -- map t <Plug>(leap-forward)
- -- map T <Plug>(leap-backward)
- -- " Replace the default dictionary completion with fzf-based fuzzy completion
- -- inoremap <expr> <c-x><c-k> fzf#vim#complete('cat /usr/share/dict/words')
- --
- -- "other maps
- -- inoremap <cr> <cr><space><esc>"_s
- -- nnoremap o o<space><esc>"_s
- -- vnoremap <silent> <cr> "*y:silent! let searchTerm = '\V'.substitute(escape(@*, '\/'), "\n", '\\n', "g") <bar> let @/ = searchTerm <bar> echo '/'.@/ <bar> call histadd("search", searchTerm) <bar> set hls<cr><cr>
- -- inoremap <m-d> <C-w>
- -- " -1 for jumping backwards.
- -- inoremap <silent> <S-Tab> <cmd>lua require'luasnip'.jump(-1)<Cr>
- -- inoremap <silent> <m-j> <cmd>lua require('luasnip').jump(1)<Cr>
- -- nnoremap <silent> <m-j> <cmd>lua require('luasnip').jump(1)<Cr>
- -- inoremap <silent> <m-k> <cmd>lua require('luasnip').jump(-1)<Cr>
- -- nnoremap <silent> <m-k> <cmd>lua require('luasnip').jump(-1)<Cr>
- -- " For changing choices in choiceNodes (not strictly necessary for a basic setup).
- -- imap <silent><expr> <C-E> luasnip#choice_active() ? '<Plug>luasnip-next-choice' : '<C-E>'
- --
- -- smap <silent><expr> <C-E> luasnip#choice_active() ? '<Plug>luasnip-next-choice' : '<C-E>'
+ 
 

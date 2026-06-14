@@ -940,14 +940,6 @@
     "description": "square brackets"
   },
 
-"st": {
-    "prefix": "st",
-    "body": [
-      "s.t. $0"
-    ],
-    "description": "st"
-  },
-
 
 "cf": {
     "prefix": "cf",

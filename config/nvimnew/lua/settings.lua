@@ -306,80 +306,187 @@ require("which-key").setup({
   -- disable the WhichKey popup for certain buf types and file types.
   -- Disabled by deafult for Telescope
 })
-require("gruvbox").setup({
-undercurl = true,
-  underline = true,
-  bold = true,
-  -- italic = true,
-  strikethrough = false,
-  invert_selection = false,
-  invert_signs = false,
-  invert_tabline = false,
-  invert_intend_guides = false,
-  inverse = false, -- invert background for search, diffs, statuslines and errors
-  contrast = "hard", -- can be "hard", "soft" or empty string
-  palette_overrides = {},
-  dim_inactive = false,
-  transparent_mode = false,
-    overrides = {
-        SignColumn = {bg = "#ffa546"},
-        Normal = {bg = "#ffa546"},
-        DiagnosticSignError = { bg = "#ffa546" },
-        DiagnosticSignWarn = { bg = "#ffa546" },
-        DiagnosticSignInfo = { bg = "#ffa546" },
-        DiagnosticSignHint = { bg = "#ffa546" },
-        texType = { fg = "#808080" },
-        texMath = { fg = "#650000" },
-				texCmdEnv = {fg = "darkblue" },
-				texRefArg = {fg = "darkgreen" },
-				texDelim = {fg = "darkgreen" },
-				texMathSymbol = { fg = "darkblue" },
-				texMathZoneTI = { fg = "#650000" },
-        TexSpecial = { fg = "#af6000" },
-        texDelimiter = { fg = "#af6000" },
-        texStatement = { fg = "#580058" },
-				texRefzone = { fg = "#af6000" },
-				texBeginEnd = { fg = "#00008b" },
-				texCite = { fg = "#af6000" },
-				Special = { fg = '#580058' },
-        -- Operator = { fg = "#808080" },
-        Type = { fg = "#008800" },
-		    Search = { fg = "black" },
-        Comment = { fg = "#af6000" },
-        String = { fg = "#580058" },
-        Operator = { fg = "#580058" },
-				-- Pmenu = { bg = "#ffa546", fg = "#1e2030"},
-				-- Pmenu = { bg = "#ffa546", fg = "white" },
-				texTypeStyle = { fg = "#427b58" },
-		["@namespace"] = { fg = "#580058" },
-		["@module.latex"] = { fg = "darkblue" },
-		["@markup.link.latex"] = { fg = "darkgreen" },
-		["@label.latex"] = { fg = "darkgreen" },
-		["@markup.heading.4.latex"] = { fg = "darkgreen" },
-		["@text.math"] = { fg = "darkgreen" },
-		["@text.math.marker"] = { fg = "orange" },
-		["@markup.math.latex"] = { fg = "#650000" },
-		["@function"] = { fg = "#650000" },
-		["@function.latex"] = { fg = "darkblue" },
-		["@text.title"] = { fg = "darkblue" },
-		["@text.environment"] = { fg = "#580058" },
-		["@text.environment.name"] = { fg = "#00008b" },
-		["@function.macro"] = { fg = "grey" },
-		["@punctuation.bracket"] = { fg = "green" },
-		["@parameter"] = { fg = "darkblue" },
-		["@text.reference"] = { fg = "grey" },
-		["@include"] = { fg = "grey" },
-		["@operator"] = { fg = "darkred" },
-		Cursor =  { fg = 'black', bg = 'white' }
-        --bright orange  #fd8432
-        --texComment = { fg = "#00ff00" },
-        -- texString = { fg = "#0000ff" },
-        -- Special = {fg = "#0000ff" },
-        -- texCmdName = { fg = "#0000ff" },
-        -- SpecialChar = { fg = "#0000ff" },
-        -- Statement = { fg = "#0000ff" }
-    }
-})
+local dusk_math = "#650000"
+local dusk_math_marker = "#580058"
+local function apply_latex_orange_overrides()
+  local bg = "#ffa546"
+
+  local groups = {
+    Normal = { bg = bg },
+    NormalNC = { bg = bg },
+    SignColumn = { bg = bg },
+    DiagnosticSignError = { bg = bg },
+    DiagnosticSignWarn = { bg = bg },
+    DiagnosticSignInfo = { bg = bg },
+    DiagnosticSignHint = { bg = bg },
+
+    texType = { fg = "#808080" },
+    texMath = { fg = "darkblue" },
+    texCmdEnv = { fg = "darkblue" },
+    texRefArg = { fg = "darkgreen" },
+    texDelim = { fg = "darkgreen" },
+    texMathSymbol = { fg = dusk_math },
+    texMathZoneTI = { fg = "darkblue" },
+    TexSpecial = { fg = "#af6000" },
+    texDelimiter = { fg = "#af6000" },
+    texStatement = { fg = "#580058" },
+    texRefzone = { fg = "#af6000" },
+    texBeginEnd = { fg = "#00008b" },
+    texCite = { fg = "#af6000" },
+
+    Special = { fg = "#580058" },
+    Type = { fg = "#008800" },
+    Search = { fg = "black" },
+    Comment = { fg = "#af6000" },
+    String = { fg = "#580058" },
+    Operator = { fg = "#580058" },
+
+    ["@namespace"] = { fg = "#580058" },
+    ["@module.latex"] = { fg = "darkblue" },
+    ["@markup.link.latex"] = { fg = "darkgreen" },
+    ["@label.latex"] = { fg = "darkgreen" },
+    ["@markup.heading.4.latex"] = { fg = "darkgreen" },
+    ["@text.math"] = { fg = "darkgreen" },
+    ["@text.math.marker"] = { fg = "darkblue" },
+    ["@markup.math.latex"] = { fg = "darkblue" },
+    ["@function"] = { fg = "darkblue" },
+    ["@function.latex"] = { fg = dusk_math },
+    ["@text.title"] = { fg = "darkblue" },
+    ["@text.environment"] = { fg = "#580058" },
+    ["@text.environment.name"] = { fg = "#00008b" },
+    ["@function.macro"] = { fg = "grey" },
+    ["@punctuation.bracket"] = { fg = "green" },
+    ["@parameter"] = { fg = "darkblue" },
+    ["@text.reference"] = { fg = "grey" },
+    ["@include"] = { fg = "grey" },
+    ["@operator"] = { fg = "darkred" },
+
+    Cursor = { fg = "black", bg = "white" },
+  }
+
+  for group, opts in pairs(groups) do
+    vim.api.nvim_set_hl(0, group, opts)
+  end
+end
+local function apply_latex_operatorname_highlight()
+  vim.api.nvim_create_autocmd({ "FileType", "BufEnter" }, {
+    pattern = { "tex", "latex" },
+    callback = function()
+      -- Give \operatorname its own group.
+      -- containedin=ALL lets it override inside math zones.
+      vim.cmd([[
+        syntax match texOperatorName "\\operatorname" containedin=ALL
+      ]])
+
+      vim.api.nvim_set_hl(0, "texOperatorName", {
+        fg = "grey",
+        bold = false,
+      })
+    end,
+  })
+end
+local function apply_latex_custom_math_highlights()
+  -- Operator commands like \operatorname
+  vim.cmd([[syntax match texOperatorName "\\operatorname" containedin=ALL]])
+
+  vim.api.nvim_set_hl(0, "texOperatorName", {
+    fg = "darkblue",
+    bold = false,
+  })
+
+  -- Greek letters and common math objects
+  vim.cmd([[
+    syntax match texGreekSymbol "\\\(alpha\|beta\|gamma\|delta\|epsilon\|varepsilon\|zeta\|eta\|theta\|vartheta\|iota\|kappa\|lambda\|mu\|nu\|xi\|pi\|varpi\|rho\|varrho\|sigma\|varsigma\|tau\|upsilon\|phi\|varphi\|chi\|psi\|omega\)" containedin=ALL
+  ]])
+
+  vim.api.nvim_set_hl(0, "texGreekSymbol", {
+    fg = "#580058",
+    bold = true,
+  })
+
+  -- Capital Greek letters
+  vim.cmd([[
+    syntax match texGreekSymbol "\\\(Gamma\|Delta\|Theta\|Lambda\|Xi\|Pi\|Sigma\|Upsilon\|Phi\|Psi\|Omega\)" containedin=ALL
+  ]])
+end
+vim.cmd.colorscheme("gruvbox-material")
+apply_latex_orange_overrides()
+apply_latex_operatorname_highlight()
+apply_latex_custom_math_highlights()
+-- require("gruvbox").setup({
+-- undercurl = true,
+--   underline = true,
+--   bold = true,
+--   -- italic = true,
+--   strikethrough = false,
+--   invert_selection = false,
+--   invert_signs = false,
+--   invert_tabline = false,
+--   invert_intend_guides = false,
+--   inverse = false, -- invert background for search, diffs, statuslines and errors
+--   contrast = "hard", -- can be "hard", "soft" or empty string
+--   palette_overrides = {},
+--   dim_inactive = false,
+--   transparent_mode = false,
+--     overrides = {
+--         SignColumn = {bg = "#ffa546"},
+--         Normal = {bg = "#ffa546"},
+--         DiagnosticSignError = { bg = "#ffa546" },
+--         DiagnosticSignWarn = { bg = "#ffa546" },
+--         DiagnosticSignInfo = { bg = "#ffa546" },
+--         DiagnosticSignHint = { bg = "#ffa546" },
+--         texType = { fg = "#808080" },
+--         texMath = { fg = "#650000" },
+-- 				texCmdEnv = {fg = "darkblue" },
+-- 				texRefArg = {fg = "darkgreen" },
+-- 				texDelim = {fg = "darkgreen" },
+-- 				texMathSymbol = { fg = "darkblue" },
+-- 				texMathZoneTI = { fg = "#650000" },
+--         TexSpecial = { fg = "#af6000" },
+--         texDelimiter = { fg = "#af6000" },
+--         texStatement = { fg = "#580058" },
+-- 				texRefzone = { fg = "#af6000" },
+-- 				texBeginEnd = { fg = "#00008b" },
+-- 				texCite = { fg = "#af6000" },
+-- 				Special = { fg = '#580058' },
+--         -- Operator = { fg = "#808080" },
+--         Type = { fg = "#008800" },
+-- 		    Search = { fg = "black" },
+--         Comment = { fg = "#af6000" },
+--         String = { fg = "#580058" },
+--         Operator = { fg = "#580058" },
+-- 				-- Pmenu = { bg = "#ffa546", fg = "#1e2030"},
+-- 				-- Pmenu = { bg = "#ffa546", fg = "white" },
+-- 				texTypeStyle = { fg = "#427b58" },
+-- 		["@namespace"] = { fg = "#580058" },
+-- 		["@module.latex"] = { fg = "darkblue" },
+-- 		["@markup.link.latex"] = { fg = "darkgreen" },
+-- 		["@label.latex"] = { fg = "darkgreen" },
+-- 		["@markup.heading.4.latex"] = { fg = "darkgreen" },
+-- 		["@text.math"] = { fg = "darkgreen" },
+-- 		["@text.math.marker"] = { fg = "orange" },
+-- 		["@markup.math.latex"] = { fg = "#650000" },
+-- 		["@function"] = { fg = "#650000" },
+-- 		["@function.latex"] = { fg = "darkblue" },
+-- 		["@text.title"] = { fg = "darkblue" },
+-- 		["@text.environment"] = { fg = "#580058" },
+-- 		["@text.environment.name"] = { fg = "#00008b" },
+-- 		["@function.macro"] = { fg = "grey" },
+-- 		["@punctuation.bracket"] = { fg = "green" },
+-- 		["@parameter"] = { fg = "darkblue" },
+-- 		["@text.reference"] = { fg = "grey" },
+-- 		["@include"] = { fg = "grey" },
+-- 		["@operator"] = { fg = "darkred" },
+-- 		Cursor =  { fg = 'black', bg = 'white' }
+--         --bright orange  #fd8432
+--         --texComment = { fg = "#00ff00" },
+--         -- texString = { fg = "#0000ff" },
+--         -- Special = {fg = "#0000ff" },
+--         -- texCmdName = { fg = "#0000ff" },
+--         -- SpecialChar = { fg = "#0000ff" },
+--         -- Statement = { fg = "#0000ff" }
+--     }
+-- })
 require("oil").setup()
 require('undotree').setup()
 -- nvim LSP
@@ -424,69 +531,6 @@ capabilities.textDocument.foldingRange = {
     lineFoldingOnly = true
 }
 
-require('neoclip').setup({
-  history = 1000,
-  enable_persistent_history = false,
-  length_limit = 1048576,
-  continuous_sync = false,
-  db_path = vim.fn.stdpath("data") .. "/databases/neoclip.sqlite3",
-  filter = nil,
-  preview = true,
-  prompt = nil,
-  default_register = {'"','_','+'},
-  default_register_macros = 'q',
-  enable_macro_history = true,
-  content_spec_column = false,
-  disable_keycodes_parsing = false,
-  on_select = {
-	move_to_front = false,
-	close_telescope = true,
-  },
-  on_paste = {
-	set_reg = false,
-	move_to_front = false,
-	close_telescope = true,
-  },
-  on_replay = {
-	set_reg = false,
-	move_to_front = false,
-	close_telescope = true,
-  },
-  on_custom_action = {
-	close_telescope = true,
-  },
-  keys = {
-	telescope = {
-	  i = {
-		select = '<cr>',
-		paste = '<c-p>',
-		paste_behind = '<c-k>',
-		replay = '<c-q>',  -- replay a macro
-		delete = '<c-d>',  -- delete an entry
-		edit = '<c-e>',  -- edit an entry
-		custom = {},
-	  },
-	  n = {
-		select = '<cr>',
-		paste = 'p',
-		--- It is possible to map to more than one key.
-		-- paste = { 'p', '<c-p>' },
-		paste_behind = 'P',
-		replay = 'q',
-		delete = 'd',
-		edit = 'e',
-		custom = {},
-	  },
-	},
-	fzf = {
-	  select = 'default',
-	  paste = ';p',
-	  paste_behind = ';P',
-	  custom = {},
-	},
-  },
-})
-
 
 require("luasnip.loaders.from_vscode").lazy_load()
 local ls = require("luasnip")
@@ -495,7 +539,7 @@ local cmp = require("blink.cmp")
 -- Snippet expansion/jump fallback
 vim.keymap.set("i", "<Tab>", function()
   if ls.expand_or_jumpable() then
-    ls.expand_or_jump()
+    ls.expand()
   end
 end, { silent = true })
 -- vim.keymap.set("i", "<m-j>", function()
@@ -600,49 +644,7 @@ require('lualine').setup {
 --                 },
 -- })
 
-require("yanky").setup{
-  ring = {
-    history_length = 100,
-    storage = "shada",
-    storage_path = vim.fn.stdpath("data") .. "/databases/yanky.db", -- Only for sqlite storage
-    sync_with_numbered_registers = true,
-    cancel_event = "update",
-    ignore_registers = { "_" },
-    update_register_on_cycle = false,
-  },
-  picker = {
-    select = {
-      action = nil, -- nil to use default put action
-    },
-    telescope = {
-      use_default_mappings = false, -- if default mappings should be used
-      mappings = nil, -- nil to use default mappings or no mappings (see `use_default_mappings`)
-    },
-  },
-  system_clipboard = {
-    sync_with_ring = true,
-    clipboard_register = nil,
-  },
-  highlight = {
-    on_put = true,
-    on_yank = true,
-    timer = 500,
-  },
-  preserve_cursor_position = {
-    enabled = true,
-  },
-  textobj = {
-   enabled = true,
-  },
-}
--- vim.keymap.set({"n","x"}, ";p", "<Plug>(YankyPutAfter)")
--- vim.keymap.set({"n","x"}, ";P", "<Plug>(YankyPutBefore)")
--- vim.keymap.set({"n","x"}, "gp", "<Plug>(YankyGPutAfter)")
--- vim.keymap.set({"n","x"}, "gP", "<Plug>(YankyGPutBefore)")
---
--- vim.keymap.set("n", "<c-p>", "<Plug>(YankyPreviousEntry)")
--- vim.keymap.set("n", "<c-n>", "<Plug>(YankyNextEntry)")
--- C:/Users/yasha/OneDrive/dotfiles/config/nvimnew/lua/snippets/all.lua
+
 --gitgutter
 -- require('gitsigns').setup{
 --   on_attach = function(bufnr)
