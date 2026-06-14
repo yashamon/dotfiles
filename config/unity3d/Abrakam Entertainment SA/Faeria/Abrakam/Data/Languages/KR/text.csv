@@ -1,0 +1,229 @@
+ACTIVATE;<b>발동</b>
+AQUATIC;<b>수생</b>
+ARTIFACT;유물
+AUTO_HARVEST;<b>자동 수확</b>
+BLUE;<sprite="icon_blue" index=0>
+BLUEPRINT_01.name;Zelený začátek
+BLUEPRINT_01.shortdescription;숲의 힘을 개방해 인간 군대에게 생명력과 기동성을 부여하십시오. 페어리아 우물 앞에 전진기지를 세우고, 오브를 향해 진격합니다!
+BLUEPRINT_02.name;Červený začátek
+BLUEPRINT_02.shortdescription;잔혹한 오우거들이 산에서 몰려옵니다. 커다란 덩치들로 상대를 위협하고, 불의 힘으로 마무리하세요.
+BLUEPRINT_03.name;Modrý začátek
+BLUEPRINT_03.shortdescription;이벤트 카드들로 전장에 변화를 줍니다. 개구리와 수중 생물들을 이용해 많은 우물을 점령하고 좋은 시기를 노리세요.
+BLUEPRINT_04.name;Žlutý začátek
+BLUEPRINT_04.shortdescription;어두운 사막의 쾌락을 음미하세요. 금지된 의식을 행하고 당신이 소유한 생물들의 죽음으로부터 힘을 취하십시오. 생명력을 자원으로 사용해 싸워 적의 오브를 삼키십시오.
+BLUEPRINT_05.name;파도의 침투
+BLUEPRINT_05.shortdescription;탐욕적으로 페어리아를 모아 힘을 키우세요. 상대 우물에서 많이 수확할수록 거신들을 싸게 소환할 수 있습니다.
+BLUEPRINT_06.name;전쟁 속 영광
+BLUEPRINT_06.shortdescription;적들을 차례로 부수고, 늘어진 시체들을 등지고 애통한 야크들의 울음소리를 들으며. 싸울수록 강해지는 군대를 부리세요. 강철로 된 무구는 전쟁 속에서 가장 빛납니다.
+BLUEPRINT_07.name;Křížová výprava
+BLUEPRINT_07.shortdescription;자비는 없습니다. 적의 오브에 즉시 접근해 모든 것을 쏟아부어 공격하십시오. 공격할 때마다 광적인 성전사가 강해집니다.
+BLUEPRINT_08.name;최고의 흥정
+BLUEPRINT_08.shortdescription;오우거 장사꾼들의 수완으로 비싼 카드들을 특가에 내 보세요. 거대한 승리에는 드래곤과 베히모스가 함께합니다.
+BLUEPRINT_09.name;Nebeské loďstvo
+BLUEPRINT_09.shortdescription;하늘을 지배하세요. 황금 새장으로 함대를 강화하세요. 하늘에서 죽음이 내려와 적의 심장에 꽂힙니다.
+BLUEPRINT_10.name;자연의 분노
+BLUEPRINT_10.shortdescription;숲이 항상 기다리는 것은 아닙니다. 오브를 향한 길을 열고 신 사냥꾼을 보내 적들을 자연의 희생양으로 삼으세요.
+CHARGE;<b>돌진 {0}</b>
+COMBAT;<b>교전</b>
+CONVOKE;<b>소집</b>
+CORRUPT;오염
+CREATURE;생물
+CURRENCY_COIN;샤드
+CURRENCY_GEM;젬
+DAILY_QUEST_00_NAME;완성
+DAILY_QUEST_01_NAME;광란
+DAILY_QUEST_02_NAME;신 죽이기
+DAILY_QUEST_03_NAME;심판
+DAILY_QUEST_04_NAME;정복
+DAILY_QUEST_05_NAME;해일
+DAILY_QUEST_06_NAME;번창
+DAILY_QUEST_07_NAME;불바다
+DAILY_QUEST_08_NAME;모래바람
+DAILY_QUEST_09_NAME;균형
+DAILY_QUEST_11_NAME;기적
+DAILY_QUEST_12_NAME;창조
+DAILY_QUEST_13_NAME;신성한 시련
+DAILY_QUEST_14_NAME;결투자
+DAILY_QUEST_15_NAME;숙련자
+DAILY_QUEST_16_NAME;친구를 위한 퀘스트
+DAILY_QUEST_18_NAME;친구를 위한 퀘스트
+DAILY_QUEST_27_NAME;보물 사냥
+DAILY_QUEST_28_NAME;자신을 증명하라
+DAILY_QUEST_30_NAME;판도라 개방
+DAILY_QUEST_31_NAME;보고 배우세요
+DAILY_QUEST_32_NAME;죽을 때까지 친구
+DAILY_QUEST_33_NAME;준비된 성공
+DAILY_QUEST_34_NAME;스스로 해보세요
+DAILY_QUEST_35_NAME;제작 전문가
+DAILY_QUEST_COMPLETE_ANY_ACT;미션이나 퍼즐 팩을 완료하세요
+DAILY_QUEST_COMPLETE_2_WILD_ACTS;4개의 무작위 미션 팩 완료
+DAILY_QUEST_COMPLETE_ANY_LANE;경로 하나를 완주하세요.
+DAILY_QUEST_COMPLETE_QUESTS;미션을 {0}개 완료하세요.
+DAILY_QUEST_COMPLETE_QUESTS_OR_PUZZLES;미션이나 퍼즐을 {0}개 완료하세요.
+DAILY_QUEST_COMPLETE_TRAINING_ACT;트레이닝 팩을 완료하세요.
+DAILY_QUEST_CRAFT_CARD;원하는 카드 한 장을 만드세요
+DAILY_QUEST_CRAFT_GOLD_CARD;원하는 신화 카드 한 장을 만드세요
+DAILY_QUEST_CREATE_LANDS;땅을 {0}개 만드세요
+DAILY_QUEST_DEAL_DAMAGE_TO_ENEMIES;적에게 {0} 피해를 주세요
+DAILY_QUEST_DEAL_DAMAGE_TO_GODS;신에게 {0} 피해를 주세요
+DAILY_QUEST_DEFEAT_RUUNIN;미션에서 루닌을 물리치세요
+DAILY_QUEST_DEFEAT_SEIFER;미션에서 사이퍼를 물리치세요
+DAILY_QUEST_DEFEAT_SOLO_OPPONENTS;미션에서 적 {0}명을 물리치세요
+DAILY_QUEST_DESTROY_CREATURES;생물을 {0}개 제거하세요
+DAILY_QUEST_FIND_AND_DEFEAT_RAPALA;라팔라가 등장할 때까지 미션을 진행하고, 물리치세요
+DAILY_QUEST_OPEN_BATTLE_CHEST;전리품 상자를 열어 보세요
+DAILY_QUEST_PERFECT;피해를 입지 않고 게임에서 승리하세요
+DAILY_QUEST_PLAY_AGAINST_FRIEND;친구와 게임을 해 보세요
+DAILY_QUEST_PLAY_ARENA_RUN;판도라를 끝까지 진행하세요
+DAILY_QUEST_PLAY_BLUE_CARDS;청색 카드를 {0}장 사용하세요
+DAILY_QUEST_PLAY_CREATURES;생물 카드를 {0}장 사용하세요
+DAILY_QUEST_PLAY_EVENTS;이벤트 카드를 {0}장 사용하세요
+DAILY_QUEST_PLAY_GREEN_CARDS;녹색 카드를 {0}장 사용하세요
+DAILY_QUEST_PLAY_NEUTRAL_CARDS;중립 카드를 {0}장 사용하세요
+DAILY_QUEST_PLAY_PVP_GAMES;캐주얼, 경쟁전, 또는 멀티플레이어 판도라 모드에서 {0} 게임을 진행하세요
+DAILY_QUEST_PLAY_RED_CARDS;적색 카드를 {0}장 사용하세요
+DAILY_QUEST_PLAY_WITH_SPECIAL_COSMETIC;특별한 오브 또는 아바타로 게임을 해 보세요
+DAILY_QUEST_PLAY_YELLOW_CARDS;황색 카드를 {0}장 사용하세요
+DAILY_QUEST_REACH_LEVEL_8;8레벨에 도달하세요
+DAILY_QUEST_SOLVE_PUZZLES;미션에서 퍼즐을 {0}개 해결하세요
+DAILY_QUEST_SPECTATE_FRIEND_WINNING_GAME;친구가 게임에서 이기는 걸 관전하세요
+DAILY_QUEST_VALIDATE_YOUR_EMAIL;이메일을 인증하세요
+DAILY_QUEST_WAIT_FOR_SEIFER;사이퍼가 돌아올 때까지 미션을 플레이하세요
+DAILY_QUEST_WIN_DIVINE_CHALLENGES;더 많은 카드를 얻기 위해 캠페인을 완료하세요
+DAILY_QUEST_WIN_HIGHLANDER_GAMES;하이랜더 모드에서 {0}번 승리하세요. 하이랜더 덱은 반드시 30장의 다른 카드로 구성되어야 합니다!
+DAILY_QUEST_WIN_PANDORA_GAMES;판도라 모드에서 {0}번 승리하세요
+DAILY_QUEST_WIN_PVP_GAMES;캐주얼, 경쟁전, 또는 멀티플레이어 판도라 모드에서 {0} 게임을 이기세요
+DASH;<b>질주 {0}</b>
+DEATHTOUCH;<b>죽음의 손길</b>
+DIVINE;<b>신성</b>
+EMOTE_FUGORO_LASTWORDS_NAME;손님은 왕이니까.
+EMOTE_FUGORO_OPENING_NAME;소중한 고객이 함께하는군!
+EMOTE_FUGORO_THINKING_NAME;끌리는 수가 너무 많은 걸..
+EMOTE_KHALIM_LASTWORDS_NAME;좋은 승부였다. 네가 이겼다.
+EMOTE_KHALIM_OPENING_NAME;바람을 받아들여라.
+EMOTE_KHALIM_THINKING_NAME;좋은 수가 있을 거야...
+EMOTE_KROG_LASTWORDS_NAME;나 갈래. 배고파!
+EMOTE_KROG_OPENING_NAME;왕을 경배하라!
+EMOTE_KROG_THINKING_NAME;... 오! 내 턴이었군!
+EMOTE_MAGDA_LASTWORDS_NAME;인상적이군. 항복하겠다.
+EMOTE_MAGDA_OPENING_NAME;내 궁정에 어서 오너라.
+EMOTE_MAGDA_THINKING_NAME;가능성이 아주 많군.
+EMOTE_RUUNIN_LASTWORDS_NAME;승리를 즐겨라.
+EMOTE_RUUNIN_OPENING_NAME;사냥할 시간이군.
+EMOTE_RUUNIN_THINKING_NAME;어떻게 할까...
+EVENT;이벤트
+FAERIA;<sprite="icon_faeria_cost" index={0}>
+FLYING;<b>비행</b>
+GIFT;<b>선물</b>
+GREEN;<sprite="icon_green" index=0>
+HASTE;<b>신속</b>
+ICON_COIN;<sprite="icon_coin" index=0><b>{0}</b>
+ICON_GEM;<sprite="icon_gem" index=0><b>{0}</b>
+IGNORE;무시
+JUMP;<b>점프</b>
+LANGUAGE_NAME_NATIVE;한국어
+LAST_WORDS;<b>유언</b>
+OPTIONS;<b>선택</b>
+PRODUCTION;<b>생산</b>
+PROTECTION;<b>보호막</b>
+QUEST_LANE_ACT_AURORA_NAME;오로라
+QUEST_LANE_ACT_FUGORO_NAME;후고로
+QUEST_LANE_ACT_HOAKA_NAME;호아카
+QUEST_LANE_ACT_JALMYR_01_NAME;얄미어 I
+QUEST_LANE_ACT_JALMYR_02_NAME;얄미어 II
+QUEST_LANE_ACT_JALMYR_03_NAME;얄미어 III
+QUEST_LANE_ACT_JALMYR_04_NAME;얄미어 IV
+QUEST_LANE_ACT_MAGDA_NAME;마그다
+QUEST_LANE_ACT_RAPALA_NAME;라팔라
+QUEST_LANE_ACT_SEIFER_NAME;사이퍼
+QUEST_LANE_ACT_SHARRA_NAME;샤라
+QUEST_LANE_ACT_TRAINING_NAME;연습
+RANGED_ATTACK;<b>원거리 공격</b>
+RED;<sprite="icon_red" index=0>
+SLAM;<b>강타</b>
+SUBTYPE_YAK;야크
+SUBTYPE_TRITON;트라이튼
+SUBTYPE_BEAST;야수
+SUBTYPE_MECHA;기계
+SUBTYPE_RAKOAN;라코아
+SWALLOW;<b>포식</b>
+STRUCTURE;건물
+TAUNT;<b>도발</b>
+TOOLTIP_AQUATIC;<color=white><b>수생</b></color> 바다나 호수에서만 이동할 수 있습니다.
+TOOLTIP_CHARGE;<color=white><b>돌진 {0}:</b></color> 한 번에 {0}칸까지 같은 방향으로 움직일 수 있습니다.
+TOOLTIP_COMBAT;<color=white><b>교전:</b></color> 이 생물이 싸울 때 효과가 발동합니다.
+TOOLTIP_CONVOKE;<color=white><b>Convoke:</b> 내 땅이 아니더라도 근처에 생물을 소환할 수 있습니다.
+TOOLTIP_CORRUPT;<color=white><b>오염:</b></color> 이 생물이 처음 적 땅 위에 올라갈 때 발동됩니다.
+TOOLTIP_DARK_RITUAL;<color=white><b>Dark Ritual:</b> You MAY sacrifice a creature when you play this card. Get extra benefits if you do.
+TOOLTIP_DASH;<color=white><b>질주 {0}:</b></color> 소환할 때, {0}칸까지 같은 방향으로 이동할 수 있습니다.
+TOOLTIP_DEATHTOUCH;<color=white><b>죽음의 손길:</b></color> 이 생물로부터 피해를 받은 생물을 파괴합니다.
+TOOLTIP_DIVINE;<color=white><b>신성:</b></color> 이벤트나 능력의 대상으로 지정할 수 없습니다.
+TOOLTIP_FLYING;<color=white><b>비행:</b></color> 바다 위에서 이동할 수 있습니다.
+TOOLTIP_GIFT;<color=white><b>선물:</b></color> 손에서 낼 때 효과가 발동합니다.
+TOOLTIP_HASTE;<color=white><b>신속:</b></color> 소환한 턴에 공격, 수확, 이동할 수 있습니다.
+TOOLTIP_JUMP;<color=white><b>점프:</b></color> 두 칸까지 움직일 수 있습니다. 장애물을 무시합니다.
+TOOLTIP_LAST_WORDS;<color=white><b>유언:</b></color> 죽을 때 효과가 발동합니다.
+TOOLTIP_OPTIONS;<b>선택:</b> 여러 효과 중 하나를 선택할 수 있습니다.
+TOOLTIP_PRODUCTION;<color=white><b>생산:</b></color> 턴이 시작될 때 효과가 발동합니다.
+TOOLTIP_PROTECTION;<color=white><b>보호막:</b></color> 이 생물이 피해를 입을 때, 보호막이 사라지고 피해를 무시합니다.
+TOOLTIP_RANGED_ATTACK;<color=white><b>원거리 공격:</b></color> 일직선상에 있는 가장 가까운 적을 공격합니다. 이동한 후 공격할 수 없습니다.
+TOOLTIP_SWALLOW;<color=white><b>포식:</b></color> 다른 생물을 이 카드 안에 가둡니다. 이 카드가 죽으면, 그 생물이 풀려납니다.(다른 생물을 포식한 생물을 가둘 수 없습니다.)
+TOOLTIP_TAUNT;<color=white><b>도발:</b></color> 인접한 적 생물은 이 생물을 공격해야 합니다.
+TOOLTIP_WILD;<color=white><b>야생:</b></color> 필요로 하는 모든 땅이 야생일 때 그 카드를 야생이라 합니다.
+WILD;<b>야생</b>
+YELLOW;<sprite="icon_yellow" index=0>
+NEWS_DEFENDING;러쉬덱 상대로 방어하기.
+NEWS_FAERIA_TALES;페어리아 이야기: 1.0으로 가는 길
+NEWS_OVERSKY;확장팩: 창공이 도착했습니다.
+NEWS_PATCH_ANALYSIS;밸런스 패치 분석
+NEWS_PATCH_NOTES;패치 노트
+NEWS_RECRUIT_FRIEND;친구 모집하기
+NEWS_STEAM_NEWS;특가: 페어리아 스팀 팩
+NEWS_WAR_EFFORT;전쟁 보급에 참여하세요.
+NEWS_WELCOME;페어리아 학원
+DAILY_QUEST_1400_NAME;이야기
+DAILY_QUEST_PLAY_CARD_3_TIMES;{0}를 3번 내세요.
+NEWS_B2P_RELEASE;새로운 기능과 경제시스템 변경
+NEWS_FOE_DLC;영생의 몰락 확장팩
+NEWS_PREMIUM_DLC;프리미엄 업그레이드
+NWILD;<sprite="icon_wild_cost" index={0}>
+NEWS_THE_HUB;허브
+NEWS_RESURGENCE_CARDS;소생 카드들
+NEWS_RESURGENCE;소생 확장팩
+NYELLOW;<nobr><b>{0}</b><sprite="icon_yellow" index=0></nobr>
+NRED;<nobr><b>{0}</b><sprite="icon_red" index=0></nobr>
+NHUMAN;<nobr><b>{0}</b><sprite="icon_human" index=0></nobr>
+NGREEN;<nobr><b>{0}</b><sprite="icon_green" index=0></nobr>
+NBLUE;<nobr><b>{0}</b><sprite="icon_blue" index=0></nobr>
+MUTAGEN_SETUP_TETHRA_LAND_4;이 드래곤은 손에 비용 5, 와일드 지형 5개를 요구하는 <b>테스라</b>를 들고 게임을 시작합니다.
+MUTAGEN_SETUP_OROSEI_LAND_4;이 드래곤은 손에 비용 5, 와일드 지형 5개를 요구하는 <b>오로세이</b>를 들고 게임을 시작합니다.
+MUTAGEN_SETUP_MONO_COLOR_COSTS_MORE;단색 카드의 비용이 2 증가합니다.
+MUTAGEN_SETUP_HARVEST_COSTS_2_LIFE;내가 페어리아를 수확할 때마다, 내가 피해를 2 입습니다.
+MUTAGEN_SETUP_GARUDAN_LAND_4;이 드래곤은 손에 비용 5, 와일드 지형 5개를 요구하는 <b>가루단</b>을 들고 게임을 시작합니다.
+MUTAGEN_SETUP_FAERIA_LIMITED_TO_6;내 페어리아가 6을 넘을 수 없습니다.
+MUTAGEN_SETUP_EVERYONE_IS_SHOZEN;이 드래곤의 생물이 교전을 통해 적 생물을 죽였을 때, 대신 그 생물을 포식하고 드래곤이 그 소유권을 얻습니다.
+MUTAGEN_SETUP_EVENTS_COST_MORE;내 이벤트의 비용이 2 증가합니다.
+MUTAGEN_SETUP_ENEMIES_HAVE_DEATHTOUCH;이 드래곤의 모든 생물은 죽음의 손길을 얻습니다.
+MUTAGEN_SETUP_EMPOWER_ENEMIES_WHEN_YOUR_CREATURES_DIE;내 생물이 죽을 때마다 드래곤의 모든 생물이 +1/+1을 얻습니다.
+MUTAGEN_SETUP_DRAW_TWICE_ON_PLAY;내가 카드를 낼 때마다, 카드를 2장 더 뽑습니다.
+MUTAGEN_SETUP_DAMAGE_ON_PLAYED_CREATURES;내 생물이 소환될 때마다 피해를 2 입습니다.
+MUTAGEN_SETUP_CREATE_RANDOM_AI_LANDS;이 드래곤은 게임이 시작할 때 무작위 위치에
+MUTAGEN_SETUP_CREATURES_COST_MORE;내 생물의 비용이 2 증가합니다.
+MUTAGEN_SETUP_AZARAI_LAND_4;이 드래곤은 손에 비용 5, 와일드 지형 5개를 요구하는 <b>아자라이</b>를 들고 게임을 시작합니다.
+MUTAGEN_SETUP_ALL_CARDS_COST_AT_LEAST_5;내 덱의 비용이 5 이하인 모든 카드의 비용이 5가 됩니다.
+HUMAN;<sprite="icon_human" index=0>
+DRAGON_TYPE_TETHRA;테스라
+DRAGON_TYPE_OROSEI;오로세이
+DRAGON_TYPE_GARUDAN;가루단
+DRAGON_TYPE_CELESTE;셀레스트
+DRAGON_TYPE_AZARAI;아자라이
+TOOLTIP_DISCOVER;<color=white><b>발견:</b></color> 서로 다른 카드 3장 중 하나를 골라 내 손에 넣습니다.
+DISCOVER;<b>발견</b>
+TOOLTIP_DRAGONS_LAIR_REWARD;{0}에게 {1}번 더 승리하면 받을 수 있습니다.
+NEWS_GAGANA_CARDS;가가나 카드 목록
+NEWS_GAGANA;가가나 확장팩
+GAMEPAD_RIGHT_BUTTONS_LEFT;<sprite="icon_gamepad_button_{gamepad_type}" index=9>
+GAMEPAD_RIGHT_BUTTONS_TOP;<sprite="icon_gamepad_button_{gamepad_type}" index=11>
+GAMEPAD_TOOLTIP_ACTIVATE;<color=white><b>발동:</b></color> 구조물의 효과를 발동하려면 구조물에 대고 {GAMEPAD_ACTION_CONFIRM}을 누르세요.
+MOUSE_TOOLTIP_ACTIVATE;<color=white><b>발동:</b></color> 구조물의 효과를 발동하려면 구조물을 클릭하세요.
+NEWS_ADDITIONAL_CONTENT;추가 콘텐츠

@@ -1,0 +1,229 @@
+ACTIVATE;<b>Aktivace</b>
+AQUATIC;<b>Vodní</b>
+ARTIFACT;Artefakt
+AUTO_HARVEST;<b>Automatická sklizeň</b>
+BLUE;<sprite="icon_blue" index=0>
+BLUEPRINT_01.name;Zelený začátek
+BLUEPRINT_01.shortdescription;Ovládněte sílu lesa a své lidské armádě zajistěte větší výdrž i pohyblivost. Kořeny zapusťte poblíž studny faerie a vyrazte kupředu k nepřítelově orbu!
+BLUEPRINT_02.name;Červený začátek
+BLUEPRINT_02.shortdescription;Hroziví zlobři neohroženě kráčejí z hor. Přepadněte s těmito hromotluky vašeho nepřítele, poté jej stačí dorazit ohněm.
+BLUEPRINT_03.name;Modrý začátek
+BLUEPRINT_03.shortdescription;Využijte mocné karty událostí, abyste soupeře převálcovali jako velká voda. Použijte své skákací a vodní bytosti, aby sklízely faerii z několika studen zároveň, a zaútočte, až nastane ten správný čas.
+BLUEPRINT_04.name;Žlutý začátek
+BLUEPRINT_04.shortdescription;Okuste temné pouštní slasti. Provádějte zapovězené rituály a získávejte moc ze smrti spojeneckých bytostí. Použijte svůj vlastní život jako pohon vašich kouzel, s nimiž získáte výhodu nad soupeřem a pohltíte jeho orb.
+BLUEPRINT_05.name;Modrá invaze
+BLUEPRINT_05.shortdescription;Využijte své chamtivosti a nechte ji, ať vám dá sílu. Soustřeďte se na sklízení z nepřátelských studen, protože s každou sklizní budou vaše masivní kolosy levnější a levnější.
+BLUEPRINT_06.name;Sláva v boji
+BLUEPRINT_06.shortdescription;Rozdrťe své nepřátele, žeňte je před sebou a zaposlouchejte se do nářku jaků. Velte armádě, která je na bojišti doma. Dar z oceli září nejjasněji v dobách války.
+BLUEPRINT_07.name;Křížová výprava
+BLUEPRINT_07.shortdescription;Žádné slitování. Ihned se vrhněte na nepřítele a útočte na jeho orb za každou cenu, abyste si posílili své Fanatické křižáky.
+BLUEPRINT_08.name;Konečná smlouva
+BLUEPRINT_08.shortdescription;Uzavřete smlouvu se zlobry a hrajte své drahé karty za zlomek původní ceny. Vypusťte draky a monstra a kořist ze slavných vítězství se jen pohrne.
+BLUEPRINT_09.name;Nebeské loďstvo
+BLUEPRINT_09.shortdescription;Velte nebesům. Voliéry zesílí vaše létající loďstvo. Vystoupejte do samotného srdce nepřátelské armády a sešlete na ni zkázu shora.
+BLUEPRINT_10.name;Hněv přírody
+BLUEPRINT_10.shortdescription;Les není vždy tak trpělivý. Zaměřte se na orb, proklestěte cestu svým Lovcům bohů a nechte je vyhledat jejich přirozeného nepřítele – obličej vašeho protivníka.
+CHARGE;<b>Nájezd {0}</b>
+COMBAT;<b>Souboj</b>
+CONVOKE;<b>Svolat</b>
+CORRUPT;<b>Zkažení</b>
+CREATURE;Bytost
+CURRENCY_COIN;Střípky
+CURRENCY_GEM;Klenoty
+DAILY_QUEST_00_NAME;Zakončení
+DAILY_QUEST_01_NAME;Zuřivost
+DAILY_QUEST_02_NAME;Smrt bohů
+DAILY_QUEST_03_NAME;Rozsudek
+DAILY_QUEST_04_NAME;Podmanění
+DAILY_QUEST_05_NAME;Tsunami
+DAILY_QUEST_06_NAME;Rozvoj
+DAILY_QUEST_07_NAME;Inferno
+DAILY_QUEST_08_NAME;Písečná bouře
+DAILY_QUEST_09_NAME;Rovnováha
+DAILY_QUEST_11_NAME;Zázrak
+DAILY_QUEST_12_NAME;Stvoření
+DAILY_QUEST_13_NAME;Boží soud
+DAILY_QUEST_14_NAME;Duelista
+DAILY_QUEST_15_NAME;Veterán
+DAILY_QUEST_16_NAME;Úkol pro přátele
+DAILY_QUEST_18_NAME;Úkol pro přátele
+DAILY_QUEST_27_NAME;Honba za pokladem
+DAILY_QUEST_28_NAME;Ověř se
+DAILY_QUEST_30_NAME;Pandora se probouzí
+DAILY_QUEST_31_NAME;Sleduj a uč se
+DAILY_QUEST_32_NAME;Přátelé až do konce
+DAILY_QUEST_33_NAME;Vystrojený pro úspěch
+DAILY_QUEST_34_NAME;Udělej si sám
+DAILY_QUEST_35_NAME;Mistr řemeslník
+DAILY_QUEST_COMPLETE_ANY_ACT;Dokončete balík misí nebo hádanek
+DAILY_QUEST_COMPLETE_2_WILD_ACTS;Dokončete 4 divoké balíčky misí
+DAILY_QUEST_COMPLETE_ANY_LANE;Dokončete cestu
+DAILY_QUEST_COMPLETE_QUESTS;Dokončete {0} misí
+DAILY_QUEST_COMPLETE_QUESTS_OR_PUZZLES;Dokončete {0} misí nebo hádanek
+DAILY_QUEST_COMPLETE_TRAINING_ACT;Dokončete výcvikový balík
+DAILY_QUEST_CRAFT_CARD;Vytvořte si jednu kartu (dle vlastního výběru)
+DAILY_QUEST_CRAFT_GOLD_CARD;Vytvořte si jednu mýtickou kartu (dle vlastního výběru)
+DAILY_QUEST_CREATE_LANDS;Vytvořte {0} pevnin
+DAILY_QUEST_DEAL_DAMAGE_TO_ENEMIES;Udělte nepřátelům {0} poškození
+DAILY_QUEST_DEAL_DAMAGE_TO_GODS;Udělte bohům {0} poškození
+DAILY_QUEST_DEFEAT_RUUNIN;Porazte v misích Ruunin
+DAILY_QUEST_DEFEAT_SEIFER;Porazte v misích Seifera
+DAILY_QUEST_DEFEAT_SOLO_OPPONENTS;Porazte v misích {0} protivníků
+DAILY_QUEST_DESTROY_CREATURES;Zničte {0} bytostí
+DAILY_QUEST_FIND_AND_DEFEAT_RAPALA;Bojujte v misích, dokud nenajdete Rapalu, a porazte jej
+DAILY_QUEST_OPEN_BATTLE_CHEST;Otevřete bitevní truhlu
+DAILY_QUEST_PERFECT;Vyhrajte hru bez utrpění zranění
+DAILY_QUEST_PLAY_AGAINST_FRIEND;Zahrajte si soukromou hru proti kamarádovi
+DAILY_QUEST_PLAY_ARENA_RUN;Dokončete cestu Pandorou
+DAILY_QUEST_PLAY_BLUE_CARDS;Zahrajte {0} modrých karet
+DAILY_QUEST_PLAY_CREATURES;Zahrajte {0} bytostí
+DAILY_QUEST_PLAY_EVENTS;Zahrajte {0} událostí
+DAILY_QUEST_PLAY_GREEN_CARDS;Zahrajte {0} zelených karet
+DAILY_QUEST_PLAY_NEUTRAL_CARDS;Zahrajte {0} neutrálních karet
+DAILY_QUEST_PLAY_PVP_GAMES;Dokončete {0} her v Bitvě nebo v Pandoře pro více hráčů
+DAILY_QUEST_PLAY_RED_CARDS;Zahrajte {0} červených karet
+DAILY_QUEST_PLAY_WITH_SPECIAL_COSMETIC;Hrajte hru se speciálním orbem nebo avatarem
+DAILY_QUEST_PLAY_YELLOW_CARDS;Zahrajte {0} žlutých karet
+DAILY_QUEST_REACH_LEVEL_8;Dosáhněte úrovně 8
+DAILY_QUEST_SOLVE_PUZZLES;Vyřešte v misích {0} hádanek
+DAILY_QUEST_SPECTATE_FRIEND_WINNING_GAME;Sledujte přítele vyhrát hru
+DAILY_QUEST_VALIDATE_YOUR_EMAIL;Ověřte si svůj email
+DAILY_QUEST_WAIT_FOR_SEIFER;Bojujte v misích, dokud se Seifer nevrátí
+DAILY_QUEST_WIN_DIVINE_CHALLENGES;Dokončete misi ze Sólo kampaně
+DAILY_QUEST_WIN_HIGHLANDER_GAMES;Vyhrajte {0} her v Horalském režimu. Horalský balíček musí mít v sobě 30 různých karet!
+DAILY_QUEST_WIN_PANDORA_GAMES;Vyhrajte {0} her v Pandoře
+DAILY_QUEST_WIN_PVP_GAMES;Vyhrajte {0} her v Bitvě nebo v Pandoře pro více hráčů
+DASH;<b>Výpad {0}</b>
+DEATHTOUCH;<b>Dotyk smrti</b>
+DIVINE;<b>Božská</b>
+EMOTE_FUGORO_LASTWORDS_NAME;Zákazník vždy vyhraje.
+EMOTE_FUGORO_OPENING_NAME;Vítejte, vážený zákazníku!
+EMOTE_FUGORO_THINKING_NAME;Tolik lákavých možností.
+EMOTE_KHALIM_LASTWORDS_NAME;Dobře vybojováno. Vzdávám se.
+EMOTE_KHALIM_OPENING_NAME;Obejmi divoký vítr.
+EMOTE_KHALIM_THINKING_NAME;Musí to nějak jít...
+EMOTE_KROG_LASTWORDS_NAME;Muset jít. Mám hlad!
+EMOTE_KROG_OPENING_NAME;Ať žije král!
+EMOTE_KROG_THINKING_NAME;... Aha! Jsem na řadě!
+EMOTE_MAGDA_LASTWORDS_NAME;Působivé. Vzdávám se.
+EMOTE_MAGDA_OPENING_NAME;Vítej na mém nádvoří.
+EMOTE_MAGDA_THINKING_NAME;Tolik možností.
+EMOTE_RUUNIN_LASTWORDS_NAME;Užij si své vítězství.
+EMOTE_RUUNIN_OPENING_NAME;Lovkyně je zde.
+EMOTE_RUUNIN_THINKING_NAME;Zajímalo by mě...
+EVENT;Událost
+FAERIA;<sprite="icon_faeria_cost" index={0}>
+FLYING;<b>Let</b>
+GIFT;<b>Dar</b>
+GREEN;<sprite="icon_green" index=0>
+HASTE;<b>Spěch</b>
+ICON_COIN;<sprite="icon_coin" index=0><b>{0}</b>
+ICON_GEM;<sprite="icon_gem" index=0><b>{0}</b>
+IGNORE;Ignorovat
+JUMP;<b>Skok</b>
+LANGUAGE_NAME_NATIVE;Čeština
+LAST_WORDS;<b>Poslední slova</b>
+OPTIONS;<b>Vyberte jednu</b>
+PRODUCTION;<b>Produkce</b>
+PROTECTION;<b>Ochrana</b>
+QUEST_LANE_ACT_AURORA_NAME;Aurora
+QUEST_LANE_ACT_FUGORO_NAME;Fugoro
+QUEST_LANE_ACT_HOAKA_NAME;Hoaka
+QUEST_LANE_ACT_JALMYR_01_NAME;Jalmyr I
+QUEST_LANE_ACT_JALMYR_02_NAME;Jalmyr II
+QUEST_LANE_ACT_JALMYR_03_NAME;Jalmyr III
+QUEST_LANE_ACT_JALMYR_04_NAME;Jalmyr IV
+QUEST_LANE_ACT_MAGDA_NAME;Magda
+QUEST_LANE_ACT_RAPALA_NAME;Rapala
+QUEST_LANE_ACT_SEIFER_NAME;Seifer
+QUEST_LANE_ACT_SHARRA_NAME;Sharra
+QUEST_LANE_ACT_TRAINING_NAME;Výcvik
+RANGED_ATTACK;<b>Střelba</b>
+RED;<sprite="icon_red" index=0>
+SLAM;<b>Otřes</b>
+SUBTYPE_YAK;Jak
+SUBTYPE_TRITON;Tritón
+SUBTYPE_BEAST;Šelma
+SUBTYPE_MECHA;Mecha
+SUBTYPE_RAKOAN;Rakoan
+SWALLOW;<b>Spolkne</b>
+STRUCTURE;Budova
+TAUNT;<b>Provokace</b>
+TOOLTIP_AQUATIC;<color=white><b>Vodní:</b></color> Může se pohybovat pouze po jezerech nebo po moři.
+TOOLTIP_CHARGE;<color=white><b>Nájezd {0}:</b></color> Může se pohnout až o {0} míst v jednom směru.
+TOOLTIP_COMBAT;<color=white><b>Souboj:</b> Něco se stane, když tato bytost bojuje.
+TOOLTIP_CONVOKE;<color=white><b>Svolat:</b> Můžete zahrát bytosti na jakémkoliv místě vedle tohoto, i kdyby to bylo nepřátelské místo.
+TOOLTIP_CORRUPT;<color=white><b>Zkažení:</b></color> Ve chvíli, kdy tato bytost vejde na nepřátelské území, se něco stane.
+TOOLTIP_DARK_RITUAL;<color=white><b>Temný rituál:</b> Když zahrajete tuto kartu, MŮŽETE obětovat bytost a získat výhodu.
+TOOLTIP_DASH;<color=white><b>Výpad {0}:</b></color> Když přivoláte tuto bytost, můžete s ní ihned pohnout až o {0} míst v jednom směru.
+TOOLTIP_DEATHTOUCH;<color=white><b>Dotyk smrti:</b> Zničí každou bytost, která dostane poškození od této bytosti.
+TOOLTIP_DIVINE;<color=white><b>Božská:</b></color> Nemůže být zaměřena údálostmi či schopnostmi.
+TOOLTIP_FLYING;<color=white><b>Let:</b></color> Může se pohybovat přes moře.
+TOOLTIP_GIFT;<color=white><b>Dar:</b></color> Něco se stane, když tuto bytost zahrajete z ruky.
+TOOLTIP_HASTE;<color=white><b>Spěch:</b></color> Nemusí čekat na další tah, aby mohla zaútočit, pohnout se nebo sklízet.
+TOOLTIP_JUMP;<color=white><b>Skok:</b></color> Pohybuje se až o 2 místa. Skáče přes překážky.
+TOOLTIP_LAST_WORDS;<color=white><b>Poslední slova:</b></color> Něco se stane, když tato bytost zemře.
+TOOLTIP_OPTIONS;<b>Vyberte jednu:</b> Nabídne výběr z několika možností.
+TOOLTIP_PRODUCTION;<color=white><b>Produkce:</b></color> Něco se stane na začátku vašeho tahu.
+TOOLTIP_PROTECTION;<color=white><b>Ochrana:</b></color> Zabraní prvnímu poškození, které by tato bytost dostala.
+TOOLTIP_RANGED_ATTACK;<color=white><b>Střelba:</b></color> Může útočit na dálku po přímé čáře, nelze ovšem útočit skrz ostatní jednotky (ani spojenecké). Nemůže se pohybovat a útočit během stejného tahu.
+TOOLTIP_SWALLOW;<color=white><b>Spolkne:</b></color> Uvězní v sobě bytost. Uvězněná bytost je propuštěna na svobodu, když její věznitel zemře (nelze spolknout bytost, která spolkla jinou bytost).
+TOOLTIP_TAUNT;<color=white><b>Provokace:</b></color> Nepřátelské bytosti přilehlé k této jednotce se nemohou pohybovat a zaútočit mohou jen na tuto jednotku.
+TOOLTIP_WILD;<color=white><b>Divoká:</b></color> Za divoké karty se považují takové, které vyžadují jen speciální pevniny libovolných barev.
+WILD;<b>Divoká</b>
+YELLOW;<sprite="icon_yellow" index=0>
+NEWS_DEFENDING;Obrana před rushem
+NEWS_FAERIA_TALES;Příběhy z Faerie: Cesta k verzi 1.0
+NEWS_OVERSKY;Rozšíření: Zánebí je tu
+NEWS_PATCH_ANALYSIS;Rozbor balancující aktualizace
+NEWS_PATCH_NOTES;Změny
+NEWS_RECRUIT_FRIEND;Naverbovat kamaráda
+NEWS_STEAM_NEWS;Exkluzivně: Faerijský balíček pro Steam
+NEWS_WAR_EFFORT;Přidejte ruku ke Společnému dílu
+NEWS_WELCOME;Faerijská akademie
+DAILY_QUEST_1400_NAME;Příběh
+DAILY_QUEST_PLAY_CARD_3_TIMES;Třikrát zahrajte kartu {0}
+NEWS_B2P_RELEASE;Nový obsah a změny v monetizaci
+NEWS_FOE_DLC;Rozšíření Pád Nesmrtelna
+NEWS_PREMIUM_DLC;Aktivace prémiového účtu
+NWILD;<sprite="icon_wild_cost" index={0}>
+NEWS_THE_HUB;Hub
+NEWS_RESURGENCE_CARDS;Karty ze Zhojení
+NEWS_RESURGENCE;Rozšíření Zhojení
+NYELLOW;<nobr><b>{0}</b><sprite="icon_yellow" index=0></nobr>
+NRED;<nobr><b>{0}</b><sprite="icon_red" index=0></nobr>
+NHUMAN;<nobr><b>{0}</b><sprite="icon_human" index=0></nobr>
+NGREEN;<nobr><b>{0}</b><sprite="icon_green" index=0></nobr>
+NBLUE;<nobr><b>{0}</b><sprite="icon_blue" index=0></nobr>
+MUTAGEN_SETUP_TETHRA_LAND_4;Drak začíná hru s <b>Tethrou</b> v ruce s cenou 5f a 5 divokých pevnin.
+MUTAGEN_SETUP_OROSEI_LAND_4;Drak začíná hru s <b>Orosei</b> v ruce s cenou 5f a 5 divokých pevnin.
+MUTAGEN_SETUP_MONO_COLOR_COSTS_MORE;Jednobarevné karty stojí o 2 více.
+MUTAGEN_SETUP_HARVEST_COSTS_2_LIFE;Kdykoliv sklidíte faerii, budou vám udělena 2 poškození.
+MUTAGEN_SETUP_GARUDAN_LAND_4;Drak začíná hru s <b>Garudanem</b> v ruce s cenou 5f a 5 divokých pevnin.
+MUTAGEN_SETUP_FAERIA_LIMITED_TO_6;Nemůžete mít více než 6 faerie.
+MUTAGEN_SETUP_EVERYONE_IS_SHOZEN;Kdykoliv by měla některá z bytostí draka v souboji zničit bytost, spolkne ji a získá nad ní nadvládu.
+MUTAGEN_SETUP_EVENTS_COST_MORE;Vaše události stojí o 2 více.
+MUTAGEN_SETUP_ENEMIES_HAVE_DEATHTOUCH;Bytosti draka mají Dotyk smrti.
+MUTAGEN_SETUP_EMPOWER_ENEMIES_WHEN_YOUR_CREATURES_DIE;Kdykoliv zemře vaše bytost, všechny bytosti draka získají +1/+1.
+MUTAGEN_SETUP_DRAW_TWICE_ON_PLAY;Kdykoliv zahrajete kartu, líznete si 2.
+MUTAGEN_SETUP_DAMAGE_ON_PLAYED_CREATURES;Kdykoliv vyvoláte bytost, budou jí udělena 2 poškození.
+MUTAGEN_SETUP_CREATE_RANDOM_AI_LANDS;Na začátku hry drak vytvoří 3 neutrální pevniny na náhodných místech.
+MUTAGEN_SETUP_CREATURES_COST_MORE;Vaše bytosti stojí o 2 více.
+MUTAGEN_SETUP_AZARAI_LAND_4;Drak začíná hru s <b>Azarai</b> v ruce s cenou 5f a 5 divokých pevnin.
+MUTAGEN_SETUP_ALL_CARDS_COST_AT_LEAST_5;Každá karta ve vašem balíčku s cenou nižší než 5 nyní stojí 5.
+HUMAN;<sprite="icon_human" index=0>
+DRAGON_TYPE_TETHRA;Tethra
+DRAGON_TYPE_OROSEI;Orosei
+DRAGON_TYPE_GARUDAN;Garudan
+DRAGON_TYPE_CELESTE;Celeste
+DRAGON_TYPE_AZARAI;Azarai
+TOOLTIP_DISCOVER;<color=white><b>Objeví:</b></color> Vyberte si jednu ze tří karet a přidejte si ji do ruky.
+DISCOVER;<b>Objeví</b>
+TOOLTIP_DRAGONS_LAIR_REWARD;Abyste odemkli tuto odměnu, porazte {0} ještě {1}×.
+NEWS_GAGANA_CARDS;Karty z Gagany
+NEWS_GAGANA;Rozšíření Gagana
+GAMEPAD_RIGHT_BUTTONS_LEFT;<sprite="icon_gamepad_button_{gamepad_type}" index=9>
+GAMEPAD_RIGHT_BUTTONS_TOP;<sprite="icon_gamepad_button_{gamepad_type}" index=11>
+GAMEPAD_TOOLTIP_ACTIVATE;<color=white><b>Aktivovat:</b></color> Stiskněte {GAMEPAD_ACTION_CONFIRM} na této Budově k aktivaci jejího efektu.
+MOUSE_TOOLTIP_ACTIVATE;<color=white><b>Aktivovat:</b></color> Klikněte na tuto Budovu k aktivaci jejího efektu.
+NEWS_ADDITIONAL_CONTENT;Dodatečný obsah

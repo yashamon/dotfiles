@@ -1,0 +1,616 @@
+ACCEPT;Přijmout
+ACCOUNT_RECOVERY;Obnovení účtu
+ACCOUNT_RECOVERY_TITLE;Obnovit Účet
+ACTIVATION_KEY;Aktivační Klíč
+ADD_A_FRIEND;Přidat přítele prostřednictvím jeho id
+ADD_NEW_DECK;Nový balíček
+ADVENTURE_POUCH_POINTS;Body ve Vaku dobrodružství
+ALLY_TURN;Spojenec táhne
+AMBIENT;Okolí
+ARENA_RUN_DECK_NAME;Balíček do Pandory
+BACK;ZPĚT
+BIND_ACCOUNT_BUTTON;Spojeno s {0}
+BIND_ACCOUNT_LABEL;Už máte Faeria účet?
+BLUEPRINT_PANEL_TEXT1;Nejprve zkuste upravit jeden z předem vytvořených balíčků.
+BLUEPRINT_PANEL_TEXT2;Pomocí tlačítka níže můžete sestavit i vlastní balíček
+BLUEPRINT_PANEL_TITLE;Chcete si vytvořit svůj vlastní balíček?
+BLUEPRINT_REQUIREMENT_LEVEL;DOSÁHNOUT ÚROVNĚ
+BLUEPRINT_REQUIREMENT_QUEST;DOKONČETE VÍCE MISÍ PRO ODEMČENÍ TOHOTO VZORCE
+BOOSTER_OPENING_GEMSTITLE;Krystaly vzácnosti
+BOSS_DEFEATED;Poražen
+BOSS_NOT_RELEASED;Bude vydáno
+BUILD_YOUR_DECK;Vlastní balíček
+CANCEL;Zrušit
+CARD_LIMIT_MESSAGE;V každém balíčku mohou být maximálně 3 stejné karty.
+CHAT_ERROR_MESSAGE_TOO_LONG;Zpráva je moc dlouhá (max. {0} znaků).
+CHAT_ERROR_NOBODY_TO_REPLY_TO;Není tu komu odpovědět.
+CHAT_ERROR_NOT_CONNECTED;Vaše spojení bylo ztraceno. Zkuste se odhlásit a zase přihlásit.
+CHAT_ERROR_NO_INTERLOCUTOR;Nikomu nepíšete. Pro odeslání zprávy použijte příkaz /w, seznam přátel nebo klikněte na jméno v chatu.
+CHAT_ERROR_ONLY_WITH_FRIENDS;Můžete chatovat jenom s lidmi, které máte ve svém Seznamu přátel.
+CHAT_ERROR_RECIPIENT_IS_OFFLINE;{0} je offline. Zprávy můžete posílat jen online uživatelům.
+CHAT_GENERIC_WARNING;Nezapomeňte, že žádný zaměstnanec společnosti Abrakam Entertainment vás nikdy nebude žádat o sdělení hesla. Nezveřejňujte v chatu žádné citlivé údaje.
+CHAT_HINT_USER_BACK_ONLINE;{0} je zase online!
+CHAT_HINT_USER_WENT_OFFLINE;{0} šel offline.
+CHAT_INPUT_PLACEHOLDER;/w jméno Vaše zpráva.
+CHAT_TOOLTIP_DND_MODE;Režim nerušit. Pokud je povolený, toto okno se neotevře, když obdržíte zprávu. Zprávy budou přijímány potichu.
+CHAT_TO_SOMEBODY;Pro [{0}]: {1}
+CHEST_OPENING_NO_MORE_CHEST;Zvyšujte svou úroveň a plňte denní úkoly, abyste získali více truhel!
+CHEST_OPENING_NO_MORE_MYTHIC_ITEMS;V tuto chvíli máte všechny mytické předměty. Vraťte se později.
+CHOOSE_OTHER_BLUEPRINT;Změnit Vzorec
+CLAIM_REWARDS;Vzít si svou výhru
+CLEAR;Vyčistit
+COLLECTION_FILTER_CARD_TYPE;Filtrovat podle typu karty
+COLLECTION_FILTER_FAERIA_COST;Filtrovat podle ceny Faerie
+COLLECTION_MODE;Tvorba
+COLLECTION_SEARCH_PLACEHOLDER;Hledat...
+CONFIRM;Potvrdit
+CONNECTION_LOST_RECONNECTING;Spojení ztraceno\nSnažíme se vás znovu připojit...
+CONNECTION_QUEUE_CAPTION;Vaše místo v řadě:
+CONNECTION_QUEUE_TITLE;Servery jsou plné!
+CONSTRUCTED_MODE;Hodnocený režim
+CONSTRUCTED_RUN_DECK_NAME;Balíček pro Hodnocený režim
+CO_OP_POPUP_JOIN_BUTTON_TEXT;Připojit se
+CO_OP_POPUP_LOCKED_BUTTON_TEXT;Hrát
+CO_OP_POPUP_LOCKED_BUTTON_NOTIFICATION_TEXT;Nejdříve je potřeba dohrát předchozí mise
+CO_OP_POPUP_ALLY_SELECTION_TITLE;Pozvat spojence
+CO_OP_POPUP_NO_ALLY;Nejsou dostupní žádní spojenci.
+CO_OP_LOBBY_CANCELLED;Spojenec zrušil misi
+COUPON_REDEEM;Uplatnit
+CRAFT_CANNOT_DISENCHANT_CARD_FROM_DECK_WHILE_SEARCHING;Nemůžete odočarovat tuto kartu, zatímco hledáte hru.
+CRAFT_LEGENDARY_ERROR;Legendární karty nelze ukovat.
+CRAFT_GOLD_CARD_ERROR;Mytické karty nelze ukovat.
+CRAFT_FOURTH_CARD;Už vlastníte 3 nebo více kopií této karty.
+CRAFT_NOT_ENOUGH_CHARGES;Již jste spotřebovali všechny pokusy.
+CRAFT_FULLY_CHARGED;Plno
+CRAFT_ACCOUNT_LEVEL_TOO_LOW;Pro ukování této karty potřebujete minimálně úroveň {0}
+CRAFT_MODE_BUTTON_TEXT_CONFIRM_CRAFT;Vytvořit
+CRAFT_MODE_BUTTON_TEXT_CONFIRM_DISENCHANT;Odočarovat
+CRAFT_MODE_BUTTON_TEXT_DISENCHANT_ALL_IN_EXCESS;Odočarovat přebytečné karty
+CRAFT_MODE_UNAVAILABLE_TOOTIP;Musíte dosáhnout úrovně {0}, abyste mohli používat Tvorbu
+CRAFT_SECOND_LEGENDARY_CARD;Už vlastníte tuto legendární kartu
+CREATE_BLUEPRINT_DECK;Vytvořit
+CREATE_YOUR_ACCOUNT;Vytvořit účet
+DAILY_REWARD_NEXT;Příště
+DAILY_REWARD_TITLE;Denní odměna za přihlášení
+DAILY_REWARD_POPUP_TITLE;Denní bonus za přihlášení!
+DECKEDITOR_GOLD_CARD_FILTER_TOGGLE_TEXT;Ukázat mytické?
+DECKEDITOR_NON_GOLD_CARD_FILTER_TOGGLE_TEXT;Základní
+DECKEDITOR_SAVETEXT;Uložit
+DECKLAYOUT_INCOMPLETE_TEXT;Nedokončený
+DECKSELECTION_SOLO_INFO;Tady si vybíráte balíčky pro mise. Chcete-li si vytvořit či upravit balíček, vraťte se do hlavního menu.
+DECK_EDITOR_BUY_BATTLE_CHEST;Nakupte bitevní truhly, abyste získali více karet.
+DECK_EDITOR_FILTER_NO_RESULT;Žádné karty neodpovídají vašim vyhledávacím požadavkům.
+DECK_EDITOR_NO_FILTERED_CARD_IN_COLLECTION_BLUE;Nemáte žádné modré karty.
+DECK_EDITOR_NO_FILTERED_CARD_IN_COLLECTION_GREEN;Nemáte zelené karty.
+DECK_EDITOR_NO_FILTERED_CARD_IN_COLLECTION_HUMAN;Nemáte neutrální karty.
+DECK_EDITOR_NO_FILTERED_CARD_IN_COLLECTION_RED;Nemáte žádné červené karty.
+DECK_EDITOR_NO_FILTERED_CARD_IN_COLLECTION_YELLOW;Nemáte žádné žluté karty.
+DECK_SIZE;Velikost Balíčku:
+DECK_SLOT_PURCHASE;+5 balíčků navíc
+DELETE;Smazat
+DISCONNECT;Odpojeno
+DISENCHANT_ALL_FOR_MEMORIA;+{0}
+DISENCHANT_UNAVAILABLE_TOOTIP;Musíte mít více než {0} karet pro Odočarování
+DONE;Hotovo
+DROP_RUN;Odejít
+DYNAMIC_BUNDLE_CONFIRM_WARNING;Dynamická nabídka: Již vlastníte některé z položek v této nabídce, podle čehož byla upravena cena.
+EDIT;Upravit
+ELITE_MISSIONS_BUTTON_TEXT;Bossové světa
+ELITE_MISSIONS_BUTTON_TOOLTIP;Vyžaduje úroveň {0}
+EMAIL_ADDRESS;E-mailová adresa
+EMOTE_MENU_GREETINGS;Uvítání
+EMOTE_MENU_OOPS;Ups
+EMOTE_MENU_TAUNT;Provokace
+EMOTE_MENU_UNIQUE;Speciální
+EMOTE_MENU_WELL_PLAYED;Dobře zahráno
+EMOTE_MENU_WOW;Wow
+END_TURN;Ukončit tah
+ENEMY_TURN;Protihráč táhne
+ENTER_DECK_NAME;Napište jméno balíčku
+ENTER_YOUR_RECRUITERS_NAME;Napište jméno vašeho náboráře...
+EVENING;Večer
+EVENT_BUTTON_TEXT_SEND;poslat
+EVENT_EGG_HATCHING_HAS_EGG;Zdá se, že je váš inkubátor prázdný. Pokud najdete nové vajíčko, můžete se tu o něj starat!\n\nChcete-li své vlastní vajíčko, sledujte naše streamy na Twitchi FaeriaTV.\n\n<align="center"><link="https://www.twitch.tv/faeriatv">https://www.twitch.tv/faeriatv</link></align>
+EVENT_EGG_HATCHING_NO_EGG;Vítejte ve svém inkubátoru. Vaše Vejce je zde v bezpečí a teple, dokud se nevylíhne!\nPodívejte se dolů a zkontrolujte, jestli je Vejce v bezpečí, a kdo ví, možná nebudete muset čekat dlouho...\nJakmile se vaše Vejce vylíhne, můžete ho nahradit dalším. Nezapomeňte sledovat naše další Monthly Cup Finals!
+EVENT_HATCH_EGG_BUTTON;Nechat Vejce vylíhnout
+EVENT_INPUT_FIELD_HINT_ENTER_EMAIL;Napište e-mail svého kamaráda
+EVENT_TEXT_LOCK_OVERLAY;Druhý klíč odemknete vítězstvím v 5 hrách Pandory.
+EVENT_TEXT_TITLE;Akce: Pozvěte své přátele
+EXIT_CRAFT_MODE;Tvorba
+FAERIA_AVERAGE;Průměr faerie
+FRIENDLIST;Seznam přátel
+FRIENDLIST_FRIEND_REQUEST;Zobrazit žádost o přátelství
+FRIENDLIST_RECENTLY_PLAYED_SUGGESTION;Zobrazit doporučení
+FRIENDLIST_STEAM_FRIEND_SUGGESTION;Zobrazit doporučení ze Steamu
+FRIENDLIST_GAME_INVITE;Zobrazit pozvánku do hry
+FRIENDLIST_DISCORD_HINT;Připojte se na náš Discord server!
+FRIENDLIST_FRIEND;Přítel
+FRIENDLIST_INGAME;Ve hře
+FRIENDLIST_INVITE_TO_LOBBY;Pozvat do místnosti
+FRIENDLIST_INVITE_TO_TOURNAMENT;Pozvat na turnaj
+FRIENDLIST_IN_LOBBY;V místnosti
+FRIENDLIST_OFFLINE;Offline
+FRIENDLIST_ONLINE;Online
+FRIENDLIST_RECENTLY_PLAYED;Nedávný protihráč
+FRIENDLIST_REMOVE;Odebrat přítele
+FRIENDLIST_REQUEST_INITIATOR;Čeká se na odpověď
+FRIENDLIST_REQUEST_RECIPIENT;Žádost o přátelství
+FRIENDLIST_SEND_MESSAGE;Poslat zprávu
+FRIENDLIST_SPECTATE_GAME;Sledovat hru
+FRIENDLIST_SPECTATING;Sleduje
+FRIENDLIST_SPECTATING_YOU;Sleduje tě
+FRIENDLIST_SUGGESTED;Doporučený
+FRIENDLIST_SUGGEST_TO_LOBBY;Doporučený do místnosti
+FRIENDLIST_VIEW_PROFILE;Zobrazit profil
+FRIENDLIST_WAITING_FOR_RECIPIENT_ACCEPTANCE;Žádost o přátelství
+FX;Efekty
+GAME_CONNECTION_LOST_RECONNECTING;Spojení se hrou ztraceno\nSnažíme se vás znovu připojit...
+GAME_HAS_CRASHED;Hra spadla ({0}). Byla pro tento svět příliš krásná.
+GEM_BONUS_AMOUNT;+ {0} Bonus
+GEM_PURCHASE_POPUP_TITLE;Vyberte klenoty
+GEM_PURCHASE_POPUP_TITLE_NOT_ENOUGH_GEM;Nemáte dostatek klenotů. Je načase nějaké získat!
+GENERAL;Všeobecné
+GENERIC_BUTTON_TEXT_PLAY;Hrát
+GENERIC_BUTTON_TEXT_SHOP;Obchod
+GENERIC_GAMEPLAY_ATTACK;Útok
+GENERIC_GAMEPLAY_COST;Cena
+GENERIC_GAMEPLAY_LIFE;Život
+GENERIC_GAMEPLAY_WILD_COST;Barevná cena
+GOT_IT;Chápu!
+GO_TO_CRAFT_MODE;Tvorba
+GO_TO_SHOP_BUTTON_TEXT;Jít do obchodu
+GOLD_MINER_HIRING_TITLE;Děkuji, že jste mě zaměstnali!\nHned se pustím do práce.
+GOLD_MINER_REGULAR_GOLD;Ahoj {0}.\nTady jsou tvoje střípky.
+GOLD_MINER_ABOVE_AVERAGE_GOLD;Dnes jsem měl hodně štěstí v dolech!
+GOLD_MINER_JACKPOT;U všech jaků, trefili jsme jackpot!
+GOLD_MINER_LONG_DELAY_REGULAR_GOLD;Konečně tě zase vidím! Tady, tvoje střípky.
+GOLD_MINER_LONG_DELAY_ABOVE_AVERAGE_GOLD;Konečně tě zase vidím! Tady, tvoje střípky.
+GOLD_MINER_LONG_DELAY_JACKPOT;Jsi konečně zpátky! Trefili jsme jackpot!
+GRAPHIC_QUALITY_HIGHER;Vyšší
+GRAPHIC_QUALITY_HIGHEST;Nejvyšší
+GRAPHIC_QUALITY_HIGH_IPAD;Vysoká
+GRAPHIC_QUALITY_LOWER;Nížší
+GRAPHIC_QUALITY_LOWEST;Nejnížší
+GRAPHIC_QUALITY_LOW_IPAD;Nízká
+GRAPHIC_QUALITY_TITLE;Kvalita
+GUEST_ACCOUNT_NAME;Host
+INFO_NB_CONNECTED;Hráčů připojeno: {0}
+INFO_NB_FINDING_ARENA;Hledání Pandory: {0}
+INFO_NB_FINDING_CLASSIC;Hledání Nehodnocených her: {0}
+INFO_NB_FINDING_CONSTRUCTED;Hledání Hodnocených her: {0}
+INFO_NB_GAMES;Ve hře: {0}
+INFO_TIME_TO_FIND_GAME;Přibližný čas vyhledávání: {0}
+INGAME_DEFEAT;Prohra
+INGAME_OPPONENT_STILL_MULLIGAN;Protivník si stále mění karty
+INGAME_ALLY_STILL_MULLIGAN;Spojenec si stále mění karty
+INGAME_PANDORA_OPENS;Pandora se probouzí!
+INGAME_PLAYER_TURN;Táhne {0}
+INGAME_PUZZLE_SOLVED;Hádanka vyřešena!
+INGAME_PUZZLE_WIN_THIS_TURN;Vyhrajte v tomto tahu!
+INGAME_VERSUS;Proti
+INGAME_VICTORY;Vítězství
+INGAME_YOUR_TURN;Váš tah!
+INVITED_TO_LOBBY;{0} vás pozval(a) do hry.
+ITEM_RARITY_COMMON;Běžné
+ITEM_RARITY_EPIC;Epické
+ITEM_RARITY_LEGENDARY;Legendární
+ITEM_RARITY_RARE;Vzácné
+ITEM_VALUE;Hodnota
+KEEP;UDRŽET
+KICKED_FROM_LOBBY;Byli jste vyhozeni z místnosti.
+LANE_COMPLETED_QUEST;Dokončeno!
+LANE_NEW_QUEST;Nové!
+LANE_UNLOCKED;Odemknuto!
+LANGUAGE;Jazyk :
+LEAGUE_UP;Vyšší liga!
+LEGENDARY_CARD_LIMIT_MESSAGE;Každá legendární karta může být v balíčku jen jednou.
+LEVEL;Level {0}
+LOADING;Načítání
+LOADING_LONG;Načítání trvá déle než obvykle.
+LOBBY_ACCOUNT_SUGGESTED;Doporučený
+LOBBY_DECK_PICKING_CANCELED;Výber balíčku byl zrušen: {0}.
+LOBBY_GAME_INVITE_PENDING;Pozvánka nevyřízena...
+LOBBY_KICK_PLAYER;Vyhodit hráče
+LOBBY_PLAYERS_IN_GAME;Čeká se na hřáče co jsou stále ve hře...
+LOBBY_PLAYERS_PICKING_DECKS;Hráči si vybírají balíčky...
+LOBBY_PLAYER_1_STATUS;Hráč 1
+LOBBY_PLAYER_2_STATUS;Hráč 2
+LOBBY_READY_BUTTON_TEXT;Připraven
+LOBBY_SET_PLAYER_1;Nastavit jako hráče 1
+LOBBY_SET_PLAYER_2;Nastavit jako hráče 2
+LOBBY_SET_SPECTATOR;Nastavit jako diváka
+LOBBY_SPECTATOR_STATUS;Dívák
+LOBBY_CO_OP_WITH;Po boku
+MAINMENU_BUTTON_BOOSTERS;Truhly
+MAINMENU_BUTTON_COLLECTION;Sbírka
+MAINMENU_BUTTON_DAILY_QUESTS;Denní úkoly
+MAINMENU_BUTTON_EVENT_END_TIME;Akce končí za {0} hodin a {1} minut.
+MAINMENU_BUTTON_FRIEND_LIST;Seznam přátel
+MAINMENU_BUTTON_HOME;Domů
+MAINMENU_BUTTON_SETTINGS;Nastavení
+MAINMENU_TITLE_BATTLE;BITVA
+MAINMENU_TITLE_PANDORA;PANDORA
+MAINMENU_TITLE_SOLO;DOBRODRUŽSTVÍ
+MAINMENU_TITLE_VIEWPROFILE;Zobrazit profil
+MAP_QUEST_LOCKED;Uzamčeno
+MARKET_BUTTON_BUY_GEMS;Info
+MARKET_CATEGORY_AVATAR;Avatar
+MARKET_CATEGORY_BUNDLE;Nabídka
+MARKET_CATEGORY_CARD_BACK;Rub karet
+MARKET_CATEGORY_EMOTES;Hláška
+MARKET_CATEGORY_ORB;Orb
+MARKET_CATEGORY_WELL;Studna
+MARKET_FEATURED_TAB_AVATAR;Avataři
+MARKET_FEATURED_TAB_BUNDLE;Nabídky
+MARKET_FEATURED_TAB_CARD_BACK;Ruby karet
+MARKET_FEATURED_TAB_EMOTE;Hlášky
+MARKET_FEATURED_TAB_ORB;Orby
+MARKET_FEATURED_TAB_WELL;Studny
+MARKET_HOW_MANY_CHEST;Kolik jich chcete?
+MARKET_ITEM_CONFIRM_PURCHASE;KOUPIT
+MARKET_ITEM_OWNED;Vlastněno
+MARKET_MENU_FEATURED;Doporučené
+MARKET_PROCESSING_ORDER;Zpracovávám...
+MARKET_ROTATINGITEMS_TITLE;Denní nabídka
+MARKET_TITLE;Obchod
+MATCHES_FORMAT;Formát zápasu:
+MISSION_PACK_NPC_REWARD_TOOLTIP;Za dokončení poslední mise tohoto balíku získáte speciálního spojence
+MISSION_PACK_XP_REWARD_TOOLTIP;Za dokončení misí v tomto balíku získáte tolik zkušeností
+MORNING;Ráno
+MULLIGAN;Chcete si ponechat karty, nebo si líznout nové?
+MULLIGAN_BUTTON_TEXT_CONFIRM;Potvrdit
+MULLIGAN_HINT_TEXT;Změnit
+MUSIC;Hudba
+MY_CHESTS;Moje truhly
+NEW_ACCOUNT_BUTTON;Vytvořit účet
+NEW_ACCOUNT_LABEL;Nový ve Faerii?
+NEW_ACCOUNT_WARNING;Pokud už máte Faeria účet, nebudete ho moci použít s tímto {0} účtem!
+NEW_CARD_HINT;Nová
+NEW_DAILY_QUEST_RECEIVED;Obdrželi jste nové denní úkoly!
+NEW_DECK_NAME;Můj balíček
+NIGHT;Noc
+NO_DAILY_QUESTS_LEFT;Už nemáte žádné denní úkoly. Zkuste to zítra!
+OBJECTIVES;Úkoly
+OK;Ano
+OVERSKY;Zánebí
+OVERSKY_ALL_CARDS_NAME;Všechny karty ze Zánebí
+OVERSKY_BUY_ISLAND_BUTTON_TEXT;Zakoupit ostrov
+OVERSKY_BUY_ISLAND_TEXT;Tento ostrov nevlastníte.\nPro získání odměn za tuto misi jej musíte nejdříve zakoupit.
+OVERSKY_CARD_REWARD;<size=200%><color=white>{0}</color></size> po zakoupení budou do vaší sbírky přidány nové karty
+OVERSKY_ISLAND_BUNDLE_DISCOUNTED_TOOLTIP;Cena nabídky byla upravena, protože tento ostrov již vlastníte
+OVERSKY_COSMETIC_SET_TOOLTIP;Obsahuje následující legendární položky: rub karet, studny, avatar a orb
+OVERSKY_GET_POINTS_EMPEROR;Císařova výzva
+OVERSKY_GET_POINTS_MISSION;Zánebská mise
+OVERSKY_GET_POINTS_PVP;Výhra v PvP
+OVERSKY_GET_POINTS_WILD_PACK;Dokončen bláznivý balík misí
+OVERSKY_GET_POINTS_WORLD_BOSS;Poražen boss
+OVERSKY_GETTING_POINTS;Získávání bodů pro váš vak
+OVERSKY_LIMITED_BOSS_BATTLE_DESCRIPTION_OWNED;Mocný císař Mirnastu pro vás každý den připraví novou výzvu. Získejte body pro svůj vak pokaždé, když jej v daný den poprvé porazíte.
+OVERSKY_LIMITED_BOSS_BATTLE_DESCRIPTION_NOT_OWNED;Mocný císař Mirnastu pro vás každý den připraví novou výzvu. S vakem získáte přístup k tomuto časově omezenému hernímu módu.
+OVERSKY_LIMITED_BOSS_BATTLE_NAME;Císařova výzva
+OVERSKY_ONE_ISLAND;Tento ostrov
+OVERSKY_POINTS_REWARD;body pro váš vak
+OVERSKY_POUCH_OWNED_CONTENT_TITLE;Vaše odměny z Vaku dobrodružství
+OVERSKY_POUCH_OWNED_CONTENT_DESCRIPTION;Pokračujte ve sbírání bodů pro váš Vak dobrodružství a získejte tolik odměn, kolik jen půjde! Níže naleznete jejich seznam a zjistíte, jak postupujete.
+OVERSKY_POUCH_OWNED_ENDED;Váš Vak dobrodružství se uzavřel
+OVERSKY_POUCH_OWNED_END_DAYS;Váš Vak dobrodružství se otevře ihned a uzavře za {0} den/dny/dnů
+OVERSKY_POUCH_OWNED_END_HOURS;Váš Vak dobrodružství se otevře ihned a uzavře se za {0} hodin(u/y) a {1} minut(u/y)
+OVERSKY_POUCH_NOT_OWNED_CONTENT_TITLE;Odměny z Vaku dobrodružství
+OVERSKY_POUCH_NOT_OWNED_CONTENT_DESCRIPTION;Kupte si svůj Vak dobrodružství nyní, abyste získali tyto odměny - kolik bodů dokážete nastřádat, než se Vak dobrodružství uzavře?
+OVERSKY_POUCH_NOT_OWNED_ENDED;Čas vypršel! Vak dobrodružství již není dostupný.
+OVERSKY_POUCH_NOT_OWNED_END_DAYS;Váš Vak dobrodružství se uzavře za {0} den/dny/dnů
+OVERSKY_POUCH_NOT_OWNED_END_HOURS;Váš Vak dobrodružství se uzavře za {0} hodin(u/y) a {1} minut(u/y)
+OVERSKY_POUCH_NAME;Vak dobrodružství
+OVERSKY_POUCH_TIER_REWARD_EVERY_TEN;Mytická verze jedné z vašich karet ze Zánebí\n<size=60%>Pokud již máte plnou sbírku mytických karet ke všem kartám ze Zánebí, které vlastníte, získáte tuto odměnu po vašem dalším nákupu ostrova.</size>
+OVERSKY_POUCH_TIER_REWARD_KAIOS_AVATAR_AND_EMOTES;Kaiův avatar a hlášky
+OVERSKY_POUCH_TOOLTIP;Zvyšujte úroveň svého vaku a odemkněte exkluzivní odměny! Více informací naleznete na faeria.com/oversky.
+OVERSKY_SHOP_SLIDER_ITEM_NAME;Herní obsah ze Zánebí
+OVERSKY_SHOP_SLIDER_ITEM_DESCRIPTION;Zánebí je tady - získejte nový herní obsah!
+OWNED_CARD_COUNT;Tuto kartu vlastníte {0}×.
+PANDORA_GATE_OPENED;Vaše cesta začíná!
+PANDORA_KEY_POOL_HELP_TEXT;Přetáhněte minci do středu brány a vstupte do Pandory!
+PANDORA_LOSSES;Prohry
+PANDORA_SHARD_1_FOUND;První střep Nalezen
+PANDORA_SHARD_2_FOUND;Druhý střep Nalezen
+PANDORA_SHARD_3_FOUND;Třetí střep Nalezen
+PANDORA_SHARD_4_FOUND;Čtvrtý střep Nalezen
+PANDORA_SHARD_5_FOUND;Poslední střep Nalezen
+PANDORA_VICTORIES;Vítězství
+PANTHEON_DECK_LEGENDARY_NOT_RESPECTED;Váš balíček obsahuje příliš mnoho karet: {0} . Nemůžete mít více než {1} kopií Legendární karty napříč všemi třemi balíčky.
+PANTHEON_DECK_NOT_RESPECTED;Váš balíček obsahuje příliš mnoho karet: {0}. Nemůžete mít více než {1} kopií nelegendární karty napříč všemi třemi balíčky.
+PASSWORDS_DO_NOT_MATCH;Hesla se neshodují
+PASSWORD_FIELD_CONFIRM;Potvrďte heslo*
+PASSWORD_FIELD_MANDATORY;Heslo*
+PASSWORD_FIELD_NEW;Nové heslo*
+PASSWORD_MANDATORY;Heslo je povinné
+PASSWORD_TOO_LONG;Heslo je příliš dlouhé (max {0} znaků).
+PASSWORD_TOO_SHORT;Heslo je příliš krátké.
+PAUSE_MENU_TEXT;Pauza
+PAUSE_MENU_TEXT_LEFT_NAME_COUNT;{0}: {1} zbývá
+PINK_CHESTS_NOT_YET_AVAILABLE;Neznámá síla ti brání v přístupu k těmto truhlám. Nelze je otevřít... prozatím.
+PLAY_MENU_SOLO_STANDARD;Mise
+PLAY_MENU_SOLO_OVERSKY;Zánebí
+PLAYER_LEFT_TOURNAMENT;Hráč '{0}' opustil turnaj. Vítězem se stává '{1}'.
+PLAYER_LOST_CONNECTION;Hráč {0} ztratil spojení\nMá {1} sekund na připojení
+PRACTICE_BUTTON_TEXT;Výcvik
+PRIVATE_LOBBY;Soukromá místnost
+PRIVATE_LOBBY_INFO;Vítejte v soukromé místnosti. Hra začne, až budou oba hráči připraveni.
+PRIVATE_PLAY_ALLY_READY;Spojenec je připraven!
+PRIVATE_PLAY_OPPONENT_READY;Nepřítel připraven!
+PRIVATE_PLAY_PLAYER_READY;Jste připraveni!
+PRIVATE_PLAY_READY;Zrušit
+PROFILE_BATTLERANK_TITLE;Bitva
+PROFILE_MENU_PROFILE;Profil
+PROFILE_PANDORARANK_TITLE;Pandora
+PROFILE_RANKINGS_TITLE;Umístění
+PROLOGUE_HINT_ATTACK;Udělí tolik poškození v boji
+PROLOGUE_HINT_COST;Stojí tolik faerie k zahrání
+PROLOGUE_HINT_LIFE;Vydrží tolik poškození, než umře
+PROLOGUE_SPEECH_BUBBLE;Pro odemknutí svých schopností dokončete tyto mise!
+PROMPT_ACCOUNT_INFO_HELP_TEXT;<size=150%>Ahoj {0}!</size>\n\nMomentálně hrajete jako host.\n\nZadáním a potvrzením e-mailové adresy můžete aktivovat svůj účet a získat 2 bitevní truhly (8 karet)!
+PROMPT_ACCOUNT_INFO_WELCOME;Vytváření účtu
+PROMPT_ACTIVATION_CODE_SENDING_SUCCESS;Aktivační kód byl zaslán na vaši e-mailovou adresu.
+PROMPT_BINDING_SUCCESS;Spojovací odkaz byl zaslán na vaší e-mailovou adresu.
+PROMPT_CANCEL_GAME_SEARCHES;Tato akce zruší vyhledávání her. Přejete si pokračovat?
+PROMPT_CHALLENGE_CONFIRMATION;Na tuto výzvu máte jen jeden pokus. Jste připraveni?
+PROMPT_CONFIRM_USER_NAME;Vybírejte opatrně, jméno si nemůžete později změnit!
+PROMPT_CRASH;Hra spadla :(
+PROMPT_DECKEMPTY;Hráč prohrál kvůli prázdnému balíčku.
+PROMPT_DEFEAT;Prohra
+PROMPT_DELETE_DECK_CONFIRMATION;Jste si jisti, že chcete smazat tento balíček?
+PROMPT_DELETE_FRIEND_CONFIRMATION;Jste si jisti, že chcete odebrat tohoto přítele?
+PROMPT_DISENCHANT_ALL_IN_EXCESS;Jste si jisti, že chcete odočarovat přebytečné karty?
+PROMPT_DISENCHANT_WILL_ALTER_DECKS;Pokud odočarujete tuto kartu, ovlivní to některé balíčky. Chcete pokračovat?
+PROMPT_DOUBLE_KO;Hra skončila remízou!
+PROMPT_DROP_RUN_CONFIRMATION;Jste si jistí že chcete odejít? Bude se to počítat jako {0} proher.
+PROMPT_DUEL_PROPOSED;Byli jste vyzváni k duelu hráčem {0}.
+PROMPT_EMAIL_HELP_TEXT;Ověření vašeho účtu má následující výhody:\n\n\t- Možnost obnovení hesla\n\t- Přístup na naše fóra
+PROMPT_TEXT_LATER;Později
+PROMPT_EMAIL_TITLE_TEXT;E-mailová adresa
+PROMPT_EMAIL_WELCOME;Ověřte svůj účet a získáte 2 bitevní truhly (8 karet)!
+PROMPT_EXIT_CONFIRMATION;Opravdu chcete odejít?
+PROMPT_FRIENDLIST_ACCEPT_GAME_INVITE;Přimout tuto pozvánku do hry?
+PROMPT_FRIENDLIST_ACCEPT_REQUEST;Přimout tuto žádost o přátelství?
+PROMPT_FRIENDLIST_ACCEPT_STEAM_SUGGESTION;Přijmout toto dopuručení přítele ze Steamu?
+PROMPT_FRIENDLIST_ACCEPT_SUGGESTION;Přijmout doporučení na přítele?
+PROMPT_GAME_HAS_CRASHED;Hra spadla!
+PROMPT_LOBBY_CANCEL_CONFIRMATION;Opravdu chcete odejít z této místnosti a zrušit ji?
+PROMPT_LOBBY_LEAVE_CONFIRMATION;Opravdu chcete odejít z této místnosti?
+PROMPT_MODIFICATION_CANCEL_CONFIRMATION;Změny nebyly provedeny. Přejete si je zahodit?
+PROMPT_NEW_BINDING;Už máte Faeria účet?
+PROMPT_NO_DECK_FOUND;Pokud chcete hrát, musíte si vytvořit balíček
+PROMPT_PASSWORD_CHANGE_SUCCESS;Heslo úspěšně upraveno pro účet {0}.
+PROMPT_REFUSED_INVITEE_PLAYING;Váš přítel hraje
+PROMPT_REFUSED_INVITEE_SEARCHING_GAME;Váš přítel už vyhledává hru
+PROMPT_RESET_PASSWORD;Obnovit heslo
+PROMPT_SAVE_DECK_FIRST;Chcete uložit změny ve vašem balíčku?
+PROMPT_SKIP_TUTORIAL_MESSAGE_TEXT;Vypadá to, že vám karetní hry jdou. Chcete přeskočit tutorial?
+PROMPT_SKIP_TUTORIAL_TITLE_TEXT;Přeskočit tutorial
+PROMPT_STEAM_CONNECTION_REQUIRED;Vyžadováno připojení ke Steamu. Prosím, spusťte Faerii skrze Steam.
+PROMPT_SURRENDER_CONFIRMATION;Opravdu se chcete vzdát?
+PROMPT_TEXT_NO;Ne
+PROMPT_TEXT_OK;Ok
+PROMPT_TEXT_YES;Ano
+PROMPT_TOURNAMENT_LEAD_DECK_PICK_CONFIRM;První balíček, který si vyberete, budete MUSET použít v zápase jako první, dokud neprohrajete. Chcete pokračovat?
+PROMPT_TOURNAMENT_LOBBY_LEAVE_CONFIRMATION;Pokud odejdete z turnajové mistnosti předtím, než se dokončí zbývající hry, prohajete vaše zápasy. Opravdu chete odejít?
+PROMPT_TOURNAMENT_SIGNUP_CONFIRM;Opravdu chete používat tyto balíčky? Jakmile se zapíšete, nelze je změnit.
+PROMPT_TRANSACTION_FAILED;Transakce byla neúspěšná
+PROMPT_USERNAME_SKIP_BUTTON_TEXT;Přeskočit
+PROMPT_USER_NAME_TITLE_TEXT;Jméno hráče
+PROMPT_VICTORY;Vítězství!
+PROMPT_VICTORY_CONTINUE_BUTTON_TEXT;Pokračovat
+PUBLIC_ARENA_GAME_SEARCH;Hledání
+PUBLIC_GAME_SEARCH;Hledání
+QUEST_HINT_WILD_COST;Vyžaduje daný počet speciálních pevnin (celkem).
+QUEST_HOW_TO_UNLOCK_LANE;Dosáhněte úrovně {0} pro odemčení této cesty.
+QUEST_LANE_ACT_NAME;Balík misí
+QUEST_LANE_COMPLETED;Cesta dokončena!
+QUEST_LANE_PROGRESSION;{0}/{1}
+QUEST_LANE_WILD_NAME;Bláznivé
+QUEST_LOCKED_NAME;Uzamčená mise
+QUEST_OPPONENT_LEVEL;Úroveň {0}
+QUEST_PACK_COMPLETED;Balík misí dokončen
+QUEST_REQUIRED_LEVEL;Vyžaduje\nÚroveň {0}
+QUEST_REWARD_EXPERIENCE_ABBREVIATION;XP
+QUEST_TYPE_CHALLENGE;Výzva
+QUEST_TYPE_EPIC;Epická mise
+QUEST_TYPE_EPIC_FORCED_DECK;Mise
+QUEST_TYPE_INTRO;Mise
+QUEST_TYPE_MYSTERY;Tajemná mise
+QUEST_TYPE_PUZZLE;Hádanka
+QUEST_TYPE_QUEST;Úkol
+QUEST_TYPE_SURVIVAL;Přežití
+RANK_DOWN;Nižší postavení
+RANK_STAR_DEFEAT;Porážka
+RANK_STAR_FIRST_WIN_OF_THE_DAY;První výhra dne!
+RANK_STAR_HIGHER_LEAGUE_OPPONENT;Porazili jste mnohem silnějšího protivníka!
+RANK_STAR_VICTORY;Vítězství!
+RANK_STAR_WIN_STREAK;Několik výher za sebou!
+RANK_UP;Vyšší postavení
+RECOVERY_CODE;Obnovovací kód
+RECOVERY_STEAM;Můj účet byl vytvořen na PC/macOS/Linuxu.
+RECOVERY_SUPPORT;Výše uvedené možnosti nefungovaly.
+RECOVERY_VALIDATED;Můj účet Faerie je ověřen (Přes e-mailovou adresu).
+RECRUITER;Náborář
+REFUSE;Zamítnout
+REFUSE_FRIEND_REQUESTS;Odmítat žádosti o přátelství
+REFUSE_FRIEND_SPECTATE;Odmítat žádosti o sledovaní
+REPLAY_BUTTON_TEXT;Režim Opakování
+REQUEST_CANCELED_BY_HOST;Žádost byla zrušena hostitelem
+REROLL;Vyměnit
+RESOLUTION;Rozlišení: {0}
+RUSH_TUTORIAL;Agresivní zahájení
+SAVE;ULOŽIT
+SEARCH_MODE_CASUAL_BUTTON_TEXT;Nehodnocený
+SEARCH_MODE_RANKED_BUTTON_TEXT;Hodnocený
+SEARCH_TIME_ARENA_MODE_NAME;Pandora
+SEARCH_TIME_CONSTRUCTED_MODE_NAME;Zkonstruovaný
+SERVER_INFO_CUSTOM;{0}
+SERVER_INFO_LAST_ANNOUNCEMENT;Nejnovější dostupné oznámení <u><link={0}>zde</link></u>.
+SERVER_INFO_MAINTENANCE_SCHEDULED;Údržba serveru je naplánována na {0}
+SERVER_INFO_MAINTENANCE_IN_PROGRESS;Naši jaknici provádějí údržbu serveru. Očekáváme, že naše servery budou zpátky okolo {0}
+SERVER_INFO_NEW_VERSION_CHANGELOG;Nejnovější seznam změn je dostupný <u><link={0}>zde</link></u>.
+SERVER_INFO_SERVER_IS_DOWN;Server je dole.
+SERVER_IP;IP server
+SETTING_ANIMATED_BACKGROUND;Animované pozadí:
+SETTING_BUTTON_TEXT_EXIT;Ukončit
+SETTING_BUTTON_TEXT_OPTIONS;Možnosti
+SETTING_BUTTON_TEXT_PAUSE;Pozastavit
+SETTING_MUTE_IN_BACKGROUND;Ztlumit na pozadí
+SETTING_PERMANENT_DECK_HAND_INFO;Trvale zobrazit počet karet v balíčku/ruce
+SETTING_POWER_SAVING_MODE;Úsporný režim
+SETTING_TEXT_AUDIO_TITLE;Nastavení zvuku
+SETTING_TEXT_GAMEPLAY_TITLE;Nastavení hry
+SETTING_TEXT_VIDEO_TITLE;Nastavení zobrazení
+SETTING_TOGGLE_TEXT_MUTE_EMOTES;Ztlumit hlášky
+SETTING_TOGGLE_TEXT_SHOW_LAND_COUNT;Zobrazit počet pevnin
+SETTING_TOGGLE_TEXT_UNMUTE_EMOTES;Obnovit hlášky
+SETTING_WINDOWED;V okně:
+SET_RECRUITER_NAME;Přidejte si přítele jako náboráře a oba dostanete úžasné odměny na vaší cestě Faerií!\nVíce informací na<link=faeria.com/recruit-your-friends>faeria.com/recruit-your-friends</link>.
+SHOP;Klikněte pro otevření bedny
+SHOP_ANNUITY_DAYS_LEFT;Zbývá {0} dnů
+SHOP_INPUT_FIELD_HINT_COUPON;Napište svůj kupón sem
+SIGN_IN;Přihlásit se
+SIGN_OUT;Odhlásit se
+SOLO_COMPLETED;Mise dokončena!
+SPECTATORS_CANNOT_PAUSE;Diváci nemůžou pozastavit hru.
+SPECTATOR_JOINED_GAME;{0} se přidal jako divák.
+SPECTATOR_LEFT_GAME;Dívák {0} odešel ze hry.
+STOP_SPECTATING;Přestat sledovat
+SURRENDER;Vzdát se
+TOPBAR_BUTTON_PLAY;HRÁT
+TUTORIAL_DECK_CREATED;Toto je váš nový balíček!
+TUTORIAL_DECK_CREATED_BACK;Stiskněte tlačítko Zpět pro vybrání herního režimu
+UPDATE_VERSION_OUTDATED;Váš klient potřebuje aktualizovat.
+UPDATE_VERSION_TIP_IOS;*Pokud požadovaná verze není dostupná ve vašem App Store, budete si na ni muset počkat.
+USER_NAME_WELCOME;Vítejte ve Faerii!\nJak se budete jmenovat?
+USE_THIS_SET;Použít Vzorec
+USE_TIMEBANK;Použít časový limit:
+WELCOME_BUTTON_TEXT_ENTER_GAME;Přihlásit se
+WELCOME_BUTTON_TEXT_EXIT;Ukončit
+WELCOME_BUTTON_TEXT_OFFICIAL_PAGE;Oficiální stránka
+WELCOME_BUTTON_TEXT_STEAM_LOGIN;Klikněte kamkoliv pro přihlášení
+WELCOME_BUTTON_TEXT_START_AS_GUEST;Začít jako host
+WELCOME_BUTTON_TEXT_START_AS_ACCOUNT;Už mám účet
+WELCOME_INPUT_FIELD_HINT_PASSWORD;Heslo
+WELCOME_INPUT_FIELD_HINT_SERVER_IP;Server IP
+WELCOME_INPUT_FIELD_HINT_USERNAME;Jméno účtu
+WELCOME_USE_ANOTHER_ACCOUNT;Odhlásit se
+WINNER;Vítěz
+WORLD_BOSS_OBJECTIVE_PROGRESS;Poražte 3 bosse ({0}/3)
+WORLD_BOSS_OBJECTIVE_TEXT1;Odemkněte Orb šampiónů
+WORLD_BOSS_OBJECTIVE_TEXT2;Vylepšete si svůj Orb šampiónů
+WORLD_BOSS_OBJECTIVE_TITLE;Světový úkol
+WORLD_BOSS_REWARD;Odměna za bosse
+WORLD_LOCATION;Lokace
+XP;{0} xp
+YOU_PLAY_FIRST;Začínáte
+YOU_PLAY_SECOND;Váš protivník začíná
+CARD_WAS_PROMOTED_AS_DECK_COVER;Tato karta byla zvolena obrázkem balíčku.
+CURRENT_DECK_COVER;Aktuální obrázek balíčku
+PROMOTE_DECK_COVER;Zvolit jako obrázek balíčku
+CARD_ZOOM_PROMOTE_AS_DECK_COVER_BUTTON_TOOLTIP;Zvolit jako obrázek balíčku
+CARD_ZOOM_VIEW_LORE_PAGE_BUTTON_TOOLTIP;Zobrazit příběh
+LORE_BOOK_EXPLANATION_TEXT;Sbírejte střípky pověstí a poznejte legendy a tajemství světa Faerie.
+LORE_PAGE_ARTISTS;<b>Umělci</b> {0}
+LORE_PAGE_NOT_AVAILABLE;Pro přístup k příběhům potřebujete alespoň úroveň {0}
+CO_OP_LOBBY;Kooperativní místnost
+LOBBY_CRUCIBLE_RULES_TITLE;Pravidla Zkoušky ohněm
+LOBBY_DECK_FORMAT;Formát balíčku:
+LOBBY_DECK_FORMAT_CLASSIC;Klasický
+LOBBY_DECK_FORMAT_CRUCIBLE;Zkouška ohněm
+LOBBY_MINUTES_PER_GAME;Minuty za hru:
+LOBBY_SECONDS_PER_TURN;Sekundy za tah:
+LORE_BOOK_EMPTY_SECTION;V této oblasti nejsou žádné výsledky
+LORE_PAGE_NOT_YET_AVAILABLE;Tento příběh ještě není dostupný
+LOBBY_GO_TO_COLLECTION;Jít do sbírky
+LOBBY_START_OVER;Začít znovu
+PROMPT_LOBBY_BACK_CONFIRMATION;Tímto všehchny vrátíte do nastavení místnosti. Pokračovat?
+PROMPT_LOBBY_START_OVER_CONFIRMATION;Toto resetuje místnost a odemkne nastavení. Pokračovat?
+REGISTER_YOUR_DECKS;Zapište své balíčky!
+TOURNAMENT_DECKS_REGISTERED;Balíček zapsán!
+LORE_BOOK_UNAVAILABLE_TOOTIP;Odemkne se na úrovni {0}
+CREDIT_RATE_US_ON_STEAM_BUTTON_TEXT;Dejte nám hodnocení na Steamu
+HOME_CREDITS_BUTTON_TEXT;Titulky
+PROMPT_FRIEND_CALLED;Vašemu ztracenému jakovi jsme poslali e-mail.\nMůžete ho kontaktovat i přes svůj oblíbený komunikační kanál - stačí, když se přihlásí!
+PROMPT_FRIENDS_CALLED;Vašim {0} ztraceným jakům jsme poslali e-mail.\nMůžete je kontaktovat i přes svůj oblíbený komunikační kanál - stačí, když se přihlásí!
+FRIEND_CALL_SEND;Poslat
+FRIEND_CALL_NO_ELIGIBLE;Již jste zavolali všechny své přátele!
+FRIENDLIST_CALL_FRIEND;Zavolat staré přátele!
+MAINMENU_TITLE_PUZZLES;HÁDANKY
+SETTING_CLEAR_CACHE;Vyčistit mezipaměť
+CACHE_CLEARED;Účinky se projeví po restartování hry.
+CACHE_CLEAR_FAIL_PERMISSION;Operace se nezdařila, zkuste spustit Faerii jako administrátor.
+CACHE_CLEAR_FAIL_IN_USE;Operace se nezdařila, soubor je používán - restartujte svůj počítač a opakujte pokus.
+XP_WITH_NEXT_LEVEL;{0}/{1}xp
+SET_COSMETICS;Vybrat doplňky
+PLAY_MENU_SOLO_DRAGONS_LAIR;Dračí sluj
+MARKET_ITEM_SPECIAL_PROMO;Zvláštní nabídka
+MARKET_ITEM_COMPLETE_YOUR_SET;Dokončete svou sadu!
+DRAGON_TODAYS_CHALLENGES;Dnešní výzvy
+DRAGON_SOLO_MISSION;Mise pro jednoho
+DRAGON_REWARD;Dračí odměna
+DRAGON_CO_OP_MISSION;Kooperativní mise
+APPLY;Provést
+MOUSE_PROMPT_CLICK_ANYWHERE;Pro pokračování klikněte kamkoliv
+PLAY_MENU_SOLO_WORLDBOSS_INFO;Velmi obtížné souboje, které otestují vaše schopnosti tvořit balíčky.
+PLAY_MENU_SOLO_STANDARD_INFO;Ovládněte základy Faerie v řadě balíčků misí.
+PLAY_MENU_SOLO_OVERSKY_INFO;Kooperativní kampaň. Zapojte se do bitvy po boku kamaráda nebo počítače.
+PLAY_MENU_SOLO_DRAGONS_LAIR_INFO;Každodenní výzvy. Vracejte se každý den a porazte nové draky. Bitvy pro jednoho i více hráčů.
+MAINMENU_TITLE_SOLO_INFO;Objevte v těchto výzvách pro jednoho i více hráčů svět Faerie.
+MAINMENU_TITLE_PUZZLES_INFO;Řešte spletité hádanky a naučte se při tom několik užitečných triků.
+MAINMENU_TITLE_PANDORA_INFO;Draft. Zkuste si nové karty a vytvořte jedinečný balíček. Přežijte tak dlouho, jak to jen půjde.
+MAINMENU_TITLE_BATTLE_INFO;Klasická Faeria. Připojte se k nehodnocenému nebo hodnocenému zápasu, případně bojujte s počítačem.
+MOUSE_HOME_LINKS_INFO;Zde si můžete přečíst důležitá oznámení na našem blogu.
+DEFAULT_BUTTON_TEXT;Základní
+BACK_TO_WORLD_BOSSES;Zpět k bossům světa
+BACK_TO_PUZZLES;Zpět k hádankám
+BACK_TO_PANDORA;Zpět do Pandory
+BACK_TO_OVERSKY;Zpět do Zánebí
+BACK_TO_MISSIONS;Zpět k misím
+BACK_TO_DRAGONS_LAIR;Zpět do Dračí sluje
+BACK_TO_BATTLE;Zpět do bitvy
+LORE_BOOK_TOGGLE_TEXT;Kniha příběhů
+SHOW;Zobrazit
+INGAME_OPPONENT_DISCOVERING_CARD;Protihráč objevuje kartu
+INGAME_ALLY_DISCOVERING_CARD;Spojenec objevuje kartu
+HIDE;Skrýt
+GEMS_INFO_POPUP_DESCRIPTION;Klenoty jsou od nynějška speciální měnou, kterou lze získat pouze během zvláštních a propagačních událostí.
+GEMS_INFO_POPUP_TITLE;O klenotech
+SHORTCUT_TEXT_TOGGLE;Přepnout
+SHORTCUT_TEXT_MODIFY_SLIDER;Upravit posuvník
+SHORTCUT_TEXT_CLOSE;Zavřít
+SETTING_TEXT_LANGUAGE_TITLE;Jazyk
+SERVER_INFO_UNAVAILABLE;Servery jsou v tuto chvíli nedostupné
+CHAT_ERROR_RECIPIENT_CANNOT_CHAT;{0} není v chatu povoleno
+YOUR_SUPPORT_ID;Vaše ID:
+PROBLEM_OCCURED_AND_GAME_NEEDS_RESTART;Vyskytl se problém. Je potřeba restartovat hru
+MOUSE_PROMPT_CLICK_TO_CLOSE;Kliknutím zavřete
+LOADING_HERDING_YAKS;Paseme jaky
+LOADING_DOWNLOADING_CONTENT;Stahujeme obsah
+LOADING_CHECKING_CONTENT;Hledáme nový obsah
+GAMEPAD_PROMPT_CLICK_TO_CLOSE;Zavřete stisknutím {GAMEPAD_ACTION_CANCEL}
+GAMEPAD_PROMPT_CLICK_ANYWHERE;Chcete-li pokračovat, stiskněte {GAMEPAD_ACTION_CONFIRM}
+GAMEPAD_HOME_LINKS_INFO;Chcete-li si přečíst důležité novinky, stiskněte {GAMEPAD_ACTION_CONFIRM}
+CHAT_ERROR_MULTIPLE_FRIENDS_WITH_NAME;Toto uživatelské jméno používá více přátel. Pokud chcete chatovat s tuto osobou, využijte kontextové menu seznamu přátel.
+GO_TO_STORE_BUTTON_TEXT;Jít do obchodu
+CHAT_ERROR_MESSAGE_REFUSED;Vaše zpráva byla automaticky zamítnuta příjemcem z důvodu jejího obsahu.
+CHAT_ERROR_SANITIZATION_ERROR;Zpráva byla zamítnuta z důvodu obsahu.
+ID_COPIED_TO_CLIPBOARD;ID zkopírováno do schránky.
+SPECIAL_LADDER_MAPS_EVENT_TITLE;Speciální žebříčkové mapy
+PLAYER_PLATFORM_XBOX_LIVE;Xbox Live
+PLAYER_PLATFORM_PS4;PS4
+PLAYER_PLATFORM_SWITCH;Nintendo Switch
+PLAYER_UNKNOWN_USER_NAME;Neznámý hráč
+PLAYER;Hráč
+NOT_ENOUGH_COINS;Nemáte dostatek střípků.
+NOT_ENOUGH_GEMS;Nemáte dostatek klenotů.
+LADDER_RANKED_BUTTON;Hodnocené
+LADDER_PANDORA_BUTTON;Pandora
+LADDER_ARENA_DESCRIPTION;64 nejlepších hráčů podle pandorských bodů
+LADDER_RANKED_DESCRIPTION;Hráči na božské úrovni podle ELO
+HOME_LADDER_BUTTON_TEXT;Žebříček
+COSMETIC_ITEM_NOT_OWNED;Tento kosmetický předmět nevlastníte
+SETTING_BUTTON_TEXT_CHANGE_PROFILE;Změnit profil
+DOWNLOADED;Staženo
+PROMPT_LANGUAGE_CHANGED_PROMPT_SIGNOUT;Změnili jste jazyk hry, nyní budete odhlášeni

@@ -1,0 +1,20 @@
+diff --git a/snippets/tex.json b/snippets/tex.json
+index d368ec5ac..9740ef6a0 100644
+--- a/snippets/tex.json
++++ b/snippets/tex.json
+@@ -511,14 +511,7 @@
+     ],
+     "description": "Description"
+   },
+-  "Math": {
+-    "prefix": "m",
+-    "body": [
+-      "\\$$1\\$$0"
+-    ],
+-    "description": "Add a Math"
+-  },
+-
++  
+ "proposition": {
+     "prefix": ["latprp", "latproposition"],
+     "body": [

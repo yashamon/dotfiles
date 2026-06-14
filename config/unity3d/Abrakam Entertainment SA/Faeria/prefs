@@ -1,0 +1,38 @@
+<unity_prefs version_major="1" version_minor="1">
+	<pref name="677466_AVATAR_SEEN_COSMETICS" type="string">NDs=</pref>
+	<pref name="677466_CARD_BACK_SEEN_COSMETICS" type="string">MTE4Ow==</pref>
+	<pref name="677466_CURRENT_PUZZLE_PAGE" type="int">-1</pref>
+	<pref name="677466_ORB_SEEN_COSMETICS" type="string">MjE7</pref>
+	<pref name="677466_SEEN_CARDS" type="string">MTsxNDE7NTIxOzM1NTsxODQ7MTc0OzUxMjsxMTY7MTQwOzE4Nzs3Mjk7NTI0OzM3MjsyNjQ7Mjc0OzY3NTs0OTs1MjU7MzE1OzI4ODs1MTg7NjY3OzE5MDsyNjU7MzA2OzI5MzsyODc7NTE5OzI2MzszMTY7NjcwOzE5MTsxNTc7MjczOzM3MDsyNTY7MTcwOzUxMTsxNzU7MjM7MTIyOzczOzI3NTs=</pref>
+	<pref name="677466_TUTORIAL_STORY_DECK_COSMETIC_SET" type="int">1</pref>
+	<pref name="677466_TUTORIAL_STORY_DRAGONS_LAIR" type="int">1</pref>
+	<pref name="677466_TUTORIAL_STORY_LORE_BOOK" type="int">1</pref>
+	<pref name="677466_WELL_SEEN_COSMETICS" type="string">MjM7</pref>
+	<pref name="677466_blueprintsNew" type="string">QkxVRVBSSU5UXzAxO0JMVUVQUklOVF8wMjtCTFVFUFJJTlRfMDM7QkxVRVBSSU5UXzA0O0JMVUVQUklOVF8wNTtCTFVFUFJJTlRfMDY7QkxVRVBSSU5UXzA3O0JMVUVQUklOVF8wODtCTFVFUFJJTlRfMDk7QkxVRVBSSU5UXzEwOw==</pref>
+	<pref name="677466_blueprintsUnlocked" type="string">QkxVRVBSSU5UXzAxO0JMVUVQUklOVF8wMjtCTFVFUFJJTlRfMDM7QkxVRVBSSU5UXzA0O0JMVUVQUklOVF8wNTtCTFVFUFJJTlRfMDY7QkxVRVBSSU5UXzA3O0JMVUVQUklOVF8wODtCTFVFUFJJTlRfMDk7QkxVRVBSSU5UXzEwOw==</pref>
+	<pref name="677466_lastGameMode" type="string">Q09OU1RSVUNURUQ=</pref>
+	<pref name="677466_lastPlayState" type="string">QkFUVExF</pref>
+	<pref name="677466_lastRankedMode" type="string">Q0FTVUFM</pref>
+	<pref name="DidShowAccountBindingPrompt" type="int">1</pref>
+	<pref name="LastReadTermsAndConditionsVersion" type="string">MC4xLjA=</pref>
+	<pref name="Screenmanager Fullscreen mode" type="int">1</pref>
+	<pref name="Screenmanager Fullscreen mode Default" type="int">1</pref>
+	<pref name="Screenmanager Resolution Height" type="int">686</pref>
+	<pref name="Screenmanager Resolution Height Default" type="int">768</pref>
+	<pref name="Screenmanager Resolution Use Native" type="int">0</pref>
+	<pref name="Screenmanager Resolution Use Native Default" type="int">1</pref>
+	<pref name="Screenmanager Resolution Width" type="int">637</pref>
+	<pref name="Screenmanager Resolution Width Default" type="int">1024</pref>
+	<pref name="UnityGraphicsQuality" type="int">1</pref>
+	<pref name="UnitySelectMonitor" type="int">0</pref>
+	<pref name="doesMuteInBackground" type="int">1</pref>
+	<pref name="graphicQualitySetting" type="int">1</pref>
+	<pref name="ingameIsDeckHandInfoShown" type="int">1</pref>
+	<pref name="musicVolume" type="float">1</pref>
+	<pref name="screenIsFullscreen" type="int">1</pref>
+	<pref name="screenResolutionHeight" type="int">720</pref>
+	<pref name="screenResolutionWidth" type="int">1280</pref>
+	<pref name="unity.cloud_userid" type="string">MWE3ODY5YTFkNWY1MzY2NjBiNjU2MDk4YWYzNDcwMzQ=</pref>
+	<pref name="unity.player_session_count" type="string">MTY=</pref>
+	<pref name="unity.player_sessionid" type="string">MjM5MDE1MTE2NzM1OTExMzk2</pref>
+</unity_prefs>

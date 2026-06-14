@@ -1,0 +1,612 @@
+ACCEPT;Accepter
+ACCOUNT_RECOVERY;Récupération de compte
+ACCOUNT_RECOVERY_TITLE;Récupérez votre compte
+ACTIVATION_KEY;Clé d'activation
+ADD_A_FRIEND;Ajoutez un ami via son identifiant
+ADD_NEW_DECK;Nouveau deck
+ADVENTURE_POUCH_POINTS;Points de la Besace de l'Aventurier
+ALLY_TURN;Tour allié
+AMBIENT;Sons ambiants
+ARENA_RUN_DECK_NAME;Deck Pandore
+BACK;RETOUR
+BIND_ACCOUNT_BUTTON;Lier à {0}
+BIND_ACCOUNT_LABEL;Déjà un compte Faeria ?
+BLUEPRINT_PANEL_TEXT1;Essayez tout d'abord de modifier un des decks préconstruits.
+BLUEPRINT_PANEL_TEXT2;Vous pouvez également construire un deck personnalisé en cliquant sur le bouton au-dessous.
+BLUEPRINT_PANEL_TITLE;Vous voulez créer votre propre deck ?
+BLUEPRINT_REQUIREMENT_LEVEL;VOUS DEVEZ ATTEINDRE LE NIVEAU
+BLUEPRINT_REQUIREMENT_QUEST;ACCOMPLISSEZ PLUS DE MISSIONS POUR DÉBLOQUER CETTE FORMULE
+BOOSTER_OPENING_GEMSTITLE;Gemmes de rareté
+BOSS_DEFEATED;Vaincu
+BOSS_NOT_RELEASED;Bientôt disponible
+BUILD_YOUR_DECK;Deck personnalisé
+CANCEL;Annuler
+CARD_LIMIT_MESSAGE;Chaque carte est limitée à 3 exemplaires par deck.
+CHAT_ERROR_MESSAGE_TOO_LONG;Message trop long ({0} caractères maximum)
+CHAT_ERROR_NOBODY_TO_REPLY_TO;Vous n'avez personne à qui répondre.
+CHAT_ERROR_NOT_CONNECTED;Votre connexion a été perdue. Essayez de vous déconnecter puis de vous reconnecter.
+CHAT_ERROR_NO_INTERLOCUTOR;Vous ne parlez à personne. Utilisez la commande /w ou la liste d'amis, ou bien cliquez sur un nom d'utilisateur dans la fenêtre de discussion pour envoyer un message.
+CHAT_ERROR_ONLY_WITH_FRIENDS;Vous ne pouvez discuter qu'avec les joueurs qui sont vos amis dans Faeria.
+CHAT_ERROR_RECIPIENT_IS_OFFLINE;{0} est hors ligne : vous ne pouvez envoyer des messages qu'aux utilisateurs en ligne.
+CHAT_GENERIC_WARNING;Les employés d'Abrakam Entertainment ne vous demanderont jamais de leur communiquer votre mot de passe lorsqu'ils vous assisteront. Ne communiquez aucune donnée sensible dans le chat.
+CHAT_HINT_USER_BACK_ONLINE;{0} vient de se connecter !
+CHAT_HINT_USER_WENT_OFFLINE;{0} vient de se déconnecter.
+CHAT_INPUT_PLACEHOLDER;/m destinataire Votre message.
+CHAT_TOOLTIP_DND_MODE;Mode Ne pas déranger. Tant qu'il est actif, cette fenêtre ne s'ouvrira pas lorsque vous recevrez des messages. Ils y seront écrits silencieusement.
+CHAT_TO_SOMEBODY;À [{0}] : {1}
+CHEST_OPENING_NO_MORE_CHEST;Gagnez des niveaux ou terminez les quêtes journalières pour obtenir plus de Coffres !
+CHEST_OPENING_NO_MORE_MYTHIC_ITEMS;Vous avez tous les objets mythiques disponibles actuellement. Revenez plus tard.
+CHOOSE_OTHER_BLUEPRINT;Changer de formule
+CLAIM_REWARDS;Recevez votre récompense
+CLEAR;Vider
+COLLECTION_FILTER_CARD_TYPE;Filtrer par type de carte
+COLLECTION_FILTER_FAERIA_COST;Filtrer par coût en Faeria
+COLLECTION_MODE;Artisanat
+COLLECTION_SEARCH_PLACEHOLDER;Rechercher...
+CONFIRM;Confirmer
+CONNECTION_LOST_RECONNECTING;Connexion perdue\nTentative de reconnexion...
+CONNECTION_QUEUE_CAPTION;Votre place dans la file d'attente :
+CONNECTION_QUEUE_TITLE;Les serveurs sont saturés !
+CONSTRUCTED_MODE;Mode classé
+CONSTRUCTED_RUN_DECK_NAME;Deck construit
+CO_OP_POPUP_JOIN_BUTTON_TEXT;Rejoindre
+CO_OP_POPUP_LOCKED_BUTTON_TEXT;Jouer
+CO_OP_POPUP_LOCKED_BUTTON_NOTIFICATION_TEXT;Vous devez accomplir les missions précédentes pour débloquer celle-ci.
+CO_OP_POPUP_ALLY_SELECTION_TITLE;Invitez votre allié
+CO_OP_POPUP_NO_ALLY;Aucun allié disponible
+CO_OP_LOBBY_CANCELLED;Votre allié a annulé la mission
+COUPON_REDEEM;Faire valoir
+CRAFT_CANNOT_DISENCHANT_CARD_FROM_DECK_WHILE_SEARCHING;Impossible de désenchanter cette carte pendant la recherche d'une partie.
+CRAFT_LEGENDARY_ERROR;Vous ne pouvez pas forger de cartes légendaires
+CRAFT_GOLD_CARD_ERROR;Vous ne pouvez pas forger de cartes mythiques
+CRAFT_FOURTH_CARD;Vous possédez déjà 3 copies ou plus de cette carte.
+CRAFT_NOT_ENOUGH_CHARGES;Vous n'avez pas assez de charges d'artisanat pour forger une carte
+CRAFT_FULLY_CHARGED;Plein
+CRAFT_ACCOUNT_LEVEL_TOO_LOW;Vous devez être au minimum niveau {0} pour forger cette carte
+CRAFT_MODE_BUTTON_TEXT_CONFIRM_CRAFT;Fabriquer
+CRAFT_MODE_BUTTON_TEXT_CONFIRM_DISENCHANT;Désenchanter
+CRAFT_MODE_BUTTON_TEXT_DISENCHANT_ALL_IN_EXCESS;Désenchanter tous les excédents
+CRAFT_MODE_UNAVAILABLE_TOOTIP;Vous devez être au niveau {0} pour pouvoir utiliser l'Artisanat
+CRAFT_SECOND_LEGENDARY_CARD;Vous possédez déjà cette carte légendaire.
+CREATE_BLUEPRINT_DECK;Créer
+CREATE_YOUR_ACCOUNT;Créer votre compte.
+DAILY_REWARD_NEXT;Suivant
+DAILY_REWARD_TITLE;Récompense de connexion journalière
+DAILY_REWARD_POPUP_TITLE;Bonus de connexion journalier !
+DECKEDITOR_GOLD_CARD_FILTER_TOGGLE_TEXT;Afficher les cartes mythiques ?
+DECKEDITOR_NON_GOLD_CARD_FILTER_TOGGLE_TEXT;Standard
+DECKEDITOR_SAVETEXT;Sauvegarder
+DECKLAYOUT_INCOMPLETE_TEXT;Incomplet
+DECKSELECTION_SOLO_INFO;Voici l'écran de sélection de deck pour les missions. Retournez au menu principal pour créer ou éditer des decks.
+DECK_EDITOR_BUY_BATTLE_CHEST;Achetez des coffres de combat pour obtenir plus de cartes.
+DECK_EDITOR_FILTER_NO_RESULT;Aucune carte ne correspond à votre critère de recherche.
+DECK_EDITOR_NO_FILTERED_CARD_IN_COLLECTION_BLUE;Vous n'avez pas de carte bleue.
+DECK_EDITOR_NO_FILTERED_CARD_IN_COLLECTION_GREEN;Vous n'avez pas de cartes verte.
+DECK_EDITOR_NO_FILTERED_CARD_IN_COLLECTION_HUMAN;Vous n'avez pas de cartes neutre.
+DECK_EDITOR_NO_FILTERED_CARD_IN_COLLECTION_RED;Vous n'avez pas de carte rouge.
+DECK_EDITOR_NO_FILTERED_CARD_IN_COLLECTION_YELLOW;Vous n'avez pas de carte jaune.
+DECK_SIZE;Taille du deck :
+DECK_SLOT_PURCHASE;+5 Emplacements de Deck
+DELETE;Supprimer
+DISCONNECT;Déconnecté
+DISENCHANT_ALL_FOR_MEMORIA;+{0}
+DISENCHANT_UNAVAILABLE_TOOTIP;Vous devez avoir plus de {0} cartes pour pouvoir en désenchanter
+DONE;Terminer
+DROP_RUN;Quitter
+DYNAMIC_BUNDLE_CONFIRM_WARNING;Bundle dynamique : Vous possédez déjà certains objets de ce bundle, le prix ci-dessous a été réduit en conséquence.
+EDIT;Editer
+ELITE_MISSIONS_BUTTON_TEXT;Boss du Monde
+ELITE_MISSIONS_BUTTON_TOOLTIP;Niveau {0} requis
+EMAIL_ADDRESS;Adresse mail
+EMOTE_MENU_GREETINGS;Salutations
+EMOTE_MENU_OOPS;Oups
+EMOTE_MENU_TAUNT;Provocation
+EMOTE_MENU_UNIQUE;Unique
+EMOTE_MENU_WELL_PLAYED;Bien joué
+EMOTE_MENU_WOW;Wouaw
+END_TURN;Finir le tour
+ENEMY_TURN;Tour adverse
+ENTER_DECK_NAME;Saisir le nom du deck
+ENTER_YOUR_RECRUITERS_NAME;Saisissez le nom de votre recruteur...
+EVENING;Soirée
+EVENT_BUTTON_TEXT_SEND;Envoyer
+EVENT_EGG_HATCHING_HAS_EGG;On dirait bien que votre incubateur est vide. Si vous trouvez un nouvel oeuf, vous pouvez vous en occuper ici!\n\nVisionnez nos évènements en streaming sur notre chaîne Twitch FaeriaTV pour avoir une chance de recevoir un tout nouvel oeuf.\n\n<align="center"><link="https://www.twitch.tv/faeriatv">https://www.twitch.tv/faeriatv</link></align>
+EVENT_EGG_HATCHING_NO_EGG;Voici votre couveuse. En sécurité et au chaud, vous n'avez plus qu'à attendre que votre oeuf éclose !\nPourquoi ne pas y jeter un oeil ? Peut-être n'en a-t-il plus pour longtemps...\nUne fois votre oeuf éclos, vous pouvez partir à la recherche d'un nouveau. Suivez le prochain tournoi mensuel pour obtenir un oeuf!
+EVENT_HATCH_EGG_BUTTON;Éclosion
+EVENT_INPUT_FIELD_HINT_ENTER_EMAIL;Saisissez l'adresse e-mail de votre ami.
+EVENT_TEXT_LOCK_OVERLAY;Remportez 5 parties Pandore pour débloquer la deuxième clé.
+EVENT_TEXT_TITLE;Événement : invitez vos amis
+EXIT_CRAFT_MODE;Artisanat
+FAERIA_AVERAGE;Coût moyen en Faeria
+FRIENDLIST;Liste d'amis
+FRIENDLIST_FRIEND_REQUEST;Voir la demande d'ami
+FRIENDLIST_RECENTLY_PLAYED_SUGGESTION;Voir la suggestion
+FRIENDLIST_STEAM_FRIEND_SUGGESTION;Voir la suggestion de Steam
+FRIENDLIST_GAME_INVITE;Voir la partie à laquelle on vous invite
+FRIENDLIST_DISCORD_HINT;Rejoignez notre canal Discord pour vous tenir au courant.
+FRIENDLIST_FRIEND;Ami
+FRIENDLIST_INGAME;En jeu
+FRIENDLIST_INVITE_TO_LOBBY;Inviter au salon
+FRIENDLIST_INVITE_TO_TOURNAMENT;Inviter au tournoi
+FRIENDLIST_IN_LOBBY;Dans un salon privé
+FRIENDLIST_OFFLINE;Hors ligne
+FRIENDLIST_ONLINE;En ligne
+FRIENDLIST_RECENTLY_PLAYED;Récemment affronté
+FRIENDLIST_REMOVE;Supprimer un ami
+FRIENDLIST_REQUEST_INITIATOR;En attente de réponse
+FRIENDLIST_REQUEST_RECIPIENT;Demande d'ami reçue
+FRIENDLIST_SEND_MESSAGE;Envoyez un message
+FRIENDLIST_SPECTATE_GAME;Rejoindre une partie en tant que spectateur
+FRIENDLIST_SPECTATING;Spectateur
+FRIENDLIST_SPECTATING_YOU;Spectateur de votre partie
+FRIENDLIST_SUGGESTED;Suggéré
+FRIENDLIST_SUGGEST_TO_LOBBY;Recommander au salon
+FRIENDLIST_VIEW_PROFILE;Afficher le profil
+FRIENDLIST_WAITING_FOR_RECIPIENT_ACCEPTANCE;Demande d'ami envoyée
+FX;Effets Spéciaux
+GAME_CONNECTION_LOST_RECONNECTING;Connexion au jeu perdue. \nTentative de reconnexion...
+GAME_HAS_CRASHED;Le jeu a planté ({0}). Quel monde cruel.
+GEM_BONUS_AMOUNT;+ {0} Bonus
+GEM_PURCHASE_POPUP_TITLE;Choix de Gemmes
+GEM_PURCHASE_POPUP_TITLE_NOT_ENOUGH_GEM;Vous n'avez pas assez de Gemmes. Il est temps d'en acheter !
+GENERAL;Général
+GENERIC_BUTTON_TEXT_PLAY;Jouer
+GENERIC_BUTTON_TEXT_SHOP;Boutique
+GENERIC_GAMEPLAY_ATTACK;Attaque
+GENERIC_GAMEPLAY_COST;Coût
+GENERIC_GAMEPLAY_LIFE;Vie
+GENERIC_GAMEPLAY_WILD_COST;Coût libre
+GOT_IT;Compris !
+GO_TO_CRAFT_MODE;Artisanat
+GO_TO_SHOP_BUTTON_TEXT;Aller à la boutique
+GOLD_MINER_HIRING_TITLE;Merci de m'avoir recruté !\nJe me mets au travail.
+GOLD_MINER_REGULAR_GOLD;Salut {0} !\nVoilà tes cristaux.
+GOLD_MINER_ABOVE_AVERAGE_GOLD;J'ai eu de la chance dans les mines !
+GOLD_MINER_JACKPOT;Nom d'un yak, c'est le jackpot !
+GOLD_MINER_LONG_DELAY_REGULAR_GOLD;Ça fait plaisir de te voir ! Tiens, voici des cristaux.
+GOLD_MINER_LONG_DELAY_ABOVE_AVERAGE_GOLD;Heureux de te revoir ! Tiens, voilà tes cristaux.
+GOLD_MINER_LONG_DELAY_JACKPOT;Vous êtes enfin de retour ! On a touché le jackpot !
+GRAPHIC_QUALITY_HIGHER;Plus élevée
+GRAPHIC_QUALITY_HIGHEST;Maximale
+GRAPHIC_QUALITY_HIGH_IPAD;Élevée
+GRAPHIC_QUALITY_LOWER;Basse
+GRAPHIC_QUALITY_LOWEST;Minimale
+GRAPHIC_QUALITY_LOW_IPAD;Faible
+GRAPHIC_QUALITY_TITLE;Qualité
+GUEST_ACCOUNT_NAME;Invité
+INFO_NB_CONNECTED;Joueurs connectés : {0}
+INFO_NB_FINDING_ARENA;Recherche d'une partie en mode Pandore : {0}
+INFO_NB_FINDING_CLASSIC;Recherche d'une partie en mode Casual : {0}
+INFO_NB_FINDING_CONSTRUCTED;Recherche d'une partie en mode Classé : {0}
+INFO_NB_GAMES;Partie en cours : {0}
+INFO_TIME_TO_FIND_GAME;Temps de recherche estimé : {0}
+INGAME_DEFEAT;Défaite
+INGAME_OPPONENT_STILL_MULLIGAN;Votre adversaire est encore en train de choisir les cartes qu'il souhaite remplacer
+INGAME_ALLY_STILL_MULLIGAN;Votre allié choisit ses cartes
+INGAME_PANDORA_OPENS;Pandore s'ouvre !
+INGAME_PLAYER_TURN;Tour de {0}
+INGAME_PUZZLE_SOLVED;Puzzle résolu
+INGAME_PUZZLE_WIN_THIS_TURN;Gagnez en un tour !
+INGAME_VERSUS;Contre
+INGAME_VICTORY;Victoire
+INGAME_YOUR_TURN;À vous !
+INVITED_TO_LOBBY;{0} vous invite à jouer une partie.
+ITEM_RARITY_COMMON;Commune
+ITEM_RARITY_EPIC;Épique
+ITEM_RARITY_LEGENDARY;Légendaire
+ITEM_RARITY_RARE;Rare
+ITEM_VALUE;Valeur
+KEEP;GARDER
+KICKED_FROM_LOBBY;Vous avez été expulsé du salon.
+LANE_COMPLETED_QUEST;Terminé !
+LANE_NEW_QUEST;Nouveau !
+LANE_UNLOCKED;Déverrouillé !
+LANGUAGE;Langue :
+LEAGUE_UP;Ligue supérieure !
+LEGENDARY_CARD_LIMIT_MESSAGE;Les cartes légendaires sont limitées à 1 exemplaire par deck.
+LEVEL;Niveau {0}
+LOADING;Chargement
+LOADING_LONG;Le chargement prend plus de temps que prévu.
+LOBBY_ACCOUNT_SUGGESTED;Suggéré
+LOBBY_DECK_PICKING_CANCELED;Sélection de deck annulée par {0}.
+LOBBY_GAME_INVITE_PENDING;Invitation en attente...
+LOBBY_KICK_PLAYER;Expulser le joueur
+LOBBY_PLAYERS_IN_GAME;En attente des joueurs encore en jeu...
+LOBBY_PLAYERS_PICKING_DECKS;Les joueurs sélectionnent leur deck...
+LOBBY_PLAYER_1_STATUS;Joueur 1
+LOBBY_PLAYER_2_STATUS;Joueur 2
+LOBBY_READY_BUTTON_TEXT;Prêt
+LOBBY_SET_PLAYER_1;Définir comme joueur 1
+LOBBY_SET_PLAYER_2;Définir comme joueur 2
+LOBBY_SET_SPECTATOR;Définir comme spectateur
+LOBBY_SPECTATOR_STATUS;Spectateur
+LOBBY_CO_OP_WITH;Avec
+MAINMENU_BUTTON_BOOSTERS;Coffres
+MAINMENU_BUTTON_COLLECTION;Collection
+MAINMENU_BUTTON_DAILY_QUESTS;Quêtes journalières
+MAINMENU_BUTTON_EVENT_END_TIME;Fin de l'événement dans {0} h et {1} min.
+MAINMENU_BUTTON_FRIEND_LIST;Liste d'amis
+MAINMENU_BUTTON_HOME;Accueil
+MAINMENU_BUTTON_SETTINGS;Paramètres
+MAINMENU_TITLE_BATTLE;COMBAT
+MAINMENU_TITLE_PANDORA;PANDORE
+MAINMENU_TITLE_SOLO;AVENTURE
+MAINMENU_TITLE_VIEWPROFILE;Afficher le profil
+MAP_QUEST_LOCKED;Verrouillé
+MARKET_BUTTON_BUY_GEMS;Informations
+MARKET_CATEGORY_AVATAR;Avatar
+MARKET_CATEGORY_BUNDLE;Lot
+MARKET_CATEGORY_CARD_BACK;Dos de carte
+MARKET_CATEGORY_EMOTES;Emote
+MARKET_CATEGORY_ORB;Orbe
+MARKET_CATEGORY_WELL;Puits
+MARKET_FEATURED_TAB_AVATAR;Avatars
+MARKET_FEATURED_TAB_BUNDLE;Lots
+MARKET_FEATURED_TAB_CARD_BACK;Dos de carte
+MARKET_FEATURED_TAB_EMOTE;Emotes
+MARKET_FEATURED_TAB_ORB;Orbes
+MARKET_FEATURED_TAB_WELL;Puits
+MARKET_HOW_MANY_CHEST;Combien en voulez-vous ?
+MARKET_ITEM_CONFIRM_PURCHASE;ACHETER
+MARKET_ITEM_OWNED;Possédé
+MARKET_MENU_FEATURED;À la une
+MARKET_PROCESSING_ORDER;Patientez...
+MARKET_ROTATINGITEMS_TITLE;Affaires du Jour
+MARKET_TITLE;Boutique
+MATCHES_FORMAT;Format du match :
+MISSION_PACK_NPC_REWARD_TOOLTIP;En accomplissant la dernière mission de ce pack, vous obtiendrez un allié unique en récompense
+MISSION_PACK_XP_REWARD_TOOLTIP;Voici le nombre total de points d'EXP que vous gagnerez en accomplissant les missions de ce pack
+MORNING;Matinée
+MULLIGAN;Voulez-vous garder vos cartes ou repiocher ?
+MULLIGAN_BUTTON_TEXT_CONFIRM;Confirmer
+MULLIGAN_HINT_TEXT;Repiocher
+MUSIC;Musique
+MY_CHESTS;Mes Coffres
+NEW_ACCOUNT_BUTTON;Créer un compte
+NEW_ACCOUNT_LABEL;C'est votre première fois sur Faeria ?
+NEW_ACCOUNT_WARNING;Si vous possédez déjà un compte Faeria, vous ne pourrez plus l'utiliser avec ce compte {0} !
+NEW_CARD_HINT;Nouveau
+NEW_DAILY_QUEST_RECEIVED;Vous avez reçu une nouvelle quête quotidienne !
+NEW_DECK_NAME;Mon deck
+NIGHT;Nuit
+NO_DAILY_QUESTS_LEFT;Il ne vous reste plus de quête quotidienne. Revenez demain !
+OBJECTIVES;Objectifs
+OK;OK
+OVERSKY;Outreciel
+OVERSKY_ALL_CARDS_NAME;Toutes les cartes d'Outreciel
+OVERSKY_BUY_ISLAND_BUTTON_TEXT;Acheter l'île
+OVERSKY_BUY_ISLAND_TEXT;Vous ne possédez pas encore cette île.\nVous devez l'acheter pour pouvoir bénéficier des récompenses de cette mission.
+OVERSKY_CARD_REWARD;<size=200%><color=white>{0}</color></size> nouvelles cartes seront ajoutées à votre collection à l'achat
+OVERSKY_ISLAND_BUNDLE_DISCOUNTED_TOOLTIP;Le prix du bundle a été réduit car vous possédez déjà cette île
+OVERSKY_COSMETIC_SET_TOOLTIP;Incluant des objets légendaires uniques : un dos de carte, une paire de puits, un avatar et un orbe
+OVERSKY_GET_POINTS_EMPEROR;Défi de l'Empereur
+OVERSKY_GET_POINTS_MISSION;Mission d'Outreciel
+OVERSKY_GET_POINTS_PVP;Victoire JcJ
+OVERSKY_GET_POINTS_WILD_PACK;Pack de missions Élite terminé
+OVERSKY_GET_POINTS_WORLD_BOSS;Boss de monde vaincu
+OVERSKY_GETTING_POINTS;Récolter des points dans votre besace
+OVERSKY_LIMITED_BOSS_BATTLE_DESCRIPTION_OWNED;Le puissant Empereur de Mirnast vous imposera un nouveau défi tous les jours. Gagnez des points pour votre besace à chaque première victoire de la journée.
+OVERSKY_LIMITED_BOSS_BATTLE_DESCRIPTION_NOT_OWNED;Chaque jour, le puissant Empereur de Mirnast vous imposera un nouveau défi. Obtenez votre besace pour accéder à ce mode limité.
+OVERSKY_LIMITED_BOSS_BATTLE_NAME;Défi de l'Empereur
+OVERSKY_ONE_ISLAND;Cette Île
+OVERSKY_POINTS_REWARD;points pour votre besace
+OVERSKY_POUCH_OWNED_CONTENT_TITLE;Récompenses de votre Besace d'Aventurier
+OVERSKY_POUCH_OWNED_CONTENT_DESCRIPTION;Continuez à gagner des points dans votre Besace d'Aventurier pour débloquer autant de récompenses que possible ! Retrouvez ci-dessous la liste des récompenses ainsi que votre progression.
+OVERSKY_POUCH_OWNED_ENDED;Votre Besace d'Aventurier s'est refermée
+OVERSKY_POUCH_OWNED_END_DAYS;Votre Besace d'Aventurier s'ouvre immédiatement et se refermera dans {0} jour(s)
+OVERSKY_POUCH_OWNED_END_HOURS;Votre Besace d'Aventurier s'ouvre immédiatement et se refermera dans {0} heure(s) et {1} minute(s)
+OVERSKY_POUCH_NOT_OWNED_CONTENT_TITLE;Récompenses de la Besace de l'Aventurier
+OVERSKY_POUCH_NOT_OWNED_CONTENT_DESCRIPTION;Achetez votre Besace d'Aventurier dès maintenant pour débloquer les récompenses ci-dessous - combien de points pouvez-vous gagner avant qu'elle ne se referme ?
+OVERSKY_POUCH_NOT_OWNED_ENDED;C'est fini ! La Besace de l'Aventurier n'est plus disponible.
+OVERSKY_POUCH_NOT_OWNED_END_DAYS;Votre Besace d'Aventurier se refermera dans {0} jour(s)
+OVERSKY_POUCH_NOT_OWNED_END_HOURS;Votre Besace d'Aventurier se refermera dans {0} heure(s) et {1} minute(s)
+OVERSKY_POUCH_NAME;La Besace de l'Aventurier
+OVERSKY_POUCH_TIER_REWARD_EVERY_TEN;Une copie mythique de l'une de vos cartes d'Outreciel\n<size=60%>Si vous avez déjà la collection complète des versions mythiques des cartes d'Outreciel que vous possédez, vous recevrez cette récompense la prochaine fois que vous achèterez une île.</size>  
+OVERSKY_POUCH_TIER_REWARD_KAIOS_AVATAR_AND_EMOTES;Avatar et Emotes de Kaios
+OVERSKY_POUCH_TOOLTIP;Améliorez votre besace pour obtenir des récompenses d'aventure exclusives ! Plus d'infos sur faeria.com/oversky.
+OVERSKY_SHOP_SLIDER_ITEM_NAME;Contenu d'Outreciel
+OVERSKY_SHOP_SLIDER_ITEM_DESCRIPTION;Outreciel est arrivé - mettez la main sur le nouveau contenu ici !
+OWNED_CARD_COUNT;Vous possédez {0} exemplaires de cette carte
+PANDORA_GATE_OPENED;Votre série commence !
+PANDORA_KEY_POOL_HELP_TEXT;Placez une pièce au centre de la porte pour entrer à Pandore !
+PANDORA_LOSSES;Défaites
+PANDORA_SHARD_1_FOUND;Premier Éclat trouvé
+PANDORA_SHARD_2_FOUND;Deuxième Éclat trouvé
+PANDORA_SHARD_3_FOUND;Troisième Éclat trouvé
+PANDORA_SHARD_4_FOUND;Quatrième Éclat trouvé
+PANDORA_SHARD_5_FOUND;Dernier Éclat trouvé
+PANDORA_VICTORIES;Victoires
+PANTHEON_DECK_LEGENDARY_NOT_RESPECTED;Votre deck comporte trop de : {0}s. Il est impossible d'utiliser plus de {1} exemplaire(s) d'une carte légendaire dans les 3 decks.
+PANTHEON_DECK_NOT_RESPECTED;Votre deck comporte trop de : {0}s. Il est impossible d'utiliser plus de {1} exemplaire(s) d'une carte non légendaire dans les 3 decks.
+PASSWORDS_DO_NOT_MATCH;Les mots de passe ne sont pas identiques
+PASSWORD_FIELD_CONFIRM;Confirmez le mot de passe*
+PASSWORD_FIELD_MANDATORY;Mot de passe*
+PASSWORD_FIELD_NEW;Nouveau mot de passe*
+PASSWORD_MANDATORY;Mot de passe obligatoire
+PASSWORD_TOO_LONG;Mot de passe trop long (maximum{0} caractères)
+PASSWORD_TOO_SHORT;Mot de passe trop court.
+PAUSE_MENU_TEXT;Pause
+PAUSE_MENU_TEXT_LEFT_NAME_COUNT;{0} : {1} restant(s)
+PINK_CHESTS_NOT_YET_AVAILABLE;Une mystérieuse force semble vous empêcher d'approcher de ces coffres. Il n'est pas possible de les ouvrir... pour le moment.
+PLAY_MENU_SOLO_STANDARD;Missions
+PLAY_MENU_SOLO_OVERSKY;Outreciel
+PLAYER_LEFT_TOURNAMENT;Le joueur {0} a quitté le tournoi. Le vainqueur par forfait est {1}.
+PLAYER_LOST_CONNECTION;Le joueur {0} a été déconnecté.\nIl lui reste {1} secondes pour se reconnecter.
+PRACTICE_BUTTON_TEXT;Entrainement
+PRIVATE_LOBBY;Salon privé
+PRIVATE_LOBBY_INFO;Bienvenue dans le salon privé. La partie commencera dès que les deux joueurs seront prêts.
+PRIVATE_PLAY_ALLY_READY;Allié prêt !
+PRIVATE_PLAY_OPPONENT_READY;L'adversaire est prêt.
+PRIVATE_PLAY_PLAYER_READY;Vous êtes prêt.
+PRIVATE_PLAY_READY;Annuler
+PROFILE_BATTLERANK_TITLE;Combat
+PROFILE_MENU_PROFILE;Profil
+PROFILE_PANDORARANK_TITLE;Pandore
+PROFILE_RANKINGS_TITLE;Classements
+PROLOGUE_HINT_ATTACK;Inflige ce montant de dégâts en combat
+PROLOGUE_HINT_COST;Coûte cette quantité de Faeria à jouer
+PROLOGUE_HINT_LIFE;Encaisse ce montant de dégâts avant de mourir
+PROLOGUE_SPEECH_BUBBLE;Terminez ces missions pour débloquer vos pouvoirs !
+PROMPT_ACCOUNT_INFO_HELP_TEXT;<size=150%>Bonjour {0}!</size>\n\nVous jouez actuellement en tant qu'invité.\n\nValidez votre compte en entrant et en confirmant votre adresse mail. Vous serez alors récompensé de deux Coffres de Bataille (8 cartes) !
+PROMPT_ACCOUNT_INFO_WELCOME;Création de compte
+PROMPT_ACTIVATION_CODE_SENDING_SUCCESS;Le code d'activation a été envoyé à votre adresse e-mail.
+PROMPT_BINDING_SUCCESS;Un lien a été envoyé à votre adresse e-mail.
+PROMPT_CANCEL_GAME_SEARCHES;Votre recherche de partie sera annulée. Voulez-vous continuer ?
+PROMPT_CHALLENGE_CONFIRMATION;Vous n'aurez qu'un seul essai pour remporter ce défi. Êtes-vous prêt ?
+PROMPT_CONFIRM_USER_NAME;Choisissez bien, votre nom est définitif !
+PROMPT_CRASH;Le jeu a planté :(
+PROMPT_DECKEMPTY;Un joueur a perdu car il n'avait plus de cartes à piocher dans son deck.
+PROMPT_DEFEAT;Défaite
+PROMPT_DELETE_DECK_CONFIRMATION;Voulez-vous vraiment supprimer votre deck ?
+PROMPT_DELETE_FRIEND_CONFIRMATION;Voulez-vous vraiment supprimer cet ami ?
+PROMPT_DISENCHANT_ALL_IN_EXCESS;Voulez-vous vraiment désenchanter tous vos excédents ?
+PROMPT_DISENCHANT_WILL_ALTER_DECKS;Désenchanter cette carte altérera certains decks. Voulez-vous continuer ?
+PROMPT_DOUBLE_KO;La partie a fini en match nul !
+PROMPT_DROP_RUN_CONFIRMATION;Voulez-vous vraiment quitter ? Cela sera considéré comme {0} défaite(s) !
+PROMPT_DUEL_PROPOSED;{0} vous défie en duel.
+PROMPT_EMAIL_HELP_TEXT;Valider votre compte vous offre aussi les avantages suivants :\n\n\t-Récupération du mot de passe\n\t- Accès à nos forums
+PROMPT_TEXT_LATER;Plus tard
+PROMPT_EMAIL_TITLE_TEXT;Adresse e-mail
+PROMPT_EMAIL_WELCOME;Validez votre compte et recevez 2 Coffres de Combat (8 cartes) !
+PROMPT_EXIT_CONFIRMATION;Voulez-vous vraiment quitter ?
+PROMPT_FRIENDLIST_ACCEPT_GAME_INVITE;Accepter cette invitation ?
+PROMPT_FRIENDLIST_ACCEPT_REQUEST;Accepter cette demande d'ami ?
+PROMPT_FRIENDLIST_ACCEPT_STEAM_SUGGESTION;Accepter cette suggestion d'ami Steam ?
+PROMPT_FRIENDLIST_ACCEPT_SUGGESTION;Accepter cette suggestion d'ami ?
+PROMPT_GAME_HAS_CRASHED;Le jeu a planté !
+PROMPT_LOBBY_CANCEL_CONFIRMATION;Voulez-vous vraiment annuler et quitter le salon ?
+PROMPT_LOBBY_LEAVE_CONFIRMATION;Voulez-vous vraiment quitter le salon ?
+PROMPT_MODIFICATION_CANCEL_CONFIRMATION;Vos changements ne sont pas appliqués. Voulez-vous les annuler ?
+PROMPT_NEW_BINDING;Avez-vous déjà un compte Faeria ?
+PROMPT_NO_DECK_FOUND;Vous devez créer un deck pour pouvoir jouer
+PROMPT_PASSWORD_CHANGE_SUCCESS;Mot de passe modifié avec succès pour le compte {0}.
+PROMPT_REFUSED_INVITEE_PLAYING;Votre ami est en pleine partie
+PROMPT_REFUSED_INVITEE_SEARCHING_GAME;Votre ami cherche déjà une partie.
+PROMPT_RESET_PASSWORD;Changer de mot de passe
+PROMPT_SAVE_DECK_FIRST;Voulez-vous conserver les modifications effectuées dans votre deck ?
+PROMPT_SKIP_TUTORIAL_MESSAGE_TEXT;Vous semblez n'avoir aucun problème avec les jeux de cartes. Voulez-vous passer le didacticiel ?
+PROMPT_SKIP_TUTORIAL_TITLE_TEXT;Passer le didacticiel
+PROMPT_STEAM_CONNECTION_REQUIRED;Connexion Steam requise. Veuillez lancer Faeria à partir de Steam.
+PROMPT_SURRENDER_CONFIRMATION;Êtes-vous sûr de vouloir abandonner ?
+PROMPT_TEXT_NO;Non
+PROMPT_TEXT_OK;OK
+PROMPT_TEXT_YES;Oui
+PROMPT_TOURNAMENT_LEAD_DECK_PICK_CONFIRM;Le premier deck que vous enregistrez est celui que vous devrez utiliser de votre première partie jusqu'à votre première défaite. Voulez-vous continuer ?
+PROMPT_TOURNAMENT_LOBBY_LEAVE_CONFIRMATION;Quitter un salon de tournoi avant d'avoir joué toutes les parties restantes vous fera perdre ces parties. Voulez-vous vraiment quitter le salon ?
+PROMPT_TOURNAMENT_SIGNUP_CONFIRM;Voulez-vous vraiment utiliser ces decks ? Une fois votre inscription finalisée, vous ne pourrez plus les modifier.
+PROMPT_TRANSACTION_FAILED;Échec de la transaction
+PROMPT_USERNAME_SKIP_BUTTON_TEXT;Passer
+PROMPT_USER_NAME_TITLE_TEXT;Nom du joueur
+PROMPT_VICTORY;Victoire !
+PROMPT_VICTORY_CONTINUE_BUTTON_TEXT;Continuer
+PUBLIC_ARENA_GAME_SEARCH;Recherche
+PUBLIC_GAME_SEARCH;Recherche
+QUEST_HINT_WILD_COST;Nécessite ce nombre (total) de terrains spéciaux.
+QUEST_HOW_TO_UNLOCK_LANE;Atteignez le niveau {0} pour débloquer cette ligne.
+QUEST_LANE_ACT_NAME;Pack de missions
+QUEST_LANE_COMPLETED;Ligne terminée !
+QUEST_LANE_PROGRESSION;{0}/{1}
+QUEST_LANE_WILD_NAME;Elite
+QUEST_LOCKED_NAME;Mission verrouillée
+QUEST_OPPONENT_LEVEL;Niv. {0}
+QUEST_PACK_COMPLETED;Pack de missions terminé
+QUEST_REQUIRED_LEVEL;Niveau {0}\nrequis.
+QUEST_REWARD_EXPERIENCE_ABBREVIATION;EXP
+QUEST_TYPE_CHALLENGE;Défi
+QUEST_TYPE_EPIC;Mission Épique
+QUEST_TYPE_EPIC_FORCED_DECK;Mission
+QUEST_TYPE_INTRO;Mission
+QUEST_TYPE_MYSTERY;Mission Mystère
+QUEST_TYPE_PUZZLE;Puzzle
+QUEST_TYPE_QUEST;Quête
+QUEST_TYPE_SURVIVAL;Survie
+RANK_DOWN;Classement en baisse
+RANK_STAR_DEFEAT;Défaite
+RANK_STAR_FIRST_WIN_OF_THE_DAY;Première victoire du jour !
+RANK_STAR_HIGHER_LEAGUE_OPPONENT;Vous avez vaincu un adversaire bien plus puissant !
+RANK_STAR_VICTORY;Victoire
+RANK_STAR_WIN_STREAK;Série de victoires !
+RANK_UP;Classement en hausse
+RECOVERY_CODE;Code de récupération
+RECOVERY_STEAM;J'ai créé mon compte sur PC/macOS/Linux.
+RECOVERY_SUPPORT;Les options ci-dessus n'ont pas fonctionné pour moi.
+RECOVERY_VALIDATED;Mon compte Faeria est valide (J'ai fourni mon adresse e-mail)
+RECRUITER;Recruteur
+REFUSE;Décliner
+REFUSE_FRIEND_REQUESTS;Refuser les demandes d'ami
+REFUSE_FRIEND_SPECTATE;Refuser les spectateurs
+REPLAY_BUTTON_TEXT;Mode Replay
+REQUEST_CANCELED_BY_HOST;Demande annulée par l'hôte
+REROLL;Relancer
+RESOLUTION;Résolution : {0}
+RUSH_TUTORIAL;Commencer une partie en rushant
+SAVE;SAUVEGARDER
+SEARCH_MODE_CASUAL_BUTTON_TEXT;Casual
+SEARCH_MODE_RANKED_BUTTON_TEXT;Classé
+SEARCH_TIME_ARENA_MODE_NAME;Pandore
+SEARCH_TIME_CONSTRUCTED_MODE_NAME;Construit
+SERVER_INFO_CUSTOM;{0}
+SERVER_INFO_LAST_ANNOUNCEMENT;Suivez les dernières actualités <u><link={0}>ici</link></u>.
+SERVER_INFO_MAINTENANCE_SCHEDULED;Une maintenance du serveur est prévue pour {0}
+SERVER_INFO_MAINTENANCE_IN_PROGRESS;Nos techniyaks sont en train d'effectuer une maintenance du serveur. Normalement, nos serveurs seront de nouveaux fonctionnels vers {0}
+SERVER_INFO_NEW_VERSION_CHANGELOG;Consultez les dernières notes de patch <u><link={0}>ici</link></u>.
+SERVER_INFO_SERVER_IS_DOWN;Serveur hors service.
+SERVER_IP;Serveur IP
+SETTING_ANIMATED_BACKGROUND;Fond animé :
+SETTING_BUTTON_TEXT_EXIT;Quitter
+SETTING_BUTTON_TEXT_OPTIONS;Options
+SETTING_BUTTON_TEXT_PAUSE;Pause
+SETTING_MUTE_IN_BACKGROUND;Muet en arrière-plan
+SETTING_PERMANENT_DECK_HAND_INFO;Affichage deck/main permanent
+SETTING_POWER_SAVING_MODE;Mode économie d'énergie
+SETTING_TEXT_AUDIO_TITLE;Paramètres audio
+SETTING_TEXT_GAMEPLAY_TITLE;Paramètres de jeu
+SETTING_TEXT_VIDEO_TITLE;Paramètres vidéo
+SETTING_TOGGLE_TEXT_MUTE_EMOTES;Désactiver les emotes
+SETTING_TOGGLE_TEXT_SHOW_LAND_COUNT;Afficher le nombre de territoires
+SETTING_TOGGLE_TEXT_UNMUTE_EMOTES;Réactiver les emotes
+SETTING_WINDOWED;Fenêtré :
+SET_RECRUITER_NAME;Ajoutez un ami en tant que recruteur pour recevoir chacun de fantastiques récompenses lors de votre aventure dans Faeria !\nPour plus d'informations, visitez <link=faeria.com/recruit-your-friends>faeria.com/recruit-your-friends</link>.
+SHOP;Cliquez pour ouvrir la boîte
+SHOP_ANNUITY_DAYS_LEFT;{0} jours restants
+SHOP_INPUT_FIELD_HINT_COUPON;Saisissez votre code coupon ici
+SIGN_IN;Connexion
+SIGN_OUT;Déconnexion
+SOLO_COMPLETED;Mission accomplie !
+SPECTATORS_CANNOT_PAUSE;Les spectateurs ne peuvent pas mettre le jeu en pause.
+SPECTATOR_JOINED_GAME;Nouveau spectateur : {0} a rejoint la partie.
+SPECTATOR_LEFT_GAME;Le spectateur {0} a quitté la partie.
+STOP_SPECTATING;Arrêter d'être spectateur
+SURRENDER;Abandonner
+TOPBAR_BUTTON_PLAY;JOUER
+TUTORIAL_DECK_CREATED;Voici votre nouveau deck !
+TUTORIAL_DECK_CREATED_BACK;Cliquez sur le bouton Retour pour choisir votre mode de jeu
+UPDATE_VERSION_OUTDATED;Votre client requiert une mise à jour.
+UPDATE_VERSION_TIP_IOS;Si la version requise n'est pas encore disponible sur votre App Store, vous devrez l'attendre avant de pouvoir jouer.
+USER_NAME_WELCOME;Bienvenue dans Faeria !\nComment voulez-vous vous appeler ?
+USE_THIS_SET;Utiliser une Formule
+USE_TIMEBANK;Fixer une limite de temps :
+WELCOME_BUTTON_TEXT_ENTER_GAME;Connexion
+WELCOME_BUTTON_TEXT_EXIT;Quitter
+WELCOME_BUTTON_TEXT_OFFICIAL_PAGE;Page officielle
+WELCOME_BUTTON_TEXT_STEAM_LOGIN;Cliquez n'importe où pour vous connecter
+WELCOME_BUTTON_TEXT_START_AS_GUEST;Commencer en tant qu'invité
+WELCOME_BUTTON_TEXT_START_AS_ACCOUNT;J'ai déjà un compte
+WELCOME_INPUT_FIELD_HINT_PASSWORD;Mot de passe
+WELCOME_INPUT_FIELD_HINT_SERVER_IP;Serveur IP
+WELCOME_INPUT_FIELD_HINT_USERNAME;Identifiant
+WELCOME_USE_ANOTHER_ACCOUNT;Déconnexion
+WINNER;Vainqueur
+WORLD_BOSS_OBJECTIVE_PROGRESS;Venez à bout de 3 boss ({0}/3)
+WORLD_BOSS_OBJECTIVE_TEXT1;Débloque l'Orbe des Champions
+WORLD_BOSS_OBJECTIVE_TEXT2;Améliore votre Orbe des Champions
+WORLD_BOSS_OBJECTIVE_TITLE;Objectif de Monde
+WORLD_BOSS_REWARD;Récompense de Boss
+WORLD_LOCATION;Emplacement
+XP;{0} exp
+YOU_PLAY_FIRST;Vous jouez en premier
+YOU_PLAY_SECOND;Vous jouez en deuxième
+CARD_WAS_PROMOTED_AS_DECK_COVER;La carte a été choisie comme couverture du deck.
+CURRENT_DECK_COVER;Couverture actuelle
+PROMOTE_DECK_COVER;Choisir comme couverture du deck
+CARD_ZOOM_PROMOTE_AS_DECK_COVER_BUTTON_TOOLTIP;Choisir comme couverture du deck
+CARD_ZOOM_VIEW_LORE_PAGE_BUTTON_TOOLTIP;Voir la page d'histoire
+LORE_BOOK_EXPLANATION_TEXT;Collectez des morceaux de récit, explorez les légendes et mystères de l'histoire de Faeria.
+LORE_PAGE_ARTISTS;<b>Artistes</b> {0}
+LORE_PAGE_NOT_AVAILABLE;Vous devez être au minimum niveau {0} pour accéder aux pages d'histoire
+CO_OP_LOBBY;Salon de Co-op
+LOBBY_CRUCIBLE_RULES_TITLE;Règles du Creuset
+LOBBY_DECK_FORMAT;Format de deck
+LOBBY_DECK_FORMAT_CLASSIC;Classique
+LOBBY_DECK_FORMAT_CRUCIBLE;Creuset
+LOBBY_MINUTES_PER_GAME;Minutes par partie :
+LOBBY_SECONDS_PER_TURN;Secondes par tour :
+LORE_BOOK_EMPTY_SECTION;Aucun résultat dans cette section
+LORE_PAGE_NOT_YET_AVAILABLE;Cette page d'histoire n'est pas encore disponible
+LOBBY_GO_TO_COLLECTION;Vers la collection
+LOBBY_START_OVER;Recommencer
+PROMPT_LOBBY_BACK_CONFIRMATION;Vous ramènerez tout le monde à l'écran de paramétrage du salon. Continuer ?
+PROMPT_LOBBY_START_OVER_CONFIRMATION;Cette action réinitialisera le score du salon et débloquera les paramètres. Continuer ?
+REGISTER_YOUR_DECKS;Enregistrez vos decks !
+TOURNAMENT_DECKS_REGISTERED;Decks enregistrés !
+LORE_BOOK_UNAVAILABLE_TOOTIP;Débloqué au niveau {0}
+CREDIT_RATE_US_ON_STEAM_BUTTON_TEXT;Évaluez nous sur Steam
+HOME_CREDITS_BUTTON_TEXT;Crédits
+PROMPT_FRIEND_CALLED;Un email a été envoyé à votre yak perdu.\nVous pouvez également le contacter en utilisant votre moyen de communiyaktion préféré - il faut simplement qu'il se connecte !
+PROMPT_FRIENDS_CALLED;Un email a été envoyé à chacun de vos {0} yaks perdus.\nVous pouvez également les contacter en utilisant votre moyen de communiyaktion préféré - il faut simplement qu'ils se connectent !
+FRIEND_CALL_SEND;Envoyer
+FRIEND_CALL_NO_ELIGIBLE;Vous avez déjà appelé tous vos amis!
+FRIENDLIST_CALL_FRIEND;Appelez vos anciens amis !
+MAINMENU_TITLE_PUZZLES;PUZZLES
+SETTING_CLEAR_CACHE;Vider le cache
+CACHE_CLEARED;Ceci prendra effet lorsque vous relancerez le jeu.
+CACHE_CLEAR_FAIL_PERMISSION;L'opération a échoué, veuillez relancer Faeria en tant qu'Administrateur.
+CACHE_CLEAR_FAIL_IN_USE;L'opération a échoué car le fichier est en cours d'utilisation. Veuillez redémarrer votre appareil et essayer à nouveau.
+XP_WITH_NEXT_LEVEL;{0}/{1}xp
+SET_COSMETICS;Choisir les cosmétiques
+PLAY_MENU_SOLO_DRAGONS_LAIR;Antre du Dragon
+MARKET_ITEM_SPECIAL_PROMO;Promo spéciale
+MARKET_ITEM_COMPLETE_YOUR_SET;Complétez votre set !
+DRAGON_TODAYS_CHALLENGES;Le défi du jour
+DRAGON_SOLO_MISSION;Mission solo
+DRAGON_REWARD;Récompense draconique
+DRAGON_CO_OP_MISSION;Mission Co-op
+APPLY;Appliquer
+MOUSE_PROMPT_CLICK_ANYWHERE;Cliquez n'importe où pour continuer
+PLAY_MENU_SOLO_WORLDBOSS_INFO;Des combats de boss de haute difficulté qui mettront à l'épreuve vos capacités de construction de deck.
+PLAY_MENU_SOLO_STANDARD_INFO;Maîtrisez les bases de Faeria grâce à ces pack de missions variés.
+PLAY_MENU_SOLO_OVERSKY_INFO;Campagne en coopération ! Rejoignez la bataille avec un ami ou un allié IA.
+PLAY_MENU_SOLO_DRAGONS_LAIR_INFO;Défis quotidiens ! Revenez ici tous les jours pour vaincre de nouveaux dragons dans des batailles en solo ou en coopération.
+MAINMENU_TITLE_SOLO_INFO;Découvrez le monde de Faeria dans ces défis en Solo et en Co-op !
+MAINMENU_TITLE_PUZZLES_INFO;Complétez des puzzles complexes et apprenez quelques astuces pratiques en cours de route.
+MAINMENU_TITLE_PANDORA_INFO;Mode draft. Essayez de nouvelles cartes et construisez un deck unique. Tenez bon aussi longtemps que vous le pouvez !
+MAINMENU_TITLE_BATTLE_INFO;Mode de jeu classique. Rejoignez le mode multijoueur Classé ou Casual, ou bien entraînez-vous contre l'IA.
+MOUSE_HOME_LINKS_INFO;Cliquez ici pour lire les nouveautés importantes sur notre blog officiel.
+DEFAULT_BUTTON_TEXT;Par défaut
+BACK_TO_WORLD_BOSSES;Retourner aux Boss du Monde
+BACK_TO_PUZZLES;Retourner aux puzzles
+BACK_TO_PANDORA;Retourner à Pandore
+BACK_TO_OVERSKY;Retourner à Outreciel
+BACK_TO_MISSIONS;Retourner aux missions
+BACK_TO_DRAGONS_LAIR;Retourner à l'Antre du Dragon
+BACK_TO_BATTLE;Retourner au combat
+LORE_BOOK_TOGGLE_TEXT;Livre d'Histoires
+SHOW;Afficher
+INGAME_OPPONENT_DISCOVERING_CARD;Votre adversaire découvre une carte
+INGAME_ALLY_DISCOVERING_CARD;Votre allié découvre une carte
+HIDE;Masquer
+GEMS_INFO_POPUP_DESCRIPTION;Les gemmes sont désormais une monnaie promotionnelle que vous pouvez obtenir seulement lors d'événements spéciaux.
+GEMS_INFO_POPUP_TITLE;A propos des gemmes
+SHORTCUT_TEXT_TOGGLE;Activer/Désactiver
+SHORTCUT_TEXT_MODIFY_SLIDER;Modifier le curseur
+SHORTCUT_TEXT_CLOSE;Fermer
+SETTING_TEXT_LANGUAGE_TITLE;Langues
+SERVER_INFO_UNAVAILABLE;Les serveurs ne sont pas disponibles pour l'instant
+CHAT_ERROR_RECIPIENT_CANNOT_CHAT;{0} n'est pas autorisé(e) à discuter
+YOUR_SUPPORT_ID;Votre identifiant :
+PROBLEM_OCCURED_AND_GAME_NEEDS_RESTART;Un problème est survenu et le jeu doit être redémarré.
+MOUSE_PROMPT_CLICK_TO_CLOSE;Cliquez pour fermer
+LOADING_HERDING_YAKS;Regroupement des yaks
+LOADING_DOWNLOADING_CONTENT;Téléchargement du contenu
+LOADING_CHECKING_CONTENT;Vérification du contenu
+GAMEPAD_PROMPT_CLICK_TO_CLOSE;Appuyez sur {GAMEPAD_ACTION_CANCEL} pour fermer.
+GAMEPAD_PROMPT_CLICK_ANYWHERE;Appuyez sur {GAMEPAD_ACTION_CONFIRM} pour continuer.
+GAMEPAD_HOME_LINKS_INFO;Appuyez sur {GAMEPAD_ACTION_CONFIRM} pour lire les nouvelles importantes sur notre blog officiel.
+CHAT_ERROR_MULTIPLE_FRIENDS_WITH_NAME;Plusieurs amis utilisent ce nom d'utilisateur. Veuillez utiliser le menu contextuel de la liste d'amis pour discuter avec cette personne à la place.
+GO_TO_STORE_BUTTON_TEXT;Vers la boutique
+CHAT_ERROR_MESSAGE_REFUSED;Votre message a été automatiquement rejeté par la plate-forme du destinataire en raison de son contenu.
+CHAT_ERROR_SANITIZATION_ERROR;Votre message a été rejeté en raison de son contenu.
+ID_COPIED_TO_CLIPBOARD;Identifiant copié dans le presse-papiers.
+SPECIAL_LADDER_MAPS_EVENT_TITLE;Cartes spéciales du mode Classé
+PLAYER_PLATFORM_XBOX_LIVE;Xbox Live
+PLAYER_PLATFORM_PS4;PS4
+PLAYER_PLATFORM_SWITCH;Switch
+PLAYER_UNKNOWN_USER_NAME;Joueur inconnu
+PLAYER;Joueur
+NOT_ENOUGH_COINS;Vous ne possédez pas assez de cristaux.
+NOT_ENOUGH_GEMS;Vous ne possédez pas assez de gemmes.
+LADDER_RANKED_BUTTON;Classé
+LADDER_PANDORA_BUTTON;Pandore
+HOME_LADDER_BUTTON_TEXT;Classement
+COSMETIC_ITEM_NOT_OWNED;Vous ne possédez pas cet objet cosmétique
+DOWNLOADED;Téléchargé

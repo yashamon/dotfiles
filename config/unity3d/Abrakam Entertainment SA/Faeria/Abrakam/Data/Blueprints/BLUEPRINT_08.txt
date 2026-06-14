@@ -1,0 +1,18 @@
+# Name: BLUEPRINT_08
+# Order: 8
+# RequirementType: LEVEL
+# RequirementParam: 18
+-------- 
+1 Magnus, King of Meroval
+1 Garudan, Heart of the Mountain
+2 Blood Song
+2 Frogify
+2 Firestorm
+2 Mirror Phantasm
+2 Hellfire
+3 Stormspawn
+3 Windfall
+3 Ogre Dance
+3 Bold Bargainer
+3 Ogre Battler
+3 Icerock Behemoth

@@ -1,0 +1,511 @@
+AVATAR_ADVENTURER_NAME;Фугоро
+AVATAR_AURORA_NAME;Аврора
+AVATAR_BASIC_NAME;Исследователь
+AVATAR_BLUE_ELEMENTAL_1_NAME;Лазурный дух
+AVATAR_BLUE_ELEMENTAL_2_NAME;Лазурное явление
+AVATAR_BLUE_ELEMENTAL_3_NAME;Лазурный Джинн
+AVATAR_BOMB_SLINGER_NAME;Бомбардир
+AVATAR_CAP_10_NAME;CAP-10
+AVATAR_DARK_WISP_NAME;Тёмный Огонёк
+AVATAR_FUGORO_NAME;Фугоро
+AVATAR_GREEN_ELEMENTAL_1_NAME;Древесный дух
+AVATAR_GREEN_ELEMENTAL_2_NAME;Древесное явление
+AVATAR_GREEN_ELEMENTAL_3_NAME;Древесный Джинн
+AVATAR_HOAKA_NAME;Хоака
+AVATAR_JALMYR_NAME;Джалмир
+AVATAR_KAIOS_NAME;Кайос
+AVATAR_KELDRAN_EMISSARY_NAME;Посланник ветророжденных
+AVATAR_KHALIM_NAME;Кхалим
+AVATAR_KINGS_GUARD_NAME;Бальхар
+AVATAR_KOBOLD_MERCENARY_NAME;Подземный главарь
+AVATAR_KROG_NAME;Крог
+AVATAR_MAGDA_NAME;Магда
+AVATAR_OGRE_BATTLER_NAME;Огр-боец
+AVATAR_RAIZEON_NAME;Райзеон
+AVATAR_RAPALA_NAME;Рапала
+AVATAR_RED_ELEMENTAL_1_NAME;Кровавый дух
+AVATAR_RED_ELEMENTAL_2_NAME;Кровавое явление
+AVATAR_RED_ELEMENTAL_3_NAME;Багровый Джинн
+AVATAR_RUUNIN_NAME;Руунин
+AVATAR_SAGAMI_ELDER_NAME;Старейшина сагами
+AVATAR_SEIFER_NAME;Сайфер
+AVATAR_SHARRA_NAME;Шарра
+AVATAR_SHAYTAN_ASSASSIN_NAME;Шайтан-убийца
+AVATAR_TAESA_NAME;Габрианская чаровница
+AVATAR_TARANGA_NAME;Таранга
+AVATAR_TARUM_NAME;Тарум
+AVATAR_THE_EGG_NAME;Яйцо
+AVATAR_ULANI_NAME;Улани
+AVATAR_VERDURAN_FORCE_NAME;Вердуранская Сила
+AVATAR_YAKKAR_NAME;Яккар
+AVATAR_YAK_CYNICAL_NAME;Циничный як
+AVATAR_YAK_DRAGON_NAME;Фафнир
+AVATAR_YAK_FANCY_NAME;Сэр Яккинтон
+AVATAR_YAK_FARMER_NAME;Пастух
+AVATAR_YAK_FAT_NAME;Пушистик
+AVATAR_YAK_FORCER_NAME;Як-полицейский
+AVATAR_YAK_HIPPIE_NAME;Цветок мира
+AVATAR_YAK_KING_NAME;Король Якнус
+AVATAR_YAK_PIRATE_NAME;Як Воробей
+AVATAR_YELLOW_ELEMENTAL_1_NAME;Дух пустоши
+AVATAR_YELLOW_ELEMENTAL_2_NAME;Явление пустоши
+AVATAR_YELLOW_ELEMENTAL_3_NAME;Одинокий Джинн
+CARD_BACK_1605_GOLD_NAME;Золотая рубашка карт - 1 сезон
+CARD_BACK_1605_SILVER_NAME;Серебряная рубашка карт - 1 сезон
+CARD_BACK_1606_GOLD_NAME;Золотая рубашка карт - 2 сезон
+CARD_BACK_1606_SILVER_NAME;Серебряная рубашка карт - 2 сезон
+CARD_BACK_1607_GOLD_NAME;Золотая рубашка карт - 3 сезон
+CARD_BACK_1607_SILVER_NAME;Серебряная рубашка карт - 3 сезон
+CARD_BACK_1608_GOLD_NAME;Золотая рубашка карт - 4 сезон
+CARD_BACK_1608_SILVER_NAME;Серебряная рубашка карт - 4 сезон
+CARD_BACK_1609_GOLD_NAME;Золотая рубашка карт - 5 сезон
+CARD_BACK_1609_SILVER_NAME;Серебряная рубашка карт - 5 сезон
+CARD_BACK_1610_GOLD_NAME;Золотая рубашка карт - 6 сезон
+CARD_BACK_1610_SILVER_NAME;Серебряная рубашка карт - 6 сезон
+CARD_BACK_1611_GOLD_NAME;Золотая рубашка карт - 7 сезон
+CARD_BACK_1611_SILVER_NAME;Серебряная рубашка карт - 7 сезон
+CARD_BACK_1612_GOLD_NAME;Золотая рубашка карт - 8 сезон
+CARD_BACK_1612_SILVER_NAME;Серебряная рубашка карт - 8 сезон
+CARD_BACK_1701_GOLD_NAME;Золотая рубашка карт - 9 сезон
+CARD_BACK_1701_SILVER_NAME;Серебряная рубашка карт - 9 сезон
+CARD_BACK_1702_GOLD_NAME;Золотая рубашка карт - 10 сезон
+CARD_BACK_1702_SILVER_NAME;Серебряная рубашка карт - 10 сезон
+CARD_BACK_1703_GOLD_NAME;Золотая рубашка карт - 11 сезон
+CARD_BACK_1703_SILVER_NAME;Серебряная рубашка карт - 11 сезон
+CARD_BACK_1704_GOLD_NAME;Золотая рубашка карт - 12 сезон
+CARD_BACK_1704_SILVER_NAME;Серебрянная рубашка карт - 12 сезон
+CARD_BACK_1705_GOLD_NAME;Золотая рубашка карт - 13 сезон
+CARD_BACK_1705_SILVER_NAME;Серебрянная рубашка карт - 13 сезон
+CARD_BACK_1706_GOLD_NAME;Золотая рубашка карт - 14 сезон
+CARD_BACK_1706_SILVER_NAME;Серебряная рубашка карт - 14 сезон
+CARD_BACK_1707_GOLD_NAME;Золотая рубашка карт - 15 сезон
+CARD_BACK_1707_SILVER_NAME;Серебряная рубашка карт - 15 сезон
+CARD_BACK_1708_GOLD_NAME;Золотая рубашка карт - 16 сезон
+CARD_BACK_1708_SILVER_NAME;Серебряная рубашка карт - 16 сезон
+CARD_BACK_1709_GOLD_NAME;Золотая рубашка карт - 17 сезон
+CARD_BACK_1709_SILVER_NAME;Серебряная рубашка карт - 17 сезон
+CARD_BACK_1710_GOLD_NAME;Золотая рубашка карт - 18 сезон
+CARD_BACK_1710_SILVER_NAME;Серебряная рубашка карт - 18 сезон
+CARD_BACK_1711_GOLD_NAME;Золотая рубашка карт - 19 сезон
+CARD_BACK_1711_SILVER_NAME;Серебряная рубашка карт - 19 сезон
+CARD_BACK_1712_GOLD_NAME;Золотая рубашка карт - 20 сезон
+CARD_BACK_1712_SILVER_NAME;Серебряная рубашка карт - 20 сезон
+CARD_BACK_1801_GOLD_NAME;Золотая рубашка карт - 21 сезон
+CARD_BACK_1801_SILVER_NAME;Серебряная рубашка карт - 21 сезон
+CARD_BACK_1802_GOLD_NAME;Золотая рубашка карт - 22 сезон
+CARD_BACK_1802_SILVER_NAME;Серебряная рубашка карт - 22 сезон
+CARD_BACK_1803_GOLD_NAME;Золотая рубашка карт - 23 сезон
+CARD_BACK_1803_SILVER_NAME;Серебряная рубашка карт - 23 сезон
+CARD_BACK_1804_GOLD_NAME;Золотая рубашка карт - 24 сезон
+CARD_BACK_1804_SILVER_NAME;Серебряная рубашка карт - 24 сезон
+CARD_BACK_1805_GOLD_NAME;Золотая рубашка карт - 25 сезон
+CARD_BACK_1805_SILVER_NAME;Серебряная рубашка карт - 25 сезон
+CARD_BACK_ADVENTURER_NAME;Рубашка карт Фугоро
+CARD_BACK_ADVENTURE_POUCH_NAME;Рубашка карт Искателя приключений
+CARD_BACK_AURORA_NAME;Рубашка карт Авроры
+CARD_BACK_BASIC_COPPER_NAME;Фиолетовая алмазная рубашка карт
+CARD_BACK_BASIC_DIAMOND_NAME;Серебристая алмазная рубашка карт
+CARD_BACK_BASIC_NAME;Базовая рубашка карт
+CARD_BACK_BOMB_SLINGER_NAME;Рубашка карт Бомбардира
+CARD_BACK_DRAGON_NAME;Рубашка карт Чёрного дракона
+CARD_BACK_FAERIA_WORLD_CIRCUIT_NAME;Чемпионат Мира по Faeria
+CARD_BACK_FUGORO_NAME;Рубашка карт Фугоро
+CARD_BACK_HOAKA_NAME;Рубашка карт Хоаки
+CARD_BACK_JALMYR_NAME;Рубашка карт Джалмира
+CARD_BACK_KAIOS_NAME;Рубашка карт Кайоса
+CARD_BACK_KHALIM_NAME;Рубашка карт Кхалима
+CARD_BACK_KROG_NAME;Рубашка карт Крога
+CARD_BACK_MAGDA_NAME;Рубашка карт Магды
+CARD_BACK_MOSAIC_FLOWER_NAME;Рубашка карт Цветочная мозаика
+CARD_BACK_MOSAIC_SOLAR_NAME;Рубашка карт Солнечная мозаика
+CARD_BACK_MUCHA_NAME;Рубашка карты Ар-нуво
+CARD_BACK_PANDORA_1610_GOLD_NAME;Золотая рубашка карт Пандоры - 6 сезон
+CARD_BACK_PANDORA_1610_SILVER_NAME;Серебряная рубашка карт Пандоры - 7 сезон
+CARD_BACK_PANDORA_1611_GOLD_NAME;Золотая рубашка карт Пандоры - 7 сезон
+CARD_BACK_PANDORA_1611_SILVER_NAME;Серебряная рубашка карт Пандоры - 7 сезон
+CARD_BACK_PANDORA_1612_GOLD_NAME;Золотая рубашка карт Пандоры - 8 сезон
+CARD_BACK_PANDORA_1612_SILVER_NAME;Серебряная рубашка карт Пандоры - 8 сезон
+CARD_BACK_PANDORA_1701_GOLD_NAME;Золотая рубашка карт Пандоры - 9 сезон
+CARD_BACK_PANDORA_1701_SILVER_NAME;Серебряная рубашка карт Пандоры - 9 сезон
+CARD_BACK_PANDORA_1702_GOLD_NAME;Золотая рубашка карт Пандоры - 10 сезон
+CARD_BACK_PANDORA_1702_SILVER_NAME;Серебряная рубашка карт Пандоры - 10 сезон
+CARD_BACK_PANDORA_1703_GOLD_NAME;Золотая рубашка карт Пандоры - 11 сезон
+CARD_BACK_PANDORA_1703_SILVER_NAME;Серебряная рубашка карт Пандоры - 11 сезон
+CARD_BACK_PANDORA_1704_GOLD_NAME;Золотая рубашка карт Пандоры - 12 сезон
+CARD_BACK_PANDORA_1704_SILVER_NAME;Серебрянная рубашка карт Пандоры - 12 сезон
+CARD_BACK_PANDORA_1705_GOLD_NAME;Золотая рубашка карт Пандоры - 13 сезон
+CARD_BACK_PANDORA_1705_SILVER_NAME;Серебрянная рубашка карт Пандоры - 13 сезон
+CARD_BACK_PANDORA_1706_GOLD_NAME;Золотая рубашка карт Пандоры - 14 сезон
+CARD_BACK_PANDORA_1706_SILVER_NAME;Серебряная рубашка карт Пандоры - 14 сезон
+CARD_BACK_PANDORA_1707_GOLD_NAME;Золотая рубашка карт Пандоры - 15 сезон
+CARD_BACK_PANDORA_1707_SILVER_NAME;Серебряная рубашка карт Пандоры - 15 сезон
+CARD_BACK_PANDORA_1708_GOLD_NAME;Золотая рубашка карт Пандоры - 16 сезон
+CARD_BACK_PANDORA_1708_SILVER_NAME;Серебряная рубашка карт Пандоры - 16 сезон
+CARD_BACK_PANDORA_1709_GOLD_NAME;Золотая рубашка карт Пандоры - 17 сезон
+CARD_BACK_PANDORA_1709_SILVER_NAME;Серебряная рубашка карт Пандоры - 17 сезон
+CARD_BACK_PANDORA_1710_GOLD_NAME;Золотая рубашка карт Пандоры - 18 сезон
+CARD_BACK_PANDORA_1710_SILVER_NAME;Серебряная рубашка карт Пандоры - 18 сезон
+CARD_BACK_PANDORA_1711_GOLD_NAME;Золотая рубашка карт Пандоры - 19 сезон
+CARD_BACK_PANDORA_1711_SILVER_NAME;Серебряная рубашка карт Пандоры - 19 сезон
+CARD_BACK_PANDORA_1712_GOLD_NAME;Золотая рубашка карт Пандоры - 20 сезон
+CARD_BACK_PANDORA_1712_SILVER_NAME;Серебряная рубашка карт Пандоры - 20 сезон
+CARD_BACK_PANDORA_1801_GOLD_NAME;Золотая рубашка карт Пандоры - 21 сезон
+CARD_BACK_PANDORA_1801_SILVER_NAME;Серебряная рубашка карт Пандоры - 21 сезон
+CARD_BACK_PANDORA_1802_GOLD_NAME;Золотая рубашка карт Пандоры - 22 сезон
+CARD_BACK_PANDORA_1802_SILVER_NAME;Серебряная рубашка карт Пандоры - 22 сезон
+CARD_BACK_PANDORA_1803_GOLD_NAME;Золотая рубашка карт Пандоры - 23 сезон
+CARD_BACK_PANDORA_1803_SILVER_NAME;Серебряная рубашка карт Пандоры - 23 сезон
+CARD_BACK_PANDORA_1804_GOLD_NAME;Золотая рубашка карт Пандоры - 24 сезон
+CARD_BACK_PANDORA_1804_SILVER_NAME;Серебряная рубашка карт Пандоры - 24 сезон
+CARD_BACK_PANDORA_1805_GOLD_NAME;Золотая рубашка карт Пандоры - 25 сезон
+CARD_BACK_PANDORA_1805_SILVER_NAME;Серебряная рубашка карт Пандоры - 25 сезон
+CARD_BACK_PREMIUM_NAME;Премиумная рубашка карт
+CARD_BACK_RAPALA_NAME;Рубашка карт Рапалы
+CARD_BACK_RUUNIN_NAME;Рубашка карт Руунин
+CARD_BACK_SEIFER_NAME;Рубашка карт Сайфера
+CARD_BACK_SHARRA_NAME;Рубашка карт Шарры
+CARD_BACK_TARUM_NAME;Рубашка карт Тарума
+EMOTE_ADVENTURER_GREETINGS_NAME;Пусть победит лучшая лягушка.
+EMOTE_ADVENTURER_OOPS_NAME;Ай-яй-яй.
+EMOTE_ADVENTURER_TAUNT_NAME;Может, тебе стоит купить побольше карт?
+EMOTE_ADVENTURER_UNIQUE_NAME;А ты уже купил моё сверхнебесное путешествие?
+EMOTE_ADVENTURER_WELL_PLAYED_NAME;Гениально.
+EMOTE_ADVENTURER_WOW_NAME;Святые лягушки!
+EMOTE_AURORA_GREETINGS_NAME;Так приятно тебя видеть.
+EMOTE_AURORA_OOPS_NAME;Ошибки учат нас.
+EMOTE_AURORA_TAUNT_NAME;О, ты чудо!
+EMOTE_AURORA_UNIQUE_NAME;Никакого уважения к старшему...
+EMOTE_AURORA_WELL_PLAYED_NAME;Ты заслужил моё уважение.
+EMOTE_AURORA_WOW_NAME;Похоже, меня ещё ждет немало сюрпризов.
+EMOTE_BASIC_GREETINGS_NAME;Приветствую.
+EMOTE_BASIC_OOPS_NAME;Это была ошибка.
+EMOTE_BASIC_TAUNT_NAME;Тебе не выжить.
+EMOTE_BASIC_WELL_PLAYED_NAME;Неплохо сыграно.
+EMOTE_BASIC_WOW_NAME;Поразительно!
+EMOTE_BOMB_SLINGER_GREETINGS_NAME;Запущен протокол приветствия!
+EMOTE_BOMB_SLINGER_OOPS_NAME;ОШИБКА. ОШИБКА.
+EMOTE_BOMB_SLINGER_TAUNT_NAME;Уничтожить!
+EMOTE_BOMB_SLINGER_UNIQUE_NAME;Устанавливаю обновления...
+EMOTE_BOMB_SLINGER_WELL_PLAYED_NAME;Отлично сыграно = Истина!
+EMOTE_BOMB_SLINGER_WOW_NAME;Уровень веселья установлен на максимум!
+EMOTE_FUGORO_GREETINGS_NAME;Приветствую, друг.
+EMOTE_FUGORO_OOPS_NAME;За деньги мудрость не купишь.
+EMOTE_FUGORO_TAUNT_NAME;Завернуть тебе поражение в подарочную упаковку?
+EMOTE_FUGORO_UNIQUE_NAME;Покупай больше сундуков, поддержи местного купца!
+EMOTE_FUGORO_WELL_PLAYED_NAME;Неплохо сыграно. Ты - мой любимый клиент.
+EMOTE_FUGORO_WOW_NAME;Невероятно! Надо было потребовать плату за вход!
+EMOTE_HOAKA_GREETINGS_NAME;Добро пожаловать! Добро пожаловать!
+EMOTE_HOAKA_OOPS_NAME;Не следовало этого делать.
+EMOTE_HOAKA_TAUNT_NAME;Ты уже проиграл. Ты просто ещё этого не знаешь.
+EMOTE_HOAKA_UNIQUE_NAME;Я такой умный, сам себя поражаю!
+EMOTE_HOAKA_WELL_PLAYED_NAME;Ты - новый вызов!
+EMOTE_HOAKA_WOW_NAME;Превосходно!
+EMOTE_JALMYR_GREETINGS_NAME;Приветствие
+EMOTE_JALMYR_OOPS_NAME;Хмм, неочевидная ошибка.
+EMOTE_JALMYR_TAUNT_NAME;Видимо, тебе следовало решать больше головоломок.
+EMOTE_JALMYR_UNIQUE_NAME;Не торопись.
+EMOTE_JALMYR_WELL_PLAYED_NAME;Ты неплохо обучился.
+EMOTE_JALMYR_WOW_NAME;Великолепно.
+EMOTE_KAIOS_GREETINGS_NAME;Добро пожаловать в мои земли.
+EMOTE_KAIOS_OOPS_NAME;Глупо.
+EMOTE_KAIOS_TAUNT_NAME;Склонись передо мной.
+EMOTE_KAIOS_UNIQUE_NAME;Присоединись ко мне. Такова твоя судьба.
+EMOTE_KAIOS_WELL_PLAYED_NAME;Ты превзошёл мои ожидания.
+EMOTE_KAIOS_WOW_NAME;Потрясающе!
+EMOTE_KHALIM_GREETINGS_NAME;Какая встреча.
+EMOTE_KHALIM_OOPS_NAME;Это непростительно.
+EMOTE_KHALIM_TAUNT_NAME;Твои навыки недостаточно развиты.
+EMOTE_KHALIM_UNIQUE_NAME;Я ненавижу песок. Он проникает куда угодно.
+EMOTE_KHALIM_WELL_PLAYED_NAME;Неплохо сыграно. Ты опасен.
+EMOTE_KHALIM_WOW_NAME;Именем диких ветров!
+EMOTE_KROG_GREETINGS_NAME;Давай будем друзьями!
+EMOTE_KROG_OOPS_NAME;Даже короли делают дурацкие ошибки.
+EMOTE_KROG_TAUNT_NAME;Я сделаю из тебя яка!
+EMOTE_KROG_UNIQUE_NAME;Ты попался королю Крогу!
+EMOTE_KROG_WELL_PLAYED_NAME;Ты маленькая печенька!
+EMOTE_KROG_WOW_NAME;*ликующий смех*
+EMOTE_MAGDA_GREETINGS_NAME;Приветствие.
+EMOTE_MAGDA_OOPS_NAME;Незначительная ошибка.
+EMOTE_MAGDA_TAUNT_NAME;Ты меня забавляешь.
+EMOTE_MAGDA_UNIQUE_NAME;Всё это - часть моего плана.
+EMOTE_MAGDA_WELL_PLAYED_NAME;Отлично сыграно. Я недооценила тебя.
+EMOTE_MAGDA_WOW_NAME;У меня нет слов.
+EMOTE_RAPALA_GREETINGS_NAME;Удачи, веселья!
+EMOTE_RAPALA_OOPS_NAME;Экая незадача.
+EMOTE_RAPALA_TAUNT_NAME;Почему ты такой серьезный?
+EMOTE_RAPALA_UNIQUE_NAME;Давай нарисуем улыбку на этом лице!
+EMOTE_RAPALA_WELL_PLAYED_NAME;ГГ, неплохо сыграно.
+EMOTE_RAPALA_WOW_NAME;Это момент для YouTube!
+EMOTE_RUUNIN_GREETINGS_NAME;Приветствие.
+EMOTE_RUUNIN_OOPS_NAME;*рычание*
+EMOTE_RUUNIN_TAUNT_NAME;Природа никогда не умирает.
+EMOTE_RUUNIN_UNIQUE_NAME;То, что меня *убивает*, лишь делает меня сильнее.
+EMOTE_RUUNIN_WELL_PLAYED_NAME;Ты прекрасный охотник.
+EMOTE_RUUNIN_WOW_NAME;Во имя моих грозных клыков!
+EMOTE_SEIFER_GREETINGS_NAME;Хех. Здравствуй.
+EMOTE_SEIFER_OOPS_NAME;Незначительная помеха.
+EMOTE_SEIFER_TAUNT_NAME;Я тебя ПОХОРОНЮ!
+EMOTE_SEIFER_UNIQUE_NAME;Остаться должен только один!
+EMOTE_SEIFER_WELL_PLAYED_NAME;Хорошо сыграно! А ты умнее, чем пахнешь.
+EMOTE_SEIFER_WOW_NAME;Восхитительно!
+EMOTE_SHARRA_GREETINGS_NAME;Какая встреча.
+EMOTE_SHARRA_OOPS_NAME;Ошибка. Не жди другой.
+EMOTE_SHARRA_TAUNT_NAME;Прими смерть достойно.
+EMOTE_SHARRA_UNIQUE_NAME;Уклоняйся, как река. Налетай, как ветер.
+EMOTE_SHARRA_WELL_PLAYED_NAME;Из тебя вышел достойный соперник.
+EMOTE_SHARRA_WOW_NAME;Святые яки!
+EMOTE_TARUM_GREETINGS_NAME;Земля приветствует тебя.
+EMOTE_TARUM_OOPS_NAME;Даже я совершаю ошибки.
+EMOTE_TARUM_TAUNT_NAME;Из тебя получится прекрасное удобрение.
+EMOTE_TARUM_UNIQUE_NAME;Какой ты крошечный.
+EMOTE_TARUM_WELL_PLAYED_NAME;Хорошо сыграно, малютка.
+EMOTE_TARUM_WOW_NAME;Во имя древней матери...
+ORB_ADVENTURER_NAME;Сфера Фугоро
+ORB_ARCANE_NAME;Сфера тайной магии
+ORB_AURORA_NAME;Сфера Авроры
+ORB_BASIC_NAME;Базовая сфера
+ORB_BOMB_SLINGER_NAME;Сфера Бомбардира
+ORB_CHAMPION_1_NAME;Сфера Чемпионов
+ORB_CHAMPION_2_NAME;Сфера Чемпионов
+ORB_CHAMPION_3_NAME;Сфера Чемпионов
+ORB_CHAMPION_4_NAME;Сфера Чемпионов
+ORB_DRAGON_NAME;Сфера Золотого дракона
+ORB_FUGORO_NAME;Сфера Фугоро
+ORB_GAEA_NAME;Сфера Гайи
+ORB_GIANTS_NAME;Сфера великанов
+ORB_HOAKA_NAME;Сфера Хоаки
+ORB_JALMYR_NAME;Сфера Джалмира
+ORB_KAIOS_NAME;Сфера Кайоса
+ORB_KHALIM_NAME;Сфера Кхалима
+ORB_KROG_NAME;Сфера Крога
+ORB_LOYALTY_NAME;Сфера Верности
+ORB_MAGDA_NAME;Сфера Магды
+ORB_PACK_NAME;Эксклюзивная сфера для всех, кто поддержал кампанию на Kickstarter
+ORB_POWER_NAME;Камень тайной магии
+ORB_RAPALA_NAME;Сфера Рапалы
+ORB_RUUNIN_NAME;Сфера Руунин
+ORB_SEIFER_NAME;Сфера Сайфера
+ORB_SHARRA_NAME;Сфера Шарры
+ORB_TARUM_NAME;Сфера Тарума
+ORB_VALOR_NAME;Сфера доблести
+SHORE_AMAI_NAME;Побережье Амай
+SHORE_FOREST_NAME;Лесное побережье
+SHORE_GABRIA_NAME;Габрианское побережье
+SHORE_MENETHYR_NAME;Менетирское побережье
+SHORE_OVERSKY_CORRUPT_NAME;Побережье Гибели Сверхнебесья
+SHORE_OVERSKY_DAY_NAME;Дневное побережье Сверхнебесья
+SHORE_OVERSKY_NIGHT_NAME;Ночное побережье Сверхнебесья
+SHORE_PANDORA_NAME;Побережье Пандоры
+SHORE_SYLAND_NAME;Силандское побережье
+SHORE_VOID_NAME;Побережье пустоты
+WELL_ADVENTURER_NAME;Колодцы Фугоро
+WELL_ARCANE_NAME;Колодцы тайной магии
+WELL_AURORA_NAME;Колодцы Авроры
+WELL_BASIC_NAME;Базовые колодцы
+WELL_BOMB_SLINGER_NAME;Колодцы Бомбардира
+WELL_CARNIVOROUS_PLANT_NAME;Колодцы плотоядного растения
+WELL_FUGORO_NAME;Колодцы Фугоро
+WELL_GABRIA_NAME;Габрианские колодцы
+WELL_HOAKA_NAME;Колодцы Хоаки
+WELL_JALMYR_NAME;Колодцы Джалмира
+WELL_KAIOS_NAME;Колодцы Кайоса
+WELL_KHALIM_NAME;Колодцы Кхалима
+WELL_KROG_NAME;Колодцы Крога
+WELL_MAGDA_NAME;Колодцы Магды
+WELL_RAPALA_NAME;Колодцы Рапалы
+WELL_RUUNIN_NAME;Колодцы Руунин
+WELL_SEIFER_NAME;Колодцы Сайфера
+WELL_SHARRA_NAME;Колодцы Шарры
+WELL_TARUM_NAME;Колодцы Тарума
+AVATAR_AURORA_DARK_NAME;Комшарная Аврора
+AVATAR_AURORA_HIPPIE_NAME;Миролюбивая Аврора
+AVATAR_EXPLORER_BLUE_NAME;Путешественник
+AVATAR_EXPLORER_PINK_NAME;Пилигрим
+AVATAR_FUGORO_RAINBOW_NAME;Разноцветный Фугоро
+AVATAR_KAIOS_CORRUPTED_NAME;Обезумевший Кайос
+AVATAR_KELDRAN_EMISSARY_BLUE_NAME;Посланник Ветророждённых
+AVATAR_KHALIM_BLACK_NAME;Кхалим Мудрый
+AVATAR_KHALIM_SUNGLASSES_NAME;Нездник на буре Кхалим
+AVATAR_KINGS_GUARD_SILVER_NAME;Серебряный Бальхар
+AVATAR_KOBOLD_MERCENARY_GOLD_NAME;Подземный Скряга
+AVATAR_KROG_BIKER_NAME;Тот самый К.Р.О.Г.
+AVATAR_KROG_SUIT_NAME;Дон Крог
+AVATAR_MAGDA_SECRETARY_NAME;Библиотекарь Магда
+AVATAR_OGRE_BATTLER_BLUE_NAME;Васильковый боец
+AVATAR_RAIZEON_ALTERED_NAME;Призматический Райзеон
+AVATAR_RUUNIN_BLACK_NAME;Ночной охотник Руунин
+AVATAR_SEIFER_SUNGLASSES_NAME;Клёвая крыса Сайфер
+AVATAR_SHARRA_HAT_NAME;Обычная Шарра
+AVATAR_SHARRA_PINK_NAME;Шарра-стиляга
+AVATAR_SHAYTAN_ASSASSIN_BLUE_NAME;Лазурный убийца
+AVATAR_TARUM_EVIL_NAME;Гнев природы Тарум
+AVATAR_VERDURAN_FORCE_GREY_NAME;Осенняя Вердуранская сила
+AVATAR_WISP_RAINBOW_NAME;Радужный огонёк
+AVATAR_WISP_WHITE_NAME;Яркий огонёк
+AVATAR_YAK_SHEPHERD_NAME;Пастушка
+CARD_BACK_FALL_OF_EVERLIFE_NAME;Осквернённая рубашка карт
+CARD_BACK_MOSAIC_FLOWER_GREEN_NAME;Мозаичный синий цветок
+CARD_BACK_MOSAIC_FLOWER_RED_NAME;Мозаичный красный цветок
+CARD_BACK_MOSAIC_SOLAR_BLUE_NAME;Мозаичное зелёное cолнце
+CARD_BACK_MOSAIC_SOLAR_MAGENTA_NAME;Мозаичное пурпурное cолнце
+CARD_BACK_MUCHA_GREEN_NAME;Зелёный модерн
+CARD_BACK_MUCHA_MAGENTA_NAME;Пурпурный модерн
+ORB_ARCANE_GOLD_NAME;Золотая сфера Тайной магии
+ORB_ARCANE_PURPLE_NAME;Фиолетовая сфера Тайной магии
+ORB_ARCANE_RED_NAME;Красная сфера Тайной магии
+ORB_CRYSTAL_STONE_GOLD_NAME;Золотая кристальная сфера
+ORB_CRYSTAL_STONE_NAME;Синяя кристальная сфера
+ORB_CRYSTAL_STONE_PURPLE_NAME;Фиолетовая кристальная сфера
+ORB_DRAGON_SILVER_NAME;Серебряная Драконья сфера
+ORB_FALL_OF_EVERLIFE_NAME;Осквернённая сфера
+ORB_HAND_ARCANE_NAME;Рука Тайной магии
+ORB_HAND_GRASP_NAME;Объятия земли
+ORB_SPIDEREGG_GREEN_NAME;Логово пауков
+ORB_SPIDEREGG_ORANGE_NAME;Гнездо пауков
+ORB_SPIDEREGG_RAINBOW_NAME;Нора пауков
+ORB_STAR_CRYSTAL_NAME;Небесная сфера
+ORB_STAR_CRYSTAL_ORANGE_NAME;Оранжевая Небесная сфера
+ORB_STAR_CRYSTAL_PURPLE_NAME;Фиолетовая небесная сфера
+ORB_TRIBAL_NAME;Сфера Тики
+ORB_VALOR_GREEN_NAME;Зелёная Сфера Отваги
+ORB_VALOR_MAGENTA_NAME;Фиолетовая Сфера Отваги
+ORB_VALOR_SILVER_NAME;Серебряная Сфера Отваги
+WELL_ARCANE_GOLD_NAME;Золотые колодцы тайной магии
+WELL_ARCANE_PURPLE_NAME;Пурпурные колодцы тайной магии
+WELL_ARCANE_RED_NAME;Алые колодцы тайной магии
+WELL_FALL_OF_EVERLIFE_NAME;Осквернённые колодцы
+WELL_FLOATING_STONES_NAME;Парящие колодцы
+WELL_ROOTS_NAME;Оплетённые колодцы
+WELL_RUNIC_BLUE_NAME;Колодцы Рока
+WELL_RUNIC_GREEN_NAME;Колодцы Судьбы
+WELL_RUNIC_RED_NAME;Колодцы Фортуны
+WELL_RUNIC_YELLOW_NAME;Колодцы Удачи
+CARD_BACK_1806_GOLD_NAME;Золотая рубашка карт - 26 сезон
+CARD_BACK_1806_SILVER_NAME;Серебряная рубашка карт - 26 сезон
+CARD_BACK_PANDORA_1806_GOLD_NAME;Золотая рубашка карт Пандоры - 26 сезон
+CARD_BACK_PANDORA_1806_SILVER_NAME;Серебряная рубашка карт Пандоры - 26 сезон
+CARD_BACK_1807_GOLD_NAME;Золотая рубашка карт - 27 сезон
+CARD_BACK_1807_SILVER_NAME;Серебряная рубашка карт - 27 сезон
+CARD_BACK_PANDORA_1807_GOLD_NAME;Золотая рубашка карт Пандоры - 27 сезон
+CARD_BACK_PANDORA_1807_SILVER_NAME;Серебряная рубашка карт Пандоры - 27 сезон
+CARD_BACK_PANDORA_1808_SILVER_NAME;Серебряная рубашка карт Пандоры - 28 сезон
+CARD_BACK_PANDORA_1808_GOLD_NAME;Золотая рубашка карт Пандоры - 28 сезон
+CARD_BACK_1808_SILVER_NAME;Серебряная рубашка карт - 28 сезон
+CARD_BACK_1808_GOLD_NAME;Золотая рубашка карт - 28 сезон
+CARD_BACK_PANDORA_1809_SILVER_NAME;Серебряная рубашка карт Пандоры - 29 сезон
+CARD_BACK_PANDORA_1809_GOLD_NAME;Золотая рубашка карт Пандоры - 29 сезон
+CARD_BACK_1809_SILVER_NAME;Серебряная рубашка карт - 29 сезон
+CARD_BACK_1809_GOLD_NAME;Золотая рубашка карт - 29 сезон
+WELL_RESURGENCE_NAME;Колодцы Возрождения
+SHORE_RESURGENCE_NAME;Побережье Возрождения
+ORB_RESURGENCE_NAME;Сфера Возрождения
+CARD_BACK_RESURGENCE_NAME;Рубашка карт Возрождения
+CARD_BACK_MOSAIC_YAK_NAME;Рубашка карт с мозаикой яка
+AVATAR_BANON_NAME;Банон
+CARD_BACK_ELEMENTS_NAME;Стихийная рубашка карт
+CARD_BACK_PANDORA_1810_SILVER_NAME;Серебряная рубашка карт Пандоры - 30 сезон
+CARD_BACK_PANDORA_1810_GOLD_NAME;Золотая рубашка карт Пандоры - 30 сезон
+CARD_BACK_1810_SILVER_NAME;Серебряная рубашка карт - 30 сезон
+CARD_BACK_1810_GOLD_NAME;Золотая рубашка карт - 30 сезон
+AVATAR_YAK_UNICORN_NAME;Якорог
+AVATAR_YAK_TEDDY_NAME;Тедди
+AVATAR_YAK_METALHEAD_NAME;Як-металлист
+AVATAR_YAK_MC_NAME;Yak MC
+AVATAR_YAK_LIZARD_NAME;Якизард
+AVATAR_YAK_INDIAN_CHIEF_NAME;Пояконтас
+AVATAR_YAK_DEVIL_NAME;Як-дьявол
+AVATAR_YAK_BF_YC_NAME;Якудза
+WELL_TETHRA_NAME;Колодцы Тетры
+WELL_OROSEI_NAME;Колодцы Ороси
+WELL_GARUDAN_NAME;Колодцы Гарудана
+WELL_CELESTE_NAME;Колодцы Селесты
+WELL_AZARAI_NAME;Колодцы Азари
+SHORE_DRAGON_NAME;Побережье логова дракона
+ORB_TETHRA_NAME;Сфера Тетры
+ORB_OROSEI_NAME;Сфера Ороси
+ORB_GARUDAN_NAME;Сфера Гарудана
+ORB_CELESTE_NAME;Сфера Селесты
+ORB_AZARAI_NAME;Сфера Азари
+CARD_BACK_TETHRA_NAME;Рубашка карт Тетры
+CARD_BACK_OROSEI_NAME;Рубашка карт Ороси
+CARD_BACK_GARUDAN_NAME;Рубашка карт Гарудана
+CARD_BACK_CELESTE_NAME;Рубашка карт Селесты
+CARD_BACK_AZARAI_NAME;Рубашка карт Азари
+AVATAR_TETHRA_NAME;Тетра
+AVATAR_OROSEI_NAME;Ороси
+AVATAR_GARUDAN_NAME;Гарудан
+AVATAR_CELESTE_NAME;Селеста
+AVATAR_AZARAI_NAME;Азари
+CARD_BACK_PANDORA_1811_SILVER_NAME;Серебряная рубашка карт Пандоры - 31 сезон
+CARD_BACK_PANDORA_1811_GOLD_NAME;Золотая рубашка карт Пандоры - 31 сезон
+CARD_BACK_1811_SILVER_NAME;Серебряная рубашка карт - 31 сезон
+CARD_BACK_1811_GOLD_NAME;Золотая рубашка карт - 31 сезон
+CARD_BACK_PANDORA_1901_SILVER_NAME;Серебряная рубашка карт Пандоры - 33 сезон
+CARD_BACK_PANDORA_1901_GOLD_NAME;Золотая рубашка карт Пандоры - 33 сезон
+CARD_BACK_PANDORA_1812_SILVER_NAME;Серебряная рубашка карт Пандоры - 32 сезон
+CARD_BACK_PANDORA_1812_GOLD_NAME;Золотая рубашка карт Пандоры - 32 сезон
+CARD_BACK_1901_SILVER_NAME;Серебряная рубашка карт - 33 сезон
+CARD_BACK_1901_GOLD_NAME;Золотая рубашка карт - 33 сезон
+CARD_BACK_1812_SILVER_NAME;Серебряная рубашка карт - 32 сезон
+CARD_BACK_1812_GOLD_NAME;Золотая рубашка карт - 32 сезон
+CARD_BACK_PANDORA_1902_SILVER_NAME;Серебряная рубашка карт Пандоры - 34 сезон
+CARD_BACK_PANDORA_1902_GOLD_NAME;Золотая рубашка карт Пандоры - 34 сезон
+CARD_BACK_1902_SILVER_NAME;Серебряная рубашка карт - 34 сезон
+CARD_BACK_1902_GOLD_NAME;Золотая рубашка карт - 34 сезон
+CARD_BACK_PANDORA_1903_SILVER_NAME;Серебряная рубашка карт Пандоры - 35 сезон
+CARD_BACK_PANDORA_1903_GOLD_NAME;Золотая рубашка карт Пандоры - 35 сезон
+CARD_BACK_1903_SILVER_NAME;Серебряная рубашка карт - 35 сезон
+CARD_BACK_1903_GOLD_NAME;Золотая рубашка карт - 35 сезон
+WELL_GAGANA_NAME;Колодцы Гаганы
+SHORE_MECHA_NAME;Побережье мехов
+ORB_GAGANA_NAME;Сфера Гаганы
+CARD_BACK_GAGANA_NAME;Рубашка карт Гаганы
+AVATAR_SOROCCO_NAME;Сорокко
+CARD_BACK_PANDORA_1904_SILVER_NAME;Серебряная рубашка карт Пандоры - 36 сезон
+CARD_BACK_PANDORA_1904_GOLD_NAME;Золотая рубашка карт Пандоры - 36 сезон
+CARD_BACK_1904_SILVER_NAME;Серебряная рубашка карт - 36 сезон
+CARD_BACK_1904_GOLD_NAME;Золотая рубашка карт - 36 сезон
+CARD_BACK_PANDORA_1905_SILVER_NAME;Серебряная рубашка карт Пандоры - 37 сезон
+CARD_BACK_PANDORA_1905_GOLD_NAME;Золотая рубашка карт Пандоры - 37 сезон
+CARD_BACK_1905_SILVER_NAME;Серебряная рубашка карт - 37 сезон
+CARD_BACK_1905_GOLD_NAME;Золотая рубашка карт - 37 сезон
+CARD_BACK_PANDORA_1906_SILVER_NAME;Серебряная рубашка карт Пандоры - 38 сезон
+CARD_BACK_PANDORA_1906_GOLD_NAME;Золотая рубашка карт Пандоры - 38 сезон
+CARD_BACK_1906_SILVER_NAME;Серебряная рубашка карт - 38 сезон
+CARD_BACK_1906_GOLD_NAME;Золотая рубашка карт - 38 сезон
+CARD_BACK_PANDORA_1907_SILVER_NAME;Серебряная рубашка карт Пандоры - 39 сезон
+CARD_BACK_PANDORA_1907_GOLD_NAME;Золотая рубашка карт Пандоры - 39 сезон
+CARD_BACK_1907_SILVER_NAME;Серебряная рубашка карт - 39 сезон
+CARD_BACK_1907_GOLD_NAME;Золотая рубашка карт - 39 сезон
+CARD_BACK_PANDORA_1908_SILVER_NAME;Серебряная рубашка карт Пандоры - 40 сезон
+CARD_BACK_PANDORA_1908_GOLD_NAME;Золотая рубашка карт Пандоры - 40 сезон
+CARD_BACK_1908_SILVER_NAME;Серебряная рубашка карт - 40 сезон
+CARD_BACK_1908_GOLD_NAME;Золотая рубашка карт - 40 сезон
+CARD_BACK_PANDORA_1909_SILVER_NAME;Серебряная рубашка карт Пандоры - 41 сезон
+CARD_BACK_PANDORA_1909_GOLD_NAME;Золотая рубашка карт Пандоры - 41 сезон
+CARD_BACK_1909_SILVER_NAME;Серебряная рубашка карт - 41 сезон
+CARD_BACK_1909_GOLD_NAME;Золотая рубашка карт - 41 сезон
+WELL_SEASONAL_CUP_SEIFER_NAME;Колодцы сезона Сайфера
+WELL_SEASONAL_CUP_RUUNIN_NAME;Колодцы сезона Руунин
+WELL_SEASONAL_CUP_KHALIM_NAME;Колодцы сезона Халима
+WELL_SEASONAL_CUP_AURORA_NAME;Колодцы сезона Авроры
+ORB_SEASONAL_CUP_SEIFER_NAME;Сфера сезона Сайфера
+ORB_SEASONAL_CUP_RUUNIN_NAME;Сфера сезона Руунин
+ORB_SEASONAL_CUP_KHALIM_NAME;Сфера сезона Халима
+ORB_SEASONAL_CUP_AURORA_NAME;Сфера сезона Авроры
+CARD_BACK_SEASONAL_CUP_SEIFER_NAME;Рубашка карт сезона Сайфера
+CARD_BACK_SEASONAL_CUP_RUUNIN_NAME;Рубашка карт сезона Руунин
+CARD_BACK_SEASONAL_CUP_KHALIM_NAME;Рубашка карт сезона Халима
+CARD_BACK_SEASONAL_CUP_AURORA_NAME;Рубашка карт сезона Авроры
+CARD_BACK_PANDORA_1912_SILVER_NAME;Серебряная рубашка карт Пандоры - 44 сезон
+CARD_BACK_PANDORA_1912_GOLD_NAME;Золотая рубашка карт Пандоры - 44 сезон
+CARD_BACK_PANDORA_1911_SILVER_NAME;Серебряная рубашка карт Пандоры - 43 сезон
+CARD_BACK_PANDORA_1911_GOLD_NAME;Золотая рубашка карт Пандоры - 43 сезон
+CARD_BACK_PANDORA_1910_SILVER_NAME;Серебряная рубашка карт Пандоры - 42 сезон
+CARD_BACK_PANDORA_1910_GOLD_NAME;Золотая рубашка карт Пандоры - 42 сезон
+CARD_BACK_1912_SILVER_NAME;Серебряная рубашка карт - 44 сезон
+CARD_BACK_1912_GOLD_NAME;Золотая рубашка карт - 44 сезон
+CARD_BACK_1911_SILVER_NAME;Серебряная рубашка карт - 43 сезон
+CARD_BACK_1911_GOLD_NAME;Золотая рубашка карт - 43 сезон
+CARD_BACK_1910_SILVER_NAME;Серебряная рубашка карт - 42 сезон
+CARD_BACK_1910_GOLD_NAME;Золотая рубашка карт - 42 сезон

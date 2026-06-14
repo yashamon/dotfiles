@@ -1,0 +1,229 @@
+ACTIVATE;<b>Активировать</b>
+AQUATIC;<b>Водное</b>
+ARTIFACT;Артефакт
+AUTO_HARVEST;<b>Авто-сбор</b>
+BLUE;<sprite="icon_blue" index=0>
+BLUEPRINT_01.name;Зелёная базовая
+BLUEPRINT_01.shortdescription;Освойте силу леса и поддержите вашу армию существ дополнительными здоровьем и мобильностью. Закрепитесь за колодцем фейри, а затем киньтесь в сторону сферы противника!
+BLUEPRINT_02.name;Красная базовая
+BLUEPRINT_02.shortdescription;Со склонов гор грозно маршируют огры. Обрушьте их мощь на вашего противника, и пусть пламя покончит с ним.
+BLUEPRINT_03.name;Синяя базовая
+BLUEPRINT_03.shortdescription;Приготовьте всплеск силы с помощью событий! Используйте прыгающих существ и водных рыб, чтобы собирать фейри из нескольких колодцев сразу. Атакуйте противника, как только придёт время!
+BLUEPRINT_04.name;Жёлтая базовая
+BLUEPRINT_04.shortdescription;Смакуйте тёмные прелести пустыни. Изучайте запрещенные ритуалы и обретайте силу от смерти своих собственных созданий. Используйте своё собственное здоровье как ресурс, чтобы получить преимущество над противником и уничтожить его сферу.
+BLUEPRINT_05.name;Синее вторжение
+BLUEPRINT_05.shortdescription;Пусть ваша жадность даёт вам силы. Сосредоточьтесь на сборе фейри из колодцев противника, ведь ваши массивные колоссы становятся дешевле с каждым сбором.
+BLUEPRINT_06.name;Слава в бою
+BLUEPRINT_06.shortdescription;Крушите своих врагов, берите инициативу в свои руки, и слышьте плач яков. Командуйте армией, которая процветает в бою. Дар стали сияет ярче во времена войны.
+BLUEPRINT_07.name;Марш смерти
+BLUEPRINT_07.shortdescription;Не проявляйте милосердие. Устремитесь прямо к вашему противнику и атакуйте его сферу любой ценой, тем самым усиляя своих Фанатичных Крестоносцев.
+BLUEPRINT_08.name;Величайшая сделка
+BLUEPRINT_08.shortdescription;Заключите сделку с ограми и играйте дорогие карты, платя лишь долю от их обычной стоимости. Выпустите драконов и чудищ и пожинайте плоды эпических побед.
+BLUEPRINT_09.name;Небесная армада
+BLUEPRINT_09.shortdescription;Возьмите контроль над небом. Ваши вольеры укрепят силу вашей летающей армады. Летите к сердцу врага и уничтожьте его сверху.
+BLUEPRINT_10.name;Гнев природы
+BLUEPRINT_10.shortdescription;Лес не всегда так терпелив. Наступайте на сферу противника и расчистите путь для ваших Охотников на богов, чтобы те нашли свою естественную добычу: лицо вашего врага.
+CHARGE;<b>Штурм {0}</b>
+COMBAT;<b>Бой</b>
+CONVOKE;<b>Созыв</b>
+CORRUPT;<b>Осквернение</b>
+CREATURE;Существо
+CURRENCY_COIN;Осколки
+CURRENCY_GEM;Самоцветы
+DAILY_QUEST_00_NAME;Ультима
+DAILY_QUEST_01_NAME;Безумство
+DAILY_QUEST_02_NAME;Низвергатель богов
+DAILY_QUEST_03_NAME;Суд
+DAILY_QUEST_04_NAME;Завоевание
+DAILY_QUEST_05_NAME;Цунами
+DAILY_QUEST_06_NAME;Цветение
+DAILY_QUEST_07_NAME;Пекло
+DAILY_QUEST_08_NAME;Песчаная буря
+DAILY_QUEST_09_NAME;Равновесие
+DAILY_QUEST_11_NAME;Чудо
+DAILY_QUEST_12_NAME;Сотворение
+DAILY_QUEST_13_NAME;Божественное испытание
+DAILY_QUEST_14_NAME;Дуэлянт
+DAILY_QUEST_15_NAME;Ветеран
+DAILY_QUEST_16_NAME;Задание: поиск друзей
+DAILY_QUEST_18_NAME;Задание: поиск друзей
+DAILY_QUEST_27_NAME;Охота на сокровища
+DAILY_QUEST_28_NAME;Подтвердить себя
+DAILY_QUEST_30_NAME;Пандора пробудилась!
+DAILY_QUEST_31_NAME;Смотри и учись
+DAILY_QUEST_32_NAME;Друзья до конца
+DAILY_QUEST_33_NAME;Готовый к успеху
+DAILY_QUEST_34_NAME;Сделай сам
+DAILY_QUEST_35_NAME;Мастер-ремесленник
+DAILY_QUEST_COMPLETE_ANY_ACT;Закончите набор миссий или головоломок
+DAILY_QUEST_COMPLETE_2_WILD_ACTS;Пройдите 4 набора случайных миссий.
+DAILY_QUEST_COMPLETE_ANY_LANE;Завершите один путь
+DAILY_QUEST_COMPLETE_QUESTS;Выполните {0} заданий
+DAILY_QUEST_COMPLETE_QUESTS_OR_PUZZLES;Выполните {0} заданий или головоломок
+DAILY_QUEST_COMPLETE_TRAINING_ACT;Выполните тренировочные задания
+DAILY_QUEST_CRAFT_CARD;Создайте любую карту
+DAILY_QUEST_CRAFT_GOLD_CARD;Создайте любую мифическую карту
+DAILY_QUEST_CREATE_LANDS;Создайте {0} земель
+DAILY_QUEST_DEAL_DAMAGE_TO_ENEMIES;Нанесите {0} ед. урона врагам
+DAILY_QUEST_DEAL_DAMAGE_TO_GODS;Нанесите {0} ед. урона богам
+DAILY_QUEST_DEFEAT_RUUNIN;Пройдите миссию против Руунин
+DAILY_QUEST_DEFEAT_SEIFER;Пройдите миссию против Сайфера
+DAILY_QUEST_DEFEAT_SOLO_OPPONENTS;Пройти миссий: {0}
+DAILY_QUEST_DESTROY_CREATURES;Уничтожьте {0} существ
+DAILY_QUEST_FIND_AND_DEFEAT_RAPALA;Проходите миссии, пока не найдете Рапалу, затем победите его
+DAILY_QUEST_OPEN_BATTLE_CHEST;Откройте боевой сундук
+DAILY_QUEST_PERFECT;Выиграйте бой, не получив урона
+DAILY_QUEST_PLAY_AGAINST_FRIEND;Сыграйте в лобби против друга
+DAILY_QUEST_PLAY_ARENA_RUN;Завершите турнир Пандоры
+DAILY_QUEST_PLAY_BLUE_CARDS;Разыграйте {0} синих карт
+DAILY_QUEST_PLAY_CREATURES;Разыграйте {0} существ
+DAILY_QUEST_PLAY_EVENTS;Разыграйте {0} событий
+DAILY_QUEST_PLAY_GREEN_CARDS;Разыграйте {0} зелёных карт
+DAILY_QUEST_PLAY_NEUTRAL_CARDS;Разыграйте {0} нейтральных карт
+DAILY_QUEST_PLAY_PVP_GAMES;Сыграйте {0} игр(ы) против других игроков (обычная битва, рейтинговая битва, сетевая Пандора)
+DAILY_QUEST_PLAY_RED_CARDS;Разыграйте {0} красных карт
+DAILY_QUEST_PLAY_WITH_SPECIAL_COSMETIC;Сыграйте одну игру с особенным аватаром или сферой
+DAILY_QUEST_PLAY_YELLOW_CARDS;Разыграйте {0} жёлтых карт
+DAILY_QUEST_REACH_LEVEL_8;Достигните 8 уровня
+DAILY_QUEST_SOLVE_PUZZLES;Решить головоломок: {0}
+DAILY_QUEST_SPECTATE_FRIEND_WINNING_GAME;В режиме наблюдателя посмотрите, как ваш друг побеждает в игре
+DAILY_QUEST_VALIDATE_YOUR_EMAIL;Подтвердите вашу электронную почту
+DAILY_QUEST_WAIT_FOR_SEIFER;Проходите миссии, пока Сайфер не вернётся
+DAILY_QUEST_WIN_DIVINE_CHALLENGES;Выполните задание из одиночной кампании
+DAILY_QUEST_WIN_HIGHLANDER_GAMES;Одержите победу в {0} играх в режиме Горец. Колоды в этом режиме должны содержать 30 разных карт!
+DAILY_QUEST_WIN_PANDORA_GAMES;Одержите победу в {0} играх в режиме Пандора
+DAILY_QUEST_WIN_PVP_GAMES;Выиграйте {0} игр(ы) против других игроков (обычная битва, рейтинговая битва, сетевая Пандора)
+DASH;<b>Рывок {0}</b>
+DEATHTOUCH;<b>Смертельное касание</b>
+DIVINE;<b>Божественность</b>
+EMOTE_FUGORO_LASTWORDS_NAME;Клиент всегда в выигрыше.
+EMOTE_FUGORO_OPENING_NAME;Добро пожаловать, ценный покупатель!
+EMOTE_FUGORO_THINKING_NAME;Так много привлекательных возможностей.
+EMOTE_KHALIM_LASTWORDS_NAME;Неплохое сражение. Я сдаюсь.
+EMOTE_KHALIM_OPENING_NAME;Покорись дикому ветру.
+EMOTE_KHALIM_THINKING_NAME;Должен быть способ...
+EMOTE_KROG_LASTWORDS_NAME;Пора идти. Я голоден!
+EMOTE_KROG_OPENING_NAME;Да здравствует король!
+EMOTE_KROG_THINKING_NAME;... Ой! Моя очередь!
+EMOTE_MAGDA_LASTWORDS_NAME;Впечатляет. Я сдаюсь.
+EMOTE_MAGDA_OPENING_NAME;Добро пожаловать на мой суд.
+EMOTE_MAGDA_THINKING_NAME;Как много возможностей!
+EMOTE_RUUNIN_LASTWORDS_NAME;Наслаждайся победой.
+EMOTE_RUUNIN_OPENING_NAME;Охотница здесь.
+EMOTE_RUUNIN_THINKING_NAME;Интересно…
+EVENT;Событие
+FAERIA;<sprite="icon_faeria_cost" index={0}>
+FLYING;<b>Полёт</b>
+GIFT;<b>Дар</b>
+GREEN;<sprite="icon_green" index=0>
+HASTE;<b>Спешка</b>
+ICON_COIN;<sprite="icon_coin" index=0><b>{0}</b>
+ICON_GEM;<sprite="icon_gem" index=0><b>{0}</b>
+IGNORE;Игнорировать
+JUMP;<b>Прыжок</b>
+LANGUAGE_NAME_NATIVE;Английский
+LAST_WORDS;<b>Последнее слово</b>
+OPTIONS;<b>Выберите</b>
+PRODUCTION;<b>Производство</b>
+PROTECTION;<b>Защита</b>
+QUEST_LANE_ACT_AURORA_NAME;Аврора
+QUEST_LANE_ACT_FUGORO_NAME;Фугоро
+QUEST_LANE_ACT_HOAKA_NAME;Хоака
+QUEST_LANE_ACT_JALMYR_01_NAME;Джалмир I
+QUEST_LANE_ACT_JALMYR_02_NAME;Джалмир II
+QUEST_LANE_ACT_JALMYR_03_NAME;Джалмир III
+QUEST_LANE_ACT_JALMYR_04_NAME;Джалмир IV
+QUEST_LANE_ACT_MAGDA_NAME;Магда
+QUEST_LANE_ACT_RAPALA_NAME;Рапала
+QUEST_LANE_ACT_SEIFER_NAME;Сайфер
+QUEST_LANE_ACT_SHARRA_NAME;Шарра
+QUEST_LANE_ACT_TRAINING_NAME;Тренировка
+RANGED_ATTACK;<b>Дальний бой</b>
+RED;<sprite="icon_red" index=0>
+SLAM;<b>Крушение</b>
+SUBTYPE_YAK;Як
+SUBTYPE_TRITON;Тритон
+SUBTYPE_BEAST;Зверь
+SUBTYPE_MECHA;Мех
+SUBTYPE_RAKOAN;Ракоа
+SWALLOW;<b>Проглотить</b>
+STRUCTURE;Сооружение
+TAUNT;<b>Насмешка</b>
+TOOLTIP_AQUATIC;<color=white><b>Водный:</b></color> Может передвигаться только по озёрам и морям.
+TOOLTIP_CHARGE;<color=white><b>Штурм {0}:</b></color> Проходит до {0} клеток по прямой.
+TOOLTIP_COMBAT;<color=white><b>Бой:</b> Что-то происходит, когда это существо сражается.
+TOOLTIP_CONVOKE;<color=white><b>Созыв:</b> Вы можете призывать своих существ на любой соседней земле, даже на земле противника.
+TOOLTIP_CORRUPT;<color=white><b>Осквернение:</b></color> Что-то происходит в первый раз, когда это существо передвигается на вражескую землю после того хода, в который оно было призвано.
+TOOLTIP_DARK_RITUAL;<color=white><b>Темный ритуал:</b> Вы МОЖЕТЕ принести в жертву существо, когда разыгрываете эту карту, чтобы получить преимущество.
+TOOLTIP_DASH;<color=white><b>Рывок {0}:</b></color> После призыва это существо проходит до {0} клеток по прямой.
+TOOLTIP_DEATHTOUCH;<color=white><b>Смертельное касание:</b> Уничтожает любое существо, которому наносит урон.
+TOOLTIP_DIVINE;<color=white><b>Божественность:</b></color> Не может быть выбрано целью событий или способностей.
+TOOLTIP_FLYING;<color=white><b>Полёт:</b></color> Может передвигаться над морем.
+TOOLTIP_GIFT;<color=white><b>Дар:</b></color> Что-то происходит, когда вы призываете это существо из руки.
+TOOLTIP_HASTE;<color=white><b>Спешка:</b></color> Это существо может двигаться, собирать фейри и атаковать в тот же ход, когда было призвано.
+TOOLTIP_JUMP;<color=white><b>Прыжок:</b></color> Передвигается с дальностью 2. Перепрыгивает препятствия.
+TOOLTIP_LAST_WORDS;<color=white><b>Последнее слово:</b></color> Что-то происходит, когда это существо умирает.
+TOOLTIP_OPTIONS;<color=white><b>Выберите:</b></color> Позволяет вам выбрать один из вариантов.
+TOOLTIP_PRODUCTION;<color=white><b>Производство:</b></color> Что-то происходит в начале каждого вашего хода.
+TOOLTIP_PROTECTION;<color=white><b>Защита:</b></color> Предотвращает первый урон, нанесённый этой карте.
+TOOLTIP_RANGED_ATTACK;<color=white><b>Дальний бой:</b></color> Атакует ближайшего врага по прямой линии (дружественные существа блокируют огонь). Не может двигаться и атаковать в один и тот же ход.
+TOOLTIP_SWALLOW;<color=white><b>Проглотить:</b></color> Заточить существо внутри этой карты. Когда эта карта погибает, освободить проглоченное существо (нельзя проглотить существо, проглотившее кого-то ещё).
+TOOLTIP_TAUNT;<color=white><b>Насмешка:</b></color> Враги на соседних землях могут только атаковать это существо.
+TOOLTIP_WILD;<color=white><b>Нейтральная:</b></color> Если карта становится нейтральной, она требует только особые земли.
+WILD;<b>нейтральной</b>
+YELLOW;<sprite="icon_yellow" index=0>
+NEWS_DEFENDING;Защита от ранней агрессии
+NEWS_FAERIA_TALES;История Faeria: Путь к 1.0
+NEWS_OVERSKY;Дополнение: Сверхнебесье уже здесь
+NEWS_PATCH_ANALYSIS;Анализ обновления баланса
+NEWS_PATCH_NOTES;Перечень изменений
+NEWS_RECRUIT_FRIEND;Пригласите друга
+NEWS_STEAM_NEWS;Эксклюзив: Steam-набор Faeria
+NEWS_WAR_EFFORT;Присоединитесь к военным действиям
+NEWS_WELCOME;Академия Faeria
+DAILY_QUEST_1400_NAME;Страница истории
+DAILY_QUEST_PLAY_CARD_3_TIMES;Сыграйте карту {0} 3 раза.
+NEWS_B2P_RELEASE;Новые особенности и изменения экономики
+NEWS_FOE_DLC;Дополнение "Гибель Древа"
+NEWS_PREMIUM_DLC;Повышение до премиума
+NWILD;<sprite="icon_wild_cost" index={0}>
+NEWS_THE_HUB;Faeria Hub
+NEWS_RESURGENCE_CARDS;Карты Возрождения
+NEWS_RESURGENCE;Дополнение "Возрождение"
+NYELLOW;<nobr><b>{0}</b><sprite="icon_yellow" index=0></nobr>
+NRED;<nobr><b>{0}</b><sprite="icon_red" index=0></nobr>
+NHUMAN;<nobr><b>{0}</b><sprite="icon_human" index=0></nobr>
+NGREEN;<nobr><b>{0}</b><sprite="icon_green" index=0></nobr>
+NBLUE;<nobr><b>{0}</b><sprite="icon_blue" index=0></nobr>
+MUTAGEN_SETUP_TETHRA_LAND_4;Дракон начинает игру с нейтральной<b>Тетрой</b> стоимостью 5 и 5 диких земель в руке.
+MUTAGEN_SETUP_OROSEI_LAND_4;Дракон начинает игру с нейтральной <b>Ороси</b> стоимостью 5 и 5 диких земель в руке.
+MUTAGEN_SETUP_MONO_COLOR_COSTS_MORE;Одноцветные карты стоят на 2 больше.
+MUTAGEN_SETUP_HARVEST_COSTS_2_LIFE;Когда вы собираете фейри, вы получаете 2 урона.
+MUTAGEN_SETUP_GARUDAN_LAND_4;Дракон начинает игру с нейтральным <b>Гаруданом</b> стоимостью 5 и 5 диких земель в руке.
+MUTAGEN_SETUP_FAERIA_LIMITED_TO_6;Вы не можете иметь больше 6 фейри.
+MUTAGEN_SETUP_EVERYONE_IS_SHOZEN;Когда одно из существ Дракона убивает существо в бою, вместо этого оно проглатывает и получает контроль над этим существом.
+MUTAGEN_SETUP_EVENTS_COST_MORE;Ваши события стоят на 2 больше.
+MUTAGEN_SETUP_ENEMIES_HAVE_DEATHTOUCH;Существа Дракона имеют смертельное касание.
+MUTAGEN_SETUP_EMPOWER_ENEMIES_WHEN_YOUR_CREATURES_DIE;Когда ваше существо умирает, все существа Дракона получают +1/+1.
+MUTAGEN_SETUP_DRAW_TWICE_ON_PLAY;Когда вы разыгрываете карту, вы берёте две карты.
+MUTAGEN_SETUP_DAMAGE_ON_PLAYED_CREATURES;Когда вы призываете существо, оно получает 2 урона.
+MUTAGEN_SETUP_CREATE_RANDOM_AI_LANDS;Дракон создаёт три нейтральные земли в случайных местах в начале игры.
+MUTAGEN_SETUP_CREATURES_COST_MORE;Ваши существа стоят на 2 больше.
+MUTAGEN_SETUP_AZARAI_LAND_4;Дракон начинает игру с нейтральной <b>Азари</b> стоимостью 5 и 5 диких земель в руке.
+MUTAGEN_SETUP_ALL_CARDS_COST_AT_LEAST_5;Любая карта в вашей колоде, стоимость которой меньше 5, теперь стоит 5.
+HUMAN;<sprite="icon_human" index=0>
+DRAGON_TYPE_TETHRA;Тетра
+DRAGON_TYPE_OROSEI;Ороси
+DRAGON_TYPE_GARUDAN;Гарудан
+DRAGON_TYPE_CELESTE;Селеста
+DRAGON_TYPE_AZARAI;Азари
+TOOLTIP_DISCOVER;<color=white><b>Открывание:</b></color> выберите одну из трёх карт и возьмите её в руку.
+DISCOVER;<b>Открывание</b>
+TOOLTIP_DRAGONS_LAIR_REWARD;Для открытия этой награды необходимо пройти: {0}, {1} раз(а)
+NEWS_GAGANA_CARDS;Карты "Хроник Гаганы"
+NEWS_GAGANA;Дополнение "Хроники Гаганы"
+GAMEPAD_RIGHT_BUTTONS_LEFT;<sprite="icon_gamepad_button_{gamepad_type}" index=9>
+GAMEPAD_RIGHT_BUTTONS_TOP;<sprite="icon_gamepad_button_{gamepad_type}" index=11>
+GAMEPAD_TOOLTIP_ACTIVATE;<color=white><b>Активация:</b></color> нажмите {GAMEPAD_ACTION_CONFIRM} на этой постройке, чтобы она дала эффект.
+MOUSE_TOOLTIP_ACTIVATE;<color=white><b>Активация:</b></color> щёлкните на этой постройке, чтобы она дала эффект.
+NEWS_ADDITIONAL_CONTENT;Дополнительные материалы

@@ -1,0 +1,13 @@
+diff --git a/scripts/user_config.ahk b/scripts/user_config.ahk
+index a03ab2e55..dbcbd8c21 100644
+--- a/scripts/user_config.ahk
++++ b/scripts/user_config.ahk
+@@ -128,7 +128,7 @@ return
+     Run "wt" 
+     Return
+ #+f::
+-    Run lf -config /path/to/custom/lfrc
++    Run lf -config C:\Users\yasha\AppData\Local\lf\lfrc
+     Return
+ #n::
+     Run nu -c C:\Users\yasha\OneDrive\workspacemodules\dotfiles\scripts\nf.nu, , "Hide" 

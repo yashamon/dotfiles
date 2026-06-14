@@ -1,0 +1,46 @@
+TUTORIAL_ADVENTURE_POUCH_AVAILABLE_GOT_IT;Uma nova jornada começa...\nA Bolsa de Aventura foi revelada, é hora de você descobrir o que vem por aí em Faeria!\nMas... o que é esse medalhão?
+TUTORIAL_BATTLE_CASUAL_MODE_HINT;Se você procura relaxar contra outros jogadores, selecione o Modo Casual.
+TUTORIAL_BATTLE_CHOOSE_MODE_GOT_IT;Qualquer momento antes de jogar uma partida, você pode escolher entre Praticar, Casual e Ranqueada.
+TUTORIAL_BATTLE_PRACTICE_MODE_HINT;Se você está querendo treinar contra uma IA, selecione o modo Praticar.
+TUTORIAL_BATTLE_RANKED_MODE_HINT;A qualquer momento antes de jogar uma partida, você pode escolher entre Modo Casual e Ranqueado.
+TUTORIAL_CRAFTING_HIT_CRAFT_MODE_BUTTON;Você desbloqueou a habilidade de Criar novas cartas!
+TUTORIAL_DECK_EDITION_NEW_CARD_RECEIVED_GOT_IT;Você ganhou uma nova carta, vamos ver como você pode adicioná-la ao seu baralho.
+TUTORIAL_FIRST_FORMULA_DECK_CREATED;Esse é o seu primeiro baralho, agora você está pronto para jogar!
+TUTORIAL_FIRST_FORMULA_HIT_BLUEPRINT_SELECT_BUTTON;Isso é uma Fórmula, use-a para criar um baralho em poucos segundos.
+TUTORIAL_FIRST_FORMULA_HIT_PLAY_BUTTON;Vamos experimentar o seu novo baralho em uma partida.
+TUTORIAL_FIRST_FORMULA_HOME_UNLOCKED_GOT_IT;Parabéns, você desbloqueou a interface principal de Faeria! Vamos começar criando seu primeiro baralho.
+TUTORIAL_FIRST_FORMULA_SOLO_GOT_IT;Bem-vindo às Missões! Complete-as para aumentar de nível e ganhar mais cartas.
+TUTORIAL_SECOND_FORMULA_CREATE_DECK;Crie o baralho mesmos assim, você vai adicionar 2 cartas da sua escolha.
+TUTORIAL_SECOND_FORMULA_FINISH_DECK_GOT_IT;Não é um problema se você não possui todas as cartas para a Fórmula, você pode sempre completar o baralho com as cartas de sua escolha.
+TUTORIAL_SECOND_FORMULA_NEW_FORMULA_RECEIVED_GOT_IT;Você ganhou uma nova Fórmula, vamos usá-la.
+TUTORIAL_SECOND_FORMULA_NOT_COMPLETED_FORMULA_HINT;Você tem 28 de 30 cartas para essa Fórmula.
+TUTORIAL_SHOP_MYTHIC_CHEST_HINT;Os baús míticos contêm versões míticas de cartas e outros cosméticos.
+TUTORIAL_PANDORA_PRACTICE_COIN_HINT;Aposte 2 baús de batalha e jogue com um baralho novo. Ganhe até 6 jogos para ganhar baús de batalha e cartas.
+TUTORIAL_PANDORA_FULL_COIN_HINT;Aposte fragmentos para ganhar cartas míticas e fragmentos.
+MOUSE_TUTORIAL_PANDORA_REWARD_GOT_IT;Ganhe Pontos Pandora para ter recompensas ao fim de cada temporada. Clique para checar as recompensas! <u><link=https://esports.faeria.com/pandora-season>https://esports.faeria.com/pandora-season</link></u>
+DAILY_REWARDS_TUTORIAL_GOT_IT;Esta foi a sua primeira recompensa diária. Conecte diariamente para receber recompensas maiores. Não se preocupe, você manterá o seu progresso mesmo que deixe de entrar uns dias.
+LOYALTY_PATCH_PUZZLES_GOT_IT;Aqui estão alguns enigmas para começar a Queda da Vida Eterna!
+TUTORIAL_WORLD_MAP_GOT_IT;Bem-vindo ao Mundo de Faeria! Aqui você vai encontrar os mais imponentes inimigos e, no fim, desbloquear o Orbe dos Campeões.
+TUTORIAL_PANDORA_FIRST_GAME_GOT_IT;Fragmentos da Pandora foram misturados aos dois baralhos. Uma vez que 5 fragmentos forem encontrados, a Pandora irá despertar!
+TUTORIAL_PANDORA_AWAKENS_GOT_IT;A Pandora Desperta: Tesouros foram encontrados nos baralhos. Você agora ganha 3 de faeria extra por turno.
+TUTORIAL_CRAFTING_CRAFT_CHARGES_GOT_IT;Cargas de criação são usadas para criar novas cartas. Você consegue guardar até {0} e eles recarregam com o tempo.
+TUTORIAL_CRAFTING_CRAFT_GOT_IT;Por enquanto você só pode criar cartas comuns, mas em níveis mais altos você pode criar raras e épicas também!
+TUTORIAL_SHOP_DEAL_OF_THE_DAY_HINT;Você também pode comprar itens diretamente da loja, os itens disponíveis mudam todos os dias.
+TUTORIAL_SHOP_GOT_IT;Aqui você pode comprar cosméticos, dando bordas brilhantes as suas cartas ou permitindo que você personalize o seu perfil.
+TUTORIAL_LORE_BOOK_GOT_IT;Você liberou o Livro das Histórias!
+TUTORIAL_DRAGONS_LAIR_IS_HERE_GOT_IT;Entre no Covil do Dragão por aqui, se tiver coragem.
+TUTORIAL_DRAGONS_LAIR_IS_DAILY_GOT_IT;Novos dragões entram no Covil todos os dias. Derrote cada um deles o suficiente para ganhar seus conjuntos cosméticos!
+TUTORIAL_DRAGONS_LAIR_GOT_IT;Agora o Covil do Dragão está disponível!\nBatalhe contra poderosos dragões sozinho ou com amigos neste desafio diário!
+TUTORIAL_DECK_COSMETIC_SET_POPUP_GOT_IT;Selecione os cosméticos que você deseja para este baralho e pressione Aplicar para confirmar as alterações.
+TUTORIAL_DECK_COSMETIC_SET_EDIT_DECK_GOT_IT;Agora você pode atribuir conjuntos de cosméticos específicos por baralho!
+GAMEPAD_TUTORIAL_PANDORA_REWARD_GOT_IT;Ganhe Pontos Pandora para ter recompensas ao fim de cada temporada. Confira as recompensas em <u><link=https://esports.faeria.com/pandora-season>https://esports.faeria.com/pandora-season</link></u>
+GAMEPAD_TUTORIAL_LORE_BOOK_ZOOM_ON_LORE_ITEM;Pressione {GAMEPAD_ACTION_CONFIRM} em páginas de história desbloqueadas para lê-las.
+MOUSE_TUTORIAL_LORE_BOOK_ZOOM_ON_LORE_ITEM;Clique em páginas de história desbloqueadas para lê-las.
+GAMEPAD_TUTORIAL_DECK_EDITION_REMOVE_ANY_CARD_FROM_DECK;Pressione {GAMEPAD_ACTION_CONFIRM} em qualquer carta para removê-la do seu baralho.
+MOUSE_TUTORIAL_DECK_EDITION_REMOVE_ANY_CARD_FROM_DECK;Clique em qualquer carta para removê-la do seu baralho.
+GAMEPAD_TUTORIAL_DECK_EDITION_CLICK_SAVE;Selecione Salvar quando você acabar.
+MOUSE_TUTORIAL_DECK_EDITION_CLICK_SAVE;Clique em "Salvar" quando você acabar.
+GAMEPAD_TUTORIAL_DECK_EDITION_ADD_ANY_CARD_TO_DECK;Agora selecione está carta para adicioná-la ao seu baralho.
+MOUSE_TUTORIAL_DECK_EDITION_ADD_ANY_CARD_TO_DECK;Agora clique nesta carta para adicioná-la ao seu baralho.
+GAMEPAD_TUTORIAL_ADVENTURE_POUCH_MEDALLION_GOT_IT;Pressione {GAMEPAD_ACTION_CONFIRM} para se juntar a aventura
+MOUSE_TUTORIAL_ADVENTURE_POUCH_MEDALLION_GOT_IT;Clique para se juntar à aventura

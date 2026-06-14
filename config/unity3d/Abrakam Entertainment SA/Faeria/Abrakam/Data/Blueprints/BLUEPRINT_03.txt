@@ -1,0 +1,20 @@
+# Name: BLUEPRINT_03
+# Order: 3
+# RequirementType: QUEST
+# RequirementParam: TAESA_INTRO_01
+--------
+2 Campfire
+2 Falcon Dive
+2 Hold the Line!
+2 Cutthroat Bandit
+2 Safeguard
+2 Freedom Fighter
+2 Steamforge Enforcer
+2 Spellwhirl
+2 Ruby Fish
+2 Dark Stalker
+2 Aurora's Disciple
+2 Humbling Vision
+2 Triton Warrior
+2 Tyranax
+2 Gabrian Warden
