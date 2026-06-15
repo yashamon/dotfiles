@@ -46,20 +46,76 @@ map gch push %chmod<space>
 # map m push %mv<space>"$fs"<space>
 
 cmd spaste &{{
-set -- $(cat ~/.local/share/lf/files)
-    mode="$1"
-    shift
-    case "$mode" in
-        copy)
-            rsync -a --no-compress --ignore-existing -- "$@" .;;
-        move) mv -n -- "$@" .;; 
-    esac
-    rm ~/.local/share/lf/files
-    lf -remote "send clear"  
-    lf -remote "send reload" 
-    lf -remote "send echomsg "copysucess""
-}}
+    $clip = Join-Path $env:LOCALAPPDATA 'lf\files'
 
+    if (!(Test-Path -LiteralPath $clip)) {
+        $clip = Join-Path $HOME '.local\share\lf\files'
+    }
+
+    if (!(Test-Path -LiteralPath $clip)) {
+        lf -remote 'send echomsg "no lf clipboard file"'
+        exit 1
+    }
+
+    $lines = Get-Content -LiteralPath $clip
+    if ($lines.Count -lt 2) {
+        Remove-Item -LiteralPath $clip -Force
+        lf -remote 'send clear'
+        lf -remote 'send reload'
+        lf -remote 'send echomsg "empty clipboard"'
+        exit 0
+    }
+
+    $mode = $lines[0]
+    $items = $lines[1..($lines.Count - 1)]
+
+    switch ($mode) {
+        'copy' {
+            foreach ($src in $items) {
+                if ([string]::IsNullOrWhiteSpace($src)) { continue }
+
+                $name = Split-Path -Leaf $src
+                $dst = Join-Path (Get-Location) $name
+
+                if (Test-Path -LiteralPath $src -PathType Container) {
+                    if (!(Test-Path -LiteralPath $dst)) {
+                        New-Item -ItemType Directory -LiteralPath $dst | Out-Null
+                    }
+
+                    robocopy $src $dst /E /COPY:DAT /DCOPY:DAT /XC /XN /XO /R:2 /W:1 /NFL /NDL /NJH /NJS | Out-Null
+
+                    if ($LASTEXITCODE -ge 8) {
+                        lf -remote 'send echomsg "copy failed"'
+                        exit $LASTEXITCODE
+                    }
+                }
+                else {
+                    if (!(Test-Path -LiteralPath $dst)) {
+                        Copy-Item -LiteralPath $src -Destination $dst
+                    }
+                }
+            }
+        }
+
+        'move' {
+            foreach ($src in $items) {
+                if ([string]::IsNullOrWhiteSpace($src)) { continue }
+
+                $name = Split-Path -Leaf $src
+                $dst = Join-Path (Get-Location) $name
+
+                if (!(Test-Path -LiteralPath $dst)) {
+                    Move-Item -LiteralPath $src -Destination $dst
+                }
+            }
+        }
+    }
+
+    Remove-Item -LiteralPath $clip -Force
+    lf -remote 'send clear'
+    lf -remote 'send reload'
+    lf -remote 'send echomsg "copy success"'
+}}
 # set previewer ~/.config/lf/preview
 # set cleaner ~/.config/lf/cleaner
 cmd namepaste $cp-p --lf-paste $id  
