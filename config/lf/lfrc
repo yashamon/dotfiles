@@ -173,8 +173,7 @@ cmd rename $pwsh -nop -c mv $Env:f.Trim('"') $args[0]
 
 # cmd cpmove %[ -e $destination ] && printf "file exists" || spastename $f $1
 
-map r push %$pwsh<space>-nop<space>-c<space>'$f=$Env:f.Trim([char]34);$ext=[IO.Path]::GetExtension($f);mv -LiteralPath $f -Destination ((Join-Path (Split-Path -LiteralPath $f) ($args[0]+$ext)))'<space>--<space>
-
+map r push %$pwsh<space>-nop<space>-File<space>C:\Users\yasha\bin\lf-rename-keep-ext.ps1<space>
 map gc :spastename
 
 # make sure trash folder exists
