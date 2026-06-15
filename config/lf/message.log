@@ -1,76 +1,80 @@
 diff --git a/config/lf/lfrc b/config/lf/lfrc
-index 274ad7514..388c00b43 100644
+index 274ad7514..f3a9d6d69 100644
 --- a/config/lf/lfrc
 +++ b/config/lf/lfrc
-@@ -41,7 +41,7 @@ cmd trash $nu "C:\\Users\\yasha\\OneDrive\\workspacemodules\\dotfiles\\scripts\\
+@@ -41,7 +41,9 @@ cmd trash $nu "C:\\Users\\yasha\\OneDrive\\workspacemodules\\dotfiles\\scripts\\
  map . mark-load
  # cmd aj %lf -remote "send $id cd '$(autojump $1)'"
  map gmd push $mkdir<space> 
 -map gt push $nu<space>-c<space>'touch<space>'
++
 +map gt push %$nu<space>-c<space>'let<space>n<space>=<space>input<space>"File<space>name:<space>";<space>touch<space>$n'<enter>
++
  map gch push %chmod<space>
  # map m push %mv<space>"$fs"<space>
  
 diff --git a/config/lf/message.log b/config/lf/message.log
-index 57788cf8c..faf1ab9d8 100644
+index 57788cf8c..64d570f6e 100644
 --- a/config/lf/message.log
 +++ b/config/lf/message.log
-@@ -1,58 +1,100 @@
+@@ -1,58 +1,156 @@
  diff --git a/config/lf/lfrc b/config/lf/lfrc
 -index 3c5da9a35..b954df980 100644
-+index b954df980..274ad7514 100644
++index 274ad7514..388c00b43 100644
  --- a/config/lf/lfrc
  +++ b/config/lf/lfrc
 -@@ -173,8 +173,7 @@ cmd rename $pwsh -nop -c mv $Env:f.Trim('"') $args[0]
-+@@ -173,7 +173,7 @@ cmd rename $pwsh -nop -c mv $Env:f.Trim('"') $args[0]
++@@ -41,7 +41,7 @@ cmd trash $nu "C:\\Users\\yasha\\OneDrive\\workspacemodules\\dotfiles\\scripts\\
++ map . mark-load
++ # cmd aj %lf -remote "send $id cd '$(autojump $1)'"
++ map gmd push $mkdir<space> 
++-map gt push $nu<space>-c<space>'touch<space>'
+++map gt push %$nu<space>-c<space>'let<space>n<space>=<space>input<space>"File<space>name:<space>";<space>touch<space>$n'<enter>
++ map gch push %chmod<space>
++ # map m push %mv<space>"$fs"<space>
   
-  # cmd cpmove %[ -e $destination ] && printf "file exists" || spastename $f $1
-  
+- # cmd cpmove %[ -e $destination ] && printf "file exists" || spastename $f $1
+- 
 --map r push %$pwsh<space>-nop<space>-c<space>'$f=$Env:f.Trim([char]34);$ext=[IO.Path]::GetExtension($f);mv -LiteralPath $f -Destination ((Join-Path (Split-Path -LiteralPath $f) ($args[0]+$ext)))'<space>--<space>
 --
 -+map r push %$pwsh<space>-nop<space>-File<space>C:\Users\yasha\bin\lf-rename-keep-ext.ps1<space>
-+-map r push %$pwsh<space>-nop<space>-File<space>C:\Users\yasha\bin\lf-rename-keep-ext.ps1<space>
-++map r push %$f=Get-Item<space>-LiteralPath<space>$Env:f.Trim('"');<space>$n=Read-Host<space>'New<space>stem';<space>Rename-Item<space>-LiteralPath<space>$f.FullName<space>-NewName<space>($n+$f.Extension)<enter>
-  map gc :spastename
-  
-  # make sure trash folder exists
+- map gc :spastename
+- 
+- # make sure trash folder exists
  diff --git a/config/lf/message.log b/config/lf/message.log
 -index 09ce3e592..663ae1f18 100644
-+index 663ae1f18..57788cf8c 100644
++index 57788cf8c..faf1ab9d8 100644
  --- a/config/lf/message.log
  +++ b/config/lf/message.log
 -@@ -1,13 +1,34 @@
 -+diff --git a/config/lf/blah b/config/lf/blah
 -+new file mode 100644
 -+index 000000000..e69de29bb
-+@@ -1,34 +1,58 @@
-+-diff --git a/config/lf/blah b/config/lf/blah
-+-new file mode 100644
-+-index 000000000..e69de29bb
++@@ -1,58 +1,100 @@
   diff --git a/config/lf/lfrc b/config/lf/lfrc
 --index ba5055567..55ebacb7f 100644
 -+index 55ebacb7f..3c5da9a35 100644
-+-index 55ebacb7f..3c5da9a35 100644
-++index 3c5da9a35..b954df980 100644
++-index 3c5da9a35..b954df980 100644
+++index b954df980..274ad7514 100644
   --- a/config/lf/lfrc
   +++ b/config/lf/lfrc
 --@@ -173,7 +173,7 @@ cmd rename $pwsh -nop -c mv $Env:f.Trim('"') $args[0]
 -- 
 -+@@ -174,6 +174,7 @@ cmd rename $pwsh -nop -c mv $Env:f.Trim('"') $args[0]
-+-@@ -174,6 +174,7 @@ cmd rename $pwsh -nop -c mv $Env:f.Trim('"') $args[0]
-++@@ -173,8 +173,7 @@ cmd rename $pwsh -nop -c mv $Env:f.Trim('"') $args[0]
-++ 
++-@@ -173,8 +173,7 @@ cmd rename $pwsh -nop -c mv $Env:f.Trim('"') $args[0]
+++@@ -173,7 +173,7 @@ cmd rename $pwsh -nop -c mv $Env:f.Trim('"') $args[0]
++  
    # cmd cpmove %[ -e $destination ] && printf "file exists" || spastename $f $1
    
 ---map r push %mv<space>$Env:f.Trim('"')<space>
 --+map r push %$pwsh<space>-nop<space>-c<space>'$f=$Env:f.Trim([char]34);$ext=[IO.Path]::GetExtension($f);mv -LiteralPath $f -Destination ((Join-Path (Split-Path -LiteralPath $f) ($args[0]+$ext)))'<space>--<space>
 -+ map r push %$pwsh<space>-nop<space>-c<space>'$f=$Env:f.Trim([char]34);$ext=[IO.Path]::GetExtension($f);mv -LiteralPath $f -Destination ((Join-Path (Split-Path -LiteralPath $f) ($args[0]+$ext)))'<space>--<space>
 -++
-+- map r push %$pwsh<space>-nop<space>-c<space>'$f=$Env:f.Trim([char]34);$ext=[IO.Path]::GetExtension($f);mv -LiteralPath $f -Destination ((Join-Path (Split-Path -LiteralPath $f) ($args[0]+$ext)))'<space>--<space>
-+-+
-++-map r push %$pwsh<space>-nop<space>-c<space>'$f=$Env:f.Trim([char]34);$ext=[IO.Path]::GetExtension($f);mv -LiteralPath $f -Destination ((Join-Path (Split-Path -LiteralPath $f) ($args[0]+$ext)))'<space>--<space>
-++-
-+++map r push %$pwsh<space>-nop<space>-File<space>C:\Users\yasha\bin\lf-rename-keep-ext.ps1<space>
++--map r push %$pwsh<space>-nop<space>-c<space>'$f=$Env:f.Trim([char]34);$ext=[IO.Path]::GetExtension($f);mv -LiteralPath $f -Destination ((Join-Path (Split-Path -LiteralPath $f) ($args[0]+$ext)))'<space>--<space>
++--
++-+map r push %$pwsh<space>-nop<space>-File<space>C:\Users\yasha\bin\lf-rename-keep-ext.ps1<space>
+++-map r push %$pwsh<space>-nop<space>-File<space>C:\Users\yasha\bin\lf-rename-keep-ext.ps1<space>
++++map r push %$f=Get-Item<space>-LiteralPath<space>$Env:f.Trim('"');<space>$n=Read-Host<space>'New<space>stem';<space>Rename-Item<space>-LiteralPath<space>$f.FullName<space>-NewName<space>($n+$f.Extension)<enter>
    map gc :spastename
    
    # make sure trash folder exists
@@ -91,66 +95,124 @@ index 57788cf8c..faf1ab9d8 100644
 -++-map r push %mv<space>$Env:f.Trim('"')<space>
 -+++map r push %$pwsh<space>-nop<space>-c<space>'$f=$Env:f.Trim([char]34);$ext=[IO.Path]::GetExtension($f);mv -LiteralPath $f -Destination ((Join-Path (Split-Path -LiteralPath $f) ($args[0]+$ext)))'<space>--<space>
 -++ map gc :spastename
--++ 
--++ # make sure trash folder exists
 + diff --git a/config/lf/message.log b/config/lf/message.log
-+-new file mode 100644
-+-index 000000000..09ce3e592
-+---- /dev/null
-++index 09ce3e592..663ae1f18 100644
-++--- a/config/lf/message.log
++-index 09ce3e592..663ae1f18 100644
+++index 663ae1f18..57788cf8c 100644
++ --- a/config/lf/message.log
 + +++ b/config/lf/message.log
-+-@@ -0,0 +1,13 @@
-+-+diff --git a/config/lf/lfrc b/config/lf/lfrc
-+-+index ba5055567..55ebacb7f 100644
-+-+--- a/config/lf/lfrc
-+-++++ b/config/lf/lfrc
-+-+@@ -173,7 +173,7 @@ cmd rename $pwsh -nop -c mv $Env:f.Trim('"') $args[0]
-+-+ 
-+-+ # cmd cpmove %[ -e $destination ] && printf "file exists" || spastename $f $1
-+-+ 
-+-+-map r push %mv<space>$Env:f.Trim('"')<space>
-+-++map r push %$pwsh<space>-nop<space>-c<space>'$f=$Env:f.Trim([char]34);$ext=[IO.Path]::GetExtension($f);mv -LiteralPath $f -Destination ((Join-Path (Split-Path -LiteralPath $f) ($args[0]+$ext)))'<space>--<space>
-+-+ map gc :spastename
-+-+ 
-+-+ # make sure trash folder exists
-++@@ -1,13 +1,34 @@
-+++diff --git a/config/lf/blah b/config/lf/blah
-+++new file mode 100644
-+++index 000000000..e69de29bb
-++ diff --git a/config/lf/lfrc b/config/lf/lfrc
-++-index ba5055567..55ebacb7f 100644
-+++index 55ebacb7f..3c5da9a35 100644
-++ --- a/config/lf/lfrc
-++ +++ b/config/lf/lfrc
-++-@@ -173,7 +173,7 @@ cmd rename $pwsh -nop -c mv $Env:f.Trim('"') $args[0]
-++- 
-+++@@ -174,6 +174,7 @@ cmd rename $pwsh -nop -c mv $Env:f.Trim('"') $args[0]
-++  # cmd cpmove %[ -e $destination ] && printf "file exists" || spastename $f $1
-++  
-++--map r push %mv<space>$Env:f.Trim('"')<space>
-++-+map r push %$pwsh<space>-nop<space>-c<space>'$f=$Env:f.Trim([char]34);$ext=[IO.Path]::GetExtension($f);mv -LiteralPath $f -Destination ((Join-Path (Split-Path -LiteralPath $f) ($args[0]+$ext)))'<space>--<space>
-+++ map r push %$pwsh<space>-nop<space>-c<space>'$f=$Env:f.Trim([char]34);$ext=[IO.Path]::GetExtension($f);mv -LiteralPath $f -Destination ((Join-Path (Split-Path -LiteralPath $f) ($args[0]+$ext)))'<space>--<space>
-++++
-++  map gc :spastename
-++  
-++  # make sure trash folder exists
-+++diff --git a/config/lf/message.log b/config/lf/message.log
-+++new file mode 100644
-+++index 000000000..09ce3e592
-+++--- /dev/null
-++++++ b/config/lf/message.log
-+++@@ -0,0 +1,13 @@
-++++diff --git a/config/lf/lfrc b/config/lf/lfrc
-++++index ba5055567..55ebacb7f 100644
-++++--- a/config/lf/lfrc
-+++++++ b/config/lf/lfrc
-++++@@ -173,7 +173,7 @@ cmd rename $pwsh -nop -c mv $Env:f.Trim('"') $args[0]
-++++ 
-++++ # cmd cpmove %[ -e $destination ] && printf "file exists" || spastename $f $1
-++++ 
-++++-map r push %mv<space>$Env:f.Trim('"')<space>
-+++++map r push %$pwsh<space>-nop<space>-c<space>'$f=$Env:f.Trim([char]34);$ext=[IO.Path]::GetExtension($f);mv -LiteralPath $f -Destination ((Join-Path (Split-Path -LiteralPath $f) ($args[0]+$ext)))'<space>--<space>
-++++ map gc :spastename
-++++ 
-++++ # make sure trash folder exists
++-@@ -1,13 +1,34 @@
++-+diff --git a/config/lf/blah b/config/lf/blah
++-+new file mode 100644
++-+index 000000000..e69de29bb
+++@@ -1,34 +1,58 @@
+++-diff --git a/config/lf/blah b/config/lf/blah
+++-new file mode 100644
+++-index 000000000..e69de29bb
++  diff --git a/config/lf/lfrc b/config/lf/lfrc
++--index ba5055567..55ebacb7f 100644
++-+index 55ebacb7f..3c5da9a35 100644
+++-index 55ebacb7f..3c5da9a35 100644
++++index 3c5da9a35..b954df980 100644
++  --- a/config/lf/lfrc
++  +++ b/config/lf/lfrc
++--@@ -173,7 +173,7 @@ cmd rename $pwsh -nop -c mv $Env:f.Trim('"') $args[0]
++-- 
++-+@@ -174,6 +174,7 @@ cmd rename $pwsh -nop -c mv $Env:f.Trim('"') $args[0]
+++-@@ -174,6 +174,7 @@ cmd rename $pwsh -nop -c mv $Env:f.Trim('"') $args[0]
++++@@ -173,8 +173,7 @@ cmd rename $pwsh -nop -c mv $Env:f.Trim('"') $args[0]
+ ++ 
+-++ # make sure trash folder exists
++   # cmd cpmove %[ -e $destination ] && printf "file exists" || spastename $f $1
++   
++---map r push %mv<space>$Env:f.Trim('"')<space>
++--+map r push %$pwsh<space>-nop<space>-c<space>'$f=$Env:f.Trim([char]34);$ext=[IO.Path]::GetExtension($f);mv -LiteralPath $f -Destination ((Join-Path (Split-Path -LiteralPath $f) ($args[0]+$ext)))'<space>--<space>
++-+ map r push %$pwsh<space>-nop<space>-c<space>'$f=$Env:f.Trim([char]34);$ext=[IO.Path]::GetExtension($f);mv -LiteralPath $f -Destination ((Join-Path (Split-Path -LiteralPath $f) ($args[0]+$ext)))'<space>--<space>
++-++
+++- map r push %$pwsh<space>-nop<space>-c<space>'$f=$Env:f.Trim([char]34);$ext=[IO.Path]::GetExtension($f);mv -LiteralPath $f -Destination ((Join-Path (Split-Path -LiteralPath $f) ($args[0]+$ext)))'<space>--<space>
+++-+
++++-map r push %$pwsh<space>-nop<space>-c<space>'$f=$Env:f.Trim([char]34);$ext=[IO.Path]::GetExtension($f);mv -LiteralPath $f -Destination ((Join-Path (Split-Path -LiteralPath $f) ($args[0]+$ext)))'<space>--<space>
++++-
+++++map r push %$pwsh<space>-nop<space>-File<space>C:\Users\yasha\bin\lf-rename-keep-ext.ps1<space>
++   map gc :spastename
++   
++   # make sure trash folder exists
++-+diff --git a/config/lf/message.log b/config/lf/message.log
++-+new file mode 100644
++-+index 000000000..09ce3e592
++-+--- /dev/null
++-++++ b/config/lf/message.log
++-+@@ -0,0 +1,13 @@
++-++diff --git a/config/lf/lfrc b/config/lf/lfrc
++-++index ba5055567..55ebacb7f 100644
++-++--- a/config/lf/lfrc
++-+++++ b/config/lf/lfrc
++-++@@ -173,7 +173,7 @@ cmd rename $pwsh -nop -c mv $Env:f.Trim('"') $args[0]
++-++ 
++-++ # cmd cpmove %[ -e $destination ] && printf "file exists" || spastename $f $1
++-++ 
++-++-map r push %mv<space>$Env:f.Trim('"')<space>
++-+++map r push %$pwsh<space>-nop<space>-c<space>'$f=$Env:f.Trim([char]34);$ext=[IO.Path]::GetExtension($f);mv -LiteralPath $f -Destination ((Join-Path (Split-Path -LiteralPath $f) ($args[0]+$ext)))'<space>--<space>
++-++ map gc :spastename
++-++ 
++-++ # make sure trash folder exists
+++ diff --git a/config/lf/message.log b/config/lf/message.log
+++-new file mode 100644
+++-index 000000000..09ce3e592
+++---- /dev/null
++++index 09ce3e592..663ae1f18 100644
++++--- a/config/lf/message.log
+++ +++ b/config/lf/message.log
+++-@@ -0,0 +1,13 @@
+++-+diff --git a/config/lf/lfrc b/config/lf/lfrc
+++-+index ba5055567..55ebacb7f 100644
+++-+--- a/config/lf/lfrc
+++-++++ b/config/lf/lfrc
+++-+@@ -173,7 +173,7 @@ cmd rename $pwsh -nop -c mv $Env:f.Trim('"') $args[0]
+++-+ 
+++-+ # cmd cpmove %[ -e $destination ] && printf "file exists" || spastename $f $1
+++-+ 
+++-+-map r push %mv<space>$Env:f.Trim('"')<space>
+++-++map r push %$pwsh<space>-nop<space>-c<space>'$f=$Env:f.Trim([char]34);$ext=[IO.Path]::GetExtension($f);mv -LiteralPath $f -Destination ((Join-Path (Split-Path -LiteralPath $f) ($args[0]+$ext)))'<space>--<space>
+++-+ map gc :spastename
+++-+ 
+++-+ # make sure trash folder exists
++++@@ -1,13 +1,34 @@
+++++diff --git a/config/lf/blah b/config/lf/blah
+++++new file mode 100644
+++++index 000000000..e69de29bb
++++ diff --git a/config/lf/lfrc b/config/lf/lfrc
++++-index ba5055567..55ebacb7f 100644
+++++index 55ebacb7f..3c5da9a35 100644
++++ --- a/config/lf/lfrc
++++ +++ b/config/lf/lfrc
++++-@@ -173,7 +173,7 @@ cmd rename $pwsh -nop -c mv $Env:f.Trim('"') $args[0]
++++- 
+++++@@ -174,6 +174,7 @@ cmd rename $pwsh -nop -c mv $Env:f.Trim('"') $args[0]
++++  # cmd cpmove %[ -e $destination ] && printf "file exists" || spastename $f $1
++++  
++++--map r push %mv<space>$Env:f.Trim('"')<space>
++++-+map r push %$pwsh<space>-nop<space>-c<space>'$f=$Env:f.Trim([char]34);$ext=[IO.Path]::GetExtension($f);mv -LiteralPath $f -Destination ((Join-Path (Split-Path -LiteralPath $f) ($args[0]+$ext)))'<space>--<space>
+++++ map r push %$pwsh<space>-nop<space>-c<space>'$f=$Env:f.Trim([char]34);$ext=[IO.Path]::GetExtension($f);mv -LiteralPath $f -Destination ((Join-Path (Split-Path -LiteralPath $f) ($args[0]+$ext)))'<space>--<space>
++++++
++++  map gc :spastename
++++  
++++  # make sure trash folder exists
+++++diff --git a/config/lf/message.log b/config/lf/message.log
+++++new file mode 100644
+++++index 000000000..09ce3e592
+++++--- /dev/null
++++++++ b/config/lf/message.log
+++++@@ -0,0 +1,13 @@
++++++diff --git a/config/lf/lfrc b/config/lf/lfrc
++++++index ba5055567..55ebacb7f 100644
++++++--- a/config/lf/lfrc
+++++++++ b/config/lf/lfrc
++++++@@ -173,7 +173,7 @@ cmd rename $pwsh -nop -c mv $Env:f.Trim('"') $args[0]
++++++ 
++++++ # cmd cpmove %[ -e $destination ] && printf "file exists" || spastename $f $1
++++++ 
++++++-map r push %mv<space>$Env:f.Trim('"')<space>
+++++++map r push %$pwsh<space>-nop<space>-c<space>'$f=$Env:f.Trim([char]34);$ext=[IO.Path]::GetExtension($f);mv -LiteralPath $f -Destination ((Join-Path (Split-Path -LiteralPath $f) ($args[0]+$ext)))'<space>--<space>
++++++ map gc :spastename
++++++ 
++++++ # make sure trash folder exists
