@@ -41,7 +41,9 @@ cmd trash $nu "C:\\Users\\yasha\\OneDrive\\workspacemodules\\dotfiles\\scripts\\
 map . mark-load
 # cmd aj %lf -remote "send $id cd '$(autojump $1)'"
 map gmd push $mkdir<space> 
-map gt push $nu<space>-c<space>'touch<space>'
+
+map gt push %$nu<space>-c<space>'let<space>n<space>=<space>input<space>"File<space>name:<space>";<space>touch<space>$n'<enter>
+
 map gch push %chmod<space>
 # map m push %mv<space>"$fs"<space>
 
