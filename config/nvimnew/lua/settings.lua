@@ -617,25 +617,7 @@ require('lualine').setup {
   inactive_winbar = {},
   extension = {}
 }
-local custom_theme = require('lualine.themes.auto') -- Or replace 'auto' with your specific theme name
 
--- Iterates through every mode and section to strip backgrounds entirely
-for _, mode in pairs(custom_theme) do
-  if type(mode) == 'table' then
-    for _, section in pairs(mode) do
-      if type(section) == 'table' then
-        section.bg = 'NONE'
-      end
-    end
-  end
-end
-
-require('lualine').setup {
-  options = {
-    theme = custom_theme,
-    -- Your other options go here
-  },
-}
 
 -- require("luasnip").config.set_config({
 --   region_check_events = "InsertEnter,CursorMoved",

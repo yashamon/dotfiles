@@ -32,134 +32,409 @@ local function quickfix_open()
   return false
 end
 
+local function trim(s)
+  return (s:gsub("^%s+", ""):gsub("%s+$", ""))
+end
+
 local function extract_line_number(s)
   if not s then
     return nil
   end
 
   return tonumber(
-    s:match("[Oo]n input line (%d+)")
+    s:match(":(%d+):")
+      or s:match("[Oo]n input line (%d+)")
       or s:match("[Ll]ine (%d+)")
       or s:match("l%.(%d+)")
   )
 end
 
-local function add_qf_item(items, item)
-  item.lnum = item.lnum or 1
-  item.col = item.col or 1
-  table.insert(items, item)
+local function is_error_start(line)
+  local lower = line:lower()
+
+  return line:match("^%s*!")
+    or lower:match("^%s*error:")
+    or lower:match("^%s*latex error:")
+    or lower:match("^%s*! latex error:")
 end
 
-local function tectonic_log_to_qf_items(logfile, fallback_bufnr, fallback_file)
-  local lines = vim.fn.readfile(logfile)
-  local items = {}
+local function is_warning_start(line)
+  local lower = line:lower()
 
-  local last_item = nil
+  return lower:match("^%s*warning:")
+    or line:match("^%s*LaTeX Warning:")
+    or line:match("^%s*Package .- Warning:")
+    or line:match("^%s*Class .- Warning:")
+end
 
-  for _, line in ipairs(lines) do
-    local lower = line:lower()
+local function extract_file_and_line(line, fallback_file)
+  -- Tectonic-style:
+  -- error: path/to/file.tex:123: message
+  local file, lnum = line:match("^%s*[Ee]rror:%s+(.+):(%d+):")
 
-    -- Tectonic-style:
-    -- error: file.tex:123: something
-    -- warning: file.tex:123: something
-    local sev, file, lnum, msg =
-      line:match("^%s*([Ee]rror):%s+(.+):(%d+):%s*(.*)$")
-
-    if not sev then
-      sev, file, lnum, msg =
-        line:match("^%s*([Ww]arning):%s+(.+):(%d+):%s*(.*)$")
-    end
-
-    if sev then
-      local item = {
-        filename = file,
-        lnum = tonumber(lnum),
-        type = sev:lower():sub(1, 1) == "e" and "E" or "W",
-        text = msg ~= "" and msg or line,
-      }
-
-      add_qf_item(items, item)
-      last_item = item
-      goto continue
-    end
-
-    -- TeX hard errors:
-    -- ! Undefined control sequence.
-    -- ! LaTeX Error: ...
-    if line:match("^%s*!") or lower:match("error:") then
-      local item = {
-        bufnr = fallback_bufnr,
-        filename = fallback_file,
-        lnum = extract_line_number(line),
-        type = "E",
-        text = line:gsub("^%s*", ""),
-      }
-
-      add_qf_item(items, item)
-      last_item = item
-      goto continue
-    end
-
-    -- TeX / LaTeX warnings:
-    -- LaTeX Warning: ...
-    -- Package hyperref Warning: ...
-    -- Class memoir Warning: ...
-    if line:match("^%s*LaTeX Warning:")
-      or line:match("^%s*Package .- Warning:")
-      or line:match("^%s*Class .- Warning:")
-      or lower:match("warning:")
-    then
-      local item = {
-        bufnr = fallback_bufnr,
-        filename = fallback_file,
-        lnum = extract_line_number(line),
-        type = "W",
-        text = line:gsub("^%s*", ""),
-      }
-
-      add_qf_item(items, item)
-      last_item = item
-      goto continue
-    end
-
-    -- TeX often puts the useful line number after the error:
-    -- l.123 \badcommand
-    local tex_lnum, tex_context = line:match("^%s*l%.(%d+)%s*(.*)$")
-    if tex_lnum and last_item then
-      last_item.lnum = tonumber(tex_lnum)
-      if tex_context and tex_context ~= "" then
-        last_item.text = last_item.text .. " | " .. tex_context
-      end
-      goto continue
-    end
-
-    -- Continuation lines for package warnings, e.g.
-    -- (hyperref)                removing `\foo' on input line 123.
-    if last_item and line:match("^%s*%b()%s+") then
-      local l = extract_line_number(line)
-      if l then
-        last_item.lnum = l
-      end
-
-      local continuation = line:gsub("^%s*", "")
-      if continuation ~= "" then
-        last_item.text = last_item.text .. " | " .. continuation
-      end
-
-      goto continue
-    end
-
-    ::continue::
+  if file and lnum then
+    return file, tonumber(lnum)
   end
 
-  return items
+  return fallback_file, extract_line_number(line)
 end
 
-function ToggleQuickFix()
+local function tectonic_log_to_error_entries(logfile, fallback_bufnr, fallback_file)
+  local lines = vim.fn.readfile(logfile)
+  local entries = {}
+
+  local current = nil
+
+  local function finish_current()
+    if not current then
+      return
+    end
+
+    current.full_text = table.concat(current.lines, "\n")
+
+    if not current.lnum then
+      current.lnum = extract_line_number(current.full_text)
+    end
+
+    current.lnum = current.lnum or 1
+
+    local first_line = trim(current.lines[1] or "error")
+    first_line = first_line:gsub("%s+", " ")
+
+    current.summary = first_line
+
+    table.insert(entries, current)
+    current = nil
+  end
+
+  for _, line in ipairs(lines) do
+    if is_error_start(line) then
+      finish_current()
+
+      local file, lnum = extract_file_and_line(line, fallback_file)
+
+      current = {
+        filename = file or fallback_file,
+        bufnr = fallback_bufnr,
+        lnum = lnum,
+        lines = { line },
+      }
+    elseif is_warning_start(line) then
+      -- Ignore warnings entirely.
+      finish_current()
+    elseif current then
+      -- Continuation line of current error.
+      table.insert(current.lines, line)
+
+      local lnum = extract_line_number(line)
+      if lnum then
+        current.lnum = lnum
+      end
+    end
+  end
+
+  finish_current()
+
+  return entries
+end
+
+local function jump_to_error(entry)
+  if entry.filename and entry.filename ~= "" then
+    vim.cmd.edit(vim.fn.fnameescape(entry.filename))
+  elseif entry.bufnr and vim.api.nvim_buf_is_valid(entry.bufnr) then
+    vim.api.nvim_set_current_buf(entry.bufnr)
+  else
+    return
+  end
+
+  local line_count = vim.api.nvim_buf_line_count(0)
+  local lnum = math.max(1, math.min(entry.lnum or 1, line_count))
+
+  vim.api.nvim_win_set_cursor(0, { lnum, 0 })
+  vim.cmd("normal! zvzz")
+end
+
+local function write_preview_files(entries)
+  local preview_dir = vim.fn.stdpath("cache") .. "/tectonic-error-previews"
+
+  vim.fn.mkdir(preview_dir, "p")
+
+  for i, entry in ipairs(entries) do
+    local preview_file = preview_dir .. "/error-" .. i .. ".txt"
+
+    vim.fn.writefile(
+      vim.split(entry.full_text or entry.summary or "", "\n", { plain = true }),
+      preview_file
+    )
+
+    entry.preview_file = preview_file
+  end
+end
+
+function _G.ToggleQuickFix()
   if quickfix_open() then
     vim.cmd("cclose")
     return
   end
+
+  vim.cmd("update")
+
+  local file_dir = vim.fn.expand("%:p:h")
+  local file_base = vim.fn.expand("%:t:r")
+  local source_file = vim.fn.expand("%:p")
+  local source_bufnr = vim.api.nvim_get_current_buf()
+
+  local log_file = file_dir .. "/build/" .. file_base .. ".log"
+
+  if vim.fn.filereadable(log_file) == 0 then
+    vim.notify("Log file not found: " .. log_file, vim.log.levels.WARN)
+    return
+  end
+
+  local entries = tectonic_log_to_error_entries(
+    log_file,
+    source_bufnr,
+    source_file
+  )
+
+  if #entries == 0 then
+    vim.notify("No errors found in " .. log_file, vim.log.levels.INFO)
+    return
+  end
+
+  write_preview_files(entries)
+
+  -- Populate quickfix too, in case you still want :cnext / :copen.
+  local qf_items = {}
+
+  for _, entry in ipairs(entries) do
+    table.insert(qf_items, {
+      filename = entry.filename,
+      bufnr = entry.bufnr,
+      lnum = entry.lnum,
+      col = 1,
+      type = "E",
+      text = entry.summary,
+    })
+  end
+
+  vim.fn.setqflist({}, "r", {
+    title = "Tectonic errors only: " .. vim.fn.fnamemodify(log_file, ":t"),
+    items = qf_items,
+  })
+
+  local display_lines = {}
+  local by_index = {}
+
+  for i, entry in ipairs(entries) do
+    local display = string.format(
+      "%03d │ %s:%d │ %s",
+      i,
+      vim.fn.fnamemodify(entry.filename or source_file, ":t"),
+      entry.lnum or 1,
+      entry.summary
+    )
+
+    -- Hidden fields:
+    -- field 1 = visible display
+    -- field 2 = index
+    -- field 3 = preview file path
+    table.insert(
+      display_lines,
+      display .. "\t" .. tostring(i) .. "\t" .. entry.preview_file
+    )
+
+    by_index[i] = entry
+  end
+
+  local function selected_entry(selected)
+    local item = selected and selected[1]
+    if not item then
+      return nil
+    end
+
+    local idx = tonumber(item:match("\t(%d+)\t"))
+    if not idx then
+      return nil
+    end
+
+    return by_index[idx]
+  end
+
+  require("fzf-lua").fzf_exec(display_lines, {
+    prompt = "Tectonic errors> ",
+    previewer = false,
+
+    fzf_opts = {
+      ["--delimiter"] = "\t",
+
+      -- Only show the pretty first field.
+      ["--with-nth"] = "1",
+
+      -- Only search the pretty first field.
+      ["--nth"] = "1",
+
+      ["--no-multi"] = true,
+      ["--tiebreak"] = "index",
+
+      -- Preview the full multi-line error message.
+      -- {3} is the hidden preview-file field.
+      ["--preview"] = "cat {3}",
+
+      ["--preview-window"] = "right:60%:wrap",
+    },
+
+    actions = {
+      ["enter"] = function(selected)
+        local entry = selected_entry(selected)
+        if not entry then
+          return
+        end
+
+        jump_to_error(entry)
+      end,
+    },
+  })
+end
+
+
+-- local function quickfix_open()
+--   for _, win in ipairs(vim.fn.getwininfo()) do
+--     if win.quickfix == 1 then
+--       return true
+--     end
+--   end
+--   return false
+-- end
+--
+-- local function extract_line_number(s)
+--   if not s then
+--     return nil
+--   end
+--
+--   return tonumber(
+--     s:match("[Oo]n input line (%d+)")
+--       or s:match("[Ll]ine (%d+)")
+--       or s:match("l%.(%d+)")
+--   )
+-- end
+--
+-- local function add_qf_item(items, item)
+--   item.lnum = item.lnum or 1
+--   item.col = item.col or 1
+--   table.insert(items, item)
+-- end
+--
+-- local function tectonic_log_to_qf_items(logfile, fallback_bufnr, fallback_file)
+--   local lines = vim.fn.readfile(logfile)
+--   local items = {}
+--
+--   local last_item = nil
+--
+--   for _, line in ipairs(lines) do
+--     local lower = line:lower()
+--
+--     -- Tectonic-style:
+--     -- error: file.tex:123: something
+--     -- warning: file.tex:123: something
+--     local sev, file, lnum, msg =
+--       line:match("^%s*([Ee]rror):%s+(.+):(%d+):%s*(.*)$")
+--
+--     if not sev then
+--       sev, file, lnum, msg =
+--         line:match("^%s*([Ww]arning):%s+(.+):(%d+):%s*(.*)$")
+--     end
+--
+--     if sev then
+--       local item = {
+--         filename = file,
+--         lnum = tonumber(lnum),
+--         type = sev:lower():sub(1, 1) == "e" and "E" or "W",
+--         text = msg ~= "" and msg or line,
+--       }
+--
+--       add_qf_item(items, item)
+--       last_item = item
+--       goto continue
+--     end
+--
+--     -- TeX hard errors:
+--     -- ! Undefined control sequence.
+--     -- ! LaTeX Error: ...
+--     if line:match("^%s*!") or lower:match("error:") then
+--       local item = {
+--         bufnr = fallback_bufnr,
+--         filename = fallback_file,
+--         lnum = extract_line_number(line),
+--         type = "E",
+--         text = line:gsub("^%s*", ""),
+--       }
+--
+--       add_qf_item(items, item)
+--       last_item = item
+--       goto continue
+--     end
+--
+--     -- TeX / LaTeX warnings:
+--     -- LaTeX Warning: ...
+--     -- Package hyperref Warning: ...
+--     -- Class memoir Warning: ...
+--     if line:match("^%s*LaTeX Warning:")
+--       or line:match("^%s*Package .- Warning:")
+--       or line:match("^%s*Class .- Warning:")
+--       or lower:match("warning:")
+--     then
+--       local item = {
+--         bufnr = fallback_bufnr,
+--         filename = fallback_file,
+--         lnum = extract_line_number(line),
+--         type = "W",
+--         text = line:gsub("^%s*", ""),
+--       }
+--
+--       add_qf_item(items, item)
+--       last_item = item
+--       goto continue
+--     end
+--
+--     -- TeX often puts the useful line number after the error:
+--     -- l.123 \badcommand
+--     local tex_lnum, tex_context = line:match("^%s*l%.(%d+)%s*(.*)$")
+--     if tex_lnum and last_item then
+--       last_item.lnum = tonumber(tex_lnum)
+--       if tex_context and tex_context ~= "" then
+--         last_item.text = last_item.text .. " | " .. tex_context
+--       end
+--       goto continue
+--     end
+--
+--     -- Continuation lines for package warnings, e.g.
+--     -- (hyperref)                removing `\foo' on input line 123.
+--     if last_item and line:match("^%s*%b()%s+") then
+--       local l = extract_line_number(line)
+--       if l then
+--         last_item.lnum = l
+--       end
+--
+--       local continuation = line:gsub("^%s*", "")
+--       if continuation ~= "" then
+--         last_item.text = last_item.text .. " | " .. continuation
+--       end
+--
+--       goto continue
+--     end
+--
+--     ::continue::
+--   end
+--
+--   return items
+-- end
+--
+-- function ToggleQuickFix()
+--   if quickfix_open() then
+--     vim.cmd("cclose")
+--     return
+--   end
 
   vim.cmd("update")
 
