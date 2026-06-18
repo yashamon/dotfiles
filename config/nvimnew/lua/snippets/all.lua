@@ -614,6 +614,15 @@ ls.add_snippets("tex", {
 		t({"Liouville"}), i(1, ""),
 	}),
 })
+
+ls.add_snippets("tex", {
+	-- rec_ls is self-referencing. That makes this snippet 'infinite' eg. have as many
+	-- \item as necessary by utilizing a choiceNode.
+	s("teich", {
+		t({"Teichm\\uller"}), i(1, ""),
+	}),
+})
+
 ls.add_snippets("tex", {
 	-- rec_ls is self-referencing. That makes this snippet 'infinite' eg. have as many
 	-- \item as necessary by utilizing a choiceNode.

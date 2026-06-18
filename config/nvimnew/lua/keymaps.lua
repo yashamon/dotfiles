@@ -37,6 +37,9 @@ vim.keymap.set("n", "<leader>e", ToggleQuickFix, {
 map('n', 'S', Sentence, {}) --search mapping bqf
 -- commands
 command('Git', 'FzfLua git_bcommits', {})
+vim.api.nvim_create_user_command("Warn", function()
+  _G.ToggleTectonicWarnings()
+end, {})
 command('Gtd', 'TodoQuickFix', {})
 command('Sa', function(file) vim.cmd('saveas ' .. file.args) end, { nargs=1 })
 command('Sao', function(file) vim.cmd('saveas! ' .. file.args) end, { nargs=1 })
@@ -158,6 +161,17 @@ vim.keymap.set("c", "<cr>", function()
   end, { expr = true })
 map ('i', '<D-]>', '<C-x><C-]>')
 map ('i', '<C-]>', '<C-x><C-]>')
+-- copy paste stuff
+vim.keymap.set({ "n", "x" }, "<C-v>", '"+p', { noremap = true, silent = true })
+vim.keymap.set("i", "<C-v>", '<C-r>+', { noremap = true, silent = true })
+vim.keymap.set("c", "<C-v>", '<C-r>+', { noremap = true, silent = true })
+vim.keymap.set("t", "<C-v>", [[<C-\><C-o>"+p]], { noremap = true, silent = true })
+vim.keymap.set("x", "<C-S-c>", '"+y', {
+  noremap = true,
+  silent = true,
+  desc = "Yank selection to system clipboard",
+})
+
 vim.cmd([[
 smap <silent><expr> <C-E> luasnip#choice_active() ? '<Plug>luasnip-next-choice' : '<C-E>'
 " Replace  default dictionary completion with fzf-based fuzzy completion

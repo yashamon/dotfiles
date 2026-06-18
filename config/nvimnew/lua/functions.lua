@@ -23,14 +23,11 @@ Send = function()
 	Job(execstr)
 end
 
-local function quickfix_open()
-  for _, win in ipairs(vim.fn.getwininfo()) do
-    if win.quickfix == 1 then
-      return true
-    end
-  end
-  return false
-end
+-- Tectonic log pickers ---------------------------------------------------------
+-- Errors and warnings are parsed from build/<current-file>.log, shown in fzf-lua,
+-- previewed with bat, and Enter jumps to the corresponding source line.
+local black_preview =
+  [[powershell -NoProfile -Command "$esc=[char]27; Write-Host ($esc + '[30m') -NoNewline; Get-Content {3}; Write-Host ($esc + '[0m') -NoNewline"]]
 
 local function trim(s)
   return (s:gsub("^%s+", ""):gsub("%s+$", ""))
@@ -67,10 +64,19 @@ local function is_warning_start(line)
     or line:match("^%s*Class .- Warning:")
 end
 
-local function extract_file_and_line(line, fallback_file)
-  -- Tectonic-style:
+local function extract_file_and_line(line, fallback_file, kind)
+  -- Tectonic-style examples:
   -- error: path/to/file.tex:123: message
-  local file, lnum = line:match("^%s*[Ee]rror:%s+(.+):(%d+):")
+  -- warning: path/to/file.tex:123: message
+  local pattern
+
+  if kind == "warning" then
+    pattern = "^%s*[Ww]arning:%s+(.+):(%d+):"
+  else
+    pattern = "^%s*[Ee]rror:%s+(.+):(%d+):"
+  end
+
+  local file, lnum = line:match(pattern)
 
   if file and lnum then
     return file, tonumber(lnum)
@@ -79,10 +85,28 @@ local function extract_file_and_line(line, fallback_file)
   return fallback_file, extract_line_number(line)
 end
 
-local function tectonic_log_to_error_entries(logfile, fallback_bufnr, fallback_file)
+local function should_stop_continuation(line, current)
+  -- TeX messages can have useful continuation lines, but we do not want one
+  -- warning/error to swallow the whole log. Blank line after some content is a
+  -- good enough boundary for this workflow.
+  if not current or not current.lines then
+    return false
+  end
+
+  if #current.lines >= 40 then
+    return true
+  end
+
+  if trim(line) == "" and #current.lines >= 2 then
+    return true
+  end
+
+  return false
+end
+
+local function tectonic_log_to_entries(logfile, fallback_bufnr, fallback_file, kind)
   local lines = vim.fn.readfile(logfile)
   local entries = {}
-
   local current = nil
 
   local function finish_current()
@@ -98,9 +122,8 @@ local function tectonic_log_to_error_entries(logfile, fallback_bufnr, fallback_f
 
     current.lnum = current.lnum or 1
 
-    local first_line = trim(current.lines[1] or "error")
+    local first_line = trim(current.lines[1] or kind)
     first_line = first_line:gsub("%s+", " ")
-
     current.summary = first_line
 
     table.insert(entries, current)
@@ -108,10 +131,21 @@ local function tectonic_log_to_error_entries(logfile, fallback_bufnr, fallback_f
   end
 
   for _, line in ipairs(lines) do
-    if is_error_start(line) then
+    local starts_error = is_error_start(line)
+    local starts_warning = is_warning_start(line)
+
+    local starts_target =
+      (kind == "error" and starts_error)
+      or (kind == "warning" and starts_warning)
+
+    local starts_other =
+      (kind == "error" and starts_warning)
+      or (kind == "warning" and starts_error)
+
+    if starts_target then
       finish_current()
 
-      local file, lnum = extract_file_and_line(line, fallback_file)
+      local file, lnum = extract_file_and_line(line, fallback_file, kind)
 
       current = {
         filename = file or fallback_file,
@@ -119,16 +153,18 @@ local function tectonic_log_to_error_entries(logfile, fallback_bufnr, fallback_f
         lnum = lnum,
         lines = { line },
       }
-    elseif is_warning_start(line) then
-      -- Ignore warnings entirely.
+    elseif starts_other then
       finish_current()
     elseif current then
-      -- Continuation line of current error.
-      table.insert(current.lines, line)
+      if should_stop_continuation(line, current) then
+        finish_current()
+      else
+        table.insert(current.lines, line)
 
-      local lnum = extract_line_number(line)
-      if lnum then
-        current.lnum = lnum
+        local lnum = extract_line_number(line)
+        if lnum then
+          current.lnum = lnum
+        end
       end
     end
   end
@@ -138,7 +174,7 @@ local function tectonic_log_to_error_entries(logfile, fallback_bufnr, fallback_f
   return entries
 end
 
-local function jump_to_error(entry)
+local function jump_to_entry(entry)
   if entry.filename and entry.filename ~= "" then
     vim.cmd.edit(vim.fn.fnameescape(entry.filename))
   elseif entry.bufnr and vim.api.nvim_buf_is_valid(entry.bufnr) then
@@ -154,29 +190,46 @@ local function jump_to_error(entry)
   vim.cmd("normal! zvzz")
 end
 
-local function write_preview_files(entries)
-  local preview_dir = vim.fn.stdpath("cache") .. "/tectonic-error-previews"
+local function write_preview_files(entries, kind)
+  local preview_dir = vim.fn.stdpath("cache") .. "/tectonic-" .. kind .. "-previews"
 
   vim.fn.mkdir(preview_dir, "p")
 
   for i, entry in ipairs(entries) do
-    local preview_file = preview_dir .. "/error-" .. i .. ".txt"
+    local preview_file = preview_dir .. "/" .. kind .. "-" .. i .. ".txt"
 
     vim.fn.writefile(
       vim.split(entry.full_text or entry.summary or "", "\n", { plain = true }),
       preview_file
     )
 
-    entry.preview_file = preview_file
+    -- Use forward slashes so Windows shell commands are less cranky.
+    entry.preview_file = preview_file:gsub("\\", "/")
   end
 end
 
-function _G.ToggleQuickFix()
-  if quickfix_open() then
-    vim.cmd("cclose")
-    return
+local function populate_quickfix(entries, kind, log_file)
+  local qf_items = {}
+  local qf_type = kind == "warning" and "W" or "E"
+
+  for _, entry in ipairs(entries) do
+    table.insert(qf_items, {
+      filename = entry.filename,
+      bufnr = entry.bufnr,
+      lnum = entry.lnum,
+      col = 1,
+      type = qf_type,
+      text = entry.summary,
+    })
   end
 
+  vim.fn.setqflist({}, "r", {
+    title = "Tectonic " .. kind .. "s only: " .. vim.fn.fnamemodify(log_file, ":t"),
+    items = qf_items,
+  })
+end
+
+local function pick_tectonic_entries(kind)
   vim.cmd("update")
 
   local file_dir = vim.fn.expand("%:p:h")
@@ -191,37 +244,20 @@ function _G.ToggleQuickFix()
     return
   end
 
-  local entries = tectonic_log_to_error_entries(
+  local entries = tectonic_log_to_entries(
     log_file,
     source_bufnr,
-    source_file
+    source_file,
+    kind
   )
 
   if #entries == 0 then
-    vim.notify("No errors found in " .. log_file, vim.log.levels.INFO)
+    vim.notify("No " .. kind .. "s found in " .. log_file, vim.log.levels.INFO)
     return
   end
 
-  write_preview_files(entries)
-
-  -- Populate quickfix too, in case you still want :cnext / :copen.
-  local qf_items = {}
-
-  for _, entry in ipairs(entries) do
-    table.insert(qf_items, {
-      filename = entry.filename,
-      bufnr = entry.bufnr,
-      lnum = entry.lnum,
-      col = 1,
-      type = "E",
-      text = entry.summary,
-    })
-  end
-
-  vim.fn.setqflist({}, "r", {
-    title = "Tectonic errors only: " .. vim.fn.fnamemodify(log_file, ":t"),
-    items = qf_items,
-  })
+  write_preview_files(entries, kind)
+  populate_quickfix(entries, kind, log_file)
 
   local display_lines = {}
   local by_index = {}
@@ -262,26 +298,24 @@ function _G.ToggleQuickFix()
   end
 
   require("fzf-lua").fzf_exec(display_lines, {
-    prompt = "Tectonic errors> ",
+    prompt = "Tectonic " .. kind .. "s> ",
     previewer = false,
 
     fzf_opts = {
       ["--delimiter"] = "\t",
 
-      -- Only show the pretty first field.
+      -- Only show/search the pretty first field.
       ["--with-nth"] = "1",
-
-      -- Only search the pretty first field.
       ["--nth"] = "1",
 
       ["--no-multi"] = true,
       ["--tiebreak"] = "index",
 
-      -- Preview the full multi-line error message.
+      -- Preview the full multi-line message.
       -- {3} is the hidden preview-file field.
-      ["--preview"] = "bat --style=plain --color=always --wrap=character {3}",
-
-      ["--preview-window"] = "right:60%:wrap",
+      -- cmd /C makes this more predictable on Windows.
+      ["--preview"] = bat_black_preview,
+			["--preview-window"] = "right:60%:wrap",
     },
 
     actions = {
@@ -291,13 +325,40 @@ function _G.ToggleQuickFix()
           return
         end
 
-        jump_to_error(entry)
+        jump_to_entry(entry)
       end,
     },
   })
 end
 
+function _G.ToggleTectonicErrors()
+  pick_tectonic_entries("error")
+end
 
+-- Backward-compatible name for your old mapping/command.
+function _G.ToggleQuickFix()
+  _G.ToggleTectonicErrors()
+end
+
+function _G.ToggleTectonicWarnings()
+  pick_tectonic_entries("warning")
+end
+
+vim.api.nvim_create_user_command("Err", function()
+  _G.ToggleTectonicErrors()
+end, {
+  desc = "Show Tectonic errors in fzf preview",
+})
+
+vim.api.nvim_create_user_command("Warn", function()
+  _G.ToggleTectonicWarnings()
+end, {
+  desc = "Show Tectonic warnings in fzf preview",
+})
+
+-- Optional lowercase command-line abbreviations.
+vim.cmd([[cnoreabbrev err Err]])
+vim.cmd([[cnoreabbrev warn Warn]])
 
 Line = function()
 	-- Idline = vim.fn.jobstart(WriteLine())

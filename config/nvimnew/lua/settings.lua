@@ -409,7 +409,7 @@ local function apply_latex_custom_math_highlights()
     syntax match texGreekSymbol "\\\(Gamma\|Delta\|Theta\|Lambda\|Xi\|Pi\|Sigma\|Upsilon\|Phi\|Psi\|Omega\)" containedin=ALL
   ]])
 end
-vim.cmd.colorscheme("gruvbox-material")
+vim.cmd.colorscheme("gruvbox")
 apply_latex_orange_overrides()
 apply_latex_operatorname_highlight()
 apply_latex_custom_math_highlights()
