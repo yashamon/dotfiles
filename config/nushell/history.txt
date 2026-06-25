@@ -1,0 +1,80 @@
+lf
+scoop uninstall sumatrapdf
+scoop install sumatrapdf
+git checkout -b chatgpt5
+git checkout -b chatgpt6
+lf
+lfrc
+lf
+lfrc
+lf
+j scripts
+nvim rename_keep_ext.nu
+lfrc
+lf
+lfrc
+lf
+lfrc
+lf
+lfrc
+lf
+lfrc
+lf
+lfrc
+lf
+lfrc
+lf
+lfrc
+lf
+lfrc
+lf
+lfrc
+lf
+git status
+j config
+cd lf
+git restore lfrc
+rm C:/Users/yasha/OneDrive/workspacemodules/dotfiles/.git/index.lock
+git restore lfrc
+lfrc
+lf
+lfrc
+lf
+j scripts
+nvim lf-rename-keep-ext.ps1
+lfrc
+lf
+lfrc
+lf
+lfrc
+lf
+lfrc
+lf
+lfrc
+lf
+lfrc
+lf
+lfrc
+lf
+git status
+git restore gitconfig
+git status
+git restore bluetooth.ps1
+git restore scripts/bluetooth.ps1
+cd ..
+mkdir blah
+cd blah
+lf
+rsync
+lfrc
+lf
+lfrc
+lf
+lfrc
+lf
+lfrc
+j sc
+branchlist
+git status
+@ -1207,10 +1003,6 @@
+ship::utilsship::utils

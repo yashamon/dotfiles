@@ -1,0 +1,46 @@
+TUTORIAL_ADVENTURE_POUCH_AVAILABLE_GOT_IT;Nová cesta začíná...\nVak dobrodružství byl odhalen, je čas zjistit, co vás ve Faerii dále čeká!\nC-Co je to za medailon?
+TUTORIAL_BATTLE_CASUAL_MODE_HINT;Pokud si chcete odpočinout, zvolte Nehodnocený režim.
+TUTORIAL_BATTLE_CHOOSE_MODE_GOT_IT;Před zahájením zápasu si vždycky můžete vybrat mezi Výcvikem, Nehodnoceným nebo Hodnoceným režimem.
+TUTORIAL_BATTLE_PRACTICE_MODE_HINT;Pokud chcete trénovat proti počítači, vyberte režim Výcviku.
+TUTORIAL_BATTLE_RANKED_MODE_HINT;Pokud chcete prokázat své schopnosti, zvolte Hodnocený režim.
+TUTORIAL_CRAFTING_HIT_CRAFT_MODE_BUTTON;Odemkli jste schopnost vytvářet nové karty!
+TUTORIAL_DECK_EDITION_NEW_CARD_RECEIVED_GOT_IT;Dostali jste novou kartu. Pojďme se podívat, jak ji můžete přidat do svého balíčku.
+TUTORIAL_FIRST_FORMULA_DECK_CREATED;Toto je váš první balíček, jste připravení ke hře!
+TUTORIAL_FIRST_FORMULA_HIT_BLUEPRINT_SELECT_BUTTON;Toto je Vzorec, použijte ho k vytvoření balíčku za pár sekund.
+TUTORIAL_FIRST_FORMULA_HIT_PLAY_BUTTON;Pojďme vyzkoušet váš nový balíček ve hře
+TUTORIAL_FIRST_FORMULA_HOME_UNLOCKED_GOT_IT;Gratulujeme, odemkli jste hlavní rozhraní Faerie! Pojďme začít vytvořením vašeho prvního balíčku.
+TUTORIAL_FIRST_FORMULA_SOLO_GOT_IT;Vítejte v misích! Dokončete je pro zvýšení úrovně a získání dalších karet!
+TUTORIAL_SECOND_FORMULA_CREATE_DECK;Vytvořte balíček i tak a nakonec přidejte 2 karty vlastního výběru.
+TUTORIAL_SECOND_FORMULA_FINISH_DECK_GOT_IT;Není problém, když nevlastníte všechny karty pro Vzorec. Vždycky můžete balíček dokončit s kartami vašeho výběru.
+TUTORIAL_SECOND_FORMULA_NEW_FORMULA_RECEIVED_GOT_IT;Dostali jste nový Vzorec, pojďme ho využít.
+TUTORIAL_SECOND_FORMULA_NOT_COMPLETED_FORMULA_HINT;Ze 30 karet potřebných pro tento Vzorec máte 28.
+TUTORIAL_SHOP_MYTHIC_CHEST_HINT;V mytických truhlách se ukrývají mytické verze karet a další kosmetické prvky.
+TUTORIAL_PANDORA_PRACTICE_COIN_HINT;Vsaďte 2 bitevní truhly a hrajte s nově vytvořeným balíčkem. Vyhrajte až 6 her a získejte další truhly a nové karty.
+TUTORIAL_PANDORA_FULL_COIN_HINT;Můžete vsadit střípky a získat mytické karty a další střípky.
+MOUSE_TUTORIAL_PANDORA_REWARD_GOT_IT;Sbírejte pandorské body, za které na konci sezóny získáte odměny. Kliknutím si odměny můžete prohlédnout!
+DAILY_REWARDS_TUTORIAL_GOT_IT;Toto byla vaše první denní odměna. Přihlaste se každý den, odměny se postupně zvyšují. Ale nebojte, i pokud pár dnů vynecháte, hra si zapamatuje váš postup.
+LOYALTY_PATCH_PUZZLES_GOT_IT;Tady je několik hlavolamů pro začátek Zkázy Nesmrtelna
+TUTORIAL_WORLD_MAP_GOT_IT;Vítejte ve světě Faerie! Zde se můžete utkat s těmi nejhrozivějšími nepřáteli a nakonec si vybojovat Orb šampionů.
+TUTORIAL_PANDORA_FIRST_GAME_GOT_IT;Střepy Pandory byly přidány do obou balíčků. Jakmile bude nalezeno všech 5, Pandora se probudí.
+TUTORIAL_PANDORA_AWAKENS_GOT_IT;Pandora se probouzí: V balíčcích lze nyní nalézt poklady. Každý tah získáte o 3 faerie navíc.
+TUTORIAL_CRAFTING_CRAFT_CHARGES_GOT_IT;Postupem času se vám obnovují pokusy na kování nových karet. V jednu chvíli jich můžete mít až {0}.
+TUTORIAL_CRAFTING_CRAFT_GOT_IT;Zatím můžete ukovat pouze obyčejnou kartu, s rostoucí úrovní se ale budou rozrůstat i vaše možnosti.
+TUTORIAL_SHOP_DEAL_OF_THE_DAY_HINT;Předměty si lze koupit i přímo v obchodě, jehož nabídka se mění každý den.
+TUTORIAL_SHOP_GOT_IT;Chcete-li zlepšit vzhled svých karet a tak dále, přímo tady si můžete koupit kosmetické doplňky, s nimiž upravíte svůj profil k obrazu svému.
+TUTORIAL_LORE_BOOK_GOT_IT;Odemkli jste knihu příběhů!
+TUTORIAL_DRAGONS_LAIR_IS_HERE_GOT_IT;Tudy můžete vstoupit do Dračí sluje. Pokud si tedy troufáte.
+TUTORIAL_DRAGONS_LAIR_IS_DAILY_GOT_IT;Do sluje každý den přiletí nový drak. Několikrát každého z nich porazte a získejte tak jeho sadu doplňků!
+TUTORIAL_DRAGONS_LAIR_GOT_IT;Dračí sluj je nyní dostupná!\nBojujte sami nebo s přítelem proti lítým saním v této každodenní výzvě!
+TUTORIAL_DECK_COSMETIC_SET_POPUP_GOT_IT;Zvolte si, jaké doplňky si přejete přiřadit k tomuto balíčku, a klikněte na tlačítko Potvrdit.
+TUTORIAL_DECK_COSMETIC_SET_EDIT_DECK_GOT_IT;Nyní si můžete zvolit jedinečné doplňky pro každý ze svých balíčků!
+GAMEPAD_TUTORIAL_PANDORA_REWARD_GOT_IT;Sbírejte Pandora body, za které na konci sezóny získáte odměny. Odměny si prohlédněte na <u><link=https://esports.faeria.com/pandora-season>https://esports.faeria.com/pandora-season</link></u>
+GAMEPAD_TUTORIAL_LORE_BOOK_ZOOM_ON_LORE_ITEM;Stisknutím {GAMEPAD_ACTION_CONFIRM} na odemčených příbězích si je můžete přečíst.
+MOUSE_TUTORIAL_LORE_BOOK_ZOOM_ON_LORE_ITEM;Kliknutím na odemčené příběhy si je můžete přečíst.
+GAMEPAD_TUTORIAL_DECK_EDITION_REMOVE_ANY_CARD_FROM_DECK;Stisknutím {GAMEPAD_ACTION_CONFIRM} na libovolné kartě ji odeberete ze svého balíčku.
+MOUSE_TUTORIAL_DECK_EDITION_REMOVE_ANY_CARD_FROM_DECK;Kliknutím na libovolnou kartu ji odeberete ze svého balíčku.
+GAMEPAD_TUTORIAL_DECK_EDITION_CLICK_SAVE;Zvolte Uložit, a je hotovo.
+MOUSE_TUTORIAL_DECK_EDITION_CLICK_SAVE;Klikněte na Uložit, a je hotovo.
+GAMEPAD_TUTORIAL_DECK_EDITION_ADD_ANY_CARD_TO_DECK;Teď vyberte tuto kartu a přidejte ji do svého balíčku.
+MOUSE_TUTORIAL_DECK_EDITION_ADD_ANY_CARD_TO_DECK;Teď klikněte na tuto kartu a přidejte ji do svého balíčku.
+GAMEPAD_TUTORIAL_ADVENTURE_POUCH_MEDALLION_GOT_IT;Stisknutím {GAMEPAD_ACTION_CONFIRM} se zapojte do dobrodružství
+MOUSE_TUTORIAL_ADVENTURE_POUCH_MEDALLION_GOT_IT;Kliknutím se zapojte do dobrodružství

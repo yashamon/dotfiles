@@ -1,0 +1,10 @@
+[Unit]
+Description=gitwatch
+
+[Service]  
+Environment="SCRIPT_ARGS=%I"
+ExecStart=/home/yasha/dotfiles/gitwatch/gitwatch.sh -r origin /home/yasha/workspace 
+Restart=always
+
+[Install]
+WantedBy=default.target

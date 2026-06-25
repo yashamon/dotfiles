@@ -1,0 +1,10 @@
+command_timeout = 0
+
+[directory]
+# Set to true to truncate the path to the current folder and repository root (default behavior)
+# Set to false to display the full path
+truncate_to_repo = false
+
+# You can also set a high truncation length to ensure the full path is shown,
+# though `truncate_to_repo = false` should be sufficient.
+# truncation_length = 0

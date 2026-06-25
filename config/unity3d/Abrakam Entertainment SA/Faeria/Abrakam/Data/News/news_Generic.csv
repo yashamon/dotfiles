@@ -1,0 +1,7 @@
+DockId;Keyword;IsStoreId;NewsUrl;ImageName;[STEAM,GOLD]
+0;NEWS_ADDITIONAL_CONTENT;false;faeria://dlc_shop;DlcShop;GOLD
+1;NEWS_TWITCH;false;https://www.twitch.tv/directory/game/Faeria;TwitchNews;
+2;NEWS_FAERIA_ALL_IN_BUNDLE;false;https://store.steampowered.com/bundle/11383/Faeria_Game__All_DLC_Bundle/;AllInPackBuyNews;
+3;NEWS_PREMIUM_DLC;true;880520;DlcPremium;
+4;NEWS_STEAM_NEWS;true;574570;FaeriaSteamPack;STEAM
+5;NEWS_CROSSPLAY_TOURNAMENT;false;https://www.faeria.com/news/announcements/344-tournament;CrossPlayTournamentNews;

@@ -1,0 +1,229 @@
+ACTIVATE;<b>活性</b>
+AQUATIC;<b>水生</b>
+ARTIFACT;アーティファクト
+AUTO_HARVEST;<b>収穫</b>
+BLUE;<sprite="icon_blue" index=0>
+BLUEPRINT_01.name;緑のスターターデッキ
+BLUEPRINT_01.shortdescription;たくさんの体力と機動性を備えた森の力を活用し、あなたの軍隊を作り出そう。 フェアリアの井戸の近くに足場を確立してから、オーブに向かって飛び降りろ！
+BLUEPRINT_02.name;赤のスターターデッキ
+BLUEPRINT_02.shortdescription;オーガ達が山から足並みをそろえやってきた。 彼らなりの礼儀”ですぐに仕事を終わらせていく。
+BLUEPRINT_03.name;青のスターターデッキ
+BLUEPRINT_03.shortdescription;イベントの力で飛沫ををあげよう！ 飛び跳ねる生物や水生魚を使用しすぐに複数のフェアリアの井戸から収穫することができる。
+BLUEPRINT_04.name;黄のスターターデッキ
+BLUEPRINT_04.shortdescription;砂漠の暗い喜びを味わえるぞ。 禁止された儀式を使用し、自分のクリーチャーの死から力を得る。 自分のライフをリソースとして使うことで、相手よりも強力になるだろう。
+BLUEPRINT_05.name;青海の侵略
+BLUEPRINT_05.shortdescription;フェアリアがあなたに力を与えるためにあなたの欲を見せろ。 敵の井戸からフェアリアを収穫することに集中し、巨像の集団を安く召喚しよう。
+BLUEPRINT_06.name;戦闘の栄光
+BLUEPRINT_06.shortdescription;あなたの敵を押しつぶすヤクの嘆きが聞こえるだろう。 戦闘することで繁栄する軍隊を指揮する。 好戦的な味方には、鋼の贈り物が一番輝くことになる。
+BLUEPRINT_07.name;必殺の聖戦
+BLUEPRINT_07.shortdescription;慈悲を示さない。 あなたの相手に直接向かい、すべてのコストで彼らのオーブを攻撃して聖戦に力を貸す。
+BLUEPRINT_08.name;究極の取引
+BLUEPRINT_08.shortdescription;オーガ達との交渉により格安で高価なカードを手に入れた。崇高な勝利を目指し封じられた竜と巨人を放て。
+BLUEPRINT_09.name;天空の艦隊
+BLUEPRINT_09.shortdescription;空に命じよ。 あなたの鳥達は艦隊の強さを補強し、敵の心を震え上がらせ上空からの死を解き放つ。
+BLUEPRINT_10.name;自然の憤怒
+BLUEPRINT_10.shortdescription;森は気長ではない。 あなたの敵、あなたのゴッドを倒そうとするものを自然の獲物とするための道を切り開け。
+CHARGE;<b>襲撃{0}</b>
+COMBAT;<b>戦闘</b>
+CONVOKE;<b>召集</b>
+CORRUPT;<b>汚染</b>
+CREATURE;クリーチャー
+CURRENCY_COIN;シャード
+CURRENCY_GEM;ジェム
+DAILY_QUEST_00_NAME;究極
+DAILY_QUEST_01_NAME;暴走
+DAILY_QUEST_02_NAME;定め
+DAILY_QUEST_03_NAME;裁き
+DAILY_QUEST_04_NAME;征圧
+DAILY_QUEST_05_NAME;津波
+DAILY_QUEST_06_NAME;繁栄
+DAILY_QUEST_07_NAME;焦熱
+DAILY_QUEST_08_NAME;砂嵐
+DAILY_QUEST_09_NAME;均衡
+DAILY_QUEST_11_NAME;奇跡
+DAILY_QUEST_12_NAME;創造
+DAILY_QUEST_13_NAME;聖なる試練
+DAILY_QUEST_14_NAME;決闘者
+DAILY_QUEST_15_NAME;百戦錬磨
+DAILY_QUEST_16_NAME;フレンドとのクエスト
+DAILY_QUEST_18_NAME;フレンドとのクエスト
+DAILY_QUEST_27_NAME;宝探し
+DAILY_QUEST_28_NAME;メールアドレスの確認
+DAILY_QUEST_30_NAME;パンドラの覚醒
+DAILY_QUEST_31_NAME;ドリンク片手に
+DAILY_QUEST_32_NAME;親善試合
+DAILY_QUEST_33_NAME;着せ替え
+DAILY_QUEST_34_NAME;自分でやろう
+DAILY_QUEST_35_NAME;優れた職人
+DAILY_QUEST_COMPLETE_ANY_ACT;ミッションかパズルパックをクリアする
+DAILY_QUEST_COMPLETE_2_WILD_ACTS;4つのワイルドミッションを完了する。
+DAILY_QUEST_COMPLETE_ANY_LANE;レーンを完成させよう
+DAILY_QUEST_COMPLETE_QUESTS;{0}ミッションを完遂しよう
+DAILY_QUEST_COMPLETE_QUESTS_OR_PUZZLES;{0}ミッションかパズルを完遂しよう
+DAILY_QUEST_COMPLETE_TRAINING_ACT;トレーニングパックを完遂しよう
+DAILY_QUEST_CRAFT_CARD;カードを一枚作成する
+DAILY_QUEST_CRAFT_GOLD_CARD;ミシックカードを一枚作成する
+DAILY_QUEST_CREATE_LANDS;{0}個の土地を作成する
+DAILY_QUEST_DEAL_DAMAGE_TO_ENEMIES;対戦相手に{0}ダメージを与える
+DAILY_QUEST_DEAL_DAMAGE_TO_GODS;ゴッドに{0}ダメージを与える
+DAILY_QUEST_DEFEAT_RUUNIN;ミッションでルーニンに勝つ
+DAILY_QUEST_DEFEAT_SEIFER;ミッションでサイファーに勝つ
+DAILY_QUEST_DEFEAT_SOLO_OPPONENTS;ミッションで{0}相手に勝つ
+DAILY_QUEST_DESTROY_CREATURES;{0}体のクリーチャーを破壊する
+DAILY_QUEST_FIND_AND_DEFEAT_RAPALA;ミッションでバトルして、ラパラーを倒す
+DAILY_QUEST_OPEN_BATTLE_CHEST;バトルチェストを開ける
+DAILY_QUEST_PERFECT;ダメージを受けずに勝利する
+DAILY_QUEST_PLAY_AGAINST_FRIEND;友達と一緒に対戦する
+DAILY_QUEST_PLAY_ARENA_RUN;パンドラを完遂する
+DAILY_QUEST_PLAY_BLUE_CARDS;青カードを{0}枚使用する
+DAILY_QUEST_PLAY_CREATURES;クリーチャーを{0}体使用する
+DAILY_QUEST_PLAY_EVENTS;イベントを{0}回使用する
+DAILY_QUEST_PLAY_GREEN_CARDS;緑カードを{0}回使用する
+DAILY_QUEST_PLAY_NEUTRAL_CARDS;中立カードを{0}回使用する
+DAILY_QUEST_PLAY_PVP_GAMES;カジュアル、ランク、マルチプレイヤーパンドラで{0}回プレイする
+DAILY_QUEST_PLAY_RED_CARDS;赤カードを{0}回使用する
+DAILY_QUEST_PLAY_WITH_SPECIAL_COSMETIC;特別なオーブかアバター使ってゲームをプレイする
+DAILY_QUEST_PLAY_YELLOW_CARDS;黄カードを{0}回使用する
+DAILY_QUEST_REACH_LEVEL_8;レベル８に到達する
+DAILY_QUEST_SOLVE_PUZZLES;ミッションで{0}回パズルを解く
+DAILY_QUEST_SPECTATE_FRIEND_WINNING_GAME;フレンドのゲーム戦勝利を目撃する
+DAILY_QUEST_VALIDATE_YOUR_EMAIL;あなたのEメールを確認してください
+DAILY_QUEST_WAIT_FOR_SEIFER;サイファーが戻るまでソロモードでバトルする
+DAILY_QUEST_WIN_DIVINE_CHALLENGES;ソロモードをすべてクリアする
+DAILY_QUEST_WIN_HIGHLANDER_GAMES;ハイランダーデッキで{0}勝する。（ハイランダーデッキとは、30枚の別種のカードを使ったデッキのことです。）
+DAILY_QUEST_WIN_PANDORA_GAMES;パンドラモードで{0}回勝利する
+DAILY_QUEST_WIN_PVP_GAMES;カジュアル、ランク、マルチプレイヤーパンドラで{0}回勝利する
+DASH;<b>進軍{0}</b>
+DEATHTOUCH;<b>接死</b>
+DIVINE;<b>神聖</b>
+EMOTE_FUGORO_LASTWORDS_NAME;勝利はいつもお客様のものです。
+EMOTE_FUGORO_OPENING_NAME;いらっしゃいませ！
+EMOTE_FUGORO_THINKING_NAME;どの選択肢も魅力的だな…
+EMOTE_KHALIM_LASTWORDS_NAME;よく戦った。 私は降伏する。
+EMOTE_KHALIM_OPENING_NAME;野生の風を受け入れろ。
+EMOTE_KHALIM_THINKING_NAME;方法はあるはずだ...
+EMOTE_KROG_LASTWORDS_NAME;行かないと。 お腹が空いたよ！
+EMOTE_KROG_OPENING_NAME;王の歓声が！
+EMOTE_KROG_THINKING_NAME;...おお！俺のターンだ！
+EMOTE_MAGDA_LASTWORDS_NAME;素晴らしい。降参よ。
+EMOTE_MAGDA_OPENING_NAME;私の宮殿へようこそ。
+EMOTE_MAGDA_THINKING_NAME;んん...時間をかけるとしましょう。
+EMOTE_RUUNIN_LASTWORDS_NAME;勝利を楽しめ。
+EMOTE_RUUNIN_OPENING_NAME;狩人はここに！
+EMOTE_RUUNIN_THINKING_NAME;どうするか...
+EVENT;イベント
+FAERIA;<sprite="icon_faeria_cost" index={0}>
+FLYING;<b>飛行</b>
+GIFT;<b>生誕</b>
+GREEN;<sprite="icon_green" index=0>
+HASTE;<b>速攻</b>
+ICON_COIN;<sprite="icon_coin" index=0><b>{0}</b>
+ICON_GEM;<sprite="icon_gem" index=0><b>{0}</b>
+IGNORE;無視
+JUMP;<b>跳躍</b>
+LANGUAGE_NAME_NATIVE;英語
+LAST_WORDS;<b>遺言</b>
+OPTIONS;<b>選択</b>
+PRODUCTION;<b>生産</b>
+PROTECTION;<b>加護</b>
+QUEST_LANE_ACT_AURORA_NAME;アーロラー
+QUEST_LANE_ACT_FUGORO_NAME;フーゴロ
+QUEST_LANE_ACT_HOAKA_NAME;ホアーカ
+QUEST_LANE_ACT_JALMYR_01_NAME;ジャルミー Ⅰ
+QUEST_LANE_ACT_JALMYR_02_NAME;ジャルミー Ⅱ
+QUEST_LANE_ACT_JALMYR_03_NAME;ジャルミー Ⅲ
+QUEST_LANE_ACT_JALMYR_04_NAME;ジャルミー Ⅳ
+QUEST_LANE_ACT_MAGDA_NAME;マグダー
+QUEST_LANE_ACT_RAPALA_NAME;ラパラー
+QUEST_LANE_ACT_SEIFER_NAME;サイファー
+QUEST_LANE_ACT_SHARRA_NAME;シャーラー
+QUEST_LANE_ACT_TRAINING_NAME;トレーニング
+RANGED_ATTACK;<b>遠隔攻撃</b>
+RED;<sprite="icon_red" index=0>
+SLAM;<b>強打</b>
+SUBTYPE_YAK;ヤク
+SUBTYPE_TRITON;トライトン
+SUBTYPE_BEAST;ビースト
+SUBTYPE_MECHA;メカ
+SUBTYPE_RAKOAN;ラコア族
+SWALLOW;<b>嚥下</b>
+STRUCTURE;ストラクチャー
+TAUNT;<b>警衛</b>
+TOOLTIP_AQUATIC;<color=white><b>水生:</b></color> 池と海だけ動ける。
+TOOLTIP_CHARGE;<color=white><b>襲撃 {0}:</b></color> 一直線に{0}スペースを動ける。
+TOOLTIP_COMBAT;<color=white><b>戦闘:</b> このクリーチャーが戦闘する時、効果が発動する。
+TOOLTIP_CONVOKE;<color=white><b>召集:</b>このクリーチャーの隣の土地にクリーチャーを召喚できる、相手の土地でも召喚できる。
+TOOLTIP_CORRUPT;<color=white><b>汚染：</b></color>このクリーチャーをプレイした次のターン以降、初めて相手の土地に侵入した時に効果を発動する。
+TOOLTIP_DARK_RITUAL;<color=white><b> 暗黒の儀式:</b> このカードをプレイする時、クリーチャーを1体生け贄に捧げられる。もし捧げたら、恩恵を受ける。
+TOOLTIP_DASH;<color=white><b>進軍{0}:</b></color>召喚した時、後に書いてある数字の分だけ移動できる。
+TOOLTIP_DEATHTOUCH;<color=white><b>接死:</b>戦闘でダメージを与えた敵クリーチャーを破壊する。
+TOOLTIP_DIVINE;<color=white><b>神聖:</b></color>イベントや能力の対象にならない。
+TOOLTIP_FLYING;<color=white><b>飛行:</b></color>海の上も動ける。
+TOOLTIP_GIFT;<color=white><b>生誕:</b></color>手札から召喚した時、効果が発動する。
+TOOLTIP_HASTE;<color=white><b>速攻:</b></color>召喚したターンに行動することができる。
+TOOLTIP_JUMP;<color=white><b>跳躍:</b></color>2スペース動くことができ、障害は飛び越えることができる。
+TOOLTIP_LAST_WORDS;<color=white><b>遺言:</b></color>破壊されたとき、効果が発動する。
+TOOLTIP_OPTIONS;<color=white><b>選択:</b></color>プレイした時、複数の効果のうち一つを選んで発動する。
+TOOLTIP_PRODUCTION;<color=white><b>生産:</b></color>あなたのターンのスタート時、効果が発動する。
+TOOLTIP_PROTECTION;<color=white><b>加護:</b></color>クリーチャーが受けるダメージを一度だけ無効化する。
+TOOLTIP_RANGED_ATTACK;<color=white><b>遠隔攻撃:</b></color> 一直線にいる敵にダメージを与えることができる。１ターンの間に攻撃と移動は同時にできない。
+TOOLTIP_SWALLOW;<color=white><b>嚥下:</b></color> これの中にクリーチャーを閉じ込める。これが破壊された場合、閉じ込めたクリーチャーを解放する。(他のクリーチャーを嚥下しているクリーチャーを嚥下することはできない。)
+TOOLTIP_TAUNT;<color=white><b>警衛:</b></color>隣接する敵クリーチャーはそのクリーチャーを攻撃する以外の行動ができない。
+TOOLTIP_WILD;<color=white><b>ワイルド：</b></color>土地条件が全てワイルドのカードは、どの色の土地でも召喚することができる。
+WILD;<b>ワイルド</b>
+YELLOW;<sprite="icon_yellow" index=0>
+NEWS_DEFENDING;ラッシュから防御する
+NEWS_FAERIA_TALES;フェアリア物語：1.0への道
+NEWS_OVERSKY;拡張版：オーバースカイが登場
+NEWS_PATCH_ANALYSIS;バランスパッチ分析
+NEWS_PATCH_NOTES;パッチノート
+NEWS_RECRUIT_FRIEND;友達を招待する
+NEWS_STEAM_NEWS;限定：フェアリアスチームパック
+NEWS_WAR_EFFORT;『ウォー・エフォート』に参加する
+NEWS_WELCOME;フェアリアアカデミー
+DAILY_QUEST_1400_NAME;伝承の頁
+DAILY_QUEST_PLAY_CARD_3_TIMES;{0}を3回プレイする。
+NEWS_B2P_RELEASE;新しい機能と通貨の変更点
+NEWS_FOE_DLC;拡張版 : フォールオブエバーライフ
+NEWS_PREMIUM_DLC;プレミアムアップグレード
+NWILD;<sprite="icon_wild_cost" index={0}>
+NEWS_THE_HUB;ハブ（公式コミュニティ）
+NEWS_RESURGENCE_CARDS;リサージェンスのカード
+NEWS_RESURGENCE;拡張版 : リサージェンス
+NYELLOW;<nobr><b>{0}</b><sprite="icon_yellow" index=0></nobr>
+NRED;<nobr><b>{0}</b><sprite="icon_red" index=0></nobr>
+NHUMAN;<nobr><b>{0}</b><sprite="icon_human" index=0></nobr>
+NGREEN;<nobr><b>{0}</b><sprite="icon_green" index=0></nobr>
+NBLUE;<nobr><b>{0}</b><sprite="icon_blue" index=0></nobr>
+MUTAGEN_SETUP_TETHRA_LAND_4;竜は5コスト、5ワイルドコストの<b>テスラ/b>を手札に持った状態でゲームを開始します。
+MUTAGEN_SETUP_OROSEI_LAND_4;竜は5コスト、5ワイルドコストの<b>オローセイ</b>を手札に持った状態でゲームを開始します。
+MUTAGEN_SETUP_MONO_COLOR_COSTS_MORE;一つしか色を持たないクリーチャーのコストは2増えます。
+MUTAGEN_SETUP_HARVEST_COSTS_2_LIFE;あなたのクリーチャーがフェアリアを収穫するたび、、そのクリーチャーには2ダメージが与えられます。
+MUTAGEN_SETUP_GARUDAN_LAND_4;竜は5コスト、5ワイルドコストの<b>ガルダン</b>を手札に持った状態でゲームを開始します。
+MUTAGEN_SETUP_FAERIA_LIMITED_TO_6;あなたのフェアリアは7以上になりません。
+MUTAGEN_SETUP_EVERYONE_IS_SHOZEN;竜のコントロールするクリーチャーは、あなたのクリーチャーを戦闘で破壊する時、代わりにそのクリーチャーを嚥下しコントロールを奪います。
+MUTAGEN_SETUP_EVENTS_COST_MORE;あなたのイベントのコストは2増えます。
+MUTAGEN_SETUP_ENEMIES_HAVE_DEATHTOUCH;竜のコントロールするクリーチャーは接死を持っています。
+MUTAGEN_SETUP_EMPOWER_ENEMIES_WHEN_YOUR_CREATURES_DIE;あなたのクリーチャーが破壊されるたび、竜のコントロールするすべてのクリーチャーに+1/+1が与えられます。
+MUTAGEN_SETUP_DRAW_TWICE_ON_PLAY;あなたがカードをプレイするたび、あなたはカードを2枚ドローします。
+MUTAGEN_SETUP_DAMAGE_ON_PLAYED_CREATURES;あなたがクリーチャーを召喚するたび、そのクリーチャーには2ダメージが与えられます。
+MUTAGEN_SETUP_CREATE_RANDOM_AI_LANDS;ゲーム開始時、竜は3つの草原を作成します。
+MUTAGEN_SETUP_CREATURES_COST_MORE;あなたのクリーチャーのコストは2増えます。
+MUTAGEN_SETUP_AZARAI_LAND_4;竜は5コスト、5ワイルドコストの<b>アザライ</b>を手札に持った状態でゲームを開始します。
+MUTAGEN_SETUP_ALL_CARDS_COST_AT_LEAST_5;あなたのデッキの中のコスト5以下のクリーチャーは、すべてコスト5になります。
+HUMAN;<sprite="icon_human" index=0>
+DRAGON_TYPE_TETHRA;テスラ
+DRAGON_TYPE_OROSEI;オローセイ
+DRAGON_TYPE_GARUDAN;ガルダン
+DRAGON_TYPE_CELESTE;チェレステ
+DRAGON_TYPE_AZARAI;アザライ
+TOOLTIP_DISCOVER;<color=white><b>発見：</b></color>3枚のカードの中から1枚を選び、それを手札に加える。
+DISCOVER;<b>発見</b>
+TOOLTIP_DRAGONS_LAIR_REWARD;この報酬をアンロックするために、{0}をあと{1}回打ち負かそう！
+NEWS_GAGANA_CARDS;ガガナーのカード
+NEWS_GAGANA;拡張版 : ガガナー
+GAMEPAD_RIGHT_BUTTONS_LEFT;<sprite="icon_gamepad_button_{gamepad_type}" index=9>
+GAMEPAD_RIGHT_BUTTONS_TOP;<sprite="icon_gamepad_button_{gamepad_type}" index=11>
+GAMEPAD_TOOLTIP_ACTIVATE;<color=white><b>有効化:</b></color> {GAMEPAD_ACTION_CONFIRM}.を押すとその効果が有効になります。
+MOUSE_TOOLTIP_ACTIVATE;<color=white><b>活性:</b></color> この構造をクリックして、効果を有効にします。
+NEWS_ADDITIONAL_CONTENT;追加のコンテンツ

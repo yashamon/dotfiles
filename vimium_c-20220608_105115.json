@@ -1,0 +1,33 @@
+{
+	"name": "Vimium C",
+	"@time": "6/8/2022, 10:51:15 AM",
+	"time": 1654703475001,
+	"environment": {
+		"extension": "1.98.0",
+		"platform": "win",
+		"chrome": "102"
+	},
+	"allBrowserUrls": true,
+	"grabBackFocus": true,
+	"keyMappings": [
+		"#!no-check",
+		"unmap f",
+		"map f enterFindMode",
+		"unmap t",
+		"map t LinkHints.activate",
+		"map b newTab",
+		"map <c-h> previousTab",
+		"map <c-l> nextTab",
+		"map J scrollFullPageDown",
+		"map K scrollFullPageUp",
+		""
+	],
+	"vimSync": true,
+	"vomnibarOptions": {
+		"actions": "",
+		"maxMatches": 10,
+		"queryInterval": 333,
+		"sizes": "77,3,44,0.8",
+		"styles": "mono-url, dark"
+	}
+}

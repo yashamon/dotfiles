@@ -1,0 +1,25 @@
+restorelink
+pdflatex Sgo.tex
+pdflatex --interaction-nonstop Sgo.auxSgo.tex
+pdflatex --interaction-nonstop Sgo.tex
+tectonic Sgo.tex
+lf
+tectonic Sgo.tex
+pdflatex test.tex
+latexmk test.tex
+lualatex sgo.tex
+pushgh
+lualatex sgo.tex
+lf
+nurc
+lfrc
+lf
+virc
+vrc
+nvim
+lualatex sgo.tex
+lf
+lualatex sgo.tex
+latex-dvi-ps-pdf sgo.pdf
+latex-dvi-ps-pdf sgo.tex
+lualatex sgo.tex

@@ -1,0 +1,11 @@
+diff --git a/config/nvimnew/init.lua b/config/nvimnew/init.lua
+index 432c87781..df72a8f76 100644
+--- a/config/nvimnew/init.lua
++++ b/config/nvimnew/init.lua
+@@ -738,5 +738,5 @@ function! ClearLatex()
+ endfunction
+ ]])
+ 
+- 
++-- ;alksdjfsadf 
+ 

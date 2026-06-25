@@ -1,0 +1,4 @@
+DockId;Keyword;IsStoreId;NewsUrl;ImageName;[STEAM,GOLD]
+1;NEWS_CROSSPLAY_TOURNAMENT;false;https://www.faeria.com/news/announcements/344-tournament;CrossPlayTournamentNews;
+2;NEWS_GAGANA;true;51514e39-5138-304e-c05a-504c44336d00;GaganaNews1;
+3;NEWS_PREMIUM_DLC;true;5a334e39-4356-3032-c050-444731473200;DlcPremium;

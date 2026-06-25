@@ -1,0 +1,20 @@
+# Name: BLUEPRINT_04
+# Order: 4
+# RequirementType: QUEST
+# RequirementParam: KHALIM_INTRO_02
+-------- 
+2 Village Elder
+2 Imperial Guard
+2 Rebel Slinger
+2 Syland Horsemaster
+2 Maceman
+2 Freedom Fighter
+2 Steamforge Enforcer
+2 Soul Pact
+2 Demon Wing
+2 Death Walker
+2 Deathwish Ghoul
+2 Oradrim Fanatic
+2 Shaytan Demon
+2 Shaytan Scavenger
+2 Oblivion Rider

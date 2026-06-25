@@ -1,0 +1,17 @@
+# Name: BLUEPRINT_07
+# Order: 7
+# RequirementType: LEVEL
+# RequirementParam: 14
+-------- 
+1 Khalim's Training
+2 Soul Drain
+2 Choking Sand
+2 Last Nightmare
+2 Flash Wind
+3 Shaytan Demon
+3 Oradrim Fanatic
+3 Oradrim Monk
+3 Zealous Crusader
+3 Khalim's Follower
+3 Khalim's Prayer
+3 Wind Soldier

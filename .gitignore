@@ -1,0 +1,10 @@
+**/build  
+**/buildback 
+**/.git
+**/bib/tags/ 
+tags
+*.log
+*.bbl
+*.aux
+*.git
+.tmp*/
