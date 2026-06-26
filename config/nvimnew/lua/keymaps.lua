@@ -236,6 +236,7 @@ require("fzf-lua").setup({
     },
   },
 })
+require("fzf-lua").register_ui_select()
 vim.cmd([[
 smap <silent><expr> <C-E> luasnip#choice_active() ? '<Plug>luasnip-next-choice' : '<C-E>'
 " Replace  default dictionary completion with fzf-based fuzzy completion
