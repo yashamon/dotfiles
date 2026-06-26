@@ -418,19 +418,26 @@ opts = {
       fzf_bin = "fzf",
 
       -- Minimal floating window overhead
-      winopts = {
-        height = 0.90,
-        width = 0.90,
-        row = 0.5,
-        col = 0.5,
-        border = "rounded",
-        preview = {
-          layout = "vertical",      -- vertical split
-          vertical = "down:50%",    -- preview on the right
-          flip_columns = 120,       -- switch to horizontal only if very narrow
+      keymap = {
+        fzf = {
+          ["alt-j"] = "down",
+          ["alt-k"] = "up",
         },
       },
 
+      winopts = {
+        on_create = function()
+          vim.keymap.set("t", "<M-j>", "<Down>", {
+            buffer = true,
+            silent = true,
+          })
+
+          vim.keymap.set("t", "<M-k>", "<Up>", {
+            buffer = true,
+            silent = true,
+          })
+        end,
+      },
       -- Disable icons (small but real speed boost)
       files = {
         fd_opts = [[--color=never --type f --hidden --follow --exclude .git]],
