@@ -533,7 +533,7 @@ vim.lsp.config("tinymist", {
 })
 
 -- Enable both servers at once
-vim.lsp.enable({ "lua_ls", "tinymist" })
+vim.lsp.enable({ "tinymist" })
 
 require('ufo').setup()
 -- Option 2: nvim lsp as LSP client
