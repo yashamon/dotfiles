@@ -521,6 +521,20 @@ vim.lsp.config("texlab", {
 })
 -- vim.lsp.enable({"texlab"})
 
+vim.lsp.config("tinymist", {
+  -- Add your on_attach callback just like you did for Lua
+  -- { LspAttach = on_attach },
+
+  -- (Optional) Add your Tinymist-specific settings here
+  settings = {
+    formatterMode = "typstyle",
+    exportPdf = "never",
+  }
+})
+
+-- Enable both servers at once
+vim.lsp.enable({ "lua_ls", "tinymist" })
+
 require('ufo').setup()
 -- Option 2: nvim lsp as LSP client
 -- Tell the server the capability of foldingRange,
