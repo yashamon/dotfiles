@@ -1,20 +1,13 @@
 diff --git a/snippets/tex.json b/snippets/tex.json
-index d368ec5ac..9740ef6a0 100644
+index 6293505e6..69f8a5fd0 100644
 --- a/snippets/tex.json
 +++ b/snippets/tex.json
-@@ -511,14 +511,7 @@
-     ],
-     "description": "Description"
-   },
--  "Math": {
--    "prefix": "m",
--    "body": [
--      "\\$$1\\$$0"
--    ],
--    "description": "Add a Math"
--  },
--
-+  
- "proposition": {
-     "prefix": ["latprp", "latproposition"],
-     "body": [
+@@ -1229,7 +1229,7 @@
+         "description": "Insert inline integral notation, (only in the cases when the environment is inline math environment)."
+     },
+     "Inline Fraction": {
+-        "prefix": ["latfrac"],
++        "prefix": ["latfrac", "frac"],
+         "body": ["\\frac{$1}{$2}$0"],
+         "description": ["Insert inline fraction notation, (only in the cases when the environment is inline math environment)."]
+     }, 
