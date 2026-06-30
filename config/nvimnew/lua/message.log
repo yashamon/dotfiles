@@ -1,25 +1,54 @@
+diff --git a/config/nvimnew/lua/message.log b/config/nvimnew/lua/message.log
+index f439f65b1..0ca6884d3 100644
+--- a/config/nvimnew/lua/message.log
++++ b/config/nvimnew/lua/message.log
+@@ -1,12 +1,25 @@
+-diff --git a/config/nvimnew/lua/keymaps.lua b/config/nvimnew/lua/keymaps.lua
+-index 21c0d0c3d..87cc6348a 100644
+---- a/config/nvimnew/lua/keymaps.lua
+-+++ b/config/nvimnew/lua/keymaps.lua
+-@@ -236,6 +236,7 @@ require("fzf-lua").setup({
+-     },
+-   },
++diff --git a/config/nvimnew/lua/settings.lua b/config/nvimnew/lua/settings.lua
++index 002ab9fd6..8b6b00624 100644
++--- a/config/nvimnew/lua/settings.lua
+++++ b/config/nvimnew/lua/settings.lua
++@@ -521,6 +521,20 @@ vim.lsp.config("texlab", {
+  })
+-+require("fzf-lua").register_ui_select()
+- vim.cmd([[
+- smap <silent><expr> <C-E> luasnip#choice_active() ? '<Plug>luasnip-next-choice' : '<C-E>'
+- " Replace  default dictionary completion with fzf-based fuzzy completion
++ -- vim.lsp.enable({"texlab"})
++ 
+++vim.lsp.config("tinymist", {
+++  -- Add your on_attach callback just like you did for Lua
+++  -- { LspAttach = on_attach },
+++
+++  -- (Optional) Add your Tinymist-specific settings here
+++  settings = {
+++    formatterMode = "typstyle",
+++    exportPdf = "never",
+++  }
+++})
+++
+++-- Enable both servers at once
+++vim.lsp.enable({ "lua_ls", "tinymist" })
+++
++ require('ufo').setup()
++ -- Option 2: nvim lsp as LSP client
++ -- Tell the server the capability of foldingRange,
 diff --git a/config/nvimnew/lua/settings.lua b/config/nvimnew/lua/settings.lua
-index 002ab9fd6..8b6b00624 100644
+index 8b6b00624..bf9ea93c4 100644
 --- a/config/nvimnew/lua/settings.lua
 +++ b/config/nvimnew/lua/settings.lua
-@@ -521,6 +521,20 @@ vim.lsp.config("texlab", {
+@@ -533,7 +533,7 @@ vim.lsp.config("tinymist", {
  })
- -- vim.lsp.enable({"texlab"})
  
-+vim.lsp.config("tinymist", {
-+  -- Add your on_attach callback just like you did for Lua
-+  -- { LspAttach = on_attach },
-+
-+  -- (Optional) Add your Tinymist-specific settings here
-+  settings = {
-+    formatterMode = "typstyle",
-+    exportPdf = "never",
-+  }
-+})
-+
-+-- Enable both servers at once
-+vim.lsp.enable({ "lua_ls", "tinymist" })
-+
+ -- Enable both servers at once
+-vim.lsp.enable({ "lua_ls", "tinymist" })
++vim.lsp.enable({ "tinymist" })
+ 
  require('ufo').setup()
  -- Option 2: nvim lsp as LSP client
- -- Tell the server the capability of foldingRange,
