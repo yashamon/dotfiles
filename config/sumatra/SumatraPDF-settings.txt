@@ -152,7 +152,7 @@ Themes [
 
 # You're not expected to change those manually
 UiLanguage = en
-WindowState = 3
+WindowState = 2
 WindowPos = 0 0 1920 1920
 FileStates [
 	[
@@ -267,7 +267,7 @@ FileStates [
 SessionData [
 ]
 TimeOfLastUpdateCheck = 0 0
-OpenCountWeek = 807
+OpenCountWeek = 808
 
 # Settings below are not recognized by the current version
 TreeFontWeightOffset = 0

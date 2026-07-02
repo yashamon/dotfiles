@@ -1,385 +1,649 @@
-diff --git a/config/nvimnew/init.lua b/config/nvimnew/init.lua
-index 0e7110617..59bf703ae 100644
---- a/config/nvimnew/init.lua
-+++ b/config/nvimnew/init.lua
-@@ -173,7 +173,7 @@ opts = {
-       list = {
-         selection = {
-           preselect = false,
--          auto_insert = false,
-+          auto_insert = true,
-         },
-       },
-       ghost_text = { enabled = false },
-diff --git a/config/nvimnew/lua/message.log b/config/nvimnew/lua/message.log
-index 0ca6884d3..a431e5754 100644
---- a/config/nvimnew/lua/message.log
-+++ b/config/nvimnew/lua/message.log
-@@ -1,25 +1,54 @@
-+diff --git a/config/nvimnew/lua/message.log b/config/nvimnew/lua/message.log
-+index f439f65b1..0ca6884d3 100644
-+--- a/config/nvimnew/lua/message.log
-++++ b/config/nvimnew/lua/message.log
-+@@ -1,12 +1,25 @@
-+-diff --git a/config/nvimnew/lua/keymaps.lua b/config/nvimnew/lua/keymaps.lua
-+-index 21c0d0c3d..87cc6348a 100644
-+---- a/config/nvimnew/lua/keymaps.lua
-+-+++ b/config/nvimnew/lua/keymaps.lua
-+-@@ -236,6 +236,7 @@ require("fzf-lua").setup({
-+-     },
-+-   },
-++diff --git a/config/nvimnew/lua/settings.lua b/config/nvimnew/lua/settings.lua
-++index 002ab9fd6..8b6b00624 100644
-++--- a/config/nvimnew/lua/settings.lua
-+++++ b/config/nvimnew/lua/settings.lua
-++@@ -521,6 +521,20 @@ vim.lsp.config("texlab", {
-+  })
-+-+require("fzf-lua").register_ui_select()
-+- vim.cmd([[
-+- smap <silent><expr> <C-E> luasnip#choice_active() ? '<Plug>luasnip-next-choice' : '<C-E>'
-+- " Replace  default dictionary completion with fzf-based fuzzy completion
-++ -- vim.lsp.enable({"texlab"})
-++ 
-+++vim.lsp.config("tinymist", {
-+++  -- Add your on_attach callback just like you did for Lua
-+++  -- { LspAttach = on_attach },
-+++
-+++  -- (Optional) Add your Tinymist-specific settings here
-+++  settings = {
-+++    formatterMode = "typstyle",
-+++    exportPdf = "never",
-+++  }
-+++})
-+++
-+++-- Enable both servers at once
-+++vim.lsp.enable({ "lua_ls", "tinymist" })
-+++
-++ require('ufo').setup()
-++ -- Option 2: nvim lsp as LSP client
-++ -- Tell the server the capability of foldingRange,
- diff --git a/config/nvimnew/lua/settings.lua b/config/nvimnew/lua/settings.lua
--index 002ab9fd6..8b6b00624 100644
-+index 8b6b00624..bf9ea93c4 100644
- --- a/config/nvimnew/lua/settings.lua
- +++ b/config/nvimnew/lua/settings.lua
--@@ -521,6 +521,20 @@ vim.lsp.config("texlab", {
-+@@ -533,7 +533,7 @@ vim.lsp.config("tinymist", {
-  })
-- -- vim.lsp.enable({"texlab"})
-  
--+vim.lsp.config("tinymist", {
--+  -- Add your on_attach callback just like you did for Lua
--+  -- { LspAttach = on_attach },
--+
--+  -- (Optional) Add your Tinymist-specific settings here
--+  settings = {
--+    formatterMode = "typstyle",
--+    exportPdf = "never",
--+  }
--+})
--+
--+-- Enable both servers at once
--+vim.lsp.enable({ "lua_ls", "tinymist" })
--+
-+ -- Enable both servers at once
-+-vim.lsp.enable({ "lua_ls", "tinymist" })
-++vim.lsp.enable({ "tinymist" })
-+ 
-  require('ufo').setup()
-  -- Option 2: nvim lsp as LSP client
-- -- Tell the server the capability of foldingRange,
 diff --git a/config/nvimnew/message.log b/config/nvimnew/message.log
-index 0e0753111..b8f0ac563 100644
+index b8f0ac563..0bfec7259 100644
 --- a/config/nvimnew/message.log
 +++ b/config/nvimnew/message.log
-@@ -1,11 +1,271 @@
+@@ -1,271 +1,385 @@
  diff --git a/config/nvimnew/init.lua b/config/nvimnew/init.lua
--index 432c87781..df72a8f76 100644
-+index 8e2454908..0e7110617 100644
+-index 8e2454908..0e7110617 100644
++index 0e7110617..59bf703ae 100644
  --- a/config/nvimnew/init.lua
  +++ b/config/nvimnew/init.lua
--@@ -738,5 +738,5 @@ function! ClearLatex()
-- endfunction
-- ]])
-+@@ -418,19 +418,26 @@ opts = {
-+       fzf_bin = "fzf",
-  
+-@@ -418,19 +418,26 @@ opts = {
+-       fzf_bin = "fzf",
+- 
+-       -- Minimal floating window overhead
+--      winopts = {
+--        height = 0.90,
+--        width = 0.90,
+--        row = 0.5,
+--        col = 0.5,
+--        border = "rounded",
+--        preview = {
+--          layout = "vertical",      -- vertical split
+--          vertical = "down:50%",    -- preview on the right
+--          flip_columns = 120,       -- switch to horizontal only if very narrow
+-+      keymap = {
+-+        fzf = {
+-+          ["alt-j"] = "down",
+-+          ["alt-k"] = "up",
++@@ -173,7 +173,7 @@ opts = {
++       list = {
++         selection = {
++           preselect = false,
++-          auto_insert = false,
+++          auto_insert = true,
+          },
+        },
+- 
+-+      winopts = {
+-+        on_create = function()
+-+          vim.keymap.set("t", "<M-j>", "<Down>", {
+-+            buffer = true,
+-+            silent = true,
+-+          })
+-+
+-+          vim.keymap.set("t", "<M-k>", "<Up>", {
+-+            buffer = true,
+-+            silent = true,
+-+          })
+-+        end,
+-+      },
+-       -- Disable icons (small but real speed boost)
+-       files = {
+-         fd_opts = [[--color=never --type f --hidden --follow --exclude .git]],
++       ghost_text = { enabled = false },
+ diff --git a/config/nvimnew/lua/message.log b/config/nvimnew/lua/message.log
+-index 7c61eee1d..f439f65b1 100644
++index 0ca6884d3..a431e5754 100644
+ --- a/config/nvimnew/lua/message.log
+ +++ b/config/nvimnew/lua/message.log
+-@@ -1,213 +1,12 @@
+--diff --git a/config/nvimnew/lua/sentence_fzf.lua b/config/nvimnew/lua/sentence_fzf.lua
+--index 32929b75f..fef95ec61 100644
+----- a/config/nvimnew/lua/sentence_fzf.lua
+--+++ b/config/nvimnew/lua/sentence_fzf.lua
+--@@ -1,8 +1,5 @@
+-- local M = {}
 -- 
--+-- ;alksdjfsadf 
-+       -- Minimal floating window overhead
-+-      winopts = {
-+-        height = 0.90,
-+-        width = 0.90,
-+-        row = 0.5,
-+-        col = 0.5,
-+-        border = "rounded",
-+-        preview = {
-+-          layout = "vertical",      -- vertical split
-+-          vertical = "down:50%",    -- preview on the right
-+-          flip_columns = 120,       -- switch to horizontal only if very narrow
-++      keymap = {
-++        fzf = {
-++          ["alt-j"] = "down",
-++          ["alt-k"] = "up",
-+         },
-+       },
-  
-++      winopts = {
-++        on_create = function()
-++          vim.keymap.set("t", "<M-j>", "<Down>", {
-++            buffer = true,
-++            silent = true,
-++          })
-++
-++          vim.keymap.set("t", "<M-k>", "<Up>", {
-++            buffer = true,
-++            silent = true,
-++          })
-++        end,
-++      },
-+       -- Disable icons (small but real speed boost)
-+       files = {
-+         fd_opts = [[--color=never --type f --hidden --follow --exclude .git]],
-+diff --git a/config/nvimnew/lua/message.log b/config/nvimnew/lua/message.log
-+index 7c61eee1d..f439f65b1 100644
-+--- a/config/nvimnew/lua/message.log
-++++ b/config/nvimnew/lua/message.log
-+@@ -1,213 +1,12 @@
-+-diff --git a/config/nvimnew/lua/sentence_fzf.lua b/config/nvimnew/lua/sentence_fzf.lua
-+-index 32929b75f..fef95ec61 100644
-+---- a/config/nvimnew/lua/sentence_fzf.lua
-+-+++ b/config/nvimnew/lua/sentence_fzf.lua
-+-@@ -1,8 +1,5 @@
-+- local M = {}
-+- 
-+--local function trim(s)
-+--  return (s:gsub("^%s+", ""):gsub("%s+$", ""))
-+--end
-+- local function trim(s)
-+-   return (s:gsub("^%s+", ""):gsub("%s+$", ""))
-+- end
-+-@@ -61,9 +58,7 @@ local function clean_display_text(s)
-+-     end)
-+-   end
-+- 
-+--  -- Remove remaining LaTeX commands:
-+--  -- \mathcal, \alpha, \leq, \to, \subset, etc.
-+--  -- Remove some noisy math punctuation/operators.
-+-+  -- Remove remaining noisy math punctuation/operators.
-+-   s = s:gsub("[=<>|]", " ")
-+-   s = s:gsub("[%[%]%(%)]+", " ")
-+- 
-+-@@ -79,7 +74,6 @@ local function find_sentence_end(line, start_pos)
-+-       local next_char = line:sub(i + 1, i + 1)
-+- 
-+-       -- Match a period followed by whitespace or end of line.
-+--      -- This roughly preserves the behavior of your old ". " splitting.
-+-       if next_char == "" or next_char:match("%s") then
-+-         return i
-+-       end
-+-@@ -99,7 +93,7 @@ local function jump_to_entry(entry)
-+-   end
-+- 
-+-   local line_count = vim.api.nvim_buf_line_count(0)
-+--  local lnum = math.max(1, math.min(entry.lnum, line_count))
-+-+  local lnum = math.max(1, math.min(entry.lnum or 1, line_count))
-+- 
-+-   vim.api.nvim_win_set_cursor(0, { lnum, 0 })
-+-   vim.cmd("normal! zvzz")
-+-@@ -139,12 +133,13 @@ local function collect_sentences()
-+- 
-+-     if text ~= "" then
-+-       table.insert(entries, {
-+-+        kind = "sentence",
-+-         bufnr = bufnr,
-+-         filename = filename,
-+-         shortname = shortname,
-+-         lnum = start_lnum,
-+-         text = text,
-+--        display = shortname .. ":" .. start_lnum .. ": " .. text,
-+-+        display = string.format("[SENT] %s:%d: %s", shortname, start_lnum, text),
-+-       })
-+-     end
-+- 
-+-@@ -175,11 +170,133 @@ local function collect_sentences()
-+-   return entries
-+- end
-+- 
-+-+local function parse_ctags_line(line, fallback_filename)
-+-+  -- Typical ctags format:
-+-+  -- name<TAB>file<TAB>excmd;"<TAB>kind<TAB>line:123<TAB>...
-+-+  local fields = vim.split(line, "\t", { plain = true })
-+-+
-+-+  local name = fields[1]
-+-+  local file = fields[2] or fallback_filename
-+-+  local kind = fields[4] or "tag"
-+-+  local lnum = nil
-+-+
-+-+  for _, field in ipairs(fields) do
-+-+    local n = field:match("^line:(%d+)$")
-+-+    if n then
-+-+      lnum = tonumber(n)
-+-+      break
-+-+    end
-+-+  end
-+-+
-+-+  -- Fallback for some ctags variants.
-+-+  if not lnum then
-+-+    for _, field in ipairs(fields) do
-+-+      local n = field:match("(%d+)")
-+-+      if n and field:match("^line") then
-+-+        lnum = tonumber(n)
-+-+        break
-+-+      end
-+-+    end
-+-+  end
-+-+
-+-+  if not name or name == "" or not lnum then
-+-+    return nil
-+-+  end
-+-+
-+-+  return {
-+-+    name = name,
-+-+    file = file,
-+-+    kind = kind,
-+-+    lnum = lnum,
-+-+  }
-+-+end
-+-+
-+-+local function collect_btags()
-+-+  local bufnr = vim.api.nvim_get_current_buf()
-+-+  local filename = vim.api.nvim_buf_get_name(bufnr)
-+-+
-+-+  if filename == "" then
-+-+    return {}
-+-+  end
-+-+
-+-+  if vim.fn.executable("ctags") == 0 then
-+-+    return {}
-+-+  end
-+-+
-+-+  local shortname = vim.fn.fnamemodify(filename, ":t")
-+-+
-+-+  -- Ask ctags for stdout output, unsorted, with line numbers.
-+-+  --
-+-+  -- This mirrors the idea of fzf-lua btags: buffer-local tags,
-+-+  -- dynamically generated. fzf-lua's btags picker has ctags_autogen=true
-+-+  -- by default, but here we need the tags mixed into our own custom picker.
-+-+  local cmd = {
-+-+    "ctags",
-+-+    "-f",
-+-+    "-",
-+-+    "--sort=no",
-+-+    "--fields=+n",
-+-+    filename,
-+-+  }
-+-+
-+-+  local raw = vim.fn.systemlist(cmd)
-+-+
-+-+  if vim.v.shell_error ~= 0 then
-+-+    return {}
-+-+  end
-+-+
-+-+  local entries = {}
-+-+
-+-+  for _, line in ipairs(raw) do
-+-+    if line ~= "" and not line:match("^%!_TAG_") then
-+-+      local tag = parse_ctags_line(line, filename)
-+-+
-+-+      if tag then
-+-+        local display = string.format(
-+-+          "[TAG]  %s:%d: %s  <%s>",
-+-+          shortname,
-+-+          tag.lnum,
-+-+          tag.name,
-+-+          tag.kind
-+-+        )
-+-+
-+-+        table.insert(entries, {
-+-+          kind = "tag",
-+-+          bufnr = bufnr,
-+-+          filename = filename,
-+-+          shortname = shortname,
-+-+          lnum = tag.lnum,
-+-+          text = tag.name,
-+-+          tag_kind = tag.kind,
-+-+          display = display,
-+-+        })
-+-+      end
-+-+    end
-+-+  end
-+-+
-+-+  return entries
-+-+end
-+-+
-+-+local function collect_entries()
-+-+  local entries = {}
-+-+
-+-+  -- Put tags first, because they are navigational anchors.
-+-+  for _, entry in ipairs(collect_btags()) do
-+-+    table.insert(entries, entry)
-+-+  end
-+-+
-+-+  for _, entry in ipairs(collect_sentences()) do
-+-+    table.insert(entries, entry)
-+-+  end
-+-+
-+-+  return entries
-+-+end
-+-+
-+- function M.pick_sentence()
-+--  local entries = collect_sentences()
-+-+  local entries = collect_entries()
-+- 
-+-   if #entries == 0 then
-+--    vim.notify("No sentences found", vim.log.levels.INFO)
-+-+    vim.notify("No sentences or buffer tags found", vim.log.levels.INFO)
-+-     return
-+-   end
-+- 
-+-@@ -192,7 +309,7 @@ function M.pick_sentence()
-+-   end
-+- 
-+-   require("fzf-lua").fzf_exec(display_lines, {
-+--    prompt = "Sentences> ",
-+-+    prompt = "Sentences/Tags> ",
-+-     previewer = false,
-+- 
-+-     fzf_opts = {
-+-@@ -215,7 +332,11 @@ function M.pick_sentence()
-+-   })
-+- end
-+- 
-+-+-- Clearer new name.
-+-+M.pick_sentence_or_tag = M.pick_sentence
-+-+
-+- -- Optional compatibility with your old direct style:
-+- _G.WriteSentence = M.pick_sentence
-+-+_G.PickSentenceOrTag = M.pick_sentence_or_tag
-+- 
-+- return M
-++diff --git a/config/nvimnew/lua/keymaps.lua b/config/nvimnew/lua/keymaps.lua
-++index 21c0d0c3d..87cc6348a 100644
-++--- a/config/nvimnew/lua/keymaps.lua
-+++++ b/config/nvimnew/lua/keymaps.lua
-++@@ -236,6 +236,7 @@ require("fzf-lua").setup({
-++     },
-++   },
-++ })
-+++require("fzf-lua").register_ui_select()
-++ vim.cmd([[
-++ smap <silent><expr> <C-E> luasnip#choice_active() ? '<Plug>luasnip-next-choice' : '<C-E>'
-++ " Replace  default dictionary completion with fzf-based fuzzy completion
-diff --git a/config/nvimnew/spell/en.utf-8.add b/config/nvimnew/spell/en.utf-8.add
-index cd643914e..8a4e8a3a5 100644
---- a/config/nvimnew/spell/en.utf-8.add
-+++ b/config/nvimnew/spell/en.utf-8.add
-@@ -1040,3 +1040,5 @@ Anosov
- nonvanishing
- nonpositivity
- multiplicativity
-+monodromy
-+hyperbolization
-diff --git a/config/nvimnew/spell/en.utf-8.add.spl b/config/nvimnew/spell/en.utf-8.add.spl
-index 480f90fd8..c5467f8f6 100644
-Binary files a/config/nvimnew/spell/en.utf-8.add.spl and b/config/nvimnew/spell/en.utf-8.add.spl differ
+---local function trim(s)
+---  return (s:gsub("^%s+", ""):gsub("%s+$", ""))
+---end
+-- local function trim(s)
+--   return (s:gsub("^%s+", ""):gsub("%s+$", ""))
+-- end
+--@@ -61,9 +58,7 @@ local function clean_display_text(s)
+--     end)
+--   end
+-- 
+---  -- Remove remaining LaTeX commands:
+---  -- \mathcal, \alpha, \leq, \to, \subset, etc.
+---  -- Remove some noisy math punctuation/operators.
+--+  -- Remove remaining noisy math punctuation/operators.
+--   s = s:gsub("[=<>|]", " ")
+--   s = s:gsub("[%[%]%(%)]+", " ")
+-- 
+--@@ -79,7 +74,6 @@ local function find_sentence_end(line, start_pos)
+--       local next_char = line:sub(i + 1, i + 1)
+-- 
+--       -- Match a period followed by whitespace or end of line.
+---      -- This roughly preserves the behavior of your old ". " splitting.
+--       if next_char == "" or next_char:match("%s") then
+--         return i
+--       end
+--@@ -99,7 +93,7 @@ local function jump_to_entry(entry)
+--   end
+-- 
+--   local line_count = vim.api.nvim_buf_line_count(0)
+---  local lnum = math.max(1, math.min(entry.lnum, line_count))
+--+  local lnum = math.max(1, math.min(entry.lnum or 1, line_count))
+-- 
+--   vim.api.nvim_win_set_cursor(0, { lnum, 0 })
+--   vim.cmd("normal! zvzz")
+--@@ -139,12 +133,13 @@ local function collect_sentences()
+-- 
+--     if text ~= "" then
+--       table.insert(entries, {
+--+        kind = "sentence",
+--         bufnr = bufnr,
+--         filename = filename,
+--         shortname = shortname,
+--         lnum = start_lnum,
+--         text = text,
+---        display = shortname .. ":" .. start_lnum .. ": " .. text,
+--+        display = string.format("[SENT] %s:%d: %s", shortname, start_lnum, text),
+--       })
+--     end
+-- 
+--@@ -175,11 +170,133 @@ local function collect_sentences()
+--   return entries
+-- end
+-- 
+--+local function parse_ctags_line(line, fallback_filename)
+--+  -- Typical ctags format:
+--+  -- name<TAB>file<TAB>excmd;"<TAB>kind<TAB>line:123<TAB>...
+--+  local fields = vim.split(line, "\t", { plain = true })
++@@ -1,25 +1,54 @@
+++diff --git a/config/nvimnew/lua/message.log b/config/nvimnew/lua/message.log
+++index f439f65b1..0ca6884d3 100644
+++--- a/config/nvimnew/lua/message.log
++++++ b/config/nvimnew/lua/message.log
+++@@ -1,12 +1,25 @@
+++-diff --git a/config/nvimnew/lua/keymaps.lua b/config/nvimnew/lua/keymaps.lua
+++-index 21c0d0c3d..87cc6348a 100644
+++---- a/config/nvimnew/lua/keymaps.lua
+++-+++ b/config/nvimnew/lua/keymaps.lua
+++-@@ -236,6 +236,7 @@ require("fzf-lua").setup({
+++-     },
+++-   },
++++diff --git a/config/nvimnew/lua/settings.lua b/config/nvimnew/lua/settings.lua
++++index 002ab9fd6..8b6b00624 100644
++++--- a/config/nvimnew/lua/settings.lua
+++++++ b/config/nvimnew/lua/settings.lua
++++@@ -521,6 +521,20 @@ vim.lsp.config("texlab", {
+++  })
+++-+require("fzf-lua").register_ui_select()
+++- vim.cmd([[
+++- smap <silent><expr> <C-E> luasnip#choice_active() ? '<Plug>luasnip-next-choice' : '<C-E>'
+++- " Replace  default dictionary completion with fzf-based fuzzy completion
++++ -- vim.lsp.enable({"texlab"})
++++ 
+++++vim.lsp.config("tinymist", {
+++++  -- Add your on_attach callback just like you did for Lua
+++++  -- { LspAttach = on_attach },
+++++
+++++  -- (Optional) Add your Tinymist-specific settings here
+++++  settings = {
+++++    formatterMode = "typstyle",
+++++    exportPdf = "never",
+++++  }
+++++})
+++++
+++++-- Enable both servers at once
+++++vim.lsp.enable({ "lua_ls", "tinymist" })
+++++
++++ require('ufo').setup()
++++ -- Option 2: nvim lsp as LSP client
++++ -- Tell the server the capability of foldingRange,
++ diff --git a/config/nvimnew/lua/settings.lua b/config/nvimnew/lua/settings.lua
++-index 002ab9fd6..8b6b00624 100644
+++index 8b6b00624..bf9ea93c4 100644
++ --- a/config/nvimnew/lua/settings.lua
++ +++ b/config/nvimnew/lua/settings.lua
++-@@ -521,6 +521,20 @@ vim.lsp.config("texlab", {
+++@@ -533,7 +533,7 @@ vim.lsp.config("tinymist", {
++  })
++- -- vim.lsp.enable({"texlab"})
++  
++-+vim.lsp.config("tinymist", {
++-+  -- Add your on_attach callback just like you did for Lua
++-+  -- { LspAttach = on_attach },
+ -+
+--+  local name = fields[1]
+--+  local file = fields[2] or fallback_filename
+--+  local kind = fields[4] or "tag"
+--+  local lnum = nil
+--+
+--+  for _, field in ipairs(fields) do
+--+    local n = field:match("^line:(%d+)$")
+--+    if n then
+--+      lnum = tonumber(n)
+--+      break
+--+    end
+--+  end
+--+
+--+  -- Fallback for some ctags variants.
+--+  if not lnum then
+--+    for _, field in ipairs(fields) do
+--+      local n = field:match("(%d+)")
+--+      if n and field:match("^line") then
+--+        lnum = tonumber(n)
+--+        break
+--+      end
+--+    end
+--+  end
+--+
+--+  if not name or name == "" or not lnum then
+--+    return nil
+--+  end
+--+
+--+  return {
+--+    name = name,
+--+    file = file,
+--+    kind = kind,
+--+    lnum = lnum,
++-+  -- (Optional) Add your Tinymist-specific settings here
++-+  settings = {
++-+    formatterMode = "typstyle",
++-+    exportPdf = "never",
+ -+  }
+--+end
+--+
+--+local function collect_btags()
+--+  local bufnr = vim.api.nvim_get_current_buf()
+--+  local filename = vim.api.nvim_buf_get_name(bufnr)
+--+
+--+  if filename == "" then
+--+    return {}
+--+  end
+--+
+--+  if vim.fn.executable("ctags") == 0 then
+--+    return {}
+--+  end
+--+
+--+  local shortname = vim.fn.fnamemodify(filename, ":t")
+--+
+--+  -- Ask ctags for stdout output, unsorted, with line numbers.
+--+  --
+--+  -- This mirrors the idea of fzf-lua btags: buffer-local tags,
+--+  -- dynamically generated. fzf-lua's btags picker has ctags_autogen=true
+--+  -- by default, but here we need the tags mixed into our own custom picker.
+--+  local cmd = {
+--+    "ctags",
+--+    "-f",
+--+    "-",
+--+    "--sort=no",
+--+    "--fields=+n",
+--+    filename,
+--+  }
+--+
+--+  local raw = vim.fn.systemlist(cmd)
+--+
+--+  if vim.v.shell_error ~= 0 then
+--+    return {}
+--+  end
+--+
+--+  local entries = {}
+--+
+--+  for _, line in ipairs(raw) do
+--+    if line ~= "" and not line:match("^%!_TAG_") then
+--+      local tag = parse_ctags_line(line, filename)
+--+
+--+      if tag then
+--+        local display = string.format(
+--+          "[TAG]  %s:%d: %s  <%s>",
+--+          shortname,
+--+          tag.lnum,
+--+          tag.name,
+--+          tag.kind
+--+        )
+--+
+--+        table.insert(entries, {
+--+          kind = "tag",
+--+          bufnr = bufnr,
+--+          filename = filename,
+--+          shortname = shortname,
+--+          lnum = tag.lnum,
+--+          text = tag.name,
+--+          tag_kind = tag.kind,
+--+          display = display,
+--+        })
+--+      end
+--+    end
+--+  end
+--+
+--+  return entries
+--+end
+--+
+--+local function collect_entries()
+--+  local entries = {}
+--+
+--+  -- Put tags first, because they are navigational anchors.
+--+  for _, entry in ipairs(collect_btags()) do
+--+    table.insert(entries, entry)
+--+  end
+--+
+--+  for _, entry in ipairs(collect_sentences()) do
+--+    table.insert(entries, entry)
+--+  end
+--+
+--+  return entries
+--+end
++-+})
+ -+
+-- function M.pick_sentence()
+---  local entries = collect_sentences()
+--+  local entries = collect_entries()
+-- 
+--   if #entries == 0 then
+---    vim.notify("No sentences found", vim.log.levels.INFO)
+--+    vim.notify("No sentences or buffer tags found", vim.log.levels.INFO)
+--     return
+--   end
+-- 
+--@@ -192,7 +309,7 @@ function M.pick_sentence()
+--   end
+-- 
+--   require("fzf-lua").fzf_exec(display_lines, {
+---    prompt = "Sentences> ",
+--+    prompt = "Sentences/Tags> ",
+--     previewer = false,
+-- 
+--     fzf_opts = {
+--@@ -215,7 +332,11 @@ function M.pick_sentence()
+--   })
+-- end
+-- 
+--+-- Clearer new name.
+--+M.pick_sentence_or_tag = M.pick_sentence
++-+-- Enable both servers at once
++-+vim.lsp.enable({ "lua_ls", "tinymist" })
+ -+
+-- -- Optional compatibility with your old direct style:
+-- _G.WriteSentence = M.pick_sentence
+--+_G.PickSentenceOrTag = M.pick_sentence_or_tag
+-- 
+-- return M
+-+diff --git a/config/nvimnew/lua/keymaps.lua b/config/nvimnew/lua/keymaps.lua
+-+index 21c0d0c3d..87cc6348a 100644
+-+--- a/config/nvimnew/lua/keymaps.lua
+-++++ b/config/nvimnew/lua/keymaps.lua
+-+@@ -236,6 +236,7 @@ require("fzf-lua").setup({
+-+     },
+-+   },
+-+ })
+-++require("fzf-lua").register_ui_select()
+-+ vim.cmd([[
+-+ smap <silent><expr> <C-E> luasnip#choice_active() ? '<Plug>luasnip-next-choice' : '<C-E>'
+-+ " Replace  default dictionary completion with fzf-based fuzzy completion
+++ -- Enable both servers at once
+++-vim.lsp.enable({ "lua_ls", "tinymist" })
++++vim.lsp.enable({ "tinymist" })
+++ 
++  require('ufo').setup()
++  -- Option 2: nvim lsp as LSP client
++- -- Tell the server the capability of foldingRange,
++diff --git a/config/nvimnew/message.log b/config/nvimnew/message.log
++index 0e0753111..b8f0ac563 100644
++--- a/config/nvimnew/message.log
+++++ b/config/nvimnew/message.log
++@@ -1,11 +1,271 @@
++ diff --git a/config/nvimnew/init.lua b/config/nvimnew/init.lua
++-index 432c87781..df72a8f76 100644
+++index 8e2454908..0e7110617 100644
++ --- a/config/nvimnew/init.lua
++ +++ b/config/nvimnew/init.lua
++-@@ -738,5 +738,5 @@ function! ClearLatex()
++- endfunction
++- ]])
+++@@ -418,19 +418,26 @@ opts = {
+++       fzf_bin = "fzf",
++  
++-- 
++-+-- ;alksdjfsadf 
+++       -- Minimal floating window overhead
+++-      winopts = {
+++-        height = 0.90,
+++-        width = 0.90,
+++-        row = 0.5,
+++-        col = 0.5,
+++-        border = "rounded",
+++-        preview = {
+++-          layout = "vertical",      -- vertical split
+++-          vertical = "down:50%",    -- preview on the right
+++-          flip_columns = 120,       -- switch to horizontal only if very narrow
++++      keymap = {
++++        fzf = {
++++          ["alt-j"] = "down",
++++          ["alt-k"] = "up",
+++         },
+++       },
++  
++++      winopts = {
++++        on_create = function()
++++          vim.keymap.set("t", "<M-j>", "<Down>", {
++++            buffer = true,
++++            silent = true,
++++          })
++++
++++          vim.keymap.set("t", "<M-k>", "<Up>", {
++++            buffer = true,
++++            silent = true,
++++          })
++++        end,
++++      },
+++       -- Disable icons (small but real speed boost)
+++       files = {
+++         fd_opts = [[--color=never --type f --hidden --follow --exclude .git]],
+++diff --git a/config/nvimnew/lua/message.log b/config/nvimnew/lua/message.log
+++index 7c61eee1d..f439f65b1 100644
+++--- a/config/nvimnew/lua/message.log
++++++ b/config/nvimnew/lua/message.log
+++@@ -1,213 +1,12 @@
+++-diff --git a/config/nvimnew/lua/sentence_fzf.lua b/config/nvimnew/lua/sentence_fzf.lua
+++-index 32929b75f..fef95ec61 100644
+++---- a/config/nvimnew/lua/sentence_fzf.lua
+++-+++ b/config/nvimnew/lua/sentence_fzf.lua
+++-@@ -1,8 +1,5 @@
+++- local M = {}
+++- 
+++--local function trim(s)
+++--  return (s:gsub("^%s+", ""):gsub("%s+$", ""))
+++--end
+++- local function trim(s)
+++-   return (s:gsub("^%s+", ""):gsub("%s+$", ""))
+++- end
+++-@@ -61,9 +58,7 @@ local function clean_display_text(s)
+++-     end)
+++-   end
+++- 
+++--  -- Remove remaining LaTeX commands:
+++--  -- \mathcal, \alpha, \leq, \to, \subset, etc.
+++--  -- Remove some noisy math punctuation/operators.
+++-+  -- Remove remaining noisy math punctuation/operators.
+++-   s = s:gsub("[=<>|]", " ")
+++-   s = s:gsub("[%[%]%(%)]+", " ")
+++- 
+++-@@ -79,7 +74,6 @@ local function find_sentence_end(line, start_pos)
+++-       local next_char = line:sub(i + 1, i + 1)
+++- 
+++-       -- Match a period followed by whitespace or end of line.
+++--      -- This roughly preserves the behavior of your old ". " splitting.
+++-       if next_char == "" or next_char:match("%s") then
+++-         return i
+++-       end
+++-@@ -99,7 +93,7 @@ local function jump_to_entry(entry)
+++-   end
+++- 
+++-   local line_count = vim.api.nvim_buf_line_count(0)
+++--  local lnum = math.max(1, math.min(entry.lnum, line_count))
+++-+  local lnum = math.max(1, math.min(entry.lnum or 1, line_count))
+++- 
+++-   vim.api.nvim_win_set_cursor(0, { lnum, 0 })
+++-   vim.cmd("normal! zvzz")
+++-@@ -139,12 +133,13 @@ local function collect_sentences()
+++- 
+++-     if text ~= "" then
+++-       table.insert(entries, {
+++-+        kind = "sentence",
+++-         bufnr = bufnr,
+++-         filename = filename,
+++-         shortname = shortname,
+++-         lnum = start_lnum,
+++-         text = text,
+++--        display = shortname .. ":" .. start_lnum .. ": " .. text,
+++-+        display = string.format("[SENT] %s:%d: %s", shortname, start_lnum, text),
+++-       })
+++-     end
+++- 
+++-@@ -175,11 +170,133 @@ local function collect_sentences()
+++-   return entries
+++- end
+++- 
+++-+local function parse_ctags_line(line, fallback_filename)
+++-+  -- Typical ctags format:
+++-+  -- name<TAB>file<TAB>excmd;"<TAB>kind<TAB>line:123<TAB>...
+++-+  local fields = vim.split(line, "\t", { plain = true })
+++-+
+++-+  local name = fields[1]
+++-+  local file = fields[2] or fallback_filename
+++-+  local kind = fields[4] or "tag"
+++-+  local lnum = nil
+++-+
+++-+  for _, field in ipairs(fields) do
+++-+    local n = field:match("^line:(%d+)$")
+++-+    if n then
+++-+      lnum = tonumber(n)
+++-+      break
+++-+    end
+++-+  end
+++-+
+++-+  -- Fallback for some ctags variants.
+++-+  if not lnum then
+++-+    for _, field in ipairs(fields) do
+++-+      local n = field:match("(%d+)")
+++-+      if n and field:match("^line") then
+++-+        lnum = tonumber(n)
+++-+        break
+++-+      end
+++-+    end
+++-+  end
+++-+
+++-+  if not name or name == "" or not lnum then
+++-+    return nil
+++-+  end
+++-+
+++-+  return {
+++-+    name = name,
+++-+    file = file,
+++-+    kind = kind,
+++-+    lnum = lnum,
+++-+  }
+++-+end
+++-+
+++-+local function collect_btags()
+++-+  local bufnr = vim.api.nvim_get_current_buf()
+++-+  local filename = vim.api.nvim_buf_get_name(bufnr)
+++-+
+++-+  if filename == "" then
+++-+    return {}
+++-+  end
+++-+
+++-+  if vim.fn.executable("ctags") == 0 then
+++-+    return {}
+++-+  end
+++-+
+++-+  local shortname = vim.fn.fnamemodify(filename, ":t")
+++-+
+++-+  -- Ask ctags for stdout output, unsorted, with line numbers.
+++-+  --
+++-+  -- This mirrors the idea of fzf-lua btags: buffer-local tags,
+++-+  -- dynamically generated. fzf-lua's btags picker has ctags_autogen=true
+++-+  -- by default, but here we need the tags mixed into our own custom picker.
+++-+  local cmd = {
+++-+    "ctags",
+++-+    "-f",
+++-+    "-",
+++-+    "--sort=no",
+++-+    "--fields=+n",
+++-+    filename,
+++-+  }
+++-+
+++-+  local raw = vim.fn.systemlist(cmd)
+++-+
+++-+  if vim.v.shell_error ~= 0 then
+++-+    return {}
+++-+  end
+++-+
+++-+  local entries = {}
+++-+
+++-+  for _, line in ipairs(raw) do
+++-+    if line ~= "" and not line:match("^%!_TAG_") then
+++-+      local tag = parse_ctags_line(line, filename)
+++-+
+++-+      if tag then
+++-+        local display = string.format(
+++-+          "[TAG]  %s:%d: %s  <%s>",
+++-+          shortname,
+++-+          tag.lnum,
+++-+          tag.name,
+++-+          tag.kind
+++-+        )
+++-+
+++-+        table.insert(entries, {
+++-+          kind = "tag",
+++-+          bufnr = bufnr,
+++-+          filename = filename,
+++-+          shortname = shortname,
+++-+          lnum = tag.lnum,
+++-+          text = tag.name,
+++-+          tag_kind = tag.kind,
+++-+          display = display,
+++-+        })
+++-+      end
+++-+    end
+++-+  end
+++-+
+++-+  return entries
+++-+end
+++-+
+++-+local function collect_entries()
+++-+  local entries = {}
+++-+
+++-+  -- Put tags first, because they are navigational anchors.
+++-+  for _, entry in ipairs(collect_btags()) do
+++-+    table.insert(entries, entry)
+++-+  end
+++-+
+++-+  for _, entry in ipairs(collect_sentences()) do
+++-+    table.insert(entries, entry)
+++-+  end
+++-+
+++-+  return entries
+++-+end
+++-+
+++- function M.pick_sentence()
+++--  local entries = collect_sentences()
+++-+  local entries = collect_entries()
+++- 
+++-   if #entries == 0 then
+++--    vim.notify("No sentences found", vim.log.levels.INFO)
+++-+    vim.notify("No sentences or buffer tags found", vim.log.levels.INFO)
+++-     return
+++-   end
+++- 
+++-@@ -192,7 +309,7 @@ function M.pick_sentence()
+++-   end
+++- 
+++-   require("fzf-lua").fzf_exec(display_lines, {
+++--    prompt = "Sentences> ",
+++-+    prompt = "Sentences/Tags> ",
+++-     previewer = false,
+++- 
+++-     fzf_opts = {
+++-@@ -215,7 +332,11 @@ function M.pick_sentence()
+++-   })
+++- end
+++- 
+++-+-- Clearer new name.
+++-+M.pick_sentence_or_tag = M.pick_sentence
+++-+
+++- -- Optional compatibility with your old direct style:
+++- _G.WriteSentence = M.pick_sentence
+++-+_G.PickSentenceOrTag = M.pick_sentence_or_tag
+++- 
+++- return M
++++diff --git a/config/nvimnew/lua/keymaps.lua b/config/nvimnew/lua/keymaps.lua
++++index 21c0d0c3d..87cc6348a 100644
++++--- a/config/nvimnew/lua/keymaps.lua
+++++++ b/config/nvimnew/lua/keymaps.lua
++++@@ -236,6 +236,7 @@ require("fzf-lua").setup({
++++     },
++++   },
++++ })
+++++require("fzf-lua").register_ui_select()
++++ vim.cmd([[
++++ smap <silent><expr> <C-E> luasnip#choice_active() ? '<Plug>luasnip-next-choice' : '<C-E>'
++++ " Replace  default dictionary completion with fzf-based fuzzy completion
++diff --git a/config/nvimnew/spell/en.utf-8.add b/config/nvimnew/spell/en.utf-8.add
++index cd643914e..8a4e8a3a5 100644
++--- a/config/nvimnew/spell/en.utf-8.add
+++++ b/config/nvimnew/spell/en.utf-8.add
++@@ -1040,3 +1040,5 @@ Anosov
++ nonvanishing
++ nonpositivity
++ multiplicativity
+++monodromy
+++hyperbolization
++diff --git a/config/nvimnew/spell/en.utf-8.add.spl b/config/nvimnew/spell/en.utf-8.add.spl
++index 480f90fd8..c5467f8f6 100644
++Binary files a/config/nvimnew/spell/en.utf-8.add.spl and b/config/nvimnew/spell/en.utf-8.add.spl differ
