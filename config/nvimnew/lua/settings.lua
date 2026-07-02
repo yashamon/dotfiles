@@ -139,36 +139,40 @@ require('leap.user').set_repeat_keys('<enter>', '<backspace>', {
       modes = {'n', 'x', 'o'},
     })
 
-require('leap').setup {
-	
--- max_phase_one_targets = nil,
-highlight_unlabeled_phase_one_targets = false,
-max_highlighted_traversal_targets = 20,
-case_sensitive = false,
-substitute_chars = {},
-safe_labels = { 'f', 'n', 'u', 't', 'j', 'k', 'g', ';', 'e', 'z', 'o', 'm', 'b', "/", "S", "F", "N", "L", "H", "M", "U", "G", "T", "?", "Z" },
--- labels = { 'f', 'n', 'u', 't', 'j', 'k', 'g', ';', 'e', 'z', 'o', 'm', 'b' },
-special_keys = {
-  repeat_search = '<enter>',
-  next_phase_one_target = '<enter>',
-  next_target = {'<m-j>', '\''},
-  prev_target = {'<m-k>', ','},
-  next_group = '<space>',
-  prev_group = '<tab>',
-  multi_accept = '<enter>',
-  multi_revert = '<backspace>',
-},
-  -- Obvious candidates are braces and quotes ('([{', ')]}', '`"\'').
-  equivalence_classes =
-  {
-      {" ","\r", "\n"},
-			{'\'','"', ':', '=', '#', '&', '%','^', '_', '<', '>', '?', '|', '!', '*', '+', '-', '`', '/', '\\', ',', '.', ';', ']', '[', '}', '{', ')', '(', '$', '.', '~', ','}
-	}
--- {'\'','"', ':', '=', '#', '&', '%','^', '_', '<', '>', '?', '|', '!', '*', '+', '-', '`', '/', '\\', ',', '.', ';', ']', '[', '}', '{', ')', '(', '$'}
-  -- Leaving the] $appropriate list emapty effectively disables "smart" mode,
-  -- and forces auto-jump to be on or off.%
-}
-vim.api.nvim_set_hl(0, 'LeapMatch', { fg='white' })
+require("leap").setup({
+  highlight_unlabeled_phase_one_targets = false,
+  max_highlighted_traversal_targets = 20,
+  case_sensitive = false,
+  substitute_chars = {},
+
+  safe_labels = {
+    "f", "n", "u", "t", "j", "k", "g", ";", "e", "z", "o", "m", "b",
+    "/", "S", "F", "N", "L", "H", "M", "U", "G", "T", "?", "Z",
+  },
+
+  -- Current leap.nvim option name. Use this, not `special_keys`.
+  keys = {
+    -- During an active Leap selection:
+    -- Alt-j goes to next target, Alt-k goes to previous target.
+    --
+    -- The second entries "'" and "," are optional printable aliases.
+    -- They also help Leap display traversal labels sanely.
+    next_target = { "<M-j>", "'" },
+    prev_target = { "<M-k>", "," },
+
+    next_group = "<space>",
+    prev_group = "<tab>",
+  },
+
+  equivalence_classes = {
+    { " ", "\r", "\n" },
+    {
+      "'", '"', ":", "=", "#", "&", "%", "^", "_", "<", ">", "?",
+      "|", "!", "*", "+", "-", "`", "/", "\\", ",", ".", ";",
+      "]", "[", "}", "{", ")", "(", "$", "~",
+    },
+  },
+})vim.api.nvim_set_hl(0, 'LeapMatch', { fg='white' })
 
 require("todo-comments").setup {
     -- your configuration comes here
